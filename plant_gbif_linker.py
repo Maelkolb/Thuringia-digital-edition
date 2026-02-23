@@ -4,24 +4,21 @@ GBIF Link Adder for Plant Entities - Thuringia Digital Edition
 This script adds GBIF links to plant entities in the HTML document.
 It reads the German->Latin mappings from a CSV file (plant_mappings.csv).
 
-Modelled after the animal GBIF link adder script.
+IMPORTANT: Uses regex-based insertion (NOT BeautifulSoup) to avoid
+corrupting JavaScript, inline JSON, and CSS in the HTML file.
 
 Usage in Google Colab:
-1. Mount Google Drive:
-   from google.colab import drive
-   drive.mount('/content/drive')
+1. Clone the repo:
+   !git clone --branch claude/match-plants-gbif-b1sNr https://github.com/Maelkolb/Thuringia-digital-edition.git
 
-2. Upload plant_mappings.csv to /content/ (or adjust MAPPING_CSV_PATH)
-
-3. Adjust INPUT_PATH and OUTPUT_PATH below
-
-4. Run this script
+2. Run:
+   %run /content/Thuringia-digital-edition/plant_gbif_linker.py
 """
 
 # ============================================
 # CELL 1: Install dependencies
 # ============================================
-# !pip install beautifulsoup4 requests
+# !pip install requests
 
 # ============================================
 # CELL 2: Imports and Configuration
@@ -29,13 +26,14 @@ Usage in Google Colab:
 import requests
 import time
 import csv
-from bs4 import BeautifulSoup
-from typing import Optional, Dict, List, Tuple
+import re
+import html
+from typing import Optional, Dict, Tuple
 
 # File paths (ADJUST THESE)
 INPUT_PATH = "/content/drive/MyDrive/Thuringia_digital_edition_output/digital_edition_reussjl_LATEST.html"
 OUTPUT_PATH = "/content/digital_edition_reussjl_plants_linked.html"
-MAPPING_CSV_PATH = "/content/plant_mappings.csv"  # Upload this file to Colab
+MAPPING_CSV_PATH = "/content/plant_mappings.csv"
 
 # Categories that should get GBIF links (not skipped)
 LINKABLE_CATEGORIES = {
@@ -118,14 +116,13 @@ def get_gbif_url(usage_key: int) -> str:
     return f"https://www.gbif.org/species/{usage_key}"
 
 # ============================================
-# CELL 5: HTML Processing Functions
+# CELL 5: HTML Processing Functions (Regex-based)
 # ============================================
 
 def create_gbif_link_html(url: str) -> str:
     """
     Create the HTML for a GBIF link.
-    Matches the existing format used for plant GBIF links in the edition
-    (with data-title-de and data-title-en attributes).
+    Matches the existing format used for plant/animal GBIF links in the edition.
     """
     return (
         f'<a class="gbif-link" '
@@ -139,131 +136,139 @@ def create_gbif_link_html(url: str) -> str:
         f'\U0001f517</a>'
     )
 
-def has_gbif_link(mark_tag) -> bool:
-    """Check if a mark tag already has a GBIF link."""
-    next_sib = mark_tag.next_sibling
-    if next_sib and hasattr(next_sib, 'name') and next_sib.name == 'a':
-        return 'gbif-link' in next_sib.get('class', [])
-    return False
+# Regex pattern to match Plant entity <mark> tags
+# Captures the full mark tag and the text content inside it
+PLANT_MARK_PATTERN = re.compile(
+    r'(<mark\s+class="entity"\s+data-type="Plant"[^>]*>)(.*?)(</mark>)'
+    r'(\s*<a\s+class="gbif-link"[^>]*>[^<]*</a>)?',
+    re.DOTALL
+)
 
-def should_get_link(category: str) -> bool:
-    """Determine if a category should receive a GBIF link."""
-    return category in LINKABLE_CATEGORIES
+def extract_text_from_html(html_fragment: str) -> str:
+    """Extract plain text from a small HTML fragment (strip tags)."""
+    return re.sub(r'<[^>]+>', '', html_fragment).strip()
 
 # ============================================
 # CELL 6: Main Processing Function
 # ============================================
 
 def process_html():
-    """Main function to process the HTML and add GBIF links to plant entities."""
+    """
+    Main function to process the HTML and add GBIF links to plant entities.
+    Uses regex-based replacement to preserve all JS/CSS/JSON in the HTML intact.
+    """
 
     print("=" * 70)
     print("GBIF LINK ADDER FOR PLANT ENTITIES")
     print("Thuringia Digital Edition")
+    print("(Regex-based - preserves JS/CSS/JSON)")
     print("=" * 70)
 
     # Load mappings from CSV
     print()
     mappings = load_mappings_from_csv(MAPPING_CSV_PATH)
 
+    # Pre-query GBIF for all linkable species to build a lookup table
+    # This avoids querying inside the regex callback
+    print("\nQuerying GBIF API for all linkable species...")
+    print("-" * 70)
+
+    gbif_lookup = {}  # german_name -> gbif_link_html or None
+    processed_species = {}
+    not_found_in_gbif = []
+
+    for german_name, (latin_name, category) in mappings.items():
+        if 'SKIP' in category or category == 'UNCLEAR':
+            continue
+        if category not in LINKABLE_CATEGORIES:
+            continue
+        if not latin_name:
+            continue
+
+        usage_key = search_gbif(latin_name)
+        if usage_key:
+            gbif_url = get_gbif_url(usage_key)
+            gbif_lookup[german_name] = create_gbif_link_html(gbif_url)
+            processed_species[german_name] = (latin_name, usage_key)
+            print(f"  \u2713 {german_name} \u2192 {latin_name} (GBIF: {usage_key})")
+        else:
+            not_found_in_gbif.append((german_name, latin_name))
+            print(f"  \u2717 {german_name} \u2192 {latin_name} (NOT FOUND IN GBIF)")
+
+        time.sleep(0.1)
+
+    print(f"\nGBIF lookup ready: {len(gbif_lookup)} species with links")
+
     # Statistics
     stats = {
         'total_plants': 0,
         'already_linked': 0,
         'links_added': 0,
-        'skipped_generic': 0,
-        'skipped_compound': 0,
-        'skipped_named_tree': 0,
-        'skipped_epithet': 0,
-        'skipped_unclear': 0,
-        'skipped_other': 0,
+        'skipped_category': 0,
         'not_in_mapping': 0,
         'gbif_not_found': 0,
     }
-
-    # Track which species were processed
-    processed_species = {}
-    not_found_in_gbif = []
     not_in_mapping_list = []
 
+    # Read the HTML as a raw string
     print(f"\nReading HTML: {INPUT_PATH}")
     with open(INPUT_PATH, 'r', encoding='utf-8') as f:
         html_content = f.read()
 
-    soup = BeautifulSoup(html_content, 'html.parser')
+    print(f"File size: {len(html_content):,} bytes")
 
-    # Find all plant entity marks
-    plant_marks = soup.find_all('mark', class_='entity', attrs={'data-type': 'Plant'})
-    stats['total_plants'] = len(plant_marks)
+    # Count total plant marks
+    stats['total_plants'] = len(re.findall(
+        r'<mark\s+class="entity"\s+data-type="Plant"', html_content
+    ))
     print(f"Found {stats['total_plants']} plant annotations\n")
 
-    print("Processing plants...")
+    print("Inserting GBIF links via regex replacement...")
     print("-" * 70)
 
-    for mark in plant_marks:
-        german_name = mark.get_text().strip()
+    def replace_plant_mark(match):
+        """Callback for regex substitution."""
+        mark_open = match.group(1)   # <mark class="entity" data-type="Plant" ...>
+        mark_inner = match.group(2)  # text content
+        mark_close = match.group(3)  # </mark>
+        existing_link = match.group(4)  # existing <a class="gbif-link"...> or None
 
-        # Skip if already has GBIF link
-        if has_gbif_link(mark):
+        german_name = extract_text_from_html(mark_inner).strip()
+
+        # Already has a GBIF link - keep as-is
+        if existing_link:
             stats['already_linked'] += 1
-            continue
+            return match.group(0)
 
-        # Check if in mapping
+        # Not in mapping
         if german_name not in mappings:
             stats['not_in_mapping'] += 1
             if german_name not in not_in_mapping_list:
                 not_in_mapping_list.append(german_name)
-                print(f"  \u26a0\ufe0f  NOT IN MAPPING: {german_name}")
-            continue
+            return match.group(0)
 
-        latin_name, category = mappings[german_name]
+        _, category = mappings[german_name]
 
         # Skip based on category
-        if 'SKIP' in category:
-            if 'GENERIC' in category:
-                stats['skipped_generic'] += 1
-            elif 'COMPOUND' in category:
-                stats['skipped_compound'] += 1
-            elif 'NAMED_TREE' in category:
-                stats['skipped_named_tree'] += 1
-            elif 'EPITHET' in category:
-                stats['skipped_epithet'] += 1
-            else:
-                stats['skipped_other'] += 1
-            continue
+        if 'SKIP' in category or category == 'UNCLEAR' or category not in LINKABLE_CATEGORIES:
+            stats['skipped_category'] += 1
+            return match.group(0)
 
-        if category == 'UNCLEAR':
-            stats['skipped_unclear'] += 1
-            continue
+        # Has a GBIF link to add?
+        if german_name in gbif_lookup:
+            stats['links_added'] += 1
+            return mark_open + mark_inner + mark_close + gbif_lookup[german_name]
+        else:
+            stats['gbif_not_found'] += 1
+            return match.group(0)
 
-        # Should get a link - query GBIF
-        if latin_name:
-            usage_key = search_gbif(latin_name)
-
-            if usage_key:
-                gbif_url = get_gbif_url(usage_key)
-                link_html = create_gbif_link_html(gbif_url)
-                link_tag = BeautifulSoup(link_html, 'html.parser')
-                mark.insert_after(link_tag)
-                stats['links_added'] += 1
-
-                if german_name not in processed_species:
-                    processed_species[german_name] = (latin_name, usage_key)
-                    print(f"  \u2713 {german_name} \u2192 {latin_name} (GBIF: {usage_key})")
-            else:
-                stats['gbif_not_found'] += 1
-                if latin_name not in [x[1] for x in not_found_in_gbif]:
-                    not_found_in_gbif.append((german_name, latin_name))
-                    print(f"  \u2717 {german_name} \u2192 {latin_name} (NOT FOUND IN GBIF)")
-
-        # Be nice to the API
-        time.sleep(0.1)
+    # Apply regex replacement
+    html_output = PLANT_MARK_PATTERN.sub(replace_plant_mark, html_content)
 
     # Save the modified HTML
-    print(f"\n{'-' * 70}")
-    print(f"Saving to: {OUTPUT_PATH}")
+    print(f"\nSaving to: {OUTPUT_PATH}")
     with open(OUTPUT_PATH, 'w', encoding='utf-8') as f:
-        f.write(str(soup))
+        f.write(html_output)
 
     # Print summary
     print("\n" + "=" * 70)
@@ -272,12 +277,7 @@ def process_html():
     print(f"Total plant annotations:      {stats['total_plants']}")
     print(f"Already had GBIF links:       {stats['already_linked']}")
     print(f"GBIF links added:             {stats['links_added']}")
-    print(f"Skipped (generic terms):      {stats['skipped_generic']}")
-    print(f"Skipped (compound terms):     {stats['skipped_compound']}")
-    print(f"Skipped (named trees):        {stats['skipped_named_tree']}")
-    print(f"Skipped (bare epithets):      {stats['skipped_epithet']}")
-    print(f"Skipped (other):              {stats['skipped_other']}")
-    print(f"Skipped (unclear):            {stats['skipped_unclear']}")
+    print(f"Skipped (category):           {stats['skipped_category']}")
     print(f"Not in mapping CSV:           {stats['not_in_mapping']}")
     print(f"Not found in GBIF:            {stats['gbif_not_found']}")
 
