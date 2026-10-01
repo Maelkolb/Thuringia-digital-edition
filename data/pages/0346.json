@@ -59,8 +59,7 @@
      "Person"
     ]
    ],
-   "continued": true,
-   "sec": "t1-5-2"
+   "continued": true
   },
   {
    "id": "b2",
@@ -183,16 +182,14 @@
      1686,
      "Person"
     ]
-   ],
-   "sec": "t1-5-2"
+   ]
   },
   {
    "id": "b3",
    "type": "paragraph",
    "src": 2,
    "text": "**) Seine Verwandtschaft mit den Hohenstaufen zeigt folgende Tabelle:",
-   "spans": [],
-   "sec": "t1-5-2"
+   "spans": []
   },
   {
    "id": "b4",
@@ -205,9 +202,7 @@
      19,
      "Person"
     ]
-   ],
-   "sec": "t1-5-2",
-   "level": 5
+   ]
   },
   {
    "id": "b5",
@@ -360,8 +355,7 @@
      ""
     ]
    ],
-   "caption": null,
-   "sec": "t1-5-2"
+   "caption": null
   }
  ],
  "footnotes": [
@@ -401,13 +395,5 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-04T13:58:24.691346",
   "early_schema": false
- },
- "section_path": [
-  "t1",
-  "t1-5",
-  "t1-5-2"
- ],
- "sections": [
-  "t1-5-2"
- ]
+ }
 }

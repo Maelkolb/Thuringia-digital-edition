@@ -28,9 +28,7 @@
      26,
      "Location"
     ]
-   ],
-   "sec": "t1-5-3",
-   "level": 5
+   ]
   },
   {
    "id": "b2",
@@ -171,7 +169,7 @@
        ]
       },
       {
-       "text": "Eliſ. Magdalena, geb. 1601, † 1641.",
+       "text": "Elis. Magdalena, geb. 1601, † 1641.",
        "spans": [
         [
          0,
@@ -286,7 +284,7 @@
        ]
       },
       {
-       "text": "§ IV., g. 1604, † 1628.\n§ V., g. u. † 1606.\n§ VI., g. u. † 1606.\n§ VII., g. 1610, † 1611.\n§ VIII., g. u. † 1613.",
+       "text": "H. IV., g. 1604, † 1628.\nH. V., g. u. † 1606.\nH. VI., g. u. † 1606.\nH. VII., g. 1610, † 1611.\nH. VIII., g. u. † 1613.",
        "spans": []
       }
      ]
@@ -343,7 +341,7 @@
        "spans": []
       },
       {
-       "text": "§ II., geb. u. † 1648.",
+       "text": "H. II., geb. u. † 1648.",
        "spans": []
       }
      ]
@@ -382,7 +380,7 @@
        ]
       },
       {
-       "text": "§ VI., geb. 1651, † 1652.",
+       "text": "H. VI., geb. 1651, † 1652.",
        "spans": []
       },
       {
@@ -396,11 +394,11 @@
        ]
       },
       {
-       "text": "§ XIII., geb. 1673, † 1674.",
+       "text": "H. XIII., geb. 1673, † 1674.",
        "spans": []
       },
       {
-       "text": "§ XIV., geb. 1674, † 1674.",
+       "text": "H. XIV., geb. 1674, † 1674.",
        "spans": []
       }
      ]
@@ -409,19 +407,19 @@
      "role": "body",
      "cells": [
       {
-       "text": "§ XVI., geb. 1676, † 1677.",
+       "text": "H. XVI., geb. 1676, † 1677.",
        "spans": []
       },
       {
-       "text": "§ XVIII., geb. 1677, † 1735.",
+       "text": "H. XVIII., geb. 1677, † 1735.",
        "spans": []
       },
       {
-       "text": "§ XX., geb. 1678, † 1689.",
+       "text": "H. XX., geb. 1678, † 1689.",
        "spans": []
       },
       {
-       "text": "§ XXII., geb. 1680, † 1731.",
+       "text": "H. XXII., geb. 1680, † 1731.",
        "spans": []
       },
       {
@@ -455,7 +453,7 @@
        ]
       },
       {
-       "text": "§ XXVII., geb. 1683, † 1706.",
+       "text": "H. XXVII., geb. 1683, † 1706.",
        "spans": []
       }
      ]
@@ -580,12 +578,21 @@
      "null"
     ]
    ],
-   "caption": null,
-   "sec": "t1-5-3"
+   "caption": null
   }
  ],
  "footnotes": [],
  "corrections": [
+  {
+   "rule": "resolve_long_s"
+  },
+  {
+   "rule": "facsimile_correction",
+   "before": "§",
+   "after": "H.",
+   "source": "A12",
+   "n": 14
+  },
   {
    "rule": "table_no_header_row",
    "note": "first row is data (legacy edition rendered it as <th>)",
@@ -597,13 +604,5 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-05T12:06:17.590396",
   "early_schema": false
- },
- "section_path": [
-  "t1",
-  "t1-5",
-  "t1-5-3"
- ],
- "sections": [
-  "t1-5-3"
- ]
+ }
 }

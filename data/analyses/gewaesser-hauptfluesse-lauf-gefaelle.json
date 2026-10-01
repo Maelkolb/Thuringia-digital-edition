@@ -29,8 +29,8 @@
   "en": "For the Saale, Weida and White Elster Brückner states how long their course in the country is as the crow flies and along the windings, and at what height they enter and leave the country. From this the ratio of windings to straight line and the fall per Stunde of course can be computed. For the Elster he also gives seven heights along its course through the Unterland."
  },
  "method": {
-  "de": "Längen (S. 46, 50, 51) in »Stunden« und Höhen in Pariser Fuß (S. 46, 49, 51) sind den Gewässerbeschreibungen entnommen. Die Brüche »3 1/2« und »4 2/3« wurden in Dezimalzahlen umgesetzt, die Saale-Länge »über 11 Stunden« als 11 gerechnet (Untergrenze). Windungsverhältnis = Lauf in der Windung / Lauf im Luftmaß; Gefälle = Höhe beim Eintritt minus Höhe beim Austritt; Gefälle je Stunde = Gefälle / Lauf in der Windung. Für die Elster-Höhenreihe wurden die sieben Ortsangaben in der Reihenfolge des Textes übernommen; Entfernungen zwischen den Orten gibt Brückner nicht an.",
-  "en": "Lengths (pp. 46, 50, 51) in “Stunden” and heights in Paris feet (pp. 46, 49, 51) are taken from the river descriptions. The fractions “3 1/2” and “4 2/3” were converted to decimals; the Saale length “over 11 Stunden” was taken as 11 (lower bound). Sinuosity ratio = course along the windings / course as the crow flies; fall = height at entry minus height at exit; fall per Stunde = fall / course along the windings. For the Elster height series the seven place names were taken in the order of the text; Brückner gives no distances between them."
+  "de": "Längen (S. 46, 50, 51) in »Stunden« und Höhen in preuß. Dezimalfuß (S. 46, 49, 51; Einheit nach Brückners Fußnote S. 11) sind den Gewässerbeschreibungen entnommen. Die Brüche »3 1/2« und »4 2/3« wurden in Dezimalzahlen umgesetzt, die Saale-Länge »über 11 Stunden« als 11 gerechnet (Untergrenze). Windungsverhältnis = Lauf in der Windung / Lauf im Luftmaß; Gefälle = Höhe beim Eintritt minus Höhe beim Austritt; Gefälle je Stunde = Gefälle / Lauf in der Windung. Für die Elster-Höhenreihe wurden die sieben Ortsangaben in der Reihenfolge des Textes übernommen; Entfernungen zwischen den Orten gibt Brückner nicht an.",
+  "en": "Lengths (pp. 46, 50, 51) in “Stunden” and heights in Prussian decimal feet (pp. 46, 49, 51; unit according to Brückner's footnote on p. 11) are taken from the river descriptions. The fractions “3 1/2” and “4 2/3” were converted to decimals; the Saale length “over 11 Stunden” was taken as 11 (lower bound). Sinuosity ratio = course along the windings / course as the crow flies; fall = height at entry minus height at exit; fall per Stunde = fall / course along the windings. For the Elster height series the seven place names were taken in the order of the text; Brückner gives no distances between them."
  },
  "findings": [
   {
@@ -42,8 +42,8 @@
    "en": "Fall per Stunde of course is greatest for the Weida at 61.4', for the Saale at most 24.3', and smallest for the Elster at 14.1'. The Weida thus falls at least 2.5 times as steeply per Stunde as the Saale and 4.4 times as steeply as the Elster."
   },
   {
-   "de": "Die Elster sinkt im Unterland von 525' auf 459', insgesamt 66' (21 m). Der größte Höhenverlust einer Teilstrecke liegt zwischen Milbitz und Köstritz: 27' oder 41 % des gesamten Gefälles.",
-   "en": "In the Unterland the Elster descends from 525' to 459', 66' in all (21 m). The largest drop in a single reach lies between Milbitz and Köstritz: 27' or 41 % of the total fall."
+   "de": "Die Elster sinkt im Unterland von 525' auf 459', insgesamt 66' (25 m). Der größte Höhenverlust einer Teilstrecke liegt zwischen Milbitz und Köstritz: 27' oder 41 % des gesamten Gefälles.",
+   "en": "In the Unterland the Elster descends from 525' to 459', 66' in all (25 m). The largest drop in a single reach lies between Milbitz and Köstritz: 27' or 41 % of the total fall."
   },
   {
    "de": "Bei der Saale stimmt Brückners gedrucktes Gefälle von 267' genau mit der Differenz der beiden genannten Höhen (1190' − 923') überein; für Weida und Elster ist das Gefälle hier aus den Höhenangaben berechnet.",
@@ -53,7 +53,7 @@
  "caveats": [
   {
    "de": "Brückner erklärt die Längeneinheit »Stunde« nicht (vermutlich Wegstunde); die Verhältniszahlen sind davon unabhängig, absolute Kilometerwerte lassen sich aus seinem Text nicht belegen.",
-   "en": "Brückner does not define the unit “Stunde” (presumably a walking hour); the ratios are independent of it, but absolute kilometre values cannot be derived from his text."
+   "en": "Brückner does not define the unit “Stunde” (presumably a walking hour); the ratios are independent of it, but absolute kilometer values cannot be derived from his text."
   },
   {
    "de": "Die Saale-Länge ist als »über 11 Stunden« angegeben; Windungsverhältnis und Gefälle je Stunde sind deshalb eine Unter- bzw. Obergrenze.",
@@ -66,10 +66,10 @@
  ],
  "conversions": [
   {
-   "from": "Pariser Fuß",
+   "from": "preuß. Dezimalfuß (Höhen)",
    "to": "m",
-   "factor_or_formula": "m = Fuß × 0.32484",
-   "reference": "Brückner S. 831: 443,296 pariser Linien = 1 Meter; 1 Fuß = 144 Linien"
+   "factor_or_formula": "m = Dezimalfuß × 0.3766242 (1 Dezimalfuß = 1/10 preuß. Ruthe)",
+   "reference": "Brückner S. 11 Fußnote (Dezimalfuß, Pegel Swinemünde); S. 831: 1 preuß. Ruthe = 3,766242 m"
   }
  ],
  "datasets": [
@@ -118,7 +118,7 @@
       "en": "Height at entry"
      },
      "type": "number",
-     "unit": "Pariser Fuß"
+     "unit": "preuß. Dezimalfuß"
     },
     {
      "name": "exit_ft",
@@ -127,7 +127,7 @@
       "en": "Height at exit"
      },
      "type": "number",
-     "unit": "Pariser Fuß"
+     "unit": "preuß. Dezimalfuß"
     },
     {
      "name": "fall_ft",
@@ -136,7 +136,7 @@
       "en": "Fall"
      },
      "type": "number",
-     "unit": "Pariser Fuß",
+     "unit": "preuß. Dezimalfuß",
      "derived": true,
      "note": "Eintrittshöhe minus Austrittshöhe; für die Saale auch im Druck: 267'."
     },
@@ -158,7 +158,7 @@
       "en": "Fall per Stunde of course"
      },
      "type": "number",
-     "unit": "Pariser Fuß je Stunde",
+     "unit": "preuß. Dezimalfuß je Stunde",
      "derived": true,
      "note": "Gefälle / Lauf in der Windung; bei der Saale Obergrenze."
     },
@@ -183,7 +183,7 @@
      267.0,
      1.83,
      24.3,
-     86.7
+     100.6
     ],
     [
      "Weida",
@@ -194,7 +194,7 @@
      215.0,
      1.75,
      61.4,
-     69.8
+     81.0
     ],
     [
      "Elster",
@@ -205,7 +205,7 @@
      66.0,
      1.33,
      14.1,
-     21.4
+     24.9
     ]
    ],
    "source_refs": [
@@ -346,7 +346,7 @@
       "en": "Height of the riverbed"
      },
      "type": "number",
-     "unit": "Pariser Fuß"
+     "unit": "preuß. Dezimalfuß"
     },
     {
      "name": "height_m",
@@ -365,7 +365,7 @@
       "en": "Drop since previous place"
      },
      "type": "number",
-     "unit": "Pariser Fuß",
+     "unit": "preuß. Dezimalfuß",
      "derived": true
     }
    ],
@@ -374,49 +374,49 @@
      1,
      "Eintritt ins Land",
      525.0,
-     170.5,
+     197.7,
      null
     ],
     [
      2,
      "Zwötzen",
      515.0,
-     167.3,
+     194.0,
      10.0
     ],
     [
      3,
      "Gera",
      503.0,
-     163.4,
+     189.4,
      12.0
     ],
     [
      4,
      "oberhalb Untermhaus",
      500.0,
-     162.4,
+     188.3,
      3.0
     ],
     [
      5,
      "Milbitz",
      495.0,
-     160.8,
+     186.4,
      5.0
     ],
     [
      6,
      "Köstritz",
      468.0,
-     152.0,
+     176.3,
      27.0
     ],
     [
      7,
      "Austritt aus dem Land",
      459.0,
-     149.1,
+     172.9,
      9.0
     ]
    ],
@@ -525,8 +525,8 @@
     "en": "Fall per Stunde of course"
    },
    "caption": {
-    "de": "Gefälle zwischen Eintritt und Austritt geteilt durch die Lauflänge in den Windungen (Pariser Fuß je Stunde). Der Saale-Wert ist eine Obergrenze.",
-    "en": "Fall between entry and exit divided by the course length along the windings (Paris feet per Stunde). The Saale value is an upper bound."
+    "de": "Gefälle zwischen Eintritt und Austritt geteilt durch die Lauflänge in den Windungen (Dezimalfuß je Stunde). Der Saale-Wert ist eine Obergrenze.",
+    "en": "Fall between entry and exit divided by the course length along the windings (decimal feet per Stunde). The Saale value is an upper bound."
    },
    "vegalite": {
     "height": 240,
@@ -549,8 +549,8 @@
       "field": "fall_per_stunde_ft",
       "type": "quantitative",
       "title": {
-       "de": "Gefälle in Pariser Fuß je Stunde Lauflänge",
-       "en": "Fall in Paris feet per Stunde of course"
+       "de": "Gefälle in Dezimalfuß je Stunde Lauflänge",
+       "en": "Fall in decimal feet per Stunde of course"
       }
      },
      "tooltip": [
@@ -594,8 +594,8 @@
     "en": "Height profile of the White Elster in the Unterland"
    },
    "caption": {
-    "de": "Höhe des Flussbetts an den sieben von Brückner genannten Stellen (Meter, aus Pariser Fuß). Die Abstände zwischen den Orten sind nicht bekannt; die Punkte stehen daher gleich weit auseinander.",
-    "en": "Height of the riverbed at the seven places Brückner names (metres, converted from Paris feet). The distances between the places are not known, so the points are spaced evenly."
+    "de": "Höhe des Flussbetts an den sieben von Brückner genannten Stellen (Meter, aus Dezimalfuß umgerechnet). Die Abstände zwischen den Orten sind nicht bekannt; die Punkte stehen daher gleich weit auseinander.",
+    "en": "Height of the riverbed at the seven places Brückner names (meters, converted from decimal feet). The distances between the places are not known, so the points are spaced evenly."
    },
    "vegalite": {
     "height": 280,
@@ -651,8 +651,8 @@
       {
        "field": "height_ft",
        "title": {
-        "de": "Höhe (Pariser Fuß)",
-        "en": "Height (Paris feet)"
+        "de": "Höhe (Dezimalfuß)",
+        "en": "Height (decimal feet)"
        }
       },
       {

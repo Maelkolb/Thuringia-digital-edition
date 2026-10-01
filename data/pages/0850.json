@@ -158,11 +158,11 @@
        "spans": []
       },
       {
-       "text": "Mauke, Rich.",
+       "text": "Maucke, Rich.",
        "spans": [
         [
          0,
-         12,
+         13,
          "Person"
         ]
        ]
@@ -237,11 +237,11 @@
        "spans": []
       },
       {
-       "text": "Meissner",
+       "text": "Meißner",
        "spans": [
         [
          0,
-         8,
+         7,
          "Person"
         ]
        ]
@@ -839,11 +839,11 @@
        "spans": []
       },
       {
-       "text": "Weissendorf.",
+       "text": "Weißendorf.",
        "spans": [
         [
          0,
-         11,
+         10,
          "Location"
         ]
        ]
@@ -2122,12 +2122,32 @@
      "Schwaara."
     ]
    ],
-   "caption": null,
-   "sec": "subscribenten"
+   "caption": null
   }
  ],
  "footnotes": [],
  "corrections": [
+  {
+   "rule": "facsimile_correction",
+   "before": "Weissendorf",
+   "after": "Weißendorf",
+   "source": "B01",
+   "n": 1
+  },
+  {
+   "rule": "facsimile_correction",
+   "before": "Meissner",
+   "after": "Meißner",
+   "source": "B01",
+   "n": 1
+  },
+  {
+   "rule": "facsimile_correction",
+   "before": "Mauke",
+   "after": "Maucke",
+   "source": "B01",
+   "n": 1
+  },
   {
    "rule": "table_pad_ragged_rows",
    "block": "b1"
@@ -2138,12 +2158,5 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-04T21:50:24.598161",
   "early_schema": false
- },
- "section_path": [
-  "back",
-  "subscribenten"
- ],
- "sections": [
-  "subscribenten"
- ]
+ }
 }

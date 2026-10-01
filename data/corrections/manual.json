@@ -15,6 +15,119 @@
         "text_en": "Thus in the original (misprint); the table of contents numbers this chapter 7)."
       },
       "reason": "p. 53 was extracted with the early schema that had no heading type; the chapter heading '6. Klima.' (sic) became a paragraph."
+    },
+    "56": {
+      "insert_blocks": [
+        {
+          "after_block_index": 0,
+          "block": {
+            "block_type": "table",
+            "content": {
+              "rows": 19,
+              "cols": 3,
+              "cells": [
+                [
+                  "",
+                  "Neue Quelle.",
+                  "Agnesquelle."
+                ],
+                [
+                  "Chlornatrium",
+                  "0,1897",
+                  "0,0311"
+                ],
+                [
+                  "Schwefelsaures Natron",
+                  "0,1618",
+                  "0,0619"
+                ],
+                [
+                  "Schwefelsaures Kali",
+                  "—",
+                  "0,0521"
+                ],
+                [
+                  "Natron, an organische Säuren gebunden",
+                  "0,0297",
+                  "—"
+                ],
+                [
+                  "Kali, an organische Säuren gebunden",
+                  "0,1253",
+                  "—"
+                ],
+                [
+                  "Zweifach kohlensaurer Kalk",
+                  "0,8061",
+                  "0,1244"
+                ],
+                [
+                  "„ kohlensaure Magnesia",
+                  "0,2807",
+                  "0,1307"
+                ],
+                [
+                  "„ kohlensaures Maganoxydul",
+                  "0,1377",
+                  "0,0780"
+                ],
+                [
+                  "„ kohlensaures Eisenoxydul",
+                  "0,5698",
+                  "0,4148"
+                ],
+                [
+                  "Schwefelsaurer Kalk",
+                  "0,0039",
+                  "0,0422"
+                ],
+                [
+                  "Thonerde",
+                  "0,0397",
+                  "0,0122"
+                ],
+                [
+                  "Lösliche Kieselsäure",
+                  "0,1259",
+                  "0,0061"
+                ],
+                [
+                  "Unlösliche organische Substanz",
+                  "0,0331",
+                  "0,0243"
+                ],
+                [
+                  "„ aufgeschwemmte Theile",
+                  "0,0198",
+                  "0,0304"
+                ],
+                [
+                  "Summa der festen Bestandtheile",
+                  "2,5232",
+                  "1,0082"
+                ],
+                [
+                  "Menge der freien Kohlensäure",
+                  "336,93 C. C.",
+                  "235,0 C. C."
+                ],
+                [
+                  "Temperatur",
+                  "9 1/2° R. = 11,9° C.",
+                  "9° R. = 11,25° C."
+                ],
+                [
+                  "Specifisches Gewicht",
+                  "1,00033",
+                  "1,0002"
+                ]
+              ],
+              "caption": null
+            }
+          }
+        }
+      ],
+      "reason": "p. 44 (early extraction schema) lost the printed table of Prof. Reichardt's analysis of the Lobenstein springs; restored from the facsimile (values read by subagent A02, checked against the printed sums 2,5232 / 1,0082 and re-checked by the editor)."
     }
   }
 }

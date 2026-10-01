@@ -84,14 +84,13 @@
      "Location"
     ]
    ],
-   "continued": true,
-   "sec": "t2-2"
+   "continued": true
   },
   {
    "id": "b2",
    "type": "paragraph",
    "src": 1,
-   "text": "Hirschbach (so auch im Volke), ein kleiner, einsamer, vom Walde umgrenzter, vom Weltverkehr abgeschlossener Ort, 1/4 Stunde SW. von Langenwetzendorf, zwischen Göttendorf und Mehla (Greiz), im niederböhmsdorfer Forste gelegen, besteht aus einzelnen Häusergruppen, welche am Walde und in zwei oberen Gründchen des Lohbächleins malerisch angebaut sind, und zählt 14 Privathäuser mit 8 Scheunen, in 22 Familien 99 (1861: 90) Seelen und an Vieh 1 Pf., 18 K., 16 Schw., 12 Z., 6 Bnst. 11 Häuser sind zwei- und 3 einstöckig, 4 mit Ziegeln, 4 mit Schindeln, die übrigen gemischt oder mit Schiefer gedeckt. Der Ort schult, kircht*) und begräbt nach Langenwetzendorf, wohin der sog. Leichenweg führt. Die kleine Gemeinde besitzt weder Vermögen noch Schulden und hat sehr wenige Bedürfnisse. Drei Wege führen nach den nächsten Ortschaften. Der Privatgrundbesitz begreift 6 kleine Bauerngüter (5 unter 40 und 1 unter 60 Morgen), 1 Grundstücksverband und 4 ledige Grundstücke. Hier 3 Bauern und 3 Feldhäusler, die übrigen sind blos Häusler und Kleinleute, darunter 1 Taglöhner. Feldbau und Weberei bilden die Nährquellen. Außer den Bauern finden sich 10 Webermeister und 1 Schneider. Die Mehrzahl der Einwohner ist unbemittelt. Die Flur hat einen beschränkten, nur 188 1/4 Morgen enthaltenden Umfang mit wenig körnerreichem Boden, daher hier kein Aufenthalt für Sperlinge. Der Kirsch- und Obstbau indeß wird mit",
+   "text": "Hirschbach (so auch im Volke), ein kleiner, einsamer, vom Walde umgrenzter, vom Weltverkehr abgeschlossener Ort, 1/4 Stunde SW. von Langenwetzendorf, zwischen Göttendorf und Mehla (Greiz), im niederböhmsdorfer Forste gelegen, besteht aus einzelnen Häusergruppen, welche am Walde und in zwei oberen Gründchen des Lohbächleins malerisch angebaut sind, und zählt 14 Privathäuser mit 8 Scheunen, in 22 Familien 99 (1861: 90) Seelen und an Vieh 1 Pf., 18 R., 16 Schw., 12 Z., 6 Bnst. 11 Häuser sind zwei- und 3 einstöckig, 4 mit Ziegeln, 4 mit Schindeln, die übrigen gemischt oder mit Schiefer gedeckt. Der Ort schult, kircht*) und begräbt nach Langenwetzendorf, wohin der sog. Leichenweg führt. Die kleine Gemeinde besitzt weder Vermögen noch Schulden und hat sehr wenige Bedürfnisse. Drei Wege führen nach den nächsten Ortschaften. Der Privatgrundbesitz begreift 6 kleine Bauerngüter (5 unter 40 und 1 unter 60 Morgen), 1 Grundstücksverband und 4 ledige Grundstücke. Hier 3 Bauern und 3 Feldhäusler, die übrigen sind blos Häusler und Kleinleute, darunter 1 Taglöhner. Feldbau und Weberei bilden die Nährquellen. Außer den Bauern finden sich 10 Webermeister und 1 Schneider. Die Mehrzahl der Einwohner ist unbemittelt. Die Flur hat einen beschränkten, nur 188 1/4 Morgen enthaltenden Umfang mit wenig körnerreichem Boden, daher hier kein Aufenthalt für Sperlinge. Der Kirsch- und Obstbau indeß wird mit",
    "spans": [
     [
      0,
@@ -148,8 +147,7 @@
      1358,
      "Animal"
     ]
-   ],
-   "sec": "t2-2"
+   ]
   }
  ],
  "footnotes": [
@@ -166,18 +164,19 @@
    ]
   }
  ],
- "corrections": [],
+ "corrections": [
+  {
+   "rule": "facsimile_correction",
+   "before": "18 K.",
+   "after": "18 R.",
+   "source": "G4",
+   "n": 1
+  }
+ ],
  "provenance": {
   "source": "colab-2026-03",
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-04T20:40:32.937770",
   "early_schema": false
- },
- "section_path": [
-  "t2",
-  "t2-2"
- ],
- "sections": [
-  "t2-2"
- ]
+ }
 }

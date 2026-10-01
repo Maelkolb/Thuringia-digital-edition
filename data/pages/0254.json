@@ -17,12 +17,7 @@
    "type": "heading",
    "src": 0,
    "text": "5. Bergbau.",
-   "spans": [],
-   "opens": [
-    "t1-3-5"
-   ],
-   "sec": "t1-3-5",
-   "level": 4
+   "spans": []
   },
   {
    "id": "b2",
@@ -50,8 +45,7 @@
      588,
      "Resource"
     ]
-   ],
-   "sec": "t1-3-5"
+   ]
   },
   {
    "id": "b3",
@@ -159,8 +153,7 @@
      938,
      "Natural Object"
     ]
-   ],
-   "sec": "t1-3-5"
+   ]
   },
   {
    "id": "b4",
@@ -203,8 +196,7 @@
      539,
      "Artefact"
     ]
-   ],
-   "sec": "t1-3-5"
+   ]
   },
   {
    "id": "b5",
@@ -228,8 +220,7 @@
      "Resource"
     ]
    ],
-   "continues": true,
-   "sec": "t1-3-5"
+   "continues": true
   }
  ],
  "footnotes": [
@@ -277,13 +268,5 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-04T13:25:47.965573",
   "early_schema": false
- },
- "section_path": [
-  "t1",
-  "t1-3",
-  "t1-3-4"
- ],
- "sections": [
-  "t1-3-5"
- ]
+ }
 }

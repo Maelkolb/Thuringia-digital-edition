@@ -17,17 +17,14 @@
    "type": "heading",
    "src": 0,
    "text": "Volks- und Landeskunde",
-   "spans": [],
-   "sec": "titel",
-   "level": 4
+   "spans": []
   },
   {
    "id": "b2",
    "type": "paragraph",
    "src": 1,
    "text": "des",
-   "spans": [],
-   "sec": "titel"
+   "spans": []
   },
   {
    "id": "b3",
@@ -40,25 +37,21 @@
      23,
      "Location"
     ]
-   ],
-   "sec": "titel",
-   "level": 4
+   ]
   },
   {
    "id": "b4",
    "type": "paragraph",
    "src": 3,
    "text": "Im Auftrage des regierenden Landesfürsten",
-   "spans": [],
-   "sec": "titel"
+   "spans": []
   },
   {
    "id": "b5",
    "type": "paragraph",
    "src": 4,
    "text": "verfasst von",
-   "spans": [],
-   "sec": "titel"
+   "spans": []
   },
   {
    "id": "b6",
@@ -71,8 +64,7 @@
      11,
      "Person"
     ]
-   ],
-   "sec": "titel"
+   ]
   },
   {
    "id": "b7",
@@ -85,8 +77,7 @@
      32,
      "Location"
     ]
-   ],
-   "sec": "titel"
+   ]
   },
   {
    "id": "b8",
@@ -99,8 +90,7 @@
      4,
      "Location"
     ]
-   ],
-   "sec": "titel"
+   ]
   },
   {
    "id": "b9",
@@ -113,8 +103,7 @@
      27,
      "Person"
     ]
-   ],
-   "sec": "titel"
+   ]
   },
   {
    "id": "b10",
@@ -127,8 +116,7 @@
      31,
      "Organisation"
     ]
-   ],
-   "sec": "titel"
+   ]
   }
  ],
  "footnotes": [],
@@ -138,12 +126,5 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-10-01T20:17:26.901605",
   "early_schema": false
- },
- "section_path": [
-  "front",
-  "titel"
- ],
- "sections": [
-  "titel"
- ]
+ }
 }

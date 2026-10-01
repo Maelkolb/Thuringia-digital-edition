@@ -124,8 +124,7 @@
      "Location"
     ]
    ],
-   "continued": true,
-   "sec": "t1-2-4"
+   "continued": true
   },
   {
    "id": "b2",
@@ -170,8 +169,7 @@
      "text": "Im Brod hat man den Löffel.",
      "spans": []
     }
-   ],
-   "sec": "t1-2-4"
+   ]
   },
   {
    "id": "b3",
@@ -184,8 +182,7 @@
      52,
      "Location"
     ]
-   ],
-   "sec": "t1-2-4"
+   ]
   },
   {
    "id": "b4",
@@ -208,8 +205,7 @@
      "text": "Soll zuckersieß sei.",
      "spans": []
     }
-   ],
-   "sec": "t1-2-4"
+   ]
   },
   {
    "id": "b5",
@@ -252,8 +248,7 @@
    "word_division": {
     "word": "allgemein",
     "part": "all-"
-   },
-   "sec": "t1-2-4"
+   }
   }
  ],
  "footnotes": [],
@@ -263,13 +258,5 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-03T15:31:20.199672",
   "early_schema": false
- },
- "section_path": [
-  "t1",
-  "t1-2",
-  "t1-2-4"
- ],
- "sections": [
-  "t1-2-4"
- ]
+ }
 }

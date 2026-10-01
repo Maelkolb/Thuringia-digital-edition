@@ -144,8 +144,7 @@
      "Plant"
     ]
    ],
-   "continued": true,
-   "sec": "t1-2-7"
+   "continued": true
   },
   {
    "id": "b2",
@@ -163,8 +162,7 @@
      165,
      "Plant"
     ]
-   ],
-   "sec": "t1-2-7"
+   ]
   },
   {
    "id": "b3",
@@ -187,8 +185,7 @@
      451,
      "Resource"
     ]
-   ],
-   "sec": "t1-2-7"
+   ]
   },
   {
    "id": "b4",
@@ -202,8 +199,7 @@
      "Artefact"
     ]
    ],
-   "continues": true,
-   "sec": "t1-2-7"
+   "continues": true
   }
  ],
  "footnotes": [],
@@ -213,13 +209,5 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-03T15:39:58.770247",
   "early_schema": false
- },
- "section_path": [
-  "t1",
-  "t1-2",
-  "t1-2-7"
- ],
- "sections": [
-  "t1-2-7"
- ]
+ }
 }

@@ -17,8 +17,7 @@
    "type": "paragraph",
    "src": 0,
    "text": "Abgaben, durch Verlust an Grund und Boden, durch Ablösung der Gefälle und Frohnden und durch Fixirung mit Geld geringer geworden. Gegenwärtig haben an Einkünften:",
-   "spans": [],
-   "sec": "t1-4-5"
+   "spans": []
   },
   {
    "id": "b2",
@@ -289,16 +288,14 @@
      "über 1000 \""
     ]
    ],
-   "caption": null,
-   "sec": "t1-4-5"
+   "caption": null
   },
   {
    "id": "b3",
    "type": "paragraph",
    "src": 2,
    "text": "Ferner sind bezüglich der Kirchen",
-   "spans": [],
-   "sec": "t1-4-5"
+   "spans": []
   },
   {
    "id": "b4",
@@ -324,7 +321,7 @@
      "role": "body",
      "cells": [
       {
-       "text": "Gera . . . . .",
+       "text": "Gera",
        "spans": [
         [
          0,
@@ -369,7 +366,7 @@
      "role": "body",
      "cells": [
       {
-       "text": "Schleiz . . . . .",
+       "text": "Schleiz",
        "spans": [
         [
          0,
@@ -470,7 +467,7 @@
      "role": "body",
      "cells": [
       {
-       "text": "Gera . . . . .",
+       "text": "Gera",
        "spans": [
         [
          0,
@@ -520,7 +517,7 @@
      "role": "body",
      "cells": [
       {
-       "text": "Schleiz . . . . .",
+       "text": "Schleiz",
        "spans": [
         [
          0,
@@ -635,8 +632,7 @@
      "Lobenstein, Hirschberg, Harra, Heinersdorf, Oßla, Wurzbach."
     ]
    ],
-   "caption": null,
-   "sec": "t1-4-5"
+   "caption": null
   },
   {
    "id": "b5",
@@ -659,8 +655,7 @@
      95,
      "Location"
     ]
-   ],
-   "sec": "t1-4-5"
+   ]
   },
   {
    "id": "b6",
@@ -850,16 +845,14 @@
      "2"
     ]
    ],
-   "caption": null,
-   "sec": "t1-4-5"
+   "caption": null
   },
   {
    "id": "b7",
    "type": "paragraph",
    "src": 6,
    "text": "Es kommen mithin auf eine Parochie 1955, auf eine Kirche 862,4 und auf einen Geistlichen 1293,8 Seelen.",
-   "spans": [],
-   "sec": "t1-4-5"
+   "spans": []
   },
   {
    "id": "b8",
@@ -953,12 +946,14 @@
      "Organisation"
     ]
    ],
-   "continues": true,
-   "sec": "t1-4-5"
+   "continues": true
   }
  ],
  "footnotes": [],
  "corrections": [
+  {
+   "rule": "strip_dot_leaders"
+  },
   {
    "rule": "table_pad_ragged_rows",
    "block": "b2"
@@ -981,13 +976,5 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-04T13:43:56.997362",
   "early_schema": false
- },
- "section_path": [
-  "t1",
-  "t1-4",
-  "t1-4-5"
- ],
- "sections": [
-  "t1-4-5"
- ]
+ }
 }

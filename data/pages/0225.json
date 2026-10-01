@@ -33,16 +33,14 @@
      218,
      "Location"
     ]
-   ],
-   "sec": "t1-3-1"
+   ]
   },
   {
    "id": "b2",
    "type": "paragraph",
    "src": 1,
    "text": "Das Verhältniß der producirenden Berufsklassen zu dem unproductiven Volkstheil ist im Allgemeinen in Procenten 40 : 60 oder genauer:",
-   "spans": [],
-   "sec": "t1-3-1"
+   "spans": []
   },
   {
    "id": "b3",
@@ -332,8 +330,7 @@
      "59,75"
     ]
    ],
-   "caption": null,
-   "sec": "t1-3-1"
+   "caption": null
   },
   {
    "id": "b4",
@@ -351,20 +348,14 @@
      106,
      "Location"
     ]
-   ],
-   "sec": "t1-3-1"
+   ]
   },
   {
    "id": "b5",
    "type": "heading",
    "src": 4,
    "text": "2. Landwirthschaft.",
-   "spans": [],
-   "opens": [
-    "t1-3-2"
-   ],
-   "sec": "t1-3-2",
-   "level": 4
+   "spans": []
   },
   {
    "id": "b6",
@@ -408,8 +399,7 @@
      "Location"
     ]
    ],
-   "continues": true,
-   "sec": "t1-3-2"
+   "continues": true
   }
  ],
  "footnotes": [
@@ -458,14 +448,5 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-03T15:49:59.099054",
   "early_schema": false
- },
- "section_path": [
-  "t1",
-  "t1-3",
-  "t1-3-1"
- ],
- "sections": [
-  "t1-3-1",
-  "t1-3-2"
- ]
+ }
 }

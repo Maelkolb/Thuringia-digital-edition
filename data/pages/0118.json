@@ -33,8 +33,7 @@
      507,
      "Organisation"
     ]
-   ],
-   "sec": "t1-2-1"
+   ]
   },
   {
    "id": "b2",
@@ -68,7 +67,7 @@
      "role": "body",
      "cells": [
       {
-       "text": "Gera . . . . . . .",
+       "text": "Gera",
        "spans": [
         [
          0,
@@ -95,7 +94,7 @@
      "role": "body",
      "cells": [
       {
-       "text": "Schleiz . . . . . . .",
+       "text": "Schleiz",
        "spans": [
         [
          0,
@@ -149,7 +148,7 @@
      "role": "body",
      "cells": [
       {
-       "text": "Fürstenthum . . . .",
+       "text": "Fürstenthum",
        "spans": []
       },
       {
@@ -199,8 +198,7 @@
      "16"
     ]
    ],
-   "caption": null,
-   "sec": "t1-2-1"
+   "caption": null
   },
   {
    "id": "b3",
@@ -323,24 +321,19 @@
      2391,
      "Location"
     ]
-   ],
-   "sec": "t1-2-1"
+   ]
   }
  ],
  "footnotes": [],
- "corrections": [],
+ "corrections": [
+  {
+   "rule": "strip_dot_leaders"
+  }
+ ],
  "provenance": {
   "source": "colab-2026-03",
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-03T15:11:38.074107",
   "early_schema": false
- },
- "section_path": [
-  "t1",
-  "t1-2",
-  "t1-2-1"
- ],
- "sections": [
-  "t1-2-1"
- ]
+ }
 }

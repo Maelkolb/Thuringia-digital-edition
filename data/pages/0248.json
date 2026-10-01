@@ -358,20 +358,14 @@
      "—"
     ]
    ],
-   "caption": null,
-   "sec": "t1-3-3"
+   "caption": null
   },
   {
    "id": "b2",
    "type": "heading",
    "src": 1,
    "text": "4. Forstwirthschaft.",
-   "spans": [],
-   "opens": [
-    "t1-3-4"
-   ],
-   "sec": "t1-3-4",
-   "level": 4
+   "spans": []
   },
   {
    "id": "b3",
@@ -389,8 +383,7 @@
      246,
      "Environment"
     ]
-   ],
-   "sec": "t1-3-4"
+   ]
   },
   {
    "id": "b4",
@@ -488,8 +481,7 @@
      627,
      "Resource"
     ]
-   ],
-   "sec": "t1-3-4"
+   ]
   }
  ],
  "footnotes": [
@@ -558,14 +550,5 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-04T13:23:12.816644",
   "early_schema": false
- },
- "section_path": [
-  "t1",
-  "t1-3",
-  "t1-3-3"
- ],
- "sections": [
-  "t1-3-3",
-  "t1-3-4"
- ]
+ }
 }

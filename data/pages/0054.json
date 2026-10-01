@@ -103,8 +103,7 @@
    "word_division": {
     "word": "Scheitund",
     "part": "und"
-   },
-   "sec": "t1-1-6"
+   }
   },
   {
    "id": "b2",
@@ -142,8 +141,7 @@
      1799,
      "Environmental Impact"
     ]
-   ],
-   "sec": "t1-1-6"
+   ]
   },
   {
    "id": "b3",
@@ -157,8 +155,7 @@
      "Environment"
     ]
    ],
-   "continues": true,
-   "sec": "t1-1-6"
+   "continues": true
   }
  ],
  "footnotes": [],
@@ -168,13 +165,5 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-01-06T02:56:43.247636",
   "early_schema": false
- },
- "section_path": [
-  "t1",
-  "t1-1",
-  "t1-1-6"
- ],
- "sections": [
-  "t1-1-6"
- ]
+ }
 }

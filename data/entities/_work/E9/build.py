@@ -29,7 +29,7 @@ for f in sorted(glob.glob(ROOT+'data/entities/_work/E9/d*.txt')):
                 if ':' in kind: cls,kind=kind.split(':',1)
                 d={'key':k,'action':'accept','label':label,'class':cls,'kind':kind}
                 if gloss: d['gloss_en']=gloss
-                if modern: d['modern']=modern
+                if modern and modern!=label: d['modern']=modern
                 if note: d['note']=note
                 dec[k]=d
             else: errs.append(f'{f}:{ln} bad action {act!r}')

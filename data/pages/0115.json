@@ -38,17 +38,14 @@
      186,
      "Location"
     ]
-   ],
-   "sec": "t1-2-1"
+   ]
   },
   {
    "id": "b2",
    "type": "heading",
    "src": 1,
    "text": "10) Der Civilstand der Bevölkerung (1864) in ehelicher Rücksicht:",
-   "spans": [],
-   "sec": "t1-2-1",
-   "level": 5
+   "spans": []
   },
   {
    "id": "b3",
@@ -1061,16 +1058,14 @@
      "179"
     ]
    ],
-   "caption": null,
-   "sec": "t1-2-1"
+   "caption": null
   },
   {
    "id": "b4",
    "type": "paragraph",
    "src": 3,
    "text": "Es kommen auf:",
-   "spans": [],
-   "sec": "t1-2-1"
+   "spans": []
   },
   {
    "id": "b5",
@@ -2551,8 +2546,7 @@
      "1,2"
     ]
    ],
-   "caption": null,
-   "sec": "t1-2-1"
+   "caption": null
   }
  ],
  "footnotes": [],
@@ -2573,13 +2567,5 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-03T15:10:28.220362",
   "early_schema": false
- },
- "section_path": [
-  "t1",
-  "t1-2",
-  "t1-2-1"
- ],
- "sections": [
-  "t1-2-1"
- ]
+ }
 }

@@ -16,15 +16,14 @@
    "id": "b1",
    "type": "paragraph",
    "src": 0,
-   "text": "Sitte und Bauformen zuführt. Ohne Gera würden beide Uferlandschaften bloße Feldbauſtriche geblieben und an Menſchen, an Arbeit und Vermögen, sowie an ſocialen Bildungsformen ärmer ſein.",
+   "text": "Sitte und Bauformen zuführt. Ohne Gera würden beide Uferlandschaften bloße Feldbaustriche geblieben und an Menschen, an Arbeit und Vermögen, sowie an socialen Bildungsformen ärmer sein.",
    "spans": [
     [
      34,
      38,
      "Location"
     ]
-   ],
-   "sec": "t2-1"
+   ]
   },
   {
    "id": "b2",
@@ -37,8 +36,7 @@
      58,
      "Location"
     ]
-   ],
-   "sec": "t2-1"
+   ]
   },
   {
    "id": "b3",
@@ -55,7 +53,7 @@
        "spans": []
       },
       {
-       "text": "Beſtandtheile d. Familien.",
+       "text": "Bestandtheile d. Familien.",
        "spans": []
       },
       {
@@ -67,7 +65,7 @@
        "spans": []
       },
       {
-       "text": "Altersverhältniſſe",
+       "text": "Altersverhältnisse",
        "spans": []
       },
       {
@@ -100,7 +98,7 @@
        "spans": []
       },
       {
-       "text": "Dienſtboten.",
+       "text": "Dienstboten.",
        "spans": []
       },
       {
@@ -226,7 +224,7 @@
      "role": "body",
      "cells": [
       {
-       "text": "Bethenhauſen",
+       "text": "Bethenhausen",
        "spans": [
         [
          0,
@@ -320,7 +318,7 @@
      "role": "body",
      "cells": [
       {
-       "text": "Caaſchwitz",
+       "text": "Caaschwitz",
        "spans": [
         [
          0,
@@ -367,7 +365,7 @@
      "role": "body",
      "cells": [
       {
-       "text": "Caaſen",
+       "text": "Caasen",
        "spans": [
         [
          0,
@@ -555,7 +553,7 @@
      "role": "body",
      "cells": [
       {
-       "text": "Debſchwitz",
+       "text": "Debschwitz",
        "spans": [
         [
          0,
@@ -696,7 +694,7 @@
      "role": "body",
      "cells": [
       {
-       "text": "Ernſee",
+       "text": "Ernsee",
        "spans": [
         [
          0,
@@ -884,7 +882,7 @@
      "role": "body",
      "cells": [
       {
-       "text": "Gorlitzſch",
+       "text": "Gorlitzsch",
        "spans": [
         [
          0,
@@ -931,7 +929,7 @@
      "role": "body",
      "cells": [
       {
-       "text": "Groitzſchen",
+       "text": "Groitzschen",
        "spans": [
         [
          0,
@@ -1542,7 +1540,7 @@
      "role": "body",
      "cells": [
       {
-       "text": "Kleinſaara",
+       "text": "Kleinsaara",
        "spans": [
         [
          0,
@@ -1683,7 +1681,7 @@
      "role": "body",
      "cells": [
       {
-       "text": "Kretzſchwitz",
+       "text": "Kretzschwitz",
        "spans": [
         [
          0,
@@ -1730,7 +1728,7 @@
      "role": "body",
      "cells": [
       {
-       "text": "Laaſen",
+       "text": "Laasen",
        "spans": [
         [
          0,
@@ -1871,7 +1869,7 @@
      "role": "body",
      "cells": [
       {
-       "text": "Leſſen",
+       "text": "Lessen",
        "spans": [
         [
          0,
@@ -2012,7 +2010,7 @@
      "role": "body",
      "cells": [
       {
-       "text": "Luſan",
+       "text": "Lusan",
        "spans": [
         [
          0,
@@ -2294,7 +2292,7 @@
      "role": "body",
      "cells": [
       {
-       "text": "Oberröppiſch",
+       "text": "Oberröppisch",
        "spans": [
         [
          0,
@@ -3105,12 +3103,14 @@
      "29983"
     ]
    ],
-   "caption": null,
-   "sec": "t2-1"
+   "caption": null
   }
  ],
  "footnotes": [],
  "corrections": [
+  {
+   "rule": "resolve_long_s"
+  },
   {
    "rule": "table_multirow_header",
    "rows": 3,
@@ -3122,12 +3122,5 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-04T14:40:52.194160",
   "early_schema": false
- },
- "section_path": [
-  "t2",
-  "t2-1"
- ],
- "sections": [
-  "t2-1"
- ]
+ }
 }

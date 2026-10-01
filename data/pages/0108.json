@@ -28,16 +28,14 @@
      202,
      "Location"
     ]
-   ],
-   "sec": "t1-2-1"
+   ]
   },
   {
    "id": "b2",
    "type": "paragraph",
    "src": 1,
    "text": "Die sechs Städte des Landes für sich betrachtet, zeigt sich ihre Volkszunahme von 1647—1867 und ihr gegenseitiges Kopfzahlverhältniß wie folgt:",
-   "spans": [],
-   "sec": "t1-2-1"
+   "spans": []
   },
   {
    "id": "b3",
@@ -100,7 +98,7 @@
      "role": "body",
      "cells": [
       {
-       "text": "Gera . . . . . .",
+       "text": "Gera",
        "spans": [
         [
          0,
@@ -131,7 +129,7 @@
      "role": "body",
      "cells": [
       {
-       "text": "Schleiz . . . . .",
+       "text": "Schleiz",
        "spans": [
         [
          0,
@@ -162,7 +160,7 @@
      "role": "body",
      "cells": [
       {
-       "text": "Lobenstein . . . .",
+       "text": "Lobenstein",
        "spans": [
         [
          0,
@@ -193,7 +191,7 @@
      "role": "body",
      "cells": [
       {
-       "text": "Tanna . . . . . .",
+       "text": "Tanna",
        "spans": [
         [
          0,
@@ -224,7 +222,7 @@
      "role": "body",
      "cells": [
       {
-       "text": "Saalburg . . . . .",
+       "text": "Saalburg",
        "spans": [
         [
          0,
@@ -255,7 +253,7 @@
      "role": "body",
      "cells": [
       {
-       "text": "Hirschberg . . . .",
+       "text": "Hirschberg",
        "spans": [
         [
          0,
@@ -373,8 +371,7 @@
      "4,78fache."
     ]
    ],
-   "caption": null,
-   "sec": "t1-2-1"
+   "caption": null
   },
   {
    "id": "b4",
@@ -452,8 +449,7 @@
      908,
      "Location"
     ]
-   ],
-   "sec": "t1-2-1"
+   ]
   },
   {
    "id": "b5",
@@ -616,7 +612,7 @@
      "role": "body",
      "cells": [
       {
-       "text": "Triebes . . . .",
+       "text": "Triebes",
        "spans": [
         [
          0,
@@ -694,7 +690,7 @@
      "role": "body",
      "cells": [
       {
-       "text": "Köstritz . . . .",
+       "text": "Köstritz",
        "spans": [
         [
          0,
@@ -933,8 +929,7 @@
      "5,90fache."
     ]
    ],
-   "caption": null,
-   "sec": "t1-2-1"
+   "caption": null
   },
   {
    "id": "b6",
@@ -942,12 +937,14 @@
    "src": 5,
    "text": "Von diesen acht Landorten, welche mit den sechs genannten Städten die einzigen Orte des Landes bilden, die mehr als 1000 Einwohner zählen, sind",
    "spans": [],
-   "continues": true,
-   "sec": "t1-2-1"
+   "continues": true
   }
  ],
  "footnotes": [],
  "corrections": [
+  {
+   "rule": "strip_dot_leaders"
+  },
   {
    "rule": "table_no_header_row",
    "note": "first row is data (legacy edition rendered it as <th>)",
@@ -959,13 +956,5 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-03T15:07:52.529901",
   "early_schema": false
- },
- "section_path": [
-  "t1",
-  "t1-2",
-  "t1-2-1"
- ],
- "sections": [
-  "t1-2-1"
- ]
+ }
 }

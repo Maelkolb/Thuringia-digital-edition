@@ -17,9 +17,7 @@
    "type": "heading",
    "src": 0,
    "text": "Zahl der Blinden:",
-   "spans": [],
-   "sec": "t1-2-1",
-   "level": 5
+   "spans": []
   },
   {
    "id": "b2",
@@ -1189,8 +1187,7 @@
      "11,59"
     ]
    ],
-   "caption": null,
-   "sec": "t1-2-1"
+   "caption": null
   },
   {
    "id": "b3",
@@ -1208,16 +1205,14 @@
      121,
      "Location"
     ]
-   ],
-   "sec": "t1-2-1"
+   ]
   },
   {
    "id": "b4",
    "type": "paragraph",
    "src": 3,
    "text": "15) Die Auswanderung betreffend, so sind hierüber zuerst im Jahre 1867 Tabellen geführt worden. Danach sind ausgewandert aus den einzelnen Bezirken und aus dem gesammten Lande:",
-   "spans": [],
-   "sec": "t1-2-1"
+   "spans": []
   },
   {
    "id": "b5",
@@ -1432,8 +1427,7 @@
      "0,34"
     ]
    ],
-   "caption": null,
-   "sec": "t1-2-1"
+   "caption": null
   },
   {
    "id": "b6",
@@ -1512,8 +1506,7 @@
      "text": "Summe 296.",
      "spans": []
     }
-   ],
-   "sec": "t1-2-1"
+   ]
   }
  ],
  "footnotes": [],
@@ -1529,13 +1522,5 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-03T15:16:19.573786",
   "early_schema": false
- },
- "section_path": [
-  "t1",
-  "t1-2",
-  "t1-2-1"
- ],
- "sections": [
-  "t1-2-1"
- ]
+ }
 }

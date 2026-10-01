@@ -1,0 +1,1080 @@
+{
+ "id": "forstwirtschaft-holzpreise-zuwachs",
+ "title": {
+  "de": "Holzpreise 1800–1868 und Zuwachs der Wälder",
+  "en": "Timber prices 1800–1868 and growth of the forests"
+ },
+ "category": "forestry",
+ "section": "t1-3-4",
+ "sources": [
+  {
+   "page": "241",
+   "block": "b5"
+  },
+  {
+   "page": "241",
+   "block": "b7"
+  },
+  {
+   "page": "241",
+   "block": "b6",
+   "rows": "r2-r5"
+  },
+  {
+   "page": "241",
+   "block": "b4",
+   "rows": "r3-r5"
+  },
+  {
+   "page": "241",
+   "block": "b3"
+  },
+  {
+   "page": "241",
+   "block": "b8"
+  },
+  {
+   "page": "832",
+   "block": "b8"
+  }
+ ],
+ "summary": {
+  "de": "Am Ende des Abschnitts Forstwirthschaft nennt Brückner die Entwicklung der Holzpreise seit 1800 (Bauholz, Blochholz, Feuerholz je Cubikfuß), die in den letzten Jahren erzielten Preise für Domanialholz im Oberland (je Normalklafter) und Schätzungen für Zuwachs und Ertrag je Morgen nach Besitzart. Die Diagramme zeigen den Preisanstieg, die Preisspannen der Sortimente und den Zuwachs der Domänen-, Gemeinde- und Privatwälder.",
+  "en": "At the end of the section on forestry Brückner gives the development of timber prices since 1800 (construction timber, log timber, firewood per cubic foot), the prices obtained for domain timber in the Upper Land in recent years (per standard cord), and estimates of growth and yield per Morgen by type of owner. The charts show the price rise, the price ranges of the assortments, and the growth of the domain, municipal and private forests."
+ },
+ "method": {
+  "de": "Die Preise je Cubikfuß weiches Holz stammen aus der Tabelle auf S. 241 (Block b6), die Preise je Normalklafter aus Block b4, Zuwachs und Ertrag aus dem Absatz Block b3 bzw. b8. Brückner schreibt die Preise in Silbergroschen (Sgr.) und gemischten Brüchen (z. B. »1 1/6«); sie sind als Dezimalzahlen übernommen (der gedruckte Wortlaut steht in der Spalte preis_text). Für 1840 gibt er Spannen an; Diagramm 1 zeigt dann Spanne und Mitte. Die Preise je Normalklafter (= 126 Cubikfuß Rauminhalt) wurden mit 1 Thaler = 30 Silbergroschen in Silbergroschen je Cubikfuß umgerechnet (Währungsfaktor des preußischen Münzsystems, nicht aus Brückners Tabelle). Der Zuwachs je Morgen ist in Klaftern angegeben; er wurde mit Brückners Klafter von 126 Kubikfuß = 2,8454 m³ (S. 832, Landestheil Gera) und 1 Morgen = 0,255322 ha (S. 832) in Raummeter je Hektar und Jahr umgerechnet.",
+  "en": "The prices per cubic foot of soft wood come from the table on p. 241 (block b6), the prices per standard cord from block b4, growth and yield from the paragraph in blocks b3 and b8. Brückner writes the prices in silver groschen (Sgr.) and mixed fractions (e.g. “1 1/6”); they were taken over as decimals (the printed wording is in the column preis_text). For 1840 he gives ranges; chart 1 then shows range and midpoint. The prices per standard cord (Normalklafter = 126 cubic feet of volume) were converted to silver groschen per cubic foot with 1 Thaler = 30 silver groschen (conversion factor of the Prussian monetary system, not from Brückner's table). Growth per Morgen is given in cords; it was converted with Brückner's cord of 126 cubic feet = 2.8454 m³ (p. 832, district of Gera) and 1 Morgen = 0.255322 ha (p. 832) into stacked cubic metres per hectare and year."
+ },
+ "findings": [
+  {
+   "de": "Von 1800 bis 1868 steigt der Preis je Cubikfuß für Bauholz von 1 1/6 auf 3 Sgr. (das 2,6-Fache), für Blochholz von 1 1/4 auf 3 1/2 Sgr. (2,8-Fache) und für Feuerholz von 1/3 auf 1 Sgr. (3,0-Fache). Brückner fasst dies als Verdreifachung seit 1800 zusammen.",
+   "en": "From 1800 to 1868 the price per cubic foot rises for construction timber from 1 1/6 to 3 Sgr. (2.6 times), for log timber from 1 1/4 to 3 1/2 Sgr. (2.8 times) and for firewood from 1/3 to 1 Sgr. (3.0 times). Brückner summarizes this as a tripling since 1800."
+  },
+  {
+   "de": "Feuerholz verteuert sich vor allem bis 1840 (von 1/3 über 5/12 auf 1 Sgr.) und bleibt bis 1868 bei 1 Sgr.; Bau- und Blochholz steigen auch danach weiter (Bauholz von 1,83–2,67 Sgr. 1840 auf 3 Sgr. 1868).",
+   "en": "Firewood becomes dearer above all until 1840 (from 1/3 through 5/12 to 1 Sgr.) and stays at 1 Sgr. until 1868; construction and log timber continue to rise afterwards (construction timber from 1.83–2.67 Sgr. in 1840 to 3 Sgr. in 1868)."
+  },
+  {
+   "de": "Für das Domanialholz des Oberlandes nennt Brückner in den letzten Jahren je Normalklafter 6–15 Thaler für Nutzholz, 2–6 für Brennholz und 2–5 für Stock- und Wurzelholz; umgerechnet sind das 1,43–3,57 Sgr. je Cubikfuß für Nutzholz und 0,48–1,43 Sgr. für Brennholz. Nutzholz kostet damit das 2,5- bis 3,0-Fache von Brennholz.",
+   "en": "For the domain timber of the Upper Land Brückner gives, per standard cord, 6–15 Thaler for timber, 2–6 for firewood and 2–5 for stumps and roots in recent years; converted this is 1.43–3.57 Sgr. per cubic foot for timber and 0.48–1.43 Sgr. for firewood. Timber thus costs 2.5 to 3.0 times as much as firewood."
+  },
+  {
+   "de": "Den jährlichen Zuwachs veranschlagt Brückner je Morgen für die Domänenforsten auf 1/2 Klafter (rund 5,6 Raummeter je Hektar), für Gemeinde- und Stiftungswälder auf 2/5 bis 1/2 und für Privatwälder nur auf 1/10 bis 1/5 Klafter (1,1–2,2 Raummeter je Hektar); der Privatwald wächst demnach nur mit 20–40 % der Domänenleistung.",
+   "en": "Brückner estimates the annual growth per Morgen at 1/2 cord for the domain forests (about 5.6 stacked cubic metres per hectare), at 2/5 to 1/2 for municipal and foundation forests and at only 1/10 to 1/5 cord for private woodland (1.1–2.2 stacked cubic metres per hectare); private woodland thus grows at only 20–40 % of the domain rate."
+  },
+  {
+   "de": "Der Nettoertrag des gesamten Frankenwaldes betrug 1647 etwa 1730 Thaler, nach Brückner »um mehr als 20 Mal geringer« als der heutige Nettoabwurf; im Durchschnitt wird der Ertrag der Domänen-, Gemeinde- und Stiftungswälder mit 40, der der meisten Privatwälder mit höchstens 20 Cubikfuß je Jahr angesetzt.",
+   "en": "The net yield of the whole Frankenwald in 1647 was about 1,730 Thaler, according to Brückner “more than 20 times lower” than today's net proceeds; on average the yield of the domain, municipal and foundation forests is put at 40 cubic feet a year, that of most private woodland at 20 at most."
+  }
+ ],
+ "caveats": [
+  {
+   "de": "Die Preisreihe hat nur vier Zeitpunkte (1800, 1820, 1840, 1868); Verlauf und Schwankungen zwischen diesen Jahren sind nicht belegt. Welches Holz (Maß, Herkunft) die Tabelle meint, sagt Brückner nur mit »weiches Holz« – Nadelholz – und »Cubikfuß«; ob Fest- oder Raummaß, bleibt offen.",
+   "en": "The price series has only four points in time (1800, 1820, 1840, 1868); development and fluctuations between these years are not documented. Brückner describes the wood only as “soft wood” – conifer – and “cubic foot”; whether this is solid or stacked measure remains open."
+  },
+  {
+   "de": "Die Ertragszahlen (40 bzw. 20 Cubikfuß, dazu »27,469« und »9157« Normalklafter für Oberholz und Stockholz) sind in der Vorlage nicht eindeutig auf die Fläche bezogen und passen nicht zu den Klafter-Zuwächsen; sie werden deshalb nur zitiert, nicht umgerechnet. Der Zuwachs in Raummetern ist eine Näherung mit der geraer Klafter von 126 Kubikfuß (2,8454 m³).",
+   "en": "The yield figures (40 and 20 cubic feet, plus “27,469” and “9157” standard cords for timber and stump wood) are not clearly related to the area in the source and do not fit the growth figures in cords; they are therefore only quoted, not converted. The growth in cubic metres is an approximation with the Gera cord of 126 cubic feet (2.8454 m³)."
+  },
+  {
+   "de": "Die Preise je Normalklafter gelten für Domanialholz im Oberland »in den letzten Jahren« (ohne Jahresangabe); die Umrechnung auf Silbergroschen je Cubikfuß setzt die Normalklafter von 126 Cubikfuß Rauminhalt und 1 Thaler = 30 Silbergroschen voraus.",
+   "en": "The prices per standard cord apply to domain timber in the Upper Land “in recent years” (no year given); the conversion to silver groschen per cubic foot presupposes the standard cord of 126 cubic feet of volume and 1 Thaler = 30 silver groschen."
+  }
+ ],
+ "conversions": [
+  {
+   "from": "Normalklafter",
+   "to": "Kubikfuß",
+   "factor_or_formula": "1 Normalklafter = 126 Cubikfuß Rauminhalt",
+   "reference": "Brückner S. 241"
+  },
+  {
+   "from": "Thaler",
+   "to": "Silbergroschen",
+   "factor_or_formula": "1 Thaler = 30 Silbergroschen",
+   "reference": "preußisches Münzsystem; nicht in Brückners Tabelle"
+  },
+  {
+   "from": "Klafter (126 Kubikfuß, Gera)",
+   "to": "Kubikmeter",
+   "factor_or_formula": "1 Klafter = 2,8454 m³",
+   "reference": "Brückner S. 832, V. Holzmaße a)"
+  },
+  {
+   "from": "preußischer Morgen",
+   "to": "Hektar",
+   "factor_or_formula": "ha = Morgen × 0,255322",
+   "reference": "Brückner S. 832"
+  }
+ ],
+ "datasets": [
+  {
+   "name": "holzpreise",
+   "title": {
+    "de": "Preis je Cubikfuß weiches Holz",
+    "en": "Price per cubic foot of soft wood"
+   },
+   "columns": [
+    {
+     "name": "holzart_de",
+     "label": {
+      "de": "Sortiment",
+      "en": "Assortment"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "holzart_en",
+     "label": {
+      "de": "Sortiment (englisch)",
+      "en": "Assortment (English)"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "holzart_nr",
+     "label": {
+      "de": "Reihenfolge Sortiment",
+      "en": "Assortment order"
+     },
+     "type": "integer",
+     "unit": null,
+     "derived": true
+    },
+    {
+     "name": "jahr",
+     "label": {
+      "de": "Jahr",
+      "en": "Year"
+     },
+     "type": "integer",
+     "unit": null
+    },
+    {
+     "name": "preis_text",
+     "label": {
+      "de": "Preis (gedruckt)",
+      "en": "Price (as printed)"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "preis_von",
+     "label": {
+      "de": "Preis, Untergrenze",
+      "en": "Price, lower limit"
+     },
+     "type": "number",
+     "unit": "Sgr. je Cubikfuß",
+     "derived": true,
+     "note": "gedruckt als gemischter Bruch (z. B. 1 1/6), hier als Dezimalzahl"
+    },
+    {
+     "name": "preis_bis",
+     "label": {
+      "de": "Preis, Obergrenze",
+      "en": "Price, upper limit"
+     },
+     "type": "number",
+     "unit": "Sgr. je Cubikfuß",
+     "derived": true,
+     "note": "gedruckt als gemischter Bruch (z. B. 1 1/6), hier als Dezimalzahl"
+    },
+    {
+     "name": "preis_mitte",
+     "label": {
+      "de": "Preis, Mitte der Spanne",
+      "en": "Price, midpoint of the range"
+     },
+     "type": "number",
+     "unit": "Sgr. je Cubikfuß",
+     "derived": true
+    }
+   ],
+   "rows": [
+    [
+     "Bauholz",
+     "Construction timber",
+     1,
+     1800,
+     "1 1/6 Sgr.,",
+     1.167,
+     1.167,
+     1.167
+    ],
+    [
+     "Blochholz",
+     "Log timber (Blochholz)",
+     2,
+     1800,
+     "1 1/4 Sgr.,",
+     1.25,
+     1.25,
+     1.25
+    ],
+    [
+     "Feuerholz",
+     "Firewood",
+     3,
+     1800,
+     "1/3 Sgr.,",
+     0.333,
+     0.333,
+     0.333
+    ],
+    [
+     "Bauholz",
+     "Construction timber",
+     1,
+     1820,
+     "1 1/2 \"",
+     1.5,
+     1.5,
+     1.5
+    ],
+    [
+     "Blochholz",
+     "Log timber (Blochholz)",
+     2,
+     1820,
+     "1 1/2 \"",
+     1.5,
+     1.5,
+     1.5
+    ],
+    [
+     "Feuerholz",
+     "Firewood",
+     3,
+     1820,
+     "5/12 \"",
+     0.417,
+     0.417,
+     0.417
+    ],
+    [
+     "Bauholz",
+     "Construction timber",
+     1,
+     1840,
+     "1 5/6-2 2/3 \"",
+     1.833,
+     2.667,
+     2.25
+    ],
+    [
+     "Blochholz",
+     "Log timber (Blochholz)",
+     2,
+     1840,
+     "1 2/3-2 5/6 \"",
+     1.667,
+     2.833,
+     2.25
+    ],
+    [
+     "Feuerholz",
+     "Firewood",
+     3,
+     1840,
+     "1 \"",
+     1,
+     1,
+     1.0
+    ],
+    [
+     "Bauholz",
+     "Construction timber",
+     1,
+     1868,
+     "3 \"",
+     3,
+     3,
+     3.0
+    ],
+    [
+     "Blochholz",
+     "Log timber (Blochholz)",
+     2,
+     1868,
+     "3 1/2 \"",
+     3.5,
+     3.5,
+     3.5
+    ],
+    [
+     "Feuerholz",
+     "Firewood",
+     3,
+     1868,
+     "1 \"",
+     1,
+     1,
+     1.0
+    ]
+   ],
+   "source_refs": [
+    {
+     "page": "241",
+     "block": "b6",
+     "rows": "r2-r5"
+    }
+   ]
+  },
+  {
+   "name": "normalklafter",
+   "title": {
+    "de": "Preis je Normalklafter Domanialholz (Oberland)",
+    "en": "Price per standard cord of domain timber (Upper Land)"
+   },
+   "columns": [
+    {
+     "name": "sorte_de",
+     "label": {
+      "de": "Sortiment",
+      "en": "Assortment"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "sorte_en",
+     "label": {
+      "de": "Sortiment (englisch)",
+      "en": "Assortment (English)"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "sorte_nr",
+     "label": {
+      "de": "Reihenfolge",
+      "en": "Order"
+     },
+     "type": "integer",
+     "unit": null,
+     "derived": true
+    },
+    {
+     "name": "min_thlr",
+     "label": {
+      "de": "niedrigster Preis",
+      "en": "Lowest price"
+     },
+     "type": "integer",
+     "unit": "Thaler je Normalklafter"
+    },
+    {
+     "name": "max_thlr",
+     "label": {
+      "de": "höchster Preis",
+      "en": "Highest price"
+     },
+     "type": "integer",
+     "unit": "Thaler je Normalklafter"
+    },
+    {
+     "name": "min_sgr_cf",
+     "label": {
+      "de": "niedrigster Preis je Cubikfuß",
+      "en": "Lowest price per cubic foot"
+     },
+     "type": "number",
+     "unit": "Sgr. je Cubikfuß",
+     "derived": true,
+     "note": "Thaler × 30 / 126"
+    },
+    {
+     "name": "max_sgr_cf",
+     "label": {
+      "de": "höchster Preis je Cubikfuß",
+      "en": "Highest price per cubic foot"
+     },
+     "type": "number",
+     "unit": "Sgr. je Cubikfuß",
+     "derived": true,
+     "note": "Thaler × 30 / 126"
+    }
+   ],
+   "rows": [
+    [
+     "Nutzholz",
+     "Timber for construction and trade",
+     1,
+     6,
+     15,
+     1.43,
+     3.57
+    ],
+    [
+     "Brennholz",
+     "Firewood",
+     2,
+     2,
+     6,
+     0.48,
+     1.43
+    ],
+    [
+     "Stock- und Wurzelholz",
+     "Stumps and roots",
+     3,
+     2,
+     5,
+     0.48,
+     1.19
+    ]
+   ],
+   "source_refs": [
+    {
+     "page": "241",
+     "block": "b4",
+     "rows": "r3-r5"
+    }
+   ]
+  },
+  {
+   "name": "zuwachs",
+   "title": {
+    "de": "Zuwachs je Morgen nach Besitzart",
+    "en": "Growth per Morgen by type of owner"
+   },
+   "columns": [
+    {
+     "name": "besitzart_de",
+     "label": {
+      "de": "Besitzart",
+      "en": "Type of owner"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "besitzart_en",
+     "label": {
+      "de": "Besitzart (englisch)",
+      "en": "Type of owner (English)"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "besitzart_nr",
+     "label": {
+      "de": "Reihenfolge",
+      "en": "Order"
+     },
+     "type": "integer",
+     "unit": null,
+     "derived": true
+    },
+    {
+     "name": "zuwachs_text",
+     "label": {
+      "de": "Zuwachs (gedruckt)",
+      "en": "Growth (as printed)"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "zuwachs_von",
+     "label": {
+      "de": "Zuwachs, Untergrenze",
+      "en": "Growth, lower limit"
+     },
+     "type": "number",
+     "unit": "Klafter je Morgen und Jahr",
+     "derived": true,
+     "note": "gedruckte Brüche als Dezimalzahl"
+    },
+    {
+     "name": "zuwachs_bis",
+     "label": {
+      "de": "Zuwachs, Obergrenze",
+      "en": "Growth, upper limit"
+     },
+     "type": "number",
+     "unit": "Klafter je Morgen und Jahr",
+     "derived": true,
+     "note": "gedruckte Brüche als Dezimalzahl"
+    },
+    {
+     "name": "rm_ha_von",
+     "label": {
+      "de": "Zuwachs, Untergrenze",
+      "en": "Growth, lower limit"
+     },
+     "type": "number",
+     "unit": "Raummeter je ha und Jahr",
+     "derived": true,
+     "note": "Klafter × 2,8454 m³ / 0,255322 ha"
+    },
+    {
+     "name": "rm_ha_bis",
+     "label": {
+      "de": "Zuwachs, Obergrenze",
+      "en": "Growth, upper limit"
+     },
+     "type": "number",
+     "unit": "Raummeter je ha und Jahr",
+     "derived": true,
+     "note": "Klafter × 2,8454 m³ / 0,255322 ha"
+    },
+    {
+     "name": "ertrag_cf",
+     "label": {
+      "de": "Ertrag im Durchschnitt",
+      "en": "Average yield"
+     },
+     "type": "integer",
+     "unit": "Cubikfuß je Jahr"
+    }
+   ],
+   "rows": [
+    [
+     "Domänenforsten",
+     "Domain forests",
+     1,
+     "1/2",
+     0.5,
+     0.5,
+     5.57,
+     5.57,
+     40
+    ],
+    [
+     "Gemeinde- und Stiftungswälder",
+     "Municipal and foundation forests",
+     2,
+     "2/5 bis 1/2",
+     0.4,
+     0.5,
+     4.46,
+     5.57,
+     40
+    ],
+    [
+     "Privatwälder",
+     "Private woodland",
+     3,
+     "1/10 bis 1/5",
+     0.1,
+     0.2,
+     1.11,
+     2.23,
+     20
+    ]
+   ],
+   "source_refs": [
+    {
+     "page": "241",
+     "block": "b3"
+    },
+    {
+     "page": "241",
+     "block": "b8"
+    }
+   ]
+  }
+ ],
+ "charts": [
+  {
+   "id": "c1",
+   "dataset": "holzpreise",
+   "title": {
+    "de": "Preis je Cubikfuß weiches Holz 1800–1868",
+    "en": "Price per cubic foot of soft wood, 1800–1868"
+   },
+   "caption": {
+    "de": "Silbergroschen je Cubikfuß. Für 1840 nennt Brückner Spannen (senkrechte Linien), sonst Einzelwerte. Alle drei Sortimente sind 1868 deutlich teurer als 1800.",
+    "en": "Silver groschen per cubic foot. For 1840 Brückner gives ranges (vertical lines), otherwise single values. All three assortments are markedly dearer in 1868 than in 1800."
+   },
+   "vegalite": {
+    "height": 300,
+    "layer": [
+     {
+      "mark": {
+       "type": "line",
+       "point": true
+      },
+      "encoding": {
+       "x": {
+        "field": "jahr",
+        "type": "quantitative",
+        "title": {
+         "de": "Jahr",
+         "en": "Year"
+        },
+        "axis": {
+         "format": "d",
+         "values": [
+          1800,
+          1820,
+          1840,
+          1868
+         ]
+        },
+        "scale": {
+         "domain": [
+          1795,
+          1873
+         ]
+        }
+       },
+       "y": {
+        "field": "preis_mitte",
+        "type": "quantitative",
+        "title": {
+         "de": "Silbergroschen je Cubikfuß",
+         "en": "Silver groschen per cubic foot"
+        },
+        "scale": {
+         "zero": true
+        }
+       },
+       "color": {
+        "field": {
+         "de": "holzart_de",
+         "en": "holzart_en"
+        },
+        "type": "nominal",
+        "title": null,
+        "scale": {
+         "domain": [
+          {
+           "de": "Bauholz",
+           "en": "Construction timber"
+          },
+          {
+           "de": "Blochholz",
+           "en": "Log timber (Blochholz)"
+          },
+          {
+           "de": "Feuerholz",
+           "en": "Firewood"
+          }
+         ]
+        }
+       },
+       "tooltip": [
+        {
+         "field": {
+          "de": "holzart_de",
+          "en": "holzart_en"
+         },
+         "title": {
+          "de": "Sortiment",
+          "en": "Assortment"
+         }
+        },
+        {
+         "field": "jahr",
+         "title": {
+          "de": "Jahr",
+          "en": "Year"
+         },
+         "format": "d"
+        },
+        {
+         "field": "preis_text",
+         "title": {
+          "de": "gedruckt",
+          "en": "as printed"
+         }
+        },
+        {
+         "field": "preis_mitte",
+         "title": {
+          "de": "Mitte, Sgr.",
+          "en": "midpoint, Sgr."
+         },
+         "format": ".2f"
+        }
+       ]
+      }
+     },
+     {
+      "transform": [
+       {
+        "filter": "datum.preis_bis > datum.preis_von"
+       }
+      ],
+      "mark": {
+       "type": "rule",
+       "strokeWidth": 3,
+       "opacity": 0.6
+      },
+      "encoding": {
+       "x": {
+        "field": "jahr",
+        "type": "quantitative"
+       },
+       "y": {
+        "field": "preis_von",
+        "type": "quantitative"
+       },
+       "y2": {
+        "field": "preis_bis"
+       },
+       "color": {
+        "field": {
+         "de": "holzart_de",
+         "en": "holzart_en"
+        },
+        "type": "nominal",
+        "title": null,
+        "scale": {
+         "domain": [
+          {
+           "de": "Bauholz",
+           "en": "Construction timber"
+          },
+          {
+           "de": "Blochholz",
+           "en": "Log timber (Blochholz)"
+          },
+          {
+           "de": "Feuerholz",
+           "en": "Firewood"
+          }
+         ]
+        }
+       }
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "c2",
+   "dataset": "normalklafter",
+   "title": {
+    "de": "Preise für Domanialholz im Oberland (je Normalklafter)",
+    "en": "Prices of domain timber in the Upper Land (per standard cord)"
+   },
+   "caption": {
+    "de": "Niedrigster und höchster Preis in Thalern je Normalklafter (126 Cubikfuß) in den letzten Jahren vor 1870. Umgerechnet liegt Nutzholz bei 1,4–3,6 Sgr. je Cubikfuß, im Einklang mit den 3 Sgr. für Bauholz 1868.",
+    "en": "Lowest and highest price in Thaler per standard cord (126 cubic feet) in the last years before 1870. Converted, timber lies at 1.4–3.6 Sgr. per cubic foot, in line with the 3 Sgr. for construction timber in 1868."
+   },
+   "vegalite": {
+    "height": 200,
+    "layer": [
+     {
+      "mark": {
+       "type": "bar",
+       "size": 8,
+       "opacity": 1
+      },
+      "encoding": {
+       "y": {
+        "field": {
+         "de": "sorte_de",
+         "en": "sorte_en"
+        },
+        "type": "nominal",
+        "sort": {
+         "field": "sorte_nr",
+         "op": "min"
+        },
+        "title": null,
+        "axis": {
+         "labelLimit": 300
+        }
+       },
+       "x": {
+        "field": "min_thlr",
+        "type": "quantitative",
+        "title": {
+         "de": "Thaler je Normalklafter",
+         "en": "Thaler per standard cord"
+        },
+        "scale": {
+         "zero": true
+        }
+       },
+       "x2": {
+        "field": "max_thlr"
+       }
+      }
+     },
+     {
+      "mark": {
+       "type": "point",
+       "filled": true,
+       "size": 90,
+       "opacity": 1
+      },
+      "encoding": {
+       "y": {
+        "field": {
+         "de": "sorte_de",
+         "en": "sorte_en"
+        },
+        "type": "nominal",
+        "sort": {
+         "field": "sorte_nr",
+         "op": "min"
+        }
+       },
+       "x": {
+        "field": "min_thlr",
+        "type": "quantitative"
+       }
+      }
+     },
+     {
+      "mark": {
+       "type": "point",
+       "filled": true,
+       "size": 90,
+       "opacity": 1
+      },
+      "encoding": {
+       "y": {
+        "field": {
+         "de": "sorte_de",
+         "en": "sorte_en"
+        },
+        "type": "nominal",
+        "sort": {
+         "field": "sorte_nr",
+         "op": "min"
+        }
+       },
+       "x": {
+        "field": "max_thlr",
+        "type": "quantitative"
+       },
+       "tooltip": [
+        {
+         "field": {
+          "de": "sorte_de",
+          "en": "sorte_en"
+         },
+         "title": {
+          "de": "Sortiment",
+          "en": "Assortment"
+         }
+        },
+        {
+         "field": "min_thlr",
+         "title": {
+          "de": "von, Thaler",
+          "en": "from, Thaler"
+         }
+        },
+        {
+         "field": "max_thlr",
+         "title": {
+          "de": "bis, Thaler",
+          "en": "to, Thaler"
+         }
+        },
+        {
+         "field": "min_sgr_cf",
+         "title": {
+          "de": "von, Sgr. je Cubikfuß",
+          "en": "from, Sgr. per cubic foot"
+         },
+         "format": ".2f"
+        },
+        {
+         "field": "max_sgr_cf",
+         "title": {
+          "de": "bis, Sgr. je Cubikfuß",
+          "en": "to, Sgr. per cubic foot"
+         },
+         "format": ".2f"
+        }
+       ]
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "c3",
+   "dataset": "zuwachs",
+   "title": {
+    "de": "Jährlicher Zuwachs nach Besitzart",
+    "en": "Annual growth by type of owner"
+   },
+   "caption": {
+    "de": "Von Brückner veranschlagter Zuwachs in Klaftern je Morgen und Jahr, umgerechnet in Raummeter je Hektar (Tooltip). Der Privatwald wächst deutlich langsamer als der Staats- und Gemeindewald.",
+    "en": "Growth per Morgen and year estimated by Brückner in cords, converted to stacked cubic metres per hectare (tooltip). Private woodland grows markedly more slowly than state and municipal forest."
+   },
+   "vegalite": {
+    "height": 200,
+    "layer": [
+     {
+      "mark": {
+       "type": "bar",
+       "size": 8,
+       "opacity": 1
+      },
+      "encoding": {
+       "y": {
+        "field": {
+         "de": "besitzart_de",
+         "en": "besitzart_en"
+        },
+        "type": "nominal",
+        "sort": {
+         "field": "besitzart_nr",
+         "op": "min"
+        },
+        "title": null,
+        "axis": {
+         "labelLimit": 300
+        }
+       },
+       "x": {
+        "field": "zuwachs_von",
+        "type": "quantitative",
+        "title": {
+         "de": "Klafter je Morgen und Jahr",
+         "en": "Cords per Morgen and year"
+        },
+        "scale": {
+         "zero": true
+        }
+       },
+       "x2": {
+        "field": "zuwachs_bis"
+       }
+      }
+     },
+     {
+      "mark": {
+       "type": "point",
+       "filled": true,
+       "size": 90,
+       "opacity": 1
+      },
+      "encoding": {
+       "y": {
+        "field": {
+         "de": "besitzart_de",
+         "en": "besitzart_en"
+        },
+        "type": "nominal",
+        "sort": {
+         "field": "besitzart_nr",
+         "op": "min"
+        }
+       },
+       "x": {
+        "field": "zuwachs_von",
+        "type": "quantitative"
+       }
+      }
+     },
+     {
+      "mark": {
+       "type": "point",
+       "filled": true,
+       "size": 90,
+       "opacity": 1
+      },
+      "encoding": {
+       "y": {
+        "field": {
+         "de": "besitzart_de",
+         "en": "besitzart_en"
+        },
+        "type": "nominal",
+        "sort": {
+         "field": "besitzart_nr",
+         "op": "min"
+        }
+       },
+       "x": {
+        "field": "zuwachs_bis",
+        "type": "quantitative"
+       },
+       "tooltip": [
+        {
+         "field": {
+          "de": "besitzart_de",
+          "en": "besitzart_en"
+         },
+         "title": {
+          "de": "Besitzart",
+          "en": "Type of owner"
+         }
+        },
+        {
+         "field": "zuwachs_text",
+         "title": {
+          "de": "Zuwachs (gedruckt, Klafter)",
+          "en": "Growth (printed, cords)"
+         }
+        },
+        {
+         "field": "rm_ha_von",
+         "title": {
+          "de": "von, Raummeter je ha",
+          "en": "from, stacked m³ per ha"
+         },
+         "format": ".1f"
+        },
+        {
+         "field": "rm_ha_bis",
+         "title": {
+          "de": "bis, Raummeter je ha",
+          "en": "to, stacked m³ per ha"
+         },
+         "format": ".1f"
+        },
+        {
+         "field": "ertrag_cf",
+         "title": {
+          "de": "Ertrag, Cubikfuß",
+          "en": "yield, cubic feet"
+         }
+        }
+       ]
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "keywords": {
+  "de": [
+   "Holzpreise",
+   "Bauholz",
+   "Blochholz",
+   "Feuerholz",
+   "Brennholz",
+   "Normalklafter",
+   "Zuwachs",
+   "Ertrag",
+   "Forstwirtschaft",
+   "Frankenwald",
+   "Preisentwicklung"
+  ],
+  "en": [
+   "timber prices",
+   "construction timber",
+   "firewood",
+   "standard cord",
+   "growth",
+   "yield",
+   "forestry",
+   "Frankenwald",
+   "price development"
+  ]
+ },
+ "related": [
+  "forstwirtschaft-waldflaeche-besitz"
+ ],
+ "generated_by": "Claude Sonnet 5.5 (subagent A09)",
+ "date": "2026-10-01"
+}

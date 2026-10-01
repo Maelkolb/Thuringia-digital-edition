@@ -17,9 +17,7 @@
    "type": "heading",
    "src": 0,
    "text": "IV. Der Staat.",
-   "spans": [],
-   "sec": "inhalt",
-   "level": 4
+   "spans": []
   },
   {
    "id": "b2",
@@ -45,7 +43,7 @@
      "role": "body",
      "cells": [
       {
-       "text": "a) Frühere Hauptverträge und Ordnungen . . . . . . . . . . . .",
+       "text": "a) Frühere Hauptverträge und Ordnungen",
        "spans": []
       },
       {
@@ -58,7 +56,7 @@
      "role": "body",
      "cells": [
       {
-       "text": "b) Gegenwärtige Staatsverfassung . . . . . . . . . . . . . . . .",
+       "text": "b) Gegenwärtige Staatsverfassung",
        "spans": []
       },
       {
@@ -71,7 +69,7 @@
      "role": "body",
      "cells": [
       {
-       "text": "c) Gemeindeverfassung . . . . . . . . . . . . . . . . . . . . . . .",
+       "text": "c) Gemeindeverfassung",
        "spans": []
       },
       {
@@ -84,7 +82,7 @@
      "role": "body",
      "cells": [
       {
-       "text": "2) Militair . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+       "text": "2) Militair",
        "spans": []
       },
       {
@@ -97,7 +95,7 @@
      "role": "body",
      "cells": [
       {
-       "text": "3) Staatsverwaltung . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+       "text": "3) Staatsverwaltung",
        "spans": []
       },
       {
@@ -110,7 +108,7 @@
      "role": "body",
      "cells": [
       {
-       "text": "4) Rechtspflege . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+       "text": "4) Rechtspflege",
        "spans": []
       },
       {
@@ -123,7 +121,7 @@
      "role": "body",
      "cells": [
       {
-       "text": "5) Kirche . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+       "text": "5) Kirche",
        "spans": []
       },
       {
@@ -136,7 +134,7 @@
      "role": "body",
      "cells": [
       {
-       "text": "6) Schule . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+       "text": "6) Schule",
        "spans": []
       },
       {
@@ -149,7 +147,7 @@
      "role": "body",
      "cells": [
       {
-       "text": "7) Kunst- und wissenschaftliche Sammlungen . . . . . . . . . . . . .",
+       "text": "7) Kunst- und wissenschaftliche Sammlungen",
        "spans": []
       },
       {
@@ -162,7 +160,7 @@
      "role": "body",
      "cells": [
       {
-       "text": "8) Armenwesen . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+       "text": "8) Armenwesen",
        "spans": []
       },
       {
@@ -218,8 +216,7 @@
      "301—310."
     ]
    ],
-   "caption": null,
-   "sec": "inhalt"
+   "caption": null
   },
   {
    "id": "b3",
@@ -232,7 +229,7 @@
      "role": "body",
      "cells": [
       {
-       "text": "V. Geschichte des Landes und seines Fürstenhauses . . . . . . . . . . . .",
+       "text": "V. Geschichte des Landes und seines Fürstenhauses",
        "spans": []
       },
       {
@@ -248,8 +245,7 @@
      "311—403."
     ]
    ],
-   "caption": null,
-   "sec": "inhalt"
+   "caption": null
   },
   {
    "id": "b4",
@@ -262,9 +258,7 @@
      49,
      "Location"
     ]
-   ],
-   "sec": "inhalt",
-   "level": 4
+   ]
   },
   {
    "id": "b5",
@@ -277,7 +271,7 @@
      "role": "body",
      "cells": [
       {
-       "text": "I. Der Landestheil oder Landrathsamtsbezirk Gera . . . . . . . . . . . . .",
+       "text": "I. Der Landestheil oder Landrathsamtsbezirk Gera",
        "spans": [
         [
          24,
@@ -296,7 +290,7 @@
      "role": "body",
      "cells": [
       {
-       "text": "II. Der Landestheil Schleiz oder das Wisentaland . . . . . . . . . . . . . .",
+       "text": "II. Der Landestheil Schleiz oder das Wisentaland",
        "spans": [
         [
          20,
@@ -320,7 +314,7 @@
      "role": "body",
      "cells": [
       {
-       "text": "III. Der Landestheil Lobenstein-Ebersdorf . . . . . . . . . . . . . . . . . .",
+       "text": "III. Der Landestheil Lobenstein-Ebersdorf",
        "spans": [
         [
          21,
@@ -350,12 +344,14 @@
      "706—825."
     ]
    ],
-   "caption": null,
-   "sec": "inhalt"
+   "caption": null
   }
  ],
  "footnotes": [],
  "corrections": [
+  {
+   "rule": "strip_dot_leaders"
+  },
   {
    "rule": "table_no_header_row",
    "note": "first row is data (legacy edition rendered it as <th>)",
@@ -377,12 +373,5 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-10-01T20:41:07.794957",
   "early_schema": false
- },
- "section_path": [
-  "front",
-  "inhalt"
- ],
- "sections": [
-  "inhalt"
- ]
+ }
 }

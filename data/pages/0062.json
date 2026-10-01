@@ -38,8 +38,7 @@
      146,
      "Natural Object"
     ]
-   ],
-   "sec": "t1-1-6"
+   ]
   },
   {
    "id": "b2",
@@ -62,8 +61,7 @@
      56,
      "Location"
     ]
-   ],
-   "sec": "t1-1-6"
+   ]
   },
   {
    "id": "b3",
@@ -86,8 +84,7 @@
      46,
      "Location"
     ]
-   ],
-   "sec": "t1-1-6"
+   ]
   },
   {
    "id": "b4",
@@ -100,8 +97,7 @@
      20,
      "Natural Object"
     ]
-   ],
-   "sec": "t1-1-6"
+   ]
   },
   {
    "id": "b5",
@@ -179,8 +175,7 @@
      523,
      "Natural Object"
     ]
-   ],
-   "sec": "t1-1-6"
+   ]
   },
   {
    "id": "b6",
@@ -198,8 +193,7 @@
      27,
      "Location"
     ]
-   ],
-   "sec": "t1-1-6"
+   ]
   },
   {
    "id": "b7",
@@ -212,8 +206,7 @@
      29,
      "Natural Object"
     ]
-   ],
-   "sec": "t1-1-6"
+   ]
   },
   {
    "id": "b8",
@@ -231,32 +224,28 @@
      20,
      "Natural Object"
     ]
-   ],
-   "sec": "t1-1-6"
+   ]
   },
   {
    "id": "b9",
    "type": "paragraph",
    "src": 8,
    "text": "Rechts: 1) Der Sybach im Süden von Leitlitz.",
-   "spans": [],
-   "sec": "t1-1-6"
+   "spans": []
   },
   {
    "id": "b10",
    "type": "paragraph",
    "src": 9,
    "text": "2) Der Lohbach von Leitlitz.",
-   "spans": [],
-   "sec": "t1-1-6"
+   "spans": []
   },
   {
    "id": "b11",
    "type": "paragraph",
    "src": 10,
    "text": "3) Das langenwolschendorfer Wasser.",
-   "spans": [],
-   "sec": "t1-1-6"
+   "spans": []
   },
   {
    "id": "b12",
@@ -269,8 +258,7 @@
      37,
      "Artefact"
     ]
-   ],
-   "sec": "t1-1-6"
+   ]
   },
   {
    "id": "b13",
@@ -283,16 +271,14 @@
      66,
      "Environment"
     ]
-   ],
-   "sec": "t1-1-6"
+   ]
   },
   {
    "id": "b14",
    "type": "paragraph",
    "src": 13,
    "text": "6) Das Weidigswässerlein von Weißendorf.",
-   "spans": [],
-   "sec": "t1-1-6"
+   "spans": []
   },
   {
    "id": "b15",
@@ -335,8 +321,7 @@
      373,
      "Artefact"
     ]
-   ],
-   "sec": "t1-1-6"
+   ]
   },
   {
    "id": "b16",
@@ -349,8 +334,7 @@
      62,
      "Artefact"
     ]
-   ],
-   "sec": "t1-1-6"
+   ]
   },
   {
    "id": "b17",
@@ -389,8 +373,7 @@
      "Natural Object"
     ]
    ],
-   "continues": true,
-   "sec": "t1-1-6"
+   "continues": true
   }
  ],
  "footnotes": [
@@ -413,13 +396,5 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-01-06T03:10:43.181614",
   "early_schema": false
- },
- "section_path": [
-  "t1",
-  "t1-1",
-  "t1-1-6"
- ],
- "sections": [
-  "t1-1-6"
- ]
+ }
 }

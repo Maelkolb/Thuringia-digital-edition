@@ -94,8 +94,7 @@
      "Location"
     ]
    ],
-   "continued": true,
-   "sec": "t1-1-5"
+   "continued": true
   },
   {
    "id": "b2",
@@ -148,8 +147,7 @@
      572,
      "Resource"
     ]
-   ],
-   "sec": "t1-1-5"
+   ]
   },
   {
    "id": "b3",
@@ -287,8 +285,7 @@
      1895,
      "Animal"
     ]
-   ],
-   "sec": "t1-1-5"
+   ]
   },
   {
    "id": "b4",
@@ -311,8 +308,7 @@
    "word_division": {
     "word": "durchzieht",
     "part": "durch-"
-   },
-   "sec": "t1-1-5"
+   }
   }
  ],
  "footnotes": [],
@@ -322,13 +318,5 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-01-06T02:45:26.098334",
   "early_schema": false
- },
- "section_path": [
-  "t1",
-  "t1-1",
-  "t1-1-5"
- ],
- "sections": [
-  "t1-1-5"
- ]
+ }
 }

@@ -19,8 +19,9 @@ def M(k,into):
     _put(k,{'action':'merge','into':into})
 def R(k,reason):
     _put(k,{'action':'reject','reason':reason})
-def C(k,label,kind,gloss=None,note=None):
+def C(k,label,kind,gloss=None,note=None,modern=None):
     x={'action':'reclass','class':'concept','label':label,'kind':kind}
+    if modern: x['modern']=modern
     if gloss: x['gloss_en']=gloss
     if note: x['note']=note
     _put(k,x)

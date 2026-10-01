@@ -149,8 +149,7 @@
      "Animal"
     ]
    ],
-   "continued": true,
-   "sec": "t2-3"
+   "continued": true
   },
   {
    "id": "b2",
@@ -278,8 +277,7 @@
      1192,
      "Organisation"
     ]
-   ],
-   "sec": "t2-3"
+   ]
   },
   {
    "id": "b3",
@@ -322,8 +320,7 @@
      257,
      "Location"
     ]
-   ],
-   "sec": "t2-3"
+   ]
   }
  ],
  "footnotes": [],
@@ -333,12 +330,5 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-04T21:32:00.681498",
   "early_schema": false
- },
- "section_path": [
-  "t2",
-  "t2-3"
- ],
- "sections": [
-  "t2-3"
- ]
+ }
 }

@@ -148,14 +148,13 @@
      1079,
      "Artefact"
     ]
-   ],
-   "sec": "t2-1"
+   ]
   },
   {
    "id": "b2",
    "type": "paragraph",
    "src": 1,
-   "text": "Der zum Osterstein ursprünglich geschlagene Rentendistrict begriff die anliegenden Waldungen (Hainberg, großen und kleinen Hain, Erdfall, Borngrund, das Holz beim Sandhügel, das Pottendorfer Holz, Bauernholz, Lerdorfer Holz, Weinberg, Kieferthal und Cossengraben, zusammen 1114 Acker) mit ihren Vorwerken und wüsten Orten (Bollersdorf, Pottendorf und Texdorf), das am Hainberg erbaute, vordem feste Pöppeln, dessen gesammter Grundbesitz Hainbergsboden und ein Burgmannsgut des Osterstein war, dann die Vorburg Untermhaus nebst Gries und Cuba, den Steinertsberg und das Vorwerk Laasen. Außerdem hatten 95 Fröhner aus den Vorstädten von Gera auf Osterstein zu fröhnen.",
+   "text": "Der zum Osterstein ursprünglich geschlagene Rentendistrict begriff die anliegenden Waldungen (Hainberg, großen und kleinen Hain, Erdfall, Borngrund, das Holz beim Sandhügel, das Pottendorfer Holz, Bauernholz, Lerdorfer Holz, Weinberg, Kieferthal und Cossengraben, zusammen 1114 Acker) mit ihren Vorwerken und wüsten Orten (Vollersdorf, Pottendorf und Texdorf), das am Hainberg erbaute, vordem feste Pöppeln, dessen gesammter Grundbesitz Hainbergsboden und ein Burgmannsgut des Osterstein war, dann die Vorburg Untermhaus nebst Gries und Cuba, den Steinertsberg und das Vorwerk Laasen. Außerdem hatten 95 Fröhner aus den Vorstädten von Gera auf Osterstein zu fröhnen.",
    "spans": [
     [
      8,
@@ -292,8 +291,7 @@
      654,
      "Natural Object"
     ]
-   ],
-   "sec": "t2-1"
+   ]
   },
   {
    "id": "b3",
@@ -392,23 +390,23 @@
      "Location"
     ]
    ],
-   "continues": true,
-   "sec": "t2-1"
+   "continues": true
   }
  ],
  "footnotes": [],
- "corrections": [],
+ "corrections": [
+  {
+   "rule": "facsimile_correction",
+   "before": "Bollersdorf",
+   "after": "Vollersdorf",
+   "source": "G1",
+   "n": 1
+  }
+ ],
  "provenance": {
   "source": "colab-2026-03",
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-04T14:47:18.943418",
   "early_schema": false
- },
- "section_path": [
-  "t2",
-  "t2-1"
- ],
- "sections": [
-  "t2-1"
- ]
+ }
 }

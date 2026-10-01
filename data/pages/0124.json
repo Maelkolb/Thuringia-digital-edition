@@ -53,8 +53,7 @@
      487,
      "Location"
     ]
-   ],
-   "sec": "t1-2-1"
+   ]
   },
   {
    "id": "b2",
@@ -72,25 +71,21 @@
      144,
      "Location"
     ]
-   ],
-   "sec": "t1-2-1"
+   ]
   },
   {
    "id": "b3",
    "type": "heading",
    "src": 2,
    "text": "Die Ehen in jährlicher Vermehrung und im Verhältniß zur Bevölkerung.",
-   "spans": [],
-   "sec": "t1-2-1",
-   "level": 5
+   "spans": []
   },
   {
    "id": "b4",
    "type": "paragraph",
    "src": 3,
    "text": "So sorgfältig auch früher die Copulirten von den Pfarrämtern aufgezeichnet wurden, so geschah doch ihre Zusammenstellung stets mit den Geborenen und Gestorbenen, keineswegs mit der Gesammtteinwohnerzahl, weshalb ihre statistische Verwerthung nur da möglich ist, wo sich die Bevölkerungssumme finden lässt. Die das ganze Land umfassenden Trauungsziffern sind:",
-   "spans": [],
-   "sec": "t1-2-1"
+   "spans": []
   },
   {
    "id": "b5",
@@ -1489,7 +1484,7 @@
      "role": "total",
      "cells": [
       {
-       "text": "Durchschn. 1858-97",
+       "text": "1858—97",
        "spans": []
       },
       {
@@ -1920,12 +1915,18 @@
      "1,01"
     ]
    ],
-   "caption": null,
-   "sec": "t1-2-1"
+   "caption": null
   }
  ],
  "footnotes": [],
  "corrections": [
+  {
+   "rule": "facsimile_correction",
+   "before": "Durchschn. 1858-97",
+   "after": "1858—97",
+   "source": "bevoelkerung-eheschliessungen-1858-1867",
+   "n": 1
+  },
   {
    "rule": "table_multirow_header",
    "rows": 2,
@@ -1937,13 +1938,5 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-03T15:13:59.212490",
   "early_schema": false
- },
- "section_path": [
-  "t1",
-  "t1-2",
-  "t1-2-1"
- ],
- "sections": [
-  "t1-2-1"
- ]
+ }
 }

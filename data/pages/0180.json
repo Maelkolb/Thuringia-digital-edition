@@ -18,8 +18,7 @@
    "src": 0,
    "text": "den Familien zuführen. Ist auch die Zahl ihrer Leser mehr bei der Jugend als bei den Alten zu suchen, so wird doch durch diese Schriften der Bildungsumfang der heranwachsenden Generation erweitert. Noch viel stärker ist der Einfluß der Zeitungen und Zeitschriften auf das Volk. War derselbe in den Tagen der Großväter wenn nicht Null, doch äußerst gering, so ist er heute nicht unbedeutend, zudem nachweisbar. Durch die Post werden gegenwärtig bezogen:",
    "spans": [],
-   "continued": true,
-   "sec": "t1-2-5"
+   "continued": true
   },
   {
    "id": "b2",
@@ -61,7 +60,7 @@
      "role": "body",
      "cells": [
       {
-       "text": "Gera . . . .",
+       "text": "Gera",
        "spans": [
         [
          0,
@@ -705,8 +704,7 @@
      "199"
     ]
    ],
-   "caption": null,
-   "sec": "t1-2-5"
+   "caption": null
   },
   {
    "id": "b3",
@@ -749,28 +747,21 @@
      414,
      "Location"
     ]
-   ],
-   "sec": "t1-2-5"
+   ]
   },
   {
    "id": "b4",
    "type": "paragraph",
    "src": 3,
    "text": "Zigeuner und slovakische Drahtkünstler sind heute nur vereinzelte Erscheinungen im Lande. Früher waren jene wunderbaren kaffeebraunen Söhne des Orients häufig im Oberlande zu finden, wo sie durch Heilmittel, Feuersegen und Ersuchen die Wundergläubigkeit des ländlichen Volkes zu ihrem Schutze und Gewinne zu nähren suchten. Noch manche Oertlichkeiten erinnern an dies unstätige Geschlecht.",
-   "spans": [],
-   "sec": "t1-2-5"
+   "spans": []
   },
   {
    "id": "b5",
    "type": "heading",
    "src": 4,
    "text": "6. Volkskrankheit und Volksmedicin.",
-   "spans": [],
-   "opens": [
-    "t1-2-6"
-   ],
-   "sec": "t1-2-6",
-   "level": 4
+   "spans": []
   },
   {
    "id": "b6",
@@ -778,25 +769,19 @@
    "src": 5,
    "text": "Im Unterlande bessere Nahrung, im Oberlande reinere Bergluft, dazu im ganzen Gebiete Verminderung der Trunkexcesse und Zunahme gemeinnütziger ärztlicher Einwirkung bilden im Allgemeinen gegen die Verbreitung von intensiven Volkskrankheiten einen festen Damm, der in dem Maße stärker werden muß,",
    "spans": [],
-   "continues": true,
-   "sec": "t1-2-6"
+   "continues": true
   }
  ],
  "footnotes": [],
- "corrections": [],
+ "corrections": [
+  {
+   "rule": "strip_dot_leaders"
+  }
+ ],
  "provenance": {
   "source": "colab-2026-03",
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-03T15:34:00.886887",
   "early_schema": false
- },
- "section_path": [
-  "t1",
-  "t1-2",
-  "t1-2-5"
- ],
- "sections": [
-  "t1-2-5",
-  "t1-2-6"
- ]
+ }
 }

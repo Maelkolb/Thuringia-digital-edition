@@ -59,8 +59,7 @@
      "Environment"
     ]
    ],
-   "continued": true,
-   "sec": "t1-1-8"
+   "continued": true
   },
   {
    "id": "b2",
@@ -93,8 +92,7 @@
      143,
      "Location"
     ]
-   ],
-   "sec": "t1-1-8"
+   ]
   },
   {
    "id": "b3",
@@ -312,7 +310,7 @@
      "role": "body",
      "cells": [
       {
-       "text": "Thüringen**) . . . . .",
+       "text": "Thüringen**)",
        "spans": [
         [
          0,
@@ -343,7 +341,7 @@
      "role": "body",
      "cells": [
       {
-       "text": "Franken***) . . . . .",
+       "text": "Franken***)",
        "spans": [
         [
          0,
@@ -374,7 +372,7 @@
      "role": "body",
      "cells": [
       {
-       "text": "Deutschland . . . . .",
+       "text": "Deutschland",
        "spans": [
         [
          0,
@@ -474,8 +472,7 @@
      "3,76 : 1"
     ]
    ],
-   "caption": null,
-   "sec": "t1-1-8"
+   "caption": null
   },
   {
    "id": "b4",
@@ -533,14 +530,13 @@
      341,
      "Location"
     ]
-   ],
-   "sec": "t1-1-8"
+   ]
   },
   {
    "id": "b5",
    "type": "paragraph",
    "src": 4,
-   "text": "Acer Pseudoplatanus. Rosa cinnamomea.\nClematis Vitalba. - pumila.\nMyosurus minimus. - gallica.\nRanunculus Lingua.††) Crataegus monogyna, Jcq.\nCorydalis solida, Sm. Sempervivum soboliferum, Sims.\n- pumila,†††) Host. Silaus pratensis, B.\nConringia orientalis, L. Seseli annuum.\nDianthus superbus. Laserpitium pruthenicum.\nLepigonum rubrum, W. Galium tricorne, With.\nGeranium phaeum. Scabiosa ochroleuca.\nCoronilla varia. Inula britannica.\nPotentilla Fragariastrum, Ehrh. Pulicaria dysenterica, Grtn.\nRosa pimpinellifolia. Helichrysum arenarium, DC.",
+   "text": "Acer Pseudoplatanus. Rosa cinnamomea.\nClematis Vitalba. - pumila.\nMyosurus minimus. - gallica.\nRanunculus Lingua.††) Crataegus monogyna, Jcq.\nCorydalis solida, Sm. Sempervivum soboliferum, Sims.\n- pumila,†††) Host. Silaus pratensis, B.\nConringia orientalis, L. Seseli annuum.\nDianthus superbus. Laserpitium pruthenicum.\nLepigonum rubrum, W. Galium tricorne, With.\nGeranium phaeum. Scabiosa ochroleuca.\nCoronilla varia. Inula britannica.\nPotentilla Fragariastrum, Ehrh. Palicaria dysenterica, Grtn.\nRosa pimpinellifolia. Helichrysum arenarium, DC.",
    "spans": [
     [
      0,
@@ -657,8 +653,7 @@
      541,
      "Plant"
     ]
-   ],
-   "sec": "t1-1-8"
+   ]
   }
  ],
  "footnotes": [
@@ -815,6 +810,16 @@
  ],
  "corrections": [
   {
+   "rule": "strip_dot_leaders"
+  },
+  {
+   "rule": "facsimile_correction",
+   "before": "Pulicaria dysenterica",
+   "after": "Palicaria dysenterica",
+   "source": "A05",
+   "n": 1
+  },
+  {
    "rule": "join_linebreak_hyphen",
    "before": "Dicoty- len",
    "after": "Dicotylen"
@@ -830,13 +835,5 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-01-06T03:50:53.990696",
   "early_schema": false
- },
- "section_path": [
-  "t1",
-  "t1-1",
-  "t1-1-8"
- ],
- "sections": [
-  "t1-1-8"
- ]
+ }
 }

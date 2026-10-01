@@ -643,7 +643,7 @@
        "spans": []
       },
       {
-       "text": "4,14",
+       "text": "4,74",
        "spans": []
       },
       {
@@ -900,7 +900,7 @@
        "spans": []
       },
       {
-       "text": "1375,81",
+       "text": "1375,87",
        "spans": []
       },
       {
@@ -1403,12 +1403,25 @@
      ""
     ]
    ],
-   "caption": null,
-   "sec": "t1-3-2"
+   "caption": null
   }
  ],
  "footnotes": [],
  "corrections": [
+  {
+   "rule": "facsimile_correction",
+   "before": "4,14",
+   "after": "4,74",
+   "source": "landwirtschaft-kammer-rittergueter-1854",
+   "n": 1
+  },
+  {
+   "rule": "facsimile_correction",
+   "before": "1375,81",
+   "after": "1375,87",
+   "source": "landwirtschaft-kammer-rittergueter-1854",
+   "n": 1
+  },
   {
    "rule": "table_multirow_header",
    "rows": 2,
@@ -1420,13 +1433,5 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-04T13:18:15.391397",
   "early_schema": false
- },
- "section_path": [
-  "t1",
-  "t1-3",
-  "t1-3-2"
- ],
- "sections": [
-  "t1-3-2"
- ]
+ }
 }

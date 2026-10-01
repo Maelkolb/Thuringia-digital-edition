@@ -184,7 +184,7 @@
      "role": "body",
      "cells": [
       {
-       "text": "Caasen . . . .",
+       "text": "Caasen",
        "spans": [
         [
          0,
@@ -535,7 +535,7 @@
      "role": "body",
      "cells": [
       {
-       "text": "Collis . . . .",
+       "text": "Collis",
        "spans": [
         [
          0,
@@ -770,7 +770,7 @@
      "role": "body",
      "cells": [
       {
-       "text": "Otticha . . . .",
+       "text": "Otticha",
        "spans": [
         [
          0,
@@ -830,7 +830,7 @@
      "role": "body",
      "cells": [
       {
-       "text": "Pforten . . . .",
+       "text": "Pforten",
        "spans": [
         [
          0,
@@ -950,7 +950,7 @@
      "role": "body",
      "cells": [
       {
-       "text": "Cuba . . . . .",
+       "text": "Cuba",
        "spans": [
         [
          0,
@@ -1008,7 +1008,7 @@
      "role": "body",
      "cells": [
       {
-       "text": "Culm . . . . .",
+       "text": "Culm",
        "spans": [
         [
          0,
@@ -1124,7 +1124,7 @@
      "role": "body",
      "cells": [
       {
-       "text": "Dorna . . . . .",
+       "text": "Dorna",
        "spans": [
         [
          0,
@@ -1240,7 +1240,7 @@
      "role": "body",
      "cells": [
       {
-       "text": "Ernsee . . . . .",
+       "text": "Ernsee",
        "spans": [
         [
          0,
@@ -1356,7 +1356,7 @@
      "role": "body",
      "cells": [
       {
-       "text": "Geißen . . . . .",
+       "text": "Geißen",
        "spans": [
         [
          0,
@@ -1414,7 +1414,7 @@
      "role": "body",
      "cells": [
       {
-       "text": "Gleina . . . . .",
+       "text": "Gleina",
        "spans": [
         [
          0,
@@ -1472,7 +1472,7 @@
      "role": "body",
      "cells": [
       {
-       "text": "Großaga . . . .",
+       "text": "Großaga",
        "spans": [
         [
          0,
@@ -1588,7 +1588,7 @@
      "role": "body",
      "cells": [
       {
-       "text": "Grüna . . . . .",
+       "text": "Grüna",
        "spans": [
         [
          0,
@@ -1994,7 +1994,7 @@
      "role": "body",
      "cells": [
       {
-       "text": "Kleinaga . . . .",
+       "text": "Kleinaga",
        "spans": [
         [
          0,
@@ -2110,7 +2110,7 @@
      "role": "body",
      "cells": [
       {
-       "text": "Köstritz . . . .",
+       "text": "Köstritz",
        "spans": [
         [
          0,
@@ -2284,7 +2284,7 @@
      "role": "body",
      "cells": [
       {
-       "text": "Laasen . . . . .",
+       "text": "Laasen",
        "spans": [
         [
          0,
@@ -2458,7 +2458,7 @@
      "role": "body",
      "cells": [
       {
-       "text": "Lessen . . . . .",
+       "text": "Lessen",
        "spans": [
         [
          0,
@@ -2516,7 +2516,7 @@
      "role": "body",
      "cells": [
       {
-       "text": "Leumnitz . . . .",
+       "text": "Leumnitz",
        "spans": [
         [
          0,
@@ -2574,7 +2574,7 @@
      "role": "body",
      "cells": [
       {
-       "text": "Lusan . . . . .",
+       "text": "Lusan",
        "spans": [
         [
          0,
@@ -2632,7 +2632,7 @@
      "role": "body",
      "cells": [
       {
-       "text": "Milbitz . . . .",
+       "text": "Milbitz",
        "spans": [
         [
          0,
@@ -2748,7 +2748,7 @@
      "role": "body",
      "cells": [
       {
-       "text": "Negis . . . . .",
+       "text": "Negis",
        "spans": [
         [
          0,
@@ -2922,7 +2922,7 @@
      "role": "body",
      "cells": [
       {
-       "text": "Pohlitz . . . .",
+       "text": "Pohlitz",
        "spans": [
         [
          0,
@@ -2980,7 +2980,7 @@
      "role": "body",
      "cells": [
       {
-       "text": "Pörsdorf . . . .",
+       "text": "Pörsdorf",
        "spans": [
         [
          0,
@@ -3096,7 +3096,7 @@
      "role": "body",
      "cells": [
       {
-       "text": "Roben . . . . .",
+       "text": "Roben",
        "spans": [
         [
          0,
@@ -3154,7 +3154,7 @@
      "role": "body",
      "cells": [
       {
-       "text": "Roschitz . . . .",
+       "text": "Roschitz",
        "spans": [
         [
          0,
@@ -3212,7 +3212,7 @@
      "role": "body",
      "cells": [
       {
-       "text": "Rubitz . . . . .",
+       "text": "Rubitz",
        "spans": [
         [
          0,
@@ -3270,7 +3270,7 @@
      "role": "body",
      "cells": [
       {
-       "text": "Rusitz . . . . .",
+       "text": "Rusitz",
        "spans": [
         [
          0,
@@ -4204,12 +4204,14 @@
      ""
     ]
    ],
-   "caption": null,
-   "sec": "t2-1"
+   "caption": null
   }
  ],
  "footnotes": [],
  "corrections": [
+  {
+   "rule": "strip_dot_leaders"
+  },
   {
    "rule": "table_pad_ragged_rows",
    "block": "b1"
@@ -4220,12 +4222,5 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-04T14:42:20.117166",
   "early_schema": false
- },
- "section_path": [
-  "t2",
-  "t2-1"
- ],
- "sections": [
-  "t2-1"
- ]
+ }
 }

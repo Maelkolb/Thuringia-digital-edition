@@ -144,16 +144,14 @@
      "Person"
     ]
    ],
-   "continued": true,
-   "sec": "t1-5-1"
+   "continued": true
   },
   {
    "id": "b2",
    "type": "paragraph",
    "src": 1,
    "text": "Wir alle, wir alle kommen 'raus\nUnd tragen heute den Tod hinaus,\nKomm', Frühling, wieder mit in's Dorf,\nWillkommen, lieber Frühling.",
-   "spans": [],
-   "sec": "t1-5-1"
+   "spans": []
   },
   {
    "id": "b3",
@@ -196,8 +194,7 @@
      677,
      "Location"
     ]
-   ],
-   "sec": "t1-5-1"
+   ]
   },
   {
    "id": "b4",
@@ -210,8 +207,7 @@
      317,
      "Location"
     ]
-   ],
-   "sec": "t1-5-1"
+   ]
   },
   {
    "id": "b5",
@@ -230,8 +226,7 @@
      "Location"
     ]
    ],
-   "continues": true,
-   "sec": "t1-5-1"
+   "continues": true
   }
  ],
  "footnotes": [],
@@ -241,13 +236,5 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-05T12:02:49.394127",
   "early_schema": false
- },
- "section_path": [
-  "t1",
-  "t1-5",
-  "t1-5-1"
- ],
- "sections": [
-  "t1-5-1"
- ]
+ }
 }

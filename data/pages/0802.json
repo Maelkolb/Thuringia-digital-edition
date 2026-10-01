@@ -29,16 +29,14 @@
      "Artefact"
     ]
    ],
-   "continued": true,
-   "sec": "t2-3"
+   "continued": true
   },
   {
    "id": "b2",
    "type": "paragraph",
    "src": 1,
    "text": "Zum Orte gehören:",
-   "spans": [],
-   "sec": "t2-3"
+   "spans": []
   },
   {
    "id": "b3",
@@ -105,8 +103,7 @@
       ]
      ]
     }
-   ],
-   "sec": "t2-3"
+   ]
   },
   {
    "id": "b4",
@@ -199,8 +196,7 @@
      1269,
      "Artefact"
     ]
-   ],
-   "sec": "t2-3"
+   ]
   },
   {
    "id": "b5",
@@ -223,8 +219,7 @@
      139,
      "Location"
     ]
-   ],
-   "sec": "t2-3"
+   ]
   },
   {
    "id": "b6",
@@ -308,8 +303,7 @@
      "Resource"
     ]
    ],
-   "continues": true,
-   "sec": "t2-3"
+   "continues": true
   }
  ],
  "footnotes": [
@@ -354,12 +348,5 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-05T12:26:18.258932",
   "early_schema": false
- },
- "section_path": [
-  "t2",
-  "t2-3"
- ],
- "sections": [
-  "t2-3"
- ]
+ }
 }

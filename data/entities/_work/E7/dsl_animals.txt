@@ -20,7 +20,7 @@ M|Esel|Es~E
 T|Maulthiere|Maultier||mule|Brückner: Maulthiere und Esel, früher in Diensten der Burgen und Müller.|
 T|Schafe|Schaf|Ovis aries|sheep|In den Viehlisten als Schf. abgekürzt.
 M|Schafe|Schf~Schaf~Schafen~Schafs~Schof~Schofe~Schofharde~Schafvieh~Gutsschafe~Landschaf
-T|Schweine|Schwein|Sus scrofa|pig|Hausschwein; in den Viehlisten als Schw. abgekürzt.
+T|Schweine|Schwein|Sus scrofa domesticus [subspecies]|pig|Hausschwein; in den Viehlisten als Schw. abgekürzt.
 M|Schweine|Schw~Schwein~Schweinen~#1151~Sau~Landsäue~Mastschweine~Jungschweine~Schlachtschweine~Ferkel
 T|Wildschweine|Wildschwein|Sus scrofa|wild boar|Im Unterland gehegt, später aufgegeben (S. 83).
 T|Eber|Eber|Sus scrofa|boar|Steinbild am Eingang (S. 726).
@@ -37,7 +37,7 @@ T|Federvieh|Federvieh||poultry|Sammelbegriff für Hausgeflügel.
 T|Tauben|Taube|Columba livia|pigeon, dove|Haustaube; Taube auch als Bildmotiv (S. 684).
 M|Tauben|Taube
 T|Enten|Ente|Anas platyrhynchos|duck
-T|Hund|Hund|Canis lupus|dog|Haushund (Canis lupus familiaris); auch Jagd-, Hof- und Kettenhunde; mundartlich Hunne.
+T|Hund|Hund|Canis lupus familiaris [subspecies]|dog|Haushund; auch Jagd-, Hof- und Kettenhunde; mundartlich Hunne.
 M|Hund|Hunde~Hunden~#226~Hunne~Hunnen~Hundes~Hündchen~Hofhunde~Kettenhund~Dorfhunde~Jagdhund~Bracken~Jagdhunds- oder Brackenkopf
 T|Katze|Katze|Felis catus|cat
 M|Katze|Katzen
@@ -51,13 +51,13 @@ M|Zugthier|Zugthiere
 T|Wild|Wild||game|Jagdbares Wild (Niederwild, Rotwild …).
 M|Wild|Niederwild
 # --- Säugetiere, wild ---
-T|Hasen|Feldhase|Lepus europaeus|hare|Auch im Aberglauben (dreibeiniger Hase).
+T|Hasen|Hase|Lepus europaeus|hare|Auch im Aberglauben (dreibeiniger Hase).|Feldhase
 M|Hasen|Hase
 T|Maus|Maus|Muridae [family]|mouse|Mäuse im Volksglauben und in Kinderspielen.
 M|Maus|Mäuse
 T|Wanderratte|Wanderratte|Rattus norvegicus|brown rat|Seit einigen Jahrzehnten eingewandert; hat die Hausratte verdrängt (S. 82).
 T|Hamster|Hamster|Cricetus cricetus|hamster
-T|Eichhorn|Eichhörnchen|Sciurus vulgaris|red squirrel|Im Oberland als Speise genannt (S. 83).|Eichhörnchen
+T|Eichhorn|Eichhorn|Sciurus vulgaris|red squirrel|Im Oberland als Speise genannt (S. 83).|Eichhörnchen
 M|Eichhorn|Springthierchen
 T|Siebenschläfer|Siebenschläfer|Glis glis|edible dormouse
 T|Haselschläfer|Haselschläfer|Muscardinus avellanarius|hazel dormouse
@@ -71,7 +71,7 @@ T|Luchs|Luchs|Lynx lynx|lynx
 T|Petze|Petze||bear, lynx and wolf (collective)|Brückner: Kleeblatt der Petze, d. h. Bär, Luchs und Wolf (S. 82).
 T|Hirsch|Hirsch|Cervus elaphus|red deer|Auch Wappentier (Hirschberg) und Gasthausname (zum Hirsch); Edel- und Rothwild.
 M|Hirsch|Hirsche~Edelhirsche~Rothwild
-T|Dammhirsche|Damhirsch|Dama dama|fallow deer
+T|Dammhirsche|Dammhirsch|Dama dama|fallow deer||Damhirsch
 T|Rehe|Reh|Capreolus capreolus|roe deer
 T|Wisent|Wisent|Bison bonasus|European bison|Brückner setzt Wisent mit Auerochs gleich (Wisentstier, Auerochs; S. 83); Ortsnamen Wiesenthal/Wisenthal; auch Wappentier (Auerstierkopf im Schleizer Wappen).
 M|Wisent|Wisentstier~Auerochs~Auerstierkopf~Wisent- oder Auerochsenkopf
@@ -82,4 +82,6 @@ T|Seepferde|Seepferd||sea-horse (mythical)|Mythisches Seepferd auf einer Gemme (
 T|Kranich|Kranich|Grus grus|common crane|Meist Wappentier (Kranichfeld; Siegel von Langenberg).
 T|Adler|Adler|Accipitridae [family]|eagle|Wappentier (Halbadler im Hirschberger Wappen; schwarzer Adler).
 M|Adler|Halbadler
-T|Affe|Affe||monkey|
+R|Affe|Name eines Gasthauses (Strassenwirthshaus), kein Tier
+R|Affen|Name eines Gasthauses (am grünen Esel oder grauen Affen), kein Tier
+R|Ratte|Name eines Gasthauses (Affe, auch Ratte genannt), kein Tier

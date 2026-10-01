@@ -17,9 +17,7 @@
    "type": "heading",
    "src": 0,
    "text": "c) Bäuerlicher Grundbesitz.",
-   "spans": [],
-   "sec": "t1-3-2",
-   "level": 5
+   "spans": []
   },
   {
    "id": "b2",
@@ -455,16 +453,14 @@
      ""
     ]
    ],
-   "caption": null,
-   "sec": "t1-3-2"
+   "caption": null
   },
   {
    "id": "b3",
    "type": "paragraph",
    "src": 2,
    "text": "Nimmt man die gebundenen Güter über 60 Morgen als große, die unter 60 Morgen als kleine Güter an, so hat das Land von jenen 884, von diesen 1997 oder in Procent 30,69 große und 69,31 kleine Güter. Geht schon daraus hervor, daß im Laufe der Zeit eine starke Zerstückelung der ursprünglichen Bauerngüter erfolgt ist, dessen sich das Volk auch bewußt geblieben, indem es noch vielfach seine Güter in ganze, halbe, Viertel- und Achtelgüter oder Höfe theilt, so erweist sich jedoch die Parcellirung noch stärker, wenn man die große Zahl der ledigen Grundstücke beachtet, von denen sechs auf ein geschlossenes Gut kommen. In erster Reihe der Zersplitterung stehen aber die Städte, wie dies die folgende Tabelle darthut:",
-   "spans": [],
-   "sec": "t1-3-2"
+   "spans": []
   },
   {
    "id": "b4",
@@ -512,7 +508,7 @@
      "role": "body",
      "cells": [
       {
-       "text": "Gera . . . . .",
+       "text": "Gera",
        "spans": [
         [
          0,
@@ -547,7 +543,7 @@
      "role": "body",
      "cells": [
       {
-       "text": "Schleiz . . . .",
+       "text": "Schleiz",
        "spans": [
         [
          0,
@@ -617,7 +613,7 @@
      "role": "body",
      "cells": [
       {
-       "text": "Tanna . . . .",
+       "text": "Tanna",
        "spans": [
         [
          0,
@@ -814,8 +810,7 @@
      "2775"
     ]
    ],
-   "caption": "Vergleichung der Städte mit dem Flachlande:",
-   "sec": "t1-3-2"
+   "caption": "Vergleichung der Städte mit dem Flachlande:"
   },
   {
    "id": "b5",
@@ -1076,8 +1071,7 @@
      "100,00"
     ]
    ],
-   "caption": null,
-   "sec": "t1-3-2"
+   "caption": null
   },
   {
    "id": "b6",
@@ -1085,12 +1079,14 @@
    "src": 5,
    "text": "Auf dem Flachlande hat sich gleichfalls fast kein Ort ohne Zerschlagung von Bauernhöfen frei erhalten, daher nur die Minderzahl große Höfe und selbst bloß eine kleine Zahl Höfe über 100 Morgen besitzt. Unter den letzteren",
    "spans": [],
-   "continues": true,
-   "sec": "t1-3-2"
+   "continues": true
   }
  ],
  "footnotes": [],
  "corrections": [
+  {
+   "rule": "strip_dot_leaders"
+  },
   {
    "rule": "join_linebreak_hyphen",
    "before": "Landes- theile",
@@ -1107,13 +1103,5 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-04T13:18:29.104922",
   "early_schema": false
- },
- "section_path": [
-  "t1",
-  "t1-3",
-  "t1-3-2"
- ],
- "sections": [
-  "t1-3-2"
- ]
+ }
 }

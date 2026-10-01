@@ -33,8 +33,7 @@
      200,
      "Artefact"
     ]
-   ],
-   "sec": "t2-3"
+   ]
   },
   {
    "id": "b2",
@@ -47,8 +46,7 @@
      83,
      "Environment"
     ]
-   ],
-   "sec": "t2-3"
+   ]
   },
   {
    "id": "b3",
@@ -76,8 +74,7 @@
      178,
      "Environmental Impact"
     ]
-   ],
-   "sec": "t2-3"
+   ]
   },
   {
    "id": "b4",
@@ -110,8 +107,7 @@
      194,
      "Artefact"
     ]
-   ],
-   "sec": "t2-3"
+   ]
   },
   {
    "id": "b5",
@@ -124,9 +120,7 @@
      23,
      "Environment"
     ]
-   ],
-   "sec": "t2-3",
-   "level": 4
+   ]
   },
   {
    "id": "b6",
@@ -204,8 +198,7 @@
      624,
      "Natural Object"
     ]
-   ],
-   "sec": "t2-3"
+   ]
   },
   {
    "id": "b7",
@@ -273,8 +266,7 @@
      658,
      "Artefact"
     ]
-   ],
-   "sec": "t2-3"
+   ]
   },
   {
    "id": "b8",
@@ -312,8 +304,7 @@
      218,
      "Artefact"
     ]
-   ],
-   "sec": "t2-3"
+   ]
   },
   {
    "id": "b9",
@@ -392,8 +383,7 @@
      "Person"
     ]
    ],
-   "continues": true,
-   "sec": "t2-3"
+   "continues": true
   }
  ],
  "footnotes": [],
@@ -408,12 +398,5 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-04T21:09:55.782357",
   "early_schema": false
- },
- "section_path": [
-  "t2",
-  "t2-3"
- ],
- "sections": [
-  "t2-3"
- ]
+ }
 }

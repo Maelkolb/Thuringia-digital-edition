@@ -89,20 +89,14 @@
      "Artefact"
     ]
    ],
-   "continued": true,
-   "sec": "t1-4-5"
+   "continued": true
   },
   {
    "id": "b2",
    "type": "heading",
    "src": 1,
    "text": "6. Schule.",
-   "spans": [],
-   "opens": [
-    "t1-4-6"
-   ],
-   "sec": "t1-4-6",
-   "level": 4
+   "spans": []
   },
   {
    "id": "b3",
@@ -191,8 +185,7 @@
      "Organisation"
     ]
    ],
-   "continues": true,
-   "sec": "t1-4-6"
+   "continues": true
   }
  ],
  "footnotes": [],
@@ -202,14 +195,5 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-04T13:44:31.954422",
   "early_schema": false
- },
- "section_path": [
-  "t1",
-  "t1-4",
-  "t1-4-5"
- ],
- "sections": [
-  "t1-4-5",
-  "t1-4-6"
- ]
+ }
 }

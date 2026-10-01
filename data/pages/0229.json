@@ -246,7 +246,7 @@
      "role": "body",
      "cells": [
       {
-       "text": "Wiese . . . .",
+       "text": "Wiese",
        "spans": [
         [
          0,
@@ -340,7 +340,7 @@
      "role": "body",
      "cells": [
       {
-       "text": "Teiche . . . .",
+       "text": "Teiche",
        "spans": [
         [
          0,
@@ -683,16 +683,14 @@
      "100,00"
     ]
    ],
-   "caption": null,
-   "sec": "t1-3-2"
+   "caption": null
   },
   {
    "id": "b2",
    "type": "paragraph",
    "src": 1,
    "text": "Der landwirthschaftliche Boden vertheilt sich nach den Landestheilen:",
-   "spans": [],
-   "sec": "t1-3-2"
+   "spans": []
   },
   {
    "id": "b3",
@@ -730,7 +728,7 @@
      "role": "body",
      "cells": [
       {
-       "text": "Gera . . . . .",
+       "text": "Gera",
        "spans": [
         [
          0,
@@ -761,7 +759,7 @@
      "role": "body",
      "cells": [
       {
-       "text": "Schleiz . . . .",
+       "text": "Schleiz",
        "spans": [
         [
          0,
@@ -882,16 +880,14 @@
      "10,00"
     ]
    ],
-   "caption": null,
-   "sec": "t1-3-2"
+   "caption": null
   },
   {
    "id": "b4",
    "type": "paragraph",
    "src": 3,
    "text": "Der landwirthschaftliche Boden nach den Hauptgrundbesitzern vertheilt:",
-   "spans": [],
-   "sec": "t1-3-2"
+   "spans": []
   }
  ],
  "footnotes": [
@@ -962,19 +958,15 @@
    ]
   }
  ],
- "corrections": [],
+ "corrections": [
+  {
+   "rule": "strip_dot_leaders"
+  }
+ ],
  "provenance": {
   "source": "colab-2026-03",
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-03T15:51:31.097615",
   "early_schema": false
- },
- "section_path": [
-  "t1",
-  "t1-3",
-  "t1-3-2"
- ],
- "sections": [
-  "t1-3-2"
- ]
+ }
 }

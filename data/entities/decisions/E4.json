@@ -1,0 +1,2602 @@
+{
+ "package": "E4",
+ "group": "persons",
+ "decisions": [
+  {
+   "key": "Heinrich",
+   "action": "accept",
+   "label": "Heinrich",
+   "class": "person",
+   "kind": "Landesherr (mehrdeutig)",
+   "note": "ambiguous; refers to different persons. Members of the houses of Weida, Gera, Plauen and Reuß (Voigte, Herren, Grafen, Fürsten) as well as kings/emperors (Heinrich I., Heinrich IV., Heinrich VI.), Landgraf Heinrich of Thuringia and clergy; also the table cells of the genealogies (pp. 325-364) that give only the first name."
+  },
+  {
+   "key": "Heinrich d. ä",
+   "action": "accept",
+   "label": "Heinrich d. ä.",
+   "class": "person",
+   "kind": "Landesherr (mehrdeutig)",
+   "note": "ambiguous; refers to different persons. Several Voigte of Weida, Gera, Plauen and Greiz and later Herren/Grafen Reuß who were called \"der Ältere\" (13th-16th c.), e.g. Heinrich d. ä. von Weida (1276-c. 1316; 1295-c. 1364), von Gera (1307-c. 1345; 1404-1439; 1502-1538), Reuß zu Greiz (1429-c. 1475), Reuß zu Untergreiz (1506-1572)."
+  },
+  {
+   "key": "Heinrich d. j",
+   "action": "accept",
+   "label": "Heinrich d. j.",
+   "class": "person",
+   "kind": "Landesherr (mehrdeutig)",
+   "note": "ambiguous; refers to different persons. Several Voigte of Weida, Gera, Plauen and Greiz and later Herren Reuß who were called \"der Jüngere\" (13th-16th c.), e.g. Heinrich d. j. von Weida, von Gera (the Worthalter, the Unglückliche, the Beharrliche), Reuß von Greiz/Ronneburg, Reuß zu Gera (1530-1572)."
+  },
+  {
+   "key": "Heinrich I",
+   "action": "accept",
+   "label": "Heinrich I.",
+   "class": "person",
+   "kind": "Landesherr (mehrdeutig)",
+   "note": "ambiguous; refers to different persons. The numeral is counted afresh in every century and separately for the elder and younger line of Reuss (Brückner p. 376), so the same form denotes different princes; see the genealogical tables pp. 341-402. Includes King/Emperor Heinrich I. (the Fowler), Burggraf Heinrich I. von Plauen (1389-1429), Heinrich I. von Schleiz (1639-1692; 1695-1744), Heinrich I. von Obergreiz (1627-1681; 1693-1714) and a prince born 1803 (printed \"I.\", transcribed \"L.\" on p. 399)."
+  },
+  {
+   "key": "Heinrich Posthumus",
+   "action": "accept",
+   "label": "Heinrich Posthumus",
+   "class": "person",
+   "kind": "Landesherr",
+   "description_de": "Heinrich Posthumus Reuß (als Fürst Heinrich II. gezählt), Herr zu Gera, Stifter der jüngeren Linie Reuß (Reuß j. L.); geb. 10. Juni 1572, zwei Monate nach dem Tod des Vaters (daher Posthumus), † 3. Dez. 1635; eigene Regierung 1595-1635; Vater der Brüder Heinrich II., III., IX. und X.",
+   "description_en": "Heinrich Posthumus Reuss (counted as Heinrich II.), lord of Gera, founder of the younger line of Reuss (Reuss j. L.); born 10 June 1572, two months after his father's death (hence Posthumus), died 3 Dec. 1635; ruled in his own right 1595-1635; father of Heinrich II., III., IX. and X.",
+   "wikidata": "Q97035",
+   "note": "Brückner uses the epithet instead of a numeral (Tab. VI, p. 394; text pp. 375-376). Not to be confused with his son Heinrich II. von Gera (1602-1670)."
+  },
+  {
+   "key": "Heinrich d. m",
+   "action": "accept",
+   "label": "Heinrich d. m.",
+   "class": "person",
+   "kind": "Landesherr (mehrdeutig)",
+   "note": "ambiguous; refers to different persons. Several Voigte of Weida, Gera and Greiz and Herren Reuß called \"der Mittlere\" (13th-17th c.), e.g. Heinrich d. m. von Weida (1209-1249), von Gera (the Beerber, 1406-c. 1481; the Fintende, 1478-1500), Reuß zu Obergreiz (1525-1578), Reuß zu Schleiz (Rothbart, 1563-1616)."
+  },
+  {
+   "key": "Heinrich II",
+   "action": "accept",
+   "label": "Heinrich II.",
+   "class": "person",
+   "kind": "Landesherr (mehrdeutig)",
+   "note": "ambiguous; refers to different persons. The numeral is counted afresh in every century and separately for the elder and younger line of Reuss (Brückner p. 376), so the same form denotes different princes; see the genealogical tables pp. 341-402. Includes Burggraf Heinrich II. von Plauen (1429-1446), Heinrich II. von Gera (1602-1670), Heinrich II. von Burgk (two persons), Heinrich II. von Köstritz (1803-1852), Heinrich II. von Lobenstein (d. 1782) and Heinrich II. von Obergreiz (1696-1722)."
+  },
+  {
+   "key": "Heinrich VI",
+   "action": "accept",
+   "label": "Heinrich VI.",
+   "class": "person",
+   "kind": "Landesherr (mehrdeutig)",
+   "note": "ambiguous; refers to different persons. The numeral is counted afresh in every century and separately for the elder and younger line of Reuss (Brückner p. 376), so the same form denotes different princes; see the genealogical tables pp. 341-402. Includes Emperor Heinrich VI. (Staufer), Burggraf Heinrich VI. von Plauen (1533-1568), Heinrich VI. von Köstritz (1707-1783), Heinrich VI. von Obergreiz (1649-1697) and others."
+  },
+  {
+   "key": "Heinrich von Gera",
+   "action": "accept",
+   "label": "Heinrich von Gera",
+   "class": "person",
+   "kind": "Voigt/Herr von Gera (mehrdeutig)",
+   "note": "ambiguous; refers to different persons. Voigte and Herren of Gera of different generations (13th-16th c.), e.g. Heinrich der Mehrer, der Große, der Worthalter, der Dispensirte; also the table header of Heinrich von Gera (1530-1572, founder of the younger line, p. 394), burgmen and the Cologne canon Heinrich von Gera (1451)."
+  },
+  {
+   "key": "Heinrich X",
+   "action": "accept",
+   "label": "Heinrich X.",
+   "class": "person",
+   "kind": "Landesherr (mehrdeutig)",
+   "note": "ambiguous; refers to different persons. The numeral is counted afresh in every century and separately for the elder and younger line of Reuss (Brückner p. 376), so the same form denotes different princes; see the genealogical tables pp. 341-402. Includes Heinrich X. von Lobenstein (1621-1671; see the separate entry \"Heinrich X. v. Lobenstein\"), Heinrich X. von Ebersdorf (1662-1711) and Prince Heinrich X. (1827-1847, Köstritz)."
+  },
+  {
+   "key": "Heinrich V",
+   "action": "accept",
+   "label": "Heinrich V.",
+   "class": "person",
+   "kind": "Landesherr (mehrdeutig)",
+   "note": "ambiguous; refers to different persons. The numeral is counted afresh in every century and separately for the elder and younger line of Reuss (Brückner p. 376), so the same form denotes different princes; see the genealogical tables pp. 341-402. Mostly Burggraf Heinrich V. von Plauen (1508-1554; see the separate entry \"Heinrich V. von Plauen\"), but also Heinrich V. Reuß zu Greiz (1549-1604), Heinrich V. von Untergreiz (1602-1667), Heinrich V. von Rothenthal (1645-1698) and others."
+  },
+  {
+   "key": "Heinrich XXIV",
+   "action": "accept",
+   "label": "Heinrich XXIV.",
+   "class": "person",
+   "kind": "Landesherr (mehrdeutig)",
+   "note": "ambiguous; refers to different persons. The numeral is counted afresh in every century and separately for the elder and younger line of Reuss (Brückner p. 376), so the same form denotes different princes; see the genealogical tables pp. 341-402. Heinrich XXIV. von Köstritz (1681-1748), Heinrich XXIV. von Ebersdorf (1724-1779) and a prince born 1855 (Köstritz)."
+  },
+  {
+   "key": "Heinrich LXXII",
+   "action": "accept",
+   "label": "Heinrich LXXII. (Fürst Reuß-Lobenstein-Ebersdorf)",
+   "class": "person",
+   "kind": "Landesherr",
+   "description_de": "Heinrich LXXII., Fürst von Lobenstein-Ebersdorf, einziger Sohn Heinrichs LI.; geb. 1797, regierte 1822-1848 (Verzicht am 1. Okt. 1848), † Febr. 1853 in Dresden als letzter männlicher Sproß des Specialhauses Lobenstein; nannte die alte Landesvertretung „verrottet\".",
+   "description_en": "Heinrich LXXII., prince of Lobenstein-Ebersdorf, only son of Heinrich LI.; born 1797, ruled 1822-1848 (abdicated 1 Oct. 1848), died Feb. 1853 in Dresden as the last male of the special house of Lobenstein; called the old estates \"rotten\".",
+   "note": "The Marstall of the Osterstein is not his work (corrigendum, p. 833)."
+  },
+  {
+   "key": "Heinrich III",
+   "action": "accept",
+   "label": "Heinrich III.",
+   "class": "person",
+   "kind": "Landesherr (mehrdeutig)",
+   "note": "ambiguous; refers to different persons. The numeral is counted afresh in every century and separately for the elder and younger line of Reuss (Brückner p. 376), so the same form denotes different princes; see the genealogical tables pp. 341-402. Includes Burggraf Heinrich III. von Plauen (1446-1482), Heinrich III. von Schleiz (1603-1640), Heinrich III. von Lobenstein (1648-1710), Heinrich III. von Untergreiz (1701-1768) and Heinrich III. von Burgk (d. 1640)."
+  },
+  {
+   "key": "Heinrich VII",
+   "action": "accept",
+   "label": "Heinrich VII.",
+   "class": "person",
+   "kind": "Landesherr (mehrdeutig)",
+   "note": "ambiguous; refers to different persons. The numeral is counted afresh in every century and separately for the elder and younger line of Reuss (Brückner p. 376), so the same form denotes different princes; see the genealogical tables pp. 341-402. Mostly Burggraf Heinrich VII. von Plauen (1536-1572), but also Prince Heinrich VII. Reuß (b. 1825, Prussian envoy; see the separate entry \"Heinrich Reuß VII\") and others."
+  },
+  {
+   "key": "Heinrich von Weida",
+   "action": "accept",
+   "label": "Heinrich von Weida",
+   "class": "person",
+   "kind": "Voigt von Weida (mehrdeutig)",
+   "note": "ambiguous; refers to different persons. Voigte of Weida of different generations: the progenitor (1143), Heinrich der Reiche, Heinrich von Weida (1236-1275), Heinrich d. ä. (1295-c. 1364) and others (p. 323-340)."
+  },
+  {
+   "key": "Heinrich XII",
+   "action": "accept",
+   "label": "Heinrich XII.",
+   "class": "person",
+   "kind": "Landesherr (mehrdeutig)",
+   "note": "ambiguous; refers to different persons. The numeral is counted afresh in every century and separately for the elder and younger line of Reuss (Brückner p. 376), so the same form denotes different princes; see the genealogical tables pp. 341-402. Mostly Graf Heinrich XII. von Schleiz (1716-1784; see \"Graf Heinrich XII\"), but also Prince Heinrich XII. (1829-1866) and short-lived princes in the tables."
+  },
+  {
+   "key": "Heinrich IV",
+   "action": "accept",
+   "label": "Heinrich IV.",
+   "class": "person",
+   "kind": "Landesherr (mehrdeutig)",
+   "note": "ambiguous; refers to different persons. The numeral is counted afresh in every century and separately for the elder and younger line of Reuss (Brückner p. 376), so the same form denotes different princes; see the genealogical tables pp. 341-402. Includes Burggraf Heinrich IV. von Plauen (1482-1520), Heinrich IV. von Gera (1650-1686), Heinrich IV. von Obergreiz (1597-1629), Heinrich IV. von Untergreiz (1638-1675), Prince Heinrich IV. (b. 1821, Köstritz)."
+  },
+  {
+   "key": "Heinrich XI",
+   "action": "accept",
+   "label": "Heinrich XI.",
+   "class": "person",
+   "kind": "Landesherr (mehrdeutig)",
+   "note": "ambiguous; refers to different persons. The numeral is counted afresh in every century and separately for the elder and younger line of Reuss (Brückner p. 376), so the same form denotes different princes; see the genealogical tables pp. 341-402. Includes Heinrich XI. von Schleiz (1669-1726; see \"Heinrich Reuß XI\"), Heinrich XI. von Obergreiz/Greiz (1722-1800, first prince of Greiz) and others."
+  },
+  {
+   "key": "Heinrich von Plauen",
+   "action": "accept",
+   "label": "Heinrich von Plauen",
+   "class": "person",
+   "kind": "Voigt von Plauen (mehrdeutig)",
+   "note": "ambiguous; refers to different persons. Voigte/Burggrafen von Plauen of different generations: Heinrich der Ruthene, der Böhme, der Lange, the Burggrafen Heinrich I.-VII. and the Teutonic Grand Master Heinrich von Plauen (d. 1429)."
+  },
+  {
+   "key": "Heinrich LXII",
+   "action": "accept",
+   "label": "Heinrich LXII. (Fürst Reuß j. L.)",
+   "class": "person",
+   "kind": "Landesherr",
+   "description_de": "Heinrich LXII., Fürst von Reuß-Schleiz und seit 1848 des vereinigten Reuß j. L.; geb. 1785, regierte in Schleiz 1818-1848, im Gesamtland 1848-1854, † 19. Juni 1854 ohne Erben; Bruder und Vorgänger Heinrichs LXVII.",
+   "description_en": "Heinrich LXII., prince of Reuss-Schleiz and from 1848 of the united Reuss j. L.; born 1785, ruled in Schleiz 1818-1848 and in the whole principality 1848-1854, died 19 June 1854 without heirs; brother and predecessor of Heinrich LXVII.",
+   "wikidata": "Q73528"
+  },
+  {
+   "key": "Heinrich XXX",
+   "action": "accept",
+   "label": "Heinrich XXX.",
+   "class": "person",
+   "kind": "Landesherr (mehrdeutig)",
+   "note": "ambiguous; refers to different persons. The numeral is counted afresh in every century and separately for the elder and younger line of Reuss (Brückner p. 376), so the same form denotes different princes; see the genealogical tables pp. 341-402. Twelve of the thirteen mentions denote Graf Heinrich XXX. von Gera (1727-1802; see \"Graf Heinrich XXX\"); one table cell (p. 399) is a prince born 1862 (Köstritz)."
+  },
+  {
+   "key": "Heinrich XLII",
+   "action": "accept",
+   "label": "Heinrich XLII. (Fürst Reuß zu Schleiz)",
+   "class": "person",
+   "kind": "Landesherr",
+   "description_de": "Heinrich XLII., Graf, seit 1806 Fürst Reuß zu Schleiz; geb. 1752 zu Löhma, regierte 1784-1818 (Rheinbund 1807), † 1818; Sohn Heinrichs XII., Vater Heinrichs LXII. und LXVII.",
+   "description_en": "Heinrich XLII., count and from 1806 prince of Reuss-Schleiz; born 1752 at Löhma, ruled 1784-1818 (Confederation of the Rhine 1807), died 1818; son of Heinrich XII., father of Heinrich LXII. and LXVII.",
+   "note": "One mention on p. 384 (\"der ältere, Heinrich XLII.\", his son and successor) is a misprint for LXII.; Brückner corrects it himself on p. 833 (\"S. 384, Z. 17 v. u. lies: LXII. statt XLII.\")."
+  },
+  {
+   "key": "Heinrich IX",
+   "action": "accept",
+   "label": "Heinrich IX.",
+   "class": "person",
+   "kind": "Landesherr (mehrdeutig)",
+   "note": "ambiguous; refers to different persons. The numeral is counted afresh in every century and separately for the elder and younger line of Reuss (Brückner p. 376), so the same form denotes different princes; see the genealogical tables pp. 341-402. Includes Heinrich IX. von Schleiz (1616-1666), Heinrich IX. von Köstritz (1711-1780, Prussian minister of state) and Prince Heinrich IX. (b. 1827)."
+  },
+  {
+   "key": "Heinrich XIV",
+   "action": "accept",
+   "label": "Heinrich XIV.",
+   "class": "person",
+   "kind": "Landesherr (mehrdeutig)",
+   "note": "ambiguous; refers to different persons. The numeral is counted afresh in every century and separately for the elder and younger line of Reuss (Brückner p. 376), so the same form denotes different princes; see the genealogical tables pp. 341-402. Nine of the eleven mentions denote the reigning prince Heinrich XIV. Reuß j. L. (b. 1832; see the separate entry \"Fürst Heinrich XIV\"); the others are table cells for Heinrich XIV. of Greiz (1749-1799, p. 401) and a child of Obergreiz (1674-1682, p. 402)."
+  },
+  {
+   "key": "Heinrich LXVII",
+   "action": "accept",
+   "label": "Heinrich LXVII. (Fürst Reuß j. L.)",
+   "class": "person",
+   "kind": "Landesherr",
+   "description_de": "Heinrich LXVII., Fürst Reuß j. L.; geb. 20. Okt. 1789, Nachfolger seines Bruders Heinrich LXII. am 19. Juni 1854, † 11. Juli 1867; verheiratet 1820 mit Sophie Adelheid von Reuß-Ebersdorf; Vater Heinrichs XIV.; Umbau des Schlosses Osterstein.",
+   "description_en": "Heinrich LXVII., prince of Reuss j. L.; born 20 Oct. 1789, succeeded his brother Heinrich LXII. on 19 June 1854, died 11 July 1867; married 1820 Sophie Adelheid of Reuss-Ebersdorf; father of Heinrich XIV.; rebuilt Osterstein castle.",
+   "wikidata": "Q215064"
+  },
+  {
+   "key": "Heinrich XVIII",
+   "action": "accept",
+   "label": "Heinrich XVIII.",
+   "class": "person",
+   "kind": "Landesherr (mehrdeutig)",
+   "note": "ambiguous; refers to different persons. The numeral is counted afresh in every century and separately for the elder and younger line of Reuss (Brückner p. 376), so the same form denotes different princes; see the genealogical tables pp. 341-402. Mostly Heinrich XVIII. von Gera, called Fundator (1677-1735; see \"Graf Heinrich XVIII\"), but also Prince Heinrich XVIII. (b. 1847) and an infant of Greiz (1787)."
+  },
+  {
+   "key": "Heinrichs d. m",
+   "action": "merge",
+   "into": "Heinrich d. m",
+   "note": "genitive; refers to different persons, as the base form"
+  },
+  {
+   "key": "Heinrich VIII",
+   "action": "accept",
+   "label": "Heinrich VIII.",
+   "class": "person",
+   "kind": "Landesherr (mehrdeutig)",
+   "note": "ambiguous; refers to different persons. The numeral is counted afresh in every century and separately for the elder and younger line of Reuss (Brückner p. 376), so the same form denotes different princes; see the genealogical tables pp. 341-402. Includes Heinrich VIII. Herr von Hirschberg (1652-1711) and several short-lived princes in the tables."
+  },
+  {
+   "key": "Heinrich XXIX",
+   "action": "accept",
+   "label": "Heinrich XXIX.",
+   "class": "person",
+   "kind": "Landesherr (mehrdeutig)",
+   "note": "ambiguous; refers to different persons. The numeral is counted afresh in every century and separately for the elder and younger line of Reuss (Brückner p. 376), so the same form denotes different princes; see the genealogical tables pp. 341-402. Mostly Heinrich XXIX. von Ebersdorf (1699-1747), but also a prince born 1860 (Köstritz)."
+  },
+  {
+   "key": "Heinrich Reuß",
+   "action": "accept",
+   "label": "Heinrich Reuß",
+   "class": "person",
+   "kind": "Voigt/Herr Reuß (mehrdeutig)",
+   "note": "ambiguous; refers to different persons. Voigte/Herren Reuß of Plauen, Greiz, Ronneburg and Obergreiz of different generations (mostly Heinrich Reuß der Erik, 1290-1349, but also Heinrich Reuß zu Ronneburg, zu Greiz 1496, d. m. zu Gesell/Burgk 1616)."
+  },
+  {
+   "key": "Heinrich XV",
+   "action": "accept",
+   "label": "Heinrich XV.",
+   "class": "person",
+   "kind": "Landesherr (mehrdeutig)",
+   "note": "ambiguous; refers to different persons. The numeral is counted afresh in every century and separately for the elder and younger line of Reuss (Brückner p. 376), so the same form denotes different princes; see the genealogical tables pp. 341-402. Includes Heinrich XV. von Lobenstein (1674-1739), Heinrich XV. von Obergreiz (1676-1690), Heinrich XV. von Greiz (1751-1825, Imperial general), Prince Heinrich XV. (b. 1834)."
+  },
+  {
+   "key": "Heinrich XXVI",
+   "action": "accept",
+   "label": "Heinrich XXVI.",
+   "class": "person",
+   "kind": "Landesherr (mehrdeutig)",
+   "note": "ambiguous; refers to different persons. The numeral is counted afresh in every century and separately for the elder and younger line of Reuss (Brückner p. 376), so the same form denotes different princes; see the genealogical tables pp. 341-402. Heinrich XXVI. von Lobenstein-Selbitz (1681-1730), Heinrich XXVI. von Ebersdorf (1725-1796, historian of the house; most mentions) and a prince born 1857."
+  },
+  {
+   "key": "Heinrich XXXV",
+   "action": "accept",
+   "label": "Heinrich XXXV. (Fürst Reuß-Lobenstein)",
+   "class": "person",
+   "kind": "Landesherr",
+   "description_de": "Heinrich XXXV., Graf, seit 1790 Reichsfürst von Reuß-Lobenstein; geb. 1738, 1802 Mitregent von Gera, † 1805 ohne Erben (Lobenstein fiel an Heinrich LIV.).",
+   "description_en": "Heinrich XXXV., count, from 1790 prince of the Empire of Reuss-Lobenstein; born 1738, co-regent of Gera from 1802, died 1805 without heirs (Lobenstein passed to Heinrich LIV.).",
+   "wikidata": "Q119076424"
+  },
+  {
+   "key": "Heinrich XLIII",
+   "action": "accept",
+   "label": "Heinrich XLIII. (Reuß-Köstritz)",
+   "class": "person",
+   "kind": "Landesherr",
+   "description_de": "Heinrich XLIII., Graf Reuß zu Köstritz (von Brückner auch „Fürst\" genannt); geb. 1752, übernahm 1783 das Paragiat, † 1814; Enkel Heinrichs XXIV.; Förderer von Kunst, Parkanlagen und der Köstritzer Brauerei, baute die Burg Reichenfels um (1806).",
+   "description_en": "Heinrich XLIII., count Reuss of Köstritz (also called \"prince\" by Brückner); born 1752, took over the Paragiat in 1783, died 1814; grandson of Heinrich XXIV.; patron of the arts, parks and the Köstritz brewery, rebuilt Reichenfels castle (1806).",
+   "wikidata": "Q1486203"
+  },
+  {
+   "key": "Heinrichs des Löwen",
+   "action": "accept",
+   "label": "Heinrich der Löwe",
+   "class": "person",
+   "kind": "Herzog",
+   "description_de": "Heinrich der Löwe, Herzog von Sachsen und Bayern; 1180 geächtet; Brückner erörtert Vasallen aus seinem Gefolge (Familie von Witha/Weida an der Unstrut) im Streit um die Abstammung des Hauses Reuß (S. 324-329).",
+   "description_en": "Heinrich the Lion, duke of Saxony and Bavaria; outlawed in 1180; Brückner discusses vassals in his retinue (the family of Witha/Weida on the Unstrut) in the dispute over the origin of the house of Reuss (pp. 324-329).",
+   "wikidata": "Q105378"
+  },
+  {
+   "key": "Heinrich v. Weida",
+   "action": "merge",
+   "into": "Heinrich von Weida",
+   "note": "abbreviation variant"
+  },
+  {
+   "key": "Heinrichs d. ä",
+   "action": "merge",
+   "into": "Heinrich d. ä",
+   "note": "genitive; refers to different persons, as the base form"
+  },
+  {
+   "key": "Heinrich XXV",
+   "action": "accept",
+   "label": "Heinrich XXV.",
+   "class": "person",
+   "kind": "Landesherr (mehrdeutig)",
+   "note": "ambiguous; refers to different persons. The numeral is counted afresh in every century and separately for the elder and younger line of Reuss (Brückner p. 376), so the same form denotes different princes; see the genealogical tables pp. 341-402. Heinrich XXV. von Gera (d. 1748), Heinrich XXV. von Lobenstein-Selbitz (1724-1801) and others."
+  },
+  {
+   "key": "Heinrich XXII",
+   "action": "accept",
+   "label": "Heinrich XXII.",
+   "class": "person",
+   "kind": "Landesherr (mehrdeutig)",
+   "note": "ambiguous; refers to different persons. The numeral is counted afresh in every century and separately for the elder and younger line of Reuss (Brückner p. 376), so the same form denotes different princes; see the genealogical tables pp. 341-402. Includes Graf Heinrich XXII. von Gera (1680-1731), the reigning prince Heinrich XXII. Reuß ä. L. (b. 1846) and a prince born 1854."
+  },
+  {
+   "key": "Heinrichs IX",
+   "action": "merge",
+   "into": "Heinrich IX",
+   "note": "genitive; denotes Heinrich IX. von Schleiz (1616-1666) and Heinrich IX. von Köstritz (1711-1780, p. 496)"
+  },
+  {
+   "key": "Heinrich LIV",
+   "action": "accept",
+   "label": "Heinrich LIV. (Fürst Reuß-Lobenstein-Selbitz)",
+   "class": "person",
+   "kind": "Landesherr",
+   "description_de": "Heinrich LIV., Neffe Heinrichs XXI. aus der Nebenlinie Selbitz; geb. 1767, erbte 1805 Lobenstein, 1806 Reichsfürst, † 1824 ohne Nachkommen (Lobenstein fiel an Ebersdorf); verheiratet 1) Marie von Stolberg-Wernigerode, 2) Franziska Reuß-Köstritz.",
+   "description_en": "Heinrich LIV., nephew of Heinrich XXI. of the Selbitz branch; born 1767, inherited Lobenstein in 1805, prince of the Empire 1806, died 1824 without issue (Lobenstein passed to Ebersdorf); married 1) Marie of Stolberg-Wernigerode, 2) Franziska Reuss-Köstritz.",
+   "wikidata": "Q55875295"
+  },
+  {
+   "key": "Heinrich XXIII",
+   "action": "accept",
+   "label": "Heinrich XXIII.",
+   "class": "person",
+   "kind": "Landesherr (mehrdeutig)",
+   "note": "ambiguous; refers to different persons. The numeral is counted afresh in every century and separately for the elder and younger line of Reuss (Brückner p. 376), so the same form denotes different princes; see the genealogical tables pp. 341-402. Includes Heinrich XXIII. von Lobenstein (1680-1723), Heinrich XXIII. von Köstritz (1722-1787), a prince of Greiz (1844) and a prince born 1855."
+  },
+  {
+   "key": "Heinrich XIII",
+   "action": "accept",
+   "label": "Heinrich XIII.",
+   "class": "person",
+   "kind": "Landesherr (mehrdeutig)",
+   "note": "ambiguous; refers to different persons. The numeral is counted afresh in every century and separately for the elder and younger line of Reuss (Brückner p. 376), so the same form denotes different princes; see the genealogical tables pp. 341-402. Includes Heinrich XIII. von Obergreiz (1672-1733), Heinrich XIII. von Greiz (1747-1817), Prince Heinrich XIII. (b. 1830) and others."
+  },
+  {
+   "key": "Heinrich der Beerber",
+   "action": "accept",
+   "label": "Heinrich der Beerber (d. m., Herr von Lobenstein)",
+   "class": "person",
+   "kind": "Vogt",
+   "description_de": "Heinrich d. m. von Gera, genannt der Beerber, Herr von Lobenstein; geb. 1406, † c. 1481; 1426 Lobenstein mit Saalburg, Nordhalben und den hofer Lehen; nannte sich seit 1439 „der ältere\"; nach dem Tod seines Bruders des Unglücklichen vereinigte er das geraer Land; verheiratet mit Mechtild von Schwarzburg-Wachsenburg; Vater von drei weltlichen Söhnen.",
+   "description_en": "Heinrich d. m. of Gera, called the Beerber, lord of Lobenstein; born 1406, died c. 1481; received Lobenstein with Saalburg, Nordhalben and the Hof fiefs in 1426; called himself \"the elder\" from 1439; after the death of his brother the Unfortunate he reunited the Gera lands; married Mechtild of Schwarzburg-Wachsenburg; father of three lay sons.",
+   "note": "p. 630 credits \"Heinrich den Beerber\" with raising Zeulenroda to a town in 1438, which p. 347 attributes to his elder brother Heinrich d. ä.; the other mentions fit Heinrich d. m."
+  },
+  {
+   "key": "Heinrichs XII",
+   "action": "merge",
+   "into": "Graf Heinrich XII",
+   "note": "title/genitive variant (all mentions concern the count of Schleiz)"
+  },
+  {
+   "key": "Heinrichs II",
+   "action": "merge",
+   "into": "Heinrich II",
+   "note": "genitive; refers to different persons, as the base form"
+  },
+  {
+   "key": "Heinrichs",
+   "action": "merge",
+   "into": "Heinrich",
+   "note": "genitive; refers to different persons, as the base form"
+  },
+  {
+   "key": "Heinrich d. ä. von Gera",
+   "action": "accept",
+   "label": "Heinrich d. ä. von Gera",
+   "class": "person",
+   "kind": "Voigt/Herr von Gera (mehrdeutig)",
+   "note": "ambiguous; refers to different persons. Heinrich d. ä. von Gera of different generations: the Voigt of 1316 (der Große), the Herr of 1486 (1482-1488) and the Herr of 1501 (1502-1538)."
+  },
+  {
+   "key": "Fürst Heinrich LXII",
+   "action": "merge",
+   "into": "Heinrich LXII",
+   "note": "title/genitive variant"
+  },
+  {
+   "key": "Heinrich LXIX",
+   "action": "accept",
+   "label": "Heinrich LXIX. (Fürst Reuß-Köstritz)",
+   "class": "person",
+   "kind": "Landesherr",
+   "description_de": "Heinrich LXIX., Fürst Reuß-Köstritz; geb. 19. Mai 1792, folgte 1856 seinem Vetter Heinrich LXIV. im Paragiat Köstritz; verheiratet 1834 mit Mathilde von Riese-Stallburg; ohne Erben (die Linie Heinrichs VI. endet mit ihm).",
+   "description_en": "Heinrich LXIX., prince Reuss-Köstritz; born 19 May 1792, succeeded his cousin Heinrich LXIV. in the Köstritz Paragiat in 1856; married 1834 Mathilde of Riese-Stallburg; without heirs (the line of Heinrich VI. ends with him)."
+  },
+  {
+   "key": "Heinrich der Lange",
+   "action": "accept",
+   "label": "Heinrich der Lange",
+   "class": "person",
+   "kind": "Voigt von Plauen (mehrdeutig)",
+   "note": "ambiguous; refers to different persons. Voigte of Plauen of the older line with the epithet \"der Lange\" (the Böhme, c. 1275-1302; d. ä. 1306-1373; d. j. 1306-1352; also the son of 1333) and a knight Heinrich der Lange at Langgrün (1345)."
+  },
+  {
+   "key": "Heinrichs XI",
+   "action": "merge",
+   "into": "Heinrich Reuß XI",
+   "note": "genitive (legacy, portrait and church of Count Heinrich XI. of Schleiz)"
+  },
+  {
+   "key": "Heinrich der Worthalter",
+   "action": "accept",
+   "label": "Heinrich der Worthalter (d. j., Voigt von Gera)",
+   "class": "person",
+   "kind": "Vogt",
+   "description_de": "Heinrich d. j., der Worthalter (Minister der thüringer Landgrafen 1366; Tab. III: der Wohlbedachte), Voigt von Gera, Sitz Reichenfels; 1310 bis † 8. Dez. 1376; verheiratet mit Mechtild von Käfernburg; verpfändete in Geldnot Lobenstein, Burgk u. a. und trug seine Herrschaften zu Lehen auf; Vater Heinrichs des Dispensirten.",
+   "description_en": "Heinrich d. j., the Worthalter (minister of the Thuringian landgraves in 1366; Tab. III: the Prudent), Voigt of Gera, seat at Reichenfels; 1310 to died 8 Dec. 1376; married Mechtild of Käfernburg; pledged Lobenstein, Burgk etc. in financial need and made his lordships fiefs of others; father of Heinrich the Dispensed."
+  },
+  {
+   "key": "Heinrich XVI",
+   "action": "accept",
+   "label": "Heinrich XVI.",
+   "class": "person",
+   "kind": "Landesherr (mehrdeutig)",
+   "note": "ambiguous; refers to different persons. The numeral is counted afresh in every century and separately for the elder and younger line of Reuss (Brückner p. 376), so the same form denotes different princes; see the genealogical tables pp. 341-402. Includes Heinrich XVI. von Obergreiz (1678-1698) and Heinrich XVI. of Greiz (1759-1763)."
+  },
+  {
+   "key": "Heinrich XVII",
+   "action": "accept",
+   "label": "Heinrich XVII.",
+   "class": "person",
+   "kind": "Landesherr (mehrdeutig)",
+   "note": "ambiguous; refers to different persons. The numeral is counted afresh in every century and separately for the elder and younger line of Reuss (Brückner p. 376), so the same form denotes different princes; see the genealogical tables pp. 341-402. Includes Heinrich XVII. von Lobenstein (1676-1706), Heinrich XVII. von Greiz (1761-1807, Prussian colonel) and Prince Heinrich XVII. (b. 1839)."
+  },
+  {
+   "key": "Heinrich XX",
+   "action": "accept",
+   "label": "Heinrich XX.",
+   "class": "person",
+   "kind": "Landesherr (mehrdeutig)",
+   "note": "ambiguous; refers to different persons. The numeral is counted afresh in every century and separately for the elder and younger line of Reuss (Brückner p. 376), so the same form denotes different princes; see the genealogical tables pp. 341-402. Heinrich XX. von Greiz (1794-1859, prince) and Prince Heinrich XX. (b. 1852)."
+  },
+  {
+   "key": "Heinrich der Böhme",
+   "action": "accept",
+   "label": "Heinrich der Böhme (Voigt von Plauen)",
+   "class": "person",
+   "kind": "Vogt",
+   "description_de": "Heinrich der Böhme oder der Lange, älterer Sohn Heinrichs des Ruthenen; 1275-1302; verheiratet mit Katharina von Riesenburg; Vater der Voigte Heinrich d. ä. (der Lange) und Heinrich d. j. (Reuß); Wappen mit dem gekrönten Löwen.",
+   "description_en": "Heinrich the Bohemian or the Long, elder son of Heinrich the Ruthene; 1275-1302; married Katharina of Riesenburg; father of the Voigte Heinrich d. ä. (the Long) and Heinrich d. j. (Reuss); arms with the crowned lion."
+  },
+  {
+   "key": "Heinrich der Fromme",
+   "action": "accept",
+   "label": "Heinrich der Fromme (von Weida)",
+   "class": "person",
+   "kind": "Vogt (sagenhafter Stammvater)",
+   "description_de": "Heinrich von Weida, genannt der Fromme, nach den Chronisten Marschall Kaiser Heinrichs IV., Stammhaupt der Voigte von Weida und des Hauses Reuß; † c. 1100 (Tab. I); urkundlich nicht bezeugt, von Brückner aber als Persönlichkeit festgehalten (S. 323-324, 329).",
+   "description_en": "Heinrich of Weida, called the Pious, according to the chroniclers marshal of Emperor Heinrich IV., progenitor of the Voigte of Weida and of the house of Reuss; died c. 1100 (Tab. I); not attested in any charter, but retained by Brückner as a historical person (pp. 323-324, 329)."
+  },
+  {
+   "key": "Heinrich Reuss d. j",
+   "action": "accept",
+   "label": "Heinrich Reuss d. j.",
+   "class": "person",
+   "kind": "Voigt/Landesherr Reuß (mehrdeutig)",
+   "note": "ambiguous; refers to different persons. Heinrich d. j. Reuß (Voigt, 1323) and Landesherr of 1614 and 1627 (several rulers of the elder and younger line)."
+  },
+  {
+   "key": "Heinrichs d. j",
+   "action": "merge",
+   "into": "Heinrich d. j",
+   "note": "genitive; refers to different persons, as the base form"
+  },
+  {
+   "key": "Heinrich der Rothe",
+   "action": "accept",
+   "label": "Heinrich der Rothe (von Weida)",
+   "class": "person",
+   "kind": "Vogt",
+   "description_de": "Heinrich der Rothe, Voigt von Weida, 1377-c. 1388; Bruder Heinrichs des Ritter; 1367 mit dem ganzen Regnitzland belehnt, verkaufte es 1373 an den Burggrafen von Nürnberg; verheiratet mit Ilse von Gera.",
+   "description_en": "Heinrich the Red, Voigt of Weida, 1377-c. 1388; brother of Heinrich the Knight; enfeoffed with the whole Regnitzland in 1367, sold it in 1373 to the burgrave of Nuremberg; married Ilse of Gera."
+  },
+  {
+   "key": "Heinrich den Dispensirten",
+   "action": "merge",
+   "into": "Heinrich der Dispensirte",
+   "note": "inflection/abbreviation/OCR variant"
+  },
+  {
+   "key": "Heinrich Reuß d. j",
+   "action": "accept",
+   "label": "Heinrich Reuß d. j.",
+   "class": "person",
+   "kind": "Herr Reuß (mehrdeutig)",
+   "note": "ambiguous; refers to different persons. Heinrich d. j. Reuß von Greiz/Ronneburg (1384-1429, war against King Wenzel 1399) and Heinrich d. j. Reuß zu Greiz/Kranichfeld (1429-1462)."
+  },
+  {
+   "key": "Heinrich von Gera und Schleiz",
+   "action": "merge",
+   "into": "Heinrich der Unglückliche",
+   "note": "p. 348: captured in 1450"
+  },
+  {
+   "key": "Heinrich Erik",
+   "action": "accept",
+   "label": "Heinrich Erik (Reuß der Kleine)",
+   "class": "person",
+   "kind": "Vogt",
+   "description_de": "Heinrich Reuß, genannt der Erik oder der Kleine, Voigt zu Greiz, Gründer des Hauses Reuß (jüngere Linie Plauen); 1290-1349; verheiratet 1) mit Salome, 2) mit Sophie; Landrichter im pleißener Land, 1324 Vormund des Landgrafen Friedrich des Ernsthaften; Urheber des ronneburger Bündnisses (1327); Vater Heinrichs des Strengen.",
+   "description_en": "Heinrich Reuss, called the Erik or the Little, Voigt at Greiz, founder of the house of Reuss (younger Plauen line); 1290-1349; married 1) Salome, 2) Sophie; Landrichter in the Pleißen territory, guardian of Landgrave Friedrich the Serious in 1324; originator of the Ronneburg alliance (1327); father of Heinrich the Strict."
+  },
+  {
+   "key": "Heinrichs des Friedsamen",
+   "action": "merge",
+   "into": "Heinrich der Friedsame",
+   "note": "genitive"
+  },
+  {
+   "key": "Heinrich LI",
+   "action": "accept",
+   "label": "Heinrich LI. (Fürst Reuß-Ebersdorf)",
+   "class": "person",
+   "kind": "Landesherr",
+   "description_de": "Heinrich LI., „der Gute\", Graf, seit 1806 Fürst Reuß zu Ebersdorf; geb. 1761, regierte 1779-1822, 1802 Mitregent in Gera und Saalburg; verheiratet mit Louise von Hoym; Vater Heinrichs LXXII. und Schwiegervater Heinrichs LXVII.; bewirtete 1806 Napoleon in Ebersdorf.",
+   "description_en": "Heinrich LI., \"the Good\", count, from 1806 prince Reuss of Ebersdorf; born 1761, ruled 1779-1822, co-regent of Gera and Saalburg from 1802; married Louise of Hoym; father of Heinrich LXXII. and father-in-law of Heinrich LXVII.; entertained Napoleon at Ebersdorf in 1806.",
+   "wikidata": "Q642401"
+  },
+  {
+   "key": "Heinrich XXVIII",
+   "action": "accept",
+   "label": "Heinrich XXVIII.",
+   "class": "person",
+   "kind": "Landesherr (mehrdeutig)",
+   "note": "ambiguous; refers to different persons. The numeral is counted afresh in every century and separately for the elder and younger line of Reuss (Brückner p. 376), so the same form denotes different princes; see the genealogical tables pp. 341-402. Heinrich XXVIII. von Ebersdorf (1726-1797, Herrnhut) and a prince born 1859."
+  },
+  {
+   "key": "Heinrichs III",
+   "action": "accept",
+   "label": "Heinrich III. (Reuß, Haupt der Linie Schleiz)",
+   "class": "person",
+   "kind": "Landesherr",
+   "description_de": "Heinrich III., Sohn des Heinrich Posthumus, Haupt der schleizer Linie; geb. 1603, wohnte seit 1637 in Schleiz, † 1640 in Karlsbad; verheiratet mit Juliane Elise Rheingräfin zu Neufville, Witwe Heinrichs IV. von Obergreiz; Vater Heinrichs I.",
+   "description_en": "Heinrich III., son of Heinrich Posthumus, head of the Schleiz line; born 1603, lived at Schleiz from 1637, died 1640 at Carlsbad; married Juliane Elise, Rhinegravine of Neufville, widow of Heinrich IV. of Obergreiz; father of Heinrich I."
+  },
+  {
+   "key": "Heinrich LX",
+   "action": "accept",
+   "label": "Heinrich LX. (Reuß-Köstritz, mittlere Linie)",
+   "class": "person",
+   "kind": "Prinz",
+   "description_de": "Heinrich LX., Sohn Heinrichs XLIV.; geb. 1784, † 1833; verheiratet 1819 mit Dorothea Caroline von Carolath-Beuthen.",
+   "description_en": "Heinrich LX., son of Heinrich XLIV.; born 1784, died 1833; married 1819 Dorothea Caroline of Carolath-Beuthen.",
+   "note": "The cell on p. 398 (Tab. X, \"Heinrich LX., g. 1784, † 1813\") is printed \"H. LXI., g. 1784, † 1813\" (a son of Heinrich XLIII.); the transcription reads LX."
+  },
+  {
+   "key": "Heinrich LXIII",
+   "action": "accept",
+   "label": "Heinrich LXIII. (Reuß-Köstritz, mittlere Linie)",
+   "class": "person",
+   "kind": "Prinz",
+   "description_de": "Heinrich LXIII., Sohn Heinrichs XLIV.; geb. 1786, † 1841; verheiratet 1) Eleonore von Stolberg-Wernigerode, 2) deren Schwester Caroline; Vater von acht Söhnen, u. a. Heinrich IV., VII., XIII., XV., XVII.",
+   "description_en": "Heinrich LXIII., son of Heinrich XLIV.; born 1786, died 1841; married 1) Eleonore of Stolberg-Wernigerode, 2) her sister Caroline; father of eight sons, among them Heinrich IV., VII., XIII., XV., XVII."
+  },
+  {
+   "key": "Heinrich LXXIV",
+   "action": "accept",
+   "label": "Heinrich LXXIV. (Fürst Reuß-Köstritz, mittlere Linie)",
+   "class": "person",
+   "kind": "Prinz",
+   "description_de": "Heinrich LXXIV., Sohn Heinrichs XLIV.; geb. 1798, 1870 noch lebend; verheiratet 1) 1825 Clementine von Reichenbach-Goschütz, 2) 1855 Eleonore von Stolberg-Wernigerode; Vater Heinrichs IX., XXV. und XXXI.",
+   "description_en": "Heinrich LXXIV., son of Heinrich XLIV.; born 1798, still alive in 1870; married 1) 1825 Clementine of Reichenbach-Goschütz, 2) 1855 Eleonore of Stolberg-Wernigerode; father of Heinrich IX., XXV. and XXXI.",
+   "note": "The cell on p. 398 (\"Heinrich LXXIV., g. 1798, † 1855\") appears to be a garbled duplicate of the cell \"Heinrich LXXIII., g. 1798, † 1855\" (younger line, same page); the text (p. 388) and Tab. XI (p. 399) show him alive."
+  },
+  {
+   "key": "Heinrich XIX",
+   "action": "accept",
+   "label": "Heinrich XIX.",
+   "class": "person",
+   "kind": "Landesherr (mehrdeutig)",
+   "note": "ambiguous; refers to different persons. The numeral is counted afresh in every century and separately for the elder and younger line of Reuss (Brückner p. 376), so the same form denotes different princes; see the genealogical tables pp. 341-402. Heinrich XIX. von Greiz (1790-1836) and Prince Heinrich XIX. (b. 1848)."
+  },
+  {
+   "key": "Graf Heinrich XXX",
+   "action": "accept",
+   "label": "Heinrich XXX. (Graf zu Gera)",
+   "class": "person",
+   "kind": "Landesherr",
+   "description_de": "Heinrich XXX., Graf Reuß zu Gera, letzter Graf von Gera; geb. 1727, regierte 1748-1802 (54 Jahre), † 26./28. April 1802 kinderlos; verheiratet mit Louise Christiane, Pfalzgräfin von Zweibrücken-Birkenfeld-Gelnhausen; Sohn Heinrichs XXV.",
+   "description_en": "Heinrich XXX., count Reuss of Gera, last count of Gera; born 1727, ruled 1748-1802 (54 years), died 26/28 April 1802 childless; married Louise Christiane, Countess Palatine of Zweibrücken-Birkenfeld-Gelnhausen; son of Heinrich XXV."
+  },
+  {
+   "key": "Heinrichs XXIV",
+   "action": "merge",
+   "into": "Heinrich XXIV",
+   "note": "genitive; denotes Heinrich XXIV. von Köstritz (pp. 496, 631) and von Ebersdorf (p. 737)"
+  },
+  {
+   "key": "Heinrich der Dispensirte",
+   "action": "accept",
+   "label": "Heinrich der Dispensirte (Herr von Gera)",
+   "class": "person",
+   "kind": "Vogt",
+   "description_de": "Heinrich der Dispensirte, Herr von Gera, Sohn Heinrichs des Worthalters; 1351 bis † Ende 1419/Anfang 1420; erhielt den Beinamen durch die Dispensation des Erzbischofs von Mainz für seine nahe verwandte zweite Frau Lutrada von Hohnstein; erste Frau Elisabeth von Schwarzburg; „Pfaffenbrief\" 1405; Vater Heinrichs d. ä., d. m. (Beerber) und d. j.",
+   "description_en": "Heinrich the Dispensed, lord of Gera, son of Heinrich the Worthalter; 1351 to died end of 1419/early 1420; received the epithet through the dispensation of the archbishop of Mainz for his closely related second wife Lutrada of Hohnstein; first wife Elisabeth of Schwarzburg; \"Pfaffenbrief\" of 1405; father of Heinrich d. ä., d. m. (the Beerber) and d. j."
+  },
+  {
+   "key": "Heinrich der Unglückliche",
+   "action": "accept",
+   "label": "Heinrich der Unglückliche (d. j., Herr von Gera und Schleiz)",
+   "class": "person",
+   "kind": "Vogt",
+   "description_de": "Heinrich d. j. von Gera, Herr zu Gera und Schleiz, genannt der Unglückliche; geb. 1415, † zwischen 1452 und 1456; 1450 nach der Zerstörung Geras durch Herzog Wilhelm von Sachsen gefangen nach Böhmen geführt, 1451 freigelassen; verheiratet 1439 mit Anna von Henneberg-Römhild.",
+   "description_en": "Heinrich d. j. of Gera, lord of Gera and Schleiz, called the Unfortunate; born 1415, died between 1452 and 1456; taken prisoner to Bohemia in 1450 after Duke Wilhelm of Saxony destroyed Gera, released in 1451; married in 1439 Anna of Henneberg-Römhild."
+  },
+  {
+   "key": "Graf Heinrich XII",
+   "action": "accept",
+   "label": "Heinrich XII. (Graf Reuß zu Schleiz)",
+   "class": "person",
+   "kind": "Landesherr",
+   "description_de": "Heinrich XII., Graf Reuß zu Schleiz, jüngerer Sohn Heinrichs XI.; geb. 1716, regierte 1744-1784, † 25. Juni 1784; verfaßte Andachtsschriften im Geiste der Herrnhuter; Stifter des Waisenhauses in Kirschkau und mehrerer Kirchen; Vater Heinrichs XLII.",
+   "description_en": "Heinrich XII., count Reuss of Schleiz, younger son of Heinrich XI.; born 1716, ruled 1744-1784, died 25 June 1784; wrote devotional works in the Moravian spirit; founder of the orphanage at Kirschkau and of several churches; father of Heinrich XLII.",
+   "wikidata": "Q12363657"
+  },
+  {
+   "key": "Heinrich LXIX., Fürst Reuss-Köstritz",
+   "action": "merge",
+   "into": "Heinrich LXIX",
+   "note": "variant with title (list of manorial owners, p. 223)"
+  },
+  {
+   "key": "Karl Heinrich Spangenberg",
+   "action": "accept",
+   "label": "Karl Heinrich Spangenberg",
+   "class": "person",
+   "kind": "Gutsbesitzer",
+   "description_de": "Karl Heinrich Spangenberg, Rittergutsbesitzer (Liste der Rittergüter S. 223; Kauf eines Gutes S. 456).",
+   "description_en": "Karl Heinrich Spangenberg, manor owner (list of manors p. 223; purchase of an estate p. 456)."
+  },
+  {
+   "key": "Heinrich LXIX., Fürst Reuss",
+   "action": "merge",
+   "into": "Heinrich LXIX",
+   "note": "variant with title (list of manorial owners, p. 223)"
+  },
+  {
+   "key": "Burggraf Heinrich V",
+   "action": "merge",
+   "into": "Heinrich V. von Plauen",
+   "note": "title variant"
+  },
+  {
+   "key": "Heinrich der Ruthene",
+   "action": "accept",
+   "label": "Heinrich der Ruthene (Ruzze, Reuß)",
+   "class": "person",
+   "kind": "Vogt",
+   "description_de": "Heinrich der erste Ruthene (Ruzze, Reuß), Voigt von Plauen, mittlerer Sohn Heinrichs von Gottes Gnaden; 1244 bis † Ende 1303; Gründer der Linie Plauen; führt „von Gottes Vollmacht\" und den Beinamen Reuß (urkundlich seit 1266); verheiratet mit Kunigunde von Eberstein; Vater Heinrichs des Böhmen und Heinrichs des Ruzze.",
+   "description_en": "Heinrich the first Ruthene (Ruzze, Reuss), Voigt of Plauen, middle son of Heinrich von Gottes Gnaden; 1244 to died end of 1303; founder of the Plauen line; styles himself \"by the authority of God\" and bears the epithet Reuss (in charters from 1266); married Kunigunde of Eberstein; father of Heinrich the Bohemian and Heinrich the Ruzze."
+  },
+  {
+   "key": "Heinrichs LXVII",
+   "action": "merge",
+   "into": "Heinrich LXVII",
+   "note": "title/genitive variant"
+  },
+  {
+   "key": "Heinrich XXVII",
+   "action": "accept",
+   "label": "Heinrich XXVII. (Erbprinz Reuß j. L.)",
+   "class": "person",
+   "kind": "Prinz",
+   "description_de": "Heinrich XXVII., Sohn Heinrichs XIV.; geb. 10. Nov. 1858, Erbprinz seit 11. Juli 1867.",
+   "description_en": "Heinrich XXVII., son of Heinrich XIV.; born 10 Nov. 1858, hereditary prince since 11 July 1867."
+  },
+  {
+   "key": "Heinrichs des Reichen",
+   "action": "merge",
+   "into": "Heinrich der Reiche",
+   "note": "inflection/word-order variant"
+  },
+  {
+   "key": "Heinrich Reuss",
+   "action": "merge",
+   "into": "Heinrich Reuß",
+   "note": "spelling variant; the two mentions denote different Voigte Reuß (pp. 336, 354)"
+  },
+  {
+   "key": "Heinrich der Ritter",
+   "action": "accept",
+   "label": "Heinrich der Ritter (von Weida)",
+   "class": "person",
+   "kind": "Vogt",
+   "description_de": "Heinrich der Ritter, Voigt von Weida, 1337-nach 1377; Sohn Heinrichs d. ä. aus zweiter Ehe; verkaufte 1366 seinen Anteil am Regnitzland an seinen Bruder Heinrich den Rothen, saß in Weida, ohne Leibeserben.",
+   "description_en": "Heinrich the Knight, Voigt of Weida, 1337-after 1377; son of Heinrich d. ä. by his second marriage; sold his share of the Regnitzland to his brother Heinrich the Red in 1366, lived at Weida, without heirs."
+  },
+  {
+   "key": "Heinrich dem Langen",
+   "action": "accept",
+   "label": "Heinrich d. ä., der Lange (Voigt von Plauen, 1306-1373)",
+   "class": "person",
+   "kind": "Vogt",
+   "description_de": "Heinrich d. ä., der Lange, Voigt (Herr) von Plauen, 1306-1373; verheiratet mit Sophie von Weida; unterstützte 1354 im voigtländischen Krieg Heinrich den Strengen von Greiz und verlor dabei Besitzungen; Vater Heinrichs d. ä. von Auerbach.",
+   "description_en": "Heinrich d. ä., the Long, Voigt (lord) of Plauen, 1306-1373; married Sophie of Weida; supported Heinrich the Strict of Greiz in the Voigtland war of 1354 and lost possessions; father of Heinrich d. ä. of Auerbach.",
+   "note": "Identified from the context (p. 338: husband of Sophie von Weida; p. 367: 1354; cf. Tab. IV, p. 364). The bare epithet \"der Lange\" is ambiguous and listed separately."
+  },
+  {
+   "key": "Heinrichs des Unglücklichen",
+   "action": "merge",
+   "into": "Heinrich der Unglückliche",
+   "note": "genitive"
+  },
+  {
+   "key": "Heinrich Reuß von Greiz",
+   "action": "merge",
+   "into": "Heinrich Reuß",
+   "note": "denotes Heinrich der Strenge (1355, p. 356) and Heinrich d. ä. (1496, p. 350)"
+  },
+  {
+   "key": "Heinrich V. von Plauen",
+   "action": "accept",
+   "label": "Heinrich V. von Plauen (Burggraf von Meißen)",
+   "class": "person",
+   "kind": "Burggraf",
+   "description_de": "Burggraf Heinrich V. von Plauen (von Meißen), Graf von Hartenstein und Herr zu Plauen, oberster Kanzler von Böhmen; geb. 1508, † Mai 1554 vor der Plassenburg; erhielt nach der Reichsacht gegen Gera und Reuß 1547-1550 Gera, Schleiz, Lobenstein u. a. als böhmisches Lehen.",
+   "description_en": "Burgrave Heinrich V. of Plauen (of Meissen), count of Hartenstein and lord of Plauen, chief chancellor of Bohemia; born 1508, died May 1554 before the Plassenburg; after the outlawry of Gera and Reuss he received Gera, Schleiz, Lobenstein etc. as Bohemian fiefs in 1547-1550."
+  },
+  {
+   "key": "Heinrich v. Schwarzburg-Leutenberg",
+   "action": "accept",
+   "label": "Heinrich von Schwarzburg-Leutenberg (Graf)",
+   "class": "person",
+   "kind": "Graf",
+   "description_de": "Graf Heinrich von Schwarzburg-Leutenberg, in zweiter Ehe verheiratet mit einer Tochter (Brigitta) des Hauses Gera, Witwe eines von Schönburg (Tab. III, S. 352).",
+   "description_en": "Count Heinrich of Schwarzburg-Leutenberg, married as her second husband to a daughter (Brigitta) of the house of Gera, widow of a lord of Schönburg (Tab. III, p. 352)."
+  },
+  {
+   "key": "Heinrichs von Gottes Gnaden",
+   "action": "accept",
+   "label": "Heinrich von Gottes Gnaden (Voigt von Weida)",
+   "class": "person",
+   "kind": "Vogt",
+   "description_de": "Heinrich d. m., der sich seit 1224 d. ä. nannte, Voigt von Weida 1209-1249, urkundete „von Gottes Gnaden\"; 1238 Deutschordensritter (Landmeister und Stellvertreter in Preußen); verheiratet 1) wohl mit einer Tochter von Colditz, 2) mit Jutta (stiftete Kloster Cronswitz); Vater der Voigte von Weida, Plauen und Gera.",
+   "description_en": "Heinrich d. m., who called himself d. ä. from 1224, Voigt of Weida 1209-1249, issued charters \"by the grace of God\"; Teutonic knight from 1238 (Landmeister and deputy in Prussia); married 1) probably a daughter of Colditz, 2) Jutta (founded Cronswitz convent); father of the Voigte of Weida, Plauen and Gera.",
+   "note": "In Tab. I (p. 331) listed as \"Heinrich d. m., von Gottes Gnaden\"; corrigendum p. 833 on the style \"von Gottes Gnaden\"."
+  },
+  {
+   "key": "Heinrich d. ä. von Weida",
+   "action": "accept",
+   "label": "Heinrich d. ä. von Weida (1295-c. 1364)",
+   "class": "person",
+   "kind": "Vogt",
+   "description_de": "Heinrich d. ä., Voigt von Weida, 1295-c. 1364, seit 1323 Landvoigt zu Eger; verheiratet 1) mit einer Tochter von Plauen, 2) mit Katharina von Schönburg; Enkel des Gründers der Linie Weida; Vater u. a. Heinrichs des Ritter und Heinrichs des Rothen.",
+   "description_en": "Heinrich d. ä., Voigt of Weida, 1295-c. 1364, Landvoigt of Eger from 1323; married 1) a daughter of Plauen, 2) Katharina of Schönburg; grandson of the founder of the Weida line; father of Heinrich der Ritter and Heinrich der Rothe, among others."
+  },
+  {
+   "key": "Heinrich der Strenge",
+   "action": "accept",
+   "label": "Heinrich der Strenge (Reuß von Greiz)",
+   "class": "person",
+   "kind": "Vogt",
+   "description_de": "Heinrich Reuß der Strenge, Voigt von Greiz, Sohn Heinrich Eriks; 1327-1359; verheiratet mit Anna von Weida; im voigtländischen Krieg (1354) von den thüringer Landgrafen besiegt, verlor die Reichsfreiheit der Voigtei Greiz; Vater dreier Söhne (Heinrich d. ä., d. m., d. j.).",
+   "description_en": "Heinrich Reuss the Strict, Voigt of Greiz, son of Heinrich Erik; 1327-1359; married Anna of Weida; defeated by the Thuringian landgraves in the Voigtland war (1354), lost the imperial immediacy of the Greiz Voigtei; father of three sons (Heinrich d. ä., d. m., d. j.)."
+  },
+  {
+   "key": "Heinrich XXI",
+   "action": "accept",
+   "label": "Heinrich XXI.",
+   "class": "person",
+   "kind": "Landesherr (mehrdeutig)",
+   "note": "ambiguous; refers to different persons. The numeral is counted afresh in every century and separately for the elder and younger line of Reuss (Brückner p. 376), so the same form denotes different princes; see the genealogical tables pp. 341-402. Heinrich XXI. von Lobenstein-Selbitz (1721-1807) and a prince born 1853."
+  },
+  {
+   "key": "Heinrichs XXIX",
+   "action": "accept",
+   "label": "Heinrich XXIX. (Graf Reuß-Ebersdorf)",
+   "class": "person",
+   "kind": "Landesherr",
+   "description_de": "Heinrich XXIX., Graf Reuß zu Ebersdorf, einziger Sohn Heinrichs X.; geb. 1699, regierte bis 1747; Freund Zinzendorfs, gründete 1733 die Herrnhuter Kolonie Ebersdorf; verheiratet mit Sophie Theodore von Castell-Remlingen.",
+   "description_en": "Heinrich XXIX., count Reuss of Ebersdorf, only son of Heinrich X.; born 1699, ruled until 1747; friend of Zinzendorf, founded the Moravian colony at Ebersdorf in 1733; married Sophie Theodore of Castell-Remlingen."
+  },
+  {
+   "key": "Heinrich LV",
+   "action": "accept",
+   "label": "Heinrich LV. (Reuß-Köstritz, Bischof der Herrnhuter)",
+   "class": "person",
+   "kind": "Prinz, Geistlicher",
+   "description_de": "Heinrich LV., Sohn Heinrichs XXIII. aus dem Hause Köstritz; geb. 1768, † 1846 als Bischof der Herrnhuter (Brüdergemeine) zu London; verheiratet 1818 mit Marie von Reichenbach († 1840).",
+   "description_en": "Heinrich LV., son of Heinrich XXIII. of the house of Köstritz; born 1768, died 1846 as bishop of the Moravians (Herrnhuter) in London; married 1818 Marie of Reichenbach (d. 1840)."
+  },
+  {
+   "key": "Heinrich LXIV",
+   "action": "accept",
+   "label": "Heinrich LXIV. (Reuß-Köstritz)",
+   "class": "person",
+   "kind": "Landesherr",
+   "description_de": "Heinrich LXIV., einziger nachgelassener Sohn Heinrichs XLIII., österreichischer Feldmarschalleutnant; geb. 1787, folgte 1814 im Paragiat Köstritz, † 15. Sept. 1856 bei Wien; mit ihm erlosch sein Zweig.",
+   "description_en": "Heinrich LXIV., only surviving son of Heinrich XLIII., Austrian lieutenant field marshal; born 1787, succeeded in the Köstritz Paragiat in 1814, died 15 Sept. 1856 near Vienna; his branch became extinct with him."
+  },
+  {
+   "key": "Heinrich LXXIII",
+   "action": "accept",
+   "label": "Heinrich LXXIII. (Reuß-Köstritz, jüngere Linie)",
+   "class": "person",
+   "kind": "Prinz",
+   "description_de": "Heinrich LXXIII., Enkel Heinrichs XXIII. von Köstritz (jüngere Linie); geb. 1798, † 1855.",
+   "description_en": "Heinrich LXXIII., grandson of Heinrich XXIII. of Köstritz (younger line); born 1798, died 1855."
+  },
+  {
+   "key": "Heinrich der ältere",
+   "action": "accept",
+   "label": "Heinrich der ältere",
+   "class": "person",
+   "kind": "Herr (mehrdeutig)",
+   "note": "ambiguous; refers to different persons. Heinrich d. ä. Reuß zu Untergreiz (1506-1572, called Botschafter) and Heinrich d. ä. Herr von Gera (1502-1538, mentioned 1505)."
+  },
+  {
+   "key": "Heinrich XLIV",
+   "action": "accept",
+   "label": "Heinrich XLIV. (Fürst Reuß-Köstritz, mittlerer Zweig)",
+   "class": "person",
+   "kind": "Landesherr",
+   "description_de": "Heinrich XLIV., Graf, seit 1817 Fürst Reuß-Köstritz, mittlerer Zweig; geb. 1753, † 1832; Sohn Heinrichs IX.; Vater von sechs Söhnen (LX., LXIII., LXVI., LXX., LXXIV. und I.).",
+   "description_en": "Heinrich XLIV., count, from 1817 prince Reuss-Köstritz, middle branch; born 1753, died 1832; son of Heinrich IX.; father of six sons (LX, LXIII, LXVI, LXX, LXXIV and I).",
+   "wikidata": "Q55875487"
+  },
+  {
+   "key": "Heinrich, Herr von Gera",
+   "action": "merge",
+   "into": "Heinrich von Gera",
+   "note": "variant with title; refers to different Herren von Gera (1460, 1486)"
+  },
+  {
+   "key": "Heinrich Reuß XIV",
+   "action": "merge",
+   "into": "Fürst Heinrich XIV",
+   "note": "p. 499: the prince as Erbprinz (1862/63) and as ruler"
+  },
+  {
+   "key": "Heinrich der ältere von Gera",
+   "action": "merge",
+   "into": "Heinrich d. ä. von Gera",
+   "note": "variant; denotes Heinrich d. ä. of 1425 (p. 732) and of 1502 (p. 509)"
+  },
+  {
+   "key": "Heinrich zu Gera",
+   "action": "merge",
+   "into": "Heinrich von Gera",
+   "note": "variant: Dynast/Reichsvoigt of Gera"
+  },
+  {
+   "key": "Heinrich den Beerber",
+   "action": "merge",
+   "into": "Heinrich der Beerber",
+   "note": "inflection variant"
+  },
+  {
+   "key": "Heinrichs X",
+   "action": "merge",
+   "into": "Heinrich X",
+   "note": "genitive; denotes Heinrich X. von Lobenstein (p. 577) and probably Heinrich X. (p. 716)"
+  },
+  {
+   "key": "Heinrichs LXII",
+   "action": "merge",
+   "into": "Heinrich LXII",
+   "note": "title/genitive variant"
+  },
+  {
+   "key": "Heinrichs I",
+   "action": "merge",
+   "into": "Heinrich I",
+   "note": "genitive; denotes King Heinrich I. (p. 667) as well as Heinrich I. von Schleiz (p. 634)"
+  },
+  {
+   "key": "Heinrich v. Tepen",
+   "action": "accept",
+   "label": "Heinrich von Tepen",
+   "class": "person",
+   "kind": "Geistlicher",
+   "description_de": "Heinrich von Tepen, 1332 Pfarrer zu Hohenleuben, später in Tanna, kam 1348 als Pfarrer nach Hof (S. 638, 685).",
+   "description_en": "Heinrich of Tepen, parish priest at Hohenleuben in 1332, later at Tanna, went to Hof as parish priest in 1348 (pp. 638, 685)."
+  },
+  {
+   "key": "Heinrich Herr von Gera",
+   "action": "merge",
+   "into": "Heinrich von Gera",
+   "note": "variant with title; refers to different Herren von Gera (1374, 1513)"
+  },
+  {
+   "key": "Heinrich der Vogler",
+   "action": "accept",
+   "label": "Heinrich I. der Vogler",
+   "class": "person",
+   "kind": "König",
+   "description_de": "Heinrich I., der Vogler, Sachse, deutscher König (bei Brückner auch „Kaiser Heinrich\"); ordnete die Sorbenmark, Gaueinteilung und Ortsanlagen; nach der Sage zerstörte er in Langenberg ein heidnisches Götzenbild (S. 198, 319-320, 514).",
+   "description_en": "Heinrich I. the Fowler, Saxon, German king (also called \"Emperor Heinrich\" by Brückner); organized the Sorbian March, the division into Gaue and settlements; according to legend he destroyed a heathen idol at Langenberg (pp. 198, 319-320, 514).",
+   "wikidata": "Q150620"
+  },
+  {
+   "key": "Heinrich der Reiche",
+   "action": "accept",
+   "label": "Heinrich der Reiche (von Weida)",
+   "class": "person",
+   "kind": "Vogt",
+   "description_de": "Heinrich von Weida der Reiche, nach den Urkunden Sohn des 1143 beurkundeten Heinrich von Weida; 1188 bis † vor 1209; 1191 von Kaiser Heinrich VI. zum Ritter geschlagen; gründete 1193 das Prämonstratenserkloster Mildenfurt; verheiratet mit Berchta; Vater der drei ersten Voigte Heinrich d. ä., d. m. und d. j.; Urheber der Gleichnamigkeit des Hauses (S. 329, Tab. I).",
+   "description_en": "Heinrich of Weida the Rich, according to the charters son of the Heinrich of Weida attested in 1143; 1188 to died before 1209; knighted by Emperor Heinrich VI. in 1191; founded the Premonstratensian monastery of Mildenfurt in 1193; married to Berchta; father of the first three Voigte Heinrich d. ä., d. m. and d. j.; origin of the house's single name (p. 329, Tab. I)."
+  },
+  {
+   "key": "Heinrich Ferd. Bruhm",
+   "action": "accept",
+   "label": "Heinrich Ferdinand Bruhm",
+   "class": "person",
+   "kind": "Gutsbesitzer",
+   "description_de": "Heinrich Ferd. Bruhm, Rittergutsbesitzer (Liste der Rittergüter, S. 223).",
+   "description_en": "Heinrich Ferd. Bruhm, manor owner (list of manors, p. 223).",
+   "note": "Possibly identical with the Gera merchant Heinrich Bruhm (p. 833); not stated by Brückner."
+  },
+  {
+   "key": "Heinrich dem älteren",
+   "action": "merge",
+   "into": "Heinrich Reuß von Untergreiz",
+   "note": "p. 264: the three brothers Reuß-Plauen, coat of arms of 1561 (d. ä., d. m., d. j.)"
+  },
+  {
+   "key": "Heinrich dem mittleren",
+   "action": "merge",
+   "into": "Heinrich der Mittlere",
+   "note": "p. 264: the three brothers Reuß-Plauen, coat of arms of 1561 (d. ä., d. m., d. j.)"
+  },
+  {
+   "key": "Heinrich dem jüngeren",
+   "action": "accept",
+   "label": "Heinrich d. j. Reuß (Herr von Gera, 1530-1572)",
+   "class": "person",
+   "kind": "Landesherr",
+   "description_de": "Heinrich d. j. Reuß, Herr von Gera, jüngster Sohn Heinrichs des Friedsamen, Gründer der jüngeren Linie Reuß (Reuß j. L.); geb. 1530, † 1572; verheiratet 1) mit Elisabeth von Schwarzburg-Leutenberg, 2) mit Dorothea von Solms-Sonnenwalde; Vater Heinrich Posthumus.",
+   "description_en": "Heinrich d. j. Reuss, lord of Gera, youngest son of Heinrich the Peaceable, founder of the younger line of Reuss (Reuss j. L.); born 1530, died 1572; married 1) Elisabeth of Schwarzburg-Leutenberg, 2) Dorothea of Solms-Sonnenwalde; father of Heinrich Posthumus.",
+   "note": "Brückner names him \"Heinrich von Gera\" in Tab. VI (p. 394); the mention here is the coat of arms of 1561 (p. 264)."
+  },
+  {
+   "key": "Fürsten Heinrich LXVII",
+   "action": "merge",
+   "into": "Heinrich LXVII",
+   "note": "title/genitive variant"
+  },
+  {
+   "key": "J. Heinrich Born",
+   "action": "accept",
+   "label": "Johann Heinrich Born",
+   "class": "person",
+   "kind": "Geistlicher",
+   "description_de": "Mag. J. Heinrich Born, Pastor zu Dohna; Stifter eines Legats (S. 308).",
+   "description_en": "Mag. J. Heinrich Born, pastor at Dohna; founder of a bequest (p. 308)."
+  },
+  {
+   "key": "Königs Heinrich",
+   "action": "merge",
+   "into": "Heinrich der Vogler",
+   "note": "title/inflection variant"
+  },
+  {
+   "key": "König Heinrich II",
+   "action": "accept",
+   "label": "Heinrich II. (deutscher König und Kaiser)",
+   "class": "person",
+   "kind": "König",
+   "description_de": "Heinrich II., deutscher König (später Kaiser); schenkte 1011 einen beträchtlichen Teil des orla-saalfelder Gebietes dem Pfalzgrafen Ehrenfried (S. 320).",
+   "description_en": "Heinrich II., German king (later emperor); in 1011 gave a considerable part of the Orla-Saalfeld region to Count Palatine Ehrenfried (p. 320)."
+  },
+  {
+   "key": "Kaiser Heinrich IV",
+   "action": "accept",
+   "label": "Heinrich IV. (Kaiser)",
+   "class": "person",
+   "kind": "Kaiser",
+   "description_de": "Heinrich IV., Kaiser; übergab 1060 die Burgwarte Langenberg dem Hochstift Naumburg; nach der Überlieferung machte er Heinrich den Frommen zu seinem Marschall (S. 320, 323).",
+   "description_en": "Heinrich IV., emperor; gave the Burgwart of Langenberg to the bishopric of Naumburg in 1060; according to tradition he made Heinrich the Pious his marshal (pp. 320, 323)."
+  },
+  {
+   "key": "König Heinrich I",
+   "action": "merge",
+   "into": "Heinrich der Vogler",
+   "note": "title/inflection variant"
+  },
+  {
+   "key": "Heinrich der Fromme von Weida",
+   "action": "merge",
+   "into": "Heinrich der Fromme",
+   "note": "variant with territory"
+  },
+  {
+   "key": "Heinrich von Weida der Reiche",
+   "action": "merge",
+   "into": "Heinrich der Reiche",
+   "note": "inflection/word-order variant"
+  },
+  {
+   "key": "Heinrich Reuß XXVI",
+   "action": "accept",
+   "label": "Heinrich XXVI. (Graf Reuß-Ebersdorf, Historiker)",
+   "class": "person",
+   "kind": "Landesherr, Gelehrter",
+   "description_de": "Heinrich XXVI., Graf Reuß zu Ebersdorf, Sohn Heinrichs XXIX.; geb. 1725, † 1796; Historiker des Hauses und Landes Reuß, Urkundensammler; Gewährsmann für Majers „Chronik der Reußen\".",
+   "description_en": "Heinrich XXVI., count Reuss of Ebersdorf, son of Heinrich XXIX.; born 1725, died 1796; historian of the house and land of Reuss, collector of charters; inspirer of Majer's \"Chronik der Reußen\".",
+   "wikidata": "Q55132822",
+   "note": "Identified from the context (p. 324 fn.: Majer's Chronik der Reußen) and p. 738 (born 1725, died 1796 at Ebersdorf); the bare form \"Heinrich XXVI.\" is ambiguous and listed separately."
+  },
+  {
+   "key": "Heinrich von Unstrut-Weida",
+   "action": "accept",
+   "label": "Heinrich von Weida (an der Unstrut), 1143",
+   "class": "person",
+   "kind": "Adliger",
+   "description_de": "Heinrich von Weida aus der Ritterfamilie von Weida an der Unstrut (Thüringen), 1143 im Gefolge Heinrichs des Löwen genannt; Gut bei Graba an Kloster Volkenrode; nach A. Cohn mit dem Weidaer Haus an der Elster verwandt, von Brückner (S. 324-328) bestritten.",
+   "description_en": "Heinrich of Weida of the knightly family of Weida on the Unstrut (Thuringia), named in 1143 in the retinue of Heinrich the Lion; estate near Graba given to Volkenrode monastery; according to A. Cohn related to the house of Weida on the Elster, which Brückner (pp. 324-328) disputes."
+  },
+  {
+   "key": "Heinrich von Elster-Weida",
+   "action": "accept",
+   "label": "Heinrich von Weida (an der Elster), 1236-c. 1275",
+   "class": "person",
+   "kind": "Vogt",
+   "description_de": "Heinrich, Voigt von Weida an der Elster, 1236-c. 1275, Gründer des Specialhauses Weida (Tab. II); 1270 Geber der Riethmühle an Kloster Volkenrode (nach A. Cohn); Sohn Heinrichs von Gottes Gnaden.",
+   "description_en": "Heinrich, Voigt of Weida on the Elster, 1236-c. 1275, founder of the special house of Weida (Tab. II); in 1270 donor of the Riethmühle to Volkenrode monastery (according to A. Cohn); son of Heinrich von Gottes Gnaden.",
+   "note": "\"Elster-Weida\" is Cohn's term to distinguish the family from the Unstrut family of Weida; identified by date (1270, p. 325)."
+  },
+  {
+   "key": "Heinrich von Wida",
+   "action": "accept",
+   "label": "Heinrich von Wida (Witha), 1170-1180",
+   "class": "person",
+   "kind": "Adliger",
+   "description_de": "Heinrich von Wida (Witha), Vasall Heinrichs des Löwen aus der Unstruter Familie von Weida; 1170 im Gefolge des Herzogs, 1180 zum Kaiser übergetreten (Arnold von Lübeck); nach Cohn Stammvater der Voigte von Weida, nach Brückner nicht (S. 325-328).",
+   "description_en": "Heinrich of Wida (Witha), vassal of Heinrich the Lion from the Unstrut family of Weida; in the duke's retinue in 1170, went over to the emperor in 1180 (Arnold of Lübeck); according to Cohn ancestor of the Voigte of Weida, not so according to Brückner (pp. 325-328)."
+  },
+  {
+   "key": "Heinrich von Witha",
+   "action": "merge",
+   "into": "Heinrich von Wida",
+   "note": "spelling variant (quotation of Arnold of Lübeck, p. 328)"
+  },
+  {
+   "key": "Heinrichs des Frommen",
+   "action": "merge",
+   "into": "Heinrich der Fromme",
+   "note": "genitive (his son of 1143, p. 329)"
+  },
+  {
+   "key": "Heinrich den Reichen",
+   "action": "merge",
+   "into": "Heinrich der Reiche",
+   "note": "inflection/word-order variant"
+  },
+  {
+   "key": "Heinrich dem Reichen",
+   "action": "merge",
+   "into": "Heinrich der Reiche",
+   "note": "inflection/word-order variant"
+  },
+  {
+   "key": "Heinrich der Erlauchte",
+   "action": "accept",
+   "label": "Heinrich der Erlauchte (Markgraf von Meißen)",
+   "class": "person",
+   "kind": "Markgraf",
+   "description_de": "Heinrich der Erlauchte, Markgraf von Meißen und Landgraf von Thüringen (Wettiner); schloß 1254 den grimmaischen Vertrag mit den Voigten von Weida, Plauen und Gera; Lehnsherr von Gebieten der Voigte (S. 334, 354, 490).",
+   "description_en": "Heinrich the Illustrious, margrave of Meissen and landgrave of Thuringia (Wettin); concluded the treaty of Grimma with the Voigte of Weida, Plauen and Gera in 1254; feudal lord of territories of the Voigte (pp. 334, 354, 490).",
+   "wikidata": "Q61258"
+  },
+  {
+   "key": "Heinrich v. Plauen",
+   "action": "merge",
+   "into": "Heinrich von Plauen",
+   "note": "p. 335 fn.: Voigt of Plauen in 1276 (Ruthene or his son); abbreviated form"
+  },
+  {
+   "key": "Heinrichs von Plauen",
+   "action": "merge",
+   "into": "Heinrich von Plauen",
+   "note": "p. 337: Schwager of the Weida brothers (1319); not identified further"
+  },
+  {
+   "key": "Heinrich den Rothen",
+   "action": "merge",
+   "into": "Heinrich der Rothe",
+   "note": "inflection variant"
+  },
+  {
+   "key": "Heinrichs des Rothen",
+   "action": "merge",
+   "into": "Heinrich der Rothe",
+   "note": "inflection variant"
+  },
+  {
+   "key": "Heinrich von Weida zu Wildenfels",
+   "action": "accept",
+   "label": "Heinrich von Weida zu Wildenfels († um 1535)",
+   "class": "person",
+   "kind": "Herr",
+   "description_de": "Heinrich, Herr von Weida und Wildenfels, 1527 unter den Mitbelehnten der Herrschaft Greiz; † um 1535 als letzter männlicher Erbe des Hauses Weida; Vater der Margaretha, Erbin von Wildenfels (Tab. II).",
+   "description_en": "Heinrich, lord of Weida and Wildenfels, co-enfeoffed with the lordship of Greiz in 1527; died c. 1535 as last male heir of the house of Weida; father of Margaretha, heiress of Wildenfels (Tab. II)."
+  },
+  {
+   "key": "Johann Heinrich von Schwarzburg-Leutenberg",
+   "action": "accept",
+   "label": "Johann Heinrich von Schwarzburg-Leutenberg (Graf)",
+   "class": "person",
+   "kind": "Graf",
+   "description_de": "Graf Johann Heinrich von Schwarzburg-Leutenberg, 1527 verheiratet mit Margaretha von Weida, der Erbin von Wildenfels († nach 1562); verkaufte Wildenfels (S. 340, Tab. II).",
+   "description_en": "Count Johann Heinrich of Schwarzburg-Leutenberg, married in 1527 to Margaretha of Weida, heiress of Wildenfels (d. after 1562); sold Wildenfels (p. 340, Tab. II)."
+  },
+  {
+   "key": "Heinrich Reuß v. Plauen",
+   "action": "merge",
+   "into": "Heinrich Reuß",
+   "note": "p. 341: husband of Anna von Weida; not identified further"
+  },
+  {
+   "key": "Heinrich der Graf",
+   "action": "accept",
+   "label": "Heinrich der Graf (von Weida)",
+   "class": "person",
+   "kind": "Vogt",
+   "description_de": "Heinrich von Weida, genannt der Graf, 1293-nach 1335; Vetter Heinrichs d. ä. und d. j. von Weida; verheiratet mit Hedwig (wohl von Lobdaburg-Arnshaugk); hinterließ einen Sohn, der 1332 der jüngste Voigt hieß (S. 335, 337, Tab. II).",
+   "description_en": "Heinrich of Weida, called the Count, 1293-after 1335; cousin of Heinrich d. ä. and d. j. of Weida; married Hedwig (probably of Lobdaburg-Arnshaugk); left a son, who was called the youngest Voigt in 1332 (pp. 335, 337, Tab. II)."
+  },
+  {
+   "key": "Joh. Heinrich",
+   "action": "merge",
+   "into": "Johann Heinrich von Schwarzburg-Leutenberg",
+   "note": "abbreviated form (Tab. II, p. 341)"
+  },
+  {
+   "key": "Heinrich von Greiz",
+   "action": "accept",
+   "label": "Heinrich von Greiz (Voigt, d. j. von Weida)",
+   "class": "person",
+   "kind": "Vogt",
+   "description_de": "Heinrich d. j., jüngerer Bruder Heinrichs d. m. von Weida, 1209-nach 1240, von 1240 an Voigt von Greiz; starb kinderlos in den 1240er Jahren, sein Besitz kam an die Söhne Heinrichs d. m. (S. 330-332, 342).",
+   "description_en": "Heinrich d. j., younger brother of Heinrich d. m. of Weida, 1209-after 1240, Voigt of Greiz from 1240; died childless in the 1240s, his lands passed to the sons of Heinrich d. m. (pp. 330-332, 342)."
+  },
+  {
+   "key": "Heinrich Reuß von Plauen",
+   "action": "merge",
+   "into": "Heinrich Erik",
+   "note": "p. 343: Voigt Heinrich Reuß von Plauen who stood with the landgrave in 1314/15 (cf. p. 365)"
+  },
+  {
+   "key": "Heinrich von Wildenfels",
+   "action": "accept",
+   "label": "Heinrich von Wildenfels (1315)",
+   "class": "person",
+   "kind": "Adliger",
+   "description_de": "Heinrich von Wildenfels, 1315 unter den Helfern der Brüder von Gera in der Fehde gegen die Lobdaburger und den Landgrafen (S. 343).",
+   "description_en": "Heinrich of Wildenfels, in 1315 one of the allies of the brothers of Gera in the feud against the Lobdaburgs and the landgrave (p. 343)."
+  },
+  {
+   "key": "Heinrich von Gera-Schleiz",
+   "action": "merge",
+   "into": "Heinrich der Unglückliche",
+   "note": "p. 348: in the peace of 1451"
+  },
+  {
+   "key": "Heinrich von Gera-Lobenstein",
+   "action": "merge",
+   "into": "Heinrich der Beerber",
+   "note": "p. 348: the elder brother, Herr von Gera und Lobenstein, in the Bruderkrieg"
+  },
+  {
+   "key": "Heinrich von Schwarzburg",
+   "action": "accept",
+   "label": "Heinrich von Schwarzburg (Graf, 1450/51)",
+   "class": "person",
+   "kind": "Graf",
+   "description_de": "Graf Heinrich von Schwarzburg, im thüringischen Bruderkrieg Gegner der Brüder Heinrich von Gera-Schleiz und Heinrich von Gera-Lobenstein; Friede am 27. Jan. 1451 (S. 348).",
+   "description_en": "Count Heinrich of Schwarzburg, opponent of the brothers Heinrich of Gera-Schleiz and Heinrich of Gera-Lobenstein in the Thuringian fratricidal war; peace on 27 Jan. 1451 (p. 348)."
+  },
+  {
+   "key": "Heinrich der Ältere",
+   "action": "merge",
+   "into": "Heinrich d. Mehrer",
+   "note": "Tab. III header (p. 352): \"Heinrich der Ältere, Voigt von Gera, 1244 - † vor Ende August 1279\""
+  },
+  {
+   "key": "Heinrich v. Beichlingen",
+   "action": "accept",
+   "label": "Heinrich von Beichlingen (zu Rothenburg)",
+   "class": "person",
+   "kind": "Adliger",
+   "description_de": "Heinrich von Beichlingen zu Rothenburg, † 1366; verheiratet mit Sophie von Gera (Tab. III, S. 352).",
+   "description_en": "Heinrich of Beichlingen at Rothenburg, died 1366; married Sophie of Gera (Tab. III, p. 352)."
+  },
+  {
+   "key": "Heinrich v. Rothe v. Weida",
+   "action": "merge",
+   "into": "Heinrich der Rothe",
+   "note": "Tab. III (p. 352): husband of Ilse von Gera (Tab. II: Heinrich der Rothe, ∞ Ilse von Gera)"
+  },
+  {
+   "key": "Heinrich von Trübenbingen",
+   "action": "merge",
+   "into": "Heinrich von Truhendingen",
+   "note": "OCR variant of Truhendingen (Tab. III, p. 352)"
+  },
+  {
+   "key": "Heinrich d. Dispenstirte",
+   "action": "merge",
+   "into": "Heinrich der Dispensirte",
+   "note": "inflection/abbreviation/OCR variant"
+  },
+  {
+   "key": "Heinrich b. ä",
+   "action": "merge",
+   "into": "Heinrich der ä",
+   "note": "OCR error for \"d. ä.\" (Tab. III, p. 352: \"Heinrich b. ä., geb. 1404, † vor April 1439, Herr v. Burgk 1426\")"
+  },
+  {
+   "key": "Heinrich b. m",
+   "action": "merge",
+   "into": "Heinrich der Beerber",
+   "note": "OCR error for \"d. m.\" (Tab. III, p. 352: \"Heinrich b. m., geb. 1406, † c. 1481, Herr von Lobenstein 1426\")"
+  },
+  {
+   "key": "Heinrich der erste Ruthene",
+   "action": "merge",
+   "into": "Heinrich der Ruthene",
+   "note": "variant"
+  },
+  {
+   "key": "Heinrich dem Erlauchten von Meissen",
+   "action": "merge",
+   "into": "Heinrich der Erlauchte",
+   "note": "inflection variant"
+  },
+  {
+   "key": "Heinrich von Plauen d. ä",
+   "action": "merge",
+   "into": "Heinrich der Ruthene",
+   "note": "p. 354 fn.: \"Voigts Heinrich von Plauen d. ä.\", husband of Kunigunde von Eberstein"
+  },
+  {
+   "key": "Heinrichs des Langen",
+   "action": "merge",
+   "into": "Heinrich der Lange",
+   "note": "genitive; denotes the Heinrich the Long of 1333 (Heinrich der Böhme, p. 354 fn.) and the father of Heinrich d. ä. of Auerbach (p. 356)"
+  },
+  {
+   "key": "Heinrich des Langen",
+   "action": "merge",
+   "into": "Heinrich der Lange",
+   "note": "genitive; denotes the Heinrich the Long of 1333 (Heinrich der Böhme, p. 354 fn.) and the father of Heinrich d. ä. of Auerbach (p. 356)"
+  },
+  {
+   "key": "Heinrich der Ruthene (Ruzze, Reuß",
+   "action": "merge",
+   "into": "Heinrich der Ruthene",
+   "note": "table header (Tab. IV, p. 364); the key is truncated"
+  },
+  {
+   "key": "Heinrich der Ruzze",
+   "action": "accept",
+   "label": "Heinrich der Ruzze (Reuß), 1276-1296",
+   "class": "person",
+   "kind": "Vogt",
+   "description_de": "Heinrich Reuß oder Ruzze, jüngerer Sohn Heinrichs des Ruthenen; 1276 bis † vor 20. März 1296; Vater Heinrich Eriks, des Gründers des Hauses Reuß.",
+   "description_en": "Heinrich Reuss or Ruzze, younger son of Heinrich the Ruthene; 1276 to died before 20 March 1296; father of Heinrich Erik, the founder of the house of Reuss."
+  },
+  {
+   "key": "Heinrich v. Schwanberg",
+   "action": "accept",
+   "label": "Heinrich von Schwanberg",
+   "class": "person",
+   "kind": "Adliger",
+   "description_de": "Heinrich von Schwanberg, Gatte der Margaretha von Plauen († nach 1465), Tochter des Burggrafen Heinrich II. (Tab. IV, S. 364).",
+   "description_en": "Heinrich of Schwanberg, husband of Margaretha of Plauen (d. after 1465), daughter of Burgrave Heinrich II. (Tab. IV, p. 364)."
+  },
+  {
+   "key": "Heinrich Reuß der Erik",
+   "action": "merge",
+   "into": "Heinrich Erik",
+   "note": "variant"
+  },
+  {
+   "key": "Heinrichs Ruzze",
+   "action": "merge",
+   "into": "Heinrich der Ruzze",
+   "note": "genitive (p. 365: \"der Erbsohn Heinrichs Ruzze\")"
+  },
+  {
+   "key": "Heinrich Reuß der Kleine",
+   "action": "merge",
+   "into": "Heinrich Erik",
+   "note": "variant (epithet)"
+  },
+  {
+   "key": "Heinrich Reuß den Strengen",
+   "action": "merge",
+   "into": "Heinrich der Strenge",
+   "note": "variant"
+  },
+  {
+   "key": "Heinrichs des Kleinen",
+   "action": "merge",
+   "into": "Heinrich Erik",
+   "note": "genitive (his son, p. 367)"
+  },
+  {
+   "key": "Heinrich Reuß der Strenge",
+   "action": "merge",
+   "into": "Heinrich der Strenge",
+   "note": "variant"
+  },
+  {
+   "key": "Heinrich Herrn von Plauen",
+   "action": "accept",
+   "label": "Heinrich I. von Plauen (Burggraf von Meißen)",
+   "class": "person",
+   "kind": "Burggraf",
+   "description_de": "Heinrich I., Herr zu Plauen und Königswart, seit 1426 Burggraf von Meißen; 1389-1429; Reichs- und böhmischer Oberhofrichter; protestierte auf dem Konzil von Konstanz gegen die Verurteilung Hussens; verteidigte 1420 das Schloß zu Prag gegen die Hussiten; 1415 Vertrag mit dem Landgrafen von Leuchtenberg.",
+   "description_en": "Heinrich I., lord of Plauen and Königswart, burgrave of Meissen from 1426; 1389-1429; Imperial and Bohemian chief justice; protested at the Council of Constance against the condemnation of Hus; defended Prague castle against the Hussites in 1420; treaty with the landgrave of Leuchtenberg in 1415.",
+   "note": "Identified by date and context (p. 368, treaty of 1415; cf. p. 357). Not the Teutonic Grand Master Heinrich von Plauen, his brother."
+  },
+  {
+   "key": "Heinrich von Truhendingen",
+   "action": "accept",
+   "label": "Heinrich von Truhendingen (Graf)",
+   "class": "person",
+   "kind": "Graf",
+   "description_de": "Graf Heinrich von Truhendingen, erster Gatte der Dorothea von Gera; Vater des Oswald von Truhendingen, der Anna, die Tochter Heinrichs d. ä. von Greiz, heiratete (S. 352, 368).",
+   "description_en": "Count Heinrich of Truhendingen, first husband of Dorothea of Gera; father of Oswald of Truhendingen, who married Anna, daughter of Heinrich d. ä. of Greiz (pp. 352, 368)."
+  },
+  {
+   "key": "Heinrich der Alte",
+   "action": "accept",
+   "label": "Heinrich der Alte von Greiz (Reuß)",
+   "class": "person",
+   "kind": "Vogt",
+   "description_de": "Heinrich d. j. Reuß, „der Alte von Greiz\" (der „alte Russe\"), 1413 bis nach 1449; Herr der halben Herrschaft Greiz, starb wohl unverheiratet und ohne Erben; sein Erbteil fiel an die Söhne seines Oheims Heinrichs d. j.",
+   "description_en": "Heinrich d. j. Reuss, \"the Old One of Greiz\" (the \"old Reuss\"), 1413 to after 1449; lord of half the lordship of Greiz, probably died unmarried and without heirs; his share passed to the sons of his uncle Heinrich d. j."
+  },
+  {
+   "key": "Heinrich von Meißen",
+   "action": "accept",
+   "label": "Heinrich II. von Plauen (Burggraf von Meißen)",
+   "class": "person",
+   "kind": "Burggraf",
+   "description_de": "Burggraf Heinrich II. von Meißen, Herr zu Plauen (reg. 1429-1446); 1444 genannt bei der Belehnung der Brüder Reuß mit dem Weinberg Hainer am Gleißberg bei Jena.",
+   "description_en": "Burgrave Heinrich II. of Meissen, lord of Plauen (ruled 1429-1446); named in 1444 in the enfeoffment of the Reuss brothers with the Hainer vineyard below the Gleißberg near Jena.",
+   "note": "Identified by date (1444, p. 369)."
+  },
+  {
+   "key": "Heinrich Reuß d. ä",
+   "action": "accept",
+   "label": "Heinrich d. ä. Reuß zu Greiz (der Wallfahrer)",
+   "class": "person",
+   "kind": "Herr",
+   "description_de": "Heinrich d. ä. Reuß, Herr zu Greiz und Oberkranichfeld, 1429-c. 1475, wegen einer Wallfahrt nach Palästina (1461) der Wallfahrer genannt; 1450 päpstliche Gunst (Beichtiger); verheiratet mit Magdalena von Schwarzenberg; Vater von sieben Söhnen und drei Töchtern.",
+   "description_en": "Heinrich d. ä. Reuss, lord of Greiz and Oberkranichfeld, 1429-c. 1475, called the Pilgrim after a pilgrimage to Palestine (1461); papal favor in 1450 (confessor); married Magdalena of Schwarzenberg; father of seven sons and three daughters.",
+   "note": "Identified from the context (p. 369: papal letter of 3 April 1450 to \"Heinrich Reuß d. ä.\"; p. 370)."
+  },
+  {
+   "key": "Heinrich den Friedsamen",
+   "action": "merge",
+   "into": "Heinrich der Friedsame",
+   "note": "inflection variant"
+  },
+  {
+   "key": "Heinrich V. von Meißen",
+   "action": "merge",
+   "into": "Heinrich V. von Plauen",
+   "note": "title variant"
+  },
+  {
+   "key": "Heinrich der Friedsame",
+   "action": "accept",
+   "label": "Heinrich der Friedsame (Reuß zu Greiz)",
+   "class": "person",
+   "kind": "Landesherr",
+   "description_de": "Heinrich der Friedsame oder der Stille, Heinrich d. j. Reuß, Herr zu Greiz, seit 1529 auch zu Kranichfeld; 1476-1535; führte die Reformation ein; Vater der drei Brüder Heinrich d. ä., d. m., d. j., Ahnherr der Linien Reuß.",
+   "description_en": "Heinrich the Peaceable or the Quiet, Heinrich d. j. Reuss, lord of Greiz, also of Kranichfeld from 1529; 1476-1535; introduced the Reformation; father of the three brothers Heinrich d. ä., d. m., d. j., ancestor of the Reuss lines."
+  },
+  {
+   "key": "Heinrich der Mittlere",
+   "action": "accept",
+   "label": "Heinrich d. m. Reuß (Herr zu Obergreiz)",
+   "class": "person",
+   "kind": "Landesherr",
+   "description_de": "Heinrich d. m. Reuß, Herr zu Obergreiz, Stifter der mittleren Linie Reuß von Plauen; geb. 1525, † 1578; verheiratet mit Marie Salome von Oettingen; anfänglich eifrig lutherisch, flacianisch beeinflußt; herzoglich sächsischer Landeshauptmann von Weida.",
+   "description_en": "Heinrich d. m. Reuss, lord of Obergreiz, founder of the middle Reuss line of Plauen; born 1525, died 1578; married Marie Salome of Oettingen; at first zealously Lutheran, influenced by the Flacians; ducal Saxon captain of Weida."
+  },
+  {
+   "key": "Heinrich Reuß d. m",
+   "action": "merge",
+   "into": "Heinrich der Mittlere",
+   "note": "p. 375: letter of April 1565 to Duke Johann Friedrich the Younger of Gotha"
+  },
+  {
+   "key": "Heinrich Rothbart",
+   "action": "accept",
+   "label": "Heinrich Rothbart (Heinrich d. m. Reuß zu Schleiz)",
+   "class": "person",
+   "kind": "Landesherr",
+   "description_de": "Heinrich d. m., genannt Rothbart, Herr zu Schleiz, jüngerer der beiden letzten Regenten der mittleren Linie (Obergreiz); geb. 1563, † 1616 erblos; verheiratet mit Agnes Marie von Erbach.",
+   "description_en": "Heinrich d. m., called Redbeard, lord of Schleiz, the younger of the last two rulers of the middle line (Obergreiz); born 1563, died 1616 without heirs; married Agnes Marie of Erbach."
+  },
+  {
+   "key": "Heinrichs XXVI",
+   "action": "accept",
+   "label": "Heinrich XXVI. (Reuß-Lobenstein-Selbitz)",
+   "class": "person",
+   "kind": "Landesherr",
+   "description_de": "Heinrich XXVI., jüngerer Sohn Heinrichs III. von Lobenstein; geb. 1681, † 1730; verheiratet 1715 mit Juliane Rebecca von Tättenbach, Erbin von Selbitz; Stifter der Nebenlinie Reuß-Selbitz.",
+   "description_en": "Heinrich XXVI., younger son of Heinrich III. of Lobenstein; born 1681, died 1730; married 1715 Juliane Rebecca of Tättenbach, heiress of Selbitz; founder of the cadet line Reuss-Selbitz."
+  },
+  {
+   "key": "Heinrich LXVII. Reuß j. L",
+   "action": "merge",
+   "into": "Heinrich LXVII",
+   "note": "title/genitive variant"
+  },
+  {
+   "key": "Fürst Heinrich LXVII",
+   "action": "merge",
+   "into": "Heinrich LXVII",
+   "note": "title/genitive variant"
+  },
+  {
+   "key": "Fürst Heinrich XIV",
+   "action": "accept",
+   "label": "Heinrich XIV. (Fürst Reuß j. L.)",
+   "class": "person",
+   "kind": "Landesherr",
+   "description_de": "Heinrich XIV., regierender Fürst Reuß j. L. seit 11. Juli 1867; geb. 28. Mai 1832; verheiratet mit Pauline Louise Agnes von Württemberg; Urheber, Plangeber und Förderer des Buches (Vorwort, S. III).",
+   "description_en": "Heinrich XIV., reigning prince of Reuss (younger line) from 11 July 1867; born 28 May 1832; married to Pauline Louise Agnes of Württemberg; initiator, planner and promoter of the book (preface, p. III).",
+   "wikidata": "Q553108",
+   "note": "Brückner dedicates the work to him (p. III). The bare form \"Heinrich XIV.\" is ambiguous (also Heinrich XIV. von Greiz, 1749-1799) and is listed separately."
+  },
+  {
+   "key": "Heinrichs VI",
+   "action": "accept",
+   "label": "Heinrich VI. (Graf Reuß-Köstritz)",
+   "class": "person",
+   "kind": "Landesherr",
+   "description_de": "Heinrich VI., älterer Sohn Heinrichs XXIV. von Köstritz, königlich dänischer Geheimrat; geb. 1707, † 1783; Haupt der älteren Köstritzer Linie, die mit Heinrich LXIX. endet.",
+   "description_en": "Heinrich VI., elder son of Heinrich XXIV. of Köstritz, Royal Danish privy councillor; born 1707, died 1783; head of the older Köstritz line, which ends with Heinrich LXIX.",
+   "note": "Identified from the context (p. 388: \"die Linie Heinrichs VI.\")."
+  },
+  {
+   "key": "Heinrich XXXVII",
+   "action": "accept",
+   "label": "Heinrich XXXVII. (Reuß-Köstritz)",
+   "class": "person",
+   "kind": "Prinz",
+   "description_de": "Heinrich XXXVII., ältester Sohn Heinrichs IX. von Köstritz (mittlere Linie); nach Tab. X geb. 1747, † 1774.",
+   "description_en": "Heinrich XXXVII., eldest son of Heinrich IX. of Köstritz (middle line); according to Tab. X born 1747, died 1774."
+  },
+  {
+   "key": "Heinrich XXXXIV",
+   "action": "merge",
+   "into": "Heinrich XLIV",
+   "note": "old-style numeral XXXXIV = XLIV (p. 388)"
+  },
+  {
+   "key": "Heinrich Reuß XII",
+   "action": "accept",
+   "label": "Heinrich XII. (Prinz Reuß, Köstritz)",
+   "class": "person",
+   "kind": "Prinz, Offizier",
+   "description_de": "Heinrich XII., Prinz Reuß (mittlere Linie Köstritz), preußischer Major; geb. 1829, 1866 im Feld gefallen; verheiratet 1858 mit Anna von Pleß-Hochberg-Fürstenstein; seine Witwe heiratete seinen Bruder Heinrich XIII. (S. 833).",
+   "description_en": "Heinrich XII., Prince Reuss (middle line Köstritz), Prussian major; born 1829, killed in action in 1866; married 1858 Anna of Pless-Hochberg-Fürstenstein; his widow married his brother Heinrich XIII. (p. 833)."
+  },
+  {
+   "key": "Heinrich Reuß VII",
+   "action": "accept",
+   "label": "Heinrich VII. (Prinz Reuß, Köstritz)",
+   "class": "person",
+   "kind": "Prinz, Diplomat",
+   "description_de": "Heinrich VII., Prinz Reuß (mittlere Linie Köstritz); geb. 1825; außerordentlicher Gesandter und bevollmächtigter Minister des Königs von Preußen und des Norddeutschen Bundes am russischen Hof.",
+   "description_en": "Heinrich VII., Prince Reuss (middle line Köstritz); born 1825; extraordinary envoy and minister plenipotentiary of the King of Prussia and the North German Confederation at the Russian court."
+  },
+  {
+   "key": "Heinrich XXXXVII",
+   "action": "accept",
+   "label": "Heinrich XLVII. (Reuß-Köstritz, jüngere Linie)",
+   "class": "person",
+   "kind": "Prinz",
+   "description_de": "Heinrich XLVII. (gedruckt „XXXXVII.\"), Sohn Heinrichs XXIII. von Köstritz (jüngere Linie); nach Tab. X geb. 1756, † 1833.",
+   "description_en": "Heinrich XLVII. (printed \"XXXXVII.\"), son of Heinrich XXIII. of Köstritz (younger line); according to Tab. X born 1756, died 1833."
+  },
+  {
+   "key": "Heinrichs XV",
+   "action": "accept",
+   "label": "Heinrich XV. (von Obergreiz)",
+   "class": "person",
+   "kind": "Landesherr",
+   "description_de": "Heinrich XV., Sohn Heinrichs I. von Obergreiz; geb. 1676, † 1690; sein Tod vor 1694 führte zur Teilung zwischen Heinrich VI. und XVI.",
+   "description_en": "Heinrich XV., son of Heinrich I. of Obergreiz; born 1676, died 1690; his death before 1694 led to the partition between Heinrich VI. and XVI."
+  },
+  {
+   "key": "Heinrichs XIV",
+   "action": "accept",
+   "label": "Heinrich XIV. (Graf Reuß zu Greiz, Feldmarschalleutnant)",
+   "class": "person",
+   "kind": "Adliger, Offizier",
+   "description_de": "Heinrich XIV., Sohn Heinrichs XI. von Greiz; geb. 1749, † 1799; kaiserlicher Feldmarschalleutnant und Gesandter am preußischen Hof.",
+   "description_en": "Heinrich XIV., son of Heinrich XI. of Greiz; born 1749, died 1799; Imperial lieutenant field marshal and envoy at the Prussian court.",
+   "note": "Not the reigning prince Heinrich XIV. (b. 1832), see \"Fürst Heinrich XIV\"."
+  },
+  {
+   "key": "Heinrich II. von Gera",
+   "action": "accept",
+   "label": "Heinrich II. (Reuß zu Gera)",
+   "class": "person",
+   "kind": "Landesherr",
+   "description_de": "Heinrich II., ältester überlebender Sohn des Heinrich Posthumus; geb. 1602, erhielt 1647 Gera (1666 Saalburg), Gründer des Specialhauses Gera, † 1670; verheiratet mit Katharina von Schwarzburg; Vater Heinrichs IV.",
+   "description_en": "Heinrich II., eldest surviving son of Heinrich Posthumus; born 1602, received Gera in 1647 (Saalburg in 1666), founder of the special house of Gera, died 1670; married Katharina of Schwarzburg; father of Heinrich IV."
+  },
+  {
+   "key": "Heinrichs IV",
+   "action": "accept",
+   "label": "Heinrich IV. (Herr von Obergreiz)",
+   "class": "person",
+   "kind": "Landesherr",
+   "description_de": "Heinrich IV., Gründer des Hauses Obergreiz (1625); geb. 1597, † 1629; verheiratet mit Juliane Elisabeth Rheingräfin zu Neufville (später Gattin Heinrichs III. von Schleiz); Vater Heinrichs I.",
+   "description_en": "Heinrich IV., founder of the house of Obergreiz (1625); born 1597, died 1629; married Juliane Elisabeth, Rhinegravine of Neufville (later wife of Heinrich III. of Schleiz); father of Heinrich I."
+  },
+  {
+   "key": "Heinrichs LI",
+   "action": "merge",
+   "into": "Heinrich LI",
+   "note": "genitive"
+  },
+  {
+   "key": "Chriſtian Heinrich v. Reitzenſtein",
+   "action": "accept",
+   "label": "Christian Heinrich von Reitzenstein",
+   "class": "person",
+   "kind": "Adliger",
+   "description_de": "Christian Heinrich von Reitzenstein, † 1762; verheiratet mit Christiane Marie Eleonore Reuß-Lobenstein (1722-1764) (Tab. VIII, S. 396).",
+   "description_en": "Christian Heinrich of Reitzenstein, died 1762; married Christiane Marie Eleonore Reuss-Lobenstein (1722-1764) (Tab. VIII, p. 396).",
+   "note": "The key spells \"Chriſtian\" and \"Reitzenſtein\" with long s (transcription)."
+  },
+  {
+   "key": "Heinrich XXIV. von Köstritz",
+   "action": "accept",
+   "label": "Heinrich XXIV. (Graf Reuß, Stifter der Linie Köstritz)",
+   "class": "person",
+   "kind": "Landesherr",
+   "description_de": "Heinrich XXIV., jüngerer Sohn Heinrichs I. von Schleiz; geb. 1681, † 1748; erstes Haupt der Nebenlinie Köstritz (Paragiat); verheiratet mit Marie Eleonore Emilie von Promnitz-Dittersbach; Vater Heinrichs VI., IX. und XXIII.",
+   "description_en": "Heinrich XXIV., younger son of Heinrich I. of Schleiz; born 1681, died 1748; first head of the cadet line Köstritz (Paragiat); married Marie Eleonore Emilie of Promnitz-Dittersbach; father of Heinrich VI., IX. and XXIII."
+  },
+  {
+   "key": "Heinrich XLVIII",
+   "action": "accept",
+   "label": "Heinrich XLVIII. (Reuß-Köstritz)",
+   "class": "person",
+   "kind": "Prinz",
+   "description_de": "Heinrich XLVIII., jüngerer Sohn Heinrichs VI. von Köstritz; geb. 1759, † 1825; verheiratet mit Christiane Henriette von Schönburg-Wechselburg; Vater der Theresia (Theresienstiftung 1858).",
+   "description_en": "Heinrich XLVIII., younger son of Heinrich VI. of Köstritz; born 1759, died 1825; married Christiane Henriette of Schönburg-Wechselburg; father of Theresia (Theresia foundation of 1858)."
+  },
+  {
+   "key": "Heinrich XXXIX",
+   "action": "accept",
+   "label": "Heinrich XXXIX. (Reuß-Köstritz)",
+   "class": "person",
+   "kind": "Prinz",
+   "description_de": "Heinrich XXXIX., Sohn Heinrichs IX. von Köstritz; geb. 1750, † 1815; verheiratet mit Henriette von Sinzendorf, Witwe Heinrich Augusts de la Motte Fouqué.",
+   "description_en": "Heinrich XXXIX., son of Heinrich IX. of Köstritz; born 1750, died 1815; married Henriette of Sinzendorf, widow of Heinrich August de la Motte Fouqué."
+  },
+  {
+   "key": "Heinrich Augusts de la Motte Fouqué",
+   "action": "accept",
+   "label": "Heinrich August de la Motte Fouqué",
+   "class": "person",
+   "kind": "Adliger",
+   "description_de": "Heinrich August de la Motte Fouqué, erster Gatte der Henriette von Sinzendorf († 1826), die danach Heinrich XXXIX. Reuß-Köstritz heiratete (Tab. X, S. 398); von Brückner nicht näher bezeichnet.",
+   "description_en": "Heinrich August de la Motte Fouqué, first husband of Henriette of Sinzendorf (d. 1826), who afterwards married Heinrich XXXIX. Reuss-Köstritz (Tab. X, p. 398); not further identified by Brückner.",
+   "note": "The key has the genitive ending (\"Heinrich Augusts\"); not linked to the Prussian general of the same name, as the generation cannot be established from Brückner."
+  },
+  {
+   "key": "Heinrich LIX",
+   "action": "accept",
+   "label": "Heinrich LIX. (Reuß-Köstritz)",
+   "class": "person",
+   "kind": "Prinz",
+   "description_de": "Heinrich LIX., Sohn Heinrichs XLIII. von Köstritz; geb. 1783, † 1784 (Tab. X).",
+   "description_en": "Heinrich LIX., son of Heinrich XLIII. of Köstritz; born 1783, died 1784 (Tab. X)."
+  },
+  {
+   "key": "Heinrich LXXV",
+   "action": "accept",
+   "label": "Heinrich LXXV. (Reuß-Köstritz, jüngere Linie)",
+   "class": "person",
+   "kind": "Prinz",
+   "description_de": "Heinrich LXXV., Enkel Heinrichs XXIII. von Köstritz (jüngere Linie); geb. 3. Dez. 1800, † 24. Dez. 1800 (Tab. X).",
+   "description_en": "Heinrich LXXV., grandson of Heinrich XXIII. of Köstritz (younger line); born 3 Dec. 1800, died 24 Dec. 1800 (Tab. X)."
+  },
+  {
+   "key": "Heinrich LXV",
+   "action": "reject",
+   "reason": "transcription artefact: the table cell on p. 398 (Tab. X, row 9, col. 1) is printed \"Franziska, g. 1788, † 1843. Gem. H. LIV. Reuß-Lobenstein, Wittwer Mariens v. Stolberg-Wernigerode\"; there is no Heinrich LXV. in the print here"
+  },
+  {
+   "key": "Heinrich Graf v. Reichenbach-Goschütz",
+   "action": "accept",
+   "label": "Heinrich Graf von Reichenbach-Goschütz",
+   "class": "person",
+   "kind": "Graf",
+   "description_de": "Heinrich Graf von Reichenbach-Goschütz, † 1855; verheiratet mit Emilie Reuß-Köstritz (1787-1854) (Tab. X, S. 398).",
+   "description_en": "Count Heinrich of Reichenbach-Goschütz, died 1855; married Emilie Reuss-Köstritz (1787-1854) (Tab. X, p. 398)."
+  },
+  {
+   "key": "Heinrich LXVI",
+   "action": "accept",
+   "label": "Heinrich LXVI. (Reuß-Köstritz)",
+   "class": "person",
+   "kind": "Prinz",
+   "description_de": "Heinrich LXVI., Sohn Heinrichs XLIV. von Köstritz; geboren und gestorben 1788 (Tab. XI).",
+   "description_en": "Heinrich LXVI., son of Heinrich XLIV. of Köstritz; born and died 1788 (Tab. XI)."
+  },
+  {
+   "key": "Heinrich LXX",
+   "action": "accept",
+   "label": "Heinrich LXX. (Reuß-Köstritz)",
+   "class": "person",
+   "kind": "Prinz",
+   "description_de": "Heinrich LXX., Sohn Heinrichs XLIV. von Köstritz; geb. 1793, † 1821 (Tab. XI).",
+   "description_en": "Heinrich LXX., son of Heinrich XLIV. of Köstritz; born 1793, died 1821 (Tab. XI)."
+  },
+  {
+   "key": "Heinrich v. Anhalt-Köthen",
+   "action": "accept",
+   "label": "Heinrich von Anhalt-Köthen",
+   "class": "person",
+   "kind": "Fürst",
+   "description_de": "Heinrich von Anhalt-Köthen, † 1847; 1819 verheiratet mit Auguste Reuß-Köstritz (1794-1855) (Tab. XI, S. 399).",
+   "description_en": "Heinrich of Anhalt-Köthen, died 1847; married in 1819 Auguste Reuss-Köstritz (1794-1855) (Tab. XI, p. 399)."
+  },
+  {
+   "key": "Heinrich L",
+   "action": "merge",
+   "into": "Heinrich I",
+   "note": "transcription error: the table cell on p. 399 (Tab. XI, \"Heinrich I., geb. 1803, + 1805\", youngest son of Heinrich XLIV. von Köstritz) is printed \"I.\", the transcription reads \"L.\""
+  },
+  {
+   "key": "Heinrich XXXI",
+   "action": "accept",
+   "label": "Heinrich XXXI. (Prinz Reuß, Köstritz)",
+   "class": "person",
+   "kind": "Prinz",
+   "description_de": "Heinrich XXXI., Sohn Heinrichs LXXIV. von Köstritz; geb. 1864 (Tab. XI).",
+   "description_en": "Heinrich XXXI., son of Heinrich LXXIV. of Köstritz; born 1864 (Tab. XI)."
+  },
+  {
+   "key": "Heinrich XXXII",
+   "action": "accept",
+   "label": "Heinrich XXXII. (Prinz Reuß, Köstritz)",
+   "class": "person",
+   "kind": "Prinz",
+   "description_de": "Heinrich XXXII., Prinz Reuß (Köstritz); geb. 1864 (Tab. XI, p. 399).",
+   "description_en": "Heinrich XXXII., Prince Reuss (Köstritz); born 1864 (Tab. XI, p. 399)."
+  },
+  {
+   "key": "Heinrich Reuß von Untergreiz",
+   "action": "accept",
+   "label": "Heinrich d. ä. Reuß (Herr zu Untergreiz, der Botschafter)",
+   "class": "person",
+   "kind": "Landesherr",
+   "description_de": "Heinrich d. ä. Reuß, ältester Sohn Heinrichs des Friedsamen, Herr zu Untergreiz, genannt Botschafter (Gesandtschaften für den Kurfürsten von Sachsen); geb. 1506, † 1572; Stifter der älteren Linie Reuß; verheiratet 1) mit Agnes von Beichlingen, 2) mit Barbara von Metsch; 1547 mit seinen Brüdern geächtet.",
+   "description_en": "Heinrich d. ä. Reuss, eldest son of Heinrich the Peaceable, lord of Untergreiz, called the Ambassador (embassies for the elector of Saxony); born 1506, died 1572; founder of the elder line of Reuss; married 1) Agnes of Beichlingen, 2) Barbara of Metsch; outlawed with his brothers in 1547."
+  },
+  {
+   "key": "Wolfgang Heinrich v. Schönburg-Penig",
+   "action": "accept",
+   "label": "Wolfgang Heinrich von Schönburg-Penig",
+   "class": "person",
+   "kind": "Graf",
+   "description_de": "Wolfgang Heinrich von Schönburg-Penig, † 1657; verheiratet mit Judith Eva Reuß (1614-1666) (Tab. XII, S. 400).",
+   "description_en": "Wolfgang Heinrich of Schönburg-Penig, died 1657; married Judith Eva Reuss (1614-1666) (Tab. XII, p. 400)."
+  },
+  {
+   "key": "Heinrich Reuß II. zu Untergreiz und Burgk",
+   "action": "merge",
+   "into": "Heinrich II. v. Burgk",
+   "note": "p. 400: husband of Elisabeth Sibille (died 1697)"
+  },
+  {
+   "key": "Heinrich Reuß zu Schleiz",
+   "action": "merge",
+   "into": "Heinrichs III",
+   "note": "p. 401: husband of Juliane Elisabeth Rheingräfin v. Neufville (Tab. VII: Heinrich III., Haupt der schleizer Linie)"
+  },
+  {
+   "key": "Heinrich X. v. Lobenstein",
+   "action": "accept",
+   "label": "Heinrich X. (Graf Reuß zu Lobenstein)",
+   "class": "person",
+   "kind": "Landesherr",
+   "description_de": "Heinrich X., jüngster Sohn des Heinrich Posthumus, Gründer des Hauses Lobenstein; geb. 1621, † 1671; erkaufte 1664 die Herrschaft Hirschberg; verheiratet mit Marie Sibille Reuß-Obergreiz; Vater Heinrichs III., VIII. und X.",
+   "description_en": "Heinrich X., youngest son of Heinrich Posthumus, founder of the house of Lobenstein; born 1621, died 1671; bought the lordship of Hirschberg in 1664; married Marie Sibille Reuss-Obergreiz; father of Heinrich III., VIII. and X.",
+   "wikidata": "Q97030"
+  },
+  {
+   "key": "Heinrich V. von Untergreiz",
+   "action": "accept",
+   "label": "Heinrich V. (Herr von Untergreiz)",
+   "class": "person",
+   "kind": "Landesherr",
+   "description_de": "Heinrich V., Gründer des Hauses Untergreiz (1625); geb. 1602, erbte 1640 die Herrschaft Burgk, † 1667; verheiratet mit Anna Marie, Wild- und Rheingräfin von Neufville; Vater Heinrichs II., IV., V.",
+   "description_en": "Heinrich V., founder of the house of Untergreiz (1625); born 1602, inherited the lordship of Burgk in 1640, died 1667; married Anna Marie, Wild- and Rhinegravine of Neufville; father of Heinrich II., IV., V."
+  },
+  {
+   "key": "Heinrich II. v. Burgk",
+   "action": "accept",
+   "label": "Heinrich II. (Herr von Burgk, Haus Untergreiz, 1634-1697)",
+   "class": "person",
+   "kind": "Landesherr",
+   "description_de": "Heinrich II. von Burgk, Sohn Heinrichs V. von Untergreiz; geb. 1634, † 1697 ohne Erben; Sitz in Burgk; verheiratet mit Elise Sibille, Tochter Heinrichs II. von Burgk.",
+   "description_en": "Heinrich II. of Burgk, son of Heinrich V. of Untergreiz; born 1634, died 1697 without heirs; seat at Burgk; married Elise Sibille, daughter of Heinrich II. of Burgk."
+  },
+  {
+   "key": "Heinrichs II. Reuß zu Burgk",
+   "action": "accept",
+   "label": "Heinrich II. (Herr von Burgk, 1575-1639)",
+   "class": "person",
+   "kind": "Landesherr",
+   "description_de": "Heinrich II., Herr von Burgk, bayreuther Landeshauptmann; geb. 1575, † 1639; verheiratet mit Magdalene von Putbus; Vater Heinrichs III. († 1640) und der Elise Sibille.",
+   "description_en": "Heinrich II., lord of Burgk, captain of the Bayreuth territory; born 1575, died 1639; married Magdalene of Putbus; father of Heinrich III. (d. 1640) and of Elise Sibille."
+  },
+  {
+   "key": "Heinrich VI. von Obergreiz",
+   "action": "accept",
+   "label": "Heinrich VI. (Herr von Obergreiz und Dölau)",
+   "class": "person",
+   "kind": "Landesherr, Feldmarschall",
+   "description_de": "Heinrich VI. von Obergreiz, Sohn Heinrichs I.; geb. 1649, sächsischer und kaiserlicher Feldmarschall, in der Schlacht bei Zenta 1697 tödlich verwundet; Vater Heinrichs I. und II.",
+   "description_en": "Heinrich VI. of Obergreiz, son of Heinrich I.; born 1649, Saxon and Imperial field marshal, mortally wounded at the battle of Zenta in 1697; father of Heinrich I. and II."
+  },
+  {
+   "key": "Heinrich IV. von Untergreiz",
+   "action": "accept",
+   "label": "Heinrich IV. (Herr von Untergreiz)",
+   "class": "person",
+   "kind": "Landesherr",
+   "description_de": "Heinrich IV. von Untergreiz, Sohn Heinrichs V.; geb. 1638, † 1675; verheiratet mit Anna Dorothea von Ruppa; Vater Heinrichs XIII.",
+   "description_en": "Heinrich IV. of Untergreiz, son of Heinrich V.; born 1638, died 1675; married Anna Dorothea of Ruppa; father of Heinrich XIII."
+  },
+  {
+   "key": "Friedrich Heinrich von Stein",
+   "action": "accept",
+   "label": "Friedrich Heinrich von Stein (in Lausnitz)",
+   "class": "person",
+   "kind": "Adliger",
+   "description_de": "Friedrich Heinrich von Stein in Lausnitz; verheiratet mit Eva Emilie Reuß (1667-1716) (Tab. XIV, S. 402).",
+   "description_en": "Friedrich Heinrich of Stein at Lausnitz; married Eva Emilie Reuss (1667-1716) (Tab. XIV, p. 402)."
+  },
+  {
+   "key": "Heinrich August von Stolberg",
+   "action": "accept",
+   "label": "Heinrich August von Stolberg (zu Schwarzau)",
+   "class": "person",
+   "kind": "Graf",
+   "description_de": "Heinrich August von Stolberg zu Schwarzau, † 1748; verheiratet mit Ernestine Emilie Reuß (1705-1728), später mit Friederike Charlotte von Hohenlohe (Tab. XIV, S. 402).",
+   "description_en": "Heinrich August of Stolberg at Schwarzau, died 1748; married Ernestine Emilie Reuss (1705-1728), later Friederike Charlotte of Hohenlohe (Tab. XIV, p. 402)."
+  },
+  {
+   "key": "Heinrich V. von Rothenthal",
+   "action": "accept",
+   "label": "Heinrich V. (Herr von Rothenthal)",
+   "class": "person",
+   "kind": "Landesherr",
+   "description_de": "Heinrich V. von Rothenthal, jüngster Sohn Heinrichs V. von Untergreiz; geb. 1645, † 1698 ohne Erben.",
+   "description_en": "Heinrich V. of Rothenthal, youngest son of Heinrich V. of Untergreiz; born 1645, died 1698 without heirs."
+  },
+  {
+   "key": "Heinrich d. Mehrer",
+   "action": "accept",
+   "label": "Heinrich der Mehrer (d. ä., Voigt von Gera)",
+   "class": "person",
+   "kind": "Vogt",
+   "description_de": "Heinrich d. ä., der Mehrer seines Landes, Voigt von Gera, jüngster Sohn Heinrichs von Gottes Gnaden und Gründer der Linie Gera; 1244 bis † vor Ende August 1279; verheiratet mit Luckard von Lobdaburg-Arnshaugk, durch die er Pausa, Lobenstein, Saalburg, Burgk und Schleiz gewann; 1254 Teilnehmer des grimmaischen Vertrags.",
+   "description_en": "Heinrich d. ä., the Augmenter of his land, Voigt of Gera, youngest son of Heinrich von Gottes Gnaden and founder of the Gera line; 1244 to died before the end of August 1279; married Luckard of Lobdaburg-Arnshaugk, through whom he gained Pausa, Lobenstein, Saalburg, Burgk and Schleiz; party to the treaty of Grimma in 1254."
+  },
+  {
+   "key": "Heinrich d. Große",
+   "action": "merge",
+   "into": "Heinrich der Große",
+   "note": "abbreviated variant (p. 414)"
+  },
+  {
+   "key": "Heinrich d. Worthalter",
+   "action": "merge",
+   "into": "Heinrich der Worthalter",
+   "note": "abbreviated variant"
+  },
+  {
+   "key": "Heinrich d. Dispensirte",
+   "action": "merge",
+   "into": "Heinrich der Dispensirte",
+   "note": "inflection/abbreviation/OCR variant"
+  },
+  {
+   "key": "Heinrich d. Unglückliche",
+   "action": "merge",
+   "into": "Heinrich der Unglückliche",
+   "note": "abbreviated variant (p. 414)"
+  },
+  {
+   "key": "Heinrich Herrn zu Gera",
+   "action": "merge",
+   "into": "Heinrich von Gera",
+   "note": "variant with title; p. 416 fn.: the builder of the north wing of the Osterstein (1468-1470), same person as the text on p. 416"
+  },
+  {
+   "key": "Heinrich d. Reichen von Weida",
+   "action": "merge",
+   "into": "Heinrich der Reiche",
+   "note": "inflection/word-order variant"
+  },
+  {
+   "key": "Heinrichs XXX",
+   "action": "merge",
+   "into": "Graf Heinrich XXX",
+   "note": "genitive (his widow, p. 422)"
+  },
+  {
+   "key": "Heinrich Reuß LXVII",
+   "action": "merge",
+   "into": "Heinrich LXVII",
+   "note": "title/genitive variant"
+  },
+  {
+   "key": "Heinrich Tenner",
+   "action": "accept",
+   "label": "Heinrich Tenner",
+   "class": "person",
+   "kind": "Geistlicher",
+   "description_de": "Heinrich Tenner, 1407 und 1415 katholischer Pfarrer zu Gera (S. 434).",
+   "description_en": "Heinrich Tenner, Catholic parish priest at Gera in 1407 and 1415 (p. 434)."
+  },
+  {
+   "key": "Heinrichs von Gera",
+   "action": "merge",
+   "into": "Heinrich von Gera",
+   "note": "genitive"
+  },
+  {
+   "key": "Heinrich der Ritterhafte",
+   "action": "accept",
+   "label": "Heinrich der Ritterhafte",
+   "class": "person",
+   "kind": "Adliger",
+   "description_de": "Heinrich der Ritterhafte, 1315 und 1328 Stifter an Kloster Cronswitz (Güter zu Waltersdorf, die seiner Schwester Gertrude gehörten); Vorfahr Heinrichs, Herrn von Gera (1486).",
+   "description_en": "Heinrich the Chivalrous, donor to Cronswitz convent in 1315 and 1328 (goods at Waltersdorf that belonged to his sister Gertrude); ancestor of Heinrich, lord of Gera (1486).",
+   "note": "Identity not established by Brückner (p. 466); possibly a member of the house of Gera (a sister Gertrud is given in Tab. III) - unverified."
+  },
+  {
+   "key": "Hans Heinrich Metsch",
+   "action": "accept",
+   "label": "Hans Heinrich Metsch",
+   "class": "person",
+   "kind": "Adliger",
+   "description_de": "Junker Hans Heinrich Metsch, am 27. Febr. 1640 im Dreißigjährigen Krieg erschossen und am 3. März in Großsaara begraben (S. 467).",
+   "description_en": "Junker Hans Heinrich Metsch, shot on 27 Feb. 1640 in the Thirty Years' War and buried at Großsaara on 3 March (p. 467)."
+  },
+  {
+   "key": "Heinrich v. Gera",
+   "action": "merge",
+   "into": "Heinrich von Gera",
+   "note": "abbreviation variant"
+  },
+  {
+   "key": "Heinrich dem Erlauchten",
+   "action": "merge",
+   "into": "Heinrich der Erlauchte",
+   "note": "inflection variant"
+  },
+  {
+   "key": "Heinrich v. Privel",
+   "action": "accept",
+   "label": "Heinrich von Privel",
+   "class": "person",
+   "kind": "Adliger",
+   "description_de": "Heinrich von Privel, Afterlehnsträger eines Gebietes, das die Reichsvoigte von Gera, Plauen und Weida von Markgraf Heinrich dem Erlauchten zu Lehen hatten; 1255 (S. 490).",
+   "description_en": "Heinrich of Privel, sub-vassal of a territory held by the imperial Voigte of Gera, Plauen and Weida from Margrave Heinrich the Illustrious; 1255 (p. 490)."
+  },
+  {
+   "key": "Heinrich v. Sloven",
+   "action": "accept",
+   "label": "Heinrich von Sloven",
+   "class": "person",
+   "kind": "Adliger",
+   "description_de": "Heinrich von Sloven, Afterlehnsträger (mit Heinrich von Privel) eines Gebietes der Reichsvoigte; 1255 (S. 490).",
+   "description_en": "Heinrich of Sloven, sub-vassal (with Heinrich of Privel) of a territory of the imperial Voigte; 1255 (p. 490)."
+  },
+  {
+   "key": "Jobst Heinrich v. Watzdorf",
+   "action": "accept",
+   "label": "Jobst Heinrich von Watzdorf (auf Köstritz)",
+   "class": "person",
+   "kind": "Gutsbesitzer",
+   "description_de": "Jobst Heinrich von Watzdorf auf Köstritz, unterzeichnete 1581 eine Urkunde (S. 495).",
+   "description_en": "Jobst Heinrich of Watzdorf at Köstritz, signed a charter in 1581 (p. 495)."
+  },
+  {
+   "key": "Graf Heinrich I",
+   "action": "merge",
+   "into": "Heinrich I. von Schleiz",
+   "note": "title variant (purchase of the manor of Köstritz, p. 495)"
+  },
+  {
+   "key": "Heinrich XXIV. von Ebersdorf",
+   "action": "accept",
+   "label": "Heinrich XXIV. (Graf Reuß-Ebersdorf)",
+   "class": "person",
+   "kind": "Landesherr",
+   "description_de": "Heinrich XXIV., Graf Reuß zu Ebersdorf, ältester Sohn Heinrichs XXIX.; geb. 1724, regierte 1747-1779; verheiratet mit Caroline Ernestine von Erbach-Schönberg; Vater Heinrichs LI.",
+   "description_en": "Heinrich XXIV., count Reuss of Ebersdorf, eldest son of Heinrich XXIX.; born 1724, ruled 1747-1779; married Caroline Ernestine of Erbach-Schönberg; father of Heinrich LI."
+  },
+  {
+   "key": "Heinrichs XLIII",
+   "action": "merge",
+   "into": "Heinrich XLIII",
+   "note": "title/genitive variant"
+  },
+  {
+   "key": "Heinrich LII",
+   "action": "accept",
+   "label": "Heinrich LII. (Reuß-Köstritz, jüngere Linie)",
+   "class": "person",
+   "kind": "Prinz",
+   "description_de": "Heinrich LII., Sohn Heinrichs XXIII. von Köstritz (jüngere Linie); geb. 1763, † 1851; Stifter der Heinrichsstiftung (1851) in Köstritz; verheiratet mit Justine von Watteville.",
+   "description_en": "Heinrich LII., son of Heinrich XXIII. of Köstritz (younger line); born 1763, died 1851; founder of the Heinrich foundation (1851) at Köstritz; married Justine of Watteville."
+  },
+  {
+   "key": "Heinrichs XLVIII",
+   "action": "merge",
+   "into": "Heinrich XLVIII",
+   "note": "genitive (his daughter Theresia, p. 498)"
+  },
+  {
+   "key": "Heinrich Schütz",
+   "action": "accept",
+   "label": "Heinrich Schütz",
+   "class": "person",
+   "kind": "Komponist",
+   "description_de": "Heinrich Schütz (Sagittarius), 1585-1672, Dresdner Oberkapellmeister, „wahrer Begründer der neueren deutschen Musik\"; Geburtsort Köstritz (S. 498).",
+   "description_en": "Heinrich Schütz (Sagittarius), 1585-1672, chapel master at Dresden, \"true founder of modern German music\"; born at Köstritz (p. 498).",
+   "wikidata": "Q153643"
+  },
+  {
+   "key": "Heinrich der mittlere",
+   "action": "merge",
+   "into": "Heinrich d. m",
+   "note": "epithet written out; context (Gera, Zwickau) does not identify the person beyond \"d. m. of Gera\""
+  },
+  {
+   "key": "Heinrich der m",
+   "action": "merge",
+   "into": "Heinrich d. m",
+   "note": "abbreviation variant"
+  },
+  {
+   "key": "Heinrich v. Langenberg",
+   "action": "accept",
+   "label": "Heinrich von Langenberg",
+   "class": "person",
+   "kind": "Adliger",
+   "description_de": "Heinrich von Langenberg, 1240 genannt, Angehöriger des nach Langenberg benannten Adelsgeschlechts (S. 513).",
+   "description_en": "Heinrich of Langenberg, named in 1240, member of the noble family named after Langenberg (p. 513)."
+  },
+  {
+   "key": "Kaiser Heinrich I",
+   "action": "merge",
+   "into": "Heinrich der Vogler",
+   "note": "title/inflection variant"
+  },
+  {
+   "key": "Heinrich v. Eichicht",
+   "action": "accept",
+   "label": "Heinrich von Eichicht",
+   "class": "person",
+   "kind": "Gutsbesitzer",
+   "description_de": "Heinrich von Eichicht auf Langenberg, 1533 Besitzer eines Gutes (S. 515).",
+   "description_en": "Heinrich of Eichicht at Langenberg, owner of an estate in 1533 (p. 515)."
+  },
+  {
+   "key": "Heinrich Poßner",
+   "action": "accept",
+   "label": "Heinrich Poßner",
+   "class": "person",
+   "kind": "Geistlicher",
+   "description_de": "Heinrich Poßner, Pfarrer; sein Bildnis hängt in der herrschaftlichen Kapelle (S. 516).",
+   "description_en": "Heinrich Poßner, parish priest; his portrait hangs in the manorial chapel (p. 516)."
+  },
+  {
+   "key": "Heinrich Wilhelm zu Solms-Tecklenburg",
+   "action": "accept",
+   "label": "Heinrich Wilhelm zu Solms-Tecklenburg",
+   "class": "person",
+   "kind": "Graf",
+   "description_de": "Graf Heinrich Wilhelm zu Solms-Tecklenburg; erkaufte 1719 für 40 000 Thlr. das steinbrücken-robensche Gesamtgut, das zuvor zum Köstritzer Paragiat gehört hatte (S. 518).",
+   "description_en": "Count Heinrich Wilhelm of Solms-Tecklenburg; bought in 1719 for 40,000 thalers the combined Steinbrücken-Roben estate, which had previously belonged to the Köstritz Paragiat (p. 518)."
+  },
+  {
+   "key": "Heinrich Bernhard",
+   "action": "accept",
+   "label": "Heinrich Bernhard (v. Metsch)",
+   "class": "person",
+   "kind": "Gutsbesitzer",
+   "description_de": "Heinrich Bernhard von Metsch, Besitzer von Kleinaga bald nach 1610, Vorgänger Adam Heinrichs von Metsch (S. 526).",
+   "description_en": "Heinrich Bernhard of Metsch, owner of Kleinaga soon after 1610, predecessor of Adam Heinrich of Metsch (p. 526)."
+  },
+  {
+   "key": "Adam Heinrich v. Metsch",
+   "action": "accept",
+   "label": "Adam Heinrich von Metsch",
+   "class": "person",
+   "kind": "Gutsbesitzer",
+   "description_de": "Adam Heinrich von Metsch, Besitzer von Kleinaga bis 1683, dann Verkauf an Veit Ludwig von Tümpling (S. 526).",
+   "description_en": "Adam Heinrich of Metsch, owner of Kleinaga until 1683, then sold to Veit Ludwig of Tümpling (p. 526)."
+  },
+  {
+   "key": "Christoph Heinrich v. Beust",
+   "action": "accept",
+   "label": "Christoph Heinrich von Beust",
+   "class": "person",
+   "kind": "Gutsbesitzer",
+   "description_de": "Christoph Heinrich von Beust, 1649 Gutsherr (S. 546).",
+   "description_en": "Christoph Heinrich of Beust, lord of the manor in 1649 (p. 546)."
+  },
+  {
+   "key": "Heinrich v. Ende",
+   "action": "accept",
+   "label": "Heinrich von Ende",
+   "class": "person",
+   "kind": "Gutsbesitzer",
+   "description_de": "Heinrich von Ende, gelangte 1667 durch Ankauf beider Hälften in den Besitz eines ganzen Gutes (S. 547).",
+   "description_en": "Heinrich of Ende, acquired both halves of an estate by purchase in 1667 (p. 547)."
+  },
+  {
+   "key": "Heinrich Reuss von Plauen",
+   "action": "merge",
+   "into": "Heinrich Reuß",
+   "note": "p. 555: Graf Heinrich Reuß (1384, Ronneburg), not identified further"
+  },
+  {
+   "key": "Heinrich Nicol. v. Ende",
+   "action": "accept",
+   "label": "Heinrich Nicolaus von Ende (zu Kaimberg)",
+   "class": "person",
+   "kind": "Gutsbesitzer",
+   "description_de": "Heinrich Nicolaus von Ende zu Kaimberg, 1647 mit Erb- und Obergerichten, Lehn und Zinsen in einem Ort (S. 569).",
+   "description_en": "Heinrich Nicolaus of Ende at Kaimberg, in 1647 holder of the hereditary and high jurisdiction, fief and dues in one village (p. 569)."
+  },
+  {
+   "key": "Heinrich der Große",
+   "action": "accept",
+   "label": "Heinrich der Große (d. ä., Voigt von Gera)",
+   "class": "person",
+   "kind": "Vogt",
+   "description_de": "Heinrich d. ä., genannt der Große (von Kaiser Ludwig der Feste genannt), Voigt von Gera, Sitz Gera; 1307 bis c. 1345; verheiratet mit Sophie von Lobdaburg-Bergau; ohne Leibeserben; 1316 Reichslandrichter im pleißener Land.",
+   "description_en": "Heinrich d. ä., called the Great (called the Firm by Emperor Ludwig), Voigt of Gera, seat at Gera; 1307 to c. 1345; married Sophie of Lobdaburg-Bergau; without heirs; imperial Landrichter in the Pleißen territory in 1316."
+  },
+  {
+   "key": "Heinrich des Mehrers",
+   "action": "merge",
+   "into": "Heinrich d. Mehrer",
+   "note": "genitive"
+  },
+  {
+   "key": "Heinrich den Großen",
+   "action": "merge",
+   "into": "Heinrich der Große",
+   "note": "inflection variant (p. 576)"
+  },
+  {
+   "key": "Heinrich den Freigesinnten",
+   "action": "merge",
+   "into": "Heinrich der Worthalter",
+   "note": "epithet \"der Freigesinnte/Freisinnige\", younger brother of Heinrich der Große (pp. 576, 670, 710: grandsons of Luckard; pledge of Lobenstein 1369); identified from the context"
+  },
+  {
+   "key": "Heinrich der ä",
+   "action": "accept",
+   "label": "Heinrich d. ä. (Herr zu Burgk, Linie Gera, 1404-1439)",
+   "class": "person",
+   "kind": "Vogt",
+   "description_de": "Heinrich d. ä., ältester Sohn Heinrichs des Dispensirten aus zweiter Ehe; geb. 1404, 1426 Burgk mit Schleiz, Reichenfels, Langenberg und Tinz; erhob 1438 Zeulenroda zur Stadt; † Ende 1438/Anfang 1439 ohne Erben; verheiratet mit Wilburg von Schwarzburg-Leutenberg.",
+   "description_en": "Heinrich d. ä., eldest son of Heinrich the Dispensed by his second marriage; born 1404, received Burgk with Schleiz, Reichenfels, Langenberg and Tinz in 1426; raised Zeulenroda to a town in 1438; died end of 1438/early 1439 without heirs; married Wilburg of Schwarzburg-Leutenberg.",
+   "note": "Identified from the context (p. 576: the three sons of 1425; his death c. 1439). The bare form \"Heinrich d. ä.\" is ambiguous and listed separately."
+  },
+  {
+   "key": "Heinrichs des ä",
+   "action": "merge",
+   "into": "Heinrich der ä",
+   "note": "genitive (p. 576: \"nach dem Tode Heinrichs des ä.\" c. 1439)"
+  },
+  {
+   "key": "Heinrichs Posthumus",
+   "action": "merge",
+   "into": "Heinrich Posthumus",
+   "note": "genitive"
+  },
+  {
+   "key": "Heinrich v. Brunswick",
+   "action": "accept",
+   "label": "Heinrich von Brunswick",
+   "class": "person",
+   "kind": "Geistlicher",
+   "description_de": "Heinrich von Brunswick, 1297 und 1302 Pfarrer (Deutschordenscomthur) zu Schleiz (S. 584).",
+   "description_en": "Heinrich of Brunswick, parish priest (Teutonic commander) at Schleiz in 1297 and 1302 (p. 584)."
+  },
+  {
+   "key": "Heinrich Schwarz",
+   "action": "accept",
+   "label": "Heinrich Schwarz",
+   "class": "person",
+   "kind": "Geistlicher",
+   "description_de": "Heinrich Schwarz, 1341 Pfarrer zu Schleiz (S. 584).",
+   "description_en": "Heinrich Schwarz, parish priest at Schleiz in 1341 (p. 584)."
+  },
+  {
+   "key": "Heinrich v. Hopfgarten",
+   "action": "accept",
+   "label": "Heinrich von Hopfgarten",
+   "class": "person",
+   "kind": "Geistlicher",
+   "description_de": "Heinrich von Hopfgarten, 1399 Pfarrer zu Schleiz (S. 584).",
+   "description_en": "Heinrich of Hopfgarten, parish priest at Schleiz in 1399 (p. 584)."
+  },
+  {
+   "key": "J. Heinrich Behr",
+   "action": "accept",
+   "label": "Johann Heinrich Behr",
+   "class": "person",
+   "kind": "Gelehrter, Baumeister",
+   "description_de": "J. Heinrich Behr, geb. 1647, † 1717, Mathematiker, Ingenieur und Baumeister in Berlin; aus Schleiz (S. 591).",
+   "description_en": "J. Heinrich Behr, born 1647, died 1717, mathematician, engineer and master builder in Berlin; native of Schleiz (p. 591).",
+   "wikidata": "Q1694348"
+  },
+  {
+   "key": "Heinrich Gottfr. Reichard",
+   "action": "accept",
+   "label": "Heinrich Gottfried Reichard",
+   "class": "person",
+   "kind": "Gelehrter",
+   "description_de": "Heinrich Gottfr. Reichard, geb. 1742, † 1801 in Grimma, Philologe; aus Schleiz (S. 591).",
+   "description_en": "Heinrich Gottfr. Reichard, born 1742, died 1801 at Grimma, philologist; native of Schleiz (p. 591).",
+   "wikidata": "Q1597376"
+  },
+  {
+   "key": "Heinrich v. Brandenstein",
+   "action": "accept",
+   "label": "Heinrich von Brandenstein",
+   "class": "person",
+   "kind": "Adliger",
+   "description_de": "Heinrich von Brandenstein schenkte 1302 mit Albert zwei Güter in Dittersdorf dem Deutschen Orden zu Schleiz (S. 594).",
+   "description_en": "Heinrich of Brandenstein donated two estates at Dittersdorf to the Teutonic Order at Schleiz in 1302 together with Albert (p. 594)."
+  },
+  {
+   "key": "Fürst Heinrich XLII",
+   "action": "merge",
+   "into": "Heinrich XLII",
+   "note": "title variant"
+  },
+  {
+   "key": "Grafen Heinrich XII",
+   "action": "merge",
+   "into": "Graf Heinrich XII",
+   "note": "title/genitive variant (all mentions concern the count of Schleiz)"
+  },
+  {
+   "key": "Heinrich Reuß XI",
+   "action": "accept",
+   "label": "Heinrich XI. (Graf Reuß zu Schleiz)",
+   "class": "person",
+   "kind": "Landesherr",
+   "description_de": "Heinrich XI., Graf Reuß zu Schleiz, älterer Sohn Heinrichs I.; geb. 1669, regierte 1692-1726, † 1726; legte die Heinrichstadt in Schleiz an (1706), baute das neue Residenzschloß und sechs Kirchen im Land; Vater Heinrichs I. und XII.",
+   "description_en": "Heinrich XI., count Reuss of Schleiz, elder son of Heinrich I.; born 1669, ruled 1692-1726, died 1726; laid out the Heinrichstadt at Schleiz (1706), built the new residential castle and six churches in the country; father of Heinrich I. and XII.",
+   "note": "Identified from the context (Schleiz territory, 1690s-1720s); the bare form \"Heinrich XI.\" is ambiguous (also Heinrich XI. von Obergreiz, 1722-1800)."
+  },
+  {
+   "key": "Heinrich Smer",
+   "action": "accept",
+   "label": "Heinrich Smer",
+   "class": "person",
+   "kind": "Geistlicher",
+   "description_de": "Heinrich Smer, 1415 Pfarrer zu Göschitz (S. 610).",
+   "description_en": "Heinrich Smer, parish priest at Göschitz in 1415 (p. 610)."
+  },
+  {
+   "key": "Georg Heinrich v. Kospod",
+   "action": "accept",
+   "label": "Georg Heinrich von Kospod",
+   "class": "person",
+   "kind": "Adliger",
+   "description_de": "Georg Heinrich von Kospod, am 13. Mai 1702 von Adam Römer auf Langenwolschendorf im Rohgrund erschossen (S. 625).",
+   "description_en": "Georg Heinrich of Kospod, shot on 13 May 1702 by Adam Römer of Langenwolschendorf in the Rohgrund (p. 625)."
+  },
+  {
+   "key": "Heinrich dem Worthalter",
+   "action": "merge",
+   "into": "Heinrich der Worthalter",
+   "note": "inflection variant"
+  },
+  {
+   "key": "Heinrich den Beherrlichen",
+   "action": "accept",
+   "label": "Heinrich d. j., der Beharrliche (Herr von Gera, † 1550)",
+   "class": "person",
+   "kind": "Landesherr",
+   "description_de": "Heinrich d. j. von Gera, „der Beharrliche\"; 1502 bis † 7. Aug. 1550 zu Burgk; geächtet nach der Schlacht bei Mühlberg (1547), verzichtete auf Gera; ohne Erben mit ihm erlosch das alte Haus Gera; verheiratet 1) mit Ludmilla von Lobkowitz und Hassenstein, 2) mit Margaretha von Schwarzburg-Leutenberg.",
+   "description_en": "Heinrich d. j. of Gera, \"the Persistent\"; 1502 to died 7 Aug. 1550 at Burgk; outlawed after the battle of Mühlberg (1547), renounced Gera; the old house of Gera became extinct with him, without heirs; married 1) Ludmilla of Lobkowitz and Hassenstein, 2) Margaretha of Schwarzburg-Leutenberg.",
+   "note": "Brückner's p. 630 has \"Beherrlichen\" (also in the transcription); pp. 351/352 give \"der Beharrliche\"; the last ruler of Gera of 1550."
+  },
+  {
+   "key": "Heinrich v. Müffling gen. Weiß",
+   "action": "accept",
+   "label": "Heinrich von Müffling genannt Weiß",
+   "class": "person",
+   "kind": "Gutsbesitzer",
+   "description_de": "Heinrich von Müffling genannt Weiß, Besitzer von Reichenfels; kaufte 1601 die Hälfte von seinem Schwiegervater, 1602 die andere Hälfte (S. 632, 636).",
+   "description_en": "Heinrich of Müffling called Weiß, owner of Reichenfels; bought half in 1601 from his father-in-law and the other half in 1602 (pp. 632, 636)."
+  },
+  {
+   "key": "Fürst Heinrich XLIII",
+   "action": "merge",
+   "into": "Heinrich XLIII",
+   "note": "title/genitive variant"
+  },
+  {
+   "key": "Heinrich v. Merenbach",
+   "action": "accept",
+   "label": "Heinrich von Merenbach",
+   "class": "person",
+   "kind": "Gutsbesitzer",
+   "description_de": "Heinrich von Merenbach; von ihm kaufte 1678 das Herrscherhaus zu Schleiz ein Gut, das 1692 an das Paragiat Köstritz überging (S. 634).",
+   "description_en": "Heinrich of Merenbach; the ruling house of Schleiz bought an estate from him in 1678 that passed to the Köstritz Paragiat in 1692 (p. 634)."
+  },
+  {
+   "key": "Heinrich v. Müffling, gen. Weiß",
+   "action": "merge",
+   "into": "Heinrich v. Müffling gen. Weiß",
+   "note": "punctuation variant (p. 636)"
+  },
+  {
+   "key": "Heinrich Michel",
+   "action": "accept",
+   "label": "Heinrich Michel",
+   "class": "person",
+   "kind": "Gutsbesitzer",
+   "description_de": "Heinrich Michel, kaufte ein Freigut um 2550 Mk. (S. 643); das Gut ging später an die Gemeinde.",
+   "description_en": "Heinrich Michel, bought a free estate for 2,550 marks (p. 643); the estate later passed to the parish."
+  },
+  {
+   "key": "Graf Heinrich XVIII",
+   "action": "accept",
+   "label": "Heinrich XVIII. (Graf zu Gera, Fundator)",
+   "class": "person",
+   "kind": "Landesherr",
+   "description_de": "Heinrich XVIII., Graf Reuß zu Gera, genannt Fundator (Bauherr); geb. 1677, zunächst unter Vormundschaft, seit 1698 selbständig, † 1735 unvermählt; Schöpfer der St.-Salvator-Kirche, des Zucht- und Waisenhauses und der Neustadt in Gera; ältester Sohn Heinrichs IV.",
+   "description_en": "Heinrich XVIII., count Reuss of Gera, called Fundator (founder/builder); born 1677, at first under guardianship, independent from 1698, died 1735 unmarried; creator of St. Salvator church, the workhouse/orphanage and the Neustadt in Gera; eldest son of Heinrich IV."
+  },
+  {
+   "key": "Graf Heinrich XXV",
+   "action": "accept",
+   "label": "Heinrich XXV. (Graf zu Gera)",
+   "class": "person",
+   "kind": "Landesherr",
+   "description_de": "Heinrich XXV., Graf Reuß zu Gera, Bruder und Nachfolger Heinrichs XVIII.; regierte 1735-1748, † 1748; Vater Heinrichs XXX.; gründete eine Kolonie von Häuslern und Tagelöhnern.",
+   "description_en": "Heinrich XXV., count Reuss of Gera, brother and successor of Heinrich XVIII.; ruled 1735-1748, died 1748; father of Heinrich XXX.; founded a colony of cottagers and day laborers.",
+   "note": "Identified from the context (Gera territory, 1730s-1740s); Heinrich XXV. von Lobenstein-Selbitz (1724-1801) is a different person."
+  },
+  {
+   "key": "Heinrich Siber",
+   "action": "accept",
+   "label": "Heinrich Siber",
+   "class": "person",
+   "kind": "Geistlicher",
+   "description_de": "Heinrich Siber, erster lutherischer Pfarrer (S. 648).",
+   "description_en": "Heinrich Siber, first Lutheran parish priest (p. 648)."
+  },
+  {
+   "key": "Heinrich Reuß I",
+   "action": "merge",
+   "into": "Heinrich I. von Schleiz",
+   "note": "identified from the context (p. 651: purchase 1681 of the manor of Triebes for the Köstritz Paragiat)"
+  },
+  {
+   "key": "Heinrich Beyrer",
+   "action": "accept",
+   "label": "Heinrich Beyrer",
+   "class": "person",
+   "kind": "Geistlicher",
+   "description_de": "Heinrich Beyrer, Kaplan zur Reformationszeit, wegen papistischer Gesinnung von den Visitatoren abgesetzt (S. 652).",
+   "description_en": "Heinrich Beyrer, chaplain at the time of the Reformation, removed by the visitors for his papist views (p. 652)."
+  },
+  {
+   "key": "Fürsten Heinrich LXII",
+   "action": "merge",
+   "into": "Heinrich LXII",
+   "note": "title/genitive variant"
+  },
+  {
+   "key": "Heinrich Dopplick",
+   "action": "accept",
+   "label": "Heinrich Dopplick",
+   "class": "person",
+   "kind": "Geistlicher",
+   "description_de": "Heinrich Dopplick, 1494 neuer Priester einer Kapelle (S. 664).",
+   "description_en": "Heinrich Dopplick, new priest of a chapel in 1494 (p. 664)."
+  },
+  {
+   "key": "Heinrich v. Saalburg",
+   "action": "accept",
+   "label": "Heinrich von Saalburg",
+   "class": "person",
+   "kind": "Adliger",
+   "description_de": "Heinrich von Saalburg, genannt 1225-1310 in der Reihe der Burgmannen (Familie von Saalburg) (S. 664).",
+   "description_en": "Heinrich of Saalburg, named between 1225 and 1310 in the series of burgmen (family of Saalburg) (p. 664)."
+  },
+  {
+   "key": "Heinrich Beck",
+   "action": "accept",
+   "label": "Heinrich Beck",
+   "class": "person",
+   "kind": "Geistlicher",
+   "description_de": "Heinrich Beck, bei der Einführung der Reformation zum Pfarrer ernannt, Diaconus war Georg Amandus (S. 665).",
+   "description_en": "Heinrich Beck, appointed parish priest when the Reformation was introduced; the deacon was Georg Amandus (p. 665)."
+  },
+  {
+   "key": "Heinrich Spörel",
+   "action": "accept",
+   "label": "Heinrich Spörel",
+   "class": "person",
+   "kind": "Bürgermeister",
+   "description_de": "Heinrich Spörel, Bürgermeister; Vermächtnis für arme Schulkinder (S. 667).",
+   "description_en": "Heinrich Spörel, mayor; bequest for poor schoolchildren (p. 667)."
+  },
+  {
+   "key": "Heinrich den Festen",
+   "action": "merge",
+   "into": "Heinrich der Große",
+   "note": "epithet used by Emperor Ludwig (p. 343 fn.); p. 670 with his brother \"den Freisinnigen\""
+  },
+  {
+   "key": "Heinrich den Freisinnigen",
+   "action": "merge",
+   "into": "Heinrich der Worthalter",
+   "note": "epithet \"der Freigesinnte/Freisinnige\", younger brother of Heinrich der Große (pp. 576, 670, 710: grandsons of Luckard; pledge of Lobenstein 1369); identified from the context"
+  },
+  {
+   "key": "Heinrich I. von Schleiz",
+   "action": "accept",
+   "label": "Heinrich I. (Graf Reuß zu Schleiz)",
+   "class": "person",
+   "kind": "Landesherr",
+   "description_de": "Heinrich I., Enkel des Heinrich Posthumus, Sohn Heinrichs III.; geb. 1639, übernahm 1666 die Herrschaft Schleiz, Stammvater des jetzigen Fürstenhauses; residierte nach dem Brand von 1689 in Köstritz, wo er 1692 starb; dreimal verheiratet; Vater Heinrichs XI. und XXIV.",
+   "description_en": "Heinrich I., grandson of Heinrich Posthumus, son of Heinrich III.; born 1639, took over the lordship of Schleiz in 1666, ancestor of the present princely house; moved his residence to Köstritz after the fire of 1689 and died there in 1692; married three times; father of Heinrich XI. and XXIV."
+  },
+  {
+   "key": "Heinrich d. m. von Schleiz",
+   "action": "accept",
+   "label": "Heinrich d. m. (Herr zu Gera und Schleiz, 1478-1500)",
+   "class": "person",
+   "kind": "Landesherr",
+   "description_de": "Heinrich d. m. von Gera, Herr zu Schleiz, 1478 bis † 1500; Gesamterbe der geraer Lande nach dem Tod seiner Brüder (1488, 1498); erhob 1494 Tanna zur Stadt; Geheimrat Kaiser Friedrichs III.; verheiratet mit Hedwig von Mansfeld-Heldrungen; Vater Heinrichs d. ä. (1502-1538) und Heinrichs d. j. (der Beharrliche).",
+   "description_en": "Heinrich d. m. of Gera, lord of Schleiz, 1478 to died 1500; sole heir of the Gera lands after the death of his brothers (1488, 1498); raised Tanna to a town in 1494; privy councillor of Emperor Friedrich III.; married Hedwig of Mansfeld-Heldrungen; father of Heinrich d. ä. (1502-1538) and Heinrich d. j. (the Persistent).",
+   "note": "Identified from the context (p. 688 and p. 350: Tanna 1494). The bare form \"Heinrich d. m.\" is ambiguous and listed separately."
+  },
+  {
+   "key": "Heinrich von Oschitz",
+   "action": "accept",
+   "label": "Heinrich von Oschitz",
+   "class": "person",
+   "kind": "Geistlicher",
+   "description_de": "Heinrich von Oschitz, Glied der Familie von Kospod, Pfarrer zu Münchberg; übergab 1368 dem Kloster zum Heiligen Kreuz bei Saalburg Güter zu Oberkoskau (S. 689, 700).",
+   "description_en": "Heinrich of Oschitz, member of the family of Kospod, parish priest at Münchberg; gave estates at Oberkoskau to the Holy Cross convent near Saalburg in 1368 (pp. 689, 700)."
+  },
+  {
+   "key": "Heinrich, Herrn von Gera",
+   "action": "merge",
+   "into": "Heinrich von Gera",
+   "note": "variant with title (p. 694)"
+  },
+  {
+   "key": "Heinrich Scherenberg",
+   "action": "accept",
+   "label": "Heinrich Scherenberg",
+   "class": "person",
+   "kind": "Geistlicher",
+   "description_de": "Heinrich Scherenberg, erster Kaplan der Waldkapelle, vom Bischof von Naumburg bestätigt (S. 697).",
+   "description_en": "Heinrich Scherenberg, first chaplain of the forest chapel, confirmed by the bishop of Naumburg (p. 697)."
+  },
+  {
+   "key": "Heinrich v. Oschitz",
+   "action": "merge",
+   "into": "Heinrich von Oschitz",
+   "note": "abbreviated variant (p. 700)"
+  },
+  {
+   "key": "Heinrich der Freigesinnte",
+   "action": "merge",
+   "into": "Heinrich der Worthalter",
+   "note": "epithet \"der Freigesinnte/Freisinnige\", younger brother of Heinrich der Große (pp. 576, 670, 710: grandsons of Luckard; pledge of Lobenstein 1369); identified from the context"
+  },
+  {
+   "key": "Heinrich Reuß III",
+   "action": "accept",
+   "label": "Heinrich III. (Graf Reuß zu Lobenstein)",
+   "class": "person",
+   "kind": "Landesherr",
+   "description_de": "Heinrich III., Sohn Heinrichs X. von Lobenstein; geb. 1648, Reichsgraf seit 1673, Gründer der Specialline Lobenstein, † 1710; verheiratet mit Marie Christiane von Leiningen-Westerburg; Vater Heinrichs XV., XVII., XXVI.",
+   "description_en": "Heinrich III., son of Heinrich X. of Lobenstein; born 1648, count of the Empire from 1673, founder of the special line of Lobenstein, died 1710; married Marie Christiane of Leiningen-Westerburg; father of Heinrich XV., XVII., XXVI.",
+   "wikidata": "Q80793097",
+   "note": "Identified from the context (p. 715: wife Marie Christiane, née Leiningen)."
+  },
+  {
+   "key": "Heinrich Albert",
+   "action": "accept",
+   "label": "Heinrich Albert (Alberti)",
+   "class": "person",
+   "kind": "Komponist, Liederdichter",
+   "description_de": "Heinrich Albert (Alberti), geb. 28. Juni 1604, berühmter Liederdichter und Komponist, Freund Simon Dachs, musikalische Seele des Königsberger Dichterkreises; nach Brückner † 1668 in Königsberg; aus Lobenstein (S. 722).",
+   "description_en": "Heinrich Albert (Alberti), born 28 June 1604, famous hymn poet and composer, friend of Simon Dach, musical soul of the Königsberg poets' circle; according to Brückner died 1668 at Königsberg; native of Lobenstein (p. 722).",
+   "note": "Brückner gives 1668 for his death."
+  },
+  {
+   "key": "Heinrich Gottlieb Reichard",
+   "action": "accept",
+   "label": "Heinrich Gottlieb Reichard",
+   "class": "person",
+   "kind": "Beamter",
+   "description_de": "Dr. Heinrich Gottlieb Reichard, zweiter Sohn des Geographen Chr. Gottl. Reichard; geb. 1789, Geh. Justizrat in Gera, † 1852 in Interlaken; aus Lobenstein (S. 723).",
+   "description_en": "Dr. Heinrich Gottlieb Reichard, second son of the geographer Chr. Gottl. Reichard; born 1789, privy justice councillor at Gera, died 1852 at Interlaken; native of Lobenstein (p. 723)."
+  },
+  {
+   "key": "Heinrich von Gera und Lobenstein",
+   "action": "merge",
+   "into": "Heinrich d. Mehrer",
+   "note": "p. 774: Voigt who gave Swinshut to Langheim in 1278 (from Lobenstein, p. 342)"
+  },
+  {
+   "key": "Heinrich Schreiber",
+   "action": "accept",
+   "label": "Heinrich Schreiber",
+   "class": "person",
+   "kind": "Siedler",
+   "description_de": "Heinrich Schreiber, erbaute 1801 auf einer Höhe das erste Haus der nach ihm benannten Siedlung (S. 776).",
+   "description_en": "Heinrich Schreiber, built in 1801 the first house on a hill of the settlement named after him (p. 776)."
+  },
+  {
+   "key": "Fürsten Heinrich XXXV",
+   "action": "merge",
+   "into": "Heinrich XXXV",
+   "note": "title variant"
+  },
+  {
+   "key": "Wolf Heinrich v. Reitzenstein",
+   "action": "merge",
+   "into": "Wolf Heinrich von Reitzenstein",
+   "note": "abbreviated variant (p. 783)"
+  },
+  {
+   "key": "Heinrichs XVII",
+   "action": "accept",
+   "label": "Heinrich XVII. (Graf Reuß-Lobenstein)",
+   "class": "person",
+   "kind": "Adliger, Offizier",
+   "description_de": "Heinrich XVII., Sohn Heinrichs III. von Lobenstein; Oberst in hessen-kasselischen Diensten; geb. 1676, † 1706; verheiratet mit Eleonore Sophie von Giech-Thurnau.",
+   "description_en": "Heinrich XVII., son of Heinrich III. of Lobenstein; colonel in Hessian (Kassel) service; born 1676, died 1706; married Eleonore Sophie of Giech-Thurnau."
+  },
+  {
+   "key": "Wolf Heinrich von Reitzenstein",
+   "action": "accept",
+   "label": "Wolf Heinrich von Reitzenstein (auf Kischling)",
+   "class": "person",
+   "kind": "Adliger",
+   "description_de": "Wolf Heinrich von Reitzenstein auf Kischling, † 6. Dez. 1587 (Grabinschrift), nach S. 783 von seinem Knecht zu Seibis erschlagen (1588).",
+   "description_en": "Wolf Heinrich of Reitzenstein at Kischling, died 6 Dec. 1587 (epitaph); according to p. 783 killed by his servant at Seibis (1588).",
+   "note": "Brückner gives 1587 (epitaph, p. 787) and 1588 (p. 783)."
+  },
+  {
+   "key": "Heinrich v. Reitzenstein",
+   "action": "accept",
+   "label": "Heinrich von Reitzenstein",
+   "class": "person",
+   "kind": "Gutsbesitzer",
+   "description_de": "Heinrich von Reitzenstein, 1647 noch im Besitz des unteren Ritterguts (S. 787).",
+   "description_en": "Heinrich of Reitzenstein, still owner of the lower manor in 1647 (p. 787)."
+  },
+  {
+   "key": "Heinrich Herr von Plauen",
+   "action": "merge",
+   "into": "Heinrich von Plauen",
+   "note": "p. 795: \"Herr von Plauen\", 1295"
+  },
+  {
+   "key": "J. Heinrich Münch",
+   "action": "accept",
+   "label": "Johann Heinrich Münch",
+   "class": "person",
+   "kind": "Gutsbesitzer",
+   "description_de": "J. Heinrich Münch, kaufte 1761 Güter (Frössen) von der Herrschaft Lobenstein (S. 796).",
+   "description_en": "J. Heinrich Münch, bought estates (Frössen) from the lordship of Lobenstein in 1761 (p. 796)."
+  },
+  {
+   "key": "Graf Heinrich XV",
+   "action": "accept",
+   "label": "Heinrich XV. (Graf Reuß zu Lobenstein)",
+   "class": "person",
+   "kind": "Landesherr",
+   "description_de": "Heinrich XV., Graf Reuß zu Lobenstein, ältester Sohn Heinrichs III.; geb. 1674, übernahm 1710 die Herrschaft Lobenstein, † 1739; verheiratet mit Ernestine Eleonore von Schönburg-Waldenburg; Vater Heinrichs II.",
+   "description_en": "Heinrich XV., count Reuss of Lobenstein, eldest son of Heinrich III.; born 1674, took over the lordship of Lobenstein in 1710, died 1739; married Ernestine Eleonore of Schönburg-Waldenburg; father of Heinrich II.",
+   "note": "Identified from the context (p. 798: residence 1706-1709 and after the fire of Lobenstein castle)."
+  },
+  {
+   "key": "Fürst Heinrich LXXII",
+   "action": "merge",
+   "into": "Heinrich LXXII",
+   "note": "title variant"
+  },
+  {
+   "key": "Heinrich Klinger",
+   "action": "accept",
+   "label": "Heinrich Klinger",
+   "class": "person",
+   "kind": "Geistlicher",
+   "description_de": "Heinrich Klinger, erster lutherischer Pfarrer (S. 813).",
+   "description_en": "Heinrich Klinger, first Lutheran parish priest (p. 813)."
+  },
+  {
+   "key": "Fürst Heinrich Reuß LXXII",
+   "action": "merge",
+   "into": "Heinrich LXXII",
+   "note": "title variant"
+  },
+  {
+   "key": "J. Heinrich Scherber",
+   "action": "accept",
+   "label": "Johann Heinrich Scherber",
+   "class": "person",
+   "kind": "Geistlicher",
+   "description_de": "J. Heinrich Scherber, Pfarrer zu Berg; beschrieb das Leben des gelehrten Bauern Künzel in Rothenacker (S. 825).",
+   "description_en": "J. Heinrich Scherber, parish priest at Berg; wrote a biography of the learned peasant Künzel at Rothenacker (p. 825)."
+  },
+  {
+   "key": "Heinrich Bruhm",
+   "action": "accept",
+   "label": "Heinrich Bruhm (Kaufmann in Gera)",
+   "class": "person",
+   "kind": "Stifter",
+   "description_de": "Heinrich Bruhm, Kaufmann zu Gera; stiftete für die Stadt Gera 1000 Thlr. für die städtische Armenkasse, 500 Thlr. für die Gesamtstadtschule und 500 Thlr. für die Schulbibliothek (S. 833).",
+   "description_en": "Heinrich Bruhm, merchant at Gera; donated to the town of Gera 1,000 thalers for the municipal poor fund, 500 thalers for the combined town school and 500 thalers for the school library (p. 833).",
+   "note": "Possibly identical with the manor owner Heinrich Ferd. Bruhm (p. 223); not stated by Brückner."
+  },
+  {
+   "key": "Heinrich Balth. Roth",
+   "action": "accept",
+   "label": "Heinrich Balthasar Roth",
+   "class": "person",
+   "kind": "Gelehrter",
+   "description_de": "Heinrich Balth. Roth, geb. 1639, † 1689, Professor der Rechte zu Jena; aus Gera (S. 833).",
+   "description_en": "Heinrich Balth. Roth, born 1639, died 1689, professor of law at Jena; native of Gera (p. 833)."
+  },
+  {
+   "key": "Heinrich Reuß XIII",
+   "action": "accept",
+   "label": "Heinrich XIII. (Prinz Reuß, Köstritz)",
+   "class": "person",
+   "kind": "Prinz, Offizier",
+   "description_de": "Heinrich XIII., Prinz Reuß (mittlere Linie Köstritz), preußischer Major; geb. 1830; heiratete die Witwe seines Bruders Heinrich XII. (S. 833).",
+   "description_en": "Heinrich XIII., Prince Reuss (middle line Köstritz), Prussian major; born 1830; married the widow of his brother Heinrich XII. (p. 833)."
+  }
+ ]
+}

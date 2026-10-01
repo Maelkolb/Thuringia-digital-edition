@@ -28,16 +28,14 @@
      34,
      "Location"
     ]
-   ],
-   "sec": "t1-4-3"
+   ]
   },
   {
    "id": "b2",
    "type": "paragraph",
    "src": 1,
    "text": "An Maaßen bestehen:",
-   "spans": [],
-   "sec": "t1-4-3"
+   "spans": []
   },
   {
    "id": "b3",
@@ -50,8 +48,7 @@
      23,
      "Location"
     ]
-   ],
-   "sec": "t1-4-3"
+   ]
   },
   {
    "id": "b4",
@@ -69,8 +66,7 @@
      20,
      "Location"
     ]
-   ],
-   "sec": "t1-4-3"
+   ]
   },
   {
    "id": "b5",
@@ -98,8 +94,7 @@
      261,
      "Plant"
     ]
-   ],
-   "sec": "t1-4-3"
+   ]
   },
   {
    "id": "b6",
@@ -112,8 +107,7 @@
      13,
      "Location"
     ]
-   ],
-   "sec": "t1-4-3"
+   ]
   },
   {
    "id": "b7",
@@ -131,8 +125,7 @@
      245,
      "Location"
     ]
-   ],
-   "sec": "t1-4-3"
+   ]
   },
   {
    "id": "b8",
@@ -145,8 +138,7 @@
      14,
      "Location"
     ]
-   ],
-   "sec": "t1-4-3"
+   ]
   },
   {
    "id": "b9",
@@ -154,8 +146,7 @@
    "src": 8,
    "text": "Als Flächenmaaß*) ist für die Landesvermessung der preußische (magdebur=",
    "spans": [],
-   "continues": true,
-   "sec": "t1-4-3"
+   "continues": true
   }
  ],
  "footnotes": [
@@ -172,13 +163,5 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-04T13:39:14.784295",
   "early_schema": false
- },
- "section_path": [
-  "t1",
-  "t1-4",
-  "t1-4-3"
- ],
- "sections": [
-  "t1-4-3"
- ]
+ }
 }

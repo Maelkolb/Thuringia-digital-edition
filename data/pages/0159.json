@@ -23,9 +23,7 @@
      8,
      "Location"
     ]
-   ],
-   "sec": "t1-2-3",
-   "level": 5
+   ]
   },
   {
    "id": "b2",
@@ -43,22 +41,20 @@
      159,
      "Natural Object"
     ]
-   ],
-   "sec": "t1-2-3"
+   ]
   },
   {
    "id": "b3",
    "type": "paragraph",
    "src": 2,
-   "text": "Thründorf.",
+   "text": "Thrändorf.",
    "spans": [
     [
      0,
      9,
      "Location"
     ]
-   ],
-   "sec": "t1-2-3"
+   ]
   },
   {
    "id": "b4",
@@ -71,25 +67,21 @@
      7,
      "Location"
     ]
-   ],
-   "sec": "t1-2-3",
-   "level": 5
+   ]
   },
   {
    "id": "b5",
    "type": "paragraph",
    "src": 4,
    "text": "Ich dächte nu, noch menner Ort\nWull ich dos Deng ganz anners deite.\nIch ben zwor nich su huch gelort,\nWie du, doß ich mit Harrn konn streite,\nDach dächt ich, doß dergleichen Sochen\nDe jonge Parschel selber mochen.",
-   "spans": [],
-   "sec": "t1-2-3"
+   "spans": []
   },
   {
    "id": "b6",
    "type": "paragraph",
    "src": 5,
    "text": "Wu holbg a jonger Pursche kon\nDrei Wartel met an Medel kuse\nUn's Medel hot Gefolln doron,\nGlei wards en Arnst un ha werd luse.\nA Wittmonn ober schlecht ganz schtille,\nHa denkt, dos Medel werd glei wille.",
-   "spans": [],
-   "sec": "t1-2-3"
+   "spans": []
   },
   {
    "id": "b7",
@@ -102,26 +94,21 @@
      156,
      "Animal"
     ]
-   ],
-   "sec": "t1-2-3"
+   ]
   },
   {
    "id": "b8",
    "type": "heading",
    "src": 7,
    "text": "b) Im Oberlande.",
-   "spans": [],
-   "sec": "t1-2-3",
-   "level": 5
+   "spans": []
   },
   {
    "id": "b9",
    "type": "heading",
    "src": 8,
    "text": "Triebes.",
-   "spans": [],
-   "sec": "t1-2-3",
-   "level": 5
+   "spans": []
   },
   {
    "id": "b10",
@@ -134,8 +121,7 @@
      58,
      "Plant"
     ]
-   ],
-   "sec": "t1-2-3"
+   ]
   },
   {
    "id": "b11",
@@ -163,8 +149,7 @@
      509,
      "Resource"
     ]
-   ],
-   "sec": "t1-2-3"
+   ]
   },
   {
    "id": "b12",
@@ -182,8 +167,7 @@
      201,
      "Artefact"
     ]
-   ],
-   "sec": "t1-2-3"
+   ]
   },
   {
    "id": "b13",
@@ -216,32 +200,30 @@
      146,
      "Plant"
     ]
-   ],
-   "sec": "t1-2-3"
+   ]
   },
   {
    "id": "b14",
    "type": "paragraph",
    "src": 13,
    "text": "10 *",
-   "spans": [],
-   "sec": "t1-2-3"
+   "spans": []
   }
  ],
  "footnotes": [],
- "corrections": [],
+ "corrections": [
+  {
+   "rule": "facsimile_correction",
+   "before": "Thründorf",
+   "after": "Thrändorf",
+   "source": "A08",
+   "n": 1
+  }
+ ],
  "provenance": {
   "source": "colab-2026-03",
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-03T15:27:27.836414",
   "early_schema": false
- },
- "section_path": [
-  "t1",
-  "t1-2",
-  "t1-2-3"
- ],
- "sections": [
-  "t1-2-3"
- ]
+ }
 }

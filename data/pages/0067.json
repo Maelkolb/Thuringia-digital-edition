@@ -38,8 +38,7 @@
      185,
      "Location"
     ]
-   ],
-   "sec": "t1-1-7"
+   ]
   },
   {
    "id": "b2",
@@ -205,16 +204,14 @@
      "324,84"
     ]
    ],
-   "caption": null,
-   "sec": "t1-1-7"
+   "caption": null
   },
   {
    "id": "b3",
    "type": "paragraph",
    "src": 2,
    "text": "Der höchste Barometerstand betrug für diesen Zeitraum 333,94 (1853) und der tiefste 313,90.",
-   "spans": [],
-   "sec": "t1-1-7"
+   "spans": []
   },
   {
    "id": "b4",
@@ -227,9 +224,7 @@
      27,
      "Climate"
     ]
-   ],
-   "sec": "t1-1-7",
-   "level": 5
+   ]
   },
   {
    "id": "b5",
@@ -242,9 +237,7 @@
      11,
      "Location"
     ]
-   ],
-   "sec": "t1-1-7",
-   "level": 5
+   ]
   },
   {
    "id": "b6",
@@ -257,9 +250,7 @@
      16,
      "Climate"
     ]
-   ],
-   "sec": "t1-1-7",
-   "level": 5
+   ]
   },
   {
    "id": "b7",
@@ -1279,17 +1270,14 @@
      "0,37"
     ]
    ],
-   "caption": null,
-   "sec": "t1-1-7"
+   "caption": null
   },
   {
    "id": "b8",
    "type": "heading",
    "src": 7,
    "text": "b) Mittlere, höchste und tiefste Thermometerstände:",
-   "spans": [],
-   "sec": "t1-1-7",
-   "level": 5
+   "spans": []
   },
   {
    "id": "b9",
@@ -1819,8 +1807,7 @@
      "6,96"
     ]
    ],
-   "caption": null,
-   "sec": "t1-1-7"
+   "caption": null
   }
  ],
  "footnotes": [
@@ -1859,13 +1846,5 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-01-06T03:19:40.628474",
   "early_schema": false
- },
- "section_path": [
-  "t1",
-  "t1-1",
-  "t1-1-7"
- ],
- "sections": [
-  "t1-1-7"
- ]
+ }
 }

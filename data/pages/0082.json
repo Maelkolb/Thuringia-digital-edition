@@ -64,8 +64,7 @@
      "Artefact"
     ]
    ],
-   "continued": true,
-   "sec": "t1-1-7"
+   "continued": true
   },
   {
    "id": "b2",
@@ -93,20 +92,14 @@
      335,
      "Climate"
     ]
-   ],
-   "sec": "t1-1-7"
+   ]
   },
   {
    "id": "b3",
    "type": "heading",
    "src": 2,
    "text": "8. Vegetationsverhältnisse.",
-   "spans": [],
-   "opens": [
-    "t1-1-8"
-   ],
-   "sec": "t1-1-8",
-   "level": 4
+   "spans": []
   },
   {
    "id": "b4",
@@ -234,8 +227,7 @@
      1617,
      "Location"
     ]
-   ],
-   "sec": "t1-1-8"
+   ]
   }
  ],
  "footnotes": [
@@ -300,14 +292,5 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-01-06T03:47:39.169868",
   "early_schema": false
- },
- "section_path": [
-  "t1",
-  "t1-1",
-  "t1-1-7"
- ],
- "sections": [
-  "t1-1-7",
-  "t1-1-8"
- ]
+ }
 }

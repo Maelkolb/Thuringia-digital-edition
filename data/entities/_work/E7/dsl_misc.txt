@@ -1,0 +1,78 @@
+# --- Tiere (Nachträge) ---
+T|Eisvogel|Eisvogel|Alcedo atthis|common kingfisher
+T|Holzwurm|Holzwurm|Anobiidae [family]|woodworm, deathwatch beetle|Volksglaube: Holzwurm (Todtenuhr) im Haus (S. 194).
+M|Holzwurm|Todtenuhr
+T|#890|Schnellkäfer|Elateridae [family]|click beetle|Mundartlich Schnappauf (S. 154).
+# --- Pflanzen (Nachträge) ---
+P|Stauden|Staude||shrub, perennial
+P|#351|Riesenschachthalm|Calamites [genus]|giant horsetail (fossil)|Fossil: Brückner nennt Calamites transitionis (S. 37).
+M|#351|Riesenschachthalme
+P|Erdbirnen|Erdbirne||earth-pear (potato or Jerusalem artichoke)|Brückner: Anbau von Hirse, Heidekorn, Erdbirnen und Lupinen auf Sandböden (S. 214); Kartoffel oder Topinambur, nicht sicher bestimmbar.
+# --- Reclass: Begriffe, Wirtschaft, Lebensräume ---
+C|Stroh|concept|Stroh|Material|straw|Strohdächer; kein Taxon.
+C|Heu|concept|Heu|Futter|hay
+C|Grummet|concept|Grummet|Futter|aftermath hay
+C|Baumwolle|concept|Baumwolle|Material|cotton|Eingeführter Rohstoff (S. 261).
+C|Wein|concept|Wein|Getränk|wine|Weinbau früher im Land (S. 58); als Handelsware (S. 261).
+C|Roggenwerth|concept|Roggenwerth|Maßeinheit|rye value|Nährwerteinheit, auf Roggen bezogen (S. 226).
+C|Viehmärkte|concept|Viehmarkt|Markt|livestock market|Jahrmärkte mit Vieh- und Rossmärkten (S. 262).
+M|Viehmärkte|Viehmarkt
+C|Schweinemarkt|concept|Schweinemarkt|Markt|pig market
+C|Viehzucht|concept|Viehzucht|Wirtschaftszweig|livestock breeding
+M|Viehzucht|Rindviehzucht~Schafzucht~Schafhaltung~Schweinezucht~Pferdezucht~Gänsezucht
+C|Obstbau|concept|Obstbau|Wirtschaftszweig|fruit growing
+C|Hopfenbau|concept|Hopfenbau|Wirtschaftszweig|hop growing
+C|Weizenbau|concept|Weizenbau|Wirtschaftszweig|wheat growing
+C|Kleebau|concept|Kleebau|Wirtschaftszweig|clover growing
+M|Kleebau|Kleebaues
+C|Flachsbau|concept|Flachsbau|Wirtschaftszweig|flax growing
+C|Körnerbau|concept|Körnerbau|Wirtschaftszweig|grain growing
+C|Moosnutzung|concept|Moosnutzung|Wirtschaftszweig|use of moss|Gras- und Moosnutzung im Wald (S. 237).
+C|Pferdebauern|concept|Pferdebauer|Stand|farmer with horses|Bauern, die Pferde halten (im Unterschied zu Ochsen- und Kuhbauern).
+M|Pferdebauern|#303
+C|Ochsenbauern|concept|Ochsenbauer|Stand|farmer with oxen
+M|Ochsenbauern|#1090
+C|Kühbauern|concept|Kuhbauer|Stand|farmer with cows
+C|Schäfer|concept|Schäfer|Beruf|shepherd
+C|Nadelwald|concept|Nadelwald|Lebensraum|coniferous forest
+C|Laubwald|concept|Laubwald|Lebensraum|deciduous forest
+C|Buchenwalde|concept|Buchenwald|Lebensraum|beech forest
+C|Buschholz|concept|Buschholz|Lebensraum|scrub|Gebüsch, Niederwald.
+M|Buschholz|Buschhölzern~Buschholzes
+C|Holzbestände|concept|Holzbestand|Lebensraum|timber stand
+C|Wiesen|concept|Wiese|Lebensraum|meadow
+M|Wiesen|Wieswachs~Gräsereien
+C|Obstpflanzung|concept|Obstpflanzung|Anlage|orchard
+M|Obstpflanzung|Obstpflanzungen~Obstplantagen~Obstanlagen~Pflaumenpflanzungen~Kirschenplantage
+C|Kieferpflanzungen|concept|Kieferpflanzung|Anlage|pine plantation
+C|Kastanienallee|concept|Allee|Anlage|avenue|Alleen mit Kastanien, Linden, Ahorn, Obstbäumen, Pappeln.
+M|Kastanienallee|Kastanien- und Lindenallee~Ahornallee~Obstbaumallee~Baumreihen~Pappelnzug
+C|Sumpfbirken|place|Sumpfbirken|Flur|field name|Flurname (S. 473).
+C|Sandbirken|place|Sandbirken|Flur|field name|Flurname (S. 473).
+C|Hungerbirke|place|Hungerbirke|Flur|field name|Flurname (S. 524).
+C|Teufelsbuche|place|Teufelsbuche|Flur|field name|Flurname (S. 672).
+C|#1228|place|Eibe|Flur|field name|Flurname (S. 806).
+C|Siebeneichen|place|Siebeneichen|Flur|field name, viewpoint|Flur mit schöner Aussicht (S. 418).
+C|Wachholderbusch|place|Wachholderbusch|Wirtshaus|inn|Wirtshaus »der Wachholderbaum oder Wachholderbusch«, im Volk »der Busch« (S. 12, 528).
+M|Wachholderbusch|Wachholderbaum
+C|Alte Fichte|nature|Alte Fichte|Höhenpunkt|survey point|Höhenpunkt (Nordhöhe von Dürrenebersdorf, 868 Fuß, S. 14).
+# --- Rejects ---
+R|Aehren|Pflanzenteil, kein Taxon
+R|Saamen|Pflanzenteil (Samen), kein Taxon
+R|Knospen|Pflanzenteil, kein Taxon
+R|Samen|Pflanzenteil (Samen), kein Taxon
+R|Wurzeln|Pflanzenteil, kein Taxon
+R|Saat|Saatgut bzw. Saat, kein Taxon
+R|Reiser|Pflanzenteil (Reiser), kein Taxon
+R|Zweigen|Pflanzenteil (Zweige), kein Taxon
+R|Garbe|Erntegut (Garbe), kein Taxon
+R|Baumstamme|Material (Baumstamm), kein Taxon
+R|Disteldorn|Name eines Kinderspiels, keine Pflanze
+R|#854|Mundartbeispiel für Egge (Ige), kein Tier und keine Pflanze
+R|#866|Mundartform für Samen (Gleichnis vom Sämann), kein Taxon
+R|#871|Mundartform für Samen (Gleichnis vom Sämann), kein Taxon
+R|#228|Mundartform für Samen (Gleichnis vom Sämann), kein Taxon
+R|#883|Mundartform für Samen (Gleichnis vom Sämann), kein Taxon
+R|#875|Mundartform für Ähren (Ihren), Pflanzenteil, kein Taxon
+R|#1210|Ganze Viehliste als eine Annotation; die Einzelposten (Pf., R., Schf., Schw., Z., Bnst., G.) sind bei den Abkürzungen erfasst
+M|Baum|#882

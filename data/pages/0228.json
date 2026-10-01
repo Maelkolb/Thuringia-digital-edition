@@ -73,8 +73,7 @@
      2467,
      "Location"
     ]
-   ],
-   "sec": "t1-3-2"
+   ]
   },
   {
    "id": "b2",
@@ -221,8 +220,7 @@
      "5,00"
     ]
    ],
-   "caption": null,
-   "sec": "t1-3-2"
+   "caption": null
   },
   {
    "id": "b3",
@@ -275,16 +273,14 @@
      401,
      "Plant"
     ]
-   ],
-   "sec": "t1-3-2"
+   ]
   },
   {
    "id": "b4",
    "type": "paragraph",
    "src": 3,
    "text": "Nach der im Jahre 1854 vollzogenen Vermessung resp. Croquirung des Landes vertheilt sich der Boden bezüglich seiner Verwendung:",
-   "spans": [],
-   "sec": "t1-3-2"
+   "spans": []
   }
  ],
  "footnotes": [],
@@ -294,13 +290,5 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-03T15:51:10.443158",
   "early_schema": false
- },
- "section_path": [
-  "t1",
-  "t1-3",
-  "t1-3-2"
- ],
- "sections": [
-  "t1-3-2"
- ]
+ }
 }

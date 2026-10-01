@@ -28,9 +28,7 @@
      40,
      "Person"
     ]
-   ],
-   "sec": "t1-1-7",
-   "level": 5
+   ]
   },
   {
    "id": "b2",
@@ -226,7 +224,7 @@
        "spans": []
       },
       {
-       "text": "0,56",
+       "text": "—0,56",
        "spans": []
       },
       {
@@ -330,16 +328,14 @@
      "-0,61"
     ]
    ],
-   "caption": null,
-   "sec": "t1-1-7"
+   "caption": null
   },
   {
    "id": "b3",
    "type": "paragraph",
    "src": 2,
    "text": "Mittler Thermometerstand der Jahre 1865 und 1867:\nSommermittel 11,13; Wintermittel 0,86; Jahresmittel 5,99.",
-   "spans": [],
-   "sec": "t1-1-7"
+   "spans": []
   },
   {
    "id": "b4",
@@ -352,17 +348,14 @@
      13,
      "Location"
     ]
-   ],
-   "sec": "t1-1-7",
-   "level": 5
+   ]
   },
   {
    "id": "b5",
    "type": "paragraph",
    "src": 4,
    "text": "a) Monatliche Wärmebewegung.\n9jähriger Durchschnitt:",
-   "spans": [],
-   "sec": "t1-1-7"
+   "spans": []
   },
   {
    "id": "b6",
@@ -518,16 +511,14 @@
      "-4,33"
     ]
    ],
-   "caption": null,
-   "sec": "t1-1-7"
+   "caption": null
   },
   {
    "id": "b7",
    "type": "paragraph",
    "src": 6,
    "text": "b) Mittler, höchster und tiefster Thermometerstand:",
-   "spans": [],
-   "sec": "t1-1-7"
+   "spans": []
   },
   {
    "id": "b8",
@@ -946,8 +937,7 @@
      "5,65"
     ]
    ],
-   "caption": null,
-   "sec": "t1-1-7"
+   "caption": null
   },
   {
    "id": "b9",
@@ -1040,8 +1030,7 @@
      1005,
      "Location"
     ]
-   ],
-   "sec": "t1-1-7"
+   ]
   }
  ],
  "footnotes": [
@@ -1052,19 +1041,19 @@
    "spans": []
   }
  ],
- "corrections": [],
+ "corrections": [
+  {
+   "rule": "facsimile_correction",
+   "before": "0,56",
+   "after": "—0,56",
+   "source": "klima-stationen-temperatur-vergleich",
+   "n": 1
+  }
+ ],
  "provenance": {
   "source": "colab-2026-01",
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-01-06T03:23:01.709632",
   "early_schema": false
- },
- "section_path": [
-  "t1",
-  "t1-1",
-  "t1-1-7"
- ],
- "sections": [
-  "t1-1-7"
- ]
+ }
 }

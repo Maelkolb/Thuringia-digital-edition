@@ -48,7 +48,7 @@
      "role": "body",
      "cells": [
       {
-       "text": "Gera . . . . . .",
+       "text": "Gera",
        "spans": [
         [
          0,
@@ -79,7 +79,7 @@
      "role": "body",
      "cells": [
       {
-       "text": "Schleiz . . . . .",
+       "text": "Schleiz",
        "spans": [
         [
          0,
@@ -200,8 +200,7 @@
      "3301,18"
     ]
    ],
-   "caption": null,
-   "sec": "t1-3-2"
+   "caption": null
   },
   {
    "id": "b2",
@@ -224,8 +223,7 @@
      277,
      "Location"
     ]
-   ],
-   "sec": "t1-3-2"
+   ]
   },
   {
    "id": "b3",
@@ -238,17 +236,14 @@
      1212,
      "Location"
     ]
-   ],
-   "sec": "t1-3-2"
+   ]
   },
   {
    "id": "b4",
    "type": "heading",
    "src": 3,
    "text": "Im Jahre 1864 kamen auf:",
-   "spans": [],
-   "sec": "t1-3-2",
-   "level": 5
+   "spans": []
   },
   {
    "id": "b5",
@@ -286,7 +281,7 @@
      "role": "body",
      "cells": [
       {
-       "text": "Gera . . . . . .",
+       "text": "Gera",
        "spans": [
         [
          0,
@@ -317,7 +312,7 @@
      "role": "body",
      "cells": [
       {
-       "text": "Schleiz . . . . .",
+       "text": "Schleiz",
        "spans": [
         [
          0,
@@ -438,8 +433,7 @@
      "27,52 Einw."
     ]
    ],
-   "caption": null,
-   "sec": "t1-3-2"
+   "caption": null
   }
  ],
  "footnotes": [
@@ -588,19 +582,15 @@
    ]
   }
  ],
- "corrections": [],
+ "corrections": [
+  {
+   "rule": "strip_dot_leaders"
+  }
+ ],
  "provenance": {
   "source": "colab-2026-03",
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-04T13:19:41.829020",
   "early_schema": false
- },
- "section_path": [
-  "t1",
-  "t1-3",
-  "t1-3-2"
- ],
- "sections": [
-  "t1-3-2"
- ]
+ }
 }

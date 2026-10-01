@@ -114,16 +114,14 @@
      "Plant"
     ]
    ],
-   "continued": true,
-   "sec": "t2-2"
+   "continued": true
   },
   {
    "id": "b2",
    "type": "paragraph",
    "src": 1,
    "text": "Müde von des Tages Hitze,\nRuhe gern auf diesem Sitze,\nGuter Dorfbewohner hier.\nWerth und Lasten deines Standes\nKennt der Vater dieses Landes,\nDiesen Ruhplatz weiht Er dir.",
-   "spans": [],
-   "sec": "t2-2"
+   "spans": []
   },
   {
    "id": "b3",
@@ -277,16 +275,14 @@
      "Werd' zwischen euch hier überlegt."
     ]
    ],
-   "caption": null,
-   "sec": "t2-2"
+   "caption": null
   },
   {
    "id": "b4",
    "type": "paragraph",
    "src": 3,
    "text": "Was lehrreich ist, was Lieb's und Gutes\nVon Menschen nah und fern geschah,\nUnd wie sie dies so frohen Muthes\nGemacht, erzählt euch traulich da.\nSprecht endlich von dem Guten allen,\nDas euer lieber Gott euch gab;\nSo sieht Gott selbst mit Wohlgefallen\nAuf euch und diesen Baum herab.",
-   "spans": [],
-   "sec": "t2-2"
+   "spans": []
   },
   {
    "id": "b5",
@@ -299,8 +295,7 @@
      197,
      "Person"
     ]
-   ],
-   "sec": "t2-2"
+   ]
   },
   {
    "id": "b6",
@@ -314,8 +309,7 @@
      "Person"
     ]
    ],
-   "continues": true,
-   "sec": "t2-2"
+   "continues": true
   }
  ],
  "footnotes": [],
@@ -331,12 +325,5 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-04T20:44:19.742100",
   "early_schema": false
- },
- "section_path": [
-  "t2",
-  "t2-2"
- ],
- "sections": [
-  "t2-2"
- ]
+ }
 }

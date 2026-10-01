@@ -69,8 +69,7 @@
      "Location"
     ]
    ],
-   "continued": true,
-   "sec": "t1-5-2"
+   "continued": true
   },
   {
    "id": "b2",
@@ -98,8 +97,7 @@
      371,
      "Person"
     ]
-   ],
-   "sec": "t1-5-2"
+   ]
   },
   {
    "id": "b3",
@@ -112,17 +110,14 @@
      63,
      "Location"
     ]
-   ],
-   "sec": "t1-5-2"
+   ]
   },
   {
    "id": "b4",
    "type": "heading",
    "src": 3,
    "text": "Tab. I.",
-   "spans": [],
-   "sec": "t1-5-2",
-   "level": 5
+   "spans": []
   },
   {
    "id": "b5",
@@ -332,8 +327,7 @@
      ""
     ]
    ],
-   "caption": "Heinrich v. Weida der Fromme",
-   "sec": "t1-5-2"
+   "caption": "Heinrich v. Weida der Fromme"
   },
   {
    "id": "b6",
@@ -525,8 +519,7 @@
      ""
     ]
    ],
-   "caption": null,
-   "sec": "t1-5-2"
+   "caption": null
   }
  ],
  "footnotes": [
@@ -614,13 +607,5 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-04T13:57:26.267033",
   "early_schema": false
- },
- "section_path": [
-  "t1",
-  "t1-5",
-  "t1-5-2"
- ],
- "sections": [
-  "t1-5-2"
- ]
+ }
 }

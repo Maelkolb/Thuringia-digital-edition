@@ -32,7 +32,7 @@ Part II — the strongest evidence for places inside the principality.
 ```json
 {"package": "E1", "group": "places", "decisions": [
   {"key": "Gera", "action": "accept", "label": "Gera", "class": "place", "kind": "Stadt",
-   "geonames": 2921232, "lat": 50.88, "lon": 12.08, "wikidata": "Q3955", "in_principality": true,
+   "geonames": 2921232, "lat": 50.88, "lon": 12.08, "wikidata": "Q3750", "in_principality": true,
    "register_page": "428", "gloss_en": "Gera (town)"},
   {"key": "Geraer", "action": "merge", "into": "Gera"},
   {"key": "Elster", "action": "reclass", "class": "nature", "label": "Weiße Elster", "kind": "Fluss"},

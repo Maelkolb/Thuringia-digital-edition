@@ -93,8 +93,7 @@
      1179,
      "Location"
     ]
-   ],
-   "sec": "t2-3"
+   ]
   },
   {
    "id": "b2",
@@ -108,8 +107,7 @@
      "Climate"
     ]
    ],
-   "continues": true,
-   "sec": "t2-3"
+   "continues": true
   }
  ],
  "footnotes": [
@@ -397,12 +395,5 @@
   "model": "claude-opus-5-5 (transcription from facsimile); gemini-3-flash-preview (NER)",
   "timestamp": "2026-10-01T20:59:58.105202",
   "early_schema": false
- },
- "section_path": [
-  "t2",
-  "t2-3"
- ],
- "sections": [
-  "t2-3"
- ]
+ }
 }

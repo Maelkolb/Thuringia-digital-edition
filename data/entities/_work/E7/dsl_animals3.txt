@@ -1,0 +1,124 @@
+# --- allgemeine Tiergruppen ---
+T|Thier|Tier||animal|Sammelbegriff (Thier, Thiere, Thiergattungen, Thierreste).
+M|Thier|Thiere~Thieren~Thiergattungen~Thierreste
+T|Fauna|Fauna||fauna|Die Tierwelt eines Gebietes; Kapitel 9 des ersten Teils (S. 82-90).
+M|Fauna|Seethierwelt
+T|Wirbelthiere|Wirbeltier||vertebrate
+T|Säugethiere|Säugetier|Mammalia [class]|mammal
+T|Ungeziefer|Ungeziefer||vermin|Sammelbegriff.
+T|Würmer|Wurm||worm|Sammelbegriff für wurmförmige Tiere; im Volksglauben auch Würmer als Krankheitsursache.
+M|Würmer|Würmern~Wurm~Gewürms~Eingeweidewürmern~#328
+C|Zehrwurm|concept|Zehrwurm|Krankheit|wasting worm (folk disease)|Volksmedizinischer Krankheitsname (S. 173), kein Taxon.
+C|Herzwurm|concept|Herzwurm|Krankheit|heart worm (folk disease)|Volksmedizinischer Krankheitsname (S. 173), kein Taxon.
+C|Fingerwurm|concept|Fingerwurm|Krankheit|whitlow (folk disease)|Volksmedizinischer Krankheitsname (S. 173), kein Taxon.
+# --- Insekten und andere Wirbellose ---
+T|Insecten|Insekt|Insecta [class]|insect
+T|Borkenkäfer|Borkenkäfer|Scolytinae [subfamily]|bark beetle|Brückner: Scolytes destructor.
+T|Raupen|Raupe|Lepidoptera [order]|caterpillar|Schmetterlingsraupen als Schädlinge.
+T|Maikäfer|Maikäfer|Melolontha melolontha|cockchafer
+T|Nashornkäfer|Nashornkäfer|Oryctes nasicornis|rhinoceros beetle
+T|Bockkäfer|Bockkäfer|Cerambycidae [family]|longhorn beetle
+T|Käfern|Käfer|Coleoptera [order]|beetle|Sammlungsbestand (S. 441).
+T|Schmetterlinge|Schmetterling|Lepidoptera [order]|butterfly, moth
+M|Schmetterlinge|Schmetterlingen
+T|#785|Hirschschröter|Lucanus cervus|stag beetle|Brückner: Hirschschröter, auch Feuerschröter, Baumschröter genannt.|Hirschkäfer
+T|#789|Apfelrüßler|Anthonomus pomorum|apple blossom weevil
+T|#792|Erdfloh|Altica oleracea|flea beetle|Brückner: Erdfloh (Haltica oleracea); Schädling in Flachs-, Raps- und Kleefeldern; auch Volksglaube (S. 187).
+M|#792|Erdflöhe~Erdfloh
+T|#793|Seidenspinner|Bombyx mori|silkworm moth|Als Seidenraupe nutzbringend (S. 89).
+M|#793|Seidenraupe
+T|#796|Nonne|Lymantria monacha|nun moth|Forstschädling in den Nadelwäldern.
+M|#796|Nonne
+T|#797|Kieferneule|Panolis flammea|pine beauty moth|Brückner: Trachea piniperda.
+T|#798|Kieferspinne|Dendrolimus pini|pine-tree lappet|Brückner: Gastropacha pini.
+T|#799|Stammspinner|Lymantria dispar|gypsy moth|Brückner: Liparis dispar; an Eichen.
+T|#800|Heckenweißling|Aporia crataegi|black-veined white|Brückner: Pieris Crataegi.
+T|#801|Obstspanner|Operophtera brumata|winter moth|Brückner: Acidalia brumata.
+T|#802|Kohlweißling|Pieris brassicae|large white|Am Kohl.
+T|#803|Gammaeule|Autographa gamma|silver Y|Brückner: Plusia gamma; am Flachs.
+T|#804|Graueule||grey owlet moth (unidentified)|Brückner: Xylina gram.; Zuordnung unsicher.
+T|Hautflügler|Hautflügler|Hymenoptera [order]|Hymenoptera|Brückner: Ordnung der Immen oder Hautflügler.
+M|Hautflügler|Immen
+T|Schlupf= und Springwespen|Schlupf- und Springwespen||ichneumon and gall wasps|
+T|Kohlblattwespe|Kohlblattwespe|Athalia [genus]|turnip sawfly
+T|Zweiflügler|Zweiflügler|Diptera [order]|flies and mosquitoes
+T|Fliegen|Fliege|Diptera [order]|fly
+M|Fliegen|Stuben=, Fleisch= und Stechfliegen
+T|Schnacken|Schnake||crane flies, gnats
+T|Bartmücken|Bartmücke||gnats
+T|Bremsen|Bremse|Tabanidae [family]|horsefly
+T|Flöhe|Floh|Siphonaptera [order]|flea
+T|Läuse|Laus|Phthiraptera [order]|louse
+T|Haus= und Maulwurfsgrille|Haus- und Maulwurfsgrille||house cricket and mole cricket
+T|Heuschrecke|Heuschrecke|Orthoptera [order]|grasshopper, locust|Heuschreckenschwärme als Vorzeichen und Plage (Heuschreckenheer 1693).
+M|Heuschrecke|Heuschrecken~Heuschreckenmassen~Heuschreckenheer
+T|#824|Wanderheuschrecke|Locusta migratoria|migratory locust|Brückner: Oedipoda migratoria.
+T|Wasserjungfern|Wasserjungfer|Odonata [order]|dragonfly
+T|Ohrwürmer|Ohrwurm|Dermaptera [order]|earwig
+T|Schaben|Schabe|Blattodea [order]|cockroach
+M|Schaben|#825
+T|#826|Küchenschabe|Blatta orientalis|oriental cockroach|Brückner: Küchenschabe (Schwabe, Schwarzbürger, Periplaneta orientalis).
+T|#827|deutsche Schabe|Blattella germanica|German cockroach|Brückner: deutsche Schabe (Russe, Blatta germanica).
+T|Wanzen|Wanze|Heteroptera [suborder]|true bug
+T|Zirpen|Zirpe|Auchenorrhyncha [suborder]|cicada, planthopper
+M|Zirpen|Cicaden
+T|Singzirpe|Singzirpe|Cicadidae [family]|singing cicada
+T|Ameisen|Ameise|Formicidae [family]|ant|Eier und Spiritus genutzt (S. 90).
+T|Kreuzspinne|Kreuzspinne|Araneus diadematus|garden spider
+T|Spinnen|Spinne|Araneae [order]|spider
+T|Milben|Milbe|Acari [subclass]|mite
+T|Tausendfüßen|Tausendfüßer|Myriapoda [subphylum]|millipede, centipede
+T|Polypen|Polyp||polyps
+T|Protozeen|Protozoen|Protozoa [kingdom]|protozoa
+T|Conchilien|Conchylien|Mollusca [phylum]|shells|Sammlungsbestand (S. 301).
+T|Flußperlmuschel|Flußperlmuschel|Margaritifera margaritifera|freshwater pearl mussel
+T|Weinbergsschnecke|Weinbergsschnecke|Helix pomatia|Roman snail|Im Frühjahr zum Verkauf nach Gera gebracht (S. 89).
+T|#781|gefleckte Schnirkelschnecke|Arianta arbustorum|copse snail|Brückner: Helix arbustorum.
+T|#782|Hainschnirkelschnecke|Cepaea nemoralis|grove snail|Brückner: Helix nemoralis.
+T|Balea fragilis|Balea fragilis|Balea fragilis|door snail|Gebirgsform, nur im Oberland.
+T|Schnecken|Schnecke|Gastropoda [class]|snail|In den Schieferschichten meist fossile Schnecken (S. 30).
+M|Schnecken|Seeschnecken~Schwimmschnecken
+T|Muscheln|Muschel||mussel, bivalve|Meist fossile Muscheln und Armfüßer (S. 30-38), einmal Muscheln auf einem Altarstein (S. 623).
+T|Kammerschnecken|Kammerschnecke|Cephalopoda [class]|chambered cephalopod|Fossile gekammerte Schalen (Clymenienkalk, S. 34).
+M|Kammerschnecken|Kammschnecke
+# --- Fossilien (Silur, Devon, Eiszeit) ---
+T|#318|Gradhorn|Orthoceras [genus]|orthocone nautiloid (fossil)|Fossil: Brückner nennt Orthoceras tenue (S. 28); Versteinerung im Silur und Devon.
+M|#318|Gradhorn~Gradhörner
+T|Keulenhorn|Keulenhorn||club-horn cephalopod (fossil)|Fossil (S. 35).
+T|Clymenien|Clymenie|Clymeniida [order]|clymeniid ammonoid (fossil)|Fossil; Clymenienkalk des Oberdevon (S. 34).
+T|Goniatiten|Goniatit|Goniatitida [order]|goniatite (fossil)|Fossil (S. 35).
+T|#319|Orthis callactis|Orthis [genus]|brachiopod (fossil)|Brückner: Muschel (Orthis callactis), fossil (S. 28).
+T|#320|Graptolithen|Graptolithina [class]|graptolite (fossil)|Brückner: Federpolypengeschlechter (Graptolithen); fossil (S. 28).
+M|#320|Federpolypen
+T|Tentaculiten|Tentaculiten|Tentaculites [genus]|tentaculitid (fossil)|Fossil (S. 30).
+M|Tentaculiten|Tantaculiten
+T|Nereiten|Nereiten|Nereites [genus]|Nereites (fossil trace)|Fossil: schlangenartig gewundene Abdrücke (S. 30).
+T|Phyllodocites Jacksoni|Phyllodocites Jacksoni|Phyllodocites jacksoni|worm-like fossil|Fossil (S. 33).
+T|Thuringiacus|Phyllodocites thuringiacus|Phyllodocites thuringiacus|worm-like fossil|Fossil (S. 33): Phyllodocites Jacksoni und Thuringiacus.
+T|Crossopodia Henrici|Crossopodia Henrici|Crossopodia henrici|worm-like fossil|Fossil (S. 33).
+T|#334|Cypridinen|Ostracoda [class]|ostracods (fossil)|Brückner: Krebsschälchen (Cypridinen), auch Schwimmkrebse genannt; Cypridinenschiefer (S. 33).
+M|#334|Cypridinen~Schwimmkrebsen~Schwimmkrebse
+T|Trilobiten|Trilobit|Trilobita [class]|trilobite (fossil)|Brückner nennt sie auch Ruderkrebse (S. 34).
+M|Trilobiten|Ruderkrebsen~Ruderkrebse
+T|Spirifer calcaratus|Spirifer calcaratus|Spirifer calcaratus|brachiopod (fossil)|Fossil (S. 33).
+T|Chonetes nana|Chonetes nana|Chonetes nanus|brachiopod (fossil)|Fossil (S. 33).
+T|Atrypa concentrica|Atrypa concentrica|Atrypa concentrica|brachiopod (fossil)|Fossil (S. 33).
+T|Productus horridus|Productus horridus|Productus horridus|brachiopod (fossil)|Fossil, im Volk Krötenkopf (S. 38).
+T|Armfußmuscheln|Armfußmuschel|Brachiopoda [phylum]|brachiopod (fossil)
+T|Röhrenwürmer|Röhrenwurm||tube worm (fossil)
+T|Korallen|Koralle|Anthozoa [class]|coral (fossil)
+M|Korallen|Corallen
+T|Seeschwämme|Seeschwamm|Porifera [phylum]|sponge (fossil)
+T|Strahlthiere|Strahlthier||radiate animals (fossil)
+T|Wurzelfüßer|Wurzelfüßer||rhizopods (fossil)
+T|Mähnenelephanten|Mähnenelephant|Mammuthus primigenius|woolly mammoth|Eiszeitlich fossil (S. 40); Elephanten bzw. Elephas S. 311 und S. 499 (Köstritzer Gipsbrüche).
+M|Mähnenelephanten|Elephanten~Elephas
+T|langhaarigen Nashörnern|langhaariges Nashorn|Coelodonta antiquitatis|woolly rhinoceros|Eiszeitlich fossil (S. 40); Nashörner und Rhinoceros S. 311 und S. 499.
+M|langhaarigen Nashörnern|Nashörner~Rhinoceros
+T|Renthieren|Rentier|Rangifer tarandus|reindeer|Eiszeitlich fossil (S. 40).
+T|wilden Pferden|wildes Pferd|Equus ferus|wild horse|Eiszeitlich fossil (S. 40).
+T|Höhlenbären|Höhlenbär|Ursus spelaeus|cave bear|Eiszeitlich fossil (S. 40).
+T|Höhlentigern|Höhlentiger|Panthera [genus]|cave lion/tiger|Eiszeitlich fossil (S. 40); auch Tiger S. 311.
+M|Höhlentigern|Tiger
+T|Höhlenhyänen|Höhlenhyäne|Crocuta [genus]|cave hyena|Eiszeitlich fossil (S. 40); auch Hyänen S. 311, Hyäna S. 499.
+M|Höhlenhyänen|Hyänen~Hyäna

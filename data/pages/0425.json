@@ -150,8 +150,7 @@
      "45,0"
     ]
    ],
-   "caption": null,
-   "sec": "t2-1"
+   "caption": null
   },
   {
    "id": "b2",
@@ -169,8 +168,7 @@
      549,
      "Location"
     ]
-   ],
-   "sec": "t2-1"
+   ]
   },
   {
    "id": "b3",
@@ -321,8 +319,7 @@
      "text": "57 adlige Orte (die übrigen Orte des Districts)",
      "spans": []
     }
-   ],
-   "sec": "t2-1"
+   ]
   },
   {
    "id": "b4",
@@ -505,8 +502,7 @@
      598,
      "Location"
     ]
-   ],
-   "sec": "t2-1"
+   ]
   },
   {
    "id": "b5",
@@ -539,14 +535,13 @@
      263,
      "Location"
     ]
-   ],
-   "sec": "t2-1"
+   ]
   },
   {
    "id": "b6",
    "type": "paragraph",
    "src": 5,
-   "text": "Nach der Gau- und Markauflösung entstanden hier verschiedene politische Gebiete, die allmälig unter die Macht und Hut der Reichsvoigte kamen. Diese Gebiete waren die Dynastenburg Osterstein mit ihren Küchen- und Burgmannengütern (Ernsee, Untermhaus, Bollersdorf, Pöppeln); die quedlinburgische Stiftsvoigtei Gera mit einem kleinen Complex von Orten, die später zu den Amtsdörfern gehörten; die Pflege Langenberg mit 50 Ortschaften, von denen ein Theil dem Auslande zufiel; der Reichsburgwartsitz Caaschwitz und außerdem einige Güter und Lehen der Grafen von Orlamünda und der Klöster zu Cronswitz und Lausnitz. Von diesen Gebieten waren es der Osterstein und die Stiftsvoigtei Gera, als deren erste Besitzer die weidaischen Voigte vorkommen. Während der Osterstein sich in ihren Händen aus einem",
+   "text": "Nach der Gau- und Markauflösung entstanden hier verschiedene politische Gebiete, die allmälig unter die Macht und Hut der Reichsvoigte kamen. Diese Gebiete waren die Dynastenburg Osterstein mit ihren Küchen- und Burgmannengütern (Ernsee, Untermhaus, Vollersdorf, Pöppeln); die quedlinburgische Stiftsvoigtei Gera mit einem kleinen Complex von Orten, die später zu den Amtsdörfern gehörten; die Pflege Langenberg mit 50 Ortschaften, von denen ein Theil dem Auslande zufiel; der Reichsburgwartsitz Caaschwitz und außerdem einige Güter und Lehen der Grafen von Orlamünda und der Klöster zu Cronswitz und Lausnitz. Von diesen Gebieten waren es der Osterstein und die Stiftsvoigtei Gera, als deren erste Besitzer die weidaischen Voigte vorkommen. Während der Osterstein sich in ihren Händen aus einem",
    "spans": [
     [
      179,
@@ -614,8 +609,7 @@
      "Artefact"
     ]
    ],
-   "continues": true,
-   "sec": "t2-1"
+   "continues": true
   }
  ],
  "footnotes": [
@@ -632,18 +626,19 @@
    "spans": []
   }
  ],
- "corrections": [],
+ "corrections": [
+  {
+   "rule": "facsimile_correction",
+   "before": "Bollersdorf",
+   "after": "Vollersdorf",
+   "source": "G1",
+   "n": 1
+  }
+ ],
  "provenance": {
   "source": "colab-2026-03",
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-04T14:43:50.185669",
   "early_schema": false
- },
- "section_path": [
-  "t2",
-  "t2-1"
- ],
- "sections": [
-  "t2-1"
- ]
+ }
 }

@@ -16,7 +16,7 @@
    "id": "b1",
    "type": "paragraph",
    "src": 0,
-   "text": "Wagner, Schuhmacher, Müller) und 3 Taglöhner. An Viehstand 7 Pf., 203 K., 22 Schf., 96 Schw., 33 Z., 6 Bnst. und 200 G. Die Vermögensverhältnisse sind im Ganzen gut; zwar nur 3 Kapitalisten, aber auch nur 3 arme Waisenkinder, zudem bauen 29 Familien ihr Jahresbrod und haben meist gute Holzbestände. Die 2489 Morgen umfassende Ortsflur, die im W. an greizer Gebiet stößt, ruht auf Grauwacke, vielfach undurchlässig, deshalb naß und nur theilweise ergiebig, auch ist das Klima rauh, dem Obstbau nicht günstig. Getreide und Mastvieh wird jährlich verkauft. Neben Lein baut man etwas Hopfen und Hanf. In der Flur 2 Eisengruben, 1 Bach, eine einzige Höhe (Teufelsberg) und 107 Teiche, darunter der 93 Morgen große Pörmitzteich und mehrere Teiche mit schmackhaften Karpfen zum Besten für Schleiz. Hauptflurstücke sind: Pörmitzwald, Reuten, Leiten, Schottre, Gelänge, Bächle, Lehmgruben, dürre Stauden, ferne Wiesen, Römischbach, Rödern, Krähenholz, Zohweil, Kreuz, Teufelsberg, Öttersdorfer Steig, Röhricht, Zomsen, Elsch, Hans Voters Büsch, Bühl, Augensee (Agensee), Probst, Brand, schmale Gelänge, Sommergehau, weite Ruh, Teichwiesen und Steinbühl. Der Ort ist, wie sein Name und einige Flurstücke bezeugen, ein sorbischer Anbau, über den aber weder Sage, noch Geschichte, noch Denkmale etwas Ausführliches berichten. Früher führte die jetzt durch die Ostflur laufende Straße von Schleiz nach Neustadt durch Pörmitz. Der Teufelsberg mit dem Heiligenfeld und dem nahen Kreuz ist nicht ohne Bedeutung. Die Ober- und Erbgerichte waren landesherrlich, nur fünf Güter gehörten mit der Lehnspflicht dem Rittergute in Zollgrün. Außerdem noch einige der Kirche zu Dettersdorf und dem schleizer Hause zustehende Lehen.",
+   "text": "Wagner, Schuhmacher, Müller) und 3 Taglöhner. An Viehstand 7 Pf., 203 R., 22 Schf., 96 Schw., 33 Z., 6 Bnst. und 200 G. Die Vermögensverhältnisse sind im Ganzen gut; zwar nur 3 Kapitalisten, aber auch nur 3 arme Waisenkinder, zudem bauen 29 Familien ihr Jahresbrod und haben meist gute Holzbestände. Die 2489 Morgen umfassende Ortsflur, die im W. an greizer Gebiet stößt, ruht auf Grauwacke, vielfach undurchlässig, deshalb naß und nur theilweise ergiebig, auch ist das Klima rauh, dem Obstbau nicht günstig. Getreide und Mastvieh wird jährlich verkauft. Neben Lein baut man etwas Hopfen und Hanf. In der Flur 2 Eisengruben, 1 Bach, eine einzige Höhe (Teufelsberg) und 107 Teiche, darunter der 93 Morgen große Pörmitzteich und mehrere Teiche mit schmackhaften Karpfen zum Besten für Schleiz. Hauptflurstücke sind: Pörmitzwald, Reuten, Leiten, Schottre, Gelänge, Bächle, Lehmgruben, dürre Stauden, ferne Wiesen, Römischbach, Rödern, Krähenholz, Zohweil, Kreuz, Teufelsberg, Öttersdorfer Steig, Röhricht, Zomsen, Elsch, Hans Voters Büsch, Bühl, Augensee (Agensee), Probst, Brand, schmale Gelänge, Sommergehau, weite Ruh, Teichwiesen und Steinbühl. Der Ort ist, wie sein Name und einige Flurstücke bezeugen, ein sorbischer Anbau, über den aber weder Sage, noch Geschichte, noch Denkmale etwas Ausführliches berichten. Früher führte die jetzt durch die Ostflur laufende Straße von Schleiz nach Neustadt durch Pörmitz. Der Teufelsberg mit dem Heiligenfeld und dem nahen Kreuz ist nicht ohne Bedeutung. Die Ober- und Erbgerichte waren landesherrlich, nur fünf Güter gehörten mit der Lehnspflicht dem Rittergute in Zollgrün. Außerdem noch einige der Kirche zu Dettersdorf und dem schleizer Hause zustehende Lehen.",
    "spans": [
     [
      61,
@@ -24,7 +24,7 @@
      "Animal"
     ],
     [
-     70,
+     66,
      72,
      "Animal"
     ],
@@ -168,8 +168,7 @@
      1664,
      "Location"
     ]
-   ],
-   "sec": "t2-2"
+   ]
   },
   {
    "id": "b2",
@@ -217,8 +216,7 @@
      955,
      "Location"
     ]
-   ],
-   "sec": "t2-2"
+   ]
   },
   {
    "id": "b3",
@@ -261,23 +259,23 @@
      669,
      "Location"
     ]
-   ],
-   "sec": "t2-2"
+   ]
   }
  ],
  "footnotes": [],
- "corrections": [],
+ "corrections": [
+  {
+   "rule": "facsimile_correction",
+   "before": "203 K.",
+   "after": "203 R.",
+   "source": "G3",
+   "n": 1
+  }
+ ],
  "provenance": {
   "source": "colab-2026-03",
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-04T20:27:29.250057",
   "early_schema": false
- },
- "section_path": [
-  "t2",
-  "t2-2"
- ],
- "sections": [
-  "t2-2"
- ]
+ }
 }

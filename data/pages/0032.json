@@ -94,17 +94,14 @@
      "Natural Object"
     ]
    ],
-   "continued": true,
-   "sec": "t1-1-4"
+   "continued": true
   },
   {
    "id": "b2",
    "type": "heading",
    "src": 1,
    "text": "Die Höhe der bewohnten Punkte des Oberlandes:",
-   "spans": [],
-   "sec": "t1-1-4",
-   "level": 5
+   "spans": []
   },
   {
    "id": "b3",
@@ -323,11 +320,11 @@
      "role": "body",
      "cells": [
       {
-       "text": "Törbizmühle a. d. Weida 920'.",
+       "text": "Sörbitzmühle a. d. Weida 920'.",
        "spans": [
         [
          0,
-         11,
+         29,
          "Artefact"
         ]
        ]
@@ -737,12 +734,18 @@
      "Schloß, Boden 1169,5'."
     ]
    ],
-   "caption": null,
-   "sec": "t1-1-4"
+   "caption": null
   }
  ],
  "footnotes": [],
  "corrections": [
+  {
+   "rule": "facsimile_correction",
+   "before": "Törbizmühle a. d. Weida 920'",
+   "after": "Sörbitzmühle a. d. Weida 920'",
+   "source": "relief-wohnorte-hoehenlage",
+   "n": 1
+  },
   {
    "rule": "table_no_header_row",
    "note": "first row is data (legacy edition rendered it as <th>)",
@@ -754,13 +757,5 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-01-06T02:17:09.112580",
   "early_schema": false
- },
- "section_path": [
-  "t1",
-  "t1-1",
-  "t1-1-4"
- ],
- "sections": [
-  "t1-1-4"
- ]
+ }
 }

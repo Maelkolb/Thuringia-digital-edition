@@ -58,8 +58,7 @@
    "word_division": {
     "word": "Wirbelthiere",
     "part": "thiere"
-   },
-   "sec": "t1-1-9"
+   }
   },
   {
    "id": "b2",
@@ -153,8 +152,7 @@
      "Animal"
     ]
    ],
-   "continues": true,
-   "sec": "t1-1-9"
+   "continues": true
   }
  ],
  "footnotes": [],
@@ -164,13 +162,5 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-01-06T04:09:49.302904",
   "early_schema": false
- },
- "section_path": [
-  "t1",
-  "t1-1",
-  "t1-1-9"
- ],
- "sections": [
-  "t1-1-9"
- ]
+ }
 }

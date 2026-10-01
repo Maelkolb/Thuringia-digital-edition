@@ -114,12 +114,14 @@ def main():
                 ln = norm(e['label'])
                 cands = {norm(x) for x in names} | {norm(term)}
                 if dist <= 6 and (ln in cands or any(ln.startswith(c) or c.startswith(ln) for c in cands if len(c) > 3)):
-                    if best is None or dist < best[0]:
-                        best = (dist, q, e['label'], e['desc'])
+                    pen = 2.5 if (e['desc'] or '').lower().startswith(('siedlung', 'ortsteil', 'wüstung')) else 0
+                    if best is None or dist + pen < best[0]:
+                        best = (dist + pen, q, e['label'], e['desc'])
             if best:
                 break
         res[d['key']] = best
         wa.write_text(json.dumps(res, ensure_ascii=False, indent=1), encoding='utf-8')
+        CACHE.write_text(json.dumps(cache, ensure_ascii=False), encoding='utf-8')
         if (n + 1) % 25 == 0:
             CACHE.write_text(json.dumps(cache, ensure_ascii=False), encoding='utf-8')
             print(n + 1, len(todo), file=sys.stderr)

@@ -1031,17 +1031,14 @@
      ""
     ]
    ],
-   "caption": null,
-   "sec": "t1-1-8"
+   "caption": null
   },
   {
    "id": "b2",
    "type": "heading",
    "src": 1,
    "text": "Ausschließlich im Oberlande und nicht im Unterlande kommen vor:",
-   "spans": [],
-   "sec": "t1-1-8",
-   "level": 5
+   "spans": []
   },
   {
    "id": "b3",
@@ -1401,8 +1398,7 @@
      "Drosera longifolia."
     ]
    ],
-   "caption": null,
-   "sec": "t1-1-8"
+   "caption": null
   }
  ],
  "footnotes": [
@@ -1430,13 +1426,5 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-01-06T03:53:08.483762",
   "early_schema": false
- },
- "section_path": [
-  "t1",
-  "t1-1",
-  "t1-1-8"
- ],
- "sections": [
-  "t1-1-8"
- ]
+ }
 }

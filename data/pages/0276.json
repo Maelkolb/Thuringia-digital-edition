@@ -18,8 +18,7 @@
    "src": 0,
    "text": "volljährig; während seiner Minderjährigkeit führt die Mutter oder der nächste Agnat die Vormundschaft.",
    "spans": [],
-   "continued": true,
-   "sec": "t1-4-1"
+   "continued": true
   },
   {
    "id": "b2",
@@ -77,8 +76,7 @@
      442,
      "Organisation"
     ]
-   ],
-   "sec": "t1-4-1"
+   ]
   },
   {
    "id": "b3",
@@ -116,8 +114,7 @@
      580,
      "Animal"
     ]
-   ],
-   "sec": "t1-4-1"
+   ]
   },
   {
    "id": "b4",
@@ -220,8 +217,7 @@
      1279,
      "Animal"
     ]
-   ],
-   "sec": "t1-4-1"
+   ]
   },
   {
    "id": "b5",
@@ -304,8 +300,7 @@
      933,
      "Animal"
     ]
-   ],
-   "sec": "t1-4-1"
+   ]
   },
   {
    "id": "b6",
@@ -334,8 +329,7 @@
      "Person"
     ]
    ],
-   "continues": true,
-   "sec": "t1-4-1"
+   "continues": true
   }
  ],
  "footnotes": [],
@@ -345,13 +339,5 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-05T12:01:29.783602",
   "early_schema": false
- },
- "section_path": [
-  "t1",
-  "t1-4",
-  "t1-4-1"
- ],
- "sections": [
-  "t1-4-1"
- ]
+ }
 }

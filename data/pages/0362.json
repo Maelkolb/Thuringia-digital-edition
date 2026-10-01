@@ -109,8 +109,7 @@
      "Location"
     ]
    ],
-   "continued": true,
-   "sec": "t1-5-2"
+   "continued": true
   },
   {
    "id": "b2",
@@ -178,8 +177,7 @@
      1103,
      "Organisation"
     ]
-   ],
-   "sec": "t1-5-2"
+   ]
   },
   {
    "id": "b3",
@@ -283,8 +281,7 @@
      "Location"
     ]
    ],
-   "continues": true,
-   "sec": "t1-5-2"
+   "continues": true
   }
  ],
  "footnotes": [
@@ -346,13 +343,5 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-04T14:06:29.719310",
   "early_schema": false
- },
- "section_path": [
-  "t1",
-  "t1-5",
-  "t1-5-2"
- ],
- "sections": [
-  "t1-5-2"
- ]
+ }
 }

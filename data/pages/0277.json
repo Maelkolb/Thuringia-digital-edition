@@ -34,8 +34,7 @@
      "Animal"
     ]
    ],
-   "continued": true,
-   "sec": "t1-4-1"
+   "continued": true
   },
   {
    "id": "b2",
@@ -68,8 +67,7 @@
      593,
      "Location"
     ]
-   ],
-   "sec": "t1-4-1"
+   ]
   },
   {
    "id": "b3",
@@ -82,8 +80,7 @@
      126,
      "Environment"
     ]
-   ],
-   "sec": "t1-4-1"
+   ]
   },
   {
    "id": "b4",
@@ -106,8 +103,7 @@
      366,
      "Organisation"
     ]
-   ],
-   "sec": "t1-4-1"
+   ]
   },
   {
    "id": "b5",
@@ -150,16 +146,14 @@
      355,
      "Location"
     ]
-   ],
-   "sec": "t1-4-1"
+   ]
   },
   {
    "id": "b6",
    "type": "paragraph",
    "src": 5,
    "text": "Die Forstdirection beruht in ihrer gegenwärtigen Gliederung auf der Organisation von 1868 und ist oben im Abschnitte vom Forstwesen angegeben.",
-   "spans": [],
-   "sec": "t1-4-1"
+   "spans": []
   },
   {
    "id": "b7",
@@ -167,8 +161,7 @@
    "src": 6,
    "text": "Geschichtlicher Rückblick. Den Landesherrn stand im Anfange das Land mit seinem Grund und Boden und seinen Leuten theils als Reichs- oder Stiftslehngut oder als ein Freieigen und darum die alleinige volle Gesetzgebung, richterliche Gewalt, Verwaltung, Repräsentation nach außen und das Recht der Kriegsführung und des Friedensschlusses zu. In ihnen war der Staat oder das Territorium vertreten. Die erste Veränderung dieses Verhältnisses erfolgte durch den Adel, der als Dienst-, Hof- und Erbadel eine privilegirte Stellung errang. Der Dienstadel, durch persönliche Dienste und Verdienste um das Land und dessen Regenten entstanden, erhielt gewöhnlich mit dem Adelsdiplome auch Landgüter zu Lehn. Daneben bildeten sich im Laufe der Zeit an den Höfen der Landesherrn höhere und niedere Würdenträger oder Hofbedienstete, von denen",
    "spans": [],
-   "continues": true,
-   "sec": "t1-4-1"
+   "continues": true
   }
  ],
  "footnotes": [],
@@ -178,13 +171,5 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-04T13:34:33.111526",
   "early_schema": false
- },
- "section_path": [
-  "t1",
-  "t1-4",
-  "t1-4-1"
- ],
- "sections": [
-  "t1-4-1"
- ]
+ }
 }

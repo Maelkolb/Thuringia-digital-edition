@@ -218,8 +218,437 @@
      1922,
      "Person"
     ]
+   ]
+  },
+  {
+   "id": "b4",
+   "type": "table",
+   "src": 3,
+   "n_cols": 3,
+   "header_rows": 1,
+   "rows": [
+    {
+     "role": "header",
+     "cells": [
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "Neue Quelle.",
+       "spans": []
+      },
+      {
+       "text": "Agnesquelle.",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Chlornatrium",
+       "spans": []
+      },
+      {
+       "text": "0,1897",
+       "spans": []
+      },
+      {
+       "text": "0,0311",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Schwefelsaures Natron",
+       "spans": []
+      },
+      {
+       "text": "0,1618",
+       "spans": []
+      },
+      {
+       "text": "0,0619",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Schwefelsaures Kali",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "0,0521",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Natron, an organische Säuren gebunden",
+       "spans": []
+      },
+      {
+       "text": "0,0297",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Kali, an organische Säuren gebunden",
+       "spans": []
+      },
+      {
+       "text": "0,1253",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Zweifach kohlensaurer Kalk",
+       "spans": []
+      },
+      {
+       "text": "0,8061",
+       "spans": []
+      },
+      {
+       "text": "0,1244",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "„ kohlensaure Magnesia",
+       "spans": []
+      },
+      {
+       "text": "0,2807",
+       "spans": []
+      },
+      {
+       "text": "0,1307",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "„ kohlensaures Maganoxydul",
+       "spans": []
+      },
+      {
+       "text": "0,1377",
+       "spans": []
+      },
+      {
+       "text": "0,0780",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "„ kohlensaures Eisenoxydul",
+       "spans": []
+      },
+      {
+       "text": "0,5698",
+       "spans": []
+      },
+      {
+       "text": "0,4148",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Schwefelsaurer Kalk",
+       "spans": []
+      },
+      {
+       "text": "0,0039",
+       "spans": []
+      },
+      {
+       "text": "0,0422",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Thonerde",
+       "spans": []
+      },
+      {
+       "text": "0,0397",
+       "spans": []
+      },
+      {
+       "text": "0,0122",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Lösliche Kieselsäure",
+       "spans": []
+      },
+      {
+       "text": "0,1259",
+       "spans": []
+      },
+      {
+       "text": "0,0061",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Unlösliche organische Substanz",
+       "spans": []
+      },
+      {
+       "text": "0,0331",
+       "spans": []
+      },
+      {
+       "text": "0,0243",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "„ aufgeschwemmte Theile",
+       "spans": []
+      },
+      {
+       "text": "0,0198",
+       "spans": []
+      },
+      {
+       "text": "0,0304",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "total",
+     "cells": [
+      {
+       "text": "Summa der festen Bestandtheile",
+       "spans": []
+      },
+      {
+       "text": "2,5232",
+       "spans": []
+      },
+      {
+       "text": "1,0082",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Menge der freien Kohlensäure",
+       "spans": []
+      },
+      {
+       "text": "336,93 C. C.",
+       "spans": []
+      },
+      {
+       "text": "235,0 C. C.",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Temperatur",
+       "spans": []
+      },
+      {
+       "text": "9 1/2° R. = 11,9° C.",
+       "spans": []
+      },
+      {
+       "text": "9° R. = 11,25° C.",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Specifisches Gewicht",
+       "spans": []
+      },
+      {
+       "text": "1,00033",
+       "spans": []
+      },
+      {
+       "text": "1,0002",
+       "spans": []
+      }
+     ]
+    }
    ],
-   "sec": "t1-1-6"
+   "grid": [
+    [
+     "",
+     "Neue Quelle.",
+     "Agnesquelle."
+    ],
+    [
+     "Chlornatrium",
+     "0,1897",
+     "0,0311"
+    ],
+    [
+     "Schwefelsaures Natron",
+     "0,1618",
+     "0,0619"
+    ],
+    [
+     "Schwefelsaures Kali",
+     "—",
+     "0,0521"
+    ],
+    [
+     "Natron, an organische Säuren gebunden",
+     "0,0297",
+     "—"
+    ],
+    [
+     "Kali, an organische Säuren gebunden",
+     "0,1253",
+     "—"
+    ],
+    [
+     "Zweifach kohlensaurer Kalk",
+     "0,8061",
+     "0,1244"
+    ],
+    [
+     "„ kohlensaure Magnesia",
+     "0,2807",
+     "0,1307"
+    ],
+    [
+     "„ kohlensaures Maganoxydul",
+     "0,1377",
+     "0,0780"
+    ],
+    [
+     "„ kohlensaures Eisenoxydul",
+     "0,5698",
+     "0,4148"
+    ],
+    [
+     "Schwefelsaurer Kalk",
+     "0,0039",
+     "0,0422"
+    ],
+    [
+     "Thonerde",
+     "0,0397",
+     "0,0122"
+    ],
+    [
+     "Lösliche Kieselsäure",
+     "0,1259",
+     "0,0061"
+    ],
+    [
+     "Unlösliche organische Substanz",
+     "0,0331",
+     "0,0243"
+    ],
+    [
+     "„ aufgeschwemmte Theile",
+     "0,0198",
+     "0,0304"
+    ],
+    [
+     "Summa der festen Bestandtheile",
+     "2,5232",
+     "1,0082"
+    ],
+    [
+     "Menge der freien Kohlensäure",
+     "336,93 C. C.",
+     "235,0 C. C."
+    ],
+    [
+     "Temperatur",
+     "9 1/2° R. = 11,9° C.",
+     "9° R. = 11,25° C."
+    ],
+    [
+     "Specifisches Gewicht",
+     "1,00033",
+     "1,0002"
+    ]
+   ],
+   "caption": null
   },
   {
    "id": "b2",
@@ -258,12 +687,16 @@
      "Plant"
     ]
    ],
-   "continues": true,
-   "sec": "t1-1-6"
+   "continues": true
   }
  ],
  "footnotes": [],
  "corrections": [
+  {
+   "rule": "manual_insert_block",
+   "block": "b4",
+   "reason": "p. 44 (early extraction schema) lost the printed table of Prof. Reichardt's analysis of the Lobenstein springs; restored from the facsimile (values read by subagent A02, checked against the printed sums 2,5232 / 1,0082 and re-checked by the editor)."
+  },
   {
    "rule": "table_no_header_row",
    "note": "first row is data (legacy edition rendered it as <th>)",
@@ -279,13 +712,5 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-01-05T15:36:35.581635",
   "early_schema": true
- },
- "section_path": [
-  "t1",
-  "t1-1",
-  "t1-1-6"
- ],
- "sections": [
-  "t1-1-6"
- ]
+ }
 }

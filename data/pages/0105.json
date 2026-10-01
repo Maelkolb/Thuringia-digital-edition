@@ -17,9 +17,7 @@
    "type": "heading",
    "src": 0,
    "text": "2) Die Familiendichtigkeit. Auf 1 Familie kommen Seelen in:",
-   "spans": [],
-   "sec": "t1-2-1",
-   "level": 5
+   "spans": []
   },
   {
    "id": "b2",
@@ -637,17 +635,14 @@
      "4,64"
     ]
    ],
-   "caption": null,
-   "sec": "t1-2-1"
+   "caption": null
   },
   {
    "id": "b3",
    "type": "heading",
    "src": 2,
    "text": "3) Die Bevölkerungsdichtigkeit. Auf 1 ☐Meile kommen:",
-   "spans": [],
-   "sec": "t1-2-1",
-   "level": 5
+   "spans": []
   },
   {
    "id": "b4",
@@ -1007,8 +1002,7 @@
      "5853,22"
     ]
    ],
-   "caption": null,
-   "sec": "t1-2-1"
+   "caption": null
   },
   {
    "id": "b5",
@@ -1031,8 +1025,7 @@
      325,
      "Environment"
     ]
-   ],
-   "sec": "t1-2-1"
+   ]
   }
  ],
  "footnotes": [],
@@ -1042,13 +1035,5 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-03T15:06:34.597033",
   "early_schema": false
- },
- "section_path": [
-  "t1",
-  "t1-2",
-  "t1-2-1"
- ],
- "sections": [
-  "t1-2-1"
- ]
+ }
 }

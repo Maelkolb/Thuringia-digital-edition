@@ -73,8 +73,7 @@
    "word_division": {
     "word": "Eisenerzen",
     "part": "erzen"
-   },
-   "sec": "t1-3-5"
+   }
   },
   {
    "id": "b2",
@@ -197,16 +196,14 @@
      1200,
      "Organisation"
     ]
-   ],
-   "sec": "t1-3-5"
+   ]
   },
   {
    "id": "b3",
    "type": "paragraph",
    "src": 2,
    "text": "Zu den noch 1648 theils erneuerten, theils neu errichteten, später jedoch wieder eingegangenen Hüttenwerken gehören:",
-   "spans": [],
-   "sec": "t1-3-5"
+   "spans": []
   },
   {
    "id": "b4",
@@ -239,8 +236,7 @@
      205,
      "Artefact"
     ]
-   ],
-   "sec": "t1-3-5"
+   ]
   },
   {
    "id": "b5",
@@ -263,8 +259,7 @@
      71,
      "Artefact"
     ]
-   ],
-   "sec": "t1-3-5"
+   ]
   },
   {
    "id": "b6",
@@ -287,8 +282,7 @@
      124,
      "Location"
     ]
-   ],
-   "sec": "t1-3-5"
+   ]
   },
   {
    "id": "b7",
@@ -311,8 +305,7 @@
      105,
      "Artefact"
     ]
-   ],
-   "sec": "t1-3-5"
+   ]
   },
   {
    "id": "b8",
@@ -335,8 +328,7 @@
      146,
      "Organisation"
     ]
-   ],
-   "sec": "t1-3-5"
+   ]
   },
   {
    "id": "b9",
@@ -354,8 +346,7 @@
      145,
      "Organisation"
     ]
-   ],
-   "sec": "t1-3-5"
+   ]
   },
   {
    "id": "b10",
@@ -378,8 +369,7 @@
      78,
      "Person"
     ]
-   ],
-   "sec": "t1-3-5"
+   ]
   },
   {
    "id": "b11",
@@ -397,8 +387,7 @@
      114,
      "Artefact"
     ]
-   ],
-   "sec": "t1-3-5"
+   ]
   },
   {
    "id": "b12",
@@ -421,8 +410,7 @@
      94,
      "Location"
     ]
-   ],
-   "sec": "t1-3-5"
+   ]
   }
  ],
  "footnotes": [],
@@ -432,13 +420,5 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-04T13:26:58.436722",
   "early_schema": false
- },
- "section_path": [
-  "t1",
-  "t1-3",
-  "t1-3-5"
- ],
- "sections": [
-  "t1-3-5"
- ]
+ }
 }

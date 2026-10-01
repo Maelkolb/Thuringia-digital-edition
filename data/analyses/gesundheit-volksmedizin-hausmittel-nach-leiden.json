@@ -1,0 +1,3189 @@
+{
+ "id": "gesundheit-volksmedizin-hausmittel-nach-leiden",
+ "title": {
+  "de": "Volksmedizin: Hausmittel und Heilmittel nach Leiden",
+  "en": "Folk medicine: household remedies by ailment"
+ },
+ "category": "health",
+ "section": "t1-2-6",
+ "sources": [
+  {
+   "page": "174",
+   "block": "b2"
+  },
+  {
+   "page": "174",
+   "block": "b3"
+  },
+  {
+   "page": "175",
+   "block": "b1"
+  }
+ ],
+ "summary": {
+  "de": "Brückner zählt die Mittel der Volksmedizin in Listen auf: 73 allgemeine Hausmittel (S. 174) und 139 Nennungen von Kräutern, Salben und anderen Mitteln für 15 innere Leiden und äußere Übel (S. 174 f.). Die Auszählung zeigt, bei welchen Leiden das Volk die meisten Mittel kennt und welche Mittel vielseitig verwendet werden.",
+  "en": "Brückner lists the means of folk medicine: 73 general household remedies (p. 174) and 139 mentions of herbs, ointments and other remedies for 15 internal ailments and external ills (pp. 174 f.). The count shows for which ailments the people know the most remedies and which remedies are used for several purposes."
+ },
+ "method": {
+  "de": "Die Aufzählungen im Text (S. 174 b2, b3, S. 175 b1) wurden per Skript an den Stichwörtern der Leiden (»gegen Würmer:« usw.) gegliedert und an Kommas und »und« in einzelne Mittel zerlegt; Angaben in Klammern (»gepulvert«, »neuntägige«) sind als Zusatz geführt, allgemeine Angaben (»verschiedene Pillen und Tincturen«, »Kräutersäfte«) nicht mitgezählt. Die Schreibweise der Mittel ist die gedruckte (z. B. »Wachholder«, »Chamille«); dasselbe Mittel wird über die Schreibung gleichgesetzt, Spielarten (Chamille/Chamillen) nicht. Zur Heilung äußerer Übel nennt Brückner nur eine einzige Liste.",
+  "en": "The enumerations in the text (p. 174 b2, b3, p. 175 b1) were divided by script at the key words of the ailments (“gegen Würmer:” etc.) and split into single remedies at commas and “und”; details in parentheses (“gepulvert”, “neuntägige”) are kept as notes, general statements (“verschiedene Pillen und Tincturen”, “Kräutersäfte”) are not counted. The spelling of the remedies is the printed one (e.g. “Wachholder”, “Chamille”); the same remedy is identified by its spelling, variant forms (Chamille/Chamillen) are not. For the cure of external ills Brückner gives only one single list."
+ },
+ "findings": [
+  {
+   "de": "Für äußere Übel nennt Brückner 56 Mittel (Salben, Pflaster, Geister, Öle), für Brustleiden 19 und für Magenleiden 15; die allgemeine Hausapotheke umfasst 73 Mittel. Für Epilepsie nennt er nur 1, für Lungensucht, Leberleiden, Nachtschweiß und Abtreibung je 2.",
+   "en": "For external ills Brückner names 56 remedies (ointments, plasters, spirits, oils), for chest complaints 19 and for stomach complaints 15; the general household pharmacy comprises 73 remedies. For epilepsy he names only 1, for consumption, liver complaints, night sweats and abortion 2 each."
+  },
+  {
+   "de": "Nur 11 von 128 verschiedenen Mitteln der Einzellisten stehen bei mehr als einem Leiden, und keines bei mehr als 2; bei 7 dieser 11 Mittel gehört Magenleiden zu den beiden Anwendungen (z. B. Anis, Knoblauch, Pfeffer, Schafgarbe).",
+   "en": "Only 11 of 128 distinct remedies of the individual lists appear for more than one ailment, and none for more than 2; for 7 of these 11 remedies stomach complaints are one of the two uses (e.g. anise, garlic, pepper, yarrow)."
+  },
+  {
+   "de": "27 der 128 Mittel der Einzellisten stehen auch in der allgemeinen Hausapotheke; als meistverehrtes Hausmittel nennt Brückner die Johannisblume (Arnika), die im Oberland korbweise gesammelt wird.",
+   "en": "27 of the 128 remedies of the individual lists also appear in the general household pharmacy; as the most revered household remedy Brückner names the Johannisblume (arnica), which is gathered by the basket in the Oberland."
+  }
+ ],
+ "caveats": [
+  {
+   "de": "Gezählt wird, was Brückner aufzählt; er gibt weder Häufigkeit des Gebrauchs noch Wirksamkeit an, und die Listen sind Auswahlen (»nur Einiges kann angemerkt werden«). Die Zerlegung des Fließtextes in Einzelmittel ist redaktionell und kann bei zusammengesetzten Bezeichnungen (z. B. »Bier mit Gänsefett«) abweichen.",
+   "en": "What is counted is what Brückner enumerates; he gives neither frequency of use nor efficacy, and the lists are selections (“only some can be noted”). The splitting of the running text into single remedies is editorial and can differ for compound names (e.g. “Bier mit Gänsefett”)."
+  },
+  {
+   "de": "Die Mittelnamen sind historisch (Allermannsharnisch, Sannickel, Elendsklaue, Attigbeeren); eine botanische oder pharmazeutische Identifizierung ist hier nicht versucht. Neben den Kräutermitteln stellt Brückner Amulette, Zauberformeln und die Wunderkur (S. 175 f.), die hier nicht erfasst sind.",
+   "en": "The names of the remedies are historical (Allermannsharnisch, Sannickel, Elendsklaue, Attigbeeren); no botanical or pharmaceutical identification is attempted here. Besides the herbal remedies Brückner treats amulets, magic formulas and the miracle cure (pp. 175 f.), which are not covered here."
+  }
+ ],
+ "datasets": [
+  {
+   "name": "remedies",
+   "title": {
+    "de": "Mittel der Volksmedizin nach Leiden",
+    "en": "Remedies of folk medicine by ailment"
+   },
+   "columns": [
+    {
+     "name": "use_key",
+     "label": {
+      "de": "Leiden (Schlüssel)",
+      "en": "Ailment (key)"
+     },
+     "type": "string",
+     "unit": null,
+     "derived": true
+    },
+    {
+     "name": "use_de",
+     "label": {
+      "de": "Leiden / Anwendung (de)",
+      "en": "Ailment / use (de)"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "use_en",
+     "label": {
+      "de": "Leiden / Anwendung (en)",
+      "en": "Ailment / use (en)"
+     },
+     "type": "string",
+     "unit": null,
+     "derived": true
+    },
+    {
+     "name": "scope_de",
+     "label": {
+      "de": "Anwendung (de)",
+      "en": "Application (de)"
+     },
+     "type": "string",
+     "unit": null,
+     "derived": true
+    },
+    {
+     "name": "scope_en",
+     "label": {
+      "de": "Anwendung (en)",
+      "en": "Application (en)"
+     },
+     "type": "string",
+     "unit": null,
+     "derived": true
+    },
+    {
+     "name": "remedy",
+     "label": {
+      "de": "Mittel (gedruckt)",
+      "en": "Remedy (as printed)"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "note",
+     "label": {
+      "de": "Zusatz",
+      "en": "Note"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "page",
+     "label": {
+      "de": "Seite",
+      "en": "Page"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "block",
+     "label": {
+      "de": "Block",
+      "en": "Block"
+     },
+     "type": "string",
+     "unit": null
+    }
+   ],
+   "rows": [
+    [
+     "abfuehr",
+     "Abführung",
+     "Laxatives",
+     "innerlich",
+     "internal",
+     "Aloë",
+     "",
+     "174",
+     "b3"
+    ],
+    [
+     "abfuehr",
+     "Abführung",
+     "Laxatives",
+     "innerlich",
+     "internal",
+     "Aepfelsaft",
+     "",
+     "174",
+     "b3"
+    ],
+    [
+     "abfuehr",
+     "Abführung",
+     "Laxatives",
+     "innerlich",
+     "internal",
+     "Bittersalz",
+     "",
+     "174",
+     "b3"
+    ],
+    [
+     "abfuehr",
+     "Abführung",
+     "Laxatives",
+     "innerlich",
+     "internal",
+     "Buttermilch",
+     "",
+     "174",
+     "b3"
+    ],
+    [
+     "abfuehr",
+     "Abführung",
+     "Laxatives",
+     "innerlich",
+     "internal",
+     "Kreuzbeeren",
+     "",
+     "174",
+     "b3"
+    ],
+    [
+     "abfuehr",
+     "Abführung",
+     "Laxatives",
+     "innerlich",
+     "internal",
+     "Lerchenschwamm",
+     "",
+     "174",
+     "b3"
+    ],
+    [
+     "abfuehr",
+     "Abführung",
+     "Laxatives",
+     "innerlich",
+     "internal",
+     "Mäusekoth",
+     "",
+     "174",
+     "b3"
+    ],
+    [
+     "abfuehr",
+     "Abführung",
+     "Laxatives",
+     "innerlich",
+     "internal",
+     "Rhabarber",
+     "",
+     "174",
+     "b3"
+    ],
+    [
+     "abfuehr",
+     "Abführung",
+     "Laxatives",
+     "innerlich",
+     "internal",
+     "Sennesblätter",
+     "",
+     "174",
+     "b3"
+    ],
+    [
+     "abfuehr",
+     "Abführung",
+     "Laxatives",
+     "innerlich",
+     "internal",
+     "Senneslatwerge",
+     "",
+     "174",
+     "b3"
+    ],
+    [
+     "harn",
+     "Harn treibend",
+     "Diuretics",
+     "innerlich",
+     "internal",
+     "Attigbeeren",
+     "",
+     "174",
+     "b3"
+    ],
+    [
+     "harn",
+     "Harn treibend",
+     "Diuretics",
+     "innerlich",
+     "internal",
+     "Bachbunge",
+     "",
+     "174",
+     "b3"
+    ],
+    [
+     "harn",
+     "Harn treibend",
+     "Diuretics",
+     "innerlich",
+     "internal",
+     "Brennnesselsaft",
+     "",
+     "174",
+     "b3"
+    ],
+    [
+     "harn",
+     "Harn treibend",
+     "Diuretics",
+     "innerlich",
+     "internal",
+     "Petersilienwurzel",
+     "",
+     "174",
+     "b3"
+    ],
+    [
+     "harn",
+     "Harn treibend",
+     "Diuretics",
+     "innerlich",
+     "internal",
+     "Wachholder",
+     "",
+     "174",
+     "b3"
+    ],
+    [
+     "brust",
+     "Brustmittel",
+     "Chest remedies",
+     "innerlich",
+     "internal",
+     "Alantwurzel",
+     "",
+     "174",
+     "b3"
+    ],
+    [
+     "brust",
+     "Brustmittel",
+     "Chest remedies",
+     "innerlich",
+     "internal",
+     "Aronswurz",
+     "",
+     "174",
+     "b3"
+    ],
+    [
+     "brust",
+     "Brustmittel",
+     "Chest remedies",
+     "innerlich",
+     "internal",
+     "Bier mit Gänsefett",
+     "",
+     "174",
+     "b3"
+    ],
+    [
+     "brust",
+     "Brustmittel",
+     "Chest remedies",
+     "innerlich",
+     "internal",
+     "Brunnkresse",
+     "",
+     "174",
+     "b3"
+    ],
+    [
+     "brust",
+     "Brustmittel",
+     "Chest remedies",
+     "innerlich",
+     "internal",
+     "Fenchel",
+     "",
+     "174",
+     "b3"
+    ],
+    [
+     "brust",
+     "Brustmittel",
+     "Chest remedies",
+     "innerlich",
+     "internal",
+     "Gerstenabsud",
+     "",
+     "174",
+     "b3"
+    ],
+    [
+     "brust",
+     "Brustmittel",
+     "Chest remedies",
+     "innerlich",
+     "internal",
+     "Honig",
+     "",
+     "174",
+     "b3"
+    ],
+    [
+     "brust",
+     "Brustmittel",
+     "Chest remedies",
+     "innerlich",
+     "internal",
+     "Kleienabsud",
+     "",
+     "174",
+     "b3"
+    ],
+    [
+     "brust",
+     "Brustmittel",
+     "Chest remedies",
+     "innerlich",
+     "internal",
+     "Leberthran",
+     "",
+     "174",
+     "b3"
+    ],
+    [
+     "brust",
+     "Brustmittel",
+     "Chest remedies",
+     "innerlich",
+     "internal",
+     "Liebstöckleswurzel",
+     "",
+     "174",
+     "b3"
+    ],
+    [
+     "brust",
+     "Brustmittel",
+     "Chest remedies",
+     "innerlich",
+     "internal",
+     "Lungenmoos",
+     "",
+     "174",
+     "b3"
+    ],
+    [
+     "brust",
+     "Brustmittel",
+     "Chest remedies",
+     "innerlich",
+     "internal",
+     "Malzabsud",
+     "",
+     "174",
+     "b3"
+    ],
+    [
+     "brust",
+     "Brustmittel",
+     "Chest remedies",
+     "innerlich",
+     "internal",
+     "Meerrettig",
+     "",
+     "174",
+     "b3"
+    ],
+    [
+     "brust",
+     "Brustmittel",
+     "Chest remedies",
+     "innerlich",
+     "internal",
+     "Ofenblasenwasser",
+     "kochend",
+     "174",
+     "b3"
+    ],
+    [
+     "brust",
+     "Brustmittel",
+     "Chest remedies",
+     "innerlich",
+     "internal",
+     "Olivenöl",
+     "",
+     "175",
+     "b1"
+    ],
+    [
+     "brust",
+     "Brustmittel",
+     "Chest remedies",
+     "innerlich",
+     "internal",
+     "Sternanis",
+     "",
+     "175",
+     "b1"
+    ],
+    [
+     "brust",
+     "Brustmittel",
+     "Chest remedies",
+     "innerlich",
+     "internal",
+     "Süßholz",
+     "",
+     "175",
+     "b1"
+    ],
+    [
+     "brust",
+     "Brustmittel",
+     "Chest remedies",
+     "innerlich",
+     "internal",
+     "Wegwarte",
+     "",
+     "175",
+     "b1"
+    ],
+    [
+     "brust",
+     "Brustmittel",
+     "Chest remedies",
+     "innerlich",
+     "internal",
+     "Ziegenmilch",
+     "",
+     "175",
+     "b1"
+    ],
+    [
+     "lunge",
+     "Lungensucht",
+     "Consumption",
+     "innerlich",
+     "internal",
+     "Hundsfett",
+     "",
+     "175",
+     "b1"
+    ],
+    [
+     "lunge",
+     "Lungensucht",
+     "Consumption",
+     "innerlich",
+     "internal",
+     "isländisches Moos",
+     "",
+     "175",
+     "b1"
+    ],
+    [
+     "leber",
+     "Leberleiden",
+     "Liver complaints",
+     "innerlich",
+     "internal",
+     "Fieberklee",
+     "",
+     "175",
+     "b1"
+    ],
+    [
+     "leber",
+     "Leberleiden",
+     "Liver complaints",
+     "innerlich",
+     "internal",
+     "Gundermann",
+     "",
+     "175",
+     "b1"
+    ],
+    [
+     "magen",
+     "Magenleiden",
+     "Stomach complaints",
+     "innerlich",
+     "internal",
+     "Aloë",
+     "",
+     "175",
+     "b1"
+    ],
+    [
+     "magen",
+     "Magenleiden",
+     "Stomach complaints",
+     "innerlich",
+     "internal",
+     "Anis",
+     "",
+     "175",
+     "b1"
+    ],
+    [
+     "magen",
+     "Magenleiden",
+     "Stomach complaints",
+     "innerlich",
+     "internal",
+     "Arnicamontana",
+     "",
+     "175",
+     "b1"
+    ],
+    [
+     "magen",
+     "Magenleiden",
+     "Stomach complaints",
+     "innerlich",
+     "internal",
+     "Bibernellwurzel",
+     "",
+     "175",
+     "b1"
+    ],
+    [
+     "magen",
+     "Magenleiden",
+     "Stomach complaints",
+     "innerlich",
+     "internal",
+     "Bitterklee",
+     "",
+     "175",
+     "b1"
+    ],
+    [
+     "magen",
+     "Magenleiden",
+     "Stomach complaints",
+     "innerlich",
+     "internal",
+     "Enzianwurzel",
+     "",
+     "175",
+     "b1"
+    ],
+    [
+     "magen",
+     "Magenleiden",
+     "Stomach complaints",
+     "innerlich",
+     "internal",
+     "Ingwer",
+     "",
+     "175",
+     "b1"
+    ],
+    [
+     "magen",
+     "Magenleiden",
+     "Stomach complaints",
+     "innerlich",
+     "internal",
+     "Kalmus",
+     "",
+     "175",
+     "b1"
+    ],
+    [
+     "magen",
+     "Magenleiden",
+     "Stomach complaints",
+     "innerlich",
+     "internal",
+     "Knoblauch",
+     "",
+     "175",
+     "b1"
+    ],
+    [
+     "magen",
+     "Magenleiden",
+     "Stomach complaints",
+     "innerlich",
+     "internal",
+     "Pfeffer",
+     "",
+     "175",
+     "b1"
+    ],
+    [
+     "magen",
+     "Magenleiden",
+     "Stomach complaints",
+     "innerlich",
+     "internal",
+     "Pfeffermünze",
+     "",
+     "175",
+     "b1"
+    ],
+    [
+     "magen",
+     "Magenleiden",
+     "Stomach complaints",
+     "innerlich",
+     "internal",
+     "Pomeranzenschalen",
+     "",
+     "175",
+     "b1"
+    ],
+    [
+     "magen",
+     "Magenleiden",
+     "Stomach complaints",
+     "innerlich",
+     "internal",
+     "Safran",
+     "",
+     "175",
+     "b1"
+    ],
+    [
+     "magen",
+     "Magenleiden",
+     "Stomach complaints",
+     "innerlich",
+     "internal",
+     "Schafgarbe",
+     "",
+     "175",
+     "b1"
+    ],
+    [
+     "magen",
+     "Magenleiden",
+     "Stomach complaints",
+     "innerlich",
+     "internal",
+     "Zimmt",
+     "",
+     "175",
+     "b1"
+    ],
+    [
+     "krampf",
+     "Krampfstillend",
+     "Antispasmodics",
+     "innerlich",
+     "internal",
+     "Baldrian",
+     "",
+     "175",
+     "b1"
+    ],
+    [
+     "krampf",
+     "Krampfstillend",
+     "Antispasmodics",
+     "innerlich",
+     "internal",
+     "Chamille",
+     "",
+     "175",
+     "b1"
+    ],
+    [
+     "krampf",
+     "Krampfstillend",
+     "Antispasmodics",
+     "innerlich",
+     "internal",
+     "Schafgarbe",
+     "",
+     "175",
+     "b1"
+    ],
+    [
+     "blut",
+     "Blutreinigung",
+     "Blood purification",
+     "innerlich",
+     "internal",
+     "Bittersüß",
+     "",
+     "175",
+     "b1"
+    ],
+    [
+     "blut",
+     "Blutreinigung",
+     "Blood purification",
+     "innerlich",
+     "internal",
+     "flores Primulae",
+     "",
+     "175",
+     "b1"
+    ],
+    [
+     "blut",
+     "Blutreinigung",
+     "Blood purification",
+     "innerlich",
+     "internal",
+     "Klettenwurz",
+     "",
+     "175",
+     "b1"
+    ],
+    [
+     "blut",
+     "Blutreinigung",
+     "Blood purification",
+     "innerlich",
+     "internal",
+     "Sassafrasholz",
+     "",
+     "175",
+     "b1"
+    ],
+    [
+     "blut",
+     "Blutreinigung",
+     "Blood purification",
+     "innerlich",
+     "internal",
+     "Wachholder",
+     "",
+     "175",
+     "b1"
+    ],
+    [
+     "wurm",
+     "Würmer",
+     "Worms",
+     "innerlich",
+     "internal",
+     "Brombeeren",
+     "",
+     "175",
+     "b1"
+    ],
+    [
+     "wurm",
+     "Würmer",
+     "Worms",
+     "innerlich",
+     "internal",
+     "gelbe Rüben",
+     "",
+     "175",
+     "b1"
+    ],
+    [
+     "wurm",
+     "Würmer",
+     "Worms",
+     "innerlich",
+     "internal",
+     "Knoblauch",
+     "",
+     "175",
+     "b1"
+    ],
+    [
+     "wurm",
+     "Würmer",
+     "Worms",
+     "innerlich",
+     "internal",
+     "Sauerkrautsbrühe",
+     "",
+     "175",
+     "b1"
+    ],
+    [
+     "wurm",
+     "Würmer",
+     "Worms",
+     "innerlich",
+     "internal",
+     "Wermuthöl",
+     "",
+     "175",
+     "b1"
+    ],
+    [
+     "wurm",
+     "Würmer",
+     "Worms",
+     "innerlich",
+     "internal",
+     "Wurmsame",
+     "",
+     "175",
+     "b1"
+    ],
+    [
+     "blaeh",
+     "Blähung",
+     "Flatulence",
+     "innerlich",
+     "internal",
+     "Anis",
+     "",
+     "175",
+     "b1"
+    ],
+    [
+     "blaeh",
+     "Blähung",
+     "Flatulence",
+     "innerlich",
+     "internal",
+     "Kümmel",
+     "",
+     "175",
+     "b1"
+    ],
+    [
+     "blaeh",
+     "Blähung",
+     "Flatulence",
+     "innerlich",
+     "internal",
+     "Pfeffermünz",
+     "",
+     "175",
+     "b1"
+    ],
+    [
+     "durchfall",
+     "Durchfall",
+     "Diarrhoea",
+     "innerlich",
+     "internal",
+     "Johannisbrod",
+     "",
+     "175",
+     "b1"
+    ],
+    [
+     "durchfall",
+     "Durchfall",
+     "Diarrhoea",
+     "innerlich",
+     "internal",
+     "Leberwurst",
+     "",
+     "175",
+     "b1"
+    ],
+    [
+     "durchfall",
+     "Durchfall",
+     "Diarrhoea",
+     "innerlich",
+     "internal",
+     "Hafergrützschleim",
+     "",
+     "175",
+     "b1"
+    ],
+    [
+     "durchfall",
+     "Durchfall",
+     "Diarrhoea",
+     "innerlich",
+     "internal",
+     "Schwarzbeeren",
+     "gedörrt",
+     "175",
+     "b1"
+    ],
+    [
+     "durchfall",
+     "Durchfall",
+     "Diarrhoea",
+     "innerlich",
+     "internal",
+     "Tormentillwurzel",
+     "bei Tieren",
+     "175",
+     "b1"
+    ],
+    [
+     "ruhr",
+     "Ruhr und Kolik",
+     "Dysentery and colic",
+     "innerlich",
+     "internal",
+     "Branntwein",
+     "",
+     "175",
+     "b1"
+    ],
+    [
+     "ruhr",
+     "Ruhr und Kolik",
+     "Dysentery and colic",
+     "innerlich",
+     "internal",
+     "Buttermilch",
+     "",
+     "175",
+     "b1"
+    ],
+    [
+     "ruhr",
+     "Ruhr und Kolik",
+     "Dysentery and colic",
+     "innerlich",
+     "internal",
+     "Pfeffer",
+     "",
+     "175",
+     "b1"
+    ],
+    [
+     "schweiss",
+     "Nachtschweiß",
+     "Night sweats",
+     "innerlich",
+     "internal",
+     "Sadebaumspitzen",
+     "",
+     "175",
+     "b1"
+    ],
+    [
+     "schweiss",
+     "Nachtschweiß",
+     "Night sweats",
+     "innerlich",
+     "internal",
+     "Salbei",
+     "",
+     "175",
+     "b1"
+    ],
+    [
+     "epilepsie",
+     "Epilepsie",
+     "Epilepsy",
+     "innerlich",
+     "internal",
+     "Elendsklaue",
+     "gepulvert",
+     "175",
+     "b1"
+    ],
+    [
+     "abort",
+     "Abtreibung",
+     "Abortifacients",
+     "innerlich",
+     "internal",
+     "Buxbaum",
+     "",
+     "175",
+     "b1"
+    ],
+    [
+     "abort",
+     "Abtreibung",
+     "Abortifacients",
+     "innerlich",
+     "internal",
+     "Paradieskörner",
+     "",
+     "175",
+     "b1"
+    ],
+    [
+     "aussen",
+     "Äußere Übel",
+     "External ailments",
+     "äußerlich",
+     "external",
+     "Alaun",
+     "",
+     "175",
+     "b1"
+    ],
+    [
+     "aussen",
+     "Äußere Übel",
+     "External ailments",
+     "äußerlich",
+     "external",
+     "Ameisenspiritus",
+     "",
+     "175",
+     "b1"
+    ],
+    [
+     "aussen",
+     "Äußere Übel",
+     "External ailments",
+     "äußerlich",
+     "external",
+     "Ampfer",
+     "",
+     "175",
+     "b1"
+    ],
+    [
+     "aussen",
+     "Äußere Übel",
+     "External ailments",
+     "äußerlich",
+     "external",
+     "Angelicaspiritus",
+     "",
+     "175",
+     "b1"
+    ],
+    [
+     "aussen",
+     "Äußere Übel",
+     "External ailments",
+     "äußerlich",
+     "external",
+     "Anisöl",
+     "",
+     "175",
+     "b1"
+    ],
+    [
+     "aussen",
+     "Äußere Übel",
+     "External ailments",
+     "äußerlich",
+     "external",
+     "Arnica",
+     "",
+     "175",
+     "b1"
+    ],
+    [
+     "aussen",
+     "Äußere Übel",
+     "External ailments",
+     "äußerlich",
+     "external",
+     "Aschenlauge",
+     "",
+     "175",
+     "b1"
+    ],
+    [
+     "aussen",
+     "Äußere Übel",
+     "External ailments",
+     "äußerlich",
+     "external",
+     "Bärlappsamen",
+     "",
+     "175",
+     "b1"
+    ],
+    [
+     "aussen",
+     "Äußere Übel",
+     "External ailments",
+     "äußerlich",
+     "external",
+     "Benzoëtinctur",
+     "",
+     "175",
+     "b1"
+    ],
+    [
+     "aussen",
+     "Äußere Übel",
+     "External ailments",
+     "äußerlich",
+     "external",
+     "Blatterpflaster",
+     "",
+     "175",
+     "b1"
+    ],
+    [
+     "aussen",
+     "Äußere Übel",
+     "External ailments",
+     "äußerlich",
+     "external",
+     "Bleisalbe",
+     "",
+     "175",
+     "b1"
+    ],
+    [
+     "aussen",
+     "Äußere Übel",
+     "External ailments",
+     "äußerlich",
+     "external",
+     "Bohnenmehl",
+     "",
+     "175",
+     "b1"
+    ],
+    [
+     "aussen",
+     "Äußere Übel",
+     "External ailments",
+     "äußerlich",
+     "external",
+     "Butter",
+     "neuntägige",
+     "175",
+     "b1"
+    ],
+    [
+     "aussen",
+     "Äußere Übel",
+     "External ailments",
+     "äußerlich",
+     "external",
+     "Chamillen",
+     "",
+     "175",
+     "b1"
+    ],
+    [
+     "aussen",
+     "Äußere Übel",
+     "External ailments",
+     "äußerlich",
+     "external",
+     "Diachylonpflaster",
+     "",
+     "175",
+     "b1"
+    ],
+    [
+     "aussen",
+     "Äußere Übel",
+     "External ailments",
+     "äußerlich",
+     "external",
+     "Dürrband",
+     "",
+     "175",
+     "b1"
+    ],
+    [
+     "aussen",
+     "Äußere Übel",
+     "External ailments",
+     "äußerlich",
+     "external",
+     "Eiweiß",
+     "",
+     "175",
+     "b1"
+    ],
+    [
+     "aussen",
+     "Äußere Übel",
+     "External ailments",
+     "äußerlich",
+     "external",
+     "Essig",
+     "",
+     "175",
+     "b1"
+    ],
+    [
+     "aussen",
+     "Äußere Übel",
+     "External ailments",
+     "äußerlich",
+     "external",
+     "Feigen",
+     "",
+     "175",
+     "b1"
+    ],
+    [
+     "aussen",
+     "Äußere Übel",
+     "External ailments",
+     "äußerlich",
+     "external",
+     "Fensterschweiß",
+     "",
+     "175",
+     "b1"
+    ],
+    [
+     "aussen",
+     "Äußere Übel",
+     "External ailments",
+     "äußerlich",
+     "external",
+     "Hanf",
+     "",
+     "175",
+     "b1"
+    ],
+    [
+     "aussen",
+     "Äußere Übel",
+     "External ailments",
+     "äußerlich",
+     "external",
+     "Hefe",
+     "",
+     "175",
+     "b1"
+    ],
+    [
+     "aussen",
+     "Äußere Übel",
+     "External ailments",
+     "äußerlich",
+     "external",
+     "Hirschunschlitt",
+     "",
+     "175",
+     "b1"
+    ],
+    [
+     "aussen",
+     "Äußere Übel",
+     "External ailments",
+     "äußerlich",
+     "external",
+     "Jodsalbe",
+     "",
+     "175",
+     "b1"
+    ],
+    [
+     "aussen",
+     "Äußere Übel",
+     "External ailments",
+     "äußerlich",
+     "external",
+     "Johanniskrautöl",
+     "",
+     "175",
+     "b1"
+    ],
+    [
+     "aussen",
+     "Äußere Übel",
+     "External ailments",
+     "äußerlich",
+     "external",
+     "Kampher",
+     "",
+     "175",
+     "b1"
+    ],
+    [
+     "aussen",
+     "Äußere Übel",
+     "External ailments",
+     "äußerlich",
+     "external",
+     "Kartoffeln",
+     "",
+     "175",
+     "b1"
+    ],
+    [
+     "aussen",
+     "Äußere Übel",
+     "External ailments",
+     "äußerlich",
+     "external",
+     "Krätzsalbe",
+     "",
+     "175",
+     "b1"
+    ],
+    [
+     "aussen",
+     "Äußere Übel",
+     "External ailments",
+     "äußerlich",
+     "external",
+     "Krebsauge",
+     "",
+     "175",
+     "b1"
+    ],
+    [
+     "aussen",
+     "Äußere Übel",
+     "External ailments",
+     "äußerlich",
+     "external",
+     "Leinsamen",
+     "",
+     "175",
+     "b1"
+    ],
+    [
+     "aussen",
+     "Äußere Übel",
+     "External ailments",
+     "äußerlich",
+     "external",
+     "Löffelkrautspiritus",
+     "",
+     "175",
+     "b1"
+    ],
+    [
+     "aussen",
+     "Äußere Übel",
+     "External ailments",
+     "äußerlich",
+     "external",
+     "Lorbeeröl",
+     "",
+     "175",
+     "b1"
+    ],
+    [
+     "aussen",
+     "Äußere Übel",
+     "External ailments",
+     "äußerlich",
+     "external",
+     "Majorsansalbe",
+     "",
+     "175",
+     "b1"
+    ],
+    [
+     "aussen",
+     "Äußere Übel",
+     "External ailments",
+     "äußerlich",
+     "external",
+     "Mutterpflaster",
+     "",
+     "175",
+     "b1"
+    ],
+    [
+     "aussen",
+     "Äußere Übel",
+     "External ailments",
+     "äußerlich",
+     "external",
+     "Nervensalbe",
+     "",
+     "175",
+     "b1"
+    ],
+    [
+     "aussen",
+     "Äußere Übel",
+     "External ailments",
+     "äußerlich",
+     "external",
+     "Opodeldok",
+     "",
+     "175",
+     "b1"
+    ],
+    [
+     "aussen",
+     "Äußere Übel",
+     "External ailments",
+     "äußerlich",
+     "external",
+     "Pappelsalbe",
+     "",
+     "175",
+     "b1"
+    ],
+    [
+     "aussen",
+     "Äußere Übel",
+     "External ailments",
+     "äußerlich",
+     "external",
+     "Pech",
+     "",
+     "175",
+     "b1"
+    ],
+    [
+     "aussen",
+     "Äußere Übel",
+     "External ailments",
+     "äußerlich",
+     "external",
+     "Rosmaringeist",
+     "",
+     "175",
+     "b1"
+    ],
+    [
+     "aussen",
+     "Äußere Übel",
+     "External ailments",
+     "äußerlich",
+     "external",
+     "Salmiakgeist",
+     "",
+     "175",
+     "b1"
+    ],
+    [
+     "aussen",
+     "Äußere Übel",
+     "External ailments",
+     "äußerlich",
+     "external",
+     "Schabstein",
+     "",
+     "175",
+     "b1"
+    ],
+    [
+     "aussen",
+     "Äußere Übel",
+     "External ailments",
+     "äußerlich",
+     "external",
+     "Schöllkraut",
+     "",
+     "175",
+     "b1"
+    ],
+    [
+     "aussen",
+     "Äußere Übel",
+     "External ailments",
+     "äußerlich",
+     "external",
+     "Schwefelbalsam",
+     "",
+     "175",
+     "b1"
+    ],
+    [
+     "aussen",
+     "Äußere Übel",
+     "External ailments",
+     "äußerlich",
+     "external",
+     "Schwefelblüthen",
+     "",
+     "175",
+     "b1"
+    ],
+    [
+     "aussen",
+     "Äußere Übel",
+     "External ailments",
+     "äußerlich",
+     "external",
+     "Schweinefett",
+     "",
+     "175",
+     "b1"
+    ],
+    [
+     "aussen",
+     "Äußere Übel",
+     "External ailments",
+     "äußerlich",
+     "external",
+     "Seidelbast",
+     "",
+     "175",
+     "b1"
+    ],
+    [
+     "aussen",
+     "Äußere Übel",
+     "External ailments",
+     "äußerlich",
+     "external",
+     "Seifenspiritus",
+     "",
+     "175",
+     "b1"
+    ],
+    [
+     "aussen",
+     "Äußere Übel",
+     "External ailments",
+     "äußerlich",
+     "external",
+     "Senf",
+     "",
+     "175",
+     "b1"
+    ],
+    [
+     "aussen",
+     "Äußere Übel",
+     "External ailments",
+     "äußerlich",
+     "external",
+     "Taubenmist",
+     "",
+     "175",
+     "b1"
+    ],
+    [
+     "aussen",
+     "Äußere Übel",
+     "External ailments",
+     "äußerlich",
+     "external",
+     "Terpentinöl",
+     "",
+     "175",
+     "b1"
+    ],
+    [
+     "aussen",
+     "Äußere Übel",
+     "External ailments",
+     "äußerlich",
+     "external",
+     "Urin",
+     "",
+     "175",
+     "b1"
+    ],
+    [
+     "aussen",
+     "Äußere Übel",
+     "External ailments",
+     "äußerlich",
+     "external",
+     "Wachs",
+     "",
+     "175",
+     "b1"
+    ],
+    [
+     "aussen",
+     "Äußere Übel",
+     "External ailments",
+     "äußerlich",
+     "external",
+     "warmer Kuhmist",
+     "",
+     "175",
+     "b1"
+    ],
+    [
+     "aussen",
+     "Äußere Übel",
+     "External ailments",
+     "äußerlich",
+     "external",
+     "Werg",
+     "",
+     "175",
+     "b1"
+    ],
+    [
+     "aussen",
+     "Äußere Übel",
+     "External ailments",
+     "äußerlich",
+     "external",
+     "Wermuthöl",
+     "",
+     "175",
+     "b1"
+    ],
+    [
+     "aussen",
+     "Äußere Übel",
+     "External ailments",
+     "äußerlich",
+     "external",
+     "Wollgras",
+     "",
+     "175",
+     "b1"
+    ],
+    [
+     "haus",
+     "Hausapotheke (allgemeine Hausmittel)",
+     "Household remedies (general)",
+     "allgemein",
+     "general",
+     "Ackerwinde",
+     "",
+     "174",
+     "b2"
+    ],
+    [
+     "haus",
+     "Hausapotheke (allgemeine Hausmittel)",
+     "Household remedies (general)",
+     "allgemein",
+     "general",
+     "Alantwurzel",
+     "",
+     "174",
+     "b2"
+    ],
+    [
+     "haus",
+     "Hausapotheke (allgemeine Hausmittel)",
+     "Household remedies (general)",
+     "allgemein",
+     "general",
+     "Allermannsharnisch",
+     "",
+     "174",
+     "b2"
+    ],
+    [
+     "haus",
+     "Hausapotheke (allgemeine Hausmittel)",
+     "Household remedies (general)",
+     "allgemein",
+     "general",
+     "Ameisenspiritus",
+     "",
+     "174",
+     "b2"
+    ],
+    [
+     "haus",
+     "Hausapotheke (allgemeine Hausmittel)",
+     "Household remedies (general)",
+     "allgemein",
+     "general",
+     "Anis",
+     "",
+     "174",
+     "b2"
+    ],
+    [
+     "haus",
+     "Hausapotheke (allgemeine Hausmittel)",
+     "Household remedies (general)",
+     "allgemein",
+     "general",
+     "Asche",
+     "",
+     "174",
+     "b2"
+    ],
+    [
+     "haus",
+     "Hausapotheke (allgemeine Hausmittel)",
+     "Household remedies (general)",
+     "allgemein",
+     "general",
+     "Bärenkümmel",
+     "",
+     "174",
+     "b2"
+    ],
+    [
+     "haus",
+     "Hausapotheke (allgemeine Hausmittel)",
+     "Household remedies (general)",
+     "allgemein",
+     "general",
+     "Bärlappsamen",
+     "",
+     "174",
+     "b2"
+    ],
+    [
+     "haus",
+     "Hausapotheke (allgemeine Hausmittel)",
+     "Household remedies (general)",
+     "allgemein",
+     "general",
+     "Besenginster",
+     "",
+     "174",
+     "b2"
+    ],
+    [
+     "haus",
+     "Hausapotheke (allgemeine Hausmittel)",
+     "Household remedies (general)",
+     "allgemein",
+     "general",
+     "Bierwürze",
+     "",
+     "174",
+     "b2"
+    ],
+    [
+     "haus",
+     "Hausapotheke (allgemeine Hausmittel)",
+     "Household remedies (general)",
+     "allgemein",
+     "general",
+     "Bleiweiß",
+     "",
+     "174",
+     "b2"
+    ],
+    [
+     "haus",
+     "Hausapotheke (allgemeine Hausmittel)",
+     "Household remedies (general)",
+     "allgemein",
+     "general",
+     "Branntwein",
+     "",
+     "174",
+     "b2"
+    ],
+    [
+     "haus",
+     "Hausapotheke (allgemeine Hausmittel)",
+     "Household remedies (general)",
+     "allgemein",
+     "general",
+     "Brennnesseln",
+     "",
+     "174",
+     "b2"
+    ],
+    [
+     "haus",
+     "Hausapotheke (allgemeine Hausmittel)",
+     "Household remedies (general)",
+     "allgemein",
+     "general",
+     "Brombeeren",
+     "",
+     "174",
+     "b2"
+    ],
+    [
+     "haus",
+     "Hausapotheke (allgemeine Hausmittel)",
+     "Household remedies (general)",
+     "allgemein",
+     "general",
+     "Butter",
+     "neuntägige",
+     "174",
+     "b2"
+    ],
+    [
+     "haus",
+     "Hausapotheke (allgemeine Hausmittel)",
+     "Household remedies (general)",
+     "allgemein",
+     "general",
+     "Chamillen",
+     "",
+     "174",
+     "b2"
+    ],
+    [
+     "haus",
+     "Hausapotheke (allgemeine Hausmittel)",
+     "Household remedies (general)",
+     "allgemein",
+     "general",
+     "Dorant",
+     "",
+     "174",
+     "b2"
+    ],
+    [
+     "haus",
+     "Hausapotheke (allgemeine Hausmittel)",
+     "Household remedies (general)",
+     "allgemein",
+     "general",
+     "Dosten",
+     "",
+     "174",
+     "b2"
+    ],
+    [
+     "haus",
+     "Hausapotheke (allgemeine Hausmittel)",
+     "Household remedies (general)",
+     "allgemein",
+     "general",
+     "Eibisch",
+     "",
+     "174",
+     "b2"
+    ],
+    [
+     "haus",
+     "Hausapotheke (allgemeine Hausmittel)",
+     "Household remedies (general)",
+     "allgemein",
+     "general",
+     "Eicheln",
+     "",
+     "174",
+     "b2"
+    ],
+    [
+     "haus",
+     "Hausapotheke (allgemeine Hausmittel)",
+     "Household remedies (general)",
+     "allgemein",
+     "general",
+     "Eichenrinde",
+     "",
+     "174",
+     "b2"
+    ],
+    [
+     "haus",
+     "Hausapotheke (allgemeine Hausmittel)",
+     "Household remedies (general)",
+     "allgemein",
+     "general",
+     "Essig",
+     "",
+     "174",
+     "b2"
+    ],
+    [
+     "haus",
+     "Hausapotheke (allgemeine Hausmittel)",
+     "Household remedies (general)",
+     "allgemein",
+     "general",
+     "Fenchel",
+     "",
+     "174",
+     "b2"
+    ],
+    [
+     "haus",
+     "Hausapotheke (allgemeine Hausmittel)",
+     "Household remedies (general)",
+     "allgemein",
+     "general",
+     "Gewürznelken",
+     "",
+     "174",
+     "b2"
+    ],
+    [
+     "haus",
+     "Hausapotheke (allgemeine Hausmittel)",
+     "Household remedies (general)",
+     "allgemein",
+     "general",
+     "Hagebutten",
+     "",
+     "174",
+     "b2"
+    ],
+    [
+     "haus",
+     "Hausapotheke (allgemeine Hausmittel)",
+     "Household remedies (general)",
+     "allgemein",
+     "general",
+     "Hauslaub",
+     "",
+     "174",
+     "b2"
+    ],
+    [
+     "haus",
+     "Hausapotheke (allgemeine Hausmittel)",
+     "Household remedies (general)",
+     "allgemein",
+     "general",
+     "Hefe",
+     "",
+     "174",
+     "b2"
+    ],
+    [
+     "haus",
+     "Hausapotheke (allgemeine Hausmittel)",
+     "Household remedies (general)",
+     "allgemein",
+     "general",
+     "Heide",
+     "",
+     "174",
+     "b2"
+    ],
+    [
+     "haus",
+     "Hausapotheke (allgemeine Hausmittel)",
+     "Household remedies (general)",
+     "allgemein",
+     "general",
+     "Hollunder",
+     "",
+     "174",
+     "b2"
+    ],
+    [
+     "haus",
+     "Hausapotheke (allgemeine Hausmittel)",
+     "Household remedies (general)",
+     "allgemein",
+     "general",
+     "Honig",
+     "",
+     "174",
+     "b2"
+    ],
+    [
+     "haus",
+     "Hausapotheke (allgemeine Hausmittel)",
+     "Household remedies (general)",
+     "allgemein",
+     "general",
+     "Ingwer",
+     "",
+     "174",
+     "b2"
+    ],
+    [
+     "haus",
+     "Hausapotheke (allgemeine Hausmittel)",
+     "Household remedies (general)",
+     "allgemein",
+     "general",
+     "Johannisblumen",
+     "",
+     "174",
+     "b2"
+    ],
+    [
+     "haus",
+     "Hausapotheke (allgemeine Hausmittel)",
+     "Household remedies (general)",
+     "allgemein",
+     "general",
+     "Kaffee",
+     "",
+     "174",
+     "b2"
+    ],
+    [
+     "haus",
+     "Hausapotheke (allgemeine Hausmittel)",
+     "Household remedies (general)",
+     "allgemein",
+     "general",
+     "Kalmus",
+     "",
+     "174",
+     "b2"
+    ],
+    [
+     "haus",
+     "Hausapotheke (allgemeine Hausmittel)",
+     "Household remedies (general)",
+     "allgemein",
+     "general",
+     "Kampfer",
+     "",
+     "174",
+     "b2"
+    ],
+    [
+     "haus",
+     "Hausapotheke (allgemeine Hausmittel)",
+     "Household remedies (general)",
+     "allgemein",
+     "general",
+     "Klettenwurzel",
+     "",
+     "174",
+     "b2"
+    ],
+    [
+     "haus",
+     "Hausapotheke (allgemeine Hausmittel)",
+     "Household remedies (general)",
+     "allgemein",
+     "general",
+     "Knoblauch",
+     "",
+     "174",
+     "b2"
+    ],
+    [
+     "haus",
+     "Hausapotheke (allgemeine Hausmittel)",
+     "Household remedies (general)",
+     "allgemein",
+     "general",
+     "Knochenmark",
+     "",
+     "174",
+     "b2"
+    ],
+    [
+     "haus",
+     "Hausapotheke (allgemeine Hausmittel)",
+     "Household remedies (general)",
+     "allgemein",
+     "general",
+     "Kochsalz",
+     "",
+     "174",
+     "b2"
+    ],
+    [
+     "haus",
+     "Hausapotheke (allgemeine Hausmittel)",
+     "Household remedies (general)",
+     "allgemein",
+     "general",
+     "Krausemünze",
+     "",
+     "174",
+     "b2"
+    ],
+    [
+     "haus",
+     "Hausapotheke (allgemeine Hausmittel)",
+     "Household remedies (general)",
+     "allgemein",
+     "general",
+     "Kreuzbeeren",
+     "",
+     "174",
+     "b2"
+    ],
+    [
+     "haus",
+     "Hausapotheke (allgemeine Hausmittel)",
+     "Household remedies (general)",
+     "allgemein",
+     "general",
+     "Kümmel",
+     "",
+     "174",
+     "b2"
+    ],
+    [
+     "haus",
+     "Hausapotheke (allgemeine Hausmittel)",
+     "Household remedies (general)",
+     "allgemein",
+     "general",
+     "Leinsamen",
+     "",
+     "174",
+     "b2"
+    ],
+    [
+     "haus",
+     "Hausapotheke (allgemeine Hausmittel)",
+     "Household remedies (general)",
+     "allgemein",
+     "general",
+     "Lilienöl",
+     "",
+     "174",
+     "b2"
+    ],
+    [
+     "haus",
+     "Hausapotheke (allgemeine Hausmittel)",
+     "Household remedies (general)",
+     "allgemein",
+     "general",
+     "Lindenblüthen",
+     "",
+     "174",
+     "b2"
+    ],
+    [
+     "haus",
+     "Hausapotheke (allgemeine Hausmittel)",
+     "Household remedies (general)",
+     "allgemein",
+     "general",
+     "Malven",
+     "",
+     "174",
+     "b2"
+    ],
+    [
+     "haus",
+     "Hausapotheke (allgemeine Hausmittel)",
+     "Household remedies (general)",
+     "allgemein",
+     "general",
+     "Malz",
+     "",
+     "174",
+     "b2"
+    ],
+    [
+     "haus",
+     "Hausapotheke (allgemeine Hausmittel)",
+     "Household remedies (general)",
+     "allgemein",
+     "general",
+     "Mariendistel",
+     "",
+     "174",
+     "b2"
+    ],
+    [
+     "haus",
+     "Hausapotheke (allgemeine Hausmittel)",
+     "Household remedies (general)",
+     "allgemein",
+     "general",
+     "Melisse",
+     "",
+     "174",
+     "b2"
+    ],
+    [
+     "haus",
+     "Hausapotheke (allgemeine Hausmittel)",
+     "Household remedies (general)",
+     "allgemein",
+     "general",
+     "Nießwurz",
+     "",
+     "174",
+     "b2"
+    ],
+    [
+     "haus",
+     "Hausapotheke (allgemeine Hausmittel)",
+     "Household remedies (general)",
+     "allgemein",
+     "general",
+     "Petersilie",
+     "",
+     "174",
+     "b2"
+    ],
+    [
+     "haus",
+     "Hausapotheke (allgemeine Hausmittel)",
+     "Household remedies (general)",
+     "allgemein",
+     "general",
+     "Pfeffer",
+     "",
+     "174",
+     "b2"
+    ],
+    [
+     "haus",
+     "Hausapotheke (allgemeine Hausmittel)",
+     "Household remedies (general)",
+     "allgemein",
+     "general",
+     "Pfeffermünze",
+     "",
+     "174",
+     "b2"
+    ],
+    [
+     "haus",
+     "Hausapotheke (allgemeine Hausmittel)",
+     "Household remedies (general)",
+     "allgemein",
+     "general",
+     "Rettig",
+     "",
+     "174",
+     "b2"
+    ],
+    [
+     "haus",
+     "Hausapotheke (allgemeine Hausmittel)",
+     "Household remedies (general)",
+     "allgemein",
+     "general",
+     "Safran",
+     "",
+     "174",
+     "b2"
+    ],
+    [
+     "haus",
+     "Hausapotheke (allgemeine Hausmittel)",
+     "Household remedies (general)",
+     "allgemein",
+     "general",
+     "Salbei",
+     "",
+     "174",
+     "b2"
+    ],
+    [
+     "haus",
+     "Hausapotheke (allgemeine Hausmittel)",
+     "Household remedies (general)",
+     "allgemein",
+     "general",
+     "Sannickel",
+     "",
+     "174",
+     "b2"
+    ],
+    [
+     "haus",
+     "Hausapotheke (allgemeine Hausmittel)",
+     "Household remedies (general)",
+     "allgemein",
+     "general",
+     "Sauerkrautbrühe",
+     "",
+     "174",
+     "b2"
+    ],
+    [
+     "haus",
+     "Hausapotheke (allgemeine Hausmittel)",
+     "Household remedies (general)",
+     "allgemein",
+     "general",
+     "Schafgarbe",
+     "",
+     "174",
+     "b2"
+    ],
+    [
+     "haus",
+     "Hausapotheke (allgemeine Hausmittel)",
+     "Household remedies (general)",
+     "allgemein",
+     "general",
+     "Scheuergras",
+     "",
+     "174",
+     "b2"
+    ],
+    [
+     "haus",
+     "Hausapotheke (allgemeine Hausmittel)",
+     "Household remedies (general)",
+     "allgemein",
+     "general",
+     "Schlehdornblüthen",
+     "",
+     "174",
+     "b2"
+    ],
+    [
+     "haus",
+     "Hausapotheke (allgemeine Hausmittel)",
+     "Household remedies (general)",
+     "allgemein",
+     "general",
+     "Schuhpech",
+     "",
+     "174",
+     "b2"
+    ],
+    [
+     "haus",
+     "Hausapotheke (allgemeine Hausmittel)",
+     "Household remedies (general)",
+     "allgemein",
+     "general",
+     "Schwarzbeeren",
+     "",
+     "174",
+     "b2"
+    ],
+    [
+     "haus",
+     "Hausapotheke (allgemeine Hausmittel)",
+     "Household remedies (general)",
+     "allgemein",
+     "general",
+     "Senf",
+     "",
+     "174",
+     "b2"
+    ],
+    [
+     "haus",
+     "Hausapotheke (allgemeine Hausmittel)",
+     "Household remedies (general)",
+     "allgemein",
+     "general",
+     "Sumpfgarbe",
+     "",
+     "174",
+     "b2"
+    ],
+    [
+     "haus",
+     "Hausapotheke (allgemeine Hausmittel)",
+     "Household remedies (general)",
+     "allgemein",
+     "general",
+     "Tausendgüldenkraut",
+     "",
+     "174",
+     "b2"
+    ],
+    [
+     "haus",
+     "Hausapotheke (allgemeine Hausmittel)",
+     "Household remedies (general)",
+     "allgemein",
+     "general",
+     "Wachholder",
+     "",
+     "174",
+     "b2"
+    ],
+    [
+     "haus",
+     "Hausapotheke (allgemeine Hausmittel)",
+     "Household remedies (general)",
+     "allgemein",
+     "general",
+     "Wegerich",
+     "",
+     "174",
+     "b2"
+    ],
+    [
+     "haus",
+     "Hausapotheke (allgemeine Hausmittel)",
+     "Household remedies (general)",
+     "allgemein",
+     "general",
+     "Zimmt",
+     "",
+     "174",
+     "b2"
+    ],
+    [
+     "haus",
+     "Hausapotheke (allgemeine Hausmittel)",
+     "Household remedies (general)",
+     "allgemein",
+     "general",
+     "Zitronen",
+     "",
+     "174",
+     "b2"
+    ],
+    [
+     "haus",
+     "Hausapotheke (allgemeine Hausmittel)",
+     "Household remedies (general)",
+     "allgemein",
+     "general",
+     "Zucker",
+     "",
+     "174",
+     "b2"
+    ],
+    [
+     "haus",
+     "Hausapotheke (allgemeine Hausmittel)",
+     "Household remedies (general)",
+     "allgemein",
+     "general",
+     "Zwetschen",
+     "",
+     "174",
+     "b2"
+    ],
+    [
+     "haus",
+     "Hausapotheke (allgemeine Hausmittel)",
+     "Household remedies (general)",
+     "allgemein",
+     "general",
+     "Zwiebeln",
+     "",
+     "174",
+     "b2"
+    ]
+   ],
+   "source_refs": [
+    {
+     "page": "174",
+     "block": "b2"
+    },
+    {
+     "page": "174",
+     "block": "b3"
+    },
+    {
+     "page": "175",
+     "block": "b1"
+    }
+   ]
+  },
+  {
+   "name": "use_counts",
+   "title": {
+    "de": "Zahl der Mittel je Leiden",
+    "en": "Number of remedies per ailment"
+   },
+   "columns": [
+    {
+     "name": "use_de",
+     "label": {
+      "de": "Leiden / Anwendung (de)",
+      "en": "Ailment / use (de)"
+     },
+     "type": "string",
+     "unit": null,
+     "derived": true
+    },
+    {
+     "name": "use_en",
+     "label": {
+      "de": "Leiden / Anwendung (en)",
+      "en": "Ailment / use (en)"
+     },
+     "type": "string",
+     "unit": null,
+     "derived": true
+    },
+    {
+     "name": "scope_de",
+     "label": {
+      "de": "Anwendung (de)",
+      "en": "Application (de)"
+     },
+     "type": "string",
+     "unit": null,
+     "derived": true
+    },
+    {
+     "name": "scope_en",
+     "label": {
+      "de": "Anwendung (en)",
+      "en": "Application (en)"
+     },
+     "type": "string",
+     "unit": null,
+     "derived": true
+    },
+    {
+     "name": "remedies",
+     "label": {
+      "de": "Zahl der Mittel",
+      "en": "Number of remedies"
+     },
+     "type": "integer",
+     "unit": "Mittel",
+     "derived": true
+    }
+   ],
+   "rows": [
+    [
+     "Abführung",
+     "Laxatives",
+     "innerlich",
+     "internal",
+     10
+    ],
+    [
+     "Harn treibend",
+     "Diuretics",
+     "innerlich",
+     "internal",
+     5
+    ],
+    [
+     "Brustmittel",
+     "Chest remedies",
+     "innerlich",
+     "internal",
+     19
+    ],
+    [
+     "Lungensucht",
+     "Consumption",
+     "innerlich",
+     "internal",
+     2
+    ],
+    [
+     "Leberleiden",
+     "Liver complaints",
+     "innerlich",
+     "internal",
+     2
+    ],
+    [
+     "Magenleiden",
+     "Stomach complaints",
+     "innerlich",
+     "internal",
+     15
+    ],
+    [
+     "Krampfstillend",
+     "Antispasmodics",
+     "innerlich",
+     "internal",
+     3
+    ],
+    [
+     "Blutreinigung",
+     "Blood purification",
+     "innerlich",
+     "internal",
+     5
+    ],
+    [
+     "Würmer",
+     "Worms",
+     "innerlich",
+     "internal",
+     6
+    ],
+    [
+     "Blähung",
+     "Flatulence",
+     "innerlich",
+     "internal",
+     3
+    ],
+    [
+     "Durchfall",
+     "Diarrhoea",
+     "innerlich",
+     "internal",
+     5
+    ],
+    [
+     "Ruhr und Kolik",
+     "Dysentery and colic",
+     "innerlich",
+     "internal",
+     3
+    ],
+    [
+     "Nachtschweiß",
+     "Night sweats",
+     "innerlich",
+     "internal",
+     2
+    ],
+    [
+     "Epilepsie",
+     "Epilepsy",
+     "innerlich",
+     "internal",
+     1
+    ],
+    [
+     "Abtreibung",
+     "Abortifacients",
+     "innerlich",
+     "internal",
+     2
+    ],
+    [
+     "Äußere Übel",
+     "External ailments",
+     "äußerlich",
+     "external",
+     56
+    ],
+    [
+     "Hausapotheke (allgemeine Hausmittel)",
+     "Household remedies (general)",
+     "allgemein",
+     "general",
+     73
+    ]
+   ],
+   "source_refs": [
+    {
+     "page": "174",
+     "block": "b2"
+    },
+    {
+     "page": "174",
+     "block": "b3"
+    },
+    {
+     "page": "175",
+     "block": "b1"
+    }
+   ]
+  },
+  {
+   "name": "multi",
+   "title": {
+    "de": "Mittel für mehrere Leiden",
+    "en": "Remedies used for several ailments"
+   },
+   "columns": [
+    {
+     "name": "remedy",
+     "label": {
+      "de": "Mittel",
+      "en": "Remedy"
+     },
+     "type": "string",
+     "unit": null,
+     "derived": true
+    },
+    {
+     "name": "ailments",
+     "label": {
+      "de": "Zahl der Leiden des Mittels",
+      "en": "Number of ailments of the remedy"
+     },
+     "type": "integer",
+     "unit": "Leiden",
+     "derived": true
+    },
+    {
+     "name": "in_household",
+     "label": {
+      "de": "Auch in der Hausapotheke (1 = ja)",
+      "en": "Also in the household pharmacy (1 = yes)"
+     },
+     "type": "integer",
+     "unit": null,
+     "derived": true
+    },
+    {
+     "name": "household_de",
+     "label": {
+      "de": "Hausapotheke (de)",
+      "en": "Household pharmacy (de)"
+     },
+     "type": "string",
+     "unit": null,
+     "derived": true
+    },
+    {
+     "name": "household_en",
+     "label": {
+      "de": "Hausapotheke (en)",
+      "en": "Household pharmacy (en)"
+     },
+     "type": "string",
+     "unit": null,
+     "derived": true
+    },
+    {
+     "name": "use_de",
+     "label": {
+      "de": "Leiden / Anwendung (de)",
+      "en": "Ailment / use (de)"
+     },
+     "type": "string",
+     "unit": null,
+     "derived": true
+    },
+    {
+     "name": "use_en",
+     "label": {
+      "de": "Leiden / Anwendung (en)",
+      "en": "Ailment / use (en)"
+     },
+     "type": "string",
+     "unit": null,
+     "derived": true
+    }
+   ],
+   "rows": [
+    [
+     "Aloë",
+     2,
+     0,
+     "nur in den Einzellisten",
+     "only in the individual lists",
+     "Abführung",
+     "Laxatives"
+    ],
+    [
+     "Aloë",
+     2,
+     0,
+     "nur in den Einzellisten",
+     "only in the individual lists",
+     "Magenleiden",
+     "Stomach complaints"
+    ],
+    [
+     "Anis",
+     2,
+     1,
+     "auch in der Hausapotheke",
+     "also in the household pharmacy",
+     "Magenleiden",
+     "Stomach complaints"
+    ],
+    [
+     "Anis",
+     2,
+     1,
+     "auch in der Hausapotheke",
+     "also in the household pharmacy",
+     "Blähung",
+     "Flatulence"
+    ],
+    [
+     "Arnica",
+     2,
+     0,
+     "nur in den Einzellisten",
+     "only in the individual lists",
+     "Magenleiden",
+     "Stomach complaints"
+    ],
+    [
+     "Arnica",
+     2,
+     0,
+     "nur in den Einzellisten",
+     "only in the individual lists",
+     "Äußere Übel",
+     "External ailments"
+    ],
+    [
+     "Buttermilch",
+     2,
+     0,
+     "nur in den Einzellisten",
+     "only in the individual lists",
+     "Abführung",
+     "Laxatives"
+    ],
+    [
+     "Buttermilch",
+     2,
+     0,
+     "nur in den Einzellisten",
+     "only in the individual lists",
+     "Ruhr und Kolik",
+     "Dysentery and colic"
+    ],
+    [
+     "Chamille",
+     2,
+     1,
+     "auch in der Hausapotheke",
+     "also in the household pharmacy",
+     "Krampfstillend",
+     "Antispasmodics"
+    ],
+    [
+     "Chamille",
+     2,
+     1,
+     "auch in der Hausapotheke",
+     "also in the household pharmacy",
+     "Äußere Übel",
+     "External ailments"
+    ],
+    [
+     "Knoblauch",
+     2,
+     1,
+     "auch in der Hausapotheke",
+     "also in the household pharmacy",
+     "Magenleiden",
+     "Stomach complaints"
+    ],
+    [
+     "Knoblauch",
+     2,
+     1,
+     "auch in der Hausapotheke",
+     "also in the household pharmacy",
+     "Würmer",
+     "Worms"
+    ],
+    [
+     "Pfeffer",
+     2,
+     1,
+     "auch in der Hausapotheke",
+     "also in the household pharmacy",
+     "Magenleiden",
+     "Stomach complaints"
+    ],
+    [
+     "Pfeffer",
+     2,
+     1,
+     "auch in der Hausapotheke",
+     "also in the household pharmacy",
+     "Ruhr und Kolik",
+     "Dysentery and colic"
+    ],
+    [
+     "Pfeffermünze",
+     2,
+     1,
+     "auch in der Hausapotheke",
+     "also in the household pharmacy",
+     "Magenleiden",
+     "Stomach complaints"
+    ],
+    [
+     "Pfeffermünze",
+     2,
+     1,
+     "auch in der Hausapotheke",
+     "also in the household pharmacy",
+     "Blähung",
+     "Flatulence"
+    ],
+    [
+     "Schafgarbe",
+     2,
+     1,
+     "auch in der Hausapotheke",
+     "also in the household pharmacy",
+     "Magenleiden",
+     "Stomach complaints"
+    ],
+    [
+     "Schafgarbe",
+     2,
+     1,
+     "auch in der Hausapotheke",
+     "also in the household pharmacy",
+     "Krampfstillend",
+     "Antispasmodics"
+    ],
+    [
+     "Wachholder",
+     2,
+     1,
+     "auch in der Hausapotheke",
+     "also in the household pharmacy",
+     "Harn treibend",
+     "Diuretics"
+    ],
+    [
+     "Wachholder",
+     2,
+     1,
+     "auch in der Hausapotheke",
+     "also in the household pharmacy",
+     "Blutreinigung",
+     "Blood purification"
+    ],
+    [
+     "Wermuthöl",
+     2,
+     0,
+     "nur in den Einzellisten",
+     "only in the individual lists",
+     "Würmer",
+     "Worms"
+    ],
+    [
+     "Wermuthöl",
+     2,
+     0,
+     "nur in den Einzellisten",
+     "only in the individual lists",
+     "Äußere Übel",
+     "External ailments"
+    ]
+   ],
+   "source_refs": [
+    {
+     "page": "174",
+     "block": "b2"
+    },
+    {
+     "page": "174",
+     "block": "b3"
+    },
+    {
+     "page": "175",
+     "block": "b1"
+    }
+   ]
+  }
+ ],
+ "charts": [
+  {
+   "id": "c1",
+   "dataset": "use_counts",
+   "title": {
+    "de": "Wie viele Mittel für welches Leiden",
+    "en": "How many remedies for which ailment"
+   },
+   "caption": {
+    "de": "Zahl der von Brückner genannten Mittel je Leiden (S. 174 f.). Für äußere Übel und die allgemeine Hausapotheke werden die meisten Mittel aufgezählt, unter den inneren Leiden für Brust- und Magenleiden.",
+    "en": "Number of remedies named by Brückner per ailment (pp. 174 f.). The most remedies are listed for external ills and the general household pharmacy, among internal ailments for chest and stomach complaints."
+   },
+   "vegalite": {
+    "height": 420,
+    "mark": "bar",
+    "encoding": {
+     "y": {
+      "field": {
+       "de": "use_de",
+       "en": "use_en"
+      },
+      "type": "nominal",
+      "sort": {
+       "field": "remedies",
+       "order": "descending"
+      },
+      "title": null,
+      "axis": {
+       "labelLimit": 420
+      }
+     },
+     "x": {
+      "field": "remedies",
+      "type": "quantitative",
+      "title": {
+       "de": "Mittel",
+       "en": "Remedies"
+      },
+      "axis": {
+       "tickMinStep": 1
+      }
+     },
+     "color": {
+      "field": {
+       "de": "scope_de",
+       "en": "scope_en"
+      },
+      "type": "nominal",
+      "title": null,
+      "scale": {
+       "domain": [
+        {
+         "de": "innerlich",
+         "en": "internal"
+        },
+        {
+         "de": "äußerlich",
+         "en": "external"
+        },
+        {
+         "de": "allgemein",
+         "en": "general"
+        }
+       ]
+      },
+      "legend": {
+       "labelLimit": 400
+      }
+     },
+     "tooltip": [
+      {
+       "field": {
+        "de": "use_de",
+        "en": "use_en"
+       },
+       "title": {
+        "de": "Leiden",
+        "en": "Ailment"
+       }
+      },
+      {
+       "field": "remedies",
+       "title": {
+        "de": "Mittel",
+        "en": "Remedies"
+       }
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "c2",
+   "dataset": "multi",
+   "title": {
+    "de": "Mittel für zwei Leiden",
+    "en": "Remedies used for two ailments"
+   },
+   "caption": {
+    "de": "Mittel, die in Brückners Einzellisten bei zwei Leiden stehen (Punkte = Anwendungen). Magenleiden teilen die meisten Mittel mit anderen Leiden (Abführung, Blähung, Ruhr, Würmer, Krampf, äußere Übel).",
+    "en": "Remedies that appear in Brückner’s individual lists for two ailments (dots = uses). Stomach complaints share the most remedies with other ailments (laxatives, flatulence, dysentery, worms, spasms, external ills)."
+   },
+   "vegalite": {
+    "height": 320,
+    "mark": {
+     "type": "point",
+     "filled": true,
+     "size": 110
+    },
+    "encoding": {
+     "y": {
+      "field": "remedy",
+      "type": "nominal",
+      "sort": "ascending",
+      "title": null
+     },
+     "x": {
+      "field": {
+       "de": "use_de",
+       "en": "use_en"
+      },
+      "type": "nominal",
+      "title": null,
+      "axis": {
+       "labelAngle": -45,
+       "labelLimit": 300
+      }
+     },
+     "color": {
+      "field": {
+       "de": "household_de",
+       "en": "household_en"
+      },
+      "type": "nominal",
+      "title": null,
+      "scale": {
+       "domain": [
+        {
+         "de": "auch in der Hausapotheke",
+         "en": "also in the household pharmacy"
+        },
+        {
+         "de": "nur in den Einzellisten",
+         "en": "only in the individual lists"
+        }
+       ]
+      },
+      "legend": {
+       "labelLimit": 400
+      }
+     },
+     "tooltip": [
+      {
+       "field": "remedy",
+       "title": {
+        "de": "Mittel",
+        "en": "Remedy"
+       }
+      },
+      {
+       "field": {
+        "de": "use_de",
+        "en": "use_en"
+       },
+       "title": {
+        "de": "Leiden",
+        "en": "Ailment"
+       }
+      }
+     ]
+    }
+   }
+  }
+ ],
+ "transcription_issues": [],
+ "keywords": {
+  "de": [
+   "Volksmedizin",
+   "Hausmittel",
+   "Kräuter",
+   "Heilmittel",
+   "Arnika",
+   "Johannisblume",
+   "Aberglaube",
+   "Apotheke",
+   "Hausapotheke"
+  ],
+  "en": [
+   "folk medicine",
+   "household remedies",
+   "herbs",
+   "remedies",
+   "arnica",
+   "superstition",
+   "pharmacy"
+  ]
+ },
+ "related": [
+  "gesundheit-krankheitsstatistik-lobenstein-gera-hohenleuben",
+  "gesundheit-medizinalwesen-und-seuchen-zeitleiste"
+ ],
+ "generated_by": "Claude Sonnet 5.5 (subagent A08)",
+ "date": "2026-10-01"
+}

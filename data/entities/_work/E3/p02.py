@@ -1,11 +1,11 @@
 from dec import *
 A('Pleiße','Pleiße','Fluss',gn=2853250,ip=False,gloss='Pleiße river',note='Nur einzelne Quellfäden des Landes fließen ihr zu.')
-A('Wipse','Wipse','Bach',ip=True,gloss='Wipse stream',note='Führte nach alten Berichten Gold.')
+M('Wipse','Wipsebach')
 A('Schnauder','Schnauder','Bach',ip=True,gloss='Schnauder stream',note='Brückner unterscheidet die große und die kleine Schnauder.')
 A('Königsberg','Königsberg','Berg',gn=2885958,ip=True,gloss='Königsberg (hill)',note='Bei Lössau (Oberland); der Königsberg bei Oberkoskau (Leukera) kann ein weiterer sein.')
 A('Sieglitzberg','Sieglitzberg','Berg',gn=8531801,ip=True,gloss='Sieglitzberg (hill)')
 A('Gülde','Gülde','Bach',ip=True,gloss='Gülde stream',note='Im Oberland; führte früher Gold; Volksglaube.')
-A('Saarbach','Saarbach','Bach',gn=2842654,ip=True,gloss='Saarbach stream',note='Altgermanischer Gewässername nach Brückner; Zufluss der Weißen Elster im Unterland.')
+A('Saarbach','Saarbach','Bach',ip=True,gloss='Saarbach stream',note='Altgermanischer Gewässername nach Brückner. Zwei Bäche dieses Namens: im Landestheil Gera (Saarthal, Zufluss der Weißen Elster bei Töppeln) und im Oberland (bei Dittersdorf, mit der Trea).')
 A('Stelzenbach','Stelzenbach','Bach',ip=True,gloss='Stelzenbach stream',note='Mehrere Bäche dieses Namens; hier v. a. der Zufluss des Goldbachs bei Oberkoskau.')
 A('Steinbach','Steinbach','Bach',ip=True,gloss='Steinbach stream',note='Mehrere Bäche dieses Namens (u. a. bei Dobareuth, bei Lobenstein).')
 A('Rattenbach','Rattenbach','Bach',ip=True,gloss='Rattenbach stream',note='Mündet bei Gottliebsthal; heißt im Ober- und Mittellauf Friesa.')

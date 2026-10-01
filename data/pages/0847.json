@@ -17,12 +17,7 @@
    "type": "heading",
    "src": 0,
    "text": "Subscriptionsliste",
-   "spans": [],
-   "opens": [
-    "subscribenten"
-   ],
-   "sec": "subscribenten",
-   "level": 3
+   "spans": []
   },
   {
    "id": "b2",
@@ -45,8 +40,7 @@
      107,
      "Location"
     ]
-   ],
-   "sec": "subscribenten"
+   ]
   },
   {
    "id": "b3",
@@ -909,8 +903,7 @@
      "Gera."
     ]
    ],
-   "caption": null,
-   "sec": "subscribenten"
+   "caption": null
   }
  ],
  "footnotes": [],
@@ -920,12 +913,5 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-04T21:49:04.151940",
   "early_schema": false
- },
- "section_path": [
-  "back",
-  "berichtigungen"
- ],
- "sections": [
-  "subscribenten"
- ]
+ }
 }

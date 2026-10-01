@@ -23,8 +23,7 @@
      78,
      "Environment"
     ]
-   ],
-   "sec": "t2-1"
+   ]
   },
   {
    "id": "b2",
@@ -167,14 +166,13 @@
      3041,
      "Person"
     ]
-   ],
-   "sec": "t2-1"
+   ]
   },
   {
    "id": "b3",
    "type": "paragraph",
    "src": 2,
-   "text": "Roschütz (urkundlich 1146 Rodhacice, 1401 Radeschitz, 1488 Rodeschitz, 1533 Ratschiz, Rodenschütz, im Volke „Ruschz und Ruschitz“), zweiherrisches Pfarr- und Kirchdorf, Stammort eines gleichnamigen adligen Geschlechts und eins der vier Dörfer der vom geraer Gebiete umschlossenen, im unteren Bramenthal befind-",
+   "text": "Roschitz (urkundlich 1146 Rodhacice, 1401 Radeschitz, 1488 Rodeschitz, 1533 Ratschiz, Rodenschütz, im Volke „Ruschz und Ruschitz“), zweiherrisches Pfarr- und Kirchdorf, Stammort eines gleichnamigen adligen Geschlechts und eins der vier Dörfer der vom geraer Gebiete umschlossenen, im unteren Bramenthal befind-",
    "spans": [
     [
      0,
@@ -186,12 +184,18 @@
    "word_division": {
     "word": "befindlichen",
     "part": "befind-"
-   },
-   "sec": "t2-1"
+   }
   }
  ],
  "footnotes": [],
  "corrections": [
+  {
+   "rule": "facsimile_correction",
+   "before": "Roschütz",
+   "after": "Roschitz",
+   "source": "G1",
+   "n": 1
+  },
   {
    "rule": "signature_from_paragraph",
    "value": "28*"
@@ -202,12 +206,5 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-04T14:50:24.782051",
   "early_schema": false
- },
- "section_path": [
-  "t2",
-  "t2-1"
- ],
- "sections": [
-  "t2-1"
- ]
+ }
 }

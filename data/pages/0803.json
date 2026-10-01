@@ -214,8 +214,7 @@
      "Location"
     ]
    ],
-   "continued": true,
-   "sec": "t2-3"
+   "continued": true
   },
   {
    "id": "b2",
@@ -223,8 +222,7 @@
    "src": 1,
    "text": "51 *",
    "spans": [],
-   "continues": true,
-   "sec": "t2-3"
+   "continues": true
   }
  ],
  "footnotes": [
@@ -247,12 +245,5 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-04T21:31:33.163418",
   "early_schema": false
- },
- "section_path": [
-  "t2",
-  "t2-3"
- ],
- "sections": [
-  "t2-3"
- ]
+ }
 }

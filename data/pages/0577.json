@@ -189,8 +189,7 @@
      "Location"
     ]
    ],
-   "continued": true,
-   "sec": "t2-1"
+   "continued": true
   },
   {
    "id": "b2",
@@ -343,8 +342,7 @@
    "word_division": {
     "word": "Erbdrescher",
     "part": "Erb-"
-   },
-   "sec": "t2-1"
+   }
   }
  ],
  "footnotes": [],
@@ -359,12 +357,5 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-04T20:12:40.615684",
   "early_schema": false
- },
- "section_path": [
-  "t2",
-  "t2-1"
- ],
- "sections": [
-  "t2-1"
- ]
+ }
 }

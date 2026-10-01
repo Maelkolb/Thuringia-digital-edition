@@ -129,8 +129,7 @@
      "Location"
     ]
    ],
-   "continued": true,
-   "sec": "t1-2-8"
+   "continued": true
   },
   {
    "id": "b2",
@@ -233,8 +232,7 @@
      1766,
      "Location"
     ]
-   ],
-   "sec": "t1-2-8"
+   ]
   },
   {
    "id": "b3",
@@ -242,8 +240,7 @@
    "src": 2,
    "text": "Auch das Leben der Ritter ist in der Sage nicht vergessen. Dies leicht erklärlich, denn es giebt im Lande fast keinen Ort, wo nicht mindestens ein Adliger sass und Schloss, Wall und Galgen hatte. Aber die Sage weiss noch",
    "spans": [],
-   "continues": true,
-   "sec": "t1-2-8"
+   "continues": true
   }
  ],
  "footnotes": [
@@ -266,13 +263,5 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-03T15:44:04.421066",
   "early_schema": false
- },
- "section_path": [
-  "t1",
-  "t1-2",
-  "t1-2-8"
- ],
- "sections": [
-  "t1-2-8"
- ]
+ }
 }

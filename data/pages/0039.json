@@ -68,8 +68,7 @@
      290,
      "Location"
     ]
-   ],
-   "sec": "t1-1-5"
+   ]
   },
   {
    "id": "b2",
@@ -117,16 +116,14 @@
      504,
      "Location"
     ]
-   ],
-   "sec": "t1-1-5"
+   ]
   },
   {
    "id": "b3",
    "type": "paragraph",
    "src": 2,
    "text": "1 f. Nach oben lagern sich der kambrischen Formation Grünsteinlager ein. Von diesen soll aber erst weiter unten ausführlicher die Rede sein, da sie ja doch schon zu den Uebergangsgesteinen gehören und in der nächsten Formation eine weit bedeutendere Rolle spielen.",
-   "spans": [],
-   "sec": "t1-1-5"
+   "spans": []
   },
   {
    "id": "b4",
@@ -280,8 +277,7 @@
      "Location"
     ]
    ],
-   "continues": true,
-   "sec": "t1-1-5"
+   "continues": true
   }
  ],
  "footnotes": [],
@@ -291,13 +287,5 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-01-06T02:33:19.692160",
   "early_schema": false
- },
- "section_path": [
-  "t1",
-  "t1-1",
-  "t1-1-5"
- ],
- "sections": [
-  "t1-1-5"
- ]
+ }
 }

@@ -33,8 +33,7 @@
      116,
      "Animal"
     ]
-   ],
-   "sec": "t1-2-3"
+   ]
   },
   {
    "id": "b2",
@@ -57,16 +56,14 @@
      887,
      "Resource"
     ]
-   ],
-   "sec": "t1-2-3"
+   ]
   },
   {
    "id": "b3",
    "type": "paragraph",
    "src": 2,
    "text": "Giebner.",
-   "spans": [],
-   "sec": "t1-2-3"
+   "spans": []
   },
   {
    "id": "b4",
@@ -79,9 +76,7 @@
      10,
      "Location"
     ]
-   ],
-   "sec": "t1-2-3",
-   "level": 5
+   ]
   },
   {
    "id": "b5",
@@ -124,8 +119,7 @@
      380,
      "Plant"
     ]
-   ],
-   "sec": "t1-2-3"
+   ]
   },
   {
    "id": "b6",
@@ -138,9 +132,7 @@
      5,
      "Location"
     ]
-   ],
-   "sec": "t1-2-3",
-   "level": 5
+   ]
   },
   {
    "id": "b7",
@@ -213,8 +205,7 @@
      809,
      "Artefact"
     ]
-   ],
-   "sec": "t1-2-3"
+   ]
   }
  ],
  "footnotes": [],
@@ -224,13 +215,5 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-03T15:27:07.377051",
   "early_schema": false
- },
- "section_path": [
-  "t1",
-  "t1-2",
-  "t1-2-3"
- ],
- "sections": [
-  "t1-2-3"
- ]
+ }
 }

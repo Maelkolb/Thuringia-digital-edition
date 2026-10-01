@@ -1005,17 +1005,14 @@
      "8115,57"
     ]
    ],
-   "caption": null,
-   "sec": "t1-3-2"
+   "caption": null
   },
   {
    "id": "b2",
    "type": "heading",
    "src": 1,
    "text": "b) Rittergüter.",
-   "spans": [],
-   "sec": "t1-3-2",
-   "level": 5
+   "spans": []
   },
   {
    "id": "b3",
@@ -1548,8 +1545,7 @@
      "263,84"
     ]
    ],
-   "caption": null,
-   "sec": "t1-3-2"
+   "caption": null
   }
  ],
  "footnotes": [],
@@ -1570,13 +1566,5 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-04T13:17:07.878819",
   "early_schema": false
- },
- "section_path": [
-  "t1",
-  "t1-3",
-  "t1-3-2"
- ],
- "sections": [
-  "t1-3-2"
- ]
+ }
 }

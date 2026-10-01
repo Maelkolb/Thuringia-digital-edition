@@ -16,7 +16,7 @@
    "id": "b1",
    "type": "paragraph",
    "src": 0,
-   "text": "oder nicht selten sind im Unterlande und im Oberlande: Amseln, Singdrosseln (Zippen), Misteldrosseln, Rothdrosseln (auf dem Zuge), eigentlicher Krammetsvogel (Ziemer) colonienweise im pöllwitzer Walde und bei Niederdorf, Rohrsperling, Spottlaubvogel, Weidenzeisig, beide Rothschwänzchen, Rothkehlchen, graue und fahle Grasmücke, Klappergrasmücke, Zaunkönig, beide Goldhähnchen, gewöhnlicher Baumläufer, Specht-, Kohl-, Tannen- und Schwanzmeise, Bachstelze, Baumpieper, Heidel-, Feld- und Haubenlerche (letzte mehr und mehr zum Standvogel übergehend), Goldammer, Hänfling, Stieglitz, Zeisig (in beiden Gebieten brütend), Leinfinke (strichweise), Edelfinke, Sperlinge *), Grünling oder Zwuntsch (auch Zetscher), Gimpel (im Oberlande verhaßt), Seidenschwanz, Holzheher, Dohlen (an einzelnen Punkten seßhaft), Rauchschwalbe, Segler, Ziegenmelker (Nachtschatten), Grünspecht und Eisvogel; selten in beiden Gebieten: Heuschreckensänger, grauer Fliegenschnapper, Kernbeißer und Grauspecht; nicht selten im Unterlande, selten oder weniger häufig im Oberlande: Rohrdrossel, Rohrsänger, schwirrender Laubvogel, Rohrammer, Hausschwalbe, Pirol, Kukuk und die drei Grünspechte, von denen der große Buntspecht nicht selten im Unterlande nistet; selten im Unterlande und nicht vorkömmlich im Oberlande: Nachtigall, Sperbergrasmücke, braunkehliger Steinschmetzer, Uferschwalbe, Krautvogel, Wiedehopf, Wendehals und Nebelkrähe; häufiger im Oberlande als im Unterlande: Wasserschwätzer (nur im Winter im Unterlande), Staar, großer Steinschmetzer, Kiefern- und Fichtenkreuzschnabel (selten im Unterlande nistend, aber dann häufig) und die Würger, von denen der große Würger (wälsche Elster genannt) im Unterlande ausgerottet ist.",
+   "text": "oder nicht selten sind im Unterlande und im Oberlande: Amseln, Singdrosseln (Zippen), Misteldrosseln, Rothdrosseln (auf dem Zuge), eigentlicher Krammetsvogel (Ziemer) colonienweise im pöllwitzer Walde und bei Niederdorf, Rohrsperling, Spottlaubvogel, Weidenzeisig, beide Rothschwänzchen, Rothkehlchen, graue und fahle Grasmücke, Klappergrasmücke, Zaunkönig, beide Goldhähnchen, gewöhnlicher Baumläufer, Specht-, Kohl-, Tannen- und Schwanzmeise, Bachstelze, Baumpieper, Heidel-, Feld- und Haubenlerche (letzte mehr und mehr zum Standvogel übergehend), Goldammer, Hänfling, Stieglitz, Zeisig (in beiden Gebieten brütend), Leinfinke (strichweise), Edelfinke, Sperlinge *), Grünling oder Zwuntsch (auch Zetscher), Gimpel (im Oberlande verhaßt), Seidenschwanz, Holzheher, Dohlen (an einzelnen Punkten seßhaft), Rauchschwalbe, Segler, Ziegenmelker (Nachtschatten), Grünspecht und Eisvogel; selten in beiden Gebieten: Heuschreckensänger, grauer Fliegenschnapper, Kernbeißer und Grauspecht; nicht selten im Unterlande, selten oder weniger häufig im Oberlande: Rohrdrossel, Rohrsänger, schwirrender Laubvogel, Rohrammer, Hausschwalbe, Pirol, Kukuk und die drei Grünspechte, von denen der große Buntspecht nicht selten im Unterlande nistet; selten im Unterlande und nicht vorkömmlich im Oberlande: Nachtigall, Sperbergrasmücke, braunkehliger Steinschmetter, Uferschwalbe, Krautvogel, Wiedehopf, Wendehals und Nebelkrähe; häufiger im Oberlande als im Unterlande: Wasserschwätzer (nur im Winter im Unterlande), Staar, großer Steinschmetter, Kiefern- und Fichtenkreuzschnabel (selten im Unterlande nistend, aber dann häufig) und die Würger, von denen der große Würger (wälsche Elster genannt) im Unterlande ausgerottet ist.",
    "spans": [
     [
      55,
@@ -59,8 +59,7 @@
      "Environmental Impact"
     ]
    ],
-   "continued": true,
-   "sec": "t1-1-9"
+   "continued": true
   },
   {
    "id": "b2",
@@ -119,8 +118,7 @@
      "Plant"
     ]
    ],
-   "continues": true,
-   "sec": "t1-1-9"
+   "continues": true
   }
  ],
  "footnotes": [
@@ -131,19 +129,19 @@
    "spans": []
   }
  ],
- "corrections": [],
+ "corrections": [
+  {
+   "rule": "facsimile_correction",
+   "before": "Steinschmetzer",
+   "after": "Steinschmetter",
+   "source": "A05",
+   "n": 2
+  }
+ ],
  "provenance": {
   "source": "colab-2026-01",
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-01-06T04:13:20.886232",
   "early_schema": false
- },
- "section_path": [
-  "t1",
-  "t1-1",
-  "t1-1-9"
- ],
- "sections": [
-  "t1-1-9"
- ]
+ }
 }

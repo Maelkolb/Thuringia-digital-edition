@@ -1,0 +1,7122 @@
+{
+ "package": "E9",
+ "group": "concepts",
+ "decisions": [
+  {
+   "key": "Schiefer",
+   "action": "accept",
+   "label": "Schiefer",
+   "class": "concept",
+   "kind": "Gestein",
+   "gloss_en": "slate, shale (the dominant rock of the Oberland)"
+  },
+  {
+   "key": "Holz",
+   "action": "accept",
+   "label": "Holz",
+   "class": "concept",
+   "kind": "Rohstoff",
+   "gloss_en": "wood, timber"
+  },
+  {
+   "key": "Wald",
+   "action": "accept",
+   "label": "Wald",
+   "class": "concept",
+   "kind": "Lebensraum",
+   "gloss_en": "forest, woodland"
+  },
+  {
+   "key": "Teiche",
+   "action": "merge",
+   "into": "Teich"
+  },
+  {
+   "key": "Wiesen",
+   "action": "merge",
+   "into": "Wiese"
+  },
+  {
+   "key": "Schindeln",
+   "action": "accept",
+   "label": "Schindel",
+   "class": "concept",
+   "kind": "Material",
+   "gloss_en": "shingle (wooden roofing)"
+  },
+  {
+   "key": "Feld",
+   "action": "accept",
+   "label": "Feld",
+   "class": "concept",
+   "kind": "Lebensraum",
+   "gloss_en": "field, arable land"
+  },
+  {
+   "key": "Wasser",
+   "action": "accept",
+   "label": "Wasser",
+   "class": "concept",
+   "kind": "Rohstoff",
+   "gloss_en": "water"
+  },
+  {
+   "key": "Pest",
+   "action": "accept",
+   "label": "Pest",
+   "class": "concept",
+   "kind": "Seuche",
+   "gloss_en": "plague, pestilence"
+  },
+  {
+   "key": "Wiese",
+   "action": "accept",
+   "label": "Wiese",
+   "class": "concept",
+   "kind": "Lebensraum",
+   "gloss_en": "meadow"
+  },
+  {
+   "key": "Feuer",
+   "action": "merge",
+   "into": "Brand"
+  },
+  {
+   "key": "Brand",
+   "action": "accept",
+   "label": "Brand",
+   "class": "concept",
+   "kind": "Ereignis",
+   "gloss_en": "fire, conflagration",
+   "modern": "| Includes the keys Feuer, Feuers, Feuersbrunst as used for destructive fires (of houses, churches, villages)."
+  },
+  {
+   "key": "Teichen",
+   "action": "merge",
+   "into": "Teich"
+  },
+  {
+   "key": "Silber",
+   "action": "accept",
+   "label": "Silber",
+   "class": "concept",
+   "kind": "Metall",
+   "gloss_en": "silver"
+  },
+  {
+   "key": "Stroh",
+   "action": "accept",
+   "label": "Stroh",
+   "class": "concept",
+   "kind": "Material",
+   "gloss_en": "straw (thatch)"
+  },
+  {
+   "key": "Walde",
+   "action": "merge",
+   "into": "Wald"
+  },
+  {
+   "key": "Eisen",
+   "action": "accept",
+   "label": "Eisen",
+   "class": "concept",
+   "kind": "Metall",
+   "gloss_en": "iron"
+  },
+  {
+   "key": "Brande",
+   "action": "merge",
+   "into": "Brand"
+  },
+  {
+   "key": "Teich",
+   "action": "accept",
+   "label": "Teich",
+   "class": "concept",
+   "kind": "Lebensraum",
+   "gloss_en": "pond (fish pond)"
+  },
+  {
+   "key": "Gold",
+   "action": "accept",
+   "label": "Gold",
+   "class": "concept",
+   "kind": "Metall",
+   "gloss_en": "gold"
+  },
+  {
+   "key": "Regen",
+   "action": "accept",
+   "label": "Regen",
+   "class": "concept",
+   "kind": "Wetter",
+   "gloss_en": "rain"
+  },
+  {
+   "key": "Gärten",
+   "action": "merge",
+   "into": "Garten"
+  },
+  {
+   "key": "Garten",
+   "action": "accept",
+   "label": "Garten",
+   "class": "concept",
+   "kind": "Lebensraum",
+   "gloss_en": "garden"
+  },
+  {
+   "key": "Gewitter",
+   "action": "accept",
+   "label": "Gewitter",
+   "class": "concept",
+   "kind": "Wetter",
+   "gloss_en": "thunderstorm"
+  },
+  {
+   "key": "Wälder",
+   "action": "merge",
+   "into": "Wald"
+  },
+  {
+   "key": "Blitz",
+   "action": "accept",
+   "label": "Blitz",
+   "class": "concept",
+   "kind": "Wetter",
+   "gloss_en": "lightning"
+  },
+  {
+   "key": "Wäldern",
+   "action": "merge",
+   "into": "Wald"
+  },
+  {
+   "key": "Waldungen",
+   "action": "merge",
+   "into": "Wald"
+  },
+  {
+   "key": "Schnee",
+   "action": "accept",
+   "label": "Schnee",
+   "class": "concept",
+   "kind": "Wetter",
+   "gloss_en": "snow"
+  },
+  {
+   "key": "Getreide",
+   "action": "accept",
+   "label": "Getreide",
+   "class": "concept",
+   "kind": "Agrarprodukt",
+   "gloss_en": "grain, cereals"
+  },
+  {
+   "key": "Klima",
+   "action": "accept",
+   "label": "Klima",
+   "class": "concept",
+   "kind": "Klima",
+   "gloss_en": "climate"
+  },
+  {
+   "key": "Anger",
+   "action": "accept",
+   "label": "Anger",
+   "class": "concept",
+   "kind": "Lebensraum",
+   "gloss_en": "village green, common pasture"
+  },
+  {
+   "key": "Heu",
+   "action": "accept",
+   "label": "Heu",
+   "class": "concept",
+   "kind": "Agrarprodukt",
+   "gloss_en": "hay"
+  },
+  {
+   "key": "Blitzschlag",
+   "action": "accept",
+   "label": "Blitzschlag",
+   "class": "concept",
+   "kind": "Wetter",
+   "gloss_en": "lightning strike"
+  },
+  {
+   "key": "Quellwasser",
+   "action": "accept",
+   "label": "Quellwasser",
+   "class": "concept",
+   "kind": "Rohstoff",
+   "gloss_en": "spring water"
+  },
+  {
+   "key": "Bier",
+   "action": "accept",
+   "label": "Bier",
+   "class": "concept",
+   "kind": "Nahrungsmittel",
+   "gloss_en": "beer"
+  },
+  {
+   "key": "Hutung",
+   "action": "accept",
+   "label": "Hutung",
+   "class": "concept",
+   "kind": "Lebensraum",
+   "gloss_en": "pasture, common grazing land"
+  },
+  {
+   "key": "Boden",
+   "action": "accept",
+   "label": "Boden",
+   "class": "concept",
+   "kind": "Boden",
+   "gloss_en": "soil, ground"
+  },
+  {
+   "key": "Brände",
+   "action": "merge",
+   "into": "Brand"
+  },
+  {
+   "key": "Dorfteiche",
+   "action": "accept",
+   "label": "Dorfteich",
+   "class": "concept",
+   "kind": "Lebensraum",
+   "gloss_en": "village pond"
+  },
+  {
+   "key": "Park",
+   "action": "accept",
+   "label": "Park",
+   "class": "concept",
+   "kind": "Lebensraum",
+   "gloss_en": "park"
+  },
+  {
+   "key": "Hain",
+   "action": "accept",
+   "label": "Hain",
+   "class": "concept",
+   "kind": "Lebensraum",
+   "gloss_en": "grove",
+   "modern": "| Also a place name (Hain at Untermhaus near Gera)."
+  },
+  {
+   "key": "Kalk",
+   "action": "accept",
+   "label": "Kalk",
+   "class": "concept",
+   "kind": "Gestein",
+   "gloss_en": "lime, limestone"
+  },
+  {
+   "key": "Waldboden",
+   "action": "accept",
+   "label": "Waldboden",
+   "class": "concept",
+   "kind": "Boden",
+   "gloss_en": "forest soil"
+  },
+  {
+   "key": "Wein",
+   "action": "accept",
+   "label": "Wein",
+   "class": "concept",
+   "kind": "Nahrungsmittel",
+   "gloss_en": "wine"
+  },
+  {
+   "key": "Butter",
+   "action": "accept",
+   "label": "Butter",
+   "class": "concept",
+   "kind": "Nahrungsmittel",
+   "gloss_en": "butter"
+  },
+  {
+   "key": "Brod",
+   "action": "accept",
+   "label": "Brod",
+   "class": "concept",
+   "kind": "Nahrungsmittel",
+   "gloss_en": "bread",
+   "modern": "Brot"
+  },
+  {
+   "key": "Lehm",
+   "action": "accept",
+   "label": "Lehm",
+   "class": "concept",
+   "kind": "Gestein",
+   "gloss_en": "loam, clay"
+  },
+  {
+   "key": "Winde",
+   "action": "merge",
+   "into": "Wind"
+  },
+  {
+   "key": "Eier",
+   "action": "accept",
+   "label": "Ei",
+   "class": "concept",
+   "kind": "Nahrungsmittel",
+   "gloss_en": "egg"
+  },
+  {
+   "key": "Kupfer",
+   "action": "accept",
+   "label": "Kupfer",
+   "class": "concept",
+   "kind": "Metall",
+   "gloss_en": "copper"
+  },
+  {
+   "key": "Salz",
+   "action": "accept",
+   "label": "Salz",
+   "class": "concept",
+   "kind": "Rohstoff",
+   "gloss_en": "salt"
+  },
+  {
+   "key": "Temperatur",
+   "action": "accept",
+   "label": "Temperatur",
+   "class": "concept",
+   "kind": "Klima",
+   "gloss_en": "temperature"
+  },
+  {
+   "key": "Aue",
+   "action": "accept",
+   "label": "Aue",
+   "class": "concept",
+   "kind": "Lebensraum",
+   "gloss_en": "floodplain, riverside meadow",
+   "modern": "| Often a field name (grosse Aue, kleine Aue) in the Part II parish descriptions; also Aubach."
+  },
+  {
+   "key": "Feldern",
+   "action": "merge",
+   "into": "Feld"
+  },
+  {
+   "key": "Steinkohlen",
+   "action": "accept",
+   "label": "Steinkohle",
+   "class": "concept",
+   "kind": "Rohstoff",
+   "gloss_en": "hard coal"
+  },
+  {
+   "key": "Saalufer",
+   "action": "merge",
+   "into": "Ufer"
+  },
+  {
+   "key": "Waldung",
+   "action": "merge",
+   "into": "Wald"
+  },
+  {
+   "key": "Korn",
+   "action": "accept",
+   "label": "Korn",
+   "class": "concept",
+   "kind": "Agrarprodukt",
+   "gloss_en": "grain, rye",
+   "modern": "| In Thuringian usage Korn is rye (Winterkorn)."
+  },
+  {
+   "key": "Saalthal",
+   "action": "accept",
+   "label": "Saalthal",
+   "class": "nature",
+   "kind": "Tal",
+   "gloss_en": "Saale valley",
+   "modern": "Saaltal"
+  },
+  {
+   "key": "Weinberg",
+   "action": "accept",
+   "label": "Weinberg",
+   "class": "concept",
+   "kind": "Lebensraum",
+   "gloss_en": "vineyard",
+   "modern": "| Frequently a field or hill name (Weinberg near Untermhaus, at Langenberg), not necessarily with vines."
+  },
+  {
+   "key": "Nonnenwald",
+   "action": "accept",
+   "label": "Nonnenwald",
+   "class": "nature",
+   "kind": "Wald",
+   "gloss_en": "Nonnenwald (forest on the Saale near Saalburg and Oschitz)"
+  },
+  {
+   "key": "Thäler",
+   "action": "merge",
+   "into": "Thal"
+  },
+  {
+   "key": "Winter",
+   "action": "accept",
+   "label": "Winter",
+   "class": "concept",
+   "kind": "Klima",
+   "gloss_en": "winter (season)"
+  },
+  {
+   "key": "Nebel",
+   "action": "accept",
+   "label": "Nebel",
+   "class": "concept",
+   "kind": "Wetter",
+   "gloss_en": "fog, mist"
+  },
+  {
+   "key": "Feuers",
+   "action": "merge",
+   "into": "Brand"
+  },
+  {
+   "key": "Kaffee",
+   "action": "accept",
+   "label": "Kaffee",
+   "class": "concept",
+   "kind": "Nahrungsmittel",
+   "gloss_en": "coffee"
+  },
+  {
+   "key": "Honig",
+   "action": "accept",
+   "label": "Honig",
+   "class": "concept",
+   "kind": "Nahrungsmittel",
+   "gloss_en": "honey"
+  },
+  {
+   "key": "Leder",
+   "action": "accept",
+   "label": "Leder",
+   "class": "concept",
+   "kind": "Material",
+   "gloss_en": "leather"
+  },
+  {
+   "key": "Grauwacke",
+   "action": "accept",
+   "label": "Grauwacke",
+   "class": "concept",
+   "kind": "Gestein",
+   "gloss_en": "greywacke"
+  },
+  {
+   "key": "Thälern",
+   "action": "merge",
+   "into": "Thal"
+  },
+  {
+   "key": "Sand",
+   "action": "accept",
+   "label": "Sand",
+   "class": "concept",
+   "kind": "Gestein",
+   "gloss_en": "sand"
+  },
+  {
+   "key": "Brauneisenstein",
+   "action": "accept",
+   "label": "Brauneisenstein",
+   "class": "concept",
+   "kind": "Gestein",
+   "gloss_en": "brown iron ore (limonite)"
+  },
+  {
+   "key": "Wind",
+   "action": "accept",
+   "label": "Wind",
+   "class": "concept",
+   "kind": "Wetter",
+   "gloss_en": "wind"
+  },
+  {
+   "key": "Reif",
+   "action": "accept",
+   "label": "Reif",
+   "class": "concept",
+   "kind": "Wetter",
+   "gloss_en": "hoarfrost"
+  },
+  {
+   "key": "Gewittern",
+   "action": "merge",
+   "into": "Gewitter"
+  },
+  {
+   "key": "Land",
+   "action": "accept",
+   "label": "Land",
+   "class": "concept",
+   "kind": "Lebensraum",
+   "gloss_en": "land, dry land (as opposed to water)"
+  },
+  {
+   "key": "Küchengarten",
+   "action": "accept",
+   "label": "Küchengarten",
+   "class": "concept",
+   "kind": "Lebensraum",
+   "gloss_en": "kitchen garden"
+  },
+  {
+   "key": "Torf",
+   "action": "accept",
+   "label": "Torf",
+   "class": "concept",
+   "kind": "Rohstoff",
+   "gloss_en": "peat"
+  },
+  {
+   "key": "Parkanlagen",
+   "action": "merge",
+   "into": "Park"
+  },
+  {
+   "key": "Auwiesen",
+   "action": "accept",
+   "label": "Auwiese",
+   "class": "concept",
+   "kind": "Lebensraum",
+   "gloss_en": "floodplain meadow"
+  },
+  {
+   "key": "Fleisch",
+   "action": "accept",
+   "label": "Fleisch",
+   "class": "concept",
+   "kind": "Nahrungsmittel",
+   "gloss_en": "meat"
+  },
+  {
+   "key": "Stein",
+   "action": "accept",
+   "label": "Stein",
+   "class": "concept",
+   "kind": "Gestein",
+   "gloss_en": "stone"
+  },
+  {
+   "key": "Leinwand",
+   "action": "accept",
+   "label": "Leinwand",
+   "class": "concept",
+   "kind": "Material",
+   "gloss_en": "linen cloth"
+  },
+  {
+   "key": "Eiern",
+   "action": "merge",
+   "into": "Eier"
+  },
+  {
+   "key": "Blei",
+   "action": "accept",
+   "label": "Blei",
+   "class": "concept",
+   "kind": "Metall",
+   "gloss_en": "lead"
+  },
+  {
+   "key": "Weide",
+   "action": "accept",
+   "label": "Weide",
+   "class": "concept",
+   "kind": "Lebensraum",
+   "gloss_en": "pasture, grazing land"
+  },
+  {
+   "key": "Wachs",
+   "action": "accept",
+   "label": "Wachs",
+   "class": "concept",
+   "kind": "Rohstoff",
+   "gloss_en": "wax"
+  },
+  {
+   "key": "Saalwald",
+   "action": "accept",
+   "label": "Saalwald",
+   "class": "nature",
+   "kind": "Wald",
+   "gloss_en": "Saalwald (forest along the Saale)"
+  },
+  {
+   "key": "Sandstein",
+   "action": "accept",
+   "label": "Sandstein",
+   "class": "concept",
+   "kind": "Gestein",
+   "gloss_en": "sandstone"
+  },
+  {
+   "key": "schleizer Walde",
+   "action": "merge",
+   "into": "schleizer Wald"
+  },
+  {
+   "key": "Hagelwetter",
+   "action": "accept",
+   "label": "Hagelwetter",
+   "class": "concept",
+   "kind": "Wetter",
+   "gloss_en": "hailstorm"
+  },
+  {
+   "key": "Mineralien",
+   "action": "accept",
+   "label": "Mineral",
+   "class": "concept",
+   "kind": "Gestein",
+   "gloss_en": "minerals"
+  },
+  {
+   "key": "Streitwald",
+   "action": "accept",
+   "label": "Streitwald",
+   "class": "nature",
+   "kind": "Wald",
+   "gloss_en": "Streitwald (forest near Schleiz)"
+  },
+  {
+   "key": "Hochflächen",
+   "action": "accept",
+   "label": "Hochfläche",
+   "class": "concept",
+   "kind": "Gelände",
+   "gloss_en": "upland plateau, high surface"
+  },
+  {
+   "key": "Verwitterung",
+   "action": "accept",
+   "label": "Verwitterung",
+   "class": "concept",
+   "kind": "Prozess",
+   "gloss_en": "weathering"
+  },
+  {
+   "key": "Dachschiefer",
+   "action": "accept",
+   "label": "Dachschiefer",
+   "class": "concept",
+   "kind": "Gestein",
+   "gloss_en": "roofing slate"
+  },
+  {
+   "key": "Kalkspath",
+   "action": "accept",
+   "label": "Kalkspath",
+   "class": "concept",
+   "kind": "Gestein",
+   "gloss_en": "calcite",
+   "modern": "Kalkspat"
+  },
+  {
+   "key": "schleizer Wald",
+   "action": "accept",
+   "label": "Schleizer Wald",
+   "class": "nature",
+   "kind": "Wald",
+   "gloss_en": "Schleizer Wald (forest near Schleiz)"
+  },
+  {
+   "key": "Höhen",
+   "action": "accept",
+   "label": "Höhe",
+   "class": "concept",
+   "kind": "Gelände",
+   "gloss_en": "height, hill"
+  },
+  {
+   "key": "Sturm",
+   "action": "accept",
+   "label": "Sturm",
+   "class": "concept",
+   "kind": "Wetter",
+   "gloss_en": "storm"
+  },
+  {
+   "key": "Bächen",
+   "action": "accept",
+   "label": "Bach",
+   "class": "concept",
+   "kind": "Gewässer",
+   "gloss_en": "stream, brook"
+  },
+  {
+   "key": "Zinn",
+   "action": "accept",
+   "label": "Zinn",
+   "class": "concept",
+   "kind": "Metall",
+   "gloss_en": "tin"
+  },
+  {
+   "key": "Gestein",
+   "action": "accept",
+   "label": "Gestein",
+   "class": "concept",
+   "kind": "Gestein",
+   "gloss_en": "rock, stone"
+  },
+  {
+   "key": "Ei",
+   "action": "merge",
+   "into": "Eier"
+  },
+  {
+   "key": "Käse",
+   "action": "accept",
+   "label": "Käse",
+   "class": "concept",
+   "kind": "Nahrungsmittel",
+   "gloss_en": "cheese"
+  },
+  {
+   "key": "Acker",
+   "action": "accept",
+   "label": "Acker",
+   "class": "concept",
+   "kind": "Lebensraum",
+   "gloss_en": "arable field"
+  },
+  {
+   "key": "Mehl",
+   "action": "accept",
+   "label": "Mehl",
+   "class": "concept",
+   "kind": "Nahrungsmittel",
+   "gloss_en": "flour"
+  },
+  {
+   "key": "Milch",
+   "action": "accept",
+   "label": "Milch",
+   "class": "concept",
+   "kind": "Nahrungsmittel",
+   "gloss_en": "milk"
+  },
+  {
+   "key": "Kohlen",
+   "action": "accept",
+   "label": "Kohle",
+   "class": "concept",
+   "kind": "Rohstoff",
+   "gloss_en": "coal, charcoal"
+  },
+  {
+   "key": "Waldes",
+   "action": "merge",
+   "into": "Wald"
+  },
+  {
+   "key": "Steinsalz",
+   "action": "accept",
+   "label": "Steinsalz",
+   "class": "concept",
+   "kind": "Gestein",
+   "gloss_en": "rock salt"
+  },
+  {
+   "key": "Wolle",
+   "action": "accept",
+   "label": "Wolle",
+   "class": "concept",
+   "kind": "Rohstoff",
+   "gloss_en": "wool"
+  },
+  {
+   "key": "Hochwasser",
+   "action": "accept",
+   "label": "Hochwasser",
+   "class": "concept",
+   "kind": "Ereignis",
+   "gloss_en": "flood, high water"
+  },
+  {
+   "key": "Sandgrube",
+   "action": "accept",
+   "label": "Sandgrube",
+   "class": "concept",
+   "kind": "Abbaustätte",
+   "gloss_en": "sand pit"
+  },
+  {
+   "key": "Schiefer-",
+   "action": "merge",
+   "into": "Schiefer"
+  },
+  {
+   "key": "Trinkwasser",
+   "action": "accept",
+   "label": "Trinkwasser",
+   "class": "concept",
+   "kind": "Rohstoff",
+   "gloss_en": "drinking water"
+  },
+  {
+   "key": "Marmor",
+   "action": "accept",
+   "label": "Marmor",
+   "class": "concept",
+   "kind": "Gestein",
+   "gloss_en": "marble"
+  },
+  {
+   "key": "Quellen",
+   "action": "accept",
+   "label": "Quelle",
+   "class": "concept",
+   "kind": "Gewässer",
+   "gloss_en": "spring"
+  },
+  {
+   "key": "Mulden",
+   "action": "accept",
+   "label": "Mulde",
+   "class": "concept",
+   "kind": "Gelände",
+   "gloss_en": "hollow, basin"
+  },
+  {
+   "key": "Spatheisenstein",
+   "action": "accept",
+   "label": "Spatheisenstein",
+   "class": "concept",
+   "kind": "Gestein",
+   "gloss_en": "siderite (spathic iron ore)",
+   "modern": "Spateisenstein"
+  },
+  {
+   "key": "Alaunschiefer",
+   "action": "accept",
+   "label": "Alaunschiefer",
+   "class": "concept",
+   "kind": "Gestein",
+   "gloss_en": "alum shale"
+  },
+  {
+   "key": "Alaun",
+   "action": "accept",
+   "label": "Alaun",
+   "class": "concept",
+   "kind": "Rohstoff",
+   "gloss_en": "alum"
+  },
+  {
+   "key": "Grünstein",
+   "action": "accept",
+   "label": "Grünstein",
+   "class": "concept",
+   "kind": "Gestein",
+   "gloss_en": "greenstone (diabase)"
+  },
+  {
+   "key": "Rotheisenstein",
+   "action": "accept",
+   "label": "Rotheisenstein",
+   "class": "concept",
+   "kind": "Gestein",
+   "gloss_en": "red iron ore (haematite)",
+   "modern": "Roteisenstein"
+  },
+  {
+   "key": "Thal",
+   "action": "accept",
+   "label": "Thal",
+   "class": "concept",
+   "kind": "Gelände",
+   "gloss_en": "valley",
+   "modern": "Tal"
+  },
+  {
+   "key": "Fahlerz",
+   "action": "accept",
+   "label": "Fahlerz",
+   "class": "concept",
+   "kind": "Gestein",
+   "gloss_en": "fahlore (tetrahedrite)"
+  },
+  {
+   "key": "Kalkstein",
+   "action": "accept",
+   "label": "Kalkstein",
+   "class": "concept",
+   "kind": "Gestein",
+   "gloss_en": "limestone"
+  },
+  {
+   "key": "Quarz",
+   "action": "accept",
+   "label": "Quarz",
+   "class": "concept",
+   "kind": "Gestein",
+   "gloss_en": "quartz"
+  },
+  {
+   "key": "Kupfererzen",
+   "action": "accept",
+   "label": "Kupfererz",
+   "class": "concept",
+   "kind": "Gestein",
+   "gloss_en": "copper ore"
+  },
+  {
+   "key": "Bleiglanz",
+   "action": "accept",
+   "label": "Bleiglanz",
+   "class": "concept",
+   "kind": "Gestein",
+   "gloss_en": "galena"
+  },
+  {
+   "key": "Gyps",
+   "action": "accept",
+   "label": "Gyps",
+   "class": "concept",
+   "kind": "Gestein",
+   "gloss_en": "gypsum",
+   "modern": "Gips"
+  },
+  {
+   "key": "Laubholz",
+   "action": "accept",
+   "label": "Laubholz",
+   "class": "concept",
+   "kind": "Rohstoff",
+   "gloss_en": "deciduous wood, hardwood"
+  },
+  {
+   "key": "Eisenglanz",
+   "action": "accept",
+   "label": "Eisenglanz",
+   "class": "concept",
+   "kind": "Gestein",
+   "gloss_en": "specular iron ore (haematite)"
+  },
+  {
+   "key": "Ueberschwemmungen",
+   "action": "merge",
+   "into": "Ueberschwemmung"
+  },
+  {
+   "key": "Braunkohlen",
+   "action": "accept",
+   "label": "Braunkohle",
+   "class": "concept",
+   "kind": "Rohstoff",
+   "gloss_en": "brown coal, lignite"
+  },
+  {
+   "key": "Gesundbrunnen",
+   "action": "merge",
+   "into": "Heilquelle"
+  },
+  {
+   "key": "Heilquelle",
+   "action": "accept",
+   "label": "Heilquelle",
+   "class": "concept",
+   "kind": "Gewässer",
+   "gloss_en": "healing spring, medicinal spring"
+  },
+  {
+   "key": "Pöllwitzwald",
+   "action": "accept",
+   "label": "Pöllwitzwald",
+   "class": "nature",
+   "kind": "Wald",
+   "gloss_en": "Pöllwitzwald (forest near Pöllwitz; source region of the Triebes)",
+   "modern": "| Also written Pöllwitzer Wald."
+  },
+  {
+   "key": "Wärme",
+   "action": "accept",
+   "label": "Wärme",
+   "class": "concept",
+   "kind": "Klima",
+   "gloss_en": "warmth, heat"
+  },
+  {
+   "key": "Luftströmungen",
+   "action": "accept",
+   "label": "Luftströmung",
+   "class": "concept",
+   "kind": "Wetter",
+   "gloss_en": "air current, wind current"
+  },
+  {
+   "key": "Dürre",
+   "action": "accept",
+   "label": "Dürre",
+   "class": "concept",
+   "kind": "Wetter",
+   "gloss_en": "drought"
+  },
+  {
+   "key": "Luft",
+   "action": "accept",
+   "label": "Luft",
+   "class": "concept",
+   "kind": "Klima",
+   "gloss_en": "air"
+  },
+  {
+   "key": "Hecken",
+   "action": "accept",
+   "label": "Hecke",
+   "class": "concept",
+   "kind": "Lebensraum",
+   "gloss_en": "hedge"
+  },
+  {
+   "key": "Wetter",
+   "action": "accept",
+   "label": "Wetter",
+   "class": "concept",
+   "kind": "Wetter",
+   "gloss_en": "weather"
+  },
+  {
+   "key": "Wurst",
+   "action": "accept",
+   "label": "Wurst",
+   "class": "concept",
+   "kind": "Nahrungsmittel",
+   "gloss_en": "sausage"
+  },
+  {
+   "key": "Schnaps",
+   "action": "accept",
+   "label": "Schnaps",
+   "class": "concept",
+   "kind": "Nahrungsmittel",
+   "gloss_en": "schnapps, spirits"
+  },
+  {
+   "key": "Dünger",
+   "action": "accept",
+   "label": "Dünger",
+   "class": "concept",
+   "kind": "Rohstoff",
+   "gloss_en": "manure, fertilizer"
+  },
+  {
+   "key": "Brennholz",
+   "action": "accept",
+   "label": "Brennholz",
+   "class": "concept",
+   "kind": "Rohstoff",
+   "gloss_en": "firewood"
+  },
+  {
+   "key": "Antimon",
+   "action": "accept",
+   "label": "Antimon",
+   "class": "concept",
+   "kind": "Metall",
+   "gloss_en": "antimony"
+  },
+  {
+   "key": "Wollmarkt",
+   "action": "reject",
+   "reason": "wool market (trade fair), not a resource or environment concept"
+  },
+  {
+   "key": "Felder",
+   "action": "merge",
+   "into": "Feld"
+  },
+  {
+   "key": "Erz",
+   "action": "accept",
+   "label": "Erz",
+   "class": "concept",
+   "kind": "Gestein",
+   "gloss_en": "ore"
+  },
+  {
+   "key": "Wisentthal",
+   "action": "accept",
+   "label": "Wisentthal",
+   "class": "nature",
+   "kind": "Tal",
+   "gloss_en": "valley of the Wisenta (Wiesenthal)",
+   "modern": "Wisenttal"
+  },
+  {
+   "key": "Weinbergen",
+   "action": "merge",
+   "into": "Weinberg"
+  },
+  {
+   "key": "Teichwiesen",
+   "action": "accept",
+   "label": "Teichwiese",
+   "class": "concept",
+   "kind": "Lebensraum",
+   "gloss_en": "meadow beside a pond"
+  },
+  {
+   "key": "Wiesengrund",
+   "action": "accept",
+   "label": "Wiesengrund",
+   "class": "concept",
+   "kind": "Lebensraum",
+   "gloss_en": "meadow bottom, meadow land"
+  },
+  {
+   "key": "Obstplantagen",
+   "action": "accept",
+   "label": "Obstplantage",
+   "class": "concept",
+   "kind": "Lebensraum",
+   "gloss_en": "fruit plantation, orchard"
+  },
+  {
+   "key": "Pfarrholz",
+   "action": "accept",
+   "label": "Pfarrholz",
+   "class": "concept",
+   "kind": "Lebensraum",
+   "gloss_en": "parish woodland (church-owned wood)"
+  },
+  {
+   "key": "Holzbestand",
+   "action": "merge",
+   "into": "Holz"
+  },
+  {
+   "key": "Klettigsgrund",
+   "action": "accept",
+   "label": "Klettigsgrund",
+   "class": "nature",
+   "kind": "Tal",
+   "gloss_en": "Klettigsgrund (valley near Bärenmühle)"
+  },
+  {
+   "key": "Staudenwiese",
+   "action": "accept",
+   "label": "Staudenwiese",
+   "class": "place",
+   "kind": "Flur",
+   "gloss_en": "Staudenwiese (field/hill name near the Saale)"
+  },
+  {
+   "key": "Blitzstrahl",
+   "action": "merge",
+   "into": "Blitz"
+  },
+  {
+   "key": "Thonschiefer",
+   "action": "accept",
+   "label": "Thonschiefer",
+   "class": "concept",
+   "kind": "Gestein",
+   "gloss_en": "clay slate",
+   "modern": "Tonschiefer"
+  },
+  {
+   "key": "Waldflächen",
+   "action": "merge",
+   "into": "Wald"
+  },
+  {
+   "key": "Ufer",
+   "action": "accept",
+   "label": "Ufer",
+   "class": "concept",
+   "kind": "Gelände",
+   "gloss_en": "bank, shore"
+  },
+  {
+   "key": "Auen",
+   "action": "merge",
+   "into": "Aue"
+  },
+  {
+   "key": "Haide",
+   "action": "accept",
+   "label": "Haide",
+   "class": "concept",
+   "kind": "Lebensraum",
+   "gloss_en": "heath",
+   "modern": "Heide"
+  },
+  {
+   "key": "Plateaus",
+   "action": "merge",
+   "into": "Plateau"
+  },
+  {
+   "key": "Geheeg",
+   "action": "accept",
+   "label": "Geheeg",
+   "class": "nature",
+   "kind": "Berg",
+   "gloss_en": "Geheeg (hill near Lobenstein)"
+  },
+  {
+   "key": "Schluchten",
+   "action": "accept",
+   "label": "Schlucht",
+   "class": "concept",
+   "kind": "Gelände",
+   "gloss_en": "gorge, ravine"
+  },
+  {
+   "key": "verwittert",
+   "action": "merge",
+   "into": "Verwitterung"
+  },
+  {
+   "key": "Erze",
+   "action": "merge",
+   "into": "Erz"
+  },
+  {
+   "key": "Witterung",
+   "action": "accept",
+   "label": "Witterung",
+   "class": "concept",
+   "kind": "Wetter",
+   "gloss_en": "weather conditions, weathering of the seasons"
+  },
+  {
+   "key": "Kieselschiefer",
+   "action": "accept",
+   "label": "Kieselschiefer",
+   "class": "concept",
+   "kind": "Gestein",
+   "gloss_en": "siliceous slate (lydite)"
+  },
+  {
+   "key": "Eisenerz",
+   "action": "accept",
+   "label": "Eisenerz",
+   "class": "concept",
+   "kind": "Gestein",
+   "gloss_en": "iron ore"
+  },
+  {
+   "key": "Tännig",
+   "action": "merge",
+   "into": "Tännicht"
+  },
+  {
+   "key": "Saalwaldes",
+   "action": "merge",
+   "into": "Saalwald"
+  },
+  {
+   "key": "Rotheisenerz",
+   "action": "merge",
+   "into": "Rotheisenstein"
+  },
+  {
+   "key": "Kohlenblende",
+   "action": "accept",
+   "label": "Kohlenblende",
+   "class": "concept",
+   "kind": "Gestein",
+   "gloss_en": "'coal blende' (anthracitic coal)"
+  },
+  {
+   "key": "Kupferkies",
+   "action": "accept",
+   "label": "Kupferkies",
+   "class": "concept",
+   "kind": "Gestein",
+   "gloss_en": "chalcopyrite"
+  },
+  {
+   "key": "Braunkohle",
+   "action": "merge",
+   "into": "Braunkohlen"
+  },
+  {
+   "key": "harten Wintern",
+   "action": "merge",
+   "into": "Winter"
+  },
+  {
+   "key": "Waldgebiete",
+   "action": "merge",
+   "into": "Wald"
+  },
+  {
+   "key": "Eisenquellen",
+   "action": "accept",
+   "label": "Eisenquelle",
+   "class": "concept",
+   "kind": "Gewässer",
+   "gloss_en": "iron spring, chalybeate spring"
+  },
+  {
+   "key": "Trinkquelle",
+   "action": "accept",
+   "label": "Trinkquelle",
+   "class": "concept",
+   "kind": "Gewässer",
+   "gloss_en": "drinking spring (spa spring at Lobenstein)"
+  },
+  {
+   "key": "Moor",
+   "action": "accept",
+   "label": "Moor",
+   "class": "concept",
+   "kind": "Lebensraum",
+   "gloss_en": "moor, bog, peat bog"
+  },
+  {
+   "key": "Kämmerawaldung",
+   "action": "merge",
+   "into": "Kämmerawald"
+  },
+  {
+   "key": "Bornthal",
+   "action": "accept",
+   "label": "Bornthal",
+   "class": "nature",
+   "kind": "Tal",
+   "gloss_en": "Bornthal (valley of the Krellsbach)",
+   "modern": "Borntal"
+  },
+  {
+   "key": "Windströmungen",
+   "action": "merge",
+   "into": "Luftströmungen"
+  },
+  {
+   "key": "Luftdruck",
+   "action": "accept",
+   "label": "Luftdruck",
+   "class": "concept",
+   "kind": "Klima",
+   "gloss_en": "air pressure"
+  },
+  {
+   "key": "Sommermittel",
+   "action": "accept",
+   "label": "Sommermittel",
+   "class": "concept",
+   "kind": "Klima",
+   "gloss_en": "mean summer temperature"
+  },
+  {
+   "key": "Wintermittel",
+   "action": "accept",
+   "label": "Wintermittel",
+   "class": "concept",
+   "kind": "Klima",
+   "gloss_en": "mean winter temperature"
+  },
+  {
+   "key": "Jahresmittel",
+   "action": "accept",
+   "label": "Jahresmittel",
+   "class": "concept",
+   "kind": "Klima",
+   "gloss_en": "mean annual temperature"
+  },
+  {
+   "key": "Schneefällen",
+   "action": "merge",
+   "into": "Schnee"
+  },
+  {
+   "key": "Frost",
+   "action": "accept",
+   "label": "Frost",
+   "class": "concept",
+   "kind": "Wetter",
+   "gloss_en": "frost"
+  },
+  {
+   "key": "Kälte",
+   "action": "accept",
+   "label": "Kälte",
+   "class": "concept",
+   "kind": "Klima",
+   "gloss_en": "cold"
+  },
+  {
+   "key": "Mulde",
+   "action": "merge",
+   "into": "Mulden"
+  },
+  {
+   "key": "Kessel",
+   "action": "accept",
+   "label": "Kessel",
+   "class": "concept",
+   "kind": "Gelände",
+   "gloss_en": "basin, hollow (kettle-shaped valley head)"
+  },
+  {
+   "key": "Nässe",
+   "action": "accept",
+   "label": "Nässe",
+   "class": "concept",
+   "kind": "Wetter",
+   "gloss_en": "wetness, wet weather"
+  },
+  {
+   "key": "Westwind",
+   "action": "accept",
+   "label": "Westwind",
+   "class": "concept",
+   "kind": "Wetter",
+   "gloss_en": "west wind"
+  },
+  {
+   "key": "Höhenrauch",
+   "action": "accept",
+   "label": "Höhenrauch",
+   "class": "concept",
+   "kind": "Wetter",
+   "gloss_en": "dry haze (smoke from burnt moors, also Moorrauch, Haarrauch)"
+  },
+  {
+   "key": "atmosphärischen Niederschläge",
+   "action": "accept",
+   "label": "Niederschlag",
+   "class": "concept",
+   "kind": "Wetter",
+   "gloss_en": "precipitation"
+  },
+  {
+   "key": "Regens",
+   "action": "merge",
+   "into": "Regen"
+  },
+  {
+   "key": "Höhenrauches",
+   "action": "merge",
+   "into": "Höhenrauch"
+  },
+  {
+   "key": "Moorrauch",
+   "action": "merge",
+   "into": "Höhenrauch"
+  },
+  {
+   "key": "Lufttemperatur",
+   "action": "merge",
+   "into": "Temperatur"
+  },
+  {
+   "key": "Weg",
+   "action": "accept",
+   "label": "Weg",
+   "class": "concept",
+   "kind": "Lebensraum",
+   "gloss_en": "path, wayside (as plant habitat)"
+  },
+  {
+   "key": "Aecker",
+   "action": "merge",
+   "into": "Acker"
+  },
+  {
+   "key": "Mooren",
+   "action": "merge",
+   "into": "Moor"
+  },
+  {
+   "key": "Ackerboden",
+   "action": "accept",
+   "label": "Ackerboden",
+   "class": "concept",
+   "kind": "Boden",
+   "gloss_en": "arable soil"
+  },
+  {
+   "key": "Felde",
+   "action": "merge",
+   "into": "Feld"
+  },
+  {
+   "key": "Forste",
+   "action": "merge",
+   "into": "Forst"
+  },
+  {
+   "key": "Busch",
+   "action": "accept",
+   "label": "Busch",
+   "class": "concept",
+   "kind": "Lebensraum",
+   "gloss_en": "bush, copse"
+  },
+  {
+   "key": "Au",
+   "action": "merge",
+   "into": "Aue"
+  },
+  {
+   "key": "Blech",
+   "action": "accept",
+   "label": "Blech",
+   "class": "concept",
+   "kind": "Material",
+   "gloss_en": "sheet metal, tin plate"
+  },
+  {
+   "key": "Käsen",
+   "action": "merge",
+   "into": "Käse"
+  },
+  {
+   "key": "Ocker",
+   "action": "accept",
+   "label": "Ocker",
+   "class": "concept",
+   "kind": "Gestein",
+   "gloss_en": "ochre",
+   "modern": "| One mention (p. 151, dialect text) is dialect for Acker (field)."
+  },
+  {
+   "key": "Raupenfraß",
+   "action": "accept",
+   "label": "Raupenfraß",
+   "class": "concept",
+   "kind": "Ereignis",
+   "gloss_en": "caterpillar damage"
+  },
+  {
+   "key": "Erde",
+   "action": "accept",
+   "label": "Erde",
+   "class": "concept",
+   "kind": "Boden",
+   "gloss_en": "earth, soil"
+  },
+  {
+   "key": "Holze",
+   "action": "merge",
+   "into": "Holz"
+  },
+  {
+   "key": "Martinsgrund",
+   "action": "accept",
+   "label": "Martinsgrund",
+   "class": "nature",
+   "kind": "Tal",
+   "gloss_en": "Martinsgrund (valley near Gera)"
+  },
+  {
+   "key": "Blitze",
+   "action": "merge",
+   "into": "Blitz"
+  },
+  {
+   "key": "Windbruch",
+   "action": "accept",
+   "label": "Windbruch",
+   "class": "concept",
+   "kind": "Ereignis",
+   "gloss_en": "windthrow, wind damage to forests"
+  },
+  {
+   "key": "niederböhmsdorfer Wald",
+   "action": "accept",
+   "label": "Niederböhmsdorfer Wald",
+   "class": "nature",
+   "kind": "Wald",
+   "gloss_en": "Niederböhmsdorfer Wald (forest near Niederböhmsdorf)"
+  },
+  {
+   "key": "schleizer Streitwald",
+   "action": "merge",
+   "into": "Streitwald"
+  },
+  {
+   "key": "Fichtenbestände",
+   "action": "merge",
+   "into": "Fichtenwald"
+  },
+  {
+   "key": "Walddistricte",
+   "action": "merge",
+   "into": "Walddistrict"
+  },
+  {
+   "key": "Windbrüche",
+   "action": "merge",
+   "into": "Windbruch"
+  },
+  {
+   "key": "Langwassergrund",
+   "action": "accept",
+   "label": "Langwassergrund",
+   "class": "nature",
+   "kind": "Tal",
+   "gloss_en": "Langwassergrund (valley of the Langwasser)"
+  },
+  {
+   "key": "Eisenstein",
+   "action": "accept",
+   "label": "Eisenstein",
+   "class": "concept",
+   "kind": "Gestein",
+   "gloss_en": "iron ore (ironstone)"
+  },
+  {
+   "key": "Schwerspath",
+   "action": "accept",
+   "label": "Schwerspath",
+   "class": "concept",
+   "kind": "Gestein",
+   "gloss_en": "barite (heavy spar)",
+   "modern": "Schwerspat"
+  },
+  {
+   "key": "Schaumkalk",
+   "action": "accept",
+   "label": "Schaumkalk",
+   "class": "concept",
+   "kind": "Gestein",
+   "gloss_en": "foam limestone (porous Zechstein limestone)"
+  },
+  {
+   "key": "Bitterspath",
+   "action": "accept",
+   "label": "Bitterspath",
+   "class": "concept",
+   "kind": "Gestein",
+   "gloss_en": "bitter spar (dolomite/magnesite)",
+   "modern": "Bitterspat"
+  },
+  {
+   "key": "Kochsalz",
+   "action": "accept",
+   "label": "Kochsalz",
+   "class": "concept",
+   "kind": "Rohstoff",
+   "gloss_en": "common salt (sodium chloride)"
+  },
+  {
+   "key": "Kupfererze",
+   "action": "merge",
+   "into": "Kupfererzen"
+  },
+  {
+   "key": "Silbererz",
+   "action": "accept",
+   "label": "Silbererz",
+   "class": "concept",
+   "kind": "Gestein",
+   "gloss_en": "silver ore"
+  },
+  {
+   "key": "Salzsäure",
+   "action": "accept",
+   "label": "Salzsäure",
+   "class": "concept",
+   "kind": "Material",
+   "gloss_en": "hydrochloric acid"
+  },
+  {
+   "key": "Schwefelsäure",
+   "action": "accept",
+   "label": "Schwefelsäure",
+   "class": "concept",
+   "kind": "Material",
+   "gloss_en": "sulphuric acid"
+  },
+  {
+   "key": "Baumwolle",
+   "action": "accept",
+   "label": "Baumwolle",
+   "class": "concept",
+   "kind": "Rohstoff",
+   "gloss_en": "cotton"
+  },
+  {
+   "key": "Flur",
+   "action": "accept",
+   "label": "Flur",
+   "class": "concept",
+   "kind": "Lebensraum",
+   "gloss_en": "fields, open farmland (village fields)"
+  },
+  {
+   "key": "Mineraliensammlung",
+   "action": "reject",
+   "reason": "a collection (museum holding), not a mineral or resource"
+  },
+  {
+   "key": "Wald-",
+   "action": "merge",
+   "into": "Wald"
+  },
+  {
+   "key": "Feld-",
+   "action": "merge",
+   "into": "Feld"
+  },
+  {
+   "key": "Haine",
+   "action": "merge",
+   "into": "Hain"
+  },
+  {
+   "key": "Walddistrict",
+   "action": "accept",
+   "label": "Walddistrict",
+   "class": "concept",
+   "kind": "Lebensraum",
+   "gloss_en": "forest district (forestry unit)",
+   "modern": "Waldbezirk"
+  },
+  {
+   "key": "Wolkenbruch",
+   "action": "accept",
+   "label": "Wolkenbruch",
+   "class": "concept",
+   "kind": "Wetter",
+   "gloss_en": "cloudburst"
+  },
+  {
+   "key": "Güterholz",
+   "action": "merge",
+   "into": "Holz"
+  },
+  {
+   "key": "Bränden",
+   "action": "merge",
+   "into": "Brand"
+  },
+  {
+   "key": "Buschholz",
+   "action": "merge",
+   "into": "Busch"
+  },
+  {
+   "key": "Birkicht",
+   "action": "accept",
+   "label": "Birkicht",
+   "class": "nature",
+   "kind": "Wald",
+   "gloss_en": "Birkicht (birch copse; common field name)"
+  },
+  {
+   "key": "Saarthal",
+   "action": "accept",
+   "label": "Saarthal",
+   "class": "nature",
+   "kind": "Tal",
+   "gloss_en": "Saar valley (valley of the Saarbach)",
+   "modern": "Saartal"
+  },
+  {
+   "key": "Holz- und Lohhändler",
+   "action": "reject",
+   "reason": "occupation (timber and tanbark dealer), not a concept"
+  },
+  {
+   "key": "Thalsohle",
+   "action": "accept",
+   "label": "Thalsohle",
+   "class": "concept",
+   "kind": "Gelände",
+   "gloss_en": "valley floor",
+   "modern": "Talsohle"
+  },
+  {
+   "key": "Hafer",
+   "action": "accept",
+   "label": "Hafer",
+   "class": "concept",
+   "kind": "Agrarprodukt",
+   "gloss_en": "oats"
+  },
+  {
+   "key": "Plantagen",
+   "action": "merge",
+   "into": "Obstplantagen"
+  },
+  {
+   "key": "Wachbusch",
+   "action": "accept",
+   "label": "Wachbusch",
+   "class": "nature",
+   "kind": "Wald",
+   "gloss_en": "Wachbusch (wood, historic site)"
+  },
+  {
+   "key": "Stöckicht",
+   "action": "accept",
+   "label": "Stöckicht",
+   "class": "nature",
+   "kind": "Wald",
+   "gloss_en": "Stöckicht (copse of stumps; field name)"
+  },
+  {
+   "key": "Flammen",
+   "action": "merge",
+   "into": "Brand"
+  },
+  {
+   "key": "Feuchtigkeit",
+   "action": "accept",
+   "label": "Feuchtigkeit",
+   "class": "concept",
+   "kind": "Klima",
+   "gloss_en": "moisture, humidity"
+  },
+  {
+   "key": "Matten",
+   "action": "merge",
+   "into": "Wiese"
+  },
+  {
+   "key": "Ziegel-",
+   "action": "accept",
+   "label": "Ziegel",
+   "class": "concept",
+   "kind": "Material",
+   "gloss_en": "brick, roof tile"
+  },
+  {
+   "key": "Schindel-",
+   "action": "merge",
+   "into": "Schindeln"
+  },
+  {
+   "key": "Pfarrholze",
+   "action": "merge",
+   "into": "Pfarrholz"
+  },
+  {
+   "key": "Ueberschwemmung",
+   "action": "accept",
+   "label": "Ueberschwemmung",
+   "class": "concept",
+   "kind": "Ereignis",
+   "gloss_en": "flood, inundation",
+   "modern": "Überschwemmung"
+  },
+  {
+   "key": "Jahresbrod",
+   "action": "reject",
+   "reason": "idiom (annual bread supply, i.e. self-sufficiency), not a concept"
+  },
+  {
+   "key": "Raupenfraßes",
+   "action": "merge",
+   "into": "Raupenfraß"
+  },
+  {
+   "key": "Raupenfraße",
+   "action": "merge",
+   "into": "Raupenfraß"
+  },
+  {
+   "key": "Holzes",
+   "action": "merge",
+   "into": "Holz"
+  },
+  {
+   "key": "Silbererze",
+   "action": "merge",
+   "into": "Silbererz"
+  },
+  {
+   "key": "Grasgarten",
+   "action": "accept",
+   "label": "Grasgarten",
+   "class": "concept",
+   "kind": "Lebensraum",
+   "gloss_en": "grass garden (meadow orchard)"
+  },
+  {
+   "key": "Wassermangel",
+   "action": "accept",
+   "label": "Wassermangel",
+   "class": "concept",
+   "kind": "Ereignis",
+   "gloss_en": "water shortage"
+  },
+  {
+   "key": "Feuersbrünste",
+   "action": "merge",
+   "into": "Brand"
+  },
+  {
+   "key": "30jährigen Kriege",
+   "action": "accept",
+   "label": "30jähriger Krieg",
+   "class": "concept",
+   "kind": "Ereignis",
+   "gloss_en": "Thirty Years' War",
+   "modern": "Dreißigjähriger Krieg",
+   "note": "Historical event (war damage), not an environmental event; kept because the annotation marks it as an impact."
+  },
+  {
+   "key": "pöllwitzer Walde",
+   "action": "merge",
+   "into": "Pöllwitzwald"
+  },
+  {
+   "key": "Waldgegend",
+   "action": "merge",
+   "into": "Wald"
+  },
+  {
+   "key": "Brunnenwasser",
+   "action": "accept",
+   "label": "Brunnenwasser",
+   "class": "concept",
+   "kind": "Rohstoff",
+   "gloss_en": "well water"
+  },
+  {
+   "key": "Privatwaldung",
+   "action": "merge",
+   "into": "Wald"
+  },
+  {
+   "key": "Schwalbengrund",
+   "action": "accept",
+   "label": "Schwalbengrund",
+   "class": "nature",
+   "kind": "Tal",
+   "gloss_en": "Schwalbengrund (valley between the Schleizer Streitwald and the Greizer Burgkwald)"
+  },
+  {
+   "key": "Gemüsegarten",
+   "action": "accept",
+   "label": "Gemüsegarten",
+   "class": "concept",
+   "kind": "Lebensraum",
+   "gloss_en": "vegetable garden"
+  },
+  {
+   "key": "Matte",
+   "action": "merge",
+   "into": "Wiese"
+  },
+  {
+   "key": "Holzung",
+   "action": "merge",
+   "into": "Wald"
+  },
+  {
+   "key": "Arlaswald",
+   "action": "accept",
+   "label": "Arlaswald",
+   "class": "nature",
+   "kind": "Wald",
+   "gloss_en": "Arlaswald (forest near Arlas)"
+  },
+  {
+   "key": "Thalau",
+   "action": "merge",
+   "into": "Aue"
+  },
+  {
+   "key": "Elsterthal",
+   "action": "accept",
+   "label": "Elsterthal",
+   "class": "nature",
+   "kind": "Tal",
+   "gloss_en": "Elster valley",
+   "modern": "Elstertal"
+  },
+  {
+   "key": "Bramthal",
+   "action": "accept",
+   "label": "Bramthal",
+   "class": "nature",
+   "kind": "Tal",
+   "gloss_en": "Bram valley",
+   "modern": "Bramtal"
+  },
+  {
+   "key": "Eleonorenthal",
+   "action": "accept",
+   "label": "Eleonorenthal",
+   "class": "nature",
+   "kind": "Tal",
+   "gloss_en": "Eleonorenthal (valley near Gera)",
+   "modern": "Eleonorental"
+  },
+  {
+   "key": "Heinzethal",
+   "action": "accept",
+   "label": "Heinzethal",
+   "class": "nature",
+   "kind": "Tal",
+   "gloss_en": "Heinzethal",
+   "modern": "Heinzetal"
+  },
+  {
+   "key": "Terrassen",
+   "action": "accept",
+   "label": "Terrasse",
+   "class": "concept",
+   "kind": "Gelände",
+   "gloss_en": "terrace"
+  },
+  {
+   "key": "Waldstrichen",
+   "action": "merge",
+   "into": "Wald"
+  },
+  {
+   "key": "Plateauboden",
+   "action": "merge",
+   "into": "Plateau"
+  },
+  {
+   "key": "abspülenden Wassergewalten",
+   "action": "merge",
+   "into": "Abspülung"
+  },
+  {
+   "key": "Ausreutung",
+   "action": "merge",
+   "into": "Rodung"
+  },
+  {
+   "key": "Sieglitzwaldstriches",
+   "action": "accept",
+   "label": "Sieglitzwaldstrich",
+   "class": "nature",
+   "kind": "Wald",
+   "gloss_en": "Sieglitzwaldstrich (part of the Frankenwald)"
+  },
+  {
+   "key": "Saalterrasse",
+   "action": "merge",
+   "into": "Terrassen"
+  },
+  {
+   "key": "Seeboden",
+   "action": "accept",
+   "label": "Seeboden",
+   "class": "concept",
+   "kind": "Gelände",
+   "gloss_en": "lake bed (former lake floor)"
+  },
+  {
+   "key": "Winden",
+   "action": "merge",
+   "into": "Wind"
+  },
+  {
+   "key": "Streitwalde",
+   "action": "merge",
+   "into": "Streitwald"
+  },
+  {
+   "key": "Koselgrunde",
+   "action": "accept",
+   "label": "Koselgrund",
+   "class": "nature",
+   "kind": "Tal",
+   "gloss_en": "Koselgrund (valley of the Kosel)"
+  },
+  {
+   "key": "Weidmannsheiler Forst",
+   "action": "accept",
+   "label": "Weidmannsheiler Forst",
+   "class": "nature",
+   "kind": "Wald",
+   "gloss_en": "Weidmannsheiler Forst (forest near Weidmannsheil)"
+  },
+  {
+   "key": "Pöllwitzwalde",
+   "action": "merge",
+   "into": "Pöllwitzwald"
+  },
+  {
+   "key": "Saalwalde",
+   "action": "merge",
+   "into": "Saalwald"
+  },
+  {
+   "key": "Bergholz",
+   "action": "accept",
+   "label": "Bergholz",
+   "class": "nature",
+   "kind": "Berg",
+   "gloss_en": "Holzberg (Bergholz), hill west-north-west of Frankendorf"
+  },
+  {
+   "key": "oschitzer Walde",
+   "action": "accept",
+   "label": "Oschitzer Wald",
+   "class": "nature",
+   "kind": "Wald",
+   "gloss_en": "Oschitzer Wald (forest near Oschitz)"
+  },
+  {
+   "key": "Hartebruch",
+   "action": "accept",
+   "label": "Hartebruch",
+   "class": "nature",
+   "kind": "Berg",
+   "gloss_en": "Hartebruch, elevation point near Ebersdorf",
+   "modern": "| Listed among the elevation points of the Frankenwald."
+  },
+  {
+   "key": "Hartmannsbruch",
+   "action": "accept",
+   "label": "Hartmannsbruch",
+   "class": "nature",
+   "kind": "Berg",
+   "gloss_en": "Hartmannsbruch, elevation point near Ebersdorf",
+   "modern": "| Listed among the elevation points."
+  },
+  {
+   "key": "lerchenhügler Forst",
+   "action": "accept",
+   "label": "Lerchenhügler Forst",
+   "class": "nature",
+   "kind": "Wald",
+   "gloss_en": "Lerchenhügler Forst (forest near Lerchenhügel)"
+  },
+  {
+   "key": "Kohlung",
+   "action": "accept",
+   "label": "Kohlung",
+   "class": "nature",
+   "kind": "Wald",
+   "gloss_en": "Kohlung (charcoal-burners' wood near Blintendorf)"
+  },
+  {
+   "key": "Südostwind",
+   "action": "accept",
+   "label": "Südostwind",
+   "class": "concept",
+   "kind": "Wetter",
+   "gloss_en": "south-east wind"
+  },
+  {
+   "key": "Regen-",
+   "action": "merge",
+   "into": "Regen"
+  },
+  {
+   "key": "Auswaschung",
+   "action": "merge",
+   "into": "Abspülung"
+  },
+  {
+   "key": "Abspülung",
+   "action": "accept",
+   "label": "Abspülung",
+   "class": "concept",
+   "kind": "Prozess",
+   "gloss_en": "erosion (washing away by water)"
+  },
+  {
+   "key": "Tiefländer",
+   "action": "accept",
+   "label": "Tiefland",
+   "class": "concept",
+   "kind": "Gelände",
+   "gloss_en": "lowland"
+  },
+  {
+   "key": "Meere",
+   "action": "accept",
+   "label": "Meer",
+   "class": "concept",
+   "kind": "Gelände",
+   "gloss_en": "sea"
+  },
+  {
+   "key": "Sonnenscheine",
+   "action": "merge",
+   "into": "Sonnenschein"
+  },
+  {
+   "key": "Auslaugung",
+   "action": "accept",
+   "label": "Auslaugung",
+   "class": "concept",
+   "kind": "Prozess",
+   "gloss_en": "leaching (of soluble minerals)"
+  },
+  {
+   "key": "Abführung",
+   "action": "merge",
+   "into": "Auslaugung"
+  },
+  {
+   "key": "Schwefelkies",
+   "action": "accept",
+   "label": "Schwefelkies",
+   "class": "concept",
+   "kind": "Gestein",
+   "gloss_en": "pyrite (iron pyrites)"
+  },
+  {
+   "key": "Abwaschung",
+   "action": "merge",
+   "into": "Abspülung"
+  },
+  {
+   "key": "Ausnagung",
+   "action": "merge",
+   "into": "Abspülung"
+  },
+  {
+   "key": "Eisenspath",
+   "action": "merge",
+   "into": "Spatheisenstein"
+  },
+  {
+   "key": "Vegetation",
+   "action": "reject",
+   "reason": "plant cover as such, not a habitat or land-cover type"
+  },
+  {
+   "key": "Grünsteinmassen",
+   "action": "merge",
+   "into": "Grünstein"
+  },
+  {
+   "key": "weidmannsheiler Forst",
+   "action": "merge",
+   "into": "Weidmannsheiler Forst"
+  },
+  {
+   "key": "Waldrand",
+   "action": "accept",
+   "label": "Waldrand",
+   "class": "concept",
+   "kind": "Lebensraum",
+   "gloss_en": "forest edge"
+  },
+  {
+   "key": "kleinen Heinrichsbusch",
+   "action": "accept",
+   "label": "Kleiner Heinrichsbusch",
+   "class": "nature",
+   "kind": "Wald",
+   "gloss_en": "Kleiner Heinrichsbusch (wood near Wüstendittersdorf)"
+  },
+  {
+   "key": "großen Heinrichsbusch",
+   "action": "accept",
+   "label": "Großer Heinrichsbusch",
+   "class": "nature",
+   "kind": "Wald",
+   "gloss_en": "Großer Heinrichsbusch (wood near Wüstendittersdorf)"
+  },
+  {
+   "key": "Graptolithenschiefer",
+   "action": "merge",
+   "into": "Kieselschiefer"
+  },
+  {
+   "key": "Grauwackenzwischenlagen",
+   "action": "merge",
+   "into": "Grauwacke"
+  },
+  {
+   "key": "Antimonglanz",
+   "action": "accept",
+   "label": "Antimonglanz",
+   "class": "concept",
+   "kind": "Gestein",
+   "gloss_en": "stibnite (antimony glance)"
+  },
+  {
+   "key": "Arsenikkies",
+   "action": "accept",
+   "label": "Arsenikkies",
+   "class": "concept",
+   "kind": "Gestein",
+   "gloss_en": "arsenopyrite (arsenical pyrites)"
+  },
+  {
+   "key": "Kalkes",
+   "action": "merge",
+   "into": "Kalk"
+  },
+  {
+   "key": "Thalgehänge",
+   "action": "accept",
+   "label": "Thalgehänge",
+   "class": "concept",
+   "kind": "Gelände",
+   "gloss_en": "valley slope",
+   "modern": "Talhang"
+  },
+  {
+   "key": "aufgeschwemmtes Land",
+   "action": "accept",
+   "label": "Aufgeschwemmtes Land",
+   "class": "concept",
+   "kind": "Gestein",
+   "gloss_en": "alluvial deposits (alluvium)"
+  },
+  {
+   "key": "weidmannsheiler Forst es",
+   "action": "merge",
+   "into": "Weidmannsheiler Forst"
+  },
+  {
+   "key": "schleizer Waldes",
+   "action": "merge",
+   "into": "schleizer Wald"
+  },
+  {
+   "key": "Quarzsand",
+   "action": "merge",
+   "into": "Sand"
+  },
+  {
+   "key": "Mörtel",
+   "action": "accept",
+   "label": "Mörtel",
+   "class": "concept",
+   "kind": "Material",
+   "gloss_en": "mortar"
+  },
+  {
+   "key": "Eisenerze",
+   "action": "merge",
+   "into": "Eisenerz"
+  },
+  {
+   "key": "Sumpfbildung",
+   "action": "merge",
+   "into": "Versumpfung"
+  },
+  {
+   "key": "Glimmerdiabas",
+   "action": "accept",
+   "label": "Glimmerdiabas",
+   "class": "concept",
+   "kind": "Gestein",
+   "gloss_en": "mica diabase"
+  },
+  {
+   "key": "Porphyr",
+   "action": "accept",
+   "label": "Porphyr",
+   "class": "concept",
+   "kind": "Gestein",
+   "gloss_en": "porphyry"
+  },
+  {
+   "key": "Granit",
+   "action": "accept",
+   "label": "Granit",
+   "class": "concept",
+   "kind": "Gestein",
+   "gloss_en": "granite"
+  },
+  {
+   "key": "Meeresbodens",
+   "action": "merge",
+   "into": "Meere"
+  },
+  {
+   "key": "kirschkauer Flur",
+   "action": "merge",
+   "into": "Flur"
+  },
+  {
+   "key": "Graunickelkies",
+   "action": "accept",
+   "label": "Graunickelkies",
+   "class": "concept",
+   "kind": "Gestein",
+   "gloss_en": "grey nickel ore"
+  },
+  {
+   "key": "Rothnickelkies",
+   "action": "accept",
+   "label": "Rothnickelkies",
+   "class": "concept",
+   "kind": "Gestein",
+   "gloss_en": "red nickel ore (niccolite)",
+   "modern": "Rotnickelkies"
+  },
+  {
+   "key": "Schleizer Waldes",
+   "action": "merge",
+   "into": "schleizer Wald"
+  },
+  {
+   "key": "Glanzeisenerz",
+   "action": "merge",
+   "into": "Eisenglanz"
+  },
+  {
+   "key": "Clymenienkalk",
+   "action": "accept",
+   "label": "Clymenienkalk",
+   "class": "concept",
+   "kind": "Gestein",
+   "gloss_en": "Clymenia limestone (Upper Devonian)"
+  },
+  {
+   "key": "Grünsteine",
+   "action": "merge",
+   "into": "Grünstein"
+  },
+  {
+   "key": "Kalkdiabase",
+   "action": "accept",
+   "label": "Kalkdiabas",
+   "class": "concept",
+   "kind": "Gestein",
+   "gloss_en": "lime diabase"
+  },
+  {
+   "key": "Feldspathmineralien",
+   "action": "accept",
+   "label": "Feldspath",
+   "class": "concept",
+   "kind": "Gestein",
+   "gloss_en": "feldspar minerals",
+   "modern": "Feldspat"
+  },
+  {
+   "key": "Augit",
+   "action": "accept",
+   "label": "Augit",
+   "class": "concept",
+   "kind": "Gestein",
+   "gloss_en": "augite"
+  },
+  {
+   "key": "Brauneisenerz",
+   "action": "merge",
+   "into": "Brauneisenstein"
+  },
+  {
+   "key": "Sumpf",
+   "action": "accept",
+   "label": "Sumpf",
+   "class": "concept",
+   "kind": "Lebensraum",
+   "gloss_en": "swamp, marsh"
+  },
+  {
+   "key": "Bausteine",
+   "action": "accept",
+   "label": "Baustein",
+   "class": "concept",
+   "kind": "Material",
+   "gloss_en": "building stone"
+  },
+  {
+   "key": "Eisengehaltes",
+   "action": "merge",
+   "into": "Eisen"
+  },
+  {
+   "key": "Steinkohlenformation",
+   "action": "merge",
+   "into": "Steinkohlen"
+  },
+  {
+   "key": "nagende Macht der Thalgewässer",
+   "action": "merge",
+   "into": "Abspülung"
+  },
+  {
+   "key": "Kupferschiefer",
+   "action": "accept",
+   "label": "Kupferschiefer",
+   "class": "concept",
+   "kind": "Gestein",
+   "gloss_en": "copper shale"
+  },
+  {
+   "key": "Dolomit",
+   "action": "accept",
+   "label": "Dolomit",
+   "class": "concept",
+   "kind": "Gestein",
+   "gloss_en": "dolomite"
+  },
+  {
+   "key": "Buntkupfererz",
+   "action": "accept",
+   "label": "Buntkupfererz",
+   "class": "concept",
+   "kind": "Gestein",
+   "gloss_en": "bornite (variegated copper ore)"
+  },
+  {
+   "key": "Erdfälle",
+   "action": "accept",
+   "label": "Erdfall",
+   "class": "concept",
+   "kind": "Ereignis",
+   "gloss_en": "sinkhole, subsidence funnel"
+  },
+  {
+   "key": "Steinsalzstocke",
+   "action": "merge",
+   "into": "Steinsalz"
+  },
+  {
+   "key": "Salzsohle",
+   "action": "accept",
+   "label": "Salzsohle",
+   "class": "concept",
+   "kind": "Rohstoff",
+   "gloss_en": "brine (saturated salt solution)",
+   "modern": "Salzsole"
+  },
+  {
+   "key": "Kalksteine",
+   "action": "merge",
+   "into": "Kalkstein"
+  },
+  {
+   "key": "Rapsfelder",
+   "action": "merge",
+   "into": "Feld"
+  },
+  {
+   "key": "Sandsteins",
+   "action": "merge",
+   "into": "Sandstein"
+  },
+  {
+   "key": "Regenwasser",
+   "action": "accept",
+   "label": "Regenwasser",
+   "class": "concept",
+   "kind": "Rohstoff",
+   "gloss_en": "rainwater"
+  },
+  {
+   "key": "Thonboden",
+   "action": "accept",
+   "label": "Thonboden",
+   "class": "concept",
+   "kind": "Boden",
+   "gloss_en": "clay soil",
+   "modern": "Tonboden"
+  },
+  {
+   "key": "Brauneisensteins",
+   "action": "merge",
+   "into": "Brauneisenstein"
+  },
+  {
+   "key": "Glanz- und Rotheisensteinen",
+   "action": "merge",
+   "into": "Eisenstein"
+  },
+  {
+   "key": "Sandsteine",
+   "action": "merge",
+   "into": "Sandstein"
+  },
+  {
+   "key": "Süßwassersandsteine",
+   "action": "accept",
+   "label": "Süßwassersandstein",
+   "class": "concept",
+   "kind": "Gestein",
+   "gloss_en": "freshwater sandstone (limnoquartzite, local name 'Wacke')"
+  },
+  {
+   "key": "Limnoquarzite",
+   "action": "merge",
+   "into": "Süßwassersandsteine"
+  },
+  {
+   "key": "Atmosphäre",
+   "action": "merge",
+   "into": "Luft"
+  },
+  {
+   "key": "Sumpfwälder",
+   "action": "merge",
+   "into": "Sumpf"
+  },
+  {
+   "key": "Lignit",
+   "action": "merge",
+   "into": "Braunkohlen"
+  },
+  {
+   "key": "Waldregion",
+   "action": "merge",
+   "into": "Wald"
+  },
+  {
+   "key": "Eisperiode",
+   "action": "merge",
+   "into": "Eiszeit"
+  },
+  {
+   "key": "Eiszeit",
+   "action": "accept",
+   "label": "Eiszeit",
+   "class": "concept",
+   "kind": "Klima",
+   "gloss_en": "Ice Age"
+  },
+  {
+   "key": "Thonen",
+   "action": "accept",
+   "label": "Thon",
+   "class": "concept",
+   "kind": "Gestein",
+   "gloss_en": "clay",
+   "modern": "Ton"
+  },
+  {
+   "key": "Geröllen",
+   "action": "accept",
+   "label": "Gerölle",
+   "class": "concept",
+   "kind": "Gestein",
+   "gloss_en": "gravel, rubble"
+  },
+  {
+   "key": "artesisches Wasser",
+   "action": "merge",
+   "into": "Wasser"
+  },
+  {
+   "key": "heißen Sommern",
+   "action": "accept",
+   "label": "Sommer",
+   "class": "concept",
+   "kind": "Klima",
+   "gloss_en": "summer (season)"
+  },
+  {
+   "key": "atmosphärischen Niederschlägen",
+   "action": "merge",
+   "into": "atmosphärischen Niederschläge"
+  },
+  {
+   "key": "Versumpfung",
+   "action": "accept",
+   "label": "Versumpfung",
+   "class": "concept",
+   "kind": "Prozess",
+   "gloss_en": "waterlogging, swamp formation"
+  },
+  {
+   "key": "grüne Flächen",
+   "action": "merge",
+   "into": "Wiese"
+  },
+  {
+   "key": "Buntsandsteins",
+   "action": "merge",
+   "into": "Buntsandstein"
+  },
+  {
+   "key": "Mineralquellen",
+   "action": "accept",
+   "label": "Mineralquelle",
+   "class": "concept",
+   "kind": "Gewässer",
+   "gloss_en": "mineral spring"
+  },
+  {
+   "key": "Eisenquelle",
+   "action": "merge",
+   "into": "Eisenquellen"
+  },
+  {
+   "key": "Curwasser",
+   "action": "merge",
+   "into": "Mineralwasser"
+  },
+  {
+   "key": "Mineralwasser",
+   "action": "accept",
+   "label": "Mineralwasser",
+   "class": "concept",
+   "kind": "Rohstoff",
+   "gloss_en": "mineral water"
+  },
+  {
+   "key": "Heilquellen",
+   "action": "merge",
+   "into": "Heilquelle"
+  },
+  {
+   "key": "Kohlensäure",
+   "action": "accept",
+   "label": "Kohlensäure",
+   "class": "concept",
+   "kind": "Material",
+   "gloss_en": "carbonic acid (carbon dioxide in mineral water)"
+  },
+  {
+   "key": "Agnesquelle",
+   "action": "accept",
+   "label": "Agnesquelle",
+   "class": "nature",
+   "kind": "Quelle",
+   "gloss_en": "Agnesquelle (spring of the Lobenstein spa, opened 1868)"
+  },
+  {
+   "key": "Eisenwasserocker",
+   "action": "merge",
+   "into": "Ocker"
+  },
+  {
+   "key": "Stahlwassers",
+   "action": "merge",
+   "into": "Mineralwasser"
+  },
+  {
+   "key": "Tiegelsgeräumde",
+   "action": "accept",
+   "label": "Tiegelsgeräumde",
+   "class": "place",
+   "kind": "Flur",
+   "gloss_en": "Tiegelsgeräumde (cleared land, field name)"
+  },
+  {
+   "key": "gebersreuther Flur",
+   "action": "merge",
+   "into": "Flur"
+  },
+  {
+   "key": "Saßenwiesen",
+   "action": "accept",
+   "label": "Saßenwiesen",
+   "class": "place",
+   "kind": "Flur",
+   "gloss_en": "Saßenwiesen (meadows near Gefell)"
+  },
+  {
+   "key": "Zeidelweide",
+   "action": "accept",
+   "label": "Zeidelweide",
+   "class": "place",
+   "kind": "Flur",
+   "gloss_en": "Zeidelweide (pasture at the Zeidelbrunnen)"
+  },
+  {
+   "key": "langenbacher Flur",
+   "action": "merge",
+   "into": "Flur"
+  },
+  {
+   "key": "öttersdorfer Flur",
+   "action": "merge",
+   "into": "Flur"
+  },
+  {
+   "key": "Saugrund",
+   "action": "accept",
+   "label": "Saugrund",
+   "class": "nature",
+   "kind": "Tal",
+   "gloss_en": "Saugrund (valley at Kleinwolschendorf)"
+  },
+  {
+   "key": "Quell- und Bachwasser",
+   "action": "merge",
+   "into": "Wasser"
+  },
+  {
+   "key": "reißend",
+   "action": "reject",
+   "reason": "adjective describing a stream, not a concept"
+  },
+  {
+   "key": "Sand ausschüttend",
+   "action": "reject",
+   "reason": "verbal phrase describing a stream, not a concept"
+  },
+  {
+   "key": "Schafgrund",
+   "action": "accept",
+   "label": "Schafgrund",
+   "class": "nature",
+   "kind": "Tal",
+   "gloss_en": "Schafgrund (valley and brook)",
+   "modern": "| At least two homonymous valleys (Hartmannsdorf/Stübnitz; Collis)."
+  },
+  {
+   "key": "Schliffsteingrund",
+   "action": "accept",
+   "label": "Schliffsteingrund",
+   "class": "nature",
+   "kind": "Tal",
+   "gloss_en": "Schliffsteingrund (valley near Stübnitz)"
+  },
+  {
+   "key": "Ziegengrund",
+   "action": "accept",
+   "label": "Ziegengrund",
+   "class": "nature",
+   "kind": "Tal",
+   "gloss_en": "Ziegengrund (valley near Eleonorenthal)"
+  },
+  {
+   "key": "Borngrund",
+   "action": "accept",
+   "label": "Borngrund",
+   "class": "nature",
+   "kind": "Tal",
+   "gloss_en": "Borngrund (valley near Gleina)"
+  },
+  {
+   "key": "langen Grund",
+   "action": "accept",
+   "label": "Langer Grund",
+   "class": "nature",
+   "kind": "Tal",
+   "gloss_en": "Langer Grund (valley near Pohlen)"
+  },
+  {
+   "key": "Thälchen von Kaimberg",
+   "action": "accept",
+   "label": "Thälchen von Kaimberg",
+   "class": "nature",
+   "kind": "Tal",
+   "gloss_en": "little valley of Kaimberg",
+   "modern": "Tälchen von Kaimberg"
+  },
+  {
+   "key": "colliser Thal",
+   "action": "accept",
+   "label": "Colliser Thal",
+   "class": "nature",
+   "kind": "Tal",
+   "gloss_en": "Colliser Thal (valley of the Pfortenbach near Collis)"
+  },
+  {
+   "key": "Krautgrund",
+   "action": "accept",
+   "label": "Krautgrund",
+   "class": "nature",
+   "kind": "Tal",
+   "gloss_en": "Krautgrund (valley, also called laasener Bächlein)"
+  },
+  {
+   "key": "Bramwald",
+   "action": "reject",
+   "reason": "forest name cited only as an etymological parallel to Bramthal (Bramberg, Bramstedt, Bramwald)"
+  },
+  {
+   "key": "Brämsegrund",
+   "action": "accept",
+   "label": "Brämsegrund",
+   "class": "nature",
+   "kind": "Tal",
+   "gloss_en": "Brämsegrund (also Kerbe, Schwaaragrund) near Zschippach"
+  },
+  {
+   "key": "Kerbe",
+   "action": "merge",
+   "into": "Brämsegrund"
+  },
+  {
+   "key": "Schwaaragrund",
+   "action": "merge",
+   "into": "Brämsegrund"
+  },
+  {
+   "key": "Schafgrund-",
+   "action": "merge",
+   "into": "Schafgrund"
+  },
+  {
+   "key": "Feuchtigkeitsverhältnisse",
+   "action": "merge",
+   "into": "Feuchtigkeit"
+  },
+  {
+   "key": "Luftdrucke",
+   "action": "merge",
+   "into": "Luftdruck"
+  },
+  {
+   "key": "atmosphärische Erscheinungen",
+   "action": "merge",
+   "into": "Wetter"
+  },
+  {
+   "key": "Feuchtigkeit der Luft",
+   "action": "merge",
+   "into": "Feuchtigkeit"
+  },
+  {
+   "key": "Dunstdruck",
+   "action": "accept",
+   "label": "Dunstdruck",
+   "class": "concept",
+   "kind": "Klima",
+   "gloss_en": "vapour pressure"
+  },
+  {
+   "key": "Verdunstung der Wasser",
+   "action": "accept",
+   "label": "Verdunstung",
+   "class": "concept",
+   "kind": "Klima",
+   "gloss_en": "evaporation"
+  },
+  {
+   "key": "Luftdruckes",
+   "action": "merge",
+   "into": "Luftdruck"
+  },
+  {
+   "key": "Wärmebewegung",
+   "action": "merge",
+   "into": "Wärme"
+  },
+  {
+   "key": "Ostwinde",
+   "action": "merge",
+   "into": "Ostwind"
+  },
+  {
+   "key": "Thalgelände",
+   "action": "merge",
+   "into": "Thal"
+  },
+  {
+   "key": "Seitenlandschaften",
+   "action": "reject",
+   "reason": "generic geographical expression, not a concept"
+  },
+  {
+   "key": "Weinzone",
+   "action": "accept",
+   "label": "Weinzone",
+   "class": "concept",
+   "kind": "Klima",
+   "gloss_en": "wine zone (altitude zone of viticulture)"
+  },
+  {
+   "key": "Haferzone",
+   "action": "accept",
+   "label": "Haferzone",
+   "class": "concept",
+   "kind": "Klima",
+   "gloss_en": "oat zone (altitude zone of oat growing)"
+  },
+  {
+   "key": "Sommerwärme",
+   "action": "merge",
+   "into": "Wärme"
+  },
+  {
+   "key": "Stürme",
+   "action": "merge",
+   "into": "Sturm"
+  },
+  {
+   "key": "Entholzungen",
+   "action": "merge",
+   "into": "Rodung"
+  },
+  {
+   "key": "Nebelschichten",
+   "action": "merge",
+   "into": "Nebel"
+  },
+  {
+   "key": "Fröste",
+   "action": "merge",
+   "into": "Frost"
+  },
+  {
+   "key": "Weibersommer",
+   "action": "accept",
+   "label": "Weibersommer",
+   "class": "concept",
+   "kind": "Wetter",
+   "gloss_en": "Indian summer (late-summer spell)",
+   "modern": "Altweibersommer"
+  },
+  {
+   "key": "Thalnebeln",
+   "action": "merge",
+   "into": "Nebel"
+  },
+  {
+   "key": "Dünsten",
+   "action": "accept",
+   "label": "Dunst",
+   "class": "concept",
+   "kind": "Wetter",
+   "gloss_en": "vapour, haze"
+  },
+  {
+   "key": "Seitenthäler",
+   "action": "merge",
+   "into": "Thal"
+  },
+  {
+   "key": "Buchten",
+   "action": "accept",
+   "label": "Bucht",
+   "class": "concept",
+   "kind": "Gelände",
+   "gloss_en": "bay, embayment of the plateau"
+  },
+  {
+   "key": "Pfannen",
+   "action": "merge",
+   "into": "Mulden"
+  },
+  {
+   "key": "Frösten",
+   "action": "merge",
+   "into": "Frost"
+  },
+  {
+   "key": "Wintern",
+   "action": "merge",
+   "into": "Winter"
+  },
+  {
+   "key": "Hitze",
+   "action": "accept",
+   "label": "Hitze",
+   "class": "concept",
+   "kind": "Klima",
+   "gloss_en": "heat"
+  },
+  {
+   "key": "Eis",
+   "action": "accept",
+   "label": "Eis",
+   "class": "concept",
+   "kind": "Wetter",
+   "gloss_en": "ice"
+  },
+  {
+   "key": "Plateau",
+   "action": "accept",
+   "label": "Plateau",
+   "class": "concept",
+   "kind": "Gelände",
+   "gloss_en": "plateau"
+  },
+  {
+   "key": "Windströmung",
+   "action": "merge",
+   "into": "Luftströmungen"
+  },
+  {
+   "key": "Wärmeunterschiede",
+   "action": "merge",
+   "into": "Temperatur"
+  },
+  {
+   "key": "Südwind",
+   "action": "accept",
+   "label": "Südwind",
+   "class": "concept",
+   "kind": "Wetter",
+   "gloss_en": "south wind"
+  },
+  {
+   "key": "Süd- und Nordwind",
+   "action": "merge",
+   "into": "Wind"
+  },
+  {
+   "key": "Süd-",
+   "action": "merge",
+   "into": "Südwind"
+  },
+  {
+   "key": "Ostwind",
+   "action": "accept",
+   "label": "Ostwind",
+   "class": "concept",
+   "kind": "Wetter",
+   "gloss_en": "east wind"
+  },
+  {
+   "key": "Bewölkung",
+   "action": "accept",
+   "label": "Bewölkung",
+   "class": "concept",
+   "kind": "Wetter",
+   "gloss_en": "cloud cover"
+  },
+  {
+   "key": "Schnee-Graupen",
+   "action": "accept",
+   "label": "Schneegraupen",
+   "class": "concept",
+   "kind": "Wetter",
+   "gloss_en": "snow pellets, graupel"
+  },
+  {
+   "key": "Sonnen-höfe",
+   "action": "accept",
+   "label": "Sonnenhof",
+   "class": "concept",
+   "kind": "Wetter",
+   "gloss_en": "solar halo"
+  },
+  {
+   "key": "Mond-höfe",
+   "action": "accept",
+   "label": "Mondhof",
+   "class": "concept",
+   "kind": "Wetter",
+   "gloss_en": "lunar halo"
+  },
+  {
+   "key": "Zodiakal-licht",
+   "action": "accept",
+   "label": "Zodiakallicht",
+   "class": "concept",
+   "kind": "Wetter",
+   "gloss_en": "zodiacal light"
+  },
+  {
+   "key": "Nord-licht",
+   "action": "accept",
+   "label": "Nordlicht",
+   "class": "concept",
+   "kind": "Wetter",
+   "gloss_en": "northern lights, aurora borealis"
+  },
+  {
+   "key": "Regen und Schnee",
+   "action": "merge",
+   "into": "Regen"
+  },
+  {
+   "key": "Moorboden",
+   "action": "merge",
+   "into": "Moor"
+  },
+  {
+   "key": "Haarrauch",
+   "action": "merge",
+   "into": "Höhenrauch"
+  },
+  {
+   "key": "Eisschmelzen",
+   "action": "merge",
+   "into": "Eis"
+  },
+  {
+   "key": "Höhrauch",
+   "action": "merge",
+   "into": "Höhenrauch"
+  },
+  {
+   "key": "Waldreichthums",
+   "action": "merge",
+   "into": "Wald"
+  },
+  {
+   "key": "Schatten",
+   "action": "reject",
+   "reason": "shade (a condition of temperature measurement), not a concept"
+  },
+  {
+   "key": "Jahrestemperatur",
+   "action": "merge",
+   "into": "Jahresmittel"
+  },
+  {
+   "key": "Erdreich",
+   "action": "merge",
+   "into": "Erde"
+  },
+  {
+   "key": "Regenfalles",
+   "action": "merge",
+   "into": "Regen"
+  },
+  {
+   "key": "Sonnenwärme",
+   "action": "merge",
+   "into": "Wärme"
+  },
+  {
+   "key": "Winters",
+   "action": "merge",
+   "into": "Winter"
+  },
+  {
+   "key": "Erdarten",
+   "action": "merge",
+   "into": "Erde"
+  },
+  {
+   "key": "Ackerfeld",
+   "action": "merge",
+   "into": "Acker"
+  },
+  {
+   "key": "Wiesen- und Angerland",
+   "action": "merge",
+   "into": "Wiese"
+  },
+  {
+   "key": "Saatflur",
+   "action": "accept",
+   "label": "Saatflur",
+   "class": "concept",
+   "kind": "Lebensraum",
+   "gloss_en": "sown field, arable land"
+  },
+  {
+   "key": "Rain",
+   "action": "accept",
+   "label": "Rain",
+   "class": "concept",
+   "kind": "Lebensraum",
+   "gloss_en": "field margin, baulk"
+  },
+  {
+   "key": "Hoch- und Niederwald",
+   "action": "merge",
+   "into": "Wald"
+  },
+  {
+   "key": "Weideland",
+   "action": "merge",
+   "into": "Weide"
+  },
+  {
+   "key": "Trift",
+   "action": "accept",
+   "label": "Trift",
+   "class": "concept",
+   "kind": "Lebensraum",
+   "gloss_en": "drove, grazing track (Trift)"
+  },
+  {
+   "key": "Gebüsch",
+   "action": "merge",
+   "into": "Busch"
+  },
+  {
+   "key": "Sümpfen",
+   "action": "merge",
+   "into": "Sumpf"
+  },
+  {
+   "key": "Buntsand-",
+   "action": "merge",
+   "into": "Buntsandstein"
+  },
+  {
+   "key": "Rothliegendem",
+   "action": "accept",
+   "label": "Rothliegendes",
+   "class": "concept",
+   "kind": "Gestein",
+   "gloss_en": "Rotliegend (Permian red sandstone)",
+   "modern": "Rotliegendes"
+  },
+  {
+   "key": "Dammerde",
+   "action": "merge",
+   "into": "Humus"
+  },
+  {
+   "key": "Thalwiesen",
+   "action": "merge",
+   "into": "Wiese"
+  },
+  {
+   "key": "Hügelgelände",
+   "action": "accept",
+   "label": "Hügelgelände",
+   "class": "concept",
+   "kind": "Gelände",
+   "gloss_en": "hilly terrain"
+  },
+  {
+   "key": "Torfwiesen",
+   "action": "accept",
+   "label": "Torfwiese",
+   "class": "concept",
+   "kind": "Lebensraum",
+   "gloss_en": "peat meadow"
+  },
+  {
+   "key": "Sandboden",
+   "action": "accept",
+   "label": "Sandboden",
+   "class": "concept",
+   "kind": "Boden",
+   "gloss_en": "sandy soil"
+  },
+  {
+   "key": "Lichtung",
+   "action": "merge",
+   "into": "Rodung"
+  },
+  {
+   "key": "Thon- und Grauwackenschiefer",
+   "action": "merge",
+   "into": "Schiefer"
+  },
+  {
+   "key": "Anlagen",
+   "action": "merge",
+   "into": "Park"
+  },
+  {
+   "key": "Südwestwinde",
+   "action": "accept",
+   "label": "Südwestwind",
+   "class": "concept",
+   "kind": "Wetter",
+   "gloss_en": "south-west wind"
+  },
+  {
+   "key": "Feldgebüsche",
+   "action": "merge",
+   "into": "Busch"
+  },
+  {
+   "key": "Grasgärten",
+   "action": "merge",
+   "into": "Grasgarten"
+  },
+  {
+   "key": "Waldbestände",
+   "action": "merge",
+   "into": "Wald"
+  },
+  {
+   "key": "Birkenhölzern",
+   "action": "merge",
+   "into": "Wald"
+  },
+  {
+   "key": "Nadelwälder",
+   "action": "accept",
+   "label": "Nadelwald",
+   "class": "concept",
+   "kind": "Lebensraum",
+   "gloss_en": "coniferous forest"
+  },
+  {
+   "key": "Buchenwaldes",
+   "action": "accept",
+   "label": "Buchenwald",
+   "class": "concept",
+   "kind": "Lebensraum",
+   "gloss_en": "beech forest"
+  },
+  {
+   "key": "Wiesenboden",
+   "action": "accept",
+   "label": "Wiesenboden",
+   "class": "concept",
+   "kind": "Boden",
+   "gloss_en": "meadow soil"
+  },
+  {
+   "key": "Beunten",
+   "action": "accept",
+   "label": "Beunte",
+   "class": "concept",
+   "kind": "Lebensraum",
+   "gloss_en": "Beunte (enclosed meadow cut off from the drove-way)"
+  },
+  {
+   "key": "Saatfelder",
+   "action": "merge",
+   "into": "Feld"
+  },
+  {
+   "key": "Waldgebieten",
+   "action": "merge",
+   "into": "Wald"
+  },
+  {
+   "key": "rauhen Wintern",
+   "action": "merge",
+   "into": "Winter"
+  },
+  {
+   "key": "Abhängen",
+   "action": "merge",
+   "into": "Thalgehänge"
+  },
+  {
+   "key": "ausgerottet",
+   "action": "reject",
+   "reason": "participle (eradicated), not a concept"
+  },
+  {
+   "key": "Teichstrichen",
+   "action": "merge",
+   "into": "Teich"
+  },
+  {
+   "key": "Waldlichtungen",
+   "action": "merge",
+   "into": "Rodung"
+  },
+  {
+   "key": "Feldhölzern",
+   "action": "merge",
+   "into": "Wald"
+  },
+  {
+   "key": "Flüsse",
+   "action": "accept",
+   "label": "Fluss",
+   "class": "concept",
+   "kind": "Gewässer",
+   "gloss_en": "river"
+  },
+  {
+   "key": "Gehängen",
+   "action": "merge",
+   "into": "Thalgehänge"
+  },
+  {
+   "key": "Fluren",
+   "action": "merge",
+   "into": "Flur"
+  },
+  {
+   "key": "Flüssen",
+   "action": "merge",
+   "into": "Flüsse"
+  },
+  {
+   "key": "Bäche",
+   "action": "merge",
+   "into": "Bächen"
+  },
+  {
+   "key": "Forellenbäche",
+   "action": "merge",
+   "into": "Bächen"
+  },
+  {
+   "key": "Laubholzschluchten",
+   "action": "merge",
+   "into": "Schluchten"
+  },
+  {
+   "key": "Thalstriche",
+   "action": "merge",
+   "into": "Thal"
+  },
+  {
+   "key": "Trockenheit",
+   "action": "merge",
+   "into": "Dürre"
+  },
+  {
+   "key": "Tümpfel",
+   "action": "accept",
+   "label": "Tümpfel",
+   "class": "concept",
+   "kind": "Gewässer",
+   "gloss_en": "pool, puddle",
+   "modern": "Tümpel"
+  },
+  {
+   "key": "Nadelwäldern",
+   "action": "merge",
+   "into": "Nadelwälder"
+  },
+  {
+   "key": "Spiritus",
+   "action": "accept",
+   "label": "Spiritus",
+   "class": "concept",
+   "kind": "Material",
+   "gloss_en": "spirits, alcohol (e.g. ant spirit)"
+  },
+  {
+   "key": "Mosquitoplage",
+   "action": "merge",
+   "into": "Landplage"
+  },
+  {
+   "key": "Landplage",
+   "action": "accept",
+   "label": "Landplage",
+   "class": "concept",
+   "kind": "Ereignis",
+   "gloss_en": "plague of insects (e.g. locusts, mosquitoes)"
+  },
+  {
+   "key": "Waldareal",
+   "action": "merge",
+   "into": "Wald"
+  },
+  {
+   "key": "Pocken",
+   "action": "accept",
+   "label": "Pocken",
+   "class": "concept",
+   "kind": "Seuche",
+   "gloss_en": "smallpox"
+  },
+  {
+   "key": "Wasserraum",
+   "action": "merge",
+   "into": "Anger"
+  },
+  {
+   "key": "Blumengärtchen",
+   "action": "merge",
+   "into": "Garten"
+  },
+  {
+   "key": "Gemüse- und Grasgarten",
+   "action": "merge",
+   "into": "Garten"
+  },
+  {
+   "key": "Fichtenwald",
+   "action": "accept",
+   "label": "Fichtenwald",
+   "class": "concept",
+   "kind": "Lebensraum",
+   "gloss_en": "spruce forest"
+  },
+  {
+   "key": "Balken",
+   "action": "accept",
+   "label": "Balken",
+   "class": "concept",
+   "kind": "Material",
+   "gloss_en": "beam (building timber)"
+  },
+  {
+   "key": "Spanholz",
+   "action": "accept",
+   "label": "Spanholz",
+   "class": "concept",
+   "kind": "Material",
+   "gloss_en": "wood shavings, kindling splints"
+  },
+  {
+   "key": "Holzspäne",
+   "action": "merge",
+   "into": "Spanholz"
+  },
+  {
+   "key": "Lehmstock",
+   "action": "reject",
+   "reason": "building technique (clay-wall construction), not a material"
+  },
+  {
+   "key": "hölzernen",
+   "action": "reject",
+   "reason": "adjective (wooden), not a concept"
+  },
+  {
+   "key": "Wasserdünste",
+   "action": "merge",
+   "into": "Dünsten"
+  },
+  {
+   "key": "Kartoffelsatz",
+   "action": "reject",
+   "reason": "prepared pig feed (mashed potatoes), not a resource concept"
+  },
+  {
+   "key": "Tuch",
+   "action": "accept",
+   "label": "Tuch",
+   "class": "concept",
+   "kind": "Material",
+   "gloss_en": "cloth, woollen cloth"
+  },
+  {
+   "key": "Nibel",
+   "action": "merge",
+   "into": "Nebel"
+  },
+  {
+   "key": "Nabel",
+   "action": "merge",
+   "into": "Nebel"
+  },
+  {
+   "key": "Streu",
+   "action": "accept",
+   "label": "Streu",
+   "class": "concept",
+   "kind": "Material",
+   "gloss_en": "litter, bedding (straw or forest litter)"
+  },
+  {
+   "key": "Käs",
+   "action": "merge",
+   "into": "Käse"
+  },
+  {
+   "key": "Wittergen",
+   "action": "merge",
+   "into": "Wetter"
+  },
+  {
+   "key": "Fald",
+   "action": "merge",
+   "into": "Feld"
+  },
+  {
+   "key": "Gald",
+   "action": "reject",
+   "reason": "dialect for Geld (money), not a resource"
+  },
+  {
+   "key": "Güll'n",
+   "action": "reject",
+   "reason": "dialect for Gulden (florins), a currency"
+  },
+  {
+   "key": "Ecker",
+   "action": "merge",
+   "into": "Acker"
+  },
+  {
+   "key": "Futt'rbau",
+   "action": "reject",
+   "reason": "fodder growing (activity), not a concept"
+  },
+  {
+   "key": "Himmel",
+   "action": "reject",
+   "reason": "sky, not a habitat or resource concept"
+  },
+  {
+   "key": "G’witt’r",
+   "action": "merge",
+   "into": "Gewitter"
+  },
+  {
+   "key": "rên",
+   "action": "merge",
+   "into": "Regen"
+  },
+  {
+   "key": "g’hog’lt",
+   "action": "merge",
+   "into": "Hagelwetter"
+  },
+  {
+   "key": "Schälla Kaffee",
+   "action": "merge",
+   "into": "Kaffee"
+  },
+  {
+   "key": "Erdapfelbrei",
+   "action": "accept",
+   "label": "Erdapfelbrei",
+   "class": "concept",
+   "kind": "Nahrungsmittel",
+   "gloss_en": "mashed potatoes"
+  },
+  {
+   "key": "Ihl",
+   "action": "accept",
+   "label": "Öl",
+   "class": "concept",
+   "kind": "Material",
+   "gloss_en": "oil (dialect Ihl)"
+  },
+  {
+   "key": "Torfasch'r",
+   "action": "merge",
+   "into": "Torf"
+  },
+  {
+   "key": "Lagerbier",
+   "action": "merge",
+   "into": "Bier"
+  },
+  {
+   "key": "Quark",
+   "action": "accept",
+   "label": "Quark",
+   "class": "concept",
+   "kind": "Nahrungsmittel",
+   "gloss_en": "curd cheese"
+  },
+  {
+   "key": "Jauche",
+   "action": "merge",
+   "into": "Dünger"
+  },
+  {
+   "key": "Lederhosen",
+   "action": "reject",
+   "reason": "garment (artefact), not a material"
+  },
+  {
+   "key": "Goldflitter",
+   "action": "merge",
+   "into": "Flittergold"
+  },
+  {
+   "key": "Corallen",
+   "action": "accept",
+   "label": "Coralle",
+   "class": "concept",
+   "kind": "Material",
+   "gloss_en": "coral (jewellery)",
+   "modern": "Koralle"
+  },
+  {
+   "key": "Schmalz",
+   "action": "accept",
+   "label": "Schmalz",
+   "class": "concept",
+   "kind": "Nahrungsmittel",
+   "gloss_en": "lard"
+  },
+  {
+   "key": "Weizenmehl",
+   "action": "merge",
+   "into": "Mehl"
+  },
+  {
+   "key": "Odem der Luft",
+   "action": "merge",
+   "into": "Luft"
+  },
+  {
+   "key": "Licht",
+   "action": "accept",
+   "label": "Licht",
+   "class": "concept",
+   "kind": "Klima",
+   "gloss_en": "light (daylight)"
+  },
+  {
+   "key": "Bergwinde",
+   "action": "merge",
+   "into": "Wind"
+  },
+  {
+   "key": "Mist",
+   "action": "merge",
+   "into": "Dünger"
+  },
+  {
+   "key": "Polarluft",
+   "action": "accept",
+   "label": "Polarluft",
+   "class": "concept",
+   "kind": "Wetter",
+   "gloss_en": "polar air"
+  },
+  {
+   "key": "Hollunderthee",
+   "action": "accept",
+   "label": "Hollunderthee",
+   "class": "concept",
+   "kind": "Nahrungsmittel",
+   "gloss_en": "elder-flower tea (folk medicine)",
+   "modern": "Holundertee"
+  },
+  {
+   "key": "Olivenöl",
+   "action": "accept",
+   "label": "Olivenöl",
+   "class": "concept",
+   "kind": "Nahrungsmittel",
+   "gloss_en": "olive oil"
+  },
+  {
+   "key": "Bohnenmehl",
+   "action": "merge",
+   "into": "Mehl"
+  },
+  {
+   "key": "Hirschunschlitt",
+   "action": "merge",
+   "into": "Unschlitt"
+  },
+  {
+   "key": "Pech",
+   "action": "accept",
+   "label": "Pech",
+   "class": "concept",
+   "kind": "Rohstoff",
+   "gloss_en": "pitch, resin"
+  },
+  {
+   "key": "Brodteig",
+   "action": "merge",
+   "into": "Brod"
+  },
+  {
+   "key": "Flittergold",
+   "action": "accept",
+   "label": "Flittergold",
+   "class": "concept",
+   "kind": "Material",
+   "gloss_en": "tinsel (gold foil)"
+  },
+  {
+   "key": "beregnet",
+   "action": "reject",
+   "reason": "participle (rained on), not a concept"
+  },
+  {
+   "key": "Sonnenschein",
+   "action": "accept",
+   "label": "Sonnenschein",
+   "class": "concept",
+   "kind": "Wetter",
+   "gloss_en": "sunshine"
+  },
+  {
+   "key": "Dornhecke",
+   "action": "merge",
+   "into": "Hecken"
+  },
+  {
+   "key": "Osterregen",
+   "action": "merge",
+   "into": "Regen"
+  },
+  {
+   "key": "Fastnachtbutter",
+   "action": "merge",
+   "into": "Butter"
+  },
+  {
+   "key": "Krautfeld",
+   "action": "merge",
+   "into": "Feld"
+  },
+  {
+   "key": "Krautbau",
+   "action": "reject",
+   "reason": "cultivation practice (activity), not a concept"
+  },
+  {
+   "key": "Kartoffelbau",
+   "action": "reject",
+   "reason": "cultivation practice (activity), not a concept"
+  },
+  {
+   "key": "Getreideerndte",
+   "action": "reject",
+   "reason": "harvest (agricultural activity), not a concept"
+  },
+  {
+   "key": "Getreidepreise",
+   "action": "reject",
+   "reason": "price, not a concept"
+  },
+  {
+   "key": "Trank",
+   "action": "merge",
+   "into": "Getränke"
+  },
+  {
+   "key": "Osterwasser",
+   "action": "accept",
+   "label": "Osterwasser",
+   "class": "concept",
+   "kind": "Rohstoff",
+   "gloss_en": "Easter water (water drawn in silence on Easter morning)",
+   "modern": "| Folk belief: water that never spoils and serves as a remedy and beauty aid (p. 189)."
+  },
+  {
+   "key": "Frosttage",
+   "action": "merge",
+   "into": "Frost"
+  },
+  {
+   "key": "Himmelfahrtsregen",
+   "action": "merge",
+   "into": "Regen"
+  },
+  {
+   "key": "St. Veitsregen",
+   "action": "merge",
+   "into": "Regen"
+  },
+  {
+   "key": "Gerstenernte",
+   "action": "reject",
+   "reason": "harvest (agricultural activity), not a concept"
+  },
+  {
+   "key": "Zwiebelbeeten",
+   "action": "merge",
+   "into": "Garten"
+  },
+  {
+   "key": "Branntwein",
+   "action": "merge",
+   "into": "Schnaps"
+  },
+  {
+   "key": "Zaufensgraben",
+   "action": "accept",
+   "label": "Zaufensgraben",
+   "class": "nature",
+   "kind": "Tal",
+   "gloss_en": "Zaufensgraben (ravine near Gera, site of a robber castle)"
+  },
+  {
+   "key": "Stephansgraben",
+   "action": "accept",
+   "label": "Stephansgraben",
+   "class": "nature",
+   "kind": "Tal",
+   "gloss_en": "Stephansgraben (ravine near Niederndorf, site of a robber castle)"
+  },
+  {
+   "key": "Weine",
+   "action": "merge",
+   "into": "Wein"
+  },
+  {
+   "key": "Waldfleck",
+   "action": "merge",
+   "into": "Wald"
+  },
+  {
+   "key": "Sturmwind",
+   "action": "merge",
+   "into": "Sturm"
+  },
+  {
+   "key": "Pöritzholz",
+   "action": "accept",
+   "label": "Pöritzholz",
+   "class": "nature",
+   "kind": "Wald",
+   "gloss_en": "Pöritzholz (wood near Langenberg)"
+  },
+  {
+   "key": "Sumpfwiese",
+   "action": "merge",
+   "into": "Wiese"
+  },
+  {
+   "key": "Gewitterzeit",
+   "action": "merge",
+   "into": "Gewitter"
+  },
+  {
+   "key": "Goldstück",
+   "action": "reject",
+   "reason": "gold coin in a legend, not a resource concept"
+  },
+  {
+   "key": "Quell-",
+   "action": "merge",
+   "into": "Quellen"
+  },
+  {
+   "key": "atmosphärische Niederschläge",
+   "action": "merge",
+   "into": "atmosphärischen Niederschläge"
+  },
+  {
+   "key": "Petroleum",
+   "action": "accept",
+   "label": "Petroleum",
+   "class": "concept",
+   "kind": "Rohstoff",
+   "gloss_en": "petroleum, mineral oil"
+  },
+  {
+   "key": "Solaröl",
+   "action": "accept",
+   "label": "Solaröl",
+   "class": "concept",
+   "kind": "Rohstoff",
+   "gloss_en": "solar oil (lamp oil)"
+  },
+  {
+   "key": "Spätfrost",
+   "action": "merge",
+   "into": "Frost"
+  },
+  {
+   "key": "Nordost-",
+   "action": "accept",
+   "label": "Nordostwind",
+   "class": "concept",
+   "kind": "Wetter",
+   "gloss_en": "north-east wind"
+  },
+  {
+   "key": "Südwestwinden",
+   "action": "merge",
+   "into": "Südwestwinde"
+  },
+  {
+   "key": "Obstanlagen",
+   "action": "merge",
+   "into": "Obstplantagen"
+  },
+  {
+   "key": "Nadelholz",
+   "action": "accept",
+   "label": "Nadelholz",
+   "class": "concept",
+   "kind": "Rohstoff",
+   "gloss_en": "coniferous wood, softwood"
+  },
+  {
+   "key": "Feldboden",
+   "action": "merge",
+   "into": "Feld"
+  },
+  {
+   "key": "Getreidezinsen",
+   "action": "reject",
+   "reason": "payment in kind (grain rent), not a resource concept"
+  },
+  {
+   "key": "Körnerabgabe",
+   "action": "reject",
+   "reason": "payment in kind (grain rent), not a resource concept"
+  },
+  {
+   "key": "Haferzins",
+   "action": "reject",
+   "reason": "payment in kind (grain rent), not a resource concept"
+  },
+  {
+   "key": "Marstallwiesen",
+   "action": "accept",
+   "label": "Marstallwiesen",
+   "class": "place",
+   "kind": "Flur",
+   "gloss_en": "Marstallwiesen (meadow complex at Schleiz, formerly manorial)"
+  },
+  {
+   "key": "Düngung",
+   "action": "merge",
+   "into": "Dünger"
+  },
+  {
+   "key": "Weiden",
+   "action": "merge",
+   "into": "Weide"
+  },
+  {
+   "key": "Koppelweiden",
+   "action": "merge",
+   "into": "Weide"
+  },
+  {
+   "key": "Harzgewinnungen",
+   "action": "merge",
+   "into": "Pech"
+  },
+  {
+   "key": "Schneedruck",
+   "action": "accept",
+   "label": "Schneedruck",
+   "class": "concept",
+   "kind": "Ereignis",
+   "gloss_en": "snow-load damage (to forests)"
+  },
+  {
+   "key": "Duft",
+   "action": "accept",
+   "label": "Duft",
+   "class": "concept",
+   "kind": "Wetter",
+   "gloss_en": "rime, hoarfrost deposit"
+  },
+  {
+   "key": "Eisdruck",
+   "action": "accept",
+   "label": "Eisdruck",
+   "class": "concept",
+   "kind": "Ereignis",
+   "gloss_en": "ice-load damage (to forests)"
+  },
+  {
+   "key": "Holzarten",
+   "action": "merge",
+   "into": "Holz"
+  },
+  {
+   "key": "kostauer Forst",
+   "action": "accept",
+   "label": "Kostauer Forst",
+   "class": "nature",
+   "kind": "Wald",
+   "gloss_en": "Kostauer Forst (forest near Kostau)"
+  },
+  {
+   "key": "Bauholze",
+   "action": "accept",
+   "label": "Bauholz",
+   "class": "concept",
+   "kind": "Rohstoff",
+   "gloss_en": "construction timber"
+  },
+  {
+   "key": "Siebenlinden",
+   "action": "accept",
+   "label": "Siebenlinden",
+   "class": "nature",
+   "kind": "Wald",
+   "gloss_en": "Siebenlinden (forest district near Schleiz)"
+  },
+  {
+   "key": "Eichleite",
+   "action": "accept",
+   "label": "Eichleite",
+   "class": "nature",
+   "kind": "Wald",
+   "gloss_en": "Eichleite (forest district; also a hillside name)"
+  },
+  {
+   "key": "Taurichswald",
+   "action": "accept",
+   "label": "Taurichswald",
+   "class": "nature",
+   "kind": "Wald",
+   "gloss_en": "Taurichswald (forest)"
+  },
+  {
+   "key": "Werkbuchen",
+   "action": "merge",
+   "into": "Nutzholz"
+  },
+  {
+   "key": "lobenstein-ebersdorfer Waldungen",
+   "action": "merge",
+   "into": "Wald"
+  },
+  {
+   "key": "lobensteiner Domainenwalde",
+   "action": "accept",
+   "label": "Lobensteiner Domainenwald",
+   "class": "nature",
+   "kind": "Wald",
+   "gloss_en": "Lobensteiner Domainenwald (state forest of Lobenstein)",
+   "modern": "Lobensteiner Domänenwald"
+  },
+  {
+   "key": "Wiesengeräumde",
+   "action": "accept",
+   "label": "Wiesengeräumde",
+   "class": "concept",
+   "kind": "Lebensraum",
+   "gloss_en": "cleared meadow land (Geräumde)"
+  },
+  {
+   "key": "Schnee- und Duftbrüche",
+   "action": "merge",
+   "into": "Schneedruck"
+  },
+  {
+   "key": "Fichtenwaldungen",
+   "action": "merge",
+   "into": "Fichtenwald"
+  },
+  {
+   "key": "Windbruchholz",
+   "action": "merge",
+   "into": "Windbruch"
+  },
+  {
+   "key": "Rinde",
+   "action": "accept",
+   "label": "Rinde",
+   "class": "concept",
+   "kind": "Rohstoff",
+   "gloss_en": "bark (tanbark)"
+  },
+  {
+   "key": "Kahlhieb",
+   "action": "merge",
+   "into": "Rodung"
+  },
+  {
+   "key": "Leseholz",
+   "action": "merge",
+   "into": "Brennholz"
+  },
+  {
+   "key": "Siehdichfür",
+   "action": "accept",
+   "label": "Siehdichfür",
+   "class": "nature",
+   "kind": "Wald",
+   "gloss_en": "Siehdichfür (forest of the Schleiz area)"
+  },
+  {
+   "key": "Nadelwald",
+   "action": "merge",
+   "into": "Nadelwälder"
+  },
+  {
+   "key": "Laubwald",
+   "action": "accept",
+   "label": "Laubwald",
+   "class": "concept",
+   "kind": "Lebensraum",
+   "gloss_en": "deciduous forest"
+  },
+  {
+   "key": "Feuerholz",
+   "action": "merge",
+   "into": "Brennholz"
+  },
+  {
+   "key": "Gesteins",
+   "action": "merge",
+   "into": "Gestein"
+  },
+  {
+   "key": "Tännich",
+   "action": "merge",
+   "into": "Tännicht"
+  },
+  {
+   "key": "Waldhölzer",
+   "action": "merge",
+   "into": "Holz"
+  },
+  {
+   "key": "Erzen",
+   "action": "merge",
+   "into": "Erz"
+  },
+  {
+   "key": "Wasserkräfte",
+   "action": "accept",
+   "label": "Wasserkraft",
+   "class": "concept",
+   "kind": "Rohstoff",
+   "gloss_en": "water power"
+  },
+  {
+   "key": "erzen",
+   "action": "merge",
+   "into": "Erz"
+  },
+  {
+   "key": "Antimonerzen",
+   "action": "merge",
+   "into": "Antimon"
+  },
+  {
+   "key": "Flusspath",
+   "action": "accept",
+   "label": "Flusspath",
+   "class": "concept",
+   "kind": "Gestein",
+   "gloss_en": "fluorspar",
+   "modern": "Flussspat"
+  },
+  {
+   "key": "Thonschiefer-",
+   "action": "merge",
+   "into": "Thonschiefer"
+  },
+  {
+   "key": "Kalk-",
+   "action": "merge",
+   "into": "Kalk"
+  },
+  {
+   "key": "Marmorablagerungen",
+   "action": "merge",
+   "into": "Marmor"
+  },
+  {
+   "key": "Kieselschiefer-",
+   "action": "merge",
+   "into": "Kieselschiefer"
+  },
+  {
+   "key": "Lyditablagerungen",
+   "action": "merge",
+   "into": "Kieselschiefer"
+  },
+  {
+   "key": "Quarziten",
+   "action": "accept",
+   "label": "Quarzit",
+   "class": "concept",
+   "kind": "Gestein",
+   "gloss_en": "quartzite"
+  },
+  {
+   "key": "Grünsteinvarietäten",
+   "action": "merge",
+   "into": "Grünstein"
+  },
+  {
+   "key": "Dachschieferablagerung",
+   "action": "merge",
+   "into": "Dachschiefer"
+  },
+  {
+   "key": "Schieferplatten",
+   "action": "merge",
+   "into": "Dachschiefer"
+  },
+  {
+   "key": "Torflager",
+   "action": "merge",
+   "into": "Torf"
+  },
+  {
+   "key": "Kulmforste",
+   "action": "accept",
+   "label": "Kulmforst",
+   "class": "nature",
+   "kind": "Wald",
+   "gloss_en": "Kulmforst (forest near Kulm, with the Krötensee peat deposit)"
+  },
+  {
+   "key": "Mineralfarben",
+   "action": "accept",
+   "label": "Mineralfarbe",
+   "class": "concept",
+   "kind": "Material",
+   "gloss_en": "mineral pigment"
+  },
+  {
+   "key": "Farbenerden",
+   "action": "accept",
+   "label": "Farbenerde",
+   "class": "concept",
+   "kind": "Material",
+   "gloss_en": "earth pigment",
+   "modern": "Farberde"
+  },
+  {
+   "key": "Ockerablagerungen",
+   "action": "merge",
+   "into": "Ocker"
+  },
+  {
+   "key": "Schwefelkiesen",
+   "action": "merge",
+   "into": "Schwefelkies"
+  },
+  {
+   "key": "Mineralschwarz",
+   "action": "merge",
+   "into": "Mineralfarben"
+  },
+  {
+   "key": "Grauwacken- und Schiefergebiet",
+   "action": "reject",
+   "reason": "geological region (Kulm formation), not a concept of its own"
+  },
+  {
+   "key": "Anthracit",
+   "action": "merge",
+   "into": "Kohlenblende"
+  },
+  {
+   "key": "Kieselerde",
+   "action": "accept",
+   "label": "Kieselerde",
+   "class": "concept",
+   "kind": "Gestein",
+   "gloss_en": "silica (siliceous earth)"
+  },
+  {
+   "key": "Schwefel- und Kupferkies",
+   "action": "merge",
+   "into": "Kupferkies"
+  },
+  {
+   "key": "Ankerit",
+   "action": "accept",
+   "label": "Ankerit",
+   "class": "concept",
+   "kind": "Gestein",
+   "gloss_en": "ankerite"
+  },
+  {
+   "key": "Roth- und Brauneisenstein",
+   "action": "merge",
+   "into": "Eisenstein"
+  },
+  {
+   "key": "Pyrolusit",
+   "action": "accept",
+   "label": "Pyrolusit",
+   "class": "concept",
+   "kind": "Gestein",
+   "gloss_en": "pyrolusite (manganese ore)"
+  },
+  {
+   "key": "Buntsandstein",
+   "action": "accept",
+   "label": "Buntsandstein",
+   "class": "concept",
+   "kind": "Gestein",
+   "gloss_en": "Bunter sandstone (Lower Triassic)"
+  },
+  {
+   "key": "Dolomitspalten",
+   "action": "merge",
+   "into": "Dolomit"
+  },
+  {
+   "key": "Flussspath",
+   "action": "merge",
+   "into": "Flusspath"
+  },
+  {
+   "key": "Asphalt",
+   "action": "accept",
+   "label": "Asphalt",
+   "class": "concept",
+   "kind": "Gestein",
+   "gloss_en": "asphalt, natural bitumen"
+  },
+  {
+   "key": "Malachit",
+   "action": "accept",
+   "label": "Malachit",
+   "class": "concept",
+   "kind": "Gestein",
+   "gloss_en": "malachite"
+  },
+  {
+   "key": "Kupferlasur",
+   "action": "accept",
+   "label": "Kupferlasur",
+   "class": "concept",
+   "kind": "Gestein",
+   "gloss_en": "azurite"
+  },
+  {
+   "key": "Eisenkies",
+   "action": "merge",
+   "into": "Schwefelkies"
+  },
+  {
+   "key": "Porzellanthon",
+   "action": "merge",
+   "into": "Thonen"
+  },
+  {
+   "key": "Schwarzkupfer",
+   "action": "accept",
+   "label": "Schwarzkupfer",
+   "class": "concept",
+   "kind": "Metall",
+   "gloss_en": "black copper (crude copper)"
+  },
+  {
+   "key": "Zwerghöhle",
+   "action": "accept",
+   "label": "Zwerghöhle",
+   "class": "nature",
+   "kind": "Höhle",
+   "gloss_en": "Zwerghöhle (small cave near Milbitz)"
+  },
+  {
+   "key": "Grobkohle",
+   "action": "merge",
+   "into": "Braunkohlen"
+  },
+  {
+   "key": "Baumwollen",
+   "action": "merge",
+   "into": "Baumwolle"
+  },
+  {
+   "key": "Flachs",
+   "action": "accept",
+   "label": "Flachs",
+   "class": "concept",
+   "kind": "Rohstoff",
+   "gloss_en": "flax"
+  },
+  {
+   "key": "Flößholz",
+   "action": "merge",
+   "into": "Holz"
+  },
+  {
+   "key": "Caffees",
+   "action": "merge",
+   "into": "Kaffee"
+  },
+  {
+   "key": "Farberden",
+   "action": "merge",
+   "into": "Farbenerden"
+  },
+  {
+   "key": "Kornmarkt",
+   "action": "reject",
+   "reason": "market (trade fair), not a resource"
+  },
+  {
+   "key": "Forsten",
+   "action": "merge",
+   "into": "Forst"
+  },
+  {
+   "key": "Rübenzucker",
+   "action": "accept",
+   "label": "Rübenzucker",
+   "class": "concept",
+   "kind": "Nahrungsmittel",
+   "gloss_en": "beet sugar"
+  },
+  {
+   "key": "Jagdkartengelder",
+   "action": "reject",
+   "reason": "fee or tax, not a resource"
+  },
+  {
+   "key": "Hundesteuern",
+   "action": "reject",
+   "reason": "fee or tax, not a resource"
+  },
+  {
+   "key": "30jährigen Krieg",
+   "action": "merge",
+   "into": "30jährigen Kriege"
+  },
+  {
+   "key": "Schulbesuch",
+   "action": "reject",
+   "reason": "school attendance, not an environmental concept"
+  },
+  {
+   "key": "Seen",
+   "action": "accept",
+   "label": "See",
+   "class": "concept",
+   "kind": "Gewässer",
+   "gloss_en": "lake"
+  },
+  {
+   "key": "Bronzemetalls",
+   "action": "accept",
+   "label": "Bronze",
+   "class": "concept",
+   "kind": "Metall",
+   "gloss_en": "bronze"
+  },
+  {
+   "key": "Eisens",
+   "action": "merge",
+   "into": "Eisen"
+  },
+  {
+   "key": "Fruchtbrod",
+   "action": "merge",
+   "into": "Brod"
+  },
+  {
+   "key": "Metalle",
+   "action": "accept",
+   "label": "Metall",
+   "class": "concept",
+   "kind": "Material",
+   "gloss_en": "metals (collective)"
+  },
+  {
+   "key": "Stoffe",
+   "action": "merge",
+   "into": "Tuch"
+  },
+  {
+   "key": "Getränke",
+   "action": "accept",
+   "label": "Getränk",
+   "class": "concept",
+   "kind": "Nahrungsmittel",
+   "gloss_en": "drinks, beverages"
+  },
+  {
+   "key": "Seife",
+   "action": "accept",
+   "label": "Seife",
+   "class": "concept",
+   "kind": "Material",
+   "gloss_en": "soap"
+  },
+  {
+   "key": "Donner",
+   "action": "accept",
+   "label": "Donner",
+   "class": "concept",
+   "kind": "Wetter",
+   "gloss_en": "thunder"
+  },
+  {
+   "key": "Schneeflocken",
+   "action": "merge",
+   "into": "Schnee"
+  },
+  {
+   "key": "Meth",
+   "action": "accept",
+   "label": "Meth",
+   "class": "concept",
+   "kind": "Nahrungsmittel",
+   "gloss_en": "mead",
+   "modern": "Met"
+  },
+  {
+   "key": "Hussiten- und den thüringischen Bruderkrieg",
+   "action": "reject",
+   "reason": "composite naming two wars, not a concept of its own"
+  },
+  {
+   "key": "Hungerjahren",
+   "action": "accept",
+   "label": "Hungerjahre",
+   "class": "concept",
+   "kind": "Ereignis",
+   "gloss_en": "famine years"
+  },
+  {
+   "key": "schwarzen Todes",
+   "action": "accept",
+   "label": "Schwarzer Tod",
+   "class": "concept",
+   "kind": "Seuche",
+   "gloss_en": "Black Death (1348)"
+  },
+  {
+   "key": "Bauernkrieg",
+   "action": "accept",
+   "label": "Bauernkrieg",
+   "class": "concept",
+   "kind": "Ereignis",
+   "gloss_en": "Peasants' War (1525)",
+   "modern": "| Historical event, not an environmental one."
+  },
+  {
+   "key": "Bauernkriege",
+   "action": "merge",
+   "into": "Bauernkrieg"
+  },
+  {
+   "key": "Pöllwitzer Wald",
+   "action": "merge",
+   "into": "Pöllwitzwald"
+  },
+  {
+   "key": "Humus",
+   "action": "accept",
+   "label": "Humus",
+   "class": "concept",
+   "kind": "Boden",
+   "gloss_en": "humus, topsoil"
+  },
+  {
+   "key": "Weinberglein",
+   "action": "merge",
+   "into": "Weinberg"
+  },
+  {
+   "key": "Preußenwiese",
+   "action": "accept",
+   "label": "Preußenwiese",
+   "class": "place",
+   "kind": "Flur",
+   "gloss_en": "Preußenwiese (meadow at the Untermhaus palace)"
+  },
+  {
+   "key": "Pottendorfer Holz",
+   "action": "accept",
+   "label": "Pottendorfer Holz",
+   "class": "nature",
+   "kind": "Wald",
+   "gloss_en": "Pottendorfer Holz (wood at Untermhaus)"
+  },
+  {
+   "key": "Bauernholz",
+   "action": "accept",
+   "label": "Bauernholz",
+   "class": "nature",
+   "kind": "Wald",
+   "gloss_en": "Bauernholz (wood at Untermhaus)"
+  },
+  {
+   "key": "Lerdorfer Holz",
+   "action": "accept",
+   "label": "Lerdorfer Holz",
+   "class": "nature",
+   "kind": "Wald",
+   "gloss_en": "Lerdorfer Holz (wood at Untermhaus)"
+  },
+  {
+   "key": "Kieferthal",
+   "action": "accept",
+   "label": "Kieferthal",
+   "class": "nature",
+   "kind": "Tal",
+   "gloss_en": "Kieferthal (valley at Untermhaus)",
+   "modern": "Kiefertal"
+  },
+  {
+   "key": "Wald-Saugarten",
+   "action": "accept",
+   "label": "Wald-Saugarten",
+   "class": "concept",
+   "kind": "Lebensraum",
+   "gloss_en": "forest boar park (Saugarten laid out 1853, later abandoned)"
+  },
+  {
+   "key": "dürren Jahren",
+   "action": "merge",
+   "into": "Dürre"
+  },
+  {
+   "key": "Hain- und der Weinberg",
+   "action": "merge",
+   "into": "Weinberg"
+  },
+  {
+   "key": "Bramenthal",
+   "action": "merge",
+   "into": "Bramthal"
+  },
+  {
+   "key": "Parks",
+   "action": "merge",
+   "into": "Park"
+  },
+  {
+   "key": "Lustgarten",
+   "action": "accept",
+   "label": "Lustgarten",
+   "class": "concept",
+   "kind": "Lebensraum",
+   "gloss_en": "pleasure garden"
+  },
+  {
+   "key": "Steinen",
+   "action": "merge",
+   "into": "Stein"
+  },
+  {
+   "key": "Flußwasser",
+   "action": "accept",
+   "label": "Flußwasser",
+   "class": "concept",
+   "kind": "Rohstoff",
+   "gloss_en": "river water",
+   "modern": "Flusswasser"
+  },
+  {
+   "key": "Zink",
+   "action": "accept",
+   "label": "Zink",
+   "class": "concept",
+   "kind": "Metall",
+   "gloss_en": "zinc"
+  },
+  {
+   "key": "Stadt",
+   "action": "reject",
+   "reason": "generic word for a settlement type, not a habitat concept"
+  },
+  {
+   "key": "Kammwollenstoffe",
+   "action": "merge",
+   "into": "Tuch"
+  },
+  {
+   "key": "Stärke",
+   "action": "accept",
+   "label": "Stärke",
+   "class": "concept",
+   "kind": "Material",
+   "gloss_en": "starch"
+  },
+  {
+   "key": "Mostrich",
+   "action": "accept",
+   "label": "Mostrich",
+   "class": "concept",
+   "kind": "Nahrungsmittel",
+   "gloss_en": "mustard"
+  },
+  {
+   "key": "Leim",
+   "action": "accept",
+   "label": "Leim",
+   "class": "concept",
+   "kind": "Material",
+   "gloss_en": "glue"
+  },
+  {
+   "key": "Roh- und Kunststoffe",
+   "action": "reject",
+   "reason": "generic expression (raw and artificial materials), not a concept"
+  },
+  {
+   "key": "Woll",
+   "action": "merge",
+   "into": "Wolle"
+  },
+  {
+   "key": "Stadtwaldung",
+   "action": "merge",
+   "into": "Wald"
+  },
+  {
+   "key": "Garten- und Wiesenland",
+   "action": "merge",
+   "into": "Garten"
+  },
+  {
+   "key": "Waldparthie",
+   "action": "merge",
+   "into": "Wald"
+  },
+  {
+   "key": "Forst",
+   "action": "accept",
+   "label": "Forst",
+   "class": "concept",
+   "kind": "Lebensraum",
+   "gloss_en": "managed forest, forest district"
+  },
+  {
+   "key": "Heeresau",
+   "action": "reject",
+   "reason": "proposed etymological readings of a place name, not habitats"
+  },
+  {
+   "key": "Kriegersau",
+   "action": "reject",
+   "reason": "proposed etymological readings of a place name, not habitats"
+  },
+  {
+   "key": "Häselruthenau",
+   "action": "reject",
+   "reason": "proposed etymological readings of a place name, not habitats"
+  },
+  {
+   "key": "Wald- und Bergort",
+   "action": "reject",
+   "reason": "proposed etymological readings of a place name, not habitats"
+  },
+  {
+   "key": "Hochfluthen",
+   "action": "merge",
+   "into": "Hochwasser"
+  },
+  {
+   "key": "Elsterufer",
+   "action": "merge",
+   "into": "Ufer"
+  },
+  {
+   "key": "Holzanpflanzung",
+   "action": "accept",
+   "label": "Holzanpflanzung",
+   "class": "concept",
+   "kind": "Lebensraum",
+   "gloss_en": "tree plantation (planted wood)"
+  },
+  {
+   "key": "Eisgang",
+   "action": "accept",
+   "label": "Eisgang",
+   "class": "concept",
+   "kind": "Ereignis",
+   "gloss_en": "ice drift (break-up of river ice)"
+  },
+  {
+   "key": "Holzstücke",
+   "action": "merge",
+   "into": "Wald"
+  },
+  {
+   "key": "Regenguss",
+   "action": "accept",
+   "label": "Regenguss",
+   "class": "concept",
+   "kind": "Wetter",
+   "gloss_en": "downpour, heavy rain"
+  },
+  {
+   "key": "Hagelwettern",
+   "action": "merge",
+   "into": "Hagelwetter"
+  },
+  {
+   "key": "Hochmulde",
+   "action": "merge",
+   "into": "Mulden"
+  },
+  {
+   "key": "Ackerland",
+   "action": "merge",
+   "into": "Acker"
+  },
+  {
+   "key": "Gemüsegärten",
+   "action": "merge",
+   "into": "Gemüsegarten"
+  },
+  {
+   "key": "Teichlein",
+   "action": "merge",
+   "into": "Teich"
+  },
+  {
+   "key": "Wassersfluthen",
+   "action": "merge",
+   "into": "Ueberschwemmung"
+  },
+  {
+   "key": "Saarbachsgrund",
+   "action": "merge",
+   "into": "Saarthal"
+  },
+  {
+   "key": "Sandsteinen",
+   "action": "merge",
+   "into": "Sandstein"
+  },
+  {
+   "key": "Langenthal",
+   "action": "accept",
+   "label": "Langenthal",
+   "class": "nature",
+   "kind": "Tal",
+   "gloss_en": "Langenthal (narrow valley near Geißen)",
+   "modern": "Langental"
+  },
+  {
+   "key": "Prünebaumsholz",
+   "action": "accept",
+   "label": "Prünebaumsholz",
+   "class": "nature",
+   "kind": "Wald",
+   "gloss_en": "Prünebaumsholz (wood, field name)"
+  },
+  {
+   "key": "Wasserkraft",
+   "action": "merge",
+   "into": "Wasserkräfte"
+  },
+  {
+   "key": "Ruhrseuche",
+   "action": "merge",
+   "into": "Ruhr"
+  },
+  {
+   "key": "Anschwellungen",
+   "action": "merge",
+   "into": "Hochwasser"
+  },
+  {
+   "key": "Salzquellen",
+   "action": "accept",
+   "label": "Salzquelle",
+   "class": "concept",
+   "kind": "Gewässer",
+   "gloss_en": "salt spring, brine spring"
+  },
+  {
+   "key": "Elsterthalebene",
+   "action": "merge",
+   "into": "Elsterthal"
+  },
+  {
+   "key": "Ueberschfuthungen",
+   "action": "merge",
+   "into": "Ueberschwemmung"
+  },
+  {
+   "key": "Zwerghöhlen",
+   "action": "merge",
+   "into": "Zwerghöhle"
+  },
+  {
+   "key": "Elsterkiesel",
+   "action": "merge",
+   "into": "Geröllen"
+  },
+  {
+   "key": "Erlbachsgrund",
+   "action": "accept",
+   "label": "Erlbachsgrund",
+   "class": "nature",
+   "kind": "Tal",
+   "gloss_en": "Erlbachsgrund (valley of the Erlbach near Milbitz)"
+  },
+  {
+   "key": "Gyps-",
+   "action": "merge",
+   "into": "Gyps"
+  },
+  {
+   "key": "Wiesenäcker",
+   "action": "merge",
+   "into": "Acker"
+  },
+  {
+   "key": "Sümpfe",
+   "action": "merge",
+   "into": "Sumpf"
+  },
+  {
+   "key": "Bergrücken",
+   "action": "accept",
+   "label": "Bergrücken",
+   "class": "concept",
+   "kind": "Gelände",
+   "gloss_en": "ridge"
+  },
+  {
+   "key": "Kirchenholze",
+   "action": "merge",
+   "into": "Pfarrholz"
+  },
+  {
+   "key": "Tännigt",
+   "action": "merge",
+   "into": "Tännicht"
+  },
+  {
+   "key": "Harpersdorfer Grund",
+   "action": "accept",
+   "label": "Harpersdorfer Grund",
+   "class": "nature",
+   "kind": "Tal",
+   "gloss_en": "Harpersdorfer Grund (valley near Niederndorf)"
+  },
+  {
+   "key": "Zippenbusch",
+   "action": "accept",
+   "label": "Zippenbusch",
+   "class": "nature",
+   "kind": "Wald",
+   "gloss_en": "Zippenbusch (wood near Gleina)"
+  },
+  {
+   "key": "Steinbusch",
+   "action": "accept",
+   "label": "Steinbusch",
+   "class": "nature",
+   "kind": "Wald",
+   "gloss_en": "Steinbusch (wood near Gleina)"
+  },
+  {
+   "key": "Werksteine",
+   "action": "merge",
+   "into": "Bausteine"
+  },
+  {
+   "key": "Bretter",
+   "action": "accept",
+   "label": "Brett",
+   "class": "concept",
+   "kind": "Material",
+   "gloss_en": "board, plank"
+  },
+  {
+   "key": "Latten",
+   "action": "merge",
+   "into": "Bretter"
+  },
+  {
+   "key": "Holzgeld",
+   "action": "reject",
+   "reason": "payment (money in lieu of wood allotment), not a resource"
+  },
+  {
+   "key": "Waldstücke",
+   "action": "merge",
+   "into": "Wald"
+  },
+  {
+   "key": "Zechsteinlager",
+   "action": "accept",
+   "label": "Zechstein",
+   "class": "concept",
+   "kind": "Gestein",
+   "gloss_en": "Zechstein (Upper Permian strata)"
+  },
+  {
+   "key": "Gypsstock",
+   "action": "merge",
+   "into": "Gyps"
+  },
+  {
+   "key": "Holzgrundstück",
+   "action": "merge",
+   "into": "Wald"
+  },
+  {
+   "key": "Obstpflanzung",
+   "action": "merge",
+   "into": "Obstplantagen"
+  },
+  {
+   "key": "Kupfererz",
+   "action": "merge",
+   "into": "Kupfererzen"
+  },
+  {
+   "key": "Tanzwiese",
+   "action": "accept",
+   "label": "Tanzwiese",
+   "class": "place",
+   "kind": "Flur",
+   "gloss_en": "Tanzwiese (meadow where the shepherds held their annual festival)"
+  },
+  {
+   "key": "Thalebene",
+   "action": "accept",
+   "label": "Thalebene",
+   "class": "concept",
+   "kind": "Gelände",
+   "gloss_en": "valley plain",
+   "modern": "Talebene"
+  },
+  {
+   "key": "Holzgrundstücke",
+   "action": "merge",
+   "into": "Wald"
+  },
+  {
+   "key": "Ueberfluthungen",
+   "action": "merge",
+   "into": "Ueberschwemmung"
+  },
+  {
+   "key": "Feuersbrünsten",
+   "action": "merge",
+   "into": "Brand"
+  },
+  {
+   "key": "pohlitzer Flur",
+   "action": "merge",
+   "into": "Flur"
+  },
+  {
+   "key": "Steinsalzflöz",
+   "action": "merge",
+   "into": "Steinsalz"
+  },
+  {
+   "key": "Soda",
+   "action": "accept",
+   "label": "Soda",
+   "class": "concept",
+   "kind": "Material",
+   "gloss_en": "soda (sodium carbonate)"
+  },
+  {
+   "key": "Glaubersalz",
+   "action": "accept",
+   "label": "Glaubersalz",
+   "class": "concept",
+   "kind": "Material",
+   "gloss_en": "Glauber's salt (sodium sulphate)"
+  },
+  {
+   "key": "Bergen",
+   "action": "merge",
+   "into": "Berge"
+  },
+  {
+   "key": "Langenberger Flur",
+   "action": "merge",
+   "into": "Flur"
+  },
+  {
+   "key": "Hainholz",
+   "action": "accept",
+   "label": "Hainholz",
+   "class": "nature",
+   "kind": "Wald",
+   "gloss_en": "Hainholz (wood, field name)"
+  },
+  {
+   "key": "Steinbruchsholz",
+   "action": "accept",
+   "label": "Steinbruchsholz",
+   "class": "nature",
+   "kind": "Wald",
+   "gloss_en": "Steinbruchsholz (wood, field name)"
+  },
+  {
+   "key": "Lichtenau",
+   "action": "accept",
+   "label": "Lichtenau",
+   "class": "place",
+   "kind": "Flur",
+   "gloss_en": "Lichtenau (field name, 'lichte Aue')"
+  },
+  {
+   "key": "lange Wiese",
+   "action": "accept",
+   "label": "Lange Wiese",
+   "class": "place",
+   "kind": "Flur",
+   "gloss_en": "Lange Wiese (meadow, field name)"
+  },
+  {
+   "key": "dürre Wiese",
+   "action": "accept",
+   "label": "Dürre Wiese",
+   "class": "place",
+   "kind": "Flur",
+   "gloss_en": "Dürre Wiese (meadow, field name)"
+  },
+  {
+   "key": "Sumpfgraben",
+   "action": "merge",
+   "into": "Sumpf"
+  },
+  {
+   "key": "Nutzholz",
+   "action": "accept",
+   "label": "Nutzholz",
+   "class": "concept",
+   "kind": "Rohstoff",
+   "gloss_en": "timber (as opposed to firewood)"
+  },
+  {
+   "key": "Eichen- und Buchenwaldungen",
+   "action": "merge",
+   "into": "Wald"
+  },
+  {
+   "key": "Pestjahren",
+   "action": "merge",
+   "into": "Pest"
+  },
+  {
+   "key": "Lehmboden",
+   "action": "accept",
+   "label": "Lehmboden",
+   "class": "concept",
+   "kind": "Boden",
+   "gloss_en": "loamy soil"
+  },
+  {
+   "key": "zeitzer Wald",
+   "action": "accept",
+   "label": "Zeitzer Wald",
+   "class": "nature",
+   "kind": "Wald",
+   "gloss_en": "Zeitzer Wald (forest near Zeitz)"
+  },
+  {
+   "key": "zeitzer Forst",
+   "action": "merge",
+   "into": "zeitzer Wald"
+  },
+  {
+   "key": "agaer Wiesengrunde",
+   "action": "merge",
+   "into": "Wiesengrund"
+  },
+  {
+   "key": "Froschteichen",
+   "action": "merge",
+   "into": "Teich"
+  },
+  {
+   "key": "Braunkohlenwerksbesitzer",
+   "action": "reject",
+   "reason": "occupation (owner of a lignite works), not a concept"
+  },
+  {
+   "key": "Obstplantage",
+   "action": "merge",
+   "into": "Obstplantagen"
+  },
+  {
+   "key": "Kohlenschicht",
+   "action": "merge",
+   "into": "Kohlen"
+  },
+  {
+   "key": "Laubholzwald",
+   "action": "merge",
+   "into": "Laubwald"
+  },
+  {
+   "key": "Blitzschlages",
+   "action": "merge",
+   "into": "Blitzschlag"
+  },
+  {
+   "key": "Hochebene",
+   "action": "merge",
+   "into": "Plateau"
+  },
+  {
+   "key": "bewaldeten Höhen",
+   "action": "merge",
+   "into": "Höhen"
+  },
+  {
+   "key": "Waldbestande",
+   "action": "merge",
+   "into": "Wald"
+  },
+  {
+   "key": "Kanzelholz",
+   "action": "merge",
+   "into": "Pfarrholz"
+  },
+  {
+   "key": "Pfarrbüsche",
+   "action": "merge",
+   "into": "Pfarrholz"
+  },
+  {
+   "key": "Hutanger",
+   "action": "merge",
+   "into": "Hutung"
+  },
+  {
+   "key": "Schulteiche",
+   "action": "merge",
+   "into": "Teich"
+  },
+  {
+   "key": "Gemeindeteichen",
+   "action": "merge",
+   "into": "Dorfteiche"
+  },
+  {
+   "key": "Geld- und Getreidezinsen",
+   "action": "reject",
+   "reason": "payment in kind (money and grain rent), not a resource concept"
+  },
+  {
+   "key": "Sprottathal",
+   "action": "accept",
+   "label": "Sprottathal",
+   "class": "nature",
+   "kind": "Tal",
+   "gloss_en": "Sprotta valley",
+   "modern": "Sprottatal"
+  },
+  {
+   "key": "mückernsche Gründchen",
+   "action": "accept",
+   "label": "Mückernsches Gründchen",
+   "class": "nature",
+   "kind": "Tal",
+   "gloss_en": "little valley at Mückern (opening into the upper Bramthal)"
+  },
+  {
+   "key": "Thongrube",
+   "action": "accept",
+   "label": "Thongrube",
+   "class": "concept",
+   "kind": "Abbaustätte",
+   "gloss_en": "clay pit",
+   "modern": "Tongrube"
+  },
+  {
+   "key": "Kalkbrüche",
+   "action": "accept",
+   "label": "Kalkbruch",
+   "class": "concept",
+   "kind": "Abbaustätte",
+   "gloss_en": "limestone quarry"
+  },
+  {
+   "key": "Neuholz",
+   "action": "accept",
+   "label": "Neuholz",
+   "class": "nature",
+   "kind": "Tal",
+   "gloss_en": "Neuholz (upper part of the valley from Negis, below the Hummelgraben)"
+  },
+  {
+   "key": "Quell mit inkrustiren-dem Wasser",
+   "action": "merge",
+   "into": "Quellen"
+  },
+  {
+   "key": "Teiches",
+   "action": "merge",
+   "into": "Teich"
+  },
+  {
+   "key": "Schmiede-, Brauhaus- und Angerteich",
+   "action": "merge",
+   "into": "Teich"
+  },
+  {
+   "key": "Kupfer- und Silbererze",
+   "action": "merge",
+   "into": "Erz"
+  },
+  {
+   "key": "Waldgrundstücken",
+   "action": "merge",
+   "into": "Wald"
+  },
+  {
+   "key": "Dorfraum",
+   "action": "merge",
+   "into": "Anger"
+  },
+  {
+   "key": "Teichholz",
+   "action": "accept",
+   "label": "Teichholz",
+   "class": "nature",
+   "kind": "Wald",
+   "gloss_en": "Teichholz (wood, field name)"
+  },
+  {
+   "key": "ronneburger und kauerner Forst",
+   "action": "accept",
+   "label": "Ronneburger und Kauerner Forst",
+   "class": "nature",
+   "kind": "Wald",
+   "gloss_en": "forest between Ronneburg and Kauern"
+  },
+  {
+   "key": "Mühlbachswiesen",
+   "action": "accept",
+   "label": "Mühlbachswiesen",
+   "class": "place",
+   "kind": "Flur",
+   "gloss_en": "Mühlbachswiesen (meadows, field name)"
+  },
+  {
+   "key": "Krautäcker",
+   "action": "merge",
+   "into": "Acker"
+  },
+  {
+   "key": "Tännicht",
+   "action": "accept",
+   "label": "Tännicht",
+   "class": "nature",
+   "kind": "Wald",
+   "gloss_en": "Tännicht (fir copse; recurrent field name)",
+   "modern": "| Variant spellings Tännich, Tännig, Tännigt; several unrelated places."
+  },
+  {
+   "key": "Kämmerawald",
+   "action": "accept",
+   "label": "Kämmerawald",
+   "class": "nature",
+   "kind": "Wald",
+   "gloss_en": "Kämmerawald (forest near Tanna, source area of the Wettera)"
+  },
+  {
+   "key": "oschitzer",
+   "action": "merge",
+   "into": "oschitzer Walde"
+  },
+  {
+   "key": "schleizer",
+   "action": "merge",
+   "into": "schleizer Wald"
+  },
+  {
+   "key": "pörmizer",
+   "action": "merge",
+   "into": "Pörmizwald"
+  },
+  {
+   "key": "köthener",
+   "action": "accept",
+   "label": "Köthener Wald",
+   "class": "nature",
+   "kind": "Wald",
+   "gloss_en": "Köthener Wald (Köthenwald, forest near Schleiz)"
+  },
+  {
+   "key": "pöllwitzer",
+   "action": "merge",
+   "into": "Pöllwitzwald"
+  },
+  {
+   "key": "Holzkohle",
+   "action": "accept",
+   "label": "Holzkohle",
+   "class": "concept",
+   "kind": "Rohstoff",
+   "gloss_en": "charcoal"
+  },
+  {
+   "key": "Waldfläche",
+   "action": "merge",
+   "into": "Wald"
+  },
+  {
+   "key": "Hochland",
+   "action": "accept",
+   "label": "Hochland",
+   "class": "concept",
+   "kind": "Gelände",
+   "gloss_en": "highland, upland"
+  },
+  {
+   "key": "niederböhmsdorfer und pöllwitzer Waldstrich",
+   "action": "merge",
+   "into": "niederböhmsdorfer Wald"
+  },
+  {
+   "key": "Waldland",
+   "action": "merge",
+   "into": "Wald"
+  },
+  {
+   "key": "Stadtteich",
+   "action": "merge",
+   "into": "Teich"
+  },
+  {
+   "key": "Bürgerteich",
+   "action": "merge",
+   "into": "Teich"
+  },
+  {
+   "key": "Blitzen",
+   "action": "merge",
+   "into": "Blitz"
+  },
+  {
+   "key": "Gußeisen",
+   "action": "accept",
+   "label": "Gußeisen",
+   "class": "concept",
+   "kind": "Metall",
+   "gloss_en": "cast iron",
+   "modern": "Gusseisen"
+  },
+  {
+   "key": "Stadtwiese",
+   "action": "merge",
+   "into": "Wiese"
+  },
+  {
+   "key": "Lerchen- und Schachtholz",
+   "action": "accept",
+   "label": "Lerchenholz und Schachtholz",
+   "class": "nature",
+   "kind": "Wald",
+   "gloss_en": "Lerchenholz and Schachtholz (woods, field names)"
+  },
+  {
+   "key": "dürre",
+   "action": "merge",
+   "into": "Dürre"
+  },
+  {
+   "key": "Buchenwälder",
+   "action": "merge",
+   "into": "Buchenwaldes"
+  },
+  {
+   "key": "Einäscherung",
+   "action": "merge",
+   "into": "Brand"
+  },
+  {
+   "key": "Weideplätze",
+   "action": "merge",
+   "into": "Weide"
+  },
+  {
+   "key": "Bergquelle",
+   "action": "merge",
+   "into": "Quellen"
+  },
+  {
+   "key": "Muschelmarmor",
+   "action": "merge",
+   "into": "Marmor"
+  },
+  {
+   "key": "Waldparke",
+   "action": "merge",
+   "into": "Park"
+  },
+  {
+   "key": "Brandes",
+   "action": "merge",
+   "into": "Brand"
+  },
+  {
+   "key": "Kuhwald",
+   "action": "accept",
+   "label": "Kuhwald",
+   "class": "nature",
+   "kind": "Wald",
+   "gloss_en": "Kuhwald (wood, field name)"
+  },
+  {
+   "key": "Typhus",
+   "action": "accept",
+   "label": "Typhus",
+   "class": "concept",
+   "kind": "Seuche",
+   "gloss_en": "typhus"
+  },
+  {
+   "key": "Waldstücken",
+   "action": "merge",
+   "into": "Wald"
+  },
+  {
+   "key": "Holzbestände",
+   "action": "merge",
+   "into": "Holz"
+  },
+  {
+   "key": "Pörmitzwald",
+   "action": "merge",
+   "into": "Pörmizwald"
+  },
+  {
+   "key": "Vettelholz",
+   "action": "accept",
+   "label": "Vettelholz",
+   "class": "nature",
+   "kind": "Wald",
+   "gloss_en": "Vettelholz (wood near Löhma)"
+  },
+  {
+   "key": "Asche",
+   "action": "accept",
+   "label": "Asche",
+   "class": "concept",
+   "kind": "Material",
+   "gloss_en": "ash"
+  },
+  {
+   "key": "Goldsand",
+   "action": "merge",
+   "into": "Gold"
+  },
+  {
+   "key": "schwarze Marmor",
+   "action": "merge",
+   "into": "Marmor"
+  },
+  {
+   "key": "Waldstriche",
+   "action": "merge",
+   "into": "Wald"
+  },
+  {
+   "key": "Blitzschlägen",
+   "action": "merge",
+   "into": "Blitzschlag"
+  },
+  {
+   "key": "Pörmizwald",
+   "action": "accept",
+   "label": "Pörmizwald",
+   "class": "nature",
+   "kind": "Wald",
+   "gloss_en": "Pörmitzwald (forest near Schleiz)",
+   "modern": "Pörmitzwald"
+  },
+  {
+   "key": "Eichenholze",
+   "action": "merge",
+   "into": "Holz"
+  },
+  {
+   "key": "Ruhwiesen",
+   "action": "accept",
+   "label": "Ruhwiesen",
+   "class": "place",
+   "kind": "Flur",
+   "gloss_en": "Ruhwiesen (meadows, field name)"
+  },
+  {
+   "key": "Kuhhölzer",
+   "action": "accept",
+   "label": "Kuhhölzer",
+   "class": "nature",
+   "kind": "Wald",
+   "gloss_en": "Kuhhölzer (woods, field name)"
+  },
+  {
+   "key": "Igelsdorfer Wald",
+   "action": "accept",
+   "label": "Igelsdorfer Wald",
+   "class": "nature",
+   "kind": "Wald",
+   "gloss_en": "Igelsdorfer Wald (forest at Igelsdorf)"
+  },
+  {
+   "key": "Oelschwiesen",
+   "action": "accept",
+   "label": "Oelschwiesen",
+   "class": "place",
+   "kind": "Flur",
+   "gloss_en": "Oelschwiesen (meadows, field name)"
+  },
+  {
+   "key": "Löhmaer Rasen",
+   "action": "accept",
+   "label": "Löhmaer Rasen",
+   "class": "place",
+   "kind": "Flur",
+   "gloss_en": "Löhmaer Rasen (field name near Löhma)"
+  },
+  {
+   "key": "Marmorstein",
+   "action": "merge",
+   "into": "Marmor"
+  },
+  {
+   "key": "Hagelschlägen",
+   "action": "merge",
+   "into": "Hagelwetter"
+  },
+  {
+   "key": "Deputatholz",
+   "action": "merge",
+   "into": "Holz"
+  },
+  {
+   "key": "Kornfeld",
+   "action": "merge",
+   "into": "Feld"
+  },
+  {
+   "key": "Haferfeld",
+   "action": "merge",
+   "into": "Feld"
+  },
+  {
+   "key": "Thonschiefers",
+   "action": "merge",
+   "into": "Thonschiefer"
+  },
+  {
+   "key": "Triebesthal",
+   "action": "accept",
+   "label": "Triebesthal",
+   "class": "nature",
+   "kind": "Tal",
+   "gloss_en": "Triebes valley",
+   "modern": "Triebestal"
+  },
+  {
+   "key": "Kiefernwaldungen",
+   "action": "merge",
+   "into": "Nadelwälder"
+  },
+  {
+   "key": "Nebengründchens",
+   "action": "merge",
+   "into": "Thal"
+  },
+  {
+   "key": "Felsenparthien",
+   "action": "accept",
+   "label": "Felsenparthie",
+   "class": "concept",
+   "kind": "Gelände",
+   "gloss_en": "rocky parts, rock formations",
+   "modern": "Felspartie"
+  },
+  {
+   "key": "Felsengrotte",
+   "action": "accept",
+   "label": "Felsengrotte",
+   "class": "concept",
+   "kind": "Gelände",
+   "gloss_en": "rock grotto"
+  },
+  {
+   "key": "Rodung",
+   "action": "accept",
+   "label": "Rodung",
+   "class": "concept",
+   "kind": "Prozess",
+   "gloss_en": "clearing, deforestation, clear-felling"
+  },
+  {
+   "key": "Hegeholz",
+   "action": "accept",
+   "label": "Hegeholz",
+   "class": "nature",
+   "kind": "Wald",
+   "gloss_en": "Hegeholz (wood, field name)"
+  },
+  {
+   "key": "Osterlammsmahlzeit",
+   "action": "reject",
+   "reason": "customary meal (payment in kind), not a resource"
+  },
+  {
+   "key": "Unschlitt",
+   "action": "accept",
+   "label": "Unschlitt",
+   "class": "concept",
+   "kind": "Rohstoff",
+   "gloss_en": "tallow",
+   "modern": "Talg"
+  },
+  {
+   "key": "Pfarrfelder",
+   "action": "merge",
+   "into": "Feld"
+  },
+  {
+   "key": "Häsigsholz",
+   "action": "accept",
+   "label": "Häsigsholz",
+   "class": "nature",
+   "kind": "Wald",
+   "gloss_en": "Häsigsholz (wood near Hohenleuben)"
+  },
+  {
+   "key": "Göttenwald",
+   "action": "accept",
+   "label": "Göttenwald",
+   "class": "nature",
+   "kind": "Wald",
+   "gloss_en": "Göttenwald (forest near Göttendorf)"
+  },
+  {
+   "key": "niederböhmshdorfer Forste",
+   "action": "merge",
+   "into": "niederböhmsdorfer Wald"
+  },
+  {
+   "key": "Rodungen",
+   "action": "merge",
+   "into": "Rodung"
+  },
+  {
+   "key": "Waldteiche",
+   "action": "merge",
+   "into": "Teich"
+  },
+  {
+   "key": "pöllwitzer Waldes",
+   "action": "merge",
+   "into": "Pöllwitzwald"
+  },
+  {
+   "key": "Gehurne oder Gehörn",
+   "action": "accept",
+   "label": "Gehurne (Gehörn)",
+   "class": "nature",
+   "kind": "Wald",
+   "gloss_en": "Gehurne or Gehörn (half of the Pöllwitzer Wald)"
+  },
+  {
+   "key": "Mehlwiesen",
+   "action": "accept",
+   "label": "Mehlwiesen",
+   "class": "place",
+   "kind": "Flur",
+   "gloss_en": "Mehlwiesen (meadows, field name)"
+  },
+  {
+   "key": "Blitzschläge",
+   "action": "merge",
+   "into": "Blitzschlag"
+  },
+  {
+   "key": "Messing",
+   "action": "accept",
+   "label": "Messing",
+   "class": "concept",
+   "kind": "Metall",
+   "gloss_en": "brass"
+  },
+  {
+   "key": "Triebesgrund",
+   "action": "merge",
+   "into": "Triebesthal"
+  },
+  {
+   "key": "Sandberg",
+   "action": "accept",
+   "label": "Sandberg",
+   "class": "nature",
+   "kind": "Berg",
+   "gloss_en": "Sandberg (hill, recurrent name)"
+  },
+  {
+   "key": "Schuppenwiese",
+   "action": "accept",
+   "label": "Schuppenwiese",
+   "class": "place",
+   "kind": "Flur",
+   "gloss_en": "Schuppenwiese (meadow, field name)"
+  },
+  {
+   "key": "Lerchenhügel",
+   "action": "accept",
+   "label": "Lerchenhügel",
+   "class": "nature",
+   "kind": "Berg",
+   "gloss_en": "Lerchenhügel (hill near Triebes)"
+  },
+  {
+   "key": "Weidenberg",
+   "action": "accept",
+   "label": "Weidenberg",
+   "class": "nature",
+   "kind": "Berg",
+   "gloss_en": "Weidenberg (hill, field name near Triebes)"
+  },
+  {
+   "key": "Blitzschlags",
+   "action": "merge",
+   "into": "Blitzschlag"
+  },
+  {
+   "key": "Erlich",
+   "action": "accept",
+   "label": "Erlich",
+   "class": "nature",
+   "kind": "Wald",
+   "gloss_en": "Erlich (alder copse; field name)"
+  },
+  {
+   "key": "Scheibenbüsche",
+   "action": "accept",
+   "label": "Scheibenbüsche",
+   "class": "nature",
+   "kind": "Wald",
+   "gloss_en": "Scheibenbüsche (copses, field name)"
+  },
+  {
+   "key": "Goltzsch",
+   "action": "accept",
+   "label": "Goltzsch (Goltischfelder)",
+   "class": "place",
+   "kind": "Flur",
+   "gloss_en": "Goltzsch or Goltischfelder (fields, field name)"
+  },
+  {
+   "key": "Goltischfelder",
+   "action": "merge",
+   "into": "Goltzsch"
+  },
+  {
+   "key": "Letschigwiese",
+   "action": "accept",
+   "label": "Letschigwiese",
+   "class": "place",
+   "kind": "Flur",
+   "gloss_en": "Letschigwiese (meadow, field name)"
+  },
+  {
+   "key": "Wiesenau",
+   "action": "accept",
+   "label": "Wiesenau",
+   "class": "place",
+   "kind": "Flur",
+   "gloss_en": "Wiesenau (field name)"
+  },
+  {
+   "key": "Leitenwiesen",
+   "action": "accept",
+   "label": "Leitenwiesen",
+   "class": "place",
+   "kind": "Flur",
+   "gloss_en": "Leitenwiesen (meadows, field name)"
+  },
+  {
+   "key": "Hofgelänge",
+   "action": "accept",
+   "label": "Hofgelänge",
+   "class": "concept",
+   "kind": "Lebensraum",
+   "gloss_en": "Hofgelänge (the better arable strips next to the farmstead)",
+   "modern": "| Brückner (p. 80) names Hofgelänge, Gottesgelänge, Engel, Himmelreich, Selig as field-name types for fertile arable land; also a Flurstück name in Part II."
+  },
+  {
+   "key": "Eschigsleite",
+   "action": "accept",
+   "label": "Eschigsleite",
+   "class": "place",
+   "kind": "Flur",
+   "gloss_en": "Eschigsleite (slope with ash trees; field name)"
+  },
+  {
+   "key": "Schmalgelänge",
+   "action": "accept",
+   "label": "Schmalgelänge",
+   "class": "place",
+   "kind": "Flur",
+   "gloss_en": "Schmalgelänge (narrow field strips; field name)"
+  },
+  {
+   "key": "Erlichsfelder",
+   "action": "accept",
+   "label": "Erlichsfelder",
+   "class": "place",
+   "kind": "Flur",
+   "gloss_en": "Erlichsfelder (fields, field name)"
+  },
+  {
+   "key": "Erlichswiesen",
+   "action": "accept",
+   "label": "Erlichswiesen",
+   "class": "place",
+   "kind": "Flur",
+   "gloss_en": "Erlichswiesen (meadows, field name)"
+  },
+  {
+   "key": "Gilgengarten",
+   "action": "accept",
+   "label": "Gilgengarten",
+   "class": "place",
+   "kind": "Flur",
+   "gloss_en": "Gilgengarten (garden plots at the Steinthor, Lobenstein)"
+  },
+  {
+   "key": "Tummelgarten",
+   "action": "accept",
+   "label": "Tummelgarten",
+   "class": "place",
+   "kind": "Flur",
+   "gloss_en": "Tummelgarten (garden, field name)"
+  },
+  {
+   "key": "Wollen- und Baumwollenweberei",
+   "action": "reject",
+   "reason": "weaving trade (industry), not a resource"
+  },
+  {
+   "key": "Wasserfluthen",
+   "action": "merge",
+   "into": "Ueberschwemmung"
+  },
+  {
+   "key": "Eichert",
+   "action": "accept",
+   "label": "Eichert",
+   "class": "nature",
+   "kind": "Berg",
+   "gloss_en": "Eichert (Eichart), hill near Saalburg"
+  },
+  {
+   "key": "Wetteragrund",
+   "action": "accept",
+   "label": "Wetteragrund",
+   "class": "nature",
+   "kind": "Tal",
+   "gloss_en": "Wetteragrund (valley of the Wettera)"
+  },
+  {
+   "key": "Wetterathal",
+   "action": "merge",
+   "into": "Wetteragrund"
+  },
+  {
+   "key": "Schmiedeeisen",
+   "action": "accept",
+   "label": "Schmiedeeisen",
+   "class": "concept",
+   "kind": "Metall",
+   "gloss_en": "wrought iron"
+  },
+  {
+   "key": "Zainhammerwiese",
+   "action": "accept",
+   "label": "Zainhammerwiese",
+   "class": "place",
+   "kind": "Flur",
+   "gloss_en": "Zainhammerwiese (meadow on the site of the Zainhammer works)"
+  },
+  {
+   "key": "Dornbachsgrundes",
+   "action": "accept",
+   "label": "Dornbachsgrund",
+   "class": "nature",
+   "kind": "Tal",
+   "gloss_en": "Dornbachsgrund (valley of the Dornbach near Kulm)"
+  },
+  {
+   "key": "saalburger Brande",
+   "action": "merge",
+   "into": "Brand"
+  },
+  {
+   "key": "Kochwasser",
+   "action": "merge",
+   "into": "Wasser"
+  },
+  {
+   "key": "Burkertsholz",
+   "action": "accept",
+   "label": "Burkertsholz",
+   "class": "nature",
+   "kind": "Wald",
+   "gloss_en": "Burkertsholz (Birkertsholz; wood with the 'Gerichtstanne')"
+  },
+  {
+   "key": "Birkertsholz",
+   "action": "merge",
+   "into": "Burkertsholz"
+  },
+  {
+   "key": "Frischeisen",
+   "action": "accept",
+   "label": "Frischeisen",
+   "class": "concept",
+   "kind": "Metall",
+   "gloss_en": "refined iron (finery iron)"
+  },
+  {
+   "key": "Roheisen",
+   "action": "accept",
+   "label": "Roheisen",
+   "class": "concept",
+   "kind": "Metall",
+   "gloss_en": "pig iron"
+  },
+  {
+   "key": "Wieswachs",
+   "action": "merge",
+   "into": "Wiese"
+  },
+  {
+   "key": "Nebeln",
+   "action": "merge",
+   "into": "Nebel"
+  },
+  {
+   "key": "Braunhölzer",
+   "action": "accept",
+   "label": "Braunhölzer",
+   "class": "nature",
+   "kind": "Wald",
+   "gloss_en": "Braunhölzer (woods, field name)"
+  },
+  {
+   "key": "Grünhölzer",
+   "action": "accept",
+   "label": "Grünhölzer",
+   "class": "nature",
+   "kind": "Wald",
+   "gloss_en": "Grünhölzer (woods, field name)"
+  },
+  {
+   "key": "Korn- und Haferdeputat",
+   "action": "reject",
+   "reason": "payment in kind (grain allotment), not a resource"
+  },
+  {
+   "key": "Jagdrevier",
+   "action": "reject",
+   "reason": "hunting district (administrative/hunting term), not a habitat"
+  },
+  {
+   "key": "dürren",
+   "action": "merge",
+   "into": "Dürre"
+  },
+  {
+   "key": "Erlenwiesen",
+   "action": "accept",
+   "label": "Erlenwiesen",
+   "class": "place",
+   "kind": "Flur",
+   "gloss_en": "Erlenwiesen (alder meadows; field name)"
+  },
+  {
+   "key": "Hirschholz",
+   "action": "accept",
+   "label": "Hirschholz",
+   "class": "nature",
+   "kind": "Wald",
+   "gloss_en": "Hirschholz (wood, field name)"
+  },
+  {
+   "key": "Gottesholz",
+   "action": "accept",
+   "label": "Gottesholz",
+   "class": "nature",
+   "kind": "Wald",
+   "gloss_en": "Gottesholz (church-owned wood parcel)"
+  },
+  {
+   "key": "Naturalien",
+   "action": "reject",
+   "reason": "payment in kind, not a resource"
+  },
+  {
+   "key": "Kämmeraholzgelder",
+   "action": "reject",
+   "reason": "payment (wood money), not a resource"
+  },
+  {
+   "key": "Stadtwaldboden",
+   "action": "merge",
+   "into": "Waldboden"
+  },
+  {
+   "key": "Raub und Brand",
+   "action": "merge",
+   "into": "Brand"
+  },
+  {
+   "key": "Schwefel",
+   "action": "accept",
+   "label": "Schwefel",
+   "class": "concept",
+   "kind": "Rohstoff",
+   "gloss_en": "sulphur"
+  },
+  {
+   "key": "Wasserfluth",
+   "action": "merge",
+   "into": "Ueberschwemmung"
+  },
+  {
+   "key": "Erdbeben",
+   "action": "accept",
+   "label": "Erdbeben",
+   "class": "concept",
+   "kind": "Ereignis",
+   "gloss_en": "earthquake"
+  },
+  {
+   "key": "Reuthwiesen",
+   "action": "accept",
+   "label": "Reuthwiesen",
+   "class": "place",
+   "kind": "Flur",
+   "gloss_en": "Reuthwiesen (meadows, field name)"
+  },
+  {
+   "key": "Lämmerholz",
+   "action": "accept",
+   "label": "Lämmerholz",
+   "class": "nature",
+   "kind": "Wald",
+   "gloss_en": "Lämmerholz (wood, field name)"
+  },
+  {
+   "key": "Verwüstung",
+   "action": "merge",
+   "into": "Hochwasser"
+  },
+  {
+   "key": "Steinicht",
+   "action": "accept",
+   "label": "Steinicht",
+   "class": "place",
+   "kind": "Flur",
+   "gloss_en": "Steinicht (stony ground; field name)"
+  },
+  {
+   "key": "Saugrube",
+   "action": "accept",
+   "label": "Saugrube",
+   "class": "place",
+   "kind": "Flur",
+   "gloss_en": "Saugrube (field name; boar pit)"
+  },
+  {
+   "key": "Lemnitzgrunde",
+   "action": "accept",
+   "label": "Lemnitzgrund",
+   "class": "nature",
+   "kind": "Tal",
+   "gloss_en": "Lemnitzgrund (valley of the Lemnitz)"
+  },
+  {
+   "key": "Berge",
+   "action": "accept",
+   "label": "Berg",
+   "class": "concept",
+   "kind": "Gelände",
+   "gloss_en": "mountain, hill"
+  },
+  {
+   "key": "Waldgebirg",
+   "action": "reject",
+   "reason": "etymological gloss (Lobdaburg: 'Wald oder Waldgebirg'), not a concept"
+  },
+  {
+   "key": "Hölzern",
+   "action": "merge",
+   "into": "Wald"
+  },
+  {
+   "key": "Gußstahl",
+   "action": "accept",
+   "label": "Gußstahl",
+   "class": "concept",
+   "kind": "Metall",
+   "gloss_en": "cast steel",
+   "modern": "Gussstahl"
+  },
+  {
+   "key": "Saalwälder",
+   "action": "merge",
+   "into": "Saalwald"
+  },
+  {
+   "key": "Saalthalbildern",
+   "action": "merge",
+   "into": "Saalthal"
+  },
+  {
+   "key": "weidmannsheiler Forste",
+   "action": "merge",
+   "into": "Weidmannsheiler Forst"
+  },
+  {
+   "key": "Bergwand",
+   "action": "accept",
+   "label": "Bergwand",
+   "class": "concept",
+   "kind": "Gelände",
+   "gloss_en": "mountain face, steep slope"
+  },
+  {
+   "key": "Felsenzinne",
+   "action": "accept",
+   "label": "Felsenzinne",
+   "class": "concept",
+   "kind": "Gelände",
+   "gloss_en": "rock pinnacle"
+  },
+  {
+   "key": "Saaluferwand",
+   "action": "merge",
+   "into": "Bergwand"
+  },
+  {
+   "key": "Kalktrümmer",
+   "action": "merge",
+   "into": "Kalk"
+  },
+  {
+   "key": "Plantage",
+   "action": "merge",
+   "into": "Holzanpflanzung"
+  },
+  {
+   "key": "lange Hölzchen",
+   "action": "accept",
+   "label": "Langes Hölzchen",
+   "class": "nature",
+   "kind": "Wald",
+   "gloss_en": "Langes Hölzchen (small wood in the park of Ebersdorf palace)"
+  },
+  {
+   "key": "Wiese Haueisen",
+   "action": "accept",
+   "label": "Wiese Haueisen",
+   "class": "place",
+   "kind": "Flur",
+   "gloss_en": "Wiese Haueisen (meadow belonging to a manor, field name)"
+  },
+  {
+   "key": "Schönbrunner Flur",
+   "action": "merge",
+   "into": "Flur"
+  },
+  {
+   "key": "Goldbachswiese",
+   "action": "accept",
+   "label": "Goldbachswiese",
+   "class": "place",
+   "kind": "Flur",
+   "gloss_en": "Goldbachswiese (meadow, field name)"
+  },
+  {
+   "key": "Ochsenwiese",
+   "action": "accept",
+   "label": "Ochsenwiese",
+   "class": "place",
+   "kind": "Flur",
+   "gloss_en": "Ochsenwiese (meadow, field name)"
+  },
+  {
+   "key": "Kalkteiche",
+   "action": "merge",
+   "into": "Teich"
+  },
+  {
+   "key": "Moosholz",
+   "action": "accept",
+   "label": "Moosholz",
+   "class": "nature",
+   "kind": "Wald",
+   "gloss_en": "Moosholz (wood, field name)"
+  },
+  {
+   "key": "Kohlwald",
+   "action": "accept",
+   "label": "Kohlwald",
+   "class": "nature",
+   "kind": "Wald",
+   "gloss_en": "Kohlwald (wood, field name)"
+  },
+  {
+   "key": "Pfaffenwiesen",
+   "action": "accept",
+   "label": "Pfaffenwiesen",
+   "class": "place",
+   "kind": "Flur",
+   "gloss_en": "Pfaffenwiesen (meadows, field name)"
+  },
+  {
+   "key": "Quellwassers",
+   "action": "merge",
+   "into": "Quellwasser"
+  },
+  {
+   "key": "Lindenallee",
+   "action": "accept",
+   "label": "Lindenallee",
+   "class": "concept",
+   "kind": "Lebensraum",
+   "gloss_en": "avenue of lime trees"
+  },
+  {
+   "key": "Lemnitzthal",
+   "action": "merge",
+   "into": "Lemnitzgrunde"
+  },
+  {
+   "key": "Feldstück",
+   "action": "merge",
+   "into": "Feld"
+  },
+  {
+   "key": "Grundstücke",
+   "action": "reject",
+   "reason": "legal term (plots of land), not a habitat concept"
+  },
+  {
+   "key": "Landregen",
+   "action": "merge",
+   "into": "Regen"
+  },
+  {
+   "key": "Holzfreveleien",
+   "action": "accept",
+   "label": "Holzfrevel",
+   "class": "concept",
+   "kind": "Prozess",
+   "gloss_en": "timber theft, illegal logging"
+  },
+  {
+   "key": "Kalligsholz",
+   "action": "accept",
+   "label": "Kalligsholz",
+   "class": "nature",
+   "kind": "Wald",
+   "gloss_en": "Kalligsholz (wood, field name)"
+  },
+  {
+   "key": "Bärenloch",
+   "action": "accept",
+   "label": "Bärenloch",
+   "class": "place",
+   "kind": "Flur",
+   "gloss_en": "Bärenloch (field name)"
+  },
+  {
+   "key": "Brückenholze",
+   "action": "accept",
+   "label": "Brückenholz",
+   "class": "nature",
+   "kind": "Wald",
+   "gloss_en": "Brückenholz (wood near a deserted village)"
+  },
+  {
+   "key": "Markholz",
+   "action": "accept",
+   "label": "Markholz",
+   "class": "nature",
+   "kind": "Wald",
+   "gloss_en": "Markholz (wood, field name)"
+  },
+  {
+   "key": "Kälbetenholz",
+   "action": "accept",
+   "label": "Kälbetenholz",
+   "class": "nature",
+   "kind": "Wald",
+   "gloss_en": "Kälbetenholz (wood, field name)"
+  },
+  {
+   "key": "Bettelholz",
+   "action": "accept",
+   "label": "Bettelholz",
+   "class": "nature",
+   "kind": "Wald",
+   "gloss_en": "Bettelholz (wood, field name)"
+  },
+  {
+   "key": "Wiesenﬂecklein",
+   "action": "merge",
+   "into": "Wiese"
+  },
+  {
+   "key": "Feldgelänge",
+   "action": "accept",
+   "label": "Feldgelänge",
+   "class": "place",
+   "kind": "Flur",
+   "gloss_en": "Feldgelänge (field strips; field name)"
+  },
+  {
+   "key": "Holzparcelle",
+   "action": "merge",
+   "into": "Wald"
+  },
+  {
+   "key": "lobensteiner Wald",
+   "action": "merge",
+   "into": "lobensteiner Domainenwalde"
+  },
+  {
+   "key": "Holzhauer",
+   "action": "reject",
+   "reason": "occupation (woodcutter), not a concept"
+  },
+  {
+   "key": "Matzenholz",
+   "action": "accept",
+   "label": "Matzenholz",
+   "class": "nature",
+   "kind": "Wald",
+   "gloss_en": "Matzenholz (wood, field name)"
+  },
+  {
+   "key": "kalter Brunn",
+   "action": "accept",
+   "label": "Kalter Brunn",
+   "class": "nature",
+   "kind": "Quelle",
+   "gloss_en": "Kalter Brunn (spring, field name)"
+  },
+  {
+   "key": "Fäulnisgeruch",
+   "action": "reject",
+   "reason": "odour, not a concept of the register"
+  },
+  {
+   "key": "Waldkessel",
+   "action": "merge",
+   "into": "Kessel"
+  },
+  {
+   "key": "Pfarreibrandes",
+   "action": "merge",
+   "into": "Brand"
+  },
+  {
+   "key": "Ilmgrund",
+   "action": "accept",
+   "label": "Ilmgrund",
+   "class": "nature",
+   "kind": "Tal",
+   "gloss_en": "Ilmgrund (valley of a small brook near Gefell)"
+  },
+  {
+   "key": "Sormizgrund",
+   "action": "accept",
+   "label": "Sormizgrund",
+   "class": "nature",
+   "kind": "Tal",
+   "gloss_en": "Sormitzgrund (valley of the Sormitz)",
+   "modern": "Sormitzgrund"
+  },
+  {
+   "key": "abgetrieben",
+   "action": "reject",
+   "reason": "participle (felled), not a concept"
+  },
+  {
+   "key": "Granitblöcke",
+   "action": "merge",
+   "into": "Granit"
+  },
+  {
+   "key": "Getreidemarkt",
+   "action": "reject",
+   "reason": "market (trade fair), not a resource"
+  },
+  {
+   "key": "Sormitzgrund",
+   "action": "merge",
+   "into": "Sormizgrund"
+  },
+  {
+   "key": "Sormitzufer",
+   "action": "merge",
+   "into": "Ufer"
+  },
+  {
+   "key": "Kunzenholz",
+   "action": "accept",
+   "label": "Kunzenholz",
+   "class": "nature",
+   "kind": "Wald",
+   "gloss_en": "Kunzenholz (wood, field name)"
+  },
+  {
+   "key": "Gemeindeholz",
+   "action": "accept",
+   "label": "Gemeindeholz",
+   "class": "concept",
+   "kind": "Lebensraum",
+   "gloss_en": "municipal woodland (commons wood)"
+  },
+  {
+   "key": "Wetzsteinwiesen",
+   "action": "accept",
+   "label": "Wetzsteinwiesen",
+   "class": "place",
+   "kind": "Flur",
+   "gloss_en": "Wetzsteinwiesen (meadows, field name)"
+  },
+  {
+   "key": "Rohrbachswiesen",
+   "action": "accept",
+   "label": "Rohrbachswiesen",
+   "class": "place",
+   "kind": "Flur",
+   "gloss_en": "Rohrbachswiesen (meadows, field name)"
+  },
+  {
+   "key": "Dürrenbachsgrundes",
+   "action": "accept",
+   "label": "Dürrenbachsgrund",
+   "class": "nature",
+   "kind": "Tal",
+   "gloss_en": "Dürrenbachsgrund (valley of the Dürrenbach)"
+  },
+  {
+   "key": "Quellenwiesen",
+   "action": "accept",
+   "label": "Quellenwiesen",
+   "class": "place",
+   "kind": "Flur",
+   "gloss_en": "Quellenwiesen (meadows at the headwaters of the Mühlbach)"
+  },
+  {
+   "key": "Hochwaldes",
+   "action": "accept",
+   "label": "Hochwald",
+   "class": "concept",
+   "kind": "Lebensraum",
+   "gloss_en": "high forest, timber forest"
+  },
+  {
+   "key": "Wald- und Feldstrich",
+   "action": "reject",
+   "reason": "descriptive phrase (the area is named 'Wirthsbüsche'), not a name or concept"
+  },
+  {
+   "key": "seligenstätter Grund",
+   "action": "accept",
+   "label": "Seligenstätter Grund",
+   "class": "nature",
+   "kind": "Tal",
+   "gloss_en": "Seligenstätter Grund (valley with the deserted village Seligenstätt)"
+  },
+  {
+   "key": "Rodachsgrund",
+   "action": "accept",
+   "label": "Rodachsgrund",
+   "class": "nature",
+   "kind": "Tal",
+   "gloss_en": "Rodachsgrund (valley of the Rodach)",
+   "modern": "Rodachgrund"
+  },
+  {
+   "key": "Holz-",
+   "action": "merge",
+   "into": "Holz"
+  },
+  {
+   "key": "Rodachgrund",
+   "action": "merge",
+   "into": "Rodachsgrund"
+  },
+  {
+   "key": "Goldstücke",
+   "action": "reject",
+   "reason": "gold coins in a legend, not a resource concept"
+  },
+  {
+   "key": "Gemäßgrund",
+   "action": "accept",
+   "label": "Gemäßgrund",
+   "class": "nature",
+   "kind": "Tal",
+   "gloss_en": "Gemäßgrund (valley near Neundorf)"
+  },
+  {
+   "key": "Hofäcker",
+   "action": "merge",
+   "into": "Acker"
+  },
+  {
+   "key": "Grummet",
+   "action": "accept",
+   "label": "Grummet",
+   "class": "concept",
+   "kind": "Agrarprodukt",
+   "gloss_en": "aftermath hay (second cut of hay)"
+  },
+  {
+   "key": "Haberfeld",
+   "action": "merge",
+   "into": "Feld"
+  },
+  {
+   "key": "Orlagrunds",
+   "action": "accept",
+   "label": "Orlagrund",
+   "class": "nature",
+   "kind": "Tal",
+   "gloss_en": "Orlagrund (valley near Hornsgrün)"
+  },
+  {
+   "key": "Langwassergrunde",
+   "action": "merge",
+   "into": "Langwassergrund"
+  },
+  {
+   "key": "Dorfwiesen",
+   "action": "merge",
+   "into": "Wiese"
+  },
+  {
+   "key": "Nervenfieber",
+   "action": "accept",
+   "label": "Nervenfieber",
+   "class": "concept",
+   "kind": "Seuche",
+   "gloss_en": "nervous fever (typhoid or typhus)",
+   "modern": "| 19th-century term, probably typhoid fever; Brückner does not specify."
+  },
+  {
+   "key": "Saubachsthal",
+   "action": "accept",
+   "label": "Saubachsthal",
+   "class": "nature",
+   "kind": "Tal",
+   "gloss_en": "Saubachsthal (valley near Harra)",
+   "modern": "Saubachstal"
+  },
+  {
+   "key": "Getreideboden",
+   "action": "merge",
+   "into": "Ackerboden"
+  },
+  {
+   "key": "Wüsteholz",
+   "action": "accept",
+   "label": "Wüsteholz",
+   "class": "nature",
+   "kind": "Wald",
+   "gloss_en": "Wüsteholz (wood, field name)"
+  },
+  {
+   "key": "Narrenholz",
+   "action": "accept",
+   "label": "Narrenholz",
+   "class": "nature",
+   "kind": "Wald",
+   "gloss_en": "Narrenholz (wood, field name)"
+  },
+  {
+   "key": "Kiefernholz",
+   "action": "accept",
+   "label": "Kiefernholz",
+   "class": "nature",
+   "kind": "Wald",
+   "gloss_en": "Kiefernholz (pine wood, field name)"
+  },
+  {
+   "key": "Moschwizgrund",
+   "action": "accept",
+   "label": "Moschwizgrund",
+   "class": "nature",
+   "kind": "Tal",
+   "gloss_en": "Moschwizgrund (valley with chalybeate springs near Seibis)"
+  },
+  {
+   "key": "Holz Eichenstein",
+   "action": "accept",
+   "label": "Holz Eichenstein",
+   "class": "nature",
+   "kind": "Wald",
+   "gloss_en": "Holz Eichenstein (wood bought by the Blankenberg family)"
+  },
+  {
+   "key": "Ackerbau",
+   "action": "reject",
+   "reason": "agriculture (activity), not a concept"
+  },
+  {
+   "key": "Teufelswiese",
+   "action": "accept",
+   "label": "Teufelswiese",
+   "class": "place",
+   "kind": "Flur",
+   "gloss_en": "Teufelswiese (meadow, a possible cult site near the Jungfernfels)"
+  },
+  {
+   "key": "göttengrüner Thals",
+   "action": "accept",
+   "label": "Göttengrüner Thal",
+   "class": "nature",
+   "kind": "Tal",
+   "gloss_en": "valley at Göttengrün",
+   "modern": "Göttengrüner Tal"
+  },
+  {
+   "key": "Hetschenbachsgründchen",
+   "action": "accept",
+   "label": "Hetschenbachsgründchen",
+   "class": "nature",
+   "kind": "Tal",
+   "gloss_en": "little valley of the Hetschenbach"
+  },
+  {
+   "key": "Brand=Sassenhochebene",
+   "action": "accept",
+   "label": "Brand-Sassenhochebene",
+   "class": "nature",
+   "kind": "Hochebene",
+   "gloss_en": "Brand-Sassen plateau"
+  },
+  {
+   "key": "Wiesboden",
+   "action": "merge",
+   "into": "Wiesenboden"
+  },
+  {
+   "key": "Birkenanpflanzung",
+   "action": "merge",
+   "into": "Holzanpflanzung"
+  },
+  {
+   "key": "Saalwiesen",
+   "action": "accept",
+   "label": "Saalwiesen",
+   "class": "place",
+   "kind": "Flur",
+   "gloss_en": "Saalwiesen (meadows along the Saale; field name)"
+  },
+  {
+   "key": "Pottigaer Forst",
+   "action": "accept",
+   "label": "Pottigaer Forst",
+   "class": "nature",
+   "kind": "Wald",
+   "gloss_en": "Pottigaer Forst (forest near Pottiga)"
+  },
+  {
+   "key": "Reisig",
+   "action": "accept",
+   "label": "Reisig",
+   "class": "concept",
+   "kind": "Rohstoff",
+   "gloss_en": "brushwood"
+  },
+  {
+   "key": "Bärengrund",
+   "action": "accept",
+   "label": "Bärengrund",
+   "class": "nature",
+   "kind": "Tal",
+   "gloss_en": "Bärengrund (valley at Ullersreuth)"
+  },
+  {
+   "key": "Göritzgrunds",
+   "action": "accept",
+   "label": "Göritzgrund",
+   "class": "nature",
+   "kind": "Tal",
+   "gloss_en": "Göritzgrund (valley near Ullersreuth)"
+  },
+  {
+   "key": "Gutsteiche",
+   "action": "merge",
+   "into": "Teich"
+  },
+  {
+   "key": "Dorfsteichen",
+   "action": "merge",
+   "into": "Dorfteiche"
+  },
+  {
+   "key": "Wiesengrün",
+   "action": "merge",
+   "into": "Wiese"
+  },
+  {
+   "key": "Laub- und Nadelwald",
+   "action": "merge",
+   "into": "Wald"
+  },
+  {
+   "key": "Wiesengrundstücke",
+   "action": "merge",
+   "into": "Wiese"
+  },
+  {
+   "key": "Kuhleder",
+   "action": "merge",
+   "into": "Leder"
+  },
+  {
+   "key": "Kalbleder",
+   "action": "merge",
+   "into": "Leder"
+  },
+  {
+   "key": "Hag",
+   "action": "merge",
+   "into": "Hain"
+  },
+  {
+   "key": "Birken",
+   "action": "reject",
+   "reason": "name of a summer venue (inn), not a concept"
+  },
+  {
+   "key": "Cholera",
+   "action": "accept",
+   "label": "Cholera",
+   "class": "concept",
+   "kind": "Seuche",
+   "gloss_en": "cholera"
+  },
+  {
+   "key": "Röhrwassers",
+   "action": "merge",
+   "into": "Brunnenwasser"
+  },
+  {
+   "key": "eibener Walde",
+   "action": "accept",
+   "label": "Eibener Wald",
+   "class": "nature",
+   "kind": "Wald",
+   "gloss_en": "Eibener Wald (forest near Eiben)"
+  },
+  {
+   "key": "Salzwiese",
+   "action": "accept",
+   "label": "Salzwiese",
+   "class": "place",
+   "kind": "Flur",
+   "gloss_en": "Salzwiese (meadow, field name)"
+  },
+  {
+   "key": "Torfmoor",
+   "action": "merge",
+   "into": "Moor"
+  },
+  {
+   "key": "Erlwiesen",
+   "action": "merge",
+   "into": "Erlenwiesen"
+  },
+  {
+   "key": "Ruhr",
+   "action": "accept",
+   "label": "Ruhr",
+   "class": "concept",
+   "kind": "Seuche",
+   "gloss_en": "dysentery"
+  },
+  {
+   "key": "Waldhöhen",
+   "action": "merge",
+   "into": "Höhen"
+  },
+  {
+   "key": "Wiesengrundes",
+   "action": "merge",
+   "into": "Wiesengrund"
+  },
+  {
+   "key": "Mühlholz",
+   "action": "accept",
+   "label": "Mühlholz",
+   "class": "nature",
+   "kind": "Wald",
+   "gloss_en": "Mühlholz (wood, field name)"
+  },
+  {
+   "key": "Hutungen",
+   "action": "merge",
+   "into": "Hutung"
+  },
+  {
+   "key": "Gneisboden",
+   "action": "accept",
+   "label": "Gneisboden",
+   "class": "concept",
+   "kind": "Boden",
+   "gloss_en": "gneiss soil"
+  },
+  {
+   "key": "plothener Teichrevier",
+   "action": "accept",
+   "label": "Plothener Teichrevier",
+   "class": "nature",
+   "kind": "Teichgebiet",
+   "gloss_en": "Plothen pond district"
+  },
+  {
+   "key": "Obstgärten",
+   "action": "merge",
+   "into": "Obstplantagen"
+  }
+ ]
+}

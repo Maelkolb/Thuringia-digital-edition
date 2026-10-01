@@ -43,8 +43,7 @@
      143,
      "Animal"
     ]
-   ],
-   "sec": "berichtigungen"
+   ]
   },
   {
    "id": "b2",
@@ -107,8 +106,7 @@
      782,
      "Animal"
     ]
-   ],
-   "sec": "berichtigungen"
+   ]
   },
   {
    "id": "b3",
@@ -136,8 +134,7 @@
      111,
      "Animal"
     ]
-   ],
-   "sec": "berichtigungen"
+   ]
   },
   {
    "id": "b4",
@@ -175,39 +172,34 @@
      650,
      "Animal"
     ]
-   ],
-   "sec": "berichtigungen"
+   ]
   },
   {
    "id": "b5",
    "type": "paragraph",
    "src": 4,
-   "text": "S. 168. Z. 13 v. u. lies: eine statt zwei.\nS. 192. Z. 15 v. u. Die 12 Nächte oder die sog. Zwölfe begannen ursprünglich nach altgermanischem Ritus mit dem 21. December, dagegen später (urkundlich schon 1321) durch die Einwirkung des christlichen Cultus mit dem 25. December und endigten mit dem sog. großen Neujahr oder dem 6. Januar.\nS. 219. 221. 223. In der vorletzten Spalte der daselbst vorkommenden Tabellen lies in der Ueberschrift: Steuerwerth in Steuereinheiten à 10 Thlr. statt Steuerwerth — Thaler.\nS. 230. Z. 11 v. u. lies: 26 statt 29.\nS. 251. Die früheren Debitstellen sind in Folge des Bundesgesetzes vom 12. October 1867, wonach der Handel mit Salz im ganzen Gebiete des deutschen Zoll- und Handelsvereines mit dem Beginne des Jahres 1868 frei gegeben ist, in Wegfall gekommen.\nS. 272. Z. 21 v. u. füge nach Officiere „und die Mannschaft\" hinzu.\nS. 277. Z. 14 v. o. Die Steuerreceptur ist aufgehoben.\n\" Z. 13 v. u. lies: zuversindenden statt zu verzindenden.",
+   "text": "S. 168. Z. 13 v. u. lies: eine statt zwei.\nS. 192. Z. 15 v. u. Die 12 Nächte oder die sog. Zwölfe begannen ursprünglich nach altgermanischem Ritus mit dem 21. December, dagegen später (urkundlich schon 1321) durch die Einwirkung des christlichen Cultus mit dem 25. December und endigten mit dem sog. großen Neujahr oder dem 6. Januar.\nS. 219. 221. 223. In der vorletzten Spalte der daselbst vorkommenden Tabellen lies in der Ueberschrift: Steuerwerth in Steuereinheiten à 10 Thlr. statt Steuerwerth — Thaler.\nS. 230. Z. 11 v. u. lies: 26 statt 29.\nS. 251. Die früheren Debitstellen sind in Folge des Bundesgesetzes vom 12. October 1867, wonach der Handel mit Salz im ganzen Gebiete des deutschen Zoll- und Handelsvereines mit dem Beginne des Jahres 1868 frei gegeben ist, in Wegfall gekommen.\nS. 272. Z. 21 v. u. füge nach Officiere „und die Mannschaft\" hinzu.\nS. 277. Z. 14 v. o. Die Steuerreceptur ist aufgehoben.\n\" Z. 13 v. u. lies: zuverzinsenden statt zu verzinsenden.",
    "spans": [
     [
      659,
      663,
      "Resource"
     ]
-   ],
-   "sec": "berichtigungen"
+   ]
   },
   {
    "id": "b6",
    "type": "paragraph",
    "src": 5,
    "text": "S. 279. Zur Umrechnung der seitherigen Maße und Gewichte erfolgte unter Bezugnahme auf Art. 21 der Maß- und Gewichtsordnung für den norddeutschen Bund vom 17. August 1868 eine Ministerial-Bekanntmachung v. 20. März 1869 und Nachtrag v. 14. August d. J. Hiernach sind:",
-   "spans": [],
-   "sec": "berichtigungen"
+   "spans": []
   },
   {
    "id": "b7",
    "type": "heading",
    "src": 6,
    "text": "I. Längenmaße:\n(443,296 pariser Linien = 1 Meter.)",
-   "spans": [],
-   "sec": "berichtigungen",
-   "level": 4
+   "spans": []
   },
   {
    "id": "b8",
@@ -532,12 +524,18 @@
      "0,636820 \""
     ]
    ],
-   "caption": null,
-   "sec": "berichtigungen"
+   "caption": null
   }
  ],
  "footnotes": [],
  "corrections": [
+  {
+   "rule": "facsimile_correction",
+   "before": "zuversindenden statt zu verzindenden",
+   "after": "zuverzinsenden statt zu verzinsenden",
+   "source": "B01",
+   "n": 1
+  },
   {
    "rule": "table_group_rows",
    "n": 5,
@@ -549,12 +547,5 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-04T21:47:44.373368",
   "early_schema": false
- },
- "section_path": [
-  "back",
-  "berichtigungen"
- ],
- "sections": [
-  "berichtigungen"
- ]
+ }
 }

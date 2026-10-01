@@ -9,22 +9,28 @@
  "sources": [
   {
    "page": "44",
+   "block": "b4",
+   "rows": "r2-r19",
+   "note": "Tabelle der Analyse (Neue Quelle, Agnesquelle)"
+  },
+  {
+   "page": "44",
    "block": "b1",
-   "note": "Einleitungssatz zur Analyse; die Tabelle folgt im Druck unmittelbar danach, fehlt aber in der Textübertragung"
+   "note": "Einleitungssatz: Analyse von Prof. Dr. Reichardt, Jena"
   }
  ],
  "summary": {
   "de": "Für die 1868 eröffnete Badeanstalt in Lobenstein druckt Brückner die Analyse des Jenaer Professors Reichardt für die »Neue Quelle« (wohl die neue Trinkquelle am Siechenberg) und die »Agnesquelle«: 14 Bestandteile in 10 000 Teilen Wasser, dazu Kohlensäure, Temperatur und spezifisches Gewicht. Die Auswertung stellt beide Quellen gegenüber und zeigt, aus welchen Stoffen sich die Mineralisierung zusammensetzt.",
-  "en": "For the spa opened at Lobenstein in 1868 Brückner prints the analysis by Professor Reichardt of Jena for the “Neue Quelle” (probably the new drinking spring at the Siechenberg) and the “Agnesquelle”: 14 constituents in 10,000 parts of water, plus carbonic acid, temperature and specific gravity. The analysis compares the two springs and shows what the mineralisation consists of."
+  "en": "For the spa opened at Lobenstein in 1868 Brückner prints the analysis by Professor Reichardt of Jena for the “Neue Quelle” (probably the new drinking spring at the Siechenberg) and the “Agnesquelle”: 14 constituents in 10,000 parts of water, plus carbonic acid, temperature and specific gravity. The analysis compares the two springs and shows what the mineralization consists of."
  },
  "method": {
-  "de": "Die Tabelle auf S. 44 fehlt in der Textübertragung. Alle Werte wurden deshalb direkt am Faksimile abgelesen (Ausschnitte mit 1400 px Breite) und durch die gedruckten Summen geprüft: Die 14 Einzelwerte jeder Spalte ergeben genau 2,5232 bzw. 1,0082. Die Bestandteile stehen so da, wie Reichardt sie nennt (hypothetische Salze, z. B. »zweifach kohlensaurer Kalk« = Calciumhydrogencarbonat); die Gruppierung (Natrium/Kalium, Kalk/Magnesia, Eisen/Mangan, übrige) und die englischen Namen sind editorisch. Striche (—) im Druck bedeuten »nicht gefunden« und erscheinen im Datensatz nicht als Zeile.",
-  "en": "The table on p. 44 is missing from the text transcription. All values were therefore read directly from the facsimile (crops at 1400 px width) and checked against the printed totals: the 14 individual values of each column add up exactly to 2.5232 and 1.0082. The constituents are given as Reichardt names them (hypothetical salts, e.g. “zweifach kohlensaurer Kalk” = calcium bicarbonate); the grouping (sodium/potassium, lime/magnesia, iron/manganese, other) and the English names are editorial. Dashes (—) in the print mean “not found” and do not appear as rows in the dataset."
+  "de": "Die Tabelle auf S. 44 (Block b4) wurde Zeile für Zeile übernommen; die 14 Einzelwerte jeder Spalte ergeben genau die gedruckten Summen 2,5232 bzw. 1,0082. Die Bestandteile stehen so da, wie Reichardt sie nennt (hypothetische Salze, z. B. »zweifach kohlensaurer Kalk« = Calciumhydrogencarbonat); die Anführungszeichen der Tabelle (»„«) sind zu »Zweifach« bzw. »Unlösliche« aufgelöst. Die Gruppierung (Natrium/Kalium, Kalk/Magnesia, Eisen/Mangan, übrige), die englischen Namen und die Anteile an der Summe sind editorisch bzw. berechnet. Striche (—) im Druck bedeuten »nicht gefunden« und erscheinen im Datensatz nicht als Zeile. Die Temperatur gibt Brückner selbst in °R und °C an (9 1/2° R. = 11,9° C.); eine eigene Umrechnung war nicht nötig.",
+  "en": "The table on p. 44 (block b4) was taken over row by row; the 14 individual values of each column add up exactly to the printed totals 2.5232 and 1.0082. The constituents are given as Reichardt names them (hypothetical salts, e.g. “zweifach kohlensaurer Kalk” = calcium bicarbonate); the ditto marks of the table (“„”) are resolved to “Zweifach” and “Unlösliche”. The grouping (sodium/potassium, lime/magnesia, iron/manganese, other), the English names and the shares of the total are editorial or computed. Dashes (—) in the print mean “not found” and do not appear as rows in the dataset. Brückner himself gives the temperature in both °R and °C (9 1/2° R. = 11.9° C.), so no conversion of our own was needed."
  },
  "findings": [
   {
    "de": "Die Neue Quelle enthält 2,5232 Teile feste Bestandteile in 10 000 Teilen Wasser, die Agnesquelle 1,0082, also nur etwa 40 % davon; die Neue Quelle ist 2,5-mal so stark mineralisiert. In Prozent sind das 0,025 % bzw. 0,010 % feste Stoffe – beide Wässer sind in absoluten Zahlen schwach mineralisiert.",
-   "en": "The Neue Quelle contains 2.5232 parts of solids in 10,000 parts of water, the Agnesquelle 1.0082, i.e. only about 40 % of that; the Neue Quelle is 2.5 times as strongly mineralised. In percent that is 0.025 % and 0.010 % solids – both waters are weakly mineralised in absolute terms."
+   "en": "The Neue Quelle contains 2.5232 parts of solids in 10,000 parts of water, the Agnesquelle 1.0082, i.e. only about 40 % of that; the Neue Quelle is 2.5 times as strongly mineralized. In percent that is 0.025 % and 0.010 % solids – both waters are weakly mineralized in absolute terms."
   },
   {
    "de": "Der Eisengehalt (zweifach kohlensaures Eisenoxydul) beträgt 0,5698 bzw. 0,4148 Teile. In der Agnesquelle ist Eisen der größte Einzelbestandteil (41 % der festen Stoffe), in der Neuen Quelle der zweitgrößte hinter dem Kalk (0,8061; Eisen: 23 %). Brückner nennt die neue Trinkquelle »eine der stärksten Eisenquellen Deutschlands«; ein Vergleich mit anderen Quellen ist aus seinem Text nicht möglich.",
@@ -35,18 +41,14 @@
    "en": "Alkali salts (sodium and potassium compounds) make up 20 % of the solids in the Neue Quelle (0.5065) and 14 % in the Agnesquelle (0.1451)."
   },
   {
-   "de": "Die gedruckten Summen (2,5232 und 1,0082) stimmen exakt mit der Summe der abgelesenen Einzelwerte überein; das bestätigt die Lesung der Tabelle am Faksimile.",
-   "en": "The printed totals (2.5232 and 1.0082) agree exactly with the sum of the individual values read from the table; this confirms the reading from the facsimile."
+   "de": "Die gedruckten Summen (2,5232 und 1,0082) stimmen exakt mit der Summe der Einzelwerte überein; die Tabelle ist damit in sich schlüssig und die Übertragung bestätigt.",
+   "en": "The printed totals (2.5232 and 1.0082) agree exactly with the sum of the individual values; the table is thus internally consistent and the transcription confirmed."
   }
  ],
  "caveats": [
   {
-   "de": "Die Tabelle ist in der Textübertragung nicht vorhanden; die Zahlenspalten sind daher als »derived« markiert, obwohl es gedruckte Werte sind. Sobald der Tabellenblock in die Seitendaten aufgenommen ist, kann die Markierung entfallen.",
-   "en": "The table is not present in the text transcription; the numeric columns are therefore marked “derived” although they are printed values. Once the table block is added to the page data the flag can be dropped."
-  },
-  {
    "de": "Die Bezugsmenge der freien Kohlensäure (»C. C.«, vermutlich Kubikzentimeter) ist im Druck nicht angegeben; die Zeile wird nur im Datensatz geführt, nicht gezeichnet.",
-   "en": "The reference quantity of the free carbonic acid (“C. C.”, presumably cubic centimetres) is not stated in the print; the row is given in the dataset only and not plotted."
+   "en": "The reference quantity of the free carbonic acid (“C. C.”, presumably cubic centimeters) is not stated in the print; the row is given in the dataset only and not plotted."
   },
   {
    "de": "Die Salze sind rechnerische Kombinationen der damals nachgewiesenen Ionen, keine tatsächlich gelösten Verbindungen; ein Vergleich mit heutigen Mineralwasseranalysen erfordert eine Umrechnung, die hier nicht vorgenommen wird.",
@@ -118,9 +120,7 @@
       "en": "Content"
      },
      "type": "number",
-     "unit": "Teile in 10 000 Teilen Wasser",
-     "derived": true,
-     "note": "Wert am Faksimile S. 44 abgelesen: Die Tabelle fehlt in der Textübertragung (data/pages), daher als »derived« gekennzeichnet; die Summen stimmen mit den gedruckten Summen überein."
+     "unit": "Teile in 10 000 Teilen Wasser"
     },
     {
      "name": "share_pct",
@@ -156,7 +156,7 @@
     [
      2,
      "Schwefelsaures Natron",
-     "sodium sulphate",
+     "sodium sulfate",
      "alkali",
      "Neue Quelle",
      0.1618,
@@ -165,7 +165,7 @@
     [
      2,
      "Schwefelsaures Natron",
-     "sodium sulphate",
+     "sodium sulfate",
      "alkali",
      "Agnesquelle",
      0.0619,
@@ -174,7 +174,7 @@
     [
      3,
      "Schwefelsaures Kali",
-     "potassium sulphate",
+     "potassium sulfate",
      "alkali",
      "Agnesquelle",
      0.0521,
@@ -273,7 +273,7 @@
     [
      10,
      "Schwefelsaurer Kalk",
-     "calcium sulphate",
+     "calcium sulfate",
      "earth",
      "Neue Quelle",
      0.0039,
@@ -282,7 +282,7 @@
     [
      10,
      "Schwefelsaurer Kalk",
-     "calcium sulphate",
+     "calcium sulfate",
      "earth",
      "Agnesquelle",
      0.0422,
@@ -364,8 +364,14 @@
    "source_refs": [
     {
      "page": "44",
+     "block": "b4",
+     "rows": "r2-r19",
+     "note": "Tabelle der Analyse (Neue Quelle, Agnesquelle)"
+    },
+    {
+     "page": "44",
      "block": "b1",
-     "note": "Einleitungssatz zur Analyse; die Tabelle folgt im Druck unmittelbar danach, fehlt aber in der Textübertragung"
+     "note": "Einleitungssatz: Analyse von Prof. Dr. Reichardt, Jena"
     }
    ]
   },
@@ -392,9 +398,7 @@
       "en": "Total of solids"
      },
      "type": "number",
-     "unit": "Teile in 10 000 Teilen Wasser",
-     "derived": true,
-     "note": "Wert am Faksimile S. 44 abgelesen: Die Tabelle fehlt in der Textübertragung (data/pages), daher als »derived« gekennzeichnet; die Summen stimmen mit den gedruckten Summen überein."
+     "unit": "Teile in 10 000 Teilen Wasser"
     },
     {
      "name": "free_co2_cc",
@@ -404,8 +408,7 @@
      },
      "type": "number",
      "unit": "C. C.",
-     "derived": true,
-     "note": "Bezugsmenge im Druck nicht angegeben. Wert am Faksimile S. 44 abgelesen: Die Tabelle fehlt in der Textübertragung (data/pages), daher als »derived« gekennzeichnet; die Summen stimmen mit den gedruckten Summen überein."
+     "note": "Bezugsmenge im Druck nicht angegeben (vermutlich Kubikzentimeter je Liter)."
     },
     {
      "name": "temperature_r",
@@ -416,7 +419,7 @@
      "type": "number",
      "unit": "°R",
      "derived": true,
-     "note": "Gedruckt »9½° R.« bzw. »9° R.« (Bruch als Dezimalzahl). Wert am Faksimile S. 44 abgelesen: Die Tabelle fehlt in der Textübertragung (data/pages), daher als »derived« gekennzeichnet; die Summen stimmen mit den gedruckten Summen überein."
+     "note": "Gedruckt »9 1/2° R.« bzw. »9° R.«; der Bruch ist hier als Dezimalzahl 9,5 geschrieben, daher als umgeschrieben markiert."
     },
     {
      "name": "temperature_c",
@@ -426,8 +429,7 @@
      },
      "type": "number",
      "unit": "°C",
-     "derived": true,
-     "note": "Von Reichardt in °C angegeben (9,5 × 1,25 = 11,9; 9 × 1,25 = 11,25). Wert am Faksimile S. 44 abgelesen: Die Tabelle fehlt in der Textübertragung (data/pages), daher als »derived« gekennzeichnet; die Summen stimmen mit den gedruckten Summen überein."
+     "note": "Von Brückner/Reichardt selbst in °C angegeben (»9 1/2° R. = 11,9° C.«, »9° R. = 11,25° C.«); 9,5 × 1,25 = 11,875 ≈ 11,9."
     },
     {
      "name": "specific_gravity",
@@ -436,9 +438,7 @@
       "en": "Specific gravity"
      },
      "type": "number",
-     "unit": null,
-     "derived": true,
-     "note": "Wert am Faksimile S. 44 abgelesen: Die Tabelle fehlt in der Textübertragung (data/pages), daher als »derived« gekennzeichnet; die Summen stimmen mit den gedruckten Summen überein."
+     "unit": null
     }
    ],
    "rows": [
@@ -462,8 +462,14 @@
    "source_refs": [
     {
      "page": "44",
+     "block": "b4",
+     "rows": "r2-r19",
+     "note": "Tabelle der Analyse (Neue Quelle, Agnesquelle)"
+    },
+    {
+     "page": "44",
      "block": "b1",
-     "note": "Einleitungssatz zur Analyse; die Tabelle folgt im Druck unmittelbar danach, fehlt aber in der Textübertragung"
+     "note": "Einleitungssatz: Analyse von Prof. Dr. Reichardt, Jena"
     }
    ]
   }
@@ -656,17 +662,6 @@
      ]
     }
    }
-  }
- ],
- "transcription_issues": [
-  {
-   "page": "44",
-   "block": "b1",
-   "cell": "table",
-   "transcribed": "(Tabelle fehlt; der Text endet mit »in 10,000 Theilen:« und es folgt unmittelbar der nächste Absatz b2)",
-   "facsimile": "Tabelle mit 14 Zeilen Bestandteilen, den Zeilen »Summa der festen Bestandtheile«, »Menge der freien Kohlensäure«, »Temperatur« und »Specifisches Gewicht« in den Spalten »Neue Quelle« und »Agnesquelle«",
-   "checked_facsimile": true,
-   "note": "Alle Zahlen am Faksimile abgelesen und gegen die gedruckten Summen geprüft; der fehlende Tabellenblock sollte in data/pages/0056.json ergänzt werden."
   }
  ],
  "keywords": {

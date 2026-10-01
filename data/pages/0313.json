@@ -17,12 +17,7 @@
    "type": "heading",
    "src": 0,
    "text": "7. Kunst- und wissenschaftliche Sammlungen.",
-   "spans": [],
-   "opens": [
-    "t1-4-7"
-   ],
-   "sec": "t1-4-7",
-   "level": 4
+   "spans": []
   },
   {
    "id": "b2",
@@ -100,20 +95,14 @@
      1199,
      "Location"
     ]
-   ],
-   "sec": "t1-4-7"
+   ]
   },
   {
    "id": "b3",
    "type": "heading",
    "src": 2,
    "text": "8. Das Armenwesen.",
-   "spans": [],
-   "opens": [
-    "t1-4-8"
-   ],
-   "sec": "t1-4-8",
-   "level": 4
+   "spans": []
   },
   {
    "id": "b4",
@@ -126,16 +115,14 @@
      554,
      "Location"
     ]
-   ],
-   "sec": "t1-4-8"
+   ]
   },
   {
    "id": "b5",
    "type": "paragraph",
    "src": 4,
    "text": "Die frühere Reihenverpflegung der Ortsarmen oder ihre Unterbringung in Hirtenhäusern ist schon seit längerer Zeit verlassen, dagegen sind fast in allen Ortschaften des Landes Gemeinde-Armenhäuser errichtet worden, in denen obdachlose ortsangehörige Arme untergebracht werden. In einigen Orten geschieht dies durch miethweise Beschaffung der erforderlichen Räumlichkeiten in Privathäusern.",
-   "spans": [],
-   "sec": "t1-4-8"
+   "spans": []
   },
   {
    "id": "b6",
@@ -218,8 +205,7 @@
    "word_division": {
     "word": "hervorgegangen",
     "part": "hervor-"
-   },
-   "sec": "t1-4-8"
+   }
   }
  ],
  "footnotes": [],
@@ -229,14 +215,5 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-04T13:46:10.992038",
   "early_schema": false
- },
- "section_path": [
-  "t1",
-  "t1-4",
-  "t1-4-6"
- ],
- "sections": [
-  "t1-4-7",
-  "t1-4-8"
- ]
+ }
 }

@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "C:\Users\totom\Projects\reuss-edition\tools\gbif_match.py", line 64, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\totom\Projects\reuss-edition\tools\gbif_match.py", line 60, in main
+    os.replace(tmp, CACHE)
+    ~~~~~~~~~~^^^^^^^^^^^^
+PermissionError: [WinError 5] Access is denied: 'C:\\Users\\totom\\Projects\\reuss-edition\\data\\entities\\_gbif_cache.33536.tmp' -> 'C:\\Users\\totom\\Projects\\reuss-edition\\data\\entities\\_gbif_cache.json'

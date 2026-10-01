@@ -28,9 +28,7 @@
      106,
      "Person"
     ]
-   ],
-   "sec": "t1-5-3",
-   "level": 5
+   ]
   },
   {
    "id": "b2",
@@ -568,11 +566,11 @@
      "role": "body",
      "cells": [
       {
-       "text": "Heinrich LX., g. 1784, † 1813.",
+       "text": "H. LXI., g. 1784, † 1813.",
        "spans": [
         [
          0,
-         12,
+         24,
          "Person"
         ]
        ]
@@ -931,12 +929,18 @@
      ""
     ]
    ],
-   "caption": null,
-   "sec": "t1-5-3"
+   "caption": null
   }
  ],
  "footnotes": [],
  "corrections": [
+  {
+   "rule": "facsimile_correction",
+   "before": "Heinrich LX., g. 1784, † 1813",
+   "after": "H. LXI., g. 1784, † 1813",
+   "source": "genealogie-reuss-lebensdauer-kindersterblichkeit-1550-1850",
+   "n": 1
+  },
   {
    "rule": "join_inword_hyphen",
    "before": "Ober-greiz",
@@ -953,13 +957,5 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-04T14:33:34.710416",
   "early_schema": false
- },
- "section_path": [
-  "t1",
-  "t1-5",
-  "t1-5-3"
- ],
- "sections": [
-  "t1-5-3"
- ]
+ }
 }

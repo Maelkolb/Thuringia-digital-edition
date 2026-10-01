@@ -24,8 +24,7 @@
      "Artefact"
     ]
    ],
-   "continued": true,
-   "sec": "t1-2-6"
+   "continued": true
   },
   {
    "id": "b2",
@@ -53,8 +52,7 @@
      340,
      "Location"
     ]
-   ],
-   "sec": "t1-2-6"
+   ]
   },
   {
    "id": "b3",
@@ -207,16 +205,14 @@
      "9,18"
     ]
    ],
-   "caption": null,
-   "sec": "t1-2-6"
+   "caption": null
   },
   {
    "id": "b4",
    "type": "paragraph",
    "src": 3,
    "text": "Danach haben April und Mai die größte, August, October und November die geringste Zahl von Erkrankungen. Nach Jahresvierteln vertheilt, kommen auf",
-   "spans": [],
-   "sec": "t1-2-6"
+   "spans": []
   },
   {
    "id": "b5",
@@ -369,16 +365,14 @@
      ""
     ]
    ],
-   "caption": null,
-   "sec": "t1-2-6"
+   "caption": null
   },
   {
    "id": "b6",
    "type": "paragraph",
    "src": 5,
    "text": "somit zeigt sich in dem ersten Halbjahre ein Steigen, im zweiten ein Abnehmen der Erkrankungen.",
-   "spans": [],
-   "sec": "t1-2-6"
+   "spans": []
   },
   {
    "id": "b7",
@@ -396,8 +390,7 @@
    "word_division": {
     "word": "verheerend",
     "part": "ver-"
-   },
-   "sec": "t1-2-6"
+   }
   }
  ],
  "footnotes": [],
@@ -413,13 +406,5 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-03T15:34:18.851426",
   "early_schema": false
- },
- "section_path": [
-  "t1",
-  "t1-2",
-  "t1-2-6"
- ],
- "sections": [
-  "t1-2-6"
- ]
+ }
 }

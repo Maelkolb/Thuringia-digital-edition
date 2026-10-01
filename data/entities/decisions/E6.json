@@ -1,0 +1,4328 @@
+{
+ "package": "E6",
+ "group": "organisations",
+ "decisions": [
+  {
+   "key": "Schule",
+   "action": "reclass",
+   "label": "Schule",
+   "class": "concept",
+   "kind": "Einrichtung",
+   "gloss_en": "school",
+   "note": "Generic word; the specific schools are separate entries."
+  },
+  {
+   "key": "Kloster Cronswitz",
+   "action": "accept",
+   "label": "Kloster Cronswitz",
+   "class": "organisation",
+   "kind": "Kloster",
+   "gloss_en": "Cronschwitz convent (nunnery near Weida)",
+   "modern": "Kloster Cronschwitz",
+   "note": "Brückner also calls it 'Stift'. The plural forms 'Klöster Cronswitz' / 'Klöster zu Cronswitz' name Cronswitz together with another monastery (zum heil. Kreuz, resp. Lausnitz)."
+  },
+  {
+   "key": "Kloster zum heil. Kreuz",
+   "action": "accept",
+   "label": "Kloster zum heil. Kreuz bei Saalburg",
+   "class": "organisation",
+   "kind": "Kloster",
+   "gloss_en": "Monastery of the Holy Cross near Saalburg",
+   "register_page": "669",
+   "note": "Founded about 1310 close to Saalburg (p. 343); Brückner's own article: p. 669. Many occurrences of the bare word 'Kloster' (e.g. 'das Kloster bei Saalburg') also refer to it."
+  },
+  {
+   "key": "Kloster",
+   "action": "reclass",
+   "label": "Kloster",
+   "class": "concept",
+   "kind": "Einrichtung",
+   "gloss_en": "monastery",
+   "note": "Generic word. Often 'das Kloster (bei Saalburg)' = Kloster zum heil. Kreuz; also legendary 'versunkene Klöster' near Schleiz and Arlas."
+  },
+  {
+   "key": "deutschen Orden",
+   "action": "accept",
+   "label": "Deutscher Orden",
+   "class": "organisation",
+   "kind": "Orden",
+   "gloss_en": "Teutonic Order",
+   "note": "Brückner: the order settled in the Voigtland in the 13th century with commanderies at Plauen and Schleiz (see Deutsches Haus zu Schleiz). 'deutsche Ordenshaus' (p. 19) names the houses at Plauen and Schleiz together."
+  },
+  {
+   "key": "Kloster Bosau",
+   "action": "accept",
+   "label": "Kloster Bosau",
+   "class": "organisation",
+   "kind": "Kloster",
+   "gloss_en": "Bosau monastery near Zeitz",
+   "modern": "Kloster Posa (Bosau) bei Zeitz"
+  },
+  {
+   "key": "Schulen",
+   "action": "merge",
+   "into": "Schule"
+  },
+  {
+   "key": "Kloster zum h. Kreuz",
+   "action": "merge",
+   "into": "Kloster zum heil. Kreuz"
+  },
+  {
+   "key": "Kirche",
+   "action": "reclass",
+   "label": "Kirche",
+   "class": "concept",
+   "kind": "Einrichtung",
+   "gloss_en": "church",
+   "note": "Generic word (the church as institution or building)."
+  },
+  {
+   "key": "Kloster Lausnitz",
+   "action": "accept",
+   "label": "Kloster Lausnitz",
+   "class": "organisation",
+   "kind": "Kloster",
+   "gloss_en": "Lausnitz monastery",
+   "modern": "Kloster Lausnitz (Bad Klosterlausnitz)"
+  },
+  {
+   "key": "Staatsministerium",
+   "action": "accept",
+   "label": "Staatsministerium",
+   "class": "organisation",
+   "kind": "Behörde",
+   "gloss_en": "State Ministry (government of the principality, Gera)",
+   "note": "Supreme authority of the principality, seat Gera (p. 434); 'Ministerium' without addition (pp. 268, 436) is the same body."
+  },
+  {
+   "key": "Gymnasium",
+   "action": "merge",
+   "into": "Gymnasium zu Gera"
+  },
+  {
+   "key": "Kloster bei Saalburg",
+   "action": "merge",
+   "into": "Kloster zum heil. Kreuz"
+  },
+  {
+   "key": "Pfarrei",
+   "action": "reclass",
+   "label": "Pfarrei",
+   "class": "concept",
+   "kind": "Einrichtung",
+   "gloss_en": "parish"
+  },
+  {
+   "key": "Realschule",
+   "action": "accept",
+   "label": "Realschule zu Gera",
+   "class": "organisation",
+   "kind": "Schule",
+   "gloss_en": "Realschule at Gera (secondary school)"
+  },
+  {
+   "key": "Stift Cronswitz",
+   "action": "merge",
+   "into": "Kloster Cronswitz"
+  },
+  {
+   "key": "Saline Heinrichshall",
+   "action": "reclass",
+   "label": "Saline Heinrichshall",
+   "class": "place",
+   "kind": "Saline",
+   "gloss_en": "Heinrichshall saltworks",
+   "register_page": "507",
+   "in_principality": true,
+   "note": "Brückner's index: 'Heinrichshall (Pohlitz) 507'."
+  },
+  {
+   "key": "chemischen Fabrik",
+   "action": "accept",
+   "label": "Chemische Fabrik (Heinrichshall)",
+   "class": "organisation",
+   "kind": "Fabrik",
+   "gloss_en": "chemical factory at Heinrichshall",
+   "note": "Next to the Saline Heinrichshall in the parish of Pohlitz (pp. 38, 505, 507); Brückner's index: 'Chemische Fabrik (Pohlitz) 507'.",
+   "register_page": "507"
+  },
+  {
+   "key": "Landtag",
+   "action": "accept",
+   "label": "Landtag",
+   "class": "organisation",
+   "kind": "Landtag",
+   "gloss_en": "Landtag (state parliament of the principality)"
+  },
+  {
+   "key": "deutschen Ritterorden",
+   "action": "merge",
+   "into": "deutschen Orden"
+  },
+  {
+   "key": "Reuß",
+   "action": "merge",
+   "into": "Haus Reuß"
+  },
+  {
+   "key": "St. Johanniskirche",
+   "action": "reclass",
+   "label": "St. Johanniskirche zu Gera",
+   "class": "concept",
+   "kind": "Bauwerk",
+   "gloss_en": "St John's Church, Gera"
+  },
+  {
+   "key": "deutschen Orden zu Schleiz",
+   "action": "merge",
+   "into": "deutsche Haus zu Schleiz"
+  },
+  {
+   "key": "Stadtrath",
+   "action": "accept",
+   "label": "Stadtrath",
+   "class": "organisation",
+   "kind": "Behörde",
+   "gloss_en": "town council",
+   "note": "Generic: the municipal council of a town (Lobenstein pp. 719, 722; subscribers: Gera, Lobenstein)."
+  },
+  {
+   "key": "Brüdergemeinde",
+   "action": "accept",
+   "label": "Brüdergemeinde zu Ebersdorf",
+   "class": "organisation",
+   "kind": "Gemeinde",
+   "gloss_en": "Moravian congregation at Ebersdorf (Herrnhuter Brüdergemeine)",
+   "register_page": "731",
+   "note": "Moravian (Herrnhut) congregation of Ebersdorf. 'Herrnhutern' (p. 381) = the Moravians in general (the educators of Heinrich LIV.)."
+  },
+  {
+   "key": "Bergkirche",
+   "action": "reclass",
+   "label": "Bergkirche zu Schleiz",
+   "class": "concept",
+   "kind": "Bauwerk",
+   "gloss_en": "Bergkirche (Church of St Mary on the hill), Schleiz",
+   "register_page": "579",
+   "note": "Officially 'St. Marien' (p. 582: 'Kirche zu St. Marien, gewöhnlich die Bergkirche genannt')."
+  },
+  {
+   "key": "Klöster",
+   "action": "merge",
+   "into": "Kloster"
+  },
+  {
+   "key": "fürstlichen Kammer",
+   "action": "accept",
+   "label": "Fürstliche Kammer",
+   "class": "organisation",
+   "kind": "Behörde",
+   "gloss_en": "princely chamber (domain administration)"
+  },
+  {
+   "key": "geraer Bank",
+   "action": "accept",
+   "label": "Geraer Bank",
+   "class": "organisation",
+   "kind": "Bank",
+   "gloss_en": "Gera bank (joint-stock, 4 million Thaler capital)",
+   "note": "'Bank' (p. 431) in the list of Gera buildings is this bank."
+  },
+  {
+   "key": "Staatsministeriums",
+   "action": "merge",
+   "into": "Staatsministerium"
+  },
+  {
+   "key": "Gymnasium zu Gera",
+   "action": "accept",
+   "label": "Gymnasium Rutheneum zu Gera",
+   "class": "organisation",
+   "kind": "Schule",
+   "gloss_en": "Gymnasium illustre Rutheneum at Gera (state grammar school)",
+   "note": "Founded 1608 by Heinrich Posthumus as Gymnasium illustre (Rutheneum), a Landesgymnasium (pp. 375, 435). Bare 'Gymnasium' (pp. 431-437, 444) is this school; 'fürstliche Landesschule zu Gera' (p. 305) is taken as the same school."
+  },
+  {
+   "key": "Kloster Volkenrode",
+   "action": "accept",
+   "label": "Kloster Volkenrode",
+   "class": "organisation",
+   "kind": "Kloster",
+   "gloss_en": "Volkenrode (Volkenroda) monastery",
+   "modern": "Kloster Volkenroda"
+  },
+  {
+   "key": "Kloster Waldsachsen",
+   "action": "accept",
+   "label": "Kloster Waldsachsen",
+   "class": "organisation",
+   "kind": "Kloster",
+   "gloss_en": "Waldsachsen convent"
+  },
+  {
+   "key": "Cronswitz",
+   "action": "merge",
+   "into": "Kloster Cronswitz"
+  },
+  {
+   "key": "Rheinbunde",
+   "action": "accept",
+   "label": "Rheinbund",
+   "class": "organisation",
+   "kind": "Staatenbund",
+   "gloss_en": "Confederation of the Rhine"
+  },
+  {
+   "key": "St. Salvatorkirche",
+   "action": "reclass",
+   "label": "St. Salvatorkirche zu Gera",
+   "class": "concept",
+   "kind": "Bauwerk",
+   "gloss_en": "St Saviour's Church, Gera"
+  },
+  {
+   "key": "Kammergut",
+   "action": "reclass",
+   "label": "Kammergut",
+   "class": "concept",
+   "kind": "Gutsform",
+   "gloss_en": "domain estate (Kammergut)",
+   "note": "Generic: estates managed by the princely chamber; named ones are separate place entries."
+  },
+  {
+   "key": "Haus Reuß",
+   "action": "reclass",
+   "label": "Haus Reuß",
+   "class": "person",
+   "kind": "Dynastie",
+   "gloss_en": "House of Reuss",
+   "note": "The ruling house of the principality (Voigte von Weida, Gera and Plauen, later Reuss). 'Reuß' alone (4 of 5 contexts, e.g. p. 362, 577, 767) means the house; 'Reuß-Plauen' (p. 577) is the younger line."
+  },
+  {
+   "key": "Kloster zum heiligen Kreuz",
+   "action": "merge",
+   "into": "Kloster zum heil. Kreuz"
+  },
+  {
+   "key": "Kloster Langheim",
+   "action": "accept",
+   "label": "Kloster Langheim",
+   "class": "organisation",
+   "kind": "Kloster",
+   "gloss_en": "Langheim monastery (Franconia)"
+  },
+  {
+   "key": "Kaltwasserheilanstalt",
+   "action": "accept",
+   "label": "Kaltwasserheilanstalt (Langenberg)",
+   "class": "organisation",
+   "kind": "Anstalt",
+   "gloss_en": "cold-water cure establishment, Langenberg",
+   "register_page": "508",
+   "note": "Founded by Dr. Blau at Langenberg (p. 43); 'Wasserheilanstalt' (p. 510) is the same."
+  },
+  {
+   "key": "Apotheke",
+   "action": "reclass",
+   "label": "Apotheke",
+   "class": "concept",
+   "kind": "Einrichtung",
+   "gloss_en": "pharmacy"
+  },
+  {
+   "key": "Kloster Mildenfurt",
+   "action": "accept",
+   "label": "Kloster Mildenfurt",
+   "class": "organisation",
+   "kind": "Kloster",
+   "gloss_en": "Mildenfurth monastery (Premonstratensian, near Weida)",
+   "modern": "Kloster Mildenfurth",
+   "note": "Founded 1193 by Heinrich of Weida; 'the oldest monastery of the Voigtland' (p. 329)."
+  },
+  {
+   "key": "St. Wolfgangskapelle",
+   "action": "reclass",
+   "label": "St. Wolfgangskapelle zu Schleiz",
+   "class": "concept",
+   "kind": "Bauwerk",
+   "gloss_en": "St Wolfgang's chapel, Schleiz",
+   "register_page": "579"
+  },
+  {
+   "key": "Landrentenbank",
+   "action": "accept",
+   "label": "Landrentenbank",
+   "class": "organisation",
+   "kind": "Bank",
+   "gloss_en": "state land-annuity bank (planned)",
+   "note": "Proposed institution for redeeming land burdens (p. 229)."
+  },
+  {
+   "key": "Tuchfabrik",
+   "action": "reclass",
+   "label": "Tuchfabrik",
+   "class": "concept",
+   "kind": "Betrieb",
+   "gloss_en": "cloth factory"
+  },
+  {
+   "key": "Handelskammer",
+   "action": "accept",
+   "label": "Handelskammer",
+   "class": "organisation",
+   "kind": "Behörde",
+   "gloss_en": "chamber of commerce"
+  },
+  {
+   "key": "Landtage",
+   "action": "merge",
+   "into": "Landtag"
+  },
+  {
+   "key": "Ministerium",
+   "action": "merge",
+   "into": "Staatsministerium"
+  },
+  {
+   "key": "Hauptstaatskasse",
+   "action": "accept",
+   "label": "Hauptstaatskasse",
+   "class": "organisation",
+   "kind": "Behörde",
+   "gloss_en": "central state treasury (Gera, from 1854)"
+  },
+  {
+   "key": "Bezirkssteuereinnahmen",
+   "action": "accept",
+   "label": "Bezirkssteuereinnahme",
+   "class": "organisation",
+   "kind": "Behörde",
+   "gloss_en": "district tax collection office"
+  },
+  {
+   "key": "Kreisgerichte",
+   "action": "accept",
+   "label": "Kreisgericht",
+   "class": "organisation",
+   "kind": "Behörde",
+   "gloss_en": "district court (Kreisgericht)",
+   "note": "Subscribers' list p. 837: the courts at Gera and Schleiz."
+  },
+  {
+   "key": "Consistorium",
+   "action": "merge",
+   "into": "Consistorium zu Gera"
+  },
+  {
+   "key": "Bisthum Zeitz",
+   "action": "merge",
+   "into": "Hochstift Naumburg"
+  },
+  {
+   "key": "Hochstift Naumburg",
+   "action": "accept",
+   "label": "Hochstift Naumburg",
+   "class": "organisation",
+   "kind": "Bistum",
+   "gloss_en": "diocese and Hochstift of Naumburg (Zeitz-Naumburg)",
+   "modern": "Bistum Naumburg (Zeitz-Naumburg)",
+   "note": "Brückner uses Bisthum/Hochstift Zeitz, Naumburg and Zeitz-Naumburg for the one diocese (seat moved from Zeitz to Naumburg); 'Bischof von Naumburg' is the bishop as head of it."
+  },
+  {
+   "key": "Klarenkloster zu Hof",
+   "action": "accept",
+   "label": "Klarenkloster Hof",
+   "class": "organisation",
+   "kind": "Kloster",
+   "gloss_en": "convent of St Clare at Hof"
+  },
+  {
+   "key": "Kloster zum heil. Kreuze",
+   "action": "merge",
+   "into": "Kloster zum heil. Kreuz"
+  },
+  {
+   "key": "Stifte Cronswitz",
+   "action": "merge",
+   "into": "Kloster Cronswitz"
+  },
+  {
+   "key": "Forstei",
+   "action": "accept",
+   "label": "Forstei",
+   "class": "organisation",
+   "kind": "Behörde",
+   "gloss_en": "forestry district (Forstei)",
+   "note": "Generic: the seat of a forestry district, several villages (e.g. pp. 418, 648)."
+  },
+  {
+   "key": "höheren Töchterschule",
+   "action": "accept",
+   "label": "Höhere Töchterschule zu Gera",
+   "class": "organisation",
+   "kind": "Schule",
+   "gloss_en": "higher girls' school at Gera"
+  },
+  {
+   "key": "Waisenhaus",
+   "action": "reclass",
+   "label": "Waisenhaus",
+   "class": "concept",
+   "kind": "Einrichtung",
+   "gloss_en": "orphanage"
+  },
+  {
+   "key": "Consistorium zu Altenburg",
+   "action": "accept",
+   "label": "Consistorium zu Altenburg",
+   "class": "organisation",
+   "kind": "Behörde",
+   "gloss_en": "consistory at Altenburg (Saxe-Altenburg)"
+  },
+  {
+   "key": "Kammergute",
+   "action": "merge",
+   "into": "Kammergut"
+  },
+  {
+   "key": "Consistorium zu Plauen",
+   "action": "accept",
+   "label": "Consistorium zu Plauen",
+   "class": "organisation",
+   "kind": "Behörde",
+   "gloss_en": "consistory at Plauen"
+  },
+  {
+   "key": "deutschen Ordens",
+   "action": "merge",
+   "into": "deutschen Orden"
+  },
+  {
+   "key": "preußischen Generalstabe",
+   "action": "accept",
+   "label": "Preußischer Generalstab",
+   "class": "organisation",
+   "kind": "Behörde",
+   "gloss_en": "Prussian General Staff"
+  },
+  {
+   "key": "Bisthum Naumburg",
+   "action": "merge",
+   "into": "Hochstift Naumburg"
+  },
+  {
+   "key": "Hochstift Bamberg",
+   "action": "accept",
+   "label": "Hochstift Bamberg",
+   "class": "organisation",
+   "kind": "Bistum",
+   "gloss_en": "diocese and Hochstift of Bamberg",
+   "modern": "Bistum Bamberg"
+  },
+  {
+   "key": "lutherischen Kirche",
+   "action": "accept",
+   "label": "Lutherische Kirche",
+   "class": "organisation",
+   "kind": "Kirche",
+   "gloss_en": "Lutheran Church"
+  },
+  {
+   "key": "lobensteiner Intelligenzblatte",
+   "action": "merge",
+   "into": "lobensteiner Intelligenzblatt"
+  },
+  {
+   "key": "Stifte zu Quedlinburg",
+   "action": "merge",
+   "into": "Stift Quedlinburg"
+  },
+  {
+   "key": "Petrikirche",
+   "action": "reclass",
+   "label": "Petrikirche (Erfurt)",
+   "class": "concept",
+   "kind": "Bauwerk",
+   "gloss_en": "Petrikirche, Erfurt",
+   "note": "Only as a comparison for the tower of the Bergkirche (p. 133)."
+  },
+  {
+   "key": "Marienkirche",
+   "action": "reclass",
+   "label": "Marienkirche",
+   "class": "concept",
+   "kind": "Bauwerk",
+   "gloss_en": "Church of St Mary",
+   "note": "Homonyms: the Marienkirche at Nordhausen (p. 133, architectural comparison) and the Marienkirche of Schleiz, i.e. the Bergkirche (p. 582)."
+  },
+  {
+   "key": "katholische Kirche",
+   "action": "accept",
+   "label": "Katholische Kirche",
+   "class": "organisation",
+   "kind": "Kirche",
+   "gloss_en": "Catholic Church"
+  },
+  {
+   "key": "norddeutschen Bund",
+   "action": "accept",
+   "label": "Norddeutscher Bund",
+   "class": "organisation",
+   "kind": "Staatenbund",
+   "gloss_en": "North German Confederation"
+  },
+  {
+   "key": "lobensteiner Intelligenzblatt",
+   "action": "reclass",
+   "label": "Lobensteiner Intelligenzblatt",
+   "class": "concept",
+   "kind": "Zeitung",
+   "gloss_en": "Lobenstein 'Intelligenzblatt' (local newspaper)",
+   "note": "Local newspaper of Lobenstein, cited as a source for 1785, 1794-1804 (pp. 112, 231, 746)."
+  },
+  {
+   "key": "Christiansglück",
+   "action": "reclass",
+   "label": "Christiansglück",
+   "class": "place",
+   "kind": "Werk",
+   "gloss_en": "Christiansglück (alum and vitriol works / ironworks)",
+   "register_page": "727",
+   "in_principality": true,
+   "note": "Brückner's index: 'Christiansglück (Saaldorf) 727'; locally 'Silberknie' or 'Vitriolwerk'."
+  },
+  {
+   "key": "Zollvereins",
+   "action": "accept",
+   "label": "Zollverein",
+   "class": "organisation",
+   "kind": "Zollverein",
+   "gloss_en": "German Customs Union (Zollverein)"
+  },
+  {
+   "key": "Gewerbebank in Gera",
+   "action": "accept",
+   "label": "Gewerbebank in Gera",
+   "class": "organisation",
+   "kind": "Bank",
+   "gloss_en": "trades bank (Schulze-Delitzsch cooperative), Gera"
+  },
+  {
+   "key": "norddeutschen Bunde",
+   "action": "merge",
+   "into": "norddeutschen Bund"
+  },
+  {
+   "key": "Kirchen",
+   "action": "merge",
+   "into": "Kirche"
+  },
+  {
+   "key": "Landtags",
+   "action": "merge",
+   "into": "Landtag"
+  },
+  {
+   "key": "Appellationsgerichts",
+   "action": "merge",
+   "into": "Appellationsgericht zu Eisenach"
+  },
+  {
+   "key": "Steuerrecepturen",
+   "action": "accept",
+   "label": "Steuerreceptur",
+   "class": "organisation",
+   "kind": "Behörde",
+   "gloss_en": "tax collection point"
+  },
+  {
+   "key": "Justizämter",
+   "action": "accept",
+   "label": "Justizamt",
+   "class": "organisation",
+   "kind": "Behörde",
+   "gloss_en": "justice office (lower court)",
+   "note": "Local court of first instance; in the subscribers' list (p. 837) the offices at Gera (I and II), Schleiz (II) and Hohenleuben."
+  },
+  {
+   "key": "Appellationsgericht",
+   "action": "merge",
+   "into": "Appellationsgericht zu Eisenach"
+  },
+  {
+   "key": "Oberappellationsgericht",
+   "action": "merge",
+   "into": "Oberappellationsgericht zu Jena"
+  },
+  {
+   "key": "Wanderschulen",
+   "action": "reclass",
+   "label": "Wanderschule",
+   "class": "concept",
+   "kind": "Schulform",
+   "gloss_en": "itinerant school",
+   "note": "The 'sog. Wanderschulen' of the 17th century (p. 296); 'eigene Wanderschule' (p. 677)."
+  },
+  {
+   "key": "Taubstummenanstalt",
+   "action": "accept",
+   "label": "Taubstummenanstalt (Gera)",
+   "class": "organisation",
+   "kind": "Schule",
+   "gloss_en": "institution for the deaf-mute, Gera"
+  },
+  {
+   "key": "Agnesschule",
+   "action": "accept",
+   "label": "Agnesschule (Untermhaus)",
+   "class": "organisation",
+   "kind": "Schule",
+   "gloss_en": "Agnesschule (infant school and training for maids), Untermhaus",
+   "note": "Founded 10 Nov. 1869 by the reigning prince and princess as a Kleinkinderbewahranstalt, linked with a training school for female servants (p. 422)."
+  },
+  {
+   "key": "magdeburger Landfeuersocietät",
+   "action": "accept",
+   "label": "Magdeburger Landfeuersocietät",
+   "class": "organisation",
+   "kind": "Versicherung",
+   "gloss_en": "Magdeburg rural fire insurance society",
+   "note": "'magdeburger Feuerversicherungsanstalt' (p. 379) is taken as the same institution. Subscriber: its general direction at Altenhausen (p. 836)."
+  },
+  {
+   "key": "Universität Leipzig",
+   "action": "accept",
+   "label": "Universität Leipzig",
+   "class": "organisation",
+   "kind": "Hochschule",
+   "gloss_en": "University of Leipzig"
+  },
+  {
+   "key": "Stift Quedlinburg",
+   "action": "accept",
+   "label": "Stift Quedlinburg",
+   "class": "organisation",
+   "kind": "Stift",
+   "gloss_en": "Quedlinburg abbey (imperial convent)",
+   "note": "Overlord of the Gera area from 999 (p. 320). 'Aebtissin von Quedlinburg' (p. 278, mint at Gera) is the abbess as head of the Stift."
+  },
+  {
+   "key": "Hochstifte Naumburg",
+   "action": "merge",
+   "into": "Hochstift Naumburg"
+  },
+  {
+   "key": "deutsche Orden",
+   "action": "merge",
+   "into": "deutschen Orden"
+  },
+  {
+   "key": "Marienkloster zu Altenburg",
+   "action": "accept",
+   "label": "Marienkloster Altenburg",
+   "class": "organisation",
+   "kind": "Kloster",
+   "gloss_en": "St Mary's monastery at Altenburg",
+   "note": "'Altenburg' (p. 354, 'Klöstern Cronswitz, Lausnitz und Altenburg') and 'altenburger Kloster' (p. 334) are taken as the same Altenburg monastery; the identification is probable, not certain."
+  },
+  {
+   "key": "Bisthum Bamberg",
+   "action": "merge",
+   "into": "Hochstift Bamberg"
+  },
+  {
+   "key": "deutschen Ritterordens",
+   "action": "merge",
+   "into": "deutschen Orden"
+  },
+  {
+   "key": "deutschen Bunde",
+   "action": "accept",
+   "label": "Deutscher Bund",
+   "class": "organisation",
+   "kind": "Staatenbund",
+   "gloss_en": "German Confederation"
+  },
+  {
+   "key": "Stiftsvoigtei Gera",
+   "action": "reclass",
+   "label": "Stiftsvoigtei Gera",
+   "class": "place",
+   "kind": "Herrschaft",
+   "gloss_en": "Stiftsvoigtei Gera (advocacy of Quedlinburg abbey)",
+   "in_principality": true,
+   "register_page": "428"
+  },
+  {
+   "key": "Stifte Quedlinburg",
+   "action": "merge",
+   "into": "Stift Quedlinburg"
+  },
+  {
+   "key": "Spinnfabrik",
+   "action": "reclass",
+   "label": "Spinnfabrik",
+   "class": "concept",
+   "kind": "Betrieb",
+   "gloss_en": "spinning mill"
+  },
+  {
+   "key": "Rentamt",
+   "action": "accept",
+   "label": "Rentamt",
+   "class": "organisation",
+   "kind": "Behörde",
+   "gloss_en": "revenue office"
+  },
+  {
+   "key": "Porzellanfabrik",
+   "action": "reclass",
+   "label": "Porzellanfabrik",
+   "class": "concept",
+   "kind": "Betrieb",
+   "gloss_en": "porcelain factory"
+  },
+  {
+   "key": "St. Trinitatiskirche",
+   "action": "merge",
+   "into": "Trinitatiskirche zu Gera"
+  },
+  {
+   "key": "Superintendentur",
+   "action": "reclass",
+   "label": "Superintendentur",
+   "class": "concept",
+   "kind": "Einrichtung",
+   "gloss_en": "superintendency (church district and its seat)"
+  },
+  {
+   "key": "Bürgerschulen",
+   "action": "reclass",
+   "label": "Bürgerschule",
+   "class": "concept",
+   "kind": "Schulform",
+   "gloss_en": "municipal school (Bürgerschule)"
+  },
+  {
+   "key": "Sonntagszeichenschule",
+   "action": "accept",
+   "label": "Sonntagszeichenschule (Gera)",
+   "class": "organisation",
+   "kind": "Schule",
+   "gloss_en": "Sunday drawing school, Gera"
+  },
+  {
+   "key": "Fortbildungsschule",
+   "action": "accept",
+   "label": "Fortbildungsschule (Gera)",
+   "class": "organisation",
+   "kind": "Schule",
+   "gloss_en": "continuation school, Gera"
+  },
+  {
+   "key": "Webschule",
+   "action": "accept",
+   "label": "Webschule (Gera)",
+   "class": "organisation",
+   "kind": "Schule",
+   "gloss_en": "weaving school, Gera"
+  },
+  {
+   "key": "land- und forstwirthschaftlicher Verein",
+   "action": "accept",
+   "label": "Land- und forstwirthschaftlicher Verein (Gera)",
+   "class": "organisation",
+   "kind": "Verein",
+   "gloss_en": "agricultural and forestry society, Gera"
+  },
+  {
+   "key": "Schützengesellschaft",
+   "action": "accept",
+   "label": "Schützengesellschaft (Gera)",
+   "class": "organisation",
+   "kind": "Verein",
+   "gloss_en": "rifle society, Gera"
+  },
+  {
+   "key": "Kloster zu Lausnitz",
+   "action": "merge",
+   "into": "Kloster Lausnitz"
+  },
+  {
+   "key": "Reuß=Köstritz",
+   "action": "reclass",
+   "label": "Reuß-Köstritz",
+   "class": "person",
+   "kind": "Dynastie",
+   "gloss_en": "Reuss-Köstritz (apanage line)",
+   "note": "Paragiat (apanage) side line resident at Köstritz; 'Köstritzer Paragiatherrschaft' is the lordship held by it."
+  },
+  {
+   "key": "Kloster zu Bosau",
+   "action": "merge",
+   "into": "Kloster Bosau"
+  },
+  {
+   "key": "Bischof von Naumburg",
+   "action": "merge",
+   "into": "Hochstift Naumburg"
+  },
+  {
+   "key": "Kirche zu Roben",
+   "action": "reclass",
+   "label": "Kirche zu Roben",
+   "class": "concept",
+   "kind": "Bauwerk",
+   "gloss_en": "church of Roben",
+   "register_page": "515"
+  },
+  {
+   "key": "Haus Lobdaburg",
+   "action": "reclass",
+   "label": "Haus Lobdaburg",
+   "class": "person",
+   "kind": "Dynastie",
+   "gloss_en": "House of Lobdaburg"
+  },
+  {
+   "key": "schleizer Orden",
+   "action": "merge",
+   "into": "deutsche Haus zu Schleiz"
+  },
+  {
+   "key": "Rutheneum",
+   "action": "accept",
+   "label": "Rutheneum zu Schleiz",
+   "class": "organisation",
+   "kind": "Schule",
+   "gloss_en": "Rutheneum at Schleiz (grammar school)",
+   "register_page": "579",
+   "note": "Not the Gera school of the same name: the Schleiz Rutheneum, municipal and reorganised 1869 on Prussian lines (p. 586)."
+  },
+  {
+   "key": "deutsche Haus zu Schleiz",
+   "action": "accept",
+   "label": "Deutsches Haus zu Schleiz",
+   "class": "organisation",
+   "kind": "Kommende",
+   "gloss_en": "Teutonic Order commandery (Deutsches Haus) at Schleiz",
+   "register_page": "579",
+   "note": "Commandery of the Teutonic Order at Schleiz; lord of fiefs and church patronage in many villages. After the Reformation its property was administered separately as 'Ordensvermögen' for churches, schools and the poor (p. 588)."
+  },
+  {
+   "key": "voigtländischen alterthumsforschenden Vereins",
+   "action": "merge",
+   "into": "voigtländische alterthumsforschende Verein"
+  },
+  {
+   "key": "voigtländische alterthumsforschende Verein",
+   "action": "accept",
+   "label": "Voigtländischer alterthumsforschender Verein zu Hohenleuben",
+   "class": "organisation",
+   "kind": "Verein",
+   "gloss_en": "Voigtland Antiquarian Society, Hohenleuben",
+   "register_page": "633",
+   "note": "Runs the museum/collections in Schloss Hohenleuben; Brückner also says 'historischer Verein'."
+  },
+  {
+   "key": "Sparkassenverwaltung",
+   "action": "merge",
+   "into": "schleizer Sparkasse"
+  },
+  {
+   "key": "Postexpedition",
+   "action": "merge",
+   "into": "Post"
+  },
+  {
+   "key": "Gesangverein",
+   "action": "accept",
+   "label": "Gesangverein",
+   "class": "organisation",
+   "kind": "Verein",
+   "gloss_en": "choral society",
+   "note": "Generic: choral societies of various places (e.g. Hohenleuben p. 639, p. 687)."
+  },
+  {
+   "key": "Consistorium zu Greiz",
+   "action": "accept",
+   "label": "Consistorium zu Greiz",
+   "class": "organisation",
+   "kind": "Behörde",
+   "gloss_en": "consistory at Greiz"
+  },
+  {
+   "key": "Ortskirche",
+   "action": "reclass",
+   "label": "Ortskirche",
+   "class": "concept",
+   "kind": "Bauwerk",
+   "gloss_en": "village church",
+   "note": "Generic: the church of the village being described."
+  },
+  {
+   "key": "Rittergütern Schilbach",
+   "action": "reclass",
+   "label": "Rittergut Schilbach",
+   "class": "place",
+   "kind": "Rittergut",
+   "gloss_en": "manor of Schilbach",
+   "register_page": "691",
+   "in_principality": true
+  },
+  {
+   "key": "Schützenvereine",
+   "action": "accept",
+   "label": "Schützenverein",
+   "class": "organisation",
+   "kind": "Verein",
+   "gloss_en": "rifle society",
+   "note": "Generic: rifle societies of various small towns (pp. 687, 736)."
+  },
+  {
+   "key": "Consistorium zu Gera",
+   "action": "accept",
+   "label": "Consistorium zu Gera",
+   "class": "organisation",
+   "kind": "Behörde",
+   "gloss_en": "consistory at Gera (1604-1863)",
+   "note": "Common consistory of the Reuss lands, 1604-1863 (p. 290, 713). Bare 'Consistorium' (pp. 290, 425, 434) and 'das reußische Consistorium' (p. 291) are this one."
+  },
+  {
+   "key": "Klosteramt",
+   "action": "accept",
+   "label": "Klosteramt (Lobenstein)",
+   "class": "organisation",
+   "kind": "Behörde",
+   "gloss_en": "monastery bailiwick (court for the estates of the Saalburg monastery in Lobenstein)",
+   "note": "Court/office for the revenues which the Kloster zum heil. Kreuz bei Saalburg held at Lobenstein (p. 721)."
+  },
+  {
+   "key": "Kammergute Galenberg",
+   "action": "reclass",
+   "label": "Kammergut Galenberg",
+   "class": "place",
+   "kind": "Kammergut",
+   "gloss_en": "domain estate of Galenberg",
+   "register_page": "723",
+   "in_principality": true
+  },
+  {
+   "key": "Lederfabrik",
+   "action": "reclass",
+   "label": "Lederfabrik",
+   "class": "concept",
+   "kind": "Betrieb",
+   "gloss_en": "leather factory"
+  },
+  {
+   "key": "Justizamt II., fürstl",
+   "action": "merge",
+   "into": "Justizämter"
+  },
+  {
+   "key": "Kreisgericht, fürstl",
+   "action": "merge",
+   "into": "Kreisgerichte"
+  },
+  {
+   "key": "Landrathsamt, fürstl",
+   "action": "accept",
+   "label": "Landrathsamt",
+   "class": "organisation",
+   "kind": "Behörde",
+   "gloss_en": "district office (Landrathsamt)",
+   "note": "Administrative district office of the principality; in the subscribers' list (p. 837) the offices at Gera and Ebersdorf."
+  },
+  {
+   "key": "Kanitz'sche Buchhandlung",
+   "action": "accept",
+   "label": "Kanitz'sche Buchhandlung",
+   "class": "organisation",
+   "kind": "Firma",
+   "gloss_en": "Kanitz bookshop"
+  },
+  {
+   "key": "Herzogthums Nassau",
+   "action": "reclass",
+   "label": "Herzogthum Nassau",
+   "class": "place",
+   "kind": "Land/Staat",
+   "gloss_en": "Duchy of Nassau",
+   "note": "Mentioned p. 3 only as a size comparison."
+  },
+  {
+   "key": "Fürstenthum Reuß jüngere Linie",
+   "action": "reclass",
+   "label": "Fürstenthum Reuß jüngere Linie",
+   "class": "place",
+   "kind": "Land/Staat",
+   "gloss_en": "Principality of Reuss (younger line)",
+   "in_principality": true,
+   "note": "Brückner's subject; 'Fürstenthum(s)' alone is the same state."
+  },
+  {
+   "key": "Fürstenthum Reuß ältere Linie",
+   "action": "reclass",
+   "label": "Fürstenthum Reuß ältere Linie",
+   "class": "place",
+   "kind": "Land/Staat",
+   "gloss_en": "Principality of Reuss (older line)"
+  },
+  {
+   "key": "Steuerdirectoriums",
+   "action": "merge",
+   "into": "Steuerdirectorium"
+  },
+  {
+   "key": "Catasterbureau",
+   "action": "accept",
+   "label": "Catasterbureau",
+   "class": "organisation",
+   "kind": "Behörde",
+   "gloss_en": "cadastral office (Gera)",
+   "note": "'Kanzleien' (p. 276) are the two chanceries Rechnungs- und Katasterbureau."
+  },
+  {
+   "key": "thüringer Eisenbahn",
+   "action": "merge",
+   "into": "thüringer Eisenbahngesellschaft"
+  },
+  {
+   "key": "Fürstenthums",
+   "action": "merge",
+   "into": "Fürstenthum Reuß jüngere Linie"
+  },
+  {
+   "key": "Michaelskloster zu Bamberg",
+   "action": "accept",
+   "label": "Michaelskloster Bamberg",
+   "class": "organisation",
+   "kind": "Kloster",
+   "gloss_en": "St Michael's monastery, Bamberg",
+   "modern": "Kloster Michelsberg, Bamberg"
+  },
+  {
+   "key": "saalfelder Benediktinerstift",
+   "action": "merge",
+   "into": "Abtei zu Saalfeld"
+  },
+  {
+   "key": "Pflege Hirschberg",
+   "action": "reclass",
+   "label": "Pflege Hirschberg",
+   "class": "place",
+   "kind": "Herrschaft",
+   "gloss_en": "Pflege (bailiwick) of Hirschberg",
+   "in_principality": true,
+   "register_page": "809"
+  },
+  {
+   "key": "bamberger Bisthum",
+   "action": "merge",
+   "into": "Hochstift Bamberg"
+  },
+  {
+   "key": "Diaconat Kronach",
+   "action": "accept",
+   "label": "Diaconat Kronach",
+   "class": "organisation",
+   "kind": "Kirchenbezirk",
+   "gloss_en": "deaconate of Kronach (Bamberg church district)"
+  },
+  {
+   "key": "deutsche Ordenshaus",
+   "action": "merge",
+   "into": "deutschen Orden"
+  },
+  {
+   "key": "Kloster heiligen Kreuz",
+   "action": "merge",
+   "into": "Kloster zum heil. Kreuz"
+  },
+  {
+   "key": "chemische Fabrik",
+   "action": "merge",
+   "into": "chemischen Fabrik"
+  },
+  {
+   "key": "schleizer Verwaltungsamt",
+   "action": "accept",
+   "label": "Verwaltungsamt Schleiz",
+   "class": "organisation",
+   "kind": "Behörde",
+   "gloss_en": "administrative office (Verwaltungsamt) Schleiz"
+  },
+  {
+   "key": "Gesellschaft von Freunden der Naturwissenschaft in Gera und Schleiz",
+   "action": "merge",
+   "into": "Gesellschaft von Freunden der Naturwissenschaften"
+  },
+  {
+   "key": "städtischen Krankenhauses",
+   "action": "merge",
+   "into": "Krankenhaus"
+  },
+  {
+   "key": "naturwissenschaftlichen Verein in Schleiz",
+   "action": "accept",
+   "label": "Naturwissenschaftlicher Verein in Schleiz",
+   "class": "organisation",
+   "kind": "Verein",
+   "gloss_en": "Natural Science Society, Schleiz",
+   "note": "'Verein, naturwissenschaftl.' = subscriber at Schleiz (p. 839)."
+  },
+  {
+   "key": "fürstlichen Sammlung inländischer Forstproducte",
+   "action": "accept",
+   "label": "Fürstliche Sammlung inländischer Forstproducte",
+   "class": "organisation",
+   "kind": "Sammlung",
+   "gloss_en": "princely collection of native forest products"
+  },
+  {
+   "key": "Gesellschaft von Freunden der Naturwissenschaft",
+   "action": "merge",
+   "into": "Gesellschaft von Freunden der Naturwissenschaften"
+  },
+  {
+   "key": "Gesellschaft von Naturfreunden",
+   "action": "merge",
+   "into": "Gesellschaft von Freunden der Naturwissenschaften"
+  },
+  {
+   "key": "Slaven",
+   "action": "reclass",
+   "label": "Slaven",
+   "class": "concept",
+   "kind": "Volk",
+   "gloss_en": "Slavs",
+   "note": "Brückner's term for the Slavic (Sorbian) settlers of the 6th/7th centuries (p. 122)."
+  },
+  {
+   "key": "Brüdergemeinde zu Ebersdorf",
+   "action": "merge",
+   "into": "Brüdergemeinde"
+  },
+  {
+   "key": "Jagdausschuß",
+   "action": "accept",
+   "label": "Jagdausschuß",
+   "class": "organisation",
+   "kind": "Gemeindeorgan",
+   "gloss_en": "hunting committee (municipal)"
+  },
+  {
+   "key": "Schulvorstand",
+   "action": "accept",
+   "label": "Schulvorstand",
+   "class": "organisation",
+   "kind": "Gemeindeorgan",
+   "gloss_en": "school board (municipal)"
+  },
+  {
+   "key": "deutsche Ritterorden",
+   "action": "merge",
+   "into": "deutschen Orden"
+  },
+  {
+   "key": "Kirche zu Untermhaus",
+   "action": "reclass",
+   "label": "Kirche zu Untermhaus",
+   "class": "concept",
+   "kind": "Bauwerk",
+   "gloss_en": "church of Untermhaus",
+   "register_page": "420"
+  },
+  {
+   "key": "Kirche in Langenberg",
+   "action": "reclass",
+   "label": "Kirche in Langenberg",
+   "class": "concept",
+   "kind": "Bauwerk",
+   "gloss_en": "church of Langenberg",
+   "register_page": "508"
+  },
+  {
+   "key": "Kirche zu Hirschberg",
+   "action": "reclass",
+   "label": "Kirche zu Hirschberg",
+   "class": "concept",
+   "kind": "Bauwerk",
+   "gloss_en": "church of Hirschberg",
+   "register_page": "809"
+  },
+  {
+   "key": "Trinitatiskirche zu Gera",
+   "action": "reclass",
+   "label": "Trinitatiskirche zu Gera",
+   "class": "concept",
+   "kind": "Bauwerk",
+   "gloss_en": "Trinity Church, Gera",
+   "note": "Also called Friedhofskirche, built 1613 at the Gottesacker (p. 432)."
+  },
+  {
+   "key": "Trinitatiskirche",
+   "action": "merge",
+   "into": "Trinitatiskirche zu Gera"
+  },
+  {
+   "key": "Stift zum heiligen Kreuz",
+   "action": "merge",
+   "into": "Kloster zum heil. Kreuz"
+  },
+  {
+   "key": "Hag’lvorsicherg’n",
+   "action": "reject",
+   "reason": "dialect text (spoken line), not an institution"
+  },
+  {
+   "key": "Krankenhausstation",
+   "action": "reclass",
+   "label": "Krankenhausstation",
+   "class": "concept",
+   "kind": "Einrichtung",
+   "gloss_en": "hospital ward",
+   "note": "Hohenleuben (p. 169)."
+  },
+  {
+   "key": "Apotheken",
+   "action": "merge",
+   "into": "Apotheke"
+  },
+  {
+   "key": "Fürstenthum",
+   "action": "merge",
+   "into": "Fürstenthum Reuß jüngere Linie"
+  },
+  {
+   "key": "Staat",
+   "action": "reclass",
+   "label": "Staat",
+   "class": "concept",
+   "kind": "Staatswesen",
+   "gloss_en": "state",
+   "note": "Generic: 'der Staat' (p. 177)."
+  },
+  {
+   "key": "Consistoriums",
+   "action": "merge",
+   "into": "Consistorium zu Gera"
+  },
+  {
+   "key": "Pfarramte",
+   "action": "merge",
+   "into": "Pfarrei"
+  },
+  {
+   "key": "Forstamt",
+   "action": "accept",
+   "label": "Forstamt",
+   "class": "organisation",
+   "kind": "Behörde",
+   "gloss_en": "forestry office"
+  },
+  {
+   "key": "Klöstern",
+   "action": "merge",
+   "into": "Kloster"
+  },
+  {
+   "key": "Gärtnerverein unter dem Namen Flora",
+   "action": "accept",
+   "label": "Gärtnerverein Flora (Gera)",
+   "class": "organisation",
+   "kind": "Verein",
+   "gloss_en": "gardeners' society 'Flora', Gera"
+  },
+  {
+   "key": "Bezirksausschüssen",
+   "action": "accept",
+   "label": "Bezirksausschuss",
+   "class": "organisation",
+   "kind": "Behörde",
+   "gloss_en": "district committee"
+  },
+  {
+   "key": "eisenacher Forstlehranstalt",
+   "action": "accept",
+   "label": "Forstlehranstalt zu Eisenach",
+   "class": "organisation",
+   "kind": "Schule",
+   "gloss_en": "forestry school at Eisenach"
+  },
+  {
+   "key": "Königin-Marienhütte",
+   "action": "accept",
+   "label": "Königin-Marienhütte (Cainsdorf bei Zwickau)",
+   "class": "organisation",
+   "kind": "Fabrik",
+   "gloss_en": "Königin-Marienhütte ironworks near Zwickau"
+  },
+  {
+   "key": "Actien-Stahlgussfabrik",
+   "action": "accept",
+   "label": "Actien-Stahlgussfabrik (Saale)",
+   "class": "organisation",
+   "kind": "Fabrik",
+   "gloss_en": "joint-stock cast-steel factory on the Saale (projected 1867)"
+  },
+  {
+   "key": "güldenen Hirsch",
+   "action": "accept",
+   "label": "Alaun- und Vitriolwerk „güldener Hirsch“",
+   "class": "organisation",
+   "kind": "Bergwerk",
+   "gloss_en": "alum and vitriol works 'güldener Hirsch'",
+   "note": "Worked 1683-1716 and (as 'Hoff auf Gott') 1779-1804 (p. 245)."
+  },
+  {
+   "key": "Hoff auf Gott",
+   "action": "merge",
+   "into": "güldenen Hirsch"
+  },
+  {
+   "key": "Wollengarnspinnerei",
+   "action": "reclass",
+   "label": "Wollgarnspinnerei",
+   "class": "concept",
+   "kind": "Betrieb",
+   "gloss_en": "woollen yarn spinning mill"
+  },
+  {
+   "key": "Eisenwerksgesellschaft zu Hüttensteinach",
+   "action": "accept",
+   "label": "Eisenwerksgesellschaft zu Hüttensteinach",
+   "class": "organisation",
+   "kind": "Firma",
+   "gloss_en": "ironworks company of Hüttensteinach"
+  },
+  {
+   "key": "Salpeter- und Pottaschensiedereien",
+   "action": "reclass",
+   "label": "Salpeter- und Pottaschensiederei",
+   "class": "concept",
+   "kind": "Betrieb",
+   "gloss_en": "saltpetre and potash boileries"
+  },
+  {
+   "key": "Chem. Fabrik",
+   "action": "merge",
+   "into": "chemischen Fabrik"
+  },
+  {
+   "key": "Posten",
+   "action": "merge",
+   "into": "Post"
+  },
+  {
+   "key": "thüringischen Zollvereins",
+   "action": "accept",
+   "label": "Thüringischer Zollverein",
+   "class": "organisation",
+   "kind": "Zollverein",
+   "gloss_en": "Thuringian customs union",
+   "note": "'Hauptsteueramt des thüringischen Zollvereins' (p. 261)."
+  },
+  {
+   "key": "Vorschussverein in Schleiz",
+   "action": "accept",
+   "label": "Vorschussverein in Schleiz",
+   "class": "organisation",
+   "kind": "Bank",
+   "gloss_en": "credit cooperative (Vorschussverein), Schleiz"
+  },
+  {
+   "key": "sächsisch-bayerische Staatseisenbahn",
+   "action": "accept",
+   "label": "Sächsisch-Bayerische Staatseisenbahn",
+   "class": "organisation",
+   "kind": "Eisenbahngesellschaft",
+   "gloss_en": "Saxon-Bavarian State Railway"
+  },
+  {
+   "key": "thüringer Eisenbahngesellschaft",
+   "action": "accept",
+   "label": "Thüringische Eisenbahn-Gesellschaft",
+   "class": "organisation",
+   "kind": "Eisenbahngesellschaft",
+   "gloss_en": "Thuringian Railway Company",
+   "note": "Built the Weißenfels-Gera line (opened 19 March 1859, p. 434)."
+  },
+  {
+   "key": "Bundestage",
+   "action": "accept",
+   "label": "Bundestag des Deutschen Bundes",
+   "class": "organisation",
+   "kind": "Staatenbund",
+   "gloss_en": "Federal Diet of the German Confederation",
+   "note": "'der ehemalige Bundestag' (p. 264)."
+  },
+  {
+   "key": "Bundesrathe",
+   "action": "accept",
+   "label": "Bundesrath des Norddeutschen Bundes",
+   "class": "organisation",
+   "kind": "Staatenbund",
+   "gloss_en": "Federal Council of the North German Confederation"
+  },
+  {
+   "key": "Reichstage",
+   "action": "accept",
+   "label": "Reichstag des Norddeutschen Bundes",
+   "class": "organisation",
+   "kind": "Staatenbund",
+   "gloss_en": "Reichstag of the North German Confederation"
+  },
+  {
+   "key": "Landtagen",
+   "action": "merge",
+   "into": "Landtag"
+  },
+  {
+   "key": "Competenzgerichtshof",
+   "action": "accept",
+   "label": "Competenzgerichtshof",
+   "class": "organisation",
+   "kind": "Behörde",
+   "gloss_en": "court of competence (conflicts between courts and administration)"
+  },
+  {
+   "key": "Pensionsanstalt",
+   "action": "accept",
+   "label": "Pensionsanstalt",
+   "class": "organisation",
+   "kind": "Anstalt",
+   "gloss_en": "pension fund for civil servants (since 1847)"
+  },
+  {
+   "key": "Landkrankenhauses zu Jena",
+   "action": "accept",
+   "label": "Landkrankenhaus zu Jena",
+   "class": "organisation",
+   "kind": "Anstalt",
+   "gloss_en": "state hospital at Jena",
+   "note": "'Direction des großherzoglichen Landkrankenhauses zu Jena' (p. 274)."
+  },
+  {
+   "key": "Hebammeninstitute zu Leipzig",
+   "action": "accept",
+   "label": "Hebammeninstitut zu Leipzig",
+   "class": "organisation",
+   "kind": "Schule",
+   "gloss_en": "midwifery institute at Leipzig"
+  },
+  {
+   "key": "Bergamte in Lobenstein",
+   "action": "accept",
+   "label": "Bergamt zu Lobenstein",
+   "class": "organisation",
+   "kind": "Behörde",
+   "gloss_en": "mining office at Lobenstein"
+  },
+  {
+   "key": "Landbaumeister",
+   "action": "reject",
+   "reason": "title of an official (person), not an institution"
+  },
+  {
+   "key": "Kanzleien",
+   "action": "merge",
+   "into": "Catasterbureau"
+  },
+  {
+   "key": "Rechnungs- und das Katasterbureau",
+   "action": "merge",
+   "into": "Catasterbureau"
+  },
+  {
+   "key": "Generalinspection",
+   "action": "accept",
+   "label": "Generalinspection zu Erfurt",
+   "class": "organisation",
+   "kind": "Behörde",
+   "gloss_en": "general inspectorate at Erfurt"
+  },
+  {
+   "key": "Landrathsämter",
+   "action": "merge",
+   "into": "Landrathsamt, fürstl"
+  },
+  {
+   "key": "Steuerämtern",
+   "action": "merge",
+   "into": "Steuerämter"
+  },
+  {
+   "key": "Salzsteueramte",
+   "action": "accept",
+   "label": "Salzsteueramt (Heinrichshall)",
+   "class": "organisation",
+   "kind": "Behörde",
+   "gloss_en": "salt tax office at Heinrichshall"
+  },
+  {
+   "key": "Steuerämter",
+   "action": "accept",
+   "label": "Steueramt",
+   "class": "organisation",
+   "kind": "Behörde",
+   "gloss_en": "tax office",
+   "note": "Four: Gera, Schleiz, Lobenstein and Hirschberg (p. 277)."
+  },
+  {
+   "key": "Einschätzungskommission",
+   "action": "accept",
+   "label": "Einschätzungskommission",
+   "class": "organisation",
+   "kind": "Behörde",
+   "gloss_en": "tax assessment commission"
+  },
+  {
+   "key": "Kreisausschüsse",
+   "action": "accept",
+   "label": "Kreisausschuss",
+   "class": "organisation",
+   "kind": "Behörde",
+   "gloss_en": "district committee (appeal body in tax matters)"
+  },
+  {
+   "key": "Catasterbureaus",
+   "action": "merge",
+   "into": "Catasterbureau"
+  },
+  {
+   "key": "Bezirkssteuereinnahmern",
+   "action": "merge",
+   "into": "Bezirkssteuereinnahmen"
+  },
+  {
+   "key": "königl. preußischen Münzstätte zu Berlin",
+   "action": "accept",
+   "label": "Königlich preußische Münzstätte zu Berlin",
+   "class": "organisation",
+   "kind": "Behörde",
+   "gloss_en": "Royal Prussian mint at Berlin"
+  },
+  {
+   "key": "Aebtissin von Quedlinburg",
+   "action": "merge",
+   "into": "Stift Quedlinburg"
+  },
+  {
+   "key": "Appellationsgericht zu Eisenach",
+   "action": "accept",
+   "label": "Appellationsgericht zu Eisenach",
+   "class": "organisation",
+   "kind": "Behörde",
+   "gloss_en": "Court of Appeal at Eisenach",
+   "note": "Court of appeal for the principality (district by treaty of 23 March 1850, p. 281)."
+  },
+  {
+   "key": "Ministeriums Abtheilung für Justiz",
+   "action": "merge",
+   "into": "Ministerium in Justizsachen"
+  },
+  {
+   "key": "Oberappellationsgericht zu Jena",
+   "action": "accept",
+   "label": "Oberappellationsgericht zu Jena",
+   "class": "organisation",
+   "kind": "Behörde",
+   "gloss_en": "Higher Court of Appeal at Jena"
+  },
+  {
+   "key": "Appellationsgerichte",
+   "action": "merge",
+   "into": "Appellationsgericht zu Eisenach"
+  },
+  {
+   "key": "Ministerium in Justizsachen",
+   "action": "accept",
+   "label": "Ministerium, Abtheilung für Justiz",
+   "class": "organisation",
+   "kind": "Behörde",
+   "gloss_en": "Ministry, department of justice"
+  },
+  {
+   "key": "Staatsanwaltschaft",
+   "action": "accept",
+   "label": "Staatsanwaltschaft",
+   "class": "organisation",
+   "kind": "Behörde",
+   "gloss_en": "public prosecutor's office"
+  },
+  {
+   "key": "Competenzgerichtshofe",
+   "action": "merge",
+   "into": "Competenzgerichtshof"
+  },
+  {
+   "key": "Geschworenengerichte",
+   "action": "accept",
+   "label": "Geschworenengericht",
+   "class": "organisation",
+   "kind": "Behörde",
+   "gloss_en": "jury court"
+  },
+  {
+   "key": "Friedensgerichte",
+   "action": "accept",
+   "label": "Friedensgericht",
+   "class": "organisation",
+   "kind": "Behörde",
+   "gloss_en": "conciliation court (justice of the peace)"
+  },
+  {
+   "key": "Kreisgerichten",
+   "action": "merge",
+   "into": "Kreisgerichte"
+  },
+  {
+   "key": "reußischen",
+   "action": "merge",
+   "into": "Consistorium zu Gera"
+  },
+  {
+   "key": "sächsisch-altenburgischen Consistorium",
+   "action": "merge",
+   "into": "Consistorium zu Altenburg"
+  },
+  {
+   "key": "städtischen Schulanstalten",
+   "action": "merge",
+   "into": "Schule"
+  },
+  {
+   "key": "lateinischen Schulen",
+   "action": "merge",
+   "into": "Schule"
+  },
+  {
+   "key": "Akademien",
+   "action": "reclass",
+   "label": "Akademie",
+   "class": "concept",
+   "kind": "Einrichtung",
+   "gloss_en": "academy (university-level school)"
+  },
+  {
+   "key": "Pestalozziverein",
+   "action": "accept",
+   "label": "Pestalozziverein",
+   "class": "organisation",
+   "kind": "Verein",
+   "gloss_en": "Pestalozzi Society (teachers' relief), founded 1866"
+  },
+  {
+   "key": "Kirchen- und Schulkommissionen",
+   "action": "accept",
+   "label": "Kirchen- und Schulcommission",
+   "class": "organisation",
+   "kind": "Behörde",
+   "gloss_en": "church and school commissions (intermediate authority)",
+   "note": "The intermediate authority between the parishes and the Staatsministerium (p. 297); one per Landestheil."
+  },
+  {
+   "key": "Handelsschule des Dr. Amthor",
+   "action": "accept",
+   "label": "Handelsschule des Dr. Amthor (Gera)",
+   "class": "organisation",
+   "kind": "Schule",
+   "gloss_en": "commercial school of Dr. Amthor, Gera"
+  },
+  {
+   "key": "Bergbauschule",
+   "action": "accept",
+   "label": "Bergbauschule (Lobenstein)",
+   "class": "organisation",
+   "kind": "Schule",
+   "gloss_en": "mining school, Lobenstein"
+  },
+  {
+   "key": "Realschule zu Gera",
+   "action": "merge",
+   "into": "Realschule"
+  },
+  {
+   "key": "alterthumsforschenden Vereins zu Hohenleuben",
+   "action": "merge",
+   "into": "voigtländische alterthumsforschende Verein"
+  },
+  {
+   "key": "Hospitäler beatae virginis Mariae",
+   "action": "merge",
+   "into": "beatae virginis Mariae"
+  },
+  {
+   "key": "St. Wolfgang",
+   "action": "accept",
+   "label": "Hospital St. Wolfgang (Gera)",
+   "class": "organisation",
+   "kind": "Hospital",
+   "gloss_en": "St Wolfgang hospital, Gera ('der arme Spittel')",
+   "note": "'Hospitäler' (p. 833, corrigenda) = the two hospitals united in 1868."
+  },
+  {
+   "key": "fürstlichen Ministerium Abtheilung für das Innere",
+   "action": "accept",
+   "label": "Ministerium, Abtheilung für das Innere",
+   "class": "organisation",
+   "kind": "Behörde",
+   "gloss_en": "Ministry, department of the interior"
+  },
+  {
+   "key": "thüringer Brandversicherungsvereins",
+   "action": "accept",
+   "label": "Thüringer Brandversicherungsverein",
+   "class": "organisation",
+   "kind": "Verein",
+   "gloss_en": "Thuringian fire insurance society",
+   "note": "A branch among clergy and teachers (p. 304)."
+  },
+  {
+   "key": "fürstlichen Landesschule zu Gera",
+   "action": "merge",
+   "into": "Gymnasium zu Gera"
+  },
+  {
+   "key": "Convictorium",
+   "action": "accept",
+   "label": "Convictorium zu Leipzig",
+   "class": "organisation",
+   "kind": "Stiftung",
+   "gloss_en": "Convictorium at Leipzig (free-board foundation)"
+  },
+  {
+   "key": "Kirchen- und Schulcommission zu Schleiz",
+   "action": "accept",
+   "label": "Kirchen- und Schulcommission zu Schleiz",
+   "class": "organisation",
+   "kind": "Behörde",
+   "gloss_en": "church and school commission at Schleiz",
+   "register_page": "579"
+  },
+  {
+   "key": "historischen Vereins zu Hohenleuben",
+   "action": "merge",
+   "into": "voigtländische alterthumsforschende Verein"
+  },
+  {
+   "key": "Stift Fulda",
+   "action": "accept",
+   "label": "Stift Fulda",
+   "class": "organisation",
+   "kind": "Stift",
+   "gloss_en": "Fulda abbey"
+  },
+  {
+   "key": "Stifts zu Saalfeld",
+   "action": "merge",
+   "into": "Abtei zu Saalfeld"
+  },
+  {
+   "key": "Hochstifts von Bamberg",
+   "action": "merge",
+   "into": "Hochstift Bamberg"
+  },
+  {
+   "key": "Stift Mildenfurt",
+   "action": "merge",
+   "into": "Kloster Mildenfurt"
+  },
+  {
+   "key": "Stifte Bibra",
+   "action": "merge",
+   "into": "Stift zu Bibra"
+  },
+  {
+   "key": "Reinhardsbrunn",
+   "action": "accept",
+   "label": "Kloster Reinhardsbrunn",
+   "class": "organisation",
+   "kind": "Kloster",
+   "gloss_en": "Reinhardsbrunn monastery",
+   "note": "In the text only as 'der Abt von Reinhardsbrunn' (p. 325)."
+  },
+  {
+   "key": "Klöstern zu Buch",
+   "action": "merge",
+   "into": "Kloster Buch"
+  },
+  {
+   "key": "Hohenstaufen",
+   "action": "reclass",
+   "label": "Hohenstaufen",
+   "class": "person",
+   "kind": "Dynastie",
+   "gloss_en": "House of Hohenstaufen"
+  },
+  {
+   "key": "Prämonstratenserkloster Mildenfurt",
+   "action": "merge",
+   "into": "Kloster Mildenfurt"
+  },
+  {
+   "key": "Ordenshäuser",
+   "action": "reject",
+   "reason": "generic plural ('Klöster und Ordenshäuser'), no specific institution"
+  },
+  {
+   "key": "Kloster zu Laußnitz",
+   "action": "merge",
+   "into": "Kloster Lausnitz"
+  },
+  {
+   "key": "Kloster Pforte",
+   "action": "accept",
+   "label": "Kloster Pforte",
+   "class": "organisation",
+   "kind": "Kloster",
+   "gloss_en": "Pforta monastery",
+   "modern": "Kloster Pforta (Schulpforta)"
+  },
+  {
+   "key": "altenburger Kloster",
+   "action": "merge",
+   "into": "Marienkloster zu Altenburg"
+  },
+  {
+   "key": "Kloster Grünhain",
+   "action": "accept",
+   "label": "Kloster Grünhain",
+   "class": "organisation",
+   "kind": "Kloster",
+   "gloss_en": "Grünhain monastery"
+  },
+  {
+   "key": "Stift zu Bibra",
+   "action": "accept",
+   "label": "Stift Bibra",
+   "class": "organisation",
+   "kind": "Stift",
+   "gloss_en": "Bibra convent (Stift)"
+  },
+  {
+   "key": "Johannesstifte zu Tangermünde",
+   "action": "accept",
+   "label": "Johannesstift Tangermünde",
+   "class": "organisation",
+   "kind": "Stift",
+   "gloss_en": "St John's collegiate foundation at Tangermünde"
+  },
+  {
+   "key": "Domkapitel zu Brandenburg",
+   "action": "accept",
+   "label": "Domkapitel Brandenburg",
+   "class": "organisation",
+   "kind": "Domkapitel",
+   "gloss_en": "cathedral chapter of Brandenburg"
+  },
+  {
+   "key": "Klöster Cronswitz",
+   "action": "merge",
+   "into": "Kloster Cronswitz"
+  },
+  {
+   "key": "heil. Kreuz",
+   "action": "merge",
+   "into": "Kloster zum heil. Kreuz"
+  },
+  {
+   "key": "Wettiner",
+   "action": "reclass",
+   "label": "Wettiner",
+   "class": "person",
+   "kind": "Dynastie",
+   "gloss_en": "House of Wettin"
+  },
+  {
+   "key": "Stift zum heil. Kreuz",
+   "action": "merge",
+   "into": "Kloster zum heil. Kreuz"
+  },
+  {
+   "key": "Hochstifte Bamberg",
+   "action": "merge",
+   "into": "Hochstift Bamberg"
+  },
+  {
+   "key": "römische Kirche",
+   "action": "merge",
+   "into": "katholische Kirche"
+  },
+  {
+   "key": "Lausnitz",
+   "action": "merge",
+   "into": "Kloster Lausnitz"
+  },
+  {
+   "key": "Altenburg",
+   "action": "merge",
+   "into": "Marienkloster zu Altenburg"
+  },
+  {
+   "key": "Kloster Buch",
+   "action": "accept",
+   "label": "Kloster Buch",
+   "class": "organisation",
+   "kind": "Kloster",
+   "gloss_en": "Buch monastery (near Leisnig)"
+  },
+  {
+   "key": "Peterskirche in Weida",
+   "action": "reclass",
+   "label": "Peterskirche in Weida",
+   "class": "concept",
+   "kind": "Bauwerk",
+   "gloss_en": "St Peter's Church, Weida"
+  },
+  {
+   "key": "Kloster Pegau",
+   "action": "accept",
+   "label": "Kloster Pegau",
+   "class": "organisation",
+   "kind": "Kloster",
+   "gloss_en": "Pegau monastery"
+  },
+  {
+   "key": "magdeburger Schöppenstuhls",
+   "action": "accept",
+   "label": "Magdeburger Schöppenstuhl",
+   "class": "organisation",
+   "kind": "Gericht",
+   "gloss_en": "Magdeburg court of aldermen (Schöppenstuhl)"
+  },
+  {
+   "key": "Kl. Buch",
+   "action": "merge",
+   "into": "Kloster Buch"
+  },
+  {
+   "key": "Kloster zu Cronswitz",
+   "action": "merge",
+   "into": "Kloster Cronswitz"
+  },
+  {
+   "key": "Kloster zu Frankenhausen",
+   "action": "accept",
+   "label": "Kloster Frankenhausen",
+   "class": "organisation",
+   "kind": "Kloster",
+   "gloss_en": "Frankenhausen convent"
+  },
+  {
+   "key": "Kloster Gernrode",
+   "action": "accept",
+   "label": "Kloster Gernrode",
+   "class": "organisation",
+   "kind": "Kloster",
+   "gloss_en": "Gernrode convent (Stift)",
+   "modern": "Stift Gernrode"
+  },
+  {
+   "key": "Gymnasium illustre (Rutheneum",
+   "action": "merge",
+   "into": "Gymnasium zu Gera"
+  },
+  {
+   "key": "Herrnhuteranstalt",
+   "action": "merge",
+   "into": "Brüdergemeinde"
+  },
+  {
+   "key": "Gustav-Adolf-Stiftung",
+   "action": "accept",
+   "label": "Gustav-Adolf-Stiftung",
+   "class": "organisation",
+   "kind": "Verein",
+   "gloss_en": "Gustavus Adolphus Foundation (Protestant aid society)",
+   "note": "'Gustav-Adolfs-Verein' (p. 639) is the local branch founded 1845 at Hohenleuben."
+  },
+  {
+   "key": "Zollvereine",
+   "action": "merge",
+   "into": "Zollvereins"
+  },
+  {
+   "key": "magdeburger Feuerversicherungsanstalt",
+   "action": "merge",
+   "into": "magdeburger Landfeuersocietät"
+  },
+  {
+   "key": "Herrnhutern",
+   "action": "merge",
+   "into": "Brüdergemeinde"
+  },
+  {
+   "key": "deutschen Bund",
+   "action": "merge",
+   "into": "deutschen Bunde"
+  },
+  {
+   "key": "preußisch-deutsche Zollverein",
+   "action": "merge",
+   "into": "Zollvereins"
+  },
+  {
+   "key": "Landesseminars",
+   "action": "accept",
+   "label": "Landesseminar zu Schleiz",
+   "class": "organisation",
+   "kind": "Schule",
+   "gloss_en": "teachers' seminary of the state at Schleiz"
+  },
+  {
+   "key": "Heinrichstiftung",
+   "action": "accept",
+   "label": "Heinrichstiftung (Schleiz)",
+   "class": "organisation",
+   "kind": "Stiftung",
+   "gloss_en": "Heinrich foundation, Schleiz"
+  },
+  {
+   "key": "Landtagsmitglied",
+   "action": "reject",
+   "reason": "title of a person (member of the Landtag), not an institution"
+  },
+  {
+   "key": "quedlinburgische Stiftsvoigtei",
+   "action": "merge",
+   "into": "Stiftsvoigtei Gera"
+  },
+  {
+   "key": "Klöster zu Cronswitz",
+   "action": "merge",
+   "into": "Kloster Cronswitz"
+  },
+  {
+   "key": "Klosters zu Quedlinburg",
+   "action": "merge",
+   "into": "Stift Quedlinburg"
+  },
+  {
+   "key": "Kirche von Gera",
+   "action": "reclass",
+   "label": "Kirche von Gera",
+   "class": "concept",
+   "kind": "Bauwerk",
+   "gloss_en": "church of Gera",
+   "note": "p. 421: 'Anfänglich wurde die Kirche von Gera aus besorgt' (a chapel served from Gera)."
+  },
+  {
+   "key": "Kammer-Commissariat",
+   "action": "accept",
+   "label": "Kammer-Commissariat",
+   "class": "organisation",
+   "kind": "Behörde",
+   "gloss_en": "chamber commissariat (Untermhaus)"
+  },
+  {
+   "key": "Privatgasthof zum Mohren",
+   "action": "accept",
+   "label": "Gasthof zum Mohren (Untermhaus)",
+   "class": "organisation",
+   "kind": "Gasthof",
+   "gloss_en": "inn 'zum Mohren', Untermhaus",
+   "register_page": "420"
+  },
+  {
+   "key": "Fürstenkeller",
+   "action": "accept",
+   "label": "Fürstenkeller (Untermhaus)",
+   "class": "organisation",
+   "kind": "Gasthof",
+   "gloss_en": "Fürstenkeller (tavern at the brewery), Untermhaus",
+   "register_page": "420"
+  },
+  {
+   "key": "Brauerei",
+   "action": "reclass",
+   "label": "Brauerei",
+   "class": "concept",
+   "kind": "Betrieb",
+   "gloss_en": "brewery"
+  },
+  {
+   "key": "Harmonikafabrikation",
+   "action": "reclass",
+   "label": "Harmonikafabrik",
+   "class": "concept",
+   "kind": "Betrieb",
+   "gloss_en": "accordion factory"
+  },
+  {
+   "key": "Justizamte",
+   "action": "merge",
+   "into": "Justizämter"
+  },
+  {
+   "key": "quedlinburger Abtei",
+   "action": "merge",
+   "into": "Stift Quedlinburg"
+  },
+  {
+   "key": "Lesebibliothek",
+   "action": "reclass",
+   "label": "Lesebibliothek",
+   "class": "concept",
+   "kind": "Einrichtung",
+   "gloss_en": "lending library",
+   "note": "Untermhaus, since 1846 (p. 426)."
+  },
+  {
+   "key": "Hauptsteueramtsgebäude",
+   "action": "reclass",
+   "label": "Hauptsteueramtsgebäude (Gera)",
+   "class": "concept",
+   "kind": "Bauwerk",
+   "gloss_en": "main tax office building, Gera (1867)"
+  },
+  {
+   "key": "Bank",
+   "action": "merge",
+   "into": "geraer Bank"
+  },
+  {
+   "key": "Johanniskirche",
+   "action": "merge",
+   "into": "St. Johanniskirche"
+  },
+  {
+   "key": "Waisenhauskirche",
+   "action": "reclass",
+   "label": "Waisenhauskirche zu Gera",
+   "class": "concept",
+   "kind": "Bauwerk",
+   "gloss_en": "orphanage church, Gera"
+  },
+  {
+   "key": "geraer Zeugmacherinnung",
+   "action": "accept",
+   "label": "Geraer Zeugmacherinnung",
+   "class": "organisation",
+   "kind": "Zunft",
+   "gloss_en": "Gera weavers' guild (Zeugmacher)"
+  },
+  {
+   "key": "Marienhospitals",
+   "action": "merge",
+   "into": "beatae virginis Mariae"
+  },
+  {
+   "key": "Hospitäler St. Wolfgang",
+   "action": "merge",
+   "into": "St. Wolfgang"
+  },
+  {
+   "key": "beatae virginis Mariae",
+   "action": "accept",
+   "label": "Hospital beatae virginis Mariae (Gera)",
+   "class": "organisation",
+   "kind": "Hospital",
+   "gloss_en": "hospital of the Blessed Virgin Mary, Gera ('der reiche Spittel')",
+   "note": "'Marienhospital' (p. 433) is taken as this hospital; the new church of 1782 was built on its former site."
+  },
+  {
+   "key": "Diaconat",
+   "action": "reclass",
+   "label": "Diaconat",
+   "class": "concept",
+   "kind": "Einrichtung",
+   "gloss_en": "deaconate (second clergy post and its house)"
+  },
+  {
+   "key": "weidaischen Terminei",
+   "action": "accept",
+   "label": "Weidaische Terminei (Gera)",
+   "class": "organisation",
+   "kind": "Kloster",
+   "gloss_en": "collecting house (Terminei) of the Weida friars, Gera",
+   "note": "Site of the Diaconat at Gera (p. 433)."
+  },
+  {
+   "key": "Krankenhaus",
+   "action": "accept",
+   "label": "Städtisches Krankenhaus (Gera)",
+   "class": "organisation",
+   "kind": "Anstalt",
+   "gloss_en": "municipal hospital, Gera (founded 1850)"
+  },
+  {
+   "key": "astronomischen Vereins",
+   "action": "accept",
+   "label": "Astronomischer Verein (Gera)",
+   "class": "organisation",
+   "kind": "Verein",
+   "gloss_en": "astronomical society, Gera"
+  },
+  {
+   "key": "Landesregierung",
+   "action": "accept",
+   "label": "Landesregierung",
+   "class": "organisation",
+   "kind": "Behörde",
+   "gloss_en": "state government (Gera, until 1848)"
+  },
+  {
+   "key": "Landesadministration",
+   "action": "accept",
+   "label": "Landesadministration",
+   "class": "organisation",
+   "kind": "Behörde",
+   "gloss_en": "state administration (Gera, until 1848)"
+  },
+  {
+   "key": "Criminalgericht",
+   "action": "accept",
+   "label": "Criminalgericht",
+   "class": "organisation",
+   "kind": "Behörde",
+   "gloss_en": "criminal court (Gera, until 1848)"
+  },
+  {
+   "key": "Steuerdirectorium",
+   "action": "accept",
+   "label": "Steuerdirectorium",
+   "class": "organisation",
+   "kind": "Behörde",
+   "gloss_en": "tax directorate"
+  },
+  {
+   "key": "Polizeidirectorium",
+   "action": "accept",
+   "label": "Polizeidirectorium",
+   "class": "organisation",
+   "kind": "Behörde",
+   "gloss_en": "police directorate (Gera, until 1848)"
+  },
+  {
+   "key": "Thüringer Eisenbahngesellschaft",
+   "action": "merge",
+   "into": "thüringer Eisenbahngesellschaft"
+  },
+  {
+   "key": "preußisches Telegraphenbureau",
+   "action": "accept",
+   "label": "Preußisches Telegraphenbureau (Gera)",
+   "class": "organisation",
+   "kind": "Behörde",
+   "gloss_en": "Prussian telegraph office (Gera)"
+  },
+  {
+   "key": "sächsische Telegraphenbureau",
+   "action": "accept",
+   "label": "Sächsisches Telegraphenbureau (Gera)",
+   "class": "organisation",
+   "kind": "Behörde",
+   "gloss_en": "Saxon telegraph office (Gera)",
+   "note": "Merged with the Prussian office in summer 1866 (p. 434)."
+  },
+  {
+   "key": "preußische Post",
+   "action": "accept",
+   "label": "Preußische Post (Gera)",
+   "class": "organisation",
+   "kind": "Behörde",
+   "gloss_en": "Prussian post (Gera)",
+   "note": "Taken over from the Thurn und Taxis post on 1 July 1867 (p. 434)."
+  },
+  {
+   "key": "Gymnasium illustre Rutheneum",
+   "action": "merge",
+   "into": "Gymnasium zu Gera"
+  },
+  {
+   "key": "Ministeriums",
+   "action": "merge",
+   "into": "Staatsministerium"
+  },
+  {
+   "key": "höhere Töchterschule",
+   "action": "merge",
+   "into": "höheren Töchterschule"
+  },
+  {
+   "key": "erste Bürgerschule der Knaben",
+   "action": "accept",
+   "label": "Erste Bürgerschule der Knaben (Gera)",
+   "class": "organisation",
+   "kind": "Schule",
+   "gloss_en": "first municipal school for boys, Gera"
+  },
+  {
+   "key": "zweite Bürgerschule",
+   "action": "accept",
+   "label": "Zweite Bürgerschule (Gera)",
+   "class": "organisation",
+   "kind": "Schule",
+   "gloss_en": "second municipal school, Gera"
+  },
+  {
+   "key": "dritte Bürgerschule",
+   "action": "accept",
+   "label": "Dritte Bürgerschule (Gera)",
+   "class": "organisation",
+   "kind": "Schule",
+   "gloss_en": "third municipal school, Gera"
+  },
+  {
+   "key": "Rathskreischule",
+   "action": "accept",
+   "label": "Rathskreischule (Gera)",
+   "class": "organisation",
+   "kind": "Schule",
+   "gloss_en": "council district school (school for the poor), Gera"
+  },
+  {
+   "key": "Gesammtstadtschule",
+   "action": "accept",
+   "label": "Gesammtstadtschule (Gera)",
+   "class": "organisation",
+   "kind": "Schule",
+   "gloss_en": "united municipal school, Gera",
+   "note": "'Gesammststadtschule' (p. 833, corrigenda) is a spelling variant."
+  },
+  {
+   "key": "St. Johannis-",
+   "action": "merge",
+   "into": "St. Johanniskirche"
+  },
+  {
+   "key": "St. Salvator",
+   "action": "merge",
+   "into": "St. Salvatorkirche"
+  },
+  {
+   "key": "St. Trinitatis",
+   "action": "merge",
+   "into": "Trinitatiskirche zu Gera"
+  },
+  {
+   "key": "gössnitz-geraer Bahn",
+   "action": "accept",
+   "label": "Gößnitz-Geraer Bahn",
+   "class": "organisation",
+   "kind": "Eisenbahngesellschaft",
+   "gloss_en": "Gößnitz-Gera railway company",
+   "note": "The city of Gera held shares worth 50,000 Thaler (p. 438)."
+  },
+  {
+   "key": "Liedertafel",
+   "action": "accept",
+   "label": "Liedertafel",
+   "class": "organisation",
+   "kind": "Verein",
+   "gloss_en": "Liedertafel (male choral society)",
+   "note": "Generic type; 'die Liedertafel' (p. 440) is the chief choral society of Gera, '2 Liedertafeln' (p. 590) those of Schleiz."
+  },
+  {
+   "key": "thüringer Kunstverein",
+   "action": "accept",
+   "label": "Thüringer Kunstverein",
+   "class": "organisation",
+   "kind": "Verein",
+   "gloss_en": "Thuringian art society"
+  },
+  {
+   "key": "Gallerie Späthe",
+   "action": "accept",
+   "label": "Gallerie Späthe (Gera)",
+   "class": "organisation",
+   "kind": "Galerie",
+   "gloss_en": "Gallerie Späthe (art and trade exhibition), Gera"
+  },
+  {
+   "key": "naturwissenschaftlicher Verein",
+   "action": "merge",
+   "into": "Gesellschaft von Freunden der Naturwissenschaften"
+  },
+  {
+   "key": "Stenographenverein",
+   "action": "accept",
+   "label": "Stenographenverein (Gera)",
+   "class": "organisation",
+   "kind": "Verein",
+   "gloss_en": "shorthand society, Gera"
+  },
+  {
+   "key": "Fortbildungsverein für Gewerbtreibende",
+   "action": "accept",
+   "label": "Fortbildungsverein für Gewerbtreibende (Gera)",
+   "class": "organisation",
+   "kind": "Verein",
+   "gloss_en": "continuing-education society for tradesmen, Gera"
+  },
+  {
+   "key": "Bauverein",
+   "action": "accept",
+   "label": "Bauverein (Gera)",
+   "class": "organisation",
+   "kind": "Verein",
+   "gloss_en": "public-benefit building society, Gera (1864)"
+  },
+  {
+   "key": "Ed. Glaßchen Bankgeschäfts",
+   "action": "accept",
+   "label": "Ed. Glaßchen Bankgeschäft (Gera)",
+   "class": "organisation",
+   "kind": "Bank",
+   "gloss_en": "Ed. Glaß banking house, Gera (bankrupt 1866)"
+  },
+  {
+   "key": "Sparkasse",
+   "action": "accept",
+   "label": "Sparkasse zu Gera",
+   "class": "organisation",
+   "kind": "Bank",
+   "gloss_en": "savings bank, Gera (state institution since 1843)"
+  },
+  {
+   "key": "Gewerbebank",
+   "action": "merge",
+   "into": "Gewerbebank in Gera"
+  },
+  {
+   "key": "Gymnasiums",
+   "action": "merge",
+   "into": "Gymnasium zu Gera"
+  },
+  {
+   "key": "Marienkloster zu Laußnitz",
+   "action": "merge",
+   "into": "Kloster Lausnitz"
+  },
+  {
+   "key": "Schule zu Untermhaus",
+   "action": "accept",
+   "label": "Schule zu Untermhaus",
+   "class": "organisation",
+   "kind": "Schule",
+   "gloss_en": "school of Untermhaus",
+   "register_page": "420"
+  },
+  {
+   "key": "v. wiese’schen Bürgerrettungs- und Industriebeförderungsinstitut",
+   "action": "accept",
+   "label": "v. Wiese’sches Bürgerrettungs- und Industriebeförderungsinstitut (Gera)",
+   "class": "organisation",
+   "kind": "Stiftung",
+   "gloss_en": "v. Wiese foundation for the rescue of citizens and the promotion of industry, Gera"
+  },
+  {
+   "key": "geraer Raths- und oberröppischer Lehn",
+   "action": "reject",
+   "reason": "descriptive phrase for fiefs, no single entity"
+  },
+  {
+   "key": "pfortner Brauerei",
+   "action": "accept",
+   "label": "Brauerei Pforten",
+   "class": "organisation",
+   "kind": "Betrieb",
+   "gloss_en": "brewery at Pforten",
+   "register_page": "450"
+  },
+  {
+   "key": "Stärkefabrikation",
+   "action": "reclass",
+   "label": "Stärkefabrik",
+   "class": "concept",
+   "kind": "Betrieb",
+   "gloss_en": "starch factory"
+  },
+  {
+   "key": "Gasthof zum Lindenthal",
+   "action": "accept",
+   "label": "Gasthof zum Lindenthal (Pforten)",
+   "class": "organisation",
+   "kind": "Gasthof",
+   "gloss_en": "inn 'zum Lindenthal', Pforten",
+   "register_page": "450"
+  },
+  {
+   "key": "Lindenthalgasthof",
+   "action": "merge",
+   "into": "Gasthof zum Lindenthal"
+  },
+  {
+   "key": "Stift",
+   "action": "merge",
+   "into": "Kloster Cronswitz"
+  },
+  {
+   "key": "Stifte Mildenfurt",
+   "action": "merge",
+   "into": "Kloster Mildenfurt"
+  },
+  {
+   "key": "Verein zu Hohenleuben",
+   "action": "merge",
+   "into": "voigtländische alterthumsforschende Verein"
+  },
+  {
+   "key": "Kloster zu Münchenbernsdorf",
+   "action": "accept",
+   "label": "Kloster Münchenbernsdorf",
+   "class": "organisation",
+   "kind": "Kloster",
+   "gloss_en": "Münchenbernsdorf monastery"
+  },
+  {
+   "key": "Klosters zu Laußnitz",
+   "action": "merge",
+   "into": "Kloster Lausnitz"
+  },
+  {
+   "key": "Singverein",
+   "action": "merge",
+   "into": "Gesangverein"
+  },
+  {
+   "key": "Ritterguts Großsaara",
+   "action": "reclass",
+   "label": "Rittergut Großsaara",
+   "class": "place",
+   "kind": "Rittergut",
+   "gloss_en": "manor of Großsaara",
+   "register_page": "467",
+   "in_principality": true
+  },
+  {
+   "key": "Rittergute zu Scheubengrobsdorf",
+   "action": "reclass",
+   "label": "Rittergut Scheubengrobsdorf",
+   "class": "place",
+   "kind": "Rittergut",
+   "gloss_en": "manor of Scheubengrobsdorf",
+   "register_page": "472",
+   "in_principality": true
+  },
+  {
+   "key": "Rittergut zu Frankenthal",
+   "action": "reclass",
+   "label": "Rittergut Frankenthal",
+   "class": "place",
+   "kind": "Rittergut",
+   "gloss_en": "manor of Frankenthal",
+   "register_page": "473",
+   "in_principality": true
+  },
+  {
+   "key": "Marienkirche zu Pottendorf",
+   "action": "reclass",
+   "label": "Marienkirche zu Pottendorf",
+   "class": "concept",
+   "kind": "Bauwerk",
+   "gloss_en": "St Mary's Church, Pottendorf (destroyed)"
+  },
+  {
+   "key": "rubitzer Rittergut",
+   "action": "reclass",
+   "label": "Rittergut Rubitz",
+   "class": "place",
+   "kind": "Rittergut",
+   "gloss_en": "manor of Rubitz",
+   "register_page": "478",
+   "in_principality": true
+  },
+  {
+   "key": "thieschützer Kirche",
+   "action": "reclass",
+   "label": "Kirche zu Thieschütz",
+   "class": "concept",
+   "kind": "Bauwerk",
+   "gloss_en": "church of Thieschütz"
+  },
+  {
+   "key": "Rittergut",
+   "action": "reclass",
+   "label": "Rittergut",
+   "class": "concept",
+   "kind": "Gutsform",
+   "gloss_en": "manor (Rittergut)",
+   "note": "Generic: the manor of the village being described (p. 480)."
+  },
+  {
+   "key": "Altenburger Consistorium",
+   "action": "merge",
+   "into": "Consistorium zu Altenburg"
+  },
+  {
+   "key": "Marienkloster zu Eisenberg",
+   "action": "accept",
+   "label": "Marienkloster Eisenberg",
+   "class": "organisation",
+   "kind": "Kloster",
+   "gloss_en": "St Mary's convent at Eisenberg"
+  },
+  {
+   "key": "Amte Gera",
+   "action": "accept",
+   "label": "Amt Gera",
+   "class": "organisation",
+   "kind": "Behörde",
+   "gloss_en": "Amt (bailiwick) Gera",
+   "register_page": "428"
+  },
+  {
+   "key": "Rittergute Dürrenberg",
+   "action": "reclass",
+   "label": "Rittergut Dürrenberg",
+   "class": "place",
+   "kind": "Rittergut",
+   "gloss_en": "manor of Dürrenberg",
+   "register_page": "494",
+   "in_principality": true,
+   "note": "Index: 'Dürrenberg (Hartmannsdorf) 494'."
+  },
+  {
+   "key": "Reuß-Greiz",
+   "action": "reclass",
+   "label": "Haus Reuß-Greiz",
+   "class": "person",
+   "kind": "Dynastie",
+   "gloss_en": "House of Reuss-Greiz (older line)"
+  },
+  {
+   "key": "Köstritzer Gemeinde",
+   "action": "accept",
+   "label": "Gemeinde Köstritz",
+   "class": "organisation",
+   "kind": "Gemeinde",
+   "gloss_en": "municipality of Köstritz",
+   "register_page": "494"
+  },
+  {
+   "key": "Domkapitel zu Zeitz",
+   "action": "accept",
+   "label": "Domkapitel Zeitz",
+   "class": "organisation",
+   "kind": "Domkapitel",
+   "gloss_en": "cathedral chapter of Zeitz"
+  },
+  {
+   "key": "Kirche zu Köstritz",
+   "action": "reclass",
+   "label": "Kirche zu Köstritz",
+   "class": "concept",
+   "kind": "Bauwerk",
+   "gloss_en": "church of Köstritz",
+   "register_page": "494"
+  },
+  {
+   "key": "Pfarrei zu Köstritz",
+   "action": "accept",
+   "label": "Pfarrei Köstritz",
+   "class": "organisation",
+   "kind": "Pfarrei",
+   "gloss_en": "parish of Köstritz",
+   "register_page": "494"
+  },
+  {
+   "key": "Langenberger Spital",
+   "action": "accept",
+   "label": "Langenberger Spital",
+   "class": "organisation",
+   "kind": "Hospital",
+   "gloss_en": "hospital of Langenberg",
+   "register_page": "508"
+  },
+  {
+   "key": "Köstritzer Paragiatherrschaft",
+   "action": "merge",
+   "into": "Reuß=Köstritz"
+  },
+  {
+   "key": "Bisthum Zeitz-Naumburg",
+   "action": "merge",
+   "into": "Hochstift Naumburg"
+  },
+  {
+   "key": "Hochstift Zeitz-Naumburg",
+   "action": "merge",
+   "into": "Hochstift Naumburg"
+  },
+  {
+   "key": "Wasserheilanstalt",
+   "action": "merge",
+   "into": "Kaltwasserheilanstalt"
+  },
+  {
+   "key": "chemischen Fabrik Heinrichshall",
+   "action": "merge",
+   "into": "chemischen Fabrik"
+  },
+  {
+   "key": "Kloster zu Mildenfurt",
+   "action": "merge",
+   "into": "Kloster Mildenfurt"
+  },
+  {
+   "key": "Rittergute Steinbrücken",
+   "action": "reclass",
+   "label": "Rittergut Steinbrücken",
+   "class": "place",
+   "kind": "Rittergut",
+   "gloss_en": "manor of Steinbrücken",
+   "register_page": "517",
+   "in_principality": true
+  },
+  {
+   "key": "geraer Amt",
+   "action": "merge",
+   "into": "Amte Gera"
+  },
+  {
+   "key": "Kammerguts Kleinaga",
+   "action": "reclass",
+   "label": "Kammergut Kleinaga",
+   "class": "place",
+   "kind": "Kammergut",
+   "gloss_en": "domain estate of Kleinaga",
+   "register_page": "525",
+   "in_principality": true
+  },
+  {
+   "key": "Braunkohlenwerksbesitzer",
+   "action": "reject",
+   "reason": "occupation (lignite-mine owner), not an institution"
+  },
+  {
+   "key": "Kirche zu Großenstein",
+   "action": "reclass",
+   "label": "Kirche zu Großenstein",
+   "class": "concept",
+   "kind": "Bauwerk",
+   "gloss_en": "church of Großenstein"
+  },
+  {
+   "key": "Amte Ronneburg",
+   "action": "accept",
+   "label": "Amt Ronneburg",
+   "class": "organisation",
+   "kind": "Behörde",
+   "gloss_en": "Amt (bailiwick) Ronneburg"
+  },
+  {
+   "key": "Klosters",
+   "action": "merge",
+   "into": "Kloster zum heil. Kreuz"
+  },
+  {
+   "key": "Decanat Großenstein",
+   "action": "accept",
+   "label": "Decanat Großenstein",
+   "class": "organisation",
+   "kind": "Kirchenbezirk",
+   "gloss_en": "deanery of Großenstein"
+  },
+  {
+   "key": "Caplanats Corbußen",
+   "action": "accept",
+   "label": "Caplanat Corbußen",
+   "class": "organisation",
+   "kind": "Kirchenamt",
+   "gloss_en": "chaplaincy of Corbußen"
+  },
+  {
+   "key": "Rittergutes Zschippach",
+   "action": "reclass",
+   "label": "Rittergut Zschippach",
+   "class": "place",
+   "kind": "Rittergut",
+   "gloss_en": "manor of Zschippach",
+   "register_page": "547",
+   "in_principality": true
+  },
+  {
+   "key": "Kirche zu Schmirchau",
+   "action": "reclass",
+   "label": "Kirche zu Schmirchau",
+   "class": "concept",
+   "kind": "Bauwerk",
+   "gloss_en": "church of Schmirchau"
+  },
+  {
+   "key": "Rittergute Pforten",
+   "action": "reclass",
+   "label": "Rittergut Pforten",
+   "class": "place",
+   "kind": "Rittergut",
+   "gloss_en": "manor of Pforten",
+   "register_page": "450",
+   "in_principality": true
+  },
+  {
+   "key": "pfortner Rittergute",
+   "action": "merge",
+   "into": "Rittergute Pforten"
+  },
+  {
+   "key": "Gemeinde Kaimberg",
+   "action": "accept",
+   "label": "Gemeinde Kaimberg",
+   "class": "organisation",
+   "kind": "Gemeinde",
+   "gloss_en": "municipality of Kaimberg",
+   "register_page": "562"
+  },
+  {
+   "key": "Rittergut Kaimberg",
+   "action": "reclass",
+   "label": "Rittergut Kaimberg",
+   "class": "place",
+   "kind": "Rittergut",
+   "gloss_en": "manor of Kaimberg",
+   "register_page": "562",
+   "in_principality": true
+  },
+  {
+   "key": "Rittergute zu Lichtenberg",
+   "action": "reclass",
+   "label": "Rittergut Lichtenberg",
+   "class": "place",
+   "kind": "Rittergut",
+   "gloss_en": "manor of Lichtenberg",
+   "register_page": "563",
+   "in_principality": true
+  },
+  {
+   "key": "Gera",
+   "action": "merge",
+   "into": "Haus Gera"
+  },
+  {
+   "key": "Haus Weida",
+   "action": "reclass",
+   "label": "Haus Weida",
+   "class": "person",
+   "kind": "Dynastie",
+   "gloss_en": "House of Weida (Voigte of Weida)"
+  },
+  {
+   "key": "Klosters Heusdorf",
+   "action": "accept",
+   "label": "Kloster Heusdorf",
+   "class": "organisation",
+   "kind": "Kloster",
+   "gloss_en": "Heusdorf monastery"
+  },
+  {
+   "key": "Kloster Zella",
+   "action": "accept",
+   "label": "Kloster Zella",
+   "class": "organisation",
+   "kind": "Kloster",
+   "gloss_en": "Zella monastery",
+   "note": "Brückner's 'Kloster Zella' (p. 575); identification with Altzella not established."
+  },
+  {
+   "key": "Kloster Ahaufen",
+   "action": "accept",
+   "label": "Kloster Ahaufen",
+   "class": "organisation",
+   "kind": "Kloster",
+   "gloss_en": "Ahaufen monastery"
+  },
+  {
+   "key": "schleizer Ordenshause",
+   "action": "merge",
+   "into": "deutsche Haus zu Schleiz"
+  },
+  {
+   "key": "Reuß-Plauen",
+   "action": "merge",
+   "into": "Haus Reuß"
+  },
+  {
+   "key": "Hause Reuß",
+   "action": "merge",
+   "into": "Haus Reuß"
+  },
+  {
+   "key": "Hauses Reuß",
+   "action": "merge",
+   "into": "Haus Reuß"
+  },
+  {
+   "key": "Kammerarchive",
+   "action": "accept",
+   "label": "Kammerarchiv",
+   "class": "organisation",
+   "kind": "Behörde",
+   "gloss_en": "chamber archive (Schleiz castle)"
+  },
+  {
+   "key": "Kalandbrüder",
+   "action": "accept",
+   "label": "Kalandbrüder (Schleiz)",
+   "class": "organisation",
+   "kind": "Bruderschaft",
+   "gloss_en": "Kaland brotherhood, Schleiz",
+   "note": "Met monthly in the Allerheiligenkirche until the Reformation (p. 584)."
+  },
+  {
+   "key": "deutschen Ordensbrüder",
+   "action": "merge",
+   "into": "deutschen Orden"
+  },
+  {
+   "key": "Comthurhause",
+   "action": "merge",
+   "into": "deutsche Haus zu Schleiz"
+  },
+  {
+   "key": "Kloster des heil. Bonifacius",
+   "action": "accept",
+   "label": "Kloster des heil. Bonifacius (bei Schleiz)",
+   "class": "organisation",
+   "kind": "Kloster",
+   "gloss_en": "monastery of St Boniface near Schleiz",
+   "note": "Mentioned p. 585 as a lost religious institution near Schleiz, built about 1280."
+  },
+  {
+   "key": "Lyceum Rutheneum",
+   "action": "merge",
+   "into": "Rutheneum"
+  },
+  {
+   "key": "Volksleseanstalt für das reußische Oberland",
+   "action": "accept",
+   "label": "Volksleseanstalt für das reußische Oberland",
+   "class": "organisation",
+   "kind": "Bibliothek",
+   "gloss_en": "public reading institution for the Reuss Upland (Schleiz)"
+  },
+  {
+   "key": "Ordensvermögen",
+   "action": "merge",
+   "into": "deutsche Haus zu Schleiz"
+  },
+  {
+   "key": "Postamt",
+   "action": "merge",
+   "into": "Post"
+  },
+  {
+   "key": "Telegraphenbureau",
+   "action": "reclass",
+   "label": "Telegraphenbureau",
+   "class": "concept",
+   "kind": "Einrichtung",
+   "gloss_en": "telegraph office"
+  },
+  {
+   "key": "Sonne",
+   "action": "accept",
+   "label": "Gasthof Sonne (Schleiz)",
+   "class": "organisation",
+   "kind": "Gasthof",
+   "gloss_en": "inn 'Sonne', Schleiz",
+   "note": "'der einzige Gasthof ersten Ranges' (p. 589)."
+  },
+  {
+   "key": "Erbprinz",
+   "action": "accept",
+   "label": "Gasthof Erbprinz (Schleiz)",
+   "class": "organisation",
+   "kind": "Gasthof",
+   "gloss_en": "inn 'Erbprinz', Schleiz",
+   "note": "Formerly 'der berühmte blaue Engel' (p. 589)."
+  },
+  {
+   "key": "blaue Engel",
+   "action": "merge",
+   "into": "Erbprinz"
+  },
+  {
+   "key": "drei Schwanen",
+   "action": "accept",
+   "label": "Gasthof zu den drei Schwanen (Schleiz)",
+   "class": "organisation",
+   "kind": "Gasthof",
+   "gloss_en": "inn 'Three Swans', Schleiz"
+  },
+  {
+   "key": "baierische Hof",
+   "action": "accept",
+   "label": "Baierischer Hof (Schleiz)",
+   "class": "organisation",
+   "kind": "Gasthof",
+   "gloss_en": "inn 'Baierischer Hof', Schleiz",
+   "note": "Formerly 'goldener Wolf' (p. 589)."
+  },
+  {
+   "key": "goldener Wolf",
+   "action": "merge",
+   "into": "baierische Hof"
+  },
+  {
+   "key": "naturhistorischer Verein",
+   "action": "merge",
+   "into": "naturwissenschaftlichen Verein in Schleiz"
+  },
+  {
+   "key": "Liedertafeln",
+   "action": "merge",
+   "into": "Liedertafel"
+  },
+  {
+   "key": "schleizer Kirche",
+   "action": "merge",
+   "into": "Kirche zu Schleiz"
+  },
+  {
+   "key": "Marienhütte",
+   "action": "merge",
+   "into": "Königin-Marienhütte"
+  },
+  {
+   "key": "deutschen Hause",
+   "action": "merge",
+   "into": "deutsche Haus zu Schleiz"
+  },
+  {
+   "key": "Kammergutes",
+   "action": "merge",
+   "into": "Kammergut"
+  },
+  {
+   "key": "St. Marien",
+   "action": "merge",
+   "into": "Bergkirche"
+  },
+  {
+   "key": "schleizer Seminar",
+   "action": "merge",
+   "into": "Landesseminars"
+  },
+  {
+   "key": "Georgenkirche",
+   "action": "merge",
+   "into": "Georgenkirche zu Schleiz"
+  },
+  {
+   "key": "Kirche zu Rödersdorf",
+   "action": "reclass",
+   "label": "Kirche zu Rödersdorf",
+   "class": "concept",
+   "kind": "Bauwerk",
+   "gloss_en": "church of Rödersdorf",
+   "register_page": "611"
+  },
+  {
+   "key": "Pfarrei Dittersdorf",
+   "action": "accept",
+   "label": "Pfarrei Dittersdorf",
+   "class": "organisation",
+   "kind": "Pfarrei",
+   "gloss_en": "parish of Dittersdorf",
+   "register_page": "614"
+  },
+  {
+   "key": "Georgenkirche zu Schleiz",
+   "action": "reclass",
+   "label": "Georgenkirche zu Schleiz",
+   "class": "concept",
+   "kind": "Bauwerk",
+   "gloss_en": "St George's Church, Schleiz",
+   "register_page": "579"
+  },
+  {
+   "key": "Kirche zu Schleiz",
+   "action": "reclass",
+   "label": "Kirche zu Schleiz",
+   "class": "concept",
+   "kind": "Bauwerk",
+   "gloss_en": "church of Schleiz",
+   "register_page": "579"
+  },
+  {
+   "key": "Amte zu Neustadt a. d. Orla",
+   "action": "accept",
+   "label": "Amt Neustadt an der Orla",
+   "class": "organisation",
+   "kind": "Behörde",
+   "gloss_en": "Amt (bailiwick) Neustadt an der Orla"
+  },
+  {
+   "key": "Ordenshaus",
+   "action": "merge",
+   "into": "deutsche Haus zu Schleiz"
+  },
+  {
+   "key": "Kalandsbrüdergesellschaft",
+   "action": "accept",
+   "label": "Kalandsbrüdergesellschaft (Pahren)",
+   "class": "organisation",
+   "kind": "Bruderschaft",
+   "gloss_en": "Kaland brotherhood, Pahren (1350)"
+  },
+  {
+   "key": "alterthumsforschenden Vereins",
+   "action": "merge",
+   "into": "voigtländische alterthumsforschende Verein"
+  },
+  {
+   "key": "voigtländischen Verein",
+   "action": "merge",
+   "into": "voigtländische alterthumsforschende Verein"
+  },
+  {
+   "key": "Rettungshause",
+   "action": "merge",
+   "into": "Rettungshaus"
+  },
+  {
+   "key": "Rettungshaus",
+   "action": "accept",
+   "label": "Rettungshaus (Hohenleuben)",
+   "class": "organisation",
+   "kind": "Anstalt",
+   "gloss_en": "rescue home for neglected children, Hohenleuben",
+   "register_page": "633",
+   "note": "Founded 23 March 1853 with a gift of 2300 Thaler (p. 639)."
+  },
+  {
+   "key": "Commune Hohenleuben",
+   "action": "accept",
+   "label": "Gemeinde Hohenleuben",
+   "class": "organisation",
+   "kind": "Gemeinde",
+   "gloss_en": "municipality of Hohenleuben",
+   "register_page": "633"
+  },
+  {
+   "key": "Voigten von Gera",
+   "action": "merge",
+   "into": "Haus Gera"
+  },
+  {
+   "key": "voigtländischen alterthumsforschenden Vereine",
+   "action": "merge",
+   "into": "voigtländische alterthumsforschende Verein"
+  },
+  {
+   "key": "Justizamt",
+   "action": "merge",
+   "into": "Justizämter"
+  },
+  {
+   "key": "Paragiatsrentamt",
+   "action": "accept",
+   "label": "Paragiatsrentamt",
+   "class": "organisation",
+   "kind": "Behörde",
+   "gloss_en": "revenue office of the apanage lordship"
+  },
+  {
+   "key": "Steuerreceptur",
+   "action": "merge",
+   "into": "Steuerrecepturen"
+  },
+  {
+   "key": "schleizer Sparkasse",
+   "action": "accept",
+   "label": "Sparkasse zu Schleiz",
+   "class": "organisation",
+   "kind": "Bank",
+   "gloss_en": "savings bank, Schleiz",
+   "note": "'Sparkassenverwaltung' (p. 639) is the Hohenleuben branch of the Schleiz savings bank."
+  },
+  {
+   "key": "Physicatsvertretung",
+   "action": "accept",
+   "label": "Physicatsvertretung",
+   "class": "organisation",
+   "kind": "Behörde",
+   "gloss_en": "deputy of the district physician"
+  },
+  {
+   "key": "Erholungsgesellschaft",
+   "action": "accept",
+   "label": "Erholungsgesellschaft (Hohenleuben)",
+   "class": "organisation",
+   "kind": "Verein",
+   "gloss_en": "recreation society, Hohenleuben (since 1830)"
+  },
+  {
+   "key": "Lesezirkel",
+   "action": "accept",
+   "label": "Lesezirkel (Hohenleuben)",
+   "class": "organisation",
+   "kind": "Verein",
+   "gloss_en": "reading circle, Hohenleuben (since 1842)"
+  },
+  {
+   "key": "Gustav-Adolfs-Verein",
+   "action": "merge",
+   "into": "Gustav-Adolf-Stiftung"
+  },
+  {
+   "key": "Bürgerwehr",
+   "action": "accept",
+   "label": "Bürgerwehr (Hohenleuben)",
+   "class": "organisation",
+   "kind": "Verein",
+   "gloss_en": "citizens' militia, Hohenleuben (1848)"
+  },
+  {
+   "key": "Sängerchor",
+   "action": "accept",
+   "label": "Sängerchor (Hohenleuben)",
+   "class": "organisation",
+   "kind": "Verein",
+   "gloss_en": "singers' choir, Hohenleuben (1857)"
+  },
+  {
+   "key": "Luther-Liedertafel",
+   "action": "accept",
+   "label": "Luther-Liedertafel (Hohenleuben)",
+   "class": "organisation",
+   "kind": "Verein",
+   "gloss_en": "Luther Liedertafel (choral society), Hohenleuben, founded 1846"
+  },
+  {
+   "key": "Bürgererholung",
+   "action": "accept",
+   "label": "Bürgererholung (Hohenleuben)",
+   "class": "organisation",
+   "kind": "Verein",
+   "gloss_en": "citizens' recreation society, Hohenleuben (1860)"
+  },
+  {
+   "key": "Schützencompagnie",
+   "action": "accept",
+   "label": "Schützencompagnie (Hohenleuben)",
+   "class": "organisation",
+   "kind": "Verein",
+   "gloss_en": "rifle company, Hohenleuben (1860)"
+  },
+  {
+   "key": "Näh- und Strickschule",
+   "action": "accept",
+   "label": "Näh- und Strickschule (Hohenleuben)",
+   "class": "organisation",
+   "kind": "Schule",
+   "gloss_en": "sewing and knitting school, Hohenleuben"
+  },
+  {
+   "key": "Rettungshauses",
+   "action": "merge",
+   "into": "Rettungshaus"
+  },
+  {
+   "key": "Rittergut Reichenfels",
+   "action": "reclass",
+   "label": "Rittergut Reichenfels",
+   "class": "place",
+   "kind": "Rittergut",
+   "gloss_en": "manor of Reichenfels",
+   "register_page": "630",
+   "in_principality": true
+  },
+  {
+   "key": "schleizer deutsches Ordenslehn",
+   "action": "merge",
+   "into": "deutsche Haus zu Schleiz"
+  },
+  {
+   "key": "fürstliches Kammergut",
+   "action": "merge",
+   "into": "Kammergut"
+  },
+  {
+   "key": "Ziegelei",
+   "action": "reclass",
+   "label": "Ziegelei",
+   "class": "concept",
+   "kind": "Betrieb",
+   "gloss_en": "brickworks"
+  },
+  {
+   "key": "fürstliche Consistorium in Greiz",
+   "action": "merge",
+   "into": "Consistorium zu Greiz"
+  },
+  {
+   "key": "Amte Schleiz",
+   "action": "accept",
+   "label": "Amt Schleiz",
+   "class": "organisation",
+   "kind": "Behörde",
+   "gloss_en": "Amt (bailiwick) Schleiz",
+   "register_page": "579"
+  },
+  {
+   "key": "zeulenrodaer und leitlitzer Pfarrei",
+   "action": "accept",
+   "label": "Pfarreien Zeulenroda und Leitlitz",
+   "class": "organisation",
+   "kind": "Pfarrei",
+   "gloss_en": "parishes of Zeulenroda and Leitlitz",
+   "note": "Two parishes named together (p. 659)."
+  },
+  {
+   "key": "Stadtkirche",
+   "action": "reclass",
+   "label": "Stadtkirche",
+   "class": "concept",
+   "kind": "Bauwerk",
+   "gloss_en": "town church",
+   "note": "Generic; the town church of Schleiz, Saalburg or Hirschberg, depending on the passage."
+  },
+  {
+   "key": "saalburger Amte",
+   "action": "accept",
+   "label": "Amt Saalburg",
+   "class": "organisation",
+   "kind": "Behörde",
+   "gloss_en": "Amt (bailiwick) Saalburg",
+   "register_page": "661"
+  },
+  {
+   "key": "Kirchkastengerichte zu Saalburg",
+   "action": "accept",
+   "label": "Kirchkastengericht zu Saalburg",
+   "class": "organisation",
+   "kind": "Behörde",
+   "gloss_en": "church-chest court at Saalburg"
+  },
+  {
+   "key": "burgker Amte",
+   "action": "accept",
+   "label": "Amt Burgk",
+   "class": "organisation",
+   "kind": "Behörde",
+   "gloss_en": "Amt (bailiwick) Burgk"
+  },
+  {
+   "key": "Stifte zum heil. Kreuz",
+   "action": "merge",
+   "into": "Kloster zum heil. Kreuz"
+  },
+  {
+   "key": "Michaelisschule",
+   "action": "accept",
+   "label": "Michaelisschule zu Lüneburg",
+   "class": "organisation",
+   "kind": "Schule",
+   "gloss_en": "Michaelisschule at Lüneburg"
+  },
+  {
+   "key": "Rittergut Zollgrün",
+   "action": "reclass",
+   "label": "Rittergut Zollgrün",
+   "class": "place",
+   "kind": "Rittergut",
+   "gloss_en": "manor of Zollgrün",
+   "register_page": "693",
+   "in_principality": true
+  },
+  {
+   "key": "Kammergut Seubtendorf",
+   "action": "reclass",
+   "label": "Kammergut Seubtendorf",
+   "class": "place",
+   "kind": "Kammergut",
+   "gloss_en": "domain estate of Seubtendorf",
+   "register_page": "681",
+   "in_principality": true
+  },
+  {
+   "key": "saalburger Rathe",
+   "action": "accept",
+   "label": "Rath zu Saalburg",
+   "class": "organisation",
+   "kind": "Behörde",
+   "gloss_en": "town council of Saalburg",
+   "register_page": "661"
+  },
+  {
+   "key": "schleizer Gotteshause",
+   "action": "accept",
+   "label": "Gotteshaus zu Schleiz",
+   "class": "organisation",
+   "kind": "Stiftung",
+   "gloss_en": "church fund (Gotteshaus) of Schleiz",
+   "register_page": "579",
+   "note": "Held Erbgerichte in villages near Saalburg (p. 677); 'Gotteshaushaus' is a variant spelling."
+  },
+  {
+   "key": "deutschen Ordenshause",
+   "action": "merge",
+   "into": "deutsche Haus zu Schleiz"
+  },
+  {
+   "key": "schleizer Gotteshaushaus",
+   "action": "merge",
+   "into": "schleizer Gotteshause"
+  },
+  {
+   "key": "Schule von Kulm",
+   "action": "accept",
+   "label": "Schule zu Kulm",
+   "class": "organisation",
+   "kind": "Schule",
+   "gloss_en": "school of Kulm",
+   "register_page": "675"
+  },
+  {
+   "key": "Wanderschule",
+   "action": "merge",
+   "into": "Wanderschulen"
+  },
+  {
+   "key": "Saalburger",
+   "action": "reject",
+   "reason": "demonym (inhabitants of Saalburg), not an institution"
+  },
+  {
+   "key": "Kammergute Pöritzsch",
+   "action": "reclass",
+   "label": "Kammergut Pöritzsch",
+   "class": "place",
+   "kind": "Kammergut",
+   "gloss_en": "domain estate of Pöritzsch",
+   "register_page": "730",
+   "in_principality": true
+  },
+  {
+   "key": "Kämmeraholzgelderkasse",
+   "action": "accept",
+   "label": "Kämmeraholzgelderkasse",
+   "class": "organisation",
+   "kind": "Kasse",
+   "gloss_en": "municipal fund for wood money (Kämmerei)"
+  },
+  {
+   "key": "Leipziger Messe",
+   "action": "accept",
+   "label": "Leipziger Messe",
+   "class": "organisation",
+   "kind": "Messe",
+   "gloss_en": "Leipzig trade fair"
+  },
+  {
+   "key": "Gasthof „die Kapelle",
+   "action": "accept",
+   "label": "Gasthof „die Kapelle“",
+   "class": "organisation",
+   "kind": "Gasthof",
+   "gloss_en": "inn 'die Kapelle'",
+   "note": "Locally 'die Kappel' (p. 692)."
+  },
+  {
+   "key": "deutschen Ordens zu Schleiz",
+   "action": "merge",
+   "into": "deutsche Haus zu Schleiz"
+  },
+  {
+   "key": "deutsche Orden zu Zwätzen",
+   "action": "accept",
+   "label": "Deutscher Orden zu Zwätzen",
+   "class": "organisation",
+   "kind": "Kommende",
+   "gloss_en": "Teutonic Order at Zwätzen",
+   "note": "Lord of the fief of the church in the village described on p. 698, until the Reformation."
+  },
+  {
+   "key": "Rittergüter Frankendorf",
+   "action": "reclass",
+   "label": "Rittergut Frankendorf",
+   "class": "place",
+   "kind": "Rittergut",
+   "gloss_en": "manor of Frankendorf",
+   "register_page": "690",
+   "in_principality": true,
+   "note": "Named together with Seubtendorf (p. 700)."
+  },
+  {
+   "key": "Ordenshause zu Schleiz",
+   "action": "merge",
+   "into": "deutsche Haus zu Schleiz"
+  },
+  {
+   "key": "Stadtrathe zu Tanna",
+   "action": "accept",
+   "label": "Stadtrath zu Tanna",
+   "class": "organisation",
+   "kind": "Behörde",
+   "gloss_en": "town council of Tanna"
+  },
+  {
+   "key": "Haus Gera",
+   "action": "reclass",
+   "label": "Haus Gera",
+   "class": "person",
+   "kind": "Dynastie",
+   "gloss_en": "House of Gera (Voigte of Gera)",
+   "note": "'Gera' (p. 571, 'Dynasten Lobdaburg und Gera') and 'Voigten von Gera' (p. 636) refer to the dynasts."
+  },
+  {
+   "key": "Haus der Burggrafen von Plauen",
+   "action": "reclass",
+   "label": "Haus der Burggrafen von Plauen",
+   "class": "person",
+   "kind": "Dynastie",
+   "gloss_en": "House of the Burgraves of Plauen"
+  },
+  {
+   "key": "naumburger Bisthum",
+   "action": "merge",
+   "into": "Hochstift Naumburg"
+  },
+  {
+   "key": "magdeburger Kirche",
+   "action": "accept",
+   "label": "Erzbisthum Magdeburg",
+   "class": "organisation",
+   "kind": "Bistum",
+   "gloss_en": "archdiocese of Magdeburg",
+   "note": "'die magdeburger Kirche' as the higher church authority over the naumburger Bisthum before the Reformation (p. 713)."
+  },
+  {
+   "key": "Erzbisthum Mainz",
+   "action": "accept",
+   "label": "Erzbisthum Mainz",
+   "class": "organisation",
+   "kind": "Bistum",
+   "gloss_en": "archdiocese of Mainz"
+  },
+  {
+   "key": "Ministeriums für Kirchen- und Schulangelegenheiten",
+   "action": "accept",
+   "label": "Ministerium, Abtheilung für Kirchen- und Schulangelegenheiten",
+   "class": "organisation",
+   "kind": "Behörde",
+   "gloss_en": "Ministry, department of church and school affairs"
+  },
+  {
+   "key": "Heilbadeanstalt",
+   "action": "accept",
+   "label": "Heilbadeanstalt (Lobenstein)",
+   "class": "organisation",
+   "kind": "Anstalt",
+   "gloss_en": "spa bath establishment, Lobenstein (1869)"
+  },
+  {
+   "key": "Saalburger Kloster zum h. Kreuz",
+   "action": "merge",
+   "into": "Kloster zum heil. Kreuz"
+  },
+  {
+   "key": "Reichspostmeister",
+   "action": "reject",
+   "reason": "title of an official (person), not an institution"
+  },
+  {
+   "key": "Bergamtes",
+   "action": "merge",
+   "into": "Bergamte in Lobenstein"
+  },
+  {
+   "key": "Steueramtes",
+   "action": "merge",
+   "into": "Steuerämter"
+  },
+  {
+   "key": "Telegraphenstation",
+   "action": "merge",
+   "into": "Telegraphenbureau"
+  },
+  {
+   "key": "Armencommission",
+   "action": "accept",
+   "label": "Armencommission",
+   "class": "organisation",
+   "kind": "Behörde",
+   "gloss_en": "poor-relief commission"
+  },
+  {
+   "key": "Post",
+   "action": "reclass",
+   "label": "Post",
+   "class": "concept",
+   "kind": "Einrichtung",
+   "gloss_en": "postal service",
+   "note": "Bare post offices and post stations; the Prussian post at Gera is a separate entry."
+  },
+  {
+   "key": "Amts-",
+   "action": "accept",
+   "label": "Amtsgericht (Lobenstein)",
+   "class": "organisation",
+   "kind": "Behörde",
+   "gloss_en": "bailiwick court (Lobenstein)",
+   "note": "Fragment of 'Amts-, Stadt-, Pfarr- und Hospitalgerichte' (p. 721); completed."
+  },
+  {
+   "key": "Stadt-",
+   "action": "accept",
+   "label": "Stadtgericht (Lobenstein)",
+   "class": "organisation",
+   "kind": "Behörde",
+   "gloss_en": "town court (Lobenstein)",
+   "note": "Fragment of 'Amts-, Stadt-, Pfarr- und Hospitalgerichte' (p. 721); completed."
+  },
+  {
+   "key": "Pfarr-",
+   "action": "accept",
+   "label": "Pfarrgericht (Lobenstein)",
+   "class": "organisation",
+   "kind": "Behörde",
+   "gloss_en": "parish court (Lobenstein)",
+   "note": "Fragment of 'Amts-, Stadt-, Pfarr- und Hospitalgerichte' (p. 721); completed."
+  },
+  {
+   "key": "Hospitalgerichte",
+   "action": "accept",
+   "label": "Hospitalgericht (Lobenstein)",
+   "class": "organisation",
+   "kind": "Behörde",
+   "gloss_en": "hospital court (Lobenstein)"
+  },
+  {
+   "key": "königsberger Liederbundes",
+   "action": "accept",
+   "label": "Königsberger Liederbund",
+   "class": "organisation",
+   "kind": "Verein",
+   "gloss_en": "Königsberg song circle (of Simon Dach)"
+  },
+  {
+   "key": "Spaniershammer",
+   "action": "reclass",
+   "label": "Spaniershammer",
+   "class": "place",
+   "kind": "Hammerwerk",
+   "gloss_en": "Spaniershammer (hammer works)",
+   "register_page": "728",
+   "in_principality": true,
+   "note": "Index: 'Spaniershammer (Saaldorf) 728'."
+  },
+  {
+   "key": "polnische Hammer",
+   "action": "reclass",
+   "label": "Polnischer Hammer",
+   "class": "place",
+   "kind": "Hammerwerk",
+   "gloss_en": "Polish hammer (hammer works)",
+   "in_principality": true
+  },
+  {
+   "key": "Neuhammer",
+   "action": "reclass",
+   "label": "Neuhammer",
+   "class": "place",
+   "kind": "Hammerwerk",
+   "gloss_en": "Neuhammer (hammer works)",
+   "register_page": "727",
+   "in_principality": true,
+   "note": "Index: 'Neuhammer (Saaldorf) 727'; at the Saale below the Muckenberg. A second Neuhammer lies near Lobenstein."
+  },
+  {
+   "key": "Canzlei",
+   "action": "accept",
+   "label": "Canzlei",
+   "class": "organisation",
+   "kind": "Behörde",
+   "gloss_en": "chancery",
+   "note": "'der Canzlei, dem Amte und dem Rittergute Haueisen' (p. 725), presumably the chancery at Lobenstein."
+  },
+  {
+   "key": "Amte",
+   "action": "reclass",
+   "label": "Amt",
+   "class": "concept",
+   "kind": "Behördentyp",
+   "gloss_en": "Amt (administrative and judicial office)",
+   "note": "Bare 'dem Amte' (p. 725) without a place name."
+  },
+  {
+   "key": "lobensteiner Inspectionsamt",
+   "action": "accept",
+   "label": "Inspectionsamt Lobenstein",
+   "class": "organisation",
+   "kind": "Behörde",
+   "gloss_en": "inspection office (church supervision) Lobenstein"
+  },
+  {
+   "key": "Wollgarnspinnerei",
+   "action": "merge",
+   "into": "Wollengarnspinnerei"
+  },
+  {
+   "key": "Rentamtes",
+   "action": "merge",
+   "into": "Rentamt"
+  },
+  {
+   "key": "Volksbibliothek",
+   "action": "reclass",
+   "label": "Volksbibliothek",
+   "class": "concept",
+   "kind": "Einrichtung",
+   "gloss_en": "people's library",
+   "note": "Ebersdorf, founded 1866 by the princess (p. 736)."
+  },
+  {
+   "key": "Waisenhausanstalt",
+   "action": "accept",
+   "label": "Waisenhausanstalt (Ebersdorf)",
+   "class": "organisation",
+   "kind": "Anstalt",
+   "gloss_en": "orphanage institution of the Moravian congregation at Ebersdorf"
+  },
+  {
+   "key": "herrnhuter Unitätsdirection",
+   "action": "accept",
+   "label": "Unitätsdirection (Herrnhut/Berthelsdorf)",
+   "class": "organisation",
+   "kind": "Behörde",
+   "gloss_en": "Moravian Unity directorate at Berthelsdorf near Herrnhut"
+  },
+  {
+   "key": "Justizamt zu Ebersdorf",
+   "action": "accept",
+   "label": "Justizamt Ebersdorf",
+   "class": "organisation",
+   "kind": "Behörde",
+   "gloss_en": "justice office at Ebersdorf",
+   "register_page": "731"
+  },
+  {
+   "key": "Oberappellationsgerichte zu Jena",
+   "action": "merge",
+   "into": "Oberappellationsgericht zu Jena"
+  },
+  {
+   "key": "Justizamt zu Lobenstein",
+   "action": "accept",
+   "label": "Justizamt Lobenstein",
+   "class": "organisation",
+   "kind": "Behörde",
+   "gloss_en": "justice office at Lobenstein",
+   "register_page": "713"
+  },
+  {
+   "key": "Consistoriums der Unitäts-Aeltesten-Conferenz",
+   "action": "accept",
+   "label": "Consistorium der Unitäts-Aeltesten-Conferenz",
+   "class": "organisation",
+   "kind": "Behörde",
+   "gloss_en": "consistory of the Moravian Elders' Conference (Berthelsdorf)"
+  },
+  {
+   "key": "Knaben-Pensionsanstalt",
+   "action": "accept",
+   "label": "Knaben-Pensionsanstalt (Ebersdorf)",
+   "class": "organisation",
+   "kind": "Schule",
+   "gloss_en": "boys' boarding school of the Moravian congregation at Ebersdorf"
+  },
+  {
+   "key": "Schwesternhause",
+   "action": "reclass",
+   "label": "Schwesternhaus",
+   "class": "concept",
+   "kind": "Bauwerk",
+   "gloss_en": "sisters' house (Moravian)",
+   "note": "Girls' school of the Ebersdorf Moravians (p. 738)."
+  },
+  {
+   "key": "Unitätsdirection",
+   "action": "merge",
+   "into": "herrnhuter Unitätsdirection"
+  },
+  {
+   "key": "Brüder- und Schwesternhause",
+   "action": "reclass",
+   "label": "Brüder- und Schwesternhaus",
+   "class": "concept",
+   "kind": "Bauwerk",
+   "gloss_en": "brothers' and sisters' house (Moravian)"
+  },
+  {
+   "key": "lobensteiner Pfarrei",
+   "action": "accept",
+   "label": "Pfarrei Lobenstein",
+   "class": "organisation",
+   "kind": "Pfarrei",
+   "gloss_en": "parish of Lobenstein",
+   "register_page": "713"
+  },
+  {
+   "key": "Gemeindebrauhause",
+   "action": "accept",
+   "label": "Gemeindebrauhaus",
+   "class": "organisation",
+   "kind": "Betrieb",
+   "gloss_en": "communal brewhouse"
+  },
+  {
+   "key": "lobensteiner Intell. Blatt",
+   "action": "merge",
+   "into": "lobensteiner Intelligenzblatt"
+  },
+  {
+   "key": "Abtei zu Saalfeld",
+   "action": "accept",
+   "label": "Abtei Saalfeld",
+   "class": "organisation",
+   "kind": "Stift",
+   "gloss_en": "Saalfeld abbey (Benedictine)",
+   "modern": "Benediktinerabtei Saalfeld"
+  },
+  {
+   "key": "Parochie Ruppersdorf",
+   "action": "accept",
+   "label": "Pfarrei Ruppersdorf",
+   "class": "organisation",
+   "kind": "Pfarrei",
+   "gloss_en": "parish of Ruppersdorf",
+   "register_page": "750"
+  },
+  {
+   "key": "St. Marienkirche zu Erfurt",
+   "action": "accept",
+   "label": "St. Marienkirche zu Erfurt (Marienstift)",
+   "class": "organisation",
+   "kind": "Stift",
+   "gloss_en": "collegiate church of St Mary at Erfurt",
+   "note": "Only as 'der Probst der St. Marienkirche zu Erfurt' (p. 756): the collegiate chapter, not the building."
+  },
+  {
+   "key": "v. watzdorfische",
+   "action": "reject",
+   "reason": "adjective from a noble family name, no entity"
+  },
+  {
+   "key": "v. beulwitz-rettenbachsche",
+   "action": "reject",
+   "reason": "adjective from a noble family name, no entity"
+  },
+  {
+   "key": "leipziger Consistoriums",
+   "action": "accept",
+   "label": "Consistorium zu Leipzig",
+   "class": "organisation",
+   "kind": "Behörde",
+   "gloss_en": "consistory at Leipzig"
+  },
+  {
+   "key": "Kirchen-",
+   "action": "reject",
+   "reason": "fragment of 'Kirchen- und Schulbesuch' (church attendance)"
+  },
+  {
+   "key": "Schulbesuch",
+   "action": "reject",
+   "reason": "school attendance, not an institution"
+  },
+  {
+   "key": "Erzbischofs von Mainz",
+   "action": "merge",
+   "into": "Erzbisthum Mainz"
+  },
+  {
+   "key": "Pfarrei Gahma",
+   "action": "accept",
+   "label": "Pfarrei Gahma",
+   "class": "organisation",
+   "kind": "Pfarrei",
+   "gloss_en": "parish of Gahma",
+   "register_page": "763"
+  },
+  {
+   "key": "Silberbergwerk Fortuna",
+   "action": "accept",
+   "label": "Silberbergwerk Fortuna",
+   "class": "organisation",
+   "kind": "Bergwerk",
+   "gloss_en": "silver mine Fortuna"
+  },
+  {
+   "key": "Heinrichshütte",
+   "action": "reclass",
+   "label": "Heinrichshütte",
+   "class": "place",
+   "kind": "Eisenhütte",
+   "gloss_en": "Heinrichshütte (ironworks/foundry)",
+   "register_page": "770",
+   "in_principality": true,
+   "note": "Index: 'Heinrichshütte (Wurzbach) 770'."
+  },
+  {
+   "key": "Stift Saalfeld",
+   "action": "merge",
+   "into": "Abtei zu Saalfeld"
+  },
+  {
+   "key": "harraer Rittergute",
+   "action": "reclass",
+   "label": "Rittergut Harra",
+   "class": "place",
+   "kind": "Rittergut",
+   "gloss_en": "manor of Harra",
+   "register_page": "786",
+   "in_principality": true
+  },
+  {
+   "key": "Waldrittergute Arlas",
+   "action": "reclass",
+   "label": "Waldrittergut Arlas",
+   "class": "place",
+   "kind": "Rittergut",
+   "gloss_en": "forest manor of Arlas",
+   "register_page": "804",
+   "in_principality": true,
+   "note": "Consolidated with Blankenstein (p. 804)."
+  },
+  {
+   "key": "Fiedlers Baumwollenspinnfabrik",
+   "action": "accept",
+   "label": "Fiedlers Baumwollenspinnfabrik",
+   "class": "organisation",
+   "kind": "Fabrik",
+   "gloss_en": "Fiedler's cotton spinning mill",
+   "note": "Founded 1829, first as Heynisch's mill (p. 784)."
+  },
+  {
+   "key": "lobensteiner Inspectionsamte",
+   "action": "merge",
+   "into": "lobensteiner Inspectionsamt"
+  },
+  {
+   "key": "deutschen Hause zu Schleiz",
+   "action": "merge",
+   "into": "deutsche Haus zu Schleiz"
+  },
+  {
+   "key": "tannaer Pfarrei",
+   "action": "accept",
+   "label": "Pfarrei Tanna",
+   "class": "organisation",
+   "kind": "Pfarrei",
+   "gloss_en": "parish of Tanna"
+  },
+  {
+   "key": "geseller Kirche",
+   "action": "merge",
+   "into": "Kirche zu Gesell"
+  },
+  {
+   "key": "Klosters zum heil. Kreuz",
+   "action": "merge",
+   "into": "Kloster zum heil. Kreuz"
+  },
+  {
+   "key": "Klöster zu Hof",
+   "action": "merge",
+   "into": "St. Annakloster"
+  },
+  {
+   "key": "St. Annakloster",
+   "action": "accept",
+   "label": "St. Annakloster (Hof)",
+   "class": "organisation",
+   "kind": "Kloster",
+   "gloss_en": "St Anna monastery at Hof",
+   "note": "'Klöster zu Hof' (p. 794) names the Hof monasteries, of which the St. Annakloster is singled out."
+  },
+  {
+   "key": "deutschen Orden in Plauen",
+   "action": "accept",
+   "label": "Deutschordenshaus Plauen",
+   "class": "organisation",
+   "kind": "Kommende",
+   "gloss_en": "Teutonic Order house (commandery) at Plauen"
+  },
+  {
+   "key": "Kloster zum heil. Kreuz bei Saalburg",
+   "action": "merge",
+   "into": "Kloster zum heil. Kreuz"
+  },
+  {
+   "key": "Consistoriums zu Baireuth",
+   "action": "accept",
+   "label": "Consistorium zu Baireuth",
+   "class": "organisation",
+   "kind": "Behörde",
+   "gloss_en": "consistory at Bayreuth"
+  },
+  {
+   "key": "Kirchenbehörde zu Hof",
+   "action": "accept",
+   "label": "Kirchenbehörde Hof",
+   "class": "organisation",
+   "kind": "Behörde",
+   "gloss_en": "church authority at Hof"
+  },
+  {
+   "key": "Brandenburg-Baireuth",
+   "action": "reclass",
+   "label": "Brandenburg-Baireuth",
+   "class": "place",
+   "kind": "Land/Staat",
+   "gloss_en": "Brandenburg-Bayreuth (margraviate)",
+   "note": "In the text 'das hohenzollersche markgräfliche Haus Brandenburg-Baireuth' (pp. 797, 811): the margravial house and its territory."
+  },
+  {
+   "key": "Hospital zu Wunsiedel",
+   "action": "accept",
+   "label": "Hospital zu Wunsiedel",
+   "class": "organisation",
+   "kind": "Hospital",
+   "gloss_en": "hospital at Wunsiedel"
+  },
+  {
+   "key": "reußische Kammer",
+   "action": "merge",
+   "into": "fürstlichen Kammer"
+  },
+  {
+   "key": "Bierbrauerei",
+   "action": "merge",
+   "into": "Brauerei"
+  },
+  {
+   "key": "Johanneszeche",
+   "action": "accept",
+   "label": "Johanneszeche",
+   "class": "organisation",
+   "kind": "Bergwerk",
+   "gloss_en": "Johanneszeche alum and vitriol works (1747-c. 1802)"
+  },
+  {
+   "key": "Rittergut zu Blankenberg",
+   "action": "reclass",
+   "label": "Rittergut Blankenberg",
+   "class": "place",
+   "kind": "Rittergut",
+   "gloss_en": "manor of Blankenberg",
+   "note": "Patron of the church at Blankenberg (p. 804)."
+  },
+  {
+   "key": "Waldrittergut",
+   "action": "merge",
+   "into": "Waldrittergute Arlas"
+  },
+  {
+   "key": "Rittergute Blintendorf",
+   "action": "reclass",
+   "label": "Rittergut Blintendorf",
+   "class": "place",
+   "kind": "Rittergut",
+   "gloss_en": "manor of Blintendorf",
+   "register_page": "792",
+   "in_principality": true
+  },
+  {
+   "key": "Rittergute Frössen",
+   "action": "reclass",
+   "label": "Rittergut Frössen",
+   "class": "place",
+   "kind": "Rittergut",
+   "gloss_en": "manor of Frössen",
+   "register_page": "795",
+   "in_principality": true
+  },
+  {
+   "key": "hirschberger Schloßherrn",
+   "action": "reject",
+   "reason": "title of a person (lord of Hirschberg castle), not an institution"
+  },
+  {
+   "key": "Hirschberger",
+   "action": "reject",
+   "reason": "demonym (inhabitants of Hirschberg), not an institution"
+  },
+  {
+   "key": "Hochstifte Merseburg",
+   "action": "accept",
+   "label": "Hochstift Merseburg",
+   "class": "organisation",
+   "kind": "Bistum",
+   "gloss_en": "diocese and Hochstift of Merseburg"
+  },
+  {
+   "key": "Bisthume Bamberg",
+   "action": "merge",
+   "into": "Hochstift Bamberg"
+  },
+  {
+   "key": "norddeutschen Bundes",
+   "action": "merge",
+   "into": "norddeutschen Bund"
+  },
+  {
+   "key": "lobensteiner Sparkasse",
+   "action": "accept",
+   "label": "Sparkasse zu Lobenstein",
+   "class": "organisation",
+   "kind": "Bank",
+   "gloss_en": "savings bank, Lobenstein"
+  },
+  {
+   "key": "Kammergute Hirschberg",
+   "action": "reclass",
+   "label": "Kammergut Hirschberg",
+   "class": "place",
+   "kind": "Kammergut",
+   "gloss_en": "domain estate of Hirschberg",
+   "register_page": "809",
+   "in_principality": true
+  },
+  {
+   "key": "Kirche zu Gesell",
+   "action": "reclass",
+   "label": "Kirche zu Gesell",
+   "class": "concept",
+   "kind": "Bauwerk",
+   "gloss_en": "church of Gesell"
+  },
+  {
+   "key": "Diaconat zu Gesell",
+   "action": "accept",
+   "label": "Diaconat Gesell",
+   "class": "organisation",
+   "kind": "Kirchenamt",
+   "gloss_en": "deaconate of Gesell"
+  },
+  {
+   "key": "Kloster z. heil. Kreuz",
+   "action": "merge",
+   "into": "Kloster zum heil. Kreuz"
+  },
+  {
+   "key": "Gesellschaft von Freunden der Naturwissenschaften",
+   "action": "accept",
+   "label": "Gesellschaft von Freunden der Naturwissenschaften in Gera",
+   "class": "organisation",
+   "kind": "Verein",
+   "gloss_en": "Society of Friends of the Natural Sciences, Gera",
+   "note": "Publisher of Jahresberichte since 1858. The variants name the same society; 'naturwissenschaftlicher Verein' (p. 441, in the Gera town description) is taken as this society. The Schleiz society is a separate entry."
+  },
+  {
+   "key": "Oberappellationsgerichts zu Jena",
+   "action": "merge",
+   "into": "Oberappellationsgericht zu Jena"
+  },
+  {
+   "key": "Gesammststadtschule",
+   "action": "merge",
+   "into": "Gesammtstadtschule"
+  },
+  {
+   "key": "Hospitäler",
+   "action": "merge",
+   "into": "St. Wolfgang"
+  },
+  {
+   "key": "Rosenthal",
+   "action": "reclass",
+   "label": "Rosenthal",
+   "class": "place",
+   "kind": "Fabrik",
+   "gloss_en": "Rosenthal (spinning mill at Blankenstein)",
+   "register_page": "834",
+   "in_principality": true,
+   "note": "'Die Spinnfabrik zu Blankenstein führt den Namen Rosenthal' (p. 834, corrigenda)."
+  },
+  {
+   "key": "Bibliothek, großherzogl",
+   "action": "accept",
+   "label": "Großherzogliche Bibliothek (Weimar)",
+   "class": "organisation",
+   "kind": "Bibliothek",
+   "gloss_en": "Grand-Ducal Library, Weimar",
+   "note": "Subscriber, p. 836."
+  },
+  {
+   "key": "Magdeburger Landfeuer-Societät",
+   "action": "merge",
+   "into": "magdeburger Landfeuersocietät"
+  },
+  {
+   "key": "Gymnasialbibliothek",
+   "action": "accept",
+   "label": "Gymnasialbibliothek (Gera)",
+   "class": "organisation",
+   "kind": "Bibliothek",
+   "gloss_en": "grammar school library, Gera"
+  },
+  {
+   "key": "Hauptsteueramt, fürstl",
+   "action": "accept",
+   "label": "Hauptsteueramt",
+   "class": "organisation",
+   "kind": "Behörde",
+   "gloss_en": "main tax office (Gera)",
+   "note": "Turned in 1867 into a Hauptsteueramt of the Thuringian Zollverein (p. 261)."
+  },
+  {
+   "key": "Justizamt I., fürstl",
+   "action": "merge",
+   "into": "Justizämter"
+  },
+  {
+   "key": "Justizamt, fürstl",
+   "action": "merge",
+   "into": "Justizämter"
+  },
+  {
+   "key": "Kammer, fürstl",
+   "action": "merge",
+   "into": "fürstlichen Kammer"
+  },
+  {
+   "key": "Küchengarten-Gesellschaft",
+   "action": "accept",
+   "label": "Küchengarten-Gesellschaft (Gera)",
+   "class": "organisation",
+   "kind": "Verein",
+   "gloss_en": "Küchengarten society, Gera"
+  },
+  {
+   "key": "Mitscher & Röstell",
+   "action": "accept",
+   "label": "Mitscher & Röstell (Berlin)",
+   "class": "organisation",
+   "kind": "Firma",
+   "gloss_en": "Mitscher & Röstell, bookseller, Berlin",
+   "note": "Subscriber, p. 838."
+  },
+  {
+   "key": "v. Puttkammer & Mühlbrecht",
+   "action": "accept",
+   "label": "v. Puttkammer & Mühlbrecht (Berlin)",
+   "class": "organisation",
+   "kind": "Firma",
+   "gloss_en": "v. Puttkammer & Mühlbrecht, bookseller, Berlin",
+   "note": "Subscriber, p. 838."
+  },
+  {
+   "key": "Rentamt, fürstl",
+   "action": "merge",
+   "into": "Rentamt"
+  },
+  {
+   "key": "Verein, alterthumsforschender",
+   "action": "merge",
+   "into": "voigtländische alterthumsforschende Verein"
+  },
+  {
+   "key": "Verein, landwirthschaftl",
+   "action": "merge",
+   "into": "land- und forstwirthschaftlicher Verein"
+  },
+  {
+   "key": "Verein, naturwissenschaftl",
+   "action": "merge",
+   "into": "naturwissenschaftlichen Verein in Schleiz"
+  }
+ ]
+}

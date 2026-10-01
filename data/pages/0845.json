@@ -28,16 +28,14 @@
      125,
      "Location"
     ]
-   ],
-   "sec": "berichtigungen"
+   ]
   },
   {
    "id": "b2",
    "type": "paragraph",
    "src": 1,
    "text": "S. 290. Eine 1866 höchsten Orts bestätigte Kirchenvorstandsordnung räumt dem Ortskirchenvorstande erweiterte Befugnisse über Verwaltung des Kirchenvermögens, Besetzung der Kirchenämter, Feier der Sonn- und Festtage c. ein.",
-   "spans": [],
-   "sec": "berichtigungen"
+   "spans": []
   },
   {
    "id": "b3",
@@ -55,16 +53,14 @@
      49,
      "Location"
     ]
-   ],
-   "sec": "berichtigungen"
+   ]
   },
   {
    "id": "b4",
    "type": "paragraph",
    "src": 3,
    "text": "S. 309. Zu den Stiftungen von Privaten gehören noch:",
-   "spans": [],
-   "sec": "berichtigungen"
+   "spans": []
   },
   {
    "id": "b5",
@@ -116,8 +112,7 @@
       ]
      ]
     }
-   ],
-   "sec": "berichtigungen"
+   ]
   },
   {
    "id": "b6",
@@ -135,24 +130,21 @@
      81,
      "Location"
     ]
-   ],
-   "sec": "berichtigungen"
+   ]
   },
   {
    "id": "b7",
    "type": "paragraph",
    "src": 6,
    "text": "S. 331. Z. 11 v. u. lies: c. 1279 statt c. 1274.",
-   "spans": [],
-   "sec": "berichtigungen"
+   "spans": []
   },
   {
    "id": "b8",
    "type": "paragraph",
    "src": 7,
    "text": "S. 350. Z. 14 v. o. lies: 1420 statt 1520.",
-   "spans": [],
-   "sec": "berichtigungen"
+   "spans": []
   },
   {
    "id": "b9",
@@ -170,16 +162,14 @@
      201,
      "Natural Object"
     ]
-   ],
-   "sec": "berichtigungen"
+   ]
   },
   {
    "id": "b10",
    "type": "paragraph",
    "src": 9,
    "text": "S. 384. Z. 17 v. u. lies: LXII. statt XLII.",
-   "spans": [],
-   "sec": "berichtigungen"
+   "spans": []
   },
   {
    "id": "b11",
@@ -192,24 +182,21 @@
      168,
      "Location"
     ]
-   ],
-   "sec": "berichtigungen"
+   ]
   },
   {
    "id": "b12",
    "type": "paragraph",
    "src": 11,
    "text": "S. 394. Z. 6 v. u. lies: † 1748 statt † 1686.",
-   "spans": [],
-   "sec": "berichtigungen"
+   "spans": []
   },
   {
    "id": "b13",
    "type": "paragraph",
    "src": 12,
    "text": "S. 397. Z. 2 v. u. lies: † 1857 statt † 18..",
-   "spans": [],
-   "sec": "berichtigungen"
+   "spans": []
   },
   {
    "id": "b14",
@@ -312,8 +299,7 @@
      797,
      "Location"
     ]
-   ],
-   "sec": "berichtigungen"
+   ]
   },
   {
    "id": "b15",
@@ -336,8 +322,7 @@
      106,
      "Person"
     ]
-   ],
-   "sec": "berichtigungen"
+   ]
   },
   {
    "id": "b16",
@@ -350,8 +335,7 @@
      68,
      "Organisation"
     ]
-   ],
-   "sec": "berichtigungen"
+   ]
   },
   {
    "id": "b17",
@@ -384,8 +368,7 @@
      246,
      "Location"
     ]
-   ],
-   "sec": "berichtigungen"
+   ]
   },
   {
    "id": "b18",
@@ -403,24 +386,21 @@
      68,
      "Natural Object"
     ]
-   ],
-   "sec": "berichtigungen"
+   ]
   },
   {
    "id": "b19",
    "type": "paragraph",
    "src": 18,
-   "text": "S. 489. Z. 25 v. o. lies: ganz statt ganz.",
-   "spans": [],
-   "sec": "berichtigungen"
+   "text": "S. 489. Z. 25 v. o. lies: ganz statt gauz.",
+   "spans": []
   },
   {
    "id": "b20",
    "type": "paragraph",
    "src": 19,
-   "text": "S. 496. Z. 19 v. o. lies: besondere statt besonderer.",
-   "spans": [],
-   "sec": "berichtigungen"
+   "text": "S. 496. Z. 19 v. o. lies: besondere statt besondeer.",
+   "spans": []
   },
   {
    "id": "b21",
@@ -438,8 +418,7 @@
      276,
      "Artefact"
     ]
-   ],
-   "sec": "berichtigungen"
+   ]
   }
  ],
  "footnotes": [
@@ -456,18 +435,26 @@
    ]
   }
  ],
- "corrections": [],
+ "corrections": [
+  {
+   "rule": "facsimile_correction",
+   "before": "ganz statt ganz",
+   "after": "ganz statt gauz",
+   "source": "B01",
+   "n": 1
+  },
+  {
+   "rule": "facsimile_correction",
+   "before": "lies: besondere statt besonderer",
+   "after": "lies: besondere statt besondeer",
+   "source": "zusaetze-berichtigungen-1870",
+   "n": 1
+  }
+ ],
  "provenance": {
   "source": "colab-2026-03",
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-04T21:48:29.733074",
   "early_schema": false
- },
- "section_path": [
-  "back",
-  "berichtigungen"
- ],
- "sections": [
-  "berichtigungen"
- ]
+ }
 }

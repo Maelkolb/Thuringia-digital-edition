@@ -31,11 +31,11 @@
        "spans": []
       },
       {
-       "text": "Zollgefälle, Braumalzbesteuer-, Übergangsabgaben und Rübenzuckersteuer.",
+       "text": "Zollgefälle, Braumalzsteuer-, Übergangsabgaben und Rübenzuckersteuer.",
        "spans": [
         [
-         53,
-         64,
+         51,
+         62,
          "Resource"
         ]
        ]
@@ -200,8 +200,7 @@
      ""
     ]
    ],
-   "caption": null,
-   "sec": "t1-4-3"
+   "caption": null
   },
   {
    "id": "b2",
@@ -289,8 +288,7 @@
      419,
      "Location"
     ]
-   ],
-   "sec": "t1-4-3"
+   ]
   },
   {
    "id": "b3",
@@ -353,8 +351,7 @@
      "in Summe,"
     ]
    ],
-   "caption": "Die directen Steuern beliefen sich seither auf",
-   "sec": "t1-4-3"
+   "caption": "Die directen Steuern beliefen sich seither auf"
   },
   {
    "id": "b4",
@@ -422,8 +419,7 @@
      488,
      "Organisation"
     ]
-   ],
-   "sec": "t1-4-3"
+   ]
   },
   {
    "id": "b5",
@@ -446,8 +442,7 @@
      335,
      "Organisation"
     ]
-   ],
-   "sec": "t1-4-3"
+   ]
   },
   {
    "id": "b6",
@@ -711,8 +706,7 @@
      "\""
     ]
    ],
-   "caption": "Die verzinsliche Staatsschuld betrug",
-   "sec": "t1-4-3"
+   "caption": "Die verzinsliche Staatsschuld betrug"
   },
   {
    "id": "b7",
@@ -730,8 +724,7 @@
      304,
      "Organisation"
     ]
-   ],
-   "sec": "t1-4-3"
+   ]
   },
   {
    "id": "b8",
@@ -764,8 +757,7 @@
      314,
      "Resource"
     ]
-   ],
-   "sec": "t1-4-3"
+   ]
   },
   {
    "id": "b9",
@@ -783,12 +775,18 @@
      170,
      "Artefact"
     ]
-   ],
-   "sec": "t1-4-3"
+   ]
   }
  ],
  "footnotes": [],
  "corrections": [
+  {
+   "rule": "facsimile_correction",
+   "before": "Braumalzbesteuer",
+   "after": "Braumalzsteuer",
+   "source": "A11",
+   "n": 1
+  },
   {
    "rule": "table_drop_empty_columns",
    "dropped": [
@@ -807,13 +805,5 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-04T13:38:34.781978",
   "early_schema": false
- },
- "section_path": [
-  "t1",
-  "t1-4",
-  "t1-4-3"
- ],
- "sections": [
-  "t1-4-3"
- ]
+ }
 }

@@ -98,8 +98,7 @@
      3049,
      "Location"
     ]
-   ],
-   "sec": "t1-5-2"
+   ]
   },
   {
    "id": "b2",
@@ -112,9 +111,7 @@
      18,
      "Location"
     ]
-   ],
-   "sec": "t1-5-2",
-   "level": 5
+   ]
   },
   {
    "id": "b3",
@@ -158,8 +155,7 @@
      "Person"
     ]
    ],
-   "continues": true,
-   "sec": "t1-5-2"
+   "continues": true
   }
  ],
  "footnotes": [],
@@ -169,13 +165,5 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-04T13:57:56.658779",
   "early_schema": false
- },
- "section_path": [
-  "t1",
-  "t1-5",
-  "t1-5-2"
- ],
- "sections": [
-  "t1-5-2"
- ]
+ }
 }

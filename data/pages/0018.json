@@ -17,21 +17,14 @@
    "type": "heading",
    "src": 0,
    "text": "2. Mathematische Lage im Ganzen und im Einzelnen.*)",
-   "spans": [],
-   "opens": [
-    "t1-1-2",
-    "t1-1-2"
-   ],
-   "sec": "t1-1-2",
-   "level": 4
+   "spans": []
   },
   {
    "id": "b2",
    "type": "paragraph",
    "src": 1,
    "text": "Das Unterland 29° 33' 48\" — 29° 52' 42\" L.\n                 50° 47' 48\" — 50° 58' 38,6\" Br.\nDas Oberland 29°  7' 20\" — 29° 47' 40\" L.\n                 50° 22' 45\" — 50° 43' 50\" Br.",
-   "spans": [],
-   "sec": "t1-1-2"
+   "spans": []
   },
   {
    "id": "b3",
@@ -422,7 +415,7 @@
        ]
       },
       {
-       "text": "29° 18' 27,154\" L.",
+       "text": "29° 18' 27,54\" L.",
        "spans": []
       },
       {
@@ -455,7 +448,7 @@
        ]
       },
       {
-       "text": "29° 19' 28,105\" L.",
+       "text": "29° 19' 28,05\" L.",
        "spans": []
       },
       {
@@ -1223,7 +1216,7 @@
        ]
       },
       {
-       "text": "29° 34' 6,127\" L.",
+       "text": "29° 34' 6,27\" L.",
        "spans": []
       },
       {
@@ -1500,8 +1493,7 @@
      "Kirche."
     ]
    ],
-   "caption": null,
-   "sec": "t1-1-2"
+   "caption": null
   }
  ],
  "footnotes": [
@@ -1530,6 +1522,27 @@
  ],
  "corrections": [
   {
+   "rule": "facsimile_correction",
+   "before": "27,154",
+   "after": "27,54",
+   "source": "A01",
+   "n": 1
+  },
+  {
+   "rule": "facsimile_correction",
+   "before": "28,105",
+   "after": "28,05",
+   "source": "A01",
+   "n": 1
+  },
+  {
+   "rule": "facsimile_correction",
+   "before": "6,127",
+   "after": "6,27",
+   "source": "A01",
+   "n": 1
+  },
+  {
    "rule": "table_no_header_row",
    "note": "first row is data (legacy edition rendered it as <th>)",
    "block": "b3"
@@ -1540,13 +1553,5 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-01-06T01:50:25.088770",
   "early_schema": false
- },
- "section_path": [
-  "t1",
-  "t1-1",
-  "t1-1-1"
- ],
- "sections": [
-  "t1-1-2"
- ]
+ }
 }

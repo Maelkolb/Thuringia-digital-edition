@@ -29,8 +29,7 @@
      "Plant"
     ]
    ],
-   "continued": true,
-   "sec": "t1-2-7"
+   "continued": true
   },
   {
    "id": "b2",
@@ -68,8 +67,7 @@
      1525,
      "Location"
     ]
-   ],
-   "sec": "t1-2-7"
+   ]
   },
   {
    "id": "b3",
@@ -161,8 +159,7 @@
      "Wenns net bei mir bleibt."
     ]
    ],
-   "caption": null,
-   "sec": "t1-2-7"
+   "caption": null
   },
   {
    "id": "b4",
@@ -185,8 +182,7 @@
      60,
      "Animal"
     ]
-   ],
-   "sec": "t1-2-7"
+   ]
   },
   {
    "id": "b5",
@@ -194,8 +190,7 @@
    "src": 4,
    "text": "Ebenso hat das junge Volk gleich den Kindern seine Räthsel und Spiele, die vorzugsweise in den Rockenstuben verwerthet werden. Die meisten Räthsel",
    "spans": [],
-   "continues": true,
-   "sec": "t1-2-7"
+   "continues": true
   }
  ],
  "footnotes": [
@@ -224,13 +219,5 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-03T15:37:49.285499",
   "early_schema": false
- },
- "section_path": [
-  "t1",
-  "t1-2",
-  "t1-2-7"
- ],
- "sections": [
-  "t1-2-7"
- ]
+ }
 }

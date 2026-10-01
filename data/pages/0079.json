@@ -28,8 +28,7 @@
      65,
      "Location"
     ]
-   ],
-   "sec": "t1-1-7"
+   ]
   },
   {
    "id": "b2",
@@ -1001,17 +1000,14 @@
      "18,5"
     ]
    ],
-   "caption": null,
-   "sec": "t1-1-7"
+   "caption": null
   },
   {
    "id": "b3",
    "type": "heading",
    "src": 2,
    "text": "Zusammenstellung der gemeinsamen Beobachtungen der vier Orte:",
-   "spans": [],
-   "sec": "t1-1-7",
-   "level": 5
+   "spans": []
   },
   {
    "id": "b4",
@@ -1088,7 +1084,7 @@
      "role": "body",
      "cells": [
       {
-       "text": "Hohenleuben . . . .",
+       "text": "Hohenleuben",
        "spans": [
         [
          0,
@@ -1123,7 +1119,7 @@
      "role": "body",
      "cells": [
       {
-       "text": "Schleiz . . . . . .",
+       "text": "Schleiz",
        "spans": [
         [
          0,
@@ -1158,7 +1154,7 @@
      "role": "body",
      "cells": [
       {
-       "text": "Rothenacker . . . .",
+       "text": "Rothenacker",
        "spans": [
         [
          0,
@@ -1232,8 +1228,7 @@
      "18,5"
     ]
    ],
-   "caption": null,
-   "sec": "t1-1-7"
+   "caption": null
   },
   {
    "id": "b5",
@@ -1291,8 +1286,7 @@
      212,
      "Climate"
     ]
-   ],
-   "sec": "t1-1-7"
+   ]
   },
   {
    "id": "b6",
@@ -1340,8 +1334,7 @@
      449,
      "Climate"
     ]
-   ],
-   "sec": "t1-1-7"
+   ]
   },
   {
    "id": "b7",
@@ -1641,8 +1634,7 @@
      "3"
     ]
    ],
-   "caption": null,
-   "sec": "t1-1-7"
+   "caption": null
   }
  ],
  "footnotes": [
@@ -1659,19 +1651,15 @@
    "spans": []
   }
  ],
- "corrections": [],
+ "corrections": [
+  {
+   "rule": "strip_dot_leaders"
+  }
+ ],
  "provenance": {
   "source": "colab-2026-01",
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-01-06T03:43:22.248246",
   "early_schema": false
- },
- "section_path": [
-  "t1",
-  "t1-1",
-  "t1-1-7"
- ],
- "sections": [
-  "t1-1-7"
- ]
+ }
 }

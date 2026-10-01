@@ -73,16 +73,14 @@
      1143,
      "Location"
     ]
-   ],
-   "sec": "t1-2-1"
+   ]
   },
   {
    "id": "b2",
    "type": "paragraph",
    "src": 1,
    "text": "Dem Alter nach vertheilen sich die Verheiratheten:",
-   "spans": [],
-   "sec": "t1-2-1"
+   "spans": []
   },
   {
    "id": "b3",
@@ -736,24 +734,21 @@
      "45,50"
     ]
    ],
-   "caption": null,
-   "sec": "t1-2-1"
+   "caption": null
   },
   {
    "id": "b4",
    "type": "paragraph",
    "src": 3,
    "text": "Abgesehen davon, daß die Zahl der Verheiratheten auf dem Lande die der Städte überwiegt, ist die Ziffer der verheiratheten Männer in allen ehelichen Altersklassen stärker als die der verheiratheten Weiber, was seinen Grund in der ungleichen Zahl der beiden heirathsfähigen Geschlechter und überdies darin hat, daß der verwittwete Mann leichter eine neue Ehe gründen kann als die Wittwe.",
-   "spans": [],
-   "sec": "t1-2-1"
+   "spans": []
   },
   {
    "id": "b5",
    "type": "paragraph",
    "src": 4,
    "text": "Von großem Interesse ist die Vergleichung der Ehen von gleichen mit den Ehen von ungleichen Altersklassen *):",
-   "spans": [],
-   "sec": "t1-2-1"
+   "spans": []
   },
   {
    "id": "b6",
@@ -889,8 +884,7 @@
      "224,4"
     ]
    ],
-   "caption": null,
-   "sec": "t1-2-1"
+   "caption": null
   }
  ],
  "footnotes": [
@@ -929,13 +923,5 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-03T15:10:51.655835",
   "early_schema": false
- },
- "section_path": [
-  "t1",
-  "t1-2",
-  "t1-2-1"
- ],
- "sections": [
-  "t1-2-1"
- ]
+ }
 }

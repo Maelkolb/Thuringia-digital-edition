@@ -32,6 +32,9 @@ from dataclasses import dataclass, field
 from common import DATA, IIIF_CANVAS, IIIF_IMAGE, PAGES_DIR, SOURCE, is_filler, is_numeric, page_slug, read_json, write_json
 
 MANUAL = DATA / "corrections" / "manual.json"
+VERIFIED_FILE = DATA / "corrections" / "verified.json"
+VERIFIED: dict[str, list] = {}
+DOT_LEADER = re.compile(r"\s*(?:\.\s){3,}\.?\s*$|\s*\.{4,}\s*$")
 
 
 # ---------------------------------------------------------------------------
@@ -380,6 +383,15 @@ def normalize_page(seq: int, rec: dict | None, canvas: dict, manual: dict, stats
     if override.get("kind"):
         page["kind"] = override["kind"]
     st = rec["structure"]
+    if override.get("insert_blocks"):
+        blocks = st["content_blocks"]
+        nxt = max((b["block_index"] for b in blocks), default=-1) + 1
+        for ins in override["insert_blocks"]:
+            nb = dict(ins["block"], block_index=nxt, _inserted=True)
+            pos = next((i + 1 for i, b in enumerate(blocks) if b["block_index"] == ins["after_block_index"]), len(blocks))
+            blocks.insert(pos, nb)
+            log.append({"rule": "manual_insert_block", "block": f"b{nxt + 1}", "reason": override.get("reason")})
+            nxt += 1
     page["provenance"] = {"source": rec["_source"], "model": rec.get("model_used"), "timestamp": rec.get("processing_timestamp"),
                           "early_schema": bool(rec.get("_early_schema"))}
 
@@ -428,6 +440,38 @@ def normalize_page(seq: int, rec: dict | None, canvas: dict, manual: dict, stats
         stats["ocr_text_rebuild_mismatch"] += 1
         # fall back to anchoring against the rebuilt text (unit boundaries known)
     anchor_entities(rebuilt, offsets, rec.get("entities") or [], stats)
+
+    # character-level clean-up and facsimile-verified corrections ----------
+    # (after anchoring, so entity spans are carried along by Unit.edit)
+    unit_block = {}
+    for kind, ref, u in units_order:
+        unit_block[id(u)] = (kind, ref)
+    for kind, ref, u in units_order:
+        for m in reversed(list(re.finditer("ſ", u.text))):
+            u.edit(m.start(), m.end(), "s")
+            if not any(c["rule"] == "resolve_long_s" for c in log):
+                log.append({"rule": "resolve_long_s"})
+        m = DOT_LEADER.search(u.text)
+        if m and kind == "cell":
+            u.edit(m.start(), m.end(), "")
+            if not any(c["rule"] == "strip_dot_leaders" for c in log):
+                log.append({"rule": "strip_dot_leaders"})
+    for corr in VERIFIED.get(label or "", []):
+        done = 0
+        for kind, ref, u in units_order:
+            if corr.get("block") and not (kind in ("text", "item", "cell") and f"b{(ref if kind == 'text' else ref[0]) + 1}" == corr["block"]):
+                continue
+            i = u.text.find(corr["find"])
+            while i >= 0 and (corr.get("count", "all") == "all" or done < int(corr["count"])):
+                u.edit(i, i + len(corr["find"]), corr["replace"])
+                done += 1
+                i = u.text.find(corr["find"], i + len(corr["replace"]))
+        if done:
+            log.append({"rule": "facsimile_correction", "before": corr["find"], "after": corr["replace"],
+                        "source": corr.get("source", ""), "n": done})
+        else:
+            stats["verified_correction_not_found"] += 1
+            print(f"  correction not found on p. {label}: {corr['find']!r}")
 
     # signatures + page number noise --------------------------------------
     printed = (st.get("page_number_printed") or "").strip() if isinstance(st.get("page_number_printed"), str) else str(st.get("page_number_printed") or "")
@@ -531,6 +575,9 @@ def link_continuations(pages: list[dict]) -> None:
 def main() -> None:
     raw = load_raw()
     build_vocab(raw)
+    if VERIFIED_FILE.exists():
+        for c in read_json(VERIFIED_FILE)["corrections"]:
+            VERIFIED.setdefault(c["page"], []).append(c)
     canvases = load_manifest()
     manual = read_json(MANUAL) if MANUAL.exists() else {}
     stats: collections.Counter = collections.Counter()

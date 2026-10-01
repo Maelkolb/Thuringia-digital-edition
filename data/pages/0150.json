@@ -23,20 +23,14 @@
      93,
      "Artefact"
     ]
-   ],
-   "sec": "t1-2-2"
+   ]
   },
   {
    "id": "b2",
    "type": "heading",
    "src": 1,
    "text": "3. Die Mundart.",
-   "spans": [],
-   "opens": [
-    "t1-2-3"
-   ],
-   "sec": "t1-2-3",
-   "level": 4
+   "spans": []
   },
   {
    "id": "b3",
@@ -54,8 +48,7 @@
      676,
      "Artefact"
     ]
-   ],
-   "sec": "t1-2-3"
+   ]
   },
   {
    "id": "b4",
@@ -68,8 +61,7 @@
      1026,
      "Location"
     ]
-   ],
-   "sec": "t1-2-3"
+   ]
   },
   {
    "id": "b5",
@@ -81,8 +73,7 @@
    "word_division": {
     "word": "fränfische",
     "part": "frän-"
-   },
-   "sec": "t1-2-3"
+   }
   }
  ],
  "footnotes": [],
@@ -92,14 +83,5 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-03T15:24:32.382923",
   "early_schema": false
- },
- "section_path": [
-  "t1",
-  "t1-2",
-  "t1-2-2"
- ],
- "sections": [
-  "t1-2-2",
-  "t1-2-3"
- ]
+ }
 }

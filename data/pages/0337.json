@@ -28,8 +28,7 @@
      98,
      "Person"
     ]
-   ],
-   "sec": "t1-5-2"
+   ]
   },
   {
    "id": "b2",
@@ -405,8 +404,7 @@
      "H. 1256"
     ]
    ],
-   "caption": null,
-   "sec": "t1-5-2"
+   "caption": null
   },
   {
    "id": "b3",
@@ -480,8 +478,7 @@
      "Organisation"
     ]
    ],
-   "continues": true,
-   "sec": "t1-5-2"
+   "continues": true
   }
  ],
  "footnotes": [
@@ -635,13 +632,5 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-04T13:54:47.395904",
   "early_schema": false
- },
- "section_path": [
-  "t1",
-  "t1-5",
-  "t1-5-2"
- ],
- "sections": [
-  "t1-5-2"
- ]
+ }
 }

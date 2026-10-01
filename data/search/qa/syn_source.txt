@@ -1,0 +1,601 @@
+# Source of data/search/synonyms.json (built by data/search/qa/build_synonyms.py).
+# Format:  key1, key2, key3 > Target1 Target2 Target3 Target4      # optional note
+#   keys: single words (first = q, others = also); targets: single German words exactly as the book writes them.
+#   Max 4 distinct stems per key are used by the index builder (most_common(4)): order = priority.
+# Sections:  ## EN = English -> German (inflections are generated), ## DE = modern German -> 1870 wording, ## NAME = names / events
+
+## EN nature: land, water, geology
+mountain, mountains > Berg Gebirge Höhe Hügel
+hill, hills > Hügel Berg Höhe Anhöhe
+valley, valleys > Thal Thalsohle Grund Bach
+river, rivers, stream, streams > Fluß Bach Gewässer Bewässerung
+water, waters > Wasser Bach Quelle Teich
+lake, lakes, pond, ponds > Teich Weiher See Teiche
+spring, springs > Quelle Brunnen Quellen
+well, wells > Brunnen Quelle Wasserleitungen Wasser
+mineral, minerals > Mineralien Mineralquellen Gestein Erz
+geology, geological > Geognosie geognostischen Gestein Formation
+rock, rocks, stone, stones > Gestein Fels Stein Gesteine
+granite > Granit Gneis Gestein
+limestone > Kalkstein Kalk Zechstein Marmor
+sandstone > Sandstein Buntsandstein Sandsteinbrüche Gestein
+slate, slates, slater, slaters, roofing > Schiefer Dachschiefer Schieferdecker Schieferbruch
+clay, loam > Thon Lehm Thonboden Ziegelei
+sand, gravel > Sand Kies Geröll Sandstein
+soil, soils > Boden Ackerboden Bodenart Thonboden
+plateau, upland, uplands > Hochfläche Plateau Hochland Oberland
+height, heights, elevation, altitude > Höhe Meereshöhe Höhenmessung Erhebung
+area, acreage > Fläche Flächeninhalt Areal Umfang
+border, borders, boundary, boundaries, frontier > Grenze Grenzen Grenzdörfer Landesgrenze
+location, situation > Lage Gegend Umgebung Gebiet
+fossil, fossils, petrifaction, petrifactions > Versteinerungen Petrefacten Trilobiten Fossil
+cave, caves, cavern > Höhle Höhlen Felsenhöhle
+quarry, quarries > Steinbruch Steinbrüche Schieferbruch Kalksteinbrüche
+earthquake, earthquakes > Erdbeben Hochwasser Gewitter
+flood, floods > Hochwasser Überschwemmung Wassersnoth Wasserfluth
+drought > Dürre Trockenheit Wassermangel
+moor, bog, marsh, swamp, peat > Moor Sumpf Torf Torfstich
+
+## EN climate and weather
+climate > Klima klimatischen Witterung Temperatur
+weather > Witterung Wetter Wetterregeln Temperatur
+temperature > Temperatur Wärme Kälte Thermometer
+rain, rainfall, precipitation > Regen Niederschlag Regenmenge Niederschläge
+snow > Schnee Schneefälle Winter Frost
+frost, frosts, cold, Fron, Fronen, Fronarbeit, Frondienste > Frohnen Frohndienste Kälte Reif
+wind, winds > Wind Winde Sturm Windrichtung
+storm, storms > Sturm Gewitter Unwetter Hagel
+thunderstorm, thunderstorms > Gewitter Hagelwetter Blitz Unwetter
+hail > Hagel Hagelwetter Hagelschlag Gewitter
+fog, mist > Nebel Dunst Moorrauch Reif
+season, seasons > Jahreszeit Frühling Sommer Winter
+springtime > Frühling Frühjahr Lenz
+
+## EN plants and animals
+forest, forests, woodland > Wald Wälder Waldung Forst
+wood, woods, timber, lumber > Holz Wald Nutzholz Waldung
+tree, trees > Baum Bäume Waldbäume Obstbäume
+oak, oaks > Eiche Eichen Buche Laubholz
+beech > Buche Buchen Laubholz Eiche
+spruce, pine, pines, conifer, conifers > Fichte Tanne Kiefer Nadelwald
+birch > Birke Birken Erle Laubholz
+plant, plants, flora, vegetation > Pflanze Pflanzen Flora Vegetation
+flower, flowers > Blume Blumen Blüthe Pflanzen
+herb, herbs > Kräuter Heilpflanze Kraut Pflanzen
+fruit, fruits > Obst Früchte Obstbäume Obstbau
+apple, apples, pear, pears, cherry, cherries, plum, plums > Obstbäume Apfel Kirsche Pflaume
+berry, berries > Beeren Heidelbeeren Erdbeeren
+mushroom, mushrooms, fungi > Pilze Schwämme Pilz Kräuter
+animal, animals, fauna, wildlife > Thiere Thierwelt Fauna Wild
+bird, birds > Vögel Vogel Vogelarten Zugvögel
+songbird, songbirds > Singvögel Vögel Sänger Vogel
+fish, fishes > Fische Fisch Forelle Fischerei
+fishing, fishery, fisheries > Fischerei Fischzucht Fische Fischteiche
+trout > Forelle Forellenbäche Fische Bach
+crayfish > Krebs Flußkrebs Krebse Fische
+insect, insects > Insecten Käfer Schmetterlinge Ungeziefer
+beetle, beetles > Käfer Borkenkäfer Insecten Maikäfer
+butterfly, butterflies, moth, moths > Schmetterlinge Schmetterling Insecten Raupen
+bee, bees, beekeeping, apiculture > Bienen Bienenzucht Honig Bienenstöcke
+honey > Honig Bienen Bienenzucht Honigbiene
+snake, snakes, adder, viper > Schlange Natter Kreuzotter Otter
+frog, frogs, toad, toads > Frosch Frösche Kröte Lurche
+wolf > Wolf Wölfe Raubthiere Wolfsgrube
+bear, bears > Bär Bären Raubthiere Wolf
+lynx > Luchs Raubthiere Wolf Bär
+fox, foxes > Fuchs Füchse Raubthiere Wild
+deer, stag > Hirsch Rothwild Reh Wild
+boar > Wildschwein Wild Eber
+hare, hares > Hase Hasen Wild Jagd
+game, games, play, plays > Spiel Wild Jagd Kinderspiel
+hunting, hunt, hunter, hunters > Jagd Jäger Wild Jagdhaus
+poaching, poacher > Wilddieberei Wilderer Jagd Wild
+mammal, mammals > Säugethiere Thiere Raubthiere Thierwelt
+rodent, rodents, mouse, mice, rat, rats > Mäuse Nagethiere Ratten Ungeziefer
+cuckoo > Kukuk Vögel Zugvögel Singvögel
+stork, owl, owls, eagle, eagles, hawk, hawks > Storch Eule Adler Raubvögel
+migratory > Zugvögel Wandervögel Vogelzug Zugvogel
+sparrow, sparrows > Sperling Vögel Singvögel
+
+## EN people, population, health
+population, inhabitants, inhabitant, residents > Bevölkerung Einwohner Einwohnerzahl Seelen
+census > Zählung Volkszahl Einwohnerzahl Seelenzahl
+birth, births, born > Geburten Geborene Geburt Geboren
+death, deaths, died > Gestorbene Todesfälle Sterbefälle Todesursachen
+mortality > Sterblichkeit Gestorbene Todesfälle Kindersterblichkeit
+stillborn, stillbirth, stillbirths > Todtgeborene Todtgeburten Geborene Gestorbene
+marriage, marriages, wedlock, married > Ehe Ehen Heirath Getraute
+illegitimate, bastard, bastards > unehelich unehelichen unehelichen Kinder
+child, children > Kinder Kind Knaben Mädchen
+infant, infants, baby, babies > Säuglinge Kinder Kindersterblichkeit Wochenbett
+twin, twins > Zwillinge Geburten Mehrlingsgeburten
+woman, women > Frauen Weiber Frau Mädchen
+man, men > Männer Mann Männlichen Burschen
+girl, girls > Mädchen Jungfrauen Mägde Töchter
+boy, boys, lad, lads > Knaben Burschen Söhne Kinder
+youth, young > Jugend Burschen Jünglinge Junge
+widow, widows > Wittwe Wittwen Verwittwete Wittwenkasse
+orphan, orphans, orphanage > Waisen Waisenhaus Waisenkinder Rettungshaus
+servant, servants, maid, maids > Dienstboten Gesinde Mägde Knechte
+age, ages > Alter Altersklassen Lebensalter Lebensjahre
+family, families > Familie Familien Haushaltungen Familienglieder
+household, households > Haushaltungen Familien Haus Familienglieder
+emigration, emigrate, emigrants, emigrant > Auswanderung Auswanderer Auswandern Zuzug
+immigration, immigrants, immigrant > Einwanderung Zuzug Eingewanderte
+migration > Wanderung Zuzug Auswanderung Einwanderung
+religion, religious, denomination, denominations > Confession Religion Protestanten Glauben
+protestant, protestants, lutheran, lutherans > Protestanten Lutherische evangelisch Evangelische
+catholic, catholics > Katholiken Katholische Katholiken katholisch
+jew, jews, jewish > Juden Israeliten Jude
+gypsy, gypsies > Zigeuner Vagabunden Bettler
+disease, diseases, illness, illnesses, sickness, sick > Krankheiten Krankheit Seuchen Volkskrankheit
+epidemic, epidemics, plague, pestilence > Seuchen Epidemie Pest Pestjahre
+smallpox > Pocken Blattern Impfung
+measles > Masern Scharlach Krankheiten
+typhus, typhoid > Typhus Nervenfieber Krankheiten Seuchen
+fever, fevers > Fieber Wechselfieber Scharlach Nervenfieber
+consumption, tuberculosis > Schwindsucht Auszehrung Lungenschwindsucht Krankheiten
+goitre, goiter > Kropf Kropfbildung Krankheiten Cretinismus
+insane, insanity, madness, lunatic, lunatics > Irre Geisteskranke Blödsinnige Wahnsinn
+deaf, mute > Taubstumme Taubstummen Blinde Blödsinnige
+blind, blindness > Blinde Blinden Taubstumme Blödsinnige
+disabled, disability, handicapped > Gebrechliche Taubstumme Blinde Blödsinnige
+suicide, suicides > Selbstmord Selbstmorde Unglücksfälle
+accident, accidents > Unglücksfälle Unglück Unglücksfall Todesursachen
+doctor, doctors, physician, physicians > Arzt Aerzte Doctor Medicinalwesen
+medicine, medicines, medical, remedy, remedies > Medicin Heilmittel Volksmedicin
+pharmacy, apothecary, apothecaries, pharmacist > Apotheke Apotheker Apotheken
+midwife, midwives > Hebamme Hebammen Wochenbett Geburt
+hospital, hospitals, infirmary > Hospital Krankenhaus Spital Krankenhäuser
+health, healthy, healing > Gesundheit gesund Heilung Krankheit
+spa, spas, resort > Bad Badeanstalt Heilquelle Soolbad
+bath, baths, bathing > Bad Bäder Badeanstalt Soolbad
+physique, appearance, stature, build > Gestalt Körperbau Körpergröße
+character, temperament, mentality > Character Gemüth Volkscharakter
+dialect, dialects, idiom > Mundart Mundarten Sprachproben Dialekt
+language, languages, speech, speak, spoken, pronunciation > Sprache Mundart Aussprache Sprachproben
+sorbian, sorb, sorbs, wend, wends, wendish > Sorben sorbischen sorbische Wenden
+slav, slavs, slavic, slavonic > Slaven slavischen slavische Sorben
+german, germans, germanic > Deutschen deutschen Germanen deutsche
+name, names > Namen Ortsnamen Familiennamen Benennung
+surname, surnames > Familiennamen Namen Geschlechtsnamen Zunamen
+etymology, derivation > Namensdeutung Ableitung Name Ursprung
+proverb, proverbs, saying, sayings, riddle, riddles > Sprichwort Sprüche Räthsel Reime
+song, songs, ballad, ballads > Lied Lieder Volkslieder Liedchen
+rhyme, rhymes, verse, verses, poem, poems > Reime Verse Reim Liedchen
+dress, clothing > Tracht Kleidung Kleider Kleid
+costume, costumes, garb, attire > Tracht Kleidung Trachten Kleid
+cap, bonnet, hat, hats > Haube Mütze Hut Tracht
+shoe, shoes, boot, boots > Schuhe Stiefel Schuhmacher Tracht
+food, diet, nutrition, meal, meals > Nahrung Kost Speise Speisen
+drink, drinks, beverage, beverages > Getränke Bier Branntwein Kaffee
+bread > Brod Brodbacken Roggenbrod Kost
+meat > Fleisch Wurst Kost
+milk, dairy > Milch Butter Käse Kuh
+cheese > Käse Milch Butter Quark
+dumpling, dumplings > Klöße Kloß Kartoffelklöße Klößen
+cake, cakes, pastry > Kuchen Stollen Striezel Gebäck
+coffee > Kaffee Kost
+beer > Bier Brauerei Lagerbier Bierbrauerei
+wine, vineyard, viticulture > Wein Weinbau Weinberge Weinberg
+brandy, schnapps, distillery > Branntwein Schnaps Brennerei Branntweinbrennerei
+potato, potatoes > Kartoffel Kartoffeln Kartoffelbau
+cabbage, sauerkraut > Kraut Sauerkraut Krautbau Kohl
+house, houses, dwelling, dwellings, housing > Haus Häuser Wohnung Wohnhaus
+building, buildings, architecture, construction > Bau Gebäude Bauart Hausbau
+farmhouse, farmhouses > Bauernhaus Bauernhöfe Bauerngut Gehöft
+village, villages, hamlet, hamlets > Dorf Dörfer Ort Weiler
+town, towns, city, cities > Stadt Städte Stadtgemeinde Ort
+room, rooms, parlour, parlor > Stube Zimmer Wohnstube Kammer
+roof, roofs, thatch > Dach Dächer Strohdach Schieferdach
+stove, oven > Ofen Backofen Herd
+framework > Fachwerk Holzbau Schrotbau Blockbau
+fountain, fountains > Brunnen Laufbrunnen Brunnenhäuschen
+
+## EN customs and belief
+custom, customs, tradition, traditions, habit, habits > Brauch Sitte Gebräuche Sitten
+festival, festivals, feast, feasts, holiday, holidays > Fest Feste Festtage Volksfest
+fair, fairs, market, markets > Markt Märkte Jahrmarkt Kirchweih
+wedding, weddings, bride, bridal, betrothal > Hochzeit Hochzeiten Braut Polterabend
+engagement, courtship > Verlobung Brautwerbung Werbung Hochzeit
+baptism, baptisms, christening, christenings, godparent, godparents > Taufe Taufen Pathen Gevatter
+burial, burials, funeral, funerals, mourning > Begräbniß Leichen Beerdigung Trauer
+cemetery, cemeteries, graveyard, churchyard > Friedhof Kirchhof Gottesacker Leichenhof
+grave, graves, tomb, tombs > Grab Gräber Grabdenkmal Gruft
+christmas > Weihnachten Weihnacht Christbescheerung Christabend
+easter > Ostern Osterei Osterwasser Osterfest
+whitsun, pentecost, whitsuntide > Pfingsten Pfingstfest Pfingsttage Pfingstlümmel
+shrovetide, carnival, mardi > Fastnacht Fastnachtbutter Fastnachtsnarr
+midsummer, solstice > Johannisfeuer Sonnenwende Johannis Sonnenwendfeuer
+harvest, harvests > Ernte Erndte Erntefest Erndtefest
+dance, dances, dancing > Tanz Tänze Tanzen Tanzboden
+music, musician, musicians, instrument, instruments > Musik Musikanten Lied Instrumente
+legend, legends, saga, sagas, myth, myths, folklore, tale, tales > Sage Sagen Volkssage Glaube
+fairytale > Sage Sagen Märchen Volkssage
+superstition, superstitions, belief, beliefs > Aberglaube Volksglaube Glaube Aberglauben
+witch, witches, witchcraft, sorcery, magic, magical > Hexen Hexe Zauberei Drude
+wizard, sorcerer > Zauberer Zauberei Hexe Hexen
+ghost, ghosts, spirit, spirits, haunting, haunted > Geist Geister Gespenst Spuk
+devil > Teufel Teufelsberg Teufelskanzel Hexen
+dwarf, dwarfs, dwarves, gnome, gnomes, goblin, kobold > Zwerge Zwerg Zwergen Kobold
+giant, giants > Riesen Riese Hünen Sage
+dragon, dragons > Drache Drachen Sage
+wisp > Irrlicht Irrlichter Sage
+mermaid, nixie > Nixe Nixen Sage
+treasure, treasures, hoard > Schatz Schätze Schatzgräberei Schatzsage
+omen, omens, portent > Vorzeichen Vorbedeutung Zeichen Aberglaube
+calendar > Kalender Volkskalender Festtage Bauernregeln
+
+## EN economy: agriculture, livestock
+agriculture, farming, husbandry, agricultural > Landwirthschaft Ackerbau Landbau Bauern
+farmer, farmers, peasant, peasants, farm, farms > Bauer Bauern Landwirth Bauerngut
+estate, manor, manors > Gut Güter Rittergut Vorwerk
+field, fields, arable > Feld Felder Acker Äcker
+meadow, meadows, pasture, pastures > Wiese Wiesen Weide
+crop, crops > Feldfrüchte Früchte Ernte Anbau
+grain, cereal, cereals > Getreide Korn Roggen Weizen
+wheat > Weizen Getreide
+rye > Roggen Korn Getreide Roggenbrod
+barley > Gerste Hafer Getreide Sommerfrucht
+oats > Hafer Getreide Sommerfrucht Gerste
+flax > Flachs Leinwand Flachsbau Leinweber
+hemp > Hanf Flachs
+clover > Klee Kleebau Futter Wiese
+turnip, turnips > Rüben Rübe Futter
+hop, hops > Hopfen Hopfenbau Bier
+tobacco > Tabak Tabakfabrikation Tabaksfabrikation Rauchen
+fertilizer, fertiliser, manure > Dünger Düngung Mist Düngmittel
+plough, plow > Pflug Acker Pflügen
+sowing > Aussaat Saat Säen Samen
+threshing > Dreschen Drescher Dreschflegel Tenne
+rotation > Fruchtwechsel Dreifelderwirthschaft Brache
+yield, yields > Ertrag Erträge Ernte Reinertrag
+garden, gardens, gardening, gardener, gardeners, horticulture > Garten Gärten Gärtnerei Gartenbau
+livestock, cattle, cow, cows, ox, oxen, bovine > Vieh Rindvieh Rinder Viehzucht
+horse, horses > Pferde Pferd Pferdezucht Pferdebauern
+sheep, shepherd, shepherds > Schafe Schaf Schäferei Schäfer
+pig, pigs, swine, hog, hogs > Schweine Schwein Schweinezucht
+goat, goats > Ziegen Ziege Ziegenmilch Vieh
+poultry, chicken, chickens, hen, hens, goose, geese > Geflügel Hühner Gänse
+breeding, breed, breeds > Zucht Viehzucht
+herd, herds, herdsman > Heerde Hirt Hirten Vieh
+freehold > Bauerngut Freigut Bauerngüter Hufe
+cottager, cottagers > Häusler Häusern Häuslern Hausgenossen
+labourer, labourers, laborer, laborers, worker, workers, labour, labor > Arbeiter Taglöhner Tagelöhner Arbeit
+wage, wages, pay, salary, salaries > Lohn Taglohn Gehalt Besoldung
+price, prices, cost, costs > Preis Preise Kosten Werth
+
+## EN economy: forestry, mining, industry, trade
+forestry > Forstwirthschaft Forst Förster Waldungen
+logging, rafting, raft, rafts > Flößerei Flößen Floß Holzhandel
+charcoal > Köhler Köhlerei Kohlen Meiler
+tar, pitch, resin > Pech Harz Pechsiederei
+mining, mine, mines, miner, miners > Bergbau Bergwerk Grube Bergleute
+ore, ores > Erz Erze Eisenerz Kupfererz
+iron > Eisen Eisenerz Eisenstein Eisenwerk
+copper > Kupfer Kupfererze Kupferbergbau Kupferschiefer
+lead > Blei Bleiglanz Silber
+silver > Silber Silbererze Silbergrube Silberbergwerk
+gold > Gold Goldseifen Goldgruben
+tin > Zinn Zinngießer
+antimony > Antimon Antimonerz Erz
+alum, vitriol > Alaun Alaunwerk Alaunschiefer Vitriol
+coal, lignite > Kohle Braunkohle Steinkohle Kohlen
+salt, saltworks, saline, brine > Salz Saline Soole Salzwerk
+smelting, smelter, foundry, ironworks, forge, furnace > Hütte Hammerwerk Hochofen Schmelzhütte
+shaft, shafts, tunnel, tunnels, adit > Stollen Schacht Grube Gruben
+industry, industries, industrial > Industrie Gewerbe Fabrik Fabriken
+factory, factories, manufacture, manufactory > Fabrik Fabriken Fabrikation Manufactur
+textile, textiles, weaving, weaver, weavers, loom > Weberei Weber Webstuhl Tuchmacher
+wool, woollen, woolen, worsted > Wolle Wollindustrie Wollenweberei
+cotton > Baumwolle Baumwollspinnerei Baumwollfabrik Kattun
+linen > Leinwand Leinen Flachs Leinweber
+silk > Seide
+spinning, spinner, spinners > Spinnerei Spinnen Spinnstube Rockenstube
+knitting, hosiery, stocking, stockings > Strumpfwirkerei Strumpfwirker Strümpfe Strumpfwaaren
+clothmaker, clothmakers, draper > Tuch Tuchmacher Tuchfabrik Tuchmacherei
+leather, tanner, tanners, tannery, tanneries > Leder Gerber Gerberei Lohgerber
+dye, dyer, dyers, dyeing, dyeworks > Färberei Färber Farbe Farberden
+paper > Papier Papiermühle Buchdruckerei
+glass, glassworks, glassmaker > Glas Glashütte Glaser Glasmacher
+porcelain, china > Porzellan Porzellanfabrik Porzellanmaler Porzellanthon
+pottery, potter, potters, ceramics > Töpfer Töpferei Thon
+brick, bricks, tile, tiles, brickworks, brickyard > Ziegel Ziegelei Ziegelbrenner Ziegeleien
+limekiln > Kalkofen Kalkbrennerei Kalk Kalkbrüche
+brewery, breweries, brewing, brewer, brewers, brewhouse > Brauerei Brauhaus Brauer Bierbrauerei
+mill, mills, miller, millers > Mühle Mühlen Müller Mahlmühle
+sawmill > Schneidemühle Sägemühle Mühle
+watermill > Wassermühle Mühle Mühlen Wasserkraft
+windmill > Windmühle Mühle Mühlen Windmühlenberg
+steam > Dampfmaschine Dampf Maschine
+gunpowder, powder > Pulver Pulvermühle
+craft, crafts, handicraft, handicrafts, artisan, artisans, craftsmen, tradesmen, guild, guilds > Handwerk Handwerker Gewerbe Innung
+carpenter, carpenters, joiner, joiners > Zimmermann Tischler Zimmerleute Schreiner
+mason, masons, bricklayer > Maurer Maurermeister Steinmetz Maurergeselle
+smith, smiths, blacksmith, blacksmiths > Schmied Schmiede Hammerschmied Hufschmied
+shoemaker, shoemakers, cobbler > Schuhmacher Schuhmacher Schuhe
+tailor, tailors > Schneider Tracht
+baker, bakers, butcher, butchers > Bäcker Fleischer Metzger Backofen
+cooper, wheelwright, saddler > Böttcher Wagner Sattler Stellmacher
+occupation, occupations, profession, professions, trade, trades > Beruf Berufe Gewerbe Berufsklassen
+commerce, trading, merchant, merchants, shop, shops > Handel Kaufleute Kaufmann Handelsleute
+transport, traffic, communications, carriage > Verkehr Fuhrwerk Handel Straßenverkehr
+road, roads, highway, highways > Straße Straßen Chaussee Chausseen
+street, streets, lane > Straße Gasse Straßen Gassen
+bridge, bridges > Brücke Brücken Steinbrücke
+railway, railways, railroad, train, trains, station > Eisenbahn Bahnhof Eisenbahnen
+post, mail, postal > Post Postamt Poststraße Posten
+telegraph, telegram > Telegraph Telegraphenbureau Telegraphen Eisenbahn
+export, exports > Ausfuhr Absatz Handel
+import, imports > Einfuhr Bezug Handel Eingang
+inn, inns, tavern, taverns, pub, innkeeper > Wirthshaus Gasthof Schenke Gasthaus
+money, currency, coin, coins > Geld Münze Münzen Thaler
+thaler, taler, groschen, penny, pfennig > Thaler Gulden Groschen Pfennig
+measure, measures, measurement, weights > Maß Maaß Gewicht Maße
+bank, banks, savings > Sparkasse Bank Sparkassen Geldinstitute
+insurance > Versicherung Feuerversicherung
+debt, debts, loan, loans, credit > Schulden Schuld Darlehen Capital
+interest > Zinsen Zins Capital Verzinsung
+poverty, poor, beggar, beggars, begging, destitute > Armuth Arme Armen Bettler
+alms, charity, welfare, relief > Almosen Armenpflege Armenwesen
+foundation, foundations, endowment, endowments, bequest > Stiftung Stiftungen Vermächtniß Legat
+famine, hunger, scarcity > Theuerung Hungersnoth Mißwachs Noth
+fire, fires, blaze, conflagration > Brand Feuer Brände Feuersbrünste
+firefighting > Feuerspritze Feuerlöschanstalten Feuerwehr
+
+## EN state, law, church, school, history
+government, administration, authority, authorities, ministry > Regierung Verwaltung Behörde Behörden
+state, states, country > Staat Land Fürstenthum Staaten
+constitution, constitutional > Verfassung Staatsverfassung Verfassungen Grundgesetz
+parliament, assembly > Landtag Landstände Stände Ständisch
+election, elections, vote, voting, voter, voters > Wahl Wahlen Wähler Wahlrecht
+law, laws, statute, statutes, legislation > Gesetz Gesetze Recht Verordnung
+court, courts, justice, judge, judges, tribunal > Gericht Gerichte Justiz Richter
+jurisdiction > Gerichtsbarkeit Gericht Gerichte Rechtspflege
+crime, crimes, criminal, criminals, theft > Verbrechen Diebstahl Verbrecher Strafe
+punishment, punishments, penalty, prison, prisons, jail > Strafe Strafen Gefängniß Zuchthaus
+execution, executioner, gallows > Hinrichtung Galgen Scharfrichter Hochgericht
+police, gendarmerie > Polizei
+tax, taxes, taxation, duty, duties > Steuer Steuern Abgaben Zoll
+tariff, toll > Zoll Zollverein Zölle Geleit
+tithe, tithes > Zehnt Zehnten Decem Abgaben
+revenue, revenues, budget, finance, finances, income, expenditure > Einnahmen Ausgaben Staatshaushalt Finanzen
+domain, domains, demesne > Domänen Kammergut Kammergüter Domäne
+fief, fiefs, feudal, feudalism, vassal, vassals > Lehen Lehn Lehnsherr Lehnsverhältnisse
+serf, serfs, serfdom, bondage > Leibeigenschaft Leibeigene Frohnen Unterthanen
+corvee > Frohnen Frohndienste Frohn Dienste
+rent, rents, tenant, tenants > Pacht Zins Zinsen Pachter
+inheritance, inherit, heir, heirs, succession > Erbfolge Erbe Erben Erbrecht
+partition, division, divide, divided > Theilung Landestheilung Erbtheilung Landestheile
+military, army, soldier, soldiers, conscription, recruit, recruits > Militär Soldaten Heer Conscription
+war, wars, warfare > Krieg Kriege Kriegszeit Kriegsleiden
+battle, battles, siege, skirmish, fight, fighting > Schlacht Gefecht Belagerung Kampf
+troops, regiment, regiments, garrison > Truppen Regiment Militär Soldaten
+castle, castles, fortress, fortification, fortifications > Schloß Burg Festung Schlösser
+palace, palaces > Schloß Residenz Schlösser
+church, churches > Kirche Pfarrei Gotteshaus Pfarrer
+parish, parishes > Pfarrei Parochie Kirchspiel Pfarrer
+clergy, priest, priests, pastor, minister, preacher, vicar, rector > Pfarrer Geistlichen Pastor Superintendent
+sermon, service, worship, liturgy > Predigt Gottesdienst Liturgie Kirche
+bell, bells > Glocke Glocken Geläute
+organ, organs > Orgel Orgelbauer Kirche Orgeln
+altar, altars > Altar Altäre Altarschrein Kirche
+pulpit > Kanzel Kirche Predigt Teufelskanzel
+chapel, chapels > Kapelle Capelle Kapellen Kirche
+tower, towers, steeple, spire > Thurm Kirchthurm Thürme Glockenthurm
+visitation > Kirchenvisitation Visitation Visitatoren Kirchenvisitationsacten
+patron, patronage > Patronat Collatur Kirchenpatron Kirchensatz
+monastery, monasteries, convent, convents, abbey, monk, monks, nun, nuns, cloister > Kloster Klöster Mönche Nonnen
+teutonic > Deutschen Orden Ritter Deutschherren
+school, schools, schooling, pupil, pupils > Schule Schulen Schüler Schulwesen
+teacher, teachers, schoolmaster, schoolteacher > Lehrer Schulmeister Lehrerstelle Schule
+education, educational > Bildung Unterricht Schulwesen Erziehung
+university, universities, student, students > Universität Studenten Hochschule Studirende
+seminary, seminar > Seminar Lehrerseminar Seminaristen Seminars
+attendance, truancy > Schulbesuch Schulversäumnisse Schule Schüler
+literacy, reading, illiteracy > Lesen Schreiben Schulbildung Unterricht
+library, libraries > Bibliothek Bibliotheken Volksbibliothek Leseverein
+museum, collection, collections, archive, archives > Sammlung Sammlungen Archiv Alterthumsverein
+society, societies, association, associations, club, clubs > Verein Vereine Gesellschaft Vereinswesen
+newspaper, newspapers, press, journal, journals > Zeitung Zeitungen Volkszeitung Wochenblatt
+printing, printer, printers > Buchdruckerei Druckerei Buchdrucker Druck
+book, books, bookseller > Buch Bücher Buchhandlung Buchhändler
+theatre, theater > Schauspielhaus Theatervorstellung Theaterplatz Schauspielgesellschaften
+history, historical, chronicle, chronicles > Geschichte Chronik Geschichtliches Chroniken
+medieval, mediaeval > Mittelalter Mittelalters mittelalterlichen Vorzeit
+prehistoric, prehistory, ancient, antiquity, heathen, pagan > Vorzeit Urzeit heidnischen Heiden
+origin, origins, founding > Ursprung Gründung Entstehung Anfang
+reformation > Reformation Kirchenvisitation Lutherische Luther
+hussite, hussites > Hussiten Hussitenkrieg Hussitenkriege
+thirty > jährigen Krieges jährige Krieg
+seven > siebenjährigen siebenjährige Krieg Krieges
+napoleonic, napoleon > Napoleon Napoleons Franzosen Rheinbund
+french, france > Franzosen französischen französische Frankreich
+prussia, prussian, prussians > Preußen Preußische Preußens preußischen
+bavaria, bavarian, bavarians > Bayern Baiern Bayerische bayerischen
+saxony, saxon, saxons > Sachsen Sächsische Sächsischen Kursachsen
+bohemia, bohemian, bohemians > Böhmen Böhmische böhmischen Böhmen
+austria, austrian > Oesterreich Oesterreichische Kaiser Wien
+franconia, franconian > Franken Fränkische fränkischen Frankenwald
+thuringia, thuringian > Thüringen Thüringer thüringischen Thüringens
+sweden, swedish, swedes > Schweden Schwedische schwedischen Schwedenschanze
+prince, princes, ruler, rulers, sovereign, lord, lords > Fürst Landesherr Fürsten Regent
+count, counts, countess > Graf Grafen Gräfin Herr
+duke, dukes, king, kings, emperor, emperors > Herzog König Kaiser Kurfürst
+reussian > Reuß Reußen Fürstenhaus Haus
+knight, noble, nobles, nobility, aristocracy > Ritter Adel Edlen Rittergut
+bailiff, bailiffs, advocate > Voigt Voigte Voigtei Voigten
+servile, subjects > Unterthanen Leibeigene Bauern
+
+## DE modern -> 1870 wording (words the book writes differently)
+Vogt, Vögte > Voigt Voigte Voigtei Voigten
+Vogtland, Vogtländer, vogtländisch > Voigtland Voigtländer voigtländischen Voigtlande
+Dreißigjähriger, Dreißigjährigen, Dreissigjähriger, dreissigjährig > jährigen jährige Krieges Krieg
+Siebenjähriger, Siebenjährigen > siebenjährigen siebenjährige Krieges Krieg
+Einwohnerzahl, Bevölkerungszahl, Bevölkerungsstand > Einwohner Bevölkerung Seelenzahl Volkszahl
+Volkszählung > Zählung Volkszahl Seelenzahl Einwohnerzahl
+Bevölkerungsentwicklung, Bevölkerungswachstum, Bevölkerungszunahme > Bevölkerungszunahme Volkszunahme Volkszahl Bevölkerung
+Bevölkerungsdichte > Bevölkerungsdichtigkeit Familiendichtigkeit Volkszahl Einwohner
+Geburtenrate, Geburtenzahl > Geborene Geburten Todtgeborene
+Sterberate, Sterbefälle, Todesfälle > Gestorbene Sterblichkeit Todesfälle Sterbefälle
+Kindersterblichkeit > Kindersterblichkeit Säuglinge Sterblichkeit Gestorbene
+Lebenserwartung, Lebensdauer > Lebensdauer Lebensalter Sterblichkeit Alter
+Eheschließung, Eheschließungen, Heiratsalter, Heirat > Heirath Getraute Ehe Ehen
+Geburtsort, Herkunft > Geburtsort Heimath Zuzug
+Seuche, Seuchen > Seuchen Seuche Epidemie Pest
+Epidemie, Epidemien > epidemische Seuchen Pest Krankheiten
+Krankheit, Krankheiten > Krankheit Krankheiten Volkskrankheit Seuchen
+Tuberkulose, Schwindsucht > Schwindsucht Auszehrung Lungenschwindsucht Krankheiten
+Geisteskrankheit, Geisteskranke > Geisteskranke Irre Blödsinnige Wahnsinn
+Behinderung, Behinderte > Taubstumme Blinde Blödsinnige Gebrechliche
+Arbeiter, Arbeiterin > Taglöhner Arbeiter Tagelöhner Fabrikarbeiter
+Tagelöhner > Taglöhner Taglohn Tagelöhner Arbeiter
+Armut, Armen, Armenpflege > Armuth Armenwesen Armenpflege Armenhaus
+Arbeitslosigkeit, Erwerbslosigkeit > Noth Armuth
+Steuern, Abgaben, Gebühren > Steuer Abgaben Gefälle Zinsen
+Steuerwesen, Besteuerung > Steuer Steuern Steuerwerth Steuereinheiten
+Einkommen, Verdienst > Einkommen Einkünfte Verdienst Gehalt
+Gehalt, Besoldung, Bezüge > Besoldung Gehalt Einkommen Pfarrbesoldung
+Lohn, Löhne > Taglohn Löhne Lohn Tagelöhne
+Preise > Preis Preise Werth Kosten
+Schulden, Verschuldung > Schulden Schuld Hypotheken Capital
+Staatshaushalt, Haushalt, Etat > Staatshaushalt Einnahmen Ausgaben Finanzen
+Gemeinde, Kommune, Kommunalverwaltung > Gemeinde Gemeinden Gemeindeverfassung Gemeindeordnung
+Bürgermeister > Bürgermeister Schultheiß Gemeindevorstand Stadtrath
+Gemeinderat > Gemeinderath Gemeindevorstand Gemeinderathe Gemeindeverfassung
+Landrat > Landrath Landrathsamt Landrathsbezirk Landrathsämter
+Landkreis, Kreis > Landrathsbezirk Landrathsamt Kreisgericht Bezirk
+Verwaltungsbezirk, Amtsbezirk > Landrathsbezirk Amtsbezirk Justizamt Bezirk
+Militärdienst, Wehrpflicht, Wehrdienst > Militärpflichtige Conscription Militär
+Rekruten > Recruten Conscription Militär Militärpflichtige
+Gericht > Gericht Gerichte Gerichtsbarkeit Justiz
+Rechtswesen > Justiz Rechtspflege Gerichte Justizamt
+Gefängnis, Zuchthaus, Strafanstalt > Gefängniß Zuchthaus Gefängnisse
+Todesstrafe, Hinrichtungen > Hinrichtung Scharfrichter Galgen Hochgericht
+Polizei > Polizei Polizeiverwaltung Sicherheit
+Feuerwehr, Löschwesen > Feuerspritze Feuerlöschanstalten Feuerwehr
+Brandversicherung, Gebäudeversicherung > Brandversicherungsverein Feuerversicherung Versicherung
+Brandunglück, Großbrand, Stadtbrand, Brandkatastrophe > Brand Brände Feuersbrunst Feuersbrünste
+Feuersbrunst > Brand Brände Feuer Feuersbrünste
+Hochwasserkatastrophe, Überschwemmung > Hochwasser Überschwemmung Überschwemmungen Wasserfluth
+Wasserversorgung, Trinkwasser > Wasserleitungen Brunnen Wasserleitung Wassermangel
+Stromerzeugung, Wasserkraft > Wasserkraft Mühlen Wasser
+Textilindustrie, Textilgewerbe > Weberei Wollindustrie Tuchfabrikation Spinnerei
+Tuchindustrie, Tuchproduktion > Tuchfabrikation Tuchmacher Tuchmacherei Wollindustrie
+Weberei, Weber > Weberei Weber Webermeister
+Wollindustrie > Wollindustrie Kammgarnspinnerei Wollkämmerei
+Baumwollindustrie > Baumwollspinnerei Baumwollfabrik Baumwolle Baumwollenwaaren
+Eisenindustrie, Eisenverarbeitung > Eisenindustrie Eisenwerk Eisenhammer Eisengießerei
+Metallindustrie, Metallverarbeitung > Eisenhammer Kupferhammer Hammerwerke Eisengießerei
+Bergwerk, Bergwerke > Bergwerk Bergbau Grube Gruben
+Bergarbeiter, Bergleute, Bergmann > Bergleute Bergmann Hüttenleute
+Erzabbau, Erzbergbau > Erzbergbau Bergbau Erze Gruben
+Steinkohle > Steinkohle Kohle Steinkohlen Braunkohle
+Hüttenwerk, Hüttenwesen > Hüttenwerk Hammerwerk Hüttenwesen Hammerwerke
+Landwirtschaft, Agrarwirtschaft > Landwirthschaft Ackerbau Landbau Agricultur
+Ackerbau, Anbau > Ackerbau Landwirthschaft Feldbau Anbau
+Kartoffelanbau, Kartoffelernte > Kartoffelbau Kartoffeln Kartoffel
+Getreideanbau, Getreidebau > Getreide Feldfrüchte Korn
+Obstanbau, Obstkultur, Obstzucht > Obstbau Obstbäume Obstzucht Obstcultur
+Weinanbau > Weinbau Wein Weinberge Weinberg
+Viehhaltung, Tierhaltung, Tierzucht > Viehzucht Vieh Rindviehzucht Viehstand
+Schafzucht, Schafhaltung > Schafzucht Schäferei Schafe Schaf
+Pferdezucht > Pferdezucht Pferde Pferd Pferdebauern
+Imkerei, Bienenhaltung > Bienenzucht Bienen Bienenstöcke Honig
+Fischzucht, Teichwirtschaft > Fischzucht Teiche Fischteiche
+Forstwirtschaft, Waldbewirtschaftung > Forstwirthschaft Waldungen Forst Waldwirthschaft
+Holzwirtschaft, Holzhandel, Holzeinschlag > Holzhandel Nutzholz Brennholz Holz
+Waldbestand, Waldfläche > Waldungen Waldfläche Wald Waldareal
+Jagdwesen, Jäger > Jagd Jäger Wild
+Handwerker, Gewerbetreibende > Handwerker Gewerbetreibende Handwerk Gewerbe
+Gewerbefreiheit, Gewerbeordnung > Gewerbefreiheit Gewerbeordnung Gewerbe Handwerk
+Handelsverkehr, Warenverkehr > Handel Verkehr Handelsverkehr Handelsleute
+Eisenbahnverbindung, Bahnlinie, Bahnstrecke > Eisenbahn Eisenbahnen Bahnhof
+Straßenverkehr, Verkehrswege > Straßenverkehr Straßen Chausseen Verkehr
+Straßenbau, Chausseebau > Chausseebau Straßenbau Chaussee Straßen
+Währung, Zahlungsmittel > Münze Geld Thaler
+Maße, Gewichte, Maßeinheiten, Umrechnung > Maaß Maß Gewicht Maße
+Kirchenneubau, Kirchenbauten > Kirchenbau Kirchenneubau Kirche Neubau
+Kirchengemeinde, Kirchenspiel > Pfarrei Kirchspiel Kirchengemeinde Parochie
+Pfarrstelle, Pfarramt > Pfarrei Pfarramt Pfarrstellen Pfarrer
+Geistlicher, Geistliche > Pfarrer Geistlichen Pastor Superintendent
+Kirchenbuch > Kirchenbuch Kirchenbücher Taufregister Matrikel
+Kirchenvisitation > Kirchenvisitation Visitation Visitatoren Kirchenvisitationsacten
+Gottesdienst > Gottesdienst Predigt Kirche Liturgie
+Konfession, Religionszugehörigkeit > Confession Religion Protestanten Katholiken
+Katholiken > Katholiken Katholische katholisch katholischer
+Konfirmation > Confirmation Confirmanden Kirche
+Schulwesen, Bildungswesen > Schulwesen Schule Schulen Unterricht
+Schulpflicht, Schulbesuch > Schulbesuch Schulpflicht Schule Schulversäumnisse
+Lehrer, Lehrerin > Lehrer Schulmeister Lehrerstelle Lehrerinnen
+Gymnasium, Realschule > Gymnasium Realschule Gymnasiums Bürgerschule
+Waisenhaus, Waisenkinder > Waisenhaus Waisen Waisenkinder Rettungshaus
+Krankenhaus, Spital > Krankenhaus Hospital Spital Krankenhäuser
+Ärzte, Arzt > Arzt Aerzte Doctor Medicinalwesen
+Hebamme > Hebamme Hebammen Wochenbett Geburt
+Volksmedizin, Hausmittel > Volksmedicin Heilmittel Hausmittel Aberglaube
+Hexenverbrennung, Hexenprozess, Hexenverfolgung > Hexen Verbrannt Hexenglaube Zauberei
+Hexerei, Zauberei > Zauberei Hexen Zauberer Zaubermittel
+Aberglaube, Volksglaube > Aberglaube Volksglaube Glaube Hexen
+Geister, Gespenster, Spuk > Geister Gespenster Spuk Geist
+Märchen > Sage Sagen Volkssage Zwerge
+Sagen, Sagenstoff > Sage Sagen Volkssage
+Brauchtum, Volksbräuche, Volkskunde > Brauch Sitte Gebräuche Volksglaube
+Hochzeitsbräuche, Hochzeitsbrauch, Hochzeitsgebräuche > Hochzeit Hochzeiten Polterabend Brautzug
+Hochzeitsfeier, Brautwerbung > Hochzeit Hochzeiten Brautwerbung Brautzug
+Taufbräuche, Taufbrauch > Taufe Taufen Pathen Gevatter
+Beerdigung, Beerdigungen, Totenbrauch, Totenbräuche, Bestattung > Beerdigung Begräbniß Leichen Leichenzug
+Friedhof > Friedhof Kirchhof Gottesacker Leichenhof
+Weihnachtsbräuche > Weihnachten Weihnacht Christbescheerung Zwölfen
+Osterbräuche > Ostern Osterei Osterwasser Osterfeuer
+Fastnacht, Fasching, Karneval > Fastnacht Fastnachtbutter Fastnachtsnarr
+Kirchweih, Kirmes > Kirchweih Kirmes Kirchweihfest Kirmeß
+Erntefest, Erntedank > Erntefest Erndtefest Ernte Erndte
+Johannisfeuer, Sonnenwendfeuer, Sonnenwende > Johannisfeuer Sonnenwende Sonnenwendfeuer Johannis
+Maibaum, Maifeier > Mai
+Spinnstube, Rockenstube > Rockenstube Spinnstube Spinnen Rockenstuben
+Tracht, Trachten, Kleidung > Tracht Kleidung Trachten Kleid
+Volkstracht, Volkskleidung > Tracht Kleidung Trachten
+Ernährung, Speisen, Essgewohnheiten > Nahrung Kost Speise Speisen
+Essen, Mahlzeit, Mahlzeiten > Essen Mahlzeit Speisen Kost
+Bier, Biergewohnheiten > Bier Bierbrauerei Brauerei Lagerbier
+Brauerei, Brauwesen > Brauerei Brauhaus Bierbrauerei Brauberechtigte
+Mundart, Mundarten > Mundart Mundarten Dialekt Sprachproben
+Sprachproben, Dialektproben > Sprachproben Mundartproben Mundart Dialekt
+Familiennamen, Nachnamen > Familiennamen Geschlechtsnamen Namen Zunamen
+Ortsnamen, Siedlungsnamen > Ortsnamen Namen Ortsnamen Namensdeutung
+Ortsnamenkunde, Namenskunde > Namensdeutung Ortsnamen Namen Ableitung
+Siedlung, Besiedlung, Besiedelung > Ansiedlung Anbau Ansiedelung Colonisation
+Urgeschichte, Frühgeschichte > Vorzeit Urzeit Alterthum Heidnische
+Altertum, Altertümer > Alterthum Alterthümer Alterthumsverein Vorzeit
+Mittelalter > Mittelalter Mittelalters mittelalterlichen Vorzeit
+Fürstentum, Fürstenhaus > Fürstenthum Fürstenhaus Fürstenthums Haus
+Fürst, Fürstin > Fürst Fürsten Fürstin Landesherr
+Herrscher, Regent, Landesherr > Landesherr Regent Fürst Landesherrschaft
+Adel, Adlige, Adelsfamilie > Adel Adeligen Edlen Rittergut
+Rittergutsbesitzer, Gutsherr, Gutsbesitzer > Rittergutsbesitzer Gutsbesitzer Rittergut Besitzer
+Leibeigenschaft, Leibeigene > Leibeigenschaft Leibeigene Frohnen Unterthanen
+Zehnt, Zehnten > Zehnt Zehnten Decem Abgaben
+Lehnswesen, Lehnsherr > Lehen Lehn Lehnsherr Lehnsherrschaft
+Ablösung, Ablösungen > Ablösung Ablösungen Frohnablösungen Ablösungsgesetz
+Landesteilung, Erbteilung > Landestheilung Theilung Erbtheilung Landestheile
+Erbfolge, Thronfolge > Erbfolge Erbe Regierungsnachfolger Primogenitur
+Kloster, Klöster > Mönche Nonnen Klostergut Klosterbesitz
+Ritterorden > Deutschen Orden Ritter Orden
+Kreuzzug, Kreuzzüge > Kreuzzug Kreuzzuge Kreuzfahrer Ritter
+Bauernaufstand, Bauernkrieg > Bauernkrieg Bauernaufruhr Bauernkriege Aufruhr
+Hussitenkriege, Hussitenkrieg > Hussiten Hussitenkrieg Hussitenkriege Aussig
+Befreiungskriege, Befreiungskrieg > Befreiungskriege Befreiungskriege Befreiungskrieg Napoleon
+Napoleonische, napoleonisch > Napoleon Napoleons Napoleonischen Franzosen
+Rheinbund, Rheinbundzeit > Rheinbunde Rheinbund Napoleon Deutschen Bund
+Zollverein > Zollverein Zollvereins Zoll Handel
+Revolution, Revolte, Aufstand > Revolution Revolte Aufruhr Straßenkampf
+Brandenburgisch, Brandenburger > Brandenburg brandenburgischen Preußen Markgraf
+Burggraf, Burggrafen > Burggraf Burggrafen Nürnberg Burggrafschaft
+Markgraf, Markgrafen > Markgraf Markgrafen Meißen Markgrafschaft
+Wettiner, Wettin > Markgrafen Meißen Sachsen Wettin
+
+## DE spa and place-name vocabulary
+Untermhaus > Untermhaus Gera Unter
+
+Bad, Kurort, Badeort, Kurbad > Badeanstalt Soolbad Heilquelle Bäder

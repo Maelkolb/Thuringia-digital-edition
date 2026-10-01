@@ -103,8 +103,7 @@
      2310,
      "Natural Object"
     ]
-   ],
-   "sec": "t2-1"
+   ]
   },
   {
    "id": "b2",
@@ -147,14 +146,13 @@
      576,
      "Natural Object"
     ]
-   ],
-   "sec": "t2-1"
+   ]
   },
   {
    "id": "b3",
    "type": "paragraph",
    "src": 2,
-   "text": "Töppeln (urkundlich 1333 Topelin, Tepiln, 1533 Doppiln, im Volke „Teppeln“), eben, mild und angenehm gelegenes Thaldorf mit einem Rittergute, 1 1/2 Stunde WNW. von Gera, an der Straße von da nach Kraftsdorf, in dem hier ziemlich ausgebauchten Grunde, wo der Saarbach in den Erlbach einmündet, zwischen sechs mäßigen Höhen, längs der Straße von NW. nach SO. zweizeilig mit 2 kleinen Nebengassen erbaut, befaßt 1 Gemeinde- und 1 Spritzenhaus und mit Einschlusse des Ritterguts 43 Privathäuser mit 18 Scheunen und 38 Höfen, in 46 Familien 244 (1861: 217) Seelen und an Vieh 14 Pf., 75 K., 253 Schf. (Rittergut), 60 Schw., 15 Z., 100 G., 20 Bnst. Bis",
+   "text": "Töppeln (urkundlich 1333 Topelin, Tepiln, 1533 Doppiln, im Volke „Teppeln“), eben, mild und angenehm gelegenes Thaldorf mit einem Rittergute, 1 1/2 Stunde WNW. von Gera, an der Straße von da nach Kraftsdorf, in dem hier ziemlich ausgebauchten Grunde, wo der Saarbach in den Erlbach einmündet, zwischen sechs mäßigen Höhen, längs der Straße von NW. nach SO. zweizeilig mit 2 kleinen Nebengassen erbaut, befaßt 1 Gemeinde- und 1 Spritzenhaus und mit Einschlusse des Ritterguts 43 Privathäuser mit 18 Scheunen und 38 Höfen, in 46 Familien 244 (1861: 217) Seelen und an Vieh 14 Pf., 75 R., 253 Schf. (Rittergut), 60 Schw., 15 Z., 100 G., 20 Bnst. Bis",
    "spans": [
     [
      0,
@@ -202,23 +200,23 @@
      "Animal"
     ]
    ],
-   "continues": true,
-   "sec": "t2-1"
+   "continues": true
   }
  ],
  "footnotes": [],
- "corrections": [],
+ "corrections": [
+  {
+   "rule": "facsimile_correction",
+   "before": "75 K.",
+   "after": "75 R.",
+   "source": "G1",
+   "n": 1
+  }
+ ],
  "provenance": {
   "source": "colab-2026-03",
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-05T12:08:49.381487",
   "early_schema": false
- },
- "section_path": [
-  "t2",
-  "t2-1"
- ],
- "sections": [
-  "t2-1"
- ]
+ }
 }

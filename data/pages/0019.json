@@ -754,8 +754,7 @@
      "Thurm."
     ]
    ],
-   "caption": null,
-   "sec": "t1-1-2"
+   "caption": null
   },
   {
    "id": "b2",
@@ -773,8 +772,7 @@
      114,
      "Location"
     ]
-   ],
-   "sec": "t1-1-2"
+   ]
   },
   {
    "id": "b3",
@@ -842,8 +840,7 @@
      178,
      "Location"
     ]
-   ],
-   "sec": "t1-1-2"
+   ]
   },
   {
    "id": "b4",
@@ -916,21 +913,14 @@
      192,
      "Location"
     ]
-   ],
-   "sec": "t1-1-2"
+   ]
   },
   {
    "id": "b5",
    "type": "heading",
    "src": 4,
    "text": "3. Größe oder Umfang der Bodenfläche des Landes.",
-   "spans": [],
-   "opens": [
-    "t1-1-3",
-    "t1-1-3"
-   ],
-   "sec": "t1-1-3",
-   "level": 4
+   "spans": []
   },
   {
    "id": "b6",
@@ -948,8 +938,7 @@
      46,
      "Person"
     ]
-   ],
-   "sec": "t1-1-3"
+   ]
   },
   {
    "id": "b7",
@@ -1064,8 +1053,7 @@
      ""
     ]
    ],
-   "caption": null,
-   "sec": "t1-1-3"
+   "caption": null
   },
   {
    "id": "b8",
@@ -1084,8 +1072,7 @@
      "Artefact"
     ]
    ],
-   "continues": true,
-   "sec": "t1-1-3"
+   "continues": true
   }
  ],
  "footnotes": [],
@@ -1106,14 +1093,5 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-01-06T01:52:45.490826",
   "early_schema": false
- },
- "section_path": [
-  "t1",
-  "t1-1",
-  "t1-1-2"
- ],
- "sections": [
-  "t1-1-2",
-  "t1-1-3"
- ]
+ }
 }

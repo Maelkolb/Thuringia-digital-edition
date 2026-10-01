@@ -18,7 +18,7 @@
    "src": 0,
    "items": [
     {
-     "text": "Fundhäuſer (Benzka) 817.",
+     "text": "Fundhäuser (Benzka) 817.",
      "spans": [
       [
        0,
@@ -1562,23 +1562,19 @@
       ]
      ]
     }
-   ],
-   "sec": "ortsregister"
+   ]
   }
  ],
  "footnotes": [],
- "corrections": [],
+ "corrections": [
+  {
+   "rule": "resolve_long_s"
+  }
+ ],
  "provenance": {
   "source": "colab-2026-03",
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-04T21:45:27.409152",
   "early_schema": false
- },
- "section_path": [
-  "back",
-  "ortsregister"
- ],
- "sections": [
-  "ortsregister"
- ]
+ }
 }

@@ -84,14 +84,13 @@
      "Location"
     ]
    ],
-   "continued": true,
-   "sec": "t2-1"
+   "continued": true
   },
   {
    "id": "b2",
    "type": "paragraph",
    "src": 1,
-   "text": "Lauenhain (urkundlich Lehenhagen und 1364 Lewenhayn, im Volke „Lonhên“), eine im N. von Söllnitz freundlich gelegene Gruppe von 5 zweistöckigen Bauernhöfen, 2 mit Stroh und 3 mit Ziegeln gedeckt, ist der Gemeinde und Kirche zu Söllnitz und der Schule zu Wernsdorf einverleibt und wird stets unter dem Gesammtnamen Söllnitz mit Lauenhain aufgeführt. Der Ort, 2 große und 2 kleine Bauerngüter und 1 Häusler begreifend, ist bemittelt und durch tüchtigen Feldbau wohlhabend.",
+   "text": "Lauenhain (urkundlich Lehenhagen und 1364 Lewenhayn, im Volke „Lonhên“), eine im N. von Söllmnitz freundlich gelegene Gruppe von 5 zweistöckigen Bauernhöfen, 2 mit Stroh und 3 mit Ziegeln gedeckt, ist der Gemeinde und Kirche zu Söllmnitz und der Schule zu Wernsdorf einverleibt und wird stets unter dem Gesammtnamen Söllmnitz mit Lauenhain aufgeführt. Der Ort, 2 große und 2 kleine Bauerngüter und 1 Häusler begreifend, ist bemittelt und durch tüchtigen Feldbau wohlhabend.",
    "spans": [
     [
      0,
@@ -100,37 +99,36 @@
     ],
     [
      88,
-     96,
+     97,
      "Location"
     ],
     [
-     227,
-     235,
+     228,
+     237,
      "Location"
     ],
     [
-     254,
-     263,
+     256,
+     265,
      "Location"
     ],
     [
-     314,
-     322,
+     316,
+     325,
      "Location"
     ],
     [
-     327,
-     336,
+     330,
+     339,
      "Location"
     ]
-   ],
-   "sec": "t2-1"
+   ]
   },
   {
    "id": "b3",
    "type": "paragraph",
    "src": 2,
-   "text": "Die Wüstung Beizdorf (1333 Beczelingesdorf, 1364 Beczelinsdorf), im Laufe der Zeit unter den verschiedenen Namen Beizdorf, Bözdorf, Bizdorf, Baizdorf, Exdorf, Bölsdorf, Brölsdorf vorkommend, liegt südöstlich von Söllnitz nach Caasen zu, am Beginne einer kleinen Einsenkung zum Rothenbach. Die Wüstungsfelder, die theils zu Söllnitz, theils zu Wernsdorf geschlagen sind, heißen noch die beiz- oder bölsdorfer Felder. Ehemalige Keller, die man daselbst getroffen, ein Teich, der exdorfer Teich genannt, die alte Schäferei zu Bizdorf und die sog. beizdorfer Gärten und Felder erinnern noch heute an den untergegangenen Ort. Daß sein ursprünglicher Name Bezlingsdorf, zusammengezogen Beizdorf war und daß daselbst sich ein Burgsitz und Rittergut vorfand, bezeugt ein im Jahre 1125 urkundlich neben und mit Luph von Gera vorkommender Ludolph (Luph) von Beizdorf. Wahrscheinlich ist, daß das frühzeitig zerstörte Gut Beizdorf nach Söllnitz (Vordersöllnitz) verlegt wurde, daher sich auch die Doppelnatur von Söllnitz erklärt. Uebrigens dürften die zwei verschiedenen Namensgruppen Beizdorf (Bizdorf, Exdorf) und Bölsdorf oder Brölsdorf auf zwei verschiedene Bestandtheile der alten Wüstungsmarkung hindeuten.",
+   "text": "Die Wüstung Betzdorf (1333 Beczelingesdorf, 1364 Peczelinsdorf), im Laufe der Zeit unter den verschiedenen Namen Betzdorf, Bözdorf, Bizdorf, Baizdorf, Exdorf, Bölsdorf, Brölsdorf vorkommend, liegt südöstlich von Söllnitz nach Caasen zu, am Beginne einer kleinen Einsenkung zum Rothenbach. Die Wüstungsfelder, die theils zu Söllnitz, theils zu Wernsdorf geschlagen sind, heißen noch die beiz- oder bölsdorfer Felder. Ehemalige Keller, die man daselbst getroffen, ein Teich, der exdorfer Teich genannt, die alte Schäferei zu Bizdorf und die sog. beizdorfer Gärten und Felder erinnern noch heute an den untergegangenen Ort. Daß sein ursprünglicher Name Bezlingsdorf, zusammengezogen Betzdorf war und daß daselbst sich ein Burgsitz und Rittergut vorfand, bezeugt ein im Jahre 1125 urkundlich neben und mit Luph von Gera vorkommender Ludolph (Luph) von Betzdorf. Wahrscheinlich ist, daß das frühzeitig zerstörte Gut Betzdorf nach Söllnitz (Vordersöllnitz) verlegt wurde, daher sich auch die Doppelnatur von Söllnitz erklärt. Uebrigens dürften die zwei verschiedenen Namensgruppen Betzdorf (Bizdorf, Exdorf) und Bölsdorf oder Brölsdorf auf zwei verschiedene Bestandtheile der alten Wüstungsmarkung hindeuten.",
    "spans": [
     [
      12,
@@ -187,8 +185,7 @@
      1010,
      "Location"
     ]
-   ],
-   "sec": "t2-1"
+   ]
   },
   {
    "id": "b4",
@@ -221,23 +218,37 @@
    "word_division": {
     "word": "Dorfsmitte",
     "part": "Dorfs-"
-   },
-   "sec": "t2-1"
+   }
   }
  ],
  "footnotes": [],
- "corrections": [],
+ "corrections": [
+  {
+   "rule": "facsimile_correction",
+   "before": "Söllnitz",
+   "after": "Söllmnitz",
+   "source": "G2",
+   "n": 3
+  },
+  {
+   "rule": "facsimile_correction",
+   "before": "Beizdorf",
+   "after": "Betzdorf",
+   "source": "G2",
+   "n": 6
+  },
+  {
+   "rule": "facsimile_correction",
+   "before": "Beczelinsdorf",
+   "after": "Peczelinsdorf",
+   "source": "G2",
+   "n": 1
+  }
+ ],
  "provenance": {
   "source": "colab-2026-03",
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-04T15:40:18.470196",
   "early_schema": false
- },
- "section_path": [
-  "t2",
-  "t2-1"
- ],
- "sections": [
-  "t2-1"
- ]
+ }
 }

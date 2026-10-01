@@ -786,17 +786,14 @@
      ""
     ]
    ],
-   "caption": null,
-   "sec": "t1-2-1"
+   "caption": null
   },
   {
    "id": "b2",
    "type": "heading",
    "src": 1,
    "text": "8) Die Bevölkerung des Landes nach Geschlecht und Alter unter und über 14 Jahre (1837-1867):",
-   "spans": [],
-   "sec": "t1-2-1",
-   "level": 5
+   "spans": []
   },
   {
    "id": "b3",
@@ -1536,8 +1533,7 @@
      "10060"
     ]
    ],
-   "caption": null,
-   "sec": "t1-2-1"
+   "caption": null
   }
  ],
  "footnotes": [],
@@ -1567,13 +1563,5 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-03T15:08:55.781146",
   "early_schema": false
- },
- "section_path": [
-  "t1",
-  "t1-2",
-  "t1-2-1"
- ],
- "sections": [
-  "t1-2-1"
- ]
+ }
 }

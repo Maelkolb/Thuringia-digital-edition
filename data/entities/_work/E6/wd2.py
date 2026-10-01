@@ -1,13 +1,17 @@
-import sys,json,time,urllib.request,urllib.parse
+import sys,json,time,urllib.request,urllib.parse,urllib.error
 UA={"User-Agent":"reuss-edition/1.0 (scholarly digital edition; contact: edition maintainer)"}
 def get(params):
     url="https://www.wikidata.org/w/api.php?"+urllib.parse.urlencode(params)
-    for a in range(4):
+    for a in range(6):
         try:
             with urllib.request.urlopen(urllib.request.Request(url,headers=UA),timeout=30) as r:
+                time.sleep(1.0)
                 return json.loads(r.read().decode('utf-8'))
+        except urllib.error.HTTPError as e:
+            w=int(e.headers.get('Retry-After','0') or 0) if e.code==429 else 0
+            time.sleep(max(w,8*(a+1)))
         except Exception as e:
-            time.sleep(2*(a+1))
+            time.sleep(3*(a+1))
     return None
 def search(t,lang='de',limit=7):
     d=get({"action":"wbsearchentities","search":t,"language":lang,"uselang":lang,"format":"json","limit":limit})

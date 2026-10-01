@@ -73,8 +73,7 @@
    "word_division": {
     "word": "gegekommen",
     "part": "gekommen"
-   },
-   "sec": "t1-5-2"
+   }
   },
   {
    "id": "b2",
@@ -172,8 +171,7 @@
      2229,
      "Location"
     ]
-   ],
-   "sec": "t1-5-2"
+   ]
   },
   {
    "id": "b3",
@@ -192,8 +190,7 @@
      "Person"
     ]
    ],
-   "continues": true,
-   "sec": "t1-5-2"
+   "continues": true
   }
  ],
  "footnotes": [
@@ -216,13 +213,5 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-04T14:11:30.012781",
   "early_schema": false
- },
- "section_path": [
-  "t1",
-  "t1-5",
-  "t1-5-2"
- ],
- "sections": [
-  "t1-5-2"
- ]
+ }
 }

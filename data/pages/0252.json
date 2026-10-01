@@ -23,9 +23,7 @@
      33,
      "Environment"
     ]
-   ],
-   "sec": "t1-3-4",
-   "level": 5
+   ]
   },
   {
    "id": "b2",
@@ -107,7 +105,7 @@
      "role": "body",
      "cells": [
       {
-       "text": "Gera . . . .",
+       "text": "Gera",
        "spans": [
         [
          0,
@@ -407,7 +405,7 @@
      "role": "body",
      "cells": [
       {
-       "text": "Schleiz . . . .",
+       "text": "Schleiz",
        "spans": [
         [
          0,
@@ -769,8 +767,7 @@
      "133635"
     ]
    ],
-   "caption": null,
-   "sec": "t1-3-4"
+   "caption": null
   },
   {
    "id": "b3",
@@ -783,9 +780,7 @@
      26,
      "Environment"
     ]
-   ],
-   "sec": "t1-3-4",
-   "level": 5
+   ]
   },
   {
    "id": "b4",
@@ -835,7 +830,7 @@
      "role": "body",
      "cells": [
       {
-       "text": "Gera . . . .",
+       "text": "Gera",
        "spans": [
         [
          0,
@@ -1007,7 +1002,7 @@
      "role": "body",
      "cells": [
       {
-       "text": "Schleiz . . . .",
+       "text": "Schleiz",
        "spans": [
         [
          0,
@@ -1209,8 +1204,7 @@
      "100"
     ]
    ],
-   "caption": null,
-   "sec": "t1-3-4"
+   "caption": null
   },
   {
    "id": "b5",
@@ -1388,8 +1382,7 @@
      1113,
      "Location"
     ]
-   ],
-   "sec": "t1-3-4"
+   ]
   }
  ],
  "footnotes": [
@@ -1426,19 +1419,15 @@
    ]
   }
  ],
- "corrections": [],
+ "corrections": [
+  {
+   "rule": "strip_dot_leaders"
+  }
+ ],
  "provenance": {
   "source": "colab-2026-03",
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-04T13:25:04.039035",
   "early_schema": false
- },
- "section_path": [
-  "t1",
-  "t1-3",
-  "t1-3-4"
- ],
- "sections": [
-  "t1-3-4"
- ]
+ }
 }

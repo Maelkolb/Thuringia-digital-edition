@@ -99,8 +99,7 @@
      "Person"
     ]
    ],
-   "continued": true,
-   "sec": "t1-1-3"
+   "continued": true
   },
   {
    "id": "b2",
@@ -213,7 +212,7 @@
      "role": "body",
      "cells": [
       {
-       "text": "Gera . . . . . .",
+       "text": "Gera",
        "spans": [
         [
          0,
@@ -244,7 +243,7 @@
      "role": "body",
      "cells": [
       {
-       "text": "Saalburg . . . . .",
+       "text": "Saalburg",
        "spans": [
         [
          0,
@@ -275,7 +274,7 @@
      "role": "body",
      "cells": [
       {
-       "text": "Reichenfels . . . .",
+       "text": "Reichenfels",
        "spans": [
         [
          0,
@@ -306,7 +305,7 @@
      "role": "body",
      "cells": [
       {
-       "text": "Schleiz . . . . . .",
+       "text": "Schleiz",
        "spans": [
         [
          0,
@@ -462,8 +461,7 @@
      "316738"
     ]
    ],
-   "caption": null,
-   "sec": "t1-1-3"
+   "caption": null
   },
   {
    "id": "b3",
@@ -501,8 +499,7 @@
      417,
      "Location"
     ]
-   ],
-   "sec": "t1-1-3"
+   ]
   }
  ],
  "footnotes": [
@@ -526,6 +523,9 @@
  ],
  "corrections": [
   {
+   "rule": "strip_dot_leaders"
+  },
+  {
    "rule": "table_multirow_header",
    "rows": 4,
    "block": "b2"
@@ -536,13 +536,5 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-01-06T01:54:08.337174",
   "early_schema": false
- },
- "section_path": [
-  "t1",
-  "t1-1",
-  "t1-1-3"
- ],
- "sections": [
-  "t1-1-3"
- ]
+ }
 }

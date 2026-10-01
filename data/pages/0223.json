@@ -121,7 +121,7 @@
      "role": "body",
      "cells": [
       {
-       "text": "Städte . . . .",
+       "text": "Städte",
        "spans": []
       },
       {
@@ -274,7 +274,7 @@
      "role": "body",
      "cells": [
       {
-       "text": "Städte . . . .",
+       "text": "Städte",
        "spans": []
       },
       {
@@ -427,7 +427,7 @@
      "role": "body",
      "cells": [
       {
-       "text": "Städte . . . .",
+       "text": "Städte",
        "spans": []
       },
       {
@@ -580,7 +580,7 @@
      "role": "body",
      "cells": [
       {
-       "text": "Städte . . . .",
+       "text": "Städte",
        "spans": []
       },
       {
@@ -908,8 +908,7 @@
      "140"
     ]
    ],
-   "caption": null,
-   "sec": "t1-3-1"
+   "caption": null
   },
   {
    "id": "b2",
@@ -1020,7 +1019,7 @@
      "role": "body",
      "cells": [
       {
-       "text": "Städte . . . .",
+       "text": "Städte",
        "spans": []
       },
       {
@@ -1173,7 +1172,7 @@
      "role": "body",
      "cells": [
       {
-       "text": "Städte . . . .",
+       "text": "Städte",
        "spans": []
       },
       {
@@ -1326,7 +1325,7 @@
      "role": "body",
      "cells": [
       {
-       "text": "Städte . . . .",
+       "text": "Städte",
        "spans": []
       },
       {
@@ -1479,7 +1478,7 @@
      "role": "body",
      "cells": [
       {
-       "text": "Städte . . . .",
+       "text": "Städte",
        "spans": []
       },
       {
@@ -1807,12 +1806,14 @@
      "86472"
     ]
    ],
-   "caption": null,
-   "sec": "t1-3-1"
+   "caption": null
   }
  ],
  "footnotes": [],
  "corrections": [
+  {
+   "rule": "strip_dot_leaders"
+  },
   {
    "rule": "table_multirow_header",
    "rows": 2,
@@ -1833,13 +1834,5 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-03T15:49:20.907260",
   "early_schema": false
- },
- "section_path": [
-  "t1",
-  "t1-3",
-  "t1-3-1"
- ],
- "sections": [
-  "t1-3-1"
- ]
+ }
 }

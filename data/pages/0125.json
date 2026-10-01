@@ -33,8 +33,7 @@
      195,
      "Location"
     ]
-   ],
-   "sec": "t1-2-1"
+   ]
   },
   {
    "id": "b2",
@@ -202,25 +201,21 @@
      "1,01"
     ]
    ],
-   "caption": null,
-   "sec": "t1-2-1"
+   "caption": null
   },
   {
    "id": "b3",
    "type": "paragraph",
    "src": 2,
    "text": "steht ersichtlich das Fürstenthum bezüglich der Ehen am günstigsten und diese Stellung kann ihm nicht durch Hindeutung auf seinen hohen Procentsatz von unehelichen Geburten nach dem, was in dieser Hinsicht oben erwähnt worden ist, beeinträchtigt werden. Trotz des geringen Wohlstandes auf dem reußischen Oberlande ist der Sinn für das Familienhafte nicht geringer als in dem reicheren Unterlande, nur daß dort die ärmeren Klassen erst die Wege der Nahrungsbeschaffung, zu denen sich vielfach die Versuchung gesellt, durchschreiten müssen, ehe sie zur Ehe gelangen können.",
-   "spans": [],
-   "sec": "t1-2-1"
+   "spans": []
   },
   {
    "id": "b4",
    "type": "heading",
    "src": 3,
    "text": "Die Sterblichkeit im Lande.",
-   "spans": [],
-   "sec": "t1-2-1",
-   "level": 5
+   "spans": []
   },
   {
    "id": "b5",
@@ -248,16 +243,14 @@
      1195,
      "Organisation"
     ]
-   ],
-   "sec": "t1-2-1"
+   ]
   },
   {
    "id": "b6",
    "type": "paragraph",
    "src": 5,
    "text": "Zahl der Verstorbenen und deren Verhältnis zu den Lebenden:",
-   "spans": [],
-   "sec": "t1-2-1"
+   "spans": []
   }
  ],
  "footnotes": [],
@@ -273,13 +266,5 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-03T15:14:17.086814",
   "early_schema": false
- },
- "section_path": [
-  "t1",
-  "t1-2",
-  "t1-2-1"
- ],
- "sections": [
-  "t1-2-1"
- ]
+ }
 }

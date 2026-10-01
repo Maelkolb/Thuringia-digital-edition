@@ -1487,16 +1487,14 @@
      "4023"
     ]
    ],
-   "caption": null,
-   "sec": "t2-1"
+   "caption": null
   },
   {
    "id": "b2",
    "type": "paragraph",
    "src": 1,
    "text": "Demnach hat die Bevölkerung des Unterlandes in 220 Jahren um 354 und die Zahl der Familien um 333 Procent zugenommen und wenn 1647 auf eine ☐Meile 2098 Seelen kamen, so 1794 schon 4892 und 1867: 9537 Seelen. Dabei zeigt die städtische Bevölkerung im Gegensatze zur ländlichen die größte Zunahme. Es kommen nämlich auf:",
-   "spans": [],
-   "sec": "t2-1"
+   "spans": []
   },
   {
    "id": "b3",
@@ -1636,8 +1634,7 @@
      "57,4 \""
     ]
    ],
-   "caption": null,
-   "sec": "t2-1"
+   "caption": null
   },
   {
    "id": "b4",
@@ -1665,8 +1662,7 @@
      242,
      "Location"
     ]
-   ],
-   "sec": "t2-1"
+   ]
   }
  ],
  "footnotes": [],
@@ -1682,12 +1678,5 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-04T14:42:55.122878",
   "early_schema": false
- },
- "section_path": [
-  "t2",
-  "t2-1"
- ],
- "sections": [
-  "t2-1"
- ]
+ }
 }

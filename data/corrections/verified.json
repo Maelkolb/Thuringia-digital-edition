@@ -1,0 +1,807 @@
+{
+ "_doc": "Collect facsimile-verified transcription corrections into data/corrections/verified.json.",
+ "corrections": [
+  {
+   "page": "448",
+   "find": "Bollersdorf",
+   "replace": "Vollersdorf",
+   "block": null,
+   "count": "all",
+   "source": "G1",
+   "checked_facsimile": true,
+   "note": "Fraktur V/B; checked on the scan"
+  },
+  {
+   "page": "413",
+   "find": "Bollersdorf",
+   "replace": "Vollersdorf",
+   "block": null,
+   "count": "all",
+   "source": "G1",
+   "checked_facsimile": true,
+   "note": "same misreading as p. 448"
+  },
+  {
+   "page": "418",
+   "find": "Bollersdorf",
+   "replace": "Vollersdorf",
+   "block": null,
+   "count": "all",
+   "source": "G1",
+   "checked_facsimile": true,
+   "note": "same misreading as p. 448"
+  },
+  {
+   "page": "423",
+   "find": "Roschütz",
+   "replace": "Roschitz",
+   "block": null,
+   "count": "all",
+   "source": "G1",
+   "checked_facsimile": true,
+   "note": "checked on the scan"
+  },
+  {
+   "page": "604",
+   "find": "Dettersdorf",
+   "replace": "Oettersdorf",
+   "block": null,
+   "count": "all",
+   "source": "G3",
+   "checked_facsimile": true,
+   "note": "checked on the scan"
+  },
+  {
+   "page": "605",
+   "find": "Dettersdorf",
+   "replace": "Oettersdorf",
+   "block": null,
+   "count": "all",
+   "source": "G3",
+   "checked_facsimile": true,
+   "note": "checked on the scan"
+  },
+  {
+   "page": "574",
+   "find": "Dettersdorf",
+   "replace": "Oettersdorf",
+   "block": null,
+   "count": "all",
+   "source": "G3",
+   "checked_facsimile": true,
+   "note": "same misreading as pp. 602-605"
+  },
+  {
+   "page": "588",
+   "find": "Dettersdorf",
+   "replace": "Oettersdorf",
+   "block": null,
+   "count": "all",
+   "source": "G3",
+   "checked_facsimile": true,
+   "note": "same misreading as pp. 602-605"
+  },
+  {
+   "page": "606",
+   "find": "203 K.",
+   "replace": "203 R.",
+   "block": null,
+   "count": "all",
+   "source": "G3",
+   "checked_facsimile": true,
+   "note": "R. = Rinder; checked on the scan"
+  },
+  {
+   "page": "600",
+   "find": "17 Bust.",
+   "replace": "17 Bnst.",
+   "block": null,
+   "count": "all",
+   "source": "G3",
+   "checked_facsimile": true,
+   "note": "Bnst. = Bienenstöcke; checked on the scan"
+  },
+  {
+   "page": "645",
+   "find": "18 K.",
+   "replace": "18 R.",
+   "block": null,
+   "count": "all",
+   "source": "G4",
+   "checked_facsimile": true,
+   "note": "checked on the scan"
+  },
+  {
+   "page": "675",
+   "find": "8124 1/2",
+   "replace": "8124 1/7",
+   "block": null,
+   "count": "all",
+   "source": "G4",
+   "checked_facsimile": true,
+   "note": "checked on the scan"
+  },
+  {
+   "page": "492",
+   "find": "110 K.",
+   "replace": "110 R.",
+   "block": null,
+   "count": "all",
+   "source": "G2",
+   "checked_facsimile": true,
+   "note": "checked on the scan"
+  },
+  {
+   "page": "536",
+   "find": "Söllnitz",
+   "replace": "Söllmnitz",
+   "block": "b2",
+   "count": "all",
+   "source": "G2",
+   "checked_facsimile": true,
+   "note": "checked on the scan"
+  },
+  {
+   "page": "536",
+   "find": "Beizdorf",
+   "replace": "Betzdorf",
+   "block": "b3",
+   "count": "all",
+   "source": "G2",
+   "checked_facsimile": true,
+   "note": "checked on the scan"
+  },
+  {
+   "page": "536",
+   "find": "Beczelinsdorf",
+   "replace": "Peczelinsdorf",
+   "block": "b3",
+   "count": "all",
+   "source": "G2",
+   "checked_facsimile": true,
+   "note": "checked on the scan"
+  },
+  {
+   "page": "38",
+   "find": "Kammschnecke",
+   "replace": "Kammerschnecke",
+   "block": "b1",
+   "count": "all",
+   "source": "A02",
+   "checked_facsimile": true,
+   "note": "checked on the scan"
+  },
+  {
+   "page": "108",
+   "find": "4,103",
+   "replace": "4,03",
+   "block": "b1",
+   "count": "all",
+   "source": "A07",
+   "checked_facsimile": true,
+   "note": "checked on the scan"
+  },
+  {
+   "page": "832",
+   "find": "134,775",
+   "replace": "134,75",
+   "block": "b8",
+   "count": "all",
+   "source": "B01",
+   "checked_facsimile": true,
+   "note": "checked; reproduces the printed m³ value"
+  },
+  {
+   "page": "831",
+   "find": "zuversindenden statt zu verzindenden",
+   "replace": "zuverzinsenden statt zu verzinsenden",
+   "block": "b5",
+   "count": "all",
+   "source": "B01",
+   "checked_facsimile": true,
+   "note": "checked on the scan"
+  },
+  {
+   "page": "833",
+   "find": "ganz statt ganz",
+   "replace": "ganz statt gauz",
+   "block": "b19",
+   "count": "all",
+   "source": "B01",
+   "checked_facsimile": true,
+   "note": "the corrigendum quotes the misprint; checked on the scan"
+  },
+  {
+   "page": "394",
+   "find": "§",
+   "replace": "H.",
+   "block": null,
+   "count": "all",
+   "source": "A12",
+   "checked_facsimile": true,
+   "note": "printed 'H.' (Heinrich) in Tab. VII was read as '§'; checked on the scan"
+  },
+  {
+   "page": "479",
+   "find": "75 K.",
+   "replace": "75 R.",
+   "block": "b3",
+   "count": "all",
+   "source": "G1",
+   "checked_facsimile": true,
+   "note": "R. = Rinder; same misreading as pp. 492, 606, 645 (all checked)"
+  },
+  {
+   "page": "6",
+   "find": "27,154",
+   "replace": "27,54",
+   "block": null,
+   "count": "all",
+   "source": "A01",
+   "checked_facsimile": true,
+   "note": "spurious '1' after the decimal comma (Lobenstein); checked on the scan"
+  },
+  {
+   "page": "6",
+   "find": "28,105",
+   "replace": "28,05",
+   "block": null,
+   "count": "all",
+   "source": "A01",
+   "checked_facsimile": true,
+   "note": "spurious '1' (Bellevue); checked on the scan"
+  },
+  {
+   "page": "6",
+   "find": "6,127",
+   "replace": "6,27",
+   "block": null,
+   "count": "all",
+   "source": "A01",
+   "checked_facsimile": true,
+   "note": "spurious '1' (St. Gangloff); checked on the scan"
+  },
+  {
+   "page": "84",
+   "find": "Steinschmetzer",
+   "replace": "Steinschmetter",
+   "block": null,
+   "count": "all",
+   "source": "A05",
+   "checked_facsimile": true,
+   "note": "printed form (corrected by the author on p. 831 to Steinschmätzer); checked"
+  },
+  {
+   "page": "72",
+   "find": "Pulicaria dysenterica",
+   "replace": "Palicaria dysenterica",
+   "block": null,
+   "count": "all",
+   "source": "A05",
+   "checked_facsimile": true,
+   "note": "printed form (corrected by the author on p. 830); checked"
+  },
+  {
+   "page": "277",
+   "find": "Braumalzbesteuer",
+   "replace": "Braumalzsteuer",
+   "block": "b1",
+   "count": "all",
+   "source": "A11",
+   "checked_facsimile": true,
+   "note": "checked on the scan"
+  },
+  {
+   "page": "275",
+   "find": "sechstellige",
+   "replace": "sechsellige",
+   "block": "b4",
+   "count": "all",
+   "source": "A11",
+   "checked_facsimile": true,
+   "note": "checked on the scan"
+  },
+  {
+   "page": "332",
+   "find": "Würschengriin",
+   "replace": "Würschengrün",
+   "block": "b3",
+   "count": "all",
+   "source": "E2",
+   "checked_facsimile": true,
+   "note": "checked on the scan"
+  },
+  {
+   "page": "147",
+   "find": "Thründorf",
+   "replace": "Thrändorf",
+   "block": "b3",
+   "count": "all",
+   "source": "A08",
+   "checked_facsimile": true,
+   "note": "Fraktur ä/ü; checked on the scan"
+  },
+  {
+   "page": "838",
+   "find": "Weissendorf",
+   "replace": "Weißendorf",
+   "block": null,
+   "count": "all",
+   "source": "B01",
+   "checked_facsimile": true,
+   "note": "subscriber list; checked on the scan"
+  },
+  {
+   "page": "838",
+   "find": "Meissner",
+   "replace": "Meißner",
+   "block": null,
+   "count": "all",
+   "source": "B01",
+   "checked_facsimile": true,
+   "note": "subscriber list; checked on the scan"
+  },
+  {
+   "page": "838",
+   "find": "Mauke",
+   "replace": "Maucke",
+   "block": null,
+   "count": "all",
+   "source": "B01",
+   "checked_facsimile": true,
+   "note": "subscriber list; checked on the scan"
+  },
+  {
+   "page": "839",
+   "find": "v. Boss",
+   "replace": "v. Voß",
+   "block": null,
+   "count": "all",
+   "source": "B01",
+   "checked_facsimile": true,
+   "note": "subscriber list; checked on the scan"
+  },
+  {
+   "page": "839",
+   "find": "Weissker",
+   "replace": "Weißker",
+   "block": null,
+   "count": "all",
+   "source": "B01",
+   "checked_facsimile": true,
+   "note": "subscriber list; checked on the scan"
+  },
+  {
+   "page": "839",
+   "find": "Siekmann",
+   "replace": "Sieckmann",
+   "block": null,
+   "count": "all",
+   "source": "B01",
+   "checked_facsimile": true,
+   "note": "subscriber list; checked on the scan"
+  },
+  {
+   "page": "112",
+   "find": "Durchschn. 1858-97",
+   "replace": "1858—97",
+   "block": "b5",
+   "count": "all",
+   "source": "bevoelkerung-eheschliessungen-1858-1867",
+   "checked_facsimile": true,
+   "note": "Label of the mean row of the lower block as printed (should read 1858-67)."
+  },
+  {
+   "page": "147",
+   "find": "Thründorf.",
+   "replace": "Thrändorf.",
+   "block": "b3",
+   "count": "all",
+   "source": "dialect-sprachproben-orte-und-textsorten",
+   "checked_facsimile": true,
+   "note": "Name des Einsenders der Leumnitzer Probe; Fraktur ä/ü am Faksimile als »ä« gelesen."
+  },
+  {
+   "page": "72",
+   "find": "Pulicaria dysenterica, Grtn.",
+   "replace": "Palicaria dysenterica, Grtn.",
+   "block": "b5",
+   "count": "all",
+   "source": "flora-exklusivarten-unterland-oberland",
+   "checked_facsimile": true,
+   "note": "Das Faksimile hat »Palicaria«; Brückner berichtigt auf S. 830: »lies: Pulicaria statt Palicaria« (Z. 11 v. u.). Die Transkription hat die Berichtigung stillschweigend vorweggenommen."
+  },
+  {
+   "page": "398",
+   "find": "Heinrich LX., g. 1784, † 1813",
+   "replace": "H. LXI., g. 1784, † 1813",
+   "block": "b2",
+   "count": "all",
+   "source": "genealogie-reuss-lebensdauer-kindersterblichkeit-1550-1850",
+   "checked_facsimile": true,
+   "note": "Heinrich LX. (1784–1833) steht in Tab. XI; im Datensatz gilt H. LXI. nach dem Druck."
+  },
+  {
+   "page": "352",
+   "find": "Heinrich der Ältere",
+   "replace": "Heinrich der Mehrer (Voigt von Gera, 1244 — † vor Ende August 1279)",
+   "block": "b2",
+   "count": "all",
+   "source": "genealogie-voigte-heinriche-1143-1572",
+   "checked_facsimile": true,
+   "note": "Der Text (S. 342) nennt ihn den »Mehrer seines Landes«."
+  },
+  {
+   "page": "352",
+   "find": "Irmgard v. Weimar",
+   "replace": "Irmgard v. Weida, † nach 1317",
+   "block": "b3",
+   "count": "all",
+   "source": "genealogie-voigte-heinriche-1143-1572",
+   "checked_facsimile": true,
+   "note": ""
+  },
+  {
+   "page": "352",
+   "find": "Heinrich d. j., der Wohlbedachte",
+   "replace": "Heinrich d. j., der Worthalter",
+   "block": "b3",
+   "count": "all",
+   "source": "genealogie-voigte-heinriche-1143-1572",
+   "checked_facsimile": true,
+   "note": "Auch der Text (S. 344) nennt ihn »der Worthalter«."
+  },
+  {
+   "page": "352",
+   "find": "Heinrich d. m., der Fintende, 1478 — † 1500",
+   "replace": "Heinrich d. m., 1478 — † 1500. Herr von Schleiz und Reichenfels; der Beiname »der Hinkende« gehört zu Heinrich d. j. (1476 — † c. 1498)",
+   "block": "b3",
+   "count": "all",
+   "source": "genealogie-voigte-heinriche-1143-1572",
+   "checked_facsimile": true,
+   "note": ""
+  },
+  {
+   "page": "352",
+   "find": "Heinrich, 1495. † vor 1508.",
+   "replace": "Heinrich, 1495. 1508.",
+   "block": "b3",
+   "count": "all",
+   "source": "genealogie-voigte-heinriche-1143-1572",
+   "checked_facsimile": true,
+   "note": "Im Druck steht kein »†«."
+  },
+  {
+   "page": "38",
+   "find": "1 Kammschnecke",
+   "replace": "1 Kammerschnecke",
+   "block": "b1",
+   "count": "all",
+   "source": "geologie-fossilfunde-zechstein-clymenienkalk",
+   "checked_facsimile": true,
+   "note": "Wortlaut in der Aufzählung der Gera-Zechstein-Fossilien; die Zahlen (7, 7, 3, 1, 9, 25, 20, 2, 8, 2, 2, 3, 2, 4) wurden am Faksimile bestätigt."
+  },
+  {
+   "page": "57",
+   "find": "0,56",
+   "replace": "—0,56",
+   "block": "b2",
+   "count": "all",
+   "source": "klima-stationen-temperatur-vergleich",
+   "checked_facsimile": true,
+   "note": "Mittel-Zeile Rothenacker, März: Das Minuszeichen fehlt in der Transkription; rechnerisch (−1,67 + 0,54) / 2 = −0,56. Die Mittelzeile wird hier nicht verwendet."
+  },
+  {
+   "page": "218",
+   "find": "158,13",
+   "replace": "158,73",
+   "block": "b2",
+   "count": "all",
+   "source": "landwirtschaft-kammer-rittergueter-1854",
+   "checked_facsimile": true,
+   "note": "Großsaara, Spalte feld; Ziffer 7 als 1 gelesen / digit 7 read as 1"
+  },
+  {
+   "page": "218",
+   "find": "35,12",
+   "replace": "35,72",
+   "block": "b2",
+   "count": "all",
+   "source": "landwirtschaft-kammer-rittergueter-1854",
+   "checked_facsimile": true,
+   "note": "Laasen mit Steinertsberg, Spalte wiese; Ziffer 7 als 1 gelesen / digit 7 read as 1"
+  },
+  {
+   "page": "218",
+   "find": "7,14",
+   "replace": "7,74",
+   "block": "b2",
+   "count": "all",
+   "source": "landwirtschaft-kammer-rittergueter-1854",
+   "checked_facsimile": true,
+   "note": "Niederndorf, Spalte garten; Ziffer 7 als 1 gelesen / digit 7 read as 1"
+  },
+  {
+   "page": "218",
+   "find": "291,15",
+   "replace": "291,75",
+   "block": "b2",
+   "count": "all",
+   "source": "landwirtschaft-kammer-rittergueter-1854",
+   "checked_facsimile": true,
+   "note": "Niederndorf, Spalte feld; Ziffer 7 als 1 gelesen / digit 7 read as 1"
+  },
+  {
+   "page": "218",
+   "find": "134,14",
+   "replace": "134,74",
+   "block": "b2",
+   "count": "all",
+   "source": "landwirtschaft-kammer-rittergueter-1854",
+   "checked_facsimile": true,
+   "note": "Dettersdorf, Spalte wiese; Ziffer 7 als 1 gelesen / digit 7 read as 1"
+  },
+  {
+   "page": "218",
+   "find": "9,17",
+   "replace": "9,77",
+   "block": "b2",
+   "count": "all",
+   "source": "landwirtschaft-kammer-rittergueter-1854",
+   "checked_facsimile": true,
+   "note": "Oschitz, Spalte garten; Ziffer 7 als 1 gelesen / digit 7 read as 1"
+  },
+  {
+   "page": "218",
+   "find": "213,10",
+   "replace": "213,70",
+   "block": "b2",
+   "count": "all",
+   "source": "landwirtschaft-kammer-rittergueter-1854",
+   "checked_facsimile": true,
+   "note": "Seubtendorf, Spalte nadel; Ziffer 7 als 1 gelesen / digit 7 read as 1"
+  },
+  {
+   "page": "218",
+   "find": "8,14",
+   "replace": "8,74",
+   "block": "b2",
+   "count": "all",
+   "source": "landwirtschaft-kammer-rittergueter-1854",
+   "checked_facsimile": true,
+   "note": "Weckersdorf (Forsthaus), Spalte feld; Ziffer 7 als 1 gelesen / digit 7 read as 1"
+  },
+  {
+   "page": "223",
+   "find": "4,14",
+   "replace": "4,74",
+   "block": "b1",
+   "count": "all",
+   "source": "landwirtschaft-kammer-rittergueter-1854",
+   "checked_facsimile": true,
+   "note": "Schilbach, Spalte wasser; Ziffer 7 als 1 gelesen / digit 7 read as 1"
+  },
+  {
+   "page": "223",
+   "find": "1375,81",
+   "replace": "1375,87",
+   "block": "b1",
+   "count": "all",
+   "source": "landwirtschaft-kammer-rittergueter-1854",
+   "checked_facsimile": true,
+   "note": "b) Hohenpreis, Spalte steuer"
+  },
+  {
+   "page": "832",
+   "find": "den Fuß zu 134,775 par. Linien",
+   "replace": "den Fuß zu 134,75 par. Linien",
+   "block": "b8",
+   "count": "all",
+   "source": "masse-gewichte-umrechnung-1869",
+   "checked_facsimile": true,
+   "note": "Nürnberger Fuß im Abschnitt V c; mit 134,75 ergibt die Probe für 126 Kubikfuß 3,5390 m³ (Abweichung +0.0012 %), mit 134,775 wären es -0.054 %."
+  },
+  {
+   "page": "14",
+   "find": "Südwesthöhe von Rusitz nach Frankenthal 768'",
+   "replace": "Südwesthöhe von Rubitz nach Frankenthal 768'",
+   "block": "b1",
+   "count": "all",
+   "source": "relief-erhebungen-hoechste-punkte",
+   "checked_facsimile": true,
+   "note": "Ortsname; Zahl stimmt. Im Datensatz nach dem Faksimile korrigiert."
+  },
+  {
+   "page": "24",
+   "find": "Tummelplatz bei Kießling 1600'",
+   "replace": "Tummelsplatz bei Kießling 1600'",
+   "block": "b1",
+   "count": "all",
+   "source": "relief-erhebungen-hoechste-punkte",
+   "checked_facsimile": true,
+   "note": "Name; Zahl stimmt. Im Datensatz nach dem Faksimile korrigiert."
+  },
+  {
+   "page": "20",
+   "find": "Törbizmühle a. d. Weida 920'",
+   "replace": "Sörbitzmühle a. d. Weida 920'",
+   "block": "b3",
+   "count": "all",
+   "source": "relief-wohnorte-hoehenlage",
+   "checked_facsimile": true,
+   "note": "Name; Zahl stimmt. Im Datensatz nach dem Faksimile korrigiert."
+  },
+  {
+   "page": "275",
+   "find": "rhein. sechstellige Ruthen",
+   "replace": "rhein. sechsellige Ruthen",
+   "block": "b4",
+   "count": "all",
+   "source": "staat-chausseen-laenge-kosten-1868",
+   "checked_facsimile": true,
+   "note": "Wortlaut (sechsellig = sechs Ellen), keine Zahl betroffen."
+  },
+  {
+   "page": "277",
+   "find": "Zollgefälle, Braumalzbesteuer-, Übergangsabgaben und Rübenzuckersteuer",
+   "replace": "Zollgefälle, Braumalzsteuer-, Uebergangsabgaben und Rübenzuckersteuer",
+   "block": "b1",
+   "count": "all",
+   "source": "staat-haushalt-einnahmen-ausgaben-1866-1868",
+   "checked_facsimile": true,
+   "note": "Wortlaut der Postenbezeichnung (Wort Braumalzsteuer), keine Zahl betroffen."
+  },
+  {
+   "page": "838",
+   "find": "Mauke, Rich.",
+   "replace": "Maucke, Rich.",
+   "block": "b1",
+   "count": "all",
+   "source": "subskribenten-leserschaft-1870",
+   "checked_facsimile": true,
+   "note": "Fraktur: ck-Ligatur"
+  },
+  {
+   "page": "838",
+   "find": "Weissendorf.",
+   "replace": "Weißendorf.",
+   "block": "b1",
+   "count": "all",
+   "source": "subskribenten-leserschaft-1870",
+   "checked_facsimile": true,
+   "note": "Fraktur: ß statt ss"
+  },
+  {
+   "page": "831",
+   "find": "lies: zuversindenden statt zu verzindenden",
+   "replace": "lies: zuverzinsenden statt zu verzinsenden",
+   "block": "b5",
+   "count": "all",
+   "source": "zusaetze-berichtigungen-1870",
+   "checked_facsimile": true,
+   "note": "S. 277, Z. 13 v. u.; Fraktur-s als d gelesen"
+  },
+  {
+   "page": "833",
+   "find": "lies: ganz statt ganz",
+   "replace": "lies: ganz statt gauz",
+   "block": "b19",
+   "count": "all",
+   "source": "zusaetze-berichtigungen-1870",
+   "checked_facsimile": true,
+   "note": "S. 489; der korrigierte Druckfehler »gauz« wurde im Transkript geglättet"
+  },
+  {
+   "page": "833",
+   "find": "lies: besondere statt besonderer",
+   "replace": "lies: besondere statt besondeer",
+   "block": "b20",
+   "count": "all",
+   "source": "zusaetze-berichtigungen-1870",
+   "checked_facsimile": true,
+   "note": "S. 496; der korrigierte Druckfehler »besondeer« wurde im Transkript verlesen"
+  }
+ ],
+ "not_applied": [
+  {
+   "page": "107",
+   "text": "3,95",
+   "reason": "ambiguous (2 occurrences)"
+  },
+  {
+   "page": "84",
+   "text": "Steinschmetzer (2 ×)",
+   "reason": "string not in transcription"
+  },
+  {
+   "page": "394",
+   "text": "§ IV., § V., § II., § XIII. … (»§« vor der Zählung)",
+   "reason": "string not in transcription"
+  },
+  {
+   "page": "398",
+   "text": "… Gem. Joh. Christian Fürst v. Solms-Baruth, g. u. † 1749.",
+   "reason": "string not in transcription"
+  },
+  {
+   "page": "398",
+   "text": "Heinrich LXXIV., g. 1798, † 1855",
+   "reason": "unchecked (genealogie-reuss-lebensdauer-kindersterblichkeit-1550-1850)"
+  },
+  {
+   "page": "397",
+   "text": "Caroline, g. 1792, † 18.. geb. 1797, † 1853 | Heinrich LXXII., Sophie Adelheid, geb. 1800",
+   "reason": "unchecked (genealogie-reuss-lebensdauer-kindersterblichkeit-1550-1850)"
+  },
+  {
+   "page": "352",
+   "text": "(fehlt)",
+   "reason": "string not in transcription"
+  },
+  {
+   "page": "44",
+   "text": "(Tabelle fehlt; der Text endet mit »in 10,000 Theilen:« und es folgt unmittelbar der nächste Absatz b2)",
+   "reason": "not a simple replacement (gewaesser-heilquellen-lobenstein-analyse)"
+  },
+  {
+   "page": "286",
+   "text": "(Spalte fehlt)",
+   "reason": "string not in transcription"
+  },
+  {
+   "page": "284",
+   "text": "1",
+   "reason": "ambiguous (110 occurrences)"
+  },
+  {
+   "page": "284",
+   "text": "3",
+   "reason": "ambiguous (36 occurrences)"
+  },
+  {
+   "page": "6",
+   "text": "29° 18' 27,154\" L. (Lobenstein)",
+   "reason": "string not in transcription"
+  },
+  {
+   "page": "6",
+   "text": "29° 19' 28,105\" L. (Bellevue)",
+   "reason": "string not in transcription"
+  },
+  {
+   "page": "6",
+   "text": "29° 34' 6,127\" L. (St. Gangloff)",
+   "reason": "string not in transcription"
+  },
+  {
+   "page": "4",
+   "text": "vom 29° 7' 20\" bis 30° 7' 40\" in östlicher Länge und vom 50° 22' 45\" bis [50°] 21' 5\"",
+   "reason": "not a simple replacement (lage-vermessene-punkte-laenge-breite)"
+  },
+  {
+   "page": "492",
+   "text": "110 K.",
+   "reason": "unchecked (G2)"
+  },
+  {
+   "page": "536",
+   "text": "Söllnitz (3x im Absatz)",
+   "reason": "unchecked (G2)"
+  },
+  {
+   "page": "536",
+   "text": "Beizdorf (Stichwort, Namensformen und Fließtext); Beczelinsdorf; Bezlingsdorf; Söllnitz",
+   "reason": "unchecked (G2)"
+  },
+  {
+   "page": "645",
+   "text": "18 K.",
+   "reason": "unchecked (G4)"
+  },
+  {
+   "page": "675",
+   "text": "8124 1/2 Thlr.",
+   "reason": "unchecked (G4)"
+  }
+ ]
+}

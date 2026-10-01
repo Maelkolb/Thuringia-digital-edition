@@ -81,7 +81,7 @@
      "role": "body",
      "cells": [
       {
-       "text": "Vorläufig zurückgestellt . . . . .",
+       "text": "Vorläufig zurückgestellt",
        "spans": []
       },
       {
@@ -110,7 +110,7 @@
      "role": "body",
      "cells": [
       {
-       "text": "Hautkrankheiten . . . . . . .",
+       "text": "Hautkrankheiten",
        "spans": []
       },
       {
@@ -197,7 +197,7 @@
      "role": "body",
      "cells": [
       {
-       "text": "Krampfadern . . . . . . . .",
+       "text": "Krampfadern",
        "spans": []
       },
       {
@@ -226,7 +226,7 @@
      "role": "body",
      "cells": [
       {
-       "text": "Verkrüppelung . . . . . . . .",
+       "text": "Verkrüppelung",
        "spans": []
       },
       {
@@ -255,7 +255,7 @@
      "role": "body",
      "cells": [
       {
-       "text": "Plattfüße . . . . . . . . .",
+       "text": "Plattfüße",
        "spans": []
       },
       {
@@ -503,16 +503,14 @@
      "30,29"
     ]
    ],
-   "caption": null,
-   "sec": "t1-2-6"
+   "caption": null
   },
   {
    "id": "b2",
    "type": "paragraph",
    "src": 1,
    "text": "Nach der Uebersicht über die Resultate des Ersatzgeschäfts (Ende 1867) sind von 1778 Militärpflichtigen 189 (also 10,63 Proc.) als dauernd unbrauchbar und zwei wegen Mindermaßes (unter 5'), 12 wegen Kleinheit (5' bis 5' 1\" 3'''*), 193 (also 11,64 Proc.) wegen zeitiger Unbrauchbarkeit zur Ersatzreserve gestellt worden.",
-   "spans": [],
-   "sec": "t1-2-6"
+   "spans": []
   },
   {
    "id": "b3",
@@ -555,8 +553,7 @@
    "word_division": {
     "word": "Darmgicht",
     "part": "Darm-"
-   },
-   "sec": "t1-2-6"
+   }
   }
  ],
  "footnotes": [
@@ -569,6 +566,9 @@
  ],
  "corrections": [
   {
+   "rule": "strip_dot_leaders"
+  },
+  {
    "rule": "table_no_header_row",
    "note": "first row is data (legacy edition rendered it as <th>)",
    "block": "b1"
@@ -579,13 +579,5 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-03T15:35:26.320167",
   "early_schema": false
- },
- "section_path": [
-  "t1",
-  "t1-2",
-  "t1-2-6"
- ],
- "sections": [
-  "t1-2-6"
- ]
+ }
 }

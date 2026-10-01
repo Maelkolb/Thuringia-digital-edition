@@ -17,12 +17,7 @@
    "type": "heading",
    "src": 0,
    "text": "3. Die Staatsverwaltung.",
-   "spans": [],
-   "opens": [
-    "t1-4-3"
-   ],
-   "sec": "t1-4-3",
-   "level": 4
+   "spans": []
   },
   {
    "id": "b2",
@@ -35,8 +30,7 @@
      66,
      "Organisation"
     ]
-   ],
-   "sec": "t1-4-3"
+   ]
   },
   {
    "id": "b3",
@@ -64,8 +58,7 @@
      1372,
      "Location"
     ]
-   ],
-   "sec": "t1-4-3"
+   ]
   },
   {
    "id": "b4",
@@ -104,8 +97,7 @@
      "Location"
     ]
    ],
-   "continues": true,
-   "sec": "t1-4-3"
+   "continues": true
   }
  ],
  "footnotes": [],
@@ -120,13 +112,5 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-04T13:36:35.697788",
   "early_schema": false
- },
- "section_path": [
-  "t1",
-  "t1-4",
-  "t1-4-2"
- ],
- "sections": [
-  "t1-4-3"
- ]
+ }
 }

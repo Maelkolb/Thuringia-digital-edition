@@ -39,16 +39,14 @@
      "Location"
     ]
    ],
-   "continued": true,
-   "sec": "t1-2-1"
+   "continued": true
   },
   {
    "id": "b2",
    "type": "paragraph",
    "src": 1,
    "text": "Die städtische Bevölkerung und die der größeren und kleineren Landorte und ihre Dichtigkeit:",
-   "spans": [],
-   "sec": "t1-2-1"
+   "spans": []
   },
   {
    "id": "b3",
@@ -725,8 +723,7 @@
      "3921,11"
     ]
    ],
-   "caption": null,
-   "sec": "t1-2-1"
+   "caption": null
   },
   {
    "id": "b4",
@@ -754,16 +751,14 @@
      425,
      "Location"
     ]
-   ],
-   "sec": "t1-2-1"
+   ]
   },
   {
    "id": "b5",
    "type": "paragraph",
    "src": 4,
    "text": "6) Die Bevölkerung im Verhältniß zu den Gemeinden. Die gesammte Reihe der politischen (staatsrechtlichen) Gemeinden des Landes vertheilt sich bezüglich der Bevölkerung:",
-   "spans": [],
-   "sec": "t1-2-1"
+   "spans": []
   }
  ],
  "footnotes": [],
@@ -784,13 +779,5 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-03T15:08:17.408408",
   "early_schema": false
- },
- "section_path": [
-  "t1",
-  "t1-2",
-  "t1-2-1"
- ],
- "sections": [
-  "t1-2-1"
- ]
+ }
 }

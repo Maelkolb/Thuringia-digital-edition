@@ -340,11 +340,11 @@
        "spans": []
       },
       {
-       "text": "Siekmann",
+       "text": "Sieckmann",
        "spans": [
         [
          0,
-         8,
+         9,
          "Person"
         ]
        ]
@@ -1351,11 +1351,11 @@
        "spans": []
       },
       {
-       "text": "v. Boss",
+       "text": "v. Voß",
        "spans": [
         [
          0,
-         7,
+         6,
          "Person"
         ]
        ]
@@ -1425,11 +1425,11 @@
        "spans": []
       },
       {
-       "text": "Weissker",
+       "text": "Weißker",
        "spans": [
         [
          0,
-         8,
+         7,
          "Person"
         ]
        ]
@@ -1462,11 +1462,11 @@
        "spans": []
       },
       {
-       "text": "Weissker",
+       "text": "Weißker",
        "spans": [
         [
          0,
-         8,
+         7,
          "Person"
         ]
        ]
@@ -1499,11 +1499,11 @@
        "spans": []
       },
       {
-       "text": "Weissker",
+       "text": "Weißker",
        "spans": [
         [
          0,
-         8,
+         7,
          "Person"
         ]
        ]
@@ -2127,12 +2127,32 @@
      "Schleiz."
     ]
    ],
-   "caption": null,
-   "sec": "subscribenten"
+   "caption": null
   }
  ],
  "footnotes": [],
  "corrections": [
+  {
+   "rule": "facsimile_correction",
+   "before": "v. Boss",
+   "after": "v. Voß",
+   "source": "B01",
+   "n": 1
+  },
+  {
+   "rule": "facsimile_correction",
+   "before": "Weissker",
+   "after": "Weißker",
+   "source": "B01",
+   "n": 3
+  },
+  {
+   "rule": "facsimile_correction",
+   "before": "Siekmann",
+   "after": "Sieckmann",
+   "source": "B01",
+   "n": 1
+  },
   {
    "rule": "table_pad_ragged_rows",
    "block": "b1"
@@ -2147,12 +2167,5 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-04T21:51:03.598638",
   "early_schema": false
- },
- "section_path": [
-  "back",
-  "subscribenten"
- ],
- "sections": [
-  "subscribenten"
- ]
+ }
 }

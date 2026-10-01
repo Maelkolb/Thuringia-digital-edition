@@ -109,7 +109,7 @@
      "role": "body",
      "cells": [
       {
-       "text": "Tummelplatz bei Kießling 1600'.",
+       "text": "Tummelsplatz bei Kießling 1600'.",
        "spans": []
       },
       {
@@ -487,38 +487,28 @@
      "Fichteberg, zwischen dem Rohrbache und dem großen Grunde an der Lan- desgrenze 1925'."
     ]
    ],
-   "caption": null,
-   "sec": "t1-1-4"
+   "caption": null
   },
   {
    "id": "b2",
    "type": "heading",
    "src": 1,
    "text": "5. Geognostische Übersicht.*)",
-   "spans": [],
-   "opens": [
-    "t1-1-5",
-    "t1-1-5"
-   ],
-   "sec": "t1-1-5",
-   "level": 4
+   "spans": []
   },
   {
    "id": "b3",
    "type": "paragraph",
    "src": 2,
    "text": "Wie in allen landeskundlichen Beziehungen, so ist auch bei den geognostischen Betrachtungen des reußischen Landes es thunlich, das Oberland und das Unterland aus einander zu halten.",
-   "spans": [],
-   "sec": "t1-1-5"
+   "spans": []
   },
   {
    "id": "b4",
    "type": "heading",
    "src": 3,
    "text": "A. Das Oberland.",
-   "spans": [],
-   "sec": "t1-1-5",
-   "level": 5
+   "spans": []
   },
   {
    "id": "b5",
@@ -532,8 +522,7 @@
      "Climate"
     ]
    ],
-   "continues": true,
-   "sec": "t1-1-5"
+   "continues": true
   }
  ],
  "footnotes": [
@@ -556,6 +545,13 @@
   }
  ],
  "corrections": [
+  {
+   "rule": "facsimile_correction",
+   "before": "Tummelplatz bei Kießling 1600'",
+   "after": "Tummelsplatz bei Kießling 1600'",
+   "source": "relief-erhebungen-hoechste-punkte",
+   "n": 1
+  },
   {
    "rule": "join_linebreak_hyphen",
    "before": "rün und Seub- tendorf",
@@ -592,14 +588,5 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-01-06T02:28:05.610207",
   "early_schema": false
- },
- "section_path": [
-  "t1",
-  "t1-1",
-  "t1-1-4"
- ],
- "sections": [
-  "t1-1-4",
-  "t1-1-5"
- ]
+ }
 }

@@ -109,8 +109,7 @@
      "Location"
     ]
    ],
-   "continued": true,
-   "sec": "t2-2"
+   "continued": true
   },
   {
    "id": "b2",
@@ -343,8 +342,7 @@
      2419,
      "Location"
     ]
-   ],
-   "sec": "t2-2"
+   ]
   },
   {
    "id": "b3",
@@ -372,8 +370,7 @@
    "word_division": {
     "word": "ursprünglich",
     "part": "ur-"
-   },
-   "sec": "t2-2"
+   }
   }
  ],
  "footnotes": [],
@@ -383,12 +380,5 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-04T20:36:47.068552",
   "early_schema": false
- },
- "section_path": [
-  "t2",
-  "t2-2"
- ],
- "sections": [
-  "t2-2"
- ]
+ }
 }

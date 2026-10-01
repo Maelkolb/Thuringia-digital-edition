@@ -34,8 +34,7 @@
      "Location"
     ]
    ],
-   "continued": true,
-   "sec": "t1-5-3"
+   "continued": true
   },
   {
    "id": "b2",
@@ -73,16 +72,14 @@
      328,
      "Person"
     ]
-   ],
-   "sec": "t1-5-3"
+   ]
   },
   {
    "id": "b3",
    "type": "paragraph",
    "src": 2,
    "text": "B. Die ältere Linie Reuß hat sich, wie die jüngere, durch 306 Jahre in neun Generationen unter dem Walten von 24 Herrschern als blühende Regentenfamilie erhalten und entfaltet, nur daß sie im ersten Jahrhundert ihres Bestehens ihre stärkste Theilung in drei und vier Zweige vollzog, in eben dieser Zeit einen bedeutenden Theil ihrer Erbgüter verkaufte und dadurch ihr Haus schwächte, während die jüngere Linie in demselben Jahrhundert sich ungetheilt erhielt, ansehnliche Gebiete ankaufte und sich auf diese Weise kräftigte. Von 1582 bis 1646 bestand ihre mehrgliederige, dann bis 1768 ihre zweigliederige Theilung, erst von da an fiel der gesammte Besitz wieder in eine Hand, 80 Jahre früher, als in der jüngeren Linie. Die großen religiösen und politischen Ereignisse der neueren Zeit haben mehr oder minder auch in das Geschick ihres Hauses und Landes eingegriffen.",
-   "spans": [],
-   "sec": "t1-5-3"
+   "spans": []
   },
   {
    "id": "b4",
@@ -181,8 +178,7 @@
      "Location"
     ]
    ],
-   "continues": true,
-   "sec": "t1-5-3"
+   "continues": true
   }
  ],
  "footnotes": [],
@@ -192,13 +188,5 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-05T12:05:50.408184",
   "early_schema": false
- },
- "section_path": [
-  "t1",
-  "t1-5",
-  "t1-5-3"
- ],
- "sections": [
-  "t1-5-3"
- ]
+ }
 }

@@ -24,8 +24,7 @@
      "Location"
     ]
    ],
-   "continued": true,
-   "sec": "t1-2-1"
+   "continued": true
   },
   {
    "id": "b2",
@@ -778,16 +777,14 @@
      "42,24"
     ]
    ],
-   "caption": "G e s t o r b e n e.",
-   "sec": "t1-2-1"
+   "caption": "G e s t o r b e n e."
   },
   {
    "id": "b3",
    "type": "paragraph",
    "src": 2,
    "text": "Im Durchschnitte war somit früher in diesem oberländischen Bezirke die Zahl der Gestorbenen auf Seiten der Jugend (bis zum 14. Lebensjahre) größer als die der Erwachsenen. Nach zehnjährigen Altersklassen vertheilen sich in derselben Zeit die Gestorbenen also:",
-   "spans": [],
-   "sec": "t1-2-1"
+   "spans": []
   },
   {
    "id": "b4",
@@ -1605,16 +1602,14 @@
      "0,45"
     ]
    ],
-   "caption": "L e b e n s a l t e r. 247,15",
-   "sec": "t1-2-1"
+   "caption": "L e b e n s a l t e r. 247,15"
   },
   {
    "id": "b5",
    "type": "paragraph",
    "src": 4,
    "text": "Die Zahl der Gestorbenen im ersten Jahrzehnt war demnach nicht viel kleiner als die Zahl der Gestorbenen in den übrigen Jahrzehnten. Ein Lebensalter über 100 Jahre kam in dieser Periode nicht vor.",
-   "spans": [],
-   "sec": "t1-2-1"
+   "spans": []
   }
  ],
  "footnotes": [],
@@ -1630,13 +1625,5 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-03T15:15:31.091137",
   "early_schema": false
- },
- "section_path": [
-  "t1",
-  "t1-2",
-  "t1-2-1"
- ],
- "sections": [
-  "t1-2-1"
- ]
+ }
 }

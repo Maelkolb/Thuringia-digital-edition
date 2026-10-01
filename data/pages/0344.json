@@ -68,8 +68,7 @@
      1028,
      "Location"
     ]
-   ],
-   "sec": "t1-5-2"
+   ]
   },
   {
    "id": "b2",
@@ -87,14 +86,13 @@
      719,
      "Artefact"
     ]
-   ],
-   "sec": "t1-5-2"
+   ]
   },
   {
    "id": "b3",
    "type": "paragraph",
    "src": 2,
-   "text": "Der von den drei Brüdern angestrebte Zusammenhalt ihres Gebietes wurde im Ganzen ein Jahrhundert aufrecht erhalten und erst nach dieser Zeit gingen die Interessen der Linien mehrfach auseinander und boten dadurch den äußeren Mächten freies Spiel zur Schädigung des Hauses der Voigte. Die Größe dieser Schädigung wird deutlich erkannt, wenn man die Hauptgebiete, die sie im Mittelalter theils ererbt, theils durch Kauf, Kampf und Verdienst erworben hatten, mit dem heutigen Reußenlande vergleicht. Ihre dauernd und vorübergehenden Besitzungen jener Zeit umfaßten Weida und Hof; Plauen, Voigtsberg, Schöneck, Planschwitz, Liebau, Sparneck, Waldstein; Greiz, Ronneburg, Posterstein; Gera, Schleiz, Reichenfels, Burgk, Saalburg, Lobenstein, Nordhalben, Hirschberg, Blankenberg, Sparnberg, Reitzenstein; Asch, Selb, Frauenstein, Greßlas, Hauenstein, Würschengriin, Königswart, Engelsburg, Schwarzenberg, Waldmünchen, Hartenstein; Ziegenrück, Auma, Triptis, Wiesenburg, Oberkranichfeld, Schauenforst, Gleißberg (bei Jena), Heringen, Rochsburg, Wildenfels, Gölsen und Spremberg.",
+   "text": "Der von den drei Brüdern angestrebte Zusammenhalt ihres Gebietes wurde im Ganzen ein Jahrhundert aufrecht erhalten und erst nach dieser Zeit gingen die Interessen der Linien mehrfach auseinander und boten dadurch den äußeren Mächten freies Spiel zur Schädigung des Hauses der Voigte. Die Größe dieser Schädigung wird deutlich erkannt, wenn man die Hauptgebiete, die sie im Mittelalter theils ererbt, theils durch Kauf, Kampf und Verdienst erworben hatten, mit dem heutigen Reußenlande vergleicht. Ihre dauernd und vorübergehenden Besitzungen jener Zeit umfaßten Weida und Hof; Plauen, Voigtsberg, Schöneck, Planschwitz, Liebau, Sparneck, Waldstein; Greiz, Ronneburg, Posterstein; Gera, Schleiz, Reichenfels, Burgk, Saalburg, Lobenstein, Nordhalben, Hirschberg, Blankenberg, Sparnberg, Reitzenstein; Asch, Selb, Frauenstein, Greßlas, Hauenstein, Würschengrün, Königswart, Engelsburg, Schwarzenberg, Waldmünchen, Hartenstein; Ziegenrück, Auma, Triptis, Wiesenburg, Oberkranichfeld, Schauenforst, Gleißberg (bei Jena), Heringen, Rochsburg, Wildenfels, Gölsen und Spremberg.",
    "spans": [
     [
      562,
@@ -238,125 +236,123 @@
     ],
     [
      845,
-     858,
+     857,
      "Location"
     ],
     [
-     860,
-     870,
+     859,
+     869,
      "Location"
     ],
     [
-     872,
-     882,
+     871,
+     881,
      "Location"
     ],
     [
-     884,
-     897,
+     883,
+     896,
      "Location"
     ],
     [
-     899,
-     910,
+     898,
+     909,
      "Location"
     ],
     [
-     912,
-     923,
+     911,
+     922,
      "Location"
     ],
     [
-     925,
-     935,
+     924,
+     934,
      "Location"
     ],
     [
-     937,
-     941,
+     936,
+     940,
      "Location"
     ],
     [
-     943,
-     950,
+     942,
+     949,
      "Location"
     ],
     [
-     952,
-     962,
+     951,
+     961,
      "Location"
     ],
     [
-     964,
-     979,
+     963,
+     978,
      "Location"
     ],
     [
-     981,
-     993,
+     980,
+     992,
      "Location"
     ],
     [
-     995,
-     1004,
+     994,
+     1003,
      "Location"
     ],
     [
-     1010,
-     1014,
+     1009,
+     1013,
      "Location"
     ],
     [
-     1017,
-     1025,
+     1016,
+     1024,
      "Location"
     ],
     [
-     1027,
-     1036,
+     1026,
+     1035,
      "Location"
     ],
     [
-     1038,
-     1048,
+     1037,
+     1047,
      "Location"
     ],
     [
-     1050,
-     1056,
+     1049,
+     1055,
      "Location"
     ],
     [
-     1061,
-     1070,
+     1060,
+     1069,
      "Location"
     ]
-   ],
-   "sec": "t1-5-2"
+   ]
   },
   {
    "id": "b4",
    "type": "paragraph",
    "src": 3,
    "text": "Geschick und Befähigung der drei Linien waren verschieden. Die älteste und jüngste Linie starben, nachdem jene neun, diese sieben Generationen in's",
-   "spans": [],
-   "sec": "t1-5-2"
+   "spans": []
   }
  ],
  "footnotes": [],
- "corrections": [],
+ "corrections": [
+  {
+   "rule": "facsimile_correction",
+   "before": "Würschengriin",
+   "after": "Würschengrün",
+   "source": "E2",
+   "n": 1
+  }
+ ],
  "provenance": {
   "source": "colab-2026-03",
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-05T12:03:52.348675",
   "early_schema": false
- },
- "section_path": [
-  "t1",
-  "t1-5",
-  "t1-5-2"
- ],
- "sections": [
-  "t1-5-2"
- ]
+ }
 }

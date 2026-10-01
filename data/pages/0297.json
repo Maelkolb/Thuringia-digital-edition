@@ -17,9 +17,7 @@
    "type": "heading",
    "src": 0,
    "text": "c) Nichtstreitige Gerichtsbarkeit.",
-   "spans": [],
-   "sec": "t1-4-4",
-   "level": 5
+   "spans": []
   },
   {
    "id": "b2",
@@ -239,7 +237,7 @@
      "role": "body",
      "cells": [
       {
-       "text": "Gera I. . . .",
+       "text": "Gera I",
        "spans": [
         [
          0,
@@ -314,7 +312,7 @@
      "role": "body",
      "cells": [
       {
-       "text": "Gera II. . . .",
+       "text": "Gera II",
        "spans": [
         [
          0,
@@ -1384,16 +1382,14 @@
      "91 204"
     ]
    ],
-   "caption": null,
-   "sec": "t1-4-4"
+   "caption": null
   },
   {
    "id": "b3",
    "type": "paragraph",
    "src": 2,
    "text": "*) Reste der vorjährigen Nummern sind in keinem der Jahre vorgekommen.",
-   "spans": [],
-   "sec": "t1-4-4"
+   "spans": []
   }
  ],
  "footnotes": [
@@ -1406,6 +1402,9 @@
  ],
  "corrections": [
   {
+   "rule": "strip_dot_leaders"
+  },
+  {
    "rule": "table_multirow_header",
    "rows": 3,
    "block": "b2"
@@ -1416,13 +1415,5 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-04T13:40:51.533528",
   "early_schema": false
- },
- "section_path": [
-  "t1",
-  "t1-4",
-  "t1-4-4"
- ],
- "sections": [
-  "t1-4-4"
- ]
+ }
 }

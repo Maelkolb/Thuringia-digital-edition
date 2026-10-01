@@ -16,7 +16,7 @@ A('Dessegrund','Dessegrund','Tal',ip=True,gloss='Desse valley',note='Tal der Des
 A('Grunsenbach','Grunsenbach','Bach',ip=True,gloss='Grunsenbach stream',note='Zufluss der Selbitz/Saale (Oberland, linke Seite).')
 M('fränkische Moschwitz','Moschwitz')
 M('Schwarzteichbach','Moschwitz')
-A('schwarzen Teiche','Schwarzer Teich','Teich',ip=False,gloss='Black Pond (Schwarzer Teich)',note='Teich auf bayerischem Boden, Ursprung der fränkischen Moschwitz (Schwarzteichbach).')
+A('schwarzen Teiche','Schwarzer Teich','Teich',gloss='Black Pond (Schwarzer Teich)',note='Mehrere Teiche dieses Namens: u. a. der Teich auf bayerischem Boden, Ursprung der fränkischen Moschwitz (Schwarzteichbach); ein weiterer bei Schönbrunn.')
 A('Tiegelsbach','Tiegelsbach','Bach',ip=True,gloss='Tiegelsbach stream',note='Aus dem Tiegelsgeräumde; Zufluss der fränkischen Moschwitz.')
 A('Schlaggrund','Schlaggrund','Tal',ip=True,gloss='Schlaggrund (valley)',note='Von der Thiersebach durchflossen, westlich von Titschendorf.')
 A('Ködelbach','Ködelbach','Bach',ip=True,gloss='Ködelbach stream',note='Auch Kettelbach, Kittelbach (früher Kotel, Köttel); entsteht bei Grumbach.')

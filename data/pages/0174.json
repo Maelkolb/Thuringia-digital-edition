@@ -79,8 +79,7 @@
      "Animal"
     ]
    ],
-   "continued": true,
-   "sec": "t1-2-5"
+   "continued": true
   },
   {
    "id": "b2",
@@ -98,8 +97,7 @@
      533,
      "Artefact"
     ]
-   ],
-   "sec": "t1-2-5"
+   ]
   },
   {
    "id": "b3",
@@ -112,8 +110,7 @@
      404,
      "Resource"
     ]
-   ],
-   "sec": "t1-2-5"
+   ]
   },
   {
    "id": "b4",
@@ -126,16 +123,14 @@
      47,
      "Climate"
     ]
-   ],
-   "sec": "t1-2-5"
+   ]
   },
   {
    "id": "b5",
    "type": "paragraph",
    "src": 4,
    "text": "hat das Volk selbst Augen für das rasche Altern. Viel trägt dazu bei, daß die",
-   "spans": [],
-   "sec": "t1-2-5"
+   "spans": []
   }
  ],
  "footnotes": [
@@ -152,13 +147,5 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-03T15:32:19.419234",
   "early_schema": false
- },
- "section_path": [
-  "t1",
-  "t1-2",
-  "t1-2-5"
- ],
- "sections": [
-  "t1-2-5"
- ]
+ }
 }

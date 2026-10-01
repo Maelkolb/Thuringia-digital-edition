@@ -29,8 +29,7 @@
      "Plant"
     ]
    ],
-   "continued": true,
-   "sec": "t1-2-5"
+   "continued": true
   },
   {
    "id": "b2",
@@ -48,8 +47,7 @@
      379,
      "Natural Object"
     ]
-   ],
-   "sec": "t1-2-5"
+   ]
   },
   {
    "id": "b3",
@@ -57,8 +55,7 @@
    "src": 2,
    "text": "Zur Characteristik der Einwohner gehört noch ihre Empfänglichkeit für das Lesen von Büchern und Zeitschriften, indem dadurch der Grad ihrer geistigen Regsamkeit erkannt wird. Früher hatten viele Landsfamilien zu ihrem häuslichen Bücherschatze nicht viel mehr als Bibel, Gesangbuch, einige Gebetbücher und den Kalender; anders jetzt, wo die Volks- und Schulbibliotheken zahlreiche Bücher",
    "spans": [],
-   "continues": true,
-   "sec": "t1-2-5"
+   "continues": true
   }
  ],
  "footnotes": [],
@@ -68,13 +65,5 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-03T15:33:38.491639",
   "early_schema": false
- },
- "section_path": [
-  "t1",
-  "t1-2",
-  "t1-2-5"
- ],
- "sections": [
-  "t1-2-5"
- ]
+ }
 }
