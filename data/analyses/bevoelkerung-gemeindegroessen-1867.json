@@ -1,0 +1,692 @@
+{
+ "id": "bevoelkerung-gemeindegroessen-1867",
+ "title": {
+  "de": "Größe der Gemeinden 1867",
+  "en": "Size of the municipalities, 1867"
+ },
+ "category": "population",
+ "section": "t1-2-1",
+ "sources": [
+  {
+   "page": "98",
+   "block": "b1",
+   "rows": "r2-r7"
+  },
+  {
+   "page": "98",
+   "block": "b2"
+  },
+  {
+   "page": "97",
+   "block": "b5"
+  },
+  {
+   "page": "94",
+   "block": "b1",
+   "rows": "r3"
+  }
+ ],
+ "summary": {
+  "de": "Brückner verteilt die 173 politischen Gemeinden des Fürstenthums nach ihrer Einwohnerzahl auf Größenklassen, getrennt nach Landrathsbezirken. 159 Gemeinden haben weniger als 1000 Einwohner, nur 14 mehr; dennoch leben knapp 49 % der Bevölkerung in den größeren Orten, allein 18,5 % in der Stadt Gera.",
+  "en": "Brückner distributes the 173 political municipalities of the principality over size classes by population, separately for the districts. 159 municipalities have fewer than 1,000 inhabitants and only 14 have more; nevertheless almost 49 % of the population live in the larger places, 18.5 % in the town of Gera alone."
+ },
+ "method": {
+  "de": "Aus der Tabelle auf S. 98 wurden je Bezirk und Größenklasse die Zahl der Gemeinden und ihre Volksmenge übernommen; die Zellen enthalten untereinander beide Zahlen. Leere Klassen (»—«) bleiben ohne Wert. Brückners Klassengrenzen überlappen in der Schreibung (»500 bis 1000«, »1000 bis 2000«); die Zuordnung der Grenzwerte ist nicht angegeben. Abgeleitet wurde der Anteil der Gemeinden je Klasse an allen 173 Gemeinden; die gedruckten Prozentzahlen der Volksmenge und die Seelenzahl je Gemeinde wurden übernommen und gegen Volksmenge : Gesamtbevölkerung geprüft (alle Werte stimmen). Die Zeilen- und Spaltensummen sowie die Summe der drei Bezirke gleich der Zeile »Fürstenthum« wurden mit Python kontrolliert und stimmen.",
+  "en": "From the table on p. 98 the number of municipalities and their population were taken for each district and size class; the cells contain both numbers one below the other. Empty classes (“—”) are left without a value. Brückner's class limits overlap in print (“500 to 1000”, “1000 to 2000”); the assignment of boundary values is not stated. Derived is the share of municipalities per class in all 173 municipalities; the printed percentages of the population and the persons per municipality were taken over and checked against population ÷ total population (all values agree). Row and column sums and the equality of the three districts' sum with the “principality” row were checked in Python and agree."
+ },
+ "findings": [
+  {
+   "de": "159 der 173 Gemeinden (91,9 %) haben weniger als 1000 Einwohner und vereinen 45 044 Personen (51,2 %); 142 Gemeinden zählen höchstens 500 Seelen (im Mittel 238,7).",
+   "en": "159 of the 173 municipalities (91.9 %) have fewer than 1,000 inhabitants and together hold 45,044 persons (51.2 %); 142 municipalities have at most 500 souls (on average 238.7)."
+  },
+  {
+   "de": "Die 14 Gemeinden über 1000 Einwohner (8,1 % der Gemeinden) umfassen 42 930 Einwohner (48,8 %); Brückner vergleicht diese Zahl mit dem Fürstenthum Reuß ä. L. (43 889 Einwohner).",
+   "en": "The 14 municipalities of over 1,000 inhabitants (8.1 % of the municipalities) comprise 42,930 inhabitants (48.8 %); Brückner compares this figure with the Principality of Reuss (elder line, 43,889 inhabitants)."
+  },
+  {
+   "de": "Zwischen 5000 und 16 000 Einwohnern gibt es keine Gemeinde: Auf die Stadt Gera (16 283) folgt Schleiz mit 4 953; im Bezirk Gera sind 87,7 % der Gemeinden kleiner als 500 Einwohner, in Schleiz 78,3 %, in Lobenstein-Ebersdorf 76,1 %.",
+   "en": "There is no municipality between 5,000 and 16,000 inhabitants: the town of Gera (16,283) is followed by Schleiz with 4,953; in the Gera district 87.7 % of the municipalities have fewer than 500 inhabitants, in Schleiz 78.3 %, in Lobenstein-Ebersdorf 76.1 %."
+  }
+ ],
+ "caveats": [
+  {
+   "de": "Gezählt werden politische (staatsrechtliche) Gemeinden, nicht Ortschaften im Sinne von Siedlungen; mehrere Dörfer können eine Gemeinde bilden und umgekehrt. Die Einwohnerzahlen sind die der Volkszählung von 1867 (Gera 38 252, Schleiz 27 368, Lobenstein-Ebersdorf 22 354).",
+   "en": "The unit is the political (constitutional) municipality, not the settlement; several villages may form one municipality. The population figures are those of the 1867 census (Gera 38,252, Schleiz 27,368, Lobenstein-Ebersdorf 22,354)."
+  },
+  {
+   "de": "Brückners Text zählt 159 Gemeinden unter und 14 über 1000 Einwohner (45 044 bzw. 42 930 Einwohner); das stimmt mit den Zeilensummen überein.",
+   "en": "Brückner's text counts 159 municipalities below and 14 above 1,000 inhabitants (45,044 and 42,930 inhabitants); this agrees with the row sums."
+  }
+ ],
+ "datasets": [
+  {
+   "name": "size_classes",
+   "title": {
+    "de": "Gemeinden nach Größenklassen und Bezirken",
+    "en": "Municipalities by size class and district"
+   },
+   "columns": [
+    {
+     "name": "district",
+     "label": {
+      "de": "Landrathsbezirk",
+      "en": "District"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "size_class",
+     "label": {
+      "de": "Größenklasse (Einwohner)",
+      "en": "Size class (inhabitants)"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "class_order",
+     "label": {
+      "de": "Klassennummer",
+      "en": "Class number"
+     },
+     "type": "integer",
+     "unit": null,
+     "derived": true,
+     "note": "editorische Ordnung 1–7"
+    },
+    {
+     "name": "places",
+     "label": {
+      "de": "Zahl der Gemeinden",
+      "en": "Number of municipalities"
+     },
+     "type": "integer",
+     "unit": "Gemeinden"
+    },
+    {
+     "name": "population",
+     "label": {
+      "de": "Volksmenge",
+      "en": "Population"
+     },
+     "type": "integer",
+     "unit": "Personen"
+    }
+   ],
+   "rows": [
+    [
+     "Gera",
+     "1–500",
+     1,
+     71,
+     13684
+    ],
+    [
+     "Gera",
+     "500–1000",
+     2,
+     6,
+     3577
+    ],
+    [
+     "Gera",
+     "1000–2000",
+     3,
+     3,
+     4708
+    ],
+    [
+     "Gera",
+     "2000–3000",
+     4,
+     null,
+     null
+    ],
+    [
+     "Gera",
+     "3000–4000",
+     5,
+     null,
+     null
+    ],
+    [
+     "Gera",
+     "4000–5000",
+     6,
+     null,
+     null
+    ],
+    [
+     "Gera",
+     "16000–17000",
+     7,
+     1,
+     16283
+    ],
+    [
+     "Schleiz",
+     "1–500",
+     1,
+     36,
+     10059
+    ],
+    [
+     "Schleiz",
+     "500–1000",
+     2,
+     4,
+     2910
+    ],
+    [
+     "Schleiz",
+     "1000–2000",
+     3,
+     3,
+     4775
+    ],
+    [
+     "Schleiz",
+     "2000–3000",
+     4,
+     2,
+     4671
+    ],
+    [
+     "Schleiz",
+     "3000–4000",
+     5,
+     null,
+     null
+    ],
+    [
+     "Schleiz",
+     "4000–5000",
+     6,
+     1,
+     4953
+    ],
+    [
+     "Schleiz",
+     "16000–17000",
+     7,
+     null,
+     null
+    ],
+    [
+     "Lobenstein-Ebersdorf",
+     "1–500",
+     1,
+     35,
+     10148
+    ],
+    [
+     "Lobenstein-Ebersdorf",
+     "500–1000",
+     2,
+     7,
+     4666
+    ],
+    [
+     "Lobenstein-Ebersdorf",
+     "1000–2000",
+     3,
+     3,
+     4697
+    ],
+    [
+     "Lobenstein-Ebersdorf",
+     "2000–3000",
+     4,
+     1,
+     2843
+    ],
+    [
+     "Lobenstein-Ebersdorf",
+     "3000–4000",
+     5,
+     null,
+     null
+    ],
+    [
+     "Lobenstein-Ebersdorf",
+     "4000–5000",
+     6,
+     null,
+     null
+    ],
+    [
+     "Lobenstein-Ebersdorf",
+     "16000–17000",
+     7,
+     null,
+     null
+    ]
+   ],
+   "source_refs": [
+    {
+     "page": "98",
+     "block": "b1",
+     "rows": "r2-r4"
+    }
+   ]
+  },
+  {
+   "name": "size_total",
+   "title": {
+    "de": "Fürstenthum: Gemeinden und Volksmenge nach Größenklassen",
+    "en": "Principality: municipalities and population by size class"
+   },
+   "columns": [
+    {
+     "name": "size_class",
+     "label": {
+      "de": "Größenklasse (Einwohner)",
+      "en": "Size class (inhabitants)"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "class_order",
+     "label": {
+      "de": "Klassennummer",
+      "en": "Class number"
+     },
+     "type": "integer",
+     "unit": null,
+     "derived": true,
+     "note": "editorische Ordnung 1–7"
+    },
+    {
+     "name": "places",
+     "label": {
+      "de": "Zahl der Gemeinden",
+      "en": "Number of municipalities"
+     },
+     "type": "integer",
+     "unit": "Gemeinden"
+    },
+    {
+     "name": "population",
+     "label": {
+      "de": "Volksmenge",
+      "en": "Population"
+     },
+     "type": "integer",
+     "unit": "Personen"
+    },
+    {
+     "name": "share_places",
+     "label": {
+      "de": "Anteil der Gemeinden",
+      "en": "Share of municipalities"
+     },
+     "type": "number",
+     "unit": "%",
+     "derived": true
+    },
+    {
+     "name": "share_population",
+     "label": {
+      "de": "Anteil der Volksmenge (gedruckt)",
+      "en": "Share of population (printed)"
+     },
+     "type": "number",
+     "unit": "%"
+    },
+    {
+     "name": "persons_per_place",
+     "label": {
+      "de": "Seelen je Gemeinde (gedruckt)",
+      "en": "Persons per municipality (printed)"
+     },
+     "type": "number",
+     "unit": "Personen"
+    }
+   ],
+   "rows": [
+    [
+     "1–500",
+     1,
+     142,
+     33891,
+     82.08,
+     38.52,
+     238.69
+    ],
+    [
+     "500–1000",
+     2,
+     17,
+     11153,
+     9.83,
+     12.68,
+     656.06
+    ],
+    [
+     "1000–2000",
+     3,
+     9,
+     14180,
+     5.2,
+     16.12,
+     1575.55
+    ],
+    [
+     "2000–3000",
+     4,
+     3,
+     7514,
+     1.73,
+     8.54,
+     2504.66
+    ],
+    [
+     "3000–4000",
+     5,
+     null,
+     null,
+     0.0,
+     null,
+     null
+    ],
+    [
+     "4000–5000",
+     6,
+     1,
+     4953,
+     0.58,
+     5.63,
+     4953.0
+    ],
+    [
+     "16000–17000",
+     7,
+     1,
+     16283,
+     0.58,
+     18.51,
+     16283.0
+    ]
+   ],
+   "source_refs": [
+    {
+     "page": "98",
+     "block": "b1",
+     "rows": "r5-r7"
+    }
+   ]
+  }
+ ],
+ "charts": [
+  {
+   "id": "c1",
+   "dataset": "size_total",
+   "title": {
+    "de": "Gemeinden und Bevölkerung nach Größenklassen",
+    "en": "Municipalities and population by size class"
+   },
+   "caption": {
+    "de": "Anteil der Gemeinden und Anteil der Volksmenge je Größenklasse (Fürstenthum, 1867). Die vielen kleinen Gemeinden haben einen kleineren Bevölkerungsanteil als die wenigen großen Orte; zwischen 2000 und 16 000 Einwohnern liegen nur vier Gemeinden.",
+    "en": "Share of the municipalities and share of the population by size class (principality, 1867). The many small municipalities have a smaller share of the population than the few large places; only four municipalities lie between 2,000 and 16,000 inhabitants."
+   },
+   "vegalite": {
+    "height": 320,
+    "transform": [
+     {
+      "fold": [
+       "share_places",
+       "share_population"
+      ],
+      "as": [
+       "measure",
+       "pct"
+      ]
+     },
+     {
+      "calculate": "datum.pct == null ? 0 : datum.pct",
+      "as": "pct0"
+     }
+    ],
+    "mark": "bar",
+    "encoding": {
+     "x": {
+      "field": "size_class",
+      "type": "ordinal",
+      "sort": {
+       "field": "class_order",
+       "op": "min"
+      },
+      "title": {
+       "de": "Einwohner der Gemeinde",
+       "en": "Inhabitants of the municipality"
+      },
+      "axis": {
+       "labelAngle": 0,
+       "labelExpr": {
+        "de": "datum.label",
+        "en": "replace(datum.label, /(\\d+)(\\d{3})/g, '$1,$2')"
+       }
+      }
+     },
+     "xOffset": {
+      "field": "measure",
+      "type": "nominal",
+      "scale": {
+       "domain": [
+        "share_places",
+        "share_population"
+       ]
+      }
+     },
+     "y": {
+      "field": "pct0",
+      "type": "quantitative",
+      "title": {
+       "de": "Anteil (%)",
+       "en": "Share (%)"
+      }
+     },
+     "color": {
+      "field": "measure",
+      "type": "nominal",
+      "scale": {
+       "domain": [
+        "share_places",
+        "share_population"
+       ]
+      },
+      "legend": {
+       "title": null,
+       "labelLimit": 320,
+       "labelExpr": {
+        "de": "datum.label == 'share_places' ? 'Anteil der Gemeinden' : 'Anteil der Bevölkerung'",
+        "en": "datum.label == 'share_places' ? 'Share of municipalities' : 'Share of population'"
+       }
+      }
+     },
+     "tooltip": [
+      {
+       "field": "size_class",
+       "title": {
+        "de": "Größenklasse",
+        "en": "Size class"
+       }
+      },
+      {
+       "field": "places",
+       "title": {
+        "de": "Gemeinden",
+        "en": "Municipalities"
+       },
+       "format": ","
+      },
+      {
+       "field": "population",
+       "title": {
+        "de": "Volksmenge",
+        "en": "Population"
+       },
+       "format": ","
+      },
+      {
+       "field": "share_places",
+       "title": {
+        "de": "Anteil Gemeinden (%)",
+        "en": "Share of municipalities (%)"
+       },
+       "format": ".2f"
+      },
+      {
+       "field": "share_population",
+       "title": {
+        "de": "Anteil Volksmenge (%)",
+        "en": "Share of population (%)"
+       },
+       "format": ".2f"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "c2",
+   "dataset": "size_classes",
+   "title": {
+    "de": "Volksmenge je Größenklasse und Bezirk",
+    "en": "Population by size class and district"
+   },
+   "caption": {
+    "de": "Einwohner der Gemeinden einer Größenklasse, nach Bezirken gestapelt. Die Klasse »16000–17000« ist die Stadt Gera; die Klasse »3000–4000« ist unbesetzt.",
+    "en": "Inhabitants of the municipalities of a size class, stacked by district. The class “16,000–17,000” is the town of Gera; the class “3,000–4,000” is empty."
+   },
+   "vegalite": {
+    "height": 320,
+    "transform": [
+     {
+      "filter": "datum.population != null"
+     }
+    ],
+    "mark": "bar",
+    "encoding": {
+     "x": {
+      "field": "size_class",
+      "type": "ordinal",
+      "scale": {
+       "domain": [
+        "1–500",
+        "500–1000",
+        "1000–2000",
+        "2000–3000",
+        "3000–4000",
+        "4000–5000",
+        "16000–17000"
+       ]
+      },
+      "title": {
+       "de": "Einwohner der Gemeinde",
+       "en": "Inhabitants of the municipality"
+      },
+      "axis": {
+       "labelAngle": 0,
+       "labelExpr": {
+        "de": "datum.label",
+        "en": "replace(datum.label, /(\\d+)(\\d{3})/g, '$1,$2')"
+       }
+      }
+     },
+     "y": {
+      "field": "population",
+      "type": "quantitative",
+      "title": {
+       "de": "Einwohner",
+       "en": "Inhabitants"
+      }
+     },
+     "color": {
+      "field": "district",
+      "type": "nominal",
+      "scale": {
+       "domain": [
+        "Gera",
+        "Schleiz",
+        "Lobenstein-Ebersdorf"
+       ]
+      },
+      "legend": {
+       "title": null,
+       "labelExpr": {
+        "de": "datum.label",
+        "en": "datum.label == 'Fürstenthum' ? 'Principality' : datum.label"
+       },
+       "labelLimit": 260
+      }
+     },
+     "tooltip": [
+      {
+       "field": "district",
+       "title": {
+        "de": "Bezirk",
+        "en": "District"
+       }
+      },
+      {
+       "field": "size_class",
+       "title": {
+        "de": "Größenklasse",
+        "en": "Size class"
+       }
+      },
+      {
+       "field": "places",
+       "title": {
+        "de": "Gemeinden",
+        "en": "Municipalities"
+       },
+       "format": ","
+      },
+      {
+       "field": "population",
+       "title": {
+        "de": "Volksmenge",
+        "en": "Population"
+       },
+       "format": ","
+      }
+     ]
+    }
+   }
+  }
+ ],
+ "keywords": {
+  "de": [
+   "Gemeinden",
+   "Gemeindegröße",
+   "Größenklassen",
+   "Einwohnerzahl",
+   "Gera",
+   "Schleiz",
+   "Lobenstein",
+   "Ebersdorf",
+   "Dörfer",
+   "Siedlungsstruktur"
+  ],
+  "en": [
+   "municipalities",
+   "municipality size",
+   "size classes",
+   "population",
+   "Gera",
+   "Schleiz",
+   "Lobenstein",
+   "villages",
+   "settlement structure"
+  ]
+ },
+ "related": [
+  "bevoelkerung-stadt-land-1833-1867"
+ ],
+ "generated_by": "Claude Sonnet 5.5 (subagent A06)",
+ "date": "2026-10-01"
+}

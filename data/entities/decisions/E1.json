@@ -1,0 +1,7018 @@
+{
+ "package": "E1",
+ "group": "places",
+ "decisions": [
+  {
+   "key": "Gera",
+   "action": "accept",
+   "label": "Gera",
+   "class": "place",
+   "kind": "Stadt",
+   "geonames": 2921232,
+   "lat": 50.88029,
+   "lon": 12.08187,
+   "wikidata": "Q3750",
+   "in_principality": true,
+   "register_page": "428",
+   "gloss_en": "Gera (town; seat of the Landrathsbezirk Gera)"
+  },
+  {
+   "key": "Hohenleuben",
+   "action": "accept",
+   "label": "Hohenleuben",
+   "class": "place",
+   "kind": "Marktflecken",
+   "geonames": 2901634,
+   "lat": 50.71128,
+   "lon": 12.05427,
+   "in_principality": true,
+   "register_page": "633",
+   "gloss_en": "Hohenleuben (market town)"
+  },
+  {
+   "key": "Hirschberg",
+   "action": "accept",
+   "label": "Hirschberg",
+   "class": "place",
+   "kind": "Stadt",
+   "geonames": 2903720,
+   "lat": 50.40538,
+   "lon": 11.81829,
+   "in_principality": true,
+   "register_page": "809",
+   "gloss_en": "Hirschberg (town)",
+   "note": "Hirschberg an der Saale (Schloss, former Herrschaft/Pflege Hirschberg); not Hirschberg in Silesia."
+  },
+  {
+   "key": "Ebersdorf",
+   "action": "accept",
+   "label": "Ebersdorf",
+   "class": "place",
+   "kind": "Marktflecken",
+   "geonames": 2933921,
+   "lat": 50.48461,
+   "lon": 11.66757,
+   "in_principality": true,
+   "register_page": "731",
+   "gloss_en": "Ebersdorf (market town)",
+   "note": "Ebersdorf near Lobenstein (also called Heiligen-Ebersdorf, Herrnhuter Colonie, summer residence of the prince); one of many places named Ebersdorf."
+  },
+  {
+   "key": "Köstritz",
+   "action": "accept",
+   "label": "Köstritz",
+   "class": "place",
+   "kind": "Dorf",
+   "geonames": 2953417,
+   "lat": 50.93032,
+   "lon": 12.01005,
+   "in_principality": true,
+   "register_page": "494",
+   "modern": "Bad Köstritz",
+   "gloss_en": "Bad Köstritz (village)",
+   "note": "Residence of the Paragiat line Reuß-Köstritz; \"fast städtisches\" large village."
+  },
+  {
+   "key": "Greiz",
+   "action": "accept",
+   "label": "Greiz",
+   "class": "place",
+   "kind": "Stadt",
+   "geonames": 2917737,
+   "lat": 50.65778,
+   "lon": 12.19918,
+   "in_principality": false,
+   "gloss_en": "Greiz (town)",
+   "note": "Residence of the Reuss elder line (Reuß ä. L.), outside the principality."
+  },
+  {
+   "key": "Dorna",
+   "action": "accept",
+   "label": "Dorna",
+   "class": "place",
+   "kind": "Dorf",
+   "geonames": 2935808,
+   "lat": 50.91726,
+   "lon": 12.12648,
+   "in_principality": true,
+   "register_page": "549",
+   "gloss_en": "Dorna (village)"
+  },
+  {
+   "key": "Harra",
+   "action": "accept",
+   "label": "Harra",
+   "class": "place",
+   "kind": "Dorf",
+   "geonames": 2910342,
+   "lat": 50.41667,
+   "lon": 11.68333,
+   "in_principality": true,
+   "register_page": "786",
+   "gloss_en": "Harra (village)"
+  },
+  {
+   "key": "Böhmen",
+   "action": "accept",
+   "label": "Böhmen",
+   "class": "place",
+   "kind": "Land",
+   "lat": 49.8,
+   "lon": 15.0,
+   "in_principality": false,
+   "gloss_en": "Bohemia (kingdom/crown land)"
+  },
+  {
+   "key": "Kulm",
+   "action": "accept",
+   "label": "Kulm",
+   "class": "place",
+   "kind": "Dorf",
+   "geonames": 2882590,
+   "lat": 50.50727,
+   "lon": 11.75415,
+   "in_principality": true,
+   "register_page": "675",
+   "gloss_en": "Kulm (village)",
+   "note": "Kulm near Saalburg (register p. 675). Homonym: Culm in the Bramthal near Zschippach (Landrathsbezirk Gera, p. 546), see key Culm."
+  },
+  {
+   "key": "Frössen",
+   "action": "accept",
+   "label": "Frössen",
+   "class": "place",
+   "kind": "Dorf",
+   "geonames": 2924136,
+   "lat": 50.44045,
+   "lon": 11.76774,
+   "in_principality": true,
+   "register_page": "795",
+   "gloss_en": "Frössen (village)"
+  },
+  {
+   "key": "Kraftsdorf",
+   "action": "accept",
+   "label": "Kraftsdorf",
+   "class": "place",
+   "kind": "Dorf",
+   "geonames": 2885016,
+   "lat": 50.87574,
+   "lon": 11.92944,
+   "in_principality": true,
+   "register_page": "487",
+   "gloss_en": "Kraftsdorf (village)"
+  },
+  {
+   "key": "Frankenthal",
+   "action": "accept",
+   "label": "Frankenthal",
+   "class": "place",
+   "kind": "Dorf",
+   "geonames": 2925549,
+   "lat": 50.8778,
+   "lon": 12.01292,
+   "in_principality": true,
+   "register_page": "473",
+   "gloss_en": "Frankenthal (village)"
+  },
+  {
+   "key": "Altenburg",
+   "action": "accept",
+   "label": "Altenburg",
+   "class": "place",
+   "kind": "Stadt",
+   "geonames": 2957773,
+   "lat": 50.98763,
+   "lon": 12.43684,
+   "in_principality": false,
+   "gloss_en": "Altenburg (town)",
+   "note": "City of Altenburg, but often the Duchy of Saxe-Altenburg (cf. Herzogthum S.-Altenburg)."
+  },
+  {
+   "key": "Gahma",
+   "action": "accept",
+   "label": "Gahma",
+   "class": "place",
+   "kind": "Dorf",
+   "geonames": 2923347,
+   "lat": 50.5231,
+   "lon": 11.53763,
+   "in_principality": true,
+   "register_page": "763",
+   "gloss_en": "Gahma (village)"
+  },
+  {
+   "key": "Hof",
+   "action": "accept",
+   "label": "Hof",
+   "class": "place",
+   "kind": "Stadt",
+   "geonames": 2902768,
+   "lat": 50.31297,
+   "lon": 11.91261,
+   "in_principality": false,
+   "gloss_en": "Hof (town)",
+   "note": "Hof in Bavaria (Upper Franconia)."
+  },
+  {
+   "key": "Bayern",
+   "action": "accept",
+   "label": "Bayern",
+   "class": "place",
+   "kind": "Land",
+   "geonames": 2951839,
+   "lat": 49.0,
+   "lon": 11.5,
+   "in_principality": false,
+   "gloss_en": "Bavaria (kingdom)"
+  },
+  {
+   "key": "Großaga",
+   "action": "accept",
+   "label": "Großaga",
+   "class": "place",
+   "kind": "Dorf",
+   "geonames": 2917065,
+   "lat": 50.96637,
+   "lon": 12.08766,
+   "in_principality": true,
+   "register_page": "521",
+   "gloss_en": "Großaga (village)"
+  },
+  {
+   "key": "Gefell",
+   "action": "accept",
+   "label": "Gefell",
+   "class": "place",
+   "kind": "Stadt",
+   "geonames": 2922089,
+   "lat": 50.44054,
+   "lon": 11.85929,
+   "in_principality": false,
+   "gloss_en": "Gefell (town)",
+   "note": "Prussian territory (Gefell parish, Kr. Ziegenrück), adjoining the principality; the churches of Blintendorf, Frössen etc. were parished to Gefell until 1869."
+  },
+  {
+   "key": "Burgk",
+   "action": "accept",
+   "label": "Burgk",
+   "class": "place",
+   "kind": "Dorf",
+   "geonames": 2941226,
+   "lat": 50.55603,
+   "lon": 11.71803,
+   "in_principality": false,
+   "gloss_en": "Burgk (village)",
+   "note": "Burgk on the Saale (Schloss; historically Herrschaft/Haus Burgk). No article in Brückner's Ortskunde."
+  },
+  {
+   "key": "Gräfenwarth",
+   "action": "accept",
+   "label": "Gräfenwarth",
+   "class": "place",
+   "kind": "Dorf",
+   "geonames": 2918262,
+   "lat": 50.52975,
+   "lon": 11.75311,
+   "in_principality": true,
+   "register_page": "672",
+   "gloss_en": "Gräfenwarth (village)"
+  },
+  {
+   "key": "Dittersdorf",
+   "action": "accept",
+   "label": "Dittersdorf",
+   "class": "place",
+   "kind": "Dorf",
+   "geonames": 2936738,
+   "lat": 50.65,
+   "lon": 11.81667,
+   "in_principality": true,
+   "register_page": "614",
+   "gloss_en": "Dittersdorf (village)",
+   "note": "Dittersdorf near Schleiz (p. 614). Two Wüstungen of this name: near Schleiz (p. 593) and near Tanna (p. 689)."
+  },
+  {
+   "key": "Hirschfeld",
+   "action": "accept",
+   "label": "Hirschfeld",
+   "class": "place",
+   "kind": "Dorf",
+   "geonames": 2903662,
+   "lat": 50.94162,
+   "lon": 12.18791,
+   "in_principality": true,
+   "register_page": "536",
+   "gloss_en": "Hirschfeld (village)"
+  },
+  {
+   "key": "Großsaara",
+   "action": "accept",
+   "label": "Großsaara",
+   "class": "place",
+   "kind": "Dorf",
+   "geonames": 2917067,
+   "lat": 50.85724,
+   "lon": 11.97677,
+   "in_principality": true,
+   "register_page": "467",
+   "gloss_en": "Großsaara (village)"
+  },
+  {
+   "key": "Göschitz",
+   "action": "accept",
+   "label": "Göschitz",
+   "class": "place",
+   "kind": "Dorf",
+   "geonames": 2918884,
+   "lat": 50.63333,
+   "lon": 11.86667,
+   "in_principality": true,
+   "register_page": "609",
+   "gloss_en": "Göschitz (village)"
+  },
+  {
+   "key": "Heinersdorf",
+   "action": "accept",
+   "label": "Heinersdorf",
+   "class": "place",
+   "kind": "Dorf",
+   "geonames": 2907304,
+   "lat": 50.47274,
+   "lon": 11.57588,
+   "in_principality": true,
+   "register_page": "744",
+   "gloss_en": "Heinersdorf (village)"
+  },
+  {
+   "key": "Kleinaga",
+   "action": "accept",
+   "label": "Kleinaga",
+   "class": "place",
+   "kind": "Dorf",
+   "geonames": 2889820,
+   "lat": 50.96003,
+   "lon": 12.09221,
+   "in_principality": true,
+   "register_page": "525",
+   "gloss_en": "Kleinaga (village)"
+  },
+  {
+   "key": "Hartmannsdorf",
+   "action": "accept",
+   "label": "Hartmannsdorf",
+   "class": "place",
+   "kind": "Dorf",
+   "geonames": 2910049,
+   "lat": 50.90901,
+   "lon": 12.00568,
+   "in_principality": true,
+   "register_page": "492",
+   "gloss_en": "Hartmannsdorf (village)"
+  },
+  {
+   "key": "Kirschkau",
+   "action": "accept",
+   "label": "Kirschkau",
+   "class": "place",
+   "kind": "Dorf",
+   "geonames": 2890235,
+   "lat": 50.60487,
+   "lon": 11.88708,
+   "in_principality": true,
+   "register_page": "622",
+   "gloss_en": "Kirschkau (village)"
+  },
+  {
+   "key": "Dürrenebersdorf",
+   "action": "accept",
+   "label": "Dürrenebersdorf",
+   "class": "place",
+   "kind": "Dorf",
+   "geonames": 2934367,
+   "lat": 50.85045,
+   "lon": 12.02836,
+   "in_principality": true,
+   "register_page": "458",
+   "gloss_en": "Dürrenebersdorf (village)"
+  },
+  {
+   "key": "Grumbach",
+   "action": "accept",
+   "label": "Grumbach",
+   "class": "place",
+   "kind": "Dorf",
+   "geonames": 2914542,
+   "lat": 50.42997,
+   "lon": 11.49899,
+   "in_principality": true,
+   "register_page": "774",
+   "gloss_en": "Grumbach (village)"
+  },
+  {
+   "key": "Blintendorf",
+   "action": "accept",
+   "label": "Blintendorf",
+   "class": "place",
+   "kind": "Dorf",
+   "geonames": 2947706,
+   "lat": 50.44775,
+   "lon": 11.80597,
+   "in_principality": true,
+   "register_page": "792",
+   "gloss_en": "Blintendorf (village)"
+  },
+  {
+   "key": "Groitschen",
+   "action": "accept",
+   "label": "Groitschen",
+   "class": "place",
+   "kind": "Dorf",
+   "geonames": 2917172,
+   "lat": 50.92254,
+   "lon": 12.16918,
+   "in_principality": true,
+   "register_page": "543",
+   "gloss_en": "Groitschen (village)"
+  },
+  {
+   "key": "Bethenhausen",
+   "action": "accept",
+   "label": "Bethenhausen",
+   "class": "place",
+   "kind": "Dorf",
+   "geonames": 2949762,
+   "lat": 50.92922,
+   "lon": 12.19957,
+   "in_principality": true,
+   "register_page": "539",
+   "gloss_en": "Bethenhausen (village)"
+  },
+  {
+   "key": "Ernsee",
+   "action": "accept",
+   "label": "Ernsee",
+   "class": "place",
+   "kind": "Dorf",
+   "geonames": 2929355,
+   "lat": 50.87798,
+   "lon": 12.03891,
+   "in_principality": true,
+   "register_page": "418",
+   "gloss_en": "Ernsee (village)"
+  },
+  {
+   "key": "Altengesees",
+   "action": "accept",
+   "label": "Altengesees",
+   "class": "place",
+   "kind": "Dorf",
+   "geonames": 2957683,
+   "lat": 50.54845,
+   "lon": 11.54025,
+   "in_principality": true,
+   "register_page": "761",
+   "gloss_en": "Altengesees (village)"
+  },
+  {
+   "key": "Deutschland",
+   "action": "accept",
+   "label": "Deutschland",
+   "class": "place",
+   "kind": "Land",
+   "geonames": 2921044,
+   "lat": 51.5,
+   "lon": 10.5,
+   "in_principality": false,
+   "gloss_en": "Germany"
+  },
+  {
+   "key": "Jena",
+   "action": "accept",
+   "label": "Jena",
+   "class": "place",
+   "kind": "Stadt",
+   "geonames": 2895044,
+   "lat": 50.92878,
+   "lon": 11.5899,
+   "in_principality": false,
+   "gloss_en": "Jena (town)"
+  },
+  {
+   "key": "Gleina",
+   "action": "accept",
+   "label": "Gleina",
+   "class": "place",
+   "kind": "Dorf",
+   "geonames": 2919984,
+   "lat": 50.93507,
+   "lon": 11.98587,
+   "in_principality": true,
+   "register_page": "499",
+   "gloss_en": "Gleina (village)"
+  },
+  {
+   "key": "Caaschwitz",
+   "action": "accept",
+   "label": "Caaschwitz",
+   "class": "place",
+   "kind": "Dorf",
+   "geonames": 2940436,
+   "lat": 50.95,
+   "lon": 12.0,
+   "in_principality": true,
+   "register_page": "503",
+   "gloss_en": "Caaschwitz (village)"
+  },
+  {
+   "key": "Arlas",
+   "action": "accept",
+   "label": "Arlas",
+   "class": "place",
+   "kind": "Weiler",
+   "geonames": 2955580,
+   "lat": 50.41705,
+   "lon": 11.71335,
+   "in_principality": true,
+   "register_page": "804",
+   "gloss_en": "Arlas (hamlet)",
+   "note": "Former pilgrimage place with chapel ruin (Feldkirche); on the border between Reuss and Prussia, two of the four houses on Reuss soil."
+  },
+  {
+   "key": "Kießling",
+   "action": "accept",
+   "label": "Kießling",
+   "class": "place",
+   "kind": "Dorf",
+   "geonames": 2890957,
+   "lat": 50.40791,
+   "lon": 11.67167,
+   "in_principality": true,
+   "register_page": "785",
+   "gloss_en": "Kießling (village)",
+   "note": "Political municipality made up of several groups (Abfang, Bärwinkel, Buttermühle etc.)."
+  },
+  {
+   "key": "Görkwitz",
+   "action": "accept",
+   "label": "Görkwitz",
+   "class": "place",
+   "kind": "Dorf",
+   "geonames": 2918990,
+   "lat": 50.58333,
+   "lon": 11.78333,
+   "in_principality": true,
+   "register_page": "600",
+   "gloss_en": "Görkwitz (village)"
+  },
+  {
+   "key": "Eliasbrunn",
+   "action": "accept",
+   "label": "Eliasbrunn",
+   "class": "place",
+   "kind": "Dorf",
+   "geonames": 2931163,
+   "lat": 50.49648,
+   "lon": 11.60109,
+   "in_principality": true,
+   "register_page": "749",
+   "gloss_en": "Eliasbrunn (village)"
+  },
+  {
+   "key": "Kaimberg",
+   "action": "accept",
+   "label": "Kaimberg",
+   "class": "place",
+   "kind": "Dorf",
+   "geonames": 2894076,
+   "lat": 50.84847,
+   "lon": 12.12257,
+   "in_principality": true,
+   "register_page": "562",
+   "gloss_en": "Kaimberg (village)"
+  },
+  {
+   "key": "Kretzschwitz",
+   "action": "accept",
+   "label": "Kretschwitz",
+   "class": "place",
+   "kind": "Dorf",
+   "geonames": 2939758,
+   "lat": 50.94074,
+   "lon": 12.12944,
+   "in_principality": false,
+   "register_page": "533",
+   "modern": "Cretzschwitz",
+   "gloss_en": "Cretzschwitz (village)",
+   "note": "Brückner's register and article spell Kretschwitz; the text also has Kretzschwitz, Cretzschwitz."
+  },
+  {
+   "key": "Frankendorf",
+   "action": "accept",
+   "label": "Frankendorf",
+   "class": "place",
+   "kind": "Dorf",
+   "geonames": 2925618,
+   "lat": 50.50366,
+   "lon": 11.86047,
+   "in_principality": true,
+   "register_page": "690",
+   "gloss_en": "Frankendorf (village)"
+  },
+  {
+   "key": "Harpersdorf",
+   "action": "accept",
+   "label": "Harpersdorf",
+   "class": "place",
+   "kind": "Dorf",
+   "geonames": 2910360,
+   "lat": 50.87775,
+   "lon": 11.94477,
+   "in_principality": true,
+   "register_page": "485",
+   "gloss_en": "Harpersdorf (village)"
+  },
+  {
+   "key": "Blankenstein",
+   "action": "accept",
+   "label": "Blankenstein",
+   "class": "place",
+   "kind": "Dorf",
+   "geonames": 2948033,
+   "lat": 50.40213,
+   "lon": 11.69898,
+   "in_principality": true,
+   "register_page": "783",
+   "modern": "Blankenstein (Saale)",
+   "gloss_en": "Blankenstein (Saale) (village)"
+  },
+  {
+   "key": "Gebersreuth",
+   "action": "accept",
+   "label": "Gebersreuth",
+   "class": "place",
+   "kind": "Dorf",
+   "geonames": 2922183,
+   "lat": 50.42897,
+   "lon": 11.89368,
+   "in_principality": true,
+   "register_page": "820",
+   "gloss_en": "Gebersreuth (village)"
+  },
+  {
+   "key": "Hundhaupten",
+   "action": "accept",
+   "label": "Hundhaupten",
+   "class": "place",
+   "kind": "Dorf",
+   "geonames": 2897572,
+   "lat": 50.83333,
+   "lon": 11.98333,
+   "in_principality": true,
+   "register_page": "461",
+   "gloss_en": "Hundhaupten (village)"
+  },
+  {
+   "key": "Künsdorf",
+   "action": "accept",
+   "label": "Künsdorf",
+   "class": "place",
+   "kind": "Dorf",
+   "geonames": 2882461,
+   "lat": 50.4777,
+   "lon": 11.77404,
+   "in_principality": true,
+   "register_page": "679",
+   "gloss_en": "Künsdorf (village)"
+  },
+  {
+   "key": "Dettersdorf",
+   "action": "merge",
+   "into": "Dittersdorf"
+  },
+  {
+   "key": "Hermsdorf",
+   "action": "accept",
+   "label": "Hermsdorf",
+   "class": "place",
+   "kind": "Dorf",
+   "geonames": 2905914,
+   "lat": 50.96327,
+   "lon": 12.15286,
+   "in_principality": true,
+   "register_page": "530",
+   "gloss_en": "Hermsdorf (village)",
+   "note": "Hermsdorf in the Gera district near the Prussian border (p. 530), not Hermsdorf near Eisenberg."
+  },
+  {
+   "key": "Geißen",
+   "action": "accept",
+   "label": "Geißen",
+   "class": "place",
+   "kind": "Dorf",
+   "geonames": 2921605,
+   "lat": 50.8617,
+   "lon": 12.00052,
+   "in_principality": true,
+   "register_page": "469",
+   "gloss_en": "Geißen (village)"
+  },
+  {
+   "key": "Dobareuth",
+   "action": "accept",
+   "label": "Dobareuth",
+   "class": "place",
+   "kind": "Dorf",
+   "geonames": 2936692,
+   "lat": 50.42646,
+   "lon": 11.85653,
+   "in_principality": true,
+   "register_page": "822",
+   "gloss_en": "Dobareuth (village)"
+  },
+  {
+   "key": "Kleinfalke",
+   "action": "accept",
+   "label": "Kleinfalke",
+   "class": "place",
+   "kind": "Dorf",
+   "in_principality": true,
+   "register_page": "565",
+   "gloss_en": "Kleinfalke (village)"
+  },
+  {
+   "key": "Göritz",
+   "action": "accept",
+   "label": "Göritz",
+   "class": "place",
+   "kind": "Dorf",
+   "geonames": 2919005,
+   "lat": 50.43111,
+   "lon": 11.79425,
+   "in_principality": true,
+   "register_page": "805",
+   "gloss_en": "Göritz (village)",
+   "note": "Göritz near Hirschberg (Lobenstein-Ebersdorf)."
+  },
+  {
+   "key": "Kranichfeld",
+   "action": "accept",
+   "label": "Kranichfeld",
+   "class": "place",
+   "kind": "Stadt",
+   "geonames": 2884761,
+   "lat": 50.85446,
+   "lon": 11.20057,
+   "in_principality": false,
+   "gloss_en": "Kranichfeld (town)",
+   "note": "Herrschaft Kranichfeld, part of the Reuss princes' title; not part of the principality."
+  },
+  {
+   "key": "Cuba",
+   "action": "accept",
+   "label": "Cuba",
+   "class": "place",
+   "kind": "Dorf",
+   "in_principality": true,
+   "register_page": "423",
+   "gloss_en": "Cuba (village)",
+   "note": "Cuba near Gera, in the Elster valley."
+  },
+  {
+   "key": "Bieblach",
+   "action": "accept",
+   "label": "Bieblach",
+   "class": "place",
+   "kind": "Dorf",
+   "geonames": 2949237,
+   "lat": 50.89626,
+   "lon": 12.08855,
+   "in_principality": true,
+   "register_page": "427",
+   "gloss_en": "Bieblach (village)"
+  },
+  {
+   "key": "Cronswitz",
+   "action": "accept",
+   "label": "Cronswitz",
+   "class": "place",
+   "kind": "Kloster",
+   "geonames": 2939725,
+   "lat": 50.78945,
+   "lon": 12.09793,
+   "in_principality": false,
+   "modern": "Cronschwitz",
+   "gloss_en": "Cronschwitz (convent)",
+   "note": "Dominican convent Cronschwitz (near Weida), founded by Jutta of Reuss; occasionally the village. Not in the principality."
+  },
+  {
+   "key": "Kleinwolschendorf",
+   "action": "accept",
+   "label": "Kleinwolschendorf",
+   "class": "place",
+   "kind": "Dorf",
+   "geonames": 2887971,
+   "lat": 50.64906,
+   "lon": 11.94807,
+   "in_principality": true,
+   "register_page": "659",
+   "gloss_en": "Kleinwolschendorf (village)"
+  },
+  {
+   "key": "Göttendorf",
+   "action": "accept",
+   "label": "Göttendorf",
+   "class": "place",
+   "kind": "Dorf",
+   "geonames": 2918709,
+   "lat": 50.66667,
+   "lon": 12.06667,
+   "in_principality": true,
+   "register_page": "646",
+   "modern": "Göttendorf-Neuärgerniß",
+   "gloss_en": "Göttendorf-Neuärgerniß (village)"
+  },
+  {
+   "key": "Dragensdorf",
+   "action": "accept",
+   "label": "Dragensdorf",
+   "class": "place",
+   "kind": "Dorf",
+   "geonames": 2935369,
+   "lat": 50.64592,
+   "lon": 11.83354,
+   "in_principality": true,
+   "register_page": "616",
+   "gloss_en": "Dragensdorf (village)"
+  },
+  {
+   "key": "Caasen",
+   "action": "accept",
+   "label": "Caasen",
+   "class": "place",
+   "kind": "Dorf",
+   "geonames": 2940435,
+   "lat": 50.9303,
+   "lon": 12.18054,
+   "in_principality": true,
+   "register_page": "542",
+   "gloss_en": "Caasen (village)"
+  },
+  {
+   "key": "Culm",
+   "action": "accept",
+   "label": "Culm",
+   "class": "place",
+   "kind": "Dorf",
+   "in_principality": true,
+   "register_page": "546",
+   "gloss_en": "Culm (village)",
+   "note": "Culm in the Bramthal near Zschippach (Landrathsbezirk Gera, p. 546); not Kulm near Saalburg (p. 675, see key Kulm)."
+  },
+  {
+   "key": "Burkersdorf",
+   "action": "accept",
+   "label": "Burkersdorf",
+   "class": "place",
+   "kind": "Dorf",
+   "geonames": 2941021,
+   "lat": 50.65239,
+   "lon": 11.88084,
+   "in_principality": true,
+   "register_page": "619",
+   "gloss_en": "Burkersdorf (village)"
+  },
+  {
+   "key": "Hirschbach",
+   "action": "accept",
+   "label": "Hirschbach",
+   "class": "place",
+   "kind": "Dorf",
+   "geonames": 2903792,
+   "lat": 50.67122,
+   "lon": 12.07535,
+   "in_principality": true,
+   "register_page": "645",
+   "gloss_en": "Hirschbach (village)"
+  },
+  {
+   "key": "Erfurt",
+   "action": "accept",
+   "label": "Erfurt",
+   "class": "place",
+   "kind": "Stadt",
+   "geonames": 2929670,
+   "lat": 50.97734,
+   "lon": 11.03536,
+   "in_principality": false,
+   "gloss_en": "Erfurt (town)"
+  },
+  {
+   "key": "Collis",
+   "action": "accept",
+   "label": "Collis",
+   "class": "place",
+   "kind": "Dorf",
+   "geonames": 2939920,
+   "lat": 50.85762,
+   "lon": 12.11874,
+   "in_principality": true,
+   "register_page": "561",
+   "gloss_en": "Collis (village)"
+  },
+  {
+   "key": "Gottliebsthal",
+   "action": "accept",
+   "label": "Gottliebsthal",
+   "class": "place",
+   "kind": "Weiler",
+   "in_principality": true,
+   "register_page": "727",
+   "gloss_en": "Gottliebsthal (hamlet)",
+   "note": "Group of 12 houses at the mouth of the Rattenbach into the Saale, in the Gemeinde Saaldorf; formerly also Gottliebshammer or Friesenthal."
+  },
+  {
+   "key": "Eisenberg",
+   "action": "accept",
+   "label": "Eisenberg",
+   "class": "place",
+   "kind": "Stadt",
+   "geonames": 2931521,
+   "lat": 50.9686,
+   "lon": 11.90207,
+   "in_principality": false,
+   "gloss_en": "Eisenberg (town)",
+   "note": "Eisenberg in the Duchy of Saxe-Altenburg."
+  },
+  {
+   "key": "Franken",
+   "action": "accept",
+   "label": "Franken",
+   "class": "place",
+   "kind": "Region",
+   "lat": 49.9,
+   "lon": 10.8,
+   "in_principality": false,
+   "gloss_en": "Franconia (region)"
+  },
+  {
+   "key": "Helmsgrün",
+   "action": "accept",
+   "label": "Helmsgrün",
+   "class": "place",
+   "kind": "Dorf",
+   "geonames": 2906689,
+   "lat": 50.45972,
+   "lon": 11.5892,
+   "in_principality": true,
+   "register_page": "743",
+   "gloss_en": "Helmsgrün (village)"
+  },
+  {
+   "key": "Debschwitz",
+   "action": "accept",
+   "label": "Debschwitz",
+   "class": "place",
+   "kind": "Dorf",
+   "geonames": 2938662,
+   "lat": 50.85622,
+   "lon": 12.07228,
+   "in_principality": true,
+   "register_page": "449",
+   "gloss_en": "Debschwitz (village)"
+  },
+  {
+   "key": "Benzka",
+   "action": "merge",
+   "into": "Venzka"
+  },
+  {
+   "key": "Gesell",
+   "action": "merge",
+   "into": "Gefell"
+  },
+  {
+   "key": "Göttengrün",
+   "action": "accept",
+   "label": "Göttengrün",
+   "class": "place",
+   "kind": "Dorf",
+   "geonames": 2918708,
+   "lat": 50.45951,
+   "lon": 11.83122,
+   "in_principality": true,
+   "register_page": "794",
+   "gloss_en": "Göttengrün (village)"
+  },
+  {
+   "key": "Kaltenborn",
+   "action": "accept",
+   "label": "Kaltenborn",
+   "class": "place",
+   "kind": "Dorf",
+   "geonames": 2893620,
+   "lat": 50.86997,
+   "lon": 11.96111,
+   "in_principality": true,
+   "register_page": "484",
+   "gloss_en": "Kaltenborn (village)"
+  },
+  {
+   "key": "Blankenberg",
+   "action": "accept",
+   "label": "Blankenberg",
+   "class": "place",
+   "kind": "Dorf",
+   "geonames": 2948081,
+   "lat": 50.40299,
+   "lon": 11.71623,
+   "in_principality": false,
+   "gloss_en": "Blankenberg (village)",
+   "note": "\"Das preußische Blankenberg\": Prussian territory on the Saale, bordering the principality."
+  },
+  {
+   "key": "Berg",
+   "action": "accept",
+   "label": "Berg",
+   "class": "place",
+   "kind": "Dorf",
+   "geonames": 2950722,
+   "lat": 50.37473,
+   "lon": 11.7785,
+   "in_principality": false,
+   "gloss_en": "Berg (village)",
+   "note": "Berg near Hof (Bavaria); parish church of Pottiga and Sparnberg."
+  },
+  {
+   "key": "Friesau",
+   "action": "accept",
+   "label": "Friesau",
+   "class": "place",
+   "kind": "Dorf",
+   "geonames": 2924403,
+   "lat": 50.49651,
+   "lon": 11.64101,
+   "in_principality": false,
+   "gloss_en": "Friesau (village)",
+   "note": "Village in the \"greizer Oberland\" (Reuss ä. L.), formerly belonging to Lobenstein; the Friesa brook flows through it."
+  },
+  {
+   "key": "Kleinsaara",
+   "action": "accept",
+   "label": "Kleinsaara",
+   "class": "place",
+   "kind": "Dorf",
+   "geonames": 2888292,
+   "lat": 50.85396,
+   "lon": 11.95847,
+   "in_principality": true,
+   "register_page": "466",
+   "gloss_en": "Kleinsaara (village)"
+  },
+  {
+   "key": "Hornsgrün",
+   "action": "accept",
+   "label": "Hornsgrün",
+   "class": "place",
+   "kind": "Gasthof",
+   "geonames": 2898776,
+   "lat": 50.43058,
+   "lon": 11.57893,
+   "in_principality": true,
+   "register_page": "780",
+   "gloss_en": "Hornsgrün (inn)",
+   "note": "Inn with four outbuildings in the Gemeinde Neundorf, built by a forester Horn in the 18th century."
+  },
+  {
+   "key": "Heinrichshall",
+   "action": "accept",
+   "label": "Heinrichshall",
+   "class": "place",
+   "kind": "Gewerbeanlage",
+   "in_principality": true,
+   "register_page": "507",
+   "gloss_en": "Heinrichshall (industrial site)",
+   "note": "Recent brine/gypsum works with chemical factory between Pohlitz and Langenberg near the Köstritz station."
+  },
+  {
+   "key": "Haueisen",
+   "action": "accept",
+   "label": "Haueisen",
+   "class": "place",
+   "kind": "Kammergut",
+   "in_principality": true,
+   "register_page": "725",
+   "gloss_en": "Haueisen (crown estate)",
+   "note": "Crown estate with 15 private houses, on the Saale below Saaldorf."
+  },
+  {
+   "key": "Bellevue",
+   "action": "accept",
+   "label": "Bellevue",
+   "class": "place",
+   "kind": "Haus",
+   "geonames": 2951210,
+   "lat": 50.47722,
+   "lon": 11.65804,
+   "in_principality": true,
+   "register_page": "741",
+   "gloss_en": "Bellevue (house)",
+   "note": "Temple-shaped pleasure house (1783) on the Schönbrunn-Ebersdorf road."
+  },
+  {
+   "key": "Dürrenbach",
+   "action": "accept",
+   "label": "Dürrenbach",
+   "class": "place",
+   "kind": "Dorf",
+   "geonames": 2934387,
+   "lat": 50.44541,
+   "lon": 11.51259,
+   "in_principality": true,
+   "register_page": "773",
+   "gloss_en": "Dürrenbach (village)",
+   "note": "Youngest municipality of the principality (1869), formed from Dürrenbach, Pröstrich, Heinrichsort and Schweinshüter."
+  },
+  {
+   "key": "Dürrenberg",
+   "action": "accept",
+   "label": "Dürrenberg",
+   "class": "place",
+   "kind": "Vorwerk",
+   "in_principality": true,
+   "register_page": "494",
+   "gloss_en": "Dürrenberg (estate farm)",
+   "note": "Former Rittergut, now a Köstritz Vorwerk south of Köstritz; not Bad Dürrenberg."
+  },
+  {
+   "key": "Hain",
+   "action": "reject",
+   "reason": "common noun Hain (grove) and field names (Hain at Osterstein, Hain in Flur); the one village Hain (greizer Ort) is not separable"
+  },
+  {
+   "key": "Deutschlands",
+   "action": "merge",
+   "into": "Deutschland"
+  },
+  {
+   "key": "Eger",
+   "action": "accept",
+   "label": "Eger",
+   "class": "place",
+   "kind": "Stadt",
+   "lat": 50.08,
+   "lon": 12.37,
+   "in_principality": false,
+   "modern": "Cheb",
+   "gloss_en": "Cheb (town)",
+   "note": "Town and district of Eger in Bohemia (Cheb); a few mentions refer to the river Eger."
+  },
+  {
+   "key": "Bamberg",
+   "action": "accept",
+   "label": "Bamberg",
+   "class": "place",
+   "kind": "Stadt",
+   "geonames": 6556725,
+   "lat": 49.8934,
+   "lon": 10.89115,
+   "in_principality": false,
+   "gloss_en": "Bamberg (town)",
+   "note": "City and bishopric of Bamberg."
+  },
+  {
+   "key": "Dölau",
+   "action": "accept",
+   "label": "Dölau",
+   "class": "place",
+   "kind": "Dorf",
+   "geonames": 2917734,
+   "lat": 50.63079,
+   "lon": 12.18405,
+   "in_principality": false,
+   "modern": "Greiz-Dölau",
+   "gloss_en": "Greiz-Dölau (village)",
+   "note": "Residence of the Reuss line Dölau near Greiz (outside the principality)."
+  },
+  {
+   "key": "Falke",
+   "action": "accept",
+   "label": "Falke",
+   "class": "place",
+   "kind": "Dorf",
+   "in_principality": false,
+   "register_page": "565",
+   "gloss_en": "Falke (village)",
+   "note": "The two united estates Kleinfalke and Wüstfalke (Falke), Landrathsbezirk Gera exclave; see Kleinfalke."
+  },
+  {
+   "key": "Juchhöh",
+   "action": "accept",
+   "label": "Juchhöh",
+   "class": "place",
+   "kind": "Weiler",
+   "geonames": 2894628,
+   "lat": 50.41667,
+   "lon": 11.86667,
+   "in_principality": true,
+   "register_page": "819",
+   "gloss_en": "Juchhöh (hamlet)"
+  },
+  {
+   "key": "Auma",
+   "action": "accept",
+   "label": "Auma",
+   "class": "place",
+   "kind": "Stadt",
+   "geonames": 2954048,
+   "lat": 50.70044,
+   "lon": 11.89958,
+   "in_principality": false,
+   "gloss_en": "Auma (town)",
+   "note": "Town in Saxe-Weimar-Eisenach."
+  },
+  {
+   "key": "Corbußen",
+   "action": "accept",
+   "label": "Corbußen",
+   "class": "place",
+   "kind": "Dorf",
+   "geonames": 2885500,
+   "lat": 50.89037,
+   "lon": 12.17202,
+   "in_principality": false,
+   "modern": "Korbußen",
+   "gloss_en": "Korbußen (village)",
+   "note": "Village north of Groitschen on the Altenburg side; no article in Brückner's Ortskunde."
+  },
+  {
+   "key": "Brückla",
+   "action": "accept",
+   "label": "Brückla",
+   "class": "place",
+   "kind": "Dorf",
+   "geonames": 2943421,
+   "lat": 50.69752,
+   "lon": 12.04988,
+   "in_principality": false,
+   "gloss_en": "Brückla (village)",
+   "note": "One of the \"greizer Orte\" (Reuss ä. L.)."
+  },
+  {
+   "key": "Heinrichsruh",
+   "action": "accept",
+   "label": "Heinrichsruhe",
+   "class": "place",
+   "kind": "Landsitz",
+   "geonames": 2907215,
+   "lat": 50.55,
+   "lon": 11.81667,
+   "in_principality": false,
+   "register_page": "600",
+   "gloss_en": "Heinrichsruhe (country seat)",
+   "note": "Princely country seat with extensive forest park near Schleiz (created by Heinrich XLII.), outside the municipal association."
+  },
+  {
+   "key": "Grüna",
+   "action": "accept",
+   "label": "Grüna",
+   "class": "place",
+   "kind": "Dorf",
+   "geonames": 2914496,
+   "lat": 50.90728,
+   "lon": 11.97664,
+   "in_principality": true,
+   "register_page": "491",
+   "gloss_en": "Grüna (village)"
+  },
+  {
+   "key": "Heinrichsgrün",
+   "action": "accept",
+   "label": "Heinrichsgrün",
+   "class": "place",
+   "kind": "Kammergut",
+   "in_principality": true,
+   "register_page": "780",
+   "gloss_en": "Heinrichsgrün (crown estate)",
+   "note": "Princely crown estate and forester's seat in the Gemeinde Neundorf (Lobenstein), \"neues Fuhrwerk\"."
+  },
+  {
+   "key": "Jägersruh",
+   "action": "accept",
+   "label": "Jägersruh",
+   "class": "place",
+   "kind": "Jagdhaus",
+   "in_principality": true,
+   "register_page": "780",
+   "gloss_en": "Jägersruh (hunting lodge)",
+   "note": "Former hermitage, now a princely hunting lodge in the Frankenwald, outside the municipal association."
+  },
+  {
+   "key": "Berlin",
+   "action": "accept",
+   "label": "Berlin",
+   "class": "place",
+   "kind": "Stadt",
+   "geonames": 2950159,
+   "lat": 52.52437,
+   "lon": 13.41053,
+   "in_principality": false,
+   "gloss_en": "Berlin (town)"
+  },
+  {
+   "key": "Hohenpreis",
+   "action": "accept",
+   "label": "Hohenpreis",
+   "class": "place",
+   "kind": "Rittergut",
+   "geonames": 2901566,
+   "lat": 50.43615,
+   "lon": 11.7726,
+   "in_principality": true,
+   "register_page": "798",
+   "modern": "Hohenpreiß",
+   "gloss_en": "Hohenpreiß (manor)"
+  },
+  {
+   "key": "Karolinenfield",
+   "action": "accept",
+   "label": "Karolinenfield",
+   "class": "place",
+   "kind": "Kammergut",
+   "geonames": 2892737,
+   "lat": 50.54828,
+   "lon": 11.67592,
+   "in_principality": true,
+   "register_page": "755",
+   "gloss_en": "Karolinenfield (crown estate)",
+   "note": "Forest crown-estate settlement (\"Waldhaus\", \"schleizer Waldhaus\"); variant spellings Karolinenfeld, Carolinenfeld."
+  },
+  {
+   "key": "Frankenwald",
+   "action": "reclass",
+   "label": "Frankenwald",
+   "class": "nature",
+   "kind": "Gebirge",
+   "geonames": 2925544,
+   "lat": 50.30595,
+   "lon": 11.57675,
+   "gloss_en": "Franconian Forest (mountain range)"
+  },
+  {
+   "key": "Drognitz",
+   "action": "accept",
+   "label": "Drognitz",
+   "class": "place",
+   "kind": "Dorf",
+   "geonames": 2934895,
+   "lat": 50.58792,
+   "lon": 11.57229,
+   "in_principality": false,
+   "gloss_en": "Drognitz (village)"
+  },
+  {
+   "key": "Frankreich",
+   "action": "accept",
+   "label": "Frankreich",
+   "class": "place",
+   "kind": "Land",
+   "lat": 46.6,
+   "lon": 2.5,
+   "in_principality": false,
+   "gloss_en": "France"
+  },
+  {
+   "key": "Dresden",
+   "action": "accept",
+   "label": "Dresden",
+   "class": "place",
+   "kind": "Stadt",
+   "geonames": 2935022,
+   "lat": 51.05089,
+   "lon": 13.73832,
+   "in_principality": false,
+   "gloss_en": "Dresden (town)"
+  },
+  {
+   "key": "Eisenach",
+   "action": "accept",
+   "label": "Eisenach",
+   "class": "place",
+   "kind": "Stadt",
+   "geonames": 2931574,
+   "lat": 50.9807,
+   "lon": 10.31522,
+   "in_principality": false,
+   "gloss_en": "Eisenach (town)"
+  },
+  {
+   "key": "Hauenstein",
+   "action": "accept",
+   "label": "Hauenstein",
+   "class": "place",
+   "kind": "Burg",
+   "in_principality": false,
+   "gloss_en": "Hauenstein (castle)",
+   "note": "Burg Hauenstein in Bohemia, seat of the Lords of Weida \"zu Hauenstein\"."
+  },
+  {
+   "key": "Cronschwitz",
+   "action": "merge",
+   "into": "Cronswitz"
+  },
+  {
+   "key": "Gries",
+   "action": "accept",
+   "label": "Gries",
+   "class": "place",
+   "kind": "Stadtteil",
+   "in_principality": true,
+   "register_page": "420",
+   "gloss_en": "Gries (town quarter)",
+   "note": "Quarter of Untermhaus (Gera), around the Reichsburg Osterstein."
+  },
+  {
+   "key": "Birk",
+   "action": "merge",
+   "into": "Pirk"
+  },
+  {
+   "key": "Benignengrün",
+   "action": "accept",
+   "label": "Benignengrün",
+   "class": "place",
+   "kind": "Hammer",
+   "geonames": 2951086,
+   "lat": 50.45791,
+   "lon": 11.53265,
+   "in_principality": true,
+   "register_page": "770",
+   "gloss_en": "Benignengrün (ironworks)",
+   "note": "\"Stiehlers- oder oberer Hammer\" at the confluence of the Oßla and another brook, in the Gemeinde Wurzbach."
+  },
+  {
+   "key": "Heinrichsruhe",
+   "action": "merge",
+   "into": "Heinrichsruh"
+  },
+  {
+   "key": "Eleonorenthal",
+   "action": "accept",
+   "label": "Eleonorenthal",
+   "class": "place",
+   "kind": "Weiler",
+   "geonames": 2931191,
+   "lat": 50.91667,
+   "lon": 11.98333,
+   "in_principality": true,
+   "register_page": "499",
+   "gloss_en": "Eleonorenthal (hamlet)",
+   "note": "Former pleasure resort, now an isolated group of houses WSW of Köstritz."
+  },
+  {
+   "key": "Hohendorf",
+   "action": "accept",
+   "label": "Hohendorf",
+   "class": "place",
+   "kind": "Wüstung",
+   "in_principality": true,
+   "register_page": "731",
+   "gloss_en": "Hohendorf (deserted settlement)",
+   "note": "Deserted settlement between Pöritzsch, Saalburg, Röppisch and Zoppothen (article of Ebersdorf)."
+  },
+  {
+   "key": "Geras",
+   "action": "merge",
+   "into": "Gera"
+  },
+  {
+   "key": "Großenstein",
+   "action": "accept",
+   "label": "Großenstein",
+   "class": "place",
+   "kind": "Dorf",
+   "geonames": 2916581,
+   "lat": 50.9,
+   "lon": 12.2,
+   "in_principality": false,
+   "gloss_en": "Großenstein (village)",
+   "note": "Village in the Duchy of Saxe-Altenburg."
+  },
+  {
+   "key": "Fürstenthum Reuß j. L",
+   "action": "accept",
+   "label": "Fürstenthum Reuß jüngerer Linie",
+   "class": "place",
+   "kind": "Fürstentum",
+   "in_principality": true,
+   "gloss_en": "Principality of Reuss (younger line)",
+   "note": "The state the book is about; also called \"das Fürstenthum\"."
+  },
+  {
+   "key": "Heidefeld",
+   "action": "accept",
+   "label": "Heidefeld",
+   "class": "place",
+   "kind": "Weiler",
+   "in_principality": true,
+   "register_page": "822",
+   "gloss_en": "Heidefeld (hamlet)",
+   "note": "Hamlet founded about 1796, in the Gemeinde Gebersreuth."
+  },
+  {
+   "key": "Heinrichshöhe",
+   "action": "accept",
+   "label": "Heinrichshöhe",
+   "class": "place",
+   "kind": "Weiler",
+   "geonames": 2907223,
+   "lat": 50.39769,
+   "lon": 11.53006,
+   "in_principality": true,
+   "register_page": "776",
+   "gloss_en": "Heinrichshöhe (hamlet)"
+  },
+  {
+   "key": "Heinrichsort",
+   "action": "accept",
+   "label": "Heinrichsort",
+   "class": "place",
+   "kind": "Haus",
+   "in_principality": true,
+   "register_page": "773",
+   "gloss_en": "Heinrichsort (house)",
+   "note": "Two-storey single house in the forest between Vogelbach and Dürrenbach (Gemeinde Dürrenbach)."
+  },
+  {
+   "key": "Asch",
+   "action": "accept",
+   "label": "Asch",
+   "class": "place",
+   "kind": "Stadt",
+   "lat": 50.22,
+   "lon": 12.19,
+   "in_principality": false,
+   "modern": "Aš",
+   "gloss_en": "Aš (town)",
+   "note": "Asch in Bohemia (Aš)."
+  },
+  {
+   "key": "Halle",
+   "action": "accept",
+   "label": "Halle",
+   "class": "place",
+   "kind": "Stadt",
+   "geonames": 2911522,
+   "lat": 51.48158,
+   "lon": 11.97947,
+   "in_principality": false,
+   "modern": "Halle (Saale)",
+   "gloss_en": "Halle (Saale) (town)"
+  },
+  {
+   "key": "Grobsdorf",
+   "action": "accept",
+   "label": "Grobsdorf",
+   "class": "place",
+   "kind": "Dorf",
+   "geonames": 2917207,
+   "lat": 50.86145,
+   "lon": 12.14833,
+   "in_principality": false,
+   "gloss_en": "Grobsdorf (village)",
+   "note": "Village east of the Elster (Saxe-Altenburg), opposite Geißen."
+  },
+  {
+   "key": "Grossaga",
+   "action": "merge",
+   "into": "Großaga"
+  },
+  {
+   "key": "Elsterberg",
+   "action": "accept",
+   "label": "Elsterberg",
+   "class": "place",
+   "kind": "Stadt",
+   "geonames": 2930687,
+   "lat": 50.60841,
+   "lon": 12.16787,
+   "in_principality": false,
+   "gloss_en": "Elsterberg (town)",
+   "note": "Town in the Saxon Vogtland."
+  },
+  {
+   "key": "Koskau",
+   "action": "accept",
+   "label": "Koskau",
+   "class": "place",
+   "kind": "Dorf",
+   "in_principality": false,
+   "register_page": "698",
+   "gloss_en": "Koskau (village)",
+   "note": "Collective name for the two villages Unterkoskau (p. 698) and Oberkoskau (p. 699)."
+  },
+  {
+   "key": "Berga",
+   "action": "accept",
+   "label": "Berga",
+   "class": "place",
+   "kind": "Stadt",
+   "geonames": 2950697,
+   "lat": 50.75184,
+   "lon": 12.16445,
+   "in_principality": false,
+   "modern": "Berga/Elster",
+   "gloss_en": "Berga/Elster (town)",
+   "note": "Berga an der Elster (Saxe-Weimar)."
+  },
+  {
+   "key": "Dobene",
+   "action": "accept",
+   "label": "Dobene",
+   "class": "place",
+   "kind": "Region",
+   "in_principality": true,
+   "gloss_en": "Dobene (region)",
+   "note": "Medieval Gau Dobene (Dobenowe) in the Elster area, named beside the Gau Gera."
+  },
+  {
+   "key": "Königswart",
+   "action": "accept",
+   "label": "Königswart",
+   "class": "place",
+   "kind": "Herrschaft",
+   "in_principality": false,
+   "gloss_en": "Königswart (lordship)",
+   "note": "Bohemian Herrschaft (Königswart) in a list of possessions of the Vögte of Plauen."
+  },
+  {
+   "key": "Gernrode",
+   "action": "accept",
+   "label": "Gernrode",
+   "class": "place",
+   "kind": "Stadt",
+   "geonames": 2920999,
+   "lat": 51.72575,
+   "lon": 11.13876,
+   "in_principality": false,
+   "modern": "Gernrode (Harz)",
+   "gloss_en": "Gernrode (Harz) (town)",
+   "note": "Convent (Stift) Gernrode in the Harz."
+  },
+  {
+   "key": "Herrnhut",
+   "action": "accept",
+   "label": "Herrnhut",
+   "class": "place",
+   "kind": "Stadt",
+   "geonames": 2905643,
+   "lat": 51.01624,
+   "lon": 14.74381,
+   "in_principality": false,
+   "gloss_en": "Herrnhut (town)",
+   "note": "Seat of the Moravian Brethren (Brüdergemeine) in the Upper Lusatia."
+  },
+  {
+   "key": "Kauern",
+   "action": "accept",
+   "label": "Kauern",
+   "class": "place",
+   "kind": "Dorf",
+   "in_principality": false,
+   "gloss_en": "Kauern (village)",
+   "note": "One of the \"greizer Orte\" (Reuss ä. L.)."
+  },
+  {
+   "key": "Fürstenthums Reuß j. L",
+   "action": "merge",
+   "into": "Fürstenthum Reuß j. L"
+  },
+  {
+   "key": "Kleinfriesa",
+   "action": "accept",
+   "label": "Kleinfriesa",
+   "class": "place",
+   "kind": "Ortsteil",
+   "geonames": 2888895,
+   "lat": 50.44765,
+   "lon": 11.668,
+   "in_principality": true,
+   "register_page": "723",
+   "gloss_en": "Kleinfriesa (locality)",
+   "note": "Part of the Gemeinde Lobenstein."
+  },
+  {
+   "key": "Heberndorf",
+   "action": "accept",
+   "label": "Heberndorf",
+   "class": "place",
+   "kind": "Dorf",
+   "geonames": 2908538,
+   "lat": 50.48606,
+   "lon": 11.51375,
+   "in_principality": false,
+   "gloss_en": "Heberndorf (village)",
+   "note": "Village at the Schwarzburg-Reuss border (Heineberg)."
+  },
+  {
+   "key": "Altenburgischen",
+   "action": "merge",
+   "into": "Herzogthum S.-Altenburg"
+  },
+  {
+   "key": "Fürstenthume Reuß j. L",
+   "action": "merge",
+   "into": "Fürstenthum Reuß j. L"
+  },
+  {
+   "key": "Europa",
+   "action": "accept",
+   "label": "Europa",
+   "class": "place",
+   "kind": "Kontinent",
+   "in_principality": false,
+   "gloss_en": "Europe"
+  },
+  {
+   "key": "Gorlitzsch",
+   "action": "accept",
+   "label": "Gorlitzsch",
+   "class": "place",
+   "kind": "Dorf",
+   "geonames": 2918982,
+   "lat": 50.83025,
+   "lon": 12.03906,
+   "in_principality": true,
+   "register_page": "460",
+   "gloss_en": "Gorlitzsch (village)"
+  },
+  {
+   "key": "Danzig",
+   "action": "accept",
+   "label": "Danzig",
+   "class": "place",
+   "kind": "Stadt",
+   "lat": 54.35,
+   "lon": 18.65,
+   "in_principality": false,
+   "modern": "Gdańsk",
+   "gloss_en": "Gdańsk (town)",
+   "note": "Mentioned in a children's rhyme."
+  },
+  {
+   "key": "Köln",
+   "action": "accept",
+   "label": "Köln",
+   "class": "place",
+   "kind": "Stadt",
+   "lat": 50.94,
+   "lon": 6.96,
+   "in_principality": false,
+   "modern": "Köln",
+   "gloss_en": "Köln (town)"
+  },
+  {
+   "key": "Heringen",
+   "action": "accept",
+   "label": "Heringen",
+   "class": "place",
+   "kind": "Herrschaft",
+   "in_principality": false,
+   "gloss_en": "Heringen (lordship)",
+   "note": "In a list of possessions of the Vögte of Plauen (Herrschaft Heringen); identification not verified."
+  },
+  {
+   "key": "Gotha",
+   "action": "accept",
+   "label": "Gotha",
+   "class": "place",
+   "kind": "Stadt",
+   "geonames": 2918752,
+   "lat": 50.94823,
+   "lon": 10.70193,
+   "in_principality": false,
+   "gloss_en": "Gotha (town)"
+  },
+  {
+   "key": "Kirchberg",
+   "action": "reclass",
+   "label": "Kirchberg",
+   "class": "nature",
+   "kind": "Berg",
+   "gloss_en": "Kirchberg (hill)",
+   "note": "Several hills of this name (e.g. at Lobenstein, Dorna, Köstritz); also surname/place Kirchberg in single mentions."
+  },
+  {
+   "key": "Hermannsdorf",
+   "action": "accept",
+   "label": "Hermannsdorf",
+   "class": "place",
+   "kind": "Wüstung",
+   "in_principality": true,
+   "register_page": "519",
+   "gloss_en": "Hermannsdorf (deserted settlement)",
+   "note": "Two Wüstungen of this name: near Lichtenau (Gera district, p. 519) and near Zollgrün (p. 695)."
+  },
+  {
+   "key": "Frankenau",
+   "action": "accept",
+   "label": "Frankenau",
+   "class": "place",
+   "kind": "Dorf",
+   "geonames": 2925653,
+   "lat": 50.92848,
+   "lon": 12.22418,
+   "in_principality": false,
+   "gloss_en": "Frankenau (village)",
+   "note": "Village on the Altenburg side of the border (Staatsvertrag of 25 Sept. 1847)."
+  },
+  {
+   "key": "Dornholz",
+   "action": "accept",
+   "label": "Dornholz",
+   "class": "place",
+   "kind": "Weiler",
+   "geonames": 2935679,
+   "lat": 50.4,
+   "lon": 11.85,
+   "in_principality": true,
+   "register_page": "818",
+   "gloss_en": "Dornholz (hamlet)",
+   "note": "Group of 10 houses near the Hof road, formerly and still in the vernacular \"Dornbusch\"."
+  },
+  {
+   "key": "Klettigsgrund",
+   "action": "accept",
+   "label": "Klettigsgrund",
+   "class": "place",
+   "kind": "Weiler",
+   "geonames": 2887848,
+   "lat": 50.48452,
+   "lon": 11.54792,
+   "in_principality": true,
+   "register_page": "747",
+   "gloss_en": "Klettigsgrund (hamlet)",
+   "note": "Group of 14 houses in the Sormitzgrund (1683 Klettig, later Klettigshammer), Gemeinde Heinersdorf."
+  },
+  {
+   "key": "Geissen",
+   "action": "merge",
+   "into": "Geißen"
+  },
+  {
+   "key": "Herzogthum S.-Altenburg",
+   "action": "accept",
+   "label": "Herzogthum Sachsen-Altenburg",
+   "class": "place",
+   "kind": "Herzogtum",
+   "in_principality": false,
+   "gloss_en": "Duchy of Saxe-Altenburg"
+  },
+  {
+   "key": "Klettigshammer",
+   "action": "merge",
+   "into": "Klettigsgrund"
+  },
+  {
+   "key": "Aga",
+   "action": "accept",
+   "label": "Aga",
+   "class": "place",
+   "kind": "Dorf",
+   "geonames": 3209199,
+   "lat": 50.95,
+   "lon": 12.08333,
+   "in_principality": false,
+   "register_page": "521",
+   "gloss_en": "Aga (village)",
+   "note": "Collective name for Großaga and Kleinaga (Aga region near Köstritz)."
+  },
+  {
+   "key": "Corbusen",
+   "action": "merge",
+   "into": "Corbußen"
+  },
+  {
+   "key": "Heukewalde",
+   "action": "accept",
+   "label": "Heukewalde",
+   "class": "place",
+   "kind": "Dorf",
+   "geonames": 2908431,
+   "lat": 50.96635,
+   "lon": 12.15322,
+   "in_principality": false,
+   "modern": "Heuckewalde",
+   "gloss_en": "Heuckewalde (village)",
+   "note": "Parish village near Hermsdorf (Gera district) on the Altenburg side."
+  },
+  {
+   "key": "Ebersd",
+   "action": "merge",
+   "into": "Bez. Lobenstein-Ebersdorf"
+  },
+  {
+   "key": "Desse",
+   "action": "accept",
+   "label": "Desse",
+   "class": "place",
+   "kind": "Wüstung",
+   "in_principality": true,
+   "register_page": "489",
+   "gloss_en": "Desse (deserted settlement)",
+   "note": "Deserted village mostly in the Kraftsdorf, partly Harpersdorf Flur (1184 Deginstete)."
+  },
+  {
+   "key": "Görlitz",
+   "action": "reclass",
+   "label": "Görlitz (Hühnerbach)",
+   "class": "nature",
+   "kind": "Bach",
+   "gloss_en": "Görlitz (brook)",
+   "note": "Brook (Hühnerbach) near Löhma/Schleiz; a few mentions concern the town Görlitz or are slips for Göritz."
+  },
+  {
+   "key": "Apolda",
+   "action": "accept",
+   "label": "Apolda",
+   "class": "place",
+   "kind": "Stadt",
+   "geonames": 2955770,
+   "lat": 51.02624,
+   "lon": 11.51638,
+   "in_principality": false,
+   "gloss_en": "Apolda (town)"
+  },
+  {
+   "key": "Adorf",
+   "action": "accept",
+   "label": "Adorf",
+   "class": "place",
+   "kind": "Stadt",
+   "geonames": 2959390,
+   "lat": 50.32011,
+   "lon": 12.25986,
+   "in_principality": false,
+   "modern": "Adorf/Vogtl.",
+   "gloss_en": "Adorf/Vogtl. (town)"
+  },
+  {
+   "key": "Hartenstein",
+   "action": "accept",
+   "label": "Hartenstein",
+   "class": "place",
+   "kind": "Stadt",
+   "geonames": 2910167,
+   "lat": 50.66236,
+   "lon": 12.66966,
+   "in_principality": false,
+   "gloss_en": "Hartenstein (town)",
+   "note": "Hartenstein in the Erzgebirge (Grafschaft Hartenstein of the Burggrafen of Meißen and Plauen)."
+  },
+  {
+   "key": "Brandenburg",
+   "action": "accept",
+   "label": "Brandenburg",
+   "class": "place",
+   "kind": "Land",
+   "geonames": 2945356,
+   "lat": 52.45905,
+   "lon": 13.01582,
+   "in_principality": false,
+   "gloss_en": "Brandenburg (electorate/margraviate)"
+  },
+  {
+   "key": "Auerbach",
+   "action": "accept",
+   "label": "Auerbach",
+   "class": "place",
+   "kind": "Stadt",
+   "geonames": 2954602,
+   "lat": 50.51155,
+   "lon": 12.40083,
+   "in_principality": false,
+   "modern": "Auerbach/Vogtl.",
+   "gloss_en": "Auerbach/Vogtl. (town)"
+  },
+  {
+   "key": "Heinrichsstadt",
+   "action": "accept",
+   "label": "Heinrichsstadt",
+   "class": "place",
+   "kind": "Stadtteil",
+   "in_principality": false,
+   "gloss_en": "Heinrichsstadt (town quarter)",
+   "note": "New town quarter of Schleiz laid out on princely ground with the new residence palace."
+  },
+  {
+   "key": "Bollersdorf",
+   "action": "accept",
+   "label": "Vollersdorf",
+   "class": "place",
+   "kind": "Wüstung",
+   "in_principality": true,
+   "modern": "Bollersdorf",
+   "gloss_en": "Bollersdorf (deserted settlement)",
+   "note": "Probably the Wüstung Vollersdorf (p. 448) of the Gera district; Burgmannengut of Osterstein."
+  },
+  {
+   "key": "Karolinengrün",
+   "action": "accept",
+   "label": "Karolinengrün",
+   "class": "place",
+   "kind": "Weiler",
+   "in_principality": true,
+   "register_page": "775",
+   "gloss_en": "Karolinengrün (hamlet)",
+   "note": "Originally Erdmuthengrün; favourite residence of the Reuss-Ebersdorf counts."
+  },
+  {
+   "key": "Hayn",
+   "action": "accept",
+   "label": "Hayn",
+   "class": "place",
+   "kind": "Rittergut",
+   "geonames": 2911914,
+   "lat": 50.92272,
+   "lon": 12.10003,
+   "in_principality": false,
+   "gloss_en": "Hayn (manor)",
+   "note": "Rittergut Hayn on the Altenburg side (family of Brandenstein), near Gera; single mention is the Lobenstein suburb Hayn."
+  },
+  {
+   "key": "Grün",
+   "action": "merge",
+   "into": "Zollgrün"
+  },
+  {
+   "key": "Heinrichsthal",
+   "action": "accept",
+   "label": "Heinrichsthal",
+   "class": "place",
+   "kind": "Hammer",
+   "in_principality": true,
+   "register_page": "675",
+   "gloss_en": "Heinrichsthal (ironworks)",
+   "note": "Steel hammer (Wetter- or Brückenhammer) in the Wetteragrund, Gemeinde Gräfenwarth (1766)."
+  },
+  {
+   "key": "Eichenstein",
+   "action": "accept",
+   "label": "Eichenstein",
+   "class": "place",
+   "kind": "Rittergut",
+   "geonames": 2932277,
+   "lat": 50.38466,
+   "lon": 11.70409,
+   "in_principality": false,
+   "gloss_en": "Eichenstein (manor)",
+   "note": "Rittergut near Blankenstein, in a list of manors of the Lobenstein area; no article in Brückner's Ortskunde."
+  },
+  {
+   "key": "Baireuth",
+   "action": "accept",
+   "label": "Baireuth",
+   "class": "place",
+   "kind": "Stadt",
+   "geonames": 2951825,
+   "lat": 49.94782,
+   "lon": 11.57893,
+   "in_principality": false,
+   "modern": "Bayreuth",
+   "gloss_en": "Bayreuth (town)",
+   "note": "Town and (Brandenburg-)Bayreuth territory, see also Brandenburg-Baireuth."
+  },
+  {
+   "key": "Hennemannsreuth",
+   "action": "accept",
+   "label": "Hennemannsreuth",
+   "class": "place",
+   "kind": "Haus",
+   "in_principality": true,
+   "register_page": "725",
+   "gloss_en": "Hennemannsreuth (house)",
+   "note": "Single house below Saalhof (Gemeinde Saaldorf), 13 inhabitants."
+  },
+  {
+   "key": "Altenebersdorf",
+   "action": "accept",
+   "label": "Altenebersdorf",
+   "class": "place",
+   "kind": "Wüstung",
+   "in_principality": true,
+   "register_page": "738",
+   "gloss_en": "Altenebersdorf (deserted settlement)",
+   "note": "Wüstung in the Schönbrunn Flur (pp. 738, 741, 742)."
+  },
+  {
+   "key": "Fürstenthum Reuß ä. L",
+   "action": "accept",
+   "label": "Fürstenthum Reuß älterer Linie",
+   "class": "place",
+   "kind": "Fürstentum",
+   "in_principality": false,
+   "gloss_en": "Principality of Reuss (elder line)",
+   "note": "Neighbouring principality (Greiz)."
+  },
+  {
+   "key": "Karolinensfeld",
+   "action": "merge",
+   "into": "Karolinenfield"
+  },
+  {
+   "key": "Kranich",
+   "action": "accept",
+   "label": "Kranich",
+   "class": "place",
+   "kind": "Weiler",
+   "geonames": 2884767,
+   "lat": 50.68478,
+   "lon": 12.00464,
+   "in_principality": true,
+   "register_page": "654",
+   "gloss_en": "Kranich (hamlet)"
+  },
+  {
+   "key": "Christiansglück",
+   "action": "accept",
+   "label": "Christiansglück",
+   "class": "place",
+   "kind": "Gewerbeanlage",
+   "in_principality": true,
+   "register_page": "727",
+   "gloss_en": "Christiansglück (industrial site)",
+   "note": "Former alum and vitriol works (\"Silberknie\", \"Vitriolwerk\") below the Rödelshammer, Gemeinde Saaldorf."
+  },
+  {
+   "key": "Elsterthal",
+   "action": "reclass",
+   "label": "Elsterthal",
+   "class": "nature",
+   "kind": "Tal",
+   "geonames": 2930683,
+   "lat": 50.85,
+   "lon": 12.08333,
+   "gloss_en": "Elster valley",
+   "note": "Valley of the Weiße Elster in the Landrathsbezirk Gera."
+  },
+  {
+   "key": "Heinrichshütte",
+   "action": "accept",
+   "label": "Heinrichshütte",
+   "class": "place",
+   "kind": "Hütte",
+   "in_principality": true,
+   "register_page": "770",
+   "gloss_en": "Heinrichshütte (works)",
+   "note": "Ironworks below Solmsgrün (founded 1729 as Mangolds Drahthammer), Gemeinde Wurzbach."
+  },
+  {
+   "key": "Königreich Sachsen",
+   "action": "accept",
+   "label": "Königreich Sachsen",
+   "class": "place",
+   "kind": "Königreich",
+   "lat": 51.0,
+   "lon": 13.3,
+   "in_principality": false,
+   "gloss_en": "Kingdom of Saxony"
+  },
+  {
+   "key": "Horla",
+   "action": "accept",
+   "label": "Horla",
+   "class": "place",
+   "kind": "Haus",
+   "in_principality": false,
+   "gloss_en": "Horla (house)",
+   "note": "Secluded house in the Gemeinde Ullersreuth, also called Orlau."
+  },
+  {
+   "key": "Böhmsdorf",
+   "action": "accept",
+   "label": "Böhmsdorf",
+   "class": "place",
+   "kind": "Dorf",
+   "in_principality": false,
+   "register_page": "594",
+   "gloss_en": "Böhmsdorf (village)",
+   "note": "Collective name for Oberböhmsdorf (p. 594) and Niederböhmsdorf (p. 649)."
+  },
+  {
+   "key": "Amerika",
+   "action": "accept",
+   "label": "Amerika",
+   "class": "place",
+   "kind": "Kontinent",
+   "in_principality": false,
+   "gloss_en": "America"
+  },
+  {
+   "key": "Dobenowe",
+   "action": "merge",
+   "into": "Dobene"
+  },
+  {
+   "key": "Gleißberg",
+   "action": "accept",
+   "label": "Gleißberg",
+   "class": "place",
+   "kind": "Burg",
+   "in_principality": false,
+   "gloss_en": "Gleißberg (castle)",
+   "note": "Burg Gleißberg near Jena, in a list of possessions of the Vögte of Plauen."
+  },
+  {
+   "key": "Kursachsen",
+   "action": "accept",
+   "label": "Kursachsen",
+   "class": "place",
+   "kind": "Kurfürstentum",
+   "in_principality": false,
+   "gloss_en": "Electorate of Saxony"
+  },
+  {
+   "key": "Geraer",
+   "action": "merge",
+   "into": "Gera"
+  },
+  {
+   "key": "Bersdorf",
+   "action": "merge",
+   "into": "Pörsdorf"
+  },
+  {
+   "key": "Gau Gera",
+   "action": "accept",
+   "label": "Gau Gera",
+   "class": "place",
+   "kind": "Region",
+   "in_principality": true,
+   "gloss_en": "Gau Gera (early medieval district)",
+   "note": "Early medieval district around Gera (Geraha, Gerahaga)."
+  },
+  {
+   "key": "Bartholdisdorf",
+   "action": "merge",
+   "into": "Werteln"
+  },
+  {
+   "key": "Froschweide",
+   "action": "accept",
+   "label": "Froschweide",
+   "class": "place",
+   "kind": "Dorf",
+   "in_principality": false,
+   "gloss_en": "Froschweide (village)",
+   "note": "Eastern part of the double settlement Kleinaga/Froschweide (two Gemeinden)."
+  },
+  {
+   "key": "Berthelsdorf",
+   "action": "merge",
+   "into": "Werteln"
+  },
+  {
+   "key": "Großfalke",
+   "action": "merge",
+   "into": "Falke"
+  },
+  {
+   "key": "Frankfurt a. M",
+   "action": "accept",
+   "label": "Frankfurt am Main",
+   "class": "place",
+   "kind": "Stadt",
+   "lat": 50.11,
+   "lon": 8.68,
+   "in_principality": false,
+   "modern": "Frankfurt am Main",
+   "gloss_en": "Frankfurt am Main (town)"
+  },
+  {
+   "key": "Kühdorf",
+   "action": "accept",
+   "label": "Kühdorf",
+   "class": "place",
+   "kind": "Dorf",
+   "geonames": 2882879,
+   "lat": 50.70679,
+   "lon": 12.11062,
+   "in_principality": false,
+   "gloss_en": "Kühdorf (village)",
+   "note": "Village in the Weimar Amtsbezirk Weida, formerly Reuss."
+  },
+  {
+   "key": "Hainsberg",
+   "action": "accept",
+   "label": "Hainsberg",
+   "class": "place",
+   "kind": "Dorf",
+   "geonames": 2911771,
+   "lat": 50.69204,
+   "lon": 12.0925,
+   "in_principality": false,
+   "gloss_en": "Hainsberg (village)",
+   "note": "Village in the Weimar Amtsbezirk Weida, formerly Reuss."
+  },
+  {
+   "key": "Glauchau",
+   "action": "accept",
+   "label": "Glauchau",
+   "class": "place",
+   "kind": "Stadt",
+   "geonames": 2920020,
+   "lat": 50.81987,
+   "lon": 12.54493,
+   "in_principality": false,
+   "gloss_en": "Glauchau (town)"
+  },
+  {
+   "key": "Eichert",
+   "action": "reclass",
+   "label": "Eichert (Eichhart)",
+   "class": "nature",
+   "kind": "Wald",
+   "note": "Forest at Saalburg with a Vorwerk (Gemeinde Kulm)."
+  },
+  {
+   "key": "Kämmera",
+   "action": "accept",
+   "label": "Kämmera",
+   "class": "place",
+   "kind": "Wüstung",
+   "in_principality": true,
+   "register_page": "689",
+   "gloss_en": "Kämmera (deserted settlement)",
+   "note": "Deserted since before 1533, south of Tanna at the source of the Wettera."
+  },
+  {
+   "key": "Bärwinkel",
+   "action": "accept",
+   "label": "Bärwinkel",
+   "class": "place",
+   "kind": "Haus",
+   "geonames": 8260486,
+   "lat": 50.40071,
+   "lon": 11.6792,
+   "in_principality": true,
+   "register_page": "786",
+   "gloss_en": "Bärwinkel (house)",
+   "note": "Single house at the Wegnersbach, Gemeinde Kießling."
+  },
+  {
+   "key": "Herrschaft Lobenstein",
+   "action": "accept",
+   "label": "Herrschaft Lobenstein",
+   "class": "place",
+   "kind": "Herrschaft",
+   "in_principality": true,
+   "gloss_en": "Herrschaft Lobenstein (lordship)",
+   "note": "Former lordship of Lobenstein; later Landestheil Lobenstein-Ebersdorf."
+  },
+  {
+   "key": "Eibig",
+   "action": "accept",
+   "label": "Eibig",
+   "class": "place",
+   "kind": "Flur",
+   "in_principality": false,
+   "gloss_en": "Eibig (field area)",
+   "note": "Field name in the Heinersdorf Flur (list of Hauptflurstücke)."
+  },
+  {
+   "key": "Absang",
+   "action": "accept",
+   "label": "Absang",
+   "class": "place",
+   "kind": "Weiler",
+   "geonames": 2959804,
+   "lat": 50.40147,
+   "lon": 11.67716,
+   "in_principality": false,
+   "register_page": "786",
+   "gloss_en": "Absang (hamlet)",
+   "note": "Seven scattered single houses, Gemeinde Kießling; the register prints \"Abfang\" (long s misread)."
+  },
+  {
+   "key": "Gottmannsgrün",
+   "action": "accept",
+   "label": "Gottmannsgrün",
+   "class": "place",
+   "kind": "Dorf",
+   "in_principality": false,
+   "gloss_en": "Gottmannsgrün (village)",
+   "note": "Gemeinde mentioned in the Hirschberg article (foundations for the town and the Gemeinde Gottmannsgrün); no article of its own in the Ortskunde."
+  },
+  {
+   "key": "Heidesfeld",
+   "action": "merge",
+   "into": "Heidefeld"
+  },
+  {
+   "key": "Fürstenthum",
+   "action": "merge",
+   "into": "Fürstenthum Reuß j. L"
+  },
+  {
+   "key": "Fürstenthums",
+   "action": "merge",
+   "into": "Fürstenthum Reuß j. L"
+  },
+  {
+   "key": "Fürstenthum Schwarzburg-Sondershausen",
+   "action": "accept",
+   "label": "Fürstenthum Schwarzburg-Sondershausen",
+   "class": "place",
+   "kind": "Fürstentum",
+   "in_principality": false,
+   "gloss_en": "Principality of Schwarzburg-Sondershausen"
+  },
+  {
+   "key": "Großherzogthum S.-Weimar",
+   "action": "accept",
+   "label": "Großherzogthum Sachsen-Weimar-Eisenach",
+   "class": "place",
+   "kind": "Großherzogtum",
+   "in_principality": false,
+   "gloss_en": "Grand Duchy of Saxe-Weimar-Eisenach"
+  },
+  {
+   "key": "Holzland",
+   "action": "accept",
+   "label": "Holzland",
+   "class": "place",
+   "kind": "Region",
+   "in_principality": true,
+   "gloss_en": "Holzland (region)",
+   "note": "Region in the Unterland, extending from Kraftsdorf and Harpersdorf over Waltersdorf and Schöna."
+  },
+  {
+   "key": "Förthen",
+   "action": "accept",
+   "label": "Förthen",
+   "class": "place",
+   "kind": "Dorf",
+   "geonames": 2925693,
+   "lat": 50.62973,
+   "lon": 11.89344,
+   "in_principality": false,
+   "gloss_en": "Förthen (village)",
+   "note": "Filial village near Kirschkau (with Läwitz); no article of its own in the Ortskunde."
+  },
+  {
+   "key": "Hungriger Wolf",
+   "action": "accept",
+   "label": "Hungriger Wolf",
+   "class": "place",
+   "kind": "Gasthaus",
+   "geonames": 2897349,
+   "lat": 50.67442,
+   "lon": 12.1035,
+   "in_principality": true,
+   "register_page": "642",
+   "gloss_en": "Hungriger Wolf (inn)",
+   "note": "Inn (single house) in the Gemeinde Langenwetzendorf."
+  },
+  {
+   "key": "Ebersberg",
+   "action": "accept",
+   "label": "Ebersberg",
+   "class": "place",
+   "kind": "Weiler",
+   "geonames": 2933939,
+   "lat": 50.48632,
+   "lon": 11.89063,
+   "in_principality": true,
+   "register_page": "702",
+   "gloss_en": "Ebersberg (hamlet)",
+   "note": "Three farms, Gemeinde Willersdorf; formerly parished to Tanna."
+  },
+  {
+   "key": "Dornbusch",
+   "action": "merge",
+   "into": "Dornholz"
+  },
+  {
+   "key": "Hohenleuben-Pöllwitz",
+   "action": "accept",
+   "label": "Hohenleuben-Pöllwitz",
+   "class": "place",
+   "kind": "Landestheil",
+   "in_principality": true,
+   "gloss_en": "Hohenleuben-Pöllwitz (district)",
+   "note": "Exclave of the principality around Hohenleuben and Pöllwitz."
+  },
+  {
+   "key": "Grund",
+   "action": "accept",
+   "label": "Grund",
+   "class": "place",
+   "kind": "Stadt",
+   "geonames": 2953451,
+   "lat": 51.81021,
+   "lon": 10.23694,
+   "in_principality": false,
+   "modern": "Bad Grund (Harz)",
+   "gloss_en": "Bad Grund (Harz) (town)",
+   "note": "Grund am Harz, named for a geological comparison."
+  },
+  {
+   "key": "greizer Gebiet",
+   "action": "merge",
+   "into": "Fürstenthum Reuß ä. L"
+  },
+  {
+   "key": "Burg",
+   "action": "accept",
+   "label": "Amt Burgk",
+   "class": "place",
+   "kind": "Amt",
+   "in_principality": false,
+   "gloss_en": "Amt Burgk (administrative district)",
+   "note": "The Greiz (Reuss ä. L.) Amt Burgk on the Saale (\"greizer Amt Burg\")."
+  },
+  {
+   "key": "Crispendorf",
+   "action": "accept",
+   "label": "Crispendorf",
+   "class": "place",
+   "kind": "Dorf",
+   "geonames": 2939742,
+   "lat": 50.59149,
+   "lon": 11.73366,
+   "in_principality": false,
+   "gloss_en": "Crispendorf (village)",
+   "note": "In the Amt Burgk (Reuss ä. L.)."
+  },
+  {
+   "key": "Dörflas",
+   "action": "accept",
+   "label": "Dörflas",
+   "class": "place",
+   "kind": "Dorf",
+   "geonames": 2936069,
+   "lat": 50.57843,
+   "lon": 11.69453,
+   "in_principality": false,
+   "gloss_en": "Dörflas (village)",
+   "note": "In the Amt Burgk (Reuss ä. L.), at the Saale."
+  },
+  {
+   "key": "Höfle",
+   "action": "accept",
+   "label": "Höfle",
+   "class": "place",
+   "kind": "Wüstung",
+   "in_principality": true,
+   "gloss_en": "Höfle (deserted settlement)",
+   "note": "Former settlement on the Höflesbach (name of the brook)."
+  },
+  {
+   "key": "Arnstadt",
+   "action": "accept",
+   "label": "Arnstadt",
+   "class": "place",
+   "kind": "Stadt",
+   "geonames": 2955439,
+   "lat": 50.84048,
+   "lon": 10.95198,
+   "in_principality": false,
+   "gloss_en": "Arnstadt (town)"
+  },
+  {
+   "key": "Bärenthal",
+   "action": "accept",
+   "label": "Bärenthal",
+   "class": "place",
+   "kind": "Flur",
+   "in_principality": true,
+   "gloss_en": "Bärenthal (field area)",
+   "note": "Field/valley name quoted among place names derived from bears (also Berthel); not a specific village."
+  },
+  {
+   "key": "Hart",
+   "action": "reclass",
+   "label": "Hart",
+   "class": "nature",
+   "kind": "Wald",
+   "gloss_en": "Hart (forest)",
+   "note": "Forest at Langenwetzendorf where the last bears were shot about 1730."
+  },
+  {
+   "key": "Herzogthum Anhalt",
+   "action": "accept",
+   "label": "Herzogthum Anhalt",
+   "class": "place",
+   "kind": "Herzogtum",
+   "in_principality": false,
+   "gloss_en": "Duchy of Anhalt"
+  },
+  {
+   "key": "Baden",
+   "action": "merge",
+   "into": "Großherzogthum Baden"
+  },
+  {
+   "key": "Ebers-",
+   "action": "reject",
+   "reason": "truncated table cell (Ebers-dorf); fragment"
+  },
+  {
+   "key": "Kleina",
+   "action": "accept",
+   "label": "Kleina",
+   "class": "place",
+   "kind": "Dorf",
+   "geonames": 2889823,
+   "lat": 50.68384,
+   "lon": 11.76161,
+   "in_principality": false,
+   "gloss_en": "Kleina (village)",
+   "note": "Village in the Neustadt (Orla) district of Saxe-Weimar; compared with Gleina in a name parallel."
+  },
+  {
+   "key": "Dossau",
+   "action": "accept",
+   "label": "Dossau",
+   "class": "place",
+   "kind": "Dorf",
+   "in_principality": false,
+   "gloss_en": "Dossau (village)",
+   "note": "Occurs only in a legend (\"Hainherr von Dossau\"); identification unknown."
+  },
+  {
+   "key": "Bayreuth",
+   "action": "merge",
+   "into": "Baireuth"
+  },
+  {
+   "key": "geraer",
+   "action": "merge",
+   "into": "Bezirk Gera"
+  },
+  {
+   "key": "Hohenforst",
+   "action": "accept",
+   "label": "Hohenforst",
+   "class": "place",
+   "kind": "Dorf",
+   "in_principality": false,
+   "gloss_en": "Hohenforst (village)",
+   "note": "Place near Schneeberg with the mine Fürstenberg."
+  },
+  {
+   "key": "Kretschwitz",
+   "action": "merge",
+   "into": "Kretzschwitz"
+  },
+  {
+   "key": "Bremen",
+   "action": "accept",
+   "label": "Bremen",
+   "class": "place",
+   "kind": "Stadt",
+   "lat": 53.08,
+   "lon": 8.8,
+   "in_principality": false,
+   "gloss_en": "Bremen (town)"
+  },
+  {
+   "key": "Asien",
+   "action": "accept",
+   "label": "Asien",
+   "class": "place",
+   "kind": "Kontinent",
+   "in_principality": false,
+   "gloss_en": "Asia"
+  },
+  {
+   "key": "Eckernförde",
+   "action": "accept",
+   "label": "Eckernförde",
+   "class": "place",
+   "kind": "Stadt",
+   "lat": 54.47,
+   "lon": 9.84,
+   "in_principality": false,
+   "gloss_en": "Eckernförde (town)",
+   "note": "Naval action of 5 April 1849 (decoration)."
+  },
+  {
+   "key": "Kronach",
+   "action": "accept",
+   "label": "Kronach",
+   "class": "place",
+   "kind": "Stadt",
+   "geonames": 2883784,
+   "lat": 50.23963,
+   "lon": 11.33308,
+   "in_principality": false,
+   "gloss_en": "Kronach (town)"
+  },
+  {
+   "key": "Ilm",
+   "action": "accept",
+   "label": "Ilm",
+   "class": "place",
+   "kind": "Dorf",
+   "in_principality": false,
+   "gloss_en": "Ilm (village)",
+   "note": "Village in the upper Sormitz area (with Burglemnitz, Gleima, Weitisberga); outside the principality; not the river Ilm."
+  },
+  {
+   "key": "Fürstenthum Lobenstein-Ebersdorf",
+   "action": "accept",
+   "label": "Fürstenthum Lobenstein-Ebersdorf",
+   "class": "place",
+   "kind": "Fürstentum",
+   "in_principality": true,
+   "gloss_en": "Principality of Lobenstein-Ebersdorf (until 1848)"
+  },
+  {
+   "key": "Gera I",
+   "action": "reject",
+   "reason": "court district label (Einzelgericht Gera I) in a judicial statistics table"
+  },
+  {
+   "key": "Gera II",
+   "action": "reject",
+   "reason": "court district label (Einzelgericht Gera II) in a judicial statistics table"
+  },
+  {
+   "key": "Herrschaft Schleiz",
+   "action": "accept",
+   "label": "Herrschaft Schleiz",
+   "class": "place",
+   "kind": "Herrschaft",
+   "in_principality": true,
+   "gloss_en": "Herrschaft Schleiz (lordship)"
+  },
+  {
+   "key": "Heiligenebersdorf",
+   "action": "merge",
+   "into": "Ebersdorf"
+  },
+  {
+   "key": "Grimma",
+   "action": "accept",
+   "label": "Grimma",
+   "class": "place",
+   "kind": "Stadt",
+   "geonames": 2917325,
+   "lat": 51.23367,
+   "lon": 12.71959,
+   "in_principality": false,
+   "gloss_en": "Grimma (town)"
+  },
+  {
+   "key": "Göttingen",
+   "action": "accept",
+   "label": "Göttingen",
+   "class": "place",
+   "kind": "Stadt",
+   "geonames": 2918632,
+   "lat": 51.53443,
+   "lon": 9.93228,
+   "in_principality": false,
+   "gloss_en": "Göttingen (town)"
+  },
+  {
+   "key": "Graba",
+   "action": "accept",
+   "label": "Graba",
+   "class": "place",
+   "kind": "Dorf",
+   "geonames": 2918501,
+   "lat": 50.65453,
+   "lon": 11.35642,
+   "in_principality": false,
+   "gloss_en": "Graba (village)",
+   "note": "Estate of the Kloster Volkenroda near Graba, in the Saalfeld area."
+  },
+  {
+   "key": "Eckartsbergischen",
+   "action": "merge",
+   "into": "Eckartsberga"
+  },
+  {
+   "key": "Italien",
+   "action": "accept",
+   "label": "Italien",
+   "class": "place",
+   "kind": "Land",
+   "in_principality": false,
+   "gloss_en": "Italy"
+  },
+  {
+   "key": "Frauenstein",
+   "action": "accept",
+   "label": "Frauenstein",
+   "class": "place",
+   "kind": "Herrschaft",
+   "in_principality": false,
+   "gloss_en": "Frauenstein (lordship)",
+   "note": "In a list of Bohemian/Egerland possessions of the Vögte of Plauen; identification not verified (not Frauenstein in the Erzgebirge by assumption)."
+  },
+  {
+   "key": "Jagow",
+   "action": "accept",
+   "label": "Jagow",
+   "class": "place",
+   "kind": "Dorf",
+   "in_principality": false,
+   "gloss_en": "Jagow (village)",
+   "note": "Provostry Jagow (Uckermark); a Reuss prince became provost there."
+  },
+  {
+   "key": "Freiberg",
+   "action": "accept",
+   "label": "Freiberg",
+   "class": "place",
+   "kind": "Stadt",
+   "geonames": 2925192,
+   "lat": 50.91089,
+   "lon": 13.33881,
+   "in_principality": false,
+   "gloss_en": "Freiberg (town)"
+  },
+  {
+   "key": "Chemnitz",
+   "action": "accept",
+   "label": "Chemnitz",
+   "class": "place",
+   "kind": "Stadt",
+   "geonames": 2940132,
+   "lat": 50.8357,
+   "lon": 12.92922,
+   "in_principality": false,
+   "gloss_en": "Chemnitz (town)"
+  },
+  {
+   "key": "Aussig",
+   "action": "accept",
+   "label": "Aussig",
+   "class": "place",
+   "kind": "Stadt",
+   "lat": 50.66,
+   "lon": 14.04,
+   "in_principality": false,
+   "modern": "Ústí nad Labem",
+   "gloss_en": "Ústí nad Labem (town)",
+   "note": "Battle of Aussig 1426."
+  },
+  {
+   "key": "Debschitz",
+   "action": "merge",
+   "into": "Debschwitz"
+  },
+  {
+   "key": "Gräslitz",
+   "action": "accept",
+   "label": "Gräslitz",
+   "class": "place",
+   "kind": "Stadt",
+   "lat": 50.32,
+   "lon": 12.52,
+   "in_principality": false,
+   "modern": "Kraslice",
+   "gloss_en": "Kraslice (town)",
+   "note": "Schloss Gräslitz in Bohemia."
+  },
+  {
+   "key": "Arnshaugk",
+   "action": "accept",
+   "label": "Arnshaugk",
+   "class": "place",
+   "kind": "Burg",
+   "geonames": 2955446,
+   "lat": 50.72944,
+   "lon": 11.74916,
+   "in_principality": false,
+   "gloss_en": "Arnshaugk (castle)",
+   "note": "Burg Arnshaugk near Neustadt an der Orla; treaty of 1428."
+  },
+  {
+   "key": "Gera-Schleiz-Lobenstein",
+   "action": "accept",
+   "label": "Gera-Schleiz-Lobenstein",
+   "class": "place",
+   "kind": "Herrschaft",
+   "in_principality": true,
+   "gloss_en": "Gera-Schleiz-Lobenstein (lordship)",
+   "note": "Composite title of the Lord of the three Reuss lordships Gera, Schleiz and Lobenstein."
+  },
+  {
+   "key": "Erlichshausen",
+   "action": "reclass",
+   "label": "von Erlichshausen",
+   "class": "person",
+   "kind": "Adelsfamilie",
+   "note": "Noble family name used in a genealogical remark; not a place."
+  },
+  {
+   "key": "Holstein",
+   "action": "accept",
+   "label": "Holstein",
+   "class": "place",
+   "kind": "Region",
+   "in_principality": false,
+   "gloss_en": "Holstein (region)"
+  },
+  {
+   "key": "Baireuthischen",
+   "action": "merge",
+   "into": "Brandenburg-Baireuth"
+  },
+  {
+   "key": "Guteborn",
+   "action": "accept",
+   "label": "Guteborn",
+   "class": "place",
+   "kind": "Herrschaft",
+   "geonames": 2913421,
+   "lat": 51.41667,
+   "lon": 13.93333,
+   "in_principality": false,
+   "gloss_en": "Guteborn (lordship)",
+   "note": "Estate/lordship of the Gräfin von Hoym in the Lausitz."
+  },
+  {
+   "key": "Gelnhausen",
+   "action": "reject",
+   "reason": "part of a noble house name (Birkenfeld-Gelnhausen) in a genealogical table, not a place reference"
+  },
+  {
+   "key": "Heſſen-Caſſel",
+   "action": "accept",
+   "label": "Hessen-Cassel",
+   "class": "place",
+   "kind": "Landgrafschaft",
+   "in_principality": false,
+   "gloss_en": "Hesse-Kassel (landgraviate)"
+  },
+  {
+   "key": "Caaſen",
+   "action": "merge",
+   "into": "Caasen"
+  },
+  {
+   "key": "Johannisplatz",
+   "action": "accept",
+   "label": "Johannisplatz",
+   "class": "place",
+   "kind": "Platz",
+   "in_principality": true,
+   "gloss_en": "Johannisplatz (square)",
+   "note": "Square in Gera (Baderthor)."
+  },
+  {
+   "key": "Gizsan",
+   "action": "merge",
+   "into": "Geißen"
+  },
+  {
+   "key": "Grüne",
+   "action": "merge",
+   "into": "Grüna"
+  },
+  {
+   "key": "Grune",
+   "action": "merge",
+   "into": "Grüna"
+  },
+  {
+   "key": "altenburger Gebiet",
+   "action": "merge",
+   "into": "Herzogthum S.-Altenburg"
+  },
+  {
+   "key": "Beizdorf",
+   "action": "accept",
+   "label": "Betzdorf",
+   "class": "place",
+   "kind": "Wüstung",
+   "in_principality": true,
+   "register_page": "536",
+   "modern": "Beizdorf",
+   "gloss_en": "Beizdorf (deserted settlement)",
+   "note": "Wüstung (1333 Beczelingesdorf) in the Hirschfeld area; register spelling Betzdorf."
+  },
+  {
+   "key": "Bauska",
+   "action": "accept",
+   "label": "Bauska",
+   "class": "place",
+   "kind": "Dorf",
+   "in_principality": true,
+   "gloss_en": "Bauska (village)",
+   "note": "Gemeinde united with Schwaara (double name Schwaara-Bauska), Landrathsbezirk Gera."
+  },
+  {
+   "key": "Klein- und Wüstfalke",
+   "action": "merge",
+   "into": "Falke"
+  },
+  {
+   "key": "Bassinplatz",
+   "action": "accept",
+   "label": "Bassinplatz",
+   "class": "place",
+   "kind": "Platz",
+   "in_principality": true,
+   "gloss_en": "Bassinplatz (square)",
+   "note": "Square in Schleiz."
+  },
+  {
+   "key": "Heinrichstadt",
+   "action": "merge",
+   "into": "Heinrichsstadt"
+  },
+  {
+   "key": "Behmsdorf",
+   "action": "merge",
+   "into": "Böhmsdorf"
+  },
+  {
+   "key": "Kaltenhof",
+   "action": "accept",
+   "label": "Kaltenhof",
+   "class": "place",
+   "kind": "Weiler",
+   "in_principality": true,
+   "gloss_en": "Kaltenhof (hamlet)",
+   "note": "Part of the Gemeinde Oschitz (with Oberoschitz and two mills)."
+  },
+  {
+   "key": "Igelsdorf",
+   "action": "accept",
+   "label": "Igelsdorf",
+   "class": "place",
+   "kind": "Wüstung",
+   "in_principality": true,
+   "register_page": "622",
+   "gloss_en": "Igelsdorf (deserted settlement)",
+   "note": "Also Wüstenigelsdorf; deserted, SE of Pahren."
+  },
+  {
+   "key": "Grüngut",
+   "action": "merge",
+   "into": "Niedergrün"
+  },
+  {
+   "key": "Geutendorf",
+   "action": "merge",
+   "into": "Göttendorf"
+  },
+  {
+   "key": "Altpöllwitz",
+   "action": "merge",
+   "into": "Pöllwitz"
+  },
+  {
+   "key": "Bernsdorf",
+   "action": "merge",
+   "into": "Wernsdorf"
+  },
+  {
+   "key": "Gottschalksgrün",
+   "action": "merge",
+   "into": "Zollgrün"
+  },
+  {
+   "key": "Hermannsgrün",
+   "action": "accept",
+   "label": "Hermannsgrün",
+   "class": "place",
+   "kind": "Dorf",
+   "in_principality": false,
+   "gloss_en": "Hermannsgrün (village)",
+   "note": "Parish mentioned in the Koskau article (Reformation period); not in the principality."
+  },
+  {
+   "key": "Friesenthal",
+   "action": "merge",
+   "into": "Gottliebsthal"
+  },
+  {
+   "key": "Jägersruhe",
+   "action": "merge",
+   "into": "Jägersruh"
+  },
+  {
+   "key": "Kirchwiesen",
+   "action": "accept",
+   "label": "Kirchwiesen",
+   "class": "place",
+   "kind": "Flur",
+   "in_principality": true,
+   "gloss_en": "Kirchwiesen (field area)",
+   "note": "Field name in the Heinersdorf Flur."
+  },
+  {
+   "key": "Joachimsmühle",
+   "action": "accept",
+   "label": "Joachimsmühle",
+   "class": "place",
+   "kind": "Mühle",
+   "in_principality": true,
+   "register_page": "754",
+   "gloss_en": "Joachimsmühle (mill)",
+   "note": "Grist, oil and saw mill north of the Lückenmühle (\"Gochensmühle\"), at the border of the Streitwald and Schwarzburg territory."
+  },
+  {
+   "key": "Haßlersberg",
+   "action": "accept",
+   "label": "Haßlersberg",
+   "class": "place",
+   "kind": "Weiler",
+   "geonames": 2909320,
+   "lat": 50.45463,
+   "lon": 11.53906,
+   "in_principality": true,
+   "register_page": "770",
+   "gloss_en": "Haßlersberg (hamlet)",
+   "note": "Group of 16 houses in the Gemeinde Wurzbach."
+  },
+  {
+   "key": "Ansbach",
+   "action": "accept",
+   "label": "Ansbach",
+   "class": "place",
+   "kind": "Stadt",
+   "geonames": 6556829,
+   "lat": 49.3007,
+   "lon": 10.5692,
+   "in_principality": false,
+   "gloss_en": "Ansbach (town)",
+   "note": "Consistory of Ansbach (Brandenburg-Ansbach)."
+  },
+  {
+   "key": "Galenberg",
+   "action": "accept",
+   "label": "Galenberg",
+   "class": "place",
+   "kind": "Kammergut",
+   "in_principality": true,
+   "register_page": "723",
+   "gloss_en": "Galenberg (crown estate)",
+   "note": "Princely crown estate at Lobenstein (Galenberg, Galgenvorwerk)."
+  },
+  {
+   "key": "bayerische Voigtland",
+   "action": "accept",
+   "label": "Bayerisches Voigtland",
+   "class": "place",
+   "kind": "Region",
+   "in_principality": false,
+   "gloss_en": "Bavarian Vogtland (region)",
+   "note": "The Bavarian part of the Vogtland (Upper Saale district)."
+  },
+  {
+   "key": "Algier",
+   "action": "accept",
+   "label": "Algier",
+   "class": "place",
+   "kind": "Stadt",
+   "lat": 36.75,
+   "lon": 3.06,
+   "in_principality": false,
+   "modern": "Algier",
+   "gloss_en": "Algier (town)",
+   "note": "In the saying \"Algier, Tunis und Tripolis\"."
+  },
+  {
+   "key": "Altgernsdorf",
+   "action": "accept",
+   "label": "Altgernsdorf",
+   "class": "place",
+   "kind": "Dorf",
+   "geonames": 2957189,
+   "lat": 50.72774,
+   "lon": 12.135,
+   "in_principality": false,
+   "gloss_en": "Altgernsdorf (village)",
+   "note": "Village in Reuss ä. L. at the axis of the Oberland."
+  },
+  {
+   "key": "Heukenwalde",
+   "action": "merge",
+   "into": "Heukewalde"
+  },
+  {
+   "key": "Herzogthum S.-Koburg",
+   "action": "accept",
+   "label": "Herzogthum Sachsen-Coburg-Gotha",
+   "class": "place",
+   "kind": "Herzogtum",
+   "in_principality": false,
+   "gloss_en": "Duchy of Saxe-Coburg and Gotha"
+  },
+  {
+   "key": "Herzogthum S.-Meiningen",
+   "action": "accept",
+   "label": "Herzogthum Sachsen-Meiningen",
+   "class": "place",
+   "kind": "Herzogtum",
+   "in_principality": false,
+   "gloss_en": "Duchy of Saxe-Meiningen"
+  },
+  {
+   "key": "faltischen Grunde",
+   "action": "reclass",
+   "label": "Falker Grund",
+   "class": "nature",
+   "kind": "Tal",
+   "gloss_en": "valley of Falke",
+   "note": "Valley (Grund) at Falke between the Wipse and the Falke area."
+  },
+  {
+   "key": "Bramthalgebiete",
+   "action": "reclass",
+   "label": "Bramthal",
+   "class": "nature",
+   "kind": "Tal",
+   "gloss_en": "Bramthal valley",
+   "note": "Valley of the Bramthal (Brambach) in the Gera district."
+  },
+  {
+   "key": "Agagebiete",
+   "action": "merge",
+   "into": "Aga"
+  },
+  {
+   "key": "Käseschenke",
+   "action": "accept",
+   "label": "Käseschenke",
+   "class": "place",
+   "kind": "Gasthaus",
+   "in_principality": true,
+   "register_page": "484",
+   "gloss_en": "Käseschenke (inn)",
+   "note": "Highest inhabited place in the Unterland (Gemeinde Kaltenborn)."
+  },
+  {
+   "key": "Fürstenthums Reuss j. L",
+   "action": "merge",
+   "into": "Fürstenthum Reuß j. L"
+  },
+  {
+   "key": "Alter Markt",
+   "action": "accept",
+   "label": "Alter Markt",
+   "class": "place",
+   "kind": "Platz",
+   "in_principality": true,
+   "gloss_en": "Alter Markt (square)",
+   "note": "Old market square in Gera (also Schleiz)."
+  },
+  {
+   "key": "Käseberg",
+   "action": "reclass",
+   "label": "Käseberg",
+   "class": "nature",
+   "kind": "Berg",
+   "geonames": 2892579,
+   "lat": 50.86552,
+   "lon": 11.96367,
+   "gloss_en": "Käseberg (hill)"
+  },
+  {
+   "key": "Henkersfleck",
+   "action": "reclass",
+   "label": "Henkersfleck",
+   "class": "nature",
+   "kind": "Berg",
+   "gloss_en": "Henkersfleck (hill)",
+   "note": "Hill in the Lobenstein area (list of heights)."
+  },
+  {
+   "key": "Carolinenfeld",
+   "action": "merge",
+   "into": "Karolinenfield"
+  },
+  {
+   "key": "Bodenhöhe",
+   "action": "reclass",
+   "label": "Bodenhöhe",
+   "class": "nature",
+   "kind": "Berg",
+   "gloss_en": "Bodenhöhe (height)"
+  },
+  {
+   "key": "Kohlhäuser",
+   "action": "merge",
+   "into": "Kohlhauhäuser"
+  },
+  {
+   "key": "Karolinenfeld",
+   "action": "merge",
+   "into": "Karolinenfield"
+  },
+  {
+   "key": "Kießlinger",
+   "action": "merge",
+   "into": "Kießling"
+  },
+  {
+   "key": "Heinersdorfer Flur",
+   "action": "merge",
+   "into": "Heinersdorf"
+  },
+  {
+   "key": "dobareuther Flur",
+   "action": "merge",
+   "into": "Dobareuth"
+  },
+  {
+   "key": "hirschberger Haag",
+   "action": "reclass",
+   "label": "Hirschberger Haag",
+   "class": "nature",
+   "kind": "Wald",
+   "gloss_en": "Hirschberg forest (Haag)"
+  },
+  {
+   "key": "Göriz",
+   "action": "merge",
+   "into": "Göritz"
+  },
+  {
+   "key": "Kreuztanne",
+   "action": "accept",
+   "label": "Kreuztanne",
+   "class": "place",
+   "kind": "Flur",
+   "in_principality": true,
+   "gloss_en": "Kreuztanne (field area)",
+   "note": "Landmark/forest spot near Hornsgrün."
+  },
+  {
+   "key": "Absangk",
+   "action": "merge",
+   "into": "Absang"
+  },
+  {
+   "key": "Franzensberg",
+   "action": "reclass",
+   "label": "Franzensberg",
+   "class": "nature",
+   "kind": "Berg",
+   "gloss_en": "Franzensberg (hill)",
+   "note": "Slate quarries at the Franzensberg."
+  },
+  {
+   "key": "Klein= wolschendorf",
+   "action": "merge",
+   "into": "Kleinwolschendorf"
+  },
+  {
+   "key": "Altstadt von Schleiz",
+   "action": "merge",
+   "into": "Altstadt"
+  },
+  {
+   "key": "Chursdorf",
+   "action": "accept",
+   "label": "Chursdorf",
+   "class": "place",
+   "kind": "Dorf",
+   "geonames": 2940033,
+   "lat": 50.66667,
+   "lon": 11.85,
+   "in_principality": false,
+   "gloss_en": "Chursdorf (village)",
+   "note": "Weimar territory (weimarisches Chursdorf) at Plothen."
+  },
+  {
+   "key": "Carolinenfield",
+   "action": "merge",
+   "into": "Karolinenfield"
+  },
+  {
+   "key": "Dorsá",
+   "action": "reject",
+   "reason": "illustrative name form in a discussion of the dialect suffix -au/-á (Dorsá, Höferá, Löhlá, Kämmerá ...), not a place reference"
+  },
+  {
+   "key": "jenaischen",
+   "action": "merge",
+   "into": "Jena"
+  },
+  {
+   "key": "Bayerische",
+   "action": "merge",
+   "into": "Bayern"
+  },
+  {
+   "key": "grüner Grund",
+   "action": "reclass",
+   "label": "Langgrüner Wasser (grüner Grund)",
+   "class": "nature",
+   "kind": "Bach",
+   "gloss_en": "Langgrüner brook (\"grüner Grund\")"
+  },
+  {
+   "key": "böhmsdorf",
+   "action": "merge",
+   "into": "Böhmsdorf"
+  },
+  {
+   "key": "Altenbeuthen",
+   "action": "accept",
+   "label": "Altenbeuthen",
+   "class": "place",
+   "kind": "Dorf",
+   "geonames": 2957823,
+   "lat": 50.5919,
+   "lon": 11.60062,
+   "in_principality": false,
+   "gloss_en": "Altenbeuthen (village)",
+   "note": "Village at the Otterbach/Autrabach mouth (Schwarzburg territory)."
+  },
+  {
+   "key": "Hockerode",
+   "action": "accept",
+   "label": "Hockerode",
+   "class": "place",
+   "kind": "Dorf",
+   "in_principality": false,
+   "modern": "Hockeroda",
+   "gloss_en": "Hockeroda (village)",
+   "note": "Village where the Sormitz joins the Loquitz."
+  },
+  {
+   "key": "Grünau",
+   "action": "accept",
+   "label": "Grünau",
+   "class": "place",
+   "kind": "Dorf",
+   "geonames": 2914484,
+   "lat": 50.52819,
+   "lon": 11.47704,
+   "in_principality": false,
+   "gloss_en": "Grünau (village)",
+   "note": "Village on the Sormitz above the Weitisberga mill; no article in the Ortskunde."
+  },
+  {
+   "key": "Amt Weida",
+   "action": "accept",
+   "label": "Amt Weida",
+   "class": "place",
+   "kind": "Amt",
+   "in_principality": false,
+   "gloss_en": "Amt Weida (administrative district)",
+   "note": "Weimar Amt Weida."
+  },
+  {
+   "key": "District Zeitz",
+   "action": "accept",
+   "label": "Kreis Zeitz",
+   "class": "place",
+   "kind": "Kreis",
+   "in_principality": false,
+   "gloss_en": "Zeitz district (Prussia)"
+  },
+  {
+   "key": "Kreis Leipzig",
+   "action": "accept",
+   "label": "Kreis Leipzig",
+   "class": "place",
+   "kind": "Kreis",
+   "in_principality": false,
+   "gloss_en": "Leipzig district (Saxony)"
+  },
+  {
+   "key": "Eisenbergischen",
+   "action": "merge",
+   "into": "Eisenberg"
+  },
+  {
+   "key": "Bramstedt",
+   "action": "reject",
+   "reason": "place names quoted as etymological parallels (Bramberg, Bramstedt, Bramwald), no specific place"
+  },
+  {
+   "key": "Groitsch",
+   "action": "merge",
+   "into": "Groitzsch"
+  },
+  {
+   "key": "Baltenheim",
+   "action": "accept",
+   "label": "Baltenheim",
+   "class": "place",
+   "kind": "Dorf",
+   "in_principality": false,
+   "gloss_en": "Baltenheim (village)",
+   "note": "Place on the Sprese/Sprotte brook in the Altenburg country."
+  },
+  {
+   "key": "bethenhäuser Grenze",
+   "action": "merge",
+   "into": "Bethenhausen"
+  },
+  {
+   "key": "Dessegrund",
+   "action": "reclass",
+   "label": "Dessegrund",
+   "class": "nature",
+   "kind": "Tal",
+   "gloss_en": "Dessegrund (valley)",
+   "note": "Valley at Desse near Kraftsdorf (Martinsquelle, Währigsborn)."
+  },
+  {
+   "key": "Herrengasse",
+   "action": "accept",
+   "label": "Herrengasse",
+   "class": "place",
+   "kind": "Straße",
+   "in_principality": true,
+   "gloss_en": "Herrengasse (street)",
+   "note": "Street in Hohenleuben (well of 40 ft)."
+  },
+  {
+   "key": "geraer Strich",
+   "action": "merge",
+   "into": "Gera"
+  },
+  {
+   "key": "Köstriz",
+   "action": "merge",
+   "into": "Köstritz"
+  },
+  {
+   "key": "Hainteichen",
+   "action": "reclass",
+   "label": "Hainteichen",
+   "class": "nature",
+   "kind": "Teich",
+   "gloss_en": "Hainteiche (ponds)",
+   "note": "Ponds near Schleiz (Gentiana verna)."
+  },
+  {
+   "key": "Kanada",
+   "action": "accept",
+   "label": "Kanada",
+   "class": "place",
+   "kind": "Land",
+   "in_principality": false,
+   "gloss_en": "Canada"
+  },
+  {
+   "key": "alten Markte",
+   "action": "merge",
+   "into": "Alter Markt"
+  },
+  {
+   "key": "Eichberg",
+   "action": "reject",
+   "reason": "generic local name cited as an example of oak place names (Eichberg, Buchberg), no specific place"
+  },
+  {
+   "key": "Küchengarten",
+   "action": "accept",
+   "label": "Küchengarten",
+   "class": "place",
+   "kind": "Flur",
+   "in_principality": true,
+   "gloss_en": "Küchengarten (field area)",
+   "note": "Garden area at Gera (Osterstein)."
+  },
+  {
+   "key": "Hopfenberge",
+   "action": "reject",
+   "reason": "generic plural field name (so-called Hopfenberge) cited as evidence for former hop growing, no specific place"
+  },
+  {
+   "key": "ernseer Höhe",
+   "action": "reclass",
+   "label": "Ernseer Höhe",
+   "class": "nature",
+   "kind": "Berg",
+   "gloss_en": "Ernsee height"
+  },
+  {
+   "key": "Hainberg",
+   "action": "reclass",
+   "label": "Hainberg",
+   "class": "nature",
+   "kind": "Berg",
+   "gloss_en": "Hainberg (hill at Gera)",
+   "note": "Hill at the Osterstein, Gera (Hainberg, Hain, Osterstein)."
+  },
+  {
+   "key": "Eulengraben",
+   "action": "reclass",
+   "label": "Eulengraben",
+   "class": "nature",
+   "kind": "Tal",
+   "gloss_en": "Eulengraben (gully)"
+  },
+  {
+   "key": "Heinrichstein",
+   "action": "reclass",
+   "label": "Heinrichstein",
+   "class": "nature",
+   "kind": "Felsen",
+   "geonames": 2907212,
+   "lat": 50.46667,
+   "lon": 11.66667,
+   "gloss_en": "Heinrichstein (rock)",
+   "note": "Natural landmark near Ebersdorf (register: Heinrichsstein, p. 727)."
+  },
+  {
+   "key": "Berthel",
+   "action": "merge",
+   "into": "Bärenthal"
+  },
+  {
+   "key": "ernseer Forst",
+   "action": "reclass",
+   "label": "Ernseer Forst",
+   "class": "nature",
+   "kind": "Wald",
+   "gloss_en": "Ernsee forest"
+  },
+  {
+   "key": "gräfenwarther Forste",
+   "action": "reclass",
+   "label": "Gräfenwarther Forst",
+   "class": "nature",
+   "kind": "Wald",
+   "gloss_en": "Gräfenwarth forest"
+  },
+  {
+   "key": "Kerbe",
+   "action": "reclass",
+   "label": "Kerbe",
+   "class": "nature",
+   "kind": "Berg",
+   "gloss_en": "Kerbe (slope near Gera)",
+   "note": "Warm valley slope near Gera."
+  },
+  {
+   "key": "Altbayern",
+   "action": "accept",
+   "label": "Altbayern",
+   "class": "place",
+   "kind": "Region",
+   "in_principality": false,
+   "gloss_en": "Old Bavaria (region)"
+  },
+  {
+   "key": "Frankenland",
+   "action": "merge",
+   "into": "Franken"
+  },
+  {
+   "key": "Fürstenthum Lippe-Detmold",
+   "action": "accept",
+   "label": "Fürstenthum Lippe-Detmold",
+   "class": "place",
+   "kind": "Fürstentum",
+   "in_principality": false,
+   "gloss_en": "Principality of Lippe-Detmold"
+  },
+  {
+   "key": "Großherzogthum Baden",
+   "action": "accept",
+   "label": "Großherzogthum Baden",
+   "class": "place",
+   "kind": "Großherzogtum",
+   "in_principality": false,
+   "gloss_en": "Grand Duchy of Baden"
+  },
+  {
+   "key": "Königreich Würtemberg",
+   "action": "merge",
+   "into": "Württemberg"
+  },
+  {
+   "key": "Herzogthum Braunschweig",
+   "action": "merge",
+   "into": "Braunschweig"
+  },
+  {
+   "key": "Fürstenthum Schwarzburg-Rudolstadt",
+   "action": "accept",
+   "label": "Fürstenthum Schwarzburg-Rudolstadt",
+   "class": "place",
+   "kind": "Fürstentum",
+   "in_principality": false,
+   "gloss_en": "Principality of Schwarzburg-Rudolstadt"
+  },
+  {
+   "key": "Herzogthum Meiningen",
+   "action": "merge",
+   "into": "Herzogthum S.-Meiningen"
+  },
+  {
+   "key": "Fürstenthum Schaumburg-Lippe",
+   "action": "accept",
+   "label": "Fürstenthum Schaumburg-Lippe",
+   "class": "place",
+   "kind": "Fürstentum",
+   "in_principality": false,
+   "gloss_en": "Principality of Schaumburg-Lippe"
+  },
+  {
+   "key": "Königreich Preußen",
+   "action": "merge",
+   "into": "Preußen"
+  },
+  {
+   "key": "Königreich Bayern",
+   "action": "merge",
+   "into": "Bayern"
+  },
+  {
+   "key": "Großherzogthum Oldenburg",
+   "action": "merge",
+   "into": "Oldenburg"
+  },
+  {
+   "key": "Großherzogthum Mecklenburg-Schwerin",
+   "action": "accept",
+   "label": "Großherzogthum Mecklenburg-Schwerin",
+   "class": "place",
+   "kind": "Großherzogtum",
+   "in_principality": false,
+   "gloss_en": "Grand Duchy of Mecklenburg-Schwerin"
+  },
+  {
+   "key": "Großherzogthum Mecklenburg-Strelitz",
+   "action": "accept",
+   "label": "Großherzogthum Mecklenburg-Strelitz",
+   "class": "place",
+   "kind": "Großherzogtum",
+   "in_principality": false,
+   "gloss_en": "Grand Duchy of Mecklenburg-Strelitz"
+  },
+  {
+   "key": "Belgien",
+   "action": "accept",
+   "label": "Belgien",
+   "class": "place",
+   "kind": "Land",
+   "in_principality": false,
+   "gloss_en": "Belgium"
+  },
+  {
+   "key": "Coburg-Gotha",
+   "action": "merge",
+   "into": "Herzogthum S.-Koburg"
+  },
+  {
+   "key": "Gera Stadt",
+   "action": "merge",
+   "into": "Gera"
+  },
+  {
+   "key": "Gera Plattland",
+   "action": "merge",
+   "into": "Bezirk Gera"
+  },
+  {
+   "key": "Gera Summe",
+   "action": "reject",
+   "reason": "table row label (total for the Gera district), not a place"
+  },
+  {
+   "key": "Departement Ardèche",
+   "action": "accept",
+   "label": "Departement Ardèche",
+   "class": "place",
+   "kind": "Region",
+   "in_principality": false,
+   "gloss_en": "Ardèche department (France)"
+  },
+  {
+   "key": "Hannover",
+   "action": "accept",
+   "label": "Hannover",
+   "class": "place",
+   "kind": "Königreich",
+   "in_principality": false,
+   "gloss_en": "Hanover (kingdom)",
+   "note": "Appears in statistical tables as the state (Kingdom of Hanover)."
+  },
+  {
+   "key": "Dänemark",
+   "action": "accept",
+   "label": "Dänemark",
+   "class": "place",
+   "kind": "Land",
+   "in_principality": false,
+   "gloss_en": "Denmark"
+  },
+  {
+   "key": "Bezirk Gera",
+   "action": "accept",
+   "label": "Bezirk Gera",
+   "class": "place",
+   "kind": "Landestheil",
+   "in_principality": true,
+   "gloss_en": "Gera district (Landrathsbezirk)",
+   "note": "One of the three Bezirke of the principality."
+  },
+  {
+   "key": "Bezirk Schleiz",
+   "action": "accept",
+   "label": "Bezirk Schleiz",
+   "class": "place",
+   "kind": "Landestheil",
+   "in_principality": true,
+   "gloss_en": "Schleiz district",
+   "note": "One of the three Bezirke of the principality (Wisentaland)."
+  },
+  {
+   "key": "Bez. Lobenstein-Ebersdorf",
+   "action": "accept",
+   "label": "Bezirk Lobenstein-Ebersdorf",
+   "class": "place",
+   "kind": "Landestheil",
+   "in_principality": true,
+   "gloss_en": "Lobenstein-Ebersdorf district",
+   "note": "One of the three Bezirke of the principality; abbreviated Lobenst.-Ebersd."
+  },
+  {
+   "key": "Brasilien",
+   "action": "accept",
+   "label": "Brasilien",
+   "class": "place",
+   "kind": "Land",
+   "in_principality": false,
+   "gloss_en": "Brazil"
+  },
+  {
+   "key": "Köstiz",
+   "action": "merge",
+   "into": "Köstitz"
+  },
+  {
+   "key": "Ciba",
+   "action": "accept",
+   "label": "Ciba",
+   "class": "place",
+   "kind": "Flur",
+   "in_principality": true,
+   "gloss_en": "Ciba (field area)",
+   "note": "Field name in the Gemeinde Göritz (Slavic/Bohemian place name transferred to a local field)."
+  },
+  {
+   "key": "Gruschitz",
+   "action": "accept",
+   "label": "Gruschitz",
+   "class": "place",
+   "kind": "Flur",
+   "in_principality": true,
+   "gloss_en": "Gruschitz (field area)",
+   "note": "Field name in Burkersdorf (cf. Bohemian place name)."
+  },
+  {
+   "key": "Dels",
+   "action": "accept",
+   "label": "Dels",
+   "class": "place",
+   "kind": "Flur",
+   "in_principality": true,
+   "gloss_en": "Dels (field area)",
+   "note": "Field name in Dettersdorf (cf. Dels)."
+  },
+  {
+   "key": "Gröben",
+   "action": "accept",
+   "label": "Gröben",
+   "class": "place",
+   "kind": "Flur",
+   "in_principality": true,
+   "gloss_en": "Gröben (field area)",
+   "note": "Field name in Pöritzsch (cf. place-name parallels)."
+  },
+  {
+   "key": "Döhlen",
+   "action": "accept",
+   "label": "Döhlen",
+   "class": "place",
+   "kind": "Ortsteil",
+   "in_principality": true,
+   "gloss_en": "Döhlen (locality)",
+   "note": "\"döhlener Brunnen\": quarter/hamlet in the Hohenleuben Gemeinde; named in a table of Slavic roots (dele \"Tiefe\")."
+  },
+  {
+   "key": "Beulwitz",
+   "action": "accept",
+   "label": "Beulwitz",
+   "class": "place",
+   "kind": "Dorf",
+   "geonames": 2949583,
+   "lat": 50.65566,
+   "lon": 11.32668,
+   "in_principality": false,
+   "gloss_en": "Beulwitz (village)",
+   "note": "Place name in the table of Slavic roots (bjel); village near Saalfeld."
+  },
+  {
+   "key": "Bahnstangen",
+   "action": "merge",
+   "into": "Pahnstangen"
+  },
+  {
+   "key": "Elsch",
+   "action": "accept",
+   "label": "Elsch",
+   "class": "place",
+   "kind": "Dorf",
+   "in_principality": false,
+   "gloss_en": "Elsch (village)",
+   "note": "Name in the table of Slavic roots (ülsa \"Erle\"); not identified."
+  },
+  {
+   "key": "Kattenstein",
+   "action": "accept",
+   "label": "Kattenstein",
+   "class": "place",
+   "kind": "Flur",
+   "in_principality": false,
+   "gloss_en": "Kattenstein (field area)",
+   "note": "Name in the table of Slavic roots (kot \"Katze\"); not identified."
+  },
+  {
+   "key": "Heiligen-Ebersdorf",
+   "action": "merge",
+   "into": "Ebersdorf"
+  },
+  {
+   "key": "Grossaara",
+   "action": "merge",
+   "into": "Großsaara"
+  },
+  {
+   "key": "Hecksburg",
+   "action": "accept",
+   "label": "Hecksburg",
+   "class": "place",
+   "kind": "Dorf",
+   "in_principality": false,
+   "gloss_en": "Hecksburg (village)",
+   "note": "Church portals at Wechselburg and Hecksburg compared with Reuss church sculpture."
+  },
+  {
+   "key": "Kayla",
+   "action": "accept",
+   "label": "Kayla",
+   "class": "place",
+   "kind": "Dorf",
+   "in_principality": false,
+   "gloss_en": "Kayla (village)",
+   "note": "Place at the dialect boundary of the Tanna area (\"Nibel/Nabel\"); variant Kaila."
+  },
+  {
+   "key": "Hochlande",
+   "action": "accept",
+   "label": "Hochland",
+   "class": "place",
+   "kind": "Region",
+   "in_principality": true,
+   "gloss_en": "Hochland (region)",
+   "note": "Dialect region, the upper Hochland of the Oberland."
+  },
+  {
+   "key": "Holzlande",
+   "action": "merge",
+   "into": "Holzland"
+  },
+  {
+   "key": "Brambach",
+   "action": "accept",
+   "label": "Brambach",
+   "class": "place",
+   "kind": "Dorf",
+   "geonames": 2953538,
+   "lat": 50.21667,
+   "lon": 12.31667,
+   "in_principality": false,
+   "modern": "Bad Brambach",
+   "gloss_en": "Bad Brambach (village)",
+   "note": "Vogtland place in a rhyme listing Vogtland breweries."
+  },
+  {
+   "key": "Kaila",
+   "action": "merge",
+   "into": "Kayla"
+  },
+  {
+   "key": "Joduschiz",
+   "action": "accept",
+   "label": "Joduschiz",
+   "class": "place",
+   "kind": "Dorf",
+   "in_principality": false,
+   "gloss_en": "Joduschiz (village)",
+   "note": "Occurs only in a legend; identification unknown."
+  },
+  {
+   "key": "Bramenthal",
+   "action": "merge",
+   "into": "Bramthalgebiete"
+  },
+  {
+   "key": "Köpsen",
+   "action": "accept",
+   "label": "Köpsen",
+   "class": "place",
+   "kind": "Dorf",
+   "geonames": 2885545,
+   "lat": 51.16533,
+   "lon": 12.05692,
+   "in_principality": false,
+   "gloss_en": "Köpsen (village)",
+   "note": "Village near Trebnitz/Speutewitz, outside the principality."
+  },
+  {
+   "key": "Köpfen",
+   "action": "merge",
+   "into": "Köpsen"
+  },
+  {
+   "key": "hirschberger Gegend",
+   "action": "merge",
+   "into": "Hirschberg"
+  },
+  {
+   "key": "Ernseer Forst",
+   "action": "merge",
+   "into": "ernseer Forst"
+  },
+  {
+   "key": "Cossen-Forst",
+   "action": "reclass",
+   "label": "Cossen-Forst",
+   "class": "nature",
+   "kind": "Wald",
+   "gloss_en": "Cossen forest",
+   "note": "Forest district (Forst) in the list of forests; cf. Wüstung Cosse."
+  },
+  {
+   "key": "Gallenberg",
+   "action": "merge",
+   "into": "Galenberg"
+  },
+  {
+   "key": "Cretzschwitz",
+   "action": "merge",
+   "into": "Kretzschwitz"
+  },
+  {
+   "key": "G e r a",
+   "action": "merge",
+   "into": "Gera"
+  },
+  {
+   "key": "Fürstenthume Lobenstein-Ebersdorf",
+   "action": "merge",
+   "into": "Fürstenthum Lobenstein-Ebersdorf"
+  },
+  {
+   "key": "Fürstenthume Schleiz",
+   "action": "accept",
+   "label": "Fürstenthum Schleiz",
+   "class": "place",
+   "kind": "Fürstentum",
+   "in_principality": true,
+   "gloss_en": "Principality of Schleiz (until 1848)"
+  },
+  {
+   "key": "Fürstenthume Gera",
+   "action": "accept",
+   "label": "Fürstenthum Gera",
+   "class": "place",
+   "kind": "Fürstentum",
+   "in_principality": true,
+   "gloss_en": "Principality of Gera (until 1848)"
+  },
+  {
+   "key": "Dürrenhof",
+   "action": "accept",
+   "label": "Dürrhof",
+   "class": "place",
+   "kind": "Gut",
+   "in_principality": true,
+   "register_page": "596",
+   "modern": "Dürrenhof",
+   "gloss_en": "Dürrenhof (estate)",
+   "note": "Estate with a Schäferei (register: Dürrhof, dürrer Hof) in the Gemeinde Oberböhmsdorf; not Dürrenhof in Franconia."
+  },
+  {
+   "key": "Franken- und Saalwald",
+   "action": "merge",
+   "into": "Frankenwald"
+  },
+  {
+   "key": "Klettig",
+   "action": "merge",
+   "into": "Klettigsgrund"
+  },
+  {
+   "key": "Fürstth. Reuß j. L",
+   "action": "merge",
+   "into": "Fürstenthum Reuß j. L"
+  },
+  {
+   "key": "Bad Köstritz",
+   "action": "merge",
+   "into": "Köstritz"
+  },
+  {
+   "key": "Hamburg",
+   "action": "accept",
+   "label": "Hamburg",
+   "class": "place",
+   "kind": "Stadt",
+   "lat": 53.55,
+   "lon": 9.99,
+   "in_principality": false,
+   "gloss_en": "Hamburg (town)"
+  },
+  {
+   "key": "Geestemünde",
+   "action": "accept",
+   "label": "Geestemünde",
+   "class": "place",
+   "kind": "Stadt",
+   "lat": 53.54,
+   "lon": 8.59,
+   "in_principality": false,
+   "modern": "Bremerhaven-Geestemünde",
+   "gloss_en": "Bremerhaven-Geestemünde (town)",
+   "note": "Emigration port (declarations)."
+  },
+  {
+   "key": "Bremerhaven",
+   "action": "accept",
+   "label": "Bremerhaven",
+   "class": "place",
+   "kind": "Stadt",
+   "lat": 53.55,
+   "lon": 8.58,
+   "in_principality": false,
+   "gloss_en": "Bremerhaven (town)",
+   "note": "Emigration port (declarations)."
+  },
+  {
+   "key": "Boitersreuth",
+   "action": "accept",
+   "label": "Boitersreuth",
+   "class": "place",
+   "kind": "Dorf",
+   "in_principality": false,
+   "gloss_en": "Boitersreuth (village)",
+   "note": "Destination in emigration declarations; not identified."
+  },
+  {
+   "key": "Herbesthal",
+   "action": "accept",
+   "label": "Herbesthal",
+   "class": "place",
+   "kind": "Dorf",
+   "in_principality": false,
+   "gloss_en": "Herbesthal (village)",
+   "note": "Border station (Prussia/Belgium) in emigration declarations."
+  },
+  {
+   "key": "Harburg",
+   "action": "accept",
+   "label": "Harburg",
+   "class": "place",
+   "kind": "Stadt",
+   "lat": 53.46,
+   "lon": 9.98,
+   "in_principality": false,
+   "modern": "Hamburg-Harburg",
+   "gloss_en": "Hamburg-Harburg (town)",
+   "note": "Harburg on the Elbe; destination in emigration declarations."
+  },
+  {
+   "key": "Eichicht",
+   "action": "accept",
+   "label": "Eichicht",
+   "class": "place",
+   "kind": "Dorf",
+   "geonames": 2932126,
+   "lat": 50.6113,
+   "lon": 11.43548,
+   "in_principality": false,
+   "gloss_en": "Eichicht (village)",
+   "note": "Terminus of the Gera-Eichicht railway (treaty of 4 December 1867)."
+  },
+  {
+   "key": "Fürst Reuß j. L",
+   "action": "reject",
+   "reason": "part of the ruler's title (\"souveräner Fürst Reuß j. L.\"), not a place reference"
+  },
+  {
+   "key": "Hohenzollern",
+   "action": "accept",
+   "label": "Hohenzollern",
+   "class": "place",
+   "kind": "Fürstentum",
+   "in_principality": false,
+   "gloss_en": "Hohenzollern (principalities)"
+  },
+  {
+   "key": "Fürstenthum Waldeck",
+   "action": "accept",
+   "label": "Fürstenthum Waldeck",
+   "class": "place",
+   "kind": "Fürstentum",
+   "in_principality": false,
+   "gloss_en": "Principality of Waldeck"
+  },
+  {
+   "key": "Herzogth. S.-Altenburg",
+   "action": "merge",
+   "into": "Herzogthum S.-Altenburg"
+  },
+  {
+   "key": "Herz. S.-Coburg-Gotha",
+   "action": "merge",
+   "into": "Herzogthum S.-Koburg"
+  },
+  {
+   "key": "Fürst. Schw.-Rudolstadt",
+   "action": "merge",
+   "into": "Fürstenthum Schwarzburg-Rudolstadt"
+  },
+  {
+   "key": "Herz. Sachsen-Meiningen",
+   "action": "merge",
+   "into": "Herzogthum S.-Meiningen"
+  },
+  {
+   "key": "Großherz. S.-Weimar",
+   "action": "merge",
+   "into": "Großherzogthum S.-Weimar"
+  },
+  {
+   "key": "Anhalt",
+   "action": "merge",
+   "into": "Herzogthum Anhalt"
+  },
+  {
+   "key": "Dürrenebers= dorf",
+   "action": "merge",
+   "into": "Dürrenebersdorf"
+  },
+  {
+   "key": "Gräfenwarth= Kulm",
+   "action": "accept",
+   "label": "Gräfenwarth-Kulm",
+   "class": "place",
+   "kind": "Gemeinde",
+   "in_principality": true,
+   "gloss_en": "Gräfenwarth-Kulm (municipality)",
+   "note": "Combined unit of Gräfenwarth and Kulm (near Saalburg) in an administrative table."
+  },
+  {
+   "key": "Fürstenthum Lobenstein",
+   "action": "merge",
+   "into": "Fürstenthum Lobenstein-Ebersdorf"
+  },
+  {
+   "key": "Dohna",
+   "action": "accept",
+   "label": "Dohna",
+   "class": "place",
+   "kind": "Stadt",
+   "geonames": 2936470,
+   "lat": 50.95621,
+   "lon": 13.85839,
+   "in_principality": false,
+   "gloss_en": "Dohna (town)",
+   "note": "Town in Saxony (pastor at Dohna)."
+  },
+  {
+   "key": "Castell",
+   "action": "reclass",
+   "label": "Castell",
+   "class": "person",
+   "kind": "Adelsfamilie",
+   "note": "\"Gräfin von Castell\": noble family (Counts of Castell, Franconia), not a place reference."
+  },
+  {
+   "key": "bayerischen Voigtlande",
+   "action": "merge",
+   "into": "bayerische Voigtland"
+  },
+  {
+   "key": "Corvey",
+   "action": "reclass",
+   "label": "Corvey",
+   "class": "organisation",
+   "kind": "Kloster",
+   "gloss_en": "Corvey Abbey",
+   "note": "\"Mönche von Corvey\" (mission to the Sorbs)."
+  },
+  {
+   "key": "Geraha",
+   "action": "merge",
+   "into": "Gau Gera"
+  },
+  {
+   "key": "Halberstadt",
+   "action": "accept",
+   "label": "Halberstadt",
+   "class": "place",
+   "kind": "Stadt",
+   "geonames": 2911665,
+   "lat": 51.89562,
+   "lon": 11.05622,
+   "in_principality": false,
+   "gloss_en": "Halberstadt (town)",
+   "note": "Margraviate/diocese Halberstadt (among the Thuringian margraviates)."
+  },
+  {
+   "key": "Altsachsen",
+   "action": "accept",
+   "label": "Altsachsen",
+   "class": "place",
+   "kind": "Region",
+   "in_principality": false,
+   "gloss_en": "Old Saxony (region)"
+  },
+  {
+   "key": "Eckartsberga",
+   "action": "accept",
+   "label": "Eckartsberga",
+   "class": "place",
+   "kind": "Stadt",
+   "geonames": 2933720,
+   "lat": 51.1238,
+   "lon": 11.56045,
+   "in_principality": false,
+   "gloss_en": "Eckartsberga (town)",
+   "note": "Town and Kreis Eckartsberga (Prussian province of Saxony)."
+  },
+  {
+   "key": "Buscha",
+   "action": "accept",
+   "label": "Buscha",
+   "class": "place",
+   "kind": "Dorf",
+   "geonames": 2940882,
+   "lat": 50.95287,
+   "lon": 12.5658,
+   "in_principality": false,
+   "gloss_en": "Buscha (village)",
+   "note": "Estate of the Cronschwitz endowment near Altenburg."
+  },
+  {
+   "key": "Gimmel",
+   "action": "accept",
+   "label": "Gimmel",
+   "class": "place",
+   "kind": "Dorf",
+   "geonames": 2920374,
+   "lat": 50.92843,
+   "lon": 12.32095,
+   "in_principality": false,
+   "gloss_en": "Gimmel (village)",
+   "note": "Estate of the Cronschwitz endowment near Altenburg."
+  },
+  {
+   "key": "Igelsberg",
+   "action": "accept",
+   "label": "Igelsberg",
+   "class": "place",
+   "kind": "Dorf",
+   "in_principality": false,
+   "gloss_en": "Igelsberg (village)",
+   "note": "Estate of the Cronschwitz endowment near Altenburg."
+  },
+  {
+   "key": "Kärnten",
+   "action": "accept",
+   "label": "Kärnten",
+   "class": "place",
+   "kind": "Herzogtum",
+   "in_principality": false,
+   "gloss_en": "Carinthia (duchy)"
+  },
+  {
+   "key": "Heldrungen",
+   "action": "reclass",
+   "label": "von Heldrungen",
+   "class": "person",
+   "kind": "Adelsfamilie",
+   "note": "\"Berchta (v. Heldrungen?)\": noble family in a genealogical table, not a place reference."
+  },
+  {
+   "key": "Colditz",
+   "action": "reclass",
+   "label": "von Colditz",
+   "class": "person",
+   "kind": "Adelsfamilie",
+   "note": "\"N. (v. Colditz?)\": noble family in a genealogical table, not a place reference."
+  },
+  {
+   "key": "Eberstein",
+   "action": "reclass",
+   "label": "Grafen von Eberstein",
+   "class": "person",
+   "kind": "Adelsfamilie",
+   "note": "\"aus dem gräfl. Hause Eberstein\": noble house, not a place reference."
+  },
+  {
+   "key": "Greßlas",
+   "action": "merge",
+   "into": "Gräslitz"
+  },
+  {
+   "key": "Engelsburg",
+   "action": "accept",
+   "label": "Engelsburg",
+   "class": "place",
+   "kind": "Burg",
+   "in_principality": false,
+   "gloss_en": "Engelsburg (castle)",
+   "note": "Bohemian possession in a list of the Vögte of Plauen."
+  },
+  {
+   "key": "Gölsen",
+   "action": "accept",
+   "label": "Gölsen",
+   "class": "place",
+   "kind": "Herrschaft",
+   "in_principality": false,
+   "gloss_en": "Gölsen (lordship)",
+   "note": "Herrschaft in a list of possessions of the Vögte of Plauen (Golßen, Lower Lusatia); identification not verified."
+  },
+  {
+   "key": "Bussowe",
+   "action": "merge",
+   "into": "Buscha"
+  },
+  {
+   "key": "Burgund",
+   "action": "accept",
+   "label": "Burgund",
+   "class": "place",
+   "kind": "Region",
+   "in_principality": false,
+   "gloss_en": "Burgundy (palatinate)",
+   "note": "\"Pfalzgraf von Burgund\"."
+  },
+  {
+   "key": "Körner",
+   "action": "accept",
+   "label": "Körner",
+   "class": "place",
+   "kind": "Dorf",
+   "geonames": 2885436,
+   "lat": 51.23126,
+   "lon": 10.58878,
+   "in_principality": false,
+   "gloss_en": "Körner (village)",
+   "note": "Village near Mühlhausen (mill given to Kloster Volkenroda)."
+  },
+  {
+   "key": "höfer Land",
+   "action": "accept",
+   "label": "Hofer Land",
+   "class": "place",
+   "kind": "Region",
+   "in_principality": false,
+   "gloss_en": "Hof land (region around Hof)",
+   "note": "\"das halbe höfer Land\" pledged 1362."
+  },
+  {
+   "key": "Drisels",
+   "action": "accept",
+   "label": "Drisels",
+   "class": "place",
+   "kind": "Herrschaft",
+   "in_principality": false,
+   "gloss_en": "Drisels (lordship)",
+   "note": "Herrschaft Drisels (Berga), exchanged with the Elector of Saxony."
+  },
+  {
+   "key": "Altenplotho",
+   "action": "accept",
+   "label": "Altenplotho",
+   "class": "place",
+   "kind": "Amt",
+   "in_principality": false,
+   "modern": "Altenplathow",
+   "gloss_en": "Altenplathow (administrative district)",
+   "note": "Amt Altenplotho near Genthin (Magdeburg)."
+  },
+  {
+   "key": "Genthin",
+   "action": "accept",
+   "label": "Genthin",
+   "class": "place",
+   "kind": "Stadt",
+   "geonames": 2921309,
+   "lat": 52.40668,
+   "lon": 12.1592,
+   "in_principality": false,
+   "gloss_en": "Genthin (town)"
+  },
+  {
+   "key": "Elbing",
+   "action": "accept",
+   "label": "Elbing",
+   "class": "place",
+   "kind": "Stadt",
+   "lat": 54.16,
+   "lon": 19.4,
+   "in_principality": false,
+   "modern": "Elbląg",
+   "gloss_en": "Elbląg (town)",
+   "note": "Teutonic Order commandery."
+  },
+  {
+   "key": "Engelsberg",
+   "action": "accept",
+   "label": "Engelsberg",
+   "class": "place",
+   "kind": "Burg",
+   "in_principality": false,
+   "gloss_en": "Engelsberg (castle)",
+   "note": "Commandery (Comthurei) of the Teutonic Order."
+  },
+  {
+   "key": "Hohnstein",
+   "action": "accept",
+   "label": "Hohnstein",
+   "class": "place",
+   "kind": "Herrschaft",
+   "in_principality": false,
+   "gloss_en": "Hohnstein (lordship)",
+   "note": "Counts of Hohnstein (Grafschaft Hohnstein), in a protective alliance of 1342."
+  },
+  {
+   "key": "deutsche Reich",
+   "action": "accept",
+   "label": "Deutsches Reich",
+   "class": "place",
+   "kind": "Reich",
+   "in_principality": false,
+   "gloss_en": "German Reich (Holy Roman Empire)",
+   "note": "In the 1348 context the Holy Roman Empire."
+  },
+  {
+   "key": "Gügel",
+   "action": "accept",
+   "label": "Gügel",
+   "class": "place",
+   "kind": "Burg",
+   "geonames": 11496485,
+   "lat": 49.95181,
+   "lon": 11.06142,
+   "in_principality": false,
+   "gloss_en": "Gügel (castle)",
+   "note": "Gügel near Scheßlitz, sold to the Bishopric of Bamberg in 1387."
+  },
+  {
+   "key": "Hassfurt",
+   "action": "accept",
+   "label": "Hassfurt",
+   "class": "place",
+   "kind": "Stadt",
+   "geonames": 2909335,
+   "lat": 50.03521,
+   "lon": 10.5156,
+   "in_principality": false,
+   "modern": "Haßfurt",
+   "gloss_en": "Haßfurt (town)"
+  },
+  {
+   "key": "Königsee",
+   "action": "accept",
+   "label": "Königsee",
+   "class": "place",
+   "kind": "Stadt",
+   "geonames": 2885895,
+   "lat": 50.66143,
+   "lon": 11.09748,
+   "in_principality": false,
+   "gloss_en": "Königsee (town)"
+  },
+  {
+   "key": "Biblack",
+   "action": "merge",
+   "into": "Bieblach"
+  },
+  {
+   "key": "Kaffenberg",
+   "action": "reclass",
+   "label": "von Kaffenberg",
+   "class": "person",
+   "kind": "Adelsfamilie",
+   "note": "\"einer von Kaffenberg 1280\": noble family, not a place reference."
+  },
+  {
+   "key": "Borna",
+   "action": "accept",
+   "label": "Borna",
+   "class": "place",
+   "kind": "Stadt",
+   "geonames": 2946172,
+   "lat": 51.12416,
+   "lon": 12.49639,
+   "in_principality": false,
+   "gloss_en": "Borna (town)"
+  },
+  {
+   "key": "Kohren",
+   "action": "accept",
+   "label": "Kohren",
+   "class": "place",
+   "kind": "Stadt",
+   "geonames": 8629529,
+   "lat": 51.01979,
+   "lon": 12.60289,
+   "in_principality": false,
+   "modern": "Kohren-Sahlis",
+   "gloss_en": "Kohren-Sahlis (town)"
+  },
+  {
+   "key": "Geithain",
+   "action": "accept",
+   "label": "Geithain",
+   "class": "place",
+   "kind": "Stadt",
+   "geonames": 2921566,
+   "lat": 51.05528,
+   "lon": 12.69674,
+   "in_principality": false,
+   "gloss_en": "Geithain (town)"
+  },
+  {
+   "key": "Heiligenkreuz",
+   "action": "accept",
+   "label": "Heiligenkreuz",
+   "class": "place",
+   "kind": "Dorf",
+   "in_principality": false,
+   "gloss_en": "Heiligenkreuz (village)",
+   "note": "Pledge together with Neundorf (1387); not identified."
+  },
+  {
+   "key": "Kostnitz",
+   "action": "accept",
+   "label": "Kostnitz",
+   "class": "place",
+   "kind": "Stadt",
+   "lat": 47.66,
+   "lon": 9.18,
+   "in_principality": false,
+   "modern": "Konstanz",
+   "gloss_en": "Konstanz (town)",
+   "note": "Council of Constance."
+  },
+  {
+   "key": "Außig",
+   "action": "merge",
+   "into": "Aussig"
+  },
+  {
+   "key": "Engelberg",
+   "action": "merge",
+   "into": "Engelsberg"
+  },
+  {
+   "key": "Brüx",
+   "action": "accept",
+   "label": "Brüx",
+   "class": "place",
+   "kind": "Stadt",
+   "lat": 50.5,
+   "lon": 13.64,
+   "in_principality": false,
+   "modern": "Most",
+   "gloss_en": "Most (town)",
+   "note": "Treaty of Brüx 1482."
+  },
+  {
+   "key": "Breitenstein",
+   "action": "accept",
+   "label": "Breitenstein",
+   "class": "place",
+   "kind": "Herrschaft",
+   "in_principality": false,
+   "gloss_en": "Breitenstein (lordship)",
+   "note": "Herrschaft Breitenstein (Lower Lusatia); identification not verified."
+  },
+  {
+   "key": "Annaberg",
+   "action": "accept",
+   "label": "Annaberg",
+   "class": "place",
+   "kind": "Stadt",
+   "geonames": 8643037,
+   "lat": 50.57864,
+   "lon": 13.00507,
+   "in_principality": false,
+   "modern": "Annaberg-Buchholz",
+   "gloss_en": "Annaberg-Buchholz (town)"
+  },
+  {
+   "key": "Anhalt-Zerbst-Bernburg",
+   "action": "accept",
+   "label": "Anhalt-Zerbst-Bernburg",
+   "class": "place",
+   "kind": "Fürstentum",
+   "in_principality": false,
+   "gloss_en": "Principality of Anhalt-Zerbst-Bernburg"
+  },
+  {
+   "key": "Glogau",
+   "action": "accept",
+   "label": "Glogau",
+   "class": "place",
+   "kind": "Herzogtum",
+   "in_principality": false,
+   "modern": "Głogów",
+   "gloss_en": "Duchy of Glogau",
+   "note": "\"herzogliches Haus Glogau\"."
+  },
+  {
+   "key": "Kunitz",
+   "action": "accept",
+   "label": "Kunitz",
+   "class": "place",
+   "kind": "Dorf",
+   "geonames": 2882486,
+   "lat": 50.95469,
+   "lon": 11.6365,
+   "in_principality": false,
+   "gloss_en": "Kunitz (village)",
+   "note": "Estates in Kunitz near Jena."
+  },
+  {
+   "key": "Bernau",
+   "action": "accept",
+   "label": "Bernau",
+   "class": "place",
+   "kind": "Stadt",
+   "in_principality": false,
+   "gloss_en": "Bernau (town)",
+   "note": "\"Hauptmann von Bernau\" (Teutonic Order period); identification not verified."
+  },
+  {
+   "key": "Gommela",
+   "action": "accept",
+   "label": "Gommela",
+   "class": "place",
+   "kind": "Dorf",
+   "in_principality": false,
+   "modern": "Gommla",
+   "gloss_en": "Gommla (village)",
+   "note": "Place near Altenburg (exchange of a mark of silver)."
+  },
+  {
+   "key": "Camburg",
+   "action": "accept",
+   "label": "Camburg",
+   "class": "place",
+   "kind": "Stadt",
+   "geonames": 2940377,
+   "lat": 51.05524,
+   "lon": 11.70967,
+   "in_principality": false,
+   "gloss_en": "Camburg (town)"
+  },
+  {
+   "key": "Cöln",
+   "action": "merge",
+   "into": "Köln"
+  },
+  {
+   "key": "Coburg",
+   "action": "accept",
+   "label": "Coburg",
+   "class": "place",
+   "kind": "Stadt",
+   "geonames": 2939951,
+   "lat": 50.25937,
+   "lon": 10.96384,
+   "in_principality": false,
+   "gloss_en": "Coburg (town)"
+  },
+  {
+   "key": "Karlsbad",
+   "action": "accept",
+   "label": "Karlsbad",
+   "class": "place",
+   "kind": "Stadt",
+   "lat": 50.23,
+   "lon": 12.87,
+   "in_principality": false,
+   "modern": "Karlovy Vary",
+   "gloss_en": "Karlovy Vary (town)"
+  },
+  {
+   "key": "Frankfurt am Main",
+   "action": "merge",
+   "into": "Frankfurt a. M"
+  },
+  {
+   "key": "Droyssig",
+   "action": "accept",
+   "label": "Droyssig",
+   "class": "place",
+   "kind": "Herrschaft",
+   "geonames": 2934835,
+   "lat": 51.04247,
+   "lon": 12.0259,
+   "in_principality": false,
+   "modern": "Droyßig",
+   "gloss_en": "Droyßig (lordship)",
+   "note": "Herrschaft of the Gräfin von Hoym, inherited by the Reuss house."
+  },
+  {
+   "key": "Grünwald",
+   "action": "accept",
+   "label": "Grünwald",
+   "class": "place",
+   "kind": "Herrschaft",
+   "in_principality": false,
+   "gloss_en": "Grünwald (lordship)",
+   "note": "Herrschaft of the Hoym inheritance; identification not verified."
+  },
+  {
+   "key": "Gumsnitz",
+   "action": "accept",
+   "label": "Gumsnitz",
+   "class": "place",
+   "kind": "Dorf",
+   "in_principality": false,
+   "gloss_en": "Gumsnitz (village)",
+   "note": "Estate of the Hoym inheritance."
+  },
+  {
+   "key": "Großhelmsdorf",
+   "action": "accept",
+   "label": "Großhelmsdorf",
+   "class": "place",
+   "kind": "Dorf",
+   "geonames": 2915524,
+   "lat": 51.0186,
+   "lon": 11.88186,
+   "in_principality": false,
+   "gloss_en": "Großhelmsdorf (village)",
+   "note": "Estate of the Hoym inheritance."
+  },
+  {
+   "key": "Fürstenthume Reuß ä. L",
+   "action": "merge",
+   "into": "Fürstenthum Reuß ä. L"
+  },
+  {
+   "key": "Hessen-Homburg",
+   "action": "accept",
+   "label": "Hessen-Homburg",
+   "class": "place",
+   "kind": "Landgrafschaft",
+   "in_principality": false,
+   "gloss_en": "Hesse-Homburg (landgraviate)"
+  },
+  {
+   "key": "Hirſchberg",
+   "action": "merge",
+   "into": "Hirschberg"
+  },
+  {
+   "key": "Droysig",
+   "action": "merge",
+   "into": "Droyssig"
+  },
+  {
+   "key": "Klipphausen",
+   "action": "accept",
+   "label": "Klipphausen",
+   "class": "place",
+   "kind": "Dorf",
+   "geonames": 2887645,
+   "lat": 51.06841,
+   "lon": 13.51374,
+   "in_principality": false,
+   "gloss_en": "Klipphausen (village)"
+  },
+  {
+   "key": "Charleroi",
+   "action": "accept",
+   "label": "Charleroi",
+   "class": "place",
+   "kind": "Stadt",
+   "lat": 50.41,
+   "lon": 4.44,
+   "in_principality": false,
+   "gloss_en": "Charleroi (town)",
+   "note": "Duel in which Heinrich I. was killed (1666)."
+  },
+  {
+   "key": "Bethenhauſen",
+   "action": "merge",
+   "into": "Bethenhausen"
+  },
+  {
+   "key": "Caaſchwitz",
+   "action": "merge",
+   "into": "Caaschwitz"
+  },
+  {
+   "key": "Debſchwitz",
+   "action": "merge",
+   "into": "Debschwitz"
+  },
+  {
+   "key": "Ernſee",
+   "action": "merge",
+   "into": "Ernsee"
+  },
+  {
+   "key": "Gorlitzſch",
+   "action": "merge",
+   "into": "Gorlitzsch"
+  },
+  {
+   "key": "Groitzſchen",
+   "action": "merge",
+   "into": "Groitschen"
+  },
+  {
+   "key": "Kleinſaara",
+   "action": "merge",
+   "into": "Kleinsaara"
+  },
+  {
+   "key": "Kretzſchwitz",
+   "action": "merge",
+   "into": "Kretzschwitz"
+  },
+  {
+   "key": "Harppersdorf",
+   "action": "merge",
+   "into": "Harpersdorf"
+  },
+  {
+   "key": "Frankenstein",
+   "action": "accept",
+   "label": "Frankenstein",
+   "class": "place",
+   "kind": "Burg",
+   "in_principality": false,
+   "gloss_en": "Frankenstein (castle)",
+   "note": "Veste Frankenstein in a purchase settlement; identification not verified."
+  },
+  {
+   "key": "Erdmuthsgrün",
+   "action": "merge",
+   "into": "Karolinengrün"
+  },
+  {
+   "key": "Könitz",
+   "action": "accept",
+   "label": "Könitz",
+   "class": "place",
+   "kind": "Dorf",
+   "geonames": 2885723,
+   "lat": 50.64979,
+   "lon": 11.48809,
+   "in_principality": false,
+   "gloss_en": "Könitz (village)",
+   "note": "Watchtower of the same type as Oberkranichfeld and Weida (Schwarzburg territory)."
+  },
+  {
+   "key": "geraer Gegend",
+   "action": "merge",
+   "into": "Gera"
+  },
+  {
+   "key": "Aue",
+   "action": "accept",
+   "label": "Aue",
+   "class": "place",
+   "kind": "Ortsteil",
+   "in_principality": true,
+   "gloss_en": "Aue (locality)",
+   "note": "Part of Untermhaus (with Gries, neue Straße, Reitsteg, Bach)."
+  },
+  {
+   "key": "Kuba",
+   "action": "merge",
+   "into": "Cuba"
+  },
+  {
+   "key": "Enzian",
+   "action": "accept",
+   "label": "Enzian",
+   "class": "place",
+   "kind": "Haus",
+   "in_principality": true,
+   "gloss_en": "Enzian (house)",
+   "note": "Bath house (\"Heilbad im Enzian\") in Gera."
+  },
+  {
+   "key": "Kleinleipzig",
+   "action": "merge",
+   "into": "Gera"
+  },
+  {
+   "key": "Brotusko",
+   "action": "merge",
+   "into": "Gera"
+  },
+  {
+   "key": "Goiska",
+   "action": "merge",
+   "into": "Gera"
+  },
+  {
+   "key": "Bosau",
+   "action": "reclass",
+   "label": "Kloster Bosau",
+   "class": "organisation",
+   "kind": "Kloster",
+   "gloss_en": "Bosau Abbey",
+   "note": "\"Abt zu Bosau\", Kloster Bosau near Zeitz (donation of villages 1115)."
+  },
+  {
+   "key": "Dornik",
+   "action": "accept",
+   "label": "Dornik",
+   "class": "place",
+   "kind": "Stadt",
+   "lat": 50.61,
+   "lon": 3.39,
+   "in_principality": false,
+   "modern": "Doornik (Tournai)",
+   "gloss_en": "Doornik (Tournai) (town)",
+   "note": "Birthplace of the merchant Nicolas de Smit (Flanders)."
+  },
+  {
+   "key": "Flandern",
+   "action": "accept",
+   "label": "Flandern",
+   "class": "place",
+   "kind": "Region",
+   "in_principality": false,
+   "gloss_en": "Flanders (region)"
+  },
+  {
+   "key": "geraer Stadtwalde",
+   "action": "reclass",
+   "label": "Geraer Stadtwald",
+   "class": "nature",
+   "kind": "Wald",
+   "gloss_en": "Gera town forest"
+  },
+  {
+   "key": "Faule Pfütze",
+   "action": "accept",
+   "label": "Faule Pfütze",
+   "class": "place",
+   "kind": "Flur",
+   "in_principality": true,
+   "gloss_en": "Faule Pfütze (field area)",
+   "note": "Field name (Hauptflurstück)."
+  },
+  {
+   "key": "Krimel",
+   "action": "accept",
+   "label": "Krimel",
+   "class": "place",
+   "kind": "Flur",
+   "in_principality": true,
+   "gloss_en": "Krimel (field area)",
+   "note": "Wood strip/field name in the Gera district."
+  },
+  {
+   "key": "Heidelberg",
+   "action": "accept",
+   "label": "Heidelberg",
+   "class": "place",
+   "kind": "Flur",
+   "in_principality": true,
+   "gloss_en": "Heidelberg (field area)",
+   "note": "Field name (Hauptflurstück) in the Gera district; not the university town."
+  },
+  {
+   "key": "Großbocka",
+   "action": "accept",
+   "label": "Großbocka",
+   "class": "place",
+   "kind": "Dorf",
+   "geonames": 2916955,
+   "lat": 50.82035,
+   "lon": 11.97018,
+   "in_principality": false,
+   "gloss_en": "Großbocka (village)",
+   "note": "Weimar territory (Großbocka), between Markersdorf and Großbocka."
+  },
+  {
+   "key": "Gangeln dorf",
+   "action": "merge",
+   "into": "St. Gangloff"
+  },
+  {
+   "key": "Klein-Serichen",
+   "action": "merge",
+   "into": "Kleinsaara"
+  },
+  {
+   "key": "Kleinsara",
+   "action": "merge",
+   "into": "Kleinsaara"
+  },
+  {
+   "key": "Groß- und Kleinsaara",
+   "action": "merge",
+   "into": "Großsaara"
+  },
+  {
+   "key": "Geisingen",
+   "action": "merge",
+   "into": "Geißen"
+  },
+  {
+   "key": "Geussingen",
+   "action": "merge",
+   "into": "Geißen"
+  },
+  {
+   "key": "Geussen",
+   "action": "merge",
+   "into": "Geißen"
+  },
+  {
+   "key": "Gessen",
+   "action": "accept",
+   "label": "Gessen",
+   "class": "place",
+   "kind": "Dorf",
+   "geonames": 2920820,
+   "lat": 50.85,
+   "lon": 12.15,
+   "in_principality": false,
+   "gloss_en": "Gessen (village)",
+   "note": "Gessen in the Ronneburg district (Saxe-Altenburg), compared with Geißen."
+  },
+  {
+   "key": "Grobstorf",
+   "action": "merge",
+   "into": "Langengrobsdorf"
+  },
+  {
+   "key": "Kesselthal",
+   "action": "reclass",
+   "label": "Kesselthal",
+   "class": "nature",
+   "kind": "Tal",
+   "gloss_en": "Kesselthal (valley)",
+   "note": "Valley where the wild host appears (legend), Landrathsbezirk Gera."
+  },
+  {
+   "key": "Hölzchen",
+   "action": "accept",
+   "label": "Hölzchen",
+   "class": "place",
+   "kind": "Flur",
+   "in_principality": true,
+   "gloss_en": "Hölzchen (field area)",
+   "note": "Field name (Hauptflurstück)."
+  },
+  {
+   "key": "Kirschgraben",
+   "action": "accept",
+   "label": "Kirschgraben",
+   "class": "place",
+   "kind": "Flur",
+   "in_principality": true,
+   "gloss_en": "Kirschgraben (field area)",
+   "note": "Field name (Hauptflurstück)."
+  },
+  {
+   "key": "Katzenhügel",
+   "action": "accept",
+   "label": "Katzenhügel",
+   "class": "place",
+   "kind": "Flur",
+   "in_principality": true,
+   "gloss_en": "Katzenhügel (field area)",
+   "note": "Field name (Hauptflurstück)."
+  },
+  {
+   "key": "Bornfluß",
+   "action": "accept",
+   "label": "Bornfluß",
+   "class": "place",
+   "kind": "Flur",
+   "in_principality": true,
+   "gloss_en": "Bornfluß (field area)",
+   "note": "Field name (Hauptflurstück)."
+  },
+  {
+   "key": "Bornberg",
+   "action": "accept",
+   "label": "Bornberg",
+   "class": "place",
+   "kind": "Flur",
+   "in_principality": true,
+   "gloss_en": "Bornberg (field area)",
+   "note": "Field name (Hauptflurstück)."
+  },
+  {
+   "key": "Brand",
+   "action": "accept",
+   "label": "Brand",
+   "class": "place",
+   "kind": "Flur",
+   "in_principality": true,
+   "gloss_en": "Brand (field area)",
+   "note": "Field name (Hauptflurstück)."
+  },
+  {
+   "key": "Engelsgraben",
+   "action": "accept",
+   "label": "Engelsgraben",
+   "class": "place",
+   "kind": "Flur",
+   "in_principality": true,
+   "gloss_en": "Engelsgraben (field area)",
+   "note": "Field name (Hauptflurstück)."
+  },
+  {
+   "key": "Coffe",
+   "action": "accept",
+   "label": "Cosse",
+   "class": "place",
+   "kind": "Flur",
+   "in_principality": true,
+   "gloss_en": "Cosse (field area)",
+   "note": "Field name; probably Cosse (long s read as f), cf. the Wüstung Cosse (p. 482)."
+  },
+  {
+   "key": "Herzogthum Altenburg",
+   "action": "merge",
+   "into": "Herzogthum S.-Altenburg"
+  },
+  {
+   "key": "Harprechtsdorf",
+   "action": "merge",
+   "into": "Harpersdorf"
+  },
+  {
+   "key": "Deginstete",
+   "action": "merge",
+   "into": "Desse"
+  },
+  {
+   "key": "Dessau",
+   "action": "merge",
+   "into": "Desse"
+  },
+  {
+   "key": "Grunau",
+   "action": "merge",
+   "into": "Grüna"
+  },
+  {
+   "key": "Dervellio",
+   "action": "accept",
+   "label": "Dervellio",
+   "class": "place",
+   "kind": "Burg",
+   "in_principality": false,
+   "gloss_en": "Dervellio (castle)",
+   "note": "Slavic stronghold where Charlemagne defeated the Slavs in 805; Eckart identified it with Dürrenberg near Köstritz (not secured)."
+  },
+  {
+   "key": "Futtergasse",
+   "action": "accept",
+   "label": "Futtergasse",
+   "class": "place",
+   "kind": "Straße",
+   "in_principality": true,
+   "gloss_en": "Futtergasse (street)",
+   "note": "Street in Köstritz."
+  },
+  {
+   "key": "Eisenberger= und Wassergasse",
+   "action": "accept",
+   "label": "Eisenberger Gasse und Wassergasse",
+   "class": "place",
+   "kind": "Straße",
+   "in_principality": true,
+   "gloss_en": "Eisenberger Gasse und Wassergasse (street)",
+   "note": "Two streets of Köstritz named together."
+  },
+  {
+   "key": "Brühl",
+   "action": "accept",
+   "label": "Brühl",
+   "class": "place",
+   "kind": "Ortsteil",
+   "in_principality": true,
+   "gloss_en": "Brühl (locality)",
+   "note": "Named quarter of Köstritz."
+  },
+  {
+   "key": "Ernstbrunn",
+   "action": "accept",
+   "label": "Ernstbrunn",
+   "class": "place",
+   "kind": "Dorf",
+   "lat": 48.54,
+   "lon": 16.35,
+   "in_principality": false,
+   "gloss_en": "Ernstbrunn (village)",
+   "note": "Inherited estate of a Reuss-Köstritz prince near Vienna (Lower Austria)."
+  },
+  {
+   "key": "Köstitz",
+   "action": "accept",
+   "label": "Köstitz",
+   "class": "place",
+   "kind": "Dorf",
+   "geonames": 12495110,
+   "lat": 50.70498,
+   "lon": 11.61333,
+   "in_principality": false,
+   "gloss_en": "Köstitz (village)",
+   "note": "Köstitz in the Weimar Neustadt district, compared with Köstritz."
+  },
+  {
+   "key": "Altbenatka",
+   "action": "accept",
+   "label": "Altbenatka",
+   "class": "place",
+   "kind": "Stadt",
+   "in_principality": false,
+   "modern": "Staré Benátky",
+   "gloss_en": "Staré Benátky (town)",
+   "note": "Birthplace of the composer G. Benda (Bohemia)."
+  },
+  {
+   "key": "Etzdorf",
+   "action": "accept",
+   "label": "Etzdorf",
+   "class": "place",
+   "kind": "Wüstung",
+   "in_principality": false,
+   "register_page": "499",
+   "gloss_en": "Etzdorf (deserted settlement)",
+   "note": "Wüstung Etzdorf (1364 Metzelsdorf, Etzelsdorf), register spelling Ezdorf, near Köstritz."
+  },
+  {
+   "key": "Eschewinsdorf",
+   "action": "accept",
+   "label": "Eschwinsdorf",
+   "class": "place",
+   "kind": "Wüstung",
+   "in_principality": false,
+   "register_page": "499",
+   "gloss_en": "Eschwinsdorf (deserted settlement)",
+   "note": "Wüstung near Köstritz, still extant in 1364 (Pflege Langenberg); register: Eschwinsdorf."
+  },
+  {
+   "key": "Gline",
+   "action": "merge",
+   "into": "Gleina"
+  },
+  {
+   "key": "Gleine",
+   "action": "merge",
+   "into": "Gleina"
+  },
+  {
+   "key": "Czwokow",
+   "action": "merge",
+   "into": "Zwickau"
+  },
+  {
+   "key": "Gau Zwickau",
+   "action": "accept",
+   "label": "Gau Zwickau",
+   "class": "place",
+   "kind": "Region",
+   "in_principality": false,
+   "gloss_en": "Gau Zwickau (early medieval district)"
+  },
+  {
+   "key": "Crossen",
+   "action": "accept",
+   "label": "Crossen",
+   "class": "place",
+   "kind": "Dorf",
+   "geonames": 2939722,
+   "lat": 50.75967,
+   "lon": 12.49005,
+   "in_principality": false,
+   "gloss_en": "Crossen (village)",
+   "note": "Destination of brick sales (Crossen near Zwickau, Saxony); identification not verified."
+  },
+  {
+   "key": "Coarwiz",
+   "action": "accept",
+   "label": "Coarwiz",
+   "class": "place",
+   "kind": "Dorf",
+   "in_principality": false,
+   "gloss_en": "Coarwiz (village)",
+   "note": "Village given to Kloster Bosau in 1115; identification uncertain."
+  },
+  {
+   "key": "Beyersdorf",
+   "action": "accept",
+   "label": "Beyersdorf",
+   "class": "place",
+   "kind": "Wüstung",
+   "in_principality": true,
+   "gloss_en": "Beyersdorf (deserted settlement)",
+   "note": "In the list of villages of the former Langenberg parish; apparently a Wüstung (no article in the register)."
+  },
+  {
+   "key": "Grötsch",
+   "action": "accept",
+   "label": "Grötsch",
+   "class": "place",
+   "kind": "Gehöft",
+   "in_principality": true,
+   "gloss_en": "Grötsch (farmstead)",
+   "note": "House/farm-site name (Hofstätten of Grötsch, Krell and Schöppe) on the site of an old estate."
+  },
+  {
+   "key": "Krell",
+   "action": "accept",
+   "label": "Krell",
+   "class": "place",
+   "kind": "Gehöft",
+   "in_principality": true,
+   "gloss_en": "Krell (farmstead)",
+   "note": "House/farm-site name (Hofstätten of Grötsch, Krell and Schöppe) on the site of an old estate."
+  },
+  {
+   "key": "Eitra",
+   "action": "accept",
+   "label": "Eitra",
+   "class": "place",
+   "kind": "Rittergut",
+   "geonames": 2928237,
+   "lat": 51.23046,
+   "lon": 12.29497,
+   "in_principality": false,
+   "modern": "Eythra",
+   "gloss_en": "Eythra (manor)",
+   "note": "\"aus dem Hause Eitra bei Leipzig\"."
+  },
+  {
+   "key": "Agow",
+   "action": "merge",
+   "into": "Kleinaga"
+  },
+  {
+   "key": "Kleinagaw",
+   "action": "merge",
+   "into": "Kleinaga"
+  },
+  {
+   "key": "Agaw",
+   "action": "merge",
+   "into": "Kleinaga"
+  },
+  {
+   "key": "Froschwede",
+   "action": "merge",
+   "into": "Froschweide"
+  },
+  {
+   "key": "Kreuzberg",
+   "action": "accept",
+   "label": "Kreuzberg",
+   "class": "place",
+   "kind": "Flur",
+   "in_principality": true,
+   "gloss_en": "Kreuzberg (field area)",
+   "note": "Field name (Hauptflurstück)."
+  },
+  {
+   "key": "Himmelreich",
+   "action": "accept",
+   "label": "Himmelreich",
+   "class": "place",
+   "kind": "Flur",
+   "in_principality": true,
+   "gloss_en": "Himmelreich (field area)",
+   "note": "Field name (Hauptflurstück); many places of this name in Germany."
+  },
+  {
+   "key": "Heyckenwalde",
+   "action": "merge",
+   "into": "Heukewalde"
+  },
+  {
+   "key": "Blankenhain",
+   "action": "accept",
+   "label": "Blankenhain",
+   "class": "place",
+   "kind": "Stadt",
+   "geonames": 2948058,
+   "lat": 50.85993,
+   "lon": 11.3439,
+   "in_principality": false,
+   "gloss_en": "Blankenhain (town)",
+   "note": "Weimar Amt Blankenhain (Söllnitz and Kretschwitz context)."
+  },
+  {
+   "key": "Grossenstein",
+   "action": "merge",
+   "into": "Großenstein"
+  },
+  {
+   "key": "Kazin",
+   "action": "merge",
+   "into": "Caasen"
+  },
+  {
+   "key": "Groitzsch",
+   "action": "accept",
+   "label": "Groitzsch",
+   "class": "place",
+   "kind": "Stadt",
+   "geonames": 2917170,
+   "lat": 51.15536,
+   "lon": 12.28279,
+   "in_principality": false,
+   "gloss_en": "Groitzsch (town)",
+   "note": "Groitzsch (vulgo Greetsch) near Pegau; not Groitschen near Köstritz."
+  },
+  {
+   "key": "Greetsch",
+   "action": "merge",
+   "into": "Groitzsch"
+  },
+  {
+   "key": "Caaßen",
+   "action": "merge",
+   "into": "Caasen"
+  },
+  {
+   "key": "Bauschke",
+   "action": "merge",
+   "into": "Bauska"
+  },
+  {
+   "key": "Bertheln",
+   "action": "merge",
+   "into": "Werteln"
+  },
+  {
+   "key": "Bertholden",
+   "action": "merge",
+   "into": "Werteln"
+  },
+  {
+   "key": "Bethlehem",
+   "action": "merge",
+   "into": "Werteln"
+  },
+  {
+   "key": "Gumlitz",
+   "action": "accept",
+   "label": "Gumlitz",
+   "class": "place",
+   "kind": "Flur",
+   "in_principality": true,
+   "gloss_en": "Gumlitz (field area)",
+   "note": "Field name (Hauptflurstück) in the Laasen Flur."
+  },
+  {
+   "key": "Gößnitz",
+   "action": "accept",
+   "label": "Gößnitz",
+   "class": "place",
+   "kind": "Stadt",
+   "geonames": 2918770,
+   "lat": 50.88902,
+   "lon": 12.43292,
+   "in_principality": false,
+   "gloss_en": "Gößnitz (town)",
+   "note": "Terminus of the Gera-Gößnitz railway (Saxe-Altenburg)."
+  },
+  {
+   "key": "Collisgrund",
+   "action": "reclass",
+   "label": "Collisgrund",
+   "class": "nature",
+   "kind": "Tal",
+   "gloss_en": "Collisgrund (valley)",
+   "note": "Valley at Collis with a mill."
+  },
+  {
+   "key": "Bolen",
+   "action": "merge",
+   "into": "Pohlen"
+  },
+  {
+   "key": "Balcke",
+   "action": "accept",
+   "label": "Balcke",
+   "class": "place",
+   "kind": "Dorf",
+   "in_principality": false,
+   "gloss_en": "Balcke (village)",
+   "note": "In a 1308 charter beside Pohlen (interest for Kloster Cronschwitz); not identified."
+  },
+  {
+   "key": "Kleinfalkau",
+   "action": "merge",
+   "into": "Kleinfalke"
+  },
+  {
+   "key": "Kleinfalken",
+   "action": "merge",
+   "into": "Kleinfalke"
+  },
+  {
+   "key": "Falkenau",
+   "action": "merge",
+   "into": "Falke"
+  },
+  {
+   "key": "Endschütz",
+   "action": "accept",
+   "label": "Endschütz",
+   "class": "place",
+   "kind": "Dorf",
+   "geonames": 2930361,
+   "lat": 50.78695,
+   "lon": 12.13631,
+   "in_principality": false,
+   "gloss_en": "Endschütz (village)",
+   "note": "Vicarie of the Veitsberg parish (Weida area)."
+  },
+  {
+   "key": "Hilbersdorf",
+   "action": "accept",
+   "label": "Hilbersdorf",
+   "class": "place",
+   "kind": "Dorf",
+   "geonames": 2904817,
+   "lat": 50.81667,
+   "lon": 12.15,
+   "in_principality": false,
+   "gloss_en": "Hilbersdorf (village)",
+   "note": "Place near Gera on the Altenburg side."
+  },
+  {
+   "key": "Gießen",
+   "action": "accept",
+   "label": "Gießen",
+   "class": "place",
+   "kind": "Stadt",
+   "lat": 50.58,
+   "lon": 8.68,
+   "in_principality": false,
+   "gloss_en": "Gießen (town)",
+   "note": "Cited for the comparison of geographical latitude (Gera, Gießen, Meiningen, Oppeln)."
+  },
+  {
+   "key": "Kirchplatz",
+   "action": "accept",
+   "label": "Kirchplatz",
+   "class": "place",
+   "kind": "Platz",
+   "in_principality": true,
+   "gloss_en": "Kirchplatz (square)",
+   "note": "Square in Schleiz (oberer Kirchplatz)."
+  },
+  {
+   "key": "Altstadt",
+   "action": "accept",
+   "label": "Altstadt",
+   "class": "place",
+   "kind": "Stadtteil",
+   "in_principality": true,
+   "gloss_en": "Altstadt (town quarter)",
+   "note": "Altstadt of Schleiz (with Heinrichsstadt); various other places of this name."
+  },
+  {
+   "key": "Dytherichestorf",
+   "action": "merge",
+   "into": "Dytherichesdorf"
+  },
+  {
+   "key": "Altschleiz",
+   "action": "merge",
+   "into": "Altstadt"
+  },
+  {
+   "key": "Heinrichsmarkt",
+   "action": "accept",
+   "label": "Heinrichsmarkt",
+   "class": "place",
+   "kind": "Platz",
+   "in_principality": true,
+   "gloss_en": "Heinrichsmarkt (square)",
+   "note": "Market square in the Heinrichsstadt (Schleiz); pottery market."
+  },
+  {
+   "key": "Heinrichsbusch",
+   "action": "reclass",
+   "label": "Heinrichsbusch",
+   "class": "nature",
+   "kind": "Berg",
+   "gloss_en": "Heinrichsbusch (hill, also Schweinsberg)",
+   "note": "Wooded hill near Schleiz with the Schießhaus, also called Schweinsberg."
+  },
+  {
+   "key": "Dytherichesdorf",
+   "action": "accept",
+   "label": "Wüstdittersdorf",
+   "class": "place",
+   "kind": "Wüstung",
+   "in_principality": true,
+   "register_page": "593",
+   "gloss_en": "Wüstdittersdorf (deserted settlement)",
+   "note": "Wüstung Dittersdorf near Schleiz (urkundlich 1232 Dytherichesdorf, \"Trilloch\"); not the Gemeinde Dittersdorf (p. 614)."
+  },
+  {
+   "key": "Bemisdorf",
+   "action": "merge",
+   "into": "Böhmsdorf"
+  },
+  {
+   "key": "Bemsdorf",
+   "action": "merge",
+   "into": "Böhmsdorf"
+  },
+  {
+   "key": "Behemsdorf",
+   "action": "merge",
+   "into": "Böhmsdorf"
+  },
+  {
+   "key": "Behemestorff",
+   "action": "merge",
+   "into": "Böhmsdorf"
+  },
+  {
+   "key": "Behmerstorff",
+   "action": "merge",
+   "into": "Böhmsdorf"
+  },
+  {
+   "key": "Dettirsdorf",
+   "action": "merge",
+   "into": "Oettersdorf"
+  },
+  {
+   "key": "Dettistorf",
+   "action": "merge",
+   "into": "Oettersdorf"
+  },
+  {
+   "key": "Erbach",
+   "action": "reclass",
+   "label": "Grafen von Erbach",
+   "class": "person",
+   "kind": "Adelsfamilie",
+   "note": "\"geb. Gräfin v. Erbach\": noble family, not a place reference."
+  },
+  {
+   "key": "Kirchbergs",
+   "action": "merge",
+   "into": "Kirchberg"
+  },
+  {
+   "key": "Burkartsdorf",
+   "action": "merge",
+   "into": "Burkersdorf"
+  },
+  {
+   "key": "Burchartsdorf",
+   "action": "merge",
+   "into": "Burkersdorf"
+  },
+  {
+   "key": "Borkersdorf",
+   "action": "merge",
+   "into": "Burkersdorf"
+  },
+  {
+   "key": "Berkersdorf",
+   "action": "merge",
+   "into": "Burkersdorf"
+  },
+  {
+   "key": "Birkenbühl",
+   "action": "accept",
+   "label": "Birkenbühl",
+   "class": "place",
+   "kind": "Flur",
+   "in_principality": true,
+   "gloss_en": "Birkenbühl (field area)",
+   "note": "Field name (Hauptflurstück)."
+  },
+  {
+   "key": "Gähholz",
+   "action": "accept",
+   "label": "Gähholz",
+   "class": "place",
+   "kind": "Flur",
+   "in_principality": true,
+   "gloss_en": "Gähholz (field area)",
+   "note": "Field name (Hauptflurstück)."
+  },
+  {
+   "key": "Burkhardshübel",
+   "action": "accept",
+   "label": "Burkhardshübel",
+   "class": "place",
+   "kind": "Flur",
+   "in_principality": true,
+   "gloss_en": "Burkhardshübel (field area)",
+   "note": "Field name (Hauptflurstück)."
+  },
+  {
+   "key": "Goldbach",
+   "action": "accept",
+   "label": "Goldbach",
+   "class": "place",
+   "kind": "Flur",
+   "in_principality": true,
+   "gloss_en": "Goldbach (field area)",
+   "note": "Field name (Hauptflurstück)."
+  },
+  {
+   "key": "Erlich",
+   "action": "accept",
+   "label": "Erlich",
+   "class": "place",
+   "kind": "Flur",
+   "in_principality": true,
+   "gloss_en": "Erlich (field area)",
+   "note": "Field name (Hauptflurstück)."
+  },
+  {
+   "key": "Köthenwald",
+   "action": "reclass",
+   "label": "Köthenwald",
+   "class": "nature",
+   "kind": "Wald",
+   "gloss_en": "Köthenwald (forest)",
+   "note": "Princely forest at Weckersdorf (caterpillar plague 1794), Köthen forest."
+  },
+  {
+   "key": "Gut Grün",
+   "action": "merge",
+   "into": "Niedergrün"
+  },
+  {
+   "key": "Kanis",
+   "action": "accept",
+   "label": "Kanis",
+   "class": "place",
+   "kind": "Dorf",
+   "in_principality": false,
+   "gloss_en": "Kanis (village)",
+   "note": "Pfortenschmiede near Kanis (Weida area); not identified."
+  },
+  {
+   "key": "Herrngasse",
+   "action": "merge",
+   "into": "Herrengasse"
+  },
+  {
+   "key": "Hochleuben",
+   "action": "merge",
+   "into": "Hohenleuben"
+  },
+  {
+   "key": "Bruckla",
+   "action": "merge",
+   "into": "Brückla"
+  },
+  {
+   "key": "Heinsbrück",
+   "action": "accept",
+   "label": "Heinsbrück",
+   "class": "place",
+   "kind": "Dorf",
+   "in_principality": false,
+   "gloss_en": "Heinsbrück (village)",
+   "note": "Village in the 1533 list of villages parished to Hohenleuben; not identified."
+  },
+  {
+   "key": "Hainreute",
+   "action": "accept",
+   "label": "Hainreute",
+   "class": "place",
+   "kind": "Flur",
+   "in_principality": true,
+   "gloss_en": "Hainreute (field area)",
+   "note": "Field name at Hohenleuben (meadow)."
+  },
+  {
+   "key": "Bonn",
+   "action": "accept",
+   "label": "Bonn",
+   "class": "place",
+   "kind": "Stadt",
+   "lat": 50.73,
+   "lon": 7.1,
+   "in_principality": false,
+   "gloss_en": "Bonn (town)"
+  },
+  {
+   "key": "Hegeholz",
+   "action": "accept",
+   "label": "Hegeholz",
+   "class": "place",
+   "kind": "Flur",
+   "in_principality": true,
+   "gloss_en": "Hegeholz (field area)",
+   "note": "Field name (Hauptflurstück) in the Hohenleuben Flur."
+  },
+  {
+   "key": "Kienberg",
+   "action": "accept",
+   "label": "Kienberg",
+   "class": "place",
+   "kind": "Flur",
+   "in_principality": true,
+   "gloss_en": "Kienberg (field area)",
+   "note": "Field name (Hauptflurstück); several hills of this name."
+  },
+  {
+   "key": "Amselberg",
+   "action": "accept",
+   "label": "Amselberg",
+   "class": "place",
+   "kind": "Flur",
+   "in_principality": true,
+   "gloss_en": "Amselberg (field area)",
+   "note": "Field name (Hauptflurstück) in the Hohenleuben Flur."
+  },
+  {
+   "key": "Birkenfeld",
+   "action": "accept",
+   "label": "Birkenfeld",
+   "class": "place",
+   "kind": "Flur",
+   "in_principality": true,
+   "gloss_en": "Birkenfeld (field area)",
+   "note": "Field name (Hauptflurstück) in the Hohenleuben Flur; not Birkenfeld in Franconia."
+  },
+  {
+   "key": "Götendorf",
+   "action": "merge",
+   "into": "Göttendorf"
+  },
+  {
+   "key": "Herrnhügel",
+   "action": "accept",
+   "label": "Herrnhügel",
+   "class": "place",
+   "kind": "Flur",
+   "in_principality": true,
+   "gloss_en": "Herrnhügel (field area)",
+   "note": "Field name (Hauptflurstück)."
+  },
+  {
+   "key": "Kirchhügel",
+   "action": "accept",
+   "label": "Kirchhügel",
+   "class": "place",
+   "kind": "Flur",
+   "in_principality": true,
+   "gloss_en": "Kirchhügel (field area)",
+   "note": "Field name (Hauptflurstück)."
+  },
+  {
+   "key": "Dörtendorf",
+   "action": "accept",
+   "label": "Dörtendorf",
+   "class": "place",
+   "kind": "Dorf",
+   "geonames": 2935521,
+   "lat": 50.70285,
+   "lon": 12.01722,
+   "in_principality": false,
+   "gloss_en": "Dörtendorf (village)",
+   "note": "Village near Zeulenroda (birthplace of a sorcerer named Kresse)."
+  },
+  {
+   "key": "Götzendorf",
+   "action": "merge",
+   "into": "Göttendorf"
+  },
+  {
+   "key": "Gera-Untermhaus",
+   "action": "accept",
+   "label": "Gera-Untermhaus",
+   "class": "place",
+   "kind": "Amt",
+   "in_principality": true,
+   "gloss_en": "Gera-Untermhaus (administrative district)",
+   "note": "Former Amt of Gera-Untermhaus, later joined to Hohenleuben."
+  },
+  {
+   "key": "Gera-Schleiz",
+   "action": "merge",
+   "into": "Gera-Schleiz-Lobenstein"
+  },
+  {
+   "key": "Kleinwolschindorf",
+   "action": "merge",
+   "into": "Kleinwolschendorf"
+  },
+  {
+   "key": "Kleinwolfersdorf",
+   "action": "merge",
+   "into": "Kleinwolschendorf"
+  },
+  {
+   "key": "greizer",
+   "action": "merge",
+   "into": "Fürstenthum Reuß ä. L"
+  },
+  {
+   "key": "Avignon",
+   "action": "accept",
+   "label": "Avignon",
+   "class": "place",
+   "kind": "Stadt",
+   "lat": 43.95,
+   "lon": 4.81,
+   "in_principality": false,
+   "gloss_en": "Avignon (town)",
+   "note": "Indulgence issued at Avignon in 1320."
+  },
+  {
+   "key": "gräfenwarther Reviers",
+   "action": "merge",
+   "into": "gräfenwarther Forste"
+  },
+  {
+   "key": "Breslau",
+   "action": "accept",
+   "label": "Breslau",
+   "class": "place",
+   "kind": "Stadt",
+   "lat": 51.11,
+   "lon": 17.03,
+   "in_principality": false,
+   "modern": "Wrocław",
+   "gloss_en": "Wrocław (town)"
+  },
+  {
+   "key": "Kulmberg",
+   "action": "reclass",
+   "label": "Kulmberg",
+   "class": "nature",
+   "kind": "Wald",
+   "geonames": 2882585,
+   "lat": 50.51168,
+   "lon": 11.74051,
+   "gloss_en": "Kulmberg (wood)",
+   "note": "Forest of the Gemeinde Kulm near Saalburg."
+  },
+  {
+   "key": "Kemptendorf",
+   "action": "accept",
+   "label": "Kemptendorf",
+   "class": "place",
+   "kind": "Dorf",
+   "in_principality": false,
+   "gloss_en": "Kemptendorf (village)",
+   "note": "Parish to which a monk of the Saalburg convent was transferred after the Reformation; not identified."
+  },
+  {
+   "key": "Jägera",
+   "action": "accept",
+   "label": "Jägera",
+   "class": "place",
+   "kind": "Flur",
+   "in_principality": true,
+   "gloss_en": "Jägera (field area)",
+   "note": "Meadow parcel (Wiesengrundstück) in the Saalburg/Tanna area (also Schindlera, Grimera, Schrollera, Modera)."
+  },
+  {
+   "key": "Dürrenthal",
+   "action": "accept",
+   "label": "Dürrenthal",
+   "class": "place",
+   "kind": "Flur",
+   "in_principality": true,
+   "gloss_en": "Dürrenthal (field area)",
+   "note": "Meadow parcel in the Saalburg/Tanna area."
+  },
+  {
+   "key": "Grimera",
+   "action": "accept",
+   "label": "Grimera",
+   "class": "place",
+   "kind": "Flur",
+   "in_principality": true,
+   "gloss_en": "Grimera (field area)",
+   "note": "Meadow parcel in the Saalburg/Tanna area."
+  },
+  {
+   "key": "Brendlerau",
+   "action": "accept",
+   "label": "Brendlerau",
+   "class": "place",
+   "kind": "Flur",
+   "in_principality": true,
+   "gloss_en": "Brendlerau (field area)",
+   "note": "Meadow parcel in the Saalburg/Tanna area."
+  },
+  {
+   "key": "Ilefeld",
+   "action": "accept",
+   "label": "Ilefeld",
+   "class": "place",
+   "kind": "Dorf",
+   "lat": 51.57,
+   "lon": 10.83,
+   "in_principality": false,
+   "modern": "Ilfeld",
+   "gloss_en": "Ilfeld (village)",
+   "note": "Klosterschule Ilfeld in the Harz."
+  },
+  {
+   "key": "Christianenthal",
+   "action": "accept",
+   "label": "Christianenthal",
+   "class": "place",
+   "kind": "Hammer",
+   "in_principality": true,
+   "gloss_en": "Christianenthal (ironworks)",
+   "note": "Iron hammer in the Wetterathal founded 1763, also Christiansthal or Sophienthal; no longer extant."
+  },
+  {
+   "key": "Christiansthal",
+   "action": "merge",
+   "into": "Christianenthal"
+  },
+  {
+   "key": "Culme",
+   "action": "merge",
+   "into": "Kulm"
+  },
+  {
+   "key": "Kolm",
+   "action": "merge",
+   "into": "Kulm"
+  },
+  {
+   "key": "Havelberger",
+   "action": "reject",
+   "reason": "adjective in \"Havelberger Bischof\" (title of a bishop), not a place reference"
+  },
+  {
+   "key": "Bernstorff",
+   "action": "merge",
+   "into": "Wernsdorf"
+  },
+  {
+   "key": "Herrschaft Saalburg",
+   "action": "accept",
+   "label": "Herrschaft Saalburg",
+   "class": "place",
+   "kind": "Herrschaft",
+   "in_principality": true,
+   "gloss_en": "Herrschaft Saalburg (lordship)"
+  },
+  {
+   "key": "Koskauer Gasse",
+   "action": "accept",
+   "label": "Koskauer Gasse",
+   "class": "place",
+   "kind": "Straße",
+   "in_principality": true,
+   "gloss_en": "Koskauer Gasse (street)",
+   "note": "Street in Tanna."
+  },
+  {
+   "key": "Brankendorf",
+   "action": "merge",
+   "into": "Frankendorf"
+  },
+  {
+   "key": "Backofenacker",
+   "action": "accept",
+   "label": "Backofenacker",
+   "class": "place",
+   "kind": "Flur",
+   "in_principality": true,
+   "gloss_en": "Backofenacker (field area)",
+   "note": "Field associated with a Wüstung (legendary bakeries)."
+  },
+  {
+   "key": "Eibenstock",
+   "action": "accept",
+   "label": "Eibenstock",
+   "class": "place",
+   "kind": "Stadt",
+   "geonames": 2932738,
+   "lat": 50.49431,
+   "lon": 12.59978,
+   "in_principality": false,
+   "gloss_en": "Eibenstock (town)"
+  },
+  {
+   "key": "Kennitz",
+   "action": "accept",
+   "label": "Kennitz",
+   "class": "place",
+   "kind": "Dorf",
+   "in_principality": false,
+   "gloss_en": "Kennitz (village)",
+   "note": "Filial of Kröbes, parished from the Reuss Gemeinde Spielmes; outside the principality."
+  },
+  {
+   "key": "Kröbes",
+   "action": "accept",
+   "label": "Kröbes",
+   "class": "place",
+   "kind": "Dorf",
+   "in_principality": false,
+   "gloss_en": "Kröbes (village)",
+   "note": "Parish village (Kennitz is its filial), outside the principality."
+  },
+  {
+   "key": "Döles",
+   "action": "accept",
+   "label": "Döles",
+   "class": "place",
+   "kind": "Dorf",
+   "in_principality": false,
+   "gloss_en": "Döles (village)",
+   "note": "School village for Reinhardswalde; outside the principality."
+  },
+  {
+   "key": "Hasela",
+   "action": "accept",
+   "label": "Hasela",
+   "class": "place",
+   "kind": "Dorf",
+   "in_principality": false,
+   "gloss_en": "Hasela (village)",
+   "note": "Voigtei rights of Arnshaugk (Hasela and Reichenbach); not identified."
+  },
+  {
+   "key": "Hoferland",
+   "action": "merge",
+   "into": "höfer Land"
+  },
+  {
+   "key": "Feilitzsch",
+   "action": "accept",
+   "label": "Feilitzsch",
+   "class": "place",
+   "kind": "Dorf",
+   "geonames": 2927510,
+   "lat": 50.36667,
+   "lon": 11.93333,
+   "in_principality": false,
+   "gloss_en": "Feilitzsch (village)",
+   "note": "Rittergut in the Hof area (Bavaria)."
+  },
+  {
+   "key": "Brandstein",
+   "action": "accept",
+   "label": "Brandstein",
+   "class": "place",
+   "kind": "Dorf",
+   "geonames": 2945184,
+   "lat": 50.35982,
+   "lon": 11.81062,
+   "in_principality": false,
+   "gloss_en": "Brandstein (village)",
+   "note": "Rittergut in the Hof area (Bavaria)."
+  },
+  {
+   "key": "Issiga",
+   "action": "accept",
+   "label": "Issiga",
+   "class": "place",
+   "kind": "Dorf",
+   "in_principality": false,
+   "modern": "Issigau",
+   "gloss_en": "Issigau (village)",
+   "note": "Rittergut in the Hof area (Bavaria)."
+  },
+  {
+   "key": "Hadermannsgrün",
+   "action": "accept",
+   "label": "Hadermannsgrün",
+   "class": "place",
+   "kind": "Dorf",
+   "geonames": 2912793,
+   "lat": 50.37946,
+   "lon": 11.76344,
+   "in_principality": false,
+   "gloss_en": "Hadermannsgrün (village)",
+   "note": "Rittergut in the Hof area (Bavaria)."
+  },
+  {
+   "key": "Bruck",
+   "action": "accept",
+   "label": "Bruck",
+   "class": "place",
+   "kind": "Dorf",
+   "geonames": 2943520,
+   "lat": 50.36408,
+   "lon": 11.80381,
+   "in_principality": false,
+   "gloss_en": "Bruck (village)",
+   "note": "Rittergut in the Hof area (Bavaria)."
+  },
+  {
+   "key": "Buch",
+   "action": "accept",
+   "label": "Buch",
+   "class": "place",
+   "kind": "Rittergut",
+   "in_principality": false,
+   "gloss_en": "Buch (manor)",
+   "note": "Rittergut in the Hof area (Bavaria); several places of this name."
+  },
+  {
+   "key": "Eisenbühl",
+   "action": "accept",
+   "label": "Eisenbühl",
+   "class": "place",
+   "kind": "Rittergut",
+   "geonames": 2931502,
+   "lat": 50.39689,
+   "lon": 11.75284,
+   "in_principality": false,
+   "gloss_en": "Eisenbühl (manor)",
+   "note": "Rittergut in the Hof area (Bavaria)."
+  },
+  {
+   "key": "Fletterreuth",
+   "action": "accept",
+   "label": "Fletterreuth",
+   "class": "place",
+   "kind": "Rittergut",
+   "in_principality": false,
+   "gloss_en": "Fletterreuth (manor)",
+   "note": "Rittergut in the Hof area (Bavaria)."
+  },
+  {
+   "key": "Goditz",
+   "action": "merge",
+   "into": "Joditz"
+  },
+  {
+   "key": "Joditz",
+   "action": "accept",
+   "label": "Joditz",
+   "class": "place",
+   "kind": "Rittergut",
+   "geonames": 2894851,
+   "lat": 50.37147,
+   "lon": 11.83777,
+   "in_principality": false,
+   "gloss_en": "Joditz (manor)",
+   "note": "Rittergut in the Hof area (Bavaria); also written Goditz."
+  },
+  {
+   "key": "Klingensporn",
+   "action": "accept",
+   "label": "Klingensporn",
+   "class": "place",
+   "kind": "Rittergut",
+   "in_principality": false,
+   "gloss_en": "Klingensporn (manor)",
+   "note": "Rittergut in the Hof area (Bavaria)."
+  },
+  {
+   "key": "Köditz",
+   "action": "accept",
+   "label": "Köditz",
+   "class": "place",
+   "kind": "Rittergut",
+   "geonames": 2886843,
+   "lat": 50.33333,
+   "lon": 11.85,
+   "in_principality": false,
+   "gloss_en": "Köditz (manor)",
+   "note": "Rittergut in the Hof area (Bavaria)."
+  },
+  {
+   "key": "Kohlbühl",
+   "action": "accept",
+   "label": "Kohlbühl",
+   "class": "place",
+   "kind": "Rittergut",
+   "geonames": 2886713,
+   "lat": 50.35012,
+   "lon": 11.75395,
+   "in_principality": false,
+   "gloss_en": "Kohlbühl (manor)",
+   "note": "Rittergut in the Hof area (Bavaria)."
+  },
+  {
+   "key": "Hölle oder Kleinschmidt",
+   "action": "accept",
+   "label": "Hölle (Kleinschmidt)",
+   "class": "place",
+   "kind": "Haus",
+   "in_principality": true,
+   "gloss_en": "Hölle (Kleinschmidt) (house)",
+   "note": "Single house in the Hirschberg area, called Hölle or Kleinschmidt (list of places of the Gemeinde group)."
+  },
+  {
+   "key": "Friesa",
+   "action": "merge",
+   "into": "Kleinfriesa"
+  },
+  {
+   "key": "Höllenthal",
+   "action": "reclass",
+   "label": "Höllenthal",
+   "class": "nature",
+   "kind": "Tal",
+   "geonames": 8260434,
+   "lat": 50.3822,
+   "lon": 11.69156,
+   "gloss_en": "Höllenthal (valley)",
+   "note": "Valley named among the excursion spots near Lobenstein (Selbitz)."
+  },
+  {
+   "key": "Kußel",
+   "action": "accept",
+   "label": "Kußel",
+   "class": "place",
+   "kind": "Stadtteil",
+   "in_principality": true,
+   "gloss_en": "Kußel (town quarter)",
+   "note": "Suburb of Lobenstein (1509 Nawstadt, Kußel and Hayn)."
+  },
+  {
+   "key": "Erkmannsdorf",
+   "action": "accept",
+   "label": "Erkmannsdorf",
+   "class": "place",
+   "kind": "Dorf",
+   "geonames": 2929603,
+   "lat": 50.5925,
+   "lon": 11.70727,
+   "in_principality": false,
+   "gloss_en": "Erkmannsdorf (village)",
+   "note": "Place in a biographical remark (Lobenstein article); no article of its own in the Ortskunde."
+  },
+  {
+   "key": "Königsberg",
+   "action": "accept",
+   "label": "Königsberg",
+   "class": "place",
+   "kind": "Stadt",
+   "lat": 54.71,
+   "lon": 20.51,
+   "in_principality": false,
+   "modern": "Kaliningrad",
+   "gloss_en": "Kaliningrad (town)",
+   "note": "Königsberg in Prussia (death place of a composer, 1668)."
+  },
+  {
+   "key": "Dobitschen",
+   "action": "accept",
+   "label": "Dobitschen",
+   "class": "place",
+   "kind": "Dorf",
+   "geonames": 2936600,
+   "lat": 50.95727,
+   "lon": 12.28081,
+   "in_principality": false,
+   "gloss_en": "Dobitschen (village)",
+   "note": "Village in the Altenburg area (adjunct preacher)."
+  },
+  {
+   "key": "Interlaken",
+   "action": "accept",
+   "label": "Interlaken",
+   "class": "place",
+   "kind": "Stadt",
+   "lat": 46.69,
+   "lon": 7.86,
+   "in_principality": false,
+   "gloss_en": "Interlaken (town)"
+  },
+  {
+   "key": "alter Haueisen",
+   "action": "merge",
+   "into": "Haueisen"
+  },
+  {
+   "key": "ebersdorfer Forstes",
+   "action": "reclass",
+   "label": "Ebersdorfer Forst",
+   "class": "nature",
+   "kind": "Wald",
+   "gloss_en": "Ebersdorf forest"
+  },
+  {
+   "key": "Gottliebshammer",
+   "action": "merge",
+   "into": "Gottliebsthal"
+  },
+  {
+   "key": "Boretsch",
+   "action": "merge",
+   "into": "Pöritzsch"
+  },
+  {
+   "key": "geraer Landestheile",
+   "action": "merge",
+   "into": "Bezirk Gera"
+  },
+  {
+   "key": "Henneberg",
+   "action": "accept",
+   "label": "Henneberg",
+   "class": "place",
+   "kind": "Flur",
+   "in_principality": true,
+   "gloss_en": "Henneberg (field area)",
+   "note": "Field name (Hauptflurstück) in the Schönbrunn Flur; also Grafschaft Henneberg elsewhere."
+  },
+  {
+   "key": "Heinrichstorf",
+   "action": "merge",
+   "into": "Heinersdorf"
+  },
+  {
+   "key": "Heinrichsdorf",
+   "action": "merge",
+   "into": "Heinersdorf"
+  },
+  {
+   "key": "Hinnerstorf",
+   "action": "merge",
+   "into": "Heinersdorf"
+  },
+  {
+   "key": "Hänersdorf",
+   "action": "merge",
+   "into": "Heinersdorf"
+  },
+  {
+   "key": "Adelgerisbrunen",
+   "action": "merge",
+   "into": "Eliasbrunn"
+  },
+  {
+   "key": "Cylgeßbrun",
+   "action": "merge",
+   "into": "Eliasbrunn"
+  },
+  {
+   "key": "Elgersbrun",
+   "action": "merge",
+   "into": "Eliasbrunn"
+  },
+  {
+   "key": "Allgeßbrunn",
+   "action": "merge",
+   "into": "Eliasbrunn"
+  },
+  {
+   "key": "Dürrbach",
+   "action": "accept",
+   "label": "Dürrbach",
+   "class": "place",
+   "kind": "Weiler",
+   "in_principality": true,
+   "gloss_en": "Dürrbach (hamlet)",
+   "note": "Hamlet (written Dürrbach, not Thierbach) near Röttersdorf/Weißbach; not the Gemeinde Dürrenbach (p. 773)."
+  },
+  {
+   "key": "Drognitzern",
+   "action": "merge",
+   "into": "Drognitz"
+  },
+  {
+   "key": "Burglemniz",
+   "action": "accept",
+   "label": "Burglemniz",
+   "class": "place",
+   "kind": "Dorf",
+   "in_principality": false,
+   "gloss_en": "Burglemniz (village)",
+   "note": "Place in the upper Sormitz area (old parish district); outside the principality."
+  },
+  {
+   "key": "Gleima",
+   "action": "accept",
+   "label": "Gleima",
+   "class": "place",
+   "kind": "Dorf",
+   "geonames": 2919987,
+   "lat": 50.52769,
+   "lon": 11.52957,
+   "in_principality": false,
+   "gloss_en": "Gleima (village)",
+   "note": "Place in the upper Sormitz area (old parish district); outside the principality."
+  },
+  {
+   "key": "Hüttensteinach",
+   "action": "accept",
+   "label": "Hüttensteinach",
+   "class": "place",
+   "kind": "Dorf",
+   "geonames": 2896926,
+   "lat": 50.36455,
+   "lon": 11.20717,
+   "in_principality": false,
+   "gloss_en": "Hüttensteinach (village)",
+   "note": "In the Duchy of Saxe-Meiningen."
+  },
+  {
+   "key": "Capstadt",
+   "action": "accept",
+   "label": "Capstadt",
+   "class": "place",
+   "kind": "Stadt",
+   "lat": -33.92,
+   "lon": 18.42,
+   "in_principality": false,
+   "modern": "Kapstadt",
+   "gloss_en": "Kapstadt (town)",
+   "note": "Cape Town, South Africa."
+  },
+  {
+   "key": "Erdmuthengrün",
+   "action": "merge",
+   "into": "Karolinengrün"
+  },
+  {
+   "key": "Kirchbach",
+   "action": "accept",
+   "label": "Kirchbach",
+   "class": "place",
+   "kind": "Flur",
+   "in_principality": true,
+   "gloss_en": "Kirchbach (field area)",
+   "note": "Field name (Kirchwiesen, Kirchbach, Pfaffenwiesen) in the Neundorf Flur."
+  },
+  {
+   "key": "Backöfen",
+   "action": "accept",
+   "label": "Backöfen",
+   "class": "place",
+   "kind": "Flur",
+   "in_principality": true,
+   "gloss_en": "Backöfen (field area)",
+   "note": "Spot (\"die Backöfen\") near the Stutenkamm."
+  },
+  {
+   "key": "Gartengelängen",
+   "action": "accept",
+   "label": "Gartengelängen",
+   "class": "place",
+   "kind": "Flur",
+   "in_principality": true,
+   "gloss_en": "Gartengelängen (field area)",
+   "note": "Field name at the Sieglitzbach."
+  },
+  {
+   "key": "Beunten",
+   "action": "accept",
+   "label": "Beunten",
+   "class": "place",
+   "kind": "Flur",
+   "in_principality": true,
+   "gloss_en": "Beunten (field area)",
+   "note": "Field name (Hauptflurtheil)."
+  },
+  {
+   "key": "Knopfhütte",
+   "action": "accept",
+   "label": "Knopfhütte",
+   "class": "place",
+   "kind": "Hütte",
+   "in_principality": true,
+   "register_page": "786",
+   "gloss_en": "Knopfhütte (works)",
+   "note": "Glass button works (Glasknopfhütte), two single houses on the Moschwitz, Gemeinde Kießling."
+  },
+  {
+   "key": "Kischling",
+   "action": "merge",
+   "into": "Kießling"
+  },
+  {
+   "key": "Einzig",
+   "action": "accept",
+   "label": "Einzig",
+   "class": "place",
+   "kind": "Weiler",
+   "in_principality": true,
+   "gloss_en": "Einzig (hamlet)",
+   "note": "Group of houses with the private inn Funkenburg on the Reuss side (Göttengrün article)."
+  },
+  {
+   "key": "Gettengrin",
+   "action": "merge",
+   "into": "Göttengrün"
+  },
+  {
+   "key": "Gettengrune",
+   "action": "merge",
+   "into": "Göttengrün"
+  },
+  {
+   "key": "Gettengrün",
+   "action": "merge",
+   "into": "Göttengrün"
+  },
+  {
+   "key": "Gegkengrun",
+   "action": "merge",
+   "into": "Göttengrün"
+  },
+  {
+   "key": "Dockendorf",
+   "action": "accept",
+   "label": "Dockendorf",
+   "class": "place",
+   "kind": "Wüstung",
+   "in_principality": true,
+   "register_page": "795",
+   "gloss_en": "Dockendorf (deserted settlement)",
+   "note": "Legendary deserted village above Frössen; no records."
+  },
+  {
+   "key": "Hohen- und Tiefendorf",
+   "action": "reject",
+   "reason": "coordinated pair of two places (Hohendorf and Tiefendorf), not a single entity"
+  },
+  {
+   "key": "Ahornis",
+   "action": "accept",
+   "label": "Ahornis",
+   "class": "place",
+   "kind": "Dorf",
+   "geonames": 2959130,
+   "lat": 50.1959,
+   "lon": 11.69554,
+   "in_principality": false,
+   "gloss_en": "Ahornis (village)",
+   "note": "Village in Bavaria parished to Münchberg (Ahornles, \"Marles\")."
+  },
+  {
+   "key": "frössener",
+   "action": "merge",
+   "into": "Frössen"
+  },
+  {
+   "key": "Brandenburg-Baireuth",
+   "action": "accept",
+   "label": "Brandenburg-Baireuth",
+   "class": "place",
+   "kind": "Fürstentum",
+   "in_principality": false,
+   "gloss_en": "Brandenburg-Bayreuth (margraviate)",
+   "note": "Hohenzollern margraviate; neighbour of the Reuss lands in the Vogtland."
+  },
+  {
+   "key": "Augsburg",
+   "action": "accept",
+   "label": "Augsburg",
+   "class": "place",
+   "kind": "Stadt",
+   "lat": 48.37,
+   "lon": 10.9,
+   "in_principality": false,
+   "gloss_en": "Augsburg (town)",
+   "note": "Peace of Augsburg 1555."
+  },
+  {
+   "key": "Fundhäuser",
+   "action": "accept",
+   "label": "Fundhäuser",
+   "class": "place",
+   "kind": "Weiler",
+   "geonames": 2923784,
+   "lat": 50.4,
+   "lon": 11.86667,
+   "in_principality": true,
+   "register_page": "817",
+   "gloss_en": "Fundhäuser (hamlet)"
+  },
+  {
+   "key": "hofer",
+   "action": "merge",
+   "into": "Hof"
+  },
+  {
+   "key": "Heynichen",
+   "action": "accept",
+   "label": "Heynichen",
+   "class": "place",
+   "kind": "Dorf",
+   "in_principality": false,
+   "modern": "Heinichen",
+   "gloss_en": "Heinichen (village)",
+   "note": "Birthplace of the novelist Chr. L. Heyne (Anton Wall); not identified."
+  },
+  {
+   "key": "bayerischem Boden",
+   "action": "merge",
+   "into": "Bayern"
+  },
+  {
+   "key": "Berggrube",
+   "action": "accept",
+   "label": "Berggrube",
+   "class": "place",
+   "kind": "Flur",
+   "in_principality": true,
+   "gloss_en": "Berggrube (field area)",
+   "note": "Field name (Hauptflurstück) in the Hirschberg area."
+  },
+  {
+   "key": "Fundhäuſer",
+   "action": "merge",
+   "into": "Fundhäuser"
+  },
+  {
+   "key": "Funkenburg",
+   "action": "accept",
+   "label": "Funkenburg",
+   "class": "place",
+   "kind": "Gasthof",
+   "geonames": 2923749,
+   "lat": 50.44672,
+   "lon": 11.81168,
+   "in_principality": true,
+   "register_page": "792",
+   "gloss_en": "Funkenburg (inn)",
+   "note": "Private inn in the Einzelgruppe Einzig (Gemeinde Blintendorf)."
+  },
+  {
+   "key": "Geheeg",
+   "action": "accept",
+   "label": "Geheeg",
+   "class": "place",
+   "kind": "Haus",
+   "in_principality": true,
+   "register_page": "790",
+   "gloss_en": "Geheeg (house)",
+   "note": "Single house and small estate south of Harra on the road to Blankenstein."
+  },
+  {
+   "key": "Glücksthal",
+   "action": "accept",
+   "label": "Glücksthal",
+   "class": "place",
+   "kind": "Hammer",
+   "in_principality": true,
+   "register_page": "677",
+   "gloss_en": "Glücksthal (ironworks)",
+   "note": "Steel hammer (Schuberts-Hammer) on the Wettera, built 1766, Gemeinde Kulm."
+  },
+  {
+   "key": "Heinrichsstein",
+   "action": "merge",
+   "into": "Heinrichstein"
+  },
+  {
+   "key": "Klause",
+   "action": "merge",
+   "into": "alte Klause"
+  },
+  {
+   "key": "alte Klause",
+   "action": "accept",
+   "label": "Alte Klause",
+   "class": "place",
+   "kind": "Wüstung",
+   "in_principality": true,
+   "register_page": "697",
+   "gloss_en": "Alte Klause (deserted settlement)"
+  },
+  {
+   "key": "Kohlhauhäuser",
+   "action": "accept",
+   "label": "Kohlhauhäuser",
+   "class": "place",
+   "kind": "Weiler",
+   "in_principality": true,
+   "register_page": "772",
+   "gloss_en": "Kohlhauhäuser (hamlet)",
+   "note": "Houses in the Gemeinde Röttersdorf; also Kohlhäuser, Kohlhauhäuser."
+  },
+  {
+   "key": "Bad Liebenstein",
+   "action": "accept",
+   "label": "Bad Liebenstein",
+   "class": "place",
+   "kind": "Stadt",
+   "geonames": 2953409,
+   "lat": 50.81569,
+   "lon": 10.35123,
+   "in_principality": false,
+   "gloss_en": "Bad Liebenstein (town)",
+   "note": "Spa in Saxe-Meiningen."
+  },
+  {
+   "key": "Dornhäusern",
+   "action": "merge",
+   "into": "Dornholz"
+  },
+  {
+   "key": "Greifswald",
+   "action": "accept",
+   "label": "Greifswald",
+   "class": "place",
+   "kind": "Stadt",
+   "lat": 54.09,
+   "lon": 13.38,
+   "in_principality": false,
+   "gloss_en": "Greifswald (town)",
+   "note": "Residence of a subscriber (subscribers list)."
+  },
+  {
+   "key": "Karlsruhe",
+   "action": "accept",
+   "label": "Karlsruhe",
+   "class": "place",
+   "kind": "Stadt",
+   "lat": 49.01,
+   "lon": 8.4,
+   "in_principality": false,
+   "gloss_en": "Karlsruhe (town)",
+   "note": "Residence of a subscriber (subscribers list)."
+  },
+  {
+   "key": "Altenhausen",
+   "action": "accept",
+   "label": "Altenhausen",
+   "class": "place",
+   "kind": "Dorf",
+   "geonames": 2957631,
+   "lat": 52.26196,
+   "lon": 11.25429,
+   "in_principality": false,
+   "gloss_en": "Altenhausen (village)",
+   "note": "Residence of a subscriber (subscribers list)."
+  },
+  {
+   "key": "Kammergut Harra",
+   "action": "accept",
+   "label": "Kammergut Harra",
+   "class": "place",
+   "kind": "Kammergut",
+   "in_principality": false,
+   "register_page": "786",
+   "gloss_en": "Kammergut Harra (crown estate)",
+   "note": "Crown estate at Harra (subscribers list)."
+  },
+  {
+   "key": "Darmstadt",
+   "action": "accept",
+   "label": "Darmstadt",
+   "class": "place",
+   "kind": "Stadt",
+   "lat": 49.87,
+   "lon": 8.65,
+   "in_principality": false,
+   "gloss_en": "Darmstadt (town)",
+   "note": "Residence of a subscriber (subscribers list)."
+  },
+  {
+   "key": "Braunschweig",
+   "action": "accept",
+   "label": "Braunschweig",
+   "class": "place",
+   "kind": "Stadt",
+   "geonames": 2945024,
+   "lat": 52.26594,
+   "lon": 10.52673,
+   "in_principality": false,
+   "gloss_en": "Braunschweig (town)",
+   "note": "City and Duchy of Braunschweig."
+  },
+  {
+   "key": "Duttweiler",
+   "action": "accept",
+   "label": "Duttweiler",
+   "class": "place",
+   "kind": "Dorf",
+   "in_principality": false,
+   "gloss_en": "Duttweiler (village)",
+   "note": "\"Duttweiler bei Saarbrücken\" (subscribers list)."
+  }
+ ]
+}

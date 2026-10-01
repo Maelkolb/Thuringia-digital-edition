@@ -1,0 +1,796 @@
+{
+ "seq": 109,
+ "label": "97",
+ "slug": "97",
+ "iiif": {
+  "service": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb11005578_00109",
+  "canvas": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11005578/canvas/109",
+  "width": 1566,
+  "height": 2699
+ },
+ "kind": "text",
+ "running_header": "1. Statistik.",
+ "signature": null,
+ "blocks": [
+  {
+   "id": "b1",
+   "type": "paragraph",
+   "src": 0,
+   "text": "die sieben ersten volkreicher als Saalburg und die drei ersten sogar menschenreicher als Tanna und Hirschberg. Mit dem Verluste seiner Residenz (1848) hat Ebersdorf, das unter diesen Landorten am raschesten gewachsen war, eine rückgängige Bewegung eingenommen.",
+   "spans": [
+    [
+     34,
+     42,
+     "Location"
+    ],
+    [
+     89,
+     94,
+     "Location"
+    ],
+    [
+     99,
+     109,
+     "Location"
+    ],
+    [
+     155,
+     164,
+     "Location"
+    ]
+   ],
+   "continued": true,
+   "sec": "t1-2-1"
+  },
+  {
+   "id": "b2",
+   "type": "paragraph",
+   "src": 1,
+   "text": "Die städtische Bevölkerung und die der größeren und kleineren Landorte und ihre Dichtigkeit:",
+   "spans": [],
+   "sec": "t1-2-1"
+  },
+  {
+   "id": "b3",
+   "type": "table",
+   "src": 2,
+   "n_cols": 5,
+   "header_rows": 2,
+   "rows": [
+    {
+     "role": "header",
+     "cells": [
+      {
+       "text": "Landrathshinterbezirke.",
+       "spans": []
+      },
+      {
+       "text": "B e v ö l k e r u n g",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "header",
+     "cells": [
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "städtische.",
+       "spans": []
+      },
+      {
+       "text": "der 8 Landorte über 1000 E.",
+       "spans": []
+      },
+      {
+       "text": "der Landorte unter 1000 E.",
+       "spans": []
+      },
+      {
+       "text": "gesammte ländliche.",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Gera . . . { 1833",
+       "spans": [
+        [
+         0,
+         4,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "10272",
+       "spans": []
+      },
+      {
+       "text": "2886",
+       "spans": []
+      },
+      {
+       "text": "13408",
+       "spans": []
+      },
+      {
+       "text": "16294",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Gera . . . { 1867",
+       "spans": [
+        [
+         0,
+         4,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "16283",
+       "spans": []
+      },
+      {
+       "text": "4708",
+       "spans": []
+      },
+      {
+       "text": "17261",
+       "spans": []
+      },
+      {
+       "text": "21969",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Schleiz . . { 1833",
+       "spans": [
+        [
+         0,
+         7,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "6966",
+       "spans": []
+      },
+      {
+       "text": "4495",
+       "spans": []
+      },
+      {
+       "text": "10445",
+       "spans": []
+      },
+      {
+       "text": "14940",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Schleiz . . { 1867",
+       "spans": [
+        [
+         0,
+         7,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "7968",
+       "spans": []
+      },
+      {
+       "text": "6431",
+       "spans": []
+      },
+      {
+       "text": "12969",
+       "spans": []
+      },
+      {
+       "text": "19400",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Lobenstein- { 1833",
+       "spans": [
+        [
+         0,
+         11,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "4894",
+       "spans": []
+      },
+      {
+       "text": "2564",
+       "spans": []
+      },
+      {
+       "text": "12807",
+       "spans": []
+      },
+      {
+       "text": "15371",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Ebersdorf { 1867",
+       "spans": [
+        [
+         0,
+         9,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "4671",
+       "spans": []
+      },
+      {
+       "text": "2869",
+       "spans": []
+      },
+      {
+       "text": "14814",
+       "spans": []
+      },
+      {
+       "text": "17683",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Das { 1833",
+       "spans": []
+      },
+      {
+       "text": "22132",
+       "spans": []
+      },
+      {
+       "text": "9945",
+       "spans": []
+      },
+      {
+       "text": "36660",
+       "spans": []
+      },
+      {
+       "text": "46603",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Fürstenthum { 1867",
+       "spans": []
+      },
+      {
+       "text": "28922",
+       "spans": []
+      },
+      {
+       "text": "14008",
+       "spans": []
+      },
+      {
+       "text": "45044",
+       "spans": []
+      },
+      {
+       "text": "59052",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "group",
+     "cells": [
+      {
+       "text": "Davon kommen auf 1 ☐ M.",
+       "spans": [],
+       "colspan": 5
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Gera . . . { 1833",
+       "spans": [
+        [
+         0,
+         4,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "2548,88",
+       "spans": []
+      },
+      {
+       "text": "716,13",
+       "spans": []
+      },
+      {
+       "text": "3327,04",
+       "spans": []
+      },
+      {
+       "text": "4043,17",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Gera . . . { 1867",
+       "spans": [
+        [
+         0,
+         4,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "4040,44",
+       "spans": []
+      },
+      {
+       "text": "1168,23",
+       "spans": []
+      },
+      {
+       "text": "4283,13",
+       "spans": []
+      },
+      {
+       "text": "5451,36",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Schleiz . . { 1833",
+       "spans": [
+        [
+         0,
+         7,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "1155,22",
+       "spans": []
+      },
+      {
+       "text": "745,44",
+       "spans": []
+      },
+      {
+       "text": "1732,17",
+       "spans": []
+      },
+      {
+       "text": "2477,61",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Schleiz . . { 1867",
+       "spans": [
+        [
+         0,
+         7,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "1321,38",
+       "spans": []
+      },
+      {
+       "text": "1066,50",
+       "spans": []
+      },
+      {
+       "text": "2150,74",
+       "spans": []
+      },
+      {
+       "text": "3217,24",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Lobenstein- { 1833",
+       "spans": [
+        [
+         0,
+         11,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "978,80",
+       "spans": []
+      },
+      {
+       "text": "512,80",
+       "spans": []
+      },
+      {
+       "text": "2561,40",
+       "spans": []
+      },
+      {
+       "text": "3074,20",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Ebersdorf { 1867",
+       "spans": [
+        [
+         0,
+         9,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "934,80",
+       "spans": []
+      },
+      {
+       "text": "573,80",
+       "spans": []
+      },
+      {
+       "text": "2962,80",
+       "spans": []
+      },
+      {
+       "text": "3536,60",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Das { 1833",
+       "spans": []
+      },
+      {
+       "text": "1469,52",
+       "spans": []
+      },
+      {
+       "text": "660,36",
+       "spans": []
+      },
+      {
+       "text": "2434,26",
+       "spans": []
+      },
+      {
+       "text": "3094,62",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Fürstenthum { 1867",
+       "spans": []
+      },
+      {
+       "text": "1920,75",
+       "spans": []
+      },
+      {
+       "text": "930,15",
+       "spans": []
+      },
+      {
+       "text": "2990,96",
+       "spans": []
+      },
+      {
+       "text": "3921,11",
+       "spans": []
+      }
+     ]
+    }
+   ],
+   "grid": [
+    [
+     "Landrathshinterbezirke.",
+     "B e v ö l k e r u n g",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "städtische.",
+     "der 8 Landorte über 1000 E.",
+     "der Landorte unter 1000 E.",
+     "gesammte ländliche."
+    ],
+    [
+     "Gera . . . { 1833",
+     "10272",
+     "2886",
+     "13408",
+     "16294"
+    ],
+    [
+     "Gera . . . { 1867",
+     "16283",
+     "4708",
+     "17261",
+     "21969"
+    ],
+    [
+     "Schleiz . . { 1833",
+     "6966",
+     "4495",
+     "10445",
+     "14940"
+    ],
+    [
+     "Schleiz . . { 1867",
+     "7968",
+     "6431",
+     "12969",
+     "19400"
+    ],
+    [
+     "Lobenstein- { 1833",
+     "4894",
+     "2564",
+     "12807",
+     "15371"
+    ],
+    [
+     "Ebersdorf { 1867",
+     "4671",
+     "2869",
+     "14814",
+     "17683"
+    ],
+    [
+     "Das { 1833",
+     "22132",
+     "9945",
+     "36660",
+     "46603"
+    ],
+    [
+     "Fürstenthum { 1867",
+     "28922",
+     "14008",
+     "45044",
+     "59052"
+    ],
+    [
+     "",
+     "Davon kommen auf 1 ☐ M.",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Gera . . . { 1833",
+     "2548,88",
+     "716,13",
+     "3327,04",
+     "4043,17"
+    ],
+    [
+     "Gera . . . { 1867",
+     "4040,44",
+     "1168,23",
+     "4283,13",
+     "5451,36"
+    ],
+    [
+     "Schleiz . . { 1833",
+     "1155,22",
+     "745,44",
+     "1732,17",
+     "2477,61"
+    ],
+    [
+     "Schleiz . . { 1867",
+     "1321,38",
+     "1066,50",
+     "2150,74",
+     "3217,24"
+    ],
+    [
+     "Lobenstein- { 1833",
+     "978,80",
+     "512,80",
+     "2561,40",
+     "3074,20"
+    ],
+    [
+     "Ebersdorf { 1867",
+     "934,80",
+     "573,80",
+     "2962,80",
+     "3536,60"
+    ],
+    [
+     "Das { 1833",
+     "1469,52",
+     "660,36",
+     "2434,26",
+     "3094,62"
+    ],
+    [
+     "Fürstenthum { 1867",
+     "1920,75",
+     "930,15",
+     "2990,96",
+     "3921,11"
+    ]
+   ],
+   "caption": null,
+   "sec": "t1-2-1"
+  },
+  {
+   "id": "b4",
+   "type": "paragraph",
+   "src": 3,
+   "text": "Der hier statistisch ausgedrückte Gegensatz zwischen Stadt- und Landbevölkerung scheidet keineswegs Industrie, Handel und Beamtenthum von der rein bäuerlichen Wirthschaft, weil einerseits außer Gera die sämmtlichen Städte des Landes mehr oder minder Oeconomie treiben und weil andererseits eine Reihe von Landorten Industrie und Gewerbe zur Hauptbeschäftigung haben und einige derselben (Ebersdorf, Hohenleuben und Untermhaus) selbst zum Sitz von Beamten dienen. Ueber die wirkliche Zahl der Oeconomietreibenden wird später die Tabelle der Berufsarten Auskunft geben.",
+   "spans": [
+    [
+     194,
+     198,
+     "Location"
+    ],
+    [
+     388,
+     397,
+     "Location"
+    ],
+    [
+     399,
+     410,
+     "Location"
+    ],
+    [
+     415,
+     425,
+     "Location"
+    ]
+   ],
+   "sec": "t1-2-1"
+  },
+  {
+   "id": "b5",
+   "type": "paragraph",
+   "src": 4,
+   "text": "6) Die Bevölkerung im Verhältniß zu den Gemeinden. Die gesammte Reihe der politischen (staatsrechtlichen) Gemeinden des Landes vertheilt sich bezüglich der Bevölkerung:",
+   "spans": [],
+   "sec": "t1-2-1"
+  }
+ ],
+ "footnotes": [],
+ "corrections": [
+  {
+   "rule": "table_multirow_header",
+   "rows": 2,
+   "block": "b3"
+  },
+  {
+   "rule": "table_group_rows",
+   "n": 1,
+   "block": "b3"
+  }
+ ],
+ "provenance": {
+  "source": "colab-2026-03",
+  "model": "gemini-3-flash-preview",
+  "timestamp": "2026-03-03T15:08:17.408408",
+  "early_schema": false
+ },
+ "section_path": [
+  "t1",
+  "t1-2",
+  "t1-2-1"
+ ],
+ "sections": [
+  "t1-2-1"
+ ]
+}

@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="de" data-ui="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% block title %}{{ site.short_title }}{% endblock %}</title>
+<meta name="description" content="{% block description %}{{ site.description_de }}{% endblock %}">
+<meta name="author" content="{{ site.editor }}">
+<link rel="canonical" href="{{ site.base_url }}{{ path }}">
+<meta property="og:title" content="{{ self.title() }}">
+<meta property="og:description" content="{{ self.description() }}">
+<meta property="og:type" content="website">
+<meta property="og:image" content="{{ site.base_url }}assets/img/titelblatt.jpg">
+<link rel="icon" href="{{ root }}assets/img/favicon.svg" type="image/svg+xml">
+<link rel="preload" href="{{ root }}assets/fonts/newsreader-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="{{ root }}assets/fonts/source-sans-3-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="{{ root }}assets/css/edition.css?v={{ site.version }}">
+{% block head %}{% endblock %}
+<script>
+(function () {
+  var d = document.documentElement, ui = 'de', th = null;
+  try { ui = localStorage.getItem('rj.ui') || (navigator.language || 'de').slice(0, 2); th = localStorage.getItem('rj.theme'); } catch (e) {}
+  d.setAttribute('data-ui', ui === 'en' ? 'en' : 'de');
+  if (th === 'dark' || th === 'light') d.setAttribute('data-theme', th);
+})();
+</script>
+</head>
+<body class="{% block bodyclass %}{% endblock %}" data-root="{{ root }}">
+<a class="skip-link" href="#main">{{ t('Zum Inhalt', 'Skip to content') }}</a>
+<header class="site-header">
+  <div class="bar">
+    <button class="btn-icon menu-toggle" type="button" aria-label="Menü" aria-expanded="false" data-menu>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+    </button>
+    <a class="brand" href="{{ root }}index.html"><b>Brückner 1870</b><small>{{ t('Digitale Edition', 'Digital edition') }}</small></a>
+    <nav class="nav" aria-label="Hauptnavigation / main navigation" data-nav>
+      <a href="{{ root }}seite/3.html" {% if section == 'read' %}aria-current="page"{% endif %}>{{ t('Lesen', 'Read') }}</a>
+      <a href="{{ root }}inhalt.html" {% if section == 'toc' %}aria-current="page"{% endif %}>{{ t('Inhalt', 'Contents') }}</a>
+      <a href="{{ root }}register/index.html" {% if section == 'register' %}aria-current="page"{% endif %}>{{ t('Register', 'Indexes') }}</a>
+      <a href="{{ root }}karte.html" {% if section == 'map' %}aria-current="page"{% endif %}>{{ t('Karte', 'Map') }}</a>
+      <a href="{{ root }}auswertungen/index.html" {% if section == 'analyses' %}aria-current="page"{% endif %}>{{ t('Auswertungen', 'Analyses') }}</a>
+      <a href="{{ root }}edition/einleitung.html" {% if section == 'about' %}aria-current="page"{% endif %}>{{ t('Edition', 'About') }}</a>
+    </nav>
+    <div class="header-tools">
+      <form class="quicksearch" role="search" action="{{ root }}suche.html" data-quicksearch>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+        <label class="visually-hidden" for="qs">{{ t('Suche', 'Search') }}</label>
+        <input id="qs" name="q" type="search" autocomplete="off" placeholder="Suchen … / Search …" aria-autocomplete="list" aria-controls="qs-results">
+        <div class="qs-results" id="qs-results" role="listbox"></div>
+      </form>
+      <button class="btn-icon" type="button" data-lang-toggle title="Sprache / Language"><span data-l="de">EN</span><span data-l="en">DE</span></button>
+      <button class="btn-icon" type="button" data-theme-toggle title="Hell/Dunkel - Light/Dark" aria-label="Farbschema">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+<main id="main">
+{% block main %}{% endblock %}
+</main>
+{% block footer %}
+<footer class="site-footer">
+  <div class="wrap">
+    <div>
+      <p><b>{{ site.title }}</b><br>{{ t('Digitale Edition nach dem Exemplar der Bayerischen Staatsbibliothek München, Signatur Germ.sp. 78 ld.', 'Digital edition based on the copy of the Bayerische Staatsbibliothek Munich, shelfmark Germ.sp. 78 ld.') }}</p>
+      <p>{{ t('Herausgegeben von', 'Edited by') }} {{ site.editor }}, {{ site.institution }}. {{ t('Version', 'Version') }} {{ site.version }} ({{ site.date }}).
+      {{ t('Transkription, Annotationen und Daten:', 'Transcription, annotations and data:') }} <a href="https://creativecommons.org/licenses/by/4.0/deed.de" rel="license">CC BY 4.0</a>.
+      {{ t('Faksimiles:', 'Facsimiles:') }} <a href="https://www.digitale-sammlungen.de/de/details/bsb11005578">BSB</a>, <a href="https://rightsstatements.org/vocab/NoC-NC/1.0/">NoC-NC 1.0</a>.</p>
+    </div>
+    <div>
+      <h2>{{ t('Edition', 'Edition') }}</h2>
+      <ul>
+        <li><a href="{{ root }}edition/einleitung.html">{{ t('Einleitung', 'Introduction') }}</a></li>
+        <li><a href="{{ root }}edition/richtlinien.html">{{ t('Editionsrichtlinien', 'Editorial principles') }}</a></li>
+        <li><a href="{{ root }}edition/zitieren.html">{{ t('Zitieren', 'How to cite') }}</a></li>
+        <li><a href="{{ root }}edition/daten.html">{{ t('Daten & Downloads', 'Data & downloads') }}</a></li>
+      </ul>
+    </div>
+    <div>
+      <h2>{{ t('Service', 'Service') }}</h2>
+      <ul>
+        <li><a href="{{ root }}suche.html">{{ t('Volltextsuche', 'Full-text search') }}</a></li>
+        <li><a href="{{ root }}register/sachregister.html">{{ t('Sachregister', 'Subject index') }}</a></li>
+        <li><a href="{{ root }}register/glossar.html">{{ t('Glossar', 'Glossary') }}</a></li>
+        <li><a href="{{ root }}edition/impressum.html">{{ t('Impressum & Datenschutz', 'Imprint & privacy') }}</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+{% endblock %}
+<script src="{{ root }}assets/js/norm.js?v={{ site.version }}" defer></script>
+<script src="{{ root }}assets/js/edition.js?v={{ site.version }}" defer></script>
+{% block scripts %}{% endblock %}
+</body>
+</html>

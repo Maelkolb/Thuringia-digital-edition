@@ -1,0 +1,556 @@
+{
+ "seq": 237,
+ "label": "225",
+ "slug": "225",
+ "iiif": {
+  "service": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb11005578_00237",
+  "canvas": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11005578/canvas/237",
+  "width": 1629,
+  "height": 2702
+ },
+ "kind": "text",
+ "running_header": "2. Landwirthschaft.",
+ "signature": null,
+ "blocks": [
+  {
+   "id": "b1",
+   "type": "paragraph",
+   "src": 0,
+   "text": "zeichnen sich Hundhaupten und Schöna je mit acht, Schwaara mit neun und Langenwetzendorf mit 10 mehr als 100 Morgen enthaltenden Bauerngütern aus. Im Gegensatze zu ihnen giebt es einige Orte, die, wie Wüstfalke, Neuärgerniß und Pöllwitz, gar keinen Bauernhof inhaben, was sich aber hier aus ihrem Entstehen leicht erklären läßt. Die Zersplitterung der großen Höfe ist, wie bereits oben angedeutet wurde, früher durch Vererbung ganzer Höfe an mehrere Kinder entstanden. Seit dem Gesetze vom 30. April 1866 ist die erstinstanzliche Entscheidung in Abspaltungs- und Zerschlagungssachen den Bezirksausschüssen übertragen. Wie lange sich die Bindung der Güter der Zeitströmung gegenüber, welche bei dem Fortschritte der ökonomischen und socialen Bildung, wie für die Industrie, so auch für den landwirthschaftlichen Boden die freie Bewegung fordert, aufrecht zu erhalten im Stande ist, wird die unerbittliche Macht der Zukunft lehren. In früheren Zeiten ging stets, jetzt geht in der Regel der Hof an den jüngsten Sohn über, wobei die Schwestern mit ledigen Grundstücken, die älteren Brüder jedoch, die sich meist dem Handwerke oder den Knechtsdiensten zuwenden müssen, mit Geld oder gleichfalls mit ledigen Grundstücken abgefunden werden. Uebrigens bilden die gebundenen Güter, da die Separation noch keinen Eingang gefunden hat, in der Regel nur zu einem Theile einen zusammenhängenden Complex, zum anderen Theile mehrere in der Flur zerstreut liegende Grundstücke. Jener Complex besteht aus einer Hofgelänge, die vom Hofe aus meist in schmalen Streifen oft bis zur Flurgrenze läuft und hintereinander Feld, Wiesen, Waldboden oder Hutung enthält.",
+   "spans": [
+    [
+     14,
+     25,
+     "Location"
+    ],
+    [
+     30,
+     36,
+     "Location"
+    ],
+    [
+     50,
+     58,
+     "Location"
+    ],
+    [
+     72,
+     88,
+     "Location"
+    ],
+    [
+     201,
+     210,
+     "Location"
+    ],
+    [
+     212,
+     223,
+     "Location"
+    ],
+    [
+     228,
+     236,
+     "Location"
+    ],
+    [
+     587,
+     605,
+     "Organisation"
+    ],
+    [
+     1605,
+     1611,
+     "Environment"
+    ],
+    [
+     1613,
+     1622,
+     "Environment"
+    ]
+   ],
+   "continued": true,
+   "sec": "t1-3-2"
+  },
+  {
+   "id": "b2",
+   "type": "heading",
+   "src": 1,
+   "text": "Vergleichung des landwirthschaftlichen Bodens der drei Hauptgrundbesitzer.",
+   "spans": [],
+   "sec": "t1-3-2",
+   "level": 5
+  },
+  {
+   "id": "b3",
+   "type": "table",
+   "src": 2,
+   "n_cols": 11,
+   "header_rows": 2,
+   "rows": [
+    {
+     "role": "header",
+     "cells": [
+      {
+       "text": "Grundbesitzer.",
+       "spans": []
+      },
+      {
+       "text": "Im Allgemeinen.",
+       "spans": []
+      },
+      {
+       "text": "Im Allgemeinen.",
+       "spans": []
+      },
+      {
+       "text": "Im Allgemeinen.",
+       "spans": []
+      },
+      {
+       "text": "Im Allgemeinen.",
+       "spans": []
+      },
+      {
+       "text": "Im Allgemeinen.",
+       "spans": []
+      },
+      {
+       "text": "In Procenten.",
+       "spans": []
+      },
+      {
+       "text": "In Procenten.",
+       "spans": []
+      },
+      {
+       "text": "In Procenten.",
+       "spans": []
+      },
+      {
+       "text": "In Procenten.",
+       "spans": []
+      },
+      {
+       "text": "In Procenten.",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "header",
+     "cells": [
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "Gärten Morgen.",
+       "spans": []
+      },
+      {
+       "text": "Feld. Morgen.",
+       "spans": []
+      },
+      {
+       "text": "Wiesen Morgen.",
+       "spans": []
+      },
+      {
+       "text": "Hut. Morgen.",
+       "spans": []
+      },
+      {
+       "text": "Summe. Morgen.",
+       "spans": []
+      },
+      {
+       "text": "Gärt. Morg.",
+       "spans": []
+      },
+      {
+       "text": "Feld. Morg.",
+       "spans": []
+      },
+      {
+       "text": "Wiese Morg.",
+       "spans": []
+      },
+      {
+       "text": "Hut. Morg.",
+       "spans": []
+      },
+      {
+       "text": "Sa. Morg.",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Kammergüter",
+       "spans": []
+      },
+      {
+       "text": "151,64",
+       "spans": []
+      },
+      {
+       "text": "8825,35",
+       "spans": []
+      },
+      {
+       "text": "3827,49",
+       "spans": []
+      },
+      {
+       "text": "1518,56",
+       "spans": []
+      },
+      {
+       "text": "14323,04",
+       "spans": []
+      },
+      {
+       "text": "3,64",
+       "spans": []
+      },
+      {
+       "text": "7,35",
+       "spans": []
+      },
+      {
+       "text": "7,11",
+       "spans": []
+      },
+      {
+       "text": "14,57",
+       "spans": []
+      },
+      {
+       "text": "7,60",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Rittergüter",
+       "spans": []
+      },
+      {
+       "text": "175,86",
+       "spans": []
+      },
+      {
+       "text": "9638,33",
+       "spans": []
+      },
+      {
+       "text": "1923,63",
+       "spans": []
+      },
+      {
+       "text": "1132,95",
+       "spans": []
+      },
+      {
+       "text": "12870,75",
+       "spans": []
+      },
+      {
+       "text": "4,23",
+       "spans": []
+      },
+      {
+       "text": "8,02",
+       "spans": []
+      },
+      {
+       "text": "3,58",
+       "spans": []
+      },
+      {
+       "text": "10,87",
+       "spans": []
+      },
+      {
+       "text": "6,82",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Bäuerlicher Grundbesitz *)",
+       "spans": []
+      },
+      {
+       "text": "3834,97",
+       "spans": []
+      },
+      {
+       "text": "101683,23",
+       "spans": []
+      },
+      {
+       "text": "48061,21",
+       "spans": []
+      },
+      {
+       "text": "7769,32",
+       "spans": []
+      },
+      {
+       "text": "161348,73",
+       "spans": []
+      },
+      {
+       "text": "92,13",
+       "spans": []
+      },
+      {
+       "text": "84,63",
+       "spans": []
+      },
+      {
+       "text": "89,31",
+       "spans": []
+      },
+      {
+       "text": "74,56",
+       "spans": []
+      },
+      {
+       "text": "85,58",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "total",
+     "cells": [
+      {
+       "text": "Summe",
+       "spans": []
+      },
+      {
+       "text": "4162,47",
+       "spans": []
+      },
+      {
+       "text": "120146,91",
+       "spans": []
+      },
+      {
+       "text": "53812,33",
+       "spans": []
+      },
+      {
+       "text": "10420,81",
+       "spans": []
+      },
+      {
+       "text": "188542,52",
+       "spans": []
+      },
+      {
+       "text": "100,00",
+       "spans": []
+      },
+      {
+       "text": "100,00",
+       "spans": []
+      },
+      {
+       "text": "100,00",
+       "spans": []
+      },
+      {
+       "text": "100,00",
+       "spans": []
+      },
+      {
+       "text": "100,00",
+       "spans": []
+      }
+     ]
+    }
+   ],
+   "grid": [
+    [
+     "Grundbesitzer.",
+     "Im Allgemeinen.",
+     "Im Allgemeinen.",
+     "Im Allgemeinen.",
+     "Im Allgemeinen.",
+     "Im Allgemeinen.",
+     "In Procenten.",
+     "In Procenten.",
+     "In Procenten.",
+     "In Procenten.",
+     "In Procenten."
+    ],
+    [
+     "",
+     "Gärten Morgen.",
+     "Feld. Morgen.",
+     "Wiesen Morgen.",
+     "Hut. Morgen.",
+     "Summe. Morgen.",
+     "Gärt. Morg.",
+     "Feld. Morg.",
+     "Wiese Morg.",
+     "Hut. Morg.",
+     "Sa. Morg."
+    ],
+    [
+     "Kammergüter",
+     "151,64",
+     "8825,35",
+     "3827,49",
+     "1518,56",
+     "14323,04",
+     "3,64",
+     "7,35",
+     "7,11",
+     "14,57",
+     "7,60"
+    ],
+    [
+     "Rittergüter",
+     "175,86",
+     "9638,33",
+     "1923,63",
+     "1132,95",
+     "12870,75",
+     "4,23",
+     "8,02",
+     "3,58",
+     "10,87",
+     "6,82"
+    ],
+    [
+     "Bäuerlicher Grundbesitz *)",
+     "3834,97",
+     "101683,23",
+     "48061,21",
+     "7769,32",
+     "161348,73",
+     "92,13",
+     "84,63",
+     "89,31",
+     "74,56",
+     "85,58"
+    ],
+    [
+     "Summe",
+     "4162,47",
+     "120146,91",
+     "53812,33",
+     "10420,81",
+     "188542,52",
+     "100,00",
+     "100,00",
+     "100,00",
+     "100,00",
+     "100,00"
+    ]
+   ],
+   "caption": null,
+   "sec": "t1-3-2"
+  },
+  {
+   "id": "b4",
+   "type": "heading",
+   "src": 3,
+   "text": "Vergleichung der jährlichen Production des Artlandes mit der jährlichen Consumtion.",
+   "spans": [],
+   "sec": "t1-3-2",
+   "level": 5
+  },
+  {
+   "id": "b5",
+   "type": "paragraph",
+   "src": 4,
+   "text": "Da dem Lande bis jetzt specielle Erndteresultate fehlen, so kann nur auf Grundlage von Schätzungen mittler Erndtejahre eine dem wirklichen Thatbestande sich annähernde Berechnung gegeben werden. Für den Landestheil Lobenstein-Ebersdorf hat Landrath Fuchs in Ebersdorf 1861 eine derartige Berechnung ausgeführt und in Druck gegeben.",
+   "spans": [
+    [
+     215,
+     235,
+     "Location"
+    ],
+    [
+     249,
+     254,
+     "Person"
+    ],
+    [
+     226,
+     235,
+     "Location"
+    ]
+   ],
+   "sec": "t1-3-2"
+  },
+  {
+   "id": "b6",
+   "type": "paragraph",
+   "src": 5,
+   "text": "Indem wir hier die von ihm festgestellten Unterlagen der Fruchtvertheilung und ihres Ertrages nicht allein für Lobenstein-Ebersdorf, sondern auch im Ganzen als maßgebend für den Landestheil Schleiz annehmen, dagegen für Gera den dahin einschlagenden Erfahrungen folgen und demnach als Rechnungsfactor der Fruchtvertheilung:",
+   "spans": [
+    [
+     111,
+     131,
+     "Location"
+    ],
+    [
+     190,
+     197,
+     "Location"
+    ],
+    [
+     220,
+     224,
+     "Location"
+    ]
+   ],
+   "sec": "t1-3-2"
+  }
+ ],
+ "footnotes": [
+  {
+   "id": "fn1",
+   "marker": "*)",
+   "text": "Mit Einschlusse des städtischen Grundbesitzes.",
+   "spans": []
+  }
+ ],
+ "corrections": [
+  {
+   "rule": "table_multirow_header",
+   "rows": 2,
+   "block": "b3"
+  }
+ ],
+ "provenance": {
+  "source": "colab-2026-03",
+  "model": "gemini-3-flash-preview",
+  "timestamp": "2026-03-04T13:18:47.555849",
+  "early_schema": false
+ },
+ "section_path": [
+  "t1",
+  "t1-3",
+  "t1-3-2"
+ ],
+ "sections": [
+  "t1-3-2"
+ ]
+}

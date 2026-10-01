@@ -1,0 +1,3252 @@
+{
+ "id": "fauna-fische-gewaesser",
+ "title": {
+  "de": "Fische des Fürstenthums nach Gewässern",
+  "en": "Fish of the principality by water body"
+ },
+ "category": "fauna",
+ "section": "t1-1-9",
+ "sources": [
+  {
+   "page": "87",
+   "block": "b2",
+   "rows": "r2-r27"
+  },
+  {
+   "page": "88",
+   "block": "b1",
+   "rows": "r2-r9"
+  },
+  {
+   "page": "88",
+   "block": "b2"
+  },
+  {
+   "page": "87",
+   "block": "b1"
+  },
+  {
+   "page": "831",
+   "block": "b3"
+  }
+ ],
+ "summary": {
+  "de": "Brückner führt 34 Fischarten mit zoologischem Namen und Volksnamen für die Saale, die Elster, die Wiesenthal und die Teiche auf. Die Tabelle wurde in eine Matrix Art × Gewässer überführt: Die Saale (32 Arten) und die Elster (30) sind artenreich, die Wiesenthal (25) und besonders die Teiche (6) deutlich ärmer; bei Lachs, Äsche und Forelle verzeichnet Brückner Rückgänge.",
+  "en": "Brückner lists 34 fish species with their zoological names and folk names for the Saale, the Elster, the Wiesenthal and the ponds. The table was turned into a species × water-body matrix: the Saale (32 species) and the Elster (30) are rich in species, the Wiesenthal (25) and especially the ponds (6) clearly poorer; for salmon, grayling and trout Brückner records declines."
+ },
+ "method": {
+  "de": "Die zweiteilige Tabelle (S. 87 Nr. 1–26, S. 88 Nr. 27–34) wurde vollständig übernommen, 34 Arten × 4 Gewässer = 136 Zellen. Jede Zelle wurde nach Brückners Wortlaut einer von fünf Stufen zugeordnet (abgeleitet): vorhanden (Volksname oder »häufig«), selten (selten, jetzt selten, seltener), eingesetzt (eingesetzt oder aus den Teichen eingetreten), früher (früher, sonst hie und da) und fraglich (?). Ein Strich (—) heißt, dass Brückner für das Gewässer nichts angibt. »desgl.« wurde zur Angabe der Zelle links aufgelöst. Das Sternchen (*) bezeichnet nach Brückner besonders bevorzugte Arten. Die Korrektur »Bandschmerle statt Brandschmerle« (S. 831) ist vermerkt. Heutige Namen und wissenschaftliche Namen stehen nur dort, wo die Zuordnung sicher ist; bei Nr. 5 und Nr. 21 fehlen sie.",
+  "en": "The two-part table (p. 87 nos. 1–26, p. 88 nos. 27–34) was taken over in full, 34 species × 4 water bodies = 136 cells. Each cell was assigned to one of five levels following Brückner's wording (derived): present (folk name or “häufig”), rare (selten, jetzt selten, seltener), stocked (stocked or strayed in from ponds), formerly (früher, sonst hie und da) and uncertain (?). A dash (—) means that Brückner gives nothing for the water body. “desgl.” (“ditto”) was resolved to the cell on the left. The asterisk (*) marks, according to Brückner, especially preferred species. The correction “Bandschmerle statt Brandschmerle” (p. 831) is noted. Modern and scientific names are given only where the identification is certain; for nos. 5 and 21 they are missing."
+ },
+ "findings": [
+  {
+   "de": "Die Saale hat 32 der 34 Arten, die Elster 30, die Wiesenthal 25 (davon 3 mit Fragezeichen) und die Teiche 6. 24 Arten stehen in allen drei Flussgebieten.",
+   "en": "The Saale has 32 of the 34 species, the Elster 30, the Wiesenthal 25 (3 of them with a question mark) and the ponds 6. 24 species are named in all three river systems."
+  },
+  {
+   "de": "21 der 34 Arten (62 %) sind als besonders bevorzugt gekennzeichnet. In den Teichen werden nur 6 Arten genannt; die Karausche (Nr. 6) kommt ausschließlich dort vor. Karpfen und Schleie stehen in Saale, Elster und Wiesenthal ausdrücklich als aus den Teichen eingetreten.",
+   "en": "21 of the 34 species (62 %) are marked as especially preferred. Only 6 species are named for the ponds; the crucian carp (no. 6) occurs only there. Carp and tench are explicitly given as strayed in from ponds in the Saale, Elster and Wiesenthal."
+  },
+  {
+   "de": "Rückgänge vermerkt Brückner in 9 Zellen: der Lachs ist in Saale und Elster »jetzt sehr selten«, die Äsche in der Wiesenthal nur noch »früher«, die Steinforelle in der Elster »früher in Bächen, jetzt gezüchtet«, die Quappe in der Elster »sonst häufig, jetzt selten«. Im Text führt er das auf rücksichtslosen, räuberischen Fischfang und eine nach »altem Schlendrian« betriebene Fischzucht zurück (S. 87).",
+   "en": "Brückner notes declines or rarity in 9 cells: the salmon is “jetzt sehr selten” in the Saale and Elster, the grayling in the Wiesenthal only “früher”, the brown trout in the Elster “früher in Bächen, jetzt gezüchtet”, the burbot in the Elster “sonst häufig, jetzt selten”. In the text he attributes the decline to reckless, predatory fishing and to fish-breeding carried on in the “old rut” (p. 87)."
+  }
+ ],
+ "caveats": [
+  {
+   "de": "Brückners Namenliste ist nach heutiger Kenntnis nicht frei von Dubletten und überholten Namen (z. B. Nr. 5 Cyprinus dobula neben Nr. 14 Squalius cephalus; Nr. 12 und 13 mit gleichen Volksnamen). Die Zahl 34 ist daher die Zahl der Tabellenzeilen, nicht gesicherter Arten.",
+   "en": "By current knowledge Brückner's list of names is not free of duplicates and obsolete names (e.g. no. 5 Cyprinus dobula next to no. 14 Squalius cephalus; nos. 12 and 13 with the same folk names). The figure 34 is therefore the number of table rows, not of established species."
+  },
+  {
+   "de": "Die Stufenzuordnung ist eine redaktionelle Vereinfachung; ein Strich heißt nicht, dass die Art im Gewässer fehlt. Bei Nr. 4 Karpfen und Nr. 7 Schleie steht »desgl.«, wodurch die Angabe »aus den Teichen eingetreten« für Elster und Wiesenthal übernommen wurde. Bachforelle (Nr. 30) und Lachsforelle (Nr. 29) werden heute zur selben Art (Salmo trutta) gerechnet.",
+   "en": "The level assignment is an editorial simplification; a dash does not mean that the species is absent from the water body. For no. 4 carp and no. 7 tench the entry is “desgl.”, so the statement “aus den Teichen eingetreten” was carried over to the Elster and Wiesenthal. Brown trout (no. 30) and sea trout (no. 29) are today counted as the same species (Salmo trutta)."
+  },
+  {
+   "de": "Die Tabelle gibt Volksnamen je Gewässer an; mehrere Arten tragen denselben Namen (z. B. »Weissfisch« für Nr. 12, 16, 18, 19, 22), so dass die Volksnamen allein keine Art bestimmen.",
+   "en": "The table gives folk names per water body; several species bear the same name (e.g. “Weissfisch” for nos. 12, 16, 18, 19, 22), so folk names alone do not identify a species."
+  }
+ ],
+ "datasets": [
+  {
+   "name": "fish_cells",
+   "title": {
+    "de": "Fischarten × Gewässer (S. 87–88)",
+    "en": "Fish species × water body (pp. 87–88)"
+   },
+   "columns": [
+    {
+     "name": "species_no",
+     "label": {
+      "de": "Nr.",
+      "en": "No."
+     },
+     "type": "integer",
+     "unit": null
+    },
+    {
+     "name": "species_label",
+     "label": {
+      "de": "Zoologischer Name (Druck)",
+      "en": "Zoological name (print)"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "preferred",
+     "label": {
+      "de": "Besonders bevorzugt (*)",
+      "en": "Especially preferred (*)"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "water_key",
+     "label": {
+      "de": "Gewässer (Schlüssel)",
+      "en": "Water body (key)"
+     },
+     "type": "string",
+     "unit": null,
+     "derived": true
+    },
+    {
+     "name": "water_de",
+     "label": {
+      "de": "Gewässer",
+      "en": "Water body"
+     },
+     "type": "string",
+     "unit": null,
+     "derived": true
+    },
+    {
+     "name": "water_en",
+     "label": {
+      "de": "Gewässer (EN)",
+      "en": "Water body (EN)"
+     },
+     "type": "string",
+     "unit": null,
+     "derived": true
+    },
+    {
+     "name": "cell_text",
+     "label": {
+      "de": "Angabe im Druck",
+      "en": "Entry in print"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "status_key",
+     "label": {
+      "de": "Stufe (Schlüssel)",
+      "en": "Level (key)"
+     },
+     "type": "string",
+     "unit": null,
+     "derived": true
+    },
+    {
+     "name": "status_order",
+     "label": {
+      "de": "Stufe (Reihenfolge)",
+      "en": "Level (order)"
+     },
+     "type": "integer",
+     "unit": null,
+     "derived": true
+    },
+    {
+     "name": "status_de",
+     "label": {
+      "de": "Stufe",
+      "en": "Level"
+     },
+     "type": "string",
+     "unit": null,
+     "derived": true
+    },
+    {
+     "name": "status_en",
+     "label": {
+      "de": "Stufe (EN)",
+      "en": "Level (EN)"
+     },
+     "type": "string",
+     "unit": null,
+     "derived": true
+    },
+    {
+     "name": "correction",
+     "label": {
+      "de": "Berichtigung (S. 831)",
+      "en": "Correction (p. 831)"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "page",
+     "label": {
+      "de": "Seite",
+      "en": "Page"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "block",
+     "label": {
+      "de": "Block",
+      "en": "Block"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "table_row",
+     "label": {
+      "de": "Tabellenzeile",
+      "en": "Table row"
+     },
+     "type": "integer",
+     "unit": null,
+     "derived": true
+    }
+   ],
+   "rows": [
+    [
+     1,
+     "1. Cobitis fossilis",
+     null,
+     "saale",
+     "Saale",
+     "Saale",
+     "Schlammbeißer",
+     "present",
+     1,
+     "vorhanden",
+     "present",
+     null,
+     "87",
+     "b2",
+     2
+    ],
+    [
+     1,
+     "1. Cobitis fossilis",
+     null,
+     "elster",
+     "Elster",
+     "Elster",
+     "Schlammpitzger, Wetterfisch (bes. bei Köstritz)",
+     "present",
+     1,
+     "vorhanden",
+     "present",
+     null,
+     "87",
+     "b2",
+     2
+    ],
+    [
+     1,
+     "1. Cobitis fossilis",
+     null,
+     "wiesenthal",
+     "Wiesenthal",
+     "Wiesenthal stream",
+     "Wetterfisch",
+     "present",
+     1,
+     "vorhanden",
+     "present",
+     null,
+     "87",
+     "b2",
+     2
+    ],
+    [
+     1,
+     "1. Cobitis fossilis",
+     null,
+     "teiche",
+     "Teiche",
+     "Ponds",
+     "—",
+     "absent",
+     6,
+     "nicht angegeben",
+     "not given",
+     null,
+     "87",
+     "b2",
+     2
+    ],
+    [
+     2,
+     "2. Cobitis barbatula*",
+     "ja",
+     "saale",
+     "Saale",
+     "Saale",
+     "Schmerle",
+     "present",
+     1,
+     "vorhanden",
+     "present",
+     null,
+     "87",
+     "b2",
+     3
+    ],
+    [
+     2,
+     "2. Cobitis barbatula*",
+     "ja",
+     "elster",
+     "Elster",
+     "Elster",
+     "Schmerle",
+     "present",
+     1,
+     "vorhanden",
+     "present",
+     null,
+     "87",
+     "b2",
+     3
+    ],
+    [
+     2,
+     "2. Cobitis barbatula*",
+     "ja",
+     "wiesenthal",
+     "Wiesenthal",
+     "Wiesenthal stream",
+     "Schmerle",
+     "present",
+     1,
+     "vorhanden",
+     "present",
+     null,
+     "87",
+     "b2",
+     3
+    ],
+    [
+     2,
+     "2. Cobitis barbatula*",
+     "ja",
+     "teiche",
+     "Teiche",
+     "Ponds",
+     "häufig ohne Züchtung.",
+     "present",
+     1,
+     "vorhanden",
+     "present",
+     null,
+     "87",
+     "b2",
+     3
+    ],
+    [
+     3,
+     "3. Cobitis taenia*",
+     "ja",
+     "saale",
+     "Saale",
+     "Saale",
+     "Brandschmerle, selten",
+     "rare",
+     2,
+     "selten",
+     "rare",
+     "Bandschmerle statt Brandschmerle (S. 831)",
+     "87",
+     "b2",
+     4
+    ],
+    [
+     3,
+     "3. Cobitis taenia*",
+     "ja",
+     "elster",
+     "Elster",
+     "Elster",
+     "Steinpitzger, Schmerle",
+     "present",
+     1,
+     "vorhanden",
+     "present",
+     null,
+     "87",
+     "b2",
+     4
+    ],
+    [
+     3,
+     "3. Cobitis taenia*",
+     "ja",
+     "wiesenthal",
+     "Wiesenthal",
+     "Wiesenthal stream",
+     "Schmerle",
+     "present",
+     1,
+     "vorhanden",
+     "present",
+     null,
+     "87",
+     "b2",
+     4
+    ],
+    [
+     3,
+     "3. Cobitis taenia*",
+     "ja",
+     "teiche",
+     "Teiche",
+     "Ponds",
+     "—",
+     "absent",
+     6,
+     "nicht angegeben",
+     "not given",
+     null,
+     "87",
+     "b2",
+     4
+    ],
+    [
+     4,
+     "4. Cyprinus carpio*",
+     "ja",
+     "saale",
+     "Saale",
+     "Saale",
+     "Karpfen, aber aus den Teichen eingetreten; selten",
+     "introduced",
+     3,
+     "eingesetzt",
+     "stocked",
+     null,
+     "87",
+     "b2",
+     5
+    ],
+    [
+     4,
+     "4. Cyprinus carpio*",
+     "ja",
+     "elster",
+     "Elster",
+     "Elster",
+     "desgl.",
+     "introduced",
+     3,
+     "eingesetzt",
+     "stocked",
+     null,
+     "87",
+     "b2",
+     5
+    ],
+    [
+     4,
+     "4. Cyprinus carpio*",
+     "ja",
+     "wiesenthal",
+     "Wiesenthal",
+     "Wiesenthal stream",
+     "desgl.",
+     "introduced",
+     3,
+     "eingesetzt",
+     "stocked",
+     null,
+     "87",
+     "b2",
+     5
+    ],
+    [
+     4,
+     "4. Cyprinus carpio*",
+     "ja",
+     "teiche",
+     "Teiche",
+     "Ponds",
+     "Karpfen.",
+     "present",
+     1,
+     "vorhanden",
+     "present",
+     null,
+     "87",
+     "b2",
+     5
+    ],
+    [
+     5,
+     "5. Cyprinus dobula",
+     null,
+     "saale",
+     "Saale",
+     "Saale",
+     "Elling, Aelmt",
+     "present",
+     1,
+     "vorhanden",
+     "present",
+     null,
+     "87",
+     "b2",
+     6
+    ],
+    [
+     5,
+     "5. Cyprinus dobula",
+     null,
+     "elster",
+     "Elster",
+     "Elster",
+     "Schnottfisch, Hasel",
+     "present",
+     1,
+     "vorhanden",
+     "present",
+     null,
+     "87",
+     "b2",
+     6
+    ],
+    [
+     5,
+     "5. Cyprinus dobula",
+     null,
+     "wiesenthal",
+     "Wiesenthal",
+     "Wiesenthal stream",
+     "—",
+     "absent",
+     6,
+     "nicht angegeben",
+     "not given",
+     null,
+     "87",
+     "b2",
+     6
+    ],
+    [
+     5,
+     "5. Cyprinus dobula",
+     null,
+     "teiche",
+     "Teiche",
+     "Ponds",
+     "—",
+     "absent",
+     6,
+     "nicht angegeben",
+     "not given",
+     null,
+     "87",
+     "b2",
+     6
+    ],
+    [
+     6,
+     "6. Carassius vulgaris*",
+     "ja",
+     "saale",
+     "Saale",
+     "Saale",
+     "—",
+     "absent",
+     6,
+     "nicht angegeben",
+     "not given",
+     null,
+     "87",
+     "b2",
+     7
+    ],
+    [
+     6,
+     "6. Carassius vulgaris*",
+     "ja",
+     "elster",
+     "Elster",
+     "Elster",
+     "—",
+     "absent",
+     6,
+     "nicht angegeben",
+     "not given",
+     null,
+     "87",
+     "b2",
+     7
+    ],
+    [
+     6,
+     "6. Carassius vulgaris*",
+     "ja",
+     "wiesenthal",
+     "Wiesenthal",
+     "Wiesenthal stream",
+     "—",
+     "absent",
+     6,
+     "nicht angegeben",
+     "not given",
+     null,
+     "87",
+     "b2",
+     7
+    ],
+    [
+     6,
+     "6. Carassius vulgaris*",
+     "ja",
+     "teiche",
+     "Teiche",
+     "Ponds",
+     "Karausche bis 1 Pfd. schwer.",
+     "present",
+     1,
+     "vorhanden",
+     "present",
+     null,
+     "87",
+     "b2",
+     7
+    ],
+    [
+     7,
+     "7. Tinca vulgaris*",
+     "ja",
+     "saale",
+     "Saale",
+     "Saale",
+     "bisweilen aus den Teichen eingetreten",
+     "introduced",
+     3,
+     "eingesetzt",
+     "stocked",
+     null,
+     "87",
+     "b2",
+     8
+    ],
+    [
+     7,
+     "7. Tinca vulgaris*",
+     "ja",
+     "elster",
+     "Elster",
+     "Elster",
+     "desgl.",
+     "introduced",
+     3,
+     "eingesetzt",
+     "stocked",
+     null,
+     "87",
+     "b2",
+     8
+    ],
+    [
+     7,
+     "7. Tinca vulgaris*",
+     "ja",
+     "wiesenthal",
+     "Wiesenthal",
+     "Wiesenthal stream",
+     "desgl.",
+     "introduced",
+     3,
+     "eingesetzt",
+     "stocked",
+     null,
+     "87",
+     "b2",
+     8
+    ],
+    [
+     7,
+     "7. Tinca vulgaris*",
+     "ja",
+     "teiche",
+     "Teiche",
+     "Ponds",
+     "Schleihe.",
+     "present",
+     1,
+     "vorhanden",
+     "present",
+     null,
+     "87",
+     "b2",
+     8
+    ],
+    [
+     8,
+     "8. Barbus fluviatilis*",
+     "ja",
+     "saale",
+     "Saale",
+     "Saale",
+     "Barbe",
+     "present",
+     1,
+     "vorhanden",
+     "present",
+     null,
+     "87",
+     "b2",
+     9
+    ],
+    [
+     8,
+     "8. Barbus fluviatilis*",
+     "ja",
+     "elster",
+     "Elster",
+     "Elster",
+     "Barbe (bis 9 Pfd.)",
+     "present",
+     1,
+     "vorhanden",
+     "present",
+     null,
+     "87",
+     "b2",
+     9
+    ],
+    [
+     8,
+     "8. Barbus fluviatilis*",
+     "ja",
+     "wiesenthal",
+     "Wiesenthal",
+     "Wiesenthal stream",
+     "erst eingesetzt",
+     "introduced",
+     3,
+     "eingesetzt",
+     "stocked",
+     null,
+     "87",
+     "b2",
+     9
+    ],
+    [
+     8,
+     "8. Barbus fluviatilis*",
+     "ja",
+     "teiche",
+     "Teiche",
+     "Ponds",
+     "—",
+     "absent",
+     6,
+     "nicht angegeben",
+     "not given",
+     null,
+     "87",
+     "b2",
+     9
+    ],
+    [
+     9,
+     "9. Gobio fluviatilis*",
+     "ja",
+     "saale",
+     "Saale",
+     "Saale",
+     "Kresse",
+     "present",
+     1,
+     "vorhanden",
+     "present",
+     null,
+     "87",
+     "b2",
+     10
+    ],
+    [
+     9,
+     "9. Gobio fluviatilis*",
+     "ja",
+     "elster",
+     "Elster",
+     "Elster",
+     "Kressling, Kresse",
+     "present",
+     1,
+     "vorhanden",
+     "present",
+     null,
+     "87",
+     "b2",
+     10
+    ],
+    [
+     9,
+     "9. Gobio fluviatilis*",
+     "ja",
+     "wiesenthal",
+     "Wiesenthal",
+     "Wiesenthal stream",
+     "Kresse",
+     "present",
+     1,
+     "vorhanden",
+     "present",
+     null,
+     "87",
+     "b2",
+     10
+    ],
+    [
+     9,
+     "9. Gobio fluviatilis*",
+     "ja",
+     "teiche",
+     "Teiche",
+     "Ponds",
+     "—",
+     "absent",
+     6,
+     "nicht angegeben",
+     "not given",
+     null,
+     "87",
+     "b2",
+     10
+    ],
+    [
+     10,
+     "10. Rhodeus amarus",
+     null,
+     "saale",
+     "Saale",
+     "Saale",
+     "Bitterling",
+     "present",
+     1,
+     "vorhanden",
+     "present",
+     null,
+     "87",
+     "b2",
+     11
+    ],
+    [
+     10,
+     "10. Rhodeus amarus",
+     null,
+     "elster",
+     "Elster",
+     "Elster",
+     "Pritsch",
+     "present",
+     1,
+     "vorhanden",
+     "present",
+     null,
+     "87",
+     "b2",
+     11
+    ],
+    [
+     10,
+     "10. Rhodeus amarus",
+     null,
+     "wiesenthal",
+     "Wiesenthal",
+     "Wiesenthal stream",
+     "—",
+     "absent",
+     6,
+     "nicht angegeben",
+     "not given",
+     null,
+     "87",
+     "b2",
+     11
+    ],
+    [
+     10,
+     "10. Rhodeus amarus",
+     null,
+     "teiche",
+     "Teiche",
+     "Ponds",
+     "—",
+     "absent",
+     6,
+     "nicht angegeben",
+     "not given",
+     null,
+     "87",
+     "b2",
+     11
+    ],
+    [
+     11,
+     "11. Phoxinus laevis*",
+     "ja",
+     "saale",
+     "Saale",
+     "Saale",
+     "Ellritze, Erlkress",
+     "present",
+     1,
+     "vorhanden",
+     "present",
+     null,
+     "87",
+     "b2",
+     12
+    ],
+    [
+     11,
+     "11. Phoxinus laevis*",
+     "ja",
+     "elster",
+     "Elster",
+     "Elster",
+     "Ellritze, Ellerling",
+     "present",
+     1,
+     "vorhanden",
+     "present",
+     null,
+     "87",
+     "b2",
+     12
+    ],
+    [
+     11,
+     "11. Phoxinus laevis*",
+     "ja",
+     "wiesenthal",
+     "Wiesenthal",
+     "Wiesenthal stream",
+     "Ellritze",
+     "present",
+     1,
+     "vorhanden",
+     "present",
+     null,
+     "87",
+     "b2",
+     12
+    ],
+    [
+     11,
+     "11. Phoxinus laevis*",
+     "ja",
+     "teiche",
+     "Teiche",
+     "Ponds",
+     "—",
+     "absent",
+     6,
+     "nicht angegeben",
+     "not given",
+     null,
+     "87",
+     "b2",
+     12
+    ],
+    [
+     12,
+     "12. Leuciscus rutilus*",
+     "ja",
+     "saale",
+     "Saale",
+     "Saale",
+     "Weissfisch",
+     "present",
+     1,
+     "vorhanden",
+     "present",
+     null,
+     "87",
+     "b2",
+     13
+    ],
+    [
+     12,
+     "12. Leuciscus rutilus*",
+     "ja",
+     "elster",
+     "Elster",
+     "Elster",
+     "Rothauge, Rothflosse",
+     "present",
+     1,
+     "vorhanden",
+     "present",
+     null,
+     "87",
+     "b2",
+     13
+    ],
+    [
+     12,
+     "12. Leuciscus rutilus*",
+     "ja",
+     "wiesenthal",
+     "Wiesenthal",
+     "Wiesenthal stream",
+     "Rothauge",
+     "present",
+     1,
+     "vorhanden",
+     "present",
+     null,
+     "87",
+     "b2",
+     13
+    ],
+    [
+     12,
+     "12. Leuciscus rutilus*",
+     "ja",
+     "teiche",
+     "Teiche",
+     "Ponds",
+     "—",
+     "absent",
+     6,
+     "nicht angegeben",
+     "not given",
+     null,
+     "87",
+     "b2",
+     13
+    ],
+    [
+     13,
+     "13. Leuciscus (Scardinius) erythrophthalmus*",
+     "ja",
+     "saale",
+     "Saale",
+     "Saale",
+     "Rothauge, Plötze",
+     "present",
+     1,
+     "vorhanden",
+     "present",
+     null,
+     "87",
+     "b2",
+     14
+    ],
+    [
+     13,
+     "13. Leuciscus (Scardinius) erythrophthalmus*",
+     "ja",
+     "elster",
+     "Elster",
+     "Elster",
+     "Rothauge, Rothflosse",
+     "present",
+     1,
+     "vorhanden",
+     "present",
+     null,
+     "87",
+     "b2",
+     14
+    ],
+    [
+     13,
+     "13. Leuciscus (Scardinius) erythrophthalmus*",
+     "ja",
+     "wiesenthal",
+     "Wiesenthal",
+     "Wiesenthal stream",
+     "Rothauge",
+     "present",
+     1,
+     "vorhanden",
+     "present",
+     null,
+     "87",
+     "b2",
+     14
+    ],
+    [
+     13,
+     "13. Leuciscus (Scardinius) erythrophthalmus*",
+     "ja",
+     "teiche",
+     "Teiche",
+     "Ponds",
+     "—",
+     "absent",
+     6,
+     "nicht angegeben",
+     "not given",
+     null,
+     "87",
+     "b2",
+     14
+    ],
+    [
+     14,
+     "14. Squalius cephalus",
+     null,
+     "saale",
+     "Saale",
+     "Saale",
+     "Elte, Eltfisch",
+     "present",
+     1,
+     "vorhanden",
+     "present",
+     null,
+     "87",
+     "b2",
+     15
+    ],
+    [
+     14,
+     "14. Squalius cephalus",
+     null,
+     "elster",
+     "Elster",
+     "Elster",
+     "Altfisch, Dickkopf (Weissfisch)",
+     "present",
+     1,
+     "vorhanden",
+     "present",
+     null,
+     "87",
+     "b2",
+     15
+    ],
+    [
+     14,
+     "14. Squalius cephalus",
+     null,
+     "wiesenthal",
+     "Wiesenthal",
+     "Wiesenthal stream",
+     "Altfisch",
+     "present",
+     1,
+     "vorhanden",
+     "present",
+     null,
+     "87",
+     "b2",
+     15
+    ],
+    [
+     14,
+     "14. Squalius cephalus",
+     null,
+     "teiche",
+     "Teiche",
+     "Ponds",
+     "—",
+     "absent",
+     6,
+     "nicht angegeben",
+     "not given",
+     null,
+     "87",
+     "b2",
+     15
+    ],
+    [
+     15,
+     "15. Squalius leuciscus",
+     null,
+     "saale",
+     "Saale",
+     "Saale",
+     "Haase",
+     "present",
+     1,
+     "vorhanden",
+     "present",
+     null,
+     "87",
+     "b2",
+     16
+    ],
+    [
+     15,
+     "15. Squalius leuciscus",
+     null,
+     "elster",
+     "Elster",
+     "Elster",
+     "Häßling",
+     "present",
+     1,
+     "vorhanden",
+     "present",
+     null,
+     "87",
+     "b2",
+     16
+    ],
+    [
+     15,
+     "15. Squalius leuciscus",
+     null,
+     "wiesenthal",
+     "Wiesenthal",
+     "Wiesenthal stream",
+     "Altfisch",
+     "present",
+     1,
+     "vorhanden",
+     "present",
+     null,
+     "87",
+     "b2",
+     16
+    ],
+    [
+     15,
+     "15. Squalius leuciscus",
+     null,
+     "teiche",
+     "Teiche",
+     "Ponds",
+     "—",
+     "absent",
+     6,
+     "nicht angegeben",
+     "not given",
+     null,
+     "87",
+     "b2",
+     16
+    ],
+    [
+     16,
+     "16. Idus melanotus",
+     null,
+     "saale",
+     "Saale",
+     "Saale",
+     "Weissfisch",
+     "present",
+     1,
+     "vorhanden",
+     "present",
+     null,
+     "87",
+     "b2",
+     17
+    ],
+    [
+     16,
+     "16. Idus melanotus",
+     null,
+     "elster",
+     "Elster",
+     "Elster",
+     "Weissfisch",
+     "present",
+     1,
+     "vorhanden",
+     "present",
+     null,
+     "87",
+     "b2",
+     17
+    ],
+    [
+     16,
+     "16. Idus melanotus",
+     null,
+     "wiesenthal",
+     "Wiesenthal",
+     "Wiesenthal stream",
+     "Altfisch",
+     "present",
+     1,
+     "vorhanden",
+     "present",
+     null,
+     "87",
+     "b2",
+     17
+    ],
+    [
+     16,
+     "16. Idus melanotus",
+     null,
+     "teiche",
+     "Teiche",
+     "Ponds",
+     "—",
+     "absent",
+     6,
+     "nicht angegeben",
+     "not given",
+     null,
+     "87",
+     "b2",
+     17
+    ],
+    [
+     17,
+     "17. Aspius rapax*",
+     "ja",
+     "saale",
+     "Saale",
+     "Saale",
+     "Rappe",
+     "present",
+     1,
+     "vorhanden",
+     "present",
+     null,
+     "87",
+     "b2",
+     18
+    ],
+    [
+     17,
+     "17. Aspius rapax*",
+     "ja",
+     "elster",
+     "Elster",
+     "Elster",
+     "Rappe",
+     "present",
+     1,
+     "vorhanden",
+     "present",
+     null,
+     "87",
+     "b2",
+     18
+    ],
+    [
+     17,
+     "17. Aspius rapax*",
+     "ja",
+     "wiesenthal",
+     "Wiesenthal",
+     "Wiesenthal stream",
+     "—",
+     "absent",
+     6,
+     "nicht angegeben",
+     "not given",
+     null,
+     "87",
+     "b2",
+     18
+    ],
+    [
+     17,
+     "17. Aspius rapax*",
+     "ja",
+     "teiche",
+     "Teiche",
+     "Ponds",
+     "—",
+     "absent",
+     6,
+     "nicht angegeben",
+     "not given",
+     null,
+     "87",
+     "b2",
+     18
+    ],
+    [
+     18,
+     "18. Alburnus lucidus",
+     null,
+     "saale",
+     "Saale",
+     "Saale",
+     "Schneider, Stromblickke, Weissfisch",
+     "present",
+     1,
+     "vorhanden",
+     "present",
+     null,
+     "87",
+     "b2",
+     19
+    ],
+    [
+     18,
+     "18. Alburnus lucidus",
+     null,
+     "elster",
+     "Elster",
+     "Elster",
+     "Schneider, Weissfisch",
+     "present",
+     1,
+     "vorhanden",
+     "present",
+     null,
+     "87",
+     "b2",
+     19
+    ],
+    [
+     18,
+     "18. Alburnus lucidus",
+     null,
+     "wiesenthal",
+     "Wiesenthal",
+     "Wiesenthal stream",
+     "?",
+     "uncertain",
+     5,
+     "fraglich",
+     "uncertain",
+     null,
+     "87",
+     "b2",
+     19
+    ],
+    [
+     18,
+     "18. Alburnus lucidus",
+     null,
+     "teiche",
+     "Teiche",
+     "Ponds",
+     "—",
+     "absent",
+     6,
+     "nicht angegeben",
+     "not given",
+     null,
+     "87",
+     "b2",
+     19
+    ],
+    [
+     19,
+     "19. Alb. bipunctatus",
+     null,
+     "saale",
+     "Saale",
+     "Saale",
+     "Weissfisch",
+     "present",
+     1,
+     "vorhanden",
+     "present",
+     null,
+     "87",
+     "b2",
+     20
+    ],
+    [
+     19,
+     "19. Alb. bipunctatus",
+     null,
+     "elster",
+     "Elster",
+     "Elster",
+     "Weissfisch",
+     "present",
+     1,
+     "vorhanden",
+     "present",
+     null,
+     "87",
+     "b2",
+     20
+    ],
+    [
+     19,
+     "19. Alb. bipunctatus",
+     null,
+     "wiesenthal",
+     "Wiesenthal",
+     "Wiesenthal stream",
+     "Weissfisch",
+     "present",
+     1,
+     "vorhanden",
+     "present",
+     null,
+     "87",
+     "b2",
+     20
+    ],
+    [
+     19,
+     "19. Alb. bipunctatus",
+     null,
+     "teiche",
+     "Teiche",
+     "Ponds",
+     "—",
+     "absent",
+     6,
+     "nicht angegeben",
+     "not given",
+     null,
+     "87",
+     "b2",
+     20
+    ],
+    [
+     20,
+     "20. Abramis brama",
+     null,
+     "saale",
+     "Saale",
+     "Saale",
+     "—",
+     "absent",
+     6,
+     "nicht angegeben",
+     "not given",
+     null,
+     "87",
+     "b2",
+     21
+    ],
+    [
+     20,
+     "20. Abramis brama",
+     null,
+     "elster",
+     "Elster",
+     "Elster",
+     "—",
+     "absent",
+     6,
+     "nicht angegeben",
+     "not given",
+     null,
+     "87",
+     "b2",
+     21
+    ],
+    [
+     20,
+     "20. Abramis brama",
+     null,
+     "wiesenthal",
+     "Wiesenthal",
+     "Wiesenthal stream",
+     "Blei, eingesetzt?",
+     "uncertain",
+     5,
+     "fraglich",
+     "uncertain",
+     null,
+     "87",
+     "b2",
+     21
+    ],
+    [
+     20,
+     "20. Abramis brama",
+     null,
+     "teiche",
+     "Teiche",
+     "Ponds",
+     "—",
+     "absent",
+     6,
+     "nicht angegeben",
+     "not given",
+     null,
+     "87",
+     "b2",
+     21
+    ],
+    [
+     21,
+     "21. Abramis melanops",
+     null,
+     "saale",
+     "Saale",
+     "Saale",
+     "Zährde",
+     "present",
+     1,
+     "vorhanden",
+     "present",
+     null,
+     "87",
+     "b2",
+     22
+    ],
+    [
+     21,
+     "21. Abramis melanops",
+     null,
+     "elster",
+     "Elster",
+     "Elster",
+     "Zehrde",
+     "present",
+     1,
+     "vorhanden",
+     "present",
+     null,
+     "87",
+     "b2",
+     22
+    ],
+    [
+     21,
+     "21. Abramis melanops",
+     null,
+     "wiesenthal",
+     "Wiesenthal",
+     "Wiesenthal stream",
+     "—",
+     "absent",
+     6,
+     "nicht angegeben",
+     "not given",
+     null,
+     "87",
+     "b2",
+     22
+    ],
+    [
+     21,
+     "21. Abramis melanops",
+     null,
+     "teiche",
+     "Teiche",
+     "Ponds",
+     "—",
+     "absent",
+     6,
+     "nicht angegeben",
+     "not given",
+     null,
+     "87",
+     "b2",
+     22
+    ],
+    [
+     22,
+     "22. Blicca Björkna",
+     null,
+     "saale",
+     "Saale",
+     "Saale",
+     "Schlammblikke, Eisfisch, Weissfisch",
+     "present",
+     1,
+     "vorhanden",
+     "present",
+     null,
+     "87",
+     "b2",
+     23
+    ],
+    [
+     22,
+     "22. Blicca Björkna",
+     null,
+     "elster",
+     "Elster",
+     "Elster",
+     "Grundblikke, Eisfisch, Weissfisch",
+     "present",
+     1,
+     "vorhanden",
+     "present",
+     null,
+     "87",
+     "b2",
+     23
+    ],
+    [
+     22,
+     "22. Blicca Björkna",
+     null,
+     "wiesenthal",
+     "Wiesenthal",
+     "Wiesenthal stream",
+     "?",
+     "uncertain",
+     5,
+     "fraglich",
+     "uncertain",
+     null,
+     "87",
+     "b2",
+     23
+    ],
+    [
+     22,
+     "22. Blicca Björkna",
+     null,
+     "teiche",
+     "Teiche",
+     "Ponds",
+     "—",
+     "absent",
+     6,
+     "nicht angegeben",
+     "not given",
+     null,
+     "87",
+     "b2",
+     23
+    ],
+    [
+     23,
+     "23. Lota vulgaris*",
+     "ja",
+     "saale",
+     "Saale",
+     "Saale",
+     "Aalrauppe, Quappe",
+     "present",
+     1,
+     "vorhanden",
+     "present",
+     null,
+     "87",
+     "b2",
+     24
+    ],
+    [
+     23,
+     "23. Lota vulgaris*",
+     "ja",
+     "elster",
+     "Elster",
+     "Elster",
+     "sonst häufig, jetzt selten",
+     "rare",
+     2,
+     "selten",
+     "rare",
+     null,
+     "87",
+     "b2",
+     24
+    ],
+    [
+     23,
+     "23. Lota vulgaris*",
+     "ja",
+     "wiesenthal",
+     "Wiesenthal",
+     "Wiesenthal stream",
+     "Aalruppe",
+     "present",
+     1,
+     "vorhanden",
+     "present",
+     null,
+     "87",
+     "b2",
+     24
+    ],
+    [
+     23,
+     "23. Lota vulgaris*",
+     "ja",
+     "teiche",
+     "Teiche",
+     "Ponds",
+     "sonst hie und da.",
+     "former",
+     4,
+     "früher",
+     "formerly",
+     null,
+     "87",
+     "b2",
+     24
+    ],
+    [
+     24,
+     "24. Cottus Gobio*",
+     "ja",
+     "saale",
+     "Saale",
+     "Saale",
+     "Kaulbarsch, Rotzkolbe, Rotzkober",
+     "present",
+     1,
+     "vorhanden",
+     "present",
+     null,
+     "87",
+     "b2",
+     25
+    ],
+    [
+     24,
+     "24. Cottus Gobio*",
+     "ja",
+     "elster",
+     "Elster",
+     "Elster",
+     "Kaulbutz, Rotzkolbe, Kaulquappe, seltener",
+     "rare",
+     2,
+     "selten",
+     "rare",
+     null,
+     "87",
+     "b2",
+     25
+    ],
+    [
+     24,
+     "24. Cottus Gobio*",
+     "ja",
+     "wiesenthal",
+     "Wiesenthal",
+     "Wiesenthal stream",
+     "Kaulbatze",
+     "present",
+     1,
+     "vorhanden",
+     "present",
+     null,
+     "87",
+     "b2",
+     25
+    ],
+    [
+     24,
+     "24. Cottus Gobio*",
+     "ja",
+     "teiche",
+     "Teiche",
+     "Ponds",
+     "—",
+     "absent",
+     6,
+     "nicht angegeben",
+     "not given",
+     null,
+     "87",
+     "b2",
+     25
+    ],
+    [
+     25,
+     "25. Acerina cernua*",
+     "ja",
+     "saale",
+     "Saale",
+     "Saale",
+     "Krebsfisch?",
+     "present",
+     1,
+     "vorhanden",
+     "present",
+     null,
+     "87",
+     "b2",
+     26
+    ],
+    [
+     25,
+     "25. Acerina cernua*",
+     "ja",
+     "elster",
+     "Elster",
+     "Elster",
+     "Stachelbarsch",
+     "present",
+     1,
+     "vorhanden",
+     "present",
+     null,
+     "87",
+     "b2",
+     26
+    ],
+    [
+     25,
+     "25. Acerina cernua*",
+     "ja",
+     "wiesenthal",
+     "Wiesenthal",
+     "Wiesenthal stream",
+     "—",
+     "absent",
+     6,
+     "nicht angegeben",
+     "not given",
+     null,
+     "87",
+     "b2",
+     26
+    ],
+    [
+     25,
+     "25. Acerina cernua*",
+     "ja",
+     "teiche",
+     "Teiche",
+     "Ponds",
+     "—",
+     "absent",
+     6,
+     "nicht angegeben",
+     "not given",
+     null,
+     "87",
+     "b2",
+     26
+    ],
+    [
+     26,
+     "26. Perca fluviatilis*",
+     "ja",
+     "saale",
+     "Saale",
+     "Saale",
+     "Barsch, Börsch",
+     "present",
+     1,
+     "vorhanden",
+     "present",
+     null,
+     "87",
+     "b2",
+     27
+    ],
+    [
+     26,
+     "26. Perca fluviatilis*",
+     "ja",
+     "elster",
+     "Elster",
+     "Elster",
+     "Bunt- oder Stockbarsch",
+     "present",
+     1,
+     "vorhanden",
+     "present",
+     null,
+     "87",
+     "b2",
+     27
+    ],
+    [
+     26,
+     "26. Perca fluviatilis*",
+     "ja",
+     "wiesenthal",
+     "Wiesenthal",
+     "Wiesenthal stream",
+     "Bertsche",
+     "present",
+     1,
+     "vorhanden",
+     "present",
+     null,
+     "87",
+     "b2",
+     27
+    ],
+    [
+     26,
+     "26. Perca fluviatilis*",
+     "ja",
+     "teiche",
+     "Teiche",
+     "Ponds",
+     "—",
+     "absent",
+     6,
+     "nicht angegeben",
+     "not given",
+     null,
+     "87",
+     "b2",
+     27
+    ],
+    [
+     27,
+     "27. Thymallus vulgaris*",
+     "ja",
+     "saale",
+     "Saale",
+     "Saale",
+     "gemeine Forelle, (Asche)",
+     "present",
+     1,
+     "vorhanden",
+     "present",
+     null,
+     "88",
+     "b1",
+     2
+    ],
+    [
+     27,
+     "27. Thymallus vulgaris*",
+     "ja",
+     "elster",
+     "Elster",
+     "Elster",
+     "Asche",
+     "present",
+     1,
+     "vorhanden",
+     "present",
+     null,
+     "88",
+     "b1",
+     2
+    ],
+    [
+     27,
+     "27. Thymallus vulgaris*",
+     "ja",
+     "wiesenthal",
+     "Wiesenthal",
+     "Wiesenthal stream",
+     "früher",
+     "former",
+     4,
+     "früher",
+     "formerly",
+     null,
+     "88",
+     "b1",
+     2
+    ],
+    [
+     27,
+     "27. Thymallus vulgaris*",
+     "ja",
+     "teiche",
+     "Teiche",
+     "Ponds",
+     "—",
+     "absent",
+     6,
+     "nicht angegeben",
+     "not given",
+     null,
+     "88",
+     "b1",
+     2
+    ],
+    [
+     28,
+     "28. Salmo Salar*",
+     "ja",
+     "saale",
+     "Saale",
+     "Saale",
+     "Lachs, jetzt sehr selten",
+     "rare",
+     2,
+     "selten",
+     "rare",
+     null,
+     "88",
+     "b1",
+     3
+    ],
+    [
+     28,
+     "28. Salmo Salar*",
+     "ja",
+     "elster",
+     "Elster",
+     "Elster",
+     "jetzt sehr selten",
+     "rare",
+     2,
+     "selten",
+     "rare",
+     null,
+     "88",
+     "b1",
+     3
+    ],
+    [
+     28,
+     "28. Salmo Salar*",
+     "ja",
+     "wiesenthal",
+     "Wiesenthal",
+     "Wiesenthal stream",
+     "—",
+     "absent",
+     6,
+     "nicht angegeben",
+     "not given",
+     null,
+     "88",
+     "b1",
+     3
+    ],
+    [
+     28,
+     "28. Salmo Salar*",
+     "ja",
+     "teiche",
+     "Teiche",
+     "Ponds",
+     "—",
+     "absent",
+     6,
+     "nicht angegeben",
+     "not given",
+     null,
+     "88",
+     "b1",
+     3
+    ],
+    [
+     29,
+     "29. Salmo trutta*",
+     "ja",
+     "saale",
+     "Saale",
+     "Saale",
+     "Lachsforelle",
+     "present",
+     1,
+     "vorhanden",
+     "present",
+     null,
+     "88",
+     "b1",
+     4
+    ],
+    [
+     29,
+     "29. Salmo trutta*",
+     "ja",
+     "elster",
+     "Elster",
+     "Elster",
+     "—",
+     "absent",
+     6,
+     "nicht angegeben",
+     "not given",
+     null,
+     "88",
+     "b1",
+     4
+    ],
+    [
+     29,
+     "29. Salmo trutta*",
+     "ja",
+     "wiesenthal",
+     "Wiesenthal",
+     "Wiesenthal stream",
+     "—",
+     "absent",
+     6,
+     "nicht angegeben",
+     "not given",
+     null,
+     "88",
+     "b1",
+     4
+    ],
+    [
+     29,
+     "29. Salmo trutta*",
+     "ja",
+     "teiche",
+     "Teiche",
+     "Ponds",
+     "—",
+     "absent",
+     6,
+     "nicht angegeben",
+     "not given",
+     null,
+     "88",
+     "b1",
+     4
+    ],
+    [
+     30,
+     "30. Salmo Fario*",
+     "ja",
+     "saale",
+     "Saale",
+     "Saale",
+     "Steinforelle",
+     "present",
+     1,
+     "vorhanden",
+     "present",
+     null,
+     "88",
+     "b1",
+     5
+    ],
+    [
+     30,
+     "30. Salmo Fario*",
+     "ja",
+     "elster",
+     "Elster",
+     "Elster",
+     "früher in Bächen, jetzt gezüchtet (Niederndorf)",
+     "former",
+     4,
+     "früher",
+     "formerly",
+     null,
+     "88",
+     "b1",
+     5
+    ],
+    [
+     30,
+     "30. Salmo Fario*",
+     "ja",
+     "wiesenthal",
+     "Wiesenthal",
+     "Wiesenthal stream",
+     "in allen größeren Bächen des Oberlandes",
+     "present",
+     1,
+     "vorhanden",
+     "present",
+     null,
+     "88",
+     "b1",
+     5
+    ],
+    [
+     30,
+     "30. Salmo Fario*",
+     "ja",
+     "teiche",
+     "Teiche",
+     "Ponds",
+     "—",
+     "absent",
+     6,
+     "nicht angegeben",
+     "not given",
+     null,
+     "88",
+     "b1",
+     5
+    ],
+    [
+     31,
+     "31. Esox lucius*",
+     "ja",
+     "saale",
+     "Saale",
+     "Saale",
+     "Hecht",
+     "present",
+     1,
+     "vorhanden",
+     "present",
+     null,
+     "88",
+     "b1",
+     6
+    ],
+    [
+     31,
+     "31. Esox lucius*",
+     "ja",
+     "elster",
+     "Elster",
+     "Elster",
+     "Hecht",
+     "present",
+     1,
+     "vorhanden",
+     "present",
+     null,
+     "88",
+     "b1",
+     6
+    ],
+    [
+     31,
+     "31. Esox lucius*",
+     "ja",
+     "wiesenthal",
+     "Wiesenthal",
+     "Wiesenthal stream",
+     "Hecht",
+     "present",
+     1,
+     "vorhanden",
+     "present",
+     null,
+     "88",
+     "b1",
+     6
+    ],
+    [
+     31,
+     "31. Esox lucius*",
+     "ja",
+     "teiche",
+     "Teiche",
+     "Ponds",
+     "häufig, meist ohne besondere Züchtung.",
+     "present",
+     1,
+     "vorhanden",
+     "present",
+     null,
+     "88",
+     "b1",
+     6
+    ],
+    [
+     32,
+     "32. Anguilla fluviat.*",
+     "ja",
+     "saale",
+     "Saale",
+     "Saale",
+     "Aal",
+     "present",
+     1,
+     "vorhanden",
+     "present",
+     null,
+     "88",
+     "b1",
+     7
+    ],
+    [
+     32,
+     "32. Anguilla fluviat.*",
+     "ja",
+     "elster",
+     "Elster",
+     "Elster",
+     "Aal häufig, zumal im August bei trübem Wasser",
+     "present",
+     1,
+     "vorhanden",
+     "present",
+     null,
+     "88",
+     "b1",
+     7
+    ],
+    [
+     32,
+     "32. Anguilla fluviat.*",
+     "ja",
+     "wiesenthal",
+     "Wiesenthal",
+     "Wiesenthal stream",
+     "Aal",
+     "present",
+     1,
+     "vorhanden",
+     "present",
+     null,
+     "88",
+     "b1",
+     7
+    ],
+    [
+     32,
+     "32. Anguilla fluviat.*",
+     "ja",
+     "teiche",
+     "Teiche",
+     "Ponds",
+     "—",
+     "absent",
+     6,
+     "nicht angegeben",
+     "not given",
+     null,
+     "88",
+     "b1",
+     7
+    ],
+    [
+     33,
+     "33. Petromyzon fluv.",
+     null,
+     "saale",
+     "Saale",
+     "Saale",
+     "Bricke, selten",
+     "rare",
+     2,
+     "selten",
+     "rare",
+     null,
+     "88",
+     "b1",
+     8
+    ],
+    [
+     33,
+     "33. Petromyzon fluv.",
+     null,
+     "elster",
+     "Elster",
+     "Elster",
+     "—",
+     "absent",
+     6,
+     "nicht angegeben",
+     "not given",
+     null,
+     "88",
+     "b1",
+     8
+    ],
+    [
+     33,
+     "33. Petromyzon fluv.",
+     null,
+     "wiesenthal",
+     "Wiesenthal",
+     "Wiesenthal stream",
+     "—",
+     "absent",
+     6,
+     "nicht angegeben",
+     "not given",
+     null,
+     "88",
+     "b1",
+     8
+    ],
+    [
+     33,
+     "33. Petromyzon fluv.",
+     null,
+     "teiche",
+     "Teiche",
+     "Ponds",
+     "—",
+     "absent",
+     6,
+     "nicht angegeben",
+     "not given",
+     null,
+     "88",
+     "b1",
+     8
+    ],
+    [
+     34,
+     "34. Petrom. Planeri",
+     null,
+     "saale",
+     "Saale",
+     "Saale",
+     "Steinbeißer",
+     "present",
+     1,
+     "vorhanden",
+     "present",
+     null,
+     "88",
+     "b1",
+     9
+    ],
+    [
+     34,
+     "34. Petrom. Planeri",
+     null,
+     "elster",
+     "Elster",
+     "Elster",
+     "kleines Steinauge, Neunauge",
+     "present",
+     1,
+     "vorhanden",
+     "present",
+     null,
+     "88",
+     "b1",
+     9
+    ],
+    [
+     34,
+     "34. Petrom. Planeri",
+     null,
+     "wiesenthal",
+     "Wiesenthal",
+     "Wiesenthal stream",
+     "Steinbeißer",
+     "present",
+     1,
+     "vorhanden",
+     "present",
+     null,
+     "88",
+     "b1",
+     9
+    ],
+    [
+     34,
+     "34. Petrom. Planeri",
+     null,
+     "teiche",
+     "Teiche",
+     "Ponds",
+     "—",
+     "absent",
+     6,
+     "nicht angegeben",
+     "not given",
+     null,
+     "88",
+     "b1",
+     9
+    ]
+   ],
+   "source_refs": [
+    {
+     "page": "87",
+     "block": "b2",
+     "rows": "r2-r27"
+    },
+    {
+     "page": "88",
+     "block": "b1",
+     "rows": "r2-r9"
+    }
+   ]
+  },
+  {
+   "name": "fish_species",
+   "title": {
+    "de": "Fischarten mit heutigen Namen (soweit sicher)",
+    "en": "Fish species with current names (where certain)"
+   },
+   "columns": [
+    {
+     "name": "species_no",
+     "label": {
+      "de": "Nr.",
+      "en": "No."
+     },
+     "type": "integer",
+     "unit": null
+    },
+    {
+     "name": "name_printed",
+     "label": {
+      "de": "Zoologischer Name (Druck)",
+      "en": "Zoological name (print)"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "preferred",
+     "label": {
+      "de": "Besonders bevorzugt (*)",
+      "en": "Especially preferred (*)"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "name_de",
+     "label": {
+      "de": "Deutscher Name (heute)",
+      "en": "German name (current)"
+     },
+     "type": "string",
+     "unit": null,
+     "derived": true
+    },
+    {
+     "name": "name_en",
+     "label": {
+      "de": "Englischer Name",
+      "en": "English name"
+     },
+     "type": "string",
+     "unit": null,
+     "derived": true
+    },
+    {
+     "name": "name_sci",
+     "label": {
+      "de": "Wissenschaftlicher Name (heute)",
+      "en": "Scientific name (current)"
+     },
+     "type": "string",
+     "unit": null,
+     "derived": true
+    },
+    {
+     "name": "n_waters",
+     "label": {
+      "de": "Zahl der Gewässer mit Angabe",
+      "en": "Number of water bodies with an entry"
+     },
+     "type": "integer",
+     "unit": null,
+     "derived": true
+    }
+   ],
+   "rows": [
+    [
+     1,
+     "Cobitis fossilis",
+     null,
+     "Schlammpeitzger",
+     "Weatherfish",
+     "Misgurnus fossilis",
+     3
+    ],
+    [
+     2,
+     "Cobitis barbatula",
+     "ja",
+     "Schmerle (Bartgrundel)",
+     "Stone loach",
+     "Barbatula barbatula",
+     4
+    ],
+    [
+     3,
+     "Cobitis taenia",
+     "ja",
+     "Steinbeißer",
+     "Spined loach",
+     "Cobitis taenia",
+     3
+    ],
+    [
+     4,
+     "Cyprinus carpio",
+     "ja",
+     "Karpfen",
+     "Common carp",
+     "Cyprinus carpio",
+     4
+    ],
+    [
+     5,
+     "Cyprinus dobula",
+     null,
+     null,
+     null,
+     null,
+     2
+    ],
+    [
+     6,
+     "Carassius vulgaris",
+     "ja",
+     "Karausche",
+     "Crucian carp",
+     "Carassius carassius",
+     1
+    ],
+    [
+     7,
+     "Tinca vulgaris",
+     "ja",
+     "Schleie",
+     "Tench",
+     "Tinca tinca",
+     4
+    ],
+    [
+     8,
+     "Barbus fluviatilis",
+     "ja",
+     "Barbe",
+     "Barbel",
+     "Barbus barbus",
+     3
+    ],
+    [
+     9,
+     "Gobio fluviatilis",
+     "ja",
+     "Gründling",
+     "Gudgeon",
+     "Gobio gobio",
+     3
+    ],
+    [
+     10,
+     "Rhodeus amarus",
+     null,
+     "Bitterling",
+     "Bitterling",
+     "Rhodeus amarus",
+     2
+    ],
+    [
+     11,
+     "Phoxinus laevis",
+     "ja",
+     "Elritze",
+     "Minnow",
+     "Phoxinus phoxinus",
+     3
+    ],
+    [
+     12,
+     "Leuciscus rutilus",
+     "ja",
+     "Plötze (Rotauge)",
+     "Roach",
+     "Rutilus rutilus",
+     3
+    ],
+    [
+     13,
+     "Leuciscus (Scardinius) erythrophthalmus",
+     "ja",
+     "Rotfeder",
+     "Rudd",
+     "Scardinius erythrophthalmus",
+     3
+    ],
+    [
+     14,
+     "Squalius cephalus",
+     null,
+     "Döbel (Aitel)",
+     "Chub",
+     "Squalius cephalus",
+     3
+    ],
+    [
+     15,
+     "Squalius leuciscus",
+     null,
+     "Hasel",
+     "Dace",
+     "Leuciscus leuciscus",
+     3
+    ],
+    [
+     16,
+     "Idus melanotus",
+     null,
+     "Aland (Nerfling)",
+     "Ide",
+     "Leuciscus idus",
+     3
+    ],
+    [
+     17,
+     "Aspius rapax",
+     "ja",
+     "Rapfen",
+     "Asp",
+     "Aspius aspius",
+     2
+    ],
+    [
+     18,
+     "Alburnus lucidus",
+     null,
+     "Ukelei (Laube)",
+     "Bleak",
+     "Alburnus alburnus",
+     3
+    ],
+    [
+     19,
+     "Alb. bipunctatus",
+     null,
+     "Schneider",
+     "Schneider",
+     "Alburnoides bipunctatus",
+     3
+    ],
+    [
+     20,
+     "Abramis brama",
+     null,
+     "Brachse (Blei)",
+     "Common bream",
+     "Abramis brama",
+     1
+    ],
+    [
+     21,
+     "Abramis melanops",
+     null,
+     null,
+     null,
+     null,
+     2
+    ],
+    [
+     22,
+     "Blicca Björkna",
+     null,
+     "Güster",
+     "Silver bream",
+     "Blicca bjoerkna",
+     3
+    ],
+    [
+     23,
+     "Lota vulgaris",
+     "ja",
+     "Quappe (Aalquappe)",
+     "Burbot",
+     "Lota lota",
+     4
+    ],
+    [
+     24,
+     "Cottus Gobio",
+     "ja",
+     "Groppe (Mühlkoppe)",
+     "European bullhead",
+     "Cottus gobio",
+     3
+    ],
+    [
+     25,
+     "Acerina cernua",
+     "ja",
+     "Kaulbarsch",
+     "Ruffe",
+     "Gymnocephalus cernua",
+     2
+    ],
+    [
+     26,
+     "Perca fluviatilis",
+     "ja",
+     "Flussbarsch",
+     "European perch",
+     "Perca fluviatilis",
+     3
+    ],
+    [
+     27,
+     "Thymallus vulgaris",
+     "ja",
+     "Äsche",
+     "Grayling",
+     "Thymallus thymallus",
+     3
+    ],
+    [
+     28,
+     "Salmo Salar",
+     "ja",
+     "Lachs",
+     "Atlantic salmon",
+     "Salmo salar",
+     2
+    ],
+    [
+     29,
+     "Salmo trutta",
+     "ja",
+     "Meerforelle (Lachsforelle)",
+     "Sea trout",
+     "Salmo trutta",
+     1
+    ],
+    [
+     30,
+     "Salmo Fario",
+     "ja",
+     "Bachforelle",
+     "Brown trout",
+     "Salmo trutta",
+     3
+    ],
+    [
+     31,
+     "Esox lucius",
+     "ja",
+     "Hecht",
+     "Northern pike",
+     "Esox lucius",
+     4
+    ],
+    [
+     32,
+     "Anguilla fluviat.",
+     "ja",
+     "Aal",
+     "European eel",
+     "Anguilla anguilla",
+     3
+    ],
+    [
+     33,
+     "Petromyzon fluv.",
+     null,
+     "Flussneunauge",
+     "River lamprey",
+     "Lampetra fluviatilis",
+     1
+    ],
+    [
+     34,
+     "Petrom. Planeri",
+     null,
+     "Bachneunauge",
+     "Brook lamprey",
+     "Lampetra planeri",
+     3
+    ]
+   ],
+   "source_refs": [
+    {
+     "page": "87",
+     "block": "b2",
+     "rows": "r2-r27"
+    },
+    {
+     "page": "88",
+     "block": "b1",
+     "rows": "r2-r9"
+    }
+   ]
+  }
+ ],
+ "charts": [
+  {
+   "id": "c1",
+   "dataset": "fish_cells",
+   "title": {
+    "de": "Welche Fische in welchem Gewässer? 34 Arten × 4 Gewässer",
+    "en": "Which fish in which water body? 34 species × 4 water bodies"
+   },
+   "caption": {
+    "de": "Brückners Tabelle S. 87–88 als Matrix, Zellen nach seinem Wortlaut in fünf Stufen eingeteilt. Leere Zellen: keine Angabe (—). »eingesetzt«: eingesetzt oder aus den Teichen eingetreten. Ein Sternchen kennzeichnet besonders bevorzugte Arten.",
+    "en": "Brückner's table pp. 87–88 as a matrix, cells classed in five levels following his wording. Empty cells: no entry (—). An asterisk marks especially preferred species."
+   },
+   "vegalite": {
+    "height": 420,
+    "transform": [
+     {
+      "filter": "datum.status_key != 'absent'"
+     }
+    ],
+    "mark": "rect",
+    "encoding": {
+     "y": {
+      "field": "species_label",
+      "type": "nominal",
+      "sort": {
+       "field": "species_no",
+       "op": "min"
+      },
+      "title": null,
+      "axis": {
+       "labelFontSize": 10,
+       "labelLimit": 215
+      }
+     },
+     "x": {
+      "field": {
+       "de": "water_de",
+       "en": "water_en"
+      },
+      "type": "nominal",
+      "title": null,
+      "sort": [
+       {
+        "de": "Saale",
+        "en": "Saale"
+       },
+       {
+        "de": "Elster",
+        "en": "Elster"
+       },
+       {
+        "de": "Wiesenthal",
+        "en": "Wiesenthal stream"
+       },
+       {
+        "de": "Teiche",
+        "en": "Ponds"
+       }
+      ],
+      "axis": {
+       "labelAngle": 0,
+       "orient": "top"
+      }
+     },
+     "color": {
+      "field": {
+       "de": "status_de",
+       "en": "status_en"
+      },
+      "type": "nominal",
+      "title": {
+       "de": "Angabe",
+       "en": "Entry"
+      },
+      "legend": {
+       "columns": 3
+      },
+      "scale": {
+       "domain": [
+        {
+         "de": "vorhanden",
+         "en": "present"
+        },
+        {
+         "de": "selten",
+         "en": "rare"
+        },
+        {
+         "de": "eingesetzt",
+         "en": "stocked"
+        },
+        {
+         "de": "früher",
+         "en": "formerly"
+        },
+        {
+         "de": "fraglich",
+         "en": "uncertain"
+        }
+       ]
+      }
+     },
+     "tooltip": [
+      {
+       "field": "species_label",
+       "title": {
+        "de": "Art",
+        "en": "Species"
+       }
+      },
+      {
+       "field": {
+        "de": "water_de",
+        "en": "water_en"
+       },
+       "title": {
+        "de": "Gewässer",
+        "en": "Water body"
+       }
+      },
+      {
+       "field": "cell_text",
+       "title": {
+        "de": "Angabe im Druck",
+        "en": "Entry in print"
+       }
+      },
+      {
+       "field": {
+        "de": "status_de",
+        "en": "status_en"
+       },
+       "title": {
+        "de": "Stufe",
+        "en": "Level"
+       }
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "c2",
+   "dataset": "fish_cells",
+   "title": {
+    "de": "Artenzahl je Gewässer",
+    "en": "Number of species per water body"
+   },
+   "caption": {
+    "de": "Zahl der Arten mit Angabe, nach Stufe. Die Saale ist am artenreichsten, die Teiche sind mit nur sechs Arten am ärmsten.",
+    "en": "Number of species with an entry, by level. The Saale is richest in species, the ponds are poorest with only six species."
+   },
+   "vegalite": {
+    "height": 260,
+    "transform": [
+     {
+      "filter": "datum.status_key != 'absent'"
+     }
+    ],
+    "mark": "bar",
+    "encoding": {
+     "x": {
+      "field": {
+       "de": "water_de",
+       "en": "water_en"
+      },
+      "type": "nominal",
+      "title": null,
+      "sort": [
+       {
+        "de": "Saale",
+        "en": "Saale"
+       },
+       {
+        "de": "Elster",
+        "en": "Elster"
+       },
+       {
+        "de": "Wiesenthal",
+        "en": "Wiesenthal stream"
+       },
+       {
+        "de": "Teiche",
+        "en": "Ponds"
+       }
+      ],
+      "axis": {
+       "labelAngle": 0
+      }
+     },
+     "y": {
+      "aggregate": "count",
+      "type": "quantitative",
+      "title": {
+       "de": "Arten",
+       "en": "Species"
+      }
+     },
+     "color": {
+      "field": {
+       "de": "status_de",
+       "en": "status_en"
+      },
+      "type": "nominal",
+      "title": {
+       "de": "Angabe",
+       "en": "Entry"
+      },
+      "legend": {
+       "columns": 3
+      },
+      "scale": {
+       "domain": [
+        {
+         "de": "vorhanden",
+         "en": "present"
+        },
+        {
+         "de": "selten",
+         "en": "rare"
+        },
+        {
+         "de": "eingesetzt",
+         "en": "stocked"
+        },
+        {
+         "de": "früher",
+         "en": "formerly"
+        },
+        {
+         "de": "fraglich",
+         "en": "uncertain"
+        }
+       ]
+      }
+     },
+     "order": {
+      "field": "status_order",
+      "type": "quantitative",
+      "sort": "descending"
+     },
+     "tooltip": [
+      {
+       "field": {
+        "de": "water_de",
+        "en": "water_en"
+       },
+       "title": {
+        "de": "Gewässer",
+        "en": "Water body"
+       }
+      },
+      {
+       "field": {
+        "de": "status_de",
+        "en": "status_en"
+       },
+       "title": {
+        "de": "Stufe",
+        "en": "Level"
+       }
+      },
+      {
+       "aggregate": "count",
+       "title": {
+        "de": "Arten",
+        "en": "Species"
+       }
+      }
+     ]
+    }
+   }
+  }
+ ],
+ "keywords": {
+  "de": [
+   "Fische",
+   "Fischerei",
+   "Saale",
+   "Elster",
+   "Wiesenthal",
+   "Teiche",
+   "Forelle",
+   "Lachs",
+   "Karpfen",
+   "Äsche",
+   "Volksnamen"
+  ],
+  "en": [
+   "fish",
+   "fishing",
+   "Saale",
+   "Elster",
+   "Wiesenthal",
+   "ponds",
+   "trout",
+   "salmon",
+   "carp",
+   "grayling",
+   "folk names"
+  ]
+ },
+ "related": [
+  "fauna-artenzahlen-tiergruppen"
+ ],
+ "generated_by": "Claude Sonnet 5.5 (subagent A05)",
+ "date": "2026-10-01"
+}

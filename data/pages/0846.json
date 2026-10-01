@@ -1,0 +1,133 @@
+{
+ "seq": 846,
+ "label": "834",
+ "slug": "834",
+ "iiif": {
+  "service": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb11005578_00846",
+  "canvas": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11005578/canvas/846",
+  "width": 1571,
+  "height": 2688
+ },
+ "kind": "text",
+ "running_header": null,
+ "signature": null,
+ "blocks": [
+  {
+   "id": "b1",
+   "type": "list",
+   "src": 0,
+   "items": [
+    {
+     "text": "S. 517. Z. 28 v. o. lies: noch statt nach.",
+     "spans": []
+    },
+    {
+     "text": "S. 519. Z. 7 v. o. lies: An das vormalige Dorf statt An das Dorf.",
+     "spans": []
+    },
+    {
+     "text": "S. 539. Z. 15 v. o. lies: 40 statt 400.",
+     "spans": []
+    },
+    {
+     "text": "S. 552. Z. 3 v. o. lies: mehrerer statt mehrere.",
+     "spans": []
+    },
+    {
+     "text": "S. 558. Z. 15 v. u. lies: geschlagen statt zerschlagen.",
+     "spans": []
+    },
+    {
+     "text": "S. 591. Zu den aus Schleiz hervorgegangenen Schriftstellern gehört auch: Adam Heinr. Meisner (geb. 1711, † 1782 als Stadtprediger zu Plauen).",
+     "spans": [
+      [
+       19,
+       26,
+       "Location"
+      ],
+      [
+       73,
+       92,
+       "Person"
+      ],
+      [
+       133,
+       139,
+       "Location"
+      ]
+     ]
+    },
+    {
+     "text": "S. 697. Z. 23 v. o. lies: 13 Einw. statt 13.",
+     "spans": []
+    },
+    {
+     "text": "S. 784. Die Spinnfabrik zu Blankenstein führt den Namen Rosenthal.",
+     "spans": [
+      [
+       12,
+       23,
+       "Organisation"
+      ],
+      [
+       27,
+       39,
+       "Location"
+      ],
+      [
+       56,
+       65,
+       "Organisation"
+      ]
+     ]
+    },
+    {
+     "text": "S. 819. Z. 3 v. o. Juchhöh wird vielfach auch der Dornbusch genannt. Von den Dornhäusern heißt eins die neue Schenke oder die Quarkschenke.",
+     "spans": [
+      [
+       19,
+       26,
+       "Location"
+      ],
+      [
+       50,
+       59,
+       "Location"
+      ],
+      [
+       77,
+       88,
+       "Location"
+      ],
+      [
+       104,
+       116,
+       "Artefact"
+      ],
+      [
+       126,
+       138,
+       "Artefact"
+      ]
+     ]
+    }
+   ],
+   "sec": "berichtigungen"
+  }
+ ],
+ "footnotes": [],
+ "corrections": [],
+ "provenance": {
+  "source": "colab-2026-03",
+  "model": "gemini-3-flash-preview",
+  "timestamp": "2026-03-04T21:48:40.739016",
+  "early_schema": false
+ },
+ "section_path": [
+  "back",
+  "berichtigungen"
+ ],
+ "sections": [
+  "berichtigungen"
+ ]
+}

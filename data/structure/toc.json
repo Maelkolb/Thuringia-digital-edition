@@ -1,0 +1,67 @@
+{
+  "_doc": "Book structure, transcribed from the printed 'Inhalts-Uebersicht' (pp. VII-VIII, scans 11-12) and extended by the unlisted front and back matter. Page numbers are printed page labels; 'end' is inclusive. 'title' keeps the 1870 spelling; 'title_en' is an editorial translation. Sub-sections of V. and the place entries of the Ortskunde are derived from the text by the build.",
+  "sections": [
+    {"id": "front", "title": "Titelei", "title_en": "Front matter", "start": "scan-1", "end": "VIII", "children": [
+      {"id": "titel", "title": "Titelblatt", "title_en": "Title page", "start": "I", "end": "II"},
+      {"id": "vorwort", "title": "Vorwort", "title_en": "Preface", "start": "III", "end": "VI"},
+      {"id": "inhalt", "title": "Inhalts-Uebersicht", "title_en": "Table of contents", "start": "VII", "end": "VIII"}
+    ]},
+    {"id": "t1", "title": "I. Theil: Allgemeine Landes- und Volkskunde des Fürstenthums Reuß j. L.", "title_en": "Part I: General geography and ethnography of the Principality of Reuss (Younger Line)", "start": "1", "end": "404", "children": [
+      {"id": "t1-1", "num": "I.", "title": "Die Natur des Landes", "title_en": "The nature of the land", "start": "3", "end": "90", "children": [
+        {"id": "t1-1-1", "num": "1)", "title": "Ueberblick und Bild des Ganzen", "title_en": "Overview and picture of the whole", "start": "3", "end": "5"},
+        {"id": "t1-1-2", "num": "2)", "title": "Mathematische Lage", "title_en": "Mathematical position", "start": "6", "end": "7"},
+        {"id": "t1-1-3", "num": "3)", "title": "Größe oder Umfang der Bodenfläche", "title_en": "Size or extent of the land surface", "start": "7", "end": "8"},
+        {"id": "t1-1-4", "num": "4)", "title": "Plastik", "title_en": "Relief", "start": "9", "end": "24"},
+        {"id": "t1-1-5", "num": "5)", "title": "Geognostische Uebersicht", "title_en": "Geological overview", "start": "24", "end": "41"},
+        {"id": "t1-1-6", "num": "6)", "title": "Bewässerung", "title_en": "Waters", "start": "41", "end": "53"},
+        {"id": "t1-1-7", "num": "7)", "title": "Klima", "title_en": "Climate", "start": "53", "end": "70"},
+        {"id": "t1-1-8", "num": "8)", "title": "Vegetationsverhältnisse", "title_en": "Vegetation", "start": "70", "end": "81"},
+        {"id": "t1-1-9", "num": "9)", "title": "Fauna", "title_en": "Fauna", "start": "81", "end": "90"}
+      ]},
+      {"id": "t1-2", "num": "II.", "title": "Das Volk", "title_en": "The people", "start": "91", "end": "207", "children": [
+        {"id": "t1-2-1", "num": "1)", "title": "Statistik", "title_en": "Statistics", "start": "91", "end": "118"},
+        {"id": "t1-2-2", "num": "2)", "title": "Wohnliche Einrichtung", "title_en": "Housing", "start": "119", "end": "138"},
+        {"id": "t1-2-3", "num": "3)", "title": "Mundart", "title_en": "Dialect", "start": "138", "end": "154"},
+        {"id": "t1-2-4", "num": "4)", "title": "Kleid und Kost", "title_en": "Dress and diet", "start": "154", "end": "161"},
+        {"id": "t1-2-5", "num": "5)", "title": "Gestalt und Character", "title_en": "Physique and character", "start": "161", "end": "168"},
+        {"id": "t1-2-6", "num": "6)", "title": "Volkskrankheit und Volksmedicin", "title_en": "Common diseases and folk medicine", "start": "168", "end": "177"},
+        {"id": "t1-2-7", "num": "7)", "title": "Sitte und Brauch", "title_en": "Customs", "start": "177", "end": "195"},
+        {"id": "t1-2-8", "num": "8)", "title": "Sage und Glaube", "title_en": "Legend and belief", "start": "196", "end": "207"}
+      ]},
+      {"id": "t1-3", "num": "III.", "title": "Die Volksbetriebsamkeit", "title_en": "Economic activity", "start": "208", "end": "262", "children": [
+        {"id": "t1-3-1", "num": "1)", "title": "Die Berufsklassen im Allgemeinen", "title_en": "Occupational classes in general", "start": "208", "end": "213"},
+        {"id": "t1-3-2", "num": "2)", "title": "Landwirthschaft", "title_en": "Agriculture", "start": "213", "end": "231"},
+        {"id": "t1-3-3", "num": "3)", "title": "Viehzucht", "title_en": "Livestock", "start": "231", "end": "236"},
+        {"id": "t1-3-4", "num": "4)", "title": "Forstwirthschaft", "title_en": "Forestry", "start": "236", "end": "241"},
+        {"id": "t1-3-5", "num": "5)", "title": "Bergbau", "title_en": "Mining", "start": "242", "end": "252"},
+        {"id": "t1-3-6", "num": "6)", "title": "Industrie", "title_en": "Industry", "start": "252", "end": "258"},
+        {"id": "t1-3-7", "num": "7)", "title": "Handel und Verkehr", "title_en": "Trade and transport", "start": "258", "end": "262"}
+      ]},
+      {"id": "t1-4", "num": "IV.", "title": "Der Staat", "title_en": "The state", "start": "263", "printed_start": "262", "end": "310", "children": [
+        {"id": "t1-4-1", "num": "1)", "title": "Verfassung", "title_en": "Constitution", "start": "263", "printed_start": "262", "end": "271", "children": [
+          {"id": "t1-4-1a", "num": "a)", "title": "Frühere Hauptverträge und Ordnungen", "title_en": "Earlier principal treaties and ordinances", "start": "263", "printed_start": "262", "end": "267"},
+          {"id": "t1-4-1b", "num": "b)", "title": "Gegenwärtige Staatsverfassung", "title_en": "Present constitution", "start": "267", "end": "269"},
+          {"id": "t1-4-1c", "num": "c)", "title": "Gemeindeverfassung", "title_en": "Municipal constitution", "start": "269", "end": "271"}
+        ]},
+        {"id": "t1-4-2", "num": "2)", "title": "Militair", "title_en": "Military", "start": "271", "end": "272"},
+        {"id": "t1-4-3", "num": "3)", "title": "Staatsverwaltung", "title_en": "State administration", "start": "273", "end": "280"},
+        {"id": "t1-4-4", "num": "4)", "title": "Rechtspflege", "title_en": "Administration of justice", "start": "280", "end": "289"},
+        {"id": "t1-4-5", "num": "5)", "title": "Kirche", "title_en": "Church", "start": "289", "end": "296"},
+        {"id": "t1-4-6", "num": "6)", "title": "Schule", "title_en": "Schools", "start": "296", "end": "300"},
+        {"id": "t1-4-7", "num": "7)", "title": "Kunst- und wissenschaftliche Sammlungen", "title_en": "Art and scientific collections", "start": "301", "end": "301"},
+        {"id": "t1-4-8", "num": "8)", "title": "Armenwesen", "title_en": "Poor relief", "start": "301", "end": "310"}
+      ]},
+      {"id": "t1-5", "num": "V.", "title": "Geschichte des Landes und seines Fürstenhauses", "title_en": "History of the land and its princely house", "start": "311", "end": "404", "auto_children": true}
+    ]},
+    {"id": "t2", "title": "II. Theil: Ortskunde des Fürstenthums Reuß j. L.", "title_en": "Part II: Topography of the Principality of Reuss (Younger Line)", "start": "405", "end": "825", "children": [
+      {"id": "t2-1", "num": "I.", "title": "Der Landestheil oder Landrathsamtsbezirk Gera", "title_en": "The district of Gera", "start": "407", "end": "569"},
+      {"id": "t2-2", "num": "II.", "title": "Der Landestheil Schleiz oder das Wisentaland", "title_en": "The district of Schleiz or the Wisenta land", "start": "570", "end": "705"},
+      {"id": "t2-3", "num": "III.", "title": "Der Landestheil Lobenstein-Ebersdorf", "title_en": "The district of Lobenstein-Ebersdorf", "start": "706", "end": "825"}
+    ]},
+    {"id": "back", "title": "Anhang", "title_en": "Back matter", "start": "826", "end": "scan-856", "children": [
+      {"id": "ortsregister", "title": "Ortsregister", "title_en": "Index of places", "start": "826", "end": "829"},
+      {"id": "berichtigungen", "title": "Zusätze und Berichtigungen", "title_en": "Addenda and corrigenda", "start": "830", "end": "834"},
+      {"id": "subscribenten", "title": "Subscriptionsliste", "title_en": "List of subscribers", "start": "835", "end": "840"}
+    ]}
+  ]
+}

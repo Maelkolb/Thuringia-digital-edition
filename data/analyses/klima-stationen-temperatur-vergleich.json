@@ -1,0 +1,6238 @@
+{
+ "id": "klima-stationen-temperatur-vergleich",
+ "title": {
+  "de": "Temperatur an den Messstationen des Landes im Vergleich",
+  "en": "Temperature at the country's observing stations compared"
+ },
+ "category": "climate",
+ "section": "t1-1-7",
+ "sources": [
+  {
+   "page": "55",
+   "block": "b7",
+   "rows": "r2-r14"
+  },
+  {
+   "page": "55",
+   "block": "b9",
+   "rows": "r2-r14"
+  },
+  {
+   "page": "56",
+   "block": "b2",
+   "rows": "r2-r10"
+  },
+  {
+   "page": "56",
+   "block": "b3",
+   "rows": "r2-r9"
+  },
+  {
+   "page": "56",
+   "block": "b5",
+   "rows": "r2-r7"
+  },
+  {
+   "page": "56",
+   "block": "b6",
+   "rows": "r2-r7"
+  },
+  {
+   "page": "57",
+   "block": "b2",
+   "rows": "r2-r4"
+  },
+  {
+   "page": "57",
+   "block": "b3"
+  },
+  {
+   "page": "57",
+   "block": "b6",
+   "rows": "r2"
+  },
+  {
+   "page": "57",
+   "block": "b8",
+   "rows": "r2-r11"
+  },
+  {
+   "page": "57",
+   "block": "fn1"
+  },
+  {
+   "page": "58",
+   "block": "b2",
+   "rows": "r2-r15"
+  },
+  {
+   "page": "58",
+   "block": "b3"
+  },
+  {
+   "page": "12",
+   "block": "b1",
+   "rows": "r1",
+   "note": "Höhe von Gera (505–600 Dezimalfuß)"
+  },
+  {
+   "page": "20",
+   "block": "b3",
+   "rows": "r29",
+   "note": "Höhe von Schleiz (1150–1175 Dezimalfuß)"
+  },
+  {
+   "page": "70",
+   "block": "b1",
+   "note": "Hinweis auf die Réaumur-Skala (»5 1/2° R.«)"
+  }
+ ],
+ "summary": {
+  "de": "Neben Gera (12 Jahre) führt Brückner Thermometerreihen für Hohenleuben (1854–1861), Schleiz (1863–1867) und Rothenacker (1865, 1867) an, zur Vergleichung auch für das preußische Ziegenrück (1848–1856), außerdem je ein Jahr für Lobenstein und Saalburg. Umgerechnet in °C liegt das Jahresmittel in Gera bei 8,7 °C, in Hohenleuben bei 7,9 °C und in Ziegenrück bei 7,1 °C; Schleiz (8,6 °C) erscheint nicht kühler als Gera. Die Diagramme zeigen den mittleren Jahresgang, Sommer-, Winter- und Jahresmittel, die Jahresmittel der einzelnen Jahre und die Monatsreihen derselben Jahre an verschiedenen Orten.",
+  "en": "Besides Gera (12 years) Brückner gives thermometer series for Hohenleuben (1854–1861), Schleiz (1863–1867) and Rothenacker (1865, 1867), for comparison also for Prussian Ziegenrück (1848–1856), and one year each for Lobenstein and Saalburg. Converted to °C the annual mean is 8.7 °C at Gera, 7.9 °C at Hohenleuben and 7.1 °C at Ziegenrück; Schleiz (8.6 °C) appears no cooler than Gera. The charts show the mean annual cycle, summer, winter and annual means, the annual means of the individual years, and the monthly series of the same years at different places."
+ },
+ "method": {
+  "de": "Aus den Tabellen auf S. 55–58 wurden die Monatsmittel (Réaumur) aller Stationen und Jahre übernommen, ferner die gedruckten Jahres-, Sommer- und Wintermittel je Jahr (Gera, Hohenleuben, Schleiz, Ziegenrück) sowie die gedruckten Durchschnittszeilen. Für Rothenacker nennt der Text nur die gemeinsamen Mittel der Jahre 1865 und 1867. Umrechnung °C = °R × 1,25. Der mittlere Jahresgang (Abb. 1) ist das ungewichtete Mittel der Monatswerte aller gedruckten Jahre der Station (Hohenleuben: 1854–1861 mit lückenhaftem Jahr 1861; Ziegenrück: gedrucktes 9-Jahres-Mittel); Brückners gedruckte Mittelzeilen weichen davon höchstens um 0,03 °R ab, mit einer Ausnahme (Rothenacker, März, siehe Transkriptionsprobleme). Die Station Saalburg beginnt im Dezember 1864 und läuft bis November 1865; ihr Dezemberwert (1864) wird in Abb. 4 nicht gezeigt. Sommer = April–September, Winter = Oktober–März (S. 55). Vergleiche zwischen Stationen betreffen nur Jahre, in denen beide Stationen gedruckt sind.",
+  "en": "The monthly means (Réaumur) of all stations and years were taken from the tables on pp. 55–58, together with the printed annual, summer and winter means per year (Gera, Hohenleuben, Schleiz, Ziegenrück) and the printed average rows. For Rothenacker the text gives only the joint means of 1865 and 1867. Conversion °C = °R × 1.25. The mean annual cycle (chart 1) is the unweighted mean of the monthly values of all printed years of a station (Hohenleuben: 1854–1861 with the incomplete year 1861; Ziegenrück: the printed 9-year mean); Brückner’s printed mean rows differ from it by 0.03 °R at most, with one exception (Rothenacker, March, see transcription issues). The Saalburg series runs from December 1864 to November 1865; its December value (1864) is not shown in chart 4. Summer = April–September, winter = October–March (p. 55). Comparisons between stations use only years printed for both stations."
+ },
+ "findings": [
+  {
+   "de": "Die Jahresmittel fallen in der Reihenfolge Gera (8,7 °C), Schleiz (8,6 °C), Hohenleuben (7,9 °C), Rothenacker (7,5 °C), Ziegenrück (7,1 °C); die Beobachtungszeiträume sind verschieden.",
+   "en": "The annual means fall in the order Gera (8.7 °C), Schleiz (8.6 °C), Hohenleuben (7.9 °C), Rothenacker (7.5 °C), Ziegenrück (7.1 °C); the observation periods differ."
+  },
+  {
+   "de": "In den gemeinsamen Jahren 1856–1860 war Gera im Jahresmittel um 0,65 K wärmer als Hohenleuben (in allen fünf Jahren wärmer, Spanne 0,14–1,37 K).",
+   "en": "In the common years 1856–1860 Gera was 0.65 K warmer than Hohenleuben on annual average (warmer in all five years, range 0.14–1.37 K)."
+  },
+  {
+   "de": "1863–1867 war Schleiz im Jahresmittel im Durchschnitt um 0,14 K wärmer als Gera (in drei von fünf Jahren wärmer). Bei einer um rund 230 m höheren Lage (S. 12 und 20: Gera 505–600, Schleiz 1150–1175 Dezimalfuß) ist das unplausibel; Brückner selbst nennt die Angaben von Schleiz »zu hoch liegend« (S. 58).",
+   "en": "In 1863–1867 Schleiz was on average 0.14 K warmer than Gera on annual mean (warmer in three of five years). For a site about 230 m higher (pp. 12 and 20: Gera 505–600, Schleiz 1150–1175 decimal feet) this is implausible; Brückner himself calls the Schleiz figures “too high” (p. 58)."
+  },
+  {
+   "de": "Rothenacker lag 1865 im Mittel 0,25 K, 1867 aber 1,77 K unter Gera; Schleiz weicht in beiden Jahren nur wenig von Gera ab (+0,46 bzw. −0,24 K).",
+   "en": "Rothenacker was 0.25 K below Gera on average in 1865 but 1.77 K in 1867; Schleiz departs only slightly from Gera in both years (0.46 and −0.24 K)."
+  },
+  {
+   "de": "Der mittlere Jahresgang hat in Hohenleuben eine größere Amplitude (20,0 K) als in Gera (18,7 K) und Schleiz (18,1 K); die Zeiträume sind jedoch kurz und verschieden.",
+   "en": "The mean annual cycle has a larger amplitude at Hohenleuben (20.0 K) than at Gera (18.7 K) and Schleiz (18.1 K); the periods are, however, short and different."
+  }
+ ],
+ "caveats": [
+  {
+   "de": "Temperaturskala nicht ausdrücklich genannt; Annahme Grad Réaumur (siehe S. 70, »° R.«), Umrechnung ×1,25. Gilt für alle Stationen.",
+   "en": "Temperature scale not stated explicitly; assumed to be degrees Réaumur (see p. 70, “° R.”), conversion ×1.25. This holds for all stations."
+  },
+  {
+   "de": "Die Stationen haben verschiedene, kurze und teils nicht überlappende Beobachtungszeiträume (Rothenacker nur 2 Jahre, Lobenstein und Saalburg je 1 Jahr, Ziegenrück vor 1857). Unterschiede zwischen Mitteln verschiedener Zeiträume mischen Standort und Witterung; belastbarer sind nur die Vergleiche gleicher Jahre (Abb. 3 und 4).",
+   "en": "The stations have different, short and partly non-overlapping observation periods (Rothenacker only 2 years, Lobenstein and Saalburg one year each, Ziegenrück before 1857). Differences between means of different periods mix location and weather; only the same-year comparisons (charts 3 and 4) are more robust."
+  },
+  {
+   "de": "Brückner hält die Werte von Schleiz, Rothenacker, Lobenstein und Saalburg im Vergleich mit Ziegenrück und Hohenleuben und gemessen an der Vegetation für zu hoch (S. 58); Instrumenttyp, Aufstellung und Beobachtungstermine sind nirgends angegeben.",
+   "en": "Brückner considers the values of Schleiz, Rothenacker, Lobenstein and Saalburg too high compared with Ziegenrück and Hohenleuben and judged by vegetation (p. 58); instrument type, exposure and observation times are nowhere given."
+  },
+  {
+   "de": "Der gedruckte Dezember-Wert von Ziegenrück (−4,33 °R) passt nicht zu den gedruckten Winter- (1,25) und Jahresmitteln (5,65); diese verlangen rechnerisch etwa −0,43 °R. Die Transkription stimmt mit dem Druck überein; der Fehler liegt im Druck oder in der Vorlage. Der Wert wird unverändert gezeigt.",
+   "en": "The printed December value for Ziegenrück (−4.33 °R) does not fit the printed winter (1.25) and annual means (5.65); these require about −0.43 °R by calculation. The transcription agrees with the print; the error lies in the print or its source. The value is shown unchanged."
+  },
+  {
+   "de": "Die Oktober- bis Dezemberwerte von Lobenstein (1863) sind mit 7,98, 3,17 und 1,00 identisch mit denen von Rothenacker 1865; ob eine Verwechslung in der Vorlage oder ein Zufall vorliegt, lässt sich nicht entscheiden. Juni und Juli 1863 sind in Lobenstein ebenfalls identisch (12,32).",
+   "en": "The October to December values of Lobenstein (1863) – 7.98, 3.17 and 1.00 – are identical to those of Rothenacker in 1865; whether this is a mix-up in the source or a coincidence cannot be decided. June and July 1863 are also identical at Lobenstein (12.32)."
+  },
+  {
+   "de": "Gera März 1856 (−6,8 °R) steht im selben Monat Hohenleuben (+0,28 °R) gegenüber; die Differenz von 7,1 °R fällt in Abb. 4 als dunkelrote Zelle auf. Eine der beiden Angaben ist vermutlich fehlerhaft (Druck oder Vorlage); die gedruckten Winter- und Jahresmittel von Gera sind allerdings mit −6,8 gerechnet. Die Werte werden unverändert gezeigt.",
+   "en": "Gera March 1856 (−6.8 °R) is matched in the same month by Hohenleuben (+0.28 °R); the difference of 7.1 °R shows as a dark red cell in chart 4. One of the two figures is probably wrong (print or source); the printed winter and annual means of Gera are, however, computed with −6.8. The values are shown unchanged."
+  }
+ ],
+ "transcription_issues": [
+  {
+   "page": "57",
+   "block": "b2",
+   "cell": "r4c4",
+   "transcribed": "0,56",
+   "facsimile": "—0,56",
+   "checked_facsimile": true,
+   "note": "Mittel-Zeile Rothenacker, März: Das Minuszeichen fehlt in der Transkription; rechnerisch (−1,67 + 0,54) / 2 = −0,56. Die Mittelzeile wird hier nicht verwendet."
+  }
+ ],
+ "conversions": [
+  {
+   "from": "Grad Réaumur (°R)",
+   "to": "Grad Celsius (°C)",
+   "factor_or_formula": "°C = °R × 1,25",
+   "reference": "80 Teilstriche zwischen Eis- und Siedepunkt (Réaumur) gegenüber 100 (Celsius); von Brückner nicht tabelliert"
+  }
+ ],
+ "datasets": [
+  {
+   "name": "monthly",
+   "title": {
+    "de": "Monatsmittel der Temperatur nach Station und Jahr",
+    "en": "Monthly mean temperature by station and year"
+   },
+   "columns": [
+    {
+     "name": "station",
+     "label": {
+      "de": "Station",
+      "en": "Station"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "period",
+     "label": {
+      "de": "Beobachtungszeitraum",
+      "en": "Observation period"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "n_years",
+     "label": {
+      "de": "Zahl der Jahre",
+      "en": "Number of years"
+     },
+     "type": "integer",
+     "unit": null,
+     "derived": true,
+     "note": "editorisch gezählt"
+    },
+    {
+     "name": "year",
+     "label": {
+      "de": "Jahr",
+      "en": "Year"
+     },
+     "type": "integer",
+     "unit": null,
+     "note": "leer bei Ziegenrück (gedrucktes 9-Jahres-Mittel)"
+    },
+    {
+     "name": "month",
+     "label": {
+      "de": "Monat",
+      "en": "Month"
+     },
+     "type": "integer",
+     "unit": null,
+     "derived": true,
+     "note": "Monatsnummer 1-12, editorisch"
+    },
+    {
+     "name": "month_label",
+     "label": {
+      "de": "Monat (Original)",
+      "en": "Month (original)"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "temp_r",
+     "label": {
+      "de": "Monatsmittel (gedruckt)",
+      "en": "Monthly mean (printed)"
+     },
+     "type": "number",
+     "unit": "°R"
+    },
+    {
+     "name": "temp_c",
+     "label": {
+      "de": "Monatsmittel",
+      "en": "Monthly mean"
+     },
+     "type": "number",
+     "unit": "°C",
+     "derived": true,
+     "note": "°R × 1,25"
+    },
+    {
+     "name": "series",
+     "label": {
+      "de": "Reihe (Station und Jahr)",
+      "en": "Series (station and year)"
+     },
+     "type": "string",
+     "unit": null,
+     "note": "nur für Monate, in denen Gera im selben Jahr gedruckt ist; editorisch"
+    },
+    {
+     "name": "series_order",
+     "label": {
+      "de": "Sortierschlüssel der Reihe",
+      "en": "Series sort key"
+     },
+     "type": "integer",
+     "unit": null,
+     "derived": true
+    },
+    {
+     "name": "diff_gera_c",
+     "label": {
+      "de": "Abweichung von Gera im selben Monat",
+      "en": "Deviation from Gera in the same month"
+     },
+     "type": "number",
+     "unit": "K",
+     "derived": true,
+     "note": "(Monatsmittel Station − Monatsmittel Gera, gleiches Jahr und gleicher Monat) × 1,25"
+    }
+   ],
+   "rows": [
+    [
+     "Gera",
+     "1856–1867",
+     12,
+     1856,
+     1,
+     "Jan.",
+     0.89,
+     1.11,
+     null,
+     null,
+     null
+    ],
+    [
+     "Gera",
+     "1856–1867",
+     12,
+     1856,
+     2,
+     "Febr.",
+     2.35,
+     2.94,
+     null,
+     null,
+     null
+    ],
+    [
+     "Gera",
+     "1856–1867",
+     12,
+     1856,
+     3,
+     "März",
+     -6.8,
+     -8.5,
+     null,
+     null,
+     null
+    ],
+    [
+     "Gera",
+     "1856–1867",
+     12,
+     1856,
+     4,
+     "April",
+     8.15,
+     10.19,
+     null,
+     null,
+     null
+    ],
+    [
+     "Gera",
+     "1856–1867",
+     12,
+     1856,
+     5,
+     "Mai",
+     9.91,
+     12.39,
+     null,
+     null,
+     null
+    ],
+    [
+     "Gera",
+     "1856–1867",
+     12,
+     1856,
+     6,
+     "Juni",
+     13.52,
+     16.9,
+     null,
+     null,
+     null
+    ],
+    [
+     "Gera",
+     "1856–1867",
+     12,
+     1856,
+     7,
+     "Juli",
+     13.62,
+     17.02,
+     null,
+     null,
+     null
+    ],
+    [
+     "Gera",
+     "1856–1867",
+     12,
+     1856,
+     8,
+     "Aug.",
+     15.04,
+     18.8,
+     null,
+     null,
+     null
+    ],
+    [
+     "Gera",
+     "1856–1867",
+     12,
+     1856,
+     9,
+     "Sept.",
+     11.4,
+     14.25,
+     null,
+     null,
+     null
+    ],
+    [
+     "Gera",
+     "1856–1867",
+     12,
+     1856,
+     10,
+     "Oct.",
+     8.7,
+     10.88,
+     null,
+     null,
+     null
+    ],
+    [
+     "Gera",
+     "1856–1867",
+     12,
+     1856,
+     11,
+     "Nov.",
+     0.83,
+     1.04,
+     null,
+     null,
+     null
+    ],
+    [
+     "Gera",
+     "1856–1867",
+     12,
+     1856,
+     12,
+     "Dec.",
+     1.62,
+     2.03,
+     null,
+     null,
+     null
+    ],
+    [
+     "Gera",
+     "1856–1867",
+     12,
+     1857,
+     1,
+     "Jan.",
+     -1.3,
+     -1.62,
+     null,
+     null,
+     null
+    ],
+    [
+     "Gera",
+     "1856–1867",
+     12,
+     1857,
+     2,
+     "Febr.",
+     0.7,
+     0.88,
+     null,
+     null,
+     null
+    ],
+    [
+     "Gera",
+     "1856–1867",
+     12,
+     1857,
+     3,
+     "März",
+     3.03,
+     3.79,
+     null,
+     null,
+     null
+    ],
+    [
+     "Gera",
+     "1856–1867",
+     12,
+     1857,
+     4,
+     "April",
+     6.5,
+     8.12,
+     null,
+     null,
+     null
+    ],
+    [
+     "Gera",
+     "1856–1867",
+     12,
+     1857,
+     5,
+     "Mai",
+     10.71,
+     13.39,
+     null,
+     null,
+     null
+    ],
+    [
+     "Gera",
+     "1856–1867",
+     12,
+     1857,
+     6,
+     "Juni",
+     13.53,
+     16.91,
+     null,
+     null,
+     null
+    ],
+    [
+     "Gera",
+     "1856–1867",
+     12,
+     1857,
+     7,
+     "Juli",
+     15.37,
+     19.21,
+     null,
+     null,
+     null
+    ],
+    [
+     "Gera",
+     "1856–1867",
+     12,
+     1857,
+     8,
+     "Aug.",
+     15.39,
+     19.24,
+     null,
+     null,
+     null
+    ],
+    [
+     "Gera",
+     "1856–1867",
+     12,
+     1857,
+     9,
+     "Sept.",
+     12.69,
+     15.86,
+     null,
+     null,
+     null
+    ],
+    [
+     "Gera",
+     "1856–1867",
+     12,
+     1857,
+     10,
+     "Oct.",
+     9.6,
+     12.0,
+     null,
+     null,
+     null
+    ],
+    [
+     "Gera",
+     "1856–1867",
+     12,
+     1857,
+     11,
+     "Nov.",
+     2.67,
+     3.34,
+     null,
+     null,
+     null
+    ],
+    [
+     "Gera",
+     "1856–1867",
+     12,
+     1857,
+     12,
+     "Dec.",
+     2.2,
+     2.75,
+     null,
+     null,
+     null
+    ],
+    [
+     "Gera",
+     "1856–1867",
+     12,
+     1858,
+     1,
+     "Jan.",
+     -1.44,
+     -1.8,
+     null,
+     null,
+     null
+    ],
+    [
+     "Gera",
+     "1856–1867",
+     12,
+     1858,
+     2,
+     "Febr.",
+     -2.49,
+     -3.11,
+     null,
+     null,
+     null
+    ],
+    [
+     "Gera",
+     "1856–1867",
+     12,
+     1858,
+     3,
+     "März",
+     1.7,
+     2.12,
+     null,
+     null,
+     null
+    ],
+    [
+     "Gera",
+     "1856–1867",
+     12,
+     1858,
+     4,
+     "April",
+     6.32,
+     7.9,
+     null,
+     null,
+     null
+    ],
+    [
+     "Gera",
+     "1856–1867",
+     12,
+     1858,
+     5,
+     "Mai",
+     9.7,
+     12.12,
+     null,
+     null,
+     null
+    ],
+    [
+     "Gera",
+     "1856–1867",
+     12,
+     1858,
+     6,
+     "Juni",
+     15.81,
+     19.76,
+     null,
+     null,
+     null
+    ],
+    [
+     "Gera",
+     "1856–1867",
+     12,
+     1858,
+     7,
+     "Juli",
+     14.2,
+     17.75,
+     null,
+     null,
+     null
+    ],
+    [
+     "Gera",
+     "1856–1867",
+     12,
+     1858,
+     8,
+     "Aug.",
+     15.95,
+     19.94,
+     null,
+     null,
+     null
+    ],
+    [
+     "Gera",
+     "1856–1867",
+     12,
+     1858,
+     9,
+     "Sept.",
+     12.95,
+     16.19,
+     null,
+     null,
+     null
+    ],
+    [
+     "Gera",
+     "1856–1867",
+     12,
+     1858,
+     10,
+     "Oct.",
+     7.84,
+     9.8,
+     null,
+     null,
+     null
+    ],
+    [
+     "Gera",
+     "1856–1867",
+     12,
+     1858,
+     11,
+     "Nov.",
+     2.1,
+     2.62,
+     null,
+     null,
+     null
+    ],
+    [
+     "Gera",
+     "1856–1867",
+     12,
+     1858,
+     12,
+     "Dec.",
+     1.12,
+     1.4,
+     null,
+     null,
+     null
+    ],
+    [
+     "Gera",
+     "1856–1867",
+     12,
+     1859,
+     1,
+     "Jan.",
+     1.35,
+     1.69,
+     null,
+     null,
+     null
+    ],
+    [
+     "Gera",
+     "1856–1867",
+     12,
+     1859,
+     2,
+     "Febr.",
+     2.35,
+     2.94,
+     null,
+     null,
+     null
+    ],
+    [
+     "Gera",
+     "1856–1867",
+     12,
+     1859,
+     3,
+     "März",
+     5.71,
+     7.14,
+     null,
+     null,
+     null
+    ],
+    [
+     "Gera",
+     "1856–1867",
+     12,
+     1859,
+     4,
+     "April",
+     6.47,
+     8.09,
+     null,
+     null,
+     null
+    ],
+    [
+     "Gera",
+     "1856–1867",
+     12,
+     1859,
+     5,
+     "Mai",
+     10.42,
+     13.03,
+     null,
+     null,
+     null
+    ],
+    [
+     "Gera",
+     "1856–1867",
+     12,
+     1859,
+     6,
+     "Juni",
+     13.6,
+     17.0,
+     null,
+     null,
+     null
+    ],
+    [
+     "Gera",
+     "1856–1867",
+     12,
+     1859,
+     7,
+     "Juli",
+     16.91,
+     21.14,
+     null,
+     null,
+     null
+    ],
+    [
+     "Gera",
+     "1856–1867",
+     12,
+     1859,
+     8,
+     "Aug.",
+     16.24,
+     20.3,
+     null,
+     null,
+     null
+    ],
+    [
+     "Gera",
+     "1856–1867",
+     12,
+     1859,
+     9,
+     "Sept.",
+     11.64,
+     14.55,
+     null,
+     null,
+     null
+    ],
+    [
+     "Gera",
+     "1856–1867",
+     12,
+     1859,
+     10,
+     "Oct.",
+     8.68,
+     10.85,
+     null,
+     null,
+     null
+    ],
+    [
+     "Gera",
+     "1856–1867",
+     12,
+     1859,
+     11,
+     "Nov.",
+     2.15,
+     2.69,
+     null,
+     null,
+     null
+    ],
+    [
+     "Gera",
+     "1856–1867",
+     12,
+     1859,
+     12,
+     "Dec.",
+     -1.3,
+     -1.62,
+     null,
+     null,
+     null
+    ],
+    [
+     "Gera",
+     "1856–1867",
+     12,
+     1860,
+     1,
+     "Jan.",
+     1.6,
+     2.0,
+     null,
+     null,
+     null
+    ],
+    [
+     "Gera",
+     "1856–1867",
+     12,
+     1860,
+     2,
+     "Febr.",
+     -1.46,
+     -1.82,
+     null,
+     null,
+     null
+    ],
+    [
+     "Gera",
+     "1856–1867",
+     12,
+     1860,
+     3,
+     "März",
+     1.6,
+     2.0,
+     null,
+     null,
+     null
+    ],
+    [
+     "Gera",
+     "1856–1867",
+     12,
+     1860,
+     4,
+     "April",
+     5.68,
+     7.1,
+     null,
+     null,
+     null
+    ],
+    [
+     "Gera",
+     "1856–1867",
+     12,
+     1860,
+     5,
+     "Mai",
+     11.06,
+     13.83,
+     null,
+     null,
+     null
+    ],
+    [
+     "Gera",
+     "1856–1867",
+     12,
+     1860,
+     6,
+     "Juni",
+     13.18,
+     16.48,
+     null,
+     null,
+     null
+    ],
+    [
+     "Gera",
+     "1856–1867",
+     12,
+     1860,
+     7,
+     "Juli",
+     12.53,
+     15.66,
+     null,
+     null,
+     null
+    ],
+    [
+     "Gera",
+     "1856–1867",
+     12,
+     1860,
+     8,
+     "Aug.",
+     13.62,
+     17.02,
+     null,
+     null,
+     null
+    ],
+    [
+     "Gera",
+     "1856–1867",
+     12,
+     1860,
+     9,
+     "Sept.",
+     11.31,
+     14.14,
+     null,
+     null,
+     null
+    ],
+    [
+     "Gera",
+     "1856–1867",
+     12,
+     1860,
+     10,
+     "Oct.",
+     6.77,
+     8.46,
+     null,
+     null,
+     null
+    ],
+    [
+     "Gera",
+     "1856–1867",
+     12,
+     1860,
+     11,
+     "Nov.",
+     0.72,
+     0.9,
+     null,
+     null,
+     null
+    ],
+    [
+     "Gera",
+     "1856–1867",
+     12,
+     1860,
+     12,
+     "Dec.",
+     -1.23,
+     -1.54,
+     null,
+     null,
+     null
+    ],
+    [
+     "Gera",
+     "1856–1867",
+     12,
+     1861,
+     1,
+     "Jan.",
+     -5.11,
+     -6.39,
+     null,
+     null,
+     null
+    ],
+    [
+     "Gera",
+     "1856–1867",
+     12,
+     1861,
+     2,
+     "Febr.",
+     2.94,
+     3.67,
+     null,
+     null,
+     null
+    ],
+    [
+     "Gera",
+     "1856–1867",
+     12,
+     1861,
+     3,
+     "März",
+     4.52,
+     5.65,
+     null,
+     null,
+     null
+    ],
+    [
+     "Gera",
+     "1856–1867",
+     12,
+     1861,
+     4,
+     "April",
+     5.02,
+     6.27,
+     null,
+     null,
+     null
+    ],
+    [
+     "Gera",
+     "1856–1867",
+     12,
+     1861,
+     5,
+     "Mai",
+     8.9,
+     11.12,
+     null,
+     null,
+     null
+    ],
+    [
+     "Gera",
+     "1856–1867",
+     12,
+     1861,
+     6,
+     "Juni",
+     14.0,
+     17.5,
+     null,
+     null,
+     null
+    ],
+    [
+     "Gera",
+     "1856–1867",
+     12,
+     1861,
+     7,
+     "Juli",
+     14.44,
+     18.05,
+     null,
+     null,
+     null
+    ],
+    [
+     "Gera",
+     "1856–1867",
+     12,
+     1861,
+     8,
+     "Aug.",
+     14.58,
+     18.23,
+     null,
+     null,
+     null
+    ],
+    [
+     "Gera",
+     "1856–1867",
+     12,
+     1861,
+     9,
+     "Sept.",
+     11.47,
+     14.34,
+     null,
+     null,
+     null
+    ],
+    [
+     "Gera",
+     "1856–1867",
+     12,
+     1861,
+     10,
+     "Oct.",
+     8.02,
+     10.02,
+     null,
+     null,
+     null
+    ],
+    [
+     "Gera",
+     "1856–1867",
+     12,
+     1861,
+     11,
+     "Nov.",
+     3.63,
+     4.54,
+     null,
+     null,
+     null
+    ],
+    [
+     "Gera",
+     "1856–1867",
+     12,
+     1861,
+     12,
+     "Dec.",
+     -0.11,
+     -0.14,
+     null,
+     null,
+     null
+    ],
+    [
+     "Gera",
+     "1856–1867",
+     12,
+     1862,
+     1,
+     "Jan.",
+     -2.16,
+     -2.7,
+     null,
+     null,
+     null
+    ],
+    [
+     "Gera",
+     "1856–1867",
+     12,
+     1862,
+     2,
+     "Febr.",
+     0.11,
+     0.14,
+     null,
+     null,
+     null
+    ],
+    [
+     "Gera",
+     "1856–1867",
+     12,
+     1862,
+     3,
+     "März",
+     5.81,
+     7.26,
+     null,
+     null,
+     null
+    ],
+    [
+     "Gera",
+     "1856–1867",
+     12,
+     1862,
+     4,
+     "April",
+     8.53,
+     10.66,
+     null,
+     null,
+     null
+    ],
+    [
+     "Gera",
+     "1856–1867",
+     12,
+     1862,
+     5,
+     "Mai",
+     12.85,
+     16.06,
+     null,
+     null,
+     null
+    ],
+    [
+     "Gera",
+     "1856–1867",
+     12,
+     1862,
+     6,
+     "Juni",
+     13.05,
+     16.31,
+     null,
+     null,
+     null
+    ],
+    [
+     "Gera",
+     "1856–1867",
+     12,
+     1862,
+     7,
+     "Juli",
+     14.26,
+     17.82,
+     null,
+     null,
+     null
+    ],
+    [
+     "Gera",
+     "1856–1867",
+     12,
+     1862,
+     8,
+     "Aug.",
+     13.41,
+     16.76,
+     null,
+     null,
+     null
+    ],
+    [
+     "Gera",
+     "1856–1867",
+     12,
+     1862,
+     9,
+     "Sept.",
+     11.39,
+     14.24,
+     null,
+     null,
+     null
+    ],
+    [
+     "Gera",
+     "1856–1867",
+     12,
+     1862,
+     10,
+     "Oct.",
+     9.02,
+     11.27,
+     null,
+     null,
+     null
+    ],
+    [
+     "Gera",
+     "1856–1867",
+     12,
+     1862,
+     11,
+     "Nov.",
+     2.31,
+     2.89,
+     null,
+     null,
+     null
+    ],
+    [
+     "Gera",
+     "1856–1867",
+     12,
+     1862,
+     12,
+     "Dec.",
+     1.3,
+     1.62,
+     null,
+     null,
+     null
+    ],
+    [
+     "Gera",
+     "1856–1867",
+     12,
+     1863,
+     1,
+     "Jan.",
+     2.4,
+     3.0,
+     null,
+     null,
+     null
+    ],
+    [
+     "Gera",
+     "1856–1867",
+     12,
+     1863,
+     2,
+     "Febr.",
+     2.2,
+     2.75,
+     null,
+     null,
+     null
+    ],
+    [
+     "Gera",
+     "1856–1867",
+     12,
+     1863,
+     3,
+     "März",
+     4.2,
+     5.25,
+     null,
+     null,
+     null
+    ],
+    [
+     "Gera",
+     "1856–1867",
+     12,
+     1863,
+     4,
+     "April",
+     6.8,
+     8.5,
+     null,
+     null,
+     null
+    ],
+    [
+     "Gera",
+     "1856–1867",
+     12,
+     1863,
+     5,
+     "Mai",
+     10.2,
+     12.75,
+     null,
+     null,
+     null
+    ],
+    [
+     "Gera",
+     "1856–1867",
+     12,
+     1863,
+     6,
+     "Juni",
+     13.5,
+     16.88,
+     null,
+     null,
+     null
+    ],
+    [
+     "Gera",
+     "1856–1867",
+     12,
+     1863,
+     7,
+     "Juli",
+     13.4,
+     16.75,
+     null,
+     null,
+     null
+    ],
+    [
+     "Gera",
+     "1856–1867",
+     12,
+     1863,
+     8,
+     "Aug.",
+     15.6,
+     19.5,
+     null,
+     null,
+     null
+    ],
+    [
+     "Gera",
+     "1856–1867",
+     12,
+     1863,
+     9,
+     "Sept.",
+     11.4,
+     14.25,
+     null,
+     null,
+     null
+    ],
+    [
+     "Gera",
+     "1856–1867",
+     12,
+     1863,
+     10,
+     "Oct.",
+     9.0,
+     11.25,
+     null,
+     null,
+     null
+    ],
+    [
+     "Gera",
+     "1856–1867",
+     12,
+     1863,
+     11,
+     "Nov.",
+     3.9,
+     4.88,
+     null,
+     null,
+     null
+    ],
+    [
+     "Gera",
+     "1856–1867",
+     12,
+     1863,
+     12,
+     "Dec.",
+     2.7,
+     3.38,
+     null,
+     null,
+     null
+    ],
+    [
+     "Gera",
+     "1856–1867",
+     12,
+     1864,
+     1,
+     "Jan.",
+     -4.9,
+     -6.12,
+     null,
+     null,
+     null
+    ],
+    [
+     "Gera",
+     "1856–1867",
+     12,
+     1864,
+     2,
+     "Febr.",
+     -0.7,
+     -0.88,
+     null,
+     null,
+     null
+    ],
+    [
+     "Gera",
+     "1856–1867",
+     12,
+     1864,
+     3,
+     "März",
+     3.7,
+     4.62,
+     null,
+     null,
+     null
+    ],
+    [
+     "Gera",
+     "1856–1867",
+     12,
+     1864,
+     4,
+     "April",
+     4.4,
+     5.5,
+     null,
+     null,
+     null
+    ],
+    [
+     "Gera",
+     "1856–1867",
+     12,
+     1864,
+     5,
+     "Mai",
+     8.0,
+     10.0,
+     null,
+     null,
+     null
+    ],
+    [
+     "Gera",
+     "1856–1867",
+     12,
+     1864,
+     6,
+     "Juni",
+     12.9,
+     16.12,
+     null,
+     null,
+     null
+    ],
+    [
+     "Gera",
+     "1856–1867",
+     12,
+     1864,
+     7,
+     "Juli",
+     12.8,
+     16.0,
+     null,
+     null,
+     null
+    ],
+    [
+     "Gera",
+     "1856–1867",
+     12,
+     1864,
+     8,
+     "Aug.",
+     12.2,
+     15.25,
+     null,
+     null,
+     null
+    ],
+    [
+     "Gera",
+     "1856–1867",
+     12,
+     1864,
+     9,
+     "Sept.",
+     10.9,
+     13.62,
+     null,
+     null,
+     null
+    ],
+    [
+     "Gera",
+     "1856–1867",
+     12,
+     1864,
+     10,
+     "Oct.",
+     5.9,
+     7.38,
+     null,
+     null,
+     null
+    ],
+    [
+     "Gera",
+     "1856–1867",
+     12,
+     1864,
+     11,
+     "Nov.",
+     1.1,
+     1.38,
+     null,
+     null,
+     null
+    ],
+    [
+     "Gera",
+     "1856–1867",
+     12,
+     1864,
+     12,
+     "Dec.",
+     -3.5,
+     -4.38,
+     null,
+     null,
+     null
+    ],
+    [
+     "Gera",
+     "1856–1867",
+     12,
+     1865,
+     1,
+     "Jan.",
+     0.1,
+     0.12,
+     null,
+     null,
+     null
+    ],
+    [
+     "Gera",
+     "1856–1867",
+     12,
+     1865,
+     2,
+     "Febr.",
+     -4.3,
+     -5.38,
+     null,
+     null,
+     null
+    ],
+    [
+     "Gera",
+     "1856–1867",
+     12,
+     1865,
+     3,
+     "März",
+     -1.0,
+     -1.25,
+     null,
+     null,
+     null
+    ],
+    [
+     "Gera",
+     "1856–1867",
+     12,
+     1865,
+     4,
+     "April",
+     7.6,
+     9.5,
+     null,
+     null,
+     null
+    ],
+    [
+     "Gera",
+     "1856–1867",
+     12,
+     1865,
+     5,
+     "Mai",
+     13.1,
+     16.38,
+     null,
+     null,
+     null
+    ],
+    [
+     "Gera",
+     "1856–1867",
+     12,
+     1865,
+     6,
+     "Juni",
+     11.5,
+     14.38,
+     null,
+     null,
+     null
+    ],
+    [
+     "Gera",
+     "1856–1867",
+     12,
+     1865,
+     7,
+     "Juli",
+     16.5,
+     20.62,
+     null,
+     null,
+     null
+    ],
+    [
+     "Gera",
+     "1856–1867",
+     12,
+     1865,
+     8,
+     "Aug.",
+     13.6,
+     17.0,
+     null,
+     null,
+     null
+    ],
+    [
+     "Gera",
+     "1856–1867",
+     12,
+     1865,
+     9,
+     "Sept.",
+     11.6,
+     14.5,
+     null,
+     null,
+     null
+    ],
+    [
+     "Gera",
+     "1856–1867",
+     12,
+     1865,
+     10,
+     "Oct.",
+     7.3,
+     9.12,
+     null,
+     null,
+     null
+    ],
+    [
+     "Gera",
+     "1856–1867",
+     12,
+     1865,
+     11,
+     "Nov.",
+     4.7,
+     5.88,
+     null,
+     null,
+     null
+    ],
+    [
+     "Gera",
+     "1856–1867",
+     12,
+     1865,
+     12,
+     "Dec.",
+     0.1,
+     0.12,
+     null,
+     null,
+     null
+    ],
+    [
+     "Gera",
+     "1856–1867",
+     12,
+     1866,
+     1,
+     "Jan.",
+     2.8,
+     3.5,
+     null,
+     null,
+     null
+    ],
+    [
+     "Gera",
+     "1856–1867",
+     12,
+     1866,
+     2,
+     "Febr.",
+     3.0,
+     3.75,
+     null,
+     null,
+     null
+    ],
+    [
+     "Gera",
+     "1856–1867",
+     12,
+     1866,
+     3,
+     "März",
+     1.7,
+     2.12,
+     null,
+     null,
+     null
+    ],
+    [
+     "Gera",
+     "1856–1867",
+     12,
+     1866,
+     4,
+     "April",
+     7.3,
+     9.12,
+     null,
+     null,
+     null
+    ],
+    [
+     "Gera",
+     "1856–1867",
+     12,
+     1866,
+     5,
+     "Mai",
+     8.1,
+     10.12,
+     null,
+     null,
+     null
+    ],
+    [
+     "Gera",
+     "1856–1867",
+     12,
+     1866,
+     6,
+     "Juni",
+     14.7,
+     18.38,
+     null,
+     null,
+     null
+    ],
+    [
+     "Gera",
+     "1856–1867",
+     12,
+     1866,
+     7,
+     "Juli",
+     13.2,
+     16.5,
+     null,
+     null,
+     null
+    ],
+    [
+     "Gera",
+     "1856–1867",
+     12,
+     1866,
+     8,
+     "Aug.",
+     12.9,
+     16.12,
+     null,
+     null,
+     null
+    ],
+    [
+     "Gera",
+     "1856–1867",
+     12,
+     1866,
+     9,
+     "Sept.",
+     12.9,
+     16.12,
+     null,
+     null,
+     null
+    ],
+    [
+     "Gera",
+     "1856–1867",
+     12,
+     1866,
+     10,
+     "Oct.",
+     4.9,
+     6.12,
+     null,
+     null,
+     null
+    ],
+    [
+     "Gera",
+     "1856–1867",
+     12,
+     1866,
+     11,
+     "Nov.",
+     3.5,
+     4.38,
+     null,
+     null,
+     null
+    ],
+    [
+     "Gera",
+     "1856–1867",
+     12,
+     1866,
+     12,
+     "Dec.",
+     2.0,
+     2.5,
+     null,
+     null,
+     null
+    ],
+    [
+     "Gera",
+     "1856–1867",
+     12,
+     1867,
+     1,
+     "Jan.",
+     -0.3,
+     -0.38,
+     null,
+     null,
+     null
+    ],
+    [
+     "Gera",
+     "1856–1867",
+     12,
+     1867,
+     2,
+     "Febr.",
+     3.6,
+     4.5,
+     null,
+     null,
+     null
+    ],
+    [
+     "Gera",
+     "1856–1867",
+     12,
+     1867,
+     3,
+     "März",
+     1.0,
+     1.25,
+     null,
+     null,
+     null
+    ],
+    [
+     "Gera",
+     "1856–1867",
+     12,
+     1867,
+     4,
+     "April",
+     6.6,
+     8.25,
+     null,
+     null,
+     null
+    ],
+    [
+     "Gera",
+     "1856–1867",
+     12,
+     1867,
+     5,
+     "Mai",
+     9.5,
+     11.88,
+     null,
+     null,
+     null
+    ],
+    [
+     "Gera",
+     "1856–1867",
+     12,
+     1867,
+     6,
+     "Juni",
+     13.6,
+     17.0,
+     null,
+     null,
+     null
+    ],
+    [
+     "Gera",
+     "1856–1867",
+     12,
+     1867,
+     7,
+     "Juli",
+     13.5,
+     16.88,
+     null,
+     null,
+     null
+    ],
+    [
+     "Gera",
+     "1856–1867",
+     12,
+     1867,
+     8,
+     "Aug.",
+     14.5,
+     18.12,
+     null,
+     null,
+     null
+    ],
+    [
+     "Gera",
+     "1856–1867",
+     12,
+     1867,
+     9,
+     "Sept.",
+     12.1,
+     15.12,
+     null,
+     null,
+     null
+    ],
+    [
+     "Gera",
+     "1856–1867",
+     12,
+     1867,
+     10,
+     "Oct.",
+     6.6,
+     8.25,
+     null,
+     null,
+     null
+    ],
+    [
+     "Gera",
+     "1856–1867",
+     12,
+     1867,
+     11,
+     "Nov.",
+     2.3,
+     2.88,
+     null,
+     null,
+     null
+    ],
+    [
+     "Gera",
+     "1856–1867",
+     12,
+     1867,
+     12,
+     "Dec.",
+     -0.5,
+     -0.62,
+     null,
+     null,
+     null
+    ],
+    [
+     "Hohenleuben",
+     "1854–1861",
+     8,
+     1854,
+     1,
+     "Jan.",
+     0.39,
+     0.49,
+     null,
+     null,
+     null
+    ],
+    [
+     "Hohenleuben",
+     "1854–1861",
+     8,
+     1854,
+     2,
+     "Febr.",
+     -1.0,
+     -1.25,
+     null,
+     null,
+     null
+    ],
+    [
+     "Hohenleuben",
+     "1854–1861",
+     8,
+     1854,
+     3,
+     "März",
+     2.34,
+     2.92,
+     null,
+     null,
+     null
+    ],
+    [
+     "Hohenleuben",
+     "1854–1861",
+     8,
+     1854,
+     4,
+     "April",
+     5.65,
+     7.06,
+     null,
+     null,
+     null
+    ],
+    [
+     "Hohenleuben",
+     "1854–1861",
+     8,
+     1854,
+     5,
+     "Mai",
+     10.0,
+     12.5,
+     null,
+     null,
+     null
+    ],
+    [
+     "Hohenleuben",
+     "1854–1861",
+     8,
+     1854,
+     6,
+     "Juni",
+     12.52,
+     15.65,
+     null,
+     null,
+     null
+    ],
+    [
+     "Hohenleuben",
+     "1854–1861",
+     8,
+     1854,
+     7,
+     "Juli",
+     14.2,
+     17.75,
+     null,
+     null,
+     null
+    ],
+    [
+     "Hohenleuben",
+     "1854–1861",
+     8,
+     1854,
+     8,
+     "Aug.",
+     13.33,
+     16.66,
+     null,
+     null,
+     null
+    ],
+    [
+     "Hohenleuben",
+     "1854–1861",
+     8,
+     1854,
+     9,
+     "Sept.",
+     10.34,
+     12.93,
+     null,
+     null,
+     null
+    ],
+    [
+     "Hohenleuben",
+     "1854–1861",
+     8,
+     1854,
+     10,
+     "Oct.",
+     6.0,
+     7.5,
+     null,
+     null,
+     null
+    ],
+    [
+     "Hohenleuben",
+     "1854–1861",
+     8,
+     1854,
+     11,
+     "Nov.",
+     0.43,
+     0.54,
+     null,
+     null,
+     null
+    ],
+    [
+     "Hohenleuben",
+     "1854–1861",
+     8,
+     1854,
+     12,
+     "Dec.",
+     0.65,
+     0.81,
+     null,
+     null,
+     null
+    ],
+    [
+     "Hohenleuben",
+     "1854–1861",
+     8,
+     1855,
+     1,
+     "Jan.",
+     -3.22,
+     -4.03,
+     null,
+     null,
+     null
+    ],
+    [
+     "Hohenleuben",
+     "1854–1861",
+     8,
+     1855,
+     2,
+     "Febr.",
+     -5.36,
+     -6.7,
+     null,
+     null,
+     null
+    ],
+    [
+     "Hohenleuben",
+     "1854–1861",
+     8,
+     1855,
+     3,
+     "März",
+     1.27,
+     1.59,
+     null,
+     null,
+     null
+    ],
+    [
+     "Hohenleuben",
+     "1854–1861",
+     8,
+     1855,
+     4,
+     "April",
+     4.55,
+     5.69,
+     null,
+     null,
+     null
+    ],
+    [
+     "Hohenleuben",
+     "1854–1861",
+     8,
+     1855,
+     5,
+     "Mai",
+     8.87,
+     11.09,
+     null,
+     null,
+     null
+    ],
+    [
+     "Hohenleuben",
+     "1854–1861",
+     8,
+     1855,
+     6,
+     "Juni",
+     13.39,
+     16.74,
+     null,
+     null,
+     null
+    ],
+    [
+     "Hohenleuben",
+     "1854–1861",
+     8,
+     1855,
+     7,
+     "Juli",
+     14.22,
+     17.78,
+     null,
+     null,
+     null
+    ],
+    [
+     "Hohenleuben",
+     "1854–1861",
+     8,
+     1855,
+     8,
+     "Aug.",
+     14.41,
+     18.01,
+     null,
+     null,
+     null
+    ],
+    [
+     "Hohenleuben",
+     "1854–1861",
+     8,
+     1855,
+     9,
+     "Sept.",
+     10.12,
+     12.65,
+     null,
+     null,
+     null
+    ],
+    [
+     "Hohenleuben",
+     "1854–1861",
+     8,
+     1855,
+     10,
+     "Oct.",
+     8.85,
+     11.06,
+     null,
+     null,
+     null
+    ],
+    [
+     "Hohenleuben",
+     "1854–1861",
+     8,
+     1855,
+     11,
+     "Nov.",
+     1.52,
+     1.9,
+     null,
+     null,
+     null
+    ],
+    [
+     "Hohenleuben",
+     "1854–1861",
+     8,
+     1855,
+     12,
+     "Dec.",
+     -4.07,
+     -5.09,
+     null,
+     null,
+     null
+    ],
+    [
+     "Hohenleuben",
+     "1854–1861",
+     8,
+     1856,
+     1,
+     "Jan.",
+     -0.42,
+     -0.53,
+     "Hohenleuben 1856",
+     1856,
+     -1.64
+    ],
+    [
+     "Hohenleuben",
+     "1854–1861",
+     8,
+     1856,
+     2,
+     "Febr.",
+     1.25,
+     1.56,
+     "Hohenleuben 1856",
+     1856,
+     -1.38
+    ],
+    [
+     "Hohenleuben",
+     "1854–1861",
+     8,
+     1856,
+     3,
+     "März",
+     0.28,
+     0.35,
+     "Hohenleuben 1856",
+     1856,
+     8.85
+    ],
+    [
+     "Hohenleuben",
+     "1854–1861",
+     8,
+     1856,
+     4,
+     "April",
+     7.24,
+     9.05,
+     "Hohenleuben 1856",
+     1856,
+     -1.14
+    ],
+    [
+     "Hohenleuben",
+     "1854–1861",
+     8,
+     1856,
+     5,
+     "Mai",
+     9.36,
+     11.7,
+     "Hohenleuben 1856",
+     1856,
+     -0.69
+    ],
+    [
+     "Hohenleuben",
+     "1854–1861",
+     8,
+     1856,
+     6,
+     "Juni",
+     13.4,
+     16.75,
+     "Hohenleuben 1856",
+     1856,
+     -0.15
+    ],
+    [
+     "Hohenleuben",
+     "1854–1861",
+     8,
+     1856,
+     7,
+     "Juli",
+     13.31,
+     16.64,
+     "Hohenleuben 1856",
+     1856,
+     -0.39
+    ],
+    [
+     "Hohenleuben",
+     "1854–1861",
+     8,
+     1856,
+     8,
+     "Aug.",
+     14.7,
+     18.38,
+     "Hohenleuben 1856",
+     1856,
+     -0.42
+    ],
+    [
+     "Hohenleuben",
+     "1854–1861",
+     8,
+     1856,
+     9,
+     "Sept.",
+     10.35,
+     12.94,
+     "Hohenleuben 1856",
+     1856,
+     -1.31
+    ],
+    [
+     "Hohenleuben",
+     "1854–1861",
+     8,
+     1856,
+     10,
+     "Oct.",
+     8.0,
+     10.0,
+     "Hohenleuben 1856",
+     1856,
+     -0.87
+    ],
+    [
+     "Hohenleuben",
+     "1854–1861",
+     8,
+     1856,
+     11,
+     "Nov.",
+     -0.25,
+     -0.31,
+     "Hohenleuben 1856",
+     1856,
+     -1.35
+    ],
+    [
+     "Hohenleuben",
+     "1854–1861",
+     8,
+     1856,
+     12,
+     "Dec.",
+     0.68,
+     0.85,
+     "Hohenleuben 1856",
+     1856,
+     -1.18
+    ],
+    [
+     "Hohenleuben",
+     "1854–1861",
+     8,
+     1857,
+     1,
+     "Jan.",
+     -2.11,
+     -2.64,
+     "Hohenleuben 1857",
+     1857,
+     -1.01
+    ],
+    [
+     "Hohenleuben",
+     "1854–1861",
+     8,
+     1857,
+     2,
+     "Febr.",
+     -0.48,
+     -0.6,
+     "Hohenleuben 1857",
+     1857,
+     -1.47
+    ],
+    [
+     "Hohenleuben",
+     "1854–1861",
+     8,
+     1857,
+     3,
+     "März",
+     2.0,
+     2.5,
+     "Hohenleuben 1857",
+     1857,
+     -1.29
+    ],
+    [
+     "Hohenleuben",
+     "1854–1861",
+     8,
+     1857,
+     4,
+     "April",
+     5.98,
+     7.48,
+     "Hohenleuben 1857",
+     1857,
+     -0.65
+    ],
+    [
+     "Hohenleuben",
+     "1854–1861",
+     8,
+     1857,
+     5,
+     "Mai",
+     10.74,
+     13.43,
+     "Hohenleuben 1857",
+     1857,
+     0.04
+    ],
+    [
+     "Hohenleuben",
+     "1854–1861",
+     8,
+     1857,
+     6,
+     "Juni",
+     13.64,
+     17.05,
+     "Hohenleuben 1857",
+     1857,
+     0.14
+    ],
+    [
+     "Hohenleuben",
+     "1854–1861",
+     8,
+     1857,
+     7,
+     "Juli",
+     16.08,
+     20.1,
+     "Hohenleuben 1857",
+     1857,
+     0.89
+    ],
+    [
+     "Hohenleuben",
+     "1854–1861",
+     8,
+     1857,
+     8,
+     "Aug.",
+     15.75,
+     19.69,
+     "Hohenleuben 1857",
+     1857,
+     0.45
+    ],
+    [
+     "Hohenleuben",
+     "1854–1861",
+     8,
+     1857,
+     9,
+     "Sept.",
+     12.12,
+     15.15,
+     "Hohenleuben 1857",
+     1857,
+     -0.71
+    ],
+    [
+     "Hohenleuben",
+     "1854–1861",
+     8,
+     1857,
+     10,
+     "Oct.",
+     8.87,
+     11.09,
+     "Hohenleuben 1857",
+     1857,
+     -0.91
+    ],
+    [
+     "Hohenleuben",
+     "1854–1861",
+     8,
+     1857,
+     11,
+     "Nov.",
+     1.93,
+     2.41,
+     "Hohenleuben 1857",
+     1857,
+     -0.93
+    ],
+    [
+     "Hohenleuben",
+     "1854–1861",
+     8,
+     1857,
+     12,
+     "Dec.",
+     1.05,
+     1.31,
+     "Hohenleuben 1857",
+     1857,
+     -1.44
+    ],
+    [
+     "Hohenleuben",
+     "1854–1861",
+     8,
+     1858,
+     1,
+     "Jan.",
+     -2.52,
+     -3.15,
+     "Hohenleuben 1858",
+     1858,
+     -1.35
+    ],
+    [
+     "Hohenleuben",
+     "1854–1861",
+     8,
+     1858,
+     2,
+     "Febr.",
+     -3.83,
+     -4.79,
+     "Hohenleuben 1858",
+     1858,
+     -1.67
+    ],
+    [
+     "Hohenleuben",
+     "1854–1861",
+     8,
+     1858,
+     3,
+     "März",
+     0.67,
+     0.84,
+     "Hohenleuben 1858",
+     1858,
+     -1.29
+    ],
+    [
+     "Hohenleuben",
+     "1854–1861",
+     8,
+     1858,
+     4,
+     "April",
+     5.5,
+     6.88,
+     "Hohenleuben 1858",
+     1858,
+     -1.03
+    ],
+    [
+     "Hohenleuben",
+     "1854–1861",
+     8,
+     1858,
+     5,
+     "Mai",
+     9.07,
+     11.34,
+     "Hohenleuben 1858",
+     1858,
+     -0.79
+    ],
+    [
+     "Hohenleuben",
+     "1854–1861",
+     8,
+     1858,
+     6,
+     "Juni",
+     15.94,
+     19.93,
+     "Hohenleuben 1858",
+     1858,
+     0.16
+    ],
+    [
+     "Hohenleuben",
+     "1854–1861",
+     8,
+     1858,
+     7,
+     "Juli",
+     14.22,
+     17.78,
+     "Hohenleuben 1858",
+     1858,
+     0.03
+    ],
+    [
+     "Hohenleuben",
+     "1854–1861",
+     8,
+     1858,
+     8,
+     "Aug.",
+     13.91,
+     17.39,
+     "Hohenleuben 1858",
+     1858,
+     -2.55
+    ],
+    [
+     "Hohenleuben",
+     "1854–1861",
+     8,
+     1858,
+     9,
+     "Sept.",
+     12.36,
+     15.45,
+     "Hohenleuben 1858",
+     1858,
+     -0.74
+    ],
+    [
+     "Hohenleuben",
+     "1854–1861",
+     8,
+     1858,
+     10,
+     "Oct.",
+     7.03,
+     8.79,
+     "Hohenleuben 1858",
+     1858,
+     -1.01
+    ],
+    [
+     "Hohenleuben",
+     "1854–1861",
+     8,
+     1858,
+     11,
+     "Nov.",
+     -2.36,
+     -2.95,
+     "Hohenleuben 1858",
+     1858,
+     -5.58
+    ],
+    [
+     "Hohenleuben",
+     "1854–1861",
+     8,
+     1858,
+     12,
+     "Dec.",
+     0.44,
+     0.55,
+     "Hohenleuben 1858",
+     1858,
+     -0.85
+    ],
+    [
+     "Hohenleuben",
+     "1854–1861",
+     8,
+     1859,
+     1,
+     "Jan.",
+     0.1,
+     0.12,
+     "Hohenleuben 1859",
+     1859,
+     -1.56
+    ],
+    [
+     "Hohenleuben",
+     "1854–1861",
+     8,
+     1859,
+     2,
+     "Febr.",
+     1.21,
+     1.51,
+     "Hohenleuben 1859",
+     1859,
+     -1.43
+    ],
+    [
+     "Hohenleuben",
+     "1854–1861",
+     8,
+     1859,
+     3,
+     "März",
+     4.58,
+     5.72,
+     "Hohenleuben 1859",
+     1859,
+     -1.41
+    ],
+    [
+     "Hohenleuben",
+     "1854–1861",
+     8,
+     1859,
+     4,
+     "April",
+     5.75,
+     7.19,
+     "Hohenleuben 1859",
+     1859,
+     -0.9
+    ],
+    [
+     "Hohenleuben",
+     "1854–1861",
+     8,
+     1859,
+     5,
+     "Mai",
+     10.16,
+     12.7,
+     "Hohenleuben 1859",
+     1859,
+     -0.32
+    ],
+    [
+     "Hohenleuben",
+     "1854–1861",
+     8,
+     1859,
+     6,
+     "Juni",
+     14.01,
+     17.51,
+     "Hohenleuben 1859",
+     1859,
+     0.51
+    ],
+    [
+     "Hohenleuben",
+     "1854–1861",
+     8,
+     1859,
+     7,
+     "Juli",
+     17.33,
+     21.66,
+     "Hohenleuben 1859",
+     1859,
+     0.52
+    ],
+    [
+     "Hohenleuben",
+     "1854–1861",
+     8,
+     1859,
+     8,
+     "Aug.",
+     16.14,
+     20.18,
+     "Hohenleuben 1859",
+     1859,
+     -0.12
+    ],
+    [
+     "Hohenleuben",
+     "1854–1861",
+     8,
+     1859,
+     9,
+     "Sept.",
+     11.15,
+     13.94,
+     "Hohenleuben 1859",
+     1859,
+     -0.61
+    ],
+    [
+     "Hohenleuben",
+     "1854–1861",
+     8,
+     1859,
+     10,
+     "Oct.",
+     7.91,
+     9.89,
+     "Hohenleuben 1859",
+     1859,
+     -0.96
+    ],
+    [
+     "Hohenleuben",
+     "1854–1861",
+     8,
+     1859,
+     11,
+     "Nov.",
+     1.55,
+     1.94,
+     "Hohenleuben 1859",
+     1859,
+     -0.75
+    ],
+    [
+     "Hohenleuben",
+     "1854–1861",
+     8,
+     1859,
+     12,
+     "Dec.",
+     -2.15,
+     -2.69,
+     "Hohenleuben 1859",
+     1859,
+     -1.06
+    ],
+    [
+     "Hohenleuben",
+     "1854–1861",
+     8,
+     1860,
+     1,
+     "Jan.",
+     0.88,
+     1.1,
+     "Hohenleuben 1860",
+     1860,
+     -0.9
+    ],
+    [
+     "Hohenleuben",
+     "1854–1861",
+     8,
+     1860,
+     2,
+     "Febr.",
+     -2.14,
+     -2.68,
+     "Hohenleuben 1860",
+     1860,
+     -0.85
+    ],
+    [
+     "Hohenleuben",
+     "1854–1861",
+     8,
+     1860,
+     3,
+     "März",
+     0.72,
+     0.9,
+     "Hohenleuben 1860",
+     1860,
+     -1.1
+    ],
+    [
+     "Hohenleuben",
+     "1854–1861",
+     8,
+     1860,
+     4,
+     "April",
+     5.04,
+     6.3,
+     "Hohenleuben 1860",
+     1860,
+     -0.8
+    ],
+    [
+     "Hohenleuben",
+     "1854–1861",
+     8,
+     1860,
+     5,
+     "Mai",
+     11.03,
+     13.79,
+     "Hohenleuben 1860",
+     1860,
+     -0.04
+    ],
+    [
+     "Hohenleuben",
+     "1854–1861",
+     8,
+     1860,
+     6,
+     "Juni",
+     13.52,
+     16.9,
+     "Hohenleuben 1860",
+     1860,
+     0.42
+    ],
+    [
+     "Hohenleuben",
+     "1854–1861",
+     8,
+     1860,
+     7,
+     "Juli",
+     12.47,
+     15.59,
+     "Hohenleuben 1860",
+     1860,
+     -0.07
+    ],
+    [
+     "Hohenleuben",
+     "1854–1861",
+     8,
+     1860,
+     8,
+     "Aug.",
+     13.25,
+     16.56,
+     "Hohenleuben 1860",
+     1860,
+     -0.46
+    ],
+    [
+     "Hohenleuben",
+     "1854–1861",
+     8,
+     1860,
+     9,
+     "Sept.",
+     11.0,
+     13.75,
+     "Hohenleuben 1860",
+     1860,
+     -0.39
+    ],
+    [
+     "Hohenleuben",
+     "1854–1861",
+     8,
+     1860,
+     10,
+     "Oct.",
+     5.86,
+     7.33,
+     "Hohenleuben 1860",
+     1860,
+     -1.14
+    ],
+    [
+     "Hohenleuben",
+     "1854–1861",
+     8,
+     1860,
+     11,
+     "Nov.",
+     0.08,
+     0.1,
+     "Hohenleuben 1860",
+     1860,
+     -0.8
+    ],
+    [
+     "Hohenleuben",
+     "1854–1861",
+     8,
+     1860,
+     12,
+     "Dec.",
+     -1.36,
+     -1.7,
+     "Hohenleuben 1860",
+     1860,
+     -0.16
+    ],
+    [
+     "Hohenleuben",
+     "1854–1861",
+     8,
+     1861,
+     1,
+     "Jan.",
+     -4.79,
+     -5.99,
+     "Hohenleuben 1861",
+     1861,
+     0.4
+    ],
+    [
+     "Hohenleuben",
+     "1854–1861",
+     8,
+     1861,
+     2,
+     "Febr.",
+     0.74,
+     0.93,
+     "Hohenleuben 1861",
+     1861,
+     -2.75
+    ],
+    [
+     "Hohenleuben",
+     "1854–1861",
+     8,
+     1861,
+     3,
+     "März",
+     3.48,
+     4.35,
+     "Hohenleuben 1861",
+     1861,
+     -1.3
+    ],
+    [
+     "Hohenleuben",
+     "1854–1861",
+     8,
+     1861,
+     4,
+     "April",
+     4.28,
+     5.35,
+     "Hohenleuben 1861",
+     1861,
+     -0.92
+    ],
+    [
+     "Hohenleuben",
+     "1854–1861",
+     8,
+     1861,
+     5,
+     "Mai",
+     8.72,
+     10.9,
+     "Hohenleuben 1861",
+     1861,
+     -0.22
+    ],
+    [
+     "Hohenleuben",
+     "1854–1861",
+     8,
+     1861,
+     6,
+     "Juni",
+     14.89,
+     18.61,
+     "Hohenleuben 1861",
+     1861,
+     1.11
+    ],
+    [
+     "Hohenleuben",
+     "1854–1861",
+     8,
+     1861,
+     7,
+     "Juli",
+     14.8,
+     18.5,
+     "Hohenleuben 1861",
+     1861,
+     0.45
+    ],
+    [
+     "Hohenleuben",
+     "1854–1861",
+     8,
+     1861,
+     8,
+     "Aug.",
+     14.75,
+     18.44,
+     "Hohenleuben 1861",
+     1861,
+     0.21
+    ],
+    [
+     "Schleiz",
+     "1863–1867",
+     5,
+     1863,
+     1,
+     "Jan.",
+     1.74,
+     2.17,
+     "Schleiz 1863",
+     11863,
+     -0.82
+    ],
+    [
+     "Schleiz",
+     "1863–1867",
+     5,
+     1863,
+     2,
+     "Febr.",
+     2.07,
+     2.59,
+     "Schleiz 1863",
+     11863,
+     -0.16
+    ],
+    [
+     "Schleiz",
+     "1863–1867",
+     5,
+     1863,
+     3,
+     "März",
+     4.33,
+     5.41,
+     "Schleiz 1863",
+     11863,
+     0.16
+    ],
+    [
+     "Schleiz",
+     "1863–1867",
+     5,
+     1863,
+     4,
+     "April",
+     6.99,
+     8.74,
+     "Schleiz 1863",
+     11863,
+     0.24
+    ],
+    [
+     "Schleiz",
+     "1863–1867",
+     5,
+     1863,
+     5,
+     "Mai",
+     10.64,
+     13.3,
+     "Schleiz 1863",
+     11863,
+     0.55
+    ],
+    [
+     "Schleiz",
+     "1863–1867",
+     5,
+     1863,
+     6,
+     "Juni",
+     13.75,
+     17.19,
+     "Schleiz 1863",
+     11863,
+     0.31
+    ],
+    [
+     "Schleiz",
+     "1863–1867",
+     5,
+     1863,
+     7,
+     "Juli",
+     14.1,
+     17.62,
+     "Schleiz 1863",
+     11863,
+     0.87
+    ],
+    [
+     "Schleiz",
+     "1863–1867",
+     5,
+     1863,
+     8,
+     "Aug.",
+     15.38,
+     19.23,
+     "Schleiz 1863",
+     11863,
+     -0.27
+    ],
+    [
+     "Schleiz",
+     "1863–1867",
+     5,
+     1863,
+     9,
+     "Sept.",
+     11.18,
+     13.97,
+     "Schleiz 1863",
+     11863,
+     -0.28
+    ],
+    [
+     "Schleiz",
+     "1863–1867",
+     5,
+     1863,
+     10,
+     "Oct.",
+     9.04,
+     11.3,
+     "Schleiz 1863",
+     11863,
+     0.05
+    ],
+    [
+     "Schleiz",
+     "1863–1867",
+     5,
+     1863,
+     11,
+     "Nov.",
+     3.8,
+     4.75,
+     "Schleiz 1863",
+     11863,
+     -0.13
+    ],
+    [
+     "Schleiz",
+     "1863–1867",
+     5,
+     1863,
+     12,
+     "Dec.",
+     2.37,
+     2.96,
+     "Schleiz 1863",
+     11863,
+     -0.41
+    ],
+    [
+     "Schleiz",
+     "1863–1867",
+     5,
+     1864,
+     1,
+     "Jan.",
+     -4.34,
+     -5.42,
+     "Schleiz 1864",
+     11864,
+     0.7
+    ],
+    [
+     "Schleiz",
+     "1863–1867",
+     5,
+     1864,
+     2,
+     "Febr.",
+     0.85,
+     1.06,
+     "Schleiz 1864",
+     11864,
+     1.94
+    ],
+    [
+     "Schleiz",
+     "1863–1867",
+     5,
+     1864,
+     3,
+     "März",
+     4.26,
+     5.32,
+     "Schleiz 1864",
+     11864,
+     0.7
+    ],
+    [
+     "Schleiz",
+     "1863–1867",
+     5,
+     1864,
+     4,
+     "April",
+     4.69,
+     5.86,
+     "Schleiz 1864",
+     11864,
+     0.36
+    ],
+    [
+     "Schleiz",
+     "1863–1867",
+     5,
+     1864,
+     5,
+     "Mai",
+     8.36,
+     10.45,
+     "Schleiz 1864",
+     11864,
+     0.45
+    ],
+    [
+     "Schleiz",
+     "1863–1867",
+     5,
+     1864,
+     6,
+     "Juni",
+     13.53,
+     16.91,
+     "Schleiz 1864",
+     11864,
+     0.79
+    ],
+    [
+     "Schleiz",
+     "1863–1867",
+     5,
+     1864,
+     7,
+     "Juli",
+     13.65,
+     17.06,
+     "Schleiz 1864",
+     11864,
+     1.06
+    ],
+    [
+     "Schleiz",
+     "1863–1867",
+     5,
+     1864,
+     8,
+     "Aug.",
+     12.33,
+     15.41,
+     "Schleiz 1864",
+     11864,
+     0.16
+    ],
+    [
+     "Schleiz",
+     "1863–1867",
+     5,
+     1864,
+     9,
+     "Sept.",
+     11.13,
+     13.91,
+     "Schleiz 1864",
+     11864,
+     0.29
+    ],
+    [
+     "Schleiz",
+     "1863–1867",
+     5,
+     1864,
+     10,
+     "Oct.",
+     6.37,
+     7.96,
+     "Schleiz 1864",
+     11864,
+     0.59
+    ],
+    [
+     "Schleiz",
+     "1863–1867",
+     5,
+     1864,
+     11,
+     "Nov.",
+     1.44,
+     1.8,
+     "Schleiz 1864",
+     11864,
+     0.42
+    ],
+    [
+     "Schleiz",
+     "1863–1867",
+     5,
+     1864,
+     12,
+     "Dec.",
+     -2.82,
+     -3.52,
+     "Schleiz 1864",
+     11864,
+     0.85
+    ],
+    [
+     "Schleiz",
+     "1863–1867",
+     5,
+     1865,
+     1,
+     "Jan.",
+     0.33,
+     0.41,
+     "Schleiz 1865",
+     11865,
+     0.29
+    ],
+    [
+     "Schleiz",
+     "1863–1867",
+     5,
+     1865,
+     2,
+     "Febr.",
+     -3.86,
+     -4.83,
+     "Schleiz 1865",
+     11865,
+     0.55
+    ],
+    [
+     "Schleiz",
+     "1863–1867",
+     5,
+     1865,
+     3,
+     "März",
+     -0.49,
+     -0.61,
+     "Schleiz 1865",
+     11865,
+     0.64
+    ],
+    [
+     "Schleiz",
+     "1863–1867",
+     5,
+     1865,
+     4,
+     "April",
+     8.17,
+     10.21,
+     "Schleiz 1865",
+     11865,
+     0.71
+    ],
+    [
+     "Schleiz",
+     "1863–1867",
+     5,
+     1865,
+     5,
+     "Mai",
+     14.14,
+     17.68,
+     "Schleiz 1865",
+     11865,
+     1.3
+    ],
+    [
+     "Schleiz",
+     "1863–1867",
+     5,
+     1865,
+     6,
+     "Juni",
+     12.09,
+     15.11,
+     "Schleiz 1865",
+     11865,
+     0.74
+    ],
+    [
+     "Schleiz",
+     "1863–1867",
+     5,
+     1865,
+     7,
+     "Juli",
+     17.45,
+     21.81,
+     "Schleiz 1865",
+     11865,
+     1.19
+    ],
+    [
+     "Schleiz",
+     "1863–1867",
+     5,
+     1865,
+     8,
+     "Aug.",
+     13.8,
+     17.25,
+     "Schleiz 1865",
+     11865,
+     0.25
+    ],
+    [
+     "Schleiz",
+     "1863–1867",
+     5,
+     1865,
+     9,
+     "Sept.",
+     11.79,
+     14.74,
+     "Schleiz 1865",
+     11865,
+     0.24
+    ],
+    [
+     "Schleiz",
+     "1863–1867",
+     5,
+     1865,
+     10,
+     "Oct.",
+     7.69,
+     9.61,
+     "Schleiz 1865",
+     11865,
+     0.49
+    ],
+    [
+     "Schleiz",
+     "1863–1867",
+     5,
+     1865,
+     11,
+     "Nov.",
+     4.53,
+     5.66,
+     "Schleiz 1865",
+     11865,
+     -0.21
+    ],
+    [
+     "Schleiz",
+     "1863–1867",
+     5,
+     1865,
+     12,
+     "Dec.",
+     -0.44,
+     -0.55,
+     "Schleiz 1865",
+     11865,
+     -0.68
+    ],
+    [
+     "Schleiz",
+     "1863–1867",
+     5,
+     1866,
+     1,
+     "Jan.",
+     3.05,
+     3.81,
+     "Schleiz 1866",
+     11866,
+     0.31
+    ],
+    [
+     "Schleiz",
+     "1863–1867",
+     5,
+     1866,
+     2,
+     "Febr.",
+     2.93,
+     3.66,
+     "Schleiz 1866",
+     11866,
+     -0.09
+    ],
+    [
+     "Schleiz",
+     "1863–1867",
+     5,
+     1866,
+     3,
+     "März",
+     1.87,
+     2.34,
+     "Schleiz 1866",
+     11866,
+     0.21
+    ],
+    [
+     "Schleiz",
+     "1863–1867",
+     5,
+     1866,
+     4,
+     "April",
+     7.01,
+     8.76,
+     "Schleiz 1866",
+     11866,
+     -0.36
+    ],
+    [
+     "Schleiz",
+     "1863–1867",
+     5,
+     1866,
+     5,
+     "Mai",
+     7.37,
+     9.21,
+     "Schleiz 1866",
+     11866,
+     -0.91
+    ],
+    [
+     "Schleiz",
+     "1863–1867",
+     5,
+     1866,
+     6,
+     "Juni",
+     14.05,
+     17.56,
+     "Schleiz 1866",
+     11866,
+     -0.81
+    ],
+    [
+     "Schleiz",
+     "1863–1867",
+     5,
+     1866,
+     7,
+     "Juli",
+     12.74,
+     15.93,
+     "Schleiz 1866",
+     11866,
+     -0.57
+    ],
+    [
+     "Schleiz",
+     "1863–1867",
+     5,
+     1866,
+     8,
+     "Aug.",
+     12.65,
+     15.81,
+     "Schleiz 1866",
+     11866,
+     -0.31
+    ],
+    [
+     "Schleiz",
+     "1863–1867",
+     5,
+     1866,
+     9,
+     "Sept.",
+     12.76,
+     15.95,
+     "Schleiz 1866",
+     11866,
+     -0.18
+    ],
+    [
+     "Schleiz",
+     "1863–1867",
+     5,
+     1866,
+     10,
+     "Oct.",
+     5.49,
+     6.86,
+     "Schleiz 1866",
+     11866,
+     0.74
+    ],
+    [
+     "Schleiz",
+     "1863–1867",
+     5,
+     1866,
+     11,
+     "Nov.",
+     2.92,
+     3.65,
+     "Schleiz 1866",
+     11866,
+     -0.73
+    ],
+    [
+     "Schleiz",
+     "1863–1867",
+     5,
+     1866,
+     12,
+     "Dec.",
+     1.5,
+     1.88,
+     "Schleiz 1866",
+     11866,
+     -0.62
+    ],
+    [
+     "Schleiz",
+     "1863–1867",
+     5,
+     1867,
+     1,
+     "Jan.",
+     -1.1,
+     -1.38,
+     "Schleiz 1867",
+     11867,
+     -1.0
+    ],
+    [
+     "Schleiz",
+     "1863–1867",
+     5,
+     1867,
+     2,
+     "Febr.",
+     2.9,
+     3.62,
+     "Schleiz 1867",
+     11867,
+     -0.88
+    ],
+    [
+     "Schleiz",
+     "1863–1867",
+     5,
+     1867,
+     3,
+     "März",
+     1.2,
+     1.5,
+     "Schleiz 1867",
+     11867,
+     0.25
+    ],
+    [
+     "Schleiz",
+     "1863–1867",
+     5,
+     1867,
+     4,
+     "April",
+     6.1,
+     7.62,
+     "Schleiz 1867",
+     11867,
+     -0.62
+    ],
+    [
+     "Schleiz",
+     "1863–1867",
+     5,
+     1867,
+     5,
+     "Mai",
+     10.3,
+     12.88,
+     "Schleiz 1867",
+     11867,
+     1.0
+    ],
+    [
+     "Schleiz",
+     "1863–1867",
+     5,
+     1867,
+     6,
+     "Juni",
+     13.6,
+     17.0,
+     "Schleiz 1867",
+     11867,
+     0.0
+    ],
+    [
+     "Schleiz",
+     "1863–1867",
+     5,
+     1867,
+     7,
+     "Juli",
+     13.7,
+     17.12,
+     "Schleiz 1867",
+     11867,
+     0.25
+    ],
+    [
+     "Schleiz",
+     "1863–1867",
+     5,
+     1867,
+     8,
+     "Aug.",
+     14.9,
+     18.62,
+     "Schleiz 1867",
+     11867,
+     0.5
+    ],
+    [
+     "Schleiz",
+     "1863–1867",
+     5,
+     1867,
+     9,
+     "Sept.",
+     11.9,
+     14.88,
+     "Schleiz 1867",
+     11867,
+     -0.25
+    ],
+    [
+     "Schleiz",
+     "1863–1867",
+     5,
+     1867,
+     10,
+     "Oct.",
+     6.6,
+     8.25,
+     "Schleiz 1867",
+     11867,
+     0.0
+    ],
+    [
+     "Schleiz",
+     "1863–1867",
+     5,
+     1867,
+     11,
+     "Nov.",
+     1.6,
+     2.0,
+     "Schleiz 1867",
+     11867,
+     -0.87
+    ],
+    [
+     "Schleiz",
+     "1863–1867",
+     5,
+     1867,
+     12,
+     "Dec.",
+     -1.5,
+     -1.88,
+     "Schleiz 1867",
+     11867,
+     -1.25
+    ],
+    [
+     "Rothenacker",
+     "1865, 1867",
+     2,
+     1865,
+     1,
+     "Jan.",
+     -1.11,
+     -1.39,
+     "Rothenacker 1865",
+     21865,
+     -1.51
+    ],
+    [
+     "Rothenacker",
+     "1865, 1867",
+     2,
+     1865,
+     2,
+     "Febr.",
+     -4.63,
+     -5.79,
+     "Rothenacker 1865",
+     21865,
+     -0.41
+    ],
+    [
+     "Rothenacker",
+     "1865, 1867",
+     2,
+     1865,
+     3,
+     "März",
+     -1.67,
+     -2.09,
+     "Rothenacker 1865",
+     21865,
+     -0.84
+    ],
+    [
+     "Rothenacker",
+     "1865, 1867",
+     2,
+     1865,
+     4,
+     "April",
+     6.96,
+     8.7,
+     "Rothenacker 1865",
+     21865,
+     -0.8
+    ],
+    [
+     "Rothenacker",
+     "1865, 1867",
+     2,
+     1865,
+     5,
+     "Mai",
+     13.51,
+     16.89,
+     "Rothenacker 1865",
+     21865,
+     0.51
+    ],
+    [
+     "Rothenacker",
+     "1865, 1867",
+     2,
+     1865,
+     6,
+     "Juni",
+     10.99,
+     13.74,
+     "Rothenacker 1865",
+     21865,
+     -0.64
+    ],
+    [
+     "Rothenacker",
+     "1865, 1867",
+     2,
+     1865,
+     7,
+     "Juli",
+     16.73,
+     20.91,
+     "Rothenacker 1865",
+     21865,
+     0.29
+    ],
+    [
+     "Rothenacker",
+     "1865, 1867",
+     2,
+     1865,
+     8,
+     "Aug.",
+     12.65,
+     15.81,
+     "Rothenacker 1865",
+     21865,
+     -1.19
+    ],
+    [
+     "Rothenacker",
+     "1865, 1867",
+     2,
+     1865,
+     9,
+     "Sept.",
+     12.85,
+     16.06,
+     "Rothenacker 1865",
+     21865,
+     1.56
+    ],
+    [
+     "Rothenacker",
+     "1865, 1867",
+     2,
+     1865,
+     10,
+     "Oct.",
+     7.98,
+     9.98,
+     "Rothenacker 1865",
+     21865,
+     0.85
+    ],
+    [
+     "Rothenacker",
+     "1865, 1867",
+     2,
+     1865,
+     11,
+     "Nov.",
+     3.17,
+     3.96,
+     "Rothenacker 1865",
+     21865,
+     -1.91
+    ],
+    [
+     "Rothenacker",
+     "1865, 1867",
+     2,
+     1865,
+     12,
+     "Dec.",
+     1.0,
+     1.25,
+     "Rothenacker 1865",
+     21865,
+     1.12
+    ],
+    [
+     "Rothenacker",
+     "1865, 1867",
+     2,
+     1867,
+     1,
+     "Jan.",
+     -1.35,
+     -1.69,
+     "Rothenacker 1867",
+     21867,
+     -1.31
+    ],
+    [
+     "Rothenacker",
+     "1865, 1867",
+     2,
+     1867,
+     2,
+     "Febr.",
+     2.32,
+     2.9,
+     "Rothenacker 1867",
+     21867,
+     -1.6
+    ],
+    [
+     "Rothenacker",
+     "1865, 1867",
+     2,
+     1867,
+     3,
+     "März",
+     0.54,
+     0.68,
+     "Rothenacker 1867",
+     21867,
+     -0.57
+    ],
+    [
+     "Rothenacker",
+     "1865, 1867",
+     2,
+     1867,
+     4,
+     "April",
+     5.13,
+     6.41,
+     "Rothenacker 1867",
+     21867,
+     -1.84
+    ],
+    [
+     "Rothenacker",
+     "1865, 1867",
+     2,
+     1867,
+     5,
+     "Mai",
+     8.38,
+     10.48,
+     "Rothenacker 1867",
+     21867,
+     -1.4
+    ],
+    [
+     "Rothenacker",
+     "1865, 1867",
+     2,
+     1867,
+     6,
+     "Juni",
+     11.44,
+     14.3,
+     "Rothenacker 1867",
+     21867,
+     -2.7
+    ],
+    [
+     "Rothenacker",
+     "1865, 1867",
+     2,
+     1867,
+     7,
+     "Juli",
+     11.14,
+     13.93,
+     "Rothenacker 1867",
+     21867,
+     -2.95
+    ],
+    [
+     "Rothenacker",
+     "1865, 1867",
+     2,
+     1867,
+     8,
+     "Aug.",
+     13.26,
+     16.57,
+     "Rothenacker 1867",
+     21867,
+     -1.55
+    ],
+    [
+     "Rothenacker",
+     "1865, 1867",
+     2,
+     1867,
+     9,
+     "Sept.",
+     10.57,
+     13.21,
+     "Rothenacker 1867",
+     21867,
+     -1.91
+    ],
+    [
+     "Rothenacker",
+     "1865, 1867",
+     2,
+     1867,
+     10,
+     "Oct.",
+     5.61,
+     7.01,
+     "Rothenacker 1867",
+     21867,
+     -1.24
+    ],
+    [
+     "Rothenacker",
+     "1865, 1867",
+     2,
+     1867,
+     11,
+     "Nov.",
+     0.68,
+     0.85,
+     "Rothenacker 1867",
+     21867,
+     -2.02
+    ],
+    [
+     "Rothenacker",
+     "1865, 1867",
+     2,
+     1867,
+     12,
+     "Dec.",
+     -2.23,
+     -2.79,
+     "Rothenacker 1867",
+     21867,
+     -2.16
+    ],
+    [
+     "Ziegenrück",
+     "1848–1856",
+     9,
+     null,
+     1,
+     "Jan.",
+     -1.65,
+     -2.06,
+     null,
+     null,
+     null
+    ],
+    [
+     "Ziegenrück",
+     "1848–1856",
+     9,
+     null,
+     2,
+     "Febr.",
+     -0.04,
+     -0.05,
+     null,
+     null,
+     null
+    ],
+    [
+     "Ziegenrück",
+     "1848–1856",
+     9,
+     null,
+     3,
+     "März",
+     1.08,
+     1.35,
+     null,
+     null,
+     null
+    ],
+    [
+     "Ziegenrück",
+     "1848–1856",
+     9,
+     null,
+     4,
+     "April",
+     5.21,
+     6.51,
+     null,
+     null,
+     null
+    ],
+    [
+     "Ziegenrück",
+     "1848–1856",
+     9,
+     null,
+     5,
+     "Mai",
+     8.52,
+     10.65,
+     null,
+     null,
+     null
+    ],
+    [
+     "Ziegenrück",
+     "1848–1856",
+     9,
+     null,
+     6,
+     "Juni",
+     12.08,
+     15.1,
+     null,
+     null,
+     null
+    ],
+    [
+     "Ziegenrück",
+     "1848–1856",
+     9,
+     null,
+     7,
+     "Juli",
+     12.73,
+     15.91,
+     null,
+     null,
+     null
+    ],
+    [
+     "Ziegenrück",
+     "1848–1856",
+     9,
+     null,
+     8,
+     "Aug.",
+     12.59,
+     15.74,
+     null,
+     null,
+     null
+    ],
+    [
+     "Ziegenrück",
+     "1848–1856",
+     9,
+     null,
+     9,
+     "Sept.",
+     9.05,
+     11.31,
+     null,
+     null,
+     null
+    ],
+    [
+     "Ziegenrück",
+     "1848–1856",
+     9,
+     null,
+     10,
+     "Oct.",
+     6.57,
+     8.21,
+     null,
+     null,
+     null
+    ],
+    [
+     "Ziegenrück",
+     "1848–1856",
+     9,
+     null,
+     11,
+     "Nov.",
+     1.97,
+     2.46,
+     null,
+     null,
+     null
+    ],
+    [
+     "Ziegenrück",
+     "1848–1856",
+     9,
+     null,
+     12,
+     "Dec.",
+     -4.33,
+     -5.41,
+     null,
+     null,
+     null
+    ],
+    [
+     "Lobenstein",
+     "1863",
+     1,
+     1863,
+     1,
+     "Jan.",
+     1.3,
+     1.62,
+     "Lobenstein 1863",
+     31863,
+     -1.37
+    ],
+    [
+     "Lobenstein",
+     "1863",
+     1,
+     1863,
+     2,
+     "Febr.",
+     1.27,
+     1.59,
+     "Lobenstein 1863",
+     31863,
+     -1.16
+    ],
+    [
+     "Lobenstein",
+     "1863",
+     1,
+     1863,
+     3,
+     "März",
+     3.51,
+     4.39,
+     "Lobenstein 1863",
+     31863,
+     -0.86
+    ],
+    [
+     "Lobenstein",
+     "1863",
+     1,
+     1863,
+     4,
+     "April",
+     6.19,
+     7.74,
+     "Lobenstein 1863",
+     31863,
+     -0.76
+    ],
+    [
+     "Lobenstein",
+     "1863",
+     1,
+     1863,
+     5,
+     "Mai",
+     9.77,
+     12.21,
+     "Lobenstein 1863",
+     31863,
+     -0.54
+    ],
+    [
+     "Lobenstein",
+     "1863",
+     1,
+     1863,
+     6,
+     "Juni",
+     12.32,
+     15.4,
+     "Lobenstein 1863",
+     31863,
+     -1.47
+    ],
+    [
+     "Lobenstein",
+     "1863",
+     1,
+     1863,
+     7,
+     "Juli",
+     12.32,
+     15.4,
+     "Lobenstein 1863",
+     31863,
+     -1.35
+    ],
+    [
+     "Lobenstein",
+     "1863",
+     1,
+     1863,
+     8,
+     "Aug.",
+     14.0,
+     17.5,
+     "Lobenstein 1863",
+     31863,
+     -2.0
+    ],
+    [
+     "Lobenstein",
+     "1863",
+     1,
+     1863,
+     9,
+     "Sept.",
+     10.0,
+     12.5,
+     "Lobenstein 1863",
+     31863,
+     -1.75
+    ],
+    [
+     "Lobenstein",
+     "1863",
+     1,
+     1863,
+     10,
+     "Oct.",
+     7.98,
+     9.98,
+     "Lobenstein 1863",
+     31863,
+     -1.27
+    ],
+    [
+     "Lobenstein",
+     "1863",
+     1,
+     1863,
+     11,
+     "Nov.",
+     3.17,
+     3.96,
+     "Lobenstein 1863",
+     31863,
+     -0.91
+    ],
+    [
+     "Lobenstein",
+     "1863",
+     1,
+     1863,
+     12,
+     "Dec.",
+     1.0,
+     1.25,
+     "Lobenstein 1863",
+     31863,
+     -2.12
+    ],
+    [
+     "Saalburg",
+     "Dez. 1864–Nov. 1865",
+     1,
+     1864,
+     12,
+     "Dec.",
+     2.42,
+     3.02,
+     "Saalburg 1864/65",
+     41864,
+     7.4
+    ],
+    [
+     "Saalburg",
+     "Dez. 1864–Nov. 1865",
+     1,
+     1865,
+     1,
+     "Jan.",
+     1.78,
+     2.23,
+     "Saalburg 1864/65",
+     41865,
+     2.1
+    ],
+    [
+     "Saalburg",
+     "Dez. 1864–Nov. 1865",
+     1,
+     1865,
+     2,
+     "Febr.",
+     -0.74,
+     -0.93,
+     "Saalburg 1864/65",
+     41865,
+     4.45
+    ],
+    [
+     "Saalburg",
+     "Dez. 1864–Nov. 1865",
+     1,
+     1865,
+     3,
+     "März",
+     1.5,
+     1.88,
+     "Saalburg 1864/65",
+     41865,
+     3.12
+    ],
+    [
+     "Saalburg",
+     "Dez. 1864–Nov. 1865",
+     1,
+     1865,
+     4,
+     "April",
+     6.82,
+     8.53,
+     "Saalburg 1864/65",
+     41865,
+     -0.97
+    ],
+    [
+     "Saalburg",
+     "Dez. 1864–Nov. 1865",
+     1,
+     1865,
+     5,
+     "Mai",
+     13.22,
+     16.53,
+     "Saalburg 1864/65",
+     41865,
+     0.15
+    ],
+    [
+     "Saalburg",
+     "Dez. 1864–Nov. 1865",
+     1,
+     1865,
+     6,
+     "Juni",
+     10.81,
+     13.51,
+     "Saalburg 1864/65",
+     41865,
+     -0.86
+    ],
+    [
+     "Saalburg",
+     "Dez. 1864–Nov. 1865",
+     1,
+     1865,
+     7,
+     "Juli",
+     16.85,
+     21.06,
+     "Saalburg 1864/65",
+     41865,
+     0.44
+    ],
+    [
+     "Saalburg",
+     "Dez. 1864–Nov. 1865",
+     1,
+     1865,
+     8,
+     "Aug.",
+     13.45,
+     16.81,
+     "Saalburg 1864/65",
+     41865,
+     -0.19
+    ],
+    [
+     "Saalburg",
+     "Dez. 1864–Nov. 1865",
+     1,
+     1865,
+     9,
+     "Sept.",
+     12.36,
+     15.45,
+     "Saalburg 1864/65",
+     41865,
+     0.95
+    ],
+    [
+     "Saalburg",
+     "Dez. 1864–Nov. 1865",
+     1,
+     1865,
+     10,
+     "Oct.",
+     8.21,
+     10.26,
+     "Saalburg 1864/65",
+     41865,
+     1.14
+    ],
+    [
+     "Saalburg",
+     "Dez. 1864–Nov. 1865",
+     1,
+     1865,
+     11,
+     "Nov.",
+     5.25,
+     6.56,
+     "Saalburg 1864/65",
+     41865,
+     0.69
+    ]
+   ],
+   "source_refs": [
+    {
+     "page": "55",
+     "block": "b7",
+     "rows": "r2-r13"
+    },
+    {
+     "page": "56",
+     "block": "b2",
+     "rows": "r2-r9"
+    },
+    {
+     "page": "56",
+     "block": "b5",
+     "rows": "r2-r6"
+    },
+    {
+     "page": "57",
+     "block": "b2",
+     "rows": "r2-r3"
+    },
+    {
+     "page": "57",
+     "block": "b6",
+     "rows": "r2"
+    },
+    {
+     "page": "58",
+     "block": "b2",
+     "rows": "r2-r14"
+    }
+   ]
+  },
+  {
+   "name": "annual",
+   "title": {
+    "de": "Jahreswerte der Temperatur nach Station",
+    "en": "Annual temperature values by station"
+   },
+   "columns": [
+    {
+     "name": "station",
+     "label": {
+      "de": "Station",
+      "en": "Station"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "year",
+     "label": {
+      "de": "Jahr",
+      "en": "Year"
+     },
+     "type": "integer",
+     "unit": null
+    },
+    {
+     "name": "summer_r",
+     "label": {
+      "de": "Sommermittel (Apr–Sep)",
+      "en": "Summer mean (Apr–Sep)"
+     },
+     "type": "number",
+     "unit": "°R"
+    },
+    {
+     "name": "winter_r",
+     "label": {
+      "de": "Wintermittel (Okt–Mär)",
+      "en": "Winter mean (Oct–Mar)"
+     },
+     "type": "number",
+     "unit": "°R"
+    },
+    {
+     "name": "max_r",
+     "label": {
+      "de": "Höchster Stand",
+      "en": "Highest reading"
+     },
+     "type": "number",
+     "unit": "°R"
+    },
+    {
+     "name": "min_r",
+     "label": {
+      "de": "Tiefster Stand",
+      "en": "Lowest reading"
+     },
+     "type": "number",
+     "unit": "°R"
+    },
+    {
+     "name": "annual_r",
+     "label": {
+      "de": "Jahresmittel",
+      "en": "Annual mean"
+     },
+     "type": "number",
+     "unit": "°R"
+    },
+    {
+     "name": "summer_c",
+     "label": {
+      "de": "Sommermittel (Apr–Sep)",
+      "en": "Summer mean (Apr–Sep)"
+     },
+     "type": "number",
+     "unit": "°C",
+     "derived": true
+    },
+    {
+     "name": "winter_c",
+     "label": {
+      "de": "Wintermittel (Okt–Mär)",
+      "en": "Winter mean (Oct–Mar)"
+     },
+     "type": "number",
+     "unit": "°C",
+     "derived": true
+    },
+    {
+     "name": "max_c",
+     "label": {
+      "de": "Höchster Stand",
+      "en": "Highest reading"
+     },
+     "type": "number",
+     "unit": "°C",
+     "derived": true
+    },
+    {
+     "name": "min_c",
+     "label": {
+      "de": "Tiefster Stand",
+      "en": "Lowest reading"
+     },
+     "type": "number",
+     "unit": "°C",
+     "derived": true
+    },
+    {
+     "name": "annual_c",
+     "label": {
+      "de": "Jahresmittel",
+      "en": "Annual mean"
+     },
+     "type": "number",
+     "unit": "°C",
+     "derived": true
+    }
+   ],
+   "rows": [
+    [
+     "Gera",
+     1856,
+     11.94,
+     1.26,
+     25.0,
+     -15.5,
+     6.6,
+     14.92,
+     1.57,
+     31.25,
+     -19.38,
+     8.25
+    ],
+    [
+     "Gera",
+     1857,
+     12.36,
+     2.82,
+     26.8,
+     -14.4,
+     7.59,
+     15.45,
+     3.52,
+     33.5,
+     -18.0,
+     9.49
+    ],
+    [
+     "Gera",
+     1858,
+     12.48,
+     1.47,
+     26.6,
+     -15.4,
+     6.97,
+     15.6,
+     1.84,
+     33.25,
+     -19.25,
+     8.71
+    ],
+    [
+     "Gera",
+     1859,
+     12.54,
+     3.15,
+     28.7,
+     -11.3,
+     7.84,
+     15.67,
+     3.94,
+     35.88,
+     -14.12,
+     9.8
+    ],
+    [
+     "Gera",
+     1860,
+     11.23,
+     1.33,
+     24.4,
+     -12.4,
+     6.28,
+     14.04,
+     1.66,
+     30.5,
+     -15.5,
+     7.85
+    ],
+    [
+     "Gera",
+     1861,
+     11.4,
+     2.31,
+     27.3,
+     -22.7,
+     6.85,
+     14.25,
+     2.89,
+     34.12,
+     -28.38,
+     8.56
+    ],
+    [
+     "Gera",
+     1862,
+     12.24,
+     2.73,
+     26.4,
+     -13.0,
+     7.48,
+     15.3,
+     3.41,
+     33.0,
+     -16.25,
+     9.35
+    ],
+    [
+     "Gera",
+     1863,
+     11.81,
+     4.06,
+     27.0,
+     -7.5,
+     7.93,
+     14.76,
+     5.07,
+     33.75,
+     -9.38,
+     9.91
+    ],
+    [
+     "Gera",
+     1864,
+     10.2,
+     0.23,
+     23.0,
+     -15.5,
+     5.21,
+     12.75,
+     0.29,
+     28.75,
+     -19.38,
+     6.51
+    ],
+    [
+     "Gera",
+     1865,
+     12.31,
+     1.11,
+     27.2,
+     -17.5,
+     6.71,
+     15.39,
+     1.39,
+     34.0,
+     -21.88,
+     8.39
+    ],
+    [
+     "Gera",
+     1866,
+     11.51,
+     2.98,
+     24.5,
+     -8.1,
+     7.24,
+     14.39,
+     3.73,
+     30.62,
+     -10.12,
+     9.05
+    ],
+    [
+     "Gera",
+     1867,
+     11.63,
+     2.11,
+     24.5,
+     -14.5,
+     6.87,
+     14.54,
+     2.64,
+     30.62,
+     -18.12,
+     8.59
+    ],
+    [
+     "Hohenleuben",
+     1854,
+     11.0,
+     1.46,
+     null,
+     null,
+     6.23,
+     13.75,
+     1.82,
+     null,
+     null,
+     7.79
+    ],
+    [
+     "Hohenleuben",
+     1855,
+     10.93,
+     -0.17,
+     null,
+     null,
+     5.38,
+     13.66,
+     -0.21,
+     null,
+     null,
+     6.72
+    ],
+    [
+     "Hohenleuben",
+     1856,
+     11.39,
+     1.59,
+     null,
+     null,
+     6.49,
+     14.24,
+     1.99,
+     null,
+     null,
+     8.11
+    ],
+    [
+     "Hohenleuben",
+     1857,
+     12.38,
+     1.88,
+     null,
+     null,
+     7.13,
+     15.48,
+     2.35,
+     null,
+     null,
+     8.91
+    ],
+    [
+     "Hohenleuben",
+     1858,
+     11.83,
+     -0.09,
+     null,
+     null,
+     5.87,
+     14.79,
+     -0.11,
+     null,
+     null,
+     7.34
+    ],
+    [
+     "Hohenleuben",
+     1859,
+     12.42,
+     2.2,
+     29.0,
+     -12.5,
+     7.31,
+     15.53,
+     2.75,
+     36.25,
+     -15.62,
+     9.14
+    ],
+    [
+     "Hohenleuben",
+     1860,
+     11.09,
+     0.67,
+     24.5,
+     -12.0,
+     5.88,
+     13.86,
+     0.84,
+     30.62,
+     -15.0,
+     7.35
+    ],
+    [
+     "Schleiz",
+     1863,
+     12.01,
+     3.89,
+     26.1,
+     -10.2,
+     7.95,
+     15.01,
+     4.86,
+     32.62,
+     -12.75,
+     9.94
+    ],
+    [
+     "Schleiz",
+     1864,
+     10.61,
+     0.96,
+     23.0,
+     -16.1,
+     5.78,
+     13.26,
+     1.2,
+     28.75,
+     -20.12,
+     7.23
+    ],
+    [
+     "Schleiz",
+     1865,
+     12.9,
+     1.29,
+     27.0,
+     -16.5,
+     7.09,
+     16.12,
+     1.61,
+     33.75,
+     -20.62,
+     8.86
+    ],
+    [
+     "Schleiz",
+     1866,
+     11.09,
+     2.96,
+     23.0,
+     -10.0,
+     7.02,
+     13.86,
+     3.7,
+     28.75,
+     -12.5,
+     8.77
+    ],
+    [
+     "Schleiz",
+     1867,
+     11.75,
+     1.62,
+     24.0,
+     -10.0,
+     6.68,
+     14.69,
+     2.03,
+     30.0,
+     -12.5,
+     8.35
+    ],
+    [
+     "Ziegenrück",
+     1848,
+     11.58,
+     1.69,
+     null,
+     null,
+     6.63,
+     14.47,
+     2.11,
+     null,
+     null,
+     8.29
+    ],
+    [
+     "Ziegenrück",
+     1849,
+     10.72,
+     1.51,
+     null,
+     null,
+     6.11,
+     13.4,
+     1.89,
+     null,
+     null,
+     7.64
+    ],
+    [
+     "Ziegenrück",
+     1850,
+     10.65,
+     1.05,
+     null,
+     null,
+     5.85,
+     13.31,
+     1.31,
+     null,
+     null,
+     7.31
+    ],
+    [
+     "Ziegenrück",
+     1851,
+     8.99,
+     1.59,
+     20.8,
+     -12.1,
+     5.29,
+     11.24,
+     1.99,
+     26.0,
+     -15.12,
+     6.61
+    ],
+    [
+     "Ziegenrück",
+     1852,
+     9.65,
+     2.57,
+     20.9,
+     -12.6,
+     6.11,
+     12.06,
+     3.21,
+     26.12,
+     -15.75,
+     7.64
+    ],
+    [
+     "Ziegenrück",
+     1853,
+     9.75,
+     0.08,
+     24.6,
+     -17.4,
+     4.91,
+     12.19,
+     0.1,
+     30.75,
+     -21.75,
+     6.14
+    ],
+    [
+     "Ziegenrück",
+     1854,
+     null,
+     null,
+     20.6,
+     -14.5,
+     null,
+     null,
+     null,
+     25.75,
+     -18.12,
+     null
+    ],
+    [
+     "Ziegenrück",
+     1855,
+     9.19,
+     -0.21,
+     22.2,
+     -19.6,
+     4.49,
+     11.49,
+     -0.26,
+     27.75,
+     -24.5,
+     5.61
+    ],
+    [
+     "Ziegenrück",
+     1856,
+     9.88,
+     1.7,
+     22.9,
+     -15.5,
+     5.79,
+     12.35,
+     2.12,
+     28.62,
+     -19.38,
+     7.24
+    ]
+   ],
+   "source_refs": [
+    {
+     "page": "55",
+     "block": "b9",
+     "rows": "r2-r13"
+    },
+    {
+     "page": "56",
+     "block": "b3",
+     "rows": "r2-r8"
+    },
+    {
+     "page": "56",
+     "block": "b6",
+     "rows": "r2-r6"
+    },
+    {
+     "page": "57",
+     "block": "b8",
+     "rows": "r2-r10"
+    }
+   ]
+  },
+  {
+   "name": "summary",
+   "title": {
+    "de": "Gedruckte Mittel je Station",
+    "en": "Printed means per station"
+   },
+   "columns": [
+    {
+     "name": "station",
+     "label": {
+      "de": "Station",
+      "en": "Station"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "period",
+     "label": {
+      "de": "Beobachtungszeitraum",
+      "en": "Observation period"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "summer_r",
+     "label": {
+      "de": "Sommermittel (Apr–Sep)",
+      "en": "Summer mean (Apr–Sep)"
+     },
+     "type": "number",
+     "unit": "°R"
+    },
+    {
+     "name": "winter_r",
+     "label": {
+      "de": "Wintermittel (Okt–Mär)",
+      "en": "Winter mean (Oct–Mar)"
+     },
+     "type": "number",
+     "unit": "°R"
+    },
+    {
+     "name": "annual_r",
+     "label": {
+      "de": "Jahresmittel",
+      "en": "Annual mean"
+     },
+     "type": "number",
+     "unit": "°R"
+    },
+    {
+     "name": "summer_c",
+     "label": {
+      "de": "Sommermittel (Apr–Sep)",
+      "en": "Summer mean (Apr–Sep)"
+     },
+     "type": "number",
+     "unit": "°C",
+     "derived": true
+    },
+    {
+     "name": "winter_c",
+     "label": {
+      "de": "Wintermittel (Okt–Mär)",
+      "en": "Winter mean (Oct–Mar)"
+     },
+     "type": "number",
+     "unit": "°C",
+     "derived": true
+    },
+    {
+     "name": "annual_c",
+     "label": {
+      "de": "Jahresmittel",
+      "en": "Annual mean"
+     },
+     "type": "number",
+     "unit": "°C",
+     "derived": true
+    }
+   ],
+   "rows": [
+    [
+     "Gera",
+     "1856–1867",
+     11.8,
+     2.13,
+     6.96,
+     14.75,
+     2.66,
+     8.7
+    ],
+    [
+     "Hohenleuben",
+     "1854–1861",
+     11.58,
+     1.08,
+     6.33,
+     14.47,
+     1.35,
+     7.91
+    ],
+    [
+     "Schleiz",
+     "1863–1867",
+     11.67,
+     2.14,
+     6.9,
+     14.59,
+     2.68,
+     8.62
+    ],
+    [
+     "Rothenacker",
+     "1865, 1867",
+     11.13,
+     0.86,
+     5.99,
+     13.91,
+     1.07,
+     7.49
+    ],
+    [
+     "Ziegenrück",
+     "1848–1856",
+     10.05,
+     1.25,
+     5.65,
+     12.56,
+     1.56,
+     7.06
+    ],
+    [
+     "Lobenstein",
+     "1863",
+     null,
+     null,
+     6.9,
+     null,
+     null,
+     8.62
+    ],
+    [
+     "Saalburg",
+     "Dez. 1864–Nov. 1865",
+     null,
+     null,
+     7.66,
+     null,
+     null,
+     9.57
+    ]
+   ],
+   "source_refs": [
+    {
+     "page": "55",
+     "block": "b9",
+     "rows": "r14"
+    },
+    {
+     "page": "56",
+     "block": "b3",
+     "rows": "r9"
+    },
+    {
+     "page": "56",
+     "block": "b6",
+     "rows": "r7"
+    },
+    {
+     "page": "57",
+     "block": "b3"
+    },
+    {
+     "page": "57",
+     "block": "b8",
+     "rows": "r11"
+    },
+    {
+     "page": "58",
+     "block": "b2",
+     "rows": "r15"
+    }
+   ]
+  }
+ ],
+ "charts": [
+  {
+   "id": "c1",
+   "dataset": "monthly",
+   "title": {
+    "de": "Mittlerer Jahresgang nach Station",
+    "en": "Mean annual cycle by station"
+   },
+   "caption": {
+    "de": "Mittel der Monatswerte aller gedruckten Jahre, in °C. Zeiträume: Gera 1856–1867, Hohenleuben 1854–1861, Schleiz 1863–1867, Rothenacker 1865 und 1867, Ziegenrück 1848–1856. Der starke Dezember-Abfall bei Ziegenrück beruht auf einem gedruckten Wert, der zu den gedruckten Winter- und Jahresmitteln nicht passt (siehe Hinweise).",
+    "en": "Mean of the monthly values of all printed years, in °C. Periods: Gera 1856–1867, Hohenleuben 1854–1861, Schleiz 1863–1867, Rothenacker 1865 and 1867, Ziegenrück 1848–1856."
+   },
+   "vegalite": {
+    "height": 320,
+    "transform": [
+     {
+      "filter": "datum.n_years > 1 || datum.station == 'Ziegenrück'"
+     },
+     {
+      "aggregate": [
+       {
+        "op": "mean",
+        "field": "temp_c",
+        "as": "m"
+       }
+      ],
+      "groupby": [
+       "station",
+       "month"
+      ]
+     }
+    ],
+    "mark": {
+     "type": "line",
+     "point": true
+    },
+    "encoding": {
+     "x": {
+      "field": "month",
+      "type": "quantitative",
+      "title": {
+       "de": "Monat",
+       "en": "Month"
+      },
+      "axis": {
+       "values": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+       ],
+       "labelExpr": {
+        "de": "['Jan','Feb','Mär','Apr','Mai','Jun','Jul','Aug','Sep','Okt','Nov','Dez'][datum.value-1]",
+        "en": "['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'][datum.value-1]"
+       },
+       "labelAngle": 0
+      },
+      "scale": {
+       "domain": [
+        1,
+        12
+       ],
+       "nice": false
+      }
+     },
+     "y": {
+      "field": "m",
+      "type": "quantitative",
+      "title": "°C"
+     },
+     "color": {
+      "field": "station",
+      "type": "nominal",
+      "title": null,
+      "scale": {
+       "domain": [
+        "Gera",
+        "Hohenleuben",
+        "Schleiz",
+        "Rothenacker",
+        "Ziegenrück",
+        "Lobenstein",
+        "Saalburg"
+       ]
+      },
+      "legend": {
+       "values": [
+        "Gera",
+        "Hohenleuben",
+        "Schleiz",
+        "Rothenacker",
+        "Ziegenrück"
+       ]
+      }
+     },
+     "tooltip": [
+      {
+       "field": "station",
+       "title": {
+        "de": "Station",
+        "en": "Station"
+       }
+      },
+      {
+       "field": "month",
+       "title": {
+        "de": "Monat",
+        "en": "Month"
+       }
+      },
+      {
+       "field": "m",
+       "title": {
+        "de": "Mittel (°C)",
+        "en": "Mean (°C)"
+       },
+       "format": ".1f"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "c2",
+   "dataset": "summary",
+   "title": {
+    "de": "Sommer-, Winter- und Jahresmittel nach Station",
+    "en": "Summer, winter and annual means by station"
+   },
+   "caption": {
+    "de": "Gedruckte Mittel, in °C: Sommer = April–September, Winter = Oktober–März. Der Strich verbindet Winter- und Sommermittel; Stationen nach Jahresmittel geordnet. Lobenstein und Saalburg haben nur ein Jahresmittel und fehlen hier.",
+    "en": "Printed means, in °C: summer = April–September, winter = October–March. The rule joins winter and summer means; stations sorted by annual mean. Lobenstein and Saalburg have only an annual mean and are absent here."
+   },
+   "vegalite": {
+    "height": 240,
+    "transform": [
+     {
+      "filter": "isValid(datum.summer_c)"
+     }
+    ],
+    "encoding": {
+     "y": {
+      "field": "station",
+      "type": "nominal",
+      "title": null,
+      "sort": {
+       "field": "annual_c",
+       "op": "max",
+       "order": "descending"
+      }
+     }
+    },
+    "layer": [
+     {
+      "mark": {
+       "type": "rule",
+       "strokeWidth": 2
+      },
+      "encoding": {
+       "x": {
+        "field": "winter_c",
+        "type": "quantitative",
+        "title": "°C",
+        "scale": {
+         "zero": false
+        }
+       },
+       "x2": {
+        "field": "summer_c"
+       }
+      }
+     },
+     {
+      "transform": [
+       {
+        "fold": [
+         "winter_c",
+         "annual_c",
+         "summer_c"
+        ],
+        "as": [
+         "key",
+         "value"
+        ]
+       },
+       {
+        "calculate": {
+         "de": "datum.key == 'summer_c' ? 'Sommer' : datum.key == 'winter_c' ? 'Winter' : 'Jahr'",
+         "en": "datum.key == 'summer_c' ? 'Summer' : datum.key == 'winter_c' ? 'Winter' : 'Year'"
+        },
+        "as": "series"
+       }
+      ],
+      "mark": {
+       "type": "circle",
+       "size": 110,
+       "opacity": 1
+      },
+      "encoding": {
+       "x": {
+        "field": "value",
+        "type": "quantitative",
+        "scale": {
+         "zero": false
+        }
+       },
+       "color": {
+        "field": "series",
+        "type": "nominal",
+        "title": null,
+        "scale": {
+         "domain": [
+          {
+           "de": "Winter",
+           "en": "Winter"
+          },
+          {
+           "de": "Jahr",
+           "en": "Year"
+          },
+          {
+           "de": "Sommer",
+           "en": "Summer"
+          }
+         ]
+        }
+       },
+       "tooltip": [
+        {
+         "field": "station",
+         "title": {
+          "de": "Station",
+          "en": "Station"
+         }
+        },
+        {
+         "field": "period",
+         "title": {
+          "de": "Zeitraum",
+          "en": "Period"
+         }
+        },
+        {
+         "field": "series",
+         "title": {
+          "de": "Größe",
+          "en": "Measure"
+         }
+        },
+        {
+         "field": "value",
+         "title": "°C",
+         "format": ".2f"
+        }
+       ]
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "c3",
+   "dataset": "annual",
+   "title": {
+    "de": "Jahresmittel der einzelnen Jahre",
+    "en": "Annual means of the individual years"
+   },
+   "caption": {
+    "de": "In °C. Nur gedruckte Jahresmittel; bei Ziegenrück fehlt 1854. In den gemeinsamen Jahren liegt Hohenleuben stets unter Gera, Schleiz dagegen nahe bei Gera.",
+    "en": "In °C. Printed annual means only; Ziegenrück lacks 1854. In the common years Hohenleuben is always below Gera, whereas Schleiz is close to Gera."
+   },
+   "vegalite": {
+    "height": 300,
+    "mark": {
+     "type": "line",
+     "point": true,
+     "invalid": "break-paths-filter-domains"
+    },
+    "encoding": {
+     "x": {
+      "field": "year",
+      "type": "ordinal",
+      "title": {
+       "de": "Jahr",
+       "en": "Year"
+      },
+      "axis": {
+       "labelAngle": -45
+      }
+     },
+     "y": {
+      "field": "annual_c",
+      "type": "quantitative",
+      "title": "°C",
+      "scale": {
+       "zero": false
+      }
+     },
+     "color": {
+      "field": "station",
+      "type": "nominal",
+      "title": null,
+      "scale": {
+       "domain": [
+        "Gera",
+        "Hohenleuben",
+        "Schleiz",
+        "Rothenacker",
+        "Ziegenrück",
+        "Lobenstein",
+        "Saalburg"
+       ]
+      },
+      "legend": {
+       "values": [
+        "Gera",
+        "Hohenleuben",
+        "Schleiz",
+        "Ziegenrück"
+       ]
+      }
+     },
+     "tooltip": [
+      {
+       "field": "station",
+       "title": {
+        "de": "Station",
+        "en": "Station"
+       }
+      },
+      {
+       "field": "year",
+       "title": {
+        "de": "Jahr",
+        "en": "Year"
+       }
+      },
+      {
+       "field": "annual_r",
+       "title": {
+        "de": "Jahresmittel (°R)",
+        "en": "Annual mean (°R)"
+       }
+      },
+      {
+       "field": "annual_c",
+       "title": {
+        "de": "Jahresmittel (°C)",
+        "en": "Annual mean (°C)"
+       },
+       "format": ".2f"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "c4",
+   "dataset": "monthly",
+   "title": {
+    "de": "Abweichung der Stationen von Gera im selben Monat",
+    "en": "Deviation of the stations from Gera in the same month"
+   },
+   "caption": {
+    "de": "Monatsmittel der Station minus Monatsmittel Gera im selben Jahr, in K. Rot: wärmer, blau: kälter als Gera. Hohenleuben liegt überwiegend unter Gera, Rothenacker 1867 durchgehend; Schleiz weicht kaum und ohne feste Richtung ab. Saalburg: Dezember 1864 bis November 1865.",
+    "en": "Monthly mean of the station minus monthly mean at Gera in the same year, in K. Red: warmer, blue: colder than Gera. Hohenleuben is mostly below Gera, Rothenacker throughout in 1867; Schleiz departs only slightly and with no fixed sign. Saalburg: December 1864 to November 1865."
+   },
+   "vegalite": {
+    "height": 400,
+    "transform": [
+     {
+      "filter": "isValid(datum.diff_gera_c)"
+     }
+    ],
+    "mark": "rect",
+    "encoding": {
+     "x": {
+      "field": "month",
+      "type": "ordinal",
+      "title": {
+       "de": "Monat",
+       "en": "Month"
+      },
+      "axis": {
+       "labelExpr": {
+        "de": "['Jan','Feb','Mär','Apr','Mai','Jun','Jul','Aug','Sep','Okt','Nov','Dez'][datum.value-1]",
+        "en": "['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'][datum.value-1]"
+       },
+       "labelAngle": 0
+      }
+     },
+     "y": {
+      "field": "series",
+      "type": "nominal",
+      "title": null,
+      "sort": {
+       "field": "series_order",
+       "op": "min"
+      }
+     },
+     "color": {
+      "field": "diff_gera_c",
+      "type": "quantitative",
+      "title": "K",
+      "scale": {
+       "range": "diverging",
+       "domain": [
+        -9,
+        9
+       ],
+       "domainMid": 0
+      }
+     },
+     "tooltip": [
+      {
+       "field": "series",
+       "title": {
+        "de": "Reihe",
+        "en": "Series"
+       }
+      },
+      {
+       "field": "month_label",
+       "title": {
+        "de": "Monat",
+        "en": "Month"
+       }
+      },
+      {
+       "field": "temp_c",
+       "title": {
+        "de": "Monatsmittel (°C)",
+        "en": "Monthly mean (°C)"
+       },
+       "format": ".1f"
+      },
+      {
+       "field": "diff_gera_c",
+       "title": {
+        "de": "Abweichung von Gera (K)",
+        "en": "Deviation from Gera (K)"
+       },
+       "format": "+.1f"
+      }
+     ]
+    }
+   }
+  }
+ ],
+ "keywords": {
+  "de": [
+   "Temperatur",
+   "Stationen",
+   "Hohenleuben",
+   "Schleiz",
+   "Rothenacker",
+   "Ziegenrück",
+   "Lobenstein",
+   "Saalburg",
+   "Gera",
+   "Jahresgang",
+   "Oberland",
+   "Unterland"
+  ],
+  "en": [
+   "temperature",
+   "stations",
+   "Hohenleuben",
+   "Schleiz",
+   "Rothenacker",
+   "Ziegenrück",
+   "Lobenstein",
+   "Saalburg",
+   "Gera",
+   "annual cycle",
+   "uplands",
+   "lowlands"
+  ]
+ },
+ "related": [
+  "klima-gera-temperatur-1856-1867",
+  "klima-hoehenlage-temperatur-luftdruck",
+  "klima-gera-luftdruck-1856-1867"
+ ],
+ "supersedes_legacy": "pp. 56/57 'Klimaübersicht Rothenacker 1865 & 1867' (PNG, p56_img0 = p57_img0) und 'Klimaübersicht Ziegenrück 1848–1856' (PNG, p56_img1 = p57_img1)",
+ "generated_by": "Claude Sonnet 5.5 (subagent A03)",
+ "date": "2026-10-01"
+}

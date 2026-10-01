@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% block title %}Suche – {{ site.short_title }}{% endblock %}
+{% block main %}
+<div class="wrap">
+  <div class="search-layout">
+    <aside>
+      <p class="eyebrow" style="margin-top:36px">{{ t('Filter', 'Filters') }}</p>
+      <div class="facet" data-facet="part"><h3>{{ t('Teil', 'Part') }}</h3></div>
+      <div class="facet" data-facet="chapter"><h3>{{ t('Kapitel', 'Chapter') }}</h3></div>
+      <div class="facet" data-facet="kind"><h3>{{ t('Art des Treffers', 'Type of hit') }}</h3></div>
+    </aside>
+    <div>
+      <h1 class="doc-title" style="margin-top:30px">{{ t('Volltextsuche', 'Full-text search') }}</h1>
+      <form class="search-box" data-search-form role="search">
+        <label for="q" class="visually-hidden">Suchbegriff</label>
+        <input id="q" name="q" type="search" autocomplete="off" placeholder="z. B. Bergbau, Lola, Pest 1633, „Kirche zu Gera“ …">
+        <button type="submit">{{ t('Suchen', 'Search') }}</button>
+      </form>
+      <p class="search-hint">{{ t('Historische und moderne Schreibung werden gleich behandelt (Thal = Tal, Cöstritz = Köstritz). Wortformen werden zusammengeführt. „Anführungszeichen“ für Wortfolgen, -Wort zum Ausschließen. Englische Begriffe werden ins Deutsche erweitert.', 'Historical and modern spellings are treated alike (Thal = Tal, Cöstritz = Köstritz). Word forms are merged. “Quotes” for phrases, -word to exclude. English terms are expanded to German.') }}</p>
+      <div data-search-status class="muted" aria-live="polite"></div>
+      <div class="didyoumean" data-dym></div>
+      <div class="entity-hits" data-entity-hits></div>
+      <div data-results></div>
+      <p><button class="btn" type="button" data-more hidden>{{ t('Weitere Treffer', 'More results') }}</button></p>
+    </div>
+  </div>
+</div>
+{% endblock %}
+{% block scripts %}<script src="{{ root }}assets/js/search.js?v={{ site.version }}" defer></script>{% endblock %}

@@ -1,0 +1,2462 @@
+{
+ "id": "phaenologie-zugvoegel-gera-1859-1864",
+ "title": {
+  "de": "Ankunft und Abzug der Zugvögel in Gera 1859–1864",
+  "en": "Arrival and departure of migratory birds at Gera, 1859–1864"
+ },
+ "category": "phenology",
+ "section": "t1-1-7",
+ "sources": [
+  {
+   "page": "61",
+   "block": "b4"
+  },
+  {
+   "page": "61",
+   "block": "b5",
+   "rows": "r1-r16"
+  }
+ ],
+ "summary": {
+  "de": "Ludwig Müller beobachtete in Gera von 1859 bis 1864 Ankunft und Abzug von 14 Zugvogelarten; Brückner druckt die Termine der Arten, für die Ankunft und Abzug angegeben sind. Es liegen 54 Ankunfts- und 37 Abzugsdaten vor, davon 32 vollständige Paare. Die Ankunft reicht vom 20. Januar bis zum 1. Juni, der Abzug vom 3. August bis zum 16. November; je später die Art ankommt, desto früher zieht sie ab.",
+  "en": "Ludwig Müller observed the arrival and departure of 14 migratory bird species at Gera from 1859 to 1864; Brückner prints the dates of the species for which arrival and departure are given. There are 54 arrival and 37 departure dates, 32 of them complete pairs. Arrival ranges from January 20 to June 1, departure from August 3 to November 16; the later a species arrives, the earlier it leaves."
+ },
+ "method": {
+  "de": "Die Brüche der Tabelle (»15./2.« = Tag/Monat) wurden in ISO-Daten umgesetzt; Tagesspannen (»21.–26./4.«, in drei Fällen für die Ankunft, einmal »2.–9./5.«) werden als Anfang und Ende geführt und in den Diagrammen mit ihrer Mitte (Tag im Jahr, normiertes Jahr ohne Schalttag) gezeichnet. Die Aufenthaltsdauer ist Abzug minus Ankunft im selben Jahr, nur bei vollständigem Paar. Die Artmittel in Abb. 3 sind Mittel aller vorhandenen Ankunfts- bzw. Abzugsdaten der Art (unterschiedliche Jahre). Deutsche Namen sind modernisiert, englische Namen und Arten editorisch zugeordnet; wo die Zuordnung unsicher ist (Hausschwalbe, Bachstelze), steht das im Namen (Turmschwalbe = Mauersegler, Schwarzköpfige Grasmücke = Mönchsgrasmücke). Die Trendgerade ist die lineare Regression der mittleren Abzugs- auf die mittleren Ankunftstermine der 14 Arten.",
+  "en": "The fractions of the table (“15./2.” = day/month) were converted to ISO dates; day ranges (“21.–26./4.”, three arrival cases, plus one “2.–9./5.”) are kept as start and end and are drawn at their midpoint in the charts (day of year in a normalised year without a leap day). The length of stay is departure minus arrival in the same year, for complete pairs only. The species means in chart 3 are means of all available arrival and departure dates of the species (from different years). German names are modernised, English names and species assigned editorially; where the assignment is uncertain (house swallow, wagtail) this is stated in the name (Turmschwalbe = common swift, Schwarzköpfige Grasmücke = blackcap). The trend line is the linear regression of the mean departure on the mean arrival dates of the 14 species."
+ },
+ "findings": [
+  {
+   "de": "Die Ankunftstermine liegen zwischen dem 20. Januar (Lerche 1864) und dem 1. Juni (Pirol 1859), die Abzugstermine zwischen dem 3. August (Turmschwalbe 1864) und dem 16. November (Lerche 1862) – übereinstimmend mit Brückners Angabe »letztes Drittel des Januar« bis »Beginn des August« bis »Mitte November«.",
+   "en": "Arrival dates lie between January 20 (Skylark 1864) and June 1 (Golden oriole 1859), departure dates between August 3 (Common swift 1864) and November 16 (Skylark 1862) – in line with Brückner’s statement of “last third of January” and “beginning of August” to “mid-November”."
+  },
+  {
+   "de": "Am frühesten kommen im Mittel Star (6. Februar) und Lerche (7. Februar), am spätesten Pirol (10. Mai) und Mehlschwalbe (5. Mai).",
+   "en": "On average the earliest arrivals are Starling (February 6) and Skylark (February 7), the latest Golden oriole (May 10) and House martin (May 5)."
+  },
+  {
+   "de": "Brückners Satz »je später die Ankunft, desto früher der Wegzug« gilt zwischen den Arten: Die mittleren Termine der 14 Arten korrelieren mit r = −0,79, die 32 Paare mit r = −0,82. Die Aufenthaltsdauer reicht im Mittel von 99 Tagen (Turmschwalbe) bis 265 Tagen (Lerche).",
+   "en": "Brückner’s statement “the later the arrival, the earlier the departure” holds between species: the mean dates of the 14 species correlate with r = −0.79, the 32 pairs with r = −0.82. The mean length of stay ranges from 99 days (Common swift) to 265 days (Skylark)."
+  },
+  {
+   "de": "Von Jahr zu Jahr innerhalb einer Art zeigt sich dagegen kein einheitliches Muster: bei den sieben Arten mit mindestens drei vollständigen Paaren liegt die Korrelation zwischen Ankunft und Abzug zwischen −0,70 und 0,91. Die Ankunft derselben Art streut stark (größte Spanne: Lerche, 40 Tage).",
+   "en": "Within a species from year to year, by contrast, no uniform pattern appears: for the seven species with at least three complete pairs the correlation between arrival and departure lies between −0.70 and 0.91. The arrival of one species scatters widely (largest span: Skylark, 40 days)."
+  }
+ ],
+ "caveats": [
+  {
+   "de": "Ein Beobachter, sechs Jahre; die Tabelle enthält nur Arten, bei denen laut Brückner Ankunft und Abzug angegeben sind, in den Einzeljahren aber oft nur eines von beiden (Lücken »—«). Nur 32 von 84 möglichen Art-Jahr-Kombinationen haben ein vollständiges Paar. Die Zahlen sind deshalb kein Mittel gleicher Jahre.",
+   "en": "One observer, six years; the table contains only species for which, according to Brückner, arrival and departure are given, but in single years often only one of the two (gaps “—”). Only 32 of 84 possible species-year combinations have a complete pair. The figures are therefore no mean over equal years."
+  },
+  {
+   "de": "Brückner nennt als Ende der Ankunftsperiode »Mitte Juni«; die späteste Ankunft in der gedruckten Tabelle ist der 1. Juni (Pirol 1859). Der Text bezieht sich offenbar auch auf nicht abgedruckte Arten.",
+   "en": "Brückner gives “mid-June” as the end of the arrival period; the latest arrival in the printed table is 1 June (golden oriole 1859). The text evidently also refers to species not printed."
+  },
+  {
+   "de": "Die Artbestimmung der alten Namen ist unsicher: »Hausschwalbe« (neben Rauch- und Mehlschwalbe aufgeführt) kann Rauch- oder Mehlschwalbe meinen, »Bachstelze« neben der Weißen Bachstelze eine andere Bachstelzenart; »Lerche« wird als Feldlerche gelesen. Die Namen wurden nicht zusammengelegt.",
+   "en": "The identification of the old names is uncertain: “Hausschwalbe” (listed besides barn and house martin) may mean either, “Bachstelze” besides the white wagtail another wagtail species; “Lerche” is read as skylark. The names were not merged."
+  },
+  {
+   "de": "Terminangaben sind Tagesdaten ohne Angabe, ob sie das erste Tier, den Hauptzug oder den letzten Nachzügler meinen; Überwinterer (Lerche, Star, Bachstelze) sind in milden Wintern kaum von Zugvögeln zu trennen.",
+   "en": "The dates are day dates without saying whether they refer to the first bird, the main passage or the last straggler; partial migrants (lark, starling, wagtail) are hard to separate from migrants in mild winters."
+  }
+ ],
+ "conversions": [
+  {
+   "from": "Datumsbruch (Tag./Monat.)",
+   "to": "ISO-Datum und Tag im Jahr",
+   "factor_or_formula": "Tag im Jahr = Tage vor Monatsbeginn (Nicht-Schaltjahr) + Tag; bei Tagesspannen Mitte der Spanne",
+   "reference": "Brückner S. 60: Monat als Nenner, Tag als Zähler eines Bruches"
+  }
+ ],
+ "datasets": [
+  {
+   "name": "observations",
+   "title": {
+    "de": "Ankunft und Abzug je Art und Jahr",
+    "en": "Arrival and departure by species and year"
+   },
+   "columns": [
+    {
+     "name": "species_printed",
+     "label": {
+      "de": "Name im Druck",
+      "en": "Name as printed"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "species_de",
+     "label": {
+      "de": "Deutscher Name",
+      "en": "German name"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "species_en",
+     "label": {
+      "de": "Englischer Name",
+      "en": "English name"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "year",
+     "label": {
+      "de": "Jahr",
+      "en": "Year"
+     },
+     "type": "integer",
+     "unit": null
+    },
+    {
+     "name": "arrival_start",
+     "label": {
+      "de": "Ankunft (frühester Tag)",
+      "en": "Arrival (first day)"
+     },
+     "type": "date",
+     "unit": null,
+     "derived": true
+    },
+    {
+     "name": "arrival_end",
+     "label": {
+      "de": "Ankunft (letzter Tag)",
+      "en": "Arrival (last day)"
+     },
+     "type": "date",
+     "unit": null,
+     "derived": true
+    },
+    {
+     "name": "departure_start",
+     "label": {
+      "de": "Abzug (frühester Tag)",
+      "en": "Departure (first day)"
+     },
+     "type": "date",
+     "unit": null,
+     "derived": true
+    },
+    {
+     "name": "departure_end",
+     "label": {
+      "de": "Abzug (letzter Tag)",
+      "en": "Departure (last day)"
+     },
+     "type": "date",
+     "unit": null,
+     "derived": true
+    },
+    {
+     "name": "arrival_printed",
+     "label": {
+      "de": "Ankunft gedruckt",
+      "en": "Arrival as printed"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "departure_printed",
+     "label": {
+      "de": "Abzug gedruckt",
+      "en": "Departure as printed"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "arrival_doy",
+     "label": {
+      "de": "Ankunft (Tag im Jahr)",
+      "en": "Arrival (day of year)"
+     },
+     "type": "number",
+     "unit": "d",
+     "derived": true,
+     "note": "Mitte der Spanne, normiertes Jahr ohne Schalttag"
+    },
+    {
+     "name": "departure_doy",
+     "label": {
+      "de": "Abzug (Tag im Jahr)",
+      "en": "Departure (day of year)"
+     },
+     "type": "number",
+     "unit": "d",
+     "derived": true,
+     "note": "Mitte der Spanne, normiertes Jahr ohne Schalttag"
+    },
+    {
+     "name": "stay_days",
+     "label": {
+      "de": "Aufenthaltsdauer",
+      "en": "Length of stay"
+     },
+     "type": "number",
+     "unit": "d",
+     "derived": true
+    }
+   ],
+   "rows": [
+    [
+     "Lerche",
+     "Lerche",
+     "Skylark",
+     1859,
+     "1859-02-15",
+     "1859-02-15",
+     "1859-11-10",
+     "1859-11-10",
+     "15./2.",
+     "10./11",
+     46.0,
+     314.0,
+     268.0
+    ],
+    [
+     "Lerche",
+     "Lerche",
+     "Skylark",
+     1860,
+     "1860-03-01",
+     "1860-03-01",
+     "1860-10-30",
+     "1860-10-30",
+     "1./3.",
+     "30./10.",
+     60.0,
+     303.0,
+     243.0
+    ],
+    [
+     "Lerche",
+     "Lerche",
+     "Skylark",
+     1861,
+     "1861-02-07",
+     "1861-02-07",
+     "1861-11-01",
+     "1861-11-01",
+     "7./2.",
+     "1./11.",
+     38.0,
+     305.0,
+     267.0
+    ],
+    [
+     "Lerche",
+     "Lerche",
+     "Skylark",
+     1862,
+     "1862-02-07",
+     "1862-02-07",
+     "1862-11-16",
+     "1862-11-16",
+     "7./2.",
+     "16./11.",
+     38.0,
+     320.0,
+     282.0
+    ],
+    [
+     "Lerche",
+     "Lerche",
+     "Skylark",
+     1863,
+     "1863-01-29",
+     "1863-01-29",
+     "1863-10-20",
+     "1863-10-20",
+     "29./1.",
+     "20./10.",
+     29.0,
+     293.0,
+     264.0
+    ],
+    [
+     "Lerche",
+     "Lerche",
+     "Skylark",
+     1864,
+     "1864-01-20",
+     "1864-01-20",
+     null,
+     null,
+     "20./1.",
+     null,
+     20.0,
+     null,
+     null
+    ],
+    [
+     "Bachstelze",
+     "Bachstelze",
+     "Wagtail (unspecified)",
+     1859,
+     "1859-03-15",
+     "1859-03-15",
+     "1859-10-12",
+     "1859-10-12",
+     "15./3.",
+     "12./10.",
+     74.0,
+     285.0,
+     211.0
+    ],
+    [
+     "Bachstelze",
+     "Bachstelze",
+     "Wagtail (unspecified)",
+     1861,
+     "1861-03-04",
+     "1861-03-04",
+     null,
+     null,
+     "4./3.",
+     null,
+     63.0,
+     null,
+     null
+    ],
+    [
+     "Hausschwalbe",
+     "Hausschwalbe",
+     "House swallow (uncertain)",
+     1859,
+     "1859-04-21",
+     "1859-04-26",
+     "1859-10-04",
+     "1859-10-04",
+     "21.-26./4.",
+     "4./10.",
+     113.5,
+     277.0,
+     163.5
+    ],
+    [
+     "Hausschwalbe",
+     "Hausschwalbe",
+     "House swallow (uncertain)",
+     1860,
+     "1860-04-08",
+     "1860-04-10",
+     "1860-10-15",
+     "1860-10-15",
+     "8.-10./4.",
+     "15./10.",
+     99.0,
+     288.0,
+     189.0
+    ],
+    [
+     "Hausschwalbe",
+     "Hausschwalbe",
+     "House swallow (uncertain)",
+     1861,
+     "1861-04-12",
+     "1861-04-15",
+     null,
+     null,
+     "12.-15./4.",
+     null,
+     103.5,
+     null,
+     null
+    ],
+    [
+     "Schwarzk. Grasmücke",
+     "Mönchsgrasmücke",
+     "Blackcap",
+     1859,
+     "1859-05-03",
+     "1859-05-03",
+     "1859-09-26",
+     "1859-09-26",
+     "3./5.",
+     "26./9.",
+     123.0,
+     269.0,
+     146.0
+    ],
+    [
+     "Schwarzk. Grasmücke",
+     "Mönchsgrasmücke",
+     "Blackcap",
+     1861,
+     null,
+     null,
+     "1861-08-19",
+     "1861-08-19",
+     null,
+     "19./8.",
+     null,
+     231.0,
+     null
+    ],
+    [
+     "Turmschwalbe",
+     "Turmschwalbe",
+     "Common swift",
+     1859,
+     "1859-05-04",
+     "1859-05-04",
+     null,
+     null,
+     "4./5.",
+     null,
+     124.0,
+     null,
+     null
+    ],
+    [
+     "Turmschwalbe",
+     "Turmschwalbe",
+     "Common swift",
+     1861,
+     "1861-05-02",
+     "1861-05-09",
+     "1861-08-12",
+     "1861-08-12",
+     "2.-9./5.",
+     "12./8.",
+     125.5,
+     224.0,
+     98.5
+    ],
+    [
+     "Turmschwalbe",
+     "Turmschwalbe",
+     "Common swift",
+     1862,
+     "1862-04-26",
+     "1862-04-26",
+     "1862-08-05",
+     "1862-08-05",
+     "26./4.",
+     "5./8.",
+     116.0,
+     217.0,
+     101.0
+    ],
+    [
+     "Turmschwalbe",
+     "Turmschwalbe",
+     "Common swift",
+     1863,
+     "1863-05-03",
+     "1863-05-03",
+     "1863-08-07",
+     "1863-08-07",
+     "3./5.",
+     "7./8.",
+     123.0,
+     219.0,
+     96.0
+    ],
+    [
+     "Turmschwalbe",
+     "Turmschwalbe",
+     "Common swift",
+     1864,
+     "1864-04-26",
+     "1864-04-26",
+     "1864-08-03",
+     "1864-08-03",
+     "26./4.",
+     "3./8.",
+     116.0,
+     215.0,
+     99.0
+    ],
+    [
+     "Pirol",
+     "Pirol",
+     "Golden oriole",
+     1859,
+     "1859-06-01",
+     "1859-06-01",
+     null,
+     null,
+     "1./6.",
+     null,
+     152.0,
+     null,
+     null
+    ],
+    [
+     "Pirol",
+     "Pirol",
+     "Golden oriole",
+     1860,
+     "1860-05-12",
+     "1860-05-12",
+     null,
+     null,
+     "12./5.",
+     null,
+     132.0,
+     null,
+     null
+    ],
+    [
+     "Pirol",
+     "Pirol",
+     "Golden oriole",
+     1861,
+     "1861-05-11",
+     "1861-05-11",
+     "1861-08-16",
+     "1861-08-16",
+     "11./5.",
+     "16./8.",
+     131.0,
+     228.0,
+     97.0
+    ],
+    [
+     "Pirol",
+     "Pirol",
+     "Golden oriole",
+     1862,
+     "1862-04-25",
+     "1862-04-25",
+     "1862-08-16",
+     "1862-08-16",
+     "25./4.",
+     "16./8.",
+     115.0,
+     228.0,
+     113.0
+    ],
+    [
+     "Pirol",
+     "Pirol",
+     "Golden oriole",
+     1863,
+     "1863-05-05",
+     "1863-05-05",
+     "1863-08-15",
+     "1863-08-15",
+     "5./5.",
+     "15./8.",
+     125.0,
+     227.0,
+     102.0
+    ],
+    [
+     "Pirol",
+     "Pirol",
+     "Golden oriole",
+     1864,
+     "1864-05-04",
+     "1864-05-04",
+     null,
+     null,
+     "4./5.",
+     null,
+     124.0,
+     null,
+     null
+    ],
+    [
+     "Kukuk",
+     "Kuckuck",
+     "Common cuckoo",
+     1859,
+     "1859-04-16",
+     "1859-04-16",
+     null,
+     null,
+     "16./4.",
+     null,
+     106.0,
+     null,
+     null
+    ],
+    [
+     "Kukuk",
+     "Kuckuck",
+     "Common cuckoo",
+     1860,
+     "1860-05-05",
+     "1860-05-05",
+     null,
+     null,
+     "5./5.",
+     null,
+     125.0,
+     null,
+     null
+    ],
+    [
+     "Kukuk",
+     "Kuckuck",
+     "Common cuckoo",
+     1861,
+     "1861-05-01",
+     "1861-05-01",
+     "1861-08-13",
+     "1861-08-13",
+     "1./5.",
+     "13./8.",
+     121.0,
+     225.0,
+     104.0
+    ],
+    [
+     "Kukuk",
+     "Kuckuck",
+     "Common cuckoo",
+     1862,
+     "1862-04-01",
+     "1862-04-01",
+     "1862-08-20",
+     "1862-08-20",
+     "1./4.",
+     "20./8.",
+     91.0,
+     232.0,
+     141.0
+    ],
+    [
+     "Kukuk",
+     "Kuckuck",
+     "Common cuckoo",
+     1863,
+     "1863-04-27",
+     "1863-04-27",
+     "1863-08-19",
+     "1863-08-19",
+     "27./4.",
+     "19./8.",
+     117.0,
+     231.0,
+     114.0
+    ],
+    [
+     "Kukuk",
+     "Kuckuck",
+     "Common cuckoo",
+     1864,
+     "1864-04-27",
+     "1864-04-27",
+     null,
+     null,
+     "27./4.",
+     null,
+     117.0,
+     null,
+     null
+    ],
+    [
+     "Mehlschwalbe",
+     "Mehlschwalbe",
+     "House martin",
+     1860,
+     "1860-05-04",
+     "1860-05-04",
+     null,
+     null,
+     "4./5.",
+     null,
+     124.0,
+     null,
+     null
+    ],
+    [
+     "Mehlschwalbe",
+     "Mehlschwalbe",
+     "House martin",
+     1861,
+     "1861-05-13",
+     "1861-05-13",
+     "1861-09-15",
+     "1861-09-15",
+     "13./5.",
+     "15./9.",
+     133.0,
+     258.0,
+     125.0
+    ],
+    [
+     "Mehlschwalbe",
+     "Mehlschwalbe",
+     "House martin",
+     1862,
+     "1862-04-29",
+     "1862-04-29",
+     "1862-09-15",
+     "1862-09-15",
+     "29./4.",
+     "15./9.",
+     119.0,
+     258.0,
+     139.0
+    ],
+    [
+     "Mehlschwalbe",
+     "Mehlschwalbe",
+     "House martin",
+     1863,
+     "1863-05-03",
+     "1863-05-03",
+     null,
+     null,
+     "3./5.",
+     null,
+     123.0,
+     null,
+     null
+    ],
+    [
+     "Ringeltaube",
+     "Ringeltaube",
+     "Wood pigeon",
+     1861,
+     null,
+     null,
+     "1861-09-18",
+     "1861-09-18",
+     null,
+     "18./9.",
+     null,
+     261.0,
+     null
+    ],
+    [
+     "Ringeltaube",
+     "Ringeltaube",
+     "Wood pigeon",
+     1862,
+     "1862-03-13",
+     "1862-03-13",
+     null,
+     null,
+     "13./3.",
+     null,
+     72.0,
+     null,
+     null
+    ],
+    [
+     "Ringeltaube",
+     "Ringeltaube",
+     "Wood pigeon",
+     1863,
+     "1863-03-07",
+     "1863-03-07",
+     null,
+     null,
+     "7./3.",
+     null,
+     66.0,
+     null,
+     null
+    ],
+    [
+     "Rauchschwalbe",
+     "Rauchschwalbe",
+     "Barn swallow",
+     1861,
+     null,
+     null,
+     "1861-09-29",
+     "1861-09-29",
+     null,
+     "29./9.",
+     null,
+     272.0,
+     null
+    ],
+    [
+     "Rauchschwalbe",
+     "Rauchschwalbe",
+     "Barn swallow",
+     1862,
+     "1862-04-11",
+     "1862-04-11",
+     "1862-09-20",
+     "1862-09-20",
+     "11./4.",
+     "20./9.",
+     101.0,
+     263.0,
+     162.0
+    ],
+    [
+     "Rauchschwalbe",
+     "Rauchschwalbe",
+     "Barn swallow",
+     1863,
+     "1863-04-11",
+     "1863-04-11",
+     "1863-08-19",
+     "1863-08-19",
+     "11./4.",
+     "19./8.",
+     101.0,
+     231.0,
+     130.0
+    ],
+    [
+     "Rauchschwalbe",
+     "Rauchschwalbe",
+     "Barn swallow",
+     1864,
+     "1864-04-12",
+     "1864-04-12",
+     "1864-10-01",
+     "1864-10-01",
+     "12./4.",
+     "1./10.",
+     102.0,
+     274.0,
+     172.0
+    ],
+    [
+     "Hausrothschwanz",
+     "Hausrotschwanz",
+     "Black redstart",
+     1860,
+     "1860-03-24",
+     "1860-03-24",
+     null,
+     null,
+     "24./3.",
+     null,
+     83.0,
+     null,
+     null
+    ],
+    [
+     "Hausrothschwanz",
+     "Hausrotschwanz",
+     "Black redstart",
+     1861,
+     "1861-03-25",
+     "1861-03-25",
+     "1861-10-08",
+     "1861-10-08",
+     "25./3.",
+     "8./10.",
+     84.0,
+     281.0,
+     197.0
+    ],
+    [
+     "Hausrothschwanz",
+     "Hausrotschwanz",
+     "Black redstart",
+     1862,
+     "1862-03-13",
+     "1862-03-13",
+     "1862-10-06",
+     "1862-10-06",
+     "13./3.",
+     "6./10.",
+     72.0,
+     279.0,
+     207.0
+    ],
+    [
+     "Hausrothschwanz",
+     "Hausrotschwanz",
+     "Black redstart",
+     1863,
+     "1863-03-24",
+     "1863-03-24",
+     "1863-10-11",
+     "1863-10-11",
+     "24./3.",
+     "11./10.",
+     83.0,
+     284.0,
+     201.0
+    ],
+    [
+     "Hausrothschwanz",
+     "Hausrotschwanz",
+     "Black redstart",
+     1864,
+     "1864-03-19",
+     "1864-03-19",
+     null,
+     null,
+     "19./3.",
+     null,
+     78.0,
+     null,
+     null
+    ],
+    [
+     "Staar",
+     "Star",
+     "Starling",
+     1861,
+     null,
+     null,
+     "1861-10-09",
+     "1861-10-09",
+     null,
+     "9./10.",
+     null,
+     282.0,
+     null
+    ],
+    [
+     "Staar",
+     "Star",
+     "Starling",
+     1862,
+     "1862-02-17",
+     "1862-02-17",
+     null,
+     null,
+     "17./2.",
+     null,
+     48.0,
+     null,
+     null
+    ],
+    [
+     "Staar",
+     "Star",
+     "Starling",
+     1863,
+     "1863-02-02",
+     "1863-02-02",
+     null,
+     null,
+     "2./2.",
+     null,
+     33.0,
+     null,
+     null
+    ],
+    [
+     "Staar",
+     "Star",
+     "Starling",
+     1864,
+     "1864-01-30",
+     "1864-01-30",
+     null,
+     null,
+     "30./1.",
+     null,
+     30.0,
+     null,
+     null
+    ],
+    [
+     "Waldschnepfe",
+     "Waldschnepfe",
+     "Woodcock",
+     1860,
+     "1860-04-03",
+     "1860-04-03",
+     null,
+     null,
+     "3./4.",
+     null,
+     93.0,
+     null,
+     null
+    ],
+    [
+     "Waldschnepfe",
+     "Waldschnepfe",
+     "Woodcock",
+     1861,
+     "1861-03-12",
+     "1861-03-12",
+     "1861-10-09",
+     "1861-10-09",
+     "12./3.",
+     "9./10.",
+     71.0,
+     282.0,
+     211.0
+    ],
+    [
+     "Waldschnepfe",
+     "Waldschnepfe",
+     "Woodcock",
+     1862,
+     "1862-03-16",
+     "1862-03-16",
+     null,
+     null,
+     "16./3.",
+     null,
+     75.0,
+     null,
+     null
+    ],
+    [
+     "Waldschnepfe",
+     "Waldschnepfe",
+     "Woodcock",
+     1863,
+     null,
+     null,
+     "1863-10-28",
+     "1863-10-28",
+     null,
+     "28./10.",
+     null,
+     301.0,
+     null
+    ],
+    [
+     "Waldschnepfe",
+     "Waldschnepfe",
+     "Woodcock",
+     1864,
+     "1864-03-11",
+     "1864-03-11",
+     null,
+     null,
+     "11./3.",
+     null,
+     70.0,
+     null,
+     null
+    ],
+    [
+     "Weiße Bachstelze",
+     "Weiße Bachstelze",
+     "White wagtail",
+     1861,
+     "1861-03-04",
+     "1861-03-04",
+     "1861-10-28",
+     "1861-10-28",
+     "4./3.",
+     "28./10.",
+     63.0,
+     301.0,
+     238.0
+    ],
+    [
+     "Weiße Bachstelze",
+     "Weiße Bachstelze",
+     "White wagtail",
+     1862,
+     "1862-02-26",
+     "1862-02-26",
+     "1862-10-15",
+     "1862-10-15",
+     "26./2.",
+     "15./10.",
+     57.0,
+     288.0,
+     231.0
+    ],
+    [
+     "Weiße Bachstelze",
+     "Weiße Bachstelze",
+     "White wagtail",
+     1863,
+     "1863-03-05",
+     "1863-03-05",
+     "1863-10-13",
+     "1863-10-13",
+     "5./3.",
+     "13./10.",
+     64.0,
+     286.0,
+     222.0
+    ],
+    [
+     "Weiße Bachstelze",
+     "Weiße Bachstelze",
+     "White wagtail",
+     1864,
+     "1864-03-05",
+     "1864-03-05",
+     "1864-10-03",
+     "1864-10-03",
+     "5./3.",
+     "3./10.",
+     64.0,
+     276.0,
+     212.0
+    ]
+   ],
+   "source_refs": [
+    {
+     "page": "61",
+     "block": "b5",
+     "rows": "r3-r16"
+    }
+   ]
+  },
+  {
+   "name": "species",
+   "title": {
+    "de": "Mittlere Termine je Art",
+    "en": "Mean dates by species"
+   },
+   "columns": [
+    {
+     "name": "species_printed",
+     "label": {
+      "de": "Name im Druck",
+      "en": "Name as printed"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "species_de",
+     "label": {
+      "de": "Deutscher Name",
+      "en": "German name"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "species_en",
+     "label": {
+      "de": "Englischer Name",
+      "en": "English name"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "n_arrival",
+     "label": {
+      "de": "Zahl der Ankunftsdaten",
+      "en": "Number of arrival dates"
+     },
+     "type": "integer",
+     "unit": null,
+     "derived": true
+    },
+    {
+     "name": "n_departure",
+     "label": {
+      "de": "Zahl der Abzugsdaten",
+      "en": "Number of departure dates"
+     },
+     "type": "integer",
+     "unit": null,
+     "derived": true
+    },
+    {
+     "name": "n_pairs",
+     "label": {
+      "de": "Zahl vollständiger Paare",
+      "en": "Number of complete pairs"
+     },
+     "type": "integer",
+     "unit": null,
+     "derived": true
+    },
+    {
+     "name": "mean_arrival_doy",
+     "label": {
+      "de": "Mittlere Ankunft (Tag im Jahr)",
+      "en": "Mean arrival (day of year)"
+     },
+     "type": "number",
+     "unit": "d",
+     "derived": true
+    },
+    {
+     "name": "mean_departure_doy",
+     "label": {
+      "de": "Mittlerer Abzug (Tag im Jahr)",
+      "en": "Mean departure (day of year)"
+     },
+     "type": "number",
+     "unit": "d",
+     "derived": true
+    },
+    {
+     "name": "mean_stay_days",
+     "label": {
+      "de": "Mittlere Aufenthaltsdauer",
+      "en": "Mean length of stay"
+     },
+     "type": "number",
+     "unit": "d",
+     "derived": true
+    },
+    {
+     "name": "label_align",
+     "label": {
+      "de": "Beschriftung (Seite)",
+      "en": "Label side"
+     },
+     "type": "string",
+     "unit": null,
+     "note": "nur für das Diagramm"
+    },
+    {
+     "name": "label_dy",
+     "label": {
+      "de": "Beschriftung (Versatz)",
+      "en": "Label offset"
+     },
+     "type": "integer",
+     "unit": null,
+     "derived": true,
+     "note": "nur für das Diagramm"
+    }
+   ],
+   "rows": [
+    [
+     "Lerche",
+     "Lerche",
+     "Skylark",
+     6,
+     5,
+     5,
+     38.5,
+     307.0,
+     264.8,
+     "left",
+     0
+    ],
+    [
+     "Bachstelze",
+     "Bachstelze",
+     "Wagtail (unspecified)",
+     2,
+     1,
+     1,
+     68.5,
+     285.0,
+     211.0,
+     "left",
+     13
+    ],
+    [
+     "Hausschwalbe",
+     "Hausschwalbe",
+     "House swallow (uncertain)",
+     3,
+     2,
+     2,
+     105.3,
+     282.5,
+     176.2,
+     "right",
+     0
+    ],
+    [
+     "Schwarzk. Grasmücke",
+     "Mönchsgrasmücke",
+     "Blackcap",
+     1,
+     2,
+     1,
+     123.0,
+     250.0,
+     146.0,
+     "left",
+     0
+    ],
+    [
+     "Turmschwalbe",
+     "Turmschwalbe",
+     "Common swift",
+     5,
+     4,
+     4,
+     120.9,
+     218.8,
+     98.6,
+     "right",
+     0
+    ],
+    [
+     "Pirol",
+     "Pirol",
+     "Golden oriole",
+     6,
+     3,
+     3,
+     129.8,
+     227.7,
+     104.0,
+     "right",
+     0
+    ],
+    [
+     "Kukuk",
+     "Kuckuck",
+     "Common cuckoo",
+     6,
+     3,
+     3,
+     112.8,
+     229.3,
+     119.7,
+     "left",
+     0
+    ],
+    [
+     "Mehlschwalbe",
+     "Mehlschwalbe",
+     "House martin",
+     4,
+     2,
+     2,
+     124.8,
+     258.0,
+     132.0,
+     "right",
+     0
+    ],
+    [
+     "Ringeltaube",
+     "Ringeltaube",
+     "Wood pigeon",
+     2,
+     1,
+     0,
+     69.0,
+     261.0,
+     null,
+     "left",
+     0
+    ],
+    [
+     "Rauchschwalbe",
+     "Rauchschwalbe",
+     "Barn swallow",
+     3,
+     4,
+     3,
+     101.3,
+     260.0,
+     154.7,
+     "left",
+     0
+    ],
+    [
+     "Hausrothschwanz",
+     "Hausrotschwanz",
+     "Black redstart",
+     5,
+     3,
+     3,
+     80.0,
+     281.3,
+     201.7,
+     "right",
+     3
+    ],
+    [
+     "Staar",
+     "Star",
+     "Starling",
+     3,
+     1,
+     0,
+     37.0,
+     282.0,
+     null,
+     "left",
+     0
+    ],
+    [
+     "Waldschnepfe",
+     "Waldschnepfe",
+     "Woodcock",
+     4,
+     2,
+     1,
+     77.2,
+     291.5,
+     211.0,
+     "right",
+     -3
+    ],
+    [
+     "Weiße Bachstelze",
+     "Weiße Bachstelze",
+     "White wagtail",
+     4,
+     4,
+     4,
+     62.0,
+     287.8,
+     225.8,
+     "left",
+     -3
+    ]
+   ],
+   "source_refs": [
+    {
+     "page": "61",
+     "block": "b5",
+     "rows": "r3-r16"
+    }
+   ]
+  },
+  {
+   "name": "trend",
+   "title": {
+    "de": "Trendgerade Ankunft–Abzug",
+    "en": "Arrival–departure trend line"
+   },
+   "columns": [
+    {
+     "name": "x0",
+     "label": {
+      "de": "Ankunft Anfang",
+      "en": "Arrival start"
+     },
+     "type": "number",
+     "unit": "d",
+     "derived": true
+    },
+    {
+     "name": "y0",
+     "label": {
+      "de": "Abzug Anfang",
+      "en": "Departure start"
+     },
+     "type": "number",
+     "unit": "d",
+     "derived": true
+    },
+    {
+     "name": "x1",
+     "label": {
+      "de": "Ankunft Ende",
+      "en": "Arrival end"
+     },
+     "type": "number",
+     "unit": "d",
+     "derived": true
+    },
+    {
+     "name": "y1",
+     "label": {
+      "de": "Abzug Ende",
+      "en": "Departure end"
+     },
+     "type": "number",
+     "unit": "d",
+     "derived": true
+    }
+   ],
+   "rows": [
+    [
+     25.0,
+     308.9,
+     140.0,
+     231.9
+    ]
+   ],
+   "source_refs": [
+    {
+     "page": "61",
+     "block": "b5",
+     "rows": "r3-r16"
+    }
+   ]
+  }
+ ],
+ "charts": [
+  {
+   "id": "c1",
+   "dataset": "observations",
+   "title": {
+    "de": "Aufenthalt von der Ankunft bis zum Abzug",
+    "en": "Stay from arrival to departure"
+   },
+   "caption": {
+    "de": "Je Balken ein Jahr, von der Ankunft bis zum Abzug (nur Arten und Jahre mit beiden Terminen), nach mittlerer Ankunft geordnet. Frühankömmlinge wie die Lerche bleiben bis in den November, Spätankömmlinge wie Turmschwalbe und Pirol ziehen schon im August ab.",
+    "en": "One bar per year, from arrival to departure (only species and years with both dates), ordered by mean arrival. Early arrivals such as the lark stay until November, late arrivals such as swift and oriole leave as early as August."
+   },
+   "vegalite": {
+    "height": 520,
+    "transform": [
+     {
+      "filter": "isValid(datum.stay_days)"
+     },
+     {
+      "calculate": {
+       "de": "datum.species_de",
+       "en": "datum.species_en"
+      },
+      "as": "sp"
+     }
+    ],
+    "mark": {
+     "type": "bar",
+     "cornerRadiusEnd": 2
+    },
+    "encoding": {
+     "x": {
+      "field": "arrival_doy",
+      "type": "quantitative",
+      "title": {
+       "de": "Tag des Jahres (Ankunft → Abzug)",
+       "en": "Day of the year (arrival → departure)"
+      },
+      "axis": {
+       "values": [
+        1,
+        32,
+        60,
+        91,
+        121,
+        152,
+        182,
+        213,
+        244,
+        274,
+        305
+       ],
+       "labelExpr": {
+        "de": "['1. Jan','1. Feb','1. Mär','1. Apr','1. Mai','1. Jun','1. Jul','1. Aug','1. Sep','1. Okt','1. Nov'][indexof([1,32,60,91,121,152,182,213,244,274,305], datum.value)]",
+        "en": "['Jan 1','Feb 1','Mar 1','Apr 1','May 1','Jun 1','Jul 1','Aug 1','Sep 1','Oct 1','Nov 1'][indexof([1,32,60,91,121,152,182,213,244,274,305], datum.value)]"
+       },
+       "labelAngle": 0
+      },
+      "scale": {
+       "domain": [
+        10,
+        330
+       ],
+       "nice": false
+      }
+     },
+     "x2": {
+      "field": "departure_doy"
+     },
+     "y": {
+      "field": "sp",
+      "type": "nominal",
+      "title": null,
+      "sort": [
+       {
+        "de": "Lerche",
+        "en": "Skylark"
+       },
+       {
+        "de": "Weiße Bachstelze",
+        "en": "White wagtail"
+       },
+       {
+        "de": "Bachstelze",
+        "en": "Wagtail (unspecified)"
+       },
+       {
+        "de": "Waldschnepfe",
+        "en": "Woodcock"
+       },
+       {
+        "de": "Hausrotschwanz",
+        "en": "Black redstart"
+       },
+       {
+        "de": "Rauchschwalbe",
+        "en": "Barn swallow"
+       },
+       {
+        "de": "Hausschwalbe",
+        "en": "House swallow (uncertain)"
+       },
+       {
+        "de": "Kuckuck",
+        "en": "Common cuckoo"
+       },
+       {
+        "de": "Turmschwalbe",
+        "en": "Common swift"
+       },
+       {
+        "de": "Mönchsgrasmücke",
+        "en": "Blackcap"
+       },
+       {
+        "de": "Mehlschwalbe",
+        "en": "House martin"
+       },
+       {
+        "de": "Pirol",
+        "en": "Golden oriole"
+       }
+      ]
+     },
+     "yOffset": {
+      "field": "year"
+     },
+     "color": {
+      "field": "year",
+      "type": "nominal",
+      "title": {
+       "de": "Jahr",
+       "en": "Year"
+      },
+      "scale": {
+       "domain": [
+        1859,
+        1860,
+        1861,
+        1862,
+        1863,
+        1864
+       ]
+      }
+     },
+     "tooltip": [
+      {
+       "field": "species_de",
+       "title": {
+        "de": "Art",
+        "en": "Species"
+       }
+      },
+      {
+       "field": "species_en",
+       "title": {
+        "de": "Englisch",
+        "en": "English"
+       }
+      },
+      {
+       "field": "year",
+       "title": {
+        "de": "Jahr",
+        "en": "Year"
+       }
+      },
+      {
+       "field": "arrival_printed",
+       "title": {
+        "de": "Ankunft (gedruckt)",
+        "en": "Arrival (printed)"
+       }
+      },
+      {
+       "field": "departure_printed",
+       "title": {
+        "de": "Abzug (gedruckt)",
+        "en": "Departure (printed)"
+       }
+      },
+      {
+       "field": "stay_days",
+       "title": {
+        "de": "Aufenthalt (Tage)",
+        "en": "Stay (days)"
+       },
+       "format": ".0f"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "c2",
+   "dataset": "observations",
+   "title": {
+    "de": "Alle Ankunfts- und Abzugstermine nach Art",
+    "en": "All arrival and departure dates by species"
+   },
+   "caption": {
+    "de": "Jeder Punkt ist ein beobachtetes Jahr (bei Tagesspannen die Mitte); der Strich verbindet früheste und späteste Beobachtung der Art. Arten nach mittlerer Ankunft geordnet.",
+    "en": "Each dot is an observed year (midpoint for day ranges); the line joins the earliest and latest observation of the species. Species ordered by mean arrival."
+   },
+   "vegalite": {
+    "height": 440,
+    "transform": [
+     {
+      "calculate": {
+       "de": "datum.species_de",
+       "en": "datum.species_en"
+      },
+      "as": "sp"
+     },
+     {
+      "fold": [
+       "arrival_doy",
+       "departure_doy"
+      ],
+      "as": [
+       "key",
+       "value"
+      ]
+     },
+     {
+      "filter": "isValid(datum.value)"
+     },
+     {
+      "calculate": {
+       "de": "datum.key == 'arrival_doy' ? 'Ankunft' : 'Abzug'",
+       "en": "datum.key == 'arrival_doy' ? 'Arrival' : 'Departure'"
+      },
+      "as": "event"
+     }
+    ],
+    "layer": [
+     {
+      "transform": [
+       {
+        "aggregate": [
+         {
+          "op": "min",
+          "field": "value",
+          "as": "lo"
+         },
+         {
+          "op": "max",
+          "field": "value",
+          "as": "hi"
+         }
+        ],
+        "groupby": [
+         "sp",
+         "event"
+        ]
+       }
+      ],
+      "mark": {
+       "type": "rule",
+       "strokeWidth": 2,
+       "opacity": 0.5
+      },
+      "encoding": {
+       "x": {
+        "field": "lo",
+        "type": "quantitative",
+        "title": {
+         "de": "Tag des Jahres",
+         "en": "Day of the year"
+        },
+        "axis": {
+         "values": [
+          1,
+          32,
+          60,
+          91,
+          121,
+          152,
+          182,
+          213,
+          244,
+          274,
+          305
+         ],
+         "labelExpr": {
+          "de": "['1. Jan','1. Feb','1. Mär','1. Apr','1. Mai','1. Jun','1. Jul','1. Aug','1. Sep','1. Okt','1. Nov'][indexof([1,32,60,91,121,152,182,213,244,274,305], datum.value)]",
+          "en": "['Jan 1','Feb 1','Mar 1','Apr 1','May 1','Jun 1','Jul 1','Aug 1','Sep 1','Oct 1','Nov 1'][indexof([1,32,60,91,121,152,182,213,244,274,305], datum.value)]"
+         },
+         "labelAngle": 0
+        },
+        "scale": {
+         "domain": [
+          10,
+          330
+         ],
+         "nice": false
+        }
+       },
+       "x2": {
+        "field": "hi"
+       },
+       "y": {
+        "field": "sp",
+        "type": "nominal",
+        "title": null,
+        "sort": [
+         {
+          "de": "Star",
+          "en": "Starling"
+         },
+         {
+          "de": "Lerche",
+          "en": "Skylark"
+         },
+         {
+          "de": "Weiße Bachstelze",
+          "en": "White wagtail"
+         },
+         {
+          "de": "Bachstelze",
+          "en": "Wagtail (unspecified)"
+         },
+         {
+          "de": "Ringeltaube",
+          "en": "Wood pigeon"
+         },
+         {
+          "de": "Waldschnepfe",
+          "en": "Woodcock"
+         },
+         {
+          "de": "Hausrotschwanz",
+          "en": "Black redstart"
+         },
+         {
+          "de": "Rauchschwalbe",
+          "en": "Barn swallow"
+         },
+         {
+          "de": "Hausschwalbe",
+          "en": "House swallow (uncertain)"
+         },
+         {
+          "de": "Kuckuck",
+          "en": "Common cuckoo"
+         },
+         {
+          "de": "Turmschwalbe",
+          "en": "Common swift"
+         },
+         {
+          "de": "Mönchsgrasmücke",
+          "en": "Blackcap"
+         },
+         {
+          "de": "Mehlschwalbe",
+          "en": "House martin"
+         },
+         {
+          "de": "Pirol",
+          "en": "Golden oriole"
+         }
+        ]
+       },
+       "color": {
+        "field": "event",
+        "type": "nominal",
+        "title": null,
+        "scale": {
+         "domain": [
+          {
+           "de": "Ankunft",
+           "en": "Arrival"
+          },
+          {
+           "de": "Abzug",
+           "en": "Departure"
+          }
+         ]
+        }
+       }
+      }
+     },
+     {
+      "mark": {
+       "type": "circle",
+       "size": 70,
+       "opacity": 0.9
+      },
+      "encoding": {
+       "x": {
+        "field": "value",
+        "type": "quantitative",
+        "title": {
+         "de": "Tag des Jahres",
+         "en": "Day of the year"
+        },
+        "axis": {
+         "values": [
+          1,
+          32,
+          60,
+          91,
+          121,
+          152,
+          182,
+          213,
+          244,
+          274,
+          305
+         ],
+         "labelExpr": {
+          "de": "['1. Jan','1. Feb','1. Mär','1. Apr','1. Mai','1. Jun','1. Jul','1. Aug','1. Sep','1. Okt','1. Nov'][indexof([1,32,60,91,121,152,182,213,244,274,305], datum.value)]",
+          "en": "['Jan 1','Feb 1','Mar 1','Apr 1','May 1','Jun 1','Jul 1','Aug 1','Sep 1','Oct 1','Nov 1'][indexof([1,32,60,91,121,152,182,213,244,274,305], datum.value)]"
+         },
+         "labelAngle": 0
+        },
+        "scale": {
+         "domain": [
+          10,
+          330
+         ],
+         "nice": false
+        }
+       },
+       "y": {
+        "field": "sp",
+        "type": "nominal",
+        "title": null,
+        "sort": [
+         {
+          "de": "Star",
+          "en": "Starling"
+         },
+         {
+          "de": "Lerche",
+          "en": "Skylark"
+         },
+         {
+          "de": "Weiße Bachstelze",
+          "en": "White wagtail"
+         },
+         {
+          "de": "Bachstelze",
+          "en": "Wagtail (unspecified)"
+         },
+         {
+          "de": "Ringeltaube",
+          "en": "Wood pigeon"
+         },
+         {
+          "de": "Waldschnepfe",
+          "en": "Woodcock"
+         },
+         {
+          "de": "Hausrotschwanz",
+          "en": "Black redstart"
+         },
+         {
+          "de": "Rauchschwalbe",
+          "en": "Barn swallow"
+         },
+         {
+          "de": "Hausschwalbe",
+          "en": "House swallow (uncertain)"
+         },
+         {
+          "de": "Kuckuck",
+          "en": "Common cuckoo"
+         },
+         {
+          "de": "Turmschwalbe",
+          "en": "Common swift"
+         },
+         {
+          "de": "Mönchsgrasmücke",
+          "en": "Blackcap"
+         },
+         {
+          "de": "Mehlschwalbe",
+          "en": "House martin"
+         },
+         {
+          "de": "Pirol",
+          "en": "Golden oriole"
+         }
+        ]
+       },
+       "color": {
+        "field": "event",
+        "type": "nominal",
+        "title": null,
+        "scale": {
+         "domain": [
+          {
+           "de": "Ankunft",
+           "en": "Arrival"
+          },
+          {
+           "de": "Abzug",
+           "en": "Departure"
+          }
+         ]
+        }
+       },
+       "tooltip": [
+        {
+         "field": "species_de",
+         "title": {
+          "de": "Art",
+          "en": "Species"
+         }
+        },
+        {
+         "field": "species_en",
+         "title": {
+          "de": "Englisch",
+          "en": "English"
+         }
+        },
+        {
+         "field": "year",
+         "title": {
+          "de": "Jahr",
+          "en": "Year"
+         }
+        },
+        {
+         "field": "event",
+         "title": {
+          "de": "Ereignis",
+          "en": "Event"
+         }
+        },
+        {
+         "field": "arrival_printed",
+         "title": {
+          "de": "Ankunft (gedruckt)",
+          "en": "Arrival (printed)"
+         }
+        },
+        {
+         "field": "departure_printed",
+         "title": {
+          "de": "Abzug (gedruckt)",
+          "en": "Departure (printed)"
+         }
+        }
+       ]
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "c3",
+   "dataset": "species",
+   "extra_datasets": [
+    "trend"
+   ],
+   "title": {
+    "de": "Mittlere Ankunft und mittlerer Abzug der Arten",
+    "en": "Mean arrival and mean departure of the species"
+   },
+   "caption": {
+    "de": "Je Punkt eine Art (Mittel aller Beobachtungsjahre). Je später die Art im Mittel ankommt, desto früher zieht sie ab (r = −0,79); die Gerade ist die Regression.",
+    "en": "One dot per species (mean over all observed years). The later a species arrives on average, the earlier it leaves (r = −0.79); the line is the regression."
+   },
+   "vegalite": {
+    "height": 380,
+    "layer": [
+     {
+      "data": {
+       "name": "trend"
+      },
+      "mark": {
+       "type": "rule",
+       "strokeDash": [
+        5,
+        4
+       ]
+      },
+      "encoding": {
+       "x": {
+        "field": "x0",
+        "type": "quantitative",
+        "scale": {
+         "domain": [
+          20,
+          150
+         ],
+         "nice": false
+        }
+       },
+       "x2": {
+        "field": "x1"
+       },
+       "y": {
+        "field": "y0",
+        "type": "quantitative",
+        "scale": {
+         "domain": [
+          200,
+          330
+         ],
+         "nice": false
+        }
+       },
+       "y2": {
+        "field": "y1"
+       }
+      }
+     },
+     {
+      "transform": [
+       {
+        "calculate": {
+         "de": "datum.species_de",
+         "en": "datum.species_en"
+        },
+        "as": "sp"
+       }
+      ],
+      "mark": {
+       "type": "circle",
+       "size": 100,
+       "opacity": 1
+      },
+      "encoding": {
+       "x": {
+        "field": "mean_arrival_doy",
+        "type": "quantitative",
+        "title": {
+         "de": "Mittlere Ankunft",
+         "en": "Mean arrival"
+        },
+        "axis": {
+         "values": [
+          1,
+          32,
+          60,
+          91,
+          121,
+          152
+         ],
+         "labelExpr": {
+          "de": "['1. Jan','1. Feb','1. Mär','1. Apr','1. Mai','1. Jun'][indexof([1,32,60,91,121,152], datum.value)]",
+          "en": "['Jan 1','Feb 1','Mar 1','Apr 1','May 1','Jun 1'][indexof([1,32,60,91,121,152], datum.value)]"
+         },
+         "labelAngle": 0
+        },
+        "scale": {
+         "domain": [
+          20,
+          150
+         ],
+         "nice": false
+        }
+       },
+       "y": {
+        "field": "mean_departure_doy",
+        "type": "quantitative",
+        "title": {
+         "de": "Mittlerer Abzug",
+         "en": "Mean departure"
+        },
+        "axis": {
+         "values": [
+          213,
+          244,
+          274,
+          305
+         ],
+         "labelExpr": {
+          "de": "['1. Aug','1. Sep','1. Okt','1. Nov'][indexof([213,244,274,305], datum.value)]",
+          "en": "['Aug 1','Sep 1','Oct 1','Nov 1'][indexof([213,244,274,305], datum.value)]"
+         },
+         "labelAngle": 0
+        },
+        "scale": {
+         "domain": [
+          200,
+          330
+         ],
+         "nice": false
+        }
+       },
+       "tooltip": [
+        {
+         "field": "species_de",
+         "title": {
+          "de": "Art",
+          "en": "Species"
+         }
+        },
+        {
+         "field": "species_en",
+         "title": {
+          "de": "Englisch",
+          "en": "English"
+         }
+        },
+        {
+         "field": "n_arrival",
+         "title": {
+          "de": "Ankunftsdaten",
+          "en": "Arrival dates"
+         }
+        },
+        {
+         "field": "n_departure",
+         "title": {
+          "de": "Abzugsdaten",
+          "en": "Departure dates"
+         }
+        },
+        {
+         "field": "mean_arrival_doy",
+         "title": {
+          "de": "Mittlere Ankunft (Tag im Jahr)",
+          "en": "Mean arrival (day of year)"
+         },
+         "format": ".0f"
+        },
+        {
+         "field": "mean_departure_doy",
+         "title": {
+          "de": "Mittlerer Abzug (Tag im Jahr)",
+          "en": "Mean departure (day of year)"
+         },
+         "format": ".0f"
+        }
+       ]
+      }
+     },
+     {
+      "transform": [
+       {
+        "filter": "datum.label_align == 'left' && datum.label_dy == -3"
+       },
+       {
+        "calculate": {
+         "de": "datum.species_de",
+         "en": "datum.species_en"
+        },
+        "as": "sp"
+       }
+      ],
+      "mark": {
+       "type": "text",
+       "align": "right",
+       "dx": -9,
+       "dy": -3,
+       "fontSize": 10
+      },
+      "encoding": {
+       "x": {
+        "field": "mean_arrival_doy",
+        "type": "quantitative"
+       },
+       "y": {
+        "field": "mean_departure_doy",
+        "type": "quantitative"
+       },
+       "text": {
+        "field": "sp",
+        "type": "nominal"
+       }
+      }
+     },
+     {
+      "transform": [
+       {
+        "filter": "datum.label_align == 'left' && datum.label_dy == 0"
+       },
+       {
+        "calculate": {
+         "de": "datum.species_de",
+         "en": "datum.species_en"
+        },
+        "as": "sp"
+       }
+      ],
+      "mark": {
+       "type": "text",
+       "align": "right",
+       "dx": -9,
+       "dy": 0,
+       "fontSize": 10
+      },
+      "encoding": {
+       "x": {
+        "field": "mean_arrival_doy",
+        "type": "quantitative"
+       },
+       "y": {
+        "field": "mean_departure_doy",
+        "type": "quantitative"
+       },
+       "text": {
+        "field": "sp",
+        "type": "nominal"
+       }
+      }
+     },
+     {
+      "transform": [
+       {
+        "filter": "datum.label_align == 'left' && datum.label_dy == 13"
+       },
+       {
+        "calculate": {
+         "de": "datum.species_de",
+         "en": "datum.species_en"
+        },
+        "as": "sp"
+       }
+      ],
+      "mark": {
+       "type": "text",
+       "align": "right",
+       "dx": -9,
+       "dy": 13,
+       "fontSize": 10
+      },
+      "encoding": {
+       "x": {
+        "field": "mean_arrival_doy",
+        "type": "quantitative"
+       },
+       "y": {
+        "field": "mean_departure_doy",
+        "type": "quantitative"
+       },
+       "text": {
+        "field": "sp",
+        "type": "nominal"
+       }
+      }
+     },
+     {
+      "transform": [
+       {
+        "filter": "datum.label_align == 'right' && datum.label_dy == -3"
+       },
+       {
+        "calculate": {
+         "de": "datum.species_de",
+         "en": "datum.species_en"
+        },
+        "as": "sp"
+       }
+      ],
+      "mark": {
+       "type": "text",
+       "align": "left",
+       "dx": 9,
+       "dy": -3,
+       "fontSize": 10
+      },
+      "encoding": {
+       "x": {
+        "field": "mean_arrival_doy",
+        "type": "quantitative"
+       },
+       "y": {
+        "field": "mean_departure_doy",
+        "type": "quantitative"
+       },
+       "text": {
+        "field": "sp",
+        "type": "nominal"
+       }
+      }
+     },
+     {
+      "transform": [
+       {
+        "filter": "datum.label_align == 'right' && datum.label_dy == 0"
+       },
+       {
+        "calculate": {
+         "de": "datum.species_de",
+         "en": "datum.species_en"
+        },
+        "as": "sp"
+       }
+      ],
+      "mark": {
+       "type": "text",
+       "align": "left",
+       "dx": 9,
+       "dy": 0,
+       "fontSize": 10
+      },
+      "encoding": {
+       "x": {
+        "field": "mean_arrival_doy",
+        "type": "quantitative"
+       },
+       "y": {
+        "field": "mean_departure_doy",
+        "type": "quantitative"
+       },
+       "text": {
+        "field": "sp",
+        "type": "nominal"
+       }
+      }
+     },
+     {
+      "transform": [
+       {
+        "filter": "datum.label_align == 'right' && datum.label_dy == 3"
+       },
+       {
+        "calculate": {
+         "de": "datum.species_de",
+         "en": "datum.species_en"
+        },
+        "as": "sp"
+       }
+      ],
+      "mark": {
+       "type": "text",
+       "align": "left",
+       "dx": 9,
+       "dy": 3,
+       "fontSize": 10
+      },
+      "encoding": {
+       "x": {
+        "field": "mean_arrival_doy",
+        "type": "quantitative"
+       },
+       "y": {
+        "field": "mean_departure_doy",
+        "type": "quantitative"
+       },
+       "text": {
+        "field": "sp",
+        "type": "nominal"
+       }
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "keywords": {
+  "de": [
+   "Zugvögel",
+   "Vogelzug",
+   "Ankunft",
+   "Abzug",
+   "Gera",
+   "Lerche",
+   "Schwalben",
+   "Kuckuck",
+   "Pirol",
+   "Star",
+   "Phänologie",
+   "Ludwig Müller"
+  ],
+  "en": [
+   "migratory birds",
+   "bird migration",
+   "arrival",
+   "departure",
+   "Gera",
+   "skylark",
+   "swallows",
+   "cuckoo",
+   "golden oriole",
+   "starling",
+   "phenology",
+   "Ludwig Müller"
+  ]
+ },
+ "related": [
+  "phaenologie-bluetezeiten-gera-hohenleuben-1851-1861",
+  "klima-gera-temperatur-1856-1867",
+  "fauna-voegel-zugzeiten-und-seltene-gaeste"
+ ],
+ "supersedes_legacy": "p. 61 'Vogelzug in Gera (1859–1864) – Phänologische Analyse' (interaktives HTML, p61_birdviz)",
+ "generated_by": "Claude Sonnet 5.5 (subagent A03)",
+ "date": "2026-10-01"
+}

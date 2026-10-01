@@ -1,0 +1,1949 @@
+{
+ "seq": 124,
+ "label": "112",
+ "slug": "112",
+ "iiif": {
+  "service": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb11005578_00124",
+  "canvas": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11005578/canvas/124",
+  "width": 1631,
+  "height": 2700
+ },
+ "kind": "text",
+ "running_header": "II. Das Volk.",
+ "signature": null,
+ "blocks": [
+  {
+   "id": "b1",
+   "type": "paragraph",
+   "src": 0,
+   "text": "Die kleinste Zahl von Todtgeborenen hat der Bezirk Schleiz, die größte Gera. In Lobenstein-Ebersdorf hat sie gegen früher zugenommen, denn derselbe Bezirk zählte nach dem lobensteiner Intelligenzblatte von 1794 bis 1804 im Durchschnitte jährlich 595,4 Geborene und darunter 23,2 Todtgeborene, demnach auf 100 Geborene 95,82 Lebendgeborene und 4,18 Todtgeborene. Die Zahl der Todtgeborenen in den Städten ist in den Bezirken Schleiz und Lobenstein etwas schwächer, dagegen im Bezirke Gera und im Fürstenthume bedeutend stärker als auf dem Lande.",
+   "spans": [
+    [
+     51,
+     58,
+     "Location"
+    ],
+    [
+     71,
+     75,
+     "Location"
+    ],
+    [
+     80,
+     100,
+     "Location"
+    ],
+    [
+     171,
+     201,
+     "Organisation"
+    ],
+    [
+     424,
+     431,
+     "Location"
+    ],
+    [
+     436,
+     446,
+     "Location"
+    ],
+    [
+     483,
+     487,
+     "Location"
+    ]
+   ],
+   "sec": "t1-2-1"
+  },
+  {
+   "id": "b2",
+   "type": "paragraph",
+   "src": 1,
+   "text": "Ueber mehrfruchtige Geburten sind blos vom lobensteiner Intelligenzblatte Veröffentlichungen erfolgt, nach denen im Bezirke Lobenstein-Ebersdorf von 1794 bis 1804 unter 6525 Geborenen 85 Paar Zwillinge (und keine Drillinge) vorkamen, mithin unter 100 Geborenen 1,30 Zwillingspaare.",
+   "spans": [
+    [
+     43,
+     73,
+     "Organisation"
+    ],
+    [
+     124,
+     144,
+     "Location"
+    ]
+   ],
+   "sec": "t1-2-1"
+  },
+  {
+   "id": "b3",
+   "type": "heading",
+   "src": 2,
+   "text": "Die Ehen in jährlicher Vermehrung und im Verhältniß zur Bevölkerung.",
+   "spans": [],
+   "sec": "t1-2-1",
+   "level": 5
+  },
+  {
+   "id": "b4",
+   "type": "paragraph",
+   "src": 3,
+   "text": "So sorgfältig auch früher die Copulirten von den Pfarrämtern aufgezeichnet wurden, so geschah doch ihre Zusammenstellung stets mit den Geborenen und Gestorbenen, keineswegs mit der Gesammtteinwohnerzahl, weshalb ihre statistische Verwerthung nur da möglich ist, wo sich die Bevölkerungssumme finden lässt. Die das ganze Land umfassenden Trauungsziffern sind:",
+   "spans": [],
+   "sec": "t1-2-1"
+  },
+  {
+   "id": "b5",
+   "type": "table",
+   "src": 4,
+   "n_cols": 13,
+   "header_rows": 2,
+   "rows": [
+    {
+     "role": "header",
+     "cells": [
+      {
+       "text": "Jahre.",
+       "spans": []
+      },
+      {
+       "text": "Getraute Paare. Städte",
+       "spans": []
+      },
+      {
+       "text": "Getraute Paare. Landorte.",
+       "spans": []
+      },
+      {
+       "text": "Getraute Paare. Zus.",
+       "spans": []
+      },
+      {
+       "text": "Procente der Bevölkerung. Städte",
+       "spans": []
+      },
+      {
+       "text": "Procente der Bevölkerung. Landorte.",
+       "spans": []
+      },
+      {
+       "text": "Procente der Bevölkerung. Zus.",
+       "spans": []
+      },
+      {
+       "text": "Getraute Paare. Städte",
+       "spans": []
+      },
+      {
+       "text": "Getraute Paare. Landorte.",
+       "spans": []
+      },
+      {
+       "text": "Getraute Paare. Zus.",
+       "spans": []
+      },
+      {
+       "text": "Procente der Bevölkerung. Städte",
+       "spans": []
+      },
+      {
+       "text": "Procente der Bevölkerung. Landorte.",
+       "spans": []
+      },
+      {
+       "text": "Procente der Bevölkerung. Zus.",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "header",
+     "cells": [
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "Bezirk Gera.",
+       "spans": [
+        [
+         7,
+         11,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "Bezirk Schleiz.",
+       "spans": [
+        [
+         7,
+         14,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1858",
+       "spans": []
+      },
+      {
+       "text": "85",
+       "spans": []
+      },
+      {
+       "text": "187",
+       "spans": []
+      },
+      {
+       "text": "272",
+       "spans": []
+      },
+      {
+       "text": "0,63",
+       "spans": []
+      },
+      {
+       "text": "0,93",
+       "spans": []
+      },
+      {
+       "text": "0,81",
+       "spans": []
+      },
+      {
+       "text": "66",
+       "spans": []
+      },
+      {
+       "text": "135",
+       "spans": []
+      },
+      {
+       "text": "201",
+       "spans": []
+      },
+      {
+       "text": "0,86",
+       "spans": []
+      },
+      {
+       "text": "0,75",
+       "spans": []
+      },
+      {
+       "text": "0,78",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1859",
+       "spans": []
+      },
+      {
+       "text": "99",
+       "spans": []
+      },
+      {
+       "text": "249",
+       "spans": []
+      },
+      {
+       "text": "348",
+       "spans": []
+      },
+      {
+       "text": "0,73",
+       "spans": []
+      },
+      {
+       "text": "1,24",
+       "spans": []
+      },
+      {
+       "text": "1,04",
+       "spans": []
+      },
+      {
+       "text": "95",
+       "spans": []
+      },
+      {
+       "text": "251",
+       "spans": []
+      },
+      {
+       "text": "346",
+       "spans": []
+      },
+      {
+       "text": "1,24",
+       "spans": []
+      },
+      {
+       "text": "1,39",
+       "spans": []
+      },
+      {
+       "text": "1,35",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1860",
+       "spans": []
+      },
+      {
+       "text": "118",
+       "spans": []
+      },
+      {
+       "text": "299",
+       "spans": []
+      },
+      {
+       "text": "417",
+       "spans": []
+      },
+      {
+       "text": "0,87",
+       "spans": []
+      },
+      {
+       "text": "1,49",
+       "spans": []
+      },
+      {
+       "text": "1,24",
+       "spans": []
+      },
+      {
+       "text": "101",
+       "spans": []
+      },
+      {
+       "text": "230",
+       "spans": []
+      },
+      {
+       "text": "331",
+       "spans": []
+      },
+      {
+       "text": "1,31",
+       "spans": []
+      },
+      {
+       "text": "1,28",
+       "spans": []
+      },
+      {
+       "text": "1,29",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1861",
+       "spans": []
+      },
+      {
+       "text": "82",
+       "spans": []
+      },
+      {
+       "text": "264",
+       "spans": []
+      },
+      {
+       "text": "346",
+       "spans": []
+      },
+      {
+       "text": "0,58",
+       "spans": []
+      },
+      {
+       "text": "1,29",
+       "spans": []
+      },
+      {
+       "text": "1,00",
+       "spans": []
+      },
+      {
+       "text": "101",
+       "spans": []
+      },
+      {
+       "text": "213",
+       "spans": []
+      },
+      {
+       "text": "314",
+       "spans": []
+      },
+      {
+       "text": "1,42",
+       "spans": []
+      },
+      {
+       "text": "1,15",
+       "spans": []
+      },
+      {
+       "text": "1,19",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1862",
+       "spans": []
+      },
+      {
+       "text": "87",
+       "spans": []
+      },
+      {
+       "text": "232",
+       "spans": []
+      },
+      {
+       "text": "319",
+       "spans": []
+      },
+      {
+       "text": "0,61",
+       "spans": []
+      },
+      {
+       "text": "1,13",
+       "spans": []
+      },
+      {
+       "text": "0,92",
+       "spans": []
+      },
+      {
+       "text": "83",
+       "spans": []
+      },
+      {
+       "text": "163",
+       "spans": []
+      },
+      {
+       "text": "246",
+       "spans": []
+      },
+      {
+       "text": "1,06",
+       "spans": []
+      },
+      {
+       "text": "0,88",
+       "spans": []
+      },
+      {
+       "text": "0,93",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1863",
+       "spans": []
+      },
+      {
+       "text": "68",
+       "spans": []
+      },
+      {
+       "text": "250",
+       "spans": []
+      },
+      {
+       "text": "318",
+       "spans": []
+      },
+      {
+       "text": "0,48",
+       "spans": []
+      },
+      {
+       "text": "1,22",
+       "spans": []
+      },
+      {
+       "text": "0,92",
+       "spans": []
+      },
+      {
+       "text": "90",
+       "spans": []
+      },
+      {
+       "text": "218",
+       "spans": []
+      },
+      {
+       "text": "308",
+       "spans": []
+      },
+      {
+       "text": "1,16",
+       "spans": []
+      },
+      {
+       "text": "1,17",
+       "spans": []
+      },
+      {
+       "text": "1,17",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1864",
+       "spans": []
+      },
+      {
+       "text": "139",
+       "spans": []
+      },
+      {
+       "text": "324",
+       "spans": []
+      },
+      {
+       "text": "463",
+       "spans": []
+      },
+      {
+       "text": "0,90",
+       "spans": []
+      },
+      {
+       "text": "1,51",
+       "spans": []
+      },
+      {
+       "text": "1,26",
+       "spans": []
+      },
+      {
+       "text": "64",
+       "spans": []
+      },
+      {
+       "text": "237",
+       "spans": []
+      },
+      {
+       "text": "301",
+       "spans": []
+      },
+      {
+       "text": "0,82",
+       "spans": []
+      },
+      {
+       "text": "1,22",
+       "spans": []
+      },
+      {
+       "text": "1,11",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1865",
+       "spans": []
+      },
+      {
+       "text": "60",
+       "spans": []
+      },
+      {
+       "text": "260",
+       "spans": []
+      },
+      {
+       "text": "320",
+       "spans": []
+      },
+      {
+       "text": "0,38",
+       "spans": []
+      },
+      {
+       "text": "1,19",
+       "spans": []
+      },
+      {
+       "text": "0,86",
+       "spans": []
+      },
+      {
+       "text": "73",
+       "spans": []
+      },
+      {
+       "text": "208",
+       "spans": []
+      },
+      {
+       "text": "281",
+       "spans": []
+      },
+      {
+       "text": "0,92",
+       "spans": []
+      },
+      {
+       "text": "1,06",
+       "spans": []
+      },
+      {
+       "text": "1,02",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1866",
+       "spans": []
+      },
+      {
+       "text": "52",
+       "spans": []
+      },
+      {
+       "text": "251",
+       "spans": []
+      },
+      {
+       "text": "303",
+       "spans": []
+      },
+      {
+       "text": "0,33",
+       "spans": []
+      },
+      {
+       "text": "1,14",
+       "spans": []
+      },
+      {
+       "text": "0,80",
+       "spans": []
+      },
+      {
+       "text": "112",
+       "spans": []
+      },
+      {
+       "text": "241",
+       "spans": []
+      },
+      {
+       "text": "353",
+       "spans": []
+      },
+      {
+       "text": "1,41",
+       "spans": []
+      },
+      {
+       "text": "1,23",
+       "spans": []
+      },
+      {
+       "text": "1,28",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1867",
+       "spans": []
+      },
+      {
+       "text": "60",
+       "spans": []
+      },
+      {
+       "text": "236",
+       "spans": []
+      },
+      {
+       "text": "296",
+       "spans": []
+      },
+      {
+       "text": "0,36",
+       "spans": []
+      },
+      {
+       "text": "1,07",
+       "spans": []
+      },
+      {
+       "text": "0,77",
+       "spans": []
+      },
+      {
+       "text": "100",
+       "spans": []
+      },
+      {
+       "text": "249",
+       "spans": []
+      },
+      {
+       "text": "349",
+       "spans": []
+      },
+      {
+       "text": "1,25",
+       "spans": []
+      },
+      {
+       "text": "1,28",
+       "spans": []
+      },
+      {
+       "text": "1,27",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "total",
+     "cells": [
+      {
+       "text": "Durchschn. 1858-67",
+       "spans": []
+      },
+      {
+       "text": "85,0",
+       "spans": []
+      },
+      {
+       "text": "252,2",
+       "spans": []
+      },
+      {
+       "text": "340,2",
+       "spans": []
+      },
+      {
+       "text": "0,58",
+       "spans": []
+      },
+      {
+       "text": "1,22",
+       "spans": []
+      },
+      {
+       "text": "0,96",
+       "spans": []
+      },
+      {
+       "text": "88,5",
+       "spans": []
+      },
+      {
+       "text": "214,5",
+       "spans": []
+      },
+      {
+       "text": "303,0",
+       "spans": []
+      },
+      {
+       "text": "1,15",
+       "spans": []
+      },
+      {
+       "text": "1,14",
+       "spans": []
+      },
+      {
+       "text": "1,14",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "Bezirk Lobenstein-Ebersdorf.",
+       "spans": [
+        [
+         7,
+         27,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "Fürstenthum.",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1858",
+       "spans": []
+      },
+      {
+       "text": "49",
+       "spans": []
+      },
+      {
+       "text": "160",
+       "spans": []
+      },
+      {
+       "text": "209",
+       "spans": []
+      },
+      {
+       "text": "0,99",
+       "spans": []
+      },
+      {
+       "text": "0,91",
+       "spans": []
+      },
+      {
+       "text": "0,93",
+       "spans": []
+      },
+      {
+       "text": "200",
+       "spans": []
+      },
+      {
+       "text": "482",
+       "spans": []
+      },
+      {
+       "text": "682",
+       "spans": []
+      },
+      {
+       "text": "0,76",
+       "spans": []
+      },
+      {
+       "text": "0,86",
+       "spans": []
+      },
+      {
+       "text": "0,83",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1859",
+       "spans": []
+      },
+      {
+       "text": "39",
+       "spans": []
+      },
+      {
+       "text": "143",
+       "spans": []
+      },
+      {
+       "text": "182",
+       "spans": []
+      },
+      {
+       "text": "0,79",
+       "spans": []
+      },
+      {
+       "text": "0,81",
+       "spans": []
+      },
+      {
+       "text": "0,81",
+       "spans": []
+      },
+      {
+       "text": "233",
+       "spans": []
+      },
+      {
+       "text": "643",
+       "spans": []
+      },
+      {
+       "text": "876",
+       "spans": []
+      },
+      {
+       "text": "0,89",
+       "spans": []
+      },
+      {
+       "text": "1,15",
+       "spans": []
+      },
+      {
+       "text": "1,07",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1860",
+       "spans": []
+      },
+      {
+       "text": "44",
+       "spans": []
+      },
+      {
+       "text": "186",
+       "spans": []
+      },
+      {
+       "text": "230",
+       "spans": []
+      },
+      {
+       "text": "0,89",
+       "spans": []
+      },
+      {
+       "text": "1,06",
+       "spans": []
+      },
+      {
+       "text": "1,02",
+       "spans": []
+      },
+      {
+       "text": "263",
+       "spans": []
+      },
+      {
+       "text": "715",
+       "spans": []
+      },
+      {
+       "text": "978",
+       "spans": []
+      },
+      {
+       "text": "1,01",
+       "spans": []
+      },
+      {
+       "text": "1,28",
+       "spans": []
+      },
+      {
+       "text": "1,20",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1861",
+       "spans": []
+      },
+      {
+       "text": "48",
+       "spans": []
+      },
+      {
+       "text": "187",
+       "spans": []
+      },
+      {
+       "text": "235",
+       "spans": []
+      },
+      {
+       "text": "1,03",
+       "spans": []
+      },
+      {
+       "text": "1,05",
+       "spans": []
+      },
+      {
+       "text": "1,05",
+       "spans": []
+      },
+      {
+       "text": "231",
+       "spans": []
+      },
+      {
+       "text": "664",
+       "spans": []
+      },
+      {
+       "text": "895",
+       "spans": []
+      },
+      {
+       "text": "0,87",
+       "spans": []
+      },
+      {
+       "text": "1,17",
+       "spans": []
+      },
+      {
+       "text": "1,07",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1862",
+       "spans": []
+      },
+      {
+       "text": "28",
+       "spans": []
+      },
+      {
+       "text": "141",
+       "spans": []
+      },
+      {
+       "text": "169",
+       "spans": []
+      },
+      {
+       "text": "0,60",
+       "spans": []
+      },
+      {
+       "text": "0,80",
+       "spans": []
+      },
+      {
+       "text": "0,76",
+       "spans": []
+      },
+      {
+       "text": "198",
+       "spans": []
+      },
+      {
+       "text": "536",
+       "spans": []
+      },
+      {
+       "text": "734",
+       "spans": []
+      },
+      {
+       "text": "0,74",
+       "spans": []
+      },
+      {
+       "text": "0,95",
+       "spans": []
+      },
+      {
+       "text": "0,88",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1863",
+       "spans": []
+      },
+      {
+       "text": "32",
+       "spans": []
+      },
+      {
+       "text": "174",
+       "spans": []
+      },
+      {
+       "text": "206",
+       "spans": []
+      },
+      {
+       "text": "0,68",
+       "spans": []
+      },
+      {
+       "text": "0,99",
+       "spans": []
+      },
+      {
+       "text": "0,92",
+       "spans": []
+      },
+      {
+       "text": "190",
+       "spans": []
+      },
+      {
+       "text": "642",
+       "spans": []
+      },
+      {
+       "text": "832",
+       "spans": []
+      },
+      {
+       "text": "0,71",
+       "spans": []
+      },
+      {
+       "text": "1,13",
+       "spans": []
+      },
+      {
+       "text": "1,00",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1864",
+       "spans": []
+      },
+      {
+       "text": "62",
+       "spans": []
+      },
+      {
+       "text": "178",
+       "spans": []
+      },
+      {
+       "text": "240",
+       "spans": []
+      },
+      {
+       "text": "1,34",
+       "spans": []
+      },
+      {
+       "text": "1,00",
+       "spans": []
+      },
+      {
+       "text": "1,07",
+       "spans": []
+      },
+      {
+       "text": "265",
+       "spans": []
+      },
+      {
+       "text": "739",
+       "spans": []
+      },
+      {
+       "text": "1004",
+       "spans": []
+      },
+      {
+       "text": "0,95",
+       "spans": []
+      },
+      {
+       "text": "1,26",
+       "spans": []
+      },
+      {
+       "text": "1,16",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1865",
+       "spans": []
+      },
+      {
+       "text": "42",
+       "spans": []
+      },
+      {
+       "text": "187",
+       "spans": []
+      },
+      {
+       "text": "229",
+       "spans": []
+      },
+      {
+       "text": "0,90",
+       "spans": []
+      },
+      {
+       "text": "1,03",
+       "spans": []
+      },
+      {
+       "text": "1,02",
+       "spans": []
+      },
+      {
+       "text": "175",
+       "spans": []
+      },
+      {
+       "text": "655",
+       "spans": []
+      },
+      {
+       "text": "830",
+       "spans": []
+      },
+      {
+       "text": "0,63",
+       "spans": []
+      },
+      {
+       "text": "1,11",
+       "spans": []
+      },
+      {
+       "text": "0,95",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1866",
+       "spans": []
+      },
+      {
+       "text": "49",
+       "spans": []
+      },
+      {
+       "text": "187",
+       "spans": []
+      },
+      {
+       "text": "236",
+       "spans": []
+      },
+      {
+       "text": "1,05",
+       "spans": []
+      },
+      {
+       "text": "1,02",
+       "spans": []
+      },
+      {
+       "text": "1,03",
+       "spans": []
+      },
+      {
+       "text": "213",
+       "spans": []
+      },
+      {
+       "text": "679",
+       "spans": []
+      },
+      {
+       "text": "892",
+       "spans": []
+      },
+      {
+       "text": "0,75",
+       "spans": []
+      },
+      {
+       "text": "1,13",
+       "spans": []
+      },
+      {
+       "text": "1,01",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1867",
+       "spans": []
+      },
+      {
+       "text": "46",
+       "spans": []
+      },
+      {
+       "text": "134",
+       "spans": []
+      },
+      {
+       "text": "180",
+       "spans": []
+      },
+      {
+       "text": "0,91",
+       "spans": []
+      },
+      {
+       "text": "0,76",
+       "spans": []
+      },
+      {
+       "text": "0,80",
+       "spans": []
+      },
+      {
+       "text": "206",
+       "spans": []
+      },
+      {
+       "text": "619",
+       "spans": []
+      },
+      {
+       "text": "825",
+       "spans": []
+      },
+      {
+       "text": "0,71",
+       "spans": []
+      },
+      {
+       "text": "1,05",
+       "spans": []
+      },
+      {
+       "text": "0,94",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "total",
+     "cells": [
+      {
+       "text": "Durchschn. 1858-97",
+       "spans": []
+      },
+      {
+       "text": "43,9",
+       "spans": []
+      },
+      {
+       "text": "167,7",
+       "spans": []
+      },
+      {
+       "text": "211,6",
+       "spans": []
+      },
+      {
+       "text": "0,91",
+       "spans": []
+      },
+      {
+       "text": "0,94",
+       "spans": []
+      },
+      {
+       "text": "0,94",
+       "spans": []
+      },
+      {
+       "text": "217,4",
+       "spans": []
+      },
+      {
+       "text": "637,4",
+       "spans": []
+      },
+      {
+       "text": "854,8",
+       "spans": []
+      },
+      {
+       "text": "0,80",
+       "spans": []
+      },
+      {
+       "text": "1,11",
+       "spans": []
+      },
+      {
+       "text": "1,01",
+       "spans": []
+      }
+     ]
+    }
+   ],
+   "grid": [
+    [
+     "Jahre.",
+     "Getraute Paare. Städte",
+     "Getraute Paare. Landorte.",
+     "Getraute Paare. Zus.",
+     "Procente der Bevölkerung. Städte",
+     "Procente der Bevölkerung. Landorte.",
+     "Procente der Bevölkerung. Zus.",
+     "Getraute Paare. Städte",
+     "Getraute Paare. Landorte.",
+     "Getraute Paare. Zus.",
+     "Procente der Bevölkerung. Städte",
+     "Procente der Bevölkerung. Landorte.",
+     "Procente der Bevölkerung. Zus."
+    ],
+    [
+     "",
+     "Bezirk Gera.",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "Bezirk Schleiz.",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "1858",
+     "85",
+     "187",
+     "272",
+     "0,63",
+     "0,93",
+     "0,81",
+     "66",
+     "135",
+     "201",
+     "0,86",
+     "0,75",
+     "0,78"
+    ],
+    [
+     "1859",
+     "99",
+     "249",
+     "348",
+     "0,73",
+     "1,24",
+     "1,04",
+     "95",
+     "251",
+     "346",
+     "1,24",
+     "1,39",
+     "1,35"
+    ],
+    [
+     "1860",
+     "118",
+     "299",
+     "417",
+     "0,87",
+     "1,49",
+     "1,24",
+     "101",
+     "230",
+     "331",
+     "1,31",
+     "1,28",
+     "1,29"
+    ],
+    [
+     "1861",
+     "82",
+     "264",
+     "346",
+     "0,58",
+     "1,29",
+     "1,00",
+     "101",
+     "213",
+     "314",
+     "1,42",
+     "1,15",
+     "1,19"
+    ],
+    [
+     "1862",
+     "87",
+     "232",
+     "319",
+     "0,61",
+     "1,13",
+     "0,92",
+     "83",
+     "163",
+     "246",
+     "1,06",
+     "0,88",
+     "0,93"
+    ],
+    [
+     "1863",
+     "68",
+     "250",
+     "318",
+     "0,48",
+     "1,22",
+     "0,92",
+     "90",
+     "218",
+     "308",
+     "1,16",
+     "1,17",
+     "1,17"
+    ],
+    [
+     "1864",
+     "139",
+     "324",
+     "463",
+     "0,90",
+     "1,51",
+     "1,26",
+     "64",
+     "237",
+     "301",
+     "0,82",
+     "1,22",
+     "1,11"
+    ],
+    [
+     "1865",
+     "60",
+     "260",
+     "320",
+     "0,38",
+     "1,19",
+     "0,86",
+     "73",
+     "208",
+     "281",
+     "0,92",
+     "1,06",
+     "1,02"
+    ],
+    [
+     "1866",
+     "52",
+     "251",
+     "303",
+     "0,33",
+     "1,14",
+     "0,80",
+     "112",
+     "241",
+     "353",
+     "1,41",
+     "1,23",
+     "1,28"
+    ],
+    [
+     "1867",
+     "60",
+     "236",
+     "296",
+     "0,36",
+     "1,07",
+     "0,77",
+     "100",
+     "249",
+     "349",
+     "1,25",
+     "1,28",
+     "1,27"
+    ],
+    [
+     "Durchschn. 1858-67",
+     "85,0",
+     "252,2",
+     "340,2",
+     "0,58",
+     "1,22",
+     "0,96",
+     "88,5",
+     "214,5",
+     "303,0",
+     "1,15",
+     "1,14",
+     "1,14"
+    ],
+    [
+     "",
+     "Bezirk Lobenstein-Ebersdorf.",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "Fürstenthum.",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "1858",
+     "49",
+     "160",
+     "209",
+     "0,99",
+     "0,91",
+     "0,93",
+     "200",
+     "482",
+     "682",
+     "0,76",
+     "0,86",
+     "0,83"
+    ],
+    [
+     "1859",
+     "39",
+     "143",
+     "182",
+     "0,79",
+     "0,81",
+     "0,81",
+     "233",
+     "643",
+     "876",
+     "0,89",
+     "1,15",
+     "1,07"
+    ],
+    [
+     "1860",
+     "44",
+     "186",
+     "230",
+     "0,89",
+     "1,06",
+     "1,02",
+     "263",
+     "715",
+     "978",
+     "1,01",
+     "1,28",
+     "1,20"
+    ],
+    [
+     "1861",
+     "48",
+     "187",
+     "235",
+     "1,03",
+     "1,05",
+     "1,05",
+     "231",
+     "664",
+     "895",
+     "0,87",
+     "1,17",
+     "1,07"
+    ],
+    [
+     "1862",
+     "28",
+     "141",
+     "169",
+     "0,60",
+     "0,80",
+     "0,76",
+     "198",
+     "536",
+     "734",
+     "0,74",
+     "0,95",
+     "0,88"
+    ],
+    [
+     "1863",
+     "32",
+     "174",
+     "206",
+     "0,68",
+     "0,99",
+     "0,92",
+     "190",
+     "642",
+     "832",
+     "0,71",
+     "1,13",
+     "1,00"
+    ],
+    [
+     "1864",
+     "62",
+     "178",
+     "240",
+     "1,34",
+     "1,00",
+     "1,07",
+     "265",
+     "739",
+     "1004",
+     "0,95",
+     "1,26",
+     "1,16"
+    ],
+    [
+     "1865",
+     "42",
+     "187",
+     "229",
+     "0,90",
+     "1,03",
+     "1,02",
+     "175",
+     "655",
+     "830",
+     "0,63",
+     "1,11",
+     "0,95"
+    ],
+    [
+     "1866",
+     "49",
+     "187",
+     "236",
+     "1,05",
+     "1,02",
+     "1,03",
+     "213",
+     "679",
+     "892",
+     "0,75",
+     "1,13",
+     "1,01"
+    ],
+    [
+     "1867",
+     "46",
+     "134",
+     "180",
+     "0,91",
+     "0,76",
+     "0,80",
+     "206",
+     "619",
+     "825",
+     "0,71",
+     "1,05",
+     "0,94"
+    ],
+    [
+     "Durchschn. 1858-97",
+     "43,9",
+     "167,7",
+     "211,6",
+     "0,91",
+     "0,94",
+     "0,94",
+     "217,4",
+     "637,4",
+     "854,8",
+     "0,80",
+     "1,11",
+     "1,01"
+    ]
+   ],
+   "caption": null,
+   "sec": "t1-2-1"
+  }
+ ],
+ "footnotes": [],
+ "corrections": [
+  {
+   "rule": "table_multirow_header",
+   "rows": 2,
+   "block": "b5"
+  }
+ ],
+ "provenance": {
+  "source": "colab-2026-03",
+  "model": "gemini-3-flash-preview",
+  "timestamp": "2026-03-03T15:13:59.212490",
+  "early_schema": false
+ },
+ "section_path": [
+  "t1",
+  "t1-2",
+  "t1-2-1"
+ ],
+ "sections": [
+  "t1-2-1"
+ ]
+}

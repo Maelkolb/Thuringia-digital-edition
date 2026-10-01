@@ -1,0 +1,942 @@
+{
+ "seq": 127,
+ "label": "115",
+ "slug": "115",
+ "iiif": {
+  "service": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb11005578_00127",
+  "canvas": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11005578/canvas/127",
+  "width": 1599,
+  "height": 2689
+ },
+ "kind": "text",
+ "running_header": "1. Statistik.",
+ "signature": "8*",
+ "blocks": [
+  {
+   "id": "b1",
+   "type": "table",
+   "src": 0,
+   "n_cols": 4,
+   "header_rows": 1,
+   "rows": [
+    {
+     "role": "header",
+     "cells": [
+      {
+       "text": "Jahre.",
+       "spans": []
+      },
+      {
+       "text": "Einwohner.",
+       "spans": []
+      },
+      {
+       "text": "Gestorbene.",
+       "spans": []
+      },
+      {
+       "text": "in Procenten.",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1794",
+       "spans": []
+      },
+      {
+       "text": "14279",
+       "spans": []
+      },
+      {
+       "text": "342",
+       "spans": []
+      },
+      {
+       "text": "2,39",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1795",
+       "spans": []
+      },
+      {
+       "text": "14394",
+       "spans": []
+      },
+      {
+       "text": "440",
+       "spans": []
+      },
+      {
+       "text": "3,05",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1796",
+       "spans": []
+      },
+      {
+       "text": "14455",
+       "spans": []
+      },
+      {
+       "text": "476",
+       "spans": []
+      },
+      {
+       "text": "3,29",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1797",
+       "spans": []
+      },
+      {
+       "text": "14475",
+       "spans": []
+      },
+      {
+       "text": "538",
+       "spans": []
+      },
+      {
+       "text": "3,70",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1798",
+       "spans": []
+      },
+      {
+       "text": "14597",
+       "spans": []
+      },
+      {
+       "text": "469",
+       "spans": []
+      },
+      {
+       "text": "3,21",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1799",
+       "spans": []
+      },
+      {
+       "text": "14765",
+       "spans": []
+      },
+      {
+       "text": "405",
+       "spans": []
+      },
+      {
+       "text": "2,74",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1800",
+       "spans": []
+      },
+      {
+       "text": "14396",
+       "spans": []
+      },
+      {
+       "text": "980",
+       "spans": []
+      },
+      {
+       "text": "6,80",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1801",
+       "spans": []
+      },
+      {
+       "text": "14516",
+       "spans": []
+      },
+      {
+       "text": "462",
+       "spans": []
+      },
+      {
+       "text": "3,18",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1802",
+       "spans": []
+      },
+      {
+       "text": "14699",
+       "spans": []
+      },
+      {
+       "text": "492",
+       "spans": []
+      },
+      {
+       "text": "3,34",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1803",
+       "spans": []
+      },
+      {
+       "text": "14900",
+       "spans": []
+      },
+      {
+       "text": "426",
+       "spans": []
+      },
+      {
+       "text": "2,86",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1804",
+       "spans": []
+      },
+      {
+       "text": "15204",
+       "spans": []
+      },
+      {
+       "text": "365",
+       "spans": []
+      },
+      {
+       "text": "2,40",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1794-1804",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "3,36",
+       "spans": []
+      }
+     ]
+    }
+   ],
+   "grid": [
+    [
+     "Jahre.",
+     "Einwohner.",
+     "Gestorbene.",
+     "in Procenten."
+    ],
+    [
+     "1794",
+     "14279",
+     "342",
+     "2,39"
+    ],
+    [
+     "1795",
+     "14394",
+     "440",
+     "3,05"
+    ],
+    [
+     "1796",
+     "14455",
+     "476",
+     "3,29"
+    ],
+    [
+     "1797",
+     "14475",
+     "538",
+     "3,70"
+    ],
+    [
+     "1798",
+     "14597",
+     "469",
+     "3,21"
+    ],
+    [
+     "1799",
+     "14765",
+     "405",
+     "2,74"
+    ],
+    [
+     "1800",
+     "14396",
+     "980",
+     "6,80"
+    ],
+    [
+     "1801",
+     "14516",
+     "462",
+     "3,18"
+    ],
+    [
+     "1802",
+     "14699",
+     "492",
+     "3,34"
+    ],
+    [
+     "1803",
+     "14900",
+     "426",
+     "2,86"
+    ],
+    [
+     "1804",
+     "15204",
+     "365",
+     "2,40"
+    ],
+    [
+     "1794-1804",
+     "—",
+     "—",
+     "3,36"
+    ]
+   ],
+   "caption": null,
+   "sec": "t1-2-1"
+  },
+  {
+   "id": "b2",
+   "type": "paragraph",
+   "src": 1,
+   "text": "Das Verhältnis der Sterblichkeit des Fürstenthums zu den übrigen thüringischen Staaten ist kein günstiges, dagegen ein mittleres in Bezug auf andere europäische Länder, wie die folgenden Zusammenstellungen ausweisen. Es kommt nämlich ein Sterbefall in:",
+   "spans": [],
+   "sec": "t1-2-1"
+  },
+  {
+   "id": "b3",
+   "type": "list",
+   "src": 2,
+   "items": [
+    {
+     "text": "S.-Altenburg . . . . . . . . . . . . . . auf 34,72 Einwohner.",
+     "spans": [
+      [
+       0,
+       12,
+       "Location"
+      ]
+     ]
+    },
+    {
+     "text": "Reuß j. L. . . . . . . . . . . . . . \" 36,36 \"",
+     "spans": [
+      [
+       0,
+       10,
+       "Location"
+      ]
+     ]
+    },
+    {
+     "text": "S.-Coburg . . . . . . . . . . . . . . \" 41,08 \"",
+     "spans": [
+      [
+       0,
+       9,
+       "Location"
+      ]
+     ]
+    },
+    {
+     "text": "S.-Gotha . . . . . . . . . . . . . . . \" 41,32 \"",
+     "spans": [
+      [
+       0,
+       8,
+       "Location"
+      ]
+     ]
+    },
+    {
+     "text": "S.-Weimar . . . . . . . . . . . . . . \" 41,66 \"",
+     "spans": [
+      [
+       0,
+       9,
+       "Location"
+      ]
+     ]
+    },
+    {
+     "text": "S.-Meiningen . . . . . . . . . . . . . \" 43,10 \"",
+     "spans": [
+      [
+       0,
+       12,
+       "Location"
+      ]
+     ]
+    },
+    {
+     "text": "Schwarzburg-Rudolstadt . . . . . . . . \" 44,44 \"",
+     "spans": [
+      [
+       0,
+       22,
+       "Location"
+      ]
+     ]
+    },
+    {
+     "text": "Schwarzburg-Sondershausen . . . . . . . \" 45,04 \"",
+     "spans": [
+      [
+       0,
+       25,
+       "Location"
+      ]
+     ]
+    },
+    {
+     "text": "Oesterreich . . . . . . . . . . . . . . \" 29,72 \"",
+     "spans": [
+      [
+       0,
+       11,
+       "Location"
+      ]
+     ]
+    },
+    {
+     "text": "Würtemberg . . . . . . . . . . . . . . \" 31,99 \"",
+     "spans": [
+      [
+       0,
+       10,
+       "Location"
+      ]
+     ]
+    },
+    {
+     "text": "Preußen . . . . . . . . . . . . . . . \" 33,85 \"",
+     "spans": [
+      [
+       0,
+       7,
+       "Location"
+      ]
+     ]
+    },
+    {
+     "text": "Sachsen . . . . . . . . . . . . . . . \" 34,12 \"",
+     "spans": [
+      [
+       0,
+       7,
+       "Location"
+      ]
+     ]
+    },
+    {
+     "text": "Hannover . . . . . . . . . . . . . . . \" 40,89 \"",
+     "spans": [
+      [
+       0,
+       8,
+       "Location"
+      ]
+     ]
+    },
+    {
+     "text": "Frankreich . . . . . . . . . . . . . . \" 41,13 \"",
+     "spans": [
+      [
+       0,
+       10,
+       "Location"
+      ]
+     ]
+    },
+    {
+     "text": "Dänemark . . . . . . . . . . . . . . \" 45,00 \"",
+     "spans": [
+      [
+       0,
+       8,
+       "Location"
+      ]
+     ]
+    },
+    {
+     "text": "Norwegen . . . . . . . . . . . . . . \" 51,77 \"",
+     "spans": [
+      [
+       0,
+       8,
+       "Location"
+      ]
+     ]
+    }
+   ],
+   "sec": "t1-2-1"
+  },
+  {
+   "id": "b4",
+   "type": "heading",
+   "src": 3,
+   "text": "Gestorbene nach dem Geschlecht:",
+   "spans": [],
+   "sec": "t1-2-1",
+   "level": 5
+  },
+  {
+   "id": "b5",
+   "type": "table",
+   "src": 4,
+   "n_cols": 9,
+   "header_rows": 3,
+   "rows": [
+    {
+     "role": "header",
+     "cells": [
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "Gestorbene",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "Procente der",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "Gestorbene",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "Procente der",
+       "spans": [],
+       "colspan": 2
+      }
+     ]
+    },
+    {
+     "role": "header",
+     "cells": [
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "männl.",
+       "spans": []
+      },
+      {
+       "text": "weibl.",
+       "spans": []
+      },
+      {
+       "text": "m. Bev.",
+       "spans": []
+      },
+      {
+       "text": "w. Bev.",
+       "spans": []
+      },
+      {
+       "text": "männl.",
+       "spans": []
+      },
+      {
+       "text": "weibl.",
+       "spans": []
+      },
+      {
+       "text": "m. Bev.",
+       "spans": []
+      },
+      {
+       "text": "w. Bev.",
+       "spans": [],
+       "rowspan": 2
+      }
+     ]
+    },
+    {
+     "role": "header",
+     "cells": [
+      {
+       "text": "Durchschn. von 1858-67",
+       "spans": []
+      },
+      {
+       "text": "Bezirk Gera.",
+       "spans": [
+        [
+         0,
+         11,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "Bezirk Schleiz.",
+       "spans": [
+        [
+         0,
+         14,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "520,1",
+       "spans": []
+      },
+      {
+       "text": "468,5",
+       "spans": []
+      },
+      {
+       "text": "2,87",
+       "spans": []
+      },
+      {
+       "text": "2,59",
+       "spans": []
+      },
+      {
+       "text": "407,3",
+       "spans": []
+      },
+      {
+       "text": "375,7",
+       "spans": []
+      },
+      {
+       "text": "3,08",
+       "spans": []
+      },
+      {
+       "text": "2,76",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "total",
+     "cells": [
+      {
+       "text": "Durchschn. von 1858-67",
+       "spans": []
+      },
+      {
+       "text": "Bez. Lobenstein-Ebersdorf.",
+       "spans": [
+        [
+         0,
+         25,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "Fürstenthum.",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": [],
+       "empty": true
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "325,0",
+       "spans": []
+      },
+      {
+       "text": "309,3",
+       "spans": []
+      },
+      {
+       "text": "3,03",
+       "spans": []
+      },
+      {
+       "text": "2,62",
+       "spans": []
+      },
+      {
+       "text": "1256,4",
+       "spans": []
+      },
+      {
+       "text": "1156,8",
+       "spans": []
+      },
+      {
+       "text": "2,99",
+       "spans": []
+      },
+      {
+       "text": "2,75",
+       "spans": []
+      }
+     ]
+    }
+   ],
+   "grid": [
+    [
+     "",
+     "Gestorbene",
+     "",
+     "Procente der",
+     "",
+     "Gestorbene",
+     "",
+     "Procente der",
+     ""
+    ],
+    [
+     "",
+     "männl.",
+     "weibl.",
+     "m. Bev.",
+     "w. Bev.",
+     "männl.",
+     "weibl.",
+     "m. Bev.",
+     "w. Bev."
+    ],
+    [
+     "Durchschn. von 1858-67",
+     "Bezirk Gera.",
+     "",
+     "",
+     "",
+     "Bezirk Schleiz.",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "520,1",
+     "468,5",
+     "2,87",
+     "2,59",
+     "407,3",
+     "375,7",
+     "3,08",
+     "2,76"
+    ],
+    [
+     "Durchschn. von 1858-67",
+     "Bez. Lobenstein-Ebersdorf.",
+     "",
+     "",
+     "",
+     "Fürstenthum.",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "325,0",
+     "309,3",
+     "3,03",
+     "2,62",
+     "1256,4",
+     "1156,8",
+     "2,99",
+     "2,75"
+    ]
+   ],
+   "caption": null,
+   "sec": "t1-2-1"
+  },
+  {
+   "id": "b6",
+   "type": "paragraph",
+   "src": 5,
+   "text": "Wie in allen anderen Staaten, so wird auch hier im Einzelnen und im Ganzen das Gesetz bestätigt, daß auf Seiten der männlichen Bevölkerung die Sterblichkeit größer ist als auf Seiten der weiblichen. Für das von Lebens=",
+   "spans": [],
+   "continues": true,
+   "sec": "t1-2-1"
+  }
+ ],
+ "footnotes": [],
+ "corrections": [
+  {
+   "rule": "table_pad_ragged_rows",
+   "block": "b5"
+  },
+  {
+   "rule": "table_multirow_header",
+   "rows": 3,
+   "block": "b5"
+  },
+  {
+   "rule": "signature_from_paragraph",
+   "value": "8*"
+  }
+ ],
+ "provenance": {
+  "source": "colab-2026-03",
+  "model": "gemini-3-flash-preview",
+  "timestamp": "2026-03-03T15:15:11.239512",
+  "early_schema": false
+ },
+ "section_path": [
+  "t1",
+  "t1-2",
+  "t1-2-1"
+ ],
+ "sections": [
+  "t1-2-1"
+ ]
+}

@@ -1,0 +1,846 @@
+{
+ "id": "wohnen-wohnhaeuser-wohndichte-1867",
+ "title": {
+  "de": "Wohnhäuser und Wohndichte 1867",
+  "en": "Dwellings and housing density, 1867"
+ },
+ "category": "housing",
+ "section": "t1-2-1",
+ "sources": [
+  {
+   "page": "94",
+   "block": "b3",
+   "rows": "r4-r7"
+  },
+  {
+   "page": "94",
+   "block": "b4"
+  },
+  {
+   "page": "95",
+   "block": "b1"
+  },
+  {
+   "page": "95",
+   "block": "b2"
+  }
+ ],
+ "summary": {
+  "de": "Für 1867 gibt Brückner die bewohnten Häuser der Landestheile, getrennt nach Städten und Landorten, die Zahl der Familien und Einwohner je Wohnhaus sowie die Häuser je Quadratmeile im Vergleich mit anderen Ländern an. Das städtische Haus beherbergt mit 11,5 Personen deutlich mehr Menschen als das ländliche (7,0), am meisten in Gera (15,0).",
+  "en": "For 1867 Brückner gives the inhabited houses of the districts, separated into towns and rural places, the number of families and inhabitants per dwelling house, and the houses per square mile in comparison with other countries. The urban house holds 11.5 persons on average, markedly more than the rural one (7.0), most of all in Gera (15.0)."
+ },
+ "method": {
+  "de": "Übernommen wurden die Tabelle »Bevölkerungsdichtigkeit in Bezug auf die Wohnungen« (S. 94), die Häuser je ☐Meile für die Landestheile (S. 95, Textblock) und die Vergleichszahlen anderer Länder (S. 95; Durchschnittswerte Thüringens, Bayerns und Sachsens aus dem Text auf S. 94). Die Häuser je ☐Meile wurden zusätzlich in Häuser je km² umgerechnet (1 ☐Meile = 55,06 km², siehe die Analyse zur Bevölkerungsdichte). Kontrolle: Städtische und ländliche Häuser ergeben je Landestheil die Gesamtzahl; die Summe der drei Landestheile ergibt 10 962 Häuser; Einwohner : Häuser reproduziert die gedruckten Zahlen (z. B. Gera 38 252 : 4 022 = 9,51). Die Häuser je ☐Meile folgen aus Häusern : Fläche (Gera 4 022 : 4,03 = 998,0).",
+  "en": "Taken over are the table “population density with regard to dwellings” (p. 94), the houses per square mile for the districts (p. 95, text block) and the figures for other countries (p. 95; the Thuringian, Bavarian and Saxon averages come from the running text on p. 94). Houses per square mile were additionally converted to houses per km² (1 square mile = 55.06 km², see the analysis of population density). Checks: urban and rural houses add up to the total of each district; the three districts add up to 10,962 houses; inhabitants ÷ houses reproduces the printed figures (e.g. Gera 38,252 ÷ 4,022 = 9.51). Houses per square mile follow from houses ÷ area (Gera 4,022 ÷ 4.03 = 998.0)."
+ },
+ "findings": [
+  {
+   "de": "Auf ein Wohnhaus kommen im Fürstenthum 8,02 Einwohner und 1,72 Familien; in den Städten sind es 11,51 Einwohner und 2,51 Familien, auf dem Land 6,96 und 1,48.",
+   "en": "In the principality a dwelling house holds 8.02 inhabitants and 1.72 families; in the towns the figures are 11.51 inhabitants and 2.51 families, in the countryside 6.96 and 1.48."
+  },
+  {
+   "de": "Gera fällt heraus: In der Stadt wohnen im Mittel 14,99 Personen in 3,19 Familien in einem Haus, in den Städten von Schleiz (8,78) und Lobenstein-Ebersdorf (8,92) sind es knapp 9. Brückner erklärt dies mit der größeren Stockwerkzahl der Geraer Häuser.",
+   "en": "Gera stands out: in the town an average of 14.99 persons in 3.19 families share a house, in the towns of Schleiz (8.78) and Lobenstein-Ebersdorf (8.92) it is just under 9. Brückner explains this by the greater number of storeys of Gera's houses."
+  },
+  {
+   "de": "Je ☐Meile stehen im Fürstenthum 727,9 Häuser, im Bezirk Gera 998,0, in Lobenstein-Ebersdorf 638,4 und in Schleiz 621,5. Mehr Häuser je ☐Meile als das Fürstenthum haben Belgien (1 556) und Sachsen (869), weniger Coburg-Gotha (665), Baden (647), Württemberg (613), beide Schwarzburg (573) und Bayern (447); der Bezirk Gera allein übertrifft Sachsen.",
+   "en": "There are 727.9 houses per square mile in the principality, 998.0 in the district of Gera, 638.4 in Lobenstein-Ebersdorf and 621.5 in Schleiz. Belgium (1,556) and Saxony (869) have more houses per square mile than the principality, Coburg-Gotha (665), Baden (647), Württemberg (613), both Schwarzburgs (573) and Bavaria (447) fewer; the district of Gera alone exceeds Saxony."
+  },
+  {
+   "de": "Mit 8,02 Personen je Haus ist die Wohndichte höher als im thüringischen Durchschnitt (6,60) und in Bayern (6,73), aber etwas niedriger als in Sachsen (8,86).",
+   "en": "At 8.02 persons per house, housing density is higher than the Thuringian average (6.60) and Bavaria (6.73) but somewhat lower than in Saxony (8.86)."
+  }
+ ],
+ "caveats": [
+  {
+   "de": "Brückner nennt keine Quelle für die Vergleichszahlen anderer Länder und kein Jahr; »Wohnhaus« und »Familie« sind nach den jeweiligen Zählregeln definiert und nicht notwendig vergleichbar. Gemeint ist das Haus, nicht die Wohnung (trotz der Tabellenüberschrift »Wohnungen«).",
+   "en": "Brückner names no source or year for the figures of other countries; “dwelling house” and “family” follow the respective census rules and are not necessarily comparable. The unit is the house, not the flat (despite the heading “Wohnungen”)."
+  },
+  {
+   "de": "Die Städte-Spalte zählt nur die sechs Städte des Landes (Gera; Schleiz, Saalburg, Tanna; Lobenstein, Hirschberg); der Unterschied Stadt–Land ist deshalb stark von Gera geprägt.",
+   "en": "The towns column covers only the six towns of the country (Gera; Schleiz, Saalburg, Tanna; Lobenstein, Hirschberg); the town–country contrast is therefore strongly shaped by Gera."
+  }
+ ],
+ "conversions": [
+  {
+   "from": "☐Meile (geographische Quadratmeile)",
+   "to": "km²",
+   "factor_or_formula": "1 ☐Meile = 55.06 km²",
+   "reference": "Brückner S. 832: 1 geographische Meile = 0,9894 künftige Meile (zu 7500 m); Annahme: geographische Meile"
+  }
+ ],
+ "datasets": [
+  {
+   "name": "houses",
+   "title": {
+    "de": "Bewohnte Häuser, Familien und Einwohner je Wohnhaus",
+    "en": "Inhabited houses, families and inhabitants per dwelling house"
+   },
+   "columns": [
+    {
+     "name": "district",
+     "label": {
+      "de": "Landestheil",
+      "en": "District"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "settlement",
+     "label": {
+      "de": "Siedlungsart",
+      "en": "Settlement type"
+     },
+     "type": "string",
+     "unit": null,
+     "note": "Städte, Landorte, Zusammen"
+    },
+    {
+     "name": "houses",
+     "label": {
+      "de": "Bewohnte Häuser",
+      "en": "Inhabited houses"
+     },
+     "type": "integer",
+     "unit": "Häuser"
+    },
+    {
+     "name": "families_per_house",
+     "label": {
+      "de": "Familien je Wohnhaus",
+      "en": "Families per house"
+     },
+     "type": "number",
+     "unit": "Familien"
+    },
+    {
+     "name": "persons_per_house",
+     "label": {
+      "de": "Einwohner je Wohnhaus",
+      "en": "Inhabitants per house"
+     },
+     "type": "number",
+     "unit": "Personen"
+    }
+   ],
+   "rows": [
+    [
+     "Gera",
+     "Städte",
+     1086,
+     3.19,
+     14.99
+    ],
+    [
+     "Gera",
+     "Landorte",
+     2936,
+     1.54,
+     7.48
+    ],
+    [
+     "Gera",
+     "Zusammen",
+     4022,
+     1.99,
+     9.51
+    ],
+    [
+     "Schleiz",
+     "Städte",
+     907,
+     2.08,
+     8.78
+    ],
+    [
+     "Schleiz",
+     "Landorte",
+     2841,
+     1.47,
+     6.83
+    ],
+    [
+     "Schleiz",
+     "Zusammen",
+     3748,
+     1.66,
+     7.3
+    ],
+    [
+     "Lobenstein-Ebersdorf",
+     "Städte",
+     563,
+     1.88,
+     8.92
+    ],
+    [
+     "Lobenstein-Ebersdorf",
+     "Landorte",
+     2629,
+     1.43,
+     6.72
+    ],
+    [
+     "Lobenstein-Ebersdorf",
+     "Zusammen",
+     3192,
+     1.5,
+     7.0
+    ],
+    [
+     "Fürstenthum",
+     "Städte",
+     2556,
+     2.51,
+     11.51
+    ],
+    [
+     "Fürstenthum",
+     "Landorte",
+     8406,
+     1.48,
+     6.96
+    ],
+    [
+     "Fürstenthum",
+     "Zusammen",
+     10962,
+     1.72,
+     8.02
+    ]
+   ],
+   "source_refs": [
+    {
+     "page": "94",
+     "block": "b3",
+     "rows": "r4-r7"
+    }
+   ]
+  },
+  {
+   "name": "houses_per_sqm",
+   "title": {
+    "de": "Häuser je Quadratmeile",
+    "en": "Houses per square mile"
+   },
+   "columns": [
+    {
+     "name": "place",
+     "label": {
+      "de": "Gebiet",
+      "en": "Area"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "group",
+     "label": {
+      "de": "Gruppe",
+      "en": "Group"
+     },
+     "type": "string",
+     "unit": null,
+     "derived": true,
+     "note": "Reuß j. L. gegenüber den übrigen Ländern (editorisch)"
+    },
+    {
+     "name": "houses_per_sqm",
+     "label": {
+      "de": "Häuser je ☐Meile",
+      "en": "Houses per square mile"
+     },
+     "type": "number",
+     "unit": "Häuser/☐Meile"
+    },
+    {
+     "name": "houses_per_km2",
+     "label": {
+      "de": "Häuser je km²",
+      "en": "Houses per km²"
+     },
+     "type": "number",
+     "unit": "Häuser/km²",
+     "derived": true
+    }
+   ],
+   "rows": [
+    [
+     "Gera",
+     "Reuß j. L.",
+     998.0,
+     18.1
+    ],
+    [
+     "Schleiz",
+     "Reuß j. L.",
+     621.5,
+     11.3
+    ],
+    [
+     "Lobenstein-Ebersdorf",
+     "Reuß j. L.",
+     638.4,
+     11.6
+    ],
+    [
+     "Fürstenthum",
+     "Reuß j. L.",
+     727.9,
+     13.2
+    ],
+    [
+     "Belgien",
+     "übrige",
+     1556.0,
+     28.3
+    ],
+    [
+     "Baden",
+     "übrige",
+     647.0,
+     11.8
+    ],
+    [
+     "Sachsen",
+     "übrige",
+     869.0,
+     15.8
+    ],
+    [
+     "Württemberg",
+     "übrige",
+     613.0,
+     11.1
+    ],
+    [
+     "Beide Schwarzburg",
+     "übrige",
+     573.0,
+     10.4
+    ],
+    [
+     "Coburg-Gotha",
+     "übrige",
+     665.0,
+     12.1
+    ],
+    [
+     "Bayern",
+     "übrige",
+     447.0,
+     8.1
+    ]
+   ],
+   "source_refs": [
+    {
+     "page": "95",
+     "block": "b1"
+    },
+    {
+     "page": "95",
+     "block": "b2"
+    }
+   ]
+  },
+  {
+   "name": "persons_per_house_compare",
+   "title": {
+    "de": "Einwohner je Wohnhaus im Vergleich",
+    "en": "Inhabitants per dwelling house, comparison"
+   },
+   "columns": [
+    {
+     "name": "region",
+     "label": {
+      "de": "Gebiet",
+      "en": "Region"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "group",
+     "label": {
+      "de": "Gruppe",
+      "en": "Group"
+     },
+     "type": "string",
+     "unit": null,
+     "derived": true,
+     "note": "Reuß j. L. gegenüber den übrigen Gebieten (editorisch)"
+    },
+    {
+     "name": "persons_per_house",
+     "label": {
+      "de": "Einwohner je Wohnhaus",
+      "en": "Inhabitants per house"
+     },
+     "type": "number",
+     "unit": "Personen"
+    }
+   ],
+   "rows": [
+    [
+     "Thüringen (Durchschnitt)",
+     "übrige",
+     6.6
+    ],
+    [
+     "Bayern",
+     "übrige",
+     6.73
+    ],
+    [
+     "Fürstenthum Reuß j. L.",
+     "Reuß j. L.",
+     8.02
+    ],
+    [
+     "Sachsen",
+     "übrige",
+     8.86
+    ]
+   ],
+   "source_refs": [
+    {
+     "page": "94",
+     "block": "b4"
+    },
+    {
+     "page": "94",
+     "block": "b3",
+     "rows": "r7"
+    }
+   ]
+  }
+ ],
+ "charts": [
+  {
+   "id": "c1",
+   "dataset": "houses",
+   "title": {
+    "de": "Einwohner je Wohnhaus 1867",
+    "en": "Inhabitants per dwelling house, 1867"
+   },
+   "caption": {
+    "de": "Durchschnittliche Zahl der Einwohner eines Wohnhauses in den Städten, den Landorten und insgesamt.",
+    "en": "Average number of inhabitants of a dwelling house in the towns, the rural places and overall."
+   },
+   "vegalite": {
+    "height": 300,
+    "transform": [
+     {
+      "calculate": {
+       "de": "({'Gera':'Gera','Schleiz':'Schleiz','Lobenstein-Ebersdorf':'Lobenstein-Ebersdorf','Fürstenthum':'Fürstenthum'})[datum.district]",
+       "en": "({'Gera':'Gera','Schleiz':'Schleiz','Lobenstein-Ebersdorf':'Lobenstein-Ebersdorf','Fürstenthum':'Principality'})[datum.district]"
+      },
+      "as": "district_label"
+     }
+    ],
+    "mark": "bar",
+    "encoding": {
+     "x": {
+      "field": "district",
+      "type": "nominal",
+      "title": null,
+      "scale": {
+       "domain": [
+        "Gera",
+        "Schleiz",
+        "Lobenstein-Ebersdorf",
+        "Fürstenthum"
+       ]
+      },
+      "axis": {
+       "labelAngle": 0,
+       "labelExpr": {
+        "de": "datum.label",
+        "en": "datum.label == 'Fürstenthum' ? 'Principality' : datum.label"
+       }
+      }
+     },
+     "xOffset": {
+      "field": "settlement",
+      "type": "nominal",
+      "scale": {
+       "domain": [
+        "Städte",
+        "Landorte",
+        "Zusammen"
+       ]
+      }
+     },
+     "y": {
+      "field": "persons_per_house",
+      "type": "quantitative",
+      "title": {
+       "de": "Einwohner je Haus",
+       "en": "Inhabitants per house"
+      }
+     },
+     "color": {
+      "field": "settlement",
+      "type": "nominal",
+      "scale": {
+       "domain": [
+        "Städte",
+        "Landorte",
+        "Zusammen"
+       ]
+      },
+      "legend": {
+       "title": null,
+       "labelExpr": {
+        "de": "datum.label",
+        "en": "datum.label == 'Städte' ? 'Towns' : datum.label == 'Landorte' ? 'Rural places' : 'Overall'"
+       }
+      }
+     },
+     "tooltip": [
+      {
+       "field": "district_label",
+       "title": {
+        "de": "Landestheil",
+        "en": "District"
+       }
+      },
+      {
+       "field": "settlement",
+       "title": {
+        "de": "Siedlungsart",
+        "en": "Settlement"
+       }
+      },
+      {
+       "field": "persons_per_house",
+       "title": {
+        "de": "Einwohner je Haus",
+        "en": "Inhabitants per house"
+       },
+       "format": ".2f"
+      },
+      {
+       "field": "families_per_house",
+       "title": {
+        "de": "Familien je Haus",
+        "en": "Families per house"
+       },
+       "format": ".2f"
+      },
+      {
+       "field": "houses",
+       "title": {
+        "de": "Bewohnte Häuser",
+        "en": "Inhabited houses"
+       },
+       "format": ","
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "c2",
+   "dataset": "houses",
+   "title": {
+    "de": "Familien je Wohnhaus 1867",
+    "en": "Families per dwelling house, 1867"
+   },
+   "caption": {
+    "de": "Durchschnittliche Zahl der Familien (Haushalte) in einem Wohnhaus; in Gera wohnen in der Stadt im Mittel mehr als drei Familien in einem Haus.",
+    "en": "Average number of families (households) in a dwelling house; in the town of Gera more than three families share a house on average."
+   },
+   "vegalite": {
+    "height": 280,
+    "transform": [
+     {
+      "calculate": {
+       "de": "({'Gera':'Gera','Schleiz':'Schleiz','Lobenstein-Ebersdorf':'Lobenstein-Ebersdorf','Fürstenthum':'Fürstenthum'})[datum.district]",
+       "en": "({'Gera':'Gera','Schleiz':'Schleiz','Lobenstein-Ebersdorf':'Lobenstein-Ebersdorf','Fürstenthum':'Principality'})[datum.district]"
+      },
+      "as": "district_label"
+     }
+    ],
+    "mark": "bar",
+    "encoding": {
+     "x": {
+      "field": "district",
+      "type": "nominal",
+      "title": null,
+      "scale": {
+       "domain": [
+        "Gera",
+        "Schleiz",
+        "Lobenstein-Ebersdorf",
+        "Fürstenthum"
+       ]
+      },
+      "axis": {
+       "labelAngle": 0,
+       "labelExpr": {
+        "de": "datum.label",
+        "en": "datum.label == 'Fürstenthum' ? 'Principality' : datum.label"
+       }
+      }
+     },
+     "xOffset": {
+      "field": "settlement",
+      "type": "nominal",
+      "scale": {
+       "domain": [
+        "Städte",
+        "Landorte",
+        "Zusammen"
+       ]
+      }
+     },
+     "y": {
+      "field": "families_per_house",
+      "type": "quantitative",
+      "title": {
+       "de": "Familien je Haus",
+       "en": "Families per house"
+      }
+     },
+     "color": {
+      "field": "settlement",
+      "type": "nominal",
+      "scale": {
+       "domain": [
+        "Städte",
+        "Landorte",
+        "Zusammen"
+       ]
+      },
+      "legend": {
+       "title": null,
+       "labelExpr": {
+        "de": "datum.label",
+        "en": "datum.label == 'Städte' ? 'Towns' : datum.label == 'Landorte' ? 'Rural places' : 'Overall'"
+       }
+      }
+     },
+     "tooltip": [
+      {
+       "field": "district_label",
+       "title": {
+        "de": "Landestheil",
+        "en": "District"
+       }
+      },
+      {
+       "field": "settlement",
+       "title": {
+        "de": "Siedlungsart",
+        "en": "Settlement"
+       }
+      },
+      {
+       "field": "families_per_house",
+       "title": {
+        "de": "Familien je Haus",
+        "en": "Families per house"
+       },
+       "format": ".2f"
+      },
+      {
+       "field": "persons_per_house",
+       "title": {
+        "de": "Einwohner je Haus",
+        "en": "Inhabitants per house"
+       },
+       "format": ".2f"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "c3",
+   "dataset": "houses_per_sqm",
+   "title": {
+    "de": "Häuser je Quadratmeile im Vergleich",
+    "en": "Houses per square mile in comparison"
+   },
+   "caption": {
+    "de": "Zahl der Häuser auf 1 ☐Meile in den Landestheilen und im Fürstenthum Reuß j. L. (hervorgehoben) sowie in anderen Ländern.",
+    "en": "Number of houses per square mile in the districts and in the Principality of Reuss j. L. (highlighted) and in other countries."
+   },
+   "vegalite": {
+    "height": 340,
+    "transform": [
+     {
+      "calculate": {
+       "de": "({'Gera':'Bezirk Gera','Schleiz':'Bezirk Schleiz','Lobenstein-Ebersdorf':'Bezirk Lobenstein-Ebersdorf','Fürstenthum':'Reuß j. L. (Fürstenthum)','Belgien':'Belgien','Baden':'Baden','Sachsen':'Sachsen','Württemberg':'Württemberg','Beide Schwarzburg':'Beide Schwarzburg','Coburg-Gotha':'Coburg-Gotha','Bayern':'Bayern'})[datum.place]",
+       "en": "({'Gera':'Gera district','Schleiz':'Schleiz district','Lobenstein-Ebersdorf':'Lobenstein-Ebersdorf district','Fürstenthum':'Reuss j. L. (principality)','Belgien':'Belgium','Baden':'Baden','Sachsen':'Saxony','Württemberg':'Württemberg','Beide Schwarzburg':'Both Schwarzburgs','Coburg-Gotha':'Coburg-Gotha','Bayern':'Bavaria'})[datum.place]"
+      },
+      "as": "place_label"
+     }
+    ],
+    "mark": "bar",
+    "encoding": {
+     "y": {
+      "field": "place_label",
+      "type": "nominal",
+      "title": null,
+      "sort": "-x",
+      "axis": {
+       "labelLimit": 300
+      }
+     },
+     "x": {
+      "field": "houses_per_sqm",
+      "type": "quantitative",
+      "title": {
+       "de": "Häuser je ☐Meile",
+       "en": "Houses per square mile"
+      }
+     },
+     "color": {
+      "field": "group",
+      "type": "nominal",
+      "scale": {
+       "domain": [
+        "übrige",
+        "Reuß j. L."
+       ]
+      },
+      "legend": {
+       "title": null,
+       "labelExpr": {
+        "de": "datum.label == 'übrige' ? 'andere Länder' : 'Reuß j. L.'",
+        "en": "datum.label == 'übrige' ? 'other countries' : 'Reuss j. L.'"
+       }
+      }
+     },
+     "tooltip": [
+      {
+       "field": "place_label",
+       "title": {
+        "de": "Gebiet",
+        "en": "Area"
+       }
+      },
+      {
+       "field": "houses_per_sqm",
+       "title": {
+        "de": "Häuser je ☐Meile",
+        "en": "Houses per sq. mile"
+       },
+       "format": ",.1f"
+      },
+      {
+       "field": "houses_per_km2",
+       "title": {
+        "de": "Häuser je km²",
+        "en": "Houses per km²"
+       },
+       "format": ".1f"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "c4",
+   "dataset": "persons_per_house_compare",
+   "title": {
+    "de": "Einwohner je Wohnhaus im Vergleich",
+    "en": "Inhabitants per dwelling house in comparison"
+   },
+   "caption": {
+    "de": "Durchschnitt Thüringens, Bayern und Sachsen nach Brückners Text (S. 94) gegenüber dem Fürstenthum Reuß j. L. (1867).",
+    "en": "Thuringian average, Bavaria and Saxony according to Brückner's text (p. 94) compared with the Principality of Reuss j. L. (1867)."
+   },
+   "vegalite": {
+    "height": 200,
+    "transform": [
+     {
+      "calculate": {
+       "de": "({'Thüringen (Durchschnitt)':'Thüringen (Durchschnitt)','Bayern':'Bayern','Fürstenthum Reuß j. L.':'Reuß j. L.','Sachsen':'Sachsen'})[datum.region]",
+       "en": "({'Thüringen (Durchschnitt)':'Thuringia (average)','Bayern':'Bavaria','Fürstenthum Reuß j. L.':'Reuss j. L.','Sachsen':'Saxony'})[datum.region]"
+      },
+      "as": "region_label"
+     }
+    ],
+    "mark": "bar",
+    "encoding": {
+     "y": {
+      "field": "region_label",
+      "type": "nominal",
+      "title": null,
+      "sort": "-x",
+      "axis": {
+       "labelLimit": 300
+      }
+     },
+     "x": {
+      "field": "persons_per_house",
+      "type": "quantitative",
+      "title": {
+       "de": "Einwohner je Haus",
+       "en": "Inhabitants per house"
+      }
+     },
+     "color": {
+      "field": "group",
+      "type": "nominal",
+      "scale": {
+       "domain": [
+        "übrige",
+        "Reuß j. L."
+       ]
+      },
+      "legend": null
+     },
+     "tooltip": [
+      {
+       "field": "region_label",
+       "title": {
+        "de": "Gebiet",
+        "en": "Region"
+       }
+      },
+      {
+       "field": "persons_per_house",
+       "title": {
+        "de": "Einwohner je Haus",
+        "en": "Inhabitants per house"
+       },
+       "format": ".2f"
+      }
+     ]
+    }
+   }
+  }
+ ],
+ "keywords": {
+  "de": [
+   "Wohnhäuser",
+   "Häuser",
+   "Wohndichte",
+   "Haushalte",
+   "Familien je Haus",
+   "Gera",
+   "Stadt und Land",
+   "Wohnverhältnisse"
+  ],
+  "en": [
+   "dwelling houses",
+   "houses",
+   "housing density",
+   "households",
+   "families per house",
+   "Gera",
+   "town and country",
+   "living conditions"
+  ]
+ },
+ "related": [
+  "bevoelkerung-dichte-1834-1867"
+ ],
+ "generated_by": "Claude Sonnet 5.5 (subagent A06)",
+ "date": "2026-10-01"
+}

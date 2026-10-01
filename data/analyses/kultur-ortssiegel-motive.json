@@ -1,0 +1,1254 @@
+{
+ "id": "kultur-ortssiegel-motive",
+ "title": {
+  "de": "Motive der Ortssiegel",
+  "en": "Motifs of the village seals"
+ },
+ "category": "culture",
+ "section": "t1-2-2",
+ "sources": [
+  {
+   "page": "124",
+   "block": "b3"
+  },
+  {
+   "page": "125",
+   "block": "b1"
+  }
+ ],
+ "summary": {
+  "de": "Brückner beschreibt die Siegel der Landgemeinden: Die größere Hälfte der Orte führt nur ein Schriftsiegel, die kleinere ein Bildersiegel. Er nennt 71 Dörfer mit Siegelbild und ordnet sie nach Motiven; die Zählung zeigt, dass Bäume (vor allem die Linde) das Bild beherrschen, gefolgt von Tieren, Landwirtschaft, Kirchen und Bauwerken.",
+  "en": "Brückner describes the seals of the rural communes: the larger half of the places has only a lettered seal, the smaller half a pictorial seal. He names 71 villages with a seal picture and arranges them by motif; the count shows that trees (above all the lime) dominate the picture, followed by animals, agriculture, churches and buildings."
+ },
+ "method": {
+  "de": "Die Namen der Orte und die Motive wurden aus den Aufzählungen S. 124 f. übernommen (die 22 Orte mit einem Baum und die sieben mit landwirtschaftlichen Bildern per Skript aus dem Text gelesen, die übrigen aus den Sätzen zusammengestellt; jeder Name wurde im Text geprüft). Die Einteilung in acht Motivklassen ist die des Bearbeiters. Die sechs Stadtwappen (Gera: Löwe, Schleiz: Auerstierkopf, Lobenstein: Bracke, Tanna: Tanne, Saalburg: Rathaus und Löwe, Hirschberg: Hirsch und Halbadler) sind nicht mitgezählt.",
+  "en": "The place names and motifs were taken from the enumerations on pp. 124 f. (the 22 places with one tree and the seven with agricultural pictures were read from the text by script, the others compiled from the sentences; every name was checked against the text). The division into eight motif classes is the analyst’s. The six town arms (Gera: lion, Schleiz: aurochs head, Lobenstein: hound’s head, Tanna: fir, Saalburg: town hall and lion, Hirschberg: stag and half-eagle) are not counted."
+ },
+ "findings": [
+  {
+   "de": "Von 71 Dörfern mit Siegelbild führen 32 einen oder mehrere Bäume im Siegel (22 einen Baum, 6 mehrere, 4 Baum und Tier); die Linde ist nach Brückner der häufigste Baum.",
+   "en": "Of 71 villages with a seal picture, 32 bear one or more trees in the seal (22 one tree, 6 several, 4 tree and animal); the lime is according to Brückner the commonest tree."
+  },
+  {
+   "de": "Tiere erscheinen in 13 Siegeln, darunter der Löwe in sieben (Frankenthal, Langengrobsdorf, Pöritzsch, Söllmnitz, Köstritz, Stublach, Langenwolschendorf); 7 Siegel zeigen landwirtschaftliche Geräte, 7 eine Kirche.",
+   "en": "Animals appear in 13 seals, among them the lion in seven (Frankenthal, Langengrobsdorf, Pöritzsch, Söllmnitz, Köstritz, Stublach, Langenwolschendorf); 7 seals show agricultural implements, 7 a church."
+  },
+  {
+   "de": "8 Siegelbilder (Kränze und Halbkränze, Anker, Sonne) nennt Brückner neuere Erfindungen »ohne allen historischen Werth«; alle übrigen stammen nach ihm aus früherer Zeit.",
+   "en": "8 seal pictures (wreaths and half wreaths, anchor, sun) Brückner calls recent inventions “without any historical value”; all the others date, according to him, from earlier times."
+  }
+ ],
+ "caveats": [
+  {
+   "de": "Die Liste ist Brückners Auswahl und nennt keine Zahl der Orte ohne Bild; die Angabe »größere Hälfte Schriftsiegel« ist nicht beziffert. Die Zuordnung zu Motivklassen vereinfacht (z. B. Langenwolschendorf: Löwe und Baum unter »Tier«, Göschitz: Bienenkorb und Baumstamm unter »Tier«).",
+   "en": "The list is Brückner’s selection and gives no number of places without a picture; the statement “larger half lettered seals” is not quantified. The assignment to motif classes simplifies (e.g. Langenwolschendorf: lion and tree under “animal”, Göschitz: beehive and tree trunk under “animal”)."
+  }
+ ],
+ "datasets": [
+  {
+   "name": "seals",
+   "title": {
+    "de": "Orte mit Siegelbild und Motiv",
+    "en": "Places with a seal picture and motif"
+   },
+   "columns": [
+    {
+     "name": "class_key",
+     "label": {
+      "de": "Motivklasse (Schlüssel)",
+      "en": "Motif class (key)"
+     },
+     "type": "string",
+     "unit": null,
+     "derived": true
+    },
+    {
+     "name": "class_de",
+     "label": {
+      "de": "Motivklasse (de)",
+      "en": "Motif class (de)"
+     },
+     "type": "string",
+     "unit": null,
+     "derived": true
+    },
+    {
+     "name": "class_en",
+     "label": {
+      "de": "Motivklasse (en)",
+      "en": "Motif class (en)"
+     },
+     "type": "string",
+     "unit": null,
+     "derived": true
+    },
+    {
+     "name": "age_de",
+     "label": {
+      "de": "Alter laut Brückner (de)",
+      "en": "Age according to Brückner (de)"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "age_en",
+     "label": {
+      "de": "Alter laut Brückner (en)",
+      "en": "Age according to Brückner (en)"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "place",
+     "label": {
+      "de": "Ort",
+      "en": "Place"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "motif_de",
+     "label": {
+      "de": "Motiv (de)",
+      "en": "Motif (de)"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "motif_en",
+     "label": {
+      "de": "Motiv (en)",
+      "en": "Motif (en)"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "page",
+     "label": {
+      "de": "Seite",
+      "en": "Page"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "block",
+     "label": {
+      "de": "Block",
+      "en": "Block"
+     },
+     "type": "string",
+     "unit": null
+    }
+   ],
+   "rows": [
+    [
+     "baum",
+     "Ein Baum",
+     "One tree",
+     "nach Brückner alt",
+     "old, according to Brückner",
+     "Dürrenebersdorf",
+     "Fichte",
+     "spruce",
+     "124",
+     "b3"
+    ],
+    [
+     "baum",
+     "Ein Baum",
+     "One tree",
+     "nach Brückner alt",
+     "old, according to Brückner",
+     "Ernsee",
+     "Palmbaum",
+     "palm tree",
+     "124",
+     "b3"
+    ],
+    [
+     "baum",
+     "Ein Baum",
+     "One tree",
+     "nach Brückner alt",
+     "old, according to Brückner",
+     "Grüna",
+     "Baum (meist Linde)",
+     "tree (mostly lime)",
+     "124",
+     "b3"
+    ],
+    [
+     "baum",
+     "Ein Baum",
+     "One tree",
+     "nach Brückner alt",
+     "old, according to Brückner",
+     "Hartmannsdorf",
+     "Buche",
+     "beech",
+     "124",
+     "b3"
+    ],
+    [
+     "baum",
+     "Ein Baum",
+     "One tree",
+     "nach Brückner alt",
+     "old, according to Brückner",
+     "Helmsgrün",
+     "Palmbaum",
+     "palm tree",
+     "124",
+     "b3"
+    ],
+    [
+     "baum",
+     "Ein Baum",
+     "One tree",
+     "nach Brückner alt",
+     "old, according to Brückner",
+     "Hermsdorf",
+     "Baum (meist Linde)",
+     "tree (mostly lime)",
+     "124",
+     "b3"
+    ],
+    [
+     "baum",
+     "Ein Baum",
+     "One tree",
+     "nach Brückner alt",
+     "old, according to Brückner",
+     "Leitlitz",
+     "Baum (meist Linde)",
+     "tree (mostly lime)",
+     "124",
+     "b3"
+    ],
+    [
+     "baum",
+     "Ein Baum",
+     "One tree",
+     "nach Brückner alt",
+     "old, according to Brückner",
+     "Lerchenhügel",
+     "Lärche",
+     "larch",
+     "124",
+     "b3"
+    ],
+    [
+     "baum",
+     "Ein Baum",
+     "One tree",
+     "nach Brückner alt",
+     "old, according to Brückner",
+     "Lössau",
+     "Baum (meist Linde)",
+     "tree (mostly lime)",
+     "124",
+     "b3"
+    ],
+    [
+     "baum",
+     "Ein Baum",
+     "One tree",
+     "nach Brückner alt",
+     "old, according to Brückner",
+     "Milbitz",
+     "Baum (meist Linde)",
+     "tree (mostly lime)",
+     "124",
+     "b3"
+    ],
+    [
+     "baum",
+     "Ein Baum",
+     "One tree",
+     "nach Brückner alt",
+     "old, according to Brückner",
+     "Naundorf",
+     "Baum (meist Linde)",
+     "tree (mostly lime)",
+     "124",
+     "b3"
+    ],
+    [
+     "baum",
+     "Ein Baum",
+     "One tree",
+     "nach Brückner alt",
+     "old, according to Brückner",
+     "Pahren",
+     "Baum (meist Linde)",
+     "tree (mostly lime)",
+     "124",
+     "b3"
+    ],
+    [
+     "baum",
+     "Ein Baum",
+     "One tree",
+     "nach Brückner alt",
+     "old, according to Brückner",
+     "Pirk",
+     "Birke",
+     "birch",
+     "124",
+     "b3"
+    ],
+    [
+     "baum",
+     "Ein Baum",
+     "One tree",
+     "nach Brückner alt",
+     "old, according to Brückner",
+     "Pohlen",
+     "Baum (meist Linde)",
+     "tree (mostly lime)",
+     "124",
+     "b3"
+    ],
+    [
+     "baum",
+     "Ein Baum",
+     "One tree",
+     "nach Brückner alt",
+     "old, according to Brückner",
+     "Reichenbach",
+     "Eiche",
+     "oak",
+     "124",
+     "b3"
+    ],
+    [
+     "baum",
+     "Ein Baum",
+     "One tree",
+     "nach Brückner alt",
+     "old, according to Brückner",
+     "Rubitz",
+     "Baum (meist Linde)",
+     "tree (mostly lime)",
+     "124",
+     "b3"
+    ],
+    [
+     "baum",
+     "Ein Baum",
+     "One tree",
+     "nach Brückner alt",
+     "old, according to Brückner",
+     "Schilbach",
+     "Baum (meist Linde)",
+     "tree (mostly lime)",
+     "124",
+     "b3"
+    ],
+    [
+     "baum",
+     "Ein Baum",
+     "One tree",
+     "nach Brückner alt",
+     "old, according to Brückner",
+     "Stübnitz",
+     "Baum (meist Linde)",
+     "tree (mostly lime)",
+     "124",
+     "b3"
+    ],
+    [
+     "baum",
+     "Ein Baum",
+     "One tree",
+     "nach Brückner alt",
+     "old, according to Brückner",
+     "Trebnitz",
+     "Baum (meist Linde)",
+     "tree (mostly lime)",
+     "124",
+     "b3"
+    ],
+    [
+     "baum",
+     "Ein Baum",
+     "One tree",
+     "nach Brückner alt",
+     "old, according to Brückner",
+     "Weißig",
+     "Baum (meist Linde)",
+     "tree (mostly lime)",
+     "124",
+     "b3"
+    ],
+    [
+     "baum",
+     "Ein Baum",
+     "One tree",
+     "nach Brückner alt",
+     "old, according to Brückner",
+     "Wernsdorf",
+     "Eiche",
+     "oak",
+     "124",
+     "b3"
+    ],
+    [
+     "baum",
+     "Ein Baum",
+     "One tree",
+     "nach Brückner alt",
+     "old, according to Brückner",
+     "Willersdorf",
+     "Baum (meist Linde)",
+     "tree (mostly lime)",
+     "124",
+     "b3"
+    ],
+    [
+     "baeume",
+     "Mehrere Bäume",
+     "Several trees",
+     "nach Brückner alt",
+     "old, according to Brückner",
+     "Gleina",
+     "zwei Linden mit Brunnen dazwischen",
+     "two limes with a well between",
+     "124",
+     "b3"
+    ],
+    [
+     "baeume",
+     "Mehrere Bäume",
+     "Several trees",
+     "nach Brückner alt",
+     "old, according to Brückner",
+     "Oberröppisch",
+     "drei Linden",
+     "three limes",
+     "124",
+     "b3"
+    ],
+    [
+     "baeume",
+     "Mehrere Bäume",
+     "Several trees",
+     "nach Brückner alt",
+     "old, according to Brückner",
+     "Kulm",
+     "zwei Bäume",
+     "two trees",
+     "124",
+     "b3"
+    ],
+    [
+     "baeume",
+     "Mehrere Bäume",
+     "Several trees",
+     "nach Brückner alt",
+     "old, according to Brückner",
+     "Hirschfeld",
+     "drei Bäume",
+     "three trees",
+     "124",
+     "b3"
+    ],
+    [
+     "baeume",
+     "Mehrere Bäume",
+     "Several trees",
+     "nach Brückner alt",
+     "old, according to Brückner",
+     "Waaswitz",
+     "drei Bäume",
+     "three trees",
+     "124",
+     "b3"
+    ],
+    [
+     "baeume",
+     "Mehrere Bäume",
+     "Several trees",
+     "nach Brückner alt",
+     "old, according to Brückner",
+     "Großaga",
+     "vier Pappeln",
+     "four poplars",
+     "124",
+     "b3"
+    ],
+    [
+     "baumtier",
+     "Baum und Tier",
+     "Tree and animal",
+     "nach Brückner alt",
+     "old, according to Brückner",
+     "Hirschbach",
+     "Fichte und Hirsch",
+     "spruce and stag",
+     "124",
+     "b3"
+    ],
+    [
+     "baumtier",
+     "Baum und Tier",
+     "Tree and animal",
+     "nach Brückner alt",
+     "old, according to Brückner",
+     "Gahma",
+     "drei Fichten mit Hirsch",
+     "three spruces with stag",
+     "124",
+     "b3"
+    ],
+    [
+     "baumtier",
+     "Baum und Tier",
+     "Tree and animal",
+     "nach Brückner alt",
+     "old, according to Brückner",
+     "Rüdersdorf",
+     "drei Fichten mit Hirsch",
+     "three spruces with stag",
+     "124",
+     "b3"
+    ],
+    [
+     "baumtier",
+     "Baum und Tier",
+     "Tree and animal",
+     "nach Brückner alt",
+     "old, according to Brückner",
+     "Frössen",
+     "giebelloser Baum und Reiher",
+     "gableless tree and heron",
+     "124",
+     "b3"
+    ],
+    [
+     "tier",
+     "Tier",
+     "Animal",
+     "nach Brückner alt",
+     "old, according to Brückner",
+     "Langenberg",
+     "Kranich",
+     "crane",
+     "124",
+     "b3"
+    ],
+    [
+     "tier",
+     "Tier",
+     "Animal",
+     "nach Brückner alt",
+     "old, according to Brückner",
+     "Frankenthal",
+     "aufgerichteter Löwe",
+     "rampant lion",
+     "124",
+     "b3"
+    ],
+    [
+     "tier",
+     "Tier",
+     "Animal",
+     "nach Brückner alt",
+     "old, according to Brückner",
+     "Langengrobsdorf",
+     "aufgerichteter Löwe",
+     "rampant lion",
+     "124",
+     "b3"
+    ],
+    [
+     "tier",
+     "Tier",
+     "Animal",
+     "nach Brückner alt",
+     "old, according to Brückner",
+     "Pöritzsch",
+     "aufgerichteter Löwe",
+     "rampant lion",
+     "124",
+     "b3"
+    ],
+    [
+     "tier",
+     "Tier",
+     "Animal",
+     "nach Brückner alt",
+     "old, according to Brückner",
+     "Söllmnitz",
+     "aufgerichteter Löwe",
+     "rampant lion",
+     "124",
+     "b3"
+    ],
+    [
+     "tier",
+     "Tier",
+     "Animal",
+     "nach Brückner alt",
+     "old, according to Brückner",
+     "Köstritz",
+     "Löwe mit Schwert und Schild (zwei verschlungene Hände)",
+     "lion with sword and shield (two clasped hands)",
+     "124",
+     "b3"
+    ],
+    [
+     "tier",
+     "Tier",
+     "Animal",
+     "nach Brückner alt",
+     "old, according to Brückner",
+     "Stublach",
+     "Löwe mit drei Zweigen",
+     "lion with three twigs",
+     "124",
+     "b3"
+    ],
+    [
+     "tier",
+     "Tier",
+     "Animal",
+     "nach Brückner alt",
+     "old, according to Brückner",
+     "Langenwolschendorf",
+     "Löwe und Baum",
+     "lion and tree",
+     "124",
+     "b3"
+    ],
+    [
+     "tier",
+     "Tier",
+     "Animal",
+     "nach Brückner alt",
+     "old, according to Brückner",
+     "Göschitz",
+     "Bienenkorb und Baumstamm",
+     "beehive and tree trunk",
+     "124",
+     "b3"
+    ],
+    [
+     "landw",
+     "Landwirtschaftliche Bilder",
+     "Agricultural images",
+     "nach Brückner alt",
+     "old, according to Brückner",
+     "Bieblach",
+     "Rechen, Sense, Dreschflegel, Garbe oder Pflug",
+     "rake, scythe, flail, sheaf or plough",
+     "124",
+     "b3"
+    ],
+    [
+     "landw",
+     "Landwirtschaftliche Bilder",
+     "Agricultural images",
+     "nach Brückner alt",
+     "old, according to Brückner",
+     "Dragensdorf",
+     "Rechen, Sense, Dreschflegel, Garbe oder Pflug",
+     "rake, scythe, flail, sheaf or plough",
+     "124",
+     "b3"
+    ],
+    [
+     "landw",
+     "Landwirtschaftliche Bilder",
+     "Agricultural images",
+     "nach Brückner alt",
+     "old, according to Brückner",
+     "Gebersreuth",
+     "Rechen, Sense, Dreschflegel, Garbe oder Pflug",
+     "rake, scythe, flail, sheaf or plough",
+     "124",
+     "b3"
+    ],
+    [
+     "landw",
+     "Landwirtschaftliche Bilder",
+     "Agricultural images",
+     "nach Brückner alt",
+     "old, according to Brückner",
+     "Görkwitz",
+     "Rechen, Sense, Dreschflegel, Garbe oder Pflug",
+     "rake, scythe, flail, sheaf or plough",
+     "124",
+     "b3"
+    ],
+    [
+     "landw",
+     "Landwirtschaftliche Bilder",
+     "Agricultural images",
+     "nach Brückner alt",
+     "old, according to Brückner",
+     "Laasen",
+     "Rechen, Sense, Dreschflegel, Garbe oder Pflug",
+     "rake, scythe, flail, sheaf or plough",
+     "124",
+     "b3"
+    ],
+    [
+     "landw",
+     "Landwirtschaftliche Bilder",
+     "Agricultural images",
+     "nach Brückner alt",
+     "old, according to Brückner",
+     "Lusan",
+     "Rechen, Sense, Dreschflegel, Garbe oder Pflug",
+     "rake, scythe, flail, sheaf or plough",
+     "124",
+     "b3"
+    ],
+    [
+     "landw",
+     "Landwirtschaftliche Bilder",
+     "Agricultural images",
+     "nach Brückner alt",
+     "old, according to Brückner",
+     "Roschitz",
+     "Rechen, Sense, Dreschflegel, Garbe oder Pflug",
+     "rake, scythe, flail, sheaf or plough",
+     "124",
+     "b3"
+    ],
+    [
+     "kirche",
+     "Kirche (auch mit Baum)",
+     "Church (also with tree)",
+     "nach Brückner alt",
+     "old, according to Brückner",
+     "Dittersdorf",
+     "Kirche ohne Beigabe",
+     "church without additions",
+     "125",
+     "b1"
+    ],
+    [
+     "kirche",
+     "Kirche (auch mit Baum)",
+     "Church (also with tree)",
+     "nach Brückner alt",
+     "old, according to Brückner",
+     "Oschitz",
+     "Kirche ohne Beigabe",
+     "church without additions",
+     "125",
+     "b1"
+    ],
+    [
+     "kirche",
+     "Kirche (auch mit Baum)",
+     "Church (also with tree)",
+     "nach Brückner alt",
+     "old, according to Brückner",
+     "Thieschitz",
+     "Kirche ohne Beigabe",
+     "church without additions",
+     "125",
+     "b1"
+    ],
+    [
+     "kirche",
+     "Kirche (auch mit Baum)",
+     "Church (also with tree)",
+     "nach Brückner alt",
+     "old, according to Brückner",
+     "Zollgrün",
+     "Kirche ohne Beigabe",
+     "church without additions",
+     "125",
+     "b1"
+    ],
+    [
+     "kirche",
+     "Kirche (auch mit Baum)",
+     "Church (also with tree)",
+     "nach Brückner alt",
+     "old, according to Brückner",
+     "Zschippach",
+     "Kirche ohne Beigabe",
+     "church without additions",
+     "125",
+     "b1"
+    ],
+    [
+     "kirche",
+     "Kirche (auch mit Baum)",
+     "Church (also with tree)",
+     "nach Brückner alt",
+     "old, according to Brückner",
+     "Oberböhmsdorf",
+     "Kirche mit Baumgruppe",
+     "church with group of trees",
+     "125",
+     "b1"
+    ],
+    [
+     "kirche",
+     "Kirche (auch mit Baum)",
+     "Church (also with tree)",
+     "nach Brückner alt",
+     "old, according to Brückner",
+     "Stelzen",
+     "Kirche mit dem Stelzenbaum",
+     "church with the Stelzenbaum",
+     "125",
+     "b1"
+    ],
+    [
+     "bau",
+     "Schloss, Brücke, Brunnen, Figur u. a.",
+     "Castle, bridge, well, figure and others",
+     "nach Brückner alt",
+     "old, according to Brückner",
+     "Hohenleuben",
+     "Schloss mit Park",
+     "castle with park",
+     "125",
+     "b1"
+    ],
+    [
+     "bau",
+     "Schloss, Brücke, Brunnen, Figur u. a.",
+     "Castle, bridge, well, figure and others",
+     "nach Brückner alt",
+     "old, according to Brückner",
+     "Harpersdorf",
+     "Landhaus mit Forellenbach, Garten, Feld und Fichte",
+     "country house with trout stream, garden, field and spruce",
+     "125",
+     "b1"
+    ],
+    [
+     "bau",
+     "Schloss, Brücke, Brunnen, Figur u. a.",
+     "Castle, bridge, well, figure and others",
+     "nach Brückner alt",
+     "old, according to Brückner",
+     "Collis",
+     "Brücke",
+     "bridge",
+     "125",
+     "b1"
+    ],
+    [
+     "bau",
+     "Schloss, Brücke, Brunnen, Figur u. a.",
+     "Castle, bridge, well, figure and others",
+     "nach Brückner alt",
+     "old, according to Brückner",
+     "Weckersdorf",
+     "Brücke",
+     "bridge",
+     "125",
+     "b1"
+    ],
+    [
+     "bau",
+     "Schloss, Brücke, Brunnen, Figur u. a.",
+     "Castle, bridge, well, figure and others",
+     "nach Brückner alt",
+     "old, according to Brückner",
+     "Töppeln",
+     "Pumpbrunnen",
+     "pump well",
+     "125",
+     "b1"
+    ],
+    [
+     "bau",
+     "Schloss, Brücke, Brunnen, Figur u. a.",
+     "Castle, bridge, well, figure and others",
+     "nach Brückner alt",
+     "old, according to Brückner",
+     "Kaltenborn",
+     "Pumpbrunnen mit Pumperin",
+     "pump well with pump woman",
+     "125",
+     "b1"
+    ],
+    [
+     "bau",
+     "Schloss, Brücke, Brunnen, Figur u. a.",
+     "Castle, bridge, well, figure and others",
+     "nach Brückner alt",
+     "old, according to Brückner",
+     "Burkersdorf",
+     "Pyramide zwischen zwei Palmen",
+     "pyramid between two palms",
+     "125",
+     "b1"
+    ],
+    [
+     "bau",
+     "Schloss, Brücke, Brunnen, Figur u. a.",
+     "Castle, bridge, well, figure and others",
+     "nach Brückner alt",
+     "old, according to Brückner",
+     "Dettersdorf",
+     "tanzender Jüngling",
+     "dancing youth",
+     "125",
+     "b1"
+    ],
+    [
+     "neu",
+     "Kranz, Anker, Sonne (neuere Erfindung)",
+     "Wreath, anchor, sun (recent invention)",
+     "nach Brückner neuere Erfindung",
+     "recent invention, according to Brückner",
+     "Steinbrücken",
+     "Blumenkranz",
+     "flower wreath",
+     "124",
+     "b3"
+    ],
+    [
+     "neu",
+     "Kranz, Anker, Sonne (neuere Erfindung)",
+     "Wreath, anchor, sun (recent invention)",
+     "nach Brückner neuere Erfindung",
+     "recent invention, according to Brückner",
+     "Pforten",
+     "Zweigkranz",
+     "wreath of twigs",
+     "124",
+     "b3"
+    ],
+    [
+     "neu",
+     "Kranz, Anker, Sonne (neuere Erfindung)",
+     "Wreath, anchor, sun (recent invention)",
+     "nach Brückner neuere Erfindung",
+     "recent invention, according to Brückner",
+     "Schöna",
+     "Zweigkranz",
+     "wreath of twigs",
+     "124",
+     "b3"
+    ],
+    [
+     "neu",
+     "Kranz, Anker, Sonne (neuere Erfindung)",
+     "Wreath, anchor, sun (recent invention)",
+     "nach Brückner neuere Erfindung",
+     "recent invention, according to Brückner",
+     "Pohlitz",
+     "Halbkranz aus Zweigen",
+     "half wreath of twigs",
+     "124",
+     "b3"
+    ],
+    [
+     "neu",
+     "Kranz, Anker, Sonne (neuere Erfindung)",
+     "Wreath, anchor, sun (recent invention)",
+     "nach Brückner neuere Erfindung",
+     "recent invention, according to Brückner",
+     "Seifarthsdorf",
+     "Halbkranz aus Zweigen",
+     "half wreath of twigs",
+     "124",
+     "b3"
+    ],
+    [
+     "neu",
+     "Kranz, Anker, Sonne (neuere Erfindung)",
+     "Wreath, anchor, sun (recent invention)",
+     "nach Brückner neuere Erfindung",
+     "recent invention, according to Brückner",
+     "Tinz",
+     "Halbkranz aus Zweigen",
+     "half wreath of twigs",
+     "124",
+     "b3"
+    ],
+    [
+     "neu",
+     "Kranz, Anker, Sonne (neuere Erfindung)",
+     "Wreath, anchor, sun (recent invention)",
+     "nach Brückner neuere Erfindung",
+     "recent invention, according to Brückner",
+     "Ebersdorf",
+     "Anker mit Weinstock (Brüdergemeinde)",
+     "anchor with vine (Moravian congregation)",
+     "124",
+     "b3"
+    ],
+    [
+     "neu",
+     "Kranz, Anker, Sonne (neuere Erfindung)",
+     "Wreath, anchor, sun (recent invention)",
+     "nach Brückner neuere Erfindung",
+     "recent invention, according to Brückner",
+     "Rusitz",
+     "Sonne",
+     "sun",
+     "124",
+     "b3"
+    ]
+   ],
+   "source_refs": [
+    {
+     "page": "124",
+     "block": "b3"
+    },
+    {
+     "page": "125",
+     "block": "b1"
+    }
+   ]
+  },
+  {
+   "name": "classes",
+   "title": {
+    "de": "Zahl der Orte je Motivklasse",
+    "en": "Number of places per motif class"
+   },
+   "columns": [
+    {
+     "name": "class_de",
+     "label": {
+      "de": "Motivklasse (de)",
+      "en": "Motif class (de)"
+     },
+     "type": "string",
+     "unit": null,
+     "derived": true
+    },
+    {
+     "name": "class_en",
+     "label": {
+      "de": "Motivklasse (en)",
+      "en": "Motif class (en)"
+     },
+     "type": "string",
+     "unit": null,
+     "derived": true
+    },
+    {
+     "name": "age_de",
+     "label": {
+      "de": "Alter laut Brückner (de)",
+      "en": "Age according to Brückner (de)"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "age_en",
+     "label": {
+      "de": "Alter laut Brückner (en)",
+      "en": "Age according to Brückner (en)"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "places",
+     "label": {
+      "de": "Orte",
+      "en": "Places"
+     },
+     "type": "integer",
+     "unit": "Orte",
+     "derived": true
+    }
+   ],
+   "rows": [
+    [
+     "Ein Baum",
+     "One tree",
+     "nach Brückner alt",
+     "old, according to Brückner",
+     22
+    ],
+    [
+     "Mehrere Bäume",
+     "Several trees",
+     "nach Brückner alt",
+     "old, according to Brückner",
+     6
+    ],
+    [
+     "Baum und Tier",
+     "Tree and animal",
+     "nach Brückner alt",
+     "old, according to Brückner",
+     4
+    ],
+    [
+     "Tier",
+     "Animal",
+     "nach Brückner alt",
+     "old, according to Brückner",
+     9
+    ],
+    [
+     "Landwirtschaftliche Bilder",
+     "Agricultural images",
+     "nach Brückner alt",
+     "old, according to Brückner",
+     7
+    ],
+    [
+     "Kirche (auch mit Baum)",
+     "Church (also with tree)",
+     "nach Brückner alt",
+     "old, according to Brückner",
+     7
+    ],
+    [
+     "Schloss, Brücke, Brunnen, Figur u. a.",
+     "Castle, bridge, well, figure and others",
+     "nach Brückner alt",
+     "old, according to Brückner",
+     8
+    ],
+    [
+     "Kranz, Anker, Sonne (neuere Erfindung)",
+     "Wreath, anchor, sun (recent invention)",
+     "nach Brückner neuere Erfindung",
+     "recent invention, according to Brückner",
+     8
+    ]
+   ],
+   "source_refs": [
+    {
+     "page": "124",
+     "block": "b3"
+    },
+    {
+     "page": "125",
+     "block": "b1"
+    }
+   ]
+  }
+ ],
+ "charts": [
+  {
+   "id": "c1",
+   "dataset": "classes",
+   "title": {
+    "de": "Siegelmotive der Dörfer",
+    "en": "Seal motifs of the villages"
+   },
+   "caption": {
+    "de": "Zahl der von Brückner genannten Dörfer je Motivklasse. Bäume stehen in 32 der 71 Siegel; die jüngeren Bilder (Kränze, Anker, Sonne) nennt Brückner ohne historischen Wert.",
+    "en": "Number of the villages named by Brückner per motif class. Trees appear in 32 of the 71 seals; the younger pictures (wreaths, anchor, sun) Brückner calls without historical value."
+   },
+   "vegalite": {
+    "height": 300,
+    "mark": "bar",
+    "encoding": {
+     "y": {
+      "field": {
+       "de": "class_de",
+       "en": "class_en"
+      },
+      "type": "nominal",
+      "sort": {
+       "field": "places",
+       "order": "descending"
+      },
+      "title": null,
+      "axis": {
+       "labelLimit": 420
+      }
+     },
+     "x": {
+      "field": "places",
+      "type": "quantitative",
+      "title": {
+       "de": "Dörfer",
+       "en": "Villages"
+      },
+      "axis": {
+       "tickMinStep": 1
+      }
+     },
+     "color": {
+      "field": {
+       "de": "age_de",
+       "en": "age_en"
+      },
+      "type": "nominal",
+      "title": null,
+      "scale": {
+       "domain": [
+        {
+         "de": "nach Brückner alt",
+         "en": "old, according to Brückner"
+        },
+        {
+         "de": "nach Brückner neuere Erfindung",
+         "en": "recent invention, according to Brückner"
+        }
+       ]
+      },
+      "legend": {
+       "labelLimit": 400,
+       "columns": 1
+      }
+     },
+     "tooltip": [
+      {
+       "field": {
+        "de": "class_de",
+        "en": "class_en"
+       },
+       "title": {
+        "de": "Motivklasse",
+        "en": "Motif class"
+       }
+      },
+      {
+       "field": "places",
+       "title": {
+        "de": "Dörfer",
+        "en": "Villages"
+       }
+      }
+     ]
+    }
+   }
+  }
+ ],
+ "transcription_issues": [],
+ "keywords": {
+  "de": [
+   "Ortssiegel",
+   "Wappen",
+   "Siegel",
+   "Linde",
+   "Löwe",
+   "Dorfwappen",
+   "Gemeindesiegel",
+   "Heraldik"
+  ],
+  "en": [
+   "village seals",
+   "coats of arms",
+   "seals",
+   "lime tree",
+   "lion",
+   "village arms",
+   "heraldry"
+  ]
+ },
+ "related": [],
+ "generated_by": "Claude Sonnet 5.5 (subagent A08)",
+ "date": "2026-10-01"
+}

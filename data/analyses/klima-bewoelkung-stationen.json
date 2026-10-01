@@ -1,0 +1,1917 @@
+{
+ "id": "klima-bewoelkung-stationen",
+ "title": {
+  "de": "Bewölkung: bedeckte, gemischte und helle Tage an sechs Orten",
+  "en": "Cloud cover: overcast, mixed and clear days at six places"
+ },
+ "category": "climate",
+ "section": "t1-1-7",
+ "sources": [
+  {
+   "page": "64",
+   "block": "b4"
+  },
+  {
+   "page": "64",
+   "block": "b5"
+  },
+  {
+   "page": "64",
+   "block": "b6",
+   "rows": "r3-r15"
+  },
+  {
+   "page": "65",
+   "block": "b1",
+   "rows": "r4-r16"
+  },
+  {
+   "page": "65",
+   "block": "b2"
+  },
+  {
+   "page": "65",
+   "block": "b3"
+  },
+  {
+   "page": "65",
+   "block": "b4",
+   "rows": "r2-r7"
+  },
+  {
+   "page": "65",
+   "block": "b5"
+  },
+  {
+   "page": "65",
+   "block": "fn1"
+  }
+ ],
+ "summary": {
+  "de": "Unter »Grade der Bewölkung oder die Ansicht des Himmels« zählt Brückner die Tage, an denen der Himmel bedeckt, gemischt oder hell war: monatlich für Gera (10 Jahre), Hohenleuben (15 Jahre) und Schleiz (2 Jahre), im Jahresmittel auch für Rothenacker sowie die auswärtigen Orte Hof und Arnstadt. Die Orte weichen stark voneinander ab, vor allem bei den »gemischten« Tagen; Brückner führt das auf uneinheitliche Abgrenzungen der Beobachter zurück.",
+  "en": "Under “Degrees of cloudiness, or the view of the sky”, Brückner counts the days on which the sky was overcast, mixed or clear: by month for Gera (10 years), Hohenleuben (15 years) and Schleiz (2 years), and as annual means also for Rothenacker and for the outside places Hof and Arnstadt. The places differ greatly, above all in the “mixed” days; Brückner attributes this to observers not drawing the categories alike."
+ },
+ "method": {
+  "de": "Gera: S. 64, Tabelle b6 (Summe über 10 Jahre je Monat); Hohenleuben und Schleiz: S. 65, Tabelle b1 (Summen über 15 bzw. 2 Jahre); Jahresmittel aller sechs Orte: S. 65, Tabelle b4 (Rothenacker: Mittel der zwei Jahre Juni 1866 bis Mai 1868, S. 65 b2 und Fußnote). Für die Monatskurven wurden die gedruckten Periodensummen durch die Zahl der Jahre geteilt (Tage pro Monat und Jahr); Brückners eigene Spalten »in 1 Jahr« sind gerundet bzw. enthalten Druckabweichungen und werden nicht verwendet. Die Anteile in Chart 1 beziehen sich auf die Summe der drei gedruckten Jahreswerte des jeweiligen Orts (Hohenleuben: 364,3 statt 365 Tage wegen gerundeter Monatswerte). Der Druck gibt für die Gera-Reihe nur »in 10 Jahren« an, keinen Zeitraum.",
+  "en": "Gera: p. 64, table b6 (sum over 10 years per month); Hohenleuben and Schleiz: p. 65, table b1 (sums over 15 and 2 years); annual means for all six places: p. 65, table b4 (Rothenacker: mean of the two years June 1866 to May 1868, p. 65 b2 and footnote). For the monthly curves the printed period totals were divided by the number of years (days per month and year); Brückner's own “in 1 year” columns are rounded or contain misprints and are not used. The shares in chart 1 refer to the sum of the three printed annual values of each place (Hohenleuben: 364.3 instead of 365 days because of rounded monthly values). For the Gera series the print gives only “in 10 years”, no period."
+ },
+ "findings": [
+  {
+   "de": "Am stärksten unterscheiden sich die »gemischten« Tage: Gera 243,2 Tage im Jahr (66,6 %), Hohenleuben nur 54,9 (15,1 %). Umgekehrt zählt Gera nur 66,3 bedeckte Tage (18,2 %), Hohenleuben 173,6 (47,7 %).",
+   "en": "The “mixed” days differ most: Gera 243.2 days a year (66.6 %), Hohenleuben only 54.9 (15.1 %). Conversely Gera counts only 66.3 overcast days (18.2 %), Hohenleuben 173.6 (47.7 %)."
+  },
+  {
+   "de": "Helle Tage reichen von 34,5 (Rothenacker) bis 135,8 im Jahr (Hohenleuben); Hof (115) und Arnstadt (96) liegen dazwischen. Rothenacker und Schleiz folgen bei den bedeckten Tagen mit 160 und 145 der Größenordnung von Hof (137) und Arnstadt (152).",
+   "en": "Clear days range from 34.5 (Rothenacker) to 135.8 a year (Hohenleuben); Hof (115) and Arnstadt (96) lie in between. With 160 and 145 overcast days, Rothenacker and Schleiz are of the order of Hof (137) and Arnstadt (152)."
+  },
+  {
+   "de": "In allen drei Monatsreihen liegt das Maximum der bedeckten Tage im Spätherbst/Winter (Gera November mit 9,7 Tagen, Hohenleuben Dezember mit 20,5, Schleiz November mit 21,5), das Minimum im Hochsommer (Gera August 2,0, Hohenleuben August 10,3).",
+   "en": "In all three monthly series the maximum of overcast days falls in late autumn/winter (Gera November with 9.7 days, Hohenleuben December with 20.5, Schleiz November with 21.5), the minimum in high summer (Gera August 2.0, Hohenleuben August 10.3)."
+  },
+  {
+   "de": "Brückner erklärt die Abweichungen der inländischen Orte untereinander und von Hof und Arnstadt damit, dass »nicht überall die gleiche Abgrenzung des Trüben, Gemischten und Heiteren eingehalten ist« (S. 65). Die Zahlen sind daher als Maß der Beobachterkonvention, nicht der tatsächlichen Bewölkung zu lesen.",
+   "en": "Brückner explains the deviations of the local stations from one another and from Hof and Arnstadt by the categories “overcast, mixed and clear” not having been delimited the same way everywhere (p. 65). The figures should therefore be read as a measure of observer convention rather than of actual cloudiness."
+  }
+ ],
+ "caveats": [
+  {
+   "de": "Die Gera-Tabelle (S. 64) nennt nur »in 10 Jahren«, keinen Zeitraum. Die frühere Fassung der Edition gab »1783–1792« an; im gedruckten Text steht das nicht. Wahrscheinlich gehört die Reihe zu den Geraer Beobachtungen seit 1856 (S. 54), belegt ist das nicht.",
+   "en": "The Gera table (p. 64) says only “in 10 years” and gives no period. The earlier version of the edition stated “1783–1792”; this is not in the printed text. The series probably belongs to the Gera observations since 1856 (p. 54), but this is not documented."
+  },
+  {
+   "de": "Druckabweichungen (am Faksimile bestätigt, Transkription stimmt mit dem Druck überein): Gera, April, gemischt »in 1 Jahr« gedruckt 20,1, richtig 21,1 (211 ÷ 10; Spalte summiert sich sonst auf 242,2 statt der gedruckten 243,2). Schleiz, April, bedeckt gedruckt 23, die Zeile ergibt dann 61 statt 60 Tage; gedruckter Jahreswert 11 und Summe 290 passen zu 22. Schleiz, Oktober und November summieren sich auf 64 bzw. 58 statt 62 und 60 Tage.",
+   "en": "Misprints (confirmed on the facsimile; the transcription matches the print): Gera, April, mixed “in 1 year” printed 20.1, should be 21.1 (211 ÷ 10; otherwise the column sums to 242.2 instead of the printed 243.2). Schleiz, April, overcast printed 23, which makes the row 61 instead of 60 days; the printed annual value 11 and the total 290 fit 22. Schleiz, October and November sum to 64 and 58 instead of 62 and 60 days."
+  },
+  {
+   "de": "Die Reihen sind sehr unterschiedlich lang (15, 10, 2 und 1 Jahr). Schleiz (2 Jahre) und Rothenacker (Jahresmittel) sind nur Anhaltspunkte; Hof und Arnstadt stammen von auswärtigen Beobachtern, Quelle und Zeitraum nennt Brückner nicht.",
+   "en": "The series are of very different lengths (15, 10, 2 and 1 years). Schleiz (2 years) and Rothenacker (annual mean) are only indications; Hof and Arnstadt come from outside observers, whose source and period Brückner does not give."
+  }
+ ],
+ "datasets": [
+  {
+   "name": "monthly",
+   "title": {
+    "de": "Tage mit bedecktem, gemischtem und hellem Himmel nach Monat",
+    "en": "Days with overcast, mixed and clear sky by month"
+   },
+   "columns": [
+    {
+     "name": "station",
+     "label": {
+      "de": "Beobachtungsort",
+      "en": "Station"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "station_order",
+     "label": {
+      "de": "Reihenfolge des Ortes",
+      "en": "Station order"
+     },
+     "type": "integer",
+     "unit": null,
+     "derived": true
+    },
+    {
+     "name": "month",
+     "label": {
+      "de": "Monat",
+      "en": "Month"
+     },
+     "type": "integer",
+     "unit": null,
+     "derived": true,
+     "note": "Monatsnummer 1–12, editorisch"
+    },
+    {
+     "name": "month_label",
+     "label": {
+      "de": "Monat (Original)",
+      "en": "Month (original)"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "category",
+     "label": {
+      "de": "Himmelsansicht",
+      "en": "Sky condition"
+     },
+     "type": "string",
+     "unit": null,
+     "note": "bedeckt / gemischt / hell (Hohenleuben und Schleiz im Druck: bed., gem., hell)"
+    },
+    {
+     "name": "category_order",
+     "label": {
+      "de": "Reihenfolge der Himmelsansicht",
+      "en": "Sky condition order"
+     },
+     "type": "integer",
+     "unit": null,
+     "derived": true
+    },
+    {
+     "name": "days_period",
+     "label": {
+      "de": "Tage im Beobachtungszeitraum",
+      "en": "Days in the observation period"
+     },
+     "type": "integer",
+     "unit": "Tage",
+     "note": "gedruckte Summe über den gesamten Zeitraum"
+    },
+    {
+     "name": "years",
+     "label": {
+      "de": "Jahre im Zeitraum",
+      "en": "Years in the period"
+     },
+     "type": "integer",
+     "unit": "Jahre",
+     "note": "Gera 10, Hohenleuben 15, Schleiz 2 (Spaltenköpfe)"
+    },
+    {
+     "name": "days_per_year",
+     "label": {
+      "de": "Tage pro Monat und Jahr",
+      "en": "Days per month and year"
+     },
+     "type": "number",
+     "unit": "Tage",
+     "derived": true,
+     "note": "Tage im Zeitraum ÷ Jahre"
+    }
+   ],
+   "rows": [
+    [
+     "Gera",
+     1,
+     1,
+     "Januar",
+     "bedeckt",
+     1,
+     88,
+     10,
+     8.8
+    ],
+    [
+     "Gera",
+     1,
+     1,
+     "Januar",
+     "gemischt",
+     2,
+     184,
+     10,
+     18.4
+    ],
+    [
+     "Gera",
+     1,
+     1,
+     "Januar",
+     "hell",
+     3,
+     38,
+     10,
+     3.8
+    ],
+    [
+     "Gera",
+     1,
+     2,
+     "Februar",
+     "bedeckt",
+     1,
+     74,
+     10,
+     7.4
+    ],
+    [
+     "Gera",
+     1,
+     2,
+     "Februar",
+     "gemischt",
+     2,
+     146,
+     10,
+     14.6
+    ],
+    [
+     "Gera",
+     1,
+     2,
+     "Februar",
+     "hell",
+     3,
+     60,
+     10,
+     6.0
+    ],
+    [
+     "Gera",
+     1,
+     3,
+     "März",
+     "bedeckt",
+     1,
+     65,
+     10,
+     6.5
+    ],
+    [
+     "Gera",
+     1,
+     3,
+     "März",
+     "gemischt",
+     2,
+     204,
+     10,
+     20.4
+    ],
+    [
+     "Gera",
+     1,
+     3,
+     "März",
+     "hell",
+     3,
+     41,
+     10,
+     4.1
+    ],
+    [
+     "Gera",
+     1,
+     4,
+     "April",
+     "bedeckt",
+     1,
+     42,
+     10,
+     4.2
+    ],
+    [
+     "Gera",
+     1,
+     4,
+     "April",
+     "gemischt",
+     2,
+     211,
+     10,
+     21.1
+    ],
+    [
+     "Gera",
+     1,
+     4,
+     "April",
+     "hell",
+     3,
+     47,
+     10,
+     4.7
+    ],
+    [
+     "Gera",
+     1,
+     5,
+     "Mai",
+     "bedeckt",
+     1,
+     44,
+     10,
+     4.4
+    ],
+    [
+     "Gera",
+     1,
+     5,
+     "Mai",
+     "gemischt",
+     2,
+     222,
+     10,
+     22.2
+    ],
+    [
+     "Gera",
+     1,
+     5,
+     "Mai",
+     "hell",
+     3,
+     44,
+     10,
+     4.4
+    ],
+    [
+     "Gera",
+     1,
+     6,
+     "Juni",
+     "bedeckt",
+     1,
+     27,
+     10,
+     2.7
+    ],
+    [
+     "Gera",
+     1,
+     6,
+     "Juni",
+     "gemischt",
+     2,
+     237,
+     10,
+     23.7
+    ],
+    [
+     "Gera",
+     1,
+     6,
+     "Juni",
+     "hell",
+     3,
+     36,
+     10,
+     3.6
+    ],
+    [
+     "Gera",
+     1,
+     7,
+     "Juli",
+     "bedeckt",
+     1,
+     29,
+     10,
+     2.9
+    ],
+    [
+     "Gera",
+     1,
+     7,
+     "Juli",
+     "gemischt",
+     2,
+     250,
+     10,
+     25.0
+    ],
+    [
+     "Gera",
+     1,
+     7,
+     "Juli",
+     "hell",
+     3,
+     31,
+     10,
+     3.1
+    ],
+    [
+     "Gera",
+     1,
+     8,
+     "August",
+     "bedeckt",
+     1,
+     20,
+     10,
+     2.0
+    ],
+    [
+     "Gera",
+     1,
+     8,
+     "August",
+     "gemischt",
+     2,
+     227,
+     10,
+     22.7
+    ],
+    [
+     "Gera",
+     1,
+     8,
+     "August",
+     "hell",
+     3,
+     63,
+     10,
+     6.3
+    ],
+    [
+     "Gera",
+     1,
+     9,
+     "September",
+     "bedeckt",
+     1,
+     33,
+     10,
+     3.3
+    ],
+    [
+     "Gera",
+     1,
+     9,
+     "September",
+     "gemischt",
+     2,
+     213,
+     10,
+     21.3
+    ],
+    [
+     "Gera",
+     1,
+     9,
+     "September",
+     "hell",
+     3,
+     54,
+     10,
+     5.4
+    ],
+    [
+     "Gera",
+     1,
+     10,
+     "October",
+     "bedeckt",
+     1,
+     48,
+     10,
+     4.8
+    ],
+    [
+     "Gera",
+     1,
+     10,
+     "October",
+     "gemischt",
+     2,
+     185,
+     10,
+     18.5
+    ],
+    [
+     "Gera",
+     1,
+     10,
+     "October",
+     "hell",
+     3,
+     77,
+     10,
+     7.7
+    ],
+    [
+     "Gera",
+     1,
+     11,
+     "November",
+     "bedeckt",
+     1,
+     97,
+     10,
+     9.7
+    ],
+    [
+     "Gera",
+     1,
+     11,
+     "November",
+     "gemischt",
+     2,
+     167,
+     10,
+     16.7
+    ],
+    [
+     "Gera",
+     1,
+     11,
+     "November",
+     "hell",
+     3,
+     36,
+     10,
+     3.6
+    ],
+    [
+     "Gera",
+     1,
+     12,
+     "December",
+     "bedeckt",
+     1,
+     96,
+     10,
+     9.6
+    ],
+    [
+     "Gera",
+     1,
+     12,
+     "December",
+     "gemischt",
+     2,
+     186,
+     10,
+     18.6
+    ],
+    [
+     "Gera",
+     1,
+     12,
+     "December",
+     "hell",
+     3,
+     28,
+     10,
+     2.8
+    ],
+    [
+     "Hohenleuben",
+     2,
+     1,
+     "Januar",
+     "bedeckt",
+     1,
+     266,
+     15,
+     17.7
+    ],
+    [
+     "Hohenleuben",
+     2,
+     1,
+     "Januar",
+     "gemischt",
+     2,
+     67,
+     15,
+     4.5
+    ],
+    [
+     "Hohenleuben",
+     2,
+     1,
+     "Januar",
+     "hell",
+     3,
+     132,
+     15,
+     8.8
+    ],
+    [
+     "Hohenleuben",
+     2,
+     2,
+     "Februar",
+     "bedeckt",
+     1,
+     206,
+     15,
+     13.7
+    ],
+    [
+     "Hohenleuben",
+     2,
+     2,
+     "Februar",
+     "gemischt",
+     2,
+     66,
+     15,
+     4.4
+    ],
+    [
+     "Hohenleuben",
+     2,
+     2,
+     "Februar",
+     "hell",
+     3,
+     148,
+     15,
+     9.9
+    ],
+    [
+     "Hohenleuben",
+     2,
+     3,
+     "März",
+     "bedeckt",
+     1,
+     272,
+     15,
+     18.1
+    ],
+    [
+     "Hohenleuben",
+     2,
+     3,
+     "März",
+     "gemischt",
+     2,
+     48,
+     15,
+     3.2
+    ],
+    [
+     "Hohenleuben",
+     2,
+     3,
+     "März",
+     "hell",
+     3,
+     145,
+     15,
+     9.7
+    ],
+    [
+     "Hohenleuben",
+     2,
+     4,
+     "April",
+     "bedeckt",
+     1,
+     242,
+     15,
+     16.1
+    ],
+    [
+     "Hohenleuben",
+     2,
+     4,
+     "April",
+     "gemischt",
+     2,
+     47,
+     15,
+     3.1
+    ],
+    [
+     "Hohenleuben",
+     2,
+     4,
+     "April",
+     "hell",
+     3,
+     161,
+     15,
+     10.7
+    ],
+    [
+     "Hohenleuben",
+     2,
+     5,
+     "Mai",
+     "bedeckt",
+     1,
+     174,
+     15,
+     11.6
+    ],
+    [
+     "Hohenleuben",
+     2,
+     5,
+     "Mai",
+     "gemischt",
+     2,
+     54,
+     15,
+     3.6
+    ],
+    [
+     "Hohenleuben",
+     2,
+     5,
+     "Mai",
+     "hell",
+     3,
+     237,
+     15,
+     15.8
+    ],
+    [
+     "Hohenleuben",
+     2,
+     6,
+     "Juni",
+     "bedeckt",
+     1,
+     200,
+     15,
+     13.3
+    ],
+    [
+     "Hohenleuben",
+     2,
+     6,
+     "Juni",
+     "gemischt",
+     2,
+     95,
+     15,
+     6.3
+    ],
+    [
+     "Hohenleuben",
+     2,
+     6,
+     "Juni",
+     "hell",
+     3,
+     155,
+     15,
+     10.3
+    ],
+    [
+     "Hohenleuben",
+     2,
+     7,
+     "Juli",
+     "bedeckt",
+     1,
+     200,
+     15,
+     13.3
+    ],
+    [
+     "Hohenleuben",
+     2,
+     7,
+     "Juli",
+     "gemischt",
+     2,
+     83,
+     15,
+     5.5
+    ],
+    [
+     "Hohenleuben",
+     2,
+     7,
+     "Juli",
+     "hell",
+     3,
+     183,
+     15,
+     12.2
+    ],
+    [
+     "Hohenleuben",
+     2,
+     8,
+     "August",
+     "bedeckt",
+     1,
+     154,
+     15,
+     10.3
+    ],
+    [
+     "Hohenleuben",
+     2,
+     8,
+     "August",
+     "gemischt",
+     2,
+     87,
+     15,
+     5.8
+    ],
+    [
+     "Hohenleuben",
+     2,
+     8,
+     "August",
+     "hell",
+     3,
+     224,
+     15,
+     14.9
+    ],
+    [
+     "Hohenleuben",
+     2,
+     9,
+     "Septbr.",
+     "bedeckt",
+     1,
+     183,
+     15,
+     12.2
+    ],
+    [
+     "Hohenleuben",
+     2,
+     9,
+     "Septbr.",
+     "gemischt",
+     2,
+     53,
+     15,
+     3.5
+    ],
+    [
+     "Hohenleuben",
+     2,
+     9,
+     "Septbr.",
+     "hell",
+     3,
+     214,
+     15,
+     14.3
+    ],
+    [
+     "Hohenleuben",
+     2,
+     10,
+     "October",
+     "bedeckt",
+     1,
+     167,
+     15,
+     11.1
+    ],
+    [
+     "Hohenleuben",
+     2,
+     10,
+     "October",
+     "gemischt",
+     2,
+     97,
+     15,
+     6.5
+    ],
+    [
+     "Hohenleuben",
+     2,
+     10,
+     "October",
+     "hell",
+     3,
+     201,
+     15,
+     13.4
+    ],
+    [
+     "Hohenleuben",
+     2,
+     11,
+     "Novbr.",
+     "bedeckt",
+     1,
+     240,
+     15,
+     16.0
+    ],
+    [
+     "Hohenleuben",
+     2,
+     11,
+     "Novbr.",
+     "gemischt",
+     2,
+     63,
+     15,
+     4.2
+    ],
+    [
+     "Hohenleuben",
+     2,
+     11,
+     "Novbr.",
+     "hell",
+     3,
+     147,
+     15,
+     9.8
+    ],
+    [
+     "Hohenleuben",
+     2,
+     12,
+     "Decbr.",
+     "bedeckt",
+     1,
+     307,
+     15,
+     20.5
+    ],
+    [
+     "Hohenleuben",
+     2,
+     12,
+     "Decbr.",
+     "gemischt",
+     2,
+     64,
+     15,
+     4.3
+    ],
+    [
+     "Hohenleuben",
+     2,
+     12,
+     "Decbr.",
+     "hell",
+     3,
+     94,
+     15,
+     6.3
+    ],
+    [
+     "Schleiz",
+     3,
+     1,
+     "Januar",
+     "bedeckt",
+     1,
+     24,
+     2,
+     12.0
+    ],
+    [
+     "Schleiz",
+     3,
+     1,
+     "Januar",
+     "gemischt",
+     2,
+     29,
+     2,
+     14.5
+    ],
+    [
+     "Schleiz",
+     3,
+     1,
+     "Januar",
+     "hell",
+     3,
+     9,
+     2,
+     4.5
+    ],
+    [
+     "Schleiz",
+     3,
+     2,
+     "Februar",
+     "bedeckt",
+     1,
+     25,
+     2,
+     12.5
+    ],
+    [
+     "Schleiz",
+     3,
+     2,
+     "Februar",
+     "gemischt",
+     2,
+     21,
+     2,
+     10.5
+    ],
+    [
+     "Schleiz",
+     3,
+     2,
+     "Februar",
+     "hell",
+     3,
+     10,
+     2,
+     5.0
+    ],
+    [
+     "Schleiz",
+     3,
+     3,
+     "März",
+     "bedeckt",
+     1,
+     19,
+     2,
+     9.5
+    ],
+    [
+     "Schleiz",
+     3,
+     3,
+     "März",
+     "gemischt",
+     2,
+     36,
+     2,
+     18.0
+    ],
+    [
+     "Schleiz",
+     3,
+     3,
+     "März",
+     "hell",
+     3,
+     7,
+     2,
+     3.5
+    ],
+    [
+     "Schleiz",
+     3,
+     4,
+     "April",
+     "bedeckt",
+     1,
+     23,
+     2,
+     11.5
+    ],
+    [
+     "Schleiz",
+     3,
+     4,
+     "April",
+     "gemischt",
+     2,
+     26,
+     2,
+     13.0
+    ],
+    [
+     "Schleiz",
+     3,
+     4,
+     "April",
+     "hell",
+     3,
+     12,
+     2,
+     6.0
+    ],
+    [
+     "Schleiz",
+     3,
+     5,
+     "Mai",
+     "bedeckt",
+     1,
+     15,
+     2,
+     7.5
+    ],
+    [
+     "Schleiz",
+     3,
+     5,
+     "Mai",
+     "gemischt",
+     2,
+     37,
+     2,
+     18.5
+    ],
+    [
+     "Schleiz",
+     3,
+     5,
+     "Mai",
+     "hell",
+     3,
+     10,
+     2,
+     5.0
+    ],
+    [
+     "Schleiz",
+     3,
+     6,
+     "Juni",
+     "bedeckt",
+     1,
+     16,
+     2,
+     8.0
+    ],
+    [
+     "Schleiz",
+     3,
+     6,
+     "Juni",
+     "gemischt",
+     2,
+     22,
+     2,
+     11.0
+    ],
+    [
+     "Schleiz",
+     3,
+     6,
+     "Juni",
+     "hell",
+     3,
+     22,
+     2,
+     11.0
+    ],
+    [
+     "Schleiz",
+     3,
+     7,
+     "Juli",
+     "bedeckt",
+     1,
+     37,
+     2,
+     18.5
+    ],
+    [
+     "Schleiz",
+     3,
+     7,
+     "Juli",
+     "gemischt",
+     2,
+     14,
+     2,
+     7.0
+    ],
+    [
+     "Schleiz",
+     3,
+     7,
+     "Juli",
+     "hell",
+     3,
+     11,
+     2,
+     5.5
+    ],
+    [
+     "Schleiz",
+     3,
+     8,
+     "August",
+     "bedeckt",
+     1,
+     22,
+     2,
+     11.0
+    ],
+    [
+     "Schleiz",
+     3,
+     8,
+     "August",
+     "gemischt",
+     2,
+     28,
+     2,
+     14.0
+    ],
+    [
+     "Schleiz",
+     3,
+     8,
+     "August",
+     "hell",
+     3,
+     12,
+     2,
+     6.0
+    ],
+    [
+     "Schleiz",
+     3,
+     9,
+     "Septbr.",
+     "bedeckt",
+     1,
+     28,
+     2,
+     14.0
+    ],
+    [
+     "Schleiz",
+     3,
+     9,
+     "Septbr.",
+     "gemischt",
+     2,
+     24,
+     2,
+     12.0
+    ],
+    [
+     "Schleiz",
+     3,
+     9,
+     "Septbr.",
+     "hell",
+     3,
+     8,
+     2,
+     4.0
+    ],
+    [
+     "Schleiz",
+     3,
+     10,
+     "October",
+     "bedeckt",
+     1,
+     15,
+     2,
+     7.5
+    ],
+    [
+     "Schleiz",
+     3,
+     10,
+     "October",
+     "gemischt",
+     2,
+     17,
+     2,
+     8.5
+    ],
+    [
+     "Schleiz",
+     3,
+     10,
+     "October",
+     "hell",
+     3,
+     32,
+     2,
+     16.0
+    ],
+    [
+     "Schleiz",
+     3,
+     11,
+     "Novbr.",
+     "bedeckt",
+     1,
+     43,
+     2,
+     21.5
+    ],
+    [
+     "Schleiz",
+     3,
+     11,
+     "Novbr.",
+     "gemischt",
+     2,
+     11,
+     2,
+     5.5
+    ],
+    [
+     "Schleiz",
+     3,
+     11,
+     "Novbr.",
+     "hell",
+     3,
+     4,
+     2,
+     2.0
+    ],
+    [
+     "Schleiz",
+     3,
+     12,
+     "Decbr.",
+     "bedeckt",
+     1,
+     24,
+     2,
+     12.0
+    ],
+    [
+     "Schleiz",
+     3,
+     12,
+     "Decbr.",
+     "gemischt",
+     2,
+     28,
+     2,
+     14.0
+    ],
+    [
+     "Schleiz",
+     3,
+     12,
+     "Decbr.",
+     "hell",
+     3,
+     10,
+     2,
+     5.0
+    ]
+   ],
+   "source_refs": [
+    {
+     "page": "64",
+     "block": "b6",
+     "rows": "r3-r14"
+    },
+    {
+     "page": "65",
+     "block": "b1",
+     "rows": "r4-r15"
+    }
+   ]
+  },
+  {
+   "name": "annual",
+   "title": {
+    "de": "Himmelsansicht im Jahresmittel, sechs Orte",
+    "en": "Sky condition as annual mean, six places"
+   },
+   "columns": [
+    {
+     "name": "station",
+     "label": {
+      "de": "Beobachtungsort",
+      "en": "Station"
+     },
+     "type": "string",
+     "unit": null,
+     "note": "Orte wie im Druck; Hof und Arnstadt liegen außerhalb des Fürstentums"
+    },
+    {
+     "name": "station_order",
+     "label": {
+      "de": "Reihenfolge des Ortes",
+      "en": "Station order"
+     },
+     "type": "integer",
+     "unit": null,
+     "derived": true,
+     "note": "Reihenfolge wie bei Brückner"
+    },
+    {
+     "name": "category",
+     "label": {
+      "de": "Himmelsansicht",
+      "en": "Sky condition"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "category_order",
+     "label": {
+      "de": "Reihenfolge der Himmelsansicht",
+      "en": "Sky condition order"
+     },
+     "type": "integer",
+     "unit": null,
+     "derived": true
+    },
+    {
+     "name": "days_per_year",
+     "label": {
+      "de": "Tage pro Jahr",
+      "en": "Days per year"
+     },
+     "type": "number",
+     "unit": "Tage"
+    },
+    {
+     "name": "share",
+     "label": {
+      "de": "Anteil",
+      "en": "Share"
+     },
+     "type": "number",
+     "unit": "%",
+     "derived": true,
+     "note": "an der Summe der drei gedruckten Jahreswerte des Orts"
+    }
+   ],
+   "rows": [
+    [
+     "Gera",
+     1,
+     "bedeckt",
+     1,
+     66.3,
+     18.2
+    ],
+    [
+     "Gera",
+     1,
+     "gemischt",
+     2,
+     243.2,
+     66.6
+    ],
+    [
+     "Gera",
+     1,
+     "hell",
+     3,
+     55.5,
+     15.2
+    ],
+    [
+     "Hohenleuben",
+     2,
+     "bedeckt",
+     1,
+     173.6,
+     47.7
+    ],
+    [
+     "Hohenleuben",
+     2,
+     "gemischt",
+     2,
+     54.9,
+     15.1
+    ],
+    [
+     "Hohenleuben",
+     2,
+     "hell",
+     3,
+     135.8,
+     37.3
+    ],
+    [
+     "Schleiz",
+     3,
+     "bedeckt",
+     1,
+     145.0,
+     39.7
+    ],
+    [
+     "Schleiz",
+     3,
+     "gemischt",
+     2,
+     146.5,
+     40.1
+    ],
+    [
+     "Schleiz",
+     3,
+     "hell",
+     3,
+     73.5,
+     20.1
+    ],
+    [
+     "Rothenacker",
+     4,
+     "bedeckt",
+     1,
+     160.0,
+     43.8
+    ],
+    [
+     "Rothenacker",
+     4,
+     "gemischt",
+     2,
+     170.5,
+     46.7
+    ],
+    [
+     "Rothenacker",
+     4,
+     "hell",
+     3,
+     34.5,
+     9.5
+    ],
+    [
+     "Hof",
+     5,
+     "bedeckt",
+     1,
+     137.0,
+     37.5
+    ],
+    [
+     "Hof",
+     5,
+     "gemischt",
+     2,
+     113.0,
+     31.0
+    ],
+    [
+     "Hof",
+     5,
+     "hell",
+     3,
+     115.0,
+     31.5
+    ],
+    [
+     "Arnstadt",
+     6,
+     "bedeckt",
+     1,
+     152.0,
+     41.6
+    ],
+    [
+     "Arnstadt",
+     6,
+     "gemischt",
+     2,
+     117.0,
+     32.1
+    ],
+    [
+     "Arnstadt",
+     6,
+     "hell",
+     3,
+     96.0,
+     26.3
+    ]
+   ],
+   "source_refs": [
+    {
+     "page": "65",
+     "block": "b4",
+     "rows": "r2-r7"
+    }
+   ]
+  }
+ ],
+ "charts": [
+  {
+   "id": "c1",
+   "dataset": "annual",
+   "title": {
+    "de": "Himmelsansicht im Jahresmittel",
+    "en": "Sky condition, annual mean"
+   },
+   "caption": {
+    "de": "Anteil der bedeckten, gemischten und hellen Tage am Jahr (%), nach Anteil der bedeckten Tage geordnet. Gera meldet zwei Drittel »gemischte« Tage, Hohenleuben nur 15 %; die Spannweite spiegelt unterschiedliche Abgrenzungen wider.",
+    "en": "Share of overcast, mixed and clear days in the year (%), ordered by the share of overcast days. Gera reports two thirds “mixed” days, Hohenleuben only 15 %; the range reflects different delimitations."
+   },
+   "vegalite": {
+    "height": 280,
+    "transform": [
+     {
+      "calculate": {
+       "de": "datum.category",
+       "en": "{'bedeckt':'Overcast','gemischt':'Mixed','hell':'Clear'}[datum.category]"
+      },
+      "as": "cat_label"
+     },
+     {
+      "calculate": "datum.category == 'bedeckt' ? datum.share : 0",
+      "as": "ovc"
+     }
+    ],
+    "mark": "bar",
+    "encoding": {
+     "y": {
+      "field": "station",
+      "type": "nominal",
+      "title": null,
+      "sort": {
+       "field": "ovc",
+       "op": "max",
+       "order": "descending"
+      }
+     },
+     "x": {
+      "field": "share",
+      "type": "quantitative",
+      "stack": "zero",
+      "title": {
+       "de": "Anteil der Tage im Jahr (%)",
+       "en": "Share of days in the year (%)"
+      },
+      "scale": {
+       "domain": [
+        0,
+        100
+       ]
+      }
+     },
+     "color": {
+      "field": "category",
+      "type": "nominal",
+      "title": null,
+      "scale": {
+       "domain": [
+        "bedeckt",
+        "gemischt",
+        "hell"
+       ]
+      },
+      "legend": {
+       "labelExpr": {
+        "de": "datum.label",
+        "en": "{'bedeckt':'Overcast','gemischt':'Mixed','hell':'Clear'}[datum.label]"
+       }
+      }
+     },
+     "order": {
+      "field": "category_order",
+      "type": "quantitative"
+     },
+     "tooltip": [
+      {
+       "field": "station",
+       "title": {
+        "de": "Ort",
+        "en": "Station"
+       }
+      },
+      {
+       "field": "cat_label",
+       "title": {
+        "de": "Himmelsansicht",
+        "en": "Sky condition"
+       }
+      },
+      {
+       "field": "days_per_year",
+       "title": {
+        "de": "Tage pro Jahr",
+        "en": "Days per year"
+       }
+      },
+      {
+       "field": "share",
+       "title": "%",
+       "format": ".1f"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "c2",
+   "dataset": "monthly",
+   "title": {
+    "de": "Jahresgang der Himmelsansicht",
+    "en": "Annual cycle of sky condition"
+   },
+   "caption": {
+    "de": "Tage pro Monat und Jahr (Periodensumme ÷ Jahre). In Gera dominieren »gemischte« Tage das ganze Jahr, in Hohenleuben bedeckte und helle; bedeckte Tage häufen sich überall im Spätherbst und Winter. Schleiz beruht nur auf zwei Jahren.",
+    "en": "Days per month and year (period total ÷ years). At Gera “mixed” days dominate all year, at Hohenleuben overcast and clear ones; overcast days pile up everywhere in late autumn and winter. Schleiz rests on two years only."
+   },
+   "vegalite": {
+    "autosize": {
+     "type": "pad"
+    },
+    "transform": [
+     {
+      "calculate": {
+       "de": "['Jan','Feb','Mär','Apr','Mai','Jun','Jul','Aug','Sep','Okt','Nov','Dez'][datum.month-1]",
+       "en": "['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'][datum.month-1]"
+      },
+      "as": "mlabel"
+     },
+     {
+      "calculate": {
+       "de": "datum.category",
+       "en": "{'bedeckt':'Overcast','gemischt':'Mixed','hell':'Clear'}[datum.category]"
+      },
+      "as": "cat_label"
+     },
+     {
+      "calculate": {
+       "de": "{'Gera':'Gera (10 Jahre)','Hohenleuben':'Hohenleuben (15 Jahre)','Schleiz':'Schleiz (2 Jahre)'}[datum.station]",
+       "en": "{'Gera':'Gera (10 years)','Hohenleuben':'Hohenleuben (15 years)','Schleiz':'Schleiz (2 years)'}[datum.station]"
+      },
+      "as": "station_label"
+     }
+    ],
+    "facet": {
+     "row": {
+      "field": "station_label",
+      "type": "nominal",
+      "title": null,
+      "sort": {
+       "field": "station_order",
+       "op": "min"
+      },
+      "header": {
+       "labelAngle": 0,
+       "labelOrient": "top",
+       "labelAlign": "left",
+       "labelPadding": 4
+      }
+     }
+    },
+    "spec": {
+     "width": 560,
+     "height": 84,
+     "mark": {
+      "type": "line",
+      "point": true
+     },
+     "encoding": {
+      "x": {
+       "field": "mlabel",
+       "type": "ordinal",
+       "sort": {
+        "field": "month",
+        "op": "min"
+       },
+       "title": null,
+       "axis": {
+        "labelAngle": 0
+       }
+      },
+      "y": {
+       "field": "days_per_year",
+       "type": "quantitative",
+       "title": {
+        "de": "Tage/Monat",
+        "en": "Days/month"
+       },
+       "scale": {
+        "domain": [
+         0,
+         30
+        ]
+       },
+       "axis": {
+        "tickCount": 4
+       }
+      },
+      "color": {
+       "field": "category",
+       "type": "nominal",
+       "title": null,
+       "scale": {
+        "domain": [
+         "bedeckt",
+         "gemischt",
+         "hell"
+        ]
+       },
+       "legend": {
+        "labelExpr": {
+         "de": "datum.label",
+         "en": "{'bedeckt':'Overcast','gemischt':'Mixed','hell':'Clear'}[datum.label]"
+        }
+       }
+      },
+      "tooltip": [
+       {
+        "field": "station",
+        "title": {
+         "de": "Ort",
+         "en": "Station"
+        }
+       },
+       {
+        "field": "mlabel",
+        "title": {
+         "de": "Monat",
+         "en": "Month"
+        }
+       },
+       {
+        "field": "cat_label",
+        "title": {
+         "de": "Himmelsansicht",
+         "en": "Sky condition"
+        }
+       },
+       {
+        "field": "days_period",
+        "title": {
+         "de": "Tage im Zeitraum",
+         "en": "Days in the period"
+        }
+       },
+       {
+        "field": "years",
+        "title": {
+         "de": "Jahre",
+         "en": "Years"
+        }
+       },
+       {
+        "field": "days_per_year",
+        "title": {
+         "de": "Tage pro Monat und Jahr",
+         "en": "Days per month and year"
+        },
+        "format": ".1f"
+       }
+      ]
+     }
+    }
+   }
+  }
+ ],
+ "keywords": {
+  "de": [
+   "Bewölkung",
+   "Himmelsansicht",
+   "bedeckt",
+   "heiter",
+   "Gera",
+   "Hohenleuben",
+   "Schleiz",
+   "Rothenacker",
+   "Hof",
+   "Arnstadt",
+   "Meteorologie"
+  ],
+  "en": [
+   "cloud cover",
+   "sky condition",
+   "overcast",
+   "clear sky",
+   "Gera",
+   "Hohenleuben",
+   "Schleiz",
+   "Rothenacker",
+   "Hof",
+   "Arnstadt",
+   "meteorology"
+  ]
+ },
+ "related": [
+  "klima-wind-stationen-vergleich",
+  "klima-witterungserscheinungen-gera-1856-1867"
+ ],
+ "supersedes_legacy": "p. 64 'Grade der Bewölkung' for Gera (iframe; its stated period 1783–1792 is not in the printed text) and p. 65 'Grade der Bewölkung' for Hohenleuben, Schleiz and the six-place comparison (iframe)",
+ "generated_by": "Claude Sonnet 5.5 (subagent A04)",
+ "date": "2026-10-01"
+}

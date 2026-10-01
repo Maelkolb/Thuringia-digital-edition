@@ -1,0 +1,149 @@
+{
+ "seq": 5,
+ "label": "I",
+ "slug": "I",
+ "iiif": {
+  "service": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb11005578_00005",
+  "canvas": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11005578/canvas/5",
+  "width": 1615,
+  "height": 2693
+ },
+ "kind": "text",
+ "running_header": null,
+ "signature": null,
+ "blocks": [
+  {
+   "id": "b1",
+   "type": "heading",
+   "src": 0,
+   "text": "Volks- und Landeskunde",
+   "spans": [],
+   "sec": "titel",
+   "level": 4
+  },
+  {
+   "id": "b2",
+   "type": "paragraph",
+   "src": 1,
+   "text": "des",
+   "spans": [],
+   "sec": "titel"
+  },
+  {
+   "id": "b3",
+   "type": "heading",
+   "src": 2,
+   "text": "Fürstenthums Reuß j. L.",
+   "spans": [
+    [
+     0,
+     23,
+     "Location"
+    ]
+   ],
+   "sec": "titel",
+   "level": 4
+  },
+  {
+   "id": "b4",
+   "type": "paragraph",
+   "src": 3,
+   "text": "Im Auftrage des regierenden Landesfürsten",
+   "spans": [],
+   "sec": "titel"
+  },
+  {
+   "id": "b5",
+   "type": "paragraph",
+   "src": 4,
+   "text": "verfasst von",
+   "spans": [],
+   "sec": "titel"
+  },
+  {
+   "id": "b6",
+   "type": "paragraph",
+   "src": 5,
+   "text": "G. Brückner,",
+   "spans": [
+    [
+     0,
+     11,
+     "Person"
+    ]
+   ],
+   "sec": "titel"
+  },
+  {
+   "id": "b7",
+   "type": "paragraph",
+   "src": 6,
+   "text": "Hof- und Archivrath in Meiningen.",
+   "spans": [
+    [
+     23,
+     32,
+     "Location"
+    ]
+   ],
+   "sec": "titel"
+  },
+  {
+   "id": "b8",
+   "type": "paragraph",
+   "src": 7,
+   "text": "Gera 1870.",
+   "spans": [
+    [
+     0,
+     4,
+     "Location"
+    ]
+   ],
+   "sec": "titel"
+  },
+  {
+   "id": "b9",
+   "type": "paragraph",
+   "src": 8,
+   "text": "Verlag von Fr. Eugen Köhler.",
+   "spans": [
+    [
+     11,
+     27,
+     "Person"
+    ]
+   ],
+   "sec": "titel"
+  },
+  {
+   "id": "b10",
+   "type": "paragraph",
+   "src": 9,
+   "text": "Firma: Kanitz'sche Buchhandlung.",
+   "spans": [
+    [
+     7,
+     31,
+     "Organisation"
+    ]
+   ],
+   "sec": "titel"
+  }
+ ],
+ "footnotes": [],
+ "corrections": [],
+ "provenance": {
+  "source": "gapfill-2026-10",
+  "model": "gemini-3-flash-preview",
+  "timestamp": "2026-10-01T20:17:26.901605",
+  "early_schema": false
+ },
+ "section_path": [
+  "front",
+  "titel"
+ ],
+ "sections": [
+  "titel"
+ ]
+}

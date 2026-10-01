@@ -1,0 +1,388 @@
+{
+ "seq": 842,
+ "label": "830",
+ "slug": "830",
+ "iiif": {
+  "service": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb11005578_00842",
+  "canvas": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11005578/canvas/842",
+  "width": 1569,
+  "height": 2685
+ },
+ "kind": "text",
+ "running_header": null,
+ "signature": null,
+ "blocks": [
+  {
+   "id": "b1",
+   "type": "heading",
+   "src": 0,
+   "text": "Zusätze und Berichtigungen.",
+   "spans": [],
+   "opens": [
+    "berichtigungen"
+   ],
+   "sec": "berichtigungen",
+   "level": 3
+  },
+  {
+   "id": "b2",
+   "type": "paragraph",
+   "src": 1,
+   "text": "S. 61. Z. 1 v. o. fehlt nach zeigte sich: 1864.",
+   "spans": [],
+   "sec": "berichtigungen"
+  },
+  {
+   "id": "b3",
+   "type": "paragraph",
+   "src": 2,
+   "text": "S. 66. In der 3. Spalte der für Gera aufgestellten Tabelle\nlies: 87. 181. 152. 84. 1544. 128,6 und Juli Max.\nstatt: 79. 169. 142. 92. 1540. 126,4 und Mai Max.",
+   "spans": [
+    [
+     32,
+     36,
+     "Location"
+    ]
+   ],
+   "sec": "berichtigungen"
+  },
+  {
+   "id": "b4",
+   "type": "list",
+   "src": 3,
+   "items": [
+    {
+     "text": "S. 67. Z. 20 v. o. lies: 128,6 statt 148,4 und 22,5 statt 22,3.",
+     "spans": []
+    },
+    {
+     "text": "\" 26 \" \" lies: der Regentage statt des Regens.",
+     "spans": []
+    },
+    {
+     "text": "\" 27 \" \" lies: Juli statt Mai.",
+     "spans": []
+    },
+    {
+     "text": "5 und 3 v. u. in der 11. Spalte lies: 1 statt 2 und 5 statt 6.",
+     "spans": []
+    }
+   ],
+   "sec": "berichtigungen"
+  },
+  {
+   "id": "b5",
+   "type": "list",
+   "src": 4,
+   "items": [
+    {
+     "text": "S. 68. Z. 9 v. u. lies: Dr. Rob. Schmidt in Gera statt Rob. Schmidt in Hohenleuben.",
+     "spans": [
+      [
+       24,
+       40,
+       "Person"
+      ],
+      [
+       44,
+       48,
+       "Location"
+      ],
+      [
+       28,
+       40,
+       "Person"
+      ],
+      [
+       71,
+       82,
+       "Location"
+      ]
+     ]
+    },
+    {
+     "text": "\" 2 \" \" lies: Dr. Rob. Schmidt statt Rud. Schmidt.",
+     "spans": [
+      [
+       14,
+       30,
+       "Person"
+      ],
+      [
+       37,
+       49,
+       "Person"
+      ]
+     ]
+    }
+   ],
+   "sec": "berichtigungen"
+  },
+  {
+   "id": "b6",
+   "type": "paragraph",
+   "src": 5,
+   "text": "S. 69. In der 5. Spalte der Tabelle lies: 319,25 statt 319,28; in der 6. Spalte 534,50 statt 554,50; in der 9. Spalte 18,13 statt 18,74; 23,70 statt 20,59; 22,74 statt 20,98; 18,21 statt 20,45; 20,44 statt 20,42; 20,57 statt 20,36.",
+   "spans": [],
+   "sec": "berichtigungen"
+  },
+  {
+   "id": "b7",
+   "type": "list",
+   "src": 6,
+   "items": [
+    {
+     "text": "S. 72. Z. 15 v. u. ist Laserpitium pruthenicum zu streichen.",
+     "spans": [
+      [
+       23,
+       46,
+       "Plant"
+      ]
+     ]
+    },
+    {
+     "text": "\" 11 \" \" lies: Pulicaria statt Palicaria.",
+     "spans": [
+      [
+       15,
+       24,
+       "Plant"
+      ]
+     ]
+    },
+    {
+     "text": "\" 5 \" \" lies: Schlechtendal statt Schachtendal.",
+     "spans": [
+      [
+       14,
+       27,
+       "Person"
+      ]
+     ]
+    }
+   ],
+   "sec": "berichtigungen"
+  },
+  {
+   "id": "b8",
+   "type": "paragraph",
+   "src": 7,
+   "text": "S. 73. Die Z. 19 und 22 v. o. genannten Pflanzen Neottia Nidus avis, Rich. und Gentiana ciliata sind zu streichen, weil sich dieselben auch im Oberlande vorfinden, dagegen ist als dem Unterlande eigenthümlich noch Salvia verticillata einzutragen.",
+   "spans": [
+    [
+     49,
+     74,
+     "Plant"
+    ],
+    [
+     79,
+     95,
+     "Plant"
+    ],
+    [
+     214,
+     233,
+     "Plant"
+    ]
+   ],
+   "sec": "berichtigungen"
+  },
+  {
+   "id": "b9",
+   "type": "paragraph",
+   "src": 8,
+   "text": "Z. 6 v. u. muß der Stern wegfallen, weil Nuphar luteum in der That öfters im Oberlande getroffen wird. Dem Oberlande gehören übrigens noch als eigenthümlich Libanotis montana, Crtz und Phyteum orbiculare.",
+   "spans": [
+    [
+     41,
+     54,
+     "Plant"
+    ],
+    [
+     157,
+     180,
+     "Plant"
+    ],
+    [
+     185,
+     203,
+     "Plant"
+    ]
+   ],
+   "sec": "berichtigungen"
+  },
+  {
+   "id": "b10",
+   "type": "paragraph",
+   "src": 9,
+   "text": "S. 74. Z. 21 v. u. lies: villosum statt vilosum.",
+   "spans": [],
+   "sec": "berichtigungen"
+  },
+  {
+   "id": "b11",
+   "type": "paragraph",
+   "src": 10,
+   "text": "S. 75. Z. 18 v. o. Das im Küchengarten bei Untermhaus vorkommende Apocynum ist nach Angabe des Hofgärtners Papst Apoc. Venetum. Dies schwer zu verpflanzende Gewächs hält die mit seinen Staubfäden in Berührung kommenden Insecten fest.",
+   "spans": [
+    [
+     26,
+     38,
+     "Artefact"
+    ],
+    [
+     43,
+     53,
+     "Location"
+    ],
+    [
+     66,
+     74,
+     "Plant"
+    ],
+    [
+     107,
+     112,
+     "Person"
+    ],
+    [
+     113,
+     126,
+     "Plant"
+    ]
+   ],
+   "sec": "berichtigungen"
+  },
+  {
+   "id": "b12",
+   "type": "paragraph",
+   "src": 11,
+   "text": "S. 78. Z. 5 v. o. Die stolze Einzelfichte hat am 7. Dec. 1868 der Sturm gebrochen.",
+   "spans": [
+    [
+     29,
+     41,
+     "Plant"
+    ],
+    [
+     66,
+     71,
+     "Climate"
+    ]
+   ],
+   "sec": "berichtigungen"
+  },
+  {
+   "id": "b13",
+   "type": "paragraph",
+   "src": 12,
+   "text": "S. 79. Z. 23 v. u. lies: Cladoniensflechten statt Clidoniensflechten. Der Straußenfarn oder Straußfarn (eine Sandsteinform) und Laserpitium pruthenicum (Z. 12 v. u.) sind als charakteristische Pflanzen des Oberlandes zu streichen.",
+   "spans": [
+    [
+     25,
+     43,
+     "Plant"
+    ],
+    [
+     74,
+     86,
+     "Plant"
+    ],
+    [
+     92,
+     102,
+     "Plant"
+    ],
+    [
+     128,
+     151,
+     "Plant"
+    ]
+   ],
+   "sec": "berichtigungen"
+  },
+  {
+   "id": "b14",
+   "type": "list",
+   "src": 13,
+   "items": [
+    {
+     "text": "S. 80. Z. 8 v. o. lies: allenthalben statt nur stellenweise. Nach Calla palustris ist „sehr selten\" (plothener Teichrevier) zu setzen.",
+     "spans": [
+      [
+       66,
+       81,
+       "Plant"
+      ],
+      [
+       101,
+       122,
+       "Environment"
+      ]
+     ]
+    },
+    {
+     "text": "\" 21 v. o. lies: canopsea statt canopea.",
+     "spans": []
+    },
+    {
+     "text": "\" 29 \" \" Die als Gemüse benutzte Otterzunge ist Rumex in verschiedenen Arten.",
+     "spans": [
+      [
+       33,
+       43,
+       "Plant"
+      ],
+      [
+       48,
+       53,
+       "Plant"
+      ]
+     ]
+    },
+    {
+     "text": "\" 32 v. o. Das schlimmste Feldunkraut des Oberlandes ist die Ackerbrombeere.",
+     "spans": [
+      [
+       61,
+       75,
+       "Plant"
+      ]
+     ]
+    },
+    {
+     "text": "\" 5 v. u. Sedum villosum kommt nur auf nassen, schwach säuerlichen Wiesen vor.",
+     "spans": [
+      [
+       10,
+       24,
+       "Plant"
+      ],
+      [
+       67,
+       73,
+       "Environment"
+      ]
+     ]
+    }
+   ],
+   "sec": "berichtigungen"
+  }
+ ],
+ "footnotes": [],
+ "corrections": [],
+ "provenance": {
+  "source": "colab-2026-03",
+  "model": "gemini-3-flash-preview",
+  "timestamp": "2026-03-04T21:47:23.446786",
+  "early_schema": false
+ },
+ "section_path": [
+  "back",
+  "ortsregister"
+ ],
+ "sections": [
+  "berichtigungen"
+ ]
+}

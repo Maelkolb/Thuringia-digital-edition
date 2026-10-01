@@ -1,0 +1,819 @@
+{
+ "seq": 289,
+ "label": "277",
+ "slug": "277",
+ "iiif": {
+  "service": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb11005578_00289",
+  "canvas": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11005578/canvas/289",
+  "width": 1643,
+  "height": 2696
+ },
+ "kind": "text",
+ "running_header": "3. Die Staatsverwaltung.",
+ "signature": null,
+ "blocks": [
+  {
+   "id": "b1",
+   "type": "table",
+   "src": 0,
+   "n_cols": 3,
+   "header_rows": 1,
+   "rows": [
+    {
+     "role": "header",
+     "cells": [
+      {
+       "text": "98,000 Thaler",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "Zollgefälle, Braumalzbesteuer-, Übergangsabgaben und Rübenzuckersteuer.",
+       "spans": [
+        [
+         53,
+         64,
+         "Resource"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "25,000",
+       "spans": []
+      },
+      {
+       "text": "\"",
+       "spans": []
+      },
+      {
+       "text": "Braumalzsteuer.",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "29,000",
+       "spans": []
+      },
+      {
+       "text": "\"",
+       "spans": []
+      },
+      {
+       "text": "Salzregieertrag.",
+       "spans": [
+        [
+         0,
+         4,
+         "Resource"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "600",
+       "spans": []
+      },
+      {
+       "text": "\"",
+       "spans": []
+      },
+      {
+       "text": "Hundesteuer.",
+       "spans": [
+        [
+         0,
+         5,
+         "Animal"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "950",
+       "spans": []
+      },
+      {
+       "text": "\"",
+       "spans": []
+      },
+      {
+       "text": "Spielkartenstempelsteuer.",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1100",
+       "spans": []
+      },
+      {
+       "text": "\"",
+       "spans": []
+      },
+      {
+       "text": "Erlös aus Jagdkarten.",
+       "spans": [
+        [
+         10,
+         20,
+         "Artefact"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "154,650 Thaler",
+       "spans": []
+      },
+      {
+       "text": "in Summe.",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      }
+     ]
+    }
+   ],
+   "grid": [
+    [
+     "98,000 Thaler",
+     "",
+     "Zollgefälle, Braumalzbesteuer-, Übergangsabgaben und Rübenzuckersteuer."
+    ],
+    [
+     "25,000",
+     "\"",
+     "Braumalzsteuer."
+    ],
+    [
+     "29,000",
+     "\"",
+     "Salzregieertrag."
+    ],
+    [
+     "600",
+     "\"",
+     "Hundesteuer."
+    ],
+    [
+     "950",
+     "\"",
+     "Spielkartenstempelsteuer."
+    ],
+    [
+     "1100",
+     "\"",
+     "Erlös aus Jagdkarten."
+    ],
+    [
+     "154,650 Thaler",
+     "in Summe.",
+     ""
+    ]
+   ],
+   "caption": null,
+   "sec": "t1-4-3"
+  },
+  {
+   "id": "b2",
+   "type": "paragraph",
+   "src": 1,
+   "text": "Die Jagdkartengelder werden durch die Landrathsämter, die Hundesteuern durch die Bezirkssteuereinnahmen (im Landestheile Gera durch einen besonderen Beamten) erhoben; im Übrigen ist die Erhebung der indirecten Steuern den Steuerämtern, den Steuerrecepturen und dem Salzsteueramte in Heinrichshall zugewiesen. Der Steuerämter sind vier: zu Gera, Schleiz, Lobenstein und Hirschberg, der Steuerrecepturen eine: zu Saalburg.",
+   "spans": [
+    [
+     4,
+     20,
+     "Resource"
+    ],
+    [
+     38,
+     52,
+     "Organisation"
+    ],
+    [
+     58,
+     70,
+     "Resource"
+    ],
+    [
+     81,
+     103,
+     "Organisation"
+    ],
+    [
+     121,
+     125,
+     "Location"
+    ],
+    [
+     222,
+     234,
+     "Organisation"
+    ],
+    [
+     240,
+     256,
+     "Organisation"
+    ],
+    [
+     265,
+     279,
+     "Organisation"
+    ],
+    [
+     283,
+     296,
+     "Location"
+    ],
+    [
+     313,
+     324,
+     "Organisation"
+    ],
+    [
+     339,
+     343,
+     "Location"
+    ],
+    [
+     345,
+     352,
+     "Location"
+    ],
+    [
+     354,
+     364,
+     "Location"
+    ],
+    [
+     369,
+     379,
+     "Location"
+    ],
+    [
+     385,
+     401,
+     "Organisation"
+    ],
+    [
+     411,
+     419,
+     "Location"
+    ]
+   ],
+   "sec": "t1-4-3"
+  },
+  {
+   "id": "b3",
+   "type": "table",
+   "src": 2,
+   "n_cols": 2,
+   "header_rows": 1,
+   "rows": [
+    {
+     "role": "header",
+     "cells": [
+      {
+       "text": "53,600 Thaler",
+       "spans": []
+      },
+      {
+       "text": "Grundsteuer,",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "27,560 \"",
+       "spans": []
+      },
+      {
+       "text": "Gewerbe- und Personalsteuer,",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "81,100 Thaler",
+       "spans": []
+      },
+      {
+       "text": "in Summe,",
+       "spans": []
+      }
+     ]
+    }
+   ],
+   "grid": [
+    [
+     "53,600 Thaler",
+     "Grundsteuer,"
+    ],
+    [
+     "27,560 \"",
+     "Gewerbe- und Personalsteuer,"
+    ],
+    [
+     "81,100 Thaler",
+     "in Summe,"
+    ]
+   ],
+   "caption": "Die directen Steuern beliefen sich seither auf",
+   "sec": "t1-4-3"
+  },
+  {
+   "id": "b4",
+   "type": "paragraph",
+   "src": 3,
+   "text": "ausschließlich der den Localeinnehmern zukommenden Hebegebühren. Die eingehobenen Beträge sind von den Localeinnehmern an die Bezirkssteuereinnahmen und von diesen an die Hauptstaatskasse abzuliefern. Der Bezirkssteuereinnahmen bestehen drei, nämlich Gera, Schleiz und Ebersdorf. Recurse in Betreff der Besteuerung gehen von der Einschätzungskommission an die Kreisausschüsse (Gera, Schleiz und Ebersdorf) und in letzter Instanz bei Verletzung gesetzlicher Bestimmungen an das Ministerium.",
+   "spans": [
+    [
+     126,
+     148,
+     "Organisation"
+    ],
+    [
+     171,
+     187,
+     "Organisation"
+    ],
+    [
+     205,
+     227,
+     "Organisation"
+    ],
+    [
+     251,
+     255,
+     "Location"
+    ],
+    [
+     257,
+     264,
+     "Location"
+    ],
+    [
+     269,
+     278,
+     "Location"
+    ],
+    [
+     329,
+     352,
+     "Organisation"
+    ],
+    [
+     360,
+     375,
+     "Organisation"
+    ],
+    [
+     377,
+     381,
+     "Location"
+    ],
+    [
+     383,
+     390,
+     "Location"
+    ],
+    [
+     395,
+     404,
+     "Location"
+    ],
+    [
+     477,
+     488,
+     "Organisation"
+    ]
+   ],
+   "sec": "t1-4-3"
+  },
+  {
+   "id": "b5",
+   "type": "paragraph",
+   "src": 4,
+   "text": "Die Instandhaltung der Grundsteuercataster ist Sache des Catasterbureaus, welches von allen vorkommenden Besitzveränderungen durch die Justizämter, von Neubauten, Bau- und Culturveränderungen durch die Feldgeschworenen Kenntnis erhält, die erforderlichen Berichtigungen der Cataster vornimmt und hiervon die den Bezirkssteuereinnahmern entsprechende Nachricht giebt.",
+   "spans": [
+    [
+     57,
+     72,
+     "Organisation"
+    ],
+    [
+     135,
+     146,
+     "Organisation"
+    ],
+    [
+     312,
+     335,
+     "Organisation"
+    ]
+   ],
+   "sec": "t1-4-3"
+  },
+  {
+   "id": "b6",
+   "type": "table",
+   "src": 5,
+   "n_cols": 7,
+   "header_rows": 0,
+   "rows": [
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1857:",
+       "spans": []
+      },
+      {
+       "text": "459,126",
+       "spans": []
+      },
+      {
+       "text": "Thlr.",
+       "spans": []
+      },
+      {
+       "text": "22",
+       "spans": []
+      },
+      {
+       "text": "Sgr.",
+       "spans": []
+      },
+      {
+       "text": "7",
+       "spans": []
+      },
+      {
+       "text": "Pf.",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1858:",
+       "spans": []
+      },
+      {
+       "text": "457,106",
+       "spans": []
+      },
+      {
+       "text": "\"",
+       "spans": []
+      },
+      {
+       "text": "10",
+       "spans": []
+      },
+      {
+       "text": "\"",
+       "spans": []
+      },
+      {
+       "text": "1",
+       "spans": []
+      },
+      {
+       "text": "\"",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1859:",
+       "spans": []
+      },
+      {
+       "text": "427,632",
+       "spans": []
+      },
+      {
+       "text": "\"",
+       "spans": []
+      },
+      {
+       "text": "10",
+       "spans": []
+      },
+      {
+       "text": "\"",
+       "spans": []
+      },
+      {
+       "text": "7",
+       "spans": []
+      },
+      {
+       "text": "\"",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1860:",
+       "spans": []
+      },
+      {
+       "text": "403,402",
+       "spans": []
+      },
+      {
+       "text": "\"",
+       "spans": []
+      },
+      {
+       "text": "28",
+       "spans": []
+      },
+      {
+       "text": "\"",
+       "spans": []
+      },
+      {
+       "text": "7",
+       "spans": []
+      },
+      {
+       "text": "\"",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1861:",
+       "spans": []
+      },
+      {
+       "text": "399,235",
+       "spans": []
+      },
+      {
+       "text": "\"",
+       "spans": []
+      },
+      {
+       "text": "21",
+       "spans": []
+      },
+      {
+       "text": "\"",
+       "spans": []
+      },
+      {
+       "text": "8",
+       "spans": []
+      },
+      {
+       "text": "\"",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1866:",
+       "spans": []
+      },
+      {
+       "text": "372,050",
+       "spans": []
+      },
+      {
+       "text": "\"",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "\"",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "\"",
+       "spans": []
+      }
+     ]
+    }
+   ],
+   "grid": [
+    [
+     "1857:",
+     "459,126",
+     "Thlr.",
+     "22",
+     "Sgr.",
+     "7",
+     "Pf."
+    ],
+    [
+     "1858:",
+     "457,106",
+     "\"",
+     "10",
+     "\"",
+     "1",
+     "\""
+    ],
+    [
+     "1859:",
+     "427,632",
+     "\"",
+     "10",
+     "\"",
+     "7",
+     "\""
+    ],
+    [
+     "1860:",
+     "403,402",
+     "\"",
+     "28",
+     "\"",
+     "7",
+     "\""
+    ],
+    [
+     "1861:",
+     "399,235",
+     "\"",
+     "21",
+     "\"",
+     "8",
+     "\""
+    ],
+    [
+     "1866:",
+     "372,050",
+     "\"",
+     "—",
+     "\"",
+     "—",
+     "\""
+    ]
+   ],
+   "caption": "Die verzinsliche Staatsschuld betrug",
+   "sec": "t1-4-3"
+  },
+  {
+   "id": "b7",
+   "type": "paragraph",
+   "src": 6,
+   "text": "Sie besteht seit dem 27. December 1857 lediglich aus unkündbaren mit vier Procent zu verzinsenden Staatsschuldscheinen, die sich zum großen Theile in den Händen von geistlichen Instituten, milden Stiftungen oder auch von staatsficalischen Kassen, welche nicht unmittelbar Dependenzen der Hauptstaatskasse sind, befinden. Die Amortisation erfolgt in der Weise, daß alle drei Jahre 12,600 Thlr. durch Ausloosung getilgt werden.",
+   "spans": [
+    [
+     98,
+     118,
+     "Artefact"
+    ],
+    [
+     288,
+     304,
+     "Organisation"
+    ]
+   ],
+   "sec": "t1-4-3"
+  },
+  {
+   "id": "b8",
+   "type": "paragraph",
+   "src": 7,
+   "text": "Hierzu treten noch 320,000 Thlr. verausgabte Kassenscheine als unverzinsliche Staatsschuld. Das im Jahre 1849 creirte Papiergeld ist zurückgezogen und durch eine neue Emission vom Jahre 1860 ersetzt worden. Die geraer Bank hat Auftrag, die Kassenscheine, welche ihr zur Einwechslung präsentirt werden, gegen Silber einzulösen.",
+   "spans": [
+    [
+     45,
+     58,
+     "Artefact"
+    ],
+    [
+     118,
+     128,
+     "Artefact"
+    ],
+    [
+     211,
+     222,
+     "Organisation"
+    ],
+    [
+     240,
+     253,
+     "Artefact"
+    ],
+    [
+     308,
+     314,
+     "Resource"
+    ]
+   ],
+   "sec": "t1-4-3"
+  },
+  {
+   "id": "b9",
+   "type": "paragraph",
+   "src": 8,
+   "text": "Somit kommen von Staatskassenscheinen auf den Kopf 3,63 Thlr. Mit anderen Staaten verglichen, ergiebt sich folgendes Verhältnis. Es kommen nämlich an Staatskassenscheinen auf den Kopf im:",
+   "spans": [
+    [
+     17,
+     37,
+     "Artefact"
+    ],
+    [
+     150,
+     170,
+     "Artefact"
+    ]
+   ],
+   "sec": "t1-4-3"
+  }
+ ],
+ "footnotes": [],
+ "corrections": [
+  {
+   "rule": "table_drop_empty_columns",
+   "dropped": [
+    0
+   ],
+   "block": "b3"
+  },
+  {
+   "rule": "table_no_header_row",
+   "note": "first row is data (legacy edition rendered it as <th>)",
+   "block": "b6"
+  }
+ ],
+ "provenance": {
+  "source": "colab-2026-03",
+  "model": "gemini-3-flash-preview",
+  "timestamp": "2026-03-04T13:38:34.781978",
+  "early_schema": false
+ },
+ "section_path": [
+  "t1",
+  "t1-4",
+  "t1-4-3"
+ ],
+ "sections": [
+  "t1-4-3"
+ ]
+}

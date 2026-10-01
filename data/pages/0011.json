@@ -1,0 +1,561 @@
+{
+ "seq": 11,
+ "label": "VII",
+ "slug": "VII",
+ "iiif": {
+  "service": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb11005578_00011",
+  "canvas": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11005578/canvas/11",
+  "width": 1586,
+  "height": 2703
+ },
+ "kind": "text",
+ "running_header": null,
+ "signature": null,
+ "blocks": [
+  {
+   "id": "b1",
+   "type": "heading",
+   "src": 0,
+   "text": "Inhalts-Uebersicht.",
+   "spans": [],
+   "opens": [
+    "inhalt",
+    "inhalt"
+   ],
+   "sec": "inhalt",
+   "level": 3
+  },
+  {
+   "id": "b2",
+   "type": "heading",
+   "src": 1,
+   "text": "I. Theil: Allgemeine Landes- und Volkskunde des Fürstenthums Reuß j. L.",
+   "spans": [
+    [
+     48,
+     71,
+     "Location"
+    ]
+   ],
+   "sec": "inhalt",
+   "level": 4
+  },
+  {
+   "id": "b3",
+   "type": "heading",
+   "src": 2,
+   "text": "I. Die Natur des Landes.",
+   "spans": [],
+   "sec": "inhalt",
+   "level": 4
+  },
+  {
+   "id": "b4",
+   "type": "table",
+   "src": 3,
+   "n_cols": 2,
+   "header_rows": 1,
+   "rows": [
+    {
+     "role": "header",
+     "cells": [
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "Seite.",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1) Ueberblick und Bild des Ganzen . . . . . . . . . . . . . . . . . . . .",
+       "spans": []
+      },
+      {
+       "text": "3—5.",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "2) Mathematische Lage . . . . . . . . . . . . . . . . . . . . . .",
+       "spans": []
+      },
+      {
+       "text": "6—7.",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "3) Größe oder Umfang der Bodenfläche . . . . . . . . . . . . . . . . . .",
+       "spans": []
+      },
+      {
+       "text": "7—8.",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "4) Plastik . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+       "spans": []
+      },
+      {
+       "text": "9—24.",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "5) Geognostische Uebersicht . . . . . . . . . . . . . . . . . . . . .",
+       "spans": []
+      },
+      {
+       "text": "24—41.",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "6) Bewässerung . . . . . . . . . . . . . . . . . . . . . . . . .",
+       "spans": []
+      },
+      {
+       "text": "41—53.",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "7) Klima . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+       "spans": []
+      },
+      {
+       "text": "53—70.",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "8) Vegetationsverhältnisse . . . . . . . . . . . . . . . . . . . .",
+       "spans": []
+      },
+      {
+       "text": "70—81.",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "9) Fauna . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+       "spans": []
+      },
+      {
+       "text": "81—90.",
+       "spans": []
+      }
+     ]
+    }
+   ],
+   "grid": [
+    [
+     "",
+     "Seite."
+    ],
+    [
+     "1) Ueberblick und Bild des Ganzen . . . . . . . . . . . . . . . . . . . .",
+     "3—5."
+    ],
+    [
+     "2) Mathematische Lage . . . . . . . . . . . . . . . . . . . . . .",
+     "6—7."
+    ],
+    [
+     "3) Größe oder Umfang der Bodenfläche . . . . . . . . . . . . . . . . . .",
+     "7—8."
+    ],
+    [
+     "4) Plastik . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+     "9—24."
+    ],
+    [
+     "5) Geognostische Uebersicht . . . . . . . . . . . . . . . . . . . . .",
+     "24—41."
+    ],
+    [
+     "6) Bewässerung . . . . . . . . . . . . . . . . . . . . . . . . .",
+     "41—53."
+    ],
+    [
+     "7) Klima . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+     "53—70."
+    ],
+    [
+     "8) Vegetationsverhältnisse . . . . . . . . . . . . . . . . . . . .",
+     "70—81."
+    ],
+    [
+     "9) Fauna . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+     "81—90."
+    ]
+   ],
+   "caption": null,
+   "sec": "inhalt"
+  },
+  {
+   "id": "b5",
+   "type": "heading",
+   "src": 4,
+   "text": "II. Das Volk.",
+   "spans": [],
+   "sec": "inhalt",
+   "level": 4
+  },
+  {
+   "id": "b6",
+   "type": "table",
+   "src": 5,
+   "n_cols": 2,
+   "header_rows": 0,
+   "rows": [
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1) Statistik . . . . . . . . . . . . . . . . . . . . . . . . . .",
+       "spans": []
+      },
+      {
+       "text": "91—118.",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "2) Wohnliche Einrichtung . . . . . . . . . . . . . . . . . . . . .",
+       "spans": []
+      },
+      {
+       "text": "119—138.",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "3) Mundart . . . . . . . . . . . . . . . . . . . . . . . . . .",
+       "spans": []
+      },
+      {
+       "text": "138—154.",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "4) Kleid und Kost . . . . . . . . . . . . . . . . . . . . . . .",
+       "spans": []
+      },
+      {
+       "text": "154—161.",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "5) Gestalt und Character . . . . . . . . . . . . . . . . . . . . .",
+       "spans": []
+      },
+      {
+       "text": "161—168.",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "6) Volkskrankheit und Volksmedicin . . . . . . . . . . . . . . . .",
+       "spans": []
+      },
+      {
+       "text": "168—177.",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "7) Sitte und Brauch . . . . . . . . . . . . . . . . . . . . . . .",
+       "spans": []
+      },
+      {
+       "text": "177—195.",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "8) Sage und Glaube . . . . . . . . . . . . . . . . . . . . . . .",
+       "spans": []
+      },
+      {
+       "text": "196—207.",
+       "spans": []
+      }
+     ]
+    }
+   ],
+   "grid": [
+    [
+     "1) Statistik . . . . . . . . . . . . . . . . . . . . . . . . . .",
+     "91—118."
+    ],
+    [
+     "2) Wohnliche Einrichtung . . . . . . . . . . . . . . . . . . . . .",
+     "119—138."
+    ],
+    [
+     "3) Mundart . . . . . . . . . . . . . . . . . . . . . . . . . .",
+     "138—154."
+    ],
+    [
+     "4) Kleid und Kost . . . . . . . . . . . . . . . . . . . . . . .",
+     "154—161."
+    ],
+    [
+     "5) Gestalt und Character . . . . . . . . . . . . . . . . . . . . .",
+     "161—168."
+    ],
+    [
+     "6) Volkskrankheit und Volksmedicin . . . . . . . . . . . . . . . .",
+     "168—177."
+    ],
+    [
+     "7) Sitte und Brauch . . . . . . . . . . . . . . . . . . . . . . .",
+     "177—195."
+    ],
+    [
+     "8) Sage und Glaube . . . . . . . . . . . . . . . . . . . . . . .",
+     "196—207."
+    ]
+   ],
+   "caption": null,
+   "sec": "inhalt"
+  },
+  {
+   "id": "b7",
+   "type": "heading",
+   "src": 6,
+   "text": "III. Die Volksbetriebsamkeit.",
+   "spans": [],
+   "sec": "inhalt",
+   "level": 4
+  },
+  {
+   "id": "b8",
+   "type": "table",
+   "src": 7,
+   "n_cols": 2,
+   "header_rows": 0,
+   "rows": [
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1) Die Berufsklassen im Allgemeinen . . . . . . . . . . . . . . . .",
+       "spans": []
+      },
+      {
+       "text": "208—213.",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "2) Landwirthschaft . . . . . . . . . . . . . . . . . . . . . . .",
+       "spans": []
+      },
+      {
+       "text": "213—231.",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "3) Viehzucht . . . . . . . . . . . . . . . . . . . . . . . . . .",
+       "spans": []
+      },
+      {
+       "text": "231—236.",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "4) Forstwirthschaft . . . . . . . . . . . . . . . . . . . . . . .",
+       "spans": []
+      },
+      {
+       "text": "236—241.",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "5) Bergbau . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+       "spans": []
+      },
+      {
+       "text": "242—252.",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "6) Industrie . . . . . . . . . . . . . . . . . . . . . . . . . .",
+       "spans": []
+      },
+      {
+       "text": "252—258.",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "7) Handel und Verkehr . . . . . . . . . . . . . . . . . . . . .",
+       "spans": []
+      },
+      {
+       "text": "258—262.",
+       "spans": []
+      }
+     ]
+    }
+   ],
+   "grid": [
+    [
+     "1) Die Berufsklassen im Allgemeinen . . . . . . . . . . . . . . . .",
+     "208—213."
+    ],
+    [
+     "2) Landwirthschaft . . . . . . . . . . . . . . . . . . . . . . .",
+     "213—231."
+    ],
+    [
+     "3) Viehzucht . . . . . . . . . . . . . . . . . . . . . . . . . .",
+     "231—236."
+    ],
+    [
+     "4) Forstwirthschaft . . . . . . . . . . . . . . . . . . . . . . .",
+     "236—241."
+    ],
+    [
+     "5) Bergbau . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+     "242—252."
+    ],
+    [
+     "6) Industrie . . . . . . . . . . . . . . . . . . . . . . . . . .",
+     "252—258."
+    ],
+    [
+     "7) Handel und Verkehr . . . . . . . . . . . . . . . . . . . . .",
+     "258—262."
+    ]
+   ],
+   "caption": null,
+   "sec": "inhalt"
+  }
+ ],
+ "footnotes": [],
+ "corrections": [
+  {
+   "rule": "table_no_header_row",
+   "note": "first row is data (legacy edition rendered it as <th>)",
+   "block": "b6"
+  },
+  {
+   "rule": "table_no_header_row",
+   "note": "first row is data (legacy edition rendered it as <th>)",
+   "block": "b8"
+  }
+ ],
+ "provenance": {
+  "source": "gapfill-2026-10",
+  "model": "gemini-3.5-flash",
+  "timestamp": "2026-10-01T20:40:39.045041",
+  "early_schema": false
+ },
+ "section_path": [
+  "front",
+  "vorwort"
+ ],
+ "sections": [
+  "inhalt"
+ ]
+}

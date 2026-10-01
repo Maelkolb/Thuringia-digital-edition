@@ -1,0 +1,3618 @@
+{
+ "id": "klima-niederschlagstage-stationen",
+ "title": {
+  "de": "Niederschlagstage, Nebel und Reif an vier Orten",
+  "en": "Precipitation days, fog and hoar frost at four places"
+ },
+ "category": "climate",
+ "section": "t1-1-7",
+ "sources": [
+  {
+   "page": "66",
+   "block": "b1"
+  },
+  {
+   "page": "66",
+   "block": "b2"
+  },
+  {
+   "page": "66",
+   "block": "b3",
+   "rows": "r2-r15"
+  },
+  {
+   "page": "66",
+   "block": "b4"
+  },
+  {
+   "page": "66",
+   "block": "b5",
+   "rows": "r2-r14"
+  },
+  {
+   "page": "67",
+   "block": "b1"
+  },
+  {
+   "page": "67",
+   "block": "b2",
+   "rows": "r2-r15"
+  },
+  {
+   "page": "67",
+   "block": "b3"
+  },
+  {
+   "page": "67",
+   "block": "b4",
+   "rows": "r2-r5"
+  },
+  {
+   "page": "67",
+   "block": "b5"
+  },
+  {
+   "page": "69",
+   "block": "b1"
+  },
+  {
+   "page": "830",
+   "block": "b3"
+  },
+  {
+   "page": "830",
+   "block": "b4",
+   "rows": "i1-i3"
+  }
+ ],
+ "summary": {
+  "de": "Neben Gera (12 Jahre) verzeichnet Brückner Nebel, Regen, Schnee und Reif für Hohenleuben (15-jähriger Durchschnitt, Regen und Schnee zusammen) sowie für Schleiz und Rothenacker (je zwei Jahre). Die Auswertung rechnet alles auf Tage pro Jahr bzw. pro Monat um und stellt Niederschlagstage, Nebel und Reif der vier Orte gegenüber. Die Orte weichen stark voneinander ab; ein einfaches Höhenmuster ergibt sich nicht.",
+  "en": "Besides Gera (12 years), Brückner records fog, rain, snow and hoar frost for Hohenleuben (15-year average, rain and snow combined) and for Schleiz and Rothenacker (two years each). The analysis converts everything to days per year and per month and sets precipitation days, fog and hoar frost of the four places side by side. The places differ strongly; no simple pattern with elevation emerges."
+ },
+ "method": {
+  "de": "Quellen: Gera S. 66 b3 (Summen über 1856–1867, Spalten Nebel, Regen, Schnee-Graupen, Reif; die Regenspalte nach Brückners Berichtigung S. 830 b3: Januar 87 statt 79, Juli 181 statt 169, August 152 statt 142, Dezember 84 statt 92, Summe 1544 statt 1540, »Max.« im Juli statt im Mai); Hohenleuben S. 66 b5 (Jahresmittel eines 15-jährigen Durchschnitts, im Druck als gemischte Brüche wie »1 14/15«; die Spalte »Regen und Schnee« lässt sich nicht trennen); Schleiz und Rothenacker S. 67 b2 (Summen über zwei Jahre, 1866/67 bzw. Juni 1866–Mai 1868). Umrechnung auf Tage pro Monat und Jahr: Periodensumme ÷ Jahre bzw. Bruch in Dezimalzahl. »Niederschlagstage« = Regen + Schnee (Gera, Schleiz, Rothenacker) bzw. die Spalte »Regen und Schnee« (Hohenleuben); Brückner addiert Regen- und Schneetage selbst zur »Summe der Tage« (S. 69). Fällt beides auf denselben Tag, kann ein Tag doppelt gezählt sein. Die gedruckte Vergleichstabelle (S. 67 b4) steht als eigener Datensatz neben den aus den Monatswerten nachgerechneten Jahreswerten und den Berichtigungen aus S. 830 b4 (Gera: Regen 128,6 statt 148,4, Gewitter 22,5 statt 22,3); für die Charts gelten die nachgerechneten Werte. In der Monatstabelle enthält die Spalte »Summe über den Beobachtungszeitraum« die berichtigten Werte, »Summe laut Tabelle« die gedruckten; die Spalte »Berichtigung« kennzeichnet die betroffenen Zeilen. Ein Gedankenstrich im Druck gilt als 0. Gewitter sind in der Auswertung »Gewitter: Häufigkeit, Jahresgang und Zugrichtung« behandelt.",
+  "en": "Sources: Gera p. 66 b3 (totals over 1856–1867, columns fog, rain, snow/graupel, hoar frost; the rain column as corrected by Brückner on p. 830 b3: January 87 instead of 79, July 181 instead of 169, August 152 instead of 142, December 84 instead of 92, total 1544 instead of 1540, “Max.” in July instead of May); Hohenleuben p. 66 b5 (annual means of a 15-year average, printed as mixed fractions such as “1 14/15”; the column “rain and snow” cannot be separated); Schleiz and Rothenacker p. 67 b2 (totals over two years, 1866/67 and June 1866–May 1868). Conversion to days per month and year: period total ÷ years, or fraction to decimal. “Precipitation days” = rain + snow (Gera, Schleiz, Rothenacker) or the column “rain and snow” (Hohenleuben); Brückner himself adds rain and snow days to a “sum of days” (p. 69). If both fall on the same day, a day may be counted twice. The printed comparison table (p. 67 b4) is given as a separate dataset next to the annual values recomputed from the monthly figures and the corrections from p. 830 b4 (Gera: rain 128.6 instead of 148.4, thunderstorms 22.5 instead of 22.3); the charts use the recomputed values. In the monthly table the column “Total over the observation period” holds the corrected values, “Total as in the table” the printed ones, and the column “Correction” marks the rows concerned. A dash in the print counts as 0. Thunderstorms are treated in the analysis “Thunderstorms: frequency, annual cycle and direction”."
+ },
+ "findings": [
+  {
+   "de": "Die meisten Niederschlagstage (Regen + Schnee) meldet Rothenacker (206 pro Jahr), dann Gera (166), Hohenleuben (141) und Schleiz (118). Die drei Oberlandorte liegen damit weiter auseinander (118 bis 206) als Gera und Hohenleuben; eine einfache Abhängigkeit von der Höhenlage zeigt sich nicht.",
+   "en": "Rothenacker reports the most precipitation days (rain + snow; 206 a year), then Gera (166), Hohenleuben (141) and Schleiz (118). The three Oberland places thus lie further apart (118 to 206) than Gera and Hohenleuben; no simple dependence on elevation appears."
+  },
+  {
+   "de": "Nebel: Rothenacker 76,5, Gera 67,6, Hohenleuben 28,7 und Schleiz 16 Tage im Jahr. Reif dagegen zählen Schleiz (47) und Gera (43) am häufigsten, Rothenacker 21,5 und Hohenleuben 17,5.",
+   "en": "Fog: Rothenacker 76.5, Gera 67.6, Hohenleuben 28.7 and Schleiz 16 days a year. Hoar frost, by contrast, is counted most often at Schleiz (47) and Gera (43), with Rothenacker 21.5 and Hohenleuben 17.5."
+  },
+  {
+   "de": "Rothenacker verzeichnet 60 Schneetage im Jahr, Schleiz 35, Gera 38; im Dezember zählt Rothenacker 17 Schneetage, im Januar 15.",
+   "en": "Rothenacker records 60 snow days a year, Schleiz 35, Gera 38; in December Rothenacker counts 17 snow days, in January 15."
+  },
+  {
+   "de": "Die Monate mit den meisten und den wenigsten Regentagen unterscheiden sich von Ort zu Ort, wie Brückner (S. 67, berichtigt S. 830) hervorhebt. Maximum: Juli (Gera, Schleiz, Rothenacker), September (Hohenleuben). Minimum: Januar (Hohenleuben), Februar (Gera), Dezember (Schleiz, Rothenacker). (Für Gera gilt das berichtigte Maximum im Juli; im ursprünglichen Druck stand der Mai.)",
+   "en": "The months with the most and the fewest rain days differ from place to place, as Brückner stresses (p. 67, corrected p. 830). Maximum: July (Gera, Schleiz, Rothenacker), September (Hohenleuben). Minimum: January (Hohenleuben), February (Gera), December (Schleiz, Rothenacker). (For Gera the corrected maximum is July; the original print had May.)"
+  }
+ ],
+ "caveats": [
+  {
+   "de": "Die Reihen sind verschieden lang (12, 15, 2 und 2 Jahre) und stammen von verschiedenen Beobachtern ohne einheitliche Kriterien; Brückner selbst sagt, die Ergebnisse gingen »weit auseinander« (S. 67). Die Werte für Schleiz und Rothenacker beruhen nur auf zwei Jahren (Schleiz 1866/67, Rothenacker Juni 1866–Mai 1868).",
+   "en": "The series differ in length (12, 15, 2 and 2 years) and come from different observers without uniform criteria; Brückner himself says the results “differ widely” (p. 67). The values for Schleiz and Rothenacker rest on only two years (Schleiz 1866/67, Rothenacker June 1866–May 1868)."
+  },
+  {
+   "de": "Gera, Regen: Im Druck ergeben die Monatswerte (S. 66) 1522, gedruckt ist 1540; die Vergleichstabelle S. 67 nennt 148,4. Brückner berichtigt das selbst (S. 830): vier Monatswerte, die Summe (1544), das Mittel (128,6; Vergleichstabelle: 128,6 statt 148,4) und den Höchstmonat (Juli statt Mai); die Auswertung verwendet diese Werte. Außerdem berichtigt er das Gera-Gewitter-Mittel auf 22,5 (statt 22,3). Nicht berichtigt sind: Rothenacker, Gewitter: Summe 35, gedrucktes Mittel 18,5 statt 17,5; Hohenleuben: Die Summe der Monatsbrüche beim Reif ergibt 17 8/15 (17,5), gedruckt sind 17 2/5 (17,4), die Nebel-Summe (28 2/3) steht auf S. 67 als 28,6.",
+   "en": "Gera, rain: in the print the monthly values (p. 66) add up to 1522, the printed total is 1540; the comparison table on p. 67 gives 148.4. Brückner corrects this himself (p. 830): four monthly values, the total (1544), the mean (128.6; comparison table: 128.6 instead of 148.4) and the peak month (July instead of May); the analysis uses these values. He also corrects the Gera thunderstorm mean to 22.5 (instead of 22.3). Not corrected are: Rothenacker, thunderstorms: total 35, printed mean 18.5 instead of 17.5; Hohenleuben: the monthly fractions for hoar frost add up to 17 8/15 (17.5), the printed total is 17 2/5 (17.4), the fog total (28 2/3) appears on p. 67 as 28.6."
+  },
+  {
+   "de": "Bei Hohenleuben sind Regen und Schnee nicht getrennt; die Spalte »Regen« der Vergleichstabelle (141,1) ist dort die Summe beider. Auch bei den anderen Orten bleibt offen, wie ein Tag mit Regen und Schnee gezählt wurde.",
+   "en": "At Hohenleuben rain and snow are not separated; the “rain” column of the comparison table (141.1) is the sum of both there. For the other places, too, it is unclear how a day with both rain and snow was counted."
+  }
+ ],
+ "datasets": [
+  {
+   "name": "monthly",
+   "title": {
+    "de": "Nebel, Regen, Schnee und Reif nach Ort und Monat",
+    "en": "Fog, rain, snow and hoar frost by station and month"
+   },
+   "columns": [
+    {
+     "name": "station",
+     "label": {
+      "de": "Beobachtungsort",
+      "en": "Station"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "station_order",
+     "label": {
+      "de": "Reihenfolge des Ortes",
+      "en": "Station order"
+     },
+     "type": "integer",
+     "unit": null,
+     "derived": true
+    },
+    {
+     "name": "month",
+     "label": {
+      "de": "Monat",
+      "en": "Month"
+     },
+     "type": "integer",
+     "unit": null,
+     "derived": true,
+     "note": "Monatsnummer 1–12, editorisch"
+    },
+    {
+     "name": "month_label",
+     "label": {
+      "de": "Monat (Original)",
+      "en": "Month (original)"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "phenomenon",
+     "label": {
+      "de": "Erscheinung",
+      "en": "Phenomenon"
+     },
+     "type": "string",
+     "unit": null,
+     "derived": true,
+     "note": "Nebel, Regen, Schnee (Gera: Schnee-Graupen), Reif, RegenSchnee (nur Hohenleuben: Regen und Schnee)"
+    },
+    {
+     "name": "phenomenon_order",
+     "label": {
+      "de": "Reihenfolge der Erscheinung",
+      "en": "Phenomenon order"
+     },
+     "type": "integer",
+     "unit": null,
+     "derived": true
+    },
+    {
+     "name": "value_printed",
+     "label": {
+      "de": "Wert im Druck",
+      "en": "Value as printed"
+     },
+     "type": "string",
+     "unit": null,
+     "note": "Zahl oder gemischter Bruch, Gedankenstrich = nicht verzeichnet"
+    },
+    {
+     "name": "period_total",
+     "label": {
+      "de": "Summe über den Beobachtungszeitraum",
+      "en": "Total over the observation period"
+     },
+     "type": "integer",
+     "unit": "Tage bzw. Fälle",
+     "note": "nur Gera, Schleiz, Rothenacker; Hohenleuben druckt Jahresmittel; Gera, Regen: berichtigt nach S. 830"
+    },
+    {
+     "name": "period_total_printed",
+     "label": {
+      "de": "Summe laut Tabelle",
+      "en": "Total as in the table"
+     },
+     "type": "integer",
+     "unit": "Tage bzw. Fälle",
+     "note": "gedruckter Tabellenwert vor der Berichtigung (gleich der Summe, wo nichts berichtigt wurde)"
+    },
+    {
+     "name": "correction",
+     "label": {
+      "de": "Berichtigung",
+      "en": "Correction"
+     },
+     "type": "string",
+     "unit": null,
+     "note": "Hinweis auf die Berichtigung in Brückners Zusätzen (S. 830)"
+    },
+    {
+     "name": "years",
+     "label": {
+      "de": "Jahre im Zeitraum",
+      "en": "Years in the period"
+     },
+     "type": "integer",
+     "unit": "Jahre",
+     "derived": true,
+     "note": "Gera 12 (1856–1867), Hohenleuben 15 (Durchschnitt), Schleiz 2, Rothenacker 2"
+    },
+    {
+     "name": "per_year",
+     "label": {
+      "de": "Tage pro Monat und Jahr",
+      "en": "Days per month and year"
+     },
+     "type": "number",
+     "unit": "Tage",
+     "derived": true,
+     "note": "Periodensumme ÷ Jahre bzw. gedruckter Bruch als Dezimalzahl"
+    },
+    {
+     "name": "mark",
+     "label": {
+      "de": "Druckvermerk",
+      "en": "Printed mark"
+     },
+     "type": "string",
+     "unit": null,
+     "note": "»Min.« oder »Max.« im Original"
+    }
+   ],
+   "rows": [
+    [
+     "Gera",
+     1,
+     1,
+     "Januar",
+     "Nebel",
+     1,
+     "64",
+     64,
+     64,
+     "",
+     12,
+     5.33,
+     ""
+    ],
+    [
+     "Gera",
+     1,
+     1,
+     "Januar",
+     "Regen",
+     2,
+     "79",
+     87,
+     79,
+     "S. 830: 87 statt 79",
+     12,
+     7.25,
+     ""
+    ],
+    [
+     "Gera",
+     1,
+     1,
+     "Januar",
+     "Schnee",
+     3,
+     "82",
+     82,
+     82,
+     "",
+     12,
+     6.83,
+     ""
+    ],
+    [
+     "Gera",
+     1,
+     1,
+     "Januar",
+     "Reif",
+     4,
+     "52",
+     52,
+     52,
+     "",
+     12,
+     4.33,
+     ""
+    ],
+    [
+     "Hohenleuben",
+     2,
+     1,
+     "Januar",
+     "Nebel",
+     1,
+     "1 14/15",
+     null,
+     null,
+     "",
+     15,
+     1.93,
+     ""
+    ],
+    [
+     "Hohenleuben",
+     2,
+     1,
+     "Januar",
+     "RegenSchnee",
+     5,
+     "9 4/15 Min.",
+     null,
+     null,
+     "",
+     15,
+     9.27,
+     "Min."
+    ],
+    [
+     "Hohenleuben",
+     2,
+     1,
+     "Januar",
+     "Reif",
+     4,
+     "—",
+     null,
+     null,
+     "",
+     15,
+     0.0,
+     ""
+    ],
+    [
+     "Schleiz",
+     3,
+     1,
+     "Januar",
+     "Nebel",
+     1,
+     "3",
+     3,
+     3,
+     "",
+     2,
+     1.5,
+     ""
+    ],
+    [
+     "Schleiz",
+     3,
+     1,
+     "Januar",
+     "Regen",
+     2,
+     "13",
+     13,
+     13,
+     "",
+     2,
+     6.5,
+     ""
+    ],
+    [
+     "Schleiz",
+     3,
+     1,
+     "Januar",
+     "Schnee",
+     3,
+     "9",
+     9,
+     9,
+     "",
+     2,
+     4.5,
+     ""
+    ],
+    [
+     "Schleiz",
+     3,
+     1,
+     "Januar",
+     "Reif",
+     4,
+     "15",
+     15,
+     15,
+     "",
+     2,
+     7.5,
+     ""
+    ],
+    [
+     "Rothenacker",
+     4,
+     1,
+     "Januar",
+     "Nebel",
+     1,
+     "24",
+     24,
+     24,
+     "",
+     2,
+     12.0,
+     ""
+    ],
+    [
+     "Rothenacker",
+     4,
+     1,
+     "Januar",
+     "Regen",
+     2,
+     "15",
+     15,
+     15,
+     "",
+     2,
+     7.5,
+     ""
+    ],
+    [
+     "Rothenacker",
+     4,
+     1,
+     "Januar",
+     "Schnee",
+     3,
+     "30",
+     30,
+     30,
+     "",
+     2,
+     15.0,
+     ""
+    ],
+    [
+     "Rothenacker",
+     4,
+     1,
+     "Januar",
+     "Reif",
+     4,
+     "3",
+     3,
+     3,
+     "",
+     2,
+     1.5,
+     ""
+    ],
+    [
+     "Gera",
+     1,
+     2,
+     "Februar",
+     "Nebel",
+     1,
+     "53",
+     53,
+     53,
+     "",
+     12,
+     4.42,
+     ""
+    ],
+    [
+     "Gera",
+     1,
+     2,
+     "Februar",
+     "Regen",
+     2,
+     "82 Min.",
+     82,
+     82,
+     "",
+     12,
+     6.83,
+     "Min."
+    ],
+    [
+     "Gera",
+     1,
+     2,
+     "Februar",
+     "Schnee",
+     3,
+     "75",
+     75,
+     75,
+     "",
+     12,
+     6.25,
+     ""
+    ],
+    [
+     "Gera",
+     1,
+     2,
+     "Februar",
+     "Reif",
+     4,
+     "76",
+     76,
+     76,
+     "",
+     12,
+     6.33,
+     ""
+    ],
+    [
+     "Hohenleuben",
+     2,
+     2,
+     "Februar",
+     "Nebel",
+     1,
+     "1 2/15",
+     null,
+     null,
+     "",
+     15,
+     1.13,
+     ""
+    ],
+    [
+     "Hohenleuben",
+     2,
+     2,
+     "Februar",
+     "RegenSchnee",
+     5,
+     "11 2/15",
+     null,
+     null,
+     "",
+     15,
+     11.13,
+     ""
+    ],
+    [
+     "Hohenleuben",
+     2,
+     2,
+     "Februar",
+     "Reif",
+     4,
+     "—",
+     null,
+     null,
+     "",
+     15,
+     0.0,
+     ""
+    ],
+    [
+     "Schleiz",
+     3,
+     2,
+     "Februar",
+     "Nebel",
+     1,
+     "2",
+     2,
+     2,
+     "",
+     2,
+     1.0,
+     ""
+    ],
+    [
+     "Schleiz",
+     3,
+     2,
+     "Februar",
+     "Regen",
+     2,
+     "14",
+     14,
+     14,
+     "",
+     2,
+     7.0,
+     ""
+    ],
+    [
+     "Schleiz",
+     3,
+     2,
+     "Februar",
+     "Schnee",
+     3,
+     "8",
+     8,
+     8,
+     "",
+     2,
+     4.0,
+     ""
+    ],
+    [
+     "Schleiz",
+     3,
+     2,
+     "Februar",
+     "Reif",
+     4,
+     "20",
+     20,
+     20,
+     "",
+     2,
+     10.0,
+     ""
+    ],
+    [
+     "Rothenacker",
+     4,
+     2,
+     "Februar",
+     "Nebel",
+     1,
+     "14",
+     14,
+     14,
+     "",
+     2,
+     7.0,
+     ""
+    ],
+    [
+     "Rothenacker",
+     4,
+     2,
+     "Februar",
+     "Regen",
+     2,
+     "27",
+     27,
+     27,
+     "",
+     2,
+     13.5,
+     ""
+    ],
+    [
+     "Rothenacker",
+     4,
+     2,
+     "Februar",
+     "Schnee",
+     3,
+     "8",
+     8,
+     8,
+     "",
+     2,
+     4.0,
+     ""
+    ],
+    [
+     "Rothenacker",
+     4,
+     2,
+     "Februar",
+     "Reif",
+     4,
+     "5",
+     5,
+     5,
+     "",
+     2,
+     2.5,
+     ""
+    ],
+    [
+     "Gera",
+     1,
+     3,
+     "März",
+     "Nebel",
+     1,
+     "59",
+     59,
+     59,
+     "",
+     12,
+     4.92,
+     ""
+    ],
+    [
+     "Gera",
+     1,
+     3,
+     "März",
+     "Regen",
+     2,
+     "128",
+     128,
+     128,
+     "",
+     12,
+     10.67,
+     ""
+    ],
+    [
+     "Gera",
+     1,
+     3,
+     "März",
+     "Schnee",
+     3,
+     "95",
+     95,
+     95,
+     "",
+     12,
+     7.92,
+     ""
+    ],
+    [
+     "Gera",
+     1,
+     3,
+     "März",
+     "Reif",
+     4,
+     "80",
+     80,
+     80,
+     "",
+     12,
+     6.67,
+     ""
+    ],
+    [
+     "Hohenleuben",
+     2,
+     3,
+     "März",
+     "Nebel",
+     1,
+     "4 1/5",
+     null,
+     null,
+     "",
+     15,
+     4.2,
+     ""
+    ],
+    [
+     "Hohenleuben",
+     2,
+     3,
+     "März",
+     "RegenSchnee",
+     5,
+     "10 7/15",
+     null,
+     null,
+     "",
+     15,
+     10.47,
+     ""
+    ],
+    [
+     "Hohenleuben",
+     2,
+     3,
+     "März",
+     "Reif",
+     4,
+     "9",
+     null,
+     null,
+     "",
+     15,
+     9.0,
+     ""
+    ],
+    [
+     "Schleiz",
+     3,
+     3,
+     "März",
+     "Nebel",
+     1,
+     "4",
+     4,
+     4,
+     "",
+     2,
+     2.0,
+     ""
+    ],
+    [
+     "Schleiz",
+     3,
+     3,
+     "März",
+     "Regen",
+     2,
+     "8",
+     8,
+     8,
+     "",
+     2,
+     4.0,
+     ""
+    ],
+    [
+     "Schleiz",
+     3,
+     3,
+     "März",
+     "Schnee",
+     3,
+     "13",
+     13,
+     13,
+     "",
+     2,
+     6.5,
+     ""
+    ],
+    [
+     "Schleiz",
+     3,
+     3,
+     "März",
+     "Reif",
+     4,
+     "12",
+     12,
+     12,
+     "",
+     2,
+     6.0,
+     ""
+    ],
+    [
+     "Rothenacker",
+     4,
+     3,
+     "März",
+     "Nebel",
+     1,
+     "18",
+     18,
+     18,
+     "",
+     2,
+     9.0,
+     ""
+    ],
+    [
+     "Rothenacker",
+     4,
+     3,
+     "März",
+     "Regen",
+     2,
+     "19",
+     19,
+     19,
+     "",
+     2,
+     9.5,
+     ""
+    ],
+    [
+     "Rothenacker",
+     4,
+     3,
+     "März",
+     "Schnee",
+     3,
+     "17",
+     17,
+     17,
+     "",
+     2,
+     8.5,
+     ""
+    ],
+    [
+     "Rothenacker",
+     4,
+     3,
+     "März",
+     "Reif",
+     4,
+     "7",
+     7,
+     7,
+     "",
+     2,
+     3.5,
+     ""
+    ],
+    [
+     "Gera",
+     1,
+     4,
+     "April",
+     "Nebel",
+     1,
+     "45",
+     45,
+     45,
+     "",
+     12,
+     3.75,
+     ""
+    ],
+    [
+     "Gera",
+     1,
+     4,
+     "April",
+     "Regen",
+     2,
+     "131",
+     131,
+     131,
+     "",
+     12,
+     10.92,
+     ""
+    ],
+    [
+     "Gera",
+     1,
+     4,
+     "April",
+     "Schnee",
+     3,
+     "40",
+     40,
+     40,
+     "",
+     12,
+     3.33,
+     ""
+    ],
+    [
+     "Gera",
+     1,
+     4,
+     "April",
+     "Reif",
+     4,
+     "77",
+     77,
+     77,
+     "",
+     12,
+     6.42,
+     ""
+    ],
+    [
+     "Hohenleuben",
+     2,
+     4,
+     "April",
+     "Nebel",
+     1,
+     "3 3/5",
+     null,
+     null,
+     "",
+     15,
+     3.6,
+     ""
+    ],
+    [
+     "Hohenleuben",
+     2,
+     4,
+     "April",
+     "RegenSchnee",
+     5,
+     "10",
+     null,
+     null,
+     "",
+     15,
+     10.0,
+     ""
+    ],
+    [
+     "Hohenleuben",
+     2,
+     4,
+     "April",
+     "Reif",
+     4,
+     "3",
+     null,
+     null,
+     "",
+     15,
+     3.0,
+     ""
+    ],
+    [
+     "Schleiz",
+     3,
+     4,
+     "April",
+     "Nebel",
+     1,
+     "3",
+     3,
+     3,
+     "",
+     2,
+     1.5,
+     ""
+    ],
+    [
+     "Schleiz",
+     3,
+     4,
+     "April",
+     "Regen",
+     2,
+     "19",
+     19,
+     19,
+     "",
+     2,
+     9.5,
+     ""
+    ],
+    [
+     "Schleiz",
+     3,
+     4,
+     "April",
+     "Schnee",
+     3,
+     "9",
+     9,
+     9,
+     "",
+     2,
+     4.5,
+     ""
+    ],
+    [
+     "Schleiz",
+     3,
+     4,
+     "April",
+     "Reif",
+     4,
+     "6",
+     6,
+     6,
+     "",
+     2,
+     3.0,
+     ""
+    ],
+    [
+     "Rothenacker",
+     4,
+     4,
+     "April",
+     "Nebel",
+     1,
+     "6",
+     6,
+     6,
+     "",
+     2,
+     3.0,
+     ""
+    ],
+    [
+     "Rothenacker",
+     4,
+     4,
+     "April",
+     "Regen",
+     2,
+     "34",
+     34,
+     34,
+     "",
+     2,
+     17.0,
+     ""
+    ],
+    [
+     "Rothenacker",
+     4,
+     4,
+     "April",
+     "Schnee",
+     3,
+     "7",
+     7,
+     7,
+     "",
+     2,
+     3.5,
+     ""
+    ],
+    [
+     "Rothenacker",
+     4,
+     4,
+     "April",
+     "Reif",
+     4,
+     "1",
+     1,
+     1,
+     "",
+     2,
+     0.5,
+     ""
+    ],
+    [
+     "Gera",
+     1,
+     5,
+     "Mai",
+     "Nebel",
+     1,
+     "58",
+     58,
+     58,
+     "",
+     12,
+     4.83,
+     ""
+    ],
+    [
+     "Gera",
+     1,
+     5,
+     "Mai",
+     "Regen",
+     2,
+     "180 Max.",
+     180,
+     180,
+     "S. 830: Max.-Vermerk im Juli statt im Mai",
+     12,
+     15.0,
+     ""
+    ],
+    [
+     "Gera",
+     1,
+     5,
+     "Mai",
+     "Schnee",
+     3,
+     "13",
+     13,
+     13,
+     "",
+     12,
+     1.08,
+     ""
+    ],
+    [
+     "Gera",
+     1,
+     5,
+     "Mai",
+     "Reif",
+     4,
+     "16",
+     16,
+     16,
+     "",
+     12,
+     1.33,
+     ""
+    ],
+    [
+     "Hohenleuben",
+     2,
+     5,
+     "Mai",
+     "Nebel",
+     1,
+     "1 14/15",
+     null,
+     null,
+     "",
+     15,
+     1.93,
+     ""
+    ],
+    [
+     "Hohenleuben",
+     2,
+     5,
+     "Mai",
+     "RegenSchnee",
+     5,
+     "10 3/5",
+     null,
+     null,
+     "",
+     15,
+     10.6,
+     ""
+    ],
+    [
+     "Hohenleuben",
+     2,
+     5,
+     "Mai",
+     "Reif",
+     4,
+     "1/3",
+     null,
+     null,
+     "",
+     15,
+     0.33,
+     ""
+    ],
+    [
+     "Schleiz",
+     3,
+     5,
+     "Mai",
+     "Nebel",
+     1,
+     "3",
+     3,
+     3,
+     "",
+     2,
+     1.5,
+     ""
+    ],
+    [
+     "Schleiz",
+     3,
+     5,
+     "Mai",
+     "Regen",
+     2,
+     "13",
+     13,
+     13,
+     "",
+     2,
+     6.5,
+     ""
+    ],
+    [
+     "Schleiz",
+     3,
+     5,
+     "Mai",
+     "Schnee",
+     3,
+     "2",
+     2,
+     2,
+     "",
+     2,
+     1.0,
+     ""
+    ],
+    [
+     "Schleiz",
+     3,
+     5,
+     "Mai",
+     "Reif",
+     4,
+     "5",
+     5,
+     5,
+     "",
+     2,
+     2.5,
+     ""
+    ],
+    [
+     "Rothenacker",
+     4,
+     5,
+     "Mai",
+     "Nebel",
+     1,
+     "14",
+     14,
+     14,
+     "",
+     2,
+     7.0,
+     ""
+    ],
+    [
+     "Rothenacker",
+     4,
+     5,
+     "Mai",
+     "Regen",
+     2,
+     "24",
+     24,
+     24,
+     "",
+     2,
+     12.0,
+     ""
+    ],
+    [
+     "Rothenacker",
+     4,
+     5,
+     "Mai",
+     "Schnee",
+     3,
+     "3",
+     3,
+     3,
+     "",
+     2,
+     1.5,
+     ""
+    ],
+    [
+     "Rothenacker",
+     4,
+     5,
+     "Mai",
+     "Reif",
+     4,
+     "4",
+     4,
+     4,
+     "",
+     2,
+     2.0,
+     ""
+    ],
+    [
+     "Gera",
+     1,
+     6,
+     "Juni",
+     "Nebel",
+     1,
+     "43",
+     43,
+     43,
+     "",
+     12,
+     3.58,
+     ""
+    ],
+    [
+     "Gera",
+     1,
+     6,
+     "Juni",
+     "Regen",
+     2,
+     "167",
+     167,
+     167,
+     "",
+     12,
+     13.92,
+     ""
+    ],
+    [
+     "Gera",
+     1,
+     6,
+     "Juni",
+     "Schnee",
+     3,
+     "4",
+     4,
+     4,
+     "",
+     12,
+     0.33,
+     ""
+    ],
+    [
+     "Gera",
+     1,
+     6,
+     "Juni",
+     "Reif",
+     4,
+     "1",
+     1,
+     1,
+     "",
+     12,
+     0.08,
+     ""
+    ],
+    [
+     "Hohenleuben",
+     2,
+     6,
+     "Juni",
+     "Nebel",
+     1,
+     "4/5",
+     null,
+     null,
+     "",
+     15,
+     0.8,
+     ""
+    ],
+    [
+     "Hohenleuben",
+     2,
+     6,
+     "Juni",
+     "RegenSchnee",
+     5,
+     "12 7/15",
+     null,
+     null,
+     "",
+     15,
+     12.47,
+     ""
+    ],
+    [
+     "Hohenleuben",
+     2,
+     6,
+     "Juni",
+     "Reif",
+     4,
+     "1/5",
+     null,
+     null,
+     "",
+     15,
+     0.2,
+     ""
+    ],
+    [
+     "Schleiz",
+     3,
+     6,
+     "Juni",
+     "Nebel",
+     1,
+     "0",
+     0,
+     0,
+     "",
+     2,
+     0.0,
+     ""
+    ],
+    [
+     "Schleiz",
+     3,
+     6,
+     "Juni",
+     "Regen",
+     2,
+     "10",
+     10,
+     10,
+     "",
+     2,
+     5.0,
+     ""
+    ],
+    [
+     "Schleiz",
+     3,
+     6,
+     "Juni",
+     "Schnee",
+     3,
+     "0",
+     0,
+     0,
+     "",
+     2,
+     0.0,
+     ""
+    ],
+    [
+     "Schleiz",
+     3,
+     6,
+     "Juni",
+     "Reif",
+     4,
+     "0",
+     0,
+     0,
+     "",
+     2,
+     0.0,
+     ""
+    ],
+    [
+     "Rothenacker",
+     4,
+     6,
+     "Juni",
+     "Nebel",
+     1,
+     "7",
+     7,
+     7,
+     "",
+     2,
+     3.5,
+     ""
+    ],
+    [
+     "Rothenacker",
+     4,
+     6,
+     "Juni",
+     "Regen",
+     2,
+     "29",
+     29,
+     29,
+     "",
+     2,
+     14.5,
+     ""
+    ],
+    [
+     "Rothenacker",
+     4,
+     6,
+     "Juni",
+     "Schnee",
+     3,
+     "0",
+     0,
+     0,
+     "",
+     2,
+     0.0,
+     ""
+    ],
+    [
+     "Rothenacker",
+     4,
+     6,
+     "Juni",
+     "Reif",
+     4,
+     "0",
+     0,
+     0,
+     "",
+     2,
+     0.0,
+     ""
+    ],
+    [
+     "Gera",
+     1,
+     7,
+     "Juli",
+     "Nebel",
+     1,
+     "46",
+     46,
+     46,
+     "",
+     12,
+     3.83,
+     ""
+    ],
+    [
+     "Gera",
+     1,
+     7,
+     "Juli",
+     "Regen",
+     2,
+     "169",
+     181,
+     169,
+     "S. 830: 181 statt 169; Max.-Vermerk (statt Mai)",
+     12,
+     15.08,
+     "Max."
+    ],
+    [
+     "Gera",
+     1,
+     7,
+     "Juli",
+     "Schnee",
+     3,
+     "2",
+     2,
+     2,
+     "",
+     12,
+     0.17,
+     ""
+    ],
+    [
+     "Gera",
+     1,
+     7,
+     "Juli",
+     "Reif",
+     4,
+     "1",
+     1,
+     1,
+     "",
+     12,
+     0.08,
+     ""
+    ],
+    [
+     "Hohenleuben",
+     2,
+     7,
+     "Juli",
+     "Nebel",
+     1,
+     "8/15",
+     null,
+     null,
+     "",
+     15,
+     0.53,
+     ""
+    ],
+    [
+     "Hohenleuben",
+     2,
+     7,
+     "Juli",
+     "RegenSchnee",
+     5,
+     "12 2/3",
+     null,
+     null,
+     "",
+     15,
+     12.67,
+     ""
+    ],
+    [
+     "Hohenleuben",
+     2,
+     7,
+     "Juli",
+     "Reif",
+     4,
+     "2/15",
+     null,
+     null,
+     "",
+     15,
+     0.13,
+     ""
+    ],
+    [
+     "Schleiz",
+     3,
+     7,
+     "Juli",
+     "Nebel",
+     1,
+     "0",
+     0,
+     0,
+     "",
+     2,
+     0.0,
+     ""
+    ],
+    [
+     "Schleiz",
+     3,
+     7,
+     "Juli",
+     "Regen",
+     2,
+     "28 Max.",
+     28,
+     28,
+     "",
+     2,
+     14.0,
+     "Max."
+    ],
+    [
+     "Schleiz",
+     3,
+     7,
+     "Juli",
+     "Schnee",
+     3,
+     "0",
+     0,
+     0,
+     "",
+     2,
+     0.0,
+     ""
+    ],
+    [
+     "Schleiz",
+     3,
+     7,
+     "Juli",
+     "Reif",
+     4,
+     "0",
+     0,
+     0,
+     "",
+     2,
+     0.0,
+     ""
+    ],
+    [
+     "Rothenacker",
+     4,
+     7,
+     "Juli",
+     "Nebel",
+     1,
+     "2",
+     2,
+     2,
+     "",
+     2,
+     1.0,
+     ""
+    ],
+    [
+     "Rothenacker",
+     4,
+     7,
+     "Juli",
+     "Regen",
+     2,
+     "45 Max.",
+     45,
+     45,
+     "",
+     2,
+     22.5,
+     "Max."
+    ],
+    [
+     "Rothenacker",
+     4,
+     7,
+     "Juli",
+     "Schnee",
+     3,
+     "0",
+     0,
+     0,
+     "",
+     2,
+     0.0,
+     ""
+    ],
+    [
+     "Rothenacker",
+     4,
+     7,
+     "Juli",
+     "Reif",
+     4,
+     "0",
+     0,
+     0,
+     "",
+     2,
+     0.0,
+     ""
+    ],
+    [
+     "Gera",
+     1,
+     8,
+     "August",
+     "Nebel",
+     1,
+     "37",
+     37,
+     37,
+     "",
+     12,
+     3.08,
+     ""
+    ],
+    [
+     "Gera",
+     1,
+     8,
+     "August",
+     "Regen",
+     2,
+     "142",
+     152,
+     142,
+     "S. 830: 152 statt 142",
+     12,
+     12.67,
+     ""
+    ],
+    [
+     "Gera",
+     1,
+     8,
+     "August",
+     "Schnee",
+     3,
+     "—",
+     null,
+     null,
+     "",
+     12,
+     0.0,
+     ""
+    ],
+    [
+     "Gera",
+     1,
+     8,
+     "August",
+     "Reif",
+     4,
+     "—",
+     null,
+     null,
+     "",
+     12,
+     0.0,
+     ""
+    ],
+    [
+     "Hohenleuben",
+     2,
+     8,
+     "August",
+     "Nebel",
+     1,
+     "8/15",
+     null,
+     null,
+     "",
+     15,
+     0.53,
+     ""
+    ],
+    [
+     "Hohenleuben",
+     2,
+     8,
+     "August",
+     "RegenSchnee",
+     5,
+     "13 14/15",
+     null,
+     null,
+     "",
+     15,
+     13.93,
+     ""
+    ],
+    [
+     "Hohenleuben",
+     2,
+     8,
+     "August",
+     "Reif",
+     4,
+     "—",
+     null,
+     null,
+     "",
+     15,
+     0.0,
+     ""
+    ],
+    [
+     "Schleiz",
+     3,
+     8,
+     "August",
+     "Nebel",
+     1,
+     "0",
+     0,
+     0,
+     "",
+     2,
+     0.0,
+     ""
+    ],
+    [
+     "Schleiz",
+     3,
+     8,
+     "August",
+     "Regen",
+     2,
+     "16",
+     16,
+     16,
+     "",
+     2,
+     8.0,
+     ""
+    ],
+    [
+     "Schleiz",
+     3,
+     8,
+     "August",
+     "Schnee",
+     3,
+     "0",
+     0,
+     0,
+     "",
+     2,
+     0.0,
+     ""
+    ],
+    [
+     "Schleiz",
+     3,
+     8,
+     "August",
+     "Reif",
+     4,
+     "0",
+     0,
+     0,
+     "",
+     2,
+     0.0,
+     ""
+    ],
+    [
+     "Rothenacker",
+     4,
+     8,
+     "August",
+     "Nebel",
+     1,
+     "6",
+     6,
+     6,
+     "",
+     2,
+     3.0,
+     ""
+    ],
+    [
+     "Rothenacker",
+     4,
+     8,
+     "August",
+     "Regen",
+     2,
+     "27",
+     27,
+     27,
+     "",
+     2,
+     13.5,
+     ""
+    ],
+    [
+     "Rothenacker",
+     4,
+     8,
+     "August",
+     "Schnee",
+     3,
+     "0",
+     0,
+     0,
+     "",
+     2,
+     0.0,
+     ""
+    ],
+    [
+     "Rothenacker",
+     4,
+     8,
+     "August",
+     "Reif",
+     4,
+     "0",
+     0,
+     0,
+     "",
+     2,
+     0.0,
+     ""
+    ],
+    [
+     "Gera",
+     1,
+     9,
+     "Septbr.",
+     "Nebel",
+     1,
+     "75",
+     75,
+     75,
+     "",
+     12,
+     6.25,
+     ""
+    ],
+    [
+     "Gera",
+     1,
+     9,
+     "Septbr.",
+     "Regen",
+     2,
+     "133",
+     133,
+     133,
+     "",
+     12,
+     11.08,
+     ""
+    ],
+    [
+     "Gera",
+     1,
+     9,
+     "Septbr.",
+     "Schnee",
+     3,
+     "6",
+     6,
+     6,
+     "",
+     12,
+     0.5,
+     ""
+    ],
+    [
+     "Gera",
+     1,
+     9,
+     "Septbr.",
+     "Reif",
+     4,
+     "11",
+     11,
+     11,
+     "",
+     12,
+     0.92,
+     ""
+    ],
+    [
+     "Hohenleuben",
+     2,
+     9,
+     "September",
+     "Nebel",
+     1,
+     "3",
+     null,
+     null,
+     "",
+     15,
+     3.0,
+     ""
+    ],
+    [
+     "Hohenleuben",
+     2,
+     9,
+     "September",
+     "RegenSchnee",
+     5,
+     "15 7/15 Max.",
+     null,
+     null,
+     "",
+     15,
+     15.47,
+     "Max."
+    ],
+    [
+     "Hohenleuben",
+     2,
+     9,
+     "September",
+     "Reif",
+     4,
+     "11/15",
+     null,
+     null,
+     "",
+     15,
+     0.73,
+     ""
+    ],
+    [
+     "Schleiz",
+     3,
+     9,
+     "Septbr.",
+     "Nebel",
+     1,
+     "0",
+     0,
+     0,
+     "",
+     2,
+     0.0,
+     ""
+    ],
+    [
+     "Schleiz",
+     3,
+     9,
+     "Septbr.",
+     "Regen",
+     2,
+     "16",
+     16,
+     16,
+     "",
+     2,
+     8.0,
+     ""
+    ],
+    [
+     "Schleiz",
+     3,
+     9,
+     "Septbr.",
+     "Schnee",
+     3,
+     "0",
+     0,
+     0,
+     "",
+     2,
+     0.0,
+     ""
+    ],
+    [
+     "Schleiz",
+     3,
+     9,
+     "Septbr.",
+     "Reif",
+     4,
+     "0",
+     0,
+     0,
+     "",
+     2,
+     0.0,
+     ""
+    ],
+    [
+     "Rothenacker",
+     4,
+     9,
+     "Septbr.",
+     "Nebel",
+     1,
+     "9",
+     9,
+     9,
+     "",
+     2,
+     4.5,
+     ""
+    ],
+    [
+     "Rothenacker",
+     4,
+     9,
+     "Septbr.",
+     "Regen",
+     2,
+     "23",
+     23,
+     23,
+     "",
+     2,
+     11.5,
+     ""
+    ],
+    [
+     "Rothenacker",
+     4,
+     9,
+     "Septbr.",
+     "Schnee",
+     3,
+     "0",
+     0,
+     0,
+     "",
+     2,
+     0.0,
+     ""
+    ],
+    [
+     "Rothenacker",
+     4,
+     9,
+     "Septbr.",
+     "Reif",
+     4,
+     "3",
+     3,
+     3,
+     "",
+     2,
+     1.5,
+     ""
+    ],
+    [
+     "Gera",
+     1,
+     10,
+     "October",
+     "Nebel",
+     1,
+     "134",
+     134,
+     134,
+     "",
+     12,
+     11.17,
+     ""
+    ],
+    [
+     "Gera",
+     1,
+     10,
+     "October",
+     "Regen",
+     2,
+     "113",
+     113,
+     113,
+     "",
+     12,
+     9.42,
+     ""
+    ],
+    [
+     "Gera",
+     1,
+     10,
+     "October",
+     "Schnee",
+     3,
+     "6",
+     6,
+     6,
+     "",
+     12,
+     0.5,
+     ""
+    ],
+    [
+     "Gera",
+     1,
+     10,
+     "October",
+     "Reif",
+     4,
+     "56",
+     56,
+     56,
+     "",
+     12,
+     4.67,
+     ""
+    ],
+    [
+     "Hohenleuben",
+     2,
+     10,
+     "October",
+     "Nebel",
+     1,
+     "2 8/15",
+     null,
+     null,
+     "",
+     15,
+     2.53,
+     ""
+    ],
+    [
+     "Hohenleuben",
+     2,
+     10,
+     "October",
+     "RegenSchnee",
+     5,
+     "11 8/15",
+     null,
+     null,
+     "",
+     15,
+     11.53,
+     ""
+    ],
+    [
+     "Hohenleuben",
+     2,
+     10,
+     "October",
+     "Reif",
+     4,
+     "1 14/15",
+     null,
+     null,
+     "",
+     15,
+     1.93,
+     ""
+    ],
+    [
+     "Schleiz",
+     3,
+     10,
+     "October",
+     "Nebel",
+     1,
+     "10",
+     10,
+     10,
+     "",
+     2,
+     5.0,
+     ""
+    ],
+    [
+     "Schleiz",
+     3,
+     10,
+     "October",
+     "Regen",
+     2,
+     "12",
+     12,
+     12,
+     "",
+     2,
+     6.0,
+     ""
+    ],
+    [
+     "Schleiz",
+     3,
+     10,
+     "October",
+     "Schnee",
+     3,
+     "2",
+     2,
+     2,
+     "",
+     2,
+     1.0,
+     ""
+    ],
+    [
+     "Schleiz",
+     3,
+     10,
+     "October",
+     "Reif",
+     4,
+     "11",
+     11,
+     11,
+     "",
+     2,
+     5.5,
+     ""
+    ],
+    [
+     "Rothenacker",
+     4,
+     10,
+     "October",
+     "Nebel",
+     1,
+     "19",
+     19,
+     19,
+     "",
+     2,
+     9.5,
+     ""
+    ],
+    [
+     "Rothenacker",
+     4,
+     10,
+     "October",
+     "Regen",
+     2,
+     "19",
+     19,
+     19,
+     "",
+     2,
+     9.5,
+     ""
+    ],
+    [
+     "Rothenacker",
+     4,
+     10,
+     "October",
+     "Schnee",
+     3,
+     "4",
+     4,
+     4,
+     "",
+     2,
+     2.0,
+     ""
+    ],
+    [
+     "Rothenacker",
+     4,
+     10,
+     "October",
+     "Reif",
+     4,
+     "12",
+     12,
+     12,
+     "",
+     2,
+     6.0,
+     ""
+    ],
+    [
+     "Gera",
+     1,
+     11,
+     "Novbr.",
+     "Nebel",
+     1,
+     "112",
+     112,
+     112,
+     "",
+     12,
+     9.33,
+     ""
+    ],
+    [
+     "Gera",
+     1,
+     11,
+     "Novbr.",
+     "Regen",
+     2,
+     "106",
+     106,
+     106,
+     "",
+     12,
+     8.83,
+     ""
+    ],
+    [
+     "Gera",
+     1,
+     11,
+     "Novbr.",
+     "Schnee",
+     3,
+     "44",
+     44,
+     44,
+     "",
+     12,
+     3.67,
+     ""
+    ],
+    [
+     "Gera",
+     1,
+     11,
+     "Novbr.",
+     "Reif",
+     4,
+     "71",
+     71,
+     71,
+     "",
+     12,
+     5.92,
+     ""
+    ],
+    [
+     "Hohenleuben",
+     2,
+     11,
+     "November",
+     "Nebel",
+     1,
+     "4",
+     null,
+     null,
+     "",
+     15,
+     4.0,
+     ""
+    ],
+    [
+     "Hohenleuben",
+     2,
+     11,
+     "November",
+     "RegenSchnee",
+     5,
+     "12 4/15",
+     null,
+     null,
+     "",
+     15,
+     12.27,
+     ""
+    ],
+    [
+     "Hohenleuben",
+     2,
+     11,
+     "November",
+     "Reif",
+     4,
+     "1 12/15",
+     null,
+     null,
+     "",
+     15,
+     1.8,
+     ""
+    ],
+    [
+     "Schleiz",
+     3,
+     11,
+     "Novbr.",
+     "Nebel",
+     1,
+     "4",
+     4,
+     4,
+     "",
+     2,
+     2.0,
+     ""
+    ],
+    [
+     "Schleiz",
+     3,
+     11,
+     "Novbr.",
+     "Regen",
+     2,
+     "11",
+     11,
+     11,
+     "",
+     2,
+     5.5,
+     ""
+    ],
+    [
+     "Schleiz",
+     3,
+     11,
+     "Novbr.",
+     "Schnee",
+     3,
+     "9",
+     9,
+     9,
+     "",
+     2,
+     4.5,
+     ""
+    ],
+    [
+     "Schleiz",
+     3,
+     11,
+     "Novbr.",
+     "Reif",
+     4,
+     "6",
+     6,
+     6,
+     "",
+     2,
+     3.0,
+     ""
+    ],
+    [
+     "Rothenacker",
+     4,
+     11,
+     "Novbr.",
+     "Nebel",
+     1,
+     "20",
+     20,
+     20,
+     "",
+     2,
+     10.0,
+     ""
+    ],
+    [
+     "Rothenacker",
+     4,
+     11,
+     "Novbr.",
+     "Regen",
+     2,
+     "22",
+     22,
+     22,
+     "",
+     2,
+     11.0,
+     ""
+    ],
+    [
+     "Rothenacker",
+     4,
+     11,
+     "Novbr.",
+     "Schnee",
+     3,
+     "17",
+     17,
+     17,
+     "",
+     2,
+     8.5,
+     ""
+    ],
+    [
+     "Rothenacker",
+     4,
+     11,
+     "Novbr.",
+     "Reif",
+     4,
+     "4",
+     4,
+     4,
+     "",
+     2,
+     2.0,
+     ""
+    ],
+    [
+     "Gera",
+     1,
+     12,
+     "Decbr.",
+     "Nebel",
+     1,
+     "85",
+     85,
+     85,
+     "",
+     12,
+     7.08,
+     ""
+    ],
+    [
+     "Gera",
+     1,
+     12,
+     "Decbr.",
+     "Regen",
+     2,
+     "92",
+     84,
+     92,
+     "S. 830: 84 statt 92",
+     12,
+     7.0,
+     ""
+    ],
+    [
+     "Gera",
+     1,
+     12,
+     "Decbr.",
+     "Schnee",
+     3,
+     "85",
+     85,
+     85,
+     "",
+     12,
+     7.08,
+     ""
+    ],
+    [
+     "Gera",
+     1,
+     12,
+     "Decbr.",
+     "Reif",
+     4,
+     "80",
+     80,
+     80,
+     "",
+     12,
+     6.67,
+     ""
+    ],
+    [
+     "Hohenleuben",
+     2,
+     12,
+     "December",
+     "Nebel",
+     1,
+     "4 7/15",
+     null,
+     null,
+     "",
+     15,
+     4.47,
+     ""
+    ],
+    [
+     "Hohenleuben",
+     2,
+     12,
+     "December",
+     "RegenSchnee",
+     5,
+     "11 1/3",
+     null,
+     null,
+     "",
+     15,
+     11.33,
+     ""
+    ],
+    [
+     "Hohenleuben",
+     2,
+     12,
+     "December",
+     "Reif",
+     4,
+     "2/5",
+     null,
+     null,
+     "",
+     15,
+     0.4,
+     ""
+    ],
+    [
+     "Schleiz",
+     3,
+     12,
+     "Decbr.",
+     "Nebel",
+     1,
+     "3",
+     3,
+     3,
+     "",
+     2,
+     1.5,
+     ""
+    ],
+    [
+     "Schleiz",
+     3,
+     12,
+     "Decbr.",
+     "Regen",
+     2,
+     "6 Min.",
+     6,
+     6,
+     "",
+     2,
+     3.0,
+     "Min."
+    ],
+    [
+     "Schleiz",
+     3,
+     12,
+     "Decbr.",
+     "Schnee",
+     3,
+     "18",
+     18,
+     18,
+     "",
+     2,
+     9.0,
+     ""
+    ],
+    [
+     "Schleiz",
+     3,
+     12,
+     "Decbr.",
+     "Reif",
+     4,
+     "19",
+     19,
+     19,
+     "",
+     2,
+     9.5,
+     ""
+    ],
+    [
+     "Rothenacker",
+     4,
+     12,
+     "Decbr.",
+     "Nebel",
+     1,
+     "14",
+     14,
+     14,
+     "",
+     2,
+     7.0,
+     ""
+    ],
+    [
+     "Rothenacker",
+     4,
+     12,
+     "Decbr.",
+     "Regen",
+     2,
+     "7 Min.",
+     7,
+     7,
+     "",
+     2,
+     3.5,
+     "Min."
+    ],
+    [
+     "Rothenacker",
+     4,
+     12,
+     "Decbr.",
+     "Schnee",
+     3,
+     "34",
+     34,
+     34,
+     "",
+     2,
+     17.0,
+     ""
+    ],
+    [
+     "Rothenacker",
+     4,
+     12,
+     "Decbr.",
+     "Reif",
+     4,
+     "4",
+     4,
+     4,
+     "",
+     2,
+     2.0,
+     ""
+    ]
+   ],
+   "source_refs": [
+    {
+     "page": "66",
+     "block": "b3",
+     "rows": "r2-r13"
+    },
+    {
+     "page": "66",
+     "block": "b5",
+     "rows": "r2-r13"
+    },
+    {
+     "page": "67",
+     "block": "b2",
+     "rows": "r2-r13"
+    },
+    {
+     "page": "830",
+     "block": "b3"
+    }
+   ]
+  },
+  {
+   "name": "annual_printed",
+   "title": {
+    "de": "Brückners Vergleichstabelle (S. 67) und nachgerechnete Jahreswerte",
+    "en": "Brückner's comparison table (p. 67) and recomputed annual values"
+   },
+   "columns": [
+    {
+     "name": "station",
+     "label": {
+      "de": "Beobachtungsort",
+      "en": "Station"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "station_order",
+     "label": {
+      "de": "Reihenfolge des Ortes",
+      "en": "Station order"
+     },
+     "type": "integer",
+     "unit": null,
+     "derived": true
+    },
+    {
+     "name": "phenomenon",
+     "label": {
+      "de": "Erscheinung",
+      "en": "Phenomenon"
+     },
+     "type": "string",
+     "unit": null,
+     "derived": true
+    },
+    {
+     "name": "mean_printed",
+     "label": {
+      "de": "Jahresmittel laut Druck",
+      "en": "Annual mean as printed"
+     },
+     "type": "number",
+     "unit": "pro Jahr",
+     "note": "leer = Gedankenstrich im Druck"
+    },
+    {
+     "name": "mean_corrected",
+     "label": {
+      "de": "Jahresmittel nach Berichtigung (S. 830)",
+      "en": "Annual mean as corrected (p. 830)"
+     },
+     "type": "number",
+     "unit": "pro Jahr",
+     "note": "nur Gera, Regen (128,6 statt 148,4) und Gewitter (22,5 statt 22,3)"
+    },
+    {
+     "name": "mean_computed",
+     "label": {
+      "de": "Jahresmittel nachgerechnet",
+      "en": "Annual mean recomputed"
+     },
+     "type": "number",
+     "unit": "pro Jahr",
+     "derived": true,
+     "note": "Summe der Monatswerte ÷ Jahre; Hohenleuben »Regen« = Regen und Schnee"
+    }
+   ],
+   "rows": [
+    [
+     "Gera",
+     1,
+     "Nebel",
+     67.6,
+     null,
+     67.6
+    ],
+    [
+     "Gera",
+     1,
+     "Regen",
+     148.4,
+     128.6,
+     128.7
+    ],
+    [
+     "Gera",
+     1,
+     "Schnee",
+     37.7,
+     null,
+     37.7
+    ],
+    [
+     "Gera",
+     1,
+     "Reif",
+     43.4,
+     null,
+     43.4
+    ],
+    [
+     "Gera",
+     1,
+     "Gewitter",
+     22.3,
+     22.5,
+     22.5
+    ],
+    [
+     "Hohenleuben",
+     2,
+     "Nebel",
+     28.6,
+     null,
+     28.7
+    ],
+    [
+     "Hohenleuben",
+     2,
+     "Regen",
+     141.1,
+     null,
+     141.1
+    ],
+    [
+     "Hohenleuben",
+     2,
+     "Schnee",
+     null,
+     null,
+     null
+    ],
+    [
+     "Hohenleuben",
+     2,
+     "Reif",
+     17.4,
+     null,
+     17.5
+    ],
+    [
+     "Hohenleuben",
+     2,
+     "Gewitter",
+     null,
+     null,
+     null
+    ],
+    [
+     "Schleiz",
+     3,
+     "Nebel",
+     16.0,
+     null,
+     16.0
+    ],
+    [
+     "Schleiz",
+     3,
+     "Regen",
+     83.0,
+     null,
+     83.0
+    ],
+    [
+     "Schleiz",
+     3,
+     "Schnee",
+     35.0,
+     null,
+     35.0
+    ],
+    [
+     "Schleiz",
+     3,
+     "Reif",
+     47.0,
+     null,
+     47.0
+    ],
+    [
+     "Schleiz",
+     3,
+     "Gewitter",
+     15.5,
+     null,
+     15.5
+    ],
+    [
+     "Rothenacker",
+     4,
+     "Nebel",
+     76.5,
+     null,
+     76.5
+    ],
+    [
+     "Rothenacker",
+     4,
+     "Regen",
+     145.5,
+     null,
+     145.5
+    ],
+    [
+     "Rothenacker",
+     4,
+     "Schnee",
+     60.0,
+     null,
+     60.0
+    ],
+    [
+     "Rothenacker",
+     4,
+     "Reif",
+     21.5,
+     null,
+     21.5
+    ],
+    [
+     "Rothenacker",
+     4,
+     "Gewitter",
+     18.5,
+     null,
+     17.5
+    ]
+   ],
+   "source_refs": [
+    {
+     "page": "67",
+     "block": "b4",
+     "rows": "r2-r5"
+    },
+    {
+     "page": "830",
+     "block": "b4",
+     "rows": "i1"
+    }
+   ]
+  }
+ ],
+ "charts": [
+  {
+   "id": "c1",
+   "dataset": "monthly",
+   "title": {
+    "de": "Niederschlagstage, Nebel und Reif im Jahr",
+    "en": "Precipitation days, fog and hoar frost per year"
+   },
+   "caption": {
+    "de": "Tage pro Jahr, aus den Monatswerten berechnet; Niederschlagstage = Regen- plus Schneetage (Hohenleuben: Regen und Schnee zusammen). Rothenacker hat die meisten Niederschlags- und Nebeltage, Schleiz und Gera die meisten Reiftage; Schleiz zählt die wenigsten Niederschlags- und Nebeltage.",
+    "en": "Days per year, computed from the monthly values; precipitation days = rain plus snow days (Hohenleuben: rain and snow combined). Rothenacker has the most precipitation and fog days, Schleiz and Gera the most hoar frost days; Schleiz counts the fewest precipitation and fog days."
+   },
+   "vegalite": {
+    "height": 300,
+    "transform": [
+     {
+      "calculate": "indexof(['Regen','Schnee','RegenSchnee'], datum.phenomenon) >= 0 ? 'Niederschlag' : datum.phenomenon",
+      "as": "grp"
+     },
+     {
+      "calculate": "{'Niederschlag':1,'Nebel':2,'Reif':3}[datum.grp]",
+      "as": "grp_order"
+     },
+     {
+      "calculate": {
+       "de": "{'Niederschlag':'Niederschlagstage','Nebel':'Nebel','Reif':'Reif'}[datum.grp]",
+       "en": "{'Niederschlag':'Precipitation days','Nebel':'Fog','Reif':'Hoar frost'}[datum.grp]"
+      },
+      "as": "grp_label"
+     },
+     {
+      "aggregate": [
+       {
+        "op": "sum",
+        "field": "per_year",
+        "as": "days"
+       }
+      ],
+      "groupby": [
+       "station",
+       "station_order",
+       "grp",
+       "grp_order",
+       "grp_label"
+      ]
+     }
+    ],
+    "mark": "bar",
+    "encoding": {
+     "x": {
+      "field": "grp_label",
+      "type": "nominal",
+      "title": null,
+      "sort": {
+       "field": "grp_order",
+       "op": "min"
+      },
+      "axis": {
+       "labelAngle": 0
+      }
+     },
+     "xOffset": {
+      "field": "station",
+      "sort": {
+       "field": "station_order",
+       "op": "min"
+      }
+     },
+     "y": {
+      "field": "days",
+      "type": "quantitative",
+      "title": {
+       "de": "Tage pro Jahr",
+       "en": "Days per year"
+      }
+     },
+     "color": {
+      "field": "station",
+      "type": "nominal",
+      "title": null,
+      "scale": {
+       "domain": [
+        "Gera",
+        "Hohenleuben",
+        "Schleiz",
+        "Rothenacker"
+       ]
+      }
+     },
+     "tooltip": [
+      {
+       "field": "station",
+       "title": {
+        "de": "Ort",
+        "en": "Station"
+       }
+      },
+      {
+       "field": "grp_label",
+       "title": {
+        "de": "Erscheinung",
+        "en": "Phenomenon"
+       }
+      },
+      {
+       "field": "days",
+       "title": {
+        "de": "Tage pro Jahr",
+        "en": "Days per year"
+       },
+       "format": ".1f"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "c2",
+   "dataset": "monthly",
+   "title": {
+    "de": "Niederschlagstage im Jahresgang",
+    "en": "Precipitation days through the year"
+   },
+   "caption": {
+    "de": "Tage mit Regen oder Schnee pro Monat und Jahr (Hohenleuben: Spalte »Regen und Schnee«). Die Höchstwerte liegen bei Gera im März, bei Hohenleuben im September, bei Schleiz im April und Juli, bei Rothenacker im Januar und Juli; Schleiz und Rothenacker (zwei Jahre) schwanken stark.",
+    "en": "Days with rain or snow per month and year (Hohenleuben: column “rain and snow”). Maxima fall in March at Gera, in September at Hohenleuben, in April and July at Schleiz and in January and July at Rothenacker; Schleiz and Rothenacker (two years) fluctuate strongly."
+   },
+   "vegalite": {
+    "height": 320,
+    "transform": [
+     {
+      "calculate": {
+       "de": "['Jan','Feb','Mär','Apr','Mai','Jun','Jul','Aug','Sep','Okt','Nov','Dez'][datum.month-1]",
+       "en": "['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'][datum.month-1]"
+      },
+      "as": "mlabel"
+     },
+     {
+      "filter": "indexof(['Regen','Schnee','RegenSchnee'], datum.phenomenon) >= 0"
+     },
+     {
+      "aggregate": [
+       {
+        "op": "sum",
+        "field": "per_year",
+        "as": "days"
+       }
+      ],
+      "groupby": [
+       "station",
+       "station_order",
+       "month",
+       "mlabel"
+      ]
+     }
+    ],
+    "mark": {
+     "type": "line",
+     "point": true
+    },
+    "encoding": {
+     "x": {
+      "field": "mlabel",
+      "type": "ordinal",
+      "sort": {
+       "field": "month",
+       "op": "min"
+      },
+      "title": {
+       "de": "Monat",
+       "en": "Month"
+      },
+      "axis": {
+       "labelAngle": 0
+      }
+     },
+     "y": {
+      "field": "days",
+      "type": "quantitative",
+      "title": {
+       "de": "Tage pro Monat",
+       "en": "Days per month"
+      }
+     },
+     "color": {
+      "field": "station",
+      "type": "nominal",
+      "title": null,
+      "scale": {
+       "domain": [
+        "Gera",
+        "Hohenleuben",
+        "Schleiz",
+        "Rothenacker"
+       ]
+      }
+     },
+     "tooltip": [
+      {
+       "field": "station",
+       "title": {
+        "de": "Ort",
+        "en": "Station"
+       }
+      },
+      {
+       "field": "mlabel",
+       "title": {
+        "de": "Monat",
+        "en": "Month"
+       }
+      },
+      {
+       "field": "days",
+       "title": {
+        "de": "Tage pro Monat und Jahr",
+        "en": "Days per month and year"
+       },
+       "format": ".1f"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "c3",
+   "dataset": "monthly",
+   "title": {
+    "de": "Nebel-, Reif- und Schneetage nach Monat",
+    "en": "Fog, hoar frost and snow days by month"
+   },
+   "caption": {
+    "de": "Tage pro Monat und Jahr. Nebel ist im Oktober und November (Gera, Rothenacker) am häufigsten, Reif und Schnee treten im Winterhalbjahr auf; für Hohenleuben fehlt die Schneezeile, weil dort Regen und Schnee nicht getrennt sind.",
+    "en": "Days per month and year. Fog is most frequent in October and November (Gera, Rothenacker), hoar frost and snow occur in the winter half-year; Hohenleuben has no snow panel because rain and snow are not separated there."
+   },
+   "vegalite": {
+    "autosize": {
+     "type": "pad"
+    },
+    "transform": [
+     {
+      "calculate": {
+       "de": "['Jan','Feb','Mär','Apr','Mai','Jun','Jul','Aug','Sep','Okt','Nov','Dez'][datum.month-1]",
+       "en": "['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'][datum.month-1]"
+      },
+      "as": "mlabel"
+     },
+     {
+      "filter": "indexof(['Nebel','Reif','Schnee'], datum.phenomenon) >= 0"
+     },
+     {
+      "calculate": {
+       "de": "{'Nebel':'Nebel','Reif':'Reif','Schnee':'Schnee'}[datum.phenomenon]",
+       "en": "{'Nebel':'Fog','Reif':'Hoar frost','Schnee':'Snow'}[datum.phenomenon]"
+      },
+      "as": "ph_label"
+     }
+    ],
+    "facet": {
+     "row": {
+      "field": "ph_label",
+      "type": "nominal",
+      "title": null,
+      "sort": {
+       "field": "phenomenon_order",
+       "op": "min"
+      },
+      "header": {
+       "labelAngle": 0,
+       "labelOrient": "top",
+       "labelAlign": "left",
+       "labelPadding": 4
+      }
+     }
+    },
+    "spec": {
+     "width": 560,
+     "height": 84,
+     "mark": {
+      "type": "line",
+      "point": true
+     },
+     "encoding": {
+      "x": {
+       "field": "mlabel",
+       "type": "ordinal",
+       "sort": {
+        "field": "month",
+        "op": "min"
+       },
+       "title": null,
+       "axis": {
+        "labelAngle": 0
+       }
+      },
+      "y": {
+       "field": "per_year",
+       "type": "quantitative",
+       "title": {
+        "de": "Tage/Monat",
+        "en": "Days/month"
+       },
+       "scale": {
+        "domain": [
+         0,
+         18
+        ]
+       },
+       "axis": {
+        "tickCount": 4
+       }
+      },
+      "color": {
+       "field": "station",
+       "type": "nominal",
+       "title": null,
+       "scale": {
+        "domain": [
+         "Gera",
+         "Hohenleuben",
+         "Schleiz",
+         "Rothenacker"
+        ]
+       }
+      },
+      "tooltip": [
+       {
+        "field": "station",
+        "title": {
+         "de": "Ort",
+         "en": "Station"
+        }
+       },
+       {
+        "field": "mlabel",
+        "title": {
+         "de": "Monat",
+         "en": "Month"
+        }
+       },
+       {
+        "field": "ph_label",
+        "title": {
+         "de": "Erscheinung",
+         "en": "Phenomenon"
+        }
+       },
+       {
+        "field": "value_printed",
+        "title": {
+         "de": "Wert im Druck",
+         "en": "Value as printed"
+        }
+       },
+       {
+        "field": "per_year",
+        "title": {
+         "de": "Tage pro Monat und Jahr",
+         "en": "Days per month and year"
+        },
+        "format": ".1f"
+       }
+      ]
+     }
+    }
+   }
+  }
+ ],
+ "keywords": {
+  "de": [
+   "Niederschlag",
+   "Regentage",
+   "Schnee",
+   "Nebel",
+   "Reif",
+   "Gera",
+   "Hohenleuben",
+   "Schleiz",
+   "Rothenacker",
+   "Klimavergleich"
+  ],
+  "en": [
+   "precipitation",
+   "rain days",
+   "snow",
+   "fog",
+   "hoar frost",
+   "Gera",
+   "Hohenleuben",
+   "Schleiz",
+   "Rothenacker",
+   "climate comparison"
+  ]
+ },
+ "related": [
+  "klima-witterungserscheinungen-gera-1856-1867",
+  "klima-gewitter-gera-stationen",
+  "klima-regenmenge-gera-1860-1867"
+ ],
+ "generated_by": "Claude Sonnet 5.5 (subagent A04)",
+ "date": "2026-10-01"
+}

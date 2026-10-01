@@ -1,0 +1,632 @@
+{
+ "id": "klima-quellentemperatur-brunnen",
+ "title": {
+  "de": "Temperatur von Quellen und Brunnen",
+  "en": "Temperature of springs and wells"
+ },
+ "category": "climate",
+ "section": "t1-1-7",
+ "sources": [
+  {
+   "page": "69",
+   "block": "b3"
+  },
+  {
+   "page": "70",
+   "block": "b1"
+  },
+  {
+   "page": "70",
+   "block": "b2"
+  }
+ ],
+ "summary": {
+  "de": "Über die Temperatur von Quellen und Brunnen liegen laut Brückner noch keine ausreichend genauen Untersuchungen vor. Er nennt einzelne Messungen in Réaumur: fünf Quellen bei Kraftsdorf und Dessegrund (J. C. Seydel), Brunnen in Hermsdorf, Hohenleuben und Döhlen, zwei Ziehbrunnen in Röttersdorf im Mai 1868 sowie allgemeine Spannen für obere, mittlere und untere Quellen des Oberlandes (Ing. Elsässer). Umgerechnet in °C liegen die meisten Werte bei 8 bis 11 °C.",
+  "en": "According to Brückner, no sufficiently exact studies of the temperature of springs and wells yet exist. He gives individual readings in Réaumur: five springs near Kraftsdorf and Dessegrund (J. C. Seydel), wells at Hermsdorf, Hohenleuben and Döhlen, two draw-wells at Röttersdorf in May 1868, and general ranges for upper, middle and lower springs of the Oberland (engineer Elsässer). Converted to °C most values lie between 8 and 11 °C."
+ },
+ "method": {
+  "de": "Die Werte stehen im Fließtext (S. 69 b3, S. 70 b1 und b2) und wurden einzeln übernommen; der Datensatz nennt Fundstelle, Beobachter und, wo angegeben, Datum. Temperaturen in Réaumur wurden mit 1 °R = 1,25 °C in Grad Celsius umgerechnet; Brüche wie 6 3/4 und 5 1/2 sind im Druck als gemischte Brüche gesetzt und im Datensatz als Dezimalzahl ausgewiesen (Spalte »Wert im Druck«). Elsässers Angaben sind Spannen (z. B. 11° bis 12° R.) und werden als Balken dargestellt, Einzelmessungen als Punkte. Brückner nennt Seydels elf Quellen, aber nur fünf mit Namen; nur diese sind erfasst.",
+  "en": "The values are in the running text (p. 69 b3, p. 70 b1 and b2) and were taken one by one; the dataset gives the location, observer and, where stated, the date. Temperatures in Réaumur were converted to degrees Celsius with 1 °R = 1.25 °C; fractions such as 6 3/4 and 5 1/2 are set as mixed fractions in the print and appear as decimals in the dataset (column “Value as printed”). Elsässer's figures are ranges (e.g. 11° to 12° R.) and are drawn as bars, single readings as dots. Brückner names Seydel's eleven springs but only five by name; only these are included."
+ },
+ "findings": [
+  {
+   "de": "Die fünf Quellen bei Kraftsdorf und im Dessegrund liegen zwischen 8,4 und 11,3 °C; drei davon haben 8 °R (10 °C), die Martinsquelle 9 °R (11,25 °C), die Prechtsquelle mit 6 3/4 °R (8,4 °C) die niedrigste.",
+   "en": "The five springs at Kraftsdorf and in the Dessegrund lie between 8.4 and 11.3 °C; three of them are at 8 °R (10 °C), the Martinsquelle at 9 °R (11.25 °C) and the Prechtsquelle, at 6 3/4 °R (8.4 °C), is the coldest."
+  },
+  {
+   "de": "Die drei Brunnen in Hermsdorf, Hohenleuben und Döhlen werden einheitlich mit 8 °R (10 °C) angegeben.",
+   "en": "The three wells at Hermsdorf, Hohenleuben and Döhlen are all given as 8 °R (10 °C)."
+  },
+  {
+   "de": "Die Ziehbrunnen in Röttersdorf (Oberland) messen im Mai 1868 nur 6,9 bis 8,1 °C, also 1,9 bis 3,1 Grad weniger als die Brunnen mit 10 °C. Das sind Einzelmessungen an zwei Tagen bei unterschiedlicher Luft; ein Jahresmittel lässt sich daraus nicht ableiten.",
+   "en": "The draw-wells at Röttersdorf (Oberland) read only 6.9 to 8.1 °C in May 1868, 1.9 to 3.1 degrees less than the wells at 10 °C. These are single readings on two days under different air conditions; no annual mean can be derived from them."
+  },
+  {
+   "de": "Elsässers allgemeine Spannen für das Oberland (obere Quellen 11–12 °R = 13,8–15,0 °C, mittlere 9–10 °R, untere 7–8 °R) liegen höher als die Röttersdorfer Messungen. Was »obere«, »mittlere« und »untere« Quellen bedeuten, sagt der Text nicht; Brückner merkt an, es sei unklar, ob die Zahlen auf Messungen beruhen und die Jahrestemperatur meinen.",
+   "en": "Elsässer's general ranges for the Oberland (upper springs 11–12 °R = 13.8–15.0 °C, middle 9–10 °R, lower 7–8 °R) lie higher than the Röttersdorf readings. The text does not say what “upper”, “middle” and “lower” springs mean; Brückner remarks that it is unclear whether the figures rest on measurements and refer to the annual temperature."
+  }
+ ],
+ "caveats": [
+  {
+   "de": "Brückner betont, dass »eine durch alle Monate des Jahres durchgeführte Beobachtung« fehlt und ein Vergleich von Wasser- und Luftwärme für die Stufen des Landes noch nicht möglich ist. Die Werte sind Einzelangaben unterschiedlicher Beobachter, Jahreszeiten und Quellarten und deshalb nicht untereinander vergleichbar; sie sind nur als Anhaltspunkte zu lesen.",
+   "en": "Brückner stresses that no observation “carried through all months of the year” exists and that a comparison of water and air temperature for the altitude stages of the country is not yet possible. The values are single statements by different observers, in different seasons and for different kinds of springs and are therefore not comparable with each other; they should be read as rough indications only."
+  },
+  {
+   "de": "Die Genauigkeit der Réaumur-Angaben ist unbekannt (meist ganze Grade, einmal 6 3/4); Höhenlage und Lage der Quellen sind nicht genannt. Bei den Röttersdorfer Messungen stehen Luftwärme (im Schatten 18 1/2, in der Sonne 23 1/2 bzw. 26 1/2 °R) und Windlage im Text, sind hier aber nicht ausgewertet.",
+   "en": "The precision of the Réaumur values is unknown (mostly whole degrees, once 6 3/4); altitude and position of the springs are not given. For the Röttersdorf readings the text gives air temperature (in the shade 18 1/2, in the sun 23 1/2 and 26 1/2 °R) and wind conditions, which are not analysed here."
+  }
+ ],
+ "conversions": [
+  {
+   "from": "Grad Réaumur (°R)",
+   "to": "Grad Celsius (°C)",
+   "factor_or_formula": "°C = °R × 1,25",
+   "reference": "übliche Umrechnung (80 °R = 100 °C); Brückner nennt die Skala als »R.«"
+  }
+ ],
+ "datasets": [
+  {
+   "name": "measurements",
+   "title": {
+    "de": "Temperaturangaben für Quellen und Brunnen",
+    "en": "Temperature statements for springs and wells"
+   },
+   "columns": [
+    {
+     "name": "id",
+     "label": {
+      "de": "Nr.",
+      "en": "No."
+     },
+     "type": "integer",
+     "unit": null,
+     "derived": true,
+     "note": "laufende Nummer, editorisch"
+    },
+    {
+     "name": "group",
+     "label": {
+      "de": "Gruppe",
+      "en": "Group"
+     },
+     "type": "string",
+     "unit": null,
+     "derived": true,
+     "note": "Beobachter bzw. Fundort, editorisch"
+    },
+    {
+     "name": "group_order",
+     "label": {
+      "de": "Reihenfolge der Gruppe",
+      "en": "Group order"
+     },
+     "type": "integer",
+     "unit": null,
+     "derived": true
+    },
+    {
+     "name": "site",
+     "label": {
+      "de": "Quelle / Brunnen",
+      "en": "Spring / well"
+     },
+     "type": "string",
+     "unit": null,
+     "note": "Bezeichnung wie im Druck"
+    },
+    {
+     "name": "kind",
+     "label": {
+      "de": "Art",
+      "en": "Kind"
+     },
+     "type": "string",
+     "unit": null,
+     "derived": true,
+     "note": "spring = Quelle, well = Brunnen, stage = Spanne für eine Stufe (Elsässer)"
+    },
+    {
+     "name": "value_printed",
+     "label": {
+      "de": "Wert im Druck",
+      "en": "Value as printed"
+     },
+     "type": "string",
+     "unit": null,
+     "note": "Réaumur"
+    },
+    {
+     "name": "temp_r_min",
+     "label": {
+      "de": "Temperatur (Minimum)",
+      "en": "Temperature (minimum)"
+     },
+     "type": "number",
+     "unit": "°R",
+     "derived": true,
+     "note": "aus dem gedruckten Wert; Brüche als Dezimalzahl"
+    },
+    {
+     "name": "temp_r_max",
+     "label": {
+      "de": "Temperatur (Maximum)",
+      "en": "Temperature (maximum)"
+     },
+     "type": "number",
+     "unit": "°R",
+     "derived": true,
+     "note": "gleich dem Minimum bei Einzelwerten"
+    },
+    {
+     "name": "temp_c_min",
+     "label": {
+      "de": "Temperatur (Minimum)",
+      "en": "Temperature (minimum)"
+     },
+     "type": "number",
+     "unit": "°C",
+     "derived": true,
+     "note": "°R × 1,25"
+    },
+    {
+     "name": "temp_c_max",
+     "label": {
+      "de": "Temperatur (Maximum)",
+      "en": "Temperature (maximum)"
+     },
+     "type": "number",
+     "unit": "°C",
+     "derived": true,
+     "note": "°R × 1,25"
+    },
+    {
+     "name": "observer",
+     "label": {
+      "de": "Beobachter",
+      "en": "Observer"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "date_text",
+     "label": {
+      "de": "Datum",
+      "en": "Date"
+     },
+     "type": "string",
+     "unit": null,
+     "note": "wo im Text angegeben"
+    }
+   ],
+   "rows": [
+    [
+     1,
+     "kraftsdorf",
+     1,
+     "Queckbrunnen",
+     "spring",
+     "8°",
+     8,
+     8,
+     10.0,
+     10.0,
+     "J. C. Seydel",
+     ""
+    ],
+    [
+     2,
+     "kraftsdorf",
+     1,
+     "Hempelsquelle",
+     "spring",
+     "8°",
+     8,
+     8,
+     10.0,
+     10.0,
+     "J. C. Seydel",
+     ""
+    ],
+    [
+     3,
+     "kraftsdorf",
+     1,
+     "Martinsquelle",
+     "spring",
+     "9°",
+     9,
+     9,
+     11.3,
+     11.3,
+     "J. C. Seydel",
+     ""
+    ],
+    [
+     4,
+     "kraftsdorf",
+     1,
+     "Scheffelsbrunnen",
+     "spring",
+     "8°",
+     8,
+     8,
+     10.0,
+     10.0,
+     "J. C. Seydel",
+     ""
+    ],
+    [
+     5,
+     "kraftsdorf",
+     1,
+     "Prechtsquelle",
+     "spring",
+     "6 3/4°",
+     6.75,
+     6.75,
+     8.4,
+     8.4,
+     "J. C. Seydel",
+     ""
+    ],
+    [
+     6,
+     "brunnen",
+     2,
+     "Hermsdorf",
+     "well",
+     "8°",
+     8,
+     8,
+     10.0,
+     10.0,
+     "Pastor Dreyhaupt, Heukewalde",
+     ""
+    ],
+    [
+     7,
+     "brunnen",
+     2,
+     "Hohenleuben, Herrengasse (40 Fuß)",
+     "well",
+     "8°",
+     8,
+     8,
+     10.0,
+     10.0,
+     "Dr. Schmidt, Hohenleuben",
+     ""
+    ],
+    [
+     8,
+     "brunnen",
+     2,
+     "Döhlen",
+     "well",
+     "8°",
+     8,
+     8,
+     10.0,
+     10.0,
+     "Dr. Schmidt, Hohenleuben",
+     ""
+    ],
+    [
+     9,
+     "roettersdorf",
+     3,
+     "Röttersdorf, oberer Ziehbrunnen, 12. Mai",
+     "well",
+     "5 1/2°",
+     5.5,
+     5.5,
+     6.9,
+     6.9,
+     "Dir. Bischoff, Lehesten",
+     "12. Mai 1868"
+    ],
+    [
+     10,
+     "roettersdorf",
+     3,
+     "Röttersdorf, oberer Ziehbrunnen, 27. Mai",
+     "well",
+     "6 1/2°",
+     6.5,
+     6.5,
+     8.1,
+     8.1,
+     "Dir. Bischoff, Lehesten",
+     "27. Mai 1868"
+    ],
+    [
+     11,
+     "roettersdorf",
+     3,
+     "Röttersdorf, unterer Ziehbrunnen, 27. Mai",
+     "well",
+     "6°",
+     6,
+     6,
+     7.5,
+     7.5,
+     "Dir. Bischoff, Lehesten",
+     "27. Mai 1868"
+    ],
+    [
+     12,
+     "elsaesser",
+     4,
+     "Obere Quellen",
+     "stage",
+     "11° bis 12°",
+     11,
+     12,
+     13.8,
+     15.0,
+     "Ing. Elsässer",
+     ""
+    ],
+    [
+     13,
+     "elsaesser",
+     4,
+     "Mittlere Quellen",
+     "stage",
+     "9° bis 10°",
+     9,
+     10,
+     11.3,
+     12.5,
+     "Ing. Elsässer",
+     ""
+    ],
+    [
+     14,
+     "elsaesser",
+     4,
+     "Untere Quellen",
+     "stage",
+     "7° bis 8°",
+     7,
+     8,
+     8.8,
+     10.0,
+     "Ing. Elsässer",
+     ""
+    ]
+   ],
+   "source_refs": [
+    {
+     "page": "69",
+     "block": "b3"
+    },
+    {
+     "page": "70",
+     "block": "b1"
+    },
+    {
+     "page": "70",
+     "block": "b2"
+    }
+   ]
+  }
+ ],
+ "charts": [
+  {
+   "id": "c1",
+   "dataset": "measurements",
+   "title": {
+    "de": "Temperaturen von Quellen und Brunnen",
+    "en": "Temperatures of springs and wells"
+   },
+   "caption": {
+    "de": "Punkte: Einzelmessungen; Balken: Spannen nach Elsässer (°R × 1,25 in °C). Die Kraftsdorfer Quellen und die Brunnen liegen bei 10 °C, die Röttersdorfer Ziehbrunnen im Mai 1868 darunter.",
+    "en": "Dots: single readings; bars: ranges according to Elsässer (°R × 1.25 in °C). The Kraftsdorf springs and the wells lie at 10 °C, the Röttersdorf draw-wells in May 1868 below."
+   },
+   "vegalite": {
+    "height": 380,
+    "transform": [
+     {
+      "calculate": {
+       "de": "{'kraftsdorf':'Kraftsdorf','brunnen':'Brunnen','roettersdorf':'Röttersdorf','elsaesser':'Elsässer'}[datum.group]",
+       "en": "{'kraftsdorf':'Kraftsdorf','brunnen':'Wells','roettersdorf':'Röttersdorf','elsaesser':'Elsässer'}[datum.group]"
+      },
+      "as": "group_label"
+     },
+     {
+      "calculate": {
+       "de": "datum.site",
+       "en": "{'Hermsdorf':'Hermsdorf','Hohenleuben, Herrengasse (40 Fuß)':'Hohenleuben, Herrengasse (40 ft)','Röttersdorf, oberer Ziehbrunnen, 12. Mai':'Röttersdorf, upper well, 12 May','Röttersdorf, oberer Ziehbrunnen, 27. Mai':'Röttersdorf, upper well, 27 May','Röttersdorf, unterer Ziehbrunnen, 27. Mai':'Röttersdorf, lower well, 27 May','Obere Quellen':'Upper springs','Mittlere Quellen':'Middle springs','Untere Quellen':'Lower springs'}[datum.site] || datum.site"
+      },
+      "as": "site_label"
+     },
+     {
+      "calculate": {
+       "de": "{'spring':'Quelle','well':'Brunnen','stage':'Quellen einer Höhenstufe (Spanne)'}[datum.kind]",
+       "en": "{'spring':'Spring','well':'Well','stage':'Springs of an altitude stage (range)'}[datum.kind]"
+      },
+      "as": "kind_label"
+     },
+     {
+      "calculate": "(datum.temp_c_min + datum.temp_c_max) / 2",
+      "as": "temp_mid"
+     }
+    ],
+    "encoding": {
+     "y": {
+      "field": "site_label",
+      "type": "nominal",
+      "title": null,
+      "sort": {
+       "field": "id",
+       "op": "min"
+      },
+      "axis": {
+       "labelLimit": 400
+      }
+     },
+     "color": {
+      "field": "group_label",
+      "type": "nominal",
+      "title": null,
+      "sort": {
+       "field": "group_order",
+       "op": "min"
+      },
+      "legend": {
+       "columns": 2
+      }
+     },
+     "tooltip": [
+      {
+       "field": "site_label",
+       "title": {
+        "de": "Quelle / Brunnen",
+        "en": "Spring / well"
+       }
+      },
+      {
+       "field": "kind_label",
+       "title": {
+        "de": "Art",
+        "en": "Kind"
+       }
+      },
+      {
+       "field": "value_printed",
+       "title": {
+        "de": "Wert im Druck (°R)",
+        "en": "Value as printed (°R)"
+       }
+      },
+      {
+       "field": "temp_c_min",
+       "title": {
+        "de": "°C (von)",
+        "en": "°C (from)"
+       },
+       "format": ".1f"
+      },
+      {
+       "field": "temp_c_max",
+       "title": {
+        "de": "°C (bis)",
+        "en": "°C (to)"
+       },
+       "format": ".1f"
+      },
+      {
+       "field": "observer",
+       "title": {
+        "de": "Beobachter",
+        "en": "Observer"
+       }
+      },
+      {
+       "field": "date_text",
+       "title": {
+        "de": "Datum",
+        "en": "Date"
+       }
+      }
+     ]
+    },
+    "layer": [
+     {
+      "transform": [
+       {
+        "filter": "datum.kind == 'stage'"
+       }
+      ],
+      "mark": {
+       "type": "bar",
+       "height": 10,
+       "opacity": 0.8
+      },
+      "encoding": {
+       "x": {
+        "field": "temp_c_min",
+        "type": "quantitative",
+        "title": "°C",
+        "scale": {
+         "domain": [
+          0,
+          16
+         ],
+         "zero": true
+        },
+        "axis": {
+         "grid": true
+        }
+       },
+       "x2": {
+        "field": "temp_c_max"
+       }
+      }
+     },
+     {
+      "transform": [
+       {
+        "filter": "datum.kind != 'stage'"
+       }
+      ],
+      "mark": {
+       "type": "point",
+       "filled": true,
+       "size": 110,
+       "opacity": 1
+      },
+      "encoding": {
+       "x": {
+        "field": "temp_mid",
+        "type": "quantitative",
+        "title": "°C",
+        "scale": {
+         "domain": [
+          0,
+          16
+         ],
+         "zero": true
+        },
+        "axis": {
+         "grid": true
+        }
+       }
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "keywords": {
+  "de": [
+   "Quelltemperatur",
+   "Quellen",
+   "Brunnen",
+   "Wassertemperatur",
+   "Kraftsdorf",
+   "Dessegrund",
+   "Röttersdorf",
+   "Réaumur",
+   "Hohenleuben"
+  ],
+  "en": [
+   "spring temperature",
+   "springs",
+   "wells",
+   "water temperature",
+   "Kraftsdorf",
+   "Dessegrund",
+   "Röttersdorf",
+   "Réaumur",
+   "Hohenleuben"
+  ]
+ },
+ "related": [
+  "klima-regenmenge-gera-1860-1867"
+ ],
+ "generated_by": "Claude Sonnet 5.5 (subagent A04)",
+ "date": "2026-10-01"
+}

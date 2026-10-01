@@ -1,0 +1,14 @@
+{% extends "doc_base.html" %}
+{% block title %}Zitieren – {{ site.short_title }}{% endblock %}
+{% block doc %}
+<p class="eyebrow" style="margin-top:36px">{{ t('Edition', 'Edition') }}</p>
+<h1>{{ t('Zitieren', 'How to cite') }}</h1>
+<h2>{{ t('Die Edition', 'The edition') }}</h2>
+<div class="cite-box">Brückner, Georg: Volks- und Landeskunde des Fürstenthums Reuß j. L. Gera: Köhler 1870. Digitale Edition, hg. von {{ site.editor }}. {{ site.institution }}, {{ site.date[:4] }}. Version {{ site.version }}. <span data-url-root>{{ site.base_url }}</span></div>
+<h2>{{ t('Eine Seite', 'A page') }}</h2>
+<p>{{ t('Jede Seite hat eine dauerhafte Adresse nach der gedruckten Seitenzahl, z. B.', 'Every page has a stable address based on the printed page number, e.g.') }} <span class="mono">seite/54.html</span>; {{ t('einzelne Absätze und Tabellen sind über Anker adressierbar (', 'paragraphs and tables can be addressed via anchors (') }}<span class="mono">seite/54.html#b4</span>). {{ t('Der Zitiervorschlag steht unter jeder Seite und lässt sich kopieren:', 'A suggested citation is shown below every page and can be copied:') }}</p>
+<div class="cite-box">Georg Brückner: Volks- und Landeskunde des Fürstenthums Reuß j. L. Gera: Köhler 1870, S. 54. Digitale Edition, hg. von {{ site.editor }}, {{ site.date[:4] }}, <span class="mono">…/seite/54.html</span>.</div>
+<p>{{ t('Bitte zitieren Sie inhaltlich nach der gedruckten Seitenzahl des Originals; sie ist mit der Seitenzählung der Edition identisch.', 'Please cite by the printed page number of the original; it is identical to the page numbering of the edition.') }}</p>
+<h2>{{ t('Auswertungen und Daten', 'Analyses and data') }}</h2>
+<p>{{ t('Auswertungen werden mit Titel, Adresse und Version der Edition zitiert. Wer Daten nachnutzt, nennt die Edition und die Lizenz (CC BY 4.0).', 'Analyses are cited with title, address and version of the edition. When reusing data, credit the edition and the licence (CC BY 4.0).') }}</p>
+{% endblock %}

@@ -1,0 +1,1430 @@
+{
+ "id": "klima-gera-luftdruck-1856-1867",
+ "title": {
+  "de": "Luftdruck in Gera 1856–1867",
+  "en": "Air pressure at Gera, 1856–1867"
+ },
+ "category": "climate",
+ "section": "t1-1-7",
+ "sources": [
+  {
+   "page": "54",
+   "block": "b4",
+   "rows": "r2-r14"
+  },
+  {
+   "page": "54",
+   "block": "b5"
+  }
+ ],
+ "summary": {
+  "de": "Brückner druckt die Monatsmittel des Barometerstands in Gera für zwölf Jahre (1856–1867), beobachtet von C. Kratzsch und Dr. Robert Schmidt. Umgerechnet liegen die Werte um 990 hPa, wie es der Höhenlage Geras (rund 200 m) entspricht. Auffällig ist der sprunghafte Anstieg ab 1865.",
+  "en": "Brückner prints monthly mean barometer readings for Gera over twelve years (1856–1867), observed by C. Kratzsch and Dr Robert Schmidt. Converted, the values lie around 990 hPa, as expected for the town's elevation of about 200 m. The abrupt rise from 1865 onward stands out."
+ },
+ "method": {
+  "de": "Die 144 Monatswerte und 12 Jahresmittel wurden aus der Tabelle auf S. 54 übernommen. Die Überschrift nennt »pariser Zolle«, die Zahlen sind aber Pariser Linien (1 Zoll = 12 Linien); 326,40 Linien entsprechen 27 Zoll 2,4 Linien. Umrechnung: 1 Pariser Linie = 2,2558 mm Quecksilbersäule; 1 mm Hg = 1,3332 hPa. Eine Reduktion auf Meeresniveau oder 0 °C ist nicht möglich, da Höhe und Temperatur des Instruments nicht angegeben sind.",
+  "en": "The 144 monthly values and 12 annual means were taken from the table on p. 54. The heading says “Paris inches”, but the figures are Paris lines (1 inch = 12 lines); 326.40 lines equal 27 inches 2.4 lines. Conversion: 1 Paris line = 2.2558 mm of mercury; 1 mm Hg = 1.3332 hPa. Reduction to sea level or 0 °C is not possible because the instrument's height and temperature are not stated."
+ },
+ "findings": [
+  {
+   "de": "1856–1864 schwanken die Jahresmittel nur zwischen 328,94 und 330,40 Linien (989,3–993,7 hPa).",
+   "en": "From 1856 to 1864 the annual means vary only between 328.94 and 330.40 lines (989.3–993.7 hPa)."
+  },
+  {
+   "de": "1865–1867 liegen alle Jahresmittel um 2,6–3,6 Linien (8–11 hPa) über dem Mittel der Vorjahre; ein so abrupter, anhaltender Sprung deutet eher auf einen Wechsel von Instrument, Aufstellungsort oder Reduktion als auf eine klimatische Änderung.",
+   "en": "In 1865–1867 all annual means lie 2.6–3.6 lines (8–11 hPa) above the mean of the preceding years; such an abrupt, lasting step points to a change of instrument, location or reduction rather than to a climatic change."
+  },
+  {
+   "de": "Die Monatsmittel streuen im Winter deutlich stärker als im Sommer – ein typisches Muster des mitteleuropäischen Luftdrucks.",
+   "en": "Monthly means scatter much more in winter than in summer, a typical pattern of central European air pressure."
+  },
+  {
+   "de": "Brückner nennt als Extreme 342,0 Linien (März 1867) und 316,00 Linien (1856), eine Spanne von 26 Linien (≈ 78 hPa).",
+   "en": "Brückner gives extremes of 342.0 lines (March 1867) and 316.00 lines (1856), a range of 26 lines (≈ 78 hPa)."
+  }
+ ],
+ "caveats": [
+  {
+   "de": "Der Text nennt die Einheit »pariser Zolle«; die Werte sind Linien. Die Umrechnung in hPa dient nur dem Vergleich.",
+   "en": "The text names the unit “Paris inches”; the values are lines. The hPa conversion is for comparison only."
+  }
+ ],
+ "conversions": [
+  {
+   "from": "Pariser Linie (Barometer)",
+   "to": "hPa",
+   "factor_or_formula": "hPa = Linien × 2.2558 mm × 1.3332 hPa/mm",
+   "reference": "1 Pariser Fuß = 324.84 mm; 1 Linie = 1/144 Fuß"
+  }
+ ],
+ "datasets": [
+  {
+   "name": "monthly",
+   "title": {
+    "de": "Monatsmittel des Barometerstands",
+    "en": "Monthly mean barometer readings"
+   },
+   "columns": [
+    {
+     "name": "year",
+     "label": {
+      "de": "Jahr",
+      "en": "Year"
+     },
+     "type": "integer",
+     "unit": null
+    },
+    {
+     "name": "month",
+     "label": {
+      "de": "Monat",
+      "en": "Month"
+     },
+     "type": "integer",
+     "unit": null,
+     "derived": true,
+     "note": "Monatsnummer 1-12, editorisch"
+    },
+    {
+     "name": "month_label",
+     "label": {
+      "de": "Monat (Original)",
+      "en": "Month (original)"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "pressure_lines",
+     "label": {
+      "de": "Barometerstand",
+      "en": "Barometer reading"
+     },
+     "type": "number",
+     "unit": "Pariser Linien"
+    },
+    {
+     "name": "pressure_hpa",
+     "label": {
+      "de": "Luftdruck",
+      "en": "Air pressure"
+     },
+     "type": "number",
+     "unit": "hPa",
+     "derived": true
+    }
+   ],
+   "rows": [
+    [
+     1856,
+     1,
+     "Jan.",
+     326.4,
+     981.7
+    ],
+    [
+     1856,
+     2,
+     "Febr.",
+     330.17,
+     993.0
+    ],
+    [
+     1856,
+     3,
+     "März",
+     331.08,
+     995.7
+    ],
+    [
+     1856,
+     4,
+     "April",
+     327.44,
+     984.8
+    ],
+    [
+     1856,
+     5,
+     "Mai",
+     327.04,
+     983.6
+    ],
+    [
+     1856,
+     6,
+     "Juni",
+     329.75,
+     991.7
+    ],
+    [
+     1856,
+     7,
+     "Juli",
+     329.74,
+     991.7
+    ],
+    [
+     1856,
+     8,
+     "Aug.",
+     328.6,
+     988.3
+    ],
+    [
+     1856,
+     9,
+     "Sept.",
+     328.62,
+     988.3
+    ],
+    [
+     1856,
+     10,
+     "Oct.",
+     332.33,
+     999.5
+    ],
+    [
+     1856,
+     11,
+     "Nov.",
+     328.65,
+     988.4
+    ],
+    [
+     1856,
+     12,
+     "Dec.",
+     327.42,
+     984.7
+    ],
+    [
+     1857,
+     1,
+     "Jan.",
+     327.51,
+     985.0
+    ],
+    [
+     1857,
+     2,
+     "Febr.",
+     332.0,
+     998.5
+    ],
+    [
+     1857,
+     3,
+     "März",
+     328.7,
+     988.6
+    ],
+    [
+     1857,
+     4,
+     "April",
+     327.84,
+     986.0
+    ],
+    [
+     1857,
+     5,
+     "Mai",
+     329.1,
+     989.8
+    ],
+    [
+     1857,
+     6,
+     "Juni",
+     330.19,
+     993.1
+    ],
+    [
+     1857,
+     7,
+     "Juli",
+     329.77,
+     991.8
+    ],
+    [
+     1857,
+     8,
+     "Aug.",
+     327.89,
+     986.1
+    ],
+    [
+     1857,
+     9,
+     "Sept.",
+     328.2,
+     987.1
+    ],
+    [
+     1857,
+     10,
+     "Oct.",
+     328.87,
+     989.1
+    ],
+    [
+     1857,
+     11,
+     "Nov.",
+     332.15,
+     998.9
+    ],
+    [
+     1857,
+     12,
+     "Dec.",
+     334.28,
+     1005.4
+    ],
+    [
+     1858,
+     1,
+     "Jan.",
+     333.43,
+     1002.8
+    ],
+    [
+     1858,
+     2,
+     "Febr.",
+     331.4,
+     996.7
+    ],
+    [
+     1858,
+     3,
+     "März",
+     328.16,
+     986.9
+    ],
+    [
+     1858,
+     4,
+     "April",
+     328.96,
+     989.4
+    ],
+    [
+     1858,
+     5,
+     "Mai",
+     329.66,
+     991.5
+    ],
+    [
+     1858,
+     6,
+     "Juni",
+     330.96,
+     995.4
+    ],
+    [
+     1858,
+     7,
+     "Juli",
+     328.86,
+     989.1
+    ],
+    [
+     1858,
+     8,
+     "Aug.",
+     329.66,
+     991.5
+    ],
+    [
+     1858,
+     9,
+     "Sept.",
+     331.44,
+     996.8
+    ],
+    [
+     1858,
+     10,
+     "Oct.",
+     330.7,
+     994.6
+    ],
+    [
+     1858,
+     11,
+     "Nov.",
+     329.5,
+     991.0
+    ],
+    [
+     1858,
+     12,
+     "Dec.",
+     330.72,
+     994.6
+    ],
+    [
+     1859,
+     1,
+     "Jan.",
+     332.37,
+     999.6
+    ],
+    [
+     1859,
+     2,
+     "Febr.",
+     329.81,
+     991.9
+    ],
+    [
+     1859,
+     3,
+     "März",
+     329.46,
+     990.9
+    ],
+    [
+     1859,
+     4,
+     "April",
+     327.88,
+     986.1
+    ],
+    [
+     1859,
+     5,
+     "Mai",
+     329.03,
+     989.6
+    ],
+    [
+     1859,
+     6,
+     "Juni",
+     329.4,
+     990.7
+    ],
+    [
+     1859,
+     7,
+     "Juli",
+     331.32,
+     996.5
+    ],
+    [
+     1859,
+     8,
+     "Aug.",
+     330.23,
+     993.2
+    ],
+    [
+     1859,
+     9,
+     "Sept.",
+     329.37,
+     990.6
+    ],
+    [
+     1859,
+     10,
+     "Oct.",
+     328.22,
+     987.1
+    ],
+    [
+     1859,
+     11,
+     "Nov.",
+     331.04,
+     995.6
+    ],
+    [
+     1859,
+     12,
+     "Dec.",
+     329.11,
+     989.8
+    ],
+    [
+     1860,
+     1,
+     "Jan.",
+     328.4,
+     987.7
+    ],
+    [
+     1860,
+     2,
+     "Febr.",
+     328.5,
+     988.0
+    ],
+    [
+     1860,
+     3,
+     "März",
+     328.18,
+     987.0
+    ],
+    [
+     1860,
+     4,
+     "April",
+     329.22,
+     990.1
+    ],
+    [
+     1860,
+     5,
+     "Mai",
+     329.22,
+     990.1
+    ],
+    [
+     1860,
+     6,
+     "Juni",
+     329.2,
+     990.1
+    ],
+    [
+     1860,
+     7,
+     "Juli",
+     329.54,
+     991.1
+    ],
+    [
+     1860,
+     8,
+     "Aug.",
+     328.61,
+     988.3
+    ],
+    [
+     1860,
+     9,
+     "Sept.",
+     330.12,
+     992.8
+    ],
+    [
+     1860,
+     10,
+     "Oct.",
+     331.16,
+     996.0
+    ],
+    [
+     1860,
+     11,
+     "Nov.",
+     329.72,
+     991.6
+    ],
+    [
+     1860,
+     12,
+     "Dec.",
+     327.24,
+     984.2
+    ],
+    [
+     1861,
+     1,
+     "Jan.",
+     332.31,
+     999.4
+    ],
+    [
+     1861,
+     2,
+     "Febr.",
+     330.05,
+     992.6
+    ],
+    [
+     1861,
+     3,
+     "März",
+     327.7,
+     985.6
+    ],
+    [
+     1861,
+     4,
+     "April",
+     331.3,
+     996.4
+    ],
+    [
+     1861,
+     5,
+     "Mai",
+     330.0,
+     992.5
+    ],
+    [
+     1861,
+     6,
+     "Juni",
+     329.67,
+     991.5
+    ],
+    [
+     1861,
+     7,
+     "Juli",
+     329.05,
+     989.6
+    ],
+    [
+     1861,
+     8,
+     "Aug.",
+     331.1,
+     995.8
+    ],
+    [
+     1861,
+     9,
+     "Sept.",
+     329.66,
+     991.5
+    ],
+    [
+     1861,
+     10,
+     "Oct.",
+     331.92,
+     998.3
+    ],
+    [
+     1861,
+     11,
+     "Nov.",
+     328.6,
+     988.3
+    ],
+    [
+     1861,
+     12,
+     "Dec.",
+     332.11,
+     998.8
+    ],
+    [
+     1862,
+     1,
+     "Jan.",
+     329.17,
+     990.0
+    ],
+    [
+     1862,
+     2,
+     "Febr.",
+     331.3,
+     996.4
+    ],
+    [
+     1862,
+     3,
+     "März",
+     327.7,
+     985.6
+    ],
+    [
+     1862,
+     4,
+     "April",
+     330.7,
+     994.6
+    ],
+    [
+     1862,
+     5,
+     "Mai",
+     329.51,
+     991.0
+    ],
+    [
+     1862,
+     6,
+     "Juni",
+     329.0,
+     989.5
+    ],
+    [
+     1862,
+     7,
+     "Juli",
+     330.15,
+     992.9
+    ],
+    [
+     1862,
+     8,
+     "Aug.",
+     329.81,
+     991.9
+    ],
+    [
+     1862,
+     9,
+     "Sept.",
+     330.9,
+     995.2
+    ],
+    [
+     1862,
+     10,
+     "Oct.",
+     330.1,
+     992.8
+    ],
+    [
+     1862,
+     11,
+     "Nov.",
+     329.62,
+     991.3
+    ],
+    [
+     1862,
+     12,
+     "Dec.",
+     330.93,
+     995.3
+    ],
+    [
+     1863,
+     1,
+     "Jan.",
+     329.37,
+     990.6
+    ],
+    [
+     1863,
+     2,
+     "Febr.",
+     333.88,
+     1004.2
+    ],
+    [
+     1863,
+     3,
+     "März",
+     328.9,
+     989.2
+    ],
+    [
+     1863,
+     4,
+     "April",
+     330.34,
+     993.5
+    ],
+    [
+     1863,
+     5,
+     "Mai",
+     330.3,
+     993.4
+    ],
+    [
+     1863,
+     6,
+     "Juni",
+     329.98,
+     992.4
+    ],
+    [
+     1863,
+     7,
+     "Juli",
+     331.37,
+     996.6
+    ],
+    [
+     1863,
+     8,
+     "Aug.",
+     330.44,
+     993.8
+    ],
+    [
+     1863,
+     9,
+     "Sept.",
+     330.02,
+     992.5
+    ],
+    [
+     1863,
+     10,
+     "Oct.",
+     330.38,
+     993.6
+    ],
+    [
+     1863,
+     11,
+     "Nov.",
+     331.89,
+     998.2
+    ],
+    [
+     1863,
+     12,
+     "Dec.",
+     327.99,
+     986.4
+    ],
+    [
+     1864,
+     1,
+     "Jan.",
+     330.85,
+     995.0
+    ],
+    [
+     1864,
+     2,
+     "Febr.",
+     326.36,
+     981.5
+    ],
+    [
+     1864,
+     3,
+     "März",
+     327.34,
+     984.5
+    ],
+    [
+     1864,
+     4,
+     "April",
+     330.57,
+     994.2
+    ],
+    [
+     1864,
+     5,
+     "Mai",
+     330.35,
+     993.5
+    ],
+    [
+     1864,
+     6,
+     "Juni",
+     330.82,
+     994.9
+    ],
+    [
+     1864,
+     7,
+     "Juli",
+     331.26,
+     996.3
+    ],
+    [
+     1864,
+     8,
+     "Aug.",
+     331.54,
+     997.1
+    ],
+    [
+     1864,
+     9,
+     "Sept.",
+     331.65,
+     997.4
+    ],
+    [
+     1864,
+     10,
+     "Oct.",
+     330.12,
+     992.8
+    ],
+    [
+     1864,
+     11,
+     "Nov.",
+     330.55,
+     994.1
+    ],
+    [
+     1864,
+     12,
+     "Dec.",
+     331.7,
+     997.6
+    ],
+    [
+     1865,
+     1,
+     "Jan.",
+     329.48,
+     990.9
+    ],
+    [
+     1865,
+     2,
+     "Febr.",
+     332.53,
+     1000.1
+    ],
+    [
+     1865,
+     3,
+     "März",
+     331.46,
+     996.9
+    ],
+    [
+     1865,
+     4,
+     "April",
+     335.02,
+     1007.6
+    ],
+    [
+     1865,
+     5,
+     "Mai",
+     333.82,
+     1004.0
+    ],
+    [
+     1865,
+     6,
+     "Juni",
+     334.56,
+     1006.2
+    ],
+    [
+     1865,
+     7,
+     "Juli",
+     333.69,
+     1003.6
+    ],
+    [
+     1865,
+     8,
+     "Aug.",
+     332.74,
+     1000.7
+    ],
+    [
+     1865,
+     9,
+     "Sept.",
+     336.45,
+     1011.9
+    ],
+    [
+     1865,
+     10,
+     "Oct.",
+     330.9,
+     995.2
+    ],
+    [
+     1865,
+     11,
+     "Nov.",
+     333.36,
+     1002.6
+    ],
+    [
+     1865,
+     12,
+     "Dec.",
+     337.11,
+     1013.9
+    ],
+    [
+     1866,
+     1,
+     "Jan.",
+     333.84,
+     1004.0
+    ],
+    [
+     1866,
+     2,
+     "Febr.",
+     331.38,
+     996.6
+    ],
+    [
+     1866,
+     3,
+     "März",
+     330.91,
+     995.2
+    ],
+    [
+     1866,
+     4,
+     "April",
+     333.07,
+     1001.7
+    ],
+    [
+     1866,
+     5,
+     "Mai",
+     332.91,
+     1001.2
+    ],
+    [
+     1866,
+     6,
+     "Juni",
+     329.41,
+     990.7
+    ],
+    [
+     1866,
+     7,
+     "Juli",
+     332.42,
+     999.8
+    ],
+    [
+     1866,
+     8,
+     "Aug.",
+     332.24,
+     999.2
+    ],
+    [
+     1866,
+     9,
+     "Sept.",
+     332.65,
+     1000.5
+    ],
+    [
+     1866,
+     10,
+     "Oct.",
+     335.44,
+     1008.8
+    ],
+    [
+     1866,
+     11,
+     "Nov.",
+     331.79,
+     997.9
+    ],
+    [
+     1866,
+     12,
+     "Dec.",
+     333.0,
+     1001.5
+    ],
+    [
+     1867,
+     1,
+     "Jan.",
+     330.4,
+     993.7
+    ],
+    [
+     1867,
+     2,
+     "Febr.",
+     325.0,
+     977.4
+    ],
+    [
+     1867,
+     3,
+     "März",
+     335.2,
+     1008.1
+    ],
+    [
+     1867,
+     4,
+     "April",
+     331.0,
+     995.5
+    ],
+    [
+     1867,
+     5,
+     "Mai",
+     332.7,
+     1000.6
+    ],
+    [
+     1867,
+     6,
+     "Juni",
+     333.8,
+     1003.9
+    ],
+    [
+     1867,
+     7,
+     "Juli",
+     332.7,
+     1000.6
+    ],
+    [
+     1867,
+     8,
+     "Aug.",
+     334.0,
+     1004.5
+    ],
+    [
+     1867,
+     9,
+     "Sept.",
+     334.4,
+     1005.7
+    ],
+    [
+     1867,
+     10,
+     "Oct.",
+     333.0,
+     1001.5
+    ],
+    [
+     1867,
+     11,
+     "Nov.",
+     334.8,
+     1006.9
+    ],
+    [
+     1867,
+     12,
+     "Dec.",
+     332.1,
+     998.8
+    ]
+   ],
+   "source_refs": [
+    {
+     "page": "54",
+     "block": "b4",
+     "rows": "r2-r13"
+    }
+   ]
+  },
+  {
+   "name": "annual",
+   "title": {
+    "de": "Jahresmittel",
+    "en": "Annual means"
+   },
+   "columns": [
+    {
+     "name": "year",
+     "label": {
+      "de": "Jahr",
+      "en": "Year"
+     },
+     "type": "integer",
+     "unit": null
+    },
+    {
+     "name": "pressure_lines",
+     "label": {
+      "de": "Jahresmittel",
+      "en": "Annual mean"
+     },
+     "type": "number",
+     "unit": "Pariser Linien"
+    },
+    {
+     "name": "pressure_hpa",
+     "label": {
+      "de": "Jahresmittel",
+      "en": "Annual mean"
+     },
+     "type": "number",
+     "unit": "hPa",
+     "derived": true
+    }
+   ],
+   "rows": [
+    [
+     1856,
+     328.94,
+     989.3
+    ],
+    [
+     1857,
+     329.71,
+     991.6
+    ],
+    [
+     1858,
+     330.29,
+     993.4
+    ],
+    [
+     1859,
+     329.77,
+     991.8
+    ],
+    [
+     1860,
+     329.09,
+     989.7
+    ],
+    [
+     1861,
+     330.29,
+     993.4
+    ],
+    [
+     1862,
+     329.9,
+     992.2
+    ],
+    [
+     1863,
+     330.4,
+     993.7
+    ],
+    [
+     1864,
+     330.26,
+     993.3
+    ],
+    [
+     1865,
+     333.43,
+     1002.8
+    ],
+    [
+     1866,
+     332.42,
+     999.8
+    ],
+    [
+     1867,
+     332.43,
+     999.8
+    ]
+   ],
+   "source_refs": [
+    {
+     "page": "54",
+     "block": "b4",
+     "rows": "r2-r13"
+    }
+   ]
+  }
+ ],
+ "charts": [
+  {
+   "id": "c1",
+   "dataset": "annual",
+   "title": {
+    "de": "Jahresmittel des Luftdrucks",
+    "en": "Annual mean air pressure"
+   },
+   "caption": {
+    "de": "Gera, umgerechnet in hPa. Die gestrichelte Linie markiert das Mittel 1856–1864; ab 1865 liegen alle Werte deutlich darüber.",
+    "en": "Gera, converted to hPa. The dashed rule marks the 1856–1864 mean; from 1865 all values lie clearly above it."
+   },
+   "vegalite": {
+    "height": 260,
+    "layer": [
+     {
+      "mark": {
+       "type": "line",
+       "point": true
+      },
+      "encoding": {
+       "x": {
+        "field": "year",
+        "type": "ordinal",
+        "title": {
+         "de": "Jahr",
+         "en": "Year"
+        },
+        "axis": {
+         "labelAngle": 0
+        }
+       },
+       "y": {
+        "field": "pressure_hpa",
+        "type": "quantitative",
+        "title": "hPa",
+        "scale": {
+         "zero": false
+        }
+       },
+       "tooltip": [
+        {
+         "field": "year",
+         "title": {
+          "de": "Jahr",
+          "en": "Year"
+         }
+        },
+        {
+         "field": "pressure_lines",
+         "title": {
+          "de": "Pariser Linien",
+          "en": "Paris lines"
+         }
+        },
+        {
+         "field": "pressure_hpa",
+         "title": "hPa"
+        }
+       ]
+      }
+     },
+     {
+      "transform": [
+       {
+        "filter": "datum.year <= 1864"
+       },
+       {
+        "aggregate": [
+         {
+          "op": "mean",
+          "field": "pressure_hpa",
+          "as": "m"
+         }
+        ]
+       }
+      ],
+      "mark": {
+       "type": "rule",
+       "strokeDash": [
+        4,
+        3
+       ]
+      },
+      "encoding": {
+       "y": {
+        "field": "m",
+        "type": "quantitative"
+       }
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "c2",
+   "dataset": "monthly",
+   "title": {
+    "de": "Monatsmittel nach Jahr und Monat",
+    "en": "Monthly means by year and month"
+   },
+   "caption": {
+    "de": "Jede Zelle ist ein Monatsmittel (hPa). Der dunkle Block ab 1865 zeigt den Niveausprung der Messreihe.",
+    "en": "Each cell is a monthly mean (hPa). The dark block from 1865 shows the level shift of the series."
+   },
+   "vegalite": {
+    "height": 300,
+    "mark": "rect",
+    "encoding": {
+     "x": {
+      "field": "month_label",
+      "type": "ordinal",
+      "sort": {
+       "field": "month",
+       "op": "min"
+      },
+      "title": {
+       "de": "Monat",
+       "en": "Month"
+      },
+      "axis": {
+       "labelAngle": 0
+      }
+     },
+     "y": {
+      "field": "year",
+      "type": "ordinal",
+      "title": {
+       "de": "Jahr",
+       "en": "Year"
+      }
+     },
+     "color": {
+      "field": "pressure_hpa",
+      "type": "quantitative",
+      "title": "hPa"
+     },
+     "tooltip": [
+      {
+       "field": "year",
+       "title": {
+        "de": "Jahr",
+        "en": "Year"
+       }
+      },
+      {
+       "field": "month_label",
+       "title": {
+        "de": "Monat",
+        "en": "Month"
+       }
+      },
+      {
+       "field": "pressure_lines",
+       "title": {
+        "de": "Pariser Linien",
+        "en": "Paris lines"
+       }
+      },
+      {
+       "field": "pressure_hpa",
+       "title": "hPa"
+      }
+     ]
+    }
+   }
+  }
+ ],
+ "keywords": {
+  "de": [
+   "Luftdruck",
+   "Barometer",
+   "Barometerstand",
+   "Gera",
+   "Meteorologie",
+   "Pariser Linie"
+  ],
+  "en": [
+   "air pressure",
+   "barometer",
+   "Gera",
+   "meteorology",
+   "Paris line"
+  ]
+ },
+ "supersedes_legacy": "p. 54 'Mittlerer Barometerstand in Gera (1856-1867)' (PNG)",
+ "generated_by": "Claude Opus 5.5 (reference example)",
+ "date": "2026-10-01"
+}

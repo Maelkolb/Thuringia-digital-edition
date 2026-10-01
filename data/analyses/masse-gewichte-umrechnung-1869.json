@@ -1,0 +1,2028 @@
+{
+ "id": "masse-gewichte-umrechnung-1869",
+ "title": {
+  "de": "Maße und Gewichte: Brückners Umrechnungstabelle (1869)",
+  "en": "Weights and measures: Brückner's conversion table (1869)"
+ },
+ "category": "economy",
+ "section": "berichtigungen",
+ "sources": [
+  {
+   "page": "831",
+   "block": "b6"
+  },
+  {
+   "page": "831",
+   "block": "b7"
+  },
+  {
+   "page": "831",
+   "block": "b8",
+   "rows": "r2-r14"
+  },
+  {
+   "page": "832",
+   "block": "b2"
+  },
+  {
+   "page": "832",
+   "block": "b4"
+  },
+  {
+   "page": "832",
+   "block": "b6"
+  },
+  {
+   "page": "832",
+   "block": "b8"
+  },
+  {
+   "page": "832",
+   "block": "b10"
+  },
+  {
+   "page": "832",
+   "block": "b12"
+  }
+ ],
+ "summary": {
+  "de": "Brückner druckt als Nachtrag die amtliche Umrechnung der bisherigen Maße und Gewichte in das metrische System (Ministerial-Bekanntmachung vom 20. März 1869): Längen-, Flächen-, Hohl-, Holz-, Bruchstein- und Entfernungsmaße, getrennt nach den Landestheilen Gera, Schleiz, Lobenstein-Ebersdorf sowie Saalburg und Hirschberg. Die Tabelle wird hier als Referenzdatensatz mit 39 Einheitendefinitionen erfasst; die Diagramme vergleichen Kanne, Eimer, Getreidemaße und Elle der Bezirke in metrischen Einheiten.",
+  "en": "As an addendum Brückner prints the official conversion of the former weights and measures into the metric system (ministerial notice of 20 March 1869): measures of length, area, capacity, firewood, quarry stone and distance, given separately for the districts of Gera, Schleiz, Lobenstein-Ebersdorf, and for Saalburg and Hirschberg. The table is captured here as a reference dataset of 39 unit definitions; the charts compare the Kanne, Eimer, grain measures and Elle of the districts in metric units."
+ },
+ "method": {
+  "de": "Quelle sind S. 831 (Block b7 mit dem Faktor »443,296 pariser Linien = 1 Meter«, Block b8 mit den Längenmaßen) und S. 832 (Blöcke b2–b12). Jede Gleichung der Tabelle ergibt eine Zeile; die Zahl rechts vom Gleichheitszeichen ist als »Metrischer Wert (gedruckt)« mit der gedruckten Einheit übernommen, die Definition links wörtlich. Bezirksangaben sind auf Gera, Schleiz (mit Tanna, Hohenleuben), Saalburg, Lobenstein (Lobenstein-Ebersdorf) und Hirschberg normalisiert, die gedruckte Fassung steht daneben. Abgeleitet sind die Basiswerte (Hectoliter ×100 = Liter; Hectar ×10 000 = m²; künftige Meile ×7500 = m) und eine Probe: Wo die Tabelle aus anderen gedruckten Werten nachrechenbar ist (Eimer = n Kannen, Klafter = n Kubikfuß, Elle aus Pariser Linien usw.), steht der neu berechnete Wert samt Abweichung daneben; 32 von 34 Proben stimmen auf höchstens 0,014 % (Toleranz 0,05 %). Alle Zahlen wurden am Faksimile (S. 831–832) geprüft.",
+  "en": "The sources are p. 831 (block b7 with the factor “443,296 Paris lines = 1 metre”, block b8 with the length measures) and p. 832 (blocks b2–b12). Each equation of the table yields one row; the number to the right of the equals sign is taken as “metric value (as printed)” with the printed unit, the definition on the left verbatim. District names are normalised to Gera, Schleiz (with Tanna, Hohenleuben), Saalburg, Lobenstein (Lobenstein-Ebersdorf) and Hirschberg, with the printed form alongside. Derived are the base values (hectolitre ×100 = litres; hectare ×10,000 = m²; future mile ×7500 = m) and a check: where the table can be recomputed from other printed values (Eimer = n Kannen, Klafter = n cubic feet, Elle from Paris lines, etc.) the recomputed value is given with its deviation; 32 of 34 checks agree to within 0.014 % (tolerance 0.05 %). All numbers were checked against the facsimile (pp. 831–832)."
+ },
+ "findings": [
+  {
+   "de": "Die Kanne ist von Bezirk zu Bezirk verschieden: 0,8588 L in Schleiz gegenüber 1,1450 L in Hirschberg (dort 1 preuß. Quart), ein Unterschied von 33,3 %. Alle vier Kannen sind Bruchteile desselben preußischen Quarts (5/6, 3/4, 32/41, 1; Quart ≈ 1,145 L).",
+   "en": "The Kanne differs from district to district: 0.8588 L in Schleiz against 1.1450 L in Hirschberg (there 1 Prussian Quart), a difference of 33.3 %. All four Kannen are fractions of the same Prussian Quart (5/6, 3/4, 32/41, 1; Quart ≈ 1.145 L)."
+  },
+  {
+   "de": "Der Eimer zählt in Gera, Schleiz und Lobenstein 72 Kannen, in Hirschberg nur 64; wegen der größeren Kanne ist er dort mit 73,28 L trotzdem der größte (Schleiz: 61,83 L, Unterschied 18,5 %).",
+   "en": "The Eimer holds 72 Kannen in Gera, Schleiz and Lobenstein but only 64 in Hirschberg; because of the larger Kanne it is nevertheless the largest there at 73.28 L (Schleiz: 61.83 L, a difference of 18.5 %)."
+  },
+  {
+   "de": "Für die Elle nennt Brückner fünf verschiedene Werte, von 0,5653 m (Schleiz, leipziger Elle) bis 0,6368 m (Hirschberg, alte hofer Elle); die längste ist 12,6 % länger als die kürzeste. Landesweit gelten dagegen der Baufuß (0,282655 m) und der preußische Fuß (0,313853 m).",
+   "en": "For the Elle Brückner gives five different values, from 0.5653 m (Schleiz, Leipzig ell) to 0.6368 m (Hirschberg, old Hof ell); the longest is 12.6 % longer than the shortest. Valid throughout the principality, by contrast, are the Baufuß (0.282655 m) and the Prussian foot (0.313853 m)."
+  },
+  {
+   "de": "Die Probe bestätigt die Tabelle weitgehend: 32 von 34 nachrechenbaren Werten stimmen auf höchstens 0,014 % mit den aus anderen Angaben berechneten überein. Zwei Werte weichen im Druck ab: der Scheffel von Schleiz (gedruckt 1,4237 hl, aus 224 Kannen 1,9237 hl; vermutlich Druckfehler 4 statt 9) und die Elle von Gera (253,47 Pariser Linien, der metrische Wert entspricht 253,74; vermutlich Zahlendreher).",
+   "en": "The check largely confirms the table: 32 of 34 recomputable values agree with those derived from other entries to within 0.014 %. Two values deviate in the print itself: the Schleiz Scheffel (printed 1.4237 hl, from 224 Kannen 1.9237 hl; presumably a misprint of 4 for 9) and the Gera Elle (253.47 Paris lines, whereas the metric value corresponds to 253.74; presumably transposed digits)."
+  }
+ ],
+ "caveats": [
+  {
+   "de": "Die Tabelle ist die amtliche Umrechnung von 1869 (Ministerial-Bekanntmachung v. 20. März 1869 und Nachtrag v. 14. August, nach Art. 21 der Maß- und Gewichtsordnung für den norddeutschen Bund vom 17. August 1868). Sie legt fest, was die Einheiten des Buchs metrisch bedeuten; sie sagt nicht, wie genau die älteren lokalen Maße im Gebrauch eingehalten wurden.",
+   "en": "The table is the official conversion of 1869 (ministerial notice of 20 March 1869 with a supplement of 14 August, under Art. 21 of the weights-and-measures ordinance for the North German Confederation of 17 August 1868). It fixes what the book's units mean in metric terms; it does not say how precisely the older local measures were observed in practice."
+  },
+  {
+   "de": "Die beiden gedruckten Unstimmigkeiten (Scheffel Schleiz, Elle Gera) stehen so im Original; der Datensatz gibt sie wie gedruckt wieder und nennt daneben den berechneten Wert. Für Rechnungen mit dem Schleizer Scheffel ist 1,9237 hl wahrscheinlicher als 1,4237 hl.",
+   "en": "The two printed inconsistencies (Scheffel of Schleiz, Elle of Gera) are in the original; the dataset reproduces them as printed and gives the recomputed value alongside. For calculations with the Schleiz Scheffel, 1.9237 hl is more likely than 1.4237 hl."
+  },
+  {
+   "de": "Die Tabelle erfasst nicht alle im Buch verwendeten Einheiten: Pariser Fuß und Pariser Linie (Höhen, Barometer), Réaumur-Grade und Währungen fehlen; für Brückners Faktor 443,296 pariser Linien = 1 Meter siehe »conversions«. Für Lobenstein-Ebersdorf gibt Brückner beim Bruchsteinmaß keinen Wert an (es gelten die geraische Ruthe im Chausseebau und die schleizer Schachtruthe im Privatverkehr).",
+   "en": "The table does not cover all units used in the book: the Paris foot and Paris line (heights, barometer), Réaumur degrees and currencies are missing; for Brückner's factor 443,296 Paris lines = 1 metre see “conversions”. For Lobenstein-Ebersdorf Brückner gives no value for the quarry-stone measure (the Gera Ruthe applies in road building and the Schleiz Schachtruthe in private trade)."
+  },
+  {
+   "de": "Die Diagramme verwenden die gedruckten Werte; die Rauten im Diagramm der Getreidemaße zeigen die aus der Kannenzahl berechneten Werte.",
+   "en": "The charts use the printed values; the diamonds in the grain-measure chart show the values computed from the number of Kannen."
+  }
+ ],
+ "conversions": [
+  {
+   "from": "1 Meter",
+   "to": "pariser Linien",
+   "factor_or_formula": "1 m = 443.296 par. Linien (1 par. Linie = 2.2558 mm)",
+   "reference": "Brückner S. 831, Block b7"
+  },
+  {
+   "from": "1 Pariser Fuß (144 Linien)",
+   "to": "m",
+   "factor_or_formula": "1 Fuß = 144 / 443.296 m = 0.324839 m",
+   "reference": "aus Brückners Faktor (S. 831); 1 Fuß = 144 Linien editorisch"
+  },
+  {
+   "from": "1 Hectoliter",
+   "to": "Liter",
+   "factor_or_formula": "1 hl = 100 L",
+   "reference": "metrisch"
+  },
+  {
+   "from": "1 Hectar",
+   "to": "m²",
+   "factor_or_formula": "1 ha = 10 000 m²",
+   "reference": "metrisch; preuß. Morgen = 0,255322 ha (S. 832)"
+  },
+  {
+   "from": "1 künftige Meile",
+   "to": "m",
+   "factor_or_formula": "1 künftige Meile = 7500 m",
+   "reference": "Brückner S. 832, Block b12"
+  },
+  {
+   "from": "1 preuß. Meile",
+   "to": "m",
+   "factor_or_formula": "1.0043 künftige Meile × 7500 = 7532.25 m",
+   "reference": "Brückner S. 832, Block b12"
+  },
+  {
+   "from": "1 Pfund (Zollpfund)",
+   "to": "kg",
+   "factor_or_formula": "1 Pfund = 0.5 kg",
+   "reference": "Brückner S. 832, Block b6"
+  }
+ ],
+ "datasets": [
+  {
+   "name": "units",
+   "title": {
+    "de": "Einheitendefinitionen (Brückner S. 831–832)",
+    "en": "Unit definitions (Brückner pp. 831–832)"
+   },
+   "columns": [
+    {
+     "name": "unit_id",
+     "label": {
+      "de": "Nr.",
+      "en": "No."
+     },
+     "type": "string",
+     "unit": null,
+     "note": "laufende Nummer in Brückners Reihenfolge (editorisch)"
+    },
+    {
+     "name": "section",
+     "label": {
+      "de": "Abschnitt",
+      "en": "Section"
+     },
+     "type": "string",
+     "unit": null,
+     "note": "römische Abschnittsnummer I–VII wie gedruckt"
+    },
+    {
+     "name": "quantity",
+     "label": {
+      "de": "Größe",
+      "en": "Quantity"
+     },
+     "type": "string",
+     "unit": null,
+     "note": "length | area | capacity | weight | firewood | stone | distance (editorisch)"
+    },
+    {
+     "name": "district",
+     "label": {
+      "de": "Bezirk",
+      "en": "District"
+     },
+     "type": "string",
+     "unit": null,
+     "note": "normalisiert: Schleiz = Schleiz, Tanna (und Hohenleuben) bzw. Landestheil Schleiz; Lobenstein = Lobenstein(-Ebersdorf)"
+    },
+    {
+     "name": "district_printed",
+     "label": {
+      "de": "Bezirk (gedruckt)",
+      "en": "District (as printed)"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "unit",
+     "label": {
+      "de": "Einheit",
+      "en": "Unit"
+     },
+     "type": "string",
+     "unit": null,
+     "note": "Kurzname der Einheit aus der gedruckten Definition"
+    },
+    {
+     "name": "definition_printed",
+     "label": {
+      "de": "Definition (gedruckt)",
+      "en": "Definition (as printed)"
+     },
+     "type": "string",
+     "unit": null,
+     "note": "linke Seite der Gleichung, wörtlich"
+    },
+    {
+     "name": "n_kannen",
+     "label": {
+      "de": "Anzahl Kannen",
+      "en": "Number of Kannen"
+     },
+     "type": "integer",
+     "unit": "Kannen",
+     "note": "nur wo Brückner die Kannenzahl nennt"
+    },
+    {
+     "name": "kanne_in_quart",
+     "label": {
+      "de": "Kanne in preuß. Quart",
+      "en": "Kanne in Prussian Quart"
+     },
+     "type": "string",
+     "unit": null,
+     "note": "Bruch wie gedruckt"
+    },
+    {
+     "name": "ref_length_par_lin",
+     "label": {
+      "de": "Bezugslänge",
+      "en": "Reference length"
+     },
+     "type": "number",
+     "unit": "par. Linien",
+     "note": "Länge der Elle bzw. des Fußes in Pariser Linien, wie gedruckt (Lobenstein-Klafter: 134,75 nach Faksimile)"
+    },
+    {
+     "name": "value_printed",
+     "label": {
+      "de": "Metrischer Wert (gedruckt)",
+      "en": "Metric value (as printed)"
+     },
+     "type": "number",
+     "unit": null,
+     "note": "Zahl der rechten Seite der Gleichung"
+    },
+    {
+     "name": "unit_printed",
+     "label": {
+      "de": "Einheit (gedruckt)",
+      "en": "Unit (as printed)"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "value_base",
+     "label": {
+      "de": "Metrischer Wert in Basiseinheit",
+      "en": "Metric value in base unit"
+     },
+     "type": "number",
+     "unit": null,
+     "derived": true,
+     "note": "m, m², L, kg, m³; Hectoliter ×100, Hectar ×10 000, künftige Meile ×7500"
+    },
+    {
+     "name": "unit_base",
+     "label": {
+      "de": "Basiseinheit",
+      "en": "Base unit"
+     },
+     "type": "string",
+     "unit": null,
+     "derived": true
+    },
+    {
+     "name": "recomputed_base",
+     "label": {
+      "de": "Neu berechnet (Probe)",
+      "en": "Recomputed (check)"
+     },
+     "type": "number",
+     "unit": null,
+     "derived": true,
+     "note": "aus anderen gedruckten Werten der Tabelle, siehe recompute_rule"
+    },
+    {
+     "name": "deviation_pct",
+     "label": {
+      "de": "Abweichung gedruckt/berechnet",
+      "en": "Deviation printed/recomputed"
+     },
+     "type": "number",
+     "unit": "%",
+     "derived": true
+    },
+    {
+     "name": "check",
+     "label": {
+      "de": "Probe",
+      "en": "Check"
+     },
+     "type": "string",
+     "unit": null,
+     "derived": true,
+     "note": "ok = Abweichung höchstens 0,05 %"
+    },
+    {
+     "name": "recompute_rule",
+     "label": {
+      "de": "Rechenweg der Probe",
+      "en": "Recomputation rule"
+     },
+     "type": "string",
+     "unit": null,
+     "derived": true
+    },
+    {
+     "name": "label",
+     "label": {
+      "de": "Bezeichnung",
+      "en": "Label"
+     },
+     "type": "string",
+     "unit": null,
+     "derived": true,
+     "note": "Einheit + Bezirk für Diagramme (editorisch)"
+    },
+    {
+     "name": "note",
+     "label": {
+      "de": "Anmerkung",
+      "en": "Note"
+     },
+     "type": "string",
+     "unit": null,
+     "derived": true
+    },
+    {
+     "name": "page",
+     "label": {
+      "de": "Seite",
+      "en": "Page"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "block",
+     "label": {
+      "de": "Block",
+      "en": "Block"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "ref",
+     "label": {
+      "de": "Zeile",
+      "en": "Row/line"
+     },
+     "type": "string",
+     "unit": null,
+     "note": "Tabellenzeile rN (S. 831) bzw. Textzeile lN im Block (S. 832)"
+    }
+   ],
+   "rows": [
+    [
+     "U01",
+     "I",
+     "length",
+     "ganzes Fürstenthum",
+     "im ganzen Fürstenthume",
+     "Baufuß",
+     "1 Baufuß (leipziger Werkmaß)",
+     null,
+     null,
+     null,
+     0.282655,
+     "Meter",
+     0.282655,
+     "m",
+     0.282655,
+     0.0,
+     "ok",
+     "125,3 par. L. ÷ 443,296 par. L./m (Fuß des leipziger Maßes, S. 832)",
+     "Baufuß",
+     "",
+     "831",
+     "b8",
+     "r2"
+    ],
+    [
+     "U02",
+     "I",
+     "length",
+     "ganzes Fürstenthum",
+     "im ganzen Fürstenthume",
+     "preuß. Fuß",
+     "1 preuß. Fuß (139,13 pariser Linien)",
+     null,
+     null,
+     139.13,
+     0.313853,
+     "Meter",
+     0.313853,
+     "m",
+     0.313853,
+     0.0,
+     "ok",
+     "139,13 par. L. ÷ 443,296 par. L./m",
+     "preuß. Fuß",
+     "",
+     "831",
+     "b8",
+     "r3"
+    ],
+    [
+     "U03",
+     "I",
+     "length",
+     "ganzes Fürstenthum",
+     "im ganzen Fürstenthume",
+     "preuß. Ruthe",
+     "1 preuß. Ruthe (12 Fuß)",
+     null,
+     null,
+     null,
+     3.766242,
+     "Meter",
+     3.766242,
+     "m",
+     3.766236,
+     0.0002,
+     "ok",
+     "12 × preuß. Fuß (gedruckter Wert)",
+     "preuß. Ruthe",
+     "",
+     "831",
+     "b8",
+     "r4"
+    ],
+    [
+     "U04",
+     "I",
+     "length",
+     "Gera",
+     "in Gera",
+     "Elle",
+     "1 Elle (253,47 par. Lin.)",
+     null,
+     null,
+     253.47,
+     0.572394,
+     "Meter",
+     0.572394,
+     "m",
+     0.571785,
+     0.1065,
+     "abweichend",
+     "253,47 par. L. ÷ 443,296 par. L./m",
+     "Elle (Gera)",
+     "",
+     "831",
+     "b8",
+     "r6"
+    ],
+    [
+     "U05",
+     "I",
+     "length",
+     "Schleiz",
+     "in Schleiz, Tanna und Hohenleuben",
+     "Elle",
+     "1 Elle (leipz. Elle zu 250,6 par. L.)",
+     null,
+     null,
+     250.6,
+     0.565311,
+     "Meter",
+     0.565311,
+     "m",
+     0.565311,
+     0.0,
+     "ok",
+     "250,6 par. L. ÷ 443,296 par. L./m",
+     "Elle (Schleiz)",
+     "",
+     "831",
+     "b8",
+     "r8"
+    ],
+    [
+     "U06",
+     "I",
+     "length",
+     "Saalburg",
+     "in Saalburg",
+     "Elle",
+     "1 Elle (1 Elle 1 3/4 Zoll leipz. Maß)",
+     null,
+     null,
+     null,
+     0.606531,
+     "Meter",
+     0.606531,
+     "m",
+     0.606532,
+     -0.0002,
+     "ok",
+     "leipziger Elle (gedruckter Wert) × 25,75/24 (1 Elle = 24 Zoll, Zusatz 1 3/4 Zoll)",
+     "Elle (Saalburg)",
+     "",
+     "831",
+     "b8",
+     "r10"
+    ],
+    [
+     "U07",
+     "I",
+     "length",
+     "Lobenstein",
+     "in Lobenstein",
+     "Elle",
+     "1 Elle (261,83 par. L.)",
+     null,
+     null,
+     261.83,
+     0.590644,
+     "Meter",
+     0.590644,
+     "m",
+     0.590644,
+     0.0,
+     "ok",
+     "261,83 par. L. ÷ 443,296 par. L./m",
+     "Elle (Lobenstein)",
+     "",
+     "831",
+     "b8",
+     "r12"
+    ],
+    [
+     "U08",
+     "I",
+     "length",
+     "Hirschberg",
+     "in Hirschberg",
+     "Elle",
+     "1 Elle (alte hofer Elle zu 282,3 par. L.)",
+     null,
+     null,
+     282.3,
+     0.63682,
+     "Meter",
+     0.63682,
+     "m",
+     0.636821,
+     -0.0002,
+     "ok",
+     "282,3 par. L. ÷ 443,296 par. L./m",
+     "Elle (Hirschberg)",
+     "",
+     "831",
+     "b8",
+     "r14"
+    ],
+    [
+     "U09",
+     "II",
+     "area",
+     "ohne Angabe",
+     "",
+     "sächsische Quadratelle",
+     "1 sächsische Quadratelle (Baumaß)",
+     null,
+     null,
+     null,
+     0.319576,
+     "Quadratmeter",
+     0.319576,
+     "m²",
+     0.319577,
+     -0.0003,
+     "ok",
+     "(leipziger Elle 0,565311 m)²",
+     "sächsische Quadratelle",
+     "",
+     "832",
+     "b2",
+     "l1"
+    ],
+    [
+     "U10",
+     "II",
+     "area",
+     "ohne Angabe",
+     "",
+     "preuß. Quadratruthe",
+     "1 preuß. Quadratruthe",
+     null,
+     null,
+     null,
+     14.184579,
+     "Quadratmeter",
+     14.184579,
+     "m²",
+     14.184579,
+     0.0,
+     "ok",
+     "(preuß. Ruthe 3,766242 m)²",
+     "preuß. Quadratruthe",
+     "",
+     "832",
+     "b2",
+     "l2"
+    ],
+    [
+     "U11",
+     "II",
+     "area",
+     "ohne Angabe",
+     "",
+     "preuß. Morgen",
+     "1 preuß. Morgen (180 Quadratruthen)",
+     null,
+     null,
+     null,
+     0.255322,
+     "Hectaren",
+     2553.22,
+     "m²",
+     2553.22422,
+     -0.0002,
+     "ok",
+     "180 × preuß. Quadratruthe (gedruckter Wert)",
+     "preuß. Morgen",
+     "",
+     "832",
+     "b2",
+     "l3"
+    ],
+    [
+     "U12",
+     "III",
+     "capacity",
+     "Gera",
+     "in Gera",
+     "Kanne",
+     "1 Kanne (5/6 preuß. Quart)",
+     null,
+     "5/6",
+     null,
+     0.9542,
+     "Liter",
+     0.9542,
+     "L",
+     0.954167,
+     0.0035,
+     "ok",
+     "5/6 × 1 preuß. Quart (= Kanne in Hirschberg, 1,1450 L)",
+     "Kanne (Gera)",
+     "",
+     "832",
+     "b4",
+     "l2"
+    ],
+    [
+     "U13",
+     "III",
+     "capacity",
+     "Gera",
+     "in Gera",
+     "Eimer",
+     "1 Eimer (72 Kannen)",
+     72,
+     null,
+     null,
+     0.687,
+     "Hectoliter",
+     68.7,
+     "L",
+     68.7024,
+     -0.0035,
+     "ok",
+     "72 Kannen × 0,9542 L (Kanne in Gera)",
+     "Eimer (Gera)",
+     "",
+     "832",
+     "b4",
+     "l3"
+    ],
+    [
+     "U14",
+     "III",
+     "capacity",
+     "Gera",
+     "in Gera",
+     "dresdner Scheffel",
+     "1 dresdner Scheffel",
+     null,
+     null,
+     null,
+     1.0383,
+     "Hectoliter",
+     103.83,
+     "L",
+     null,
+     null,
+     "",
+     "",
+     "dresdner Scheffel (Gera)",
+     "",
+     "832",
+     "b4",
+     "l4"
+    ],
+    [
+     "U15",
+     "III",
+     "capacity",
+     "Schleiz",
+     "in Schleiz und Tanna",
+     "Kanne",
+     "1 Kanne (3/4 preuß. Quart)",
+     null,
+     "3/4",
+     null,
+     0.8588,
+     "Liter",
+     0.8588,
+     "L",
+     0.85875,
+     0.0058,
+     "ok",
+     "3/4 × 1 preuß. Quart (= Kanne in Hirschberg, 1,1450 L)",
+     "Kanne (Schleiz)",
+     "",
+     "832",
+     "b4",
+     "l6"
+    ],
+    [
+     "U16",
+     "III",
+     "capacity",
+     "Schleiz",
+     "in Schleiz und Tanna",
+     "Eimer",
+     "1 Eimer (72 Kannen)",
+     72,
+     null,
+     null,
+     0.6183,
+     "Hectoliter",
+     61.83,
+     "L",
+     61.8336,
+     -0.0058,
+     "ok",
+     "72 Kannen × 0,8588 L (Kanne in Schleiz)",
+     "Eimer (Schleiz)",
+     "",
+     "832",
+     "b4",
+     "l7"
+    ],
+    [
+     "U17",
+     "III",
+     "capacity",
+     "Schleiz",
+     "in Schleiz und Tanna",
+     "Viertel Getreidemaß",
+     "1 Viertel Getreidemaß (56 Kannen)",
+     56,
+     null,
+     null,
+     0.4809,
+     "Hectoliter",
+     48.09,
+     "L",
+     48.0928,
+     -0.0058,
+     "ok",
+     "56 Kannen × 0,8588 L (Kanne in Schleiz)",
+     "Viertel Getreidemaß (Schleiz)",
+     "",
+     "832",
+     "b4",
+     "l8"
+    ],
+    [
+     "U18",
+     "III",
+     "capacity",
+     "Schleiz",
+     "in Schleiz und Tanna",
+     "Scheffel",
+     "1 Scheffel (4 Viertel oder 224 K.)",
+     224,
+     null,
+     null,
+     1.4237,
+     "Hectoliter",
+     142.37,
+     "L",
+     192.3712,
+     -25.992,
+     "abweichend",
+     "224 Kannen × 0,8588 L (Kanne in Schleiz)",
+     "Scheffel (Schleiz)",
+     "",
+     "832",
+     "b4",
+     "l9"
+    ],
+    [
+     "U19",
+     "III",
+     "capacity",
+     "Lobenstein",
+     "in Lobenstein",
+     "Kanne",
+     "1 Kanne (32/41 preuß. Quart)",
+     null,
+     "32/41",
+     null,
+     0.8937,
+     "Liter",
+     0.8937,
+     "L",
+     0.893659,
+     0.0046,
+     "ok",
+     "32/41 × 1 preuß. Quart (= Kanne in Hirschberg, 1,1450 L)",
+     "Kanne (Lobenstein)",
+     "",
+     "832",
+     "b4",
+     "l11"
+    ],
+    [
+     "U20",
+     "III",
+     "capacity",
+     "Lobenstein",
+     "in Lobenstein",
+     "Eimer",
+     "1 Eimer (72 Kannen)",
+     72,
+     null,
+     null,
+     0.6435,
+     "Hectoliter",
+     64.35,
+     "L",
+     64.3464,
+     0.0056,
+     "ok",
+     "72 Kannen × 0,8937 L (Kanne in Lobenstein)",
+     "Eimer (Lobenstein)",
+     "",
+     "832",
+     "b4",
+     "l12"
+    ],
+    [
+     "U21",
+     "III",
+     "capacity",
+     "Lobenstein",
+     "in Lobenstein",
+     "Achtel Kornmaß",
+     "1 Achtel Kornmaß (28 Kannen)",
+     28,
+     null,
+     null,
+     0.2502,
+     "Hectoliter",
+     25.02,
+     "L",
+     25.0236,
+     -0.0144,
+     "ok",
+     "28 Kannen × 0,8937 L (Kanne in Lobenstein)",
+     "Achtel Kornmaß (Lobenstein)",
+     "",
+     "832",
+     "b4",
+     "l13"
+    ],
+    [
+     "U22",
+     "III",
+     "capacity",
+     "Lobenstein",
+     "in Lobenstein",
+     "Achtel Hafermaß",
+     "1 Achtel Hafermaß (34 Kannen)",
+     34,
+     null,
+     null,
+     0.3039,
+     "Hectoliter",
+     30.39,
+     "L",
+     30.3858,
+     0.0138,
+     "ok",
+     "34 Kannen × 0,8937 L (Kanne in Lobenstein)",
+     "Achtel Hafermaß (Lobenstein)",
+     "",
+     "832",
+     "b4",
+     "l14"
+    ],
+    [
+     "U23",
+     "III",
+     "capacity",
+     "Hirschberg",
+     "in Hirschberg",
+     "Kanne",
+     "1 Kanne (1 preuß. Quart)",
+     null,
+     "1",
+     null,
+     1.145,
+     "Liter",
+     1.145,
+     "L",
+     null,
+     null,
+     "",
+     "",
+     "Kanne (Hirschberg)",
+     "",
+     "832",
+     "b4",
+     "l16"
+    ],
+    [
+     "U24",
+     "III",
+     "capacity",
+     "Hirschberg",
+     "in Hirschberg",
+     "Eimer",
+     "1 Eimer (64 Kannen)",
+     64,
+     null,
+     null,
+     0.7328,
+     "Hectoliter",
+     73.28,
+     "L",
+     73.28,
+     0.0,
+     "ok",
+     "64 Kannen × 1,145 L (Kanne in Hirschberg)",
+     "Eimer (Hirschberg)",
+     "",
+     "832",
+     "b4",
+     "l17"
+    ],
+    [
+     "U25",
+     "III",
+     "capacity",
+     "Hirschberg",
+     "in Hirschberg",
+     "Achtel Getreidemaß",
+     "1 Achtel Getreidemaß (24 Kannen)",
+     24,
+     null,
+     null,
+     0.2748,
+     "Hectoliter",
+     27.48,
+     "L",
+     27.48,
+     0.0,
+     "ok",
+     "24 Kannen × 1,145 L (Kanne in Hirschberg)",
+     "Achtel Getreidemaß (Hirschberg)",
+     "",
+     "832",
+     "b4",
+     "l18"
+    ],
+    [
+     "U26",
+     "IV",
+     "weight",
+     "ohne Angabe",
+     "",
+     "Pfund",
+     "1 Pfund (Zollpfund)",
+     null,
+     null,
+     null,
+     0.5,
+     "Kilogramm",
+     0.5,
+     "kg",
+     null,
+     null,
+     "",
+     "",
+     "Pfund",
+     "",
+     "832",
+     "b6",
+     "l1"
+    ],
+    [
+     "U27",
+     "V",
+     "firewood",
+     "Gera",
+     "im Landestheil Gera",
+     "leipziger Kubikfuß",
+     "1 leipziger Kubikfuß",
+     null,
+     null,
+     125.3,
+     0.022582,
+     "Kubikmeter",
+     0.022582,
+     "m³",
+     0.022582,
+     0.0,
+     "ok",
+     "(Baufuß 0,282655 m)³",
+     "leipziger Kubikfuß (Gera)",
+     "",
+     "832",
+     "b8",
+     "l3"
+    ],
+    [
+     "U28",
+     "V",
+     "firewood",
+     "Gera",
+     "im Landestheil Gera",
+     "Klafter",
+     "1 Klafter, 6 Fuß weit, 6 Fuß hoch, 3 1/2 Fuß Scheitlänge (126 Kubikfuß)",
+     null,
+     null,
+     125.3,
+     2.8454,
+     "Kubikmeter",
+     2.8454,
+     "m³",
+     2.845332,
+     0.0024,
+     "ok",
+     "126 Kubikfuß × 0,022582 m³",
+     "Klafter (Gera)",
+     "",
+     "832",
+     "b8",
+     "l4"
+    ],
+    [
+     "U29",
+     "V",
+     "firewood",
+     "Gera",
+     "im Landestheil Gera",
+     "Klafter",
+     "1 Klafter, 6 Fuß weit, 6 Fuß hoch, 2 1/2 Fuß Scheitlänge (90 Kubikfuß)",
+     null,
+     null,
+     125.3,
+     2.0324,
+     "Kubikmeter",
+     2.0324,
+     "m³",
+     2.03238,
+     0.001,
+     "ok",
+     "90 Kubikfuß × 0,022582 m³",
+     "Klafter (Gera)",
+     "",
+     "832",
+     "b8",
+     "l5"
+    ],
+    [
+     "U30",
+     "V",
+     "firewood",
+     "Gera",
+     "im Landestheil Gera",
+     "Klafter",
+     "1 Klafter, 6 Fuß weit, 6 Fuß hoch, 2 Fuß Scheitlänge (72 Kubikfuß)",
+     null,
+     null,
+     125.3,
+     1.6259,
+     "Kubikmeter",
+     1.6259,
+     "m³",
+     1.625904,
+     -0.0002,
+     "ok",
+     "72 Kubikfuß × 0,022582 m³",
+     "Klafter (Gera)",
+     "",
+     "832",
+     "b8",
+     "l6"
+    ],
+    [
+     "U31",
+     "V",
+     "firewood",
+     "Schleiz",
+     "im Landestheil Schleiz (leipziger Maß, wie bei Gera)",
+     "Klafter",
+     "1 Klafter, 6 1/4 Fuß weit, 6 1/4 Fuß hoch, 3 1/2 Fuß Scheitlänge (136 23/32 Kubikfuß)",
+     null,
+     null,
+     125.3,
+     3.0874,
+     "Kubikmeter",
+     3.0874,
+     "m³",
+     3.087383,
+     0.0006,
+     "ok",
+     "136 23/32 Kubikfuß × 0,022582 m³",
+     "Klafter (Schleiz)",
+     "Fuß wie bei Gera (leipziger Maß) – Angabe im Kopf des Abschnitts",
+     "832",
+     "b8",
+     "l8"
+    ],
+    [
+     "U32",
+     "V",
+     "firewood",
+     "Schleiz",
+     "im Landestheil Schleiz (leipziger Maß, wie bei Gera)",
+     "Klafter",
+     "1 Klafter, 6 Fuß weit, 6 1/2 Fuß hoch, 3 1/2 Fuß Scheitlänge (136 1/2 Kubikfuß)",
+     null,
+     null,
+     125.3,
+     3.0825,
+     "Kubikmeter",
+     3.0825,
+     "m³",
+     3.082443,
+     0.0018,
+     "ok",
+     "136 1/2 Kubikfuß × 0,022582 m³",
+     "Klafter (Schleiz)",
+     "Fuß wie bei Gera (leipziger Maß) – Angabe im Kopf des Abschnitts",
+     "832",
+     "b8",
+     "l9"
+    ],
+    [
+     "U33",
+     "V",
+     "firewood",
+     "Schleiz",
+     "im Landestheil Schleiz (leipziger Maß, wie bei Gera)",
+     "Klafter",
+     "1 Klafter, 6 Fuß weit, 6 Fuß hoch, 3 Fuß Scheitlänge (108 Kubikfuß)",
+     null,
+     null,
+     125.3,
+     2.4389,
+     "Kubikmeter",
+     2.4389,
+     "m³",
+     2.438856,
+     0.0018,
+     "ok",
+     "108 Kubikfuß × 0,022582 m³",
+     "Klafter (Schleiz)",
+     "Fuß wie bei Gera (leipziger Maß) – Angabe im Kopf des Abschnitts",
+     "832",
+     "b8",
+     "l10"
+    ],
+    [
+     "U34",
+     "V",
+     "firewood",
+     "Lobenstein",
+     "im Landestheil Lobenstein-Ebersdorf (nürnberger Maß, den Fuß zu 134,775 par. Linien)",
+     "Klafter",
+     "1 Klafter, 6 Fuß weit, 6 Fuß hoch, 3 1/2 Fuß Scheitlänge (126 nürnberger Kubikellen)",
+     null,
+     null,
+     134.75,
+     3.539,
+     "Kubikmeter",
+     3.539,
+     "m³",
+     3.538958,
+     0.0012,
+     "ok",
+     "126 × (134,75 par. L. ÷ 443,296)³",
+     "Klafter (Lobenstein)",
+     "Fuß zu 134,75 par. Linien (Druck; die Transkription liest 134,775, siehe transcription_issues)",
+     "832",
+     "b8",
+     "l12"
+    ],
+    [
+     "U35",
+     "VI",
+     "stone",
+     "Gera",
+     "im Landestheil Gera",
+     "Ruthe",
+     "1 Ruthe (8 Ellen lang, 8 Ellen breit, 1 1/2 Elle hoch oder 96 leipz. Kubikellen)",
+     null,
+     null,
+     null,
+     17.3434,
+     "Kubikmeter",
+     17.3434,
+     "m³",
+     17.343372,
+     0.0002,
+     "ok",
+     "96 leipziger Kubikellen × (0,565311 m)³",
+     "Ruthe (Gera)",
+     "",
+     "832",
+     "b10",
+     "l2"
+    ],
+    [
+     "U36",
+     "VI",
+     "stone",
+     "Schleiz",
+     "im Landestheil Schleiz",
+     "Schachtruthe",
+     "1 Schachtruthe (6 Ellen lang, 3 Ellen breit, 1 1/2 Elle hoch oder 27 leipz. Kubikellen)",
+     null,
+     null,
+     null,
+     4.8778,
+     "Kubikmeter",
+     4.8778,
+     "m³",
+     4.877823,
+     -0.0005,
+     "ok",
+     "27 leipziger Kubikellen × (0,565311 m)³",
+     "Schachtruthe (Schleiz)",
+     "",
+     "832",
+     "b10",
+     "l4"
+    ],
+    [
+     "U37",
+     "VI",
+     "stone",
+     "Lobenstein",
+     "im Landestheil Lobenstein-Ebersdorf",
+     "Ruthe/Schachtruthe",
+     "die geraische Ruthe gilt beim Chausseebau, die schleizer Schachtruthe auch im Privatverkehr",
+     null,
+     null,
+     null,
+     null,
+     "",
+     null,
+     "",
+     null,
+     null,
+     "",
+     "",
+     "Ruthe/Schachtruthe (Lobenstein)",
+     "",
+     "832",
+     "b10",
+     "l6"
+    ],
+    [
+     "U38",
+     "VII",
+     "distance",
+     "ohne Angabe",
+     "",
+     "preuß. Meile",
+     "1 preuß. Meile (2000 preuß. Ruthen)",
+     null,
+     null,
+     null,
+     1.0043,
+     "künftige Meile",
+     7532.25,
+     "m",
+     7532.484,
+     -0.0031,
+     "ok",
+     "2000 preuß. Ruthen × 3,766242 m",
+     "preuß. Meile",
+     "",
+     "832",
+     "b12",
+     "l1"
+    ],
+    [
+     "U39",
+     "VII",
+     "distance",
+     "ohne Angabe",
+     "",
+     "geographische Meile",
+     "1 geographische Meile",
+     null,
+     null,
+     null,
+     0.9894,
+     "künftige Meile",
+     7420.5,
+     "m",
+     null,
+     null,
+     "",
+     "",
+     "geographische Meile",
+     "",
+     "832",
+     "b12",
+     "l2"
+    ]
+   ],
+   "source_refs": [
+    {
+     "page": "831",
+     "block": "b8",
+     "rows": "r2-r14"
+    },
+    {
+     "page": "832",
+     "block": "b2"
+    },
+    {
+     "page": "832",
+     "block": "b4"
+    },
+    {
+     "page": "832",
+     "block": "b6"
+    },
+    {
+     "page": "832",
+     "block": "b8"
+    },
+    {
+     "page": "832",
+     "block": "b10"
+    },
+    {
+     "page": "832",
+     "block": "b12"
+    }
+   ]
+  }
+ ],
+ "charts": [
+  {
+   "id": "c1",
+   "dataset": "units",
+   "title": {
+    "de": "Die Kanne in den Bezirken",
+    "en": "The Kanne in the districts"
+   },
+   "caption": {
+    "de": "Inhalt einer Kanne in Litern (Brückner S. 832). Die Hirschberger Kanne entspricht 1 preußischen Quart.",
+    "en": "Capacity of one Kanne in litres (Brückner p. 832). The Hirschberg Kanne equals 1 Prussian Quart."
+   },
+   "vegalite": {
+    "height": 230,
+    "transform": [
+     {
+      "filter": "datum.unit == 'Kanne'"
+     }
+    ],
+    "layer": [
+     {
+      "mark": "bar",
+      "encoding": {
+       "x": {
+        "field": "district",
+        "type": "nominal",
+        "sort": {
+         "field": "value_base",
+         "op": "max",
+         "order": "descending"
+        },
+        "title": {
+         "de": "Bezirk",
+         "en": "District"
+        },
+        "axis": {
+         "labelAngle": 0
+        }
+       },
+       "y": {
+        "field": "value_base",
+        "type": "quantitative",
+        "title": {
+         "de": "Liter",
+         "en": "Litres"
+        }
+       },
+       "color": {
+        "field": "district",
+        "type": "nominal",
+        "scale": {
+         "domain": [
+          "Gera",
+          "Schleiz",
+          "Lobenstein",
+          "Hirschberg",
+          "Saalburg"
+         ]
+        },
+        "title": {
+         "de": "Bezirk",
+         "en": "District"
+        },
+        "legend": {
+         "values": [
+          "Gera",
+          "Schleiz",
+          "Lobenstein",
+          "Hirschberg"
+         ]
+        }
+       },
+       "tooltip": [
+        {
+         "field": "label",
+         "title": {
+          "de": "Einheit",
+          "en": "Unit"
+         }
+        },
+        {
+         "field": "definition_printed",
+         "title": {
+          "de": "Definition (gedruckt)",
+          "en": "Definition (as printed)"
+         }
+        },
+        {
+         "field": "value_printed",
+         "title": {
+          "de": "Gedruckt",
+          "en": "Printed"
+         }
+        },
+        {
+         "field": "unit_printed",
+         "title": {
+          "de": "Einheit (gedruckt)",
+          "en": "Printed unit"
+         }
+        },
+        {
+         "field": "value_base",
+         "title": {
+          "de": "Basiseinheit",
+          "en": "Base unit"
+         }
+        },
+        {
+         "field": "unit_base",
+         "title": {
+          "de": "Einheit",
+          "en": "Unit"
+         }
+        }
+       ]
+      }
+     },
+     {
+      "mark": {
+       "type": "text",
+       "dy": -7
+      },
+      "encoding": {
+       "x": {
+        "field": "district",
+        "type": "nominal",
+        "sort": {
+         "field": "value_base",
+         "op": "max",
+         "order": "descending"
+        }
+       },
+       "y": {
+        "field": "value_base",
+        "type": "quantitative"
+       },
+       "text": {
+        "field": "value_base",
+        "type": "quantitative",
+        "format": ".4f"
+       }
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "c2",
+   "dataset": "units",
+   "title": {
+    "de": "Der Eimer in den Bezirken",
+    "en": "The Eimer in the districts"
+   },
+   "caption": {
+    "de": "Inhalt eines Eimers in Litern: 72 Kannen in Gera, Schleiz und Lobenstein, 64 Kannen in Hirschberg.",
+    "en": "Capacity of one Eimer in litres: 72 Kannen in Gera, Schleiz and Lobenstein, 64 Kannen in Hirschberg."
+   },
+   "vegalite": {
+    "height": 230,
+    "transform": [
+     {
+      "filter": "datum.unit == 'Eimer'"
+     }
+    ],
+    "layer": [
+     {
+      "mark": "bar",
+      "encoding": {
+       "x": {
+        "field": "district",
+        "type": "nominal",
+        "sort": {
+         "field": "value_base",
+         "op": "max",
+         "order": "descending"
+        },
+        "title": {
+         "de": "Bezirk",
+         "en": "District"
+        },
+        "axis": {
+         "labelAngle": 0
+        }
+       },
+       "y": {
+        "field": "value_base",
+        "type": "quantitative",
+        "title": {
+         "de": "Liter",
+         "en": "Litres"
+        }
+       },
+       "color": {
+        "field": "district",
+        "type": "nominal",
+        "scale": {
+         "domain": [
+          "Gera",
+          "Schleiz",
+          "Lobenstein",
+          "Hirschberg",
+          "Saalburg"
+         ]
+        },
+        "title": {
+         "de": "Bezirk",
+         "en": "District"
+        },
+        "legend": {
+         "values": [
+          "Gera",
+          "Schleiz",
+          "Lobenstein",
+          "Hirschberg"
+         ]
+        }
+       },
+       "tooltip": [
+        {
+         "field": "label",
+         "title": {
+          "de": "Einheit",
+          "en": "Unit"
+         }
+        },
+        {
+         "field": "definition_printed",
+         "title": {
+          "de": "Definition (gedruckt)",
+          "en": "Definition (as printed)"
+         }
+        },
+        {
+         "field": "value_printed",
+         "title": {
+          "de": "Gedruckt",
+          "en": "Printed"
+         }
+        },
+        {
+         "field": "unit_printed",
+         "title": {
+          "de": "Einheit (gedruckt)",
+          "en": "Printed unit"
+         }
+        },
+        {
+         "field": "value_base",
+         "title": {
+          "de": "Basiseinheit",
+          "en": "Base unit"
+         }
+        },
+        {
+         "field": "unit_base",
+         "title": {
+          "de": "Einheit",
+          "en": "Unit"
+         }
+        }
+       ]
+      }
+     },
+     {
+      "mark": {
+       "type": "text",
+       "dy": -7
+      },
+      "encoding": {
+       "x": {
+        "field": "district",
+        "type": "nominal",
+        "sort": {
+         "field": "value_base",
+         "op": "max",
+         "order": "descending"
+        }
+       },
+       "y": {
+        "field": "value_base",
+        "type": "quantitative"
+       },
+       "text": {
+        "field": "value_base",
+        "type": "quantitative",
+        "format": ".2f"
+       }
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "c3",
+   "dataset": "units",
+   "title": {
+    "de": "Getreidemaße in Litern",
+    "en": "Grain measures in litres"
+   },
+   "caption": {
+    "de": "Balken: gedruckter Wert. Raute: aus der Kannenzahl berechneter Wert. Nur beim Schleizer Scheffel (224 Kannen) liegen beide weit auseinander.",
+    "en": "Bars: printed value. Diamond: value computed from the number of Kannen. Only for the Schleiz Scheffel (224 Kannen) do the two differ widely."
+   },
+   "vegalite": {
+    "height": 260,
+    "transform": [
+     {
+      "filter": "indexof(['dresdner Scheffel', 'Viertel Getreidemaß', 'Scheffel', 'Achtel Kornmaß', 'Achtel Hafermaß', 'Achtel Getreidemaß'], datum.unit) >= 0"
+     }
+    ],
+    "layer": [
+     {
+      "mark": "bar",
+      "encoding": {
+       "y": {
+        "field": "label",
+        "type": "nominal",
+        "sort": {
+         "field": "value_base",
+         "op": "max",
+         "order": "descending"
+        },
+        "title": null,
+        "axis": {
+         "labelLimit": 320
+        }
+       },
+       "x": {
+        "field": "value_base",
+        "type": "quantitative",
+        "title": {
+         "de": "Liter",
+         "en": "Litres"
+        }
+       },
+       "color": {
+        "field": "district",
+        "type": "nominal",
+        "scale": {
+         "domain": [
+          "Gera",
+          "Schleiz",
+          "Lobenstein",
+          "Hirschberg",
+          "Saalburg"
+         ]
+        },
+        "title": {
+         "de": "Bezirk",
+         "en": "District"
+        },
+        "legend": {
+         "values": [
+          "Gera",
+          "Schleiz",
+          "Lobenstein",
+          "Hirschberg"
+         ]
+        }
+       },
+       "tooltip": [
+        {
+         "field": "label",
+         "title": {
+          "de": "Einheit",
+          "en": "Unit"
+         }
+        },
+        {
+         "field": "definition_printed",
+         "title": {
+          "de": "Definition (gedruckt)",
+          "en": "Definition (as printed)"
+         }
+        },
+        {
+         "field": "value_printed",
+         "title": {
+          "de": "Gedruckt",
+          "en": "Printed"
+         }
+        },
+        {
+         "field": "unit_printed",
+         "title": {
+          "de": "Einheit (gedruckt)",
+          "en": "Printed unit"
+         }
+        },
+        {
+         "field": "value_base",
+         "title": {
+          "de": "Basiseinheit",
+          "en": "Base unit"
+         }
+        },
+        {
+         "field": "unit_base",
+         "title": {
+          "de": "Einheit",
+          "en": "Unit"
+         }
+        },
+        {
+         "field": "recomputed_base",
+         "title": {
+          "de": "aus Kannenzahl berechnet (L)",
+          "en": "computed from Kannen (L)"
+         }
+        },
+        {
+         "field": "check",
+         "title": {
+          "de": "Probe",
+          "en": "Check"
+         }
+        }
+       ]
+      }
+     },
+     {
+      "transform": [
+       {
+        "filter": "datum.recomputed_base != null"
+       }
+      ],
+      "mark": {
+       "type": "text",
+       "text": "◆",
+       "fontSize": 14
+      },
+      "encoding": {
+       "y": {
+        "field": "label",
+        "type": "nominal",
+        "sort": {
+         "field": "value_base",
+         "op": "max",
+         "order": "descending"
+        }
+       },
+       "x": {
+        "field": "recomputed_base",
+        "type": "quantitative"
+       }
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "c4",
+   "dataset": "units",
+   "title": {
+    "de": "Die Elle in den Bezirken",
+    "en": "The Elle in the districts"
+   },
+   "caption": {
+    "de": "Länge einer Elle in Metern (Brückner S. 831): fünf verschiedene Ellen im Fürstenthum.",
+    "en": "Length of one Elle in metres (Brückner p. 831): five different ells in the principality."
+   },
+   "vegalite": {
+    "height": 230,
+    "transform": [
+     {
+      "filter": "datum.unit == 'Elle'"
+     }
+    ],
+    "layer": [
+     {
+      "mark": "bar",
+      "encoding": {
+       "x": {
+        "field": "district",
+        "type": "nominal",
+        "sort": {
+         "field": "value_base",
+         "op": "max",
+         "order": "descending"
+        },
+        "title": {
+         "de": "Bezirk",
+         "en": "District"
+        },
+        "axis": {
+         "labelAngle": 0
+        }
+       },
+       "y": {
+        "field": "value_base",
+        "type": "quantitative",
+        "title": {
+         "de": "Meter",
+         "en": "Metres"
+        }
+       },
+       "color": {
+        "field": "district",
+        "type": "nominal",
+        "scale": {
+         "domain": [
+          "Gera",
+          "Schleiz",
+          "Lobenstein",
+          "Hirschberg",
+          "Saalburg"
+         ]
+        },
+        "title": {
+         "de": "Bezirk",
+         "en": "District"
+        },
+        "legend": {
+         "values": [
+          "Gera",
+          "Schleiz",
+          "Lobenstein",
+          "Hirschberg",
+          "Saalburg"
+         ]
+        }
+       },
+       "tooltip": [
+        {
+         "field": "label",
+         "title": {
+          "de": "Einheit",
+          "en": "Unit"
+         }
+        },
+        {
+         "field": "definition_printed",
+         "title": {
+          "de": "Definition (gedruckt)",
+          "en": "Definition (as printed)"
+         }
+        },
+        {
+         "field": "value_printed",
+         "title": {
+          "de": "Gedruckt",
+          "en": "Printed"
+         }
+        },
+        {
+         "field": "unit_printed",
+         "title": {
+          "de": "Einheit (gedruckt)",
+          "en": "Printed unit"
+         }
+        },
+        {
+         "field": "value_base",
+         "title": {
+          "de": "Basiseinheit",
+          "en": "Base unit"
+         }
+        },
+        {
+         "field": "unit_base",
+         "title": {
+          "de": "Einheit",
+          "en": "Unit"
+         }
+        }
+       ]
+      }
+     },
+     {
+      "mark": {
+       "type": "text",
+       "dy": -7
+      },
+      "encoding": {
+       "x": {
+        "field": "district",
+        "type": "nominal",
+        "sort": {
+         "field": "value_base",
+         "op": "max",
+         "order": "descending"
+        }
+       },
+       "y": {
+        "field": "value_base",
+        "type": "quantitative"
+       },
+       "text": {
+        "field": "value_base",
+        "type": "quantitative",
+        "format": ".4f"
+       }
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "transcription_issues": [
+  {
+   "page": "832",
+   "block": "b8",
+   "transcribed": "den Fuß zu 134,775 par. Linien",
+   "facsimile": "den Fuß zu 134,75 par. Linien",
+   "checked_facsimile": true,
+   "note": "Nürnberger Fuß im Abschnitt V c; mit 134,75 ergibt die Probe für 126 Kubikfuß 3,5390 m³ (Abweichung +0.0012 %), mit 134,775 wären es -0.054 %."
+  }
+ ],
+ "keywords": {
+  "de": [
+   "Maße und Gewichte",
+   "Umrechnung",
+   "metrisches System",
+   "Kanne",
+   "Eimer",
+   "Scheffel",
+   "Elle",
+   "Klafter",
+   "Morgen",
+   "Ruthe",
+   "Pariser Linie",
+   "Entfernungsmaße",
+   "Holzmaße"
+  ],
+  "en": [
+   "weights and measures",
+   "conversion",
+   "metric system",
+   "Kanne",
+   "Eimer",
+   "Scheffel",
+   "ell",
+   "Klafter",
+   "Morgen",
+   "Ruthe",
+   "Paris line",
+   "distance measures",
+   "firewood measures"
+  ]
+ },
+ "generated_by": "Claude Sonnet 5.5 (subagent B01)",
+ "date": "2026-10-01"
+}

@@ -1,0 +1,388 @@
+{
+ "seq": 12,
+ "label": "VIII",
+ "slug": "VIII",
+ "iiif": {
+  "service": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb11005578_00012",
+  "canvas": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11005578/canvas/12",
+  "width": 1606,
+  "height": 2696
+ },
+ "kind": "text",
+ "running_header": null,
+ "signature": null,
+ "blocks": [
+  {
+   "id": "b1",
+   "type": "heading",
+   "src": 0,
+   "text": "IV. Der Staat.",
+   "spans": [],
+   "sec": "inhalt",
+   "level": 4
+  },
+  {
+   "id": "b2",
+   "type": "table",
+   "src": 1,
+   "n_cols": 2,
+   "header_rows": 0,
+   "rows": [
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1) Verfassung:",
+       "spans": []
+      },
+      {
+       "text": "Seite.",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "a) Frühere Hauptverträge und Ordnungen . . . . . . . . . . . .",
+       "spans": []
+      },
+      {
+       "text": "262—267.",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "b) Gegenwärtige Staatsverfassung . . . . . . . . . . . . . . . .",
+       "spans": []
+      },
+      {
+       "text": "267—269.",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "c) Gemeindeverfassung . . . . . . . . . . . . . . . . . . . . . . .",
+       "spans": []
+      },
+      {
+       "text": "269—271.",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "2) Militair . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+       "spans": []
+      },
+      {
+       "text": "271—272.",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "3) Staatsverwaltung . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+       "spans": []
+      },
+      {
+       "text": "273—280.",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "4) Rechtspflege . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+       "spans": []
+      },
+      {
+       "text": "280—289.",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "5) Kirche . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+       "spans": []
+      },
+      {
+       "text": "289—296.",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "6) Schule . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+       "spans": []
+      },
+      {
+       "text": "296—300.",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "7) Kunst- und wissenschaftliche Sammlungen . . . . . . . . . . . . .",
+       "spans": []
+      },
+      {
+       "text": "301—301.",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "8) Armenwesen . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+       "spans": []
+      },
+      {
+       "text": "301—310.",
+       "spans": []
+      }
+     ]
+    }
+   ],
+   "grid": [
+    [
+     "1) Verfassung:",
+     "Seite."
+    ],
+    [
+     "a) Frühere Hauptverträge und Ordnungen . . . . . . . . . . . .",
+     "262—267."
+    ],
+    [
+     "b) Gegenwärtige Staatsverfassung . . . . . . . . . . . . . . . .",
+     "267—269."
+    ],
+    [
+     "c) Gemeindeverfassung . . . . . . . . . . . . . . . . . . . . . . .",
+     "269—271."
+    ],
+    [
+     "2) Militair . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+     "271—272."
+    ],
+    [
+     "3) Staatsverwaltung . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+     "273—280."
+    ],
+    [
+     "4) Rechtspflege . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+     "280—289."
+    ],
+    [
+     "5) Kirche . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+     "289—296."
+    ],
+    [
+     "6) Schule . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+     "296—300."
+    ],
+    [
+     "7) Kunst- und wissenschaftliche Sammlungen . . . . . . . . . . . . .",
+     "301—301."
+    ],
+    [
+     "8) Armenwesen . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+     "301—310."
+    ]
+   ],
+   "caption": null,
+   "sec": "inhalt"
+  },
+  {
+   "id": "b3",
+   "type": "table",
+   "src": 2,
+   "n_cols": 2,
+   "header_rows": 0,
+   "rows": [
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "V. Geschichte des Landes und seines Fürstenhauses . . . . . . . . . . . .",
+       "spans": []
+      },
+      {
+       "text": "311—403.",
+       "spans": []
+      }
+     ]
+    }
+   ],
+   "grid": [
+    [
+     "V. Geschichte des Landes und seines Fürstenhauses . . . . . . . . . . . .",
+     "311—403."
+    ]
+   ],
+   "caption": null,
+   "sec": "inhalt"
+  },
+  {
+   "id": "b4",
+   "type": "heading",
+   "src": 3,
+   "text": "II. Theil: Ortskunde des Fürstenthums Reuss j. L.",
+   "spans": [
+    [
+     25,
+     49,
+     "Location"
+    ]
+   ],
+   "sec": "inhalt",
+   "level": 4
+  },
+  {
+   "id": "b5",
+   "type": "table",
+   "src": 4,
+   "n_cols": 2,
+   "header_rows": 0,
+   "rows": [
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "I. Der Landestheil oder Landrathsamtsbezirk Gera . . . . . . . . . . . . .",
+       "spans": [
+        [
+         24,
+         48,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "407—569.",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "II. Der Landestheil Schleiz oder das Wisentaland . . . . . . . . . . . . . .",
+       "spans": [
+        [
+         20,
+         27,
+         "Location"
+        ],
+        [
+         37,
+         48,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "570—705.",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "III. Der Landestheil Lobenstein-Ebersdorf . . . . . . . . . . . . . . . . . .",
+       "spans": [
+        [
+         21,
+         41,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "706—825.",
+       "spans": []
+      }
+     ]
+    }
+   ],
+   "grid": [
+    [
+     "I. Der Landestheil oder Landrathsamtsbezirk Gera . . . . . . . . . . . . .",
+     "407—569."
+    ],
+    [
+     "II. Der Landestheil Schleiz oder das Wisentaland . . . . . . . . . . . . . .",
+     "570—705."
+    ],
+    [
+     "III. Der Landestheil Lobenstein-Ebersdorf . . . . . . . . . . . . . . . . . .",
+     "706—825."
+    ]
+   ],
+   "caption": null,
+   "sec": "inhalt"
+  }
+ ],
+ "footnotes": [],
+ "corrections": [
+  {
+   "rule": "table_no_header_row",
+   "note": "first row is data (legacy edition rendered it as <th>)",
+   "block": "b2"
+  },
+  {
+   "rule": "table_no_header_row",
+   "note": "first row is data (legacy edition rendered it as <th>)",
+   "block": "b3"
+  },
+  {
+   "rule": "table_no_header_row",
+   "note": "first row is data (legacy edition rendered it as <th>)",
+   "block": "b5"
+  }
+ ],
+ "provenance": {
+  "source": "gapfill-2026-10",
+  "model": "gemini-3-flash-preview",
+  "timestamp": "2026-10-01T20:41:07.794957",
+  "early_schema": false
+ },
+ "section_path": [
+  "front",
+  "inhalt"
+ ],
+ "sections": [
+  "inhalt"
+ ]
+}

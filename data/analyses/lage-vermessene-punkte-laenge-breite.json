@@ -1,0 +1,1908 @@
+{
+ "id": "lage-vermessene-punkte-laenge-breite",
+ "title": {
+  "de": "Mathematische Lage: vermessene Punkte und Ausdehnung des Landes",
+  "en": "Mathematical position: surveyed points and extent of the country"
+ },
+ "category": "geography",
+ "section": "t1-1-2",
+ "sources": [
+  {
+   "page": "6",
+   "block": "b2"
+  },
+  {
+   "page": "6",
+   "block": "b3",
+   "rows": "r1-r37"
+  },
+  {
+   "page": "6",
+   "block": "fn1"
+  },
+  {
+   "page": "7",
+   "block": "b1",
+   "rows": "r1-r20"
+  },
+  {
+   "page": "7",
+   "block": "b2"
+  },
+  {
+   "page": "4",
+   "block": "b3"
+  },
+  {
+   "page": "5",
+   "block": "b1"
+  },
+  {
+   "page": "5",
+   "block": "b2"
+  }
+ ],
+ "summary": {
+  "de": "Brückner druckt die geographische Länge und Breite von 57 trigonometrisch bestimmten Punkten im Fürstentum (Kirchen, Turmknöpfe, Signale, Mühlen), dazu die Grenzwerte von Ober- und Unterland. Die Längen sind von Ferro aus gezählt; mit Abzug von 17° 40′ ergeben sich Greenwich-Längen, so dass die Punkte auf einer Karte dargestellt werden können. Die Karte zeigt zwei getrennte Punktwolken: das große, nach Südwesten ausgreifende Oberland und das kleinere Unterland um Gera.",
+  "en": "Brückner prints the geographic longitude and latitude of 57 points of the principality fixed by triangulation (churches, tower finials, signals, mills), together with the limits of the Oberland and Unterland. Longitudes are counted from Ferro; subtracting 17° 40′ gives Greenwich longitudes, so the points can be drawn on a map. The map shows two separate clouds of points: the large Oberland, reaching to the south-west, and the smaller Unterland around Gera."
+ },
+ "method": {
+  "de": "Quelle sind die Tabellen auf S. 6 (Punkte 1–37) und S. 7 (Punkte 38–57) sowie die Grenzwerte auf S. 6 (über der Tabelle), die im Fließtext S. 4–5 als Anfangswert plus Ausdehnung wiederholt werden. Grad, Minuten und Sekunden wurden wie gedruckt übernommen und in Dezimalgrad umgerechnet. Brückner zählt die Länge östlich von Ferro (»L.«); Greenwich-Länge = Ferro-Länge − 17° 40′ (Ferro liegt genauer 17° 39′ 46″ westlich von Greenwich; der Unterschied von 14″ entspricht rund 0,3 km). Die Breite wird übernommen. Die Zuordnung zu Ober- oder Unterland folgt der gedruckten Südgrenze des Unterlandes (Breite ≥ 50° 47′ 48″); Geissen wird abweichend dem Unterland zugerechnet, weil es in den Höhenlisten des Unterlandes (S. 13) steht. Die gestrichelten Rechtecke der Karte sind die gedruckten Grenzwerte (Länge/Breite) beider Landesteile, keine Landesgrenzen. Kilometerangaben sind Näherungen (1° Breite = 111,2 km; 1° Länge = 111,32 km · cos Breite). Drei im Digitalisat falsch gelesene Sekundenwerte wurden nach dem Faksimile korrigiert.",
+  "en": "The sources are the tables on p. 6 (points 1–37) and p. 7 (points 38–57) and the limits printed on p. 6 above the table, which the running text on pp. 4–5 repeats as a starting value plus an extent. Degrees, minutes and seconds were taken as printed and converted to decimal degrees. Brückner counts longitude east of Ferro (“L.”); Greenwich longitude = Ferro longitude − 17° 40′ (more precisely Ferro lies 17° 39′ 46″ west of Greenwich; the 14″ difference is about 0.3 km). Latitude is used as printed. Assignment to Oberland or Unterland follows the printed southern limit of the Unterland (latitude ≥ 50° 47′ 48″); Geissen is assigned to the Unterland against this rule because the Unterland height lists (p. 13) include it. The dashed rectangles on the map are the printed longitude/latitude limits of the two parts, not borders. Kilometre figures are approximations (1° latitude = 111.2 km; 1° longitude = 111.32 km · cos latitude). Three seconds values misread in the digitised text were corrected from the facsimile."
+ },
+ "findings": [
+  {
+   "de": "Die Tabelle enthält 57 Punkte (38 im Oberland, 19 im Unterland); 56 haben Länge und Breite (Kleinfriesa nur die Länge). 35 Punkte sind Kirchen, Turmknöpfe, Türme oder Schlösser, 6 Signalpunkte oder -steine.",
+   "en": "The table lists 57 points (38 in the Oberland, 19 in the Unterland); 56 have longitude and latitude (Kleinfriesa only longitude). 35 points are churches, tower finials, towers or castles, 6 are signal points or stones."
+  },
+  {
+   "de": "Westlichster Punkt ist Röttersdorf (11° 27′ 42″ östlich von Greenwich), östlichster Bethenhausen (12° 11′ 51″), südlichster Titschendorf (50° 23′ 37″ N), nördlichster Großaga (50° 57′ 58″ N) – wie Brückner auf S. 7 schreibt. Das eingeklammerte Heukenwalde liegt mit 50° 57′ 59,84″ N noch etwas nördlicher und gehört vermutlich nicht zum Fürstentum.",
+   "en": "The westernmost point is Röttersdorf (11° 27′ 42″ east of Greenwich), the easternmost Bethenhausen (12° 11′ 51″), the southernmost Titschendorf (50° 23′ 37″ N), the northernmost Großaga (50° 57′ 58″ N), as Brückner states on p. 7. The bracketed Heukenwalde lies slightly further north at 50° 57′ 59,84″ N and probably is not part of the principality."
+  },
+  {
+   "de": "Gera (Nikolaiturm) liegt bei 12° 5′ 35″ / 50° 52′ 35″ (Greenwich-Länge / Breite), Schleiz (Schloss) bei 11° 48′ 43″ / 50° 34′ 40″, Tanna (Mühle) bei 11° 50′ 26″ / 50° 29′ 43″. Brückners »dicht bei Tanna« gelegener Schnittpunkt von 29° 30′ Länge und 50° 30′ Breite entspricht 11° 50′ O, 50° 30′ N.",
+   "en": "Gera (St. Nicholas tower) lies at 12° 5′ 35″ / 50° 52′ 35″ (Greenwich longitude / latitude), Schleiz (castle) at 11° 48′ 43″ / 50° 34′ 40″, Tanna (mill) at 11° 50′ 26″ / 50° 29′ 43″. Brückner's intersection of 29° 30′ longitude and 50° 30′ latitude “close to Tanna” corresponds to 11° 50′ E, 50° 30′ N."
+  },
+  {
+   "de": "Nach den gedruckten Grenzwerten füllt das Oberland ein Rechteck von rund 47,5 km (Ost–West) × 39,1 km (Nord–Süd), das Unterland eines von rund 22,1 × 20,1 km; zwischen beiden liegt ein Breitenstreifen von 3′ 58″ (≈ 7,4 km). Alle Punkte außer Geissen liegen innerhalb der Rechtecke ihres Landesteils.",
+   "en": "According to the printed limits the Oberland fills a rectangle of about 47.5 km (east–west) × 39.1 km (north–south), the Unterland one of about 22.1 × 20.1 km; between them lies a latitude gap of 3′ 58″ (≈ 7.4 km). All points except Geissen lie within the rectangle of their part."
+  }
+ ],
+ "caveats": [
+  {
+   "de": "Geissen (Br. 50° 45′ 44″) liegt südlich der gedruckten Südgrenze des Unterlandes (50° 47′ 48″), obwohl der Ort zu den Unterland-Orten gehört (S. 13). Das Faksimile zeigt den Wert wie transkribiert; vermutlich liegt ein Druckfehler im Original vor (nicht anderweitig geprüft). Der Punkt ist wie gedruckt eingetragen.",
+   "en": "Geissen (lat. 50° 45′ 44″) lies south of the printed southern limit of the Unterland (50° 47′ 48″), although the village belongs to the Unterland places (p. 13). The facsimile shows the value as transcribed; probably a printing error in the original (not checked elsewhere). The point is plotted as printed."
+  },
+  {
+   "de": "Gemessen wurde nicht überall derselbe Gegenstand (Kirche, Turmknopf, Signal, Mühle, Schornstein, einzelner Baum); Eliasbrunn erscheint zweimal (Signalpunkt und Turmknopf), die beiden Positionen liegen rund 0,39 km auseinander. Die Angabe von Hundertstel-Sekunden täuscht eine Genauigkeit vor, die die Methode nicht hatte. Brückner nennt kein geodätisches Datum; gegenüber heutigen Koordinaten sind Abweichungen von einigen hundert Metern möglich.",
+   "en": "Not the same kind of object was measured everywhere (church, tower finial, signal, mill, chimney, single tree); Eliasbrunn appears twice (signal point and tower finial), the two positions being about 0.39 km apart. Hundredths of seconds imply a precision the method did not have. Brückner names no geodetic datum; deviations of a few hundred metres from present-day coordinates are possible."
+  },
+  {
+   "de": "Die Klammern um St. Gangloff und Heukenwalde erklärt Brückner nicht; die Auslegung als »außerhalb des Fürstentums« ist eine Vermutung (beide Orte liegen im Altenburgischen).",
+   "en": "Brückner does not explain the brackets around St. Gangloff and Heukenwalde; reading them as “outside the principality” is a conjecture (both places lie in the Altenburg territory)."
+  },
+  {
+   "de": "Die Randwerte auf S. 4 sind im Digitalisat falsch gelesen (»bis 30° 7′ 40″«); der Druck gibt »um 40′ 20″« und stimmt damit mit S. 6 überein.",
+   "en": "The limits on p. 4 are misread in the digitised text (“bis 30° 7′ 40″”); the print says “um 40′ 20″” and thus agrees with p. 6."
+  }
+ ],
+ "conversions": [
+  {
+   "from": "Länge östlich von Ferro",
+   "to": "Länge östlich von Greenwich",
+   "factor_or_formula": "L_Greenwich = L_Ferro − 17° 40′ (= 17,6667°)",
+   "reference": "Ferro = 20° westlich von Paris; Paris = 2° 20′ 14″ östlich von Greenwich, daher genau 17° 39′ 46″; gerundet 17° 40′"
+  },
+  {
+   "from": "Grad, Minuten, Sekunden",
+   "to": "Dezimalgrad",
+   "factor_or_formula": "° + ′/60 + ″/3600",
+   "reference": "Brückner S. 6–7 (Werte wie gedruckt)"
+  }
+ ],
+ "datasets": [
+  {
+   "name": "points",
+   "title": {
+    "de": "Trigonometrisch bestimmte Punkte",
+    "en": "Points fixed by triangulation"
+   },
+   "columns": [
+    {
+     "name": "nr",
+     "label": {
+      "de": "Nr.",
+      "en": "No."
+     },
+     "type": "integer",
+     "unit": null,
+     "derived": true,
+     "note": "Reihenfolge im Druck (S. 6, dann S. 7)"
+    },
+    {
+     "name": "name",
+     "label": {
+      "de": "Ort",
+      "en": "Place"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "landesteil",
+     "label": {
+      "de": "Landesteil",
+      "en": "Part of the country"
+     },
+     "type": "string",
+     "unit": null,
+     "derived": true,
+     "note": "aus der Breite abgeleitet (Geissen: Unterland nach S. 13)"
+    },
+    {
+     "name": "objekt",
+     "label": {
+      "de": "Gemessener Gegenstand",
+      "en": "Object measured"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "objektart",
+     "label": {
+      "de": "Objektart",
+      "en": "Object class"
+     },
+     "type": "string",
+     "unit": null,
+     "derived": true,
+     "note": "redaktionelle Gruppierung"
+    },
+    {
+     "name": "lon_grad",
+     "label": {
+      "de": "Länge: Grad (Ferro)",
+      "en": "Longitude: degrees (Ferro)"
+     },
+     "type": "integer",
+     "unit": "°"
+    },
+    {
+     "name": "lon_min",
+     "label": {
+      "de": "Länge: Minuten",
+      "en": "Longitude: minutes"
+     },
+     "type": "integer",
+     "unit": "′"
+    },
+    {
+     "name": "lon_sek",
+     "label": {
+      "de": "Länge: Sekunden",
+      "en": "Longitude: seconds"
+     },
+     "type": "number",
+     "unit": "″"
+    },
+    {
+     "name": "lat_grad",
+     "label": {
+      "de": "Breite: Grad",
+      "en": "Latitude: degrees"
+     },
+     "type": "integer",
+     "unit": "°"
+    },
+    {
+     "name": "lat_min",
+     "label": {
+      "de": "Breite: Minuten",
+      "en": "Latitude: minutes"
+     },
+     "type": "integer",
+     "unit": "′"
+    },
+    {
+     "name": "lat_sek",
+     "label": {
+      "de": "Breite: Sekunden",
+      "en": "Latitude: seconds"
+     },
+     "type": "number",
+     "unit": "″"
+    },
+    {
+     "name": "lon_ferro",
+     "label": {
+      "de": "Länge östlich von Ferro",
+      "en": "Longitude east of Ferro"
+     },
+     "type": "number",
+     "unit": "°",
+     "derived": true
+    },
+    {
+     "name": "lon_gw",
+     "label": {
+      "de": "Länge östlich von Greenwich",
+      "en": "Longitude east of Greenwich"
+     },
+     "type": "number",
+     "unit": "°",
+     "derived": true
+    },
+    {
+     "name": "lat",
+     "label": {
+      "de": "Breite",
+      "en": "Latitude"
+     },
+     "type": "number",
+     "unit": "°",
+     "derived": true
+    },
+    {
+     "name": "in_klammern",
+     "label": {
+      "de": "In Klammern gedruckt (1 = ja)",
+      "en": "Printed in brackets (1 = yes)"
+     },
+     "type": "integer",
+     "unit": null,
+     "derived": true,
+     "note": "Codierung 0/1 editorisch"
+    },
+    {
+     "name": "beschriftet",
+     "label": {
+      "de": "Auf der Karte beschriftet (1 = ja)",
+      "en": "Labelled on the map (1 = yes)"
+     },
+     "type": "integer",
+     "unit": null,
+     "derived": true,
+     "note": "Codierung 0/1 editorisch"
+    },
+    {
+     "name": "seite",
+     "label": {
+      "de": "Seite",
+      "en": "Page"
+     },
+     "type": "string",
+     "unit": null
+    }
+   ],
+   "rows": [
+    [
+     1,
+     "Röttersdorf",
+     "Oberland",
+     "Kohlhäuser",
+     "Haus, Schornstein",
+     29,
+     7,
+     42.0,
+     50,
+     28,
+     15.0,
+     29.12833,
+     11.46167,
+     50.47083,
+     0,
+     0,
+     "6"
+    ],
+    [
+     2,
+     "Grumbach",
+     "Oberland",
+     "Dorfmitte (Straßenkreuzungspunkt)",
+     "Dorfmitte",
+     29,
+     10,
+     8.5,
+     50,
+     25,
+     55.0,
+     29.16903,
+     11.50236,
+     50.43194,
+     0,
+     0,
+     "6"
+    ],
+    [
+     3,
+     "Oßlaer Hügel",
+     "Oberland",
+     "Signalstein",
+     "Signalpunkt/-stein",
+     29,
+     10,
+     3.78,
+     50,
+     28,
+     9.59,
+     29.16772,
+     11.50105,
+     50.46933,
+     0,
+     0,
+     "6"
+    ],
+    [
+     4,
+     "Titschendorf",
+     "Oberland",
+     "Kirche",
+     "Kirche",
+     29,
+     11,
+     40.0,
+     50,
+     23,
+     37.0,
+     29.19444,
+     11.52778,
+     50.39361,
+     0,
+     0,
+     "6"
+    ],
+    [
+     5,
+     "Gahma",
+     "Oberland",
+     "Thurmknopf",
+     "Turmknopf",
+     29,
+     12,
+     15.45,
+     50,
+     31,
+     31.07,
+     29.20429,
+     11.53762,
+     50.5253,
+     0,
+     0,
+     "6"
+    ],
+    [
+     6,
+     "Ruppersdorf",
+     "Oberland",
+     "Thurmknopf",
+     "Turmknopf",
+     29,
+     14,
+     32.61,
+     50,
+     30,
+     37.61,
+     29.24239,
+     11.57572,
+     50.51045,
+     0,
+     0,
+     "6"
+    ],
+    [
+     7,
+     "Heinersdorf",
+     "Oberland",
+     "Thurmknopf",
+     "Turmknopf",
+     29,
+     14,
+     39.85,
+     50,
+     28,
+     24.85,
+     29.2444,
+     11.57774,
+     50.47357,
+     0,
+     0,
+     "6"
+    ],
+    [
+     8,
+     "Eliasbrunn",
+     "Oberland",
+     "Signalpunkt",
+     "Signalpunkt/-stein",
+     29,
+     15,
+     48.61,
+     50,
+     29,
+     43.58,
+     29.2635,
+     11.59684,
+     50.49544,
+     0,
+     0,
+     "6"
+    ],
+    [
+     9,
+     "Eliasbrunn",
+     "Oberland",
+     "Thurmknopf",
+     "Turmknopf",
+     29,
+     16,
+     3.2,
+     50,
+     29,
+     52.0,
+     29.26756,
+     11.60089,
+     50.49778,
+     0,
+     0,
+     "6"
+    ],
+    [
+     10,
+     "Unterlemnitz",
+     "Oberland",
+     "Kirche",
+     "Kirche",
+     29,
+     17,
+     18.0,
+     50,
+     28,
+     25.0,
+     29.28833,
+     11.62167,
+     50.47361,
+     0,
+     0,
+     "6"
+    ],
+    [
+     11,
+     "Krähenhügel",
+     "Oberland",
+     "Signalpunkt",
+     "Signalpunkt/-stein",
+     29,
+     17,
+     49.91,
+     50,
+     24,
+     32.98,
+     29.2972,
+     11.63053,
+     50.40916,
+     0,
+     0,
+     "6"
+    ],
+    [
+     12,
+     "Lobenstein",
+     "Oberland",
+     "Ruinenthurm",
+     "Turm, Schloss, Ruine",
+     29,
+     18,
+     27.54,
+     50,
+     26,
+     48.13,
+     29.30765,
+     11.64098,
+     50.4467,
+     0,
+     1,
+     "6"
+    ],
+    [
+     13,
+     "Bellevue",
+     "Oberland",
+     "Forsthaus (Nordschornstein)",
+     "Haus, Schornstein",
+     29,
+     19,
+     28.05,
+     50,
+     28,
+     42.46,
+     29.32446,
+     11.65779,
+     50.47846,
+     0,
+     0,
+     "6"
+    ],
+    [
+     14,
+     "Kleinfriesa",
+     "Oberland",
+     null,
+     "ohne Angabe",
+     29,
+     20,
+     0.0,
+     null,
+     null,
+     null,
+     29.33333,
+     11.66667,
+     null,
+     0,
+     0,
+     "6"
+    ],
+    [
+     15,
+     "Ebersdorf",
+     "Oberland",
+     "Kirche",
+     "Kirche",
+     29,
+     20,
+     1.0,
+     50,
+     29,
+     5.0,
+     29.33361,
+     11.66694,
+     50.48472,
+     0,
+     0,
+     "6"
+    ],
+    [
+     16,
+     "Harra",
+     "Oberland",
+     "Kirche",
+     "Kirche",
+     29,
+     21,
+     5.0,
+     50,
+     25,
+     11.0,
+     29.35139,
+     11.68472,
+     50.41972,
+     0,
+     0,
+     "6"
+    ],
+    [
+     17,
+     "Saalburg",
+     "Oberland",
+     "Kirche",
+     "Kirche",
+     29,
+     23,
+     50.0,
+     50,
+     30,
+     7.0,
+     29.39722,
+     11.73056,
+     50.50194,
+     0,
+     0,
+     "6"
+    ],
+    [
+     18,
+     "Lerchenhügel",
+     "Oberland",
+     "Baum",
+     "Sonstiges",
+     29,
+     24,
+     13.18,
+     50,
+     25,
+     48.76,
+     29.40366,
+     11.73699,
+     50.43021,
+     0,
+     0,
+     "6"
+    ],
+    [
+     19,
+     "Kulm",
+     "Oberland",
+     "Thurmknopf",
+     "Turmknopf",
+     29,
+     25,
+     8.61,
+     50,
+     30,
+     29.67,
+     29.41906,
+     11.75239,
+     50.50824,
+     0,
+     0,
+     "6"
+    ],
+    [
+     20,
+     "Bergkirche",
+     "Oberland",
+     "Thurmknopf",
+     "Turmknopf",
+     29,
+     28,
+     14.81,
+     50,
+     35,
+     6.49,
+     29.47078,
+     11.80411,
+     50.58514,
+     0,
+     0,
+     "6"
+    ],
+    [
+     21,
+     "Schleiz",
+     "Oberland",
+     "Schloß (Westthurm)",
+     "Turm, Schloss, Ruine",
+     29,
+     28,
+     43.07,
+     50,
+     34,
+     40.03,
+     29.47863,
+     11.81196,
+     50.57779,
+     0,
+     1,
+     "6"
+    ],
+    [
+     22,
+     "Heinrichsruh",
+     "Oberland",
+     "Thurmfahne",
+     "Turm, Schloss, Ruine",
+     29,
+     28,
+     57.65,
+     50,
+     33,
+     21.7,
+     29.48268,
+     11.81601,
+     50.55603,
+     0,
+     0,
+     "6"
+    ],
+    [
+     23,
+     "Oettersdorf",
+     "Oberland",
+     "Kirchthurmknopf",
+     "Turmknopf",
+     29,
+     29,
+     10.95,
+     50,
+     36,
+     6.67,
+     29.48638,
+     11.81971,
+     50.60185,
+     0,
+     0,
+     "6"
+    ],
+    [
+     24,
+     "Kapelle",
+     "Oberland",
+     "Signalpunkt",
+     "Signalpunkt/-stein",
+     29,
+     29,
+     53.79,
+     50,
+     29,
+     45.35,
+     29.49827,
+     11.83161,
+     50.49593,
+     0,
+     0,
+     "6"
+    ],
+    [
+     25,
+     "Tanna",
+     "Oberland",
+     "Holländ. Mühle",
+     "Mühle",
+     29,
+     30,
+     26.49,
+     50,
+     29,
+     42.93,
+     29.50736,
+     11.84069,
+     50.49526,
+     0,
+     1,
+     "6"
+    ],
+    [
+     26,
+     "Tegau",
+     "Oberland",
+     "Thurmknopf",
+     "Turmknopf",
+     29,
+     31,
+     48.52,
+     50,
+     39,
+     0.97,
+     29.53014,
+     11.86348,
+     50.65027,
+     0,
+     0,
+     "6"
+    ],
+    [
+     27,
+     "Hohe Tanne",
+     "Oberland",
+     "bei Gebersreuth",
+     "Sonstiges",
+     29,
+     32,
+     47.32,
+     50,
+     25,
+     47.64,
+     29.54648,
+     11.87981,
+     50.4299,
+     0,
+     0,
+     "6"
+    ],
+    [
+     28,
+     "Kirschkau",
+     "Oberland",
+     "Thurmknopf",
+     "Turmknopf",
+     29,
+     33,
+     14.57,
+     50,
+     36,
+     20.35,
+     29.55405,
+     11.88738,
+     50.60565,
+     0,
+     0,
+     "6"
+    ],
+    [
+     29,
+     "Lössau",
+     "Oberland",
+     "Signalpunkt",
+     "Signalpunkt/-stein",
+     29,
+     33,
+     17.68,
+     50,
+     35,
+     35.23,
+     29.55491,
+     11.88824,
+     50.59312,
+     0,
+     0,
+     "6"
+    ],
+    [
+     30,
+     "Hirschberg",
+     "Oberland",
+     "Kirche",
+     "Kirche",
+     29,
+     29,
+     16.0,
+     50,
+     24,
+     18.0,
+     29.48778,
+     11.82111,
+     50.405,
+     0,
+     1,
+     "6"
+    ],
+    [
+     31,
+     "Mödlareuth",
+     "Oberland",
+     "nördlichstes Haus",
+     "Haus, Schornstein",
+     29,
+     31,
+     48.0,
+     50,
+     25,
+     0.0,
+     29.53,
+     11.86333,
+     50.41667,
+     0,
+     0,
+     "6"
+    ],
+    [
+     32,
+     "Göttengrün",
+     "Oberland",
+     "Nordhaus am Dorfteich",
+     "Haus, Schornstein",
+     29,
+     29,
+     57.0,
+     50,
+     27,
+     41.0,
+     29.49917,
+     11.8325,
+     50.46139,
+     0,
+     0,
+     "6"
+    ],
+    [
+     33,
+     "Dragensdorf",
+     "Oberland",
+     "Kirche",
+     "Kirche",
+     29,
+     30,
+     5.0,
+     50,
+     38,
+     50.0,
+     29.50139,
+     11.83472,
+     50.64722,
+     0,
+     0,
+     "6"
+    ],
+    [
+     34,
+     "Oberböhmsdorf",
+     "Oberland",
+     "Kirche",
+     "Kirche",
+     29,
+     30,
+     1.12,
+     50,
+     33,
+     41.0,
+     29.50031,
+     11.83364,
+     50.56139,
+     0,
+     0,
+     "6"
+    ],
+    [
+     35,
+     "Pahren",
+     "Oberland",
+     "Kirche",
+     "Kirche",
+     29,
+     33,
+     55.0,
+     50,
+     38,
+     44.0,
+     29.56528,
+     11.89861,
+     50.64556,
+     0,
+     0,
+     "6"
+    ],
+    [
+     36,
+     "St. Gangloff",
+     "Unterland",
+     "Thurmknopf",
+     "Turmknopf",
+     29,
+     34,
+     6.27,
+     50,
+     51,
+     25.87,
+     29.56841,
+     11.90174,
+     50.85719,
+     1,
+     0,
+     "6"
+    ],
+    [
+     37,
+     "Kraftsdorf",
+     "Unterland",
+     "Kirche",
+     "Kirche",
+     29,
+     34,
+     54.0,
+     50,
+     52,
+     39.0,
+     29.58167,
+     11.915,
+     50.8775,
+     0,
+     0,
+     "6"
+    ],
+    [
+     38,
+     "Stelzenbaum",
+     "Oberland",
+     "Signalpunkt",
+     "Signalpunkt/-stein",
+     29,
+     37,
+     1.87,
+     50,
+     29,
+     21.58,
+     29.61719,
+     11.95052,
+     50.48933,
+     0,
+     0,
+     "7"
+    ],
+    [
+     39,
+     "Käseschenke",
+     "Unterland",
+     "Schornstein",
+     "Haus, Schornstein",
+     29,
+     37,
+     51.51,
+     50,
+     52,
+     0.41,
+     29.63097,
+     11.96431,
+     50.86678,
+     0,
+     0,
+     "7"
+    ],
+    [
+     40,
+     "Rödersdorf",
+     "Unterland",
+     "Holländ. Mühle",
+     "Mühle",
+     29,
+     38,
+     7.25,
+     50,
+     53,
+     51.17,
+     29.63535,
+     11.96868,
+     50.89755,
+     0,
+     0,
+     "7"
+    ],
+    [
+     41,
+     "Geissen",
+     "Unterland",
+     "Kirche",
+     "Kirche",
+     29,
+     39,
+     52.5,
+     50,
+     45,
+     44.0,
+     29.66458,
+     11.99792,
+     50.76222,
+     0,
+     1,
+     "7"
+    ],
+    [
+     42,
+     "Weißendorf",
+     "Oberland",
+     "Dorfmitte",
+     "Dorfmitte",
+     29,
+     40,
+     0.0,
+     50,
+     40,
+     16.0,
+     29.66667,
+     12.0,
+     50.67111,
+     0,
+     0,
+     "7"
+    ],
+    [
+     43,
+     "Dürrenebersdorf",
+     "Unterland",
+     "Thurmknopf",
+     "Turmknopf",
+     29,
+     41,
+     44.38,
+     50,
+     51,
+     3.39,
+     29.69566,
+     12.02899,
+     50.85094,
+     0,
+     0,
+     "7"
+    ],
+    [
+     44,
+     "Hohenleuben",
+     "Oberland",
+     "Thurmknopf",
+     "Turmknopf",
+     29,
+     43,
+     16.02,
+     50,
+     42,
+     45.48,
+     29.72112,
+     12.05445,
+     50.71263,
+     0,
+     1,
+     "7"
+    ],
+    [
+     45,
+     "Gera",
+     "Unterland",
+     "Nicolaithurm",
+     "Turm, Schloss, Ruine",
+     29,
+     45,
+     35.0,
+     50,
+     52,
+     35.0,
+     29.75972,
+     12.09306,
+     50.87639,
+     0,
+     1,
+     "7"
+    ],
+    [
+     46,
+     "Seeligenstädt",
+     "Unterland",
+     "Westgiebel des Westgebäudes",
+     "Haus, Schornstein",
+     29,
+     46,
+     52.66,
+     50,
+     56,
+     55.6,
+     29.78129,
+     12.11463,
+     50.94878,
+     0,
+     0,
+     "7"
+    ],
+    [
+     47,
+     "Zschippern",
+     "Unterland",
+     "Mühle",
+     "Mühle",
+     29,
+     47,
+     25.58,
+     50,
+     52,
+     12.75,
+     29.79044,
+     12.12377,
+     50.87021,
+     0,
+     0,
+     "7"
+    ],
+    [
+     48,
+     "Trebnitz",
+     "Unterland",
+     "Thurmknopf",
+     "Turmknopf",
+     29,
+     47,
+     46.71,
+     50,
+     53,
+     49.46,
+     29.79631,
+     12.12964,
+     50.89707,
+     0,
+     0,
+     "7"
+    ],
+    [
+     49,
+     "Wüstfalke",
+     "Unterland",
+     "Nordschornstein des Wohnhauses",
+     "Haus, Schornstein",
+     29,
+     47,
+     53.98,
+     50,
+     48,
+     50.44,
+     29.79833,
+     12.13166,
+     50.81401,
+     0,
+     0,
+     "7"
+    ],
+    [
+     50,
+     "Kleinaga",
+     "Unterland",
+     "Forsthaus",
+     "Haus, Schornstein",
+     29,
+     45,
+     31.5,
+     50,
+     57,
+     37.5,
+     29.75875,
+     12.09208,
+     50.96042,
+     0,
+     0,
+     "7"
+    ],
+    [
+     51,
+     "Großaga",
+     "Unterland",
+     "Kirche",
+     "Kirche",
+     29,
+     45,
+     15.0,
+     50,
+     57,
+     58.0,
+     29.75417,
+     12.0875,
+     50.96611,
+     0,
+     0,
+     "7"
+    ],
+    [
+     52,
+     "Köstritz",
+     "Unterland",
+     "Kirche",
+     "Kirche",
+     29,
+     40,
+     35.0,
+     50,
+     55,
+     43.0,
+     29.67639,
+     12.00972,
+     50.92861,
+     0,
+     1,
+     "7"
+    ],
+    [
+     53,
+     "Heukenwalde",
+     "Unterland",
+     "Schloßthurm",
+     "Turm, Schloss, Ruine",
+     29,
+     49,
+     13.45,
+     50,
+     57,
+     59.84,
+     29.8204,
+     12.15374,
+     50.96662,
+     1,
+     0,
+     "7"
+    ],
+    [
+     54,
+     "Pohlen",
+     "Unterland",
+     "Kirche",
+     "Kirche",
+     29,
+     49,
+     54.0,
+     50,
+     48,
+     27.9,
+     29.83167,
+     12.165,
+     50.80775,
+     0,
+     0,
+     "7"
+    ],
+    [
+     55,
+     "Groitschen",
+     "Unterland",
+     "Kirche",
+     "Kirche",
+     29,
+     50,
+     6.66,
+     50,
+     55,
+     30.45,
+     29.83518,
+     12.16852,
+     50.92512,
+     0,
+     0,
+     "7"
+    ],
+    [
+     56,
+     "Hirschfeld",
+     "Unterland",
+     "Thurmknopf",
+     "Turmknopf",
+     29,
+     51,
+     21.34,
+     50,
+     56,
+     32.99,
+     29.85593,
+     12.18926,
+     50.9425,
+     0,
+     0,
+     "7"
+    ],
+    [
+     57,
+     "Bethenhausen",
+     "Unterland",
+     "Thurm",
+     "Turm, Schloss, Ruine",
+     29,
+     51,
+     51.31,
+     50,
+     55,
+     48.5,
+     29.86425,
+     12.19759,
+     50.93014,
+     0,
+     0,
+     "7"
+    ]
+   ],
+   "source_refs": [
+    {
+     "page": "6",
+     "block": "b3",
+     "rows": "r1-r37"
+    },
+    {
+     "page": "7",
+     "block": "b1",
+     "rows": "r1-r20"
+    }
+   ]
+  },
+  {
+   "name": "extent",
+   "title": {
+    "de": "Grenzwerte von Ober- und Unterland",
+    "en": "Limits of the Oberland and Unterland"
+   },
+   "columns": [
+    {
+     "name": "landesteil",
+     "label": {
+      "de": "Landesteil",
+      "en": "Part of the country"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "laenge_text",
+     "label": {
+      "de": "Länge (Ferro), wie gedruckt",
+      "en": "Longitude (Ferro), as printed"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "breite_text",
+     "label": {
+      "de": "Breite, wie gedruckt",
+      "en": "Latitude, as printed"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "lon_min_ferro",
+     "label": {
+      "de": "Länge West (Ferro)",
+      "en": "Longitude west (Ferro)"
+     },
+     "type": "number",
+     "unit": "°",
+     "derived": true
+    },
+    {
+     "name": "lon_max_ferro",
+     "label": {
+      "de": "Länge Ost (Ferro)",
+      "en": "Longitude east (Ferro)"
+     },
+     "type": "number",
+     "unit": "°",
+     "derived": true
+    },
+    {
+     "name": "lat_min",
+     "label": {
+      "de": "Breite Süd",
+      "en": "Latitude south"
+     },
+     "type": "number",
+     "unit": "°",
+     "derived": true
+    },
+    {
+     "name": "lat_max",
+     "label": {
+      "de": "Breite Nord",
+      "en": "Latitude north"
+     },
+     "type": "number",
+     "unit": "°",
+     "derived": true
+    },
+    {
+     "name": "lon_min_gw",
+     "label": {
+      "de": "Länge West (Greenwich)",
+      "en": "Longitude west (Greenwich)"
+     },
+     "type": "number",
+     "unit": "°",
+     "derived": true
+    },
+    {
+     "name": "lon_max_gw",
+     "label": {
+      "de": "Länge Ost (Greenwich)",
+      "en": "Longitude east (Greenwich)"
+     },
+     "type": "number",
+     "unit": "°",
+     "derived": true
+    },
+    {
+     "name": "breite_km",
+     "label": {
+      "de": "Ost–West-Ausdehnung",
+      "en": "East–west extent"
+     },
+     "type": "number",
+     "unit": "km",
+     "derived": true
+    },
+    {
+     "name": "hoehe_km",
+     "label": {
+      "de": "Nord–Süd-Ausdehnung",
+      "en": "North–south extent"
+     },
+     "type": "number",
+     "unit": "km",
+     "derived": true
+    }
+   ],
+   "rows": [
+    [
+     "Oberland",
+     "29° 7′ 20″ – 29° 47′ 40″ L.",
+     "50° 22′ 45″ – 50° 43′ 50″ Br.",
+     29.12222,
+     29.79444,
+     50.37917,
+     50.73056,
+     11.45556,
+     12.12778,
+     47.5,
+     39.1
+    ],
+    [
+     "Unterland",
+     "29° 33′ 48″ – 29° 52′ 42″ L.",
+     "50° 47′ 48″ – 50° 58′ 38,6″ Br.",
+     29.56333,
+     29.87833,
+     50.79667,
+     50.97739,
+     11.89667,
+     12.21167,
+     22.1,
+     20.1
+    ]
+   ],
+   "source_refs": [
+    {
+     "page": "6",
+     "block": "b2"
+    }
+   ]
+  }
+ ],
+ "charts": [
+  {
+   "id": "c1",
+   "dataset": "points",
+   "extra_datasets": [
+    "extent"
+   ],
+   "title": {
+    "de": "Die vermessenen Punkte auf einer Karte",
+    "en": "The surveyed points on a map"
+   },
+   "caption": {
+    "de": "Längen nach Abzug von 17° 40′ (Ferro → Greenwich), Mercator-Projektion. Die gestrichelten Rechtecke sind die von Brückner gedruckten Grenzwerte (Länge/Breite) der beiden Landesteile, keine Landesgrenzen. Rauten: in Klammern gedruckte Punkte. Name und Koordinaten erscheinen beim Überfahren eines Punkts.",
+    "en": "Longitudes after subtracting 17° 40′ (Ferro → Greenwich), Mercator projection. The dashed rectangles are the longitude/latitude limits printed by Brückner for the two parts, not borders. Diamonds: points printed in brackets. Name and coordinates appear when hovering over a point."
+   },
+   "vegalite": {
+    "height": 420,
+    "projection": {
+     "type": "mercator",
+     "center": [
+      11.83,
+      50.67
+     ],
+     "scale": 22000
+    },
+    "layer": [
+     {
+      "data": {
+       "name": "extent"
+      },
+      "mark": {
+       "type": "rect",
+       "fillOpacity": 0.07
+      },
+      "encoding": {
+       "longitude": {
+        "field": "lon_min_gw",
+        "type": "quantitative"
+       },
+       "latitude": {
+        "field": "lat_min",
+        "type": "quantitative"
+       },
+       "longitude2": {
+        "field": "lon_max_gw"
+       },
+       "latitude2": {
+        "field": "lat_max"
+       },
+       "color": {
+        "field": "landesteil",
+        "type": "nominal",
+        "title": {
+         "de": "Landesteil",
+         "en": "Part of the country"
+        },
+        "scale": {
+         "domain": [
+          "Oberland",
+          "Unterland"
+         ]
+        }
+       }
+      }
+     },
+     {
+      "data": {
+       "name": "extent"
+      },
+      "mark": {
+       "type": "rect",
+       "filled": false,
+       "strokeDash": [
+        5,
+        4
+       ],
+       "strokeWidth": 1.2
+      },
+      "encoding": {
+       "longitude": {
+        "field": "lon_min_gw",
+        "type": "quantitative"
+       },
+       "latitude": {
+        "field": "lat_min",
+        "type": "quantitative"
+       },
+       "longitude2": {
+        "field": "lon_max_gw"
+       },
+       "latitude2": {
+        "field": "lat_max"
+       },
+       "color": {
+        "field": "landesteil",
+        "type": "nominal",
+        "title": {
+         "de": "Landesteil",
+         "en": "Part of the country"
+        },
+        "scale": {
+         "domain": [
+          "Oberland",
+          "Unterland"
+         ]
+        }
+       }
+      }
+     },
+     {
+      "transform": [
+       {
+        "filter": "isValid(datum.lat)"
+       }
+      ],
+      "mark": {
+       "type": "point",
+       "filled": true,
+       "size": 60
+      },
+      "encoding": {
+       "longitude": {
+        "field": "lon_gw",
+        "type": "quantitative"
+       },
+       "latitude": {
+        "field": "lat",
+        "type": "quantitative"
+       },
+       "color": {
+        "field": "landesteil",
+        "type": "nominal",
+        "title": {
+         "de": "Landesteil",
+         "en": "Part of the country"
+        },
+        "scale": {
+         "domain": [
+          "Oberland",
+          "Unterland"
+         ]
+        }
+       },
+       "shape": {
+        "condition": {
+         "test": "datum.in_klammern == 1",
+         "value": "diamond"
+        },
+        "value": "circle"
+       },
+       "tooltip": [
+        {
+         "field": "name",
+         "title": {
+          "de": "Ort",
+          "en": "Place"
+         }
+        },
+        {
+         "field": "objekt",
+         "title": {
+          "de": "Gemessener Gegenstand",
+          "en": "Object measured"
+         }
+        },
+        {
+         "field": "lon_gw",
+         "title": {
+          "de": "Länge Greenwich (°)",
+          "en": "Longitude Greenwich (°)"
+         },
+         "format": ".4f"
+        },
+        {
+         "field": "lat",
+         "title": {
+          "de": "Breite (°)",
+          "en": "Latitude (°)"
+         },
+         "format": ".4f"
+        },
+        {
+         "field": "lon_ferro",
+         "title": {
+          "de": "Länge Ferro (°)",
+          "en": "Longitude Ferro (°)"
+         },
+         "format": ".4f"
+        },
+        {
+         "field": "seite",
+         "title": {
+          "de": "Seite",
+          "en": "Page"
+         }
+        }
+       ]
+      }
+     },
+     {
+      "transform": [
+       {
+        "filter": "datum.beschriftet == 1"
+       }
+      ],
+      "mark": {
+       "type": "text",
+       "align": "left",
+       "dx": 7,
+       "dy": -5,
+       "fontSize": 11
+      },
+      "encoding": {
+       "longitude": {
+        "field": "lon_gw",
+        "type": "quantitative"
+       },
+       "latitude": {
+        "field": "lat",
+        "type": "quantitative"
+       },
+       "text": {
+        "field": "name",
+        "type": "nominal"
+       }
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "c2",
+   "dataset": "points",
+   "title": {
+    "de": "Was wurde angepeilt?",
+    "en": "What was sighted?"
+   },
+   "caption": {
+    "de": "Anzahl der Punkte nach Art des gemessenen Gegenstands (redaktionelle Gruppierung der Angaben in der vierten Spalte).",
+    "en": "Number of points by the kind of object measured (editorial grouping of the entries in the fourth column)."
+   },
+   "vegalite": {
+    "height": 260,
+    "mark": "bar",
+    "encoding": {
+     "y": {
+      "field": "objektart",
+      "type": "nominal",
+      "sort": "-x",
+      "title": null
+     },
+     "x": {
+      "aggregate": "count",
+      "type": "quantitative",
+      "title": {
+       "de": "Anzahl Punkte",
+       "en": "Number of points"
+      },
+      "axis": {
+       "tickMinStep": 1
+      }
+     },
+     "color": {
+      "field": "landesteil",
+      "type": "nominal",
+      "title": {
+       "de": "Landesteil",
+       "en": "Part of the country"
+      },
+      "scale": {
+       "domain": [
+        "Oberland",
+        "Unterland"
+       ]
+      }
+     },
+     "tooltip": [
+      {
+       "field": "objektart",
+       "title": {
+        "de": "Objektart",
+        "en": "Object class"
+       }
+      },
+      {
+       "field": "landesteil",
+       "title": {
+        "de": "Landesteil",
+        "en": "Part of the country"
+       }
+      },
+      {
+       "aggregate": "count",
+       "title": {
+        "de": "Anzahl",
+        "en": "Number"
+       }
+      }
+     ]
+    }
+   }
+  }
+ ],
+ "transcription_issues": [
+  {
+   "page": "6",
+   "block": "b3",
+   "cell": "r12c2",
+   "transcribed": "29° 18' 27,154\" L. (Lobenstein)",
+   "facsimile": "29° 18' 27,54\" L.",
+   "checked_facsimile": true,
+   "note": "zusätzliche »1« hinter dem Komma"
+  },
+  {
+   "page": "6",
+   "block": "b3",
+   "cell": "r13c2",
+   "transcribed": "29° 19' 28,105\" L. (Bellevue)",
+   "facsimile": "29° 19' 28,05\" L.",
+   "checked_facsimile": true,
+   "note": "zusätzliche »1« hinter dem Komma"
+  },
+  {
+   "page": "6",
+   "block": "b3",
+   "cell": "r36c2",
+   "transcribed": "29° 34' 6,127\" L. (St. Gangloff)",
+   "facsimile": "29° 34' 6,27\" L.",
+   "checked_facsimile": true,
+   "note": "zusätzliche »1« hinter dem Komma"
+  },
+  {
+   "page": "4",
+   "block": "b3",
+   "transcribed": "vom 29° 7' 20\" bis 30° 7' 40\" in östlicher Länge und vom 50° 22' 45\" bis [50°] 21' 5\"",
+   "facsimile": "vom 29° 7' 20\" um 40' 20\" in östlicher Länge und vom 50° 22' 45\" um 21' 5\" in nördlicher Breite",
+   "checked_facsimile": true,
+   "note": "»um« als »bis« gelesen; 40' 20\" als 30° 7' 40\""
+  }
+ ],
+ "keywords": {
+  "de": [
+   "Koordinaten",
+   "geographische Länge",
+   "geographische Breite",
+   "Ferro",
+   "Greenwich",
+   "Triangulation",
+   "Landesvermessung",
+   "Generalstab",
+   "Lage",
+   "Ausdehnung",
+   "Karte",
+   "Gera",
+   "Schleiz",
+   "Lobenstein"
+  ],
+  "en": [
+   "coordinates",
+   "longitude",
+   "latitude",
+   "Ferro meridian",
+   "Greenwich",
+   "triangulation",
+   "survey",
+   "General Staff",
+   "position",
+   "extent",
+   "map",
+   "Gera",
+   "Schleiz",
+   "Lobenstein"
+  ]
+ },
+ "related": [
+  "grenzen-umfang-nachbarlaender",
+  "flaeche-fuerstenthum-vermessung-nachbarn",
+  "relief-hoehenstufen-oberland-unterland"
+ ],
+ "generated_by": "Claude Sonnet 5.5 (subagent A01)",
+ "date": "2026-10-01"
+}

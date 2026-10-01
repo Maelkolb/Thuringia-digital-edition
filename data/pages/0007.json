@@ -1,0 +1,88 @@
+{
+ "seq": 7,
+ "label": "III",
+ "slug": "III",
+ "iiif": {
+  "service": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb11005578_00007",
+  "canvas": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11005578/canvas/7",
+  "width": 1600,
+  "height": 2693
+ },
+ "kind": "text",
+ "running_header": null,
+ "signature": null,
+ "blocks": [
+  {
+   "id": "b1",
+   "type": "heading",
+   "src": 0,
+   "text": "Vorwort.",
+   "spans": [],
+   "opens": [
+    "vorwort",
+    "vorwort"
+   ],
+   "sec": "vorwort",
+   "level": 3
+  },
+  {
+   "id": "b2",
+   "type": "paragraph",
+   "src": 1,
+   "text": "Die hier vorliegende Landes- und Volkskunde des Fürstenthums Reuß j. L. hat Se. Durchlaucht den regierenden Fürsten Heinrich XIV. zu ihrem Urheber, Plangeber und Förderer. Von diesem hohen Kenner des Landes war der Unterzeichnete beauftragt, das Fürstenthum nach allen seinen natürlichen, staatlichen und bürgerlichen Verhältnissen und Entwicklungen zu erforschen und die gewonnenen Anschauungen und Forschungsresultate zu einem Gesammtbilde zu verarbeiten, dies Alles nicht allein im Interesse der Wissenschaft, sondern auch und namentlich zum Besten des Landes, damit hier einerseits erkannt werde, wie das Heute beschaffen sei und wie sich dasselbe aus dem Gestern gestaltet habe, und andererseits damit die alte Liebe zur Heimath sich frisch erhalte.",
+   "spans": [
+    [
+     48,
+     71,
+     "Location"
+    ],
+    [
+     116,
+     129,
+     "Person"
+    ],
+    [
+     246,
+     257,
+     "Location"
+    ]
+   ],
+   "sec": "vorwort"
+  },
+  {
+   "id": "b3",
+   "type": "paragraph",
+   "src": 2,
+   "text": "Indem nun der Unterzeichnete die ihm angetragene Arbeit übernahm und ausführte, suchte er die Schwierigkeiten, welche zunächst in dem Wesen der Arbeit selbst, dann aber auch in dem Umstande lagen, daß für ihn das Fürstenthum Reuß j. L. kein heimathlich bekannter Boden war, dadurch soviel als möglich zu heben, daß er sich, abgesehen von den amtlichen Hilfsquellen, auf den Beistand der in das Verständniß des Landes am gründlichsten eingeweihten Männer und auf eigene, fünf Sommer hindurch fortgesetzte, Land und Leute des Fürstenthums betreffende Studien und Beobachtungen stützte. Was ihn übrigens bei dieser Arbeit belebend leitete, war nicht allein seine Liebe zu derartigen Forschungen und nicht allein der hohe, auf das Wohl des Landes gerichtete Wille eines edlen Fürsten, sondern auch der Gedanke, daß jetzt, wo das deutsche Volkswesen nach einem einheitlichen, sich genügenden bundesstaatlichen Organismus hinstrebt, mehr als jemals jeder Beitrag willkommen sein müßte, welcher den Werth zur Anschauung und Anerkennung bringt, den die einzelnen Glieder des großstaatlichen Organismus in sich tragen. Unleugbar",
+   "spans": [
+    [
+     213,
+     235,
+     "Location"
+    ],
+    [
+     524,
+     536,
+     "Location"
+    ]
+   ],
+   "continues": true,
+   "sec": "vorwort"
+  }
+ ],
+ "footnotes": [],
+ "corrections": [],
+ "provenance": {
+  "source": "gapfill-2026-10",
+  "model": "gemini-3-flash-preview",
+  "timestamp": "2026-10-01T20:18:01.119480",
+  "early_schema": false
+ },
+ "section_path": [
+  "front",
+  "titel"
+ ],
+ "sections": [
+  "vorwort"
+ ]
+}

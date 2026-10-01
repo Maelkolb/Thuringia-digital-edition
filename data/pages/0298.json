@@ -1,0 +1,2087 @@
+{
+ "seq": 298,
+ "label": "286",
+ "slug": "286",
+ "iiif": {
+  "service": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb11005578_00298",
+  "canvas": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11005578/canvas/298",
+  "width": 1636,
+  "height": 2703
+ },
+ "kind": "text",
+ "running_header": "IV. Der Staat.",
+ "signature": null,
+ "blocks": [
+  {
+   "id": "b1",
+   "type": "heading",
+   "src": 0,
+   "text": "2) Die Kreisgerichte.",
+   "spans": [
+    [
+     7,
+     20,
+     "Organisation"
+    ]
+   ],
+   "sec": "t1-4-4",
+   "level": 5
+  },
+  {
+   "id": "b2",
+   "type": "heading",
+   "src": 1,
+   "text": "a. Generalia.",
+   "spans": [],
+   "sec": "t1-4-4",
+   "level": 5
+  },
+  {
+   "id": "b3",
+   "type": "table",
+   "src": 2,
+   "n_cols": 9,
+   "header_rows": 1,
+   "rows": [
+    {
+     "role": "header",
+     "cells": [
+      {
+       "text": "Kreisgerichte.",
+       "spans": [
+        [
+         0,
+         13,
+         "Organisation"
+        ]
+       ]
+      },
+      {
+       "text": "Registranden-Nummern",
+       "spans": []
+      },
+      {
+       "text": "Sühnetermine mit Erfolg.",
+       "spans": []
+      },
+      {
+       "text": "Sühnetermine ohne Erfolg.",
+       "spans": []
+      },
+      {
+       "text": "Depoſitalbeſtand baar.",
+       "spans": []
+      },
+      {
+       "text": "Depoſitalbeſtand in Urkunden.",
+       "spans": []
+      },
+      {
+       "text": "Gefangene. Unterſuchungsgefangene",
+       "spans": []
+      },
+      {
+       "text": "Gefangene. Strafgefangene.",
+       "spans": []
+      },
+      {
+       "text": "Tage der Haft. Unterſuchungsg.",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Gera",
+       "spans": [
+        [
+         0,
+         4,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "9526",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "205",
+       "spans": []
+      },
+      {
+       "text": "310470",
+       "spans": []
+      },
+      {
+       "text": "138",
+       "spans": []
+      },
+      {
+       "text": "98",
+       "spans": []
+      },
+      {
+       "text": "1448",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Schleiz",
+       "spans": [
+        [
+         0,
+         7,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "10040",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "1670",
+       "spans": []
+      },
+      {
+       "text": "61",
+       "spans": []
+      },
+      {
+       "text": "56",
+       "spans": []
+      },
+      {
+       "text": "1996",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "total",
+     "cells": [
+      {
+       "text": "Summe 1867",
+       "spans": []
+      },
+      {
+       "text": "19566",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "205",
+       "spans": []
+      },
+      {
+       "text": "312140",
+       "spans": []
+      },
+      {
+       "text": "199",
+       "spans": []
+      },
+      {
+       "text": "154",
+       "spans": []
+      },
+      {
+       "text": "3444",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1866",
+       "spans": []
+      },
+      {
+       "text": "18907",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "2921",
+       "spans": []
+      },
+      {
+       "text": "353445",
+       "spans": []
+      },
+      {
+       "text": "171",
+       "spans": []
+      },
+      {
+       "text": "113",
+       "spans": []
+      },
+      {
+       "text": "4085",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1865",
+       "spans": []
+      },
+      {
+       "text": "19042",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "121",
+       "spans": []
+      },
+      {
+       "text": "376716",
+       "spans": []
+      },
+      {
+       "text": "159",
+       "spans": []
+      },
+      {
+       "text": "129",
+       "spans": []
+      },
+      {
+       "text": "3147",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1864",
+       "spans": []
+      },
+      {
+       "text": "18537",
+       "spans": []
+      },
+      {
+       "text": "78",
+       "spans": []
+      },
+      {
+       "text": "40",
+       "spans": []
+      },
+      {
+       "text": "79",
+       "spans": []
+      },
+      {
+       "text": "360077",
+       "spans": []
+      },
+      {
+       "text": "162",
+       "spans": []
+      },
+      {
+       "text": "109",
+       "spans": []
+      },
+      {
+       "text": "3073",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Gefangene. Tage der Haft. Strafgefangene.",
+       "spans": []
+      },
+      {
+       "text": "Amtsreviſionen.",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1777",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1446",
+       "spans": []
+      },
+      {
+       "text": "1",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "3201",
+       "spans": []
+      },
+      {
+       "text": "1",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "2892",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "2395",
+       "spans": []
+      },
+      {
+       "text": "5",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1999",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      }
+     ]
+    }
+   ],
+   "grid": [
+    [
+     "Kreisgerichte.",
+     "Registranden-Nummern",
+     "Sühnetermine mit Erfolg.",
+     "Sühnetermine ohne Erfolg.",
+     "Depoſitalbeſtand baar.",
+     "Depoſitalbeſtand in Urkunden.",
+     "Gefangene. Unterſuchungsgefangene",
+     "Gefangene. Strafgefangene.",
+     "Tage der Haft. Unterſuchungsg."
+    ],
+    [
+     "Gera",
+     "9526",
+     "—",
+     "—",
+     "205",
+     "310470",
+     "138",
+     "98",
+     "1448"
+    ],
+    [
+     "Schleiz",
+     "10040",
+     "—",
+     "—",
+     "—",
+     "1670",
+     "61",
+     "56",
+     "1996"
+    ],
+    [
+     "Summe 1867",
+     "19566",
+     "—",
+     "—",
+     "205",
+     "312140",
+     "199",
+     "154",
+     "3444"
+    ],
+    [
+     "1866",
+     "18907",
+     "—",
+     "—",
+     "2921",
+     "353445",
+     "171",
+     "113",
+     "4085"
+    ],
+    [
+     "1865",
+     "19042",
+     "—",
+     "—",
+     "121",
+     "376716",
+     "159",
+     "129",
+     "3147"
+    ],
+    [
+     "1864",
+     "18537",
+     "78",
+     "40",
+     "79",
+     "360077",
+     "162",
+     "109",
+     "3073"
+    ],
+    [
+     "Gefangene. Tage der Haft. Strafgefangene.",
+     "Amtsreviſionen.",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "1777",
+     "—",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "1446",
+     "1",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "3201",
+     "1",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "2892",
+     "—",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "2395",
+     "5",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "1999",
+     "—",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "caption": null,
+   "sec": "t1-4-4"
+  },
+  {
+   "id": "b4",
+   "type": "heading",
+   "src": 3,
+   "text": "b. Civilia.",
+   "spans": [],
+   "sec": "t1-4-4",
+   "level": 5
+  },
+  {
+   "id": "b5",
+   "type": "table",
+   "src": 4,
+   "n_cols": 16,
+   "header_rows": 1,
+   "rows": [
+    {
+     "role": "header",
+     "cells": [
+      {
+       "text": "Kreisgerichte.",
+       "spans": [
+        [
+         0,
+         13,
+         "Organisation"
+        ]
+       ]
+      },
+      {
+       "text": "Förmliche Rechtsstreitigkeiten überhaupt alt.",
+       "spans": []
+      },
+      {
+       "text": "Förmliche Rechtsstreitigkeiten überhaupt neu.",
+       "spans": []
+      },
+      {
+       "text": "erledigt durch Erkenntn. alt.",
+       "spans": []
+      },
+      {
+       "text": "erledigt durch Erkenntn. neu.",
+       "spans": []
+      },
+      {
+       "text": "erledigt durch Vergleich alt.",
+       "spans": []
+      },
+      {
+       "text": "erledigt durch Vergleich neu.",
+       "spans": []
+      },
+      {
+       "text": "unerledigt alt.",
+       "spans": []
+      },
+      {
+       "text": "unerledigt neu.",
+       "spans": []
+      },
+      {
+       "text": "Berufungen gegen Erkenntnisse der Einzelrichter. alt.",
+       "spans": []
+      },
+      {
+       "text": "Berufungen gegen Erkenntnisse der Einzelrichter. neu.",
+       "spans": []
+      },
+      {
+       "text": "Davon erledigt durch Erkenntn. bestätigt.",
+       "spans": []
+      },
+      {
+       "text": "Davon erledigt durch Erkenntn. abgeänd.",
+       "spans": []
+      },
+      {
+       "text": "Davon erledigt durch Vergl. od. Zurücknahme.",
+       "spans": []
+      },
+      {
+       "text": "Förmliche Ehescheidung.",
+       "spans": []
+      },
+      {
+       "text": "Berufungen gegen Erkenntnisse des Kreisgerichts Summe.",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Gera",
+       "spans": [
+        [
+         0,
+         4,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "107",
+       "spans": []
+      },
+      {
+       "text": "352",
+       "spans": []
+      },
+      {
+       "text": "28",
+       "spans": []
+      },
+      {
+       "text": "80",
+       "spans": []
+      },
+      {
+       "text": "51",
+       "spans": []
+      },
+      {
+       "text": "190",
+       "spans": []
+      },
+      {
+       "text": "28",
+       "spans": []
+      },
+      {
+       "text": "82",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "7",
+       "spans": []
+      },
+      {
+       "text": "3",
+       "spans": []
+      },
+      {
+       "text": "4",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "5",
+       "spans": []
+      },
+      {
+       "text": "38",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Schleiz",
+       "spans": [
+        [
+         0,
+         7,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "180",
+       "spans": []
+      },
+      {
+       "text": "386",
+       "spans": []
+      },
+      {
+       "text": "86",
+       "spans": []
+      },
+      {
+       "text": "114",
+       "spans": []
+      },
+      {
+       "text": "44",
+       "spans": []
+      },
+      {
+       "text": "156",
+       "spans": []
+      },
+      {
+       "text": "50",
+       "spans": []
+      },
+      {
+       "text": "116",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "54",
+       "spans": []
+      },
+      {
+       "text": "32",
+       "spans": []
+      },
+      {
+       "text": "21",
+       "spans": []
+      },
+      {
+       "text": "1",
+       "spans": []
+      },
+      {
+       "text": "5",
+       "spans": []
+      },
+      {
+       "text": "105",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Sme. 1867",
+       "spans": []
+      },
+      {
+       "text": "287",
+       "spans": []
+      },
+      {
+       "text": "738",
+       "spans": []
+      },
+      {
+       "text": "114",
+       "spans": []
+      },
+      {
+       "text": "194",
+       "spans": []
+      },
+      {
+       "text": "95",
+       "spans": []
+      },
+      {
+       "text": "346",
+       "spans": []
+      },
+      {
+       "text": "78",
+       "spans": []
+      },
+      {
+       "text": "198",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "61",
+       "spans": []
+      },
+      {
+       "text": "35",
+       "spans": []
+      },
+      {
+       "text": "25",
+       "spans": []
+      },
+      {
+       "text": "1",
+       "spans": []
+      },
+      {
+       "text": "10",
+       "spans": []
+      },
+      {
+       "text": "143",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1866",
+       "spans": []
+      },
+      {
+       "text": "242",
+       "spans": []
+      },
+      {
+       "text": "789",
+       "spans": []
+      },
+      {
+       "text": "106",
+       "spans": []
+      },
+      {
+       "text": "163",
+       "spans": []
+      },
+      {
+       "text": "81",
+       "spans": []
+      },
+      {
+       "text": "394",
+       "spans": []
+      },
+      {
+       "text": "55",
+       "spans": []
+      },
+      {
+       "text": "232",
+       "spans": []
+      },
+      {
+       "text": "4",
+       "spans": []
+      },
+      {
+       "text": "60",
+       "spans": []
+      },
+      {
+       "text": "31",
+       "spans": []
+      },
+      {
+       "text": "30",
+       "spans": []
+      },
+      {
+       "text": "3",
+       "spans": []
+      },
+      {
+       "text": "9",
+       "spans": []
+      },
+      {
+       "text": "153",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1865",
+       "spans": []
+      },
+      {
+       "text": "214",
+       "spans": []
+      },
+      {
+       "text": "673",
+       "spans": []
+      },
+      {
+       "text": "73",
+       "spans": []
+      },
+      {
+       "text": "159",
+       "spans": []
+      },
+      {
+       "text": "87",
+       "spans": []
+      },
+      {
+       "text": "326",
+       "spans": []
+      },
+      {
+       "text": "54",
+       "spans": []
+      },
+      {
+       "text": "188",
+       "spans": []
+      },
+      {
+       "text": "4",
+       "spans": []
+      },
+      {
+       "text": "100",
+       "spans": []
+      },
+      {
+       "text": "56",
+       "spans": []
+      },
+      {
+       "text": "38",
+       "spans": []
+      },
+      {
+       "text": "6",
+       "spans": []
+      },
+      {
+       "text": "11",
+       "spans": []
+      },
+      {
+       "text": "149",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1864",
+       "spans": []
+      },
+      {
+       "text": "321",
+       "spans": []
+      },
+      {
+       "text": "561",
+       "spans": []
+      },
+      {
+       "text": "131",
+       "spans": []
+      },
+      {
+       "text": "121",
+       "spans": []
+      },
+      {
+       "text": "133",
+       "spans": []
+      },
+      {
+       "text": "293",
+       "spans": []
+      },
+      {
+       "text": "57",
+       "spans": []
+      },
+      {
+       "text": "157",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "58",
+       "spans": []
+      },
+      {
+       "text": "26",
+       "spans": []
+      },
+      {
+       "text": "19",
+       "spans": []
+      },
+      {
+       "text": "3",
+       "spans": []
+      },
+      {
+       "text": "9",
+       "spans": []
+      },
+      {
+       "text": "116",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Berufungen gegen Erkenntnisse des Kreisgerichts erledigt durch Erkenntniß bestätigt.",
+       "spans": []
+      },
+      {
+       "text": "Berufungen gegen Erkenntnisse des Kreisgerichts erledigt durch Erkenntniß abgeändert.",
+       "spans": []
+      },
+      {
+       "text": "Berufungen gegen Erkenntnisse des Kreisgerichts Zurücknahme.",
+       "spans": []
+      },
+      {
+       "text": "Concurse bei den Kreisgerichten.",
+       "spans": [
+        [
+         17,
+         31,
+         "Organisation"
+        ]
+       ]
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "15",
+       "spans": []
+      },
+      {
+       "text": "11",
+       "spans": []
+      },
+      {
+       "text": "7",
+       "spans": []
+      },
+      {
+       "text": "14",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "43",
+       "spans": []
+      },
+      {
+       "text": "17",
+       "spans": []
+      },
+      {
+       "text": "12",
+       "spans": []
+      },
+      {
+       "text": "18",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "58",
+       "spans": []
+      },
+      {
+       "text": "28",
+       "spans": []
+      },
+      {
+       "text": "19",
+       "spans": []
+      },
+      {
+       "text": "32",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "69",
+       "spans": []
+      },
+      {
+       "text": "41",
+       "spans": []
+      },
+      {
+       "text": "23",
+       "spans": []
+      },
+      {
+       "text": "8",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "71",
+       "spans": []
+      },
+      {
+       "text": "37",
+       "spans": []
+      },
+      {
+       "text": "14",
+       "spans": []
+      },
+      {
+       "text": "5",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "51",
+       "spans": []
+      },
+      {
+       "text": "30",
+       "spans": []
+      },
+      {
+       "text": "10",
+       "spans": []
+      },
+      {
+       "text": "10",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      }
+     ]
+    }
+   ],
+   "grid": [
+    [
+     "Kreisgerichte.",
+     "Förmliche Rechtsstreitigkeiten überhaupt alt.",
+     "Förmliche Rechtsstreitigkeiten überhaupt neu.",
+     "erledigt durch Erkenntn. alt.",
+     "erledigt durch Erkenntn. neu.",
+     "erledigt durch Vergleich alt.",
+     "erledigt durch Vergleich neu.",
+     "unerledigt alt.",
+     "unerledigt neu.",
+     "Berufungen gegen Erkenntnisse der Einzelrichter. alt.",
+     "Berufungen gegen Erkenntnisse der Einzelrichter. neu.",
+     "Davon erledigt durch Erkenntn. bestätigt.",
+     "Davon erledigt durch Erkenntn. abgeänd.",
+     "Davon erledigt durch Vergl. od. Zurücknahme.",
+     "Förmliche Ehescheidung.",
+     "Berufungen gegen Erkenntnisse des Kreisgerichts Summe."
+    ],
+    [
+     "Gera",
+     "107",
+     "352",
+     "28",
+     "80",
+     "51",
+     "190",
+     "28",
+     "82",
+     "—",
+     "7",
+     "3",
+     "4",
+     "—",
+     "5",
+     "38"
+    ],
+    [
+     "Schleiz",
+     "180",
+     "386",
+     "86",
+     "114",
+     "44",
+     "156",
+     "50",
+     "116",
+     "—",
+     "54",
+     "32",
+     "21",
+     "1",
+     "5",
+     "105"
+    ],
+    [
+     "Sme. 1867",
+     "287",
+     "738",
+     "114",
+     "194",
+     "95",
+     "346",
+     "78",
+     "198",
+     "—",
+     "61",
+     "35",
+     "25",
+     "1",
+     "10",
+     "143"
+    ],
+    [
+     "1866",
+     "242",
+     "789",
+     "106",
+     "163",
+     "81",
+     "394",
+     "55",
+     "232",
+     "4",
+     "60",
+     "31",
+     "30",
+     "3",
+     "9",
+     "153"
+    ],
+    [
+     "1865",
+     "214",
+     "673",
+     "73",
+     "159",
+     "87",
+     "326",
+     "54",
+     "188",
+     "4",
+     "100",
+     "56",
+     "38",
+     "6",
+     "11",
+     "149"
+    ],
+    [
+     "1864",
+     "321",
+     "561",
+     "131",
+     "121",
+     "133",
+     "293",
+     "57",
+     "157",
+     "—",
+     "58",
+     "26",
+     "19",
+     "3",
+     "9",
+     "116"
+    ],
+    [
+     "Berufungen gegen Erkenntnisse des Kreisgerichts erledigt durch Erkenntniß bestätigt.",
+     "Berufungen gegen Erkenntnisse des Kreisgerichts erledigt durch Erkenntniß abgeändert.",
+     "Berufungen gegen Erkenntnisse des Kreisgerichts Zurücknahme.",
+     "Concurse bei den Kreisgerichten.",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "15",
+     "11",
+     "7",
+     "14",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "43",
+     "17",
+     "12",
+     "18",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "58",
+     "28",
+     "19",
+     "32",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "69",
+     "41",
+     "23",
+     "8",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "71",
+     "37",
+     "14",
+     "5",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "51",
+     "30",
+     "10",
+     "10",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "caption": null,
+   "sec": "t1-4-4"
+  },
+  {
+   "id": "b6",
+   "type": "paragraph",
+   "src": 5,
+   "text": "Von Nichtigkeitsbeschwerden gegen Erkenntnisse der Einzelgerichte kam nur eine im Jahre 1865 vor.",
+   "spans": [],
+   "sec": "t1-4-4"
+  }
+ ],
+ "footnotes": [],
+ "corrections": [],
+ "provenance": {
+  "source": "colab-2026-03",
+  "model": "gemini-3-flash-preview",
+  "timestamp": "2026-03-04T13:41:09.387383",
+  "early_schema": false
+ },
+ "section_path": [
+  "t1",
+  "t1-4",
+  "t1-4-4"
+ ],
+ "sections": [
+  "t1-4-4"
+ ]
+}

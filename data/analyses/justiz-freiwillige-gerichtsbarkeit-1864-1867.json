@@ -1,0 +1,835 @@
+{
+ "id": "justiz-freiwillige-gerichtsbarkeit-1864-1867",
+ "title": {
+  "de": "Freiwillige Gerichtsbarkeit der Justizämter 1864–1867: Eigentumsübertragungen, Pfandbestellungen, Vormundschaften, Nachlässe",
+  "en": "Non-contentious jurisdiction of the Justizämter, 1864–1867: conveyances, mortgages, guardianships, estates"
+ },
+ "category": "justice",
+ "section": "t1-4-4",
+ "sources": [
+  {
+   "page": "285",
+   "block": "b2",
+   "rows": "r4-r15"
+  },
+  {
+   "page": "285",
+   "block": "b3"
+  }
+ ],
+ "summary": {
+  "de": "Neben den Prozessen führten die Justizämter die »nichtstreitige Gerichtsbarkeit«: Eigentumsübertragungen (Uebereignungen) und Pfandbestellungen im Grund- und Hypothekenwesen, Vormundschaften und Nachlassregulierungen. Brückner gibt die Zahlen für die acht Gerichtsabteilungen und die Jahre 1864–1867. Die Auswertung zeigt, wie Hypotheken und Nachlässe schneller zunahmen als Eigentumswechsel und wie sich die Geschäfte auf die Gerichte verteilen.",
+  "en": "Besides lawsuits the Justizämter handled “non-contentious jurisdiction”: conveyances of property and mortgage registrations in the land and mortgage registry, guardianships and estate settlements. Brückner gives the figures for the eight court divisions and the years 1864–1867. The analysis shows how mortgages and estates grew faster than changes of ownership and how the business is distributed among the courts."
+ },
+ "method": {
+  "de": "Quelle ist die Tabelle »Nichtstreitige Gerichtsbarkeit« (S. 285, b2). Jede Zelle der Spalten Nachlassregulierung (alt/neu) ist im Transkript als »32 117« zusammengefasst und wurde getrennt. Die Jahresreihe nutzt die Zeilen Summe 1867, 1866, 1865, 1864; die Verteilung auf Gerichte bezieht sich auf 1867. »neu« = im Jahr neu eingegangene Nummern, »alt« = aus Vorjahren übernommene. Das Verhältnis Pfandbestellungen : Uebereignungen ist abgeleitet.",
+  "en": "The source is the table “Nichtstreitige Gerichtsbarkeit” (p. 285, b2). In the transcript the cells of the estate-settlement columns (old/new) are fused as “32 117” and were separated. The yearly series uses the rows Summe 1867, 1866, 1865, 1864; the distribution among the courts refers to 1867. “new” = numbers received in the year, “old” = carried over from earlier years. The ratio of mortgage registrations to conveyances is derived."
+ },
+ "findings": [
+  {
+   "de": "Von 1864 bis 1867 nahmen die neuen Pfandbestellungen um 32,5 % zu (1.016 auf 1.346), die neuen Nachlassregulierungen um 45,3 % (309 auf 449), die neuen Eigentumsübertragungen nur um 13,5 % (1.195 auf 1.356).",
+   "en": "From 1864 to 1867 new mortgage registrations rose by 32.5 % (1,016 to 1,346), new estate settlements by 45.3 % (309 to 449), new conveyances by only 13.5 % (1,195 to 1,356)."
+  },
+  {
+   "de": "1867 kamen auf 100 neue Eigentumsübertragungen 99 neue Pfandbestellungen (1864: 85). Der Quotient reicht 1867 von 0,64 (Schleiz I) bis 1,56 (Gera I).",
+   "en": "In 1867 there were 99 new mortgage registrations per 100 new conveyances (1864: 85). The ratio ranges in 1867 from 0.64 (Schleiz I) to 1.56 (Gera I)."
+  },
+  {
+   "de": "Die beiden geraer Justizämter führen 26,5 % der Eigentumsübertragungen und 31,6 % der Pfandbestellungen des Landes.",
+   "en": "The two Gera Justizämter handle 26.5 % of the conveyances and 31.6 % of the mortgage registrations of the country."
+  },
+  {
+   "de": "Vormundschaften: 1867 3.858 (davon nur 190 mit Verwaltung), 1864 3.691; die Zahl wuchs um 4,5 %.",
+   "en": "Guardianships: 3,858 in 1867 (only 190 of them with administration), 3,691 in 1864; the number grew by 4.5 %."
+  }
+ ],
+ "caveats": [
+  {
+   "de": "Brückner erklärt die Spalten nicht näher. »Vormundschaft mit/ohne Verwaltung« wird hier als Zahl der laufenden Vormundschaften gelesen (nicht als Neueingänge); das ergibt sich aus der Größenordnung (3.668 gegenüber 449 neuen Nachlassfällen), ist aber eine Deutung.",
+   "en": "Brückner does not explain the columns. “Guardianship with/without administration” is read here as the number of ongoing guardianships (not new receipts); this follows from the order of magnitude (3,668 against 449 new estate cases) but is an interpretation."
+  },
+  {
+   "de": "Nach der Anmerkung der Tabelle kamen Reste vorjähriger Nummern bei den Pfandbestellungen in keinem Jahr vor; die Spalte »Rest« betrifft daher nur neue Nummern. Einwohnerzahlen je Gerichtsbezirk fehlen, daher sind keine Pro-Kopf-Raten möglich.",
+   "en": "According to the table's note, remainders of earlier numbers never occurred for the mortgage registrations; the “remainder” column therefore refers to new numbers only. Population figures per court district are missing, so no per-capita rates are possible."
+  }
+ ],
+ "datasets": [
+  {
+   "name": "series",
+   "title": {
+    "de": "Neue Fälle der nichtstreitigen Gerichtsbarkeit je Jahr",
+    "en": "New non-contentious cases per year"
+   },
+   "columns": [
+    {
+     "name": "year",
+     "label": {
+      "de": "Jahr",
+      "en": "Year"
+     },
+     "type": "integer",
+     "unit": null
+    },
+    {
+     "name": "measure_key",
+     "label": {
+      "de": "Kürzel",
+      "en": "Key"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "measure_de",
+     "label": {
+      "de": "Messgröße",
+      "en": "Measure"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "measure_en",
+     "label": {
+      "de": "Messgröße (englisch)",
+      "en": "Measure (English)"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "cases",
+     "label": {
+      "de": "Anzahl neuer Nummern",
+      "en": "Number of new cases"
+     },
+     "type": "integer",
+     "unit": "Fälle"
+    }
+   ],
+   "rows": [
+    [
+     1864,
+     "a",
+     "Übereignungen (neu)",
+     "Conveyances (new)",
+     1195
+    ],
+    [
+     1864,
+     "b",
+     "Pfandbestellungen (neu)",
+     "Mortgage registrations (new)",
+     1016
+    ],
+    [
+     1864,
+     "c",
+     "Nachlassregulierungen (neu)",
+     "Estate settlements (new)",
+     309
+    ],
+    [
+     1865,
+     "a",
+     "Übereignungen (neu)",
+     "Conveyances (new)",
+     1111
+    ],
+    [
+     1865,
+     "b",
+     "Pfandbestellungen (neu)",
+     "Mortgage registrations (new)",
+     951
+    ],
+    [
+     1865,
+     "c",
+     "Nachlassregulierungen (neu)",
+     "Estate settlements (new)",
+     451
+    ],
+    [
+     1866,
+     "a",
+     "Übereignungen (neu)",
+     "Conveyances (new)",
+     1451
+    ],
+    [
+     1866,
+     "b",
+     "Pfandbestellungen (neu)",
+     "Mortgage registrations (new)",
+     1125
+    ],
+    [
+     1866,
+     "c",
+     "Nachlassregulierungen (neu)",
+     "Estate settlements (new)",
+     416
+    ],
+    [
+     1867,
+     "a",
+     "Übereignungen (neu)",
+     "Conveyances (new)",
+     1356
+    ],
+    [
+     1867,
+     "b",
+     "Pfandbestellungen (neu)",
+     "Mortgage registrations (new)",
+     1346
+    ],
+    [
+     1867,
+     "c",
+     "Nachlassregulierungen (neu)",
+     "Estate settlements (new)",
+     449
+    ]
+   ],
+   "source_refs": [
+    {
+     "page": "285",
+     "block": "b2",
+     "rows": "r12-r15"
+    }
+   ]
+  },
+  {
+   "name": "land",
+   "title": {
+    "de": "Eigentumsübertragungen und Pfandbestellungen nach Gericht, 1867",
+    "en": "Conveyances and mortgage registrations by court, 1867"
+   },
+   "columns": [
+    {
+     "name": "court",
+     "label": {
+      "de": "Gericht",
+      "en": "Court"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "measure_key",
+     "label": {
+      "de": "Kürzel",
+      "en": "Key"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "measure_de",
+     "label": {
+      "de": "Messgröße",
+      "en": "Measure"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "measure_en",
+     "label": {
+      "de": "Messgröße (englisch)",
+      "en": "Measure (English)"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "cases",
+     "label": {
+      "de": "Anzahl neuer Nummern",
+      "en": "Number of new cases"
+     },
+     "type": "integer",
+     "unit": "Fälle"
+    }
+   ],
+   "rows": [
+    [
+     "Gera I",
+     "a",
+     "Übereignungen (neu)",
+     "Conveyances (new)",
+     124
+    ],
+    [
+     "Gera I",
+     "b",
+     "Pfandbestellungen (neu)",
+     "Mortgage registrations (new)",
+     193
+    ],
+    [
+     "Gera II",
+     "a",
+     "Übereignungen (neu)",
+     "Conveyances (new)",
+     235
+    ],
+    [
+     "Gera II",
+     "b",
+     "Pfandbestellungen (neu)",
+     "Mortgage registrations (new)",
+     233
+    ],
+    [
+     "Hirschberg",
+     "a",
+     "Übereignungen (neu)",
+     "Conveyances (new)",
+     141
+    ],
+    [
+     "Hirschberg",
+     "b",
+     "Pfandbestellungen (neu)",
+     "Mortgage registrations (new)",
+     111
+    ],
+    [
+     "Hohenleuben",
+     "a",
+     "Übereignungen (neu)",
+     "Conveyances (new)",
+     120
+    ],
+    [
+     "Hohenleuben",
+     "b",
+     "Pfandbestellungen (neu)",
+     "Mortgage registrations (new)",
+     151
+    ],
+    [
+     "Lobenstein I",
+     "a",
+     "Übereignungen (neu)",
+     "Conveyances (new)",
+     224
+    ],
+    [
+     "Lobenstein I",
+     "b",
+     "Pfandbestellungen (neu)",
+     "Mortgage registrations (new)",
+     202
+    ],
+    [
+     "Lobenstein II",
+     "a",
+     "Übereignungen (neu)",
+     "Conveyances (new)",
+     127
+    ],
+    [
+     "Lobenstein II",
+     "b",
+     "Pfandbestellungen (neu)",
+     "Mortgage registrations (new)",
+     178
+    ],
+    [
+     "Schleiz I",
+     "a",
+     "Übereignungen (neu)",
+     "Conveyances (new)",
+     232
+    ],
+    [
+     "Schleiz I",
+     "b",
+     "Pfandbestellungen (neu)",
+     "Mortgage registrations (new)",
+     149
+    ],
+    [
+     "Schleiz II",
+     "a",
+     "Übereignungen (neu)",
+     "Conveyances (new)",
+     153
+    ],
+    [
+     "Schleiz II",
+     "b",
+     "Pfandbestellungen (neu)",
+     "Mortgage registrations (new)",
+     129
+    ]
+   ],
+   "source_refs": [
+    {
+     "page": "285",
+     "block": "b2",
+     "rows": "r4-r11"
+    }
+   ]
+  },
+  {
+   "name": "guardianship",
+   "title": {
+    "de": "Vormundschaften nach Gericht, 1867",
+    "en": "Guardianships by court, 1867"
+   },
+   "columns": [
+    {
+     "name": "court",
+     "label": {
+      "de": "Gericht",
+      "en": "Court"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "kind_key",
+     "label": {
+      "de": "Kürzel",
+      "en": "Key"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "kind_de",
+     "label": {
+      "de": "Art",
+      "en": "Kind"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "kind_en",
+     "label": {
+      "de": "Art (englisch)",
+      "en": "Kind (English)"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "cases",
+     "label": {
+      "de": "Vormundschaften",
+      "en": "Guardianships"
+     },
+     "type": "integer",
+     "unit": "Fälle"
+    }
+   ],
+   "rows": [
+    [
+     "Gera I",
+     "a",
+     "Mit Verwaltung",
+     "With administration",
+     39
+    ],
+    [
+     "Gera I",
+     "b",
+     "Ohne Verwaltung",
+     "Without administration",
+     620
+    ],
+    [
+     "Gera II",
+     "a",
+     "Mit Verwaltung",
+     "With administration",
+     30
+    ],
+    [
+     "Gera II",
+     "b",
+     "Ohne Verwaltung",
+     "Without administration",
+     763
+    ],
+    [
+     "Hirschberg",
+     "a",
+     "Mit Verwaltung",
+     "With administration",
+     7
+    ],
+    [
+     "Hirschberg",
+     "b",
+     "Ohne Verwaltung",
+     "Without administration",
+     380
+    ],
+    [
+     "Hohenleuben",
+     "a",
+     "Mit Verwaltung",
+     "With administration",
+     53
+    ],
+    [
+     "Hohenleuben",
+     "b",
+     "Ohne Verwaltung",
+     "Without administration",
+     322
+    ],
+    [
+     "Lobenstein I",
+     "a",
+     "Mit Verwaltung",
+     "With administration",
+     9
+    ],
+    [
+     "Lobenstein I",
+     "b",
+     "Ohne Verwaltung",
+     "Without administration",
+     497
+    ],
+    [
+     "Lobenstein II",
+     "a",
+     "Mit Verwaltung",
+     "With administration",
+     3
+    ],
+    [
+     "Lobenstein II",
+     "b",
+     "Ohne Verwaltung",
+     "Without administration",
+     316
+    ],
+    [
+     "Schleiz I",
+     "a",
+     "Mit Verwaltung",
+     "With administration",
+     30
+    ],
+    [
+     "Schleiz I",
+     "b",
+     "Ohne Verwaltung",
+     "Without administration",
+     486
+    ],
+    [
+     "Schleiz II",
+     "a",
+     "Mit Verwaltung",
+     "With administration",
+     19
+    ],
+    [
+     "Schleiz II",
+     "b",
+     "Ohne Verwaltung",
+     "Without administration",
+     284
+    ]
+   ],
+   "source_refs": [
+    {
+     "page": "285",
+     "block": "b2",
+     "rows": "r4-r11"
+    }
+   ]
+  }
+ ],
+ "charts": [
+  {
+   "id": "c1",
+   "dataset": "series",
+   "title": {
+    "de": "Neue Fälle der nichtstreitigen Gerichtsbarkeit",
+    "en": "New non-contentious cases"
+   },
+   "caption": {
+    "de": "Alle Justizämter, neue Nummern je Jahr. Pfandbestellungen und Nachlassregulierungen wachsen schneller als Eigentumsübertragungen.",
+    "en": "All Justizämter, new numbers per year. Mortgage registrations and estate settlements grow faster than conveyances."
+   },
+   "vegalite": {
+    "height": 280,
+    "mark": {
+     "type": "line",
+     "point": true
+    },
+    "encoding": {
+     "x": {
+      "field": "year",
+      "type": "ordinal",
+      "title": {
+       "de": "Jahr",
+       "en": "Year"
+      },
+      "axis": {
+       "labelAngle": 0
+      }
+     },
+     "y": {
+      "field": "cases",
+      "type": "quantitative",
+      "title": {
+       "de": "Fälle",
+       "en": "Cases"
+      },
+      "scale": {
+       "zero": true
+      }
+     },
+     "color": {
+      "field": {
+       "de": "measure_de",
+       "en": "measure_en"
+      },
+      "type": "nominal",
+      "title": null,
+      "sort": {
+       "field": "measure_key",
+       "op": "min"
+      },
+      "legend": {
+       "labelLimit": 400
+      }
+     },
+     "tooltip": [
+      {
+       "field": "year",
+       "title": {
+        "de": "Jahr",
+        "en": "Year"
+       }
+      },
+      {
+       "field": {
+        "de": "measure_de",
+        "en": "measure_en"
+       },
+       "title": {
+        "de": "Messgröße",
+        "en": "Measure"
+       }
+      },
+      {
+       "field": "cases",
+       "title": {
+        "de": "Fälle",
+        "en": "Cases"
+       }
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "c2",
+   "dataset": "land",
+   "title": {
+    "de": "Eigentumsübertragungen und Pfandbestellungen nach Gericht, 1867",
+    "en": "Conveyances and mortgage registrations by court, 1867"
+   },
+   "caption": {
+    "de": "Neue Nummern 1867. Die geraer Justizämter führen die meisten Geschäfte; in Gera I (1,56 Pfandbestellungen je Übertragung) überwiegen die Pfandbestellungen deutlich, in Schleiz I (0,64) die Eigentumsübertragungen.",
+    "en": "New numbers in 1867. The Gera Justizämter handle the most business; in Gera I (1.56 mortgage registrations per conveyance) mortgages clearly predominate, in Schleiz I (0.64) conveyances do."
+   },
+   "vegalite": {
+    "height": 300,
+    "mark": "bar",
+    "encoding": {
+     "y": {
+      "field": "court",
+      "type": "nominal",
+      "title": null,
+      "sort": {
+       "field": "cases",
+       "op": "sum",
+       "order": "descending"
+      }
+     },
+     "yOffset": {
+      "field": {
+       "de": "measure_de",
+       "en": "measure_en"
+      },
+      "sort": {
+       "field": "measure_key",
+       "op": "min"
+      }
+     },
+     "x": {
+      "field": "cases",
+      "type": "quantitative",
+      "title": {
+       "de": "Fälle",
+       "en": "Cases"
+      }
+     },
+     "color": {
+      "field": {
+       "de": "measure_de",
+       "en": "measure_en"
+      },
+      "type": "nominal",
+      "title": null,
+      "sort": {
+       "field": "measure_key",
+       "op": "min"
+      },
+      "legend": {
+       "labelLimit": 400
+      }
+     },
+     "tooltip": [
+      {
+       "field": "court",
+       "title": {
+        "de": "Gericht",
+        "en": "Court"
+       }
+      },
+      {
+       "field": {
+        "de": "measure_de",
+        "en": "measure_en"
+       },
+       "title": {
+        "de": "Messgröße",
+        "en": "Measure"
+       }
+      },
+      {
+       "field": "cases",
+       "title": {
+        "de": "Fälle",
+        "en": "Cases"
+       }
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "c3",
+   "dataset": "guardianship",
+   "title": {
+    "de": "Vormundschaften nach Gericht, 1867",
+    "en": "Guardianships by court, 1867"
+   },
+   "caption": {
+    "de": "Zahl der Vormundschaften; ganz überwiegend ohne Verwaltung des Mündelvermögens durch das Gericht. Hohenleuben hat mit 53 von 375 den höchsten Anteil mit Verwaltung.",
+    "en": "Number of guardianships; the vast majority without administration of the ward's property by the court. Hohenleuben has the highest share with administration (53 of 375)."
+   },
+   "vegalite": {
+    "height": 300,
+    "mark": "bar",
+    "encoding": {
+     "y": {
+      "field": "court",
+      "type": "nominal",
+      "title": null,
+      "sort": {
+       "field": "cases",
+       "op": "sum",
+       "order": "descending"
+      }
+     },
+     "x": {
+      "field": "cases",
+      "type": "quantitative",
+      "title": {
+       "de": "Vormundschaften",
+       "en": "Guardianships"
+      },
+      "stack": "zero"
+     },
+     "color": {
+      "field": {
+       "de": "kind_de",
+       "en": "kind_en"
+      },
+      "type": "nominal",
+      "title": null,
+      "sort": {
+       "field": "kind_key",
+       "op": "min"
+      },
+      "legend": {
+       "labelLimit": 400
+      }
+     },
+     "order": {
+      "field": "kind_key",
+      "type": "nominal",
+      "sort": "descending"
+     },
+     "tooltip": [
+      {
+       "field": "court",
+       "title": {
+        "de": "Gericht",
+        "en": "Court"
+       }
+      },
+      {
+       "field": {
+        "de": "kind_de",
+        "en": "kind_en"
+       },
+       "title": {
+        "de": "Art",
+        "en": "Kind"
+       }
+      },
+      {
+       "field": "cases",
+       "title": {
+        "de": "Fälle",
+        "en": "Cases"
+       }
+      }
+     ]
+    }
+   }
+  }
+ ],
+ "keywords": {
+  "de": [
+   "Nichtstreitige Gerichtsbarkeit",
+   "Freiwillige Gerichtsbarkeit",
+   "Uebereignungen",
+   "Pfandbestellungen",
+   "Hypotheken",
+   "Vormundschaft",
+   "Nachlass",
+   "Grundbuch",
+   "Justizamt"
+  ],
+  "en": [
+   "non-contentious jurisdiction",
+   "conveyance",
+   "mortgage",
+   "guardianship",
+   "estate",
+   "land registry",
+   "Justizamt"
+  ]
+ },
+ "generated_by": "Claude Sonnet 5.5 (subagent A11)",
+ "date": "2026-10-01"
+}

@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block title %}Nicht gefunden – {{ site.short_title }}{% endblock %}
+{% block main %}
+<div class="wrap prose" style="padding:60px 20px">
+  <h1>{{ t('Seite nicht gefunden', 'Page not found') }}</h1>
+  <p>{{ t('Diese Adresse gibt es nicht (mehr). Vielleicht hilft die Suche oder das Inhaltsverzeichnis weiter.', 'This address does not exist. The search or the table of contents may help.') }}</p>
+  <p><a class="btn primary" href="{{ site.base_url or '/' }}suche.html">{{ t('Zur Suche', 'Search') }}</a> <a class="btn" href="{{ site.base_url or '/' }}inhalt.html">{{ t('Inhalt', 'Contents') }}</a></p>
+</div>
+{% endblock %}

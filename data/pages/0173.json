@@ -1,0 +1,133 @@
+{
+ "seq": 173,
+ "label": "161",
+ "slug": "161",
+ "iiif": {
+  "service": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb11005578_00173",
+  "canvas": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11005578/canvas/173",
+  "width": 1606,
+  "height": 2702
+ },
+ "kind": "text",
+ "running_header": "5. Gestalt und Character.",
+ "signature": "11",
+ "blocks": [
+  {
+   "id": "b1",
+   "type": "paragraph",
+   "src": 0,
+   "text": "Eine höchst denkwürdige Eigenthümlichkeit der Volksküche ist zum Schlusse dieser darauf bezüglichen Betrachtung aufgespart. Es hat nämlich das Volk eine Speiseordnung mit gebundenen und ungebundenen Tagen. Zeigt sich nun auch dasselbe der Aufnahme neuer Genüsse, wie dies mit dem Kaffee, den Kartoffeln und dem Tabak der Fall ist, nicht abhold, so fügt es doch alles Neue entweder in die Reihe der gebundenen oder der frei gegebenen Tage, von denen jene zum Theil uralte Feierzeiten durchblicken lassen. Wie an den Sonn- und hohen Festtagen Klöße mit Fleisch, bei Hochzeiten Reisbrei, Klöße mit Braten und Sauerkraut, zur Kirmse Reissuppe, Kraut mit Wurst, Braten mit Rosinbrühe und überdies an allen diesen Festtagen die entsprechenden Kuchen und insbesondere zu Weihnachten die Stollen und Pfefferkuchen nicht fehlen dürfen, so haben noch besondere Tage und Arbeiten nach altem, meist aus heidnischer Zeit stammendem Brauche ihren besonderen überall gültigen Küchenzettel. Nach eben diesem Herkommen soll man am Werre- oder Holla-Abend Polse (Pulse), ein aus Mehl, zum Theil auch aus Kartoffeln bereitetes und in Butter geschmortes Gericht, auftischen, um nicht von der Werre mit Aufreißung des Leibes bestraft zu werden; an allen Vorabenden der hohen Feste, namentlich am heiligen Weihnachtsabend, muß Häring, und zwar rogener, mit Aepfelsalat oder Hirsenmuß, am Neujahrstage Hirsenbrei, zur Fastnacht Sauerkraut mit Wurst und daneben Pfannkuchen oder Kräpfelgebäck gegessen werden, wenn nicht das Geld im Jahre ausgehen soll; zu Lichtmeß hat man die große Wurst (Säusack), am grünen Donnerstage hat man Grünes, insbesondere Kohl oder Spinat mit Eiern, am Charfreitage Stockfisch, zu Ostern den Osterfladen (Quarkkuchen), am ersten Pfingsttage den großen Schinken, zu Himmelfahrt Semmelmilch, Martini eine Gans auf den Tisch zu bringen und zu opfern. Ebenso erfordert das am Schlachtfeste von der Sippschaft des Schlachtherrn gefeierte Schlachtmahl, das zur Erinnerung an das altheidnische Juelfest Krumm- oder Eisbein genannt wird, Kesselbrühsuppe, Klöße mit Meerrettig, Schweinsknöchel mit Sauerkraut und Blutwurst mit Sellerie, die Fastenzeit ihre Brezeln, der Geburtstag große Ringbrezeln mit einer den erreichten Jahren gleichen Anzahl kleiner Lichter, der Jahrmarkt seine Pfeffernüssel und das Vogelschießen Bratwurst mit Gurkensalat und neuen Kartoffeln. Auch für die Arbeiter stehen die Gerichte fest, die ihnen in den verschiedenen Stadien der Arbeit und am Schlusse in der Henkersmahlzeit zu reichen sind. Wenn nun auch dieser alte Küchenzettel in den Städten nach mehreren Seiten hin verblaßt ist, so doch nicht auf dem Lande, in dessen einfache Häuslichkeit und bescheidene Alltagskost er heitere Stimmung und höhere Tafelfreuden bringt.",
+   "spans": [
+    [
+     280,
+     286,
+     "Plant"
+    ],
+    [
+     292,
+     302,
+     "Plant"
+    ],
+    [
+     311,
+     316,
+     "Plant"
+    ],
+    [
+     1061,
+     1065,
+     "Resource"
+    ],
+    [
+     1086,
+     1096,
+     "Plant"
+    ],
+    [
+     1115,
+     1121,
+     "Resource"
+    ],
+    [
+     1305,
+     1311,
+     "Animal"
+    ],
+    [
+     1628,
+     1632,
+     "Plant"
+    ],
+    [
+     1638,
+     1644,
+     "Plant"
+    ],
+    [
+     1809,
+     1813,
+     "Animal"
+    ],
+    [
+     2063,
+     2073,
+     "Plant"
+    ],
+    [
+     2124,
+     2132,
+     "Plant"
+    ],
+    [
+     2353,
+     2363,
+     "Plant"
+    ]
+   ],
+   "sec": "t1-2-4"
+  },
+  {
+   "id": "b2",
+   "type": "heading",
+   "src": 1,
+   "text": "5. Gestalt und Character.",
+   "spans": [],
+   "opens": [
+    "t1-2-5"
+   ],
+   "sec": "t1-2-5",
+   "level": 4
+  },
+  {
+   "id": "b3",
+   "type": "paragraph",
+   "src": 2,
+   "text": "Der Volksstamm im Unterlande und im Oberlande zeigt sich in Gestalt, Character, Sitte, Glaube und Sage vorherrschend von deutschem Gusse. Das sorbische Volkselement ist wie in der Sprache, so nach diesen Seiten fast durchaus von dem Germanen aufgesaugt und verarbeitet. Reicher, nicht armer Kindersegen, blonde, nicht dunkle Kinderköpfe, derbstarke, aber keine scharf hervortretende Backenknochen, mittelgroße und mittelliegende, keineswegs kleine und tiefsteckende Augen, nicht üppigere Formen bei Frauen und schmächtigere bei Männern",
+   "spans": [],
+   "continues": true,
+   "sec": "t1-2-5"
+  }
+ ],
+ "footnotes": [],
+ "corrections": [
+  {
+   "rule": "signature_from_paragraph",
+   "value": "11"
+  }
+ ],
+ "provenance": {
+  "source": "colab-2026-03",
+  "model": "gemini-3-flash-preview",
+  "timestamp": "2026-03-03T15:32:01.200678",
+  "early_schema": false
+ },
+ "section_path": [
+  "t1",
+  "t1-2",
+  "t1-2-4"
+ ],
+ "sections": [
+  "t1-2-4",
+  "t1-2-5"
+ ]
+}

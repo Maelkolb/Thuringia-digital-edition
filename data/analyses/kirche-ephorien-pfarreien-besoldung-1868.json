@@ -1,0 +1,804 @@
+{
+ "id": "kirche-ephorien-pfarreien-besoldung-1868",
+ "title": {
+  "de": "Kirchenorganisation 1868: Ephorien, Kirchen, Geistliche und Pfarrbesoldung",
+  "en": "Church organisation in 1868: ephories, churches, clergy and pastors' pay"
+ },
+ "category": "church",
+ "section": "t1-4-5",
+ "sources": [
+  {
+   "page": "294",
+   "block": "b2",
+   "rows": "r2-r7"
+  },
+  {
+   "page": "294",
+   "block": "b6",
+   "rows": "r2-t5"
+  },
+  {
+   "page": "294",
+   "block": "b7"
+  },
+  {
+   "page": "297",
+   "block": "b3"
+  }
+ ],
+ "summary": {
+  "de": "Das Fürstentum gliederte sich kirchlich in drei Ephorien (Gera, Schleiz, Lobenstein) mit zusammen 45 Parochien, 102 Kirchen und 68 Geistlichen. Brückner ordnet außerdem 59 Pfarrstellen in Gehaltsklassen von 400 bis über 1000 Thalern. Die Auswertung zeigt die Unterschiede zwischen den Ephorien und die Verteilung der Besoldung.",
+  "en": "Ecclesiastically the principality was divided into three ephories (Gera, Schleiz, Lobenstein) with 45 parishes, 102 churches and 68 clergy in total. Brückner also arranges 59 pastoral posts in salary classes from 400 to over 1,000 Thaler. The analysis shows the differences between the ephories and the distribution of pay."
+ },
+ "method": {
+  "de": "Die Zahlen der Ephorien stammen aus der Tabelle S. 294 (b6), die Gehaltsklassen aus der Tabelle S. 294 (b2, die Zeilen nennen die Zahl der Pfarreien einschließlich Diaconen und Ephoren). Die Zahl der Pfarrer je Klasse = Pfarreien − Diaconen − Ephoren (abgeleitet). Für den Mittelwert wurden Klassenmitten verwendet (450, 550, 650, 750, 900) und die offene oberste Klasse mit 1000 angesetzt; der Wert ist daher eine Untergrenze. Brückners Verhältniszahlen (1955 Seelen je Parochie usw.) sind im Datensatz ratios wiedergegeben; die daraus folgende Einwohnerzahl ist abgeleitet. Vergleichswert: gesetzliche Mindestbesoldung eines Landlehrers 180 Thaler (S. 297).",
+  "en": "The ephory figures come from the table on p. 294 (b6), the salary classes from the table on p. 294 (b2; the rows give the number of pastorates including deacons and ephors). Number of pastors per class = pastorates − deacons − ephors (derived). For the mean, class midpoints were used (450, 550, 650, 750, 900) and the open top class set at 1,000, so the value is a lower bound. Brückner's ratios (1,955 souls per parish etc.) are reproduced in the dataset ratios; the population they imply is derived. Comparison: the legal minimum pay of a village teacher is 180 Thaler (p. 297)."
+ },
+ "findings": [
+  {
+   "de": "Gera hat mit 3,1 Kirchen je Parochie die meisten Kirchen pro Kirchspiel, Schleiz (1,8) und Lobenstein (2,0) haben deutlich weniger; Schleiz zählt mit 27 die meisten Geistlichen bei nur 36 Kirchen.",
+   "en": "Gera, with 3.1 churches per parish, has the most churches per parish; Schleiz (1.8) and Lobenstein (2.0) have considerably fewer; Schleiz counts the most clergy (27) with only 36 churches."
+  },
+  {
+   "de": "Auf eine Parochie kommen im Durchschnitt 1955 Seelen, auf eine Kirche 862,4 und auf einen Geistlichen 1293,8; aus den Verhältniszahlen folgt eine Bevölkerung von rund 87.975.",
+   "en": "On average there are 1,955 souls per parish, 862.4 per church and 1,293.8 per clergyman; the ratios imply a population of about 87,975."
+  },
+  {
+   "de": "Von 59 Pfarrstellen (einschließlich 10 Diaconaten und 3 Ephoren) haben 20 (34 %) weniger als 600, 22 (37 %) mindestens 800 Thaler; der Median liegt in der Klasse 600–700 Thaler.",
+   "en": "Of 59 pastorates (including 10 deaconates and 3 ephors) 20 (34 %) pay less than 600 and 22 (37 %) at least 800 Thaler; the median lies in the class 600–700 Thaler."
+  },
+  {
+   "de": "Das niedrigste Pfarrgehalt (400 Thaler) ist mehr als doppelt so hoch wie die gesetzliche Mindestbesoldung eines Lehrers auf dem Land (180 Thaler, S. 297).",
+   "en": "The lowest pastor's salary (400 Thaler) is more than twice the legal minimum pay of a village teacher (180 Thaler, p. 297)."
+  }
+ ],
+ "caveats": [
+  {
+   "de": "Brückner gibt die Gehaltsklassen ohne Jahr an (»gegenwärtig«, also 1868/69) und ohne Angabe, ob Naturalien und Nebeneinkünfte eingerechnet sind. Die Summe der Pfarreien in der Gehaltstabelle (59) ist nicht mit den 45 Parochien oder den 68 Geistlichen der Ephorientabelle identisch; die Tabellen zählen offenbar Stellen, Pfarrer und Diaconen unterschiedlich.",
+   "en": "Brückner gives the salary classes without a year (“at present”, i.e. 1868/69) and without saying whether payments in kind and incidental income are included. The total of pastorates in the salary table (59) is not identical with the 45 parishes or the 68 clergy of the ephory table; the tables evidently count posts, pastors and deacons differently."
+  },
+  {
+   "de": "Der Mittelwert aus Klassenmitten (rund 720 Thaler) ist nur eine Untergrenze und eine grobe Näherung. Katecheten (2 im Landestheil Gera) sind in den Geistlichen nicht enthalten.",
+   "en": "The mean from class midpoints (about 720 Thaler) is only a lower bound and a rough approximation. Catechists (2 in the Gera region) are not included in the clergy."
+  }
+ ],
+ "datasets": [
+  {
+   "name": "ephories",
+   "title": {
+    "de": "Parochien, Kirchen und Geistliche nach Ephorien",
+    "en": "Parishes, churches and clergy by ephory"
+   },
+   "columns": [
+    {
+     "name": "ephory",
+     "label": {
+      "de": "Ephorie",
+      "en": "Ephory"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "measure_key",
+     "label": {
+      "de": "Kürzel",
+      "en": "Key"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "measure_de",
+     "label": {
+      "de": "Messgröße",
+      "en": "Measure"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "measure_en",
+     "label": {
+      "de": "Messgröße (englisch)",
+      "en": "Measure (English)"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "count",
+     "label": {
+      "de": "Anzahl",
+      "en": "Count"
+     },
+     "type": "integer",
+     "unit": "Anzahl"
+    }
+   ],
+   "rows": [
+    [
+     "Gera",
+     "a",
+     "Parochien",
+     "Parishes",
+     14
+    ],
+    [
+     "Gera",
+     "b",
+     "Kirchen",
+     "Churches",
+     44
+    ],
+    [
+     "Gera",
+     "c",
+     "Geistliche",
+     "Clergy",
+     25
+    ],
+    [
+     "Schleiz",
+     "a",
+     "Parochien",
+     "Parishes",
+     20
+    ],
+    [
+     "Schleiz",
+     "b",
+     "Kirchen",
+     "Churches",
+     36
+    ],
+    [
+     "Schleiz",
+     "c",
+     "Geistliche",
+     "Clergy",
+     27
+    ],
+    [
+     "Lobenstein",
+     "a",
+     "Parochien",
+     "Parishes",
+     11
+    ],
+    [
+     "Lobenstein",
+     "b",
+     "Kirchen",
+     "Churches",
+     22
+    ],
+    [
+     "Lobenstein",
+     "c",
+     "Geistliche",
+     "Clergy",
+     16
+    ]
+   ],
+   "source_refs": [
+    {
+     "page": "294",
+     "block": "b6",
+     "rows": "r2-t5"
+    }
+   ]
+  },
+  {
+   "name": "salary",
+   "title": {
+    "de": "Pfarrstellen nach Gehaltsklasse",
+    "en": "Pastorates by salary class"
+   },
+   "columns": [
+    {
+     "name": "class_key",
+     "label": {
+      "de": "Kürzel Klasse",
+      "en": "Class key"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "class_de",
+     "label": {
+      "de": "Gehaltsklasse",
+      "en": "Salary class"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "class_en",
+     "label": {
+      "de": "Gehaltsklasse (englisch)",
+      "en": "Salary class (English)"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "kind_key",
+     "label": {
+      "de": "Kürzel Art",
+      "en": "Kind key"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "kind_de",
+     "label": {
+      "de": "Art der Stelle",
+      "en": "Kind of post"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "kind_en",
+     "label": {
+      "de": "Art der Stelle (englisch)",
+      "en": "Kind of post (English)"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "posts",
+     "label": {
+      "de": "Stellen",
+      "en": "Posts"
+     },
+     "type": "integer",
+     "unit": "Stellen",
+     "derived": true,
+     "note": "Pfarrer = Pfarreien − Diaconen − Ephoren; Diaconen und Ephoren wie gedruckt"
+    }
+   ],
+   "rows": [
+    [
+     "1",
+     "400–500",
+     "400–500",
+     "a",
+     "Pfarrer",
+     "Pastors",
+     6
+    ],
+    [
+     "1",
+     "400–500",
+     "400–500",
+     "b",
+     "Diaconen",
+     "Deacons",
+     2
+    ],
+    [
+     "1",
+     "400–500",
+     "400–500",
+     "c",
+     "Ephoren",
+     "Ephors",
+     0
+    ],
+    [
+     "2",
+     "500–600",
+     "500–600",
+     "a",
+     "Pfarrer",
+     "Pastors",
+     10
+    ],
+    [
+     "2",
+     "500–600",
+     "500–600",
+     "b",
+     "Diaconen",
+     "Deacons",
+     2
+    ],
+    [
+     "2",
+     "500–600",
+     "500–600",
+     "c",
+     "Ephoren",
+     "Ephors",
+     0
+    ],
+    [
+     "3",
+     "600–700",
+     "600–700",
+     "a",
+     "Pfarrer",
+     "Pastors",
+     8
+    ],
+    [
+     "3",
+     "600–700",
+     "600–700",
+     "b",
+     "Diaconen",
+     "Deacons",
+     3
+    ],
+    [
+     "3",
+     "600–700",
+     "600–700",
+     "c",
+     "Ephoren",
+     "Ephors",
+     0
+    ],
+    [
+     "4",
+     "700–800",
+     "700–800",
+     "a",
+     "Pfarrer",
+     "Pastors",
+     5
+    ],
+    [
+     "4",
+     "700–800",
+     "700–800",
+     "b",
+     "Diaconen",
+     "Deacons",
+     1
+    ],
+    [
+     "4",
+     "700–800",
+     "700–800",
+     "c",
+     "Ephoren",
+     "Ephors",
+     0
+    ],
+    [
+     "5",
+     "800–1000",
+     "800–1000",
+     "a",
+     "Pfarrer",
+     "Pastors",
+     9
+    ],
+    [
+     "5",
+     "800–1000",
+     "800–1000",
+     "b",
+     "Diaconen",
+     "Deacons",
+     2
+    ],
+    [
+     "5",
+     "800–1000",
+     "800–1000",
+     "c",
+     "Ephoren",
+     "Ephors",
+     1
+    ],
+    [
+     "6",
+     "über 1000",
+     "over 1000",
+     "a",
+     "Pfarrer",
+     "Pastors",
+     8
+    ],
+    [
+     "6",
+     "über 1000",
+     "over 1000",
+     "b",
+     "Diaconen",
+     "Deacons",
+     0
+    ],
+    [
+     "6",
+     "über 1000",
+     "over 1000",
+     "c",
+     "Ephoren",
+     "Ephors",
+     2
+    ]
+   ],
+   "source_refs": [
+    {
+     "page": "294",
+     "block": "b2",
+     "rows": "r2-r7"
+    }
+   ]
+  },
+  {
+   "name": "ratios",
+   "title": {
+    "de": "Brückners Verhältniszahlen",
+    "en": "Brückner's ratios"
+   },
+   "columns": [
+    {
+     "name": "ratio_key",
+     "label": {
+      "de": "Kürzel",
+      "en": "Key"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "ratio_de",
+     "label": {
+      "de": "Verhältnis",
+      "en": "Ratio"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "ratio_en",
+     "label": {
+      "de": "Verhältnis (englisch)",
+      "en": "Ratio (English)"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "souls",
+     "label": {
+      "de": "Seelen je Einheit",
+      "en": "Souls per unit"
+     },
+     "type": "number",
+     "unit": "Seelen"
+    },
+    {
+     "name": "units",
+     "label": {
+      "de": "Einheiten insgesamt",
+      "en": "Units in total"
+     },
+     "type": "integer",
+     "unit": "Anzahl"
+    },
+    {
+     "name": "implied_pop",
+     "label": {
+      "de": "Daraus folgende Einwohnerzahl",
+      "en": "Implied population"
+     },
+     "type": "integer",
+     "unit": "Einwohner",
+     "derived": true
+    }
+   ],
+   "rows": [
+    [
+     "a",
+     "Seelen je Parochie",
+     "Souls per parish",
+     1955,
+     45,
+     87975
+    ],
+    [
+     "b",
+     "Seelen je Kirche",
+     "Souls per church",
+     862.4,
+     102,
+     87965
+    ],
+    [
+     "c",
+     "Seelen je Geistlichem",
+     "Souls per clergyman",
+     1293.8,
+     68,
+     87978
+    ]
+   ],
+   "source_refs": [
+    {
+     "page": "294",
+     "block": "b7"
+    },
+    {
+     "page": "294",
+     "block": "b6",
+     "rows": "t5"
+    }
+   ]
+  }
+ ],
+ "charts": [
+  {
+   "id": "c1",
+   "dataset": "ephories",
+   "title": {
+    "de": "Parochien, Kirchen und Geistliche je Ephorie",
+    "en": "Parishes, churches and clergy per ephory"
+   },
+   "caption": {
+    "de": "Anzahl; Gera hat die meisten Kirchen, Schleiz die meisten Geistlichen.",
+    "en": "Counts; Gera has the most churches, Schleiz the most clergy."
+   },
+   "vegalite": {
+    "height": 280,
+    "mark": "bar",
+    "encoding": {
+     "x": {
+      "field": "ephory",
+      "type": "nominal",
+      "title": {
+       "de": "Ephorie",
+       "en": "Ephory"
+      },
+      "axis": {
+       "labelAngle": 0
+      }
+     },
+     "xOffset": {
+      "field": {
+       "de": "measure_de",
+       "en": "measure_en"
+      },
+      "sort": {
+       "field": "measure_key",
+       "op": "min"
+      }
+     },
+     "y": {
+      "field": "count",
+      "type": "quantitative",
+      "title": {
+       "de": "Anzahl",
+       "en": "Count"
+      }
+     },
+     "color": {
+      "field": {
+       "de": "measure_de",
+       "en": "measure_en"
+      },
+      "type": "nominal",
+      "title": null,
+      "sort": {
+       "field": "measure_key",
+       "op": "min"
+      }
+     },
+     "tooltip": [
+      {
+       "field": "ephory",
+       "title": {
+        "de": "Ephorie",
+        "en": "Ephory"
+       }
+      },
+      {
+       "field": {
+        "de": "measure_de",
+        "en": "measure_en"
+       },
+       "title": {
+        "de": "Messgröße",
+        "en": "Measure"
+       }
+      },
+      {
+       "field": "count",
+       "title": {
+        "de": "Anzahl",
+        "en": "Count"
+       }
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "c2",
+   "dataset": "salary",
+   "title": {
+    "de": "Pfarrstellen nach Gehaltsklasse",
+    "en": "Pastorates by salary class"
+   },
+   "caption": {
+    "de": "Zahl der Stellen je Gehaltsklasse (Thaler), gegliedert in Pfarrer, Diaconen und Ephoren.",
+    "en": "Number of posts per salary class (Thaler), split into pastors, deacons and ephors."
+   },
+   "vegalite": {
+    "height": 280,
+    "mark": "bar",
+    "encoding": {
+     "x": {
+      "field": {
+       "de": "class_de",
+       "en": "class_en"
+      },
+      "type": "nominal",
+      "sort": {
+       "field": "class_key",
+       "op": "min"
+      },
+      "title": {
+       "de": "Gehalt (Thaler)",
+       "en": "Salary (Thaler)"
+      },
+      "axis": {
+       "labelAngle": 0
+      }
+     },
+     "y": {
+      "field": "posts",
+      "type": "quantitative",
+      "title": {
+       "de": "Stellen",
+       "en": "Posts"
+      },
+      "stack": "zero"
+     },
+     "color": {
+      "field": {
+       "de": "kind_de",
+       "en": "kind_en"
+      },
+      "type": "nominal",
+      "title": null,
+      "sort": {
+       "field": "kind_key",
+       "op": "min"
+      }
+     },
+     "order": {
+      "field": "kind_key",
+      "type": "nominal",
+      "sort": "ascending"
+     },
+     "tooltip": [
+      {
+       "field": {
+        "de": "class_de",
+        "en": "class_en"
+       },
+       "title": {
+        "de": "Gehaltsklasse",
+        "en": "Salary class"
+       }
+      },
+      {
+       "field": {
+        "de": "kind_de",
+        "en": "kind_en"
+       },
+       "title": {
+        "de": "Art",
+        "en": "Kind"
+       }
+      },
+      {
+       "field": "posts",
+       "title": {
+        "de": "Stellen",
+        "en": "Posts"
+       }
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "c3",
+   "dataset": "ratios",
+   "title": {
+    "de": "Seelen je Parochie, Geistlichem und Kirche",
+    "en": "Souls per parish, clergyman and church"
+   },
+   "caption": {
+    "de": "Durchschnitt für das ganze Fürstentum nach Brückner.",
+    "en": "Average for the whole principality according to Brückner."
+   },
+   "vegalite": {
+    "height": 170,
+    "mark": "bar",
+    "encoding": {
+     "y": {
+      "field": {
+       "de": "ratio_de",
+       "en": "ratio_en"
+      },
+      "type": "nominal",
+      "sort": "-x",
+      "title": null,
+      "axis": {
+       "labelLimit": 260
+      }
+     },
+     "x": {
+      "field": "souls",
+      "type": "quantitative",
+      "title": {
+       "de": "Seelen",
+       "en": "Souls"
+      }
+     },
+     "tooltip": [
+      {
+       "field": {
+        "de": "ratio_de",
+        "en": "ratio_en"
+       },
+       "title": {
+        "de": "Verhältnis",
+        "en": "Ratio"
+       }
+      },
+      {
+       "field": "souls",
+       "title": {
+        "de": "Seelen",
+        "en": "Souls"
+       },
+       "format": ",.1f"
+      }
+     ]
+    }
+   }
+  }
+ ],
+ "keywords": {
+  "de": [
+   "Kirche",
+   "Ephorie",
+   "Superintendentur",
+   "Parochien",
+   "Pfarreien",
+   "Geistliche",
+   "Pfarrgehalt",
+   "Besoldung",
+   "Gera",
+   "Schleiz",
+   "Lobenstein"
+  ],
+  "en": [
+   "church",
+   "ephory",
+   "superintendency",
+   "parishes",
+   "clergy",
+   "pastors' pay",
+   "salary",
+   "Gera",
+   "Schleiz",
+   "Lobenstein"
+  ]
+ },
+ "generated_by": "Claude Sonnet 5.5 (subagent A11)",
+ "date": "2026-10-01"
+}

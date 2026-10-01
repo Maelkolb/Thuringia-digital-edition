@@ -1,0 +1,95 @@
+{% extends "doc_base.html" %}
+{% block title %}Editionsrichtlinien – {{ site.short_title }}{% endblock %}
+{% macro n(key) %}{{ '{:,}'.format(rep.get(key, 0)).replace(',', '.') }}{% endmacro %}
+{% block doc %}
+<p class="eyebrow" style="margin-top:36px">{{ t('Edition', 'Edition') }}</p>
+<div data-l="de">
+<h1>Editionsrichtlinien und Methode</h1>
+<p class="lede">Diese Edition ist eine computergestützte Erschließung. Transkription und Annotation wurden automatisch erzeugt, anschließend nachvollziehbar korrigiert und angereichert. Alle Eingriffe sind dokumentiert und je Seite einsehbar („Editorische Eingriffe auf dieser Seite“).</p>
+
+<h2 id="vorlage">1. Textgrundlage</h2>
+<p>Grundlage ist das Exemplar der Bayerischen Staatsbibliothek München (Germ.sp. 78 ld), digitalisiert im Münchener Digitalisierungszentrum (bsb11005578, 856 Scans). Die Faksimiles werden direkt über die IIIF-Schnittstelle der BSB eingebunden und unterliegen deren Nutzungsbedingungen (NoC-NC 1.0). Seitenzählung und Scanfolge stammen aus dem IIIF-Manifest der BSB, nicht aus der automatischen Erkennung.</p>
+
+<h2 id="transkription">2. Transkription</h2>
+<p>Der Text wurde Seite für Seite mit dem multimodalen Sprachmodell Google Gemini 3 Flash (<span class="mono">gemini-3-flash-preview</span>, geringe Denkstufe) aus den Scans transkribiert (Januar und März 2026; Werkzeug: <i>historical-digital-edition</i>). Die Vorgaben lauteten:</p>
+<ul>
+<li>Text exakt wie gedruckt, einschließlich historischer Schreibweisen (<i>Thal, Theil, Procent, Centner</i>) und Interpunktion;</li>
+<li>Umlaute in moderner Form (ä, ö, ü), langes ſ als s, Ligaturen aufgelöst;</li>
+<li>Gliederung in Blöcke in Lesereihenfolge: Überschrift, Absatz, Liste, Tabelle; dazu Kolumnentitel, gedruckte Seitenzahl und Fußnoten.</li>
+</ul>
+<p>Elf Seiten fehlten in der ursprünglichen Verarbeitung oder waren leer (Titelblatt, Vorwort S. III–VI, Inhalts-Uebersicht S. VII–VIII, S. 1, S. 243, S. 527, S. 739). Sie wurden im Oktober 2026 mit demselben Verfahren nachgeholt; bei Überlastung des Vorschaumodells wurde dessen Nachfolger Gemini 3.5 Flash verwendet. Für S. 527 und S. 739 verweigerte das Modell die Ausgabe (Abbruchgrund „Recitation“) – dies erklärt auch die Lücken der ersten Verarbeitung. Diese beiden Seiten wurden daher am Faksimile von Claude (Anthropic) transkribiert. Das jeweils verwendete Verfahren ist in den Seitendaten vermerkt.</p>
+<p><b>Genauigkeit.</b> Eine flächendeckende manuelle Kollation fand nicht statt. Bei der Auswertung wurden zahlreiche Stellen gezielt am Faksimile geprüft (Zahlen in Tabellen, Ortsnamen, Summen). Typische Fehler sind Verwechslungen ähnlicher Frakturbuchstaben (<i>V/B</i>: „Bollersdorf“ statt „Vollersdorf“; <i>Oe/De</i>: „Dettersdorf“ statt „Oettersdorf“; <i>R/K</i> in Viehlisten; <i>ſſ/ff</i>), vereinzelt fehlende Tabellen und unaufgelöste Brüche. Am Faksimile bestätigte Fehllesungen sind in den Auswertungen und Ortsartikeln verzeichnet; Druckfehler des Originals werden nicht verbessert, sondern allenfalls kommentiert.</p>
+
+<h2 id="korrekturen">3. Korrektur der Layout-Erkennung</h2>
+<p>Ohne erneute Texterkennung wurden die folgenden Fehler der automatischen Struktur­erkennung regelbasiert korrigiert. Jede Anwendung wird an der Seite protokolliert.</p>
+<table class="data-table-wrap" style="display:table;width:100%;border-collapse:collapse;font:400 .92rem var(--sans)">
+<thead><tr><th style="text-align:left;padding:6px 8px">Regel</th><th style="text-align:right;padding:6px 8px">Anwendungen</th></tr></thead>
+<tbody>
+<tr><td style="padding:5px 8px">Tabellen, deren erste Zeile Daten enthält, wurden zuvor mit Kopfzeile dargestellt – jetzt als Datenzeile</td><td class="num" style="text-align:right;padding:5px 8px">{{ n('fix:table_no_header_row') }}</td></tr>
+<tr><td style="padding:5px 8px">Mehrzeilige Tabellenköpfe mit verbundenen Zellen (colspan/rowspan) aus den Platzhaltern der Erkennung rekonstruiert</td><td class="num" style="text-align:right;padding:5px 8px">{{ n('fix:table_multirow_header') }}</td></tr>
+<tr><td style="padding:5px 8px">Zwischenüberschriften in Tabellen (z. B. „Landrathsbezirk Gera.“) als Gruppenzeilen über die ganze Breite</td><td class="num" style="text-align:right;padding:5px 8px">{{ n('fix:table_group_rows') }}</td></tr>
+<tr><td style="padding:5px 8px">Über zwei Zeilen getrennte Zeilenbeschriftungen („Lobenst.-“/„Ebersd.“) zusammengeführt</td><td class="num" style="text-align:right;padding:5px 8px">{{ n('fix:table_join_split_stub') }}</td></tr>
+<tr><td style="padding:5px 8px">Ungleich lange Tabellenzeilen aufgefüllt, leere Spalten entfernt</td><td class="num" style="text-align:right;padding:5px 8px">{{ rep.get('fix:table_pad_ragged_rows', 0) + rep.get('fix:table_drop_empty_columns', 0) }}</td></tr>
+<tr><td style="padding:5px 8px">Bogensignaturen (z. B. „27*“), die als Seitenzahl, Fußnote oder Absatz erkannt waren, als Signatur ausgewiesen</td><td class="num" style="text-align:right;padding:5px 8px">{{ rep.get('fix:signature_from_page_number', 0) + rep.get('fix:signature_from_footnote', 0) + rep.get('fix:signature_from_paragraph', 0) }}</td></tr>
+<tr><td style="padding:5px 8px">Silbentrennungen im Zeileninneren aufgelöst („Som- merberg“ → „Sommerberg“; Bindestriche vor <i>und, oder, bis</i> bleiben)</td><td class="num" style="text-align:right;padding:5px 8px">{{ n('fix:join_linebreak_hyphen') }}</td></tr>
+<tr><td style="padding:5px 8px">Trennstriche im Wort getilgt, wenn die zusammengeschriebene Form im Buch belegt ist („Ge-setze“ → „Gesetze“)</td><td class="num" style="text-align:right;padding:5px 8px">{{ n('fix:join_inword_hyphen') }}</td></tr>
+<tr><td style="padding:5px 8px">Kolumnentitel, die nur die Kapitelüberschrift wiederholen, nicht doppelt wiedergegeben</td><td class="num" style="text-align:right;padding:5px 8px">{{ n('fix:drop_header_equal_to_opening_heading') }}</td></tr>
+<tr><td style="padding:5px 8px">Seiten, deren Absatz über den Seitenwechsel läuft, verknüpft (ohne Einzug, mit Verweis; im TEI ein Absatz mit &lt;pb/&gt;)</td><td class="num" style="text-align:right;padding:5px 8px">{{ n('pages_with_continuation') }}</td></tr>
+</tbody></table>
+<p>Hinzu kommen wenige manuelle Entscheidungen, die einzeln begründet sind: S. 406 ist eine Leerseite, deren „Text“ eine Transkription des durchscheinenden Titels von S. 405 war; auf S. 53 ist „6. Klima.“ (so im Druck, die Inhalts-Uebersicht zählt 7) als Überschrift ausgezeichnet. Kapitel IV beginnt tatsächlich auf S. 263 (die Inhalts-Uebersicht nennt S. 262).</p>
+
+<h2 id="struktur">4. Gliederung</h2>
+<p>Die Gliederung folgt Brückners Inhalts-Uebersicht (S. VII–VIII), ergänzt um Titelei und Anhang (Ortsregister, Zusätze und Berichtigungen, Subskriptionsliste). Jeder Abschnitt ist an seine Überschrift im Text gebunden; Seiten tragen eine Brotkrumennavigation. Brückners „Zusätze und Berichtigungen“ (S. 830–834) sind bei den betroffenen Seiten angezeigt.</p>
+
+<h2 id="annotation">5. Annotation und Register</h2>
+<p>Namen und Sachen wurden automatisch in elf Klassen erkannt (Ort, Person, Organisation, Naturobjekt, Umgebung, Tier, Pflanze, Ressource, Artefakt, Klima, Umweltauswirkung), mit Vorgaben wie „nur eindeutig identifizierbare Orte mit Eigennamen“. Die vom Modell gelieferten Zeichenpositionen waren überwiegend unzutreffend; die Annotationen wurden deshalb anhand von Wortlaut, Kontext und Position neu im Text verankert ({{ n('entity_anchored') }} Erwähnungen; {{ n('entity_unmatched') }} ließen sich nicht zuordnen). Die frühere Edition hatte stattdessen jedes Vorkommen eines Wortes markiert, was zu falschen Zuordnungen führte.</p>
+<p>Für die Register wurden die Erwähnungen nach Schreibform gruppiert und von KI-Agenten (Claude Sonnet) bereinigt: Flexions- und Schreibvarianten zusammengeführt, Abkürzungen aufgelöst (etwa „R.“, „Schw.“, „Bnst.“ in den Viehlisten), Fehlannotationen verworfen oder umklassifiziert. Orte wurden mit GeoNames (Koordinaten), Personen und Institutionen, wo eindeutig, mit Wikidata, Tiere und Pflanzen mit dem GBIF-Taxonomierückgrat verknüpft. Kandidaten für Orte stammen aus Brückners eigenem Ortsregister und GeoNames; Normdaten wurden nur übernommen, wenn die Agenten sie über die jeweilige Schnittstelle bestätigt hatten. Die Register sind in sechs Gruppen zusammengefasst, die farbig im Text erscheinen.</p>
+<p><b>Ortsartikel.</b> Die Ortsbeschreibungen des II. Theils wurden von Agenten in strukturierte Datensätze überführt (Namensformen, Typ, Lage, Häuser, Einwohner, Berufe, Handwerke, Flurgröße, Viehstand, Gemeindevermögen, datierte Ereignisse). Ein Prüfprogramm stellt sicher, dass jede Zahl im zugehörigen Artikeltext vorkommt.</p>
+
+<h2 id="auswertungen">6. Auswertungen</h2>
+<p>Die Auswertungen der Tabellen und Zahlenreihen wurden von KI-Agenten erstellt und folgen einem einheitlichen Format (JSON-Schema, Vega-Lite-Diagramme, zweisprachige Texte). Ein Prüfprogramm kontrolliert jede Auswertung: Quellenverweise müssen existieren, jede nicht als berechnet gekennzeichnete Zahl muss im zitierten Tabellen- oder Textblock vorkommen, und die Diagramme müssen ohne Warnung kompilieren. Umrechnungen historischer Maße folgen, wo möglich, Brückners eigener Tabelle (S. 831–832). Die Deutungen in „Befunde“ sind maschinell formuliert und als Arbeitshypothesen zu lesen. Die früheren Einzelvisualisierungen zu S. 54–65 wurden in diesem Format neu erstellt.</p>
+
+<h2 id="suche">7. Suche</h2>
+<p>Die Volltextsuche arbeitet mit einem statischen Index. Suchbegriffe und Text werden gleich normalisiert: historische und moderne Schreibung werden angeglichen (<i>th → t</i>, <i>c → k/z</i>, Umlaute und deren Umschreibung), anschließend wird mit dem CISTEM-Verfahren auf den Wortstamm reduziert. Für englische Suchbegriffe werden deutsche Entsprechungen aus den zweisprachigen Schlagwörtern der Seitenübersichten ergänzt. Jede Seite trägt eine kurze, von Agenten verfasste Inhaltsangabe (deutsch und englisch) und Schlagwörter eines kontrollierten Vokabulars.</p>
+
+<h2 id="grenzen">8. Grenzen</h2>
+<ul>
+<li>Die Transkription ist nicht vollständig kollationiert; Fehllesungen, vor allem bei Eigennamen und Zahlen, sind möglich. Maßgeblich ist der Druck – das Faksimile steht neben jeder Seite.</li>
+<li>Die automatische Annotation ist unvollständig: Nicht jeder Name ist erfasst, einzelne Zuordnungen sind falsch. Die Register verzeichnen nur annotierte Stellen.</li>
+<li>Normdatenverknüpfungen, Ortsartikel-Daten und Auswertungen sind KI-gestützt erzeugt und automatisch geprüft, aber nicht vollständig von Hand kontrolliert.</li>
+</ul>
+<p>Hinweise auf Fehler sind willkommen und fließen in künftige Versionen ein.</p>
+</div>
+
+<div data-l="en">
+<h1>Editorial principles and method</h1>
+<p class="lede">This edition is a computer-assisted one. Transcription and annotation were generated automatically and then corrected and enriched in a traceable way. Every intervention is documented and visible on its page (“Editorial interventions on this page”).</p>
+<h2>1. Source</h2>
+<p>The edition is based on the copy of the Bavarian State Library, Munich (Germ.sp. 78 ld), digitised by the Munich Digitisation Centre (bsb11005578, 856 scans). Facsimiles are embedded directly from the BSB IIIF service and are subject to its terms (NoC-NC 1.0). Pagination and scan sequence are taken from the BSB IIIF manifest, not from automatic recognition.</p>
+<h2>2. Transcription</h2>
+<p>The text was transcribed page by page from the scans with the multimodal model Google Gemini 3 Flash (<span class="mono">gemini-3-flash-preview</span>, low thinking level; January and March 2026; tool: <i>historical-digital-edition</i>). The instructions were:</p>
+<ul>
+<li>reproduce the text exactly as printed, including historical spellings and punctuation;</li>
+<li>use modern umlauts, render long s as s and resolve ligatures;</li>
+<li>segment the page into blocks in reading order (heading, paragraph, list, table), plus running head, printed page number and footnotes.</li>
+</ul>
+<p>Eleven pages were missing or empty after the original run (title page, preface pp. III–VI, contents pp. VII–VIII, p. 1, p. 243, p. 527, p. 739). They were added in October 2026 with the same procedure; when the preview model was overloaded, its successor Gemini 3.5 Flash was used. For pp. 527 and 739 the model refused output (finish reason “recitation”), which also explains the gaps of the first run. These two pages were transcribed from the facsimile by Claude (Anthropic). The method used is recorded in each page’s data.</p>
+<p><b>Accuracy.</b> No complete manual collation has been carried out. During the analyses many passages were checked against the facsimile (numbers in tables, place names, sums). Typical errors are confusions of similar Fraktur letters (V/B, Oe/De, R/K in livestock lists, ſſ/ff), occasional missing tables and unresolved fractions. Misreadings confirmed against the facsimile are listed in the analyses and place articles; misprints of the original are not corrected, only annotated.</p>
+<h2>3. Correction of layout recognition</h2>
+<p>Without re-running text recognition, the following errors of automatic layout recognition were corrected by rules (counts as in the German table above): data rows wrongly shown as table headers ({{ n('fix:table_no_header_row') }}), multi-row headers with merged cells rebuilt ({{ n('fix:table_multirow_header') }}), group rows ({{ n('fix:table_group_rows') }}), split row labels joined ({{ n('fix:table_join_split_stub') }}), printer’s signature marks read as page numbers, footnotes or paragraphs, line-break hyphens ({{ n('fix:join_linebreak_hyphen') }}) and in-word hyphens ({{ n('fix:join_inword_hyphen') }}), duplicate running heads, and paragraphs running over page breaks ({{ n('pages_with_continuation') }} pages). A few manual decisions are individually justified (p. 406 blank; heading on p. 53; chapter IV opens on p. 263).</p>
+<h2>4. Structure</h2>
+<p>The structure follows Brückner’s table of contents (pp. VII–VIII), extended by front and back matter. Brückner’s addenda and corrigenda (pp. 830–834) are shown on the pages they concern.</p>
+<h2>5. Annotation and indexes</h2>
+<p>Names and things were recognised automatically in eleven classes. The character offsets returned by the model were mostly wrong, so annotations were re-anchored by wording, context and position ({{ n('entity_anchored') }} mentions; {{ n('entity_unmatched') }} could not be placed). For the indexes, mentions were grouped by form and cleaned by AI agents (Claude Sonnet): variants merged, abbreviations resolved, false annotations discarded or reclassified; places linked to GeoNames, persons and institutions to Wikidata where unambiguous, animals and plants to the GBIF backbone. Authority identifiers were only accepted when confirmed through the respective API. The place articles of Part II were converted into structured records; a checker makes sure every number occurs in the article text.</p>
+<h2>6. Analyses</h2>
+<p>Analyses of tables and number series were produced by AI agents in one uniform format (JSON schema, Vega-Lite charts, bilingual texts). A validator checks every analysis: source references must exist, every number not marked as derived must occur in the cited block, charts must compile without warnings. Unit conversions follow Brückner’s own table (pp. 831–832) where possible. The interpretations under “Findings” are machine-written and should be read as working hypotheses.</p>
+<h2>7. Search</h2>
+<p>The full-text search uses a static index. Query and text are normalised alike: historical and modern spelling are reconciled, then words are stemmed with CISTEM. English queries are expanded with German equivalents from the bilingual page keywords. Every page has a short summary (German and English) and subject terms from a controlled vocabulary.</p>
+<h2>8. Limits</h2>
+<ul>
+<li>The transcription is not fully collated; misreadings, especially of names and numbers, are possible. The print is authoritative – the facsimile is shown next to every page.</li>
+<li>Automatic annotation is incomplete; the indexes only list annotated passages.</li>
+<li>Authority links, place-article data and analyses are AI-assisted and automatically checked, but not fully reviewed by hand.</li>
+</ul>
+</div>
+{% endblock %}

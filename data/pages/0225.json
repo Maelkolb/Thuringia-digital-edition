@@ -1,0 +1,471 @@
+{
+ "seq": 225,
+ "label": "213",
+ "slug": "213",
+ "iiif": {
+  "service": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb11005578_00225",
+  "canvas": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11005578/canvas/225",
+  "width": 1645,
+  "height": 2698
+ },
+ "kind": "text",
+ "running_header": "2. Landwirthschaft.",
+ "signature": null,
+ "blocks": [
+  {
+   "id": "b1",
+   "type": "paragraph",
+   "src": 0,
+   "text": "Unter den Landestheilen hat somit Gera die größere Zahl an Selbstständigen, Gehilfen und Dienstboten, die kleinere an Familiengliedern; Schleiz dagegen die kleinere an Selbstständigen und Gehilfen, Lobenstein-Ebersdorf die kleinere an Dienstboten und die größere an Familiengliedern.",
+   "spans": [
+    [
+     34,
+     38,
+     "Location"
+    ],
+    [
+     136,
+     143,
+     "Location"
+    ],
+    [
+     198,
+     218,
+     "Location"
+    ]
+   ],
+   "sec": "t1-3-1"
+  },
+  {
+   "id": "b2",
+   "type": "paragraph",
+   "src": 1,
+   "text": "Das Verhältniß der producirenden Berufsklassen zu dem unproductiven Volkstheil ist im Allgemeinen in Procenten 40 : 60 oder genauer:",
+   "spans": [],
+   "sec": "t1-3-1"
+  },
+  {
+   "id": "b3",
+   "type": "table",
+   "src": 2,
+   "n_cols": 9,
+   "header_rows": 2,
+   "rows": [
+    {
+     "role": "header",
+     "cells": [
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "Landesth. Gera",
+       "spans": [
+        [
+         10,
+         14,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "Ldsth. Schleiz",
+       "spans": [
+        [
+         7,
+         14,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "Ldth. Lob.-Ebersd.",
+       "spans": [
+        [
+         6,
+         18,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "Fürstenthum",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "header",
+     "cells": [
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "product.",
+       "spans": []
+      },
+      {
+       "text": "unprod.",
+       "spans": []
+      },
+      {
+       "text": "product.",
+       "spans": []
+      },
+      {
+       "text": "unprod.",
+       "spans": []
+      },
+      {
+       "text": "product.",
+       "spans": []
+      },
+      {
+       "text": "unprod.",
+       "spans": []
+      },
+      {
+       "text": "product.",
+       "spans": []
+      },
+      {
+       "text": "unprod.",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Städte",
+       "spans": []
+      },
+      {
+       "text": "45,06",
+       "spans": []
+      },
+      {
+       "text": "54,94",
+       "spans": []
+      },
+      {
+       "text": "39,91",
+       "spans": []
+      },
+      {
+       "text": "60,09",
+       "spans": []
+      },
+      {
+       "text": "38,16",
+       "spans": []
+      },
+      {
+       "text": "61,84",
+       "spans": []
+      },
+      {
+       "text": "42,47",
+       "spans": []
+      },
+      {
+       "text": "57,53",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Plattland",
+       "spans": []
+      },
+      {
+       "text": "42,24",
+       "spans": []
+      },
+      {
+       "text": "57,76",
+       "spans": []
+      },
+      {
+       "text": "37,88",
+       "spans": []
+      },
+      {
+       "text": "62,12",
+       "spans": []
+      },
+      {
+       "text": "36,99",
+       "spans": []
+      },
+      {
+       "text": "63,01",
+       "spans": []
+      },
+      {
+       "text": "39,21",
+       "spans": []
+      },
+      {
+       "text": "60,79",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "total",
+     "cells": [
+      {
+       "text": "Durchschnitt",
+       "spans": []
+      },
+      {
+       "text": "43,42",
+       "spans": []
+      },
+      {
+       "text": "56,58",
+       "spans": []
+      },
+      {
+       "text": "38,46",
+       "spans": []
+      },
+      {
+       "text": "61,54",
+       "spans": []
+      },
+      {
+       "text": "37,23",
+       "spans": []
+      },
+      {
+       "text": "62,77",
+       "spans": []
+      },
+      {
+       "text": "40,25",
+       "spans": []
+      },
+      {
+       "text": "59,75",
+       "spans": []
+      }
+     ]
+    }
+   ],
+   "grid": [
+    [
+     "",
+     "Landesth. Gera",
+     "",
+     "Ldsth. Schleiz",
+     "",
+     "Ldth. Lob.-Ebersd.",
+     "",
+     "Fürstenthum",
+     ""
+    ],
+    [
+     "",
+     "product.",
+     "unprod.",
+     "product.",
+     "unprod.",
+     "product.",
+     "unprod.",
+     "product.",
+     "unprod."
+    ],
+    [
+     "Städte",
+     "45,06",
+     "54,94",
+     "39,91",
+     "60,09",
+     "38,16",
+     "61,84",
+     "42,47",
+     "57,53"
+    ],
+    [
+     "Plattland",
+     "42,24",
+     "57,76",
+     "37,88",
+     "62,12",
+     "36,99",
+     "63,01",
+     "39,21",
+     "60,79"
+    ],
+    [
+     "Durchschnitt",
+     "43,42",
+     "56,58",
+     "38,46",
+     "61,54",
+     "37,23",
+     "62,77",
+     "40,25",
+     "59,75"
+    ]
+   ],
+   "caption": null,
+   "sec": "t1-3-1"
+  },
+  {
+   "id": "b4",
+   "type": "paragraph",
+   "src": 3,
+   "text": "Die größte producirende Menge gehört dem Landestheile Gera, die geringste dem Gebiete Lobenstein-Ebersdorf, daher dort ein geringerer, hier ein größerer Volkstheil zu ernähren ist.",
+   "spans": [
+    [
+     54,
+     58,
+     "Location"
+    ],
+    [
+     86,
+     106,
+     "Location"
+    ]
+   ],
+   "sec": "t1-3-1"
+  },
+  {
+   "id": "b5",
+   "type": "heading",
+   "src": 4,
+   "text": "2. Landwirthschaft.",
+   "spans": [],
+   "opens": [
+    "t1-3-2"
+   ],
+   "sec": "t1-3-2",
+   "level": 4
+  },
+  {
+   "id": "b6",
+   "type": "paragraph",
+   "src": 5,
+   "text": "Die Verschiedenheit des Unterlandes und des Oberlandes in Bezug auf Bodenbeschaffenheit, Bodenerhebung und Klima zeigt sich nothwendig auch in landwirthschaftlicher Hinsicht, weshalb dieser Abschnitt gleichfalls für beide Gebiete, wenn auch nicht starke, doch nicht ganz unwesentliche Unterschiede nachweisen kann. Das Unterland hat, wie schon oben angedeutet ist, im Gegensatze zum Oberlande zwar weniger Quell- und Teichreichthum und weniger atmosphärische Niederschläge, dagegen eine günstigere Bodenmischung, mehr Humustiefe, geringere Bodenhöhe und wärmere Luft, daher auch seine Pflanzenwelt auf besseren Bedingungen eines ergiebigen und sicheren Gedeihens beruht und seine Erndte um zwei bis drei Wochen früher erfolgt als im Oberlande. Die schöne, ausgebauchte Thalsohle der Elster, ihre Gelände und Nebenthäler und selbst die meisten Hochflächen ihrer Uferlandschaften besitzen eine fruchtbare Ackerkrume, so daß alle Gattungen der Kornfrüchte mit Erfolg gebaut werden können. Dazu werden die Felder reich, fleißig und mit zunehmendem Verständnisse rationellen landwirthschaftlichen Betriebes bestellt. Wenn auch einerseits das industrielle Gera eine große Zahl von Arbeitskräften der Oeconomie des platten Landes entzieht, so wird doch andererseits wieder durch diesen ansehnlichen Verzehrpunkt die Landwirthschaft nicht allein dadurch gehoben, daß in ihm die landwirthschaftliche Production reichen Absatz findet, sondern auch, daß er Dünger in manchfacher Form liefert. Von der Mehrzahl der bäuerlichen Deconomen geschieht die Bearbeitung der Felder meist noch nach der verbesserten Dreifelderwirthschaft*), welche zwei Halmfrüchte auf einander",
+   "spans": [
+    [
+     107,
+     112,
+     "Climate"
+    ],
+    [
+     406,
+     412,
+     "Resource"
+    ],
+    [
+     444,
+     472,
+     "Climate"
+    ],
+    [
+     562,
+     566,
+     "Resource"
+    ],
+    [
+     783,
+     789,
+     "Natural Object"
+    ],
+    [
+     941,
+     952,
+     "Plant"
+    ],
+    [
+     1150,
+     1154,
+     "Location"
+    ]
+   ],
+   "continues": true,
+   "sec": "t1-3-2"
+  }
+ ],
+ "footnotes": [
+  {
+   "id": "fn1",
+   "marker": "*)",
+   "text": "Von der Zeit an, wo das Feld nach einmaligem Getreideertrage vier bis sechs Jahre zur Weide diente, folgten eine Reihe von Bewirthschaftsarten auf einander, von denen die Dreifelderwirthschaft mit reiner Brache und dann die mit Besömmerung sich am längsten erhalten haben. Gegenwärtig stehen sich im Lande drei Bewirthschaftungsarten einander gegenüber und zwar die verbesserte Dreifelderwirthschaft, die Fruchtwechselwirthschaft und die Vierfelderwirthschaft. Die verbesserte Dreifelderwirthschaft theilt sämmtliche Felder in drei möglichst gleiche Theile, von denen der eine mit Wintergetreide, der andere mit Sommergetreide und der dritte mit Brachschlag (zu zwei Theilen mit Futterkräutern, Handels- und Knollengewächsen) befruchtet wird. Die Fruchtwechselwirthschaft läßt nicht eine Halmfrucht",
+   "spans": [
+    [
+     45,
+     60,
+     "Plant"
+    ],
+    [
+     581,
+     595,
+     "Plant"
+    ],
+    [
+     612,
+     626,
+     "Plant"
+    ],
+    [
+     679,
+     693,
+     "Plant"
+    ],
+    [
+     708,
+     724,
+     "Plant"
+    ]
+   ]
+  }
+ ],
+ "corrections": [
+  {
+   "rule": "table_multirow_header",
+   "rows": 2,
+   "block": "b3"
+  }
+ ],
+ "provenance": {
+  "source": "colab-2026-03",
+  "model": "gemini-3-flash-preview",
+  "timestamp": "2026-03-03T15:49:59.099054",
+  "early_schema": false
+ },
+ "section_path": [
+  "t1",
+  "t1-3",
+  "t1-3-1"
+ ],
+ "sections": [
+  "t1-3-1",
+  "t1-3-2"
+ ]
+}

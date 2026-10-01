@@ -1,0 +1,1008 @@
+<div id="analysis-box-61">
+<div class="analysis-header-61">
+<strong>
+<span class="bilingual-de">🦅 Vogelzug in Gera (1859–1864) — Phänologische Analyse</span><span class="bilingual-en">🦅 Bird Migration in Gera (1859–1864) — Phenological Analysis</span>
+</strong>
+<span class="analysis-close-61" onclick="toggleAnalysisBox61()">×</span>
+</div>
+<div class="analysis-content-61">
+<div id="bird-viz-61">
+<div class="container">
+<div class="header">
+<div class="header-content">
+<h1>
+<span class="bird-icon">🐦</span>
+<span data-de="Vogelzug in Gera" data-en="Bird Migration in Gera">Vogelzug in Gera</span>
+<span style="font-weight:400; opacity:0.8;">(1859–1864)</span>
+</h1>
+<p data-de="Phänologische Beobachtungen von Ludwig Müller" data-en="Phenological observations by Ludwig Müller">Phänologische Beobachtungen von Ludwig Müller</p>
+</div>
+<div class="lang-switch">
+<button class="lang-btn active" onclick="setLang('de')">DE</button>
+<button class="lang-btn" onclick="setLang('en')">EN</button>
+</div>
+</div>
+<div class="main-panel">
+<div class="controls">
+<div class="control-group">
+<label data-de="Jahr auswählen" data-en="Select Year">Jahr auswählen</label>
+<div class="year-btns" id="yearBtns"></div>
+</div>
+<div class="control-group">
+<label>Animation</label>
+<div class="play-controls">
+<button aria-label="Play/Pause" class="play-btn" id="playBtn" onclick="togglePlay()">▶</button>
+<div class="speed-control">
+<span>🐢</span>
+<input aria-label="Animation Speed" id="speedSlider" max="10" min="1" onchange="setSpeed(this.value)" type="range" value="5"/>
+<span>🐇</span>
+</div>
+</div>
+</div>
+</div>
+<div class="timeline">
+<div class="timeline-top">
+<div class="seasons">
+<span class="season winter">
+<span class="icon">❄️</span>
+<span data-de="Winter" data-en="Winter">Winter</span>
+</span>
+<span class="season spring">
+<span class="icon">🌸</span>
+<span data-de="Frühling" data-en="Spring">Frühling</span>
+</span>
+<span class="season summer">
+<span class="icon">☀️</span>
+<span data-de="Sommer" data-en="Summer">Sommer</span>
+</span>
+<span class="season autumn">
+<span class="icon">🍂</span>
+<span data-de="Herbst" data-en="Autumn">Herbst</span>
+</span>
+</div>
+<div class="current-date" id="currentDate">Mai 1861</div>
+</div>
+<div class="month-row" id="monthRow"></div>
+<div class="slider-container">
+<div class="slider-track"></div>
+<input class="month-slider" id="monthSlider" max="11" min="0" oninput="setMonth(parseInt(this.value))" type="range" value="4"/>
+</div>
+</div>
+<div class="sky spring" id="sky">
+<div class="sun-rays"></div>
+<div class="sun"></div>
+<div class="cloud cloud1"></div>
+<div class="cloud cloud2"></div>
+<div class="cloud cloud3"></div>
+<!-- Snowflakes -->
+<span class="snowflake" style="left:5%;animation-delay:0s;">❄</span>
+<span class="snowflake" style="left:15%;animation-delay:0.7s;">❅</span>
+<span class="snowflake" style="left:28%;animation-delay:1.4s;">❄</span>
+<span class="snowflake" style="left:42%;animation-delay:0.3s;">❅</span>
+<span class="snowflake" style="left:55%;animation-delay:1.1s;">❄</span>
+<span class="snowflake" style="left:68%;animation-delay:1.8s;">❅</span>
+<span class="snowflake" style="left:82%;animation-delay:2.3s;">❄</span>
+<span class="snowflake" style="left:95%;animation-delay:0.5s;">❅</span>
+<!-- Leaves -->
+<span class="leaf" style="left:8%;animation-delay:0s;">🍂</span>
+<span class="leaf" style="left:22%;animation-delay:1s;">🍁</span>
+<span class="leaf" style="left:36%;animation-delay:2s;">🍂</span>
+<span class="leaf" style="left:50%;animation-delay:0.5s;">🍁</span>
+<span class="leaf" style="left:64%;animation-delay:1.5s;">🍂</span>
+<span class="leaf" style="left:78%;animation-delay:2.5s;">🍁</span>
+<span class="leaf" style="left:92%;animation-delay:3s;">🍂</span>
+<!-- Spring blossoms -->
+<span class="blossom" style="left:10%;animation-delay:0s;">🌸</span>
+<span class="blossom" style="left:25%;animation-delay:1.5s;">🌺</span>
+<span class="blossom" style="left:40%;animation-delay:3s;">🌸</span>
+<span class="blossom" style="left:55%;animation-delay:0.8s;">🌺</span>
+<span class="blossom" style="left:70%;animation-delay:2.3s;">🌸</span>
+<span class="blossom" style="left:85%;animation-delay:4s;">🌺</span>
+<div class="ground">
+<div class="tree"><div class="tree-crown"></div><div class="tree-trunk"></div></div>
+<div class="tree"><div class="tree-crown"></div><div class="tree-trunk"></div></div>
+<div class="tree"><div class="tree-crown"></div><div class="tree-trunk"></div></div>
+<div class="tree"><div class="tree-crown"></div><div class="tree-trunk"></div></div>
+<div class="tree"><div class="tree-crown"></div><div class="tree-trunk"></div></div>
+<div class="tree"><div class="tree-crown"></div><div class="tree-trunk"></div></div>
+<div class="tree"><div class="tree-crown"></div><div class="tree-trunk"></div></div>
+</div>
+</div>
+<div class="status-section">
+<div class="status-card arrivals">
+<div class="status-header">
+<span class="status-title">
+<span class="icon">↗️</span>
+<span data-de="Ankünfte" data-en="Arrivals">Ankünfte</span>
+</span>
+<span class="status-count" id="arrCount">0</span>
+</div>
+<div class="status-list" id="arrList"></div>
+</div>
+<div class="status-card present">
+<div class="status-header">
+<span class="status-title">
+<span class="icon">✓</span>
+<span data-de="Anwesend" data-en="Present">Anwesend</span>
+</span>
+<span class="status-count" id="presCount">0</span>
+</div>
+<div class="status-list" id="presList"></div>
+</div>
+<div class="status-card departures">
+<div class="status-header">
+<span class="status-title">
+<span class="icon">↘️</span>
+<span data-de="Abzüge" data-en="Departures">Abzüge</span>
+</span>
+<span class="status-count" id="depCount">0</span>
+</div>
+<div class="status-list" id="depList"></div>
+</div>
+</div>
+<div class="bird-section">
+<div class="section-title">
+<span class="icon">📋</span>
+<span data-de="Alle Zugvogelarten" data-en="All Migratory Species">Alle Zugvogelarten</span>
+</div>
+<div class="bird-grid" id="birdGrid"></div>
+</div>
+<div class="footer">
+<span data-de="Datenquelle: Ludwig Müller, Gera 1859–1864 · Fürstentum Reuß j. L." data-en="Data source: Ludwig Müller, Gera 1859–1864 · Principality of Reuss j.L.">
+                    Datenquelle: Ludwig Müller, Gera 1859–1864 · Fürstentum Reuß j. L.
+                </span>
+</div>
+</div>
+</div>
+<script>
+(function() {
+    'use strict';
+    
+    // Bird data with RELIABLE image URLs from iNaturalist (CC licensed)
+    const BIRDS = [
+        {
+            id: 'lerche',
+            de: 'Lerche',
+            en: 'Skylark',
+            img: 'https://commons.wikimedia.org/wiki/Special:FilePath/Alauda_arvensis_2.jpg?width=480',
+            data: { 1859:{arr:[15,2],dep:[10,11]}, 1860:{arr:[1,3],dep:[30,10]}, 1861:{arr:[7,2],dep:[1,11]}, 1862:{arr:[7,2],dep:[16,11]}, 1863:{arr:[29,1],dep:[20,10]}, 1864:{arr:[20,1],dep:null} }
+        },
+        {
+            id: 'bachstelze',
+            de: 'Bachstelze',
+            en: 'Wagtail',
+            img: 'https://inaturalist-open-data.s3.amazonaws.com/photos/57845752/medium.jpg',
+            data: { 1859:{arr:[15,3],dep:[12,10]}, 1860:{arr:null,dep:null}, 1861:{arr:[4,3],dep:null}, 1862:{arr:null,dep:null}, 1863:{arr:null,dep:null}, 1864:{arr:null,dep:null} }
+        },
+        {
+            id: 'hausschwalbe',
+            de: 'Hausschwalbe',
+            en: 'House Martin',
+            img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Dupont_nature_center_5.27.24_DSC_8732-topaz-denoiseraw-sharpen.jpg/500px-Dupont_nature_center_5.27.24_DSC_8732-topaz-denoiseraw-sharpen.jpg?uselang=de',
+            data: { 1859:{arr:[23,4],dep:[4,10]}, 1860:{arr:[9,4],dep:[15,10]}, 1861:{arr:[13,4],dep:null}, 1862:{arr:null,dep:null}, 1863:{arr:null,dep:null}, 1864:{arr:null,dep:null} }
+        },
+        {
+            id: 'grasmuecke',
+            de: 'Schwarzk. Grasmücke',
+            en: 'Blackcap',
+            img: 'https://inaturalist-open-data.s3.amazonaws.com/photos/60401789/medium.jpg',
+            data: { 1859:{arr:[3,5],dep:[26,9]}, 1860:{arr:null,dep:null}, 1861:{arr:null,dep:[19,8]}, 1862:{arr:null,dep:null}, 1863:{arr:null,dep:null}, 1864:{arr:null,dep:null} }
+        },
+        {
+            id: 'turmschwalbe',
+            de: 'Turmschwalbe',
+            en: 'Common Swift',
+            img: 'https://inaturalist-open-data.s3.amazonaws.com/photos/80652287/medium.jpg',
+            data: { 1859:{arr:[4,5],dep:null}, 1860:{arr:null,dep:null}, 1861:{arr:[5,5],dep:[12,8]}, 1862:{arr:[26,4],dep:[5,8]}, 1863:{arr:[3,5],dep:[7,8]}, 1864:{arr:[26,4],dep:[3,8]} }
+        },
+        {
+            id: 'pirol',
+            de: 'Pirol',
+            en: 'Eurasian Golden Oriole',
+            img: 'https://commons.wikimedia.org/wiki/Special:FilePath/Oriolus_oriolus00.jpg?width=480',
+            data: { 1859:{arr:[1,6],dep:null}, 1860:{arr:[12,5],dep:null}, 1861:{arr:[11,5],dep:[16,8]}, 1862:{arr:[25,4],dep:[16,8]}, 1863:{arr:[5,5],dep:[15,8]}, 1864:{arr:[4,5],dep:null} }
+        },
+        {
+            id: 'kuckuck',
+            de: 'Kuckuck',
+            en: 'Common Cuckoo',
+            img: 'https://commons.wikimedia.org/wiki/Special:FilePath/Common_Cuckoo_(Cuculus_canorus)_(31177813565).jpg?width=480',
+            data: { 1859:{arr:[16,4],dep:null}, 1860:{arr:[5,5],dep:null}, 1861:{arr:[1,5],dep:[13,8]}, 1862:{arr:[1,4],dep:[20,8]}, 1863:{arr:[27,4],dep:[19,8]}, 1864:{arr:[27,4],dep:null} }
+        },
+        {
+            id: 'mehlschwalbe',
+            de: 'Mehlschwalbe',
+            en: 'House Martin',
+            img: 'https://commons.wikimedia.org/wiki/Special:FilePath/Delichon_urbica_NRM.jpg?width=480',
+            data: { 1859:{arr:null,dep:null}, 1860:{arr:[4,5],dep:null}, 1861:{arr:[13,5],dep:[15,9]}, 1862:{arr:[29,4],dep:[15,9]}, 1863:{arr:[3,5],dep:null}, 1864:{arr:null,dep:null} }
+        },
+        {
+            id: 'ringeltaube',
+            de: 'Ringeltaube',
+            en: 'Common Wood Pigeon',
+            img: 'https://commons.wikimedia.org/wiki/Special:FilePath/Common_Wood_Pigeon.jpg?width=480',
+            data: { 1859:{arr:null,dep:null}, 1860:{arr:null,dep:null}, 1861:{arr:null,dep:[18,9]}, 1862:{arr:[13,3],dep:null}, 1863:{arr:[7,3],dep:null}, 1864:{arr:null,dep:null} }
+        },
+        {
+            id: 'rauchschwalbe',
+            de: 'Rauchschwalbe',
+            en: 'Barn Swallow',
+            img: 'https://upload.wikimedia.org/wikipedia/commons/archive/2/24/20050218061514%21Landsvale.jpg?width=480',
+            data: { 1859:{arr:null,dep:null}, 1860:{arr:null,dep:null}, 1861:{arr:null,dep:[29,9]}, 1862:{arr:[11,4],dep:[20,9]}, 1863:{arr:[11,4],dep:[19,8]}, 1864:{arr:[12,4],dep:[1,10]} }
+        },
+        {
+            id: 'hausrotschwanz',
+            de: 'Hausrotschwanz',
+            en: 'Black Redstart',
+            img: 'https://commons.wikimedia.org/wiki/Special:FilePath/Phoenicurus_ochruros_Hausrotschwanz_01_ms.jpg?width=480',
+            data: { 1859:{arr:null,dep:null}, 1860:{arr:[24,3],dep:null}, 1861:{arr:[25,3],dep:[8,10]}, 1862:{arr:[13,3],dep:[6,10]}, 1863:{arr:[24,3],dep:[11,10]}, 1864:{arr:[19,3],dep:null} }
+        },
+        {
+            id: 'star',
+            de: 'Star',
+            en: 'Starling',
+            img: 'https://inaturalist-open-data.s3.amazonaws.com/photos/57773632/medium.jpg',
+            data: { 1859:{arr:null,dep:null}, 1860:{arr:null,dep:null}, 1861:{arr:null,dep:[9,10]}, 1862:{arr:[17,2],dep:null}, 1863:{arr:[2,2],dep:null}, 1864:{arr:[30,1],dep:null} }
+        },
+        {
+            id: 'waldschnepfe',
+            de: 'Waldschnepfe',
+            en: 'Eurasian Woodcock',
+            img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Eurasian_Woodcock_(Scolopax_rusticola)_(53435215100).jpg/480px-Eurasian_Woodcock_(Scolopax_rusticola)_(53435215100).jpg',
+            data: { 1859:{arr:null,dep:null}, 1860:{arr:[3,4],dep:null}, 1861:{arr:[12,3],dep:[9,10]}, 1862:{arr:[16,3],dep:null}, 1863:{arr:null,dep:[28,10]}, 1864:{arr:[11,3],dep:null} }
+        },
+        {
+            id: 'weissebachstelze',
+            de: 'Weiße Bachstelze',
+            en: 'White Wagtail',
+            img: 'https://inaturalist-open-data.s3.amazonaws.com/photos/57845752/medium.jpg',
+            data: { 1859:{arr:null,dep:null}, 1860:{arr:null,dep:null}, 1861:{arr:[4,3],dep:[28,10]}, 1862:{arr:[26,2],dep:[15,10]}, 1863:{arr:[5,3],dep:[13,10]}, 1864:{arr:[5,3],dep:[3,10]} }
+        }
+    ];
+    
+    let currentYear = 1861, currentMonth = 4, isPlaying = false, playInterval = null, animSpeed = 700, lang = 'de';
+    let previousBirdStates = {};
+    
+    const MONTHS = {
+        de: ['Jan','Feb','Mär','Apr','Mai','Jun','Jul','Aug','Sep','Okt','Nov','Dez'],
+        en: ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec']
+    };
+    const MONTHS_FULL = {
+        de: ['Januar','Februar','März','April','Mai','Juni','Juli','August','September','Oktober','November','Dezember'],
+        en: ['January','February','March','April','May','June','July','August','September','October','November','December']
+    };
+    
+    function getBirdName(bird) { return lang === 'en' ? bird.en : bird.de; }
+    
+    function getBirdStatus(bird, year, month) {
+        const data = bird.data[year];
+        if (!data) return 'no-data';
+        const arr = data.arr, dep = data.dep;
+        if (!arr && !dep) return 'no-data';
+        const m = month + 1;
+        if (arr && arr[1] === m) return 'arriving';
+        if (dep && dep[1] === m) return 'departing';
+        if (arr && arr[1] > m) return 'absent';
+        if (dep && dep[1] < m) return 'absent';
+        if (arr && arr[1] <= m && (!dep || dep[1] >= m)) return 'present';
+        if (!arr && dep && dep[1] >= m) return 'present';
+        return 'no-data';
+    }
+    
+    function formatDate(d) { return d ? d[0]+'.'+d[1]+'.' : '—'; }
+    
+    function getSeason(month) {
+        if (month >= 2 && month <= 4) return 'spring';
+        if (month >= 5 && month <= 7) return 'summer';
+        if (month >= 8 && month <= 10) return 'autumn';
+        return 'winter';
+    }
+    
+    function initYearButtons() {
+        document.getElementById('yearBtns').innerHTML = [1859,1860,1861,1862,1863,1864].map(y => 
+            `<button class="year-btn ${y===currentYear?'active':''}" onclick="setYear(${y})">${y}</button>`
+        ).join('');
+    }
+    
+    function renderMonthLabels() {
+        document.getElementById('monthRow').innerHTML = MONTHS[lang].map((m,i) => 
+            `<span class="${i===currentMonth?'active':''}">${m}</span>`
+        ).join('');
+    }
+    
+    function updateCurrentDate() {
+        const dateEl = document.getElementById('currentDate');
+        dateEl.textContent = MONTHS_FULL[lang][currentMonth] + ' ' + currentYear;
+    }
+    
+    function updateSeasons() {
+        const season = getSeason(currentMonth);
+        document.querySelectorAll('.season').forEach(s => s.classList.remove('active'));
+        document.querySelector('.season.'+season).classList.add('active');
+        document.getElementById('sky').className = 'sky ' + season;
+    }
+    
+    function renderSkyBirds() {
+        const sky = document.getElementById('sky');
+        const existingBirds = sky.querySelectorAll('.bird');
+        
+        const positions = [
+            {x:5,y:6},{x:16,y:22},{x:28,y:10},{x:40,y:26},{x:52,y:5},{x:64,y:18},{x:76,y:12},{x:88,y:24},
+            {x:10,y:36},{x:22,y:44},{x:34,y:40},{x:46,y:46},{x:58,y:34},{x:70,y:42},{x:82,y:38}
+        ];
+        
+        // Build map of current bird states
+        const currentBirdStates = {};
+        BIRDS.forEach((bird, i) => {
+            const status = getBirdStatus(bird, currentYear, currentMonth);
+            currentBirdStates[bird.id] = status;
+        });
+        
+        // Remove birds that are now absent or no-data with animation
+        existingBirds.forEach(birdEl => {
+            const birdId = birdEl.dataset.birdId;
+            const newStatus = currentBirdStates[birdId];
+            if (newStatus === 'absent' || newStatus === 'no-data') {
+                birdEl.classList.remove('visible');
+                birdEl.classList.add('departing');
+                setTimeout(() => birdEl.remove(), 600);
+            }
+        });
+        
+        // Add or update birds
+        BIRDS.forEach((bird, i) => {
+            const status = getBirdStatus(bird, currentYear, currentMonth);
+            if (status === 'absent' || status === 'no-data') return;
+            
+            let birdEl = sky.querySelector(`.bird[data-bird-id="${bird.id}"]`);
+            const pos = positions[i % positions.length];
+            const xOff = (Math.random()-0.5)*5;
+            const yOff = (Math.random()-0.5)*5;
+            
+            if (!birdEl) {
+                // Create new bird element
+                birdEl = document.createElement('div');
+                birdEl.className = 'bird';
+                birdEl.dataset.birdId = bird.id;
+                birdEl.style.left = (pos.x+xOff)+'%';
+                birdEl.style.top = (pos.y+yOff)+'%';
+                birdEl.innerHTML = `<img src="${bird.img}" alt="${getBirdName(bird)}" onerror="this.style.background='linear-gradient(135deg, #c8b896 0%, #b8a886 100%)'"><span class="bird-label">${getBirdName(bird)}</span>`;
+                sky.appendChild(birdEl);
+                
+                // Trigger animation
+                requestAnimationFrame(() => {
+                    birdEl.classList.add('visible');
+                    if (status === 'arriving') {
+                        birdEl.classList.add('arriving');
+                    }
+                });
+            }
+            
+            // Update status class
+            birdEl.classList.remove('arriving', 'departing', 'present');
+            if (status === 'arriving') {
+                birdEl.classList.add('arriving');
+            } else if (status === 'departing') {
+                birdEl.classList.add('departing');
+            } else {
+                birdEl.classList.add('present');
+            }
+            birdEl.classList.add('visible');
+            
+            // Update label
+            birdEl.querySelector('.bird-label').textContent = getBirdName(bird);
+        });
+        
+        previousBirdStates = currentBirdStates;
+    }
+    
+    function renderStatusPanels() {
+        const arriving=[], present=[], departing=[];
+        BIRDS.forEach(bird => {
+            const status = getBirdStatus(bird, currentYear, currentMonth);
+            if (status === 'arriving') arriving.push(bird);
+            else if (status === 'present') present.push(bird);
+            else if (status === 'departing') departing.push(bird);
+        });
+        
+        // Animate count changes
+        animateCount('arrCount', arriving.length);
+        animateCount('presCount', present.length);
+        animateCount('depCount', departing.length);
+        
+        const chips = bs => bs.length===0 ? '<span class="empty-msg">—</span>' : bs.map(b => 
+            `<span class="chip"><img src="${b.img}" onerror="this.style.display='none'">${getBirdName(b)}</span>`
+        ).join('');
+        
+        document.getElementById('arrList').innerHTML = chips(arriving);
+        document.getElementById('presList').innerHTML = chips(present);
+        document.getElementById('depList').innerHTML = chips(departing);
+    }
+    
+    function animateCount(elementId, newValue) {
+        const el = document.getElementById(elementId);
+        const currentValue = parseInt(el.textContent) || 0;
+        if (currentValue !== newValue) {
+            el.style.transform = 'scale(1.3)';
+            setTimeout(() => {
+                el.textContent = newValue;
+                el.style.transform = 'scale(1)';
+            }, 150);
+        }
+    }
+    
+    function renderBirdGrid() {
+        document.getElementById('birdGrid').innerHTML = BIRDS.map(bird => {
+            const status = getBirdStatus(bird, currentYear, currentMonth);
+            const data = bird.data[currentYear];
+            
+            let statusText, statusIcon;
+            if (status === 'arriving') { 
+                statusText = lang==='en'?'Arriving':'Ankunft'; 
+                statusIcon = '↗️'; 
+            }
+            else if (status === 'departing') { 
+                statusText = lang==='en'?'Departing':'Abzug'; 
+                statusIcon = '↘️'; 
+            }
+            else if (status === 'present') { 
+                statusText = lang==='en'?'Present':'Anwesend'; 
+                statusIcon = '✓'; 
+            }
+            else if (status === 'no-data') { 
+                statusText = lang==='en'?'No data':'Keine Daten'; 
+                statusIcon = '—'; 
+            }
+            else { 
+                statusText = lang==='en'?'Not here':'Nicht da'; 
+                statusIcon = '○'; 
+            }
+            
+            let dates = '';
+            if (data) {
+                const al = lang==='en'?'Arr':'Ank', dl = lang==='en'?'Dep':'Abz';
+                if (data.arr) dates += al+': '+formatDate(data.arr);
+                if (data.arr && data.dep) dates += ' · ';
+                if (data.dep) dates += dl+': '+formatDate(data.dep);
+            }
+            
+            return `<div class="bird-card ${status}">
+                <img src="${bird.img}" onerror="this.style.background='linear-gradient(135deg, #c8b896 0%, #b8a886 100%)'">
+                <div class="bird-card-info">
+                    <div class="bird-card-name">${getBirdName(bird)}</div>
+                    <div class="bird-card-status">
+                        <span class="status-icon">${statusIcon}</span>
+                        ${statusText}
+                    </div>
+                    ${dates?`<div class="bird-card-dates">${dates}</div>`:''}
+                </div>
+            </div>`;
+        }).join('');
+    }
+    
+    function updateLanguageText() {
+        document.querySelectorAll('[data-de][data-en]').forEach(el => {
+            el.textContent = el.getAttribute('data-'+lang);
+        });
+        document.querySelectorAll('.lang-btn').forEach(btn => {
+            btn.classList.toggle('active', btn.textContent.toLowerCase()===lang);
+        });
+    }
+    
+    function render() { 
+        renderMonthLabels(); 
+        updateCurrentDate(); 
+        updateSeasons(); 
+        renderSkyBirds(); 
+        renderStatusPanels(); 
+        renderBirdGrid(); 
+    }
+    
+    window.setYear = function(y) {
+        currentYear = y;
+        document.querySelectorAll('.year-btn').forEach(btn => {
+            btn.classList.toggle('active', parseInt(btn.textContent)===y);
+        });
+        // Clear bird cache to force re-render
+        document.querySelectorAll('.sky .bird').forEach(b => b.remove());
+        previousBirdStates = {};
+        render();
+    };
+    
+    window.setMonth = function(m) { 
+        currentMonth = Math.max(0, Math.min(11,m)); 
+        document.getElementById('monthSlider').value = currentMonth; 
+        render(); 
+    };
+    
+    window.togglePlay = function() {
+        isPlaying = !isPlaying;
+        const btn = document.getElementById('playBtn');
+        btn.textContent = isPlaying ? '⏸' : '▶';
+        btn.style.transform = isPlaying ? 'scale(1.05)' : 'scale(1)';
+        
+        if (isPlaying) {
+            playInterval = setInterval(() => { 
+                currentMonth++; 
+                if(currentMonth>11) currentMonth=0; 
+                document.getElementById('monthSlider').value=currentMonth; 
+                render(); 
+            }, animSpeed);
+        } else { 
+            clearInterval(playInterval); 
+        }
+    };
+    
+    window.setSpeed = function(v) {
+        animSpeed = 1200 - (parseInt(v)*100);
+        if (isPlaying) { 
+            clearInterval(playInterval); 
+            playInterval = setInterval(() => { 
+                currentMonth++; 
+                if(currentMonth>11) currentMonth=0; 
+                document.getElementById('monthSlider').value=currentMonth; 
+                render(); 
+            }, animSpeed); 
+        }
+    };
+    
+    window.setLang = function(l) { 
+        lang = l; 
+        updateLanguageText(); 
+        render(); 
+    };
+    
+    function init() { 
+        initYearButtons(); 
+        updateLanguageText(); 
+        render(); 
+        console.log('🐦 Bird Migration Visualization Enhanced loaded!'); 
+    }
+    
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', init);
+    } else {
+        init();
+    }
+})();
+</script>
+</div>
+</div>
+</div>
+<script>
+// Bird Migration Visualization Script
+(function() {
+    'use strict';
+    
+
+(function() {
+    'use strict';
+    
+    // Bird data with RELIABLE image URLs from iNaturalist (CC licensed)
+    const BIRDS = [
+        {
+            id: 'lerche',
+            de: 'Lerche',
+            en: 'Skylark',
+            img: 'https://commons.wikimedia.org/wiki/Special:FilePath/Alauda_arvensis_2.jpg?width=480',
+            data: { 1859:{arr:[15,2],dep:[10,11]}, 1860:{arr:[1,3],dep:[30,10]}, 1861:{arr:[7,2],dep:[1,11]}, 1862:{arr:[7,2],dep:[16,11]}, 1863:{arr:[29,1],dep:[20,10]}, 1864:{arr:[20,1],dep:null} }
+        },
+        {
+            id: 'bachstelze',
+            de: 'Bachstelze',
+            en: 'Wagtail',
+            img: 'https://inaturalist-open-data.s3.amazonaws.com/photos/57845752/medium.jpg',
+            data: { 1859:{arr:[15,3],dep:[12,10]}, 1860:{arr:null,dep:null}, 1861:{arr:[4,3],dep:null}, 1862:{arr:null,dep:null}, 1863:{arr:null,dep:null}, 1864:{arr:null,dep:null} }
+        },
+        {
+            id: 'hausschwalbe',
+            de: 'Hausschwalbe',
+            en: 'House Martin',
+            img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Dupont_nature_center_5.27.24_DSC_8732-topaz-denoiseraw-sharpen.jpg/500px-Dupont_nature_center_5.27.24_DSC_8732-topaz-denoiseraw-sharpen.jpg?uselang=de',
+            data: { 1859:{arr:[23,4],dep:[4,10]}, 1860:{arr:[9,4],dep:[15,10]}, 1861:{arr:[13,4],dep:null}, 1862:{arr:null,dep:null}, 1863:{arr:null,dep:null}, 1864:{arr:null,dep:null} }
+        },
+        {
+            id: 'grasmuecke',
+            de: 'Schwarzk. Grasmücke',
+            en: 'Blackcap',
+            img: 'https://inaturalist-open-data.s3.amazonaws.com/photos/60401789/medium.jpg',
+            data: { 1859:{arr:[3,5],dep:[26,9]}, 1860:{arr:null,dep:null}, 1861:{arr:null,dep:[19,8]}, 1862:{arr:null,dep:null}, 1863:{arr:null,dep:null}, 1864:{arr:null,dep:null} }
+        },
+        {
+            id: 'turmschwalbe',
+            de: 'Turmschwalbe',
+            en: 'Common Swift',
+            img: 'https://inaturalist-open-data.s3.amazonaws.com/photos/80652287/medium.jpg',
+            data: { 1859:{arr:[4,5],dep:null}, 1860:{arr:null,dep:null}, 1861:{arr:[5,5],dep:[12,8]}, 1862:{arr:[26,4],dep:[5,8]}, 1863:{arr:[3,5],dep:[7,8]}, 1864:{arr:[26,4],dep:[3,8]} }
+        },
+        {
+            id: 'pirol',
+            de: 'Pirol',
+            en: 'Eurasian Golden Oriole',
+            img: 'https://commons.wikimedia.org/wiki/Special:FilePath/Oriolus_oriolus00.jpg?width=480',
+            data: { 1859:{arr:[1,6],dep:null}, 1860:{arr:[12,5],dep:null}, 1861:{arr:[11,5],dep:[16,8]}, 1862:{arr:[25,4],dep:[16,8]}, 1863:{arr:[5,5],dep:[15,8]}, 1864:{arr:[4,5],dep:null} }
+        },
+        {
+            id: 'kuckuck',
+            de: 'Kuckuck',
+            en: 'Common Cuckoo',
+            img: 'https://commons.wikimedia.org/wiki/Special:FilePath/Common_Cuckoo_(Cuculus_canorus)_(31177813565).jpg?width=480',
+            data: { 1859:{arr:[16,4],dep:null}, 1860:{arr:[5,5],dep:null}, 1861:{arr:[1,5],dep:[13,8]}, 1862:{arr:[1,4],dep:[20,8]}, 1863:{arr:[27,4],dep:[19,8]}, 1864:{arr:[27,4],dep:null} }
+        },
+        {
+            id: 'mehlschwalbe',
+            de: 'Mehlschwalbe',
+            en: 'House Martin',
+            img: 'https://commons.wikimedia.org/wiki/Special:FilePath/Delichon_urbica_NRM.jpg?width=480',
+            data: { 1859:{arr:null,dep:null}, 1860:{arr:[4,5],dep:null}, 1861:{arr:[13,5],dep:[15,9]}, 1862:{arr:[29,4],dep:[15,9]}, 1863:{arr:[3,5],dep:null}, 1864:{arr:null,dep:null} }
+        },
+        {
+            id: 'ringeltaube',
+            de: 'Ringeltaube',
+            en: 'Common Wood Pigeon',
+            img: 'https://commons.wikimedia.org/wiki/Special:FilePath/Common_Wood_Pigeon.jpg?width=480',
+            data: { 1859:{arr:null,dep:null}, 1860:{arr:null,dep:null}, 1861:{arr:null,dep:[18,9]}, 1862:{arr:[13,3],dep:null}, 1863:{arr:[7,3],dep:null}, 1864:{arr:null,dep:null} }
+        },
+        {
+            id: 'rauchschwalbe',
+            de: 'Rauchschwalbe',
+            en: 'Barn Swallow',
+            img: 'https://upload.wikimedia.org/wikipedia/commons/archive/2/24/20050218061514%21Landsvale.jpg?width=480',
+            data: { 1859:{arr:null,dep:null}, 1860:{arr:null,dep:null}, 1861:{arr:null,dep:[29,9]}, 1862:{arr:[11,4],dep:[20,9]}, 1863:{arr:[11,4],dep:[19,8]}, 1864:{arr:[12,4],dep:[1,10]} }
+        },
+        {
+            id: 'hausrotschwanz',
+            de: 'Hausrotschwanz',
+            en: 'Black Redstart',
+            img: 'https://commons.wikimedia.org/wiki/Special:FilePath/Phoenicurus_ochruros_Hausrotschwanz_01_ms.jpg?width=480',
+            data: { 1859:{arr:null,dep:null}, 1860:{arr:[24,3],dep:null}, 1861:{arr:[25,3],dep:[8,10]}, 1862:{arr:[13,3],dep:[6,10]}, 1863:{arr:[24,3],dep:[11,10]}, 1864:{arr:[19,3],dep:null} }
+        },
+        {
+            id: 'star',
+            de: 'Star',
+            en: 'Starling',
+            img: 'https://inaturalist-open-data.s3.amazonaws.com/photos/57773632/medium.jpg',
+            data: { 1859:{arr:null,dep:null}, 1860:{arr:null,dep:null}, 1861:{arr:null,dep:[9,10]}, 1862:{arr:[17,2],dep:null}, 1863:{arr:[2,2],dep:null}, 1864:{arr:[30,1],dep:null} }
+        },
+        {
+            id: 'waldschnepfe',
+            de: 'Waldschnepfe',
+            en: 'Eurasian Woodcock',
+            img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Eurasian_Woodcock_(Scolopax_rusticola)_(53435215100).jpg/480px-Eurasian_Woodcock_(Scolopax_rusticola)_(53435215100).jpg',
+            data: { 1859:{arr:null,dep:null}, 1860:{arr:[3,4],dep:null}, 1861:{arr:[12,3],dep:[9,10]}, 1862:{arr:[16,3],dep:null}, 1863:{arr:null,dep:[28,10]}, 1864:{arr:[11,3],dep:null} }
+        },
+        {
+            id: 'weissebachstelze',
+            de: 'Weiße Bachstelze',
+            en: 'White Wagtail',
+            img: 'https://inaturalist-open-data.s3.amazonaws.com/photos/57845752/medium.jpg',
+            data: { 1859:{arr:null,dep:null}, 1860:{arr:null,dep:null}, 1861:{arr:[4,3],dep:[28,10]}, 1862:{arr:[26,2],dep:[15,10]}, 1863:{arr:[5,3],dep:[13,10]}, 1864:{arr:[5,3],dep:[3,10]} }
+        }
+    ];
+    
+    let currentYear = 1861, currentMonth = 4, isPlaying = false, playInterval = null, animSpeed = 700, lang = 'de';
+    let previousBirdStates = {};
+    
+    const MONTHS = {
+        de: ['Jan','Feb','Mär','Apr','Mai','Jun','Jul','Aug','Sep','Okt','Nov','Dez'],
+        en: ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec']
+    };
+    const MONTHS_FULL = {
+        de: ['Januar','Februar','März','April','Mai','Juni','Juli','August','September','Oktober','November','Dezember'],
+        en: ['January','February','March','April','May','June','July','August','September','October','November','December']
+    };
+    
+    function getBirdName(bird) { return lang === 'en' ? bird.en : bird.de; }
+    
+    function getBirdStatus(bird, year, month) {
+        const data = bird.data[year];
+        if (!data) return 'no-data';
+        const arr = data.arr, dep = data.dep;
+        if (!arr && !dep) return 'no-data';
+        const m = month + 1;
+        if (arr && arr[1] === m) return 'arriving';
+        if (dep && dep[1] === m) return 'departing';
+        if (arr && arr[1] > m) return 'absent';
+        if (dep && dep[1] < m) return 'absent';
+        if (arr && arr[1] <= m && (!dep || dep[1] >= m)) return 'present';
+        if (!arr && dep && dep[1] >= m) return 'present';
+        return 'no-data';
+    }
+    
+    function formatDate(d) { return d ? d[0]+'.'+d[1]+'.' : '—'; }
+    
+    function getSeason(month) {
+        if (month >= 2 && month <= 4) return 'spring';
+        if (month >= 5 && month <= 7) return 'summer';
+        if (month >= 8 && month <= 10) return 'autumn';
+        return 'winter';
+    }
+    
+    function initYearButtons() {
+        document.getElementById('yearBtns').innerHTML = [1859,1860,1861,1862,1863,1864].map(y => 
+            `<button class="year-btn ${y===currentYear?'active':''}" onclick="setYear(${y})">${y}</button>`
+        ).join('');
+    }
+    
+    function renderMonthLabels() {
+        document.getElementById('monthRow').innerHTML = MONTHS[lang].map((m,i) => 
+            `<span class="${i===currentMonth?'active':''}">${m}</span>`
+        ).join('');
+    }
+    
+    function updateCurrentDate() {
+        const dateEl = document.getElementById('currentDate');
+        dateEl.textContent = MONTHS_FULL[lang][currentMonth] + ' ' + currentYear;
+    }
+    
+    function updateSeasons() {
+        const season = getSeason(currentMonth);
+        document.querySelectorAll('.season').forEach(s => s.classList.remove('active'));
+        document.querySelector('.season.'+season).classList.add('active');
+        document.getElementById('sky').className = 'sky ' + season;
+    }
+    
+    function renderSkyBirds() {
+        const sky = document.getElementById('sky');
+        const existingBirds = sky.querySelectorAll('.bird');
+        
+        const positions = [
+            {x:5,y:6},{x:16,y:22},{x:28,y:10},{x:40,y:26},{x:52,y:5},{x:64,y:18},{x:76,y:12},{x:88,y:24},
+            {x:10,y:36},{x:22,y:44},{x:34,y:40},{x:46,y:46},{x:58,y:34},{x:70,y:42},{x:82,y:38}
+        ];
+        
+        // Build map of current bird states
+        const currentBirdStates = {};
+        BIRDS.forEach((bird, i) => {
+            const status = getBirdStatus(bird, currentYear, currentMonth);
+            currentBirdStates[bird.id] = status;
+        });
+        
+        // Remove birds that are now absent or no-data with animation
+        existingBirds.forEach(birdEl => {
+            const birdId = birdEl.dataset.birdId;
+            const newStatus = currentBirdStates[birdId];
+            if (newStatus === 'absent' || newStatus === 'no-data') {
+                birdEl.classList.remove('visible');
+                birdEl.classList.add('departing');
+                setTimeout(() => birdEl.remove(), 600);
+            }
+        });
+        
+        // Add or update birds
+        BIRDS.forEach((bird, i) => {
+            const status = getBirdStatus(bird, currentYear, currentMonth);
+            if (status === 'absent' || status === 'no-data') return;
+            
+            let birdEl = sky.querySelector(`.bird[data-bird-id="${bird.id}"]`);
+            const pos = positions[i % positions.length];
+            const xOff = (Math.random()-0.5)*5;
+            const yOff = (Math.random()-0.5)*5;
+            
+            if (!birdEl) {
+                // Create new bird element
+                birdEl = document.createElement('div');
+                birdEl.className = 'bird';
+                birdEl.dataset.birdId = bird.id;
+                birdEl.style.left = (pos.x+xOff)+'%';
+                birdEl.style.top = (pos.y+yOff)+'%';
+                birdEl.innerHTML = `<img src="${bird.img}" alt="${getBirdName(bird)}" onerror="this.style.background='linear-gradient(135deg, #c8b896 0%, #b8a886 100%)'"><span class="bird-label">${getBirdName(bird)}</span>`;
+                sky.appendChild(birdEl);
+                
+                // Trigger animation
+                requestAnimationFrame(() => {
+                    birdEl.classList.add('visible');
+                    if (status === 'arriving') {
+                        birdEl.classList.add('arriving');
+                    }
+                });
+            }
+            
+            // Update status class
+            birdEl.classList.remove('arriving', 'departing', 'present');
+            if (status === 'arriving') {
+                birdEl.classList.add('arriving');
+            } else if (status === 'departing') {
+                birdEl.classList.add('departing');
+            } else {
+                birdEl.classList.add('present');
+            }
+            birdEl.classList.add('visible');
+            
+            // Update label
+            birdEl.querySelector('.bird-label').textContent = getBirdName(bird);
+        });
+        
+        previousBirdStates = currentBirdStates;
+    }
+    
+    function renderStatusPanels() {
+        const arriving=[], present=[], departing=[];
+        BIRDS.forEach(bird => {
+            const status = getBirdStatus(bird, currentYear, currentMonth);
+            if (status === 'arriving') arriving.push(bird);
+            else if (status === 'present') present.push(bird);
+            else if (status === 'departing') departing.push(bird);
+        });
+        
+        // Animate count changes
+        animateCount('arrCount', arriving.length);
+        animateCount('presCount', present.length);
+        animateCount('depCount', departing.length);
+        
+        const chips = bs => bs.length===0 ? '<span class="empty-msg">—</span>' : bs.map(b => 
+            `<span class="chip"><img src="${b.img}" onerror="this.style.display='none'">${getBirdName(b)}</span>`
+        ).join('');
+        
+        document.getElementById('arrList').innerHTML = chips(arriving);
+        document.getElementById('presList').innerHTML = chips(present);
+        document.getElementById('depList').innerHTML = chips(departing);
+    }
+    
+    function animateCount(elementId, newValue) {
+        const el = document.getElementById(elementId);
+        const currentValue = parseInt(el.textContent) || 0;
+        if (currentValue !== newValue) {
+            el.style.transform = 'scale(1.3)';
+            setTimeout(() => {
+                el.textContent = newValue;
+                el.style.transform = 'scale(1)';
+            }, 150);
+        }
+    }
+    
+    function renderBirdGrid() {
+        document.getElementById('birdGrid').innerHTML = BIRDS.map(bird => {
+            const status = getBirdStatus(bird, currentYear, currentMonth);
+            const data = bird.data[currentYear];
+            
+            let statusText, statusIcon;
+            if (status === 'arriving') { 
+                statusText = lang==='en'?'Arriving':'Ankunft'; 
+                statusIcon = '↗️'; 
+            }
+            else if (status === 'departing') { 
+                statusText = lang==='en'?'Departing':'Abzug'; 
+                statusIcon = '↘️'; 
+            }
+            else if (status === 'present') { 
+                statusText = lang==='en'?'Present':'Anwesend'; 
+                statusIcon = '✓'; 
+            }
+            else if (status === 'no-data') { 
+                statusText = lang==='en'?'No data':'Keine Daten'; 
+                statusIcon = '—'; 
+            }
+            else { 
+                statusText = lang==='en'?'Not here':'Nicht da'; 
+                statusIcon = '○'; 
+            }
+            
+            let dates = '';
+            if (data) {
+                const al = lang==='en'?'Arr':'Ank', dl = lang==='en'?'Dep':'Abz';
+                if (data.arr) dates += al+': '+formatDate(data.arr);
+                if (data.arr && data.dep) dates += ' · ';
+                if (data.dep) dates += dl+': '+formatDate(data.dep);
+            }
+            
+            return `<div class="bird-card ${status}">
+                <img src="${bird.img}" onerror="this.style.background='linear-gradient(135deg, #c8b896 0%, #b8a886 100%)'">
+                <div class="bird-card-info">
+                    <div class="bird-card-name">${getBirdName(bird)}</div>
+                    <div class="bird-card-status">
+                        <span class="status-icon">${statusIcon}</span>
+                        ${statusText}
+                    </div>
+                    ${dates?`<div class="bird-card-dates">${dates}</div>`:''}
+                </div>
+            </div>`;
+        }).join('');
+    }
+    
+    function updateLanguageText() {
+        document.querySelectorAll('[data-de][data-en]').forEach(el => {
+            el.textContent = el.getAttribute('data-'+lang);
+        });
+        document.querySelectorAll('.lang-btn').forEach(btn => {
+            btn.classList.toggle('active', btn.textContent.toLowerCase()===lang);
+        });
+    }
+    
+    function render() { 
+        renderMonthLabels(); 
+        updateCurrentDate(); 
+        updateSeasons(); 
+        renderSkyBirds(); 
+        renderStatusPanels(); 
+        renderBirdGrid(); 
+    }
+    
+    window.setYear = function(y) {
+        currentYear = y;
+        document.querySelectorAll('.year-btn').forEach(btn => {
+            btn.classList.toggle('active', parseInt(btn.textContent)===y);
+        });
+        // Clear bird cache to force re-render
+        document.querySelectorAll('.sky .bird').forEach(b => b.remove());
+        previousBirdStates = {};
+        render();
+    };
+    
+    window.setMonth = function(m) { 
+        currentMonth = Math.max(0, Math.min(11,m)); 
+        document.getElementById('monthSlider').value = currentMonth; 
+        render(); 
+    };
+    
+    window.togglePlay = function() {
+        isPlaying = !isPlaying;
+        const btn = document.getElementById('playBtn');
+        btn.textContent = isPlaying ? '⏸' : '▶';
+        btn.style.transform = isPlaying ? 'scale(1.05)' : 'scale(1)';
+        
+        if (isPlaying) {
+            playInterval = setInterval(() => { 
+                currentMonth++; 
+                if(currentMonth>11) currentMonth=0; 
+                document.getElementById('monthSlider').value=currentMonth; 
+                render(); 
+            }, animSpeed);
+        } else { 
+            clearInterval(playInterval); 
+        }
+    };
+    
+    window.setSpeed = function(v) {
+        animSpeed = 1200 - (parseInt(v)*100);
+        if (isPlaying) { 
+            clearInterval(playInterval); 
+            playInterval = setInterval(() => { 
+                currentMonth++; 
+                if(currentMonth>11) currentMonth=0; 
+                document.getElementById('monthSlider').value=currentMonth; 
+                render(); 
+            }, animSpeed); 
+        }
+    };
+    
+    window.setLang = function(l) { 
+        lang = l; 
+        updateLanguageText(); 
+        render(); 
+    };
+    
+    function init() { 
+        initYearButtons(); 
+        updateLanguageText(); 
+        render(); 
+        console.log('🐦 Bird Migration Visualization Enhanced loaded!'); 
+    }
+    
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', init);
+    } else {
+        init();
+    }
+})();
+
+
+    // Sync language with page
+    const pageLang = document.documentElement.getAttribute('data-lang');
+    if (pageLang && typeof setLang === 'function') {
+        setTimeout(() => setLang(pageLang), 200);
+    }
+    
+    // Watch for language changes
+    const langObserver = new MutationObserver(mutations => {
+        const newLang = document.documentElement.getAttribute('data-lang');
+        if (newLang && typeof setLang === 'function') {
+            setLang(newLang);
+        }
+    });
+    langObserver.observe(document.documentElement, { 
+        attributes: true, 
+        attributeFilter: ['data-lang'] 
+    });
+})();
+</script>

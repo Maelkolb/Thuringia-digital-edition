@@ -1,0 +1,110 @@
+{
+  "page_number": "title",
+  "seq": 5,
+  "image_filename": "bsb11005578_seq_005.jpg",
+  "structure": {
+    "page_number_printed": null,
+    "header": null,
+    "content_blocks": [
+      {
+        "block_type": "heading",
+        "block_index": 0,
+        "content": "Volks- und Landeskunde"
+      },
+      {
+        "block_type": "paragraph",
+        "block_index": 1,
+        "content": "des"
+      },
+      {
+        "block_type": "heading",
+        "block_index": 2,
+        "content": "Fürstenthums Reuß j. L."
+      },
+      {
+        "block_type": "paragraph",
+        "block_index": 3,
+        "content": "Im Auftrage des regierenden Landesfürsten"
+      },
+      {
+        "block_type": "paragraph",
+        "block_index": 4,
+        "content": "verfasst von"
+      },
+      {
+        "block_type": "paragraph",
+        "block_index": 5,
+        "content": "G. Brückner,"
+      },
+      {
+        "block_type": "paragraph",
+        "block_index": 6,
+        "content": "Hof- und Archivrath in Meiningen."
+      },
+      {
+        "block_type": "paragraph",
+        "block_index": 7,
+        "content": "Gera 1870."
+      },
+      {
+        "block_type": "paragraph",
+        "block_index": 8,
+        "content": "Verlag von Fr. Eugen Köhler."
+      },
+      {
+        "block_type": "paragraph",
+        "block_index": 9,
+        "content": "Firma: Kanitz'sche Buchhandlung."
+      }
+    ],
+    "footnotes": []
+  },
+  "ocr_text": "Volks- und Landeskunde\n\ndes\n\nFürstenthums Reuß j. L.\n\nIm Auftrage des regierenden Landesfürsten\n\nverfasst von\n\nG. Brückner,\n\nHof- und Archivrath in Meiningen.\n\nGera 1870.\n\nVerlag von Fr. Eugen Köhler.\n\nFirma: Kanitz'sche Buchhandlung.",
+  "entities": [
+    {
+      "text": "Fürstenthums Reuß j. L.",
+      "entity_type": "Location",
+      "start_char": 29,
+      "end_char": 52,
+      "context": "des\n\nFürstenthums Reuß j. L.\n\nIm Auftrage"
+    },
+    {
+      "text": "G. Brückner",
+      "entity_type": "Person",
+      "start_char": 101,
+      "end_char": 112,
+      "context": "verfasst von\n\nG. Brückner,"
+    },
+    {
+      "text": "Meiningen",
+      "entity_type": "Location",
+      "start_char": 137,
+      "end_char": 146,
+      "context": "Archivrath in Meiningen.\n\nGera 1870."
+    },
+    {
+      "text": "Gera",
+      "entity_type": "Location",
+      "start_char": 148,
+      "end_char": 152,
+      "context": "Meiningen.\n\nGera 1870.\n\nVerlag von"
+    },
+    {
+      "text": "Fr. Eugen Köhler",
+      "entity_type": "Person",
+      "start_char": 171,
+      "end_char": 187,
+      "context": "Verlag von Fr. Eugen Köhler.\n\nFirma: Kanitz'sche"
+    },
+    {
+      "text": "Kanitz'sche Buchhandlung",
+      "entity_type": "Organisation",
+      "start_char": 197,
+      "end_char": 221,
+      "context": "Firma: Kanitz'sche Buchhandlung."
+    }
+  ],
+  "processing_timestamp": "2026-10-01T20:17:26.901605",
+  "model_used": "gemini-3-flash-preview",
+  "note": "gap fill 2026-10-01, same prompts/model as main run (hde a77b152)"
+}

@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block main %}
+<div class="wrap">
+  <div class="reg-layout">
+    <nav class="reg-nav" aria-label="Edition">
+      <a href="einleitung.html" {% if path.endswith('einleitung.html') %}aria-current="page"{% endif %}>{{ t('Einleitung', 'Introduction') }}</a>
+      <a href="richtlinien.html" {% if path.endswith('richtlinien.html') %}aria-current="page"{% endif %}>{{ t('Editionsrichtlinien', 'Editorial principles') }}</a>
+      <a href="daten.html" {% if path.endswith('daten.html') %}aria-current="page"{% endif %}>{{ t('Daten & Downloads', 'Data & downloads') }}</a>
+      <a href="zitieren.html" {% if path.endswith('zitieren.html') %}aria-current="page"{% endif %}>{{ t('Zitieren', 'How to cite') }}</a>
+      <a href="impressum.html" {% if path.endswith('impressum.html') %}aria-current="page"{% endif %}>{{ t('Impressum & Datenschutz', 'Imprint & privacy') }}</a>
+    </nav>
+    <article class="prose">
+      {% block doc %}{% endblock %}
+    </article>
+  </div>
+</div>
+{% endblock %}

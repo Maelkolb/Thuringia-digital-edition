@@ -1,0 +1,498 @@
+{
+ "seq": 451,
+ "label": "439",
+ "slug": "439",
+ "iiif": {
+  "service": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb11005578_00451",
+  "canvas": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11005578/canvas/451",
+  "width": 1696,
+  "height": 2702
+ },
+ "kind": "text",
+ "running_header": "I. Der Landestheil oder Landrathſbezirk Gera.",
+ "signature": "29*",
+ "blocks": [
+  {
+   "id": "b1",
+   "type": "paragraph",
+   "src": 0,
+   "text": "Der Privatgrundbesitz in der Stadtflur umfasst nur 2 Grundstücksverbände und 806 ledige Grundstücke, ist daher für die 1118 Hofraithen der Stadt gering und erleidet überdies durch ihre zunehmende Ausdehnung tägliche Minderung. Die Nährquellen der Stadt liegen daher nicht in ihrem Feldbau, den bloß 24 Familien ausschließlich und 5 nebenbei betreiben und nicht in ihrer schwachen Viehzucht, sondern in ihrem Industriebetriebe. Wie der Ackerbau, so ist auch der Privatwaldbesitz (2 Waldstücke) unbedeutend, dagegen blüht der Gartenbau theils als edle Liebhaberei, theils als Erwerbsquelle. In letzterer Beziehung trifft man hier 32 Kunst- und Handelsgärtner, die meisten mit ausgedehnten Gärten, mit Warmhäusern und Orangerien, mit starker Blumenzucht, mit Samenhandel und Gemüsebau. Seine Stärke und seinen Weltruhm hat indeß Gera in seiner mit Geist, Nachdruck und Solidität betriebenen, zudem vielseitigen und auf ausgebreiteten Absatzgebieten beruhenden, dadurch segensreich wirkenden Industrie, indem das Stocken des einen oder anderen Zweiges nicht sofort die gesammte Bevölkerung erschüttert. Die Hauptzweige der hiesigen Industrie sind in erster Linie die Fabrication der Kammwollenstoffe, Wollkämmerei und Wollspinnerei, Zeugdruck, Färberei und Appretur, Fabrikation in Halbseidenwaaren, Roth- und Weißgerberei, Handschuh- und Instrumentenlederbereitung, Fabrikation von Harmonikas, Accordions und Drehorgeln, Roßhaarspinnerei, Pechsiederei, Tabakfabrikation, Spirituosen- und Essigbereitung, Maschinenbau und Eisengießerei, Buch-, Stein- und Kunstdruck, Bierbrauerei und Ziegelbrennerei.",
+   "spans": [
+    [
+     699,
+     710,
+     "Artefact"
+    ],
+    [
+     715,
+     725,
+     "Artefact"
+    ],
+    [
+     826,
+     830,
+     "Location"
+    ],
+    [
+     1179,
+     1195,
+     "Resource"
+    ],
+    [
+     1379,
+     1389,
+     "Artefact"
+    ],
+    [
+     1391,
+     1401,
+     "Artefact"
+    ],
+    [
+     1406,
+     1416,
+     "Artefact"
+    ],
+    [
+     1450,
+     1455,
+     "Plant"
+    ]
+   ],
+   "sec": "t2-1"
+  },
+  {
+   "id": "b2",
+   "type": "paragraph",
+   "src": 1,
+   "text": "Die folgende Tabelle läßt annähernd die Bedeutung der 89 Hauptfabriken Geras erkennen:",
+   "spans": [
+    [
+     71,
+     76,
+     "Location"
+    ]
+   ],
+   "sec": "t2-1"
+  },
+  {
+   "id": "b3",
+   "type": "table",
+   "src": 2,
+   "n_cols": 4,
+   "header_rows": 1,
+   "rows": [
+    {
+     "role": "header",
+     "cells": [
+      {
+       "text": "Etablissements.",
+       "spans": []
+      },
+      {
+       "text": "Zahl der Fabriken.",
+       "spans": []
+      },
+      {
+       "text": "Zahl der Arbeiter.",
+       "spans": []
+      },
+      {
+       "text": "Werth der Produktion in Thlr.",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Kammwollenstoffe (Hauptindustrie d. Orts).",
+       "spans": []
+      },
+      {
+       "text": "12",
+       "spans": []
+      },
+      {
+       "text": "5—600",
+       "spans": []
+      },
+      {
+       "text": "3½—4 Mill. ca. 700 mechanische und 2—3000 Handstühle, letztere meist auswärts.",
+       "spans": [
+        [
+         42,
+         52,
+         "Artefact"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Wollkämmerei und Wollspinnerei . . . .",
+       "spans": []
+      },
+      {
+       "text": "2",
+       "spans": []
+      },
+      {
+       "text": "200",
+       "spans": []
+      },
+      {
+       "text": "4—500000 ca. 100 Stühle auswärts, 11—12000 Spindeln.",
+       "spans": [
+        [
+         17,
+         23,
+         "Artefact"
+        ],
+        [
+         43,
+         51,
+         "Artefact"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Baumwollenstoffe . . . .",
+       "spans": []
+      },
+      {
+       "text": "2",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "80000 ca. 100 Stühle auswärts.",
+       "spans": [
+        [
+         14,
+         20,
+         "Artefact"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Tabak . . . . . . . . .",
+       "spans": [
+        [
+         0,
+         5,
+         "Plant"
+        ]
+       ]
+      },
+      {
+       "text": "4",
+       "spans": []
+      },
+      {
+       "text": "90—100",
+       "spans": []
+      },
+      {
+       "text": "200000 10—12000 Ctr. jährlich.",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Gerbereien (Loh-, Weiß- und Sämischleder) . . .",
+       "spans": []
+      },
+      {
+       "text": "48",
+       "spans": []
+      },
+      {
+       "text": "150—180",
+       "spans": []
+      },
+      {
+       "text": "5—600000 6—7000 Ctr. jährlich.",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Accordion- und Harmonikafabrikation .",
+       "spans": []
+      },
+      {
+       "text": "3",
+       "spans": []
+      },
+      {
+       "text": "3—400",
+       "spans": []
+      },
+      {
+       "text": "160000 jährlich an 300000 Zieh-, 250000 Dzd. Mundharmonika, 3000 Stück Drehorgeln.",
+       "spans": [
+        [
+         26,
+         31,
+         "Artefact"
+        ],
+        [
+         45,
+         58,
+         "Artefact"
+        ],
+        [
+         71,
+         81,
+         "Artefact"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Wollenwaaren-druckereien (zu Lohn).",
+       "spans": []
+      },
+      {
+       "text": "3",
+       "spans": []
+      },
+      {
+       "text": "50",
+       "spans": []
+      },
+      {
+       "text": "25—30000",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Kunst- u. Schönfärbereien, meist verbunden mit Appreturanstalten",
+       "spans": []
+      },
+      {
+       "text": "8",
+       "spans": []
+      },
+      {
+       "text": "2—300",
+       "spans": []
+      },
+      {
+       "text": "300000",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Pechsiedereien . . . . .",
+       "spans": []
+      },
+      {
+       "text": "4",
+       "spans": []
+      },
+      {
+       "text": "15—30",
+       "spans": []
+      },
+      {
+       "text": "90—100000",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Roßhaarspinnereien . . .",
+       "spans": []
+      },
+      {
+       "text": "3",
+       "spans": []
+      },
+      {
+       "text": "60—70",
+       "spans": []
+      },
+      {
+       "text": "100000 } beide zum Theil verbunden.",
+       "spans": []
+      }
+     ]
+    }
+   ],
+   "grid": [
+    [
+     "Etablissements.",
+     "Zahl der Fabriken.",
+     "Zahl der Arbeiter.",
+     "Werth der Produktion in Thlr."
+    ],
+    [
+     "Kammwollenstoffe (Hauptindustrie d. Orts).",
+     "12",
+     "5—600",
+     "3½—4 Mill. ca. 700 mechanische und 2—3000 Handstühle, letztere meist auswärts."
+    ],
+    [
+     "Wollkämmerei und Wollspinnerei . . . .",
+     "2",
+     "200",
+     "4—500000 ca. 100 Stühle auswärts, 11—12000 Spindeln."
+    ],
+    [
+     "Baumwollenstoffe . . . .",
+     "2",
+     "—",
+     "80000 ca. 100 Stühle auswärts."
+    ],
+    [
+     "Tabak . . . . . . . . .",
+     "4",
+     "90—100",
+     "200000 10—12000 Ctr. jährlich."
+    ],
+    [
+     "Gerbereien (Loh-, Weiß- und Sämischleder) . . .",
+     "48",
+     "150—180",
+     "5—600000 6—7000 Ctr. jährlich."
+    ],
+    [
+     "Accordion- und Harmonikafabrikation .",
+     "3",
+     "3—400",
+     "160000 jährlich an 300000 Zieh-, 250000 Dzd. Mundharmonika, 3000 Stück Drehorgeln."
+    ],
+    [
+     "Wollenwaaren-druckereien (zu Lohn).",
+     "3",
+     "50",
+     "25—30000"
+    ],
+    [
+     "Kunst- u. Schönfärbereien, meist verbunden mit Appreturanstalten",
+     "8",
+     "2—300",
+     "300000"
+    ],
+    [
+     "Pechsiedereien . . . . .",
+     "4",
+     "15—30",
+     "90—100000"
+    ],
+    [
+     "Roßhaarspinnereien . . .",
+     "3",
+     "60—70",
+     "100000 } beide zum Theil verbunden."
+    ]
+   ],
+   "caption": null,
+   "sec": "t2-1"
+  },
+  {
+   "id": "b4",
+   "type": "paragraph",
+   "src": 3,
+   "text": "Im Dienste der Fabriken mit Einschlusse der Eisengießereien und Maschinenbaufabriken arbeiten in Gera und Umgegend 77 Dampfkessel mit 1182, 39 Dampfmaschinen mit 448 und 3 Locomobilen mit 20 Pferdekräften. Nach Gera und Umgegend kamen 1867 524,000 Ctr. Steinkohlen und 84,700 Ctr. Braunkohlen.",
+   "spans": [
+    [
+     97,
+     101,
+     "Location"
+    ],
+    [
+     118,
+     129,
+     "Artefact"
+    ],
+    [
+     143,
+     157,
+     "Artefact"
+    ],
+    [
+     172,
+     183,
+     "Artefact"
+    ],
+    [
+     211,
+     215,
+     "Location"
+    ],
+    [
+     253,
+     264,
+     "Resource"
+    ],
+    [
+     281,
+     292,
+     "Resource"
+    ]
+   ],
+   "sec": "t2-1"
+  }
+ ],
+ "footnotes": [],
+ "corrections": [
+  {
+   "rule": "signature_from_paragraph",
+   "value": "29*"
+  }
+ ],
+ "provenance": {
+  "source": "colab-2026-03",
+  "model": "gemini-3-flash-preview",
+  "timestamp": "2026-03-04T14:58:53.605041",
+  "early_schema": false
+ },
+ "section_path": [
+  "t2",
+  "t2-1"
+ ],
+ "sections": [
+  "t2-1"
+ ]
+}

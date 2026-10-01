@@ -1,0 +1,2496 @@
+{
+ "seq": 720,
+ "label": "708",
+ "slug": "708",
+ "iiif": {
+  "service": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb11005578_00720",
+  "canvas": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11005578/canvas/720",
+  "width": 1589,
+  "height": 2692
+ },
+ "kind": "text",
+ "running_header": "Ortskunde des Fürstenthums Reuß j. L.",
+ "signature": null,
+ "blocks": [
+  {
+   "id": "b1",
+   "type": "paragraph",
+   "src": 0,
+   "text": "Demnach kommen in Procenten\n90,8 auf die Glieder der Familien, 16,8 auf die Knaben,\n5,6 \" \" Dienstboten, 17,0 \" \" Mädchen,\n3,6 \" \" Gehilfen c., 31,1 \" \" Männer,\n35,1 \" \" Frauen.",
+   "spans": [],
+   "sec": "t2-3"
+  },
+  {
+   "id": "b2",
+   "type": "paragraph",
+   "src": 1,
+   "text": "Die Bewegung der Bevölkerung enthält folgende Tabelle:",
+   "spans": [],
+   "sec": "t2-3"
+  },
+  {
+   "id": "b3",
+   "type": "table",
+   "src": 2,
+   "n_cols": 7,
+   "header_rows": 0,
+   "rows": [
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "1647.",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "1784.",
+       "spans": []
+      },
+      {
+       "text": "1833.",
+       "spans": []
+      },
+      {
+       "text": "1867.",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "Fam.",
+       "spans": []
+      },
+      {
+       "text": "Einw.",
+       "spans": []
+      },
+      {
+       "text": "Einw.",
+       "spans": []
+      },
+      {
+       "text": "Einw.",
+       "spans": []
+      },
+      {
+       "text": "Einw.",
+       "spans": []
+      },
+      {
+       "text": "Fam.",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Lobenstein . . . . .",
+       "spans": [
+        [
+         0,
+         10,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "218",
+       "spans": []
+      },
+      {
+       "text": "981",
+       "spans": []
+      },
+      {
+       "text": "2243",
+       "spans": []
+      },
+      {
+       "text": "3274",
+       "spans": []
+      },
+      {
+       "text": "2833",
+       "spans": []
+      },
+      {
+       "text": "687",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Ebersdorf . . . . .",
+       "spans": [
+        [
+         0,
+         9,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "18",
+       "spans": []
+      },
+      {
+       "text": "81",
+       "spans": []
+      },
+      {
+       "text": "838",
+       "spans": []
+      },
+      {
+       "text": "1110",
+       "spans": []
+      },
+      {
+       "text": "1008",
+       "spans": []
+      },
+      {
+       "text": "230",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Hirschberg . . . . .",
+       "spans": [
+        [
+         0,
+         10,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "40",
+       "spans": []
+      },
+      {
+       "text": "180",
+       "spans": []
+      },
+      {
+       "text": "1200",
+       "spans": []
+      },
+      {
+       "text": "1620",
+       "spans": []
+      },
+      {
+       "text": "1828",
+       "spans": []
+      },
+      {
+       "text": "375",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Altengesees . . . . .",
+       "spans": [
+        [
+         0,
+         11,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "23",
+       "spans": []
+      },
+      {
+       "text": "103",
+       "spans": []
+      },
+      {
+       "text": "163",
+       "spans": []
+      },
+      {
+       "text": "211",
+       "spans": []
+      },
+      {
+       "text": "245",
+       "spans": []
+      },
+      {
+       "text": "56",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Blankenstein . . . .",
+       "spans": [
+        [
+         0,
+         12,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "13",
+       "spans": []
+      },
+      {
+       "text": "58",
+       "spans": []
+      },
+      {
+       "text": "107",
+       "spans": []
+      },
+      {
+       "text": "147",
+       "spans": []
+      },
+      {
+       "text": "169",
+       "spans": []
+      },
+      {
+       "text": "32",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Blintendorf . . . . .",
+       "spans": [
+        [
+         0,
+         11,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "5",
+       "spans": []
+      },
+      {
+       "text": "23",
+       "spans": []
+      },
+      {
+       "text": "33",
+       "spans": []
+      },
+      {
+       "text": "250",
+       "spans": []
+      },
+      {
+       "text": "299",
+       "spans": []
+      },
+      {
+       "text": "74",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Dobareuth . . . . .",
+       "spans": [
+        [
+         0,
+         9,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "7",
+       "spans": []
+      },
+      {
+       "text": "31",
+       "spans": []
+      },
+      {
+       "text": "208",
+       "spans": []
+      },
+      {
+       "text": "353",
+       "spans": []
+      },
+      {
+       "text": "387",
+       "spans": []
+      },
+      {
+       "text": "86",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Eliasbrunn . . . . .",
+       "spans": [
+        [
+         0,
+         10,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "32",
+       "spans": []
+      },
+      {
+       "text": "144",
+       "spans": []
+      },
+      {
+       "text": "171",
+       "spans": []
+      },
+      {
+       "text": "231",
+       "spans": []
+      },
+      {
+       "text": "267",
+       "spans": []
+      },
+      {
+       "text": "53",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Frössen . . . . . .",
+       "spans": [
+        [
+         0,
+         7,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "30",
+       "spans": []
+      },
+      {
+       "text": "135",
+       "spans": []
+      },
+      {
+       "text": "208",
+       "spans": []
+      },
+      {
+       "text": "384",
+       "spans": []
+      },
+      {
+       "text": "423",
+       "spans": []
+      },
+      {
+       "text": "91",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Gahma . . . . . .",
+       "spans": [
+        [
+         0,
+         5,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "38",
+       "spans": []
+      },
+      {
+       "text": "171",
+       "spans": []
+      },
+      {
+       "text": "201",
+       "spans": []
+      },
+      {
+       "text": "272",
+       "spans": []
+      },
+      {
+       "text": "296",
+       "spans": []
+      },
+      {
+       "text": "52",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Gebersreuth . . . . .",
+       "spans": [
+        [
+         0,
+         11,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "12",
+       "spans": []
+      },
+      {
+       "text": "54",
+       "spans": []
+      },
+      {
+       "text": "159",
+       "spans": []
+      },
+      {
+       "text": "365",
+       "spans": []
+      },
+      {
+       "text": "444",
+       "spans": []
+      },
+      {
+       "text": "104",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Göritz . . . . . .",
+       "spans": [
+        [
+         0,
+         6,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "9",
+       "spans": []
+      },
+      {
+       "text": "40",
+       "spans": []
+      },
+      {
+       "text": "226",
+       "spans": []
+      },
+      {
+       "text": "504",
+       "spans": []
+      },
+      {
+       "text": "607",
+       "spans": []
+      },
+      {
+       "text": "140",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Göttengrün . . . . .",
+       "spans": [
+        [
+         0,
+         10,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "13",
+       "spans": []
+      },
+      {
+       "text": "58",
+       "spans": []
+      },
+      {
+       "text": "86",
+       "spans": []
+      },
+      {
+       "text": "94",
+       "spans": []
+      },
+      {
+       "text": "126",
+       "spans": []
+      },
+      {
+       "text": "22",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Grumbach . . . . .",
+       "spans": [
+        [
+         0,
+         8,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "7",
+       "spans": []
+      },
+      {
+       "text": "32",
+       "spans": []
+      },
+      {
+       "text": "172",
+       "spans": []
+      },
+      {
+       "text": "352",
+       "spans": []
+      },
+      {
+       "text": "420",
+       "spans": []
+      },
+      {
+       "text": "79",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Harra . . . . . .",
+       "spans": [
+        [
+         0,
+         5,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "40",
+       "spans": []
+      },
+      {
+       "text": "180",
+       "spans": []
+      },
+      {
+       "text": "490",
+       "spans": []
+      },
+      {
+       "text": "732",
+       "spans": []
+      },
+      {
+       "text": "814",
+       "spans": []
+      },
+      {
+       "text": "176",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Heinersdorf . . . . .",
+       "spans": [
+        [
+         0,
+         11,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "51",
+       "spans": []
+      },
+      {
+       "text": "229",
+       "spans": []
+      },
+      {
+       "text": "213",
+       "spans": []
+      },
+      {
+       "text": "408",
+       "spans": []
+      },
+      {
+       "text": "605",
+       "spans": []
+      },
+      {
+       "text": "130",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Helmsgrün . . . . .",
+       "spans": [
+        [
+         0,
+         9,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "46",
+       "spans": []
+      },
+      {
+       "text": "207",
+       "spans": []
+      },
+      {
+       "text": "314",
+       "spans": []
+      },
+      {
+       "text": "360",
+       "spans": []
+      },
+      {
+       "text": "456",
+       "spans": []
+      },
+      {
+       "text": "88",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Karolinenfield . . . .",
+       "spans": [
+        [
+         0,
+         14,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "47",
+       "spans": []
+      },
+      {
+       "text": "64",
+       "spans": []
+      },
+      {
+       "text": "11",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Kießling . . . . . .",
+       "spans": [
+        [
+         0,
+         8,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "31",
+       "spans": []
+      },
+      {
+       "text": "139",
+       "spans": []
+      },
+      {
+       "text": "245",
+       "spans": []
+      },
+      {
+       "text": "194",
+       "spans": []
+      },
+      {
+       "text": "191",
+       "spans": []
+      },
+      {
+       "text": "38",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Langgrün . . . . .",
+       "spans": [
+        [
+         0,
+         8,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "45",
+       "spans": []
+      },
+      {
+       "text": "203",
+       "spans": []
+      },
+      {
+       "text": "241",
+       "spans": []
+      },
+      {
+       "text": "361",
+       "spans": []
+      },
+      {
+       "text": "396",
+       "spans": []
+      },
+      {
+       "text": "81",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Lerchenhügel . . . . .",
+       "spans": [
+        [
+         0,
+         12,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "185",
+       "spans": []
+      },
+      {
+       "text": "212",
+       "spans": []
+      },
+      {
+       "text": "56",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Lichtenbrunn . . . .",
+       "spans": [
+        [
+         0,
+         12,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "34",
+       "spans": []
+      },
+      {
+       "text": "153",
+       "spans": []
+      },
+      {
+       "text": "242",
+       "spans": []
+      },
+      {
+       "text": "455",
+       "spans": []
+      },
+      {
+       "text": "469",
+       "spans": []
+      },
+      {
+       "text": "105",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Lothra . . . . . .",
+       "spans": [
+        [
+         0,
+         6,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "17",
+       "spans": []
+      },
+      {
+       "text": "76",
+       "spans": []
+      },
+      {
+       "text": "138",
+       "spans": []
+      },
+      {
+       "text": "241",
+       "spans": []
+      },
+      {
+       "text": "273",
+       "spans": []
+      },
+      {
+       "text": "61",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Lückenmühle . . . . .",
+       "spans": [
+        [
+         0,
+         11,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "14",
+       "spans": []
+      },
+      {
+       "text": "63",
+       "spans": []
+      },
+      {
+       "text": "79",
+       "spans": []
+      },
+      {
+       "text": "133",
+       "spans": []
+      },
+      {
+       "text": "124",
+       "spans": []
+      },
+      {
+       "text": "20",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Mödlareuth . . . . .",
+       "spans": [
+        [
+         0,
+         10,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "10",
+       "spans": []
+      },
+      {
+       "text": "45",
+       "spans": []
+      },
+      {
+       "text": "156",
+       "spans": []
+      },
+      {
+       "text": "85",
+       "spans": []
+      },
+      {
+       "text": "94",
+       "spans": []
+      },
+      {
+       "text": "16",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Neundorf . . . . . .",
+       "spans": [
+        [
+         0,
+         8,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "71",
+       "spans": []
+      },
+      {
+       "text": "319",
+       "spans": []
+      },
+      {
+       "text": "331",
+       "spans": []
+      },
+      {
+       "text": "543",
+       "spans": []
+      },
+      {
+       "text": "716",
+       "spans": []
+      },
+      {
+       "text": "137",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Oberlemnitz . . . . .",
+       "spans": [
+        [
+         0,
+         11,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "28",
+       "spans": []
+      },
+      {
+       "text": "126",
+       "spans": []
+      },
+      {
+       "text": "159",
+       "spans": []
+      },
+      {
+       "text": "217",
+       "spans": []
+      },
+      {
+       "text": "238",
+       "spans": []
+      },
+      {
+       "text": "43",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Oßla . . . . . . .",
+       "spans": [
+        [
+         0,
+         4,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "57",
+       "spans": []
+      },
+      {
+       "text": "257",
+       "spans": []
+      },
+      {
+       "text": "325",
+       "spans": []
+      },
+      {
+       "text": "467",
+       "spans": []
+      },
+      {
+       "text": "531",
+       "spans": []
+      },
+      {
+       "text": "125",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Pirk . . . . . . .",
+       "spans": [
+        [
+         0,
+         4,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "12",
+       "spans": []
+      },
+      {
+       "text": "54",
+       "spans": []
+      },
+      {
+       "text": "77",
+       "spans": []
+      },
+      {
+       "text": "207",
+       "spans": []
+      },
+      {
+       "text": "207",
+       "spans": []
+      },
+      {
+       "text": "61",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Pöritzsch . . . . . .",
+       "spans": [
+        [
+         0,
+         9,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "11",
+       "spans": []
+      },
+      {
+       "text": "49",
+       "spans": []
+      },
+      {
+       "text": "68",
+       "spans": []
+      },
+      {
+       "text": "148",
+       "spans": []
+      },
+      {
+       "text": "163",
+       "spans": []
+      },
+      {
+       "text": "33",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Pottiga . . . . . .",
+       "spans": [
+        [
+         0,
+         7,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "20",
+       "spans": []
+      },
+      {
+       "text": "90",
+       "spans": []
+      },
+      {
+       "text": "286",
+       "spans": []
+      },
+      {
+       "text": "431",
+       "spans": []
+      },
+      {
+       "text": "523",
+       "spans": []
+      },
+      {
+       "text": "105",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Rodacherbrunn . . . .",
+       "spans": [
+        [
+         0,
+         13,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "49",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Röttersdorf . . . . .",
+       "spans": [
+        [
+         0,
+         11,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "22",
+       "spans": []
+      },
+      {
+       "text": "99",
+       "spans": []
+      },
+      {
+       "text": "150",
+       "spans": []
+      },
+      {
+       "text": "228",
+       "spans": []
+      },
+      {
+       "text": "276",
+       "spans": []
+      },
+      {
+       "text": "60",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Rothenacker . . . . .",
+       "spans": [
+        [
+         0,
+         11,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "38",
+       "spans": []
+      },
+      {
+       "text": "171",
+       "spans": []
+      },
+      {
+       "text": "188",
+       "spans": []
+      },
+      {
+       "text": "280",
+       "spans": []
+      },
+      {
+       "text": "265",
+       "spans": []
+      },
+      {
+       "text": "46",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Ruppersdorf . . . . .",
+       "spans": [
+        [
+         0,
+         11,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "37",
+       "spans": []
+      },
+      {
+       "text": "167",
+       "spans": []
+      },
+      {
+       "text": "185",
+       "spans": []
+      },
+      {
+       "text": "344",
+       "spans": []
+      },
+      {
+       "text": "426",
+       "spans": []
+      },
+      {
+       "text": "87",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Saaldorf . . . . . .",
+       "spans": [
+        [
+         0,
+         8,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "9",
+       "spans": []
+      },
+      {
+       "text": "40",
+       "spans": []
+      },
+      {
+       "text": "316",
+       "spans": []
+      },
+      {
+       "text": "700",
+       "spans": []
+      },
+      {
+       "text": "786",
+       "spans": []
+      },
+      {
+       "text": "183",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Schlegel . . . . . .",
+       "spans": [
+        [
+         0,
+         8,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "10",
+       "spans": []
+      },
+      {
+       "text": "45",
+       "spans": []
+      },
+      {
+       "text": "175",
+       "spans": []
+      },
+      {
+       "text": "270",
+       "spans": []
+      },
+      {
+       "text": "335",
+       "spans": []
+      },
+      {
+       "text": "67",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Schönbrunn . . . . .",
+       "spans": [
+        [
+         0,
+         10,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "43",
+       "spans": []
+      },
+      {
+       "text": "193",
+       "spans": []
+      },
+      {
+       "text": "252",
+       "spans": []
+      },
+      {
+       "text": "495",
+       "spans": []
+      },
+      {
+       "text": "561",
+       "spans": []
+      },
+      {
+       "text": "119",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Seibis . . . . . . .",
+       "spans": [
+        [
+         0,
+         6,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "20",
+       "spans": []
+      },
+      {
+       "text": "90",
+       "spans": []
+      },
+      {
+       "text": "112",
+       "spans": []
+      },
+      {
+       "text": "156",
+       "spans": []
+      },
+      {
+       "text": "194",
+       "spans": []
+      },
+      {
+       "text": "41",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Thierbach . . . . . .",
+       "spans": [
+        [
+         0,
+         9,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "19",
+       "spans": []
+      },
+      {
+       "text": "85",
+       "spans": []
+      },
+      {
+       "text": "98",
+       "spans": []
+      },
+      {
+       "text": "149",
+       "spans": []
+      },
+      {
+       "text": "179",
+       "spans": []
+      },
+      {
+       "text": "30",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Thimmendorf . . . . .",
+       "spans": [
+        [
+         0,
+         11,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "64",
+       "spans": []
+      },
+      {
+       "text": "288",
+       "spans": []
+      },
+      {
+       "text": "245",
+       "spans": []
+      },
+      {
+       "text": "334",
+       "spans": []
+      },
+      {
+       "text": "358",
+       "spans": []
+      },
+      {
+       "text": "65",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Titschendorf . . . . .",
+       "spans": [
+        [
+         0,
+         12,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "22",
+       "spans": []
+      },
+      {
+       "text": "99",
+       "spans": []
+      },
+      {
+       "text": "242",
+       "spans": []
+      },
+      {
+       "text": "433",
+       "spans": []
+      },
+      {
+       "text": "466",
+       "spans": []
+      },
+      {
+       "text": "97",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Ullersreuth . . . . .",
+       "spans": [
+        [
+         0,
+         11,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "35",
+       "spans": []
+      },
+      {
+       "text": "158",
+       "spans": []
+      },
+      {
+       "text": "213",
+       "spans": []
+      },
+      {
+       "text": "231",
+       "spans": []
+      },
+      {
+       "text": "277",
+       "spans": []
+      },
+      {
+       "text": "46",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Unterlemnitz . . . . .",
+       "spans": [
+        [
+         0,
+         12,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "30",
+       "spans": []
+      },
+      {
+       "text": "135",
+       "spans": []
+      },
+      {
+       "text": "216",
+       "spans": []
+      },
+      {
+       "text": "303",
+       "spans": []
+      },
+      {
+       "text": "372",
+       "spans": []
+      },
+      {
+       "text": "74",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Venzka . . . . . . .",
+       "spans": [
+        [
+         0,
+         6,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "10",
+       "spans": []
+      },
+      {
+       "text": "45",
+       "spans": []
+      },
+      {
+       "text": "142",
+       "spans": []
+      },
+      {
+       "text": "328",
+       "spans": []
+      },
+      {
+       "text": "311",
+       "spans": []
+      },
+      {
+       "text": "61",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Weitisberga . . . . .",
+       "spans": [
+        [
+         0,
+         11,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "11",
+       "spans": []
+      },
+      {
+       "text": "48",
+       "spans": []
+      },
+      {
+       "text": "73",
+       "spans": []
+      },
+      {
+       "text": "179",
+       "spans": []
+      },
+      {
+       "text": "265",
+       "spans": []
+      },
+      {
+       "text": "51",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Wurzbach . . . . . .",
+       "spans": [
+        [
+         0,
+         8,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "100",
+       "spans": []
+      },
+      {
+       "text": "450",
+       "spans": []
+      },
+      {
+       "text": "922",
+       "spans": []
+      },
+      {
+       "text": "1454",
+       "spans": []
+      },
+      {
+       "text": "1861",
+       "spans": []
+      },
+      {
+       "text": "398",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Mühlen . . . . . .",
+       "spans": [
+        [
+         0,
+         6,
+         "Artefact"
+        ]
+       ]
+      },
+      {
+       "text": "11",
+       "spans": []
+      },
+      {
+       "text": "49",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "total",
+     "cells": [
+      {
+       "text": "Summe",
+       "spans": []
+      },
+      {
+       "text": "1433",
+       "spans": []
+      },
+      {
+       "text": "6453",
+       "spans": []
+      },
+      {
+       "text": "12957",
+       "spans": []
+      },
+      {
+       "text": "20265",
+       "spans": []
+      },
+      {
+       "text": "22359",
+       "spans": []
+      },
+      {
+       "text": "4792",
+       "spans": []
+      }
+     ]
+    }
+   ],
+   "grid": [
+    [
+     "",
+     "1647.",
+     "",
+     "1784.",
+     "1833.",
+     "1867.",
+     ""
+    ],
+    [
+     "",
+     "Fam.",
+     "Einw.",
+     "Einw.",
+     "Einw.",
+     "Einw.",
+     "Fam."
+    ],
+    [
+     "Lobenstein . . . . .",
+     "218",
+     "981",
+     "2243",
+     "3274",
+     "2833",
+     "687"
+    ],
+    [
+     "Ebersdorf . . . . .",
+     "18",
+     "81",
+     "838",
+     "1110",
+     "1008",
+     "230"
+    ],
+    [
+     "Hirschberg . . . . .",
+     "40",
+     "180",
+     "1200",
+     "1620",
+     "1828",
+     "375"
+    ],
+    [
+     "Altengesees . . . . .",
+     "23",
+     "103",
+     "163",
+     "211",
+     "245",
+     "56"
+    ],
+    [
+     "Blankenstein . . . .",
+     "13",
+     "58",
+     "107",
+     "147",
+     "169",
+     "32"
+    ],
+    [
+     "Blintendorf . . . . .",
+     "5",
+     "23",
+     "33",
+     "250",
+     "299",
+     "74"
+    ],
+    [
+     "Dobareuth . . . . .",
+     "7",
+     "31",
+     "208",
+     "353",
+     "387",
+     "86"
+    ],
+    [
+     "Eliasbrunn . . . . .",
+     "32",
+     "144",
+     "171",
+     "231",
+     "267",
+     "53"
+    ],
+    [
+     "Frössen . . . . . .",
+     "30",
+     "135",
+     "208",
+     "384",
+     "423",
+     "91"
+    ],
+    [
+     "Gahma . . . . . .",
+     "38",
+     "171",
+     "201",
+     "272",
+     "296",
+     "52"
+    ],
+    [
+     "Gebersreuth . . . . .",
+     "12",
+     "54",
+     "159",
+     "365",
+     "444",
+     "104"
+    ],
+    [
+     "Göritz . . . . . .",
+     "9",
+     "40",
+     "226",
+     "504",
+     "607",
+     "140"
+    ],
+    [
+     "Göttengrün . . . . .",
+     "13",
+     "58",
+     "86",
+     "94",
+     "126",
+     "22"
+    ],
+    [
+     "Grumbach . . . . .",
+     "7",
+     "32",
+     "172",
+     "352",
+     "420",
+     "79"
+    ],
+    [
+     "Harra . . . . . .",
+     "40",
+     "180",
+     "490",
+     "732",
+     "814",
+     "176"
+    ],
+    [
+     "Heinersdorf . . . . .",
+     "51",
+     "229",
+     "213",
+     "408",
+     "605",
+     "130"
+    ],
+    [
+     "Helmsgrün . . . . .",
+     "46",
+     "207",
+     "314",
+     "360",
+     "456",
+     "88"
+    ],
+    [
+     "Karolinenfield . . . .",
+     "—",
+     "—",
+     "—",
+     "47",
+     "64",
+     "11"
+    ],
+    [
+     "Kießling . . . . . .",
+     "31",
+     "139",
+     "245",
+     "194",
+     "191",
+     "38"
+    ],
+    [
+     "Langgrün . . . . .",
+     "45",
+     "203",
+     "241",
+     "361",
+     "396",
+     "81"
+    ],
+    [
+     "Lerchenhügel . . . . .",
+     "—",
+     "—",
+     "—",
+     "185",
+     "212",
+     "56"
+    ],
+    [
+     "Lichtenbrunn . . . .",
+     "34",
+     "153",
+     "242",
+     "455",
+     "469",
+     "105"
+    ],
+    [
+     "Lothra . . . . . .",
+     "17",
+     "76",
+     "138",
+     "241",
+     "273",
+     "61"
+    ],
+    [
+     "Lückenmühle . . . . .",
+     "14",
+     "63",
+     "79",
+     "133",
+     "124",
+     "20"
+    ],
+    [
+     "Mödlareuth . . . . .",
+     "10",
+     "45",
+     "156",
+     "85",
+     "94",
+     "16"
+    ],
+    [
+     "Neundorf . . . . . .",
+     "71",
+     "319",
+     "331",
+     "543",
+     "716",
+     "137"
+    ],
+    [
+     "Oberlemnitz . . . . .",
+     "28",
+     "126",
+     "159",
+     "217",
+     "238",
+     "43"
+    ],
+    [
+     "Oßla . . . . . . .",
+     "57",
+     "257",
+     "325",
+     "467",
+     "531",
+     "125"
+    ],
+    [
+     "Pirk . . . . . . .",
+     "12",
+     "54",
+     "77",
+     "207",
+     "207",
+     "61"
+    ],
+    [
+     "Pöritzsch . . . . . .",
+     "11",
+     "49",
+     "68",
+     "148",
+     "163",
+     "33"
+    ],
+    [
+     "Pottiga . . . . . .",
+     "20",
+     "90",
+     "286",
+     "431",
+     "523",
+     "105"
+    ],
+    [
+     "Rodacherbrunn . . . .",
+     "—",
+     "—",
+     "49",
+     "—",
+     "—",
+     "—"
+    ],
+    [
+     "Röttersdorf . . . . .",
+     "22",
+     "99",
+     "150",
+     "228",
+     "276",
+     "60"
+    ],
+    [
+     "Rothenacker . . . . .",
+     "38",
+     "171",
+     "188",
+     "280",
+     "265",
+     "46"
+    ],
+    [
+     "Ruppersdorf . . . . .",
+     "37",
+     "167",
+     "185",
+     "344",
+     "426",
+     "87"
+    ],
+    [
+     "Saaldorf . . . . . .",
+     "9",
+     "40",
+     "316",
+     "700",
+     "786",
+     "183"
+    ],
+    [
+     "Schlegel . . . . . .",
+     "10",
+     "45",
+     "175",
+     "270",
+     "335",
+     "67"
+    ],
+    [
+     "Schönbrunn . . . . .",
+     "43",
+     "193",
+     "252",
+     "495",
+     "561",
+     "119"
+    ],
+    [
+     "Seibis . . . . . . .",
+     "20",
+     "90",
+     "112",
+     "156",
+     "194",
+     "41"
+    ],
+    [
+     "Thierbach . . . . . .",
+     "19",
+     "85",
+     "98",
+     "149",
+     "179",
+     "30"
+    ],
+    [
+     "Thimmendorf . . . . .",
+     "64",
+     "288",
+     "245",
+     "334",
+     "358",
+     "65"
+    ],
+    [
+     "Titschendorf . . . . .",
+     "22",
+     "99",
+     "242",
+     "433",
+     "466",
+     "97"
+    ],
+    [
+     "Ullersreuth . . . . .",
+     "35",
+     "158",
+     "213",
+     "231",
+     "277",
+     "46"
+    ],
+    [
+     "Unterlemnitz . . . . .",
+     "30",
+     "135",
+     "216",
+     "303",
+     "372",
+     "74"
+    ],
+    [
+     "Venzka . . . . . . .",
+     "10",
+     "45",
+     "142",
+     "328",
+     "311",
+     "61"
+    ],
+    [
+     "Weitisberga . . . . .",
+     "11",
+     "48",
+     "73",
+     "179",
+     "265",
+     "51"
+    ],
+    [
+     "Wurzbach . . . . . .",
+     "100",
+     "450",
+     "922",
+     "1454",
+     "1861",
+     "398"
+    ],
+    [
+     "Mühlen . . . . . .",
+     "11",
+     "49",
+     "—",
+     "—",
+     "—",
+     "—"
+    ],
+    [
+     "Summe",
+     "1433",
+     "6453",
+     "12957",
+     "20265",
+     "22359",
+     "4792"
+    ]
+   ],
+   "caption": null,
+   "sec": "t2-3"
+  }
+ ],
+ "footnotes": [],
+ "corrections": [
+  {
+   "rule": "table_no_header_row",
+   "note": "first row is data (legacy edition rendered it as <th>)",
+   "block": "b3"
+  }
+ ],
+ "provenance": {
+  "source": "colab-2026-03",
+  "model": "gemini-3-flash-preview",
+  "timestamp": "2026-03-04T21:02:45.904044",
+  "early_schema": false
+ },
+ "section_path": [
+  "t2",
+  "t2-3"
+ ],
+ "sections": [
+  "t2-3"
+ ]
+}

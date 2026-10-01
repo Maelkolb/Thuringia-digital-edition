@@ -1,0 +1,463 @@
+{
+ "id": "grenzen-umfang-nachbarlaender",
+ "title": {
+  "de": "Grenzen: Umfang von Ober- und Unterland nach Nachbarstaaten",
+  "en": "Boundaries: perimeter of Oberland and Unterland by neighbouring state"
+ },
+ "category": "geography",
+ "section": "t1-1-1",
+ "sources": [
+  {
+   "page": "5",
+   "block": "b1"
+  },
+  {
+   "page": "5",
+   "block": "b2"
+  }
+ ],
+ "summary": {
+  "de": "Brückner gibt für beide Landesteile die Länge der Grenze in Stunden an und verteilt sie auf die angrenzenden Staaten: das Oberland (48 Stunden) grenzt an sechs, das Unterland (18 Stunden) an vier Nachbarn. Die Auswertung zeigt, welche Staaten den größten Anteil haben und dass die Teilwerte genau die Gesamtumfänge ergeben.",
+  "en": "Brückner gives the length of the boundary of both parts in hours (Stunden) and distributes it among the neighbouring states: the Oberland (48 Stunden) borders six, the Unterland (18 Stunden) four neighbours. The analysis shows which states have the largest share and that the partial values add up exactly to the total perimeters."
+ },
+ "method": {
+  "de": "Die Zahlen stehen im Fließtext auf S. 5 (Oberland: »Den Umfang … zu 48 Stunden angenommen, kommen auf Reuß ä. L. 22, auf Sachsen 8 …«; Unterland: »Von seinem 18 stündigen Umfange kommen auf Altenburg 9 …«). Gemischte Brüche (7 1/5, 3 3/5, 1 1/5) wurden in Dezimalzahlen umgesetzt (7,2; 3,6; 1,2). Der Umfang wird nach Brückner »in seinen Krümmungen und mit Einschlusse seiner Ex- und Enclaven« gemessen. Eine Umrechnung der Stunden in Kilometer ist nicht möglich: Brückners Maßtabelle (S. 831–832) enthält keine Wegstunde.",
+  "en": "The figures are in the running text on p. 5 (Oberland: “Den Umfang … zu 48 Stunden angenommen, kommen auf Reuß ä. L. 22, auf Sachsen 8 …”; Unterland: “Von seinem 18 stündigen Umfange kommen auf Altenburg 9 …”). Mixed fractions (7 1/5, 3 3/5, 1 1/5) were converted to decimals (7.2, 3.6, 1.2). Brückner measures the perimeter “in its windings and including its exclaves and enclaves”. A conversion of the hours into kilometres is not possible: Brückner's table of units (pp. 831–832) contains no walking hour."
+ },
+ "findings": [
+  {
+   "de": "Die Teilwerte ergeben genau die genannten Umfänge: 22 + 8 + 7 1/5 + 6 + 3 3/5 + 1 1/5 = 48 Stunden (Oberland) und 9 + 5 + 3 + 1 = 18 Stunden (Unterland), zusammen 66 Stunden.",
+   "en": "The partial values add up exactly to the stated perimeters: 22 + 8 + 7 1/5 + 6 + 3 3/5 + 1 1/5 = 48 Stunden (Oberland) and 9 + 5 + 3 + 1 = 18 Stunden (Unterland), 66 Stunden together."
+  },
+  {
+   "de": "Die längste gemeinsame Grenze hat das Oberland mit Reuß ä. L.: 22 Stunden, das sind 45,8 % seines Umfangs und 33,3 % der gesamten Grenzlänge beider Landesteile.",
+   "en": "The longest common boundary is that of the Oberland with Reuss (elder line): 22 Stunden, i.e. 45.8 % of its perimeter and 33.3 % of the total boundary length of both parts."
+  },
+  {
+   "de": "Das Unterland grenzt zur Hälfte (50,0 %) an Altenburg (9 von 18 Stunden); Weimar, Preußen und Sachsen teilen sich die andere Hälfte (5, 3 und 1 Stunde).",
+   "en": "Half of the Unterland's boundary (50.0 %) borders Altenburg (9 of 18 Stunden); Weimar, Prussia and Saxony share the other half (5, 3 and 1 Stunde)."
+  },
+  {
+   "de": "Preußen (6 + 3) und Sachsen (8 + 1) grenzen an beide Landesteile und kommen je auf 9 Stunden, ebenso Altenburg (nur Unterland); Bayern (7,2 Stunden) grenzt nur an das Oberland, Meiningen (1,2) hat die kürzeste Grenze.",
+   "en": "Prussia (6 + 3) and Saxony (8 + 1) border both parts and each reach 9 Stunden, as does Altenburg (Unterland only); Bavaria (7.2 Stunden) borders only the Oberland, Meiningen (1.2) has the shortest boundary."
+  }
+ ],
+ "caveats": [
+  {
+   "de": "Die »Stunde« ist hier ein Wegmaß; Brückner erklärt sie nicht. Die Längen sind daher nur untereinander vergleichbar.",
+   "en": "The “Stunde” is a walking-time measure here, which Brückner does not explain. The lengths are therefore comparable with each other only."
+  },
+  {
+   "de": "Brückner nennt für die Nachbarn teils Staaten, teils preußische Provinzteile (»Preußen«); Sachsen ist das Königreich Sachsen, Altenburg das Herzogtum Sachsen-Altenburg. Die Zuordnung der Nachbarn zu den Teilen folgt dem Text von S. 5.",
+   "en": "For the neighbours Brückner names partly states, partly Prussian territory (“Preußen”); Sachsen is the Kingdom of Saxony, Altenburg the Duchy of Saxe-Altenburg. The assignment of neighbours to the parts follows the text of p. 5."
+  }
+ ],
+ "conversions": [],
+ "datasets": [
+  {
+   "name": "grenzen",
+   "title": {
+    "de": "Grenzlängen nach Nachbarstaaten",
+    "en": "Boundary lengths by neighbouring state"
+   },
+   "columns": [
+    {
+     "name": "landesteil",
+     "label": {
+      "de": "Landesteil",
+      "en": "Part of the country"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "nachbar",
+     "label": {
+      "de": "Angrenzender Staat",
+      "en": "Neighbouring state"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "nachbar_nr",
+     "label": {
+      "de": "Reihenfolge der Nachbarn",
+      "en": "Order of neighbours"
+     },
+     "type": "integer",
+     "unit": null,
+     "derived": true,
+     "note": "redaktionell, für Farben und Stapelung"
+    },
+    {
+     "name": "laenge_text",
+     "label": {
+      "de": "Länge wie gedruckt",
+      "en": "Length as printed"
+     },
+     "type": "string",
+     "unit": "Stunden"
+    },
+    {
+     "name": "laenge_stunden",
+     "label": {
+      "de": "Länge",
+      "en": "Length"
+     },
+     "type": "number",
+     "unit": "Stunden",
+     "derived": true,
+     "note": "gemischte Brüche in Dezimalzahlen"
+    },
+    {
+     "name": "anteil",
+     "label": {
+      "de": "Anteil am Umfang des Landesteils",
+      "en": "Share of the part's perimeter"
+     },
+     "type": "number",
+     "unit": "%",
+     "derived": true
+    }
+   ],
+   "rows": [
+    [
+     "Oberland",
+     "Reuß ä. L.",
+     1,
+     "22",
+     22.0,
+     45.8
+    ],
+    [
+     "Oberland",
+     "Sachsen",
+     2,
+     "8",
+     8.0,
+     16.7
+    ],
+    [
+     "Oberland",
+     "Bayern",
+     3,
+     "7 1/5",
+     7.2,
+     15.0
+    ],
+    [
+     "Oberland",
+     "Preußen",
+     4,
+     "6",
+     6.0,
+     12.5
+    ],
+    [
+     "Oberland",
+     "Schwarzburg",
+     5,
+     "3 3/5",
+     3.6,
+     7.5
+    ],
+    [
+     "Oberland",
+     "Meiningen",
+     6,
+     "1 1/5",
+     1.2,
+     2.5
+    ],
+    [
+     "Unterland",
+     "Altenburg",
+     7,
+     "9",
+     9.0,
+     50.0
+    ],
+    [
+     "Unterland",
+     "Weimar",
+     8,
+     "5",
+     5.0,
+     27.8
+    ],
+    [
+     "Unterland",
+     "Preußen",
+     4,
+     "3",
+     3.0,
+     16.7
+    ],
+    [
+     "Unterland",
+     "Sachsen",
+     2,
+     "1",
+     1.0,
+     5.6
+    ]
+   ],
+   "source_refs": [
+    {
+     "page": "5",
+     "block": "b1"
+    },
+    {
+     "page": "5",
+     "block": "b2"
+    }
+   ]
+  }
+ ],
+ "charts": [
+  {
+   "id": "c1",
+   "dataset": "grenzen",
+   "title": {
+    "de": "Wer grenzt wie lang an Ober- und Unterland?",
+    "en": "Who borders the Oberland and Unterland, and for how long?"
+   },
+   "caption": {
+    "de": "Grenzlänge in Stunden, aufgeteilt nach Nachbarstaaten. Das Oberland hat 48, das Unterland 18 Stunden Umfang.",
+    "en": "Boundary length in hours (Stunden), divided by neighbouring state. The Oberland has a perimeter of 48, the Unterland of 18 Stunden."
+   },
+   "vegalite": {
+    "height": 150,
+    "transform": [
+     {
+      "stack": "laenge_stunden",
+      "groupby": [
+       "landesteil"
+      ],
+      "sort": [
+       {
+        "field": "nachbar_nr",
+        "order": "ascending"
+       }
+      ],
+      "as": [
+       "start",
+       "end"
+      ]
+     },
+     {
+      "calculate": "(datum.start + datum.end) / 2",
+      "as": "mitte"
+     }
+    ],
+    "layer": [
+     {
+      "mark": "bar",
+      "encoding": {
+       "y": {
+        "field": "landesteil",
+        "type": "nominal",
+        "title": null,
+        "sort": [
+         "Oberland",
+         "Unterland"
+        ]
+       },
+       "x": {
+        "field": "start",
+        "type": "quantitative",
+        "title": "Stunden"
+       },
+       "x2": {
+        "field": "end"
+       },
+       "color": {
+        "field": "nachbar",
+        "type": "nominal",
+        "title": {
+         "de": "Angrenzender Staat",
+         "en": "Neighbouring state"
+        },
+        "scale": {
+         "domain": [
+          "Reuß ä. L.",
+          "Sachsen",
+          "Bayern",
+          "Preußen",
+          "Schwarzburg",
+          "Meiningen",
+          "Altenburg",
+          "Weimar"
+         ]
+        },
+        "legend": {
+         "columns": 4
+        }
+       },
+       "tooltip": [
+        {
+         "field": "landesteil",
+         "title": {
+          "de": "Landesteil",
+          "en": "Part of the country"
+         }
+        },
+        {
+         "field": "nachbar",
+         "title": {
+          "de": "Angrenzender Staat",
+          "en": "Neighbouring state"
+         }
+        },
+        {
+         "field": "laenge_text",
+         "title": {
+          "de": "Länge (Stunden, wie gedruckt)",
+          "en": "Length (hours, as printed)"
+         }
+        },
+        {
+         "field": "anteil",
+         "title": {
+          "de": "Anteil am Umfang (%)",
+          "en": "Share of perimeter (%)"
+         }
+        }
+       ]
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "c2",
+   "dataset": "grenzen",
+   "title": {
+    "de": "Grenzlänge je Nachbarstaat, beide Landesteile zusammen",
+    "en": "Boundary length by neighbouring state, both parts together"
+   },
+   "caption": {
+    "de": "Summe der Grenzlängen von Ober- und Unterland in Stunden. Preußen, Sachsen und Altenburg haben jeweils 9 Stunden.",
+    "en": "Sum of the boundary lengths of Oberland and Unterland in Stunden. Prussia, Saxony and Altenburg each have 9 Stunden."
+   },
+   "vegalite": {
+    "height": 260,
+    "layer": [
+     {
+      "mark": "bar",
+      "encoding": {
+       "y": {
+        "field": "nachbar",
+        "type": "nominal",
+        "title": null,
+        "sort": "-x"
+       },
+       "x": {
+        "aggregate": "sum",
+        "field": "laenge_stunden",
+        "type": "quantitative",
+        "title": "Stunden"
+       },
+       "color": {
+        "field": "nachbar",
+        "type": "nominal",
+        "legend": null,
+        "scale": {
+         "domain": [
+          "Reuß ä. L.",
+          "Sachsen",
+          "Bayern",
+          "Preußen",
+          "Schwarzburg",
+          "Meiningen",
+          "Altenburg",
+          "Weimar"
+         ]
+        }
+       },
+       "tooltip": [
+        {
+         "field": "nachbar",
+         "title": {
+          "de": "Angrenzender Staat",
+          "en": "Neighbouring state"
+         }
+        },
+        {
+         "aggregate": "sum",
+         "field": "laenge_stunden",
+         "title": {
+          "de": "Länge (Stunden)",
+          "en": "Length (Stunden)"
+         }
+        }
+       ]
+      }
+     },
+     {
+      "mark": {
+       "type": "text",
+       "align": "left",
+       "dx": 5,
+       "baseline": "middle"
+      },
+      "encoding": {
+       "y": {
+        "field": "nachbar",
+        "type": "nominal",
+        "sort": "-x"
+       },
+       "x": {
+        "aggregate": "sum",
+        "field": "laenge_stunden",
+        "type": "quantitative"
+       },
+       "text": {
+        "aggregate": "sum",
+        "field": "laenge_stunden",
+        "type": "quantitative",
+        "format": ".1~f"
+       }
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "keywords": {
+  "de": [
+   "Grenzen",
+   "Umfang",
+   "Nachbarstaaten",
+   "Reuß ältere Linie",
+   "Sachsen",
+   "Bayern",
+   "Preußen",
+   "Altenburg",
+   "Weimar",
+   "Meiningen",
+   "Schwarzburg",
+   "Stunde"
+  ],
+  "en": [
+   "boundaries",
+   "perimeter",
+   "neighbouring states",
+   "Reuss elder line",
+   "Saxony",
+   "Bavaria",
+   "Prussia",
+   "Altenburg",
+   "Weimar",
+   "Meiningen",
+   "Schwarzburg"
+  ]
+ },
+ "related": [
+  "lage-vermessene-punkte-laenge-breite",
+  "flaeche-fuerstenthum-vermessung-nachbarn"
+ ],
+ "generated_by": "Claude Sonnet 5.5 (subagent A01)",
+ "date": "2026-10-01"
+}

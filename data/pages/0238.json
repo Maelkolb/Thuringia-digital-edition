@@ -1,0 +1,1412 @@
+{
+ "seq": 238,
+ "label": "226",
+ "slug": "226",
+ "iiif": {
+  "service": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb11005578_00238",
+  "canvas": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11005578/canvas/238",
+  "width": 1639,
+  "height": 2701
+ },
+ "kind": "text",
+ "running_header": "III. Die Volksbetriebsamkeit.",
+ "signature": null,
+ "blocks": [
+  {
+   "id": "b1",
+   "type": "table",
+   "src": 0,
+   "n_cols": 8,
+   "header_rows": 2,
+   "rows": [
+    {
+     "role": "header",
+     "cells": [
+      {
+       "text": "Landestheile.",
+       "spans": []
+      },
+      {
+       "text": "Winterfrucht.",
+       "spans": [
+        [
+         0,
+         12,
+         "Plant"
+        ]
+       ]
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "Sommerfrucht.",
+       "spans": [
+        [
+         0,
+         12,
+         "Plant"
+        ]
+       ]
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "Brache.",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "header",
+     "cells": [
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "Weizen.",
+       "spans": [
+        [
+         0,
+         6,
+         "Plant"
+        ]
+       ]
+      },
+      {
+       "text": "Roggen.",
+       "spans": [
+        [
+         0,
+         6,
+         "Plant"
+        ]
+       ]
+      },
+      {
+       "text": "Gerste.",
+       "spans": [
+        [
+         0,
+         6,
+         "Plant"
+        ]
+       ]
+      },
+      {
+       "text": "Hafer.",
+       "spans": [
+        [
+         0,
+         5,
+         "Plant"
+        ]
+       ]
+      },
+      {
+       "text": "Kartoffeln.",
+       "spans": [
+        [
+         0,
+         10,
+         "Plant"
+        ]
+       ]
+      },
+      {
+       "text": "Hülsenfr.",
+       "spans": [
+        [
+         0,
+         8,
+         "Plant"
+        ]
+       ]
+      },
+      {
+       "text": "Hackfr.",
+       "spans": [
+        [
+         0,
+         6,
+         "Plant"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Gera",
+       "spans": [
+        [
+         0,
+         4,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "1/3",
+       "spans": []
+      },
+      {
+       "text": "2/3",
+       "spans": []
+      },
+      {
+       "text": "1/4",
+       "spans": []
+      },
+      {
+       "text": "3/4",
+       "spans": []
+      },
+      {
+       "text": "1/3",
+       "spans": []
+      },
+      {
+       "text": "1/9",
+       "spans": []
+      },
+      {
+       "text": "5/9",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Schleiz",
+       "spans": [
+        [
+         0,
+         7,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "1/6",
+       "spans": []
+      },
+      {
+       "text": "5/6",
+       "spans": []
+      },
+      {
+       "text": "1/2",
+       "spans": []
+      },
+      {
+       "text": "1/2",
+       "spans": []
+      },
+      {
+       "text": "1/2",
+       "spans": []
+      },
+      {
+       "text": "1/12",
+       "spans": []
+      },
+      {
+       "text": "5/12",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "group",
+     "cells": [
+      {
+       "text": "Lobenst.-Ebersd.",
+       "spans": [
+        [
+         0,
+         15,
+         "Location"
+        ]
+       ],
+       "colspan": 8
+      }
+     ]
+    }
+   ],
+   "grid": [
+    [
+     "Landestheile.",
+     "Winterfrucht.",
+     "",
+     "Sommerfrucht.",
+     "",
+     "Brache.",
+     "",
+     ""
+    ],
+    [
+     "",
+     "Weizen.",
+     "Roggen.",
+     "Gerste.",
+     "Hafer.",
+     "Kartoffeln.",
+     "Hülsenfr.",
+     "Hackfr."
+    ],
+    [
+     "Gera",
+     "1/3",
+     "2/3",
+     "1/4",
+     "3/4",
+     "1/3",
+     "1/9",
+     "5/9"
+    ],
+    [
+     "Schleiz",
+     "1/6",
+     "5/6",
+     "1/2",
+     "1/2",
+     "1/2",
+     "1/12",
+     "5/12"
+    ],
+    [
+     "Lobenst.-Ebersd.",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "caption": null,
+   "sec": "t1-3-2"
+  },
+  {
+   "id": "b2",
+   "type": "paragraph",
+   "src": 1,
+   "text": "und zugleich als Ertrag nach Abzug des Saatkornes im Unterlande bei Weizen und Roggen sechs *), bei Gerste sieben, bei Hafer zehn und bei Hülsenfrüchten vier, im Oberlande bei Halmfrüchten im Durchschnitt fünf, bei den Kartoffeln aber dort und hier 40 Säcke (à Sack = 2 preußische Scheffel) und bei den Hackfrüchten 125 Ctnr. (= 78 Sack) auf den Morgen in Rechnung bringen und überdies, Roggen als Einheit gesetzt, den Nährwerth des Weizens und der Hülsenfrüchte je zu 1,29, der Gerste zu 0,76, des Hafers zu 0,47 und der Kartoffeln zu 0,25 annehmen, so baut",
+   "spans": [
+    [
+     68,
+     74,
+     "Plant"
+    ],
+    [
+     79,
+     85,
+     "Plant"
+    ],
+    [
+     100,
+     106,
+     "Plant"
+    ],
+    [
+     119,
+     124,
+     "Plant"
+    ],
+    [
+     138,
+     152,
+     "Plant"
+    ],
+    [
+     219,
+     229,
+     "Plant"
+    ],
+    [
+     303,
+     315,
+     "Plant"
+    ],
+    [
+     387,
+     393,
+     "Plant"
+    ],
+    [
+     433,
+     440,
+     "Plant"
+    ],
+    [
+     449,
+     462,
+     "Plant"
+    ],
+    [
+     479,
+     485,
+     "Plant"
+    ],
+    [
+     499,
+     505,
+     "Plant"
+    ],
+    [
+     522,
+     532,
+     "Plant"
+    ]
+   ],
+   "sec": "t1-3-2"
+  },
+  {
+   "id": "b3",
+   "type": "table",
+   "src": 2,
+   "n_cols": 7,
+   "header_rows": 2,
+   "rows": [
+    {
+     "role": "header",
+     "cells": [
+      {
+       "text": "Fruchtarten.",
+       "spans": []
+      },
+      {
+       "text": "Morgen.",
+       "spans": []
+      },
+      {
+       "text": "Säcke.",
+       "spans": []
+      },
+      {
+       "text": "Roggenwerth Ctr.",
+       "spans": []
+      },
+      {
+       "text": "Morgen.",
+       "spans": []
+      },
+      {
+       "text": "Säcke.",
+       "spans": []
+      },
+      {
+       "text": "Roggenwerth Ctr.",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "header",
+     "cells": [
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "G e r a.",
+       "spans": [
+        [
+         0,
+         7,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "S c h l e i z.",
+       "spans": [
+        [
+         0,
+         13,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Weizen",
+       "spans": [
+        [
+         0,
+         6,
+         "Plant"
+        ]
+       ]
+      },
+      {
+       "text": "5666 2/3",
+       "spans": []
+      },
+      {
+       "text": "34000",
+       "spans": []
+      },
+      {
+       "text": "43860",
+       "spans": []
+      },
+      {
+       "text": "2273 1/3",
+       "spans": []
+      },
+      {
+       "text": "11366 2/3",
+       "spans": []
+      },
+      {
+       "text": "14663",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Korn",
+       "spans": [
+        [
+         0,
+         4,
+         "Plant"
+        ]
+       ]
+      },
+      {
+       "text": "11333 1/3",
+       "spans": []
+      },
+      {
+       "text": "68000",
+       "spans": []
+      },
+      {
+       "text": "68000",
+       "spans": []
+      },
+      {
+       "text": "11366 2/3",
+       "spans": []
+      },
+      {
+       "text": "56832 1/3",
+       "spans": []
+      },
+      {
+       "text": "56832 1/3",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Gerste",
+       "spans": [
+        [
+         0,
+         6,
+         "Plant"
+        ]
+       ]
+      },
+      {
+       "text": "4250",
+       "spans": []
+      },
+      {
+       "text": "29750",
+       "spans": []
+      },
+      {
+       "text": "22510",
+       "spans": []
+      },
+      {
+       "text": "6820",
+       "spans": []
+      },
+      {
+       "text": "34100",
+       "spans": []
+      },
+      {
+       "text": "25916",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Hafer",
+       "spans": [
+        [
+         0,
+         5,
+         "Plant"
+        ]
+       ]
+      },
+      {
+       "text": "12750",
+       "spans": []
+      },
+      {
+       "text": "127500",
+       "spans": []
+      },
+      {
+       "text": "59925",
+       "spans": []
+      },
+      {
+       "text": "6820",
+       "spans": []
+      },
+      {
+       "text": "34100",
+       "spans": []
+      },
+      {
+       "text": "16027",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Kartoffeln",
+       "spans": [
+        [
+         0,
+         10,
+         "Plant"
+        ]
+       ]
+      },
+      {
+       "text": "5666 2/3",
+       "spans": []
+      },
+      {
+       "text": "226667",
+       "spans": []
+      },
+      {
+       "text": "56667",
+       "spans": []
+      },
+      {
+       "text": "6820",
+       "spans": []
+      },
+      {
+       "text": "272800",
+       "spans": []
+      },
+      {
+       "text": "68200",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Hülsenfrüchte",
+       "spans": [
+        [
+         0,
+         13,
+         "Plant"
+        ]
+       ]
+      },
+      {
+       "text": "1888 8/9",
+       "spans": []
+      },
+      {
+       "text": "7556",
+       "spans": []
+      },
+      {
+       "text": "9752",
+       "spans": []
+      },
+      {
+       "text": "1136 1/3",
+       "spans": []
+      },
+      {
+       "text": "5681 2/3",
+       "spans": []
+      },
+      {
+       "text": "7329 1/3",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Hackfrüchte",
+       "spans": [
+        [
+         0,
+         11,
+         "Plant"
+        ]
+       ]
+      },
+      {
+       "text": "9444 4/9",
+       "spans": []
+      },
+      {
+       "text": "735667",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "5683 2/3",
+       "spans": []
+      },
+      {
+       "text": "443326",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "total",
+     "cells": [
+      {
+       "text": "Summe",
+       "spans": []
+      },
+      {
+       "text": "51000 **)",
+       "spans": []
+      },
+      {
+       "text": "1229140",
+       "spans": []
+      },
+      {
+       "text": "260714",
+       "spans": []
+      },
+      {
+       "text": "40920 **)",
+       "spans": []
+      },
+      {
+       "text": "858206 2/3",
+       "spans": []
+      },
+      {
+       "text": "188967 2/3",
+       "spans": []
+      }
+     ]
+    }
+   ],
+   "grid": [
+    [
+     "Fruchtarten.",
+     "Morgen.",
+     "Säcke.",
+     "Roggenwerth Ctr.",
+     "Morgen.",
+     "Säcke.",
+     "Roggenwerth Ctr."
+    ],
+    [
+     "",
+     "G e r a.",
+     "",
+     "",
+     "S c h l e i z.",
+     "",
+     ""
+    ],
+    [
+     "Weizen",
+     "5666 2/3",
+     "34000",
+     "43860",
+     "2273 1/3",
+     "11366 2/3",
+     "14663"
+    ],
+    [
+     "Korn",
+     "11333 1/3",
+     "68000",
+     "68000",
+     "11366 2/3",
+     "56832 1/3",
+     "56832 1/3"
+    ],
+    [
+     "Gerste",
+     "4250",
+     "29750",
+     "22510",
+     "6820",
+     "34100",
+     "25916"
+    ],
+    [
+     "Hafer",
+     "12750",
+     "127500",
+     "59925",
+     "6820",
+     "34100",
+     "16027"
+    ],
+    [
+     "Kartoffeln",
+     "5666 2/3",
+     "226667",
+     "56667",
+     "6820",
+     "272800",
+     "68200"
+    ],
+    [
+     "Hülsenfrüchte",
+     "1888 8/9",
+     "7556",
+     "9752",
+     "1136 1/3",
+     "5681 2/3",
+     "7329 1/3"
+    ],
+    [
+     "Hackfrüchte",
+     "9444 4/9",
+     "735667",
+     "—",
+     "5683 2/3",
+     "443326",
+     "—"
+    ],
+    [
+     "Summe",
+     "51000 **)",
+     "1229140",
+     "260714",
+     "40920 **)",
+     "858206 2/3",
+     "188967 2/3"
+    ]
+   ],
+   "caption": null,
+   "sec": "t1-3-2"
+  },
+  {
+   "id": "b4",
+   "type": "table",
+   "src": 3,
+   "n_cols": 7,
+   "header_rows": 1,
+   "rows": [
+    {
+     "role": "header",
+     "cells": [
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "Lobenstein-Ebersdorf.",
+       "spans": [
+        [
+         0,
+         20,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "F ü r s t e n t h u m.",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Weizen",
+       "spans": [
+        [
+         0,
+         6,
+         "Plant"
+        ]
+       ]
+      },
+      {
+       "text": "1625",
+       "spans": []
+      },
+      {
+       "text": "8125",
+       "spans": []
+      },
+      {
+       "text": "10481,25",
+       "spans": []
+      },
+      {
+       "text": "9565",
+       "spans": []
+      },
+      {
+       "text": "53491 2/3",
+       "spans": []
+      },
+      {
+       "text": "69004,25",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Korn",
+       "spans": [
+        [
+         0,
+         4,
+         "Plant"
+        ]
+       ]
+      },
+      {
+       "text": "8125",
+       "spans": []
+      },
+      {
+       "text": "40625",
+       "spans": []
+      },
+      {
+       "text": "40625",
+       "spans": []
+      },
+      {
+       "text": "30825",
+       "spans": []
+      },
+      {
+       "text": "165457 1/3",
+       "spans": []
+      },
+      {
+       "text": "165457,33",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Gerste",
+       "spans": [
+        [
+         0,
+         6,
+         "Plant"
+        ]
+       ]
+      },
+      {
+       "text": "4875",
+       "spans": []
+      },
+      {
+       "text": "24375",
+       "spans": []
+      },
+      {
+       "text": "18525",
+       "spans": []
+      },
+      {
+       "text": "15945",
+       "spans": []
+      },
+      {
+       "text": "88225",
+       "spans": []
+      },
+      {
+       "text": "66951",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Hafer",
+       "spans": [
+        [
+         0,
+         5,
+         "Plant"
+        ]
+       ]
+      },
+      {
+       "text": "4875",
+       "spans": []
+      },
+      {
+       "text": "24375",
+       "spans": []
+      },
+      {
+       "text": "11457,25",
+       "spans": []
+      },
+      {
+       "text": "24445",
+       "spans": []
+      },
+      {
+       "text": "185975",
+       "spans": []
+      },
+      {
+       "text": "87409,25",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Kartoffeln",
+       "spans": [
+        [
+         0,
+         10,
+         "Plant"
+        ]
+       ]
+      },
+      {
+       "text": "4875",
+       "spans": []
+      },
+      {
+       "text": "195000",
+       "spans": []
+      },
+      {
+       "text": "48750",
+       "spans": []
+      },
+      {
+       "text": "17361 2/3",
+       "spans": []
+      },
+      {
+       "text": "694467",
+       "spans": []
+      },
+      {
+       "text": "173617",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Hülsenfrüchte",
+       "spans": [
+        [
+         0,
+         13,
+         "Plant"
+        ]
+       ]
+      },
+      {
+       "text": "812 1/2",
+       "spans": []
+      },
+      {
+       "text": "4062 1/2",
+       "spans": []
+      },
+      {
+       "text": "5240,62",
+       "spans": []
+      },
+      {
+       "text": "3837 13/18",
+       "spans": []
+      },
+      {
+       "text": "17300 1/6",
+       "spans": []
+      },
+      {
+       "text": "22321,95",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Hackfrüchte",
+       "spans": [
+        [
+         0,
+         11,
+         "Plant"
+        ]
+       ]
+      },
+      {
+       "text": "4062 1/2",
+       "spans": []
+      },
+      {
+       "text": "316875",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "19190 11/18",
+       "spans": []
+      },
+      {
+       "text": "1495868",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "total",
+     "cells": [
+      {
+       "text": "Summe",
+       "spans": []
+      },
+      {
+       "text": "29250 **)",
+       "spans": []
+      },
+      {
+       "text": "613437 1/2",
+       "spans": []
+      },
+      {
+       "text": "135079,12",
+       "spans": []
+      },
+      {
+       "text": "121170",
+       "spans": []
+      },
+      {
+       "text": "2700784 1/6",
+       "spans": []
+      },
+      {
+       "text": "584760,78",
+       "spans": []
+      }
+     ]
+    }
+   ],
+   "grid": [
+    [
+     "",
+     "Lobenstein-Ebersdorf.",
+     "",
+     "",
+     "F ü r s t e n t h u m.",
+     "",
+     ""
+    ],
+    [
+     "Weizen",
+     "1625",
+     "8125",
+     "10481,25",
+     "9565",
+     "53491 2/3",
+     "69004,25"
+    ],
+    [
+     "Korn",
+     "8125",
+     "40625",
+     "40625",
+     "30825",
+     "165457 1/3",
+     "165457,33"
+    ],
+    [
+     "Gerste",
+     "4875",
+     "24375",
+     "18525",
+     "15945",
+     "88225",
+     "66951"
+    ],
+    [
+     "Hafer",
+     "4875",
+     "24375",
+     "11457,25",
+     "24445",
+     "185975",
+     "87409,25"
+    ],
+    [
+     "Kartoffeln",
+     "4875",
+     "195000",
+     "48750",
+     "17361 2/3",
+     "694467",
+     "173617"
+    ],
+    [
+     "Hülsenfrüchte",
+     "812 1/2",
+     "4062 1/2",
+     "5240,62",
+     "3837 13/18",
+     "17300 1/6",
+     "22321,95"
+    ],
+    [
+     "Hackfrüchte",
+     "4062 1/2",
+     "316875",
+     "—",
+     "19190 11/18",
+     "1495868",
+     "—"
+    ],
+    [
+     "Summe",
+     "29250 **)",
+     "613437 1/2",
+     "135079,12",
+     "121170",
+     "2700784 1/6",
+     "584760,78"
+    ]
+   ],
+   "caption": null,
+   "sec": "t1-3-2"
+  },
+  {
+   "id": "b5",
+   "type": "paragraph",
+   "src": 4,
+   "text": "Demnach ergiebt sich, wenn an Roggenwerth auf den Kopf der Bevölkerung vier, auf ein Pferd 20, auf ein Rind 2 1/2, auf ein Schwein 4 1/2 und auf ein Schaf und eine Ziege 1/10 Centner gerechnet und die Consumtion mit der Production verglichen wird, folgendes Resultat:",
+   "spans": [
+    [
+     30,
+     41,
+     "Plant"
+    ],
+    [
+     85,
+     90,
+     "Animal"
+    ],
+    [
+     103,
+     107,
+     "Animal"
+    ],
+    [
+     123,
+     130,
+     "Animal"
+    ],
+    [
+     149,
+     154,
+     "Animal"
+    ],
+    [
+     164,
+     169,
+     "Animal"
+    ]
+   ],
+   "sec": "t1-3-2"
+  }
+ ],
+ "footnotes": [
+  {
+   "id": "fn1",
+   "marker": "*)",
+   "text": "Genauer fünf bis sechs nach Angabe des Herrn Rittergutsbesitzers Ampach.",
+   "spans": [
+    [
+     65,
+     71,
+     "Person"
+    ]
+   ]
+  },
+  {
+   "id": "fn2",
+   "marker": "**)",
+   "text": "Hier ist die der Gegenwart entsprechende Ackerfläche gesetzt, die seit 1854 am Meisten im Landestheile Gera und zwar um ca. 1000 Morgen, dagegen viel geringer in den beiden anderen Landestheilen zugenommen hat.",
+   "spans": [
+    [
+     103,
+     107,
+     "Location"
+    ]
+   ]
+  }
+ ],
+ "corrections": [
+  {
+   "rule": "table_drop_empty_columns",
+   "dropped": [
+    8
+   ],
+   "block": "b1"
+  },
+  {
+   "rule": "table_multirow_header",
+   "rows": 2,
+   "block": "b1"
+  },
+  {
+   "rule": "table_group_rows",
+   "n": 1,
+   "block": "b1"
+  },
+  {
+   "rule": "table_multirow_header",
+   "rows": 2,
+   "block": "b3"
+  }
+ ],
+ "provenance": {
+  "source": "colab-2026-03",
+  "model": "gemini-3-flash-preview",
+  "timestamp": "2026-03-04T13:19:20.323713",
+  "early_schema": false
+ },
+ "section_path": [
+  "t1",
+  "t1-3",
+  "t1-3-2"
+ ],
+ "sections": [
+  "t1-3-2"
+ ]
+}

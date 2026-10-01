@@ -1,0 +1,5281 @@
+{
+  "package": "G1",
+  "pages": "405-486",
+  "entries": [
+    {
+      "id": "landestheil-gera",
+      "name": "Landestheil Gera",
+      "start": {
+        "page": "407",
+        "block": "b1"
+      },
+      "end": {
+        "page": "415",
+        "block": "b5"
+      },
+      "landestheil": "Gera",
+      "type_verbatim": "Der Landestheil oder Landrathsbezirk Gera",
+      "type": "Landestheil",
+      "wuestung": false,
+      "elevation": {
+        "value": 730,
+        "unit": "Fuß",
+        "verbatim": "von 460 bis 989 Fuß ansteigend … circa 730 Fuß hohen mittleren Durchschnittsfläche"
+      },
+      "houses": 4023,
+      "inhabitants": 38147,
+      "census_year": 1867,
+      "facilities": [
+        "Residenzschloss Osterstein",
+        "Stadt Gera",
+        "Elsterthal",
+        "Eisenbahn"
+      ],
+      "events": [
+        {
+          "year": 999,
+          "event_de": "Kaiser und Reich eignen die Vogtei Gera dem Kloster Quedlinburg zu",
+          "event_en": "Emperor and Empire grant the advocacy of Gera to Quedlinburg convent"
+        },
+        {
+          "year": 1237,
+          "event_de": "Die Vögte von Weida erlangen die Gerichtsbarkeit über Stadt und Pflege Gera",
+          "event_en": "The advocates of Weida obtain jurisdiction over town and district of Gera"
+        },
+        {
+          "year": 1306,
+          "event_de": "Die Vögte sichern sich die Pflege Gera durch Ankauf",
+          "event_en": "The advocates secure the district of Gera by purchase"
+        },
+        {
+          "year": 1364,
+          "event_de": "Die Vögte von Gera erwerben die zweite Hälfte der Pflege Langenberg (erste Hälfte um 1328)",
+          "event_en": "The advocates of Gera acquire the second half of the Langenberg district (first half about 1328)"
+        },
+        {
+          "year": 1547,
+          "event_de": "Die Lehnsherrlichkeit geht durch Burggraf Heinrich V. an die Krone Böhmen über",
+          "event_en": "Feudal overlordship passes to the Crown of Bohemia through Burgrave Heinrich V"
+        },
+        {
+          "year": 1647,
+          "event_de": "Theilungsacten: Zählung von 1 Stadt, 14 Amtsdörfern, 9 Mischdörfern und 57 adligen Orten",
+          "event_en": "Partition records: 1 town, 14 official villages, 9 mixed villages and 57 noble villages"
+        },
+        {
+          "year": 1848,
+          "event_de": "Vereinigung aller reußischen Landesteile unter Fürst Heinrich LXII. (1. October)",
+          "event_en": "Unification of all Reuss territories under Prince Heinrich LXII (1 October)"
+        }
+      ],
+      "persons": [
+        "Heinrich LXII.",
+        "Heinrich LXVII.",
+        "Heinrich XIV.",
+        "Heinrich V. (Burggraf)",
+        "Heinrich Posthumus"
+      ],
+      "notes": "Fläche 4,03 ☐M. in Hauptkörper und Exclave (Lichtenberg, Otticha, Pohlen, Wüst- und Kleinfalke); 5 Stunden breit, 4 Stunden lang; 16 Orte im Elsterthal, 35 auf der Ostseite, 30 auf der Westseite; Bevölkerung 1647: 8392, 1794: 19523, 1867: 38147 (Tabellen S. 409-413); 8096 Familien 1867.",
+      "summary_de": "Einleitende Übersicht über das reußische Unterland: Grenzen, Gliederung in Elsterthal, Ost- und Westbuckel, Bevölkerungsentwicklung 1647–1867 nach Orten, Industrie- und Agrarorte, Besitzverhältnisse und die Herrschaftsgeschichte von den Vögten von Weida bis zur Vereinigung 1848.",
+      "summary_en": "Introductory overview of the Reuss lowland (Unterland): boundaries, division into Elster valley and eastern and western upland, population development 1647-1867 by place, industrial and agrarian places, tenure structure, and the history of rule from the advocates of Weida to the unification of 1848."
+    },
+    {
+      "id": "osterstein",
+      "name": "Osterstein",
+      "start": {
+        "page": "415",
+        "block": "b6"
+      },
+      "end": {
+        "page": "418",
+        "block": "b2"
+      },
+      "landestheil": "Gera",
+      "type_verbatim": "Residenzschloß des Fürstenthums",
+      "type": "Schloss",
+      "wuestung": false,
+      "first_mention_year": 1234,
+      "location": {
+        "verbatim": "1/4 Stunde nordwestlich von Gera",
+        "relative_to": "Gera",
+        "distance_hours": 0.25,
+        "direction": "NW"
+      },
+      "elevation": {
+        "value": 60,
+        "unit": "Fuß über der Elster",
+        "verbatim": "auf einem 60 Fuß über der Elster hohen Nordostcap des waldreichen Hainbergs"
+      },
+      "parish": {
+        "status": "Schlosskirche",
+        "church_of": "Untermhaus",
+        "verbatim": "von 1852 an begann wieder der Gottesdienst in der Schlosskirche, deren Pastorat seit 1854 der erste Diacon zu Gera als Hofprediger und als Pfarrer zu Untermhaus verwaltet"
+      },
+      "facilities": [
+        "Schlosskirche",
+        "Marstall",
+        "Marmorsaal",
+        "Ahnensaal",
+        "Waffensaal",
+        "Bibliothek",
+        "Archiv",
+        "Schlossgarten",
+        "Reithaus"
+      ],
+      "subplaces": [
+        {
+          "name": "Wolfsbrücke",
+          "kind": "Sonstiges",
+          "page": "417"
+        },
+        {
+          "name": "Preußenwiese",
+          "kind": "Sonstiges",
+          "page": "418"
+        },
+        {
+          "name": "Torstensohnseiche",
+          "kind": "Sonstiges",
+          "page": "418"
+        },
+        {
+          "name": "Siebeneichen",
+          "kind": "Sonstiges",
+          "page": "418"
+        }
+      ],
+      "events": [
+        {
+          "year": 1234,
+          "event_de": "Erste urkundliche Erwähnung; der weidaische Reichsvoigt Heinrich residiert hier",
+          "event_en": "First documentary mention; the imperial advocate Heinrich of Weida resides here"
+        },
+        {
+          "year": 1450,
+          "event_de": "Nach der Verwüstung Geras wird Osterstein bleibende Residenz",
+          "event_en": "After the devastation of Gera, Osterstein becomes the permanent residence"
+        },
+        {
+          "year": 1470,
+          "event_de": "Nordflügel durch Heinrich von Gera erbaut (1468-1470)",
+          "event_en": "North wing built by Heinrich of Gera (1468-1470)"
+        },
+        {
+          "year": 1665,
+          "event_de": "Neubau des Ostflügels unter Heinrich II.",
+          "event_en": "New east wing under Heinrich II"
+        },
+        {
+          "year": 1702,
+          "event_de": "Erneuerung des Nordflügels, Ahnensaal und Schlossgarten unter Heinrich XVIII.",
+          "event_en": "Renewal of the north wing; ancestral hall and palace garden under Heinrich XVIII"
+        },
+        {
+          "year": 1852,
+          "event_de": "Einweihung der restaurierten Schlosskirche am 30. Mai",
+          "event_en": "Restored palace church consecrated on 30 May"
+        },
+        {
+          "year": 1863,
+          "event_de": "Südlicher Prachtbau mit Brücke und Thorgebäude 1859-1863 durch Heinrich LXVII.",
+          "event_en": "Southern state building with bridge and gatehouse, 1859-1863, under Heinrich LXVII"
+        }
+      ],
+      "persons": [
+        "Heinrich LXVII.",
+        "Heinrich XVIII.",
+        "Heinrich II.",
+        "Heinrich LXII.",
+        "Heinrich LXXII.",
+        "Heinrich XIV."
+      ],
+      "summary_de": "Osterstein, Residenzschloss des Fürstentums, ¼ Stunde nordwestlich von Gera auf dem Hainberg: ehemalige Reichsburg, urkundlich 1234, Bauperioden vom 15. bis 19. Jahrhundert, Schlosskirche, Sagen, Umgebung und der ursprüngliche Rentendistrict.",
+      "summary_en": "Osterstein, residence castle of the principality, a quarter hour northwest of Gera on the Hainberg: former imperial castle, documented in 1234, building phases from the 15th to the 19th century, castle church, legends, surroundings and the original rent district."
+    },
+    {
+      "id": "ernsee",
+      "name": "Ernsee",
+      "start": {
+        "page": "418",
+        "block": "b3"
+      },
+      "end": {
+        "page": "419",
+        "block": "b1"
+      },
+      "landestheil": "Gera",
+      "type_verbatim": "hoch, frisch und zugig gelegenes Dörfchen",
+      "type": "Dorf",
+      "wuestung": false,
+      "historic_forms": [
+        {
+          "form": "Ernse",
+          "year": 1397
+        },
+        {
+          "form": "Ernsehe",
+          "year": 1533
+        },
+        {
+          "form": "Irrensehe",
+          "year": null
+        },
+        {
+          "form": "Irrenshöhe",
+          "year": null
+        },
+        {
+          "form": "Errensehe",
+          "year": null
+        },
+        {
+          "form": "Ehrensee",
+          "year": null
+        }
+      ],
+      "dialect_form": "Ernsee",
+      "first_mention_year": 1397,
+      "location": {
+        "verbatim": "zwischen Osterstein und Frankenthal, 3/4 Stunde westlich von Gera",
+        "relative_to": "Gera",
+        "distance_hours": 0.75,
+        "direction": "W"
+      },
+      "parish": {
+        "status": "eingepfarrt",
+        "church_of": "Frankenthal",
+        "verbatim": "pfarrt, begräbt und schult … nach Frankenthal"
+      },
+      "school": {
+        "exists": false,
+        "pupils": 23,
+        "note": "schult nach Frankenthal"
+      },
+      "houses": 17,
+      "inhabitants": 136,
+      "occupations": {
+        "Bauern": 13,
+        "Häusler": 3,
+        "Taglöhner": 12,
+        "Dienstboten": 28
+      },
+      "crafts": {
+        "Maurer": 4,
+        "Zimmerer": 2,
+        "Dachdecker": 1,
+        "Schneider": 1
+      },
+      "flur_morgen": 677.73,
+      "flur_verbatim": "677 11/15 Morgen",
+      "livestock": {
+        "Pferde": 13,
+        "Rinder": 84,
+        "Schafe": 413,
+        "Schweine": 81,
+        "Ziegen": 7,
+        "Gänse": 103,
+        "Bienenstöcke": 9
+      },
+      "municipal_finances": {
+        "verbatim": "Die Gemeinde besitzt kein Vermögen, wohl aber 300 Thlr. Schulden und bedarf jährlich 127 Thlr. für Kirche, Pfarrei und Schule in Frankenthal, für ihr Gemeindehaus und zur Erhaltung der Dorfstraße und zweier Communicationswege, die ihr durch ein Abkommen vom 21",
+        "debts_thaler": 300,
+        "expenditure_thaler": 127
+      },
+      "facilities": [
+        "Kammergut",
+        "Forstei",
+        "Gemeindehaus",
+        "Privatwirthshaus",
+        "Feuerspritze",
+        "Dorfteiche"
+      ],
+      "subplaces": [
+        {
+          "name": "Kammergut Ernsee",
+          "kind": "Kammergut",
+          "page": "418"
+        },
+        {
+          "name": "Waldschlösschen",
+          "kind": "Sonstiges",
+          "page": "418"
+        }
+      ],
+      "events": [
+        {
+          "year": 1397,
+          "event_de": "Erste Erwähnung; Pezold von Ernse",
+          "event_en": "First mention; Pezold von Ernse"
+        },
+        {
+          "year": 1616,
+          "event_de": "Eine ernseer Kindesmörderin wird gegäckt",
+          "event_en": "An infanticide from Ernsee is executed"
+        },
+        {
+          "year": 1856,
+          "event_de": "Abkommen mit der fürstlichen Kammer über die Gemeindelasten (21. Januar)",
+          "event_en": "Agreement with the princely chamber on municipal burdens (21 January)"
+        }
+      ],
+      "notes": "1 Kammergutsgebäude, 1 Gemeindehaus, 17 Privathäuser mit 11 Scheunen; 29 Familien; 1861: 128 Einwohner; 7 bäuerliche Güter; Flur 74 % Feld, 2 % Wiesen, Steuerwerth 71,460 Thlr.; sorbischen Ursprungs; früher zur Kirche des wüsten Pottendorf.",
+      "summary_de": "Ernsee, kleines Höhendorf ¾ Stunde westlich von Gera, nach Frankenthal gepfarrt und eingeschult; Kammergut als ehemaliges Burg- und Küchengut von Osterstein, Forstei, Gemeindefinanzen, Namensdeutungen und sorbischer Ursprung.",
+      "summary_en": "Ernsee, a small upland village three quarters of an hour west of Gera, assigned to the parish and school of Frankenthal; its crown estate, formerly a castle and kitchen estate of Osterstein, forester's lodge, municipal finances, name etymologies and Sorbian origin."
+    },
+    {
+      "id": "pottendorf",
+      "name": "Pottendorf",
+      "start": {
+        "page": "419",
+        "block": "b2"
+      },
+      "end": {
+        "page": "420",
+        "block": "b1"
+      },
+      "landestheil": "Gera",
+      "type_verbatim": "Die Wüstung Pottendorf",
+      "type": "Wüstung",
+      "wuestung": true,
+      "location": {
+        "verbatim": "3/8 Stunde nördlich von Ernsee",
+        "relative_to": "Ernsee",
+        "distance_hours": 0.375,
+        "direction": "N"
+      },
+      "facilities": [
+        "Marienkirchlein (Wallfahrtsort)",
+        "Teich"
+      ],
+      "events": [
+        {
+          "year": 1800,
+          "event_de": "Noch vollständige Mauern, Scheunenlager und Miststätten angetroffen",
+          "event_en": "Complete walls, barn sites and dung heaps still found"
+        },
+        {
+          "year": 1853,
+          "event_de": "Wald-Saugarten angelegt, später wieder aufgegeben",
+          "event_en": "Game park for wild boar laid out, later abandoned"
+        }
+      ],
+      "summary_de": "Wüstung Pottendorf, nördlich von Ernsee, jetzt herrschaftlicher Walddistrict: ehemaliger Kultort mit Marienkirche und Wallfahrt (Marienpuppe), Zerstörung im 15. Jahrhundert, Sagen und Verbleib des Marienbildes in Untermhaus.",
+      "summary_en": "Deserted settlement of Pottendorf north of Ernsee, now a princely forest district: a former cult site with a Marian church and pilgrimage (the 'Marienpuppe'), destroyed in the 15th century, with legends and the later fate of the Marian image in Untermhaus."
+    },
+    {
+      "id": "untermhaus",
+      "name": "Untermhaus",
+      "start": {
+        "page": "420",
+        "block": "b2"
+      },
+      "end": {
+        "page": "423",
+        "block": "b1"
+      },
+      "landestheil": "Gera",
+      "type_verbatim": "großes Kirch- und Pfarrdorf, höfischer Vorort von Osterstein, Verkehrsvorstadt von Gera",
+      "type": "Dorf",
+      "wuestung": false,
+      "historic_forms": [
+        {
+          "form": "Unterhaus",
+          "year": 1191
+        },
+        {
+          "form": "Underhaus",
+          "year": 1534
+        },
+        {
+          "form": "Unterheuser",
+          "year": 1534
+        }
+      ],
+      "dialect_form": "Unterhaus",
+      "first_mention_year": 1191,
+      "location": {
+        "verbatim": "1/8 Stunde nordwestlich von Gera",
+        "relative_to": "Gera",
+        "distance_hours": 0.125,
+        "direction": "NW"
+      },
+      "parish": {
+        "status": "Pfarrdorf",
+        "church_of": null,
+        "verbatim": "großes Kirch- und Pfarrdorf … 1736 wurden unter Heinrich XXV. die vorher nach Gera in die Hauptkirche gepfarrten Gemeinden Untermhaus, Gries und Cuba von der Stadt getrennt, zu einer eigenen Parochie vereinigt"
+      },
+      "school": {
+        "exists": true,
+        "pupils": 320
+      },
+      "houses": 101,
+      "inhabitants": 1731,
+      "occupations": {
+        "Bauern": 2,
+        "Kapitalisten": 10,
+        "Handeltreibende": 8,
+        "Hauderer": 3,
+        "selbstständige Gewerbtreibende": 153,
+        "unselbstständige Gewerbtreibende und Fabrikarbeiter": 311
+      },
+      "crafts": {
+        "Maurer": 16,
+        "Schneider": 7,
+        "Bäcker": 6,
+        "Schuhmacher": 6,
+        "Zimmerleute": 6,
+        "Fleischer": 5,
+        "Weber": 4,
+        "Korbmacher": 3,
+        "Sattler": 3,
+        "Fischer": 2,
+        "Tischler": 2,
+        "Gärtner": 1,
+        "Gerber": 1,
+        "Glaser": 1,
+        "Goldarbeiter": 1,
+        "Klempner": 1,
+        "Schlosser": 1,
+        "Seiler": 1,
+        "Zinngießer": 1
+      },
+      "livestock": {
+        "Pferde": 54,
+        "Rinder": 33,
+        "Schweine": 109,
+        "Esel": 1,
+        "Ziegen": 16,
+        "Gänse": 30,
+        "Bienenstöcke": 16
+      },
+      "municipal_finances": {
+        "verbatim": "Ihr Grundeigenthum, 3 5/6 Morgen groß und 7500 Thlr. werth, besteht in Communalgebäuden, freien Plätzen, Ortsstraßen und 3 Communicationswegen. An Kapital hat sie circa 1000 Thlr., an Schulden circa 6000 Thlr., wovon ein Theil auf Cuba kommt; ihre Jahresausgabe beträgt 600 bis 700 Thlr.",
+        "assets_thaler": 7500,
+        "capital_thaler": 1000,
+        "debts_thaler": 6000,
+        "expenditure_thaler_min": 600,
+        "expenditure_thaler_max": 700
+      },
+      "facilities": [
+        "Kirche",
+        "Schule",
+        "Agnesschule",
+        "Armenhaus",
+        "Rentamt",
+        "Gasthof",
+        "Brauerei",
+        "Mühle",
+        "Dampfmühle",
+        "Porzellanfabrik",
+        "Harmonikafabrik",
+        "Feuerspritze",
+        "Gemeindebibliothek",
+        "Militärschießplatz"
+      ],
+      "subplaces": [
+        {
+          "name": "Gries",
+          "kind": "Sonstiges",
+          "page": "420"
+        },
+        {
+          "name": "Aue",
+          "kind": "Sonstiges",
+          "page": "420"
+        },
+        {
+          "name": "neue Straße",
+          "kind": "Sonstiges",
+          "page": "420"
+        },
+        {
+          "name": "Reitsteg",
+          "kind": "Sonstiges",
+          "page": "420"
+        },
+        {
+          "name": "Bach",
+          "kind": "Sonstiges",
+          "page": "420"
+        },
+        {
+          "name": "Kammergut Untermhaus",
+          "kind": "Kammergut",
+          "page": "420"
+        },
+        {
+          "name": "Küchengarten",
+          "kind": "Sonstiges",
+          "page": "422"
+        },
+        {
+          "name": "Fasanerie",
+          "kind": "Sonstiges",
+          "page": "421"
+        },
+        {
+          "name": "Hausmühle",
+          "kind": "Mühle",
+          "page": "422"
+        }
+      ],
+      "events": [
+        {
+          "year": 1191,
+          "event_de": "Erste urkundliche Erwähnung (Unterhaus)",
+          "event_en": "First documentary mention (Unterhaus)"
+        },
+        {
+          "year": 1709,
+          "event_de": "Hochwasser reißt einige Häuser weg",
+          "event_en": "Flood sweeps away several houses"
+        },
+        {
+          "year": 1729,
+          "event_de": "Kammergut nach dem Brand um 1729 von Heinrich XVIII. neu erbaut; Küchengarten angelegt",
+          "event_en": "Crown estate rebuilt by Heinrich XVIII after a fire around 1729; kitchen garden laid out"
+        },
+        {
+          "year": 1736,
+          "event_de": "Untermhaus, Gries und Cuba werden von Gera getrennt und zu einer eigenen Parochie vereinigt",
+          "event_en": "Untermhaus, Gries and Cuba separated from Gera and united as their own parish"
+        },
+        {
+          "year": 1851,
+          "event_de": "Gries mit Nebentheilen mit Untermhaus zu einer Gemeinde vereinigt",
+          "event_en": "Gries and its parts merged with Untermhaus into one municipality"
+        },
+        {
+          "year": 1864,
+          "event_de": "Bau eines Schulhauses",
+          "event_en": "New school building"
+        },
+        {
+          "year": 1866,
+          "event_de": "Cholera im Herbst",
+          "event_en": "Cholera in autumn"
+        },
+        {
+          "year": 1869,
+          "event_de": "Gründung der Agnesschule (Kleinkinderbewahranstalt) am 10. November",
+          "event_en": "Agnesschule (infant care institution) founded on 10 November"
+        }
+      ],
+      "persons": [
+        "Heinrich d. Reichen von Weida",
+        "Heinrich XVIII.",
+        "Heinrich XXV.",
+        "Heinrich LXVII."
+      ],
+      "notes": "395 Familien; 1861: 1257 Einwohner; 1 Kammergutsgebäude, 3 Beamtenbauten, 2 Gemeinde-Armenhäuser, 101 Privathäuser; besitzt keine Flurmarkung (Grundeigenthum 3 5/6 Morgen); 41 ledige Grundstücke; die Toten werden in Gera begraben; Schule mit drei Lehrern seit 1865; Kirchenvermögen circa 2212 Thlr.; Kirchenbücher seit 1736.",
+      "summary_de": "Untermhaus, großes Kirch- und Pfarrdorf am Fuß des Osterstein, ⅛ Stunde nordwestlich von Gera: städtischer Charakter mit Hof- und Staatsbeamten, Gewerbetreibenden und Fabrikarbeitern; Entstehung als Vorburg, Kirche mit Marienbild (\"Puppe\"), Parochie seit 1736, Schule, Gemeindefinanzen, Gewerbe und Küchengarten.",
+      "summary_en": "Untermhaus, a large church and parish village at the foot of Osterstein, an eighth of an hour northwest of Gera: urban in character with court and state officials, tradesmen and factory workers; origins as outer bailey, church with Marian image ('Puppe'), parish since 1736, school, municipal finances, trades and the kitchen garden."
+    },
+    {
+      "id": "cuba",
+      "name": "Cuba",
+      "start": {
+        "page": "423",
+        "block": "b2"
+      },
+      "end": {
+        "page": "423",
+        "block": "b2"
+      },
+      "landestheil": "Gera",
+      "type_verbatim": "Dörfchen in der niederen Thalsohle der Elster",
+      "type": "Dorf",
+      "wuestung": false,
+      "historic_forms": [
+        {
+          "form": "Kuba",
+          "year": 1534
+        }
+      ],
+      "dialect_form": "Kube",
+      "first_mention_year": 1534,
+      "location": {
+        "verbatim": "1/3 Stunde nordwestlich von Gera",
+        "relative_to": "Gera",
+        "distance_hours": 0.33,
+        "direction": "NW"
+      },
+      "parish": {
+        "status": "eingepfarrt",
+        "church_of": "Untermhaus",
+        "verbatim": "pfarrt seit 1736 … nach Untermhaus, vorher nach Gera"
+      },
+      "school": {
+        "exists": false,
+        "note": "schult seit 1696 nach Untermhaus, vorher nach Gera"
+      },
+      "houses": 24,
+      "inhabitants": 328,
+      "occupations": {
+        "Feldbautreibende": 6,
+        "Kapitalisten": 4
+      },
+      "crafts": {
+        "Maurer": 3,
+        "Bäcker": 1,
+        "Fleischer": 1,
+        "Gärtner": 1,
+        "Gerber": 1,
+        "Korbmacher": 1,
+        "Schneider": 1,
+        "Schuhmacher": 1,
+        "Zimmermann": 1
+      },
+      "livestock": {
+        "Pferde": 18,
+        "Rinder": 19,
+        "Schafe": 12,
+        "Schweine": 38,
+        "Ziegen": 4,
+        "Bienenstöcke": 8
+      },
+      "municipal_finances": {
+        "verbatim": "Die Gemeinde mit 2 Beamten besitzt außer dem Armenhause (200 Thlr. werth) und einem Antheile an der Feuerspritze in Untermhaus 150 Thlr. Schulden",
+        "assets_thaler": 200,
+        "debts_thaler": 150,
+        "expenditure_thaler": 160
+      },
+      "facilities": [
+        "Gemeindearmenhaus",
+        "Privatwirthshaus",
+        "Mühle",
+        "Fournirschneidemühle",
+        "Brettschneiderei",
+        "Militärbadeplatz"
+      ],
+      "subplaces": [
+        {
+          "name": "Mühle Cuba",
+          "kind": "Mühle",
+          "page": "423"
+        },
+        {
+          "name": "Fournirschneidemühle",
+          "kind": "Gewerbeanlage",
+          "page": "423"
+        },
+        {
+          "name": "Militärbadeplatz",
+          "kind": "Sonstiges",
+          "page": "423"
+        }
+      ],
+      "events": [
+        {
+          "year": 1590,
+          "event_de": "Kupferhammer kurz nach 1590 unterhalb der Mühle errichtet",
+          "event_en": "Copper hammer built shortly after 1590 below the mill"
+        },
+        {
+          "year": 1772,
+          "event_de": "Brand",
+          "event_en": "Fire"
+        },
+        {
+          "year": 1780,
+          "event_de": "Buchdruckerei 1780-1783",
+          "event_en": "Printing works, 1780-1783"
+        },
+        {
+          "year": 1799,
+          "event_de": "Hochwasser; Ort drei Tage lang unnahbare Insel",
+          "event_en": "Flood; village an inaccessible island for three days"
+        },
+        {
+          "year": 1808,
+          "event_de": "Steingutfabrik begründet, später Wollenwaarendruckerei",
+          "event_en": "Earthenware factory founded, later a woollen-goods printing works"
+        },
+        {
+          "year": 1864,
+          "event_de": "Fournirschneidemaschine und Brettschneiderei angelegt",
+          "event_en": "Veneer-cutting machine and sawmill set up"
+        }
+      ],
+      "persons": [
+        "J. Gottlieb Nündel"
+      ],
+      "notes": "1 Gemeindearmenhaus, 24 Privathäuser mit 7 Scheunen; 76 Familien; 1861: 296 Einwohner; keine Feldmarkung (1 kleines Gut unter 20 Morgen, 9 ledige Grundstücke); 8 Ortsarme; Ursprung in der Mühle am Nordende (Kemnate eines ostersteiner Burgmannes, Familie von Schauroth).",
+      "summary_de": "Cuba, kleines Dorf in der Elsteraue ⅓ Stunde nordwestlich von Gera, nach Untermhaus gepfarrt und eingeschult; ohne eigene Feldmarkung, Bewohner meist Fabrik- und Handarbeiter; Mühle als Ursprung des Orts, Kupferhammer, Steingutfabrik, Naturdichter Nündel.",
+      "summary_en": "Cuba, a small village in the Elster floodplain a third of an hour northwest of Gera, assigned to the parish and school of Untermhaus; without its own field area, inhabitants mostly factory and manual workers; the mill as origin of the settlement, a copper hammer, an earthenware factory, and the nature poet Nündel."
+    },
+    {
+      "id": "roschitz",
+      "name": "Roschitz",
+      "start": {
+        "page": "423",
+        "block": "b3"
+      },
+      "end": {
+        "page": "425",
+        "block": "b1"
+      },
+      "landestheil": "Gera",
+      "type_verbatim": "zweiherrisches Pfarr- und Kirchdorf",
+      "type": "Dorf",
+      "wuestung": false,
+      "historic_forms": [
+        {
+          "form": "Rodhacice",
+          "year": 1146
+        },
+        {
+          "form": "Radeschitz",
+          "year": 1401
+        },
+        {
+          "form": "Rodeschitz",
+          "year": 1488
+        },
+        {
+          "form": "Ratschiz",
+          "year": 1533
+        },
+        {
+          "form": "Rodenschütz",
+          "year": null
+        }
+      ],
+      "dialect_form": "Ruschz und Ruschitz",
+      "first_mention_year": 1146,
+      "location": {
+        "verbatim": "eine Stunde nördlich von Gera; 1/4 Stunde nordöstlich von Tinz",
+        "relative_to": "Gera",
+        "distance_hours": 1,
+        "direction": "N"
+      },
+      "elevation": {
+        "value": 525,
+        "unit": "Fuß",
+        "verbatim": "Die Mitte des Dorfes ist 525 Fuß hoch"
+      },
+      "parish": {
+        "status": "Pfarr- und Kirchdorf (altenburgisch)",
+        "church_of": null,
+        "verbatim": "In kirchlicher und scholarer Beziehung gehört sie zu der dasigen herzoglich altenburgischen Kirche, Pfarrei und Schule"
+      },
+      "school": {
+        "exists": true,
+        "pupils": 5,
+        "note": "fünf Kinder der reußischen Gemeinde in der altenburgischen Schule"
+      },
+      "houses": 5,
+      "inhabitants": 32,
+      "occupations": {
+        "Dienstboten": 5
+      },
+      "flur_morgen": 109.4,
+      "flur_verbatim": "109 2/5 Morgen",
+      "soil": "fruchtbar",
+      "livestock": {
+        "Pferde": 5,
+        "Rinder": 39,
+        "Schafe": 74,
+        "Schweine": 38,
+        "Ziegen": 4,
+        "Gänse": 35
+      },
+      "municipal_finances": {
+        "verbatim": "Die Gemeinde hat außer zwei kleinen, beiden Gemeinden gemeinschaftlichen Dorfanger kein Vermögen und auch ihre Jahresbedürfnisse sind ohne Belang und werden, wenn sie nöthig sind, durch Umlagen aufgebracht"
+      },
+      "facilities": [
+        "Kirche",
+        "Pfarrei",
+        "Schule",
+        "Rittergut",
+        "Privatschenke",
+        "Feuerspritze"
+      ],
+      "subplaces": [
+        {
+          "name": "Rittergut Roschitz (reußischer Antheil)",
+          "kind": "Rittergut",
+          "page": "424"
+        }
+      ],
+      "events": [
+        {
+          "year": 1401,
+          "event_de": "Kapelle zur selbstständigen Pfarrei erhoben (erster Pfarrer Nic. Blumenröder)",
+          "event_en": "Chapel raised to an independent parish (first priest Nic. Blumenröder)"
+        },
+        {
+          "year": 1533,
+          "event_de": "Lehnbrief des Kurfürsten von Sachsen: Kemnate mit 4 Huben",
+          "event_en": "Enfeoffment charter of the Elector of Saxony: Kemnate with 4 hides"
+        },
+        {
+          "year": 1846,
+          "event_de": "Neue Kirche erbaut und am 10. November eingeweiht",
+          "event_en": "New church built and consecrated on 10 November"
+        }
+      ],
+      "persons": [
+        "Nic. Blumenröder",
+        "Pastor Böhme"
+      ],
+      "notes": "Zweiherriger Ort in der vom geraer Gebiet umschlossenen altenburgischen Exclave im Bramenthal; die größere altenburgische und die kleinere reußische Gemeinde haben die öffentlichen Hauptanstalten gemeinschaftlich; Angaben (5 Häuser, 32 Einwohner, 5 Familien, Vieh, Flur) betreffen die reußische Gemeinde; 1861: 35 Einwohner. Rittergut früher derer von Schauroth, jetzt von Brandenstein auf Hayn. In der Transkription steht die Überschrift als 'Roschütz' (423 b3), im Druck 'Roschitz'.",
+      "summary_de": "Roschitz, zweiherriges Pfarr- und Kirchdorf im unteren Bramenthal, eine Stunde nördlich von Gera, in der altenburgischen Exclave; beschrieben wird vor allem der kleine reußische Teil mit 5 Häusern und 32 Einwohnern, die Kirche von 1846, das Rittergut (von Schauroth, später von Brandenstein) und die Grenzstreitigkeiten.",
+      "summary_en": "Roschitz, a village shared between two sovereigns in the lower Brame valley, one hour north of Gera, inside the Altenburg exclave; the account concentrates on the small Reuss portion of 5 houses and 32 inhabitants, the church of 1846, the manor (von Schauroth, later von Brandenstein) and border disputes."
+    },
+    {
+      "id": "tinz",
+      "name": "Tinz",
+      "start": {
+        "page": "425",
+        "block": "b2"
+      },
+      "end": {
+        "page": "427",
+        "block": "b1"
+      },
+      "landestheil": "Gera",
+      "type_verbatim": "kleines, anmuthig gelegenes Kirch- und Grenzdorf, früher Pfarr-, Wallfahrts- und Jahrmarktsort und öfters Wittwensitz reußischer Regentinnen",
+      "type": "Dorf",
+      "wuestung": false,
+      "historic_forms": [
+        {
+          "form": "Tyncz",
+          "year": 1290
+        },
+        {
+          "form": "Tinz",
+          "year": 1323
+        },
+        {
+          "form": "Teintz",
+          "year": 1496
+        },
+        {
+          "form": "Dintz",
+          "year": 1533
+        },
+        {
+          "form": "Tyntz",
+          "year": 1534
+        },
+        {
+          "form": "Thyntz",
+          "year": 1540
+        },
+        {
+          "form": "Düntz",
+          "year": 1639
+        }
+      ],
+      "dialect_form": "Tinz",
+      "first_mention_year": 1290,
+      "location": {
+        "verbatim": "3/4 Stunde nördlich von Gera",
+        "relative_to": "Gera",
+        "distance_hours": 0.75,
+        "direction": "N"
+      },
+      "parish": {
+        "status": "Filial",
+        "church_of": "Gera",
+        "verbatim": "Die jetzige Kirche, Filial von Gera"
+      },
+      "school": {
+        "exists": true,
+        "pupils": 58
+      },
+      "houses": 27,
+      "inhabitants": 315,
+      "occupations": {
+        "Bauern": 11,
+        "Kleinhäusler": 22,
+        "Taglöhner": 19,
+        "Dienstboten": 24,
+        "Kapitalisten": 2
+      },
+      "crafts": {
+        "Harmonikatischler": 3,
+        "Müller": 3,
+        "Zimmerleute": 3,
+        "Porzellandreher": 2,
+        "Bäcker": 1,
+        "Gärtner": 1,
+        "Maurer": 1,
+        "Porzellanmaler": 1,
+        "Steindrucker": 1,
+        "Schmied": 1,
+        "Schneider": 1,
+        "Schuhmacher": 1,
+        "Ziegler": 1
+      },
+      "flur_morgen": 1003.5,
+      "flur_verbatim": "1003 1/2 Morgen",
+      "soil": "3/4 ergiebig, 1/4 gering",
+      "livestock": {
+        "Pferde": 24,
+        "Rinder": 121,
+        "Schafe": 300,
+        "Schweine": 96,
+        "Ziegen": 6,
+        "Gänse": 240
+      },
+      "municipal_finances": {
+        "verbatim": "Die Gemeinde hat kein Vermögen, dagegen 350 Thlr. Schulden und circa 200 Thlr. Jahresausgabe zur Erhaltung der Communalbauten, 2 Sturmfässer (statt Feuerspritze), 1 Dorfstraße, 2 Communications- und Vicinalwege",
+        "debts_thaler": 350,
+        "expenditure_thaler": 200
+      },
+      "facilities": [
+        "Schloss",
+        "Kammergut",
+        "Park",
+        "Kirche",
+        "Schule",
+        "Forsthaus",
+        "Gemeindehaus",
+        "Privatgasthof",
+        "Restauration",
+        "Mühle",
+        "Ziegelei",
+        "Lesebibliothek",
+        "Sturmfässer"
+      ],
+      "subplaces": [
+        {
+          "name": "Schloss Tinz",
+          "kind": "Schloss",
+          "page": "425"
+        },
+        {
+          "name": "Kammergut Tinz",
+          "kind": "Kammergut",
+          "page": "425"
+        },
+        {
+          "name": "Ziegelei Tinz",
+          "kind": "Gewerbeanlage",
+          "page": "426"
+        }
+      ],
+      "events": [
+        {
+          "year": 1290,
+          "event_de": "Markgraf Friedrich überlässt Tinz dem Voigt Heinrich von Plauen; Kammergut kommt an Plauen",
+          "event_en": "Margrave Friedrich cedes Tinz to Voigt Heinrich of Plauen; the estate passes to Plauen"
+        },
+        {
+          "year": 1319,
+          "event_de": "Kammergut kommt von der Linie Weida für immer an das Haus Gera",
+          "event_en": "Estate passes from the Weida line permanently to the house of Gera"
+        },
+        {
+          "year": 1472,
+          "event_de": "Haupterweiterung der Kirche 1470-1472, Neubau eingeweiht",
+          "event_en": "Main enlargement of the church 1470-1472, new building consecrated"
+        },
+        {
+          "year": 1539,
+          "event_de": "Einkommen der Pfarrei Tinz dem Pfarrkasten zu Gera zugeschlagen",
+          "event_en": "Income of the Tinz parish added to the parish fund of Gera"
+        },
+        {
+          "year": 1540,
+          "event_de": "Jahrmarkt von Tinz nach Gera verlegt",
+          "event_en": "Annual fair moved from Tinz to Gera"
+        },
+        {
+          "year": 1748,
+          "event_de": "Heinrich XXV. errichtet das jetzige Schloss und beginnt den Park",
+          "event_en": "Heinrich XXV builds the present castle and begins the park"
+        },
+        {
+          "year": 1810,
+          "event_de": "Brand von sieben Häusern und der Schule; 1811 zwei Häuser",
+          "event_en": "Fire destroys seven houses and the school; two more houses in 1811"
+        }
+      ],
+      "persons": [
+        "Heinrich XXV.",
+        "Heinrich XXX.",
+        "Louise Christiane",
+        "Blasius Gentschel"
+      ],
+      "notes": "1 Schloss und Kammergut, 1 Kirche, 1 Schule, 1 Forsthaus, 1 Gemeindehaus und 27 Privathäuser mit 16 Scheunen; 67 Familien; 1861: 294 Einwohner; 6 Bauerngüter, 2 Pertinenzstücke, 68 ledige Grundstücke; Kirchenbücher seit 1637; Legat von 1500 Speciesthalern der Fürstin Wittwe L. Christiane; Lesebibliothek seit 1846; Sitz eines Försters; sorbischer Anbau.",
+      "summary_de": "Tinz, kleines Kirch- und Grenzdorf ¾ Stunde nördlich von Gera an der gera-zeitzer Straße: Kammergut und Schloss (1748) mit Park, Kirche als Filial von Gera (13. Jahrhundert, Erweiterung 1470–1472), Schule, Gewerbe, Gemeindefinanzen und Flur von 1003 ½ Morgen; früher Wallfahrts- und Jahrmarktsort.",
+      "summary_en": "Tinz, a small parish and border village three quarters of an hour north of Gera on the Gera-Zeitz road: crown estate and castle (1748) with park, church as a branch of Gera (13th century, enlarged 1470-1472), school, trades, municipal finances and a field area of 1003 1/2 Morgen; formerly a pilgrimage and fair site."
+    },
+    {
+      "id": "bieblach",
+      "name": "Bieblach",
+      "start": {
+        "page": "427",
+        "block": "b2"
+      },
+      "end": {
+        "page": "427",
+        "block": "b2"
+      },
+      "landestheil": "Gera",
+      "type_verbatim": "kleines wasserarmes, baumloses Bauerndörfchen",
+      "type": "Dorf",
+      "wuestung": false,
+      "historic_forms": [
+        {
+          "form": "Weblok",
+          "year": 1322
+        },
+        {
+          "form": "Wiblach",
+          "year": 1533
+        },
+        {
+          "form": "Wiblick",
+          "year": 1534
+        }
+      ],
+      "dialect_form": "Wieblich",
+      "first_mention_year": 1322,
+      "location": {
+        "verbatim": "1/2 Stunde fast nördlich von Gera",
+        "relative_to": "Gera",
+        "distance_hours": 0.5,
+        "direction": "N"
+      },
+      "parish": {
+        "status": "eingepfarrt",
+        "church_of": "Gera",
+        "verbatim": "Der Ort pfarrt und begräbt von jeher nach Gera"
+      },
+      "school": {
+        "exists": false,
+        "note": "kann sich nach Tinz oder Gera zur Schule halten"
+      },
+      "houses": 14,
+      "inhabitants": 109,
+      "occupations": {
+        "Bauern": 12,
+        "Häusler": 1,
+        "Dienstboten": 22
+      },
+      "flur_morgen": 661.89,
+      "flur_verbatim": "661 8/9 Morgen",
+      "soil": "meist trocken, halb gut, halb geringer",
+      "livestock": {
+        "Pferde": 31,
+        "Rinder": 122,
+        "Schafe": 654,
+        "Schweine": 87,
+        "Ziegen": 4,
+        "Gänse": 250,
+        "Bienenstöcke": 8
+      },
+      "municipal_finances": {
+        "verbatim": "Die Gemeinde mit 1 Ortsbeamten besitzt 30 Morgen Lehden, Anger und Obstplantagen im Werthe von 3000 Thlr. und außerdem 300 Thlr. Capital; ihre Jahresausgabe macht circa 110 Thlr.",
+        "assets_thaler": 3000,
+        "capital_thaler": 300,
+        "expenditure_thaler": 110
+      },
+      "facilities": [
+        "Gemeindehaus",
+        "Schenke",
+        "Schäferei"
+      ],
+      "subplaces": [
+        {
+          "name": "Kammerschäferei Bieblach",
+          "kind": "Gewerbeanlage",
+          "page": "427"
+        }
+      ],
+      "events": [
+        {
+          "year": 1322,
+          "event_de": "Die Voigte von Gera geben dem Kloster Cronswitz 32 Schilling Renten zu Bieblach",
+          "event_en": "The advocates of Gera give 32 shillings of rent at Bieblach to Cronswitz convent"
+        },
+        {
+          "year": 1757,
+          "event_de": "11 Bauern festgenommen, weil sie in Dienst getretene Flüchtlinge aus Sachsen wegführen wollten",
+          "event_en": "11 farmers arrested for trying to take away young refugees from Saxony who had entered service"
+        },
+        {
+          "year": 1791,
+          "event_de": "Brandstiftung: sechs Bauernhöfe brennen am 22. August nieder",
+          "event_en": "Arson destroys six farms on 22 August"
+        }
+      ],
+      "notes": "1 Gemeindehaus, 1 Kammerschäferei und 14 Privathäuser; 16 Familien; 1861: 102 Einwohner; 10 Güter, 40 ledige Grundstücke; kein Gewerbetreibender, kein Ortsarmer, 1 Gebrechlicher (Taubstummer); 11 Bauernhöfe sind der Kirche zu Gera decempflichtig; Flurstücke gehörten neun verschiedenen Lehen und Gerichtsbarkeiten; sorbischen Ursprungs.",
+      "summary_de": "Bieblach, kleines Bauerndorf ½ Stunde nördlich von Gera auf einer Terrasse der Sterkenhöhe, nach Gera gepfarrt; 14 Häuser, 109 Einwohner, großer Schafbestand und herrschaftliche Schäferei, wohlhabende Bauern, Flur 661 8/9 Morgen mit zahlreichen Flurnamen und Lehensverhältnissen.",
+      "summary_en": "Bieblach, a small farming village half an hour north of Gera on a terrace of the Sterkenhöhe, in the parish of Gera; 14 houses, 109 inhabitants, a large sheep stock and a princely sheep farm, prosperous farmers, and a field area of 661 8/9 Morgen with many field names and feudal tenures."
+    },
+    {
+      "id": "gera",
+      "name": "Gera",
+      "start": {
+        "page": "428",
+        "block": "b1"
+      },
+      "end": {
+        "page": "448",
+        "block": "b1"
+      },
+      "landestheil": "Gera",
+      "type_verbatim": "Hauptstadt des Fürstenthums",
+      "type": "Stadt",
+      "wuestung": false,
+      "historic_forms": [
+        {
+          "form": "Geraha",
+          "year": 1125
+        },
+        {
+          "form": "Gerawe",
+          "year": null
+        },
+        {
+          "form": "Ghera",
+          "year": 1145
+        },
+        {
+          "form": "Gerau",
+          "year": null
+        },
+        {
+          "form": "Cheraw",
+          "year": null
+        },
+        {
+          "form": "Jera",
+          "year": null
+        }
+      ],
+      "dialect_form": "Gêre, Giere, Küre",
+      "first_mention_year": 1125,
+      "location": {
+        "verbatim": "auf dem rechten Ufer dieses Flusses, im Angesichte des Residenzschlosses Osterstein, an der nürnberg-leipziger Straße"
+      },
+      "parish": {
+        "status": "Hauptpfarrkirche (St. Salvator)",
+        "church_of": null,
+        "verbatim": "Die St. Salvatorkirche dient seitdem der Stadt als Hauptpfarrkirche … Zur Stadt gehören die Filiale Tinz, Lusan und Oberröppisch und als eingepfarrte Orte Pöppeln, Debschwitz, Pforten und Bieblach"
+      },
+      "school": {
+        "exists": true,
+        "pupils": 2700,
+        "note": "städtischer Schulkörper mit 60 Lehrern und 13 Lehrerinnen; Gymnasium 1868: 190 Schüler"
+      },
+      "houses": 1087,
+      "inhabitants": 16283,
+      "census_year": 1867,
+      "occupations": {
+        "Handwerker": 1120,
+        "Kunst- und Handelsgärtner": 32,
+        "Aerzte": 13,
+        "Advocaten und Notare": 10,
+        "Arbeiter (mit Einschluß der Nachbardörfler)": 12000
+      },
+      "crafts": {
+        "Zeug- und Leinweber": 409,
+        "Schuhmacher": 170,
+        "Schneider": 105,
+        "Tuchmacher": 12,
+        "Fleischer": 43,
+        "Bäcker": 41,
+        "Rothgerber": 58,
+        "Sattler": 26,
+        "Seiler": 25,
+        "Drechsler": 22,
+        "Seifensieder": 21,
+        "Böttcher": 20,
+        "Weißgerber": 17,
+        "Nadler": 14,
+        "Beutler": 15,
+        "Stellmacher": 9,
+        "Töpfer": 4,
+        "Tischler": 44,
+        "Schlosser": 26,
+        "Lackirer": 21,
+        "Glaser": 15,
+        "Klempner": 15,
+        "Zimmerleute": 13,
+        "Maurer": 11,
+        "Schmiede": 9,
+        "Ziegel- und Schieferdecker": 9,
+        "Oelmaler": 4,
+        "Photographen": 5,
+        "Bildhauer": 6,
+        "Instrumentenmacher": 4,
+        "Graveure": 2,
+        "Optiker": 2,
+        "Gold- und Silberarbeiter": 9,
+        "Architecten und Ingenieurs": 11
+      },
+      "flur_morgen": 4720.78,
+      "flur_verbatim": "4720 7/9 Morgen",
+      "livestock": {
+        "Pferde": 237,
+        "Rinder": 50,
+        "Schafe": 193,
+        "Schweine": 369,
+        "Ziegen": 55,
+        "Esel": 1,
+        "Bienenstöcke": 8
+      },
+      "municipal_finances": {
+        "verbatim": "ein Vermögen von 540,600 Thlr., darunter 135,000 Thlr. (Versicherungswerth) an 22 Communalgebäuden, 208,500 Thlr. (Verkaufswerth) an Waldungen, 12000 Thlr. an Feldern, Wiesen und Gärten … 128180 Thlr. 12 Sgr. 4 Pf. 128071 Thlr. 13 Sgr. 9 Pf.",
+        "assets_thaler": 540600,
+        "income_thaler": 128180,
+        "expenditure_thaler": 128071
+      },
+      "facilities": [
+        "Rathhaus",
+        "Gymnasium",
+        "Realschule",
+        "höhere Töchterschule",
+        "Bürgerschule",
+        "Webschule",
+        "St. Salvatorkirche",
+        "St. Trinitatiskirche",
+        "Schauspielhaus",
+        "fürstliches Palais",
+        "Regierungsgebäude",
+        "Landhaus",
+        "Kaserne",
+        "Bahnhof",
+        "Postamt",
+        "Telegraphenbureau",
+        "Bank",
+        "Sparkasse",
+        "Gewerbebank",
+        "Handelskammer",
+        "Krankenhaus",
+        "Waisenhaus",
+        "Landarbeitshaus",
+        "Hospital",
+        "Gasanstalt",
+        "Wasserleitung",
+        "Gasthof",
+        "Apotheke",
+        "Bauverein",
+        "Freimaurerloge",
+        "Mühle"
+      ],
+      "subplaces": [
+        {
+          "name": "Zschochern",
+          "kind": "Vorstadt",
+          "page": "429"
+        },
+        {
+          "name": "Pöppeln",
+          "kind": "Ortsteil",
+          "page": "430"
+        },
+        {
+          "name": "Innenstadt",
+          "kind": "Ortsteil",
+          "page": "429"
+        },
+        {
+          "name": "Neubau",
+          "kind": "Ortsteil",
+          "page": "430"
+        },
+        {
+          "name": "Klotzmühle",
+          "kind": "Mühle",
+          "page": "433"
+        },
+        {
+          "name": "Angermühle",
+          "kind": "Mühle",
+          "page": "433"
+        },
+        {
+          "name": "Walkmühle",
+          "kind": "Mühle",
+          "page": "434"
+        },
+        {
+          "name": "altes Schloss",
+          "kind": "Schloss",
+          "page": "434"
+        }
+      ],
+      "events": [
+        {
+          "year": 1237,
+          "event_de": "Gerichtsbarkeit über Gera geht an den weidaer Reichsvoigt",
+          "event_en": "Jurisdiction over Gera passes to the imperial advocate of Weida"
+        },
+        {
+          "year": 1404,
+          "event_de": "Stadtsiegel 'Sigillum borgensium in Gera'; Stadtrat aus 19 Personen",
+          "event_en": "Town seal 'Sigillum borgensium in Gera'; town administration of 19 persons"
+        },
+        {
+          "year": 1450,
+          "event_de": "Erstürmung der Stadt (15. October) im Bruderkrieg durch die Zebracken; angeblich etwa 5000 Tote, ganze Stadt brennt",
+          "event_en": "Storming of the town (15 October) in the Fraternal War; allegedly about 5,000 dead, the whole town burns"
+        },
+        {
+          "year": 1479,
+          "event_de": "Tuchmacherinnung gebildet",
+          "event_en": "Cloth-makers' guild formed"
+        },
+        {
+          "year": 1595,
+          "event_de": "Nicolas de Smit lässt sich in Gera nieder und begründet die Wollenmanufactur",
+          "event_en": "Nicolas de Smit settles in Gera and founds the woollen manufacture"
+        },
+        {
+          "year": 1608,
+          "event_de": "Heinrich Posthumus erhebt die Schule zum Landesgymnasium",
+          "event_en": "Heinrich Posthumus raises the school to a state gymnasium"
+        },
+        {
+          "year": 1639,
+          "event_de": "Brand am Ostertag durch die Schweden: ein Drittel der Stadt mit St. Johanniskirche und Gymnasium",
+          "event_en": "Fire on Easter Day set by the Swedes: one third of the town including St. John's church and the gymnasium"
+        },
+        {
+          "year": 1686,
+          "event_de": "Brand am 20. März: 258 Bürgerhäuser, über 50 Scheunen, 3 Thore",
+          "event_en": "Fire on 20 March: 258 houses, over 50 barns, 3 gates"
+        },
+        {
+          "year": 1780,
+          "event_de": "Großer Stadtbrand am 18. September: 785 Bauten in 3 Stunden zerstört",
+          "event_en": "Great town fire on 18 September: 785 buildings destroyed within 3 hours"
+        },
+        {
+          "year": 1806,
+          "event_de": "Im October zieht die französische Armee durch Gera, Napoleon und 150 Marschälle und Generäle einquartiert",
+          "event_en": "In October the French army passes through Gera; Napoleon and 150 marshals and generals quartered"
+        },
+        {
+          "year": 1813,
+          "event_de": "Vor der Schlacht bei Leipzig 100,000 Mann im Biwak; Hauptquartier der Kaiser Alexander und Franz",
+          "event_en": "Before the Battle of Leipzig 100,000 men bivouac; headquarters of Emperors Alexander and Francis"
+        },
+        {
+          "year": 1848,
+          "event_de": "Straßenkampf am 26. Juli: 1 Toter, 40-50 Verwundete",
+          "event_en": "Street fighting on 26 July: 1 dead, 40-50 wounded"
+        },
+        {
+          "year": 1852,
+          "event_de": "Gasleitung eröffnet (Actienunternehmen)",
+          "event_en": "Gas supply opened (joint-stock venture)"
+        },
+        {
+          "year": 1859,
+          "event_de": "Weißenfels-Geraer Eisenbahn eröffnet (19. März); Bahnhof erbaut",
+          "event_en": "Weißenfels-Gera railway opened (19 March); station built"
+        },
+        {
+          "year": 1865,
+          "event_de": "Gößnitz-Geraer Eisenbahn in Betrieb (27. December)",
+          "event_en": "Gößnitz-Gera railway in operation (27 December)"
+        }
+      ],
+      "persons": [
+        "Heinrich Posthumus",
+        "Nicolas de Smit",
+        "Heinrich XVIII.",
+        "Heinrich XXX.",
+        "Heinrich LXVII.",
+        "Simon Musäus",
+        "J. Zach. H. Hahn",
+        "Wiprecht von Groitsch"
+      ],
+      "notes": "Zahlen für Gera sammt Pöppeln (Zählung 1867): 1087 Häuser mit 43 öffentlichen Gebäuden, 117 Scheunen, 3470 Familien, 16283 Einwohner (1861: 14208); 78 Straßen, Gassen und Gäßchen; Stadtwaldung 1253 Morgen von 4720 7/9 Morgen Stadtflur; 89 Hauptfabriken (Kammwollenstoffe, Gerbereien, Harmonikas u. a.); 77 Dampfkessel; Vermögen der Stadt 540,600 Thlr.; Handwerkerangabe im Druck: 1120, die einzeln genannten Gewerbe summieren sich auf 1174 (Druckfehler oder Abweichung im Original, Transkription stimmt mit dem Druck überein). Einwohnerzahl 1647: 2372 (Tabelle S. 430), 1794: 6567.",
+      "summary_de": "Gera, Hauptstadt des Fürstentums und größte Stadt des Landes (16283 Einwohner 1867): Lage und Straßenbild, Innenstadt, Vorstädte (Zschochern) und Neubau, Bauten und Kirchen, Behörden, Schulwesen mit Gymnasium, Industrie (Kammwollstoffe, Gerbereien, Harmonikas) und Handel, Vereinswesen, Stadtgeschichte mit den Bränden von 1450, 1639, 1686 und 1780, bedeutende Persönlichkeiten und Sagen.",
+      "summary_en": "Gera, capital of the principality and its largest town (16,283 inhabitants in 1867): site and street plan, inner town, suburbs (Zschochern) and new development, buildings and churches, authorities, schools including the gymnasium, industry (worsted cloth, tanneries, harmonicas) and trade, associations, town history with the fires of 1450, 1639, 1686 and 1780, notable persons and legends."
+    },
+    {
+      "id": "poeppeln",
+      "name": "Pöppeln",
+      "start": {
+        "page": "448",
+        "block": "b2"
+      },
+      "end": {
+        "page": "448",
+        "block": "b2"
+      },
+      "landestheil": "Gera",
+      "type_verbatim": "kleiner, am Fuße des Hainbergs eben und angenehm gelegener Vor- und Lustort von Gera",
+      "type": "Dorf",
+      "wuestung": false,
+      "historic_forms": [
+        {
+          "form": "Popelin",
+          "year": null
+        },
+        {
+          "form": "Poppeln",
+          "year": 1534
+        }
+      ],
+      "dialect_form": "Pöppeln oder Päppeln",
+      "location": {
+        "verbatim": "1/4 Stunde südwestlich davon entfernt, an der Straße von Gera nach Roda und Neustadt",
+        "relative_to": "Gera",
+        "distance_hours": 0.25,
+        "direction": "SW"
+      },
+      "parish": {
+        "status": "eingepfarrt",
+        "church_of": "Gera",
+        "verbatim": "Der Ort gehört zur Stadtgemeinde Gera, wohin er auch pfarrt, begräbt und schult"
+      },
+      "school": {
+        "exists": false,
+        "note": "schult nach Gera"
+      },
+      "houses": 24,
+      "inhabitants": 280,
+      "occupations": {
+        "Bauern": 1,
+        "Häusler": 17,
+        "Dienstboten": 4
+      },
+      "livestock": {
+        "Pferde": 7,
+        "Rinder": 4,
+        "Schafe": 3,
+        "Schweine": 21,
+        "Ziegen": 8,
+        "Gänse": 2
+      },
+      "facilities": [
+        "Ziegelfabrik",
+        "Tabagie"
+      ],
+      "subplaces": [
+        {
+          "name": "Martinsgrund",
+          "kind": "Sonstiges",
+          "page": "448"
+        },
+        {
+          "name": "Steinstock",
+          "kind": "Sonstiges",
+          "page": "448"
+        }
+      ],
+      "events": [
+        {
+          "year": 1539,
+          "event_de": "Wolfgang v. Uttenhoven verkauft das Rittergut für 800 Gülden an die Stadt Gera",
+          "event_en": "Wolfgang v. Uttenhoven sells the manor to the town of Gera for 800 guilders"
+        },
+        {
+          "year": 1696,
+          "event_de": "Plan der Vereinigung der Schule mit Untermhaus, Schulverband mit Gera bleibt",
+          "event_en": "Planned merger of the school with Untermhaus; school affiliation with Gera retained"
+        }
+      ],
+      "persons": [
+        "Wolfgang v. Uttenhoven"
+      ],
+      "notes": "Bestandtheil der Stadtgemeinde Gera (Zahlen sind in den Angaben zu Gera enthalten); 24 Privathäuser mit 3 Höfen, 74 Familien; ursprünglich ostersteinisches Burggut, Rittergut der Familie von Uttenhoven mit Vorwerk Bollersdorf [Vollersdorf].",
+      "summary_de": "Pöppeln, Vor- und Lustort von Gera am Fuß des Hainbergs, ¼ Stunde südwestlich, Teil der Stadtgemeinde: 24 Häuser, 280 Einwohner, ehemaliges Rittergut (1539 an die Stadt Gera verkauft), Stadtwald, Burghügel und Martinsgrund.",
+      "summary_en": "Pöppeln, a suburb and pleasure resort of Gera at the foot of the Hainberg, a quarter hour to the southwest and part of the town municipality: 24 houses, 280 inhabitants, former manor (sold to the town of Gera in 1539), town forest, castle mound and the Martinsgrund."
+    },
+    {
+      "id": "vollersdorf",
+      "name": "Vollersdorf",
+      "start": {
+        "page": "448",
+        "block": "b3"
+      },
+      "end": {
+        "page": "449",
+        "block": "b1"
+      },
+      "landestheil": "Gera",
+      "type_verbatim": "ein ausgegangenes Dörfchen mit einem zu Pöppeln geschlagenen Vorwerke",
+      "type": "Wüstung",
+      "wuestung": true,
+      "location": {
+        "verbatim": "im jetzigen geraer Stadtwalde, nahe der Stelle, wo die Straßen von Roda und Neustadt zusammentreffen"
+      },
+      "parish": {
+        "status": "eingepfarrt",
+        "church_of": "Gera",
+        "verbatim": "Der Ort war nach Gera gepfarrt und geschult"
+      },
+      "events": [
+        {
+          "year": 1632,
+          "event_de": "Teilweise Verwüstung nach dem Bericht eines Augenzeugen",
+          "event_en": "Partial devastation according to an eyewitness"
+        },
+        {
+          "year": 1647,
+          "event_de": "Landestheilungsacten verzeichnen den Ort noch als bestehend",
+          "event_en": "Partition records of 1647 still list the place as existing"
+        },
+        {
+          "year": 1806,
+          "event_de": "Napoleon fragt beim Vorüberfahren nach der Stätte von Vollersdorf (Karte aus dem 18. Jahrhundert)",
+          "event_en": "Napoleon, driving past, asks after the site of Vollersdorf (18th-century map)"
+        }
+      ],
+      "persons": [
+        "Napoleon"
+      ],
+      "notes": "In der Transkription durchgehend 'Bollersdorf' (413, 418, 448), im Druck 'Vollersdorf' (448 und 449 sowie Register). Das Vorwerk gehörte zu den ostersteinischen Burggütern, später zum Rittergut Pöppeln.",
+      "summary_de": "Wüstung Vollersdorf im heutigen geraer Stadtwald: ausgegangenes Dörfchen mit Vorwerk, Reste von Brunnen, Teichdamm und Grundmauern, Verwüstung 1632, noch im 18. Jahrhundert auf Karten verzeichnet; nach Gera gepfarrt.",
+      "summary_en": "Deserted settlement of Vollersdorf in what is now Gera's town forest: a vanished hamlet with an outlying farm, remains of wells, a pond dam and foundations, devastated in 1632 and still shown on maps in the 18th century; part of the parish of Gera."
+    },
+    {
+      "id": "debschwitz",
+      "name": "Debschwitz",
+      "start": {
+        "page": "449",
+        "block": "b2"
+      },
+      "end": {
+        "page": "450",
+        "block": "b1"
+      },
+      "landestheil": "Gera",
+      "type_verbatim": "mittelgroßes Dorf",
+      "type": "Dorf",
+      "wuestung": false,
+      "historic_forms": [
+        {
+          "form": "Debschitz",
+          "year": null
+        },
+        {
+          "form": "Dobschwitz",
+          "year": null
+        },
+        {
+          "form": "Deschitz",
+          "year": 1533
+        },
+        {
+          "form": "Dobschitz",
+          "year": 1534
+        }
+      ],
+      "dialect_form": "Dêschwitz",
+      "location": {
+        "verbatim": "1/2 Stunde SWS. von Gera, an der Chaussee von da nach Weida",
+        "relative_to": "Gera",
+        "distance_hours": 0.5,
+        "direction": "SSW"
+      },
+      "parish": {
+        "status": "eingepfarrt",
+        "church_of": "Gera",
+        "verbatim": "Der Ort pfarrt und begräbt seit alter Zeit nach Gera"
+      },
+      "school": {
+        "exists": false,
+        "note": "Kinder gehen seit 1696 nach Lusan"
+      },
+      "houses": 40,
+      "inhabitants": 374,
+      "occupations": {
+        "Bauern": 14,
+        "Häusler": 26,
+        "Taglöhner": 36,
+        "Dienstboten": 20,
+        "Kapitalisten": 3,
+        "Ortsarme": 12,
+        "Familien in Fabrikarbeit (Gera)": 31
+      },
+      "crafts": {
+        "Zimmerleute": 4,
+        "Maurer": 3,
+        "Wirthe": 2,
+        "Fleischer": 1,
+        "Instrumentenmacher": 1,
+        "Schneider": 1,
+        "Ziegelbrenner": 1
+      },
+      "flur_morgen": 751.89,
+      "flur_verbatim": "751 8/9 Morgen",
+      "soil": "3/5 mittelgut, 1/5 gut, 1/5 gering",
+      "livestock": {
+        "Pferde": 13,
+        "Rinder": 100,
+        "Schweine": 102,
+        "Ziegen": 12,
+        "Gänse": 120,
+        "Bienenstöcke": 9
+      },
+      "municipal_finances": {
+        "verbatim": "Die Gemeinde besaß als engere 70 Morgen Wiesen im Werthe von 1050 Thlr., als weitere ist sie ohne Vermögen und Schulden, bedarf aber jährlich circa 200 Thlr. zu ihrem Aufwande und hat 1 Dorfstraße und 2 Communications- und Vicinalwege zu erhalten",
+        "assets_thaler": 1050,
+        "expenditure_thaler": 200
+      },
+      "facilities": [
+        "Gemeindehaus",
+        "Privatschenke",
+        "Gemeindeschenke",
+        "Ziegelei",
+        "Dorfstraße"
+      ],
+      "subplaces": [
+        {
+          "name": "Kammergut Debschwitz (ehemalig)",
+          "kind": "Kammergut",
+          "page": "449"
+        }
+      ],
+      "events": [
+        {
+          "year": 1696,
+          "event_de": "Plan der Einverleibung in die Schule Untermhaus; Schulbesuch in Lusan erlaubt",
+          "event_en": "Planned incorporation into the Untermhaus school; attendance at Lusan allowed"
+        },
+        {
+          "year": 1757,
+          "event_de": "Lager von 6000 Mann von Debschwitz bis zum Hainberg (October)",
+          "event_en": "Camp of 6,000 men from Debschwitz to the Hainberg (October)"
+        },
+        {
+          "year": 1799,
+          "event_de": "Eisgang der Elster beschädigt mehrere Häuser",
+          "event_en": "Ice drift on the Elster damages several houses"
+        },
+        {
+          "year": 1801,
+          "event_de": "Sechs Bauernhöfe brennen durch Blitzschlag ab",
+          "event_en": "Six farms burn down after a lightning strike"
+        },
+        {
+          "year": 1823,
+          "event_de": "Die Nachbarn kaufen Feld und Wiesen des Kammerguts; 1843 kauft die Stadt Gera dessen Waldung",
+          "event_en": "The neighbours buy the fields and meadows of the crown estate; in 1843 the town of Gera buys its forest"
+        },
+        {
+          "year": 1866,
+          "event_de": "Gebäude des v. wiese'schen Guts durch Blitzschlag größtentheils abgebrannt",
+          "event_en": "Buildings of the von Wiese estate largely burnt down by lightning"
+        }
+      ],
+      "persons": [
+        "G. W. B. v. Wiese"
+      ],
+      "notes": "1 Gemeindehaus und 40 Privathäuser mit 17 Scheunen, 88 Haushaltungen; 1861: 274 Einwohner; 13 Bauerngüter, 2 Pertinenzen, 74 ledige Grundstücke; Gut des Kanzlers v. Wiese gehört dem v. wiese'schen Bürgerrettungs- und Industriebeförderungsinstitut; Todaustreiben als Brauch; Name sorbischen Ursprungs; Richtungsangabe im Druck 'SWS.'.",
+      "summary_de": "Debschwitz, mittelgroßes Dorf an der Elster ½ Stunde südsüdwestlich von Gera an der Chaussee nach Weida, nach Gera gepfarrt und nach Lusan eingeschult; 40 Häuser, 374 Einwohner, Bauern und Fabrikarbeiter, Flur 751 8/9 Morgen, ehemaliges Kammergut, Todaustreiben und Brandfälle.",
+      "summary_en": "Debschwitz, a medium-sized village on the Elster half an hour south-southwest of Gera on the Weida road, in the parish of Gera and school district of Lusan; 40 houses, 374 inhabitants, farmers and factory workers, field area 751 8/9 Morgen, a former crown estate, a 'Todaustreiben' custom and fires."
+    },
+    {
+      "id": "pforten",
+      "name": "Pforten",
+      "start": {
+        "page": "450",
+        "block": "b2"
+      },
+      "end": {
+        "page": "451",
+        "block": "b1"
+      },
+      "landestheil": "Gera",
+      "type_verbatim": "langgezetteltes, freundliches Dorf, ein Lustort der Geraer",
+      "type": "Dorf",
+      "wuestung": false,
+      "location": {
+        "verbatim": "1/2 Stunde südlich von Gera",
+        "relative_to": "Gera",
+        "distance_hours": 0.5,
+        "direction": "S"
+      },
+      "parish": {
+        "status": "eingepfarrt",
+        "church_of": "Gera",
+        "verbatim": "Seit 1632 pfarrt und begräbt Pforten nach Gera"
+      },
+      "school": {
+        "exists": true,
+        "pupils": 104
+      },
+      "houses": 42,
+      "inhabitants": 549,
+      "occupations": {
+        "Bauern": 3,
+        "Häusler": 38,
+        "Taglöhner": 12,
+        "Dienstboten": 20
+      },
+      "crafts": {
+        "Harmonikamacher": 3,
+        "Zeugarbeiter": 3,
+        "Zimmerleute": 3,
+        "Bäcker": 2,
+        "Korbmacher": 2,
+        "Tischler": 2,
+        "Bürstenbinder": 1,
+        "Drechsler": 1,
+        "Fleischer": 1,
+        "Maurer": 1,
+        "Schmied": 1,
+        "Schlosser": 1,
+        "Schneider": 1,
+        "Schuhmacher": 1,
+        "Ziegelbrenner": 1
+      },
+      "flur_morgen": 706.54,
+      "flur_verbatim": "706 7/13 Morgen",
+      "soil": "2/3 gering, 1/3 gut",
+      "livestock": {
+        "Pferde": 14,
+        "Rinder": 69,
+        "Schweine": 86,
+        "Ziegen": 16,
+        "Gänse": 25
+      },
+      "municipal_finances": {
+        "verbatim": "Die Gemeinde mit 9 Beamten (incl. Gemeinderath) hat als Grundbesitz 1 Morgen Wiesen im Werthe von 100 Thlr., außerdem 900 Thlr. Schulden und als Jahresausgabe circa 175 Thlr.",
+        "assets_thaler": 100,
+        "debts_thaler": 900,
+        "expenditure_thaler": 175
+      },
+      "facilities": [
+        "Rittergut",
+        "Schule",
+        "Gemeindehaus",
+        "Brauerei",
+        "Mühle",
+        "Ziegelei",
+        "Feuerspritze",
+        "Gasthof",
+        "Privatwirthschaft",
+        "Steinbruch"
+      ],
+      "subplaces": [
+        {
+          "name": "Rittergut Pforten",
+          "kind": "Rittergut",
+          "page": "450"
+        },
+        {
+          "name": "Stärkehäuser",
+          "kind": "Sonstiges",
+          "page": "450"
+        },
+        {
+          "name": "Gasthof zum Lindenthal",
+          "kind": "Sonstiges",
+          "page": "450"
+        },
+        {
+          "name": "Brauerei Pforten",
+          "kind": "Gewerbeanlage",
+          "page": "450"
+        }
+      ],
+      "events": [
+        {
+          "year": 1534,
+          "event_de": "Kirchenvisitatoren befehlen die Rückgabe der der Kapelle entzogenen Felder",
+          "event_en": "Church visitors order the return of the fields withdrawn from the chapel"
+        },
+        {
+          "year": 1632,
+          "event_de": "Kapelle wahrscheinlich durch Soldaten niedergebrannt",
+          "event_en": "Chapel probably burnt down by soldiers"
+        },
+        {
+          "year": 1760,
+          "event_de": "Stärkefabrikation (1760-1793) errichtet",
+          "event_en": "Starch manufacture established (1760-1793)"
+        },
+        {
+          "year": 1799,
+          "event_de": "Entdeckung eines altgermanischen Totenhofes (Heidengottesacker) mit Urnen und Bronzen",
+          "event_en": "Discovery of an ancient Germanic burial ground ('Heidengottesacker') with urns and bronzes"
+        },
+        {
+          "year": 1865,
+          "event_de": "Schulhaus und eigener Lehrer",
+          "event_en": "School building and own teacher"
+        },
+        {
+          "year": 1866,
+          "event_de": "Rittergut im März für circa 91,100 Thlr. an Chr. Aug. Keil verkauft",
+          "event_en": "Manor sold in March to Chr. Aug. Keil for about 91,100 thalers"
+        }
+      ],
+      "persons": [
+        "Chr. Aug. Keil"
+      ],
+      "notes": "1 Rittergut, 1 Schule, 1 Gemeindehaus und 42 Privathäuser mit 8 Höfen; 115 Familien; 1861: 423 Einwohner; Fußnote: nach der Zählung von 1867 nur 4 Schweine angegeben; 4 kleine Güter, 1 Pertinenzstück, 23 ledige Grundstücke; Besitzerreihe des Ritterguts seit 1488 (von Schauroth).",
+      "summary_de": "Pforten, langgestrecktes Dorf und Ausflugsort der Geraer ½ Stunde südlich von Gera im Gössenthal, nach Gera gepfarrt; Rittergut mit Besitzerfolge seit 1488, Brauerei, 42 Häuser, 549 Einwohner, überwiegend Arbeiter in Gera, vorgeschichtliche Grabfunde (Heidengottesacker) und Sagen.",
+      "summary_en": "Pforten, a long-drawn village and excursion spot of the people of Gera half an hour south of Gera in the Gössen valley, in the parish of Gera; manor with owners since 1488, brewery, 42 houses, 549 inhabitants, mostly workers in Gera, prehistoric burial finds ('Heidengottesacker') and legends."
+    },
+    {
+      "id": "zwoetzen",
+      "name": "Zwötzen",
+      "start": {
+        "page": "451",
+        "block": "b2"
+      },
+      "end": {
+        "page": "453",
+        "block": "b1"
+      },
+      "landestheil": "Gera",
+      "type_verbatim": "Kirch- und Grenzdorf",
+      "type": "Dorf",
+      "wuestung": false,
+      "historic_forms": [
+        {
+          "form": "Zwecen",
+          "year": null
+        },
+        {
+          "form": "Czwoczen",
+          "year": 1358
+        },
+        {
+          "form": "Zwoizen",
+          "year": 1410
+        },
+        {
+          "form": "Zweczen",
+          "year": 1533
+        }
+      ],
+      "dialect_form": "Zwiezen",
+      "first_mention_year": 1358,
+      "location": {
+        "verbatim": "3/4 Stunde südlich von Gera, Lusan gegenüber",
+        "relative_to": "Gera",
+        "distance_hours": 0.75,
+        "direction": "S"
+      },
+      "parish": {
+        "status": "Kirchdorf",
+        "church_of": null,
+        "verbatim": "Im Jahre 1604 erhob man den Ort zur Parochie und verband mit ihr Leumnitz als Filial … Zwötzen aber als Mutterkirche erhalten wurde"
+      },
+      "school": {
+        "exists": true,
+        "pupils": 112
+      },
+      "houses": 63,
+      "inhabitants": 551,
+      "occupations": {
+        "Bauern": 12,
+        "Häusler": 52,
+        "Hand- oder Fabrikarbeiter": 84,
+        "Dienstboten": 25
+      },
+      "crafts": {
+        "Harmonikatischler": 7,
+        "Schneider": 4,
+        "Cigarrenfabrikanten": 2,
+        "Händler": 2,
+        "Hobelmacher": 2,
+        "Schuhmacher": 2,
+        "Bäcker": 1,
+        "Korbmacher": 1,
+        "Seiler": 1,
+        "Stellmacher": 1,
+        "Stubenmaler": 1,
+        "Tischler": 1,
+        "Wachstuchfabrikant": 1,
+        "Wagner": 1,
+        "Ziegler": 1,
+        "Zimmermann": 1
+      },
+      "flur_morgen": 735.4,
+      "flur_verbatim": "735,4 Morgen",
+      "soil": "meist Mittelboden",
+      "livestock": {
+        "Pferde": 20,
+        "Rinder": 92,
+        "Schafe": 203,
+        "Schweine": 127,
+        "Ziegen": 42,
+        "Gänse": 30,
+        "Bienenstöcke": 14
+      },
+      "municipal_finances": {
+        "verbatim": "Die Gemeinde mit 11 Ortsbeamten (incl. Gemeinderath) hat statt Vermögen 1175 Thlr. Schulden und eine jährliche Ausgabe von 450 bis 500 Thlr. zur Erhaltung der Communalhäuser, der Dorfstraße und von 5 Communicationswegen",
+        "debts_thaler": 1175,
+        "expenditure_thaler_min": 450,
+        "expenditure_thaler_max": 500
+      },
+      "facilities": [
+        "Rittergut",
+        "Kirche",
+        "Schule",
+        "Gemeindehaus",
+        "Gasthaus",
+        "Gemeindeschenke",
+        "Ziegelei",
+        "Friedhof"
+      ],
+      "subplaces": [
+        {
+          "name": "Rittergut Zwötzen",
+          "kind": "Rittergut",
+          "page": "452"
+        },
+        {
+          "name": "Aalicht (Schellsechse)",
+          "kind": "Sonstiges",
+          "page": "451"
+        }
+      ],
+      "events": [
+        {
+          "year": 1358,
+          "event_de": "Reinolt v. Zwötzen übergibt Güter in Zwötzen und Lusan dem Kloster Cronswitz",
+          "event_en": "Reinolt v. Zwötzen gives estates in Zwötzen and Lusan to Cronswitz convent"
+        },
+        {
+          "year": 1450,
+          "event_de": "Zusammenkunft der feindlichen Brüder Kurfürst Friedrich und Herzog Wilhelm nach der Katastrophe von Gera",
+          "event_en": "Meeting of the hostile brothers Elector Friedrich and Duke Wilhelm after the disaster of Gera"
+        },
+        {
+          "year": 1598,
+          "event_de": "Schule bereits vorhanden",
+          "event_en": "School already in existence"
+        },
+        {
+          "year": 1604,
+          "event_de": "Zwötzen zur Parochie erhoben, Leumnitz als Filial",
+          "event_en": "Zwötzen raised to a parish, Leumnitz as its branch"
+        },
+        {
+          "year": 1711,
+          "event_de": "Zwei Glocken gegossen",
+          "event_en": "Two bells cast"
+        },
+        {
+          "year": 1820,
+          "event_de": "Herrnhaus des Ritterguts neu erbaut",
+          "event_en": "Manor house newly built"
+        },
+        {
+          "year": 1844,
+          "event_de": "Pfarrei nach Leumnitz verlegt, Orgel in der Kirche",
+          "event_en": "Parsonage moved to Leumnitz; organ installed in the church"
+        },
+        {
+          "year": 1862,
+          "event_de": "Überschwemmung des Friedhofs am 16. Mai durch den Schafgraben",
+          "event_en": "Flooding of the cemetery on 16 May by the Schafgraben stream"
+        }
+      ],
+      "persons": [
+        "Reinolt v. Zwötzen",
+        "Gottfr. v. Watzdorf"
+      ],
+      "notes": "1 Rittergut, 1 Kirche, 1 Schule, 1 Gemeindehaus und 63 Privathäuser mit 17 Scheunen; 117 Familien; 1861: 464 Einwohner; 7 Güter, 3 Grundstücksverbände, 2 Pertinenzstücke, 43 ledige Grundstücke; 12 Familien bauen ihr Jahresbrod; Kirchenvermögen 561 5/6 Thlr.; Kirchenbücher seit 1648; Name sorbischen Ursprungs.",
+      "summary_de": "Zwötzen, Kirch- und Grenzdorf ¾ Stunde südlich von Gera in der Elsteraue: Rittergut mit Besitzerfolge seit 1358, Kirche und Parochie (1604) mit Leumnitz, Schule (112 Kinder), 551 Einwohner, überwiegend Arbeiter und Handwerker (Harmonikatischler), Flur 735,4 Morgen, Ortsgeschichte und Sagen.",
+      "summary_en": "Zwötzen, a parish and border village three quarters of an hour south of Gera in the Elster plain: manor with owners since 1358, church and parish (1604) with Leumnitz, school (112 children), 551 inhabitants, mostly workers and craftsmen (harmonica joiners), field area 735.4 Morgen, local history and legends."
+    },
+    {
+      "id": "lusan",
+      "name": "Lusan",
+      "start": {
+        "page": "453",
+        "block": "b2"
+      },
+      "end": {
+        "page": "455",
+        "block": "b1"
+      },
+      "landestheil": "Gera",
+      "type_verbatim": "Kirch- und Schuldörfchen",
+      "type": "Dorf",
+      "wuestung": false,
+      "historic_forms": [
+        {
+          "form": "Losa",
+          "year": 1240
+        },
+        {
+          "form": "Losen",
+          "year": null
+        },
+        {
+          "form": "Lossan",
+          "year": 1348
+        },
+        {
+          "form": "Losa",
+          "year": 1534
+        }
+      ],
+      "dialect_form": "Lus'n",
+      "first_mention_year": 1240,
+      "location": {
+        "verbatim": "3/4 Stunde SWS. von Gera, an der Chaussee von da nach Weida, Zwötzen gegenüber",
+        "relative_to": "Gera",
+        "distance_hours": 0.75,
+        "direction": "SSW"
+      },
+      "parish": {
+        "status": "Filial",
+        "church_of": "Gera",
+        "verbatim": "Sie war von Anfang an ein Filial von Gera"
+      },
+      "school": {
+        "exists": true,
+        "pupils": 59
+      },
+      "houses": 16,
+      "inhabitants": 140,
+      "occupations": {
+        "Bauern": 10,
+        "Kleinhäusler": 8,
+        "Dienstboten": 34,
+        "Fabrikarbeiter": 3,
+        "Handarbeiter": 3
+      },
+      "crafts": {
+        "Tischler": 1,
+        "Wirth": 1
+      },
+      "flur_morgen": 1083.1,
+      "flur_verbatim": "1083 1/10 Morgen",
+      "soil": "meist gut (5/10 gut, 3/10 mittel, 2/10 gering)",
+      "livestock": {
+        "Pferde": 27,
+        "Rinder": 120,
+        "Schafe": 218,
+        "Schweine": 81,
+        "Ziegen": 10,
+        "Gänse": 282,
+        "Bienenstöcke": 2
+      },
+      "municipal_finances": {
+        "verbatim": "Die Gemeinde mit 1 Ortsvorstande besitzt als engere ein Hirtenhaus, Wege, Hutungen, Obstanlagen und Teiche im Steuerwerthe von 557 9/10 Thlr. (früher war ihr Besitz größer, wurde aber vor Kurzem vertheilt), die weitere kein Vermögen und keine Schulden; die Jahresausgabe macht 48 1/6 Thlr.",
+        "assets_thaler": 557.9,
+        "expenditure_thaler": 48.17
+      },
+      "facilities": [
+        "Kirche",
+        "Schule",
+        "Gemeindehaus",
+        "Hirtenhaus",
+        "Privatschenke",
+        "Chausseehaus",
+        "Feuerspritze",
+        "Friedhof"
+      ],
+      "subplaces": [
+        {
+          "name": "Türkenborn",
+          "kind": "Sonstiges",
+          "page": "455"
+        }
+      ],
+      "events": [
+        {
+          "year": 1333,
+          "event_de": "Eine Kirche bereits vorhanden",
+          "event_en": "A church already existed"
+        },
+        {
+          "year": 1348,
+          "event_de": "Heinrich von Gera verpfändet das Dörfchen 'Loßan' für 112 Mark Silber",
+          "event_en": "Heinrich of Gera pledges the hamlet 'Loßan' for 112 marks of silver"
+        },
+        {
+          "year": 1350,
+          "event_de": "Der Ort kommt an das Kloster Cronswitz, das hier ein Klostervorwerk anlegt",
+          "event_en": "The village passes to Cronswitz convent, which sets up a convent farm here"
+        },
+        {
+          "year": 1358,
+          "event_de": "Reinhold v. Zwötzen gibt seine Güter zu Lusan an Cronswitz",
+          "event_en": "Reinhold v. Zwötzen gives his estates at Lusan to Cronswitz"
+        },
+        {
+          "year": 1766,
+          "event_de": "Schulhaus erbaut",
+          "event_en": "School building erected"
+        },
+        {
+          "year": 1817,
+          "event_de": "Ein Bauernhof brennt ab",
+          "event_en": "A farm burns down"
+        }
+      ],
+      "persons": [
+        "Heinrich von Gera",
+        "Reinhold v. Zwötzen"
+      ],
+      "notes": "In der Registerübersicht (S. 826-829) steht für Lusan die Seitenzahl 433; der Artikel steht auf S. 453. 1 Kirche, 1 Schule, 1 Gemeindehaus, 16 Privathäuser; 20 Familien; 1861: 118 Einwohner; 9 Bauerngüter, 1 Grundstücksverband, 7 Pertinenzen, 50 ledige Grundstücke; Kirche 1333 erwähnt, Glocken 1473 und 1837, Kirchenbücher seit 1640, Vermögen circa 900 Thlr.; Patronat der Stadt Gera; Oberröppisch und Debschwitz sind eingeschult; sorbischer Ort.",
+      "summary_de": "Lusan, Kirch- und Schuldörfchen in der Elsteraue ¾ Stunde südsüdwestlich von Gera, Filial von Gera; wohlhabender Bauernort mit 140 Einwohnern, Schule für Oberröppisch und Debschwitz, Flur 1083 1/10 Morgen, im Mittelalter an das Kloster Cronswitz gekommen.",
+      "summary_en": "Lusan, a small parish and school village in the Elster plain three quarters of an hour south-southwest of Gera, a branch of Gera's parish; a prosperous farming community of 140 inhabitants, school for Oberröppisch and Debschwitz, field area 1083 1/10 Morgen, passed to Cronswitz convent in the Middle Ages."
+    },
+    {
+      "id": "oberroeppisch",
+      "name": "Oberröppisch",
+      "start": {
+        "page": "455",
+        "block": "b2"
+      },
+      "end": {
+        "page": "456",
+        "block": "b1"
+      },
+      "landestheil": "Gera",
+      "type_verbatim": "Kirch- und Grenzdörfchen",
+      "type": "Dorf",
+      "wuestung": false,
+      "historic_forms": [
+        {
+          "form": "Robschiz",
+          "year": 1239
+        },
+        {
+          "form": "Robschwiz",
+          "year": null
+        },
+        {
+          "form": "Obernrepschiz",
+          "year": 1533
+        },
+        {
+          "form": "Ropschiz",
+          "year": 1534
+        },
+        {
+          "form": "Oberropschiz",
+          "year": 1670
+        }
+      ],
+      "dialect_form": "Überröppsch",
+      "first_mention_year": 1239,
+      "location": {
+        "verbatim": "an der Chaussee von Gera nach Weida, 1 1/4 Stunde fast südlich von jener und 1 1/4 Stunde nördlich von dieser Stadt",
+        "relative_to": "Gera",
+        "distance_hours": 1.25,
+        "direction": "S"
+      },
+      "parish": {
+        "status": "Filial",
+        "church_of": "Gera",
+        "verbatim": "Der Ort ist ein Filial von Gera, schult aber nach Lusan"
+      },
+      "school": {
+        "exists": false,
+        "note": "schult nach Lusan"
+      },
+      "houses": 17,
+      "inhabitants": 128,
+      "occupations": {
+        "Bauern": 11,
+        "Kleinhäusler": 5,
+        "Taglöhner": 3,
+        "Dienstboten": 16,
+        "Kapitalisten": 3
+      },
+      "crafts": {
+        "Brauer": 1,
+        "Schmied": 1,
+        "Schuhmacher": 1,
+        "Zimmermann": 1,
+        "Holzhändler": 1
+      },
+      "flur_morgen": 895.06,
+      "flur_verbatim": "895 1/18 Morgen",
+      "soil": "größtentheils ergiebig",
+      "livestock": {
+        "Pferde": 20,
+        "Rinder": 110,
+        "Schafe": 162,
+        "Schweine": 84,
+        "Ziegen": 4,
+        "Bienenstöcke": 12
+      },
+      "municipal_finances": {
+        "verbatim": "Die Gemeinde mit 1 Ortsbeamten besitzt als engere ein Hirtenhaus und etwas Land (Hutung) im Steuerwerthe von 826 1/3 Thlr., als weitere weder Vermögen noch Schulden; dagegen circa 115 Thlr. Jahresausgabe und hat 3 Communicationswege zu erhalten",
+        "assets_thaler": 826.33,
+        "expenditure_thaler": 115
+      },
+      "facilities": [
+        "Kirche",
+        "Spritzenhaus",
+        "Privatwirthshaus",
+        "Hirtenhaus",
+        "Feuerspritze",
+        "Friedhof"
+      ],
+      "subplaces": [
+        {
+          "name": "Hörsberg (Heerberg)",
+          "kind": "Sonstiges",
+          "page": "456"
+        }
+      ],
+      "events": [
+        {
+          "year": 1239,
+          "event_de": "Jutta, Gemahlin Heinrichs, begnadigt das Kloster Cronswitz mit 6 Huben in Oberröppisch",
+          "event_en": "Jutta, wife of Heinrich, grants Cronswitz convent 6 hides in Oberröppisch"
+        },
+        {
+          "year": 1610,
+          "event_de": "Ober- und Erbgerichte um 1610 an Rudolf v. Fuchs verpfändet und nicht eingelöst",
+          "event_en": "Higher and hereditary jurisdiction pledged to Rudolf v. Fuchs around 1610 and never redeemed"
+        },
+        {
+          "year": 1853,
+          "event_de": "Sacristei an die Kirche angebaut",
+          "event_en": "Sacristy added to the church"
+        },
+        {
+          "year": 1860,
+          "event_de": "Zwei Bauernhöfe brennen ab",
+          "event_en": "Two farms burn down"
+        }
+      ],
+      "persons": [
+        "Jutta",
+        "Rudolf v. Fuchs"
+      ],
+      "notes": "1 Kirche, 1 Spritzenhaus, 17 Privathäuser mit 14 Scheunen; 21 Familien; 1861: 125 Einwohner; 11 Güter, 1 Verbandsstück, 9 ledige Grundstücke; Kirche aus dem 17. Jahrhundert, Bücher seit 1654, Vermögen über 300 Thlr.; 10 Bauernhöfe der St. Johanniskirche in Gera decempflichtig; Patronat der Stadt Gera; Flur im Süden an Weimar (Unterröppisch) grenzend; Hörsberg als Kult-, Wacht- und Lagerpunkt.",
+      "summary_de": "Oberröppisch, Kirch- und Grenzdörfchen 1 ¼ Stunde südlich von Gera an der Chaussee nach Weida, Filial von Gera und eingeschult in Lusan; wohlhabende Bauern mit Viehzucht, Flur 895 1/18 Morgen, Hörsberg als Kult- und Kriegspunkt, Besitz des Klosters Cronswitz seit 1239.",
+      "summary_en": "Oberröppisch, a small parish and border village one and a quarter hours south of Gera on the Weida road, a branch of Gera's parish with its school at Lusan; prosperous farmers with cattle breeding, field area 895 1/18 Morgen, the Hörsberg as cult and war site, Cronswitz convent holdings since 1239."
+    },
+    {
+      "id": "zeulsdorf",
+      "name": "Zeulsdorf",
+      "start": {
+        "page": "456",
+        "block": "b2"
+      },
+      "end": {
+        "page": "457",
+        "block": "b1"
+      },
+      "landestheil": "Gera",
+      "type_verbatim": "kleines Dorf",
+      "type": "Dorf",
+      "wuestung": false,
+      "historic_forms": [
+        {
+          "form": "Zeulsdorf",
+          "year": null
+        },
+        {
+          "form": "Zeilsdorf",
+          "year": null
+        },
+        {
+          "form": "Seulsdorf",
+          "year": 1533
+        }
+      ],
+      "dialect_form": "Zeilsdorf",
+      "location": {
+        "verbatim": "1 Stunde SWS. von Gera, am Nordfuße des Kirchbergs, im oberen Brietengraben",
+        "relative_to": "Gera",
+        "distance_hours": 1,
+        "direction": "SSW"
+      },
+      "elevation": {
+        "value": 650,
+        "unit": "Fuß",
+        "verbatim": "im Gutshofe 650 Fuß hoch"
+      },
+      "parish": {
+        "status": "Filial und eingepfarrt",
+        "church_of": "Dürrenebersdorf",
+        "verbatim": "von dem deshalb Zeulsdorf theils Filial, theils ein eingepfarrter Ort ist"
+      },
+      "school": {
+        "exists": false,
+        "note": "Schule in Dürrenebersdorf"
+      },
+      "houses": 15,
+      "inhabitants": 95,
+      "occupations": {
+        "Bauern": 12,
+        "Häusler": 2,
+        "Taglöhner": 3,
+        "Dienstboten": 13
+      },
+      "flur_morgen": 675.17,
+      "flur_verbatim": "675 1/6 Morgen",
+      "soil": "3/7 gut, 2/7 mittel, 2/7 gering",
+      "livestock": {
+        "Pferde": 8,
+        "Rinder": 69,
+        "Schafe": 225,
+        "Schweine": 45,
+        "Ziegen": 4,
+        "Gänse": 20,
+        "Bienenstöcke": 19
+      },
+      "municipal_finances": {
+        "verbatim": "Die Gemeinde unter 1 Ortsbeamten hat außer 10 2/3 ☐R. (und diese mit dem Rittergute gemeinschaftlich) und außer 1 Feuerspritze in Gemeinschaft mit Oberröppisch keinen Besitz und kein Vermögen, dagegen 80 Thlr. Schulden",
+        "debts_thaler": 80,
+        "expenditure_thaler": 80
+      },
+      "facilities": [
+        "Rittergut",
+        "Schlosskapelle",
+        "Privatschenke",
+        "Feuerspritze",
+        "Teich"
+      ],
+      "subplaces": [
+        {
+          "name": "Rittergut Zeulsdorf",
+          "kind": "Rittergut",
+          "page": "456"
+        }
+      ],
+      "events": [
+        {
+          "year": 1409,
+          "event_de": "Das Gut ist im Besitz von Friedr. v. Groph",
+          "event_en": "Estate held by Friedr. v. Groph"
+        },
+        {
+          "year": 1648,
+          "event_de": "Beide Gutsteile kommen als vereinigtes Gut durch Kauf an Kanzler Limmer",
+          "event_en": "Both parts of the estate pass as one estate by purchase to Chancellor Limmer"
+        },
+        {
+          "year": 1783,
+          "event_de": "9 Morgen 47 ☐R. des Gutswaldes an die Stadt Gera verkauft",
+          "event_en": "9 Morgen 47 square rods of the estate forest sold to the town of Gera"
+        },
+        {
+          "year": 1815,
+          "event_de": "Kammercommissionsrath Bartsch verkauft das Gut an Tobias Albert",
+          "event_en": "Councillor Bartsch sells the estate to Tobias Albert"
+        }
+      ],
+      "persons": [
+        "Friedr. v. Groph",
+        "Kanzler Limmer",
+        "Tobias Albert"
+      ],
+      "notes": "15 Privathäuser mit 12 Scheunen; 18 Familien; 1861: 90 Einwohner; Rittergut mit 9/11 der Flur, daneben 7 kleine Güter (unter 20 Morgen) und 7 walzende Grundstücke; Rittergut mit Patronat der Kirche in Dürrenebersdorf; in der Gutskapelle (Herrnhaus) Gottesdienst; keine Almosener, keine Gebrechlichen; sorbischer Ursprung; Richtung im Druck 'SWS.'.",
+      "summary_de": "Zeulsdorf, kleines versteckt gelegenes Dorf 1 Stunde südsüdwestlich von Gera mit Rittergut (Besitzerfolge seit 1409), Gutskapelle im Herrnhaus, nach Dürrenebersdorf gepfarrt und geschult; 95 Einwohner, Flur 675 1/6 Morgen, Sagen von der Schlosskapelle.",
+      "summary_en": "Zeulsdorf, a small, secluded village one hour south-southwest of Gera with a manor (owners since 1409), a chapel in the manor house, in the parish and school district of Dürrenebersdorf; 95 inhabitants, field area 675 1/6 Morgen, legends of the castle chapel."
+    },
+    {
+      "id": "weissig",
+      "name": "Weißig",
+      "start": {
+        "page": "457",
+        "block": "b2"
+      },
+      "end": {
+        "page": "458",
+        "block": "b1"
+      },
+      "landestheil": "Gera",
+      "type_verbatim": "kleines Kirch- und Grenzdorf",
+      "type": "Dorf",
+      "wuestung": false,
+      "historic_forms": [
+        {
+          "form": "Weissigk",
+          "year": 1534
+        },
+        {
+          "form": "Weißka",
+          "year": 1647
+        },
+        {
+          "form": "Weißke",
+          "year": null
+        },
+        {
+          "form": "Weißig",
+          "year": null
+        }
+      ],
+      "dialect_form": "Wêßg",
+      "first_mention_year": 1534,
+      "location": {
+        "verbatim": "1/4 Stunde südlich von Dürrenebersdorf",
+        "relative_to": "Dürrenebersdorf",
+        "distance_hours": 0.25,
+        "direction": "S"
+      },
+      "elevation": {
+        "value": 860,
+        "unit": "Fuß",
+        "verbatim": "in der Ortsmitte 860 Fuß hoch"
+      },
+      "parish": {
+        "status": "Filial",
+        "church_of": "Dürrenebersdorf",
+        "verbatim": "kam dieselbe als Filial zur nahgelegenen Pfarrei Dürrenebersdorf"
+      },
+      "school": {
+        "exists": false,
+        "pupils": 18,
+        "note": "schult nach Dürrenebersdorf"
+      },
+      "houses": 20,
+      "inhabitants": 130,
+      "occupations": {
+        "Bauern": 10,
+        "Häusler": 12,
+        "Taglöhner": 4,
+        "Dienstboten": 16,
+        "Kapitalisten": 2
+      },
+      "crafts": {
+        "Zimmerleute": 3,
+        "Schmied": 1,
+        "Wagner": 1
+      },
+      "flur_morgen": 1015.83,
+      "flur_verbatim": "1015⅚ Morgen",
+      "soil": "1/5 gut, 2/5 mittel, 2/5 gering",
+      "livestock": {
+        "Pferde": 12,
+        "Rinder": 100,
+        "Schafe": 155,
+        "Schweine": 75,
+        "Ziegen": 4,
+        "Gänse": 120,
+        "Bienenstöcke": 7
+      },
+      "municipal_finances": {
+        "verbatim": "Die Gemeinde besitzt als engere (13 Bauern) circa 5 Morgen (Wiesen, Dorfteich, Dorfräume und Feld) im Werthe von 2000 Thlr., als weitere ist sie ohne Schulden und außer 9 Communicationswegen ohne Vermögen und Besitz; ihre Jahresausgabe beträgt 120—130 Thlr.",
+        "assets_thaler": 2000,
+        "expenditure_thaler_min": 120,
+        "expenditure_thaler_max": 130
+      },
+      "facilities": [
+        "Kirche",
+        "Gemeindehaus",
+        "Privatgasthof",
+        "Erbschenke",
+        "Friedhof"
+      ],
+      "events": [
+        {
+          "year": 1732,
+          "event_de": "Neubau der Kirche 1728-1732 an der Stelle der alten Bergkapelle",
+          "event_en": "New church built 1728-1732 on the site of the old hill chapel"
+        },
+        {
+          "year": 1731,
+          "event_de": "Brand einiger Häuser",
+          "event_en": "Fire destroys several houses"
+        },
+        {
+          "year": 1796,
+          "event_de": "Brandstiftung (9. Juli) durch eine Frau aus Langenberg: Ort bis auf Kirche und einige Häuser abgebrannt",
+          "event_en": "Arson (9 July) by a woman from Langenberg: village burnt down except for the church and a few houses"
+        },
+        {
+          "year": 1801,
+          "event_de": "Orgel in der Kirche",
+          "event_en": "Organ installed in the church"
+        }
+      ],
+      "notes": "20 Privathäuser mit 15 Scheunen; 23 Familien; 1861: 128 Einwohner; 10 Bauerngüter, 1 Grundstücksverband, 8 Pertinenzen, 33 ledige Grundstücke; Kirche (Dachthurm mit 2 Glocken) ohne Vermögen; Gasthof gehörte zu den 7 Erbschenken der Landschaft Gera; deutscher Anbau aus einer Bergkapelle an der Hochstraße; Flur im Süden an Weimar grenzend; 18 Familien bauen ihr Jahresbrod.",
+      "summary_de": "Weißig, kleines Kirch- und Grenzdorf auf dem Bergrücken ¼ Stunde südlich von Dürrenebersdorf an der Chaussee Gera–Neustadt; Filial von Dürrenebersdorf, 130 Einwohner, wohlhabende Bauern, Flur 1015⅚ Morgen, Entstehung aus einer Bergkapelle an der Hochstraße, Dorfbrand 1796.",
+      "summary_en": "Weißig, a small parish and border village on the ridge a quarter hour south of Dürrenebersdorf on the Gera-Neustadt road; a branch of Dürrenebersdorf parish, 130 inhabitants, prosperous farmers, field area 1015 5/6 Morgen, origin in a hill chapel on the high road, village fire of 1796."
+    },
+    {
+      "id": "duerrenebersdorf",
+      "name": "Dürrenebersdorf",
+      "start": {
+        "page": "458",
+        "block": "b2"
+      },
+      "end": {
+        "page": "460",
+        "block": "b1"
+      },
+      "landestheil": "Gera",
+      "type_verbatim": "Pfarrkirchdorf",
+      "type": "Dorf",
+      "wuestung": false,
+      "historic_forms": [
+        {
+          "form": "Dorren-Ebersdorf",
+          "year": null
+        },
+        {
+          "form": "Durren-Ebersdorf",
+          "year": null
+        },
+        {
+          "form": "Durnbergsdorf",
+          "year": 1533
+        },
+        {
+          "form": "Dürren-Ebersdorf",
+          "year": 1647
+        }
+      ],
+      "dialect_form": "Dörrnebersdorf",
+      "location": {
+        "verbatim": "1 Stunde südöstlich von Gera",
+        "relative_to": "Gera",
+        "distance_hours": 1,
+        "direction": "SO"
+      },
+      "parish": {
+        "status": "Pfarrkirchdorf",
+        "church_of": null,
+        "verbatim": "Weißig ist ihr Filial, dagegen Zeulsdorf beziehungsweise Filial und eingepfarrt"
+      },
+      "school": {
+        "exists": true,
+        "pupils": 100
+      },
+      "houses": 48,
+      "inhabitants": 345,
+      "occupations": {
+        "Bauern": 14,
+        "Kleinhäusler": 35
+      },
+      "crafts": {
+        "Maurer": 5,
+        "Schuhmacher": 3,
+        "Korbmacher": 2,
+        "Schneider": 2,
+        "Zimmerleute": 2,
+        "Brunnenmacher": 1,
+        "Hufschmied": 1,
+        "Müller": 1,
+        "Tischler": 1
+      },
+      "flur_morgen": 676.95,
+      "flur_verbatim": "676,95 Morgen",
+      "soil": "circa 176 Morgen gut, 250 mittel, 250 gering",
+      "livestock": {
+        "Pferde": 6,
+        "Rinder": 118,
+        "Schweine": 92,
+        "Ziegen": 20,
+        "Gänse": 45,
+        "Bienenstöcke": 15
+      },
+      "municipal_finances": {
+        "verbatim": "Die Gemeinde besitzt als engere circa 2 1/2 Morgen (Hut, Dorfteich und etwas Laubholz) in geringem Werthe, als weitere gegenwärtig (mit Zeulsdorf gemeinschaftlich) 400 Thlr. Schulden",
+        "debts_thaler": 400
+      },
+      "facilities": [
+        "Kirche",
+        "Pfarrei",
+        "Schule",
+        "Gemeindehaus",
+        "Rittergut",
+        "Gasthof",
+        "Chausseehaus",
+        "Windmühle",
+        "Lesebibliothek"
+      ],
+      "subplaces": [
+        {
+          "name": "Rittergut Dürrenebersdorf",
+          "kind": "Rittergut",
+          "page": "459"
+        },
+        {
+          "name": "Windmühle",
+          "kind": "Mühle",
+          "page": "459"
+        },
+        {
+          "name": "Chausseehaus",
+          "kind": "Sonstiges",
+          "page": "459"
+        }
+      ],
+      "events": [
+        {
+          "year": 1533,
+          "event_de": "Kirchenvisitation: letzter katholischer und erster lutherischer Pfarrer Joh. Elsner",
+          "event_en": "Church visitation: last Catholic and first Lutheran priest Joh. Elsner"
+        },
+        {
+          "year": 1684,
+          "event_de": "Brand des Pfarrhofs und mehrerer Bauernhäuser im Juni, Pfarrbücher gehen unter",
+          "event_en": "Fire destroys the parsonage and several farmhouses in June; parish registers lost"
+        },
+        {
+          "year": 1723,
+          "event_de": "Erweiterung der Kirche",
+          "event_en": "Church enlarged"
+        },
+        {
+          "year": 1747,
+          "event_de": "Schulhaus bei der Kirche erbaut",
+          "event_en": "School house built next to the church"
+        },
+        {
+          "year": 1785,
+          "event_de": "Kuppelförmiger Turm aufgebaut",
+          "event_en": "Dome-shaped tower built"
+        },
+        {
+          "year": 1815,
+          "event_de": "Familie Heynisch kauft das Rittergut",
+          "event_en": "The Heynisch family buys the manor"
+        },
+        {
+          "year": 1865,
+          "event_de": "Bedeutende Reparatur der Kirche und Orgel",
+          "event_en": "Major church repair and organ acquisition"
+        }
+      ],
+      "persons": [
+        "Joh. Elsner",
+        "Ernst Fichtner"
+      ],
+      "notes": "4 Communalbauten (Kirche, Pfarrei, Schule, Gemeindehaus) und 48 Privathäuser mit 27 Höfen; 79 Familien; 1861: 289 Einwohner; 14 Bauerngüter und 24 ledige Grundstücke neben dem Rittergut; 15 Bauern und das Rittergut treiben Ackerbau als Hauptgeschäft; keine Almosenarmen; Kirchenbücher bis 1685; Pfarrer E. Fichtner der 26. evangelische; Collatur beim zeulsdorfer Rittergut; deutscher Anbau; Name zur Unterscheidung von anderen Ebersdorf (Flur trocken).",
+      "summary_de": "Dürrenebersdorf, Pfarrkirchdorf in hoher Lage 1 Stunde südöstlich von Gera an der Chaussee nach Neustadt: Kirche mit Filialen Weißig und Zeulsdorf, Pfarrei und Schule (rund 100 Kinder), Rittergut, 345 Einwohner, Bauern, Kleinhäusler und Handwerker, Flur 676,95 Morgen, trockene Bergflur als Namensgrund.",
+      "summary_en": "Dürrenebersdorf, a parish village in a high position one hour southeast of Gera on the Neustadt road: church with branches at Weißig and Zeulsdorf, parsonage and school (about 100 children), manor, 345 inhabitants, farmers, smallholders and craftsmen, field area 676.95 Morgen; the dry upland fields explain the name."
+    },
+    {
+      "id": "gorlitzsch",
+      "name": "Gorlitzsch",
+      "start": {
+        "page": "460",
+        "block": "b2"
+      },
+      "end": {
+        "page": "461",
+        "block": "b1"
+      },
+      "landestheil": "Gera",
+      "type_verbatim": "Grenzdörfchen",
+      "type": "Dorf",
+      "wuestung": false,
+      "historic_forms": [
+        {
+          "form": "Kurlitzsch",
+          "year": null
+        },
+        {
+          "form": "Gurlitzsch",
+          "year": null
+        },
+        {
+          "form": "Gorliz",
+          "year": 1533
+        },
+        {
+          "form": "Gorlitzsch",
+          "year": 1707
+        },
+        {
+          "form": "Gorlitz",
+          "year": null
+        }
+      ],
+      "dialect_form": "Gorltzsch, Gorlsch",
+      "location": {
+        "verbatim": "1 1/2 Stunde SSW. von Gera, 1 Stunde NNW. von Sirbis (Weimar) und 1/2 Stunde W. von Unterröppisch (Weimar)",
+        "relative_to": "Gera",
+        "distance_hours": 1.5,
+        "direction": "SSW"
+      },
+      "parish": {
+        "status": "eingepfarrt",
+        "church_of": "Unterröppisch",
+        "verbatim": "Das Dörfchen war von jeher und ist noch nach Unterröppisch gepfarrt und nach Sirbis geschult"
+      },
+      "school": {
+        "exists": false,
+        "note": "geschult nach Sirbis (Weimar)"
+      },
+      "houses": 7,
+      "inhabitants": 36,
+      "occupations": {
+        "Bauern": 5,
+        "Häusler": 2,
+        "Kapitalisten": 1
+      },
+      "crafts": {
+        "Weber": 1
+      },
+      "flur_morgen": 427.07,
+      "flur_verbatim": "427 7/100 Morgen",
+      "soil": "mittelgut",
+      "livestock": {
+        "Pferde": 1,
+        "Rinder": 26,
+        "Schafe": 15,
+        "Schweine": 14,
+        "Ziegen": 4,
+        "Gänse": 23,
+        "Bienenstöcke": 7
+      },
+      "municipal_finances": {
+        "verbatim": "Die Gemeinde mit 1 Gemeindebeamten besitzt 1 4/15 Morgen Hutung und Obstpflanzung im Werthe von 60 Thlr., sonst kein Vermögen, hat dagegen 24 Thlr. Jahresausgabe, die Unterhaltung von 4 2/3 Morgen Communications- und Vicinalwegen und mit Zeulsdorf, Lusan und Oberröppisch eine gemeinschaftliche Spritze",
+        "assets_thaler": 60,
+        "expenditure_thaler": 24
+      },
+      "facilities": [
+        "Spritze (gemeinschaftlich mit Zeulsdorf, Lusan und Oberröppisch)"
+      ],
+      "events": [
+        {
+          "year": 1647,
+          "event_de": "Theilungsacten: Nic. v. Ende zu Kaimberg und Pforten hat Ober- und Untergerichte, Lehn und Zinsen",
+          "event_en": "Partition records: Nic. v. Ende of Kaimberg and Pforten holds the higher and lower jurisdiction, fiefs and dues"
+        }
+      ],
+      "persons": [
+        "Nic. v. Ende"
+      ],
+      "notes": "7 zweistöckige Privat-Schieferhäuser mit 6 Scheunen; 7 Familien; 1861: 34 Einwohner; 5 kleine Güter, 2 Grundstücksverbände, 1 Pertinenzstück, 3 ledige Grundstücke; die 5 Gutsbesitzer bauen ihr Jahresbrod; Pfarrei und Schule weimarer Patronat; Flur im Süden und Osten an weimarisches Gebiet grenzend; alter Sorbenanbau, vermutlich Vorwerk eines Ritterguts (Pforten); Grundmauern des im 30jährigen Krieg zerstörten Vorwerks aufgefunden.",
+      "summary_de": "Gorlitzsch, kleines Grenzdorf 1 ½ Stunden südsüdwestlich von Gera auf einem Bergsattel; 7 Häuser, 36 Einwohner, nach Unterröppisch gepfarrt und nach Sirbis (beide Weimar) geschult, Bauernort mit Flur von 427 7/100 Morgen, alter Sorbenanbau und wohl Vorwerk des Ritterguts Pforten.",
+      "summary_en": "Gorlitzsch, a small border village one and a half hours south-southwest of Gera on a ridge saddle; 7 houses, 36 inhabitants, in the parish of Unterröppisch and the school district of Sirbis (both Weimar), a farming settlement with a field area of 427 7/100 Morgen, an old Sorbian settlement and probably an outlying farm of the Pforten manor."
+    },
+    {
+      "id": "hundhaupten",
+      "name": "Hundhaupten",
+      "start": {
+        "page": "461",
+        "block": "b2"
+      },
+      "end": {
+        "page": "462",
+        "block": "b1"
+      },
+      "landestheil": "Gera",
+      "type_verbatim": "zweiherrisches Kirch-, Bauern- und Grenzdörfchen, Filial von Markersdorf (Weimar)",
+      "type": "Dorf",
+      "wuestung": false,
+      "historic_forms": [
+        {
+          "form": "Hunthewten",
+          "year": null
+        },
+        {
+          "form": "Hundhoit",
+          "year": null
+        },
+        {
+          "form": "Hundhäubt",
+          "year": 1534
+        },
+        {
+          "form": "Hundhäubten",
+          "year": 1660
+        }
+      ],
+      "dialect_form": "Hundhêden",
+      "first_mention_year": 1262,
+      "location": {
+        "verbatim": "2 Stunden SW. von Gera",
+        "relative_to": "Gera",
+        "distance_hours": 2,
+        "direction": "SW"
+      },
+      "elevation": {
+        "value": 824,
+        "unit": "Fuß",
+        "verbatim": "824 Fuß hoch gelegenen Dorfteich"
+      },
+      "parish": {
+        "status": "Filial",
+        "church_of": "Markersdorf",
+        "verbatim": "Filial von Markersdorf (Weimar)"
+      },
+      "school": {
+        "exists": true,
+        "pupils": 20,
+        "note": "20 Schulkinder reußischer Seite; Schöna eingeschult"
+      },
+      "houses": 22,
+      "inhabitants": 165,
+      "occupations": {
+        "Bauern": 17,
+        "Häusler": 5,
+        "Taglöhner": 6,
+        "Dienstboten": 28
+      },
+      "crafts": {
+        "Maurer": 2,
+        "Zimmerer": 2,
+        "Schneider": 1,
+        "Schuhmacher": 1,
+        "Wagner": 1
+      },
+      "flur_morgen": 1542.4,
+      "flur_verbatim": "1542 2/5 Morgen",
+      "soil": "meist mittelmäßig",
+      "livestock": {
+        "Pferde": 24,
+        "Rinder": 141,
+        "Schafe": 234,
+        "Schweine": 77,
+        "Ziegen": 19,
+        "Gänse": 56,
+        "Bienenstöcke": 8
+      },
+      "municipal_finances": {
+        "verbatim": "Die Gemeinde mit 2 Ortsbeamten hat als engere einen Grundbesitz (1 Teich, 2 Wiesen, und 1 Trift) im Werthe von circa 1100 Thlr. und als weitere den Dorfraum und 4 Communicationswege, dabei 125 Thlr. Schulden",
+        "assets_thaler": 1100,
+        "debts_thaler": 125,
+        "expenditure_thaler": 150
+      },
+      "facilities": [
+        "Kirche (weimarisch)",
+        "Schule (weimarisch)",
+        "Gemeinde-Armenhaus",
+        "Privatschenke",
+        "Feuerspritze (in Großsaara)"
+      ],
+      "subplaces": [
+        {
+          "name": "Zehntholz",
+          "kind": "Sonstiges",
+          "page": "462"
+        }
+      ],
+      "events": [
+        {
+          "year": 1262,
+          "event_de": "Das Kloster Cronswitz besitzt hier seit 1262 und 1314 Güter, Zinsen und Lehen",
+          "event_en": "Cronswitz convent holds estates, dues and fiefs here from 1262 and 1314"
+        },
+        {
+          "year": 1722,
+          "event_de": "Neubau der Kirche",
+          "event_en": "New church built"
+        },
+        {
+          "year": 1850,
+          "event_de": "Ein Haus brennt ab",
+          "event_en": "A house burns down"
+        }
+      ],
+      "notes": "Zweiherriger Ort: reußischer Antheil 2/3, weimarischer 1/3 (weimarische Häusergruppe: 1 Kirche, 1 Schule, 1 Gemeindehaus, 8 Privathäuser); Angaben für den reußischen Teil: 1 Gemeinde-Armenhaus und 22 Privathäuser mit 21 Scheunen, 35 Familien; 1861: 155 Einwohner; 11 starke Güter, 1 Grundstücksverband, 5 ledige Grundstücke (alle Amtslehn); Flur auf drei Seiten von Weimar umschlossen, 16 Teiche und 3 Steinbrüche; Kirche mit Vermögen 550 Thlr., Bücher seit 1600; Parochie Markersdorf (Mutterkirche), Hundhaupten und Schöna Filiale; Zehntholz (circa 120 Morgen) im Besitz von 6 Familien.",
+      "summary_de": "Hundhaupten, zweiherriges Kirch-, Bauern- und Grenzdorf 2 Stunden südwestlich von Gera in einer Hochmulde: reußischer Anteil (2/3) mit 22 Häusern und 165 Einwohnern, weimarischer Teil mit Kirche (1722) und Schule, wohlhabende Bauern, Flur 1542 2/5 Morgen, Besitz des Klosters Cronswitz seit 1262.",
+      "summary_en": "Hundhaupten, a village shared between two sovereigns (parish, farming and border village) two hours southwest of Gera in an upland hollow: the Reuss part (two thirds) with 22 houses and 165 inhabitants, the Weimar part with the church (1722) and school, prosperous farmers, field area 1542 2/5 Morgen, Cronswitz convent holdings since 1262."
+    },
+    {
+      "id": "schoena",
+      "name": "Schöna",
+      "start": {
+        "page": "462",
+        "block": "b2"
+      },
+      "end": {
+        "page": "463",
+        "block": "b1"
+      },
+      "landestheil": "Gera",
+      "type_verbatim": "eingebuchtetes, stillfriedliches, wohlhäbiges Kirch-, Bauern- und Grenzdörfchen",
+      "type": "Dorf",
+      "wuestung": false,
+      "historic_forms": [
+        {
+          "form": "Sconauwe",
+          "year": null
+        },
+        {
+          "form": "Schenaw",
+          "year": null
+        },
+        {
+          "form": "Schönau",
+          "year": null
+        }
+      ],
+      "dialect_form": "Schêne",
+      "location": {
+        "verbatim": "1 3/4 Stunde SW. von Gera, inmitten zwischen Kleinsaara und Hundhaupten",
+        "relative_to": "Gera",
+        "distance_hours": 1.75,
+        "direction": "SW"
+      },
+      "elevation": {
+        "value": 735,
+        "unit": "Fuß",
+        "verbatim": "Die Kirche, auf dem Kirchberg … 735 Fuß hoch gelegen"
+      },
+      "parish": {
+        "status": "Filial",
+        "church_of": "Markersdorf",
+        "verbatim": "Markersdorf wurde zur Mutterkirche, Schöna und Hundhaupten zu Filialen gemacht"
+      },
+      "school": {
+        "exists": false,
+        "pupils": 22,
+        "note": "schult nach Hundhaupten"
+      },
+      "houses": 23,
+      "inhabitants": 163,
+      "occupations": {
+        "Pferdebauern": 9,
+        "Kühbauern": 5,
+        "Häusler": 9,
+        "Taglöhner": 9,
+        "Dienstboten": 27,
+        "Kapitalisten": 5
+      },
+      "crafts": {
+        "Maurer": 2,
+        "Schmied": 1,
+        "Weber": 1,
+        "Zimmerer": 1
+      },
+      "flur_morgen": 1476.8,
+      "flur_verbatim": "1476 4/5 Morgen",
+      "soil": "3/4 mittelgut, 1/4 gering",
+      "livestock": {
+        "Pferde": 24,
+        "Rinder": 125,
+        "Schafe": 159,
+        "Schweine": 86,
+        "Ziegen": 5,
+        "Gänse": 183,
+        "Bienenstöcke": 12
+      },
+      "municipal_finances": {
+        "verbatim": "Die Gemeinde mit 2 Ortsbeamten besitzt 1 Gemeindehaus mit Umgebung (28 Ruthen), 9 1/2 Acker Wiesen im Werthe von 700 Thlr. und eine mit Großsaara und Hundhaupten gemeinschaftliche, zu Großsaara aufgestellte Feuerspritze; außerdem kein Vermögen und keine Schulden",
+        "assets_thaler": 700,
+        "expenditure_thaler": 200
+      },
+      "facilities": [
+        "Kirche",
+        "Gemeindehaus",
+        "Privatwirthshaus",
+        "Mühle",
+        "Feuerspritze (in Großsaara)",
+        "Friedhof"
+      ],
+      "subplaces": [
+        {
+          "name": "Mühle Schöna",
+          "kind": "Mühle",
+          "page": "462"
+        }
+      ],
+      "events": [
+        {
+          "year": 1816,
+          "event_de": "Landeshoheit der Kirche kommt von Sachsen an Weimar",
+          "event_en": "Territorial sovereignty over the church passes from Saxony to Weimar"
+        },
+        {
+          "year": 1850,
+          "event_de": "Kircheninneres ganz umgestaltet",
+          "event_en": "Church interior completely remodelled"
+        },
+        {
+          "year": 1864,
+          "event_de": "Landeshoheit über die Kirche an Reuß j. L. abgetreten; Kirchensatz bleibt bei Weimar",
+          "event_en": "Sovereignty over the church ceded to Reuss j. L.; patronage remains with Weimar"
+        }
+      ],
+      "notes": "1 Kirchlein, 1 Gemeindehaus und 23 Privathäuser mit 23 Höfen; 28 Familien; 1861: 141 Einwohner; 14 geschlossene Güter und 14 ledige Grundstücke; Kirchenvermögen 65 Thlr., Bücher seit 1600; 14 Familien bauen ihr Jahresbrod; 3 Almosener; Flur im Südwesten an Weimar grenzend (6 Teiche, 1 Steinbruch); deutscher Anbau (die Ableitung 'Schilfhain' wird abgelehnt); Besitz des Klosters Cronswitz seit 1262/1263; Amtsdorf.",
+      "summary_de": "Schöna, stillfriedliches Kirch-, Bauern- und Grenzdorf 1 ¾ Stunden südwestlich von Gera im Görlitzbachtal: Kirche als Filial von Markersdorf (Weimar), 1864 an Reuß abgetreten, 163 Einwohner, Pferde- und Kühbauern, Schule in Hundhaupten, Flur 1476 4/5 Morgen, Besitz des Klosters Cronswitz seit 1262.",
+      "summary_en": "Schöna, a quiet parish, farming and border village one and three quarter hours southwest of Gera in the Görlitzbach valley: church as branch of Markersdorf (Weimar), ceded to Reuss in 1864, 163 inhabitants, horse and cow farmers, school at Hundhaupten, field area 1476 4/5 Morgen, Cronswitz convent holdings since 1262."
+    },
+    {
+      "id": "waltersdorf",
+      "name": "Waltersdorf",
+      "start": {
+        "page": "463",
+        "block": "b2"
+      },
+      "end": {
+        "page": "466",
+        "block": "b1"
+      },
+      "landestheil": "Gera",
+      "type_verbatim": "Pfarr- und Kirchdorf",
+      "type": "Dorf",
+      "wuestung": false,
+      "historic_forms": [
+        {
+          "form": "Waltersdorf",
+          "year": 1288
+        }
+      ],
+      "dialect_form": "Waltersdorf",
+      "first_mention_year": 1288,
+      "location": {
+        "verbatim": "2 1/2 Stunden WSW. von Gera",
+        "relative_to": "Gera",
+        "distance_hours": 2.5,
+        "direction": "WSW"
+      },
+      "parish": {
+        "status": "Pfarrdorf",
+        "church_of": null,
+        "verbatim": "Zu ihr gehört kein eingepfarrter Ort, dagegen als Filial das altenburgische Dorf St. Gangloff"
+      },
+      "school": {
+        "exists": true,
+        "pupils": 59
+      },
+      "houses": 50,
+      "inhabitants": 345,
+      "occupations": {
+        "Bauern": 21,
+        "Häusler": 31,
+        "Taglöhner": 9,
+        "Dienstboten": 26,
+        "Kapitalisten": 4,
+        "Holz-, Loh- und Kohlenhändler": 4,
+        "Almosener": 7
+      },
+      "crafts": {
+        "Maurer": 12,
+        "Schneider": 3,
+        "Fleischer": 2,
+        "Zimmerleute": 2,
+        "Böttcher": 1,
+        "Schmied": 1,
+        "Schuhmacher": 1,
+        "Stellmacher": 1,
+        "Wagner": 1,
+        "Weber": 1
+      },
+      "flur_morgen": 1509.54,
+      "flur_verbatim": "1509,54 Morgen",
+      "soil": "circa 200 Morgen gut, 600 mittel, 700 gering",
+      "livestock": {
+        "Pferde": 42,
+        "Rinder": 178,
+        "Schafe": 242,
+        "Schweine": 157,
+        "Ziegen": 39,
+        "Gänse": 400,
+        "Bienenstöcke": 23
+      },
+      "municipal_finances": {
+        "verbatim": "Die Gemeinde, deren Beamten 1 Bürgermeister mit Stellvertreter, 1 Schulvorstand und 1 Friedensrichter sind, hat als engere (Alt- oder Braugemeinde) ein Activvermögen von 550 Thlr. und 13 Morgen Grundbesitz, als weitere 70 Thlr. Schulden an das Kirchenärar, und circa 300 Thlr. als Jahresausgabe",
+        "assets_thaler": 550,
+        "debts_thaler": 70,
+        "expenditure_thaler": 300
+      },
+      "facilities": [
+        "Kirche",
+        "Pfarrei",
+        "Schule",
+        "Gemeindehaus",
+        "Brauhaus",
+        "Spritzenhaus",
+        "Freigut",
+        "Mühle",
+        "Reihenschank",
+        "Singverein"
+      ],
+      "subplaces": [
+        {
+          "name": "Freigut Waltersdorf",
+          "kind": "Rittergut",
+          "page": "465"
+        },
+        {
+          "name": "Gänsehals",
+          "kind": "Sonstiges",
+          "page": "463"
+        },
+        {
+          "name": "Neustadt",
+          "kind": "Sonstiges",
+          "page": "463"
+        }
+      ],
+      "events": [
+        {
+          "year": 1288,
+          "event_de": "Ein nach dem Ort benanntes adliges Geschlecht kommt vor",
+          "event_en": "A noble family named after the village is recorded"
+        },
+        {
+          "year": 1328,
+          "event_de": "Heinrich der Ritterhafte schenkt das Dorf (ohne Rittergut) dem Kloster Cronswitz (1315 die Güter seiner Schwester)",
+          "event_en": "Heinrich the Knightly gives the village (excluding the manor) to Cronswitz convent (in 1315 his sister's estates)"
+        },
+        {
+          "year": 1581,
+          "event_de": "St. Gangloff wird von Laußnitz abgelöst und mit Waltersdorf verbunden",
+          "event_en": "St. Gangloff is detached from Laußnitz and joined to Waltersdorf"
+        },
+        {
+          "year": 1746,
+          "event_de": "Vergleich zwischen Reuß und Altenburg über kirchliche Rechte (ratifiziert 18. August)",
+          "event_en": "Settlement between Reuss and Altenburg on ecclesiastical rights (ratified 18 August)"
+        },
+        {
+          "year": 1750,
+          "event_de": "Brandstiftung am 27. Januar durch Daniel Poster: Kirche, Schule und 11 Bauernhöfe brennen ab",
+          "event_en": "Arson on 27 January by Daniel Poster: church, school and 11 farms burn down"
+        },
+        {
+          "year": 1756,
+          "event_de": "Neubau der Kirche 1752-1756",
+          "event_en": "New church built 1752-1756"
+        },
+        {
+          "year": 1855,
+          "event_de": "Schulhaus umgebaut und erweitert",
+          "event_en": "School house rebuilt and enlarged"
+        }
+      ],
+      "persons": [
+        "Daniel Poster",
+        "Jobst Görisch",
+        "J. C. Giebner"
+      ],
+      "notes": "Außer 1 Kirche, Pfarrei, Schule, Gemeindehaus, Brau- und Spritzenhaus 50 Privathäuser mit 27 Scheunen; 76 Familien; 1861: 334 Einwohner; 20 Güter (mit Freigut), 1 Grundstücksverband, 1 Pertinenz, 65 walzende Grundstücke; Kirchenbücher seit 1604, Kirchenvermögen 225 Thlr.; Pfarrbesoldung circa 900 Thlr.; Filial St. Gangloff (altenburgisch) mit 933 Einwohnern; Räuberbande aus St. Gangloff im 18. Jahrhundert; früher starkes Landfuhrwesen; deutscher Ursprung.",
+      "summary_de": "Waltersdorf, Pfarr- und Kirchdorf an der Westgrenze des Landratsbezirks, 2 ½ Stunden westsüdwestlich von Gera: Kirche (1752–1756) mit Filial St. Gangloff (Altenburg), Streit um die kirchlichen Rechte bis 1746, Pfarrer, Schule (59 Kinder), Freigut, 345 Einwohner, Brände (1750), Flur 1509,54 Morgen.",
+      "summary_en": "Waltersdorf, a parish village on the western border of the district, two and a half hours west-southwest of Gera: church (1752-1756) with the branch church of St. Gangloff (Altenburg), dispute over ecclesiastical rights until 1746, pastors, school (59 children), free estate, 345 inhabitants, fires (1750), field area 1509.54 Morgen."
+    },
+    {
+      "id": "kleinsaara",
+      "name": "Kleinsaara",
+      "start": {
+        "page": "466",
+        "block": "b2"
+      },
+      "end": {
+        "page": "467",
+        "block": "b1"
+      },
+      "landestheil": "Gera",
+      "type_verbatim": "Dörfchen",
+      "type": "Dorf",
+      "wuestung": false,
+      "historic_forms": [
+        {
+          "form": "Klein-Serichen",
+          "year": null
+        },
+        {
+          "form": "Särl",
+          "year": 1640
+        },
+        {
+          "form": "Kleinsara",
+          "year": 1647
+        }
+      ],
+      "dialect_form": "Sär'l",
+      "location": {
+        "verbatim": "1 3/4 Stunde WSW. von Gera, an der Chaussee von da nach Jena",
+        "relative_to": "Gera",
+        "distance_hours": 1.75,
+        "direction": "WSW"
+      },
+      "elevation": {
+        "value": 680,
+        "unit": "Fuß",
+        "verbatim": "am Dorfteiche 680 Fuss hoch gelegen"
+      },
+      "parish": {
+        "status": "eingepfarrt",
+        "church_of": "Großsaara",
+        "verbatim": "pfarrt, begräbt und schult von jeher nach Großsaara"
+      },
+      "school": {
+        "exists": false,
+        "note": "schult nach Großsaara"
+      },
+      "houses": 28,
+      "inhabitants": 143,
+      "occupations": {
+        "Bauern": 17,
+        "Häusler": 17,
+        "Taglöhner": 7,
+        "Dienstboten": 7,
+        "Kapitalisten": 2
+      },
+      "crafts": {
+        "Zimmerleute": 3,
+        "Maurer": 2,
+        "Schuhmacher": 1
+      },
+      "flur_morgen": 662.3,
+      "flur_verbatim": "662 3/10 Morgen",
+      "soil": "4/7 mittelgut, 2/7 gering, 1/7 gut",
+      "livestock": {
+        "Pferde": 3,
+        "Rinder": 79,
+        "Schafe": 200,
+        "Schweine": 64,
+        "Ziegen": 23,
+        "Gänse": 30,
+        "Bienenstöcke": 15
+      },
+      "municipal_finances": {
+        "verbatim": "Die Gemeinde mit 2 Ortsbeamten besitzt als engere 2 Morgen (Dorfanger und Wiese) im Werthe von circa 200 Thlr., als weitere kein Vermögen, dagegen 600 Thlr. Schulden; ihre Jahresausgabe 112 bis 118 Thlr.",
+        "assets_thaler": 200,
+        "debts_thaler": 600,
+        "expenditure_thaler_min": 112,
+        "expenditure_thaler_max": 118
+      },
+      "facilities": [
+        "Vorwerk",
+        "Gemeinde-Armenhaus",
+        "Privatgasthaus",
+        "Mühle",
+        "Schneidemühle",
+        "Sandsteinbrüche"
+      ],
+      "subplaces": [
+        {
+          "name": "Herrschaftliches Vorwerk Kleinsaara",
+          "kind": "Vorwerk",
+          "page": "467"
+        },
+        {
+          "name": "Mühle Kleinsaara",
+          "kind": "Mühle",
+          "page": "467"
+        }
+      ],
+      "events": [
+        {
+          "year": 1640,
+          "event_de": "Junker Hans Heinrich Metsch am 27. Februar erschossen",
+          "event_en": "Junker Hans Heinrich Metsch shot on 27 February"
+        },
+        {
+          "year": 1650,
+          "event_de": "Die v. Koppy gewinnen um 1650 das Gut und vereinigen es mit Großsaara",
+          "event_en": "Around 1650 the von Koppy family acquires the estate and unites it with Großsaara"
+        }
+      ],
+      "persons": [
+        "Hans Heinrich Metsch"
+      ],
+      "notes": "1 herrschaftliches Vorwerksgebäude, 1 Gemeinde-Armenhaus und 28 Privathäuser mit 23 Scheunen; 30 Familien; 1861: 152 Einwohner; 8 geschlossene Güter, 8 ledige Grundstücke neben dem Kammergutsboden; Vorwerk ursprünglich Pertinenzgut der Herrnburg Großsaara, bald nach 1750 durch Graf Heinrich XXX. an die Landesherrschaft und mit dem Kammergut Großsaara verbunden; Sandsteinverarbeitung; 2 Teiche, 4 Sandsteinbrüche.",
+      "summary_de": "Kleinsaara, Dörfchen im Saarbachsgrund 1 ¾ Stunde westsüdwestlich von Gera an der Chaussee nach Jena, nach Großsaara gepfarrt und geschult; herrschaftliches Vorwerk (früher Rittergut), 143 Einwohner, Feldbau, Holzhandel und Sandsteinarbeit, Flur 662 3/10 Morgen.",
+      "summary_en": "Kleinsaara, a small village in the Saarbach valley one and three quarter hours west-southwest of Gera on the Jena road, in the parish and school district of Großsaara; princely outlying farm (formerly a manor), 143 inhabitants, farming, timber trade and sandstone working, field area 662 3/10 Morgen."
+    },
+    {
+      "id": "grosssaara",
+      "name": "Großsaara",
+      "start": {
+        "page": "467",
+        "block": "b2"
+      },
+      "end": {
+        "page": "469",
+        "block": "b1"
+      },
+      "landestheil": "Gera",
+      "type_verbatim": "freundliches Kirch- und Pfarrdorf, einst der weltliche Hauptpunkt der beiden Saara und von Geißen und Langengrobsdorf",
+      "type": "Dorf",
+      "wuestung": false,
+      "historic_forms": [
+        {
+          "form": "Sara",
+          "year": 1533
+        },
+        {
+          "form": "Großen Sara",
+          "year": 1533
+        }
+      ],
+      "dialect_form": "Saare, Grußsaare",
+      "first_mention_year": 1533,
+      "location": {
+        "verbatim": "1 1/2 Stunde SWS. von Gera, an der Chaussee von da nach Roda",
+        "relative_to": "Gera",
+        "distance_hours": 1.5,
+        "direction": "SSW"
+      },
+      "parish": {
+        "status": "Pfarrdorf",
+        "church_of": null,
+        "verbatim": "freundliches Kirch- und Pfarrdorf … Eingepfarrt ist Kleinsaara"
+      },
+      "school": {
+        "exists": true,
+        "pupils": 65
+      },
+      "houses": 39,
+      "inhabitants": 296,
+      "occupations": {
+        "Bauern": 17,
+        "Häusler": 26,
+        "Taglöhner": 13,
+        "Dienstboten": 43,
+        "Kapitalisten": 5
+      },
+      "crafts": {
+        "Maurer": 7,
+        "Schuhmacher": 3,
+        "Zimmerleute": 3,
+        "Böttcher": 2,
+        "Schmiede": 2,
+        "Schneider": 2,
+        "Tischler": 2,
+        "Wagner": 1
+      },
+      "flur_morgen": 1253.4,
+      "flur_verbatim": "1253 2/5 Morgen",
+      "soil": "5/6 mittelgut, 1/6 gering",
+      "livestock": {
+        "Pferde": 31,
+        "Rinder": 165,
+        "Schafe": 350,
+        "Schweine": 107,
+        "Ziegen": 22,
+        "Gänse": 100,
+        "Bienenstöcke": 19
+      },
+      "municipal_finances": {
+        "verbatim": "Die Gemeinde mit 8 Ortsbeamten hat außer dem Besitze kleiner Parcellen vor den Häusern mit einem Jahreszinse von 7—8 Thlr. kein Vermögen, dagegen 1400 Thlr. Kirchbauschulden, wovon 600 Thlr. auf Kleinsaara fallen und außerdem noch 950 Thlr. Gemeindeschulden",
+        "debts_thaler": 950,
+        "church_debts_thaler": 1400,
+        "expenditure_thaler": 200
+      },
+      "facilities": [
+        "Kammergut",
+        "Kirche",
+        "Pfarrei",
+        "Schule",
+        "Gemeindehaus",
+        "Spritzenhaus",
+        "Privatgasthaus",
+        "Mühle",
+        "Ziegelei",
+        "Schullesebibliothek"
+      ],
+      "subplaces": [
+        {
+          "name": "Kammergut Großsaara",
+          "kind": "Kammergut",
+          "page": "467"
+        },
+        {
+          "name": "rother Löwe",
+          "kind": "Sonstiges",
+          "page": "467"
+        },
+        {
+          "name": "Mühle Großsaara",
+          "kind": "Mühle",
+          "page": "468"
+        }
+      ],
+      "events": [
+        {
+          "year": 1413,
+          "event_de": "Mittlere Turmglocke mit Mönchsinschrift gegossen",
+          "event_en": "Middle tower bell with monastic inscription cast"
+        },
+        {
+          "year": 1633,
+          "event_de": "Ort leidet im Dreißigjährigen Krieg bedeutend",
+          "event_en": "Village suffers badly in the Thirty Years' War"
+        },
+        {
+          "year": 1734,
+          "event_de": "Kirche erweitert und fast ganz neu erbaut",
+          "event_en": "Church enlarged and almost entirely rebuilt"
+        },
+        {
+          "year": 1756,
+          "event_de": "Tafeln 'Gräfl. Reuß. Plauisch. Territorium 1756' an zwei Häusern",
+          "event_en": "Plaques 'Gräfl. Reuß. Plauisch. Territorium 1756' on two houses"
+        },
+        {
+          "year": 1863,
+          "event_de": "Restaurierung der Kirche, neuer Turm (3000 Thlr.)",
+          "event_en": "Church restored, new tower (3,000 thalers)"
+        },
+        {
+          "year": 1844,
+          "event_de": "Neubau des Pfarrhauses (3400 Thlr.)",
+          "event_en": "New parsonage built (3,400 thalers)"
+        }
+      ],
+      "persons": [
+        "Melchior Fehmel",
+        "Kilian Bornig",
+        "C. Bergner"
+      ],
+      "notes": "1 Kammergut, 1 Kirche, Pfarrei, Schule, Gemeinde- und Spritzenhaus, außerdem 39 Privathäuser mit 24 Scheunen; 59 Familien; 1861: 292 Einwohner; 18 geschlossene Güter und 24 ledige Grundstücke neben dem Kammergut; Kirchenbücher seit 1608, Kirchenvermögen 1900 Thlr.; Pfarrer C. Bergner der 17.; Kammergut ehemals Burgbau und Herrnsitz mit Erbgericht über Groß- und Kleinsaara, Geißen und Langengrobsdorf, durch Heinrich XXX. an die Landesherrschaft; 13 Familien bauen ihr Jahresbrod; 1840 brannten 2 Häuser ab; Geißen und Langengrobsdorf schulten bis 1724 hierher.",
+      "summary_de": "Großsaara, Kirch- und Pfarrdorf 1 ½ Stunden südsüdwestlich von Gera im Saarbachsgrund: ehemalige Herrnburg, jetzt Kammergut (mit Vorwerk Kleinsaara), Kirche mit Filialen Geißen und Kleinsaara, Schule (65 Kinder), 296 Einwohner, Bauern, Häusler und Handwerker, Flur 1253 2/5 Morgen, Schulden aus Kirchbau.",
+      "summary_en": "Großsaara, a parish village one and a half hours south-southwest of Gera in the Saarbach valley: former castle seat, now a crown estate (with the Kleinsaara farm), church with branches at Geißen and Kleinsaara, school (65 children), 296 inhabitants, farmers, smallholders and craftsmen, field area 1253 2/5 Morgen, debts from the church building."
+    },
+    {
+      "id": "geissen",
+      "name": "Geißen",
+      "start": {
+        "page": "469",
+        "block": "b2"
+      },
+      "end": {
+        "page": "470",
+        "block": "b1"
+      },
+      "landestheil": "Gera",
+      "type_verbatim": "Kirchdörfchen, Filial von Großsaara",
+      "type": "Dorf",
+      "wuestung": false,
+      "historic_forms": [
+        {
+          "form": "Gizsan",
+          "year": 1121
+        },
+        {
+          "form": "Geisingen",
+          "year": 1533
+        },
+        {
+          "form": "Geussingen",
+          "year": null
+        },
+        {
+          "form": "Geussen",
+          "year": null
+        }
+      ],
+      "dialect_form": "Geißen",
+      "first_mention_year": 1121,
+      "location": {
+        "verbatim": "1 1/4 Stunde WSW. von Gera, 1/4 Stunde unterhalb Großsaara",
+        "relative_to": "Gera",
+        "distance_hours": 1.25,
+        "direction": "WSW"
+      },
+      "parish": {
+        "status": "Filial",
+        "church_of": "Großsaara",
+        "verbatim": "Filial von Großsaara"
+      },
+      "school": {
+        "exists": true,
+        "pupils": 30
+      },
+      "houses": 16,
+      "inhabitants": 116,
+      "occupations": {
+        "Bauern": 12,
+        "Häusler": 7,
+        "Taglöhner": 4,
+        "Dienstboten": 29,
+        "Kapitalisten": 4
+      },
+      "crafts": {
+        "Müller": 2,
+        "Maurer": 1,
+        "Schmied": 1,
+        "Schneider": 1,
+        "Schuhmacher": 1,
+        "Zimmermann": 1
+      },
+      "flur_morgen": 1424,
+      "flur_verbatim": "1424 Morgen",
+      "soil": "4/7 mittel, 1/7 gering, 2/7 gut",
+      "livestock": {
+        "Pferde": 16,
+        "Rinder": 102,
+        "Schafe": 260,
+        "Schweine": 68,
+        "Ziegen": 1,
+        "Gänse": 165,
+        "Bienenstöcke": 8
+      },
+      "municipal_finances": {
+        "verbatim": "Die Gemeinde besitzt gegen 11 Morgen (meist Wiesen), im Werthe von 1200 Thlr., sonst weder Vermögen noch Schulden; ihre Jahresausgabe beträgt gegen 110-115 Thlr. 3 Communications- und Vicinalwege sind zu erhalten",
+        "assets_thaler": 1200,
+        "expenditure_thaler_min": 110,
+        "expenditure_thaler_max": 115
+      },
+      "facilities": [
+        "Kirche",
+        "Schule",
+        "Spritzenhaus",
+        "Privatwirthshaus",
+        "Feuerspritze",
+        "Mühle"
+      ],
+      "subplaces": [
+        {
+          "name": "Mühle (am oberen Ende von Windischenbernsdorf)",
+          "kind": "Mühle",
+          "page": "470"
+        }
+      ],
+      "events": [
+        {
+          "year": 1121,
+          "event_de": "Gizsan in einer Urkunde des Klosters Bosau (Zuordnung unsicher)",
+          "event_en": "Gizsan in a charter of Bosau convent (identification uncertain)"
+        },
+        {
+          "year": 1488,
+          "event_de": "Größte Glocke mit Mönchsinschrift gegossen",
+          "event_en": "Largest bell with monastic inscription cast"
+        },
+        {
+          "year": 1724,
+          "event_de": "Eigene Schule (bis dahin nach Großsaara)",
+          "event_en": "Own school (previously at Großsaara)"
+        },
+        {
+          "year": 1756,
+          "event_de": "Hauptreparatur der Kirche 1756-1757",
+          "event_en": "Major church repair 1756-1757"
+        },
+        {
+          "year": 1828,
+          "event_de": "Schulhaus erbaut",
+          "event_en": "School house built"
+        },
+        {
+          "year": 1838,
+          "event_de": "Orgel und Verschönerung der Kirche",
+          "event_en": "Organ and church embellishment"
+        }
+      ],
+      "notes": "1 Kirche, 1 Schule, 1 Spritzenhaus und 16 Privathäuser mit 16 Scheunen; 20 Familien; 1861: 131 Einwohner; 13 Bauerngüter, 2 Pertinenzstücke, 17 ledige Grundstücke; Kirchenbuch seit 1608, Kirchenvermögen 250 Thlr.; Langengrobsdorf ist eingekircht und eingeschult; alter sorbischer Anbau.",
+      "summary_de": "Geißen, Kirchdörfchen, Filial von Großsaara, 1 ¼ Stunde westsüdwestlich von Gera im Saarbachtal; kleine Kirche mit Altarschnitzwerk und Glocke von 1488, eigene Schule seit 1724 (30 Kinder), 116 Einwohner, wohlhabende Bauern, Flur 1424 Morgen, erste Erwähnung wohl 1121.",
+      "summary_en": "Geißen, a small church village and branch of Großsaara, one and a quarter hours west-southwest of Gera in the Saarbach valley; small church with carved altarpiece and a bell of 1488, own school since 1724 (30 children), 116 inhabitants, prosperous farmers, field area 1424 Morgen, probably first mentioned in 1121."
+    },
+    {
+      "id": "langengrobsdorf",
+      "name": "Langengrobsdorf",
+      "start": {
+        "page": "470",
+        "block": "b2"
+      },
+      "end": {
+        "page": "471",
+        "block": "b1"
+      },
+      "landestheil": "Gera",
+      "type_verbatim": "tief eingebuchtetes, stilllebiges Dörfchen",
+      "type": "Dorf",
+      "wuestung": false,
+      "historic_forms": [
+        {
+          "form": "Grobstorf",
+          "year": 1533
+        }
+      ],
+      "dialect_form": "Langengrußdorf, Langengroßdorf",
+      "first_mention_year": 1533,
+      "location": {
+        "verbatim": "1 1/2 Stunde WSW. von Gera, 1/4 Stunde SOS. von Geißen",
+        "relative_to": "Gera",
+        "distance_hours": 1.5,
+        "direction": "WSW"
+      },
+      "elevation": {
+        "value": 670,
+        "unit": "Fuß",
+        "verbatim": "in der Mitte 670 Fuß hoch gelegen"
+      },
+      "parish": {
+        "status": "eingepfarrt",
+        "church_of": "Geißen",
+        "verbatim": "Der Ort kircht, begräbt und schult nach Geißen"
+      },
+      "school": {
+        "exists": false,
+        "note": "schult seit 1724 nach Geißen, vorher Großsaara"
+      },
+      "houses": 11,
+      "inhabitants": 77,
+      "occupations": {
+        "Bauern": 7,
+        "Häusler": 3,
+        "Taglöhner": 1,
+        "Dienstboten": 11,
+        "Kapitalisten": 2
+      },
+      "crafts": {
+        "Maurer": 3,
+        "Schneider": 1,
+        "Uhrmacher": 1
+      },
+      "flur_morgen": 763.59,
+      "flur_verbatim": "763,59 Morgen",
+      "livestock": {
+        "Pferde": 8,
+        "Rinder": 51,
+        "Schafe": 70,
+        "Schweine": 40,
+        "Ziegen": 10,
+        "Gänse": 31,
+        "Bienenstöcke": 2
+      },
+      "municipal_finances": {
+        "verbatim": "Die kleine Gemeinde besitzt circa 6 Morgen (Communicationswege, Bach, Laubholz) mit 7 Steuereinheiten im Werthe von 70 Thlr., außerdem kein Vermögen, dagegen 682 Thlr. Schulden; die Jahresausgabe macht gegen 100 Thlr.",
+        "assets_thaler": 70,
+        "debts_thaler": 682,
+        "expenditure_thaler": 100
+      },
+      "facilities": [
+        "Gemeindehaus",
+        "Privatschenke"
+      ],
+      "events": [
+        {
+          "year": 1666,
+          "event_de": "Kleines herrschaftliches Gut im Besitz derer v. Koppy",
+          "event_en": "Small manorial estate held by the von Koppy family"
+        },
+        {
+          "year": 1724,
+          "event_de": "Schulverband mit Geißen",
+          "event_en": "School district joined with Geißen"
+        }
+      ],
+      "notes": "1 Gemeindehaus und 11 Privathäuser mit 9 Scheunen; 12 Familien; 1861: 72 Einwohner; Schafe (70) laut Fußnote nur 1864 (1867 keine angegeben); 7 geschlossene Güter, 1 Pertinenzstück, 11 ledige Grundstücke; 7 Familien bauen ihr Jahresbrod; 2 Almosenempfänger; sorbischer Ursprung vermutet (Dreiergruppe Pöppeln, Grobsdorf, Geißen).",
+      "summary_de": "Langengrobsdorf, kleines tief eingebuchtetes Dorf im Langenthal 1 ½ Stunden westsüdwestlich von Gera, nach Geißen gepfarrt und geschult; 77 Einwohner, Feldwirtschaft und Holzhandel, wohlhabend, Flur 763,59 Morgen, Gemeindeschulden 682 Thlr.",
+      "summary_en": "Langengrobsdorf, a small village tucked into the Langenthal one and a half hours west-southwest of Gera, assigned to the parish and school of Geißen; 77 inhabitants, farming and timber trade, prosperous, field area 763.59 Morgen, municipal debts of 682 thalers."
+    },
+    {
+      "id": "windischenbernsdorf",
+      "name": "Windischenbernsdorf",
+      "start": {
+        "page": "471",
+        "block": "b2"
+      },
+      "end": {
+        "page": "472",
+        "block": "b1"
+      },
+      "landestheil": "Gera",
+      "type_verbatim": "Langdörfchen in angenehmer Lage",
+      "type": "Dorf",
+      "wuestung": false,
+      "historic_forms": [
+        {
+          "form": "Börensdorf",
+          "year": 1333
+        },
+        {
+          "form": "Winschenbernsdorf",
+          "year": 1534
+        }
+      ],
+      "dialect_form": "Winschbernsdorf",
+      "first_mention_year": 1333,
+      "location": {
+        "verbatim": "1 1/4 Stunde WSW. von Gera, an der Chaussee von da nach Roda",
+        "relative_to": "Gera",
+        "distance_hours": 1.25,
+        "direction": "WSW"
+      },
+      "parish": {
+        "status": "eingepfarrt",
+        "church_of": "Frankenthal",
+        "verbatim": "Der Ort pfarrt, begräbt und schult, dermalen mit 60 Kindern, nach Frankenthal"
+      },
+      "school": {
+        "exists": false,
+        "pupils": 60,
+        "note": "schult nach Frankenthal"
+      },
+      "houses": 32,
+      "inhabitants": 254,
+      "occupations": {
+        "Bauern": 10,
+        "Kleinhäusler": 22,
+        "Taglöhner": 25,
+        "Dienstboten": 15
+      },
+      "crafts": {
+        "Fleischer": 1,
+        "Maurer": 4,
+        "Zimmerleute": 5
+      },
+      "flur_morgen": 600.83,
+      "flur_verbatim": "600 5/6 Morgen",
+      "soil": "3/4 mittelgut, 1/4 gering",
+      "livestock": {
+        "Pferde": 14,
+        "Rinder": 75,
+        "Schweine": 45,
+        "Ziegen": 6,
+        "Gänse": 80,
+        "Bienenstöcke": 1
+      },
+      "municipal_finances": {
+        "verbatim": "Die Gemeinde unter 8 Ortsbeamten (incl. Gemeinderath) hat außer 1/2 Morgen Bachsand im Werthe von 25 Thlr. kein Vermögen, dagegen 75 Thlr. Schulden und einen Jahresetat von 100 Thlr.",
+        "assets_thaler": 25,
+        "debts_thaler": 75,
+        "expenditure_thaler": 100
+      },
+      "facilities": [
+        "Gemeinde-Armenhaus",
+        "Privatgasthaus (Erbkretschmar)",
+        "Mühle (zu Geißen gehörig)"
+      ],
+      "subplaces": [
+        {
+          "name": "Mühl-, Oel- und Schneidemühle (gehört zu Geißen)",
+          "kind": "Mühle",
+          "page": "471"
+        }
+      ],
+      "events": [
+        {
+          "year": 1618,
+          "event_de": "Ein Einwohner wegen fünfmaligen Meineids hingerichtet",
+          "event_en": "An inhabitant executed for perjury committed five times"
+        },
+        {
+          "year": 1666,
+          "event_de": "Peter Fr. Pflug auf Scheubengrobsdorf besitzt auch Windischenbernsdorf",
+          "event_en": "Peter Fr. Pflug of Scheubengrobsdorf also owns Windischenbernsdorf"
+        }
+      ],
+      "persons": [
+        "Peter Fr. Pflug"
+      ],
+      "notes": "Außer 1 Gemeinde-Armenhaus 32 Privathäuser mit 15 Scheunen; 61 Familien; 1861: 266 Einwohner; 6 Bauerngüter, 4 Pertinenzstücke, 6 Grundstücksverbände, 33 ledige Grundstücke; ehemaliges Rittergut mit Scheubengrobsdorf verbunden (Besitz seit über 200 Jahren); 4 Almosenarme; Taglöhner meist in Färbereien und Fabriken von Gera; früher zur Pottendorfer, später zur Geraer Kirche; gehörte zur Pflege Langenberg; sorbischer Anbau.",
+      "summary_de": "Windischenbernsdorf, Langdorf im Saartal 1 ¼ Stunde westsüdwestlich von Gera an der Chaussee nach Roda, nach Frankenthal gepfarrt und geschult (60 Kinder); 254 Einwohner, vorwiegend Taglöhner und Fabrikarbeiter in Gera, ehemaliges Rittergut, Flur 600 5/6 Morgen.",
+      "summary_en": "Windischenbernsdorf, a long village in the Saar valley one and a quarter hours west-southwest of Gera on the Roda road, in the parish and school district of Frankenthal (60 children); 254 inhabitants, mostly day labourers and factory workers in Gera, a former manor, field area 600 5/6 Morgen."
+    },
+    {
+      "id": "scheubengrobsdorf",
+      "name": "Scheubengrobsdorf",
+      "start": {
+        "page": "472",
+        "block": "b2"
+      },
+      "end": {
+        "page": "473",
+        "block": "b1"
+      },
+      "landestheil": "Gera",
+      "type_verbatim": "tief eingebuchtetes Dörfchen",
+      "type": "Dorf",
+      "wuestung": false,
+      "historic_forms": [
+        {
+          "form": "Scheiblingengrobsdorf",
+          "year": null
+        },
+        {
+          "form": "Scheibengrobsdorf",
+          "year": null
+        }
+      ],
+      "dialect_form": "Grusdorf, Scheimgrusdorf",
+      "location": {
+        "verbatim": "1 Stunde WSW. von Gera, seitwärts der gera-rodaer Hochstraße, im Saarthal",
+        "relative_to": "Gera",
+        "distance_hours": 1,
+        "direction": "WSW"
+      },
+      "elevation": {
+        "value": 590,
+        "unit": "Fuß",
+        "verbatim": "am untern Ende (W.) 590 Fuß hoch gelegen"
+      },
+      "parish": {
+        "status": "eingepfarrt",
+        "church_of": "Frankenthal",
+        "verbatim": "Der Ort pfarrt, begräbt und schult, gegenwärtig mit 38 Kindern, nach dem 1/4 Stunde entfernten Frankenthal"
+      },
+      "school": {
+        "exists": false,
+        "pupils": 38,
+        "note": "schult nach Frankenthal"
+      },
+      "houses": 32,
+      "inhabitants": 221,
+      "occupations": {
+        "Bauern": 11,
+        "Kleinhäusler": 21,
+        "Taglöhner": 14,
+        "Dienstboten": 20,
+        "Handwerker": 15
+      },
+      "crafts": {
+        "Branntweinbrenner": 1,
+        "Gärtner": 1,
+        "Holzhändler": 1
+      },
+      "flur_morgen": 936.5,
+      "flur_verbatim": "936 1/2 Morgen",
+      "soil": "1/7 gut, 4/7 mittelgut, 2/7 mager",
+      "livestock": {
+        "Pferde": 21,
+        "Rinder": 91,
+        "Schafe": 304,
+        "Schweine": 54,
+        "Ziegen": 10,
+        "Gänse": 100,
+        "Bienenstöcke": 15
+      },
+      "municipal_finances": {
+        "verbatim": "Die Gemeinde unter 9 Ortsbeamten (incl. Gemeinderath) hat als engere gegen 6 Morgen Weideanger, zum Theil mit Pflaumenbäumen besetzt, über 600 Thlr. werth, als weitere blos Schulden und zwar 1300 Thlr.; ihr Jahresbedarf beträgt 350 Thlr.",
+        "assets_thaler": 600,
+        "debts_thaler": 1300,
+        "expenditure_thaler": 350
+      },
+      "facilities": [
+        "Rittergut",
+        "Gemeindehaus",
+        "Privatgasthaus",
+        "Mühle (Oel-, Loh- und Schneidemühle)",
+        "Fischteich"
+      ],
+      "subplaces": [
+        {
+          "name": "Rittergut Scheubengrobsdorf",
+          "kind": "Rittergut",
+          "page": "472"
+        },
+        {
+          "name": "Mühle Scheubengrobsdorf",
+          "kind": "Mühle",
+          "page": "473"
+        }
+      ],
+      "events": [
+        {
+          "year": 1666,
+          "event_de": "Peter Fr. Pflug besitzt Scheubengrobsdorf, Frankenthal und Windischenbernsdorf",
+          "event_en": "Peter Fr. Pflug holds Scheubengrobsdorf, Frankenthal and Windischenbernsdorf"
+        },
+        {
+          "year": 1683,
+          "event_de": "Familie Dathe besitzt das Gut bis 1855",
+          "event_en": "The Dathe family holds the estate until 1855"
+        },
+        {
+          "year": 1867,
+          "event_de": "Ludwig Jul. Preller aus Weimar kauft das Gut",
+          "event_en": "Ludwig Jul. Preller of Weimar buys the estate"
+        },
+        {
+          "year": 1771,
+          "event_de": "Bergwand stürzt nach langem Regen ein (Erdfallsacker)",
+          "event_en": "Hillside collapses after long rain (Erdfallsacker)"
+        }
+      ],
+      "persons": [
+        "Peter Fr. Pflug",
+        "Ludwig Jul. Preller"
+      ],
+      "notes": "1 Rittergut, 1 Gemeindehaus und 32 Privathäuser mit 30 Scheunen; 45 Familien; 1861: 221 Einwohner; Rittergut mit der Hälfte der Ortsflur; 11 geschlossene Güter, 1 Pertinenzstück, 38 ledige Grundstücke; 6 Bauernfamilien bauen ihr Jahresbrod; Rittergut wechselt mit Töppeln im Besetzungsrecht der Pfarr- und Schulstellen Frankenthal und Mühlsdorf; Flur enthält einen Teil der Wüstung Vollersdorf; wahrscheinlich sorbischer Ursprung.",
+      "summary_de": "Scheubengrobsdorf, Dörfchen im Saartal 1 Stunde westsüdwestlich von Gera mit Rittergut (Besitzerfolge seit 1666), nach Frankenthal gepfarrt und geschult (38 Kinder); 221 Einwohner, Kleinhäusler und Taglöhner, Flur 936 1/2 Morgen, Gemeindeschulden 1300 Thlr., Rittergut mit Patronatsrecht.",
+      "summary_en": "Scheubengrobsdorf, a small village in the Saar valley one hour west-southwest of Gera with a manor (owners since 1666), in the parish and school district of Frankenthal (38 children); 221 inhabitants, smallholders and day labourers, field area 936 1/2 Morgen, municipal debts of 1300 thalers, manor with patronage rights."
+    },
+    {
+      "id": "frankenthal",
+      "name": "Frankenthal",
+      "start": {
+        "page": "473",
+        "block": "b2"
+      },
+      "end": {
+        "page": "476",
+        "block": "b1"
+      },
+      "landestheil": "Gera",
+      "type_verbatim": "zweizeiliges, tief eingebettetes, vom Straßenverkehr seitwärts gelegenes, volkreiches Langdorf mit Kirche, Pfarrei, Schule und Rittergut",
+      "type": "Dorf",
+      "wuestung": false,
+      "location": {
+        "verbatim": "1 Stunde westlich von der Stadt Gera",
+        "relative_to": "Gera",
+        "distance_hours": 1,
+        "direction": "W"
+      },
+      "parish": {
+        "status": "Pfarrdorf",
+        "church_of": null,
+        "verbatim": "Eingepfarrt sind Ernsee, Scheubengrobsdorf, Windischenbernsdorf und Töppeln und außerdem ist Mühlsdorf ihr Filial. Demnach umfaßt die Parochie 1720 Seelen"
+      },
+      "school": {
+        "exists": true,
+        "pupils": 307
+      },
+      "houses": 82,
+      "inhabitants": 689,
+      "occupations": {
+        "Bauern": 9,
+        "Häusler": 76,
+        "Taglöhner": 120,
+        "Dienstboten": 11,
+        "Handeltreibende": 6,
+        "Chirurg": 1,
+        "Almosenempfänger": 15
+      },
+      "crafts": {
+        "Zimmergesellen": 16,
+        "Maurergesellen": 12,
+        "Schneider": 4,
+        "Schuhmacher": 4,
+        "Gerber": 3,
+        "Schmiede": 3,
+        "Bäcker": 2,
+        "Fleischer": 2,
+        "Tischler": 2,
+        "Wagner": 2,
+        "Böttcher": 1,
+        "Glaser": 1,
+        "Ziegelbrenner": 1
+      },
+      "flur_morgen": 791.54,
+      "flur_verbatim": "791,54 Morgen",
+      "soil": "im Thale mittelgut, an den Bergwänden gering",
+      "livestock": {
+        "Pferde": 13,
+        "Rinder": 81,
+        "Schafe": 60,
+        "Schweine": 78,
+        "Ziegen": 39,
+        "Gänse": 80,
+        "Bienenstöcke": 7
+      },
+      "municipal_finances": {
+        "verbatim": "Die Gemeinde unter 11 Ortsbeamten (incl. Gemeinderath) hat weder als engere (ihr Gemeindeanger wurde vor 15 Jahren mit 980 Thlr. einzeln verkauft und das Geld vertheilt) noch als weitere irgend Vermögen, dagegen 500 Thlr. Schulden und einen Jahresbedarf von 487 Thlr. für Communalbauten, 3 Communications- und 3 Vicinalwege",
+        "debts_thaler": 500,
+        "expenditure_thaler": 487
+      },
+      "facilities": [
+        "Rittergut",
+        "Kirche",
+        "Pfarrei",
+        "Schule",
+        "Gemeindehaus",
+        "Privatgasthaus",
+        "Privatschenke",
+        "Mühle",
+        "Schneidemühle",
+        "Ziegelei",
+        "Gendarm",
+        "Steinbrüche"
+      ],
+      "subplaces": [
+        {
+          "name": "Rittergut Frankenthal",
+          "kind": "Rittergut",
+          "page": "473"
+        },
+        {
+          "name": "Sperlingsberg",
+          "kind": "Sonstiges",
+          "page": "473"
+        }
+      ],
+      "events": [
+        {
+          "year": 1517,
+          "event_de": "Neubau des alten Kirchleins (Platte mit dem Namen des Pfarrers Andres Franck)",
+          "event_en": "New building of the old chapel (slab naming the priest Andres Franck)"
+        },
+        {
+          "year": 1533,
+          "event_de": "Kirchenvisitation: letzter katholischer Pfarrer Jacob Ziegler",
+          "event_en": "Church visitation: last Catholic priest Jacob Ziegler"
+        },
+        {
+          "year": 1715,
+          "event_de": "Matrikel verzeichnet nur 20 Zinshäuser",
+          "event_en": "Register lists only 20 tenant houses"
+        },
+        {
+          "year": 1732,
+          "event_de": "Kirche 1728-1732 neu erbaut",
+          "event_en": "Church rebuilt 1728-1732"
+        },
+        {
+          "year": 1772,
+          "event_de": "Ruhrseuche nach großer Teuerung",
+          "event_en": "Dysentery epidemic after great dearth"
+        },
+        {
+          "year": 1819,
+          "event_de": "Blitzschlag in Turm und Kirche, Brand rasch erstickt",
+          "event_en": "Lightning strikes tower and church, fire quickly extinguished"
+        },
+        {
+          "year": 1841,
+          "event_de": "Neues Schulhaus am 14. October eingeweiht",
+          "event_en": "New school house consecrated on 14 October"
+        }
+      ],
+      "persons": [
+        "Gottl. Heinr. Seiffarth",
+        "Lor. Liebold",
+        "J. Christoph Klaunig"
+      ],
+      "notes": "86 Gebäude, darunter 4 Communalbauten (Kirche, Pfarrei, Schule, Gemeindehaus) und mit dem Gutsgebäude 82 Privathäuser mit 20 Scheunen; 176 Familien; 1861: 633 Einwohner; an Volkszahl der 6. Ort im Landrathsbezirk Gera; Rittergut (1/4 der Flur) gehörte früher mit Scheubengrobsdorf und Windischenbernsdorf zusammen, jetzt Kratzsch (Kaufpreis 19,050 Thlr.); 5 geschlossene Güter, 3 Pertinenzstücke, 1 Grundstücksverband, 56 ledige Grundstücke; Kirchenbücher seit 1645, Kirchenvermögen circa 500 Thlr.; Pfarrer Seiffarth (gest. 1869) der 25.; Kirche in der Nachfolge der Pottendorfer Marienkirche; Diebsbande 1816-1819; 3 wilde Ehen; Hammerwerk und Wollkämmerei eingegangen.",
+      "summary_de": "Frankenthal, volkreiches Langdorf mit Kirche, Pfarrei, Schule und Rittergut, 1 Stunde westlich von Gera im Saartal: Mittelpunkt einer Parochie (1720 Seelen), 689 Einwohner, überwiegend Häusler und Taglöhner, Kirche (1728–1732), Schule (307 Kinder), Gemeindearmut, Flur 791,54 Morgen und Ortsgeschichte.",
+      "summary_en": "Frankenthal, a populous long village with church, parsonage, school and manor, one hour west of Gera in the Saar valley: centre of a parish (1,720 souls), 689 inhabitants, mostly smallholders and day labourers, church (1728-1732), school (307 children), municipal poverty, field area 791.54 Morgen and local history."
+    },
+    {
+      "id": "thieschitz",
+      "name": "Thieschitz",
+      "start": {
+        "page": "476",
+        "block": "b2"
+      },
+      "end": {
+        "page": "477",
+        "block": "b1"
+      },
+      "landestheil": "Gera",
+      "type_verbatim": "freundlich gelegenes Kirch- und Pfarrdörfchen",
+      "type": "Dorf",
+      "wuestung": false,
+      "historic_forms": [
+        {
+          "form": "Theschiß",
+          "year": 1533
+        },
+        {
+          "form": "Tieschiß",
+          "year": null
+        },
+        {
+          "form": "Thischitz",
+          "year": null
+        },
+        {
+          "form": "Teschwitz",
+          "year": null
+        }
+      ],
+      "dialect_form": "Thischitz",
+      "first_mention_year": 1533,
+      "location": {
+        "verbatim": "1 1/8 Stunde NW. von Gera",
+        "relative_to": "Gera",
+        "distance_hours": 1.125,
+        "direction": "NW"
+      },
+      "parish": {
+        "status": "Pfarrdorf",
+        "church_of": null,
+        "verbatim": "eine auf der Kirchberghöhe erbaute Kirche, in die jetzt wie früher die zwei nahe gelegenen Dörfer Rubitz und Milbitz eingepfarrt sind"
+      },
+      "school": {
+        "exists": true,
+        "pupils": 66
+      },
+      "houses": 19,
+      "inhabitants": 129,
+      "occupations": {
+        "Bauern": 7,
+        "Häusler": 9,
+        "Taglöhner": 5,
+        "Dienstboten": 20,
+        "Almosenarme": 3
+      },
+      "crafts": {
+        "Maurer": 3,
+        "Zimmerer": 3,
+        "Schneider": 1,
+        "Schuhmacher": 1,
+        "Zeugmacher": 1,
+        "Harmonikamacher": 1,
+        "Gypsbrennerei": 1,
+        "Ziegelbrennerei": 1
+      },
+      "flur_morgen": 665.25,
+      "flur_verbatim": "665 1/4 Morgen",
+      "soil": "größtentheils ergiebig",
+      "livestock": {
+        "Pferde": 13,
+        "Rinder": 78,
+        "Schafe": 127,
+        "Schweine": 56,
+        "Ziegen": 16,
+        "Gänse": 115,
+        "Bienenstöcke": 10
+      },
+      "municipal_finances": {
+        "verbatim": "Die Gemeinde besitzt als engere einige Grundstücke und darauf 1000 Thlr. Schulden, als weitere 150 Thlr. Passiva; ihre Jahresausgabe beträgt 150—170 Thlr. für öffentliche Bauten, 2 Communicationswege und 3 Vicinalwege",
+        "debts_thaler": 1000,
+        "expenditure_thaler_min": 150,
+        "expenditure_thaler_max": 170
+      },
+      "facilities": [
+        "Kirche",
+        "Pfarrei",
+        "Schule",
+        "Gemeindehaus",
+        "Spritzenhaus",
+        "Privatschenkwirthschaft",
+        "Feuerspritze",
+        "Ziegelei",
+        "Gypsbrennerei",
+        "Schullesebibliothek"
+      ],
+      "events": [
+        {
+          "year": 1541,
+          "event_de": "Sacristeistein mit Jahreszahl und Ort Robicz (Erbbegräbnis der Rubitzer Gutsbesitzer)",
+          "event_en": "Sacristy stone with date and place Robicz (hereditary burial of the Rubitz estate owners)"
+        },
+        {
+          "year": 1810,
+          "event_de": "Kirche innen verschönert und mit Orgel versehen",
+          "event_en": "Church interior embellished and equipped with an organ"
+        },
+        {
+          "year": 1838,
+          "event_de": "Neues massives Schulhaus",
+          "event_en": "New solid school house"
+        },
+        {
+          "year": 1857,
+          "event_de": "Patronat geht vom Hauptpfarrer zu Gera an den Landesherrn über",
+          "event_en": "Patronage passes from the principal pastor of Gera to the sovereign"
+        },
+        {
+          "year": 1867,
+          "event_de": "Schiff der Kirche neu gebaut, Turm ausgebessert",
+          "event_en": "Nave of the church rebuilt, tower repaired"
+        }
+      ],
+      "persons": [
+        "Joh. Grau",
+        "Heinr. Spengler",
+        "Mackroth"
+      ],
+      "notes": "5 Communalbauten (Kirche, Pfarrei, Schule, Gemeinde- und Spritzenhaus), außerdem 19 Privathäuser mit 7 Scheunen und 12 Höfen; 26 Familien; 1861: 115 Einwohner; Schüler: 14 aus Thieschitz, 43 aus Rubitz, 11 aus Milbitz; 7 Bauerngüter, 2 Grundstücksverbände, 6 Pertinenzstücke, 26 ledige Grundstücke; Flur 13/100 Wald, 20/100 Wiesen, 53/100 Feld; Kirchenvermögen 5500 Thlr.; Pfarrer H. Spengler der 27.; Pfarrer Mackroth (gest. 1866) Mineraloge mit Sammlung; Gips- und Kalkgewinnung; sorbischer Anbau; altheidnischer Kultpunkt vermutet.",
+      "summary_de": "Thieschitz, Kirch- und Pfarrdörfchen 1 ⅛ Stunde nordwestlich von Gera am Ausgang des Erlbachs: Kirche mit eingepfarrten Dörfern Rubitz und Milbitz, Schule (66 Kinder), Pfarrer Mackroth als Mineraloge, 129 Einwohner, Gipsbrennerei und Ziegelei, geologisch interessante Flur (665 1/4 Morgen).",
+      "summary_en": "Thieschitz, a small parish village one and an eighth hours northwest of Gera at the mouth of the Erlbach: church with the incorporated villages of Rubitz and Milbitz, school (66 children), pastor Mackroth as a mineralogist, 129 inhabitants, gypsum burning and brickworks, geologically interesting fields (665 1/4 Morgen)."
+    },
+    {
+      "id": "milbitz",
+      "name": "Milbitz",
+      "start": {
+        "page": "477",
+        "block": "b2"
+      },
+      "end": {
+        "page": "478",
+        "block": "b1"
+      },
+      "landestheil": "Gera",
+      "type_verbatim": "Bauerndörfchen im Halbrund",
+      "type": "Dorf",
+      "wuestung": false,
+      "historic_forms": [
+        {
+          "form": "Mylwitz",
+          "year": 1533
+        },
+        {
+          "form": "Mulbiß",
+          "year": null
+        }
+      ],
+      "dialect_form": "Milbtz",
+      "first_mention_year": 1533,
+      "location": {
+        "verbatim": "1 Stunde NW. von Gera, an der Straße von da nach Kraftsdorf, Tinz gegenüber, in der Thalsohle der Elster",
+        "relative_to": "Gera",
+        "distance_hours": 1,
+        "direction": "NW"
+      },
+      "elevation": {
+        "value": 500,
+        "unit": "Fuß",
+        "verbatim": "500 Fuß hoch, aber eben gelegen"
+      },
+      "parish": {
+        "status": "eingepfarrt",
+        "church_of": "Thieschitz",
+        "verbatim": "Von jeher pfarrt, begräbt und schult der Ort (jetzt mit 11 Kindern) nach dem ganz nahen Thieschütz"
+      },
+      "school": {
+        "exists": false,
+        "pupils": 11,
+        "note": "schult nach Thieschitz"
+      },
+      "houses": 10,
+      "inhabitants": 81,
+      "occupations": {
+        "Bauern": 8,
+        "Häusler": 1,
+        "Dienstboten": 12,
+        "Kapitalisten": 2
+      },
+      "crafts": {
+        "Maurer": 1,
+        "Tischler": 1
+      },
+      "flur_morgen": 496.18,
+      "flur_verbatim": "496,18 Morgen",
+      "soil": "an 3/4 guter Boden, fruchtbarer Wiesengrund",
+      "livestock": {
+        "Pferde": 17,
+        "Rinder": 75,
+        "Schafe": 258,
+        "Schweine": 62,
+        "Ziegen": 3,
+        "Gänse": 60,
+        "Bienenstöcke": 19
+      },
+      "municipal_finances": {
+        "verbatim": "Die Gemeinde mit 1 Ortsbeamten besitzt als engere einige Grundstücke im Werthe von 2000 Thlr., als weitere 400 Thlr. Schulden; ihre Jahresausgabe macht 130 Thlr. für Anstalten, 1 Communications- und 1 steinerne Brücke (seither Vicinal-Stegweg) über die Elster",
+        "assets_thaler": 2000,
+        "debts_thaler": 400,
+        "expenditure_thaler": 130
+      },
+      "facilities": [
+        "Gemeindehaus",
+        "Privatgasthof",
+        "Ziegelei",
+        "steinerne Elsterbrücke",
+        "Kalksteinbrüche"
+      ],
+      "subplaces": [
+        {
+          "name": "Zwerghöhlen",
+          "kind": "Sonstiges",
+          "page": "478"
+        }
+      ],
+      "events": [
+        {
+          "year": 1799,
+          "event_de": "Hochwasser der Elster im Februar beschädigt mehrere Gebäude",
+          "event_en": "Flood of the Elster in February damages several buildings"
+        }
+      ],
+      "notes": "1 Gemeindehaus und 10 Privathäuser mit 9 Scheunen; 13 Familien; 1861: 77 Einwohner; 9 Bauerngüter, 1 Grundstücksverband, 3 Pertinenzstücke, 24 ledige Grundstücke; 8 Bauern der Pfarrei Thieschitz decempflichtig; Feuerspritze in Thieschitz gemeinsam mit Rubitz; Amtslehn; 8 Kalksteinbrüche; sorbischen Ursprungs (nicht mit den zwei rudolstädter Dörfern Milbitz zu verwechseln); Sage von den Zwerghöhlen (Schaumkalk als Erstfundort).",
+      "summary_de": "Milbitz, Bauerndörfchen im Halbrund in der Elsteraue 1 Stunde nordwestlich von Gera, nach Thieschitz gepfarrt und geschult (11 Kinder); 81 Einwohner, wohlhabende Bauern mit Viehzucht, Ziegelei, Flur 496,18 Morgen mit Wiesengrund und Kalksteinbrüchen, Sage vom Zwergvolk der Zwerghöhlen.",
+      "summary_en": "Milbitz, a small farming village laid out in a half circle in the Elster plain one hour northwest of Gera, in the parish and school district of Thieschitz (11 children); 81 inhabitants, prosperous cattle farmers, brickworks, field area 496.18 Morgen with meadows and limestone quarries, the legend of the dwarf folk of the Zwerghöhlen."
+    },
+    {
+      "id": "rubitz",
+      "name": "Rubitz",
+      "start": {
+        "page": "478",
+        "block": "b2"
+      },
+      "end": {
+        "page": "479",
+        "block": "b1"
+      },
+      "landestheil": "Gera",
+      "type_verbatim": "halbrundliches Dorf in freundlicher Lage",
+      "type": "Dorf",
+      "wuestung": false,
+      "historic_forms": [
+        {
+          "form": "Rupizan",
+          "year": 1121
+        },
+        {
+          "form": "Ropizane",
+          "year": 1146
+        },
+        {
+          "form": "Robicz",
+          "year": null
+        },
+        {
+          "form": "Robitz",
+          "year": 1488
+        },
+        {
+          "form": "Drobitz",
+          "year": null
+        },
+        {
+          "form": "Drowitz",
+          "year": null
+        }
+      ],
+      "dialect_form": "Rubz",
+      "first_mention_year": 1121,
+      "location": {
+        "verbatim": "1/8 Stunde südwestlich von Thieschitz, von der Straße von Gera nach Kraftsdorf durchschnitten",
+        "relative_to": "Thieschitz",
+        "distance_hours": 0.125,
+        "direction": "SW"
+      },
+      "parish": {
+        "status": "eingepfarrt",
+        "church_of": "Thieschitz",
+        "verbatim": "Rubitz pfarrt, begräbt und schult von jeher, jetzt mit 43 Kindern, nach Thieschitz"
+      },
+      "school": {
+        "exists": false,
+        "pupils": 43,
+        "note": "schult nach Thieschitz"
+      },
+      "houses": 28,
+      "inhabitants": 225,
+      "occupations": {
+        "Bauern": 10,
+        "Häusler": 13,
+        "Taglöhner": 20,
+        "Dienstboten": 13,
+        "Kapitalisten": 2,
+        "Almosenarme": 2
+      },
+      "crafts": {
+        "Zimmerer": 3,
+        "Maurer": 2,
+        "Schuhmacher": 2,
+        "Fleischer": 1,
+        "Korbmacher": 1,
+        "Müller": 1,
+        "Schmied": 1,
+        "Schneider": 1,
+        "Wagner": 1,
+        "Weber": 1
+      },
+      "flur_morgen": 1080.6,
+      "flur_verbatim": "1080 3/5 Morgen",
+      "soil": "Feld zu je 1/3 gut, mittel und gering",
+      "livestock": {
+        "Pferde": 12,
+        "Rinder": 93,
+        "Schafe": 272,
+        "Schweine": 69,
+        "Ziegen": 6,
+        "Bienenstöcke": 6
+      },
+      "municipal_finances": {
+        "verbatim": "Die Gemeinde mit 2 Ortsbeamten hat als engere einen Grundbesitz von circa 400 Thlr. Werth, als weitere 150 Thlr. Schulden und jährlich eine Ausgabe von 200 Thlr. für öffentliche Anstalten und 2 Vicinalwege",
+        "assets_thaler": 400,
+        "debts_thaler": 150,
+        "expenditure_thaler": 200
+      },
+      "facilities": [
+        "Rittergut",
+        "Gemeindearmenhaus",
+        "Gemeindebrauhaus",
+        "Gemeindeschenke",
+        "Mahlmühle",
+        "Schneidemühle",
+        "Lohmühle",
+        "Gypsbruch",
+        "Kalksteinbruch"
+      ],
+      "subplaces": [
+        {
+          "name": "Rittergut Rubitz",
+          "kind": "Rittergut",
+          "page": "478"
+        },
+        {
+          "name": "Cosse (nördliche Häuser)",
+          "kind": "Sonstiges",
+          "page": "478"
+        },
+        {
+          "name": "Mühle Rubitz",
+          "kind": "Mühle",
+          "page": "478"
+        }
+      ],
+      "events": [
+        {
+          "year": 1121,
+          "event_de": "Naumburger Bischof Dietrich eignet dem Kloster Bosau 19 Scobronengrundstücke zu",
+          "event_en": "Bishop Dietrich of Naumburg assigns 19 Scobron plots to Bosau convent"
+        },
+        {
+          "year": 1620,
+          "event_de": "Rittergut kommt um 1620 an die Familie v. Biesenroth",
+          "event_en": "Manor passes to the von Biesenroth family around 1620"
+        },
+        {
+          "year": 1817,
+          "event_de": "Brand der Cossen-Häuser",
+          "event_en": "Fire in the Cossen houses"
+        },
+        {
+          "year": 1853,
+          "event_de": "Drei Bauernhöfe brennen im August ab",
+          "event_en": "Three farms burn down in August"
+        },
+        {
+          "year": 1866,
+          "event_de": "Das Rittergut wird Kammergut",
+          "event_en": "The manor becomes a crown estate"
+        }
+      ],
+      "persons": [
+        "Familie v. Uttenhoven",
+        "Familie v. Biesenroth"
+      ],
+      "notes": "1 Gemeindearmenhaus, 1 Gemeindebrauhaus und mit dem Rittergute 28 Privathäuser mit 13 Scheunen und 25 Höfen; 47 Familien; 1861: 190 Einwohner; Gänse im Druck '30-40'; 12 kleine Bauerngüter (alle unter 40 Morgen), 2 Pertinenzstücke, 29 ledige Grundstücke neben dem Rittergutsareal; Flur 41/100 Wald, 40/100 Feld, 11/100 Wiesen, 8/100 Dorfraum, Gärten und Hut; 1/3 der Einwohner bemittelt; Zuständigkeit der Pfarrei Thieschitz für ein Haus und Gut (Lehn); Gewinnung von Düngergyps; sorbische Ansiedlung, ehemals Pflege Langenberg; Sage von zwei Rittern.",
+      "summary_de": "Rubitz, halbrundes Dorf im unteren Erlbachsgrund, ⅛ Stunde südwestlich von Thieschitz, nach Thieschitz gepfarrt und geschult (43 Kinder); Rittergut (Besitzer v. Schauroth, v. Uttenhoven, v. Biesenroth; seit 1866 Kammergut), 225 Einwohner, Mühle, Gipsgewinnung, Flur 1080 3/5 Morgen mit viel Wald.",
+      "summary_en": "Rubitz, a village laid out in a half circle in the lower Erlbach valley, an eighth hour southwest of Thieschitz, in the parish and school district of Thieschitz (43 children); manor (owners von Schauroth, von Uttenhoven, von Biesenroth; crown estate since 1866), 225 inhabitants, mill, gypsum extraction, field area 1080 3/5 Morgen with much forest."
+    },
+    {
+      "id": "texdorf",
+      "name": "Texdorf",
+      "start": {
+        "page": "479",
+        "block": "b2"
+      },
+      "end": {
+        "page": "479",
+        "block": "b2"
+      },
+      "landestheil": "Gera",
+      "type_verbatim": "Die Wüstung Texdorf",
+      "type": "Wüstung",
+      "wuestung": true,
+      "location": {
+        "verbatim": "in der Flur von Rubitz auf der südöstlichen Berghöhe"
+      },
+      "facilities": [
+        "herrschaftlicher Walddistrict"
+      ],
+      "notes": "Im Ortsregister (S. 826-829) lautet der Name 'Terdorf'; im Druck der Artikelüberschrift 'Texdorf' (Fraktur x). Auch 418 und 419 ('Texdorf' als Flurstück in Ernsee) nennen den Namen.",
+      "summary_de": "Wüstung Texdorf in der Flur von Rubitz, jetzt herrschaftlicher Walddistrict; angeblich gleichzeitig mit dem Kirchenort Pottendorf untergegangen, Ackerfurchen im Wald erkennbar.",
+      "summary_en": "Deserted settlement of Texdorf in the field area of Rubitz, now a princely forest district; reportedly abandoned at the same time as the church site of Pottendorf, field furrows still visible in the forest."
+    },
+    {
+      "id": "toeppeln",
+      "name": "Töppeln",
+      "start": {
+        "page": "479",
+        "block": "b3"
+      },
+      "end": {
+        "page": "480",
+        "block": "b1"
+      },
+      "landestheil": "Gera",
+      "type_verbatim": "eben, mild und angenehm gelegenes Thaldorf mit einem Rittergute",
+      "type": "Dorf",
+      "wuestung": false,
+      "historic_forms": [
+        {
+          "form": "Topelin",
+          "year": 1333
+        },
+        {
+          "form": "Tepiln",
+          "year": null
+        },
+        {
+          "form": "Doppiln",
+          "year": 1533
+        }
+      ],
+      "dialect_form": "Teppeln",
+      "first_mention_year": 1333,
+      "location": {
+        "verbatim": "1 1/2 Stunde WNW. von Gera, an der Straße von da nach Kraftsdorf",
+        "relative_to": "Gera",
+        "distance_hours": 1.5,
+        "direction": "WNW"
+      },
+      "parish": {
+        "status": "eingepfarrt",
+        "church_of": "Frankenthal",
+        "verbatim": "Der Ort pfarrt, begräbt und schult, jetzt mit 37 Kindern, nach Frankenthal, war aber in früherer Zeit mit der Kirche in Pottendorf in Verband"
+      },
+      "school": {
+        "exists": false,
+        "pupils": 37,
+        "note": "schult nach Frankenthal"
+      },
+      "houses": 43,
+      "inhabitants": 244,
+      "occupations": {
+        "Bauern": 5,
+        "Häusler und Taglöhner": 35,
+        "Dienstboten": 25,
+        "Kapitalisten": 1,
+        "Almosenarme": 2
+      },
+      "crafts": {
+        "Maurergesellen": 9,
+        "Zimmergesellen": 6,
+        "Schuhmacher": 3,
+        "Müller": 2,
+        "Schneider": 2,
+        "Bäcker": 1,
+        "Fleischer": 1,
+        "Schlosser": 1,
+        "Weber": 1,
+        "Ziegler": 1
+      },
+      "flur_morgen": 679.72,
+      "flur_verbatim": "679 13/18 Morgen",
+      "soil": "über die Hälfte ergiebig, für Weizen und Klee vorzüglich",
+      "livestock": {
+        "Pferde": 14,
+        "Rinder": 75,
+        "Schafe": 253,
+        "Schweine": 60,
+        "Ziegen": 15,
+        "Gänse": 100,
+        "Bienenstöcke": 20
+      },
+      "municipal_finances": {
+        "verbatim": "Die Gemeinde mit 2 Ortsbeamten hat statt Vermögen 400 Thlr. Schulden und eine Jahresausgabe von 150 Thlr. zur Erhaltung der frankenthaler Cultgebäude, des Gemeindehauses, 1 Feuerspritze und 3 Communicationswege",
+        "debts_thaler": 400,
+        "expenditure_thaler": 150
+      },
+      "facilities": [
+        "Rittergut",
+        "Gemeindehaus",
+        "Spritzenhaus",
+        "Privatwirthshaus",
+        "Obermühle",
+        "Untermühle",
+        "Ziegelei",
+        "Feuerspritze"
+      ],
+      "subplaces": [
+        {
+          "name": "Rittergut Töppeln",
+          "kind": "Rittergut",
+          "page": "480"
+        },
+        {
+          "name": "Obermühle",
+          "kind": "Mühle",
+          "page": "480"
+        },
+        {
+          "name": "Untermühle",
+          "kind": "Mühle",
+          "page": "480"
+        },
+        {
+          "name": "Steinhaus (Kemnate)",
+          "kind": "Sonstiges",
+          "page": "480"
+        }
+      ],
+      "events": [
+        {
+          "year": 1370,
+          "event_de": "Aus dem Jahr 1370 stammt das alte Steinhaus (Kemnate) der Ritter- und Zwingburg",
+          "event_en": "The old stone house (Kemnate) of the former castle dates from 1370"
+        },
+        {
+          "year": 1518,
+          "event_de": "Die v. Ende besitzen das Rittergut von 1518 bis um 1670",
+          "event_en": "The von Ende family holds the manor from 1518 until about 1670"
+        },
+        {
+          "year": 1564,
+          "event_de": "Der Pfarrer von Frankenthal begleitet einen Delinquenten zum Hochgericht",
+          "event_en": "The pastor of Frankenthal accompanies a delinquent to the gallows"
+        },
+        {
+          "year": 1805,
+          "event_de": "Familie Oberländer kauft das Rittergut für 45,000 Thlr.",
+          "event_en": "The Oberländer family buys the manor for 45,000 thalers"
+        },
+        {
+          "year": 1809,
+          "event_de": "Seitengebäude des Ritterguts brennen ab",
+          "event_en": "Outbuildings of the manor burn down"
+        },
+        {
+          "year": 1862,
+          "event_de": "Untermühle bis 1862 Papiermühle",
+          "event_en": "The lower mill was a paper mill until 1862"
+        }
+      ],
+      "persons": [
+        "Familie v. Ende",
+        "Familie Oberländer"
+      ],
+      "notes": "1 Gemeinde- und 1 Spritzenhaus und mit Einschluß des Ritterguts 43 Privathäuser mit 18 Scheunen und 38 Höfen; 46 Familien; 1861: 217 Einwohner; im Druck 'K.' statt 'R.' bei den Rindern (75 K.); Rittergut mit fast 3/4 der Flur und Patronat über Kirche und Schule Frankenthal im Wechsel mit Scheubengrobsdorf; 5 geringe Güter und 13 ledige Grundstücke; Wollkämmerei und Handspinnerei durch Gera eingegangen; 8 Familien bauen ihr Jahresbrod; 1 geistesschwache Person; Flur: 2 Teiche, 2 Kalksteinbrüche, 1 Lehmgrube; sorbischer Anbau, früher zur Pflege Langenberg.",
+      "summary_de": "Töppeln, Thaldorf mit Rittergut 1 ½ Stunden westnordwestlich von Gera an der Straße nach Kraftsdorf: Rittergut mit steinernem Kemnatenhaus von 1370 und Besitzerfolge, nach Frankenthal gepfarrt und geschult, 244 Einwohner, Handwerker und Taglöhner, Mühlen und Ziegelei, Flur 679 13/18 Morgen.",
+      "summary_en": "Töppeln, a valley village with a manor one and a half hours west-northwest of Gera on the Kraftsdorf road: manor with a stone 'Kemnate' house of 1370 and its succession of owners, in the parish and school district of Frankenthal, 244 inhabitants, craftsmen and day labourers, mills and brickworks, field area 679 13/18 Morgen."
+    },
+    {
+      "id": "muehlsdorf",
+      "name": "Mühlsdorf",
+      "start": {
+        "page": "481",
+        "block": "b1"
+      },
+      "end": {
+        "page": "482",
+        "block": "b1"
+      },
+      "landestheil": "Gera",
+      "type_verbatim": "hoch, frei und zugig gelegenes Kirchdörfchen",
+      "type": "Dorf",
+      "wuestung": false,
+      "historic_forms": [
+        {
+          "form": "Milensdorf",
+          "year": 1330
+        },
+        {
+          "form": "Mülstorff",
+          "year": 1533
+        }
+      ],
+      "dialect_form": "Mülsdorf",
+      "first_mention_year": 1330,
+      "location": {
+        "verbatim": "1 1/2 Stunde WNW. von Gera, auf einem kahlen, waldentblößten Bergrücken",
+        "relative_to": "Gera",
+        "distance_hours": 1.5,
+        "direction": "WNW"
+      },
+      "elevation": {
+        "value": 775,
+        "unit": "Fuß",
+        "verbatim": "in der Dorfmitte 775 Fuß über dem Meere"
+      },
+      "parish": {
+        "status": "Filial",
+        "church_of": "Frankenthal",
+        "verbatim": "sicher aber ist, daß die Reformation sie als Filial von Frankenthal vorfand, das sie seitdem geblieben ist"
+      },
+      "school": {
+        "exists": true,
+        "pupils": 31
+      },
+      "houses": 32,
+      "inhabitants": 176,
+      "occupations": {
+        "Bauern": 17,
+        "Häusler": 13,
+        "Taglöhner": 6,
+        "Dienstboten": 11
+      },
+      "crafts": {
+        "Instrumentenmacher": 1,
+        "Schmied": 1,
+        "Wagner": 1,
+        "Weber": 1
+      },
+      "flur_morgen": 741.5,
+      "flur_verbatim": "741 1/2 Morgen",
+      "soil": "5/6 mittelgut, 1/6 gering",
+      "livestock": {
+        "Pferde": 9,
+        "Rinder": 101,
+        "Schafe": 82,
+        "Schweine": 81,
+        "Ziegen": 12,
+        "Gänse": 151,
+        "Bienenstöcke": 10
+      },
+      "municipal_finances": {
+        "verbatim": "Die Gemeinde hat als engere circa 13 Morgen Grundbesitz im Werthe von 1400 Thlr., als weitere 950 Thlr. Schulden und jährlich 150 bis 200 Thlr. Ausgaben für die Communalbauten, 1 Dorfstraße, 2 Communications- und 3 Vicinalwege",
+        "assets_thaler": 1400,
+        "debts_thaler": 950,
+        "expenditure_thaler_min": 150,
+        "expenditure_thaler_max": 200
+      },
+      "facilities": [
+        "Rittergut",
+        "Schäferei",
+        "Kirche",
+        "Schule",
+        "Gemeindehaus",
+        "Privatwirthshaus",
+        "Friedhof"
+      ],
+      "subplaces": [
+        {
+          "name": "Rittergut Mühlsdorf",
+          "kind": "Rittergut",
+          "page": "481"
+        }
+      ],
+      "events": [
+        {
+          "year": 1330,
+          "event_de": "Heinrich v. Gera verkauft Zinsen im Ort dem Kloster Cronswitz",
+          "event_en": "Heinrich of Gera sells dues in the village to Cronswitz convent"
+        },
+        {
+          "year": 1708,
+          "event_de": "Erster bekannter Lehrer Gundermann (ab 1701) geht weg, weil er mitfrohnen musste",
+          "event_en": "The first known teacher Gundermann (from 1701) leaves because he had to share in compulsory labour"
+        },
+        {
+          "year": 1736,
+          "event_de": "Kirche auf der Stelle des früheren Kirchleins neu gebaut; Inneres 1785 ausgeschmückt",
+          "event_en": "Church rebuilt on the site of the earlier chapel; interior decorated in 1785"
+        },
+        {
+          "year": 1822,
+          "event_de": "Schulhaus erbaut",
+          "event_en": "School house built"
+        },
+        {
+          "year": 1735,
+          "event_de": "Geburt von J. Gottfried Fischer, später geadelter Leibarzt Kaiser Josephs II.",
+          "event_en": "Birth of J. Gottfried Fischer, later ennobled personal physician of Emperor Joseph II"
+        }
+      ],
+      "persons": [
+        "J. Gottfried Fischer",
+        "Gundermann"
+      ],
+      "notes": "1 Kirche, Schule, Gemeindehaus und sammt dem Rittergute 32 Privathäuser mit 24 Höfen und Scheunen; 35 Familien; 1861: 192 Einwohner; 17 Güter, 2 Grundstücksverbände, 36 ledige Grundstücke neben dem Rittergutsareal; Rittergut: Familie von Ende auf Töppeln, jetzt Familie Kretzschmar; Kirchenvermögen 160 Thlr., Bücher seit 1650; zum Pfarrbau in Frankenthal trägt der Ort 1/4 bei; Bevölkerungsrückgang seit 1680 nur 3 Häuser Zuwachs; sorbischer Ursprung.",
+      "summary_de": "Mühlsdorf, hoch gelegenes Kirchdörfchen 1 ½ Stunden westnordwestlich von Gera: Rittergut, Kirche (1736) als Filial von Frankenthal, Schule (31 Kinder), 176 Einwohner, überwiegend Bauern, Flur 741 1/2 Morgen, Geburtsort des Leibarztes Joseph Gottfried Fischer; Ersterwähnung 1330.",
+      "summary_en": "Mühlsdorf, a church village in an exposed high position one and a half hours west-northwest of Gera: manor, church (1736) as a branch of Frankenthal, school (31 children), 176 inhabitants, mostly farmers, field area 741 1/2 Morgen, birthplace of the physician Joseph Gottfried Fischer; first mentioned in 1330."
+    },
+    {
+      "id": "cosse",
+      "name": "Cosse",
+      "start": {
+        "page": "482",
+        "block": "b2"
+      },
+      "end": {
+        "page": "482",
+        "block": "b2"
+      },
+      "landestheil": "Gera",
+      "type_verbatim": "Die Wüstung Cosse",
+      "type": "Wüstung",
+      "wuestung": true,
+      "location": {
+        "verbatim": "ostnordöstlich von Mühlsdorf",
+        "relative_to": "Mühlsdorf",
+        "direction": "ONO"
+      },
+      "notes": "Bergdistrict, an dem Mühlsdorf, Thieschitz und Rubitz Anteil haben; jede Spur der Stätte verschwunden, die Geschichte nennt den Ort nicht. In der Transkription an Flurnamen-Stellen (476, 481) als 'Coffe' wiedergegeben.",
+      "summary_de": "Wüstung Cosse, ein Bergdistrikt östlich-nordöstlich von Mühlsdorf zwischen Thieschitz und Hartmannsdorf, an dem Mühlsdorf, Thieschitz und Rubitz Anteil haben; der Ort muss früh wüst geworden sein, von ihm ist nichts überliefert.",
+      "summary_en": "Deserted settlement of Cosse, a hill district east-northeast of Mühlsdorf between Thieschitz and Hartmannsdorf, shared by Mühlsdorf, Thieschitz and Rubitz; it must have been abandoned early, and nothing is recorded about it."
+    },
+    {
+      "id": "poersdorf",
+      "name": "Pörsdorf",
+      "start": {
+        "page": "482",
+        "block": "b3"
+      },
+      "end": {
+        "page": "483",
+        "block": "b1"
+      },
+      "landestheil": "Gera",
+      "type_verbatim": "kleines Plateau-, Kirch- und Bauerndorf",
+      "type": "Dorf",
+      "wuestung": false,
+      "historic_forms": [
+        {
+          "form": "Porßdorf",
+          "year": null
+        },
+        {
+          "form": "Bersdorf",
+          "year": 1647
+        }
+      ],
+      "dialect_form": "Pörschdorf",
+      "location": {
+        "verbatim": "2 1/4 Stunde WNW. von Gera, außerhalb des Straßenverkehrs, auf der Höhenmulde eines Bergrückens",
+        "relative_to": "Gera",
+        "distance_hours": 2.25,
+        "direction": "WNW"
+      },
+      "parish": {
+        "status": "Filial",
+        "church_of": "Rüdersdorf",
+        "verbatim": "Die hiesige Kirche, ein Filial von Rüdersdorf"
+      },
+      "school": {
+        "exists": false,
+        "note": "Schule in Rüdersdorf"
+      },
+      "houses": 25,
+      "inhabitants": 138,
+      "occupations": {
+        "Bauern": 23,
+        "Häusler": 10,
+        "Taglöhner": 2,
+        "Dienstboten": 19,
+        "Kapitalisten": 2
+      },
+      "crafts": {
+        "Maurer": 2,
+        "Schneider": 1,
+        "Schuhmacher": 1,
+        "Zimmermann": 1
+      },
+      "flur_morgen": 888.2,
+      "flur_verbatim": "888 1/5 Morgen",
+      "soil": "halb mittelgut, halb gering, doch gut gepflegt",
+      "livestock": {
+        "Pferde": 8,
+        "Rinder": 114,
+        "Schafe": 130,
+        "Schweine": 68,
+        "Ziegen": 8,
+        "Gänse": 180,
+        "Bienenstöcke": 20
+      },
+      "municipal_finances": {
+        "verbatim": "Die Gemeinde besitzt als engere 6 Acker Obstpflanzung und Hutung im Werthe von 600 Thlr., als weitere weder Activa noch Passiva",
+        "assets_thaler": 600,
+        "expenditure_thaler": 100
+      },
+      "facilities": [
+        "Kirche",
+        "Gemeindehaus",
+        "Hirtenhaus",
+        "Brauhaus",
+        "Schenke",
+        "Friedhof"
+      ],
+      "subplaces": [
+        {
+          "name": "Vicarei",
+          "kind": "Sonstiges",
+          "page": "482"
+        },
+        {
+          "name": "der Hof",
+          "kind": "Sonstiges",
+          "page": "483"
+        }
+      ],
+      "events": [
+        {
+          "year": 1647,
+          "event_de": "Theilungsacten: Bersdorf als Filial von Rüdersdorf",
+          "event_en": "Partition records: Bersdorf as a branch of Rüdersdorf"
+        },
+        {
+          "year": 1660,
+          "event_de": "Nach dem 30jährigen Krieg nur 3 ganze und 2 halbe Pferdefrohngüter, 4 Handfrohngüter und 6 Kleinhäusler, circa 68 Seelen",
+          "event_en": "After the Thirty Years' War only 3 full and 2 half horse-service farms, 4 hand-service farms and 6 smallholdings, about 68 souls"
+        },
+        {
+          "year": 1746,
+          "event_de": "Recess vom 18. August: Kirche und Kirchhof altenburgisch",
+          "event_en": "Recess of 18 August: church and churchyard Altenburg"
+        },
+        {
+          "year": 1835,
+          "event_de": "Kirche auf einem Teil des alten Gemäuers neu erbaut (1400 Thlr.)",
+          "event_en": "Church rebuilt on part of the old walls (1,400 thalers)"
+        },
+        {
+          "year": 1859,
+          "event_de": "Neuer Recess unterstellt Kirche und kirchliche Verhältnisse der reußischen Landesherrschaft",
+          "event_en": "New recess places the church and ecclesiastical matters under the Reuss sovereign"
+        }
+      ],
+      "notes": "1 Kirche, 1 Gemeinde-, 1 Hirten- und 1 Brauhaus und 25 Privathäuser mit 23 Scheunen und 20 Höfen; 26 Familien; 1861: 146 Einwohner; Schafe (130) laut Fußnote nur 1864 (1867 keine); 18 Bauerngüter, 1 Pertinenzstück, 29 walzende Grundstücke; Kirchenvermögen 970 Thlr. und Waldstück von 5 5/6 Morgen, Bücher seit 1653; 23 Familien bauen ihr Jahresbrod; Enclavenort (altenburgisch/reußisch gemischt, Kirche bis 1859 altenburgisch); wohl sorbischer Anbau.",
+      "summary_de": "Pörsdorf, kleines Plateau-, Kirch- und Bauerndorf 2 ¼ Stunden westnordwestlich von Gera abseits der Straßen: Kirche (1835) als Filial von Rüdersdorf, bis 1859 unter altenburgischem Konsistorium, 138 Einwohner, wohlhabende Bauern, Schule in Rüdersdorf, Flur 888 1/5 Morgen.",
+      "summary_en": "Pörsdorf, a small plateau village with church and farming community two and a quarter hours west-northwest of Gera, away from main roads: church (1835) as branch of Rüdersdorf, under the Altenburg consistory until 1859, 138 inhabitants, prosperous farmers, school at Rüdersdorf, field area 888 1/5 Morgen."
+    },
+    {
+      "id": "niederndorf",
+      "name": "Niederndorf",
+      "start": {
+        "page": "483",
+        "block": "b2"
+      },
+      "end": {
+        "page": "484",
+        "block": "b1"
+      },
+      "landestheil": "Gera",
+      "type_verbatim": "freundliches Kirchdorf",
+      "type": "Dorf",
+      "wuestung": false,
+      "historic_forms": [
+        {
+          "form": "Niderindorf",
+          "year": 1184
+        },
+        {
+          "form": "Niderndorf",
+          "year": 1533
+        }
+      ],
+      "dialect_form": "Nidendorf",
+      "first_mention_year": 1184,
+      "location": {
+        "verbatim": "2 Stunden westlich von Gera",
+        "relative_to": "Gera",
+        "distance_hours": 2,
+        "direction": "W"
+      },
+      "parish": {
+        "status": "Filial",
+        "church_of": "Kraftsdorf",
+        "verbatim": "hat aber auf dem Kirchberg seine eigene Kirche, die seit dem Mittelalter ein Filial von Kraftsdorf ist"
+      },
+      "school": {
+        "exists": false,
+        "pupils": 41,
+        "note": "schult nach Harpersdorf"
+      },
+      "houses": 50,
+      "inhabitants": 269,
+      "occupations": {
+        "Bauern": 19,
+        "Häusler": 39,
+        "Taglöhner": 13,
+        "Dienstboten": 22,
+        "Waarenhändler": 2,
+        "Ortsarme": 10
+      },
+      "crafts": {
+        "Maurer": 7,
+        "Tischler": 2,
+        "Zimmerer": 2,
+        "Böttcher": 1,
+        "Fleischer": 1,
+        "Müller": 1,
+        "Schmied": 1,
+        "Schneider": 1,
+        "Schuhmacher": 1,
+        "Wagner": 1
+      },
+      "flur_morgen": 1721.44,
+      "flur_verbatim": "1721 11/25 Morgen",
+      "soil": "2/5 gering, 3/5 mittelgut",
+      "livestock": {
+        "Pferde": 16,
+        "Rinder": 109,
+        "Schafe": 300,
+        "Schweine": 88,
+        "Ziegen": 39,
+        "Gänse": 40,
+        "Bienenstöcke": 7
+      },
+      "municipal_finances": {
+        "verbatim": "Die Gemeinde hat als engere (aus 19 Bauern bestehend) an 3 Morgen (Gräserei, Obstpflanzung und Wege) im Werthe von 200 Thlr., als weitere 25 Thlr. Schulden und eine Jahresausgabe von 125 Thlr.",
+        "assets_thaler": 200,
+        "debts_thaler": 25,
+        "expenditure_thaler": 125
+      },
+      "facilities": [
+        "Kammergut",
+        "Kirche",
+        "Armenhaus",
+        "Spritzenhaus",
+        "Privatwirthshaus",
+        "Mühle",
+        "Schneidemühle",
+        "Feuerspritze"
+      ],
+      "subplaces": [
+        {
+          "name": "Kammergut Niederndorf",
+          "kind": "Kammergut",
+          "page": "484"
+        },
+        {
+          "name": "Mühle Niederndorf",
+          "kind": "Mühle",
+          "page": "484"
+        }
+      ],
+      "events": [
+        {
+          "year": 1184,
+          "event_de": "Gerwich, ein orlamündaer Vasall, besitzt das Gut; das Kloster Lausnitz erhält hier Güter",
+          "event_en": "Gerwich, a vassal of Orlamünde, holds the estate; Lausnitz convent receives estates here"
+        },
+        {
+          "year": 1533,
+          "event_de": "Visitation: Niederndorf, Harpersdorf und Kaltenborn als eingepfarrte Dörfer von Kraftsdorf",
+          "event_en": "Visitation: Niederndorf, Harpersdorf and Kaltenborn listed as villages incorporated into Kraftsdorf"
+        },
+        {
+          "year": 1668,
+          "event_de": "Nacht des 28. Oktober: Kirche brennt bis aufs Gemäuer ab, 1690 vollends wiederhergestellt",
+          "event_en": "Night of 28 October: church burns down to the walls, fully restored in 1690"
+        },
+        {
+          "year": 1740,
+          "event_de": "Heinrich XXX. übernimmt das Gut um 1740 mit 28,000 Mk.",
+          "event_en": "Heinrich XXX takes over the estate around 1740 for 28,000 marks"
+        }
+      ],
+      "persons": [
+        "Gerwich",
+        "J. Donat v. Vittinghof",
+        "Heinrich XXX."
+      ],
+      "notes": "Kammergut mit Försterwohnung, 1 Kirche, 1 Armen- und 1 Spritzenhaus und 47 Privathäuser, im Ganzen 50 bewohnte Häuser mit 38 Höfen und 25 Scheunen; 58 Familien; 1861: 248 Einwohner; Kammergut mit über 864 Morgen Wald (Hart und Huldigung), Wert über 200,000 Thlr.; 9 Bauerngüter, 2 Pertinenzstücke, 38 ledige Grundstücke; Kirche alt und morsch, Altarschrein aus katholischer Zeit, Glocken 1668 und 1669, Kirchenvermögen 1270 Thlr., Bücher seit 1761; 18 Ortshandwerker; unehelichen Geburten nehmen zu; sorbische Flurnamen.",
+      "summary_de": "Niederndorf, Kirchdorf 2 Stunden westlich von Gera im Erlbachsgrund: Kammergut (ehemals Rittergut, Besitzerfolge seit 1184), Kirche als Filial von Kraftsdorf (Brand 1668), 269 Einwohner, Häusler und Bauern, Schule in Harpersdorf, Flur 1721 11/25 Morgen, Gegenstück zum altenburgischen Oberndorf.",
+      "summary_en": "Niederndorf, a church village two hours west of Gera in the Erlbach valley: crown estate (formerly a manor, owners since 1184), church as a branch of Kraftsdorf (fire of 1668), 269 inhabitants, smallholders and farmers, school at Harpersdorf, field area 1721 11/25 Morgen, counterpart to the Altenburg village of Oberndorf."
+    },
+    {
+      "id": "kaltenborn",
+      "name": "Kaltenborn",
+      "start": {
+        "page": "484",
+        "block": "b2"
+      },
+      "end": {
+        "page": "485",
+        "block": "b1"
+      },
+      "landestheil": "Gera",
+      "type_verbatim": "kleines, tief eingebuchtetes, vom Straßenverkehr unberührtes Langdorf",
+      "type": "Dorf",
+      "wuestung": false,
+      "historic_forms": [
+        {
+          "form": "Kaltenborn",
+          "year": 1333
+        }
+      ],
+      "dialect_form": "Kalnborn",
+      "first_mention_year": 1333,
+      "location": {
+        "verbatim": "2 1/4 Stunde WWS. von Gera, inmitten zwischen Harpersdorf und Großsaara",
+        "relative_to": "Gera",
+        "distance_hours": 2.25,
+        "direction": "WSW"
+      },
+      "parish": {
+        "status": "eingepfarrt",
+        "church_of": "Harpersdorf",
+        "verbatim": "Später erhielt Kaltenborn wieder Kirche, Friedhof und Schule in Harpersdorf"
+      },
+      "school": {
+        "exists": false,
+        "note": "schult nach Harpersdorf"
+      },
+      "houses": 41,
+      "inhabitants": 245,
+      "occupations": {
+        "Bauern": 25,
+        "Häusler": 13,
+        "Taglöhner": 10,
+        "Dienstboten": 9
+      },
+      "crafts": {
+        "Maurer": 8,
+        "Steinmetzen": 7,
+        "Zimmerleute": 6,
+        "Fleischer": 1,
+        "Schneider": 1,
+        "Schuhmacher": 1,
+        "Weber": 1
+      },
+      "flur_morgen": 1024.96,
+      "flur_verbatim": "1024,96 Morgen",
+      "soil": "zum größeren Theile mittelmäßig",
+      "livestock": {
+        "Pferde": 7,
+        "Rinder": 101,
+        "Schafe": 60,
+        "Schweine": 53,
+        "Ziegen": 3,
+        "Gänse": 50,
+        "Bienenstöcke": 7
+      },
+      "municipal_finances": {
+        "verbatim": "Die Gemeinde besitzt als engere 9 5/9 Morgen (Hutung, Wege und Bach) im Werthe von 200 Thlr., als weitere weder Vermögen noch Schulden; ihre Jahresausgabe beträgt gegen 150 Thlr.",
+        "assets_thaler": 200,
+        "expenditure_thaler": 150
+      },
+      "facilities": [
+        "Armenhaus",
+        "Brauhaus",
+        "Spritzenhaus",
+        "Schenke",
+        "Feuerspritze"
+      ],
+      "subplaces": [
+        {
+          "name": "Käseschenke (Gasthaus zum Fürstenkranz)",
+          "kind": "Sonstiges",
+          "page": "485"
+        }
+      ],
+      "events": [
+        {
+          "year": 1344,
+          "event_de": "Herr v. Wolfersdorf gibt eine Mark Silber Ortszins an das Kloster Cronswitz; Freigut der Familie v. Wolfersdorf",
+          "event_en": "Lord von Wolfersdorf gives one mark of silver in local dues to Cronswitz convent; free estate of the von Wolfersdorf family"
+        },
+        {
+          "year": 1647,
+          "event_de": "Theilungsacten: Kirche und Schule in Großsaara",
+          "event_en": "Partition records: church and school at Großsaara"
+        },
+        {
+          "year": 1861,
+          "event_de": "Käseschenke brennt ab",
+          "event_en": "The Käseschenke inn burns down"
+        }
+      ],
+      "persons": [
+        "Familie v. Wolfersdorf",
+        "Familie v. Koppy"
+      ],
+      "notes": "3 Communalhäuser (Armenhaus, Brauhaus, Spritzenhaus) und 41 Privathäuser mit 37 Höfen und 28 Scheunen; 49 Familien; 1861: 231 Einwohner; 18 Bauerngüter, 2 Grundstücksverbände, 1 Pertinenzstück, 37 ledige Grundstücke; Käseschenke isoliert im Südosten auf der Höhe des Käsebergs, rechter Name 'zum Fürstenkranz'; 15 Familien bauen ihr Jahresbrod; 1 wilde Ehe; deutscher Anbau, ursprünglich Bestandtheil der Pflege Langenberg; Richtung im Druck 'WWS.'. Das Ortsregister gibt für die Käseschenke S. 484 an (Text auf S. 485).",
+      "summary_de": "Kaltenborn, kleines tief eingebuchtetes Langdorf im Käsethal 2 ¼ Stunden westsüdwestlich von Gera, nach Harpersdorf gepfarrt und geschult; 245 Einwohner, Landbau und Handarbeit (Maurer, Steinmetzen), Flur 1024,96 Morgen, Käseschenke (Gasthaus zum Fürstenkranz) auf dem Käseberg.",
+      "summary_en": "Kaltenborn, a small long village tucked into the Käsethal two and a quarter hours west-southwest of Gera, in the parish and school district of Harpersdorf; 245 inhabitants, farming and manual trades (masons, stonecutters), field area 1024.96 Morgen, the Käseschenke inn ('Zum Fürstenkranz') on the Käseberg."
+    },
+    {
+      "id": "harpersdorf",
+      "name": "Harpersdorf",
+      "start": {
+        "page": "485",
+        "block": "b2"
+      },
+      "end": {
+        "page": "487",
+        "block": "b1"
+      },
+      "landestheil": "Gera",
+      "type_verbatim": "zweizeilig langes Kirchdorf",
+      "type": "Dorf",
+      "wuestung": false,
+      "historic_forms": [
+        {
+          "form": "Harprechtsdorf",
+          "year": 1333
+        }
+      ],
+      "dialect_form": "Harpersdorf",
+      "first_mention_year": 1333,
+      "location": {
+        "verbatim": "2 1/2 Stunde westlich von Gera, an der Straße von da nach Kloster Lausnitz",
+        "relative_to": "Gera",
+        "distance_hours": 2.5,
+        "direction": "W"
+      },
+      "elevation": {
+        "value": 640,
+        "unit": "Fuß",
+        "verbatim": "in der Dorfmitte 640 Fuß hoch"
+      },
+      "parish": {
+        "status": "Filial",
+        "church_of": "Kraftsdorf",
+        "verbatim": "Sie ist ein Filial von Kraftsdorf, steht aber unter der diesseitigen Landesherrschaft"
+      },
+      "school": {
+        "exists": true,
+        "pupils": 153
+      },
+      "houses": 77,
+      "inhabitants": 412,
+      "occupations": {
+        "Oeconomen": 32,
+        "Häusler": 49,
+        "Taglöhner": 12,
+        "Dienstboten": 27,
+        "Kapitalisten": 1
+      },
+      "crafts": {
+        "Steinhauer": 20,
+        "Zimmerleute": 4,
+        "Böttcher": 3,
+        "Müller": 2,
+        "Schuhmacher": 2,
+        "Tischler": 2,
+        "Wagner": 2,
+        "Bäcker": 1,
+        "Fleischer": 1,
+        "Korbmacher": 1,
+        "Schmied": 1,
+        "Schneider": 1,
+        "Bildhauer": 1,
+        "Holzschneider": 1,
+        "Uhrmacher": 1,
+        "Victualienhändler": 1
+      },
+      "flur_morgen": 2287.3,
+      "flur_verbatim": "2287 3/10 Morgen",
+      "soil": "1/7 gut, 3/7 mittelgut, 3/7 gering",
+      "livestock": {
+        "Pferde": 14,
+        "Rinder": 208,
+        "Schweine": 145,
+        "Ziegen": 37,
+        "Gänse": 400,
+        "Bienenstöcke": 16
+      },
+      "municipal_finances": {
+        "verbatim": "Die Gemeinde Harpersdorf besitzt als engere nahe an 29 Morgen (Wiesen und Buschholz) im Werthe von 3500 Thlr., als weitere 80 Thlr. Kapital; ihre Jahresausgabe beträgt circa 300 Thlr.",
+        "assets_thaler": 3500,
+        "capital_thaler": 80,
+        "expenditure_thaler": 300
+      },
+      "facilities": [
+        "Kirche",
+        "Schule",
+        "Brauhaus",
+        "Spritzenhaus",
+        "Privatwirthshaus",
+        "Gemeindeschenke",
+        "Privatschnapsschank",
+        "Mühle",
+        "Feuerspritze",
+        "Steinbrüche"
+      ],
+      "subplaces": [
+        {
+          "name": "Oberoder Queckmühle",
+          "kind": "Mühle",
+          "page": "486"
+        },
+        {
+          "name": "Schütz- oder Untermühle",
+          "kind": "Mühle",
+          "page": "486"
+        },
+        {
+          "name": "Desse (Wüstung, ein Stück in der Flur)",
+          "kind": "Wüstung",
+          "page": "486"
+        }
+      ],
+      "events": [
+        {
+          "year": 1524,
+          "event_de": "Kirche bereits vorhanden (Notiz des Kraftsdorfer Pfarrarchivs)",
+          "event_en": "Church already in existence (note in the Kraftsdorf parish archive)"
+        },
+        {
+          "year": 1578,
+          "event_de": "Ein Ortsnachbar wird wegen Totschlags mit dem Schwert hingerichtet",
+          "event_en": "A villager is executed by the sword for killing another"
+        },
+        {
+          "year": 1818,
+          "event_de": "Kirche 1817 erbaut und 1818 eingeweiht",
+          "event_en": "Church built in 1817 and consecrated in 1818"
+        },
+        {
+          "year": 1822,
+          "event_de": "Erfolglose Bohrversuche auf Steinsalz am Eingang des Dessegrundes",
+          "event_en": "Unsuccessful drilling for rock salt at the entrance of the Dessegrund"
+        },
+        {
+          "year": 1839,
+          "event_de": "Schulhaus 1837-39 gebaut, am 5. November eingeweiht",
+          "event_en": "School house built 1837-39, consecrated on 5 November"
+        },
+        {
+          "year": 1856,
+          "event_de": "Hausbrand am 23. Februar, ebenso im Februar 1859",
+          "event_en": "House fire on 23 February, again in February 1859"
+        }
+      ],
+      "persons": [
+        "Ulz v. Schauroth"
+      ],
+      "notes": "1 Kirche, 1 Schule, 1 Brau-, 1 Spritzenhaus und 77 Privathäuser mit 77 Höfen und 40 Scheunen; 77 Familien; 1861: 408 Einwohner; Steinhauer 'über 20'; 31 Bauerngüter, 1 Grundstücksverband, 2 Pertinenzstücke, 143 ledige Grundstücke; Güterlehen und Trift gehörten dem Kammergut Niederndorf; Kirchenvermögen 76 Thlr., Bücher seit 1761; Kaltenborn kircht, schult und begräbt hierher, Niederndorf ist eingeschult; Flur 5 Teiche, 8 Sandsteinbrüche, 1 Lehmgrube; Absatz der Werksteine nach Gera, Schleiz u. a.; früher zur Pflege Langenberg, ehemaliges Rittergut zerschlagen; deutscher Anbau.",
+      "summary_de": "Harpersdorf, langgestrecktes Kirchdorf 2 ½ Stunden westlich von Gera: Kirche (1817/18) als Filial von Kraftsdorf, Schule (153 Kinder, auch Kaltenborn und Niederndorf), 412 Einwohner, über 20 Steinhauer mit Werksteinabsatz, Oeconomen und Häusler, Flur 2287 3/10 Morgen, Besitz früherer Rittergutsfamilien.",
+      "summary_en": "Harpersdorf, a long-stretched church village two and a half hours west of Gera: church (1817/18) as a branch of Kraftsdorf, school (153 children, also Kaltenborn and Niederndorf), 412 inhabitants, over 20 stonecutters supplying dressed stone, farmers and smallholders, field area 2287 3/10 Morgen, former manorial owners."
+    }
+  ]
+}

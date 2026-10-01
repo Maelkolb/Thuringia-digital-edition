@@ -1,0 +1,1109 @@
+{
+ "seq": 114,
+ "label": "102",
+ "slug": "102",
+ "iiif": {
+  "service": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb11005578_00114",
+  "canvas": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11005578/canvas/114",
+  "width": 1659,
+  "height": 2699
+ },
+ "kind": "text",
+ "running_header": "II. Das Volk.",
+ "signature": null,
+ "blocks": [
+  {
+   "id": "b1",
+   "type": "paragraph",
+   "src": 0,
+   "text": "Das Bedeutsamste, das sich aus diesen Reihen ableiten lässt, ist das Größenverhältnis zwischen den unproductiven und productiven, den minderjährigen und großjährigen oder den zum Heirathen unberechtigten und berechtigten, den zum selbstständigen Gewerbsbetriebe unbefugten und befugten und den militärfreien und militärpflichtigen Altersklassen.",
+   "spans": [],
+   "sec": "t1-2-1"
+  },
+  {
+   "id": "b2",
+   "type": "paragraph",
+   "src": 1,
+   "text": "Die numerische Stärke der productiven oder schaffenden, ernährenden Altersklassen vom 15. bis zum 60. Jahre verhält sich zu dem Alter, das der schaffenden Hand bedarf, nämlich theils zur Jugend von 0 bis zum vollendeten 14. Jahre theils zum Greisenalter über 60 Jahre:",
+   "spans": [],
+   "sec": "t1-2-1"
+  },
+  {
+   "id": "b3",
+   "type": "table",
+   "src": 2,
+   "n_cols": 13,
+   "header_rows": 3,
+   "rows": [
+    {
+     "role": "header",
+     "cells": [
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "Jugend",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "Greisenalter",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "Ueberhaupt",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "Schaffendes Alter",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "header",
+     "cells": [
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "0 bis 14 Jahre",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "über 60 Jahre",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "unproductiv. Alter",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "15 bis 60 Jahre",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "header",
+     "cells": [
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "männl.",
+       "spans": []
+      },
+      {
+       "text": "weibl.",
+       "spans": []
+      },
+      {
+       "text": "zus.",
+       "spans": []
+      },
+      {
+       "text": "mnl.",
+       "spans": []
+      },
+      {
+       "text": "wbl.",
+       "spans": []
+      },
+      {
+       "text": "zus.",
+       "spans": []
+      },
+      {
+       "text": "männl.",
+       "spans": []
+      },
+      {
+       "text": "weibl.",
+       "spans": []
+      },
+      {
+       "text": "zus.",
+       "spans": []
+      },
+      {
+       "text": "männl.",
+       "spans": []
+      },
+      {
+       "text": "weibl.",
+       "spans": []
+      },
+      {
+       "text": "zus.",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Absolut . .",
+       "spans": []
+      },
+      {
+       "text": "14254",
+       "spans": []
+      },
+      {
+       "text": "14215",
+       "spans": []
+      },
+      {
+       "text": "28469",
+       "spans": []
+      },
+      {
+       "text": "3016",
+       "spans": []
+      },
+      {
+       "text": "3437",
+       "spans": []
+      },
+      {
+       "text": "6453",
+       "spans": []
+      },
+      {
+       "text": "17270",
+       "spans": []
+      },
+      {
+       "text": "17652",
+       "spans": []
+      },
+      {
+       "text": "34922",
+       "spans": []
+      },
+      {
+       "text": "25165",
+       "spans": []
+      },
+      {
+       "text": "26385",
+       "spans": []
+      },
+      {
+       "text": "51550",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Procental . .",
+       "spans": []
+      },
+      {
+       "text": "164,84",
+       "spans": []
+      },
+      {
+       "text": "164,39",
+       "spans": []
+      },
+      {
+       "text": "329,23",
+       "spans": []
+      },
+      {
+       "text": "34,88",
+       "spans": []
+      },
+      {
+       "text": "39,75",
+       "spans": []
+      },
+      {
+       "text": "74,63",
+       "spans": []
+      },
+      {
+       "text": "199,72",
+       "spans": []
+      },
+      {
+       "text": "204,13",
+       "spans": []
+      },
+      {
+       "text": "403,86",
+       "spans": []
+      },
+      {
+       "text": "291,02",
+       "spans": []
+      },
+      {
+       "text": "305,12",
+       "spans": []
+      },
+      {
+       "text": "596,14",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Verglichen mit:\nWeimar . .\nWürtemberg .",
+       "spans": [
+        [
+         16,
+         22,
+         "Location"
+        ],
+        [
+         27,
+         37,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "164,2\n147,9",
+       "spans": []
+      },
+      {
+       "text": "163,8\n153,7",
+       "spans": []
+      },
+      {
+       "text": "328,0\n301,6",
+       "spans": []
+      },
+      {
+       "text": "44,3\n42,5",
+       "spans": []
+      },
+      {
+       "text": "44,7\n43,2",
+       "spans": []
+      },
+      {
+       "text": "89,0\n85,7",
+       "spans": []
+      },
+      {
+       "text": "208,5\n190,4",
+       "spans": []
+      },
+      {
+       "text": "208,5\n196,9",
+       "spans": []
+      },
+      {
+       "text": "417,0\n387,3",
+       "spans": []
+      },
+      {
+       "text": "281,8\n292,0",
+       "spans": []
+      },
+      {
+       "text": "300,0\n320,7",
+       "spans": []
+      },
+      {
+       "text": "581,8\n612,7",
+       "spans": []
+      }
+     ]
+    }
+   ],
+   "grid": [
+    [
+     "",
+     "Jugend",
+     "",
+     "",
+     "Greisenalter",
+     "",
+     "",
+     "Ueberhaupt",
+     "",
+     "",
+     "Schaffendes Alter",
+     "",
+     ""
+    ],
+    [
+     "",
+     "0 bis 14 Jahre",
+     "",
+     "",
+     "über 60 Jahre",
+     "",
+     "",
+     "unproductiv. Alter",
+     "",
+     "",
+     "15 bis 60 Jahre",
+     "",
+     ""
+    ],
+    [
+     "",
+     "männl.",
+     "weibl.",
+     "zus.",
+     "mnl.",
+     "wbl.",
+     "zus.",
+     "männl.",
+     "weibl.",
+     "zus.",
+     "männl.",
+     "weibl.",
+     "zus."
+    ],
+    [
+     "Absolut . .",
+     "14254",
+     "14215",
+     "28469",
+     "3016",
+     "3437",
+     "6453",
+     "17270",
+     "17652",
+     "34922",
+     "25165",
+     "26385",
+     "51550"
+    ],
+    [
+     "Procental . .",
+     "164,84",
+     "164,39",
+     "329,23",
+     "34,88",
+     "39,75",
+     "74,63",
+     "199,72",
+     "204,13",
+     "403,86",
+     "291,02",
+     "305,12",
+     "596,14"
+    ],
+    [
+     "Verglichen mit:\nWeimar . .\nWürtemberg .",
+     "164,2\n147,9",
+     "163,8\n153,7",
+     "328,0\n301,6",
+     "44,3\n42,5",
+     "44,7\n43,2",
+     "89,0\n85,7",
+     "208,5\n190,4",
+     "208,5\n196,9",
+     "417,0\n387,3",
+     "281,8\n292,0",
+     "300,0\n320,7",
+     "581,8\n612,7"
+    ]
+   ],
+   "caption": null,
+   "sec": "t1-2-1"
+  },
+  {
+   "id": "b4",
+   "type": "paragraph",
+   "src": 3,
+   "text": "Das schaffende Alter beträgt 6/10 (geringer das in S.=Weimar und größer das in Würtemberg) und das des Schaffens unkräftige 4/10, wovon auf die Jugend, den Träger der Zukunft, 3/10 kommen. Das männliche oder weibliche Geschlecht ist in der Jugend nahezu einander gleich, größer aber das weibliche im schaffenden und greisenden Alter; Würtemberg dagegen hat in allen Altern das weibliche Geschlecht an Zahl stärker, Weimar aber dies nur im schaffenden Alter, in den übrigen Altern im Ganzen beide Geschlechter gleich.",
+   "spans": [
+    [
+     79,
+     89,
+     "Location"
+    ],
+    [
+     334,
+     344,
+     "Location"
+    ],
+    [
+     415,
+     421,
+     "Location"
+    ]
+   ],
+   "sec": "t1-2-1"
+  },
+  {
+   "id": "b5",
+   "type": "paragraph",
+   "src": 4,
+   "text": "Da die Großjährigkeit und die Befugniß zum Heirathen mit dem vollendeten 21. Lebensjahre eintritt, so fallen minderjährig und großjährig mit heirathsunbefugt und heirathsbefugt zusammen. Die Berechtigung zum selbstständigen Gewerbsbetriebe hebt erst mit dem vollendeten 24. Lebensjahre an. Die betreffenden Lebensalter nach ihren absoluten und procentalen Größenverhältnissen sind:",
+   "spans": [],
+   "sec": "t1-2-1"
+  },
+  {
+   "id": "b6",
+   "type": "table",
+   "src": 5,
+   "n_cols": 13,
+   "header_rows": 3,
+   "rows": [
+    {
+     "role": "header",
+     "cells": [
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "Minderjährig",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "Großjährig",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "Zum selbstständigen",
+       "spans": []
+      },
+      {
+       "text": "Gewerbsbetrieb",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "header",
+     "cells": [
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "Heirathsunbefugt",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "Heirathsbefugt",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "ohne Befugniß",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "mit Befugniß",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "header",
+     "cells": [
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "männl.",
+       "spans": []
+      },
+      {
+       "text": "weibl.",
+       "spans": []
+      },
+      {
+       "text": "zus.",
+       "spans": []
+      },
+      {
+       "text": "männl.",
+       "spans": []
+      },
+      {
+       "text": "weibl.",
+       "spans": []
+      },
+      {
+       "text": "zus.",
+       "spans": []
+      },
+      {
+       "text": "männl.",
+       "spans": []
+      },
+      {
+       "text": "weibl.",
+       "spans": []
+      },
+      {
+       "text": "zus.",
+       "spans": []
+      },
+      {
+       "text": "männl.",
+       "spans": []
+      },
+      {
+       "text": "weibl.",
+       "spans": []
+      },
+      {
+       "text": "zus.",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Absolut . .\nProcental .",
+       "spans": []
+      },
+      {
+       "text": "19967\n230,90",
+       "spans": []
+      },
+      {
+       "text": "20066\n232,05",
+       "spans": []
+      },
+      {
+       "text": "40033\n462,95",
+       "spans": []
+      },
+      {
+       "text": "22468\n259,83",
+       "spans": []
+      },
+      {
+       "text": "23971\n277,21",
+       "spans": []
+      },
+      {
+       "text": "46439\n537,04",
+       "spans": []
+      },
+      {
+       "text": "22032\n254,78",
+       "spans": []
+      },
+      {
+       "text": "22258\n257,40",
+       "spans": []
+      },
+      {
+       "text": "44290\n512,18",
+       "spans": []
+      },
+      {
+       "text": "20403\n235,95",
+       "spans": []
+      },
+      {
+       "text": "21779\n251,86",
+       "spans": []
+      },
+      {
+       "text": "42182\n487,81",
+       "spans": []
+      }
+     ]
+    }
+   ],
+   "grid": [
+    [
+     "",
+     "Minderjährig",
+     "",
+     "",
+     "Großjährig",
+     "",
+     "",
+     "Zum selbstständigen",
+     "Gewerbsbetrieb",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "Heirathsunbefugt",
+     "",
+     "",
+     "Heirathsbefugt",
+     "",
+     "",
+     "ohne Befugniß",
+     "",
+     "",
+     "mit Befugniß",
+     "",
+     ""
+    ],
+    [
+     "",
+     "männl.",
+     "weibl.",
+     "zus.",
+     "männl.",
+     "weibl.",
+     "zus.",
+     "männl.",
+     "weibl.",
+     "zus.",
+     "männl.",
+     "weibl.",
+     "zus."
+    ],
+    [
+     "Absolut . .\nProcental .",
+     "19967\n230,90",
+     "20066\n232,05",
+     "40033\n462,95",
+     "22468\n259,83",
+     "23971\n277,21",
+     "46439\n537,04",
+     "22032\n254,78",
+     "22258\n257,40",
+     "44290\n512,18",
+     "20403\n235,95",
+     "21779\n251,86",
+     "42182\n487,81"
+    ]
+   ],
+   "caption": null,
+   "sec": "t1-2-1"
+  },
+  {
+   "id": "b7",
+   "type": "paragraph",
+   "src": 6,
+   "text": "Die Zahl der Minderjährigen (Heirathsunbefugten) verhält sich zu der der Großjährigen (Heirathsbefugten) wie 23 : 27, in S.=Weimar wie 22 : 28; dagegen die Zahl der zum selbstständigen Gewerbsbetriebe Unbefugten zu der der dazu Befugten wie 51 : 49, in S.=Weimar wie 48 : 50.",
+   "spans": [
+    [
+     121,
+     130,
+     "Location"
+    ],
+    [
+     253,
+     262,
+     "Location"
+    ]
+   ],
+   "sec": "t1-2-1"
+  },
+  {
+   "id": "b8",
+   "type": "paragraph",
+   "src": 7,
+   "text": "Die absolute und procentale Zahl der Militärpflichtigen ergiebt sich aus folgender Tabelle:",
+   "spans": [],
+   "sec": "t1-2-1"
+  },
+  {
+   "id": "b9",
+   "type": "table",
+   "src": 8,
+   "n_cols": 13,
+   "header_rows": 2,
+   "rows": [
+    {
+     "role": "header",
+     "cells": [
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "0 bis 18 Jahre",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "Ueber 45 Jahre",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "Ueberhaupt",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "19 (incl.) b. 45 Jahre",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "header",
+     "cells": [
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "männl.",
+       "spans": []
+      },
+      {
+       "text": "weibl.",
+       "spans": []
+      },
+      {
+       "text": "zus.",
+       "spans": []
+      },
+      {
+       "text": "männl.",
+       "spans": []
+      },
+      {
+       "text": "weibl.",
+       "spans": []
+      },
+      {
+       "text": "zus.",
+       "spans": []
+      },
+      {
+       "text": "männl.",
+       "spans": []
+      },
+      {
+       "text": "weibl.",
+       "spans": []
+      },
+      {
+       "text": "zus.",
+       "spans": []
+      },
+      {
+       "text": "männl.",
+       "spans": []
+      },
+      {
+       "text": "weibl.",
+       "spans": []
+      },
+      {
+       "text": "zus.",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Absolut .\nProcental .",
+       "spans": []
+      },
+      {
+       "text": "17845\n206,36",
+       "spans": []
+      },
+      {
+       "text": "17808\n205,95",
+       "spans": []
+      },
+      {
+       "text": "35653\n412,31",
+       "spans": []
+      },
+      {
+       "text": "8477\n98,03",
+       "spans": []
+      },
+      {
+       "text": "9368\n108,33",
+       "spans": []
+      },
+      {
+       "text": "17845\n206,36",
+       "spans": []
+      },
+      {
+       "text": "26312\n304,29",
+       "spans": []
+      },
+      {
+       "text": "27176\n314,28",
+       "spans": []
+      },
+      {
+       "text": "53498\n618,57",
+       "spans": []
+      },
+      {
+       "text": "16113\n186,35",
+       "spans": []
+      },
+      {
+       "text": "16861\n194,94",
+       "spans": []
+      },
+      {
+       "text": "32974\n381,33",
+       "spans": []
+      }
+     ]
+    }
+   ],
+   "grid": [
+    [
+     "",
+     "0 bis 18 Jahre",
+     "",
+     "",
+     "Ueber 45 Jahre",
+     "",
+     "",
+     "Ueberhaupt",
+     "",
+     "",
+     "19 (incl.) b. 45 Jahre",
+     "",
+     ""
+    ],
+    [
+     "",
+     "männl.",
+     "weibl.",
+     "zus.",
+     "männl.",
+     "weibl.",
+     "zus.",
+     "männl.",
+     "weibl.",
+     "zus.",
+     "männl.",
+     "weibl.",
+     "zus."
+    ],
+    [
+     "Absolut .\nProcental .",
+     "17845\n206,36",
+     "17808\n205,95",
+     "35653\n412,31",
+     "8477\n98,03",
+     "9368\n108,33",
+     "17845\n206,36",
+     "26312\n304,29",
+     "27176\n314,28",
+     "53498\n618,57",
+     "16113\n186,35",
+     "16861\n194,94",
+     "32974\n381,33"
+    ]
+   ],
+   "caption": null,
+   "sec": "t1-2-1"
+  }
+ ],
+ "footnotes": [],
+ "corrections": [
+  {
+   "rule": "table_multirow_header",
+   "rows": 3,
+   "block": "b3"
+  },
+  {
+   "rule": "table_multirow_header",
+   "rows": 3,
+   "block": "b6"
+  },
+  {
+   "rule": "table_multirow_header",
+   "rows": 2,
+   "block": "b9"
+  }
+ ],
+ "provenance": {
+  "source": "colab-2026-03",
+  "model": "gemini-3-flash-preview",
+  "timestamp": "2026-03-03T15:09:56.973896",
+  "early_schema": false
+ },
+ "section_path": [
+  "t1",
+  "t1-2",
+  "t1-2-1"
+ ],
+ "sections": [
+  "t1-2-1"
+ ]
+}

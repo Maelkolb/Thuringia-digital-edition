@@ -1,0 +1,100 @@
+{
+ "seq": 175,
+ "label": "163",
+ "slug": "163",
+ "iiif": {
+  "service": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb11005578_00175",
+  "canvas": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11005578/canvas/175",
+  "width": 1606,
+  "height": 2695
+ },
+ "kind": "text",
+ "running_header": "5. Gestalt und Character.",
+ "signature": null,
+ "blocks": [
+  {
+   "id": "b1",
+   "type": "paragraph",
+   "src": 0,
+   "text": "Hebammen nicht immer hinreichend vorsichtig sind, die Schwangeren und Entbundenen sich selten schonen und das Stillen der Kinder oft bis in das dritte Jahr geschieht. Außerdem bildet sich häufig bei den Weibern der Plattfuß durch Barfußlaufen und Tragen schwerer Lasten. Nicht anders sind die Vorgänge beim Jüngling. Die heiteren, geweckten Züge seiner Kindheit werden, weil statt leiblich und geistig seiner Pflege die täglich schwere Arbeit frühzeitig an ihn herantritt, bald starr, eckig und wie seine Stimme rauh; dagegen wird sein Körperbau trotz der einfachen und knappen Kost stramm, wetterfest und kräftig; denn neben dem frischen Odem der Luft ist es gerade die Arbeit, die den Landmann stählt, daher sein Leben im Allgemeinen lang und von Krankheiten nicht sehr heimgesucht ist. Nur in den Weberdistricten des Oberlandes bilden sich mehr schwammige als stahlfeste Körper, weil dem Arbeiter am Stuhle Licht, Luft und Bewegung abgehen. So wenig auch schöne Gebilde unter den reifen Jünglingen und Mädchen und unter den Männern und Frauen des Landes, besonders des Oberlandes getroffen werden, so ist doch der Sinn für liebliche und edle Formen im Volke nicht erloschen, denn dies preist in manchen Orten die Jünglinge und Männer für schöner, in anderen die Mädchen und Frauen. Wenig verschieden von diesem ländlichen Urtypus ist im Durchschnitte der Bewohner der kleineren oberländischen Städte, weil diese sich einerseits vom Flachlande recrutiren, andererseits in dem Maße, als Gewerbe und Industrie in ihnen hinstehen, auf Landwirthschaft angewiesen sind. Anders in Gera, der volkreichen Metropole des Unterlandes, wo das Kapital in Haus und Familie feinere Lebensformen schafft, der Bildung des Körpers und Geistes zu Hilfe kommt und dadurch nicht allein den sich einbürgernden, sondern auch den nahe wohnenden Bauernstand allmählich verfeinert.",
+   "spans": [
+    [
+     639,
+     652,
+     "Resource"
+    ],
+    [
+     910,
+     915,
+     "Resource"
+    ],
+    [
+     917,
+     921,
+     "Resource"
+    ],
+    [
+     1577,
+     1581,
+     "Location"
+    ]
+   ],
+   "sec": "t1-2-5"
+  },
+  {
+   "id": "b2",
+   "type": "paragraph",
+   "src": 1,
+   "text": "Dem bewohnten Boden, der ererbten Eigenart des Stammes und den durch die Cultur gebildeten Lebensverhältnissen entsprechend, entwickelt sich wie die Gestalt, so Character, Sitte und Glaube. Zwischen Nord- und Süddeutschland gestellt, ist der Thüringer und der Voigtländer einerseits weniger kühl und zugeknöpft im Umgange, weniger scharf und spitzig im Denken und weniger rasch und springend im Thun als der Norddeutsche und andererseits weniger entzündbar, neckend und poetisch als der Süddeutsche. Und wiederum unterscheidet sich der Unterländer vom Oberländer, wenn auch nicht in Sitte, Glaube und Sage, doch mehrfach im Character. Jenen begünstigt nicht blos Klima und Boden, sondern auch sein unmittelbarer Anschluß an Thüringen und sein leichterer Weltverkehr. Darum hat sich bei ihm mehr Rührigkeit, Unternehmungslust und eine etwas weitere Anschauung gebildet als bei dem Oberländer, dem Eisenbahnzüge noch fern liegen und im Ganzen wenige Zeitungen in's Haus kommen. Selbst das im Oberlande stattfindende Zeitwandern der gewerblichen und dienstsuchenden Jugend in's Ausland erweitert daselbst nur wenig den bäuerlichen Ideenkreis, der selten mehr als Haus, Dorf und den umliegenden Bezirk umspannt und für Vergangenes keine Erinnerungen aufweist. Aus eben dem Grunde ist der Unterländer mehr aufgeschlossen für fremde und höhere Personen, der Oberländer mehr zurückhaltend und mißtrauisch, keineswegs indeß, wie man meint, falsch und eisig, im Gegentheil im Kreise der Seinen bei aller Sprödheit und Härte oft traulich und hingebend. Derselben Quelle entspringt auch, daß der Unterländer in seinem Hause Menschen und Vieh, Wohn- und Schlafräume, Stube und Küche mehr sondert als der Oberländer und daß jener in Haus und Hof auf größere Ordnung und Reinlichkeit hält, als dieser, der sich auf seine Bergwinde verläßt, daß sie alles Unreinliche wegfegen und die Ausdünstung der Stuben, der Mistinseln und des Straßenkoths unschädlich machen.\n11*",
+   "spans": [
+    [
+     242,
+     251,
+     "Location"
+    ],
+    [
+     260,
+     271,
+     "Location"
+    ],
+    [
+     724,
+     733,
+     "Location"
+    ],
+    [
+     896,
+     909,
+     "Artefact"
+    ],
+    [
+     1626,
+     1630,
+     "Animal"
+    ],
+    [
+     1807,
+     1816,
+     "Climate"
+    ]
+   ],
+   "sec": "t1-2-5"
+  }
+ ],
+ "footnotes": [],
+ "corrections": [],
+ "provenance": {
+  "source": "colab-2026-03",
+  "model": "gemini-3-flash-preview",
+  "timestamp": "2026-03-05T11:58:19.401700",
+  "early_schema": false
+ },
+ "section_path": [
+  "t1",
+  "t1-2",
+  "t1-2-5"
+ ],
+ "sections": [
+  "t1-2-5"
+ ]
+}

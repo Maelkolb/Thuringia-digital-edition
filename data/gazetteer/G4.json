@@ -1,0 +1,5169 @@
+{
+ "package": "G4",
+ "pages": "633-705",
+ "entries": [
+  {
+   "id": "hohenleuben",
+   "name": "Hohenleuben",
+   "start": {
+    "page": "633",
+    "block": "b2"
+   },
+   "end": {
+    "page": "642",
+    "block": "b2"
+   },
+   "landestheil": "Schleiz",
+   "type_verbatim": "Marktflecken, an Volkszahl der vierte Ort des Landes",
+   "type": "Marktflecken",
+   "wuestung": false,
+   "historic_forms": [
+    {
+     "form": "Lewben",
+     "year": 1312
+    },
+    {
+     "form": "Lewen",
+     "year": 1396
+    },
+    {
+     "form": "Lewbin",
+     "year": null
+    },
+    {
+     "form": "Leuben",
+     "year": null
+    },
+    {
+     "form": "Lüben",
+     "year": null
+    },
+    {
+     "form": "Höenleuben",
+     "year": null
+    },
+    {
+     "form": "Hohenleuben",
+     "year": null
+    }
+   ],
+   "dialect_form": "Leim, Huchenleim, Hochenleim",
+   "first_mention_year": 1312,
+   "location": {
+    "verbatim": "4 Stunden südlich von Gera und 2 von Weida, 2 1/2 Stunden östlich von Auma und 5 Stunden nordöstlich von Schleiz",
+    "relative_to": "Gera",
+    "distance_hours": 4,
+    "direction": "S"
+   },
+   "elevation": {
+    "value": 1158,
+    "unit": "Fuß",
+    "verbatim": "die Spitze seiner Kirche liegt 1158 Fuß über dem Meere"
+   },
+   "parish": {
+    "status": "Pfarrort",
+    "verbatim": "Mutterkirche der Pflege Reichenfels; Pfarrer und Diaconus"
+   },
+   "school": {
+    "exists": true,
+    "pupils": 474
+   },
+   "houses": 264,
+   "inhabitants": 2536,
+   "census_year": 1867,
+   "occupations": {
+    "Bauern": 30,
+    "Häusler": 220,
+    "Webermeister": 420,
+    "Factoren": 6,
+    "Kapitalisten": 12,
+    "Almosener": 22
+   },
+   "crafts": {
+    "Schuhmacher": 12,
+    "Maurer": 9,
+    "Schneider": 8,
+    "Bäcker": 7,
+    "Böttcher": 6,
+    "Fleischer": 6,
+    "Tischler": 4,
+    "Glaser": 3,
+    "Schmiede": 3,
+    "Klempner": 2,
+    "Posamentirer": 2,
+    "Riemer": 2,
+    "Schlosser": 2,
+    "Seiler": 2,
+    "Wagner": 2,
+    "Zimmerer": 2,
+    "Strumpfwirker": 10,
+    "Beutler": 1,
+    "Brauer": 1,
+    "Buchbinder": 1,
+    "Drechsler": 1,
+    "Färber": 1,
+    "Hutmacher": 1,
+    "Instrumentenmacher": 1,
+    "Korbmacher": 1,
+    "Seifensieder": 1
+   },
+   "flur_morgen": 3026.96,
+   "flur_verbatim": "3026 Morgen 172 □-Ruthen (Fußnote: genauer 3045 1/2 Morgen)",
+   "soil": "3/6 gut, 2/6 mittelmäßig, 1/6 gering",
+   "livestock": {
+    "Pferde": 32,
+    "Rinder": 267,
+    "Schafe": 39,
+    "Schweine": 345,
+    "Ziegen": 83,
+    "Gänse": 260,
+    "Bienenstöcke": 18
+   },
+   "municipal_finances": {
+    "verbatim": "Gemeindegrundbesitz 38 Morgen, 9000 Thlr. Werth ... An Schulden hat die Gemeinde über 8000 Thlr. und eine circa 1500 Thlr. betragende Jahresausgabe.",
+    "assets_thaler": 9000,
+    "debts_thaler": 8000,
+    "expenditure_thaler": 1500
+   },
+   "facilities": [
+    "Schloss",
+    "Kirche",
+    "Pfarrei",
+    "Schule (6 Klassen)",
+    "Gemeindehaus",
+    "Spritzenhaus",
+    "Rettungshaus",
+    "Justizamt",
+    "Paragiatsrentamt",
+    "Steuerreceptur",
+    "Sparkassenverwaltung (Filiale Schleiz)",
+    "Apotheke",
+    "Postexpedition",
+    "Brauhaus",
+    "Gasthöfe (goldener Kranich, reußischer Hof, Garküche)",
+    "Fabrik (Zweiggeschäft)",
+    "Windmühlen",
+    "Jahrmärkte (vier)",
+    "Voigtländischer alterthumsforschender Verein"
+   ],
+   "subplaces": [
+    {
+     "name": "Reichenfels",
+     "kind": "Schloss",
+     "page": "634",
+     "note": "zur Gemeinde gerechnet; eigener Artikel (Paket G3)"
+    },
+    {
+     "name": "Nässa",
+     "kind": "Weiler",
+     "page": "642",
+     "note": "Häusertrupp mit drei Kleinhäusern und 22 Einwohnern, eigener Absatz"
+    },
+    {
+     "name": "Schloßmühle",
+     "kind": "Mühle",
+     "page": "642",
+     "note": "an der Triebes bei Reichenfels, im Volke Lochmühle"
+    },
+    {
+     "name": "Kauermühle",
+     "kind": "Mühle",
+     "page": "642",
+     "note": "an der Leuba; Mahl- und Schneidemühle, die Landesgrenze durchschneidet das Gehöft"
+    },
+    {
+     "name": "Neumühle",
+     "kind": "Mühle",
+     "page": "642",
+     "note": "an der Leuba; Mahl- und Schneidemühle"
+    },
+    {
+     "name": "Rettungshaus",
+     "kind": "Gewerbeanlage",
+     "page": "639",
+     "note": "1855 am Waldsaum nordöstlich des Ortes für Knaben erbaut, 1856 Mädchenhaus"
+    }
+   ],
+   "events": [
+    {
+     "year": 1602,
+     "event_de": "Pfarrhof größtenteils abgebrannt",
+     "event_en": "parsonage largely destroyed by fire"
+    },
+    {
+     "year": 1678,
+     "event_de": "Schloss geht durch Ankauf an das Herrscherhaus zu Schleiz",
+     "event_en": "castle passes to the ruling house of Schleiz by purchase"
+    },
+    {
+     "year": 1715,
+     "event_de": "Jahrmarktsgerechtigkeit erteilt",
+     "event_en": "right to hold annual fairs granted"
+    },
+    {
+     "year": 1786,
+     "event_de": "hiesiges Kammergut zerschlagen; Kirche ab- und neu aufgebaut",
+     "event_en": "the Kammergut is broken up; church rebuilt"
+    },
+    {
+     "year": 1794,
+     "event_de": "Brand: 19 Häuser und 16 Scheunen",
+     "event_en": "fire: 19 houses and 16 barns"
+    },
+    {
+     "year": 1801,
+     "event_de": "Diaconat von Fürst Heinrich XLIII. neu begründet",
+     "event_en": "deaconate re-established by Prince Heinrich XLIII"
+    },
+    {
+     "year": 1806,
+     "event_de": "Brand: 20 Häuser und 12 Scheunen",
+     "event_en": "fire: 20 houses and 12 barns"
+    },
+    {
+     "year": 1825,
+     "event_de": "voigtländischer alterthumsforschender Verein gegründet (29. Dezember)",
+     "event_en": "Voigtland antiquarian society founded (29 December)"
+    },
+    {
+     "year": 1838,
+     "event_de": "neues Gemeindehaus gebaut",
+     "event_en": "new municipal building erected"
+    },
+    {
+     "year": 1847,
+     "event_de": "steinerne Brücke über die Leuba",
+     "event_en": "stone bridge over the Leuba"
+    },
+    {
+     "year": 1853,
+     "event_de": "Kirche nach Neubau eingeweiht (8. Februar)",
+     "event_en": "church consecrated after rebuilding (8 February)"
+    },
+    {
+     "year": 1855,
+     "event_de": "Rettungshaus für Knaben eingeweiht",
+     "event_en": "rescue home for boys opened"
+    }
+   ],
+   "persons": [
+    "Heinrich XXIV.",
+    "Heinrich XLIII.",
+    "Tob. Phil. Freiherr v. Gebler",
+    "Karl Chr. Gottl. Sturm",
+    "Joh. Friedr. Hauschild",
+    "Dr. F. Schmidt",
+    "Chr. Gottl. Alberti",
+    "Chlotilde Reuß"
+   ],
+   "summary_de": "Marktflecken auf einer Hochebene zwischen Triebes und Leuba, viertgrößter Ort des Landes mit 2536 Einwohnern (1867). Brückner beschreibt Ortsbild und Gassen, Schloss, die Mutterkirche der alten Pflege Reichenfels samt Parochialgeschichte, Schule, Weberei als Haupterwerb, Vereine und Stiftungen sowie die Flur von 3026 Morgen. Zur Gemeinde gehören Reichenfels, Nässa, drei Mühlen und das Rettungshaus.",
+   "summary_en": "Market town on a plateau between the Triebes and Leuba streams, the fourth most populous place of the principality with 2536 inhabitants (1867). Brückner covers layout and streets, the castle, the mother church of the old Pflege Reichenfels and its parish history, schools, weaving as the main livelihood, societies and foundations, and a municipal area of 3026 Morgen. Reichenfels, Nässa, three mills and the rescue home belong to the municipality.",
+   "notes": "Flurverteilung laut Tabelle (Morgen, Quadratruthen; 1 Morgen = 180 □-Ruthen, vgl. S. 832): Gebäude und Hofräume 30/90, Ackerland 1468/76, Gärten 83/93, Wiesen 432/14, Holung 13/126, Wald 889/146, Teiche 29/72, Steinbrüche und Lehmgruben 1/98, Wege und Oeden 77/177; Summe 3026 Morgen 172 □-Ruthen = 3026,96 Morgen (flur_morgen). Die Fußnote gibt genauer 3045 1/2 Morgen an. Einwohnerreihe: 1810: 1298; 1817: 1400; 1840: 2103; 1852: 2210; 1858: 2407; 1864: 2487; 1867: 2536. 259 Privathäuser mit 85 Scheunen und 589 Familien laut Fließtext (S. 634); Haushöhe 264 laut Tabelle 1867. Livestock-Abkürzungen aufgelöst: Pf. Pferde, R. Rinder, Schf. Schafe, Schw. Schweine, Z. Ziegen, G. Gänse, Bnst. Bienenstöcke."
+  },
+  {
+   "id": "langenwetzendorf",
+   "name": "Langenwetzendorf",
+   "start": {
+    "page": "642",
+    "block": "b3"
+   },
+   "end": {
+    "page": "645",
+    "block": "b1"
+   },
+   "landestheil": "Schleiz",
+   "type_verbatim": "Kirch- und Grenzort, das größte und längste Dorf",
+   "type": "Dorf",
+   "wuestung": false,
+   "historic_forms": [
+    {
+     "form": "Weyczendorf",
+     "year": 1268
+    },
+    {
+     "form": "Wiczendorf",
+     "year": null
+    },
+    {
+     "form": "Weitzendorf",
+     "year": null
+    },
+    {
+     "form": "Waitzendorf",
+     "year": null
+    },
+    {
+     "form": "Langenweitzendorf",
+     "year": null
+    },
+    {
+     "form": "Langenwetzendorf",
+     "year": null
+    }
+   ],
+   "dialect_form": "Wetzendorf",
+   "first_mention_year": 1268,
+   "location": {
+    "verbatim": "1 Stunde SOS. von Hohenleuben, 5 Stunden S. von Gera, 5 Stunden von Schleiz, 2 Stunden von Greiz und 1/2 Stunde N. von Naitschau",
+    "relative_to": "Hohenleuben",
+    "distance_hours": 1,
+    "direction": "SSO"
+   },
+   "parish": {
+    "status": "Kirchdorf",
+    "church_of": "Naitschau",
+    "verbatim": "Kirch- und Grenzort"
+   },
+   "school": {
+    "exists": true,
+    "pupils": 388
+   },
+   "houses": 250,
+   "inhabitants": 2135,
+   "occupations": {
+    "Bauern": 50,
+    "Häusler": 200,
+    "Taglöhner": 19,
+    "Dienstboten": 120,
+    "Webermeister": 399,
+    "Weber-Gesellen": 185,
+    "Kaufleute": 3,
+    "Krämer": 2,
+    "Viehhändler": 4,
+    "Kapitalisten": 10,
+    "Almosener": 15
+   },
+   "crafts": {
+    "Zimmerleute": 12,
+    "Maurer": 8,
+    "Fleischer": 5,
+    "Bäcker": 4,
+    "Müller": 4,
+    "Schuhmacher": 4,
+    "Schmiede": 3,
+    "Schneider": 3,
+    "Tischler": 3,
+    "Böttcher": 2,
+    "Barbier": 1,
+    "Brauer": 1,
+    "Dachdecker": 1,
+    "Drechsler": 1,
+    "Glaser": 1,
+    "Instrumentenmacher": 1,
+    "Posamentirer": 1,
+    "Riemer": 1,
+    "Schlosser": 1,
+    "Seiler": 1,
+    "Wagner": 1
+   },
+   "flur_morgen": 3920,
+   "flur_verbatim": "3920 Morgen",
+   "soil": "1/5 gut, 2/5 mittel, 2/5 gering",
+   "livestock": {
+    "Pferde": 49,
+    "Rinder": 384,
+    "Schafe": 37,
+    "Schweine": 287,
+    "Ziegen": 156,
+    "Gänse": 250,
+    "Bienenstöcke": 20
+   },
+   "municipal_finances": {
+    "verbatim": "Sie ist ohne Vermögen und ohne Schulden, hat aber eine Jahresausgabe von circa 1000 Thlr.",
+    "expenditure_thaler": 1000
+   },
+   "facilities": [
+    "Kirche",
+    "Schulen (zwei)",
+    "Armenhäuser (zwei)",
+    "Spritzenhaus",
+    "Gensd'armenposten",
+    "Gasthöfe (drei, darunter der Wolf)",
+    "Bierschenken (drei concessionirte)",
+    "Mahlmühlen (vier)",
+    "Schneidemühlen (vier)",
+    "Oelmühle",
+    "Knochenmühlen (zwei)",
+    "Theeröfen (zwei)",
+    "Ziegeleien (drei)",
+    "Feuerspritzen (zwei)",
+    "Herrnhaus der früheren Freigüter"
+   ],
+   "subplaces": [
+    {
+     "name": "Hungriger Wolf",
+     "kind": "Weiler",
+     "page": "642",
+     "note": "Häusergruppe im Oberdorf"
+    },
+    {
+     "name": "Kurmühle",
+     "kind": "Mühle",
+     "page": "644",
+     "note": "Mahlmühle; Register nennt S. 642 (Artikelbeginn); bei ihr liegt das Silberloch (S. 645)"
+    },
+    {
+     "name": "Schmidtsmühle",
+     "kind": "Mühle",
+     "page": "644",
+     "note": "Mahlmühle"
+    },
+    {
+     "name": "Mutz- oder Kittermühle",
+     "kind": "Mühle",
+     "page": "644",
+     "note": "Mahlmühle"
+    },
+    {
+     "name": "Dietzelsmühle",
+     "kind": "Mühle",
+     "page": "644",
+     "note": "Mahlmühle"
+    },
+    {
+     "name": "Angerberg",
+     "kind": "Weiler",
+     "page": "642",
+     "note": "Häusergruppe im Unterdorf"
+    },
+    {
+     "name": "Butterberg",
+     "kind": "Weiler",
+     "page": "642",
+     "note": "Häusergruppe im Oberdorf"
+    },
+    {
+     "name": "Fürstengasse",
+     "kind": "Weiler",
+     "page": "642",
+     "note": "Häusergruppe im Oberdorf"
+    },
+    {
+     "name": "Ziegenplan",
+     "kind": "Weiler",
+     "page": "642",
+     "note": "Häusergruppe im Oberdorf"
+    }
+   ],
+   "events": [
+    {
+     "year": 1268,
+     "event_de": "Landesherren schenken dem Kloster Cronswitz eine Wiese",
+     "event_en": "territorial lords donate a meadow to Cronswitz monastery"
+    },
+    {
+     "year": 1411,
+     "event_de": "Gebrüder v. Kome verkaufen 24 Bauerngüter an die Herren v. Gera (Verkäufe 1411 und 1413)",
+     "event_en": "the brothers v. Kome sell 24 farms to the lords of Gera (sales in 1411 and 1413)"
+    },
+    {
+     "year": 1452,
+     "event_de": "Cunz v. Wolframsdorf befreit seine Leute von Frohn und Schaftrift",
+     "event_en": "Cunz v. Wolframsdorf releases his tenants from labour dues and sheep-drive rights"
+    },
+    {
+     "year": 1538,
+     "event_de": "kirchlicher Verband neu geordnet: Langenwetzendorf als Filial zu Naitschau",
+     "event_en": "ecclesiastical ties reorganised: Langenwetzendorf becomes a filial of Naitschau"
+    },
+    {
+     "year": 1647,
+     "event_de": "97 Familien oder 436 Seelen",
+     "event_en": "97 families or 436 souls"
+    },
+    {
+     "year": 1684,
+     "event_de": "Heinrich I. kauft das Freigut mittleren Theils um 4730 Mk.",
+     "event_en": "Heinrich I. buys the middle Freigut for 4730 marks"
+    },
+    {
+     "year": 1738,
+     "event_de": "Graf Heinrich XXIV. kauft das Freigut oberen Theils um 5500 Mk.",
+     "event_en": "Count Heinrich XXIV. buys the upper Freigut for 5500 marks"
+    },
+    {
+     "year": 1753,
+     "event_de": "Graf Heinrich VI. kauft das Freigut unteren Theils um 5600 Mk.",
+     "event_en": "Count Heinrich VI. buys the lower Freigut for 5600 marks"
+    },
+    {
+     "year": 1790,
+     "event_de": "bis 1827 sieben Brände im Ort",
+     "event_en": "seven fires in the village up to 1827"
+    },
+    {
+     "year": 1838,
+     "event_de": "Blitzschlag in den Turm (21. August)",
+     "event_en": "lightning strikes the tower (21 August)"
+    },
+    {
+     "year": 1852,
+     "event_de": "zwei Brände",
+     "event_en": "two fires"
+    },
+    {
+     "year": 1854,
+     "event_de": "beide Ortsteile bilden nach neuer Gemeindeordnung eine Amtsgemeinde",
+     "event_en": "the two parts form one municipality under the new Gemeindeordnung"
+    }
+   ],
+   "persons": [
+    "Heinrich I.",
+    "Heinrich VI.",
+    "Heinrich XXIV.",
+    "Sigismund v. Wolframsdorf",
+    "Christof v. Kaufungen",
+    "Christof v. Römer",
+    "Cunz v. Wolframsdorf",
+    "Christoph Arnold"
+   ],
+   "summary_de": "Größtes und längstes Dorf des Landes im Leubatal, fünftgrößter Ort mit 2135 Einwohnern, geteilt in Unter- und Oberdorf. Der Artikel behandelt die früheren drei Freigüter, Kirche (Filial von Naitschau, eingekircht Göttendorf und Hirschbach), Schule mit 388 Kindern, die Weberei und Kattunfabrikation mit 399 Webermeistern sowie die Flur von 3920 Morgen und das starke Bevölkerungswachstum seit 1647.",
+   "summary_en": "The largest and longest village of the principality, in the Leuba valley, fifth by population with 2135 inhabitants and divided into lower and upper village. The article covers the former three Freigüter, the church (a filial of Naitschau, with Göttendorf and Hirschbach attached), the school with 388 children, weaving and calico production with 399 master weavers, and the 3920 Morgen of land and the strong population growth since 1647.",
+   "notes": "Kurmühle und Hungriger Wolf stehen im Register unter S. 642 (Artikelbeginn); die Mühlen werden im Text S. 644 aufgezählt. 1864: 2142 Seelen, 1818: 1500 (S. 645); Weberei 1818: 80 Webermeister mit 150 Stühlen."
+  },
+  {
+   "id": "hirschbach",
+   "name": "Hirschbach",
+   "start": {
+    "page": "645",
+    "block": "b2"
+   },
+   "end": {
+    "page": "646",
+    "block": "b1"
+   },
+   "landestheil": "Schleiz",
+   "type_verbatim": "kleiner, einsamer, vom Walde umgrenzter, vom Weltverkehr abgeschlossener Ort",
+   "type": "Dorf",
+   "wuestung": false,
+   "dialect_form": "Hirschbach",
+   "location": {
+    "verbatim": "1/4 Stunde SW. von Langenwetzendorf, zwischen Göttendorf und Mehla (Greiz), im niederböhmsdorfer Forste",
+    "relative_to": "Langenwetzendorf",
+    "distance_hours": 0.25,
+    "direction": "SW"
+   },
+   "parish": {
+    "status": "eingepfarrt",
+    "church_of": "Langenwetzendorf",
+    "verbatim": "schult, kircht und begräbt nach Langenwetzendorf (ein Haus nach Hohenleuben)"
+   },
+   "school": {
+    "exists": false
+   },
+   "houses": 14,
+   "inhabitants": 99,
+   "occupations": {
+    "Bauern": 3,
+    "Feldhäusler": 3,
+    "Taglöhner": 1,
+    "Webermeister": 10
+   },
+   "crafts": {
+    "Schneider": 1
+   },
+   "flur_morgen": 188.25,
+   "flur_verbatim": "188 1/4 Morgen",
+   "soil": "wenig körnerreicher Boden",
+   "livestock": {
+    "Pferde": 1,
+    "Rinder": 18,
+    "Schweine": 16,
+    "Ziegen": 12,
+    "Bienenstöcke": 6
+   },
+   "municipal_finances": {
+    "verbatim": "Die kleine Gemeinde besitzt weder Vermögen noch Schulden und hat sehr wenige Bedürfnisse."
+   },
+   "subplaces": [
+    {
+     "name": "Kressenhaus",
+     "kind": "Einzelhof",
+     "page": "646",
+     "note": "Wohnhaus des Kresse aus dem Dreißigjährigen Krieg"
+    }
+   ],
+   "persons": [
+    "Kresse"
+   ],
+   "summary_de": "Kleiner, vom Wald umgebener Ort mit 14 Privathäusern und 99 Seelen, der nach Langenwetzendorf pfarrt, schult und begräbt. Nährquellen sind Feldbau und Weberei (10 Webermeister); die Flur umfasst 188 1/4 Morgen. Erwähnt werden die späte Entstehung nach 1647, die Gründungssage und das Kressenhaus.",
+   "summary_en": "Small forest-ringed hamlet of 14 private houses and 99 souls, tied to Langenwetzendorf for church, school and burial. Livelihood came from farming and weaving (10 master weavers); the land measures 188 1/4 Morgen. The article mentions its late origin after 1647, a founding legend, and the Kressenhaus.",
+   "notes": "Rinder: im Druck 18 R. (Rinder); die Transkription hat 18 K. (Lesefehler, am Faksimile S. 645 geprüft)."
+  },
+  {
+   "id": "goettendorf",
+   "name": "Göttendorf",
+   "start": {
+    "page": "646",
+    "block": "b2"
+   },
+   "end": {
+    "page": "647",
+    "block": "b1"
+   },
+   "landestheil": "Schleiz",
+   "type_verbatim": "kleines Schuldorf",
+   "type": "Dorf",
+   "wuestung": false,
+   "historic_forms": [
+    {
+     "form": "Geutendorf",
+     "year": 1533
+    },
+    {
+     "form": "Göttendorf",
+     "year": 1647
+    }
+   ],
+   "dialect_form": "Kittendorf",
+   "first_mention_year": 1533,
+   "location": {
+    "verbatim": "an der Straße von Zeulenroda nach Greiz, oberhalb Langenwetzendorf, am Krausenbach in einer Hochmulde",
+    "relative_to": "Langenwetzendorf"
+   },
+   "parish": {
+    "status": "eingepfarrt",
+    "church_of": "Langenwetzendorf",
+    "verbatim": "kircht und begräbt seit alter Zeit nach Langenwetzendorf"
+   },
+   "school": {
+    "exists": true,
+    "pupils": 71
+   },
+   "houses": 39,
+   "inhabitants": 287,
+   "occupations": {
+    "Bauern": 12,
+    "Häusler": 26,
+    "Taglöhner": 2,
+    "Dienstboten": 28,
+    "Weber": 37,
+    "Strumpfwirker": 7,
+    "Kapitalisten": 4,
+    "Almosener": 2
+   },
+   "crafts": {
+    "Maurer": 2,
+    "Schuhmacher": 2,
+    "Fleischer": 1,
+    "Wagner": 1,
+    "Ziegler": 1,
+    "Zimmermann": 1
+   },
+   "flur_morgen": 1026.67,
+   "flur_verbatim": "1026 2/3 Morgen",
+   "livestock": {
+    "Pferde": 8,
+    "Rinder": 114,
+    "Schafe": 17,
+    "Schweine": 53,
+    "Ziegen": 36,
+    "Gänse": 60,
+    "Bienenstöcke": 11
+   },
+   "municipal_finances": {
+    "verbatim": "Die Gemeinde hat als engere einen Grundbesitz von 4000 Thlr., als weitere 1200 Thlr. Schulden (vom Schulbau) und eine jährliche Ausgabe von 130 Thlr.",
+    "assets_thaler": 4000,
+    "debts_thaler": 1200,
+    "expenditure_thaler": 130
+   },
+   "facilities": [
+    "Schule",
+    "Gemeindehaus",
+    "Wirthshäuser (zwei private)",
+    "Ziegelei"
+   ],
+   "events": [
+    {
+     "year": 1647,
+     "event_de": "Amtsacten nennen keine Mannschaft mehr (Kriegsfolgen)",
+     "event_en": "official records list no men liable for service (war losses)"
+    },
+    {
+     "year": 1849,
+     "event_de": "ein Gasthof brennt ab",
+     "event_en": "one inn burns down"
+    },
+    {
+     "year": 1859,
+     "event_de": "Hagelwetter verheert die Flur",
+     "event_en": "hailstorm devastates the fields"
+    },
+    {
+     "year": 1865,
+     "event_de": "eigene Schule eingerichtet (mit Neuärgerniß)",
+     "event_en": "own school established (shared with Neuärgerniß)"
+    }
+   ],
+   "summary_de": "Kleines Schuldorf an der Straße Zeulenroda–Greiz mit 39 Privathäusern und 287 Seelen. Der Ort kircht nach Langenwetzendorf, erhielt 1865 eine eigene Schule (zugleich für Neuärgerniß), lebt von Handwerk, vor allem Weberei, neben Feldbau und hat eine Flur von 1026 2/3 Morgen. Brückner nimmt sorbischen Ursprung an und erwähnt Pflege Reichenfels als Landesherrschaft.",
+   "summary_en": "Small school village on the Zeulenroda–Greiz road with 39 private houses and 287 souls. It attends church at Langenwetzendorf, gained its own school in 1865 (also serving Neuärgerniß), lives mainly from crafts, chiefly weaving, besides farming, and has 1026 2/3 Morgen of land. Brückner assumes a Sorbian origin and notes that it belonged to the Pflege Reichenfels."
+  },
+  {
+   "id": "neuaergerniss",
+   "name": "Neuärgerniß",
+   "start": {
+    "page": "647",
+    "block": "b2"
+   },
+   "end": {
+    "page": "648",
+    "block": "b1"
+   },
+   "landestheil": "Schleiz",
+   "type_verbatim": "Forstei- und Weberdörfchen, ein junger, waldumschlossener Ort",
+   "type": "Dorf",
+   "wuestung": false,
+   "dialect_form": "Ärgerniß",
+   "location": {
+    "verbatim": "1/8 Stunde von Göttendorf und 1 Stunde SO. von Triebes, an der Straße von Greiz nach Zeulenroda",
+    "relative_to": "Triebes",
+    "distance_hours": 1,
+    "direction": "SO"
+   },
+   "elevation": {
+    "value": 1120,
+    "unit": "Fuß",
+    "verbatim": "1120 Fuß hoch gelegen"
+   },
+   "parish": {
+    "status": "eingepfarrt",
+    "church_of": "Triebes",
+    "verbatim": "erst 1825 dauernd nach Triebes eingepfarrt"
+   },
+   "school": {
+    "exists": false
+   },
+   "houses": 22,
+   "inhabitants": 175,
+   "occupations": {
+    "Webermeister": 21,
+    "Weber-Gesellen": 16
+   },
+   "crafts": {
+    "Maurer": 2,
+    "Tischler": 1,
+    "Ziegelbrenner": 1
+   },
+   "flur_morgen": 164.33,
+   "flur_verbatim": "164 1/3 Morgen",
+   "livestock": {
+    "Rinder": 20,
+    "Schweine": 12,
+    "Ziegen": 10,
+    "Bienenstöcke": 4
+   },
+   "municipal_finances": {
+    "verbatim": "Die Gemeinde ist außer dem Gemeindehause mit 134 Ruthen Feld ohne Besitz und ohne Vermögen, dagegen mit 234 Thlr. Schulden behaftet.",
+    "debts_thaler": 234
+   },
+   "facilities": [
+    "Forsthaus (Revierförster)",
+    "fürstliches Kammergut",
+    "Schenke",
+    "Gemeindehaus",
+    "Chausseehaus"
+   ],
+   "events": [
+    {
+     "year": 1727,
+     "event_de": "Graf Heinrich XVIII. legt ein herrschaftliches Vorwerksgebäude an",
+     "event_en": "Count Heinrich XVIII. builds a manorial farm building"
+    },
+    {
+     "year": 1734,
+     "event_de": "Forstei von Niederböhmsdorf hierher verlegt",
+     "event_en": "forestry office moved here from Niederböhmsdorf"
+    },
+    {
+     "year": 1825,
+     "event_de": "dauernd nach Triebes eingepfarrt",
+     "event_en": "permanently assigned to the parish of Triebes"
+    },
+    {
+     "year": 1839,
+     "event_de": "eigener geschulter Lehrer",
+     "event_en": "own trained teacher"
+    },
+    {
+     "year": 1854,
+     "event_de": "Zuweisung zum Landestheil Schleiz (17. Juni)",
+     "event_en": "transferred to the Landestheil Schleiz (17 June)"
+    },
+    {
+     "year": 1861,
+     "event_de": "zwei Häuser brennen ab",
+     "event_en": "two houses burn down"
+    }
+   ],
+   "persons": [
+    "Heinrich XVIII.",
+    "Heinrich XXV."
+   ],
+   "summary_de": "Junger Forst- und Weberort im Wald auf dem Landrücken zwischen Triebes und Leuba, 22 Häuser mit 175 Seelen. Entstanden nach 1727 durch ein herrschaftliches Vorwerk und die 1734 hierher verlegte Forstei, später mit einer Kolonie von Häuslern; Haupterwerb ist die Weberei (21 Meister). Kirchlich zu Triebes, schulisch seit 1865 zu Göttendorf; die Flur umfasst 164 1/3 Morgen.",
+   "summary_en": "Young forestry and weaving settlement in the woods on the ridge between the Triebes and Leuba, 22 houses with 175 souls. It arose after 1727 from a manorial farm and the forestry office moved here in 1734, later with a colony of cottagers; weaving (21 master weavers) is the chief livelihood. Church ties lead to Triebes, school ties since 1865 to Göttendorf; the land measures 164 1/3 Morgen.",
+   "notes": "Im Register als Neuärgerniss geführt. Fußnote S. 647: Neuärgerniß und Pöllwitz sind der Lage wegen in die Reihe der reichenfelser Orte aufgenommen. Früher zur Herrschaft Gera gehörig. Nach dem Artikel Göttendorf (S. 646) besuchen 28 Kinder von Neuärgerniß die Schule in Göttendorf."
+  },
+  {
+   "id": "poellwitz",
+   "name": "Pöllwitz",
+   "start": {
+    "page": "648",
+    "block": "b2"
+   },
+   "end": {
+    "page": "649",
+    "block": "b1"
+   },
+   "landestheil": "Schleiz",
+   "type_verbatim": "kleiner einzeiliger Ort ... bildet eine Forstei mit einem Forstgute",
+   "type": "Dorf",
+   "wuestung": false,
+   "historic_forms": [
+    {
+     "form": "Pedelwitz",
+     "year": null
+    }
+   ],
+   "dialect_form": "Pöllwitz",
+   "location": {
+    "verbatim": "dicht an der Ostseite des greizer Pfarrkirchdorfes Pöllwitz (Altpöllwitz), 4 Stunden ONO. von Schleiz",
+    "relative_to": "Schleiz",
+    "distance_hours": 4,
+    "direction": "ONO"
+   },
+   "parish": {
+    "status": "eingepfarrt",
+    "church_of": "Altpöllwitz",
+    "verbatim": "Neu- und Altpöllwitz sind in Kirchen- und Schulsachen seit alter Zeit eine Gemeinde"
+   },
+   "school": {
+    "exists": false,
+    "pupils": 15
+   },
+   "houses": 16,
+   "inhabitants": 137,
+   "occupations": {
+    "Häusler": 15,
+    "Oberförster": 1,
+    "Förster": 1,
+    "Forstgehilfe": 1,
+    "Almosener": 1
+   },
+   "crafts": {
+    "Weber": 9,
+    "Strumpfwirker": 3,
+    "Zimmerleute": 2,
+    "Fleischer": 1,
+    "Krämer": 1,
+    "Maurer": 1,
+    "Schmied": 1,
+    "Schuhmacher": 1
+   },
+   "flur_morgen": 99.5,
+   "flur_verbatim": "99¹/₂ Morgen (1647: 88²/₃ Morgen)",
+   "soil": "meist von mittlerer Ergiebigkeit",
+   "livestock": {
+    "Pferde": 1,
+    "Rinder": 30,
+    "Schweine": 12,
+    "Ziegen": 8
+   },
+   "municipal_finances": {
+    "verbatim": "Dieselbe hat weder Vermögen noch Schulden und nur eine Jahresausgabe von 15 Thlr.",
+    "expenditure_thaler": 15
+   },
+   "facilities": [
+    "Forstgut",
+    "Forsthaus",
+    "Forstwarthaus",
+    "Gemeindehaus",
+    "Privatwirthshaus",
+    "Schneidemühle",
+    "Anteil an der Feuerspritze in Altpöllwitz"
+   ],
+   "events": [
+    {
+     "year": 1647,
+     "event_de": "pöllwitzer Wald mit 5828 2/3 Acker angegeben",
+     "event_en": "Pöllwitz forest recorded at 5828 2/3 Acker"
+    }
+   ],
+   "persons": [
+    "Heinrich Siber",
+    "Ernst Ferd. Grünler"
+   ],
+   "summary_de": "Kleiner einzeiliger Waldort (Neupöllwitz) bei dem greizischen Pfarrdorf Altpöllwitz, mit Forstei und Forstgut: 16 Privathäuser, 137 Seelen. Der Ort entstand zur Beaufsichtigung des pöllwitzer Waldes; Kirche, Pfarrei und Schule stehen auf greizer Boden, Neupöllwitz schickt 15 Kinder zur Schule. Haupterwerb sind Waldarbeit, Weberei und Taglohn, die Flur umfasst 99 1/2 Morgen.",
+   "summary_en": "Small single-row forest settlement (Neupöllwitz) next to the Greiz parish village of Altpöllwitz, with a forestry office and estate: 16 private houses, 137 souls. It arose to supervise the Pöllwitz forest; church, parsonage and school lie on Greiz soil, and Neupöllwitz sends 15 children to school. Livelihoods are forest work, weaving and day labour; the land measures 99 1/2 Morgen.",
+   "notes": "Der Artikel beschreibt auch Kirche, Pfarrei (Kirchenbücher ab 1567, Kirchenvermögen 2500 Thlr., erster lutherischer Pfarrer Heinrich Siber, jetziger Ernst Ferd. Grünler der 18.) und Schule im greizischen Altpöllwitz. Einwohner 1861: 106. Flur 1647: 88 2/3, jetzt 99 1/2 Morgen (Brüche im Druck hochgestellt, daher bei der Prüfung nicht erkannt)."
+  },
+  {
+   "id": "niederboehmsdorf",
+   "name": "Niederböhmsdorf",
+   "start": {
+    "page": "649",
+    "block": "b2"
+   },
+   "end": {
+    "page": "650",
+    "block": "b1"
+   },
+   "landestheil": "Schleiz",
+   "type_verbatim": "Langdorf",
+   "type": "Dorf",
+   "wuestung": false,
+   "historic_forms": [
+    {
+     "form": "Behemsdorf",
+     "year": 1489
+    },
+    {
+     "form": "Behmsdorf",
+     "year": null
+    },
+    {
+     "form": "Böhmsdorf",
+     "year": null
+    },
+    {
+     "form": "Nidern Behmsdorf",
+     "year": 1533
+    },
+    {
+     "form": "Niederböhmsdorf",
+     "year": null
+    },
+    {
+     "form": "Niederböhmersdorf",
+     "year": null
+    }
+   ],
+   "dialect_form": "Viemersdorf",
+   "first_mention_year": 1489,
+   "location": {
+    "verbatim": "4 Stunden nordöstlich von Schleiz und 1/2 Stunde fast südlich von Triebes",
+    "relative_to": "Triebes",
+    "distance_hours": 0.5,
+    "direction": "S"
+   },
+   "parish": {
+    "status": "eingepfarrt",
+    "church_of": "Triebes",
+    "verbatim": "Der Ort ist nach Triebes gepfarrt"
+   },
+   "school": {
+    "exists": true,
+    "pupils": 68
+   },
+   "houses": 67,
+   "inhabitants": 430,
+   "occupations": {
+    "Bauern": 17,
+    "Häusler": 60,
+    "Hintersiedler": 26,
+    "Taglöhner": 15,
+    "Webermeister": 53,
+    "Kapitalisten": 2,
+    "Almosener": 10
+   },
+   "crafts": {
+    "Schuhmacher": 4,
+    "Schmiede": 2,
+    "Strumpfwirker": 2,
+    "Dachdecker": 1,
+    "Müller": 1,
+    "Schmied": 1,
+    "Ziegelbrenner": 1,
+    "Zimmermann": 1
+   },
+   "flur_morgen": 1195,
+   "flur_verbatim": "1195 Morgen",
+   "soil": "theils mager, theils naß und kalt, meist gering ergiebig",
+   "livestock": {
+    "Pferde": 5,
+    "Rinder": 175,
+    "Schweine": 82,
+    "Ziegen": 40,
+    "Bienenstöcke": 4
+   },
+   "municipal_finances": {
+    "verbatim": "besitzt außer 4 Teichen kein Vermögen, wohl aber circa 300 Thlr. Schulden. Ihre jährliche Ausgabe beläuft sich auf circa 200 Thlr.",
+    "debts_thaler": 300,
+    "expenditure_thaler": 200
+   },
+   "facilities": [
+    "Schule",
+    "Gemeindehaus",
+    "Reihenschank",
+    "Schenke (concessionirt)",
+    "Feuerspritze",
+    "Ziegelei",
+    "Windmühle (auf der Hart)"
+   ],
+   "events": [
+    {
+     "year": 1717,
+     "event_de": "43 Häuser",
+     "event_en": "43 houses"
+    },
+    {
+     "year": 1783,
+     "event_de": "50 Häuser",
+     "event_en": "50 houses"
+    },
+    {
+     "year": 1819,
+     "event_de": "einige Wohnhäuser brennen ab",
+     "event_en": "several dwelling houses burn down"
+    },
+    {
+     "year": 1848,
+     "event_de": "eine Scheune brennt ab",
+     "event_en": "a barn burns down"
+    },
+    {
+     "year": 1858,
+     "event_de": "eigene Schule gegründet (Schulhaus 1858 gebaut, 1859 eingeweiht)",
+     "event_en": "own school founded (school building erected 1858, opened 1859)"
+    },
+    {
+     "year": 1859,
+     "event_de": "Hagelwetter verheert die Flur",
+     "event_en": "hailstorm devastates the fields"
+    }
+   ],
+   "summary_de": "Hochgelegenes Langdorf südlich von Triebes mit 67 Privathäusern und 430 Einwohnern, geteilt in Ober- und Unterdorf, mit Rundgruppen um vier Terrassenteiche. Kirchlich zu Triebes, seit 1858 mit eigener Schule für 68 Kinder; die Einwohner leben überwiegend von der Weberei (53 Meister) neben Feldbau. Brückner hält den Ort nach Namen und Anlage für altsorbisch; die Flur umfasst 1195 Morgen.",
+   "summary_en": "Elevated linear village south of Triebes with 67 private houses and 430 inhabitants, divided into upper and lower village, with round clusters of houses around four terraced ponds. It belongs to the parish of Triebes and has had its own school for 68 children since 1858; most inhabitants live from weaving (53 masters) besides farming. Brückner judges the village to be of old Sorbian origin from its name and layout; the land measures 1195 Morgen.",
+   "notes": "Fußnote S. 649: 1864 wurden 76 Häuser incl. Schule und Gemeindehaus angegeben; Text: jetzt 69 bewohnte Gebäude. Einwohner 1861: 378."
+  },
+  {
+   "id": "triebes",
+   "name": "Triebes",
+   "start": {
+    "page": "650",
+    "block": "b2"
+   },
+   "end": {
+    "page": "654",
+    "block": "b4"
+   },
+   "landestheil": "Schleiz",
+   "type_verbatim": "großes Pfarr- und Kirchdorf",
+   "type": "Dorf",
+   "wuestung": false,
+   "historic_forms": [
+    {
+     "form": "Trebes",
+     "year": 1533
+    },
+    {
+     "form": "Tribes",
+     "year": null
+    }
+   ],
+   "dialect_form": "Triebs",
+   "first_mention_year": 1533,
+   "location": {
+    "verbatim": "an der Triebes, 4 Stunden nordöstlich von Schleiz, genau in der Mitte zwischen Hohenleuben und Zeulenroda",
+    "relative_to": "Schleiz",
+    "distance_hours": 4,
+    "direction": "NO"
+   },
+   "parish": {
+    "status": "Pfarrort",
+    "verbatim": "großes Pfarr- und Kirchdorf; eingepfarrt Niederböhmsdorf, Weißendorf, Neuärgerniß"
+   },
+   "school": {
+    "exists": true,
+    "pupils": 313
+   },
+   "houses": 213,
+   "inhabitants": 1760,
+   "occupations": {
+    "Bauern": 27,
+    "Häusler": 175,
+    "Webermeister": 300,
+    "Taglöhner": 21,
+    "Dienstboten": 27,
+    "Kapitalisten": 13,
+    "Almosener": 15
+   },
+   "crafts": {
+    "Schuhmacher": 7,
+    "Schneider": 6,
+    "Bäcker": 4,
+    "Fleischer": 4,
+    "Tischler": 3,
+    "Böttcher": 2,
+    "Maurer": 2,
+    "Zimmerer": 2,
+    "Brauer": 1,
+    "Posamentirer": 1,
+    "Schlosser": 1,
+    "Schmied": 1,
+    "Strumpfwirker": 1,
+    "Ziegelbrenner": 1
+   },
+   "flur_morgen": 2609.25,
+   "flur_verbatim": "2609 1/4 Morgen",
+   "soil": "nicht von sehr fruchtbarem, doch auch nicht von undankbarem Ertrage",
+   "livestock": {
+    "Pferde": 17,
+    "Rinder": 243,
+    "Schafe": 4,
+    "Schweine": 184,
+    "Ziegen": 135,
+    "Gänse": 300,
+    "Bienenstöcke": 6
+   },
+   "municipal_finances": {
+    "verbatim": "besitzt nur ein geringes Grundvermögen, dagegen 2800 Thlr. Schulden. Ihre Jahresausgabe beträgt gegen 1100 Thlr.",
+    "debts_thaler": 2800,
+    "expenditure_thaler": 1100
+   },
+   "facilities": [
+    "Kirche",
+    "Pfarrei",
+    "Schulen (zwei)",
+    "Gemeindehaus",
+    "Brauhaus",
+    "Spritzenhaus",
+    "Rittergut",
+    "Gasthöfe (goldener Löwe, goldener Kranich)",
+    "Reihenschank",
+    "Schenken (zwei)",
+    "Ziegelei",
+    "Feuerspritze",
+    "Brauhäuser (zwei)",
+    "Schießhaus",
+    "Friedhöfe (drei)"
+   ],
+   "subplaces": [
+    {
+     "name": "Kranich",
+     "kind": "Weiler",
+     "page": "654",
+     "note": "isolierte Häusergruppe im Westen; ursprünglich Wirthshaus mit dem Kranich im Schilde; 8 Häuser, 74 Einwohner (meist Weber)"
+    },
+    {
+     "name": "Zscherlich",
+     "kind": "Weiler",
+     "page": "654",
+     "note": "isolierte Häusergruppe im Süden; 2 Bauernhöfe mit 10 Einwohnern"
+    },
+    {
+     "name": "Teichmühle",
+     "kind": "Mühle",
+     "page": "652",
+     "note": "Mahl- und Schneidemühle, ehemals Rittergutsmühle"
+    },
+    {
+     "name": "Sandmühle",
+     "kind": "Mühle",
+     "page": "652",
+     "note": "Mahl- und Schneidemühle"
+    }
+   ],
+   "events": [
+    {
+     "year": 1481,
+     "event_de": "Georg v. Maltitz im Besitz des Rittergutes",
+     "event_en": "Georg v. Maltitz holds the manor"
+    },
+    {
+     "year": 1615,
+     "event_de": "Triebes erster eigener Pfarrer (Joseph Kühna) nach Abspaltung von Hohenleuben",
+     "event_en": "first own parish priest (Joseph Kühna) after separation from Hohenleuben"
+    },
+    {
+     "year": 1668,
+     "event_de": "Rittergut und 7 Bauernhöfe brennen ab",
+     "event_en": "manor and 7 farms burn down"
+    },
+    {
+     "year": 1681,
+     "event_de": "Rittergut an Heinrich Reuß I. verkauft um 10,721 Mk.",
+     "event_en": "manor sold to Heinrich Reuß I. for 10,721 marks"
+    },
+    {
+     "year": 1716,
+     "event_de": "Kirche an Stelle der alten Kapelle erbaut (bis 1717)",
+     "event_en": "church built on the site of the old chapel (until 1717)"
+    },
+    {
+     "year": 1773,
+     "event_de": "6 Häuser und 4 Scheunen brennen ab",
+     "event_en": "6 houses and 4 barns burn down"
+    },
+    {
+     "year": 1775,
+     "event_de": "neue Schule außerhalb des Friedhofs erbaut",
+     "event_en": "new school built outside the churchyard"
+    },
+    {
+     "year": 1847,
+     "event_de": "6 Häuser brennen ab",
+     "event_en": "6 houses burn down"
+    },
+    {
+     "year": 1859,
+     "event_de": "Hagelwetter schädigt die Flur",
+     "event_en": "hailstorm damages the fields"
+    }
+   ],
+   "persons": [
+    "Georg v. Maltitz",
+    "Hans v. Dobeneck",
+    "Ernst Metsch",
+    "Heinrich Reuß I.",
+    "Joseph Kühna",
+    "Christoph Kittelmann"
+   ],
+   "summary_de": "Großes Pfarr- und Kirchdorf an der Triebes mit 213 Privathäusern und 1760 Einwohnern, zwischen Hohenleuben und Zeulenroda; mit Kranich und Zscherlich. Brückner beschreibt das Rittergut (seit 1681 bei Heinrich Reuß I.), die Kirche von 1716/17, die Abspaltung der Pfarrei von Hohenleuben 1613 bis 1615, die Schule mit 313 Kindern und die Weberei mit etwa 300 Meistern. Die Flur umfasst 2609 1/4 Morgen.",
+   "summary_en": "Large parish and church village on the Triebes stream with 213 private houses and 1760 inhabitants, midway between Hohenleuben and Zeulenroda; Kranich and Zscherlich belong to it. Brückner describes the manor (with Heinrich Reuß I. since 1681), the church of 1716/17, the separation of the parish from Hohenleuben in 1613–1615, the school with 313 children and weaving with about 300 masters. The land measures 2609 1/4 Morgen.",
+   "notes": "Einwohner 1861: 1640. Häuserzahl 1717: 71, 1789: 122, 1826: 130. Zu Triebes gehören Kranich und Zscherlich (S. 654, eigene Absätze). Weber 1842: 156, jetzt an 300."
+  },
+  {
+   "id": "weissendorf",
+   "name": "Weißendorf",
+   "start": {
+    "page": "654",
+    "block": "b5"
+   },
+   "end": {
+    "page": "655",
+    "block": "b1"
+   },
+   "landestheil": "Schleiz",
+   "type_verbatim": "Schul- und Marktort",
+   "type": "Dorf",
+   "wuestung": false,
+   "dialect_form": "Wassendorf",
+   "location": {
+    "verbatim": "1/4 Stunde SO. von Triebes, auf dem die Weida und Triebes scheidenden hohen Landrücken",
+    "relative_to": "Triebes",
+    "distance_hours": 0.25,
+    "direction": "SO"
+   },
+   "parish": {
+    "status": "eingepfarrt",
+    "church_of": "Triebes",
+    "verbatim": "Der Ort pfarrt und begräbt nach Triebes"
+   },
+   "school": {
+    "exists": true,
+    "pupils": 80
+   },
+   "houses": 68,
+   "inhabitants": 442,
+   "occupations": {
+    "Bauern": 14,
+    "Häusler": 50,
+    "Taglöhner": 4,
+    "Dienstboten": 20,
+    "Webermeister": 56,
+    "Kapitalisten": 3,
+    "Almosener": 1,
+    "Thierarzt": 1
+   },
+   "crafts": {
+    "Maurer": 4,
+    "Schneider": 3,
+    "Zimmerer": 3,
+    "Strumpfwirker": 2,
+    "Bäcker": 1,
+    "Fleischer": 1,
+    "Schmied": 1,
+    "Schuhmacher": 1,
+    "Wirth": 1,
+    "Viehhändler": 1
+   },
+   "flur_morgen": 1414.5,
+   "flur_verbatim": "1414 1/2 Morgen",
+   "soil": "von mittlerem Ertrage",
+   "livestock": {
+    "Pferde": 9,
+    "Rinder": 138,
+    "Schafe": 15,
+    "Schweine": 99,
+    "Ziegen": 61,
+    "Gänse": 200,
+    "Bienenstöcke": 35
+   },
+   "municipal_finances": {
+    "verbatim": "Die Gemeinde besitzt kein Vermögen, wohl aber 350 Thlr. Schulden. Ihre Jahresausgabe beträgt über 300 Thlr.",
+    "debts_thaler": 350,
+    "expenditure_thaler": 300
+   },
+   "facilities": [
+    "Schule",
+    "Gemeindehaus",
+    "Spritzenhaus",
+    "Wirthshaus",
+    "Feuerspritze",
+    "Thierarzt",
+    "Jahrmärkte (zwei)",
+    "Rittergut (Herrnhaus nicht mehr bewohnbar)"
+   ],
+   "subplaces": [
+    {
+     "name": "Sichelmühle",
+     "kind": "Mühle",
+     "page": "655",
+     "note": "Sichel- oder Holzmühle mit Oel- und Schneidemühle an der Weida; vordem Rittergutsmühle"
+    },
+    {
+     "name": "Schafberg",
+     "kind": "Weiler",
+     "page": "654",
+     "note": "isolierter Häusertrupp nach Triebes zu"
+    },
+    {
+     "name": "Bisselmühle",
+     "kind": "Mühle",
+     "page": "655",
+     "note": "auf weimarischem Boden; nur der Backofen steht auf diesseitigem Gebiet"
+    }
+   ],
+   "events": [
+    {
+     "year": 1495,
+     "event_de": "Rittergut um 1800 Gulden an die v. Dobeneck",
+     "event_en": "manor sold to the v. Dobeneck for 1800 gulden"
+    },
+    {
+     "year": 1599,
+     "event_de": "Rittergut an die v. Kaufungen",
+     "event_en": "manor passes to the v. Kaufungen"
+    },
+    {
+     "year": 1638,
+     "event_de": "Kirmesmarkt unter Familie v. Kaufungen erworben",
+     "event_en": "Kirmes fair acquired under the v. Kaufungen family"
+    },
+    {
+     "year": 1750,
+     "event_de": "Rittergut an den Landesherrn Reuß-Greiz (um 1750)",
+     "event_en": "manor passes to the lord of Reuss-Greiz (c. 1750)"
+    },
+    {
+     "year": 1780,
+     "event_de": "Rittergut bald nach 1780 von den Ortsbauern gekauft",
+     "event_en": "manor bought by the village farmers shortly after 1780"
+    },
+    {
+     "year": 1858,
+     "event_de": "eigene Schule und Schulhaus",
+     "event_en": "own school and school building"
+    }
+   ],
+   "persons": [
+    "Christoph Kittelmann",
+    "v. Brandenstein"
+   ],
+   "summary_de": "Schul- und Marktort auf dem Landrücken zwischen Weida und Triebes, 68 Privathäuser, 442 Einwohner; kirchlich zu Triebes, seit 1858 eigene Schule mit 80 Kindern. Das Rittergut wechselte oft den Besitzer und kam bald nach 1780 an die Ortsbauern; Haupterwerb ist neben Feldbau die Weberei (56 Webermeister). Zwei Jahrmärkte, Flur von 1414 1/2 Morgen mit zahlreichen Flurnamen; der Name gilt als slawisch.",
+   "summary_en": "School and market village on the ridge between the Weida and Triebes, 68 private houses, 442 inhabitants; it belongs to the parish of Triebes and has had its own school for 80 children since 1858. The manor changed hands often and passed to the village farmers shortly after 1780; besides farming, weaving (56 master weavers) is the chief livelihood. Two annual fairs; the land measures 1414 1/2 Morgen with many field names, and the name is regarded as Slavic.",
+   "notes": "Einwohner 1861: 418. Gänse: im Druck 'über 200 G.'. Häuserzahl 1717: 26, 1789: 40, jetzt 71."
+  },
+  {
+   "id": "langenwolschendorf",
+   "name": "Langenwolschendorf",
+   "start": {
+    "page": "655",
+    "block": "b2"
+   },
+   "end": {
+    "page": "659",
+    "block": "b1"
+   },
+   "landestheil": "Schleiz",
+   "type_verbatim": "langgestrecktes stattliches Kirch-, Jahrmarkts- und Grenzdorf",
+   "type": "Dorf",
+   "wuestung": false,
+   "historic_forms": [
+    {
+     "form": "Wolschindorf",
+     "year": 1335
+    },
+    {
+     "form": "Wolschindorf",
+     "year": 1415
+    },
+    {
+     "form": "Wolfersdorf",
+     "year": null
+    },
+    {
+     "form": "Langenwolschindorf",
+     "year": null
+    },
+    {
+     "form": "Wolfsdorf",
+     "year": 1533
+    },
+    {
+     "form": "Wolschendorf",
+     "year": 1533
+    },
+    {
+     "form": "Langenwolschendorf",
+     "year": 1594
+    },
+    {
+     "form": "Langenwolfersdorf",
+     "year": 1594
+    },
+    {
+     "form": "Langenwolfersdorf",
+     "year": 1647
+    }
+   ],
+   "dialect_form": "Langenwolschendorf",
+   "first_mention_year": 1335,
+   "location": {
+    "verbatim": "an der Straße von Zeulenroda nach Schleiz, von jenem Punkte 1/2 Stunde SW., von diesem 2 1/2 Stunde NO. entfernt",
+    "relative_to": "Zeulenroda",
+    "distance_hours": 0.5,
+    "direction": "SW"
+   },
+   "parish": {
+    "status": "Kirchdorf",
+    "church_of": "Zeulenroda",
+    "verbatim": "Filial von Zeulenroda, bildet mit Kleinwolschendorf eine Parochie"
+   },
+   "school": {
+    "exists": true,
+    "pupils": 143
+   },
+   "houses": 94,
+   "inhabitants": 698,
+   "occupations": {
+    "Bauern": 32,
+    "Häusler": 58,
+    "Taglöhner": 14,
+    "Dienstboten": 30,
+    "Kapitalisten": 7,
+    "Almosener": 3
+   },
+   "crafts": {
+    "Maurer": 21,
+    "Strumpfwirker": 16,
+    "Zimmerleute": 12,
+    "Weber": 8,
+    "Schlosser": 3,
+    "Schneider": 3,
+    "Krämer": 3,
+    "Brauer": 2,
+    "Schmiede": 2,
+    "Schuhmacher": 2,
+    "Tischler": 2,
+    "Wagner": 2,
+    "Bäcker": 1,
+    "Böttcher": 1,
+    "Dachdecker": 1,
+    "Drechsler": 1,
+    "Müller": 1
+   },
+   "flur_morgen": 2615.33,
+   "flur_verbatim": "2615 1/3 Morgen",
+   "soil": "4/7 gut, 2/7 mittel, 1/7 gering",
+   "livestock": {
+    "Pferde": 14,
+    "Rinder": 281,
+    "Schafe": 305,
+    "Schweine": 116,
+    "Ziegen": 68,
+    "Gänse": 250,
+    "Bienenstöcke": 10
+   },
+   "municipal_finances": {
+    "verbatim": "einen geringen, bloß in einem Dorfanger, in Wegen und 4 Teichen bestehenden Grundbesitz, dagegen 220 Thlr. Schulden und an 350 Thlr. Jahresbedarf",
+    "debts_thaler": 220,
+    "expenditure_thaler": 350
+   },
+   "facilities": [
+    "Kammergut",
+    "Kirche",
+    "Schule",
+    "Gemeindehaus",
+    "Spritzenhaus",
+    "Privatgasthof",
+    "Schenken (drei)",
+    "Brauereien (zwei)",
+    "Windmühlen (zwei)",
+    "Feuerspritze",
+    "Leseverein",
+    "Jahr-, Vieh- und Leinwandmärkte (zwei)",
+    "Forstadjunct",
+    "Chirurg",
+    "Gensd'arm"
+   ],
+   "events": [
+    {
+     "year": 1415,
+     "event_de": "Urkunde deutet auf eine schon im 14. Jahrhundert gegründete Kapelle",
+     "event_en": "a charter points to a chapel founded already in the 14th century"
+    },
+    {
+     "year": 1435,
+     "event_de": "Vergleich über den Decem zwischen Zeulenroda und Langenwolschendorf",
+     "event_en": "settlement on the tithe between Zeulenroda and Langenwolschendorf"
+    },
+    {
+     "year": 1501,
+     "event_de": "Heinrich d. ä. von Gera kauft die Güter Friedrichs v. Quingenberg um 320 Gülden",
+     "event_en": "Heinrich the Elder of Gera buys the estates of Friedrich v. Quingenberg for 320 gulden"
+    },
+    {
+     "year": 1581,
+     "event_de": "erster lutherischer Diaconus Martin Strauß",
+     "event_en": "first Lutheran deacon Martin Strauß"
+    },
+    {
+     "year": 1642,
+     "event_de": "Brand: 8 Bauernhöfe, Kirche und Schule (1. Juli)",
+     "event_en": "fire: 8 farms, church and school (1 July)"
+    },
+    {
+     "year": 1719,
+     "event_de": "Brand: 5 Bauernhöfe, Kirche und Schule (4. August)",
+     "event_en": "fire: 5 farms, church and school (4 August)"
+    },
+    {
+     "year": 1721,
+     "event_de": "Kirche auf der Anhöhe neu erbaut",
+     "event_en": "church rebuilt on the hill"
+    },
+    {
+     "year": 1830,
+     "event_de": "jetziges Schulhaus erbaut",
+     "event_en": "present school building erected"
+    },
+    {
+     "year": 1841,
+     "event_de": "Schulkasse aus freiwilligen Beiträgen eingerichtet",
+     "event_en": "school fund established from voluntary contributions"
+    },
+    {
+     "year": 1856,
+     "event_de": "neuer ummauerter Friedhof",
+     "event_en": "new walled cemetery"
+    },
+    {
+     "year": 1869,
+     "event_de": "Brand: 2 Häuser (7. September)",
+     "event_en": "fire: 2 houses (7 September)"
+    }
+   ],
+   "persons": [
+    "Heinrich XLII.",
+    "Heinrich LXII.",
+    "Heinrich I.",
+    "F. Joachim v. Kospod",
+    "Friedrich v. Quingenberg",
+    "C. Gottlob Ludwig",
+    "Martin Strauß"
+   ],
+   "summary_de": "Langgestrecktes Kirch-, Jahrmarkts- und Grenzdorf an der Straße Zeulenroda–Schleiz mit 94 Privathäusern und 698 Einwohnern, geteilt in Ober- und Unterdorf. Brückner behandelt die beiden früheren Rittergüter (das obere seit 1685/89 Kammergut), die Filialkirche von Zeulenroda mit dem gemeinsamen Diaconat für Lang- und Kleinwolschendorf, die Dorflinde mit dem Gedicht Heinrichs XLII., Schule mit 143 Kindern, Gewerbe und die Flur von 2615 1/3 Morgen.",
+   "summary_en": "Elongated church, fair and border village on the Zeulenroda–Schleiz road with 94 private houses and 698 inhabitants, divided into upper and lower village. Brückner covers the two former manors (the upper one a Kammergut from 1685/89), the filial church of Zeulenroda with the deacon shared with Kleinwolschendorf, the village linden with the poem of Heinrich XLII., the school with 143 children, trades, and the 2615 1/3 Morgen of land.",
+   "notes": "Einwohner 1861: 597. Gänse/Livestock-Abkürzungen aufgelöst. Der Artikel enthält die vier Strophen der Lindeninschrift (b2–b4 auf S. 656) und eine Namensdeutung Wolschendorf/Wolfersdorf (S. 659)."
+  },
+  {
+   "id": "kleinwolschendorf",
+   "name": "Kleinwolschendorf",
+   "start": {
+    "page": "659",
+    "block": "b2"
+   },
+   "end": {
+    "page": "661",
+    "block": "b1"
+   },
+   "landestheil": "Schleiz",
+   "type_verbatim": "kleines, aber wohlhäbiges Kirch- und Grenzdorf",
+   "type": "Dorf",
+   "wuestung": false,
+   "historic_forms": [
+    {
+     "form": "Wolschendorf",
+     "year": null
+    },
+    {
+     "form": "Kleinwolschindorf",
+     "year": null
+    },
+    {
+     "form": "Kleinwolfersdorf",
+     "year": 1647
+    }
+   ],
+   "dialect_form": "Kleinwolschendorf",
+   "location": {
+    "verbatim": "1/2 Stunde westlich von Zeulenroda und 1/2 Stunde nördlich von Langenwolschendorf",
+    "relative_to": "Zeulenroda",
+    "distance_hours": 0.5,
+    "direction": "W"
+   },
+   "parish": {
+    "status": "Kirchdorf",
+    "church_of": "Zeulenroda",
+    "verbatim": "kirchlich stets an Zeulenroda gebunden; Parochie mit Langenwolschendorf"
+   },
+   "school": {
+    "exists": false,
+    "pupils": 40
+   },
+   "houses": 28,
+   "inhabitants": 206,
+   "occupations": {
+    "Bauern": 22,
+    "Häusler": 6,
+    "Taglöhner": 1,
+    "Dienstboten": 14,
+    "Kapitalisten": 8
+   },
+   "crafts": {
+    "Strumpfwirker": 4,
+    "Zimmerleute": 3,
+    "Tischler": 1,
+    "Müller": 2,
+    "Ziegler": 1
+   },
+   "flur_morgen": 1498.4,
+   "flur_verbatim": "1498 2/5 Morgen",
+   "soil": "meist mittelmäßig ergiebig, aber gut bewirthet",
+   "livestock": {
+    "Pferde": 5,
+    "Rinder": 197,
+    "Schafe": 68,
+    "Schweine": 91,
+    "Ziegen": 19,
+    "Gänse": 200,
+    "Bienenstöcke": 21
+   },
+   "municipal_finances": {
+    "verbatim": "einen aus Viehtriften, Wegen, 5 Teichen und einigen Wiesen bestehenden Grundbesitz von 109 Morgen, im Werthe von 650 Thlr., daneben 200 Thlr. Schulden und 60 Thlr. Jahresausgabe",
+    "assets_thaler": 650,
+    "debts_thaler": 200,
+    "expenditure_thaler": 60
+   },
+   "facilities": [
+    "Kirche",
+    "Brauhaus",
+    "Hirtenhaus",
+    "Spritzenhaus",
+    "Pachtschenke",
+    "Feuerspritze",
+    "Ziegelei",
+    "Mahl- und Schneidemühlen (zwei)"
+   ],
+   "subplaces": [
+    {
+     "name": "Riedelsmühle",
+     "kind": "Mühle",
+     "page": "660",
+     "note": "Mahl- und Schneidemühle an der Weida, im W. des Dorfes; bei ihr standen vordem Eisenhämmer"
+    },
+    {
+     "name": "Starkenmühle",
+     "kind": "Mühle",
+     "page": "660",
+     "note": "Mahl- und Schneidemühle an der Weida, im NO."
+    }
+   ],
+   "events": [
+    {
+     "year": 1415,
+     "event_de": "Kapelle bezeugt",
+     "event_en": "chapel attested"
+    },
+    {
+     "year": 1723,
+     "event_de": "Brand zerstört Kirche und einen großen Teil der Bauernhöfe",
+     "event_en": "fire destroys the church and many farms"
+    },
+    {
+     "year": 1726,
+     "event_de": "Kirche neu erbaut",
+     "event_en": "church rebuilt"
+    },
+    {
+     "year": 1846,
+     "event_de": "Kirche repariert",
+     "event_en": "church repaired"
+    }
+   ],
+   "summary_de": "Kleines, aber wohlhabendes Kirch- und Grenzdorf westlich von Zeulenroda mit 28 Privathäusern und 206 Seelen; die Bauernhöfe liegen ringförmig um einen Teich und die Kirche. Kirchlich Filial von Zeulenroda (Parochie mit Langenwolschendorf), Schule in Langenwolschendorf (etwa 40 Kinder). Die Einwohner sind größtenteils Bauern ohne Frohnlasten; die Flur umfasst 1498 2/5 Morgen, zum Ort gehören Riedelsmühle und Starkenmühle.",
+   "summary_en": "Small but prosperous church and border village west of Zeulenroda with 28 private houses and 206 souls; the farms lie in a ring around a pond and the church. Ecclesiastically a filial of Zeulenroda (one parish with Langenwolschendorf), with its school at Langenwolschendorf (about 40 children). Most inhabitants are farmers free of labour dues; the land measures 1498 2/5 Morgen, and the Riedelsmühle and Starkenmühle belong to the village.",
+   "notes": "Einwohner 1861: 202. Der Ort schult nach Langenwolschendorf und trägt 1/3 der Schulbaukosten; pupils (circa 40) = Kinder, die dort zur Schule gehen."
+  },
+  {
+   "id": "pflege-saalburg",
+   "name": "Pflege Saalburg",
+   "start": {
+    "page": "661",
+    "block": "b2"
+   },
+   "end": {
+    "page": "662",
+    "block": "b3"
+   },
+   "landestheil": "Schleiz",
+   "type_verbatim": "Pflege (Amt Saalburg)",
+   "type": "Sonstiges",
+   "wuestung": false,
+   "inhabitants": 3187,
+   "census_year": 1867,
+   "subplaces": [
+    {
+     "name": "Saalburg",
+     "kind": "Stadt",
+     "page": "661",
+     "note": "alte Pflege Saalburg"
+    },
+    {
+     "name": "Gräfenwarth",
+     "kind": "Dorf",
+     "page": "661",
+     "note": "alte Pflege Saalburg"
+    },
+    {
+     "name": "Kulm",
+     "kind": "Dorf",
+     "page": "661",
+     "note": "alte Pflege Saalburg"
+    },
+    {
+     "name": "Bernsdorf",
+     "kind": "Dorf",
+     "page": "661",
+     "note": "alte Pflege Saalburg; vermutlich Wernsdorf (Brückner nennt Bernsdorf als Namensform von Wernsdorf, S. 677)"
+    },
+    {
+     "name": "Künsdorf",
+     "kind": "Dorf",
+     "page": "661",
+     "note": "alte Pflege Saalburg"
+    },
+    {
+     "name": "Schilbach",
+     "kind": "Dorf",
+     "page": "661",
+     "note": "alte Pflege Saalburg"
+    },
+    {
+     "name": "Seubtendorf",
+     "kind": "Dorf",
+     "page": "661",
+     "note": "alte Pflege Saalburg"
+    },
+    {
+     "name": "Oberkoskau",
+     "kind": "Dorf",
+     "page": "661",
+     "note": "alte Pflege Saalburg"
+    },
+    {
+     "name": "Pöritzsch",
+     "kind": "Dorf",
+     "page": "661",
+     "note": "alte Pflege Saalburg; nach 1849 vom Gebiet getrennt (Lobenstein-Ebersdorf)"
+    },
+    {
+     "name": "Mühlen",
+     "kind": "Mühle",
+     "page": "661",
+     "note": "alte Pflege Saalburg"
+    },
+    {
+     "name": "Tanna",
+     "kind": "Stadt",
+     "page": "661",
+     "note": "1647-1666 aus der Herrschaft Schleiz"
+    },
+    {
+     "name": "Görkwitz",
+     "kind": "Dorf",
+     "page": "661",
+     "note": "1647-1666 aus der Herrschaft Schleiz"
+    },
+    {
+     "name": "Unterkoskau",
+     "kind": "Dorf",
+     "page": "661",
+     "note": "1647-1666 aus der Herrschaft Schleiz"
+    },
+    {
+     "name": "Mielesdorf",
+     "kind": "Dorf",
+     "page": "661",
+     "note": "1647-1666 aus der Herrschaft Schleiz"
+    },
+    {
+     "name": "Frankendorf",
+     "kind": "Dorf",
+     "page": "661",
+     "note": "1647-1666 aus der Herrschaft Schleiz"
+    },
+    {
+     "name": "Oschitz",
+     "kind": "Dorf",
+     "page": "661",
+     "note": "1647-1666 aus der Herrschaft Schleiz"
+    },
+    {
+     "name": "Raila",
+     "kind": "Dorf",
+     "page": "661",
+     "note": "1647-1666 aus der Herrschaft Schleiz"
+    },
+    {
+     "name": "Stelzen",
+     "kind": "Dorf",
+     "page": "661",
+     "note": "1647-1666 aus der Herrschaft Schleiz"
+    },
+    {
+     "name": "Spielmes",
+     "kind": "Dorf",
+     "page": "661",
+     "note": "1647-1666 teils aus der Herrschaft Schleiz, teils aus Lobenstein"
+    },
+    {
+     "name": "Willersdorf",
+     "kind": "Dorf",
+     "page": "661",
+     "note": "1647-1666 aus der Herrschaft Schleiz"
+    },
+    {
+     "name": "Zollgrün",
+     "kind": "Dorf",
+     "page": "661",
+     "note": "1647-1666 aus der Herrschaft Schleiz"
+    },
+    {
+     "name": "Dittersdorf",
+     "kind": "Dorf",
+     "page": "661",
+     "note": "1647-1666 aus der Herrschaft Schleiz"
+    },
+    {
+     "name": "Göttendorf",
+     "kind": "Dorf",
+     "page": "661",
+     "note": "1647-1666 aus der Herrschaft Schleiz"
+    },
+    {
+     "name": "Die Höfe am Walde",
+     "kind": "Weiler",
+     "page": "661",
+     "note": "1647-1666 aus der Herrschaft Schleiz"
+    },
+    {
+     "name": "Gahma",
+     "kind": "Dorf",
+     "page": "661",
+     "note": "1647-1666 aus der Herrschaft Lobenstein"
+    },
+    {
+     "name": "Thimmendorf",
+     "kind": "Dorf",
+     "page": "661",
+     "note": "1647-1666 aus der Herrschaft Lobenstein"
+    },
+    {
+     "name": "Langgrün",
+     "kind": "Dorf",
+     "page": "661",
+     "note": "1647-1666 aus der Herrschaft Lobenstein"
+    },
+    {
+     "name": "Röttersdorf",
+     "kind": "Dorf",
+     "page": "661",
+     "note": "1647-1666 aus der Herrschaft Lobenstein"
+    },
+    {
+     "name": "Weissbach",
+     "kind": "Dorf",
+     "page": "661",
+     "note": "1647-1666 aus der Herrschaft Lobenstein"
+    },
+    {
+     "name": "Rödern",
+     "kind": "Dorf",
+     "page": "661",
+     "note": "1647-1666 aus der Herrschaft Lobenstein"
+    },
+    {
+     "name": "Altengesees",
+     "kind": "Dorf",
+     "page": "661",
+     "note": "1647-1666 aus der Herrschaft Lobenstein"
+    },
+    {
+     "name": "Lothra",
+     "kind": "Dorf",
+     "page": "661",
+     "note": "1647-1666 aus der Herrschaft Lobenstein"
+    },
+    {
+     "name": "Weitisberga",
+     "kind": "Dorf",
+     "page": "661",
+     "note": "1647-1666 aus der Herrschaft Lobenstein"
+    },
+    {
+     "name": "Göttengrün",
+     "kind": "Dorf",
+     "page": "661",
+     "note": "1647-1666 aus der Herrschaft Lobenstein"
+    },
+    {
+     "name": "Drei Saalhämmer",
+     "kind": "Gewerbeanlage",
+     "page": "661",
+     "note": "1647-1666 aus der Herrschaft Lobenstein"
+    }
+   ],
+   "events": [
+    {
+     "year": 1222,
+     "event_de": "Gebrüder Hartmann und Hartmann von Saalburg sitzen zu Saalburg",
+     "event_en": "the brothers Hartmann and Hartmann of Saalburg reside at Saalburg"
+    },
+    {
+     "year": 1310,
+     "event_de": "Voigte von Gera gründen das Kloster zum heil. Kreuz (um 1310)",
+     "event_en": "the Voigts of Gera found the Holy Cross convent (c. 1310)"
+    },
+    {
+     "year": 1374,
+     "event_de": "Pflege bis 1549 thüringisches, dann böhmisches Lehn",
+     "event_en": "Pflege a Thuringian fief until 1549, then a Bohemian fief"
+    },
+    {
+     "year": 1572,
+     "event_de": "Pflege kommt an das Haus Reuss",
+     "event_en": "Pflege passes to the House of Reuss"
+    },
+    {
+     "year": 1596,
+     "event_de": "für immer an die jüngere Linie",
+     "event_en": "permanently to the younger line"
+    },
+    {
+     "year": 1647,
+     "event_de": "besondere Herrschaft Saalburg (bis 1666) mit Teilen von Schleiz und Lobenstein",
+     "event_en": "separate lordship of Saalburg (until 1666) with parts of Schleiz and Lobenstein"
+    },
+    {
+     "year": 1660,
+     "event_de": "Heinrich I. übernimmt die Regierung und residiert in Saalburg",
+     "event_en": "Heinrich I. assumes government and resides at Saalburg"
+    },
+    {
+     "year": 1666,
+     "event_de": "Herrschaft aufgehoben; Saalburger Land zur gemeinsamen Teilung",
+     "event_en": "lordship abolished; Saalburg lands pass to the common division"
+    },
+    {
+     "year": 1849,
+     "event_de": "Orte des Amtes Saalburg unter das Landrathsamt Schleiz",
+     "event_en": "villages of the Saalburg district placed under the Landrathsamt Schleiz"
+    },
+    {
+     "year": 1860,
+     "event_de": "geistliche Inspection Saalburg aufgehoben",
+     "event_en": "ecclesiastical inspectorate of Saalburg abolished"
+    },
+    {
+     "year": 1861,
+     "event_de": "Justizamt Saalburg aufgehoben",
+     "event_en": "Justizamt Saalburg abolished"
+    },
+    {
+     "year": 1869,
+     "event_de": "Steuerreceptur aufgehoben",
+     "event_en": "tax collectorate abolished"
+    }
+   ],
+   "persons": [
+    "Heinrich I.",
+    "Heinrich IX.",
+    "Heinrich Posthumus",
+    "Otto v. Lobdaburg-Arnshaugk"
+   ],
+   "summary_de": "Überblick über die alte Pflege Saalburg an der Saale: ursprünglich freie Herrschaft der Grafen von Lobdaburg-Arnshaugk, später bei den Voigten von Gera und seit 1596 bei der jüngeren Reußischen Linie. Behandelt wird die besondere Herrschaft 1647 bis 1666 mit einer Orteliste (alte Pflege, Orte aus Schleiz und Lobenstein), die Verwaltungs- und Kirchenänderungen bis 1869 und die Einwohnerzahlen (1647: 1466, 1833: 3013, 1867: 3187).",
+   "summary_en": "Overview of the old Pflege (district) of Saalburg on the Saale: originally a free lordship of the counts of Lobdaburg-Arnshaugk, later held by the Voigts of Gera and, from 1596, by the younger Reuss line. It covers the separate lordship of 1647–1666 with a list of its places (old Pflege, places from Schleiz and from Lobenstein), the administrative and church changes up to 1869, and the population figures (1647: 1466; 1833: 3013; 1867: 3187).",
+   "notes": "Einwohner ohne Pöritzsch: 1647: 1466; 1833: 3013; 1867: 3187. Fußnote: Zoppothen gehörte bis 1616 zur alten Pflege. Die Ortsliste S. 661 (Tabelle b3) ist hier als subplaces ohne Zuordnung zu den Landestheilen von 1870 übernommen; Bernsdorf ist vermutlich Wernsdorf (Deutung, nicht im Text ausgesprochen)."
+  },
+  {
+   "id": "saalburg",
+   "name": "Saalburg",
+   "start": {
+    "page": "662",
+    "block": "b4"
+   },
+   "end": {
+    "page": "672",
+    "block": "b2"
+   },
+   "landestheil": "Schleiz",
+   "type_verbatim": "Stadt an der fränkischen Hauptstraße",
+   "type": "Stadt",
+   "wuestung": false,
+   "historic_forms": [
+    {
+     "form": "Saleburch",
+     "year": 1222
+    },
+    {
+     "form": "Salenberch",
+     "year": null
+    },
+    {
+     "form": "Saleberc",
+     "year": 1233
+    },
+    {
+     "form": "Salburk",
+     "year": null
+    },
+    {
+     "form": "Salburgk",
+     "year": null
+    },
+    {
+     "form": "Salborg",
+     "year": null
+    },
+    {
+     "form": "Sahlburgk",
+     "year": null
+    },
+    {
+     "form": "Salaburg",
+     "year": null
+    },
+    {
+     "form": "Salberg",
+     "year": null
+    },
+    {
+     "form": "Salebergk",
+     "year": null
+    },
+    {
+     "form": "Saleburg",
+     "year": null
+    }
+   ],
+   "dialect_form": "Sâlburg, Solberig, scherzweise Schmalburg an der Quale",
+   "first_mention_year": 1222,
+   "location": {
+    "verbatim": "an der fränkischen Hauptstraße, fast mitten zwischen Schleiz und Lobenstein, am rechten Ufer der Saale auf dem Stadtberg"
+   },
+   "elevation": {
+    "value": 1140,
+    "unit": "Fuß",
+    "verbatim": "im NO. ihr höchster Stadttheil, an 205 Fuß höher als die Saale und 1140 Fuß über dem Meere"
+   },
+   "parish": {
+    "status": "Pfarrort",
+    "verbatim": "Stadtkirche (h. Maria); Oberpfarrer, Archidiaconus, Collaborator; Archidiaconus ist zugleich Pfarrer für Kulm und Gräfenwarth"
+   },
+   "school": {
+    "exists": true,
+    "pupils": 225
+   },
+   "houses": 157,
+   "inhabitants": 1214,
+   "occupations": {
+    "Webermeister": 59,
+    "Landwirthe (ganze)": 6,
+    "Kaufleute und Krämer": 11
+   },
+   "crafts": {
+    "Schuhmacher": 27,
+    "Bäcker": 8,
+    "Fleischer": 8,
+    "Tischler": 8,
+    "Sattler": 5,
+    "Schneider": 5,
+    "Schlosser": 4,
+    "Gerber": 3,
+    "Glaser": 3,
+    "Posamentirer": 3,
+    "Seifensieder": 3
+   },
+   "flur_morgen": 2416.75,
+   "flur_verbatim": "2416 3/4 Morgen",
+   "soil": "meist guter Boden",
+   "livestock": {
+    "Pferde": 17,
+    "Rinder": 219,
+    "Schafe": 34,
+    "Schweine": 166,
+    "Ziegen": 92,
+    "Bienenstöcke": 25
+   },
+   "facilities": [
+    "altes Schloss (Ruine, runder Turm)",
+    "Aegidienkapelle (Grundmauern)",
+    "Stadtkirche",
+    "Oberpfarrei",
+    "Archidiaconat",
+    "Knabenschulhaus",
+    "Mädchenschule im Rathaus",
+    "Rathhaus",
+    "Amthaus",
+    "Spritzenhaus (drei Feuerspritzen)",
+    "Postverwaltung",
+    "Apotheke",
+    "Förstersitze (zwei)",
+    "Physicatsvertreter",
+    "Armenversorgungsanstalt",
+    "Hospital",
+    "Gasthof zum weißen Rosse",
+    "Schießhaus",
+    "Schützengesellschaft",
+    "Gesangverein",
+    "Erholungsgesellschaft",
+    "Papiermühle",
+    "Ziegelei",
+    "Jahrmärkte (fünf)",
+    "Viehmärkte (vier)",
+    "Stadtmauer mit unterem Tor"
+   ],
+   "subplaces": [
+    {
+     "name": "Häuser vor dem Thore",
+     "kind": "Weiler",
+     "page": "669"
+    },
+    {
+     "name": "Saalhäuser",
+     "kind": "Weiler",
+     "page": "669",
+     "note": "am Südostfuß des Stadtbergs und am Einfluss des Dornbachs in die Saale; Einwohner Saalbewohner genannt"
+    },
+    {
+     "name": "Thalgut",
+     "kind": "Gewerbeanlage",
+     "page": "669",
+     "note": "unterhalb der Stadt, mit Brauerei"
+    },
+    {
+     "name": "Herrnmühle",
+     "kind": "Mühle",
+     "page": "669",
+     "note": "auch Kranichsmühle (Register: Kranichs- oder Herrnmühle); 6 Mahlgänge, Schneide-, Loh- und Oelmühle; entstand nach dem Dreißigjährigen Krieg als Nachfolger der Steinmühle (S. 668)"
+    },
+    {
+     "name": "Papiermühle",
+     "kind": "Mühle",
+     "page": "669"
+    },
+    {
+     "name": "Klosterhammer",
+     "kind": "Gewerbeanlage",
+     "page": "669",
+     "note": "auch unterer Saalhammer oder Thalhammer; ehemals Eisenhammer des Stifts, 1843 in eine Wollengarnspinnerei verwandelt"
+    },
+    {
+     "name": "Klostermühle",
+     "kind": "Mühle",
+     "page": "669",
+     "note": "am linken Saaleufer an der Mündung des Letzsbachs; drei Mahlgänge und Schneidemühle"
+    },
+    {
+     "name": "Kloster zum heil. Kreuz",
+     "kind": "Sonstiges",
+     "page": "669",
+     "note": "Register: Kloster z. heil. Kreuz; Jungfrauen-Cistercienserkloster etwa 1/2 Stunde entfernt, um 1310 gegründet, 1533/34 säkularisiert; jetzt Reste und 10 Häuser (Klosterhäuser)"
+    },
+    {
+     "name": "Dobeneckisches Vorwerk",
+     "kind": "Vorwerk",
+     "page": "664",
+     "note": "ehemaliges Burggut innerhalb der Ringmauer; jetzt Wohnung des Försters"
+    },
+    {
+     "name": "Steinmühle",
+     "kind": "Mühle",
+     "page": "668",
+     "note": "im Dreißigjährigen Krieg eingegangen"
+    },
+    {
+     "name": "Holzmühle",
+     "kind": "Mühle",
+     "page": "668",
+     "note": "im Dreißigjährigen Krieg eingegangen"
+    }
+   ],
+   "events": [
+    {
+     "year": 1222,
+     "event_de": "erste Erwähnung (Saleburch)",
+     "event_en": "first mention (Saleburch)"
+    },
+    {
+     "year": 1310,
+     "event_de": "Kloster zum heil. Kreuz gegründet (um 1310)",
+     "event_en": "Holy Cross convent founded (c. 1310)"
+    },
+    {
+     "year": 1325,
+     "event_de": "Einweihung des Klosters; Patronat der Kirche an das Stift",
+     "event_en": "convent consecrated; patronage of the church passes to it"
+    },
+    {
+     "year": 1531,
+     "event_de": "Neubau des Schlosses (Inschrift Ao. 1531)",
+     "event_en": "castle rebuilt (inscription 1531)"
+    },
+    {
+     "year": 1533,
+     "event_de": "Einführung der Reformation; Heinrich Beck erster Pfarrer",
+     "event_en": "Reformation introduced; Heinrich Beck first Lutheran pastor"
+    },
+    {
+     "year": 1586,
+     "event_de": "Stadtbrand (18. August): ganze Stadt außer dem Schloss und einem Haus",
+     "event_en": "town fire (18 August): whole town except the castle and one house"
+    },
+    {
+     "year": 1633,
+     "event_de": "Kroaten morden Diaconus Bleitner (23. Januar)",
+     "event_en": "Croats kill Deacon Bleitner (23 January)"
+    },
+    {
+     "year": 1640,
+     "event_de": "Schweden unter Banner erstürmen und verbrennen die Stadt (14. Mai)",
+     "event_en": "Swedes under Banér storm and burn the town (14 May)"
+    },
+    {
+     "year": 1642,
+     "event_de": "Neubau der Stadtkirche in kreuzförmiger Gestalt",
+     "event_en": "new cruciform church built"
+    },
+    {
+     "year": 1647,
+     "event_de": "Hauptstadt der besonderen Herrschaft Saalburg (bis 1666)",
+     "event_en": "capital of the separate lordship of Saalburg (until 1666)"
+    },
+    {
+     "year": 1722,
+     "event_de": "Brand (3. September): 36 Häuser, Rathaus und Diaconat; altes Schloss zerfällt",
+     "event_en": "fire (3 September): 36 houses, town hall and deaconate; the old castle falls into ruins"
+    },
+    {
+     "year": 1723,
+     "event_de": "Rathaus unter Heinrich XVIII. neu erbaut (bis 1725)",
+     "event_en": "new town hall built under Heinrich XVIII. (until 1725)"
+    },
+    {
+     "year": 1806,
+     "event_de": "Gefecht am Saalburger Pass (8. Oktober)",
+     "event_en": "skirmish at the Saalburg pass (8 October)"
+    },
+    {
+     "year": 1832,
+     "event_de": "Diaconat eingezogen, Collaborator eingeführt",
+     "event_en": "deaconate abolished, collaborator introduced"
+    },
+    {
+     "year": 1854,
+     "event_de": "Knabenschulhaus neu erbaut",
+     "event_en": "boys' school rebuilt"
+    }
+   ],
+   "persons": [
+    "Nic. Heider",
+    "J. Ad. Kästner",
+    "Heinrich Beck",
+    "J. C. Chr. Adler",
+    "Heinrich XVIII.",
+    "Heinrich Posthumus"
+   ],
+   "summary_de": "Kleine Stadt auf dem Stadtberg über dem rechten Saaleufer, ehemals Residenz der Herrschaft Saalburg (1647 bis 1666), mit 157 Privathäusern und 1214 Einwohnern. Der Artikel behandelt das zerfallene Schloss, Stadtkirche, Oberpfarrei und Archidiaconat (zuständig auch für Kulm und Gräfenwarth), Rathaus, Schule (225 Kinder), Stiftungen, Gewerbe (59 Webermeister) und die Geschichte mit Stadtbränden 1586 und 1722 sowie dem Dreißigjährigen Krieg. Eingehend beschrieben ist das Kloster zum heil. Kreuz (um 1310 gegründet, 1533/34 säkularisiert).",
+   "summary_en": "Small town on the Stadtberg above the right bank of the Saale, former residence of the lordship of Saalburg (1647–1666), with 157 private houses and 1214 inhabitants. The article covers the ruined castle, town church, chief parsonage and archdeaconate (also responsible for Kulm and Gräfenwarth), town hall, school (225 children), foundations, trades (59 master weavers) and the town's history with the fires of 1586 and 1722 and the Thirty Years' War. The Holy Cross convent (founded about 1310, secularised 1533/34) is described at length.",
+   "notes": "Einwohner 1864: 1243. Öffentliche Gebäude: 12. Scheunen: 119. 275 Familien. Wüstungen Rumalt und Mansdorf (= Mangelsdorf) werden im Flurabsatz S. 672 behandelt; Wettera (S. 672) hat einen eigenen Absatz. Zum Klosterbesitz 1533 (S. 671) gehörten Rumalt und Mansdorf."
+  },
+  {
+   "id": "rumalt",
+   "name": "Rumalt",
+   "start": {
+    "page": "672",
+    "block": "b2"
+   },
+   "end": {
+    "page": "672",
+    "block": "b2"
+   },
+   "landestheil": "Schleiz",
+   "type_verbatim": "Wüstung",
+   "type": "Wüstung",
+   "wuestung": true,
+   "events": [
+    {
+     "year": 1533,
+     "event_de": "als wüster, zur Hutung genutzter Ort im Besitz des Klosters zum heil. Kreuz verzeichnet",
+     "event_en": "recorded as a deserted settlement used for grazing, owned by the Holy Cross convent"
+    }
+   ],
+   "summary_de": "Wüstung, die 1533 zum Kloster zum heil. Kreuz bei Saalburg gehörte und damals bereits als wüster, aber zur Hutung genutzter Ort aufgeführt wird. Wo Rumalt lag, ist nach Brückner noch nicht ermittelt; es darf nicht mit der Romlera in der wernsdorfer Flur verwechselt werden.",
+   "summary_en": "Deserted settlement that belonged to the Holy Cross convent near Saalburg in 1533 and was then already listed as a deserted place used for grazing. According to Brückner its site has not yet been determined; it must not be confused with the Romlera in the Wernsdorf fields.",
+   "notes": "Kein eigener Absatz: Rumalt wird im Flurabsatz der Stadt Saalburg (S. 672 b2) zusammen mit Mansdorf (= Mangelsdorf, eigener Eintrag) behandelt und im Klosterbesitzverzeichnis von 1533 (S. 671 b1) genannt."
+  },
+  {
+   "id": "wettera",
+   "name": "Wettera",
+   "start": {
+    "page": "672",
+    "block": "b3"
+   },
+   "end": {
+    "page": "672",
+    "block": "b3"
+   },
+   "landestheil": "Schleiz",
+   "type_verbatim": "ein jetzt wüster Ort, vordem ein Dörfchen",
+   "type": "Wüstung",
+   "wuestung": true,
+   "historic_forms": [
+    {
+     "form": "Wederaw",
+     "year": 1303
+    }
+   ],
+   "first_mention_year": 1303,
+   "location": {
+    "verbatim": "an der unteren Wettera, unfern von Saalburg",
+    "relative_to": "Saalburg"
+   },
+   "events": [
+    {
+     "year": 1303,
+     "event_de": "Deutscher Orden zu Schleiz erwirbt den Ort durch Kauf; Landgraf Albrecht genehmigt und fügt Neurode hinzu",
+     "event_en": "the Teutonic Order of Schleiz buys the place; Landgrave Albrecht approves and adds Neurode"
+    }
+   ],
+   "summary_de": "Wüster Ort, vordem ein Dörfchen an der unteren Wettera unfern von Saalburg; Brückner vermutet, das Kloster zum heil. Kreuz sei beim Dörfchen erbaut worden und habe dessen Namen verdrängt. 1303 erwarb der deutsche Orden zu Schleiz den Ort käuflich.",
+   "summary_en": "Deserted place, formerly a small village on the lower Wettera near Saalburg; Brückner suspects that the Holy Cross convent was built beside the village and displaced its name. The Teutonic Order of Schleiz bought the place in 1303.",
+   "notes": "Im Register als 'Wetteru' geführt (S. 672); im Text 'Wettera' (urkundlich 1303 Wederaw)."
+  },
+  {
+   "id": "graefenwarth",
+   "name": "Gräfenwarth",
+   "start": {
+    "page": "672",
+    "block": "b4"
+   },
+   "end": {
+    "page": "675",
+    "block": "b2"
+   },
+   "landestheil": "Schleiz",
+   "type_verbatim": "Kirchdorf",
+   "type": "Dorf",
+   "wuestung": false,
+   "historic_forms": [
+    {
+     "form": "Grevenwart",
+     "year": 1325
+    },
+    {
+     "form": "Gräfenwarth",
+     "year": 1647
+    }
+   ],
+   "dialect_form": "Gräf'nmahrt",
+   "first_mention_year": 1325,
+   "location": {
+    "verbatim": "an der Hauptstraße von Schleiz nach Saalburg, 1 1/4 Stunde SW. von jener, 3/4 Stunde fast N. von dieser Stadt",
+    "relative_to": "Schleiz",
+    "distance_hours": 1.25,
+    "direction": "SW"
+   },
+   "elevation": {
+    "value": 1225,
+    "unit": "Fuß",
+    "verbatim": "1225 Fuß (Fuß der Kirche) hoch"
+   },
+   "parish": {
+    "status": "Kirchdorf",
+    "verbatim": "Parochie mit Kulm; Pfarrer ist der Archidiaconus zu Saalburg"
+   },
+   "school": {
+    "exists": true,
+    "pupils": 74
+   },
+   "houses": 53,
+   "inhabitants": 387,
+   "occupations": {
+    "Bauern": 28,
+    "Häusler": 22,
+    "Taglöhner": 4,
+    "Dienstboten": 33,
+    "Kapitalisten": 5,
+    "Ortsarme": 17
+   },
+   "crafts": {
+    "Maurer": 12,
+    "Zimmerleute": 6,
+    "Dachdecker": 2,
+    "Schneider": 2,
+    "Weber": 2,
+    "Müller": 1,
+    "Schmied": 1,
+    "Eisenwaarenfabrikant": 1
+   },
+   "flur_morgen": 2009.67,
+   "flur_verbatim": "2009 2/3 Morgen",
+   "soil": "1/5 gut, 2/5 mittel, 2/5 gering",
+   "livestock": {
+    "Pferde": 4,
+    "Rinder": 298,
+    "Schafe": 152,
+    "Schweine": 105,
+    "Ziegen": 63,
+    "Gänse": 250,
+    "Bienenstöcke": 7
+   },
+   "municipal_finances": {
+    "verbatim": "Grundbesitz circa 2 1/4 Morgen (eine Wiese und zwei Gärtchen), mit dem Gemeinde- und Spritzenhause 900 Thlr. werth, daneben aber 750 Thlr. Schulden und eine Jahresausgabe von 100 Thlr.",
+    "assets_thaler": 900,
+    "debts_thaler": 750,
+    "expenditure_thaler": 100
+   },
+   "facilities": [
+    "Kirche",
+    "Schule",
+    "Gemeindehaus",
+    "Spritzenhaus",
+    "Privatwirthshaus",
+    "Gemeindeschenke",
+    "Feuerspritze",
+    "Mühle",
+    "Hammerwerk Heinrichsthal"
+   ],
+   "subplaces": [
+    {
+     "name": "Wetteramühle",
+     "kind": "Mühle",
+     "page": "675",
+     "note": "im Wetteragrund, durch die Wettera betrieben"
+    },
+    {
+     "name": "Heinrichsthal",
+     "kind": "Gewerbeanlage",
+     "page": "675",
+     "note": "Eisenhammerwerk (Stahlhammer), auch Wetter- oder Brückenhammer; 1766 von J. G. Weissker erbaut"
+    },
+    {
+     "name": "Christianenthal",
+     "kind": "Gewerbeanlage",
+     "page": "675",
+     "note": "ehemaliges Zainhammerwerk, 1763 angelegt, 1834 rasiert (Zainhammerwiese)"
+    }
+   ],
+   "events": [
+    {
+     "year": 1325,
+     "event_de": "Landesherren schenken dem Kloster zum heil. Kreuz die Erbgerichte über 6 Bauernhöfe (auch 1338)",
+     "event_en": "territorial lords grant the Holy Cross convent the hereditary jurisdiction over 6 farms (also 1338)"
+    },
+    {
+     "year": 1372,
+     "event_de": "Vorwerk der v. Magwitz mit Schäferei durch Kauf an das Kloster",
+     "event_en": "estate of the v. Magwitz with its sheep farm passes to the convent by purchase"
+    },
+    {
+     "year": 1647,
+     "event_de": "19 Höfe nach zweimaliger Einäscherung wüst",
+     "event_en": "19 farms lie deserted after being burnt twice"
+    },
+    {
+     "year": 1670,
+     "event_de": "Vorwerk und Schäferei in 27 Theilen an die Bauern verkauft",
+     "event_en": "estate and sheep farm sold to the farmers in 27 portions"
+    },
+    {
+     "year": 1679,
+     "event_de": "Blitzschlag: 9 Häuser brennen ab",
+     "event_en": "lightning strike: 9 houses burn down"
+    },
+    {
+     "year": 1702,
+     "event_de": "Kirche neu erbaut",
+     "event_en": "church rebuilt"
+    },
+    {
+     "year": 1733,
+     "event_de": "J. Nicolaus Niclas geboren (5. April)",
+     "event_en": "J. Nicolaus Niclas born (5 April)"
+    },
+    {
+     "year": 1766,
+     "event_de": "Hammerwerk Heinrichsthal erbaut",
+     "event_en": "Heinrichsthal hammer works built"
+    },
+    {
+     "year": 1771,
+     "event_de": "Orgel Geschenk des Niclas",
+     "event_en": "organ donated by Niclas"
+    },
+    {
+     "year": 1859,
+     "event_de": "drei neue Glocken gegossen",
+     "event_en": "three new bells cast"
+    },
+    {
+     "year": 1868,
+     "event_de": "9 Bauernhöfe durch Frevelthat abgebrannt",
+     "event_en": "9 farms burnt down by arson"
+    },
+    {
+     "year": 1869,
+     "event_de": "neues Schulhaus anstelle des alten",
+     "event_en": "new school building replaces the old"
+    }
+   ],
+   "persons": [
+    "J. Nicolaus Niclas",
+    "v. Magwitz"
+   ],
+   "summary_de": "Kirchdorf an der Straße Schleiz–Saalburg mit 53 Privathäusern und 387 Einwohnern, in 1225 Fuß Höhe; bildet mit Kulm eine Parochie unter dem Archidiaconus von Saalburg. Brückner schildert die Kirche von 1702, die Schule mit 74 Kindern, das einstige Vorwerk der v. Magwitz und die Vorwerksgemeinde, Gewerbe und Landwirtschaft (Flur 2009 2/3 Morgen) sowie den hier geborenen Pädagogen J. Nicolaus Niclas. Zur Gemeinde gehören die Wetteramühle und das Hammerwerk Heinrichsthal.",
+   "summary_en": "Church village on the Schleiz–Saalburg road with 53 private houses and 387 inhabitants, at 1225 feet; with Kulm it forms one parish under the archdeacon of Saalburg. Brückner describes the church of 1702, the school with 74 children, the former Magwitz estate and the Vorwerk community, trades and farming (2009 2/3 Morgen) and the educator J. Nicolaus Niclas, born here. The Wetteramühle and the Heinrichsthal hammer works belong to the municipality.",
+   "notes": "Einwohner 1864: 406. Kirchenvermögen 518 1/7 Thlr. Niclas'sches Legat 250 Thlr. (Schule). 1647: 19 Höfe wüst."
+  },
+  {
+   "id": "kulm",
+   "name": "Kulm",
+   "start": {
+    "page": "675",
+    "block": "b3"
+   },
+   "end": {
+    "page": "677",
+    "block": "b2"
+   },
+   "landestheil": "Schleiz",
+   "type_verbatim": "Kirchdorf",
+   "type": "Dorf",
+   "wuestung": false,
+   "historic_forms": [
+    {
+     "form": "Culme",
+     "year": 1318
+    },
+    {
+     "form": "Kolm",
+     "year": 1533
+    },
+    {
+     "form": "Culm",
+     "year": null
+    }
+   ],
+   "dialect_form": "Kulm",
+   "first_mention_year": 1318,
+   "location": {
+    "verbatim": "1/2 Stunde NO. von Saalburg, an der alten Strasse von da nach Plauen",
+    "relative_to": "Saalburg",
+    "distance_hours": 0.5,
+    "direction": "NO"
+   },
+   "parish": {
+    "status": "Kirchdorf",
+    "verbatim": "Parochie mit Gräfenwarth; Pfarrer ist der Archidiaconus zu Saalburg; eingekircht Raila und Wernsdorf"
+   },
+   "school": {
+    "exists": true,
+    "pupils": 34
+   },
+   "houses": 37,
+   "inhabitants": 233,
+   "occupations": {
+    "Bauern": 20,
+    "Häusler": 8,
+    "Taglöhner": 4,
+    "Dienstboten": 30,
+    "Almosener": 1
+   },
+   "crafts": {
+    "Maurer": 7,
+    "Zimmermann": 1,
+    "Schmied": 1,
+    "Schneider": 1,
+    "Schuhmacher": 1
+   },
+   "flur_morgen": 1909.25,
+   "flur_verbatim": "1909 1/4 Morgen",
+   "soil": "trotz der hohen Lage durchschnittlich ziemlich guter Boden",
+   "livestock": {
+    "Pferde": 5,
+    "Rinder": 190,
+    "Schafe": 18,
+    "Schweine": 51,
+    "Ziegen": 39,
+    "Gänse": 200,
+    "Bienenstöcke": 4
+   },
+   "municipal_finances": {
+    "verbatim": "Grundbesitz von 65 1/9 Morgen (außer dem Gemeinde- und Spritzenhause Wege, Hut und Holz begreifend) und 500 Thlr. Schulden. Ihre Jahresbedürfnisse betragen 80—90 Thlr.",
+    "debts_thaler": 500
+   },
+   "facilities": [
+    "Kirche",
+    "Schule",
+    "Gemeindehaus",
+    "Spritzenhaus",
+    "Privatschenken (zwei)",
+    "Feuerspritze",
+    "Hammerwerk Glücksthal"
+   ],
+   "subplaces": [
+    {
+     "name": "Glücksthal",
+     "kind": "Gewerbeanlage",
+     "page": "677",
+     "note": "Hammerwerk (Stahlhammer) an der Wettera; auch Schuberts-Hammer; 1766 erbaut, 1836 eingegangen, 1848 wieder eröffnet"
+    },
+    {
+     "name": "Schubertshammer",
+     "kind": "Gewerbeanlage",
+     "page": "677",
+     "note": "Name des Hammerwerks Glücksthal nach dem Erbauer G. Schubert"
+    }
+   ],
+   "events": [
+    {
+     "year": 1223,
+     "event_de": "älteste Teile der Kirche vom Havelberger Bischof dem h. Georg geweiht",
+     "event_en": "oldest parts of the church consecrated to St George by the bishop of Havelberg"
+    },
+    {
+     "year": 1318,
+     "event_de": "Friedrich v. Kulm schenkt dem Kloster zum heil. Kreuz alle Lehen in Kulm",
+     "event_en": "Friedrich v. Kulm donates all his fiefs at Kulm to the Holy Cross convent"
+    },
+    {
+     "year": 1544,
+     "event_de": "Vertrag zwischen Kulm und Gräfenwarth über den Wechsel des Gottesdienstes",
+     "event_en": "agreement between Kulm and Gräfenwarth on alternating services"
+    },
+    {
+     "year": 1621,
+     "event_de": "Kirche erhält ihre jetzige Vergrößerung",
+     "event_en": "church receives its present enlargement"
+    },
+    {
+     "year": 1766,
+     "event_de": "Hammerwerk Glücksthal erbaut",
+     "event_en": "Glücksthal hammer works built"
+    },
+    {
+     "year": 1778,
+     "event_de": "Reliquienkapsel im Altar aufgefunden",
+     "event_en": "reliquary capsule found in the altar"
+    },
+    {
+     "year": 1839,
+     "event_de": "Blitzschlag beschädigt Dachstuhl des Turms (18. Juli)",
+     "event_en": "lightning damages the roof frame of the tower (18 July)"
+    },
+    {
+     "year": 1848,
+     "event_de": "Hammer Glücksthal vom Hammerschmied K. Pfab wieder eröffnet",
+     "event_en": "Glücksthal hammer reopened by the hammersmith K. Pfab"
+    }
+   ],
+   "persons": [
+    "Friedrich v. Kulm",
+    "G. Schubert",
+    "J. G. Weißker",
+    "K. Pfab"
+   ],
+   "summary_de": "Kirchdorf auf einer Terrasse des Kulm nordöstlich von Saalburg mit 37 Privathäusern und 233 Einwohnern. Die Kirche war ursprünglich Wallfahrtskapelle (ältester Bauteil 1223 geweiht); Kulm bildet mit Gräfenwarth eine Parochie, eingekircht sind Raila und Wernsdorf. Brückner beschreibt Schule, Landwirtschaft (20 Bauern, Flur 1909 1/4 Morgen), den sorbischen Ursprung und das Hammerwerk Glücksthal.",
+   "summary_en": "Church village on a terrace of the Kulm hill northeast of Saalburg with 37 private houses and 233 inhabitants. The church was originally a pilgrimage chapel (oldest part consecrated in 1223); Kulm forms one parish with Gräfenwarth, with Raila and Wernsdorf attending its church. Brückner describes the school, farming (20 farmers, 1909 1/4 Morgen), the Sorbian origin and the Glücksthal hammer works.",
+   "notes": "Einwohner 1864: 237. Kirchenvermögen 1866: 8124 1/7 Thlr. (im Druck 8124 hochgestellt 1/7; die Transkription liest 1/2, am Faksimile S. 675 geprüft). Glocke angeblich von 1190 (Fußnote: Alter fraglich)."
+  },
+  {
+   "id": "wernsdorf",
+   "name": "Wernsdorf",
+   "start": {
+    "page": "677",
+    "block": "b3"
+   },
+   "end": {
+    "page": "678",
+    "block": "b1"
+   },
+   "landestheil": "Schleiz",
+   "type_verbatim": "Dörfchen",
+   "type": "Dorf",
+   "wuestung": false,
+   "historic_forms": [
+    {
+     "form": "Bernstorff",
+     "year": 1533
+    },
+    {
+     "form": "Bernsdorf",
+     "year": null
+    },
+    {
+     "form": "Werrensdorf",
+     "year": 1647
+    }
+   ],
+   "dialect_form": "Wernsdorf",
+   "first_mention_year": 1533,
+   "location": {
+    "verbatim": "2 Stunden SWS. von Schleiz, 1 Stunde fast O. von Saalburg, an der Straße von da nach Tanna",
+    "relative_to": "Schleiz",
+    "distance_hours": 2,
+    "direction": "SSW"
+   },
+   "parish": {
+    "status": "eingepfarrt",
+    "church_of": "Kulm",
+    "verbatim": "kircht und begräbt nach Kulm (früher nach Saalburg)"
+   },
+   "school": {
+    "exists": true,
+    "pupils": 35
+   },
+   "houses": 24,
+   "inhabitants": 174,
+   "occupations": {
+    "Bauern": 18,
+    "Häusler": 8,
+    "Taglöhner": 3,
+    "Dienstboten": 30
+   },
+   "crafts": {
+    "Maurer": 3,
+    "Schneider": 1,
+    "Weber": 1,
+    "Wirth": 1,
+    "Zimmermann": 1
+   },
+   "flur_morgen": 2132.75,
+   "flur_verbatim": "2132¾ Morgen",
+   "soil": "1/6 gut, 2/6 mittel, 3/6 gering",
+   "livestock": {
+    "Pferde": 3,
+    "Rinder": 193,
+    "Schafe": 2,
+    "Schweine": 45,
+    "Ziegen": 16,
+    "Gänse": 50,
+    "Bienenstöcke": 15
+   },
+   "municipal_finances": {
+    "verbatim": "Die Gemeinde hat als engere einen Grundbesitz von 11 1/2 Morgen (Wieswachs, Holz und Hutung) im Werthe von 300 Thlr., als weitere eine Schuld von 1050 Thlr. Ihre Jahresbedürfnisse belaufen sich auf 170—190 Thlr.",
+    "assets_thaler": 300,
+    "debts_thaler": 1050
+   },
+   "facilities": [
+    "Schule",
+    "Gemeindehaus",
+    "Spritzenhaus",
+    "Gemeindeschenke (concessionirt)",
+    "Feuerspritze"
+   ],
+   "events": [
+    {
+     "year": 1640,
+     "event_de": "Gottesdienst der Saalburger auf dem Hazenberg",
+     "event_en": "Saalburg congregation holds services on the Hazenberg"
+    },
+    {
+     "year": 1728,
+     "event_de": "drei Häuser brennen ab",
+     "event_en": "three houses burn down"
+    },
+    {
+     "year": 1758,
+     "event_de": "eigene Wanderschule",
+     "event_en": "own itinerant school"
+    },
+    {
+     "year": 1806,
+     "event_de": "schwere Leiden im französischen Krieg",
+     "event_en": "heavy suffering in the French war"
+    },
+    {
+     "year": 1814,
+     "event_de": "sieben Häuser brennen ab",
+     "event_en": "seven houses burn down"
+    },
+    {
+     "year": 1853,
+     "event_de": "eigenes Schulgebäude durch Ankauf eines Privathauses",
+     "event_en": "own school building acquired by buying a private house"
+    }
+   ],
+   "summary_de": "Dörfchen in hoher, gesunder Lage zwischen Wettera und Triebes mit 24 Privathäusern und 174 Seelen; hufeisenförmig um einen Teich angelegt. Kirchlich zu Kulm, seit 1853 eigenes Schulgebäude (etwa 35 Kinder); die Einwohner leben überwiegend von Feldbau und Viehzucht, die Flur umfasst 2132 3/4 Morgen. Brückner erörtert sorbische oder deutsche Herkunft.",
+   "summary_en": "Small village in a high, healthy location between the Wettera and Triebes, with 24 private houses and 174 souls, laid out horseshoe-fashion around a pond. It belongs to the parish of Kulm, with its own school building since 1853 (about 35 children); inhabitants live chiefly from farming and cattle breeding, and the land measures 2132 3/4 Morgen. Brückner discusses whether its origin is Sorbian or German.",
+   "notes": "Einwohner 1861: 186. Der Waldbezirk Romlera (Flurstück) war früher ein Dörfchen (vgl. Zollgrün/Hermannsdorf)."
+  },
+  {
+   "id": "raila",
+   "name": "Raila",
+   "start": {
+    "page": "678",
+    "block": "b2"
+   },
+   "end": {
+    "page": "679",
+    "block": "b1"
+   },
+   "landestheil": "Schleiz",
+   "type_verbatim": "stilllebiges umschlossenes, im Frühling und Herbst an kalten Nebeln leidendes Thaldörfchen",
+   "type": "Dorf",
+   "wuestung": false,
+   "historic_forms": [
+    {
+     "form": "Reula",
+     "year": 1325
+    },
+    {
+     "form": "Rehlaw",
+     "year": 1533
+    },
+    {
+     "form": "Raylau",
+     "year": 1647
+    },
+    {
+     "form": "Reyla",
+     "year": null
+    },
+    {
+     "form": "Rayla",
+     "year": null
+    },
+    {
+     "form": "Railau",
+     "year": null
+    }
+   ],
+   "dialect_form": "Rahle",
+   "first_mention_year": 1325,
+   "location": {
+    "verbatim": "1 Stunde NO. von Saalburg und 1 1/2 Stunde fast S. von Schleiz, im Grunde der Wettera",
+    "relative_to": "Saalburg",
+    "distance_hours": 1,
+    "direction": "NO"
+   },
+   "parish": {
+    "status": "eingepfarrt",
+    "church_of": "Kulm",
+    "verbatim": "kircht und begräbt nach Kulm"
+   },
+   "school": {
+    "exists": true,
+    "pupils": 33
+   },
+   "houses": 27,
+   "inhabitants": 147,
+   "occupations": {
+    "Bauern": 16,
+    "Halbbauern": 5,
+    "Häusler": 6,
+    "Taglöhner": 4,
+    "Dienstboten": 11,
+    "Ortsarme": 1
+   },
+   "crafts": {
+    "Maurer": 7,
+    "Zimmerleute": 4,
+    "Schmied": 1,
+    "Schuhmacher": 1
+   },
+   "flur_morgen": 1661.25,
+   "flur_verbatim": "1661 1/4 Morgen",
+   "livestock": {
+    "Rinder": 132,
+    "Schafe": 5,
+    "Schweine": 41,
+    "Ziegen": 25,
+    "Gänse": 66,
+    "Bienenstöcke": 8
+   },
+   "municipal_finances": {
+    "verbatim": "Die Gemeinde besitzt 5 1/3 Morgen (Gemeindehaus, Spritzenhaus und Hutung) und 250 Thlr. Schulden. Ihre Jahresausgabe erfordert 150—180 Thlr.",
+    "debts_thaler": 250
+   },
+   "facilities": [
+    "Schule",
+    "Gemeindehaus",
+    "Spritzenhaus",
+    "Privatschenke",
+    "Feuerspritze",
+    "Mahl- und Schneidemühle (railaer)"
+   ],
+   "events": [
+    {
+     "year": 1325,
+     "event_de": "Kloster bei Saalburg erhält Geldzinsen",
+     "event_en": "convent near Saalburg receives money rents"
+    },
+    {
+     "year": 1473,
+     "event_de": "Johann Tribicher erwirbt zwei Güter (für das Kloster)",
+     "event_en": "Johann Tribicher acquires two estates"
+    },
+    {
+     "year": 1730,
+     "event_de": "sechs Häuser brennen ab (um 1730)",
+     "event_en": "six houses burn down (c. 1730)"
+    },
+    {
+     "year": 1842,
+     "event_de": "eigenes Schulhaus mit geschultem Lehrer",
+     "event_en": "own school building with a trained teacher"
+    }
+   ],
+   "summary_de": "Stilles Thaldörfchen im Wetteragrund mit 27 Privathäusern und 147 Einwohnern, halbkreisförmig um einen Teich erbaut. Kirchlich zu Kulm, seit 1842 eigenes Schulhaus (33 Kinder); Feldwirtschaft ist Hauptgeschäft, die Flur umfasst 1661 1/4 Morgen. Der Ort gehörte zur Herrschaft Schleiz und war nur 1647 bis 1666 Saalburg zugeschlagen; Brückner hält ihn für einen sorbischen Anbau.",
+   "summary_en": "Quiet valley hamlet in the Wettera valley with 27 private houses and 147 inhabitants, built in a semicircle around a pond. It belongs to the parish of Kulm and has had its own school building since 1842 (33 children); farming is the main occupation and the land measures 1661 1/4 Morgen. It belonged to the lordship of Schleiz and was assigned to Saalburg only in 1647–1666; Brückner regards it as a Sorbian settlement.",
+   "notes": "Einwohner 1861: 152."
+  },
+  {
+   "id": "kuensdorf",
+   "name": "Künsdorf",
+   "start": {
+    "page": "679",
+    "block": "b2"
+   },
+   "end": {
+    "page": "681",
+    "block": "b1"
+   },
+   "landestheil": "Schleiz",
+   "type_verbatim": "Kirchdorf",
+   "type": "Dorf",
+   "wuestung": false,
+   "historic_forms": [
+    {
+     "form": "Kungestorf",
+     "year": 1325
+    },
+    {
+     "form": "Kunigestorf",
+     "year": 1331
+    },
+    {
+     "form": "Kungstorf",
+     "year": 1350
+    },
+    {
+     "form": "Kunigistorf",
+     "year": null
+    },
+    {
+     "form": "Kunigesdorf",
+     "year": null
+    },
+    {
+     "form": "Kunigstorf",
+     "year": 1533
+    },
+    {
+     "form": "Konerstorf",
+     "year": 1533
+    },
+    {
+     "form": "Kunßdorf",
+     "year": 1647
+    },
+    {
+     "form": "Kiensdorf",
+     "year": null
+    }
+   ],
+   "dialect_form": "Kinsdorf",
+   "first_mention_year": 1325,
+   "location": {
+    "verbatim": "3/4 Stunde SO. von Saalburg, 2 1/2 Stunden SWS. von Schleiz und O. vom Saalwald",
+    "relative_to": "Saalburg",
+    "distance_hours": 0.75,
+    "direction": "SO"
+   },
+   "parish": {
+    "status": "Kirchdorf",
+    "church_of": "Seubtendorf",
+    "verbatim": "Filial von Seubtendorf"
+   },
+   "school": {
+    "exists": true,
+    "pupils": 56
+   },
+   "houses": 52,
+   "inhabitants": 327,
+   "occupations": {
+    "Bauern": 32,
+    "Häusler": 19,
+    "Taglöhner": 6,
+    "Dienstboten": 26,
+    "Kapitalisten": 3,
+    "Almosener": 3
+   },
+   "crafts": {
+    "Zimmerleute": 5,
+    "Maurer": 4,
+    "Dachdecker": 2,
+    "Schmiede": 2,
+    "Schneider": 2,
+    "Tischler": 1,
+    "Weber": 1
+   },
+   "flur_morgen": 3101.75,
+   "flur_verbatim": "3101 3/4 Morgen",
+   "soil": "1/7 gut, 3/7 mittelmäßig, 3/7 gering",
+   "livestock": {
+    "Pferde": 4,
+    "Rinder": 311,
+    "Schafe": 218,
+    "Schweine": 80,
+    "Ziegen": 54,
+    "Gänse": 280,
+    "Bienenstöcke": 13
+   },
+   "municipal_finances": {
+    "verbatim": "als engere (aus 43 Bauern bestehend) einen Grundbesitz von 3 Morgen (Wiesen und Trift) im Werthe von 1000 Thlr., als weitere 700 Thlr. Schulden. Ihre Jahresausgabe erfordert circa 180 Thlr.",
+    "assets_thaler": 1000,
+    "debts_thaler": 700,
+    "expenditure_thaler": 180
+   },
+   "facilities": [
+    "Kirche",
+    "Schule",
+    "Gemeindehaus",
+    "Spritzenhaus",
+    "Privatwirthshäuser (zwei)",
+    "Feuerspritze"
+   ],
+   "subplaces": [
+    {
+     "name": "Niederngrün",
+     "kind": "Weiler",
+     "page": "679",
+     "note": "gehört zur Gemeinde, nicht zu Kirche und Schule Künsdorf"
+    },
+    {
+     "name": "Triebichs- oder Buttermühle",
+     "kind": "Mühle",
+     "page": "680",
+     "note": "Register: Triebigsmühle (bei Seubtendorf); im Triebichsgrund 1/4 Stunde NON.; eingeschult und eingekircht nach Künsdorf; zur Gemeinde Seubtendorf gehörig"
+    }
+   ],
+   "events": [
+    {
+     "year": 1325,
+     "event_de": "Kloster zum heil. Kreuz erhält zwölf Höfe",
+     "event_en": "Holy Cross convent receives twelve farms"
+    },
+    {
+     "year": 1331,
+     "event_de": "Fruchtzinsen von Petzold v. Sparenberg an das Kloster",
+     "event_en": "grain rents from Petzold v. Sparenberg to the convent"
+    },
+    {
+     "year": 1350,
+     "event_de": "zwei Mark Geldzinsen von den v. Kospod an das Kloster",
+     "event_en": "two marks money rent from the v. Kospod to the convent"
+    },
+    {
+     "year": 1718,
+     "event_de": "Brand (4. September): 3 Bauernhöfe, Kirche und Schule",
+     "event_en": "fire (4 September): 3 farms, church and school"
+    },
+    {
+     "year": 1719,
+     "event_de": "Kirche neu erbaut (1720 eingeweiht)",
+     "event_en": "church rebuilt (consecrated 1720)"
+    },
+    {
+     "year": 1779,
+     "event_de": "ein Kleinhaus brennt ab",
+     "event_en": "a cottage burns down"
+    },
+    {
+     "year": 1791,
+     "event_de": "Blitz erschlägt drei Personen",
+     "event_en": "lightning kills three persons"
+    },
+    {
+     "year": 1806,
+     "event_de": "Bayern brandschatzen und zünden den Ort an: 12 Häuser",
+     "event_en": "Bavarians plunder the village and set it on fire: 12 houses"
+    },
+    {
+     "year": 1845,
+     "event_de": "Schulhaus neu erbaut",
+     "event_en": "school building rebuilt"
+    }
+   ],
+   "persons": [
+    "Petzold v. Sparenberg",
+    "J. Chr. Fr. Werner"
+   ],
+   "summary_de": "Kirchdorf südöstlich von Saalburg mit 52 Privathäusern und 327 Einwohnern, als zweizeiliges Langdorf auf einem Höhenrücken angelegt; Niederngrün gehört zur Gemeinde. Die Kirche (1719 neu erbaut) ist Filial von Seubtendorf; die Schule hat 56 Kinder. Die Einwohner sind überwiegend Bauern mit starker Viehhaltung (Flur 3101 3/4 Morgen); Brückner nennt den Ort wahrscheinlich deutschen Ursprungs und beschreibt Brände und die Brandschatzung von 1806.",
+   "summary_en": "Church village southeast of Saalburg with 52 private houses and 327 inhabitants, laid out as a double-row linear village on a ridge; Niederngrün belongs to the municipality. The church (rebuilt 1719) is a filial of Seubtendorf; the school has 56 children. Inhabitants are mostly farmers with heavy livestock (3101 3/4 Morgen of land); Brückner thinks the village probably of German origin and describes fires and the plundering of 1806.",
+   "notes": "Einwohner 1864: 345. Die in diesem Artikel genannte Triebichs- oder Buttermühle gehört politisch zu Seubtendorf (dort ebenfalls als subplace aufgeführt)."
+  },
+  {
+   "id": "seubtendorf",
+   "name": "Seubtendorf",
+   "start": {
+    "page": "681",
+    "block": "b2"
+   },
+   "end": {
+    "page": "683",
+    "block": "b2"
+   },
+   "landestheil": "Schleiz",
+   "type_verbatim": "Pfarrkirchdorf",
+   "type": "Dorf",
+   "wuestung": false,
+   "historic_forms": [
+    {
+     "form": "Sibotendorf",
+     "year": 1381
+    },
+    {
+     "form": "Seubotendorf",
+     "year": null
+    },
+    {
+     "form": "Seynerstorf",
+     "year": 1533
+    },
+    {
+     "form": "Seitendorf",
+     "year": null
+    },
+    {
+     "form": "Seibetendorf",
+     "year": null
+    }
+   ],
+   "dialect_form": "Seidendorf",
+   "first_mention_year": 1381,
+   "location": {
+    "verbatim": "2 Stunden südöstlich von Saalburg und 3 Stunden südlich von Schleiz",
+    "relative_to": "Saalburg",
+    "distance_hours": 2,
+    "direction": "SO"
+   },
+   "parish": {
+    "status": "Pfarrort",
+    "verbatim": "Pfarrkirchdorf; Filiale Künsdorf und Langgrün"
+   },
+   "school": {
+    "exists": true,
+    "pupils": 66
+   },
+   "houses": 56,
+   "inhabitants": 379,
+   "occupations": {
+    "Bauern": 28,
+    "Häusler": 20,
+    "Taglöhner": 5,
+    "Dienstboten": 40,
+    "Kapitalisten": 9,
+    "Almosenarme": 10
+   },
+   "crafts": {
+    "Maurer": 11,
+    "Zimmerleute": 5,
+    "Weber": 3,
+    "Schmiede": 2,
+    "Schneider": 2,
+    "Tischler": 2,
+    "Schuhmacher": 1,
+    "Wagner": 1
+   },
+   "flur_morgen": 3000.33,
+   "flur_verbatim": "3000 1/3 Morgen",
+   "soil": "1/5 gut, 1/5 gering, 3/5 mittel",
+   "livestock": {
+    "Pferde": 8,
+    "Rinder": 293,
+    "Schafe": 103,
+    "Schweine": 90,
+    "Ziegen": 67,
+    "Gänse": 250,
+    "Bienenstöcke": 39
+   },
+   "municipal_finances": {
+    "verbatim": "als engere (aus 32 Bauern bestehend) 7 Morgen Wiesen, 40 Morgen Waldboden und 53 Morgen Teich und Hut im Werthe von 3500 Thlr., aber als weitere 1200 Thlr. Schulden. Die Jahresausgabe übersteigt die Jahreseinnahme um circa 70 Thlr.",
+    "assets_thaler": 3500,
+    "debts_thaler": 1200
+   },
+   "facilities": [
+    "Kirche",
+    "Pfarrei",
+    "Schule",
+    "Gemeindehaus",
+    "Spritzenhaus",
+    "Kammergut mit Schäferei",
+    "Privatwirthshäuser (zwei)",
+    "Brauhäuser (zwei)",
+    "Brennerei",
+    "Bretschneidemaschine",
+    "Feuerspritze"
+   ],
+   "subplaces": [
+    {
+     "name": "Triebichsmühle",
+     "kind": "Mühle",
+     "page": "682",
+     "note": "Register: Triebigsmühle; gewöhnlich Buttermühle; im Triebichsgrund unterhalb des Ortes; gehört zur Gemeinde Seubtendorf, pfarrt und schult nach Künsdorf"
+    },
+    {
+     "name": "Schäferei",
+     "kind": "Vorwerk",
+     "page": "682",
+     "note": "1/4 Stunde NW. vom Dorf, zum Kammergut"
+    },
+    {
+     "name": "Wüste Höfe",
+     "kind": "Wüstung",
+     "page": "683",
+     "note": "Flurteil im SO.; ehemalige Bauernhöfe, wohl im Dreißigjährigen Krieg zerstört; Register führt 'Wüste Höfe' als eigenen Gemeinde-Eintrag"
+    },
+    {
+     "name": "nackte Henne",
+     "kind": "Einzelhof",
+     "page": "683",
+     "note": "einzelnes Haus zwischen Seubtendorf und Frössen; gehört in Allem zu Langgrün"
+    }
+   ],
+   "events": [
+    {
+     "year": 1381,
+     "event_de": "halber Hof von den v. Kospod verkauft",
+     "event_en": "half a farm sold by the v. Kospod"
+    },
+    {
+     "year": 1508,
+     "event_de": "Pfarrhof brennt ab",
+     "event_en": "parsonage burns down"
+    },
+    {
+     "year": 1654,
+     "event_de": "Wiederaufbau der Kirche begonnen (Ausbau bis 1666)",
+     "event_en": "reconstruction of the church begun (completed 1666)"
+    },
+    {
+     "year": 1692,
+     "event_de": "Kammergut von Heinrich XI. an den Regenten von Gera verkauft",
+     "event_en": "Kammergut sold by Heinrich XI. to the ruler of Gera"
+    },
+    {
+     "year": 1743,
+     "event_de": "Schulhaus erbaut",
+     "event_en": "school building erected"
+    },
+    {
+     "year": 1752,
+     "event_de": "Brand: zehn Bauernhöfe (3. Oktober)",
+     "event_en": "fire: ten farms (3 October)"
+    },
+    {
+     "year": 1806,
+     "event_de": "Seubtendorfer Schlacht gegen Bayern (9. und 10. Oktober)",
+     "event_en": "Seubtendorf skirmish against Bavarian troops (9 and 10 October)"
+    },
+    {
+     "year": 1815,
+     "event_de": "nach Gesuch beim Wiener Kongress je 700 Thlr. Schadenersatz an Seubtendorf und Langgrün",
+     "event_en": "after a petition at the Congress of Vienna, 700 thalers compensation each to Seubtendorf and Langgrün"
+    },
+    {
+     "year": 1830,
+     "event_de": "Lehrer Heinze wegen Bosheiten seines Amtes entsetzt",
+     "event_en": "teacher Heinze dismissed for misconduct"
+    }
+   ],
+   "persons": [
+    "Egidius Krupfgans",
+    "Fr. Aug. Müller",
+    "Catharina v. Kospod",
+    "Eckner"
+   ],
+   "summary_de": "Pfarrkirchdorf in hoher, rauer Lage südöstlich von Saalburg mit 56 Privathäusern, Kammergut und 379 Einwohnern; zur Parochie gehören die Filiale Künsdorf und Langgrün. Brückner behandelt die vom Deutschen Orden gegründete Kirche (Neubau 1654 bis 1666), Pfarrer, Schule (66 Kinder), Kammergut (früher v. Kospod), Landwirtschaft mit starker Viehzucht, die Flur von 3000 1/3 Morgen und die seubtendorfer Schlacht gegen Bayern am 9. und 10. Oktober 1806.",
+   "summary_en": "Parish village in a high, raw location southeast of Saalburg with 56 private houses, a Kammergut and 379 inhabitants; the filial churches of Künsdorf and Langgrün belong to the parish. Brückner covers the church founded by the Teutonic Order (rebuilt 1654–1666), pastors, the school (66 children), the Kammergut (formerly v. Kospod), farming with heavy livestock, 3000 1/3 Morgen of land, and the Seubtendorf skirmish against Bavarians on 9–10 October 1806.",
+   "notes": "Einwohner 1861: 392. Der letzte Absatz (S. 683 b2) betrifft das Einzelhaus 'nackte Henne' und gehört zum Artikelende. Kirchenvermögen: keines."
+  },
+  {
+   "id": "tanna",
+   "name": "Tanna",
+   "start": {
+    "page": "684",
+    "block": "b1"
+   },
+   "end": {
+    "page": "689",
+    "block": "b1"
+   },
+   "landestheil": "Schleiz",
+   "type_verbatim": "kleine Stadt, die höchste und lustigste, an Volkszahl die fünfte des Landes",
+   "type": "Stadt",
+   "wuestung": false,
+   "historic_forms": [
+    {
+     "form": "Tan",
+     "year": 1240
+    },
+    {
+     "form": "Tanna",
+     "year": 1310
+    },
+    {
+     "form": "Tann",
+     "year": null
+    },
+    {
+     "form": "Thanna",
+     "year": null
+    },
+    {
+     "form": "Markt zur Than",
+     "year": 1533
+    }
+   ],
+   "dialect_form": "die Tann",
+   "first_mention_year": 1240,
+   "location": {
+    "verbatim": "zwischen Saalburg und Plauen, 3 Stunden W. von dieser, 2 Stunden O. von jener, gleichweit SSO. von Schleiz und NNO. von Hirschberg entfernt",
+    "relative_to": "Saalburg",
+    "distance_hours": 2,
+    "direction": "O"
+   },
+   "parish": {
+    "status": "Pfarrort",
+    "verbatim": "Oberpfarrei und Diaconat; Parochie mit Frankendorf und den Filialen Schilbach und Zollgrün"
+   },
+   "school": {
+    "exists": true,
+    "pupils": 350
+   },
+   "houses": 216,
+   "inhabitants": 1801,
+   "occupations": {
+    "Webermeister": 141,
+    "Weber-Gesellen": 31,
+    "Bürger (Oeconomie als Hauptgeschäft)": 50,
+    "Taglöhner": 26,
+    "Knechte": 17,
+    "Mägde": 26,
+    "Kapitalisten": 21,
+    "Ortsarme": 13,
+    "Handelsconcessionisten": 10,
+    "Kaufleute": 5,
+    "Garnhändler": 3,
+    "Fuhrwerker": 7
+   },
+   "crafts": {
+    "Schuhmacher": 40,
+    "Spinner": 24,
+    "Fleischer": 16,
+    "Gerber": 14,
+    "Bäcker": 11,
+    "Schneider": 11,
+    "Schmiede": 8,
+    "Strumpfwirker": 8,
+    "Tischler": 6,
+    "Wagner": 5,
+    "Schlosser": 4,
+    "Seiler": 4,
+    "Böttcher": 3,
+    "Kürschner": 3,
+    "Putzmacherinnen": 3,
+    "Drechsler": 2,
+    "Färber": 2,
+    "Glaser": 2,
+    "Maurer": 2,
+    "Nagelschmiede": 2,
+    "Barbier": 1,
+    "Klemptner": 1,
+    "Sattler": 1,
+    "Seifensieder": 1,
+    "Töpfer": 1
+   },
+   "flur_morgen": 5439.33,
+   "flur_verbatim": "5439 1/3 Morgen",
+   "soil": "theilweise gut und ergiebig",
+   "livestock": {
+    "Pferde": 28,
+    "Rinder": 386,
+    "Schafe": 4,
+    "Schweine": 191,
+    "Ziegen": 103,
+    "Esel": 1,
+    "Bienenstöcke": 3,
+    "Gänse": 228
+   },
+   "municipal_finances": {
+    "verbatim": "Der Communalgrundbesitz umfasst außer den Gebäuden im Werthe von 58,250 Thlr. noch 42 Morgen Land ... gegen 10,000 Thlr. im Werthe. An Außenständen hat die Gemeinde 500 Thlr., an Schulden 8500 Thlr. Ihre Jahreseinnahme (1865) 3736 Thlr., ihre Ausgabe 3155 Thlr.",
+    "assets_thaler": 58250,
+    "debts_thaler": 8500,
+    "expenditure_thaler": 3155,
+    "income_thaler": 3736,
+    "year": 1865
+   },
+   "facilities": [
+    "Kirche (St. Andreas)",
+    "Oberpfarrei",
+    "Diaconat",
+    "Schule (vier Lehrer)",
+    "Rathaus mit Rathskeller",
+    "Armenhaus",
+    "Brauhaus",
+    "Schützenhaus",
+    "Spritzenhäuser (zwei)",
+    "Gasthöfe (drei)",
+    "Apotheke",
+    "Wassermühle (Angermühle)",
+    "Windmühle",
+    "städtische Ziegelei",
+    "Brauverein",
+    "Schützenverein",
+    "Gesangverein",
+    "Kram- und Viehmärkte (sieben)",
+    "Arzt",
+    "Thierarzt",
+    "Gensd'arm",
+    "Revierförster",
+    "Leichenfiscus"
+   ],
+   "subplaces": [
+    {
+     "name": "Angermühle",
+     "kind": "Mühle",
+     "page": "687",
+     "note": "Wassermühle der Stadt; die Mittelmühle in der tannaer Flur gehört politisch zu Frankendorf (Fußnote S. 687)"
+    },
+    {
+     "name": "Anger",
+     "kind": "Weiler",
+     "page": "684",
+     "note": "späterer Anbau, gilt als Vorstadt"
+    },
+    {
+     "name": "Kapellenhöhe",
+     "kind": "Sonstiges",
+     "page": "684",
+     "note": "Wallfahrtskapelle, erster Cultpunkt des Ortes und der Gegend"
+    }
+   ],
+   "events": [
+    {
+     "year": 1232,
+     "event_de": "Pfarrer Berthold von Tanna urkundlich erwähnt",
+     "event_en": "parish priest Berthold of Tanna documented"
+    },
+    {
+     "year": 1279,
+     "event_de": "Patronat der Kirche an den Deutschen Orden",
+     "event_en": "patronage of the church passes to the Teutonic Order"
+    },
+    {
+     "year": 1494,
+     "event_de": "Stadt- und Marktgerechtigkeit durch Heinrich d. m. von Schleiz",
+     "event_en": "town and market rights granted by Heinrich the Middle of Schleiz"
+    },
+    {
+     "year": 1545,
+     "event_de": "Stadt erwirbt von den v. Rußwurm deren Gerechtsame um 1150 Mk.",
+     "event_en": "the town acquires the rights of the v. Rußwurm for 1150 marks"
+    },
+    {
+     "year": 1581,
+     "event_de": "Erwerb der Gerechtsame der v. Kospod um 60 Mk.",
+     "event_en": "acquisition of the rights of the v. Kospod for 60 marks"
+    },
+    {
+     "year": 1626,
+     "event_de": "Pest tötet 195 Personen",
+     "event_en": "plague kills 195 people"
+    },
+    {
+     "year": 1640,
+     "event_de": "Schweden zünden die Stadt an (16. Mai): alle Häuser bis auf drei",
+     "event_en": "Swedes set the town on fire (16 May): all houses but three"
+    },
+    {
+     "year": 1713,
+     "event_de": "furchtbare Wasserfluth",
+     "event_en": "terrible flood"
+    },
+    {
+     "year": 1783,
+     "event_de": "Erdbeben",
+     "event_en": "earthquake"
+    },
+    {
+     "year": 1806,
+     "event_de": "Corps des Marschalls Ney haust hier (9.-11. Oktober); Brand von 8 Häusern und 7 Scheunen",
+     "event_en": "Marshal Ney's corps ravages the town (9–11 October); fire destroys 8 houses and 7 barns"
+    },
+    {
+     "year": 1844,
+     "event_de": "Brand: 17 Häuser und das Rathaus (28. November)",
+     "event_en": "fire: 17 houses and the town hall (28 November)"
+    },
+    {
+     "year": 1846,
+     "event_de": "Rathaus neu erbaut",
+     "event_en": "town hall rebuilt"
+    },
+    {
+     "year": 1857,
+     "event_de": "Brand: 52 Häuser, darunter die Schule",
+     "event_en": "fire: 52 houses, including the school"
+    },
+    {
+     "year": 1866,
+     "event_de": "Brand: 25 Häuser (30. Oktober)",
+     "event_en": "fire: 25 houses (30 October)"
+    }
+   ],
+   "persons": [
+    "Berthold",
+    "Heinrich v. Tepen",
+    "Balthasar v. Kospod",
+    "Christoph Mülser",
+    "Herm. Braun",
+    "Clem. Pätz",
+    "Joh. Georg Carl"
+   ],
+   "summary_de": "Kleine Stadt, höchste und fünftgrößte des Landes (1801 Einwohner), in einem flachen Kessel der oberen Wettera, oft von Bränden heimgesucht. Der Artikel beschreibt Lage, Gassen und Gebäude, die Kirche und die ausgedehnte Parochie (Frankendorf, Filiale Schilbach und Zollgrün), Schule mit 350 Kindern, Rathaus, Gemeindefinanzen, Gewerbe (141 Webermeister, 40 Schuhmacher) und Viehhandel sowie die Geschichte seit der Stadtrechtsverleihung 1494, Kriegsschäden und Brände (1640, 1844, 1857, 1866).",
+   "summary_en": "Small town, the highest and fifth largest of the principality (1801 inhabitants), in a flat basin of the upper Wettera and repeatedly ravaged by fires. The article covers location, streets and buildings, the church and its extensive parish (Frankendorf, filials Schilbach and Zollgrün), the school with 350 children, town hall, municipal finances, trades (141 master weavers, 40 shoemakers) and cattle trade, and the history since the grant of town rights in 1494, war damage and fires (1640, 1844, 1857, 1866).",
+   "notes": "Familien 421; Privathäuser 216 (und mehrere Brandstätten), circa 145 Scheunen, 10 öffentliche Gebäude. Assets: 58,250 Thlr. Gebäude; dazu 42 Morgen Land im Wert von gegen 10,000 Thlr. Wüstungen Kämmera, Weidendorf und Dittersdorf haben eigene Absätze (eigene Einträge). Stadtwaldboden 18 1/2 Morgen (Fußnote)."
+  },
+  {
+   "id": "kaemmera",
+   "name": "Kämmera",
+   "start": {
+    "page": "689",
+    "block": "b2"
+   },
+   "end": {
+    "page": "689",
+    "block": "b2"
+   },
+   "landestheil": "Schleiz",
+   "type_verbatim": "Wüstung",
+   "type": "Wüstung",
+   "wuestung": true,
+   "location": {
+    "verbatim": "im S. von Tanna, am Ursprunge der Wettera",
+    "relative_to": "Tanna",
+    "direction": "S"
+   },
+   "events": [
+    {
+     "year": 1533,
+     "event_de": "bereits als wüster Ort bezeugt (Kirchenvisitationsacten)",
+     "event_en": "already documented as a deserted place (church visitation records)"
+    }
+   ],
+   "summary_de": "Wüstung im Süden von Tanna am Ursprung der Wettera, schon 1533 ein wüster Ort; die Stätte vermutet Brückner in den großen Wiesen, wo man noch zu Beginn des Jahrhunderts Keller fand. Der Wüstungsbezirk war Besitz des Deutschen Ordens und kam an die Oberpfarrei Tanna, der die Wiesen noch gehören; die Sage kennt hier ein Schloss dreier Fräulein.",
+   "summary_en": "Deserted settlement south of Tanna at the source of the Wettera, already deserted in 1533; Brückner places its site in the large meadows where cellars were still found early in the century. The whole district belonged to the Teutonic Order and passed to the chief parsonage of Tanna, which still owns the meadows; legend tells of a castle of three maidens here."
+  },
+  {
+   "id": "weidendorf",
+   "name": "Weidendorf",
+   "start": {
+    "page": "689",
+    "block": "b3"
+   },
+   "end": {
+    "page": "689",
+    "block": "b3"
+   },
+   "landestheil": "Schleiz",
+   "type_verbatim": "Wüstung",
+   "type": "Wüstung",
+   "wuestung": true,
+   "location": {
+    "verbatim": "dicht zur Seite der Kämmera, nach Willersdorf zu",
+    "relative_to": "Kämmera"
+   },
+   "summary_de": "Wüstung dicht neben der Kämmera nach Willersdorf zu, an der Willersdorf Anteil hat; die Stelle heißt noch Weidendorf. Nach der Sage zogen die Einwohner im Dreißigjährigen Krieg nach Tanna, doch erwähnt keine Quelle den Ort. Die Reuthwiesen gehören zu ihm.",
+   "summary_en": "Deserted settlement just beside the Kämmera towards Willersdorf, in which Willersdorf has a share; the spot is still called Weidendorf. Legend says the inhabitants moved to Tanna during the Thirty Years' War, but no historical source mentions the place. The Reuthwiesen meadows belong to it."
+  },
+  {
+   "id": "dittersdorf-tanna",
+   "name": "Dittersdorf",
+   "start": {
+    "page": "689",
+    "block": "b4"
+   },
+   "end": {
+    "page": "690",
+    "block": "b1"
+   },
+   "landestheil": "Schleiz",
+   "type_verbatim": "Wüstung",
+   "type": "Wüstung",
+   "wuestung": true,
+   "historic_forms": [
+    {
+     "form": "Dytrichstorf",
+     "year": 1367
+    },
+    {
+     "form": "Dytrichsdorf",
+     "year": 1368
+    }
+   ],
+   "dialect_form": "Ditters, Dittersch",
+   "first_mention_year": 1367,
+   "location": {
+    "verbatim": "zwischen Tanna, Willersdorf und der Kämmera",
+    "relative_to": "Tanna"
+   },
+   "events": [
+    {
+     "year": 1367,
+     "event_de": "Heinrich von Gera übergibt Dytherichstorf bei der Tanna dem Kloster zum heil. Kreuz",
+     "event_en": "Heinrich of Gera gives Dytherichstorf near Tanna to the Holy Cross convent"
+    },
+    {
+     "year": 1368,
+     "event_de": "Heinrich von Oschitz verkauft dem Kloster seine Güter in Dytrichsdorf",
+     "event_en": "Heinrich of Oschitz sells his estates at Dytrichsdorf to the convent"
+    }
+   ],
+   "persons": [
+    "Heinrich von Gera",
+    "Heinrich von Oschitz"
+   ],
+   "summary_de": "Wüstung zwischen Tanna, Willersdorf und der Kämmera, nicht zu verwechseln mit Wüst-Dittersdorf an der Wisentthal bei Schleiz. 1367 und 1368 noch bestehend (Übergabe und Verkauf von Gütern an das Kloster zum heil. Kreuz), vor der Reformation wüst geworden; die genaue Lage ist unbekannt, der Name lebt im Dittersweg bei Willersdorf fort.",
+   "summary_en": "Deserted settlement between Tanna, Willersdorf and the Kämmera, not to be confused with Wüst-Dittersdorf on the Wisenthal near Schleiz. Still existing in 1367 and 1368 (gift and sale of estates to the Holy Cross convent), it was deserted before the Reformation; its exact site is unknown and the name survives in the Dittersweg near Willersdorf.",
+   "notes": "Im Register unter Tanna (Parent) als Wüstung geführt; id mit Zusatz zur Unterscheidung vom Wüst-Dittersdorf bei Schleiz."
+  },
+  {
+   "id": "frankendorf",
+   "name": "Frankendorf",
+   "start": {
+    "page": "690",
+    "block": "b2"
+   },
+   "end": {
+    "page": "691",
+    "block": "b1"
+   },
+   "landestheil": "Schleiz",
+   "type_verbatim": "kleines Dorf",
+   "type": "Dorf",
+   "wuestung": false,
+   "historic_forms": [
+    {
+     "form": "Brankendorf",
+     "year": 1350
+    }
+   ],
+   "dialect_form": "Frankendorf",
+   "first_mention_year": 1350,
+   "location": {
+    "verbatim": "1/4 Stunde N. von Tanna, in demselben Landkessel, am Fuße der Ahornhöhe und an der Wettera",
+    "relative_to": "Tanna",
+    "distance_hours": 0.25,
+    "direction": "N"
+   },
+   "parish": {
+    "status": "eingepfarrt",
+    "church_of": "Tanna",
+    "verbatim": "schult, pfarrt, begräbt, verkehrt und blickt nach Tanna, daher gleichsam dessen Vorstadt"
+   },
+   "school": {
+    "exists": false
+   },
+   "houses": 39,
+   "inhabitants": 245,
+   "occupations": {
+    "Taglöhner": 17,
+    "Almosener": 2
+   },
+   "crafts": {
+    "Maurer": 11,
+    "Müller": 2,
+    "Schmiede": 2,
+    "Ziegelbrenner": 2
+   },
+   "flur_morgen": 1547.33,
+   "flur_verbatim": "1547 1/3 Morgen (davon über 1000 Morgen Rittergut)",
+   "livestock": {
+    "Pferde": 13,
+    "Rinder": 122,
+    "Schafe": 290,
+    "Schweine": 61,
+    "Ziegen": 34,
+    "Gänse": 90,
+    "Bienenstöcke": 11
+   },
+   "municipal_finances": {
+    "verbatim": "besitzt die Gemeinde, von einem Ortsbeamten verwaltet, nur einige Grundstücke im Werthe von 300 Thlr. Ihre Jahresausgabe macht circa 70 Thlr., davon 50 Thlr. für die Ortsarmen.",
+    "assets_thaler": 300,
+    "expenditure_thaler": 70
+   },
+   "facilities": [
+    "Rittergut mit Herrnhaus",
+    "Gemeindehaus",
+    "Armenhaus",
+    "Privatschenke",
+    "Mittelmühle",
+    "Mahl- und Schneidemühle",
+    "Ziegelei",
+    "Brennerei",
+    "Knochenmühle",
+    "Feuerspritze",
+    "Schäferei auf der Sophienhöhe"
+   ],
+   "subplaces": [
+    {
+     "name": "Mittelmühle",
+     "kind": "Mühle",
+     "page": "690",
+     "note": "Mahl-, Oel- und Schneidemühle in der tannaer Flur, politisch zu Frankendorf gehörig"
+    },
+    {
+     "name": "Angermühle",
+     "kind": "Mühle",
+     "page": "690",
+     "note": "Register nennt Angermühle bei Frankendorf (S. 690); im Text beschreibt der Absatz die 'frankendorfer Mahl- und Schneidemühle'"
+    },
+    {
+     "name": "Schäferei auf der Sophienhöhe",
+     "kind": "Vorwerk",
+     "page": "690",
+     "note": "zum Rittergut gehörig"
+    }
+   ],
+   "events": [
+    {
+     "year": 1350,
+     "event_de": "Reichsvoigt Heinrich zu Gera schenkt dem Kloster zum heil. Kreuz Geldzinsen zu Frankendorf",
+     "event_en": "Imperial Voigt Heinrich of Gera donates money rents at Frankendorf to the Holy Cross convent"
+    },
+    {
+     "year": 1863,
+     "event_de": "drei Wohnhäuser brennen ab (18. Dezember)",
+     "event_en": "three dwelling houses burn down (18 December)"
+    }
+   ],
+   "persons": [
+    "v. Kospod",
+    "Gottl. Knoch",
+    "Kühn"
+   ],
+   "summary_de": "Kleines Dorf eine Viertelstunde nördlich von Tanna im selben Landkessel, mit Tanna kirchlich, schulisch und wirtschaftlich verbunden (gleichsam dessen Vorstadt); 39 Privathäuser und 245 Seelen. Den Kern bildet das Rittergut der Familie v. Kospod (jetzt Lederfabrikant Knoch); die Flur umfasst 1547 1/3 Morgen, davon über 1000 Morgen des Gutes, mit Roggenbau und Torfstich. Brückner hält den Ort für deutschen Ursprungs.",
+   "summary_en": "Small village a quarter hour north of Tanna in the same basin, tied to Tanna in church, school and daily life (almost its suburb); 39 private houses and 245 souls. Its core is the manor of the v. Kospod family (now owned by the leather manufacturer Knoch); the land measures 1547 1/3 Morgen, over 1000 of them belonging to the manor, with rye cultivation and peat cutting. Brückner considers the village of German origin.",
+   "notes": "Einwohner 1864: 217. Nach dem Register ist die Angermühle Bestandtheil von Frankendorf (S. 690)."
+  },
+  {
+   "id": "schilbach",
+   "name": "Schilbach",
+   "start": {
+    "page": "691",
+    "block": "b2"
+   },
+   "end": {
+    "page": "692",
+    "block": "b2"
+   },
+   "landestheil": "Schleiz",
+   "type_verbatim": "Kirchdorf",
+   "type": "Dorf",
+   "wuestung": false,
+   "historic_forms": [
+    {
+     "form": "Schiltpach",
+     "year": 1325
+    },
+    {
+     "form": "Schilbach",
+     "year": null
+    },
+    {
+     "form": "Schielbach",
+     "year": 1647
+    },
+    {
+     "form": "Schildbach",
+     "year": null
+    },
+    {
+     "form": "Schillbach",
+     "year": null
+    }
+   ],
+   "dialect_form": "Schilbich",
+   "first_mention_year": 1325,
+   "location": {
+    "verbatim": "2 Stunden fast S. von Schleiz, 1 1/2 Stunden OSO. von Saalburg und 1/2 Stunde W. von Tanna, an der alten Straße von Tanna nach Saalburg",
+    "relative_to": "Schleiz",
+    "distance_hours": 2,
+    "direction": "S"
+   },
+   "parish": {
+    "status": "Kirchdorf",
+    "church_of": "Tanna",
+    "verbatim": "Die Kirche, ein Filial von Tanna; Ortspfarrer ist der tannaer Diaconus"
+   },
+   "school": {
+    "exists": true,
+    "pupils": 60
+   },
+   "houses": 56,
+   "inhabitants": 336,
+   "occupations": {
+    "Bauern": 27,
+    "Häusler": 13,
+    "Taglöhner": 14,
+    "Dienstboten": 35,
+    "Kapitalisten": 1,
+    "Almosener": 5
+   },
+   "crafts": {
+    "Zimmerleute": 13,
+    "Maurer": 5
+   },
+   "flur_morgen": 3084,
+   "flur_verbatim": "3084 Morgen (darunter 1185 5/7 Morgen Feld, 846 5/7 Morgen Wald, 752 11/20 Morgen Wiesen)",
+   "soil": "größtentheils von ergiebigem Boden",
+   "livestock": {
+    "Pferde": 11,
+    "Rinder": 306,
+    "Schafe": 563,
+    "Schweine": 75,
+    "Ziegen": 39,
+    "Gänse": 322,
+    "Bienenstöcke": 11
+   },
+   "municipal_finances": {
+    "verbatim": "Die Gemeinde hat geringen Grundbesitz, dazu Schulden und 239 2/3 Thlr. Jahresausgabe.",
+    "expenditure_thaler": 239.67
+   },
+   "facilities": [
+    "Kirche",
+    "Schule",
+    "Armenhaus",
+    "Spritzenhaus",
+    "Rittergut",
+    "Feuerspritze",
+    "Gemeindeschenke",
+    "Bier- und Branntweinschank",
+    "Ziegelei",
+    "Schäferei (Kammergut Seubtendorf)",
+    "Gasthof an der hofer Straße bei der Kapelle"
+   ],
+   "subplaces": [
+    {
+     "name": "Kapelle, Straßenwirthshaus",
+     "kind": "Gasthof",
+     "page": "692",
+     "note": "Gasthof die Kapelle (im Volke die Kappel) auf der Kappelhöhe an der hofer Straße; dabei stand vordem eine Kapelle"
+    }
+   ],
+   "events": [
+    {
+     "year": 1325,
+     "event_de": "Kloster zum heil. Kreuz erhält einen Hof vom Landesherrn",
+     "event_en": "Holy Cross convent receives a farm from the territorial lord"
+    },
+    {
+     "year": 1518,
+     "event_de": "Kloster erhält durch Tausch einen halben Hof von Jobst v. Kospod",
+     "event_en": "the convent obtains half a farm by exchange from Jobst v. Kospod"
+    },
+    {
+     "year": 1608,
+     "event_de": "Alex. v. Kospod im Duell getötet (Grabdenkmal)",
+     "event_en": "Alex. v. Kospod killed in a duel (memorial)"
+    },
+    {
+     "year": 1732,
+     "event_de": "Kirche neu erbaut",
+     "event_en": "church rebuilt"
+    },
+    {
+     "year": 1741,
+     "event_de": "Schulhaus neu erbaut (1741/42)",
+     "event_en": "school building erected (1741/42)"
+    },
+    {
+     "year": 1771,
+     "event_de": "Rittergut an Graf Heinrich XXX. verkauft",
+     "event_en": "manor sold to Count Heinrich XXX"
+    },
+    {
+     "year": 1802,
+     "event_de": "Rittergut um circa 30,000 Thlr. an die Familie Knoch",
+     "event_en": "manor sold for about 30,000 thalers to the Knoch family"
+    },
+    {
+     "year": 1804,
+     "event_de": "fünf Bauernhöfe brennen ab",
+     "event_en": "five farms burn down"
+    },
+    {
+     "year": 1864,
+     "event_de": "Brand: 20 Häuser (8. Mai)",
+     "event_en": "fire: 20 houses (8 May)"
+    },
+    {
+     "year": 1865,
+     "event_de": "zwei Bauernhöfe brennen ab (14. Juli)",
+     "event_en": "two farms burn down (14 July)"
+    }
+   ],
+   "persons": [
+    "J. Aug. v. Kospod",
+    "Alex. v. Kospod",
+    "Heinrich XXX.",
+    "v. Flanz",
+    "Knoch"
+   ],
+   "summary_de": "Kirchdorf südlich von Schleiz an der alten Straße Tanna–Saalburg mit 56 Privathäusern, Rittergut und 336 Einwohnern; Filial von Tanna, Pfarrer ist der tannaer Diaconus. Das Rittergut war lange bei den v. Kospod, seit 1802 bei der Familie Knoch; die ausgedehnte Flur von 3084 Morgen trägt nach Brückner das beste Korn der Gegend. Erwähnt werden Schule (60 Kinder), mehrere Brände und das Straßenwirtshaus Kapelle auf der Kappelhöhe.",
+   "summary_en": "Church village south of Schleiz on the old Tanna–Saalburg road with 56 private houses, a manor and 336 inhabitants; a filial of Tanna, whose deacon serves as its pastor. The manor was long held by the v. Kospod family and by the Knoch family from 1802; the extensive 3084 Morgen of land bear, according to Brückner, the best grain of the district. The article mentions the school (60 children), several fires and the roadside inn Kapelle on the Kappelhöhe.",
+   "notes": "Einwohner 1861: 356. Livestock Schafe 563 (Rittergut/Kammergut mitgezählt). Der Gasthof 'die Kapelle' (S. 692 b2, eigener Absatz) ist als subplace geführt."
+  },
+  {
+   "id": "mangelsdorf",
+   "name": "Mangelsdorf",
+   "start": {
+    "page": "692",
+    "block": "b3"
+   },
+   "end": {
+    "page": "693",
+    "block": "b1"
+   },
+   "landestheil": "Schleiz",
+   "type_verbatim": "Wüstung",
+   "type": "Wüstung",
+   "wuestung": true,
+   "historic_forms": [
+    {
+     "form": "Mangolstorff",
+     "year": 1318
+    },
+    {
+     "form": "Manigoldisdorf",
+     "year": 1365
+    },
+    {
+     "form": "Mansdorf",
+     "year": 1533
+    }
+   ],
+   "dialect_form": "Mansdorf",
+   "first_mention_year": 1318,
+   "location": {
+    "verbatim": "im SW. von Schilbach nach Wernsdorf hin",
+    "relative_to": "Schilbach",
+    "direction": "SW"
+   },
+   "events": [
+    {
+     "year": 1318,
+     "event_de": "Friedrich v. Mangolzstorf urkundlich genannt (Geschlecht lebt noch 1408)",
+     "event_en": "Friedrich v. Mangolzstorf documented (the family still lived in 1408)"
+    },
+    {
+     "year": 1365,
+     "event_de": "Besitz von den v. Magwitz um 234 Pfund Heller an das Kloster zum heil. Kreuz",
+     "event_en": "estate passes from the v. Magwitz to the Holy Cross convent for 234 pounds of Heller"
+    },
+    {
+     "year": 1533,
+     "event_de": "noch im Besitz des Klosters (Mansdorf)",
+     "event_en": "still owned by the convent (Mansdorf)"
+    }
+   ],
+   "persons": [
+    "Friedrich v. Mangolzstorf"
+   ],
+   "summary_de": "Wüstung südwestlich von Schilbach nach Wernsdorf hin; ein Bezirk aus Holz- und Wiesenstücken (Petersbach, Pingera, Romlera) heißt noch Mangelsdorf oder Mansdorf, auch Mauerreste sind vorhanden. Der Ort wurde angeblich im arnshaugker Erbschaftskrieg zerstört; 1365 kam er von den v. Magwitz an das Kloster zum heil. Kreuz bei Saalburg. Mit ihm bringt man das Feldstück Backofenacker in Verbindung.",
+   "summary_en": "Deserted settlement southwest of Schilbach towards Wernsdorf; a district of woods and meadows (Petersbach, Pingera, Romlera) is still called Mangelsdorf or Mansdorf, and remains of walls survive. The place was allegedly destroyed in the Arnshaugk succession war; in 1365 it passed from the v. Magwitz to the Holy Cross convent near Saalburg. The field Backofenacker is linked with it.",
+   "notes": "Im Artikel Saalburg (S. 672) als Mansdorf (1533 Klosterbesitz, in der seubtendorfer Markung) genannt; Brückner verweist dort auf Seubtendorf."
+  },
+  {
+   "id": "zollgruen",
+   "name": "Zollgrün",
+   "start": {
+    "page": "693",
+    "block": "b2"
+   },
+   "end": {
+    "page": "695",
+    "block": "b1"
+   },
+   "landestheil": "Schleiz",
+   "type_verbatim": "langgestrecktes, waldumschlossenes Kirchdorf",
+   "type": "Dorf",
+   "wuestung": false,
+   "historic_forms": [
+    {
+     "form": "Grün",
+     "year": null
+    },
+    {
+     "form": "Gotschalgsgrün",
+     "year": 1350
+    },
+    {
+     "form": "Grün",
+     "year": 1404
+    },
+    {
+     "form": "Gottschalgsgrün",
+     "year": 1443
+    },
+    {
+     "form": "Grün",
+     "year": 1533
+    },
+    {
+     "form": "Gottschalksgrün",
+     "year": 1533
+    },
+    {
+     "form": "Zollgrün",
+     "year": 1604
+    },
+    {
+     "form": "Gottschalksgrün oder Zollgrün",
+     "year": 1647
+    }
+   ],
+   "dialect_form": "Zollgrie und Zollgre",
+   "first_mention_year": 1350,
+   "location": {
+    "verbatim": "an der hofer Straße, 1 1/2 Stunden SOS. von Schleiz, 3/4 Stunde NW. von Tanna",
+    "relative_to": "Schleiz",
+    "distance_hours": 1.5,
+    "direction": "SSO"
+   },
+   "parish": {
+    "status": "Kirchdorf",
+    "church_of": "Tanna",
+    "verbatim": "Die Kirche, ein Filial von Tanna, ... hat den Diaconus zu Tanna zum Pfarrer"
+   },
+   "school": {
+    "exists": true,
+    "pupils": 88
+   },
+   "houses": 70,
+   "inhabitants": 457,
+   "occupations": {
+    "Bauern": 24,
+    "Kühbauern": 13,
+    "Häusler": 29,
+    "Hausgenossen": 19,
+    "Taglöhner": 19,
+    "Dienstboten": 31,
+    "Kapitalisten": 2,
+    "Almosener": 1
+   },
+   "crafts": {
+    "Zimmerleute": 18,
+    "Maurer": 12,
+    "Spinner": 10,
+    "Weber": 3,
+    "Müller": 2,
+    "Schmiede": 2,
+    "Schuhmacher": 2,
+    "Böttcher": 1,
+    "Fleischer": 1,
+    "Schneider": 1,
+    "Wirth": 1
+   },
+   "flur_morgen": 3083.5,
+   "flur_verbatim": "3083 1/2 Morgen",
+   "soil": "zum guten Theile ergiebig",
+   "livestock": {
+    "Pferde": 6,
+    "Rinder": 295,
+    "Schafe": 96,
+    "Schweine": 90,
+    "Ziegen": 63,
+    "Gänse": 369,
+    "Bienenstöcke": 23
+   },
+   "municipal_finances": {
+    "verbatim": "an Grundbesitz 20 13/14 Morgen im Werthe von 440 Thlr., freilich auch mit 680 Thlr. Schulden belastet. Ihre Jahresausgabe macht an 340 Thlr.",
+    "assets_thaler": 440,
+    "debts_thaler": 680,
+    "expenditure_thaler": 340
+   },
+   "facilities": [
+    "Kirche",
+    "Schule",
+    "Armenhaus",
+    "Spritzenhaus",
+    "Rittergut",
+    "Gasthof (privat)",
+    "Feuerspritze",
+    "Wassermühlen (zwei)"
+   ],
+   "subplaces": [
+    {
+     "name": "Grünmühle",
+     "kind": "Mühle",
+     "page": "694",
+     "note": "Wassermühle im Wetterathal, wo der mielesdorfer Bach einmündet"
+    },
+    {
+     "name": "Hammermühle",
+     "kind": "Mühle",
+     "page": "694",
+     "note": "Wassermühle an der Stelle einer 1766 erbauten, 1838 eingegangenen Eisenhütte"
+    },
+    {
+     "name": "Röhnig",
+     "kind": "Weiler",
+     "page": "693",
+     "note": "oberer Teil des Ortes"
+    },
+    {
+     "name": "Burgstädtel",
+     "kind": "Schloss",
+     "page": "694",
+     "note": "ehemaliges Schlösschen jenseits der Wetterabrücke, wahrscheinlich im arnshaugker Krieg zerstört"
+    }
+   ],
+   "events": [
+    {
+     "year": 1407,
+     "event_de": "Nicol. Schildknecht verkauft seine Lehen zu Gottschalksgrün an Heinrich, Herrn von Gera",
+     "event_en": "Nicol. Schildknecht sells his fiefs at Gottschalksgrün to Heinrich, lord of Gera"
+    },
+    {
+     "year": 1618,
+     "event_de": "Rittergut mit 2300 Mk. angeschlagen",
+     "event_en": "manor valued at 2300 marks"
+    },
+    {
+     "year": 1623,
+     "event_de": "Kirche erneuert und erweitert",
+     "event_en": "church renovated and enlarged"
+    },
+    {
+     "year": 1647,
+     "event_de": "bis 1666 zu Saalburg geschlagen",
+     "event_en": "attached to Saalburg until 1666"
+    },
+    {
+     "year": 1713,
+     "event_de": "Verwüstung durch den angeschwollenen Dorfbach (5. Juli)",
+     "event_en": "devastation by the swollen village stream (5 July)"
+    },
+    {
+     "year": 1766,
+     "event_de": "Eisenhütte erbaut (1838 eingegangen)",
+     "event_en": "iron works built (closed 1838)"
+    },
+    {
+     "year": 1807,
+     "event_de": "Gasthof und Schule brennen ab (10. Dezember)",
+     "event_en": "inn and school burn down (10 December)"
+    },
+    {
+     "year": 1808,
+     "event_de": "Schulhaus neu erbaut",
+     "event_en": "school building rebuilt"
+    }
+   ],
+   "persons": [
+    "Ernst Gottl. v. Kospod",
+    "Nicol. Schildknecht"
+   ],
+   "summary_de": "Langgestrecktes, waldumschlossenes Kirchdorf an der hofer Straße südöstlich von Schleiz mit 70 Privathäusern und 457 Einwohnern; Filial von Tanna, Pfarrer ist der tannaer Diaconus. Das Rittergut war lange bei den v. Kospod, später bei den Familien v. Wolfersdorf, v. Beulwitz und Knoch. Behandelt werden Kirche, Schule (88 Kinder), Landwirtschaft und Handwerk (24 Bauern, Flur 3083 1/2 Morgen), die Namensentwicklung von Grün zu Zollgrün sowie Grünmühle und Hammermühle.",
+   "summary_en": "Elongated, forest-ringed church village on the road to Hof, southeast of Schleiz, with 70 private houses and 457 inhabitants; a filial of Tanna, with the Tanna deacon as pastor. The manor was long held by the v. Kospod family, later by the v. Wolfersdorf, v. Beulwitz and Knoch families. The article covers the church, the school (88 children), farming and crafts (24 farmers, 3083 1/2 Morgen), the development of the name from Grün to Zollgrün, and the Grünmühle and Hammermühle.",
+   "notes": "Einwohner 1861: 451. Schulbau 1808: 1223 2/3 Aßo; Kirchenvermögen 242 Thlr. Aktiva, 680 Thlr. Passiva."
+  },
+  {
+   "id": "hermannsdorf",
+   "name": "Hermannsdorf",
+   "start": {
+    "page": "695",
+    "block": "b2"
+   },
+   "end": {
+    "page": "695",
+    "block": "b2"
+   },
+   "landestheil": "Schleiz",
+   "type_verbatim": "Wüstung",
+   "type": "Wüstung",
+   "wuestung": true,
+   "historic_forms": [
+    {
+     "form": "Hermannstorf",
+     "year": 1362
+    }
+   ],
+   "dialect_form": "Herrnsdorf",
+   "first_mention_year": 1362,
+   "location": {
+    "verbatim": "im Westen von Zollgrün am Wege nach Wernsdorf im waldigen Districte Romlera",
+    "relative_to": "Zollgrün",
+    "direction": "W"
+   },
+   "events": [
+    {
+     "year": 1362,
+     "event_de": "Nickel v. Kospod verkauft Güter zu Hermannsdorf an das Kloster zum heil. Kreuz",
+     "event_en": "Nickel v. Kospod sells estates at Hermannsdorf to the Holy Cross convent"
+    }
+   ],
+   "persons": [
+    "Nickel v. Kospod"
+   ],
+   "summary_de": "Wüstung westlich von Zollgrün am Weg nach Wernsdorf im waldigen Distrikt Romlera, an dem auch Wernsdorf Anteil hat. Die Wiesenstelle heißt im Flurbuch noch Herrnsdorf; 1362 bestand der Ort noch, als Nickel v. Kospod Güter an das Kloster zum heil. Kreuz verkaufte. Brückner weist auf mehrfache irrtümliche Verwechslung mit Wernsdorf hin.",
+   "summary_en": "Deserted settlement west of Zollgrün on the road to Wernsdorf, in the wooded Romlera district in which Wernsdorf also has a share. The meadow where it stood is still called Herrnsdorf in the field register; in 1362 the village still stood when Nickel v. Kospod sold estates to the Holy Cross convent. Brückner points out that the place has often been confused with Wernsdorf."
+  },
+  {
+   "id": "mielesdorf",
+   "name": "Mielesdorf",
+   "start": {
+    "page": "695",
+    "block": "b3"
+   },
+   "end": {
+    "page": "697",
+    "block": "b2"
+   },
+   "landestheil": "Schleiz",
+   "type_verbatim": "Pfarr-, Kirch- und Grenzdorf an Sachsen",
+   "type": "Dorf",
+   "wuestung": false,
+   "historic_forms": [
+    {
+     "form": "Millersdorf",
+     "year": 1533
+    },
+    {
+     "form": "Milesdorf",
+     "year": null
+    },
+    {
+     "form": "Mielesdorf",
+     "year": null
+    },
+    {
+     "form": "Mühlesdorf",
+     "year": null
+    }
+   ],
+   "dialect_form": "Mielesdorf",
+   "first_mention_year": 1533,
+   "location": {
+    "verbatim": "1 1/2 Stunde SO. von Schleiz, am Grünbächlein, auf einer sanften Hochmulde",
+    "relative_to": "Schleiz",
+    "distance_hours": 1.5,
+    "direction": "SO"
+   },
+   "elevation": {
+    "value": 1400,
+    "unit": "Fuß",
+    "verbatim": "an der Schwelle der Kirche 1400 Fuß hoch"
+   },
+   "parish": {
+    "status": "Pfarrort",
+    "verbatim": "Pfarr-, Kirch- und Grenzdorf; Waldhaus eingepfarrt"
+   },
+   "school": {
+    "exists": true,
+    "pupils": 80
+   },
+   "houses": 62,
+   "inhabitants": 426,
+   "occupations": {
+    "Bauern": 29,
+    "Feldhäusler": 15,
+    "Kleinhäusler": 18,
+    "Taglöhner": 9,
+    "Dienstboten": 21,
+    "Kapitalisten": 2,
+    "Ortsarme": 2
+   },
+   "crafts": {
+    "Maurergesellen": 10,
+    "Zimmerleute": 7,
+    "Schneider": 3,
+    "Weber": 2,
+    "Böttcher": 1,
+    "Drechsler": 1,
+    "Fleischer": 1,
+    "Schmied": 1,
+    "Tischler": 1,
+    "Holzhändler": 1
+   },
+   "flur_morgen": 2381.25,
+   "flur_verbatim": "2381 1/4 Morgen",
+   "soil": "1/5 gut, 2/5 mittel, 2/5 gering",
+   "livestock": {
+    "Pferde": 2,
+    "Rinder": 272,
+    "Schafe": 121,
+    "Schweine": 105,
+    "Ziegen": 52,
+    "Gänse": 350,
+    "Bienenstöcke": 6
+   },
+   "municipal_finances": {
+    "verbatim": "Die Gemeinde besitzt als engere, wozu 14 Bauern gehören, außer dem Brauhause circa 3 Morgen (Anger und zwei Dorfsteiche) im Werthe von 200 Thlr., aber dagegen 1000 Thlr. Schulden; die weitere hat 400 Thlr. Schulden.",
+    "assets_thaler": 200,
+    "debts_thaler": 1000
+   },
+   "facilities": [
+    "Kirche",
+    "Pfarrei",
+    "Schule",
+    "Armenhaus",
+    "Brauhaus",
+    "Spritzenhaus",
+    "Chausseehaus (Waldhaus)",
+    "Schenkwirthschaft im Brauhaus",
+    "Branntweinschank (concessionirt)",
+    "Feuerspritze",
+    "Windmühle"
+   ],
+   "subplaces": [
+    {
+     "name": "Waldhaus",
+     "kind": "Einzelhof",
+     "page": "697",
+     "note": "Chausseehaus 1/4 Stunde NWN. von Mielesdorf im schleizer Walde; zu Kirche und Schule Mielesdorf gehörig"
+    }
+   ],
+   "events": [
+    {
+     "year": 1483,
+     "event_de": "Glocke (zersprungen 1856), angeblich von der Klause",
+     "event_en": "bell (cracked in 1856), reportedly from the Klause"
+    },
+    {
+     "year": 1527,
+     "event_de": "Kloster bei Saalburg erwirbt einen Acker im Schwant",
+     "event_en": "the convent near Saalburg acquires a field in the Schwant"
+    },
+    {
+     "year": 1533,
+     "event_de": "erster lutherischer Pfarrer Jodocus Eckner",
+     "event_en": "first Lutheran pastor Jodocus Eckner"
+    },
+    {
+     "year": 1634,
+     "event_de": "13 Tote durch die Pest",
+     "event_en": "13 deaths from the plague"
+    },
+    {
+     "year": 1710,
+     "event_de": "großer Teil des Ortes brennt ab (10. Februar)",
+     "event_en": "a large part of the village burns down (10 February)"
+    },
+    {
+     "year": 1719,
+     "event_de": "Kirche von Graf Heinrich XI. neu erbaut",
+     "event_en": "church rebuilt by Count Heinrich XI"
+    },
+    {
+     "year": 1863,
+     "event_de": "Schulhaus ganz neu erbaut",
+     "event_en": "school building rebuilt"
+    },
+    {
+     "year": 1865,
+     "event_de": "Brand: 11 Bauernhöfe und 2 Kleinhäuser (27. April)",
+     "event_en": "fire: 11 farms and 2 cottages (27 April)"
+    }
+   ],
+   "persons": [
+    "Jodocus Eckner",
+    "Heinrich XI.",
+    "J. Christoph Hainisch",
+    "Rob. Gustav Schubert"
+   ],
+   "summary_de": "Pfarr-, Kirch- und Grenzdorf an Sachsen, 1400 Fuß hoch südöstlich von Schleiz, mit 62 Privathäusern und 426 Einwohnern. Die Kirche (Gründung durch den Deutschen Orden, Neubau 1719 durch Graf Heinrich XI.) hat keinen Filial, nur das Waldhaus ist eingepfarrt; Schule mit rund 80 Kindern. Feldbau und Kleingewerbe sind Hauptbeschäftigung (29 Bauern, Flur 2381 1/4 Morgen); Brückner nennt den Ort sorbisch-deutsch. Am Artikelende folgen das Waldhaus (Chausseehaus) und die alte Klause.",
+   "summary_en": "Parish, church and border village on the Saxon frontier, 1400 feet high southeast of Schleiz, with 62 private houses and 426 inhabitants. The church (founded by the Teutonic Order, rebuilt in 1719 by Count Heinrich XI.) has no filial, only the Waldhaus is attached; the school has about 80 children. Farming and small trades are the main occupations (29 farmers, 2381 1/4 Morgen); Brückner calls the settlement Sorbian-German. The Waldhaus (toll house) and the old Klause follow at the end of the article.",
+   "notes": "Einwohner 1864: 439. Kirchenvermögen 312 Thlr. eisernes Kapital, Pfarrholzkapital circa 700 Thlr. Freigut/Vorwerk (1647 'jenkisches Freigut') im Dreißigjährigen Krieg öde."
+  },
+  {
+   "id": "alte-klause",
+   "name": "Alte Klause",
+   "start": {
+    "page": "697",
+    "block": "b3"
+   },
+   "end": {
+    "page": "698",
+    "block": "b1"
+   },
+   "landestheil": "Schleiz",
+   "type_verbatim": "anmuthige Stelle im schleizer Walde (ursprünglich Kapelle, dann Klause, dann Einsiedlerhütte)",
+   "type": "Wüstung",
+   "wuestung": true,
+   "location": {
+    "verbatim": "im schleizer Walde, NON. von Mielesdorf, nahe der sächsischen Grenze",
+    "relative_to": "Mielesdorf",
+    "direction": "NNO"
+   },
+   "events": [
+    {
+     "year": 1399,
+     "event_de": "Kapelle von der Gräfin Elisabeth, Gemahlin des Voigts Heinrich von Gera und Schleiz, gestiftet (Johannes dem Täufer und Bartholomäus)",
+     "event_en": "chapel founded by Countess Elisabeth, wife of Voigt Heinrich of Gera and Schleiz (St John the Baptist and St Bartholomew)"
+    }
+   ],
+   "persons": [
+    "Elisabeth von Schwarzburg",
+    "Heinrich von Gera und Schleiz",
+    "Heinrich Scherenberg",
+    "Heinrich XII."
+   ],
+   "summary_de": "Anmutige Stelle im schleizer Wald nordnordöstlich von Mielesdorf nahe der sächsischen Grenze: ursprünglich eine 1399 gestiftete Kapelle mit Wohnung für einen Kaplan und sechs bis acht Priester und Laienbrüder, nach der Reformation eine Sommerklause Graf Heinrichs XII. mit Gottesdienst, später eine Einsiedlerhütte. Nur der Name Klause ist der Stelle geblieben.",
+   "summary_en": "Pleasant spot in the Schleiz forest north-northeast of Mielesdorf near the Saxon border: originally a chapel founded in 1399 with housing for a chaplain and six to eight priests and lay brothers, after the Reformation a summer retreat of Count Heinrich XII. with services, later a hermit's hut. Only the name Klause remains.",
+   "notes": "Im Register als Wüstung geführt ('Alte Klause'); der Text schreibt 'Die alte Klause oder Klause'."
+  },
+  {
+   "id": "unterkoskau",
+   "name": "Unterkoskau",
+   "start": {
+    "page": "698",
+    "block": "b2"
+   },
+   "end": {
+    "page": "699",
+    "block": "b1"
+   },
+   "landestheil": "Schleiz",
+   "type_verbatim": "Kirch-, Pfarr- und Grenzdorf",
+   "type": "Dorf",
+   "wuestung": false,
+   "historic_forms": [
+    {
+     "form": "Koskode",
+     "year": 1325
+    },
+    {
+     "form": "Koskode",
+     "year": 1350
+    },
+    {
+     "form": "Kozzebode",
+     "year": null
+    },
+    {
+     "form": "Coßka",
+     "year": 1533
+    },
+    {
+     "form": "Unterkoska",
+     "year": null
+    },
+    {
+     "form": "Unterkoskau",
+     "year": null
+    }
+   ],
+   "dialect_form": "Uenterkoßka",
+   "first_mention_year": 1325,
+   "location": {
+    "verbatim": "2 1/2 Stunden SO. von Schleiz, an der Wisentthal, an der Straße von da nach Reuth",
+    "relative_to": "Schleiz",
+    "distance_hours": 2.5,
+    "direction": "SO"
+   },
+   "parish": {
+    "status": "Pfarrort",
+    "verbatim": "Zu ihr gehört Willersdorf als Filial und Oberkoskau als eingepfarrter Ort"
+   },
+   "school": {
+    "exists": true,
+    "pupils": 106
+   },
+   "houses": 79,
+   "inhabitants": 482,
+   "occupations": {
+    "Bauern": 33,
+    "Kühbauern": 9,
+    "Häusler": 24,
+    "Hausgenossen": 8,
+    "Taglöhner": 12,
+    "Dienstboten": 58,
+    "Kapitalisten": 8,
+    "Ortsarme": 1
+   },
+   "crafts": {
+    "Maurer": 16,
+    "Weber": 7,
+    "Handelsconcessionisten": 3,
+    "Schuhmacher": 3,
+    "Zimmerleute": 3,
+    "Schmiede": 2,
+    "Schneider": 2,
+    "Wagner": 2,
+    "Böttcher": 1,
+    "Müller": 1,
+    "Mühlenbauer": 1
+   },
+   "flur_morgen": 3308.75,
+   "flur_verbatim": "3308 3/4 Morgen",
+   "soil": "mehr magerer, auf kalter Unterlage ruhender, als ergiebiger Boden",
+   "livestock": {
+    "Pferde": 14,
+    "Rinder": 392,
+    "Schafe": 61,
+    "Schweine": 120,
+    "Ziegen": 51,
+    "Bienenstöcke": 28,
+    "Gänse": 750
+   },
+   "municipal_finances": {
+    "verbatim": "Die Gemeinde hat außer ihren Communalgebäuden und 1 1/2 Morgen enthaltenden Wegräumen (drei Communicationswegen) keinen Grundbesitz und kein Vermögen, aber auch keine Schulden; ihre Jahresausgabe macht 150 Thlr.",
+    "expenditure_thaler": 150
+   },
+   "facilities": [
+    "Kirche",
+    "Pfarrei",
+    "Schule",
+    "Gemeindehaus",
+    "Brauhaus",
+    "Spritzenhaus",
+    "Gasthaus (privat)",
+    "Gemeindeschenke",
+    "Feuerspritzen (zwei)",
+    "Wassermühle (Schlagmühle) mit Schneide-, Oel- und Graupenmühle",
+    "Ziegeleien (vier)"
+   ],
+   "subplaces": [
+    {
+     "name": "Schlagmühle",
+     "kind": "Mühle",
+     "page": "698",
+     "note": "Wassermühle mit Schneide-, Oel- und Graupenmühle"
+    }
+   ],
+   "events": [
+    {
+     "year": 1325,
+     "event_de": "Kloster zum heil. Kreuz erhält 11 1/2 Mark Zinsen",
+     "event_en": "Holy Cross convent receives 11 1/2 marks of rent"
+    },
+    {
+     "year": 1534,
+     "event_de": "Egid. Handsogel erster lutherischer Pfarrer",
+     "event_en": "Egid. Handsogel first Lutheran pastor"
+    },
+    {
+     "year": 1606,
+     "event_de": "Kirche und Pfarrei samt Kirchenbüchern brennen ab",
+     "event_en": "church and parsonage burn down with the parish registers"
+    },
+    {
+     "year": 1761,
+     "event_de": "Blitzschlag: 5 Bauernhöfe brennen ab (17. Mai)",
+     "event_en": "lightning strike: 5 farms burn down (17 May)"
+    },
+    {
+     "year": 1772,
+     "event_de": "G. G. Friedrich Mayer geboren (gest. 1818 zu Gera)",
+     "event_en": "G. G. Friedrich Mayer born (died 1818 in Gera)"
+    },
+    {
+     "year": 1802,
+     "event_de": "Pfarrwohnhaus mit 2000 Thlr. Unkosten erbaut",
+     "event_en": "parsonage built at a cost of 2000 thalers"
+    },
+    {
+     "year": 1864,
+     "event_de": "Brand: 11 Bauernhöfe (14. August)",
+     "event_en": "fire: 11 farms (14 August)"
+    }
+   ],
+   "persons": [
+    "Johannes Sorgel",
+    "Egid. Handsogel",
+    "Conr. Ad. Schnädelbach",
+    "G. G. Friedrich Mayer"
+   ],
+   "summary_de": "Kirch-, Pfarr- und Grenzdorf an der Wisentthal südöstlich von Schleiz mit 79 Privathäusern und 482 Einwohnern; zur Pfarrei gehören Willersdorf als Filial und Oberkoskau. Aus dem Mittelalter stammte eine Kapelle des Deutschen Ordens, die erste lutherische Pfarrstelle wurde 1534 besetzt. Schule mit 106 Kindern (27 aus Oberkoskau), Landwirtschaft mit Viehzucht und Handwerk (36 Bauerngüter, Flur 3308 3/4 Morgen); Geburtsort von G. G. Friedrich Mayer.",
+   "summary_en": "Church, parish and border village on the Wisenthal southeast of Schleiz with 79 private houses and 482 inhabitants; Willersdorf is its filial and Oberkoskau is attached to the parish. A chapel of the Teutonic Order stood here in the Middle Ages and the first Lutheran pastor took office in 1534. School with 106 children (27 from Oberkoskau), farming with cattle breeding and crafts (36 farms, 3308 3/4 Morgen); birthplace of G. G. Friedrich Mayer.",
+   "notes": "Einwohner 1861 nicht angegeben. Kirchenvermögen 4420 Thlr. Fußnote: Kirchengallerie irrt bei Hermannsgrün. Ein Stück der Wüstung Traundorf ist zur Flur geschlagen (S. 699)."
+  },
+  {
+   "id": "oberkoskau",
+   "name": "Oberkoskau",
+   "start": {
+    "page": "699",
+    "block": "b2"
+   },
+   "end": {
+    "page": "700",
+    "block": "b1"
+   },
+   "landestheil": "Schleiz",
+   "type_verbatim": "kleines Dorf",
+   "type": "Dorf",
+   "wuestung": false,
+   "historic_forms": [
+    {
+     "form": "Obirnkostode",
+     "year": 1350
+    },
+    {
+     "form": "major Koskoth",
+     "year": null
+    },
+    {
+     "form": "Obirnkozzkode",
+     "year": 1368
+    }
+   ],
+   "dialect_form": "Oberkoskä",
+   "first_mention_year": 1350,
+   "location": {
+    "verbatim": "1/4 Stunde fast südlich von Unterkoskau, 1 Stunde östlich von Tanna, an der Wisentthal",
+    "relative_to": "Unterkoskau",
+    "distance_hours": 0.25,
+    "direction": "S"
+   },
+   "parish": {
+    "status": "eingepfarrt",
+    "church_of": "Unterkoskau",
+    "verbatim": "wohin es pfarrt, schult und begräbt"
+   },
+   "school": {
+    "exists": false
+   },
+   "houses": 22,
+   "inhabitants": 137,
+   "occupations": {
+    "Bauern": 13,
+    "Feldhäusler": 7,
+    "Häusler": 3,
+    "Taglöhner": 2,
+    "Dienstboten": 18
+   },
+   "crafts": {
+    "Maurer": 4,
+    "Müller": 2,
+    "Tischler": 1,
+    "Zimmermann": 1
+   },
+   "flur_morgen": 1562,
+   "flur_verbatim": "1562 Morgen",
+   "soil": "1/4 guter, 3/4 geringer Feldboden",
+   "livestock": {
+    "Pferde": 4,
+    "Rinder": 142,
+    "Schafe": 109,
+    "Schweine": 39,
+    "Ziegen": 21,
+    "Bienenstöcke": 7,
+    "Gänse": 300
+   },
+   "municipal_finances": {
+    "verbatim": "Die Gemeinde besitzt neben ihren 3 Häusern 5 1/8 Morgen Dorfraum und außer den Communicationswegen 2 11/14 Morgen Grasboden, dabei einige geringe Schulden; ihre Jahresbedürfnisse sind 90 Thlr.",
+    "expenditure_thaler": 90
+   },
+   "facilities": [
+    "Gemeindehaus",
+    "Spritzenhaus",
+    "Brauhaus",
+    "Gemeindeschenke",
+    "Feuerspritze",
+    "Ziegelei",
+    "Obermühle",
+    "Mittelmühle"
+   ],
+   "subplaces": [
+    {
+     "name": "Obermühle",
+     "kind": "Mühle",
+     "page": "699",
+     "note": "Mahl-, Schneide- und Oelmühle an der Wisentthal"
+    },
+    {
+     "name": "Mittelmühle",
+     "kind": "Mühle",
+     "page": "699",
+     "note": "Mahl-, Schneide- und Oelmühle an der Wisentthal"
+    }
+   ],
+   "events": [
+    {
+     "year": 1350,
+     "event_de": "Heinrich, Voigt zu Gera, überlässt dem Kloster zum heil. Kreuz Geldzinsen (auch 1 Mark von Elisabeth v. Kospod)",
+     "event_en": "Heinrich, Voigt of Gera, cedes money rents to the Holy Cross convent (also 1 mark from Elisabeth v. Kospod)"
+    },
+    {
+     "year": 1368,
+     "event_de": "Heinrich v. Oschitz überlässt dem Kloster seine Güter zu Oberkoskau",
+     "event_en": "Heinrich v. Oschitz cedes his estates at Oberkoskau to the convent"
+    },
+    {
+     "year": 1633,
+     "event_de": "sieben junge Oberkoskauer fallen im benachbarten Stelzen (Oktober)",
+     "event_en": "seven young men of Oberkoskau are killed in neighbouring Stelzen (October)"
+    },
+    {
+     "year": 1860,
+     "event_de": "acht Häuser der Südzeile brennen ab",
+     "event_en": "eight houses of the south row burn down"
+    }
+   ],
+   "summary_de": "Kleines Dorf, eine Viertelstunde südlich von Unterkoskau an der Wisentthal, mit 22 Privathäusern und 137 Einwohnern; pfarrt, schult und begräbt nach Unterkoskau. Ackerbau mit Viehzucht überwiegt (13 Bauern, Flur 1562 Morgen), zwei Mühlen (Ober- und Mittelmühle) liegen nahe. Brückner beschreibt den sorbischen Ort, Güter der v. Kospod, den Brand von 1860 und Sagen.",
+   "summary_en": "Small village a quarter hour south of Unterkoskau on the Wisenthal with 22 private houses and 137 inhabitants; church, school and burial are at Unterkoskau. Arable farming with cattle breeding predominates (13 farmers, 1562 Morgen) and two mills (Obermühle and Mittelmühle) lie nearby. Brückner describes this Sorbian settlement, the estates of the v. Kospod, the fire of 1860 and local legends.",
+   "notes": "Einwohner 1864: 150. Die Schüler gehen nach Unterkoskau (27 Kinder, S. 698)."
+  },
+  {
+   "id": "willersdorf",
+   "name": "Willersdorf",
+   "start": {
+    "page": "700",
+    "block": "b2"
+   },
+   "end": {
+    "page": "702",
+    "block": "b2"
+   },
+   "landestheil": "Schleiz",
+   "type_verbatim": "kleines, hoch und kühl gelegenes Kirchdorf",
+   "type": "Dorf",
+   "wuestung": false,
+   "historic_forms": [
+    {
+     "form": "Willesdorf",
+     "year": 1533
+    },
+    {
+     "form": "Wilmersdorf",
+     "year": null
+    },
+    {
+     "form": "Willersdorf und Willesdorf",
+     "year": 1647
+    }
+   ],
+   "dialect_form": "Willesdorf",
+   "first_mention_year": 1533,
+   "location": {
+    "verbatim": "1/2 Stunde SWS. von Unterkoskau und 3/4 Stunde SO. von Tanna",
+    "relative_to": "Unterkoskau",
+    "distance_hours": 0.5,
+    "direction": "SSW"
+   },
+   "parish": {
+    "status": "Kirchdorf",
+    "church_of": "Unterkoskau",
+    "verbatim": "kam als Filial nach Unterkoskau, wohin er noch gehört"
+   },
+   "school": {
+    "exists": true
+   },
+   "houses": 36,
+   "inhabitants": 212,
+   "occupations": {
+    "Bauern": 26,
+    "Häusler": 8,
+    "Taglöhner": 2,
+    "Dienstboten": 21,
+    "Kapitalisten": 7
+   },
+   "crafts": {
+    "Maurer": 3,
+    "Müller": 2,
+    "Schieferdecker": 2,
+    "Zimmerleute": 2,
+    "Schmied": 1,
+    "Schneider": 1,
+    "Weber": 1,
+    "Tischler": 1
+   },
+   "flur_morgen": 2400.75,
+   "flur_verbatim": "2400 3/4 Morgen",
+   "soil": "von mittler Ergiebigkeit",
+   "livestock": {
+    "Pferde": 5,
+    "Rinder": 243,
+    "Schafe": 29,
+    "Schweine": 58,
+    "Ziegen": 22,
+    "Bienenstöcke": 18,
+    "Gänse": 150
+   },
+   "municipal_finances": {
+    "verbatim": "Die Gemeinde besitzt 63 Morgen theils Hutung, theils Holz im Werthe von 600 Thlr., hat sonst weder Kapitalien noch Schulden und bedarf jährlich 124 Thlr.",
+    "assets_thaler": 600,
+    "expenditure_thaler": 124
+   },
+   "facilities": [
+    "Kirche",
+    "Schule",
+    "Gemeindehaus",
+    "Brauhaus",
+    "Spritzenhaus",
+    "Gemeindeschenke (in Pacht)",
+    "Feuerspritze"
+   ],
+   "subplaces": [
+    {
+     "name": "Bucklischmühle",
+     "kind": "Mühle",
+     "page": "701",
+     "note": "Mahl- und Schneidemühle an der Wisentthal, südlich des Dorfes"
+    },
+    {
+     "name": "Ottenmühle",
+     "kind": "Mühle",
+     "page": "701",
+     "note": "Mahl- und Schneidemühle an der Wisentthal, südlich des Dorfes"
+    },
+    {
+     "name": "Ebersberg",
+     "kind": "Weiler",
+     "page": "702",
+     "note": "1647 mit fünf, jetzt mit drei Höfen besetzt; pfarrte und schulte früher nach Tanna; Glied der Gemeinde Willersdorf"
+    }
+   ],
+   "events": [
+    {
+     "year": 1620,
+     "event_de": "Kirche (die jetzige) in den Jahren 1620 bis 1623 errichtet",
+     "event_en": "present church erected in 1620–1623"
+    },
+    {
+     "year": 1766,
+     "event_de": "zwei Bauernhöfe brennen ab",
+     "event_en": "two farms burn down"
+    },
+    {
+     "year": 1823,
+     "event_de": "Schulhaus in ziemlichen Stand gesetzt",
+     "event_en": "school building put in fair order"
+    },
+    {
+     "year": 1832,
+     "event_de": "Blitzschlag: drei Häuser neben der Kirche brennen ab (12. Juni)",
+     "event_en": "lightning strike: three houses next to the church burn down (12 June)"
+    },
+    {
+     "year": 1868,
+     "event_de": "Kirche repariert",
+     "event_en": "church repaired"
+    }
+   ],
+   "persons": [
+    "v. Rohrscheidt"
+   ],
+   "summary_de": "Kleines, hoch gelegenes Kirchdorf am Ebersberg mit 36 Privathäusern und 212 Einwohnern; Filial der Pfarrei Unterkoskau, bis zur Reformation nach Tanna gepfarrt. Die Kirche entstand 1620 bis 1623, die Schule bestand schon im 17. Jahrhundert; zum Ort zählen die Bucklisch- und die Ottenmühle und der Ebersberg, die Flur umfasst 2400 3/4 Morgen. 1690 wohnte hier die adlige Familie v. Rohrscheidt (früheres Freigut); Sagen vom Spuk am Zeidelbrunnen schließen den Artikel.",
+   "summary_en": "Small, high-lying church village at the Ebersberg with 36 private houses and 212 inhabitants; a filial of the parish of Unterkoskau, and before the Reformation part of the parish of Tanna. The church was built in 1620–1623 and the school existed by the 17th century; the Bucklischmühle, Ottenmühle and the Ebersberg belong to it, and the land measures 2400 3/4 Morgen. The noble family v. Rohrscheidt lived here in 1690 (former Freigut). Legends of haunting at the Zeidelbrunnen close the article.",
+   "notes": "Schulkinder durchschnittlich 35-40 (Spanne, daher kein Einzelwert). Kirchenvermögen 500 Thlr. Zum Pfarrbau trägt Willersdorf 1/4 bei. Zum Ort gehört nach dem Register auch der Ebersberg, dessen Absatz S. 702 b2 hier eingeschlossen ist."
+  },
+  {
+   "id": "traundorf",
+   "name": "Traundorf",
+   "start": {
+    "page": "702",
+    "block": "b3"
+   },
+   "end": {
+    "page": "702",
+    "block": "b3"
+   },
+   "landestheil": "Schleiz",
+   "type_verbatim": "ein alter wüster Ort, jetzt Wald und Hutung umfassend",
+   "type": "Wüstung",
+   "wuestung": true,
+   "historic_forms": [
+    {
+     "form": "Trauendorf",
+     "year": null
+    }
+   ],
+   "dialect_form": "Traudorf",
+   "location": {
+    "verbatim": "in einem oberen Nebengründchen des Lohbachs, zwischen Unterkoskau und Tanna",
+    "relative_to": "Tanna"
+   },
+   "summary_de": "Alter wüster Ort in einem oberen Nebengründchen des Lohbachs zwischen Unterkoskau und Tanna, jetzt Wald und Hutung. An der Markung haben beide Koskau und Willersdorf Anteil; der Zeitpunkt des Eingehens als Dorf ist unbekannt, noch vor etwa 80 Jahren war ein Garten zu sehen.",
+   "summary_en": "Old deserted settlement in an upper side valley of the Lohbach between Unterkoskau and Tanna, now woodland and pasture. Both Koskau villages and Willersdorf share in its fields; when it ceased to be a village is unknown, and a garden could still be seen there about 80 years earlier.",
+   "notes": "Ein Stück der Wüstung ist zur Flur von Unterkoskau geschlagen (S. 699)."
+  },
+  {
+   "id": "stelzen",
+   "name": "Stelzen",
+   "start": {
+    "page": "702",
+    "block": "b4"
+   },
+   "end": {
+    "page": "704",
+    "block": "b1"
+   },
+   "landestheil": "Schleiz",
+   "type_verbatim": "zweiherrisches Kirch- und Grenzdorf, einer der höchsten Punkte des Landes",
+   "type": "Dorf",
+   "wuestung": false,
+   "historic_forms": [
+    {
+     "form": "Stelcze",
+     "year": 1279
+    },
+    {
+     "form": "Stelcze",
+     "year": 1335
+    }
+   ],
+   "dialect_form": "Stelzen",
+   "first_mention_year": 1279,
+   "location": {
+    "verbatim": "3 Stunden SO. von Schleiz, an der Straße von da nach Reuth (Bahnhof), auf dem zur Wisentthal geneigten Westrand einer hohen Bergwelle",
+    "relative_to": "Schleiz",
+    "distance_hours": 3,
+    "direction": "SO"
+   },
+   "parish": {
+    "status": "Kirchdorf",
+    "church_of": "Reuth",
+    "verbatim": "Filial von Reuth; eingepfarrt auch die Häuser von Spielmes rechts des Goldbaches"
+   },
+   "school": {
+    "exists": true,
+    "pupils": 71
+   },
+   "houses": 48,
+   "inhabitants": 325,
+   "occupations": {
+    "Bauern": 22,
+    "Häusler": 25,
+    "Taglöhner": 2,
+    "Dienstboten": 22
+   },
+   "crafts": {
+    "Schuhmacher": 2,
+    "Maurer": 1,
+    "Tischler": 1,
+    "Wirth": 1
+   },
+   "flur_morgen": 1826.5,
+   "flur_verbatim": "1826 1/2 Morgen",
+   "livestock": {
+    "Pferde": 5,
+    "Rinder": 265,
+    "Schafe": 4,
+    "Schweine": 64,
+    "Ziegen": 35,
+    "Gänse": 90,
+    "Bienenstöcke": 10
+   },
+   "municipal_finances": {
+    "verbatim": "Die Gemeinde hat als engere circa 200 Thlr. Vermögen, als weitere kein Kapital und keinen Besitz, dagegen eine Jahresausgabe von 50—60 Thlr.",
+    "assets_thaler": 200
+   },
+   "facilities": [
+    "Kirche",
+    "Schule",
+    "Gemeindehaus",
+    "Spritzenhaus",
+    "Gasthöfe (zwei, ein sächsischer und ein reußischer)",
+    "Feuerspritze",
+    "Ziegeleien (drei)",
+    "sächsisch-hofer Eisenbahn durch die Flur"
+   ],
+   "events": [
+    {
+     "year": 1279,
+     "event_de": "Heinrich, Herr von Gera, gibt Güter in Stelzen dem Deutschen Orden zu Schleiz",
+     "event_en": "Heinrich, lord of Gera, gives estates at Stelzen to the Teutonic Order of Schleiz"
+    },
+    {
+     "year": 1333,
+     "event_de": "Kloster zum heil. Kreuz erhält 1 1/2 Mark Zinsen (seit 1333 und 1355)",
+     "event_en": "Holy Cross convent obtains 1 1/2 marks of rent (from 1333 and 1355)"
+    },
+    {
+     "year": 1797,
+     "event_de": "Schulhaus erbaut (1796 oder 1797)",
+     "event_en": "school building erected (1796 or 1797)"
+    },
+    {
+     "year": 1806,
+     "event_de": "Kirche neu erbaut",
+     "event_en": "church rebuilt"
+    },
+    {
+     "year": 1822,
+     "event_de": "ganzer Ort Spielmes eingeschult",
+     "event_en": "the whole village of Spielmes is assigned to the school"
+    },
+    {
+     "year": 1848,
+     "event_de": "Brand: 4 Bauerngüter und 1 Kleinhaus (26. Oktober)",
+     "event_en": "fire: 4 farms and 1 cottage (26 October)"
+    },
+    {
+     "year": 1853,
+     "event_de": "Brände am 26. August und 5. Oktober",
+     "event_en": "fires on 26 August and 5 October"
+    },
+    {
+     "year": 1864,
+     "event_de": "Kirche repariert",
+     "event_en": "church repaired"
+    },
+    {
+     "year": 1867,
+     "event_de": "3 Höfe brennen ab (18. April)",
+     "event_en": "3 farms burn down (18 April)"
+    },
+    {
+     "year": 1868,
+     "event_de": "4 Häuser brennen ab (21. Juni)",
+     "event_en": "4 houses burn down (21 June)"
+    }
+   ],
+   "summary_de": "Zweiherrisches Kirch- und Grenzdorf an der Straße nach Reuth, einer der höchsten Punkte des Landes; 48 Privathäuser, 325 Einwohner. Kirche (1806 neu) und Schule (71 Kinder) liegen auf reußischem Boden, die Kirche ist Filial von Reuth; ein Teil der Flur und ein Gasthof stehen unter sächsischer Hoheit. Behandelt werden die Wallfahrtskapelle am Stelzenbaum (Aussicht, Sagen), die starke Vieh- und Gänsezucht, Brände seit 1848 und die Flur von 1826 1/2 Morgen.",
+   "summary_en": "Village under two lords, a church and border village on the road to Reuth and one of the highest points of the principality; 48 private houses, 325 inhabitants. Church (rebuilt 1806) and school (71 children) lie on Reuss soil and the church is a filial of Reuth; part of the fields and one inn lie under Saxon sovereignty. The article covers the pilgrimage chapel at the Stelzenbaum (view, legends), heavy cattle and goose rearing, fires since 1848, and 1826 1/2 Morgen of land.",
+   "notes": "Einwohner 1861: 283. Kirchenärar 4000 Thlr. Kirchenspannfrohnhöfe: Stelzen 24, Spielmes 13. Die Höhe der Kappel beim Stelzenbaum wird mit 1619 Fuß angegeben (die Kappel oberhalb Schilbach: 1610 Fuß); für das Dorf selbst gibt Brückner keine Höhe an."
+  },
+  {
+   "id": "spielmes",
+   "name": "Spielmes",
+   "start": {
+    "page": "704",
+    "block": "b2"
+   },
+   "end": {
+    "page": "705",
+    "block": "b2"
+   },
+   "landestheil": "Schleiz",
+   "type_verbatim": "kleines Grenzdorf",
+   "type": "Dorf",
+   "wuestung": false,
+   "historic_forms": [
+    {
+     "form": "Spilmeß",
+     "year": null
+    },
+    {
+     "form": "Spilmes",
+     "year": null
+    },
+    {
+     "form": "Spielmeß",
+     "year": null
+    },
+    {
+     "form": "Spielmes",
+     "year": null
+    }
+   ],
+   "dialect_form": "Spielms und Spielmütz",
+   "location": {
+    "verbatim": "3 Stunden SOS. von Schleiz und 1/2 Stunde S. von Stelzen, im Hochthale des Goldbaches",
+    "relative_to": "Schleiz",
+    "distance_hours": 3,
+    "direction": "SSO"
+   },
+   "parish": {
+    "status": "eingepfarrt",
+    "church_of": "Stelzen",
+    "verbatim": "pfarrt nur der größere rechts liegende Theil nach Stelzen, der links nach Mißlareuth"
+   },
+   "school": {
+    "exists": false
+   },
+   "houses": 23,
+   "inhabitants": 154,
+   "occupations": {
+    "Landwirthe": 19,
+    "Häusler": 4,
+    "Taglöhner": 4,
+    "Dienstboten": 39
+   },
+   "crafts": {
+    "Maurer": 1,
+    "Weber": 1,
+    "Zimmermann": 1
+   },
+   "flur_morgen": 1301.5,
+   "flur_verbatim": "1301½ Morgen",
+   "livestock": {
+    "Pferde": 9,
+    "Rinder": 199,
+    "Schafe": 38,
+    "Schweine": 37,
+    "Ziegen": 14,
+    "Gänse": 100,
+    "Bienenstöcke": 13
+   },
+   "municipal_finances": {
+    "verbatim": "Die Gemeinde besitzt als engere 1 Teich, als weitere weder Grund noch Kapital oder Schuld. Ihre Jahresausgabe durchschnittlich 40—50 Thlr."
+   },
+   "facilities": [
+    "Spritzenhaus",
+    "Gasthof (privat)",
+    "Feuerspritze"
+   ],
+   "subplaces": [
+    {
+     "name": "Reinhardswalde",
+     "kind": "Einzelhof",
+     "page": "705",
+     "note": "einzelnes reußisches Haus auf der in Sachsen ausspringenden Landzunge der Flur, unweit des sächsischen Dorfes Reinhardswalde; gehört zur Gemeinde Spielmes, kircht nach Kennitz und schult nach Döles"
+    }
+   ],
+   "events": [
+    {
+     "year": 1822,
+     "event_de": "Wanderschule aufgegeben; der ganze Ort schult nach Stelzen",
+     "event_en": "itinerant school ended; the whole village attends school at Stelzen"
+    },
+    {
+     "year": 1860,
+     "event_de": "ein Bauernhof und ein Kleinhaus brennen ab (auch 1861)",
+     "event_en": "a farm and a cottage burn down (also 1861)"
+    }
+   ],
+   "summary_de": "Kleines Grenzdorf im grasreichen Hochtal des Goldbachs, 23 Privathäuser und 154 Einwohner, hufeisenförmig um fette Wiesen angelegt und vom Goldbach in zwei Teile geteilt. Ein Teil pfarrt nach Stelzen, der andere nach Mißlareuth; die Schule ist in Stelzen. Ackerbau und Viehzucht sind die Erwerbsquellen (Flur 1301 1/2 Morgen, zungenförmig ins Sächsische greifend); zum Ort zählt das einzelne Haus bei Reinhardswalde.",
+   "summary_en": "Small border village in the grassy high valley of the Goldbach with 23 private houses and 154 inhabitants, laid out in a horseshoe around rich meadows and divided in two by the Goldbach. One part belongs to the parish of Stelzen, the other to Mißlareuth; the school is at Stelzen. Livelihood is arable farming and cattle breeding (1301 1/2 Morgen, extending tongue-like into Saxony); a single house near Reinhardswalde belongs to the municipality.",
+   "notes": "Einwohner 1864: 162. Der Artikel beginnt auf S. 704 b2 und endet mitten im Viehbestand der Seite; er setzt auf S. 705 b1 fort; 9 Pf. auf S. 704, 199 R. usw. auf S. 705. Das Register führt Reinhardswalde als Bestandtheil von Spielmes (S. 705)."
+  }
+ ],
+ "transcription_issues": [
+  {
+   "page": "645",
+   "block": "b2",
+   "field": "livestock.Rinder (Hirschbach)",
+   "transcribed": "18 K.",
+   "printed": "18 R. (Rinder)",
+   "note": "Abkürzung gelesen als K.; am Faksimile geprüft; im Eintrag als Rinder 18 geführt"
+  },
+  {
+   "page": "675",
+   "block": "b3",
+   "field": "Kirchenvermögen Kulm (1866)",
+   "transcribed": "8124 1/2 Thlr.",
+   "printed": "8124 1/7 Thlr.",
+   "note": "Bruch ¹/₇ im Druck; nur in notes des Eintrags 'kulm' genannt"
+  }
+ ]
+}

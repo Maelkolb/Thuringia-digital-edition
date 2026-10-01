@@ -1,0 +1,679 @@
+{
+ "id": "handel-jahrmaerkte-marktorte-landesteile",
+ "title": {
+  "de": "Marktorte und Jahrmärkte der drei Landesteile",
+  "en": "Market towns and annual fairs of the three districts"
+ },
+ "category": "trade-transport",
+ "section": "t1-3-7",
+ "sources": [
+  {
+   "page": "262",
+   "block": "b2"
+  },
+  {
+   "page": "262",
+   "block": "b3",
+   "rows": "i1-i3"
+  },
+  {
+   "page": "262",
+   "block": "fn1"
+  }
+ ],
+ "summary": {
+  "de": "Brückner führt die Marktorte des Fürstenthums auf, geordnet nach Landesteilen, mit Zahl und Art ihrer Jahrmärkte: drei im Landesteil Gera, sieben in Schleiz und elf in Lobenstein-Ebersdorf. Aus den Zahlwörtern des Textes ergeben sich 110 Märkte; Wurzbach, Ebersdorf und Schleiz haben die meisten. Die Wochenmärkte sind nicht erfasst.",
+  "en": "Brückner lists the market towns of the principality by district, with the number and kind of their annual fairs: three in the district of Gera, seven in Schleiz and eleven in Lobenstein-Ebersdorf. The number words in the text yield 110 markets; Wurzbach, Ebersdorf and Schleiz have the most. Weekly markets are not recorded."
+ },
+ "method": {
+  "de": "Die Aufzählung S. 262 (b3, drei Listenpunkte) nennt je Ort Märkte in Zahlwörtern (»sieben Kram- und Viehmärkte«). Jede genannte Art wurde als eine Zeile mit der Anzahl erfasst (Spalte count, abgeleitet aus dem Zahlwort) und einer von drei Marktarten zugeordnet: Kram- und Jahrmärkte (auch kombiniert mit Vieh, Leinwand oder Schweinen), reine Viehmärkte, sowie Ross-, Woll- und Kornmärkte. Ein kombinierter Markt (»ein Ross-, Vieh- und Kornmarkt«, »ein Kram- und Viehmarkt«) zählt als ein Markt. Bei »sechs Kram-, drei Viehmärkte« (Lobenstein) und »vier Kram- und fünf Viehmärkte« (Ruppersdorf) sind sechs bzw. vier Krammärkte gelesen; in Klammern ergänzte Wortteile stehen in eckigen Klammern.",
+  "en": "The list on p. 262 (b3, three list items) gives the markets of each place in number words (“sieben Kram- und Viehmärkte”). Each kind named was recorded as one row with its number (column count, derived from the number word) and assigned to one of three types: general fairs (also combined with cattle, linen or pigs), pure cattle markets, and horse, wool and grain markets. A combined market (“ein Ross-, Vieh- und Kornmarkt”, “ein Kram- und Viehmarkt”) counts as one market. In “sechs Kram-, drei Viehmärkte” (Lobenstein) and “vier Kram- und fünf Viehmärkte” (Ruppersdorf) six and four general markets are read; word parts supplied in brackets are shown in square brackets."
+ },
+ "findings": [
+  {
+   "de": "Das Unterland hat mit 3 Marktorten und 13 Märkten die wenigsten, Lobenstein-Ebersdorf mit 11 Marktorten und 66 Märkten (60,0 % aller 110) die meisten; das bestätigt Brückners Aussage. Schleiz liegt mit 7 Orten und 31 Märkten dazwischen.",
+   "en": "The Unterland has the fewest, with 3 market towns and 13 markets, Lobenstein-Ebersdorf the most, with 11 market towns and 66 markets (60.0 % of all 110); this confirms Brückner's statement. Schleiz lies in between with 7 places and 31 markets."
+  },
+  {
+   "de": "Die meisten Märkte haben Wurzbach (14), Ebersdorf (12) und Schleiz (11); Lobenstein (10), Gera (9) und Ruppersdorf (9) folgen. Je Marktort sind es im Durchschnitt 4,3 (Gera), 4,4 (Schleiz) und 6,0 (Lobenstein-Ebersdorf).",
+   "en": "The most markets are held at Wurzbach (14), Ebersdorf (12) and Schleiz (11); Lobenstein (10), Gera (9) and Ruppersdorf (9) follow. The average per market town is 4.3 (Gera), 4.4 (Schleiz) and 6.0 (Lobenstein-Ebersdorf)."
+  },
+  {
+   "de": "Von 27 reinen Viehmärkten finden 22 (81,5 %) im Landesteil Lobenstein-Ebersdorf statt (Ebersdorf 7, Wurzbach 7, Ruppersdorf 5, Lobenstein 3); Pferde- (Ross-) und Kornmärkte gibt es nur in Gera und Langenberg, Wollmärkte nur in den drei Landesteilshauptorten Gera, Schleiz und Lobenstein.",
+   "en": "Of 27 pure cattle markets, 22 (81.5 %) take place in the district of Lobenstein-Ebersdorf (Ebersdorf 7, Wurzbach 7, Ruppersdorf 5, Lobenstein 3); horse and grain markets exist only at Gera and Langenberg, wool markets only in the three district centers Gera, Schleiz and Lobenstein."
+  }
+ ],
+ "caveats": [
+  {
+   "de": "Brückner nennt die Zahl der Märkte pro Jahr, nicht ihre Dauer oder Bedeutung; Wochenmärkte sind ausdrücklich ausgenommen. Die Typisierung in drei Arten ist eine Vereinfachung der gedruckten Bezeichnungen.",
+   "en": "Brückner gives the number of markets per year, not their duration or importance; weekly markets are expressly excluded. The three-way typing is a simplification of the printed designations."
+  },
+  {
+   "de": "Einzelne Formulierungen sind mehrdeutig (»sechs Kram-, drei Viehmärkte«, »sieben Kram- und Vieh- und sieben Viehmärkte«); die Lesart ist in der Methode beschrieben. Die Märkte in Titschendorf sind nach der Fußnote angeblich zur Zeit eingestellt, aber mitgezählt.",
+   "en": "Some phrasings are ambiguous (“sechs Kram-, drei Viehmärkte”, “sieben Kram- und Vieh- und sieben Viehmärkte”); the reading is described under method. The markets at Titschendorf are, according to the footnote, reportedly suspended at present, but are included in the count."
+  }
+ ],
+ "conversions": [],
+ "datasets": [
+  {
+   "name": "maerkte",
+   "title": {
+    "de": "Märkte nach Ort und Art",
+    "en": "Markets by place and kind"
+   },
+   "columns": [
+    {
+     "name": "place",
+     "label": {
+      "de": "Marktort",
+      "en": "Market town"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "district",
+     "label": {
+      "de": "Landesteil",
+      "en": "District"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "printed",
+     "label": {
+      "de": "Wortlaut der Angabe",
+      "en": "Printed wording"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "kind",
+     "label": {
+      "de": "Marktart",
+      "en": "Type of market"
+     },
+     "type": "string",
+     "unit": null,
+     "derived": true
+    },
+    {
+     "name": "count",
+     "label": {
+      "de": "Anzahl Märkte",
+      "en": "Number of markets"
+     },
+     "type": "integer",
+     "unit": "Märkte",
+     "derived": true,
+     "note": "aus dem Zahlwort"
+    },
+    {
+     "name": "source",
+     "label": {
+      "de": "Quelle",
+      "en": "Source"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "note",
+     "label": {
+      "de": "Anmerkung",
+      "en": "Note"
+     },
+     "type": "string",
+     "unit": null
+    }
+   ],
+   "rows": [
+    [
+     "Gera",
+     "Gera",
+     "vier Jahrmärkte",
+     "Kram- und Jahrmärkte",
+     4,
+     "S. 262 b3 i1",
+     null
+    ],
+    [
+     "Gera",
+     "Gera",
+     "zwei Rossmärkte",
+     "Ross-, Woll- und Kornmärkte",
+     2,
+     "S. 262 b3 i1",
+     null
+    ],
+    [
+     "Gera",
+     "Gera",
+     "zwei Viehmärkte",
+     "Viehmärkte",
+     2,
+     "S. 262 b3 i1",
+     null
+    ],
+    [
+     "Gera",
+     "Gera",
+     "ein Wollmarkt",
+     "Ross-, Woll- und Kornmärkte",
+     1,
+     "S. 262 b3 i1",
+     null
+    ],
+    [
+     "Langenberg",
+     "Gera",
+     "zwei Krammärkte",
+     "Kram- und Jahrmärkte",
+     2,
+     "S. 262 b3 i1",
+     null
+    ],
+    [
+     "Langenberg",
+     "Gera",
+     "ein Ross-, Vieh- und Kornmarkt",
+     "Ross-, Woll- und Kornmärkte",
+     1,
+     "S. 262 b3 i1",
+     null
+    ],
+    [
+     "Grossaga",
+     "Gera",
+     "ein Krammarkt",
+     "Kram- und Jahrmärkte",
+     1,
+     "S. 262 b3 i1",
+     null
+    ],
+    [
+     "Schleiz",
+     "Schleiz",
+     "sieben Kram- und Viehmärkte",
+     "Kram- und Jahrmärkte",
+     7,
+     "S. 262 b3 i2",
+     null
+    ],
+    [
+     "Schleiz",
+     "Schleiz",
+     "drei Viehmärkte",
+     "Viehmärkte",
+     3,
+     "S. 262 b3 i2",
+     null
+    ],
+    [
+     "Schleiz",
+     "Schleiz",
+     "ein Wollmarkt",
+     "Ross-, Woll- und Kornmärkte",
+     1,
+     "S. 262 b3 i2",
+     null
+    ],
+    [
+     "Hohenleuben",
+     "Schleiz",
+     "vier Kram- und Viehmärkte",
+     "Kram- und Jahrmärkte",
+     4,
+     "S. 262 b3 i2",
+     null
+    ],
+    [
+     "Weissendorf",
+     "Schleiz",
+     "zwei Kram- und Viehmärkte",
+     "Kram- und Jahrmärkte",
+     2,
+     "S. 262 b3 i2",
+     null
+    ],
+    [
+     "Langenwolschendorf",
+     "Schleiz",
+     "zwei Kram-, Vieh- und Leinwandmärkte",
+     "Kram- und Jahrmärkte",
+     2,
+     "S. 262 b3 i2",
+     null
+    ],
+    [
+     "Rödersdorf",
+     "Schleiz",
+     "ein Krammarkt",
+     "Kram- und Jahrmärkte",
+     1,
+     "S. 262 b3 i2",
+     null
+    ],
+    [
+     "Saalburg",
+     "Schleiz",
+     "vier Kram- und Viehmärkte",
+     "Kram- und Jahrmärkte",
+     4,
+     "S. 262 b3 i2",
+     null
+    ],
+    [
+     "Tanna",
+     "Schleiz",
+     "sieben Kram- und Viehmärkte",
+     "Kram- und Jahrmärkte",
+     7,
+     "S. 262 b3 i2",
+     null
+    ],
+    [
+     "Lobenstein",
+     "Lobenstein-Ebersdorf",
+     "sechs Kram-[märkte]",
+     "Kram- und Jahrmärkte",
+     6,
+     "S. 262 b3 i3",
+     null
+    ],
+    [
+     "Lobenstein",
+     "Lobenstein-Ebersdorf",
+     "drei Viehmärkte",
+     "Viehmärkte",
+     3,
+     "S. 262 b3 i3",
+     null
+    ],
+    [
+     "Lobenstein",
+     "Lobenstein-Ebersdorf",
+     "ein Wollmarkt",
+     "Ross-, Woll- und Kornmärkte",
+     1,
+     "S. 262 b3 i3",
+     null
+    ],
+    [
+     "Ebersdorf",
+     "Lobenstein-Ebersdorf",
+     "fünf Kram- und Viehmärkte",
+     "Kram- und Jahrmärkte",
+     5,
+     "S. 262 b3 i3",
+     null
+    ],
+    [
+     "Ebersdorf",
+     "Lobenstein-Ebersdorf",
+     "sieben Viehmärkte",
+     "Viehmärkte",
+     7,
+     "S. 262 b3 i3",
+     null
+    ],
+    [
+     "Hirschberg",
+     "Lobenstein-Ebersdorf",
+     "fünf Kram- und Viehmärkte",
+     "Kram- und Jahrmärkte",
+     5,
+     "S. 262 b3 i3",
+     null
+    ],
+    [
+     "Hirschberg",
+     "Lobenstein-Ebersdorf",
+     "ein Krammarkt",
+     "Kram- und Jahrmärkte",
+     1,
+     "S. 262 b3 i3",
+     null
+    ],
+    [
+     "Langgrün",
+     "Lobenstein-Ebersdorf",
+     "ein Kram- und Viehmarkt",
+     "Kram- und Jahrmärkte",
+     1,
+     "S. 262 b3 i3",
+     null
+    ],
+    [
+     "Lothra",
+     "Lobenstein-Ebersdorf",
+     "drei Kram- und Viehmärkte",
+     "Kram- und Jahrmärkte",
+     3,
+     "S. 262 b3 i3",
+     null
+    ],
+    [
+     "Thimmendorf",
+     "Lobenstein-Ebersdorf",
+     "fünf Kram- und Viehmärkte",
+     "Kram- und Jahrmärkte",
+     5,
+     "S. 262 b3 i3",
+     null
+    ],
+    [
+     "Ruppersdorf",
+     "Lobenstein-Ebersdorf",
+     "vier Kram-[märkte]",
+     "Kram- und Jahrmärkte",
+     4,
+     "S. 262 b3 i3",
+     null
+    ],
+    [
+     "Ruppersdorf",
+     "Lobenstein-Ebersdorf",
+     "fünf Viehmärkte",
+     "Viehmärkte",
+     5,
+     "S. 262 b3 i3",
+     null
+    ],
+    [
+     "Wurzbach",
+     "Lobenstein-Ebersdorf",
+     "sieben Kram- und Vieh-[märkte]",
+     "Kram- und Jahrmärkte",
+     7,
+     "S. 262 b3 i3",
+     null
+    ],
+    [
+     "Wurzbach",
+     "Lobenstein-Ebersdorf",
+     "sieben Viehmärkte",
+     "Viehmärkte",
+     7,
+     "S. 262 b3 i3",
+     null
+    ],
+    [
+     "Titschendorf",
+     "Lobenstein-Ebersdorf",
+     "vier Kram- und Viehmärkte",
+     "Kram- und Jahrmärkte",
+     4,
+     "S. 262 b3 i3",
+     "angeblich zur Zeit eingestellt (Fußnote)"
+    ],
+    [
+     "Ossla",
+     "Lobenstein-Ebersdorf",
+     "ein Kram- und Schweinemarkt",
+     "Kram- und Jahrmärkte",
+     1,
+     "S. 262 b3 i3",
+     null
+    ],
+    [
+     "Pottiga",
+     "Lobenstein-Ebersdorf",
+     "ein Krammarkt",
+     "Kram- und Jahrmärkte",
+     1,
+     "S. 262 b3 i3",
+     null
+    ]
+   ],
+   "source_refs": [
+    {
+     "page": "262",
+     "block": "b3",
+     "rows": "i1-i3"
+    }
+   ]
+  }
+ ],
+ "charts": [
+  {
+   "id": "c1",
+   "dataset": "maerkte",
+   "title": {
+    "de": "Märkte je Marktort",
+    "en": "Markets per market town"
+   },
+   "caption": {
+    "de": "Anzahl der Jahrmärkte, Viehmärkte und sonstigen Märkte je Ort. Schleiz, Wurzbach und Ebersdorf stehen an der Spitze.",
+    "en": "Number of annual fairs, cattle markets and other markets per town. Schleiz, Wurzbach and Ebersdorf are at the top."
+   },
+   "vegalite": {
+    "height": 480,
+    "transform": [
+     {
+      "calculate": {
+       "de": "datum.kind",
+       "en": "{'Kram- und Jahrmärkte':'Fairs and general markets','Viehmärkte':'Cattle markets','Ross-, Woll- und Kornmärkte':'Horse, wool and grain markets'}[datum.kind]"
+      },
+      "as": "kind_label"
+     }
+    ],
+    "mark": "bar",
+    "encoding": {
+     "y": {
+      "field": "place",
+      "type": "nominal",
+      "sort": {
+       "field": "count",
+       "op": "sum",
+       "order": "descending"
+      },
+      "title": null
+     },
+     "x": {
+      "field": "count",
+      "type": "quantitative",
+      "title": {
+       "de": "Anzahl Märkte",
+       "en": "Number of markets"
+      },
+      "axis": {
+       "tickMinStep": 1
+      }
+     },
+     "color": {
+      "field": "kind",
+      "type": "nominal",
+      "scale": {
+       "domain": [
+        "Kram- und Jahrmärkte",
+        "Viehmärkte",
+        "Ross-, Woll- und Kornmärkte"
+       ]
+      },
+      "title": {
+       "de": "Marktart",
+       "en": "Type of market"
+      },
+      "legend": {
+       "labelExpr": {
+        "de": "datum.label",
+        "en": "{'Kram- und Jahrmärkte':'Fairs and general markets','Viehmärkte':'Cattle markets','Ross-, Woll- und Kornmärkte':'Horse, wool and grain markets'}[datum.label]"
+       },
+       "columns": 1,
+       "labelLimit": 300
+      }
+     },
+     "tooltip": [
+      {
+       "field": "place",
+       "title": {
+        "de": "Marktort",
+        "en": "Market town"
+       }
+      },
+      {
+       "field": "district",
+       "title": {
+        "de": "Landesteil",
+        "en": "District"
+       }
+      },
+      {
+       "field": "kind_label",
+       "title": {
+        "de": "Marktart",
+        "en": "Type"
+       }
+      },
+      {
+       "field": "printed",
+       "title": {
+        "de": "Wortlaut",
+        "en": "Printed wording"
+       }
+      },
+      {
+       "field": "count",
+       "title": {
+        "de": "Anzahl",
+        "en": "Number"
+       }
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "c2",
+   "dataset": "maerkte",
+   "title": {
+    "de": "Märkte je Landesteil",
+    "en": "Markets per district"
+   },
+   "caption": {
+    "de": "Summe der Märkte nach Art. Es gibt 3 Marktorte im Landesteil Gera, 7 in Schleiz und 11 in Lobenstein-Ebersdorf.",
+    "en": "Sum of markets by type. There are 3 market towns in the district of Gera, 7 in Schleiz and 11 in Lobenstein-Ebersdorf."
+   },
+   "vegalite": {
+    "height": 260,
+    "transform": [
+     {
+      "calculate": {
+       "de": "datum.kind",
+       "en": "{'Kram- und Jahrmärkte':'Fairs and general markets','Viehmärkte':'Cattle markets','Ross-, Woll- und Kornmärkte':'Horse, wool and grain markets'}[datum.kind]"
+      },
+      "as": "kind_label"
+     }
+    ],
+    "mark": "bar",
+    "encoding": {
+     "x": {
+      "field": "district",
+      "type": "nominal",
+      "sort": [
+       "Gera",
+       "Schleiz",
+       "Lobenstein-Ebersdorf"
+      ],
+      "title": null,
+      "axis": {
+       "labelAngle": 0
+      }
+     },
+     "y": {
+      "field": "count",
+      "type": "quantitative",
+      "aggregate": "sum",
+      "title": {
+       "de": "Anzahl Märkte",
+       "en": "Number of markets"
+      }
+     },
+     "color": {
+      "field": "kind",
+      "type": "nominal",
+      "scale": {
+       "domain": [
+        "Kram- und Jahrmärkte",
+        "Viehmärkte",
+        "Ross-, Woll- und Kornmärkte"
+       ]
+      },
+      "title": {
+       "de": "Marktart",
+       "en": "Type of market"
+      },
+      "legend": {
+       "labelExpr": {
+        "de": "datum.label",
+        "en": "{'Kram- und Jahrmärkte':'Fairs and general markets','Viehmärkte':'Cattle markets','Ross-, Woll- und Kornmärkte':'Horse, wool and grain markets'}[datum.label]"
+       },
+       "columns": 1,
+       "labelLimit": 300
+      }
+     },
+     "tooltip": [
+      {
+       "field": "district",
+       "title": {
+        "de": "Landesteil",
+        "en": "District"
+       }
+      },
+      {
+       "field": "kind_label",
+       "title": {
+        "de": "Marktart",
+        "en": "Type"
+       }
+      },
+      {
+       "field": "count",
+       "aggregate": "sum",
+       "title": {
+        "de": "Anzahl",
+        "en": "Number"
+       }
+      }
+     ]
+    }
+   }
+  }
+ ],
+ "keywords": {
+  "de": [
+   "Märkte",
+   "Jahrmärkte",
+   "Viehmärkte",
+   "Wollmarkt",
+   "Marktorte",
+   "Wurzbach",
+   "Ebersdorf",
+   "Schleiz",
+   "Gera",
+   "Tanna",
+   "Lobenstein"
+  ],
+  "en": [
+   "markets",
+   "annual fairs",
+   "cattle markets",
+   "wool market",
+   "market towns",
+   "Wurzbach",
+   "Ebersdorf",
+   "Schleiz",
+   "Gera",
+   "Tanna",
+   "Lobenstein"
+  ]
+ },
+ "related": [
+  "handel-gewerbe-nach-landesteilen-1864"
+ ],
+ "generated_by": "Claude Sonnet 5.5 (subagent A10)",
+ "date": "2026-10-01"
+}

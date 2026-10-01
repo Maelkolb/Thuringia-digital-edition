@@ -1,0 +1,1275 @@
+{
+ "id": "landwirtschaft-bodennutzung-1854",
+ "title": {
+  "de": "Bodennutzung in den drei Landestheilen (Vermessung 1854)",
+  "en": "Land use in the three districts (survey of 1854)"
+ },
+ "category": "agriculture",
+ "section": "t1-3-2",
+ "sources": [
+  {
+   "page": "216",
+   "block": "b4"
+  },
+  {
+   "page": "217",
+   "block": "b1",
+   "rows": "r2-t11"
+  },
+  {
+   "page": "217",
+   "block": "b3",
+   "rows": "r2-r5"
+  },
+  {
+   "page": "217",
+   "block": "fn1"
+  },
+  {
+   "page": "217",
+   "block": "fn2"
+  },
+  {
+   "page": "217",
+   "block": "fn3"
+  }
+ ],
+ "summary": {
+  "de": "Nach der Landesvermessung von 1854 verteilt Brückner die Fläche des Fürstenthums (322.746 Morgen, rund 82.404 ha) auf neun Nutzungsarten. Die Diagramme zeigen, wie sich Feld, Wiese, Hutung, Garten und Wald auf Gera, Schleiz und Lobenstein-Ebersdorf verteilen und wie viel landwirthschaftlicher Boden auf eine Familie kommt.",
+  "en": "After the land survey of 1854 Brückner distributes the area of the principality (322,746 Morgen, about 82,404 ha) over nine kinds of use. The charts show how arable land, meadow, pasture, garden and woodland are distributed over Gera, Schleiz and Lobenstein-Ebersdorf and how much agricultural land there is per family."
+ },
+ "method": {
+  "de": "Die Morgenzahlen und Prozentwerte stammen aus der Tabelle auf S. 217 (Block b1, Zeilen »Arten der Benutzung«) und aus der Tabelle zum landwirthschaftlichen Boden (Block b3). Umrechnung in Hektar mit Brückners eigener Tabelle (S. 832): 1 preuß. Morgen (180 Quadratruthen) = 0,255322 ha. Für die Diagramme sind Gehöfte, Teiche und steuerfreier Boden zur Gruppe »Gehöfte, Teiche u. a.« zusammengefasst. Der »landwirthschaftliche Boden« ist bei Brückner die Summe aus Gärten, Feld, Wiese und Hutung; zur Kontrolle wurde sie aus Block b1 nachgerechnet (Spalte morgen_berechnet).",
+  "en": "The Morgen figures and percentages come from the table on p. 217 (block b1, rows “Arten der Benutzung”) and from the table on agricultural land (block b3). Conversion to hectares uses Brückner's own table (p. 832): 1 Prussian Morgen (180 square rods) = 0.255322 ha. For the charts, farmsteads, ponds and tax-exempt land are combined into the group “Farmsteads, ponds etc.”. Brückner's “agricultural land” is the sum of gardens, arable land, meadow and pasture; as a check it was recomputed from block b1 (column morgen_berechnet)."
+ },
+ "findings": [
+  {
+   "de": "Gera ist ausgesprochenes Ackerland: 58,0 % der Fläche sind Feld, nur 17,3 % Nadelholz. In Schleiz (32,3 % Feld) und Lobenstein-Ebersdorf (26,6 %) ist dagegen der Nadelwald die größte Nutzung (39,9 % bzw. 47,6 %).",
+   "en": "Gera is distinctly arable country: 58.0 % of its area is field and only 17.3 % coniferous wood. In Schleiz (32.3 % field) and Lobenstein-Ebersdorf (26.6 %) coniferous woodland is the largest use (39.9 % and 47.6 %)."
+  },
+  {
+   "de": "Das Oberland hat im Verhältnis weit mehr Wiese als das Unterland: 20,0 % in Schleiz und 18,9 % in Lobenstein-Ebersdorf gegenüber 9,0 % in Gera.",
+   "en": "The Upper Land has far more meadow in proportion than the Lower Land: 20.0 % in Schleiz and 18.9 % in Lobenstein-Ebersdorf against 9.0 % in Gera."
+  },
+  {
+   "de": "Laubwald gibt es fast nur im Landestheil Gera (6,9 % der Fläche); in Schleiz sind es 0,3 %.",
+   "en": "Deciduous woodland is found almost only in the district of Gera (6.9 % of the area); in Schleiz it is 0.3 %."
+  },
+  {
+   "de": "Der Anteil des landwirthschaftlich genutzten Bodens (Garten, Feld, Wiese, Hutung) an der Gesamtfläche sinkt von 72,5 % in Gera über 56,5 % in Schleiz auf 49,5 % in Lobenstein-Ebersdorf (Fürstenthum: 58,4 %).",
+   "en": "The share of agriculturally used land (garden, field, meadow, pasture) in the total area falls from 72.5 % in Gera through 56.5 % in Schleiz to 49.5 % in Lobenstein-Ebersdorf (principality: 58.4 %)."
+  },
+  {
+   "de": "Auf eine Familie kommen in Gera 7,84 Morgen (2,00 ha) landwirthschaftlicher Boden, in Schleiz 11,60 Morgen (2,96 ha) und in Lobenstein-Ebersdorf 11,37 Morgen (2,90 ha).",
+   "en": "Per family there are 7.84 Morgen (2.00 ha) of agricultural land in Gera, 11.60 Morgen (2.96 ha) in Schleiz and 11.37 Morgen (2.90 ha) in Lobenstein-Ebersdorf."
+  }
+ ],
+ "caveats": [
+  {
+   "de": "Die Zahlen beruhen auf der Vermessung von 1854. Seither hat die Feldfläche vor allem im Landestheil Gera um etwa 1000 Morgen zugenommen (Fußnote S. 217 und S. 226); Brückner behält 1854 als Grundlage bei. Lobenstein-Ebersdorf war nur »croquirt«, seine Fläche ist wahrscheinlich größer als angegeben.",
+   "en": "The figures rest on the survey of 1854. Since then the arable area has grown, above all in the district of Gera by about 1,000 Morgen (footnote p. 217 and p. 226); Brückner keeps 1854 as the basis. Lobenstein-Ebersdorf was only sketched (“croquirt”), so its area is probably larger than stated."
+  },
+  {
+   "de": "Die gedruckten Summen stimmen nicht ganz: Für Schleiz steht in Block b3 71 574 Morgen landwirthschaftlicher Boden, die Teilposten aus Block b1 ergeben 71 374; die Summe des Fürstenthums (188 542) passt zu 71 374. Auch einzelne Spalten des Fürstenthums weichen um bis zu etwa einen Morgen von der Summe der Landestheile ab. Die gedruckten Werte wurden unverändert übernommen (am Faksimile geprüft).",
+   "en": "The printed totals do not quite agree: for Schleiz block b3 gives 71,574 Morgen of agricultural land whereas the items in block b1 add up to 71,374; the principality total (188,542) fits 71,374. Individual columns of the principality also deviate by up to about one Morgen from the sum of the districts. The printed values were taken over unchanged (checked against the facsimile)."
+  }
+ ],
+ "conversions": [
+  {
+   "from": "preußischer Morgen",
+   "to": "Hektar",
+   "factor_or_formula": "ha = Morgen × 0,255322",
+   "reference": "Brückner S. 832: 1 preuß. Morgen (180 Quadratruthen) = 0,255322 Hectaren"
+  }
+ ],
+ "datasets": [
+  {
+   "name": "nutzung",
+   "title": {
+    "de": "Bodennutzung nach Landestheilen",
+    "en": "Land use by district"
+   },
+   "columns": [
+    {
+     "name": "nutzung_de",
+     "label": {
+      "de": "Art der Benutzung",
+      "en": "Kind of use"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "nutzung_en",
+     "label": {
+      "de": "Art der Benutzung (englisch)",
+      "en": "Kind of use (English)"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "gruppe_de",
+     "label": {
+      "de": "Gruppe (für die Diagramme)",
+      "en": "Group (for the charts)"
+     },
+     "type": "string",
+     "unit": null,
+     "derived": true,
+     "note": "editorische Zusammenfassung"
+    },
+    {
+     "name": "gruppe_en",
+     "label": {
+      "de": "Gruppe (englisch)",
+      "en": "Group (English)"
+     },
+     "type": "string",
+     "unit": null,
+     "derived": true
+    },
+    {
+     "name": "gruppe_nr",
+     "label": {
+      "de": "Reihenfolge der Gruppe",
+      "en": "Group order"
+     },
+     "type": "integer",
+     "unit": null,
+     "derived": true
+    },
+    {
+     "name": "landestheil_de",
+     "label": {
+      "de": "Landestheil",
+      "en": "District"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "landestheil_en",
+     "label": {
+      "de": "Landestheil (englisch)",
+      "en": "District (English)"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "lt_nr",
+     "label": {
+      "de": "Reihenfolge des Landestheils",
+      "en": "District order"
+     },
+     "type": "integer",
+     "unit": null,
+     "derived": true
+    },
+    {
+     "name": "morgen",
+     "label": {
+      "de": "Fläche",
+      "en": "Area"
+     },
+     "type": "number",
+     "unit": "preuß. Morgen"
+    },
+    {
+     "name": "pct",
+     "label": {
+      "de": "Anteil an der Fläche",
+      "en": "Share of area"
+     },
+     "type": "number",
+     "unit": "%"
+    },
+    {
+     "name": "ha",
+     "label": {
+      "de": "Fläche in Hektar",
+      "en": "Area in hectares"
+     },
+     "type": "number",
+     "unit": "ha",
+     "derived": true,
+     "note": "Morgen × 0,255322"
+    }
+   ],
+   "rows": [
+    [
+     "Gehöfte",
+     "Farmsteads",
+     "Gehöfte, Teiche u. a.",
+     "Farmsteads, ponds etc.",
+     7,
+     "Gera",
+     "Gera",
+     1,
+     804.45,
+     0.93,
+     205.4
+    ],
+    [
+     "Gehöfte",
+     "Farmsteads",
+     "Gehöfte, Teiche u. a.",
+     "Farmsteads, ponds etc.",
+     7,
+     "Schleiz",
+     "Schleiz",
+     2,
+     556,
+     0.44,
+     142.0
+    ],
+    [
+     "Gehöfte",
+     "Farmsteads",
+     "Gehöfte, Teiche u. a.",
+     "Farmsteads, ponds etc.",
+     7,
+     "Lobenstein-Ebersdorf",
+     "Lobenstein-Ebersdorf",
+     3,
+     413.75,
+     0.38,
+     105.6
+    ],
+    [
+     "Gehöfte",
+     "Farmsteads",
+     "Gehöfte, Teiche u. a.",
+     "Farmsteads, ponds etc.",
+     7,
+     "Fürstenthum",
+     "Principality",
+     4,
+     1774.2,
+     0.55,
+     453.0
+    ],
+    [
+     "Gärten und Obstanlagen",
+     "Gardens and orchards",
+     "Gärten und Obstanlagen",
+     "Gardens and orchards",
+     2,
+     "Gera",
+     "Gera",
+     1,
+     2356.32,
+     2.73,
+     601.6
+    ],
+    [
+     "Gärten und Obstanlagen",
+     "Gardens and orchards",
+     "Gärten und Obstanlagen",
+     "Gardens and orchards",
+     2,
+     "Schleiz",
+     "Schleiz",
+     2,
+     1138,
+     0.9,
+     290.6
+    ],
+    [
+     "Gärten und Obstanlagen",
+     "Gardens and orchards",
+     "Gärten und Obstanlagen",
+     "Gardens and orchards",
+     2,
+     "Lobenstein-Ebersdorf",
+     "Lobenstein-Ebersdorf",
+     3,
+     668.14,
+     0.61,
+     170.6
+    ],
+    [
+     "Gärten und Obstanlagen",
+     "Gardens and orchards",
+     "Gärten und Obstanlagen",
+     "Gardens and orchards",
+     2,
+     "Fürstenthum",
+     "Principality",
+     4,
+     4162.47,
+     1.29,
+     1062.8
+    ],
+    [
+     "Feld",
+     "Arable land",
+     "Feld",
+     "Arable land",
+     1,
+     "Gera",
+     "Gera",
+     1,
+     50077.96,
+     57.95,
+     12786.0
+    ],
+    [
+     "Feld",
+     "Arable land",
+     "Feld",
+     "Arable land",
+     1,
+     "Schleiz",
+     "Schleiz",
+     2,
+     40841,
+     32.34,
+     10427.6
+    ],
+    [
+     "Feld",
+     "Arable land",
+     "Feld",
+     "Arable land",
+     1,
+     "Lobenstein-Ebersdorf",
+     "Lobenstein-Ebersdorf",
+     3,
+     29227.01,
+     26.56,
+     7462.3
+    ],
+    [
+     "Feld",
+     "Arable land",
+     "Feld",
+     "Arable land",
+     1,
+     "Fürstenthum",
+     "Principality",
+     4,
+     120146.96,
+     37.22,
+     30676.2
+    ],
+    [
+     "Wiese",
+     "Meadow",
+     "Wiese",
+     "Meadow",
+     3,
+     "Gera",
+     "Gera",
+     1,
+     7816.33,
+     9.04,
+     1995.7
+    ],
+    [
+     "Wiese",
+     "Meadow",
+     "Wiese",
+     "Meadow",
+     3,
+     "Schleiz",
+     "Schleiz",
+     2,
+     25226,
+     19.98,
+     6440.8
+    ],
+    [
+     "Wiese",
+     "Meadow",
+     "Wiese",
+     "Meadow",
+     3,
+     "Lobenstein-Ebersdorf",
+     "Lobenstein-Ebersdorf",
+     3,
+     20770.0,
+     18.88,
+     5303.0
+    ],
+    [
+     "Wiese",
+     "Meadow",
+     "Wiese",
+     "Meadow",
+     3,
+     "Fürstenthum",
+     "Principality",
+     4,
+     53812.33,
+     16.67,
+     13739.5
+    ],
+    [
+     "Hutung",
+     "Rough pasture",
+     "Hutung",
+     "Rough pasture",
+     4,
+     "Gera",
+     "Gera",
+     1,
+     2436.76,
+     2.82,
+     622.2
+    ],
+    [
+     "Hutung",
+     "Rough pasture",
+     "Hutung",
+     "Rough pasture",
+     4,
+     "Schleiz",
+     "Schleiz",
+     2,
+     4169,
+     3.3,
+     1064.4
+    ],
+    [
+     "Hutung",
+     "Rough pasture",
+     "Hutung",
+     "Rough pasture",
+     4,
+     "Lobenstein-Ebersdorf",
+     "Lobenstein-Ebersdorf",
+     3,
+     3815.08,
+     3.47,
+     974.1
+    ],
+    [
+     "Hutung",
+     "Rough pasture",
+     "Hutung",
+     "Rough pasture",
+     4,
+     "Fürstenthum",
+     "Principality",
+     4,
+     10420.83,
+     3.23,
+     2660.7
+    ],
+    [
+     "Teiche",
+     "Ponds",
+     "Gehöfte, Teiche u. a.",
+     "Farmsteads, ponds etc.",
+     7,
+     "Gera",
+     "Gera",
+     1,
+     145.25,
+     0.17,
+     37.1
+    ],
+    [
+     "Teiche",
+     "Ponds",
+     "Gehöfte, Teiche u. a.",
+     "Farmsteads, ponds etc.",
+     7,
+     "Schleiz",
+     "Schleiz",
+     2,
+     1422,
+     1.13,
+     363.1
+    ],
+    [
+     "Teiche",
+     "Ponds",
+     "Gehöfte, Teiche u. a.",
+     "Farmsteads, ponds etc.",
+     7,
+     "Lobenstein-Ebersdorf",
+     "Lobenstein-Ebersdorf",
+     3,
+     205.71,
+     0.19,
+     52.5
+    ],
+    [
+     "Teiche",
+     "Ponds",
+     "Gehöfte, Teiche u. a.",
+     "Farmsteads, ponds etc.",
+     7,
+     "Fürstenthum",
+     "Principality",
+     4,
+     1772.75,
+     0.55,
+     452.6
+    ],
+    [
+     "Laubholz",
+     "Deciduous woodland",
+     "Laubholz",
+     "Deciduous woodland",
+     5,
+     "Gera",
+     "Gera",
+     1,
+     5968.81,
+     6.91,
+     1524.0
+    ],
+    [
+     "Laubholz",
+     "Deciduous woodland",
+     "Laubholz",
+     "Deciduous woodland",
+     5,
+     "Schleiz",
+     "Schleiz",
+     2,
+     332,
+     0.26,
+     84.8
+    ],
+    [
+     "Laubholz",
+     "Deciduous woodland",
+     "Laubholz",
+     "Deciduous woodland",
+     5,
+     "Lobenstein-Ebersdorf",
+     "Lobenstein-Ebersdorf",
+     3,
+     277.13,
+     0.25,
+     70.8
+    ],
+    [
+     "Laubholz",
+     "Deciduous woodland",
+     "Laubholz",
+     "Deciduous woodland",
+     5,
+     "Fürstenthum",
+     "Principality",
+     4,
+     6578.94,
+     2.04,
+     1679.7
+    ],
+    [
+     "Nadelholz",
+     "Coniferous woodland",
+     "Nadelholz",
+     "Coniferous woodland",
+     6,
+     "Gera",
+     "Gera",
+     1,
+     14975.58,
+     17.33,
+     3823.6
+    ],
+    [
+     "Nadelholz",
+     "Coniferous woodland",
+     "Nadelholz",
+     "Coniferous woodland",
+     6,
+     "Schleiz",
+     "Schleiz",
+     2,
+     50429,
+     39.92,
+     12875.6
+    ],
+    [
+     "Nadelholz",
+     "Coniferous woodland",
+     "Nadelholz",
+     "Coniferous woodland",
+     6,
+     "Lobenstein-Ebersdorf",
+     "Lobenstein-Ebersdorf",
+     3,
+     52421.01,
+     47.64,
+     13384.2
+    ],
+    [
+     "Nadelholz",
+     "Coniferous woodland",
+     "Nadelholz",
+     "Coniferous woodland",
+     6,
+     "Fürstenthum",
+     "Principality",
+     4,
+     117825.59,
+     36.51,
+     30083.5
+    ],
+    [
+     "Steuerfreier Boden",
+     "Tax-exempt land",
+     "Gehöfte, Teiche u. a.",
+     "Farmsteads, ponds etc.",
+     7,
+     "Gera",
+     "Gera",
+     1,
+     1834.99,
+     2.12,
+     468.5
+    ],
+    [
+     "Steuerfreier Boden",
+     "Tax-exempt land",
+     "Gehöfte, Teiche u. a.",
+     "Farmsteads, ponds etc.",
+     7,
+     "Schleiz",
+     "Schleiz",
+     2,
+     2189,
+     1.73,
+     558.9
+    ],
+    [
+     "Steuerfreier Boden",
+     "Tax-exempt land",
+     "Gehöfte, Teiche u. a.",
+     "Farmsteads, ponds etc.",
+     7,
+     "Lobenstein-Ebersdorf",
+     "Lobenstein-Ebersdorf",
+     3,
+     2228.0,
+     2.02,
+     568.9
+    ],
+    [
+     "Steuerfreier Boden",
+     "Tax-exempt land",
+     "Gehöfte, Teiche u. a.",
+     "Farmsteads, ponds etc.",
+     7,
+     "Fürstenthum",
+     "Principality",
+     4,
+     6251.99,
+     1.94,
+     1596.3
+    ]
+   ],
+   "source_refs": [
+    {
+     "page": "217",
+     "block": "b1",
+     "rows": "r2-t11"
+    }
+   ]
+  },
+  {
+   "name": "landw_boden",
+   "title": {
+    "de": "Landwirthschaftlicher Boden nach Landestheilen",
+    "en": "Agricultural land by district"
+   },
+   "columns": [
+    {
+     "name": "landestheil_de",
+     "label": {
+      "de": "Landestheil",
+      "en": "District"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "landestheil_en",
+     "label": {
+      "de": "Landestheil (englisch)",
+      "en": "District (English)"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "lt_nr",
+     "label": {
+      "de": "Reihenfolge",
+      "en": "Order"
+     },
+     "type": "integer",
+     "unit": null,
+     "derived": true
+    },
+    {
+     "name": "morgen",
+     "label": {
+      "de": "Landwirthschaftlicher Boden",
+      "en": "Agricultural land"
+     },
+     "type": "integer",
+     "unit": "preuß. Morgen"
+    },
+    {
+     "name": "pct",
+     "label": {
+      "de": "Anteil am landw. Boden des Fürstenthums",
+      "en": "Share of the principality's agricultural land"
+     },
+     "type": "number",
+     "unit": "%"
+    },
+    {
+     "name": "morgen_je_qm",
+     "label": {
+      "de": "Morgen auf 1 Quadratmeile",
+      "en": "Morgen per square mile"
+     },
+     "type": "number",
+     "unit": "Morgen/□Meile"
+    },
+    {
+     "name": "morgen_je_familie",
+     "label": {
+      "de": "Morgen auf 1 Familie",
+      "en": "Morgen per family"
+     },
+     "type": "number",
+     "unit": "Morgen"
+    },
+    {
+     "name": "ha_je_familie",
+     "label": {
+      "de": "Hektar auf 1 Familie",
+      "en": "Hectares per family"
+     },
+     "type": "number",
+     "unit": "ha",
+     "derived": true,
+     "note": "Morgen × 0,255322"
+    },
+    {
+     "name": "ha",
+     "label": {
+      "de": "Landwirthschaftlicher Boden in Hektar",
+      "en": "Agricultural land in hectares"
+     },
+     "type": "number",
+     "unit": "ha",
+     "derived": true,
+     "note": "Morgen × 0,255322"
+    },
+    {
+     "name": "morgen_berechnet",
+     "label": {
+      "de": "Summe Garten + Feld + Wiese + Hutung (nachgerechnet)",
+      "en": "Sum of garden + field + meadow + pasture (recomputed)"
+     },
+     "type": "number",
+     "unit": "preuß. Morgen",
+     "derived": true,
+     "note": "aus Block b1 nachgerechnet"
+    }
+   ],
+   "rows": [
+    [
+     "Gera",
+     "Gera",
+     1,
+     62688,
+     33.2,
+     15555.3,
+     7.84,
+     2.0,
+     16006.0,
+     62687.37
+    ],
+    [
+     "Schleiz",
+     "Schleiz",
+     2,
+     71574,
+     38.0,
+     11929.0,
+     11.6,
+     2.96,
+     18274.0,
+     71374
+    ],
+    [
+     "Lobenstein-Ebersdorf",
+     "Lobenstein-Ebersdorf",
+     3,
+     54480,
+     28.8,
+     10896.0,
+     11.37,
+     2.9,
+     13910.0,
+     54480.23
+    ],
+    [
+     "Fürstenthum",
+     "Principality",
+     4,
+     188542,
+     100.0,
+     12544.3,
+     10.0,
+     2.55,
+     48139.0,
+     188542.59
+    ]
+   ],
+   "source_refs": [
+    {
+     "page": "217",
+     "block": "b3",
+     "rows": "r2-r5"
+    }
+   ]
+  }
+ ],
+ "charts": [
+  {
+   "id": "c1",
+   "dataset": "nutzung",
+   "title": {
+    "de": "Zusammensetzung der Bodenfläche",
+    "en": "Composition of the land area"
+   },
+   "caption": {
+    "de": "Anteile der Nutzungsarten an der Gesamtfläche des Landestheils bzw. des Fürstenthums (Vermessung 1854). Gera ist von Feld geprägt, Schleiz und Lobenstein-Ebersdorf von Nadelwald und Wiese.",
+    "en": "Shares of the kinds of use in the total area of the district and of the principality (survey of 1854). Gera is dominated by arable land, Schleiz and Lobenstein-Ebersdorf by coniferous woodland and meadow."
+   },
+   "vegalite": {
+    "height": 260,
+    "transform": [
+     {
+      "aggregate": [
+       {
+        "op": "sum",
+        "field": "pct",
+        "as": "anteil"
+       },
+       {
+        "op": "sum",
+        "field": "morgen",
+        "as": "morgen_sum"
+       },
+       {
+        "op": "sum",
+        "field": "ha",
+        "as": "ha_sum"
+       }
+      ],
+      "groupby": [
+       "gruppe_de",
+       "gruppe_en",
+       "gruppe_nr",
+       "landestheil_de",
+       "landestheil_en",
+       "lt_nr"
+      ]
+     }
+    ],
+    "mark": "bar",
+    "encoding": {
+     "y": {
+      "field": {
+       "de": "landestheil_de",
+       "en": "landestheil_en"
+      },
+      "type": "nominal",
+      "sort": {
+       "field": "lt_nr",
+       "op": "min"
+      },
+      "title": null,
+      "axis": {
+       "labelLimit": 220
+      }
+     },
+     "x": {
+      "field": "anteil",
+      "type": "quantitative",
+      "scale": {
+       "domain": [
+        0,
+        100
+       ]
+      },
+      "title": {
+       "de": "% der Fläche",
+       "en": "% of area"
+      }
+     },
+     "color": {
+      "field": {
+       "de": "gruppe_de",
+       "en": "gruppe_en"
+      },
+      "type": "nominal",
+      "title": null,
+      "scale": {
+       "domain": [
+        {
+         "de": "Feld",
+         "en": "Arable land"
+        },
+        {
+         "de": "Gärten und Obstanlagen",
+         "en": "Gardens and orchards"
+        },
+        {
+         "de": "Wiese",
+         "en": "Meadow"
+        },
+        {
+         "de": "Hutung",
+         "en": "Rough pasture"
+        },
+        {
+         "de": "Laubholz",
+         "en": "Deciduous woodland"
+        },
+        {
+         "de": "Nadelholz",
+         "en": "Coniferous woodland"
+        },
+        {
+         "de": "Gehöfte, Teiche u. a.",
+         "en": "Farmsteads, ponds etc."
+        }
+       ]
+      },
+      "legend": {
+       "columns": 2,
+       "labelLimit": 260
+      }
+     },
+     "order": {
+      "field": "gruppe_nr",
+      "type": "quantitative"
+     },
+     "tooltip": [
+      {
+       "field": {
+        "de": "landestheil_de",
+        "en": "landestheil_en"
+       },
+       "title": {
+        "de": "Landestheil",
+        "en": "District"
+       }
+      },
+      {
+       "field": {
+        "de": "gruppe_de",
+        "en": "gruppe_en"
+       },
+       "title": {
+        "de": "Nutzung",
+        "en": "Use"
+       }
+      },
+      {
+       "field": "morgen_sum",
+       "title": {
+        "de": "Morgen",
+        "en": "Morgen"
+       },
+       "format": ",.0f"
+      },
+      {
+       "field": "ha_sum",
+       "title": "ha",
+       "format": ",.0f"
+      },
+      {
+       "field": "anteil",
+       "title": {
+        "de": "% der Fläche",
+        "en": "% of area"
+       },
+       "format": ".1f"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "c2",
+   "dataset": "nutzung",
+   "title": {
+    "de": "Fläche der Landestheile nach Nutzung (Hektar)",
+    "en": "Area of the districts by use (hectares)"
+   },
+   "caption": {
+    "de": "Absolute Flächen, umgerechnet in Hektar (1 preuß. Morgen = 0,255322 ha). Schleiz ist der größte, Gera der kleinste Landestheil.",
+    "en": "Absolute areas converted to hectares (1 Prussian Morgen = 0.255322 ha). Schleiz is the largest district, Gera the smallest."
+   },
+   "vegalite": {
+    "height": 200,
+    "transform": [
+     {
+      "filter": "datum.landestheil_de != 'Fürstenthum'"
+     },
+     {
+      "aggregate": [
+       {
+        "op": "sum",
+        "field": "ha",
+        "as": "ha_sum"
+       },
+       {
+        "op": "sum",
+        "field": "morgen",
+        "as": "morgen_sum"
+       }
+      ],
+      "groupby": [
+       "gruppe_de",
+       "gruppe_en",
+       "gruppe_nr",
+       "landestheil_de",
+       "landestheil_en",
+       "lt_nr"
+      ]
+     }
+    ],
+    "mark": "bar",
+    "encoding": {
+     "y": {
+      "field": {
+       "de": "landestheil_de",
+       "en": "landestheil_en"
+      },
+      "type": "nominal",
+      "sort": {
+       "field": "lt_nr",
+       "op": "min"
+      },
+      "title": null,
+      "axis": {
+       "labelLimit": 220
+      }
+     },
+     "x": {
+      "field": "ha_sum",
+      "type": "quantitative",
+      "title": "ha",
+      "axis": {
+       "format": ",.0f"
+      }
+     },
+     "color": {
+      "field": {
+       "de": "gruppe_de",
+       "en": "gruppe_en"
+      },
+      "type": "nominal",
+      "title": null,
+      "scale": {
+       "domain": [
+        {
+         "de": "Feld",
+         "en": "Arable land"
+        },
+        {
+         "de": "Gärten und Obstanlagen",
+         "en": "Gardens and orchards"
+        },
+        {
+         "de": "Wiese",
+         "en": "Meadow"
+        },
+        {
+         "de": "Hutung",
+         "en": "Rough pasture"
+        },
+        {
+         "de": "Laubholz",
+         "en": "Deciduous woodland"
+        },
+        {
+         "de": "Nadelholz",
+         "en": "Coniferous woodland"
+        },
+        {
+         "de": "Gehöfte, Teiche u. a.",
+         "en": "Farmsteads, ponds etc."
+        }
+       ]
+      },
+      "legend": {
+       "columns": 2,
+       "labelLimit": 260
+      }
+     },
+     "order": {
+      "field": "gruppe_nr",
+      "type": "quantitative"
+     },
+     "tooltip": [
+      {
+       "field": {
+        "de": "landestheil_de",
+        "en": "landestheil_en"
+       },
+       "title": {
+        "de": "Landestheil",
+        "en": "District"
+       }
+      },
+      {
+       "field": {
+        "de": "gruppe_de",
+        "en": "gruppe_en"
+       },
+       "title": {
+        "de": "Nutzung",
+        "en": "Use"
+       }
+      },
+      {
+       "field": "morgen_sum",
+       "title": {
+        "de": "Morgen",
+        "en": "Morgen"
+       },
+       "format": ",.0f"
+      },
+      {
+       "field": "ha_sum",
+       "title": "ha",
+       "format": ",.0f"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "c3",
+   "dataset": "landw_boden",
+   "title": {
+    "de": "Landwirthschaftlicher Boden je Familie",
+    "en": "Agricultural land per family"
+   },
+   "caption": {
+    "de": "Garten, Feld, Wiese und Hutung zusammen, in Hektar je Familie (Brückner: Morgen auf 1 Familie, umgerechnet). Im Unterland (Gera) ist der Besitz je Familie am kleinsten.",
+    "en": "Garden, field, meadow and pasture together, in hectares per family (Brückner: Morgen per family, converted). In the Lower Land (Gera) the holding per family is smallest."
+   },
+   "vegalite": {
+    "height": 220,
+    "mark": "bar",
+    "encoding": {
+     "x": {
+      "field": {
+       "de": "landestheil_de",
+       "en": "landestheil_en"
+      },
+      "type": "nominal",
+      "sort": {
+       "field": "lt_nr",
+       "op": "min"
+      },
+      "title": null,
+      "axis": {
+       "labelAngle": 0
+      }
+     },
+     "y": {
+      "field": "ha_je_familie",
+      "type": "quantitative",
+      "title": {
+       "de": "ha je Familie",
+       "en": "ha per family"
+      }
+     },
+     "tooltip": [
+      {
+       "field": {
+        "de": "landestheil_de",
+        "en": "landestheil_en"
+       },
+       "title": {
+        "de": "Landestheil",
+        "en": "District"
+       }
+      },
+      {
+       "field": "morgen_je_familie",
+       "title": {
+        "de": "Morgen je Familie",
+        "en": "Morgen per family"
+       },
+       "format": ".2f"
+      },
+      {
+       "field": "ha_je_familie",
+       "title": {
+        "de": "ha je Familie",
+        "en": "ha per family"
+       },
+       "format": ".2f"
+      },
+      {
+       "field": "morgen",
+       "title": {
+        "de": "Morgen insgesamt",
+        "en": "Morgen in total"
+       },
+       "format": ",.0f"
+      }
+     ]
+    }
+   }
+  }
+ ],
+ "keywords": {
+  "de": [
+   "Bodennutzung",
+   "Flächennutzung",
+   "Landesvermessung 1854",
+   "Feld",
+   "Wiese",
+   "Hutung",
+   "Nadelwald",
+   "Laubwald",
+   "Garten",
+   "Morgen",
+   "Landwirtschaft",
+   "Oberland",
+   "Unterland"
+  ],
+  "en": [
+   "land use",
+   "survey 1854",
+   "arable land",
+   "meadow",
+   "pasture",
+   "coniferous forest",
+   "deciduous forest",
+   "garden",
+   "Morgen",
+   "agriculture",
+   "Upper Land",
+   "Lower Land"
+  ]
+ },
+ "related": [
+  "landwirtschaft-grundbesitz-1854"
+ ],
+ "generated_by": "Claude Sonnet 5.5 (subagent A09)",
+ "date": "2026-10-01"
+}

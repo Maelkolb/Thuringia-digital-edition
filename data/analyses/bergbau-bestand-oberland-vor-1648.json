@@ -1,0 +1,1155 @@
+{
+ "id": "bergbau-bestand-oberland-vor-1648",
+ "title": {
+  "de": "Bergbau im Oberland vor dem Dreißigjährigen Krieg: Gruben, Hütten und Verordnungen",
+  "en": "Mining in the Oberland before the Thirty Years' War: mines, smelters and decrees"
+ },
+ "category": "mining",
+ "section": "t1-3-5",
+ "sources": [
+  {
+   "page": "242",
+   "block": "b4"
+  },
+  {
+   "page": "242",
+   "block": "b5"
+  },
+  {
+   "page": "243",
+   "block": "b1"
+  },
+  {
+   "page": "243",
+   "block": "b2"
+  },
+  {
+   "page": "243",
+   "block": "b4",
+   "rows": "h1-r4"
+  },
+  {
+   "page": "243",
+   "block": "fn1"
+  },
+  {
+   "page": "243",
+   "block": "fn2"
+  },
+  {
+   "page": "243",
+   "block": "fn3"
+  },
+  {
+   "page": "244",
+   "block": "b1",
+   "rows": "h1-r4"
+  },
+  {
+   "page": "244",
+   "block": "b2"
+  },
+  {
+   "page": "244",
+   "block": "b3"
+  }
+ ],
+ "summary": {
+  "de": "Um zu zeigen, wie ausgedehnt der oberländische Bergbau vor dem Dreißigjährigen Krieg war, vergleicht Brückner die Gruben der drei Bergamtsdistrikte Schleiz, Saalburg und Lobenstein (S. 243) und die Hüttenwerke der Bezirke Schleiz mit Saalburg und Lobenstein (S. 244). Es sind 349 Gruben und Seifen, davon 319 auf Eisen; dazu kommen Silber-, Kupfer-, Antimon-, Alaun- und Goldbetriebe. Eine Zeittafel ordnet die im Text genannten Daten von 1318 bis 1649.",
+  "en": "To show how extensive Oberland mining was before the Thirty Years' War, Brückner compares the mines of the three mining districts Schleiz, Saalburg and Lobenstein (p. 243) and the smelting works of the districts Schleiz with Saalburg and Lobenstein (p. 244). There are 349 mines and placers, 319 of them for iron; silver, copper, antimony, alum and gold operations come in addition. A chronology arranges the dates named in the text from 1318 to 1649."
+ },
+ "method": {
+  "de": "Die Tabelle S. 243 (b4) wurde Zeile für Zeile übernommen: je Distrikt und Erzart die gedruckte Zahl der Gruben mit den in Klammern genannten Namen (Spalte names). Die Erzarten sind sechs Gruppen zugeordnet (ore_group): Eisen; Kupfer; Silber und Blei (einschließlich der »Silber- und Kupfergrube« bei Thramitz und der »Blei- und Silbergruben«); Antimon; Gold und Zinn (Goldgrube und Gold- und Zinnseife); Alaun. Die Hüttenwerke stammen aus der Tabelle S. 244 (b1), die für Schleiz und Saalburg zusammengefasst ist; »über 10 Hammerwerke« im Bezirk Lobenstein ist als Untergrenze 10 kodiert. Die Zeittafel enthält die Jahreszahlen aus S. 242 (b4, b5) und S. 243 (b1); die sechs Verordnungsjahre (1530 bis 1649) setzen den abgebrochenen Satz auf S. 242 (»durch Verordnungen, namentlich durch …«) auf S. 243 (»die von 1530, 1551, …«) fort.",
+  "en": "The table on p. 243 (b4) was transferred row by row: for each district and ore, the printed number of mines with the names given in brackets (column names). The ores are assigned to six groups (ore_group): iron; copper; silver and lead (including the “silver and copper mine” at Thramitz and the “lead and silver mines”); antimony; gold and tin (gold mine and gold and tin placer); alum. The smelting works come from the table on p. 244 (b1), which combines Schleiz and Saalburg; “über 10 Hammerwerke” in the district of Lobenstein is coded as the lower bound 10. The chronology contains the years from p. 242 (b4, b5) and p. 243 (b1); the six years of decrees (1530 to 1649) continue the interrupted sentence on p. 242 (“through decrees, especially through …”) on p. 243 (“those of 1530, 1551, …”)."
+ },
+ "findings": [
+  {
+   "de": "Von den 349 Gruben des Oberlandes sind 319 Eisengruben (91,4 %): Lobenstein 133, Schleiz 126, Saalburg 60. Brückner betont entsprechend, dass die Landesregenten dem Eisenstein-Bau den Vorrang gaben, weil das Oberland hier an Güte und Reichtum in erster Reihe stehe (1605).",
+   "en": "Of the 349 mines of the Oberland, 319 are iron mines (91.4 %): Lobenstein 133, Schleiz 126, Saalburg 60. Brückner accordingly stresses that the rulers gave priority to iron-ore mining because the Oberland ranked first in quality and richness (1605)."
+  },
+  {
+   "de": "Die 30 übrigen Gruben verteilen sich nach Distrikt unterschiedlich: Saalburg 13 (zehn Kupfergruben, dazu Gold, Zinn und eine Silber-/Kupfergrube), Lobenstein 11 (Silber, Kupfer, Blei, drei Alaunerzgruben), Schleiz 6 (zwei Silber-, vier Antimongruben). Antimon kommt nur im Distrikt Schleiz, Alaun nur im Distrikt Lobenstein vor.",
+   "en": "The remaining 30 mines are distributed differently among the districts: Saalburg 13 (ten copper mines, plus gold, tin and one silver/copper mine), Lobenstein 11 (silver, copper, lead, three alum-ore mines), Schleiz 6 (two silver, four antimony mines). Antimony occurs only in the district of Schleiz, alum only in the district of Lobenstein."
+  },
+  {
+   "de": "Bei den Hüttenwerken steht der Bezirk Lobenstein mit mindestens 16 Werken (über 10 Hammerwerke, 3 Kupferschmelzhütten, 3 Alaun- und Vitriolwerke) gegen 7 im Bezirk Schleiz mit Saalburg (2 Schmelzhütten, 3 Hammerwerke, 1 Alaunhütte, 1 Pulvermühle), obwohl Schleiz und Saalburg zusammen mehr Gruben haben (205 gegen 144).",
+   "en": "For smelting works the district of Lobenstein has at least 16 (over 10 hammer works, 3 copper smelters, 3 alum and vitriol works) against 7 in the district of Schleiz with Saalburg (2 smelters, 3 hammer works, 1 alum works, 1 powder mill), although Schleiz and Saalburg together have more mines (205 against 144)."
+  },
+  {
+   "de": "Die Zeittafel zeigt eine Folge von Maßnahmen: Bergbauregal 1323–1329, ein Kupferliefervertrag 1502, 6 Verordnungen zwischen 1530 und 1649 und 1601–1605 die Gründung von elf Gewerkschaften in den Distrikten Lobenstein, Schleiz und Burgk.",
+   "en": "The chronology shows a sequence of measures: mining regalia 1323–1329, a copper supply contract in 1502, 6 decrees between 1530 and 1649, and in 1601–1605 the founding of eleven mining companies in the districts of Lobenstein, Schleiz and Burgk."
+  }
+ ],
+ "caveats": [
+  {
+   "de": "Die Zahlen beschreiben nach Brückner den Zustand vor dem Dreißigjährigen Krieg, ohne ein Stichjahr zu nennen; Hüttenwerke tragen Jahreszahlen zwischen 1472 und 1650 (S. 244). Zahl und Art der Gruben sind Brückners Zusammenstellung aus den Akten; ob alle Gruben gleichzeitig in Betrieb waren, sagt er nicht.",
+   "en": "According to Brückner the figures describe the situation before the Thirty Years' War without giving a reference year; smelting works carry years between 1472 and 1650 (p. 244). Number and kind of mines are Brückner's compilation from the records; he does not say whether all mines were in operation at the same time."
+  },
+  {
+   "de": "Die Distrikte der Gruben (Schleiz, Saalburg, Lobenstein) und der Hüttenwerke (Schleiz mit Saalburg, Lobenstein) sind verschieden gegliedert; der Vergleich fasst Schleiz und Saalburg zusammen. Die Angabe »über 10« ist eine Untergrenze.",
+   "en": "The districts of the mines (Schleiz, Saalburg, Lobenstein) and of the smelting works (Schleiz with Saalburg, Lobenstein) are divided differently; the comparison combines Schleiz and Saalburg. “über 10” is a lower bound."
+  },
+  {
+   "de": "Die Verordnungen von 1530 bis 1649 sind nur als Jahreszahlen überliefert; der Text nennt Inhalt und Urheber nicht. Die Zuordnung zu Verordnungen »zur Förderung des Bergbaus« folgt dem Satz auf S. 242, wonach die Landesregenten die Bergbauindustrie durch Befreiungen und Verordnungen unterstützten.",
+   "en": "The decrees from 1530 to 1649 are given only as years; the text names neither content nor issuer. Their description as decrees “promoting mining” follows the sentence on p. 242 stating that the rulers supported the mining industry by exemptions and decrees."
+  }
+ ],
+ "conversions": [],
+ "datasets": [
+  {
+   "name": "gruben",
+   "title": {
+    "de": "Gruben nach Bergwerksdistrikt und Erz (vor 1648)",
+    "en": "Mines by mining district and ore (before 1648)"
+   },
+   "columns": [
+    {
+     "name": "district",
+     "label": {
+      "de": "Bergwerksdistrikt",
+      "en": "Mining district"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "ore",
+     "label": {
+      "de": "Erz (Wortlaut)",
+      "en": "Ore (printed)"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "ore_group",
+     "label": {
+      "de": "Erzgruppe",
+      "en": "Ore group"
+     },
+     "type": "string",
+     "unit": null,
+     "derived": true
+    },
+    {
+     "name": "kind",
+     "label": {
+      "de": "Art",
+      "en": "Kind"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "count",
+     "label": {
+      "de": "Anzahl",
+      "en": "Number"
+     },
+     "type": "integer",
+     "unit": "Gruben"
+    },
+    {
+     "name": "names",
+     "label": {
+      "de": "Namen und Lage",
+      "en": "Names and location"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "source",
+     "label": {
+      "de": "Quelle",
+      "en": "Source"
+     },
+     "type": "string",
+     "unit": null
+    }
+   ],
+   "rows": [
+    [
+     "Schleiz",
+     "Silbergruben",
+     "Silber, Blei",
+     "Grube",
+     2,
+     "St. Katharina am Schloßberg bei Schleiz; Gotthilf bei Löhma",
+     "S. 243 b4 r2"
+    ],
+    [
+     "Schleiz",
+     "Antimongruben",
+     "Antimon",
+     "Grube",
+     4,
+     "bei Oberböhmsdorf; bei Weckersdorf; Trau auf Gott am Lössauer Wege; am Wolfsgalgen",
+     "S. 243 b4 r2"
+    ],
+    [
+     "Schleiz",
+     "Eisengruben",
+     "Eisen",
+     "Grube",
+     126,
+     "",
+     "S. 243 b4 r2"
+    ],
+    [
+     "Saalburg",
+     "Goldgrube",
+     "Gold, Zinn",
+     "Grube",
+     1,
+     "bei Zollgrün (nach der Volkssage weitere Goldgruben)",
+     "S. 243 b4 r3"
+    ],
+    [
+     "Saalburg",
+     "Gold- und Zinnseife",
+     "Gold, Zinn",
+     "Seife",
+     1,
+     "an der Wettera bei Gräfenwarth",
+     "S. 243 b4 r3"
+    ],
+    [
+     "Saalburg",
+     "Silber- und Kupfergrube",
+     "Silber, Blei",
+     "Grube",
+     1,
+     "zu Thramitz zwischen Raila und Glücksthalhammer",
+     "S. 243 b4 r3"
+    ],
+    [
+     "Saalburg",
+     "Kupfergruben",
+     "Kupfer",
+     "Grube",
+     10,
+     "",
+     "S. 243 b4 r3"
+    ],
+    [
+     "Saalburg",
+     "Eisengruben",
+     "Eisen",
+     "Grube",
+     60,
+     "",
+     "S. 243 b4 r3"
+    ],
+    [
+     "Lobenstein",
+     "Silbergruben",
+     "Silber, Blei",
+     "Grube",
+     3,
+     "Fortuna bei der Zschachenmühle; Heinrichs- und Luisenglück bei Gahma; Silberschlössel bei Weitisberga",
+     "S. 243 b4 r4"
+    ],
+    [
+     "Lobenstein",
+     "Kupfergruben",
+     "Kupfer",
+     "Grube",
+     3,
+     "Kaiser Siegmund im Saalwald; Kupferplatte bei Harra; Schütz bei Pottiga",
+     "S. 243 b4 r4"
+    ],
+    [
+     "Lobenstein",
+     "Blei- und Silbergruben",
+     "Silber, Blei",
+     "Grube",
+     2,
+     "Kluft bei Harra; Bleistollen am Muckenberg",
+     "S. 243 b4 r4"
+    ],
+    [
+     "Lobenstein",
+     "Alaunerzgruben",
+     "Alaun",
+     "Grube",
+     3,
+     "bei Haueisen; Zoppothen an der Saale; bei der Pempelsmühle; schon 1550 erwähnt",
+     "S. 243 b4 r4"
+    ],
+    [
+     "Lobenstein",
+     "Eisengruben",
+     "Eisen",
+     "Grube",
+     133,
+     "darunter fünf Gruben mit Wasser- und Roßkünsten",
+     "S. 243 b4 r4"
+    ]
+   ],
+   "source_refs": [
+    {
+     "page": "243",
+     "block": "b4",
+     "rows": "r2-r4"
+    }
+   ]
+  },
+  {
+   "name": "huetten",
+   "title": {
+    "de": "Hüttenwerke nach Bezirk und Art (vor 1648)",
+    "en": "Smelting works by district and type (before 1648)"
+   },
+   "columns": [
+    {
+     "name": "district",
+     "label": {
+      "de": "Bezirk",
+      "en": "District"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "type",
+     "label": {
+      "de": "Art des Werks",
+      "en": "Type of works"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "count",
+     "label": {
+      "de": "Anzahl",
+      "en": "Number"
+     },
+     "type": "integer",
+     "unit": "Werke",
+     "note": "Hammerwerke Lobenstein: »über 10« = Untergrenze"
+    },
+    {
+     "name": "source",
+     "label": {
+      "de": "Quelle",
+      "en": "Source"
+     },
+     "type": "string",
+     "unit": null
+    }
+   ],
+   "rows": [
+    [
+     "Schleiz mit Saalburg",
+     "Schmelzhütten",
+     2,
+     "S. 244 b1 r2"
+    ],
+    [
+     "Schleiz mit Saalburg",
+     "Hammerwerke",
+     3,
+     "S. 244 b1 r2"
+    ],
+    [
+     "Schleiz mit Saalburg",
+     "Alaun-/Vitriolwerke",
+     1,
+     "S. 244 b1 r2"
+    ],
+    [
+     "Schleiz mit Saalburg",
+     "Pulvermühlen",
+     1,
+     "S. 244 b1 r2"
+    ],
+    [
+     "Lobenstein",
+     "Schmelzhütten",
+     3,
+     "S. 244 b1 r3"
+    ],
+    [
+     "Lobenstein",
+     "Hammerwerke",
+     10,
+     "S. 244 b1 r3"
+    ],
+    [
+     "Lobenstein",
+     "Alaun-/Vitriolwerke",
+     3,
+     "S. 244 b1 r3"
+    ]
+   ],
+   "source_refs": [
+    {
+     "page": "244",
+     "block": "b1",
+     "rows": "r2-r3"
+    }
+   ]
+  },
+  {
+   "name": "chronik",
+   "title": {
+    "de": "Zeittafel zum Bergbau im Oberland 1318–1649",
+    "en": "Chronology of Oberland mining, 1318–1649"
+   },
+   "columns": [
+    {
+     "name": "year",
+     "label": {
+      "de": "Jahr bzw. Beginn",
+      "en": "Year or start"
+     },
+     "type": "integer",
+     "unit": "Jahr"
+    },
+    {
+     "name": "year_end",
+     "label": {
+      "de": "Ende",
+      "en": "End"
+     },
+     "type": "integer",
+     "unit": "Jahr"
+    },
+    {
+     "name": "kind",
+     "label": {
+      "de": "Art",
+      "en": "Type"
+     },
+     "type": "string",
+     "unit": null,
+     "derived": true
+    },
+    {
+     "name": "event_de",
+     "label": {
+      "de": "Ereignis (de)",
+      "en": "Event (German)"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "event_en",
+     "label": {
+      "de": "Ereignis (en)",
+      "en": "Event (English)"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "source",
+     "label": {
+      "de": "Quelle",
+      "en": "Source"
+     },
+     "type": "string",
+     "unit": null
+    }
+   ],
+   "rows": [
+    [
+     1318,
+     null,
+     "Urkunde, Privileg",
+     "Silbergruben bei Schleiz erwähnt",
+     "Silver mines near Schleiz mentioned",
+     "S. 242 b4"
+    ],
+    [
+     1323,
+     null,
+     "Urkunde, Privileg",
+     "Reichsvoigte von Kaiser Ludwig mit dem Bergbauregal begnadigt",
+     "Imperial bailiffs granted the mining regalia by Emperor Louis",
+     "S. 242 b4"
+    ],
+    [
+     1327,
+     null,
+     "Urkunde, Privileg",
+     "Reichsvoigte erneut mit dem Bergbauregal begnadigt",
+     "Imperial bailiffs again granted the mining regalia",
+     "S. 242 b4"
+    ],
+    [
+     1329,
+     null,
+     "Urkunde, Privileg",
+     "Reichsvoigte erneut mit dem Bergbauregal begnadigt",
+     "Imperial bailiffs again granted the mining regalia",
+     "S. 242 b4"
+    ],
+    [
+     1371,
+     null,
+     "Urkunde, Privileg",
+     "Eisengruben und Hammerwerk bei Blankenberg bestehen",
+     "Iron mines and a hammer works exist near Blankenberg",
+     "S. 242 b4"
+    ],
+    [
+     1502,
+     null,
+     "Vertrag, Förderung",
+     "Vertrag mit Nürnberger Handelsherren: 500 Ctr. Garkupfer zu 19 Gulden",
+     "Contract with Nuremberg merchants: 500 Ctr. of refined copper at 19 gulden",
+     "S. 243 b1"
+    ],
+    [
+     1530,
+     null,
+     "Verordnung",
+     "Verordnung zur Förderung des Bergbaus",
+     "Decree promoting mining",
+     "S. 242 b5, S. 243 b1"
+    ],
+    [
+     1551,
+     null,
+     "Verordnung",
+     "Verordnung zur Förderung des Bergbaus",
+     "Decree promoting mining",
+     "S. 242 b5, S. 243 b1"
+    ],
+    [
+     1563,
+     null,
+     "Vertrag, Förderung",
+     "Burggraf Heinrich VII. fördert die Stahlhütten an der Saale mit 20.000 Thalern",
+     "Burgrave Heinrich VII promotes the steelworks on the Saale with 20,000 thalers",
+     "S. 243 b1"
+    ],
+    [
+     1566,
+     null,
+     "Verordnung",
+     "Verordnung zur Förderung des Bergbaus",
+     "Decree promoting mining",
+     "S. 242 b5, S. 243 b1"
+    ],
+    [
+     1601,
+     1605,
+     "Gewerkschaften",
+     "Elf neue Gewerkschaften in den Distrikten Lobenstein, Schleiz und Burgk",
+     "Eleven new mining companies in the districts of Lobenstein, Schleiz and Burgk",
+     "S. 243 b1"
+    ],
+    [
+     1604,
+     null,
+     "Verordnung",
+     "Verordnung zur Förderung des Bergbaus",
+     "Decree promoting mining",
+     "S. 242 b5, S. 243 b1"
+    ],
+    [
+     1605,
+     null,
+     "Vertrag, Förderung",
+     "Landesregenten drängen darauf, den Eisenstein-Bau nicht den übrigen Metallen nachzustellen",
+     "The rulers insist that iron-ore mining not be put behind the other metals",
+     "S. 243 b1"
+    ],
+    [
+     1614,
+     null,
+     "Verordnung",
+     "Verordnung zur Förderung des Bergbaus",
+     "Decree promoting mining",
+     "S. 242 b5, S. 243 b1"
+    ],
+    [
+     1649,
+     null,
+     "Verordnung",
+     "Verordnung zur Förderung des Bergbaus",
+     "Decree promoting mining",
+     "S. 242 b5, S. 243 b1"
+    ]
+   ],
+   "source_refs": [
+    {
+     "page": "242",
+     "block": "b4"
+    },
+    {
+     "page": "242",
+     "block": "b5"
+    },
+    {
+     "page": "243",
+     "block": "b1"
+    }
+   ]
+  }
+ ],
+ "charts": [
+  {
+   "id": "c1",
+   "dataset": "gruben",
+   "title": {
+    "de": "Gruben je Bergwerksdistrikt nach Erz",
+    "en": "Mines per mining district by ore"
+   },
+   "caption": {
+    "de": "Gesamtzahl der Gruben und Seifen (Tabelle S. 243). Die Eisengruben überwiegen mit 319 von 349 deutlich; Lobenstein und Schleiz haben je über 125, Saalburg 60.",
+    "en": "Total number of mines and placers (table p. 243). Iron mines clearly dominate with 319 of 349; Lobenstein and Schleiz have over 125 each, Saalburg 60."
+   },
+   "vegalite": {
+    "height": 240,
+    "transform": [
+     {
+      "calculate": {
+       "de": "datum.ore_group",
+       "en": "{'Eisen':'Iron','Kupfer':'Copper','Silber, Blei':'Silver, lead','Antimon':'Antimony','Gold, Zinn':'Gold, tin','Alaun':'Alum'}[datum.ore_group]"
+      },
+      "as": "group_label"
+     }
+    ],
+    "mark": "bar",
+    "encoding": {
+     "y": {
+      "field": "district",
+      "type": "nominal",
+      "sort": [
+       "Lobenstein",
+       "Schleiz",
+       "Saalburg"
+      ],
+      "title": null
+     },
+     "x": {
+      "field": "count",
+      "type": "quantitative",
+      "title": {
+       "de": "Anzahl Gruben",
+       "en": "Number of mines"
+      }
+     },
+     "color": {
+      "field": "ore_group",
+      "type": "nominal",
+      "scale": {
+       "domain": [
+        "Eisen",
+        "Kupfer",
+        "Silber, Blei",
+        "Antimon",
+        "Gold, Zinn",
+        "Alaun"
+       ]
+      },
+      "title": {
+       "de": "Erz",
+       "en": "Ore"
+      },
+      "legend": {
+       "labelExpr": {
+        "de": "datum.label",
+        "en": "{'Eisen':'Iron','Kupfer':'Copper','Silber, Blei':'Silver, lead','Antimon':'Antimony','Gold, Zinn':'Gold, tin','Alaun':'Alum'}[datum.label]"
+       },
+       "columns": 3,
+       "labelLimit": 300
+      }
+     },
+     "tooltip": [
+      {
+       "field": "district",
+       "title": {
+        "de": "Bergwerksdistrikt",
+        "en": "Mining district"
+       }
+      },
+      {
+       "field": "ore",
+       "title": {
+        "de": "Erz (Wortlaut)",
+        "en": "Ore (printed)"
+       }
+      },
+      {
+       "field": "group_label",
+       "title": {
+        "de": "Erzgruppe",
+        "en": "Ore group"
+       }
+      },
+      {
+       "field": "count",
+       "title": {
+        "de": "Anzahl",
+        "en": "Number"
+       }
+      },
+      {
+       "field": "names",
+       "title": {
+        "de": "Namen und Lage",
+        "en": "Names and location"
+       }
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "c2",
+   "dataset": "gruben",
+   "title": {
+    "de": "Gruben ohne Eisen: Erzvielfalt je Distrikt",
+    "en": "Mines other than iron: ore variety by district"
+   },
+   "caption": {
+    "de": "Die Eisengruben sind ausgeblendet. Jeder Distrikt hat sein eigenes Profil: Antimon im Distrikt Schleiz, Gold, Zinn und viel Kupfer bei Saalburg, Silber, Blei, Kupfer und Alaun bei Lobenstein.",
+    "en": "The iron mines are hidden. Each district has its own profile: antimony in the district of Schleiz, gold, tin and much copper at Saalburg, silver, lead, copper and alum at Lobenstein."
+   },
+   "vegalite": {
+    "height": 240,
+    "transform": [
+     {
+      "filter": "datum.ore_group != 'Eisen'"
+     },
+     {
+      "calculate": {
+       "de": "datum.ore_group",
+       "en": "{'Eisen':'Iron','Kupfer':'Copper','Silber, Blei':'Silver, lead','Antimon':'Antimony','Gold, Zinn':'Gold, tin','Alaun':'Alum'}[datum.ore_group]"
+      },
+      "as": "group_label"
+     }
+    ],
+    "mark": "bar",
+    "encoding": {
+     "y": {
+      "field": "district",
+      "type": "nominal",
+      "sort": [
+       "Saalburg",
+       "Lobenstein",
+       "Schleiz"
+      ],
+      "title": null
+     },
+     "x": {
+      "field": "count",
+      "type": "quantitative",
+      "title": {
+       "de": "Anzahl Gruben",
+       "en": "Number of mines"
+      },
+      "axis": {
+       "tickMinStep": 1
+      }
+     },
+     "color": {
+      "field": "ore_group",
+      "type": "nominal",
+      "scale": {
+       "domain": [
+        "Eisen",
+        "Kupfer",
+        "Silber, Blei",
+        "Antimon",
+        "Gold, Zinn",
+        "Alaun"
+       ]
+      },
+      "title": {
+       "de": "Erz",
+       "en": "Ore"
+      },
+      "legend": {
+       "labelExpr": {
+        "de": "datum.label",
+        "en": "{'Eisen':'Iron','Kupfer':'Copper','Silber, Blei':'Silver, lead','Antimon':'Antimony','Gold, Zinn':'Gold, tin','Alaun':'Alum'}[datum.label]"
+       },
+       "columns": 3,
+       "labelLimit": 300,
+       "values": [
+        "Kupfer",
+        "Silber, Blei",
+        "Antimon",
+        "Gold, Zinn",
+        "Alaun"
+       ]
+      }
+     },
+     "tooltip": [
+      {
+       "field": "district",
+       "title": {
+        "de": "Bergwerksdistrikt",
+        "en": "Mining district"
+       }
+      },
+      {
+       "field": "ore",
+       "title": {
+        "de": "Erz (Wortlaut)",
+        "en": "Ore (printed)"
+       }
+      },
+      {
+       "field": "group_label",
+       "title": {
+        "de": "Erzgruppe",
+        "en": "Ore group"
+       }
+      },
+      {
+       "field": "count",
+       "title": {
+        "de": "Anzahl",
+        "en": "Number"
+       }
+      },
+      {
+       "field": "names",
+       "title": {
+        "de": "Namen und Lage",
+        "en": "Names and location"
+       }
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "c3",
+   "dataset": "huetten",
+   "title": {
+    "de": "Hüttenwerke nach Bezirk und Art",
+    "en": "Smelting works by district and type"
+   },
+   "caption": {
+    "de": "Bestand nach der Tabelle auf S. 244. Für Lobenstein steht bei den Hammerwerken »über 10«; gezeichnet ist die Untergrenze 10.",
+    "en": "Stock according to the table on p. 244. For Lobenstein the hammer works are given as “over 10”; the lower bound 10 is drawn."
+   },
+   "vegalite": {
+    "height": 260,
+    "mark": "bar",
+    "encoding": {
+     "x": {
+      "field": "type",
+      "type": "nominal",
+      "sort": [
+       "Hammerwerke",
+       "Schmelzhütten",
+       "Alaun-/Vitriolwerke",
+       "Pulvermühlen"
+      ],
+      "title": null,
+      "axis": {
+       "labelAngle": 0,
+       "labelLimit": 180
+      }
+     },
+     "xOffset": {
+      "field": "district",
+      "type": "nominal"
+     },
+     "y": {
+      "field": "count",
+      "type": "quantitative",
+      "title": {
+       "de": "Anzahl",
+       "en": "Number"
+      },
+      "axis": {
+       "tickMinStep": 1
+      }
+     },
+     "color": {
+      "field": "district",
+      "type": "nominal",
+      "title": {
+       "de": "Bezirk",
+       "en": "District"
+      },
+      "legend": {
+       "labelLimit": 300
+      }
+     },
+     "tooltip": [
+      {
+       "field": "district",
+       "title": {
+        "de": "Bezirk",
+        "en": "District"
+       }
+      },
+      {
+       "field": "type",
+       "title": {
+        "de": "Art",
+        "en": "Type"
+       }
+      },
+      {
+       "field": "count",
+       "title": {
+        "de": "Anzahl",
+        "en": "Number"
+       }
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "c4",
+   "dataset": "chronik",
+   "title": {
+    "de": "Zeittafel: Bergbau im Oberland 1318–1649",
+    "en": "Chronology: Oberland mining, 1318–1649"
+   },
+   "caption": {
+    "de": "Urkundliche Erwähnungen und Privilegien, Verordnungen, Verträge und Fördermaßnahmen sowie die Gründung von elf Gewerkschaften 1601–1605 (Balken). Die Verordnungen setzen mit 1530 ein.",
+    "en": "Documentary mentions and privileges, decrees, contracts and promotion measures, and the founding of eleven mining companies in 1601–1605 (bar). The decrees begin in 1530."
+   },
+   "vegalite": {
+    "height": 240,
+    "transform": [
+     {
+      "calculate": {
+       "de": "datum.kind",
+       "en": "{'Urkunde, Privileg':'Record, privilege','Verordnung':'Decree','Vertrag, Förderung':'Contract, promotion','Gewerkschaften':'Mining companies'}[datum.kind]"
+      },
+      "as": "kind_label"
+     },
+     {
+      "calculate": "datum.year_end != null ? datum.year_end : datum.year",
+      "as": "end_plot"
+     }
+    ],
+    "layer": [
+     {
+      "transform": [
+       {
+        "filter": "datum.year_end != null"
+       }
+      ],
+      "mark": {
+       "type": "bar",
+       "height": {
+        "band": 0.5
+       }
+      },
+      "encoding": {
+       "y": {
+        "field": "kind",
+        "type": "nominal",
+        "sort": [
+         "Urkunde, Privileg",
+         "Vertrag, Förderung",
+         "Verordnung",
+         "Gewerkschaften"
+        ],
+        "title": null,
+        "axis": {
+         "labelExpr": {
+          "de": "datum.label",
+          "en": "{'Urkunde, Privileg':'Record, privilege','Verordnung':'Decree','Vertrag, Förderung':'Contract, promotion','Gewerkschaften':'Mining companies'}[datum.label]"
+         }
+        }
+       },
+       "x": {
+        "field": "year",
+        "type": "quantitative",
+        "scale": {
+         "domain": [
+          1300,
+          1670
+         ]
+        },
+        "axis": {
+         "format": "d",
+         "values": [
+          1300,
+          1350,
+          1400,
+          1450,
+          1500,
+          1550,
+          1600,
+          1650
+         ],
+         "title": {
+          "de": "Jahr",
+          "en": "Year"
+         }
+        }
+       },
+       "x2": {
+        "field": "end_plot"
+       },
+       "color": {
+        "field": "kind",
+        "type": "nominal",
+        "scale": {
+         "domain": [
+          "Urkunde, Privileg",
+          "Vertrag, Förderung",
+          "Verordnung",
+          "Gewerkschaften"
+         ]
+        },
+        "legend": null
+       },
+       "tooltip": [
+        {
+         "field": "kind_label",
+         "title": {
+          "de": "Art",
+          "en": "Type"
+         }
+        },
+        {
+         "field": "year",
+         "title": {
+          "de": "Jahr",
+          "en": "Year"
+         }
+        },
+        {
+         "field": "year_end",
+         "title": {
+          "de": "bis",
+          "en": "to"
+         }
+        },
+        {
+         "field": "event_de",
+         "title": {
+          "de": "Ereignis",
+          "en": "Event (German)"
+         }
+        }
+       ]
+      }
+     },
+     {
+      "transform": [
+       {
+        "filter": "datum.year_end == null"
+       }
+      ],
+      "mark": {
+       "type": "point",
+       "filled": true,
+       "size": 90,
+       "opacity": 1
+      },
+      "encoding": {
+       "y": {
+        "field": "kind",
+        "type": "nominal",
+        "sort": [
+         "Urkunde, Privileg",
+         "Vertrag, Förderung",
+         "Verordnung",
+         "Gewerkschaften"
+        ]
+       },
+       "x": {
+        "field": "year",
+        "type": "quantitative",
+        "scale": {
+         "domain": [
+          1300,
+          1670
+         ]
+        }
+       },
+       "color": {
+        "field": "kind",
+        "type": "nominal",
+        "scale": {
+         "domain": [
+          "Urkunde, Privileg",
+          "Vertrag, Förderung",
+          "Verordnung",
+          "Gewerkschaften"
+         ]
+        },
+        "legend": null
+       },
+       "tooltip": [
+        {
+         "field": "kind_label",
+         "title": {
+          "de": "Art",
+          "en": "Type"
+         }
+        },
+        {
+         "field": "year",
+         "title": {
+          "de": "Jahr",
+          "en": "Year"
+         }
+        },
+        {
+         "field": "event_de",
+         "title": {
+          "de": "Ereignis",
+          "en": "Event (German)"
+         }
+        }
+       ]
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "keywords": {
+  "de": [
+   "Bergbau",
+   "Eisengruben",
+   "Silbergruben",
+   "Kupfergruben",
+   "Antimon",
+   "Alaun",
+   "Hüttenwerke",
+   "Hammerwerke",
+   "Schleiz",
+   "Saalburg",
+   "Lobenstein",
+   "Bergordnung",
+   "Gewerkschaften",
+   "Oberland"
+  ],
+  "en": [
+   "mining",
+   "iron mines",
+   "silver mines",
+   "copper mines",
+   "antimony",
+   "alum",
+   "smelting works",
+   "hammer works",
+   "Schleiz",
+   "Saalburg",
+   "Lobenstein",
+   "mining decrees",
+   "mining companies",
+   "Oberland"
+  ]
+ },
+ "related": [
+  "bergbau-huettenwerke-oberland-betriebszeiten",
+  "bergbau-erzbergbau-zeitleiste-ober-unterland"
+ ],
+ "generated_by": "Claude Sonnet 5.5 (subagent A10)",
+ "date": "2026-10-01"
+}

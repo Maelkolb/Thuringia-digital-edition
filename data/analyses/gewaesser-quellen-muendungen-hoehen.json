@@ -1,0 +1,1511 @@
+{
+ "id": "gewaesser-quellen-muendungen-hoehen",
+ "title": {
+  "de": "Höhenlage von Quellen, Mündungen und Landesgrenzen der Gewässer",
+  "en": "Heights of springs, mouths and border crossings of the watercourses"
+ },
+ "category": "hydrology",
+ "section": "t1-1-6",
+ "sources": [
+  {
+   "page": "45",
+   "block": "b7"
+  },
+  {
+   "page": "45",
+   "block": "b13"
+  },
+  {
+   "page": "46",
+   "block": "b2"
+  },
+  {
+   "page": "46",
+   "block": "b4"
+  },
+  {
+   "page": "46",
+   "block": "b5"
+  },
+  {
+   "page": "46",
+   "block": "b16"
+  },
+  {
+   "page": "47",
+   "block": "b4"
+  },
+  {
+   "page": "48",
+   "block": "b1"
+  },
+  {
+   "page": "48",
+   "block": "b4"
+  },
+  {
+   "page": "48",
+   "block": "b6"
+  },
+  {
+   "page": "49",
+   "block": "b5"
+  },
+  {
+   "page": "49",
+   "block": "b6"
+  },
+  {
+   "page": "50",
+   "block": "b15"
+  },
+  {
+   "page": "50",
+   "block": "b16"
+  },
+  {
+   "page": "51",
+   "block": "b1"
+  },
+  {
+   "page": "51",
+   "block": "b8"
+  },
+  {
+   "page": "52",
+   "block": "b1"
+  },
+  {
+   "page": "52",
+   "block": "b2"
+  },
+  {
+   "page": "52",
+   "block": "b3"
+  },
+  {
+   "page": "52",
+   "block": "b11"
+  },
+  {
+   "page": "52",
+   "block": "b12"
+  },
+  {
+   "page": "52",
+   "block": "b13"
+  },
+  {
+   "page": "52",
+   "block": "b14"
+  },
+  {
+   "page": "52",
+   "block": "b15"
+  },
+  {
+   "page": "53",
+   "block": "b1"
+  },
+  {
+   "page": "53",
+   "block": "b6"
+  }
+ ],
+ "summary": {
+  "de": "In seinem Verzeichnis des Gewässernetzes nennt Brückner für 28 Bäche und Flüsse Höhenangaben in Pariser Fuß: Quellen, Mündungen sowie die Höhe beim Eintritt in und Austritt aus dem Land. Die Auswertung stellt sie nach Gebiet (Main, Oberland, Unterland) zusammen und rechnet in Meter um. Sie zeigt, wie viel höher das Oberland als das Unterland liegt und wo die Gewässer am stärksten fallen.",
+  "en": "In his survey of the drainage network Brückner gives heights in Paris feet for 28 streams and rivers: springs, mouths and the elevation where a river enters or leaves the country. The analysis groups them by region (Main, Oberland, Unterland) and converts them to metres. It shows how much higher the Oberland lies than the Unterland and where the watercourses fall most steeply."
+ },
+ "method": {
+  "de": "Alle Höhenangaben (Zahl mit Apostroph, z. B. 1772') stammen aus dem Gewässerverzeichnis S. 45–53; jede Zahl wurde im Quellblock geprüft. Aufgenommen sind nur Angaben, die sich eindeutig einem Punkt eines Gewässers zuordnen lassen; Spannenangaben (Sieglitzbach und Hackenbach »1650 bis 1660'«, S. 45–46) und Höhen nicht benannter Zuflüsse wurden weggelassen. Umrechnung: 1 Pariser Fuß = 0,32484 m (Brückner: 443,296 pariser Linien = 1 Meter, S. 831; 1 Fuß = 144 Linien). Das Gefälle ist die Differenz zwischen oberer und unterer Höhe einer Strecke; für Flüsse, die das Land durchqueren, ist es das Gefälle zwischen Eintritt und Austritt, nicht zwischen Quelle und Mündung. Das Gebiet folgt Brückners Gliederung (I. Main, II.A Oberland, II.B Unterland).",
+  "en": "All heights (a number with an apostrophe, e.g. 1772') come from the drainage survey on pp. 45–53; every number was checked in its source block. Only values that can be assigned unambiguously to one point of a watercourse are included; range statements (Sieglitzbach and Hackenbach, “1650 to 1660'”, pp. 45–46) and heights of unnamed tributaries were left out. Conversion: 1 Paris foot = 0.32484 m (Brückner: 443.296 Paris lines = 1 metre, p. 831; 1 foot = 144 lines). Fall is the difference between the upper and lower height of a reach; for rivers crossing the country it is the fall between entry and exit, not between spring and mouth. The region follows Brückner's divisions (I. Main, II.A Oberland, II.B Unterland)."
+ },
+ "findings": [
+  {
+   "de": "Die drei höchsten der 19 genannten Quellhöhen liegen im Maingebiet: Grumbach (1850'), Großer Rosenbaumbach (1825') und Rodach (1772', 576 m). Die höchste Quelle des Elbgebiets ist das Langwasser der Sormitz mit 1721,7' (559 m) – das passt zu Brückners Satz, im Main- oder Rheingebiet lägen »die höchsten Quellen des Landes«.",
+   "en": "The three highest of the 19 stated spring heights lie in the Main basin: Grumbach (1850'), Großer Rosenbaumbach (1825') and Rodach (1772', 576 m). The highest spring in the Elbe system is the Langwasser, a headstream of the Sormitz, at 1721.7' (559 m) – in line with Brückner's remark that the Main (Rhine) basin holds “the highest springs of the country”."
+  },
+  {
+   "de": "Die Quellen des Oberlandes liegen zwischen 1225' und 1721,7' (398–559 m, 11 Angaben), die des Unterlandes nur zwischen 760' und 830' (247–270 m, 5 Angaben): Die Elster-Zuflüsse entspringen mindestens 395' (rund 128 m) tiefer als die Oberländer Quellen.",
+   "en": "Springs in the Oberland lie between 1225' and 1721.7' (398–559 m, 11 values), those in the Unterland only between 760' and 830' (247–270 m, 5 values): the Elster tributaries rise at least 395' (about 128 m) lower than the Oberland springs."
+  },
+  {
+   "de": "Am stärksten fallen die kurzen Oberländer Nebenbäche der Saale: Die Wettera stürzt von 1646' auf 945' (701' = 228 m), der Sieglitzbach von 1650' auf 1098' (552' = 179 m). Die Saale selbst fällt im ganzen Land nur um 267' (87 m).",
+   "en": "The short Oberland tributaries of the Saale fall most steeply: the Wettera drops from 1646' to 945' (701' = 228 m), the Sieglitzbach from 1650' to 1098' (552' = 179 m). The Saale itself falls only 267' (87 m) across the whole country."
+  },
+  {
+   "de": "Die Weiße Elster verliert zwischen Ein- und Austritt nur 66' (21 m) – deutlich weniger als Weida (215'), Triebes (184') oder Leuba (201'). Das flache Gefälle passt zu Brückners Lob des Elstertals als »anmuthig«.",
+   "en": "Between entry and exit the White Elster loses only 66' (21 m) – far less than the Weida (215'), Triebes (184') or Leuba (201'). The gentle gradient fits Brückner's praise of the Elster valley as “graceful” (anmuthig)."
+  }
+ ],
+ "caveats": [
+  {
+   "de": "Brückner nennt den Bezugspunkt der Höhen nicht (vermutlich Meeresspiegel, wie bei den Bergen im Abschnitt Plastik); die Fußangaben sind großenteils auf ganze Fuß gerundet.",
+   "en": "Brückner does not state the reference level of the heights (presumably sea level, as for the mountains in the section on relief); most foot values are rounded to whole feet."
+  },
+  {
+   "de": "Höhen sind nur für 28 von rund 300 Gewässern des Landes angegeben und ungleich verteilt (viele Oberländer Bäche, wenige Unterländer); »Teilstrecken« beginnen und enden nicht an Quelle und Mündung.",
+   "en": "Heights are given for only 28 of the roughly 300 watercourses of the country and are unevenly distributed (many Oberland streams, few in the Unterland); “partial reaches” do not start and end at spring and mouth."
+  },
+  {
+   "de": "Die Weida führt Brückner unter dem Oberland, obwohl sie bei Voigtsberg in die Elster mündet (S. 50); die Auswertung folgt seiner Gliederung.",
+   "en": "Brückner lists the Weida under the Oberland, although it joins the Elster at Voigtsberg (p. 50); the analysis follows his grouping."
+  }
+ ],
+ "conversions": [
+  {
+   "from": "Pariser Fuß",
+   "to": "m",
+   "factor_or_formula": "m = Fuß × 0.32484",
+   "reference": "Brückner S. 831: 443,296 pariser Linien = 1 Meter; 1 Fuß = 144 Linien"
+  }
+ ],
+ "datasets": [
+  {
+   "name": "points",
+   "title": {
+    "de": "Höhenpunkte der Gewässer",
+    "en": "Height points of the watercourses"
+   },
+   "columns": [
+    {
+     "name": "stream",
+     "label": {
+      "de": "Gewässer",
+      "en": "Watercourse"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "region",
+     "label": {
+      "de": "Gebiet",
+      "en": "Region"
+     },
+     "type": "string",
+     "unit": null,
+     "note": "Gliederung nach Brückners Überschriften (S. 45): I. Main-/Rheingebiet, II.A Oberland, II.B Unterland; Saale und Weida stehen bei ihm im Oberland."
+    },
+    {
+     "name": "region_order",
+     "label": {
+      "de": "Gebiet (Ordnung)",
+      "en": "Region (order)"
+     },
+     "type": "integer",
+     "unit": null,
+     "derived": true,
+     "note": "Sortierschlüssel 1–3, editorisch"
+    },
+    {
+     "name": "point_type",
+     "label": {
+      "de": "Messpunkt",
+      "en": "Point"
+     },
+     "type": "string",
+     "unit": null,
+     "note": "source = Quelle, mouth = Mündung, entry = Eintritt ins Land, exit = Austritt aus dem Land, inflow = Einfluss eines Nebenbachs (Codes editorisch)"
+    },
+    {
+     "name": "height_ft",
+     "label": {
+      "de": "Höhe",
+      "en": "Height"
+     },
+     "type": "number",
+     "unit": "Pariser Fuß"
+    },
+    {
+     "name": "height_m",
+     "label": {
+      "de": "Höhe",
+      "en": "Height"
+     },
+     "type": "number",
+     "unit": "m",
+     "derived": true
+    },
+    {
+     "name": "page",
+     "label": {
+      "de": "Seite",
+      "en": "Page"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "block",
+     "label": {
+      "de": "Block",
+      "en": "Block"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "note",
+     "label": {
+      "de": "Ort/Bemerkung",
+      "en": "Place/remark"
+     },
+     "type": "string",
+     "unit": null
+    }
+   ],
+   "rows": [
+    [
+     "Rodach",
+     "Main (Rhein)",
+     1,
+     "source",
+     1772.0,
+     575.6,
+     "45",
+     "b7",
+     "Rodacherbrunn auf dem Frankenwald"
+    ],
+    [
+     "Grumbach (zum Kettelbach)",
+     "Main (Rhein)",
+     1,
+     "source",
+     1850.0,
+     601.0,
+     "45",
+     "b13",
+     ""
+    ],
+    [
+     "Großer Rosenbaumbach",
+     "Main (Rhein)",
+     1,
+     "source",
+     1825.0,
+     592.8,
+     "45",
+     "b13",
+     ""
+    ],
+    [
+     "Saale",
+     "Oberland",
+     2,
+     "entry",
+     1190.0,
+     386.6,
+     "46",
+     "b2",
+     "Einmündung des Kegelbachs"
+    ],
+    [
+     "Saale",
+     "Oberland",
+     2,
+     "exit",
+     923.0,
+     299.8,
+     "46",
+     "b2",
+     "Mündung des Molbitzbachs"
+    ],
+    [
+     "Tannenbach",
+     "Oberland",
+     2,
+     "source",
+     1600.0,
+     519.7,
+     "46",
+     "b4",
+     "oberhalb Gebersreuth"
+    ],
+    [
+     "Töpenbach (Kupferbach)",
+     "Oberland",
+     2,
+     "source",
+     1625.0,
+     527.9,
+     "46",
+     "b4",
+     ""
+    ],
+    [
+     "Erlichsbach",
+     "Oberland",
+     2,
+     "source",
+     1580.0,
+     513.2,
+     "46",
+     "b5",
+     "oberhalb Gefell"
+    ],
+    [
+     "Ziezelbach",
+     "Oberland",
+     2,
+     "source",
+     1475.0,
+     479.1,
+     "46",
+     "b16",
+     ""
+    ],
+    [
+     "Wettera",
+     "Oberland",
+     2,
+     "source",
+     1646.0,
+     534.7,
+     "47",
+     "b4",
+     ""
+    ],
+    [
+     "Wettera",
+     "Oberland",
+     2,
+     "mouth",
+     945.0,
+     307.0,
+     "47",
+     "b4",
+     "in die Saale"
+    ],
+    [
+     "Wioschwitz (zur Selbitz)",
+     "Oberland",
+     2,
+     "source",
+     1647.0,
+     535.0,
+     "48",
+     "b4",
+     "Südwestfuß des Kulm"
+    ],
+    [
+     "Wiesenthal",
+     "Oberland",
+     2,
+     "mouth",
+     862.0,
+     280.0,
+     "48",
+     "b1",
+     "in die Saale unterhalb Dörflas"
+    ],
+    [
+     "Lemnitz",
+     "Oberland",
+     2,
+     "source",
+     1537.0,
+     499.3,
+     "48",
+     "b6",
+     ""
+    ],
+    [
+     "Lemnitz",
+     "Oberland",
+     2,
+     "mouth",
+     1061.0,
+     344.7,
+     "48",
+     "b6",
+     "beim Lemnitzhammer"
+    ],
+    [
+     "Sieglitzbach",
+     "Oberland",
+     2,
+     "source",
+     1650.0,
+     536.0,
+     "48",
+     "b6",
+     ""
+    ],
+    [
+     "Sieglitzbach",
+     "Oberland",
+     2,
+     "mouth",
+     1098.0,
+     356.7,
+     "48",
+     "b6",
+     "in die Lemnitz"
+    ],
+    [
+     "Langwasser (Sormitz)",
+     "Oberland",
+     2,
+     "source",
+     1721.7,
+     559.3,
+     "49",
+     "b5",
+     "am Kulm im Frankenwald"
+    ],
+    [
+     "Weida",
+     "Oberland",
+     2,
+     "source",
+     1300.0,
+     422.3,
+     "49",
+     "b6",
+     "Quellflächen bei Pausa (außerhalb des Landes)"
+    ],
+    [
+     "Weida",
+     "Oberland",
+     2,
+     "entry",
+     1055.0,
+     342.7,
+     "49",
+     "b6",
+     "südlich von Leitlitz"
+    ],
+    [
+     "Weida",
+     "Oberland",
+     2,
+     "exit",
+     840.0,
+     272.9,
+     "49",
+     "b6",
+     ""
+    ],
+    [
+     "Triebes (zur Weida)",
+     "Oberland",
+     2,
+     "source",
+     1225.0,
+     397.9,
+     "50",
+     "b15",
+     "Pöllwitzwald"
+    ],
+    [
+     "Triebes (zur Weida)",
+     "Oberland",
+     2,
+     "entry",
+     960.0,
+     311.8,
+     "50",
+     "b15",
+     ""
+    ],
+    [
+     "Triebes (zur Weida)",
+     "Oberland",
+     2,
+     "exit",
+     776.0,
+     252.1,
+     "50",
+     "b15",
+     ""
+    ],
+    [
+     "Leuba",
+     "Oberland",
+     2,
+     "entry",
+     975.0,
+     316.7,
+     "50",
+     "b16",
+     ""
+    ],
+    [
+     "Leuba",
+     "Oberland",
+     2,
+     "exit",
+     774.0,
+     251.4,
+     "50",
+     "b16",
+     ""
+    ],
+    [
+     "Elster",
+     "Unterland",
+     3,
+     "entry",
+     525.0,
+     170.5,
+     "51",
+     "b1",
+     ""
+    ],
+    [
+     "Elster",
+     "Unterland",
+     3,
+     "exit",
+     459.0,
+     149.1,
+     "51",
+     "b1",
+     ""
+    ],
+    [
+     "Erlbach",
+     "Unterland",
+     3,
+     "entry",
+     824.0,
+     267.7,
+     "52",
+     "b1",
+     ""
+    ],
+    [
+     "Erlbach",
+     "Unterland",
+     3,
+     "mouth",
+     487.3,
+     158.3,
+     "51",
+     "b8",
+     "unterhalb Thieschitz"
+    ],
+    [
+     "Saarbach (zum Erlbach)",
+     "Unterland",
+     3,
+     "entry",
+     745.0,
+     242.0,
+     "52",
+     "b1",
+     ""
+    ],
+    [
+     "Saarbach (zum Erlbach)",
+     "Unterland",
+     3,
+     "mouth",
+     540.0,
+     175.4,
+     "52",
+     "b1",
+     "Einmündung in den Erlbach"
+    ],
+    [
+     "Schafgrund",
+     "Unterland",
+     3,
+     "inflow",
+     700.0,
+     227.4,
+     "52",
+     "b2",
+     "Einfluss der Treibe"
+    ],
+    [
+     "Schafgrund",
+     "Unterland",
+     3,
+     "mouth",
+     480.0,
+     155.9,
+     "52",
+     "b2",
+     ""
+    ],
+    [
+     "Goldthalwasser",
+     "Unterland",
+     3,
+     "mouth",
+     468.0,
+     152.0,
+     "52",
+     "b3",
+     "unterhalb Köstritz"
+    ],
+    [
+     "Pfortenbach",
+     "Unterland",
+     3,
+     "mouth",
+     505.0,
+     164.0,
+     "52",
+     "b11",
+     "bei Pforten"
+    ],
+    [
+     "Zaufensgraben",
+     "Unterland",
+     3,
+     "source",
+     822.0,
+     267.0,
+     "52",
+     "b12",
+     "Südosthöhe von Leumnitz"
+    ],
+    [
+     "Leumnitzbach",
+     "Unterland",
+     3,
+     "source",
+     798.0,
+     259.2,
+     "52",
+     "b13",
+     ""
+    ],
+    [
+     "Leumnitzbach",
+     "Unterland",
+     3,
+     "entry",
+     575.0,
+     186.8,
+     "52",
+     "b13",
+     "Eintritt in Gera"
+    ],
+    [
+     "Krautgrund",
+     "Unterland",
+     3,
+     "source",
+     797.0,
+     258.9,
+     "52",
+     "b14",
+     "südöstlich von Trebnitz"
+    ],
+    [
+     "Krautgrund",
+     "Unterland",
+     3,
+     "mouth",
+     495.0,
+     160.8,
+     "52",
+     "b14",
+     "unterhalb Cuba"
+    ],
+    [
+     "Brambach",
+     "Unterland",
+     3,
+     "source",
+     760.0,
+     246.9,
+     "52",
+     "b15",
+     "Quellfäden bei Bethenhausen und Caasen"
+    ],
+    [
+     "Brambach",
+     "Unterland",
+     3,
+     "mouth",
+     490.0,
+     159.2,
+     "53",
+     "b1",
+     "unterhalb Tinz"
+    ],
+    [
+     "Aga (Reichenbach)",
+     "Unterland",
+     3,
+     "source",
+     830.0,
+     269.6,
+     "53",
+     "b6",
+     "Reichenbach bei Kleinaga"
+    ]
+   ],
+   "source_refs": [
+    {
+     "page": "45",
+     "block": "b7"
+    },
+    {
+     "page": "45",
+     "block": "b13"
+    },
+    {
+     "page": "46",
+     "block": "b2"
+    },
+    {
+     "page": "46",
+     "block": "b4"
+    },
+    {
+     "page": "46",
+     "block": "b5"
+    },
+    {
+     "page": "46",
+     "block": "b16"
+    },
+    {
+     "page": "47",
+     "block": "b4"
+    },
+    {
+     "page": "48",
+     "block": "b1"
+    },
+    {
+     "page": "48",
+     "block": "b4"
+    },
+    {
+     "page": "48",
+     "block": "b6"
+    },
+    {
+     "page": "49",
+     "block": "b5"
+    },
+    {
+     "page": "49",
+     "block": "b6"
+    },
+    {
+     "page": "50",
+     "block": "b15"
+    },
+    {
+     "page": "50",
+     "block": "b16"
+    },
+    {
+     "page": "51",
+     "block": "b1"
+    },
+    {
+     "page": "51",
+     "block": "b8"
+    },
+    {
+     "page": "52",
+     "block": "b1"
+    },
+    {
+     "page": "52",
+     "block": "b2"
+    },
+    {
+     "page": "52",
+     "block": "b3"
+    },
+    {
+     "page": "52",
+     "block": "b11"
+    },
+    {
+     "page": "52",
+     "block": "b12"
+    },
+    {
+     "page": "52",
+     "block": "b13"
+    },
+    {
+     "page": "52",
+     "block": "b14"
+    },
+    {
+     "page": "52",
+     "block": "b15"
+    },
+    {
+     "page": "53",
+     "block": "b1"
+    },
+    {
+     "page": "53",
+     "block": "b6"
+    }
+   ]
+  },
+  {
+   "name": "reaches",
+   "title": {
+    "de": "Strecken mit oberer und unterer Höhe",
+    "en": "Reaches with upper and lower height"
+   },
+   "columns": [
+    {
+     "name": "stream",
+     "label": {
+      "de": "Gewässer",
+      "en": "Watercourse"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "region",
+     "label": {
+      "de": "Gebiet",
+      "en": "Region"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "region_order",
+     "label": {
+      "de": "Gebiet (Ordnung)",
+      "en": "Region (order)"
+     },
+     "type": "integer",
+     "unit": null,
+     "derived": true
+    },
+    {
+     "name": "reach",
+     "label": {
+      "de": "Strecke",
+      "en": "Reach"
+     },
+     "type": "string",
+     "unit": null,
+     "note": "A = Quelle bis Mündung, B = Landeseintritt bis Landesaustritt, C = Teilstrecke (z. B. Landeseintritt bis Mündung, Quelle bis Eintritt in Gera); Codes editorisch"
+    },
+    {
+     "name": "upper_ft",
+     "label": {
+      "de": "Obere Höhe",
+      "en": "Upper height"
+     },
+     "type": "number",
+     "unit": "Pariser Fuß"
+    },
+    {
+     "name": "lower_ft",
+     "label": {
+      "de": "Untere Höhe",
+      "en": "Lower height"
+     },
+     "type": "number",
+     "unit": "Pariser Fuß"
+    },
+    {
+     "name": "upper_m",
+     "label": {
+      "de": "Obere Höhe",
+      "en": "Upper height"
+     },
+     "type": "number",
+     "unit": "m",
+     "derived": true
+    },
+    {
+     "name": "lower_m",
+     "label": {
+      "de": "Untere Höhe",
+      "en": "Lower height"
+     },
+     "type": "number",
+     "unit": "m",
+     "derived": true
+    },
+    {
+     "name": "fall_ft",
+     "label": {
+      "de": "Gefälle",
+      "en": "Fall"
+     },
+     "type": "number",
+     "unit": "Pariser Fuß",
+     "derived": true,
+     "note": "Differenz; für die Saale druckt Brückner 267' (S. 46), das stimmt mit 1190' − 923' überein."
+    },
+    {
+     "name": "fall_m",
+     "label": {
+      "de": "Gefälle",
+      "en": "Fall"
+     },
+     "type": "number",
+     "unit": "m",
+     "derived": true
+    }
+   ],
+   "rows": [
+    [
+     "Sieglitzbach",
+     "Oberland",
+     2,
+     "A",
+     1650.0,
+     1098.0,
+     536.0,
+     356.7,
+     552.0,
+     179.3
+    ],
+    [
+     "Wettera",
+     "Oberland",
+     2,
+     "A",
+     1646.0,
+     945.0,
+     534.7,
+     307.0,
+     701.0,
+     227.7
+    ],
+    [
+     "Lemnitz",
+     "Oberland",
+     2,
+     "A",
+     1537.0,
+     1061.0,
+     499.3,
+     344.7,
+     476.0,
+     154.6
+    ],
+    [
+     "Saale",
+     "Oberland",
+     2,
+     "B",
+     1190.0,
+     923.0,
+     386.6,
+     299.8,
+     267.0,
+     86.7
+    ],
+    [
+     "Weida",
+     "Oberland",
+     2,
+     "B",
+     1055.0,
+     840.0,
+     342.7,
+     272.9,
+     215.0,
+     69.8
+    ],
+    [
+     "Leuba",
+     "Oberland",
+     2,
+     "B",
+     975.0,
+     774.0,
+     316.7,
+     251.4,
+     201.0,
+     65.3
+    ],
+    [
+     "Triebes (zur Weida)",
+     "Oberland",
+     2,
+     "B",
+     960.0,
+     776.0,
+     311.8,
+     252.1,
+     184.0,
+     59.8
+    ],
+    [
+     "Erlbach",
+     "Unterland",
+     3,
+     "C",
+     824.0,
+     487.3,
+     267.7,
+     158.3,
+     336.7,
+     109.4
+    ],
+    [
+     "Leumnitzbach",
+     "Unterland",
+     3,
+     "C",
+     798.0,
+     575.0,
+     259.2,
+     186.8,
+     223.0,
+     72.4
+    ],
+    [
+     "Krautgrund",
+     "Unterland",
+     3,
+     "A",
+     797.0,
+     495.0,
+     258.9,
+     160.8,
+     302.0,
+     98.1
+    ],
+    [
+     "Brambach",
+     "Unterland",
+     3,
+     "A",
+     760.0,
+     490.0,
+     246.9,
+     159.2,
+     270.0,
+     87.7
+    ],
+    [
+     "Saarbach (zum Erlbach)",
+     "Unterland",
+     3,
+     "C",
+     745.0,
+     540.0,
+     242.0,
+     175.4,
+     205.0,
+     66.6
+    ],
+    [
+     "Schafgrund",
+     "Unterland",
+     3,
+     "C",
+     700.0,
+     480.0,
+     227.4,
+     155.9,
+     220.0,
+     71.5
+    ],
+    [
+     "Elster",
+     "Unterland",
+     3,
+     "B",
+     525.0,
+     459.0,
+     170.5,
+     149.1,
+     66.0,
+     21.4
+    ]
+   ],
+   "source_refs": [
+    {
+     "page": "45",
+     "block": "b7"
+    },
+    {
+     "page": "45",
+     "block": "b13"
+    },
+    {
+     "page": "46",
+     "block": "b2"
+    },
+    {
+     "page": "46",
+     "block": "b4"
+    },
+    {
+     "page": "46",
+     "block": "b5"
+    },
+    {
+     "page": "46",
+     "block": "b16"
+    },
+    {
+     "page": "47",
+     "block": "b4"
+    },
+    {
+     "page": "48",
+     "block": "b1"
+    },
+    {
+     "page": "48",
+     "block": "b4"
+    },
+    {
+     "page": "48",
+     "block": "b6"
+    },
+    {
+     "page": "49",
+     "block": "b5"
+    },
+    {
+     "page": "49",
+     "block": "b6"
+    },
+    {
+     "page": "50",
+     "block": "b15"
+    },
+    {
+     "page": "50",
+     "block": "b16"
+    },
+    {
+     "page": "51",
+     "block": "b1"
+    },
+    {
+     "page": "51",
+     "block": "b8"
+    },
+    {
+     "page": "52",
+     "block": "b1"
+    },
+    {
+     "page": "52",
+     "block": "b2"
+    },
+    {
+     "page": "52",
+     "block": "b3"
+    },
+    {
+     "page": "52",
+     "block": "b11"
+    },
+    {
+     "page": "52",
+     "block": "b12"
+    },
+    {
+     "page": "52",
+     "block": "b13"
+    },
+    {
+     "page": "52",
+     "block": "b14"
+    },
+    {
+     "page": "52",
+     "block": "b15"
+    },
+    {
+     "page": "53",
+     "block": "b1"
+    },
+    {
+     "page": "53",
+     "block": "b6"
+    }
+   ]
+  }
+ ],
+ "charts": [
+  {
+   "id": "c1",
+   "dataset": "reaches",
+   "title": {
+    "de": "Obere und untere Höhe der Gewässerstrecken",
+    "en": "Upper and lower height of watercourse reaches"
+   },
+   "caption": {
+    "de": "Jede Linie verbindet die obere und die untere Höhe einer Strecke (Meter, aus Pariser Fuß umgerechnet); Farbe = Art der Strecke. Sortiert nach der oberen Höhe.",
+    "en": "Each line joins the upper and lower height of a reach (metres, converted from Paris feet); colour = type of reach. Sorted by upper height."
+   },
+   "vegalite": {
+    "height": 400,
+    "transform": [
+     {
+      "calculate": {
+       "de": "datum.reach == 'A' ? 'Quelle–Mündung' : datum.reach == 'B' ? 'Eintritt–Austritt' : 'Teilstrecke'",
+       "en": "datum.reach == 'A' ? 'Spring–mouth' : datum.reach == 'B' ? 'Entry–exit' : 'Partial reach'"
+      },
+      "as": "reach_l"
+     }
+    ],
+    "encoding": {
+     "y": {
+      "field": "stream",
+      "type": "nominal",
+      "title": null,
+      "axis": {
+       "labelLimit": 230
+      },
+      "sort": {
+       "field": "upper_m",
+       "op": "max",
+       "order": "descending"
+      }
+     },
+     "color": {
+      "field": "reach_l",
+      "type": "nominal",
+      "title": null,
+      "sort": {
+       "field": "reach",
+       "op": "min"
+      },
+      "legend": {
+       "columnPadding": 4
+      }
+     }
+    },
+    "layer": [
+     {
+      "mark": {
+       "type": "rule",
+       "strokeWidth": 3
+      },
+      "encoding": {
+       "x": {
+        "field": "lower_m",
+        "type": "quantitative",
+        "title": {
+         "de": "Höhe in m (aus Pariser Fuß)",
+         "en": "Height in m (from Paris feet)"
+        },
+        "scale": {
+         "zero": false
+        }
+       },
+       "x2": {
+        "field": "upper_m"
+       },
+       "tooltip": [
+        {
+         "field": "stream",
+         "title": {
+          "de": "Gewässer",
+          "en": "Watercourse"
+         }
+        },
+        {
+         "field": "reach_l",
+         "title": {
+          "de": "Strecke",
+          "en": "Reach"
+         }
+        },
+        {
+         "field": "upper_ft",
+         "title": {
+          "de": "Obere Höhe (Fuß)",
+          "en": "Upper height (ft)"
+         }
+        },
+        {
+         "field": "lower_ft",
+         "title": {
+          "de": "Untere Höhe (Fuß)",
+          "en": "Lower height (ft)"
+         }
+        },
+        {
+         "field": "upper_m",
+         "title": {
+          "de": "Obere Höhe (m)",
+          "en": "Upper height (m)"
+         }
+        },
+        {
+         "field": "lower_m",
+         "title": {
+          "de": "Untere Höhe (m)",
+          "en": "Lower height (m)"
+         }
+        },
+        {
+         "field": "fall_ft",
+         "title": {
+          "de": "Gefälle (Fuß)",
+          "en": "Fall (ft)"
+         }
+        },
+        {
+         "field": "fall_m",
+         "title": {
+          "de": "Gefälle (m)",
+          "en": "Fall (m)"
+         }
+        }
+       ]
+      }
+     },
+     {
+      "mark": {
+       "type": "circle",
+       "size": 70
+      },
+      "encoding": {
+       "x": {
+        "field": "upper_m",
+        "type": "quantitative"
+       }
+      }
+     },
+     {
+      "mark": {
+       "type": "circle",
+       "size": 70
+      },
+      "encoding": {
+       "x": {
+        "field": "lower_m",
+        "type": "quantitative"
+       }
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "c2",
+   "dataset": "points",
+   "title": {
+    "de": "Quellhöhen nach Gebiet",
+    "en": "Spring heights by region"
+   },
+   "caption": {
+    "de": "Die 19 von Brückner genannten Quellhöhen (Meter, aus Pariser Fuß). Die Weida entspringt auf Hochflächen außerhalb des Landes; Langwasser und Rodach entspringen am Frankenwald.",
+    "en": "The 19 spring heights Brückner gives (metres, converted from Paris feet). The Weida rises on uplands outside the country; Langwasser and Rodach rise on the Frankenwald."
+   },
+   "vegalite": {
+    "height": 400,
+    "transform": [
+     {
+      "filter": "datum.point_type == 'source'"
+     }
+    ],
+    "mark": "bar",
+    "encoding": {
+     "y": {
+      "field": "stream",
+      "type": "nominal",
+      "title": null,
+      "axis": {
+       "labelLimit": 230
+      },
+      "sort": {
+       "field": "height_m",
+       "op": "max",
+       "order": "descending"
+      }
+     },
+     "x": {
+      "field": "height_m",
+      "type": "quantitative",
+      "title": {
+       "de": "Quellhöhe in m (aus Pariser Fuß)",
+       "en": "Spring height in m (from Paris feet)"
+      }
+     },
+     "color": {
+      "field": "region",
+      "type": "nominal",
+      "title": null,
+      "sort": {
+       "field": "region_order",
+       "op": "min"
+      }
+     },
+     "tooltip": [
+      {
+       "field": "stream",
+       "title": {
+        "de": "Gewässer",
+        "en": "Watercourse"
+       }
+      },
+      {
+       "field": "region",
+       "title": {
+        "de": "Gebiet",
+        "en": "Region"
+       }
+      },
+      {
+       "field": "height_ft",
+       "title": {
+        "de": "Höhe (Pariser Fuß)",
+        "en": "Height (Paris feet)"
+       }
+      },
+      {
+       "field": "height_m",
+       "title": {
+        "de": "Höhe (m)",
+        "en": "Height (m)"
+       }
+      },
+      {
+       "field": "note",
+       "title": {
+        "de": "Bemerkung",
+        "en": "Remark"
+       }
+      }
+     ]
+    }
+   }
+  }
+ ],
+ "keywords": {
+  "de": [
+   "Quellen",
+   "Flüsse",
+   "Gewässer",
+   "Höhen",
+   "Saale",
+   "Weiße Elster",
+   "Weida",
+   "Rodach",
+   "Gefälle",
+   "Pariser Fuß"
+  ],
+  "en": [
+   "springs",
+   "rivers",
+   "watercourses",
+   "heights",
+   "Saale",
+   "White Elster",
+   "Weida",
+   "Rodach",
+   "gradient",
+   "Paris foot"
+  ]
+ },
+ "generated_by": "Claude Sonnet 5.5 (subagent A02)",
+ "date": "2026-10-01"
+}

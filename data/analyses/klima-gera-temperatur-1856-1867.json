@@ -1,0 +1,2425 @@
+{
+ "id": "klima-gera-temperatur-1856-1867",
+ "title": {
+  "de": "Temperatur in Gera 1856–1867",
+  "en": "Temperature at Gera, 1856–1867"
+ },
+ "category": "climate",
+ "section": "t1-1-7",
+ "sources": [
+  {
+   "page": "55",
+   "block": "b7",
+   "rows": "r2-r14"
+  },
+  {
+   "page": "55",
+   "block": "b9",
+   "rows": "r2-r14"
+  },
+  {
+   "page": "55",
+   "block": "fn1"
+  },
+  {
+   "page": "55",
+   "block": "fn2"
+  },
+  {
+   "page": "70",
+   "block": "b1",
+   "note": "Hinweis auf die Réaumur-Skala (»5 1/2° R.«)"
+  }
+ ],
+ "summary": {
+  "de": "Brückner druckt für Gera die Monatsmittel der Temperatur aller zwölf Jahre 1856–1867, dazu Sommer-, Winter- und Jahresmittel sowie den höchsten und tiefsten Thermometerstand jedes Jahres. Die Zahlen stehen in Grad Réaumur und sind hier in °C umgerechnet. Das Jahresmittel liegt bei 8,7 °C; das kälteste Jahr (1864) blieb 3,4 K unter dem wärmsten (1863), und der März 1856 lag 11 K unter dem Märzmittel.",
+  "en": "For Gera Brückner prints the monthly mean temperatures for all twelve years 1856–1867, plus summer, winter and annual means and the highest and lowest thermometer reading of each year. The figures are in degrees Réaumur and are converted here to °C. The annual mean is 8.7 °C; the coldest year (1864) stayed 3.4 K below the warmest (1863), and March 1856 was 11 K below the March average."
+ },
+ "method": {
+  "de": "Übernommen wurden die 144 Monatsmittel (S. 55, Tabelle a) und die Tabelle b) mit Sommer-, Winter-, Höchst-, Tiefst- und Jahreswerten der zwölf Jahre. Die Skala nennt der Abschnitt nicht; wie auf S. 70 (»5 1/2° R.«) und nach der Plausibilität der Werte angenommen, handelt es sich um Grad Réaumur. Umrechnung: °C = °R × 1,25, gerundet auf zwei Stellen. Die Abweichungen (Heatmap) sind Monatswert minus Mittel desselben Kalendermonats über die zwölf Jahre; dieses Mittel wurde aus den 144 Werten neu berechnet und weicht von Brückners gedruckter Mittelzeile um höchstens 0,01 °R ab. Brückner definiert Sommer als April bis September, Winter als Oktober bis Dezember plus Januar bis März desselben Kalenderjahres (Fußnoten). Die gedruckten Sommer-, Winter- und Jahresmittel stimmen mit den Monatswerten bis auf höchstens 0,04 °R überein (Rundung der einstellig angegebenen Werte ab 1863); das gedruckte Minus des März 1856 (»— 6,8«) wurde am Faksimile geprüft und passt zum gedruckten Wintermittel 1856.",
+  "en": "The table takes in the 144 monthly means (p. 55, table a) and table b) with the summer, winter, highest, lowest and annual values of the twelve years. The section does not name the scale; as on p. 70 (“5 1/2° R.”) and judging by the plausibility of the values, it is degrees Réaumur. Conversion: °C = °R × 1.25, rounded to two decimals. The deviations (heat map) are the monthly value minus the mean of the same calendar month over the twelve years; this mean was recomputed from the 144 values and differs from Brückner’s printed mean row by 0.01 °R at most. Brückner defines summer as April to September and winter as October to December plus January to March of the same calendar year (footnotes). The printed summer, winter and annual means agree with the monthly values to within 0.04 °R (rounding of the one-decimal values from 1863 on); the printed minus sign of March 1856 (“— 6,8”) was checked on the facsimile and fits the printed winter mean of 1856."
+ },
+ "findings": [
+  {
+   "de": "Das Jahresmittel der zwölf Jahre beträgt 8,7 °C (6,96 °R). Die Einzeljahre reichen von 6,5 °C (1864) bis 9,9 °C (1863); ein Trend ist nicht zu erkennen (Steigung −0,4 K je Jahrzehnt, r = −0,16).",
+   "en": "The annual mean over the twelve years is 8.7 °C (6.96 °R). Individual years range from 6.5 °C (1864) to 9.9 °C (1863); no trend is visible (slope −0.4 K per decade, r = −0.16)."
+  },
+  {
+   "de": "Im mittleren Jahresgang ist der Januar der kälteste Monat (−0,6 °C), der August der wärmste (18,0 °C); die Amplitude der Monatsmittel beträgt 18,7 K.",
+   "en": "In the mean annual cycle January is the coldest month (−0.6 °C) and August the warmest (18.0 °C); the amplitude of the monthly means is 18.7 K."
+  },
+  {
+   "de": "Die Monatsmittel streuen im Winter weit stärker als im Sommer: Die Standardabweichung über die Jahre beträgt im März 4,3 K und im Januar 3,2 K, im September nur 0,9 K. Der kälteste Einzelmonat ist der März 1856 (−8,5 °C, 11,1 K unter dem Märzmittel).",
+   "en": "Monthly means scatter far more in winter than in summer: the standard deviation across years is 4.3 K in March and 3.2 K in January, but only 0.9 K in September. The coldest single month is March 1856 (−8.5 °C, 11.1 K below the March mean)."
+  },
+  {
+   "de": "Der höchste Thermometerstand war 28,7 °R = 35,9 °C (1859), der tiefste −22,7 °R = −28,4 °C (1861). Die jährliche Spanne zwischen Höchst- und Tiefststand beträgt im Mittel 49,9 K, am größten 1861 (62,5 K), am kleinsten 1866 (40,8 K).",
+   "en": "The highest reading was 28.7 °R = 35.9 °C (1859), the lowest −22.7 °R = −28.4 °C (1861). The yearly spread between highest and lowest reading averages 49.9 K, largest in 1861 (62.5 K) and smallest in 1866 (40.8 K)."
+  }
+ ],
+ "caveats": [
+  {
+   "de": "Die Temperaturskala ist an dieser Stelle nicht genannt. Die Annahme Réaumur stützt sich auf die Angabe »° R.« auf S. 70 und auf die Plausibilität (umgerechnetes Jahresmittel 8,7 °C für Gera in rund 200 m Höhe). Wären die Werte Celsius-Angaben, lägen alle °C-Werte dieser Auswertung um 20 % niedriger.",
+   "en": "The temperature scale is not named at this point. The Réaumur assumption rests on the “° R.” notation on p. 70 and on plausibility (converted annual mean 8.7 °C for Gera at about 200 m). If the values were Celsius, all °C values of this analysis would be 20 % lower."
+  },
+  {
+   "de": "Die frühere Darstellung (PNG) zeichnete die gedruckten Zahlen unumgerechnet als °C; ihre Extremwerte und Spannen waren daher um ein Fünftel zu klein.",
+   "en": "The earlier edition’s chart (PNG) plotted the printed figures unconverted as °C; its extremes and spans were therefore too small by a fifth."
+  },
+  {
+   "de": "Einstationsreihe über zwölf Jahre mit wechselnden Beobachtern (Kratzsch: ein- bis zweimal täglich, Schmidt: dreimal täglich, S. 54); Instrument, Aufstellung und Termine sind nicht angegeben. Die Luftdruckreihe derselben Station zeigt 1865 einen Sprung – Homogenität der Temperaturreihe ist nicht belegt.",
+   "en": "A single-station series over twelve years with changing observers (Kratzsch: once or twice daily, Schmidt: three times daily, p. 54); instrument, exposure and observation hours are not stated. The air-pressure series of the same station jumps in 1865, so homogeneity of the temperature series is not demonstrated."
+  },
+  {
+   "de": "Ab 1863 sind die Monatswerte nur noch auf 0,1 °R genau gedruckt (vorher 0,01 °R); die zwei Dezimalen der °C-Werte sind dort Rundungsergebnis und täuschen keine Genauigkeit vor.",
+   "en": "From 1863 on the monthly values are printed to 0.1 °R only (earlier 0.01 °R); the two decimals of the °C values there result from rounding and do not imply that precision."
+  },
+  {
+   "de": "Der März 1856 (−6,8 °R) steht im Widerspruch zu Hohenleuben, wo für denselben Monat +0,28 °R gedruckt sind (S. 56, siehe Auswertung der Stationen); Geras gedruckte Winter- und Jahresmittel 1856 sind mit −6,8 gerechnet, der Fehler läge also in der Vorlage. Der Wert wird unverändert gezeigt, bestimmt aber die Extreme der Abb. 3 und 4.",
+   "en": "March 1856 (−6.8 °R) contradicts Hohenleuben, where +0.28 °R is printed for the same month (p. 56, see the station comparison); Gera’s printed winter and annual means for 1856 are computed with −6.8, so the error would lie in the source. The value is shown unchanged but determines the extremes in charts 3 and 4."
+  }
+ ],
+ "conversions": [
+  {
+   "from": "Grad Réaumur (°R)",
+   "to": "Grad Celsius (°C)",
+   "factor_or_formula": "°C = °R × 1,25",
+   "reference": "80 Teilstriche zwischen Eis- und Siedepunkt (Réaumur) gegenüber 100 (Celsius); von Brückner nicht tabelliert"
+  }
+ ],
+ "datasets": [
+  {
+   "name": "monthly",
+   "title": {
+    "de": "Monatsmittel der Temperatur, Gera",
+    "en": "Monthly mean temperature, Gera"
+   },
+   "columns": [
+    {
+     "name": "year",
+     "label": {
+      "de": "Jahr",
+      "en": "Year"
+     },
+     "type": "integer",
+     "unit": null
+    },
+    {
+     "name": "month",
+     "label": {
+      "de": "Monat",
+      "en": "Month"
+     },
+     "type": "integer",
+     "unit": null,
+     "derived": true,
+     "note": "Monatsnummer 1-12, editorisch"
+    },
+    {
+     "name": "month_label",
+     "label": {
+      "de": "Monat (Original)",
+      "en": "Month (original)"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "temp_r",
+     "label": {
+      "de": "Monatsmittel (gedruckt)",
+      "en": "Monthly mean (printed)"
+     },
+     "type": "number",
+     "unit": "°R"
+    },
+    {
+     "name": "temp_c",
+     "label": {
+      "de": "Monatsmittel",
+      "en": "Monthly mean"
+     },
+     "type": "number",
+     "unit": "°C",
+     "derived": true,
+     "note": "°R × 1,25"
+    },
+    {
+     "name": "anomaly_c",
+     "label": {
+      "de": "Abweichung vom Monatsmittel 1856–1867",
+      "en": "Deviation from the 1856–1867 monthly mean"
+     },
+     "type": "number",
+     "unit": "K",
+     "derived": true
+    }
+   ],
+   "rows": [
+    [
+     1856,
+     1,
+     "Jan.",
+     0.89,
+     1.11,
+     1.74
+    ],
+    [
+     1856,
+     2,
+     "Febr.",
+     2.35,
+     2.94,
+     2.07
+    ],
+    [
+     1856,
+     3,
+     "März",
+     -6.8,
+     -8.5,
+     -11.12
+    ],
+    [
+     1856,
+     4,
+     "April",
+     8.15,
+     10.19,
+     1.92
+    ],
+    [
+     1856,
+     5,
+     "Mai",
+     9.91,
+     12.39,
+     -0.37
+    ],
+    [
+     1856,
+     6,
+     "Juni",
+     13.52,
+     16.9,
+     -0.07
+    ],
+    [
+     1856,
+     7,
+     "Juli",
+     13.62,
+     17.02,
+     -0.76
+    ],
+    [
+     1856,
+     8,
+     "Aug.",
+     15.04,
+     18.8,
+     0.78
+    ],
+    [
+     1856,
+     9,
+     "Sept.",
+     11.4,
+     14.25,
+     -0.52
+    ],
+    [
+     1856,
+     10,
+     "Oct.",
+     8.7,
+     10.88,
+     1.26
+    ],
+    [
+     1856,
+     11,
+     "Nov.",
+     0.83,
+     1.04,
+     -2.08
+    ],
+    [
+     1856,
+     12,
+     "Dec.",
+     1.62,
+     2.03,
+     1.57
+    ],
+    [
+     1857,
+     1,
+     "Jan.",
+     -1.3,
+     -1.62,
+     -0.99
+    ],
+    [
+     1857,
+     2,
+     "Febr.",
+     0.7,
+     0.88,
+     0.01
+    ],
+    [
+     1857,
+     3,
+     "März",
+     3.03,
+     3.79,
+     1.17
+    ],
+    [
+     1857,
+     4,
+     "April",
+     6.5,
+     8.12,
+     -0.14
+    ],
+    [
+     1857,
+     5,
+     "Mai",
+     10.71,
+     13.39,
+     0.63
+    ],
+    [
+     1857,
+     6,
+     "Juni",
+     13.53,
+     16.91,
+     -0.06
+    ],
+    [
+     1857,
+     7,
+     "Juli",
+     15.37,
+     19.21,
+     1.43
+    ],
+    [
+     1857,
+     8,
+     "Aug.",
+     15.39,
+     19.24,
+     1.21
+    ],
+    [
+     1857,
+     9,
+     "Sept.",
+     12.69,
+     15.86,
+     1.1
+    ],
+    [
+     1857,
+     10,
+     "Oct.",
+     9.6,
+     12.0,
+     2.38
+    ],
+    [
+     1857,
+     11,
+     "Nov.",
+     2.67,
+     3.34,
+     0.22
+    ],
+    [
+     1857,
+     12,
+     "Dec.",
+     2.2,
+     2.75,
+     2.29
+    ],
+    [
+     1858,
+     1,
+     "Jan.",
+     -1.44,
+     -1.8,
+     -1.17
+    ],
+    [
+     1858,
+     2,
+     "Febr.",
+     -2.49,
+     -3.11,
+     -3.98
+    ],
+    [
+     1858,
+     3,
+     "März",
+     1.7,
+     2.12,
+     -0.5
+    ],
+    [
+     1858,
+     4,
+     "April",
+     6.32,
+     7.9,
+     -0.37
+    ],
+    [
+     1858,
+     5,
+     "Mai",
+     9.7,
+     12.12,
+     -0.63
+    ],
+    [
+     1858,
+     6,
+     "Juni",
+     15.81,
+     19.76,
+     2.79
+    ],
+    [
+     1858,
+     7,
+     "Juli",
+     14.2,
+     17.75,
+     -0.03
+    ],
+    [
+     1858,
+     8,
+     "Aug.",
+     15.95,
+     19.94,
+     1.91
+    ],
+    [
+     1858,
+     9,
+     "Sept.",
+     12.95,
+     16.19,
+     1.42
+    ],
+    [
+     1858,
+     10,
+     "Oct.",
+     7.84,
+     9.8,
+     0.18
+    ],
+    [
+     1858,
+     11,
+     "Nov.",
+     2.1,
+     2.62,
+     -0.49
+    ],
+    [
+     1858,
+     12,
+     "Dec.",
+     1.12,
+     1.4,
+     0.94
+    ],
+    [
+     1859,
+     1,
+     "Jan.",
+     1.35,
+     1.69,
+     2.32
+    ],
+    [
+     1859,
+     2,
+     "Febr.",
+     2.35,
+     2.94,
+     2.07
+    ],
+    [
+     1859,
+     3,
+     "März",
+     5.71,
+     7.14,
+     4.52
+    ],
+    [
+     1859,
+     4,
+     "April",
+     6.47,
+     8.09,
+     -0.18
+    ],
+    [
+     1859,
+     5,
+     "Mai",
+     10.42,
+     13.03,
+     0.27
+    ],
+    [
+     1859,
+     6,
+     "Juni",
+     13.6,
+     17.0,
+     0.03
+    ],
+    [
+     1859,
+     7,
+     "Juli",
+     16.91,
+     21.14,
+     3.35
+    ],
+    [
+     1859,
+     8,
+     "Aug.",
+     16.24,
+     20.3,
+     2.28
+    ],
+    [
+     1859,
+     9,
+     "Sept.",
+     11.64,
+     14.55,
+     -0.22
+    ],
+    [
+     1859,
+     10,
+     "Oct.",
+     8.68,
+     10.85,
+     1.23
+    ],
+    [
+     1859,
+     11,
+     "Nov.",
+     2.15,
+     2.69,
+     -0.43
+    ],
+    [
+     1859,
+     12,
+     "Dec.",
+     -1.3,
+     -1.62,
+     -2.08
+    ],
+    [
+     1860,
+     1,
+     "Jan.",
+     1.6,
+     2.0,
+     2.63
+    ],
+    [
+     1860,
+     2,
+     "Febr.",
+     -1.46,
+     -1.82,
+     -2.69
+    ],
+    [
+     1860,
+     3,
+     "März",
+     1.6,
+     2.0,
+     -0.62
+    ],
+    [
+     1860,
+     4,
+     "April",
+     5.68,
+     7.1,
+     -1.17
+    ],
+    [
+     1860,
+     5,
+     "Mai",
+     11.06,
+     13.83,
+     1.07
+    ],
+    [
+     1860,
+     6,
+     "Juni",
+     13.18,
+     16.48,
+     -0.49
+    ],
+    [
+     1860,
+     7,
+     "Juli",
+     12.53,
+     15.66,
+     -2.12
+    ],
+    [
+     1860,
+     8,
+     "Aug.",
+     13.62,
+     17.02,
+     -1.0
+    ],
+    [
+     1860,
+     9,
+     "Sept.",
+     11.31,
+     14.14,
+     -0.63
+    ],
+    [
+     1860,
+     10,
+     "Oct.",
+     6.77,
+     8.46,
+     -1.16
+    ],
+    [
+     1860,
+     11,
+     "Nov.",
+     0.72,
+     0.9,
+     -2.22
+    ],
+    [
+     1860,
+     12,
+     "Dec.",
+     -1.23,
+     -1.54,
+     -2.0
+    ],
+    [
+     1861,
+     1,
+     "Jan.",
+     -5.11,
+     -6.39,
+     -5.76
+    ],
+    [
+     1861,
+     2,
+     "Febr.",
+     2.94,
+     3.67,
+     2.81
+    ],
+    [
+     1861,
+     3,
+     "März",
+     4.52,
+     5.65,
+     3.03
+    ],
+    [
+     1861,
+     4,
+     "April",
+     5.02,
+     6.27,
+     -1.99
+    ],
+    [
+     1861,
+     5,
+     "Mai",
+     8.9,
+     11.12,
+     -1.63
+    ],
+    [
+     1861,
+     6,
+     "Juni",
+     14.0,
+     17.5,
+     0.53
+    ],
+    [
+     1861,
+     7,
+     "Juli",
+     14.44,
+     18.05,
+     0.27
+    ],
+    [
+     1861,
+     8,
+     "Aug.",
+     14.58,
+     18.23,
+     0.2
+    ],
+    [
+     1861,
+     9,
+     "Sept.",
+     11.47,
+     14.34,
+     -0.43
+    ],
+    [
+     1861,
+     10,
+     "Oct.",
+     8.02,
+     10.02,
+     0.41
+    ],
+    [
+     1861,
+     11,
+     "Nov.",
+     3.63,
+     4.54,
+     1.42
+    ],
+    [
+     1861,
+     12,
+     "Dec.",
+     -0.11,
+     -0.14,
+     -0.6
+    ],
+    [
+     1862,
+     1,
+     "Jan.",
+     -2.16,
+     -2.7,
+     -2.07
+    ],
+    [
+     1862,
+     2,
+     "Febr.",
+     0.11,
+     0.14,
+     -0.73
+    ],
+    [
+     1862,
+     3,
+     "März",
+     5.81,
+     7.26,
+     4.64
+    ],
+    [
+     1862,
+     4,
+     "April",
+     8.53,
+     10.66,
+     2.39
+    ],
+    [
+     1862,
+     5,
+     "Mai",
+     12.85,
+     16.06,
+     3.31
+    ],
+    [
+     1862,
+     6,
+     "Juni",
+     13.05,
+     16.31,
+     -0.66
+    ],
+    [
+     1862,
+     7,
+     "Juli",
+     14.26,
+     17.82,
+     0.04
+    ],
+    [
+     1862,
+     8,
+     "Aug.",
+     13.41,
+     16.76,
+     -1.26
+    ],
+    [
+     1862,
+     9,
+     "Sept.",
+     11.39,
+     14.24,
+     -0.53
+    ],
+    [
+     1862,
+     10,
+     "Oct.",
+     9.02,
+     11.27,
+     1.66
+    ],
+    [
+     1862,
+     11,
+     "Nov.",
+     2.31,
+     2.89,
+     -0.23
+    ],
+    [
+     1862,
+     12,
+     "Dec.",
+     1.3,
+     1.62,
+     1.17
+    ],
+    [
+     1863,
+     1,
+     "Jan.",
+     2.4,
+     3.0,
+     3.63
+    ],
+    [
+     1863,
+     2,
+     "Febr.",
+     2.2,
+     2.75,
+     1.89
+    ],
+    [
+     1863,
+     3,
+     "März",
+     4.2,
+     5.25,
+     2.63
+    ],
+    [
+     1863,
+     4,
+     "April",
+     6.8,
+     8.5,
+     0.23
+    ],
+    [
+     1863,
+     5,
+     "Mai",
+     10.2,
+     12.75,
+     -0.01
+    ],
+    [
+     1863,
+     6,
+     "Juni",
+     13.5,
+     16.88,
+     -0.09
+    ],
+    [
+     1863,
+     7,
+     "Juli",
+     13.4,
+     16.75,
+     -1.03
+    ],
+    [
+     1863,
+     8,
+     "Aug.",
+     15.6,
+     19.5,
+     1.48
+    ],
+    [
+     1863,
+     9,
+     "Sept.",
+     11.4,
+     14.25,
+     -0.52
+    ],
+    [
+     1863,
+     10,
+     "Oct.",
+     9.0,
+     11.25,
+     1.63
+    ],
+    [
+     1863,
+     11,
+     "Nov.",
+     3.9,
+     4.88,
+     1.76
+    ],
+    [
+     1863,
+     12,
+     "Dec.",
+     2.7,
+     3.38,
+     2.92
+    ],
+    [
+     1864,
+     1,
+     "Jan.",
+     -4.9,
+     -6.12,
+     -5.49
+    ],
+    [
+     1864,
+     2,
+     "Febr.",
+     -0.7,
+     -0.88,
+     -1.74
+    ],
+    [
+     1864,
+     3,
+     "März",
+     3.7,
+     4.62,
+     2.0
+    ],
+    [
+     1864,
+     4,
+     "April",
+     4.4,
+     5.5,
+     -2.77
+    ],
+    [
+     1864,
+     5,
+     "Mai",
+     8.0,
+     10.0,
+     -2.76
+    ],
+    [
+     1864,
+     6,
+     "Juni",
+     12.9,
+     16.12,
+     -0.84
+    ],
+    [
+     1864,
+     7,
+     "Juli",
+     12.8,
+     16.0,
+     -1.78
+    ],
+    [
+     1864,
+     8,
+     "Aug.",
+     12.2,
+     15.25,
+     -2.77
+    ],
+    [
+     1864,
+     9,
+     "Sept.",
+     10.9,
+     13.62,
+     -1.14
+    ],
+    [
+     1864,
+     10,
+     "Oct.",
+     5.9,
+     7.38,
+     -2.24
+    ],
+    [
+     1864,
+     11,
+     "Nov.",
+     1.1,
+     1.38,
+     -1.74
+    ],
+    [
+     1864,
+     12,
+     "Dec.",
+     -3.5,
+     -4.38,
+     -4.83
+    ],
+    [
+     1865,
+     1,
+     "Jan.",
+     0.1,
+     0.12,
+     0.76
+    ],
+    [
+     1865,
+     2,
+     "Febr.",
+     -4.3,
+     -5.38,
+     -6.24
+    ],
+    [
+     1865,
+     3,
+     "März",
+     -1.0,
+     -1.25,
+     -3.87
+    ],
+    [
+     1865,
+     4,
+     "April",
+     7.6,
+     9.5,
+     1.23
+    ],
+    [
+     1865,
+     5,
+     "Mai",
+     13.1,
+     16.38,
+     3.62
+    ],
+    [
+     1865,
+     6,
+     "Juni",
+     11.5,
+     14.38,
+     -2.59
+    ],
+    [
+     1865,
+     7,
+     "Juli",
+     16.5,
+     20.62,
+     2.84
+    ],
+    [
+     1865,
+     8,
+     "Aug.",
+     13.6,
+     17.0,
+     -1.02
+    ],
+    [
+     1865,
+     9,
+     "Sept.",
+     11.6,
+     14.5,
+     -0.27
+    ],
+    [
+     1865,
+     10,
+     "Oct.",
+     7.3,
+     9.12,
+     -0.49
+    ],
+    [
+     1865,
+     11,
+     "Nov.",
+     4.7,
+     5.88,
+     2.76
+    ],
+    [
+     1865,
+     12,
+     "Dec.",
+     0.1,
+     0.12,
+     -0.33
+    ],
+    [
+     1866,
+     1,
+     "Jan.",
+     2.8,
+     3.5,
+     4.13
+    ],
+    [
+     1866,
+     2,
+     "Febr.",
+     3.0,
+     3.75,
+     2.89
+    ],
+    [
+     1866,
+     3,
+     "März",
+     1.7,
+     2.12,
+     -0.5
+    ],
+    [
+     1866,
+     4,
+     "April",
+     7.3,
+     9.12,
+     0.86
+    ],
+    [
+     1866,
+     5,
+     "Mai",
+     8.1,
+     10.12,
+     -2.63
+    ],
+    [
+     1866,
+     6,
+     "Juni",
+     14.7,
+     18.38,
+     1.41
+    ],
+    [
+     1866,
+     7,
+     "Juli",
+     13.2,
+     16.5,
+     -1.28
+    ],
+    [
+     1866,
+     8,
+     "Aug.",
+     12.9,
+     16.12,
+     -1.9
+    ],
+    [
+     1866,
+     9,
+     "Sept.",
+     12.9,
+     16.12,
+     1.36
+    ],
+    [
+     1866,
+     10,
+     "Oct.",
+     4.9,
+     6.12,
+     -3.49
+    ],
+    [
+     1866,
+     11,
+     "Nov.",
+     3.5,
+     4.38,
+     1.26
+    ],
+    [
+     1866,
+     12,
+     "Dec.",
+     2.0,
+     2.5,
+     2.04
+    ],
+    [
+     1867,
+     1,
+     "Jan.",
+     -0.3,
+     -0.38,
+     0.26
+    ],
+    [
+     1867,
+     2,
+     "Febr.",
+     3.6,
+     4.5,
+     3.64
+    ],
+    [
+     1867,
+     3,
+     "März",
+     1.0,
+     1.25,
+     -1.37
+    ],
+    [
+     1867,
+     4,
+     "April",
+     6.6,
+     8.25,
+     -0.02
+    ],
+    [
+     1867,
+     5,
+     "Mai",
+     9.5,
+     11.88,
+     -0.88
+    ],
+    [
+     1867,
+     6,
+     "Juni",
+     13.6,
+     17.0,
+     0.03
+    ],
+    [
+     1867,
+     7,
+     "Juli",
+     13.5,
+     16.88,
+     -0.91
+    ],
+    [
+     1867,
+     8,
+     "Aug.",
+     14.5,
+     18.12,
+     0.1
+    ],
+    [
+     1867,
+     9,
+     "Sept.",
+     12.1,
+     15.12,
+     0.36
+    ],
+    [
+     1867,
+     10,
+     "Oct.",
+     6.6,
+     8.25,
+     -1.37
+    ],
+    [
+     1867,
+     11,
+     "Nov.",
+     2.3,
+     2.88,
+     -0.24
+    ],
+    [
+     1867,
+     12,
+     "Dec.",
+     -0.5,
+     -0.62,
+     -1.08
+    ]
+   ],
+   "source_refs": [
+    {
+     "page": "55",
+     "block": "b7",
+     "rows": "r2-r13"
+    }
+   ]
+  },
+  {
+   "name": "annual",
+   "title": {
+    "de": "Jahreswerte der Temperatur, Gera",
+    "en": "Annual temperature values, Gera"
+   },
+   "columns": [
+    {
+     "name": "year",
+     "label": {
+      "de": "Jahr",
+      "en": "Year"
+     },
+     "type": "integer",
+     "unit": null
+    },
+    {
+     "name": "summer_r",
+     "label": {
+      "de": "Sommermittel (Apr–Sep)",
+      "en": "Summer mean (Apr–Sep)"
+     },
+     "type": "number",
+     "unit": "°R"
+    },
+    {
+     "name": "winter_r",
+     "label": {
+      "de": "Wintermittel (Okt–Mär)",
+      "en": "Winter mean (Oct–Mar)"
+     },
+     "type": "number",
+     "unit": "°R"
+    },
+    {
+     "name": "max_r",
+     "label": {
+      "de": "Höchster Stand",
+      "en": "Highest reading"
+     },
+     "type": "number",
+     "unit": "°R"
+    },
+    {
+     "name": "min_r",
+     "label": {
+      "de": "Tiefster Stand",
+      "en": "Lowest reading"
+     },
+     "type": "number",
+     "unit": "°R"
+    },
+    {
+     "name": "annual_r",
+     "label": {
+      "de": "Jahresmittel",
+      "en": "Annual mean"
+     },
+     "type": "number",
+     "unit": "°R"
+    },
+    {
+     "name": "summer_c",
+     "label": {
+      "de": "Sommermittel (Apr–Sep)",
+      "en": "Summer mean (Apr–Sep)"
+     },
+     "type": "number",
+     "unit": "°C",
+     "derived": true
+    },
+    {
+     "name": "winter_c",
+     "label": {
+      "de": "Wintermittel (Okt–Mär)",
+      "en": "Winter mean (Oct–Mar)"
+     },
+     "type": "number",
+     "unit": "°C",
+     "derived": true
+    },
+    {
+     "name": "max_c",
+     "label": {
+      "de": "Höchster Stand",
+      "en": "Highest reading"
+     },
+     "type": "number",
+     "unit": "°C",
+     "derived": true
+    },
+    {
+     "name": "min_c",
+     "label": {
+      "de": "Tiefster Stand",
+      "en": "Lowest reading"
+     },
+     "type": "number",
+     "unit": "°C",
+     "derived": true
+    },
+    {
+     "name": "annual_c",
+     "label": {
+      "de": "Jahresmittel",
+      "en": "Annual mean"
+     },
+     "type": "number",
+     "unit": "°C",
+     "derived": true
+    },
+    {
+     "name": "span_c",
+     "label": {
+      "de": "Spanne Höchst–Tiefst",
+      "en": "Spread highest–lowest"
+     },
+     "type": "number",
+     "unit": "K",
+     "derived": true
+    }
+   ],
+   "rows": [
+    [
+     1856,
+     11.94,
+     1.26,
+     25.0,
+     -15.5,
+     6.6,
+     14.92,
+     1.57,
+     31.25,
+     -19.38,
+     8.25,
+     50.62
+    ],
+    [
+     1857,
+     12.36,
+     2.82,
+     26.8,
+     -14.4,
+     7.59,
+     15.45,
+     3.52,
+     33.5,
+     -18.0,
+     9.49,
+     51.5
+    ],
+    [
+     1858,
+     12.48,
+     1.47,
+     26.6,
+     -15.4,
+     6.97,
+     15.6,
+     1.84,
+     33.25,
+     -19.25,
+     8.71,
+     52.5
+    ],
+    [
+     1859,
+     12.54,
+     3.15,
+     28.7,
+     -11.3,
+     7.84,
+     15.67,
+     3.94,
+     35.88,
+     -14.12,
+     9.8,
+     50.0
+    ],
+    [
+     1860,
+     11.23,
+     1.33,
+     24.4,
+     -12.4,
+     6.28,
+     14.04,
+     1.66,
+     30.5,
+     -15.5,
+     7.85,
+     46.0
+    ],
+    [
+     1861,
+     11.4,
+     2.31,
+     27.3,
+     -22.7,
+     6.85,
+     14.25,
+     2.89,
+     34.12,
+     -28.38,
+     8.56,
+     62.5
+    ],
+    [
+     1862,
+     12.24,
+     2.73,
+     26.4,
+     -13.0,
+     7.48,
+     15.3,
+     3.41,
+     33.0,
+     -16.25,
+     9.35,
+     49.25
+    ],
+    [
+     1863,
+     11.81,
+     4.06,
+     27.0,
+     -7.5,
+     7.93,
+     14.76,
+     5.07,
+     33.75,
+     -9.38,
+     9.91,
+     43.12
+    ],
+    [
+     1864,
+     10.2,
+     0.23,
+     23.0,
+     -15.5,
+     5.21,
+     12.75,
+     0.29,
+     28.75,
+     -19.38,
+     6.51,
+     48.12
+    ],
+    [
+     1865,
+     12.31,
+     1.11,
+     27.2,
+     -17.5,
+     6.71,
+     15.39,
+     1.39,
+     34.0,
+     -21.88,
+     8.39,
+     55.88
+    ],
+    [
+     1866,
+     11.51,
+     2.98,
+     24.5,
+     -8.1,
+     7.24,
+     14.39,
+     3.73,
+     30.62,
+     -10.12,
+     9.05,
+     40.75
+    ],
+    [
+     1867,
+     11.63,
+     2.11,
+     24.5,
+     -14.5,
+     6.87,
+     14.54,
+     2.64,
+     30.62,
+     -18.12,
+     8.59,
+     48.75
+    ]
+   ],
+   "source_refs": [
+    {
+     "page": "55",
+     "block": "b9",
+     "rows": "r2-r13"
+    }
+   ]
+  }
+ ],
+ "charts": [
+  {
+   "id": "c1",
+   "dataset": "annual",
+   "title": {
+    "de": "Jahres-, Sommer- und Wintermittel",
+    "en": "Annual, summer and winter means"
+   },
+   "caption": {
+    "de": "Gera, in °C. Das Sommermittel (April–September) schwankt wenig, das Wintermittel (Oktober–März) stark; 1864 war in beiden Jahreszeiten das kälteste Jahr der Reihe.",
+    "en": "Gera, in °C. The summer mean (April–September) varies little, the winter mean (October–March) a lot; 1864 was the coldest year of the series in both seasons."
+   },
+   "vegalite": {
+    "height": 280,
+    "transform": [
+     {
+      "fold": [
+       "summer_c",
+       "annual_c",
+       "winter_c"
+      ],
+      "as": [
+       "key",
+       "value"
+      ]
+     },
+     {
+      "calculate": {
+       "de": "datum.key == 'summer_c' ? 'Sommermittel' : datum.key == 'annual_c' ? 'Jahresmittel' : datum.key == 'winter_c' ? 'Wintermittel' : ''",
+       "en": "datum.key == 'summer_c' ? 'Summer mean' : datum.key == 'annual_c' ? 'Annual mean' : datum.key == 'winter_c' ? 'Winter mean' : ''"
+      },
+      "as": "series"
+     }
+    ],
+    "mark": {
+     "type": "line",
+     "point": true
+    },
+    "encoding": {
+     "x": {
+      "field": "year",
+      "type": "ordinal",
+      "title": {
+       "de": "Jahr",
+       "en": "Year"
+      },
+      "axis": {
+       "labelAngle": 0
+      }
+     },
+     "y": {
+      "field": "value",
+      "type": "quantitative",
+      "title": "°C",
+      "scale": {
+       "zero": false
+      }
+     },
+     "color": {
+      "field": "series",
+      "type": "nominal",
+      "title": null,
+      "scale": {
+       "domain": [
+        {
+         "de": "Sommermittel",
+         "en": "Summer mean"
+        },
+        {
+         "de": "Jahresmittel",
+         "en": "Annual mean"
+        },
+        {
+         "de": "Wintermittel",
+         "en": "Winter mean"
+        }
+       ]
+      }
+     },
+     "tooltip": [
+      {
+       "field": "year",
+       "title": {
+        "de": "Jahr",
+        "en": "Year"
+       }
+      },
+      {
+       "field": "series",
+       "title": {
+        "de": "Größe",
+        "en": "Measure"
+       }
+      },
+      {
+       "field": "value",
+       "title": "°C",
+       "format": ".2f"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "c2",
+   "dataset": "annual",
+   "title": {
+    "de": "Höchster und tiefster Thermometerstand je Jahr",
+    "en": "Highest and lowest thermometer reading per year"
+   },
+   "caption": {
+    "de": "Gera, in °C. Der Strich verbindet Tiefst- und Höchststand, der Balken markiert das Jahresmittel. Der Frost von 1861 (−28,4 °C) ist die tiefste Marke der Reihe.",
+    "en": "Gera, in °C. The rule joins lowest and highest reading, the tick marks the annual mean. The frost of 1861 (−28.4 °C) is the lowest mark of the series."
+   },
+   "vegalite": {
+    "height": 300,
+    "encoding": {
+     "x": {
+      "field": "year",
+      "type": "ordinal",
+      "title": {
+       "de": "Jahr",
+       "en": "Year"
+      },
+      "axis": {
+       "labelAngle": 0
+      }
+     }
+    },
+    "layer": [
+     {
+      "mark": {
+       "type": "rule",
+       "strokeWidth": 2
+      },
+      "encoding": {
+       "y": {
+        "field": "min_c",
+        "type": "quantitative",
+        "title": "°C"
+       },
+       "y2": {
+        "field": "max_c"
+       }
+      }
+     },
+     {
+      "mark": {
+       "type": "circle",
+       "size": 90,
+       "opacity": 1
+      },
+      "encoding": {
+       "y": {
+        "field": "max_c",
+        "type": "quantitative"
+       },
+       "color": {
+        "datum": {
+         "de": "Höchster Stand",
+         "en": "Highest reading"
+        },
+        "type": "nominal",
+        "title": null,
+        "scale": {
+         "domain": [
+          {
+           "de": "Höchster Stand",
+           "en": "Highest reading"
+          },
+          {
+           "de": "Tiefster Stand",
+           "en": "Lowest reading"
+          },
+          {
+           "de": "Jahresmittel",
+           "en": "Annual mean"
+          }
+         ]
+        }
+       },
+       "tooltip": [
+        {
+         "field": "year",
+         "title": {
+          "de": "Jahr",
+          "en": "Year"
+         }
+        },
+        {
+         "field": "max_c",
+         "title": {
+          "de": "Höchster Stand (°C)",
+          "en": "Highest reading (°C)"
+         },
+         "format": ".1f"
+        },
+        {
+         "field": "max_r",
+         "title": {
+          "de": "Höchster Stand (°R)",
+          "en": "Highest reading (°R)"
+         }
+        }
+       ]
+      }
+     },
+     {
+      "mark": {
+       "type": "circle",
+       "size": 90,
+       "opacity": 1
+      },
+      "encoding": {
+       "y": {
+        "field": "min_c",
+        "type": "quantitative"
+       },
+       "color": {
+        "datum": {
+         "de": "Tiefster Stand",
+         "en": "Lowest reading"
+        },
+        "type": "nominal"
+       },
+       "tooltip": [
+        {
+         "field": "year",
+         "title": {
+          "de": "Jahr",
+          "en": "Year"
+         }
+        },
+        {
+         "field": "min_c",
+         "title": {
+          "de": "Tiefster Stand (°C)",
+          "en": "Lowest reading (°C)"
+         },
+         "format": ".1f"
+        },
+        {
+         "field": "min_r",
+         "title": {
+          "de": "Tiefster Stand (°R)",
+          "en": "Lowest reading (°R)"
+         }
+        }
+       ]
+      }
+     },
+     {
+      "mark": {
+       "type": "tick",
+       "size": 26,
+       "thickness": 3
+      },
+      "encoding": {
+       "y": {
+        "field": "annual_c",
+        "type": "quantitative"
+       },
+       "color": {
+        "datum": {
+         "de": "Jahresmittel",
+         "en": "Annual mean"
+        },
+        "type": "nominal"
+       },
+       "tooltip": [
+        {
+         "field": "year",
+         "title": {
+          "de": "Jahr",
+          "en": "Year"
+         }
+        },
+        {
+         "field": "annual_c",
+         "title": {
+          "de": "Jahresmittel (°C)",
+          "en": "Annual mean (°C)"
+         },
+         "format": ".2f"
+        },
+        {
+         "field": "annual_r",
+         "title": {
+          "de": "Jahresmittel (°R)",
+          "en": "Annual mean (°R)"
+         }
+        }
+       ]
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "c3",
+   "dataset": "monthly",
+   "title": {
+    "de": "Mittlerer Jahresgang und Spannweite der Jahre",
+    "en": "Mean annual cycle and range across the years"
+   },
+   "caption": {
+    "de": "Gera, Monatsmittel in °C. Das Band reicht vom kältesten bis zum wärmsten Wert jedes Kalendermonats in den zwölf Jahren; die Linien zeigen das Mittel sowie das wärmste (1863) und das kälteste Jahr (1864).",
+    "en": "Gera, monthly means in °C. The band spans the coldest to the warmest value of each calendar month over the twelve years; the lines show the mean and the warmest (1863) and coldest year (1864)."
+   },
+   "vegalite": {
+    "height": 320,
+    "layer": [
+     {
+      "transform": [
+       {
+        "aggregate": [
+         {
+          "op": "min",
+          "field": "temp_c",
+          "as": "lo"
+         },
+         {
+          "op": "max",
+          "field": "temp_c",
+          "as": "hi"
+         }
+        ],
+        "groupby": [
+         "month"
+        ]
+       }
+      ],
+      "mark": {
+       "type": "area",
+       "line": false
+      },
+      "encoding": {
+       "x": {
+        "field": "month",
+        "type": "quantitative",
+        "title": {
+         "de": "Monat",
+         "en": "Month"
+        },
+        "axis": {
+         "values": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+         ],
+         "labelExpr": {
+          "de": "['Jan','Feb','Mär','Apr','Mai','Jun','Jul','Aug','Sep','Okt','Nov','Dez'][datum.value-1]",
+          "en": "['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'][datum.value-1]"
+         },
+         "labelAngle": 0
+        },
+        "scale": {
+         "domain": [
+          1,
+          12
+         ],
+         "nice": false
+        }
+       },
+       "y": {
+        "field": "lo",
+        "type": "quantitative",
+        "title": "°C"
+       },
+       "y2": {
+        "field": "hi"
+       },
+       "tooltip": [
+        {
+         "field": "month",
+         "title": {
+          "de": "Monat",
+          "en": "Month"
+         }
+        },
+        {
+         "field": "lo",
+         "title": {
+          "de": "Kältester Wert (°C)",
+          "en": "Lowest value (°C)"
+         },
+         "format": ".1f"
+        },
+        {
+         "field": "hi",
+         "title": {
+          "de": "Wärmster Wert (°C)",
+          "en": "Highest value (°C)"
+         },
+         "format": ".1f"
+        }
+       ]
+      }
+     },
+     {
+      "transform": [
+       {
+        "aggregate": [
+         {
+          "op": "mean",
+          "field": "temp_c",
+          "as": "m"
+         }
+        ],
+        "groupby": [
+         "month"
+        ]
+       }
+      ],
+      "mark": {
+       "type": "line",
+       "point": true
+      },
+      "encoding": {
+       "x": {
+        "field": "month",
+        "type": "quantitative",
+        "title": {
+         "de": "Monat",
+         "en": "Month"
+        },
+        "axis": {
+         "values": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+         ],
+         "labelExpr": {
+          "de": "['Jan','Feb','Mär','Apr','Mai','Jun','Jul','Aug','Sep','Okt','Nov','Dez'][datum.value-1]",
+          "en": "['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'][datum.value-1]"
+         },
+         "labelAngle": 0
+        },
+        "scale": {
+         "domain": [
+          1,
+          12
+         ],
+         "nice": false
+        }
+       },
+       "y": {
+        "field": "m",
+        "type": "quantitative"
+       },
+       "color": {
+        "datum": {
+         "de": "Mittel 1856–67",
+         "en": "Mean 1856–67"
+        },
+        "type": "nominal",
+        "title": null,
+        "scale": {
+         "domain": [
+          {
+           "de": "Mittel 1856–67",
+           "en": "Mean 1856–67"
+          },
+          {
+           "de": "1863 (warm)",
+           "en": "1863 (warm)"
+          },
+          {
+           "de": "1864 (kalt)",
+           "en": "1864 (cold)"
+          }
+         ]
+        }
+       },
+       "tooltip": [
+        {
+         "field": "month",
+         "title": {
+          "de": "Monat",
+          "en": "Month"
+         }
+        },
+        {
+         "field": "m",
+         "title": {
+          "de": "Mittel (°C)",
+          "en": "Mean (°C)"
+         },
+         "format": ".1f"
+        }
+       ]
+      }
+     },
+     {
+      "transform": [
+       {
+        "filter": "datum.year == 1863"
+       }
+      ],
+      "mark": {
+       "type": "line",
+       "point": true
+      },
+      "encoding": {
+       "x": {
+        "field": "month",
+        "type": "quantitative",
+        "title": {
+         "de": "Monat",
+         "en": "Month"
+        },
+        "axis": {
+         "values": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+         ],
+         "labelExpr": {
+          "de": "['Jan','Feb','Mär','Apr','Mai','Jun','Jul','Aug','Sep','Okt','Nov','Dez'][datum.value-1]",
+          "en": "['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'][datum.value-1]"
+         },
+         "labelAngle": 0
+        },
+        "scale": {
+         "domain": [
+          1,
+          12
+         ],
+         "nice": false
+        }
+       },
+       "y": {
+        "field": "temp_c",
+        "type": "quantitative"
+       },
+       "color": {
+        "datum": {
+         "de": "1863 (warm)",
+         "en": "1863 (warm)"
+        },
+        "type": "nominal"
+       },
+       "tooltip": [
+        {
+         "field": "year",
+         "title": {
+          "de": "Jahr",
+          "en": "Year"
+         }
+        },
+        {
+         "field": "month",
+         "title": {
+          "de": "Monat",
+          "en": "Month"
+         }
+        },
+        {
+         "field": "temp_c",
+         "title": "°C",
+         "format": ".1f"
+        }
+       ]
+      }
+     },
+     {
+      "transform": [
+       {
+        "filter": "datum.year == 1864"
+       }
+      ],
+      "mark": {
+       "type": "line",
+       "point": true
+      },
+      "encoding": {
+       "x": {
+        "field": "month",
+        "type": "quantitative",
+        "title": {
+         "de": "Monat",
+         "en": "Month"
+        },
+        "axis": {
+         "values": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+         ],
+         "labelExpr": {
+          "de": "['Jan','Feb','Mär','Apr','Mai','Jun','Jul','Aug','Sep','Okt','Nov','Dez'][datum.value-1]",
+          "en": "['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'][datum.value-1]"
+         },
+         "labelAngle": 0
+        },
+        "scale": {
+         "domain": [
+          1,
+          12
+         ],
+         "nice": false
+        }
+       },
+       "y": {
+        "field": "temp_c",
+        "type": "quantitative"
+       },
+       "color": {
+        "datum": {
+         "de": "1864 (kalt)",
+         "en": "1864 (cold)"
+        },
+        "type": "nominal"
+       },
+       "tooltip": [
+        {
+         "field": "year",
+         "title": {
+          "de": "Jahr",
+          "en": "Year"
+         }
+        },
+        {
+         "field": "month",
+         "title": {
+          "de": "Monat",
+          "en": "Month"
+         }
+        },
+        {
+         "field": "temp_c",
+         "title": "°C",
+         "format": ".1f"
+        }
+       ]
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "c4",
+   "dataset": "monthly",
+   "title": {
+    "de": "Abweichung der Monatsmittel vom Mittel des Kalendermonats",
+    "en": "Deviation of monthly means from the mean of the calendar month"
+   },
+   "caption": {
+    "de": "Gera, in K (Kelvin = Differenz in °C). Blau: kälter, rot: wärmer als der Durchschnitt desselben Kalendermonats 1856–1867. Der März 1856, der Januar 1861, Januar und Dezember 1864 sowie der Februar 1865 fallen heraus.",
+    "en": "Gera, in K (kelvin = difference in °C). Blue: colder, red: warmer than the average of the same calendar month 1856–1867. March 1856, January 1861, January and December 1864 and February 1865 stand out."
+   },
+   "vegalite": {
+    "height": 320,
+    "mark": "rect",
+    "encoding": {
+     "x": {
+      "field": "month",
+      "type": "ordinal",
+      "title": {
+       "de": "Monat",
+       "en": "Month"
+      },
+      "axis": {
+       "labelExpr": {
+        "de": "['Jan','Feb','Mär','Apr','Mai','Jun','Jul','Aug','Sep','Okt','Nov','Dez'][datum.value-1]",
+        "en": "['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'][datum.value-1]"
+       },
+       "labelAngle": 0
+      }
+     },
+     "y": {
+      "field": "year",
+      "type": "ordinal",
+      "title": {
+       "de": "Jahr",
+       "en": "Year"
+      }
+     },
+     "color": {
+      "field": "anomaly_c",
+      "type": "quantitative",
+      "title": "K",
+      "scale": {
+       "range": "diverging",
+       "domain": [
+        -12,
+        12
+       ],
+       "domainMid": 0
+      }
+     },
+     "tooltip": [
+      {
+       "field": "year",
+       "title": {
+        "de": "Jahr",
+        "en": "Year"
+       }
+      },
+      {
+       "field": "month_label",
+       "title": {
+        "de": "Monat",
+        "en": "Month"
+       }
+      },
+      {
+       "field": "temp_r",
+       "title": {
+        "de": "Monatsmittel (°R)",
+        "en": "Monthly mean (°R)"
+       }
+      },
+      {
+       "field": "temp_c",
+       "title": {
+        "de": "Monatsmittel (°C)",
+        "en": "Monthly mean (°C)"
+       },
+       "format": ".1f"
+      },
+      {
+       "field": "anomaly_c",
+       "title": {
+        "de": "Abweichung (K)",
+        "en": "Deviation (K)"
+       },
+       "format": "+.1f"
+      }
+     ]
+    }
+   }
+  }
+ ],
+ "keywords": {
+  "de": [
+   "Temperatur",
+   "Thermometer",
+   "Gera",
+   "Réaumur",
+   "Jahresmittel",
+   "Sommer",
+   "Winter",
+   "Meteorologie",
+   "Klima",
+   "Frost"
+  ],
+  "en": [
+   "temperature",
+   "thermometer",
+   "Gera",
+   "Réaumur",
+   "annual mean",
+   "summer",
+   "winter",
+   "meteorology",
+   "climate",
+   "frost"
+  ]
+ },
+ "related": [
+  "klima-gera-luftdruck-1856-1867",
+  "klima-stationen-temperatur-vergleich",
+  "klima-hoehenlage-temperatur-luftdruck"
+ ],
+ "supersedes_legacy": "p. 55 'Klimaübersicht Gera 1856–1867' (PNG, p55_img0)",
+ "generated_by": "Claude Sonnet 5.5 (subagent A03)",
+ "date": "2026-10-01"
+}

@@ -1,0 +1,16 @@
+{% extends "doc_base.html" %}
+{% block title %}Impressum und Datenschutz – {{ site.short_title }}{% endblock %}
+{% block doc %}
+<p class="eyebrow" style="margin-top:36px">{{ t('Edition', 'Edition') }}</p>
+<h1>{{ t('Impressum', 'Imprint') }}</h1>
+<p>{{ t('Herausgeber', 'Editor') }}: {{ site.editor }}<br>{{ t(site.institution, site.institution_en) }}{% if site.contact %}<br>{{ t('Kontakt', 'Contact') }}: {{ site.contact }}{% endif %}</p>
+<p class="muted">{{ t('Die vollständigen Angaben nach § 5 DDG sind vor der Veröffentlichung vom Betreiber der Website zu ergänzen.', 'Full provider information (German § 5 DDG) is to be added by the site operator before publication.') }}</p>
+<h1 style="margin-top:42px">{{ t('Datenschutz', 'Privacy') }}</h1>
+<ul>
+<li>{{ t('Diese Website setzt keine Cookies und verwendet keine Analyse- oder Tracking-Dienste.', 'This website sets no cookies and uses no analytics or tracking services.') }}</li>
+<li>{{ t('Ihre Einstellungen (Sprache, Farbschema, Ein-/Ausblenden von Annotationen und Faksimile) werden nur lokal in Ihrem Browser (localStorage) gespeichert.', 'Your settings (language, colour scheme, showing annotations and facsimile) are stored only locally in your browser (localStorage).') }}</li>
+<li>{{ t('Schriften und Programmbibliotheken werden von dieser Website selbst ausgeliefert, nicht von Drittanbietern.', 'Fonts and libraries are served by this website itself, not by third parties.') }}</li>
+<li>{{ t('Faksimiles werden direkt vom Bilddienst der Bayerischen Staatsbibliothek (api.digitale-sammlungen.de) geladen; dabei wird Ihre IP-Adresse an die BSB übermittelt.', 'Facsimiles are loaded directly from the image service of the Bavarian State Library (api.digitale-sammlungen.de); your IP address is transmitted to the BSB.') }}</li>
+<li>{{ t('Die Kartenseite lädt Kartenkacheln von tile.openstreetmap.org; dabei wird Ihre IP-Adresse an die OpenStreetMap Foundation übermittelt.', 'The map page loads map tiles from tile.openstreetmap.org; your IP address is transmitted to the OpenStreetMap Foundation.') }}</li>
+</ul>
+{% endblock %}

@@ -1,0 +1,26 @@
+{
+  "name": "tools",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@fontsource-variable/newsreader": "^5.3.0",
+    "@fontsource-variable/source-sans-3": "^5.3.0",
+    "@fontsource/ibm-plex-mono": "^5.3.0",
+    "@resvg/resvg-js": "^2.6.2",
+    "ajv": "^8.20.0",
+    "leaflet": "^1.9.4",
+    "openseadragon": "^5.0.1",
+    "playwright-core": "^1.63.0",
+    "vega": "^6.4.0",
+    "vega-lite": "^6.4.3",
+    "vega-tooltip": "^1.1.0"
+  }
+}

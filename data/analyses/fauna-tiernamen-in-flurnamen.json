@@ -1,0 +1,1312 @@
+{
+ "id": "fauna-tiernamen-in-flurnamen",
+ "title": {
+  "de": "Tiernamen in Flur- und Ortsnamen",
+  "en": "Animal names in field and place names"
+ },
+ "category": "fauna",
+ "section": "t1-1-9",
+ "sources": [
+  {
+   "page": "82",
+   "block": "b1"
+  },
+  {
+   "page": "82",
+   "block": "b2"
+  },
+  {
+   "page": "83",
+   "block": "b1"
+  }
+ ],
+ "summary": {
+  "de": "Brückner führt als »topographische Fauna« 59 Flur- und Ortsnamen auf, die Tiere enthalten (Haustiere ausgenommen), und folgert, dass das Volk nur Wirbeltiere in Namen festgehalten habe. Ausgezählt gehören die Namen zu 27 Tieren; am häufigsten sind Wolf, Bär und Hirsch. 29 % der Namen erinnern an ein Tier, das nach Brückner ausgerottet/verschwunden ist.",
+  "en": "As “topographical fauna” Brückner lists 59 field and place names that contain animals (domestic animals excluded) and concludes that the people recorded only vertebrates in names. Counted, the names refer to 27 animals; the most frequent are wolf, bear and deer. 29 % of the names recall an animal that, according to Brückner, is exterminated or vanished from the country."
+ },
+ "method": {
+  "de": "Die Namenliste auf S. 82 wurde vollständig erfasst (59 Namen, Doppelform »Bärenthal (auch Berthel)« einfach gezählt) und nach dem Tiernamen im Wortstamm einem Tier zugeordnet (Wolf-/Wölfe-, Bär-, Hirsch- usw.). Ob ein Tier im Land vorkommt, richtet sich nach Brückners Aussagen auf S. 82–83: Bär, Luchs und Wolf seien seit einem Jahrhundert ausgerottet, das Wisent längst verschwunden. Die Zuordnung zu Säugetier, Vogel und Lurch ist redaktionell. Der Hinweis auf den Lauseberg (»Ob der Lauseberg vom Insect den Namen hat, wird bezweifelt«) ist nicht mitgezählt.",
+  "en": "The list of names on p. 82 was captured in full (59 names; the double form “Bärenthal (auch Berthel)” counted once) and assigned to an animal by the animal name in the word stem (Wolf-/Wölfe-, Bär-, Hirsch- etc.). Whether an animal occurs in the country follows Brückner's statements on pp. 82–83: bear, lynx and wolf have been exterminated for a century, the wisent vanished long ago. The assignment to mammal, bird and amphibian is editorial. The remark on the Lauseberg (“Ob der Lauseberg vom Insect den Namen hat, wird bezweifelt”) was not counted."
+ },
+ "findings": [
+  {
+   "de": "Von den 59 Namen beziehen sich 41 auf Säugetiere (69 %), 17 auf Vögel und 1 auf einen Lurch (Kröte). Am häufigsten ist der Wolf (7 Namen), danach der Bär (6) und der Hirsch (6).",
+   "en": "Of the 59 names, 41 refer to mammals (69 %), 17 to birds and 1 to an amphibian (toad). The wolf is the most frequent (7 names), followed by the bear (6) and the deer (6)."
+  },
+  {
+   "de": "Auf die vier Tiere, die nach Brückner ausgerottet oder verschwunden sind (Wolf, Bär, Luchs, Wisent), entfallen 17 Namen (29 %); sie erinnern an eine Fauna, die im Land seit mindestens hundert Jahren fehlt.",
+   "en": "The four animals that according to Brückner are exterminated or vanished (wolf, bear, lynx, wisent) account for 17 names (29 %); they recall a fauna absent from the country for at least a hundred years."
+  },
+  {
+   "de": "Nach Brückner halten die Namen nur Wirbeltiere fest (Säugetiere, Vögel, wenige Lurche); für alle übrigen Tierordnungen habe das Volk »kein Auge gehabt«. Auch die Zahlen stützen das für die erfassten Namen.",
+   "en": "According to Brückner the names record only vertebrates (mammals, birds, a few amphibians); for all other animal orders the people “had no eye”. The counts support this for the names captured."
+  }
+ ],
+ "caveats": [
+  {
+   "de": "Namen wie Ebersberg, Ebersdorf, Starenburg oder Falkenberg können auch auf Personennamen oder Burgnamen zurückgehen; Brückner wertet alle als Zeugnisse der Fauna. Die Namen sind nicht datiert.",
+   "en": "Names such as Ebersberg, Ebersdorf, Starenburg or Falkenberg may also derive from personal or castle names; Brückner treats all as evidence of the fauna. The names are not dated."
+  },
+  {
+   "de": "Eine Unterscheidung zwischen Flur- und Ortsnamen trifft Brückner nicht (Beispiele für Ortsnamen: Hirschberg, Ebersdorf, Igelsdorf). Der Eintrag »Wisent« steht vermutlich für den Flussnamen Wiesenthal (richtiger Wisentthal), den Brückner auf S. 83 so erklärt.",
+   "en": "Brückner makes no distinction between field and place names (examples of place names: Hirschberg, Ebersdorf, Igelsdorf). The entry “Wisent” presumably stands for the river name Wiesenthal (more correctly Wisentthal), which Brückner explains thus on p. 83."
+  }
+ ],
+ "datasets": [
+  {
+   "name": "names",
+   "title": {
+    "de": "Namen mit Tierbezug (S. 82)",
+    "en": "Names with an animal reference (p. 82)"
+   },
+   "columns": [
+    {
+     "name": "name",
+     "label": {
+      "de": "Name (Druck)",
+      "en": "Name (print)"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "animal_de",
+     "label": {
+      "de": "Tier",
+      "en": "Animal"
+     },
+     "type": "string",
+     "unit": null,
+     "derived": true,
+     "note": "redaktionelle Zuordnung nach dem Wortstamm"
+    },
+    {
+     "name": "animal_en",
+     "label": {
+      "de": "Tier (EN)",
+      "en": "Animal (EN)"
+     },
+     "type": "string",
+     "unit": null,
+     "derived": true
+    },
+    {
+     "name": "group_de",
+     "label": {
+      "de": "Gruppe",
+      "en": "Group"
+     },
+     "type": "string",
+     "unit": null,
+     "derived": true
+    },
+    {
+     "name": "group_en",
+     "label": {
+      "de": "Gruppe (EN)",
+      "en": "Group (EN)"
+     },
+     "type": "string",
+     "unit": null,
+     "derived": true
+    },
+    {
+     "name": "status_de",
+     "label": {
+      "de": "Vorkommen heute nach Brückner",
+      "en": "Occurrence today according to Brückner"
+     },
+     "type": "string",
+     "unit": null,
+     "derived": true
+    },
+    {
+     "name": "status_en",
+     "label": {
+      "de": "Vorkommen (EN)",
+      "en": "Occurrence (EN)"
+     },
+     "type": "string",
+     "unit": null,
+     "derived": true
+    },
+    {
+     "name": "page",
+     "label": {
+      "de": "Seite",
+      "en": "Page"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "block",
+     "label": {
+      "de": "Block",
+      "en": "Block"
+     },
+     "type": "string",
+     "unit": null
+    }
+   ],
+   "rows": [
+    [
+     "Wisent",
+     "Wisent",
+     "Wisent (European bison)",
+     "Säugetier",
+     "Mammal",
+     "ausgerottet/verschwunden",
+     "extirpated or vanished",
+     "82",
+     "b1"
+    ],
+    [
+     "Bärenthal (auch Berthel)",
+     "Bär",
+     "Bear",
+     "Säugetier",
+     "Mammal",
+     "ausgerottet/verschwunden",
+     "extirpated or vanished",
+     "82",
+     "b1"
+    ],
+    [
+     "Bärenloch",
+     "Bär",
+     "Bear",
+     "Säugetier",
+     "Mammal",
+     "ausgerottet/verschwunden",
+     "extirpated or vanished",
+     "82",
+     "b1"
+    ],
+    [
+     "Bärengrund",
+     "Bär",
+     "Bear",
+     "Säugetier",
+     "Mammal",
+     "ausgerottet/verschwunden",
+     "extirpated or vanished",
+     "82",
+     "b1"
+    ],
+    [
+     "Bärenfeld",
+     "Bär",
+     "Bear",
+     "Säugetier",
+     "Mammal",
+     "ausgerottet/verschwunden",
+     "extirpated or vanished",
+     "82",
+     "b1"
+    ],
+    [
+     "Bärenwiesen",
+     "Bär",
+     "Bear",
+     "Säugetier",
+     "Mammal",
+     "ausgerottet/verschwunden",
+     "extirpated or vanished",
+     "82",
+     "b1"
+    ],
+    [
+     "Bärwinkel",
+     "Bär",
+     "Bear",
+     "Säugetier",
+     "Mammal",
+     "ausgerottet/verschwunden",
+     "extirpated or vanished",
+     "82",
+     "b1"
+    ],
+    [
+     "Wolfere",
+     "Wolf",
+     "Wolf",
+     "Säugetier",
+     "Mammal",
+     "ausgerottet/verschwunden",
+     "extirpated or vanished",
+     "82",
+     "b1"
+    ],
+    [
+     "Wölfe",
+     "Wolf",
+     "Wolf",
+     "Säugetier",
+     "Mammal",
+     "ausgerottet/verschwunden",
+     "extirpated or vanished",
+     "82",
+     "b1"
+    ],
+    [
+     "Wolfsacker",
+     "Wolf",
+     "Wolf",
+     "Säugetier",
+     "Mammal",
+     "ausgerottet/verschwunden",
+     "extirpated or vanished",
+     "82",
+     "b1"
+    ],
+    [
+     "Wolfsbach",
+     "Wolf",
+     "Wolf",
+     "Säugetier",
+     "Mammal",
+     "ausgerottet/verschwunden",
+     "extirpated or vanished",
+     "82",
+     "b1"
+    ],
+    [
+     "Wolfsgalgen",
+     "Wolf",
+     "Wolf",
+     "Säugetier",
+     "Mammal",
+     "ausgerottet/verschwunden",
+     "extirpated or vanished",
+     "82",
+     "b1"
+    ],
+    [
+     "Wolfsgraben",
+     "Wolf",
+     "Wolf",
+     "Säugetier",
+     "Mammal",
+     "ausgerottet/verschwunden",
+     "extirpated or vanished",
+     "82",
+     "b1"
+    ],
+    [
+     "Wolfsgrube",
+     "Wolf",
+     "Wolf",
+     "Säugetier",
+     "Mammal",
+     "ausgerottet/verschwunden",
+     "extirpated or vanished",
+     "82",
+     "b1"
+    ],
+    [
+     "Luchsleite",
+     "Luchs",
+     "Lynx",
+     "Säugetier",
+     "Mammal",
+     "ausgerottet/verschwunden",
+     "extirpated or vanished",
+     "82",
+     "b1"
+    ],
+    [
+     "Luchslöcher",
+     "Luchs",
+     "Lynx",
+     "Säugetier",
+     "Mammal",
+     "ausgerottet/verschwunden",
+     "extirpated or vanished",
+     "82",
+     "b1"
+    ],
+    [
+     "Luchsweg",
+     "Luchs",
+     "Lynx",
+     "Säugetier",
+     "Mammal",
+     "ausgerottet/verschwunden",
+     "extirpated or vanished",
+     "82",
+     "b1"
+    ],
+    [
+     "Fuchsmühle",
+     "Fuchs",
+     "Fox",
+     "Säugetier",
+     "Mammal",
+     "vorhanden",
+     "present",
+     "82",
+     "b1"
+    ],
+    [
+     "Fuchsloch",
+     "Fuchs",
+     "Fox",
+     "Säugetier",
+     "Mammal",
+     "vorhanden",
+     "present",
+     "82",
+     "b1"
+    ],
+    [
+     "Fuchsberg",
+     "Fuchs",
+     "Fox",
+     "Säugetier",
+     "Mammal",
+     "vorhanden",
+     "present",
+     "82",
+     "b1"
+    ],
+    [
+     "Hirschbach",
+     "Hirsch",
+     "Red deer",
+     "Säugetier",
+     "Mammal",
+     "vorhanden",
+     "present",
+     "82",
+     "b1"
+    ],
+    [
+     "Hirschberg",
+     "Hirsch",
+     "Red deer",
+     "Säugetier",
+     "Mammal",
+     "vorhanden",
+     "present",
+     "82",
+     "b1"
+    ],
+    [
+     "Hirschfeld",
+     "Hirsch",
+     "Red deer",
+     "Säugetier",
+     "Mammal",
+     "vorhanden",
+     "present",
+     "82",
+     "b1"
+    ],
+    [
+     "Hirschgraben",
+     "Hirsch",
+     "Red deer",
+     "Säugetier",
+     "Mammal",
+     "vorhanden",
+     "present",
+     "82",
+     "b1"
+    ],
+    [
+     "Hirschholz",
+     "Hirsch",
+     "Red deer",
+     "Säugetier",
+     "Mammal",
+     "vorhanden",
+     "present",
+     "82",
+     "b1"
+    ],
+    [
+     "Hirschkopf",
+     "Hirsch",
+     "Red deer",
+     "Säugetier",
+     "Mammal",
+     "vorhanden",
+     "present",
+     "82",
+     "b1"
+    ],
+    [
+     "Rehbach",
+     "Reh",
+     "Roe deer",
+     "Säugetier",
+     "Mammal",
+     "vorhanden",
+     "present",
+     "82",
+     "b1"
+    ],
+    [
+     "Rehstäudig",
+     "Reh",
+     "Roe deer",
+     "Säugetier",
+     "Mammal",
+     "vorhanden",
+     "present",
+     "82",
+     "b1"
+    ],
+    [
+     "Rehteich",
+     "Reh",
+     "Roe deer",
+     "Säugetier",
+     "Mammal",
+     "vorhanden",
+     "present",
+     "82",
+     "b1"
+    ],
+    [
+     "Hasenbühl",
+     "Hase",
+     "Hare",
+     "Säugetier",
+     "Mammal",
+     "vorhanden",
+     "present",
+     "82",
+     "b1"
+    ],
+    [
+     "Hasensäule",
+     "Hase",
+     "Hare",
+     "Säugetier",
+     "Mammal",
+     "vorhanden",
+     "present",
+     "82",
+     "b1"
+    ],
+    [
+     "Hasenwinkel",
+     "Hase",
+     "Hare",
+     "Säugetier",
+     "Mammal",
+     "vorhanden",
+     "present",
+     "82",
+     "b1"
+    ],
+    [
+     "Dachsgraben",
+     "Dachs",
+     "Badger",
+     "Säugetier",
+     "Mammal",
+     "vorhanden",
+     "present",
+     "82",
+     "b1"
+    ],
+    [
+     "Ebersberg",
+     "Eber",
+     "Boar",
+     "Säugetier",
+     "Mammal",
+     "vorhanden",
+     "present",
+     "82",
+     "b1"
+    ],
+    [
+     "Ebersdorf",
+     "Eber",
+     "Boar",
+     "Säugetier",
+     "Mammal",
+     "vorhanden",
+     "present",
+     "82",
+     "b1"
+    ],
+    [
+     "Iltisfelder",
+     "Iltis",
+     "Polecat",
+     "Säugetier",
+     "Mammal",
+     "vorhanden",
+     "present",
+     "82",
+     "b1"
+    ],
+    [
+     "Hamsterbeete",
+     "Hamster",
+     "Hamster",
+     "Säugetier",
+     "Mammal",
+     "vorhanden",
+     "present",
+     "82",
+     "b1"
+    ],
+    [
+     "Igelsbach",
+     "Igel",
+     "Hedgehog",
+     "Säugetier",
+     "Mammal",
+     "vorhanden",
+     "present",
+     "82",
+     "b1"
+    ],
+    [
+     "Igelsdorf",
+     "Igel",
+     "Hedgehog",
+     "Säugetier",
+     "Mammal",
+     "vorhanden",
+     "present",
+     "82",
+     "b1"
+    ],
+    [
+     "Mäusebach",
+     "Maus",
+     "Mouse",
+     "Säugetier",
+     "Mammal",
+     "vorhanden",
+     "present",
+     "82",
+     "b1"
+    ],
+    [
+     "Falkenberg",
+     "Falke",
+     "Falcon",
+     "Vogel",
+     "Bird",
+     "vorhanden",
+     "present",
+     "82",
+     "b1"
+    ],
+    [
+     "Geiersberg",
+     "Geier",
+     "Vulture",
+     "Vogel",
+     "Bird",
+     "vorhanden",
+     "present",
+     "82",
+     "b1"
+    ],
+    [
+     "Geiershügel",
+     "Geier",
+     "Vulture",
+     "Vogel",
+     "Bird",
+     "vorhanden",
+     "present",
+     "82",
+     "b1"
+    ],
+    [
+     "Geiersleite",
+     "Geier",
+     "Vulture",
+     "Vogel",
+     "Bird",
+     "vorhanden",
+     "present",
+     "82",
+     "b1"
+    ],
+    [
+     "Starenburg",
+     "Star",
+     "Starling",
+     "Vogel",
+     "Bird",
+     "vorhanden",
+     "present",
+     "82",
+     "b1"
+    ],
+    [
+     "Kranich",
+     "Kranich",
+     "Crane",
+     "Vogel",
+     "Bird",
+     "vorhanden",
+     "present",
+     "82",
+     "b1"
+    ],
+    [
+     "Krähenhügel",
+     "Krähe",
+     "Crow",
+     "Vogel",
+     "Bird",
+     "vorhanden",
+     "present",
+     "82",
+     "b1"
+    ],
+    [
+     "Eulengraben",
+     "Eule",
+     "Owl",
+     "Vogel",
+     "Bird",
+     "vorhanden",
+     "present",
+     "82",
+     "b1"
+    ],
+    [
+     "Eulenwinkel",
+     "Eule",
+     "Owl",
+     "Vogel",
+     "Bird",
+     "vorhanden",
+     "present",
+     "82",
+     "b1"
+    ],
+    [
+     "Lerchenberg",
+     "Lerche",
+     "Lark",
+     "Vogel",
+     "Bird",
+     "vorhanden",
+     "present",
+     "82",
+     "b1"
+    ],
+    [
+     "Wachtelberg",
+     "Wachtel",
+     "Quail",
+     "Vogel",
+     "Bird",
+     "vorhanden",
+     "present",
+     "82",
+     "b1"
+    ],
+    [
+     "Taubenbühl",
+     "Taube",
+     "Pigeon, dove",
+     "Vogel",
+     "Bird",
+     "vorhanden",
+     "present",
+     "82",
+     "b1"
+    ],
+    [
+     "Taubenthal",
+     "Taube",
+     "Pigeon, dove",
+     "Vogel",
+     "Bird",
+     "vorhanden",
+     "present",
+     "82",
+     "b1"
+    ],
+    [
+     "Taubenheerd",
+     "Taube",
+     "Pigeon, dove",
+     "Vogel",
+     "Bird",
+     "vorhanden",
+     "present",
+     "82",
+     "b1"
+    ],
+    [
+     "Taubensteig",
+     "Taube",
+     "Pigeon, dove",
+     "Vogel",
+     "Bird",
+     "vorhanden",
+     "present",
+     "82",
+     "b1"
+    ],
+    [
+     "Schwalbenziel",
+     "Schwalbe",
+     "Swallow",
+     "Vogel",
+     "Bird",
+     "vorhanden",
+     "present",
+     "82",
+     "b1"
+    ],
+    [
+     "Pfauenbach",
+     "Pfau",
+     "Peacock",
+     "Vogel",
+     "Bird",
+     "vorhanden",
+     "present",
+     "82",
+     "b1"
+    ],
+    [
+     "Otterbach",
+     "Otter",
+     "Otter",
+     "Säugetier",
+     "Mammal",
+     "vorhanden",
+     "present",
+     "82",
+     "b1"
+    ],
+    [
+     "Krötensee",
+     "Kröte",
+     "Toad",
+     "Lurch (Amphibie)",
+     "Amphibian",
+     "vorhanden",
+     "present",
+     "82",
+     "b1"
+    ]
+   ],
+   "source_refs": [
+    {
+     "page": "82",
+     "block": "b1"
+    }
+   ]
+  },
+  {
+   "name": "by_animal",
+   "title": {
+    "de": "Namen je Tier",
+    "en": "Names per animal"
+   },
+   "columns": [
+    {
+     "name": "animal_de",
+     "label": {
+      "de": "Tier",
+      "en": "Animal"
+     },
+     "type": "string",
+     "unit": null,
+     "derived": true
+    },
+    {
+     "name": "animal_en",
+     "label": {
+      "de": "Tier (EN)",
+      "en": "Animal (EN)"
+     },
+     "type": "string",
+     "unit": null,
+     "derived": true
+    },
+    {
+     "name": "group_de",
+     "label": {
+      "de": "Gruppe",
+      "en": "Group"
+     },
+     "type": "string",
+     "unit": null,
+     "derived": true
+    },
+    {
+     "name": "group_en",
+     "label": {
+      "de": "Gruppe (EN)",
+      "en": "Group (EN)"
+     },
+     "type": "string",
+     "unit": null,
+     "derived": true
+    },
+    {
+     "name": "status_de",
+     "label": {
+      "de": "Vorkommen heute nach Brückner",
+      "en": "Occurrence today according to Brückner"
+     },
+     "type": "string",
+     "unit": null,
+     "derived": true
+    },
+    {
+     "name": "status_en",
+     "label": {
+      "de": "Vorkommen (EN)",
+      "en": "Occurrence (EN)"
+     },
+     "type": "string",
+     "unit": null,
+     "derived": true
+    },
+    {
+     "name": "names",
+     "label": {
+      "de": "Zahl der Namen",
+      "en": "Number of names"
+     },
+     "type": "integer",
+     "unit": "Namen",
+     "derived": true
+    },
+    {
+     "name": "examples",
+     "label": {
+      "de": "Namen im Druck",
+      "en": "Names as printed"
+     },
+     "type": "string",
+     "unit": null
+    }
+   ],
+   "rows": [
+    [
+     "Wolf",
+     "Wolf",
+     "Säugetier",
+     "Mammal",
+     "ausgerottet/verschwunden",
+     "extirpated or vanished",
+     7,
+     "Wolfere, Wölfe, Wolfsacker, Wolfsbach, Wolfsgalgen, Wolfsgraben, Wolfsgrube"
+    ],
+    [
+     "Bär",
+     "Bear",
+     "Säugetier",
+     "Mammal",
+     "ausgerottet/verschwunden",
+     "extirpated or vanished",
+     6,
+     "Bärenthal (auch Berthel), Bärenloch, Bärengrund, Bärenfeld, Bärenwiesen, Bärwinkel"
+    ],
+    [
+     "Hirsch",
+     "Red deer",
+     "Säugetier",
+     "Mammal",
+     "vorhanden",
+     "present",
+     6,
+     "Hirschbach, Hirschberg, Hirschfeld, Hirschgraben, Hirschholz, Hirschkopf"
+    ],
+    [
+     "Taube",
+     "Pigeon, dove",
+     "Vogel",
+     "Bird",
+     "vorhanden",
+     "present",
+     4,
+     "Taubenbühl, Taubenthal, Taubenheerd, Taubensteig"
+    ],
+    [
+     "Fuchs",
+     "Fox",
+     "Säugetier",
+     "Mammal",
+     "vorhanden",
+     "present",
+     3,
+     "Fuchsmühle, Fuchsloch, Fuchsberg"
+    ],
+    [
+     "Geier",
+     "Vulture",
+     "Vogel",
+     "Bird",
+     "vorhanden",
+     "present",
+     3,
+     "Geiersberg, Geiershügel, Geiersleite"
+    ],
+    [
+     "Hase",
+     "Hare",
+     "Säugetier",
+     "Mammal",
+     "vorhanden",
+     "present",
+     3,
+     "Hasenbühl, Hasensäule, Hasenwinkel"
+    ],
+    [
+     "Luchs",
+     "Lynx",
+     "Säugetier",
+     "Mammal",
+     "ausgerottet/verschwunden",
+     "extirpated or vanished",
+     3,
+     "Luchsleite, Luchslöcher, Luchsweg"
+    ],
+    [
+     "Reh",
+     "Roe deer",
+     "Säugetier",
+     "Mammal",
+     "vorhanden",
+     "present",
+     3,
+     "Rehbach, Rehstäudig, Rehteich"
+    ],
+    [
+     "Eber",
+     "Boar",
+     "Säugetier",
+     "Mammal",
+     "vorhanden",
+     "present",
+     2,
+     "Ebersberg, Ebersdorf"
+    ],
+    [
+     "Eule",
+     "Owl",
+     "Vogel",
+     "Bird",
+     "vorhanden",
+     "present",
+     2,
+     "Eulengraben, Eulenwinkel"
+    ],
+    [
+     "Igel",
+     "Hedgehog",
+     "Säugetier",
+     "Mammal",
+     "vorhanden",
+     "present",
+     2,
+     "Igelsbach, Igelsdorf"
+    ],
+    [
+     "Dachs",
+     "Badger",
+     "Säugetier",
+     "Mammal",
+     "vorhanden",
+     "present",
+     1,
+     "Dachsgraben"
+    ],
+    [
+     "Falke",
+     "Falcon",
+     "Vogel",
+     "Bird",
+     "vorhanden",
+     "present",
+     1,
+     "Falkenberg"
+    ],
+    [
+     "Hamster",
+     "Hamster",
+     "Säugetier",
+     "Mammal",
+     "vorhanden",
+     "present",
+     1,
+     "Hamsterbeete"
+    ],
+    [
+     "Iltis",
+     "Polecat",
+     "Säugetier",
+     "Mammal",
+     "vorhanden",
+     "present",
+     1,
+     "Iltisfelder"
+    ],
+    [
+     "Kranich",
+     "Crane",
+     "Vogel",
+     "Bird",
+     "vorhanden",
+     "present",
+     1,
+     "Kranich"
+    ],
+    [
+     "Krähe",
+     "Crow",
+     "Vogel",
+     "Bird",
+     "vorhanden",
+     "present",
+     1,
+     "Krähenhügel"
+    ],
+    [
+     "Kröte",
+     "Toad",
+     "Lurch (Amphibie)",
+     "Amphibian",
+     "vorhanden",
+     "present",
+     1,
+     "Krötensee"
+    ],
+    [
+     "Lerche",
+     "Lark",
+     "Vogel",
+     "Bird",
+     "vorhanden",
+     "present",
+     1,
+     "Lerchenberg"
+    ],
+    [
+     "Maus",
+     "Mouse",
+     "Säugetier",
+     "Mammal",
+     "vorhanden",
+     "present",
+     1,
+     "Mäusebach"
+    ],
+    [
+     "Otter",
+     "Otter",
+     "Säugetier",
+     "Mammal",
+     "vorhanden",
+     "present",
+     1,
+     "Otterbach"
+    ],
+    [
+     "Pfau",
+     "Peacock",
+     "Vogel",
+     "Bird",
+     "vorhanden",
+     "present",
+     1,
+     "Pfauenbach"
+    ],
+    [
+     "Schwalbe",
+     "Swallow",
+     "Vogel",
+     "Bird",
+     "vorhanden",
+     "present",
+     1,
+     "Schwalbenziel"
+    ],
+    [
+     "Star",
+     "Starling",
+     "Vogel",
+     "Bird",
+     "vorhanden",
+     "present",
+     1,
+     "Starenburg"
+    ],
+    [
+     "Wachtel",
+     "Quail",
+     "Vogel",
+     "Bird",
+     "vorhanden",
+     "present",
+     1,
+     "Wachtelberg"
+    ],
+    [
+     "Wisent",
+     "Wisent (European bison)",
+     "Säugetier",
+     "Mammal",
+     "ausgerottet/verschwunden",
+     "extirpated or vanished",
+     1,
+     "Wisent"
+    ]
+   ],
+   "source_refs": [
+    {
+     "page": "82",
+     "block": "b1"
+    }
+   ]
+  }
+ ],
+ "charts": [
+  {
+   "id": "c1",
+   "dataset": "by_animal",
+   "title": {
+    "de": "Tiere in Flur- und Ortsnamen",
+    "en": "Animals in field and place names"
+   },
+   "caption": {
+    "de": "Zahl der Namen je Tier (59 Namen, 27 Tiere; Haustiere ausgenommen). Farbig hervorgehoben sind die Tiere, die nach Brückner ausgerottet/verschwunden sind.",
+    "en": "Number of names per animal (59 names, 27 animals; domestic animals excluded). The animals that according to Brückner are exterminated or vanished from the country are highlighted."
+   },
+   "vegalite": {
+    "height": 460,
+    "mark": "bar",
+    "encoding": {
+     "y": {
+      "field": {
+       "de": "animal_de",
+       "en": "animal_en"
+      },
+      "type": "nominal",
+      "sort": "-x",
+      "title": null
+     },
+     "x": {
+      "field": "names",
+      "type": "quantitative",
+      "title": {
+       "de": "Namen",
+       "en": "Names"
+      },
+      "axis": {
+       "tickMinStep": 1
+      }
+     },
+     "color": {
+      "field": {
+       "de": "status_de",
+       "en": "status_en"
+      },
+      "type": "nominal",
+      "title": {
+       "de": "Heute im Land",
+       "en": "Today in the country"
+      },
+      "legend": {
+       "columns": 1,
+       "labelLimit": 300
+      },
+      "scale": {
+       "domain": [
+        {
+         "de": "vorhanden",
+         "en": "present"
+        },
+        {
+         "de": "ausgerottet/verschwunden",
+         "en": "extirpated or vanished"
+        }
+       ]
+      }
+     },
+     "tooltip": [
+      {
+       "field": {
+        "de": "animal_de",
+        "en": "animal_en"
+       },
+       "title": {
+        "de": "Tier",
+        "en": "Animal"
+       }
+      },
+      {
+       "field": {
+        "de": "group_de",
+        "en": "group_en"
+       },
+       "title": {
+        "de": "Gruppe",
+        "en": "Group"
+       }
+      },
+      {
+       "field": "names",
+       "title": {
+        "de": "Namen",
+        "en": "Names"
+       }
+      },
+      {
+       "field": "examples",
+       "title": {
+        "de": "Namen",
+        "en": "Names"
+       }
+      }
+     ]
+    }
+   }
+  }
+ ],
+ "keywords": {
+  "de": [
+   "Flurnamen",
+   "Ortsnamen",
+   "Tiernamen",
+   "Wolf",
+   "Bär",
+   "Luchs",
+   "Wisent",
+   "Hirsch",
+   "Fauna",
+   "Namenkunde"
+  ],
+  "en": [
+   "field names",
+   "place names",
+   "animal names",
+   "wolf",
+   "bear",
+   "lynx",
+   "wisent",
+   "deer",
+   "fauna",
+   "onomastics"
+  ]
+ },
+ "related": [
+  "fauna-aenderungen-seit-1647",
+  "wald-baumarten-flurnamen"
+ ],
+ "generated_by": "Claude Sonnet 5.5 (subagent A05)",
+ "date": "2026-10-01"
+}

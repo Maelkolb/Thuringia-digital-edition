@@ -1,0 +1,1422 @@
+{
+ "id": "klima-hoehenlage-temperatur-luftdruck",
+ "title": {
+  "de": "Höhenlage, Temperatur und Luftdruck der Stationen",
+  "en": "Elevation, temperature and air pressure at the stations"
+ },
+ "category": "climate",
+ "section": "t1-1-7",
+ "sources": [
+  {
+   "page": "12",
+   "block": "b1",
+   "rows": "r1"
+  },
+  {
+   "page": "20",
+   "block": "b3",
+   "rows": "r10,r16,r27,r29"
+  },
+  {
+   "page": "21",
+   "block": "b1",
+   "rows": "r34-r36"
+  },
+  {
+   "page": "22",
+   "block": "b1",
+   "rows": "r3,r19,r32"
+  },
+  {
+   "page": "11",
+   "block": "fn1",
+   "note": "Höhen in preuß. Dezimalfuß, bezogen auf den Pegel bei Swinemünde"
+  },
+  {
+   "page": "831",
+   "block": "b8",
+   "rows": "r4",
+   "note": "1 preuß. Ruthe = 3,766242 Meter; Dezimalfuß = 1/10 Ruthe"
+  },
+  {
+   "page": "12",
+   "block": "b4",
+   "note": "Gegenprobe: Bahnhof Gera 607,53 rhein. Fuß = 502 Dezimalfuß gedruckt"
+  },
+  {
+   "page": "54",
+   "block": "b4",
+   "rows": "r10,r14"
+  },
+  {
+   "page": "54",
+   "block": "b6"
+  },
+  {
+   "page": "54",
+   "block": "b8",
+   "rows": "r2-r3"
+  },
+  {
+   "page": "54",
+   "block": "fn1"
+  },
+  {
+   "page": "55",
+   "block": "b2",
+   "rows": "r2"
+  },
+  {
+   "page": "55",
+   "block": "b9",
+   "rows": "r14"
+  },
+  {
+   "page": "56",
+   "block": "b3",
+   "rows": "r9"
+  },
+  {
+   "page": "56",
+   "block": "b6",
+   "rows": "r7"
+  },
+  {
+   "page": "57",
+   "block": "b3"
+  },
+  {
+   "page": "57",
+   "block": "b8",
+   "rows": "r11"
+  },
+  {
+   "page": "57",
+   "block": "b9"
+  },
+  {
+   "page": "58",
+   "block": "b2",
+   "rows": "r15"
+  },
+  {
+   "page": "58",
+   "block": "b3"
+  }
+ ],
+ "summary": {
+  "de": "Brückner unterscheidet Unter- und Oberland nach Höhe und Wärme (S. 57) und nennt außer den Messreihen von Gera, Hohenleuben, Schleiz und Rothenacker einzelne Jahresmittel für Lobenstein, Saalburg, Stelzen und Grumbach. Stellt man diese gedruckten Jahresmittel den Höhenangaben seiner Höhenliste (S. 12, 20–22) gegenüber, so fallen die vier Stationen, die Brückner nicht als zu warm beanstandet, um etwa 0,46 K je 100 m; Schleiz, Lobenstein, Saalburg und Rothenacker liegen darüber – das sind genau die Stationen, die Brückner für zu warm hält. Der Luftdruck von Schleiz liegt in allen 17 Monaten von Juli 1863 bis November 1864 unter dem von Gera, im Mittel um 37 hPa.",
+  "en": "Brückner distinguishes the lowland and upland of the principality by height and warmth (p. 57) and gives, besides the series of Gera, Hohenleuben, Schleiz and Rothenacker, single annual means for Lobenstein, Saalburg, Stelzen and Grumbach. Set against the heights of his own height list (pp. 12, 20–22), the four stations Brückner does not call too warm fall by about 0.46 K per 100 m; Schleiz, Lobenstein, Saalburg and Rothenacker lie above the line – exactly the stations Brückner considers too warm. The air pressure at Schleiz is lower than at Gera in all 17 months from July 1863 to November 1864, on average by 37 hPa."
+ },
+ "method": {
+  "de": "Höhen: Brückners Höhenliste (S. 12, 20–22) gibt Ortshöhen in preußischem Dezimalfuß über dem Pegel von Swinemünde an (S. 11, Fußnote), bei Orten meist als Spanne von der untersten zur obersten Grenze. Verwendet wurde die Spanne der Ortslage (Gera 505–600, Hohenleuben 975–1050, Schleiz »Haupttheil der Stadt« 1150–1175, Saalburg 1075–1140, Lobenstein 1250–1300 [unterstes Haus im Lemnitzgrunde bis oberste Häuser im Koselgrunde], Stelzen 1525–1560 Dezimalfuß) oder der Einzelwert (Rothenacker Kirche 1447, Grumbach Mitte 1797 Dezimalfuß); die Mitte der Spanne wurde mit 1 Dezimalfuß = 1/10 preuß. Ruthe = 0,3766242 m (S. 831: 1 Ruthe = 3,766242 m) in Meter umgerechnet. Der Dezimalfuß ist länger als der gewöhnliche preußische Fuß (0,313853 m); die Gegenprobe an Brückners Bahnhofshöhe von Gera (607,53 rheinische Fuß = 190,7 m, in der Liste als 502 Fuß = 189 m, S. 12) bestätigt ihn. Das ist die Ortshöhe, nicht notwendig die Höhe des Thermometers oder Barometers. Temperatur: gedruckte Jahresmittel in °R (Durchschnittszeilen S. 55–57, Einzelangaben S. 57–58), ×1,25 in °C. Die Trendgerade ist die lineare Regression der Jahresmittel auf die Höhe für die vier Stationen, die Brückner nicht als zu warm beanstandet (Gera, Hohenleuben, Stelzen, Grumbach; r = −0,998); Ziegenrück hat in der Höhenliste keine Höhe. Luftdruck: Pariser Linien × 2,255829 mm × 1,333224 hPa/mm (443,296 Pariser Linien = 1 m, S. 831). Hohenleuben gibt Brückner als 27'' 7 15/16''' an (= 331,94 Linien). Die Höhendifferenz aus dem Druck wurde mit der isothermen barometrischen Höhenformel bei 8 °C geschätzt.",
+  "en": "Heights: Brückner’s height list (pp. 12, 20–22) gives heights of places in Prussian decimal feet above the Swinemünde gauge (p. 11, footnote), for towns mostly as a range from the lowest to the highest limit. The range of the built-up area was used (Gera 505–600, Hohenleuben 975–1050, Schleiz “main part of the town” 1150–1175, Saalburg 1075–1140, Lobenstein 1250–1300 [lowest house in the Lemnitz valley to uppermost houses in the Koselgrund], Stelzen 1525–1560 decimal feet) or the single value (Rothenacker church 1447, Grumbach centre 1797 decimal feet); the midpoint was converted to metres with 1 decimal foot = 1/10 Prussian rod = 0.3766242 m (p. 831: 1 rod = 3.766242 m). The decimal foot is longer than the ordinary Prussian foot (0.313853 m); a check against Brückner’s height of Gera station (607.53 Rhenish feet = 190.7 m, entered in the list as 502 feet = 189 m, p. 12) confirms it. This is the height of the place, not necessarily that of the thermometer or barometer. Temperature: printed annual means in °R (average rows pp. 55–57, single figures pp. 57–58), ×1.25 to °C. The trend line is the linear regression of annual mean on height for the four stations Brückner does not call too warm (Gera, Hohenleuben, Stelzen, Grumbach; r = −0.998); Ziegenrück has no height in the list. Air pressure: Paris lines × 2.255829 mm × 1.333224 hPa/mm (443.296 Paris lines = 1 m, p. 831). For Hohenleuben Brückner gives 27'' 7 15/16''' (= 331.94 lines). The height difference from pressure was estimated with the isothermal barometric formula at 8 °C."
+ },
+ "findings": [
+  {
+   "de": "Gera, Hohenleuben, Stelzen und Grumbach – die Stationen, die Brückner nicht als zu warm beanstandet – liegen bei einer Höhe von 208 bis 677 m nahe an einer Geraden mit 0,46 K Temperaturabnahme je 100 m (r = −0,998, vier Punkte).",
+   "en": "Gera, Hohenleuben, Stelzen and Grumbach – the stations Brückner does not call too warm – lie at heights from 208 to 677 m close to a straight line with a temperature decrease of 0.46 K per 100 m (r = −0.998, four points)."
+  },
+  {
+   "de": "Die vier von Brückner als zu hoch beurteilten Stationen liegen 0,3 K (Rothenacker), 1,0 K (Schleiz), 1,1 K (Lobenstein) und 1,8 K (Saalburg) über dieser Geraden; damit wird Brückners Urteil (S. 58) der Größenordnung nach bestätigt; bei Rothenacker ist die Abweichung gering.",
+   "en": "The four stations Brückner judges too high lie 0.3 K (Rothenacker), 1.0 K (Schleiz), 1.1 K (Lobenstein) and 1.8 K (Saalburg) above this line; this confirms Brückner’s verdict (p. 58) in order of magnitude; for Rothenacker the deviation is small."
+  },
+  {
+   "de": "In allen 17 gemeinsamen Monaten (Juli 1863 bis November 1864) stand das Barometer in Schleiz tiefer als in Gera, im Mittel um 12,3 Linien = 37 hPa (Spanne 8,7–13,6 Linien).",
+   "en": "In all 17 common months (July 1863 to November 1864) the barometer at Schleiz stood lower than at Gera, on average by 12.3 lines = 37 hPa (range 8.7–13.6 lines)."
+  },
+  {
+   "de": "Ein solcher Druckunterschied entspräche nach der barometrischen Höhenformel etwa 314 m Höhenunterschied, Brückners Höhenliste ergibt für die Ortslagen aber nur etwa 230 m; das deutet auf einen Instrumenten- oder Aufstellungsunterschied hin (Deutung).",
+   "en": "By the barometric formula such a pressure difference would correspond to about 314 m of height difference, but Brückner’s height list gives only about 230 m for the two places; this points to a difference of instrument or exposure (interpretation)."
+  },
+  {
+   "de": "Der Hohenleubener Barometermittelwert (27'' 7 15/16''' = 331,94 Linien, 15 Jahre vor 1827) liegt höher als Geras Mittel (330,58), obwohl Hohenleuben in der Höhenliste rund 173 m höher liegt; er ist mit den Reihen von Gera und Schleiz nicht vergleichbar.",
+   "en": "The Hohenleuben mean barometer reading (27'' 7 15/16''' = 331.94 lines, 15 years before 1827) is higher than Gera’s mean (330.58) although Hohenleuben lies about 173 m higher in the height list; it is not comparable with the Gera and Schleiz series."
+  }
+ ],
+ "caveats": [
+  {
+   "de": "Die Höhen sind Ortshöhen aus Brückners Liste (preußischer Dezimalfuß, Pegel Swinemünde), nicht die Höhe des Instruments; bei Orten mit Höhenspanne wurde die Mitte genommen. Zuordnung der Lobensteiner Spanne (1250–1300 Fuß) ist aus zwei Zeilen der Liste erschlossen.",
+   "en": "The heights are heights of places from Brückner’s list (Prussian decimal feet, Swinemünde gauge), not instrument heights; the midpoint was used for places with a range. The Lobenstein range (1250–1300 feet) is inferred from two rows of the list."
+  },
+  {
+   "de": "Die Jahresmittel stammen aus verschiedenen Zeiträumen (ein Jahr bis zwölf Jahre) und teils aus unbekannter Quelle (Stelzen, Grumbach: Pfarramtsmitteilungen, nur Jahresmittel, S. 58). Vier Punkte erlauben keine verlässliche Abnahmerate; sie dient nur dem Vergleich.",
+   "en": "The annual means come from different periods (one to twelve years) and partly from unknown sources (Stelzen, Grumbach: parish reports, annual mean only, p. 58). Four points do not permit a reliable lapse rate; it serves only for comparison."
+  },
+  {
+   "de": "Die Temperaturskala ist nicht genannt; angenommen wurde Réaumur (siehe Auswertung zu Gera). Wären die Werte Celsius, bliebe die Rangfolge, die Abnahmerate wäre aber um ein Fünftel kleiner.",
+   "en": "The temperature scale is not named; Réaumur was assumed (see the Gera analysis). If the values were Celsius, the ranking would stay but the lapse rate would be a fifth smaller."
+  },
+  {
+   "de": "Der Luftdruck von Gera 1856–1867 enthält den Niveausprung von 1865; verglichen wird deshalb Schleiz mit Gera im selben Zeitraum (1863/64). Der Hohenleubener Wert stammt von einem anderen Beobachter (Pastor Alberti) und Zeitraum und ist nicht mit den anderen Reihen vergleichbar.",
+   "en": "The air pressure at Gera 1856–1867 contains the level shift of 1865; Schleiz is therefore compared with Gera in the same period (1863/64). The Hohenleuben value comes from another observer (Pastor Alberti) and another period and is not comparable with the other series."
+  }
+ ],
+ "conversions": [
+  {
+   "from": "preuß. Dezimalfuß (Höhen)",
+   "to": "m",
+   "factor_or_formula": "m = Dezimalfuß × 0,3766242 (1 Dezimalfuß = 1/10 preuß. Ruthe)",
+   "reference": "Brückner S. 11 Fußnote (Dezimalfuß, Pegel Swinemünde); S. 831: 1 preuß. Ruthe = 3,766242 m. Gegenprobe S. 12: Bahnhof Gera 607,53 rhein. Fuß = 190,7 m = 506 Dezimalfuß (gedruckt 502)"
+  },
+  {
+   "from": "Grad Réaumur (°R)",
+   "to": "Grad Celsius (°C)",
+   "factor_or_formula": "°C = °R × 1,25",
+   "reference": "80 gegenüber 100 Teilstriche zwischen Eis- und Siedepunkt; von Brückner nicht tabelliert"
+  },
+  {
+   "from": "Pariser Linie (Barometer)",
+   "to": "hPa",
+   "factor_or_formula": "hPa = Linien × 2,255829 mm × 1,333224 hPa/mm",
+   "reference": "Brückner S. 831: 443,296 pariser Linien = 1 Meter"
+  }
+ ],
+ "datasets": [
+  {
+   "name": "stations",
+   "title": {
+    "de": "Stationen: Höhe und gedrucktes Jahresmittel der Temperatur",
+    "en": "Stations: elevation and printed annual mean temperature"
+   },
+   "columns": [
+    {
+     "name": "station",
+     "label": {
+      "de": "Station",
+      "en": "Station"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "period",
+     "label": {
+      "de": "Beobachtungszeitraum",
+      "en": "Observation period"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "judgement",
+     "label": {
+      "de": "Einschätzung Brückners",
+      "en": "Brückner’s assessment"
+     },
+     "type": "string",
+     "unit": null,
+     "note": "series = mehrjährige Reihe, nicht beanstandet; uncertain = Angabe ohne sicheres Maß (S. 57); high = als zu hoch liegend beurteilt (S. 58); editorische Zuordnung"
+    },
+    {
+     "name": "label_side",
+     "label": {
+      "de": "Beschriftungsseite",
+      "en": "Label side"
+     },
+     "type": "string",
+     "unit": null,
+     "note": "nur für das Diagramm"
+    },
+    {
+     "name": "elev_from_ft",
+     "label": {
+      "de": "Höhe von (preuß. Dezimalfuß)",
+      "en": "Elevation from (Prussian decimal feet)"
+     },
+     "type": "number",
+     "unit": "Fuß"
+    },
+    {
+     "name": "elev_to_ft",
+     "label": {
+      "de": "Höhe bis (preuß. Dezimalfuß)",
+      "en": "Elevation to (Prussian decimal feet)"
+     },
+     "type": "number",
+     "unit": "Fuß"
+    },
+    {
+     "name": "elevation_m",
+     "label": {
+      "de": "Höhe (Mitte der Spanne)",
+      "en": "Elevation (midpoint of range)"
+     },
+     "type": "number",
+     "unit": "m",
+     "derived": true
+    },
+    {
+     "name": "annual_r",
+     "label": {
+      "de": "Jahresmittel der Temperatur",
+      "en": "Annual mean temperature"
+     },
+     "type": "number",
+     "unit": "°R"
+    },
+    {
+     "name": "annual_c",
+     "label": {
+      "de": "Jahresmittel der Temperatur",
+      "en": "Annual mean temperature"
+     },
+     "type": "number",
+     "unit": "°C",
+     "derived": true
+    },
+    {
+     "name": "trend_c",
+     "label": {
+      "de": "Wert der Trendgeraden in dieser Höhe",
+      "en": "Trend-line value at this elevation"
+     },
+     "type": "number",
+     "unit": "°C",
+     "derived": true
+    },
+    {
+     "name": "excess_k",
+     "label": {
+      "de": "Abweichung von der Trendgeraden",
+      "en": "Deviation from the trend line"
+     },
+     "type": "number",
+     "unit": "K",
+     "derived": true
+    }
+   ],
+   "rows": [
+    [
+     "Gera",
+     "1856–1867",
+     "series",
+     "right",
+     505.0,
+     600.0,
+     208.1,
+     6.96,
+     8.7,
+     8.71,
+     -0.01
+    ],
+    [
+     "Hohenleuben",
+     "1854–1860",
+     "series",
+     "right",
+     975.0,
+     1050.0,
+     381.3,
+     6.33,
+     7.91,
+     7.92,
+     -0.01
+    ],
+    [
+     "Schleiz",
+     "1863–1867",
+     "high",
+     "left",
+     1150.0,
+     1175.0,
+     437.8,
+     6.9,
+     8.62,
+     7.66,
+     0.96
+    ],
+    [
+     "Saalburg",
+     "Dez. 1864–Nov. 1865",
+     "high",
+     "left",
+     1075.0,
+     1140.0,
+     417.1,
+     7.66,
+     9.57,
+     7.75,
+     1.82
+    ],
+    [
+     "Lobenstein",
+     "1863",
+     "high",
+     "right",
+     1250.0,
+     1300.0,
+     480.2,
+     6.9,
+     8.62,
+     7.47,
+     1.15
+    ],
+    [
+     "Rothenacker",
+     "1865, 1867",
+     "high",
+     "right",
+     1447.0,
+     1447.0,
+     545.0,
+     5.99,
+     7.49,
+     7.17,
+     0.32
+    ],
+    [
+     "Stelzen",
+     "unbekannt",
+     "uncertain",
+     "right",
+     1525.0,
+     1560.0,
+     580.9,
+     5.67,
+     7.09,
+     7.0,
+     0.09
+    ],
+    [
+     "Grumbach",
+     "unbekannt",
+     "uncertain",
+     "right",
+     1797.0,
+     1797.0,
+     676.8,
+     5.2,
+     6.5,
+     6.56,
+     -0.06
+    ],
+    [
+     "Ziegenrück",
+     "1848–1856",
+     "series",
+     "right",
+     null,
+     null,
+     null,
+     5.65,
+     7.06,
+     null,
+     null
+    ]
+   ],
+   "source_refs": [
+    {
+     "page": "12",
+     "block": "b1"
+    },
+    {
+     "page": "20",
+     "block": "b3"
+    },
+    {
+     "page": "21",
+     "block": "b1"
+    },
+    {
+     "page": "22",
+     "block": "b1"
+    },
+    {
+     "page": "55",
+     "block": "b9",
+     "rows": "r14"
+    },
+    {
+     "page": "56",
+     "block": "b3",
+     "rows": "r9"
+    },
+    {
+     "page": "56",
+     "block": "b6",
+     "rows": "r7"
+    },
+    {
+     "page": "57",
+     "block": "b3"
+    },
+    {
+     "page": "57",
+     "block": "b8",
+     "rows": "r11"
+    },
+    {
+     "page": "57",
+     "block": "b9"
+    },
+    {
+     "page": "58",
+     "block": "b2",
+     "rows": "r15"
+    }
+   ]
+  },
+  {
+   "name": "trend",
+   "title": {
+    "de": "Trendgerade Temperatur–Höhe",
+    "en": "Temperature–elevation trend line"
+   },
+   "columns": [
+    {
+     "name": "x0",
+     "label": {
+      "de": "Höhe Anfang",
+      "en": "Elevation start"
+     },
+     "type": "number",
+     "unit": "m",
+     "derived": true
+    },
+    {
+     "name": "y0",
+     "label": {
+      "de": "Temperatur Anfang",
+      "en": "Temperature start"
+     },
+     "type": "number",
+     "unit": "°C",
+     "derived": true
+    },
+    {
+     "name": "x1",
+     "label": {
+      "de": "Höhe Ende",
+      "en": "Elevation end"
+     },
+     "type": "number",
+     "unit": "m",
+     "derived": true
+    },
+    {
+     "name": "y1",
+     "label": {
+      "de": "Temperatur Ende",
+      "en": "Temperature end"
+     },
+     "type": "number",
+     "unit": "°C",
+     "derived": true
+    }
+   ],
+   "rows": [
+    [
+     180.0,
+     8.84,
+     700.0,
+     6.46
+    ]
+   ],
+   "source_refs": [
+    {
+     "page": "55",
+     "block": "b9",
+     "rows": "r14"
+    }
+   ]
+  },
+  {
+   "name": "pressure",
+   "title": {
+    "de": "Mittlerer Barometerstand nach Station",
+    "en": "Mean barometer reading by station"
+   },
+   "columns": [
+    {
+     "name": "label",
+     "label": {
+      "de": "Station und Zeitraum",
+      "en": "Station and period"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "station",
+     "label": {
+      "de": "Station",
+      "en": "Station"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "period",
+     "label": {
+      "de": "Zeitraum",
+      "en": "Period"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "lines_printed",
+     "label": {
+      "de": "Barometerstand (gedruckt)",
+      "en": "Barometer reading (printed)"
+     },
+     "type": "number",
+     "unit": "Pariser Linien"
+    },
+    {
+     "name": "lines",
+     "label": {
+      "de": "Barometerstand",
+      "en": "Barometer reading"
+     },
+     "type": "number",
+     "unit": "Pariser Linien",
+     "derived": true,
+     "note": "Hohenleuben aus 27'' 7 15/16''' umgerechnet"
+    },
+    {
+     "name": "hpa",
+     "label": {
+      "de": "Luftdruck",
+      "en": "Air pressure"
+     },
+     "type": "number",
+     "unit": "hPa",
+     "derived": true
+    },
+    {
+     "name": "elevation_m",
+     "label": {
+      "de": "Höhe des Ortes",
+      "en": "Elevation of place"
+     },
+     "type": "number",
+     "unit": "m",
+     "derived": true
+    }
+   ],
+   "rows": [
+    [
+     "Gera 1856–67",
+     "Gera",
+     "1856–1867",
+     330.58,
+     330.58,
+     994.2,
+     208.1
+    ],
+    [
+     "Gera 1864",
+     "Gera",
+     "1864",
+     330.26,
+     330.26,
+     993.3,
+     208.1
+    ],
+    [
+     "Schleiz 1863/64",
+     "Schleiz",
+     "Dez. 1863–Nov. 1864",
+     317.9,
+     317.9,
+     956.1,
+     437.8
+    ],
+    [
+     "Ziegenrück 1851–56",
+     "Ziegenrück",
+     "1851–1856",
+     324.84,
+     324.84,
+     977.0,
+     null
+    ],
+    [
+     "Hohenleuben vor 1827",
+     "Hohenleuben",
+     "15 Jahre, vor 1827",
+     null,
+     331.94,
+     998.3,
+     381.3
+    ]
+   ],
+   "source_refs": [
+    {
+     "page": "54",
+     "block": "b4",
+     "rows": "r10,r14"
+    },
+    {
+     "page": "54",
+     "block": "b6"
+    },
+    {
+     "page": "54",
+     "block": "b8",
+     "rows": "r2-r3"
+    },
+    {
+     "page": "55",
+     "block": "b2",
+     "rows": "r2"
+    }
+   ]
+  },
+  {
+   "name": "monthly",
+   "title": {
+    "de": "Monatsmittel des Barometerstands, Gera und Schleiz",
+    "en": "Monthly mean barometer readings, Gera and Schleiz"
+   },
+   "columns": [
+    {
+     "name": "month",
+     "label": {
+      "de": "Monat",
+      "en": "Month"
+     },
+     "type": "date",
+     "unit": null,
+     "derived": true,
+     "note": "erster Tag des Monats, editorisch"
+    },
+    {
+     "name": "station",
+     "label": {
+      "de": "Station",
+      "en": "Station"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "lines",
+     "label": {
+      "de": "Barometerstand",
+      "en": "Barometer reading"
+     },
+     "type": "number",
+     "unit": "Pariser Linien"
+    },
+    {
+     "name": "hpa",
+     "label": {
+      "de": "Luftdruck",
+      "en": "Air pressure"
+     },
+     "type": "number",
+     "unit": "hPa",
+     "derived": true
+    }
+   ],
+   "rows": [
+    [
+     "1863-07-01",
+     "Gera",
+     331.37,
+     996.6
+    ],
+    [
+     "1863-07-01",
+     "Schleiz",
+     318.3,
+     957.3
+    ],
+    [
+     "1863-08-01",
+     "Gera",
+     330.44,
+     993.8
+    ],
+    [
+     "1863-08-01",
+     "Schleiz",
+     317.2,
+     954.0
+    ],
+    [
+     "1863-09-01",
+     "Gera",
+     330.02,
+     992.5
+    ],
+    [
+     "1863-09-01",
+     "Schleiz",
+     317.1,
+     953.7
+    ],
+    [
+     "1863-10-01",
+     "Gera",
+     330.38,
+     993.6
+    ],
+    [
+     "1863-10-01",
+     "Schleiz",
+     317.5,
+     954.9
+    ],
+    [
+     "1863-11-01",
+     "Gera",
+     331.89,
+     998.2
+    ],
+    [
+     "1863-11-01",
+     "Schleiz",
+     319.1,
+     959.7
+    ],
+    [
+     "1863-12-01",
+     "Gera",
+     327.99,
+     986.4
+    ],
+    [
+     "1863-12-01",
+     "Schleiz",
+     318.5,
+     957.9
+    ],
+    [
+     "1864-01-01",
+     "Gera",
+     330.85,
+     995.0
+    ],
+    [
+     "1864-01-01",
+     "Schleiz",
+     322.0,
+     968.4
+    ],
+    [
+     "1864-02-01",
+     "Gera",
+     326.36,
+     981.5
+    ],
+    [
+     "1864-02-01",
+     "Schleiz",
+     317.7,
+     955.5
+    ],
+    [
+     "1864-03-01",
+     "Gera",
+     327.34,
+     984.5
+    ],
+    [
+     "1864-03-01",
+     "Schleiz",
+     315.3,
+     948.3
+    ],
+    [
+     "1864-04-01",
+     "Gera",
+     330.57,
+     994.2
+    ],
+    [
+     "1864-04-01",
+     "Schleiz",
+     318.4,
+     957.6
+    ],
+    [
+     "1864-05-01",
+     "Gera",
+     330.35,
+     993.5
+    ],
+    [
+     "1864-05-01",
+     "Schleiz",
+     317.5,
+     954.9
+    ],
+    [
+     "1864-06-01",
+     "Gera",
+     330.82,
+     994.9
+    ],
+    [
+     "1864-06-01",
+     "Schleiz",
+     317.3,
+     954.3
+    ],
+    [
+     "1864-07-01",
+     "Gera",
+     331.26,
+     996.3
+    ],
+    [
+     "1864-07-01",
+     "Schleiz",
+     317.7,
+     955.5
+    ],
+    [
+     "1864-08-01",
+     "Gera",
+     331.54,
+     997.1
+    ],
+    [
+     "1864-08-01",
+     "Schleiz",
+     317.9,
+     956.1
+    ],
+    [
+     "1864-09-01",
+     "Gera",
+     331.65,
+     997.4
+    ],
+    [
+     "1864-09-01",
+     "Schleiz",
+     318.0,
+     956.4
+    ],
+    [
+     "1864-10-01",
+     "Gera",
+     330.12,
+     992.8
+    ],
+    [
+     "1864-10-01",
+     "Schleiz",
+     316.8,
+     952.8
+    ],
+    [
+     "1864-11-01",
+     "Gera",
+     330.55,
+     994.1
+    ],
+    [
+     "1864-11-01",
+     "Schleiz",
+     317.6,
+     955.2
+    ]
+   ],
+   "source_refs": [
+    {
+     "page": "54",
+     "block": "b4",
+     "rows": "r9-r10"
+    },
+    {
+     "page": "54",
+     "block": "b8",
+     "rows": "r2-r3"
+    }
+   ]
+  }
+ ],
+ "charts": [
+  {
+   "id": "c1",
+   "dataset": "stations",
+   "extra_datasets": [
+    "trend"
+   ],
+   "title": {
+    "de": "Jahresmitteltemperatur und Höhenlage",
+    "en": "Annual mean temperature and elevation"
+   },
+   "caption": {
+    "de": "Gedruckte Jahresmittel in °C gegen die Ortshöhe aus Brückners Höhenliste. Die gestrichelte Gerade (0,46 K je 100 m) ist an Gera, Hohenleuben, Stelzen und Grumbach angepasst; die von Brückner als zu hoch beurteilten Stationen liegen darüber.",
+    "en": "Printed annual means in °C against the height of the place from Brückner’s height list. The dashed line (0.46 K per 100 m) is fitted to Gera, Hohenleuben, Stelzen and Grumbach; the stations Brückner judges too high lie above it."
+   },
+   "vegalite": {
+    "height": 340,
+    "layer": [
+     {
+      "data": {
+       "name": "trend"
+      },
+      "mark": {
+       "type": "rule",
+       "strokeDash": [
+        5,
+        4
+       ]
+      },
+      "encoding": {
+       "x": {
+        "field": "x0",
+        "type": "quantitative",
+        "scale": {
+         "domain": [
+          150,
+          720
+         ]
+        }
+       },
+       "x2": {
+        "field": "x1"
+       },
+       "y": {
+        "field": "y0",
+        "type": "quantitative",
+        "scale": {
+         "domain": [
+          6,
+          10.2
+         ]
+        }
+       },
+       "y2": {
+        "field": "y1"
+       }
+      }
+     },
+     {
+      "transform": [
+       {
+        "filter": "isValid(datum.elevation_m)"
+       },
+       {
+        "calculate": {
+         "de": "datum.judgement == 'series' ? 'Mehrjährige Reihe' : datum.judgement == 'uncertain' ? 'Unsichere Angabe' : 'Zu hoch (Brückner)'",
+         "en": "datum.judgement == 'series' ? 'Multi-year series' : datum.judgement == 'uncertain' ? 'Uncertain figure' : 'Too high (Brückner)'"
+        },
+        "as": "klass"
+       }
+      ],
+      "mark": {
+       "type": "circle",
+       "size": 120,
+       "opacity": 1
+      },
+      "encoding": {
+       "x": {
+        "field": "elevation_m",
+        "type": "quantitative",
+        "title": {
+         "de": "Höhe der Ortslage (m)",
+         "en": "Elevation of the place (m)"
+        },
+        "scale": {
+         "domain": [
+          150,
+          720
+         ]
+        }
+       },
+       "y": {
+        "field": "annual_c",
+        "type": "quantitative",
+        "title": {
+         "de": "Jahresmittel der Temperatur (°C)",
+         "en": "Annual mean temperature (°C)"
+        },
+        "scale": {
+         "domain": [
+          6,
+          10.2
+         ]
+        }
+       },
+       "color": {
+        "field": "klass",
+        "type": "nominal",
+        "title": null,
+        "scale": {
+         "domain": [
+          {
+           "de": "Mehrjährige Reihe",
+           "en": "Multi-year series"
+          },
+          {
+           "de": "Unsichere Angabe",
+           "en": "Uncertain figure"
+          },
+          {
+           "de": "Zu hoch (Brückner)",
+           "en": "Too high (Brückner)"
+          }
+         ]
+        }
+       },
+       "tooltip": [
+        {
+         "field": "station",
+         "title": {
+          "de": "Station",
+          "en": "Station"
+         }
+        },
+        {
+         "field": "period",
+         "title": {
+          "de": "Zeitraum",
+          "en": "Period"
+         }
+        },
+        {
+         "field": "elevation_m",
+         "title": {
+          "de": "Höhe (m)",
+          "en": "Elevation (m)"
+         },
+         "format": ".0f"
+        },
+        {
+         "field": "annual_r",
+         "title": {
+          "de": "Jahresmittel (°R)",
+          "en": "Annual mean (°R)"
+         }
+        },
+        {
+         "field": "annual_c",
+         "title": {
+          "de": "Jahresmittel (°C)",
+          "en": "Annual mean (°C)"
+         },
+         "format": ".2f"
+        },
+        {
+         "field": "excess_k",
+         "title": {
+          "de": "Abweichung vom Trend (K)",
+          "en": "Deviation from trend (K)"
+         },
+         "format": "+.2f"
+        }
+       ]
+      }
+     },
+     {
+      "transform": [
+       {
+        "filter": "isValid(datum.elevation_m) && datum.label_side == 'right'"
+       }
+      ],
+      "mark": {
+       "type": "text",
+       "align": "left",
+       "dx": 9,
+       "dy": -1,
+       "fontSize": 11
+      },
+      "encoding": {
+       "x": {
+        "field": "elevation_m",
+        "type": "quantitative",
+        "title": {
+         "de": "Höhe der Ortslage (m)",
+         "en": "Elevation of the place (m)"
+        },
+        "scale": {
+         "domain": [
+          150,
+          720
+         ]
+        }
+       },
+       "y": {
+        "field": "annual_c",
+        "type": "quantitative",
+        "title": {
+         "de": "Jahresmittel der Temperatur (°C)",
+         "en": "Annual mean temperature (°C)"
+        },
+        "scale": {
+         "domain": [
+          6,
+          10.2
+         ]
+        }
+       },
+       "text": {
+        "field": "station",
+        "type": "nominal"
+       }
+      }
+     },
+     {
+      "transform": [
+       {
+        "filter": "isValid(datum.elevation_m) && datum.label_side == 'left'"
+       }
+      ],
+      "mark": {
+       "type": "text",
+       "align": "right",
+       "dx": -9,
+       "dy": -1,
+       "fontSize": 11
+      },
+      "encoding": {
+       "x": {
+        "field": "elevation_m",
+        "type": "quantitative",
+        "title": {
+         "de": "Höhe der Ortslage (m)",
+         "en": "Elevation of the place (m)"
+        },
+        "scale": {
+         "domain": [
+          150,
+          720
+         ]
+        }
+       },
+       "y": {
+        "field": "annual_c",
+        "type": "quantitative",
+        "title": {
+         "de": "Jahresmittel der Temperatur (°C)",
+         "en": "Annual mean temperature (°C)"
+        },
+        "scale": {
+         "domain": [
+          6,
+          10.2
+         ]
+        }
+       },
+       "text": {
+        "field": "station",
+        "type": "nominal"
+       }
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "c2",
+   "dataset": "pressure",
+   "title": {
+    "de": "Mittlerer Barometerstand der Stationen",
+    "en": "Mean barometer reading of the stations"
+   },
+   "caption": {
+    "de": "Gedruckte Mittel, umgerechnet in hPa. Gera 1864 und Schleiz (Dez. 1863–Nov. 1864) sind zeitgleich; das Hohenleubener Mittel (Alberti, vor 1827) ist mit den anderen nicht vergleichbar.",
+    "en": "Printed means converted to hPa. Gera 1864 and Schleiz (Dec. 1863–Nov. 1864) are contemporaneous; the Hohenleuben mean (Alberti, before 1827) is not comparable with the others."
+   },
+   "vegalite": {
+    "height": 240,
+    "encoding": {
+     "y": {
+      "field": "label",
+      "type": "nominal",
+      "title": null,
+      "sort": {
+       "field": "hpa",
+       "order": "descending"
+      }
+     }
+    },
+    "layer": [
+     {
+      "mark": {
+       "type": "circle",
+       "size": 130,
+       "opacity": 1
+      },
+      "encoding": {
+       "x": {
+        "field": "hpa",
+        "type": "quantitative",
+        "title": "hPa",
+        "scale": {
+         "domain": [
+          940,
+          1010
+         ]
+        },
+        "axis": {
+         "format": "d"
+        }
+       },
+       "tooltip": [
+        {
+         "field": "label",
+         "title": {
+          "de": "Station und Zeitraum",
+          "en": "Station and period"
+         }
+        },
+        {
+         "field": "lines",
+         "title": {
+          "de": "Pariser Linien",
+          "en": "Paris lines"
+         },
+         "format": ".2f"
+        },
+        {
+         "field": "hpa",
+         "title": "hPa",
+         "format": ".1f"
+        },
+        {
+         "field": "elevation_m",
+         "title": {
+          "de": "Höhe des Ortes (m)",
+          "en": "Elevation of place (m)"
+         },
+         "format": ".0f"
+        }
+       ]
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "c3",
+   "dataset": "monthly",
+   "title": {
+    "de": "Barometerstand Gera und Schleiz, Juli 1863 – November 1864",
+    "en": "Barometer readings at Gera and Schleiz, July 1863 – November 1864"
+   },
+   "caption": {
+    "de": "Monatsmittel in hPa. Der Abstand beider Reihen bleibt in allen 17 Monaten zwischen 26 und 41 hPa; beide folgen denselben Druckschwankungen (hoher Druck im Januar 1864, tiefer im Februar/März).",
+    "en": "Monthly means in hPa. The distance between the two series stays between 26 and 41 hPa in all 17 months; both follow the same pressure fluctuations (high pressure in January 1864, low in February/March)."
+   },
+   "vegalite": {
+    "height": 300,
+    "mark": {
+     "type": "line",
+     "point": true
+    },
+    "encoding": {
+     "x": {
+      "field": "month",
+      "type": "temporal",
+      "timeUnit": "yearmonth",
+      "title": null,
+      "axis": {
+       "tickCount": "month",
+       "labelAngle": -45,
+       "labelExpr": {
+        "de": "['Jan','Feb','Mär','Apr','Mai','Jun','Jul','Aug','Sep','Okt','Nov','Dez'][month(datum.value)] + ' ' + timeFormat(datum.value, '%y')",
+        "en": "['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'][month(datum.value)] + ' ' + timeFormat(datum.value, '%y')"
+       }
+      }
+     },
+     "y": {
+      "field": "hpa",
+      "type": "quantitative",
+      "title": "hPa",
+      "scale": {
+       "zero": false
+      },
+      "axis": {
+       "format": "d"
+      }
+     },
+     "color": {
+      "field": "station",
+      "type": "nominal",
+      "title": null,
+      "scale": {
+       "domain": [
+        "Gera",
+        "Schleiz"
+       ]
+      }
+     },
+     "tooltip": [
+      {
+       "field": "station",
+       "title": {
+        "de": "Station",
+        "en": "Station"
+       }
+      },
+      {
+       "field": "month",
+       "type": "temporal",
+       "timeUnit": "yearmonth",
+       "title": {
+        "de": "Monat",
+        "en": "Month"
+       },
+       "format": "%Y-%m"
+      },
+      {
+       "field": "lines",
+       "title": {
+        "de": "Pariser Linien",
+        "en": "Paris lines"
+       },
+       "format": ".2f"
+      },
+      {
+       "field": "hpa",
+       "title": "hPa",
+       "format": ".1f"
+      }
+     ]
+    }
+   }
+  }
+ ],
+ "keywords": {
+  "de": [
+   "Höhenlage",
+   "Temperaturabnahme",
+   "Luftdruck",
+   "Barometer",
+   "Schleiz",
+   "Gera",
+   "Hohenleuben",
+   "Rothenacker",
+   "Lobenstein",
+   "Saalburg",
+   "Stelzen",
+   "Grumbach",
+   "Oberland",
+   "Unterland"
+  ],
+  "en": [
+   "elevation",
+   "temperature lapse rate",
+   "air pressure",
+   "barometer",
+   "Schleiz",
+   "Gera",
+   "Hohenleuben",
+   "Rothenacker",
+   "Lobenstein",
+   "Saalburg",
+   "Stelzen",
+   "Grumbach",
+   "uplands",
+   "lowlands"
+  ]
+ },
+ "related": [
+  "klima-stationen-temperatur-vergleich",
+  "klima-gera-temperatur-1856-1867",
+  "klima-gera-luftdruck-1856-1867",
+  "relief-wohnorte-hoehenlage"
+ ],
+ "generated_by": "Claude Sonnet 5.5 (subagent A03)",
+ "date": "2026-10-01"
+}

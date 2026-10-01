@@ -1,0 +1,649 @@
+{
+ "seq": 425,
+ "label": "413",
+ "slug": "413",
+ "iiif": {
+  "service": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb11005578_00425",
+  "canvas": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11005578/canvas/425",
+  "width": 1713,
+  "height": 2695
+ },
+ "kind": "text",
+ "running_header": "I. Der Landestheil oder Landrathsbezirk Gera.",
+ "signature": null,
+ "blocks": [
+  {
+   "id": "b1",
+   "type": "table",
+   "src": 0,
+   "n_cols": 5,
+   "header_rows": 1,
+   "rows": [
+    {
+     "role": "header",
+     "cells": [
+      {
+       "text": "Jahre.",
+       "spans": []
+      },
+      {
+       "text": "Einwohner überhaupt der vier Industrieorte.",
+       "spans": []
+      },
+      {
+       "text": "Einwohner überhaupt der Agrarorte.",
+       "spans": []
+      },
+      {
+       "text": "Einwohner in Procenten der vier Industrieorte.",
+       "spans": []
+      },
+      {
+       "text": "Einwohner in Procenten der Agrarorte.",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1647",
+       "spans": []
+      },
+      {
+       "text": "3275",
+       "spans": []
+      },
+      {
+       "text": "5117",
+       "spans": []
+      },
+      {
+       "text": "39,0",
+       "spans": []
+      },
+      {
+       "text": "61,0",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1794",
+       "spans": []
+      },
+      {
+       "text": "8943",
+       "spans": []
+      },
+      {
+       "text": "10580",
+       "spans": []
+      },
+      {
+       "text": "45,8",
+       "spans": []
+      },
+      {
+       "text": "54,2",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1867",
+       "spans": []
+      },
+      {
+       "text": "20991",
+       "spans": []
+      },
+      {
+       "text": "17156",
+       "spans": []
+      },
+      {
+       "text": "55,0",
+       "spans": []
+      },
+      {
+       "text": "45,0",
+       "spans": []
+      }
+     ]
+    }
+   ],
+   "grid": [
+    [
+     "Jahre.",
+     "Einwohner überhaupt der vier Industrieorte.",
+     "Einwohner überhaupt der Agrarorte.",
+     "Einwohner in Procenten der vier Industrieorte.",
+     "Einwohner in Procenten der Agrarorte."
+    ],
+    [
+     "1647",
+     "3275",
+     "5117",
+     "39,0",
+     "61,0"
+    ],
+    [
+     "1794",
+     "8943",
+     "10580",
+     "45,8",
+     "54,2"
+    ],
+    [
+     "1867",
+     "20991",
+     "17156",
+     "55,0",
+     "45,0"
+    ]
+   ],
+   "caption": null,
+   "sec": "t2-1"
+  },
+  {
+   "id": "b2",
+   "type": "paragraph",
+   "src": 1,
+   "text": "Die Zahl der Häuser ist von 1794 bis 1867 nur um 33,6 Procent gewachsen. Da jedoch die Bevölkerung in derselben Zeit um fast die Hälfte zugenommen hat, so wohnt sie gegenwärtig ungleich dichter und theilweise unbequemer, indem im Jahre 1794 auf ein Haus 6,4, jetzt 9,5 Köpfe kommen. Aber auch in bürgerlicher Hinsicht sind die Verhältnisse umgestaltet. Während die im Jahre 1647 vorhandenen 1867 Familien sich in 527 Bürger Geras, 293 Amtsunterthanen und 1047 adlige Unterthanen abtheilten und während damals die sämmtlichen Orte der Herrschaft Gera in:",
+   "spans": [
+    [
+     424,
+     429,
+     "Location"
+    ],
+    [
+     545,
+     549,
+     "Location"
+    ]
+   ],
+   "sec": "t2-1"
+  },
+  {
+   "id": "b3",
+   "type": "list",
+   "src": 2,
+   "items": [
+    {
+     "text": "1 Stadt (Gera),",
+     "spans": [
+      [
+       9,
+       13,
+       "Location"
+      ]
+     ]
+    },
+    {
+     "text": "14 Amts- und Küchendörfer (Bieblach, Cuba, Debschwitz, Ernsee, Lusan, Milbitz, Pölitz, Schöna, Schwaara, Stublach, Tinz, Trebnitz, Untermhaus (mit Gries) und Waltersdorf),",
+     "spans": [
+      [
+       27,
+       35,
+       "Location"
+      ],
+      [
+       37,
+       41,
+       "Location"
+      ],
+      [
+       43,
+       53,
+       "Location"
+      ],
+      [
+       55,
+       61,
+       "Location"
+      ],
+      [
+       63,
+       68,
+       "Location"
+      ],
+      [
+       70,
+       77,
+       "Location"
+      ],
+      [
+       79,
+       85,
+       "Location"
+      ],
+      [
+       87,
+       93,
+       "Location"
+      ],
+      [
+       95,
+       103,
+       "Location"
+      ],
+      [
+       105,
+       113,
+       "Location"
+      ],
+      [
+       115,
+       119,
+       "Location"
+      ],
+      [
+       121,
+       129,
+       "Location"
+      ],
+      [
+       131,
+       141,
+       "Location"
+      ],
+      [
+       147,
+       152,
+       "Location"
+      ],
+      [
+       158,
+       169,
+       "Location"
+      ]
+     ]
+    },
+    {
+     "text": "9 Mischdörfer oder herrschaftlich-adlige Orte (Bethenhausen, Dürrenebersdorf, Harpersdorf, Kraftsdorf, Langenberg, Hundhaupten, Roschitz, Rusitz und Rüdersdorf) und",
+     "spans": [
+      [
+       47,
+       59,
+       "Location"
+      ],
+      [
+       61,
+       76,
+       "Location"
+      ],
+      [
+       78,
+       89,
+       "Location"
+      ],
+      [
+       91,
+       101,
+       "Location"
+      ],
+      [
+       103,
+       113,
+       "Location"
+      ],
+      [
+       115,
+       126,
+       "Location"
+      ],
+      [
+       128,
+       136,
+       "Location"
+      ],
+      [
+       138,
+       144,
+       "Location"
+      ],
+      [
+       149,
+       159,
+       "Location"
+      ]
+     ]
+    },
+    {
+     "text": "57 adlige Orte (die übrigen Orte des Districts)",
+     "spans": []
+    }
+   ],
+   "sec": "t2-1"
+  },
+  {
+   "id": "b4",
+   "type": "paragraph",
+   "src": 3,
+   "text": "zerfielen, hat die neue Zeit alle Orte und Unterthanen in Amtsorte und Staatsbürger umgeschaffen. Dazu kommt, daß von den im Jahre 1647 bestandenen 34 Rittergütern*) (Caaschwitz, Caasen, Culm, Debschwitz, Dorna, Dürrenberg, Dürrenebersdorf, Frankenthal, Großaga, Großsaara, Köstritz, Kraftsdorf, Kretzschwitz, Laasen, Langenberg, Leumnitz, Naundorf, Niederdorf, Pforten, Pöppeln, Roschitz Rubitz, Scheubengrobsdorf, Söllmnitz, Steinbrücken, Töppeln, Waltersdorf, Zeulsdorf, Zschippach und Zwötzen) und von vier Lehndörfern ohne Rittersitz (Wüstenfalke mit Pohlen, Negis, Oberröppisch und Thieschitz) der größte Theil in fürstlichen und in bürgerlichen Besitz übergegangen ist.**)",
+   "spans": [
+    [
+     167,
+     177,
+     "Location"
+    ],
+    [
+     179,
+     185,
+     "Location"
+    ],
+    [
+     187,
+     191,
+     "Location"
+    ],
+    [
+     193,
+     203,
+     "Location"
+    ],
+    [
+     205,
+     210,
+     "Location"
+    ],
+    [
+     212,
+     222,
+     "Location"
+    ],
+    [
+     224,
+     239,
+     "Location"
+    ],
+    [
+     241,
+     252,
+     "Location"
+    ],
+    [
+     254,
+     261,
+     "Location"
+    ],
+    [
+     263,
+     272,
+     "Location"
+    ],
+    [
+     274,
+     282,
+     "Location"
+    ],
+    [
+     284,
+     294,
+     "Location"
+    ],
+    [
+     296,
+     308,
+     "Location"
+    ],
+    [
+     310,
+     316,
+     "Location"
+    ],
+    [
+     318,
+     328,
+     "Location"
+    ],
+    [
+     330,
+     338,
+     "Location"
+    ],
+    [
+     340,
+     348,
+     "Location"
+    ],
+    [
+     350,
+     360,
+     "Location"
+    ],
+    [
+     362,
+     369,
+     "Location"
+    ],
+    [
+     371,
+     378,
+     "Location"
+    ],
+    [
+     380,
+     388,
+     "Location"
+    ],
+    [
+     389,
+     395,
+     "Location"
+    ],
+    [
+     397,
+     414,
+     "Location"
+    ],
+    [
+     416,
+     425,
+     "Location"
+    ],
+    [
+     427,
+     439,
+     "Location"
+    ],
+    [
+     441,
+     448,
+     "Location"
+    ],
+    [
+     450,
+     461,
+     "Location"
+    ],
+    [
+     463,
+     472,
+     "Location"
+    ],
+    [
+     474,
+     484,
+     "Location"
+    ],
+    [
+     489,
+     496,
+     "Location"
+    ],
+    [
+     540,
+     551,
+     "Location"
+    ],
+    [
+     556,
+     562,
+     "Location"
+    ],
+    [
+     564,
+     569,
+     "Location"
+    ],
+    [
+     571,
+     583,
+     "Location"
+    ],
+    [
+     588,
+     598,
+     "Location"
+    ]
+   ],
+   "sec": "t2-1"
+  },
+  {
+   "id": "b5",
+   "type": "paragraph",
+   "src": 4,
+   "text": "In historisch-politischer Hinsicht war der heutige Landestheil Gera vordem ein Hauptstück des nach der Unterwerfung der Sorben gebildeten Gaues Gera und ein kleines Stück der darauf entstandenen thüringischen Mark Zeitz, aus der das Bisthum Zeitz (später Naumburg) hervorging.",
+   "spans": [
+    [
+     63,
+     67,
+     "Location"
+    ],
+    [
+     144,
+     148,
+     "Location"
+    ],
+    [
+     209,
+     219,
+     "Location"
+    ],
+    [
+     233,
+     246,
+     "Organisation"
+    ],
+    [
+     255,
+     263,
+     "Location"
+    ]
+   ],
+   "sec": "t2-1"
+  },
+  {
+   "id": "b6",
+   "type": "paragraph",
+   "src": 5,
+   "text": "Nach der Gau- und Markauflösung entstanden hier verschiedene politische Gebiete, die allmälig unter die Macht und Hut der Reichsvoigte kamen. Diese Gebiete waren die Dynastenburg Osterstein mit ihren Küchen- und Burgmannengütern (Ernsee, Untermhaus, Bollersdorf, Pöppeln); die quedlinburgische Stiftsvoigtei Gera mit einem kleinen Complex von Orten, die später zu den Amtsdörfern gehörten; die Pflege Langenberg mit 50 Ortschaften, von denen ein Theil dem Auslande zufiel; der Reichsburgwartsitz Caaschwitz und außerdem einige Güter und Lehen der Grafen von Orlamünda und der Klöster zu Cronswitz und Lausnitz. Von diesen Gebieten waren es der Osterstein und die Stiftsvoigtei Gera, als deren erste Besitzer die weidaischen Voigte vorkommen. Während der Osterstein sich in ihren Händen aus einem",
+   "spans": [
+    [
+     179,
+     189,
+     "Artefact"
+    ],
+    [
+     230,
+     236,
+     "Location"
+    ],
+    [
+     238,
+     248,
+     "Location"
+    ],
+    [
+     250,
+     261,
+     "Location"
+    ],
+    [
+     263,
+     270,
+     "Location"
+    ],
+    [
+     294,
+     312,
+     "Organisation"
+    ],
+    [
+     401,
+     411,
+     "Location"
+    ],
+    [
+     496,
+     506,
+     "Location"
+    ],
+    [
+     576,
+     596,
+     "Organisation"
+    ],
+    [
+     601,
+     609,
+     "Location"
+    ],
+    [
+     644,
+     654,
+     "Artefact"
+    ],
+    [
+     663,
+     681,
+     "Organisation"
+    ],
+    [
+     754,
+     764,
+     "Artefact"
+    ]
+   ],
+   "continues": true,
+   "sec": "t2-1"
+  }
+ ],
+ "footnotes": [
+  {
+   "id": "fn1",
+   "marker": "*)",
+   "text": "Nach den Theilungsacten vom Jahre 1647.",
+   "spans": []
+  },
+  {
+   "id": "fn2",
+   "marker": "**)",
+   "text": "S. pag. 230.",
+   "spans": []
+  }
+ ],
+ "corrections": [],
+ "provenance": {
+  "source": "colab-2026-03",
+  "model": "gemini-3-flash-preview",
+  "timestamp": "2026-03-04T14:43:50.185669",
+  "early_schema": false
+ },
+ "section_path": [
+  "t2",
+  "t2-1"
+ ],
+ "sections": [
+  "t2-1"
+ ]
+}

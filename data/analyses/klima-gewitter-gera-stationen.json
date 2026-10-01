@@ -1,0 +1,1311 @@
+{
+ "id": "klima-gewitter-gera-stationen",
+ "title": {
+  "de": "Gewitter: Häufigkeit, Jahresgang und Zugrichtung",
+  "en": "Thunderstorms: frequency, annual cycle and direction"
+ },
+ "category": "climate",
+ "section": "t1-1-7",
+ "sources": [
+  {
+   "page": "66",
+   "block": "b3",
+   "rows": "r2-r15"
+  },
+  {
+   "page": "67",
+   "block": "b2",
+   "rows": "r2-r15"
+  },
+  {
+   "page": "67",
+   "block": "b4",
+   "rows": "r2-r5"
+  },
+  {
+   "page": "67",
+   "block": "b6"
+  },
+  {
+   "page": "67",
+   "block": "b7",
+   "rows": "r2-r4"
+  },
+  {
+   "page": "830",
+   "block": "b4",
+   "rows": "i1"
+  },
+  {
+   "page": "830",
+   "block": "b4",
+   "rows": "i4"
+  },
+  {
+   "page": "68",
+   "block": "b1"
+  },
+  {
+   "page": "68",
+   "block": "b2"
+  },
+  {
+   "page": "68",
+   "block": "b3"
+  },
+  {
+   "page": "68",
+   "block": "b4"
+  }
+ ],
+ "summary": {
+  "de": "Brückner wertet die Gewitter an mehreren Orten aus: die Zahl pro Jahr (Gera, Schleiz, Rothenacker) im Vergleich zum Durchschnitt von 19 für 50–52½° nördlicher Breite, die Verteilung auf die Monate in Gera (1853–1858 und 1859–1867) und die Zugrichtung für Gera und Hohenleuben. Gewitter häufen sich in Gera im Juni bis August, November bleibt frei; die meisten Gewitter ziehen aus dem Westen heran.",
+  "en": "Brückner analyses thunderstorms at several places: the number per year (Gera, Schleiz, Rothenacker) against the average of 19 for 50–52½° north, the distribution over the months at Gera (1853–1858 and 1859–1867), and the direction of approach for Gera and Hohenleuben. At Gera thunderstorms cluster in June to August, November stays free, and most storms approach from the west."
+ },
+ "method": {
+  "de": "Quellen: Jahressummen aus den Tabellen S. 66 b3 (Gera, 1856–1867) und S. 67 b2 (Schleiz 1866/67, Rothenacker Juni 1866–Mai 1868); Höchst- und Tiefstwert für Gera (1861: 45, 1864: 10) aus dem Text S. 67 b6; Monatsverteilung für Gera aus S. 67 b7 (zwei Zeilen, 1853–1858 und 1859–1867, Gedankenstrich = nicht verzeichnet, im Datensatz leer; der Oktoberwert 1853–1858 ist nach Brückners Berichtigung S. 830 b4 auf 1 statt 2 gesetzt, die Summe auf 5 statt 6; die Spalte »Gewitter laut Tabelle« zeigt den gedruckten Wert, die Spalte »Berichtigung« die betroffene Zeile); Zugrichtung S. 68 b2 (Gera: 134 Gewitter 1853–1858; Hohenleuben: 47 Gewitter, Zeitraum nicht angegeben). Die Jahreszahlen wurden als Summe ÷ Jahre berechnet, die Monatswerte durch die Zahl der Jahre der Periode (6 bzw. 9) geteilt, damit die beiden Perioden vergleichbar sind; die Richtungsanteile sind Prozent der Gewitter des Ortes. Die Windrosen verwenden dieselbe Konstruktion wie in den Windauswertungen (Fläche ∝ Anteil; Ringe bei 10, 20, 30 und 40 %). Die Summenzeile von S. 67 b7 stimmt nach der Berichtigung mit den Zeilen überein. Die Vergleichszahl 19 ist Brückners Angabe »wissenschaftlicher Untersuchungen« (S. 67), ohne Quelle.",
+  "en": "Sources: annual totals from the tables p. 66 b3 (Gera, 1856–1867) and p. 67 b2 (Schleiz 1866/67, Rothenacker June 1866–May 1868); highest and lowest value for Gera (1861: 45, 1864: 10) from the text p. 67 b6; monthly distribution for Gera from p. 67 b7 (two rows, 1853–1858 and 1859–1867; a dash means not recorded and is left empty in the dataset; the October value for 1853–1858 is set to 1 instead of 2 and the total to 5 instead of 6 according to Brückner's correction on p. 830 b4; the column “Thunderstorms as in the table” shows the printed value, the column “Correction” the row concerned); direction of approach p. 68 b2 (Gera: 134 thunderstorms 1853–1858; Hohenleuben: 47 thunderstorms, period not stated). Annual figures were computed as total ÷ years, the monthly values were divided by the number of years of the period (6 and 9) to make the two periods comparable; direction shares are percentages of the place's thunderstorms. The wind roses use the same construction as in the wind analyses (area ∝ share; rings at 10, 20, 30 and 40 %). The total row of p. 67 b7 agrees with the rows after the correction. The comparison figure 19 is Brückner's statement of “scientific investigations” (p. 67), without a source."
+ },
+ "findings": [
+  {
+   "de": "In Gera fallen 65 % der Gewitter in die Monate Juni bis August (224 von 346 in den Perioden 1853–1858 und 1859–1867); Januar, Februar und Dezember zusammen haben nur 9, der November keines. Brückner spricht von »Hochfluthzeit«, »Ebbe« und »Anwachsen« bzw. »Rückgang« (S. 68).",
+   "en": "At Gera 65 % of thunderstorms fall in June to August (224 of 346 in the periods 1853–1858 and 1859–1867); January, February and December together have only 9, November none. Brückner speaks of “high tide”, “ebb”, “rise” and “decline” (p. 68)."
+  },
+  {
+   "de": "Die beiden Gera-Perioden stimmen im Jahresgang überein und liegen mit 22,5 (1853–1858) und 23,4 Gewittern pro Jahr (1859–1867) dicht beieinander; das Zwölfjahresmittel 1856–1867 beträgt 22,5.",
+   "en": "The two Gera periods agree in their annual cycle and lie close together at 22.5 (1853–1858) and 23.4 thunderstorms a year (1859–1867); the twelve-year mean for 1856–1867 is 22.5."
+  },
+  {
+   "de": "Gegenüber dem Durchschnitt von 19 für 50–52½° N liegt Gera mit 22,5 höher, Rothenacker (17,5) und Schleiz (15,5) liegen darunter. Der Abstand ist klein gegenüber der Schwankung eines einzelnen Ortes: Gera zählte 1861 45 und 1864 nur 10 Gewitter; Schleiz und Rothenacker beruhen auf nur zwei Jahren.",
+   "en": "Against the average of 19 for 50–52½° N, Gera is higher at 22.5, while Rothenacker (17.5) and Schleiz (15.5) are below it. The gap is small compared with the fluctuation of a single place: Gera counted 45 thunderstorms in 1861 and only 10 in 1864; Schleiz and Rothenacker rest on only two years."
+  },
+  {
+   "de": "Die meisten Gewitter ziehen aus dem Westen heran: in Hohenleuben 46,8 % aus W (61,7 % aus dem Sektor SW–W–NW), in Gera 27,6 % aus W und 25,4 % aus S (41,0 % aus dem Westsektor).",
+   "en": "Most thunderstorms approach from the west: at Hohenleuben 46.8 % from W (61.7 % from the SW–W–NW sector), at Gera 27.6 % from W and 25.4 % from S (41.0 % from the western sector)."
+  }
+ ],
+ "caveats": [
+  {
+   "de": "Brückner berichtigt in seinen Zusätzen (S. 830) den Oktoberwert 1853–1858 (1 statt 2) und die Oktobersumme (5 statt 6) sowie das Gera-Mittel auf 22,5 (statt 22,3, S. 67); die Auswertung verwendet diese Werte. Die berichtigte Summe der Monatswerte 1853–1858 ist 135, im Text zur Windrichtung (S. 68) heißt es »134 Gewittern (1853 bis 1858)«; die Differenz von 1 bleibt ungeklärt. Das Mittel in der Tabelle S. 66 lautet 22,4 (Summe ÷ 12 ergibt 22,5); für Rothenacker steht 18,5 gedruckt, Summe ÷ 2 ergibt 17,5 (nicht berichtigt). Verwendet sind die aus den Summen berechneten Werte.",
+   "en": "In his additions (p. 830) Brückner corrects the October value for 1853–1858 (1 instead of 2) and the October total (5 instead of 6), as well as the Gera mean to 22.5 (instead of 22.3, p. 67); the analysis uses these values. The corrected sum of the monthly values for 1853–1858 is 135, whereas the text on wind direction (p. 68) speaks of “134 thunderstorms (1853 to 1858)”; the difference of 1 remains unexplained. The mean in the table on p. 66 is 22.4 (total ÷ 12 gives 22.5); for Rothenacker 18.5 is printed, total ÷ 2 gives 17.5 (not corrected). The values computed from the totals are used."
+  },
+  {
+   "de": "Es ist nicht angegeben, ob Gewitter oder Gewittertage gezählt wurden; die Vergleichszahl 19 hat keinen genannten Ursprung. Für Hohenleuben fehlt die Monatsverteilung, für die Zugrichtung der dortigen 47 Gewitter der Zeitraum.",
+   "en": "It is not stated whether thunderstorms or thunderstorm days were counted; the comparison figure 19 has no named origin. For Hohenleuben the monthly distribution is missing, as is the period for the direction of its 47 thunderstorms."
+  },
+  {
+   "de": "Die Richtungen geben die Herkunft der Gewitter nach 16 auf 8 Richtungen zusammengefasster Beobachtung an, bei Gera nach Brückners Zuordnung (S. 62); die Zahlen sind klein (134 und 47) und die Anteile entsprechend unsicher.",
+   "en": "The directions give the origin of the thunderstorms from observations merged from 16 to 8 points, for Gera according to Brückner's assignment (p. 62); the numbers are small (134 and 47) and the shares correspondingly uncertain."
+  }
+ ],
+ "datasets": [
+  {
+   "name": "monthly",
+   "title": {
+    "de": "Gewitter in Gera nach Monat, zwei Perioden",
+    "en": "Thunderstorms at Gera by month, two periods"
+   },
+   "columns": [
+    {
+     "name": "period",
+     "label": {
+      "de": "Zeitraum",
+      "en": "Period"
+     },
+     "type": "string",
+     "unit": null,
+     "note": "Zeilenüberschrift im Druck"
+    },
+    {
+     "name": "period_order",
+     "label": {
+      "de": "Reihenfolge des Zeitraums",
+      "en": "Period order"
+     },
+     "type": "integer",
+     "unit": null,
+     "derived": true
+    },
+    {
+     "name": "month",
+     "label": {
+      "de": "Monat",
+      "en": "Month"
+     },
+     "type": "integer",
+     "unit": null,
+     "derived": true,
+     "note": "Monatsnummer 1–12, editorisch"
+    },
+    {
+     "name": "month_label",
+     "label": {
+      "de": "Monat (Original)",
+      "en": "Month (original)"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "count",
+     "label": {
+      "de": "Gewitter",
+      "en": "Thunderstorms"
+     },
+     "type": "integer",
+     "unit": "Zahl",
+     "note": "berichtigt nach S. 830 (Oktober 1853–1858); Gedankenstrich im Druck = leer"
+    },
+    {
+     "name": "count_printed",
+     "label": {
+      "de": "Gewitter laut Tabelle",
+      "en": "Thunderstorms as in the table"
+     },
+     "type": "integer",
+     "unit": "Zahl",
+     "note": "gedruckter Tabellenwert (S. 67), vor der Berichtigung"
+    },
+    {
+     "name": "correction",
+     "label": {
+      "de": "Berichtigung",
+      "en": "Correction"
+     },
+     "type": "string",
+     "unit": null,
+     "note": "Hinweis auf die Berichtigung in Brückners Zusätzen (S. 830)"
+    },
+    {
+     "name": "years",
+     "label": {
+      "de": "Jahre im Zeitraum",
+      "en": "Years in the period"
+     },
+     "type": "integer",
+     "unit": "Jahre",
+     "derived": true,
+     "note": "aus der Jahresangabe der Zeile (1853–1858 = 6, 1859–1867 = 9)"
+    },
+    {
+     "name": "per_year",
+     "label": {
+      "de": "Gewitter pro Jahr",
+      "en": "Thunderstorms per year"
+     },
+     "type": "number",
+     "unit": "pro Jahr",
+     "derived": true,
+     "note": "Zahl ÷ Jahre; Gedankenstrich = 0"
+    }
+   ],
+   "rows": [
+    [
+     "1853–1858",
+     1,
+     1,
+     "Jan",
+     null,
+     null,
+     "",
+     6,
+     0.0
+    ],
+    [
+     "1853–1858",
+     1,
+     2,
+     "Febr",
+     3,
+     3,
+     "",
+     6,
+     0.5
+    ],
+    [
+     "1853–1858",
+     1,
+     3,
+     "März",
+     null,
+     null,
+     "",
+     6,
+     0.0
+    ],
+    [
+     "1853–1858",
+     1,
+     4,
+     "April",
+     7,
+     7,
+     "",
+     6,
+     1.17
+    ],
+    [
+     "1853–1858",
+     1,
+     5,
+     "Mai",
+     23,
+     23,
+     "",
+     6,
+     3.83
+    ],
+    [
+     "1853–1858",
+     1,
+     6,
+     "Juni",
+     32,
+     32,
+     "",
+     6,
+     5.33
+    ],
+    [
+     "1853–1858",
+     1,
+     7,
+     "Juli",
+     22,
+     22,
+     "",
+     6,
+     3.67
+    ],
+    [
+     "1853–1858",
+     1,
+     8,
+     "Aug",
+     36,
+     36,
+     "",
+     6,
+     6.0
+    ],
+    [
+     "1853–1858",
+     1,
+     9,
+     "Sept",
+     9,
+     9,
+     "",
+     6,
+     1.5
+    ],
+    [
+     "1853–1858",
+     1,
+     10,
+     "Oct",
+     1,
+     2,
+     "S. 830: 1 statt 2",
+     6,
+     0.17
+    ],
+    [
+     "1853–1858",
+     1,
+     11,
+     "Nov",
+     null,
+     null,
+     "",
+     6,
+     0.0
+    ],
+    [
+     "1853–1858",
+     1,
+     12,
+     "Dec",
+     2,
+     2,
+     "",
+     6,
+     0.33
+    ],
+    [
+     "1859–1867",
+     2,
+     1,
+     "Jan",
+     2,
+     2,
+     "",
+     9,
+     0.22
+    ],
+    [
+     "1859–1867",
+     2,
+     2,
+     "Febr",
+     1,
+     1,
+     "",
+     9,
+     0.11
+    ],
+    [
+     "1859–1867",
+     2,
+     3,
+     "März",
+     10,
+     10,
+     "",
+     9,
+     1.11
+    ],
+    [
+     "1859–1867",
+     2,
+     4,
+     "April",
+     18,
+     18,
+     "",
+     9,
+     2.0
+    ],
+    [
+     "1859–1867",
+     2,
+     5,
+     "Mai",
+     31,
+     31,
+     "",
+     9,
+     3.44
+    ],
+    [
+     "1859–1867",
+     2,
+     6,
+     "Juni",
+     49,
+     49,
+     "",
+     9,
+     5.44
+    ],
+    [
+     "1859–1867",
+     2,
+     7,
+     "Juli",
+     44,
+     44,
+     "",
+     9,
+     4.89
+    ],
+    [
+     "1859–1867",
+     2,
+     8,
+     "Aug",
+     41,
+     41,
+     "",
+     9,
+     4.56
+    ],
+    [
+     "1859–1867",
+     2,
+     9,
+     "Sept",
+     10,
+     10,
+     "",
+     9,
+     1.11
+    ],
+    [
+     "1859–1867",
+     2,
+     10,
+     "Oct",
+     4,
+     4,
+     "",
+     9,
+     0.44
+    ],
+    [
+     "1859–1867",
+     2,
+     11,
+     "Nov",
+     null,
+     null,
+     "",
+     9,
+     0.0
+    ],
+    [
+     "1859–1867",
+     2,
+     12,
+     "Dec",
+     1,
+     1,
+     "",
+     9,
+     0.11
+    ]
+   ],
+   "source_refs": [
+    {
+     "page": "67",
+     "block": "b7",
+     "rows": "r2-r4"
+    },
+    {
+     "page": "830",
+     "block": "b4",
+     "rows": "i4"
+    }
+   ]
+  },
+  {
+   "name": "annual",
+   "title": {
+    "de": "Gewitter pro Jahr nach Ort",
+    "en": "Thunderstorms per year by station"
+   },
+   "columns": [
+    {
+     "name": "station",
+     "label": {
+      "de": "Beobachtungsort",
+      "en": "Station"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "kind",
+     "label": {
+      "de": "Art der Angabe",
+      "en": "Kind of figure"
+     },
+     "type": "string",
+     "unit": null,
+     "derived": true,
+     "note": "mean = Mittel, maximum / minimum = Einzeljahr (Text S. 67)"
+    },
+    {
+     "name": "period",
+     "label": {
+      "de": "Zeitraum",
+      "en": "Period"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "total",
+     "label": {
+      "de": "Gewitter im Zeitraum",
+      "en": "Thunderstorms in the period"
+     },
+     "type": "integer",
+     "unit": "Zahl",
+     "note": "gedruckte Summe bzw. Zahl aus dem Text"
+    },
+    {
+     "name": "years",
+     "label": {
+      "de": "Jahre",
+      "en": "Years"
+     },
+     "type": "integer",
+     "unit": "Jahre",
+     "derived": true
+    },
+    {
+     "name": "per_year",
+     "label": {
+      "de": "Gewitter pro Jahr",
+      "en": "Thunderstorms per year"
+     },
+     "type": "number",
+     "unit": "pro Jahr",
+     "derived": true
+    }
+   ],
+   "rows": [
+    [
+     "Gera",
+     "mean",
+     "1856–1867",
+     270,
+     12,
+     22.5
+    ],
+    [
+     "Gera",
+     "maximum",
+     "1861",
+     45,
+     1,
+     45.0
+    ],
+    [
+     "Gera",
+     "minimum",
+     "1864",
+     10,
+     1,
+     10.0
+    ],
+    [
+     "Schleiz",
+     "mean",
+     "1866–1867",
+     31,
+     2,
+     15.5
+    ],
+    [
+     "Rothenacker",
+     "mean",
+     "Juni 1866–Mai 1868",
+     35,
+     2,
+     17.5
+    ]
+   ],
+   "source_refs": [
+    {
+     "page": "66",
+     "block": "b3",
+     "rows": "r14"
+    },
+    {
+     "page": "67",
+     "block": "b2",
+     "rows": "r14"
+    },
+    {
+     "page": "67",
+     "block": "b6"
+    }
+   ]
+  },
+  {
+   "name": "direction",
+   "title": {
+    "de": "Gewitter nach Zugrichtung",
+    "en": "Thunderstorms by direction of approach"
+   },
+   "columns": [
+    {
+     "name": "station",
+     "label": {
+      "de": "Beobachtungsort",
+      "en": "Station"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "station_order",
+     "label": {
+      "de": "Reihenfolge des Ortes",
+      "en": "Station order"
+     },
+     "type": "integer",
+     "unit": null,
+     "derived": true
+    },
+    {
+     "name": "direction",
+     "label": {
+      "de": "Richtung",
+      "en": "Direction"
+     },
+     "type": "string",
+     "unit": null,
+     "note": "Original »N.« usw."
+    },
+    {
+     "name": "dir_index",
+     "label": {
+      "de": "Reihenfolge der Richtung",
+      "en": "Direction order"
+     },
+     "type": "integer",
+     "unit": null,
+     "derived": true,
+     "note": "1 = N … 8 = NW im Uhrzeigersinn"
+    },
+    {
+     "name": "count",
+     "label": {
+      "de": "Gewitter",
+      "en": "Thunderstorms"
+     },
+     "type": "integer",
+     "unit": "Zahl"
+    },
+    {
+     "name": "share",
+     "label": {
+      "de": "Anteil",
+      "en": "Share"
+     },
+     "type": "number",
+     "unit": "%",
+     "derived": true,
+     "note": "an den Gewittern des Ortes (Gera 134, Hohenleuben 47)"
+    }
+   ],
+   "rows": [
+    [
+     "Gera",
+     1,
+     "N",
+     1,
+     23,
+     17.2
+    ],
+    [
+     "Gera",
+     1,
+     "NO",
+     2,
+     5,
+     3.7
+    ],
+    [
+     "Gera",
+     1,
+     "O",
+     3,
+     10,
+     7.5
+    ],
+    [
+     "Gera",
+     1,
+     "SO",
+     4,
+     7,
+     5.2
+    ],
+    [
+     "Gera",
+     1,
+     "S",
+     5,
+     34,
+     25.4
+    ],
+    [
+     "Gera",
+     1,
+     "SW",
+     6,
+     7,
+     5.2
+    ],
+    [
+     "Gera",
+     1,
+     "W",
+     7,
+     37,
+     27.6
+    ],
+    [
+     "Gera",
+     1,
+     "NW",
+     8,
+     11,
+     8.2
+    ],
+    [
+     "Hohenleuben",
+     2,
+     "N",
+     1,
+     3,
+     6.4
+    ],
+    [
+     "Hohenleuben",
+     2,
+     "NO",
+     2,
+     2,
+     4.3
+    ],
+    [
+     "Hohenleuben",
+     2,
+     "O",
+     3,
+     6,
+     12.8
+    ],
+    [
+     "Hohenleuben",
+     2,
+     "SO",
+     4,
+     2,
+     4.3
+    ],
+    [
+     "Hohenleuben",
+     2,
+     "S",
+     5,
+     5,
+     10.6
+    ],
+    [
+     "Hohenleuben",
+     2,
+     "SW",
+     6,
+     1,
+     2.1
+    ],
+    [
+     "Hohenleuben",
+     2,
+     "W",
+     7,
+     22,
+     46.8
+    ],
+    [
+     "Hohenleuben",
+     2,
+     "NW",
+     8,
+     6,
+     12.8
+    ]
+   ],
+   "source_refs": [
+    {
+     "page": "68",
+     "block": "b2",
+     "rows": "r2-r4"
+    }
+   ]
+  }
+ ],
+ "charts": [
+  {
+   "id": "c1",
+   "dataset": "monthly",
+   "title": {
+    "de": "Gewitter in Gera nach Monat",
+    "en": "Thunderstorms at Gera by month"
+   },
+   "caption": {
+    "de": "Gewitter pro Monat und Jahr, getrennt für 1853–1858 (6 Jahre) und 1859–1867 (9 Jahre). Beide Perioden zeigen dieselbe Jahreskurve mit Höhepunkt im Juni bis August und ohne Gewitter im November.",
+    "en": "Thunderstorms per month and year, separately for 1853–1858 (6 years) and 1859–1867 (9 years). Both periods show the same annual curve with a peak in June to August and no thunderstorms in November."
+   },
+   "vegalite": {
+    "height": 280,
+    "transform": [
+     {
+      "calculate": {
+       "de": "['Jan','Feb','Mär','Apr','Mai','Jun','Jul','Aug','Sep','Okt','Nov','Dez'][datum.month-1]",
+       "en": "['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'][datum.month-1]"
+      },
+      "as": "mlabel"
+     }
+    ],
+    "mark": {
+     "type": "line",
+     "point": true
+    },
+    "encoding": {
+     "x": {
+      "field": "mlabel",
+      "type": "ordinal",
+      "sort": {
+       "field": "month",
+       "op": "min"
+      },
+      "title": {
+       "de": "Monat",
+       "en": "Month"
+      },
+      "axis": {
+       "labelAngle": 0
+      }
+     },
+     "y": {
+      "field": "per_year",
+      "type": "quantitative",
+      "title": {
+       "de": "Gewitter pro Monat und Jahr",
+       "en": "Thunderstorms per month and year"
+      }
+     },
+     "color": {
+      "field": "period",
+      "type": "nominal",
+      "title": null,
+      "scale": {
+       "domain": [
+        "1853–1858",
+        "1859–1867"
+       ]
+      }
+     },
+     "tooltip": [
+      {
+       "field": "period",
+       "title": {
+        "de": "Zeitraum",
+        "en": "Period"
+       }
+      },
+      {
+       "field": "mlabel",
+       "title": {
+        "de": "Monat",
+        "en": "Month"
+       }
+      },
+      {
+       "field": "count",
+       "title": {
+        "de": "Gewitter im Zeitraum",
+        "en": "Thunderstorms in the period"
+       }
+      },
+      {
+       "field": "per_year",
+       "title": {
+        "de": "pro Jahr",
+        "en": "per year"
+       },
+       "format": ".1f"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "c2",
+   "dataset": "annual",
+   "title": {
+    "de": "Gewitter pro Jahr im Vergleich",
+    "en": "Thunderstorms per year compared"
+   },
+   "caption": {
+    "de": "Mittel je Ort sowie Höchst- und Tiefstwert einzelner Jahre (Einzeljahr) in Gera. Die senkrechte Linie markiert den von Brückner genannten Durchschnitt von 19 Gewittern für 50–52½° nördlicher Breite. Der Unterschied zwischen den Orten liegt innerhalb der Jahresschwankung in Gera (10 bis 45).",
+    "en": "Mean per place and highest and lowest value of single years at Gera. The vertical line marks the average of 19 thunderstorms for 50–52½° north latitude given by Brückner. The difference between places lies within the year-to-year fluctuation at Gera (10 to 45)."
+   },
+   "vegalite": {
+    "height": 240,
+    "layer": [
+     {
+      "transform": [
+       {
+        "calculate": {
+         "de": "datum.station + ' ' + datum.period",
+         "en": "datum.station + ' ' + replace(replace(datum.period, 'Juni', 'June'), 'Mai', 'May')"
+        },
+        "as": "label"
+       }
+      ],
+      "mark": "bar",
+      "encoding": {
+       "y": {
+        "field": "label",
+        "type": "nominal",
+        "title": null,
+        "sort": {
+         "field": "per_year",
+         "order": "descending"
+        },
+        "axis": {
+         "labelLimit": 300
+        }
+       },
+       "x": {
+        "field": "per_year",
+        "type": "quantitative",
+        "title": {
+         "de": "Gewitter pro Jahr",
+         "en": "Thunderstorms per year"
+        }
+       },
+       "color": {
+        "field": "kind",
+        "type": "nominal",
+        "title": null,
+        "scale": {
+         "domain": [
+          "mean",
+          "maximum",
+          "minimum"
+         ]
+        },
+        "legend": {
+         "labelExpr": {
+          "de": "{'mean':'Mittel','maximum':'Höchstwert','minimum':'Tiefstwert'}[datum.label]",
+          "en": "{'mean':'Mean','maximum':'Highest','minimum':'Lowest'}[datum.label]"
+         }
+        }
+       },
+       "tooltip": [
+        {
+         "field": "label",
+         "title": {
+          "de": "Angabe",
+          "en": "Figure"
+         }
+        },
+        {
+         "field": "total",
+         "title": {
+          "de": "Gewitter im Zeitraum",
+          "en": "Thunderstorms in the period"
+         }
+        },
+        {
+         "field": "years",
+         "title": {
+          "de": "Jahre",
+          "en": "Years"
+         }
+        },
+        {
+         "field": "per_year",
+         "title": {
+          "de": "pro Jahr",
+          "en": "per year"
+         },
+         "format": ".1f"
+        }
+       ]
+      }
+     },
+     {
+      "mark": {
+       "type": "rule",
+       "strokeDash": [
+        4,
+        3
+       ]
+      },
+      "encoding": {
+       "x": {
+        "datum": 19
+       }
+      }
+     },
+     {
+      "mark": {
+       "type": "text",
+       "align": "left",
+       "baseline": "bottom",
+       "dx": 4,
+       "dy": -3
+      },
+      "encoding": {
+       "x": {
+        "datum": 19
+       },
+       "y": {
+        "value": 240
+       },
+       "text": {
+        "value": "19"
+       }
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "c3",
+   "dataset": "direction",
+   "title": {
+    "de": "Zugrichtung der Gewitter",
+    "en": "Direction of approach of thunderstorms"
+   },
+   "caption": {
+    "de": "Anteil der Gewitter nach Herkunftsrichtung (Fläche ∝ Anteil; Ringe bei 10, 20, 30 und 40 %). In Gera kommen Gewitter aus W und S, in Hohenleuben fast die Hälfte aus W.",
+    "en": "Share of thunderstorms by direction of origin (area ∝ share; rings at 10, 20, 30 and 40 %). At Gera storms come from W and S, at Hohenleuben almost half from W."
+   },
+   "vegalite": {
+    "autosize": {
+     "type": "pad"
+    },
+    "columns": 2,
+    "facet": {
+     "field": "station_label",
+     "type": "nominal",
+     "sort": {
+      "field": "station_order",
+      "op": "min"
+     },
+     "title": null
+    },
+    "spec": {
+     "width": 200,
+     "height": 200,
+     "layer": [
+      {
+       "transform": [
+        {
+         "filter": "datum.dir_index == 1"
+        },
+        {
+         "calculate": "[10, 20, 30, 40]",
+         "as": "ring"
+        },
+        {
+         "flatten": [
+          "ring"
+         ]
+        },
+        {
+         "calculate": "pow(sqrt(datum.ring)-0.1286,2)",
+         "as": "ring_in"
+        }
+       ],
+       "mark": {
+        "type": "arc",
+        "opacity": 0.5,
+        "strokeWidth": 0
+       },
+       "encoding": {
+        "theta": {
+         "value": 0
+        },
+        "theta2": {
+         "value": 6.2832
+        },
+        "radius": {
+         "field": "ring",
+         "type": "quantitative",
+         "scale": {
+          "type": "sqrt",
+          "domain": [
+           0,
+           50
+          ],
+          "rangeMax": 66
+         }
+        },
+        "radius2": {
+         "field": "ring_in",
+         "type": "quantitative"
+        }
+       }
+      },
+      {
+       "mark": {
+        "type": "arc"
+       },
+       "encoding": {
+        "theta": {
+         "field": "dir_lo",
+         "type": "quantitative",
+         "scale": {
+          "domain": [
+           0.5,
+           8.5
+          ],
+          "range": [
+           -0.3927,
+           5.8905
+          ]
+         },
+         "stack": false
+        },
+        "theta2": {
+         "field": "dir_hi"
+        },
+        "radius": {
+         "field": "share",
+         "type": "quantitative",
+         "scale": {
+          "type": "sqrt",
+          "domain": [
+           0,
+           50
+          ],
+          "rangeMax": 66
+         }
+        },
+        "tooltip": [
+         {
+          "field": "dir_label",
+          "title": {
+           "de": "Richtung",
+           "en": "Direction"
+          }
+         },
+         {
+          "field": "share",
+          "title": "%",
+          "format": ".1f"
+         },
+         {
+          "field": "count",
+          "title": {
+           "de": "Gewitter",
+           "en": "Thunderstorms"
+          }
+         }
+        ]
+       }
+      },
+      {
+       "mark": {
+        "type": "text",
+        "fontSize": 10,
+        "radiusOffset": 9
+       },
+       "encoding": {
+        "theta": {
+         "field": "dir_index",
+         "type": "quantitative",
+         "scale": {
+          "domain": [
+           0.5,
+           8.5
+          ],
+          "range": [
+           -0.3927,
+           5.8905
+          ]
+         },
+         "stack": false
+        },
+        "radius": {
+         "field": "share",
+         "type": "quantitative",
+         "scale": {
+          "type": "sqrt",
+          "domain": [
+           0,
+           50
+          ],
+          "rangeMax": 66
+         }
+        },
+        "text": {
+         "field": "share",
+         "type": "quantitative",
+         "format": ".0f"
+        }
+       }
+      },
+      {
+       "mark": {
+        "type": "text",
+        "fontSize": 11,
+        "fontWeight": 600
+       },
+       "encoding": {
+        "theta": {
+         "field": "dir_index",
+         "type": "quantitative",
+         "scale": {
+          "domain": [
+           0.5,
+           8.5
+          ],
+          "range": [
+           -0.3927,
+           5.8905
+          ]
+         },
+         "stack": false
+        },
+        "radius": {
+         "value": 91
+        },
+        "text": {
+         "field": "dir_label"
+        }
+       }
+      }
+     ]
+    },
+    "transform": [
+     {
+      "calculate": {
+       "de": "{'Gera':'Gera (134 Gewitter, 1853–1858)','Hohenleuben':'Hohenleuben (47 Gewitter)'}[datum.station]",
+       "en": "{'Gera':'Gera (134 thunderstorms, 1853–1858)','Hohenleuben':'Hohenleuben (47 thunderstorms)'}[datum.station]"
+      },
+      "as": "station_label"
+     },
+     {
+      "calculate": {
+       "de": "datum.direction",
+       "en": "{'N':'N','NO':'NE','O':'E','SO':'SE','S':'S','SW':'SW','W':'W','NW':'NW'}[datum.direction]"
+      },
+      "as": "dir_label"
+     },
+     {
+      "calculate": "datum.dir_index-0.5",
+      "as": "dir_lo"
+     },
+     {
+      "calculate": "datum.dir_index+0.5",
+      "as": "dir_hi"
+     }
+    ]
+   }
+  }
+ ],
+ "keywords": {
+  "de": [
+   "Gewitter",
+   "Unwetter",
+   "Zugrichtung",
+   "Gera",
+   "Hohenleuben",
+   "Schleiz",
+   "Rothenacker",
+   "Meteorologie",
+   "Jahresgang"
+  ],
+  "en": [
+   "thunderstorm",
+   "severe weather",
+   "direction of approach",
+   "Gera",
+   "Hohenleuben",
+   "Schleiz",
+   "Rothenacker",
+   "meteorology",
+   "annual cycle"
+  ]
+ },
+ "related": [
+  "klima-witterungserscheinungen-gera-1856-1867",
+  "klima-niederschlagstage-stationen",
+  "klima-wind-gera-1856-1865"
+ ],
+ "generated_by": "Claude Sonnet 5.5 (subagent A04)",
+ "date": "2026-10-01"
+}

@@ -1,0 +1,1642 @@
+{
+ "seq": 128,
+ "label": "116",
+ "slug": "116",
+ "iiif": {
+  "service": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb11005578_00128",
+  "canvas": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11005578/canvas/128",
+  "width": 1639,
+  "height": 2697
+ },
+ "kind": "text",
+ "running_header": "II. Das Volk.",
+ "signature": null,
+ "blocks": [
+  {
+   "id": "b1",
+   "type": "paragraph",
+   "src": 0,
+   "text": "jahr zu Lebensjahr fortgeführte Verhältniß der Sterbefälle liegt kein Material vor, wohl aber hat man früher im Bezirke Lobenstein-Ebersdorf einerseits drei Altersklassen und zwar die Jugend bis zum 14. Jahre, die Ledigen und die Verheiratheten resp. die verwittweten Personen, andererseits zehn Altersklassen oder Klassen von zehn zu zehn Jahren nach ihrer Sterblichkeit unterschieden, woraus sich einige nicht unwichtige Resultate ableiten lassen.",
+   "spans": [
+    [
+     120,
+     140,
+     "Location"
+    ]
+   ],
+   "continued": true,
+   "sec": "t1-2-1"
+  },
+  {
+   "id": "b2",
+   "type": "table",
+   "src": 1,
+   "n_cols": 10,
+   "header_rows": 1,
+   "rows": [
+    {
+     "role": "header",
+     "cells": [
+      {
+       "text": "Jahre.",
+       "spans": []
+      },
+      {
+       "text": "Gestorbene: Kinder: Knaben.",
+       "spans": []
+      },
+      {
+       "text": "Gestorbene: Kinder: Mädchen.",
+       "spans": []
+      },
+      {
+       "text": "Gestorbene: Ledige Personen: männl.",
+       "spans": []
+      },
+      {
+       "text": "Gestorbene: Ledige Personen: weibl.",
+       "spans": []
+      },
+      {
+       "text": "Gestorbene: Verheirathete: männl.",
+       "spans": []
+      },
+      {
+       "text": "Gestorbene: Verheirathete: weibl.",
+       "spans": []
+      },
+      {
+       "text": "In Procenten der Gestorbenen: Kinder.",
+       "spans": []
+      },
+      {
+       "text": "In Procenten der Gestorbenen: Ledige.",
+       "spans": []
+      },
+      {
+       "text": "In Procenten der Gestorbenen: Verh.",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1794",
+       "spans": []
+      },
+      {
+       "text": "97",
+       "spans": []
+      },
+      {
+       "text": "65",
+       "spans": []
+      },
+      {
+       "text": "8",
+       "spans": []
+      },
+      {
+       "text": "22",
+       "spans": []
+      },
+      {
+       "text": "70",
+       "spans": []
+      },
+      {
+       "text": "80",
+       "spans": []
+      },
+      {
+       "text": "47,37",
+       "spans": []
+      },
+      {
+       "text": "8,77",
+       "spans": []
+      },
+      {
+       "text": "43,86",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1795",
+       "spans": []
+      },
+      {
+       "text": "106",
+       "spans": []
+      },
+      {
+       "text": "80",
+       "spans": []
+      },
+      {
+       "text": "12",
+       "spans": []
+      },
+      {
+       "text": "17",
+       "spans": []
+      },
+      {
+       "text": "104",
+       "spans": []
+      },
+      {
+       "text": "121",
+       "spans": []
+      },
+      {
+       "text": "42,27",
+       "spans": []
+      },
+      {
+       "text": "6,49",
+       "spans": []
+      },
+      {
+       "text": "51,14",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1796",
+       "spans": []
+      },
+      {
+       "text": "119",
+       "spans": []
+      },
+      {
+       "text": "118",
+       "spans": []
+      },
+      {
+       "text": "25",
+       "spans": []
+      },
+      {
+       "text": "30",
+       "spans": []
+      },
+      {
+       "text": "92",
+       "spans": []
+      },
+      {
+       "text": "92",
+       "spans": []
+      },
+      {
+       "text": "49,79",
+       "spans": []
+      },
+      {
+       "text": "11,55",
+       "spans": []
+      },
+      {
+       "text": "38,66",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1797",
+       "spans": []
+      },
+      {
+       "text": "157",
+       "spans": []
+      },
+      {
+       "text": "104",
+       "spans": []
+      },
+      {
+       "text": "14",
+       "spans": []
+      },
+      {
+       "text": "27",
+       "spans": []
+      },
+      {
+       "text": "113",
+       "spans": []
+      },
+      {
+       "text": "123",
+       "spans": []
+      },
+      {
+       "text": "48,51",
+       "spans": []
+      },
+      {
+       "text": "7,62",
+       "spans": []
+      },
+      {
+       "text": "43,87",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1798",
+       "spans": []
+      },
+      {
+       "text": "151",
+       "spans": []
+      },
+      {
+       "text": "84",
+       "spans": []
+      },
+      {
+       "text": "15",
+       "spans": []
+      },
+      {
+       "text": "23",
+       "spans": []
+      },
+      {
+       "text": "85",
+       "spans": []
+      },
+      {
+       "text": "111",
+       "spans": []
+      },
+      {
+       "text": "50,11",
+       "spans": []
+      },
+      {
+       "text": "8,10",
+       "spans": []
+      },
+      {
+       "text": "41,79",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1799",
+       "spans": []
+      },
+      {
+       "text": "102",
+       "spans": []
+      },
+      {
+       "text": "102",
+       "spans": []
+      },
+      {
+       "text": "15",
+       "spans": []
+      },
+      {
+       "text": "18",
+       "spans": []
+      },
+      {
+       "text": "73",
+       "spans": []
+      },
+      {
+       "text": "95",
+       "spans": []
+      },
+      {
+       "text": "50,37",
+       "spans": []
+      },
+      {
+       "text": "8,15",
+       "spans": []
+      },
+      {
+       "text": "41,48",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1800",
+       "spans": []
+      },
+      {
+       "text": "322",
+       "spans": []
+      },
+      {
+       "text": "287",
+       "spans": []
+      },
+      {
+       "text": "29",
+       "spans": []
+      },
+      {
+       "text": "40",
+       "spans": []
+      },
+      {
+       "text": "146",
+       "spans": []
+      },
+      {
+       "text": "156",
+       "spans": []
+      },
+      {
+       "text": "62,14",
+       "spans": []
+      },
+      {
+       "text": "7,04",
+       "spans": []
+      },
+      {
+       "text": "30,82",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1801",
+       "spans": []
+      },
+      {
+       "text": "117",
+       "spans": []
+      },
+      {
+       "text": "91",
+       "spans": []
+      },
+      {
+       "text": "22",
+       "spans": []
+      },
+      {
+       "text": "24",
+       "spans": []
+      },
+      {
+       "text": "100",
+       "spans": []
+      },
+      {
+       "text": "108",
+       "spans": []
+      },
+      {
+       "text": "45,02",
+       "spans": []
+      },
+      {
+       "text": "9,96",
+       "spans": []
+      },
+      {
+       "text": "45,02",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1802",
+       "spans": []
+      },
+      {
+       "text": "146",
+       "spans": []
+      },
+      {
+       "text": "110",
+       "spans": []
+      },
+      {
+       "text": "20",
+       "spans": []
+      },
+      {
+       "text": "28",
+       "spans": []
+      },
+      {
+       "text": "72",
+       "spans": []
+      },
+      {
+       "text": "116",
+       "spans": []
+      },
+      {
+       "text": "52,03",
+       "spans": []
+      },
+      {
+       "text": "9,76",
+       "spans": []
+      },
+      {
+       "text": "38,21",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1803",
+       "spans": []
+      },
+      {
+       "text": "114",
+       "spans": []
+      },
+      {
+       "text": "99",
+       "spans": []
+      },
+      {
+       "text": "16",
+       "spans": []
+      },
+      {
+       "text": "13",
+       "spans": []
+      },
+      {
+       "text": "93",
+       "spans": []
+      },
+      {
+       "text": "91",
+       "spans": []
+      },
+      {
+       "text": "50,00",
+       "spans": []
+      },
+      {
+       "text": "6,80",
+       "spans": []
+      },
+      {
+       "text": "43,20",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1804",
+       "spans": []
+      },
+      {
+       "text": "95",
+       "spans": []
+      },
+      {
+       "text": "78",
+       "spans": []
+      },
+      {
+       "text": "13",
+       "spans": []
+      },
+      {
+       "text": "9",
+       "spans": []
+      },
+      {
+       "text": "83",
+       "spans": []
+      },
+      {
+       "text": "87",
+       "spans": []
+      },
+      {
+       "text": "47,39",
+       "spans": []
+      },
+      {
+       "text": "6,03",
+       "spans": []
+      },
+      {
+       "text": "46,58",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "total",
+     "cells": [
+      {
+       "text": "Durchschnitt 1794-1804",
+       "spans": []
+      },
+      {
+       "text": "138,72",
+       "spans": []
+      },
+      {
+       "text": "110,72",
+       "spans": []
+      },
+      {
+       "text": "17,18",
+       "spans": []
+      },
+      {
+       "text": "22,82",
+       "spans": []
+      },
+      {
+       "text": "93,72",
+       "spans": []
+      },
+      {
+       "text": "107,27",
+       "spans": []
+      },
+      {
+       "text": "49,55",
+       "spans": []
+      },
+      {
+       "text": "8,21",
+       "spans": []
+      },
+      {
+       "text": "42,24",
+       "spans": []
+      }
+     ]
+    }
+   ],
+   "grid": [
+    [
+     "Jahre.",
+     "Gestorbene: Kinder: Knaben.",
+     "Gestorbene: Kinder: Mädchen.",
+     "Gestorbene: Ledige Personen: männl.",
+     "Gestorbene: Ledige Personen: weibl.",
+     "Gestorbene: Verheirathete: männl.",
+     "Gestorbene: Verheirathete: weibl.",
+     "In Procenten der Gestorbenen: Kinder.",
+     "In Procenten der Gestorbenen: Ledige.",
+     "In Procenten der Gestorbenen: Verh."
+    ],
+    [
+     "1794",
+     "97",
+     "65",
+     "8",
+     "22",
+     "70",
+     "80",
+     "47,37",
+     "8,77",
+     "43,86"
+    ],
+    [
+     "1795",
+     "106",
+     "80",
+     "12",
+     "17",
+     "104",
+     "121",
+     "42,27",
+     "6,49",
+     "51,14"
+    ],
+    [
+     "1796",
+     "119",
+     "118",
+     "25",
+     "30",
+     "92",
+     "92",
+     "49,79",
+     "11,55",
+     "38,66"
+    ],
+    [
+     "1797",
+     "157",
+     "104",
+     "14",
+     "27",
+     "113",
+     "123",
+     "48,51",
+     "7,62",
+     "43,87"
+    ],
+    [
+     "1798",
+     "151",
+     "84",
+     "15",
+     "23",
+     "85",
+     "111",
+     "50,11",
+     "8,10",
+     "41,79"
+    ],
+    [
+     "1799",
+     "102",
+     "102",
+     "15",
+     "18",
+     "73",
+     "95",
+     "50,37",
+     "8,15",
+     "41,48"
+    ],
+    [
+     "1800",
+     "322",
+     "287",
+     "29",
+     "40",
+     "146",
+     "156",
+     "62,14",
+     "7,04",
+     "30,82"
+    ],
+    [
+     "1801",
+     "117",
+     "91",
+     "22",
+     "24",
+     "100",
+     "108",
+     "45,02",
+     "9,96",
+     "45,02"
+    ],
+    [
+     "1802",
+     "146",
+     "110",
+     "20",
+     "28",
+     "72",
+     "116",
+     "52,03",
+     "9,76",
+     "38,21"
+    ],
+    [
+     "1803",
+     "114",
+     "99",
+     "16",
+     "13",
+     "93",
+     "91",
+     "50,00",
+     "6,80",
+     "43,20"
+    ],
+    [
+     "1804",
+     "95",
+     "78",
+     "13",
+     "9",
+     "83",
+     "87",
+     "47,39",
+     "6,03",
+     "46,58"
+    ],
+    [
+     "Durchschnitt 1794-1804",
+     "138,72",
+     "110,72",
+     "17,18",
+     "22,82",
+     "93,72",
+     "107,27",
+     "49,55",
+     "8,21",
+     "42,24"
+    ]
+   ],
+   "caption": "G e s t o r b e n e.",
+   "sec": "t1-2-1"
+  },
+  {
+   "id": "b3",
+   "type": "paragraph",
+   "src": 2,
+   "text": "Im Durchschnitte war somit früher in diesem oberländischen Bezirke die Zahl der Gestorbenen auf Seiten der Jugend (bis zum 14. Lebensjahre) größer als die der Erwachsenen. Nach zehnjährigen Altersklassen vertheilen sich in derselben Zeit die Gestorbenen also:",
+   "spans": [],
+   "sec": "t1-2-1"
+  },
+  {
+   "id": "b4",
+   "type": "table",
+   "src": 3,
+   "n_cols": 11,
+   "header_rows": 0,
+   "rows": [
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Jahre.",
+       "spans": []
+      },
+      {
+       "text": "0-10",
+       "spans": []
+      },
+      {
+       "text": "10-20",
+       "spans": []
+      },
+      {
+       "text": "20-30",
+       "spans": []
+      },
+      {
+       "text": "30-40",
+       "spans": []
+      },
+      {
+       "text": "40-50",
+       "spans": []
+      },
+      {
+       "text": "50-60",
+       "spans": []
+      },
+      {
+       "text": "60-70",
+       "spans": []
+      },
+      {
+       "text": "70-80",
+       "spans": []
+      },
+      {
+       "text": "80-90",
+       "spans": []
+      },
+      {
+       "text": "90-100",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1794",
+       "spans": []
+      },
+      {
+       "text": "161",
+       "spans": []
+      },
+      {
+       "text": "10",
+       "spans": []
+      },
+      {
+       "text": "8",
+       "spans": []
+      },
+      {
+       "text": "16",
+       "spans": []
+      },
+      {
+       "text": "23",
+       "spans": []
+      },
+      {
+       "text": "33",
+       "spans": []
+      },
+      {
+       "text": "43",
+       "spans": []
+      },
+      {
+       "text": "43",
+       "spans": []
+      },
+      {
+       "text": "5",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1795",
+       "spans": []
+      },
+      {
+       "text": "180",
+       "spans": []
+      },
+      {
+       "text": "14",
+       "spans": []
+      },
+      {
+       "text": "16",
+       "spans": []
+      },
+      {
+       "text": "23",
+       "spans": []
+      },
+      {
+       "text": "25",
+       "spans": []
+      },
+      {
+       "text": "55",
+       "spans": []
+      },
+      {
+       "text": "62",
+       "spans": []
+      },
+      {
+       "text": "46",
+       "spans": []
+      },
+      {
+       "text": "18",
+       "spans": []
+      },
+      {
+       "text": "1",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1796",
+       "spans": []
+      },
+      {
+       "text": "234",
+       "spans": []
+      },
+      {
+       "text": "15",
+       "spans": []
+      },
+      {
+       "text": "23",
+       "spans": []
+      },
+      {
+       "text": "19",
+       "spans": []
+      },
+      {
+       "text": "28",
+       "spans": []
+      },
+      {
+       "text": "37",
+       "spans": []
+      },
+      {
+       "text": "56",
+       "spans": []
+      },
+      {
+       "text": "46",
+       "spans": []
+      },
+      {
+       "text": "17",
+       "spans": []
+      },
+      {
+       "text": "1",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1797",
+       "spans": []
+      },
+      {
+       "text": "245",
+       "spans": []
+      },
+      {
+       "text": "25",
+       "spans": []
+      },
+      {
+       "text": "15",
+       "spans": []
+      },
+      {
+       "text": "32",
+       "spans": []
+      },
+      {
+       "text": "41",
+       "spans": []
+      },
+      {
+       "text": "43",
+       "spans": []
+      },
+      {
+       "text": "68",
+       "spans": []
+      },
+      {
+       "text": "52",
+       "spans": []
+      },
+      {
+       "text": "17",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1798",
+       "spans": []
+      },
+      {
+       "text": "222",
+       "spans": []
+      },
+      {
+       "text": "30",
+       "spans": []
+      },
+      {
+       "text": "21",
+       "spans": []
+      },
+      {
+       "text": "22",
+       "spans": []
+      },
+      {
+       "text": "20",
+       "spans": []
+      },
+      {
+       "text": "48",
+       "spans": []
+      },
+      {
+       "text": "56",
+       "spans": []
+      },
+      {
+       "text": "38",
+       "spans": []
+      },
+      {
+       "text": "11",
+       "spans": []
+      },
+      {
+       "text": "1",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1799",
+       "spans": []
+      },
+      {
+       "text": "203",
+       "spans": []
+      },
+      {
+       "text": "13",
+       "spans": []
+      },
+      {
+       "text": "9",
+       "spans": []
+      },
+      {
+       "text": "21",
+       "spans": []
+      },
+      {
+       "text": "20",
+       "spans": []
+      },
+      {
+       "text": "31",
+       "spans": []
+      },
+      {
+       "text": "52",
+       "spans": []
+      },
+      {
+       "text": "45",
+       "spans": []
+      },
+      {
+       "text": "10",
+       "spans": []
+      },
+      {
+       "text": "1",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1800",
+       "spans": []
+      },
+      {
+       "text": "585",
+       "spans": []
+      },
+      {
+       "text": "41",
+       "spans": []
+      },
+      {
+       "text": "35",
+       "spans": []
+      },
+      {
+       "text": "23",
+       "spans": []
+      },
+      {
+       "text": "50",
+       "spans": []
+      },
+      {
+       "text": "71",
+       "spans": []
+      },
+      {
+       "text": "90",
+       "spans": []
+      },
+      {
+       "text": "75",
+       "spans": []
+      },
+      {
+       "text": "10",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1801",
+       "spans": []
+      },
+      {
+       "text": "205",
+       "spans": []
+      },
+      {
+       "text": "18",
+       "spans": []
+      },
+      {
+       "text": "18",
+       "spans": []
+      },
+      {
+       "text": "22",
+       "spans": []
+      },
+      {
+       "text": "31",
+       "spans": []
+      },
+      {
+       "text": "47",
+       "spans": []
+      },
+      {
+       "text": "62",
+       "spans": []
+      },
+      {
+       "text": "51",
+       "spans": []
+      },
+      {
+       "text": "8",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1802",
+       "spans": []
+      },
+      {
+       "text": "252",
+       "spans": []
+      },
+      {
+       "text": "9",
+       "spans": []
+      },
+      {
+       "text": "24",
+       "spans": []
+      },
+      {
+       "text": "24",
+       "spans": []
+      },
+      {
+       "text": "23",
+       "spans": []
+      },
+      {
+       "text": "39",
+       "spans": []
+      },
+      {
+       "text": "63",
+       "spans": []
+      },
+      {
+       "text": "40",
+       "spans": []
+      },
+      {
+       "text": "10",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1803",
+       "spans": []
+      },
+      {
+       "text": "212",
+       "spans": []
+      },
+      {
+       "text": "8",
+       "spans": []
+      },
+      {
+       "text": "12",
+       "spans": []
+      },
+      {
+       "text": "23",
+       "spans": []
+      },
+      {
+       "text": "36",
+       "spans": []
+      },
+      {
+       "text": "28",
+       "spans": []
+      },
+      {
+       "text": "49",
+       "spans": []
+      },
+      {
+       "text": "47",
+       "spans": []
+      },
+      {
+       "text": "13",
+       "spans": []
+      },
+      {
+       "text": "1",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1804",
+       "spans": []
+      },
+      {
+       "text": "172",
+       "spans": []
+      },
+      {
+       "text": "5",
+       "spans": []
+      },
+      {
+       "text": "9",
+       "spans": []
+      },
+      {
+       "text": "22",
+       "spans": []
+      },
+      {
+       "text": "24",
+       "spans": []
+      },
+      {
+       "text": "33",
+       "spans": []
+      },
+      {
+       "text": "54",
+       "spans": []
+      },
+      {
+       "text": "38",
+       "spans": []
+      },
+      {
+       "text": "8",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "total",
+     "cells": [
+      {
+       "text": "Durchschnitt 1794-1804",
+       "spans": []
+      },
+      {
+       "text": "242,82",
+       "spans": []
+      },
+      {
+       "text": "17,09",
+       "spans": []
+      },
+      {
+       "text": "17,27",
+       "spans": []
+      },
+      {
+       "text": "22,45",
+       "spans": []
+      },
+      {
+       "text": "29,18",
+       "spans": []
+      },
+      {
+       "text": "42,27",
+       "spans": []
+      },
+      {
+       "text": "59,54",
+       "spans": []
+      },
+      {
+       "text": "47,36",
+       "spans": []
+      },
+      {
+       "text": "11,54",
+       "spans": []
+      },
+      {
+       "text": "0,45",
+       "spans": []
+      }
+     ]
+    }
+   ],
+   "grid": [
+    [
+     "Jahre.",
+     "0-10",
+     "10-20",
+     "20-30",
+     "30-40",
+     "40-50",
+     "50-60",
+     "60-70",
+     "70-80",
+     "80-90",
+     "90-100"
+    ],
+    [
+     "1794",
+     "161",
+     "10",
+     "8",
+     "16",
+     "23",
+     "33",
+     "43",
+     "43",
+     "5",
+     "—"
+    ],
+    [
+     "1795",
+     "180",
+     "14",
+     "16",
+     "23",
+     "25",
+     "55",
+     "62",
+     "46",
+     "18",
+     "1"
+    ],
+    [
+     "1796",
+     "234",
+     "15",
+     "23",
+     "19",
+     "28",
+     "37",
+     "56",
+     "46",
+     "17",
+     "1"
+    ],
+    [
+     "1797",
+     "245",
+     "25",
+     "15",
+     "32",
+     "41",
+     "43",
+     "68",
+     "52",
+     "17",
+     "—"
+    ],
+    [
+     "1798",
+     "222",
+     "30",
+     "21",
+     "22",
+     "20",
+     "48",
+     "56",
+     "38",
+     "11",
+     "1"
+    ],
+    [
+     "1799",
+     "203",
+     "13",
+     "9",
+     "21",
+     "20",
+     "31",
+     "52",
+     "45",
+     "10",
+     "1"
+    ],
+    [
+     "1800",
+     "585",
+     "41",
+     "35",
+     "23",
+     "50",
+     "71",
+     "90",
+     "75",
+     "10",
+     "—"
+    ],
+    [
+     "1801",
+     "205",
+     "18",
+     "18",
+     "22",
+     "31",
+     "47",
+     "62",
+     "51",
+     "8",
+     "—"
+    ],
+    [
+     "1802",
+     "252",
+     "9",
+     "24",
+     "24",
+     "23",
+     "39",
+     "63",
+     "40",
+     "10",
+     "—"
+    ],
+    [
+     "1803",
+     "212",
+     "8",
+     "12",
+     "23",
+     "36",
+     "28",
+     "49",
+     "47",
+     "13",
+     "1"
+    ],
+    [
+     "1804",
+     "172",
+     "5",
+     "9",
+     "22",
+     "24",
+     "33",
+     "54",
+     "38",
+     "8",
+     "—"
+    ],
+    [
+     "Durchschnitt 1794-1804",
+     "242,82",
+     "17,09",
+     "17,27",
+     "22,45",
+     "29,18",
+     "42,27",
+     "59,54",
+     "47,36",
+     "11,54",
+     "0,45"
+    ]
+   ],
+   "caption": "L e b e n s a l t e r. 247,15",
+   "sec": "t1-2-1"
+  },
+  {
+   "id": "b5",
+   "type": "paragraph",
+   "src": 4,
+   "text": "Die Zahl der Gestorbenen im ersten Jahrzehnt war demnach nicht viel kleiner als die Zahl der Gestorbenen in den übrigen Jahrzehnten. Ein Lebensalter über 100 Jahre kam in dieser Periode nicht vor.",
+   "spans": [],
+   "sec": "t1-2-1"
+  }
+ ],
+ "footnotes": [],
+ "corrections": [
+  {
+   "rule": "table_no_header_row",
+   "note": "first row is data (legacy edition rendered it as <th>)",
+   "block": "b4"
+  }
+ ],
+ "provenance": {
+  "source": "colab-2026-03",
+  "model": "gemini-3-flash-preview",
+  "timestamp": "2026-03-03T15:15:31.091137",
+  "early_schema": false
+ },
+ "section_path": [
+  "t1",
+  "t1-2",
+  "t1-2-1"
+ ],
+ "sections": [
+  "t1-2-1"
+ ]
+}

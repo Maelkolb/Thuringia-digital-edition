@@ -1,0 +1,802 @@
+{
+ "seq": 180,
+ "label": "168",
+ "slug": "168",
+ "iiif": {
+  "service": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb11005578_00180",
+  "canvas": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11005578/canvas/180",
+  "width": 1611,
+  "height": 2702
+ },
+ "kind": "text",
+ "running_header": "II. Das Volk.",
+ "signature": null,
+ "blocks": [
+  {
+   "id": "b1",
+   "type": "paragraph",
+   "src": 0,
+   "text": "den Familien zuführen. Ist auch die Zahl ihrer Leser mehr bei der Jugend als bei den Alten zu suchen, so wird doch durch diese Schriften der Bildungsumfang der heranwachsenden Generation erweitert. Noch viel stärker ist der Einfluß der Zeitungen und Zeitschriften auf das Volk. War derselbe in den Tagen der Großväter wenn nicht Null, doch äußerst gering, so ist er heute nicht unbedeutend, zudem nachweisbar. Durch die Post werden gegenwärtig bezogen:",
+   "spans": [],
+   "continued": true,
+   "sec": "t1-2-5"
+  },
+  {
+   "id": "b2",
+   "type": "table",
+   "src": 1,
+   "n_cols": 6,
+   "header_rows": 1,
+   "rows": [
+    {
+     "role": "header",
+     "cells": [
+      {
+       "text": "Landestheile.",
+       "spans": []
+      },
+      {
+       "text": "Postämter und Post-Exped.",
+       "spans": []
+      },
+      {
+       "text": "Zahl der Zeitungs-Exempl.",
+       "spans": []
+      },
+      {
+       "text": "1 Exemplar auf Einw.",
+       "spans": []
+      },
+      {
+       "text": "Zeitungen.",
+       "spans": []
+      },
+      {
+       "text": "1 Zeitung auf Einw.",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Gera . . . .",
+       "spans": [
+        [
+         0,
+         4,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "Gera",
+       "spans": [
+        [
+         0,
+         4,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "739",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "127",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "Langenberg",
+       "spans": [
+        [
+         0,
+         10,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "31",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "13",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "Köstritz",
+       "spans": [
+        [
+         0,
+         8,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "119",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "33",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "total",
+     "cells": [
+      {
+       "text": "Summe",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "889",
+       "spans": []
+      },
+      {
+       "text": "43",
+       "spans": []
+      },
+      {
+       "text": "173",
+       "spans": []
+      },
+      {
+       "text": "221",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Schleiz . . .",
+       "spans": [
+        [
+         0,
+         7,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "Schleiz",
+       "spans": [
+        [
+         0,
+         7,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "451",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "90",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "Saalburg",
+       "spans": [
+        [
+         0,
+         8,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "59",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "12",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "Tanna",
+       "spans": [
+        [
+         0,
+         5,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "334",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "31",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "Hohenleuben",
+       "spans": [
+        [
+         0,
+         11,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "73",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "31",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "total",
+     "cells": [
+      {
+       "text": "Summe",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "917",
+       "spans": []
+      },
+      {
+       "text": "29",
+       "spans": []
+      },
+      {
+       "text": "164",
+       "spans": []
+      },
+      {
+       "text": "167",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Lobenstein-Ebersdorf",
+       "spans": [
+        [
+         0,
+         20,
+         "Location"
+        ],
+        [
+         0,
+         10,
+         "Location"
+        ],
+        [
+         11,
+         20,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "Lobenstein",
+       "spans": []
+      },
+      {
+       "text": "160",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "18",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "Hirschberg",
+       "spans": [
+        [
+         0,
+         10,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "99",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "31",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "Ebersdorf",
+       "spans": []
+      },
+      {
+       "text": "85",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "34",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "Wurzbach",
+       "spans": [
+        [
+         0,
+         8,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "79",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "21",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "total",
+     "cells": [
+      {
+       "text": "Summe",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "423",
+       "spans": []
+      },
+      {
+       "text": "53",
+       "spans": []
+      },
+      {
+       "text": "104",
+       "spans": []
+      },
+      {
+       "text": "214",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Gesammtsumme",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "2229",
+       "spans": []
+      },
+      {
+       "text": "39",
+       "spans": []
+      },
+      {
+       "text": "441",
+       "spans": []
+      },
+      {
+       "text": "199",
+       "spans": []
+      }
+     ]
+    }
+   ],
+   "grid": [
+    [
+     "Landestheile.",
+     "Postämter und Post-Exped.",
+     "Zahl der Zeitungs-Exempl.",
+     "1 Exemplar auf Einw.",
+     "Zeitungen.",
+     "1 Zeitung auf Einw."
+    ],
+    [
+     "Gera . . . .",
+     "Gera",
+     "739",
+     "",
+     "127",
+     ""
+    ],
+    [
+     "",
+     "Langenberg",
+     "31",
+     "",
+     "13",
+     ""
+    ],
+    [
+     "",
+     "Köstritz",
+     "119",
+     "",
+     "33",
+     ""
+    ],
+    [
+     "Summe",
+     "",
+     "889",
+     "43",
+     "173",
+     "221"
+    ],
+    [
+     "Schleiz . . .",
+     "Schleiz",
+     "451",
+     "",
+     "90",
+     ""
+    ],
+    [
+     "",
+     "Saalburg",
+     "59",
+     "",
+     "12",
+     ""
+    ],
+    [
+     "",
+     "Tanna",
+     "334",
+     "",
+     "31",
+     ""
+    ],
+    [
+     "",
+     "Hohenleuben",
+     "73",
+     "",
+     "31",
+     ""
+    ],
+    [
+     "Summe",
+     "",
+     "917",
+     "29",
+     "164",
+     "167"
+    ],
+    [
+     "Lobenstein-Ebersdorf",
+     "Lobenstein",
+     "160",
+     "",
+     "18",
+     ""
+    ],
+    [
+     "",
+     "Hirschberg",
+     "99",
+     "",
+     "31",
+     ""
+    ],
+    [
+     "",
+     "Ebersdorf",
+     "85",
+     "",
+     "34",
+     ""
+    ],
+    [
+     "",
+     "Wurzbach",
+     "79",
+     "",
+     "21",
+     ""
+    ],
+    [
+     "Summe",
+     "",
+     "423",
+     "53",
+     "104",
+     "214"
+    ],
+    [
+     "Gesammtsumme",
+     "",
+     "2229",
+     "39",
+     "441",
+     "199"
+    ]
+   ],
+   "caption": null,
+   "sec": "t1-2-5"
+  },
+  {
+   "id": "b3",
+   "type": "paragraph",
+   "src": 2,
+   "text": "Demnach hat Schleiz die meisten, Lobenstein-Ebersdorf und Gera die wenigsten Zeitungsleser. Hinzu kommen noch die im Lande erscheinenden Zeitungen, deren es acht sind, nämlich in Gera vier: Gesetzsammlung, Amts- und Verordnungsblatt, geraische Zeitung und norddeutsches Wochenblatt; in Schleiz zwei: schleizer Wochenblatt und oberländischer Anzeiger; in Hohenleuben eine: hohenleubner Wochenblatt und in Lobenstein zwei: lobensteiner Anzeiger. Somit kommt eine inländische Zeitung auf 10996 Seelen.",
+   "spans": [
+    [
+     12,
+     19,
+     "Location"
+    ],
+    [
+     33,
+     53,
+     "Location"
+    ],
+    [
+     58,
+     62,
+     "Location"
+    ],
+    [
+     179,
+     183,
+     "Location"
+    ],
+    [
+     286,
+     293,
+     "Location"
+    ],
+    [
+     354,
+     365,
+     "Location"
+    ],
+    [
+     404,
+     414,
+     "Location"
+    ]
+   ],
+   "sec": "t1-2-5"
+  },
+  {
+   "id": "b4",
+   "type": "paragraph",
+   "src": 3,
+   "text": "Zigeuner und slovakische Drahtkünstler sind heute nur vereinzelte Erscheinungen im Lande. Früher waren jene wunderbaren kaffeebraunen Söhne des Orients häufig im Oberlande zu finden, wo sie durch Heilmittel, Feuersegen und Ersuchen die Wundergläubigkeit des ländlichen Volkes zu ihrem Schutze und Gewinne zu nähren suchten. Noch manche Oertlichkeiten erinnern an dies unstätige Geschlecht.",
+   "spans": [],
+   "sec": "t1-2-5"
+  },
+  {
+   "id": "b5",
+   "type": "heading",
+   "src": 4,
+   "text": "6. Volkskrankheit und Volksmedicin.",
+   "spans": [],
+   "opens": [
+    "t1-2-6"
+   ],
+   "sec": "t1-2-6",
+   "level": 4
+  },
+  {
+   "id": "b6",
+   "type": "paragraph",
+   "src": 5,
+   "text": "Im Unterlande bessere Nahrung, im Oberlande reinere Bergluft, dazu im ganzen Gebiete Verminderung der Trunkexcesse und Zunahme gemeinnütziger ärztlicher Einwirkung bilden im Allgemeinen gegen die Verbreitung von intensiven Volkskrankheiten einen festen Damm, der in dem Maße stärker werden muß,",
+   "spans": [],
+   "continues": true,
+   "sec": "t1-2-6"
+  }
+ ],
+ "footnotes": [],
+ "corrections": [],
+ "provenance": {
+  "source": "colab-2026-03",
+  "model": "gemini-3-flash-preview",
+  "timestamp": "2026-03-03T15:34:00.886887",
+  "early_schema": false
+ },
+ "section_path": [
+  "t1",
+  "t1-2",
+  "t1-2-5"
+ ],
+ "sections": [
+  "t1-2-5",
+  "t1-2-6"
+ ]
+}

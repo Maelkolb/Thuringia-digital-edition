@@ -1,0 +1,796 @@
+{
+ "id": "justiz-gefangene-hafttage-1864-1867",
+ "title": {
+  "de": "Gefangene und Hafttage bei Justizämtern und Kreisgerichten 1864–1867",
+  "en": "Prisoners and days of detention at the Justizämter and Kreisgerichte, 1864–1867"
+ },
+ "category": "justice",
+ "section": "t1-4-4",
+ "sources": [
+  {
+   "page": "283",
+   "block": "b4",
+   "rows": "r3-r14"
+  },
+  {
+   "page": "286",
+   "block": "b3",
+   "rows": "r2-r14"
+  },
+  {
+   "page": "287",
+   "block": "b4",
+   "rows": "r5-r6",
+   "note": "nur für den Vergleich der Verurteilungen 1866/1867"
+  }
+ ],
+ "summary": {
+  "de": "Die Tabellen »Generalia« der Justizämter und der Kreisgerichte nennen die Zahl der Untersuchungs- und Strafgefangenen und die Hafttage. 1867 zählten beide Gerichtsebenen zusammen 1.090 Gefangene bei den Justizämtern und 353 bei den Kreisgerichten; die Strafgefangenen der Justizämter nahmen gegenüber 1866 stark zu. Die Auswertung stellt Zahl und durchschnittliche Haftdauer gegenüber.",
+  "en": "The “Generalia” tables of the Justizämter and the Kreisgerichte give the number of pre-trial and convicted prisoners and the days of detention. In 1867 the Justizämter counted 1,090 prisoners and the Kreisgerichte 353; the convicted prisoners of the Justizämter rose sharply against 1866. The analysis sets numbers against the average length of detention."
+ },
+ "method": {
+  "de": "Für die Justizämter wurden die Summenzeilen 1867, 1866, 1865, 1864 der Tabelle S. 283 verwendet (Spalten Untersuchungsgefangene, Strafgefangene, Hafttage), für die Kreisgerichte die entsprechenden Zeilen der Tabelle S. 286; deren Spalte »Tage der Haft: Strafgefangene« steht im Druck auf dem zweiten Blatt der Tabelle. Die durchschnittliche Haftdauer = Hafttage : Gefangene (abgeleitet). Die Verteilung auf die acht Justizämter bezieht sich auf 1867.",
+  "en": "For the Justizämter the total rows 1867, 1866, 1865, 1864 of the table on p. 283 were used (columns pre-trial prisoners, convicted prisoners, days of detention), for the Kreisgerichte the corresponding rows of the table on p. 286; its column “days of detention: convicted prisoners” is printed on the second panel of the table. The average length of detention = days : prisoners (derived). The distribution among the eight Justizämter refers to 1867."
+ },
+ "findings": [
+  {
+   "de": "Die Zahl der Strafgefangenen der Justizämter sprang von 497 (1866) auf 926 (1867), also um 86 %; gegenüber 1864 (716) beträgt der Zuwachs 29 %. Im selben Jahr stiegen die Verurteilungen wegen Übertretungen um 25,9 % (S. 287), also deutlich weniger.",
+   "en": "The number of convicted prisoners of the Justizämter jumped from 497 (1866) to 926 (1867), i.e. by 86 %; against 1864 (716) the increase is 29 %. In the same year convictions for minor offences rose by 25.9 % (p. 287), i.e. considerably less."
+  },
+  {
+   "de": "Bei den Justizämtern dauerte die Strafhaft 1867 im Durchschnitt 5,7 Tage, bei den Kreisgerichten 20,8 Tage; die Untersuchungshaft 6,2 bzw. 17,3 Tage.",
+   "en": "At the Justizämter imprisonment lasted on average 5.7 days in 1867, at the Kreisgerichte 20.8 days; pre-trial detention 6.2 and 17.3 days respectively."
+  },
+  {
+   "de": "Die Hafttage aller vier Gruppen zusammen stiegen von 11.546 (1864) auf 12.893 (1867), also um 11,7 %.",
+   "en": "Days of detention of all four groups together rose from 11,546 (1864) to 12,893 (1867), i.e. by 11.7 %."
+  },
+  {
+   "de": "Unter den Justizämtern hatte Lobenstein I 1867 mit 185 die meisten Strafgefangenen (20,0 % aller) und Lobenstein I mit 55 die meisten Untersuchungsgefangenen (33,5 %).",
+   "en": "Among the Justizämter, Lobenstein I had the most convicted prisoners in 1867 (185, 20.0 % of all) and Lobenstein I the most pre-trial prisoners (55, 33.5 %)."
+  }
+ ],
+ "caveats": [
+  {
+   "de": "Gezählt sind die im Jahr in Haft genommenen Personen und die Hafttage, kein Stichtagsbestand; Mehrfachhaft derselben Person ist nicht ausgeschlossen. Die Haftdauer ist ein Durchschnitt aus Tagen und Personen und sagt nichts über Einzelstrafen.",
+   "en": "The figures count persons taken into custody during the year and days of detention, not a snapshot stock; repeated detention of the same person is not excluded. The duration is an average of days and persons and says nothing about individual sentences."
+  },
+  {
+   "de": "Bei den Kreisgerichten ist die gedruckte Summe der Strafhafttage 1867 (3201) kleiner als die Summe der Einzelwerte (1777 + 1446 = 3223); hier wird die gedruckte Summe verwendet. Die Tage der Untersuchungshaft stimmen (1448 + 1996 = 3444).",
+   "en": "For the Kreisgerichte the printed total of imprisonment days in 1867 (3201) is smaller than the sum of the individual values (1777 + 1446 = 3223); the printed total is used here. The days of pre-trial detention agree (1448 + 1996 = 3444)."
+  }
+ ],
+ "datasets": [
+  {
+   "name": "yearly",
+   "title": {
+    "de": "Gefangene und Hafttage nach Ebene und Haftart",
+    "en": "Prisoners and days of detention by court level and kind of detention"
+   },
+   "columns": [
+    {
+     "name": "year",
+     "label": {
+      "de": "Jahr",
+      "en": "Year"
+     },
+     "type": "integer",
+     "unit": null
+    },
+    {
+     "name": "kind_key",
+     "label": {
+      "de": "Kürzel",
+      "en": "Key"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "kind_de",
+     "label": {
+      "de": "Gruppe",
+      "en": "Group"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "kind_en",
+     "label": {
+      "de": "Gruppe (englisch)",
+      "en": "Group (English)"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "prisoners",
+     "label": {
+      "de": "Gefangene",
+      "en": "Prisoners"
+     },
+     "type": "integer",
+     "unit": "Personen"
+    },
+    {
+     "name": "days",
+     "label": {
+      "de": "Tage der Haft",
+      "en": "Days of detention"
+     },
+     "type": "integer",
+     "unit": "Tage"
+    },
+    {
+     "name": "avg_days",
+     "label": {
+      "de": "Durchschnittliche Haftdauer",
+      "en": "Average length of detention"
+     },
+     "type": "number",
+     "unit": "Tage",
+     "derived": true
+    }
+   ],
+   "rows": [
+    [
+     1864,
+     "a",
+     "Untersuchungshaft, Justizämter",
+     "Pre-trial detention, Justizämter",
+     137,
+     1522,
+     11.1
+    ],
+    [
+     1864,
+     "b",
+     "Strafhaft, Justizämter",
+     "Imprisonment, Justizämter",
+     716,
+     4952,
+     6.9
+    ],
+    [
+     1864,
+     "c",
+     "Untersuchungshaft, Kreisgerichte",
+     "Pre-trial detention, Kreisgerichte",
+     162,
+     3073,
+     19.0
+    ],
+    [
+     1864,
+     "d",
+     "Strafhaft, Kreisgerichte",
+     "Imprisonment, Kreisgerichte",
+     109,
+     1999,
+     18.3
+    ],
+    [
+     1865,
+     "a",
+     "Untersuchungshaft, Justizämter",
+     "Pre-trial detention, Justizämter",
+     120,
+     1235,
+     10.3
+    ],
+    [
+     1865,
+     "b",
+     "Strafhaft, Justizämter",
+     "Imprisonment, Justizämter",
+     581,
+     4165,
+     7.2
+    ],
+    [
+     1865,
+     "c",
+     "Untersuchungshaft, Kreisgerichte",
+     "Pre-trial detention, Kreisgerichte",
+     159,
+     3147,
+     19.8
+    ],
+    [
+     1865,
+     "d",
+     "Strafhaft, Kreisgerichte",
+     "Imprisonment, Kreisgerichte",
+     129,
+     2395,
+     18.6
+    ],
+    [
+     1866,
+     "a",
+     "Untersuchungshaft, Justizämter",
+     "Pre-trial detention, Justizämter",
+     115,
+     1243,
+     10.8
+    ],
+    [
+     1866,
+     "b",
+     "Strafhaft, Justizämter",
+     "Imprisonment, Justizämter",
+     497,
+     3554,
+     7.2
+    ],
+    [
+     1866,
+     "c",
+     "Untersuchungshaft, Kreisgerichte",
+     "Pre-trial detention, Kreisgerichte",
+     171,
+     4085,
+     23.9
+    ],
+    [
+     1866,
+     "d",
+     "Strafhaft, Kreisgerichte",
+     "Imprisonment, Kreisgerichte",
+     113,
+     2892,
+     25.6
+    ],
+    [
+     1867,
+     "a",
+     "Untersuchungshaft, Justizämter",
+     "Pre-trial detention, Justizämter",
+     164,
+     1016,
+     6.2
+    ],
+    [
+     1867,
+     "b",
+     "Strafhaft, Justizämter",
+     "Imprisonment, Justizämter",
+     926,
+     5232,
+     5.7
+    ],
+    [
+     1867,
+     "c",
+     "Untersuchungshaft, Kreisgerichte",
+     "Pre-trial detention, Kreisgerichte",
+     199,
+     3444,
+     17.3
+    ],
+    [
+     1867,
+     "d",
+     "Strafhaft, Kreisgerichte",
+     "Imprisonment, Kreisgerichte",
+     154,
+     3201,
+     20.8
+    ]
+   ],
+   "source_refs": [
+    {
+     "page": "283",
+     "block": "b4",
+     "rows": "r11-r14"
+    },
+    {
+     "page": "286",
+     "block": "b3",
+     "rows": "r4-r7"
+    },
+    {
+     "page": "286",
+     "block": "b3",
+     "rows": "r11-r14"
+    }
+   ]
+  },
+  {
+   "name": "courts",
+   "title": {
+    "de": "Gefangene und Hafttage je Justizamt, 1867",
+    "en": "Prisoners and days of detention by Justizamt, 1867"
+   },
+   "columns": [
+    {
+     "name": "court",
+     "label": {
+      "de": "Gericht",
+      "en": "Court"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "kind_key",
+     "label": {
+      "de": "Kürzel",
+      "en": "Key"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "kind_de",
+     "label": {
+      "de": "Haftart",
+      "en": "Kind"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "kind_en",
+     "label": {
+      "de": "Haftart (englisch)",
+      "en": "Kind (English)"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "prisoners",
+     "label": {
+      "de": "Gefangene",
+      "en": "Prisoners"
+     },
+     "type": "integer",
+     "unit": "Personen"
+    },
+    {
+     "name": "days",
+     "label": {
+      "de": "Tage der Haft",
+      "en": "Days of detention"
+     },
+     "type": "integer",
+     "unit": "Tage"
+    }
+   ],
+   "rows": [
+    [
+     "Gera I",
+     "a",
+     "Untersuchungshaft",
+     "Pre-trial detention",
+     30,
+     254
+    ],
+    [
+     "Gera I",
+     "b",
+     "Strafhaft",
+     "Imprisonment",
+     162,
+     969
+    ],
+    [
+     "Gera II",
+     "a",
+     "Untersuchungshaft",
+     "Pre-trial detention",
+     17,
+     51
+    ],
+    [
+     "Gera II",
+     "b",
+     "Strafhaft",
+     "Imprisonment",
+     167,
+     1067
+    ],
+    [
+     "Hirschberg",
+     "a",
+     "Untersuchungshaft",
+     "Pre-trial detention",
+     15,
+     68
+    ],
+    [
+     "Hirschberg",
+     "b",
+     "Strafhaft",
+     "Imprisonment",
+     94,
+     478
+    ],
+    [
+     "Hohenleuben",
+     "a",
+     "Untersuchungshaft",
+     "Pre-trial detention",
+     3,
+     45
+    ],
+    [
+     "Hohenleuben",
+     "b",
+     "Strafhaft",
+     "Imprisonment",
+     160,
+     619
+    ],
+    [
+     "Lobenstein I",
+     "a",
+     "Untersuchungshaft",
+     "Pre-trial detention",
+     55,
+     275
+    ],
+    [
+     "Lobenstein I",
+     "b",
+     "Strafhaft",
+     "Imprisonment",
+     185,
+     1028
+    ],
+    [
+     "Lobenstein II",
+     "a",
+     "Untersuchungshaft",
+     "Pre-trial detention",
+     4,
+     26
+    ],
+    [
+     "Lobenstein II",
+     "b",
+     "Strafhaft",
+     "Imprisonment",
+     52,
+     355
+    ],
+    [
+     "Schleiz I",
+     "a",
+     "Untersuchungshaft",
+     "Pre-trial detention",
+     29,
+     175
+    ],
+    [
+     "Schleiz I",
+     "b",
+     "Strafhaft",
+     "Imprisonment",
+     68,
+     418
+    ],
+    [
+     "Schleiz II",
+     "a",
+     "Untersuchungshaft",
+     "Pre-trial detention",
+     11,
+     122
+    ],
+    [
+     "Schleiz II",
+     "b",
+     "Strafhaft",
+     "Imprisonment",
+     38,
+     298
+    ]
+   ],
+   "source_refs": [
+    {
+     "page": "283",
+     "block": "b4",
+     "rows": "r3-r10"
+    }
+   ]
+  }
+ ],
+ "charts": [
+  {
+   "id": "c1",
+   "dataset": "yearly",
+   "title": {
+    "de": "Gefangene pro Jahr nach Gerichtsebene und Haftart",
+    "en": "Prisoners per year by court level and kind of detention"
+   },
+   "caption": {
+    "de": "Im Jahr in Haft genommene Personen. Der Zuwachs 1867 liegt bei den Strafgefangenen der Justizämter.",
+    "en": "Persons taken into custody during the year. The increase in 1867 is among the convicted prisoners of the Justizämter."
+   },
+   "vegalite": {
+    "height": 300,
+    "mark": {
+     "type": "bar",
+     "width": 55
+    },
+    "encoding": {
+     "x": {
+      "field": "year",
+      "type": "ordinal",
+      "title": {
+       "de": "Jahr",
+       "en": "Year"
+      },
+      "axis": {
+       "labelAngle": 0
+      }
+     },
+     "y": {
+      "field": "prisoners",
+      "type": "quantitative",
+      "title": {
+       "de": "Gefangene",
+       "en": "Prisoners"
+      },
+      "stack": "zero"
+     },
+     "color": {
+      "field": {
+       "de": "kind_de",
+       "en": "kind_en"
+      },
+      "type": "nominal",
+      "title": null,
+      "sort": {
+       "field": "kind_key",
+       "op": "min"
+      },
+      "legend": {
+       "labelLimit": 300,
+       "columns": 2
+      }
+     },
+     "order": {
+      "field": "kind_key",
+      "type": "nominal",
+      "sort": "ascending"
+     },
+     "tooltip": [
+      {
+       "field": "year",
+       "title": {
+        "de": "Jahr",
+        "en": "Year"
+       }
+      },
+      {
+       "field": {
+        "de": "kind_de",
+        "en": "kind_en"
+       },
+       "title": {
+        "de": "Gruppe",
+        "en": "Group"
+       }
+      },
+      {
+       "field": "prisoners",
+       "title": {
+        "de": "Gefangene",
+        "en": "Prisoners"
+       }
+      },
+      {
+       "field": "days",
+       "title": {
+        "de": "Tage der Haft",
+        "en": "Days"
+       }
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "c2",
+   "dataset": "yearly",
+   "title": {
+    "de": "Durchschnittliche Haftdauer",
+    "en": "Average length of detention"
+   },
+   "caption": {
+    "de": "Hafttage je Gefangenem. Bei den Kreisgerichten ist die durchschnittliche Haft in allen vier Jahren deutlich länger als bei den Justizämtern.",
+    "en": "Days of detention per prisoner. At the Kreisgerichte the average detention is markedly longer than at the Justizämter in all four years."
+   },
+   "vegalite": {
+    "height": 280,
+    "mark": {
+     "type": "line",
+     "point": true
+    },
+    "encoding": {
+     "x": {
+      "field": "year",
+      "type": "ordinal",
+      "title": {
+       "de": "Jahr",
+       "en": "Year"
+      },
+      "axis": {
+       "labelAngle": 0
+      }
+     },
+     "y": {
+      "field": "avg_days",
+      "type": "quantitative",
+      "title": {
+       "de": "Tage je Gefangenem",
+       "en": "Days per prisoner"
+      },
+      "scale": {
+       "zero": true
+      }
+     },
+     "color": {
+      "field": {
+       "de": "kind_de",
+       "en": "kind_en"
+      },
+      "type": "nominal",
+      "title": null,
+      "sort": {
+       "field": "kind_key",
+       "op": "min"
+      },
+      "legend": {
+       "labelLimit": 300,
+       "columns": 2
+      }
+     },
+     "tooltip": [
+      {
+       "field": "year",
+       "title": {
+        "de": "Jahr",
+        "en": "Year"
+       }
+      },
+      {
+       "field": {
+        "de": "kind_de",
+        "en": "kind_en"
+       },
+       "title": {
+        "de": "Gruppe",
+        "en": "Group"
+       }
+      },
+      {
+       "field": "avg_days",
+       "title": {
+        "de": "Tage je Gefangenem",
+        "en": "Days per prisoner"
+       },
+       "format": ".1f"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "c3",
+   "dataset": "courts",
+   "title": {
+    "de": "Gefangene der Justizämter 1867",
+    "en": "Prisoners of the Justizämter in 1867"
+   },
+   "caption": {
+    "de": "Im Jahr 1867 in Haft genommene Personen je Justizamt (Untersuchungs- und Strafhaft).",
+    "en": "Persons taken into custody in 1867 per Justizamt (pre-trial detention and imprisonment)."
+   },
+   "vegalite": {
+    "height": 300,
+    "mark": "bar",
+    "encoding": {
+     "y": {
+      "field": "court",
+      "type": "nominal",
+      "title": null,
+      "sort": {
+       "field": "prisoners",
+       "op": "sum",
+       "order": "descending"
+      }
+     },
+     "x": {
+      "field": "prisoners",
+      "type": "quantitative",
+      "title": {
+       "de": "Gefangene",
+       "en": "Prisoners"
+      },
+      "stack": "zero"
+     },
+     "color": {
+      "field": {
+       "de": "kind_de",
+       "en": "kind_en"
+      },
+      "type": "nominal",
+      "title": null,
+      "sort": {
+       "field": "kind_key",
+       "op": "min"
+      }
+     },
+     "order": {
+      "field": "kind_key",
+      "type": "nominal",
+      "sort": "ascending"
+     },
+     "tooltip": [
+      {
+       "field": "court",
+       "title": {
+        "de": "Gericht",
+        "en": "Court"
+       }
+      },
+      {
+       "field": {
+        "de": "kind_de",
+        "en": "kind_en"
+       },
+       "title": {
+        "de": "Haftart",
+        "en": "Kind"
+       }
+      },
+      {
+       "field": "prisoners",
+       "title": {
+        "de": "Gefangene",
+        "en": "Prisoners"
+       }
+      },
+      {
+       "field": "days",
+       "title": {
+        "de": "Tage der Haft",
+        "en": "Days"
+       }
+      }
+     ]
+    }
+   }
+  }
+ ],
+ "keywords": {
+  "de": [
+   "Gefangene",
+   "Haft",
+   "Hafttage",
+   "Untersuchungshaft",
+   "Strafhaft",
+   "Gefängnis",
+   "Justizamt",
+   "Kreisgericht",
+   "Rechtspflege"
+  ],
+  "en": [
+   "prisoners",
+   "detention",
+   "days of detention",
+   "pre-trial detention",
+   "imprisonment",
+   "prison",
+   "Justizamt",
+   "Kreisgericht"
+  ]
+ },
+ "generated_by": "Claude Sonnet 5.5 (subagent A11)",
+ "date": "2026-10-01"
+}

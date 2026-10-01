@@ -1,0 +1,85 @@
+# T|key|label|sci [rank]|gloss_en|note|modern      (accept, class organism, kind Tier)
+# M|into|key1~key2     (merge)
+# R|key|reason
+# C|key|class|label|kind|gloss_en|note
+# --- Nutztiere ---
+T|Rinder|Rind|Bos taurus|cattle|In den Viehlisten der Ortskunde (Teil II) als R. abgekürzt (die Transkription liest es mehrfach als K.); auch Rindvieh.
+M|Rinder|R~K~Rind~Rindern~Rindvieh~Rindviehes
+T|Kuh|Kuh|Bos taurus|cow
+M|Kuh|Kühe~Kühen~Widmuthskühe
+T|Ochsen|Ochse|Bos taurus|ox
+T|Stiere|Stier|Bos taurus|bull
+M|Stiere|Bullen~Reitstiere
+T|Kalb|Kalb|Bos taurus|calf|Mundartlich auch Kalbe/Kalben für junge Kühe (Färsen), S. 154: Starken = die Kalben.
+M|Kalb|Kälber~Kalbes~Kalbe~Kalben
+T|Pferde|Pferd|Equus caballus|horse|In den Viehlisten der Ortskunde als Pf. abgekürzt; auch Ross/Roß als gehobene Form.
+M|Pferde|Pf~Pferd~Pferden~Pfer~Rosse~Roß~Ross~Rossen~Rössern~Schimmel~Stuten~Füllen~Bauernpferde~Arbeitspferde~Luxuspferde
+R|Pferdchen|Spielzeug (Weihnachtsgabe), kein Tier
+T|Esel|Esel|Equus asinus|donkey|In den Viehlisten als Es./E. abgekürzt (1 Es., 1 E.).
+M|Esel|Es~E
+T|Maulthiere|Maultier||mule|Brückner: Maulthiere und Esel, früher in Diensten der Burgen und Müller.|
+T|Schafe|Schaf|Ovis aries|sheep|In den Viehlisten als Schf. abgekürzt.
+M|Schafe|Schf~Schaf~Schafen~Schafs~Schof~Schofe~Schofharde~Schafvieh~Gutsschafe~Landschaf
+T|Schweine|Schwein|Sus scrofa|pig|Hausschwein; in den Viehlisten als Schw. abgekürzt.
+M|Schweine|Schw~Schwein~Schweinen~#1151~Sau~Landsäue~Mastschweine~Jungschweine~Schlachtschweine~Ferkel
+T|Wildschweine|Wildschwein|Sus scrofa|wild boar|Im Unterland gehegt, später aufgegeben (S. 83).
+T|Eber|Eber|Sus scrofa|boar|Steinbild am Eingang (S. 726).
+T|Ziegen|Ziege|Capra hircus|goat|In den Viehlisten als Z. abgekürzt.
+M|Ziegen|Z~Ziege~Zicklein~Ziegenbock~Ziegenbocke~Bocke~Böcke~Böckle
+R|Ziegenricke|Spitzname einer Frau (als Hexe), kein Tier
+T|Gänse|Gans|Anser anser|goose|Hausgans; in den Viehlisten als G. abgekürzt (auch Martins- und Burkhardsgans als Festbraten).
+M|Gänse|G~Gans~Gänsen~Martinsgans~Burkhardsgans~Gänserich
+T|Saat- und Ackergans|Saat- und Ackergans|Anser|bean goose and other wild geese|Wildgänse; zwei Arten in einer Nennung.
+T|Hühner|Huhn|Gallus gallus|chicken
+M|Hühner|Hühnern~Henne~Hahn~Haushahn~Füllhühner
+R|Hahnenschrei|Zeitangabe, kein Tier
+T|Federvieh|Federvieh||poultry|Sammelbegriff für Hausgeflügel.
+T|Tauben|Taube|Columba livia|pigeon, dove|Haustaube; Taube auch als Bildmotiv (S. 684).
+M|Tauben|Taube
+T|Enten|Ente|Anas platyrhynchos|duck
+T|Hund|Hund|Canis lupus|dog|Haushund (Canis lupus familiaris); auch Jagd-, Hof- und Kettenhunde; mundartlich Hunne.
+M|Hund|Hunde~Hunden~#226~Hunne~Hunnen~Hundes~Hündchen~Hofhunde~Kettenhund~Dorfhunde~Jagdhund~Bracken~Jagdhunds- oder Brackenkopf
+T|Katze|Katze|Felis catus|cat
+M|Katze|Katzen
+T|Kaninchen|Kaninchen|Oryctolagus cuniculus|rabbit|Wilde Kaninchen im Park (S. 425) und an sonnigen Abhängen des Unterlandes (S. 83).
+T|Bienen|Biene|Apis mellifera|honey bee|In den Viehlisten werden Bienenstöcke gezählt (Bnst., in der Transkription auch Bust./Bmst./B.).
+M|Bienen|Bnst~Bust~B~Bienenstöcke~Biene~Honigbiene
+T|Vieh|Vieh||livestock|Sammelbegriff für Nutztiere; in Teil II steht »an Vieh« vor den Zahlen der Viehliste.
+M|Vieh|Viehes~Viehe~Viehs~Viehstand~Mastvieh~Jungvieh~Kleinviehes
+T|Zugthier|Zugtier||draught animal|Sammelbegriff für Arbeitstiere.
+M|Zugthier|Zugthiere
+T|Wild|Wild||game|Jagdbares Wild (Niederwild, Rotwild …).
+M|Wild|Niederwild
+# --- Säugetiere, wild ---
+T|Hasen|Feldhase|Lepus europaeus|hare|Auch im Aberglauben (dreibeiniger Hase).
+M|Hasen|Hase
+T|Maus|Maus|Muridae [family]|mouse|Mäuse im Volksglauben und in Kinderspielen.
+M|Maus|Mäuse
+T|Wanderratte|Wanderratte|Rattus norvegicus|brown rat|Seit einigen Jahrzehnten eingewandert; hat die Hausratte verdrängt (S. 82).
+T|Hamster|Hamster|Cricetus cricetus|hamster
+T|Eichhorn|Eichhörnchen|Sciurus vulgaris|red squirrel|Im Oberland als Speise genannt (S. 83).|Eichhörnchen
+M|Eichhorn|Springthierchen
+T|Siebenschläfer|Siebenschläfer|Glis glis|edible dormouse
+T|Haselschläfer|Haselschläfer|Muscardinus avellanarius|hazel dormouse
+T|Maulwurf|Maulwurf|Talpa europaea|mole
+T|Fuchs|Fuchs|Vulpes vulpes|fox
+T|Wolf|Wolf|Canis lupus|wolf|Vormals zahlreich in den Wäldern, ausgerottet; auch mythisches Tier im Korn (S. 207).
+M|Wolf|Wölfe~Wulf~Wolfs
+T|Bär|Bär|Ursus arctos|brown bear|Vormals in den Wäldern; auch Gasthausschild (schwarzer Bär in Schleiz), Sagen und Steinbild.
+M|Bär|Bären~Schlossbären
+T|Luchs|Luchs|Lynx lynx|lynx
+T|Petze|Petze||bear, lynx and wolf (collective)|Brückner: Kleeblatt der Petze, d. h. Bär, Luchs und Wolf (S. 82).
+T|Hirsch|Hirsch|Cervus elaphus|red deer|Auch Wappentier (Hirschberg) und Gasthausname (zum Hirsch); Edel- und Rothwild.
+M|Hirsch|Hirsche~Edelhirsche~Rothwild
+T|Dammhirsche|Damhirsch|Dama dama|fallow deer
+T|Rehe|Reh|Capreolus capreolus|roe deer
+T|Wisent|Wisent|Bison bonasus|European bison|Brückner setzt Wisent mit Auerochs gleich (Wisentstier, Auerochs; S. 83); Ortsnamen Wiesenthal/Wisenthal; auch Wappentier (Auerstierkopf im Schleizer Wappen).
+M|Wisent|Wisentstier~Auerochs~Auerstierkopf~Wisent- oder Auerochsenkopf
+T|Löwen|Löwe|Panthera leo|lion|Meist Wappentier (reußischer Löwe, Gera) und Gasthausname.
+M|Löwen|Löwe~Löwin~Löwenköpfen
+T|Nilpferde|Nilpferd|Hippopotamus amphibius|hippopotamus|Auf einer Gemme als Siegelbild (S. 264).
+T|Seepferde|Seepferd||sea-horse (mythical)|Mythisches Seepferd auf einer Gemme (S. 264).
+T|Kranich|Kranich|Grus grus|common crane|Meist Wappentier (Kranichfeld; Siegel von Langenberg).
+T|Adler|Adler|Accipitridae [family]|eagle|Wappentier (Halbadler im Hirschberger Wappen; schwarzer Adler).
+M|Adler|Halbadler
+T|Affe|Affe||monkey|

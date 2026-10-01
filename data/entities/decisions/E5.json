@@ -1,0 +1,5112 @@
+{
+ "package": "E5",
+ "group": "persons",
+ "decisions": [
+  {
+   "key": "A. Lorey",
+   "action": "accept",
+   "label": "A. Lorey",
+   "class": "person",
+   "kind": "Direktor",
+   "description_de": "Direktor einer Anstalt in Gera (S. 436)",
+   "description_en": "director of an institution in Gera (p. 436)"
+  },
+  {
+   "key": "A. Reichenbächer",
+   "action": "accept",
+   "label": "A. Reichenbächer",
+   "class": "person",
+   "kind": "Pfarrer",
+   "description_de": "Pfarrer zur Zeit der Abfassung (19. Pfarrer des Ortes, S. 746)",
+   "description_en": "pastor at the time of writing (19th of the parish, p. 746)"
+  },
+  {
+   "key": "A. Stiehler",
+   "action": "accept",
+   "label": "A. Stiehler",
+   "class": "person",
+   "kind": "Pfarrer",
+   "description_de": "Oberpfarrer zur Zeit der Abfassung (17. Oberpfarrer, S. 717)",
+   "description_en": "senior pastor at the time of writing (17th, p. 717)"
+  },
+  {
+   "key": "Abrah. v. Watzdorf",
+   "action": "merge",
+   "into": "Abraham v. Watzdorf"
+  },
+  {
+   "key": "Abraham v. Watzdorf",
+   "action": "accept",
+   "label": "Abraham v. Watzdorf",
+   "class": "person",
+   "kind": "Adliger",
+   "description_de": "† 16. August 1605; Marschall und Stallmeister, Held in der Schlacht bei Danzig",
+   "description_en": "d. 16 Aug 1605; marshal and master of the horse"
+  },
+  {
+   "key": "Achaz von Guttenberg",
+   "action": "accept",
+   "label": "Achaz von Guttenberg",
+   "class": "person",
+   "kind": "Adliger",
+   "description_de": "geriet 1521 in Händel mit dem Herrn auf Pottiga und wurde geächtet",
+   "description_en": "fell out with the lord of Pottiga in 1521 and was outlawed"
+  },
+  {
+   "key": "Ad. Fr. K. Streckfuß",
+   "action": "accept",
+   "label": "Adolf Friedrich Karl Streckfuß",
+   "class": "person",
+   "kind": "Schriftsteller",
+   "description_de": "Übersetzer (1779–1844)",
+   "description_en": "translator (1779–1844)"
+  },
+  {
+   "key": "Ad. Ludw. Ferd. Semmel",
+   "action": "accept",
+   "label": "Ad. Ludw. Ferd. Semmel",
+   "class": "person",
+   "kind": "Adliger",
+   "description_de": "sächs. Husarenlieutenant, später Stadthauptmann zu Gera; Gutsbesitzer",
+   "description_en": "Saxon hussar lieutenant, later town captain of Gera; estate owner"
+  },
+  {
+   "key": "Ad. Schmalz",
+   "action": "accept",
+   "label": "Ad. Schmalz",
+   "class": "person",
+   "kind": "Gutsbesitzer",
+   "description_de": "Gutsbesitzer, † 1859",
+   "description_en": "estate owner, d. 1859"
+  },
+  {
+   "key": "Adam",
+   "action": "reject",
+   "reason": "first name in a dialect example sentence (S. 182), not a person of the register"
+  },
+  {
+   "key": "Adam Busch",
+   "action": "accept",
+   "label": "Adam Busch",
+   "class": "person",
+   "kind": "Unternehmer",
+   "description_de": "1581 mit Consorten für ein Werk concessioniert (S. 726)",
+   "description_en": "with partners granted a concession for a works in 1581 (p. 726)"
+  },
+  {
+   "key": "Adam Dan. Büttner",
+   "action": "accept",
+   "label": "Adam Dan. Büttner",
+   "class": "person",
+   "kind": "Beamter",
+   "description_de": "Proceßrath; errichtete 1801 mit Consorten ein Werk (S. 784)",
+   "description_en": "Proceßrath; established a works with partners in 1801 (p. 784)"
+  },
+  {
+   "key": "Adam Heinr. Meisner",
+   "action": "accept",
+   "label": "Adam Heinr. Meisner",
+   "class": "person",
+   "kind": "Schriftsteller",
+   "description_de": "aus Schleiz; geb. 1711, † 1782 als Stadtprediger zu Plauen",
+   "description_en": "from Schleiz; b. 1711, d. 1782 as town preacher at Plauen"
+  },
+  {
+   "key": "Adam Heinr. v. Magwitz",
+   "action": "accept",
+   "label": "Adam Heinr. v. Magwitz",
+   "class": "person",
+   "kind": "Gutsbesitzer",
+   "description_de": "Besitzer eines Rittergutes um 1670–1694",
+   "description_en": "owner of a manor c. 1670–1694"
+  },
+  {
+   "key": "Adam Römer",
+   "action": "accept",
+   "label": "Adam Römer",
+   "class": "person",
+   "kind": "Gutsbesitzer",
+   "description_de": "auf Langenwolschendorf; erschoß 1702 Georg Heinrich v. Kospod",
+   "description_en": "of Langenwolschendorf; shot Georg Heinrich v. Kospod in 1702"
+  },
+  {
+   "key": "Adam Tschirmer",
+   "action": "accept",
+   "label": "Adam Tschirmer",
+   "class": "person",
+   "kind": "Gutsbesitzer",
+   "description_de": "Pachter des Kammerguts Kleinaga, ab 1719 Eigentümer eines Gutes; auch Schirmer geschrieben",
+   "description_en": "leaseholder of the Kleinaga crown estate, owner of a manor from 1719; also spelled Schirmer"
+  },
+  {
+   "key": "Adam von Beichlingen",
+   "action": "accept",
+   "label": "Adam von Beichlingen",
+   "class": "person",
+   "kind": "Adliger",
+   "description_de": "Schwiegervater eines Herrn auf Pottiga (1517)",
+   "description_en": "father-in-law of a lord of Pottiga (1517)"
+  },
+  {
+   "key": "Adams v. Schönberg",
+   "action": "accept",
+   "label": "Adam v. Schönberg",
+   "class": "person",
+   "kind": "Adliger",
+   "description_de": "Gemahl der Friederike v. Fletcher (Wittwe)",
+   "description_en": "husband of Friederike v. Fletcher (widow)"
+  },
+  {
+   "key": "Adelheid",
+   "action": "accept",
+   "label": "Adelheid",
+   "class": "person",
+   "kind": "Prinzessin",
+   "note": "ambiguous: several women of this name (daughters of the Vögte of Gera, 14th c.; a widowed Fürstin Reuß j. L. in the subscribers' list, p. 835)"
+  },
+  {
+   "key": "Adelheid v. Bünau",
+   "action": "accept",
+   "label": "Adelheid v. Bünau",
+   "class": "person",
+   "kind": "Adlige",
+   "description_de": "erhielt 1315 Caaschwitz als Lehen (S. 503)",
+   "description_en": "granted Caaschwitz as a fief in 1315 (p. 503)"
+  },
+  {
+   "key": "Adler",
+   "action": "accept",
+   "label": "Adler",
+   "class": "person",
+   "kind": "Pastor",
+   "note": "Subskribent (S. 835); possibly several persons"
+  },
+  {
+   "key": "Adolf",
+   "action": "accept",
+   "label": "Adolf von Nassau",
+   "class": "person",
+   "kind": "König",
+   "description_de": "König Adolf (reg. 1292–1298), bei Brückner auch „Kaiser“",
+   "description_en": "King Adolf (r. 1292–1298), called \"Kaiser\" by Brückner",
+   "note": "Brückner: Kaiser/König Adolf"
+  },
+  {
+   "key": "Adolf Louis Otto",
+   "action": "merge",
+   "into": "Adolph Louis Otto"
+  },
+  {
+   "key": "Adolph Louis Otto",
+   "action": "accept",
+   "label": "Adolph Louis Otto",
+   "class": "person",
+   "kind": "Gutsbesitzer",
+   "description_de": "erwarb durch Kauf von Martin Zeeh ein Rittergut (S. 819)",
+   "description_en": "bought a manor from Martin Zeeh (p. 819)"
+  },
+  {
+   "key": "Adolph",
+   "action": "merge",
+   "into": "Adolf"
+  },
+  {
+   "key": "Adolf v. Einsiedel-Wolkenburg",
+   "action": "accept",
+   "label": "Adolf v. Einsiedel-Wolkenburg",
+   "class": "person",
+   "kind": "Adliger",
+   "description_de": "† 1821; Gemahl einer Tochter des Hauses Reuß",
+   "description_en": "d. 1821; husband of a princess of the house of Reuss",
+   "note": "Brückner's genealogy (p. 398) names him as husband of Clementine Franziska (b. 1789) and of Sophie (b. 1799); probably one person"
+  },
+  {
+   "key": "Adolph v. Einsiedel-Wolkenburg",
+   "action": "merge",
+   "into": "Adolf v. Einsiedel-Wolkenburg"
+  },
+  {
+   "key": "Adolph von Bentheim-Tecklenburg-Rheda",
+   "action": "accept",
+   "label": "Adolph von Bentheim-Tecklenburg-Rheda",
+   "class": "person",
+   "kind": "Adliger",
+   "description_de": "Gemahl der Anna (Car. Louise Adelh.), geb. 1822",
+   "description_en": "husband of Anna (Car. Louise Adelh.), b. 1822"
+  },
+  {
+   "key": "Advocatus Longus de Plaw",
+   "action": "accept",
+   "label": "Advocatus Longus de Plaw",
+   "class": "person",
+   "kind": "Vogt",
+   "note": "lateinische Bezeichnung einer der fünf Vogtslinien (Plauen), S. 271"
+  },
+  {
+   "key": "Aehle",
+   "action": "accept",
+   "label": "Aehle",
+   "class": "person",
+   "kind": "Lehrer",
+   "note": "Subskribent (S. 835)"
+  },
+  {
+   "key": "Afra v. Obernitz",
+   "action": "accept",
+   "label": "Afra v. Obernitz",
+   "class": "person",
+   "kind": "Nonne",
+   "description_de": "Nonne (Kloster, 1533)",
+   "description_en": "nun (convent, 1533)"
+  },
+  {
+   "key": "Agnes",
+   "action": "accept",
+   "label": "Agnes",
+   "class": "person",
+   "kind": "Prinzessin",
+   "note": "ambiguous: several women of the Vogt/Reuß families (daughters, wives, nuns of Cronschwitz)"
+  },
+  {
+   "key": "Agnes Elisabeth",
+   "action": "accept",
+   "label": "Agnes Elisabeth",
+   "class": "person",
+   "kind": "Prinzessin",
+   "description_de": "geb. 1629, † 1675; Gem. Christian v. Schönburg-Penig",
+   "description_en": "b. 1629, d. 1675; m. Christian v. Schönburg-Penig"
+  },
+  {
+   "key": "Agnes Engelschall",
+   "action": "accept",
+   "label": "Agnes Engelschall",
+   "class": "person",
+   "kind": "Stifterin",
+   "description_de": "Ehefrau des Gastwirths Tob. Engelschall, geb. Albert, † 1692; stiftete ein Legat (S. 307)",
+   "description_en": "wife of the innkeeper Tob. Engelschall, née Albert, d. 1692; founded a bequest"
+  },
+  {
+   "key": "Agnes Helene v. Flemming",
+   "action": "accept",
+   "label": "Agnes Helene v. Flemming",
+   "class": "person",
+   "kind": "Gemahlin",
+   "description_de": "zu Ribberow, † 1742; 2. Gemahlin eines Herrn Reuß",
+   "description_en": "of Ribberow, d. 1742; second wife of a Reuss lord"
+  },
+  {
+   "key": "Agnes Juliane",
+   "action": "accept",
+   "label": "Agnes Juliane",
+   "class": "person",
+   "kind": "Prinzessin",
+   "description_de": "geboren und gestorben 1588",
+   "description_en": "born and died 1588"
+  },
+  {
+   "key": "Agnes Maria Reußen v. Plauen",
+   "action": "merge",
+   "into": "Agnes Marie v. Erbach"
+  },
+  {
+   "key": "Agnes Marie",
+   "action": "merge",
+   "into": "Agnes Marie v. Erbach"
+  },
+  {
+   "key": "Agnes Marie v. Erbach",
+   "action": "accept",
+   "label": "Agnes Marie v. Erbach",
+   "class": "person",
+   "kind": "Gemahlin",
+   "description_de": "geb. Gräfin v. Erbach, † 1634; Gemahlin Heinrichs d. m., Herrn zu Schleiz",
+   "description_en": "née Countess of Erbach, d. 1634; wife of Heinrich d. m., lord of Schleiz"
+  },
+  {
+   "key": "Agnes Metzsch",
+   "action": "accept",
+   "label": "Agnes Metzsch",
+   "class": "person",
+   "kind": "Adlige",
+   "description_de": "Frau Agnes Metzsch geb. Pflug aus dem Hause Eitra bei Leipzig, geb. 1604",
+   "description_en": "née Pflug of Eitra near Leipzig, b. 1604"
+  },
+  {
+   "key": "Agnes Sophie v. Prommnitz",
+   "action": "accept",
+   "label": "Agnes Sophie v. Prommnitz",
+   "class": "person",
+   "kind": "Gemahlin",
+   "description_de": "† 1791; Gemahlin Heinrichs XXVIII.",
+   "description_en": "d. 1791; wife of Heinrich XXVIII."
+  },
+  {
+   "key": "Agnes v. Beichlingen",
+   "action": "accept",
+   "label": "Agnes v. Beichlingen",
+   "class": "person",
+   "kind": "Gemahlin",
+   "description_de": "1. Gemahlin Heinrichs d. ä. (1506–1572), Herrn zu Untergreiz",
+   "description_en": "first wife of Heinrich d. ä. (1506–1572), lord of Untergreiz"
+  },
+  {
+   "key": "Agnes von Beichlingen",
+   "action": "merge",
+   "into": "Agnes v. Beichlingen"
+  },
+  {
+   "key": "Agnes v. Hirschberg",
+   "action": "accept",
+   "label": "Agnes v. Hirschberg",
+   "class": "person",
+   "kind": "Äbtissin",
+   "description_de": "Äbtissin in Hof, 1501–1518",
+   "description_en": "abbess at Hof, 1501–1518"
+  },
+  {
+   "key": "Agnes v. Leisnig-Penig",
+   "action": "accept",
+   "label": "Agnes v. Leisnig-Penig",
+   "class": "person",
+   "kind": "Gemahlin",
+   "description_de": "Burggräfin; erhielt 1359 Greiz zum Leibgedinge",
+   "description_en": "burgravine; received Greiz as dower in 1359"
+  },
+  {
+   "key": "Agnes von Leisnig-Penig",
+   "action": "merge",
+   "into": "Agnes v. Leisnig-Penig"
+  },
+  {
+   "key": "Agnes von Schlüsselberg",
+   "action": "accept",
+   "label": "Agnes von Schlüsselberg",
+   "class": "person",
+   "kind": "Gemahlin",
+   "description_de": "überlebte ihren Gemahl, einen Vogt (S. 356)",
+   "description_en": "survived her husband, a Vogt (p. 356)"
+  },
+  {
+   "key": "Albanus",
+   "action": "accept",
+   "label": "Albanus",
+   "class": "person",
+   "kind": "Heiliger",
+   "description_de": "Heiliger mit dem Kopf in den Händen als Attribut (S. 136)",
+   "description_en": "saint shown with his head in his hands (p. 136)"
+  },
+  {
+   "key": "Albert",
+   "action": "accept",
+   "label": "Albert",
+   "class": "person",
+   "kind": "Adliger",
+   "note": "ambiguous: Albert v. Brandenstein (1302) and Albert v. Harra (1232), among others"
+  },
+  {
+   "key": "Albert Pommer",
+   "action": "accept",
+   "label": "Albert Pommer",
+   "class": "person",
+   "kind": "Geistlicher",
+   "description_de": "Kaplan, 1533 bei der Kirchenvisitation als wenig geschickt befunden",
+   "description_en": "chaplain, found unfit at the 1533 church visitation"
+  },
+  {
+   "key": "Albert v. Blankenberg",
+   "action": "accept",
+   "label": "Albert v. Blankenberg",
+   "class": "person",
+   "kind": "Adliger",
+   "description_de": "auf Kießling; Vater der Kinder Georg und Kunigunde",
+   "description_en": "of Kießling; father of Georg and Kunigunde",
+   "note": "perhaps identical with Albrecht v. Blankenberg (see there)"
+  },
+  {
+   "key": "Albert von Leisnig",
+   "action": "accept",
+   "label": "Albert von Leisnig",
+   "class": "person",
+   "kind": "Adliger",
+   "description_de": "Burggraf von Leisnig, 1198",
+   "description_en": "burgrave of Leisnig, 1198"
+  },
+  {
+   "key": "Albert von Neiperg",
+   "action": "accept",
+   "label": "Albert von Neiperg",
+   "class": "person",
+   "kind": "Adliger",
+   "description_de": "seine Güter kauften die Vögte 1288",
+   "description_en": "the Vögte acquired his estates in 1288"
+  },
+  {
+   "key": "Albert von Rottow-Biber-stein",
+   "action": "accept",
+   "label": "Albert von Rottow-Biberstein",
+   "class": "person",
+   "kind": "Adliger",
+   "description_de": "verm. 1686 mit Henriette Juliane",
+   "description_en": "m. 1686 Henriette Juliane"
+  },
+  {
+   "key": "Alberti",
+   "action": "accept",
+   "label": "Alberti",
+   "class": "person",
+   "kind": "Beamter",
+   "note": "ambiguous: Justizrath Alberti (Hohenleuben), and several holders of this surname in the subscribers' list (Bürgermeister Dr., Diaconus, Geh. Justizrath)"
+  },
+  {
+   "key": "Albertine Auguste",
+   "action": "accept",
+   "label": "Albertine Auguste",
+   "class": "person",
+   "kind": "Prinzessin",
+   "description_de": "geb. 1715, † 1717",
+   "description_en": "b. 1715, d. 1717"
+  },
+  {
+   "key": "Albr. Volkmar",
+   "action": "accept",
+   "label": "Albr. Volkmar",
+   "class": "person",
+   "kind": "Gelehrter",
+   "description_de": "M., Doctorand zu Jena; Bruder des Wittenberger Professors Dr. J. G. Volkmar",
+   "description_en": "M., doctoral candidate at Jena; brother of Prof. Dr. J. G. Volkmar of Wittenberg"
+  },
+  {
+   "key": "Albrecht",
+   "action": "accept",
+   "label": "Albrecht",
+   "class": "person",
+   "kind": "Landgraf",
+   "note": "ambiguous: Landgraf Albrecht von Thüringen, König Albrecht I., a Vogt Albrecht and others"
+  },
+  {
+   "key": "Albrechts",
+   "action": "merge",
+   "into": "Albrecht"
+  },
+  {
+   "key": "Albrecht v. Fischern",
+   "action": "accept",
+   "label": "Albrecht v. Fischern",
+   "class": "person",
+   "kind": "Gutsbesitzer",
+   "description_de": "erbaute 1729 einen Schmelzofen",
+   "description_en": "built a smelting furnace in 1729"
+  },
+  {
+   "key": "Albrecht von Bamberg",
+   "action": "accept",
+   "label": "Albrecht von Bamberg",
+   "class": "person",
+   "kind": "Bischof",
+   "description_de": "Bischof von Bamberg, 1412",
+   "description_en": "bishop of Bamberg, 1412"
+  },
+  {
+   "key": "Albrecht von Brandenburg",
+   "action": "accept",
+   "label": "Albrecht von Brandenburg",
+   "class": "person",
+   "kind": "Markgraf",
+   "note": "two different men: Kurfürst Albrecht (Achilles?) 1480 (S. 360) and the unruly Markgraf Albrecht of the Reichskrieg of the 1550s (S. 361)"
+  },
+  {
+   "key": "Albrecht von Eberstein",
+   "action": "accept",
+   "label": "Albrecht von Eberstein",
+   "class": "person",
+   "kind": "Adliger",
+   "description_de": "1122 als Gaugraf von Dobenowe urkundlich",
+   "description_en": "attested in 1122 as Gaugraf of Dobenowe"
+  },
+  {
+   "key": "Albrecht von Kirchberg",
+   "action": "accept",
+   "label": "Albrecht von Kirchberg",
+   "class": "person",
+   "kind": "Adliger",
+   "description_de": "Burggraf",
+   "description_en": "burgrave"
+  },
+  {
+   "key": "Albrecht von Mainz und Magdeburg",
+   "action": "accept",
+   "label": "Albrecht von Mainz und Magdeburg",
+   "class": "person",
+   "kind": "Bischof",
+   "description_de": "Erzbischof von Mainz und Magdeburg, 1519",
+   "description_en": "archbishop of Mainz and Magdeburg, 1519"
+  },
+  {
+   "key": "Albrecht von Oesterreich",
+   "action": "accept",
+   "label": "Albrecht von Oesterreich",
+   "class": "person",
+   "kind": "Herzog",
+   "description_de": "Herzog, schreibt 1451 an den Abt zu St. Blasien",
+   "description_en": "duke; writes in 1451 to the abbot of St. Blasien"
+  },
+  {
+   "key": "Albrecht von Rochsburg",
+   "action": "accept",
+   "label": "Albrecht von Rochsburg",
+   "class": "person",
+   "kind": "Adliger",
+   "description_de": "Burggraf; verkaufte Schloss und Stadt Rochsburg",
+   "description_en": "burgrave; sold castle and town of Rochsburg"
+  },
+  {
+   "key": "Albrecht von Thüringen",
+   "action": "accept",
+   "label": "Albrecht von Thüringen",
+   "class": "person",
+   "kind": "Landgraf",
+   "description_de": "Landgraf, belehnte 1295 die Vögte mit Caaschwitz",
+   "description_en": "landgrave; enfeoffed the Vögte with Caaschwitz in 1295"
+  },
+  {
+   "key": "Albrecht, E",
+   "action": "accept",
+   "label": "E. Albrecht",
+   "class": "person",
+   "kind": "Gastgeber",
+   "note": "Subskribent (S. 835)"
+  },
+  {
+   "key": "Albrechts v. Blankenberg",
+   "action": "accept",
+   "label": "Albrecht v. Blankenberg",
+   "class": "person",
+   "kind": "Adliger",
+   "description_de": "Vater von sechs Söhnen (Asmus, Arnold, Hans, Heinrich, Albrecht, Kaspar Christoph)",
+   "description_en": "father of six sons"
+  },
+  {
+   "key": "Alenburg",
+   "action": "accept",
+   "label": "Alenburg",
+   "class": "person",
+   "kind": "Beamter",
+   "description_de": "Regierungsrat (S. 447)",
+   "description_en": "government councillor (p. 447)"
+  },
+  {
+   "key": "Alesso von Sternberg",
+   "action": "accept",
+   "label": "Alesso von Sternberg",
+   "class": "person",
+   "kind": "Adliger",
+   "description_de": "1422 von Heinrich von Plauen zum Stellvertreter ernannt",
+   "description_en": "named deputy by Heinrich von Plauen in 1422"
+  },
+  {
+   "key": "Alex. v. Kospod",
+   "action": "accept",
+   "label": "Alex. v. Kospod",
+   "class": "person",
+   "kind": "Adliger",
+   "description_de": "1608 im Duell getötet",
+   "description_en": "killed in a duel in 1608"
+  },
+  {
+   "key": "Alexander",
+   "action": "accept",
+   "label": "Alexander I.",
+   "class": "person",
+   "kind": "Kaiser",
+   "description_de": "Zar von Russland; 1813 Hauptquartier in Gera",
+   "description_en": "tsar of Russia; headquarters at Gera in 1813",
+   "note": "Brückner: „Kaiser Alexander“ (Völkerschlacht 1813)"
+  },
+  {
+   "key": "Alexander v. Eichicht",
+   "action": "accept",
+   "label": "Alexander v. Eichicht",
+   "class": "person",
+   "kind": "Adliger",
+   "description_de": "auf Langenberg, † 1579",
+   "description_en": "of Langenberg, d. 1579"
+  },
+  {
+   "key": "Alexander's d'Olbrense",
+   "action": "accept",
+   "label": "Alexander d'Olbrense",
+   "class": "person",
+   "kind": "Adliger",
+   "description_de": "Vater der Angelika, Gemahlin eines Heinrich Reuß",
+   "description_en": "father of Angelika, wife of a Heinrich Reuss"
+  },
+  {
+   "key": "Alfr. Mayer",
+   "action": "accept",
+   "label": "Alfr. Mayer",
+   "class": "person",
+   "kind": "Pfarrer",
+   "description_de": "evangelischer Pfarrer zur Zeit der Abfassung (20. Pfarrer, S. 613)",
+   "description_en": "Protestant pastor at the time of writing (20th, p. 613)"
+  },
+  {
+   "key": "Alt, Joh",
+   "action": "accept",
+   "label": "Joh. Alt",
+   "class": "person",
+   "kind": "Buchhändler",
+   "note": "Subskribent (S. 835)"
+  },
+  {
+   "key": "Amalia Esperance v. Kloster-Wartenleben",
+   "action": "accept",
+   "label": "Amalia Esperance v. Kloster-Wartenleben",
+   "class": "person",
+   "kind": "Gemahlin",
+   "description_de": "† 1787; Gemahlin Heinrichs IX. (1711–1780)",
+   "description_en": "d. 1787; wife of Heinrich IX. (1711–1780)"
+  },
+  {
+   "key": "Amalie Chriſtine",
+   "action": "accept",
+   "label": "Amalie Christine",
+   "class": "person",
+   "kind": "Prinzessin",
+   "description_de": "geb. 1658, † 1659",
+   "description_en": "b. 1658, d. 1659"
+  },
+  {
+   "key": "Amalie Jul. v. Untergreiz",
+   "action": "merge",
+   "into": "Amalie Juliane"
+  },
+  {
+   "key": "Amalie Juliane",
+   "action": "accept",
+   "label": "Amalie Juliane",
+   "class": "person",
+   "kind": "Prinzessin",
+   "description_de": "geb. 1636, † 1688; Gem. 1) Ferdinand von Bieberstein, 2) einem Heinrich Reuß",
+   "description_en": "b. 1636, d. 1688; m. 1) Ferdinand von Bieberstein, 2) a Heinrich Reuss"
+  },
+  {
+   "key": "Amalie Soph",
+   "action": "accept",
+   "label": "Amalie Sophie",
+   "class": "person",
+   "kind": "Prinzessin",
+   "description_de": "geb. 1745, † 1748",
+   "description_en": "b. 1745, d. 1748"
+  },
+  {
+   "key": "Amalie v. Hirschberg",
+   "action": "accept",
+   "label": "Amalie v. Hirschberg",
+   "class": "person",
+   "kind": "Äbtissin",
+   "description_de": "Äbtissin in Hof, 1550–1564",
+   "description_en": "abbess at Hof, 1550–1564"
+  },
+  {
+   "key": "Amalie v. Mansfeld-Heldrungen",
+   "action": "accept",
+   "label": "Amalie v. Mansfeld-Heldrungen",
+   "class": "person",
+   "kind": "Gemahlin",
+   "description_de": "2. Gemahlin Heinrichs, Herrn zu Greiz, † um 1544 als Gattin Joachims v. Gleichen",
+   "description_en": "second wife of Heinrich, lord of Greiz; d. c. 1544 as wife of Joachim v. Gleichen"
+  },
+  {
+   "key": "Amalie von Mansfeld-Heldrun=gen",
+   "action": "merge",
+   "into": "Amalie v. Mansfeld-Heldrungen"
+  },
+  {
+   "key": "Amaliens v. Hohenzollern-Sigmaringen",
+   "action": "accept",
+   "label": "Amalie v. Hohenzollern-Sigmaringen",
+   "class": "person",
+   "kind": "Prinzessin",
+   "description_de": "1. Gemahlin Eduards von Sachsen-Altenburg",
+   "description_en": "first wife of Eduard of Saxe-Altenburg"
+  },
+  {
+   "key": "Amandus v. Rohrscheidt",
+   "action": "accept",
+   "label": "Amandus v. Rohrscheidt",
+   "class": "person",
+   "kind": "Militär",
+   "description_de": "schwedischer Obrist, † 1661; Grabbild in der Kirche",
+   "description_en": "Swedish colonel, d. 1661; monument in the church"
+  },
+  {
+   "key": "Amargk von Waldenburg",
+   "action": "accept",
+   "label": "Amargk von Waldenburg",
+   "class": "person",
+   "kind": "Adliger",
+   "description_de": "1410 zur Zahlung von 2386 Gulden an einen Vogt verurteilt",
+   "description_en": "ordered in 1410 to pay 2386 gulden to a Vogt"
+  },
+  {
+   "key": "Ampach",
+   "action": "merge",
+   "into": "Christian Leop. Herm. Ampach"
+  },
+  {
+   "key": "Amthor",
+   "action": "accept",
+   "label": "Amthor",
+   "class": "person",
+   "kind": "Pfarrer",
+   "description_de": "Pastor (S. 550)",
+   "description_en": "pastor (p. 550)"
+  },
+  {
+   "key": "Andr. v. Holzapfel",
+   "action": "accept",
+   "label": "Andr. v. Holzapfel",
+   "class": "person",
+   "kind": "Adliger",
+   "description_de": "Besitzer eines Gutes; aus Steiermark",
+   "description_en": "estate owner; from Styria"
+  },
+  {
+   "key": "Andreas",
+   "action": "accept",
+   "label": "Andreas",
+   "class": "person",
+   "kind": "Heiliger",
+   "description_de": "Apostel Andreas (Attribut Kreuz, S. 136)",
+   "description_en": "the apostle Andrew (attribute: cross, p. 136)"
+  },
+  {
+   "key": "Andreas Bütner",
+   "action": "accept",
+   "label": "Andreas Bütner",
+   "class": "person",
+   "kind": "Pfarrer",
+   "description_de": "letzter katholischer und erster lutherischer Pfarrer",
+   "description_en": "last Catholic and first Lutheran pastor"
+  },
+  {
+   "key": "Andreas v. Hirschberg",
+   "action": "accept",
+   "label": "Andreas v. Hirschberg",
+   "class": "person",
+   "kind": "Adliger",
+   "description_de": "1577 erwähnt",
+   "description_en": "mentioned in 1577"
+  },
+  {
+   "key": "Andreas Wähler",
+   "action": "accept",
+   "label": "Andreas Wähler",
+   "class": "person",
+   "kind": "Gutsbesitzer",
+   "description_de": "kaufte um 1790 ein Gut von Schirmers Erben",
+   "description_en": "bought a manor from Schirmer's heirs c. 1790"
+  },
+  {
+   "key": "Andres",
+   "action": "reject",
+   "reason": "first name in a folk-song quotation (S. 191)"
+  },
+  {
+   "key": "Andres Franck",
+   "action": "accept",
+   "label": "Andres Franck",
+   "class": "person",
+   "kind": "Geistlicher",
+   "description_de": "„her Andres Franck“, 1517 auf einer Steinplatte genannt",
+   "description_en": "\"her Andres Franck\", named on a stone slab of 1517"
+  },
+  {
+   "key": "Angelika",
+   "action": "accept",
+   "label": "Angelika",
+   "class": "person",
+   "kind": "Gemahlin",
+   "description_de": "Tochter Alexanders d'Olbrense, † 1688; Gemahlin Heinrichs V. von Rothenthal",
+   "description_en": "daughter of Alexander d'Olbrense, d. 1688; wife of Heinrich V. of Rothenthal"
+  },
+  {
+   "key": "Anna",
+   "action": "accept",
+   "label": "Anna",
+   "class": "person",
+   "kind": "Prinzessin",
+   "note": "ambiguous: many women named Anna in the genealogies of the Vogt and Reuß houses"
+  },
+  {
+   "key": "Anna (Car. Louise Adelh",
+   "action": "accept",
+   "label": "Anna (Car. Louise Adelh.)",
+   "class": "person",
+   "kind": "Prinzessin",
+   "description_de": "geb. 1822; Gem. Adolph von Bentheim-Tecklenburg-Rheda",
+   "description_en": "b. 1822; m. Adolph von Bentheim-Tecklenburg-Rheda"
+  },
+  {
+   "key": "Anna Barbara",
+   "action": "accept",
+   "label": "Anna Barbara",
+   "class": "person",
+   "kind": "Prinzessin",
+   "description_de": "geb. 1585, † 1629; Gem. Wolfgang v. Schönburg-Penig",
+   "description_en": "b. 1585, d. 1629; m. Wolfgang v. Schönburg-Penig"
+  },
+  {
+   "key": "Anna Dorothea von Ruppa",
+   "action": "accept",
+   "label": "Anna Dorothea von Ruppa",
+   "class": "person",
+   "kind": "Gemahlin",
+   "description_de": "† 1698; Gemahlin Heinrichs IV. von Untergreiz",
+   "description_en": "d. 1698; wife of Heinrich IV. of Untergreiz"
+  },
+  {
+   "key": "Anna Dorothea von Schwarzburg=Sondershausen",
+   "action": "accept",
+   "label": "Anna Dorothea von Schwarzburg-Sondershausen",
+   "class": "person",
+   "kind": "Gemahlin",
+   "description_de": "Gemahlin Heinrichs IV. (1650–1686)",
+   "description_en": "wife of Heinrich IV. (1650–1686)"
+  },
+  {
+   "key": "Anna Elise v. Sinzendorf",
+   "action": "accept",
+   "label": "Anna Elise v. Sinzendorf",
+   "class": "person",
+   "kind": "Gemahlin",
+   "description_de": "† 1683; 3. Gemahlin eines Herrn Reuß",
+   "description_en": "d. 1683; third wife of a Reuss lord"
+  },
+  {
+   "key": "Anna Gebhardt",
+   "action": "accept",
+   "label": "Anna Gebhardt",
+   "class": "person",
+   "kind": "Gutsbesitzer",
+   "description_de": "Frau; kaufte 1658 die Hälfte eines Gutes",
+   "description_en": "bought half of a manor in 1658"
+  },
+  {
+   "key": "Anna Gehrhard",
+   "action": "accept",
+   "label": "Anna Gehrhard",
+   "class": "person",
+   "kind": "Gutsbesitzer",
+   "description_de": "Frau Oberst, geb. Salzmann; 1664 Besitzerin eines Gutes (S. 595)",
+   "description_en": "colonel's wife, née Salzmann; owner of a manor in 1664 (p. 595)"
+  },
+  {
+   "key": "Anna Genoveva v. Stolberg",
+   "action": "accept",
+   "label": "Anna Genoveva v. Stolberg",
+   "class": "person",
+   "kind": "Gemahlin",
+   "description_de": "† 1635; Gemahlin Heinrichs IV., Herrn von Dölau",
+   "description_en": "d. 1635; wife of Heinrich IV., lord of Dölau"
+  },
+  {
+   "key": "Anna Holicz von Sternberg",
+   "action": "accept",
+   "label": "Anna Holicz von Sternberg",
+   "class": "person",
+   "kind": "Gemahlin",
+   "description_de": "2. Gemahlin des Burggrafen Heinrich (1389–1429)",
+   "description_en": "second wife of Burgrave Heinrich (1389–1429)"
+  },
+  {
+   "key": "Anna Holycz von Sternberg",
+   "action": "merge",
+   "into": "Anna Holicz von Sternberg"
+  },
+  {
+   "key": "Anna Judith",
+   "action": "accept",
+   "label": "Anna Judith",
+   "class": "person",
+   "kind": "Prinzessin",
+   "description_de": "geb. 1619, † 1636",
+   "description_en": "b. 1619, d. 1636"
+  },
+  {
+   "key": "Anna Katharina",
+   "action": "accept",
+   "label": "Anna Katharina",
+   "class": "person",
+   "kind": "Prinzessin",
+   "description_de": "geb. 1615, † 1681",
+   "description_en": "b. 1615, d. 1681"
+  },
+  {
+   "key": "Anna Magdalena",
+   "action": "accept",
+   "label": "Anna Magdalena",
+   "class": "person",
+   "kind": "Prinzessin",
+   "description_de": "geb. 1656, † 1657",
+   "description_en": "b. 1656, d. 1657"
+  },
+  {
+   "key": "Anna Magdalena von Schönburg",
+   "action": "accept",
+   "label": "Anna Magdalena von Schönburg",
+   "class": "person",
+   "kind": "Gemahlin",
+   "description_de": "Wittwe Schenks von Lautenburg, † 1615; Gemahlin Heinrichs III. (ermordet 1616)",
+   "description_en": "widow of Schenk von Lautenburg, d. 1615; wife of Heinrich III. (murdered 1616)"
+  },
+  {
+   "key": "Anna Margar. v. Carlowitz",
+   "action": "accept",
+   "label": "Anna Margar. v. Carlowitz",
+   "class": "person",
+   "kind": "Adlige",
+   "description_de": "geb. v. Raschau; 1669 Besitzerin eines Gutes",
+   "description_en": "née v. Raschau; owner of a manor in 1669"
+  },
+  {
+   "key": "Anna Maria",
+   "action": "accept",
+   "label": "Anna Maria",
+   "class": "person",
+   "kind": "Stifterin",
+   "description_de": "Ehefrau des Rathskämmerers J. Christian Strauß zu Gera; stiftete 1730 ein Stipendium (S. 305)",
+   "description_en": "wife of the town treasurer J. Christian Strauß of Gera; founded a stipend in 1730",
+   "note": "ambiguous first name"
+  },
+  {
+   "key": "Anna Maria Haynisch",
+   "action": "accept",
+   "label": "Anna Maria Haynisch",
+   "class": "person",
+   "kind": "Stifterin",
+   "description_de": "Frau Oberpfarrer; Legat (S. 308)",
+   "description_en": "wife of the senior pastor; bequest (p. 308)"
+  },
+  {
+   "key": "Anna Marie",
+   "action": "accept",
+   "label": "Anna Marie",
+   "class": "person",
+   "kind": "Prinzessin",
+   "note": "ambiguous: several women of the house of Reuß (e.g. b. 1583, d. 1636; b. 1868)"
+  },
+  {
+   "key": "Anna Marie, Wild- und Rheingräfin von Neufville",
+   "action": "accept",
+   "label": "Anna Marie, Wild- und Rheingräfin von Neufville",
+   "class": "person",
+   "kind": "Gemahlin",
+   "description_de": "Gemahlin Heinrichs V. von Untergreiz (1602–1667)",
+   "description_en": "wife of Heinrich V. of Untergreiz (1602–1667)"
+  },
+  {
+   "key": "Anna Nitschmann",
+   "action": "accept",
+   "label": "Anna Nitschmann",
+   "class": "person",
+   "kind": "Gemahlin",
+   "description_de": "Gemahlin Zinzendorfs, † 1760",
+   "description_en": "wife of Zinzendorf, d. 1760"
+  },
+  {
+   "key": "Anna Sophie",
+   "action": "accept",
+   "label": "Anna Sophie",
+   "class": "person",
+   "kind": "Prinzessin",
+   "description_de": "geb. 1691, † 1723",
+   "description_en": "b. 1691, d. 1723"
+  },
+  {
+   "key": "Anna v. Colditz",
+   "action": "accept",
+   "label": "Anna v. Colditz",
+   "class": "person",
+   "kind": "Gemahlin",
+   "description_de": "1. Gemahlin eines Herrn zu Greiz, † 1535",
+   "description_en": "first wife of a lord of Greiz"
+  },
+  {
+   "key": "Anna v. Knobloch",
+   "action": "accept",
+   "label": "Anna v. Knobloch",
+   "class": "person",
+   "kind": "Nonne",
+   "description_de": "Nonne (Kloster Cronschwitz)",
+   "description_en": "nun (Cronschwitz convent)"
+  },
+  {
+   "key": "Anna v. Mansfeld-Schraplau",
+   "action": "accept",
+   "label": "Anna v. Mansfeld-Schraplau",
+   "class": "person",
+   "kind": "Gemahlin",
+   "description_de": "† 1636; 2. Gemahlin Heinrichs von Burgk",
+   "description_en": "d. 1636; second wife of Heinrich of Burgk"
+  },
+  {
+   "key": "Anna v. Pleß-Hochberg-Fürstenstein",
+   "action": "accept",
+   "label": "Anna v. Pleß-Hochberg-Fürstenstein",
+   "class": "person",
+   "kind": "Gemahlin",
+   "description_de": "verm. 1858 mit Heinrich XII. (1829–1866)",
+   "description_en": "m. 1858 Heinrich XII. (1829–1866)"
+  },
+  {
+   "key": "Anna v. Pommern",
+   "action": "accept",
+   "label": "Anna v. Pommern",
+   "class": "person",
+   "kind": "Gemahlin",
+   "description_de": "Wittwe Carls v. Anhalt, † 1592 als Gem. des Jobst von Barby; 2. Gemahlin Heinrichs VII. (1536–1572)",
+   "description_en": "widow of Carl of Anhalt, d. 1592 as wife of Jobst von Barby"
+  },
+  {
+   "key": "Anna v. Schönburg",
+   "action": "accept",
+   "label": "Anna v. Schönburg",
+   "class": "person",
+   "kind": "Gemahlin",
+   "description_de": "Gemahlin Heinrichs d. m., † vor 1426",
+   "description_en": "wife of Heinrich d. m., d. before 1426"
+  },
+  {
+   "key": "Anna von Schönburg",
+   "action": "merge",
+   "into": "Anna v. Schönburg"
+  },
+  {
+   "key": "Anna v. Stolberg",
+   "action": "accept",
+   "label": "Anna v. Stolberg",
+   "class": "person",
+   "kind": "Gemahlin",
+   "description_de": "1. Gemahlin eines Herrn zu Greiz und Kranichfeld",
+   "description_en": "first wife of a lord of Greiz and Kranichfeld"
+  },
+  {
+   "key": "Anna v. Weida",
+   "action": "accept",
+   "label": "Anna v. Weida",
+   "class": "person",
+   "kind": "Gemahlin",
+   "description_de": "Gemahlin Heinrichs des Strengen von Greiz (1327–1359); überlebte ihn",
+   "description_en": "wife of Heinrich the Severe of Greiz (1327–1359)"
+  },
+  {
+   "key": "Anna von Weida",
+   "action": "merge",
+   "into": "Anna v. Weida"
+  },
+  {
+   "key": "Anna v. Zedlitz-Leipe",
+   "action": "accept",
+   "label": "Anna v. Zedlitz-Leipe",
+   "class": "person",
+   "kind": "Gemahlin",
+   "description_de": "auf Zülzendorf, verm. 1852 mit Heinrich IX.",
+   "description_en": "of Zülzendorf, m. 1852 Heinrich IX."
+  },
+  {
+   "key": "Anna von Beichlingen",
+   "action": "accept",
+   "label": "Anna von Beichlingen",
+   "class": "person",
+   "kind": "Gemahlin",
+   "description_de": "2. Gemahlin eines Herrn zu Gera; Mutter zweier Töchter (Magdalena u. a.)",
+   "description_en": "second wife of a lord of Gera; mother of two daughters"
+  },
+  {
+   "key": "Anna von Gera und Schleiz",
+   "action": "accept",
+   "label": "Anna von Gera und Schleiz",
+   "class": "person",
+   "kind": "Adlige",
+   "description_de": "Frau von Gera und Schleiz; hält 1460 und 1467 Gericht zu Schleiz",
+   "description_en": "lady of Gera and Schleiz; holds court at Schleiz in 1460 and 1467"
+  },
+  {
+   "key": "Anna von Henneberg-Römhild",
+   "action": "accept",
+   "label": "Anna von Henneberg-Römhild",
+   "class": "person",
+   "kind": "Gemahlin",
+   "description_de": "† nach 1467; Gemahlin Heinrichs d. j. von Gera und Lobenstein",
+   "description_en": "d. after 1467; wife of Heinrich d. j. of Gera and Lobenstein"
+  },
+  {
+   "key": "Anna von Riesenburg",
+   "action": "accept",
+   "label": "Anna von Riesenburg",
+   "class": "person",
+   "kind": "Gemahlin",
+   "description_de": "Gemahlin eines Vogts; erhält 1383 eine Verschreibung auf Auerbach",
+   "description_en": "wife of a Vogt; receives an assignment on Auerbach in 1383"
+  },
+  {
+   "key": "Antiquus de Gera",
+   "action": "accept",
+   "label": "Antiquus de Gera",
+   "class": "person",
+   "kind": "Vogt",
+   "note": "lateinische Bezeichnung einer der fünf Vogtslinien (Gera), S. 271"
+  },
+  {
+   "key": "Anton Friedrich Hohl",
+   "action": "accept",
+   "label": "Anton Friedrich Hohl",
+   "class": "person",
+   "kind": "Gelehrter",
+   "description_de": "geb. 1789, Professor der Medicin zu Halle",
+   "description_en": "b. 1789, professor of medicine at Halle"
+  },
+  {
+   "key": "Anton Wall",
+   "action": "merge",
+   "into": "Chr. L. Heyne"
+  },
+  {
+   "key": "Anton, Ed",
+   "action": "accept",
+   "label": "Ed. Anton",
+   "class": "person",
+   "kind": "Buchhändler",
+   "note": "Subskribent (S. 835)"
+  },
+  {
+   "key": "Antonie Sophie",
+   "action": "accept",
+   "label": "Antonie Sophie",
+   "class": "person",
+   "kind": "Prinzessin",
+   "description_de": "geb. 1685, † 1758",
+   "description_en": "b. 1685, d. 1758"
+  },
+  {
+   "key": "Apel von Vitzthum",
+   "action": "accept",
+   "label": "Apel von Vitzthum",
+   "class": "person",
+   "kind": "Adliger",
+   "description_de": "Rat Herzog Wilhelms von Sachsen (Altenburger Prinzenraub 1455)",
+   "description_en": "adviser of Duke Wilhelm of Saxony"
+  },
+  {
+   "key": "Apel von Vizthum",
+   "action": "merge",
+   "into": "Apel von Vitzthum"
+  },
+  {
+   "key": "Ardal",
+   "action": "accept",
+   "label": "Ardal",
+   "class": "person",
+   "kind": "Sagengestalt",
+   "description_de": "Sohn eines Besitzers der Häselburg in der Sage (S. 442)",
+   "description_en": "son of an owner of the Häselburg in the legend (p. 442)"
+  },
+  {
+   "key": "Aribo",
+   "action": "accept",
+   "label": "Aribo",
+   "class": "person",
+   "kind": "Adliger",
+   "description_de": "Edler aus dem Haus Gleißberg bei Jena; erhielt um 970 mit seinem Bruder Sizzo Güter bei Weida",
+   "description_en": "nobleman of the house of Gleißberg near Jena; received estates near Weida c. 970"
+  },
+  {
+   "key": "Arn von Würzburg",
+   "action": "accept",
+   "label": "Arn von Würzburg",
+   "class": "person",
+   "kind": "Bischof",
+   "description_de": "Bischof; 892 Kriegszug gegen die Sorben",
+   "description_en": "bishop; campaign against the Sorbs in 892"
+  },
+  {
+   "key": "Arnold",
+   "action": "accept",
+   "label": "Arnold",
+   "class": "person",
+   "kind": "Adliger",
+   "note": "Sohn des Albrecht v. Blankenberg (um 1550); not identical with Arnold v. Blankenberg (1392)"
+  },
+  {
+   "key": "Arnold v. Blankenberg",
+   "action": "accept",
+   "label": "Arnold v. Blankenberg",
+   "class": "person",
+   "kind": "Adliger",
+   "description_de": "1392 erwähnt",
+   "description_en": "mentioned in 1392"
+  },
+  {
+   "key": "Arnold von Lübeck",
+   "action": "accept",
+   "label": "Arnold von Lübeck",
+   "class": "person",
+   "kind": "Schriftsteller",
+   "description_de": "Historiker (Chronist), † 1212",
+   "description_en": "historian (chronicler), d. 1212"
+  },
+  {
+   "key": "Aschenbach",
+   "action": "accept",
+   "label": "Aschenbach",
+   "class": "person",
+   "kind": "Arzt",
+   "description_de": "Dr. Aschenbach zu Lobenstein, Badearzt (S. 172, 721)",
+   "description_en": "Dr. Aschenbach of Lobenstein, spa physician"
+  },
+  {
+   "key": "Asmus",
+   "action": "accept",
+   "label": "Asmus",
+   "class": "person",
+   "kind": "Adliger",
+   "description_de": "Sohn des Albrecht v. Blankenberg (um 1550)",
+   "description_en": "son of Albrecht v. Blankenberg (c. 1550)"
+  },
+  {
+   "key": "Attila",
+   "action": "accept",
+   "label": "Attila",
+   "class": "person",
+   "kind": "König",
+   "description_de": "König der Hunnen (Sage vom Hunnenacker bei Zschippern)",
+   "description_en": "king of the Huns (legend of the Hunnenacker near Zschippern)"
+  },
+  {
+   "key": "Aug. Dorothea v. Hohenlohe-Langenburg",
+   "action": "accept",
+   "label": "Aug. Dorothea v. Hohenlohe-Langenburg",
+   "class": "person",
+   "kind": "Gemahlin",
+   "description_de": "† 1740; 2. Gemahlin eines Grafen Reuß",
+   "description_en": "d. 1740; second wife of a Count Reuss"
+  },
+  {
+   "key": "Aug. Horn",
+   "action": "accept",
+   "label": "Aug. Horn",
+   "class": "person",
+   "kind": "Handwerker",
+   "description_de": "Kunsttischler; Arbeiter der Möbel auf Weidmannsheil",
+   "description_en": "cabinetmaker; made the furniture at Weidmannsheil"
+  },
+  {
+   "key": "Aug. Ludw. v. Spangenberg",
+   "action": "accept",
+   "label": "Aug. Ludw. v. Spangenberg",
+   "class": "person",
+   "kind": "Gutsbesitzer",
+   "description_de": "Rittergutsbesitzer; leitete um 1800 Röhrwasser her",
+   "description_en": "manor owner; brought spring water by pipe c. 1800"
+  },
+  {
+   "key": "August von Sachsen",
+   "action": "accept",
+   "label": "August von Sachsen",
+   "class": "person",
+   "kind": "Kurfürst",
+   "description_de": "Kurfürst von Sachsen (16. Jh.)",
+   "description_en": "Elector of Saxony (16th c.)"
+  },
+  {
+   "key": "Auguste",
+   "action": "accept",
+   "label": "Auguste",
+   "class": "person",
+   "kind": "Prinzessin",
+   "note": "ambiguous: several princesses of the house of Reuß (b. 1757, b. 1794, …)"
+  },
+  {
+   "key": "Auguste Ernestine Sophie",
+   "action": "accept",
+   "label": "Auguste Ernestine Sophie",
+   "class": "person",
+   "kind": "Prinzessin",
+   "description_de": "geb. 1698, † 1710",
+   "description_en": "b. 1698, d. 1710"
+  },
+  {
+   "key": "Auguste Isabella",
+   "action": "accept",
+   "label": "Auguste Isabella",
+   "class": "person",
+   "kind": "Prinzessin",
+   "description_de": "geb. 1752, † 1824; Gem. Georg Wilh. v. Kirchberg",
+   "description_en": "b. 1752, d. 1824; m. Georg Wilh. v. Kirchberg"
+  },
+  {
+   "key": "Auguste v. Riedesel",
+   "action": "accept",
+   "label": "Auguste v. Riedesel",
+   "class": "person",
+   "kind": "Gemahlin",
+   "description_de": "† 1805; 2. Gemahlin eines Fürsten Reuß",
+   "description_en": "d. 1805; second wife of a Reuss prince"
+  },
+  {
+   "key": "Avianus",
+   "action": "accept",
+   "label": "Avianus",
+   "class": "person",
+   "kind": "Posthalter",
+   "note": "Subskribent (S. 835)"
+  },
+  {
+   "key": "B. Groh",
+   "action": "merge",
+   "into": "Barthol. Groh"
+  },
+  {
+   "key": "B. v. Watzdorf",
+   "action": "accept",
+   "label": "B. v. Watzdorf",
+   "class": "person",
+   "kind": "Adliger",
+   "description_de": "1496 Besitzer eines Rittergutes (S. 745)",
+   "description_en": "owner of a manor in 1496 (p. 745)",
+   "note": "possibly identical with Bernhard v. Watzdorf (p. 756)"
+  },
+  {
+   "key": "Babette Benigne v. Wenz zum Lahnstein",
+   "action": "accept",
+   "label": "Babette Benigne v. Wenz zum Lahnstein",
+   "class": "person",
+   "kind": "Gemahlin",
+   "description_de": "geb. 1777, verm. 1805, † 1838; Gemahlin Heinrichs XVII.",
+   "description_en": "b. 1777, m. 1805, d. 1838; wife of Heinrich XVII."
+  },
+  {
+   "key": "Baerecke",
+   "action": "accept",
+   "label": "Baerecke",
+   "class": "person",
+   "kind": "Buchhändler",
+   "note": "Subskribent (Hofbuchhandlung, S. 835)"
+  },
+  {
+   "key": "Bahrt",
+   "action": "accept",
+   "label": "Bahrt",
+   "class": "person",
+   "kind": "Geistlicher",
+   "description_de": "einer der ersten Pfarrer von Hirschberg (streitlustig)",
+   "description_en": "one of the early pastors of Hirschberg"
+  },
+  {
+   "key": "Balduin Conrad",
+   "action": "accept",
+   "label": "Balduin Conrad",
+   "class": "person",
+   "kind": "Fabrikant",
+   "description_de": "Förderer der Geraer Industrie und des Handels nach Smit",
+   "description_en": "promoter of Gera's industry and trade after Smit"
+  },
+  {
+   "key": "Balthasar",
+   "action": "accept",
+   "label": "Balthasar von Thüringen",
+   "class": "person",
+   "kind": "Landgraf",
+   "description_de": "Landgraf von Thüringen, 14. Jh.",
+   "description_en": "landgrave of Thuringia, 14th c.",
+   "note": "Brückner: „die thüringer Landgrafen Balthasar und Wilhelm“ (1379)"
+  },
+  {
+   "key": "Balthasar Erdmann v. Prommnitz",
+   "action": "accept",
+   "label": "Balthasar Erdmann v. Prommnitz",
+   "class": "person",
+   "kind": "Adliger",
+   "description_de": "† 1703; 1. Gemahl der Emilie Agnes",
+   "description_en": "d. 1703; first husband of Emilie Agnes"
+  },
+  {
+   "key": "Balthasar Schwarz",
+   "action": "accept",
+   "label": "Balthasar Schwarz",
+   "class": "person",
+   "kind": "Unternehmer",
+   "description_de": "Schwiegersohn des Hammermeisters Hans Schultes; belebte das Hammerwerk nach dem 30jährigen Krieg",
+   "description_en": "son-in-law of the hammer-master Hans Schultes"
+  },
+  {
+   "key": "Balthasar v. Kospod",
+   "action": "accept",
+   "label": "Balthasar v. Kospod",
+   "class": "person",
+   "kind": "Adliger",
+   "description_de": "† 1611; Denkmal in der Kirche",
+   "description_en": "d. 1611; monument in the church"
+  },
+  {
+   "key": "Banner",
+   "action": "accept",
+   "label": "Banér",
+   "class": "person",
+   "kind": "Militär",
+   "description_de": "schwedischer Feldherr im 30jährigen Krieg (1640 Einäscherung von Görkwitz)",
+   "description_en": "Swedish general in the Thirty Years' War"
+  },
+  {
+   "key": "Barbara",
+   "action": "accept",
+   "label": "Barbara",
+   "class": "person",
+   "kind": "Prinzessin",
+   "note": "ambiguous: St. Barbara (S. 136), daughters of the Vogt families, nuns"
+  },
+  {
+   "key": "Barbara d. j",
+   "action": "accept",
+   "label": "Barbara d. j.",
+   "class": "person",
+   "kind": "Nonne",
+   "description_de": "Nonne zu Cronschwitz",
+   "description_en": "nun at Cronschwitz"
+  },
+  {
+   "key": "Barbara d. ä",
+   "action": "accept",
+   "label": "Barbara d. ä.",
+   "class": "person",
+   "kind": "Nonne",
+   "description_de": "Nonne zu Cronschwitz, † nach September 1402",
+   "description_en": "nun at Cronschwitz, d. after Sept. 1402"
+  },
+  {
+   "key": "Barbara v. Anhalt",
+   "action": "accept",
+   "label": "Barbara v. Anhalt",
+   "class": "person",
+   "kind": "Gemahlin",
+   "description_de": "verm. 1503; Gemahlin Heinrichs IV. (1482–1520); † 1537",
+   "description_en": "m. 1503; wife of Heinrich IV. (1482–1520); d. 1537"
+  },
+  {
+   "key": "Barbara von Anhalt",
+   "action": "merge",
+   "into": "Barbara v. Anhalt"
+  },
+  {
+   "key": "Barbara v. Metsch",
+   "action": "accept",
+   "label": "Barbara v. Metsch",
+   "class": "person",
+   "kind": "Gemahlin",
+   "description_de": "2. Gemahlin Heinrichs d. ä. von Untergreiz († 1580)",
+   "description_en": "second wife of Heinrich d. ä. of Untergreiz (d. 1580)"
+  },
+  {
+   "key": "Barbara von Metsch",
+   "action": "merge",
+   "into": "Barbara v. Metsch"
+  },
+  {
+   "key": "Barnim",
+   "action": "accept",
+   "label": "Barnim von Pommern",
+   "class": "person",
+   "kind": "Herzog",
+   "description_de": "Herzog von Pommern; Vater der Anna v. Pommern",
+   "description_en": "duke of Pomerania; father of Anna v. Pommern"
+  },
+  {
+   "key": "Baron v. Herzberg",
+   "action": "accept",
+   "label": "Baron v. Herzberg",
+   "class": "person",
+   "kind": "Adliger",
+   "description_de": "Besitzer einer Ziegelei (S. 530)",
+   "description_en": "owner of a brickworks (p. 530)"
+  },
+  {
+   "key": "Barth",
+   "action": "accept",
+   "label": "Barth",
+   "class": "person",
+   "kind": "Geistlicher",
+   "description_de": "Salvatordiaconus zu Gera (13.)",
+   "description_en": "Salvator deacon at Gera (13th)"
+  },
+  {
+   "key": "Barthol. Groh",
+   "action": "accept",
+   "label": "Barthol. Groh",
+   "class": "person",
+   "kind": "Pfarrer",
+   "description_de": "1548 Pfarrer zu Heinersdorf; schrieb eine Hauschronik",
+   "description_en": "pastor at Heinersdorf in 1548; wrote a house chronicle"
+  },
+  {
+   "key": "Barthol. Rosinus",
+   "action": "accept",
+   "label": "Barthol. Rosinus",
+   "class": "person",
+   "kind": "Geistlicher",
+   "description_de": "Superintendent zu Waldenburg (1567)",
+   "description_en": "superintendent at Waldenburg (1567)"
+  },
+  {
+   "key": "Bartholomäus",
+   "action": "accept",
+   "label": "Bartholomäus",
+   "class": "person",
+   "kind": "Heiliger",
+   "description_de": "Apostel Bartholomäus",
+   "description_en": "the apostle Bartholomew"
+  },
+  {
+   "key": "Bartsch",
+   "action": "accept",
+   "label": "Bartsch",
+   "class": "person",
+   "kind": "Beamter",
+   "description_de": "Kammercommissionsrath, geb. 1750 zu Leipzig, † 1828 zu Gera; Wohltäter des Gymnasiums",
+   "description_en": "Kammercommissionsrath, b. 1750 Leipzig, d. 1828 Gera; benefactor of the Gymnasium"
+  },
+  {
+   "key": "Bauer",
+   "action": "accept",
+   "label": "Bauer",
+   "class": "person",
+   "kind": "Kaufmann",
+   "note": "Fragment der Subskribentenzeile „Bauer, Gust., Kaufmann“ (S. 835)"
+  },
+  {
+   "key": "Bauer, Gust",
+   "action": "accept",
+   "label": "Gust. Bauer",
+   "class": "person",
+   "kind": "Kaufmann",
+   "note": "Subskribent (S. 835)"
+  },
+  {
+   "key": "Baumg",
+   "action": "reject",
+   "reason": "botanical author abbreviation (Baumgarten) in a Latin plant name, not a person discussed"
+  },
+  {
+   "key": "Baumgärtel",
+   "action": "accept",
+   "label": "Baumgärtel",
+   "class": "person",
+   "kind": "Ökonom",
+   "note": "Subskribent (S. 835)"
+  },
+  {
+   "key": "Beate Antonie Auguſte",
+   "action": "accept",
+   "label": "Beate Antonie Auguste",
+   "class": "person",
+   "kind": "Prinzessin",
+   "description_de": "geb. 1723, † 1797",
+   "description_en": "b. 1723, d. 1797"
+  },
+  {
+   "key": "Beate Henriette v. Solms-Laubach",
+   "action": "accept",
+   "label": "Beate Henriette v. Solms-Laubach",
+   "class": "person",
+   "kind": "Gemahlin",
+   "description_de": "† 1757; Gemahlin Heinrichs XXIII.",
+   "description_en": "d. 1757; wife of Heinrich XXIII."
+  },
+  {
+   "key": "Beatrix",
+   "action": "accept",
+   "label": "Beatrix von Meran",
+   "class": "person",
+   "kind": "Adlige",
+   "description_de": "aus dem Hause Meran; Gemahlin des Grafen Hermann v. Orlamünde",
+   "description_en": "of the house of Meran; wife of Count Hermann of Orlamünde",
+   "note": "Brückner: „meraner Beatrix“, Mutter der Sophie, Erbin des Regnitzlandes"
+  },
+  {
+   "key": "Becher",
+   "action": "accept",
+   "label": "Becher",
+   "class": "person",
+   "kind": "Geistlicher",
+   "description_de": "Diaconus medius zu Gera (18.)",
+   "description_en": "deacon medius at Gera (18th)"
+  },
+  {
+   "key": "Becker",
+   "action": "accept",
+   "label": "Becker",
+   "class": "person",
+   "kind": "Lehrer",
+   "note": "Subskribent (S. 835)"
+  },
+  {
+   "key": "Behr",
+   "action": "accept",
+   "label": "Behr",
+   "class": "person",
+   "kind": "Arzt",
+   "description_de": "Dr. Behr (1844 Schilbach)",
+   "description_en": "Dr. Behr"
+  },
+  {
+   "key": "Benigne Marie",
+   "action": "accept",
+   "label": "Benigne Marie",
+   "class": "person",
+   "kind": "Prinzessin",
+   "description_de": "Gräfin, geb. 1695, † 1751; Schwester der Erdmuthe Dorothea Zinzendorf; sprachkundig",
+   "description_en": "countess, b. 1695, d. 1751; sister of Erdmuthe Dorothea Zinzendorf"
+  },
+  {
+   "key": "Benigne Renate",
+   "action": "accept",
+   "label": "Benigne Renate",
+   "class": "person",
+   "kind": "Prinzessin",
+   "description_de": "geb. 1722, † 1747",
+   "description_en": "b. 1722, d. 1747"
+  },
+  {
+   "key": "Berchta",
+   "action": "accept",
+   "label": "Berchta",
+   "class": "person",
+   "kind": "Sagengestalt",
+   "note": "ambiguous: Frau Holle/Berchta, mythological figure (S. 313), and Berchta (Bertha), wife of a Vogt (S. 329)"
+  },
+  {
+   "key": "Bergmann",
+   "action": "accept",
+   "label": "Bergmann",
+   "class": "person",
+   "kind": "Stifter",
+   "description_de": "Legat (S. 308)",
+   "description_en": "bequest (p. 308)"
+  },
+  {
+   "key": "Bergner",
+   "action": "accept",
+   "label": "Bergner",
+   "class": "person",
+   "kind": "Subskribent",
+   "note": "Subskribent (S. 836)"
+  },
+  {
+   "key": "Bernh. v. Kutschenbach",
+   "action": "accept",
+   "label": "Bernh. v. Kutschenbach",
+   "class": "person",
+   "kind": "Militär",
+   "description_de": "Hauptmann; Gutsbesitzer",
+   "description_en": "captain; estate owner"
+  },
+  {
+   "key": "Bernhard",
+   "action": "accept",
+   "label": "Bernhard",
+   "class": "person",
+   "kind": "Adliger",
+   "note": "ambiguous: son of Heinrich d. ä. (Vögte, S. 329/331) and others"
+  },
+  {
+   "key": "Bernhard Moor",
+   "action": "accept",
+   "label": "Bernhard Moor",
+   "class": "person",
+   "kind": "Bürger",
+   "description_de": "1225 in Gera erwähnt",
+   "description_en": "mentioned in Gera in 1225"
+  },
+  {
+   "key": "Bernhard v. Schauroth",
+   "action": "accept",
+   "label": "Bernhard v. Schauroth",
+   "class": "person",
+   "kind": "Adliger",
+   "description_de": "Grabstein in der herrschaftlichen Kapelle",
+   "description_en": "gravestone in the manorial chapel"
+  },
+  {
+   "key": "Bernhard v. Watzdorf",
+   "action": "accept",
+   "label": "Bernhard v. Watzdorf",
+   "class": "person",
+   "kind": "Adliger",
+   "description_de": "verkaufte 1496 ein Rittergut an Jobst v. Drachdorf",
+   "description_en": "sold a manor to Jobst v. Drachdorf in 1496"
+  },
+  {
+   "key": "Berth. Bucklisch",
+   "action": "accept",
+   "label": "Berth. Bucklisch",
+   "class": "person",
+   "kind": "Lehrer",
+   "description_de": "Ortslehrer, 1659 wegen übeln Wandels abgesetzt",
+   "description_en": "village teacher, dismissed in 1659"
+  },
+  {
+   "key": "Bertha",
+   "action": "accept",
+   "label": "Bertha",
+   "class": "person",
+   "kind": "Adlige",
+   "description_de": "Frau Bertha, Gemahlin Heinrichs von Weida",
+   "description_en": "wife of Heinrich of Weida"
+  },
+  {
+   "key": "Berthold",
+   "action": "accept",
+   "label": "Berthold",
+   "class": "person",
+   "kind": "Adliger",
+   "note": "ambiguous: Berthold v. Techwitz (14th c.), a chaplain Berthold (1344)"
+  },
+  {
+   "key": "Berthold v. Drardorf",
+   "action": "accept",
+   "label": "Berthold v. Drardorf",
+   "class": "person",
+   "kind": "Adliger",
+   "description_de": "1551 von Burggraf Heinrich V. belehnt",
+   "description_en": "enfeoffed by Burgrave Heinrich V. in 1551"
+  },
+  {
+   "key": "Berthold v. Techwitz",
+   "action": "accept",
+   "label": "Berthold v. Techwitz",
+   "class": "person",
+   "kind": "Adliger",
+   "description_de": "15. Jh. Besitzer eines Gutes",
+   "description_en": "owner of a manor, 15th c."
+  },
+  {
+   "key": "Berthold von Mainz",
+   "action": "accept",
+   "label": "Berthold von Mainz",
+   "class": "person",
+   "kind": "Bischof",
+   "description_de": "Erzbischof von Mainz, Oheim der Margarethe",
+   "description_en": "archbishop of Mainz"
+  },
+  {
+   "key": "Berthold von Naumburg",
+   "action": "accept",
+   "label": "Berthold von Naumburg",
+   "class": "person",
+   "kind": "Bischof",
+   "description_de": "Bischof von Naumburg (12. Jh.)",
+   "description_en": "bishop of Naumburg (12th c.)"
+  },
+  {
+   "key": "Bertoldus de Kula",
+   "action": "accept",
+   "label": "Bertoldus de Kula",
+   "class": "person",
+   "kind": "Adliger",
+   "description_de": "Zeuge in Urkunden",
+   "description_en": "witness in charters"
+  },
+  {
+   "key": "Bertram",
+   "action": "accept",
+   "label": "Bertram",
+   "class": "person",
+   "kind": "Subskribent",
+   "note": "Subskribent (S. 836)"
+  },
+  {
+   "key": "Besserer",
+   "action": "accept",
+   "label": "Besserer",
+   "class": "person",
+   "kind": "Pfarrer",
+   "description_de": "Pfarrer, 1566 von der Pest getötet",
+   "description_en": "pastor, killed by the plague in 1566"
+  },
+  {
+   "key": "Beuchel, G",
+   "action": "accept",
+   "label": "G. Beuchel",
+   "class": "person",
+   "kind": "Subskribent",
+   "note": "Subskribent (S. 836)"
+  },
+  {
+   "key": "Beyer",
+   "action": "accept",
+   "label": "Beyer",
+   "class": "person",
+   "kind": "Subskribent",
+   "note": "Subskribent (S. 836)"
+  },
+  {
+   "key": "Bilburg v. Schwarzburg-Leutenberg",
+   "action": "accept",
+   "label": "Bilburg v. Schwarzburg-Leutenberg",
+   "class": "person",
+   "kind": "Gemahlin",
+   "description_de": "Gemahlin Heinrichs b. ä. (1404–1439)",
+   "description_en": "wife of Heinrich b. ä. (1404–1439)"
+  },
+  {
+   "key": "Bindewald, Jul",
+   "action": "accept",
+   "label": "Jul. Bindewald",
+   "class": "person",
+   "kind": "Subskribent",
+   "note": "Subskribent (S. 836)"
+  },
+  {
+   "key": "Bischof von Bamberg",
+   "action": "reject",
+   "reason": "office without a personal name (cf. Albrecht von Bamberg)"
+  },
+  {
+   "key": "Bischoff",
+   "action": "accept",
+   "label": "Bischoff",
+   "class": "person",
+   "kind": "Direktor",
+   "description_de": "Director zu Lehesten; Wetterbeobachtungen 1868",
+   "description_en": "director at Lehesten; weather observations 1868"
+  },
+  {
+   "key": "Blank",
+   "action": "accept",
+   "label": "Blank",
+   "class": "person",
+   "kind": "Subskribent",
+   "note": "Subskribent (S. 836)"
+  },
+  {
+   "key": "Blasius Gentschel",
+   "action": "accept",
+   "label": "Blasius Gentschel",
+   "class": "person",
+   "kind": "Geistlicher",
+   "description_de": "letzter katholischer Pfarrer, zugleich Schloßcaplan auf Osterstein (1533)",
+   "description_en": "last Catholic pastor and castle chaplain at Osterstein (1533)"
+  },
+  {
+   "key": "Bleitner",
+   "action": "accept",
+   "label": "Bleitner",
+   "class": "person",
+   "kind": "Geistlicher",
+   "description_de": "Diaconus; von Kroaten am Altar ermordet (S. 668)",
+   "description_en": "deacon; murdered by Croats at the altar (p. 668)"
+  },
+  {
+   "key": "BLUCHRIA von Reitzenstein",
+   "action": "accept",
+   "label": "Bluchria von Reitzenstein",
+   "class": "person",
+   "kind": "Adlige",
+   "description_de": "geb. von Blankenberg; Grabinschrift (S. 787)",
+   "description_en": "née von Blankenberg; epitaph (p. 787)"
+  },
+  {
+   "key": "Blum",
+   "action": "accept",
+   "label": "Blum",
+   "class": "person",
+   "kind": "Politiker",
+   "description_de": "einer der 1848 berühmt gewordenen Demokraten Blum, Todt und Wirth",
+   "description_en": "one of the democrats Blum, Todt and Wirth famous in 1848",
+   "note": "probably Robert Blum"
+  },
+  {
+   "key": "Bodenhausen",
+   "action": "accept",
+   "label": "Bodenhausen",
+   "class": "person",
+   "kind": "Subskribent",
+   "note": "Subskribent (S. 836)"
+  },
+  {
+   "key": "Bogislav Felix v. Lobkowitz und Hassenstein",
+   "action": "accept",
+   "label": "Bogislav Felix v. Lobkowitz und Hassenstein",
+   "class": "person",
+   "kind": "Adliger",
+   "description_de": "Gemahl der Margaretha",
+   "description_en": "husband of Margaretha"
+  },
+  {
+   "key": "Bohemund",
+   "action": "accept",
+   "label": "Bohemund",
+   "class": "person",
+   "kind": "Bischof",
+   "description_de": "Bischof; stellte 1384 einen Indulgenzbrief aus",
+   "description_en": "bishop; issued an indulgence in 1384"
+  },
+  {
+   "key": "Bonifacius",
+   "action": "accept",
+   "label": "Bonifatius",
+   "class": "person",
+   "kind": "Heiliger",
+   "description_de": "Apostel der Deutschen",
+   "description_en": "apostle of the Germans"
+  },
+  {
+   "key": "Bose",
+   "action": "accept",
+   "label": "Bose",
+   "class": "person",
+   "kind": "Adelsfamilie",
+   "note": "Familienname (S. 659): die Adligen v. Watzdorf, Schütze und Bose"
+  },
+  {
+   "key": "Bowen Kegler",
+   "action": "accept",
+   "label": "Bowen Kegler",
+   "class": "person",
+   "kind": "Bürger",
+   "description_de": "Gespensterspuk in Bowen Keglers Haus (S. 626)",
+   "description_en": "ghost haunting in Bowen Kegler's house (p. 626)"
+  },
+  {
+   "key": "Brandenstein",
+   "action": "accept",
+   "label": "Brandenstein",
+   "class": "person",
+   "kind": "Militär",
+   "description_de": "Rittmeister v. Brandenstein auf Hayn",
+   "description_en": "cavalry captain v. Brandenstein of Hayn"
+  },
+  {
+   "key": "Braune",
+   "action": "accept",
+   "label": "Braune",
+   "class": "person",
+   "kind": "Subskribent",
+   "note": "Subskribent (S. 836)"
+  },
+  {
+   "key": "Bredt, Herm",
+   "action": "accept",
+   "label": "Herm. Bredt",
+   "class": "person",
+   "kind": "Subskribent",
+   "note": "Subskribent (S. 836)"
+  },
+  {
+   "key": "Brehms Anna",
+   "action": "merge",
+   "into": "Brehms Anne"
+  },
+  {
+   "key": "Brehms Anne",
+   "action": "accept",
+   "label": "Brehms Anne",
+   "class": "person",
+   "kind": "Zauberin",
+   "description_de": "Hexe/Zauberin zu Köstritz (Volksglaube, S. 204, 499)",
+   "description_en": "witch/sorceress of Köstritz (folk belief)"
+  },
+  {
+   "key": "Brigitta",
+   "action": "accept",
+   "label": "Brigitta",
+   "class": "person",
+   "kind": "Prinzessin",
+   "note": "ambiguous: several daughters of the Vögte (e.g. nun, wife of Nikol. v. Lobkowiz)"
+  },
+  {
+   "key": "Brigitta v. Dobeneck",
+   "action": "accept",
+   "label": "Brigitta v. Dobeneck",
+   "class": "person",
+   "kind": "Nonne",
+   "description_de": "Nonne (Kloster Cronschwitz)",
+   "description_en": "nun (Cronschwitz convent)"
+  },
+  {
+   "key": "Brigitte",
+   "action": "accept",
+   "label": "Brigitte",
+   "class": "person",
+   "kind": "Prinzessin",
+   "description_de": "Tochter eines Reuß, wurde Nonne",
+   "description_en": "daughter of a Reuss, became a nun",
+   "note": "ambiguous"
+  },
+  {
+   "key": "Bruno Hildebrand",
+   "action": "accept",
+   "label": "Bruno Hildebrand",
+   "class": "person",
+   "kind": "Gelehrter",
+   "description_de": "Nationalökonom, „Statistik Thüringens“",
+   "description_en": "economist, \"Statistik Thüringens\""
+  },
+  {
+   "key": "Brömel",
+   "action": "accept",
+   "label": "Brömel",
+   "class": "person",
+   "kind": "Geistlicher",
+   "description_de": "Superintendent, † 1819; Herausgeber des Intelligenzblattes",
+   "description_en": "superintendent, d. 1819; editor of the Intelligenzblatt"
+  },
+  {
+   "key": "Brösel",
+   "action": "reject",
+   "reason": "figure of a village-teasing rhyme (Ortsneckerei), not a person"
+  },
+  {
+   "key": "Buhle",
+   "action": "accept",
+   "label": "Buhle",
+   "class": "person",
+   "kind": "Geistlicher",
+   "description_de": "Pule oder Buhle von Lobenstein, letzter katholischer und erster lutherischer Pfarrer",
+   "description_en": "last Catholic and first Lutheran pastor"
+  },
+  {
+   "key": "Burchard",
+   "action": "accept",
+   "label": "Burchard",
+   "class": "person",
+   "kind": "Adliger",
+   "note": "ambiguous: Graf Burchard of the Grabfeld (S. 315), pastor of Hohenleuben 1267 (S. 638)"
+  },
+  {
+   "key": "Burdach, H",
+   "action": "accept",
+   "label": "H. Burdach",
+   "class": "person",
+   "kind": "Subskribent",
+   "note": "Subskribent (S. 836)"
+  },
+  {
+   "key": "Burgold v. Hof",
+   "action": "accept",
+   "label": "Burgold v. Hof",
+   "class": "person",
+   "kind": "Adliger",
+   "description_de": "1400 erwähnt",
+   "description_en": "mentioned in 1400"
+  },
+  {
+   "key": "Burkhard",
+   "action": "accept",
+   "label": "Burkhard",
+   "class": "person",
+   "kind": "Heiliger",
+   "description_de": "der heilige Burkhard, angeblicher Kirchenpatron (S. 620)",
+   "description_en": "St. Burkhard, supposed patron of the church"
+  },
+  {
+   "key": "Burkhard Levin v. W",
+   "action": "accept",
+   "label": "Burkhard Levin v. W.",
+   "class": "person",
+   "kind": "Adliger",
+   "description_de": "1666 Besitzer eines Gutes",
+   "description_en": "owner of a manor in 1666",
+   "note": "family name abbreviated in print"
+  },
+  {
+   "key": "Burkhard v. Wolfersdorf",
+   "action": "accept",
+   "label": "Burkhard v. Wolfersdorf",
+   "class": "person",
+   "kind": "Adliger",
+   "description_de": "1600 von der Kirchenvisitation gemahnt",
+   "description_en": "admonished by the church visitation in 1600"
+  },
+  {
+   "key": "Burkhardt",
+   "action": "accept",
+   "label": "Burkhardt",
+   "class": "person",
+   "kind": "Subskribent",
+   "note": "Subskribent (S. 836)"
+  },
+  {
+   "key": "Buschendorf",
+   "action": "accept",
+   "label": "Buschendorf",
+   "class": "person",
+   "kind": "Subskribent",
+   "note": "Subskribent (S. 836)"
+  },
+  {
+   "key": "Buschner",
+   "action": "accept",
+   "label": "Buschner",
+   "class": "person",
+   "kind": "Sagengestalt",
+   "description_de": "einer der 12 (aus Roben), der das Opfer rettete (Sage, S. 519)",
+   "description_en": "one of the twelve (from Roben) who saved the victim (legend, p. 519)"
+  },
+  {
+   "key": "Busso von Elsterberg",
+   "action": "accept",
+   "label": "Busso von Elsterberg",
+   "class": "person",
+   "kind": "Adliger",
+   "description_de": "Graf; unterstützte Heinrich den Langen",
+   "description_en": "count; supported Heinrich the Long"
+  },
+  {
+   "key": "Busso von Lautenburg",
+   "action": "accept",
+   "label": "Busso von Lautenburg",
+   "class": "person",
+   "kind": "Adliger",
+   "description_de": "Gemahl der Margaretha",
+   "description_en": "husband of Margaretha"
+  },
+  {
+   "key": "Busso von Tautenburg",
+   "action": "accept",
+   "label": "Busso von Tautenburg",
+   "class": "person",
+   "kind": "Adliger",
+   "description_de": "Graf; Gemahl der Margaretha",
+   "description_en": "count; husband of Margaretha"
+  },
+  {
+   "key": "Böhme",
+   "action": "accept",
+   "label": "Böhme",
+   "class": "person",
+   "kind": "Pfarrer",
+   "description_de": "alter Pastor zu Roschitz (Geisterspuk, S. 427)",
+   "description_en": "old pastor of Roschitz"
+  },
+  {
+   "key": "Böttger",
+   "action": "accept",
+   "label": "Böttger",
+   "class": "person",
+   "kind": "Stifter",
+   "description_de": "Legat (S. 308)",
+   "description_en": "bequest (p. 308)"
+  },
+  {
+   "key": "Büttner",
+   "action": "accept",
+   "label": "Büttner",
+   "class": "person",
+   "kind": "Subskribent",
+   "note": "Subskribent (S. 836)"
+  },
+  {
+   "key": "C. A. Beatus",
+   "action": "accept",
+   "label": "C. A. Beatus",
+   "class": "person",
+   "kind": "Pfarrer",
+   "description_de": "Pfarrer zur Zeit der Abfassung (S. 511)",
+   "description_en": "pastor at the time of writing (p. 511)"
+  },
+  {
+   "key": "C. A. Frommhold",
+   "action": "accept",
+   "label": "C. A. Frommhold",
+   "class": "person",
+   "kind": "Pfarrer",
+   "description_de": "Pfarrer zur Zeit der Abfassung (18.)",
+   "description_en": "pastor at the time of writing (18th)"
+  },
+  {
+   "key": "C. A. Riedel",
+   "action": "accept",
+   "label": "C. A. Riedel",
+   "class": "person",
+   "kind": "Pfarrer",
+   "description_de": "Pfarrer zur Zeit der Abfassung (20.)",
+   "description_en": "pastor at the time of writing (20th)"
+  },
+  {
+   "key": "C. Bergner",
+   "action": "accept",
+   "label": "C. Bergner",
+   "class": "person",
+   "kind": "Pfarrer",
+   "description_de": "Pfarrer zur Zeit der Abfassung (17., S. 468)",
+   "description_en": "pastor at the time of writing (17th, p. 468)"
+  },
+  {
+   "key": "C. E. Wittig",
+   "action": "accept",
+   "label": "C. E. Wittig",
+   "class": "person",
+   "kind": "Geistlicher",
+   "description_de": "Archidiaconus, Oberkirchenrath Dr., zugleich Superintendent zu Gera",
+   "description_en": "archdeacon, church councillor, also superintendent at Gera"
+  },
+  {
+   "key": "C. Gottlob Ludwig",
+   "action": "accept",
+   "label": "C. Gottlob Ludwig",
+   "class": "person",
+   "kind": "Geistlicher",
+   "description_de": "Diaconus zur Zeit der Abfassung (27., S. 657)",
+   "description_en": "deacon at the time of writing (27th, p. 657)"
+  },
+  {
+   "key": "C. H. v. Beust",
+   "action": "accept",
+   "label": "C. H. v. Beust",
+   "class": "person",
+   "kind": "Adliger",
+   "description_de": "Pächter eines Gutes vor 1658",
+   "description_en": "leaseholder of a manor before 1658"
+  },
+  {
+   "key": "C. Kratzsch",
+   "action": "accept",
+   "label": "C. Kratzsch",
+   "class": "person",
+   "kind": "Meteorologe",
+   "description_de": "Wetterbeobachtungen in Gera seit 1856",
+   "description_en": "weather observations in Gera since 1856"
+  },
+  {
+   "key": "Carius",
+   "action": "accept",
+   "label": "Carius",
+   "class": "person",
+   "kind": "Sagengestalt",
+   "description_de": "Knabe, Fluchtepisode der Sage (S. 525)",
+   "description_en": "boy in a legend (p. 525)"
+  },
+  {
+   "key": "Carl",
+   "action": "merge",
+   "into": "Carls v. Anhalt"
+  },
+  {
+   "key": "Carl Abr. Müller",
+   "action": "accept",
+   "label": "Carl Abr. Müller",
+   "class": "person",
+   "kind": "Gutsbesitzer",
+   "description_de": "Besitzer von Dorna, † 1799",
+   "description_en": "owner of Dorna, d. 1799"
+  },
+  {
+   "key": "Carl Alex. v. Pückler-Groditz",
+   "action": "accept",
+   "label": "Carl Alex. v. Pückler-Groditz",
+   "class": "person",
+   "kind": "Adliger",
+   "description_de": "zu Tannhausen; verm. 1844 mit Caroline",
+   "description_en": "of Tannhausen; m. 1844 Caroline"
+  },
+  {
+   "key": "Carl Egon v. Fürstenberg",
+   "action": "accept",
+   "label": "Carl Egon v. Fürstenberg",
+   "class": "person",
+   "kind": "Adliger",
+   "description_de": "Fürst, † 1854; Gemahl der Elisabeth (1824–1861)",
+   "description_en": "prince, d. 1854; husband of Elisabeth (1824–1861)"
+  },
+  {
+   "key": "Carl Fr. Wieprecht",
+   "action": "accept",
+   "label": "Carl Fr. Wieprecht",
+   "class": "person",
+   "kind": "Beamter",
+   "description_de": "Stadtrat (S. 223)",
+   "description_en": "town councillor (p. 223)"
+  },
+  {
+   "key": "Carl Gotthold",
+   "action": "accept",
+   "label": "Carl Gotthold",
+   "class": "person",
+   "kind": "Gelehrter",
+   "description_de": "gothaischer Professor (1763–1809)",
+   "description_en": "Gotha professor (1763–1809)"
+  },
+  {
+   "key": "Carl Stiehler",
+   "action": "accept",
+   "label": "Carl Stiehler",
+   "class": "person",
+   "kind": "Gutsbesitzer",
+   "description_de": "Eigentümer eines stillgelegten Werkes, Landwirt (S. 769)",
+   "description_en": "owner of a disused works, farmer (p. 769)"
+  },
+  {
+   "key": "Carl v. Noirval",
+   "action": "accept",
+   "label": "Carl v. Noirval",
+   "class": "person",
+   "kind": "Adliger",
+   "description_de": "2. Gemahl der Charlotte (1675–1723)",
+   "description_en": "second husband of Charlotte (1675–1723)"
+  },
+  {
+   "key": "Carl v. Nostiz",
+   "action": "accept",
+   "label": "Carl v. Nostiz",
+   "class": "person",
+   "kind": "Adliger",
+   "description_de": "1788 Besitzer eines Gutes",
+   "description_en": "owner of a manor in 1788"
+  },
+  {
+   "key": "Carl Volrad Kraft v. Knobelsdorf",
+   "action": "accept",
+   "label": "Carl Volrad Kraft v. Knobelsdorf",
+   "class": "person",
+   "kind": "Adliger",
+   "description_de": "† 1828; Gemahl der Louise (1756–1807)",
+   "description_en": "d. 1828; husband of Louise (1756–1807)"
+  },
+  {
+   "key": "Carls des Großen",
+   "action": "accept",
+   "label": "Karl der Große",
+   "class": "person",
+   "kind": "Kaiser",
+   "description_de": "Kaiser (768–814)",
+   "description_en": "emperor (768–814)"
+  },
+  {
+   "key": "Carls v. Anhalt",
+   "action": "accept",
+   "label": "Carl v. Anhalt-Zerbst-Bernburg",
+   "class": "person",
+   "kind": "Adliger",
+   "description_de": "Fürst; 1. Gemahl der Anna v. Pommern",
+   "description_en": "prince; first husband of Anna v. Pommern"
+  },
+  {
+   "key": "Carol. v. Hessen-Homb",
+   "action": "merge",
+   "into": "Carolina Amalie Elisabeth"
+  },
+  {
+   "key": "Carolina Amalie Elisabeth",
+   "action": "accept",
+   "label": "Carolina Amalie Elisabeth",
+   "class": "person",
+   "kind": "Prinzessin",
+   "description_de": "geb. Prinzessin von Hessen-Homburg (g. 1819); Fürstin Mutter, Regentin 1859–1867",
+   "description_en": "née Princess of Hesse-Homburg (b. 1819); princess mother, regent 1859–1867"
+  },
+  {
+   "key": "Carolina Heinriette Reuß",
+   "action": "merge",
+   "into": "Caroline Henriette v. Hohenlohe-Kirchberg"
+  },
+  {
+   "key": "Caroline",
+   "action": "accept",
+   "label": "Caroline",
+   "class": "person",
+   "kind": "Prinzessin",
+   "note": "ambiguous: several princesses of the house of Reuß (b. 1749, b. 1792, b. 1797, b. 1820, …)"
+  },
+  {
+   "key": "Caroline Ernestine v. Erbach-Schönberg",
+   "action": "accept",
+   "label": "Caroline Ernestine v. Erbach-Schönberg",
+   "class": "person",
+   "kind": "Gemahlin",
+   "description_de": "† 1796; Gemahlin Heinrichs XXIV. (1724–1779)",
+   "description_en": "d. 1796; wife of Heinrich XXIV. (1724–1779)"
+  },
+  {
+   "key": "Caroline Henriette v. Hohenlohe-Kirchberg",
+   "action": "accept",
+   "label": "Caroline Henriette v. Hohenlohe-Kirchberg",
+   "class": "person",
+   "kind": "Gemahlin",
+   "description_de": "† 1849; Gemahlin Heinrichs XLII. (1752–1818, 1806 Reichsfürst); als „Fürstin Carolina Heinriette Reuß, geb. Prinzessin von Hohenlohe“ Stifterin eines Legates",
+   "description_en": "d. 1849; wife of Heinrich XLII. (1752–1818, imperial prince 1806)",
+   "note": "merged with the Fürstin Carolina Heinriette Reuß geb. Prinzessin von Hohenlohe (p. 308), identification by Brückner's genealogy"
+  },
+  {
+   "key": "Casimir zum Hof",
+   "action": "accept",
+   "label": "Casimir zum Hof",
+   "class": "person",
+   "kind": "Adliger",
+   "description_de": "Besitzer eines Rittergutes (16. Jh.)",
+   "description_en": "owner of a manor (16th c.)"
+  },
+  {
+   "key": "Caspar",
+   "action": "accept",
+   "label": "Caspar",
+   "class": "person",
+   "kind": "Adliger",
+   "note": "ambiguous: Caspar v. Magwitz (1489), the old Caspar of a village rhyme (S. 204), …"
+  },
+  {
+   "key": "Caspar Fidler",
+   "action": "accept",
+   "label": "Caspar Fidler",
+   "class": "person",
+   "kind": "Geistlicher",
+   "description_de": "Vikar, 1533 wegen päpstlicher Gesinnung abgesetzt",
+   "description_en": "vicar, dismissed in 1533 for papist leanings"
+  },
+  {
+   "key": "Caspar Frank",
+   "action": "accept",
+   "label": "Caspar Frank",
+   "class": "person",
+   "kind": "Pfarrer",
+   "description_de": "erster lutherischer Pfarrer",
+   "description_en": "first Lutheran pastor"
+  },
+  {
+   "key": "Caspar v. Zorba",
+   "action": "accept",
+   "label": "Caspar v. Zorba",
+   "class": "person",
+   "kind": "Adliger",
+   "description_de": "1608 zu Trebnitz",
+   "description_en": "at Trebnitz in 1608"
+  },
+  {
+   "key": "Caspar von Ezdorf",
+   "action": "accept",
+   "label": "Caspar von Ezdorf",
+   "class": "person",
+   "kind": "Adliger",
+   "description_de": "1479 Käufer eines Gutes von Heinrich dem Beerber",
+   "description_en": "bought a manor from Heinrich the Beerber in 1479"
+  },
+  {
+   "key": "Catharina",
+   "action": "accept",
+   "label": "Catharina",
+   "class": "person",
+   "kind": "Prinzessin",
+   "note": "ambiguous first name; here Catharina (†1502), wife of Heinrich Reuß zu Greiz since 1496"
+  },
+  {
+   "key": "Catharina Meier",
+   "action": "accept",
+   "label": "Catharina Meier (Mauer)",
+   "class": "person",
+   "kind": "Nonne",
+   "description_de": "Nonne (Kloster Cronschwitz, 1533)",
+   "description_en": "nun (Cronschwitz convent, 1533)"
+  },
+  {
+   "key": "Catharina v. Hessen-Homburg",
+   "action": "accept",
+   "label": "Catharina v. Hessen-Homburg",
+   "class": "person",
+   "kind": "Gemahlin",
+   "description_de": "† 1689; 1. Gemahlin des Philipp Ludw. v. Holstein-Wiesenburg",
+   "description_en": "d. 1689; wife of Philipp Ludw. v. Holstein-Wiesenburg"
+  },
+  {
+   "key": "Catharina v. Kospod",
+   "action": "accept",
+   "label": "Catharina v. Kospod",
+   "class": "person",
+   "kind": "Adlige",
+   "description_de": "auf Seubtendorf",
+   "description_en": "of Seubtendorf"
+  },
+  {
+   "key": "Catharina v. Orlamünda",
+   "action": "accept",
+   "label": "Catharina v. Orlamünda",
+   "class": "person",
+   "kind": "Nonne",
+   "description_de": "Nonne (Kloster Cronschwitz, 1533)",
+   "description_en": "nun (Cronschwitz convent, 1533)"
+  },
+  {
+   "key": "Catharina v. Röder",
+   "action": "accept",
+   "label": "Catharina v. Röder",
+   "class": "person",
+   "kind": "Nonne",
+   "description_de": "Nonne (Kloster Cronschwitz)",
+   "description_en": "nun (Cronschwitz convent)"
+  },
+  {
+   "key": "Charlotte geb. v. Tettenborn",
+   "action": "accept",
+   "label": "Charlotte v. Tettenborn",
+   "class": "person",
+   "kind": "Adlige",
+   "description_de": "Ehefrau, genannt in der Besitzertabelle der Rittergüter (S. 223)",
+   "description_en": "wife; listed in the table of manor owners (p. 223)"
+  },
+  {
+   "key": "Charlotte Louise",
+   "action": "accept",
+   "label": "Charlotte Louise",
+   "class": "person",
+   "kind": "Prinzessin",
+   "note": "ambiguous: several princesses of the house of Reuß of this name (e.g. b. and d. 1698; b. 1729, d. 1792)"
+  },
+  {
+   "key": "Charlotte Wilh. v. Busse",
+   "action": "accept",
+   "label": "Charlotte Wilh. v. Busse",
+   "class": "person",
+   "kind": "Adlige",
+   "description_de": "Denkmal im Erbbegräbnis (S. 497)",
+   "description_en": "monument in the family vault (p. 497)"
+  },
+  {
+   "key": "Chlotilde Reuß",
+   "action": "merge",
+   "into": "Clotilde Reuß-Köstritz"
+  },
+  {
+   "key": "Chr. Andreas Behr",
+   "action": "accept",
+   "label": "Chr. Andreas Behr",
+   "class": "person",
+   "kind": "Schriftsteller",
+   "description_de": "Hof- und Archivrat, fruchtbarer Schriftsteller (1761–1831)",
+   "description_en": "court and archive councillor, prolific writer (1761–1831)"
+  },
+  {
+   "key": "Chr. Aug. Behr",
+   "action": "accept",
+   "label": "Chr. Aug. Behr",
+   "class": "person",
+   "kind": "Geistlicher",
+   "description_de": "Archidiaconus zu Gera, † 1829",
+   "description_en": "archdeacon at Gera, d. 1829"
+  },
+  {
+   "key": "Chr. Aug. Keil",
+   "action": "merge",
+   "into": "Christian Aug. Keil"
+  },
+  {
+   "key": "Chr. Baumgärtel",
+   "action": "accept",
+   "label": "Chr. Baumgärtel",
+   "class": "person",
+   "kind": "Bürger",
+   "description_de": "Schwiegersohn aus Rositz; erbaute 1751 das Wirtshaus zum Trotz",
+   "description_en": "son-in-law from Rositz; built the inn \"zum Trotz\" in 1751"
+  },
+  {
+   "key": "Chr. Carl Fr. Müller",
+   "action": "accept",
+   "label": "Chr. Carl Fr. Müller",
+   "class": "person",
+   "kind": "Schriftsteller",
+   "description_de": "Pfarrer 1798–1815, 1819 Mettenprediger zu Gera; als Schriftsteller bekannt",
+   "description_en": "pastor 1798–1815, from 1819 matins preacher at Gera; known as a writer"
+  },
+  {
+   "key": "Chr. Fr. Aug. v. Ende",
+   "action": "accept",
+   "label": "Chr. Fr. Aug. v. Ende",
+   "class": "person",
+   "kind": "Militär",
+   "description_de": "preuß. Hauptmann, † 1824",
+   "description_en": "Prussian captain, d. 1824"
+  },
+  {
+   "key": "Chr. Fr. Heuß",
+   "action": "accept",
+   "label": "Chr. Fr. Heuß",
+   "class": "person",
+   "kind": "Schriftsteller",
+   "description_de": "belletristischer Schriftsteller (1713–1763), Pfarrer zu Paitzdorf",
+   "description_en": "belletrist (1713–1763), pastor at Paitzdorf"
+  },
+  {
+   "key": "Chr. Fr. Korb",
+   "action": "accept",
+   "label": "Chr. Fr. Korb",
+   "class": "person",
+   "kind": "Handwerker",
+   "description_de": "Hammermeister, 1758 Käufer von Grundstücken",
+   "description_en": "hammer-master, bought land in 1758"
+  },
+  {
+   "key": "Chr. Fr. Schütz",
+   "action": "accept",
+   "label": "Chr. Fr. Schütz",
+   "class": "person",
+   "kind": "Lehrer",
+   "description_de": "gebürtiger Lehrer, musikalisches und mechanisches Genie; baute 1788–1790 einen Automaten",
+   "description_en": "native teacher, musical and mechanical genius"
+  },
+  {
+   "key": "Chr. Fr. Ziegler",
+   "action": "accept",
+   "label": "Chr. Fr. Ziegler",
+   "class": "person",
+   "kind": "Pfarrer",
+   "description_de": "Pfarrer, sammelte Nachrichten über die Parochie",
+   "description_en": "pastor, collected information on the parish"
+  },
+  {
+   "key": "Chr. Gottl. Alberti",
+   "action": "accept",
+   "label": "Chr. Gottl. Alberti",
+   "class": "person",
+   "kind": "Pfarrer",
+   "description_de": "Pfarrer, Sekretär des land- und forstwirtschaftlichen Vereins (S. 639)",
+   "description_en": "pastor, secretary of the agricultural and forestry society"
+  },
+  {
+   "key": "Chr. Gottl. Reichard",
+   "action": "merge",
+   "into": "Christian Gottlieb Reichard"
+  },
+  {
+   "key": "Chr. H. Rudolph",
+   "action": "accept",
+   "label": "Chr. H. Rudolph",
+   "class": "person",
+   "kind": "Pfarrer",
+   "description_de": "früherer Pfarrer, Sammler von Nachrichten über die Parochie (S. 613)",
+   "description_en": "former pastor, collector of information on the parish"
+  },
+  {
+   "key": "Chr. Heinr. Süßenguth",
+   "action": "accept",
+   "label": "Chr. Heinr. Süßenguth",
+   "class": "person",
+   "kind": "Stifter",
+   "description_de": "Senator und Rathskämmerer; Süßenguthsche Stiftung (S. 718)",
+   "description_en": "senator and town treasurer; founder of a charitable foundation"
+  },
+  {
+   "key": "Chr. L. Heyne",
+   "action": "accept",
+   "label": "Chr. L. Heyne",
+   "class": "person",
+   "kind": "Schriftsteller",
+   "description_de": "aus Heynichen; Romanschriftsteller unter dem Namen Anton Wall; † 1821 zu Hirschberg",
+   "description_en": "from Heynichen; novelist under the pen name Anton Wall; d. 1821 at Hirschberg"
+  },
+  {
+   "key": "Chr. Ludwig",
+   "action": "accept",
+   "label": "Chr. Ludwig",
+   "class": "person",
+   "kind": "Lehrer",
+   "description_de": "Pädagog (1760–1833)",
+   "description_en": "educator (1760–1833)"
+  },
+  {
+   "key": "Chr. Schaller",
+   "action": "accept",
+   "label": "Chr. Schaller",
+   "class": "person",
+   "kind": "Geistlicher",
+   "description_de": "Vikar (katholische Zeit, Gera)",
+   "description_en": "vicar (Catholic period, Gera)"
+  },
+  {
+   "key": "Chr. Seydel",
+   "action": "accept",
+   "label": "Chr. Seydel",
+   "class": "person",
+   "kind": "Botaniker",
+   "description_de": "Floristik von Gera (S. 71)",
+   "description_en": "floristic research around Gera"
+  },
+  {
+   "key": "Chr. v. Haugwitz",
+   "action": "accept",
+   "label": "Chr. v. Haugwitz",
+   "class": "person",
+   "kind": "Adliger",
+   "description_de": "1616 Inhaber eines Gutsteiles",
+   "description_en": "held part of a manor in 1616"
+  },
+  {
+   "key": "Christ. Eleonore",
+   "action": "accept",
+   "label": "Christ. Eleonore",
+   "class": "person",
+   "kind": "Prinzessin",
+   "description_de": "geb. 1739, † 1761",
+   "description_en": "b. 1739, d. 1761"
+  },
+  {
+   "key": "Christ. Katharinens v. Leiningen-Heidesheim",
+   "action": "merge",
+   "into": "Christiane Alex. Katharine v. Leiningen-Heidesheim"
+  },
+  {
+   "key": "Christ. Körber",
+   "action": "accept",
+   "label": "Christian Körber",
+   "class": "person",
+   "kind": "Geistlicher",
+   "description_de": "geb. 1672 zu Niederauerbach, † 1728 als Superintendent zu Lobenstein; Kalender, historische Schriften, Bibliothek",
+   "description_en": "b. 1672, d. 1728 as superintendent at Lobenstein; calendar, historical writings, library"
+  },
+  {
+   "key": "Christ. Steinbeck",
+   "action": "accept",
+   "label": "Christ. Steinbeck",
+   "class": "person",
+   "kind": "Schriftsteller",
+   "description_de": "Kandidat der Theologie, Schöpfer und Redakteur einer Volkszeitung (S. 515)",
+   "description_en": "candidate of theology, founder and editor of a people's newspaper"
+  },
+  {
+   "key": "Christi",
+   "action": "merge",
+   "into": "Christus"
+  },
+  {
+   "key": "Christus",
+   "action": "accept",
+   "label": "Christus",
+   "class": "person",
+   "kind": "Religiöse Gestalt",
+   "description_de": "Jesus Christus (Glockeninschriften, Altarbilder)",
+   "description_en": "Jesus Christ"
+  },
+  {
+   "key": "Christian Aug. Keil",
+   "action": "accept",
+   "label": "Christian Aug. Keil",
+   "class": "person",
+   "kind": "Gutsbesitzer",
+   "description_de": "Rittergutsbesitzer (S. 223); 1866 Käufer eines Gutes, wohnhaft in Leipzig",
+   "description_en": "manor owner"
+  },
+  {
+   "key": "Christian Fr. Brager",
+   "action": "accept",
+   "label": "Christian Fr. Brager",
+   "class": "person",
+   "kind": "Stifter",
+   "description_de": "Bürgermeister zu Gera; stiftete 1696 das bragersche Stipendium",
+   "description_en": "mayor of Gera; founded the Brager stipend in 1696"
+  },
+  {
+   "key": "Christian Gall",
+   "action": "accept",
+   "label": "Christian Gall",
+   "class": "person",
+   "kind": "Lehrer",
+   "description_de": "1742 wegen übeln Wandels als Lehrer entsetzt",
+   "description_en": "dismissed as teacher in 1742"
+  },
+  {
+   "key": "Christian Gottlieb Reichard",
+   "action": "accept",
+   "label": "Christian Gottlieb Reichard",
+   "class": "person",
+   "kind": "Gelehrter",
+   "description_de": "geb. 1758, † 1837 zu Lobenstein; Geograph und Historiker, Hofrat, Stadtsyndicus zu Gera",
+   "description_en": "b. 1758, d. 1837 at Lobenstein; geographer and historian"
+  },
+  {
+   "key": "Christian Leop. Herm. Ampach",
+   "action": "accept",
+   "label": "Christian Leop. Herm. Ampach",
+   "class": "person",
+   "kind": "Gutsbesitzer",
+   "description_de": "Rittergutsbesitzer (S. 223, 226)",
+   "description_en": "manor owner"
+  },
+  {
+   "key": "Christian Schenk v. Tautenburg",
+   "action": "accept",
+   "label": "Christian Schenk v. Tautenburg",
+   "class": "person",
+   "kind": "Adliger",
+   "description_de": "Gemahl der Dorothea Sibille (1609–1631)",
+   "description_en": "husband of Dorothea Sibille (1609–1631)"
+  },
+  {
+   "key": "Christian v. Oberweimar",
+   "action": "accept",
+   "label": "Christian v. Oberweimar",
+   "class": "person",
+   "kind": "Adliger",
+   "description_de": "Besitzer eines Gutes, ein Böhme",
+   "description_en": "owner of a manor, a Bohemian"
+  },
+  {
+   "key": "Christian v. Schönburg-Penig",
+   "action": "accept",
+   "label": "Christian v. Schönburg-Penig",
+   "class": "person",
+   "kind": "Adliger",
+   "description_de": "Gemahl der Agnes Elisabeth (1629–1675); Witwer der Agnes v. Schönburg-Hartenstein",
+   "description_en": "husband of Agnes Elisabeth (1629–1675)"
+  },
+  {
+   "key": "Christian Wilh. v. Sachsen-Gotha",
+   "action": "accept",
+   "label": "Christian Wilh. v. Sachsen-Gotha",
+   "class": "person",
+   "kind": "Prinz",
+   "description_de": "† 1748; Gemahl der Louise (1726–1773)",
+   "description_en": "d. 1748; husband of Louise (1726–1773)"
+  },
+  {
+   "key": "Christiane Alex. Katharine v. Leiningen-Heidesheim",
+   "action": "accept",
+   "label": "Christiane Alex. Katharine v. Leiningen-Heidesheim",
+   "class": "person",
+   "kind": "Gemahlin",
+   "description_de": "† 1809; 2. Gemahlin Heinrichs XI.",
+   "description_en": "d. 1809; second wife of Heinrich XI."
+  },
+  {
+   "key": "Christiane Dorothea",
+   "action": "accept",
+   "label": "Christiane Dorothea",
+   "class": "person",
+   "kind": "Prinzessin",
+   "description_de": "geb. 1699, † 1752; Gem. Conrad Ernst Max von Kürtenstein-Hochberg",
+   "description_en": "b. 1699, d. 1752"
+  },
+  {
+   "key": "Christiane Eleonore",
+   "action": "accept",
+   "label": "Christiane Eleonore",
+   "class": "person",
+   "kind": "Prinzessin",
+   "description_de": "geb. 1677, † 1698",
+   "description_en": "b. 1677, d. 1698"
+  },
+  {
+   "key": "Christiane Henriette v. Schönburg-Wechselburg",
+   "action": "accept",
+   "label": "Christiane Henriette v. Schönburg-Wechselburg",
+   "class": "person",
+   "kind": "Gemahlin",
+   "description_de": "† 1833; Gemahlin Heinrichs XLVIII. (1759–1825)",
+   "description_en": "d. 1833; wife of Heinrich XLVIII. (1759–1825)"
+  },
+  {
+   "key": "Christiane Louise Reuß",
+   "action": "accept",
+   "label": "Christiane Louise Reuß",
+   "class": "person",
+   "kind": "Prinzessin",
+   "description_de": "Fürstin, geb. Herzogin von Bayern; Stiftungen durch Testament von 1828",
+   "description_en": "princess, née Duchess of Bavaria; foundations by will of 1828"
+  },
+  {
+   "key": "Christiane Sophie H",
+   "action": "accept",
+   "label": "Christiane Sophie H.",
+   "class": "person",
+   "kind": "Prinzessin",
+   "description_de": "geb. 1757, † 1758",
+   "description_en": "b. 1757, d. 1758"
+  },
+  {
+   "key": "Christiane v. Erbach",
+   "action": "accept",
+   "label": "Christiane v. Erbach",
+   "class": "person",
+   "kind": "Gemahlin",
+   "description_de": "Gräfin; Denkmal in der Kirche (S. 623)",
+   "description_en": "countess; monument in the church"
+  },
+  {
+   "key": "Christiane v. Sayn-Wittgenstein-Homburg",
+   "action": "accept",
+   "label": "Christiane v. Sayn-Wittgenstein-Homburg",
+   "class": "person",
+   "kind": "Gemahlin",
+   "description_de": "† 1724; 2. Gemahlin Heinrichs V. von Rothenthal",
+   "description_en": "d. 1724; second wife of Heinrich V. of Rothenthal"
+  },
+  {
+   "key": "Christine Ferdinande v. Isenburg-Philippseich",
+   "action": "accept",
+   "label": "Christine Ferdinande v. Isenburg-Philippseich",
+   "class": "person",
+   "kind": "Gemahlin",
+   "description_de": "† 1822; 2. Gemahlin Heinrichs XII. (1716–1784)",
+   "description_en": "d. 1822; second wife of Heinrich XII. (1716–1784)"
+  },
+  {
+   "key": "Christine Henriette",
+   "action": "accept",
+   "label": "Christine Henriette",
+   "class": "person",
+   "kind": "Prinzessin",
+   "description_de": "geb. 1698, † 1709",
+   "description_en": "b. 1698, d. 1709"
+  },
+  {
+   "key": "Christine Sibille",
+   "action": "accept",
+   "label": "Christine Sibille",
+   "class": "person",
+   "kind": "Prinzessin",
+   "description_de": "geb. 1653, † 1686",
+   "description_en": "b. 1653, d. 1686"
+  },
+  {
+   "key": "Christine Sophie H",
+   "action": "accept",
+   "label": "Christine Sophie H.",
+   "class": "person",
+   "kind": "Prinzessin",
+   "description_de": "geb. 1744, † 1745",
+   "description_en": "b. 1744, d. 1745"
+  },
+  {
+   "key": "Christine v. Erbach-Schönberg",
+   "action": "accept",
+   "label": "Christine v. Erbach-Schönberg",
+   "class": "person",
+   "kind": "Gemahlin",
+   "description_de": "† 1769; 1. Gemahlin Heinrichs XII. (1716–1784)",
+   "description_en": "d. 1769; first wife of Heinrich XII. (1716–1784)"
+  },
+  {
+   "key": "Christof v. Kaufungen",
+   "action": "accept",
+   "label": "Christof v. Kaufungen",
+   "class": "person",
+   "kind": "Adliger",
+   "description_de": "verkaufte 1738 ein Freigut an Graf Heinrich XXIV.",
+   "description_en": "sold a freehold estate to Count Heinrich XXIV. in 1738"
+  },
+  {
+   "key": "Christof v. Römer",
+   "action": "accept",
+   "label": "Christof v. Römer",
+   "class": "person",
+   "kind": "Adliger",
+   "description_de": "verkaufte 1753 ein Freigut an Graf Heinrich VI.",
+   "description_en": "sold a freehold estate to Count Heinrich VI. in 1753"
+  },
+  {
+   "key": "Christoph",
+   "action": "accept",
+   "label": "Christoph",
+   "class": "person",
+   "kind": "Heiliger",
+   "note": "ambiguous: St. Christopher (S. 136), Christoph v. Draxdorf (1559), others"
+  },
+  {
+   "key": "Christoph Arnold",
+   "action": "accept",
+   "label": "Christoph Arnold",
+   "class": "person",
+   "kind": "Geistlicher",
+   "description_de": "Kaplan 1533, von der Kirchenvisitation als ungelehrt befunden",
+   "description_en": "chaplain 1533, found unlearned by the church visitation"
+  },
+  {
+   "key": "Christoph Birke",
+   "action": "accept",
+   "label": "Christoph Birke",
+   "class": "person",
+   "kind": "Gelehrter",
+   "description_de": "decr. Doctor, 1484 Rektor der Universität Leipzig",
+   "description_en": "doctor of canon law, rector of Leipzig University in 1484"
+  },
+  {
+   "key": "Christoph Dietrich v. Naundorf",
+   "action": "accept",
+   "label": "Christoph Dietrich v. Naundorf",
+   "class": "person",
+   "kind": "Adliger",
+   "description_de": "verkaufte 1690 ein Freigut",
+   "description_en": "sold a freehold estate in 1690"
+  },
+  {
+   "key": "Christoph Ernst v. Watzdorf",
+   "action": "accept",
+   "label": "Christoph Ernst v. Watzdorf",
+   "class": "person",
+   "kind": "Gutsbesitzer",
+   "description_de": "Besitzer des oberen Gutes; kaufte 1784 die Jagd",
+   "description_en": "owner of the upper manor; bought the hunting rights in 1784"
+  },
+  {
+   "key": "Christoph Fr. v. Watzdorf",
+   "action": "accept",
+   "label": "Christoph Fr. v. Watzdorf",
+   "class": "person",
+   "kind": "Adliger",
+   "description_de": "um 1670 Besitzer eines Gutes",
+   "description_en": "owner of a manor c. 1670"
+  },
+  {
+   "key": "Christoph Friedr Levin v. Trotta",
+   "action": "accept",
+   "label": "Christoph Friedr. Levin v. Trotta",
+   "class": "person",
+   "kind": "Adliger",
+   "description_de": "† 1772; Gemahl der Johanne Dorothea (1743–1801)",
+   "description_en": "d. 1772; husband of Johanne Dorothea (1743–1801)"
+  },
+  {
+   "key": "Christoph Heinr. v. Beust",
+   "action": "accept",
+   "label": "Christoph Heinr. v. Beust",
+   "class": "person",
+   "kind": "Adliger",
+   "description_de": "Junker, 1650 auf Waaswitz",
+   "description_en": "squire, of Waaswitz in 1650"
+  },
+  {
+   "key": "Christoph Kittelmann",
+   "action": "accept",
+   "label": "Christoph Kittelmann",
+   "class": "person",
+   "kind": "Pfarrer",
+   "description_de": "nach Absetzung seines papistischen Vorgängers eingesetzt (Triebes)",
+   "description_en": "installed after the removal of his papist predecessor"
+  },
+  {
+   "key": "Christoph Krüger",
+   "action": "accept",
+   "label": "Christoph Krüger",
+   "class": "person",
+   "kind": "Pfarrer",
+   "description_de": "Pfarrer; Vater eines Gelehrten (um 1630 Pfarrer zu Thurnau)",
+   "description_en": "pastor"
+  },
+  {
+   "key": "Christoph Mülser",
+   "action": "accept",
+   "label": "Christoph Mülser",
+   "class": "person",
+   "kind": "Pfarrer",
+   "description_de": "erster lutherischer Pfarrer zu Tanna",
+   "description_en": "first Lutheran pastor at Tanna"
+  },
+  {
+   "key": "Christoph v. Koch",
+   "action": "accept",
+   "label": "Christoph v. Koch",
+   "class": "person",
+   "kind": "Kaufmann",
+   "description_de": "Kaufmann; stellte sein Haus einem wohltätigen Zweck zur Verfügung (S. 814)",
+   "description_en": "merchant; devoted his house to charitable use"
+  },
+  {
+   "key": "Christoph v. Waldenfels",
+   "action": "accept",
+   "label": "Christoph v. Waldenfels",
+   "class": "person",
+   "kind": "Adliger",
+   "description_de": "† vor 1647; Rittergut schuldenhalber an Conrad von der Tann",
+   "description_en": "d. before 1647"
+  },
+  {
+   "key": "Christoph v. Watzdorf",
+   "action": "accept",
+   "label": "Christoph v. Watzdorf",
+   "class": "person",
+   "kind": "Adliger",
+   "description_de": "maßte sich 1594 als Patron die kirchliche Hoheit an",
+   "description_en": "in 1594 usurped ecclesiastical authority as patron"
+  },
+  {
+   "key": "Christoph Wilhelm v. Müffling",
+   "action": "accept",
+   "label": "Christoph Wilhelm v. Müffling",
+   "class": "person",
+   "kind": "Adliger",
+   "description_de": "Verwandter der Anna Margar. v. Carlowitz",
+   "description_en": "relative of Anna Margar. v. Carlowitz"
+  },
+  {
+   "key": "Chriſtian Carl v. Stolberg-Gedern",
+   "action": "accept",
+   "label": "Christian Carl v. Stolberg-Gedern",
+   "class": "person",
+   "kind": "Adliger",
+   "description_de": "† 1764; Gemahl der Eleonore Mariane Christine",
+   "description_en": "d. 1764; husband of Eleonore Mariane Christine"
+  },
+  {
+   "key": "Chriſtiane Eliſe",
+   "action": "accept",
+   "label": "Christiane Elise",
+   "class": "person",
+   "kind": "Prinzessin",
+   "description_de": "geb. 1678, † 1757",
+   "description_en": "b. 1678, d. 1757"
+  },
+  {
+   "key": "Chriſtiane Marie Eleonore",
+   "action": "accept",
+   "label": "Christiane Marie Eleonore",
+   "class": "person",
+   "kind": "Prinzessin",
+   "description_de": "geb. 1722, † 1764; Gem. Christian Heinrich v. Reitzenstein",
+   "description_en": "b. 1722, d. 1764"
+  },
+  {
+   "key": "Chriſtiane Soph",
+   "action": "accept",
+   "label": "Christiane Soph.",
+   "class": "person",
+   "kind": "Prinzessin",
+   "description_de": "geb. 1704, † 1773",
+   "description_en": "b. 1704, d. 1773"
+  },
+  {
+   "key": "Chriſtiane Thecla",
+   "action": "accept",
+   "label": "Christiane Thecla",
+   "class": "person",
+   "kind": "Prinzessin",
+   "description_de": "geb. 1707, † 1733",
+   "description_en": "b. 1707, d. 1733"
+  },
+  {
+   "key": "Clara Dorothea",
+   "action": "accept",
+   "label": "Clara Dorothea",
+   "class": "person",
+   "kind": "Prinzessin",
+   "description_de": "geb. 1671, † 1698",
+   "description_en": "b. 1671, d. 1698"
+  },
+  {
+   "key": "Clem. Pätz",
+   "action": "accept",
+   "label": "Clem. Pätz",
+   "class": "person",
+   "kind": "Geistlicher",
+   "description_de": "Diaconus zur Zeit der Abfassung (22. lutherischer, S. 686)",
+   "description_en": "deacon at the time of writing (22nd Lutheran)"
+  },
+  {
+   "key": "Clemens",
+   "action": "accept",
+   "label": "Clemens",
+   "class": "person",
+   "kind": "Geistlicher",
+   "description_de": "sorauischer Hofprediger; erbaute ein Haus (S. 737)",
+   "description_en": "court preacher of Sorau; built a house"
+  },
+  {
+   "key": "Clementine",
+   "action": "accept",
+   "label": "Clementine",
+   "class": "person",
+   "kind": "Prinzessin",
+   "note": "ambiguous first name (e.g. b. 1856)"
+  },
+  {
+   "key": "Clementine Franziska",
+   "action": "accept",
+   "label": "Clementine Franziska",
+   "class": "person",
+   "kind": "Prinzessin",
+   "description_de": "geb. 1789; Gem. Adolf v. Einsiedel-Wolkenburg",
+   "description_en": "b. 1789"
+  },
+  {
+   "key": "Clementine von Reichenbach-Goschütz",
+   "action": "accept",
+   "label": "Clementine von Reichenbach-Goschütz",
+   "class": "person",
+   "kind": "Gemahlin",
+   "description_de": "verm. 1825, † 1849; 1. Gemahlin Heinrichs LXXIV.",
+   "description_en": "m. 1825, d. 1849; first wife of Heinrich LXXIV."
+  },
+  {
+   "key": "Clothilde",
+   "action": "merge",
+   "into": "Clotilde Reuß-Köstritz"
+  },
+  {
+   "key": "Clotilde Reuß-Köstritz",
+   "action": "accept",
+   "label": "Clotilde Reuß-Köstritz",
+   "class": "person",
+   "kind": "Prinzessin",
+   "description_de": "Fürstin, geb. Gräfin von Castell, Tochter Friedrich Ludwigs v. Castell; verm. 1846, † 1860; Gemahlin Heinrichs II.; Stifterin eines Rettungshauses",
+   "description_en": "princess, née Countess of Castell; m. 1846, d. 1860; wife of Heinrich II.; founded a rescue home for neglected children"
+  },
+  {
+   "key": "Coder",
+   "action": "accept",
+   "label": "Coder",
+   "class": "person",
+   "kind": "Gutsbesitzer",
+   "description_de": "1855 Käufer eines Gutes",
+   "description_en": "bought a manor in 1855"
+  },
+  {
+   "key": "Cohn",
+   "action": "merge",
+   "into": "Dr. A. Cohn"
+  },
+  {
+   "key": "Cohns",
+   "action": "merge",
+   "into": "Dr. A. Cohn"
+  },
+  {
+   "key": "Conr. Ad. Schnädelbach",
+   "action": "accept",
+   "label": "Conr. Ad. Schnädelbach",
+   "class": "person",
+   "kind": "Pfarrer",
+   "description_de": "Pfarrer zur Zeit der Abfassung (18., S. 698)",
+   "description_en": "pastor at the time of writing (18th)"
+  },
+  {
+   "key": "Conr. Heilmann",
+   "action": "accept",
+   "label": "Conr. Heilmann",
+   "class": "person",
+   "kind": "Geistlicher",
+   "description_de": "Vikar (katholische Zeit, Gera)",
+   "description_en": "vicar (Catholic period, Gera)"
+  },
+  {
+   "key": "Conr. Poppo",
+   "action": "merge",
+   "into": "Conrad Poppo"
+  },
+  {
+   "key": "Conr. Spindler",
+   "action": "accept",
+   "label": "Conr. Spindler",
+   "class": "person",
+   "kind": "Geistlicher",
+   "description_de": "Vikar (katholische Zeit, Gera)",
+   "description_en": "vicar (Catholic period, Gera)"
+  },
+  {
+   "key": "Conr. V. Berger",
+   "action": "accept",
+   "label": "Conr. V. Berger",
+   "class": "person",
+   "kind": "Bürger",
+   "description_de": "Vater des Wiener Juristen J. G. v. Berger",
+   "description_en": "father of the Vienna jurist J. G. v. Berger"
+  },
+  {
+   "key": "Conrad",
+   "action": "accept",
+   "label": "Conrad",
+   "class": "person",
+   "kind": "Adliger",
+   "note": "ambiguous: Graf Conrad (Sorbian march, S. 315), Conrad v. Selmenitz (S. 535), others"
+  },
+  {
+   "key": "Conrad Ernst Max von Kürtenstein-Hochberg",
+   "action": "accept",
+   "label": "Conrad Ernst Max von Kürtenstein-Hochberg",
+   "class": "person",
+   "kind": "Adliger",
+   "description_de": "Gemahl der Christiane Dorothea; Witwer",
+   "description_en": "husband of Christiane Dorothea"
+  },
+  {
+   "key": "Conrad Maurer",
+   "action": "accept",
+   "label": "Conrad Maurer",
+   "class": "person",
+   "kind": "Adliger",
+   "description_de": "1409 Gutsherr von Leumnitz und Laasen",
+   "description_en": "lord of Leumnitz and Laasen in 1409"
+  },
+  {
+   "key": "Conrad v. Maurer",
+   "action": "merge",
+   "into": "Conrad Maurer"
+  },
+  {
+   "key": "Conrad Meerrettig",
+   "action": "accept",
+   "label": "Conrad Meerrettig",
+   "class": "person",
+   "kind": "Adliger",
+   "description_de": "1386 von Heinrich von Gera mit Caaschwitz belehnt",
+   "description_en": "enfeoffed with Caaschwitz by Heinrich of Gera in 1386"
+  },
+  {
+   "key": "Conrad Poppo",
+   "action": "accept",
+   "label": "Conrad Poppo",
+   "class": "person",
+   "kind": "Adliger",
+   "description_de": "Burgmann zu Lobenstein, 1310 Stiftung an das Kloster bei Saalburg",
+   "description_en": "castle-man at Lobenstein; 1310 endowment to the convent near Saalburg"
+  },
+  {
+   "key": "Conrad Röder",
+   "action": "accept",
+   "label": "Conrad Röder",
+   "class": "person",
+   "kind": "Adliger",
+   "description_de": "Besitzer von Gütern zu Kirschkau",
+   "description_en": "owner of estates at Kirschkau"
+  },
+  {
+   "key": "Conrad Schmidt",
+   "action": "accept",
+   "label": "Conrad Schmidt",
+   "class": "person",
+   "kind": "Bürger",
+   "description_de": "Urgroßvater des gelehrten Bauern „Kunz“ (S. 825)",
+   "description_en": "great-grandfather of the learned peasant \"Kunz\""
+  },
+  {
+   "key": "Conrad v. Buchwantz",
+   "action": "accept",
+   "label": "Conrad v. Buchwantz",
+   "class": "person",
+   "kind": "Geistlicher",
+   "description_de": "1284 Pfarrer, Deutschordenskomtur",
+   "description_en": "pastor 1284, commander of the Teutonic Order"
+  },
+  {
+   "key": "Conrad v. Groycz",
+   "action": "accept",
+   "label": "Conrad v. Groycz",
+   "class": "person",
+   "kind": "Adliger",
+   "description_de": "1407 Besitzer von Gütern; Verkäufer an Heinrich den Dispensirten",
+   "description_en": "owner of estates in 1407"
+  },
+  {
+   "key": "Conrad v. Groyez",
+   "action": "merge",
+   "into": "Conrad v. Groycz"
+  },
+  {
+   "key": "Conrad v. Grün",
+   "action": "accept",
+   "label": "Conrad v. Grün",
+   "class": "person",
+   "kind": "Adliger",
+   "description_de": "1329 Befestigung von Posseck gestattet",
+   "description_en": "permitted to fortify Posseck in 1329"
+  },
+  {
+   "key": "Conrad v. Harra",
+   "action": "accept",
+   "label": "Conrad v. Harra",
+   "class": "person",
+   "kind": "Adliger",
+   "description_de": "1292 Besitzer des Rittergutes Harra",
+   "description_en": "in 1292 owner of the manor of Harra"
+  },
+  {
+   "key": "Conrad v. Itten",
+   "action": "accept",
+   "label": "Conrad v. Itten",
+   "class": "person",
+   "kind": "Adliger",
+   "description_de": "Besitzer des oberen Gutes",
+   "description_en": "owner of the upper manor"
+  },
+  {
+   "key": "Conrad v. Schauroth",
+   "action": "accept",
+   "label": "Conrad v. Schauroth",
+   "class": "person",
+   "kind": "Adliger",
+   "description_de": "1650 Besitzer eines Gutes",
+   "description_en": "owner of a manor in 1650"
+  },
+  {
+   "key": "Conrad v. Tannroda",
+   "action": "accept",
+   "label": "Conrad v. Tannroda",
+   "class": "person",
+   "kind": "Adliger",
+   "description_de": "Gemahl einer Tochter (N.) der Familie Reuß; 4 Söhne und Ilse",
+   "description_en": "husband of N., a daughter of the Reuss family",
+   "note": "possibly identical with Conrad von Tannenrode"
+  },
+  {
+   "key": "Conrad v. Triebes",
+   "action": "accept",
+   "label": "Conrad v. Triebes",
+   "class": "person",
+   "kind": "Geistlicher",
+   "description_de": "Altarist in Leitlitz; 1407 Seelenmesse",
+   "description_en": "altarist at Leitlitz; memorial mass of 1407"
+  },
+  {
+   "key": "Conrad v. Zedtwitz",
+   "action": "accept",
+   "label": "Conrad v. Zedtwitz",
+   "class": "person",
+   "kind": "Adliger",
+   "description_de": "1403 Lehnsnachsuchung versäumt (Hirschberg)",
+   "description_en": "failed to renew his fief in 1403"
+  },
+  {
+   "key": "Conrad von der Tann",
+   "action": "accept",
+   "label": "Conrad von der Tann",
+   "class": "person",
+   "kind": "Adliger",
+   "description_de": "erwarb schuldenhalber ein Rittergut (1647)",
+   "description_en": "acquired a manor in 1647"
+  },
+  {
+   "key": "Conrad von Eberstein",
+   "action": "accept",
+   "label": "Conrad von Eberstein",
+   "class": "person",
+   "kind": "Adliger",
+   "description_de": "Graf; Vater der Gräfin Kunigunde; 1278 Lehen im Gau Dobene",
+   "description_en": "count; father of Countess Kunigunde"
+  },
+  {
+   "key": "Conrad von Tannenrode",
+   "action": "accept",
+   "label": "Conrad von Tannenrode",
+   "class": "person",
+   "kind": "Adliger",
+   "description_de": "Beistand Heinrichs von Weida",
+   "description_en": "supporter of Heinrich of Weida"
+  },
+  {
+   "key": "Conradine Eleonore",
+   "action": "merge",
+   "into": "Conradine Reuß-Köstritz"
+  },
+  {
+   "key": "Conradine Reuß-Köstritz",
+   "action": "accept",
+   "label": "Conradine Eleonore Reuß-Köstritz",
+   "class": "person",
+   "kind": "Gemahlin",
+   "description_de": "geb. 1719, † 1770; 1. Gemahlin Heinrichs XI.",
+   "description_en": "b. 1719, d. 1770; first wife of Heinrich XI."
+  },
+  {
+   "key": "Conrads von Eberstein",
+   "action": "merge",
+   "into": "Conrad von Eberstein"
+  },
+  {
+   "key": "Conrads von Schlüsselberg",
+   "action": "accept",
+   "label": "Conrad von Schlüsselberg",
+   "class": "person",
+   "kind": "Adliger",
+   "description_de": "Schwiegervater Heinrichs von Plauen",
+   "description_en": "father-in-law of Heinrich of Plauen"
+  },
+  {
+   "key": "Constanze",
+   "action": "accept",
+   "label": "Constanze",
+   "class": "person",
+   "kind": "Prinzessin",
+   "description_de": "geb. 1785, † 1803",
+   "description_en": "b. 1785, d. 1803"
+  },
+  {
+   "key": "Cordula v. Lobdaburg=Elsterberg",
+   "action": "merge",
+   "into": "Cordula von Lobdaburg-Elsterberg"
+  },
+  {
+   "key": "Cordula von Lobdaburg-Elsterberg",
+   "action": "accept",
+   "label": "Cordula von Lobdaburg-Elsterberg",
+   "class": "person",
+   "kind": "Gemahlin",
+   "description_de": "Gemahlin Heinrichs II. (1429–1446); Mutter von Anna und Margaretha",
+   "description_en": "wife of Heinrich II. (1429–1446); mother of Anna and Margaretha"
+  },
+  {
+   "key": "Coryllis",
+   "action": "accept",
+   "label": "Coryllis",
+   "class": "person",
+   "kind": "Sagengestalt",
+   "description_de": "König der Zwerge in der Zwerghöhle bei Thieschitz (Sage)",
+   "description_en": "king of the dwarfs in the dwarf cave near Thieschitz (legend)"
+  },
+  {
+   "key": "Cotta",
+   "action": "accept",
+   "label": "Cotta",
+   "class": "person",
+   "kind": "Gelehrter",
+   "description_de": "Verfasser einer geognostischen Karte (wohl Bernhard v. Cotta)",
+   "description_en": "author of a geognostic map",
+   "note": "probably Bernhard von Cotta"
+  },
+  {
+   "key": "Creuzbauer",
+   "action": "accept",
+   "label": "Creuzbauer",
+   "class": "person",
+   "kind": "Subskribent",
+   "note": "Subskribent (S. 836)"
+  },
+  {
+   "key": "Cunz v. Langenbach",
+   "action": "accept",
+   "label": "Cunz v. Langenbach",
+   "class": "person",
+   "kind": "Bürger",
+   "description_de": "vor 1342 Bürgermeister",
+   "description_en": "mayor before 1342"
+  },
+  {
+   "key": "Cunz v. Wolframsdorf",
+   "action": "accept",
+   "label": "Cunz v. Wolframsdorf",
+   "class": "person",
+   "kind": "Adliger",
+   "description_de": "1452 erwähnt",
+   "description_en": "mentioned in 1452"
+  },
+  {
+   "key": "Cyriac zu Kunstadt",
+   "action": "accept",
+   "label": "Cyriac zu Kunstadt",
+   "class": "person",
+   "kind": "Adliger",
+   "description_de": "Gemahl der Anna (Tochter eines Reuß)",
+   "description_en": "husband of Anna"
+  },
+  {
+   "key": "Cäcilie",
+   "action": "accept",
+   "label": "Cäcilie",
+   "class": "person",
+   "kind": "Prinzessin",
+   "description_de": "geb. 1788, † 1851; Gem. Ludwig v. Haigt",
+   "description_en": "b. 1788, d. 1851"
+  },
+  {
+   "key": "D. Garthe",
+   "action": "accept",
+   "label": "D. Garthe",
+   "class": "person",
+   "kind": "Schriftsteller",
+   "description_de": "Mundartdichter (Gedicht S. 151)",
+   "description_en": "dialect poet"
+  },
+  {
+   "key": "Dagobert",
+   "action": "accept",
+   "label": "Dagobert I.",
+   "class": "person",
+   "kind": "König",
+   "description_de": "merowingischer König; Zug gegen die Slawen 630",
+   "description_en": "Merovingian king; campaign against the Slavs in 630"
+  },
+  {
+   "key": "Daniel Poster",
+   "action": "accept",
+   "label": "Daniel Poster",
+   "class": "person",
+   "kind": "Verbrecher",
+   "description_de": "aus Harpersdorf; Mitglied einer Räuberbande; legte 1750 Feuer in Waltersdorf",
+   "description_en": "of Harpersdorf; member of a robber band"
+  },
+  {
+   "key": "Dav. Gottfr. Schöber",
+   "action": "accept",
+   "label": "Dav. Gottfr. Schöber",
+   "class": "person",
+   "kind": "Gelehrter",
+   "description_de": "geb. 1696 (Gera)",
+   "description_en": "b. 1696"
+  },
+  {
+   "key": "Dav. Nicke",
+   "action": "accept",
+   "label": "Dav. Nicke",
+   "class": "person",
+   "kind": "Maler",
+   "description_de": "Öl- und Freskomaler aus Gera",
+   "description_en": "oil and fresco painter from Gera"
+  },
+  {
+   "key": "David v. Mansfeld",
+   "action": "accept",
+   "label": "David v. Mansfeld",
+   "class": "person",
+   "kind": "Adliger",
+   "description_de": "Gemahl der Julie Marie (1598–1650)",
+   "description_en": "husband of Julie Marie (1598–1650)"
+  },
+  {
+   "key": "de Champorcin",
+   "action": "accept",
+   "label": "de Champorcin",
+   "class": "person",
+   "kind": "Arzt",
+   "description_de": "Leibarzt in Greiz (1853)",
+   "description_en": "personal physician at Greiz (1853)"
+  },
+  {
+   "key": "De Smit",
+   "action": "accept",
+   "label": "De Smit",
+   "class": "person",
+   "kind": "Fabrikant",
+   "note": "Stiftung von De Smit (S. 309); vgl. Nicolaus de Smit"
+  },
+  {
+   "key": "Dedo",
+   "action": "accept",
+   "label": "Dedo",
+   "class": "person",
+   "kind": "Markgraf",
+   "description_de": "Markgraf von Meißen",
+   "description_en": "margrave of Meissen"
+  },
+  {
+   "key": "Deegen",
+   "action": "accept",
+   "label": "Deegen",
+   "class": "person",
+   "kind": "gärtner",
+   "description_de": "Handelsgärtnerei (Köstritz)",
+   "description_en": "commercial gardener"
+  },
+  {
+   "key": "Degenhard",
+   "action": "accept",
+   "label": "Degenhard",
+   "class": "person",
+   "kind": "Geistlicher",
+   "description_de": "1232 fungierender Pfarrer",
+   "description_en": "officiating pastor in 1232",
+   "note": "ambiguous"
+  },
+  {
+   "key": "Derre",
+   "action": "accept",
+   "label": "Derre (Dörre)",
+   "class": "person",
+   "kind": "Pfarrer",
+   "description_de": "Pfarrer; Nachkommen noch vorhanden",
+   "description_en": "pastor"
+  },
+  {
+   "key": "Dianus",
+   "action": "accept",
+   "label": "Dianus",
+   "class": "person",
+   "kind": "Adliger",
+   "description_de": "1225–1310 v. Saalburg",
+   "description_en": "of Saalburg, attested 1225–1310"
+  },
+  {
+   "key": "Dietr. Solbert",
+   "action": "accept",
+   "label": "Dietr. Solbert",
+   "class": "person",
+   "kind": "Pfarrer",
+   "description_de": "erster lutherischer Pfarrer zu Berg",
+   "description_en": "first Lutheran pastor at Berg"
+  },
+  {
+   "key": "Dietrich",
+   "action": "accept",
+   "label": "Dietrich",
+   "class": "person",
+   "kind": "Adliger",
+   "note": "ambiguous: Markgraf Dietrich of Meissen, Dietrich the Saxon (Schenk von Apolda), others"
+  },
+  {
+   "key": "Dietrich Puster",
+   "action": "accept",
+   "label": "Dietrich Puster",
+   "class": "person",
+   "kind": "Adliger",
+   "description_de": "1412 Besitzer eines Rittergutes",
+   "description_en": "owner of a manor in 1412"
+  },
+  {
+   "key": "Dietrich v. Breitenbuch",
+   "action": "accept",
+   "label": "Dietrich v. Breitenbuch",
+   "class": "person",
+   "kind": "Geistlicher",
+   "description_de": "1415 Pfarrer",
+   "description_en": "pastor in 1415"
+  },
+  {
+   "key": "Dietrich v. Dorla",
+   "action": "accept",
+   "label": "Dietrich v. Dorla",
+   "class": "person",
+   "kind": "Geistlicher",
+   "description_de": "1310 Deutschordenskomtur",
+   "description_en": "commander of the Teutonic Order in 1310"
+  },
+  {
+   "key": "Dietrich v. Kobi",
+   "action": "accept",
+   "label": "Dietrich v. Kobi",
+   "class": "person",
+   "kind": "Adliger",
+   "description_de": "sagenhafter früherer Rittergutsbesitzer, Namengeber von Dittersdorf",
+   "description_en": "legendary former manor owner, said to have given Dittersdorf its name"
+  },
+  {
+   "key": "Dietrich v. Kopenz",
+   "action": "accept",
+   "label": "Dietrich v. Kopenz",
+   "class": "person",
+   "kind": "Adliger",
+   "description_de": "1402 Stifter des Mantelgeldes (Gera)",
+   "description_en": "founder of the \"Mantelgeld\" foundation, 1402"
+  },
+  {
+   "key": "Dietrich v. Köpenz",
+   "action": "merge",
+   "into": "Dietrich v. Kopenz"
+  },
+  {
+   "key": "Dietrich v. Plesse",
+   "action": "accept",
+   "label": "Dietrich v. Plesse",
+   "class": "person",
+   "kind": "Adliger",
+   "description_de": "Gemahl der Katharina († 1555)",
+   "description_en": "husband of Katharina (d. 1555)"
+  },
+  {
+   "key": "Dietrich v. Techwitz",
+   "action": "accept",
+   "label": "Dietrich v. Techwitz",
+   "class": "person",
+   "kind": "Geistlicher",
+   "description_de": "1533 Lehnherr; Dechant zu Wurzen",
+   "description_en": "patron in 1533; dean of Wurzen"
+  },
+  {
+   "key": "Dietrich v. Wöltewitz",
+   "action": "accept",
+   "label": "Dietrich v. Wöltewitz",
+   "class": "person",
+   "kind": "Adliger",
+   "description_de": "1260 Besitzer eines Gutes",
+   "description_en": "owner of an estate in 1260"
+  },
+  {
+   "key": "Dietrichs v. Hohnstein",
+   "action": "accept",
+   "label": "Dietrich v. Hohnstein",
+   "class": "person",
+   "kind": "Adliger",
+   "description_de": "Graf; Vater der Lutrada",
+   "description_en": "count; father of Lutrada"
+  },
+  {
+   "key": "Dietzsch",
+   "action": "accept",
+   "label": "Dietzsch",
+   "class": "person",
+   "kind": "Familie",
+   "description_de": "uralte Schafmeisterfamilie (S. 520)",
+   "description_en": "ancient family of sheep-masters"
+  },
+  {
+   "key": "Diezmann",
+   "action": "accept",
+   "label": "Diezmann",
+   "class": "person",
+   "kind": "Markgraf",
+   "description_de": "Markgraf Diezmann, Neffe des Friedrich Tuto, tritt 1295 Landgraf Albrecht Rechte ab",
+   "description_en": "margrave Diezmann, nephew of Friedrich Tuto"
+  },
+  {
+   "key": "Dobel",
+   "action": "reject",
+   "reason": "place name (Dobell) discussed as a spelling variant, not a person"
+  },
+  {
+   "key": "Dobell",
+   "action": "reject",
+   "reason": "place name discussed as a spelling variant, not a person"
+  },
+  {
+   "key": "Dominus de Wida",
+   "action": "accept",
+   "label": "Dominus de Wida",
+   "class": "person",
+   "kind": "Vogt",
+   "note": "lateinische Bezeichnung einer der fünf Vogtslinien (Weida), S. 271"
+  },
+  {
+   "key": "Doro= thea Magda= lena",
+   "action": "accept",
+   "label": "Dorothea Magdalena",
+   "class": "person",
+   "kind": "Prinzessin",
+   "description_de": "geb. 1595, † 1646; Gem. Georg v. Kirchberg",
+   "description_en": "b. 1595, d. 1646; m. Georg v. Kirchberg"
+  },
+  {
+   "key": "Doro= thea Si= bille",
+   "action": "accept",
+   "label": "Dorothea Sibille",
+   "class": "person",
+   "kind": "Prinzessin",
+   "description_de": "geb. 1609, † 1631; Gem. Christian Schenk v. Tautenburg",
+   "description_en": "b. 1609, d. 1631"
+  },
+  {
+   "key": "Dorothea",
+   "action": "accept",
+   "label": "Dorothea",
+   "class": "person",
+   "kind": "Prinzessin",
+   "note": "ambiguous: St. Dorothea (S. 136), a widowed countess Dorothea (1704), many women of the Vogt and Reuß houses"
+  },
+  {
+   "key": "Dorothea Caroline v. Carolath-Beuthen",
+   "action": "accept",
+   "label": "Dorothea Caroline v. Carolath-Beuthen",
+   "class": "person",
+   "kind": "Gemahlin",
+   "description_de": "verm. 1819, † 1848; Gemahlin Heinrichs LX. (1784–1833)",
+   "description_en": "m. 1819, d. 1848; wife of Heinrich LX."
+  },
+  {
+   "key": "Dorothea Lis. El. Hermine",
+   "action": "accept",
+   "label": "Dorothea Lis. El. Hermine",
+   "class": "person",
+   "kind": "Adlige",
+   "description_de": "Tochter des Hauptmanns Chr. Fr. Aug. v. Ende; Gemahlin eines sächsischen Lieutenants",
+   "description_en": "daughter of Captain Chr. Fr. Aug. v. Ende"
+  },
+  {
+   "key": "Dorothea v. Brantenstein-Wölsdorf",
+   "action": "accept",
+   "label": "Dorothea v. Brantenstein-Wölsdorf",
+   "class": "person",
+   "kind": "Gemahlin",
+   "description_de": "† 1807; 2. Gemahlin Heinrichs XXIII.",
+   "description_en": "d. 1807; second wife of Heinrich XXIII."
+  },
+  {
+   "key": "Dorothea v. Gera",
+   "action": "accept",
+   "label": "Dorothea v. Gera",
+   "class": "person",
+   "kind": "Gemahlin",
+   "description_de": "verwitwete v. Truhendingen; Gemahlin Heinrichs d. j., Herrn zu Ronneburg",
+   "description_en": "widow of v. Truhendingen; wife of Heinrich d. j., lord of Ronneburg"
+  },
+  {
+   "key": "Dorothea von Gera",
+   "action": "merge",
+   "into": "Dorothea v. Gera"
+  },
+  {
+   "key": "Dorothea v. Solms-Sonnenwalde",
+   "action": "accept",
+   "label": "Dorothea v. Solms-Sonnenwalde",
+   "class": "person",
+   "kind": "Gemahlin",
+   "description_de": "2. Gemahlin Heinrichs d. j. (1530–1572), Herrn von Gera",
+   "description_en": "second wife of Heinrich d. j. (1530–1572)"
+  },
+  {
+   "key": "Dr. A. Cohn",
+   "action": "accept",
+   "label": "A. Cohn",
+   "class": "person",
+   "kind": "Historiker",
+   "description_de": "Dr. A. Cohn in Göttingen; Verfasser einer Abhandlung über die Vorfahren der Fürsten Reuß (1869); Brückner widerspricht seiner Hypothese (S. 324–326)",
+   "description_en": "Dr. A. Cohn of Göttingen; author of a treatise on the ancestors of the princes Reuss (1869)"
+  },
+  {
+   "key": "Dr. Aschenbach",
+   "action": "merge",
+   "into": "Aschenbach"
+  },
+  {
+   "key": "Dr. Baumeister",
+   "action": "accept",
+   "label": "Baumeister",
+   "class": "person",
+   "kind": "Direktor",
+   "description_de": "Dr.; seit 1868 Direktor einer Anstalt in Gera (S. 436)",
+   "description_en": "Dr.; director of an institution in Gera since 1868"
+  },
+  {
+   "key": "Dr. Baßler",
+   "action": "accept",
+   "label": "Baßler",
+   "class": "person",
+   "kind": "Arzt",
+   "description_de": "Dr.; Beobachtungen in Saalburg (S. 58)",
+   "description_en": "Dr.; observations at Saalburg"
+  },
+  {
+   "key": "Dr. Blau",
+   "action": "accept",
+   "label": "Blau",
+   "class": "person",
+   "kind": "Arzt",
+   "description_de": "Dr.; Gründer der Kaltwasserheilanstalt in Langenberg",
+   "description_en": "Dr.; founder of the cold-water cure establishment at Langenberg"
+  },
+  {
+   "key": "Dr. Cohn",
+   "action": "merge",
+   "into": "Dr. A. Cohn"
+  },
+  {
+   "key": "Dr. Cramer",
+   "action": "accept",
+   "label": "Cramer",
+   "class": "person",
+   "kind": "Jurist",
+   "description_de": "Dr.; erwarb 1724 ein Gut von Kanzler Limmer; Vater des J. W. Cramer",
+   "description_en": "Dr.; bought a manor in 1724"
+  },
+  {
+   "key": "Dr. Dürr",
+   "action": "accept",
+   "label": "Dürr",
+   "class": "person",
+   "kind": "Botaniker",
+   "description_de": "Dr.; in Lehesten (S.-Meiningen), Pflanzenfunde im Lobensteiner Land",
+   "description_en": "Dr.; of Lehesten, plant records from the Lobenstein area"
+  },
+  {
+   "key": "Dr. Eltester",
+   "action": "accept",
+   "label": "Eltester",
+   "class": "person",
+   "kind": "Arzt",
+   "description_de": "Dr.; Leiter der Kaltwasserheilanstalt (Langenberg), Nachfolger Blaus",
+   "description_en": "Dr.; head of the cold-water cure establishment, successor of Blau"
+  },
+  {
+   "key": "Dr. F. Schmidt",
+   "action": "accept",
+   "label": "F. Schmidt",
+   "class": "person",
+   "kind": "Gelehrter",
+   "description_de": "Dr.; 48 Jahre Direktor des voigtländischen altertumsforschenden Vereins (Hohenleuben)",
+   "description_en": "Dr.; for 48 years director of the Voigtland antiquarian society",
+   "note": "homonyms: see the Schmidt entries"
+  },
+  {
+   "key": "Dr. G. W. B. v. Wiese",
+   "action": "accept",
+   "label": "G. W. B. v. Wiese",
+   "class": "person",
+   "kind": "Beamter",
+   "description_de": "Dr.; Kanzler, † 1824; Stifter der v. Wiese'schen Familienstiftung",
+   "description_en": "Dr.; chancellor, d. 1824"
+  },
+  {
+   "key": "Dr. Heyland",
+   "action": "accept",
+   "label": "Heyland",
+   "class": "person",
+   "kind": "Arzt",
+   "description_de": "Dr.; Wetterbeobachtungen in Schleiz 1863–1867",
+   "description_en": "Dr.; weather observations at Schleiz 1863–1867"
+  },
+  {
+   "key": "Dr. J. Chr. Pfeiffer",
+   "action": "accept",
+   "label": "J. Chr. Pfeiffer",
+   "class": "person",
+   "kind": "Gelehrter",
+   "description_de": "Dr., † 1768; Gera",
+   "description_en": "Dr., d. 1768"
+  },
+  {
+   "key": "Dr. J. G. Bertsch",
+   "action": "accept",
+   "label": "J. G. Bertsch",
+   "class": "person",
+   "kind": "Gelehrter",
+   "description_de": "Dr., † 1718; Gera",
+   "description_en": "Dr., d. 1718"
+  },
+  {
+   "key": "Dr. J. G. Tr. Behr",
+   "action": "accept",
+   "label": "J. G. Tr. Behr",
+   "class": "person",
+   "kind": "Gelehrter",
+   "description_de": "Dr.; verdienter Mann in Gera (S. 446)",
+   "description_en": "Dr.; deserving man in Gera"
+  },
+  {
+   "key": "Dr. J. Zach. H. Hahn",
+   "action": "accept",
+   "label": "J. Zach. H. Hahn",
+   "class": "person",
+   "kind": "Gelehrter",
+   "description_de": "Dr., † 1826; Gera",
+   "description_en": "Dr., d. 1826"
+  },
+  {
+   "key": "Dr. Jul. Schmidt",
+   "action": "accept",
+   "label": "Jul. Schmidt",
+   "class": "person",
+   "kind": "Gelehrter",
+   "description_de": "Dr.; Verfasser einer Topographie der Pflege Reichenfels (1827)",
+   "description_en": "Dr.; author of a topography of the Pflege Reichenfels (1827)"
+  },
+  {
+   "key": "Dr. Köhler",
+   "action": "accept",
+   "label": "Köhler",
+   "class": "person",
+   "kind": "Schriftsteller",
+   "description_de": "Dr.; Herausgeber der Schrift „Volksbrauch, Aberglaube, Sage … im Voigtlande“",
+   "description_en": "Dr.; editor of \"Volksbrauch, Aberglaube, Sage … im Voigtlande\""
+  },
+  {
+   "key": "Dr. Mauke",
+   "action": "merge",
+   "into": "Dr. Richard Mauke"
+  },
+  {
+   "key": "Dr. Reichardt",
+   "action": "accept",
+   "label": "Reichardt",
+   "class": "person",
+   "kind": "Chemiker",
+   "description_de": "Dr.; Professor in Jena, Analyse von Quellwasser",
+   "description_en": "Dr.; professor at Jena; analysis of spring water"
+  },
+  {
+   "key": "Dr. Richard Mauke",
+   "action": "accept",
+   "label": "Richard Mauke",
+   "class": "person",
+   "kind": "Arzt",
+   "description_de": "Dr.; Wetterbeobachtungen in Schleiz 1863–1866",
+   "description_en": "Dr.; weather observations at Schleiz 1863–1866"
+  },
+  {
+   "key": "Dr. Rob. Schmidt",
+   "action": "merge",
+   "into": "Dr. Robert Schmidt"
+  },
+  {
+   "key": "Dr. Robert Schmidt",
+   "action": "accept",
+   "label": "Robert Schmidt",
+   "class": "person",
+   "kind": "Naturforscher",
+   "description_de": "Dr.; Gera, meteorologische und phänologische Beobachtungen seit 1856",
+   "description_en": "Dr.; at Gera, meteorological and phenological observations since 1856",
+   "note": "Brückner corrects (p. 830): Dr. Rob. Schmidt in Gera, not Rob. Schmidt in Hohenleuben"
+  },
+  {
+   "key": "Dr. Schmidt",
+   "action": "accept",
+   "label": "Schmidt",
+   "class": "person",
+   "kind": "Arzt",
+   "description_de": "Dr. Schmidt zu Hohenleuben (S. 69)",
+   "description_en": "Dr. Schmidt of Hohenleuben",
+   "note": "ambiguous: homonyms"
+  },
+  {
+   "key": "Dr. Zimmer",
+   "action": "accept",
+   "label": "Zimmer",
+   "class": "person",
+   "kind": "Zoologe",
+   "description_de": "Dr.; Molluskenfauna des Fürstentums",
+   "description_en": "Dr.; molluscan fauna of the principality"
+  },
+  {
+   "key": "Dressel",
+   "action": "accept",
+   "label": "Dressel (Drechsel)",
+   "class": "person",
+   "kind": "Pfarrer",
+   "description_de": "nailaer Pfarrer, um 1650–1675 Besitzer eines Gutes",
+   "description_en": "pastor of Naila"
+  },
+  {
+   "key": "Dreyer",
+   "action": "accept",
+   "label": "Dreyer",
+   "class": "person",
+   "kind": "Bürger",
+   "description_de": "Frau Dreyer, verehelichte, Besitzerin eines Gutes (S. 465)",
+   "description_en": "Mrs Dreyer, owner of an estate"
+  },
+  {
+   "key": "Dreyhaupt",
+   "action": "accept",
+   "label": "Dreyhaupt",
+   "class": "person",
+   "kind": "Pfarrer",
+   "description_de": "Pastor in Heukewalde (Wasseranalysen)",
+   "description_en": "pastor at Heukewalde"
+  },
+  {
+   "key": "Duden",
+   "action": "accept",
+   "label": "Duden",
+   "class": "person",
+   "kind": "Direktor",
+   "description_de": "Dr.; Direktor des Gymnasiums zu Schleiz",
+   "description_en": "Dr.; director of the Gymnasium at Schleiz",
+   "note": "probably Konrad Duden, 1869–1876 director of the Schleiz Gymnasium"
+  },
+  {
+   "key": "Dusburg",
+   "action": "accept",
+   "label": "Peter von Dusburg",
+   "class": "person",
+   "kind": "Schriftsteller",
+   "description_de": "Chronist des Deutschen Ordens",
+   "description_en": "chronicler of the Teutonic Order"
+  },
+  {
+   "key": "Dusburgs",
+   "action": "merge",
+   "into": "Dusburg"
+  },
+  {
+   "key": "Dönitz",
+   "action": "accept",
+   "label": "Dönitz",
+   "class": "person",
+   "kind": "Subskribent",
+   "note": "Subskribent (S. 836)"
+  },
+  {
+   "key": "Dörre",
+   "action": "merge",
+   "into": "Derre"
+  },
+  {
+   "key": "Dürr",
+   "action": "accept",
+   "label": "Dürr",
+   "class": "person",
+   "kind": "Subskribent",
+   "note": "Subskribent (S. 836)"
+  },
+  {
+   "key": "E. K. Walz",
+   "action": "accept",
+   "label": "E. K. Walz",
+   "class": "person",
+   "kind": "Pfarrer",
+   "description_de": "Pfarrer zur Zeit der Abfassung (17. seit 1533)",
+   "description_en": "pastor at the time of writing (17th since 1533)"
+  },
+  {
+   "key": "E. Kratzsch",
+   "action": "accept",
+   "label": "E. Kratzsch",
+   "class": "person",
+   "kind": "Naturforscher",
+   "description_de": "Wetterbeobachtungen in Gera",
+   "description_en": "weather observations in Gera"
+  },
+  {
+   "key": "E. W. Nägler",
+   "action": "accept",
+   "label": "E. W. Nägler",
+   "class": "person",
+   "kind": "Kaufmann",
+   "description_de": "Kaufmann, Kommerzienrat in Gera",
+   "description_en": "merchant, Kommerzienrat in Gera"
+  },
+  {
+   "key": "Ebeling",
+   "action": "accept",
+   "label": "Ebeling",
+   "class": "person",
+   "kind": "Kaufmann",
+   "note": "ambiguous: the old Ebeling reputed a sorcerer at Gera (S. 204) and Kommerzienrat Ebeling of Gera (foundation, S. 309)"
+  },
+  {
+   "key": "Eberhard",
+   "action": "accept",
+   "label": "Eberhard",
+   "class": "person",
+   "kind": "Beamter",
+   "description_de": "Hofbaumeister; Erbauer eines Jagdschlösschens (S. 726)",
+   "description_en": "court architect; builder of a hunting lodge"
+  },
+  {
+   "key": "Eberhard v. Stolberg-Wernigerode",
+   "action": "accept",
+   "label": "Eberhard v. Stolberg-Wernigerode",
+   "class": "person",
+   "kind": "Adliger",
+   "description_de": "Gemahl der Marie Wilh. (b. 1822), verm. 1842",
+   "description_en": "husband of Marie Wilh. (b. 1822), m. 1842"
+  },
+  {
+   "key": "Eberhard von Bruberg",
+   "action": "accept",
+   "label": "Eberhard von Bruberg",
+   "class": "person",
+   "kind": "Adliger",
+   "description_de": "† 1271; trägt den Beinamen Reuze oder Reize",
+   "description_en": "d. 1271; bore the epithet Reuze or Reize"
+  },
+  {
+   "key": "Eberhard von Voigtsberg",
+   "action": "accept",
+   "label": "Eberhard von Voigtsberg",
+   "class": "person",
+   "kind": "Adliger",
+   "description_de": "Beistand Heinrichs von Weida",
+   "description_en": "supporter of Heinrich of Weida"
+  },
+  {
+   "key": "Eberhardt",
+   "action": "accept",
+   "label": "Eberhardt",
+   "class": "person",
+   "kind": "Subskribent",
+   "note": "Subskribent (S. 836)"
+  },
+  {
+   "key": "Eckart",
+   "action": "accept",
+   "label": "Eckart",
+   "class": "person",
+   "kind": "Historiker",
+   "description_de": "Historiker, hält Dürrenberg für Dervellio",
+   "description_en": "historian"
+  },
+  {
+   "key": "Eckbert von Schwarzburg-Ustrod",
+   "action": "accept",
+   "label": "Eckbert von Schwarzburg-Ustrod",
+   "class": "person",
+   "kind": "Adliger",
+   "description_de": "Graf; vermählt mit einer Erbtochter",
+   "description_en": "count; married an heiress"
+  },
+  {
+   "key": "Eckhard",
+   "action": "accept",
+   "label": "Eckhard",
+   "class": "person",
+   "kind": "Adliger",
+   "description_de": "1044 Graf im Gau Gera",
+   "description_en": "count in the Gau Gera, 1044"
+  },
+  {
+   "key": "Eckner",
+   "action": "accept",
+   "label": "Eckner",
+   "class": "person",
+   "kind": "Bauer",
+   "description_de": "Bauer aus Schilbach; 1815 zum Wiener Kongress",
+   "description_en": "farmer from Schilbach; went to the Congress of Vienna in 1815"
+  },
+  {
+   "key": "Ed. Friederici",
+   "action": "accept",
+   "label": "Ed. Friederici",
+   "class": "person",
+   "kind": "Stifter",
+   "description_de": "Dr., Domkapitular und Advokat in Leipzig; stiftete 1835 und 1857 Stipendien",
+   "description_en": "Dr., cathedral canon and advocate at Leipzig; founded stipends in 1835 and 1857"
+  },
+  {
+   "key": "Ed. Weber",
+   "action": "accept",
+   "label": "Ed. Weber",
+   "class": "person",
+   "kind": "Stifter",
+   "description_de": "Kaufmann zu Gera; stiftete 1864 das weberische Stipendium",
+   "description_en": "merchant at Gera; founded a stipend in 1864"
+  },
+  {
+   "key": "Edel",
+   "action": "accept",
+   "label": "Edel",
+   "class": "person",
+   "kind": "Subskribent",
+   "note": "Subskribent (S. 836)"
+  },
+  {
+   "key": "Eduard",
+   "action": "accept",
+   "label": "Eduard",
+   "class": "person",
+   "kind": "Gutsbesitzer",
+   "description_de": "einziger Sohn der Friederike Leers (S. 456)",
+   "description_en": "only son of Friederike Leers",
+   "note": "ambiguous first name"
+  },
+  {
+   "key": "Eduard Hagenbruch",
+   "action": "accept",
+   "label": "Eduard Hagenbruch",
+   "class": "person",
+   "kind": "Gutsbesitzer",
+   "description_de": "zu Weimar; Rittergutsbesitzer (S. 223)",
+   "description_en": "of Weimar; manor owner"
+  },
+  {
+   "key": "Eduard L. Chr. v. Brandenstein",
+   "action": "accept",
+   "label": "Eduard L. Chr. v. Brandenstein",
+   "class": "person",
+   "kind": "Adliger",
+   "description_de": "Rittergutsbesitzer (S. 223); Forstmeister und Kammerherr auf Hayn",
+   "description_en": "manor owner; forest master and chamberlain at Hayn"
+  },
+  {
+   "key": "Eduard v. Brandenstein",
+   "action": "merge",
+   "into": "Eduard L. Chr. v. Brandenstein"
+  },
+  {
+   "key": "Eduard v. S.-Altenb",
+   "action": "accept",
+   "label": "Eduard v. S.-Altenb.",
+   "class": "person",
+   "kind": "Prinz",
+   "description_de": "Gemahl der Louise (g. 1822); Witwer der Amalie v. Hohenzollern-Sigmaringen",
+   "description_en": "husband of Louise (b. 1822)"
+  },
+  {
+   "key": "Egid. Handsogel",
+   "action": "accept",
+   "label": "Egid. Handsogel",
+   "class": "person",
+   "kind": "Pfarrer",
+   "description_de": "1534 erster lutherischer Pfarrer",
+   "description_en": "first Lutheran pastor, 1534"
+  },
+  {
+   "key": "Egidius Krupfgans",
+   "action": "accept",
+   "label": "Egidius Krupfgans",
+   "class": "person",
+   "kind": "Pfarrer",
+   "description_de": "letzter katholischer und erster lutherischer Pfarrer",
+   "description_en": "last Catholic and first Lutheran pastor"
+  },
+  {
+   "key": "Ehrenfried",
+   "action": "accept",
+   "label": "Ehrenfried",
+   "class": "person",
+   "kind": "Pfalzgraf",
+   "description_de": "Pfalzgraf Ehrenfried (11. Jh.)",
+   "description_en": "count palatine Ehrenfried (11th c.)",
+   "note": "possibly ambiguous"
+  },
+  {
+   "key": "Ehrenfried v. Ende",
+   "action": "accept",
+   "label": "Ehrenfried v. Ende",
+   "class": "person",
+   "kind": "Adliger",
+   "description_de": "1591 erwähnt",
+   "description_en": "mentioned in 1591"
+  },
+  {
+   "key": "Ehrenfried v. Naundorf",
+   "action": "accept",
+   "label": "Ehrenfried v. Naundorf",
+   "class": "person",
+   "kind": "Stifter",
+   "description_de": "stiftete 1667 das naundorfische Stipendium",
+   "description_en": "founded a stipend in 1667"
+  },
+  {
+   "key": "Ehrhard Hedwig",
+   "action": "accept",
+   "label": "Ehrhard Hedwig",
+   "class": "person",
+   "kind": "Geistlicher",
+   "description_de": "Kaplan",
+   "description_en": "chaplain"
+  },
+  {
+   "key": "Ehrhardt Murring",
+   "action": "accept",
+   "label": "Ehrhardt Murring",
+   "class": "person",
+   "kind": "Adliger",
+   "description_de": "Ritter; 1413 Verkäufer eines Hofes",
+   "description_en": "knight; sold a farm in 1413"
+  },
+  {
+   "key": "Einwangen",
+   "action": "accept",
+   "label": "Einwangen",
+   "class": "person",
+   "kind": "Geistlicher",
+   "description_de": "Diaconus zu Gera; Anhänger Strigels",
+   "description_en": "deacon at Gera; follower of Strigel"
+  },
+  {
+   "key": "Eisel",
+   "action": "accept",
+   "label": "Robert Eisel",
+   "class": "person",
+   "kind": "Sammler",
+   "description_de": "Kaufmann; Sammler der Sagen und Sitten des Landes",
+   "description_en": "merchant; collector of the legends and customs of the country"
+  },
+  {
+   "key": "Eisel, Robert",
+   "action": "merge",
+   "into": "Eisel"
+  },
+  {
+   "key": "Eisenbeiß",
+   "action": "accept",
+   "label": "Eisenbeiß",
+   "class": "person",
+   "kind": "Geistlicher",
+   "description_de": "einer der streitlustigen ersten Pfarrer zu Hirschberg",
+   "description_en": "one of the quarrelsome early pastors of Hirschberg"
+  },
+  {
+   "key": "Eismann",
+   "action": "accept",
+   "label": "Eismann",
+   "class": "person",
+   "kind": "Lehrer",
+   "description_de": "Lehrer, verwaltet eine Lesebibliothek (S. 524)",
+   "description_en": "teacher; manages a lending library"
+  },
+  {
+   "key": "Eleonore",
+   "action": "accept",
+   "label": "Eleonore",
+   "class": "person",
+   "kind": "Prinzessin",
+   "description_de": "geb. 1661, † 1696; Gem. J. Georg v. Solms-Baruth",
+   "description_en": "b. 1661, d. 1696",
+   "note": "ambiguous first name"
+  },
+  {
+   "key": "Eleonore Gasparine Caroline",
+   "action": "accept",
+   "label": "Eleonore Gasparine Caroline",
+   "class": "person",
+   "kind": "Prinzessin",
+   "description_de": "geb. 1860",
+   "description_en": "b. 1860"
+  },
+  {
+   "key": "Eleonore Mariane Chriſtine",
+   "action": "accept",
+   "label": "Eleonore Mariane Christine",
+   "class": "person",
+   "kind": "Prinzessin",
+   "description_de": "geb. 1736, † 1782; Gem. Christian Carl v. Stolberg-Gedern",
+   "description_en": "b. 1736, d. 1782"
+  },
+  {
+   "key": "Eleonore Sophie",
+   "action": "merge",
+   "into": "Eleonore Sophie v. Giech-Thurnau"
+  },
+  {
+   "key": "Eleonore Sophie v. Giech-Thurnau",
+   "action": "accept",
+   "label": "Eleonore Sophie v. Giech-Thurnau",
+   "class": "person",
+   "kind": "Gemahlin",
+   "description_de": "Gemahlin Heinrichs XVII. von Lobenstein (1676–1706); erwarb 1700 Güter",
+   "description_en": "wife of Heinrich XVII. of Lobenstein (1676–1706)"
+  },
+  {
+   "key": "Eleonore v. Stolberg-Wernigerode",
+   "action": "accept",
+   "label": "Eleonore v. Stolberg-Wernigerode",
+   "class": "person",
+   "kind": "Gemahlin",
+   "description_de": "1. Gemahlin Heinrichs LXIII. († 1827)",
+   "description_en": "first wife of Heinrich LXIII. (d. 1827)",
+   "note": "ambiguous: also a wife of Heinrich LXXIV. (m. 1855)"
+  },
+  {
+   "key": "Elias",
+   "action": "accept",
+   "label": "Elias",
+   "class": "person",
+   "kind": "Prophet",
+   "description_de": "der Prophet Elias (Legende von Eliasbrunn)",
+   "description_en": "the prophet Elijah (legend of Eliasbrunn)"
+  },
+  {
+   "key": "Elisabeth",
+   "action": "accept",
+   "label": "Elisabeth",
+   "class": "person",
+   "kind": "Prinzessin",
+   "note": "ambiguous: many women of the Vogt and Reuß houses (e.g. abbess of Gernrode, d. 1532)"
+  },
+  {
+   "key": "Elisabeth Adelheid Helene Philippine",
+   "action": "accept",
+   "label": "Elisabeth Adelheid Helene Philippine",
+   "class": "person",
+   "kind": "Prinzessin",
+   "description_de": "geb. 27. Oktober 1859",
+   "description_en": "b. 27 Oct 1859"
+  },
+  {
+   "key": "Elisabeth Sibille",
+   "action": "accept",
+   "label": "Elisabeth Sibille",
+   "class": "person",
+   "kind": "Prinzessin",
+   "description_de": "geb. 1627, † 1703; Gem. Heinrichs II. zu Untergreiz und Burgk",
+   "description_en": "b. 1627, d. 1703"
+  },
+  {
+   "key": "Elisabeth v. Kospod",
+   "action": "accept",
+   "label": "Elisabeth v. Kospod",
+   "class": "person",
+   "kind": "Adlige",
+   "description_de": "1350 Geldzins zu Oberkoskau",
+   "description_en": "1350, rent at Oberkoskau"
+  },
+  {
+   "key": "Elisabeth v. Schwarzburg",
+   "action": "merge",
+   "into": "Elisabeth von Schwarzburg-Blankenburg"
+  },
+  {
+   "key": "Elisabeth v. Schwarzburg-Leutenberg",
+   "action": "accept",
+   "label": "Elisabeth v. Schwarzburg-Leutenberg",
+   "class": "person",
+   "kind": "Gemahlin",
+   "description_de": "1. Gemahlin Heinrichs d. j. (1530–1572)",
+   "description_en": "first wife of Heinrich d. j. (1530–1572)"
+  },
+  {
+   "key": "Elisabeth v. Schönburg-Lichtenstein",
+   "action": "accept",
+   "label": "Elisabeth v. Schönburg-Lichtenstein",
+   "class": "person",
+   "kind": "Gemahlin",
+   "description_de": "1. Gemahlin des F. Kaspar v. Schönburg-Glauchau-Penig",
+   "description_en": "first wife of F. Kaspar v. Schönburg-Glauchau-Penig"
+  },
+  {
+   "key": "Elisabeth v. Weischlitz",
+   "action": "accept",
+   "label": "Elisabeth v. Weischlitz",
+   "class": "person",
+   "kind": "Nonne",
+   "description_de": "Priorin (Kloster Cronschwitz)",
+   "description_en": "prioress (Cronschwitz convent)"
+  },
+  {
+   "key": "Elisabeth von Lobdaburg-Arnshaugk",
+   "action": "accept",
+   "label": "Elisabeth von Lobdaburg-Arnshaugk",
+   "class": "person",
+   "kind": "Adlige",
+   "description_de": "Gräfin; Gemahlin des Landgrafen Friedrich von Thüringen",
+   "description_en": "countess; wife of Landgrave Friedrich of Thuringia"
+  },
+  {
+   "key": "Elisabeth von Schwarzburg-Blankenburg",
+   "action": "accept",
+   "label": "Elisabeth von Schwarzburg-Blankenburg",
+   "class": "person",
+   "kind": "Gemahlin",
+   "description_de": "Gräfin, 1. Gemahlin Heinrichs d. Dispensirten; stiftete 1399 eine Kapelle im schleizer Walde, † zwischen 1399 und 1402",
+   "description_en": "countess, first wife of Heinrich the Dispensed; founded a chapel in 1399"
+  },
+  {
+   "key": "Elise",
+   "action": "accept",
+   "label": "Elise",
+   "class": "person",
+   "kind": "Prinzessin",
+   "description_de": "geb. 1824, † 1833",
+   "description_en": "b. 1824, d. 1833",
+   "note": "ambiguous first name"
+  },
+  {
+   "key": "Elise Christine",
+   "action": "accept",
+   "label": "Elise Christine",
+   "class": "person",
+   "kind": "Prinzessin",
+   "description_de": "geb. 1639, † 1644",
+   "description_en": "b. 1639, d. 1644"
+  },
+  {
+   "key": "Elise Dor",
+   "action": "accept",
+   "label": "Elise Dor.",
+   "class": "person",
+   "kind": "Prinzessin",
+   "description_de": "geb. 1651, † 1665",
+   "description_en": "b. 1651, d. 1665"
+  },
+  {
+   "key": "Elise Dorothea",
+   "action": "accept",
+   "label": "Elise Dorothea",
+   "class": "person",
+   "kind": "Prinzessin",
+   "description_de": "geb. 1673, † 1698",
+   "description_en": "b. 1673, d. 1698"
+  },
+  {
+   "key": "Elise Sibille",
+   "action": "merge",
+   "into": "Elisabeth Sibille"
+  },
+  {
+   "key": "Elissens v. Tschernembel",
+   "action": "accept",
+   "label": "Elisse v. Tschernembel",
+   "class": "person",
+   "kind": "Adlige",
+   "description_de": "† 1612; 1. Gemahlin Wolfgangs v. Schönburg-Penig",
+   "description_en": "d. 1612; first wife of Wolfgang v. Schönburg-Penig",
+   "note": "nominative inferred from the genitive form \"Elissens\""
+  },
+  {
+   "key": "Eliſ. Magdalena",
+   "action": "accept",
+   "label": "Elis. Magdalena",
+   "class": "person",
+   "kind": "Prinzessin",
+   "description_de": "geb. 1601, † 1641",
+   "description_en": "b. 1601, d. 1641"
+  },
+  {
+   "key": "Elschner",
+   "action": "accept",
+   "label": "Elschner",
+   "class": "person",
+   "kind": "Handwerker",
+   "description_de": "alter Schmied zu Lössau (Mundartzitat, S. 164)",
+   "description_en": "old smith at Lössau"
+  },
+  {
+   "key": "Else",
+   "action": "accept",
+   "label": "Else",
+   "class": "person",
+   "kind": "Prinzessin",
+   "note": "ambiguous: Else, daughter of a Vogt (c. 1420), others"
+  },
+  {
+   "key": "Elsässer",
+   "action": "accept",
+   "label": "Elsässer",
+   "class": "person",
+   "kind": "Ingenieur",
+   "description_de": "Ingenieur; Aufsatz über Quellen des Oberlandes (S. 70)",
+   "description_en": "engineer; article on springs of the Oberland"
+  },
+  {
+   "key": "Elſie Sophie v. Bobenhauſen",
+   "action": "accept",
+   "label": "Elsie Sophie v. Bobenhausen",
+   "class": "person",
+   "kind": "Gemahlin",
+   "description_de": "1. Gemahlin Heinrichs VIII. (1652–1711)",
+   "description_en": "first wife of Heinrich VIII. (1652–1711)"
+  },
+  {
+   "key": "Em. Fr. W. v. Wietsch",
+   "action": "accept",
+   "label": "Em. Fr. W. v. Wietsch",
+   "class": "person",
+   "kind": "Adliger",
+   "description_de": "1752 Besitzer eines Gutes; gothaischer Landkammerrat",
+   "description_en": "owner of a manor in 1752; Gotha Landkammerrat"
+  },
+  {
+   "key": "Emich Carl v. Leiningen",
+   "action": "accept",
+   "label": "Emich Carl v. Leiningen",
+   "class": "person",
+   "kind": "Adliger",
+   "description_de": "Fürst, † 1814; Gemahl der Sophie (1767–1801)",
+   "description_en": "prince, d. 1814; husband of Sophie (1767–1801)"
+  },
+  {
+   "key": "Emilie",
+   "action": "accept",
+   "label": "Emilie",
+   "class": "person",
+   "kind": "Prinzessin",
+   "description_de": "geb. 1787, † 1854; Gem. Heinrich Graf v. Reichenbach-Goschütz",
+   "description_en": "b. 1787, d. 1854",
+   "note": "ambiguous first name"
+  },
+  {
+   "key": "Emilie Agnes",
+   "action": "accept",
+   "label": "Emilie Agnes",
+   "class": "person",
+   "kind": "Prinzessin",
+   "description_de": "geb. 1667, † 1729; Gem. 1) Balthasar Erdmann v. Prommnitz, 2) Friedrich v. Sachsen-Weißenfels",
+   "description_en": "b. 1667, d. 1729"
+  },
+  {
+   "key": "Emilie Caroline Henriette",
+   "action": "accept",
+   "label": "Emilie Caroline Henriette",
+   "class": "person",
+   "kind": "Prinzessin",
+   "description_de": "geb. 1745, † 1754",
+   "description_en": "b. 1745, d. 1754"
+  },
+  {
+   "key": "Emilie Dor. Henriette",
+   "action": "accept",
+   "label": "Emilie Dor. Henriette",
+   "class": "person",
+   "kind": "Prinzessin",
+   "description_de": "geb. 1723, † 1724",
+   "description_en": "b. 1723, d. 1724"
+  },
+  {
+   "key": "Emilie Eleonore",
+   "action": "accept",
+   "label": "Emilie Eleonore",
+   "class": "person",
+   "kind": "Prinzessin",
+   "description_de": "geb. 1689, † 1730",
+   "description_en": "b. 1689, d. 1730"
+  },
+  {
+   "key": "Emilie Fr. Dinger",
+   "action": "accept",
+   "label": "Emilie Fr. Dinger",
+   "class": "person",
+   "kind": "Stifterin",
+   "description_de": "Fräulein zu Gera; Stiftung von 1860 für arbeitsunfähige Wäscherinnen",
+   "description_en": "Miss, of Gera; foundation of 1860 for washerwomen unable to work"
+  },
+  {
+   "key": "Emilie Jul",
+   "action": "accept",
+   "label": "Emilie Jul.",
+   "class": "person",
+   "kind": "Prinzessin",
+   "description_de": "geb. 1688, † 1689",
+   "description_en": "b. 1688, d. 1689"
+  },
+  {
+   "key": "Ende",
+   "action": "accept",
+   "label": "v. Ende",
+   "class": "person",
+   "kind": "Adelsfamilie",
+   "note": "Familie (S. 474, 518, 533)"
+  },
+  {
+   "key": "Engelhard",
+   "action": "accept",
+   "label": "Engelhard",
+   "class": "person",
+   "kind": "Bischof",
+   "description_de": "Bischof von Naumburg",
+   "description_en": "bishop of Naumburg"
+  },
+  {
+   "key": "Engelhardt",
+   "action": "accept",
+   "label": "Engelhardt",
+   "class": "person",
+   "kind": "Beamter",
+   "description_de": "Geh. Regierungsrat (1853); Rechnungsrat (1864): Berechnungen des Landesareals",
+   "description_en": "privy government councillor (1853); Rechnungsrat (1864): calculations of the country's area",
+   "note": "possibly two persons"
+  },
+  {
+   "key": "Ennlich",
+   "action": "accept",
+   "label": "Ennlich",
+   "class": "person",
+   "kind": "Geistlicher",
+   "description_de": "Pfarrer, 1633 mißhandelt und fortgeschleppt",
+   "description_en": "pastor, mistreated and abducted in 1633"
+  },
+  {
+   "key": "Eobald v. Ende",
+   "action": "accept",
+   "label": "Eobald v. Ende",
+   "class": "person",
+   "kind": "Adliger",
+   "description_de": "1633 erwähnt",
+   "description_en": "mentioned in 1633"
+  },
+  {
+   "key": "Er= nestine",
+   "action": "accept",
+   "label": "Ernestine",
+   "class": "person",
+   "kind": "Prinzessin",
+   "description_de": "geb. 1618, † 1650; Gem. Otto Alb. v. Schönburg-Hartenstein",
+   "description_en": "b. 1618, d. 1650",
+   "note": "ambiguous first name"
+  },
+  {
+   "key": "Erdm. Müller",
+   "action": "accept",
+   "label": "Erdmann Müller",
+   "class": "person",
+   "kind": "Bauer",
+   "description_de": "Besitzer eines der ursprünglichen Güter (Ortstradition, S. 485)",
+   "description_en": "owner of one of the original farms"
+  },
+  {
+   "key": "Erdmann v. Reder-Krappiz",
+   "action": "accept",
+   "label": "Erdmann v. Reder-Krappiz",
+   "class": "person",
+   "kind": "Adliger",
+   "description_de": "Gemahl der Joh. Margarethe (1695–1766)",
+   "description_en": "husband of Joh. Margarethe (1695–1766)"
+  },
+  {
+   "key": "Erdmann-v. Prommnitz",
+   "action": "accept",
+   "label": "Erdmann v. Prommnitz",
+   "class": "person",
+   "kind": "Adliger",
+   "description_de": "Gemahl der Henriette Eleonore (1706–1762); Witwer der Anna Mar. v. Sachsen-Weißenfels",
+   "description_en": "husband of Henriette Eleonore (1706–1762)"
+  },
+  {
+   "key": "Erdmuth Dorothea",
+   "action": "merge",
+   "into": "Erdmuthe Dorothea Reuß-Ebersdorf"
+  },
+  {
+   "key": "Erdmuthe Benigna",
+   "action": "merge",
+   "into": "Erdmuthe Benigne v. Solms-Laubach"
+  },
+  {
+   "key": "Erdmuthe Benigna, geb. v. Solms",
+   "action": "merge",
+   "into": "Erdmuthe Benigne v. Solms-Laubach"
+  },
+  {
+   "key": "Erdmuthe Benigne v. Solms-Laubach",
+   "action": "accept",
+   "label": "Erdmuthe Benigne v. Solms-Laubach",
+   "class": "person",
+   "kind": "Gemahlin",
+   "description_de": "Gräfin, † 1732; Gemahlin Heinrichs X. (1662–1711), Landesregentin; Gründerin der Linie Ebersdorf",
+   "description_en": "countess, d. 1732; wife of Heinrich X. (1662–1711), regent"
+  },
+  {
+   "key": "Erdmuthe Dorothea",
+   "action": "merge",
+   "into": "Erdmuthe Dorothea Reuß-Ebersdorf"
+  },
+  {
+   "key": "Erdmuthe Dorothea Reuß-Ebersdorf",
+   "action": "accept",
+   "label": "Erdmuthe Dorothea Reuß-Ebersdorf",
+   "class": "person",
+   "kind": "Prinzessin",
+   "description_de": "Gräfin, geb. 1700, † 1756; Schwester des Grafen Heinrich XXIX.; vermählt 1722 mit Nicolaus Ludwig v. Zinzendorf",
+   "description_en": "countess, b. 1700, d. 1756; m. 1722 Nicolaus Ludwig von Zinzendorf"
+  },
+  {
+   "key": "Erh. Poppener",
+   "action": "accept",
+   "label": "Erh. Poppener",
+   "class": "person",
+   "kind": "Geistlicher",
+   "description_de": "öttersdorfer Pfarrer, 1500",
+   "description_en": "pastor of Öttersdorf, 1500"
+  },
+  {
+   "key": "Erhard Gliner",
+   "action": "accept",
+   "label": "Erhard Gliner",
+   "class": "person",
+   "kind": "Geistlicher",
+   "description_de": "Abt zu Bosau (1417–1440)",
+   "description_en": "abbot of Bosau (1417–1440)"
+  },
+  {
+   "key": "Erkenbert",
+   "action": "merge",
+   "into": "Erkenbert von Weida"
+  },
+  {
+   "key": "Erkenbert von Weida",
+   "action": "accept",
+   "label": "Erkenbert von Weida",
+   "class": "person",
+   "kind": "Adliger",
+   "description_de": "1122 urkundlich genannt; nach einer Hypothese Stammvater der reußischen Fürsten",
+   "description_en": "attested in 1122; according to one hypothesis ancestor of the princes Reuss"
+  },
+  {
+   "key": "Erkinger von Schwantenberg",
+   "action": "accept",
+   "label": "Erkinger von Schwantenberg",
+   "class": "person",
+   "kind": "Adliger",
+   "description_de": "Streit mit Heinrich von Plauen (15. Jh.)",
+   "description_en": "dispute with Heinrich of Plauen"
+  },
+  {
+   "key": "Ermgard",
+   "action": "accept",
+   "label": "Ermgard",
+   "class": "person",
+   "kind": "Adlige",
+   "description_de": "Frau aus dem Haus der Vögte von Gera; stiftete 1307 Zinsen an das Kloster Cronschwitz",
+   "description_en": "lady of the house of the Vögte of Gera; 1307 endowment to Cronschwitz",
+   "note": "cf. Irmgard"
+  },
+  {
+   "key": "Ernest. Henr. Sophie v. Schönburg-Wechselburg",
+   "action": "accept",
+   "label": "Ernest. Henr. Sophie v. Schönburg-Wechselburg",
+   "class": "person",
+   "kind": "Gemahlin",
+   "description_de": "† 1768; 1. Gemahlin Heinrichs XXIII.",
+   "description_en": "d. 1768; first wife of Heinrich XXIII."
+  },
+  {
+   "key": "Ernest. Victorie",
+   "action": "accept",
+   "label": "Ernest. Victorie",
+   "class": "person",
+   "kind": "Prinzessin",
+   "description_de": "geb. 1756, † 1819; Gem. Wolfgang Ernst v. Isenburg",
+   "description_en": "b. 1756, d. 1819"
+  },
+  {
+   "key": "Ernestine",
+   "action": "accept",
+   "label": "Ernestine",
+   "class": "person",
+   "kind": "Prinzessin",
+   "description_de": "geb. und † 1706",
+   "description_en": "b. and d. 1706",
+   "note": "ambiguous first name"
+  },
+  {
+   "key": "Ernestine Eleonore",
+   "action": "accept",
+   "label": "Ernestine Eleonore",
+   "class": "person",
+   "kind": "Prinzessin",
+   "description_de": "Gräfin; Schwester des Grafen Heinrich XXIX. (Ebersdorf, S. 737)",
+   "description_en": "countess; sister of Count Heinrich XXIX."
+  },
+  {
+   "key": "Ernestine Emilie",
+   "action": "accept",
+   "label": "Ernestine Emilie",
+   "class": "person",
+   "kind": "Prinzessin",
+   "description_de": "geb. 1705, † 1728; Gem. Heinrich August von Stolberg zu Schwarzau",
+   "description_en": "b. 1705, d. 1728"
+  },
+  {
+   "key": "Ernestine v. S.-Hildburghausen",
+   "action": "accept",
+   "label": "Ernestine v. S.-Hildburghausen",
+   "class": "person",
+   "kind": "Gemahlin",
+   "description_de": "† 1806; 1. Gemahlin Franz' von Sachsen-Saalfeld",
+   "description_en": "d. 1806; first wife of Franz of Saxe-Saalfeld"
+  },
+  {
+   "key": "Erneſt. Friederike",
+   "action": "accept",
+   "label": "Ernest. Friederike",
+   "class": "person",
+   "kind": "Prinzessin",
+   "description_de": "geb. 1718, † 1776",
+   "description_en": "b. 1718, d. 1776"
+  },
+  {
+   "key": "Erneſtine Eleon. v. Schön-burg-Walden-burg",
+   "action": "accept",
+   "label": "Ernestine Eleon. v. Schönburg-Waldenburg",
+   "class": "person",
+   "kind": "Gemahlin",
+   "description_de": "† 1741; Gemahlin Heinrichs XV. (1674–1739)",
+   "description_en": "d. 1741; wife of Heinrich XV. (1674–1739)"
+  },
+  {
+   "key": "Erneſtine Sophie",
+   "action": "accept",
+   "label": "Ernestine Sophie",
+   "class": "person",
+   "kind": "Prinzessin",
+   "description_de": "geb. und † 1656",
+   "description_en": "b. and d. 1656"
+  },
+  {
+   "key": "Ernst der Fromme",
+   "action": "accept",
+   "label": "Ernst der Fromme",
+   "class": "person",
+   "kind": "Herzog",
+   "description_de": "Herzog Ernst der Fromme von Sachsen-Gotha",
+   "description_en": "Duke Ernest the Pious of Saxe-Gotha"
+  },
+  {
+   "key": "Ernst Ferd. Grünler",
+   "action": "accept",
+   "label": "Ernst Ferd. Grünler",
+   "class": "person",
+   "kind": "Pfarrer",
+   "description_de": "Pfarrer zur Zeit der Abfassung (18., S. 648)",
+   "description_en": "pastor at the time of writing (18th)"
+  },
+  {
+   "key": "Ernst Fichtner",
+   "action": "accept",
+   "label": "Ernst Fichtner",
+   "class": "person",
+   "kind": "Pfarrer",
+   "description_de": "Pfarrer zur Zeit der Abfassung (26. evangelischer, S. 459)",
+   "description_en": "pastor at the time of writing (26th Protestant)"
+  }
+ ]
+}

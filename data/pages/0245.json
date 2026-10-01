@@ -1,0 +1,1765 @@
+{
+ "seq": 245,
+ "label": "233",
+ "slug": "233",
+ "iiif": {
+  "service": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb11005578_00245",
+  "canvas": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11005578/canvas/245",
+  "width": 1603,
+  "height": 2705
+ },
+ "kind": "text",
+ "running_header": "3. Viehzucht.",
+ "signature": null,
+ "blocks": [
+  {
+   "id": "b1",
+   "type": "paragraph",
+   "src": 0,
+   "text": "so rasch zu Fleisch und Geld verwerthet, weil sein Inshausschlachten zur Weihnachtszeit ein uraltes Hausfest bildet und weil sein Frischfleisch im Winter, sein Dürrfleisch im Sommer die Familien nährt und ergötzt. Ebendarum mästet auch die geringste Haushaltung gern alljährlich ihr Schwein. Das Unterland züchtet bei weitem mehr Jungschweine als das Oberland, letzteres kaum 1/8 seiner Mastschweine; das Uebrige wird auf den Märkten aufgekauft. Außer dem Unterlande führt der weimarische neustädter und der oberfränkische Kreis dem Oberlande Ferkel zu, jener die sog. Niederländer, dieser die Franken, beide langgestreckte Arten, welche weniger Speck, mehr ein kerniges und wohlschmeckendes Fleisch liefern. Dagegen führt das Oberland viele Mastschweine aus.",
+   "spans": [
+    [
+     283,
+     290,
+     "Animal"
+    ],
+    [
+     330,
+     342,
+     "Animal"
+    ],
+    [
+     387,
+     399,
+     "Animal"
+    ],
+    [
+     543,
+     549,
+     "Animal"
+    ],
+    [
+     742,
+     754,
+     "Animal"
+    ]
+   ],
+   "continued": true,
+   "sec": "t1-3-3"
+  },
+  {
+   "id": "b2",
+   "type": "paragraph",
+   "src": 1,
+   "text": "Ziegen. Gehören Pferde, Ochsen und Schafe dem Reichen und die Kuh dem Kleingütler, so die Ziege den Armen, die gar keinen oder sehr wenig Feldboden besitzen und die nicht bloß das Milcheuter der Ziege, sondern auch das Fleisch der Zicklein als Braten und ihr Fellchen als Verkaufsartikel benutzen. Das für die Ziege nöthige Futter wird freilich von den Besitzlosen nicht immer auf eine Weise gewonnen, die den Grundbesitzern angenehm ist.",
+   "spans": [
+    [
+     0,
+     6,
+     "Animal"
+    ],
+    [
+     16,
+     22,
+     "Animal"
+    ],
+    [
+     24,
+     30,
+     "Animal"
+    ],
+    [
+     35,
+     41,
+     "Animal"
+    ],
+    [
+     62,
+     65,
+     "Animal"
+    ],
+    [
+     90,
+     95,
+     "Animal"
+    ],
+    [
+     195,
+     200,
+     "Animal"
+    ],
+    [
+     231,
+     239,
+     "Animal"
+    ],
+    [
+     310,
+     315,
+     "Animal"
+    ]
+   ],
+   "sec": "t1-3-3"
+  },
+  {
+   "id": "b3",
+   "type": "paragraph",
+   "src": 2,
+   "text": "Viehzählungen sind zwar in den ehemaligen Fürstenthümern Gera und Lobenstein-Ebersdorf und in der Pflege Saalburg, die früher zu Gera gehörte, bereits 1834 vorgenommen worden, in Schleiz dagegen erst 1843, deshalb kann die vergleichende Gesammtzählung erst mit diesem Jahre anheben, freilich für eben dies Jahr theilweise (Lobenstein-Ebersdorf) nur summarisch. Eine durchgeführte Gliederung der Thiere nach Alter und Veredelung beginnt erst 1849. Für die Jahre 1846, 1852 und 1855 liegen entweder gar keine oder nur unvollständige Zählungen vor.",
+   "spans": [
+    [
+     57,
+     61,
+     "Location"
+    ],
+    [
+     66,
+     86,
+     "Location"
+    ],
+    [
+     105,
+     113,
+     "Location"
+    ],
+    [
+     129,
+     133,
+     "Location"
+    ],
+    [
+     179,
+     186,
+     "Location"
+    ],
+    [
+     323,
+     343,
+     "Location"
+    ]
+   ],
+   "sec": "t1-3-3"
+  },
+  {
+   "id": "b4",
+   "type": "table",
+   "src": 3,
+   "n_cols": 12,
+   "header_rows": 4,
+   "rows": [
+    {
+     "role": "header",
+     "cells": [
+      {
+       "text": "Landestheile.",
+       "spans": []
+      },
+      {
+       "text": "Pferde.",
+       "spans": [
+        [
+         0,
+         6,
+         "Animal"
+        ]
+       ]
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "Rindvieh.",
+       "spans": [
+        [
+         0,
+         8,
+         "Animal"
+        ]
+       ]
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "Schafe",
+       "spans": [
+        [
+         0,
+         6,
+         "Animal"
+        ]
+       ]
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "Böcke u. Ziegen.",
+       "spans": [
+        [
+         0,
+         5,
+         "Animal"
+        ],
+        [
+         9,
+         15,
+         "Animal"
+        ]
+       ]
+      },
+      {
+       "text": "Schweine",
+       "spans": [
+        [
+         0,
+         8,
+         "Animal"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "role": "header",
+     "cells": [
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "Pferde.",
+       "spans": [
+        [
+         0,
+         6,
+         "Animal"
+        ]
+       ]
+      },
+      {
+       "text": "Füllen.",
+       "spans": [
+        [
+         0,
+         6,
+         "Animal"
+        ]
+       ]
+      },
+      {
+       "text": "Stiere.",
+       "spans": [
+        [
+         0,
+         6,
+         "Animal"
+        ]
+       ]
+      },
+      {
+       "text": "Ochsen.",
+       "spans": [
+        [
+         0,
+         6,
+         "Animal"
+        ]
+       ]
+      },
+      {
+       "text": "Kühe.",
+       "spans": [
+        [
+         0,
+         4,
+         "Animal"
+        ]
+       ]
+      },
+      {
+       "text": "Jungvieh",
+       "spans": [
+        [
+         0,
+         8,
+         "Animal"
+        ]
+       ]
+      },
+      {
+       "text": "veredelte",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "unveredelte.",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "header",
+     "cells": [
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "ganz.",
+       "spans": []
+      },
+      {
+       "text": "halb.",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "header",
+     "cells": [
+      {
+       "text": "Gera.",
+       "spans": [
+        [
+         0,
+         4,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1843",
+       "spans": []
+      },
+      {
+       "text": "1345",
+       "spans": []
+      },
+      {
+       "text": "99",
+       "spans": []
+      },
+      {
+       "text": "87",
+       "spans": []
+      },
+      {
+       "text": "278",
+       "spans": []
+      },
+      {
+       "text": "5754",
+       "spans": []
+      },
+      {
+       "text": "1508",
+       "spans": []
+      },
+      {
+       "text": "3615",
+       "spans": []
+      },
+      {
+       "text": "15050",
+       "spans": []
+      },
+      {
+       "text": "2744",
+       "spans": []
+      },
+      {
+       "text": "837",
+       "spans": []
+      },
+      {
+       "text": "4499",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1846",
+       "spans": []
+      },
+      {
+       "text": "1485",
+       "spans": []
+      },
+      {
+       "text": "176",
+       "spans": []
+      },
+      {
+       "text": "144",
+       "spans": []
+      },
+      {
+       "text": "244",
+       "spans": []
+      },
+      {
+       "text": "6127",
+       "spans": []
+      },
+      {
+       "text": "2359",
+       "spans": []
+      },
+      {
+       "text": "3150",
+       "spans": []
+      },
+      {
+       "text": "15554",
+       "spans": []
+      },
+      {
+       "text": "5736",
+       "spans": []
+      },
+      {
+       "text": "1228",
+       "spans": []
+      },
+      {
+       "text": "5887",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1849",
+       "spans": []
+      },
+      {
+       "text": "1457",
+       "spans": []
+      },
+      {
+       "text": "85",
+       "spans": []
+      },
+      {
+       "text": "161",
+       "spans": []
+      },
+      {
+       "text": "234",
+       "spans": []
+      },
+      {
+       "text": "6060",
+       "spans": []
+      },
+      {
+       "text": "2182",
+       "spans": []
+      },
+      {
+       "text": "1547",
+       "spans": []
+      },
+      {
+       "text": "13271",
+       "spans": []
+      },
+      {
+       "text": "4541",
+       "spans": []
+      },
+      {
+       "text": "1261",
+       "spans": []
+      },
+      {
+       "text": "6730",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1852",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1855",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1858",
+       "spans": []
+      },
+      {
+       "text": "1521",
+       "spans": []
+      },
+      {
+       "text": "156",
+       "spans": []
+      },
+      {
+       "text": "261",
+       "spans": []
+      },
+      {
+       "text": "225",
+       "spans": []
+      },
+      {
+       "text": "6100",
+       "spans": []
+      },
+      {
+       "text": "2375",
+       "spans": []
+      },
+      {
+       "text": "1820",
+       "spans": []
+      },
+      {
+       "text": "8478",
+       "spans": []
+      },
+      {
+       "text": "4867",
+       "spans": []
+      },
+      {
+       "text": "1277",
+       "spans": []
+      },
+      {
+       "text": "7460",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1861",
+       "spans": []
+      },
+      {
+       "text": "1656",
+       "spans": []
+      },
+      {
+       "text": "139",
+       "spans": []
+      },
+      {
+       "text": "222",
+       "spans": []
+      },
+      {
+       "text": "245",
+       "spans": []
+      },
+      {
+       "text": "6203",
+       "spans": []
+      },
+      {
+       "text": "2975",
+       "spans": []
+      },
+      {
+       "text": "2226",
+       "spans": []
+      },
+      {
+       "text": "9977",
+       "spans": []
+      },
+      {
+       "text": "5225",
+       "spans": []
+      },
+      {
+       "text": "1285",
+       "spans": []
+      },
+      {
+       "text": "7091",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1864",
+       "spans": []
+      },
+      {
+       "text": "1675",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "9745",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "1249",
+       "spans": []
+      },
+      {
+       "text": "9074",
+       "spans": []
+      },
+      {
+       "text": "7130",
+       "spans": []
+      },
+      {
+       "text": "1130",
+       "spans": []
+      },
+      {
+       "text": "8033",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1867",
+       "spans": []
+      },
+      {
+       "text": "1731",
+       "spans": []
+      },
+      {
+       "text": "143",
+       "spans": []
+      },
+      {
+       "text": "101",
+       "spans": []
+      },
+      {
+       "text": "178",
+       "spans": []
+      },
+      {
+       "text": "6286",
+       "spans": []
+      },
+      {
+       "text": "2551",
+       "spans": []
+      },
+      {
+       "text": "1389",
+       "spans": []
+      },
+      {
+       "text": "7673",
+       "spans": []
+      },
+      {
+       "text": "7351",
+       "spans": []
+      },
+      {
+       "text": "1173",
+       "spans": []
+      },
+      {
+       "text": "7351",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "group",
+     "cells": [
+      {
+       "text": "Schleiz.",
+       "spans": [
+        [
+         0,
+         7,
+         "Location"
+        ]
+       ],
+       "colspan": 12
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1843",
+       "spans": []
+      },
+      {
+       "text": "306",
+       "spans": []
+      },
+      {
+       "text": "4",
+       "spans": []
+      },
+      {
+       "text": "128",
+       "spans": []
+      },
+      {
+       "text": "3597",
+       "spans": []
+      },
+      {
+       "text": "3345",
+       "spans": []
+      },
+      {
+       "text": "3122",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "1002",
+       "spans": []
+      },
+      {
+       "text": "5687",
+       "spans": []
+      },
+      {
+       "text": "1074",
+       "spans": []
+      },
+      {
+       "text": "3656",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1846",
+       "spans": []
+      },
+      {
+       "text": "396",
+       "spans": []
+      },
+      {
+       "text": "14",
+       "spans": []
+      },
+      {
+       "text": "26",
+       "spans": []
+      },
+      {
+       "text": "3964",
+       "spans": []
+      },
+      {
+       "text": "3826",
+       "spans": []
+      },
+      {
+       "text": "4140",
+       "spans": []
+      },
+      {
+       "text": "556",
+       "spans": []
+      },
+      {
+       "text": "2088",
+       "spans": []
+      },
+      {
+       "text": "5127",
+       "spans": []
+      },
+      {
+       "text": "1709",
+       "spans": []
+      },
+      {
+       "text": "4790",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1849",
+       "spans": []
+      },
+      {
+       "text": "339",
+       "spans": []
+      },
+      {
+       "text": "7",
+       "spans": []
+      },
+      {
+       "text": "32",
+       "spans": []
+      },
+      {
+       "text": "3794",
+       "spans": []
+      },
+      {
+       "text": "3763",
+       "spans": []
+      },
+      {
+       "text": "3709",
+       "spans": []
+      },
+      {
+       "text": "24",
+       "spans": []
+      },
+      {
+       "text": "3965",
+       "spans": []
+      },
+      {
+       "text": "2893",
+       "spans": []
+      },
+      {
+       "text": "1827",
+       "spans": []
+      },
+      {
+       "text": "5600",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1852",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1855",
+       "spans": []
+      },
+      {
+       "text": "315",
+       "spans": []
+      },
+      {
+       "text": "11",
+       "spans": []
+      },
+      {
+       "text": "35",
+       "spans": []
+      },
+      {
+       "text": "3436",
+       "spans": []
+      },
+      {
+       "text": "3312",
+       "spans": []
+      },
+      {
+       "text": "3584",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "2315",
+       "spans": []
+      },
+      {
+       "text": "2693",
+       "spans": []
+      },
+      {
+       "text": "1755",
+       "spans": []
+      },
+      {
+       "text": "4480",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1858",
+       "spans": []
+      },
+      {
+       "text": "412",
+       "spans": []
+      },
+      {
+       "text": "34",
+       "spans": []
+      },
+      {
+       "text": "29",
+       "spans": []
+      },
+      {
+       "text": "3941",
+       "spans": []
+      },
+      {
+       "text": "3775",
+       "spans": []
+      },
+      {
+       "text": "4035",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "2323",
+       "spans": []
+      },
+      {
+       "text": "3287",
+       "spans": []
+      },
+      {
+       "text": "2079",
+       "spans": []
+      },
+      {
+       "text": "5668",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1861",
+       "spans": []
+      },
+      {
+       "text": "449",
+       "spans": []
+      },
+      {
+       "text": "24",
+       "spans": []
+      },
+      {
+       "text": "33",
+       "spans": []
+      },
+      {
+       "text": "3977",
+       "spans": []
+      },
+      {
+       "text": "3812",
+       "spans": []
+      },
+      {
+       "text": "4500",
+       "spans": []
+      },
+      {
+       "text": "307",
+       "spans": []
+      },
+      {
+       "text": "2118",
+       "spans": []
+      },
+      {
+       "text": "4207",
+       "spans": []
+      },
+      {
+       "text": "2340",
+       "spans": []
+      },
+      {
+       "text": "5196",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1864",
+       "spans": []
+      },
+      {
+       "text": "448",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "12160",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "470",
+       "spans": []
+      },
+      {
+       "text": "3117",
+       "spans": []
+      },
+      {
+       "text": "4100",
+       "spans": []
+      },
+      {
+       "text": "2370",
+       "spans": []
+      },
+      {
+       "text": "5799",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1867",
+       "spans": []
+      },
+      {
+       "text": "516",
+       "spans": []
+      },
+      {
+       "text": "35",
+       "spans": []
+      },
+      {
+       "text": "35",
+       "spans": []
+      },
+      {
+       "text": "4079",
+       "spans": []
+      },
+      {
+       "text": "3851",
+       "spans": []
+      },
+      {
+       "text": "2531",
+       "spans": []
+      },
+      {
+       "text": "26",
+       "spans": []
+      },
+      {
+       "text": "2948",
+       "spans": []
+      },
+      {
+       "text": "2604",
+       "spans": []
+      },
+      {
+       "text": "2330",
+       "spans": []
+      },
+      {
+       "text": "5033",
+       "spans": []
+      }
+     ]
+    }
+   ],
+   "grid": [
+    [
+     "Landestheile.",
+     "Pferde.",
+     "",
+     "Rindvieh.",
+     "",
+     "",
+     "",
+     "Schafe",
+     "",
+     "",
+     "Böcke u. Ziegen.",
+     "Schweine"
+    ],
+    [
+     "",
+     "Pferde.",
+     "Füllen.",
+     "Stiere.",
+     "Ochsen.",
+     "Kühe.",
+     "Jungvieh",
+     "veredelte",
+     "",
+     "unveredelte.",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "ganz.",
+     "halb.",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Gera.",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "1843",
+     "1345",
+     "99",
+     "87",
+     "278",
+     "5754",
+     "1508",
+     "3615",
+     "15050",
+     "2744",
+     "837",
+     "4499"
+    ],
+    [
+     "1846",
+     "1485",
+     "176",
+     "144",
+     "244",
+     "6127",
+     "2359",
+     "3150",
+     "15554",
+     "5736",
+     "1228",
+     "5887"
+    ],
+    [
+     "1849",
+     "1457",
+     "85",
+     "161",
+     "234",
+     "6060",
+     "2182",
+     "1547",
+     "13271",
+     "4541",
+     "1261",
+     "6730"
+    ],
+    [
+     "1852",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—"
+    ],
+    [
+     "1855",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—"
+    ],
+    [
+     "1858",
+     "1521",
+     "156",
+     "261",
+     "225",
+     "6100",
+     "2375",
+     "1820",
+     "8478",
+     "4867",
+     "1277",
+     "7460"
+    ],
+    [
+     "1861",
+     "1656",
+     "139",
+     "222",
+     "245",
+     "6203",
+     "2975",
+     "2226",
+     "9977",
+     "5225",
+     "1285",
+     "7091"
+    ],
+    [
+     "1864",
+     "1675",
+     "",
+     "",
+     "9745",
+     "",
+     "",
+     "1249",
+     "9074",
+     "7130",
+     "1130",
+     "8033"
+    ],
+    [
+     "1867",
+     "1731",
+     "143",
+     "101",
+     "178",
+     "6286",
+     "2551",
+     "1389",
+     "7673",
+     "7351",
+     "1173",
+     "7351"
+    ],
+    [
+     "Schleiz.",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "1843",
+     "306",
+     "4",
+     "128",
+     "3597",
+     "3345",
+     "3122",
+     "—",
+     "1002",
+     "5687",
+     "1074",
+     "3656"
+    ],
+    [
+     "1846",
+     "396",
+     "14",
+     "26",
+     "3964",
+     "3826",
+     "4140",
+     "556",
+     "2088",
+     "5127",
+     "1709",
+     "4790"
+    ],
+    [
+     "1849",
+     "339",
+     "7",
+     "32",
+     "3794",
+     "3763",
+     "3709",
+     "24",
+     "3965",
+     "2893",
+     "1827",
+     "5600"
+    ],
+    [
+     "1852",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—"
+    ],
+    [
+     "1855",
+     "315",
+     "11",
+     "35",
+     "3436",
+     "3312",
+     "3584",
+     "—",
+     "2315",
+     "2693",
+     "1755",
+     "4480"
+    ],
+    [
+     "1858",
+     "412",
+     "34",
+     "29",
+     "3941",
+     "3775",
+     "4035",
+     "—",
+     "2323",
+     "3287",
+     "2079",
+     "5668"
+    ],
+    [
+     "1861",
+     "449",
+     "24",
+     "33",
+     "3977",
+     "3812",
+     "4500",
+     "307",
+     "2118",
+     "4207",
+     "2340",
+     "5196"
+    ],
+    [
+     "1864",
+     "448",
+     "",
+     "",
+     "12160",
+     "",
+     "",
+     "470",
+     "3117",
+     "4100",
+     "2370",
+     "5799"
+    ],
+    [
+     "1867",
+     "516",
+     "35",
+     "35",
+     "4079",
+     "3851",
+     "2531",
+     "26",
+     "2948",
+     "2604",
+     "2330",
+     "5033"
+    ]
+   ],
+   "caption": null,
+   "sec": "t1-3-3"
+  }
+ ],
+ "footnotes": [],
+ "corrections": [
+  {
+   "rule": "table_multirow_header",
+   "rows": 4,
+   "block": "b4"
+  },
+  {
+   "rule": "table_group_rows",
+   "n": 1,
+   "block": "b4"
+  }
+ ],
+ "provenance": {
+  "source": "colab-2026-03",
+  "model": "gemini-3-flash-preview",
+  "timestamp": "2026-03-04T13:21:45.361110",
+  "early_schema": false
+ },
+ "section_path": [
+  "t1",
+  "t1-3",
+  "t1-3-3"
+ ],
+ "sections": [
+  "t1-3-3"
+ ]
+}

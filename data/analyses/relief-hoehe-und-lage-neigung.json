@@ -1,0 +1,1740 @@
+{
+ "id": "relief-hoehe-und-lage-neigung",
+ "title": {
+  "de": "Höhe und Lage: Fällt das Land nach Nordosten?",
+  "en": "Altitude and position: does the land fall towards the north-east?"
+ },
+ "category": "relief",
+ "section": "t1-1-4",
+ "sources": [
+  {
+   "page": "6",
+   "block": "b3",
+   "rows": "r1-r37"
+  },
+  {
+   "page": "7",
+   "block": "b1",
+   "rows": "r1-r20"
+  },
+  {
+   "page": "10",
+   "block": "b3"
+  },
+  {
+   "page": "11",
+   "block": "b13"
+  },
+  {
+   "page": "12",
+   "block": "b1"
+  },
+  {
+   "page": "12",
+   "block": "b3"
+  },
+  {
+   "page": "13",
+   "block": "b1"
+  },
+  {
+   "page": "20",
+   "block": "b3"
+  },
+  {
+   "page": "21",
+   "block": "b1"
+  },
+  {
+   "page": "22",
+   "block": "b1"
+  },
+  {
+   "page": "9",
+   "block": "b2"
+  }
+ ],
+ "summary": {
+  "de": "Brückner behauptet, Ober- und Unterland seien »von Südwest nach Nordost sanft geneigt« (S. 9–10). Verknüpft man seine Koordinatentabelle (S. 6–7) mit den Höhenlisten der Wohnorte (S. 11–22), lässt sich das prüfen: 48 Orte haben beides. Eine Ausgleichsebene durch ihre Höhen fällt tatsächlich nach 47° (Nordost), mit rund 5,1 m je Kilometer.",
+  "en": "Brückner claims that the Oberland and Unterland are “gently inclined from south-west to north-east” (pp. 9–10). Combining his coordinate table (pp. 6–7) with the altitude lists of the inhabited places (pp. 11–22) allows a check: 48 places have both. A plane fitted through their altitudes does fall towards 47° (north-east), at about 5.1 m per kilometre."
+ },
+ "method": {
+  "de": "Aus der Koordinatentabelle (S. 6–7, Greenwich-Längen wie in der Analyse »Mathematische Lage«) wurden alle Orte genommen, die in den Höhenlisten (S. 11–13, 20–22) als eigener Eintrag mit Höhe stehen; gleiche Namen wurden nur im selben Landesteil verknüpft. Abweichende Schreibungen wurden gleichgesetzt: Rödersdorf = Rüdersdorf, Geissen = Geißen, Bergkirche = Schleizer Bergkirche, Oettersdorf = Dettersdorf (im Ortsregister beide auf S. 602), Grumbach = Grumbach (Mitte), Schleiz = Schleiz (Wiesenthal), Kirschkau = Kirschkau (nördliche Häuser). Ausgelassen wurden Punkte ohne Ort in der Höhenliste (Signale, Hügel), die eingeklammerten Punkte, Kleinfriesa (ohne Breite) und der zweite Punkt von Eliasbrunn. Als Höhe dient die Mitte der gedruckten Spanne des Ortes (preußische Dezimalfuß × 0,3766242 = m). Die Ausgleichsebene H = a + b·x + c·y (x: Kilometer ostwärts, y: Kilometer nordwärts von 11,85° O / 50,70° N; 1° Breite = 111,2 km, 1° Länge = 70,5 km) wurde nach der Methode der kleinsten Quadrate berechnet; die Fallrichtung ist der Azimut des steilsten Gefälles (von Nord im Uhrzeigersinn).",
+  "en": "From the coordinate table (pp. 6–7, Greenwich longitudes as in the analysis “Mathematical position”) all places were taken that appear as an entry with altitude in the altitude lists (pp. 11–13, 20–22); equal names were joined only within the same part of the country. Differing spellings were equated: Rödersdorf = Rüdersdorf, Geissen = Geißen, Bergkirche = Schleizer Bergkirche, Oettersdorf = Dettersdorf (both on p. 602 of the place index), Grumbach = Grumbach (centre), Schleiz = Schleiz (Wiesenthal), Kirschkau = Kirschkau (northern houses). Omitted were points without a place in the altitude list (signals, hills), the bracketed points, Kleinfriesa (no latitude) and the second point of Eliasbrunn. The altitude is the midpoint of the place's printed range (Prussian decimal feet × 0.3766242 = m). The plane H = a + b·x + c·y (x: kilometres east, y: kilometres north of 11.85° E / 50.70° N; 1° latitude = 111.2 km, 1° longitude = 70.5 km) was computed by least squares; the direction of fall is the azimuth of steepest descent (from north, clockwise)."
+ },
+ "findings": [
+  {
+   "de": "Die Ausgleichsebene durch 48 Orte fällt nach 47° (Nordost) mit 5,1 m je km (≈ 0,5 %); sie erklärt 86 % der Streuung der Ortshöhen (mittlerer Fehler 50 m). Das bestätigt Brückners Angabe der Neigung von Südwest nach Nordost.",
+   "en": "The plane through 48 places falls towards 47° (north-east) at 5.1 m per km (≈ 0.5 %); it explains 86 % of the variance of place altitudes (mean error 50 m). This confirms Brückner's statement of an inclination from south-west to north-east."
+  },
+  {
+   "de": "Allein nach der Breite betrachtet sinkt die Ortshöhe um 56 m je 10 km nach Norden (Korrelation -0,90). Die mittlere Ortshöhe beträgt im Oberland 514 m, im Unterland 275 m (für die 48 verknüpften Orte).",
+   "en": "Considered by latitude alone, place altitude falls by 56 m per 10 km towards the north (correlation -0,90). The mean place altitude is 514 m in the Oberland and 275 m in the Unterland (for the 48 linked places)."
+  },
+  {
+   "de": "Innerhalb der Landesteile ist das Bild verschieden: Im Oberland (31 Orte) beträgt das Gefälle 5,0 m/km nach 73° (R² = 0,60), im Unterland (17 Orte) nur 1,7 m/km (R² = 0,06). Im Unterland erklärt die Lage also kaum etwas; das Gefälle des Gesamtbildes entsteht vor allem durch den Sprung zwischen den beiden Landesteilen.",
+   "en": "Within the parts the picture differs: in the Oberland (31 places) the fall is 5.0 m/km towards 73° (R² = 0,60), in the Unterland (17 places) only 1.7 m/km (R² = 0,06). Within the Unterland position thus explains little; the fall of the overall picture arises mainly from the step between the two parts."
+  },
+  {
+   "de": "Die größten Abweichungen nach unten haben Orte in tiefen Flusstälern: Harra (-119 m), Saalburg (-105 m, beide an der Saale) und Köstritz (-99 m, an der Elster) liegen rund 100 m unter der Ebene – passend zu Brückners Schilderung der tief eingeschnittenen Täler (S. 4). Nach oben weichen Heinersdorf (+75 m), Grumbach (+68 m) und Eliasbrunn (+67 m) ab.",
+   "en": "The largest deviations downwards are places in deep river valleys: Harra (-119 m), Saalburg (-105 m, both on the Saale) and Köstritz (-99 m, on the Elster) lie about 100 m below the plane, in line with Brückner's description of the deeply cut valleys (p. 4). Upwards the largest deviations are Heinersdorf (+75 m), Grumbach (+68 m) and Eliasbrunn (+67 m)."
+  }
+ ],
+ "caveats": [
+  {
+   "de": "Geissen hat die zweitgrößte Abweichung (-114 m). Das passt zum vermuteten Druckfehler der Breite (50° 45′ 44″ statt etwa 50° 55′ 44″; siehe »Mathematische Lage«): läge der Ort 10′ nördlicher, würde die Abweichung auf -50 m sinken. Das ist ein Hinweis, kein Beweis.",
+   "en": "Geissen has the second-largest deviation (-114 m). This fits the suspected printing error in its latitude (50° 45′ 44″ instead of about 50° 55′ 44″; see “Mathematical position”): if the place lay 10′ further north the deviation would fall to -50 m. This is a hint, not proof."
+  },
+  {
+   "de": "Die Höhenspanne eines Ortes und der gemessene Gegenstand der Koordinaten (Kirchturmknopf, Mühle, Signal) passen nicht genau zusammen; die Mitte der Spanne ist nur eine grobe Ortshöhe. Die Ebene ist eine Näherung (ebene Geometrie, lineare Fläche) und kein geologisches Modell.",
+   "en": "The altitude range of a place and the object whose coordinates were measured (church tower knob, mill, signal) do not match exactly; the midpoint of the range is only a rough place altitude. The plane is an approximation (flat geometry, linear surface), not a geological model."
+  },
+  {
+   "de": "Brückner schreibt die Neigung der »gedachten« Hochflächen zu, wenn man die Täler ausgefüllt dächte (S. 9). Die Ortshöhen liegen teils in den Tälern; die Ebene beschreibt deshalb eher einen Mittelwert aus Tal- und Hochflächenorten.",
+   "en": "Brückner ascribes the inclination to the “imagined” plateaus if the valleys were filled in (p. 9). Some place altitudes are in the valleys; the plane therefore describes rather an average of valley and plateau places."
+  }
+ ],
+ "conversions": [
+  {
+   "from": "preußischer Dezimalfuß (Höhenangaben der Landeskunde)",
+   "to": "Meter",
+   "factor_or_formula": "1 Dezimalfuß = 1/10 preuß. Ruthe = 3,766242 m / 10 = 0.3766242 m (= 1,2 preuß. Fuß)",
+   "reference": "Brückner S. 11 Anm. (»preuß. Decimalfuß, auf den Pegel bei Swinemünde bezogen«), S. 831 (1 preuß. Ruthe = 3,766242 m). Gegenprobe mit Brückners eigenen Werten: Bahnhof Köstritz 577 rhein. Fuß = 481 Dezimalfuß (gedruckt 474′), Bahnhof Gera 607,53 rhein. Fuß = 506 (gedruckt 502′; S. 12 Anm.); Wetterfahne Heinrichsruh 289,628 Toisen = 1499 Dezimalfuß (gedruckt 1496′; S. 21/23). Als Pariser Fuß (0,324839 m) gelesen, ergäben sich dagegen 1738′ bzw. 557′ – unvereinbar mit den gedruckten Zahlen."
+  }
+ ],
+ "datasets": [
+  {
+   "name": "matched",
+   "title": {
+    "de": "Orte mit Koordinaten und Höhe",
+    "en": "Places with coordinates and altitude"
+   },
+   "columns": [
+    {
+     "name": "nr",
+     "label": {
+      "de": "Nr.",
+      "en": "No."
+     },
+     "type": "integer",
+     "unit": null,
+     "derived": true
+    },
+    {
+     "name": "ort_koord",
+     "label": {
+      "de": "Ort (Koordinatentabelle)",
+      "en": "Place (coordinate table)"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "ort_hoehe",
+     "label": {
+      "de": "Ort (Höhenliste)",
+      "en": "Place (altitude list)"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "landesteil",
+     "label": {
+      "de": "Landesteil",
+      "en": "Part of the country"
+     },
+     "type": "string",
+     "unit": null,
+     "derived": true
+    },
+    {
+     "name": "lon_gw",
+     "label": {
+      "de": "Länge östlich von Greenwich",
+      "en": "Longitude east of Greenwich"
+     },
+     "type": "number",
+     "unit": "°",
+     "derived": true
+    },
+    {
+     "name": "lat",
+     "label": {
+      "de": "Breite",
+      "en": "Latitude"
+     },
+     "type": "number",
+     "unit": "°",
+     "derived": true
+    },
+    {
+     "name": "x_km",
+     "label": {
+      "de": "Ostabstand von 11,85° O",
+      "en": "Distance east of 11.85° E"
+     },
+     "type": "number",
+     "unit": "km",
+     "derived": true
+    },
+    {
+     "name": "y_km",
+     "label": {
+      "de": "Nordabstand von 50,70° N",
+      "en": "Distance north of 50.70° N"
+     },
+     "type": "number",
+     "unit": "km",
+     "derived": true
+    },
+    {
+     "name": "hoehe_min_m",
+     "label": {
+      "de": "Höhe unten",
+      "en": "Altitude, lowest"
+     },
+     "type": "number",
+     "unit": "m",
+     "derived": true
+    },
+    {
+     "name": "hoehe_max_m",
+     "label": {
+      "de": "Höhe oben",
+      "en": "Altitude, highest"
+     },
+     "type": "number",
+     "unit": "m",
+     "derived": true
+    },
+    {
+     "name": "hoehe_mitte_m",
+     "label": {
+      "de": "Höhe, Mitte",
+      "en": "Altitude, midpoint"
+     },
+     "type": "number",
+     "unit": "m",
+     "derived": true
+    },
+    {
+     "name": "ebene_m",
+     "label": {
+      "de": "Höhe der Ausgleichsebene",
+      "en": "Altitude of the fitted plane"
+     },
+     "type": "number",
+     "unit": "m",
+     "derived": true
+    },
+    {
+     "name": "abweichung_m",
+     "label": {
+      "de": "Abweichung von der Ebene",
+      "en": "Deviation from the plane"
+     },
+     "type": "number",
+     "unit": "m",
+     "derived": true
+    },
+    {
+     "name": "beschriftet",
+     "label": {
+      "de": "Auf der Karte beschriftet (1 = ja)",
+      "en": "Labelled on the map (1 = yes)"
+     },
+     "type": "integer",
+     "unit": null,
+     "derived": true
+    },
+    {
+     "name": "seite_koord",
+     "label": {
+      "de": "Seite (Koordinaten)",
+      "en": "Page (coordinates)"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "seite_hoehe",
+     "label": {
+      "de": "Seite (Höhe)",
+      "en": "Page (altitude)"
+     },
+     "type": "string",
+     "unit": null
+    }
+   ],
+   "rows": [
+    [
+     1,
+     "Röttersdorf",
+     "Röttersdorf",
+     "Oberland",
+     11.46167,
+     50.47083,
+     -27.38,
+     -25.48,
+     638.4,
+     661.0,
+     649.7,
+     604.3,
+     45.4,
+     0,
+     "6",
+     "22"
+    ],
+    [
+     2,
+     "Grumbach",
+     "Grumbach, Mitte",
+     "Oberland",
+     11.50236,
+     50.43194,
+     -24.51,
+     -29.81,
+     676.8,
+     676.8,
+     676.8,
+     608.6,
+     68.2,
+     0,
+     "6",
+     "22"
+    ],
+    [
+     3,
+     "Titschendorf",
+     "Titschendorf",
+     "Oberland",
+     11.52778,
+     50.39361,
+     -22.72,
+     -34.07,
+     568.7,
+     604.1,
+     586.4,
+     616.6,
+     -30.2,
+     0,
+     "6",
+     "22"
+    ],
+    [
+     4,
+     "Gahma",
+     "Gahma",
+     "Oberland",
+     11.53762,
+     50.5253,
+     -22.02,
+     -19.43,
+     583.8,
+     598.8,
+     591.3,
+     563.6,
+     27.7,
+     0,
+     "6",
+     "22"
+    ],
+    [
+     5,
+     "Ruppersdorf",
+     "Ruppersdorf",
+     "Oberland",
+     11.57572,
+     50.51045,
+     -19.34,
+     -21.08,
+     542.3,
+     564.9,
+     553.6,
+     559.4,
+     -5.7,
+     0,
+     "6",
+     "22"
+    ],
+    [
+     6,
+     "Heinersdorf",
+     "Heinersdorf",
+     "Oberland",
+     11.57774,
+     50.47357,
+     -19.2,
+     -25.18,
+     632.7,
+     662.9,
+     647.8,
+     573.0,
+     74.8,
+     0,
+     "6",
+     "22"
+    ],
+    [
+     7,
+     "Eliasbrunn",
+     "Eliasbrunn",
+     "Oberland",
+     11.59684,
+     50.49544,
+     -17.85,
+     -22.75,
+     621.4,
+     632.7,
+     627.1,
+     559.6,
+     67.5,
+     0,
+     "6",
+     "22"
+    ],
+    [
+     8,
+     "Unterlemnitz",
+     "Unterlemnitz",
+     "Oberland",
+     11.62167,
+     50.47361,
+     -16.1,
+     -25.17,
+     536.7,
+     555.5,
+     546.1,
+     561.5,
+     -15.4,
+     0,
+     "6",
+     "22"
+    ],
+    [
+     9,
+     "Lobenstein",
+     "Lobenstein",
+     "Oberland",
+     11.64098,
+     50.4467,
+     -14.74,
+     -28.17,
+     470.8,
+     489.6,
+     480.2,
+     566.7,
+     -86.5,
+     1,
+     "6",
+     "21"
+    ],
+    [
+     10,
+     "Bellevue",
+     "Bellevue",
+     "Oberland",
+     11.65779,
+     50.47846,
+     -13.55,
+     -24.64,
+     547.6,
+     547.6,
+     547.6,
+     550.2,
+     -2.6,
+     0,
+     "6",
+     "22"
+    ],
+    [
+     11,
+     "Ebersdorf",
+     "Ebersdorf",
+     "Oberland",
+     11.66694,
+     50.48472,
+     -12.91,
+     -23.94,
+     497.1,
+     523.5,
+     510.3,
+     545.4,
+     -35.1,
+     0,
+     "6",
+     "21"
+    ],
+    [
+     12,
+     "Harra",
+     "Harra",
+     "Oberland",
+     11.68472,
+     50.41972,
+     -11.65,
+     -31.17,
+     406.8,
+     485.8,
+     446.3,
+     565.6,
+     -119.3,
+     0,
+     "6",
+     "20"
+    ],
+    [
+     13,
+     "Saalburg",
+     "Saalburg",
+     "Oberland",
+     11.73056,
+     50.50194,
+     -8.42,
+     -22.02,
+     404.9,
+     429.4,
+     417.1,
+     522.2,
+     -105.1,
+     0,
+     "6",
+     "20"
+    ],
+    [
+     14,
+     "Lerchenhügel",
+     "Lerchenhügel",
+     "Oberland",
+     11.73699,
+     50.43021,
+     -7.97,
+     -30.0,
+     536.7,
+     549.9,
+     543.3,
+     548.0,
+     -4.7,
+     0,
+     "6",
+     "22"
+    ],
+    [
+     15,
+     "Kulm",
+     "Kulm",
+     "Oberland",
+     11.75239,
+     50.50824,
+     -6.88,
+     -21.32,
+     531.0,
+     546.1,
+     538.6,
+     514.1,
+     24.5,
+     0,
+     "6",
+     "21"
+    ],
+    [
+     16,
+     "Bergkirche",
+     "Schleizer Bergkirche",
+     "Oberland",
+     11.80411,
+     50.58514,
+     -3.24,
+     -12.77,
+     451.9,
+     451.9,
+     451.9,
+     471.1,
+     -19.2,
+     0,
+     "6",
+     "21"
+    ],
+    [
+     17,
+     "Schleiz",
+     "Schleiz, Wiesenthal",
+     "Oberland",
+     11.81196,
+     50.57779,
+     -2.68,
+     -13.59,
+     428.6,
+     428.6,
+     428.6,
+     471.9,
+     -43.3,
+     1,
+     "6",
+     "20"
+    ],
+    [
+     18,
+     "Heinrichsruh",
+     "Heinrichsruh",
+     "Oberland",
+     11.81601,
+     50.55603,
+     -2.4,
+     -16.01,
+     529.2,
+     536.7,
+     532.9,
+     479.2,
+     53.8,
+     0,
+     "6",
+     "21"
+    ],
+    [
+     19,
+     "Oettersdorf",
+     "Dettersdorf, Mitte",
+     "Oberland",
+     11.81971,
+     50.60185,
+     -2.14,
+     -10.91,
+     470.8,
+     470.8,
+     470.8,
+     460.6,
+     10.1,
+     0,
+     "6",
+     "21"
+    ],
+    [
+     20,
+     "Tanna",
+     "Tanna",
+     "Oberland",
+     11.84069,
+     50.49526,
+     -0.66,
+     -22.77,
+     538.6,
+     557.4,
+     548.0,
+     496.0,
+     52.0,
+     1,
+     "6",
+     "22"
+    ],
+    [
+     21,
+     "Tegau",
+     "Tegau",
+     "Oberland",
+     11.86348,
+     50.65027,
+     0.95,
+     -5.53,
+     440.7,
+     455.7,
+     448.2,
+     430.7,
+     17.5,
+     0,
+     "6",
+     "21"
+    ],
+    [
+     22,
+     "Kirschkau",
+     "Kirschkau, die nördlichen Häuser",
+     "Oberland",
+     11.88738,
+     50.60565,
+     2.64,
+     -10.49,
+     480.2,
+     480.2,
+     480.2,
+     441.5,
+     38.7,
+     0,
+     "6",
+     "21"
+    ],
+    [
+     23,
+     "Lössau",
+     "Lössau",
+     "Oberland",
+     11.88824,
+     50.59312,
+     2.7,
+     -11.89,
+     489.6,
+     500.9,
+     495.3,
+     446.1,
+     49.2,
+     0,
+     "6",
+     "21"
+    ],
+    [
+     24,
+     "Hirschberg",
+     "Hirschberg",
+     "Oberland",
+     11.82111,
+     50.405,
+     -2.04,
+     -32.8,
+     440.7,
+     461.4,
+     451.0,
+     535.7,
+     -84.7,
+     1,
+     "6",
+     "21"
+    ],
+    [
+     25,
+     "Mödlareuth",
+     "Mödlareuth",
+     "Oberland",
+     11.86333,
+     50.41667,
+     0.94,
+     -31.51,
+     534.8,
+     555.5,
+     545.2,
+     520.2,
+     25.0,
+     0,
+     "6",
+     "21"
+    ],
+    [
+     26,
+     "Göttengrün",
+     "Göttengrün",
+     "Oberland",
+     11.8325,
+     50.46139,
+     -1.23,
+     -26.53,
+     555.5,
+     593.2,
+     574.4,
+     511.1,
+     63.2,
+     0,
+     "6",
+     "22"
+    ],
+    [
+     27,
+     "Dragensdorf",
+     "Dragensdorf",
+     "Oberland",
+     11.83472,
+     50.64722,
+     -1.08,
+     -5.87,
+     451.9,
+     459.5,
+     455.7,
+     439.4,
+     16.4,
+     0,
+     "6",
+     "21"
+    ],
+    [
+     28,
+     "Oberböhmsdorf",
+     "Oberböhmsdorf",
+     "Oberland",
+     11.83364,
+     50.56139,
+     -1.15,
+     -15.41,
+     499.0,
+     507.7,
+     503.4,
+     472.5,
+     30.9,
+     0,
+     "6",
+     "21"
+    ],
+    [
+     29,
+     "Pahren",
+     "Pahren",
+     "Oberland",
+     11.89861,
+     50.64556,
+     3.43,
+     -6.05,
+     386.0,
+     399.2,
+     392.6,
+     423.3,
+     -30.7,
+     0,
+     "6",
+     "20"
+    ],
+    [
+     30,
+     "Kraftsdorf",
+     "Kraftsdorf",
+     "Unterland",
+     11.915,
+     50.8775,
+     4.58,
+     19.74,
+     263.6,
+     310.7,
+     287.2,
+     330.2,
+     -43.0,
+     0,
+     "6",
+     "13"
+    ],
+    [
+     31,
+     "Käseschenke",
+     "Käseschenke",
+     "Unterland",
+     11.96431,
+     50.86678,
+     8.06,
+     18.55,
+     358.9,
+     358.9,
+     358.9,
+     321.4,
+     37.5,
+     0,
+     "7",
+     "13"
+    ],
+    [
+     32,
+     "Rödersdorf",
+     "Rüdersdorf",
+     "Unterland",
+     11.96868,
+     50.89755,
+     8.37,
+     21.97,
+     263.6,
+     305.1,
+     284.4,
+     308.5,
+     -24.2,
+     0,
+     "7",
+     "13"
+    ],
+    [
+     33,
+     "Geissen",
+     "Geißen",
+     "Unterland",
+     11.99792,
+     50.76222,
+     10.43,
+     6.92,
+     233.5,
+     244.1,
+     238.8,
+     352.7,
+     -113.9,
+     0,
+     "7",
+     "13"
+    ],
+    [
+     34,
+     "Weißendorf",
+     "Weißendorf",
+     "Oberland",
+     12.0,
+     50.67111,
+     10.58,
+     -3.21,
+     395.5,
+     414.3,
+     404.9,
+     387.0,
+     17.8,
+     0,
+     "7",
+     "20"
+    ],
+    [
+     35,
+     "Dürrenebersdorf",
+     "Dürrenebersdorf",
+     "Unterland",
+     12.02899,
+     50.85094,
+     12.62,
+     16.78,
+     308.8,
+     325.8,
+     317.3,
+     310.6,
+     6.7,
+     0,
+     "7",
+     "13"
+    ],
+    [
+     36,
+     "Hohenleuben",
+     "Hohenleuben",
+     "Oberland",
+     12.05445,
+     50.71263,
+     14.42,
+     1.4,
+     367.2,
+     395.5,
+     381.3,
+     356.9,
+     24.4,
+     1,
+     "7",
+     "20"
+    ],
+    [
+     37,
+     "Gera",
+     "Gera",
+     "Unterland",
+     12.09306,
+     50.87639,
+     17.14,
+     19.61,
+     190.2,
+     226.0,
+     208.1,
+     284.1,
+     -76.0,
+     1,
+     "7",
+     "12"
+    ],
+    [
+     38,
+     "Seeligenstädt",
+     "Seeligenstädt",
+     "Unterland",
+     12.11463,
+     50.94878,
+     18.66,
+     27.66,
+     284.4,
+     293.8,
+     289.1,
+     250.8,
+     38.3,
+     0,
+     "7",
+     "12"
+    ],
+    [
+     39,
+     "Zschippern",
+     "Zschippern",
+     "Unterland",
+     12.12377,
+     50.87021,
+     19.3,
+     18.93,
+     241.0,
+     278.7,
+     259.9,
+     278.5,
+     -18.6,
+     0,
+     "7",
+     "12"
+    ],
+    [
+     40,
+     "Trebnitz",
+     "Trebnitz",
+     "Unterland",
+     12.12964,
+     50.89707,
+     19.72,
+     21.91,
+     274.9,
+     290.0,
+     282.5,
+     266.7,
+     15.8,
+     0,
+     "7",
+     "12"
+    ],
+    [
+     41,
+     "Wüstfalke",
+     "Wüstfalke",
+     "Unterland",
+     12.13166,
+     50.81401,
+     19.86,
+     12.68,
+     286.2,
+     323.9,
+     305.1,
+     297.9,
+     7.1,
+     0,
+     "7",
+     "12"
+    ],
+    [
+     42,
+     "Kleinaga",
+     "Kleinaga",
+     "Unterland",
+     12.09208,
+     50.96042,
+     17.07,
+     28.96,
+     252.3,
+     284.4,
+     268.3,
+     252.2,
+     16.1,
+     0,
+     "7",
+     "12"
+    ],
+    [
+     43,
+     "Großaga",
+     "Großaga",
+     "Unterland",
+     12.0875,
+     50.96611,
+     16.75,
+     29.59,
+     248.6,
+     263.6,
+     256.1,
+     251.2,
+     4.9,
+     0,
+     "7",
+     "12"
+    ],
+    [
+     44,
+     "Köstritz",
+     "Köstritz",
+     "Unterland",
+     12.00972,
+     50.92861,
+     11.26,
+     25.42,
+     177.0,
+     195.8,
+     186.4,
+     285.9,
+     -99.5,
+     1,
+     "7",
+     "12"
+    ],
+    [
+     45,
+     "Pohlen",
+     "Pohlen",
+     "Unterland",
+     12.165,
+     50.80775,
+     22.21,
+     11.98,
+     323.9,
+     331.4,
+     327.7,
+     291.6,
+     36.0,
+     0,
+     "7",
+     "12"
+    ],
+    [
+     46,
+     "Groitschen",
+     "Groitschen",
+     "Unterland",
+     12.16852,
+     50.92512,
+     22.46,
+     25.03,
+     235.0,
+     263.6,
+     249.3,
+     245.8,
+     3.6,
+     0,
+     "7",
+     "12"
+    ],
+    [
+     47,
+     "Hirschfeld",
+     "Hirschfeld",
+     "Unterland",
+     12.18926,
+     50.9425,
+     23.92,
+     26.97,
+     274.9,
+     281.7,
+     278.3,
+     233.7,
+     44.6,
+     0,
+     "7",
+     "12"
+    ],
+    [
+     48,
+     "Bethenhausen",
+     "Bethenhausen",
+     "Unterland",
+     12.19759,
+     50.93014,
+     24.51,
+     25.59,
+     268.2,
+     284.4,
+     276.3,
+     236.3,
+     40.0,
+     0,
+     "7",
+     "12"
+    ]
+   ],
+   "source_refs": [
+    {
+     "page": "6",
+     "block": "b3"
+    },
+    {
+     "page": "7",
+     "block": "b1"
+    },
+    {
+     "page": "11",
+     "block": "b13"
+    },
+    {
+     "page": "12",
+     "block": "b1"
+    },
+    {
+     "page": "12",
+     "block": "b3"
+    },
+    {
+     "page": "13",
+     "block": "b1"
+    },
+    {
+     "page": "20",
+     "block": "b3"
+    },
+    {
+     "page": "21",
+     "block": "b1"
+    },
+    {
+     "page": "22",
+     "block": "b1"
+    }
+   ]
+  },
+  {
+   "name": "fits",
+   "title": {
+    "de": "Ausgleichsebenen",
+    "en": "Fitted planes"
+   },
+   "columns": [
+    {
+     "name": "gruppe",
+     "label": {
+      "de": "Orte",
+      "en": "Places"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "n",
+     "label": {
+      "de": "Anzahl",
+      "en": "Number"
+     },
+     "type": "integer",
+     "unit": null,
+     "derived": true
+    },
+    {
+     "name": "a",
+     "label": {
+      "de": "Höhe bei 11,85° O / 50,70° N",
+      "en": "Altitude at 11.85° E / 50.70° N"
+     },
+     "type": "number",
+     "unit": "m",
+     "derived": true
+    },
+    {
+     "name": "b",
+     "label": {
+      "de": "Änderung je km nach Osten",
+      "en": "Change per km eastwards"
+     },
+     "type": "number",
+     "unit": "m/km",
+     "derived": true
+    },
+    {
+     "name": "c",
+     "label": {
+      "de": "Änderung je km nach Norden",
+      "en": "Change per km northwards"
+     },
+     "type": "number",
+     "unit": "m/km",
+     "derived": true
+    },
+    {
+     "name": "gefaelle",
+     "label": {
+      "de": "Gefälle",
+      "en": "Slope"
+     },
+     "type": "number",
+     "unit": "m/km",
+     "derived": true
+    },
+    {
+     "name": "azimut",
+     "label": {
+      "de": "Richtung des Gefälles (von Nord, im Uhrzeigersinn)",
+      "en": "Direction of fall (from north, clockwise)"
+     },
+     "type": "number",
+     "unit": "°",
+     "derived": true
+    },
+    {
+     "name": "r2",
+     "label": {
+      "de": "R²",
+      "en": "R²"
+     },
+     "type": "number",
+     "unit": null,
+     "derived": true
+    },
+    {
+     "name": "rmse",
+     "label": {
+      "de": "Mittlerer Fehler",
+      "en": "Root mean square error"
+     },
+     "type": "number",
+     "unit": "m",
+     "derived": true
+    }
+   ],
+   "rows": [
+    [
+     "alle Orte",
+     48,
+     415.1,
+     -3.7,
+     -3.44,
+     5.06,
+     47.0,
+     0.856,
+     50.1
+    ],
+    [
+     "Oberland",
+     31,
+     450.5,
+     -4.81,
+     -1.43,
+     5.02,
+     73.0,
+     0.599,
+     48.8
+    ],
+    [
+     "Unterland",
+     17,
+     307.5,
+     0.14,
+     -1.66,
+     1.66,
+     355.0,
+     0.062,
+     39.3
+    ]
+   ],
+   "source_refs": [
+    {
+     "page": "6",
+     "block": "b3"
+    }
+   ]
+  },
+  {
+   "name": "arrow",
+   "title": {
+    "de": "Pfeil des steilsten Gefälles (Karte)",
+    "en": "Arrow of steepest descent (map)"
+   },
+   "columns": [
+    {
+     "name": "lon1",
+     "label": {
+      "de": "Länge Anfang",
+      "en": "Longitude start"
+     },
+     "type": "number",
+     "unit": "°",
+     "derived": true
+    },
+    {
+     "name": "lat1",
+     "label": {
+      "de": "Breite Anfang",
+      "en": "Latitude start"
+     },
+     "type": "number",
+     "unit": "°",
+     "derived": true
+    },
+    {
+     "name": "lon2",
+     "label": {
+      "de": "Länge Ende",
+      "en": "Longitude end"
+     },
+     "type": "number",
+     "unit": "°",
+     "derived": true
+    },
+    {
+     "name": "lat2",
+     "label": {
+      "de": "Breite Ende",
+      "en": "Latitude end"
+     },
+     "type": "number",
+     "unit": "°",
+     "derived": true
+    },
+    {
+     "name": "azimut",
+     "label": {
+      "de": "Azimut",
+      "en": "Azimuth"
+     },
+     "type": "number",
+     "unit": "°",
+     "derived": true
+    }
+   ],
+   "rows": [
+    [
+     11.86498,
+     50.65319,
+     12.07268,
+     50.77568,
+     47.0
+    ]
+   ],
+   "source_refs": [
+    {
+     "page": "6",
+     "block": "b3"
+    }
+   ]
+  }
+ ],
+ "charts": [
+  {
+   "id": "c1",
+   "dataset": "matched",
+   "extra_datasets": [
+    "arrow"
+   ],
+   "title": {
+    "de": "Die Ortshöhen auf der Karte",
+    "en": "Place altitudes on the map"
+   },
+   "caption": {
+    "de": "Orte, für die Brückner Koordinaten und Höhe nennt; Farbe = Höhe der Spannenmitte in m. Der Pfeil zeigt die Richtung des steilsten Gefälles der Ausgleichsebene (47°, 5,1 m/km). Die Höhen sind von dunkel (hoch) nach hell (niedrig) abgestuft.",
+    "en": "Places for which Brückner gives coordinates and altitude; colour = altitude of the range midpoint in m. The arrow shows the direction of steepest descent of the fitted plane (47°, 5.1 m/km). Heights are shaded from dark (high) to light (low)."
+   },
+   "vegalite": {
+    "height": 420,
+    "projection": {
+     "type": "mercator",
+     "center": [
+      11.83,
+      50.68
+     ],
+     "scale": 22000
+    },
+    "layer": [
+     {
+      "mark": {
+       "type": "point",
+       "filled": true,
+       "size": 110
+      },
+      "encoding": {
+       "longitude": {
+        "field": "lon_gw",
+        "type": "quantitative"
+       },
+       "latitude": {
+        "field": "lat",
+        "type": "quantitative"
+       },
+       "color": {
+        "field": "hoehe_mitte_m",
+        "type": "quantitative",
+        "title": {
+         "de": "Höhe (m)",
+         "en": "Altitude (m)"
+        },
+        "scale": {
+         "range": "ramp"
+        }
+       },
+       "tooltip": [
+        {
+         "field": "ort_koord",
+         "title": {
+          "de": "Ort",
+          "en": "Place"
+         }
+        },
+        {
+         "field": "landesteil",
+         "title": {
+          "de": "Landesteil",
+          "en": "Part of the country"
+         }
+        },
+        {
+         "field": "hoehe_min_m",
+         "title": {
+          "de": "Höhe unten (m)",
+          "en": "Altitude, lowest (m)"
+         }
+        },
+        {
+         "field": "hoehe_max_m",
+         "title": {
+          "de": "Höhe oben (m)",
+          "en": "Altitude, highest (m)"
+         }
+        },
+        {
+         "field": "ebene_m",
+         "title": {
+          "de": "Höhe der Ebene (m)",
+          "en": "Plane altitude (m)"
+         }
+        },
+        {
+         "field": "abweichung_m",
+         "title": {
+          "de": "Abweichung (m)",
+          "en": "Deviation (m)"
+         }
+        }
+       ]
+      }
+     },
+     {
+      "transform": [
+       {
+        "filter": "datum.beschriftet == 1"
+       }
+      ],
+      "mark": {
+       "type": "text",
+       "align": "left",
+       "dx": 9,
+       "dy": -6,
+       "fontSize": 11
+      },
+      "encoding": {
+       "longitude": {
+        "field": "lon_gw",
+        "type": "quantitative"
+       },
+       "latitude": {
+        "field": "lat",
+        "type": "quantitative"
+       },
+       "text": {
+        "field": "ort_koord",
+        "type": "nominal"
+       }
+      }
+     },
+     {
+      "data": {
+       "name": "arrow"
+      },
+      "mark": {
+       "type": "rule",
+       "strokeWidth": 2.5
+      },
+      "encoding": {
+       "longitude": {
+        "field": "lon1",
+        "type": "quantitative"
+       },
+       "latitude": {
+        "field": "lat1",
+        "type": "quantitative"
+       },
+       "longitude2": {
+        "field": "lon2"
+       },
+       "latitude2": {
+        "field": "lat2"
+       }
+      }
+     },
+     {
+      "data": {
+       "name": "arrow"
+      },
+      "mark": {
+       "type": "text",
+       "fontSize": 20,
+       "baseline": "middle"
+      },
+      "encoding": {
+       "longitude": {
+        "field": "lon2",
+        "type": "quantitative"
+       },
+       "latitude": {
+        "field": "lat2",
+        "type": "quantitative"
+       },
+       "text": {
+        "value": "▲"
+       },
+       "angle": {
+        "field": "azimut",
+        "type": "quantitative"
+       }
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "c2",
+   "dataset": "matched",
+   "title": {
+    "de": "Ortshöhe gegen geographische Breite",
+    "en": "Place altitude against latitude"
+   },
+   "caption": {
+    "de": "Jeder Punkt ist ein Ort (Höhe = Mitte der gedruckten Spanne). Die gestrichelte Gerade ist die Ausgleichsgerade über alle Orte (56 m je 10 km nach Norden); die Orte der beiden Landesteile bilden zwei getrennte Wolken.",
+    "en": "Each point is a place (altitude = midpoint of the printed range). The dashed line is the least-squares line through all places (56 m per 10 km northwards); the places of the two parts form two separate clouds."
+   },
+   "vegalite": {
+    "height": 340,
+    "layer": [
+     {
+      "mark": {
+       "type": "point",
+       "filled": true,
+       "size": 70
+      },
+      "encoding": {
+       "x": {
+        "field": "lat",
+        "type": "quantitative",
+        "title": {
+         "de": "Breite (° N)",
+         "en": "Latitude (° N)"
+        },
+        "scale": {
+         "zero": false
+        }
+       },
+       "y": {
+        "field": "hoehe_mitte_m",
+        "type": "quantitative",
+        "title": {
+         "de": "Höhe (m)",
+         "en": "Altitude (m)"
+        },
+        "scale": {
+         "zero": false
+        }
+       },
+       "color": {
+        "field": "landesteil",
+        "type": "nominal",
+        "title": {
+         "de": "Landesteil",
+         "en": "Part of the country"
+        },
+        "scale": {
+         "domain": [
+          "Oberland",
+          "Unterland",
+          "Regression"
+         ]
+        }
+       },
+       "tooltip": [
+        {
+         "field": "ort_koord",
+         "title": {
+          "de": "Ort",
+          "en": "Place"
+         }
+        },
+        {
+         "field": "lat",
+         "title": {
+          "de": "Breite (°)",
+          "en": "Latitude (°)"
+         },
+         "format": ".3f"
+        },
+        {
+         "field": "hoehe_mitte_m",
+         "title": {
+          "de": "Höhe, Mitte (m)",
+          "en": "Altitude, midpoint (m)"
+         }
+        },
+        {
+         "field": "abweichung_m",
+         "title": {
+          "de": "Abweichung von der Ebene (m)",
+          "en": "Deviation from the plane (m)"
+         }
+        }
+       ]
+      }
+     },
+     {
+      "transform": [
+       {
+        "regression": "hoehe_mitte_m",
+        "on": "lat"
+       }
+      ],
+      "mark": {
+       "type": "line",
+       "strokeDash": [
+        6,
+        4
+       ]
+      },
+      "encoding": {
+       "x": {
+        "field": "lat",
+        "type": "quantitative"
+       },
+       "y": {
+        "field": "hoehe_mitte_m",
+        "type": "quantitative"
+       },
+       "color": {
+        "datum": "Regression",
+        "type": "nominal",
+        "title": {
+         "de": "Landesteil",
+         "en": "Part of the country"
+        },
+        "scale": {
+         "domain": [
+          "Oberland",
+          "Unterland",
+          "Regression"
+         ]
+        }
+       }
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "keywords": {
+  "de": [
+   "Höhe",
+   "Lage",
+   "Neigung",
+   "Gefälle",
+   "Südwest",
+   "Nordost",
+   "Plateau",
+   "Elster",
+   "Saale",
+   "Hochfläche",
+   "Koordinaten",
+   "Ausgleichsebene"
+  ],
+  "en": [
+   "altitude",
+   "position",
+   "inclination",
+   "slope",
+   "south-west",
+   "north-east",
+   "plateau",
+   "Elster",
+   "Saale",
+   "regression plane"
+  ]
+ },
+ "related": [
+  "lage-vermessene-punkte-laenge-breite",
+  "relief-wohnorte-hoehenlage",
+  "relief-hoehenstufen-oberland-unterland"
+ ],
+ "generated_by": "Claude Sonnet 5.5 (subagent A01)",
+ "date": "2026-10-01"
+}

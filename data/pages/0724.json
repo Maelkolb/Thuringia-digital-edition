@@ -1,0 +1,818 @@
+{
+ "seq": 724,
+ "label": "712",
+ "slug": "712",
+ "iiif": {
+  "service": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb11005578_00724",
+  "canvas": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11005578/canvas/724",
+  "width": 1584,
+  "height": 2694
+ },
+ "kind": "text",
+ "running_header": "Ortskunde des Fürstenthums Reuß j. L.",
+ "signature": null,
+ "blocks": [
+  {
+   "id": "b1",
+   "type": "table",
+   "src": 0,
+   "n_cols": 3,
+   "header_rows": 1,
+   "rows": [
+    {
+     "role": "header",
+     "cells": [
+      {
+       "text": "Lobenstein:",
+       "spans": [
+        [
+         0,
+         10,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "Hirschberg:",
+       "spans": [
+        [
+         0,
+         10,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "Ebersdorf:",
+       "spans": [
+        [
+         0,
+         9,
+         "Location"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Heinrich III., † 1710.",
+       "spans": [
+        [
+         0,
+         13,
+         "Person"
+        ]
+       ]
+      },
+      {
+       "text": "Heinrich VIII.,",
+       "spans": [
+        [
+         0,
+         14,
+         "Person"
+        ]
+       ]
+      },
+      {
+       "text": "Heinrich X., † 1711.",
+       "spans": [
+        [
+         0,
+         11,
+         "Person"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Heinrich XV., † 1739.",
+       "spans": [
+        [
+         0,
+         12,
+         "Person"
+        ]
+       ]
+      },
+      {
+       "text": "† 1711 ohne Leibeserben.",
+       "spans": []
+      },
+      {
+       "text": "Heinrich XXIX., † 1747.",
+       "spans": [
+        [
+         0,
+         14,
+         "Person"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Heinrich II., † 1782.",
+       "spans": [
+        [
+         0,
+         12,
+         "Person"
+        ]
+       ]
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "Heinrich XXIV., † 1779.",
+       "spans": [
+        [
+         0,
+         14,
+         "Person"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Heinrich XXXV.,\n† 1805,\nwurde 1790 Reichsfürst\nund 1802 Mitregent von\nGera.",
+       "spans": [
+        [
+         0,
+         14,
+         "Person"
+        ],
+        [
+         70,
+         74,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "Sein Theil fällt an\ndie beiden anderen\nLinien.",
+       "spans": []
+      },
+      {
+       "text": "Heinrich LI., † 1822,\nwird 1802 Mitregent von\nGera und 1806 Fürst.",
+       "spans": [
+        [
+         0,
+         12,
+         "Person"
+        ],
+        [
+         46,
+         50,
+         "Location"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "role": "group",
+     "cells": [
+      {
+       "text": "Heinrich LXXII.,\n† 1853,",
+       "spans": [
+        [
+         0,
+         15,
+         "Person"
+        ]
+       ],
+       "colspan": 3
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Heinrich LIV., † 1824.",
+       "spans": [
+        [
+         0,
+         13,
+         "Person"
+        ]
+       ]
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "legt 1848 die Regierung",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Die Linie erlischt und ihr\nLand fällt an Ebersdorf.",
+       "spans": [
+        [
+         41,
+         50,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "nieder und damit hört die\nSpeciallinie Lobenstein-",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "group",
+     "cells": [
+      {
+       "text": "Ebersdorf auf.",
+       "spans": [],
+       "colspan": 3
+      }
+     ]
+    }
+   ],
+   "grid": [
+    [
+     "Lobenstein:",
+     "Hirschberg:",
+     "Ebersdorf:"
+    ],
+    [
+     "Heinrich III., † 1710.",
+     "Heinrich VIII.,",
+     "Heinrich X., † 1711."
+    ],
+    [
+     "Heinrich XV., † 1739.",
+     "† 1711 ohne Leibeserben.",
+     "Heinrich XXIX., † 1747."
+    ],
+    [
+     "Heinrich II., † 1782.",
+     "",
+     "Heinrich XXIV., † 1779."
+    ],
+    [
+     "Heinrich XXXV.,\n† 1805,\nwurde 1790 Reichsfürst\nund 1802 Mitregent von\nGera.",
+     "Sein Theil fällt an\ndie beiden anderen\nLinien.",
+     "Heinrich LI., † 1822,\nwird 1802 Mitregent von\nGera und 1806 Fürst."
+    ],
+    [
+     "",
+     "",
+     "Heinrich LXXII.,\n† 1853,"
+    ],
+    [
+     "Heinrich LIV., † 1824.",
+     "",
+     "legt 1848 die Regierung"
+    ],
+    [
+     "Die Linie erlischt und ihr\nLand fällt an Ebersdorf.",
+     "",
+     "nieder und damit hört die\nSpeciallinie Lobenstein-"
+    ],
+    [
+     "",
+     "",
+     "Ebersdorf auf."
+    ]
+   ],
+   "caption": null,
+   "sec": "t2-3"
+  },
+  {
+   "id": "b2",
+   "type": "paragraph",
+   "src": 1,
+   "text": "Nach der 1711 erfolgten Theilung besaß",
+   "spans": [],
+   "sec": "t2-3"
+  },
+  {
+   "id": "b3",
+   "type": "table",
+   "src": 2,
+   "n_cols": 2,
+   "header_rows": 0,
+   "rows": [
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "die Herrschaft Lobenstein:",
+       "spans": [
+        [
+         15,
+         25,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "die Herrschaft Ebersdorf:",
+       "spans": [
+        [
+         15,
+         24,
+         "Location"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "die Stadt Lobenstein, eingepfarrt:\nNeundorf zum Theil,\nLangwassermühle,\nHeinrichsgrün,\nKleinfriesa,\nGalgenvorwerk,\nSaaldorf,\nHaueisen,\nSchlößchen,\nNeuhammer,\nMuckenberger Haus,\nVitriolwerk,\nFriesenthal,\nStahlhütte,\nMotschenmühle,\nHämmerchensmühle,\nFilial Schönbrunn;\nFrössen, Pirk, Pfütz, Pechmühle, Lehesten\nund Hohenpreis;\nBlintendorf zum Theil;\nGöritz;\nHarra mit den eingepfarrten Orten:\nLichtenbrunn,\nSchlegel,\nSeibis,\nKießling,\nBlankenstein,\nWegnersbach,\nButtermühle,\nBärwinkel,\nEichenstein,\nHölle oder Kleinschmidt,\nAbhang, Geheeg, Staudenwiese, Sieglizmühle;",
+       "spans": [
+        [
+         4,
+         20,
+         "Location"
+        ],
+        [
+         35,
+         43,
+         "Location"
+        ],
+        [
+         55,
+         70,
+         "Artefact"
+        ],
+        [
+         72,
+         85,
+         "Location"
+        ],
+        [
+         87,
+         98,
+         "Location"
+        ],
+        [
+         100,
+         113,
+         "Artefact"
+        ],
+        [
+         115,
+         123,
+         "Location"
+        ],
+        [
+         125,
+         133,
+         "Location"
+        ],
+        [
+         135,
+         145,
+         "Artefact"
+        ],
+        [
+         147,
+         156,
+         "Artefact"
+        ],
+        [
+         158,
+         175,
+         "Artefact"
+        ],
+        [
+         177,
+         188,
+         "Artefact"
+        ],
+        [
+         190,
+         201,
+         "Location"
+        ],
+        [
+         203,
+         213,
+         "Artefact"
+        ],
+        [
+         215,
+         228,
+         "Artefact"
+        ],
+        [
+         230,
+         246,
+         "Artefact"
+        ],
+        [
+         255,
+         265,
+         "Location"
+        ],
+        [
+         267,
+         274,
+         "Location"
+        ],
+        [
+         276,
+         280,
+         "Location"
+        ],
+        [
+         282,
+         287,
+         "Location"
+        ],
+        [
+         289,
+         298,
+         "Artefact"
+        ],
+        [
+         300,
+         308,
+         "Location"
+        ],
+        [
+         313,
+         323,
+         "Location"
+        ],
+        [
+         325,
+         336,
+         "Location"
+        ],
+        [
+         348,
+         354,
+         "Location"
+        ],
+        [
+         356,
+         361,
+         "Location"
+        ],
+        [
+         391,
+         403,
+         "Location"
+        ],
+        [
+         405,
+         413,
+         "Location"
+        ],
+        [
+         415,
+         421,
+         "Location"
+        ],
+        [
+         423,
+         431,
+         "Location"
+        ],
+        [
+         433,
+         445,
+         "Location"
+        ],
+        [
+         447,
+         458,
+         "Location"
+        ],
+        [
+         460,
+         471,
+         "Artefact"
+        ],
+        [
+         473,
+         482,
+         "Location"
+        ],
+        [
+         484,
+         495,
+         "Location"
+        ],
+        [
+         497,
+         520,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "Ebersdorf;\nHirschberg nebst Dornholz, Hammermühle und Einzelhäuser;\nAltengesees;\nArlas reuß. Antheils;\nBenignengrün nebst Hohenofen, Hammermühle, Solmsgrün und Heinrichshütte;\nBlintendorf zum Theil;\nDobareuth und Pfauenbach;\nDürrenbach und Heinrichsort b. Wurzbach;\nEliasbrunn;\nGahma nebst der Zschachen-, Ponzels-\nund Grubersmühle;\nGebersreuth;\nGöttengrün;\nGrumbach nebst Mühlen;\nHelmsgrün und Bärenmühle;\nLemnitzhammer, Mühlleite und Saalgrün;\nLothra nebst Mühle;\nMödlareuth und Kegelmühle;\nNeundorf zum Theil;\nOßla nebst Obermühle, Knauermühle\nund altem Felde;\nPottiga, Aumühle und Alaunwerk;\nRodacherbrunn zum Theil;\nRothenacker;\nRöttersdorf;\nSaalbach;\nTitschendorf mit zwei Mühlen;\nUllersreuth;\nUnterlemnitz;",
+       "spans": [
+        [
+         0,
+         9,
+         "Location"
+        ],
+        [
+         11,
+         21,
+         "Location"
+        ],
+        [
+         28,
+         36,
+         "Location"
+        ],
+        [
+         68,
+         79,
+         "Location"
+        ],
+        [
+         81,
+         86,
+         "Location"
+        ],
+        [
+         103,
+         115,
+         "Location"
+        ],
+        [
+         122,
+         131,
+         "Artefact"
+        ],
+        [
+         146,
+         155,
+         "Location"
+        ],
+        [
+         176,
+         187,
+         "Location"
+        ],
+        [
+         199,
+         208,
+         "Location"
+        ],
+        [
+         213,
+         223,
+         "Location"
+        ],
+        [
+         225,
+         235,
+         "Location"
+        ],
+        [
+         240,
+         252,
+         "Location"
+        ],
+        [
+         266,
+         276,
+         "Location"
+        ],
+        [
+         278,
+         283,
+         "Location"
+        ],
+        [
+         319,
+         331,
+         "Artefact"
+        ],
+        [
+         333,
+         344,
+         "Location"
+        ],
+        [
+         346,
+         356,
+         "Location"
+        ],
+        [
+         358,
+         366,
+         "Location"
+        ],
+        [
+         381,
+         390,
+         "Location"
+        ],
+        [
+         395,
+         405,
+         "Artefact"
+        ],
+        [
+         407,
+         420,
+         "Artefact"
+        ],
+        [
+         422,
+         431,
+         "Location"
+        ],
+        [
+         446,
+         452,
+         "Location"
+        ],
+        [
+         466,
+         476,
+         "Location"
+        ],
+        [
+         481,
+         491,
+         "Artefact"
+        ],
+        [
+         493,
+         501,
+         "Location"
+        ],
+        [
+         513,
+         517,
+         "Location"
+        ],
+        [
+         524,
+         533,
+         "Artefact"
+        ],
+        [
+         535,
+         546,
+         "Artefact"
+        ],
+        [
+         564,
+         571,
+         "Location"
+        ],
+        [
+         573,
+         580,
+         "Artefact"
+        ],
+        [
+         585,
+         594,
+         "Artefact"
+        ],
+        [
+         596,
+         609,
+         "Location"
+        ],
+        [
+         621,
+         632,
+         "Location"
+        ],
+        [
+         634,
+         645,
+         "Location"
+        ],
+        [
+         647,
+         655,
+         "Location"
+        ],
+        [
+         657,
+         669,
+         "Location"
+        ],
+        [
+         687,
+         698,
+         "Location"
+        ],
+        [
+         700,
+         712,
+         "Location"
+        ]
+       ]
+      }
+     ]
+    }
+   ],
+   "grid": [
+    [
+     "die Herrschaft Lobenstein:",
+     "die Herrschaft Ebersdorf:"
+    ],
+    [
+     "die Stadt Lobenstein, eingepfarrt:\nNeundorf zum Theil,\nLangwassermühle,\nHeinrichsgrün,\nKleinfriesa,\nGalgenvorwerk,\nSaaldorf,\nHaueisen,\nSchlößchen,\nNeuhammer,\nMuckenberger Haus,\nVitriolwerk,\nFriesenthal,\nStahlhütte,\nMotschenmühle,\nHämmerchensmühle,\nFilial Schönbrunn;\nFrössen, Pirk, Pfütz, Pechmühle, Lehesten\nund Hohenpreis;\nBlintendorf zum Theil;\nGöritz;\nHarra mit den eingepfarrten Orten:\nLichtenbrunn,\nSchlegel,\nSeibis,\nKießling,\nBlankenstein,\nWegnersbach,\nButtermühle,\nBärwinkel,\nEichenstein,\nHölle oder Kleinschmidt,\nAbhang, Geheeg, Staudenwiese, Sieg-\nlizmühle;",
+     "Ebersdorf;\nHirschberg nebst Dornholz, Hammer-\nmühle und Einzelhäuser;\nAltengesees;\nArlas reuß. Antheils;\nBenignengrün nebst Hohenofen, Ham-\nmermühle, Solmsgrün und Hein-\nrichshütte;\nBlintendorf zum Theil;\nDobareuth und Pfauenbach;\nDürrenbach und Heinrichsort b. Wurz-\nbach;\nEliasbrunn;\nGahma nebst der Zschachen-, Ponzels-\nund Grubersmühle;\nGebersreuth;\nGöttengrün;\nGrumbach nebst Mühlen;\nHelmsgrün und Bärenmühle;\nLemnitzhammer, Mühlleite und Saal-\ngrün;\nLothra nebst Mühle;\nMödlareuth und Kegelmühle;\nNeundorf zum Theil;\nOßla nebst Obermühle, Knauermühle\nund altem Felde;\nPottiga, Aumühle und Alaunwerk;\nRodacherbrunn zum Theil;\nRothenacker;\nRöttersdorf;\nSaalbach;\nTitschendorf mit zwei Mühlen;\nUllersreuth;\nUnterlemnitz;"
+    ]
+   ],
+   "caption": null,
+   "sec": "t2-3"
+  }
+ ],
+ "footnotes": [],
+ "corrections": [
+  {
+   "rule": "table_group_rows",
+   "n": 2,
+   "block": "b1"
+  },
+  {
+   "rule": "join_linebreak_hyphen",
+   "before": "nwiese, Sieg-\nlizmühle",
+   "after": "nwiese, Sieglizmühle"
+  },
+  {
+   "rule": "join_linebreak_hyphen",
+   "before": "holz, Hammer-\nmühle",
+   "after": "holz, Hammermühle"
+  },
+  {
+   "rule": "join_linebreak_hyphen",
+   "before": "henofen, Ham-\nmermühle",
+   "after": "henofen, Hammermühle"
+  },
+  {
+   "rule": "join_linebreak_hyphen",
+   "before": "rün und Hein-\nrichshütte",
+   "after": "rün und Heinrichshütte"
+  },
+  {
+   "rule": "join_linebreak_hyphen",
+   "before": "sort b. Wurz-\nbach",
+   "after": "sort b. Wurzbach"
+  },
+  {
+   "rule": "join_linebreak_hyphen",
+   "before": "ite und Saal-\ngrün",
+   "after": "ite und Saalgrün"
+  },
+  {
+   "rule": "table_no_header_row",
+   "note": "first row is data (legacy edition rendered it as <th>)",
+   "block": "b3"
+  }
+ ],
+ "provenance": {
+  "source": "colab-2026-03",
+  "model": "gemini-3-flash-preview",
+  "timestamp": "2026-03-04T21:04:29.381806",
+  "early_schema": false
+ },
+ "section_path": [
+  "t2",
+  "t2-3"
+ ],
+ "sections": [
+  "t2-3"
+ ]
+}

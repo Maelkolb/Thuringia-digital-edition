@@ -1,0 +1,514 @@
+##### PAGE 54 len=447
+<div id="analysis-box-54">
+<div class="analysis-header-54">
+<strong style="font-size: 1.1em;">Meteorologische Auswertung (Seite 54)</strong>
+<span class="analysis-close-54" onclick="toggleAnalysisBox54()">×</span>
+</div>
+<div class="analysis-content-54">
+<div class="analysis-img-wrap-54">
+<img alt="Analyse: Page54_Barometer.png" class="analysis-img-54" src="DATAURI"/>
+<p class="analysis-caption-54">Page54_Barometer.png</p>
+</div>
+</div>
+</div>
+--- script
+
+    function toggleAnalysisBox54() {
+        var box = document.getElementById('analysis-box-54');
+        if (box.style.display === 'none' || box.style.display === '') {
+            box.style.display = 'block';
+            // Force reflow
+            box.offsetHeight;
+            setTimeout(function() {
+                box.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }, 150);
+        } else {
+            box.style.display = 'none';
+        }
+    }
+    
+##### PAGE 55 len=473
+<div id="analysis-box-55">
+<div class="analysis-header-55">
+<strong style="font-size: 1.1em;">Meteorologische Auswertung (Seite 55)</strong>
+<span class="analysis-close-55" onclick="toggleAnalysisBox55()">×</span>
+</div>
+<div class="analysis-content-55">
+<div class="analysis-img-wrap-55">
+<img alt="Analyse: Page_55_Temperature_Dashboard.png" class="analysis-img-55" src="DATAURI"/>
+<p class="analysis-caption-55">Page_55_Temperature_Dashboard.png</p>
+</div>
+</div>
+</div>
+--- script
+
+    function toggleAnalysisBox55() {
+        var box = document.getElementById('analysis-box-55');
+        if (box.style.display === 'none' || box.style.display === '') {
+            box.style.display = 'block';
+            // Force reflow
+            box.offsetHeight;
+            setTimeout(function() {
+                box.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }, 150);
+        } else {
+            box.style.display = 'none';
+        }
+    }
+    
+##### PAGE 56 len=701
+<div id="analysis-box-56">
+<div class="analysis-header-56">
+<strong style="font-size: 1.1em;">Meteorologische Auswertung (Seite 56) – 2 Grafik(en)</strong>
+<span class="analysis-close-56" onclick="toggleAnalysisBox56()">×</span>
+</div>
+<div class="analysis-content-56">
+<div class="analysis-img-wrap-56">
+<img alt="Analyse: Page_57_ Temperature_Dashboard.png" class="analysis-img-56" src="DATAURI"/>
+<p class="analysis-caption-56">Page_57_ Temperature_Dashboard.png</p>
+</div>
+<div class="analysis-img-wrap-56">
+<img alt="Analyse: Page_57_2_ Temperature_Dashboard.png" class="analysis-img-56" src="DATAURI"/>
+<p class="analysis-caption-56">Page_57_2_ Temperature_Dashboard.png</p>
+</div>
+</div>
+</div>
+--- script
+
+    function toggleAnalysisBox56() {
+        var box = document.getElementById('analysis-box-56');
+        if (box.style.display === 'none' || box.style.display === '') {
+            box.style.display = 'block';
+            box.offsetHeight;
+            setTimeout(function() {
+                box.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }, 150);
+        } else {
+            box.style.display = 'none';
+        }
+    }
+    
+##### PAGE 57 len=701
+<div id="analysis-box-57">
+<div class="analysis-header-57">
+<strong style="font-size: 1.1em;">Meteorologische Auswertung (Seite 57) – 2 Grafik(en)</strong>
+<span class="analysis-close-57" onclick="toggleAnalysisBox57()">×</span>
+</div>
+<div class="analysis-content-57">
+<div class="analysis-img-wrap-57">
+<img alt="Analyse: Page_57_ Temperature_Dashboard.png" class="analysis-img-57" src="DATAURI"/>
+<p class="analysis-caption-57">Page_57_ Temperature_Dashboard.png</p>
+</div>
+<div class="analysis-img-wrap-57">
+<img alt="Analyse: Page_57_2_ Temperature_Dashboard.png" class="analysis-img-57" src="DATAURI"/>
+<p class="analysis-caption-57">Page_57_2_ Temperature_Dashboard.png</p>
+</div>
+</div>
+</div>
+--- script
+
+    function toggleAnalysisBox57() {
+        var box = document.getElementById('analysis-box-57');
+        if (box.style.display === 'none' || box.style.display === '') {
+            box.style.display = 'block';
+            box.offsetHeight;
+            setTimeout(function() {
+                box.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }, 150);
+        } else {
+            box.style.display = 'none';
+        }
+    }
+    
+##### PAGE 61 len=24427
+<div id="analysis-box-61">
+<div class="analysis-header-61">
+<strong>
+<span class="bilingual-de">🦅 Vogelzug in Gera (1859–1864) — Phänologische Analyse</span><span class="bilingual-en">🦅 Bird Migration in Gera (1859–1864) — Phenological Analysis</span>
+</strong>
+<span class="analysis-close-61" onclick="toggleAnalysisBox61()">×</span>
+</div>
+<div class="analysis-content-61">
+<div id="bird-viz-61">
+<div class="container">
+<div class="header">
+<div class="header-content">
+<h1>
+<span class="bird-icon">🐦</span>
+<span data-de="Vogelzug in Gera" data-en="Bird Migration in Gera">Vogelzug in Gera</span>
+<span style="font-weight:400; opacity:0.8;">(1859–1864)</span>
+</h1>
+<p data-de="Phänologische Beobachtungen von Ludwig Müller" data-en="Phenological observations by Ludwig Müller">Phänologische Beobachtungen von Ludwig Müller</p>
+</div>
+<div class="lang-switch">
+<button class="lang-btn active" onclick="setLang('de')">DE</button>
+<button class="lang-btn" onclick="setLang('en')">EN</button>
+</div>
+</div>
+<div class="main-panel">
+<div class="controls">
+<div class="control-group">
+<label data-de="Jahr auswählen" data-en="Select Year">Jahr auswählen</label>
+<div class="year-btns" id="yearBtns"></div>
+</div>
+<div class="control-group">
+<label>Animation</label>
+<div class="play-controls">
+<button aria-label="Play/Pause" class="play-btn" id="playBtn" onclick="togglePlay()">▶</button>
+<div class="speed-control">
+<span>🐢</span>
+<input aria-label="Animation Speed" id="speedSlider" max="10" min="1" onchange="setSpeed(this.value)" type="range" value="5"/>
+<span>🐇</span>
+</div>
+</div>
+</div>
+</div>
+<div class="timeline">
+<div class="timeline-top">
+<div class="seasons">
+<span class="season winter">
+<span class="icon">❄️</span>
+<span data-de="Winter" data-en="Winter">Winter</span>
+</span>
+<span class="season spring">
+<span class="icon">🌸</span>
+<span data-de="Frühling" data-en="Spring">Frühling</span>
+</span>
+<span class="season summer">
+<span class="icon">☀️</span>
+<span data-de="Sommer" data-en="Summer">Sommer</span>
+</span>
+<span class="season autumn">
+<span class="icon">🍂</span>
+<span data-de="Herbst" data-en="Autumn">Herbst</span>
+</span>
+</div>
+<div class="current-date" id="currentDate">Mai 1861</div>
+</div>
+<div class="month-row" id="monthRow"></div>
+<div class="slider-container">
+<div class="slider-track"></div>
+<input class="month-slider" id="monthSlider" max="11" min="0" oninput="setMonth(parseInt(this.value))" type="range" value="4"/>
+</div>
+</div>
+<div class="sky spring" id="sky">
+<div class="sun-rays"></div>
+<div class="sun"></div>
+<div class="cloud cloud1"></div>
+<div class="cloud cloud2"></div>
+<div class="cloud cloud3"></div>
+<!-- Snowflakes -->
+<span class="snowflake" style="left:5%;animation-delay:0s;">❄</span>
+<span class="snowflake" style="left:15%;animation-delay:0.7s;">❅</span>
+<span class="snowflake" style="left:28%;animation-delay:1.4s;">❄</span>
+<span class="snowflake" style="left:42%;animation-delay:0.3s;">❅</span>
+<span class="snowflake" style="left:55%;animation-delay:1.1s;">❄</span>
+<span class="snowflake" style="left:68%;animation-delay:1.8s;">❅</span>
+<span class="snowflake" style="left:82%;animation-delay:2.3s;">❄</span>
+<span class="snowflake" style="left:95%;animation-delay:0.5s;">❅</span>
+<!-- Leaves -->
+<span class="leaf" style="left:8%;animation-delay:0s;">🍂</span>
+<span class="leaf" style="left:22%;animation-delay:1s;">🍁</span>
+<span class="leaf" style="left:36%;animation-delay:2s;">🍂</span>
+<span class="leaf" style="left:50%;animation-delay:0.5s;">🍁</span>
+<span class="leaf" style="left:64%;animation-delay:1.5s;">🍂</span>
+<span class="leaf" style="left:78%;animation-delay:2.5s;">🍁</span>
+<span class="leaf" style="left:92%;animation-delay:3s;">🍂</span>
+<!-- Spring blossoms -->
+<span class="blossom" style="left:10%;animation-delay:0s;">🌸</span>
+<span class="blossom" style="left:25%;animation-delay:1.5s;">🌺</span>
+<span class="blossom" style="left:40%;animation-delay:3s;">🌸</span>
+<span class="blossom" style="left:55%;animation-delay:0.8s;">🌺</span>
+<span class="blossom" style="left:70%;animation-delay:2.3s;">🌸</span>
+<span class="blossom" style="left:85%;animation-delay:4s;">🌺</span>
+<div class="ground">
+<div class="tree"><div class="tree-crown"></div><div class="tree-trunk"></div></div>
+<div class="tree"><div class="tree-crown"></div><div class="tree-trunk"></div></div>
+<div class="tree"><div class="tree-crown"></div><div class="tree-trunk"></div></div>
+<div class="tree"><div class="tree-crown"></div><div class="tree-trunk"></div></div>
+<div class="tree"><div class="tree-crown"></div><div class="tree-trunk"></div></div>
+<div class="tree"><div class="tree-crown"></div><div class="tree-trunk"></div></div>
+<div class="tree"><div class="tree-crown"></div><div class="tree-trunk"></div></div>
+</div>
+</div>
+<div class="status-section">
+<div class="status-card arrivals">
+<div class="status-header">
+<span class="status-title">
+<span class="icon">↗️</span>
+<span data-de="Ankünfte" data-en="Arrivals">Ankünfte</span>
+</span>
+<span class="status-count" id="arrCount">0</span>
+</div>
+<div class="status-list" id="arrList"></div>
+</div>
+<div class="status-card present">
+<div class="status-header">
+<span class="status-title">
+<span class="icon">✓</span>
+<span data-de="Anwesend" data-en="Present">Anwesend</span>
+</span>
+<span class="status-count" id="presCount">0</span>
+</div>
+<div class="status-list" id="presList"></div>
+</div>
+<div class="status-card departures">
+<div class="status-header">
+<span class="status-title">
+<span class="icon">↘️</span>
+<span data-de="Abzüge" data-en="Departures">Abzüge</span>
+</span>
+<span class="status-count" id="depCount">0</span>
+</div>
+<div class="status-list" id="depList"></div>
+</div>
+</div>
+<div class="bird-section">
+<div class="section-title">
+<span class="icon">📋</span>
+<span data-de="Alle Zugvogelarten" data-en="All Migratory Species">Alle Zugvogelarten</span>
+</div>
+<div class="bird-grid" id="birdGrid"></div>
+</div>
+<div class="footer">
+<span data-de="Da
+--- script
+
+(function() {
+    // ==================== BIRD MIGRATION DATA ====================
+    const birdData = [
+        { id: 'lerche', name_de: 'Lerche', name_en: 'Skylark', emoji: '🐦', 
+          data: { 1859: ['15.2','10.11'], 1860: ['1.3','30.10'], 1861: ['7.2','1.11'], 1862: ['7.2','16.11'], 1863: ['29.1','20.10'], 1864: ['20.1', null] }},
+        { id: 'bachstelze', name_de: 'Bachstelze', name_en: 'Wagtail', emoji: '🐤', 
+          data: { 1859: ['15.3','12.10'], 1860: [null,null], 1861: ['4.3',null], 1862: [null,null], 1863: [null,null], 1864: [null,null] }},
+        { id: 'hausschwalbe', name_de: 'Hausschwalbe', name_en: 'House Martin', emoji: '🕊️', 
+          data: { 1859: ['23.4','4.10'], 1860: ['9.4','15.10'], 1861: ['13.4',null], 1862: [null,null], 1863: [null,null], 1864: [null,null] }},
+        { id: 'grasmuecke', name_de: 'Schwarzk. Grasmücke', name_en: 'Blackcap', emoji: '🐥', 
+          data: { 1859: ['3.5','26.9'], 1860: [null,null], 1861: [null,'19.8'], 1862: [null,null], 1863: [null,null], 1864: [null,null] }},
+        { id: 'turmschwalbe', name_de: 'Turmschwalbe', name_en: 'Common Swift', emoji: '🦅', 
+          data: { 1859: ['4.5',null], 1860: [null,null], 1861: ['5.5','12.8'], 1862: ['26.4','5.8'], 1863: ['3.5','7.8'], 1864: ['26.4','3.8'] }},
+        { id: 'pirol', name_de: 'Pirol', name_en: 'Golden Oriole', emoji: '🦜', 
+          data: { 1859: ['1.6',null], 1860: ['12.5',null], 1861: ['11.5','16.8'], 1862: ['25.4','16.8'], 1863: ['5.5','15.8'], 1864: ['4.5',null] }},
+        { id: 'kuckuck', name_de: 'Kuckuck', name_en: 'Cuckoo', emoji: '🦉', 
+          data: { 1859: ['16.4',null], 1860: ['5.5',null], 1861: ['1.5','13.8'], 1862: ['1.4','20.8'], 1863: ['27.4','19.8'], 1864: ['27.4',null] }},
+        { id: 'mehlschwalbe', name_de: 'Mehlschwalbe', name_en: 'House Martin', emoji: '🐣', 
+          data: { 1859: [null,null], 1860: ['4.5',null], 1861: ['13.5','15.9'], 1862: ['29.4','15.9'], 1863: ['3.5',null], 1864: [null,null] }},
+        { id: 'ringeltaube', name_de: 'Ringeltaube', name_en: 'Wood Pigeon', emoji: '🦚', 
+          data: { 1859: [null,null], 1860: [null,null], 1861: [null,'18.9'], 1862: ['13.3',null], 1863: ['7.3',null], 1864: [null,null] }},
+        { id: 'rauchschwalbe', name_de: 'Rauchschwalbe', name_en: 'Barn Swallow', emoji: '🦩', 
+          data: { 1859: [null,null], 1860: [null,null], 1861: [null,'29.9'], 1862: ['11.4','20.9'], 1863: ['11.4','19.8'], 1864: ['12.4','1.10'] }},
+        { id: 'hausrotschwanz', name_de: 'Hausrotschwanz', name_en: 'Black Redstart', emoji: '🐓', 
+          data: { 1859: [null,null], 1860: ['24.3',null], 1861: ['25.3','8.10'], 1862: ['13.3','6.10'], 1863: ['24.3','11.10'], 1864: ['19.3',null] }},
+        { id: 'star', name_de: 'Star', name_en: 'Starling', emoji: '🐦‍⬛', 
+          data: { 1859: [null,null], 1860: [null,null], 1861: [null,'9.10'], 1862: ['17.2',null], 1863: ['2.2',null], 1864: ['30.1',null] }},
+        { id: 'waldschnepfe', name_de: 'Waldschnepfe', name_en: 'Woodcock', emoji: 
+##### PAGE 62 len=35385
+<div id="analysis-box-62">
+<div class="analysis-header-62">
+<strong style="font-size: 1.1em;">Meteorologische Auswertung (Seite 62) – 1 Grafik(en)</strong>
+<span class="analysis-close-62" onclick="toggleAnalysisBox62()">×</span>
+</div>
+<div class="analysis-content-62">
+<div class="content-viz-wrap-62">
+<h4 class="content-viz-title-62">Windverhältnisse zu Gera 1856–1865</h4>
+<div class="content-viz-container-62">
+<iframe allowfullscreen="" class="content-viz-iframe-62" frameborder="0" scrolling="auto" src="data:text/html;base64,PCFET0NUWVBFIGh0bWw+CjxodG1sIGxhbmc9ImRlIj4KPGhlYWQ+CiAgPG1ldGEgY2hhcnNldD0iVVRGLTgiPgogIDxtZXRhIG5hbWU9InZpZXdwb3J0IiBjb250ZW50PSJ3aWR0aD1kZXZpY2Utd2lkdGgsIGluaXRpYWwtc2NhbGU9MS4wIj4KICA8dGl0bGU+V2luZHZlcmjDpGx0bmlzc2UgenUgR2VyYSAxODU24oCTMTg2NTwvdGl0bGU+CiAgPGxpbmsgaHJlZj0iaHR0cHM6Ly9mb250cy5nb29nbGVhcGlzLmNvbS9jc3MyP2ZhbWlseT1Dcmltc29uK1RleHQ6aXRhbCx3Z2h0QDAsNDAwOzAsNjAwOzAsNzAwOzEsNDAwJmRpc3BsYXk9c3dhcCIgcmVsPSJzdHlsZXNoZWV0Ij4KICA8c3R5bGU+CiAgICAqIHsKICAgICAgbWFyZ2luOiAwOwogICAgICBwYWRkaW5nOiAwOwogICAgICBib3gtc2l6aW5nOiBib3JkZXItYm94OwogICAgfQogICAgCiAgICBib2R5IHsKICAgICAgZm9udC1mYW1pbHk6ICdDcmltc29uIFRleHQnLCBHZW9yZ2lhLCBzZXJpZjsKICAgICAgYmFja2dyb3VuZC1jb2xvcjogI2ZhZjZmMDsKICAgICAgbWluLWhlaWdodDogMTAwdmg7CiAgICAgIHBhZGRpbmc6IDEuNXJlbTsKICAgIH0KICAgIAogICAgLmNvbnRhaW5lciB7CiAgICAgIG1heC13aWR0aDogMTIwMHB4OwogICAgICBtYXJnaW46IDAgYXV0bzsKICAgIH0KICAgIAogICAgLyogTGFuZ3VhZ2UgVG9nZ2xlICovCiAgICAubGFuZy10b2dnbGUgewogICAgICBwb3NpdGlvbjogZml4ZWQ7CiAgICAgIHRvcDogMXJlbTsKICAgICAgcmlnaHQ6IDFyZW07CiAgICAgIGRpc3BsYXk6IGZsZXg7CiAgICAgIGdhcDogMC4yNXJlbTsKICAgICAgYmFja2dyb3VuZC1jb2xvcjogI2ZmZjsKICAgICAgcGFkZGluZzogMC4yNXJlbTsKICAgICAgYm9yZGVyLXJhZGl1czogOTk5OXB4OwogICAgICBib3JkZXI6IDFweCBzb2xpZCAjZDRjNGE4OwogICAgICBib3gtc2hhZG93OiAwIDJweCAxMHB4IHJnYmEoMTM5LCAxMTUsIDg1LCAwLjE1KTsKICAgICAgei1pbmRleDogMTAwOwogICAgfQogICAgCiAgICAubGFuZy1idG4gewogICAgICBwYWRkaW5nOiAwLjRyZW0gMC43NXJlbTsKICAgICAgZm9udC1zaXplOiAwLjhyZW07CiAgICAgIGJvcmRlci1yYWRpdXM6IDk5OTlweDsKICAgICAgYm9yZGVyOiBub25lOwogICAgICBiYWNrZ3JvdW5kLWNvbG9yOiB0cmFuc3BhcmVudDsKICAgICAgY29sb3I6ICM1YTRhM2E7CiAgICAgIGZvbnQtZmFtaWx5OiAnQ3JpbXNvbiBUZXh0JywgR2VvcmdpYSwgc2VyaWY7CiAgICAgIGN1cnNvcjogcG9pbnRlcjsKICAgICAgdHJhbnNpdGlvbjogYWxsIDAuMnM7CiAgICAgIGZvbnQtd2VpZ2h0OiA2MDA7CiAgICB9CiAgICAKICAgIC5sYW5nLWJ0bjpob3ZlciB7CiAgICAgIGJhY2tncm91bmQtY29sb3I6ICNmNWYwZTY7CiAgICB9CiAgICAKICAgIC5sYW5nLWJ0bi5hY3RpdmUgewogICAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjMmQ0YTNlOwogICAgICBjb2xvcjogI2ZmZjsKICAgIH0KICAgIAogICAgLyogSGVhZGVyICovCiAgICBoZWFkZXIgewogICAgICB0ZXh0LWFsaWduOiBjZW50ZXI7CiAgICAgIG1hcmdpbi1ib3R0b206IDJyZW07CiAgICAgIHBhZGRpbmctYm90dG9tOiAxLjVyZW07CiAgICAgIGJvcmRlci1ib3R0b206IDJweCBzb2xpZCAjZDRjNGE4OwogICAgfQogICAgCiAgICAuc3VidGl0bGUgewogICAgICBmb250LXNpemU6IDAuNzVyZW07CiAgICAgIHRleHQtdHJhbnNmb3JtOiB1cHBlcmNhc2U7CiAgICAgIGxldHRlci1zcGFjaW5nOiAwLjJlbTsKICAgICAgY29sb3I6ICM4YjczNTU7CiAgICAgIG1hcmdpbi1ib3R0b206IDAuNXJlbTsKICAgIH0KICAgIAogICAgaDEgewogICAgICBmb250LXNpemU6IDIuNXJlbTsKICAgICAgY29sb3I6ICMyZDNhMzM7CiAgICAgIG1hcmdpbi1ib3R0b206IDAuNzVyZW07CiAgICAgIGZvbnQtd2VpZ2h0OiA3MDA7CiAgICB9CiAgICAKICAgIC5kZXNjcmlwdGlvbiB7CiAgICAgIGZvbnQtc2l6ZTogMS4xcmVtOwogICAgICBjb2xvcjogIzVhNGEzYTsKICAgIH0KICAgIAogICAgLnRhZ3MgewogICAgICBtYXJnaW4tdG9wOiAxcmVtOwogICAgICBkaXNwbGF5OiBmbGV4OwogICAgICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjsKICAgICAgZ2FwOiAwLjVyZW07CiAgICAgIGZsZXgtd3JhcDogd3JhcDsKICAgIH0KICAgIAogICAgLnRhZyB7CiAgICAgIHBhZGRpbmc6IDAuMjVyZW0gMC43NXJlbTsKICAgICAgZm9udC1zaXplOiAwLjc1cmVtOwogICAgICBib3JkZXItcmFkaXVzOiA5OTk5cHg7CiAgICAgIGJhY2tncm91bmQtY29sb3I6ICNlOGRjYzg7CiAgICAgIGNvbG9yOiAjM2QyZTFmOwogICAgfQogICAgCiAgICAvKiBNYWluIEdyaWQgKi8KICAgIC5tYWluLWdyaWQgewogICAgICBkaXNwbGF5OiBncmlkOwogICAgICBncmlkLXRlbXBsYXRlLWNvbHVtbnM6IDFmcjsKICAgICAgZ2FwOiAycmVtOwogICAgfQogICAgCiAgICBAbWVkaWEgKG1pbi13aWR0aDogMTAyNHB4KSB7CiAgICAgIC5tYWluLWdyaWQgewogICAgICAgIGdyaWQtdGVtcGxhdGUtY29sdW1uczogMWZyIDFmcjsKICAgICAgfQogICAgfQogICAgCiAgICAvKiBDYXJkcyAqLwogICAgLmNhcmQgewogICAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjZmZmOwogICAgICBib3JkZXI6IDFweCBzb2xpZCAjZDRjNGE4OwogICAgICBib3JkZXItcmFkaXVzOiAwLjc1cmVtOwogICAgICBwYWRkaW5nOiAxLjVyZW07CiAgICAgIGJveC1zaGFkb3c6IDAgNHB4IDIwcHggcmdiYSgxMzksIDExNSwgODUsIDAuMSk7CiAgICB9CiAgICAKICAgIC5jYXJkIGgyIHsKICAgICAgZm9udC1zaXplOiAxLjI1cmVtOwogICAgICBmb250LXdlaWdodDogNzAwOwogICAgICBjb2xvcjogIzJkM2EzMzsKICAgICAgbWFyZ2luLWJvdHRvbTogMXJlbTsKICAgIH0KICAgIAogICAgLmNhcmQtY2VudGVyIGgyIHsKICAgICAgdGV4dC1hbGlnbjogY2VudGVyOwogICAgfQogICAgCiAgICAvKiBTZWFzb24gQnV0dG9ucyAqLwogICAgLnNlYXNvbi1idXR0b25zIHsKICAgICAgZGlzcGxheTogZmxleDsKICAgICAgZmxleC13cmFwOiB3cmFwOwogICAgICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjsKICAgICAgZ2FwOiAwLjVyZW07CiAgICAgIG1hcmdpbi1ib3R0b206IDEuNXJlbTsKICAgIH0KICAgIAogICAgLnNlYXNvbi1idG4gewogICAgICBwYWRkaW5nOiAwLjVyZW0gMXJlbTsKICAgICAgZm9udC1zaXplOiAwLjg3NXJlbTsKICAgICAgYm9yZGVyLXJhZGl1czogOTk5OXB4OwogICAgICBib3JkZXI6IDFweCBzb2xpZCAjZDRjNGE4OwogICAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjZjVmMGU2OwogICAgICBjb2xvcjogIzNkMmUxZjsKICAgICAgZm9udC1mYW1pbHk6ICdDcmltc29uIFRleHQnLCBHZW9yZ2lhLCBzZXJpZjsKICAgICAgY3Vyc29yOiBwb2ludGVyOwogICAgICB0cmFuc2l0aW9uOiBhbGwgMC4yczsKICAgIH0KICAgIAogICAgLnNlYXNvbi1idG46aG92ZXIgewogICAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjZThkY2M4OwogICAgfQogICAgCiAgICAuc2Vhc29uLWJ0bi5hY3RpdmUgewogICAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjMmQ0YTNlOwogICAgICBjb2xvcjogI2ZmZjsKICAgIH0KICAgIAogICAgLyogV2luZCBSb3NlICovCiAgICAud2luZHJvc2UtY29udGFpbmVyIHsKICAgICAgZGlzcGxheTogZmxleDsKICAgICAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7CiAgICB9CiAgICAKICAgIC53aW5kcm9zZS1zdmcgewogICAgICB3aWR0aDogMTAwJTsKICAgICAgbWF4LXdpZHRoOiA0MDBweDsKICAgIH0KICAgIAogICAgLndpbmRyb3NlLXN2ZyBwYXRoIHsKICAgICAgdHJhbnNpdGlvbjogb3BhY2l0eSAwLjNzOwogICAgfQogICAgCiAgICAud2luZHJvc2Utc3ZnIHBhdGg6aG92ZXIgewogICAgICBvcGFjaXR5OiAwLjg7CiAgICB9CiAgICAKICAgIC8qIExlZ2VuZCAqLwogICAgLmxlZ2VuZCB7CiAgICAgIG1hcmdpbi10b3A6IDFyZW07CiAgICAgIGRpc3BsYXk6IGZsZXg7CiAgICAgIGZsZXgtd3JhcDogd3JhcDsKICAgICAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7CiAgICAgIGdhcDogMC43NXJlbTsKICAgIH0KICAgIAogICAgLmxlZ2VuZC1pdGVtIHsKICAgICAgZGlzcGxheTogZmxleDsKICAgICAgYWxpZ24taXRlbXM6IGNlbnR
+--- script
+
+    function toggleAnalysisBox62() {
+        var box = document.getElementById('analysis-box-62');
+        if (box.style.display === 'none' || box.style.display === '') {
+            box.style.display = 'block';
+            setTimeout(function() {
+                box.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }, 150);
+        } else {
+            box.style.display = 'none';
+        }
+    }
+
+    function toggleFullscreenMixed62(btn) {
+        var container = btn.previousElementSibling;
+        if (container.classList.contains('fullscreen')) {
+            container.classList.remove('fullscreen');
+            btn.innerHTML = '⛶ Vollbild';
+            document.body.style.overflow = '';
+        } else {
+            container.classList.add('fullscreen');
+            btn.innerHTML = '✕ Schließen';
+            document.body.style.overflow = 'hidden';
+        }
+    }
+
+    document.addEventListener('keydown', function(e) {
+        if (e.key === 'Escape') {
+            var fs = document.querySelector('.content-viz-container-62.fullscreen');
+            if (fs) {
+                fs.classList.remove('fullscreen');
+                fs.nextElementSibling.innerHTML = '⛶ Vollbild';
+                document.body.style.overflow = '';
+            }
+        }
+    });
+    
+##### PAGE 63 len=44739
+<div class="analysis-box-hidden" id="analysis-box-63">
+<div class="analysis-header-63">
+<strong style="font-size: 1.1em;"><span class="bilingual-de">Meteorologische Auswertung (Seite 63) – Windverhältnisse im Vogtland</span><span class="bilingual-en">Meteorological Analysis (Page 63) – Wind Conditions in the Vogtland</span></strong>
+<span class="analysis-close-63" onclick="toggleAnalysisBox63()">×</span>
+</div>
+<div class="analysis-content-63">
+<div class="content-viz-wrap-63">
+<h4 class="content-viz-title-63"><span class="bilingual-de">Windverhältnisse: Hohenleuben, Schleiz, Rothenacker</span><span class="bilingual-en">Wind Conditions: Hohenleuben, Schleiz, Rothenacker</span></h4>
+<div class="content-viz-container-63">
+<iframe allowfullscreen="" class="content-viz-iframe-63" frameborder="0" scrolling="auto" src="data:text/html;base64,PCFET0NUWVBFIGh0bWw+CjxodG1sIGxhbmc9ImRlIj4KPGhlYWQ+CiAgPG1ldGEgY2hhcnNldD0iVVRGLTgiPgogIDxtZXRhIG5hbWU9InZpZXdwb3J0IiBjb250ZW50PSJ3aWR0aD1kZXZpY2Utd2lkdGgsIGluaXRpYWwtc2NhbGU9MS4wIj4KICA8dGl0bGU+V2luZHZlcmjDpGx0bmlzc2Ug4oCTIEhvaGVubGV1YmVuLCBTY2hsZWl6LCBSb3RoZW5hY2tlcjwvdGl0bGU+CiAgPGxpbmsgaHJlZj0iaHR0cHM6Ly9mb250cy5nb29nbGVhcGlzLmNvbS9jc3MyP2ZhbWlseT1Dcmltc29uK1RleHQ6aXRhbCx3Z2h0QDAsNDAwOzAsNjAwOzAsNzAwOzEsNDAwJmRpc3BsYXk9c3dhcCIgcmVsPSJzdHlsZXNoZWV0Ij4KICA8c3R5bGU+CiAgICAqIHsKICAgICAgbWFyZ2luOiAwOwogICAgICBwYWRkaW5nOiAwOwogICAgICBib3gtc2l6aW5nOiBib3JkZXItYm94OwogICAgfQogICAgCiAgICBib2R5IHsKICAgICAgZm9udC1mYW1pbHk6ICdDcmltc29uIFRleHQnLCBHZW9yZ2lhLCBzZXJpZjsKICAgICAgYmFja2dyb3VuZC1jb2xvcjogI2ZhZjZmMDsKICAgICAgbWluLWhlaWdodDogMTAwdmg7CiAgICAgIHBhZGRpbmc6IDEuNXJlbTsKICAgIH0KICAgIAogICAgLmNvbnRhaW5lciB7CiAgICAgIG1heC13aWR0aDogMTIwMHB4OwogICAgICBtYXJnaW46IDAgYXV0bzsKICAgIH0KICAgIAogICAgLyogTGFuZ3VhZ2UgVG9nZ2xlICovCiAgICAubGFuZy10b2dnbGUgewogICAgICBwb3NpdGlvbjogZml4ZWQ7CiAgICAgIHRvcDogMXJlbTsKICAgICAgcmlnaHQ6IDFyZW07CiAgICAgIGRpc3BsYXk6IGZsZXg7CiAgICAgIGdhcDogMC4yNXJlbTsKICAgICAgYmFja2dyb3VuZC1jb2xvcjogI2ZmZjsKICAgICAgcGFkZGluZzogMC4yNXJlbTsKICAgICAgYm9yZGVyLXJhZGl1czogOTk5OXB4OwogICAgICBib3JkZXI6IDFweCBzb2xpZCAjZDRjNGE4OwogICAgICBib3gtc2hhZG93OiAwIDJweCAxMHB4IHJnYmEoMTM5LCAxMTUsIDg1LCAwLjE1KTsKICAgICAgei1pbmRleDogMTAwOwogICAgfQogICAgCiAgICAubGFuZy1idG4gewogICAgICBwYWRkaW5nOiAwLjRyZW0gMC43NXJlbTsKICAgICAgZm9udC1zaXplOiAwLjhyZW07CiAgICAgIGJvcmRlci1yYWRpdXM6IDk5OTlweDsKICAgICAgYm9yZGVyOiBub25lOwogICAgICBiYWNrZ3JvdW5kLWNvbG9yOiB0cmFuc3BhcmVudDsKICAgICAgY29sb3I6ICM1YTRhM2E7CiAgICAgIGZvbnQtZmFtaWx5OiAnQ3JpbXNvbiBUZXh0JywgR2VvcmdpYSwgc2VyaWY7CiAgICAgIGN1cnNvcjogcG9pbnRlcjsKICAgICAgdHJhbnNpdGlvbjogYWxsIDAuMnM7CiAgICAgIGZvbnQtd2VpZ2h0OiA2MDA7CiAgICB9CiAgICAKICAgIC5sYW5nLWJ0bjpob3ZlciB7CiAgICAgIGJhY2tncm91bmQtY29sb3I6ICNmNWYwZTY7CiAgICB9CiAgICAKICAgIC5sYW5nLWJ0bi5hY3RpdmUgewogICAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjMmQ0YTNlOwogICAgICBjb2xvcjogI2ZmZjsKICAgIH0KICAgIAogICAgLyogSGVhZGVyICovCiAgICBoZWFkZXIgewogICAgICB0ZXh0LWFsaWduOiBjZW50ZXI7CiAgICAgIG1hcmdpbi1ib3R0b206IDJyZW07CiAgICAgIHBhZGRpbmctYm90dG9tOiAxLjVyZW07CiAgICAgIGJvcmRlci1ib3R0b206IDJweCBzb2xpZCAjZDRjNGE4OwogICAgfQogICAgCiAgICAuc3VidGl0bGUgewogICAgICBmb250LXNpemU6IDAuNzVyZW07CiAgICAgIHRleHQtdHJhbnNmb3JtOiB1cHBlcmNhc2U7CiAgICAgIGxldHRlci1zcGFjaW5nOiAwLjJlbTsKICAgICAgY29sb3I6ICM4YjczNTU7CiAgICAgIG1hcmdpbi1ib3R0b206IDAuNXJlbTsKICAgIH0KICAgIAogICAgaDEgewogICAgICBmb250LXNpemU6IDIuMnJlbTsKICAgICAgY29sb3I6ICMyZDNhMzM7CiAgICAgIG1hcmdpbi1ib3R0b206IDAuNzVyZW07CiAgICAgIGZvbnQtd2VpZ2h0OiA3MDA7CiAgICB9CiAgICAKICAgIC5kZXNjcmlwdGlvbiB7CiAgICAgIGZvbnQtc2l6ZTogMS4xcmVtOwogICAgICBjb2xvcjogIzVhNGEzYTsKICAgIH0KICAgIAogICAgLnRhZ3MgewogICAgICBtYXJnaW4tdG9wOiAxcmVtOwogICAgICBkaXNwbGF5OiBmbGV4OwogICAgICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjsKICAgICAgZ2FwOiAwLjVyZW07CiAgICAgIGZsZXgtd3JhcDogd3JhcDsKICAgIH0KICAgIAogICAgLnRhZyB7CiAgICAgIHBhZGRpbmc6IDAuMjVyZW0gMC43NXJlbTsKICAgICAgZm9udC1zaXplOiAwLjc1cmVtOwogICAgICBib3JkZXItcmFkaXVzOiA5OTk5cHg7CiAgICAgIGJhY2tncm91bmQtY29sb3I6ICNlOGRjYzg7CiAgICAgIGNvbG9yOiAjM2QyZTFmOwogICAgfQogICAgCiAgICAvKiBMb2NhdGlvbiBTZWxlY3RvciAqLwogICAgLmxvY2F0aW9uLXNlbGVjdG9yIHsKICAgICAgZGlzcGxheTogZmxleDsKICAgICAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7CiAgICAgIGdhcDogMC41cmVtOwogICAgICBtYXJnaW4tYm90dG9tOiAxLjVyZW07CiAgICAgIGZsZXgtd3JhcDogd3JhcDsKICAgIH0KICAgIAogICAgLmxvY2F0aW9uLWJ0biB7CiAgICAgIHBhZGRpbmc6IDAuNnJlbSAxLjJyZW07CiAgICAgIGZvbnQtc2l6ZTogMC45NXJlbTsKICAgICAgYm9yZGVyLXJhZGl1czogOTk5OXB4OwogICAgICBib3JkZXI6IDJweCBzb2xpZCAjMmQ0YTNlOwogICAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjZmZmOwogICAgICBjb2xvcjogIzJkNGEzZTsKICAgICAgZm9udC1mYW1pbHk6ICdDcmltc29uIFRleHQnLCBHZW9yZ2lhLCBzZXJpZjsKICAgICAgY3Vyc29yOiBwb2ludGVyOwogICAgICB0cmFuc2l0aW9uOiBhbGwgMC4yczsKICAgICAgZm9udC13ZWlnaHQ6IDYwMDsKICAgIH0KICAgIAogICAgLmxvY2F0aW9uLWJ0bjpob3ZlciB7CiAgICAgIGJhY2tncm91bmQtY29sb3I6ICNlOGY1ZTk7CiAgICB9CiAgICAKICAgIC5sb2NhdGlvbi1idG4uYWN0aXZlIHsKICAgICAgYmFja2dyb3VuZC1jb2xvcjogIzJkNGEzZTsKICAgICAgY29sb3I6ICNmZmY7CiAgICB9CiAgICAKICAgIC5sb2NhdGlvbi1pbmZvIHsKICAgICAgdGV4dC1hbGlnbjogY2VudGVyOwogICAgICBtYXJnaW4tYm90dG9tOiAxLjVyZW07CiAgICAgIHBhZGRpbmc6IDAuNzVyZW07CiAgICAgIGJhY2tncm91bmQtY29sb3I6ICNmNWYwZTY7CiAgICAgIGJvcmRlci1yYWRpdXM6IDAuNXJlbTsKICAgICAgYm9yZGVyOiAxcHggc29saWQgI2Q0YzRhODsKICAgIH0KICAgIAogICAgLmxvY2F0aW9uLWluZm8gLm9ic2VydmVyIHsKICAgICAgZm9udC1zdHlsZTogaXRhbGljOwogICAgICBjb2xvcjogIzVhNGEzYTsKICAgICAgZm9udC1zaXplOiAwLjlyZW07CiAgICB9CiAgICAKICAgIC5sb2NhdGlvbi1pbmZvIC5wZXJpb2QgewogICAgICBmb250LXdlaWdodDogNjAwOwogICAgICBjb2xvcjogIzJkNGEzZTsKICAgIH0KICAgIAogICAgLyogTWFpbiBHcmlkICovCiAgICAubWFpbi1ncmlkIHsKICAgICAgZGlzcGxheTogZ3JpZDsKICAgICAgZ3JpZC10ZW1wbGF0ZS1jb2x1bW5zOiAxZnI7CiAgICAgIGdhcDogMnJlbTsKICAgIH0KICAgIAogICAgQG1lZGlhIChtaW4td2lkdGg6IDEwMjRweCkgewogICAgICAubWFpbi1ncmlkIHsKICAgICAgICBncmlkLXRlbXBsYXRlLWNvbHVtbnM6IDFmciAxZnI7CiAgICAgIH0KICAgIH0KICAgIAogICAgLyogQ2FyZHMgKi8KICAgIC5jYXJkIHsKICAgICAgYmFja2dyb3VuZC1jb2xvcjogI2ZmZjsKICAgICAgYm9yZGVyOiAxcHggc29saWQgI2Q0YzRhODsKICAgICAgYm9yZGVyLXJhZGl1czogMC43NXJlbTsKICAgICAgcGFkZGluZzogMS41cmVtOwogICAgICBib3gtc2hhZG93OiAwIDRweCAyMHB4IHJnYmEoMTM5LCAxMTUsIDg1LCAwLjEpOwogICAgfQogICAgCiAgICAuY2FyZCBoMiB7CiAgICAgIGZvbnQtc
+--- script
+
+    function toggleAnalysisBox63() {
+        var box = document.getElementById('analysis-box-63');
+        if (box.classList.contains('visible')) {
+            box.classList.remove('visible');
+        } else {
+            box.classList.add('visible');
+            setTimeout(function() {
+                box.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }, 150);
+        }
+    }
+
+    function toggleFullscreenMixed63(btn) {
+        var container = btn.previousElementSibling;
+        if (container.classList.contains('fullscreen')) {
+            container.classList.remove('fullscreen');
+            btn.innerHTML = '⛶ Vollbild';
+            document.body.style.overflow = '';
+        } else {
+            container.classList.add('fullscreen');
+            btn.innerHTML = '✕ Schließen';
+            document.body.style.overflow = 'hidden';
+        }
+    }
+
+    document.addEventListener('keydown', function(e) {
+        if (e.key === 'Escape') {
+            var fs = document.querySelector('.content-viz-container-63.fullscreen');
+            if (fs) {
+                fs.classList.remove('fullscreen');
+                fs.nextElementSibling.innerHTML = '⛶ Vollbild';
+                document.body.style.overflow = '';
+            }
+            var box = document.getElementById('analysis-box-63');
+            if (box && box.classList.contains('visible')) {
+                box.classList.remove('visible');
+            }
+        }
+    });
+    
+##### PAGE 64 len=44153
+<div class="analysis-box-hidden" id="analysis-box-64">
+<div class="analysis-header-64">
+<strong style="font-size: 1.1em;"><span class="bilingual-de">Meteorologische Auswertung</span><span class="bilingual-en">Meteorological Analysis</span></strong>
+<span class="analysis-close-64" onclick="toggleAnalysisBox64()">×</span>
+</div>
+<div class="analysis-content-64">
+<div class="content-viz-wrap-64">
+<h4 class="content-viz-title-64"><span class="bilingual-de">Grade der Bewölkung in Gera (1783–1792)</span><span class="bilingual-en">Degrees of Cloud Cover in Gera (1783–1792)</span></h4>
+<div class="content-viz-container-64">
+<iframe allowfullscreen="" class="content-viz-iframe-64" frameborder="0" scrolling="auto" src="data:text/html;base64,PCFET0NUWVBFIGh0bWw+CjxodG1sIGxhbmc9ImRlIj4KPGhlYWQ+CiAgPG1ldGEgY2hhcnNldD0iVVRGLTgiPgogIDxtZXRhIG5hbWU9InZpZXdwb3J0IiBjb250ZW50PSJ3aWR0aD1kZXZpY2Utd2lkdGgsIGluaXRpYWwtc2NhbGU9MS4wIj4KICA8dGl0bGU+QmV3w7Zsa3VuZyDigJMgR2VyYTwvdGl0bGU+CiAgPGxpbmsgaHJlZj0iaHR0cHM6Ly9mb250cy5nb29nbGVhcGlzLmNvbS9jc3MyP2ZhbWlseT1Dcmltc29uK1RleHQ6aXRhbCx3Z2h0QDAsNDAwOzAsNjAwOzAsNzAwOzEsNDAwJmRpc3BsYXk9c3dhcCIgcmVsPSJzdHlsZXNoZWV0Ij4KICA8c3R5bGU+CiAgICAqIHsKICAgICAgbWFyZ2luOiAwOwogICAgICBwYWRkaW5nOiAwOwogICAgICBib3gtc2l6aW5nOiBib3JkZXItYm94OwogICAgfQogICAgCiAgICBib2R5IHsKICAgICAgZm9udC1mYW1pbHk6ICdDcmltc29uIFRleHQnLCBHZW9yZ2lhLCBzZXJpZjsKICAgICAgYmFja2dyb3VuZC1jb2xvcjogI2ZhZjZmMDsKICAgICAgbWluLWhlaWdodDogMTAwdmg7CiAgICAgIHBhZGRpbmc6IDEuNXJlbTsKICAgIH0KICAgIAogICAgLmNvbnRhaW5lciB7CiAgICAgIG1heC13aWR0aDogMTIwMHB4OwogICAgICBtYXJnaW46IDAgYXV0bzsKICAgIH0KICAgIAogICAgLyogTGFuZ3VhZ2UgVG9nZ2xlICovCiAgICAubGFuZy10b2dnbGUgewogICAgICBwb3NpdGlvbjogZml4ZWQ7CiAgICAgIHRvcDogMXJlbTsKICAgICAgcmlnaHQ6IDFyZW07CiAgICAgIGRpc3BsYXk6IGZsZXg7CiAgICAgIGdhcDogMC4yNXJlbTsKICAgICAgYmFja2dyb3VuZC1jb2xvcjogI2ZmZjsKICAgICAgcGFkZGluZzogMC4yNXJlbTsKICAgICAgYm9yZGVyLXJhZGl1czogOTk5OXB4OwogICAgICBib3JkZXI6IDFweCBzb2xpZCAjZDRjNGE4OwogICAgICBib3gtc2hhZG93OiAwIDJweCAxMHB4IHJnYmEoMTM5LCAxMTUsIDg1LCAwLjE1KTsKICAgICAgei1pbmRleDogMTAwOwogICAgfQogICAgCiAgICAubGFuZy1idG4gewogICAgICBwYWRkaW5nOiAwLjRyZW0gMC43NXJlbTsKICAgICAgZm9udC1zaXplOiAwLjhyZW07CiAgICAgIGJvcmRlci1yYWRpdXM6IDk5OTlweDsKICAgICAgYm9yZGVyOiBub25lOwogICAgICBiYWNrZ3JvdW5kLWNvbG9yOiB0cmFuc3BhcmVudDsKICAgICAgY29sb3I6ICM1YTRhM2E7CiAgICAgIGZvbnQtZmFtaWx5OiAnQ3JpbXNvbiBUZXh0JywgR2VvcmdpYSwgc2VyaWY7CiAgICAgIGN1cnNvcjogcG9pbnRlcjsKICAgICAgdHJhbnNpdGlvbjogYWxsIDAuMnM7CiAgICAgIGZvbnQtd2VpZ2h0OiA2MDA7CiAgICB9CiAgICAKICAgIC5sYW5nLWJ0bjpob3ZlciB7CiAgICAgIGJhY2tncm91bmQtY29sb3I6ICNmNWYwZTY7CiAgICB9CiAgICAKICAgIC5sYW5nLWJ0bi5hY3RpdmUgewogICAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjMmQ0YTNlOwogICAgICBjb2xvcjogI2ZmZjsKICAgIH0KICAgIAogICAgLyogSGVhZGVyICovCiAgICBoZWFkZXIgewogICAgICB0ZXh0LWFsaWduOiBjZW50ZXI7CiAgICAgIG1hcmdpbi1ib3R0b206IDJyZW07CiAgICAgIHBhZGRpbmctYm90dG9tOiAxLjVyZW07CiAgICAgIGJvcmRlci1ib3R0b206IDJweCBzb2xpZCAjZDRjNGE4OwogICAgfQogICAgCiAgICAuc3VidGl0bGUgewogICAgICBmb250LXNpemU6IDAuNzVyZW07CiAgICAgIHRleHQtdHJhbnNmb3JtOiB1cHBlcmNhc2U7CiAgICAgIGxldHRlci1zcGFjaW5nOiAwLjJlbTsKICAgICAgY29sb3I6ICM4YjczNTU7CiAgICAgIG1hcmdpbi1ib3R0b206IDAuNXJlbTsKICAgIH0KICAgIAogICAgaDEgewogICAgICBmb250LXNpemU6IDIuMnJlbTsKICAgICAgY29sb3I6ICMyZDNhMzM7CiAgICAgIG1hcmdpbi1ib3R0b206IDAuNzVyZW07CiAgICAgIGZvbnQtd2VpZ2h0OiA3MDA7CiAgICB9CiAgICAKICAgIC5kZXNjcmlwdGlvbiB7CiAgICAgIGZvbnQtc2l6ZTogMS4xcmVtOwogICAgICBjb2xvcjogIzVhNGEzYTsKICAgICAgbWF4LXdpZHRoOiA3MDBweDsKICAgICAgbWFyZ2luOiAwIGF1dG87CiAgICB9CiAgICAKICAgIC50YWdzIHsKICAgICAgbWFyZ2luLXRvcDogMXJlbTsKICAgICAgZGlzcGxheTogZmxleDsKICAgICAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7CiAgICAgIGdhcDogMC41cmVtOwogICAgICBmbGV4LXdyYXA6IHdyYXA7CiAgICB9CiAgICAKICAgIC50YWcgewogICAgICBwYWRkaW5nOiAwLjI1cmVtIDAuNzVyZW07CiAgICAgIGZvbnQtc2l6ZTogMC43NXJlbTsKICAgICAgYm9yZGVyLXJhZGl1czogOTk5OXB4OwogICAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjZThkY2M4OwogICAgICBjb2xvcjogIzNkMmUxZjsKICAgIH0KICAgIAogICAgLyogRGF0YSBUb2dnbGUgKi8KICAgIC5kYXRhLXRvZ2dsZSB7CiAgICAgIGRpc3BsYXk6IGZsZXg7CiAgICAgIGp1c3RpZnktY29udGVudDogY2VudGVyOwogICAgICBnYXA6IDAuNXJlbTsKICAgICAgbWFyZ2luLWJvdHRvbTogMS41cmVtOwogICAgfQogICAgCiAgICAudG9nZ2xlLWJ0biB7CiAgICAgIHBhZGRpbmc6IDAuNnJlbSAxLjJyZW07CiAgICAgIGZvbnQtc2l6ZTogMC45NXJlbTsKICAgICAgYm9yZGVyLXJhZGl1czogOTk5OXB4OwogICAgICBib3JkZXI6IDJweCBzb2xpZCAjMmQ0YTNlOwogICAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjZmZmOwogICAgICBjb2xvcjogIzJkNGEzZTsKICAgICAgZm9udC1mYW1pbHk6ICdDcmltc29uIFRleHQnLCBHZW9yZ2lhLCBzZXJpZjsKICAgICAgY3Vyc29yOiBwb2ludGVyOwogICAgICB0cmFuc2l0aW9uOiBhbGwgMC4yczsKICAgICAgZm9udC13ZWlnaHQ6IDYwMDsKICAgIH0KICAgIAogICAgLnRvZ2dsZS1idG46aG92ZXIgewogICAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjZThmNWU5OwogICAgfQogICAgCiAgICAudG9nZ2xlLWJ0bi5hY3RpdmUgewogICAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjMmQ0YTNlOwogICAgICBjb2xvcjogI2ZmZjsKICAgIH0KICAgIAogICAgLyogU291cmNlIEluZm8gKi8KICAgIC5zb3VyY2UtaW5mbyB7CiAgICAgIHRleHQtYWxpZ246IGNlbnRlcjsKICAgICAgbWFyZ2luLWJvdHRvbTogMS41cmVtOwogICAgICBwYWRkaW5nOiAwLjc1cmVtOwogICAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjZjVmMGU2OwogICAgICBib3JkZXItcmFkaXVzOiAwLjVyZW07CiAgICAgIGJvcmRlcjogMXB4IHNvbGlkICNkNGM0YTg7CiAgICB9CiAgICAKICAgIC5zb3VyY2UtaW5mbyAubG9jYXRpb24gewogICAgICBmb250LXdlaWdodDogNjAwOwogICAgICBjb2xvcjogIzJkNGEzZTsKICAgICAgZm9udC1zaXplOiAxLjFyZW07CiAgICB9CiAgICAKICAgIC5zb3VyY2UtaW5mbyAucGVyaW9kIHsKICAgICAgZm9udC1zdHlsZTogaXRhbGljOwogICAgICBjb2xvcjogIzVhNGEzYTsKICAgICAgZm9udC1zaXplOiAwLjlyZW07CiAgICB9CiAgICAKICAgIC8qIE1haW4gR3JpZCAqLwogICAgLm1haW4tZ3JpZCB7CiAgICAgIGRpc3BsYXk6IGdyaWQ7CiAgICAgIGdyaWQtdGVtcGxhdGUtY29sdW1uczogMWZyOwogICAgICBnYXA6IDJyZW07CiAgICB9CiAgICAKICAgIEBtZWRpYSAobWluLXdpZHRoOiAxMDI0cHgpIHsKICAgICAgLm1haW4tZ3JpZCB7CiAgICAgICAgZ3JpZC10ZW1wbGF0ZS1jb2x1bW5zOiAxZnIgMWZyOwogICAgICB9CiAgICB9CiAgICAKICAgIC8qIENhcmRzICovCiAgICAuY2FyZCB7CiAgICAgIGJhY2tncm91bmQtY29sb3I6ICNmZmY7CiAgICAgIGJvcmRlcjogMXB4IHNvbGlkICNkNGM0YTg7CiAgICAgIGJvcmRlci1yYWRpdXM6IDAuNzVyZW07CiAgICAgIHBhZGRpbmc6IDEuNXJlbTsKICAgICAgYm94LXNoYWRvdzogMCA0cHggMjBweCByZ2JhKDEzOSwgMTE1LCA4NSwgMC4xKTsKICAgIH0KICAgIAogICAgLmNhcmQgaDIgewogICAgICBmb250LXNpemU6IDEuMjVyZW07CiAgICAgIGZvbnQtd2VpZ2h0OiA3MDA7CiAgICAgIGNvbG9yOiAjMmQzYTMzOwogICAgICBtYXJ
+--- script
+
+    function toggleAnalysisBox64() {
+        var box = document.getElementById('analysis-box-64');
+        if (box.classList.contains('visible')) {
+            box.classList.remove('visible');
+        } else {
+            box.classList.add('visible');
+            setTimeout(function() {
+                box.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }, 150);
+        }
+    }
+
+    function toggleFullscreen64(btn) {
+        var container = btn.previousElementSibling;
+        if (container.classList.contains('fullscreen')) {
+            container.classList.remove('fullscreen');
+            btn.innerHTML = '⛶ Vollbild';
+            document.body.style.overflow = '';
+        } else {
+            container.classList.add('fullscreen');
+            btn.innerHTML = '✕ Schließen';
+            document.body.style.overflow = 'hidden';
+        }
+    }
+
+    document.addEventListener('keydown', function(e) {
+        if (e.key === 'Escape') {
+            var fs = document.querySelector('.content-viz-container-64.fullscreen');
+            if (fs) {
+                fs.classList.remove('fullscreen');
+                var btn = fs.nextElementSibling;
+                if (btn) btn.innerHTML = '⛶ Vollbild';
+                document.body.style.overflow = '';
+            }
+            var box = document.getElementById('analysis-box-64');
+            if (box && box.classList.contains('visible')) {
+                box.classList.remove('visible');
+            }
+        }
+    });
+    
+##### PAGE 65 len=49423
+<div class="analysis-box-hidden" id="analysis-box-65">
+<div class="analysis-header-65">
+<strong style="font-size: 1.1em;"><span class="bilingual-de">Meteorologische Auswertung</span><span class="bilingual-en">Meteorological Analysis</span></strong>
+<span class="analysis-close-65" onclick="toggleAnalysisBox65()">×</span>
+</div>
+<div class="analysis-content-65">
+<div class="content-viz-wrap-65">
+<h4 class="content-viz-title-65"><span class="bilingual-de">Grade der Bewölkung in Schleiz und Hohenleuben</span><span class="bilingual-en">Degrees of Cloud Cover in Schleiz and Hohenleuben</span></h4>
+<div class="content-viz-container-65">
+<iframe allowfullscreen="" class="content-viz-iframe-65" frameborder="0" scrolling="auto" src="data:text/html;base64,PCFET0NUWVBFIGh0bWw+CjxodG1sIGxhbmc9ImRlIj4KPGhlYWQ+CiAgPG1ldGEgY2hhcnNldD0iVVRGLTgiPgogIDxtZXRhIG5hbWU9InZpZXdwb3J0IiBjb250ZW50PSJ3aWR0aD1kZXZpY2Utd2lkdGgsIGluaXRpYWwtc2NhbGU9MS4wIj4KICA8dGl0bGU+QmV3w7Zsa3VuZyDigJMgSG9oZW5sZXViZW4sIFNjaGxlaXogJiBWZXJnbGVpY2g8L3RpdGxlPgogIDxsaW5rIGhyZWY9Imh0dHBzOi8vZm9udHMuZ29vZ2xlYXBpcy5jb20vY3NzMj9mYW1pbHk9Q3JpbXNvbitUZXh0Oml0YWwsd2dodEAwLDQwMDswLDYwMDswLDcwMDsxLDQwMCZkaXNwbGF5PXN3YXAiIHJlbD0ic3R5bGVzaGVldCI+CiAgPHN0eWxlPgogICAgKiB7CiAgICAgIG1hcmdpbjogMDsKICAgICAgcGFkZGluZzogMDsKICAgICAgYm94LXNpemluZzogYm9yZGVyLWJveDsKICAgIH0KICAgIAogICAgYm9keSB7CiAgICAgIGZvbnQtZmFtaWx5OiAnQ3JpbXNvbiBUZXh0JywgR2VvcmdpYSwgc2VyaWY7CiAgICAgIGJhY2tncm91bmQtY29sb3I6ICNmYWY2ZjA7CiAgICAgIG1pbi1oZWlnaHQ6IDEwMHZoOwogICAgICBwYWRkaW5nOiAxLjVyZW07CiAgICB9CiAgICAKICAgIC5jb250YWluZXIgewogICAgICBtYXgtd2lkdGg6IDEyMDBweDsKICAgICAgbWFyZ2luOiAwIGF1dG87CiAgICB9CiAgICAKICAgIC8qIExhbmd1YWdlIFRvZ2dsZSAqLwogICAgLmxhbmctdG9nZ2xlIHsKICAgICAgcG9zaXRpb246IGZpeGVkOwogICAgICB0b3A6IDFyZW07CiAgICAgIHJpZ2h0OiAxcmVtOwogICAgICBkaXNwbGF5OiBmbGV4OwogICAgICBnYXA6IDAuMjVyZW07CiAgICAgIGJhY2tncm91bmQtY29sb3I6ICNmZmY7CiAgICAgIHBhZGRpbmc6IDAuMjVyZW07CiAgICAgIGJvcmRlci1yYWRpdXM6IDk5OTlweDsKICAgICAgYm9yZGVyOiAxcHggc29saWQgI2Q0YzRhODsKICAgICAgYm94LXNoYWRvdzogMCAycHggMTBweCByZ2JhKDEzOSwgMTE1LCA4NSwgMC4xNSk7CiAgICAgIHotaW5kZXg6IDEwMDsKICAgIH0KICAgIAogICAgLmxhbmctYnRuIHsKICAgICAgcGFkZGluZzogMC40cmVtIDAuNzVyZW07CiAgICAgIGZvbnQtc2l6ZTogMC44cmVtOwogICAgICBib3JkZXItcmFkaXVzOiA5OTk5cHg7CiAgICAgIGJvcmRlcjogbm9uZTsKICAgICAgYmFja2dyb3VuZC1jb2xvcjogdHJhbnNwYXJlbnQ7CiAgICAgIGNvbG9yOiAjNWE0YTNhOwogICAgICBmb250LWZhbWlseTogJ0NyaW1zb24gVGV4dCcsIEdlb3JnaWEsIHNlcmlmOwogICAgICBjdXJzb3I6IHBvaW50ZXI7CiAgICAgIHRyYW5zaXRpb246IGFsbCAwLjJzOwogICAgICBmb250LXdlaWdodDogNjAwOwogICAgfQogICAgCiAgICAubGFuZy1idG46aG92ZXIgewogICAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjZjVmMGU2OwogICAgfQogICAgCiAgICAubGFuZy1idG4uYWN0aXZlIHsKICAgICAgYmFja2dyb3VuZC1jb2xvcjogIzJkNGEzZTsKICAgICAgY29sb3I6ICNmZmY7CiAgICB9CiAgICAKICAgIC8qIEhlYWRlciAqLwogICAgaGVhZGVyIHsKICAgICAgdGV4dC1hbGlnbjogY2VudGVyOwogICAgICBtYXJnaW4tYm90dG9tOiAycmVtOwogICAgICBwYWRkaW5nLWJvdHRvbTogMS41cmVtOwogICAgICBib3JkZXItYm90dG9tOiAycHggc29saWQgI2Q0YzRhODsKICAgIH0KICAgIAogICAgLnN1YnRpdGxlIHsKICAgICAgZm9udC1zaXplOiAwLjc1cmVtOwogICAgICB0ZXh0LXRyYW5zZm9ybTogdXBwZXJjYXNlOwogICAgICBsZXR0ZXItc3BhY2luZzogMC4yZW07CiAgICAgIGNvbG9yOiAjOGI3MzU1OwogICAgICBtYXJnaW4tYm90dG9tOiAwLjVyZW07CiAgICB9CiAgICAKICAgIGgxIHsKICAgICAgZm9udC1zaXplOiAyLjJyZW07CiAgICAgIGNvbG9yOiAjMmQzYTMzOwogICAgICBtYXJnaW4tYm90dG9tOiAwLjc1cmVtOwogICAgICBmb250LXdlaWdodDogNzAwOwogICAgfQogICAgCiAgICAuZGVzY3JpcHRpb24gewogICAgICBmb250LXNpemU6IDEuMDVyZW07CiAgICAgIGNvbG9yOiAjNWE0YTNhOwogICAgICBtYXgtd2lkdGg6IDgwMHB4OwogICAgICBtYXJnaW46IDAgYXV0bzsKICAgICAgbGluZS1oZWlnaHQ6IDEuNjsKICAgIH0KICAgIAogICAgLnRhZ3MgewogICAgICBtYXJnaW4tdG9wOiAxcmVtOwogICAgICBkaXNwbGF5OiBmbGV4OwogICAgICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjsKICAgICAgZ2FwOiAwLjVyZW07CiAgICAgIGZsZXgtd3JhcDogd3JhcDsKICAgIH0KICAgIAogICAgLnRhZyB7CiAgICAgIHBhZGRpbmc6IDAuMjVyZW0gMC43NXJlbTsKICAgICAgZm9udC1zaXplOiAwLjc1cmVtOwogICAgICBib3JkZXItcmFkaXVzOiA5OTk5cHg7CiAgICAgIGJhY2tncm91bmQtY29sb3I6ICNlOGRjYzg7CiAgICAgIGNvbG9yOiAjM2QyZTFmOwogICAgfQogICAgCiAgICAvKiBTZWN0aW9uIEhlYWRlcnMgKi8KICAgIC5zZWN0aW9uLWhlYWRlciB7CiAgICAgIHRleHQtYWxpZ246IGNlbnRlcjsKICAgICAgbWFyZ2luOiAycmVtIDAgMS41cmVtIDA7CiAgICAgIHBhZGRpbmctYm90dG9tOiAwLjc1cmVtOwogICAgICBib3JkZXItYm90dG9tOiAxcHggc29saWQgI2Q0YzRhODsKICAgIH0KICAgIAogICAgLnNlY3Rpb24taGVhZGVyIGgyIHsKICAgICAgZm9udC1zaXplOiAxLjVyZW07CiAgICAgIGNvbG9yOiAjMmQzYTMzOwogICAgICBmb250LXdlaWdodDogNzAwOwogICAgfQogICAgCiAgICAuc2VjdGlvbi1oZWFkZXIgcCB7CiAgICAgIGZvbnQtc2l6ZTogMC45NXJlbTsKICAgICAgY29sb3I6ICM1YTRhM2E7CiAgICAgIG1hcmdpbi10b3A6IDAuNXJlbTsKICAgIH0KICAgIAogICAgLyogTG9jYXRpb24gU2VsZWN0b3IgKi8KICAgIC5sb2NhdGlvbi1zZWxlY3RvciB7CiAgICAgIGRpc3BsYXk6IGZsZXg7CiAgICAgIGp1c3RpZnktY29udGVudDogY2VudGVyOwogICAgICBnYXA6IDAuNXJlbTsKICAgICAgbWFyZ2luLWJvdHRvbTogMS41cmVtOwogICAgICBmbGV4LXdyYXA6IHdyYXA7CiAgICB9CiAgICAKICAgIC5sb2NhdGlvbi1idG4gewogICAgICBwYWRkaW5nOiAwLjZyZW0gMS4ycmVtOwogICAgICBmb250LXNpemU6IDAuOTVyZW07CiAgICAgIGJvcmRlci1yYWRpdXM6IDk5OTlweDsKICAgICAgYm9yZGVyOiAycHggc29saWQgIzJkNGEzZTsKICAgICAgYmFja2dyb3VuZC1jb2xvcjogI2ZmZjsKICAgICAgY29sb3I6ICMyZDRhM2U7CiAgICAgIGZvbnQtZmFtaWx5OiAnQ3JpbXNvbiBUZXh0JywgR2VvcmdpYSwgc2VyaWY7CiAgICAgIGN1cnNvcjogcG9pbnRlcjsKICAgICAgdHJhbnNpdGlvbjogYWxsIDAuMnM7CiAgICAgIGZvbnQtd2VpZ2h0OiA2MDA7CiAgICB9CiAgICAKICAgIC5sb2NhdGlvbi1idG46aG92ZXIgewogICAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjZThmNWU5OwogICAgfQogICAgCiAgICAubG9jYXRpb24tYnRuLmFjdGl2ZSB7CiAgICAgIGJhY2tncm91bmQtY29sb3I6ICMyZDRhM2U7CiAgICAgIGNvbG9yOiAjZmZmOwogICAgfQogICAgCiAgICAvKiBEYXRhIFRvZ2dsZSAqLwogICAgLmRhdGEtdG9nZ2xlIHsKICAgICAgZGlzcGxheTogZmxleDsKICAgICAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7CiAgICAgIGdhcDogMC41cmVtOwogICAgICBtYXJnaW4tYm90dG9tOiAxLjVyZW07CiAgICB9CiAgICAKICAgIC50b2dnbGUtYnRuIHsKICAgICAgcGFkZGluZzogMC41cmVtIDFyZW07CiAgICAgIGZvbnQtc2l6ZTogMC45cmVtOwogICAgICBib3JkZXItcmFkaXVzOiA5OTk5cHg7CiAgICAgIGJvcmRlcjogMXB4IHNvbGlkICNkNGM0YTg7CiAgICAgIGJhY2tncm91bmQtY29sb3I6ICNmNWYwZTY7CiAgICAgIGNvbG9yOiAjM2QyZTFmOwogICAgICBmb250LWZhbWlseTogJ0NyaW1zb24gVGV4dCcsIEdlb3JnaWEsIHNlcmlmOwogICAgICBjdXJzb3I6IHBvaW50ZXI7CiAgICAgIHRyYW5zaXRpb246IGFsbCAwLjJzOwogICAgICBmb250LXdlaWdodDogNjAwOwogICAgfQogICAgC
+--- script
+
+    function toggleAnalysisBox65() {
+        var box = document.getElementById('analysis-box-65');
+        if (box.classList.contains('visible')) {
+            box.classList.remove('visible');
+        } else {
+            box.classList.add('visible');
+            setTimeout(function() {
+                box.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }, 150);
+        }
+    }
+
+    function toggleFullscreen65(btn) {
+        var container = btn.previousElementSibling;
+        if (container.classList.contains('fullscreen')) {
+            container.classList.remove('fullscreen');
+            btn.innerHTML = '⛶ Vollbild';
+            document.body.style.overflow = '';
+        } else {
+            container.classList.add('fullscreen');
+            btn.innerHTML = '✕ Schließen';
+            document.body.style.overflow = 'hidden';
+        }
+    }
+
+    document.addEventListener('keydown', function(e) {
+        if (e.key === 'Escape') {
+            var fs = document.querySelector('.content-viz-container-65.fullscreen');
+            if (fs) {
+                fs.classList.remove('fullscreen');
+                var btn = fs.nextElementSibling;
+                if (btn) btn.innerHTML = '⛶ Vollbild';
+                document.body.style.overflow = '';
+            }
+            var box = document.getElementById('analysis-box-65');
+            if (box && box.classList.contains('visible')) {
+                box.classList.remove('visible');
+            }
+        }
+    });
+    

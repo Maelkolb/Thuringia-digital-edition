@@ -1,0 +1,202 @@
+{
+ "seq": 844,
+ "label": "832",
+ "slug": "832",
+ "iiif": {
+  "service": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb11005578_00844",
+  "canvas": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11005578/canvas/844",
+  "width": 1561,
+  "height": 2689
+ },
+ "kind": "text",
+ "running_header": null,
+ "signature": null,
+ "blocks": [
+  {
+   "id": "b1",
+   "type": "heading",
+   "src": 0,
+   "text": "II. Flächenmaße.",
+   "spans": [],
+   "sec": "berichtigungen",
+   "level": 4
+  },
+  {
+   "id": "b2",
+   "type": "paragraph",
+   "src": 1,
+   "text": "1 sächsische Quadratelle (Baumaß) = 0,319576 Quadratmeter.\n1 preuß. Quadratruthe = 14,184579 \"\n1 preuß. Morgen (180 Quadratruthen) = 0,255322 Hectaren.",
+   "spans": [],
+   "sec": "berichtigungen"
+  },
+  {
+   "id": "b3",
+   "type": "heading",
+   "src": 2,
+   "text": "III. Körpermaße.",
+   "spans": [],
+   "sec": "berichtigungen",
+   "level": 4
+  },
+  {
+   "id": "b4",
+   "type": "paragraph",
+   "src": 3,
+   "text": "a) in Gera:\n1 Kanne (5/6 preuß. Quart) = 0,9542 Liter.\n1 Eimer (72 Kannen) = 0,6870 Hectoliter.\n1 dresdner Scheffel = 1,0383 \"\nb) in Schleiz und Tanna:\n1 Kanne (3/4 preuß. Quart) = 0,8588 Liter.\n1 Eimer (72 Kannen) = 0,6183 Hectoliter.\n1 Viertel Getreidemaß (56 Kannen) = 0,4809 \"\n1 Scheffel (4 Viertel oder 224 K.) = 1,4237 \"\nc) in Lobenstein:\n1 Kanne (32/41 preuß. Quart) = 0,8937 Liter.\n1 Eimer (72 Kannen) = 0,6435 Hectoliter.\n1 Achtel Kornmaß (28 Kannen) = 0,2502 \"\n1 Achtel Hafermaß (34 Kannen) = 0,3039 \"\nd) in Hirschberg:\n1 Kanne (1 preuß. Quart) = 1,1450 Liter.\n1 Eimer (64 Kannen) = 0,7328 Hectoliter.\n1 Achtel Getreidemaß (24 Kannen) = 0,2748 \"",
+   "spans": [
+    [
+     6,
+     10,
+     "Location"
+    ],
+    [
+     133,
+     140,
+     "Location"
+    ],
+    [
+     145,
+     150,
+     "Location"
+    ],
+    [
+     333,
+     343,
+     "Location"
+    ],
+    [
+     518,
+     528,
+     "Location"
+    ]
+   ],
+   "sec": "berichtigungen"
+  },
+  {
+   "id": "b5",
+   "type": "heading",
+   "src": 4,
+   "text": "IV. Gewichte.",
+   "spans": [],
+   "sec": "berichtigungen",
+   "level": 4
+  },
+  {
+   "id": "b6",
+   "type": "paragraph",
+   "src": 5,
+   "text": "1 Pfund (Zollpfund) = 0,5 Kilogramm.",
+   "spans": [],
+   "sec": "berichtigungen"
+  },
+  {
+   "id": "b7",
+   "type": "heading",
+   "src": 6,
+   "text": "V. Holzmaße.",
+   "spans": [
+    [
+     3,
+     7,
+     "Resource"
+    ]
+   ],
+   "sec": "berichtigungen",
+   "level": 4
+  },
+  {
+   "id": "b8",
+   "type": "paragraph",
+   "src": 7,
+   "text": "a) im Landestheil Gera:\n(Leipz. Maß, den Fuß = 125,3 par. Linien.)\n1 leipziger Kubikfuß = 0,022582 Kubikmeter.\n1 Klafter, 6 Fuß weit, 6 Fuß hoch, 3 1/2 Fuß Scheitlänge (126 Kubikfuß) = 2,8454 Kubikmeter.\n1 Klafter, 6 Fuß weit, 6 Fuß hoch, 2 1/2 Fuß Scheitlänge (90 Kubikfuß) = 2,0324 Kubikmeter.\n1 Klafter, 6 Fuß weit, 6 Fuß hoch, 2 Fuß Scheitlänge (72 Kubikfuß) = 1,6259 Kubikmeter.\nb) im Landestheil Schleiz (leipziger Maß, wie bei Gera):\n1 Klafter, 6 1/4 Fuß weit, 6 1/4 Fuß hoch, 3 1/2 Fuß Scheitlänge (136 23/32 Kubikfuß) = 3,0874 Kubikmeter.\n1 Klafter, 6 Fuß weit, 6 1/2 Fuß hoch, 3 1/2 Fuß Scheitlänge (136 1/2 Kubikfuß) = 3,0825 Kubikmeter.\n1 Klafter, 6 Fuß weit, 6 Fuß hoch, 3 Fuß Scheitlänge (108 Kubikfuß) = 2,4389 Kubikmeter.\nc) im Landestheil Lobenstein-Ebersdorf (nürnberger Maß, den Fuß zu 134,775 par. Linien):\n1 Klafter, 6 Fuß weit, 6 Fuß hoch, 3 1/2 Fuß Scheitlänge (126 nürnberger Kubikellen) = 3,5390 Kubikmeter.",
+   "spans": [
+    [
+     18,
+     22,
+     "Location"
+    ],
+    [
+     402,
+     409,
+     "Location"
+    ],
+    [
+     434,
+     438,
+     "Location"
+    ],
+    [
+     756,
+     776,
+     "Location"
+    ]
+   ],
+   "sec": "berichtigungen"
+  },
+  {
+   "id": "b9",
+   "type": "heading",
+   "src": 8,
+   "text": "VI. Bruchsteinmaße.",
+   "spans": [],
+   "sec": "berichtigungen",
+   "level": 4
+  },
+  {
+   "id": "b10",
+   "type": "paragraph",
+   "src": 9,
+   "text": "a) im Landestheil Gera:\n1 Ruthe (8 Ellen lang, 8 Ellen breit, 1 1/2 Elle hoch oder 96 leipz. Kubikellen) = 17,3434 Kubikmeter.\nb) im Landestheil Schleiz:\n1 Schachtruthe (6 Ellen lang, 3 Ellen breit, 1 1/2 Elle hoch oder 27 leipz. Kubikellen) = 4,8778 Kubikmeter.\nc) im Landestheil Lobenstein-Ebersdorf:\ndie geraische Ruthe gilt beim Chausseebau,\ndie schleizer Schachtruthe auch im Privatverkehr.",
+   "spans": [
+    [
+     18,
+     22,
+     "Location"
+    ],
+    [
+     145,
+     152,
+     "Location"
+    ],
+    [
+     281,
+     301,
+     "Location"
+    ]
+   ],
+   "sec": "berichtigungen"
+  },
+  {
+   "id": "b11",
+   "type": "heading",
+   "src": 10,
+   "text": "VII. Entfernungsmaße.",
+   "spans": [],
+   "sec": "berichtigungen",
+   "level": 4
+  },
+  {
+   "id": "b12",
+   "type": "paragraph",
+   "src": 11,
+   "text": "1 preuß. Meile (2000 preuß. Ruthen) = 1,0043 künftige Meile (zu 7500 Metern).\n1 geographische Meile = 0,9894 künftige Meile.",
+   "spans": [],
+   "sec": "berichtigungen"
+  }
+ ],
+ "footnotes": [],
+ "corrections": [],
+ "provenance": {
+  "source": "colab-2026-03",
+  "model": "gemini-3-flash-preview",
+  "timestamp": "2026-03-04T21:47:59.099756",
+  "early_schema": false
+ },
+ "section_path": [
+  "back",
+  "berichtigungen"
+ ],
+ "sections": [
+  "berichtigungen"
+ ]
+}

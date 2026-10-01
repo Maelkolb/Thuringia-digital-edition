@@ -1,0 +1,698 @@
+{
+ "id": "gewaesser-heilquellen-lobenstein-analyse",
+ "title": {
+  "de": "Chemische Analyse der Eisenquellen von Lobenstein (1868)",
+  "en": "Chemical analysis of the iron springs at Lobenstein (1868)"
+ },
+ "category": "hydrology",
+ "section": "t1-1-6",
+ "sources": [
+  {
+   "page": "44",
+   "block": "b1",
+   "note": "Einleitungssatz zur Analyse; die Tabelle folgt im Druck unmittelbar danach, fehlt aber in der Textübertragung"
+  }
+ ],
+ "summary": {
+  "de": "Für die 1868 eröffnete Badeanstalt in Lobenstein druckt Brückner die Analyse des Jenaer Professors Reichardt für die »Neue Quelle« (wohl die neue Trinkquelle am Siechenberg) und die »Agnesquelle«: 14 Bestandteile in 10 000 Teilen Wasser, dazu Kohlensäure, Temperatur und spezifisches Gewicht. Die Auswertung stellt beide Quellen gegenüber und zeigt, aus welchen Stoffen sich die Mineralisierung zusammensetzt.",
+  "en": "For the spa opened at Lobenstein in 1868 Brückner prints the analysis by Professor Reichardt of Jena for the “Neue Quelle” (probably the new drinking spring at the Siechenberg) and the “Agnesquelle”: 14 constituents in 10,000 parts of water, plus carbonic acid, temperature and specific gravity. The analysis compares the two springs and shows what the mineralisation consists of."
+ },
+ "method": {
+  "de": "Die Tabelle auf S. 44 fehlt in der Textübertragung. Alle Werte wurden deshalb direkt am Faksimile abgelesen (Ausschnitte mit 1400 px Breite) und durch die gedruckten Summen geprüft: Die 14 Einzelwerte jeder Spalte ergeben genau 2,5232 bzw. 1,0082. Die Bestandteile stehen so da, wie Reichardt sie nennt (hypothetische Salze, z. B. »zweifach kohlensaurer Kalk« = Calciumhydrogencarbonat); die Gruppierung (Natrium/Kalium, Kalk/Magnesia, Eisen/Mangan, übrige) und die englischen Namen sind editorisch. Striche (—) im Druck bedeuten »nicht gefunden« und erscheinen im Datensatz nicht als Zeile.",
+  "en": "The table on p. 44 is missing from the text transcription. All values were therefore read directly from the facsimile (crops at 1400 px width) and checked against the printed totals: the 14 individual values of each column add up exactly to 2.5232 and 1.0082. The constituents are given as Reichardt names them (hypothetical salts, e.g. “zweifach kohlensaurer Kalk” = calcium bicarbonate); the grouping (sodium/potassium, lime/magnesia, iron/manganese, other) and the English names are editorial. Dashes (—) in the print mean “not found” and do not appear as rows in the dataset."
+ },
+ "findings": [
+  {
+   "de": "Die Neue Quelle enthält 2,5232 Teile feste Bestandteile in 10 000 Teilen Wasser, die Agnesquelle 1,0082, also nur etwa 40 % davon; die Neue Quelle ist 2,5-mal so stark mineralisiert. In Prozent sind das 0,025 % bzw. 0,010 % feste Stoffe – beide Wässer sind in absoluten Zahlen schwach mineralisiert.",
+   "en": "The Neue Quelle contains 2.5232 parts of solids in 10,000 parts of water, the Agnesquelle 1.0082, i.e. only about 40 % of that; the Neue Quelle is 2.5 times as strongly mineralised. In percent that is 0.025 % and 0.010 % solids – both waters are weakly mineralised in absolute terms."
+  },
+  {
+   "de": "Der Eisengehalt (zweifach kohlensaures Eisenoxydul) beträgt 0,5698 bzw. 0,4148 Teile. In der Agnesquelle ist Eisen der größte Einzelbestandteil (41 % der festen Stoffe), in der Neuen Quelle der zweitgrößte hinter dem Kalk (0,8061; Eisen: 23 %). Brückner nennt die neue Trinkquelle »eine der stärksten Eisenquellen Deutschlands«; ein Vergleich mit anderen Quellen ist aus seinem Text nicht möglich.",
+   "en": "The iron content (iron(II) bicarbonate) is 0.5698 and 0.4148 parts respectively. In the Agnesquelle iron is the largest single constituent (41 % of the solids), in the Neue Quelle the second largest after lime (0.8061; iron: 23 %). Brückner calls the new drinking spring “one of the strongest iron springs in Germany”; a comparison with other springs is not possible from his text."
+  },
+  {
+   "de": "Alkalisalze (Natrium- und Kaliumverbindungen) machen in der Neuen Quelle 20 % der festen Stoffe aus (0,5065), in der Agnesquelle 14 % (0,1451).",
+   "en": "Alkali salts (sodium and potassium compounds) make up 20 % of the solids in the Neue Quelle (0.5065) and 14 % in the Agnesquelle (0.1451)."
+  },
+  {
+   "de": "Die gedruckten Summen (2,5232 und 1,0082) stimmen exakt mit der Summe der abgelesenen Einzelwerte überein; das bestätigt die Lesung der Tabelle am Faksimile.",
+   "en": "The printed totals (2.5232 and 1.0082) agree exactly with the sum of the individual values read from the table; this confirms the reading from the facsimile."
+  }
+ ],
+ "caveats": [
+  {
+   "de": "Die Tabelle ist in der Textübertragung nicht vorhanden; die Zahlenspalten sind daher als »derived« markiert, obwohl es gedruckte Werte sind. Sobald der Tabellenblock in die Seitendaten aufgenommen ist, kann die Markierung entfallen.",
+   "en": "The table is not present in the text transcription; the numeric columns are therefore marked “derived” although they are printed values. Once the table block is added to the page data the flag can be dropped."
+  },
+  {
+   "de": "Die Bezugsmenge der freien Kohlensäure (»C. C.«, vermutlich Kubikzentimeter) ist im Druck nicht angegeben; die Zeile wird nur im Datensatz geführt, nicht gezeichnet.",
+   "en": "The reference quantity of the free carbonic acid (“C. C.”, presumably cubic centimetres) is not stated in the print; the row is given in the dataset only and not plotted."
+  },
+  {
+   "de": "Die Salze sind rechnerische Kombinationen der damals nachgewiesenen Ionen, keine tatsächlich gelösten Verbindungen; ein Vergleich mit heutigen Mineralwasseranalysen erfordert eine Umrechnung, die hier nicht vorgenommen wird.",
+   "en": "The salts are computed combinations of the ions detected at the time, not compounds actually in solution; comparison with modern mineral-water analyses requires a conversion that is not attempted here."
+  }
+ ],
+ "datasets": [
+  {
+   "name": "composition",
+   "title": {
+    "de": "Bestandteile der beiden Quellen",
+    "en": "Constituents of the two springs"
+   },
+   "columns": [
+    {
+     "name": "order",
+     "label": {
+      "de": "Zeile in Brückners Tabelle",
+      "en": "Row in Brückner's table"
+     },
+     "type": "integer",
+     "unit": null,
+     "derived": true
+    },
+    {
+     "name": "constituent",
+     "label": {
+      "de": "Bestandteil (wie gedruckt)",
+      "en": "Constituent (as printed)"
+     },
+     "type": "string",
+     "unit": null,
+     "note": "Anführungszeichen der Tabelle (=) sind zu »Zweifach« bzw. »Unlösliche« aufgelöst; »Maganoxydul« steht so im Druck."
+    },
+    {
+     "name": "constituent_en",
+     "label": {
+      "de": "Bestandteil (englisch, modern)",
+      "en": "Constituent (English, modern)"
+     },
+     "type": "string",
+     "unit": null,
+     "derived": true
+    },
+    {
+     "name": "group",
+     "label": {
+      "de": "Stoffgruppe",
+      "en": "Group"
+     },
+     "type": "string",
+     "unit": null,
+     "derived": true,
+     "note": "alkali = Natrium-/Kaliumverbindungen, earth = Kalk- und Magnesiumverbindungen, iron = Eisen und Mangan, other = übrige; editorisch"
+    },
+    {
+     "name": "spring",
+     "label": {
+      "de": "Quelle",
+      "en": "Spring"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "parts_per_10000",
+     "label": {
+      "de": "Gehalt",
+      "en": "Content"
+     },
+     "type": "number",
+     "unit": "Teile in 10 000 Teilen Wasser",
+     "derived": true,
+     "note": "Wert am Faksimile S. 44 abgelesen: Die Tabelle fehlt in der Textübertragung (data/pages), daher als »derived« gekennzeichnet; die Summen stimmen mit den gedruckten Summen überein."
+    },
+    {
+     "name": "share_pct",
+     "label": {
+      "de": "Anteil an den festen Bestandteilen",
+      "en": "Share of the solids"
+     },
+     "type": "number",
+     "unit": "%",
+     "derived": true,
+     "note": "Wert / gedruckte Summe der festen Bestandteile"
+    }
+   ],
+   "rows": [
+    [
+     1,
+     "Chlornatrium",
+     "sodium chloride",
+     "alkali",
+     "Neue Quelle",
+     0.1897,
+     7.5
+    ],
+    [
+     1,
+     "Chlornatrium",
+     "sodium chloride",
+     "alkali",
+     "Agnesquelle",
+     0.0311,
+     3.1
+    ],
+    [
+     2,
+     "Schwefelsaures Natron",
+     "sodium sulphate",
+     "alkali",
+     "Neue Quelle",
+     0.1618,
+     6.4
+    ],
+    [
+     2,
+     "Schwefelsaures Natron",
+     "sodium sulphate",
+     "alkali",
+     "Agnesquelle",
+     0.0619,
+     6.1
+    ],
+    [
+     3,
+     "Schwefelsaures Kali",
+     "potassium sulphate",
+     "alkali",
+     "Agnesquelle",
+     0.0521,
+     5.2
+    ],
+    [
+     4,
+     "Natron, an organische Säuren gebunden",
+     "sodium bound to organic acids",
+     "alkali",
+     "Neue Quelle",
+     0.0297,
+     1.2
+    ],
+    [
+     5,
+     "Kali, an organische Säuren gebunden",
+     "potassium bound to organic acids",
+     "alkali",
+     "Neue Quelle",
+     0.1253,
+     5.0
+    ],
+    [
+     6,
+     "Zweifach kohlensaurer Kalk",
+     "calcium bicarbonate",
+     "earth",
+     "Neue Quelle",
+     0.8061,
+     31.9
+    ],
+    [
+     6,
+     "Zweifach kohlensaurer Kalk",
+     "calcium bicarbonate",
+     "earth",
+     "Agnesquelle",
+     0.1244,
+     12.3
+    ],
+    [
+     7,
+     "Zweifach kohlensaure Magnesia",
+     "magnesium bicarbonate",
+     "earth",
+     "Neue Quelle",
+     0.2807,
+     11.1
+    ],
+    [
+     7,
+     "Zweifach kohlensaure Magnesia",
+     "magnesium bicarbonate",
+     "earth",
+     "Agnesquelle",
+     0.1307,
+     13.0
+    ],
+    [
+     8,
+     "Zweifach kohlensaures Maganoxydul",
+     "manganese(II) bicarbonate",
+     "iron",
+     "Neue Quelle",
+     0.1377,
+     5.5
+    ],
+    [
+     8,
+     "Zweifach kohlensaures Maganoxydul",
+     "manganese(II) bicarbonate",
+     "iron",
+     "Agnesquelle",
+     0.078,
+     7.7
+    ],
+    [
+     9,
+     "Zweifach kohlensaures Eisenoxydul",
+     "iron(II) bicarbonate",
+     "iron",
+     "Neue Quelle",
+     0.5698,
+     22.6
+    ],
+    [
+     9,
+     "Zweifach kohlensaures Eisenoxydul",
+     "iron(II) bicarbonate",
+     "iron",
+     "Agnesquelle",
+     0.4148,
+     41.1
+    ],
+    [
+     10,
+     "Schwefelsaurer Kalk",
+     "calcium sulphate",
+     "earth",
+     "Neue Quelle",
+     0.0039,
+     0.2
+    ],
+    [
+     10,
+     "Schwefelsaurer Kalk",
+     "calcium sulphate",
+     "earth",
+     "Agnesquelle",
+     0.0422,
+     4.2
+    ],
+    [
+     11,
+     "Thonerde",
+     "alumina",
+     "other",
+     "Neue Quelle",
+     0.0397,
+     1.6
+    ],
+    [
+     11,
+     "Thonerde",
+     "alumina",
+     "other",
+     "Agnesquelle",
+     0.0122,
+     1.2
+    ],
+    [
+     12,
+     "Lösliche Kieselsäure",
+     "soluble silica",
+     "other",
+     "Neue Quelle",
+     0.1259,
+     5.0
+    ],
+    [
+     12,
+     "Lösliche Kieselsäure",
+     "soluble silica",
+     "other",
+     "Agnesquelle",
+     0.0061,
+     0.6
+    ],
+    [
+     13,
+     "Unlösliche organische Substanz",
+     "insoluble organic matter",
+     "other",
+     "Neue Quelle",
+     0.0331,
+     1.3
+    ],
+    [
+     13,
+     "Unlösliche organische Substanz",
+     "insoluble organic matter",
+     "other",
+     "Agnesquelle",
+     0.0243,
+     2.4
+    ],
+    [
+     14,
+     "Unlösliche aufgeschwemmte Theile",
+     "insoluble suspended matter",
+     "other",
+     "Neue Quelle",
+     0.0198,
+     0.8
+    ],
+    [
+     14,
+     "Unlösliche aufgeschwemmte Theile",
+     "insoluble suspended matter",
+     "other",
+     "Agnesquelle",
+     0.0304,
+     3.0
+    ]
+   ],
+   "source_refs": [
+    {
+     "page": "44",
+     "block": "b1",
+     "note": "Einleitungssatz zur Analyse; die Tabelle folgt im Druck unmittelbar danach, fehlt aber in der Textübertragung"
+    }
+   ]
+  },
+  {
+   "name": "properties",
+   "title": {
+    "de": "Summe, Kohlensäure, Temperatur und spezifisches Gewicht",
+    "en": "Total, carbonic acid, temperature and specific gravity"
+   },
+   "columns": [
+    {
+     "name": "spring",
+     "label": {
+      "de": "Quelle",
+      "en": "Spring"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "solids_total",
+     "label": {
+      "de": "Summa der festen Bestandteile",
+      "en": "Total of solids"
+     },
+     "type": "number",
+     "unit": "Teile in 10 000 Teilen Wasser",
+     "derived": true,
+     "note": "Wert am Faksimile S. 44 abgelesen: Die Tabelle fehlt in der Textübertragung (data/pages), daher als »derived« gekennzeichnet; die Summen stimmen mit den gedruckten Summen überein."
+    },
+    {
+     "name": "free_co2_cc",
+     "label": {
+      "de": "Menge der freien Kohlensäure",
+      "en": "Amount of free carbonic acid"
+     },
+     "type": "number",
+     "unit": "C. C.",
+     "derived": true,
+     "note": "Bezugsmenge im Druck nicht angegeben. Wert am Faksimile S. 44 abgelesen: Die Tabelle fehlt in der Textübertragung (data/pages), daher als »derived« gekennzeichnet; die Summen stimmen mit den gedruckten Summen überein."
+    },
+    {
+     "name": "temperature_r",
+     "label": {
+      "de": "Temperatur",
+      "en": "Temperature"
+     },
+     "type": "number",
+     "unit": "°R",
+     "derived": true,
+     "note": "Gedruckt »9½° R.« bzw. »9° R.« (Bruch als Dezimalzahl). Wert am Faksimile S. 44 abgelesen: Die Tabelle fehlt in der Textübertragung (data/pages), daher als »derived« gekennzeichnet; die Summen stimmen mit den gedruckten Summen überein."
+    },
+    {
+     "name": "temperature_c",
+     "label": {
+      "de": "Temperatur",
+      "en": "Temperature"
+     },
+     "type": "number",
+     "unit": "°C",
+     "derived": true,
+     "note": "Von Reichardt in °C angegeben (9,5 × 1,25 = 11,9; 9 × 1,25 = 11,25). Wert am Faksimile S. 44 abgelesen: Die Tabelle fehlt in der Textübertragung (data/pages), daher als »derived« gekennzeichnet; die Summen stimmen mit den gedruckten Summen überein."
+    },
+    {
+     "name": "specific_gravity",
+     "label": {
+      "de": "Spezifisches Gewicht",
+      "en": "Specific gravity"
+     },
+     "type": "number",
+     "unit": null,
+     "derived": true,
+     "note": "Wert am Faksimile S. 44 abgelesen: Die Tabelle fehlt in der Textübertragung (data/pages), daher als »derived« gekennzeichnet; die Summen stimmen mit den gedruckten Summen überein."
+    }
+   ],
+   "rows": [
+    [
+     "Neue Quelle",
+     2.5232,
+     336.93,
+     9.5,
+     11.9,
+     1.00033
+    ],
+    [
+     "Agnesquelle",
+     1.0082,
+     235.0,
+     9.0,
+     11.25,
+     1.0002
+    ]
+   ],
+   "source_refs": [
+    {
+     "page": "44",
+     "block": "b1",
+     "note": "Einleitungssatz zur Analyse; die Tabelle folgt im Druck unmittelbar danach, fehlt aber in der Textübertragung"
+    }
+   ]
+  }
+ ],
+ "charts": [
+  {
+   "id": "c1",
+   "dataset": "composition",
+   "title": {
+    "de": "Bestandteile der Neuen Quelle und der Agnesquelle",
+    "en": "Constituents of the Neue Quelle and the Agnesquelle"
+   },
+   "caption": {
+    "de": "Analyse von Prof. Dr. Reichardt, Jena, in Teilen auf 10 000 Teile Wasser; Reihenfolge wie in Brückners Tabelle. Fehlende Balken: im Druck »—« (nicht gefunden).",
+    "en": "Analysis by Prof. Dr. Reichardt, Jena, in parts per 10,000 parts of water; order as in Brückner's table. Missing bars: printed “—” (not found)."
+   },
+   "vegalite": {
+    "height": 420,
+    "transform": [
+     {
+      "calculate": {
+       "de": "datum.constituent",
+       "en": "datum.constituent_en"
+      },
+      "as": "constituent_l"
+     }
+    ],
+    "mark": "bar",
+    "encoding": {
+     "y": {
+      "field": "constituent_l",
+      "type": "nominal",
+      "title": null,
+      "sort": {
+       "field": "order",
+       "op": "min"
+      },
+      "axis": {
+       "labelLimit": 340
+      }
+     },
+     "yOffset": {
+      "field": "spring",
+      "type": "nominal",
+      "sort": [
+       "Neue Quelle",
+       "Agnesquelle"
+      ]
+     },
+     "x": {
+      "field": "parts_per_10000",
+      "type": "quantitative",
+      "title": {
+       "de": "Teile in 10 000 Teilen Wasser",
+       "en": "Parts in 10,000 parts of water"
+      }
+     },
+     "color": {
+      "field": "spring",
+      "type": "nominal",
+      "title": null,
+      "sort": [
+       "Neue Quelle",
+       "Agnesquelle"
+      ]
+     },
+     "tooltip": [
+      {
+       "field": "constituent",
+       "title": {
+        "de": "Bestandteil (gedruckt)",
+        "en": "Constituent (as printed)"
+       }
+      },
+      {
+       "field": "constituent_en",
+       "title": {
+        "de": "Modern",
+        "en": "Modern"
+       }
+      },
+      {
+       "field": "spring",
+       "title": {
+        "de": "Quelle",
+        "en": "Spring"
+       }
+      },
+      {
+       "field": "parts_per_10000",
+       "title": {
+        "de": "Teile in 10 000",
+        "en": "Parts in 10,000"
+       }
+      },
+      {
+       "field": "share_pct",
+       "title": {
+        "de": "Anteil an festen Stoffen (%)",
+        "en": "Share of solids (%)"
+       }
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "c2",
+   "dataset": "composition",
+   "title": {
+    "de": "Zusammensetzung der festen Bestandteile nach Stoffgruppe",
+    "en": "Composition of the solids by group of substances"
+   },
+   "caption": {
+    "de": "Summe der Einzelwerte je Quelle, nach Stoffgruppen gestapelt. Die Gesamtlängen entsprechen den gedruckten Summen 2,5232 und 1,0082.",
+    "en": "Sum of the individual values per spring, stacked by group. The total lengths correspond to the printed totals 2.5232 and 1.0082."
+   },
+   "vegalite": {
+    "height": 170,
+    "transform": [
+     {
+      "calculate": {
+       "de": "datum.group == 'alkali' ? 'Natrium/Kalium' : datum.group == 'earth' ? 'Kalk/Magnesia' : datum.group == 'iron' ? 'Eisen/Mangan' : 'übrige'",
+       "en": "datum.group == 'alkali' ? 'Sodium/potassium' : datum.group == 'earth' ? 'Lime/magnesia' : datum.group == 'iron' ? 'Iron/manganese' : 'other'"
+      },
+      "as": "group_l"
+     },
+     {
+      "calculate": "indexof(['alkali','earth','iron','other'], datum.group)",
+      "as": "group_order"
+     }
+    ],
+    "mark": "bar",
+    "encoding": {
+     "y": {
+      "field": "spring",
+      "type": "nominal",
+      "title": null,
+      "sort": [
+       "Neue Quelle",
+       "Agnesquelle"
+      ]
+     },
+     "x": {
+      "field": "parts_per_10000",
+      "aggregate": "sum",
+      "type": "quantitative",
+      "title": {
+       "de": "Feste Bestandteile in Teilen je 10 000 Teile Wasser",
+       "en": "Solids in parts per 10,000 parts of water"
+      }
+     },
+     "color": {
+      "field": "group_l",
+      "type": "nominal",
+      "title": null,
+      "sort": {
+       "field": "group_order",
+       "op": "min"
+      }
+     },
+     "order": {
+      "field": "group_order",
+      "type": "quantitative"
+     },
+     "tooltip": [
+      {
+       "field": "spring",
+       "title": {
+        "de": "Quelle",
+        "en": "Spring"
+       }
+      },
+      {
+       "field": "group_l",
+       "title": {
+        "de": "Stoffgruppe",
+        "en": "Group"
+       }
+      },
+      {
+       "field": "parts_per_10000",
+       "aggregate": "sum",
+       "type": "quantitative",
+       "title": {
+        "de": "Teile in 10 000",
+        "en": "Parts in 10,000"
+       }
+      }
+     ]
+    }
+   }
+  }
+ ],
+ "transcription_issues": [
+  {
+   "page": "44",
+   "block": "b1",
+   "cell": "table",
+   "transcribed": "(Tabelle fehlt; der Text endet mit »in 10,000 Theilen:« und es folgt unmittelbar der nächste Absatz b2)",
+   "facsimile": "Tabelle mit 14 Zeilen Bestandteilen, den Zeilen »Summa der festen Bestandtheile«, »Menge der freien Kohlensäure«, »Temperatur« und »Specifisches Gewicht« in den Spalten »Neue Quelle« und »Agnesquelle«",
+   "checked_facsimile": true,
+   "note": "Alle Zahlen am Faksimile abgelesen und gegen die gedruckten Summen geprüft; der fehlende Tabellenblock sollte in data/pages/0056.json ergänzt werden."
+  }
+ ],
+ "keywords": {
+  "de": [
+   "Lobenstein",
+   "Eisenquelle",
+   "Mineralquelle",
+   "Heilquelle",
+   "Quellanalyse",
+   "Reichardt",
+   "Agnesquelle",
+   "Badeanstalt",
+   "Kohlensäure"
+  ],
+  "en": [
+   "Lobenstein",
+   "iron spring",
+   "mineral spring",
+   "spa",
+   "water analysis",
+   "Reichardt",
+   "Agnesquelle",
+   "bathing establishment",
+   "carbonic acid"
+  ]
+ },
+ "generated_by": "Claude Sonnet 5.5 (subagent A02)",
+ "date": "2026-10-01"
+}

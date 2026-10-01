@@ -1,0 +1,68 @@
+{
+  "page_number": "III",
+  "seq": 7,
+  "image_filename": "bsb11005578_seq_007.jpg",
+  "structure": {
+    "page_number_printed": null,
+    "header": null,
+    "content_blocks": [
+      {
+        "block_type": "heading",
+        "block_index": 0,
+        "content": "Vorwort."
+      },
+      {
+        "block_type": "paragraph",
+        "block_index": 1,
+        "content": "Die hier vorliegende Landes- und Volkskunde des Fürstenthums Reuß j. L. hat Se. Durchlaucht den regierenden Fürsten Heinrich XIV. zu ihrem Urheber, Plangeber und Förderer. Von diesem hohen Kenner des Landes war der Unterzeichnete beauftragt, das Fürstenthum nach allen seinen natürlichen, staatlichen und bürgerlichen Verhältnissen und Entwicklungen zu erforschen und die gewonnenen Anschauungen und Forschungsresultate zu einem Gesammtbilde zu verarbeiten, dies Alles nicht allein im Interesse der Wissenschaft, sondern auch und namentlich zum Besten des Landes, damit hier einerseits erkannt werde, wie das Heute beschaffen sei und wie sich dasselbe aus dem Gestern gestaltet habe, und andererseits damit die alte Liebe zur Heimath sich frisch erhalte."
+      },
+      {
+        "block_type": "paragraph",
+        "block_index": 2,
+        "content": "Indem nun der Unterzeichnete die ihm angetragene Arbeit übernahm und ausführte, suchte er die Schwierigkeiten, welche zunächst in dem Wesen der Arbeit selbst, dann aber auch in dem Umstande lagen, daß für ihn das Fürstenthum Reuß j. L. kein heimathlich bekannter Boden war, dadurch soviel als möglich zu heben, daß er sich, abgesehen von den amtlichen Hilfsquellen, auf den Beistand der in das Verständniß des Landes am gründlichsten eingeweihten Männer und auf eigene, fünf Sommer hindurch fortgesetzte, Land und Leute des Fürstenthums betreffende Studien und Beobachtungen stützte. Was ihn übrigens bei dieser Arbeit belebend leitete, war nicht allein seine Liebe zu derartigen Forschungen und nicht allein der hohe, auf das Wohl des Landes gerichtete Wille eines edlen Fürsten, sondern auch der Gedanke, daß jetzt, wo das deutsche Volkswesen nach einem einheitlichen, sich genügenden bundesstaatlichen Organismus hinstrebt, mehr als jemals jeder Beitrag willkommen sein müßte, welcher den Werth zur Anschauung und Anerkennung bringt, den die einzelnen Glieder des großstaatlichen Organismus in sich tragen. Unleugbar"
+      }
+    ],
+    "footnotes": []
+  },
+  "ocr_text": "Vorwort.\n\nDie hier vorliegende Landes- und Volkskunde des Fürstenthums Reuß j. L. hat Se. Durchlaucht den regierenden Fürsten Heinrich XIV. zu ihrem Urheber, Plangeber und Förderer. Von diesem hohen Kenner des Landes war der Unterzeichnete beauftragt, das Fürstenthum nach allen seinen natürlichen, staatlichen und bürgerlichen Verhältnissen und Entwicklungen zu erforschen und die gewonnenen Anschauungen und Forschungsresultate zu einem Gesammtbilde zu verarbeiten, dies Alles nicht allein im Interesse der Wissenschaft, sondern auch und namentlich zum Besten des Landes, damit hier einerseits erkannt werde, wie das Heute beschaffen sei und wie sich dasselbe aus dem Gestern gestaltet habe, und andererseits damit die alte Liebe zur Heimath sich frisch erhalte.\n\nIndem nun der Unterzeichnete die ihm angetragene Arbeit übernahm und ausführte, suchte er die Schwierigkeiten, welche zunächst in dem Wesen der Arbeit selbst, dann aber auch in dem Umstande lagen, daß für ihn das Fürstenthum Reuß j. L. kein heimathlich bekannter Boden war, dadurch soviel als möglich zu heben, daß er sich, abgesehen von den amtlichen Hilfsquellen, auf den Beistand der in das Verständniß des Landes am gründlichsten eingeweihten Männer und auf eigene, fünf Sommer hindurch fortgesetzte, Land und Leute des Fürstenthums betreffende Studien und Beobachtungen stützte. Was ihn übrigens bei dieser Arbeit belebend leitete, war nicht allein seine Liebe zu derartigen Forschungen und nicht allein der hohe, auf das Wohl des Landes gerichtete Wille eines edlen Fürsten, sondern auch der Gedanke, daß jetzt, wo das deutsche Volkswesen nach einem einheitlichen, sich genügenden bundesstaatlichen Organismus hinstrebt, mehr als jemals jeder Beitrag willkommen sein müßte, welcher den Werth zur Anschauung und Anerkennung bringt, den die einzelnen Glieder des großstaatlichen Organismus in sich tragen. Unleugbar",
+  "entities": [
+    {
+      "text": "Fürstenthums Reuß j. L.",
+      "entity_type": "Location",
+      "start_char": 43,
+      "end_char": 66,
+      "context": "...Volkskunde des Fürstenthums Reuß j. L. hat Se. Durchlaucht..."
+    },
+    {
+      "text": "Heinrich XIV.",
+      "entity_type": "Person",
+      "start_char": 95,
+      "end_char": 108,
+      "context": "...regierenden Fürsten Heinrich XIV. zu ihrem Urheber..."
+    },
+    {
+      "text": "Fürstenthum",
+      "entity_type": "Location",
+      "start_char": 164,
+      "end_char": 175,
+      "context": "...beauftragt, das Fürstenthum nach allen seinen..."
+    },
+    {
+      "text": "Fürstenthum Reuß j. L.",
+      "entity_type": "Location",
+      "start_char": 659,
+      "end_char": 681,
+      "context": "...daß für ihn das Fürstenthum Reuß j. L. kein heimathlich bekannter..."
+    },
+    {
+      "text": "Fürstenthums",
+      "entity_type": "Location",
+      "start_char": 874,
+      "end_char": 886,
+      "context": "...Land und Leute des Fürstenthums betreffende Studien..."
+    }
+  ],
+  "processing_timestamp": "2026-10-01T20:18:01.119480",
+  "model_used": "gemini-3-flash-preview",
+  "note": "gap fill 2026-10-01, same prompts/model as main run (hde a77b152)"
+}

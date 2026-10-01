@@ -1,0 +1,755 @@
+{
+ "seq": 590,
+ "label": "578",
+ "slug": "578",
+ "iiif": {
+  "service": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb11005578_00590",
+  "canvas": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11005578/canvas/590",
+  "width": 1598,
+  "height": 2693
+ },
+ "kind": "text",
+ "running_header": "Ortskunde des Fürstenthums Reuß j. L.",
+ "signature": null,
+ "blocks": [
+  {
+   "id": "b1",
+   "type": "table",
+   "src": 0,
+   "n_cols": 5,
+   "header_rows": 1,
+   "rows": [
+    {
+     "role": "header",
+     "cells": [
+      {
+       "text": "42649 Mk.",
+       "spans": []
+      },
+      {
+       "text": "11 Gr.",
+       "spans": []
+      },
+      {
+       "text": "10 Pf.",
+       "spans": []
+      },
+      {
+       "text": "an",
+       "spans": []
+      },
+      {
+       "text": "beständigen,",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "56639 \"",
+       "spans": []
+      },
+      {
+       "text": "9 \"",
+       "spans": []
+      },
+      {
+       "text": "2 \"",
+       "spans": []
+      },
+      {
+       "text": "an",
+       "spans": []
+      },
+      {
+       "text": "unbeständigen Gefällen,",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "3838 \"",
+       "spans": []
+      },
+      {
+       "text": "19 \"",
+       "spans": []
+      },
+      {
+       "text": "7 \"",
+       "spans": []
+      },
+      {
+       "text": "von",
+       "spans": []
+      },
+      {
+       "text": "Löhma.",
+       "spans": [
+        [
+         0,
+         5,
+         "Location"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "103127 Mk.",
+       "spans": []
+      },
+      {
+       "text": "19 Gr.",
+       "spans": []
+      },
+      {
+       "text": "7 Pf.",
+       "spans": []
+      },
+      {
+       "text": "Summe.",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      }
+     ]
+    }
+   ],
+   "grid": [
+    [
+     "42649 Mk.",
+     "11 Gr.",
+     "10 Pf.",
+     "an",
+     "beständigen,"
+    ],
+    [
+     "56639 \"",
+     "9 \"",
+     "2 \"",
+     "an",
+     "unbeständigen Gefällen,"
+    ],
+    [
+     "3838 \"",
+     "19 \"",
+     "7 \"",
+     "von",
+     "Löhma."
+    ],
+    [
+     "103127 Mk.",
+     "19 Gr.",
+     "7 Pf.",
+     "Summe.",
+     ""
+    ]
+   ],
+   "caption": null,
+   "sec": "t2-2"
+  },
+  {
+   "id": "b2",
+   "type": "paragraph",
+   "src": 1,
+   "text": "Heinrich I. dagegen überkam zu seinem Antheile die ganze Pflege Saalburg mit 9, ein Stück der Herrschaft Schleiz mit 14 Orten (Tanna, Dittersdorf, Frankendorf, Görkwitz, Göttendorf, Mielesdorf, Oschitz, Raila, Stelzen, Spielmes zum Theil, Unterkoskau, Willersdorf, Zollgrün und die Höfe vor dem Wald) und aus dem Lobensteinischen 11 Orte (Altengesees, Gahma, Göttengrün, Langgrün, Spielmes zum Theil, Lothra, Rödern und Weißbach, Röttersdorf, Thimmendorf und Weitisberga nebst Mühlen und drei Hämmern an der Saale), im Ganzen 33 Orte mit 1152 Mann und mit den Jahresrevenuen:",
+   "spans": [
+    [
+     0,
+     11,
+     "Person"
+    ],
+    [
+     64,
+     72,
+     "Location"
+    ],
+    [
+     105,
+     112,
+     "Location"
+    ],
+    [
+     127,
+     132,
+     "Location"
+    ],
+    [
+     134,
+     145,
+     "Location"
+    ],
+    [
+     147,
+     158,
+     "Location"
+    ],
+    [
+     160,
+     168,
+     "Location"
+    ],
+    [
+     170,
+     180,
+     "Location"
+    ],
+    [
+     182,
+     192,
+     "Location"
+    ],
+    [
+     420,
+     428,
+     "Location"
+    ],
+    [
+     194,
+     201,
+     "Location"
+    ],
+    [
+     203,
+     208,
+     "Location"
+    ],
+    [
+     210,
+     217,
+     "Location"
+    ],
+    [
+     219,
+     227,
+     "Location"
+    ],
+    [
+     239,
+     250,
+     "Location"
+    ],
+    [
+     252,
+     263,
+     "Location"
+    ],
+    [
+     265,
+     273,
+     "Location"
+    ],
+    [
+     339,
+     350,
+     "Location"
+    ],
+    [
+     352,
+     357,
+     "Location"
+    ],
+    [
+     359,
+     369,
+     "Location"
+    ],
+    [
+     371,
+     379,
+     "Location"
+    ],
+    [
+     381,
+     389,
+     "Location"
+    ],
+    [
+     401,
+     407,
+     "Location"
+    ],
+    [
+     409,
+     415,
+     "Location"
+    ],
+    [
+     430,
+     441,
+     "Location"
+    ],
+    [
+     443,
+     454,
+     "Location"
+    ],
+    [
+     459,
+     470,
+     "Location"
+    ],
+    [
+     477,
+     483,
+     "Artefact"
+    ],
+    [
+     493,
+     500,
+     "Artefact"
+    ],
+    [
+     508,
+     513,
+     "Natural Object"
+    ]
+   ],
+   "sec": "t2-2"
+  },
+  {
+   "id": "b3",
+   "type": "table",
+   "src": 2,
+   "n_cols": 5,
+   "header_rows": 1,
+   "rows": [
+    {
+     "role": "header",
+     "cells": [
+      {
+       "text": "47991 Mk.",
+       "spans": []
+      },
+      {
+       "text": "10 Gr.",
+       "spans": []
+      },
+      {
+       "text": "2 1/2 Pf.",
+       "spans": []
+      },
+      {
+       "text": "an",
+       "spans": []
+      },
+      {
+       "text": "beständigen,",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "54327 \"",
+       "spans": []
+      },
+      {
+       "text": "14 \"",
+       "spans": []
+      },
+      {
+       "text": "8 \"",
+       "spans": []
+      },
+      {
+       "text": "an",
+       "spans": []
+      },
+      {
+       "text": "unbeständigen Gefällen,",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "827 \"",
+       "spans": []
+      },
+      {
+       "text": "3 \"",
+       "spans": []
+      },
+      {
+       "text": "— \"",
+       "spans": []
+      },
+      {
+       "text": "vom",
+       "spans": []
+      },
+      {
+       "text": "dobeneckischen Gütlein.",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "103,146 Mk.",
+       "spans": []
+      },
+      {
+       "text": "6 Gr.",
+       "spans": []
+      },
+      {
+       "text": "10 1/2 Pf.",
+       "spans": []
+      },
+      {
+       "text": "Summe.",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      }
+     ]
+    }
+   ],
+   "grid": [
+    [
+     "47991 Mk.",
+     "10 Gr.",
+     "2 1/2 Pf.",
+     "an",
+     "beständigen,"
+    ],
+    [
+     "54327 \"",
+     "14 \"",
+     "8 \"",
+     "an",
+     "unbeständigen Gefällen,"
+    ],
+    [
+     "827 \"",
+     "3 \"",
+     "— \"",
+     "vom",
+     "dobeneckischen Gütlein."
+    ],
+    [
+     "103,146 Mk.",
+     "6 Gr.",
+     "10 1/2 Pf.",
+     "Summe.",
+     ""
+    ]
+   ],
+   "caption": null,
+   "sec": "t2-2"
+  },
+  {
+   "id": "b4",
+   "type": "paragraph",
+   "src": 3,
+   "text": "Im Verhältniß zu ihnen hatte Heinrich II. Gera mit 1867 Mann und 103,250 Fl. 15 Gr. 1 1/2 Pf. und Heinrich X. Lobenstein (ohne die an Saalburg abgetretenen Orte) mit 1161 Mann und 103,035 Fl. 13 Gr. überkommen. An Areal betrug jeder Theil gegen 4 ☐Meilen.",
+   "spans": [
+    [
+     29,
+     41,
+     "Person"
+    ],
+    [
+     42,
+     46,
+     "Location"
+    ],
+    [
+     98,
+     109,
+     "Person"
+    ],
+    [
+     110,
+     120,
+     "Location"
+    ],
+    [
+     134,
+     142,
+     "Location"
+    ]
+   ],
+   "sec": "t2-2"
+  },
+  {
+   "id": "b5",
+   "type": "paragraph",
+   "src": 4,
+   "text": "1666—1848. Durch den 1666 erfolgten Tod Heinrichs IX., des seitherigen Regenten von Schleiz, wird Saalburg als selbstständiger Staat, der aus drei verschiedenen Stücken zusammengesetzt war, aufgehoben und in drei Portionen getheilt. Die ursprüngliche Pflege Saalburg fiel an Gera, die schleizer Dörfer an Schleiz und die lobensteiner an Lobenstein. Sein Regent, Heinrich I., der Stammvater des jetzigen Fürstenhauses, übernahm die Herrschaft der wieder vereinigten Pflege Schleiz mit Reichenfels. In dem 182 jährigen Zeitraume folgen hier als Regenten:",
+   "spans": [
+    [
+     84,
+     91,
+     "Location"
+    ],
+    [
+     98,
+     106,
+     "Location"
+    ],
+    [
+     258,
+     266,
+     "Location"
+    ],
+    [
+     275,
+     279,
+     "Location"
+    ],
+    [
+     305,
+     312,
+     "Location"
+    ],
+    [
+     337,
+     347,
+     "Location"
+    ],
+    [
+     362,
+     373,
+     "Person"
+    ],
+    [
+     472,
+     479,
+     "Location"
+    ],
+    [
+     484,
+     495,
+     "Location"
+    ]
+   ],
+   "sec": "t2-2"
+  },
+  {
+   "id": "b6",
+   "type": "paragraph",
+   "src": 5,
+   "text": "Heinrich I. v. 1666—1692.",
+   "spans": [
+    [
+     0,
+     11,
+     "Person"
+    ]
+   ],
+   "sec": "t2-2"
+  },
+  {
+   "id": "b7",
+   "type": "paragraph",
+   "src": 6,
+   "text": "Heinrich XI. v. 1692—1726.",
+   "spans": [
+    [
+     0,
+     12,
+     "Person"
+    ]
+   ],
+   "sec": "t2-2"
+  },
+  {
+   "id": "b8",
+   "type": "table",
+   "src": 7,
+   "n_cols": 2,
+   "header_rows": 0,
+   "rows": [
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Heinrich I. v. 1726—1744.",
+       "spans": [
+        [
+         0,
+         11,
+         "Person"
+        ]
+       ]
+      },
+      {
+       "text": "Heinrich XII. v. 1744—1784.",
+       "spans": [
+        [
+         0,
+         13,
+         "Person"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "Heinrich XLII. v. 1784—1818.",
+       "spans": [
+        [
+         0,
+         14,
+         "Person"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "Heinrich LXII. v. 1818—1848.",
+       "spans": [
+        [
+         0,
+         14,
+         "Person"
+        ]
+       ]
+      }
+     ]
+    }
+   ],
+   "grid": [
+    [
+     "Heinrich I. v. 1726—1744.",
+     "Heinrich XII. v. 1744—1784."
+    ],
+    [
+     "",
+     "Heinrich XLII. v. 1784—1818."
+    ],
+    [
+     "",
+     "Heinrich LXII. v. 1818—1848."
+    ]
+   ],
+   "caption": null,
+   "sec": "t2-2"
+  },
+  {
+   "id": "b9",
+   "type": "paragraph",
+   "src": 8,
+   "text": "1848—1870. Die selbstständige Herrschaft Schleiz endet mit dem Sturmjahre 1848. Dadurch daß Fürst Heinrich LXXII. von Lobenstein-Ebersdorf am 1. October desselben Jahres sein Land und Recht an den Regenten von Schleiz abtritt, wird nun dieser Herr des gesammten Fürstenthums Reuß j. L., der seine Residenz auf den Osterstein verlegt. Die Regenten dieser Zeit sind:",
+   "spans": [
+    [
+     41,
+     48,
+     "Location"
+    ],
+    [
+     98,
+     113,
+     "Person"
+    ],
+    [
+     118,
+     138,
+     "Location"
+    ],
+    [
+     210,
+     217,
+     "Location"
+    ],
+    [
+     314,
+     324,
+     "Artefact"
+    ]
+   ],
+   "sec": "t2-2"
+  },
+  {
+   "id": "b10",
+   "type": "paragraph",
+   "src": 9,
+   "text": "Heinrich LXII. v. 1848—1854. Heinrich LXVII. v. 1854—1867.",
+   "spans": [
+    [
+     0,
+     14,
+     "Person"
+    ],
+    [
+     29,
+     44,
+     "Person"
+    ]
+   ],
+   "sec": "t2-2"
+  },
+  {
+   "id": "b11",
+   "type": "paragraph",
+   "src": 10,
+   "text": "Heinrich XIV. v. 1867 an.",
+   "spans": [
+    [
+     0,
+     13,
+     "Person"
+    ]
+   ],
+   "sec": "t2-2"
+  }
+ ],
+ "footnotes": [],
+ "corrections": [
+  {
+   "rule": "table_no_header_row",
+   "note": "first row is data (legacy edition rendered it as <th>)",
+   "block": "b8"
+  }
+ ],
+ "provenance": {
+  "source": "colab-2026-03",
+  "model": "gemini-3-flash-preview",
+  "timestamp": "2026-03-04T20:17:46.450208",
+  "early_schema": false
+ },
+ "section_path": [
+  "t2",
+  "t2-2"
+ ],
+ "sections": [
+  "t2-2"
+ ]
+}

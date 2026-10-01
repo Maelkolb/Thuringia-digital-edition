@@ -1,0 +1,4533 @@
+{
+ "id": "industrie-gewerbe-1864-einzelne-gewerbe",
+ "title": {
+  "de": "Gewerbe und Industrie 1864: die einzelnen Gewerbe nach Landesteilen",
+  "en": "Trades and industry in 1864: individual trades by district"
+ },
+ "category": "industry",
+ "section": "t1-3-6",
+ "sources": [
+  {
+   "page": "252",
+   "block": "b3"
+  },
+  {
+   "page": "252",
+   "block": "b4",
+   "rows": "h1-t27"
+  },
+  {
+   "page": "252",
+   "block": "fn1"
+  },
+  {
+   "page": "253",
+   "block": "b1",
+   "rows": "h1-r43"
+  },
+  {
+   "page": "254",
+   "block": "b1",
+   "rows": "h1-t21"
+  },
+  {
+   "page": "256",
+   "block": "b1"
+  }
+ ],
+ "summary": {
+  "de": "Nach den Recherchen von 1864 zählt Brückner für die drei Landesteile 68 Gewerbe und Industriezweige, jeweils mit Selbständigen, Gehilfen, Dienstboten und Familiengliedern. Die Auswertung rangiert die Gewerbe nach den von ihnen ernährten Personen, stellt die Gewerbestruktur der Landesteile gegenüber und berechnet die Zahl der Gehilfen je Selbständigem. Die Weberei überragt alles: sie ernährt 10.180 Personen, das sind 23,6 % aller in der Tabelle erfassten.",
+  "en": "Based on the 1864 inquiries Brückner counts 68 trades and branches of industry for the three districts, each with masters, assistants, servants and family members. The analysis ranks the trades by the persons they support, compares the trade structure of the districts and computes the number of assistants per master. Weaving towers above everything: it supports 10,180 persons, 23.6 % of all persons recorded in the table."
+ },
+ "method": {
+  "de": "Die Tabellen S. 252–254 wurden Zeile für Zeile übernommen (S. = Selbständige, G. = Gehilfen, D. = Dienstboten, F. = Familienglieder, nach der Fußnote auf S. 252). Abkürzungen der Gewerbenamen sind aufgelöst, Verweisziffern und Punktlinien entfernt; ein Strich im Druck ist als leerer Wert kodiert. Fünf Zeilen ohne jeden Eintrag (Putzmacher, Strumpfwaarenfabrikanten, Drahtbinder, Saline, Chem. Fabrik) sind weggelassen; die Arbeiter von Saline und chemischer Fabrik stehen nach der Fußnote unter 5). Die Spalte persons ist die Summe von S, G, D und F; sg = S + G; g_per_s = G / S. Die Anteile in der Heatmap sind der Anteil eines Gewerbes an allen Selbständigen und Gehilfen des Landesteils, berechnet aus den Zeilen der 68 Gewerbe. Für die Rangfolge und die Quoten werden die gedruckten Spalten »Fürstenthum« verwendet; wo sie von der Summe der Landesteile abweichen, steht der Befund in der Spalte print_diff.",
+  "en": "The tables on pp. 252–254 were transferred row by row (S. = masters, G. = assistants, D. = servants, F. = family members, according to the footnote on p. 252). Abbreviated trade names are expanded, reference marks and dot leaders removed; a dash in the print is coded as an empty value. Five rows without any entry (Putzmacher, Strumpfwaarenfabrikanten, Drahtbinder, Saline, Chem. Fabrik) are omitted; according to the footnote the workers of the saltworks and the chemical factory are listed under 5). The column persons is the sum of S, G, D and F; sg = S + G; g_per_s = G / S. The shares in the heatmap are the share of a trade in all masters and assistants of the district, computed from the rows of the 68 trades. The ranking and the ratios use the printed “Fürstenthum” columns; where they differ from the sum of the districts, the finding is recorded in the column print_diff."
+ },
+ "findings": [
+  {
+   "de": "Das Bekleidungsgewerbe stellt 19.884 der 43.132 erfassten Personen (46,1 %), die Bauhandwerker 9.452 (21,9 %). Allein die fünf größten Gewerbe (Weber, Maurer und Steinhauer, Schuhmacher, Zimmerleute, Schneider) vereinen 51,7 % aller Personen.",
+   "en": "The clothing trades account for 19,884 of the 43,132 persons recorded (46.1 %), the building trades for 9,452 (21.9 %). The five largest trades alone (weavers, masons and stonecutters, shoemakers, carpenters, tailors) account for 51.7 % of all persons."
+  },
+  {
+   "de": "Die Weberei ernährt im Landesteil Schleiz 6.556, in Gera 2.638 und in Lobenstein-Ebersdorf 986 Personen (zusammen 10.180, wie Brückner S. 256 angibt). Im Landesteil Schleiz gehören 42,5 % aller Selbständigen und Gehilfen zur Weberei, in Gera 15,4 %, in Lobenstein-Ebersdorf 8,3 %.",
+   "en": "Weaving supports 6,556 persons in the district of Schleiz, 2,638 in Gera and 986 in Lobenstein-Ebersdorf (10,180 in all, as Brückner states on p. 256). In the district of Schleiz 42.5 % of all masters and assistants belong to weaving, in Gera 15.4 %, in Lobenstein-Ebersdorf 8.3 %."
+  },
+  {
+   "de": "Auf einen selbständigen Maurer oder Steinhauer kommen 21,3 Gehilfen, auf einen Zimmermann 20,0; unter den 30 Gewerben mit mindestens 40 Selbständigen haben nur 8 mehr Gehilfen als Meister. Das passt zu Brückners Hinweis, dass die oberländischen Maurer- und Zimmergesellen im Sommer auswärts arbeiten (S. 256).",
+   "en": "For every independent mason or stonecutter there are 21.3 assistants, for every carpenter 20.0; of the 30 trades with at least 40 masters only 8 have more assistants than masters. This fits Brückner's remark that Oberland mason and carpenter journeymen work away from home in summer (p. 256)."
+  },
+  {
+   "de": "Im Landesteil Lobenstein-Ebersdorf entfallen 9,3 % der Selbständigen und Gehilfen auf die Dachdecker (Schieferdecker), in Gera nur 0,4 %; die Maschinenbauer sitzen vor allem in Gera (118 Selbständige und Gehilfen gegenüber 52 in Lobenstein-Ebersdorf und keinem in Schleiz).",
+   "en": "In the district of Lobenstein-Ebersdorf 9.3 % of the masters and assistants are roofers (slate roofers), in Gera only 0.4 %; machine builders are concentrated in Gera (118 masters and assistants against 52 in Lobenstein-Ebersdorf and none in Schleiz)."
+  }
+ ],
+ "caveats": [
+  {
+   "de": "Im Druck stimmen einzelne Summen nicht: 8 der 68 Gewerbezeilen weichen in der Spalte »Fürstenthum« von der Summe der drei Landesteile ab, meist um 1–2 Personen; größere Abweichungen: Fleischer F. (Lobenstein-Ebersdorf gedruckt 26, Summe der Fürstenthum-Spalte verlangt 206), Böttcher und Bürstenmacher F. (die Zahl 100 steht beim Landesteil Schleiz in der Zeile Bürstenmacher, passt aber zur Böttcher-Summe 321), Latus D. (68 gedruckt, Summe 168). Die Transkription stimmt in allen geprüften Fällen mit dem Druck überein (Faksimile S. 252, 253, 255).",
+   "en": "Some sums do not add up in the print: 8 of the 68 trade rows differ in the “Fürstenthum” column from the sum of the three districts, mostly by 1–2 persons; larger deviations: butchers F. (Lobenstein-Ebersdorf printed 26, the Fürstenthum column implies 206), coopers and brush makers F. (the figure 100 stands under the district of Schleiz in the brush-maker row but fits the cooper total 321), Latus D. (68 printed, sum 168). The transcription agrees with the print in all cases checked (facsimile pp. 252, 253, 255)."
+  },
+  {
+   "de": "Die Tabelle erfasst Selbständige, Gehilfen, Dienstboten und Familienglieder; die Personenzahl eines Gewerbes ist daher nicht die Zahl der Erwerbstätigen, sondern der von ihm ernährten Personen. Dienstboten und Familienglieder lassen sich nicht auf Gewerbe und Landwirtschaft aufteilen, wo ein Betrieb beides vereint.",
+   "en": "The table counts masters, assistants, servants and family members; the number of persons of a trade is therefore not the number of gainfully employed but of persons supported by it. Servants and family members cannot be split between trade and agriculture where one household combines both."
+  },
+  {
+   "de": "Die Quote Gehilfen je Selbständigem ist ein grobes Maß: sie sagt nichts über die Betriebsgröße im einzelnen, und die Gehilfen von Wandergewerben (Maurer, Zimmerleute) arbeiten teilweise außerhalb des Landes.",
+   "en": "The ratio of assistants to masters is a rough measure: it says nothing about the size of individual enterprises, and the assistants of itinerant trades (masons, carpenters) partly work outside the principality."
+  }
+ ],
+ "conversions": [],
+ "datasets": [
+  {
+   "name": "fuerstenthum",
+   "title": {
+    "de": "Gewerbe im Fürstenthum 1864 (gedruckte Gesamtzahlen)",
+    "en": "Trades in the principality, 1864 (printed totals)"
+   },
+   "columns": [
+    {
+     "name": "branch",
+     "label": {
+      "de": "Gewerbegruppe",
+      "en": "Group of trades"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "trade",
+     "label": {
+      "de": "Gewerbe",
+      "en": "Trade"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "trade_en",
+     "label": {
+      "de": "Gewerbe (englisch)",
+      "en": "Trade (English)"
+     },
+     "type": "string",
+     "unit": null,
+     "derived": true
+    },
+    {
+     "name": "s",
+     "label": {
+      "de": "Selbständige",
+      "en": "Masters"
+     },
+     "type": "integer",
+     "unit": "Personen"
+    },
+    {
+     "name": "g",
+     "label": {
+      "de": "Gehilfen",
+      "en": "Assistants"
+     },
+     "type": "integer",
+     "unit": "Personen"
+    },
+    {
+     "name": "d",
+     "label": {
+      "de": "Dienstboten",
+      "en": "Servants"
+     },
+     "type": "integer",
+     "unit": "Personen"
+    },
+    {
+     "name": "f",
+     "label": {
+      "de": "Familienglieder",
+      "en": "Family members"
+     },
+     "type": "integer",
+     "unit": "Personen"
+    },
+    {
+     "name": "persons",
+     "label": {
+      "de": "Personen insgesamt",
+      "en": "Persons in total"
+     },
+     "type": "integer",
+     "unit": "Personen",
+     "derived": true
+    },
+    {
+     "name": "sg",
+     "label": {
+      "de": "Selbständige und Gehilfen",
+      "en": "Masters and assistants"
+     },
+     "type": "integer",
+     "unit": "Personen",
+     "derived": true
+    },
+    {
+     "name": "g_per_s",
+     "label": {
+      "de": "Gehilfen je Selbständigem",
+      "en": "Assistants per master"
+     },
+     "type": "number",
+     "unit": null,
+     "derived": true
+    },
+    {
+     "name": "print_diff",
+     "label": {
+      "de": "Abweichung im Druck",
+      "en": "Deviation in the print"
+     },
+     "type": "string",
+     "unit": null,
+     "derived": true
+    },
+    {
+     "name": "source",
+     "label": {
+      "de": "Quelle",
+      "en": "Source"
+     },
+     "type": "string",
+     "unit": null
+    }
+   ],
+   "rows": [
+    [
+     "Nahrung",
+     "Müller",
+     "Miller",
+     164,
+     190,
+     236,
+     690,
+     1280,
+     354,
+     1.16,
+     null,
+     "S. 252 b4 r4"
+    ],
+    [
+     "Nahrung",
+     "Bäcker und Conditor",
+     "Baker and confectioner",
+     166,
+     123,
+     82,
+     508,
+     879,
+     289,
+     0.74,
+     null,
+     "S. 252 b4 r5"
+    ],
+    [
+     "Nahrung",
+     "Fleischer",
+     "Butcher",
+     208,
+     102,
+     90,
+     696,
+     1096,
+     310,
+     0.49,
+     "F: Landesteile 516, gedruckt 696",
+     "S. 252 b4 r6"
+    ],
+    [
+     "Nahrung",
+     "Fischer",
+     "Fisherman",
+     4,
+     null,
+     null,
+     7,
+     11,
+     4,
+     0.0,
+     null,
+     "S. 252 b4 r7"
+    ],
+    [
+     "Nahrung",
+     "Brauer",
+     "Brewer",
+     41,
+     41,
+     20,
+     134,
+     236,
+     82,
+     1.0,
+     null,
+     "S. 252 b4 r8"
+    ],
+    [
+     "Nahrung",
+     "Branntweinbrenner",
+     "Distiller",
+     null,
+     7,
+     3,
+     4,
+     14,
+     7,
+     null,
+     null,
+     "S. 252 b4 r9"
+    ],
+    [
+     "Kleidung",
+     "Weber",
+     "Weaver",
+     2245,
+     1471,
+     55,
+     6409,
+     10180,
+     3716,
+     0.66,
+     null,
+     "S. 252 b4 r12"
+    ],
+    [
+     "Kleidung",
+     "Spinnereibesitzer",
+     "Spinning-mill owner",
+     10,
+     106,
+     9,
+     106,
+     231,
+     116,
+     10.6,
+     null,
+     "S. 252 b4 r13"
+    ],
+    [
+     "Kleidung",
+     "Tuchmacher",
+     "Cloth maker",
+     66,
+     51,
+     11,
+     232,
+     360,
+     117,
+     0.77,
+     null,
+     "S. 252 b4 r14"
+    ],
+    [
+     "Kleidung",
+     "Wollen- und Tuchwaarenfabriker",
+     "Woollen and cloth manufacturer",
+     46,
+     227,
+     77,
+     464,
+     814,
+     273,
+     4.93,
+     null,
+     "S. 252 b4 r15"
+    ],
+    [
+     "Kleidung",
+     "Färber",
+     "Dyer",
+     24,
+     54,
+     18,
+     177,
+     273,
+     78,
+     2.25,
+     null,
+     "S. 252 b4 r16"
+    ],
+    [
+     "Kleidung",
+     "Gerber",
+     "Tanner",
+     117,
+     158,
+     59,
+     408,
+     742,
+     275,
+     1.35,
+     null,
+     "S. 252 b4 r17"
+    ],
+    [
+     "Kleidung",
+     "Posamentirer",
+     "Trimmings maker",
+     64,
+     33,
+     10,
+     86,
+     193,
+     97,
+     0.52,
+     null,
+     "S. 252 b4 r18"
+    ],
+    [
+     "Kleidung",
+     "Schneider",
+     "Tailor",
+     434,
+     203,
+     15,
+     1120,
+     1772,
+     637,
+     0.47,
+     null,
+     "S. 252 b4 r19"
+    ],
+    [
+     "Kleidung",
+     "Schuhmacher",
+     "Shoemaker",
+     643,
+     384,
+     19,
+     1691,
+     2737,
+     1027,
+     0.6,
+     null,
+     "S. 252 b4 r20"
+    ],
+    [
+     "Kleidung",
+     "Strick-, Sticker- und Spinner",
+     "Knitter, embroiderer and spinner",
+     1012,
+     18,
+     2,
+     302,
+     1334,
+     1030,
+     0.02,
+     null,
+     "S. 252 b4 r21"
+    ],
+    [
+     "Kleidung",
+     "Strumpfwirker",
+     "Stocking weaver",
+     227,
+     157,
+     3,
+     605,
+     992,
+     384,
+     0.69,
+     null,
+     "S. 252 b4 r23"
+    ],
+    [
+     "Kleidung",
+     "Beutler, Kürschner, Handschuh- und Mützenmacher",
+     "Pouch, fur, glove and cap makers",
+     45,
+     26,
+     6,
+     107,
+     184,
+     71,
+     0.58,
+     "G: Landesteile 24, gedruckt 26",
+     "S. 252 b4 r25"
+    ],
+    [
+     "Kleidung",
+     "Hutmacher",
+     "Hatter",
+     13,
+     11,
+     2,
+     46,
+     72,
+     24,
+     0.85,
+     null,
+     "S. 252 b4 r26"
+    ],
+    [
+     "Bauhandwerker",
+     "Glaser",
+     "Glazier",
+     52,
+     43,
+     7,
+     159,
+     261,
+     95,
+     0.83,
+     null,
+     "S. 253 b1 r4"
+    ],
+    [
+     "Bauhandwerker",
+     "Maurer, Steinhauer",
+     "Mason, stonecutter",
+     77,
+     1640,
+     23,
+     3234,
+     4974,
+     1717,
+     21.3,
+     null,
+     "S. 253 b1 r5"
+    ],
+    [
+     "Bauhandwerker",
+     "Lackirer, Tüncher, Stubenmaler",
+     "Varnisher, whitewasher, house painter",
+     37,
+     30,
+     2,
+     117,
+     186,
+     67,
+     0.81,
+     null,
+     "S. 253 b1 r6"
+    ],
+    [
+     "Bauhandwerker",
+     "Schornsteinfeger",
+     "Chimney sweep",
+     10,
+     16,
+     null,
+     33,
+     59,
+     26,
+     1.6,
+     null,
+     "S. 253 b1 r7"
+    ],
+    [
+     "Bauhandwerker",
+     "Dachdecker",
+     "Roofer",
+     80,
+     315,
+     12,
+     595,
+     1002,
+     395,
+     3.94,
+     null,
+     "S. 253 b1 r8"
+    ],
+    [
+     "Bauhandwerker",
+     "Ziegelbrenner",
+     "Brickmaker",
+     48,
+     41,
+     15,
+     240,
+     344,
+     89,
+     0.85,
+     null,
+     "S. 253 b1 r9"
+    ],
+    [
+     "Bauhandwerker",
+     "Zimmerleute",
+     "Carpenter",
+     45,
+     898,
+     17,
+     1666,
+     2626,
+     943,
+     19.96,
+     null,
+     "S. 253 b1 r10"
+    ],
+    [
+     "Hausausstattung",
+     "Gürtler, Rothgießer",
+     "Brazier, brass founder",
+     16,
+     22,
+     2,
+     62,
+     102,
+     38,
+     1.38,
+     null,
+     "S. 253 b1 r13"
+    ],
+    [
+     "Hausausstattung",
+     "Klempner",
+     "Tinsmith",
+     38,
+     46,
+     6,
+     95,
+     185,
+     84,
+     1.21,
+     null,
+     "S. 253 b1 r14"
+    ],
+    [
+     "Hausausstattung",
+     "Kupferschmiede",
+     "Coppersmith",
+     10,
+     5,
+     null,
+     23,
+     38,
+     15,
+     0.5,
+     null,
+     "S. 253 b1 r15"
+    ],
+    [
+     "Hausausstattung",
+     "Schlosser, Feilenhauer",
+     "Locksmith, file cutter",
+     89,
+     157,
+     15,
+     306,
+     567,
+     246,
+     1.76,
+     null,
+     "S. 253 b1 r16"
+    ],
+    [
+     "Hausausstattung",
+     "Schmiede",
+     "Blacksmith",
+     199,
+     191,
+     40,
+     635,
+     1065,
+     390,
+     0.96,
+     null,
+     "S. 253 b1 r17"
+    ],
+    [
+     "Hausausstattung",
+     "Zinngießer",
+     "Pewterer",
+     5,
+     5,
+     1,
+     17,
+     28,
+     10,
+     1.0,
+     null,
+     "S. 253 b1 r18"
+    ],
+    [
+     "Hausausstattung",
+     "Nadler",
+     "Needle maker",
+     9,
+     4,
+     1,
+     32,
+     46,
+     13,
+     0.44,
+     null,
+     "S. 253 b1 r19"
+    ],
+    [
+     "Hausausstattung",
+     "Böttcher",
+     "Cooper",
+     126,
+     66,
+     5,
+     321,
+     518,
+     192,
+     0.52,
+     "F: Landesteile 221, gedruckt 321",
+     "S. 253 b1 r21"
+    ],
+    [
+     "Hausausstattung",
+     "Bürstenmacher",
+     "Brush maker",
+     9,
+     5,
+     null,
+     27,
+     41,
+     14,
+     0.56,
+     "F: Landesteile 127, gedruckt 27",
+     "S. 253 b1 r22"
+    ],
+    [
+     "Hausausstattung",
+     "Drechsler",
+     "Turner",
+     56,
+     20,
+     5,
+     140,
+     221,
+     76,
+     0.36,
+     "F: Landesteile 141, gedruckt 140",
+     "S. 253 b1 r23"
+    ],
+    [
+     "Hausausstattung",
+     "Korb- und Siebmacher",
+     "Basket and sieve maker",
+     43,
+     20,
+     1,
+     95,
+     159,
+     63,
+     0.47,
+     null,
+     "S. 253 b1 r24"
+    ],
+    [
+     "Hausausstattung",
+     "Tischler",
+     "Joiner",
+     204,
+     239,
+     18,
+     651,
+     1112,
+     443,
+     1.17,
+     null,
+     "S. 253 b1 r25"
+    ],
+    [
+     "Hausausstattung",
+     "Wagner",
+     "Wheelwright",
+     114,
+     56,
+     11,
+     299,
+     480,
+     170,
+     0.49,
+     null,
+     "S. 253 b1 r26"
+    ],
+    [
+     "Hausausstattung",
+     "Holzschuhmacher, Muldenhauer",
+     "Clog and trough maker",
+     4,
+     null,
+     null,
+     8,
+     12,
+     4,
+     0.0,
+     null,
+     "S. 253 b1 r27"
+    ],
+    [
+     "Hausausstattung",
+     "Kammmacher",
+     "Comb maker",
+     9,
+     5,
+     null,
+     24,
+     38,
+     14,
+     0.56,
+     null,
+     "S. 253 b1 r28"
+    ],
+    [
+     "Hausausstattung",
+     "Riemer, Sattler, Tapezirer",
+     "Harness maker, saddler, upholsterer",
+     69,
+     35,
+     2,
+     182,
+     288,
+     104,
+     0.51,
+     null,
+     "S. 253 b1 r29"
+    ],
+    [
+     "Hausausstattung",
+     "Seiler",
+     "Rope maker",
+     60,
+     48,
+     17,
+     210,
+     335,
+     108,
+     0.8,
+     null,
+     "S. 253 b1 r30"
+    ],
+    [
+     "Hausausstattung",
+     "Töpfer",
+     "Potter",
+     15,
+     10,
+     3,
+     38,
+     66,
+     25,
+     0.67,
+     null,
+     "S. 253 b1 r31"
+    ],
+    [
+     "Hausausstattung",
+     "Porzellanmaler",
+     "Porcelain painter",
+     15,
+     18,
+     1,
+     47,
+     81,
+     33,
+     1.2,
+     null,
+     "S. 253 b1 r32"
+    ],
+    [
+     "Hausausstattung",
+     "Porzellanwaarenfabrikanten",
+     "Porcelain manufacturer",
+     2,
+     20,
+     2,
+     42,
+     66,
+     22,
+     10.0,
+     null,
+     "S. 253 b1 r33"
+    ],
+    [
+     "Hausausstattung",
+     "Maschinenbauer",
+     "Machine builder",
+     12,
+     158,
+     11,
+     273,
+     454,
+     170,
+     13.17,
+     null,
+     "S. 253 b1 r34"
+    ],
+    [
+     "Hausausstattung",
+     "Mühlenbauer",
+     "Millwright",
+     19,
+     10,
+     null,
+     45,
+     74,
+     29,
+     0.53,
+     null,
+     "S. 253 b1 r35"
+    ],
+    [
+     "Hausausstattung",
+     "Apotheker",
+     "Pharmacist",
+     10,
+     16,
+     13,
+     31,
+     70,
+     26,
+     1.6,
+     null,
+     "S. 253 b1 r36"
+    ],
+    [
+     "Hausausstattung",
+     "Hebammen",
+     "Midwife",
+     83,
+     null,
+     null,
+     18,
+     101,
+     83,
+     0.0,
+     null,
+     "S. 253 b1 r37"
+    ],
+    [
+     "Hausausstattung",
+     "Barbierer",
+     "Barber",
+     47,
+     21,
+     3,
+     110,
+     181,
+     68,
+     0.45,
+     "S: Landesteile 48, gedruckt 47",
+     "S. 253 b1 r38"
+    ],
+    [
+     "Hausausstattung",
+     "Seifensieder",
+     "Soap boiler",
+     24,
+     7,
+     10,
+     60,
+     101,
+     31,
+     0.29,
+     null,
+     "S. 253 b1 r39"
+    ],
+    [
+     "Hausausstattung",
+     "Hadersammler",
+     "Rag collector",
+     8,
+     null,
+     null,
+     6,
+     14,
+     8,
+     0.0,
+     "S: Landesteile 7, gedruckt 8; G: Landesteile 2, gedruckt 0",
+     "S. 253 b1 r40"
+    ],
+    [
+     "Hausausstattung",
+     "Papiermüller",
+     "Paper miller",
+     1,
+     1,
+     null,
+     2,
+     4,
+     2,
+     1.0,
+     null,
+     "S. 253 b1 r41"
+    ],
+    [
+     "Hausausstattung",
+     "Buchdrucker",
+     "Printer",
+     3,
+     12,
+     1,
+     25,
+     41,
+     15,
+     4.0,
+     null,
+     "S. 253 b1 r42"
+    ],
+    [
+     "Hausausstattung",
+     "Buchbinder",
+     "Bookbinder",
+     25,
+     26,
+     3,
+     50,
+     104,
+     51,
+     1.04,
+     null,
+     "S. 254 b1 r4"
+    ],
+    [
+     "Hausausstattung",
+     "Abschreiber",
+     "Copyist",
+     37,
+     null,
+     null,
+     6,
+     43,
+     37,
+     0.0,
+     null,
+     "S. 254 b1 r5"
+    ],
+    [
+     "Hausausstattung",
+     "Mechaniker",
+     "Mechanic",
+     5,
+     3,
+     1,
+     13,
+     22,
+     8,
+     0.6,
+     null,
+     "S. 254 b1 r6"
+    ],
+    [
+     "Hausausstattung",
+     "Uhrmacher",
+     "Watchmaker",
+     22,
+     16,
+     1,
+     44,
+     83,
+     38,
+     0.73,
+     "S: Landesteile 21, gedruckt 22",
+     "S. 254 b1 r7"
+    ],
+    [
+     "Hausausstattung",
+     "Kupferstecher, Lithographen",
+     "Engraver, lithographer",
+     13,
+     64,
+     3,
+     111,
+     191,
+     77,
+     4.92,
+     null,
+     "S. 254 b1 r8"
+    ],
+    [
+     "Hausausstattung",
+     "Photographen",
+     "Photographer",
+     5,
+     null,
+     2,
+     11,
+     18,
+     5,
+     0.0,
+     null,
+     "S. 254 b1 r9"
+    ],
+    [
+     "Hausausstattung",
+     "Instrumentenmacher",
+     "Instrument maker",
+     26,
+     150,
+     12,
+     194,
+     382,
+     176,
+     5.77,
+     null,
+     "S. 254 b1 r10"
+    ],
+    [
+     "Hausausstattung",
+     "Gold- und Silberarbeiter",
+     "Gold and silver worker",
+     17,
+     15,
+     5,
+     45,
+     82,
+     32,
+     0.88,
+     null,
+     "S. 254 b1 r11"
+    ],
+    [
+     "Hausausstattung",
+     "Büchsenmacher",
+     "Gunsmith",
+     4,
+     3,
+     1,
+     13,
+     21,
+     7,
+     0.75,
+     null,
+     "S. 254 b1 r12"
+    ],
+    [
+     "Hausausstattung",
+     "Tabaksfabrikanten",
+     "Tobacco manufacturer",
+     9,
+     56,
+     13,
+     77,
+     155,
+     65,
+     6.22,
+     null,
+     "S. 254 b1 r13"
+    ],
+    [
+     "Hausausstattung",
+     "Wasenmeister",
+     "Knacker",
+     4,
+     1,
+     1,
+     10,
+     16,
+     5,
+     0.25,
+     null,
+     "S. 254 b1 r16"
+    ],
+    [
+     "Sonstige",
+     "Fabrikarbeiter ohne angegebenen Fabrikzweig",
+     "Factory workers, branch not stated",
+     726,
+     null,
+     1,
+     1003,
+     1730,
+     726,
+     0.0,
+     null,
+     "S. 254 b1 r19"
+    ],
+    [
+     "Sonstige",
+     "Nichtbenannte Nahrungszweige",
+     "Unnamed food trades",
+     168,
+     167,
+     22,
+     588,
+     945,
+     335,
+     0.99,
+     null,
+     "S. 254 b1 r20"
+    ]
+   ],
+   "source_refs": [
+    {
+     "page": "252",
+     "block": "b4",
+     "rows": "r4-r26"
+    },
+    {
+     "page": "253",
+     "block": "b1",
+     "rows": "r4-r42"
+    },
+    {
+     "page": "254",
+     "block": "b1",
+     "rows": "r4-r20"
+    }
+   ]
+  },
+  {
+   "name": "gewerbe",
+   "title": {
+    "de": "Gewerbe nach Landesteilen 1864",
+    "en": "Trades by district, 1864"
+   },
+   "columns": [
+    {
+     "name": "branch",
+     "label": {
+      "de": "Gewerbegruppe",
+      "en": "Group of trades"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "trade",
+     "label": {
+      "de": "Gewerbe",
+      "en": "Trade"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "trade_en",
+     "label": {
+      "de": "Gewerbe (englisch)",
+      "en": "Trade (English)"
+     },
+     "type": "string",
+     "unit": null,
+     "derived": true
+    },
+    {
+     "name": "district",
+     "label": {
+      "de": "Landesteil",
+      "en": "District"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "s",
+     "label": {
+      "de": "Selbständige",
+      "en": "Masters"
+     },
+     "type": "integer",
+     "unit": "Personen"
+    },
+    {
+     "name": "g",
+     "label": {
+      "de": "Gehilfen",
+      "en": "Assistants"
+     },
+     "type": "integer",
+     "unit": "Personen"
+    },
+    {
+     "name": "d",
+     "label": {
+      "de": "Dienstboten",
+      "en": "Servants"
+     },
+     "type": "integer",
+     "unit": "Personen"
+    },
+    {
+     "name": "f",
+     "label": {
+      "de": "Familienglieder",
+      "en": "Family members"
+     },
+     "type": "integer",
+     "unit": "Personen"
+    },
+    {
+     "name": "persons",
+     "label": {
+      "de": "Personen insgesamt",
+      "en": "Persons in total"
+     },
+     "type": "integer",
+     "unit": "Personen",
+     "derived": true
+    },
+    {
+     "name": "source",
+     "label": {
+      "de": "Quelle",
+      "en": "Source"
+     },
+     "type": "string",
+     "unit": null
+    }
+   ],
+   "rows": [
+    [
+     "Nahrung",
+     "Müller",
+     "Miller",
+     "Gera",
+     54,
+     91,
+     92,
+     256,
+     493,
+     "S. 252 b4 r4"
+    ],
+    [
+     "Nahrung",
+     "Müller",
+     "Miller",
+     "Schleiz",
+     58,
+     57,
+     88,
+     202,
+     405,
+     "S. 252 b4 r4"
+    ],
+    [
+     "Nahrung",
+     "Müller",
+     "Miller",
+     "Lobenstein-Ebersdorf",
+     52,
+     42,
+     56,
+     232,
+     382,
+     "S. 252 b4 r4"
+    ],
+    [
+     "Nahrung",
+     "Bäcker und Conditor",
+     "Baker and confectioner",
+     "Gera",
+     68,
+     68,
+     39,
+     202,
+     377,
+     "S. 252 b4 r5"
+    ],
+    [
+     "Nahrung",
+     "Bäcker und Conditor",
+     "Baker and confectioner",
+     "Schleiz",
+     59,
+     32,
+     23,
+     175,
+     289,
+     "S. 252 b4 r5"
+    ],
+    [
+     "Nahrung",
+     "Bäcker und Conditor",
+     "Baker and confectioner",
+     "Lobenstein-Ebersdorf",
+     39,
+     23,
+     20,
+     131,
+     213,
+     "S. 252 b4 r5"
+    ],
+    [
+     "Nahrung",
+     "Fleischer",
+     "Butcher",
+     "Gera",
+     69,
+     52,
+     42,
+     251,
+     414,
+     "S. 252 b4 r6"
+    ],
+    [
+     "Nahrung",
+     "Fleischer",
+     "Butcher",
+     "Schleiz",
+     70,
+     23,
+     28,
+     239,
+     360,
+     "S. 252 b4 r6"
+    ],
+    [
+     "Nahrung",
+     "Fleischer",
+     "Butcher",
+     "Lobenstein-Ebersdorf",
+     69,
+     27,
+     20,
+     26,
+     142,
+     "S. 252 b4 r6"
+    ],
+    [
+     "Nahrung",
+     "Fischer",
+     "Fisherman",
+     "Gera",
+     3,
+     null,
+     null,
+     7,
+     10,
+     "S. 252 b4 r7"
+    ],
+    [
+     "Nahrung",
+     "Fischer",
+     "Fisherman",
+     "Schleiz",
+     1,
+     null,
+     null,
+     null,
+     1,
+     "S. 252 b4 r7"
+    ],
+    [
+     "Nahrung",
+     "Fischer",
+     "Fisherman",
+     "Lobenstein-Ebersdorf",
+     null,
+     null,
+     null,
+     null,
+     0,
+     "S. 252 b4 r7"
+    ],
+    [
+     "Nahrung",
+     "Brauer",
+     "Brewer",
+     "Gera",
+     17,
+     24,
+     11,
+     45,
+     97,
+     "S. 252 b4 r8"
+    ],
+    [
+     "Nahrung",
+     "Brauer",
+     "Brewer",
+     "Schleiz",
+     8,
+     9,
+     1,
+     25,
+     43,
+     "S. 252 b4 r8"
+    ],
+    [
+     "Nahrung",
+     "Brauer",
+     "Brewer",
+     "Lobenstein-Ebersdorf",
+     16,
+     8,
+     8,
+     64,
+     96,
+     "S. 252 b4 r8"
+    ],
+    [
+     "Nahrung",
+     "Branntweinbrenner",
+     "Distiller",
+     "Gera",
+     null,
+     4,
+     3,
+     4,
+     11,
+     "S. 252 b4 r9"
+    ],
+    [
+     "Nahrung",
+     "Branntweinbrenner",
+     "Distiller",
+     "Schleiz",
+     null,
+     1,
+     null,
+     null,
+     1,
+     "S. 252 b4 r9"
+    ],
+    [
+     "Nahrung",
+     "Branntweinbrenner",
+     "Distiller",
+     "Lobenstein-Ebersdorf",
+     null,
+     2,
+     null,
+     null,
+     2,
+     "S. 252 b4 r9"
+    ],
+    [
+     "Kleidung",
+     "Weber",
+     "Weaver",
+     "Gera",
+     526,
+     593,
+     24,
+     1495,
+     2638,
+     "S. 252 b4 r12"
+    ],
+    [
+     "Kleidung",
+     "Weber",
+     "Weaver",
+     "Schleiz",
+     1508,
+     790,
+     25,
+     4233,
+     6556,
+     "S. 252 b4 r12"
+    ],
+    [
+     "Kleidung",
+     "Weber",
+     "Weaver",
+     "Lobenstein-Ebersdorf",
+     211,
+     88,
+     6,
+     681,
+     986,
+     "S. 252 b4 r12"
+    ],
+    [
+     "Kleidung",
+     "Spinnereibesitzer",
+     "Spinning-mill owner",
+     "Gera",
+     5,
+     60,
+     7,
+     78,
+     150,
+     "S. 252 b4 r13"
+    ],
+    [
+     "Kleidung",
+     "Spinnereibesitzer",
+     "Spinning-mill owner",
+     "Schleiz",
+     2,
+     30,
+     null,
+     20,
+     52,
+     "S. 252 b4 r13"
+    ],
+    [
+     "Kleidung",
+     "Spinnereibesitzer",
+     "Spinning-mill owner",
+     "Lobenstein-Ebersdorf",
+     3,
+     16,
+     2,
+     8,
+     29,
+     "S. 252 b4 r13"
+    ],
+    [
+     "Kleidung",
+     "Tuchmacher",
+     "Cloth maker",
+     "Gera",
+     25,
+     21,
+     10,
+     101,
+     157,
+     "S. 252 b4 r14"
+    ],
+    [
+     "Kleidung",
+     "Tuchmacher",
+     "Cloth maker",
+     "Schleiz",
+     5,
+     1,
+     null,
+     12,
+     18,
+     "S. 252 b4 r14"
+    ],
+    [
+     "Kleidung",
+     "Tuchmacher",
+     "Cloth maker",
+     "Lobenstein-Ebersdorf",
+     36,
+     29,
+     1,
+     119,
+     185,
+     "S. 252 b4 r14"
+    ],
+    [
+     "Kleidung",
+     "Wollen- und Tuchwaarenfabriker",
+     "Woollen and cloth manufacturer",
+     "Gera",
+     36,
+     154,
+     63,
+     315,
+     568,
+     "S. 252 b4 r15"
+    ],
+    [
+     "Kleidung",
+     "Wollen- und Tuchwaarenfabriker",
+     "Woollen and cloth manufacturer",
+     "Schleiz",
+     1,
+     9,
+     2,
+     13,
+     25,
+     "S. 252 b4 r15"
+    ],
+    [
+     "Kleidung",
+     "Wollen- und Tuchwaarenfabriker",
+     "Woollen and cloth manufacturer",
+     "Lobenstein-Ebersdorf",
+     9,
+     64,
+     12,
+     136,
+     221,
+     "S. 252 b4 r15"
+    ],
+    [
+     "Kleidung",
+     "Färber",
+     "Dyer",
+     "Gera",
+     11,
+     46,
+     9,
+     124,
+     190,
+     "S. 252 b4 r16"
+    ],
+    [
+     "Kleidung",
+     "Färber",
+     "Dyer",
+     "Schleiz",
+     6,
+     2,
+     2,
+     24,
+     34,
+     "S. 252 b4 r16"
+    ],
+    [
+     "Kleidung",
+     "Färber",
+     "Dyer",
+     "Lobenstein-Ebersdorf",
+     7,
+     6,
+     7,
+     29,
+     49,
+     "S. 252 b4 r16"
+    ],
+    [
+     "Kleidung",
+     "Gerber",
+     "Tanner",
+     "Gera",
+     66,
+     112,
+     32,
+     251,
+     461,
+     "S. 252 b4 r17"
+    ],
+    [
+     "Kleidung",
+     "Gerber",
+     "Tanner",
+     "Schleiz",
+     29,
+     27,
+     10,
+     84,
+     150,
+     "S. 252 b4 r17"
+    ],
+    [
+     "Kleidung",
+     "Gerber",
+     "Tanner",
+     "Lobenstein-Ebersdorf",
+     22,
+     19,
+     17,
+     73,
+     131,
+     "S. 252 b4 r17"
+    ],
+    [
+     "Kleidung",
+     "Posamentirer",
+     "Trimmings maker",
+     "Gera",
+     26,
+     25,
+     8,
+     26,
+     85,
+     "S. 252 b4 r18"
+    ],
+    [
+     "Kleidung",
+     "Posamentirer",
+     "Trimmings maker",
+     "Schleiz",
+     27,
+     6,
+     2,
+     48,
+     83,
+     "S. 252 b4 r18"
+    ],
+    [
+     "Kleidung",
+     "Posamentirer",
+     "Trimmings maker",
+     "Lobenstein-Ebersdorf",
+     11,
+     2,
+     null,
+     12,
+     25,
+     "S. 252 b4 r18"
+    ],
+    [
+     "Kleidung",
+     "Schneider",
+     "Tailor",
+     "Gera",
+     216,
+     95,
+     12,
+     539,
+     862,
+     "S. 252 b4 r19"
+    ],
+    [
+     "Kleidung",
+     "Schneider",
+     "Tailor",
+     "Schleiz",
+     111,
+     60,
+     1,
+     270,
+     442,
+     "S. 252 b4 r19"
+    ],
+    [
+     "Kleidung",
+     "Schneider",
+     "Tailor",
+     "Lobenstein-Ebersdorf",
+     107,
+     48,
+     2,
+     311,
+     468,
+     "S. 252 b4 r19"
+    ],
+    [
+     "Kleidung",
+     "Schuhmacher",
+     "Shoemaker",
+     "Gera",
+     268,
+     184,
+     10,
+     695,
+     1157,
+     "S. 252 b4 r20"
+    ],
+    [
+     "Kleidung",
+     "Schuhmacher",
+     "Shoemaker",
+     "Schleiz",
+     227,
+     119,
+     2,
+     601,
+     949,
+     "S. 252 b4 r20"
+    ],
+    [
+     "Kleidung",
+     "Schuhmacher",
+     "Shoemaker",
+     "Lobenstein-Ebersdorf",
+     148,
+     81,
+     7,
+     395,
+     631,
+     "S. 252 b4 r20"
+    ],
+    [
+     "Kleidung",
+     "Strick-, Sticker- und Spinner",
+     "Knitter, embroiderer and spinner",
+     "Gera",
+     427,
+     11,
+     2,
+     106,
+     546,
+     "S. 252 b4 r21"
+    ],
+    [
+     "Kleidung",
+     "Strick-, Sticker- und Spinner",
+     "Knitter, embroiderer and spinner",
+     "Schleiz",
+     266,
+     4,
+     null,
+     83,
+     353,
+     "S. 252 b4 r21"
+    ],
+    [
+     "Kleidung",
+     "Strick-, Sticker- und Spinner",
+     "Knitter, embroiderer and spinner",
+     "Lobenstein-Ebersdorf",
+     319,
+     3,
+     null,
+     113,
+     435,
+     "S. 252 b4 r21"
+    ],
+    [
+     "Kleidung",
+     "Strumpfwirker",
+     "Stocking weaver",
+     "Gera",
+     6,
+     3,
+     null,
+     5,
+     14,
+     "S. 252 b4 r23"
+    ],
+    [
+     "Kleidung",
+     "Strumpfwirker",
+     "Stocking weaver",
+     "Schleiz",
+     136,
+     87,
+     2,
+     347,
+     572,
+     "S. 252 b4 r23"
+    ],
+    [
+     "Kleidung",
+     "Strumpfwirker",
+     "Stocking weaver",
+     "Lobenstein-Ebersdorf",
+     85,
+     67,
+     1,
+     253,
+     406,
+     "S. 252 b4 r23"
+    ],
+    [
+     "Kleidung",
+     "Beutler, Kürschner, Handschuh- und Mützenmacher",
+     "Pouch, fur, glove and cap makers",
+     "Gera",
+     24,
+     18,
+     5,
+     53,
+     100,
+     "S. 252 b4 r25"
+    ],
+    [
+     "Kleidung",
+     "Beutler, Kürschner, Handschuh- und Mützenmacher",
+     "Pouch, fur, glove and cap makers",
+     "Schleiz",
+     13,
+     4,
+     null,
+     29,
+     46,
+     "S. 252 b4 r25"
+    ],
+    [
+     "Kleidung",
+     "Beutler, Kürschner, Handschuh- und Mützenmacher",
+     "Pouch, fur, glove and cap makers",
+     "Lobenstein-Ebersdorf",
+     8,
+     2,
+     1,
+     25,
+     36,
+     "S. 252 b4 r25"
+    ],
+    [
+     "Kleidung",
+     "Hutmacher",
+     "Hatter",
+     "Gera",
+     4,
+     6,
+     1,
+     18,
+     29,
+     "S. 252 b4 r26"
+    ],
+    [
+     "Kleidung",
+     "Hutmacher",
+     "Hatter",
+     "Schleiz",
+     4,
+     2,
+     null,
+     21,
+     27,
+     "S. 252 b4 r26"
+    ],
+    [
+     "Kleidung",
+     "Hutmacher",
+     "Hatter",
+     "Lobenstein-Ebersdorf",
+     5,
+     3,
+     1,
+     7,
+     16,
+     "S. 252 b4 r26"
+    ],
+    [
+     "Bauhandwerker",
+     "Glaser",
+     "Glazier",
+     "Gera",
+     21,
+     19,
+     null,
+     72,
+     112,
+     "S. 253 b1 r4"
+    ],
+    [
+     "Bauhandwerker",
+     "Glaser",
+     "Glazier",
+     "Schleiz",
+     16,
+     10,
+     2,
+     48,
+     76,
+     "S. 253 b1 r4"
+    ],
+    [
+     "Bauhandwerker",
+     "Glaser",
+     "Glazier",
+     "Lobenstein-Ebersdorf",
+     15,
+     14,
+     5,
+     39,
+     73,
+     "S. 253 b1 r4"
+    ],
+    [
+     "Bauhandwerker",
+     "Maurer, Steinhauer",
+     "Mason, stonecutter",
+     "Gera",
+     50,
+     649,
+     17,
+     1140,
+     1856,
+     "S. 253 b1 r5"
+    ],
+    [
+     "Bauhandwerker",
+     "Maurer, Steinhauer",
+     "Mason, stonecutter",
+     "Schleiz",
+     11,
+     467,
+     2,
+     986,
+     1466,
+     "S. 253 b1 r5"
+    ],
+    [
+     "Bauhandwerker",
+     "Maurer, Steinhauer",
+     "Mason, stonecutter",
+     "Lobenstein-Ebersdorf",
+     16,
+     524,
+     4,
+     1108,
+     1652,
+     "S. 253 b1 r5"
+    ],
+    [
+     "Bauhandwerker",
+     "Lackirer, Tüncher, Stubenmaler",
+     "Varnisher, whitewasher, house painter",
+     "Gera",
+     31,
+     24,
+     2,
+     96,
+     153,
+     "S. 253 b1 r6"
+    ],
+    [
+     "Bauhandwerker",
+     "Lackirer, Tüncher, Stubenmaler",
+     "Varnisher, whitewasher, house painter",
+     "Schleiz",
+     1,
+     4,
+     null,
+     9,
+     14,
+     "S. 253 b1 r6"
+    ],
+    [
+     "Bauhandwerker",
+     "Lackirer, Tüncher, Stubenmaler",
+     "Varnisher, whitewasher, house painter",
+     "Lobenstein-Ebersdorf",
+     5,
+     2,
+     null,
+     12,
+     19,
+     "S. 253 b1 r6"
+    ],
+    [
+     "Bauhandwerker",
+     "Schornsteinfeger",
+     "Chimney sweep",
+     "Gera",
+     3,
+     7,
+     null,
+     10,
+     20,
+     "S. 253 b1 r7"
+    ],
+    [
+     "Bauhandwerker",
+     "Schornsteinfeger",
+     "Chimney sweep",
+     "Schleiz",
+     4,
+     5,
+     null,
+     12,
+     21,
+     "S. 253 b1 r7"
+    ],
+    [
+     "Bauhandwerker",
+     "Schornsteinfeger",
+     "Chimney sweep",
+     "Lobenstein-Ebersdorf",
+     3,
+     4,
+     null,
+     11,
+     18,
+     "S. 253 b1 r7"
+    ],
+    [
+     "Bauhandwerker",
+     "Dachdecker",
+     "Roofer",
+     "Gera",
+     13,
+     17,
+     null,
+     77,
+     107,
+     "S. 253 b1 r8"
+    ],
+    [
+     "Bauhandwerker",
+     "Dachdecker",
+     "Roofer",
+     "Schleiz",
+     16,
+     14,
+     2,
+     58,
+     90,
+     "S. 253 b1 r8"
+    ],
+    [
+     "Bauhandwerker",
+     "Dachdecker",
+     "Roofer",
+     "Lobenstein-Ebersdorf",
+     51,
+     284,
+     10,
+     460,
+     805,
+     "S. 253 b1 r8"
+    ],
+    [
+     "Bauhandwerker",
+     "Ziegelbrenner",
+     "Brickmaker",
+     "Gera",
+     27,
+     25,
+     9,
+     148,
+     209,
+     "S. 253 b1 r9"
+    ],
+    [
+     "Bauhandwerker",
+     "Ziegelbrenner",
+     "Brickmaker",
+     "Schleiz",
+     14,
+     8,
+     6,
+     54,
+     82,
+     "S. 253 b1 r9"
+    ],
+    [
+     "Bauhandwerker",
+     "Ziegelbrenner",
+     "Brickmaker",
+     "Lobenstein-Ebersdorf",
+     7,
+     8,
+     null,
+     38,
+     53,
+     "S. 253 b1 r9"
+    ],
+    [
+     "Bauhandwerker",
+     "Zimmerleute",
+     "Carpenter",
+     "Gera",
+     16,
+     332,
+     12,
+     524,
+     884,
+     "S. 253 b1 r10"
+    ],
+    [
+     "Bauhandwerker",
+     "Zimmerleute",
+     "Carpenter",
+     "Schleiz",
+     18,
+     287,
+     2,
+     577,
+     884,
+     "S. 253 b1 r10"
+    ],
+    [
+     "Bauhandwerker",
+     "Zimmerleute",
+     "Carpenter",
+     "Lobenstein-Ebersdorf",
+     11,
+     279,
+     3,
+     565,
+     858,
+     "S. 253 b1 r10"
+    ],
+    [
+     "Hausausstattung",
+     "Gürtler, Rothgießer",
+     "Brazier, brass founder",
+     "Gera",
+     7,
+     6,
+     null,
+     25,
+     38,
+     "S. 253 b1 r13"
+    ],
+    [
+     "Hausausstattung",
+     "Gürtler, Rothgießer",
+     "Brazier, brass founder",
+     "Schleiz",
+     6,
+     16,
+     1,
+     27,
+     50,
+     "S. 253 b1 r13"
+    ],
+    [
+     "Hausausstattung",
+     "Gürtler, Rothgießer",
+     "Brazier, brass founder",
+     "Lobenstein-Ebersdorf",
+     3,
+     null,
+     1,
+     10,
+     14,
+     "S. 253 b1 r13"
+    ],
+    [
+     "Hausausstattung",
+     "Klempner",
+     "Tinsmith",
+     "Gera",
+     14,
+     32,
+     3,
+     25,
+     74,
+     "S. 253 b1 r14"
+    ],
+    [
+     "Hausausstattung",
+     "Klempner",
+     "Tinsmith",
+     "Schleiz",
+     15,
+     9,
+     3,
+     53,
+     80,
+     "S. 253 b1 r14"
+    ],
+    [
+     "Hausausstattung",
+     "Klempner",
+     "Tinsmith",
+     "Lobenstein-Ebersdorf",
+     9,
+     5,
+     null,
+     17,
+     31,
+     "S. 253 b1 r14"
+    ],
+    [
+     "Hausausstattung",
+     "Kupferschmiede",
+     "Coppersmith",
+     "Gera",
+     5,
+     3,
+     null,
+     12,
+     20,
+     "S. 253 b1 r15"
+    ],
+    [
+     "Hausausstattung",
+     "Kupferschmiede",
+     "Coppersmith",
+     "Schleiz",
+     1,
+     1,
+     null,
+     null,
+     2,
+     "S. 253 b1 r15"
+    ],
+    [
+     "Hausausstattung",
+     "Kupferschmiede",
+     "Coppersmith",
+     "Lobenstein-Ebersdorf",
+     4,
+     1,
+     null,
+     11,
+     16,
+     "S. 253 b1 r15"
+    ],
+    [
+     "Hausausstattung",
+     "Schlosser, Feilenhauer",
+     "Locksmith, file cutter",
+     "Gera",
+     41,
+     98,
+     6,
+     158,
+     303,
+     "S. 253 b1 r16"
+    ],
+    [
+     "Hausausstattung",
+     "Schlosser, Feilenhauer",
+     "Locksmith, file cutter",
+     "Schleiz",
+     30,
+     32,
+     5,
+     94,
+     161,
+     "S. 253 b1 r16"
+    ],
+    [
+     "Hausausstattung",
+     "Schlosser, Feilenhauer",
+     "Locksmith, file cutter",
+     "Lobenstein-Ebersdorf",
+     18,
+     27,
+     4,
+     54,
+     103,
+     "S. 253 b1 r16"
+    ],
+    [
+     "Hausausstattung",
+     "Schmiede",
+     "Blacksmith",
+     "Gera",
+     55,
+     85,
+     15,
+     182,
+     337,
+     "S. 253 b1 r17"
+    ],
+    [
+     "Hausausstattung",
+     "Schmiede",
+     "Blacksmith",
+     "Schleiz",
+     66,
+     52,
+     15,
+     197,
+     330,
+     "S. 253 b1 r17"
+    ],
+    [
+     "Hausausstattung",
+     "Schmiede",
+     "Blacksmith",
+     "Lobenstein-Ebersdorf",
+     78,
+     54,
+     10,
+     256,
+     398,
+     "S. 253 b1 r17"
+    ],
+    [
+     "Hausausstattung",
+     "Zinngießer",
+     "Pewterer",
+     "Gera",
+     2,
+     4,
+     null,
+     6,
+     12,
+     "S. 253 b1 r18"
+    ],
+    [
+     "Hausausstattung",
+     "Zinngießer",
+     "Pewterer",
+     "Schleiz",
+     2,
+     1,
+     1,
+     9,
+     13,
+     "S. 253 b1 r18"
+    ],
+    [
+     "Hausausstattung",
+     "Zinngießer",
+     "Pewterer",
+     "Lobenstein-Ebersdorf",
+     1,
+     null,
+     null,
+     2,
+     3,
+     "S. 253 b1 r18"
+    ],
+    [
+     "Hausausstattung",
+     "Nadler",
+     "Needle maker",
+     "Gera",
+     8,
+     4,
+     1,
+     31,
+     44,
+     "S. 253 b1 r19"
+    ],
+    [
+     "Hausausstattung",
+     "Nadler",
+     "Needle maker",
+     "Schleiz",
+     null,
+     null,
+     null,
+     null,
+     0,
+     "S. 253 b1 r19"
+    ],
+    [
+     "Hausausstattung",
+     "Nadler",
+     "Needle maker",
+     "Lobenstein-Ebersdorf",
+     1,
+     null,
+     null,
+     1,
+     2,
+     "S. 253 b1 r19"
+    ],
+    [
+     "Hausausstattung",
+     "Böttcher",
+     "Cooper",
+     "Gera",
+     48,
+     41,
+     1,
+     115,
+     205,
+     "S. 253 b1 r21"
+    ],
+    [
+     "Hausausstattung",
+     "Böttcher",
+     "Cooper",
+     "Schleiz",
+     44,
+     14,
+     2,
+     null,
+     60,
+     "S. 253 b1 r21"
+    ],
+    [
+     "Hausausstattung",
+     "Böttcher",
+     "Cooper",
+     "Lobenstein-Ebersdorf",
+     34,
+     11,
+     2,
+     106,
+     153,
+     "S. 253 b1 r21"
+    ],
+    [
+     "Hausausstattung",
+     "Bürstenmacher",
+     "Brush maker",
+     "Gera",
+     2,
+     4,
+     null,
+     11,
+     17,
+     "S. 253 b1 r22"
+    ],
+    [
+     "Hausausstattung",
+     "Bürstenmacher",
+     "Brush maker",
+     "Schleiz",
+     null,
+     null,
+     null,
+     100,
+     100,
+     "S. 253 b1 r22"
+    ],
+    [
+     "Hausausstattung",
+     "Bürstenmacher",
+     "Brush maker",
+     "Lobenstein-Ebersdorf",
+     7,
+     1,
+     null,
+     16,
+     24,
+     "S. 253 b1 r22"
+    ],
+    [
+     "Hausausstattung",
+     "Drechsler",
+     "Turner",
+     "Gera",
+     24,
+     9,
+     2,
+     55,
+     90,
+     "S. 253 b1 r23"
+    ],
+    [
+     "Hausausstattung",
+     "Drechsler",
+     "Turner",
+     "Schleiz",
+     17,
+     9,
+     null,
+     35,
+     61,
+     "S. 253 b1 r23"
+    ],
+    [
+     "Hausausstattung",
+     "Drechsler",
+     "Turner",
+     "Lobenstein-Ebersdorf",
+     15,
+     2,
+     3,
+     51,
+     71,
+     "S. 253 b1 r23"
+    ],
+    [
+     "Hausausstattung",
+     "Korb- und Siebmacher",
+     "Basket and sieve maker",
+     "Gera",
+     33,
+     18,
+     1,
+     74,
+     126,
+     "S. 253 b1 r24"
+    ],
+    [
+     "Hausausstattung",
+     "Korb- und Siebmacher",
+     "Basket and sieve maker",
+     "Schleiz",
+     6,
+     2,
+     null,
+     13,
+     21,
+     "S. 253 b1 r24"
+    ],
+    [
+     "Hausausstattung",
+     "Korb- und Siebmacher",
+     "Basket and sieve maker",
+     "Lobenstein-Ebersdorf",
+     4,
+     null,
+     null,
+     8,
+     12,
+     "S. 253 b1 r24"
+    ],
+    [
+     "Hausausstattung",
+     "Tischler",
+     "Joiner",
+     "Gera",
+     98,
+     161,
+     11,
+     329,
+     599,
+     "S. 253 b1 r25"
+    ],
+    [
+     "Hausausstattung",
+     "Tischler",
+     "Joiner",
+     "Schleiz",
+     59,
+     40,
+     3,
+     178,
+     280,
+     "S. 253 b1 r25"
+    ],
+    [
+     "Hausausstattung",
+     "Tischler",
+     "Joiner",
+     "Lobenstein-Ebersdorf",
+     47,
+     38,
+     4,
+     144,
+     233,
+     "S. 253 b1 r25"
+    ],
+    [
+     "Hausausstattung",
+     "Wagner",
+     "Wheelwright",
+     "Gera",
+     43,
+     25,
+     6,
+     103,
+     177,
+     "S. 253 b1 r26"
+    ],
+    [
+     "Hausausstattung",
+     "Wagner",
+     "Wheelwright",
+     "Schleiz",
+     37,
+     15,
+     2,
+     82,
+     136,
+     "S. 253 b1 r26"
+    ],
+    [
+     "Hausausstattung",
+     "Wagner",
+     "Wheelwright",
+     "Lobenstein-Ebersdorf",
+     34,
+     16,
+     3,
+     114,
+     167,
+     "S. 253 b1 r26"
+    ],
+    [
+     "Hausausstattung",
+     "Holzschuhmacher, Muldenhauer",
+     "Clog and trough maker",
+     "Gera",
+     2,
+     null,
+     null,
+     4,
+     6,
+     "S. 253 b1 r27"
+    ],
+    [
+     "Hausausstattung",
+     "Holzschuhmacher, Muldenhauer",
+     "Clog and trough maker",
+     "Schleiz",
+     2,
+     null,
+     null,
+     4,
+     6,
+     "S. 253 b1 r27"
+    ],
+    [
+     "Hausausstattung",
+     "Holzschuhmacher, Muldenhauer",
+     "Clog and trough maker",
+     "Lobenstein-Ebersdorf",
+     null,
+     null,
+     null,
+     null,
+     0,
+     "S. 253 b1 r27"
+    ],
+    [
+     "Hausausstattung",
+     "Kammmacher",
+     "Comb maker",
+     "Gera",
+     7,
+     4,
+     null,
+     23,
+     34,
+     "S. 253 b1 r28"
+    ],
+    [
+     "Hausausstattung",
+     "Kammmacher",
+     "Comb maker",
+     "Schleiz",
+     1,
+     null,
+     null,
+     1,
+     2,
+     "S. 253 b1 r28"
+    ],
+    [
+     "Hausausstattung",
+     "Kammmacher",
+     "Comb maker",
+     "Lobenstein-Ebersdorf",
+     1,
+     1,
+     null,
+     null,
+     2,
+     "S. 253 b1 r28"
+    ],
+    [
+     "Hausausstattung",
+     "Riemer, Sattler, Tapezirer",
+     "Harness maker, saddler, upholsterer",
+     "Gera",
+     41,
+     24,
+     1,
+     108,
+     174,
+     "S. 253 b1 r29"
+    ],
+    [
+     "Hausausstattung",
+     "Riemer, Sattler, Tapezirer",
+     "Harness maker, saddler, upholsterer",
+     "Schleiz",
+     17,
+     8,
+     1,
+     43,
+     69,
+     "S. 253 b1 r29"
+    ],
+    [
+     "Hausausstattung",
+     "Riemer, Sattler, Tapezirer",
+     "Harness maker, saddler, upholsterer",
+     "Lobenstein-Ebersdorf",
+     11,
+     3,
+     null,
+     31,
+     45,
+     "S. 253 b1 r29"
+    ],
+    [
+     "Hausausstattung",
+     "Seiler",
+     "Rope maker",
+     "Gera",
+     33,
+     41,
+     12,
+     136,
+     222,
+     "S. 253 b1 r30"
+    ],
+    [
+     "Hausausstattung",
+     "Seiler",
+     "Rope maker",
+     "Schleiz",
+     18,
+     4,
+     2,
+     42,
+     66,
+     "S. 253 b1 r30"
+    ],
+    [
+     "Hausausstattung",
+     "Seiler",
+     "Rope maker",
+     "Lobenstein-Ebersdorf",
+     9,
+     3,
+     3,
+     32,
+     47,
+     "S. 253 b1 r30"
+    ],
+    [
+     "Hausausstattung",
+     "Töpfer",
+     "Potter",
+     "Gera",
+     6,
+     5,
+     1,
+     10,
+     22,
+     "S. 253 b1 r31"
+    ],
+    [
+     "Hausausstattung",
+     "Töpfer",
+     "Potter",
+     "Schleiz",
+     6,
+     2,
+     2,
+     14,
+     24,
+     "S. 253 b1 r31"
+    ],
+    [
+     "Hausausstattung",
+     "Töpfer",
+     "Potter",
+     "Lobenstein-Ebersdorf",
+     3,
+     3,
+     null,
+     14,
+     20,
+     "S. 253 b1 r31"
+    ],
+    [
+     "Hausausstattung",
+     "Porzellanmaler",
+     "Porcelain painter",
+     "Gera",
+     14,
+     18,
+     1,
+     45,
+     78,
+     "S. 253 b1 r32"
+    ],
+    [
+     "Hausausstattung",
+     "Porzellanmaler",
+     "Porcelain painter",
+     "Schleiz",
+     1,
+     null,
+     null,
+     2,
+     3,
+     "S. 253 b1 r32"
+    ],
+    [
+     "Hausausstattung",
+     "Porzellanmaler",
+     "Porcelain painter",
+     "Lobenstein-Ebersdorf",
+     null,
+     null,
+     null,
+     null,
+     0,
+     "S. 253 b1 r32"
+    ],
+    [
+     "Hausausstattung",
+     "Porzellanwaarenfabrikanten",
+     "Porcelain manufacturer",
+     "Gera",
+     2,
+     20,
+     2,
+     42,
+     66,
+     "S. 253 b1 r33"
+    ],
+    [
+     "Hausausstattung",
+     "Porzellanwaarenfabrikanten",
+     "Porcelain manufacturer",
+     "Schleiz",
+     null,
+     null,
+     null,
+     null,
+     0,
+     "S. 253 b1 r33"
+    ],
+    [
+     "Hausausstattung",
+     "Porzellanwaarenfabrikanten",
+     "Porcelain manufacturer",
+     "Lobenstein-Ebersdorf",
+     null,
+     null,
+     null,
+     null,
+     0,
+     "S. 253 b1 r33"
+    ],
+    [
+     "Hausausstattung",
+     "Maschinenbauer",
+     "Machine builder",
+     "Gera",
+     9,
+     109,
+     4,
+     183,
+     305,
+     "S. 253 b1 r34"
+    ],
+    [
+     "Hausausstattung",
+     "Maschinenbauer",
+     "Machine builder",
+     "Schleiz",
+     null,
+     null,
+     null,
+     null,
+     0,
+     "S. 253 b1 r34"
+    ],
+    [
+     "Hausausstattung",
+     "Maschinenbauer",
+     "Machine builder",
+     "Lobenstein-Ebersdorf",
+     3,
+     49,
+     7,
+     90,
+     149,
+     "S. 253 b1 r34"
+    ],
+    [
+     "Hausausstattung",
+     "Mühlenbauer",
+     "Millwright",
+     "Gera",
+     10,
+     2,
+     null,
+     18,
+     30,
+     "S. 253 b1 r35"
+    ],
+    [
+     "Hausausstattung",
+     "Mühlenbauer",
+     "Millwright",
+     "Schleiz",
+     5,
+     5,
+     null,
+     12,
+     22,
+     "S. 253 b1 r35"
+    ],
+    [
+     "Hausausstattung",
+     "Mühlenbauer",
+     "Millwright",
+     "Lobenstein-Ebersdorf",
+     4,
+     3,
+     null,
+     15,
+     22,
+     "S. 253 b1 r35"
+    ],
+    [
+     "Hausausstattung",
+     "Apotheker",
+     "Pharmacist",
+     "Gera",
+     2,
+     8,
+     5,
+     11,
+     26,
+     "S. 253 b1 r36"
+    ],
+    [
+     "Hausausstattung",
+     "Apotheker",
+     "Pharmacist",
+     "Schleiz",
+     4,
+     3,
+     5,
+     14,
+     26,
+     "S. 253 b1 r36"
+    ],
+    [
+     "Hausausstattung",
+     "Apotheker",
+     "Pharmacist",
+     "Lobenstein-Ebersdorf",
+     4,
+     5,
+     3,
+     6,
+     18,
+     "S. 253 b1 r36"
+    ],
+    [
+     "Hausausstattung",
+     "Hebammen",
+     "Midwife",
+     "Gera",
+     27,
+     null,
+     null,
+     9,
+     36,
+     "S. 253 b1 r37"
+    ],
+    [
+     "Hausausstattung",
+     "Hebammen",
+     "Midwife",
+     "Schleiz",
+     24,
+     null,
+     null,
+     5,
+     29,
+     "S. 253 b1 r37"
+    ],
+    [
+     "Hausausstattung",
+     "Hebammen",
+     "Midwife",
+     "Lobenstein-Ebersdorf",
+     32,
+     null,
+     null,
+     4,
+     36,
+     "S. 253 b1 r37"
+    ],
+    [
+     "Hausausstattung",
+     "Barbierer",
+     "Barber",
+     "Gera",
+     29,
+     18,
+     2,
+     72,
+     121,
+     "S. 253 b1 r38"
+    ],
+    [
+     "Hausausstattung",
+     "Barbierer",
+     "Barber",
+     "Schleiz",
+     14,
+     null,
+     1,
+     27,
+     42,
+     "S. 253 b1 r38"
+    ],
+    [
+     "Hausausstattung",
+     "Barbierer",
+     "Barber",
+     "Lobenstein-Ebersdorf",
+     5,
+     3,
+     null,
+     11,
+     19,
+     "S. 253 b1 r38"
+    ],
+    [
+     "Hausausstattung",
+     "Seifensieder",
+     "Soap boiler",
+     "Gera",
+     8,
+     4,
+     5,
+     24,
+     41,
+     "S. 253 b1 r39"
+    ],
+    [
+     "Hausausstattung",
+     "Seifensieder",
+     "Soap boiler",
+     "Schleiz",
+     11,
+     1,
+     2,
+     17,
+     31,
+     "S. 253 b1 r39"
+    ],
+    [
+     "Hausausstattung",
+     "Seifensieder",
+     "Soap boiler",
+     "Lobenstein-Ebersdorf",
+     5,
+     2,
+     3,
+     19,
+     29,
+     "S. 253 b1 r39"
+    ],
+    [
+     "Hausausstattung",
+     "Hadersammler",
+     "Rag collector",
+     "Gera",
+     1,
+     2,
+     null,
+     2,
+     5,
+     "S. 253 b1 r40"
+    ],
+    [
+     "Hausausstattung",
+     "Hadersammler",
+     "Rag collector",
+     "Schleiz",
+     3,
+     null,
+     null,
+     2,
+     5,
+     "S. 253 b1 r40"
+    ],
+    [
+     "Hausausstattung",
+     "Hadersammler",
+     "Rag collector",
+     "Lobenstein-Ebersdorf",
+     3,
+     null,
+     null,
+     2,
+     5,
+     "S. 253 b1 r40"
+    ],
+    [
+     "Hausausstattung",
+     "Papiermüller",
+     "Paper miller",
+     "Gera",
+     null,
+     null,
+     null,
+     null,
+     0,
+     "S. 253 b1 r41"
+    ],
+    [
+     "Hausausstattung",
+     "Papiermüller",
+     "Paper miller",
+     "Schleiz",
+     1,
+     1,
+     null,
+     2,
+     4,
+     "S. 253 b1 r41"
+    ],
+    [
+     "Hausausstattung",
+     "Papiermüller",
+     "Paper miller",
+     "Lobenstein-Ebersdorf",
+     null,
+     null,
+     null,
+     null,
+     0,
+     "S. 253 b1 r41"
+    ],
+    [
+     "Hausausstattung",
+     "Buchdrucker",
+     "Printer",
+     "Gera",
+     1,
+     9,
+     1,
+     15,
+     26,
+     "S. 253 b1 r42"
+    ],
+    [
+     "Hausausstattung",
+     "Buchdrucker",
+     "Printer",
+     "Schleiz",
+     1,
+     2,
+     null,
+     3,
+     6,
+     "S. 253 b1 r42"
+    ],
+    [
+     "Hausausstattung",
+     "Buchdrucker",
+     "Printer",
+     "Lobenstein-Ebersdorf",
+     1,
+     1,
+     null,
+     7,
+     9,
+     "S. 253 b1 r42"
+    ],
+    [
+     "Hausausstattung",
+     "Buchbinder",
+     "Bookbinder",
+     "Gera",
+     15,
+     17,
+     2,
+     30,
+     64,
+     "S. 254 b1 r4"
+    ],
+    [
+     "Hausausstattung",
+     "Buchbinder",
+     "Bookbinder",
+     "Schleiz",
+     5,
+     5,
+     1,
+     9,
+     20,
+     "S. 254 b1 r4"
+    ],
+    [
+     "Hausausstattung",
+     "Buchbinder",
+     "Bookbinder",
+     "Lobenstein-Ebersdorf",
+     5,
+     4,
+     null,
+     11,
+     20,
+     "S. 254 b1 r4"
+    ],
+    [
+     "Hausausstattung",
+     "Abschreiber",
+     "Copyist",
+     "Gera",
+     22,
+     null,
+     null,
+     6,
+     28,
+     "S. 254 b1 r5"
+    ],
+    [
+     "Hausausstattung",
+     "Abschreiber",
+     "Copyist",
+     "Schleiz",
+     10,
+     null,
+     null,
+     null,
+     10,
+     "S. 254 b1 r5"
+    ],
+    [
+     "Hausausstattung",
+     "Abschreiber",
+     "Copyist",
+     "Lobenstein-Ebersdorf",
+     5,
+     null,
+     null,
+     null,
+     5,
+     "S. 254 b1 r5"
+    ],
+    [
+     "Hausausstattung",
+     "Mechaniker",
+     "Mechanic",
+     "Gera",
+     5,
+     3,
+     1,
+     13,
+     22,
+     "S. 254 b1 r6"
+    ],
+    [
+     "Hausausstattung",
+     "Mechaniker",
+     "Mechanic",
+     "Schleiz",
+     null,
+     null,
+     null,
+     null,
+     0,
+     "S. 254 b1 r6"
+    ],
+    [
+     "Hausausstattung",
+     "Mechaniker",
+     "Mechanic",
+     "Lobenstein-Ebersdorf",
+     null,
+     null,
+     null,
+     null,
+     0,
+     "S. 254 b1 r6"
+    ],
+    [
+     "Hausausstattung",
+     "Uhrmacher",
+     "Watchmaker",
+     "Gera",
+     9,
+     9,
+     1,
+     23,
+     42,
+     "S. 254 b1 r7"
+    ],
+    [
+     "Hausausstattung",
+     "Uhrmacher",
+     "Watchmaker",
+     "Schleiz",
+     5,
+     1,
+     null,
+     7,
+     13,
+     "S. 254 b1 r7"
+    ],
+    [
+     "Hausausstattung",
+     "Uhrmacher",
+     "Watchmaker",
+     "Lobenstein-Ebersdorf",
+     7,
+     6,
+     null,
+     14,
+     27,
+     "S. 254 b1 r7"
+    ],
+    [
+     "Hausausstattung",
+     "Kupferstecher, Lithographen",
+     "Engraver, lithographer",
+     "Gera",
+     13,
+     64,
+     3,
+     111,
+     191,
+     "S. 254 b1 r8"
+    ],
+    [
+     "Hausausstattung",
+     "Kupferstecher, Lithographen",
+     "Engraver, lithographer",
+     "Schleiz",
+     null,
+     null,
+     null,
+     null,
+     0,
+     "S. 254 b1 r8"
+    ],
+    [
+     "Hausausstattung",
+     "Kupferstecher, Lithographen",
+     "Engraver, lithographer",
+     "Lobenstein-Ebersdorf",
+     null,
+     null,
+     null,
+     null,
+     0,
+     "S. 254 b1 r8"
+    ],
+    [
+     "Hausausstattung",
+     "Photographen",
+     "Photographer",
+     "Gera",
+     4,
+     null,
+     2,
+     6,
+     12,
+     "S. 254 b1 r9"
+    ],
+    [
+     "Hausausstattung",
+     "Photographen",
+     "Photographer",
+     "Schleiz",
+     1,
+     null,
+     null,
+     5,
+     6,
+     "S. 254 b1 r9"
+    ],
+    [
+     "Hausausstattung",
+     "Photographen",
+     "Photographer",
+     "Lobenstein-Ebersdorf",
+     null,
+     null,
+     null,
+     null,
+     0,
+     "S. 254 b1 r9"
+    ],
+    [
+     "Hausausstattung",
+     "Instrumentenmacher",
+     "Instrument maker",
+     "Gera",
+     22,
+     147,
+     12,
+     186,
+     367,
+     "S. 254 b1 r10"
+    ],
+    [
+     "Hausausstattung",
+     "Instrumentenmacher",
+     "Instrument maker",
+     "Schleiz",
+     3,
+     3,
+     null,
+     5,
+     11,
+     "S. 254 b1 r10"
+    ],
+    [
+     "Hausausstattung",
+     "Instrumentenmacher",
+     "Instrument maker",
+     "Lobenstein-Ebersdorf",
+     1,
+     null,
+     null,
+     3,
+     4,
+     "S. 254 b1 r10"
+    ],
+    [
+     "Hausausstattung",
+     "Gold- und Silberarbeiter",
+     "Gold and silver worker",
+     "Gera",
+     10,
+     12,
+     5,
+     28,
+     55,
+     "S. 254 b1 r11"
+    ],
+    [
+     "Hausausstattung",
+     "Gold- und Silberarbeiter",
+     "Gold and silver worker",
+     "Schleiz",
+     3,
+     1,
+     null,
+     6,
+     10,
+     "S. 254 b1 r11"
+    ],
+    [
+     "Hausausstattung",
+     "Gold- und Silberarbeiter",
+     "Gold and silver worker",
+     "Lobenstein-Ebersdorf",
+     4,
+     2,
+     null,
+     11,
+     17,
+     "S. 254 b1 r11"
+    ],
+    [
+     "Hausausstattung",
+     "Büchsenmacher",
+     "Gunsmith",
+     "Gera",
+     2,
+     2,
+     1,
+     5,
+     10,
+     "S. 254 b1 r12"
+    ],
+    [
+     "Hausausstattung",
+     "Büchsenmacher",
+     "Gunsmith",
+     "Schleiz",
+     1,
+     1,
+     null,
+     3,
+     5,
+     "S. 254 b1 r12"
+    ],
+    [
+     "Hausausstattung",
+     "Büchsenmacher",
+     "Gunsmith",
+     "Lobenstein-Ebersdorf",
+     1,
+     null,
+     null,
+     5,
+     6,
+     "S. 254 b1 r12"
+    ],
+    [
+     "Hausausstattung",
+     "Tabaksfabrikanten",
+     "Tobacco manufacturer",
+     "Gera",
+     9,
+     56,
+     13,
+     77,
+     155,
+     "S. 254 b1 r13"
+    ],
+    [
+     "Hausausstattung",
+     "Tabaksfabrikanten",
+     "Tobacco manufacturer",
+     "Schleiz",
+     null,
+     null,
+     null,
+     null,
+     0,
+     "S. 254 b1 r13"
+    ],
+    [
+     "Hausausstattung",
+     "Tabaksfabrikanten",
+     "Tobacco manufacturer",
+     "Lobenstein-Ebersdorf",
+     null,
+     null,
+     null,
+     null,
+     0,
+     "S. 254 b1 r13"
+    ],
+    [
+     "Hausausstattung",
+     "Wasenmeister",
+     "Knacker",
+     "Gera",
+     1,
+     null,
+     null,
+     5,
+     6,
+     "S. 254 b1 r16"
+    ],
+    [
+     "Hausausstattung",
+     "Wasenmeister",
+     "Knacker",
+     "Schleiz",
+     2,
+     null,
+     1,
+     5,
+     8,
+     "S. 254 b1 r16"
+    ],
+    [
+     "Hausausstattung",
+     "Wasenmeister",
+     "Knacker",
+     "Lobenstein-Ebersdorf",
+     1,
+     1,
+     null,
+     null,
+     2,
+     "S. 254 b1 r16"
+    ],
+    [
+     "Sonstige",
+     "Fabrikarbeiter ohne angegebenen Fabrikzweig",
+     "Factory workers, branch not stated",
+     "Gera",
+     651,
+     null,
+     1,
+     936,
+     1588,
+     "S. 254 b1 r19"
+    ],
+    [
+     "Sonstige",
+     "Fabrikarbeiter ohne angegebenen Fabrikzweig",
+     "Factory workers, branch not stated",
+     "Schleiz",
+     14,
+     null,
+     null,
+     18,
+     32,
+     "S. 254 b1 r19"
+    ],
+    [
+     "Sonstige",
+     "Fabrikarbeiter ohne angegebenen Fabrikzweig",
+     "Factory workers, branch not stated",
+     "Lobenstein-Ebersdorf",
+     61,
+     null,
+     null,
+     49,
+     110,
+     "S. 254 b1 r19"
+    ],
+    [
+     "Sonstige",
+     "Nichtbenannte Nahrungszweige",
+     "Unnamed food trades",
+     "Gera",
+     87,
+     126,
+     15,
+     392,
+     620,
+     "S. 254 b1 r20"
+    ],
+    [
+     "Sonstige",
+     "Nichtbenannte Nahrungszweige",
+     "Unnamed food trades",
+     "Schleiz",
+     33,
+     38,
+     6,
+     120,
+     197,
+     "S. 254 b1 r20"
+    ],
+    [
+     "Sonstige",
+     "Nichtbenannte Nahrungszweige",
+     "Unnamed food trades",
+     "Lobenstein-Ebersdorf",
+     48,
+     3,
+     1,
+     76,
+     128,
+     "S. 254 b1 r20"
+    ]
+   ],
+   "source_refs": [
+    {
+     "page": "252",
+     "block": "b4",
+     "rows": "r4-r26"
+    },
+    {
+     "page": "253",
+     "block": "b1",
+     "rows": "r4-r42"
+    },
+    {
+     "page": "254",
+     "block": "b1",
+     "rows": "r4-r20"
+    }
+   ]
+  },
+  {
+   "name": "anteile",
+   "title": {
+    "de": "Anteil der größten Gewerbe an Selbständigen und Gehilfen je Landesteil",
+    "en": "Share of the largest trades in masters and assistants by district"
+   },
+   "columns": [
+    {
+     "name": "trade",
+     "label": {
+      "de": "Gewerbe",
+      "en": "Trade"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "trade_en",
+     "label": {
+      "de": "Gewerbe (englisch)",
+      "en": "Trade (English)"
+     },
+     "type": "string",
+     "unit": null,
+     "derived": true
+    },
+    {
+     "name": "district",
+     "label": {
+      "de": "Landesteil",
+      "en": "District"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "sg",
+     "label": {
+      "de": "Selbständige und Gehilfen",
+      "en": "Masters and assistants"
+     },
+     "type": "integer",
+     "unit": "Personen",
+     "derived": true
+    },
+    {
+     "name": "district_sg",
+     "label": {
+      "de": "Selbständige und Gehilfen im Landesteil insgesamt",
+      "en": "Masters and assistants in the district in total"
+     },
+     "type": "integer",
+     "unit": "Personen",
+     "derived": true
+    },
+    {
+     "name": "share_pct",
+     "label": {
+      "de": "Anteil",
+      "en": "Share"
+     },
+     "type": "number",
+     "unit": "%",
+     "derived": true
+    }
+   ],
+   "rows": [
+    [
+     "Weber",
+     "Weaver",
+     "Gera",
+     1119,
+     7264,
+     15.4
+    ],
+    [
+     "Weber",
+     "Weaver",
+     "Schleiz",
+     2298,
+     5403,
+     42.5
+    ],
+    [
+     "Weber",
+     "Weaver",
+     "Lobenstein-Ebersdorf",
+     299,
+     3613,
+     8.3
+    ],
+    [
+     "Maurer, Steinhauer",
+     "Mason, stonecutter",
+     "Gera",
+     699,
+     7264,
+     9.6
+    ],
+    [
+     "Maurer, Steinhauer",
+     "Mason, stonecutter",
+     "Schleiz",
+     478,
+     5403,
+     8.8
+    ],
+    [
+     "Maurer, Steinhauer",
+     "Mason, stonecutter",
+     "Lobenstein-Ebersdorf",
+     540,
+     3613,
+     14.9
+    ],
+    [
+     "Strick-, Sticker- und Spinner",
+     "Knitter, embroiderer and spinner",
+     "Gera",
+     438,
+     7264,
+     6.0
+    ],
+    [
+     "Strick-, Sticker- und Spinner",
+     "Knitter, embroiderer and spinner",
+     "Schleiz",
+     270,
+     5403,
+     5.0
+    ],
+    [
+     "Strick-, Sticker- und Spinner",
+     "Knitter, embroiderer and spinner",
+     "Lobenstein-Ebersdorf",
+     322,
+     3613,
+     8.9
+    ],
+    [
+     "Schuhmacher",
+     "Shoemaker",
+     "Gera",
+     452,
+     7264,
+     6.2
+    ],
+    [
+     "Schuhmacher",
+     "Shoemaker",
+     "Schleiz",
+     346,
+     5403,
+     6.4
+    ],
+    [
+     "Schuhmacher",
+     "Shoemaker",
+     "Lobenstein-Ebersdorf",
+     229,
+     3613,
+     6.3
+    ],
+    [
+     "Zimmerleute",
+     "Carpenter",
+     "Gera",
+     348,
+     7264,
+     4.8
+    ],
+    [
+     "Zimmerleute",
+     "Carpenter",
+     "Schleiz",
+     305,
+     5403,
+     5.6
+    ],
+    [
+     "Zimmerleute",
+     "Carpenter",
+     "Lobenstein-Ebersdorf",
+     290,
+     3613,
+     8.0
+    ],
+    [
+     "Schneider",
+     "Tailor",
+     "Gera",
+     311,
+     7264,
+     4.3
+    ],
+    [
+     "Schneider",
+     "Tailor",
+     "Schleiz",
+     171,
+     5403,
+     3.2
+    ],
+    [
+     "Schneider",
+     "Tailor",
+     "Lobenstein-Ebersdorf",
+     155,
+     3613,
+     4.3
+    ],
+    [
+     "Tischler",
+     "Joiner",
+     "Gera",
+     259,
+     7264,
+     3.6
+    ],
+    [
+     "Tischler",
+     "Joiner",
+     "Schleiz",
+     99,
+     5403,
+     1.8
+    ],
+    [
+     "Tischler",
+     "Joiner",
+     "Lobenstein-Ebersdorf",
+     85,
+     3613,
+     2.4
+    ],
+    [
+     "Dachdecker",
+     "Roofer",
+     "Gera",
+     30,
+     7264,
+     0.4
+    ],
+    [
+     "Dachdecker",
+     "Roofer",
+     "Schleiz",
+     30,
+     5403,
+     0.6
+    ],
+    [
+     "Dachdecker",
+     "Roofer",
+     "Lobenstein-Ebersdorf",
+     335,
+     3613,
+     9.3
+    ],
+    [
+     "Schmiede",
+     "Blacksmith",
+     "Gera",
+     140,
+     7264,
+     1.9
+    ],
+    [
+     "Schmiede",
+     "Blacksmith",
+     "Schleiz",
+     118,
+     5403,
+     2.2
+    ],
+    [
+     "Schmiede",
+     "Blacksmith",
+     "Lobenstein-Ebersdorf",
+     132,
+     3613,
+     3.7
+    ],
+    [
+     "Strumpfwirker",
+     "Stocking weaver",
+     "Gera",
+     9,
+     7264,
+     0.1
+    ],
+    [
+     "Strumpfwirker",
+     "Stocking weaver",
+     "Schleiz",
+     223,
+     5403,
+     4.1
+    ],
+    [
+     "Strumpfwirker",
+     "Stocking weaver",
+     "Lobenstein-Ebersdorf",
+     152,
+     3613,
+     4.2
+    ],
+    [
+     "Müller",
+     "Miller",
+     "Gera",
+     145,
+     7264,
+     2.0
+    ],
+    [
+     "Müller",
+     "Miller",
+     "Schleiz",
+     115,
+     5403,
+     2.1
+    ],
+    [
+     "Müller",
+     "Miller",
+     "Lobenstein-Ebersdorf",
+     94,
+     3613,
+     2.6
+    ],
+    [
+     "Fleischer",
+     "Butcher",
+     "Gera",
+     121,
+     7264,
+     1.7
+    ],
+    [
+     "Fleischer",
+     "Butcher",
+     "Schleiz",
+     93,
+     5403,
+     1.7
+    ],
+    [
+     "Fleischer",
+     "Butcher",
+     "Lobenstein-Ebersdorf",
+     96,
+     3613,
+     2.7
+    ]
+   ],
+   "source_refs": [
+    {
+     "page": "252",
+     "block": "b4",
+     "rows": "r4-r26"
+    },
+    {
+     "page": "253",
+     "block": "b1",
+     "rows": "r4-r42"
+    },
+    {
+     "page": "254",
+     "block": "b1",
+     "rows": "r4-r20"
+    }
+   ]
+  }
+ ],
+ "charts": [
+  {
+   "id": "c1",
+   "dataset": "fuerstenthum",
+   "title": {
+    "de": "Die 15 größten Gewerbe nach ernährten Personen",
+    "en": "The 15 largest trades by persons supported"
+   },
+   "caption": {
+    "de": "Selbständige, Gehilfen, Dienstboten und Familienglieder zusammen, Fürstenthum 1864 (gedruckte Gesamtzahlen). Ohne die Sammelposten »Fabrikarbeiter« und »Nichtbenannte Nahrungszweige«.",
+    "en": "Masters, assistants, servants and family members together, principality 1864 (printed totals). Without the catch-all items “factory workers” and “unnamed food trades”."
+   },
+   "vegalite": {
+    "height": 420,
+    "transform": [
+     {
+      "filter": "datum.branch != 'Sonstige'"
+     },
+     {
+      "window": [
+       {
+        "op": "rank",
+        "as": "rk"
+       }
+      ],
+      "sort": [
+       {
+        "field": "persons",
+        "order": "descending"
+       }
+      ]
+     },
+     {
+      "filter": "datum.rk <= 15"
+     },
+     {
+      "calculate": {
+       "de": "datum.trade",
+       "en": "datum.trade_en"
+      },
+      "as": "trade_label"
+     },
+     {
+      "calculate": {
+       "de": "datum.branch",
+       "en": "{'Nahrung':'Food','Kleidung':'Clothing','Bauhandwerker':'Building trades','Hausausstattung':'Household and farm equipment','Sonstige':'Other industry'}[datum.branch]"
+      },
+      "as": "branch_label"
+     }
+    ],
+    "mark": "bar",
+    "encoding": {
+     "y": {
+      "field": "trade_label",
+      "type": "nominal",
+      "sort": {
+       "field": "persons",
+       "order": "descending"
+      },
+      "title": null,
+      "axis": {
+       "labelLimit": 320
+      }
+     },
+     "x": {
+      "field": "persons",
+      "type": "quantitative",
+      "title": {
+       "de": "Personen (Selbständige, Gehilfen, Dienstboten, Familienglieder)",
+       "en": "Persons (masters, assistants, servants, family members)"
+      }
+     },
+     "color": {
+      "field": "branch",
+      "type": "nominal",
+      "scale": {
+       "domain": [
+        "Nahrung",
+        "Kleidung",
+        "Bauhandwerker",
+        "Hausausstattung",
+        "Sonstige"
+       ]
+      },
+      "title": {
+       "de": "Gewerbegruppe",
+       "en": "Group of trades"
+      },
+      "legend": {
+       "labelExpr": {
+        "de": "datum.label",
+        "en": "{'Nahrung':'Food','Kleidung':'Clothing','Bauhandwerker':'Building','Hausausstattung':'House and farm','Sonstige':'Other'}[datum.label]"
+       },
+       "columns": 3
+      }
+     },
+     "tooltip": [
+      {
+       "field": "trade_label",
+       "title": {
+        "de": "Gewerbe",
+        "en": "Trade"
+       }
+      },
+      {
+       "field": "branch_label",
+       "title": {
+        "de": "Gruppe",
+        "en": "Group"
+       }
+      },
+      {
+       "field": "s",
+       "title": {
+        "de": "Selbständige",
+        "en": "Masters"
+       }
+      },
+      {
+       "field": "g",
+       "title": {
+        "de": "Gehilfen",
+        "en": "Assistants"
+       }
+      },
+      {
+       "field": "d",
+       "title": {
+        "de": "Dienstboten",
+        "en": "Servants"
+       }
+      },
+      {
+       "field": "f",
+       "title": {
+        "de": "Familienglieder",
+        "en": "Family members"
+       }
+      },
+      {
+       "field": "persons",
+       "title": {
+        "de": "Personen",
+        "en": "Persons"
+       }
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "c2",
+   "dataset": "anteile",
+   "title": {
+    "de": "Gewerbestruktur der Landesteile",
+    "en": "Trade structure of the districts"
+   },
+   "caption": {
+    "de": "Anteil der zwölf größten Gewerbe (nach Selbständigen und Gehilfen) an allen Selbständigen und Gehilfen des Landesteils, in Prozent. Im Landesteil Schleiz stellt die Weberei über ein Drittel.",
+    "en": "Share of the twelve largest trades (by masters and assistants) in all masters and assistants of the district, in percent. In the district of Schleiz weaving accounts for over a third."
+   },
+   "vegalite": {
+    "height": 380,
+    "transform": [
+     {
+      "calculate": {
+       "de": "datum.trade",
+       "en": "datum.trade_en"
+      },
+      "as": "trade_label"
+     }
+    ],
+    "mark": "rect",
+    "encoding": {
+     "x": {
+      "field": "district",
+      "type": "nominal",
+      "sort": [
+       "Gera",
+       "Schleiz",
+       "Lobenstein-Ebersdorf"
+      ],
+      "title": null,
+      "axis": {
+       "labelAngle": 0
+      }
+     },
+     "y": {
+      "field": "trade_label",
+      "type": "nominal",
+      "sort": {
+       "field": "sg",
+       "op": "sum",
+       "order": "descending"
+      },
+      "title": null,
+      "axis": {
+       "labelLimit": 320
+      }
+     },
+     "color": {
+      "field": "share_pct",
+      "type": "quantitative",
+      "title": {
+       "de": "Anteil (%)",
+       "en": "Share (%)"
+      }
+     },
+     "tooltip": [
+      {
+       "field": "trade_label",
+       "title": {
+        "de": "Gewerbe",
+        "en": "Trade"
+       }
+      },
+      {
+       "field": "district",
+       "title": {
+        "de": "Landesteil",
+        "en": "District"
+       }
+      },
+      {
+       "field": "sg",
+       "title": {
+        "de": "Selbständige und Gehilfen",
+        "en": "Masters and assistants"
+       }
+      },
+      {
+       "field": "share_pct",
+       "title": {
+        "de": "Anteil (%)",
+        "en": "Share (%)"
+       }
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "c3",
+   "dataset": "fuerstenthum",
+   "title": {
+    "de": "Gehilfen je Selbständigem",
+    "en": "Assistants per master"
+   },
+   "caption": {
+    "de": "Gewerbe mit mindestens 40 Selbständigen im Fürstenthum. Die gestrichelte Linie markiert einen Gehilfen je Meister; die Bauhandwerker liegen weit darüber.",
+    "en": "Trades with at least 40 masters in the principality. The dashed line marks one assistant per master; the building trades lie far above it."
+   },
+   "vegalite": {
+    "height": 560,
+    "transform": [
+     {
+      "filter": "datum.s >= 40 && datum.g_per_s != null && datum.branch != 'Sonstige'"
+     },
+     {
+      "calculate": {
+       "de": "datum.trade",
+       "en": "datum.trade_en"
+      },
+      "as": "trade_label"
+     },
+     {
+      "calculate": {
+       "de": "datum.branch",
+       "en": "{'Nahrung':'Food','Kleidung':'Clothing','Bauhandwerker':'Building trades','Hausausstattung':'Household and farm equipment','Sonstige':'Other industry'}[datum.branch]"
+      },
+      "as": "branch_label"
+     }
+    ],
+    "layer": [
+     {
+      "mark": "bar",
+      "encoding": {
+       "y": {
+        "field": "trade_label",
+        "type": "nominal",
+        "sort": {
+         "field": "g_per_s",
+         "order": "descending"
+        },
+        "title": null,
+        "axis": {
+         "labelLimit": 320
+        }
+       },
+       "x": {
+        "field": "g_per_s",
+        "type": "quantitative",
+        "title": {
+         "de": "Gehilfen je Selbständigem",
+         "en": "Assistants per master"
+        }
+       },
+       "color": {
+        "field": "branch",
+        "type": "nominal",
+        "scale": {
+         "domain": [
+          "Nahrung",
+          "Kleidung",
+          "Bauhandwerker",
+          "Hausausstattung",
+          "Sonstige"
+         ]
+        },
+        "title": {
+         "de": "Gewerbegruppe",
+         "en": "Group of trades"
+        },
+        "legend": {
+         "labelExpr": {
+          "de": "datum.label",
+          "en": "{'Nahrung':'Food','Kleidung':'Clothing','Bauhandwerker':'Building','Hausausstattung':'House and farm','Sonstige':'Other'}[datum.label]"
+         },
+         "columns": 3
+        }
+       },
+       "tooltip": [
+        {
+         "field": "trade_label",
+         "title": {
+          "de": "Gewerbe",
+          "en": "Trade"
+         }
+        },
+        {
+         "field": "branch_label",
+         "title": {
+          "de": "Gruppe",
+          "en": "Group"
+         }
+        },
+        {
+         "field": "s",
+         "title": {
+          "de": "Selbständige",
+          "en": "Masters"
+         }
+        },
+        {
+         "field": "g",
+         "title": {
+          "de": "Gehilfen",
+          "en": "Assistants"
+         }
+        },
+        {
+         "field": "g_per_s",
+         "title": {
+          "de": "Gehilfen je Selbständigem",
+          "en": "Assistants per master"
+         }
+        }
+       ]
+      }
+     },
+     {
+      "mark": {
+       "type": "rule",
+       "strokeDash": [
+        4,
+        3
+       ]
+      },
+      "encoding": {
+       "x": {
+        "datum": 1
+       }
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "keywords": {
+  "de": [
+   "Gewerbe",
+   "Industrie",
+   "Handwerk",
+   "Weber",
+   "Weberei",
+   "Maurer",
+   "Zimmerleute",
+   "Schuhmacher",
+   "Gehilfen",
+   "Berufe",
+   "Gera",
+   "Schleiz",
+   "Lobenstein",
+   "1864"
+  ],
+  "en": [
+   "trades",
+   "industry",
+   "crafts",
+   "weavers",
+   "weaving",
+   "masons",
+   "carpenters",
+   "shoemakers",
+   "assistants",
+   "occupations",
+   "Gera",
+   "Schleiz",
+   "Lobenstein",
+   "1864"
+  ]
+ },
+ "related": [
+  "industrie-hauptzweige-staedte-plattland-1864"
+ ],
+ "generated_by": "Claude Sonnet 5.5 (subagent A10)",
+ "date": "2026-10-01"
+}
