@@ -26,6 +26,19 @@
     if (t) return t;
     return window.matchMedia && matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
   }
+  // narrow screens: wrap horizontal legends into two columns so no entry is cut off
+  function adaptLegends(spec, narrow) {
+    if (!narrow) return spec;
+    spec = JSON.parse(JSON.stringify(spec));
+    (function walk(n) {
+      if (Array.isArray(n)) return n.forEach(walk);
+      if (n && typeof n === 'object') {
+        if (Array.isArray(n.legends)) n.legends.forEach(function (l) { if (l.direction !== 'vertical' && !l.columns) { l.columns = 2; l.labelLimit = 150; } });
+        Object.keys(n).forEach(function (k) { walk(n[k]); });
+      }
+    })(spec);
+    return spec;
+  }
   function draw() {
     if (!specs || !window.vega) return;
     views.forEach(function (v) { v.finalize(); }); views = [];
@@ -33,7 +46,8 @@
     document.querySelectorAll('[data-chart]').forEach(function (el) {
       var s = specs[el.getAttribute('data-chart')]; if (!s) return;
       el.innerHTML = '';
-      var view = new vega.View(vega.parse(s[lang + '_' + mode()]), { renderer: 'svg', container: el, hover: true });
+      var spec = adaptLegends(s[lang + '_' + mode()], el.clientWidth < 600);
+      var view = new vega.View(vega.parse(spec), { renderer: 'svg', container: el, hover: true });
       view.tooltip(tooltip);
       view.runAsync();
       views.push(view);

@@ -110,7 +110,7 @@
  },
  "method": {
   "de": "Höhen: Brückners Höhenliste (S. 12, 20–22) gibt Ortshöhen in preußischem Dezimalfuß über dem Pegel von Swinemünde an (S. 11, Fußnote), bei Orten meist als Spanne von der untersten zur obersten Grenze. Verwendet wurde die Spanne der Ortslage (Gera 505–600, Hohenleuben 975–1050, Schleiz »Haupttheil der Stadt« 1150–1175, Saalburg 1075–1140, Lobenstein 1250–1300 [unterstes Haus im Lemnitzgrunde bis oberste Häuser im Koselgrunde], Stelzen 1525–1560 Dezimalfuß) oder der Einzelwert (Rothenacker Kirche 1447, Grumbach Mitte 1797 Dezimalfuß); die Mitte der Spanne wurde mit 1 Dezimalfuß = 1/10 preuß. Ruthe = 0,3766242 m (S. 831: 1 Ruthe = 3,766242 m) in Meter umgerechnet. Der Dezimalfuß ist länger als der gewöhnliche preußische Fuß (0,313853 m); die Gegenprobe an Brückners Bahnhofshöhe von Gera (607,53 rheinische Fuß = 190,7 m, in der Liste als 502 Fuß = 189 m, S. 12) bestätigt ihn. Das ist die Ortshöhe, nicht notwendig die Höhe des Thermometers oder Barometers. Temperatur: gedruckte Jahresmittel in °R (Durchschnittszeilen S. 55–57, Einzelangaben S. 57–58), ×1,25 in °C. Die Trendgerade ist die lineare Regression der Jahresmittel auf die Höhe für die vier Stationen, die Brückner nicht als zu warm beanstandet (Gera, Hohenleuben, Stelzen, Grumbach; r = −0,998); Ziegenrück hat in der Höhenliste keine Höhe. Luftdruck: Pariser Linien × 2,255829 mm × 1,333224 hPa/mm (443,296 Pariser Linien = 1 m, S. 831). Hohenleuben gibt Brückner als 27'' 7 15/16''' an (= 331,94 Linien). Die Höhendifferenz aus dem Druck wurde mit der isothermen barometrischen Höhenformel bei 8 °C geschätzt.",
-  "en": "Heights: Brückner’s height list (pp. 12, 20–22) gives heights of places in Prussian decimal feet above the Swinemünde gauge (p. 11, footnote), for towns mostly as a range from the lowest to the highest limit. The range of the built-up area was used (Gera 505–600, Hohenleuben 975–1050, Schleiz “main part of the town” 1150–1175, Saalburg 1075–1140, Lobenstein 1250–1300 [lowest house in the Lemnitz valley to uppermost houses in the Koselgrund], Stelzen 1525–1560 decimal feet) or the single value (Rothenacker church 1447, Grumbach centre 1797 decimal feet); the midpoint was converted to metres with 1 decimal foot = 1/10 Prussian rod = 0.3766242 m (p. 831: 1 rod = 3.766242 m). The decimal foot is longer than the ordinary Prussian foot (0.313853 m); a check against Brückner’s height of Gera station (607.53 Rhenish feet = 190.7 m, entered in the list as 502 feet = 189 m, p. 12) confirms it. This is the height of the place, not necessarily that of the thermometer or barometer. Temperature: printed annual means in °R (average rows pp. 55–57, single figures pp. 57–58), ×1.25 to °C. The trend line is the linear regression of annual mean on height for the four stations Brückner does not call too warm (Gera, Hohenleuben, Stelzen, Grumbach; r = −0.998); Ziegenrück has no height in the list. Air pressure: Paris lines × 2.255829 mm × 1.333224 hPa/mm (443.296 Paris lines = 1 m, p. 831). For Hohenleuben Brückner gives 27'' 7 15/16''' (= 331.94 lines). The height difference from pressure was estimated with the isothermal barometric formula at 8 °C."
+  "en": "Heights: Brückner’s height list (pp. 12, 20–22) gives heights of places in Prussian decimal feet above the Swinemünde gauge (p. 11, footnote), for towns mostly as a range from the lowest to the highest limit. The range of the built-up area was used (Gera 505–600, Hohenleuben 975–1050, Schleiz “main part of the town” 1150–1175, Saalburg 1075–1140, Lobenstein 1250–1300 [lowest house in the Lemnitz valley to uppermost houses in the Koselgrund], Stelzen 1525–1560 decimal feet) or the single value (Rothenacker church 1447, Grumbach center 1797 decimal feet); the midpoint was converted to meters with 1 decimal foot = 1/10 Prussian rod = 0.3766242 m (p. 831: 1 rod = 3.766242 m). The decimal foot is longer than the ordinary Prussian foot (0.313853 m); a check against Brückner’s height of Gera station (607.53 Rhenish feet = 190.7 m, entered in the list as 502 feet = 189 m, p. 12) confirms it. This is the height of the place, not necessarily that of the thermometer or barometer. Temperature: printed annual means in °R (average rows pp. 55–57, single figures pp. 57–58), ×1.25 to °C. The trend line is the linear regression of annual mean on height for the four stations Brückner does not call too warm (Gera, Hohenleuben, Stelzen, Grumbach; r = −0.998); Ziegenrück has no height in the list. Air pressure: Paris lines × 2.255829 mm × 1.333224 hPa/mm (443.296 Paris lines = 1 m, p. 831). For Hohenleuben Brückner gives 27'' 7 15/16''' (= 331.94 lines). The height difference from pressure was estimated with the isothermal barometric formula at 8 °C."
  },
  "findings": [
   {
@@ -225,7 +225,7 @@
       "en": "Elevation from (Prussian decimal feet)"
      },
      "type": "number",
-     "unit": "Fuß"
+     "unit": "preuß. Dezimalfuß"
     },
     {
      "name": "elev_to_ft",
@@ -234,7 +234,7 @@
       "en": "Elevation to (Prussian decimal feet)"
      },
      "type": "number",
-     "unit": "Fuß"
+     "unit": "preuß. Dezimalfuß"
     },
     {
      "name": "elevation_m",

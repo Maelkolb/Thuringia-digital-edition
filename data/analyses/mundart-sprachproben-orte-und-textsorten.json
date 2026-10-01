@@ -1,5 +1,5 @@
 {
- "id": "dialect-sprachproben-orte-und-textsorten",
+ "id": "mundart-sprachproben-orte-und-textsorten",
  "title": {
   "de": "Mundartproben nach Orten und Textsorten (S. 145–151)",
   "en": "Dialect samples by place and text kind (pp. 145–151)"
@@ -213,16 +213,16 @@
   }
  ],
  "summary": {
-  "de": "Brückner belegt die Mundart des Fürstenthums mit Sprachproben aus 14 Orten, geordnet nach Unterland (6 Orte) und Oberland (8 Orte). Zusammen sind es 18 Texte mit rund 3238 Wörtern: Gleichnisse aus dem Evangelium, Gespräche, eine Fabel, eine Erzählung und ein Gedicht. Die Übersicht zeigt, aus welchen Orten und in welchem Umfang die Mundart dokumentiert ist, und macht sichtbar, dass dieselbe Bibelstelle in zehn Orten zum Vergleich steht.",
+  "de": "Brückner belegt die Mundart des Fürstentums mit Sprachproben aus 14 Orten, geordnet nach Unterland (6 Orte) und Oberland (8 Orte). Zusammen sind es 18 Texte mit rund 3238 Wörtern: Gleichnisse aus dem Evangelium, Gespräche, eine Fabel, eine Erzählung und ein Gedicht. Die Übersicht zeigt, aus welchen Orten und in welchem Umfang die Mundart dokumentiert ist, und macht sichtbar, dass dieselbe Bibelstelle in zehn Orten zum Vergleich steht.",
   "en": "Brückner documents the dialect of the principality with samples from 14 places, arranged by Unterland (6 places) and Oberland (8 places). In all there are 18 texts of about 3238 words: Gospel parables, conversations, a fable, a story and a poem. The overview shows from which places and to what extent the dialect is documented, and makes visible that the same Bible passage is available for comparison from ten places."
  },
  "method": {
-  "de": "Die Proben auf S. 145–151 wurden nach den Überschriften der Orte in Texte gegliedert (Textsorte und Titel vom Bearbeiter vergeben). Die Wortzahl ist die Zahl der durch Leerzeichen getrennten Wörter der Blöcke ohne Namenszeichen des Einsenders und nur ein Näherungswert für den Umfang. Der Landestheil jedes Ortes stammt aus dem Gazetteer der Ortskunde (Teil II); Brückners Gliederung in Unterland und Oberland steht daneben. Die Einsender sind die rechtsbündig gesetzten Namen am Ende der Proben.",
+  "de": "Die Proben auf S. 145–151 wurden nach den Überschriften der Orte in Texte gegliedert (Textsorte und Titel vom Bearbeiter vergeben). Die Wortzahl ist die Zahl der durch Leerzeichen getrennten Wörter der Blöcke ohne Namenszeichen des Einsenders und nur ein Näherungswert für den Umfang. Der Landesteil jedes Ortes stammt aus dem Gazetteer der Ortskunde (Teil II); Brückners Gliederung in Unterland und Oberland steht daneben. Die Einsender sind die rechtsbündig gesetzten Namen am Ende der Proben.",
   "en": "The samples on pp. 145–151 were divided into texts according to the place headings (text kind and title assigned by the analyst). The word count is the number of space-separated words in the blocks without the contributor’s signature and is only an approximate measure of length. The district (Landestheil) of each place comes from the gazetteer of the topography (Part II); Brückner’s division into Unterland and Oberland is given alongside. The contributors are the right-aligned names at the end of the samples."
  },
  "findings": [
   {
-   "de": "Die 6 Proben des Unterlands stammen sämtlich aus dem Landestheil Gera; im Oberland liegen 5 Orte im Landestheil Schleiz (Triebes, Leitlitz-Weckersdorf, Oettersdorf, Mielesdorf, Tanna) und 3 im Landestheil Lobenstein-Ebersdorf (Oßla, Altengesees, Titschendorf).",
+   "de": "Die 6 Proben des Unterlands stammen sämtlich aus dem Landesteil Gera; im Oberland liegen 5 Orte im Landesteil Schleiz (Triebes, Leitlitz-Weckersdorf, Oettersdorf, Mielesdorf, Tanna) und 3 im Landesteil Lobenstein-Ebersdorf (Oßla, Altengesees, Titschendorf).",
    "en": "All 6 samples of the Unterland come from the district of Gera; in the Oberland 5 places lie in the district of Schleiz (Triebes, Leitlitz-Weckersdorf, Oettersdorf, Mielesdorf, Tanna) and 3 in the district of Lobenstein-Ebersdorf (Oßla, Altengesees, Titschendorf)."
   },
   {
@@ -252,7 +252,7 @@
   {
    "name": "samples",
    "title": {
-    "de": "Mundartproben (Texte) mit Ort, Landestheil, Textsorte und Umfang",
+    "de": "Mundartproben (Texte) mit Ort, Landesteil, Textsorte und Umfang",
     "en": "Dialect samples (texts) with place, district, text kind and length"
    },
    "columns": [
@@ -317,7 +317,7 @@
     {
      "name": "district",
      "label": {
-      "de": "Landestheil (Gazetteer)",
+      "de": "Landesteil (Gazetteer)",
       "en": "District (gazetteer)"
      },
      "type": "string",
@@ -954,7 +954,7 @@
     "en": "Length of the dialect samples by place and text kind"
    },
    "caption": {
-    "de": "Wörter je Probe, in Brückners Reihenfolge (oben Unterland, unten Oberland; in Klammern der Landestheil). Am ausführlichsten belegt sind Waltersdorf, Leitlitz-Weckersdorf, Oßla und Tanna; die Gleichnisse umfassen 80 bis 169 Wörter.",
+    "de": "Wörter je Probe, in Brückners Reihenfolge (oben Unterland, unten Oberland; in Klammern der Landesteil). Am ausführlichsten belegt sind Waltersdorf, Leitlitz-Weckersdorf, Oßla und Tanna; die Gleichnisse umfassen 80 bis 169 Wörter.",
     "en": "Words per sample, in Brückner’s order (Unterland above, Oberland below; district in parentheses). Documented at greatest length are Waltersdorf, Leitlitz-Weckersdorf, Oßla and Tanna; the parables range from 80 to 169 words."
    },
    "vegalite": {
@@ -1067,11 +1067,11 @@
    "id": "c2",
    "dataset": "samples",
    "title": {
-    "de": "Textsorten nach Landestheil",
+    "de": "Textsorten nach Landesteil",
     "en": "Text kinds by district"
    },
    "caption": {
-    "de": "Zahl der Proben je Landestheil und Textsorte: Fabel, Erzählung und Gedicht sind nur aus dem Landestheil Gera belegt, Gespräche vor allem aus Schleiz.",
+    "de": "Zahl der Proben je Landesteil und Textsorte: Fabel, Erzählung und Gedicht sind nur aus dem Landesteil Gera belegt, Gespräche vor allem aus Schleiz.",
     "en": "Number of samples per district and text kind: fable, story and poem are attested only from the district of Gera, conversations mainly from Schleiz."
    },
    "vegalite": {
@@ -1139,7 +1139,7 @@
       {
        "field": "district",
        "title": {
-        "de": "Landestheil",
+        "de": "Landesteil",
         "en": "District"
        }
       },
@@ -1200,7 +1200,9 @@
    "Waltersdorf"
   ]
  },
- "related": [],
+ "related": [
+  "ortsnamen-sorbische-wurzeln"
+ ],
  "generated_by": "Claude Sonnet 5.5 (subagent A08)",
  "date": "2026-10-01"
 }

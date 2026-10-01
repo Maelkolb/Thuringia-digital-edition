@@ -1,0 +1,20 @@
+# Wikidata ids verified via wbsearchentities / wbgetentities (labels, descriptions, P31, dates checked)
+WD = {
+ "Kloster Cronswitz": "Q15117177", "Kloster Mildenfurt": "Q1750267", "Kloster Lausnitz": "Q1775490",
+ "Kloster Bosau": "Q1775807", "Kloster Volkenrode": "Q324119", "Kloster Langheim": "Q1357562",
+ "Kloster Pforte": "Q206083", "Kloster Grünhain": "Q876202", "Kloster Pegau": "Q1726733",
+ "Kloster Gernrode": "Q997346", "Kloster Buch": "Q1775093", "Michaelskloster zu Bamberg": "Q555168",
+ "Stift Quedlinburg": "Q829708", "Abtei zu Saalfeld": "Q817038", "Hochstift Naumburg": "Q315609",
+ "Hochstift Bamberg": "Q561334", "Erzbisthum Mainz": "Q47194649", "Hochstifte Merseburg": "Q566770",
+ "magdeburger Kirche": "Q27478048", "deutschen Orden": "Q48189", "deutsche Haus zu Schleiz": "Q28977961",
+ "deutschen Orden in Plauen": "Q28977959", "Haus Reuß": "Q819968", "Reuß-Greiz": "Q76532637",
+ "Reuß=Köstritz": "Q821410", "Haus Weida": "Q2536293", "Haus Gera": "Q1248536", "Hohenstaufen": "Q130875",
+ "Wettiner": "Q152909", "Fürstenthum Reuß jüngere Linie": "Q639100", "Fürstenthum Reuß ältere Linie": "Q531783",
+ "Herzogthums Nassau": "Q836680", "Brandenburg-Baireuth": "Q34762", "Rheinbunde": "Q154741",
+ "deutschen Bunde": "Q151624", "Bundestage": "Q547751", "norddeutschen Bund": "Q150981", "Reichstage": "Q321246",
+ "Zollvereins": "Q155707", "Leipziger Messe": "Q126869879", "Universität Leipzig": "Q154804",
+ "Landtag": "Q23787473", "Oberappellationsgericht zu Jena": "Q120754826", "katholische Kirche": "Q9592",
+ "thüringer Eisenbahngesellschaft": "Q282452", "Königin-Marienhütte": "Q1392370", "Gustav-Adolf-Stiftung": "Q1555465",
+ "voigtländische alterthumsforschende Verein": "Q51189098", "Gymnasium zu Gera": "Q1458411",
+ "Bibliothek, großherzogl": "Q50711",
+}

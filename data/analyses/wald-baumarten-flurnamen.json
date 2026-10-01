@@ -30,11 +30,11 @@
  ],
  "summary": {
   "de": "Brückner beschreibt die heutigen Waldbäume des Unterlandes und des Oberlandes und führt zum Beleg eines früheren Baumartenreichtums 43 oberländische Flurnamen an, die Baumnamen enthalten. Ausgezählt zeigen die Flurnamen vor allem Birke, Buche, Eiche und Tanne, während heute die Fichte die Wälder beherrscht; die Rolle der übrigen Baumarten wurde nach Brückners Wortlaut in drei Stufen eingeordnet.",
-  "en": "Brückner describes the present forest trees of the Unterland and the Oberland and, as evidence of a former wealth of tree species, cites 43 Oberland field names that contain tree names. Counted, the field names show mainly birch, beech, oak and fir, whereas today the spruce dominates the woods; the role of the other species was classed in three levels following Brückner's wording."
+  "en": "Brückner describes the present forest trees of the Unterland and the Oberland and, as evidence of a former wealth of tree species, cites 43 Oberland field names that contain tree names. Counted, the field names show mainly birch, beech, oak and fir, whereas today the spruce dominates the woods; the role of the other species was classed in three levels following Brückner’s wording."
  },
  "method": {
   "de": "Die Flurnamenliste (S. 78, 43 Namen) wurde Wort für Wort ausgezählt und nach dem Baumnamen im Wortstamm geordnet (Eich-, Fichtig/Fichtere, Tann-, Buch-/Büch-, Birk-, Lind-, Kief-, Erl-, Eib-, Ahorn, Esch-, Weid-); 2 Namen (Hart, Häßlich) enthalten keinen eindeutigen Baumnamen und wurden nicht gezählt. Die »Tann-«-Namen sind nicht von Fichte oder Weißtanne zu trennen und stehen für sich. Für die heutigen Waldbäume (S. 77 Unterland, S. 78 Oberland) wurde jede genannte Baumart nach Brückners Wortlaut in drei Stufen eingeordnet (3 Hauptbestand, 2 größere Bestände oder ganze Schläge, 1 nur kleine Bestände, zerstreut, einzeln oder örtlich). Die Stufen sind eine redaktionelle Kodierung (abgeleitet); der Wortlaut steht in der Datentabelle. Nicht aufgenommen sind angepflanzte Zier- und Gartenbäume sowie Sträucher. Aus S. 77 stammt außerdem die Angabe, dass westlich der Elster noch 3/5, östlich nur 2/5 der Fläche bewaldet sind.",
-  "en": "The list of field names (p. 78, 43 names) was counted word by word and ordered by the tree name in the word stem (Eich-, Fichtig/Fichtere, Tann-, Buch-/Büch-, Birk-, Lind-, Kief-, Erl-, Eib-, Ahorn, Esch-, Weid-); 2 names (Hart, Häßlich) contain no unambiguous tree name and were not counted. The “Tann-” names cannot be separated from spruce or silver fir and stand on their own. For the present forest trees (p. 77 Unterland, p. 78 Oberland) every tree species mentioned was placed in three levels following Brückner's wording (3 main stand, 2 larger stands or whole felling areas, 1 only small stands, scattered, single or local). The levels are an editorial coding (derived); the wording is given in the data table. Ornamental and garden trees and shrubs are not included. P. 77 also states that west of the Elster 3/5 of the land is still wooded, east of it only 2/5."
+  "en": "The list of field names (p. 78, 43 names) was counted word by word and ordered by the tree name in the word stem (Eich-, Fichtig/Fichtere, Tann-, Buch-/Büch-, Birk-, Lind-, Kief-, Erl-, Eib-, Ahorn, Esch-, Weid-); 2 names (Hart, Häßlich) contain no unambiguous tree name and were not counted. The “Tann-” names cannot be separated from spruce or silver fir and stand on their own. For the present forest trees (p. 77 Unterland, p. 78 Oberland) every tree species mentioned was placed in three levels following Brückner’s wording (3 main stand, 2 larger stands or whole felling areas, 1 only small stands, scattered, single or local). The levels are an editorial coding (derived); the wording is given in the data table. Ornamental and garden trees and shrubs are not included. P. 77 also states that west of the Elster 3/5 of the land is still wooded, east of it only 2/5."
  },
  "findings": [
   {
@@ -65,7 +65,7 @@
   },
   {
    "de": "Brückners Berichtigungen zu S. 78–79 (S. 830) betreffen Einzelbäume und Pflanzenlisten, die hier nicht ausgewertet sind: Die auf S. 78 genannte »stolze Einzelfichte« auf der ernseer Höhe hat am 7. Dezember 1868 der Sturm gebrochen.",
-   "en": "Brückner's corrections to pp. 78–79 (p. 830) concern single trees and plant lists that are not analysed here: the “proud solitary spruce” on the Ernsee height named on p. 78 was broken by a storm on 7 December 1868."
+   "en": "Brückner’s corrections to pp. 78–79 (p. 830) concern single trees and plant lists that are not analyzed here: the “proud solitary spruce” on the Ernsee height named on p. 78 was broken by a storm on 7 December 1868."
   }
  ],
  "datasets": [
@@ -290,7 +290,7 @@
      "name": "quote_de",
      "label": {
       "de": "Wortlaut bei Brückner",
-      "en": "Brückner's wording"
+      "en": "Brückner’s wording"
      },
      "type": "string",
      "unit": null
@@ -730,11 +730,11 @@
    "dataset": "tree_roles",
    "title": {
     "de": "Rolle der Baumarten im heutigen Wald: Unterland und Oberland",
-    "en": "Role of tree species in today's forest: Unterland and Oberland"
+    "en": "Role of tree species in today’s forest: Unterland and Oberland"
    },
    "caption": {
     "de": "Dreistufige redaktionelle Einordnung nach Brückners Beschreibung (S. 77–78; »zerstreut, örtlich« umfasst kleine Bestände, einzelne Bäume und örtliches Vorkommen). Fehlende Punkte: nicht genannt. Zusammengefasste Zeilen (z. B. »Ulme, Ahorn, Esche«) geben eine gemeinsame Aussage Brückners wieder.",
-    "en": "Three-level editorial classification following Brückner's description (pp. 77–78; “scattered, local” covers small stands, single trees and local occurrence). Missing dots: not mentioned. Combined rows (e.g. “Ulme, Ahorn, Esche”) reflect a joint statement by Brückner."
+    "en": "Three-level editorial classification following Brückner’s description (pp. 77–78; “scattered, local” covers small stands, single trees and local occurrence). Missing dots: not mentioned. Combined rows (e.g. “Ulme, Ahorn, Esche”) reflect a joint statement by Brückner."
    },
    "vegalite": {
     "height": 380,
@@ -883,5 +883,10 @@
   ]
  },
  "generated_by": "Claude Sonnet 5.5 (subagent A05)",
- "date": "2026-10-01"
+ "date": "2026-10-01",
+ "related": [
+  "forstwirtschaft-waldflaeche-besitz",
+  "fauna-tiernamen-in-flurnamen",
+  "ortsnamen-sorbische-wurzeln"
+ ]
 }

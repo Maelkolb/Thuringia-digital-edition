@@ -143,17 +143,21 @@ def main():
     # blockers for German words / names whose auto-derived pairs are noise
     blockers = []
     if block:
-        keep_auto = {  # auto pairs known to be good English->German pairs for these (German-looking) keys
-        }
+        # German words / names in the book are blocked; these capitalised words are English or have usable auto pairs
+        keep_cap = {"Hospital", "Doctor", "Character", "Hussiten", "Idiom", "Instrument", "Altar", "Pyramide", "Regiment",
+                    "Saints", "German", "Primogenitur", "Statuten"}
+        # lower-case German function words / adjectives that the cross product turned into keys
+        block_low = {"alten", "fast", "ferner", "finden", "gefunden", "geraer", "gehört", "gelegen", "licht", "mit", "nackte",
+                     "nun", "sonst", "später", "warmen", "gewesen", "wilde", "worden", "will", "sen", "ver", "bunten"}
         for n, targets in sorted(AUTO.items()):
             if n in used_norms or n not in VI:
                 continue
             german = BOOKF.get(n, 0) >= 3
             if not german:
                 continue
-            if n in keep_auto:
-                continue
             disp = V["d"][VI[n]]
+            if not ((disp[0].isupper() and disp not in keep_cap) or disp in block_low):
+                continue
             if len(tokens(disp)) != 1:
                 continue
             blockers.append({"q": disp, "expand": FILL[:], "note": "BLOCK auto noise: " + ",".join(targets)})

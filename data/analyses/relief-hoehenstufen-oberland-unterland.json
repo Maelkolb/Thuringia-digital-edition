@@ -58,7 +58,7 @@
  },
  "method": {
   "de": "Die Zahlen stammen aus dem Fließtext auf S. 4–5 (Terrassenmittel, höchste und tiefste Punkte), S. 10 (Elsterbett und die Tabelle der höchsten Punkte der Uferlandschaften) und S. 16–18, 24 (Vergleichsangaben). Alle Höhen sind preußische Dezimalfuß (nicht Pariser Fuß), bezogen auf den Pegel bei Swinemünde (S. 11 Anm.); Umrechnung 1 Dezimalfuß = 0,3766242 m (siehe Umrechnungen). Die Angabe »Mitte« (Diagramm 1) ist Brückners Terrassenmittel, nicht aus den Ortslisten berechnet. Abgeleitet sind nur die Meterwerte und einzelne Differenzen im Text.",
-  "en": "The figures come from the running text on pp. 4–5 (terrace means, highest and lowest points), p. 10 (Elster bed and the table of the highest points of the bank landscapes) and pp. 16–18, 24 (comparison statements). All heights are Prussian decimal feet (not Paris feet) relative to the Swinemünde gauge (p. 11 note); conversion 1 decimal foot = 0.3766242 m (see conversions). The “mean” in chart 1 is Brückner's terrace mean, not computed from the place lists. Only the metre values and some differences in the text are derived."
+  "en": "The figures come from the running text on pp. 4–5 (terrace means, highest and lowest points), p. 10 (Elster bed and the table of the highest points of the bank landscapes) and pp. 16–18, 24 (comparison statements). All heights are Prussian decimal feet (not Paris feet) relative to the Swinemünde gauge (p. 11 note); conversion 1 decimal foot = 0.3766242 m (see conversions). The “mean” in chart 1 is Brückner’s terrace mean, not computed from the place lists. Only the meter values and some differences in the text are derived."
  },
  "findings": [
   {
@@ -79,17 +79,17 @@
   },
   {
    "de": "Brückners Relativangaben passen zu seinen Höhenlisten: Eliasbrunn liegt »nur 213′ tiefer« als der höchste Berg des Frankenwaldes (1925 − 213 = 1712′ = »Nordhöhe von Eliasbrunn«, S. 24), der Diebsweg »nur 230′ tiefer« als der Kulm (1913 − 230 = 1683′; Diebsweg 1685′, S. 16).",
-   "en": "Brückner's relative statements agree with his altitude lists: Eliasbrunn lies “only 213′ lower” than the highest mountain of the Frankenwald (1925 − 213 = 1712′ = “Nordhöhe von Eliasbrunn”, p. 24), the Diebsweg “only 230′ lower” than the Kulm (1913 − 230 = 1683′; Diebsweg 1685′, p. 16)."
+   "en": "Brückner’s relative statements agree with his altitude lists: Eliasbrunn lies “only 213′ lower” than the highest mountain of the Frankenwald (1925 − 213 = 1712′ = “Nordhöhe von Eliasbrunn”, p. 24), the Diebsweg “only 230′ lower” than the Kulm (1913 − 230 = 1683′; Diebsweg 1685′, p. 16)."
   }
  ],
  "caveats": [
   {
    "de": "Das Wort »Fuß« steht bei Brückner für den preußischen Dezimalfuß (S. 11 Anm.): 1 Fuß = 0,3766 m, nicht der Pariser Fuß (0,3248 m). Wer die Zahlen mit dem Pariser Fuß umrechnet, unterschätzt alle Höhen um rund 14 %.",
-   "en": "Brückner's “Fuß” means the Prussian decimal foot (p. 11 note): 1 foot = 0.3766 m, not the Paris foot (0.3248 m). Converting with the Paris foot underestimates all altitudes by about 14 %."
+   "en": "Brückner’s “Fuß” means the Prussian decimal foot (p. 11 note): 1 foot = 0.3766 m, not the Paris foot (0.3248 m). Converting with the Paris foot underestimates all altitudes by about 14 %."
   },
   {
    "de": "»Mittel der Terrasse« und »mittlere Höhe der Uferlandschaften« sind Brückners Schätzungen ohne Angabe der Berechnung; sie sind mit den Mitteln der Ortslisten (siehe »Höhenlage der Wohnorte«) nur lose vergleichbar.",
-   "en": "“Mean of the terrace” and “mean altitude of the bank landscapes” are Brückner's estimates without a stated calculation; they are only loosely comparable with the means of the place lists (see “Altitude of the inhabited places”)."
+   "en": "“Mean of the terrace” and “mean altitude of the bank landscapes” are Brückner’s estimates without a stated calculation; they are only loosely comparable with the means of the place lists (see “Altitude of the inhabited places”)."
   },
   {
    "de": "Die sechs Punkte auf S. 10 sind »die Lage ihrer höchsten Punkte« im Norden, in der Mitte und im Süden; welche Teile der Landschaft Brückner mit Norden, Mitte und Süden meint, sagt er nicht. Der Schluss auf eine Senkung ist daher nur an diesen sechs Werten geprüft.",
@@ -412,7 +412,7 @@
    },
    "caption": {
     "de": "Höhen aus Brückners Text in Metern (Dezimalfuß × 0,3766). Der Strich verbindet den tiefsten mit dem höchsten Punkt des Landesteils; die Rauten sind die mittleren Terrassenhöhen. Beide Spannen überschneiden sich zwischen 301 und 372 m.",
-    "en": "Altitudes from Brückner's text in metres (decimal foot × 0.3766). The line connects the lowest and highest point of each part; the diamonds are the mean terrace altitudes. Both ranges overlap between 301 and 372 m."
+    "en": "Altitudes from Brückner’s text in meters (decimal foot × 0.3766). The line connects the lowest and highest point of each part; the diamonds are the mean terrace altitudes. Both ranges overlap between 301 and 372 m."
    },
    "vegalite": {
     "height": 380,
@@ -822,7 +822,11 @@
  "related": [
   "relief-wohnorte-hoehenlage",
   "relief-erhebungen-hoechste-punkte",
-  "relief-hoehe-und-lage-neigung"
+  "relief-hoehe-und-lage-neigung",
+  "gewaesser-quellen-muendungen-hoehen",
+  "gewaesser-hauptfluesse-lauf-gefaelle",
+  "lage-vermessene-punkte-laenge-breite",
+  "relief-bergnamen"
  ],
  "generated_by": "Claude Sonnet 5.5 (subagent A01)",
  "date": "2026-10-01"

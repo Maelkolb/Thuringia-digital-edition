@@ -31,7 +31,7 @@
  },
  "method": {
   "de": "Die Zählwerte (Jahre 1864–1866), die Durchschnitte und die Prozentspalte »In Proc.« stammen unverändert aus der Tabelle S. 173 (Block b1, Zeilen r2–r13); die Prozentwerte der Spalte sind auf den gedruckten Durchschnitt von 799 Pflichtigen bezogen. Zusätzlich wurden die Jahresanteile (Fälle ÷ Zahl der Militärpflichtigen des Jahres × 100) berechnet. Die Summenzeilen wurden gegen die Zeilen geprüft; die Unterwüchsigen (128/795, 67/771, 88/833) stimmen mit den Prozentangaben der Fußnote S. 162 überein (16,10; 8,69; 10,56). Die Maßangabe »5′ 7″ sächs. Maß« wurde über Brückners Baufuß (leipziger Werkmaß, S. 831) in Zentimeter umgerechnet, 12 Zoll je Fuß vorausgesetzt.",
-  "en": "Counts for 1864–1866, the averages and the percentage column “In Proc.” are taken unchanged from the table on p. 173 (block b1, rows r2–r13); the percentages refer to the printed average of 799 conscripts. In addition, annual shares (cases ÷ conscripts of the year × 100) were computed. The totals were checked against the rows; the undersized counts (128/795, 67/771, 88/833) agree with the percentages of the footnote on p. 162 (16.10, 8.69, 10.56). The height “5′ 7″ Saxon measure” was converted to centimetres via Brückner’s building foot (Leipzig work measure, p. 831), assuming 12 inches to the foot."
+  "en": "Counts for 1864–1866, the averages and the percentage column “In Proc.” are taken unchanged from the table on p. 173 (block b1, rows r2–r13); the percentages refer to the printed average of 799 conscripts. In addition, annual shares (cases ÷ conscripts of the year × 100) were computed. The totals were checked against the rows; the undersized counts (128/795, 67/771, 88/833) agree with the percentages of the footnote on p. 162 (16.10, 8.69, 10.56). The height “5′ 7″ Saxon measure” was converted to centimeters via Brückner’s building foot (Leipzig work measure, p. 831), assuming 12 inches to the foot."
  },
  "findings": [
   {
@@ -526,7 +526,7 @@
      "name": "pct_mean",
      "label": {
       "de": "In Prozent (Brückner)",
-      "en": "In per cent (Brückner)"
+      "en": "In percent (Brückner)"
      },
      "type": "number",
      "unit": "%"
@@ -771,7 +771,7 @@
      "name": "pct",
      "label": {
       "de": "Prozent (Brückner)",
-      "en": "Per cent (Brückner)"
+      "en": "Percent (Brückner)"
      },
      "type": "number",
      "unit": "%"
@@ -841,7 +841,7 @@
       "type": "quantitative",
       "title": {
        "de": "Prozent der Militärpflichtigen",
-       "en": "Per cent of conscripts"
+       "en": "Percent of conscripts"
       }
      },
      "color": {
@@ -889,7 +889,7 @@
        "field": "pct_mean",
        "title": {
         "de": "Prozent",
-        "en": "Per cent"
+        "en": "Percent"
        }
       }
      ]
@@ -948,7 +948,7 @@
       "type": "quantitative",
       "title": {
        "de": "Prozent",
-       "en": "Per cent"
+       "en": "Percent"
       }
      },
      "tooltip": [
@@ -980,7 +980,7 @@
        "field": "share_pct",
        "title": {
         "de": "Prozent des Jahrgangs",
-        "en": "Per cent of cohort"
+        "en": "Percent of cohort"
        }
       }
      ]
@@ -1010,7 +1010,11 @@
    "varicose veins"
   ]
  },
- "related": [],
+ "related": [
+  "bevoelkerung-altersaufbau-1864",
+  "militaer-kontingent-reichsmatrikel-bis-1867",
+  "gesundheit-krankheitsstatistik-lobenstein-gera-hohenleuben"
+ ],
  "generated_by": "Claude Sonnet 5.5 (subagent A08)",
  "date": "2026-10-01"
 }

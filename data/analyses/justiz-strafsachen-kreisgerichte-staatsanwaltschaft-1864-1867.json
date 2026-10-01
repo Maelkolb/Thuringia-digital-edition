@@ -56,7 +56,7 @@
  "caveats": [
   {
    "de": "In der Tabelle der Verurteilten steht für 1866 in der Spalte »Protestanten« die Summe 176, obwohl nur 167 Personen verurteilt wurden (76 + 91 = 167); die Fußnote spricht von »blos Protestanten«. Es handelt sich um einen Druckfehler des Originals (Faksimile geprüft); die Konfession wird hier nicht ausgewertet. Für 1867 nennen die Berufsklassen 150 Männer, die Spalte »männlichen Geschlechts« 148.",
-   "en": "In the table of convicts the “Protestants” column gives 176 for 1866 although only 167 persons were convicted (76 + 91 = 167); the footnote speaks of “only Protestants”. This is a misprint in the original (facsimile checked); denomination is not analysed here. For 1867 the occupation classes name 150 men, the column “male sex” 148."
+   "en": "In the table of convicts the “Protestants” column gives 176 for 1866 although only 167 persons were convicted (76 + 91 = 167); the footnote speaks of “only Protestants”. This is a misprint in the original (facsimile checked); denomination is not analyzed here. For 1867 the occupation classes name 150 men, the column “male sex” 148."
   },
   {
    "de": "Die Zahlen der Voruntersuchungen und Einstellungen eines Jahres umfassen auch Fälle aus Vorjahren und lassen sich daher nicht als Aufteilung der neu eingegangenen Sachen lesen. Die Altersklassen- und Berufstabelle gilt für Kreisgerichte und Schwurgericht zusammen und enthält nur zwei Jahre.",
@@ -75,7 +75,7 @@
      "name": "office",
      "label": {
       "de": "Staatsanwaltschaft",
-      "en": "Prosecutor's office"
+      "en": "Prosecutor’s office"
      },
      "type": "string",
      "unit": null
@@ -462,7 +462,7 @@
      "name": "office",
      "label": {
       "de": "Staatsanwaltschaft",
-      "en": "Prosecutor's office"
+      "en": "Prosecutor’s office"
      },
      "type": "string",
      "unit": null
@@ -1040,7 +1040,7 @@
    },
    "caption": {
     "de": "Anteil an den im Jahr neu bewirkten Untersuchungen (Gera 319, Schleiz 333), Prozent.",
-    "en": "Share of the investigations newly effected in the year (Gera 319, Schleiz 333), per cent."
+    "en": "Share of the investigations newly effected in the year (Gera 319, Schleiz 333), percent."
    },
    "vegalite": {
     "height": 170,
@@ -1091,7 +1091,7 @@
        "field": "office",
        "title": {
         "de": "Staatsanwaltschaft",
-        "en": "Prosecutor's office"
+        "en": "Prosecutor’s office"
        }
       },
       {
@@ -1310,5 +1310,12 @@
   ]
  },
  "generated_by": "Claude Sonnet 5.5 (subagent A11)",
- "date": "2026-10-01"
+ "date": "2026-10-01",
+ "related": [
+  "justiz-zivilrechtspflege-einzelgerichte-1864-1867",
+  "justiz-kreisgerichte-berufungen-konkurse-1864-1867",
+  "justiz-strafsachen-einzelrichter-uebertretungen-1864-1867",
+  "justiz-gefangene-hafttage-1864-1867",
+  "justiz-freiwillige-gerichtsbarkeit-1864-1867"
+ ]
 }

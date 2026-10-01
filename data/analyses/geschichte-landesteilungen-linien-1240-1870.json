@@ -130,7 +130,7 @@
  ],
  "summary": {
   "de": "Brückner beschreibt die Geschichte des Voigt- und Reußenhauses als Folge von Landesteilungen und Aussterben von Linien und fasst sie in Tab. XV (S. 403) sowie in einer Tabelle der älteren Linie (S. 390) zusammen. Der Datensatz erfasst 24 Linien und Häuser mit Anfangs- und Endjahr; die Diagramme zeigen ihre Lebensdauer und die Zahl der gleichzeitig regierenden Linien. Aus drei Linien um 1240 wurden bis 1694 zehn gleichzeitig regierende Häuser; die Wiedervereinigung erfolgte in der älteren Linie 1768, in der jüngeren 1848.",
-  "en": "Brückner presents the history of the Voigt and Reuss house as a sequence of divisions of the land and extinctions of lines, summarised in Tab. XV (p. 403) and in a table for the older line (p. 390). The dataset records 24 lines and houses with their start and end years; the charts show their duration and the number of lines ruling at the same time. From three lines around 1240 the family grew to ten simultaneously ruling houses by 1694; the land was reunited in the older line in 1768 and in the younger line in 1848."
+  "en": "Brückner presents the history of the Voigt and Reuss house as a sequence of divisions of the land and extinctions of lines, summarized in Tab. XV (p. 403) and in a table for the older line (p. 390). The dataset records 24 lines and houses with their start and end years; the charts show their duration and the number of lines ruling at the same time. From three lines around 1240 the family grew to ten simultaneously ruling houses by 1694; the land was reunited in the older line in 1768 and in the younger line in 1848."
  },
  "method": {
   "de": "Jede Linie bzw. jedes Haus ist eine Zeile mit Anfangs- und Endjahr, entnommen aus Tab. XV (S. 403 b1–b6), der Tabelle der Häuser der älteren Linie (S. 390 b4) und dem Fließtext (S. 333, 355, 363, 374–376, 379–385, 389–391). Ungefähre Angaben (»um 1240«, »ca. 1305«, »ca. 1535«) stehen als Jahreszahl. Als Linie oder Haus zählt, was Brückner als eigene Herrschaft (Specialhaus, Zweig, Stammlinie) bezeichnet; die Paragiate Köstritz und die Nebenlinie Lobenstein-Selbitz sind nicht gezählt. Wo sich die Zusammensetzung mitten in einer Linie ändert, ist sie in Abschnitte zerlegt (z. B. Gera 1564–1647 ungeteilt, ab 1647 Specialhaus). Die Zahl der gleichzeitig bestehenden Linien (Datensätze »periods« und »yearly«) ist abgeleitet: Sie wurde aus den Zeilen berechnet; für 1625–1768 stimmt sie mit der gedruckten Tabelle auf S. 390 überein (4, 3, 2, 4, 5, 2, 1). Noch bestehende Linien sind bis 1870, dem Erscheinungsjahr, gezeichnet.",
@@ -157,7 +157,7 @@
  "caveats": [
   {
    "de": "Die Einteilung in Linien, Zweige und Häuser folgt Brückners Terminologie, ist aber nicht überall trennscharf (z. B. entstehen Burgk und Dölau zweimal); die Zählung gleichzeitiger Linien ist eine redaktionelle Ableitung.",
-   "en": "The division into lines, branches and houses follows Brückner's terminology but is not sharp everywhere (e.g. Burgk and Dölau arise twice); the count of simultaneous lines is an editorial derivation."
+   "en": "The division into lines, branches and houses follows Brückner’s terminology but is not sharp everywhere (e.g. Burgk and Dölau arise twice); the count of simultaneous lines is an editorial derivation."
   },
   {
    "de": "Ungefähre Jahreszahlen (um 1240, ca. 1305, ca. 1535) sind als Punktwerte eingetragen. Brückner nennt für Schleiz 204 Jahre, für Lobenstein 201 Jahre (S. 380, 383); bei gleichem Beginn 1647 und dem Ende 1848 ergeben sich für beide 201 Jahre, hier gilt daher 1647–1848 für beide.",
@@ -2202,5 +2202,11 @@
   ]
  },
  "generated_by": "Claude Sonnet 5.5 (subagent A12)",
- "date": "2026-10-01"
+ "date": "2026-10-01",
+ "related": [
+  "geschichte-landerwerb-landverlust-1248-1690",
+  "genealogie-voigte-heinriche-1143-1572",
+  "genealogie-reuss-lebensdauer-kindersterblichkeit-1550-1850",
+  "geschichte-chronik-ereignisse-530-1867"
+ ]
 }

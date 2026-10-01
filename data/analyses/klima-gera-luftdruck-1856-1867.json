@@ -19,11 +19,11 @@
  ],
  "summary": {
   "de": "Brückner druckt die Monatsmittel des Barometerstands in Gera für zwölf Jahre (1856–1867), beobachtet von C. Kratzsch und Dr. Robert Schmidt. Umgerechnet liegen die Werte um 990 hPa, wie es der Höhenlage Geras (rund 200 m) entspricht. Auffällig ist der sprunghafte Anstieg ab 1865.",
-  "en": "Brückner prints monthly mean barometer readings for Gera over twelve years (1856–1867), observed by C. Kratzsch and Dr Robert Schmidt. Converted, the values lie around 990 hPa, as expected for the town's elevation of about 200 m. The abrupt rise from 1865 onward stands out."
+  "en": "Brückner prints monthly mean barometer readings for Gera over twelve years (1856–1867), observed by C. Kratzsch and Dr. Robert Schmidt. Converted, the values lie around 990 hPa, as expected for the town’s elevation of about 200 m. The abrupt rise from 1865 onward stands out."
  },
  "method": {
   "de": "Die 144 Monatswerte und 12 Jahresmittel wurden aus der Tabelle auf S. 54 übernommen. Die Überschrift nennt »pariser Zolle«, die Zahlen sind aber Pariser Linien (1 Zoll = 12 Linien); 326,40 Linien entsprechen 27 Zoll 2,4 Linien. Umrechnung: 1 Pariser Linie = 2,2558 mm Quecksilbersäule; 1 mm Hg = 1,3332 hPa. Eine Reduktion auf Meeresniveau oder 0 °C ist nicht möglich, da Höhe und Temperatur des Instruments nicht angegeben sind.",
-  "en": "The 144 monthly values and 12 annual means were taken from the table on p. 54. The heading says “Paris inches”, but the figures are Paris lines (1 inch = 12 lines); 326.40 lines equal 27 inches 2.4 lines. Conversion: 1 Paris line = 2.2558 mm of mercury; 1 mm Hg = 1.3332 hPa. Reduction to sea level or 0 °C is not possible because the instrument's height and temperature are not stated."
+  "en": "The 144 monthly values and 12 annual means were taken from the table on p. 54. The heading says “Paris inches”, but the figures are Paris lines (1 inch = 12 lines); 326.40 lines equal 27 inches 2.4 lines. Conversion: 1 Paris line = 2.2558 mm of mercury; 1 mm Hg = 1.3332 hPa. Reduction to sea level or 0 °C is not possible because the instrument’s height and temperature are not stated."
  },
  "findings": [
   {
@@ -1426,5 +1426,12 @@
  },
  "supersedes_legacy": "p. 54 'Mittlerer Barometerstand in Gera (1856-1867)' (PNG)",
  "generated_by": "Claude Opus 5.5 (reference example)",
- "date": "2026-10-01"
+ "date": "2026-10-01",
+ "related": [
+  "klima-gera-temperatur-1856-1867",
+  "klima-hoehenlage-temperatur-luftdruck",
+  "klima-witterungserscheinungen-gera-1856-1867",
+  "klima-stationen-temperatur-vergleich",
+  "masse-gewichte-umrechnung-1869"
+ ]
 }

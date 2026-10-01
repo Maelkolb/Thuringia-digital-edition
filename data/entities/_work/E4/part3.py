@@ -14,7 +14,7 @@ M('Heinrichs des Frommen', 'Heinrich der Fromme', 'genitive (his son of 1143, p.
 P('Heinrich der Reiche', 'Heinrich der Reiche (von Weida)', 'Vogt',
   'Heinrich von Weida der Reiche, nach den Urkunden Sohn des 1143 beurkundeten Heinrich von Weida; 1188 bis † vor 1209; 1191 von Kaiser Heinrich VI. zum Ritter geschlagen; gründete 1193 das Prämonstratenserkloster Mildenfurt; '
   'verheiratet mit Berchta; Vater der drei ersten Voigte Heinrich d. ä., d. m. und d. j.; Urheber der Gleichnamigkeit des Hauses (S. 329, Tab. I).',
-  'Heinrich of Weida the Rich, according to the charters son of the Heinrich of Weida attested in 1143; 1188 to died before 1209; knighted by Emperor Heinrich VI. in 1191; founded the Premonstratensian monastery of Mildenfurt in 1193; '
+  'Heinrich of Weida the Rich, according to the charters son of the Heinrich of Weida attested in 1143; himself attested from 1188, died before 1209; knighted by Emperor Heinrich VI. in 1191; founded the Premonstratensian monastery of Mildenfurt in 1193; '
   'married to Berchta; father of the first three Voigte Heinrich d. ä., d. m. and d. j.; origin of the house\'s single name (p. 329, Tab. I).')
 for k in ('Heinrich den Reichen', 'Heinrich dem Reichen', 'Heinrichs des Reichen', 'Heinrich von Weida der Reiche', 'Heinrich d. Reichen von Weida'):
     M(k, 'Heinrich der Reiche', 'inflection/word-order variant')
@@ -79,7 +79,7 @@ P('Heinrich von Wildenfels', 'Heinrich von Wildenfels (1315)', 'Adliger',
 P('Heinrich der Ruthene', 'Heinrich der Ruthene (Ruzze, Reuß)', 'Vogt',
   'Heinrich der erste Ruthene (Ruzze, Reuß), Voigt von Plauen, mittlerer Sohn Heinrichs von Gottes Gnaden; 1244 bis † Ende 1303; Gründer der Linie Plauen; führt „von Gottes Vollmacht" und den Beinamen Reuß (urkundlich seit 1266); '
   'verheiratet mit Kunigunde von Eberstein; Vater Heinrichs des Böhmen und Heinrichs des Ruzze.',
-  'Heinrich the first Ruthene (Ruzze, Reuss), Voigt of Plauen, middle son of Heinrich von Gottes Gnaden; 1244 to died end of 1303; founder of the Plauen line; styles himself "by the authority of God" and bears the epithet Reuss (in charters from 1266); '
+  'Heinrich the first Ruthene (Ruzze, Reuss), Voigt of Plauen, middle son of Heinrich von Gottes Gnaden; attested from 1244, died end of 1303; founder of the Plauen line; styles himself "by the authority of God" and bears the epithet Reuss (in charters from 1266); '
   'married Kunigunde of Eberstein; father of Heinrich the Bohemian and Heinrich the Ruzze.')
 for k, n in (('Heinrich der erste Ruthene', 'variant'), ('Heinrich der Ruthene (Ruzze, Reuß', 'table header (Tab. IV, p. 364); the key is truncated'),
              ('Heinrich von Plauen d. ä', 'p. 354 fn.: "Voigts Heinrich von Plauen d. ä.", husband of Kunigunde von Eberstein')):
@@ -93,7 +93,7 @@ P('Heinrich der Böhme', 'Heinrich der Böhme (Voigt von Plauen)', 'Vogt',
 
 P('Heinrich der Ruzze', 'Heinrich der Ruzze (Reuß), 1276-1296', 'Vogt',
   'Heinrich Reuß oder Ruzze, jüngerer Sohn Heinrichs des Ruthenen; 1276 bis † vor 20. März 1296; Vater Heinrich Eriks, des Gründers des Hauses Reuß.',
-  'Heinrich Reuss or Ruzze, younger son of Heinrich the Ruthene; 1276 to died before 20 March 1296; father of Heinrich Erik, the founder of the house of Reuss.')
+  'Heinrich Reuss or Ruzze, younger son of Heinrich the Ruthene; attested from 1276, died before 20 March 1296; father of Heinrich Erik, the founder of the house of Reuss.')
 M('Heinrichs Ruzze', 'Heinrich der Ruzze', 'genitive (p. 365: "der Erbsohn Heinrichs Ruzze")')
 
 P('Heinrich Erik', 'Heinrich Erik (Reuß der Kleine)', 'Vogt',
@@ -160,7 +160,7 @@ P('Heinrich Rothbart', 'Heinrich Rothbart (Heinrich d. m. Reuß zu Schleiz)', 'L
 P('Heinrich d. Mehrer', 'Heinrich der Mehrer (d. ä., Voigt von Gera)', 'Vogt',
   'Heinrich d. ä., der Mehrer seines Landes, Voigt von Gera, jüngster Sohn Heinrichs von Gottes Gnaden und Gründer der Linie Gera; 1244 bis † vor Ende August 1279; verheiratet mit Luckard von Lobdaburg-Arnshaugk, durch die er Pausa, Lobenstein, Saalburg, Burgk und Schleiz gewann; '
   '1254 Teilnehmer des grimmaischen Vertrags.',
-  'Heinrich d. ä., the Augmenter of his land, Voigt of Gera, youngest son of Heinrich von Gottes Gnaden and founder of the Gera line; 1244 to died before the end of August 1279; married Luckard of Lobdaburg-Arnshaugk, through whom he gained Pausa, Lobenstein, Saalburg, Burgk and Schleiz; '
+  'Heinrich d. ä., the Augmenter of his land, Voigt of Gera, youngest son of Heinrich von Gottes Gnaden and founder of the Gera line; attested from 1244, died before the end of August 1279; married Luckard of Lobdaburg-Arnshaugk, through whom he gained Pausa, Lobenstein, Saalburg, Burgk and Schleiz; '
   'party to the treaty of Grimma in 1254.')
 for k, n in (('Heinrich des Mehrers', 'genitive'), ('Heinrich der Ältere', 'Tab. III header (p. 352): "Heinrich der Ältere, Voigt von Gera, 1244 - † vor Ende August 1279"'),
              ('Heinrich von Gera und Lobenstein', 'p. 774: Voigt who gave Swinshut to Langheim in 1278 (from Lobenstein, p. 342)')):
@@ -176,7 +176,7 @@ for k, n in (('Heinrich d. Große', 'abbreviated variant (p. 414)'), ('Heinrich 
 P('Heinrich der Worthalter', 'Heinrich der Worthalter (d. j., Voigt von Gera)', 'Vogt',
   'Heinrich d. j., der Worthalter (Minister der thüringer Landgrafen 1366; Tab. III: der Wohlbedachte), Voigt von Gera, Sitz Reichenfels; 1310 bis † 8. Dez. 1376; verheiratet mit Mechtild von Käfernburg; '
   'verpfändete in Geldnot Lobenstein, Burgk u. a. und trug seine Herrschaften zu Lehen auf; Vater Heinrichs des Dispensirten.',
-  'Heinrich d. j., the Worthalter (minister of the Thuringian landgraves in 1366; Tab. III: the Prudent), Voigt of Gera, seat at Reichenfels; 1310 to died 8 Dec. 1376; married Mechtild of Käfernburg; '
+  'Heinrich d. j., the Worthalter (minister of the Thuringian landgraves in 1366; Tab. III: the Prudent), Voigt of Gera, seat at Reichenfels; attested from 1310, died 8 Dec. 1376; married Mechtild of Käfernburg; '
   'pledged Lobenstein, Burgk etc. in financial need and made his lordships fiefs of others; father of Heinrich the Dispensed.')
 for k, n in (('Heinrich d. Worthalter', 'abbreviated variant'), ('Heinrich dem Worthalter', 'inflection variant')):
     M(k, 'Heinrich der Worthalter', n)
@@ -187,7 +187,7 @@ for k in ('Heinrich den Freigesinnten', 'Heinrich der Freigesinnte', 'Heinrich d
 P('Heinrich der Dispensirte', 'Heinrich der Dispensirte (Herr von Gera)', 'Vogt',
   'Heinrich der Dispensirte, Herr von Gera, Sohn Heinrichs des Worthalters; 1351 bis † Ende 1419/Anfang 1420; erhielt den Beinamen durch die Dispensation des Erzbischofs von Mainz für seine nahe verwandte zweite Frau Lutrada von Hohnstein; '
   'erste Frau Elisabeth von Schwarzburg; „Pfaffenbrief" 1405; Vater Heinrichs d. ä., d. m. (Beerber) und d. j.',
-  'Heinrich the Dispensed, lord of Gera, son of Heinrich the Worthalter; 1351 to died end of 1419/early 1420; received the epithet through the dispensation of the archbishop of Mainz for his closely related second wife Lutrada of Hohnstein; '
+  'Heinrich the Dispensed, lord of Gera, son of Heinrich the Worthalter; attested from 1351, died end of 1419/early 1420; received the epithet through the dispensation of the archbishop of Mainz for his closely related second wife Lutrada of Hohnstein; '
   'first wife Elisabeth of Schwarzburg; "Pfaffenbrief" of 1405; father of Heinrich d. ä., d. m. (the Beerber) and d. j.')
 for k in ('Heinrich den Dispensirten', 'Heinrich d. Dispensirte', 'Heinrich d. Dispenstirte'):
     M(k, 'Heinrich der Dispensirte', 'inflection/abbreviation/OCR variant')
@@ -222,12 +222,12 @@ for k, n in (('Heinrichs des ä', 'genitive (p. 576: "nach dem Tode Heinrichs de
 
 P('Heinrich d. m. von Schleiz', 'Heinrich d. m. (Herr zu Gera und Schleiz, 1478-1500)', 'Landesherr',
   'Heinrich d. m. von Gera, Herr zu Schleiz, 1478 bis † 1500; Gesamterbe der geraer Lande nach dem Tod seiner Brüder (1488, 1498); erhob 1494 Tanna zur Stadt; Geheimrat Kaiser Friedrichs III.; verheiratet mit Hedwig von Mansfeld-Heldrungen; Vater Heinrichs d. ä. (1502-1538) und Heinrichs d. j. (der Beharrliche).',
-  'Heinrich d. m. of Gera, lord of Schleiz, 1478 to died 1500; sole heir of the Gera lands after the death of his brothers (1488, 1498); raised Tanna to a town in 1494; privy councillor of Emperor Friedrich III.; married Hedwig of Mansfeld-Heldrungen; father of Heinrich d. ä. (1502-1538) and Heinrich d. j. (the Persistent).',
+  'Heinrich d. m. of Gera, lord of Schleiz, attested from 1478, died 1500; sole heir of the Gera lands after the death of his brothers (1488, 1498); raised Tanna to a town in 1494; privy councillor of Emperor Friedrich III.; married Hedwig of Mansfeld-Heldrungen; father of Heinrich d. ä. (1502-1538) and Heinrich d. j. (the Persistent).',
   note='Identified from the context (p. 688 and p. 350: Tanna 1494). The bare form "Heinrich d. m." is ambiguous and listed separately.')
 
 P('Heinrich den Beherrlichen', 'Heinrich d. j., der Beharrliche (Herr von Gera, † 1550)', 'Landesherr',
   'Heinrich d. j. von Gera, „der Beharrliche"; 1502 bis † 7. Aug. 1550 zu Burgk; geächtet nach der Schlacht bei Mühlberg (1547), verzichtete auf Gera; ohne Erben mit ihm erlosch das alte Haus Gera; verheiratet 1) mit Ludmilla von Lobkowitz und Hassenstein, 2) mit Margaretha von Schwarzburg-Leutenberg.',
-  'Heinrich d. j. of Gera, "the Persistent"; 1502 to died 7 Aug. 1550 at Burgk; outlawed after the battle of Mühlberg (1547), renounced Gera; the old house of Gera became extinct with him, without heirs; married 1) Ludmilla of Lobkowitz and Hassenstein, 2) Margaretha of Schwarzburg-Leutenberg.',
+  'Heinrich d. j. of Gera, "the Persistent"; attested from 1502, died 7 Aug. 1550 at Burgk; outlawed after the battle of Mühlberg (1547), renounced Gera; the old house of Gera became extinct with him, without heirs; married 1) Ludmilla of Lobkowitz and Hassenstein, 2) Margaretha of Schwarzburg-Leutenberg.',
   note='Brückner\'s p. 630 has "Beherrlichen" (also in the transcription); pp. 351/352 give "der Beharrliche"; the last ruler of Gera of 1550.')
 
 P('Heinrich der Ritterhafte', 'Heinrich der Ritterhafte', 'Adliger',

@@ -1676,7 +1676,7 @@
    },
    "caption": {
     "de": "Jeder Punkt ist ein Eintrag mit festem Kalendertag; die Zeile gibt den Monat an, die Lage den Tag, die Farbe die Sorte. Bewegliche Feste sind nicht eingetragen. Gebündelte Punkte (24./25. Dezember, 11. November, 2. Februar) zeigen Tage, an denen sich mehrere Bräuche überlagern.",
-    "en": "Each dot is an entry with a fixed calendar day; the row gives the month, the position the day, the colour the kind. Movable feasts are not shown. Clustered dots (24/25 December, 11 November, 2 February) show days on which several customs overlap."
+    "en": "Each dot is an entry with a fixed calendar day; the row gives the month, the position the day, the color the kind. Movable feasts are not shown. Clustered dots (24/25 December, 11 November, 2 February) show days on which several customs overlap."
    },
    "vegalite": {
     "height": 420,
@@ -1853,7 +1853,9 @@
    "church fair"
   ]
  },
- "related": [],
+ "related": [
+  "kultur-sagenorte-nach-typ-und-landestheil"
+ ],
  "generated_by": "Claude Sonnet 5.5 (subagent A08)",
  "date": "2026-10-01"
 }

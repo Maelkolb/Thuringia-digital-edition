@@ -31,6 +31,7 @@ def main() -> None:
                 ids.add(str(c["geonames"]))
     out_path = DATA / "entities" / "wikidata_by_geonames.json"
     result = read_json(out_path) if out_path.exists() else {}
+    result = {k: v for k, v in result.items() if v is not None or k.startswith("_")}  # retry earlier failures
     todo = sorted(i for i in ids if i not in result)
     print(f"{len(ids)} GeoNames ids, {len(todo)} to look up")
     found = {}
@@ -39,24 +40,26 @@ def main() -> None:
         q = ("SELECT ?item ?gn ?itemLabel WHERE { VALUES ?gn { " + " ".join(f'"{g}"' for g in batch) +
              " } ?item wdt:P1566 ?gn . SERVICE wikibase:label { bd:serviceParam wikibase:language \"de,en\". } }")
         url = "https://query.wikidata.org/sparql?" + urllib.parse.urlencode({"query": q, "format": "json"})
-        for attempt in range(5):
+        for attempt in range(6):
             try:
-                with urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=90) as r:
+                with urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=120) as r:
                     data = json.loads(r.read().decode("utf-8"))
                 break
             except Exception as e:  # noqa: BLE001
-                print("  retry", attempt, e)
-                time.sleep(10 * (attempt + 1))
+                print("  retry", attempt, e, flush=True)
+                time.sleep(70)  # WDQS may throttle to 1 request / minute
         else:
             continue
         for b in data["results"]["bindings"]:
             gn = b["gn"]["value"]
             qid = b["item"]["value"].rsplit("/", 1)[1]
             found.setdefault(gn, []).append({"qid": qid, "label": b.get("itemLabel", {}).get("value")})
-        time.sleep(2)
-    for gn in todo:
-        hits = found.get(gn, [])
-        result[gn] = hits[0] if len(hits) == 1 else ({"ambiguous": [h["qid"] for h in hits]} if hits else None)
+        for gn in batch:  # only answered batches are recorded
+            hits = found.get(gn, [])
+            result[gn] = hits[0] if len(hits) == 1 else ({"ambiguous": [h["qid"] for h in hits]} if hits else {"none": True})
+        write_json(out_path, result)
+        print(f"  batch {k // 150 + 1}: {sum(1 for g in batch if g in found)} of {len(batch)} found", flush=True)
+        time.sleep(65)
     write_json(out_path, result)
     ok = sum(1 for v in result.values() if v and "qid" in v)
     print(f"mapped {ok} of {len(result)} GeoNames ids to Wikidata")

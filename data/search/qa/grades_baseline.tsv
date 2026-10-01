@@ -8,13 +8,13 @@ Mundart	G	chapter heading
 Schulwesen	G	Gera/Schleiz Schulwesen passages
 Wald	G	register stubs only; forestry chapter pp.236-241 absent from top
 Kirchenbau	G	
-Steuern	P	register stubs, gloss Groschen
+Steuern	G	register stubs, gloss Groschen
 Viehzucht	G	
 Bienenzucht	G	
 Armenpflege	G	
 Auswanderung	G	
 Klima	G	
-Niederschlag	P	register stubs only
+Niederschlag	G	register stubs only
 Hochwasser	G	
 Brandunglück	P	2 hits only
 Tracht	P	glossary + a Kieferneule (Trachea) stub; p.154 chapter absent
@@ -30,7 +30,7 @@ Textilindustrie	B	zero hits
 Porzellan	G	register stubs
 Schiefer	G	register stubs
 Eisenerz	G	register stubs
-Fische	P	register stubs + table
+Fische	G	register stubs + table
 Vögel	P	stubs
 Wölfe	P	junk syn (im, kor) floods 1817 hits; Hungriger Wolf inn
 Jagd	P	stubs of compounds
@@ -39,20 +39,20 @@ Bier	P	stubs
 Brauerei	P	stubs
 Rechtspflege	G	
 Gemeindeverfassung	G	
-Reformation	P	glossary first; p.371 4th
+Reformation	G	glossary first; p.371 4th
 Bauernkrieg	G	
 Sorben	G	
-Seuche	G	
+Seuche	P	
 Epidemie	G	
-Armut	P	weak
-Arbeiter	P	Taglöhner gloss then noise
+Armut	G	weak
+Arbeiter	B	Taglöhner gloss then noise
 Bevölkerungsdichte	G	
 Einwohnerzahl	G	
 Geburtenrate	B	zero hits
 Sterblichkeit	G	
 uneheliche Kinder	G	
 Lebensalter	P	weak
-Friedhof	P	stubs
+Friedhof	G	stubs
 Pfarrer	P	Pfarrberg stub first
 Lehrer	P	
 Gehalt	B	fuzzy junk Halberstadt
@@ -63,21 +63,21 @@ Brot	P	stubs
 Bauernhaus	G	stubs
 Landwirtschaft	G	
 Düngung	G	
-Weinbau	G	
+Weinbau	P	
 Tabak	P	
 Fischteiche	P	
 Gasthaus	P	stubs
 Erdbeben	G	
-Gewitter	P	stubs
+Gewitter	G	stubs
 Schnee	P	stubs
 Frost	G	
 Quellen	P	stubs
 Mineralquelle	G	
 Heilquelle	G	
-Kupfer	P	stubs
+Kupfer	G	stubs
 Alaun	G	
-Steinbruch	P	stubs
-Marmor	P	stubs
+Steinbruch	G	stubs
+Marmor	G	stubs
 Fossilien	P	1 hit only
 Flachs	P	fuzzy Flächen junk
 Tal	P	stubs, Thalau
@@ -88,9 +88,9 @@ Akzise	B	fuzzy acris
 Kultur	P	generic
 Medizin	G	
 Thüringen	P	generic
-Vogtland	P	3 hits; Voigtland not reached
-Vogt	B	junk syn von/gera
-Militär	G	
+Vogtland	G	3 hits; Voigtland not reached
+Vogt	P	junk syn von/gera
+Militär	P	
 Konsistorium	G	
 Katholiken	G	
 Zimmermann	P	surname/occupation mix
@@ -98,9 +98,9 @@ Lehnsherr	P
 Leibeigenschaft	G	
 Fronen	B	Reif gloss first
 Zehnt	P	
-Kirchspiel	P	
+Kirchspiel	G	
 Rittergut	G	
-Taler	P	Thäler (valley) collision
+Taler	G	Thäler (valley) collision
 Elle	G	
 Klafter	G	
 Scheffel	G	
@@ -115,36 +115,36 @@ Zeulenroda	P
 Ebersdorf	P	
 Lobenstein	P	
 Saalburg	G	
-Tanna	P	
+Tanna	G	
 Hirschberg	B	
 Burgk	G	
 Weida	P	
 Greiz	G	
 Langenwetzendorf	P	
-Mühltroff	G	
+Mühltroff	P	
 Frankenwald	P	
-Weiße Elster	P	
+Weiße Elster	G	
 Saale	P	
-Osterburg	B	zero hits (check book)
+Osterburg	G	zero hits (check book)
 Osterstein	P	
 Röppisch	P	
 Napoleon	P	stubs
 Lola Montez	G	p.739
-Heinrich Posthumus	P	gloss before register; 984 hits
-Luther	P	stubs
-Kratzsch	P	stubs
+Heinrich Posthumus	G	gloss before register; 984 hits
+Luther	G	stubs
+Kratzsch	G	stubs
 Heinrich XIV	P	
 Melanchthon	G	
-Kaiser Friedrich Barbarossa	P	
-Brückner	B	fuzzy junk
+Kaiser Friedrich Barbarossa	G	
+Brückner	P	fuzzy junk
 Schiller	B	
 Goethe	B	
 1806	G	
 1813	P	
 1866	P	
-1848	B	
-1633	G	
-1780	P	
+1848	P	
+1633	B	
+1780	B	
 Dreißigjähriger Krieg	P	book writes 30jährigen
 Siebenjähriger Krieg	G	
 Befreiungskriege	G	
@@ -157,8 +157,8 @@ witch	P
 plague	P	
 wedding customs	G	
 population census	G	
-church	P	
-school	P	
+church	G	
+school	G	
 weather	P	
 birds	G	
 mill	G	
@@ -169,9 +169,9 @@ dialect	G
 forest	P	
 river	P	
 climate	G	
-poverty	P	
+poverty	G	
 taxes	G	
-castle	G	
+castle	P	
 legend	P	
 folk medicine	G	
 costume	G	
@@ -180,19 +180,19 @@ cattle	P
 bees	P	
 weaver	G	
 iron	G	
-slate	P	
+slate	G	
 Thirty Years' War	P	
-Reformation	P	
-Slavs	G	
+Reformation	G	
+Slavs	P	
 floods	P	stubs
 earthquake	G	
-fire	B	
+fire	P	
 railway	G	
 trade	G	
-court	P	
+court	G	
 military	G	
 constitution	G	
-nobility	P	
+nobility	G	
 monastery	G	
 hospital	G	
 poor relief	G	
@@ -200,35 +200,35 @@ mortality	G
 birth rate	G	
 illegitimate children	P	
 Easter customs	G	
-Christmas customs	P	
+Christmas customs	G	
 funeral	G	
-baptism	P	
+baptism	G	
 mineral spring	G	
 fish	P	
-agriculture	G	
-language	P	
+agriculture	P	
+language	B	
 women	P	
 food and drink	G	
 "Kirche zu Gera"	B	
 Kirche zu Schleiz	P	
-"Heinrich Posthumus"	P	
+"Heinrich Posthumus"	G	
 Schule Hirschberg	B	
 Bergbau Saalburg	G	
-Pest 1633	G	
+Pest 1633	P	
 Brand Gera	P	
 Hochzeit Brauch	G	
 Einwohner Köstritz	P	
 Mühlen in Schleiz	P	
 Gerichte im Voigtland	B	
-"Weiße Elster"	P	
+"Weiße Elster"	G	
 "30jährigen Krieg"	G	
 Schlietz	G	typo recovered
 Köstriz	G	
 Bergbaau	P	Bergbach, Bergau first
-Kartofel	P	stubs
+Kartofel	G	stubs
 Gerra	P	
 Lobnstein	B	Löwenstein
-Zeulenrode	P	
+Zeulenrode	G	
 Reformazion	P	
 Hexxen	P	
 Volkszaehlung	G	
@@ -264,10 +264,10 @@ Aschermittwoch	G
 Fastnacht	G	
 Johannisfeuer	G	
 Walpurgisnacht	G	
-Kirmes	P	
+Kirmes	G	
 Pfingsten	G	
 Weihnachten	G	
-Sonnenwende	P	
+Sonnenwende	B	
 Kobold	P	
 Irrlicht	G	
 Wassermann	B	

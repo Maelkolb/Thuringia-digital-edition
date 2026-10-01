@@ -44,7 +44,7 @@
   "en": "The princely saltworks at Heinrichshall near Köstritz were founded after drilling trials that began in 1822. Brückner gives the quantities of table salt delivered in 1857, 1858 and 1863 and breaks down the deliveries of 1857 and 1863 by 20 sales points (Debitstellen). The charts show deliveries by sales point, the change between the two years and the quantities of the other salt grades."
  },
  "method": {
-  "de": "Die Tabelle auf S. 251 (3 × 7 Orte, 1857 und 1863) wurde Ort für Ort in das Langformat übertragen; ein Strich (»—«) bedeutet keine Lieferung und ist als fehlender Wert kodiert. Die Veränderung 1857–1863 ist die Differenz der beiden Jahre (Strich = 0). Die Mengen der übrigen Sorten stammen aus der zweiten Tabelle und dem Text auf S. 251. Maßeinheit Centner (Ctr.) wie gedruckt; 1 Zollcentner = 100 Zollpfund = 50 kg (Zollpfund = 0,5 kg, S. 832). Ortsnamen wurden aufgelöst (»Münchenbernsd.« zu Münchenbernsdorf, »Neustadt a. d. O.« zu Neustadt a. d. Orla).",
+  "de": "Die Tabelle auf S. 251 (3 × 7 Orte, 1857 und 1863) wurde Ort für Ort in das Langformat übertragen; ein Strich (»—«) bedeutet keine Lieferung und ist als fehlender Wert kodiert. Die Veränderung 1857–1863 ist die Differenz der beiden Jahre (Strich = 0). Die Mengen der übrigen Sorten stammen aus der zweiten Tabelle und dem Text auf S. 251. Maßeinheit Zentner (Ctr.) wie gedruckt; 1 Zollzentner = 100 Zollpfund = 50 kg (Zollpfund = 0,5 kg, S. 832). Ortsnamen wurden aufgelöst (»Münchenbernsd.« zu Münchenbernsdorf, »Neustadt a. d. O.« zu Neustadt a. d. Orla).",
   "en": "The table on p. 251 (3 × 7 places, 1857 and 1863) was transferred place by place into long format; a dash (“—”) means no delivery and is coded as a missing value. The change 1857–1863 is the difference between the two years (dash = 0). The quantities of the other grades come from the second table and the text on p. 251. The unit is the hundredweight (Centner, Ctr.) as printed; 1 Zollcentner = 100 Zollpfund = 50 kg (Zollpfund = 0.5 kg, p. 832). Place names were expanded (“Münchenbernsd.” to Münchenbernsdorf, “Neustadt a. d. O.” to Neustadt a. d. Orla)."
  },
  "findings": [
@@ -76,7 +76,7 @@
   },
   {
    "de": "Nach Brückners Berichtigung zu S. 251 (S. 831) sind die Debitstellen mit dem freien Salzhandel im Zollverein ab 1868 weggefallen; die Zahlen betreffen also ein abgeschlossenes Absatzsystem.",
-   "en": "According to Brückner's correction to p. 251 (p. 831) the sales points ceased to exist when the salt trade was freed throughout the Zollverein from 1868; the figures therefore describe a system that had come to an end."
+   "en": "According to Brückner’s correction to p. 251 (p. 831) the sales points ceased to exist when the salt trade was freed throughout the Zollverein from 1868; the figures therefore describe a system that had come to an end."
   }
  ],
  "conversions": [
@@ -791,7 +791,7 @@
     "en": "Table salt delivered per sales point"
    },
    "caption": {
-    "de": "Centner Kochsalz 1857 und 1863, Orte nach der Summe beider Jahre geordnet. Greiz, Möschlitz und Zeulenroda haben 1863 keinen Eintrag (Strich im Druck).",
+    "de": "Zentner Kochsalz 1857 und 1863, Orte nach der Summe beider Jahre geordnet. Greiz, Möschlitz und Zeulenroda haben 1863 keinen Eintrag (Strich im Druck).",
     "en": "Hundredweights of table salt in 1857 and 1863, places ordered by the sum of both years. Greiz, Möschlitz and Zeulenroda have no entry in 1863 (dash in the print)."
    },
    "vegalite": {
@@ -816,7 +816,7 @@
       "field": "ctr",
       "type": "quantitative",
       "title": {
-       "de": "Centner (Ctr.)",
+       "de": "Zentner (Ctr.)",
        "en": "Hundredweight (Ctr.)"
       }
      },
@@ -846,7 +846,7 @@
       {
        "field": "ctr",
        "title": {
-        "de": "Centner (Ctr.)",
+        "de": "Zentner (Ctr.)",
         "en": "Hundredweight (Ctr.)"
        }
       }
@@ -862,7 +862,7 @@
     "en": "Change in deliveries 1857 → 1863"
    },
    "caption": {
-    "de": "Differenz in Centnern; negative Werte (links) sind Rückgänge. Die drei größten Verluste sind die 1863 nicht mehr belieferten Orte Greiz, Möschlitz und Zeulenroda.",
+    "de": "Differenz in Zentnern; negative Werte (links) sind Rückgänge. Die drei größten Verluste sind die 1863 nicht mehr belieferten Orte Greiz, Möschlitz und Zeulenroda.",
     "en": "Difference in hundredweights; negative values (left) are declines. The three largest losses are the places no longer supplied in 1863: Greiz, Möschlitz and Zeulenroda."
    },
    "vegalite": {
@@ -936,7 +936,7 @@
     "en": "Salt grades produced"
    },
    "caption": {
-    "de": "Centner je Sorte und Jahr bzw. Dreijahresdurchschnitt 1865–67 (Kochsalz und Viehsalz). Kochsalz ist das wichtigste Fabrikat; Gewerbe- und Dungsalz machen zusammen weniger als 1000 Ctr. aus.",
+    "de": "Zentner je Sorte und Jahr bzw. Dreijahresdurchschnitt 1865–67 (Kochsalz und Viehsalz). Kochsalz ist das wichtigste Fabrikat; Gewerbe- und Dungsalz machen zusammen weniger als 1000 Ctr. aus.",
     "en": "Hundredweights by grade and year, or three-year average 1865–67 (table salt and cattle salt only). Table salt is the main product; industrial and manure salt together amount to less than 1,000 Ctr."
    },
    "vegalite": {
@@ -974,7 +974,7 @@
       "field": "ctr",
       "type": "quantitative",
       "title": {
-       "de": "Centner (Ctr.)",
+       "de": "Zentner (Ctr.)",
        "en": "Hundredweight (Ctr.)"
       }
      },
@@ -1010,7 +1010,7 @@
       {
        "field": "ctr",
        "title": {
-        "de": "Centner (Ctr.)",
+        "de": "Zentner (Ctr.)",
         "en": "Hundredweight (Ctr.)"
        }
       }
@@ -1043,7 +1043,8 @@
   ]
  },
  "related": [
-  "bergbau-erzbergbau-zeitleiste-ober-unterland"
+  "bergbau-erzbergbau-zeitleiste-ober-unterland",
+  "gewaesser-heilquellen-lobenstein-analyse"
  ],
  "generated_by": "Claude Sonnet 5.5 (subagent A10)",
  "date": "2026-10-01"

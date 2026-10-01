@@ -110,7 +110,7 @@
  },
  "method": {
   "de": "Für jede Einheit wurde Liebes Satz über den Verwitterungsboden wörtlich übernommen (Spalte »Wortlaut«; jeder Wortlaut wurde im zitierten Block geprüft) und einer Stufe zugeordnet: 5 = sehr fruchtbar, ausgezeichnet, trefflich, außerordentlich günstig; 4 = fruchtbar, gut geeignet; 3 = mittelmäßig, von mittlerer Güte; 2 = wenig fruchtbar, nicht sehr günstig, dürftig; 1 = unfruchtbar (kommt nicht vor). Enthält ein Satz Unterschiede (z. B. beim Buntsandstein »von Gaux bis gut«), wurde die Mitte gewählt und die Spannweite im Bemerkungsfeld festgehalten. Die Gesteinsgruppen (Schiefer/Grauwacke, Grünstein/Diabas/Tuff, Kalk, kristalline Gesteine, Sand/Sandstein/Gerölle/Ton) sind editorisch; Einheiten ohne Aussage zum Boden (z. B. Granit von Helmsgrün, Süßwassersandstein) fehlen.",
-  "en": "For each unit Liebe's sentence about the weathering soil was taken verbatim (column “Wording”; every wording was checked in the cited block) and assigned a grade: 5 = very fertile, excellent, splendid, exceptionally favourable; 4 = fertile, well suited; 3 = mediocre, of medium quality; 2 = poorly fertile, not very favourable, meagre; 1 = barren (does not occur). Where a sentence contains differences (e.g. for the Bunter sandstone “from Gaux to good”) the middle was chosen and the range recorded in the remark field. The rock groups (slate/greywacke, greenstone/diabase/tuff, limestone, crystalline rocks, sand/sandstone/gravel/clay) are editorial; units without a statement about the soil (e.g. the granite of Helmsgrün, the freshwater sandstone) are omitted."
+  "en": "For each unit Liebe’s sentence about the weathering soil was taken verbatim (column “Wording”; every wording was checked in the cited block) and assigned a grade: 5 = very fertile, excellent, splendid, exceptionally favorable; 4 = fertile, well suited; 3 = mediocre, of medium quality; 2 = poorly fertile, not very favorable, meagre; 1 = barren (does not occur). Where a sentence contains differences (e.g. for the Bunter sandstone “from Gaux to good”) the middle was chosen and the range recorded in the remark field. The rock groups (slate/greywacke, greenstone/diabase/tuff, limestone, crystalline rocks, sand/sandstone/gravel/clay) are editorial; units without a statement about the soil (e.g. the granite of Helmsgrün, the freshwater sandstone) are omitted."
  },
  "findings": [
   {
@@ -133,15 +133,15 @@
  "caveats": [
   {
    "de": "Die Einstufung ist eine Deutung von Liebes Worten, keine Messung; sie fasst oft unterschiedlich fruchtbare Varianten einer Formation in einer Stufe zusammen, und die tatsächliche Fruchtbarkeit hängt auch von Lage, Neigung, Klima und Bewirtschaftung ab, die Liebe zum Teil erwähnt.",
-   "en": "The grading is an interpretation of Liebe's words, not a measurement; it often puts differently fertile varieties of a formation into one grade, and actual fertility also depends on position, slope, climate and farming, which Liebe partly mentions."
+   "en": "The grading is an interpretation of Liebe’s words, not a measurement; it often puts differently fertile varieties of a formation into one grade, and actual fertility also depends on position, slope, climate and farming, which Liebe partly mentions."
   },
   {
    "de": "Die Einheiten sind nach Liebes Gliederung gewählt und nicht flächengewichtet: Ein kleinräumiges Gneisvorkommen zählt gleich wie der weit verbreitete Schiefer. Über die Flächenanteile der Formationen macht der Text keine Zahlenangaben.",
-   "en": "The units follow Liebe's division and are not weighted by area: a small gneiss outcrop counts as much as the widespread slate. The text gives no figures on the areas of the formations."
+   "en": "The units follow Liebe’s division and are not weighted by area: a small gneiss outcrop counts as much as the widespread slate. The text gives no figures on the areas of the formations."
   },
   {
    "de": "Die Bezeichnung »untere devonische Tufflager« ist Liebes eigene; er stellt sie nach den Versteinerungen in die unterste Abteilung des oberen Devon (S. 33).",
-   "en": "The name “lower Devonian tuff beds” is Liebe's own; on the evidence of the fossils he places them in the lowest division of the Upper Devonian (p. 33)."
+   "en": "The name “lower Devonian tuff beds” is Liebe’s own; on the evidence of the fossils he places them in the lowest division of the Upper Devonian (p. 33)."
   }
  ],
  "datasets": [
@@ -167,7 +167,7 @@
      "name": "section",
      "label": {
       "de": "Abschnitt bei Liebe",
-      "en": "Section in Liebe's text"
+      "en": "Section in Liebe’s text"
      },
      "type": "string",
      "unit": null,
@@ -698,7 +698,7 @@
    },
    "caption": {
     "de": "Reihenfolge wie in Liebes Gliederung (1 = älteste Formation, 13 = jüngste); Farbe = Gesteinsgruppe. Stufe 1 = unfruchtbar, 3 = mittel, 5 = sehr fruchtbar; die Stufen sind eine editorische Einordnung des Wortlauts, der im Tooltip steht.",
-    "en": "Order as in Liebe's division (1 = oldest formation, 13 = youngest); colour = rock group. Grade 1 = barren, 3 = medium, 5 = very fertile; the grades are an editorial grading of the wording, which appears in the tooltip."
+    "en": "Order as in Liebe’s division (1 = oldest formation, 13 = youngest); color = rock group. Grade 1 = barren, 3 = medium, 5 = very fertile; the grades are an editorial grading of the wording, which appears in the tooltip."
    },
    "vegalite": {
     "height": 560,
@@ -963,5 +963,11 @@
   ]
  },
  "generated_by": "Claude Sonnet 5.5 (subagent A02)",
- "date": "2026-10-01"
+ "date": "2026-10-01",
+ "related": [
+  "geologie-formationen-rohstoffe",
+  "geologie-fossilfunde-zechstein-clymenienkalk",
+  "landwirtschaft-bodennutzung-1854",
+  "flora-exklusivarten-unterland-oberland"
+ ]
 }

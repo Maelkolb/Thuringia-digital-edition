@@ -113,7 +113,9 @@
   function setEnts(on) { body.classList.toggle('no-ents', !on); entsBtn.setAttribute('aria-pressed', on ? 'true' : 'false'); }
   function setFacs(on) { body.classList.toggle('no-facs', !on); facsBtn.setAttribute('aria-pressed', on ? 'true' : 'false'); if (on) initViewer(); }
   setEnts(store('rj.ents') !== 'off');
-  setFacs(store('rj.facs') !== 'off');
+  // narrow screens: text first, facsimile on demand (unless the reader chose otherwise)
+  var facsPref = store('rj.facs');
+  setFacs(facsPref ? facsPref !== 'off' : window.innerWidth > 1100);
   entsBtn.addEventListener('click', function () { var on = body.classList.contains('no-ents'); setEnts(on); store('rj.ents', on ? 'on' : 'off'); });
   facsBtn.addEventListener('click', function () { var on = body.classList.contains('no-facs'); setFacs(on); store('rj.facs', on ? 'on' : 'off'); });
 

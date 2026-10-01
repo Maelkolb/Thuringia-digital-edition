@@ -122,6 +122,15 @@ def main() -> None:
             eid = key_map.get(f"{TYPE_GROUP[m['type']]}\t{m['key']}")
             if eid and (not pages_of[eid] or pages_of[eid][-1] != m["page"]):
                 pages_of[eid].append(m["page"])
+    # Wikidata via GeoNames id (pipeline/wikidata_enrich.py: P1566 lookup, unambiguous only)
+    wd_path = DATA / "entities" / "wikidata_by_geonames.json"
+    wd_map = read_json(wd_path) if wd_path.exists() else {}
+    for e in entities.values():
+        if e.get("geonames") and not e.get("wikidata"):
+            hit = wd_map.get(str(e["geonames"]))
+            if hit and hit.get("qid"):
+                e["wikidata"] = hit["qid"]
+                e["wikidata_via"] = "geonames"
     out = []
     for eid, e in entities.items():
         e["kind"] = e["kinds"].most_common(1)[0][0] if e["kinds"] else None

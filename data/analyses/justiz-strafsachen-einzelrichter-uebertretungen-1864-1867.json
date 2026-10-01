@@ -45,7 +45,7 @@
   },
   {
    "de": "Bei den Ehrenkränkungen endeten 28,4 % der Verfahren mit Freispruch, bei gemeinen (4,8 %) und polizeilichen Übertretungen (5,2 %) nur rund jedes zwanzigste.",
-   "en": "For insults to honour 28.4 % of the proceedings ended in acquittal, against only about one in twenty for common (4.8 %) and police offences (5.2 %)."
+   "en": "For insults to honor 28.4 % of the proceedings ended in acquittal, against only about one in twenty for common (4.8 %) and police offences (5.2 %)."
   }
  ],
  "caveats": [
@@ -55,7 +55,7 @@
   },
   {
    "de": "Brückner nennt für 1867 eine Steigerung »gleichmäßig in allen Rubriken … (die Defraudationen ausgenommen)« und wertet die hiesigen Verhältnisse im Vergleich mit den ernestinischen und schwarzburgischen Landen als günstig (S. 289). Für 1864/65 liegen nur die Summen nach Gruppen vor, keine Zahlen für Freisprüche oder Forstdiebstahl.",
-   "en": "Brückner reports for 1867 an increase “uniformly in all heads … (defraudations excepted)” and judges conditions here as favourable compared with the Ernestine and Schwarzburg territories (p. 289). For 1864/65 only the totals by group are given, no figures for acquittals or forest theft."
+   "en": "Brückner reports for 1867 an increase “uniformly in all heads … (defraudations excepted)” and judges conditions here as favorable compared with the Ernestine and Schwarzburg territories (p. 289). For 1864/65 only the totals by group are given, no figures for acquittals or forest theft."
   }
  ],
  "datasets": [
@@ -804,7 +804,7 @@
    },
    "caption": {
     "de": "Prozent der Verurteilten wegen gemeiner Übertretungen.",
-    "en": "Per cent of those convicted of common offences."
+    "en": "Percent of those convicted of common offences."
    },
    "vegalite": {
     "height": 280,
@@ -873,7 +873,7 @@
    },
    "caption": {
     "de": "Anteil der Freigesprochenen an Verurteilten und Freigesprochenen (Prozent). Die Defraudationen (nur neun Fälle) sind nicht dargestellt.",
-    "en": "Share of acquitted among convicted and acquitted (per cent). Defraudations (only nine cases) are not shown."
+    "en": "Share of acquitted among convicted and acquitted (percent). Defraudations (only nine cases) are not shown."
    },
    "vegalite": {
     "height": 160,
@@ -975,5 +975,12 @@
   ]
  },
  "generated_by": "Claude Sonnet 5.5 (subagent A11)",
- "date": "2026-10-01"
+ "date": "2026-10-01",
+ "related": [
+  "justiz-zivilrechtspflege-einzelgerichte-1864-1867",
+  "justiz-kreisgerichte-berufungen-konkurse-1864-1867",
+  "justiz-strafsachen-kreisgerichte-staatsanwaltschaft-1864-1867",
+  "justiz-gefangene-hafttage-1864-1867",
+  "justiz-freiwillige-gerichtsbarkeit-1864-1867"
+ ]
 }

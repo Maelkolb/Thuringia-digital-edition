@@ -23,7 +23,7 @@
   }
  ],
  "summary": {
-  "de": "Als Maßstab für die geistige Regsamkeit der Bevölkerung zählt Brückner (S. 168), wie viele Zeitungsexemplare und wie viele verschiedene Zeitungen durch die elf Postämter und Poststellen des Landes bezogen werden. Insgesamt sind es 2229 Exemplare, die sich sehr ungleich auf die Postorte und die drei Landestheile verteilen: Am dichtesten ist der Bezug im Landestheil Schleiz, am dünnsten in Lobenstein-Ebersdorf.",
+  "de": "Als Maßstab für die geistige Regsamkeit der Bevölkerung zählt Brückner (S. 168), wie viele Zeitungsexemplare und wie viele verschiedene Zeitungen durch die elf Postämter und Poststellen des Landes bezogen werden. Insgesamt sind es 2229 Exemplare, die sich sehr ungleich auf die Postorte und die drei Landesteile verteilen: Am dichtesten ist der Bezug im Landesteil Schleiz, am dünnsten in Lobenstein-Ebersdorf.",
   "en": "As a measure of the people’s mental alertness Brückner counts (p. 168) how many newspaper copies and how many different newspapers are taken through the eleven post offices and postal agencies of the country. In all there are 2229 copies, very unevenly distributed over the post towns and the three districts: the density of subscription is highest in the district of Schleiz and lowest in Lobenstein-Ebersdorf."
  },
  "method": {
@@ -36,7 +36,7 @@
    "en": "The Gera post office alone delivers 739 of 2229 copies (33.2 %); Schleiz (451) and Tanna (334) follow. With 334 copies Tanna clearly exceeds Lobenstein (160) and Hohenleuben (73)."
   },
   {
-   "de": "Je 1000 Einwohner ergeben sich im Landestheil Schleiz 34,5 Exemplare (1 auf 29), im Landestheil Gera 23,3 (1 auf 43) und in Lobenstein-Ebersdorf 18,9 (1 auf 53); im ganzen Land 25,6 (1 auf 39).",
+   "de": "Je 1000 Einwohner ergeben sich im Landesteil Schleiz 34,5 Exemplare (1 auf 29), im Landesteil Gera 23,3 (1 auf 43) und in Lobenstein-Ebersdorf 18,9 (1 auf 53); im ganzen Land 25,6 (1 auf 39).",
    "en": "Per 1000 inhabitants the district of Schleiz receives 34.5 copies (1 per 29), the district of Gera 23.3 (1 per 43) and Lobenstein-Ebersdorf 18.9 (1 per 53); for the whole country 25.6 (1 per 39)."
   },
   {
@@ -80,7 +80,7 @@
     {
      "name": "district",
      "label": {
-      "de": "Landestheil",
+      "de": "Landesteil",
       "en": "District"
      },
      "type": "string",
@@ -193,14 +193,14 @@
   {
    "name": "districts",
    "title": {
-    "de": "Summen und Kennzahlen nach Landestheilen",
+    "de": "Summen und Kennzahlen nach Landesteilen",
     "en": "Totals and ratios by district"
    },
    "columns": [
     {
      "name": "district",
      "label": {
-      "de": "Landestheil",
+      "de": "Landesteil",
       "en": "District"
      },
      "type": "string",
@@ -376,8 +376,8 @@
     "en": "Newspaper copies by post office"
    },
    "caption": {
-    "de": "Zahl der durch die Post bezogenen Exemplare, farbig nach Landestheil. Gera und Schleiz überragen die übrigen Postorte; Tanna steht mit 334 Exemplaren an dritter Stelle.",
-    "en": "Number of copies taken through the post, coloured by district. Gera and Schleiz tower over the other post towns; Tanna ranks third with 334 copies."
+    "de": "Zahl der durch die Post bezogenen Exemplare, farbig nach Landesteil. Gera und Schleiz überragen die übrigen Postorte; Tanna steht mit 334 Exemplaren an dritter Stelle.",
+    "en": "Number of copies taken through the post, colored by district. Gera and Schleiz tower over the other post towns; Tanna ranks third with 334 copies."
    },
    "vegalite": {
     "height": 340,
@@ -404,7 +404,7 @@
       "field": "district",
       "type": "nominal",
       "title": {
-       "de": "Landestheil",
+       "de": "Landesteil",
        "en": "District"
       },
       "scale": {
@@ -429,7 +429,7 @@
       {
        "field": "district",
        "title": {
-        "de": "Landestheil",
+        "de": "Landesteil",
         "en": "District"
        }
       },
@@ -459,7 +459,7 @@
     "en": "Newspaper subscriptions per 1000 inhabitants"
    },
    "caption": {
-    "de": "Aus Brückners Kennzahl »1 Exemplar auf … Einwohner« umgerechnet. Im Landestheil Schleiz wird am meisten gelesen, in Lobenstein-Ebersdorf am wenigsten; die gestrichelte Linie ist der Landesdurchschnitt.",
+    "de": "Aus Brückners Kennzahl »1 Exemplar auf … Einwohner« umgerechnet. Im Landesteil Schleiz wird am meisten gelesen, in Lobenstein-Ebersdorf am wenigsten; die gestrichelte Linie ist der Landesdurchschnitt.",
     "en": "Converted from Brückner’s ratio “1 copy per … inhabitants”. Reading is most common in the district of Schleiz and least in Lobenstein-Ebersdorf; the dashed line is the national average."
    },
    "vegalite": {
@@ -510,7 +510,7 @@
         {
          "field": "district",
          "title": {
-          "de": "Landestheil",
+          "de": "Landesteil",
           "en": "District"
          }
         },

@@ -43,11 +43,11 @@
  ],
  "summary": {
   "de": "Brückner stützt sein Bild der Volkskrankheiten auf die Aufzeichnungen weniger Ärzte und Stationen: Dr. Aschenbach (Lobenstein, zehnjährige Erfahrung), die Krankenhausstation Gera, Hohenleuben und Tanna. Die »Uebersicht der Hauptkrankheiten in Procenten der Erkrankten« (S. 172) stellt 20 Krankheitsgruppen nebeneinander; dazu kommen die Monatsverteilung der Erkrankungen in Hohenleuben 1850–1860 (S. 169) und die Zunahme der Krätze in der Station Gera (S. 171). Die Grafiken zeigen, welche Krankheiten die Orte unterscheiden, wann im Jahr am häufigsten erkrankt wurde und wie stark die Hautleiden in Gera zunahmen.",
-  "en": "Brückner bases his picture of the diseases of the people on the records of a few physicians and stations: Dr Aschenbach (Lobenstein, ten years’ experience), the hospital station at Gera, Hohenleuben and Tanna. The “overview of the main diseases in percentages of those taken ill” (p. 172) sets 20 disease groups side by side; added to this are the monthly distribution of illness at Hohenleuben 1850–1860 (p. 169) and the rise of scabies at the Gera station (p. 171). The charts show which diseases distinguish the places, when in the year people fell ill most often, and how strongly skin complaints increased at Gera."
+  "en": "Brückner bases his picture of the diseases of the people on the records of a few physicians and stations: Dr. Aschenbach (Lobenstein, ten years’ experience), the hospital station at Gera, Hohenleuben and Tanna. The “overview of the main diseases in percentages of those taken ill” (p. 172) sets 20 disease groups side by side; added to this are the monthly distribution of illness at Hohenleuben 1850–1860 (p. 169) and the rise of scabies at the Gera station (p. 171). The charts show which diseases distinguish the places, when in the year people fell ill most often, and how strongly skin complaints increased at Gera."
  },
  "method": {
   "de": "Die Prozentwerte der Tabelle S. 172 (Block b2, r2–r23) wurden Zelle für Zelle übernommen; Striche (—) bedeuten »nicht angegeben« und wurden weggelassen, Brüche (1/2, 1/4, 1/8) in Dezimalzahlen überführt (Spalte »printed« = Druckform). Skrofeln (Gera 0,09 %, Hohenleuben 1,30 %) stehen nur im Text S. 170. Die Monatswerte (S. 169, b3) und Quartalswerte (b5) wurden übernommen; die Quartalssummen wurden aus den Monaten nachgerechnet. Die Zahlen zur Krätze in Gera stammen aus dem Text S. 171 (Fallzahlen und gedruckte Prozente). Die Orte sind nicht unmittelbar vergleichbar: Lobenstein = Praxis von Dr. Aschenbach, Gera = innere Station des Krankenhauses, Hohenleuben = ganzer Ort (S. 169).",
-  "en": "The percentages of the table on p. 172 (block b2, r2–r23) were taken cell by cell; dashes (—) mean “not given” and were omitted, fractions (1/2, 1/4, 1/8) were converted into decimals (column “printed” = printed form). Scrofula (Gera 0.09 %, Hohenleuben 1.30 %) appears only in the text on p. 170. The monthly values (p. 169, b3) and quarterly values (b5) were taken over; the quarterly sums were recomputed from the months. The figures on scabies at Gera come from the text on p. 171 (case numbers and printed percentages). The places are not directly comparable: Lobenstein = the practice of Dr Aschenbach, Gera = the internal ward of the hospital, Hohenleuben = the whole town (p. 169)."
+  "en": "The percentages of the table on p. 172 (block b2, r2–r23) were taken cell by cell; dashes (—) mean “not given” and were omitted, fractions (1/2, 1/4, 1/8) were converted into decimals (column “printed” = printed form). Scrofula (Gera 0.09 %, Hohenleuben 1.30 %) appears only in the text on p. 170. The monthly values (p. 169, b3) and quarterly values (b5) were taken over; the quarterly sums were recomputed from the months. The figures on scabies at Gera come from the text on p. 171 (case numbers and printed percentages). The places are not directly comparable: Lobenstein = the practice of Dr. Aschenbach, Gera = the internal ward of the hospital, Hohenleuben = the whole town (p. 169)."
  },
  "findings": [
   {
@@ -93,7 +93,7 @@
    "name": "diseases",
    "title": {
     "de": "Krankheiten in Prozent der Erkrankten nach Ort",
-    "en": "Diseases in per cent of those taken ill, by place"
+    "en": "Diseases in percent of those taken ill, by place"
    },
    "columns": [
     {
@@ -146,7 +146,7 @@
      "name": "percent",
      "label": {
       "de": "Prozent der Erkrankten",
-      "en": "Per cent of those taken ill"
+      "en": "Percent of those taken ill"
      },
      "type": "number",
      "unit": "%",
@@ -856,7 +856,7 @@
      "name": "percent_printed",
      "label": {
       "de": "Prozent (gedruckt)",
-      "en": "Per cent (printed)"
+      "en": "Percent (printed)"
      },
      "type": "number",
      "unit": "%"
@@ -916,7 +916,7 @@
    },
    "caption": {
     "de": "Neun Krankheitsgruppen, für die mindestens zwei Orte Werte nennen (Prozent der Erkrankten). In Gera dominieren die Hautleiden; Rheumatische Fieber sind in Hohenleuben am häufigsten.",
-    "en": "Nine disease groups for which at least two places give values (per cent of those taken ill). Skin complaints dominate at Gera; rheumatic fevers are most frequent at Hohenleuben."
+    "en": "Nine disease groups for which at least two places give values (percent of those taken ill). Skin complaints dominate at Gera; rheumatic fevers are most frequent at Hohenleuben."
    },
    "vegalite": {
     "height": 380,
@@ -957,7 +957,7 @@
       "type": "quantitative",
       "title": {
        "de": "Prozent der Erkrankten",
-       "en": "Per cent of those taken ill"
+       "en": "Percent of those taken ill"
       }
      },
      "color": {
@@ -1002,7 +1002,7 @@
        "field": "percent",
        "title": {
         "de": "Prozent",
-        "en": "Per cent"
+        "en": "Percent"
        }
       }
      ]
@@ -1018,7 +1018,7 @@
    },
    "caption": {
     "de": "Nach der zehnjährigen Erfahrung von Dr. Aschenbach. Die Katarrhe (9 %) setzen sich aus Atemwegen (3) und Darm (6) zusammen.",
-    "en": "According to Dr Aschenbach’s ten years of experience. The catarrhs (9 %) consist of airways (3) and intestinal tract (6)."
+    "en": "According to Dr. Aschenbach’s ten years of experience. The catarrhs (9 %) consist of airways (3) and intestinal tract (6)."
    },
    "vegalite": {
     "height": 400,
@@ -1049,7 +1049,7 @@
       "type": "quantitative",
       "title": {
        "de": "Prozent der Erkrankten",
-       "en": "Per cent of those taken ill"
+       "en": "Percent of those taken ill"
       }
      },
      "tooltip": [
@@ -1074,7 +1074,7 @@
        "field": "percent",
        "title": {
         "de": "Prozent",
-        "en": "Per cent"
+        "en": "Percent"
        }
       }
      ]
@@ -1130,7 +1130,7 @@
          "field": "percent",
          "title": {
           "de": "Prozent der Fälle",
-          "en": "Per cent of cases"
+          "en": "Percent of cases"
          }
         }
        ]
@@ -1211,7 +1211,7 @@
        "field": "percent_printed",
        "title": {
         "de": "Prozent (gedruckt)",
-        "en": "Per cent (printed)"
+        "en": "Percent (printed)"
        }
       }
      ]
@@ -1244,7 +1244,9 @@
   ]
  },
  "related": [
-  "gesundheit-militaer-tauglichkeit-1864-1866"
+  "gesundheit-militaer-tauglichkeit-1864-1866",
+  "gesundheit-medizinalwesen-und-seuchen-zeitleiste",
+  "gesundheit-volksmedizin-hausmittel-nach-leiden"
  ],
  "generated_by": "Claude Sonnet 5.5 (subagent A08)",
  "date": "2026-10-01"

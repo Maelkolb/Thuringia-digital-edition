@@ -334,7 +334,8 @@ P('Heinrich X. v. Lobenstein', 'Heinrich X. (Graf Reuß zu Lobenstein)', 'Landes
 
 P('Heinrich V. von Plauen', 'Heinrich V. von Plauen (Burggraf von Meißen)', 'Burggraf',
   'Burggraf Heinrich V. von Plauen (von Meißen), Graf von Hartenstein und Herr zu Plauen, oberster Kanzler von Böhmen; geb. 1508, † Mai 1554 vor der Plassenburg; erhielt nach der Reichsacht gegen Gera und Reuß 1547-1550 Gera, Schleiz, Lobenstein u. a. als böhmisches Lehen.',
-  'Burgrave Heinrich V. of Plauen (of Meissen), count of Hartenstein and lord of Plauen, chief chancellor of Bohemia; born 1508, died May 1554 before the Plassenburg; after the outlawry of Gera and Reuss he received Gera, Schleiz, Lobenstein etc. as Bohemian fiefs in 1547-1550.')
+  'Burgrave Heinrich V. of Plauen (of Meissen), count of Hartenstein and lord of Plauen, chief chancellor of Bohemia; born 1508, died May 1554 before the Plassenburg; after the outlawry of Gera and Reuss he received Gera, Schleiz, Lobenstein etc. as Bohemian fiefs in 1547-1550.',
+  note='Brückner counts him as Heinrich V. and gives 1508 as year of birth (Tab. IV, p. 364); Wikidata and most literature count him as Heinrich IV. von Plauen and give 1510; death (May 1554) and offices agree. Heinrich V. in the Wikidata numbering is his son (1533-1568), who is Heinrich VI. in the numbering of Brückner.')
 for k in ('Burggraf Heinrich V', 'Heinrich V. von Meißen'):
     M(k, 'Heinrich V. von Plauen', 'title variant')
 

@@ -50,7 +50,7 @@
   },
   {
    "de": "Nach der Anmerkung der Tabelle kamen Reste vorjähriger Nummern bei den Pfandbestellungen in keinem Jahr vor; die Spalte »Rest« betrifft daher nur neue Nummern. Einwohnerzahlen je Gerichtsbezirk fehlen, daher sind keine Pro-Kopf-Raten möglich.",
-   "en": "According to the table's note, remainders of earlier numbers never occurred for the mortgage registrations; the “remainder” column therefore refers to new numbers only. Population figures per court district are missing, so no per-capita rates are possible."
+   "en": "According to the table’s note, remainders of earlier numbers never occurred for the mortgage registrations; the “remainder” column therefore refers to new numbers only. Population figures per court district are missing, so no per-capita rates are possible."
   }
  ],
  "datasets": [
@@ -734,7 +734,7 @@
    },
    "caption": {
     "de": "Zahl der Vormundschaften; ganz überwiegend ohne Verwaltung des Mündelvermögens durch das Gericht. Hohenleuben hat mit 53 von 375 den höchsten Anteil mit Verwaltung.",
-    "en": "Number of guardianships; the vast majority without administration of the ward's property by the court. Hohenleuben has the highest share with administration (53 of 375)."
+    "en": "Number of guardianships; the vast majority without administration of the ward’s property by the court. Hohenleuben has the highest share with administration (53 of 375)."
    },
    "vegalite": {
     "height": 300,
@@ -832,5 +832,12 @@
   ]
  },
  "generated_by": "Claude Sonnet 5.5 (subagent A11)",
- "date": "2026-10-01"
+ "date": "2026-10-01",
+ "related": [
+  "justiz-zivilrechtspflege-einzelgerichte-1864-1867",
+  "justiz-kreisgerichte-berufungen-konkurse-1864-1867",
+  "justiz-strafsachen-einzelrichter-uebertretungen-1864-1867",
+  "justiz-strafsachen-kreisgerichte-staatsanwaltschaft-1864-1867",
+  "justiz-gefangene-hafttage-1864-1867"
+ ]
 }

@@ -15,7 +15,8 @@
   --card: #fffdf8;
   --ink: #1e1b17;
   --ink-2: #4a443b;
-  --muted: #776f62;
+  --muted: #6b6356;
+  --on-accent: #ffffff;
   --rule: #e2dacb;
   --rule-strong: #cbbfa9;
   --accent: #6b4423;
@@ -44,7 +45,7 @@
     color-scheme: dark;
     --paper: #1d1b18; --paper-2: #24211d; --card: #282521; --ink: #ede6d8; --ink-2: #cdc4b4; --muted: #9c9382;
     --rule: #39342d; --rule-strong: #4a443b; --accent: #d9a877; --accent-ink: #e7c29b; --accent-tint: #3a2f24;
-    --mark: #5b4a12; --focus: #6aa8f0; --shadow: 0 1px 2px rgba(0,0,0,.4), 0 8px 24px rgba(0,0,0,.35);
+    --mark: #5b4a12; --focus: #6aa8f0; --on-accent: #1d1b18; --shadow: 0 1px 2px rgba(0,0,0,.4), 0 8px 24px rgba(0,0,0,.35);
     --e-place: #3987e5; --e-person: #e66767; --e-organisation: #9085e9; --e-nature: #008300; --e-organism: #199e70; --e-concept: #d95926;
   }
 }
@@ -52,7 +53,7 @@
   color-scheme: dark;
   --paper: #1d1b18; --paper-2: #24211d; --card: #282521; --ink: #ede6d8; --ink-2: #cdc4b4; --muted: #9c9382;
   --rule: #39342d; --rule-strong: #4a443b; --accent: #d9a877; --accent-ink: #e7c29b; --accent-tint: #3a2f24;
-  --mark: #5b4a12; --focus: #6aa8f0; --shadow: 0 1px 2px rgba(0,0,0,.4), 0 8px 24px rgba(0,0,0,.35);
+  --mark: #5b4a12; --focus: #6aa8f0; --on-accent: #1d1b18; --shadow: 0 1px 2px rgba(0,0,0,.4), 0 8px 24px rgba(0,0,0,.35);
   --e-place: #3987e5; --e-person: #e66767; --e-organisation: #9085e9; --e-nature: #008300; --e-organism: #199e70; --e-concept: #d95926;
 }
 
@@ -123,9 +124,7 @@ html[data-ui="de"] [data-l="en"], html[data-ui="en"] [data-l="de"] { display: no
 .hero .byline { font: 500 1rem var(--sans); color: var(--ink-2); }
 .hero .cta { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 26px; }
 .btn { display: inline-flex; align-items: center; gap: 8px; height: 44px; padding: 0 18px; border-radius: 10px; font: 600 .98rem var(--sans); text-decoration: none; border: 1px solid var(--rule-strong); color: var(--ink); background: var(--card); }
-.btn.primary { background: var(--accent); border-color: var(--accent); color: #fff; }
-:root[data-theme="dark"] .btn.primary { color: #1d1b18; }
-@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .btn.primary { color: #1d1b18; } }
+.btn.primary { background: var(--accent); border-color: var(--accent); color: var(--on-accent); }
 .btn:hover { filter: brightness(1.04); }
 .titlepage { position: relative; aspect-ratio: 1737 / 2860; border-radius: 6px; overflow: hidden; box-shadow: var(--shadow); background: var(--paper-2); }
 .titlepage img { width: 100%; height: 100%; object-fit: cover; display: block; }
@@ -137,7 +136,7 @@ html[data-ui="de"] [data-l="en"], html[data-ui="en"] [data-l="de"] { display: no
 .entry-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
 .entry { padding: 20px 20px 18px; text-decoration: none; color: var(--ink); display: flex; flex-direction: column; gap: 6px; transition: border-color .15s; }
 .entry:hover { border-color: var(--accent); }
-.entry h3 { margin: 0; font: 600 1.15rem var(--serif); }
+.entry h2, .entry h3 { margin: 0; font: 600 1.15rem var(--serif); }
 .entry p { margin: 0; color: var(--ink-2); font-size: .95rem; }
 .vignette { width: 92px; opacity: .9; }
 :root[data-theme="dark"] .vignette { filter: invert(.88); }
@@ -321,9 +320,9 @@ details.app-block[open] summary::before { content: "▾ "; }
 .ana-tile:hover { border-color: var(--accent); }
 .filters { display: flex; flex-wrap: wrap; gap: 6px; margin: 14px 0 22px; }
 .filters button { height: 32px; padding: 0 12px; border-radius: 999px; border: 1px solid var(--rule-strong); background: var(--card); color: var(--ink-2); font: 600 .82rem var(--sans); cursor: pointer; }
-.filters button[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: #fff; }
+.filters button[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: var(--on-accent); }
 .chart-block { margin: 26px 0 34px; }
-.chart-block h3 { font: 600 1.12rem var(--serif); margin: 0 0 4px; }
+.chart-block h2, .chart-block h3 { font: 600 1.12rem var(--serif); margin: 0 0 4px; }
 .chart-block .cap { font: 400 .92rem/1.5 var(--sans); color: var(--ink-2); margin: 8px 0 0; max-width: 46rem; }
 .chart { width: 100%; min-height: 220px; }
 .vg-tip { position: fixed; z-index: 70; pointer-events: none; background: var(--card); border: 1px solid var(--rule); border-radius: 8px; box-shadow: var(--shadow); padding: 8px 10px; font: 400 .84rem/1.4 var(--sans); color: var(--ink); max-width: 320px; }
@@ -344,7 +343,7 @@ details.app-block[open] summary::before { content: "▾ "; }
 .search-layout { display: grid; grid-template-columns: 250px minmax(0, 1fr); gap: 36px; padding-top: 18px; }
 .search-box { display: flex; gap: 8px; margin: 18px 0 8px; }
 .search-box input { flex: 1; height: 48px; padding: 0 16px; border-radius: 11px; border: 1px solid var(--rule-strong); background: var(--card); color: var(--ink); font: 400 1.1rem var(--sans); }
-.search-box button { height: 48px; padding: 0 20px; border-radius: 11px; border: 0; background: var(--accent); color: #fff; font: 600 1rem var(--sans); cursor: pointer; }
+.search-box button { height: 48px; padding: 0 20px; border-radius: 11px; border: 0; background: var(--accent); color: var(--on-accent); font: 600 1rem var(--sans); cursor: pointer; }
 .search-hint { font-size: .86rem; color: var(--muted); margin: 0 0 14px; }
 .facet { margin-bottom: 18px; }
 .facet h3 { margin: 0 0 6px; font: 600 .74rem var(--sans); letter-spacing: .1em; text-transform: uppercase; color: var(--muted); }
@@ -371,7 +370,8 @@ details.app-block[open] summary::before { content: "▾ "; }
 /* ---------------------------------------------------------------- responsive */
 @media (max-width: 1100px) {
   .reader { grid-template-columns: minmax(0, 1fr); }
-  .facs-pane { position: static; height: 70vh; order: -1; padding-top: 12px; }
+  .facs-pane { position: static; height: 72vh; order: -1; padding-top: 12px; }
+  body.no-facs .facs-pane { display: none; }
   body.facs-hidden-mobile .facs-pane { display: none; }
   .ana-head { grid-template-columns: minmax(0, 1fr); }
   .ana-side { position: static; }

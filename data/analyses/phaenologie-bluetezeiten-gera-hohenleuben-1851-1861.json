@@ -58,7 +58,7 @@
  },
  "method": {
   "de": "Die Brüche der Tabellen (»20./3.« = Tag/Monat, so erklärt auf S. 60) wurden in ISO-Daten umgesetzt; der Tag im Jahr wird in einem normierten Jahr ohne Schalttag gezählt (1. Januar = 1). Die lateinischen Namen sind im Druck teils abgekürzt (Hohenleuben) und werden hier vereinheitlicht und mit deutschen und englischen Namen versehen (editorische Deutung, z. B. Primula officinalis = Primula veris, Cerasus acida = Prunus cerasus, Ficaria verna = Ranunculus ficaria). Der Frühjahrsindex eines Jahres ist das Mittel der Abweichungen (in Tagen) der Blühtermine aller Arten außer der Weinrebe vom Mittel der jeweiligen Art an derselben Station; positive Werte bedeuten späte Blüte. Für den Vergleich mit der Temperatur wurde das Mittel von März bis Mai aus den Monatsmitteln von Hohenleuben (S. 56, °R × 1,25) gebildet, das Jahr 1853 entfällt (Temperaturreihe beginnt 1854). Die Trendgerade ist die lineare Regression des Index auf diese Frühjahrstemperatur. Die in der Tabelle gedruckten »Tage der Differenz« werden als eigene Spalte geführt und mit der Spanne der gedruckten Daten verglichen.",
-  "en": "The fractions of the tables (“20./3.” = day/month, as explained on p. 60) were converted to ISO dates; day of year is counted in a normalised year without a leap day (1 January = 1). The Latin names are partly abbreviated in the print (Hohenleuben) and are standardised here and given German and English names (editorial identification, e.g. Primula officinalis = Primula veris, Cerasus acida = Prunus cerasus, Ficaria verna = Ranunculus ficaria). A year’s spring index is the mean deviation (in days) of the flowering dates of all species except the grapevine from the mean of that species at the same station; positive values mean late flowering. For the comparison with temperature the March–May mean was formed from the monthly means of Hohenleuben (p. 56, °R × 1.25); 1853 is dropped (the temperature series begins in 1854). The trend line is the linear regression of the index on this spring temperature. The “days of difference” printed in the table are kept as a separate column and compared with the spread of the printed dates."
+  "en": "The fractions of the tables (“20./3.” = day/month, as explained on p. 60) were converted to ISO dates; day of year is counted in a normalized year without a leap day (1 January = 1). The Latin names are partly abbreviated in the print (Hohenleuben) and are standardized here and given German and English names (editorial identification, e.g. Primula officinalis = Primula veris, Cerasus acida = Prunus cerasus, Ficaria verna = Ranunculus ficaria). A year’s spring index is the mean deviation (in days) of the flowering dates of all species except the grapevine from the mean of that species at the same station; positive values mean late flowering. For the comparison with temperature the March–May mean was formed from the monthly means of Hohenleuben (p. 56, °R × 1.25); 1853 is dropped (the temperature series begins in 1854). The trend line is the linear regression of the index on this spring temperature. The “days of difference” printed in the table are kept as a separate column and compared with the spread of the printed dates."
  },
  "findings": [
   {
@@ -135,7 +135,7 @@
      "name": "species",
      "label": {
       "de": "Art (vereinheitlicht)",
-      "en": "Species (standardised)"
+      "en": "Species (standardized)"
      },
      "type": "string",
      "unit": null
@@ -2256,7 +2256,7 @@
      "name": "species",
      "label": {
       "de": "Art (vereinheitlicht)",
-      "en": "Species (standardised)"
+      "en": "Species (standardized)"
      },
      "type": "string",
      "unit": null
@@ -3927,7 +3927,8 @@
  },
  "related": [
   "klima-stationen-temperatur-vergleich",
-  "phaenologie-zugvoegel-gera-1859-1864"
+  "phaenologie-zugvoegel-gera-1859-1864",
+  "klima-gera-temperatur-1856-1867"
  ],
  "generated_by": "Claude Sonnet 5.5 (subagent A03)",
  "date": "2026-10-01"

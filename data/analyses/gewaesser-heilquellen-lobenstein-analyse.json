@@ -67,7 +67,7 @@
      "name": "order",
      "label": {
       "de": "Zeile in Brückners Tabelle",
-      "en": "Row in Brückner's table"
+      "en": "Row in Brückner’s table"
      },
      "type": "integer",
      "unit": null,
@@ -484,7 +484,7 @@
    },
    "caption": {
     "de": "Analyse von Prof. Dr. Reichardt, Jena, in Teilen auf 10 000 Teile Wasser; Reihenfolge wie in Brückners Tabelle. Fehlende Balken: im Druck »—« (nicht gefunden).",
-    "en": "Analysis by Prof. Dr. Reichardt, Jena, in parts per 10,000 parts of water; order as in Brückner's table. Missing bars: printed “—” (not found)."
+    "en": "Analysis by Prof. Dr. Reichardt, Jena, in parts per 10,000 parts of water; order as in Brückner’s table. Missing bars: printed “—” (not found)."
    },
    "vegalite": {
     "height": 420,
@@ -689,5 +689,10 @@
   ]
  },
  "generated_by": "Claude Sonnet 5.5 (subagent A02)",
- "date": "2026-10-01"
+ "date": "2026-10-01",
+ "related": [
+  "klima-quellentemperatur-brunnen",
+  "gewaesser-nebenfluesse-verzeichnis",
+  "bergbau-saline-heinrichshall-absatz-1857-1863"
+ ]
 }

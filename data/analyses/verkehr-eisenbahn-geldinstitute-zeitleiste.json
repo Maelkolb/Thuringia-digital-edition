@@ -26,7 +26,7 @@
  ],
  "summary": {
   "de": "Brückner nennt für Handel und Verkehr eine Reihe datierter Einrichtungen: die Eisenbahnen Weißenfels–Gera (Vertrag 1855, Eröffnung 19. März 1859) und Gößnitz–Gera (Vertrag 1863, Eröffnung 27. Dezember 1865), die Sparkassen in Schleiz, Gera, Lobenstein und ihre Filialen, die 1855 errichtete Geraer Bank sowie die Einführung des Handelsgesetzbuchs 1863. Die Zeitleiste ordnet diese elf Daten; ein zweites Diagramm vergleicht die Zahlen zum Geldverkehr Geras.",
-  "en": "For trade and transport Brückner names a series of dated institutions: the railways Weißenfels–Gera (treaty 1855, opened 19 March 1859) and Gößnitz–Gera (treaty 1863, opened 27 December 1865), the savings banks at Schleiz, Gera and Lobenstein and their branches, the Geraer Bank founded in 1855 and the introduction of the commercial code in 1863. The timeline arranges these eleven dates; a second chart compares the figures on Gera's money market."
+  "en": "For trade and transport Brückner names a series of dated institutions: the railways Weißenfels–Gera (treaty 1855, opened 19 March 1859) and Gößnitz–Gera (treaty 1863, opened 27 December 1865), the savings banks at Schleiz, Gera and Lobenstein and their branches, the Geraer Bank founded in 1855 and the introduction of the commercial code in 1863. The timeline arranges these eleven dates; a second chart compares the figures on Gera’s money market."
  },
  "method": {
   "de": "Die Daten stammen aus dem Text S. 258 (b3) und S. 261–262 (b4/b1/b4). Vollständige Tagesdaten (Vertragsabschluss, Eröffnung, Gesetz) sind als ISO-Datum übernommen, bloße Jahresangaben als Jahr (Spalte precision). Bei den Eisenbahnen reicht der Balken vom Vertragsabschluss bis zur Eröffnung; die Dauer in Tagen bzw. Jahren (1 Jahr = 365,25 Tage) ist abgeleitet. Die Gera-Zahlen (Grundkapital, Umsatz 1868, geschätzter Gesamtverkehr) stehen im Text S. 261–262; Anteile sind berechnet. Nicht datiert (und daher nicht eingetragen) sind die Gewerbebank in Gera und der Vorschussverein in Schleiz sowie die Handelskammer.",
@@ -42,7 +42,7 @@
    "en": "The savings banks arose first in the Oberland (Schleiz 1842, with a branch at Hohenleuben in 1843) and in the Unterland (Gera 1843); Lobenstein follows in 1853, the Hirschberg branch in 1866. The Geraer Bank (1855) was founded in the same year in which the treaty for the first railway was concluded."
   },
   {
-   "de": "Die Geraer Bank hatte 1868 einen Gesamtumsatz von 75.367.300 Thalern, das 18,8fache ihres Grundkapitals von 4 Millionen. Brückner schätzt den Gesamtverkehr der Stadt Gera ohne die Geldinstitute auf 10, mit ihnen auf 100 Millionen Thaler; die Geldinstitute machen also 90 % dieser Schätzung aus, die Geraer Bank allein ihr Umsatz 75,4 %.",
+   "de": "Die Geraer Bank hatte 1868 einen Gesamtumsatz von 75.367.300 Talern, das 18,8fache ihres Grundkapitals von 4 Millionen. Brückner schätzt den Gesamtverkehr der Stadt Gera ohne die Geldinstitute auf 10, mit ihnen auf 100 Millionen Taler; die Geldinstitute machen also 90 % dieser Schätzung aus, die Geraer Bank allein ihr Umsatz 75,4 %.",
    "en": "In 1868 the Geraer Bank had a total turnover of 75,367,300 thalers, 18.8 times its share capital of 4 million. Brückner estimates the total traffic of the town of Gera at 10 million thalers without the financial institutions and 100 million with them; the financial institutions thus make up 90 % of this estimate, the turnover of the Geraer Bank alone 75.4 %."
   }
  ],
@@ -52,8 +52,8 @@
    "en": "The timeline contains only the institutions that Brückner gives with a year or full date; he mentions further institutions (Gewerbebank Gera, Vorschussverein Schleiz, chamber of commerce, telegraph lines) without a date. Further planned railways (Gera–Leipzig, –Weimar, –Plauen, Erfurt–Hof) are mentioned only as “in prospect”."
   },
   {
-   "de": "»Vertrag« bezeichnet bei den Bahnen den Staatsvertrag bzw. den Vertrag mit der Eisenbahngesellschaft, nicht den Baubeginn. Der Gesamtverkehr Geras (10 bzw. 100 Millionen Thaler) ist Brückners Schätzung; Umsatz und Kapital sind Betriebsgrößen der Bank und nicht mit Handelswerten gleichzusetzen.",
-   "en": "“Treaty” means, for the railways, the state treaty or the treaty with the railway company, not the start of construction. The total traffic of Gera (10 and 100 million thalers) is Brückner's estimate; turnover and capital are operating figures of the bank and not equivalent to trade values."
+   "de": "»Vertrag« bezeichnet bei den Bahnen den Staatsvertrag bzw. den Vertrag mit der Eisenbahngesellschaft, nicht den Baubeginn. Der Gesamtverkehr Geras (10 bzw. 100 Millionen Taler) ist Brückners Schätzung; Umsatz und Kapital sind Betriebsgrößen der Bank und nicht mit Handelswerten gleichzusetzen.",
+   "en": "“Treaty” means, for the railways, the state treaty or the treaty with the railway company, not the start of construction. The total traffic of Gera (10 and 100 million thalers) is Brückner’s estimate; turnover and capital are operating figures of the bank and not equivalent to trade values."
   }
  ],
  "conversions": [],
@@ -355,7 +355,7 @@
       "en": "Amount"
      },
      "type": "integer",
-     "unit": "Thaler",
+     "unit": "Taler",
      "derived": true,
      "note": "Brückner nennt 4, 10 und 100 Millionen (Zahlwort) und 75.367.300 Thaler (Ziffern)"
     },
@@ -669,8 +669,8 @@
     "en": "Geraer Bank and total traffic of Gera"
    },
    "caption": {
-    "de": "Beträge in Thalern nach Brückner (S. 261–262). Kapital und Umsatz der Geraer Bank (blau) gegen Brückners Schätzung des Gesamtverkehrs der Stadt Gera ohne bzw. mit Geldinstituten (orange).",
-    "en": "Amounts in thalers according to Brückner (pp. 261–262). Capital and turnover of the Geraer Bank (blue) against Brückner's estimate of the total traffic of the town of Gera without and with financial institutions (orange)."
+    "de": "Beträge in Talern nach Brückner (S. 261–262). Kapital und Umsatz der Geraer Bank (blau) gegen Brückners Schätzung des Gesamtverkehrs der Stadt Gera ohne bzw. mit Geldinstituten (orange).",
+    "en": "Amounts in thalers according to Brückner (pp. 261–262). Capital and turnover of the Geraer Bank (blue) against Brückner’s estimate of the total traffic of the town of Gera without and with financial institutions (orange)."
    },
    "vegalite": {
     "height": 220,
@@ -720,7 +720,7 @@
       "field": "mio",
       "type": "quantitative",
       "title": {
-       "de": "Millionen Thaler",
+       "de": "Millionen Taler",
        "en": "Million thalers"
       },
       "scale": {
@@ -760,7 +760,7 @@
       {
        "field": "thaler",
        "title": {
-        "de": "Thaler",
+        "de": "Taler",
         "en": "Thalers"
        },
        "format": ","

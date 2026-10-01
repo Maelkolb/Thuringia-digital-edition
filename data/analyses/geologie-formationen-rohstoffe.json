@@ -110,11 +110,11 @@
  ],
  "summary": {
   "de": "Neben den Böden beschreibt Prof. Liebe in der geognostischen Übersicht, welche Erze, Kalke, Schiefer, Bausteine und Salze die einzelnen Formationen liefern und ob sie genutzt werden oder wurden. Die Auswertung stellt diese Angaben für 12 der 13 Formationen in einer Matrix zusammen und zählt, in wie vielen Formationen jeder Rohstoff auftritt.",
-  "en": "Besides the soils, Prof. Liebe's geological overview describes which ores, limestones, slates, building stones and salts the individual formations yield and whether they are or were worked. The analysis puts these statements for 12 of the 13 formations into a matrix and counts in how many formations each resource occurs."
+  "en": "Besides the soils, Prof. Liebe’s geological overview describes which ores, limestones, slates, building stones and salts the individual formations yield and whether they are or were worked. The analysis puts these statements for 12 of the 13 formations into a matrix and counts in how many formations each resource occurs."
  },
  "method": {
   "de": "Für jede Formation (Liebes Hauptnummern 1–13, S. 25–41) wurden die genannten nutzbaren Stoffe als Einträge erfasst, jeweils mit einem wörtlichen Beleg (Spalte »Wortlaut«; jeder Beleg wurde im zitierten Block geprüft) und den Orten. Die Rohstoffgruppen (Eisenerz, Antimonerz, Kupfer-/Nickelerz, Alaunschiefer, Dachschiefer, Kalkstein, Bausteine/Bausand, Straßenmaterial, Gips/Salz, Kohle) und die Nutzungsstufen (genutzt, früher genutzt, nur vorkommend) sind editorische Einordnungen des Wortlauts. Jede Kombination aus Formation und Rohstoff erscheint nur einmal; Gestein, das Liebe nur als Bodenbildner erwähnt, ist nicht erfasst.",
-  "en": "For each formation (Liebe's main numbers 1–13, pp. 25–41) the usable materials he names were recorded as entries, each with a verbatim piece of evidence (column “Wording”; every piece of evidence was checked in the cited block) and the places. The resource groups (iron ore, antimony ore, copper/nickel ore, alum shale, roofing slate, limestone, building stone/sand, road metal, gypsum/salt, coal) and the use grades (worked, formerly worked, merely occurring) are editorial classifications of the wording. Each combination of formation and resource appears only once; rock that Liebe mentions only as a soil former is not recorded."
+  "en": "For each formation (Liebe’s main numbers 1–13, pp. 25–41) the usable materials he names were recorded as entries, each with a verbatim piece of evidence (column “Wording”; every piece of evidence was checked in the cited block) and the places. The resource groups (iron ore, antimony ore, copper/nickel ore, alum shale, roofing slate, limestone, building stone/sand, road metal, gypsum/salt, coal) and the use grades (worked, formerly worked, merely occurring) are editorial classifications of the wording. Each combination of formation and resource appears only once; rock that Liebe mentions only as a soil former is not recorded."
  },
  "findings": [
   {
@@ -131,7 +131,7 @@
   },
   {
    "de": "Als noch betriebene Bergbaue nennt Liebe Spateisenstein mit Graunickelkies an der kleinen Friesa bei Lobenstein, die Eisengruben zwischen Oschitz und Göschitz, die Braunkohle von Seeligenstädt sowie das Salz von Heinrichshall.",
-   "en": "As mines still in operation Liebe names spar iron ore with grey nickel pyrites at the Kleine Friesa near Lobenstein, the iron mines between Oschitz and Göschitz, the lignite of Seeligenstädt and the salt of Heinrichshall."
+   "en": "As mines still in operation Liebe names spar iron ore with gray nickel pyrites at the Kleine Friesa near Lobenstein, the iron mines between Oschitz and Göschitz, the lignite of Seeligenstädt and the salt of Heinrichshall."
   }
  ],
  "caveats": [
@@ -141,11 +141,11 @@
   },
   {
    "de": "Die Einstufung »genutzt« beruht auf Gegenwartsformen, Ortsangaben von Brüchen oder Wertungen wie »berühmt«; ob ein Abbau 1870 tatsächlich in Betrieb war, lässt sich aus Liebes Text nicht in jedem Fall entscheiden. Die Abschnitte dieses Kapitels geben keine Fördermengen an.",
-   "en": "The grade “worked” rests on present-tense forms, places of quarries or judgements such as “famous”; whether working was actually in progress in 1870 cannot always be decided from Liebe's text. The sections of this chapter give no production figures."
+   "en": "The grade “worked” rests on present-tense forms, places of quarries or judgements such as “famous”; whether working was actually in progress in 1870 cannot always be decided from Liebe’s text. The sections of this chapter give no production figures."
   },
   {
    "de": "Wirtschaftliche Zahlen zum Bergbau stehen an anderer Stelle des Werks (Abschnitt Bergbau); hier geht es nur um Liebes geologische Beschreibung.",
-   "en": "Economic figures on mining are given elsewhere in the work (section on mining); this analysis covers only Liebe's geological description."
+   "en": "Economic figures on mining are given elsewhere in the work (section on mining); this analysis covers only Liebe’s geological description."
   }
  ],
  "datasets": [
@@ -837,7 +837,7 @@
    },
    "caption": {
     "de": "Jeder Punkt ist eine Angabe Liebes (Formationen von alt nach jung); Farbe = Art der Nutzung (genutzt / früher genutzt / nur vorhanden). Der Wortlaut und die Orte stehen im Tooltip. Für das Rothliegende (9) nennt Liebe keinen Rohstoff.",
-    "en": "Each dot is a statement by Liebe (formations from old to young); colour = type of use (worked / formerly worked / merely present). Wording and places appear in the tooltip. For the Rotliegend (9) Liebe names no resource."
+    "en": "Each dot is a statement by Liebe (formations from old to young); color = type of use (worked / formerly worked / merely present). Wording and places appear in the tooltip. For the Rotliegend (9) Liebe names no resource."
    },
    "vegalite": {
     "height": 420,
@@ -1087,5 +1087,12 @@
   ]
  },
  "generated_by": "Claude Sonnet 5.5 (subagent A02)",
- "date": "2026-10-01"
+ "date": "2026-10-01",
+ "related": [
+  "geologie-formationen-bodenguete",
+  "geologie-fossilfunde-zechstein-clymenienkalk",
+  "bergbau-erzbergbau-zeitleiste-ober-unterland",
+  "bergbau-schieferbrueche-lobenstein-1868",
+  "bergbau-bestand-oberland-vor-1648"
+ ]
 }

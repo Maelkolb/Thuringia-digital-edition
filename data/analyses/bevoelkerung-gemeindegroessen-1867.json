@@ -27,12 +27,12 @@
   }
  ],
  "summary": {
-  "de": "Brückner verteilt die 173 politischen Gemeinden des Fürstenthums nach ihrer Einwohnerzahl auf Größenklassen, getrennt nach Landrathsbezirken. 159 Gemeinden haben weniger als 1000 Einwohner, nur 14 mehr; dennoch leben knapp 49 % der Bevölkerung in den größeren Orten, allein 18,5 % in der Stadt Gera.",
+  "de": "Brückner verteilt die 173 politischen Gemeinden des Fürstentums nach ihrer Einwohnerzahl auf Größenklassen, getrennt nach Landratsbezirken. 159 Gemeinden haben weniger als 1000 Einwohner, nur 14 mehr; dennoch leben knapp 49 % der Bevölkerung in den größeren Orten, allein 18,5 % in der Stadt Gera.",
   "en": "Brückner distributes the 173 political municipalities of the principality over size classes by population, separately for the districts. 159 municipalities have fewer than 1,000 inhabitants and only 14 have more; nevertheless almost 49 % of the population live in the larger places, 18.5 % in the town of Gera alone."
  },
  "method": {
   "de": "Aus der Tabelle auf S. 98 wurden je Bezirk und Größenklasse die Zahl der Gemeinden und ihre Volksmenge übernommen; die Zellen enthalten untereinander beide Zahlen. Leere Klassen (»—«) bleiben ohne Wert. Brückners Klassengrenzen überlappen in der Schreibung (»500 bis 1000«, »1000 bis 2000«); die Zuordnung der Grenzwerte ist nicht angegeben. Abgeleitet wurde der Anteil der Gemeinden je Klasse an allen 173 Gemeinden; die gedruckten Prozentzahlen der Volksmenge und die Seelenzahl je Gemeinde wurden übernommen und gegen Volksmenge : Gesamtbevölkerung geprüft (alle Werte stimmen). Die Zeilen- und Spaltensummen sowie die Summe der drei Bezirke gleich der Zeile »Fürstenthum« wurden mit Python kontrolliert und stimmen.",
-  "en": "From the table on p. 98 the number of municipalities and their population were taken for each district and size class; the cells contain both numbers one below the other. Empty classes (“—”) are left without a value. Brückner's class limits overlap in print (“500 to 1000”, “1000 to 2000”); the assignment of boundary values is not stated. Derived is the share of municipalities per class in all 173 municipalities; the printed percentages of the population and the persons per municipality were taken over and checked against population ÷ total population (all values agree). Row and column sums and the equality of the three districts' sum with the “principality” row were checked in Python and agree."
+  "en": "From the table on p. 98 the number of municipalities and their population were taken for each district and size class; the cells contain both numbers one below the other. Empty classes (“—”) are left without a value. Brückner’s class limits overlap in print (“500 to 1000”, “1000 to 2000”); the assignment of boundary values is not stated. Derived is the share of municipalities per class in all 173 municipalities; the printed percentages of the population and the persons per municipality were taken over and checked against population ÷ total population (all values agree). Row and column sums and the equality of the three districts' sum with the “principality” row were checked in Python and agree."
  },
  "findings": [
   {
@@ -40,7 +40,7 @@
    "en": "159 of the 173 municipalities (91.9 %) have fewer than 1,000 inhabitants and together hold 45,044 persons (51.2 %); 142 municipalities have at most 500 souls (on average 238.7)."
   },
   {
-   "de": "Die 14 Gemeinden über 1000 Einwohner (8,1 % der Gemeinden) umfassen 42 930 Einwohner (48,8 %); Brückner vergleicht diese Zahl mit dem Fürstenthum Reuß ä. L. (43 889 Einwohner).",
+   "de": "Die 14 Gemeinden über 1000 Einwohner (8,1 % der Gemeinden) umfassen 42 930 Einwohner (48,8 %); Brückner vergleicht diese Zahl mit dem Fürstentum Reuß ä. L. (43 889 Einwohner).",
    "en": "The 14 municipalities of over 1,000 inhabitants (8.1 % of the municipalities) comprise 42,930 inhabitants (48.8 %); Brückner compares this figure with the Principality of Reuss (elder line, 43,889 inhabitants)."
   },
   {
@@ -55,7 +55,7 @@
   },
   {
    "de": "Brückners Text zählt 159 Gemeinden unter und 14 über 1000 Einwohner (45 044 bzw. 42 930 Einwohner); das stimmt mit den Zeilensummen überein.",
-   "en": "Brückner's text counts 159 municipalities below and 14 above 1,000 inhabitants (45,044 and 42,930 inhabitants); this agrees with the row sums."
+   "en": "Brückner’s text counts 159 municipalities below and 14 above 1,000 inhabitants (45,044 and 42,930 inhabitants); this agrees with the row sums."
   }
  ],
  "datasets": [
@@ -69,7 +69,7 @@
     {
      "name": "district",
      "label": {
-      "de": "Landrathsbezirk",
+      "de": "Landratsbezirk",
       "en": "District"
      },
      "type": "string",
@@ -274,7 +274,7 @@
   {
    "name": "size_total",
    "title": {
-    "de": "Fürstenthum: Gemeinden und Volksmenge nach Größenklassen",
+    "de": "Fürstentum: Gemeinden und Volksmenge nach Größenklassen",
     "en": "Principality: municipalities and population by size class"
    },
    "columns": [
@@ -428,7 +428,7 @@
     "en": "Municipalities and population by size class"
    },
    "caption": {
-    "de": "Anteil der Gemeinden und Anteil der Volksmenge je Größenklasse (Fürstenthum, 1867). Die vielen kleinen Gemeinden haben einen kleineren Bevölkerungsanteil als die wenigen großen Orte; zwischen 2000 und 16 000 Einwohnern liegen nur vier Gemeinden.",
+    "de": "Anteil der Gemeinden und Anteil der Volksmenge je Größenklasse (Fürstentum, 1867). Die vielen kleinen Gemeinden haben einen kleineren Bevölkerungsanteil als die wenigen großen Orte; zwischen 2000 und 16 000 Einwohnern liegen nur vier Gemeinden.",
     "en": "Share of the municipalities and share of the population by size class (principality, 1867). The many small municipalities have a smaller share of the population than the few large places; only four municipalities lie between 2,000 and 16,000 inhabitants."
    },
    "vegalite": {
@@ -685,7 +685,9 @@
   ]
  },
  "related": [
-  "bevoelkerung-stadt-land-1833-1867"
+  "bevoelkerung-stadt-land-1833-1867",
+  "orte-siedlungsbild-1867",
+  "verfassung-landtag-gemeinderaete-vertretung"
  ],
  "generated_by": "Claude Sonnet 5.5 (subagent A06)",
  "date": "2026-10-01"

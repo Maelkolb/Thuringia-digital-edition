@@ -42,7 +42,7 @@
       <a href="{{ root }}edition/einleitung.html" {% if section == 'about' %}aria-current="page"{% endif %}>{{ t('Edition', 'About') }}</a>
     </nav>
     <div class="header-tools">
-      <form class="quicksearch" role="search" action="{{ root }}suche.html" data-quicksearch>
+      <form class="quicksearch" role="search" aria-label="Schnellsuche / quick search" action="{{ root }}suche.html" data-quicksearch>
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
         <label class="visually-hidden" for="qs">{{ t('Suche', 'Search') }}</label>
         <input id="qs" name="q" type="search" autocomplete="off" placeholder="Suchen … / Search …" aria-autocomplete="list" aria-controls="qs-results">

@@ -2,7 +2,7 @@
  "id": "geschichte-chronik-ereignisse-530-1867",
  "title": {
   "de": "Chronik der datierten Ereignisse in Brückners Landesgeschichte (530–1867)",
-  "en": "Chronology of the dated events in Brückner's history of the land (530–1867)"
+  "en": "Chronology of the dated events in Brückner’s history of the land (530–1867)"
  },
  "category": "history",
  "section": "t1-5",
@@ -390,7 +390,7 @@
  },
  "method": {
   "de": "Die Ereignisse wurden beim vollständigen Lesen der Erzähltexte von S. 313–393 gesammelt: jedes Ereignis mit einer gedruckten Jahreszahl, das einen Gebietswechsel, eine Teilung oder ein Aussterben, einen Krieg, einen Vertrag, eine Stiftung oder Reform oder ein Unglück betrifft. Die Beschreibungen sind knappe Paraphrasen, keine Zitate; der Jahreswert ist die im Block gedruckte Jahreszahl (bei mehrjährigen Vorgängen das erste Jahr). Wo ein Jahr nicht gedruckt, sondern aus Brückners Angabe errechnet ist (Brand von Schleiz 1474 = zwei Jahre vor 1476), steht »ja« in der Spalte year_derived. Die Zuordnung zu Art und Haus ist eine redaktionelle Entscheidung. Die Stammtafeln (S. 331–403) liefern keine Ereignisse. Die Zahl je Halbjahrhundert (Spalte half_century) ist abgeleitet.",
-  "en": "The events were collected while reading the narrative on pp. 313–393 in full: every event with a printed year that concerns a change of territory, a partition or extinction, a war, a treaty, a foundation or reform, or a calamity. The descriptions are brief paraphrases, not quotations; the year is the one printed in the block (the first year for multi-year episodes). Where a year is not printed but computed from Brückner's statement (fire of Schleiz 1474 = two years before 1476), the column year_derived says “ja”. The assignment to kind and house is an editorial decision. The genealogical tables (pp. 331–403) do not supply events. The count per half-century (column half_century) is derived."
+  "en": "The events were collected while reading the narrative on pp. 313–393 in full: every event with a printed year that concerns a change of territory, a partition or extinction, a war, a treaty, a foundation or reform, or a calamity. The descriptions are brief paraphrases, not quotations; the year is the one printed in the block (the first year for multi-year episodes). Where a year is not printed but computed from Brückner’s statement (fire of Schleiz 1474 = two years before 1476), the column year_derived says “ja”. The assignment to kind and house is an editorial decision. The genealogical tables (pp. 331–403) do not supply events. The count per half-century (column half_century) is derived."
  },
  "findings": [
   {
@@ -413,7 +413,7 @@
  "caveats": [
   {
    "de": "Die Auswahl folgt Brückners Erzählung: Die Zahlen sagen etwas über seine Gewichtung, nicht über die tatsächliche Häufigkeit von Ereignissen. Die Linien Weida, Gera und Plauen sind in der Erzählung ausführlicher als das Haus Reuß im 17. und 18. Jahrhundert.",
-   "en": "The selection follows Brückner's narrative: the numbers say something about his emphasis, not about the true frequency of events. The lines of Weida, Gera and Plauen are treated at greater length than the house of Reuss in the 17th and 18th centuries."
+   "en": "The selection follows Brückner’s narrative: the numbers say something about his emphasis, not about the true frequency of events. The lines of Weida, Gera and Plauen are treated at greater length than the house of Reuss in the 17th and 18th centuries."
   },
   {
    "de": "Manche Vorgänge erscheinen doppelt, weil sie zwei Häuser betreffen (z. B. 1319 Verkauf durch Weida und Kauf durch Gera). Die Zuordnung zu einer Art ist nicht immer eindeutig (Vergleiche, Lehnsaufträge, Prozesse).",
@@ -5737,7 +5737,7 @@
    },
    "caption": {
     "de": "Jeder Punkt ein Ereignis; die Zeilen sind die handelnden Häuser, innerhalb einer Zeile je Art eine eigene Spur (Farbe wie oben). Bei Berührung erscheint die Beschreibung mit Seite und Block.",
-    "en": "Each dot is an event; rows are the houses involved, and within a row each kind has its own track (colours as above). The description with page and block appears on hover."
+    "en": "Each dot is an event; rows are the houses involved, and within a row each kind has its own track (colors as above). The description with page and block appears on hover."
    },
    "vegalite": {
     "height": 420,
@@ -6044,8 +6044,10 @@
   ]
  },
  "related": [
-  "geschichte-landerwerb-landverlust-1248-1572",
-  "geschichte-landesteilungen-linien-1240-1870"
+  "geschichte-landerwerb-landverlust-1248-1690",
+  "geschichte-landesteilungen-linien-1240-1870",
+  "bergbau-bestand-oberland-vor-1648",
+  "gesundheit-medizinalwesen-und-seuchen-zeitleiste"
  ],
  "generated_by": "Claude Sonnet 5.5 (subagent A12)",
  "date": "2026-10-01"

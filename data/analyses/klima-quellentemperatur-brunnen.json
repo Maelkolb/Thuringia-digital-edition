@@ -26,7 +26,7 @@
  },
  "method": {
   "de": "Die Werte stehen im Fließtext (S. 69 b3, S. 70 b1 und b2) und wurden einzeln übernommen; der Datensatz nennt Fundstelle, Beobachter und, wo angegeben, Datum. Temperaturen in Réaumur wurden mit 1 °R = 1,25 °C in Grad Celsius umgerechnet; Brüche wie 6 3/4 und 5 1/2 sind im Druck als gemischte Brüche gesetzt und im Datensatz als Dezimalzahl ausgewiesen (Spalte »Wert im Druck«). Elsässers Angaben sind Spannen (z. B. 11° bis 12° R.) und werden als Balken dargestellt, Einzelmessungen als Punkte. Brückner nennt Seydels elf Quellen, aber nur fünf mit Namen; nur diese sind erfasst.",
-  "en": "The values are in the running text (p. 69 b3, p. 70 b1 and b2) and were taken one by one; the dataset gives the location, observer and, where stated, the date. Temperatures in Réaumur were converted to degrees Celsius with 1 °R = 1.25 °C; fractions such as 6 3/4 and 5 1/2 are set as mixed fractions in the print and appear as decimals in the dataset (column “Value as printed”). Elsässer's figures are ranges (e.g. 11° to 12° R.) and are drawn as bars, single readings as dots. Brückner names Seydel's eleven springs but only five by name; only these are included."
+  "en": "The values are in the running text (p. 69 b3, p. 70 b1 and b2) and were taken one by one; the dataset gives the location, observer and, where stated, the date. Temperatures in Réaumur were converted to degrees Celsius with 1 °R = 1.25 °C; fractions such as 6 3/4 and 5 1/2 are set as mixed fractions in the print and appear as decimals in the dataset (column “Value as printed”). Elsässer’s figures are ranges (e.g. 11° to 12° R.) and are drawn as bars, single readings as dots. Brückner names Seydel’s eleven springs but only five by name; only these are included."
  },
  "findings": [
   {
@@ -43,7 +43,7 @@
   },
   {
    "de": "Elsässers allgemeine Spannen für das Oberland (obere Quellen 11–12 °R = 13,8–15,0 °C, mittlere 9–10 °R, untere 7–8 °R) liegen höher als die Röttersdorfer Messungen. Was »obere«, »mittlere« und »untere« Quellen bedeuten, sagt der Text nicht; Brückner merkt an, es sei unklar, ob die Zahlen auf Messungen beruhen und die Jahrestemperatur meinen.",
-   "en": "Elsässer's general ranges for the Oberland (upper springs 11–12 °R = 13.8–15.0 °C, middle 9–10 °R, lower 7–8 °R) lie higher than the Röttersdorf readings. The text does not say what “upper”, “middle” and “lower” springs mean; Brückner remarks that it is unclear whether the figures rest on measurements and refer to the annual temperature."
+   "en": "Elsässer’s general ranges for the Oberland (upper springs 11–12 °R = 13.8–15.0 °C, middle 9–10 °R, lower 7–8 °R) lie higher than the Röttersdorf readings. The text does not say what “upper”, “middle” and “lower” springs mean; Brückner remarks that it is unclear whether the figures rest on measurements and refer to the annual temperature."
   }
  ],
  "caveats": [
@@ -53,7 +53,7 @@
   },
   {
    "de": "Die Genauigkeit der Réaumur-Angaben ist unbekannt (meist ganze Grade, einmal 6 3/4); Höhenlage und Lage der Quellen sind nicht genannt. Bei den Röttersdorfer Messungen stehen Luftwärme (im Schatten 18 1/2, in der Sonne 23 1/2 bzw. 26 1/2 °R) und Windlage im Text, sind hier aber nicht ausgewertet.",
-   "en": "The precision of the Réaumur values is unknown (mostly whole degrees, once 6 3/4); altitude and position of the springs are not given. For the Röttersdorf readings the text gives air temperature (in the shade 18 1/2, in the sun 23 1/2 and 26 1/2 °R) and wind conditions, which are not analysed here."
+   "en": "The precision of the Réaumur values is unknown (mostly whole degrees, once 6 3/4); altitude and position of the springs are not given. For the Röttersdorf readings the text gives air temperature (in the shade 18 1/2, in the sun 23 1/2 and 26 1/2 °R) and wind conditions, which are not analyzed here."
   }
  ],
  "conversions": [
@@ -625,7 +625,9 @@
   ]
  },
  "related": [
-  "klima-regenmenge-gera-1860-1867"
+  "klima-regenmenge-gera-1860-1867",
+  "gewaesser-heilquellen-lobenstein-analyse",
+  "klima-stationen-temperatur-vergleich"
  ],
  "generated_by": "Claude Sonnet 5.5 (subagent A04)",
  "date": "2026-10-01"

@@ -355,7 +355,7 @@
   },
   {
    "de": "An jedem Fluss steht auf der rechten Seite mindestens so viele Zuflüsse wie auf der linken: Saale 23 gegen 12, Elster 16 gegen 12, Weida 8 gegen 7; nur bei der Rodach überwiegt die linke Seite (3 gegen 2). Für die Saale bestätigt das Brückners Satz, sie habe »die größere Zahl auf der rechten Seite«.",
-   "en": "On every river the right bank has at least as many tributaries as the left: Saale 23 against 12, Elster 16 against 12, Weida 8 against 7; only on the Rodach does the left side prevail (3 against 2). For the Saale this confirms Brückner's statement that it has “the larger number on the right”."
+   "en": "On every river the right bank has at least as many tributaries as the left: Saale 23 against 12, Elster 16 against 12, Weida 8 against 7; only on the Rodach does the left side prevail (3 against 2). For the Saale this confirms Brückner’s statement that it has “the larger number on the right”."
   },
   {
    "de": "Die Namen unterscheiden sich zwischen den Landesteilen: Im Oberland enden 34 von 50 Zuflussnamen (68 %) auf -bach/-bächlein, im Unterland nur 8 von 28 (29 %). Dort tragen 8 von 28 (29 %) einen Namen auf -graben oder -grund, im Oberland keiner; -wasser/-wässerlein kommt im Unterland etwas häufiger vor (5 von 28, 18 %) als im Oberland (6 von 50, 12 %).",
@@ -369,7 +369,7 @@
  "caveats": [
   {
    "de": "Die Listen führen nur Zuflüsse erster Ordnung als eigene Einträge; Brückners Gesamtzahl von »300 Quellrieseln, Bächen und Flüssen« (S. 41) ist daher deutlich höher als die hier gezählten Einträge.",
-   "en": "The lists give only first-order tributaries as separate entries; Brückner's overall figure of “300 spring rills, brooks and rivers” (p. 41) is therefore well above the entries counted here."
+   "en": "The lists give only first-order tributaries as separate entries; Brückner’s overall figure of “300 spring rills, brooks and rivers” (p. 41) is therefore well above the entries counted here."
   },
   {
    "de": "Die Weida wird bei Brückner unter dem Oberland geführt, mündet aber in die Elster; die Pleiße und andere Elsterzuflüsse außerhalb des Landes erscheinen nur, soweit Brückner ihre Quellwasser im Unterland aufführt.",
@@ -385,7 +385,7 @@
    "name": "tributaries",
    "title": {
     "de": "Zuflüsse erster Ordnung nach Brückners Verzeichnis",
-    "en": "First-order tributaries in Brückner's list"
+    "en": "First-order tributaries in Brückner’s list"
    },
    "columns": [
     {
@@ -431,7 +431,7 @@
      "name": "number",
      "label": {
       "de": "Nummer in Brückners Liste",
-      "en": "Number in Brückner's list"
+      "en": "Number in Brückner’s list"
      },
      "type": "integer",
      "unit": null,
@@ -1831,7 +1831,7 @@
    },
    "caption": {
     "de": "Zuflüsse erster Ordnung nach Brückners Verzeichnis (S. 45–53); links/rechts in Fließrichtung. Die Rodach-Zuflüsse sind unnumeriert.",
-    "en": "First-order tributaries in Brückner's list (pp. 45–53); left/right in flow direction. The Rodach tributaries are unnumbered."
+    "en": "First-order tributaries in Brückner’s list (pp. 45–53); left/right in flow direction. The Rodach tributaries are unnumbered."
    },
    "vegalite": {
     "height": 280,
@@ -2035,5 +2035,10 @@
   ]
  },
  "generated_by": "Claude Sonnet 5.5 (subagent A02)",
- "date": "2026-10-01"
+ "date": "2026-10-01",
+ "related": [
+  "gewaesser-quellen-muendungen-hoehen",
+  "gewaesser-hauptfluesse-lauf-gefaelle",
+  "gewaesser-heilquellen-lobenstein-analyse"
+ ]
 }

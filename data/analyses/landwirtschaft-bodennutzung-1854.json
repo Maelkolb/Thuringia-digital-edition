@@ -1,7 +1,7 @@
 {
  "id": "landwirtschaft-bodennutzung-1854",
  "title": {
-  "de": "Bodennutzung in den drei Landestheilen (Vermessung 1854)",
+  "de": "Bodennutzung in den drei Landesteilen (Vermessung 1854)",
   "en": "Land use in the three districts (survey of 1854)"
  },
  "category": "agriculture",
@@ -35,12 +35,12 @@
   }
  ],
  "summary": {
-  "de": "Nach der Landesvermessung von 1854 verteilt Brückner die Fläche des Fürstenthums (322.746 Morgen, rund 82.404 ha) auf neun Nutzungsarten. Die Diagramme zeigen, wie sich Feld, Wiese, Hutung, Garten und Wald auf Gera, Schleiz und Lobenstein-Ebersdorf verteilen und wie viel landwirthschaftlicher Boden auf eine Familie kommt.",
+  "de": "Nach der Landesvermessung von 1854 verteilt Brückner die Fläche des Fürstentums (322.746 Morgen, rund 82.404 ha) auf neun Nutzungsarten. Die Diagramme zeigen, wie sich Feld, Wiese, Hutung, Garten und Wald auf Gera, Schleiz und Lobenstein-Ebersdorf verteilen und wie viel landwirtschaftlicher Boden auf eine Familie kommt.",
   "en": "After the land survey of 1854 Brückner distributes the area of the principality (322,746 Morgen, about 82,404 ha) over nine kinds of use. The charts show how arable land, meadow, pasture, garden and woodland are distributed over Gera, Schleiz and Lobenstein-Ebersdorf and how much agricultural land there is per family."
  },
  "method": {
-  "de": "Die Morgenzahlen und Prozentwerte stammen aus der Tabelle auf S. 217 (Block b1, Zeilen »Arten der Benutzung«) und aus der Tabelle zum landwirthschaftlichen Boden (Block b3). Umrechnung in Hektar mit Brückners eigener Tabelle (S. 832): 1 preuß. Morgen (180 Quadratruthen) = 0,255322 ha. Für die Diagramme sind Gehöfte, Teiche und steuerfreier Boden zur Gruppe »Gehöfte, Teiche u. a.« zusammengefasst. Der »landwirthschaftliche Boden« ist bei Brückner die Summe aus Gärten, Feld, Wiese und Hutung; zur Kontrolle wurde sie aus Block b1 nachgerechnet (Spalte morgen_berechnet).",
-  "en": "The Morgen figures and percentages come from the table on p. 217 (block b1, rows “Arten der Benutzung”) and from the table on agricultural land (block b3). Conversion to hectares uses Brückner's own table (p. 832): 1 Prussian Morgen (180 square rods) = 0.255322 ha. For the charts, farmsteads, ponds and tax-exempt land are combined into the group “Farmsteads, ponds etc.”. Brückner's “agricultural land” is the sum of gardens, arable land, meadow and pasture; as a check it was recomputed from block b1 (column morgen_berechnet)."
+  "de": "Die Morgenzahlen und Prozentwerte stammen aus der Tabelle auf S. 217 (Block b1, Zeilen »Arten der Benutzung«) und aus der Tabelle zum landwirtschaftlichen Boden (Block b3). Umrechnung in Hektar mit Brückners eigener Tabelle (S. 832): 1 preuß. Morgen (180 Quadratruthen) = 0,255322 ha. Für die Diagramme sind Gehöfte, Teiche und steuerfreier Boden zur Gruppe »Gehöfte, Teiche u. a.« zusammengefasst. Der »landwirthschaftliche Boden« ist bei Brückner die Summe aus Gärten, Feld, Wiese und Hutung; zur Kontrolle wurde sie aus Block b1 nachgerechnet (Spalte morgen_berechnet).",
+  "en": "The Morgen figures and percentages come from the table on p. 217 (block b1, rows “Arten der Benutzung”) and from the table on agricultural land (block b3). Conversion to hectares uses Brückner’s own table (p. 832): 1 Prussian Morgen (180 square rods) = 0.255322 ha. For the charts, farmsteads, ponds and tax-exempt land are combined into the group “Farmsteads, ponds etc.”. Brückner’s “agricultural land” is the sum of gardens, arable land, meadow and pasture; as a check it was recomputed from block b1 (column morgen_berechnet)."
  },
  "findings": [
   {
@@ -49,28 +49,28 @@
   },
   {
    "de": "Das Oberland hat im Verhältnis weit mehr Wiese als das Unterland: 20,0 % in Schleiz und 18,9 % in Lobenstein-Ebersdorf gegenüber 9,0 % in Gera.",
-   "en": "The Upper Land has far more meadow in proportion than the Lower Land: 20.0 % in Schleiz and 18.9 % in Lobenstein-Ebersdorf against 9.0 % in Gera."
+   "en": "The Oberland has far more meadow in proportion than the Unterland: 20.0 % in Schleiz and 18.9 % in Lobenstein-Ebersdorf against 9.0 % in Gera."
   },
   {
-   "de": "Laubwald gibt es fast nur im Landestheil Gera (6,9 % der Fläche); in Schleiz sind es 0,3 %.",
+   "de": "Laubwald gibt es fast nur im Landesteil Gera (6,9 % der Fläche); in Schleiz sind es 0,3 %.",
    "en": "Deciduous woodland is found almost only in the district of Gera (6.9 % of the area); in Schleiz it is 0.3 %."
   },
   {
-   "de": "Der Anteil des landwirthschaftlich genutzten Bodens (Garten, Feld, Wiese, Hutung) an der Gesamtfläche sinkt von 72,5 % in Gera über 56,5 % in Schleiz auf 49,5 % in Lobenstein-Ebersdorf (Fürstenthum: 58,4 %).",
+   "de": "Der Anteil des landwirtschaftlich genutzten Bodens (Garten, Feld, Wiese, Hutung) an der Gesamtfläche sinkt von 72,5 % in Gera über 56,5 % in Schleiz auf 49,5 % in Lobenstein-Ebersdorf (Fürstentum: 58,4 %).",
    "en": "The share of agriculturally used land (garden, field, meadow, pasture) in the total area falls from 72.5 % in Gera through 56.5 % in Schleiz to 49.5 % in Lobenstein-Ebersdorf (principality: 58.4 %)."
   },
   {
-   "de": "Auf eine Familie kommen in Gera 7,84 Morgen (2,00 ha) landwirthschaftlicher Boden, in Schleiz 11,60 Morgen (2,96 ha) und in Lobenstein-Ebersdorf 11,37 Morgen (2,90 ha).",
+   "de": "Auf eine Familie kommen in Gera 7,84 Morgen (2,00 ha) landwirtschaftlicher Boden, in Schleiz 11,60 Morgen (2,96 ha) und in Lobenstein-Ebersdorf 11,37 Morgen (2,90 ha).",
    "en": "Per family there are 7.84 Morgen (2.00 ha) of agricultural land in Gera, 11.60 Morgen (2.96 ha) in Schleiz and 11.37 Morgen (2.90 ha) in Lobenstein-Ebersdorf."
   }
  ],
  "caveats": [
   {
-   "de": "Die Zahlen beruhen auf der Vermessung von 1854. Seither hat die Feldfläche vor allem im Landestheil Gera um etwa 1000 Morgen zugenommen (Fußnote S. 217 und S. 226); Brückner behält 1854 als Grundlage bei. Lobenstein-Ebersdorf war nur »croquirt«, seine Fläche ist wahrscheinlich größer als angegeben.",
+   "de": "Die Zahlen beruhen auf der Vermessung von 1854. Seither hat die Feldfläche vor allem im Landesteil Gera um etwa 1000 Morgen zugenommen (Fußnote S. 217 und S. 226); Brückner behält 1854 als Grundlage bei. Lobenstein-Ebersdorf war nur »croquirt«, seine Fläche ist wahrscheinlich größer als angegeben.",
    "en": "The figures rest on the survey of 1854. Since then the arable area has grown, above all in the district of Gera by about 1,000 Morgen (footnote p. 217 and p. 226); Brückner keeps 1854 as the basis. Lobenstein-Ebersdorf was only sketched (“croquirt”), so its area is probably larger than stated."
   },
   {
-   "de": "Die gedruckten Summen stimmen nicht ganz: Für Schleiz steht in Block b3 71 574 Morgen landwirthschaftlicher Boden, die Teilposten aus Block b1 ergeben 71 374; die Summe des Fürstenthums (188 542) passt zu 71 374. Auch einzelne Spalten des Fürstenthums weichen um bis zu etwa einen Morgen von der Summe der Landestheile ab. Die gedruckten Werte wurden unverändert übernommen (am Faksimile geprüft).",
+   "de": "Die gedruckten Summen stimmen nicht ganz: Für Schleiz steht in Block b3 71 574 Morgen landwirtschaftlicher Boden, die Teilposten aus Block b1 ergeben 71 374; die Summe des Fürstentums (188 542) passt zu 71 374. Auch einzelne Spalten des Fürstentums weichen um bis zu etwa einen Morgen von der Summe der Landesteile ab. Die gedruckten Werte wurden unverändert übernommen (am Faksimile geprüft).",
    "en": "The printed totals do not quite agree: for Schleiz block b3 gives 71,574 Morgen of agricultural land whereas the items in block b1 add up to 71,374; the principality total (188,542) fits 71,374. Individual columns of the principality also deviate by up to about one Morgen from the sum of the districts. The printed values were taken over unchanged (checked against the facsimile)."
   }
  ],
@@ -86,7 +86,7 @@
   {
    "name": "nutzung",
    "title": {
-    "de": "Bodennutzung nach Landestheilen",
+    "de": "Bodennutzung nach Landesteilen",
     "en": "Land use by district"
    },
    "columns": [
@@ -142,7 +142,7 @@
     {
      "name": "landestheil_de",
      "label": {
-      "de": "Landestheil",
+      "de": "Landesteil",
       "en": "District"
      },
      "type": "string",
@@ -151,7 +151,7 @@
     {
      "name": "landestheil_en",
      "label": {
-      "de": "Landestheil (englisch)",
+      "de": "Landesteil (englisch)",
       "en": "District (English)"
      },
      "type": "string",
@@ -160,7 +160,7 @@
     {
      "name": "lt_nr",
      "label": {
-      "de": "Reihenfolge des Landestheils",
+      "de": "Reihenfolge des Landesteils",
       "en": "District order"
      },
      "type": "integer",
@@ -678,14 +678,14 @@
   {
    "name": "landw_boden",
    "title": {
-    "de": "Landwirthschaftlicher Boden nach Landestheilen",
+    "de": "Landwirtschaftlicher Boden nach Landesteilen",
     "en": "Agricultural land by district"
    },
    "columns": [
     {
      "name": "landestheil_de",
      "label": {
-      "de": "Landestheil",
+      "de": "Landesteil",
       "en": "District"
      },
      "type": "string",
@@ -694,7 +694,7 @@
     {
      "name": "landestheil_en",
      "label": {
-      "de": "Landestheil (englisch)",
+      "de": "Landesteil (englisch)",
       "en": "District (English)"
      },
      "type": "string",
@@ -713,7 +713,7 @@
     {
      "name": "morgen",
      "label": {
-      "de": "Landwirthschaftlicher Boden",
+      "de": "Landwirtschaftlicher Boden",
       "en": "Agricultural land"
      },
      "type": "integer",
@@ -722,8 +722,8 @@
     {
      "name": "pct",
      "label": {
-      "de": "Anteil am landw. Boden des Fürstenthums",
-      "en": "Share of the principality's agricultural land"
+      "de": "Anteil am landw. Boden des Fürstentums",
+      "en": "Share of the principality’s agricultural land"
      },
      "type": "number",
      "unit": "%"
@@ -760,7 +760,7 @@
     {
      "name": "ha",
      "label": {
-      "de": "Landwirthschaftlicher Boden in Hektar",
+      "de": "Landwirtschaftlicher Boden in Hektar",
       "en": "Agricultural land in hectares"
      },
      "type": "number",
@@ -848,7 +848,7 @@
     "en": "Composition of the land area"
    },
    "caption": {
-    "de": "Anteile der Nutzungsarten an der Gesamtfläche des Landestheils bzw. des Fürstenthums (Vermessung 1854). Gera ist von Feld geprägt, Schleiz und Lobenstein-Ebersdorf von Nadelwald und Wiese.",
+    "de": "Anteile der Nutzungsarten an der Gesamtfläche des Landesteils bzw. des Fürstentums (Vermessung 1854). Gera ist von Feld geprägt, Schleiz und Lobenstein-Ebersdorf von Nadelwald und Wiese.",
     "en": "Shares of the kinds of use in the total area of the district and of the principality (survey of 1854). Gera is dominated by arable land, Schleiz and Lobenstein-Ebersdorf by coniferous woodland and meadow."
    },
    "vegalite": {
@@ -968,7 +968,7 @@
         "en": "landestheil_en"
        },
        "title": {
-        "de": "Landestheil",
+        "de": "Landesteil",
         "en": "District"
        }
       },
@@ -1011,11 +1011,11 @@
    "id": "c2",
    "dataset": "nutzung",
    "title": {
-    "de": "Fläche der Landestheile nach Nutzung (Hektar)",
+    "de": "Fläche der Landesteile nach Nutzung (Hektar)",
     "en": "Area of the districts by use (hectares)"
    },
    "caption": {
-    "de": "Absolute Flächen, umgerechnet in Hektar (1 preuß. Morgen = 0,255322 ha). Schleiz ist der größte, Gera der kleinste Landestheil.",
+    "de": "Absolute Flächen, umgerechnet in Hektar (1 preuß. Morgen = 0,255322 ha). Schleiz ist der größte, Gera der kleinste Landesteil.",
     "en": "Absolute areas converted to hectares (1 Prussian Morgen = 0.255322 ha). Schleiz is the largest district, Gera the smallest."
    },
    "vegalite": {
@@ -1127,7 +1127,7 @@
         "en": "landestheil_en"
        },
        "title": {
-        "de": "Landestheil",
+        "de": "Landesteil",
         "en": "District"
        }
       },
@@ -1162,12 +1162,12 @@
    "id": "c3",
    "dataset": "landw_boden",
    "title": {
-    "de": "Landwirthschaftlicher Boden je Familie",
+    "de": "Landwirtschaftlicher Boden je Familie",
     "en": "Agricultural land per family"
    },
    "caption": {
     "de": "Garten, Feld, Wiese und Hutung zusammen, in Hektar je Familie (Brückner: Morgen auf 1 Familie, umgerechnet). Im Unterland (Gera) ist der Besitz je Familie am kleinsten.",
-    "en": "Garden, field, meadow and pasture together, in hectares per family (Brückner: Morgen per family, converted). In the Lower Land (Gera) the holding per family is smallest."
+    "en": "Garden, field, meadow and pasture together, in hectares per family (Brückner: Morgen per family, converted). In the Unterland (Gera) the holding per family is smallest."
    },
    "vegalite": {
     "height": 220,
@@ -1203,7 +1203,7 @@
         "en": "landestheil_en"
        },
        "title": {
-        "de": "Landestheil",
+        "de": "Landesteil",
         "en": "District"
        }
       },
@@ -1263,12 +1263,16 @@
    "garden",
    "Morgen",
    "agriculture",
-   "Upper Land",
-   "Lower Land"
+   "Oberland",
+   "Unterland"
   ]
  },
  "related": [
-  "landwirtschaft-grundbesitz-1854"
+  "landwirtschaft-grundbesitz-1854",
+  "geologie-formationen-bodenguete",
+  "forstwirtschaft-waldflaeche-besitz",
+  "landwirtschaft-ernte-versorgung",
+  "landwirtschaft-kammer-rittergueter-1854"
  ],
  "generated_by": "Claude Sonnet 5.5 (subagent A09)",
  "date": "2026-10-01"

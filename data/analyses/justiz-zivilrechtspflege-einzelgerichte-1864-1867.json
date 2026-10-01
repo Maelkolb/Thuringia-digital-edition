@@ -24,7 +24,7 @@
  },
  "method": {
   "de": "Die Zahlen stammen aus den Tabellen »Generalia« (S. 283) und »Civilia« (S. 284) der Statistik der Rechtspflege. Für jedes Jahr wurden Registrandennummern, Termine und die Spalten der förmlichen Rechtsstreitigkeiten (alte = aus Vorjahren übernommene, neue = im Jahr eingegangene; erledigt durch Erkenntnis oder Vergleich; unerledigt) und der Konkurse übernommen. Für die Entwicklung wurde jede Reihe auf 1864 = 100 indexiert (abgeleitet). Der Vergleichsanteil = Vergleiche : (Erkenntnisse + Vergleiche) unter den neuen Fällen. Nicht ausgewertet sind die Appellationsspalten (S. 284) und die Sühnetermine, die laut Überschrift nur 1866 betreffen.",
-  "en": "The figures come from the tables “Generalia” (p. 283) and “Civilia” (p. 284) of the justice statistics. For each year register numbers, hearings and the columns for formal lawsuits (old = carried over from earlier years, new = received in the year; decided by judgment or settled; unresolved) and bankruptcies were taken over. For the trend each series was indexed to 1864 = 100 (derived). The settlement share = settlements : (judgments + settlements) among the new cases. Not analysed are the appeal columns (p. 284) and the conciliation hearings, which according to the heading refer to 1866 only."
+  "en": "The figures come from the tables “Generalia” (p. 283) and “Civilia” (p. 284) of the justice statistics. For each year register numbers, hearings and the columns for formal lawsuits (old = carried over from earlier years, new = received in the year; decided by judgment or settled; unresolved) and bankruptcies were taken over. For the trend each series was indexed to 1864 = 100 (derived). The settlement share = settlements : (judgments + settlements) among the new cases. Not analyzed are the appeal columns (p. 284) and the conciliation hearings, which according to the heading refer to 1866 only."
  },
  "findings": [
   {
@@ -51,7 +51,7 @@
   },
   {
    "de": "»Registrandennummern« sind laufende Registraturnummern des Geschäftsverkehrs; Brückner erklärt den Begriff nicht. Sie messen den Umfang der Geschäfte, nicht die Zahl der Fälle. Einwohnerzahlen je Gerichtsbezirk fehlen, daher sind keine Pro-Kopf-Raten möglich.",
-   "en": "“Registrandennummern” are running register numbers of the court's business; Brückner does not define the term. They measure the volume of business, not the number of cases. Population figures per court district are missing, so no per-capita rates can be given."
+   "en": "“Registrandennummern” are running register numbers of the court’s business; Brückner does not define the term. They measure the volume of business, not the number of cases. Population figures per court district are missing, so no per-capita rates can be given."
   },
   {
    "de": "Dass die Vergleiche zunahmen, fällt in die Zeit nach dem Gesetz vom 28. April 1863 über Friedensgerichte und freie Gerichtstage (S. 282); ein ursächlicher Zusammenhang ist eine Vermutung, Brückner äußert sich dazu nicht.",
@@ -59,7 +59,7 @@
   },
   {
    "de": "In der Appellationsspalte der Tabelle S. 284 (Hohenleuben, Appellationsgericht) war die Transkription an zwei Zellen vertauscht (siehe transcription_issues); die Spalten werden hier nicht ausgewertet.",
-   "en": "In the appeal column of the table on p. 284 (Hohenleuben, Appellate Court) two cells were transposed in the transcription (see transcription_issues); these columns are not analysed here."
+   "en": "In the appeal column of the table on p. 284 (Hohenleuben, Appellate Court) two cells were transposed in the transcription (see transcription_issues); these columns are not analyzed here."
   }
  ],
  "datasets": [
@@ -1220,5 +1220,13 @@
   }
  ],
  "generated_by": "Claude Sonnet 5.5 (subagent A11)",
- "date": "2026-10-01"
+ "date": "2026-10-01",
+ "related": [
+  "verwaltung-aerzte-gendarmen-justizaemter-landestheile",
+  "justiz-kreisgerichte-berufungen-konkurse-1864-1867",
+  "justiz-strafsachen-einzelrichter-uebertretungen-1864-1867",
+  "justiz-strafsachen-kreisgerichte-staatsanwaltschaft-1864-1867",
+  "justiz-gefangene-hafttage-1864-1867",
+  "justiz-freiwillige-gerichtsbarkeit-1864-1867"
+ ]
 }
