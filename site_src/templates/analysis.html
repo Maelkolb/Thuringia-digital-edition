@@ -26,7 +26,7 @@
         <h2>{{ t('Daten', 'Data') }}</h2>
         {% for ds in datasets %}
         <h3>{{ t(ds.title.de|e, ds.title.en|e) }} <span class="muted" style="font-weight:400">({{ ds.n }} {{ t('Zeilen', 'rows') }})</span></h3>
-        <div class="data-table-wrap" tabindex="0" role="region" aria-label="Datentabelle / data table"><table><thead><tr>{% for c in ds.columns %}<th>{{ t(c.label.de|e, c.label.en|e) }}{% if c.unit %} <span class="muted">[{{ c.unit|e }}]</span>{% endif %}{% if c.derived %} <span class="muted" title="berechnet / derived">*</span>{% endif %}</th>{% endfor %}</tr></thead>
+        <div class="data-table-wrap" tabindex="0" role="region" aria-label="Datentabelle / data table: {{ ds.title.de|e }}"><table><thead><tr>{% for c in ds.columns %}<th>{{ t(c.label.de|e, c.label.en|e) }}{% if c.unit %} <span class="muted">[{{ c.unit|e }}]</span>{% endif %}{% if c.derived %} <span class="muted" title="berechnet / derived">*</span>{% endif %}</th>{% endfor %}</tr></thead>
           <tbody>{% for r in ds.rows %}<tr>{% for v in r %}<td{% if v is number %} class="num"{% endif %}>{{ '' if v is none else v }}</td>{% endfor %}</tr>{% endfor %}</tbody></table></div>
         <p style="margin-top:6px"><a class="small-btn" href="daten/{{ a.id }}__{{ ds.name }}.csv" download>CSV</a> <span class="muted" style="font-size:.85rem">* = {{ t('berechnete Spalte', 'derived column') }}</span></p>
         {% endfor %}
