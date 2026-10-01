@@ -1149,26 +1149,6 @@
    ]
   },
   {
-   "term": "Pariser Fuß",
-   "variants": [
-    "Fuß",
-    "'"
-   ],
-   "kind": "unit",
-   "de": "Längenmaß für Höhenangaben; mit dem Apostroph (z. B. 1772') bezeichnet. Nach Brückner (S. 831) gilt 443,296 pariser Linien = 1 Meter, ein Fuß hat 144 Linien, also 1 Fuß = 0,32484 m.",
-   "en": "Unit of length for heights, written with an apostrophe (e.g. 1772'). According to Brückner (p. 831) 443.296 Paris lines = 1 metre and a foot has 144 lines, so 1 foot = 0.32484 m.",
-   "pages": [
-    "45",
-    "46",
-    "47",
-    "48",
-    "49",
-    "50",
-    "51",
-    "52"
-   ]
-  },
-  {
    "term": "Stunde",
    "variants": [
     "Stunden",
@@ -1287,6 +1267,43 @@
     "34",
     "36",
     "39"
+   ]
+  },
+  {
+   "term": "Decimalfuß",
+   "variants": [
+    "Fuß (Höhenangaben)",
+    "'"
+   ],
+   "kind": "unit",
+   "de": "Maß der Höhenangaben, mit Apostroph geschrieben (z. B. 1772'): preußischer Decimalfuß, 1/10 der preußischen Ruthe = 0,3766 m, bezogen auf den Pegel bei Swinemünde (Brückner S. 11, Anm.; Ruthe S. 831). Korrektur der Edition: nicht der Pariser Fuß.",
+   "en": "Unit of the heights written with an apostrophe (e.g. 1772'): the Prussian decimal foot, 1/10 of a Prussian rod = 0.3766 m, referred to the gauge at Swinemünde (Brückner p. 11, note; rod p. 831). Editorial correction: not the Paris foot.",
+   "pages": [
+    "11",
+    "45",
+    "46",
+    "47",
+    "48",
+    "49",
+    "50",
+    "51",
+    "52"
+   ]
+  },
+  {
+   "term": "Pariser Fuß",
+   "variants": [
+    "Pariser Linie",
+    "Pariser Zoll"
+   ],
+   "kind": "unit",
+   "de": "Französisches Längenmaß: 1 Fuß = 12 Zoll = 144 Linien = 0,32484 m (Brückner S. 831: 443,296 Linien = 1 Meter). In der Landeskunde v. a. für Barometerstände (in Linien) und Regenhöhen (in Zoll) verwendet.",
+   "en": "French unit of length: 1 foot = 12 inches = 144 lines = 0.32484 m (Brückner p. 831: 443.296 lines = 1 metre). Used in the book mainly for barometer readings (lines) and rainfall (inches).",
+   "pages": [
+    "54",
+    "66",
+    "69",
+    "831"
    ]
   }
  ]

@@ -1,6 +1,6 @@
 {
  "group": "concepts",
- "n_keys": 2909,
+ "n_keys": 2917,
  "entries": [
   {
    "key": "Kirche",
@@ -105,6 +105,58 @@
    ]
   },
   {
+   "key": "Holz",
+   "n": 91,
+   "types": {
+    "Resource": 89,
+    "Environment": 2
+   },
+   "forms": {
+    "Holz": 91
+   },
+   "pages": [
+    "5",
+    "17",
+    "126",
+    "136",
+    "164",
+    "166",
+    "176",
+    "178",
+    "184",
+    "202",
+    "203",
+    "207",
+    "236",
+    "237",
+    "238",
+    "…"
+   ],
+   "n_pages": 77,
+   "contexts": [
+    {
+     "page": "5",
+     "unit": "b3",
+     "text": "Das gesammte Land hat an ⟦Holz⟧ und nutzbaren Mineralien, besonders an Eisen, einen großen Reichthum "
+    },
+    {
+     "page": "17",
+     "unit": "b1",
+     "text": "räftigste Glied, darum in alter und neuer Zeit das reichste Jagd- und ⟦Holz⟧gebiet. Die Berghöhen haben im Fichteberg ihren Montblanc, behalten je"
+    },
+    {
+     "page": "126",
+     "unit": "b1",
+     "text": "ämlich 1) Grundbesitz (Dorfraum, Wege, Teiche, Feld, Wiese, Weide und ⟦Holz⟧), 2) Gerechtsame (Brauerei, Jahrmarkt), 3) öffentliche Gebäude und An"
+    },
+    {
+     "page": "136",
+     "unit": "b2",
+     "text": "wahrscheinlich im Lande selbst thätig war. Unter den noch vorhandenen ⟦Holz⟧gebilden sind viele von grober, aber auch viele von seiner Technik und"
+    }
+   ]
+  },
+  {
    "key": "Schule",
    "n": 91,
    "types": {
@@ -152,58 +204,6 @@
      "page": "454",
      "unit": "b1",
      "text": "Ostwestgasse zweizeilig, hat 1 Kirche, 1 ⟦Schule⟧, 1 Gemeindehaus, 16 Privathäuser, in 20 Familien 140 (1861: 118) Seel"
-    }
-   ]
-  },
-  {
-   "key": "Holz",
-   "n": 90,
-   "types": {
-    "Resource": 88,
-    "Environment": 2
-   },
-   "forms": {
-    "Holz": 90
-   },
-   "pages": [
-    "5",
-    "17",
-    "126",
-    "136",
-    "164",
-    "166",
-    "176",
-    "178",
-    "184",
-    "202",
-    "203",
-    "207",
-    "236",
-    "237",
-    "238",
-    "…"
-   ],
-   "n_pages": 76,
-   "contexts": [
-    {
-     "page": "5",
-     "unit": "b3",
-     "text": "Das gesammte Land hat an ⟦Holz⟧ und nutzbaren Mineralien, besonders an Eisen, einen großen Reichthum "
-    },
-    {
-     "page": "17",
-     "unit": "b1",
-     "text": "räftigste Glied, darum in alter und neuer Zeit das reichste Jagd- und ⟦Holz⟧gebiet. Die Berghöhen haben im Fichteberg ihren Montblanc, behalten je"
-    },
-    {
-     "page": "126",
-     "unit": "b1",
-     "text": "ämlich 1) Grundbesitz (Dorfraum, Wege, Teiche, Feld, Wiese, Weide und ⟦Holz⟧), 2) Gerechtsame (Brauerei, Jahrmarkt), 3) öffentliche Gebäude und An"
-    },
-    {
-     "page": "136",
-     "unit": "b2",
-     "text": "wahrscheinlich im Lande selbst thätig war. Unter den noch vorhandenen ⟦Holz⟧gebilden sind viele von grober, aber auch viele von seiner Technik und"
     }
    ]
   },
@@ -357,7 +357,7 @@
     {
      "page": "217",
      "unit": "b1.r7c1",
-     "text": "⟦Teiche⟧ . . . ."
+     "text": "⟦Teiche⟧"
     }
    ]
   },
@@ -1130,6 +1130,57 @@
    ]
   },
   {
+   "key": "Schlosse",
+   "n": 30,
+   "types": {
+    "Artefact": 30
+   },
+   "forms": {
+    "Schlosse": 30
+   },
+   "pages": [
+    "199",
+    "381",
+    "416",
+    "425",
+    "495",
+    "497",
+    "505",
+    "580",
+    "584",
+    "592",
+    "632",
+    "634",
+    "639",
+    "664",
+    "668",
+    "…"
+   ],
+   "n_pages": 20,
+   "contexts": [
+    {
+     "page": "199",
+     "unit": "b1",
+     "text": "ach den Zwerghöhlen bei Milbitz, von Reichenfels nach Hohenleuben zum ⟦Schlosse⟧ und zur Kirche, von der St. Wolfgangskapelle in Schleiz zur Bergkirch"
+    },
+    {
+     "page": "381",
+     "unit": "b2",
+     "text": "durch Vermehrung ihrer Jahrmärkte und hielt sich selbst öfters in dem ⟦Schlosse⟧ zu Hirschberg auf. Sein religiöser Sinn wandte sich durch seine fromm"
+    },
+    {
+     "page": "416",
+     "unit": "b1",
+     "text": "begonnen haben soll. Später kam sie an die Voigte von Gera, welche im ⟦Schlosse⟧ zu Gera saßen. Von 1450 an, nach der Verwüstung von Gera, wurde der O"
+    },
+    {
+     "page": "425",
+     "unit": "b2",
+     "text": "ort der Umgegend. Nach dem Brande von Gera im Jahre 1780 erhielten im ⟦Schlosse⟧ die Regierung, das Consistorium und der Diacon als Ortspfarrer Sitz u"
+    }
+   ]
+  },
+  {
    "key": "Rittergut",
    "n": 27,
    "types": {
@@ -1376,7 +1427,7 @@
     {
      "page": "217",
      "unit": "b1.r5c1",
-     "text": "⟦Wiese⟧ . . . ."
+     "text": "⟦Wiese⟧"
     },
     {
      "page": "218",
@@ -1487,57 +1538,6 @@
      "page": "452",
      "unit": "b1",
      "text": "Rittergut, 1 Kirche, 1 Schule, 1 ⟦Gemeindehaus⟧ und 63 Privathäuser mit 17 Scheunen, in 117 Familien 551 (1861: 464) "
-    }
-   ]
-  },
-  {
-   "key": "Schlosse",
-   "n": 26,
-   "types": {
-    "Artefact": 26
-   },
-   "forms": {
-    "Schlosse": 26
-   },
-   "pages": [
-    "199",
-    "381",
-    "416",
-    "425",
-    "495",
-    "497",
-    "505",
-    "580",
-    "584",
-    "592",
-    "632",
-    "634",
-    "639",
-    "664",
-    "668",
-    "…"
-   ],
-   "n_pages": 19,
-   "contexts": [
-    {
-     "page": "199",
-     "unit": "b1",
-     "text": "ach den Zwerghöhlen bei Milbitz, von Reichenfels nach Hohenleuben zum ⟦Schlosse⟧ und zur Kirche, von der St. Wolfgangskapelle in Schleiz zur Bergkirch"
-    },
-    {
-     "page": "381",
-     "unit": "b2",
-     "text": "durch Vermehrung ihrer Jahrmärkte und hielt sich selbst öfters in dem ⟦Schlosse⟧ zu Hirschberg auf. Sein religiöser Sinn wandte sich durch seine fromm"
-    },
-    {
-     "page": "416",
-     "unit": "b1",
-     "text": "begonnen haben soll. Später kam sie an die Voigte von Gera, welche im ⟦Schlosse⟧ zu Gera saßen. Von 1450 an, nach der Verwüstung von Gera, wurde der O"
-    },
-    {
-     "page": "425",
-     "unit": "b2",
-     "text": "ort der Umgegend. Nach dem Brande von Gera im Jahre 1780 erhielten im ⟦Schlosse⟧ die Regierung, das Consistorium und der Diacon als Ortspfarrer Sitz u"
     }
    ]
   },
@@ -1695,6 +1695,57 @@
    ]
   },
   {
+   "key": "Silber",
+   "n": 24,
+   "types": {
+    "Resource": 24
+   },
+   "forms": {
+    "Silber": 24
+   },
+   "pages": [
+    "34",
+    "129",
+    "156",
+    "157",
+    "242",
+    "243",
+    "245",
+    "248",
+    "250",
+    "272",
+    "277",
+    "368",
+    "414",
+    "454",
+    "525",
+    "…"
+   ],
+   "n_pages": 22,
+   "contexts": [
+    {
+     "page": "34",
+     "unit": "b2",
+     "text": "ren. An letztere knüpfen sich eine Anzahl Sagen von einstiger reicher ⟦Silber⟧- und Goldausbeute. — Bei und in Schleiz umschließen die Trüm= merdiab"
+    },
+    {
+     "page": "129",
+     "unit": "b1",
+     "text": "elfach die hölzernen Geräthschaften denen von Blech, Zinn, Kupfer und ⟦Silber⟧ und zum guten Theile nicht allein der vormalige Stuben- und Hofschmut"
+    },
+    {
+     "page": "156",
+     "unit": "b2",
+     "text": "fer schwarzer Haube mit einem geblümten, oft mit Goldflitter oder mit ⟦Silber⟧ besetzten Haubendeckel und mit über den Rücken fallenden Bändern, in "
+    },
+    {
+     "page": "157",
+     "unit": "b1",
+     "text": "auptschmuck bilden auch die vielreihigen Halsketten aus Corallen oder ⟦Silber⟧, mit großem Silberschlosse oder mit anderen broschartigen Verzierunge"
+    }
+   ]
+  },
+  {
    "key": "Teichen",
    "n": 23,
    "types": {
@@ -1743,57 +1794,6 @@
      "page": "75",
      "unit": "b3",
      "text": "ftmilder und humusgründiger, aber räumlich kleiner und an Bergformen, ⟦Teichen⟧ und Sümpfen bedeutend ärmer als das Oberland, hat, sieht man bloß auf"
-    }
-   ]
-  },
-  {
-   "key": "Silber",
-   "n": 23,
-   "types": {
-    "Resource": 23
-   },
-   "forms": {
-    "Silber": 23
-   },
-   "pages": [
-    "34",
-    "129",
-    "156",
-    "157",
-    "242",
-    "245",
-    "248",
-    "250",
-    "272",
-    "277",
-    "368",
-    "414",
-    "454",
-    "525",
-    "555",
-    "…"
-   ],
-   "n_pages": 21,
-   "contexts": [
-    {
-     "page": "34",
-     "unit": "b2",
-     "text": "ren. An letztere knüpfen sich eine Anzahl Sagen von einstiger reicher ⟦Silber⟧- und Goldausbeute. — Bei und in Schleiz umschließen die Trüm= merdiab"
-    },
-    {
-     "page": "129",
-     "unit": "b1",
-     "text": "elfach die hölzernen Geräthschaften denen von Blech, Zinn, Kupfer und ⟦Silber⟧ und zum guten Theile nicht allein der vormalige Stuben- und Hofschmut"
-    },
-    {
-     "page": "156",
-     "unit": "b2",
-     "text": "fer schwarzer Haube mit einem geblümten, oft mit Goldflitter oder mit ⟦Silber⟧ besetzten Haubendeckel und mit über den Rücken fallenden Bändern, in "
-    },
-    {
-     "page": "157",
-     "unit": "b1",
-     "text": "auptschmuck bilden auch die vielreihigen Halsketten aus Corallen oder ⟦Silber⟧, mit großem Silberschlosse oder mit anderen broschartigen Verzierunge"
     }
    ]
   },
@@ -2152,6 +2152,57 @@
    ]
   },
   {
+   "key": "Eisen",
+   "n": 20,
+   "types": {
+    "Resource": 20
+   },
+   "forms": {
+    "Eisen": 20
+   },
+   "pages": [
+    "5",
+    "15",
+    "42",
+    "44",
+    "92",
+    "242",
+    "243",
+    "245",
+    "248",
+    "250",
+    "261",
+    "272",
+    "571",
+    "601",
+    "620",
+    "…"
+   ],
+   "n_pages": 18,
+   "contexts": [
+    {
+     "page": "5",
+     "unit": "b3",
+     "text": "Das gesammte Land hat an Holz und nutzbaren Mineralien, besonders an ⟦Eisen⟧, einen großen Reichthum und einen für Ackerbau und Viehzucht ergiebig"
+    },
+    {
+     "page": "15",
+     "unit": "b2",
+     "text": "Gesteinsbau, energisch durch seinen Himmel und seinen Boden, reich an ⟦Eisen⟧, Wald, Quellen und Teichen, gekennzeichnet durch den Besenstrauch, we"
+    },
+    {
+     "page": "42",
+     "unit": "b2",
+     "text": "ngen durchsetzt sind, reiche, tiefliegende, nachhaltig fließende, mit ⟦Eisen⟧ und Kohlensäure mehr oder minder genährte, harte Quellen und nicht we"
+    },
+    {
+     "page": "44",
+     "unit": "b1",
+     "text": "teiner Gebiete. Fand man bei Helmsgrün, Wurzbach und an anderen Orten ⟦Eisen⟧- und Kohlensäure enthaltende Wasser von nur geringem Grade, so wurde "
+    }
+   ]
+  },
+  {
    "key": "Thurm",
    "n": 20,
    "types": {
@@ -2356,57 +2407,6 @@
    ]
   },
   {
-   "key": "Eisen",
-   "n": 19,
-   "types": {
-    "Resource": 19
-   },
-   "forms": {
-    "Eisen": 19
-   },
-   "pages": [
-    "5",
-    "15",
-    "42",
-    "44",
-    "92",
-    "242",
-    "245",
-    "248",
-    "250",
-    "261",
-    "272",
-    "571",
-    "601",
-    "620",
-    "723",
-    "…"
-   ],
-   "n_pages": 17,
-   "contexts": [
-    {
-     "page": "5",
-     "unit": "b3",
-     "text": "Das gesammte Land hat an Holz und nutzbaren Mineralien, besonders an ⟦Eisen⟧, einen großen Reichthum und einen für Ackerbau und Viehzucht ergiebig"
-    },
-    {
-     "page": "15",
-     "unit": "b2",
-     "text": "Gesteinsbau, energisch durch seinen Himmel und seinen Boden, reich an ⟦Eisen⟧, Wald, Quellen und Teichen, gekennzeichnet durch den Besenstrauch, we"
-    },
-    {
-     "page": "42",
-     "unit": "b2",
-     "text": "ngen durchsetzt sind, reiche, tiefliegende, nachhaltig fließende, mit ⟦Eisen⟧ und Kohlensäure mehr oder minder genährte, harte Quellen und nicht we"
-    },
-    {
-     "page": "44",
-     "unit": "b1",
-     "text": "teiner Gebiete. Fand man bei Helmsgrün, Wurzbach und an anderen Orten ⟦Eisen⟧- und Kohlensäure enthaltende Wasser von nur geringem Grade, so wurde "
-    }
-   ]
-  },
-  {
    "key": "Forsthaus",
    "n": 19,
    "types": {
@@ -2560,6 +2560,55 @@
    ]
   },
   {
+   "key": "Gold",
+   "n": 18,
+   "types": {
+    "Resource": 18
+   },
+   "forms": {
+    "Gold": 18
+   },
+   "pages": [
+    "34",
+    "41",
+    "197",
+    "206",
+    "242",
+    "243",
+    "245",
+    "248",
+    "272",
+    "367",
+    "519",
+    "525",
+    "635",
+    "704"
+   ],
+   "n_pages": 14,
+   "contexts": [
+    {
+     "page": "34",
+     "unit": "b2",
+     "text": "tere knüpfen sich eine Anzahl Sagen von einstiger reicher Silber- und ⟦Gold⟧ausbeute. — Bei und in Schleiz umschließen die Trüm= merdiabase Nester"
+    },
+    {
+     "page": "41",
+     "unit": "b3",
+     "text": "hung. Nach Volkssagen und alten Berichten haben einzelne Bäche vordem ⟦Gold⟧ geführt. So die Wipse, Gülde, die Wettera und der Ziezelbach. In dem "
+    },
+    {
+     "page": "197",
+     "unit": "b1",
+     "text": " Sie sind lecker nach Festspeisen und Tanz, besitzen Geheimmittel und ⟦Gold⟧, letzteres oft in Braupfannen, haben aber wenig Kunde von Ackerbau un"
+    },
+    {
+     "page": "206",
+     "unit": "b2",
+     "text": "es war in seinen Schuh gefallen. Da er nun daheim statt des Spans ein ⟦Gold⟧stück fand, eilte er zurück zum Auslesen der übrigen Späne, doch er tr"
+    }
+   ]
+  },
+  {
    "key": "Brande",
    "n": 18,
    "types": {
@@ -2709,54 +2758,6 @@
      "page": "453",
      "unit": "b1",
      "text": " und hat meist Mittelboden, den Morgen zu 11—12 Thlr. Pacht. In ihr 1 ⟦Teich⟧ und 1 Sandgrube. Die Hauptflurstücke sind: Schmerlbach, Kühanger, Aal"
-    }
-   ]
-  },
-  {
-   "key": "Gold",
-   "n": 17,
-   "types": {
-    "Resource": 17
-   },
-   "forms": {
-    "Gold": 17
-   },
-   "pages": [
-    "34",
-    "41",
-    "197",
-    "206",
-    "242",
-    "245",
-    "248",
-    "272",
-    "367",
-    "519",
-    "525",
-    "635",
-    "704"
-   ],
-   "n_pages": 13,
-   "contexts": [
-    {
-     "page": "34",
-     "unit": "b2",
-     "text": "tere knüpfen sich eine Anzahl Sagen von einstiger reicher Silber- und ⟦Gold⟧ausbeute. — Bei und in Schleiz umschließen die Trüm= merdiabase Nester"
-    },
-    {
-     "page": "41",
-     "unit": "b3",
-     "text": "hung. Nach Volkssagen und alten Berichten haben einzelne Bäche vordem ⟦Gold⟧ geführt. So die Wipse, Gülde, die Wettera und der Ziezelbach. In dem "
-    },
-    {
-     "page": "197",
-     "unit": "b1",
-     "text": " Sie sind lecker nach Festspeisen und Tanz, besitzen Geheimmittel und ⟦Gold⟧, letzteres oft in Braupfannen, haben aber wenig Kunde von Ackerbau un"
-    },
-    {
-     "page": "206",
-     "unit": "b2",
-     "text": "es war in seinen Schuh gefallen. Da er nun daheim statt des Spans ein ⟦Gold⟧stück fand, eilte er zurück zum Auslesen der übrigen Späne, doch er tr"
     }
    ]
   },
@@ -4993,6 +4994,50 @@
    ]
   },
   {
+   "key": "Kupfer",
+   "n": 10,
+   "types": {
+    "Resource": 10
+   },
+   "forms": {
+    "Kupfer": 10
+   },
+   "pages": [
+    "129",
+    "242",
+    "243",
+    "245",
+    "248",
+    "250",
+    "555",
+    "589",
+    "723"
+   ],
+   "n_pages": 9,
+   "contexts": [
+    {
+     "page": "129",
+     "unit": "b1",
+     "text": "striche, vielfach die hölzernen Geräthschaften denen von Blech, Zinn, ⟦Kupfer⟧ und Silber und zum guten Theile nicht allein der vormalige Stuben- un"
+    },
+    {
+     "page": "242",
+     "unit": "b2",
+     "text": "ch reizte sicher frühzeitig der Reichtum hiesigen Landes an Eisen und ⟦Kupfer⟧ zu deren Gewinnung."
+    },
+    {
+     "page": "243",
+     "unit": "b1",
+     "text": "dörfer einen Vertrag, dem zufolge ihre Werkmeister der oberländischen ⟦Kupfer⟧werke den Nürnbergern binnen 15 Monaten 500 Ctr. Garkupfer, dem mansfe"
+    },
+    {
+     "page": "245",
+     "unit": "b2",
+     "text": " gebaut, dagegen vorzugsweise auf Eisen und vorübergehend auf Silber, ⟦Kupfer⟧, Antimon und Alaun. Einige Silbergruben bei Löhma wurden 1790 auf kur"
+    }
+   ]
+  },
+  {
    "key": "Hain",
    "n": 10,
    "types": {
@@ -5969,49 +6014,6 @@
      "page": "485",
      "unit": "b1",
      "text": "ner Dorfstraße zweizeilig, stark ansteigend, umfaßt 3 Communalhäuser (⟦Armenhaus⟧, Brauhaus und Spritzenhaus) und 41 Privathäuser mit 37 Höfen und 28 S"
-    }
-   ]
-  },
-  {
-   "key": "Kupfer",
-   "n": 8,
-   "types": {
-    "Resource": 8
-   },
-   "forms": {
-    "Kupfer": 8
-   },
-   "pages": [
-    "129",
-    "242",
-    "245",
-    "248",
-    "250",
-    "555",
-    "589",
-    "723"
-   ],
-   "n_pages": 8,
-   "contexts": [
-    {
-     "page": "129",
-     "unit": "b1",
-     "text": "striche, vielfach die hölzernen Geräthschaften denen von Blech, Zinn, ⟦Kupfer⟧ und Silber und zum guten Theile nicht allein der vormalige Stuben- un"
-    },
-    {
-     "page": "242",
-     "unit": "b2",
-     "text": "ch reizte sicher frühzeitig der Reichtum hiesigen Landes an Eisen und ⟦Kupfer⟧ zu deren Gewinnung."
-    },
-    {
-     "page": "245",
-     "unit": "b2",
-     "text": " gebaut, dagegen vorzugsweise auf Eisen und vorübergehend auf Silber, ⟦Kupfer⟧, Antimon und Alaun. Einige Silbergruben bei Löhma wurden 1790 auf kur"
-    },
-    {
-     "page": "248",
-     "unit": "b2",
-     "text": " 18. Jahrhunderts ganz eingestellt, erstreckte sich hauptsächlich auf ⟦Kupfer⟧ und Eisen des thonigen Buntsandsteinstrichs und der Zechsteininformat"
     }
    ]
   },
@@ -7279,7 +7281,7 @@
     {
      "page": "84",
      "unit": "b1",
-     "text": "ähe; häufiger im Oberlande als im Unterlande: Wasserschwätzer (nur im ⟦Winter⟧ im Unterlande), Staar, großer Steinschmetzer, Kiefern- und Fichtenkre"
+     "text": "ähe; häufiger im Oberlande als im Unterlande: Wasserschwätzer (nur im ⟦Winter⟧ im Unterlande), Staar, großer Steinschmetter, Kiefern- und Fichtenkre"
     },
     {
      "page": "85",
@@ -7538,6 +7540,47 @@
    ]
   },
   {
+   "key": "Blei",
+   "n": 6,
+   "types": {
+    "Resource": 6
+   },
+   "forms": {
+    "Blei": 6
+   },
+   "pages": [
+    "162",
+    "191",
+    "192",
+    "243",
+    "245",
+    "248"
+   ],
+   "n_pages": 6,
+   "contexts": [
+    {
+     "page": "162",
+     "unit": "b3",
+     "text": "chleppender und schwerer wird und selbst auf dem Tanzboden das plumpe ⟦Blei⟧ nicht verliert. Dies gilt vom Manne wie vom Weibe, namentlich wenn di"
+    },
+    {
+     "page": "191",
+     "unit": "b4",
+     "text": "akeltag betrachten. Zu dem Ende lauschen sie in der Ofenblase, gießen ⟦Blei⟧ in einem Erbschlüssel und erkennen aus den im Wasser abgekühlten Blei"
+    },
+    {
+     "page": "192",
+     "unit": "b2",
+     "text": "uf Kreuzwegen auf zukunftdeutende Zeichen, beachtet die Träume, gießt ⟦Blei⟧, erforscht aus 12, mit Salz gefüllten Zwiebelschalen die Witterung de"
+    },
+    {
+     "page": "243",
+     "unit": "b1",
+     "text": " allein auf Eisen, Kupfer und Antimon, sondern auch auf Gold, Silber, ⟦Blei⟧, Zinn und Alaun einen solchen Aufschwung und damit einen solchen Reiz"
+    }
+   ]
+  },
+  {
    "key": "Honig",
    "n": 6,
    "types": {
@@ -7608,6 +7651,46 @@
      "page": "776",
      "unit": "b1",
      "text": "rschlagen. 1668 erhielt das im 30jährigen Kriege fast ganz verwüstete ⟦Wirthshaus⟧ einen Neubau. Im Anfange des 18. Jahrhunderts entstanden hier drei un"
+    }
+   ]
+  },
+  {
+   "key": "Saalwald",
+   "n": 6,
+   "types": {
+    "Environment": 6
+   },
+   "forms": {
+    "Saalwald": 6
+   },
+   "pages": [
+    "207",
+    "243",
+    "570",
+    "661",
+    "791"
+   ],
+   "n_pages": 5,
+   "contexts": [
+    {
+     "page": "207",
+     "unit": "b3",
+     "text": "bin ich erlöst sonder Wank“ in den Wolken verschwand. Ein Irrlicht am ⟦Saalwald⟧ mit den Worten: „Was bist du für ein Licht?“ angerufen, gab eine Ohrf"
+    },
+    {
+     "page": "243",
+     "unit": "b4.r4c3",
+     "text": "3 Kupfergr.; (Kaiser Siegmund i. ⟦Saalwald⟧, Kupferplatte b. Harra und Schütz bei Pottiga.)"
+    },
+    {
+     "page": "570",
+     "unit": "b3",
+     "text": "inen großen Reichthum an Waldungen, namentlich in seinem Kämmerawald, ⟦Saalwald⟧, Nonnenwald, oschitzer, schleizer, pörmizer, köthener, pöllwitzer und"
+    },
+    {
+     "page": "661",
+     "unit": "b2",
+     "text": "kt und deckend durch die hohen, schroffen Saalberge, den ausgedehnten ⟦Saalwald⟧ und das schluchtenförmige Saalthal. Ursprünglich war sie als eine fre"
     }
    ]
   },
@@ -7718,7 +7801,7 @@
     {
      "page": "259",
      "unit": "b1.r8c1",
-     "text": "⟦Leder⟧händler . . . . ."
+     "text": "⟦Leder⟧händler"
     },
     {
      "page": "260",
@@ -8638,6 +8721,45 @@
    ]
   },
   {
+   "key": "Zschachenmühle",
+   "n": 5,
+   "types": {
+    "Artefact": 5
+   },
+   "forms": {
+    "Zschachenmühle": 5
+   },
+   "pages": [
+    "49",
+    "243",
+    "764",
+    "829"
+   ],
+   "n_pages": 4,
+   "contexts": [
+    {
+     "page": "49",
+     "unit": "b5",
+     "text": "enden Latzbach, links von Weitisberga den Gombach und Asbach, bei der ⟦Zschachenmühle⟧ rechts den Reißbach, der aus dem kleinen und großen Torpich (Torpach)"
+    },
+    {
+     "page": "243",
+     "unit": "b4.r4c2",
+     "text": "3 Silbergr.; (Fortuna bei der ⟦Zschachenmühle⟧; Heinrichs- und Luisenglück bei Gahma u. Silberschlössel bei Weitisbe"
+    },
+    {
+     "page": "764",
+     "unit": "b1",
+     "text": "tgasthaus, zwei Feuerspritzen und südlich vom Orte im Sormizgrund die ⟦Zschachenmühle⟧ (Zschackenmühle) mit Oel- und Schneidemühle an der Einmündung des Rei"
+    },
+    {
+     "page": "829",
+     "unit": "b7",
+     "text": "ftsdorf) 487. Zoche W. 557. Zoizmühle (Zschippach) 547. Zollgrün 693. ⟦Zschachenmühle⟧ (Gahma) 764. Zscherlich (Triebes) 654. Zschippach 547. Zschippern 560"
+    }
+   ]
+  },
+  {
    "key": "Wind",
    "n": 5,
    "types": {
@@ -9137,6 +9259,46 @@
    ]
   },
   {
+   "key": "Zinn",
+   "n": 5,
+   "types": {
+    "Resource": 5
+   },
+   "forms": {
+    "Zinn": 5
+   },
+   "pages": [
+    "129",
+    "243",
+    "245",
+    "651",
+    "664"
+   ],
+   "n_pages": 5,
+   "contexts": [
+    {
+     "page": "129",
+     "unit": "b1",
+     "text": "den Anstriche, vielfach die hölzernen Geräthschaften denen von Blech, ⟦Zinn⟧, Kupfer und Silber und zum guten Theile nicht allein der vormalige St"
+    },
+    {
+     "page": "243",
+     "unit": "b1",
+     "text": "n auf Eisen, Kupfer und Antimon, sondern auch auf Gold, Silber, Blei, ⟦Zinn⟧ und Alaun einen solchen Aufschwung und damit einen solchen Reiz gewon"
+    },
+    {
+     "page": "245",
+     "unit": "b2",
+     "text": "ss sie die mehr bauwürdigen Erze in's Auge fasste. Auf Gold, Blei und ⟦Zinn⟧ hat sie nicht gebaut, dagegen vorzugsweise auf Eisen und vorübergehen"
+    },
+    {
+     "page": "651",
+     "unit": "fn2",
+     "text": "er dagegen giebt an, es fänden sich nur drei Kelche vor, der eine von ⟦Zinn⟧, der zweite von Messing und der dritte von übergoldetem Silber. Der l"
+    }
+   ]
+  },
+  {
    "key": "Bauernhaus",
    "n": 5,
    "types": {
@@ -9409,46 +9571,6 @@
    ]
   },
   {
-   "key": "Blei",
-   "n": 5,
-   "types": {
-    "Resource": 5
-   },
-   "forms": {
-    "Blei": 5
-   },
-   "pages": [
-    "162",
-    "191",
-    "192",
-    "245",
-    "248"
-   ],
-   "n_pages": 5,
-   "contexts": [
-    {
-     "page": "162",
-     "unit": "b3",
-     "text": "chleppender und schwerer wird und selbst auf dem Tanzboden das plumpe ⟦Blei⟧ nicht verliert. Dies gilt vom Manne wie vom Weibe, namentlich wenn di"
-    },
-    {
-     "page": "191",
-     "unit": "b4",
-     "text": "akeltag betrachten. Zu dem Ende lauschen sie in der Ofenblase, gießen ⟦Blei⟧ in einem Erbschlüssel und erkennen aus den im Wasser abgekühlten Blei"
-    },
-    {
-     "page": "192",
-     "unit": "b2",
-     "text": "uf Kreuzwegen auf zukunftdeutende Zeichen, beachtet die Träume, gießt ⟦Blei⟧, erforscht aus 12, mit Salz gefüllten Zwiebelschalen die Witterung de"
-    },
-    {
-     "page": "245",
-     "unit": "b2",
-     "text": "scher, dass sie die mehr bauwürdigen Erze in's Auge fasste. Auf Gold, ⟦Blei⟧ und Zinn hat sie nicht gebaut, dagegen vorzugsweise auf Eisen und vor"
-    }
-   ]
-  },
-  {
    "key": "Weide",
    "n": 5,
    "types": {
@@ -9696,45 +9818,6 @@
      "page": "418",
      "unit": "b1",
      "text": "Umgebung des Schlosses sind außer dem Hain als denkwürdige Punkte die ⟦Wolfsbrücke⟧ (eine alte Jagdbrücke), die Preußenwiese, nach den hier begrabenen Pr"
-    }
-   ]
-  },
-  {
-   "key": "Saalwald",
-   "n": 5,
-   "types": {
-    "Environment": 5
-   },
-   "forms": {
-    "Saalwald": 5
-   },
-   "pages": [
-    "207",
-    "570",
-    "661",
-    "791"
-   ],
-   "n_pages": 4,
-   "contexts": [
-    {
-     "page": "207",
-     "unit": "b3",
-     "text": "bin ich erlöst sonder Wank“ in den Wolken verschwand. Ein Irrlicht am ⟦Saalwald⟧ mit den Worten: „Was bist du für ein Licht?“ angerufen, gab eine Ohrf"
-    },
-    {
-     "page": "570",
-     "unit": "b3",
-     "text": "inen großen Reichthum an Waldungen, namentlich in seinem Kämmerawald, ⟦Saalwald⟧, Nonnenwald, oschitzer, schleizer, pörmizer, köthener, pöllwitzer und"
-    },
-    {
-     "page": "661",
-     "unit": "b2",
-     "text": "kt und deckend durch die hohen, schroffen Saalberge, den ausgedehnten ⟦Saalwald⟧ und das schluchtenförmige Saalthal. Ursprünglich war sie als eine fre"
-    },
-    {
-     "page": "791",
-     "unit": "b1",
-     "text": "sener Höhe, Gelänge, Auwiesen, Manzelloh, Moos, Kohlung, breiter Weg, ⟦Saalwald⟧. Vom Orte thalabwärts bis zum Vorwerke Niederngrün werden an beiden S"
     }
    ]
   },
@@ -10910,6 +10993,45 @@
    ]
   },
   {
+   "key": "Alaun",
+   "n": 4,
+   "types": {
+    "Resource": 4
+   },
+   "forms": {
+    "Alaun": 4
+   },
+   "pages": [
+    "28",
+    "175",
+    "243",
+    "245"
+   ],
+   "n_pages": 4,
+   "contexts": [
+    {
+     "page": "28",
+     "unit": "b5",
+     "text": "ieselerde und reich an Schwefelkies. Solche Partien wurden früher als ⟦Alaun⟧schiefer zur Bereitung von Alaun und Eisenvitriol abgebaut, finden abe"
+    },
+    {
+     "page": "175",
+     "unit": "b1",
+     "text": "schwarzburger Pflaster) und Salben verwendet, darunter hauptsächlich: ⟦Alaun⟧, Ameisenspiritus, Ampfer, Angelicaspiritus, Anisöl, Arnica, Aschenlau"
+    },
+    {
+     "page": "243",
+     "unit": "b1",
+     "text": "en, Kupfer und Antimon, sondern auch auf Gold, Silber, Blei, Zinn und ⟦Alaun⟧ einen solchen Aufschwung und damit einen solchen Reiz gewonnen, dass "
+    },
+    {
+     "page": "245",
+     "unit": "b2",
+     "text": "zugsweise auf Eisen und vorübergehend auf Silber, Kupfer, Antimon und ⟦Alaun⟧. Einige Silbergruben bei Löhma wurden 1790 auf kurze Zeit in Betrieb "
+    }
+   ]
+  },
+  {
    "key": "Landstraße",
    "n": 4,
    "types": {
@@ -11210,39 +11332,6 @@
    ]
   },
   {
-   "key": "Zschachenmühle",
-   "n": 4,
-   "types": {
-    "Artefact": 4
-   },
-   "forms": {
-    "Zschachenmühle": 4
-   },
-   "pages": [
-    "49",
-    "764",
-    "829"
-   ],
-   "n_pages": 3,
-   "contexts": [
-    {
-     "page": "49",
-     "unit": "b5",
-     "text": "enden Latzbach, links von Weitisberga den Gombach und Asbach, bei der ⟦Zschachenmühle⟧ rechts den Reißbach, der aus dem kleinen und großen Torpich (Torpach)"
-    },
-    {
-     "page": "764",
-     "unit": "b1",
-     "text": "tgasthaus, zwei Feuerspritzen und südlich vom Orte im Sormizgrund die ⟦Zschachenmühle⟧ (Zschackenmühle) mit Oel- und Schneidemühle an der Einmündung des Rei"
-    },
-    {
-     "page": "829",
-     "unit": "b7",
-     "text": "ftsdorf) 487. Zoche W. 557. Zoizmühle (Zschippach) 547. Zollgrün 693. ⟦Zschachenmühle⟧ (Gahma) 764. Zscherlich (Triebes) 654. Zschippach 547. Zschippern 560"
-    }
-   ]
-  },
-  {
    "key": "Höhen",
    "n": 4,
    "types": {
@@ -11500,45 +11589,6 @@
      "page": "238",
      "unit": "b1",
      "text": "afterholz und Stöcken theils für die Flöße, theils für den Meiler und ⟦Ofen⟧ verarbeitete. Außerdem war ihm ein sog. dürrer Hieb, d. h. ein Distri"
-    }
-   ]
-  },
-  {
-   "key": "Zinn",
-   "n": 4,
-   "types": {
-    "Resource": 4
-   },
-   "forms": {
-    "Zinn": 4
-   },
-   "pages": [
-    "129",
-    "245",
-    "651",
-    "664"
-   ],
-   "n_pages": 4,
-   "contexts": [
-    {
-     "page": "129",
-     "unit": "b1",
-     "text": "den Anstriche, vielfach die hölzernen Geräthschaften denen von Blech, ⟦Zinn⟧, Kupfer und Silber und zum guten Theile nicht allein der vormalige St"
-    },
-    {
-     "page": "245",
-     "unit": "b2",
-     "text": "ss sie die mehr bauwürdigen Erze in's Auge fasste. Auf Gold, Blei und ⟦Zinn⟧ hat sie nicht gebaut, dagegen vorzugsweise auf Eisen und vorübergehen"
-    },
-    {
-     "page": "651",
-     "unit": "fn2",
-     "text": "er dagegen giebt an, es fänden sich nur drei Kelche vor, der eine von ⟦Zinn⟧, der zweite von Messing und der dritte von übergoldetem Silber. Der l"
-    },
-    {
-     "page": "664",
-     "unit": "b2",
-     "text": "(Christi Kreuzigung) geschmückt. Auch besitzt sie einen Pestkelch von ⟦Zinn⟧, eine von den Nonnen im Kloster zum heil. Kreuz gestickte Altarbeklei"
     }
    ]
   },
@@ -12135,6 +12185,45 @@
      "page": "688",
      "unit": "b2",
      "text": "sicher gelten, daß sie ein deutscher Anbau inmitten des tannenreichen ⟦Waldes⟧ ist, daher ihr Name, ihr Wahrzeichen, ihr Stadt- und Pfarrsiegel mit "
+    }
+   ]
+  },
+  {
+   "key": "Antimon",
+   "n": 4,
+   "types": {
+    "Resource": 4
+   },
+   "forms": {
+    "Antimon": 4
+   },
+   "pages": [
+    "243",
+    "245",
+    "589",
+    "622"
+   ],
+   "n_pages": 4,
+   "contexts": [
+    {
+     "page": "243",
+     "unit": "b1",
+     "text": "ts hatte der oberländische Bergbau nicht allein auf Eisen, Kupfer und ⟦Antimon⟧, sondern auch auf Gold, Silber, Blei, Zinn und Alaun einen solchen Au"
+    },
+    {
+     "page": "245",
+     "unit": "b2",
+     "text": " dagegen vorzugsweise auf Eisen und vorübergehend auf Silber, Kupfer, ⟦Antimon⟧ und Alaun. Einige Silbergruben bei Löhma wurden 1790 auf kurze Zeit i"
+    },
+    {
+     "page": "589",
+     "unit": "b2",
+     "text": "ergbau, zeitweilig von 3—400 Bergleuten auf Eisen, Kupfer, Silber und ⟦Antimon⟧ betrieben, localbedeutend war. Nicht ohne Leben ist heute der mit ein"
+    },
+    {
+     "page": "622",
+     "unit": "b3",
+     "text": "eld und Wald. Der Ort selbst soll da gestanden haben, wo man 1865 auf ⟦Antimon⟧ nachgegraben hat, unzweifelhaft an dem sog. schwarzen Brunnen, bei de"
     }
    ]
   },
@@ -13614,39 +13703,6 @@
      "page": "727",
      "unit": "b4",
      "text": "en, war ein Alaun- und Vitriolwerk, ist aber als solches eingegangen. ⟦Alaunschiefer⟧ und Auslaugungsröhren sind noch vorhanden. Jetzt hier nur noch 1 Haus"
-    }
-   ]
-  },
-  {
-   "key": "Alaun",
-   "n": 3,
-   "types": {
-    "Resource": 3
-   },
-   "forms": {
-    "Alaun": 3
-   },
-   "pages": [
-    "28",
-    "175",
-    "245"
-   ],
-   "n_pages": 3,
-   "contexts": [
-    {
-     "page": "28",
-     "unit": "b5",
-     "text": "ieselerde und reich an Schwefelkies. Solche Partien wurden früher als ⟦Alaun⟧schiefer zur Bereitung von Alaun und Eisenvitriol abgebaut, finden abe"
-    },
-    {
-     "page": "175",
-     "unit": "b1",
-     "text": "schwarzburger Pflaster) und Salben verwendet, darunter hauptsächlich: ⟦Alaun⟧, Ameisenspiritus, Ampfer, Angelicaspiritus, Anisöl, Arnica, Aschenlau"
-    },
-    {
-     "page": "245",
-     "unit": "b2",
-     "text": "zugsweise auf Eisen und vorübergehend auf Silber, Kupfer, Antimon und ⟦Alaun⟧. Einige Silbergruben bei Löhma wurden 1790 auf kurze Zeit in Betrieb "
     }
    ]
   },
@@ -15193,35 +15249,35 @@
    ]
   },
   {
-   "key": "Antimon",
+   "key": "Eisenstein",
    "n": 3,
    "types": {
     "Resource": 3
    },
    "forms": {
-    "Antimon": 3
+    "Eisenstein": 3
    },
    "pages": [
-    "245",
-    "589",
-    "622"
+    "243",
+    "244",
+    "596"
    ],
    "n_pages": 3,
    "contexts": [
     {
-     "page": "245",
-     "unit": "b2",
-     "text": " dagegen vorzugsweise auf Eisen und vorübergehend auf Silber, Kupfer, ⟦Antimon⟧ und Alaun. Einige Silbergruben bei Löhma wurden 1790 auf kurze Zeit i"
+     "page": "243",
+     "unit": "b1",
+     "text": "he stünden, daher sie schon 1605 darauf drangen, dass man den Bau auf ⟦Eisenstein⟧ nicht den übrigen Metallen nachstelle."
     },
     {
-     "page": "589",
-     "unit": "b2",
-     "text": "ergbau, zeitweilig von 3—400 Bergleuten auf Eisen, Kupfer, Silber und ⟦Antimon⟧ betrieben, localbedeutend war. Nicht ohne Leben ist heute der mit ein"
+     "page": "244",
+     "unit": "b4",
+     "text": "im schleizer und lobensteiner Gebiete sind in schwachem Betriebe; ihr ⟦Eisenstein⟧ geht an die Königin-Marienhütte zu Zwickau zur Stahlbereitung. Betrug"
     },
     {
-     "page": "622",
-     "unit": "b3",
-     "text": "eld und Wald. Der Ort selbst soll da gestanden haben, wo man 1865 auf ⟦Antimon⟧ nachgegraben hat, unzweifelhaft an dem sog. schwarzen Brunnen, bei de"
+     "page": "596",
+     "unit": "b1",
+     "text": "In ihr 60 Teiche, 1 Steinbruch und 1 Grube, Louise genannt, mit gutem ⟦Eisenstein⟧, der zur Marienhütte bei Zwickau gehört. Ihr Stollen geht im Dorfe au"
     }
    ]
   },
@@ -18583,6 +18639,33 @@
    ]
   },
   {
+   "key": "Eisenerze",
+   "n": 2,
+   "types": {
+    "Resource": 2
+   },
+   "forms": {
+    "Eisenerze": 2
+   },
+   "pages": [
+    "32",
+    "243"
+   ],
+   "n_pages": 2,
+   "contexts": [
+    {
+     "page": "32",
+     "unit": "b2",
+     "text": "tenformation haben an den Wänden, wo sie das Nachbargestein berühren, ⟦Eisenerze⟧ ausgeschieden, und zwar hauptsächlich Rotheisenerz, nicht immer aber "
+    },
+    {
+     "page": "243",
+     "unit": "b1",
+     "text": "genten die Jagd auf edle Metalle weniger ersprießlich als der Bau auf ⟦Eisenerze⟧, weil diese im Oberlande nicht allein an Güte, sondern auch an Reicht"
+    }
+   ]
+  },
+  {
    "key": "Rotheisenerz",
    "n": 2,
    "types": {
@@ -21372,33 +21455,6 @@
      "page": "780",
      "unit": "b2",
      "text": "asthof mit vier Nebengebäuden, 1/2 Stunde SW. von Neundorf, im oberen ⟦Langwassergrund⟧ und an der bamberger Straße 1646 Fuß hoch gelegen. Hier 2 Familien un"
-    }
-   ]
-  },
-  {
-   "key": "Eisenstein",
-   "n": 2,
-   "types": {
-    "Resource": 2
-   },
-   "forms": {
-    "Eisenstein": 2
-   },
-   "pages": [
-    "244",
-    "596"
-   ],
-   "n_pages": 2,
-   "contexts": [
-    {
-     "page": "244",
-     "unit": "b4",
-     "text": "im schleizer und lobensteiner Gebiete sind in schwachem Betriebe; ihr ⟦Eisenstein⟧ geht an die Königin-Marienhütte zu Zwickau zur Stahlbereitung. Betrug"
-    },
-    {
-     "page": "596",
-     "unit": "b1",
-     "text": "In ihr 60 Teiche, 1 Steinbruch und 1 Grube, Louise genannt, mit gutem ⟦Eisenstein⟧, der zur Marienhütte bei Zwickau gehört. Ihr Stollen geht im Dorfe au"
     }
    ]
   },
@@ -25670,6 +25726,33 @@
    ]
   },
   {
+   "key": "Hagelschlägen",
+   "n": 2,
+   "types": {
+    "Climate": 2
+   },
+   "forms": {
+    "Hagelschlägen": 2
+   },
+   "pages": [
+    "624",
+    "739"
+   ],
+   "n_pages": 2,
+   "contexts": [
+    {
+     "page": "624",
+     "unit": "b2",
+     "text": "und ist zu 2/3 gering ergiebig, zudem öfters (1841, 1847) von starken ⟦Hagelschlägen⟧ heimgesucht. In ihr 38 Teiche, darunter 2"
+    },
+    {
+     "page": "739",
+     "unit": "b2",
+     "text": "Wenn auch nicht von ⟦Hagelschlägen⟧ (besonders 1775, 1781 und 1787), so ist doch der Ort von bedeutenden "
+    }
+   ]
+  },
+  {
    "key": "Schmidtenmühle",
    "n": 2,
    "types": {
@@ -28724,13 +28807,13 @@
    ]
   },
   {
-   "key": "Törbizmühle",
+   "key": "Sörbitzmühle a. d. Weida 920",
    "n": 1,
    "types": {
     "Artefact": 1
    },
    "forms": {
-    "Törbizmühle": 1
+    "Sörbitzmühle a. d. Weida 920'": 1
    },
    "pages": [
     "20"
@@ -28740,7 +28823,7 @@
     {
      "page": "20",
      "unit": "b3.r12c1",
-     "text": "⟦Törbizmühle⟧ a. d. Weida 920'."
+     "text": "⟦Sörbitzmühle a. d. Weida 920'⟧."
     }
    ]
   },
@@ -30127,27 +30210,6 @@
      "page": "32",
      "unit": "b1",
      "text": "he Quarzsand vollständig fehlt, unter dem Namen Sand zum Bereiten des ⟦Mörtel⟧s beim Bauen verwendet wird, wie z. B. bei Schleiz (Sandberge), Wüsten"
-    }
-   ]
-  },
-  {
-   "key": "Eisenerze",
-   "n": 1,
-   "types": {
-    "Resource": 1
-   },
-   "forms": {
-    "Eisenerze": 1
-   },
-   "pages": [
-    "32"
-   ],
-   "n_pages": 1,
-   "contexts": [
-    {
-     "page": "32",
-     "unit": "b2",
-     "text": "tenformation haben an den Wänden, wo sie das Nachbargestein berühren, ⟦Eisenerze⟧ ausgeschieden, und zwar hauptsächlich Rotheisenerz, nicht immer aber "
     }
    ]
   },
@@ -37455,7 +37517,7 @@
     {
      "page": "153",
      "unit": "b1",
-     "text": "ckwärts. Hisch = wohl, behaglich. Höhler = Felsenkeller. Höhlerbier = ⟦Lagerbier⟧. Huſten = nicht zu Willen sein. Huzen gehn = Besuche machen ohne Arbe"
+     "text": "ckwärts. Hisch = wohl, behaglich. Höhler = Felsenkeller. Höhlerbier = ⟦Lagerbier⟧. Husten = nicht zu Willen sein. Huzen gehn = Besuche machen ohne Arbe"
     }
    ]
   },
@@ -42164,6 +42226,111 @@
    ]
   },
   {
+   "key": "Stahlhütten",
+   "n": 1,
+   "types": {
+    "Artefact": 1
+   },
+   "forms": {
+    "Stahlhütten": 1
+   },
+   "pages": [
+    "243"
+   ],
+   "n_pages": 1,
+   "contexts": [
+    {
+     "page": "243",
+     "unit": "b1",
+     "text": "ahlen hatten. 1563 sucht Burggraf Heinrich VII. den regen Betrieb der ⟦Stahlhütten⟧ an der Saale mit 20,000 Thlr. noch mehr zu fördern, um seine Revenuen"
+    }
+   ]
+  },
+  {
+   "key": "Hüttenwerke",
+   "n": 1,
+   "types": {
+    "Artefact": 1
+   },
+   "forms": {
+    "Hüttenwerke": 1
+   },
+   "pages": [
+    "243"
+   ],
+   "n_pages": 1,
+   "contexts": [
+    {
+     "page": "243",
+     "unit": "b2",
+     "text": "g von Gruben in den verschiedenen Bergamtsdistricten und die Zahl der ⟦Hüttenwerke⟧."
+    }
+   ]
+  },
+  {
+   "key": "Glücksthalhammer",
+   "n": 1,
+   "types": {
+    "Artefact": 1
+   },
+   "forms": {
+    "Glücksthalhammer": 1
+   },
+   "pages": [
+    "243"
+   ],
+   "n_pages": 1,
+   "contexts": [
+    {
+     "page": "243",
+     "unit": "b4.r3c4",
+     "text": "1 Silber- u. Kupfergr.; (zu Thramitz***) zwischen Raila u. ⟦Glücksthalhammer⟧.)"
+    }
+   ]
+  },
+  {
+   "key": "Bleistollen",
+   "n": 1,
+   "types": {
+    "Artefact": 1
+   },
+   "forms": {
+    "Bleistollen": 1
+   },
+   "pages": [
+    "243"
+   ],
+   "n_pages": 1,
+   "contexts": [
+    {
+     "page": "243",
+     "unit": "b4.r4c4",
+     "text": "2 Blei- und Silbergr.; (Kluft b. Harra und ⟦Bleistollen⟧ am Muckenberg.)"
+    }
+   ]
+  },
+  {
+   "key": "Pempelsmühle",
+   "n": 1,
+   "types": {
+    "Artefact": 1
+   },
+   "forms": {
+    "Pempelsmühle": 1
+   },
+   "pages": [
+    "243"
+   ],
+   "n_pages": 1,
+   "contexts": [
+    {
+     "page": "243",
+     "unit": "b4.r4c5",
+     "text": "3 Alaunerzgruben; (bei Haueisen, Zoppothen an der Saale und bei d. ⟦Pempelsmühle⟧), schon 1550 erwähnt."
+    }
+   ]
+  },
+  {
    "key": "Erzen",
    "n": 1,
    "types": {
@@ -44595,7 +44762,7 @@
     {
      "page": "277",
      "unit": "b1.r1c3",
-     "text": "Zollgefälle, Braumalzbesteuer-, Übergangsabgaben und ⟦Rübenzucker⟧steuer."
+     "text": "Zollgefälle, Braumalzsteuer-, Übergangsabgaben und ⟦Rübenzucker⟧steuer."
     }
    ]
   },
@@ -53798,6 +53965,48 @@
    ]
   },
   {
+   "key": "Braunkohlenwerk",
+   "n": 1,
+   "types": {
+    "Artefact": 1
+   },
+   "forms": {
+    "Braunkohlenwerk": 1
+   },
+   "pages": [
+    "527"
+   ],
+   "n_pages": 1,
+   "contexts": [
+    {
+     "page": "527",
+     "unit": "b1",
+     "text": "ittelgute Acker steht zu 6 Thlr. Pacht. In der Flur 10 Teiche und ein ⟦Braunkohlenwerk⟧, das seit 1821 in Betrieb war und viele Hände beschäftigte, aber seit"
+    }
+   ]
+  },
+  {
+   "key": "Grubenwasser",
+   "n": 1,
+   "types": {
+    "Resource": 1
+   },
+   "forms": {
+    "Grubenwasser": 1
+   },
+   "pages": [
+    "527"
+   ],
+   "n_pages": 1,
+   "contexts": [
+    {
+     "page": "527",
+     "unit": "b1",
+     "text": " viele Hände beschäftigte, aber seit 1864 wegen der nicht bewältigten ⟦Grubenwasser⟧ still liegt. Hauptflurstücke sind: Teichfeld, Schenkenfeld, Rohwiese,"
+    }
+   ]
+  },
+  {
    "key": "Obstplantage",
    "n": 1,
    "types": {
@@ -58792,27 +59001,6 @@
      "page": "624",
      "unit": "b1",
      "text": " Bis 1820 war auch Lössau hierher geschult. Das dasige schloßähnliche ⟦Waisenhausgebäude⟧, gegenwärtig vorzüglich zur Pachterwohnung und zur Oeconomie verwende"
-    }
-   ]
-  },
-  {
-   "key": "Hagelschlägen",
-   "n": 1,
-   "types": {
-    "Climate": 1
-   },
-   "forms": {
-    "Hagelschlägen": 1
-   },
-   "pages": [
-    "624"
-   ],
-   "n_pages": 1,
-   "contexts": [
-    {
-     "page": "624",
-     "unit": "b2",
-     "text": "und ist zu 2/3 gering ergiebig, zudem öfters (1841, 1847) von starken ⟦Hagelschlägen⟧ heimgesucht. In ihr 38 Teiche, darunter 2"
     }
    ]
   },
@@ -65281,6 +65469,27 @@
      "page": "738",
      "unit": "b2",
      "text": " man wenig, auch die hier gefundenen Bracteaten und die unsern in der ⟦Schönbrunner Flur⟧ gelegene Wüstung Altenebersdorf geben außer dem hohen Alter des Ortes"
+    }
+   ]
+  },
+  {
+   "key": "Armen- und Waisenhaus",
+   "n": 1,
+   "types": {
+    "Artefact": 1
+   },
+   "forms": {
+    "Armen- und Waisenhaus": 1
+   },
+   "pages": [
+    "739"
+   ],
+   "n_pages": 1,
+   "contexts": [
+    {
+     "page": "739",
+     "unit": "b1",
+     "text": "it dem rühmlichsten Eifer pflegte, wurde von der Landesherrschaft ein ⟦Armen- und Waisenhaus⟧ gegründet und 1739 durch den Bau eines größeren erweitert, das 1748 a"
     }
    ]
   },

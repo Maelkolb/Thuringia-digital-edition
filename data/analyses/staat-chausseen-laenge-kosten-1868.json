@@ -36,11 +36,11 @@
  "findings": [
   {
    "de": "Die drei Landesteile besitzen 10,3 (Gera), 13,3 (Schleiz) und 9,7 (Ebersdorf) geographische Meilen Chaussee, zusammen 33,4 Meilen oder rund 248 km; der Landesteil Schleiz hat 40 % davon.",
-   "en": "The three regions have 10.3 (Gera), 13.3 (Schleiz) and 9.7 (Ebersdorf) geographical miles of highway, together 33.4 miles or about 248 km; the Schleiz region holds 40 % of it."
+   "en": "The three regions have 10.3 (Gera), 13.3 (Schleiz) and 9.7 (Ebersdorf) geographical miles of highway, together 33.4 miles or about 248 km; the Schleiz region holds 40% of it."
   },
   {
    "de": "Der Reinertrag der Chausseegelder deckt nur 56,6 % des Unterhaltungsaufwands; es bleiben 11.635 Taler jährlich zulasten der Staatskasse.",
-   "en": "The net toll revenue covers only 56.6 % of the maintenance cost; 11,635 thalers a year remain a charge on the state treasury."
+   "en": "The net toll revenue covers only 56.6% of the maintenance cost; 11,635 thalers a year remain a charge on the state treasury."
   },
   {
    "de": "Der Unterhaltungsaufwand beträgt rechnerisch rund 108 Taler je Kilometer und Jahr.",
@@ -387,7 +387,7 @@
      "x": {
       "field": "thaler",
       "type": "quantitative",
-      "title": "Thaler",
+      "title": "Taler",
       "axis": {
        "format": ",d"
       }
@@ -417,7 +417,7 @@
       },
       {
        "field": "thaler",
-       "title": "Thaler",
+       "title": "Taler",
        "format": ","
       }
      ]

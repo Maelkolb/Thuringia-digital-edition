@@ -1,6 +1,6 @@
 {
  "group": "persons",
- "n_keys": 2598,
+ "n_keys": 2633,
  "entries": [
   {
    "key": "Heinrich",
@@ -106,12 +106,12 @@
   },
   {
    "key": "Heinrich d. j",
-   "n": 49,
+   "n": 48,
    "types": {
-    "Person": 49
+    "Person": 48
    },
    "forms": {
-    "Heinrich d. j.": 49
+    "Heinrich d. j.": 48
    },
    "pages": [
     "249",
@@ -208,14 +208,15 @@
   },
   {
    "key": "Heinrich Posthumus",
-   "n": 38,
+   "n": 39,
    "types": {
-    "Person": 38
+    "Person": 39
    },
    "forms": {
-    "Heinrich Posthumus": 38
+    "Heinrich Posthumus": 39
    },
    "pages": [
+    "243",
     "249",
     "278",
     "289",
@@ -230,11 +231,15 @@
     "435",
     "444",
     "445",
-    "446",
     "…"
    ],
-   "n_pages": 30,
+   "n_pages": 31,
    "contexts": [
+    {
+     "page": "243",
+     "unit": "fn2",
+     "text": "1617 berichten saalburger Bergbeamte an den Landesherrn ⟦Heinrich Posthumus⟧: In der Wettera hat man Gold- und Zinnseifen gehabt. Ob sie von den G"
+    },
     {
      "page": "249",
      "unit": "b1",
@@ -249,22 +254,17 @@
      "page": "289",
      "unit": "b5",
      "text": " theilweise nach Schleiz gelegt war, bis 1604, wo der edle Landesherr ⟦Heinrich Posthumus⟧ ein für seine gesammte Herrschaft gemeinsames Consistorium zu Gera gr"
-    },
-    {
-     "page": "296",
-     "unit": "b1",
-     "text": "ischen Auslandes, weshalb sie auf Veranlassung des geraer Landesherrn ⟦Heinrich Posthumus⟧ 1599 von Neuem gedruckt, in seinem und im Namen seiner Vettern Reuß p"
     }
    ]
   },
   {
    "key": "Heinrich d. m",
-   "n": 35,
+   "n": 34,
    "types": {
-    "Person": 35
+    "Person": 34
    },
    "forms": {
-    "Heinrich d. m.": 35
+    "Heinrich d. m.": 34
    },
    "pages": [
     "249",
@@ -277,14 +277,14 @@
     "347",
     "349",
     "350",
-    "352",
     "370",
     "373",
     "414",
     "415",
+    "576",
     "…"
    ],
-   "n_pages": 22,
+   "n_pages": 21,
    "contexts": [
     {
      "page": "249",
@@ -564,6 +564,57 @@
    ]
   },
   {
+   "key": "Heinrich LXXII",
+   "n": 24,
+   "types": {
+    "Person": 24
+   },
+   "forms": {
+    "Heinrich LXXII.": 24
+   },
+   "pages": [
+    "221",
+    "379",
+    "382",
+    "396",
+    "397",
+    "398",
+    "417",
+    "578",
+    "712",
+    "720",
+    "725",
+    "726",
+    "733",
+    "734",
+    "739",
+    "…"
+   ],
+   "n_pages": 18,
+   "contexts": [
+    {
+     "page": "221",
+     "unit": "b1.r18c5",
+     "text": "Vom Fürst ⟦Heinrich LXXII.⟧ angekauft, seit 1843 mit Hirschberg vereinigt."
+    },
+    {
+     "page": "379",
+     "unit": "b1",
+     "text": "mit der „verrotteten\" Landesvertretung, wie sie Fürst ⟦Heinrich LXXII.⟧ von Lobenstein-Ebersdorf nannte, mit dem großen und herrischen Beamte"
+    },
+    {
+     "page": "382",
+     "unit": "b1",
+     "text": "eschloß 1822 sein Leben. Zum Nachfolger hatte er seinen einzigen Sohn ⟦Heinrich LXXII.⟧ Dieser beerbte 1824 den Zweig Lobenstein, wodurch er in den vollen Be"
+    },
+    {
+     "page": "396",
+     "unit": "b7.r1c4",
+     "text": "g-Wernigerode; 2) Franziska Reuß-Köstritz, † 1843. Sein Land fällt an ⟦Heinrich LXXII.⟧ zu Ebersdorf."
+    }
+   ]
+  },
+  {
    "key": "Heinrich X",
    "n": 24,
    "types": {
@@ -717,53 +768,53 @@
    ]
   },
   {
-   "key": "Heinrich LXXII",
+   "key": "Heinrich VII",
    "n": 22,
    "types": {
     "Person": 22
    },
    "forms": {
-    "Heinrich LXXII.": 22
+    "Heinrich VII.": 22
    },
    "pages": [
-    "221",
-    "379",
-    "382",
-    "396",
-    "397",
-    "398",
-    "417",
-    "578",
-    "712",
-    "720",
-    "725",
-    "726",
-    "733",
-    "734",
-    "789",
+    "243",
+    "362",
+    "363",
+    "364",
+    "374",
+    "375",
+    "399",
+    "401",
+    "402",
+    "415",
+    "576",
+    "577",
+    "581",
+    "688",
+    "710",
     "…"
    ],
-   "n_pages": 17,
+   "n_pages": 19,
    "contexts": [
     {
-     "page": "221",
-     "unit": "b1.r18c5",
-     "text": "Vom Fürst ⟦Heinrich LXXII.⟧ angekauft, seit 1843 mit Hirschberg vereinigt."
-    },
-    {
-     "page": "379",
+     "page": "243",
      "unit": "b1",
-     "text": "mit der „verrotteten\" Landesvertretung, wie sie Fürst ⟦Heinrich LXXII.⟧ von Lobenstein-Ebersdorf nannte, mit dem großen und herrischen Beamte"
+     "text": " Uebrige in bestimmten Terminen zu zahlen hatten. 1563 sucht Burggraf ⟦Heinrich VII.⟧ den regen Betrieb der Stahlhütten an der Saale mit 20,000 Thlr. noch "
     },
     {
-     "page": "382",
+     "page": "362",
      "unit": "b1",
-     "text": "eschloß 1822 sein Leben. Zum Nachfolger hatte er seinen einzigen Sohn ⟦Heinrich LXXII.⟧ Dieser beerbte 1824 den Zweig Lobenstein, wodurch er in den vollen Be"
+     "text": "Schulden. Heinrich VI. erhielt die (sächsisch) voigtländischen Güter, ⟦Heinrich VII.⟧ Schleiz, Lobenstein, Saalburg, Burgk und Pausa. Da jener weder das Pf"
     },
     {
-     "page": "396",
-     "unit": "b7.r1c4",
-     "text": "g-Wernigerode; 2) Franziska Reuß-Köſtritz, † 1843. Sein Land fällt an ⟦Heinrich LXXII.⟧ zu Ebersdorf."
+     "page": "363",
+     "unit": "b1",
+     "text": "ar, aber auch der Erbe seiner Schuldenmasse war sein Bruder, Burggraf ⟦Heinrich VII.⟧, der zu Schleiz Hof hielt. Haushälterischer, edler und fester als jen"
+    },
+    {
+     "page": "364",
+     "unit": "b3.r10c2",
+     "text": "⟦Heinrich VII.⟧, geb. 1536, † 1572. Gem.: 1) Katharina v. Lüneburg=Gifhorn; 2) Anna v"
     }
    ]
   },
@@ -815,57 +866,6 @@
      "page": "380",
      "unit": "b2",
      "text": "lten seine damals übrigen drei Söhne die väterlichen Güter, von denen ⟦Heinrich III.⟧ Lobenstein, Heinrich VIII. Hirschberg und Heinrich X. die übrigen Bes"
-    }
-   ]
-  },
-  {
-   "key": "Heinrich VII",
-   "n": 21,
-   "types": {
-    "Person": 21
-   },
-   "forms": {
-    "Heinrich VII.": 21
-   },
-   "pages": [
-    "362",
-    "363",
-    "364",
-    "374",
-    "375",
-    "399",
-    "401",
-    "402",
-    "415",
-    "576",
-    "577",
-    "581",
-    "688",
-    "710",
-    "716",
-    "…"
-   ],
-   "n_pages": 18,
-   "contexts": [
-    {
-     "page": "362",
-     "unit": "b1",
-     "text": "Schulden. Heinrich VI. erhielt die (sächsisch) voigtländischen Güter, ⟦Heinrich VII.⟧ Schleiz, Lobenstein, Saalburg, Burgk und Pausa. Da jener weder das Pf"
-    },
-    {
-     "page": "363",
-     "unit": "b1",
-     "text": "ar, aber auch der Erbe seiner Schuldenmasse war sein Bruder, Burggraf ⟦Heinrich VII.⟧, der zu Schleiz Hof hielt. Haushälterischer, edler und fester als jen"
-    },
-    {
-     "page": "364",
-     "unit": "b3.r10c2",
-     "text": "⟦Heinrich VII.⟧, geb. 1536, † 1572. Gem.: 1) Katharina v. Lüneburg=Gifhorn; 2) Anna v"
-    },
-    {
-     "page": "374",
-     "unit": "b2",
-     "text": "chulden, die ihnen durch den im Beginne d. J. verstorbenen Burggrafen ⟦Heinrich VII.⟧ zugefallen waren. Dabei blieb Schleiz vorerst bis 1596 ungetheilt. Au"
     }
    ]
   },
@@ -1580,6 +1580,47 @@
    ]
   },
   {
+   "key": "Napoleon",
+   "n": 13,
+   "types": {
+    "Person": 13
+   },
+   "forms": {
+    "Napoleon": 13
+   },
+   "pages": [
+    "384",
+    "444",
+    "449",
+    "489",
+    "592",
+    "739"
+   ],
+   "n_pages": 6,
+   "contexts": [
+    {
+     "page": "384",
+     "unit": "b1",
+     "text": "it den übrigen Reußen dem Rheinbunde bei, stellte mit ihnen zum Heere ⟦Napoleon⟧s ein starkes Contingent, das an den Kämpfen in Spanien und Rußland Th"
+    },
+    {
+     "page": "444",
+     "unit": "b1",
+     "text": "ische Armee durch Gera zog, von der am 11. und 12. October hier außer ⟦Napoleon⟧ 150 Marschälle und Generäle und über 150,000 Mann sammt Pferden einqu"
+    },
+    {
+     "page": "449",
+     "unit": "b1",
+     "text": "f holländischen und nürnberger Karten*) eingetragen ist, weshalb auch ⟦Napoleon⟧ auf Grundlage dieser Karten 1806 beim Vorüberfahren nach der Stätte v"
+    },
+    {
+     "page": "489",
+     "unit": "b1",
+     "text": "egangen sein, da man noch vor 60 Jahren Mauern daselbst getroffen und ⟦Napoleon⟧ ihn 1806 auf seinen Karten verzeichnet hatte. Er kam zum Theil an Sac"
+    }
+   ]
+  },
+  {
    "key": "Elisabeth",
    "n": 12,
    "types": {
@@ -1962,7 +2003,7 @@
     {
      "page": "396",
      "unit": "b2.r2c5",
-     "text": "⟦Heinrich VIII.⟧, geb. 1652, † 1711. Herr von Hirſchberg. Gem.: 1) Elſie Sophie v. Bob"
+     "text": "⟦Heinrich VIII.⟧, geb. 1652, † 1711. Herr von Hirschberg. Gem.: 1) Elsie Sophie v. Bob"
     },
     {
      "page": "401",
@@ -2188,7 +2229,7 @@
     {
      "page": "396",
      "unit": "b2.r4c3",
-     "text": "⟦Heinrich XV.⟧, g. 1674, † 1739. Gem. Erneſtine Eleon. v. Schön-burg-Walden-burg, † "
+     "text": "⟦Heinrich XV.⟧, g. 1674, † 1739. Gem. Ernestine Eleon. v. Schön-burg-Walden-burg, † "
     }
    ]
   },
@@ -2389,7 +2430,7 @@
     {
      "page": "396",
      "unit": "b4.r1c2",
-     "text": "⟦Heinrich XXXV.⟧, geb. 1738, † 1805. 1790 Reichsfürſt. Sein Land fällt an Heinrich LIV"
+     "text": "⟦Heinrich XXXV.⟧, geb. 1738, † 1805. 1790 Reichsfürst. Sein Land fällt an Heinrich LIV"
     },
     {
      "page": "712",
@@ -2951,7 +2992,7 @@
     {
      "page": "396",
      "unit": "b6.r1c5",
-     "text": "⟦Heinrich XXV.⟧, geb. 1724, † 1801. Gem. Marie Eliſe v. Reuß-Ebers-dorf."
+     "text": "⟦Heinrich XXV.⟧, geb. 1724, † 1801. Gem. Marie Elise v. Reuß-Ebers-dorf."
     },
     {
      "page": "415",
@@ -2962,46 +3003,6 @@
      "page": "421",
      "unit": "b2",
      "text": "mittagspredigten an Sonn- und Festtagen und endlich 1736 wurden unter ⟦Heinrich XXV.⟧ die vorher nach Gera in die Hauptkirche gepfarrten Gemeinden Untermha"
-    }
-   ]
-  },
-  {
-   "key": "Napoleon",
-   "n": 7,
-   "types": {
-    "Person": 7
-   },
-   "forms": {
-    "Napoleon": 7
-   },
-   "pages": [
-    "384",
-    "444",
-    "449",
-    "489",
-    "592"
-   ],
-   "n_pages": 5,
-   "contexts": [
-    {
-     "page": "384",
-     "unit": "b1",
-     "text": "it den übrigen Reußen dem Rheinbunde bei, stellte mit ihnen zum Heere ⟦Napoleon⟧s ein starkes Contingent, das an den Kämpfen in Spanien und Rußland Th"
-    },
-    {
-     "page": "444",
-     "unit": "b1",
-     "text": "ische Armee durch Gera zog, von der am 11. und 12. October hier außer ⟦Napoleon⟧ 150 Marschälle und Generäle und über 150,000 Mann sammt Pferden einqu"
-    },
-    {
-     "page": "449",
-     "unit": "b1",
-     "text": "f holländischen und nürnberger Karten*) eingetragen ist, weshalb auch ⟦Napoleon⟧ auf Grundlage dieser Karten 1806 beim Vorüberfahren nach der Stätte v"
-    },
-    {
-     "page": "489",
-     "unit": "b1",
-     "text": "egangen sein, da man noch vor 60 Jahren Mauern daselbst getroffen und ⟦Napoleon⟧ ihn 1806 auf seinen Karten verzeichnet hatte. Er kam zum Theil an Sac"
     }
    ]
   },
@@ -3044,6 +3045,46 @@
      "page": "765",
      "unit": "b2",
      "text": "tamm hier 1801 erlosch. Als frühere Besitzer des unteren Gutes kommen ⟦v. Watzdorf⟧ und v. Günderodt vor. 1802 wurden beide Güter, doch ohne die Ober- un"
+    }
+   ]
+  },
+  {
+   "key": "Jahn",
+   "n": 6,
+   "types": {
+    "Person": 6
+   },
+   "forms": {
+    "Jahn": 6
+   },
+   "pages": [
+    "VI",
+    "299",
+    "538",
+    "667",
+    "837"
+   ],
+   "n_pages": 5,
+   "contexts": [
+    {
+     "page": "VI",
+     "unit": "b1",
+     "text": " Mauke, Braun, Pätz, Rönsch, Garthe, Hüttig und Hölzer, Justizamtmann ⟦Jahn⟧, die Bürgermeister zu Gera, Schleiz und Hirschberg, Schuldirector Lor"
+    },
+    {
+     "page": "299",
+     "unit": "b5",
+     "text": "n Wirkungskreis der Volksschule gehören der Kindergarten von Fräulein ⟦Jahn⟧ und die ezler'sche Elementarschule zu Gera. Eine weitere, von der Vol"
+    },
+    {
+     "page": "538",
+     "unit": "b1",
+     "text": "n 1777 auf einem Pfarrgrundstücke erbautes Haus. Der jetzige Pfarrer (⟦Jahn⟧) ist der 17. lutherische. Bereits 1533 wird hier ein Kirchner erwähnt"
+    },
+    {
+     "page": "667",
+     "unit": "b1",
+     "text": ". vom Diaconus Hegner) vorhanden. Hieran reiht sich ein 1865 vom Rath ⟦Jahn⟧ für arme Schulkinder und verschämte Arme gestiftetes Vermächtniss von"
     }
    ]
   },
@@ -3493,7 +3534,7 @@
     {
      "page": "396",
      "unit": "b4.r1c2",
-     "text": "inrich XXXV., geb. 1738, † 1805. 1790 Reichsfürſt. Sein Land fällt an ⟦Heinrich LIV.⟧ v. Lobenſtein-Selbitz."
+     "text": "inrich XXXV., geb. 1738, † 1805. 1790 Reichsfürst. Sein Land fällt an ⟦Heinrich LIV.⟧ v. Lobenstein-Selbitz."
     },
     {
      "page": "712",
@@ -3607,7 +3648,7 @@
     {
      "page": "396",
      "unit": "b2.r3c5",
-     "text": "⟦Heinrich XXIII.⟧, g. 1680, † 1723. Oberſt in Heſſen-Caſſel. Gem. Beate Henriette v. So"
+     "text": "⟦Heinrich XXIII.⟧, g. 1680, † 1723. Oberst in Hessen-Cassel. Gem. Beate Henriette v. So"
     },
     {
      "page": "398",
@@ -3810,6 +3851,231 @@
    ]
   },
   {
+   "key": "Engelhardt",
+   "n": 5,
+   "types": {
+    "Person": 5
+   },
+   "forms": {
+    "Engelhardt": 5
+   },
+   "pages": [
+    "VI",
+    "8",
+    "106",
+    "433",
+    "820"
+   ],
+   "n_pages": 5,
+   "contexts": [
+    {
+     "page": "VI",
+     "unit": "b1",
+     "text": "⟦Engelhardt⟧, Kreisgerichtsrath Müller und Hofbibliothekar Hahn durch ihre vielfac"
+    },
+    {
+     "page": "8",
+     "unit": "b1",
+     "text": "ßische Berechnungen des Landesareals, eine ältere (vom Geh. Reg.-Rath ⟦Engelhardt⟧, 1853) und eine neueste (vom Inspektor Nowack) vor*), von denen die l"
+    },
+    {
+     "page": "106",
+     "unit": "b3",
+     "text": "3 den Canzleirath Rob. Müller und für das Jahr 1864 den Rechnungsrath ⟦Engelhardt⟧ zu Verfassern haben. Außerdem behandelte der Lehrer Meyrose für Schle"
+    },
+    {
+     "page": "433",
+     "unit": "b2",
+     "text": "wodurch der Name Bettelburg entstand, von 1833 an unter dem Advocaten ⟦Engelhardt⟧ zum Locale eines astronomischen Vereins und endlich nach 1844 Zwecken"
+    }
+   ]
+  },
+  {
+   "key": "Müller",
+   "n": 5,
+   "types": {
+    "Person": 5
+   },
+   "forms": {
+    "Müller": 5
+   },
+   "pages": [
+    "VI",
+    "584",
+    "717",
+    "774",
+    "838"
+   ],
+   "n_pages": 5,
+   "contexts": [
+    {
+     "page": "VI",
+     "unit": "b1",
+     "text": "Engelhardt, Kreisgerichtsrath ⟦Müller⟧ und Hofbibliothekar Hahn durch ihre vielfachen Belehrungen bez. Corre"
+    },
+    {
+     "page": "584",
+     "unit": "fn1",
+     "text": "Folgende drei sinnvolle Distichen, wahrscheinlich, wie Justizrath ⟦Müller⟧, Rath Küchler und Archid. Dr. Passolt angeben, noch aus dem Mittelalt"
+    },
+    {
+     "page": "717",
+     "unit": "b1",
+     "text": "t der 17. Seb. Kröschner war der erste Archidiacon, der gegenwärtige (⟦Müller⟧) ist der 23. und der jetzige Diaconus (H. Rönsch) der 25. Von 1725—17"
+    },
+    {
+     "page": "774",
+     "unit": "b4",
+     "text": "us Schwaben ihres Glaubens wegen vertriebene Glasmeister, Greiner und ⟦Müller⟧, welche mit Genehmigung der Landesherrschaft am Glashügel (Nordwand d"
+    }
+   ]
+  },
+  {
+   "key": "Liebe",
+   "n": 5,
+   "types": {
+    "Person": 5
+   },
+   "forms": {
+    "Liebe": 5
+   },
+   "pages": [
+    "VI",
+    "24",
+    "447",
+    "499"
+   ],
+   "n_pages": 4,
+   "contexts": [
+    {
+     "page": "VI",
+     "unit": "b1",
+     "text": " bez. Correctur-Unterstützungen bei dem Drucke der Schrift, Professor ⟦Liebe⟧ durch die Bearbeitung des geognostischen Aufsatzes, Kammerrath Pätz, "
+    },
+    {
+     "page": "24",
+     "unit": "fn1",
+     "text": "Dieser geognostische Abschnitt hat Herrn Prof. Dr. ⟦Liebe⟧ in Gera zum Verfasser."
+    },
+    {
+     "page": "447",
+     "unit": "b1",
+     "text": "al setzten, Hauptmann, Zeibich, Heyde, Rein, Herzog, Mayer, Saupe und ⟦Liebe⟧. Der im Sammeln fleißige, in der Darstellung aber kritik- und formlos"
+    },
+    {
+     "page": "499",
+     "unit": "b1",
+     "text": "ergab eine 1862 und 1863 von dem Fürsten Heinrich Reuß XIV. dem Prof. ⟦Liebe⟧ und Pastor Sturm übertragene Ausgrabung eine reiche Ausbeute *) von d"
+    }
+   ]
+  },
+  {
+   "key": "Pätz",
+   "n": 5,
+   "types": {
+    "Person": 5
+   },
+   "forms": {
+    "Pätz": 5
+   },
+   "pages": [
+    "VI",
+    "838"
+   ],
+   "n_pages": 2,
+   "contexts": [
+    {
+     "page": "VI",
+     "unit": "b1",
+     "text": " Liebe durch die Bearbeitung des geognostischen Aufsatzes, Kammerrath ⟦Pätz⟧, Cabinetsrath Schlick, die Landräthe Fuchs, Dr. Semmel und v. Strauch"
+    },
+    {
+     "page": "838",
+     "unit": "b1.r24c3",
+     "text": "⟦Pätz⟧"
+    }
+   ]
+  },
+  {
+   "key": "Schlick",
+   "n": 5,
+   "types": {
+    "Person": 5
+   },
+   "forms": {
+    "Schlick": 5
+   },
+   "pages": [
+    "VI",
+    "362",
+    "435",
+    "838"
+   ],
+   "n_pages": 4,
+   "contexts": [
+    {
+     "page": "VI",
+     "unit": "b1",
+     "text": "arbeitung des geognostischen Aufsatzes, Kammerrath Pätz, Cabinetsrath ⟦Schlick⟧, die Landräthe Fuchs, Dr. Semmel und v. Strauch, die geistlichen Herr"
+    },
+    {
+     "page": "362",
+     "unit": "b1",
+     "text": "tere die schuldenfreien böhmischen Herrschaften und den an den Grafen ⟦Schlick⟧ verpfändeten elnbogener Kreis, der jüngere die unteren und oberen voi"
+    },
+    {
+     "page": "435",
+     "unit": "b1",
+     "text": "endent) der 27., der Diaconus medius Becher der 18., der Landdiaconus ⟦Schlick⟧ der 29., der Salvatordiaconus Barth der 13. in der bezüglichen Reihen"
+    },
+    {
+     "page": "838",
+     "unit": "b1.r42c3",
+     "text": "⟦Schlick⟧"
+    }
+   ]
+  },
+  {
+   "key": "Rob. Schmidt",
+   "n": 5,
+   "types": {
+    "Person": 5
+   },
+   "forms": {
+    "Rob. Schmidt": 5
+   },
+   "pages": [
+    "VI",
+    "60",
+    "62",
+    "68",
+    "830"
+   ],
+   "n_pages": 5,
+   "contexts": [
+    {
+     "page": "VI",
+     "unit": "b1",
+     "text": "rgermeister zu Gera, Schleiz und Hirschberg, Schuldirector Lorey, Dr. ⟦Rob. Schmidt⟧, Forstadjunct Walther, Rendant Mehlhorn, Stadtschreiber Teich, Lehrer"
+    },
+    {
+     "page": "60",
+     "unit": "b3",
+     "text": " gesammten sommerlichen Lebensproceß von mehr als 140 Pflanzen nahmen ⟦Rob. Schmidt⟧ und K. R. Müller in Gera in Verbindung mit einigen Naturfreunden in H"
+    },
+    {
+     "page": "62",
+     "unit": "b1",
+     "text": "llen des Landes, zu Gera und zu Hohenleuben, dort von E. Kratzsch und ⟦Rob. Schmidt⟧, hier von Alberti, Beobachtungen gemacht. Die für Gera, auf 16 Richtu"
+    },
+    {
+     "page": "68",
+     "unit": "b6",
+     "text": "Die sogenannten Wetterbäume hat ⟦Rob. Schmidt⟧ in Hohenleuben von 1853—1859 einer Beobachtung unterzogen. Von den in"
+    }
+   ]
+  },
+  {
    "key": "Alberti",
    "n": 5,
    "types": {
@@ -3951,45 +4217,6 @@
      "page": "374",
      "unit": "b2",
      "text": "er unter dem Namen des synergistischen von den jenaischen Professoren ⟦Flacius⟧ und Strigel ausgegangen war und die Erbsünde und die mögliche Mitwirk"
-    }
-   ]
-  },
-  {
-   "key": "Jahn",
-   "n": 5,
-   "types": {
-    "Person": 5
-   },
-   "forms": {
-    "Jahn": 5
-   },
-   "pages": [
-    "299",
-    "538",
-    "667",
-    "837"
-   ],
-   "n_pages": 4,
-   "contexts": [
-    {
-     "page": "299",
-     "unit": "b5",
-     "text": "n Wirkungskreis der Volksschule gehören der Kindergarten von Fräulein ⟦Jahn⟧ und die ezler'sche Elementarschule zu Gera. Eine weitere, von der Vol"
-    },
-    {
-     "page": "538",
-     "unit": "b1",
-     "text": "n 1777 auf einem Pfarrgrundstücke erbautes Haus. Der jetzige Pfarrer (⟦Jahn⟧) ist der 17. lutherische. Bereits 1533 wird hier ein Kirchner erwähnt"
-    },
-    {
-     "page": "667",
-     "unit": "b1",
-     "text": ". vom Diaconus Hegner) vorhanden. Hieran reiht sich ein 1865 vom Rath ⟦Jahn⟧ für arme Schulkinder und verschämte Arme gestiftetes Vermächtniss von"
-    },
-    {
-     "page": "837",
-     "unit": "b1.r22c2",
-     "text": "\" ⟦Jahn⟧"
     }
    ]
   },
@@ -4382,6 +4609,39 @@
    ]
   },
   {
+   "key": "Ponte-Corvo",
+   "n": 5,
+   "types": {
+    "Person": 5
+   },
+   "forms": {
+    "Ponte-Corvo": 5
+   },
+   "pages": [
+    "592",
+    "604",
+    "739"
+   ],
+   "n_pages": 3,
+   "contexts": [
+    {
+     "page": "592",
+     "unit": "b2",
+     "text": " und Franzosen statt. Es war Mittags am 9. October, als der Marschall ⟦Ponte-Corvo⟧ von Napoleon den Befehl erhielt, das von den Preußen (und Sachsen) be"
+    },
+    {
+     "page": "604",
+     "unit": "b1",
+     "text": " 1806 siegte auf der Ebene bei Oettersdorf der französische Marschall ⟦Ponte-Corvo⟧ über den preußischen General Tauenzien mit 10,000 Mann, wobei der Obr"
+    },
+    {
+     "page": "739",
+     "unit": "fn1",
+     "text": "von Berg mit seinem Corps und nach ihm die Truppen der Marschälle von ⟦Ponte-Corvo⟧ und Davoust. Am Abende desselben Tages langte ein Theil der kaiserlic"
+    }
+   ]
+  },
+  {
    "key": "Fürst Heinrich LXII",
    "n": 5,
    "types": {
@@ -4421,74 +4681,80 @@
    ]
   },
   {
-   "key": "Engelhardt",
+   "key": "Hahn",
    "n": 4,
    "types": {
     "Person": 4
    },
    "forms": {
-    "Engelhardt": 4
+    "Hahn": 4
    },
    "pages": [
-    "8",
-    "106",
-    "433",
-    "820"
+    "VI",
+    "432",
+    "435",
+    "441"
    ],
    "n_pages": 4,
    "contexts": [
     {
-     "page": "8",
+     "page": "VI",
      "unit": "b1",
-     "text": "ßische Berechnungen des Landesareals, eine ältere (vom Geh. Reg.-Rath ⟦Engelhardt⟧, 1853) und eine neueste (vom Inspektor Nowack) vor*), von denen die l"
+     "text": "Engelhardt, Kreisgerichtsrath Müller und Hofbibliothekar ⟦Hahn⟧ durch ihre vielfachen Belehrungen bez. Correctur-Unterstützungen bei "
     },
     {
-     "page": "106",
-     "unit": "b3",
-     "text": "3 den Canzleirath Rob. Müller und für das Jahr 1864 den Rechnungsrath ⟦Engelhardt⟧ zu Verfassern haben. Außerdem behandelte der Lehrer Meyrose für Schle"
+     "page": "432",
+     "unit": "b1",
+     "text": "finden sich hier die Bildnisse der Superintendenten von Musäus bis zu ⟦Hahn⟧, der Archidiaconen von Scherf bis zu Wendler und des Mettenpredigers "
     },
     {
-     "page": "433",
+     "page": "435",
      "unit": "b2",
-     "text": "wodurch der Name Bettelburg entstand, von 1833 an unter dem Advocaten ⟦Engelhardt⟧ zum Locale eines astronomischen Vereins und endlich nach 1844 Zwecken"
+     "text": "d nach 12 Klassen. Auch ward mit ihr um 1812 ein vom Superintendenten ⟦Hahn⟧ errichtetes Schullehrerseminar mit 4 Lehrern unter der Aufsicht des j"
     },
     {
-     "page": "820",
-     "unit": "fn1",
-     "text": "tes verdankt der Verf. dem landeskundigen, trefflichen Rechnungsrathe ⟦Engelhardt⟧ zu Gera."
+     "page": "441",
+     "unit": "b1",
+     "text": " Generalanzeiger für Thüringen hat blos seine Redaction: Hofbiblioth. ⟦Hahn⟧ in Gera), ferner 1 artistisches Institut, 6 lithographische Anstalten"
     }
    ]
   },
   {
-   "key": "Liebe",
+   "key": "Semmel",
    "n": 4,
    "types": {
     "Person": 4
    },
    "forms": {
-    "Liebe": 4
+    "Semmel": 4
    },
    "pages": [
-    "24",
-    "447",
-    "499"
+    "VI",
+    "309",
+    "534",
+    "839"
    ],
-   "n_pages": 3,
+   "n_pages": 4,
    "contexts": [
     {
-     "page": "24",
-     "unit": "fn1",
-     "text": "Dieser geognostische Abschnitt hat Herrn Prof. Dr. ⟦Liebe⟧ in Gera zum Verfasser."
+     "page": "VI",
+     "unit": "b1",
+     "text": "tzes, Kammerrath Pätz, Cabinetsrath Schlick, die Landräthe Fuchs, Dr. ⟦Semmel⟧ und v. Strauch, die geistlichen Herrn Dr. Wittig, v. Criegern, Sturm,"
     },
     {
-     "page": "447",
-     "unit": "b1",
-     "text": "al setzten, Hauptmann, Zeibich, Heyde, Rein, Herzog, Mayer, Saupe und ⟦Liebe⟧. Der im Sammeln fleißige, in der Darstellung aber kritik- und formlos"
+     "page": "309",
+     "unit": "b11",
+     "text": "8) Die Stiftung der Frau Maria Bauer, geb. ⟦Semmel⟧, zu Gera mit 1000 Thlr. Kapital, von dessen Zinsen 3/4 jährlich zur U"
     },
     {
-     "page": "499",
-     "unit": "b1",
-     "text": "ergab eine 1862 und 1863 von dem Fürsten Heinrich Reuß XIV. dem Prof. ⟦Liebe⟧ und Pastor Sturm übertragene Ausgrabung eine reiche Ausbeute *) von d"
+     "page": "534",
+     "unit": "b3",
+     "text": "itzern (darunter eine Zeit lang die fürstliche Kammer) Stadthauptmann ⟦Semmel⟧, Forsi-"
+    },
+    {
+     "page": "839",
+     "unit": "b1.r8c3",
+     "text": "⟦Semmel⟧"
     }
    ]
   },
@@ -4528,45 +4794,6 @@
      "page": "830",
      "unit": "b5.i2",
      "text": "\" 2 \" \" lies: Dr. Rob. Schmidt statt ⟦Rud. Schmidt⟧."
-    }
-   ]
-  },
-  {
-   "key": "Rob. Schmidt",
-   "n": 4,
-   "types": {
-    "Person": 4
-   },
-   "forms": {
-    "Rob. Schmidt": 4
-   },
-   "pages": [
-    "60",
-    "62",
-    "68",
-    "830"
-   ],
-   "n_pages": 4,
-   "contexts": [
-    {
-     "page": "60",
-     "unit": "b3",
-     "text": " gesammten sommerlichen Lebensproceß von mehr als 140 Pflanzen nahmen ⟦Rob. Schmidt⟧ und K. R. Müller in Gera in Verbindung mit einigen Naturfreunden in H"
-    },
-    {
-     "page": "62",
-     "unit": "b1",
-     "text": "llen des Landes, zu Gera und zu Hohenleuben, dort von E. Kratzsch und ⟦Rob. Schmidt⟧, hier von Alberti, Beobachtungen gemacht. Die für Gera, auf 16 Richtu"
-    },
-    {
-     "page": "68",
-     "unit": "b6",
-     "text": "Die sogenannten Wetterbäume hat ⟦Rob. Schmidt⟧ in Hohenleuben von 1853—1859 einer Beobachtung unterzogen. Von den in"
-    },
-    {
-     "page": "830",
-     "unit": "b5.i1",
-     "text": "S. 68. Z. 9 v. u. lies: Dr. ⟦Rob. Schmidt⟧ in Gera statt Rob. Schmidt in Hohenleuben."
     }
    ]
   },
@@ -5378,35 +5605,41 @@
    ]
   },
   {
-   "key": "Schlick",
+   "key": "Heinrich LI",
    "n": 4,
    "types": {
     "Person": 4
    },
    "forms": {
-    "Schlick": 4
+    "Heinrich LI.": 4
    },
    "pages": [
-    "362",
-    "435",
-    "838"
+    "382",
+    "397",
+    "712",
+    "739"
    ],
-   "n_pages": 3,
+   "n_pages": 4,
    "contexts": [
     {
-     "page": "362",
+     "page": "382",
      "unit": "b1",
-     "text": "tere die schuldenfreien böhmischen Herrschaften und den an den Grafen ⟦Schlick⟧ verpfändeten elnbogener Kreis, der jüngere die unteren und oberen voi"
+     "text": "gebildeter Seelen. Er starb 1779. Sein Sohn und Regierungsnachfolger, ⟦Heinrich LI.⟧, erwarb sich durch seine mildpatriarchalische und fürsorgliche Regier"
     },
     {
-     "page": "435",
-     "unit": "b1",
-     "text": "endent) der 27., der Diaconus medius Becher der 18., der Landdiaconus ⟦Schlick⟧ der 29., der Salvatordiaconus Barth der 13. in der bezüglichen Reihen"
+     "page": "397",
+     "unit": "b3.r1c4",
+     "text": "⟦Heinrich LI.⟧, geb. 1761, † 1822. 1806 Reichsfürst. Gem. Louise Henriette v. Hoym, "
     },
     {
-     "page": "838",
-     "unit": "b1.r42c3",
-     "text": "⟦Schlick⟧"
+     "page": "712",
+     "unit": "b1.r5c3",
+     "text": "⟦Heinrich LI.⟧, † 1822, wird 1802 Mitregent von Gera und 1806 Fürst."
+    },
+    {
+     "page": "739",
+     "unit": "fn1",
+     "text": "r in Ebersdorf an. Napoleon nahm seine Wohnung im Schlosse. Der Fürst ⟦Heinrich LI.⟧ war eben kränklich, aber seine Gemahlin, eine ebenso menschenfreundli"
     }
    ]
   },
@@ -5483,7 +5716,7 @@
     {
      "page": "396",
      "unit": "b2.r4c2",
-     "text": "⟦Heinrich XVII.⟧, geb. 1676, † 1706. Oberſt i. Heſſen-Caſſel. Gem. Eleonore Sophie v. "
+     "text": "⟦Heinrich XVII.⟧, geb. 1676, † 1706. Oberst i. Hessen-Cassel. Gem. Eleonore Sophie v. "
     },
     {
      "page": "399",
@@ -5735,41 +5968,29 @@
    ]
   },
   {
-   "key": "Müller",
+   "key": "Weißker",
    "n": 4,
    "types": {
     "Person": 4
    },
    "forms": {
-    "Müller": 4
+    "Weißker": 4
    },
    "pages": [
-    "584",
-    "717",
-    "774",
-    "838"
+    "587",
+    "839"
    ],
-   "n_pages": 4,
+   "n_pages": 2,
    "contexts": [
     {
-     "page": "584",
-     "unit": "fn1",
-     "text": "Folgende drei sinnvolle Distichen, wahrscheinlich, wie Justizrath ⟦Müller⟧, Rath Küchler und Archid. Dr. Passolt angeben, noch aus dem Mittelalt"
-    },
-    {
-     "page": "717",
+     "page": "587",
      "unit": "b1",
-     "text": "t der 17. Seb. Kröschner war der erste Archidiacon, der gegenwärtige (⟦Müller⟧) ist der 23. und der jetzige Diaconus (H. Rönsch) der 25. Von 1725—17"
+     "text": "00 Thlr. 22 Sgr., gestiftet von einem aus Schleiz stammenden Diaconus ⟦Weißker⟧*) in Nürnberg, zu Gunsten seiner Descendenten); das engelschall-laute"
     },
     {
-     "page": "774",
-     "unit": "b4",
-     "text": "us Schwaben ihres Glaubens wegen vertriebene Glasmeister, Greiner und ⟦Müller⟧, welche mit Genehmigung der Landesherrschaft am Glashügel (Nordwand d"
-    },
-    {
-     "page": "838",
-     "unit": "b1.r12c3",
-     "text": "⟦Müller⟧"
+     "page": "839",
+     "unit": "b1.r39c3",
+     "text": "⟦Weißker⟧"
     }
    ]
   },
@@ -5803,6 +6024,138 @@
      "page": "669",
      "unit": "b1",
      "text": "esselben Jahres, als hier das erste für die Preußen unter dem General ⟦Tauenzien⟧ unglückliche Gefecht vorfiel, indem die Franzosen unter dem Großherzo"
+    }
+   ]
+  },
+  {
+   "key": "Fuchs",
+   "n": 3,
+   "types": {
+    "Person": 3
+   },
+   "forms": {
+    "Fuchs": 3
+   },
+   "pages": [
+    "VI",
+    "225",
+    "721"
+   ],
+   "n_pages": 3,
+   "contexts": [
+    {
+     "page": "VI",
+     "unit": "b1",
+     "text": "schen Aufsatzes, Kammerrath Pätz, Cabinetsrath Schlick, die Landräthe ⟦Fuchs⟧, Dr. Semmel und v. Strauch, die geistlichen Herrn Dr. Wittig, v. Crie"
+    },
+    {
+     "page": "225",
+     "unit": "b5",
+     "text": "gegeben werden. Für den Landestheil Lobenstein-Ebersdorf hat Landrath ⟦Fuchs⟧ in Ebersdorf 1861 eine derartige Berechnung ausgeführt und in Druck g"
+    },
+    {
+     "page": "721",
+     "unit": "b1",
+     "text": "utschland. Um die Gründung und Belebung des Bades haben sich Landrath ⟦Fuchs⟧ in Ebersdorf und Dr. Aschenbach in Lobenstein bleibende Verdienste er"
+    }
+   ]
+  },
+  {
+   "key": "v. Criegern",
+   "n": 3,
+   "types": {
+    "Person": 3
+   },
+   "forms": {
+    "v. Criegern": 3
+   },
+   "pages": [
+    "VI",
+    "435",
+    "836"
+   ],
+   "n_pages": 3,
+   "contexts": [
+    {
+     "page": "VI",
+     "unit": "b1",
+     "text": "e Fuchs, Dr. Semmel und v. Strauch, die geistlichen Herrn Dr. Wittig, ⟦v. Criegern⟧, Sturm, Beatus, Dr. Passolt, Mauke, Braun, Pätz, Rönsch, Garthe, Hütt"
+    },
+    {
+     "page": "435",
+     "unit": "b1",
+     "text": "die heutigen Geistlichen betrifft, so ist der Oberpfarrer Kirchenrath ⟦v. Criegern⟧ der 21., der Archidiaconus Oberkirchenrath Dr. C. E. Wittig (zugleich"
+    },
+    {
+     "page": "836",
+     "unit": "b1.r20c2",
+     "text": "\" ⟦v. Criegern⟧"
+    }
+   ]
+  },
+  {
+   "key": "Passolt",
+   "n": 3,
+   "types": {
+    "Person": 3
+   },
+   "forms": {
+    "Passolt": 3
+   },
+   "pages": [
+    "VI",
+    "584",
+    "586"
+   ],
+   "n_pages": 3,
+   "contexts": [
+    {
+     "page": "VI",
+     "unit": "b1",
+     "text": "ch, die geistlichen Herrn Dr. Wittig, v. Criegern, Sturm, Beatus, Dr. ⟦Passolt⟧, Mauke, Braun, Pätz, Rönsch, Garthe, Hüttig und Hölzer, Justizamtmann"
+    },
+    {
+     "page": "584",
+     "unit": "fn1",
+     "text": ", wahrscheinlich, wie Justizrath Müller, Rath Küchler und Archid. Dr. ⟦Passolt⟧ angeben, noch aus dem Mittelalter stammend, stehen über dem hinteren "
+    },
+    {
+     "page": "586",
+     "unit": "b1",
+     "text": "er Heinrichsstadt) wirken außer dem gemeinsamen Director (Archid. Dr. ⟦Passolt⟧) und außer einem Taubstummen- und Musiklehrer noch 6 ausschließlich d"
+    }
+   ]
+  },
+  {
+   "key": "Mauke",
+   "n": 3,
+   "types": {
+    "Person": 3
+   },
+   "forms": {
+    "Mauke": 3
+   },
+   "pages": [
+    "VI",
+    "299",
+    "586"
+   ],
+   "n_pages": 3,
+   "contexts": [
+    {
+     "page": "VI",
+     "unit": "b1",
+     "text": "eistlichen Herrn Dr. Wittig, v. Criegern, Sturm, Beatus, Dr. Passolt, ⟦Mauke⟧, Braun, Pätz, Rönsch, Garthe, Hüttig und Hölzer, Justizamtmann Jahn, "
+    },
+    {
+     "page": "299",
+     "unit": "b5",
+     "text": "ebersdorf, die höhere Lehr- und Erziehungsanstalt für Mädchen von Dr. ⟦Mauke⟧ seit Ostern 1859 zu Schleiz in vier Klassen (fünf Lehrer und drei Leh"
+    },
+    {
+     "page": "586",
+     "unit": "b1",
+     "text": "errn. Privatanstalt dagegen ist das vor 8 Jahren von Collaborator Dr. ⟦Mauke⟧ gegründete Mädcheninstitut mit circa 40 Schülerinnen."
     }
    ]
   },
@@ -6307,39 +6660,6 @@
      "page": "447",
      "unit": "b1",
      "text": "m seine Schüler ein Denkmal setzten, Hauptmann, Zeibich, Heyde, Rein, ⟦Herzog⟧, Mayer, Saupe und Liebe. Der im Sammeln fleißige, in der Darstellung "
-    }
-   ]
-  },
-  {
-   "key": "Semmel",
-   "n": 3,
-   "types": {
-    "Person": 3
-   },
-   "forms": {
-    "Semmel": 3
-   },
-   "pages": [
-    "309",
-    "534",
-    "839"
-   ],
-   "n_pages": 3,
-   "contexts": [
-    {
-     "page": "309",
-     "unit": "b11",
-     "text": "8) Die Stiftung der Frau Maria Bauer, geb. ⟦Semmel⟧, zu Gera mit 1000 Thlr. Kapital, von dessen Zinsen 3/4 jährlich zur U"
-    },
-    {
-     "page": "534",
-     "unit": "b3",
-     "text": "itzern (darunter eine Zeit lang die fürstliche Kammer) Stadthauptmann ⟦Semmel⟧, Forsi-"
-    },
-    {
-     "page": "839",
-     "unit": "b1.r8c3",
-     "text": "⟦Semmel⟧"
     }
    ]
   },
@@ -7115,39 +7435,6 @@
    ]
   },
   {
-   "key": "Heinrich LI",
-   "n": 3,
-   "types": {
-    "Person": 3
-   },
-   "forms": {
-    "Heinrich LI.": 3
-   },
-   "pages": [
-    "382",
-    "397",
-    "712"
-   ],
-   "n_pages": 3,
-   "contexts": [
-    {
-     "page": "382",
-     "unit": "b1",
-     "text": "gebildeter Seelen. Er starb 1779. Sein Sohn und Regierungsnachfolger, ⟦Heinrich LI.⟧, erwarb sich durch seine mildpatriarchalische und fürsorgliche Regier"
-    },
-    {
-     "page": "397",
-     "unit": "b3.r1c4",
-     "text": "⟦Heinrich LI.⟧, geb. 1761, † 1822. 1806 Reichsfürst. Gem. Louise Henriette v. Hoym, "
-    },
-    {
-     "page": "712",
-     "unit": "b1.r5c3",
-     "text": "⟦Heinrich LI.⟧, † 1822, wird 1802 Mitregent von Gera und 1806 Fürst."
-    }
-   ]
-  },
-  {
    "key": "Heinrich XXVIII",
    "n": 3,
    "types": {
@@ -7237,39 +7524,6 @@
      "page": "495",
      "unit": "b1",
      "text": " zwölf Kindern überlebten den Vater drei Söhne, Heinrich VI., IX. und ⟦XXIII.⟧ und drei Töchter. Heinrich VI., königlich dänischer Geheimrath, folgt"
-    }
-   ]
-  },
-  {
-   "key": "Heinrich LX",
-   "n": 3,
-   "types": {
-    "Person": 3
-   },
-   "forms": {
-    "Heinrich LX.": 3
-   },
-   "pages": [
-    "388",
-    "398",
-    "399"
-   ],
-   "n_pages": 3,
-   "contexts": [
-    {
-     "page": "388",
-     "unit": "b4",
-     "text": "es war Heinrich XXXXIV. Wie sein Vater, so hatte auch er sechs Söhne (⟦Heinrich LX.⟧, LXIII., LXVI., LXX., LXXIV. und I.), dagegen unter diesen zwei, welc"
-    },
-    {
-     "page": "398",
-     "unit": "b2.r7c1",
-     "text": "⟦Heinrich LX.⟧, g. 1784, † 1813."
-    },
-    {
-     "page": "399",
-     "unit": "b2.r1c1",
-     "text": "⟦Heinrich LX.⟧, geb. 1784, † 1833. Gem. Dorothea Caroline v. Carolath-Beuthen, verm."
     }
    ]
   },
@@ -7501,39 +7755,6 @@
      "page": "400",
      "unit": "b3.r4c2",
      "text": "⟦Sophie Marie⟧, geb. 1614, + 1690. Gem. F. Kaspar von Schönburg-Glauchau-Penig (Witt"
-    }
-   ]
-  },
-  {
-   "key": "Hahn",
-   "n": 3,
-   "types": {
-    "Person": 3
-   },
-   "forms": {
-    "Hahn": 3
-   },
-   "pages": [
-    "432",
-    "435",
-    "441"
-   ],
-   "n_pages": 3,
-   "contexts": [
-    {
-     "page": "432",
-     "unit": "b1",
-     "text": "finden sich hier die Bildnisse der Superintendenten von Musäus bis zu ⟦Hahn⟧, der Archidiaconen von Scherf bis zu Wendler und des Mettenpredigers "
-    },
-    {
-     "page": "435",
-     "unit": "b2",
-     "text": "d nach 12 Klassen. Auch ward mit ihr um 1812 ein vom Superintendenten ⟦Hahn⟧ errichtetes Schullehrerseminar mit 4 Lehrern unter der Aufsicht des j"
-    },
-    {
-     "page": "441",
-     "unit": "b1",
-     "text": " Generalanzeiger für Thüringen hat blos seine Redaction: Hofbiblioth. ⟦Hahn⟧ in Gera), ferner 1 artistisches Institut, 6 lithographische Anstalten"
     }
    ]
   },
@@ -7856,33 +8077,6 @@
    ]
   },
   {
-   "key": "Ponte-Corvo",
-   "n": 3,
-   "types": {
-    "Person": 3
-   },
-   "forms": {
-    "Ponte-Corvo": 3
-   },
-   "pages": [
-    "592",
-    "604"
-   ],
-   "n_pages": 2,
-   "contexts": [
-    {
-     "page": "592",
-     "unit": "b2",
-     "text": " und Franzosen statt. Es war Mittags am 9. October, als der Marschall ⟦Ponte-Corvo⟧ von Napoleon den Befehl erhielt, das von den Preußen (und Sachsen) be"
-    },
-    {
-     "page": "604",
-     "unit": "b1",
-     "text": " 1806 siegte auf der Ebene bei Dettersdorf der französische Marschall ⟦Ponte-Corvo⟧ über den preußischen General Tauenzien mit 10,000 Mann, wobei der Obr"
-    }
-   ]
-  },
-  {
    "key": "Hermann Thym",
    "n": 3,
    "types": {
@@ -8090,44 +8284,137 @@
    ]
   },
   {
-   "key": "Pätz",
-   "n": 3,
+   "key": "G. Brückner",
+   "n": 2,
    "types": {
-    "Person": 3
+    "Person": 2
    },
    "forms": {
-    "Pätz": 3
+    "G. Brückner": 2
    },
    "pages": [
-    "838"
+    "I",
+    "VI"
    ],
-   "n_pages": 1,
+   "n_pages": 2,
    "contexts": [
     {
-     "page": "838",
-     "unit": "b1.r24c3",
-     "text": "⟦Pätz⟧"
+     "page": "I",
+     "unit": "b6",
+     "text": "⟦G. Brückner⟧,"
+    },
+    {
+     "page": "VI",
+     "unit": "b4",
+     "text": "⟦G. Brückner⟧."
     }
    ]
   },
   {
-   "key": "Weissker",
-   "n": 3,
+   "key": "v. Strauch",
+   "n": 2,
    "types": {
-    "Person": 3
+    "Person": 2
    },
    "forms": {
-    "Weissker": 3
+    "v. Strauch": 2
    },
    "pages": [
+    "VI",
     "839"
    ],
-   "n_pages": 1,
+   "n_pages": 2,
    "contexts": [
     {
+     "page": "VI",
+     "unit": "b1",
+     "text": "rrath Pätz, Cabinetsrath Schlick, die Landräthe Fuchs, Dr. Semmel und ⟦v. Strauch⟧, die geistlichen Herrn Dr. Wittig, v. Criegern, Sturm, Beatus, Dr. Pa"
+    },
+    {
      "page": "839",
-     "unit": "b1.r39c3",
-     "text": "⟦Weissker⟧"
+     "unit": "b1.r18c3",
+     "text": "⟦v. Strauch⟧"
+    }
+   ]
+  },
+  {
+   "key": "Sturm",
+   "n": 2,
+   "types": {
+    "Person": 2
+   },
+   "forms": {
+    "Sturm": 2
+   },
+   "pages": [
+    "VI",
+    "499"
+   ],
+   "n_pages": 2,
+   "contexts": [
+    {
+     "page": "VI",
+     "unit": "b1",
+     "text": "Semmel und v. Strauch, die geistlichen Herrn Dr. Wittig, v. Criegern, ⟦Sturm⟧, Beatus, Dr. Passolt, Mauke, Braun, Pätz, Rönsch, Garthe, Hüttig und "
+    },
+    {
+     "page": "499",
+     "unit": "b1",
+     "text": "nd 1863 von dem Fürsten Heinrich Reuß XIV. dem Prof. Liebe und Pastor ⟦Sturm⟧ übertragene Ausgrabung eine reiche Ausbeute *) von diluvialen Thierre"
+    }
+   ]
+  },
+  {
+   "key": "Mehlhorn",
+   "n": 2,
+   "types": {
+    "Person": 2
+   },
+   "forms": {
+    "Mehlhorn": 2
+   },
+   "pages": [
+    "VI",
+    "838"
+   ],
+   "n_pages": 2,
+   "contexts": [
+    {
+     "page": "VI",
+     "unit": "b1",
+     "text": " Schuldirector Lorey, Dr. Rob. Schmidt, Forstadjunct Walther, Rendant ⟦Mehlhorn⟧, Stadtschreiber Teich, Lehrer Schwender und andere, welche die Landes"
+    },
+    {
+     "page": "838",
+     "unit": "b1.r6c3",
+     "text": "⟦Mehlhorn⟧"
+    }
+   ]
+  },
+  {
+   "key": "Teich",
+   "n": 2,
+   "types": {
+    "Person": 2
+   },
+   "forms": {
+    "Teich": 2
+   },
+   "pages": [
+    "VI",
+    "839"
+   ],
+   "n_pages": 2,
+   "contexts": [
+    {
+     "page": "VI",
+     "unit": "b1",
+     "text": " Rob. Schmidt, Forstadjunct Walther, Rendant Mehlhorn, Stadtschreiber ⟦Teich⟧, Lehrer Schwender und andere, welche die Landeskunde an verschiedenen"
+    },
+    {
+     "page": "839",
+     "unit": "b1.r24c3",
+     "text": "⟦Teich⟧"
     }
    ]
   },
@@ -8939,33 +9226,6 @@
    ]
   },
   {
-   "key": "Fuchs",
-   "n": 2,
-   "types": {
-    "Person": 2
-   },
-   "forms": {
-    "Fuchs": 2
-   },
-   "pages": [
-    "225",
-    "721"
-   ],
-   "n_pages": 2,
-   "contexts": [
-    {
-     "page": "225",
-     "unit": "b5",
-     "text": "gegeben werden. Für den Landestheil Lobenstein-Ebersdorf hat Landrath ⟦Fuchs⟧ in Ebersdorf 1861 eine derartige Berechnung ausgeführt und in Druck g"
-    },
-    {
-     "page": "721",
-     "unit": "b1",
-     "text": "utschland. Um die Gründung und Belebung des Bades haben sich Landrath ⟦Fuchs⟧ in Ebersdorf und Dr. Aschenbach in Lobenstein bleibende Verdienste er"
-    }
-   ]
-  },
-  {
    "key": "Ampach",
    "n": 2,
    "types": {
@@ -9311,33 +9571,6 @@
    ]
   },
   {
-   "key": "Mauke",
-   "n": 2,
-   "types": {
-    "Person": 2
-   },
-   "forms": {
-    "Mauke": 2
-   },
-   "pages": [
-    "299",
-    "586"
-   ],
-   "n_pages": 2,
-   "contexts": [
-    {
-     "page": "299",
-     "unit": "b5",
-     "text": "ebersdorf, die höhere Lehr- und Erziehungsanstalt für Mädchen von Dr. ⟦Mauke⟧ seit Ostern 1859 zu Schleiz in vier Klassen (fünf Lehrer und drei Leh"
-    },
-    {
-     "page": "586",
-     "unit": "b1",
-     "text": "errn. Privatanstalt dagegen ist das vor 8 Jahren von Collaborator Dr. ⟦Mauke⟧ gegründete Mädcheninstitut mit circa 40 Schülerinnen."
-    }
-   ]
-  },
-  {
    "key": "Rud. Ferber",
    "n": 2,
    "types": {
@@ -9441,7 +9674,7 @@
     {
      "page": "541",
      "unit": "b1",
-     "text": " Caaſen, Dorna, Groitschen und Großenstein. Ein Glied dieser Familie (⟦Ehrenfried v. Naundorf⟧, gest. 1666) stiftete zunächst für sein Geschlecht ein Stipendium am "
+     "text": " Caasen, Dorna, Groitschen und Großenstein. Ein Glied dieser Familie (⟦Ehrenfried v. Naundorf⟧, gest. 1666) stiftete zunächst für sein Geschlecht ein Stipendium am "
     }
    ]
   },
@@ -10973,6 +11206,33 @@
    ]
   },
   {
+   "key": "Heinrich LX",
+   "n": 2,
+   "types": {
+    "Person": 2
+   },
+   "forms": {
+    "Heinrich LX.": 2
+   },
+   "pages": [
+    "388",
+    "399"
+   ],
+   "n_pages": 2,
+   "contexts": [
+    {
+     "page": "388",
+     "unit": "b4",
+     "text": "es war Heinrich XXXXIV. Wie sein Vater, so hatte auch er sechs Söhne (⟦Heinrich LX.⟧, LXIII., LXVI., LXX., LXXIV. und I.), dagegen unter diesen zwei, welc"
+    },
+    {
+     "page": "399",
+     "unit": "b2.r1c1",
+     "text": "⟦Heinrich LX.⟧, geb. 1784, † 1833. Gem. Dorothea Caroline v. Carolath-Beuthen, verm."
+    }
+   ]
+  },
+  {
    "key": "Heinrich LXXIII",
    "n": 2,
    "types": {
@@ -11221,6 +11481,60 @@
      "page": "396",
      "unit": "b2.r1c2",
      "text": "⟦Henriette Juliane⟧, g. 1654, † .... Gem. Albert von Rottow-Biber-stein, verm. 1686."
+    }
+   ]
+  },
+  {
+   "key": "Marie Auguste",
+   "n": 2,
+   "types": {
+    "Person": 2
+   },
+   "forms": {
+    "Marie Auguste": 2
+   },
+   "pages": [
+    "396",
+    "401"
+   ],
+   "n_pages": 2,
+   "contexts": [
+    {
+     "page": "396",
+     "unit": "b3.r3c3",
+     "text": "Soph. Magdalene, g. 1713, † 1771. ⟦Marie Auguste⟧, g. 1712, † 1714. Marie Christiane, g. u. † 1710. Christiane Thecla, "
+    },
+    {
+     "page": "401",
+     "unit": "b8",
+     "text": "bernimmt d. Regierung 1867 (28. März). Heinrich XXIII., g. u. + 1844. ⟦Marie Auguste⟧, g. 1855."
+    }
+   ]
+  },
+  {
+   "key": "Marie Christiane",
+   "n": 2,
+   "types": {
+    "Person": 2
+   },
+   "forms": {
+    "Marie Christiane": 2
+   },
+   "pages": [
+    "396",
+    "715"
+   ],
+   "n_pages": 2,
+   "contexts": [
+    {
+     "page": "396",
+     "unit": "b3.r3c3",
+     "text": "Soph. Magdalene, g. 1713, † 1771. Marie Auguste, g. 1712, † 1714. ⟦Marie Christiane⟧, g. u. † 1710. Christiane Thecla, g. 1707, † 1733."
+    },
+    {
+     "page": "715",
+     "unit": "b1",
+     "text": "ingeräumt hatte. Das vormalige Palais Christianenzell, von der Gräfin ⟦Marie Christiane⟧, geb. Leiningen und Gemahlin des Grafen Heinrich Reuß III., 1714 am E"
     }
    ]
   },
@@ -11504,33 +11818,6 @@
    ]
   },
   {
-   "key": "v. Criegern",
-   "n": 2,
-   "types": {
-    "Person": 2
-   },
-   "forms": {
-    "v. Criegern": 2
-   },
-   "pages": [
-    "435",
-    "836"
-   ],
-   "n_pages": 2,
-   "contexts": [
-    {
-     "page": "435",
-     "unit": "b1",
-     "text": "die heutigen Geistlichen betrifft, so ist der Oberpfarrer Kirchenrath ⟦v. Criegern⟧ der 21., der Archidiaconus Oberkirchenrath Dr. C. E. Wittig (zugleich"
-    },
-    {
-     "page": "836",
-     "unit": "b1.r20c2",
-     "text": "\" ⟦v. Criegern⟧"
-    }
-   ]
-  },
-  {
    "key": "Münch",
    "n": 2,
    "types": {
@@ -11628,7 +11915,7 @@
     {
      "page": "536",
      "unit": "b3",
-     "text": "Rittergut vorfand, bezeugt ein im Jahre 1125 urkundlich neben und mit ⟦Luph von Gera⟧ vorkommender Ludolph (Luph) von Beizdorf. Wahrscheinlich ist, daß das"
+     "text": "Rittergut vorfand, bezeugt ein im Jahre 1125 urkundlich neben und mit ⟦Luph von Gera⟧ vorkommender Ludolph (Luph) von Betzdorf. Wahrscheinlich ist, daß das"
     }
    ]
   },
@@ -12149,6 +12436,33 @@
    ]
   },
   {
+   "key": "Sieckmann",
+   "n": 2,
+   "types": {
+    "Person": 2
+   },
+   "forms": {
+    "Sieckmann": 2
+   },
+   "pages": [
+    "497",
+    "839"
+   ],
+   "n_pages": 2,
+   "contexts": [
+    {
+     "page": "497",
+     "unit": "b1",
+     "text": "nnenswerth die schwunghaft betriebenen Handelsgärtnereien von Deegen, ⟦Sieckmann⟧ und Hercher, deren Flor von Georginen, Pensees, Rosen und allen mögli"
+    },
+    {
+     "page": "839",
+     "unit": "b1.r10c3",
+     "text": "⟦Sieckmann⟧"
+    }
+   ]
+  },
+  {
    "key": "Heinrich Reuß XIV",
    "n": 2,
    "types": {
@@ -12355,6 +12669,33 @@
      "page": "528",
      "unit": "b1",
      "text": "lieben. Vordem bestand hier ein Rittergut, das im 16. Jahrhundert die ⟦v. Etzdorf⟧ zu Großaga besaßen, dann im Anfange des 17. Jahrhunderts Wolf v. Wolf"
+    }
+   ]
+  },
+  {
+   "key": "Adam Heinrich v. Metsch",
+   "n": 2,
+   "types": {
+    "Person": 2
+   },
+   "forms": {
+    "Adam Heinrich v. Metsch": 2
+   },
+   "pages": [
+    "526",
+    "527"
+   ],
+   "n_pages": 2,
+   "contexts": [
+    {
+     "page": "526",
+     "unit": "b1",
+     "text": "ga an die Familie von Metsch, zuerst an Heinrich Bernhard und dann an ⟦Adam Heinrich v. Metsch⟧, 1683 an Veit Ludwig v. Tümpling und von diesem 1697 durch Kauf an di"
+    },
+    {
+     "page": "527",
+     "unit": "b1",
+     "text": "hrigen Kriege hat Kleinaga viel zu erdulden gehabt. Von dem Gutsherrn ⟦Adam Heinrich v. Metsch⟧ erwähnt das großagaer Kirchenbuch, daß er 1671 wegen seiner groben si"
     }
    ]
   },
@@ -12808,33 +13149,6 @@
      "page": "593",
      "unit": "fn1",
      "text": ", daß bei dem Begräbnisse des 1575 in Ungarn an der Pest verstorbenen ⟦Hans v. Kospod⟧ 19 Knappen in den zurückfahrenden Leichenwagen gekrochen sind und dad"
-    }
-   ]
-  },
-  {
-   "key": "Passolt",
-   "n": 2,
-   "types": {
-    "Person": 2
-   },
-   "forms": {
-    "Passolt": 2
-   },
-   "pages": [
-    "584",
-    "586"
-   ],
-   "n_pages": 2,
-   "contexts": [
-    {
-     "page": "584",
-     "unit": "fn1",
-     "text": ", wahrscheinlich, wie Justizrath Müller, Rath Küchler und Archid. Dr. ⟦Passolt⟧ angeben, noch aus dem Mittelalter stammend, stehen über dem hinteren "
-    },
-    {
-     "page": "586",
-     "unit": "b1",
-     "text": "er Heinrichsstadt) wirken außer dem gemeinsamen Director (Archid. Dr. ⟦Passolt⟧) und außer einem Taubstummen- und Musiklehrer noch 6 ausschließlich d"
     }
    ]
   },
@@ -13634,6 +13948,48 @@
    ]
   },
   {
+   "key": "Davoust",
+   "n": 2,
+   "types": {
+    "Person": 2
+   },
+   "forms": {
+    "Davoust": 2
+   },
+   "pages": [
+    "739"
+   ],
+   "n_pages": 1,
+   "contexts": [
+    {
+     "page": "739",
+     "unit": "fn1",
+     "text": "nem Corps und nach ihm die Truppen der Marschälle von Ponte-Corvo und ⟦Davoust⟧. Am Abende desselben Tages langte ein Theil der kaiserlichen Garde mi"
+    }
+   ]
+  },
+  {
+   "key": "Lefèbre",
+   "n": 2,
+   "types": {
+    "Person": 2
+   },
+   "forms": {
+    "Lefèbre": 2
+   },
+   "pages": [
+    "739"
+   ],
+   "n_pages": 1,
+   "contexts": [
+    {
+     "page": "739",
+     "unit": "fn1",
+     "text": "ages, wo das kaiserliche Hauptquartier abgegangen war, traf Marschall ⟦Lefèbre⟧ an der Spitze von 3000 Garden ein. Ebersdorf war ihm zum Quartier ang"
+    }
+   ]
+  },
+  {
    "key": "Hans Eisenbeiß",
    "n": 2,
    "types": {
@@ -13997,27 +14353,6 @@
    ]
   },
   {
-   "key": "G. Brückner",
-   "n": 1,
-   "types": {
-    "Person": 1
-   },
-   "forms": {
-    "G. Brückner": 1
-   },
-   "pages": [
-    "I"
-   ],
-   "n_pages": 1,
-   "contexts": [
-    {
-     "page": "I",
-     "unit": "b6",
-     "text": "⟦G. Brückner⟧,"
-    }
-   ]
-  },
-  {
    "key": "Fr. Eugen Köhler",
    "n": 1,
    "types": {
@@ -14035,6 +14370,216 @@
      "page": "I",
      "unit": "b9",
      "text": "Verlag von ⟦Fr. Eugen Köhler⟧."
+    }
+   ]
+  },
+  {
+   "key": "Wittig",
+   "n": 1,
+   "types": {
+    "Person": 1
+   },
+   "forms": {
+    "Wittig": 1
+   },
+   "pages": [
+    "VI"
+   ],
+   "n_pages": 1,
+   "contexts": [
+    {
+     "page": "VI",
+     "unit": "b1",
+     "text": "Landräthe Fuchs, Dr. Semmel und v. Strauch, die geistlichen Herrn Dr. ⟦Wittig⟧, v. Criegern, Sturm, Beatus, Dr. Passolt, Mauke, Braun, Pätz, Rönsch,"
+    }
+   ]
+  },
+  {
+   "key": "Beatus",
+   "n": 1,
+   "types": {
+    "Person": 1
+   },
+   "forms": {
+    "Beatus": 1
+   },
+   "pages": [
+    "VI"
+   ],
+   "n_pages": 1,
+   "contexts": [
+    {
+     "page": "VI",
+     "unit": "b1",
+     "text": "und v. Strauch, die geistlichen Herrn Dr. Wittig, v. Criegern, Sturm, ⟦Beatus⟧, Dr. Passolt, Mauke, Braun, Pätz, Rönsch, Garthe, Hüttig und Hölzer, "
+    }
+   ]
+  },
+  {
+   "key": "Braun",
+   "n": 1,
+   "types": {
+    "Person": 1
+   },
+   "forms": {
+    "Braun": 1
+   },
+   "pages": [
+    "VI"
+   ],
+   "n_pages": 1,
+   "contexts": [
+    {
+     "page": "VI",
+     "unit": "b1",
+     "text": "hen Herrn Dr. Wittig, v. Criegern, Sturm, Beatus, Dr. Passolt, Mauke, ⟦Braun⟧, Pätz, Rönsch, Garthe, Hüttig und Hölzer, Justizamtmann Jahn, die Bür"
+    }
+   ]
+  },
+  {
+   "key": "Rönsch",
+   "n": 1,
+   "types": {
+    "Person": 1
+   },
+   "forms": {
+    "Rönsch": 1
+   },
+   "pages": [
+    "VI"
+   ],
+   "n_pages": 1,
+   "contexts": [
+    {
+     "page": "VI",
+     "unit": "b1",
+     "text": " Wittig, v. Criegern, Sturm, Beatus, Dr. Passolt, Mauke, Braun, Pätz, ⟦Rönsch⟧, Garthe, Hüttig und Hölzer, Justizamtmann Jahn, die Bürgermeister zu "
+    }
+   ]
+  },
+  {
+   "key": "Garthe",
+   "n": 1,
+   "types": {
+    "Person": 1
+   },
+   "forms": {
+    "Garthe": 1
+   },
+   "pages": [
+    "VI"
+   ],
+   "n_pages": 1,
+   "contexts": [
+    {
+     "page": "VI",
+     "unit": "b1",
+     "text": " v. Criegern, Sturm, Beatus, Dr. Passolt, Mauke, Braun, Pätz, Rönsch, ⟦Garthe⟧, Hüttig und Hölzer, Justizamtmann Jahn, die Bürgermeister zu Gera, Sc"
+    }
+   ]
+  },
+  {
+   "key": "Hüttig",
+   "n": 1,
+   "types": {
+    "Person": 1
+   },
+   "forms": {
+    "Hüttig": 1
+   },
+   "pages": [
+    "VI"
+   ],
+   "n_pages": 1,
+   "contexts": [
+    {
+     "page": "VI",
+     "unit": "b1",
+     "text": "gern, Sturm, Beatus, Dr. Passolt, Mauke, Braun, Pätz, Rönsch, Garthe, ⟦Hüttig⟧ und Hölzer, Justizamtmann Jahn, die Bürgermeister zu Gera, Schleiz un"
+    }
+   ]
+  },
+  {
+   "key": "Hölzer",
+   "n": 1,
+   "types": {
+    "Person": 1
+   },
+   "forms": {
+    "Hölzer": 1
+   },
+   "pages": [
+    "VI"
+   ],
+   "n_pages": 1,
+   "contexts": [
+    {
+     "page": "VI",
+     "unit": "b1",
+     "text": ", Beatus, Dr. Passolt, Mauke, Braun, Pätz, Rönsch, Garthe, Hüttig und ⟦Hölzer⟧, Justizamtmann Jahn, die Bürgermeister zu Gera, Schleiz und Hirschber"
+    }
+   ]
+  },
+  {
+   "key": "Lorey",
+   "n": 1,
+   "types": {
+    "Person": 1
+   },
+   "forms": {
+    "Lorey": 1
+   },
+   "pages": [
+    "VI"
+   ],
+   "n_pages": 1,
+   "contexts": [
+    {
+     "page": "VI",
+     "unit": "b1",
+     "text": "ahn, die Bürgermeister zu Gera, Schleiz und Hirschberg, Schuldirector ⟦Lorey⟧, Dr. Rob. Schmidt, Forstadjunct Walther, Rendant Mehlhorn, Stadtschre"
+    }
+   ]
+  },
+  {
+   "key": "Walther",
+   "n": 1,
+   "types": {
+    "Person": 1
+   },
+   "forms": {
+    "Walther": 1
+   },
+   "pages": [
+    "VI"
+   ],
+   "n_pages": 1,
+   "contexts": [
+    {
+     "page": "VI",
+     "unit": "b1",
+     "text": "z und Hirschberg, Schuldirector Lorey, Dr. Rob. Schmidt, Forstadjunct ⟦Walther⟧, Rendant Mehlhorn, Stadtschreiber Teich, Lehrer Schwender und andere,"
+    }
+   ]
+  },
+  {
+   "key": "Schwender",
+   "n": 1,
+   "types": {
+    "Person": 1
+   },
+   "forms": {
+    "Schwender": 1
+   },
+   "pages": [
+    "VI"
+   ],
+   "n_pages": 1,
+   "contexts": [
+    {
+     "page": "VI",
+     "unit": "b1",
+     "text": " Forstadjunct Walther, Rendant Mehlhorn, Stadtschreiber Teich, Lehrer ⟦Schwender⟧ und andere, welche die Landeskunde an verschiedenen Stellen namhaft m"
     }
    ]
   },
@@ -16492,6 +17037,48 @@
      "page": "223",
      "unit": "b1.r37c4",
      "text": "Ehefrau ⟦Charlotte geb. v. Tettenborn⟧."
+    }
+   ]
+  },
+  {
+   "key": "Jer. Schön",
+   "n": 1,
+   "types": {
+    "Person": 1
+   },
+   "forms": {
+    "Jer. Schön": 1
+   },
+   "pages": [
+    "243"
+   ],
+   "n_pages": 1,
+   "contexts": [
+    {
+     "page": "243",
+     "unit": "b1",
+     "text": " Jahre 1502 schlossen die Landesherrn mit den nürnberger Handelsherrn ⟦Jer. Schön⟧ und Jer. Harsdörfer einen Vertrag, dem zufolge ihre Werkmeister der o"
+    }
+   ]
+  },
+  {
+   "key": "Jer. Harsdörfer",
+   "n": 1,
+   "types": {
+    "Person": 1
+   },
+   "forms": {
+    "Jer. Harsdörfer": 1
+   },
+   "pages": [
+    "243"
+   ],
+   "n_pages": 1,
+   "contexts": [
+    {
+     "page": "243",
+     "unit": "b1",
+     "text": "lossen die Landesherrn mit den nürnberger Handelsherrn Jer. Schön und ⟦Jer. Harsdörfer⟧ einen Vertrag, dem zufolge ihre Werkmeister der oberländischen Kupfer"
     }
    ]
   },
@@ -21473,13 +22060,13 @@
    ]
   },
   {
-   "key": "Heinrich der Ältere",
+   "key": "Heinrich der Mehrer (Voigt von Gera, 1244 — † vor Ende August 1279",
    "n": 1,
    "types": {
     "Person": 1
    },
    "forms": {
-    "Heinrich der Ältere": 1
+    "Heinrich der Mehrer (Voigt von Gera, 1244 — † vor Ende August 1279)": 1
    },
    "pages": [
     "352"
@@ -21489,7 +22076,7 @@
     {
      "page": "352",
      "unit": "b2",
-     "text": "⟦Heinrich der Ältere⟧, Voigt von Gera, 1244 — † vor Ende August 1279. Gem. Lukard von Lobda"
+     "text": "⟦Heinrich der Mehrer (Voigt von Gera, 1244 — † vor Ende August 1279)⟧, Voigt von Gera, 1244 — † vor Ende August 1279. Gem. Lukard von Lobda"
     }
    ]
   },
@@ -21510,18 +22097,18 @@
     {
      "page": "352",
      "unit": "b2",
-     "text": "nrich der Ältere, Voigt von Gera, 1244 — † vor Ende August 1279. Gem. ⟦Lukard von Lobdaburg-Arnshaugk⟧."
+     "text": "nde August 1279), Voigt von Gera, 1244 — † vor Ende August 1279. Gem. ⟦Lukard von Lobdaburg-Arnshaugk⟧."
     }
    ]
   },
   {
-   "key": "Irmgard v. Weimar",
+   "key": "Irmgard v. Weida, † nach 1317",
    "n": 1,
    "types": {
     "Person": 1
    },
    "forms": {
-    "Irmgard v. Weimar": 1
+    "Irmgard v. Weida, † nach 1317": 1
    },
    "pages": [
     "352"
@@ -21531,7 +22118,7 @@
     {
      "page": "352",
      "unit": "b3.r1c1",
-     "text": "Heinrich d. ä., der Hochberühmte, 1275 — Ende 1306. Gem. ⟦Irmgard v. Weimar⟧, † nach 1317."
+     "text": "Heinrich d. ä., der Hochberühmte, 1275 — Ende 1306. Gem. ⟦Irmgard v. Weida, † nach 1317⟧, † nach 1317."
     }
    ]
   },
@@ -21557,6 +22144,27 @@
    ]
   },
   {
+   "key": "Heinrich d. j., der Worthalter",
+   "n": 1,
+   "types": {
+    "Person": 1
+   },
+   "forms": {
+    "Heinrich d. j., der Worthalter": 1
+   },
+   "pages": [
+    "352"
+   ],
+   "n_pages": 1,
+   "contexts": [
+    {
+     "page": "352",
+     "unit": "b3.r2c5",
+     "text": "⟦Heinrich d. j., der Worthalter⟧, 1310 — 1376 (8. Decbr.). Gem. Mechtild v. Käfernburg."
+    }
+   ]
+  },
+  {
    "key": "Mechtild v. Käfernburg",
    "n": 1,
    "types": {
@@ -21573,7 +22181,7 @@
     {
      "page": "352",
      "unit": "b3.r2c5",
-     "text": "Heinrich d. j., der Wohlbedachte, 1310 — 1376 (8. Decbr.). Gem. ⟦Mechtild v. Käfernburg⟧."
+     "text": "Heinrich d. j., der Worthalter, 1310 — 1376 (8. Decbr.). Gem. ⟦Mechtild v. Käfernburg⟧."
     }
    ]
   },
@@ -21825,7 +22433,28 @@
     {
      "page": "352",
      "unit": "b3.r4c2",
-     "text": "Heinrich b. ä., geb. 1404, † vor April 1439. Herr v. Burgk 1426. Gem. ⟦Bilburg v. Schwarzburg-Leutenberg⟧.  2. Heinrich d. m., der Fintende, 1478 — † 1500. Gem. Hedwig v. Mans"
+     "text": "Heinrich b. ä., geb. 1404, † vor April 1439. Herr v. Burgk 1426. Gem. ⟦Bilburg v. Schwarzburg-Leutenberg⟧.  2. Heinrich d. m., 1478 — † 1500. Herr von Schleiz und Reichenfels;"
+    }
+   ]
+  },
+  {
+   "key": "Heinrich d. m., 1478 — † 1500. Herr von Schleiz und Reichenfels; der Beiname »der Hinkende« gehört zu Heinrich d. j. (1476 — † c. 1498",
+   "n": 1,
+   "types": {
+    "Person": 1
+   },
+   "forms": {
+    "Heinrich d. m., 1478 — † 1500. Herr von Schleiz und Reichenfels; der Beiname »der Hinkende« gehört zu Heinrich d. j. (1476 — † c. 1498)": 1
+   },
+   "pages": [
+    "352"
+   ],
+   "n_pages": 1,
+   "contexts": [
+    {
+     "page": "352",
+     "unit": "b3.r4c2",
+     "text": "1439. Herr v. Burgk 1426. Gem. Bilburg v. Schwarzburg-Leutenberg.  2. ⟦Heinrich d. m., 1478 — † 1500. Herr von Schleiz und Reichenfels; der Beiname »der Hinkende« gehört zu Heinrich d. j. (1476 — † c. 1498)⟧. Gem. Hedwig v. Mansfeld-Heldrungen.  Heinrich d. j., der Beharrliche"
     }
    ]
   },
@@ -21846,7 +22475,7 @@
     {
      "page": "352",
      "unit": "b3.r4c2",
-     "text": "urg-Leutenberg.  2. Heinrich d. m., der Fintende, 1478 — † 1500. Gem. ⟦Hedwig v. Mansfeld-Heldrungen⟧.  Heinrich d. j., der Beharrliche, 1502 — † 7. Aug. 1550. Gem. 1) Lud"
+     "text": "name »der Hinkende« gehört zu Heinrich d. j. (1476 — † c. 1498). Gem. ⟦Hedwig v. Mansfeld-Heldrungen⟧.  Heinrich d. j., der Beharrliche, 1502 — † 7. Aug. 1550. Gem. 1) Lud"
     }
    ]
   },
@@ -22035,7 +22664,7 @@
     {
      "page": "352",
      "unit": "b3.r4c4",
-     "text": "eutenberg.  Heinrich, 1495. † vor 1508.  Margaretha, † vor 1497. Gem. ⟦Ernst v. Hohnstein-Klettenberg⟧."
+     "text": "burg-Leutenberg.  Heinrich, 1495. 1508.  Margaretha, † vor 1497. Gem. ⟦Ernst v. Hohnstein-Klettenberg⟧."
     }
    ]
   },
@@ -26345,13 +26974,13 @@
    ]
   },
   {
-   "key": "Eliſ. Magdalena",
+   "key": "Elis. Magdalena",
    "n": 1,
    "types": {
     "Person": 1
    },
    "forms": {
-    "Eliſ. Magdalena": 1
+    "Elis. Magdalena": 1
    },
    "pages": [
     "394"
@@ -26361,7 +26990,7 @@
     {
      "page": "394",
      "unit": "b2.r2c4",
-     "text": "⟦Eliſ. Magdalena⟧, geb. 1601, † 1641."
+     "text": "⟦Elis. Magdalena⟧, geb. 1601, † 1641."
     }
    ]
   },
@@ -27684,7 +28313,7 @@
     {
      "page": "396",
      "unit": "b1",
-     "text": "I. Heinrich X., Gründer der Linie Lobenſtein, geb. 1621, † 1671. Gem. ⟦Marie Sibille Reuß-Obergreiz⟧, † 1675."
+     "text": "I. Heinrich X., Gründer der Linie Lobenstein, geb. 1621, † 1671. Gem. ⟦Marie Sibille Reuß-Obergreiz⟧, † 1675."
     }
    ]
   },
@@ -27731,13 +28360,13 @@
    ]
   },
   {
-   "key": "Erneſtine Sophie",
+   "key": "Ernestine Sophie",
    "n": 1,
    "types": {
     "Person": 1
    },
    "forms": {
-    "Erneſtine Sophie": 1
+    "Ernestine Sophie": 1
    },
    "pages": [
     "396"
@@ -27747,18 +28376,18 @@
     {
      "page": "396",
      "unit": "b2.r1c3",
-     "text": "⟦Erneſtine Sophie⟧, geb. u. † 1656."
+     "text": "⟦Ernestine Sophie⟧, geb. u. † 1656."
     }
    ]
   },
   {
-   "key": "Amalie Chriſtine",
+   "key": "Amalie Christine",
    "n": 1,
    "types": {
     "Person": 1
    },
    "forms": {
-    "Amalie Chriſtine": 1
+    "Amalie Christine": 1
    },
    "pages": [
     "396"
@@ -27768,7 +28397,7 @@
     {
      "page": "396",
      "unit": "b2.r1c4",
-     "text": "⟦Amalie Chriſtine⟧, geb. 1658, † 1659."
+     "text": "⟦Amalie Christine⟧, geb. 1658, † 1659."
     }
    ]
   },
@@ -27815,13 +28444,13 @@
    ]
   },
   {
-   "key": "Marie Chriſtiane v. Leiningen-Weſter-burg",
+   "key": "Marie Christiane v. Leiningen-Wester-burg",
    "n": 1,
    "types": {
     "Person": 1
    },
    "forms": {
-    "Marie Chriſtiane v. Leiningen-Weſter-burg": 1
+    "Marie Christiane v. Leiningen-Wester-burg": 1
    },
    "pages": [
     "396"
@@ -27831,18 +28460,18 @@
     {
      "page": "396",
      "unit": "b2.r2c2",
-     "text": "Heinrich III., geb. 1648, † 1710. Gem. ⟦Marie Chriſtiane v. Leiningen-Weſter-burg⟧, † 1714. Gründer der Speciallinie Lobenſtein."
+     "text": "Heinrich III., geb. 1648, † 1710. Gem. ⟦Marie Christiane v. Leiningen-Wester-burg⟧, † 1714. Gründer der Speciallinie Lobenstein."
     }
    ]
   },
   {
-   "key": "Elſie Sophie v. Bobenhauſen",
+   "key": "Elsie Sophie v. Bobenhausen",
    "n": 1,
    "types": {
     "Person": 1
    },
    "forms": {
-    "Elſie Sophie v. Bobenhauſen": 1
+    "Elsie Sophie v. Bobenhausen": 1
    },
    "pages": [
     "396"
@@ -27852,7 +28481,7 @@
     {
      "page": "396",
      "unit": "b2.r2c5",
-     "text": "Heinrich VIII., geb. 1652, † 1711. Herr von Hirſchberg. Gem.: 1) ⟦Elſie Sophie v. Bobenhauſen⟧; 2) Sophie Juliane Reuß-Obergreiz. Seine Erben ſind Lobenſtein u. Ebe"
+     "text": "Heinrich VIII., geb. 1652, † 1711. Herr von Hirschberg. Gem.: 1) ⟦Elsie Sophie v. Bobenhausen⟧; 2) Sophie Juliane Reuß-Obergreiz. Seine Erben sind Lobenstein u. Ebe"
     }
    ]
   },
@@ -27873,7 +28502,7 @@
     {
      "page": "396",
      "unit": "b2.r2c5",
-     "text": "† 1711. Herr von Hirſchberg. Gem.: 1) Elſie Sophie v. Bobenhauſen; 2) ⟦Sophie Juliane Reuß-Obergreiz⟧. Seine Erben ſind Lobenſtein u. Ebersd."
+     "text": "† 1711. Herr von Hirschberg. Gem.: 1) Elsie Sophie v. Bobenhausen; 2) ⟦Sophie Juliane Reuß-Obergreiz⟧. Seine Erben sind Lobenstein u. Ebersd."
     }
    ]
   },
@@ -27936,7 +28565,7 @@
     {
      "page": "396",
      "unit": "b2.r3c5",
-     "text": "Heinrich XXIII., g. 1680, † 1723. Oberſt in Heſſen-Caſſel. Gem. ⟦Beate Henriette v. Solms-Laubach⟧, † 1757."
+     "text": "Heinrich XXIII., g. 1680, † 1723. Oberst in Hessen-Cassel. Gem. ⟦Beate Henriette v. Solms-Laubach⟧, † 1757."
     }
    ]
   },
@@ -27957,18 +28586,18 @@
     {
      "page": "396",
      "unit": "b2.r4c2",
-     "text": "Heinrich XVII., geb. 1676, † 1706. Oberſt i. Heſſen-Caſſel. Gem. ⟦Eleonore Sophie v. Giech-Thurnau⟧."
+     "text": "Heinrich XVII., geb. 1676, † 1706. Oberst i. Hessen-Cassel. Gem. ⟦Eleonore Sophie v. Giech-Thurnau⟧."
     }
    ]
   },
   {
-   "key": "Erneſtine Eleon. v. Schön-burg-Walden-burg",
+   "key": "Ernestine Eleon. v. Schön-burg-Walden-burg",
    "n": 1,
    "types": {
     "Person": 1
    },
    "forms": {
-    "Erneſtine Eleon. v. Schön-burg-Walden-burg": 1
+    "Ernestine Eleon. v. Schön-burg-Walden-burg": 1
    },
    "pages": [
     "396"
@@ -27978,7 +28607,7 @@
     {
      "page": "396",
      "unit": "b2.r4c3",
-     "text": "Heinrich XV., g. 1674, † 1739. Gem. ⟦Erneſtine Eleon. v. Schön-burg-Walden-burg⟧, † 1741."
+     "text": "Heinrich XV., g. 1674, † 1739. Gem. ⟦Ernestine Eleon. v. Schön-burg-Walden-burg⟧, † 1741."
     }
    ]
   },
@@ -28046,13 +28675,13 @@
    ]
   },
   {
-   "key": "Joh. Auguſte",
+   "key": "Joh. Auguste",
    "n": 1,
    "types": {
     "Person": 1
    },
    "forms": {
-    "Joh. Auguſte": 1
+    "Joh. Auguste": 1
    },
    "pages": [
     "396"
@@ -28062,7 +28691,7 @@
     {
      "page": "396",
      "unit": "b3.r1c2",
-     "text": "⟦Joh. Auguſte⟧, g. 1686, † 1712."
+     "text": "⟦Joh. Auguste⟧, g. 1686, † 1712."
     }
    ]
   },
@@ -28088,13 +28717,13 @@
    ]
   },
   {
-   "key": "Wilhelmine Chriſtiane",
+   "key": "Wilhelmine Christiane",
    "n": 1,
    "types": {
     "Person": 1
    },
    "forms": {
-    "Wilhelmine Chriſtiane": 1
+    "Wilhelmine Christiane": 1
    },
    "pages": [
     "396"
@@ -28104,18 +28733,18 @@
     {
      "page": "396",
      "unit": "b3.r1c5",
-     "text": "⟦Wilhelmine Chriſtiane⟧, g. 1709, † 1777."
+     "text": "⟦Wilhelmine Christiane⟧, g. 1709, † 1777."
     }
    ]
   },
   {
-   "key": "Chriſtiane Eliſe",
+   "key": "Christiane Elise",
    "n": 1,
    "types": {
     "Person": 1
    },
    "forms": {
-    "Chriſtiane Eliſe": 1
+    "Christiane Elise": 1
    },
    "pages": [
     "396"
@@ -28125,18 +28754,18 @@
     {
      "page": "396",
      "unit": "b3.r2c1",
-     "text": "⟦Chriſtiane Eliſe⟧, g. 1678, † 1757."
+     "text": "⟦Christiane Elise⟧, g. 1678, † 1757."
     }
    ]
   },
   {
-   "key": "Beate Antonie Auguſte",
+   "key": "Beate Antonie Auguste",
    "n": 1,
    "types": {
     "Person": 1
    },
    "forms": {
-    "Beate Antonie Auguſte": 1
+    "Beate Antonie Auguste": 1
    },
    "pages": [
     "396"
@@ -28146,7 +28775,7 @@
     {
      "page": "396",
      "unit": "b3.r3c1",
-     "text": "⟦Beate Antonie Auguſte⟧, g. 1723, † 1797. Gem. Wilh. v. Bierre-gaard, † 1769."
+     "text": "⟦Beate Antonie Auguste⟧, g. 1723, † 1797. Gem. Wilh. v. Bierre-gaard, † 1769."
     }
    ]
   },
@@ -28167,18 +28796,18 @@
     {
      "page": "396",
      "unit": "b3.r3c1",
-     "text": "Beate Antonie Auguſte, g. 1723, † 1797. Gem. ⟦Wilh. v. Bierre-gaard⟧, † 1769."
+     "text": "Beate Antonie Auguste, g. 1723, † 1797. Gem. ⟦Wilh. v. Bierre-gaard⟧, † 1769."
     }
    ]
   },
   {
-   "key": "Erneſt. Friederike",
+   "key": "Ernest. Friederike",
    "n": 1,
    "types": {
     "Person": 1
    },
    "forms": {
-    "Erneſt. Friederike": 1
+    "Ernest. Friederike": 1
    },
    "pages": [
     "396"
@@ -28188,7 +28817,7 @@
     {
      "page": "396",
      "unit": "b3.r3c2",
-     "text": "⟦Erneſt. Friederike⟧, g. 1718, † 1776. Marie Albertine, g. 1717, † 1774. Todte Prinzeſſin,"
+     "text": "⟦Ernest. Friederike⟧, g. 1718, † 1776. Marie Albertine, g. 1717, † 1774. Todte Prinzessin,"
     }
    ]
   },
@@ -28209,7 +28838,7 @@
     {
      "page": "396",
      "unit": "b3.r3c2",
-     "text": "Erneſt. Friederike, g. 1718, † 1776. ⟦Marie Albertine⟧, g. 1717, † 1774. Todte Prinzeſſin, g. 1714."
+     "text": "Ernest. Friederike, g. 1718, † 1776. ⟦Marie Albertine⟧, g. 1717, † 1774. Todte Prinzessin, g. 1714."
     }
    ]
   },
@@ -28230,18 +28859,18 @@
     {
      "page": "396",
      "unit": "b3.r3c3",
-     "text": "⟦Soph. Magdalene⟧, g. 1713, † 1771. Marie Auguſte, g. 1712, † 1714. Marie Chriſtiane, g"
+     "text": "⟦Soph. Magdalene⟧, g. 1713, † 1771. Marie Auguste, g. 1712, † 1714. Marie Christiane, g"
     }
    ]
   },
   {
-   "key": "Marie Auguſte",
+   "key": "Christiane Thecla",
    "n": 1,
    "types": {
     "Person": 1
    },
    "forms": {
-    "Marie Auguſte": 1
+    "Christiane Thecla": 1
    },
    "pages": [
     "396"
@@ -28251,60 +28880,18 @@
     {
      "page": "396",
      "unit": "b3.r3c3",
-     "text": "Soph. Magdalene, g. 1713, † 1771. ⟦Marie Auguſte⟧, g. 1712, † 1714. Marie Chriſtiane, g. u. † 1710. Chriſtiane Thecla, "
+     "text": "1771. Marie Auguste, g. 1712, † 1714. Marie Christiane, g. u. † 1710. ⟦Christiane Thecla⟧, g. 1707, † 1733."
     }
    ]
   },
   {
-   "key": "Marie Chriſtiane",
+   "key": "Louise Wilhelm",
    "n": 1,
    "types": {
     "Person": 1
    },
    "forms": {
-    "Marie Chriſtiane": 1
-   },
-   "pages": [
-    "396"
-   ],
-   "n_pages": 1,
-   "contexts": [
-    {
-     "page": "396",
-     "unit": "b3.r3c3",
-     "text": "Soph. Magdalene, g. 1713, † 1771. Marie Auguſte, g. 1712, † 1714. ⟦Marie Chriſtiane⟧, g. u. † 1710. Chriſtiane Thecla, g. 1707, † 1733."
-    }
-   ]
-  },
-  {
-   "key": "Chriſtiane Thecla",
-   "n": 1,
-   "types": {
-    "Person": 1
-   },
-   "forms": {
-    "Chriſtiane Thecla": 1
-   },
-   "pages": [
-    "396"
-   ],
-   "n_pages": 1,
-   "contexts": [
-    {
-     "page": "396",
-     "unit": "b3.r3c3",
-     "text": "1771. Marie Auguſte, g. 1712, † 1714. Marie Chriſtiane, g. u. † 1710. ⟦Chriſtiane Thecla⟧, g. 1707, † 1733."
-    }
-   ]
-  },
-  {
-   "key": "Louiſe Wilhelm",
-   "n": 1,
-   "types": {
-    "Person": 1
-   },
-   "forms": {
-    "Louiſe Wilhelm.": 1
+    "Louise Wilhelm.": 1
    },
    "pages": [
     "396"
@@ -28314,7 +28901,7 @@
     {
      "page": "396",
      "unit": "b3.r3c4",
-     "text": "⟦Louiſe Wilhelm.⟧, g. 1709, † 1777."
+     "text": "⟦Louise Wilhelm.⟧, g. 1709, † 1777."
     }
    ]
   },
@@ -28361,13 +28948,13 @@
    ]
   },
   {
-   "key": "Chriſtiane Soph",
+   "key": "Christiane Soph",
    "n": 1,
    "types": {
     "Person": 1
    },
    "forms": {
-    "Chriſtiane Soph.": 1
+    "Christiane Soph.": 1
    },
    "pages": [
     "396"
@@ -28377,18 +28964,18 @@
     {
      "page": "396",
      "unit": "b4.r1c1",
-     "text": "⟦Chriſtiane Soph.⟧, g. 1704, † 1773."
+     "text": "⟦Christiane Soph.⟧, g. 1704, † 1773."
     }
    ]
   },
   {
-   "key": "Eleonore Mariane Chriſtine",
+   "key": "Eleonore Mariane Christine",
    "n": 1,
    "types": {
     "Person": 1
    },
    "forms": {
-    "Eleonore Mariane Chriſtine": 1
+    "Eleonore Mariane Christine": 1
    },
    "pages": [
     "396"
@@ -28398,18 +28985,18 @@
     {
      "page": "396",
      "unit": "b5",
-     "text": "⟦Eleonore Mariane Chriſtine⟧, geb. 1736, † 1782. Gem. Chriſtian Carl v. Stolberg-Gedern, † 1764. L"
+     "text": "⟦Eleonore Mariane Christine⟧, geb. 1736, † 1782. Gem. Christian Carl v. Stolberg-Gedern, † 1764. L"
     }
    ]
   },
   {
-   "key": "Chriſtian Carl v. Stolberg-Gedern",
+   "key": "Christian Carl v. Stolberg-Gedern",
    "n": 1,
    "types": {
     "Person": 1
    },
    "forms": {
-    "Chriſtian Carl v. Stolberg-Gedern": 1
+    "Christian Carl v. Stolberg-Gedern": 1
    },
    "pages": [
     "396"
@@ -28419,18 +29006,18 @@
     {
      "page": "396",
      "unit": "b5",
-     "text": "Eleonore Mariane Chriſtine, geb. 1736, † 1782. Gem. ⟦Chriſtian Carl v. Stolberg-Gedern⟧, † 1764. Linie Lobenſtein-Selbitz."
+     "text": "Eleonore Mariane Christine, geb. 1736, † 1782. Gem. ⟦Christian Carl v. Stolberg-Gedern⟧, † 1764. Linie Lobenstein-Selbitz."
     }
    ]
   },
   {
-   "key": "Marie Eliſe v. Reuß-Ebers-dorf",
+   "key": "Marie Elise v. Reuß-Ebers-dorf",
    "n": 1,
    "types": {
     "Person": 1
    },
    "forms": {
-    "Marie Eliſe v. Reuß-Ebers-dorf": 1
+    "Marie Elise v. Reuß-Ebers-dorf": 1
    },
    "pages": [
     "396"
@@ -28440,18 +29027,18 @@
     {
      "page": "396",
      "unit": "b6.r1c5",
-     "text": "Heinrich XXV., geb. 1724, † 1801. Gem. ⟦Marie Eliſe v. Reuß-Ebers-dorf⟧."
+     "text": "Heinrich XXV., geb. 1724, † 1801. Gem. ⟦Marie Elise v. Reuß-Ebers-dorf⟧."
     }
    ]
   },
   {
-   "key": "Sophie Henriette Eliſe",
+   "key": "Sophie Henriette Elise",
    "n": 1,
    "types": {
     "Person": 1
    },
    "forms": {
-    "Sophie Henriette Eliſe": 1
+    "Sophie Henriette Elise": 1
    },
    "pages": [
     "396"
@@ -28461,7 +29048,7 @@
     {
      "page": "396",
      "unit": "b7.r1c3",
-     "text": "⟦Sophie Henriette Eliſe⟧, g. u. † 1770."
+     "text": "⟦Sophie Henriette Elise⟧, g. u. † 1770."
     }
    ]
   },
@@ -28482,18 +29069,18 @@
     {
      "page": "396",
      "unit": "b7.r1c4",
-     "text": ". 1767, † 1824; erbt 1805 Lobenſtein, wird 1806 Reichsfürſt. Gem.: 1) ⟦Marie v. Stolberg-Wernigerode⟧; 2) Franziska Reuß-Köſtritz, † 1843. Sein Land fällt an Heinrich LXXI"
+     "text": ". 1767, † 1824; erbt 1805 Lobenstein, wird 1806 Reichsfürst. Gem.: 1) ⟦Marie v. Stolberg-Wernigerode⟧; 2) Franziska Reuß-Köstritz, † 1843. Sein Land fällt an Heinrich LXXI"
     }
    ]
   },
   {
-   "key": "Franziska Reuß-Köſtritz",
+   "key": "Franziska Reuß-Köstritz",
    "n": 1,
    "types": {
     "Person": 1
    },
    "forms": {
-    "Franziska Reuß-Köſtritz": 1
+    "Franziska Reuß-Köstritz": 1
    },
    "pages": [
     "396"
@@ -28503,18 +29090,18 @@
     {
      "page": "396",
      "unit": "b7.r1c4",
-     "text": "in, wird 1806 Reichsfürſt. Gem.: 1) Marie v. Stolberg-Wernigerode; 2) ⟦Franziska Reuß-Köſtritz⟧, † 1843. Sein Land fällt an Heinrich LXXII. zu Ebersdorf."
+     "text": "in, wird 1806 Reichsfürst. Gem.: 1) Marie v. Stolberg-Wernigerode; 2) ⟦Franziska Reuß-Köstritz⟧, † 1843. Sein Land fällt an Heinrich LXXII. zu Ebersdorf."
     }
    ]
   },
   {
-   "key": "Chriſtiane Marie Eleonore",
+   "key": "Christiane Marie Eleonore",
    "n": 1,
    "types": {
     "Person": 1
    },
    "forms": {
-    "Chriſtiane Marie Eleonore": 1
+    "Christiane Marie Eleonore": 1
    },
    "pages": [
     "396"
@@ -28524,18 +29111,18 @@
     {
      "page": "396",
      "unit": "b8.r1c1",
-     "text": "⟦Chriſtiane Marie Eleonore⟧, geb. 1722, † 1764. Gem. Chriſtian Heinrich v. Reitzenſtein, † 1762."
+     "text": "⟦Christiane Marie Eleonore⟧, geb. 1722, † 1764. Gem. Christian Heinrich v. Reitzenstein, † 1762."
     }
    ]
   },
   {
-   "key": "Chriſtian Heinrich v. Reitzenſtein",
+   "key": "Christian Heinrich v. Reitzenstein",
    "n": 1,
    "types": {
     "Person": 1
    },
    "forms": {
-    "Chriſtian Heinrich v. Reitzenſtein": 1
+    "Christian Heinrich v. Reitzenstein": 1
    },
    "pages": [
     "396"
@@ -28545,18 +29132,18 @@
     {
      "page": "396",
      "unit": "b8.r1c1",
-     "text": "Chriſtiane Marie Eleonore, geb. 1722, † 1764. Gem. ⟦Chriſtian Heinrich v. Reitzenſtein⟧, † 1762."
+     "text": "Christiane Marie Eleonore, geb. 1722, † 1764. Gem. ⟦Christian Heinrich v. Reitzenstein⟧, † 1762."
     }
    ]
   },
   {
-   "key": "Frieder. Eliſe",
+   "key": "Frieder. Elise",
    "n": 1,
    "types": {
     "Person": 1
    },
    "forms": {
-    "Frieder. Eliſe": 1
+    "Frieder. Elise": 1
    },
    "pages": [
     "396"
@@ -28566,7 +29153,7 @@
     {
      "page": "396",
      "unit": "b8.r1c2",
-     "text": "⟦Frieder. Eliſe⟧, g. 1730, † 1789. Sophie Eleon. g. 1729, † 1758. Wilhelmine g. 1728, "
+     "text": "⟦Frieder. Elise⟧, g. 1730, † 1789. Sophie Eleon. g. 1729, † 1758. Wilhelmine g. 1728, "
     }
    ]
   },
@@ -28587,7 +29174,7 @@
     {
      "page": "396",
      "unit": "b8.r1c2",
-     "text": "Frieder. Eliſe, g. 1730, † 1789. ⟦Sophie Eleon.⟧ g. 1729, † 1758. Wilhelmine g. 1728, † 1797."
+     "text": "Frieder. Elise, g. 1730, † 1789. ⟦Sophie Eleon.⟧ g. 1729, † 1758. Wilhelmine g. 1728, † 1797."
     }
    ]
   },
@@ -28608,7 +29195,7 @@
     {
      "page": "396",
      "unit": "b8.r1c2",
-     "text": "Frieder. Eliſe, g. 1730, † 1789. Sophie Eleon. g. 1729, † 1758. ⟦Wilhelmine⟧ g. 1728, † 1797."
+     "text": "Frieder. Elise, g. 1730, † 1789. Sophie Eleon. g. 1729, † 1758. ⟦Wilhelmine⟧ g. 1728, † 1797."
     }
    ]
   },
@@ -30163,6 +30750,27 @@
      "page": "398",
      "unit": "b2.r6c4",
      "text": ", nimmt die fürstl. Würde 1851 an und † 1852. Gem. Clothilde, Tochter ⟦Friedrich Ludwigs v. Castel⟧, verm. 1846, † 1860."
+    }
+   ]
+  },
+  {
+   "key": "H. LXI., g. 1784, † 1813",
+   "n": 1,
+   "types": {
+    "Person": 1
+   },
+   "forms": {
+    "H. LXI., g. 1784, † 1813": 1
+   },
+   "pages": [
+    "398"
+   ],
+   "n_pages": 1,
+   "contexts": [
+    {
+     "page": "398",
+     "unit": "b2.r7c1",
+     "text": "⟦H. LXI., g. 1784, † 1813⟧."
     }
    ]
   },
@@ -32788,27 +33396,6 @@
      "page": "401",
      "unit": "b8",
      "text": "+ 1861. Gem. Carl Egon v. Fürstenberg, + 1854. Hermine, g. 1840. Gem. ⟦Hugo v. Schönburg-Waldenburg⟧. Heinrich XXII., g. 28. März 1846, succedirt 1859 u. übernimmt d. Reg"
-    }
-   ]
-  },
-  {
-   "key": "Marie Auguste",
-   "n": 1,
-   "types": {
-    "Person": 1
-   },
-   "forms": {
-    "Marie Auguste": 1
-   },
-   "pages": [
-    "401"
-   ],
-   "n_pages": 1,
-   "contexts": [
-    {
-     "page": "401",
-     "unit": "b8",
-     "text": "bernimmt d. Regierung 1867 (28. März). Heinrich XXIII., g. u. + 1844. ⟦Marie Auguste⟧, g. 1855."
     }
    ]
   },
@@ -36420,7 +37007,7 @@
     {
      "page": "448",
      "unit": "b2",
-     "text": "und dem Vorwerk Bollersdorf bestand. Im Jahre 1539 verkaufte dasselbe ⟦Wolfgang v. Uttenhoven⟧ für 800 Gülden an die Stadt Gera, welche dadurch ihren bereits besess"
+     "text": "und dem Vorwerk Vollersdorf bestand. Im Jahre 1539 verkaufte dasselbe ⟦Wolfgang v. Uttenhoven⟧ für 800 Gülden an die Stadt Gera, welche dadurch ihren bereits besess"
     }
    ]
   },
@@ -38924,27 +39511,6 @@
    ]
   },
   {
-   "key": "Sieckmann",
-   "n": 1,
-   "types": {
-    "Person": 1
-   },
-   "forms": {
-    "Sieckmann": 1
-   },
-   "pages": [
-    "497"
-   ],
-   "n_pages": 1,
-   "contexts": [
-    {
-     "page": "497",
-     "unit": "b1",
-     "text": "nnenswerth die schwunghaft betriebenen Handelsgärtnereien von Deegen, ⟦Sieckmann⟧ und Hercher, deren Flor von Georginen, Pensees, Rosen und allen mögli"
-    }
-   ]
-  },
-  {
    "key": "Hercher",
    "n": 1,
    "types": {
@@ -39214,27 +39780,6 @@
      "page": "499",
      "unit": "b1",
      "text": "ige Sterne in der Geschichte von Köstritz. Ebenso hat der Rentmeister ⟦H. Schlotter⟧ durch seine sinnreiche, in allen Ländern patentirte neue Wasserhebung"
-    }
-   ]
-  },
-  {
-   "key": "Sturm",
-   "n": 1,
-   "types": {
-    "Person": 1
-   },
-   "forms": {
-    "Sturm": 1
-   },
-   "pages": [
-    "499"
-   ],
-   "n_pages": 1,
-   "contexts": [
-    {
-     "page": "499",
-     "unit": "b1",
-     "text": "nd 1863 von dem Fürsten Heinrich Reuß XIV. dem Prof. Liebe und Pastor ⟦Sturm⟧ übertragene Ausgrabung eine reiche Ausbeute *) von diluvialen Thierre"
     }
    ]
   },
@@ -40793,27 +41338,6 @@
    ]
   },
   {
-   "key": "Adam Heinrich v. Metsch",
-   "n": 1,
-   "types": {
-    "Person": 1
-   },
-   "forms": {
-    "Adam Heinrich v. Metsch": 1
-   },
-   "pages": [
-    "526"
-   ],
-   "n_pages": 1,
-   "contexts": [
-    {
-     "page": "526",
-     "unit": "b1",
-     "text": "ga an die Familie von Metsch, zuerst an Heinrich Bernhard und dann an ⟦Adam Heinrich v. Metsch⟧, 1683 an Veit Ludwig v. Tümpling und von diesem 1697 durch Kauf an di"
-    }
-   ]
-  },
-  {
    "key": "Veit Ludwig v. Tümpling",
    "n": 1,
    "types": {
@@ -41528,13 +42052,13 @@
    ]
   },
   {
-   "key": "Ludolph (Luph) von Beizdorf",
+   "key": "Ludolph (Luph) von Betzdorf",
    "n": 1,
    "types": {
     "Person": 1
    },
    "forms": {
-    "Ludolph (Luph) von Beizdorf": 1
+    "Ludolph (Luph) von Betzdorf": 1
    },
    "pages": [
     "536"
@@ -41544,7 +42068,7 @@
     {
      "page": "536",
      "unit": "b3",
-     "text": "ein im Jahre 1125 urkundlich neben und mit Luph von Gera vorkommender ⟦Ludolph (Luph) von Beizdorf⟧. Wahrscheinlich ist, daß das frühzeitig zerstörte Gut Beizdorf nach S"
+     "text": "ein im Jahre 1125 urkundlich neben und mit Luph von Gera vorkommender ⟦Ludolph (Luph) von Betzdorf⟧. Wahrscheinlich ist, daß das frühzeitig zerstörte Gut Betzdorf nach S"
     }
    ]
   },
@@ -44674,27 +45198,6 @@
      "page": "586",
      "unit": "b1",
      "text": "elklasse (Realparallelquarta) und als Hauptlehrer einen Director (Dr. ⟦Duden⟧), Prorector, Conrector, Subconrector und 3 ordentliche Gymnasiallehre"
-    }
-   ]
-  },
-  {
-   "key": "Weißker",
-   "n": 1,
-   "types": {
-    "Person": 1
-   },
-   "forms": {
-    "Weißker": 1
-   },
-   "pages": [
-    "587"
-   ],
-   "n_pages": 1,
-   "contexts": [
-    {
-     "page": "587",
-     "unit": "b1",
-     "text": "00 Thlr. 22 Sgr., gestiftet von einem aus Schleiz stammenden Diaconus ⟦Weißker⟧*) in Nürnberg, zu Gunsten seiner Descendenten); das engelschall-laute"
     }
    ]
   },
@@ -50495,27 +50998,6 @@
    ]
   },
   {
-   "key": "Marie Christiane",
-   "n": 1,
-   "types": {
-    "Person": 1
-   },
-   "forms": {
-    "Marie Christiane": 1
-   },
-   "pages": [
-    "715"
-   ],
-   "n_pages": 1,
-   "contexts": [
-    {
-     "page": "715",
-     "unit": "b1",
-     "text": "ingeräumt hatte. Das vormalige Palais Christianenzell, von der Gräfin ⟦Marie Christiane⟧, geb. Leiningen und Gemahlin des Grafen Heinrich Reuß III., 1714 am E"
-    }
-   ]
-  },
-  {
    "key": "Heinrich Reuß III",
    "n": 1,
    "types": {
@@ -52108,6 +52590,468 @@
      "page": "738",
      "unit": "fn1",
      "text": "ll.\" Uebrigens machte der edle, 1753 zu Ebersdorf verstorbene Hofrath ⟦J. Alex. Zelten⟧ die gleichen Erfahrungen, wie Moser, bezüglich der Herrnhutergemeinde"
+    }
+   ]
+  },
+  {
+   "key": "Lola",
+   "n": 1,
+   "types": {
+    "Person": 1
+   },
+   "forms": {
+    "Lola": 1
+   },
+   "pages": [
+    "739"
+   ],
+   "n_pages": 1,
+   "contexts": [
+    {
+     "page": "739",
+     "unit": "b1",
+     "text": "eußenland*). Zu Anfange der 1830r Jahre war hier die schöne Spanierin ⟦Lola⟧ zum Besuche bei dem Fürsten Heinrich LXXII., der sie in London aus dr"
+    }
+   ]
+  },
+  {
+   "key": "Zwick",
+   "n": 1,
+   "types": {
+    "Person": 1
+   },
+   "forms": {
+    "Zwick": 1
+   },
+   "pages": [
+    "739"
+   ],
+   "n_pages": 1,
+   "contexts": [
+    {
+     "page": "739",
+     "unit": "b1",
+     "text": "en. Ende der 1830r Jahre kam leider von hier eine durch den Missionär ⟦Zwick⟧ nach Ebersdorf gebrachte Sammlung von 1500 orientalischen Münzen unte"
+    }
+   ]
+  },
+  {
+   "key": "Kühnemann",
+   "n": 1,
+   "types": {
+    "Person": 1
+   },
+   "forms": {
+    "Kühnemann": 1
+   },
+   "pages": [
+    "739"
+   ],
+   "n_pages": 1,
+   "contexts": [
+    {
+     "page": "739",
+     "unit": "b1",
+     "text": " Sammlung von 1500 orientalischen Münzen unter Vermittlung des Diacon ⟦Kühnemann⟧ käuflich um 1000 Thlr. nach Jena. Unter den Münzen ist die älteste al"
+    }
+   ]
+  },
+  {
+   "key": "Großherzog von Berg",
+   "n": 1,
+   "types": {
+    "Person": 1
+   },
+   "forms": {
+    "Großherzog von Berg": 1
+   },
+   "pages": [
+    "739"
+   ],
+   "n_pages": 1,
+   "contexts": [
+    {
+     "page": "739",
+     "unit": "fn1",
+     "text": "Ueber Ebersdorf, auf Saalburg zu, gingen am 8. October 1806 der ⟦Großherzog von Berg⟧ mit seinem Corps und nach ihm die Truppen der Marschälle von Ponte-Co"
+    }
+   ]
+  },
+  {
+   "key": "Fürst v. Ponte-Corvo",
+   "n": 1,
+   "types": {
+    "Person": 1
+   },
+   "forms": {
+    "Fürst v. Ponte-Corvo": 1
+   },
+   "pages": [
+    "739"
+   ],
+   "n_pages": 1,
+   "contexts": [
+    {
+     "page": "739",
+     "unit": "fn1",
+     "text": "e Recognoscirung gegen Schleiz hin und ertheilte darauf dem Marschall ⟦Fürst v. Ponte-Corvo⟧ den Befehl, Schleiz zu nehmen. Als er am Morgen des 10. Octobers von "
+    }
+   ]
+  },
+  {
+   "key": "Maret",
+   "n": 1,
+   "types": {
+    "Person": 1
+   },
+   "forms": {
+    "Maret": 1
+   },
+   "pages": [
+    "739"
+   ],
+   "n_pages": 1,
+   "contexts": [
+    {
+     "page": "739",
+     "unit": "fn1",
+     "text": "tarken Marsch gemacht hatten. Zwei Tage später kam der Staatssecretär ⟦Maret⟧, welcher auf dem ganzen Wege in den vormaligen Quartieren des Kaisers"
+    }
+   ]
+  },
+  {
+   "key": "Neufchatel",
+   "n": 1,
+   "types": {
+    "Person": 1
+   },
+   "forms": {
+    "Neufchatel": 1
+   },
+   "pages": [
+    "739"
+   ],
+   "n_pages": 1,
+   "contexts": [
+    {
+     "page": "739",
+     "unit": "fn1",
+     "text": "r einige Stunden abgestiegen war, und in Gegenwart der Marschälle von ⟦Neufchatel⟧, Ponte-Corvo und Davoust den Plan zur Schlacht bei Jena und ging hier"
+    }
+   ]
+  },
+  {
+   "key": "Düroc",
+   "n": 1,
+   "types": {
+    "Person": 1
+   },
+   "forms": {
+    "Düroc": 1
+   },
+   "pages": [
+    "739"
+   ],
+   "n_pages": 1,
+   "contexts": [
+    {
+     "page": "739",
+     "unit": "fn1",
+     "text": " Saalfeld erhielt. Mit Napoleon waren zugleich in Gera die Marschälle ⟦Düroc⟧, Soult, Lefèbre, Bessieres, die Generäle Oudinot, Villemancy, Savary,"
+    }
+   ]
+  },
+  {
+   "key": "Soult",
+   "n": 1,
+   "types": {
+    "Person": 1
+   },
+   "forms": {
+    "Soult": 1
+   },
+   "pages": [
+    "739"
+   ],
+   "n_pages": 1,
+   "contexts": [
+    {
+     "page": "739",
+     "unit": "fn1",
+     "text": "ld erhielt. Mit Napoleon waren zugleich in Gera die Marschälle Düroc, ⟦Soult⟧, Lefèbre, Bessieres, die Generäle Oudinot, Villemancy, Savary, Rapp, "
+    }
+   ]
+  },
+  {
+   "key": "Bessieres",
+   "n": 1,
+   "types": {
+    "Person": 1
+   },
+   "forms": {
+    "Bessieres": 1
+   },
+   "pages": [
+    "739"
+   ],
+   "n_pages": 1,
+   "contexts": [
+    {
+     "page": "739",
+     "unit": "fn1",
+     "text": "Napoleon waren zugleich in Gera die Marschälle Düroc, Soult, Lefèbre, ⟦Bessieres⟧, die Generäle Oudinot, Villemancy, Savary, Rapp, Hülin, Esteve, Chass"
+    }
+   ]
+  },
+  {
+   "key": "Oudinot",
+   "n": 1,
+   "types": {
+    "Person": 1
+   },
+   "forms": {
+    "Oudinot": 1
+   },
+   "pages": [
+    "739"
+   ],
+   "n_pages": 1,
+   "contexts": [
+    {
+     "page": "739",
+     "unit": "fn1",
+     "text": "in Gera die Marschälle Düroc, Soult, Lefèbre, Bessieres, die Generäle ⟦Oudinot⟧, Villemancy, Savary, Rapp, Hülin, Esteve, Chasseloup, Macon, Berthier"
+    }
+   ]
+  },
+  {
+   "key": "Villemancy",
+   "n": 1,
+   "types": {
+    "Person": 1
+   },
+   "forms": {
+    "Villemancy": 1
+   },
+   "pages": [
+    "739"
+   ],
+   "n_pages": 1,
+   "contexts": [
+    {
+     "page": "739",
+     "unit": "fn1",
+     "text": "ie Marschälle Düroc, Soult, Lefèbre, Bessieres, die Generäle Oudinot, ⟦Villemancy⟧, Savary, Rapp, Hülin, Esteve, Chasseloup, Macon, Berthier, Clarke, Ca"
+    }
+   ]
+  },
+  {
+   "key": "Savary",
+   "n": 1,
+   "types": {
+    "Person": 1
+   },
+   "forms": {
+    "Savary": 1
+   },
+   "pages": [
+    "739"
+   ],
+   "n_pages": 1,
+   "contexts": [
+    {
+     "page": "739",
+     "unit": "fn1",
+     "text": "e Düroc, Soult, Lefèbre, Bessieres, die Generäle Oudinot, Villemancy, ⟦Savary⟧, Rapp, Hülin, Esteve, Chasseloup, Macon, Berthier, Clarke, Caulincour"
+    }
+   ]
+  },
+  {
+   "key": "Rapp",
+   "n": 1,
+   "types": {
+    "Person": 1
+   },
+   "forms": {
+    "Rapp": 1
+   },
+   "pages": [
+    "739"
+   ],
+   "n_pages": 1,
+   "contexts": [
+    {
+     "page": "739",
+     "unit": "fn1",
+     "text": " Soult, Lefèbre, Bessieres, die Generäle Oudinot, Villemancy, Savary, ⟦Rapp⟧, Hülin, Esteve, Chasseloup, Macon, Berthier, Clarke, Caulincourt und "
+    }
+   ]
+  },
+  {
+   "key": "Hülin",
+   "n": 1,
+   "types": {
+    "Person": 1
+   },
+   "forms": {
+    "Hülin": 1
+   },
+   "pages": [
+    "739"
+   ],
+   "n_pages": 1,
+   "contexts": [
+    {
+     "page": "739",
+     "unit": "fn1",
+     "text": ", Lefèbre, Bessieres, die Generäle Oudinot, Villemancy, Savary, Rapp, ⟦Hülin⟧, Esteve, Chasseloup, Macon, Berthier, Clarke, Caulincourt und der Kun"
+    }
+   ]
+  },
+  {
+   "key": "Esteve",
+   "n": 1,
+   "types": {
+    "Person": 1
+   },
+   "forms": {
+    "Esteve": 1
+   },
+   "pages": [
+    "739"
+   ],
+   "n_pages": 1,
+   "contexts": [
+    {
+     "page": "739",
+     "unit": "fn1",
+     "text": "re, Bessieres, die Generäle Oudinot, Villemancy, Savary, Rapp, Hülin, ⟦Esteve⟧, Chasseloup, Macon, Berthier, Clarke, Caulincourt und der Kunstkenner"
+    }
+   ]
+  },
+  {
+   "key": "Chasseloup",
+   "n": 1,
+   "types": {
+    "Person": 1
+   },
+   "forms": {
+    "Chasseloup": 1
+   },
+   "pages": [
+    "739"
+   ],
+   "n_pages": 1,
+   "contexts": [
+    {
+     "page": "739",
+     "unit": "fn1",
+     "text": "ieres, die Generäle Oudinot, Villemancy, Savary, Rapp, Hülin, Esteve, ⟦Chasseloup⟧, Macon, Berthier, Clarke, Caulincourt und der Kunstkenner Dinon. Am 1"
+    }
+   ]
+  },
+  {
+   "key": "Macon",
+   "n": 1,
+   "types": {
+    "Person": 1
+   },
+   "forms": {
+    "Macon": 1
+   },
+   "pages": [
+    "739"
+   ],
+   "n_pages": 1,
+   "contexts": [
+    {
+     "page": "739",
+     "unit": "fn1",
+     "text": "eneräle Oudinot, Villemancy, Savary, Rapp, Hülin, Esteve, Chasseloup, ⟦Macon⟧, Berthier, Clarke, Caulincourt und der Kunstkenner Dinon. Am 13. Octo"
+    }
+   ]
+  },
+  {
+   "key": "Berthier",
+   "n": 1,
+   "types": {
+    "Person": 1
+   },
+   "forms": {
+    "Berthier": 1
+   },
+   "pages": [
+    "739"
+   ],
+   "n_pages": 1,
+   "contexts": [
+    {
+     "page": "739",
+     "unit": "fn1",
+     "text": " Oudinot, Villemancy, Savary, Rapp, Hülin, Esteve, Chasseloup, Macon, ⟦Berthier⟧, Clarke, Caulincourt und der Kunstkenner Dinon. Am 13. October Vormit"
+    }
+   ]
+  },
+  {
+   "key": "Clarke",
+   "n": 1,
+   "types": {
+    "Person": 1
+   },
+   "forms": {
+    "Clarke": 1
+   },
+   "pages": [
+    "739"
+   ],
+   "n_pages": 1,
+   "contexts": [
+    {
+     "page": "739",
+     "unit": "fn1",
+     "text": "Villemancy, Savary, Rapp, Hülin, Esteve, Chasseloup, Macon, Berthier, ⟦Clarke⟧, Caulincourt und der Kunstkenner Dinon. Am 13. October Vormittags 10 "
+    }
+   ]
+  },
+  {
+   "key": "Caulincourt",
+   "n": 1,
+   "types": {
+    "Person": 1
+   },
+   "forms": {
+    "Caulincourt": 1
+   },
+   "pages": [
+    "739"
+   ],
+   "n_pages": 1,
+   "contexts": [
+    {
+     "page": "739",
+     "unit": "fn1",
+     "text": "cy, Savary, Rapp, Hülin, Esteve, Chasseloup, Macon, Berthier, Clarke, ⟦Caulincourt⟧ und der Kunstkenner Dinon. Am 13. October Vormittags 10 Uhr rückte Na"
+    }
+   ]
+  },
+  {
+   "key": "Dinon",
+   "n": 1,
+   "types": {
+    "Person": 1
+   },
+   "forms": {
+    "Dinon": 1
+   },
+   "pages": [
+    "739"
+   ],
+   "n_pages": 1,
+   "contexts": [
+    {
+     "page": "739",
+     "unit": "fn1",
+     "text": " Chasseloup, Macon, Berthier, Clarke, Caulincourt und der Kunstkenner ⟦Dinon⟧. Am 13. October Vormittags 10 Uhr rückte Napoleon, an der Spitze sein"
     }
    ]
   },
@@ -57950,13 +58894,13 @@
    ]
   },
   {
-   "key": "Mauke, Rich",
+   "key": "Maucke, Rich",
    "n": 1,
    "types": {
     "Person": 1
    },
    "forms": {
-    "Mauke, Rich.": 1
+    "Maucke, Rich.": 1
    },
    "pages": [
     "838"
@@ -57966,39 +58910,18 @@
     {
      "page": "838",
      "unit": "b1.r5c3",
-     "text": "⟦Mauke, Rich.⟧"
+     "text": "⟦Maucke, Rich.⟧"
     }
    ]
   },
   {
-   "key": "Mehlhorn",
+   "key": "Meißner",
    "n": 1,
    "types": {
     "Person": 1
    },
    "forms": {
-    "Mehlhorn": 1
-   },
-   "pages": [
-    "838"
-   ],
-   "n_pages": 1,
-   "contexts": [
-    {
-     "page": "838",
-     "unit": "b1.r6c3",
-     "text": "⟦Mehlhorn⟧"
-    }
-   ]
-  },
-  {
-   "key": "Meissner",
-   "n": 1,
-   "types": {
-    "Person": 1
-   },
-   "forms": {
-    "Meissner": 1
+    "Meißner": 1
    },
    "pages": [
     "838"
@@ -58008,7 +58931,7 @@
     {
      "page": "838",
      "unit": "b1.r7c3",
-     "text": "⟦Meissner⟧"
+     "text": "⟦Meißner⟧"
     }
    ]
   },
@@ -58622,27 +59545,6 @@
    ]
   },
   {
-   "key": "Siekmann",
-   "n": 1,
-   "types": {
-    "Person": 1
-   },
-   "forms": {
-    "Siekmann": 1
-   },
-   "pages": [
-    "839"
-   ],
-   "n_pages": 1,
-   "contexts": [
-    {
-     "page": "839",
-     "unit": "b1.r10c3",
-     "text": "⟦Siekmann⟧"
-    }
-   ]
-  },
-  {
    "key": "Singewald",
    "n": 1,
    "types": {
@@ -58744,27 +59646,6 @@
      "page": "839",
      "unit": "b1.r17c3",
      "text": "⟦Stiller⟧"
-    }
-   ]
-  },
-  {
-   "key": "v. Strauch",
-   "n": 1,
-   "types": {
-    "Person": 1
-   },
-   "forms": {
-    "v. Strauch": 1
-   },
-   "pages": [
-    "839"
-   ],
-   "n_pages": 1,
-   "contexts": [
-    {
-     "page": "839",
-     "unit": "b1.r18c3",
-     "text": "⟦v. Strauch⟧"
     }
    ]
   },
@@ -58874,27 +59755,6 @@
    ]
   },
   {
-   "key": "Teich",
-   "n": 1,
-   "types": {
-    "Person": 1
-   },
-   "forms": {
-    "Teich": 1
-   },
-   "pages": [
-    "839"
-   ],
-   "n_pages": 1,
-   "contexts": [
-    {
-     "page": "839",
-     "unit": "b1.r24c3",
-     "text": "⟦Teich⟧"
-    }
-   ]
-  },
-  {
    "key": "Timmisch, A",
    "n": 1,
    "types": {
@@ -59000,13 +59860,13 @@
    ]
   },
   {
-   "key": "v. Boss",
+   "key": "v. Voß",
    "n": 1,
    "types": {
     "Person": 1
    },
    "forms": {
-    "v. Boss": 1
+    "v. Voß": 1
    },
    "pages": [
     "839"
@@ -59016,7 +59876,7 @@
     {
      "page": "839",
      "unit": "b1.r37c3",
-     "text": "⟦v. Boss⟧"
+     "text": "⟦v. Voß⟧"
     }
    ]
   },

@@ -2,7 +2,7 @@
  "id": "staat-schulden-kassenscheine-1857-1866",
  "title": {
   "de": "Staatsschuld 1857–1866 und Kassenscheine im Vergleich",
-  "en": "State debt 1857–1866 and treasury notes compared"
+  "en": "State debt and treasury notes compared, 1857–1866"
  },
  "category": "finance",
  "section": "t1-4-3",
@@ -38,16 +38,16 @@
  },
  "method": {
   "de": "Die sechs Jahreswerte stammen aus der Tabelle S. 277 (b6) in Talern, Silbergroschen und Pfennigen; sie wurden mit 1 Taler = 30 Sgr = 360 Pf in Dezimal-Taler umgerechnet (abgeleitete Spalte). Für 1866 steht »—« bei Silbergroschen und Pfennigen (als 0 gelesen, hier leer gelassen). Die Kassenschein-Werte je Kopf stehen im Text S. 277–278 (10 Staaten). Zinslast (4 %) und Summen sind aus Brückners Angaben berechnet.",
-  "en": "The six annual values come from the table on p. 277 (b6) in thalers, Silbergroschen and Pfennige; they were converted into decimal thalers with 1 thaler = 30 Sgr = 360 Pf (derived column). For 1866 the Silbergroschen and Pfennige are “—” (read as zero, left empty here). The per-head treasury-note values are in the text on pp. 277–278 (10 states). Interest burden (4 %) and sums are computed from Brückner’s figures."
+  "en": "The six annual values come from the table on p. 277 (b6) in thalers, Silbergroschen and Pfennige; they were converted into decimal thalers with 1 thaler = 30 Sgr = 360 Pf (derived column). For 1866 the Silbergroschen and Pfennige are “—” (read as zero, left empty here). The per-head treasury-note values are in the text on pp. 277–278 (10 states). Interest burden (4%) and sums are computed from Brückner’s figures."
  },
  "findings": [
   {
    "de": "Die verzinsliche Staatsschuld sank von 459.127 Talern (1857) auf 399.236 (1861), also um 59.891 Taler oder 13,0 %, und bis 1866 auf 372.050 Taler; insgesamt ein Rückgang um 19,0 %.",
-   "en": "The interest-bearing debt fell from 459,127 thalers (1857) to 399,236 (1861), i.e. by 59,891 thalers or 13.0 %, and to 372,050 thalers by 1866; altogether a decline of 19.0 %."
+   "en": "The interest-bearing debt fell from 459,127 thalers (1857) to 399,236 (1861), i.e. by 59,891 thalers or 13.0%, and to 372,050 thalers by 1866; altogether a decline of 19.0%."
   },
   {
    "de": "Bei 4 % Verzinsung kostet die Schuld von 1866 rechnerisch 14.882 Taler jährlich, das sind 5,0 % der veranschlagten Jahreseinnahmen von 296.000 Talern (S. 276).",
-   "en": "At 4 % interest the 1866 debt costs about 14,882 thalers a year, i.e. 5.0 % of the estimated annual revenue of 296,000 thalers (p. 276)."
+   "en": "At 4% interest the 1866 debt costs about 14,882 thalers a year, i.e. 5.0% of the estimated annual revenue of 296,000 thalers (p. 276)."
   },
   {
    "de": "Rechnet man die 320.000 Taler Kassenscheine hinzu, beträgt die Gesamtverschuldung rund 692.050 Taler, etwa das 2,3fache der Jahreseinnahmen.",
@@ -65,7 +65,7 @@
   },
   {
    "de": "Seit dem 27. Dezember 1857 besteht die Schuld nur noch aus unkündbaren, mit 4 % verzinsten Staatsschuldscheinen; alle drei Jahre werden 12.600 Taler ausgelost. Die Rückgänge 1857–1861 sind größer, als diese Planung erwarten ließe; Brückner erklärt dies nicht.",
-   "en": "Since 27 December 1857 the debt consists only of irredeemable 4 % state bonds; 12,600 thalers are drawn for repayment every three years. The declines in 1857–1861 are larger than this schedule suggests; Brückner does not explain this."
+   "en": "Since 27 December 1857 the debt consists only of irredeemable 4% state bonds; 12,600 thalers are drawn for repayment every three years. The declines in 1857–1861 are larger than this schedule suggests; Brückner does not explain this."
   },
   {
    "de": "Das Jahr des Staatenvergleichs der Kassenscheine ist nicht genannt; die Einwohnerbasis für Reuß j. L. (320.000 : 3,63 ≈ 88.200) entspricht der Größenordnung der Bevölkerung.",
@@ -376,7 +376,7 @@
        "y": {
         "field": "debt_thaler",
         "type": "quantitative",
-        "title": "Thaler",
+        "title": "Taler",
         "scale": {
          "zero": true
         },
@@ -574,7 +574,7 @@
    "public debt",
    "treasury notes",
    "paper money",
-   "amortisation",
+   "amortization",
    "bonds",
    "finance"
   ]

@@ -36,8 +36,8 @@
   }
  ],
  "summary": {
-  "de": "Nach den Recherchen von 1864 zählt Brückner für die drei Landesteile 68 Gewerbe und Industriezweige, jeweils mit Selbständigen, Gehilfen, Dienstboten und Familiengliedern. Die Auswertung rangiert die Gewerbe nach den von ihnen ernährten Personen, stellt die Gewerbestruktur der Landesteile gegenüber und berechnet die Zahl der Gehilfen je Selbständigem. Die Weberei überragt alles: sie ernährt 10.180 Personen, das sind 23,6 % aller in der Tabelle erfassten.",
-  "en": "Based on the 1864 inquiries Brückner counts 68 trades and branches of industry for the three districts, each with masters, assistants, servants and family members. The analysis ranks the trades by the persons they support, compares the trade structure of the districts and computes the number of assistants per master. Weaving towers above everything: it supports 10,180 persons, 23.6 % of all persons recorded in the table."
+  "de": "Nach den Recherchen von 1864 zählt Brückner für die drei Landesteile 68 Gewerbe und Industriezweige, jeweils mit Selbständigen, Gehilfen, Dienstboten und Familiengliedern. Die Auswertung rangiert die Gewerbe nach den von ihnen ernährten Personen, stellt die Gewerbestruktur der Landesteile gegenüber und berechnet die Zahl der Gehilfen je Selbständigem. Die Weberei ist mit Abstand das größte Gewerbe: sie ernährt 10.180 Personen, das sind 23,6 % aller in der Tabelle erfassten.",
+  "en": "Based on the 1864 inquiries Brückner counts 68 trades and branches of industry for the three districts, each with masters, assistants, servants and family members. The analysis ranks the trades by the persons they support, compares the trade structure of the districts and computes the number of assistants per master. Weaving is by far the largest trade: it supports 10,180 persons, 23.6% of all persons recorded in the table."
  },
  "method": {
   "de": "Die Tabellen S. 252–254 wurden Zeile für Zeile übernommen (S. = Selbständige, G. = Gehilfen, D. = Dienstboten, F. = Familienglieder, nach der Fußnote auf S. 252). Abkürzungen der Gewerbenamen sind aufgelöst, Verweisziffern und Punktlinien entfernt; ein Strich im Druck ist als leerer Wert kodiert. Fünf Zeilen ohne jeden Eintrag (Putzmacher, Strumpfwaarenfabrikanten, Drahtbinder, Saline, Chem. Fabrik) sind weggelassen; die Arbeiter von Saline und chemischer Fabrik stehen nach der Fußnote unter 5). Die Spalte persons ist die Summe von S, G, D und F; sg = S + G; g_per_s = G / S. Die Anteile in der Heatmap sind der Anteil eines Gewerbes an allen Selbständigen und Gehilfen des Landesteils, berechnet aus den Zeilen der 68 Gewerbe. Für die Rangfolge und die Quoten werden die gedruckten Spalten »Fürstenthum« verwendet; wo sie von der Summe der Landesteile abweichen, steht der Befund in der Spalte print_diff.",
@@ -46,11 +46,11 @@
  "findings": [
   {
    "de": "Das Bekleidungsgewerbe stellt 19.884 der 43.132 erfassten Personen (46,1 %), die Bauhandwerker 9.452 (21,9 %). Allein die fünf größten Gewerbe (Weber, Maurer und Steinhauer, Schuhmacher, Zimmerleute, Schneider) vereinen 51,7 % aller Personen.",
-   "en": "The clothing trades account for 19,884 of the 43,132 persons recorded (46.1 %), the building trades for 9,452 (21.9 %). The five largest trades alone (weavers, masons and stonecutters, shoemakers, carpenters, tailors) account for 51.7 % of all persons."
+   "en": "The clothing trades account for 19,884 of the 43,132 persons recorded (46.1%), the building trades for 9,452 (21.9%). The five largest trades alone (weavers, masons and stonecutters, shoemakers, carpenters, tailors) account for 51.7% of all persons."
   },
   {
    "de": "Die Weberei ernährt im Landesteil Schleiz 6.556, in Gera 2.638 und in Lobenstein-Ebersdorf 986 Personen (zusammen 10.180, wie Brückner S. 256 angibt). Im Landesteil Schleiz gehören 42,5 % aller Selbständigen und Gehilfen zur Weberei, in Gera 15,4 %, in Lobenstein-Ebersdorf 8,3 %.",
-   "en": "Weaving supports 6,556 persons in the district of Schleiz, 2,638 in Gera and 986 in Lobenstein-Ebersdorf (10,180 in all, as Brückner states on p. 256). In the district of Schleiz 42.5 % of all masters and assistants belong to weaving, in Gera 15.4 %, in Lobenstein-Ebersdorf 8.3 %."
+   "en": "Weaving supports 6,556 persons in the district of Schleiz, 2,638 in Gera and 986 in Lobenstein-Ebersdorf (10,180 in all, as Brückner states on p. 256). In the district of Schleiz 42.5% of all masters and assistants belong to weaving, in Gera 15.4%, in Lobenstein-Ebersdorf 8.3%."
   },
   {
    "de": "Auf einen selbständigen Maurer oder Steinhauer kommen 21,3 Gehilfen, auf einen Zimmermann 20,0; unter den 30 Gewerben mit mindestens 40 Selbständigen haben nur 8 mehr Gehilfen als Meister. Das passt zu Brückners Hinweis, dass die oberländischen Maurer- und Zimmergesellen im Sommer auswärts arbeiten (S. 256).",
@@ -58,7 +58,7 @@
   },
   {
    "de": "Im Landesteil Lobenstein-Ebersdorf entfallen 9,3 % der Selbständigen und Gehilfen auf die Dachdecker (Schieferdecker), in Gera nur 0,4 %; die Maschinenbauer sitzen vor allem in Gera (118 Selbständige und Gehilfen gegenüber 52 in Lobenstein-Ebersdorf und keinem in Schleiz).",
-   "en": "In the district of Lobenstein-Ebersdorf 9.3 % of the masters and assistants are roofers (slate roofers), in Gera only 0.4 %; machine builders are concentrated in Gera (118 masters and assistants against 52 in Lobenstein-Ebersdorf and none in Schleiz)."
+   "en": "In the district of Lobenstein-Ebersdorf 9.3% of the masters and assistants are roofers (slate roofers), in Gera only 0.4%; machine builders are concentrated in Gera (118 masters and assistants against 52 in Lobenstein-Ebersdorf and none in Schleiz)."
   }
  ],
  "caveats": [
@@ -4431,7 +4431,7 @@
           "de": "datum.label",
           "en": "{'Nahrung':'Food','Kleidung':'Clothing','Bauhandwerker':'Building','Hausausstattung':'House and farm','Sonstige':'Other'}[datum.label]"
          },
-         "columns": 3
+         "columns": 2
         }
        },
        "tooltip": [
@@ -4527,7 +4527,8 @@
  },
  "related": [
   "industrie-hauptzweige-staedte-plattland-1864",
-  "wirtschaft-berufsklassen-1864"
+  "wirtschaft-berufsklassen-1864",
+  "orte-handwerk-gewerbe-doerfer"
  ],
  "generated_by": "Claude Sonnet 5.5 (subagent A10)",
  "date": "2026-10-01"

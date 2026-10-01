@@ -43,7 +43,7 @@
   },
   {
    "de": "Die Geraer Bank hatte 1868 einen Gesamtumsatz von 75.367.300 Talern, das 18,8fache ihres Grundkapitals von 4 Millionen. Brückner schätzt den Gesamtverkehr der Stadt Gera ohne die Geldinstitute auf 10, mit ihnen auf 100 Millionen Taler; die Geldinstitute machen also 90 % dieser Schätzung aus, die Geraer Bank allein ihr Umsatz 75,4 %.",
-   "en": "In 1868 the Geraer Bank had a total turnover of 75,367,300 thalers, 18.8 times its share capital of 4 million. Brückner estimates the total traffic of the town of Gera at 10 million thalers without the financial institutions and 100 million with them; the financial institutions thus make up 90 % of this estimate, the turnover of the Geraer Bank alone 75.4 %."
+   "en": "In 1868 the Geraer Bank had a total turnover of 75,367,300 thalers, 18.8 times its share capital of 4 million. Brückner estimates the total traffic of the town of Gera at 10 million thalers without the financial institutions and 100 million with them; the financial institutions thus make up 90% of this estimate, the turnover of the Geraer Bank alone 75.4%."
   }
  ],
  "caveats": [
@@ -272,7 +272,7 @@
      "Deutsches Handelsgesetzbuch eingeführt",
      "German commercial code introduced",
      "Recht und Verwaltung",
-     "Fürstenthum",
+     "Fürstentum",
      "1863-02-23",
      null,
      "Tag",
@@ -701,7 +701,7 @@
        "text": {
         "field": "mio",
         "type": "quantitative",
-        "format": ".4~f"
+        "format": ".1~f"
        }
       }
      }

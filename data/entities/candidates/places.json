@@ -1,19 +1,20 @@
 {
  "group": "places",
- "n_keys": 1795,
+ "n_keys": 1780,
  "entries": [
   {
    "key": "Gera",
-   "n": 1144,
+   "n": 1151,
    "types": {
-    "Location": 1144
+    "Location": 1151
    },
    "forms": {
-    "Gera": 1141,
+    "Gera": 1148,
     "Gera's": 3
    },
    "pages": [
     "I",
+    "VI",
     "5",
     "7",
     "8",
@@ -27,15 +28,19 @@
     "43",
     "45",
     "51",
-    "52",
     "…"
    ],
-   "n_pages": 433,
+   "n_pages": 436,
    "contexts": [
     {
      "page": "I",
      "unit": "b8",
      "text": "⟦Gera⟧ 1870."
+    },
+    {
+     "page": "VI",
+     "unit": "b1",
+     "text": ", Garthe, Hüttig und Hölzer, Justizamtmann Jahn, die Bürgermeister zu ⟦Gera⟧, Schleiz und Hirschberg, Schuldirector Lorey, Dr. Rob. Schmidt, Forst"
     },
     {
      "page": "5",
@@ -46,11 +51,6 @@
      "page": "7",
      "unit": "b1.r8c1",
      "text": "⟦Gera⟧"
-    },
-    {
-     "page": "8",
-     "unit": "b1",
-     "text": "ls, mit dem man begonnen hatte, den preußischen Morgen zu Grunde. Für ⟦Gera⟧ ist der Maßstab der Kartirung 1/2000, für Schleiz 1/2500, bei den Cro"
     }
    ],
    "brueckner_register": [
@@ -124,14 +124,16 @@
   },
   {
    "key": "Schleiz",
-   "n": 752,
+   "n": 760,
    "types": {
-    "Location": 752
+    "Location": 760
    },
    "forms": {
-    "Schleiz": 752
+    "Schleiz": 760
    },
    "pages": [
+    "VI",
+    "VIII",
     "3",
     "5",
     "6",
@@ -145,12 +147,20 @@
     "30",
     "31",
     "32",
-    "33",
-    "34",
     "…"
    ],
-   "n_pages": 318,
+   "n_pages": 322,
    "contexts": [
+    {
+     "page": "VI",
+     "unit": "b1",
+     "text": "he, Hüttig und Hölzer, Justizamtmann Jahn, die Bürgermeister zu Gera, ⟦Schleiz⟧ und Hirschberg, Schuldirector Lorey, Dr. Rob. Schmidt, Forstadjunct W"
+    },
+    {
+     "page": "VIII",
+     "unit": "b5.r2c1",
+     "text": "II. Der Landestheil ⟦Schleiz⟧ oder das Wisentaland"
+    },
     {
      "page": "3",
      "unit": "fn1",
@@ -160,16 +170,6 @@
      "page": "5",
      "unit": "b4",
      "text": "Die Gliederung des Fürstenthums in die drei Bezirke Gera, ⟦Schleiz⟧ und Lobenstein-Ebersdorf hat ihren Grund nicht minder in der Lage und"
-    },
-    {
-     "page": "6",
-     "unit": "b3.r21c1",
-     "text": "⟦Schleiz⟧"
-    },
-    {
-     "page": "7",
-     "unit": "b3",
-     "text": ", Frankenthal, Triebes; Rödersdorf, Lohma, Tanna, Dobareuth; Pörmitz, ⟦Schleiz⟧, Seubtendorf; Gahma, Wurzbach, Titschendorf;"
     }
    ],
    "brueckner_register": [
@@ -210,12 +210,12 @@
   },
   {
    "key": "Lobenstein",
-   "n": 406,
+   "n": 413,
    "types": {
-    "Location": 406
+    "Location": 413
    },
    "forms": {
-    "Lobenstein": 406
+    "Lobenstein": 413
    },
    "pages": [
     "3",
@@ -235,7 +235,7 @@
     "48",
     "…"
    ],
-   "n_pages": 205,
+   "n_pages": 208,
    "contexts": [
     {
      "page": "3",
@@ -307,12 +307,12 @@
   },
   {
    "key": "Saalburg",
-   "n": 283,
+   "n": 285,
    "types": {
-    "Location": 283
+    "Location": 285
    },
    "forms": {
-    "Saalburg": 283
+    "Saalburg": 285
    },
    "pages": [
     "6",
@@ -332,7 +332,7 @@
     "123",
     "…"
    ],
-   "n_pages": 164,
+   "n_pages": 166,
    "contexts": [
     {
      "page": "6",
@@ -347,7 +347,7 @@
     {
      "page": "8",
      "unit": "b2.r6c1",
-     "text": "⟦Saalburg⟧ . . . . ."
+     "text": "⟦Saalburg⟧"
     },
     {
      "page": "19",
@@ -479,14 +479,15 @@
   },
   {
    "key": "Hirschberg",
-   "n": 197,
+   "n": 199,
    "types": {
-    "Location": 197
+    "Location": 199
    },
    "forms": {
-    "Hirschberg": 197
+    "Hirschberg": 199
    },
    "pages": [
+    "VI",
     "6",
     "21",
     "25",
@@ -501,11 +502,15 @@
     "97",
     "106",
     "124",
-    "130",
     "…"
    ],
-   "n_pages": 107,
+   "n_pages": 109,
    "contexts": [
+    {
+     "page": "VI",
+     "unit": "b1",
+     "text": "nd Hölzer, Justizamtmann Jahn, die Bürgermeister zu Gera, Schleiz und ⟦Hirschberg⟧, Schuldirector Lorey, Dr. Rob. Schmidt, Forstadjunct Walther, Rendant"
+    },
     {
      "page": "6",
      "unit": "b3.r30c1",
@@ -520,11 +525,6 @@
      "page": "25",
      "unit": "b1",
      "text": "Erhebungswall läßt sich heutzutage noch recht gut in der Richtung von ⟦Hirschberg⟧ über Blankenberg nach Lobenstein bis Heinersdorf hin verfolgen. Tause"
-    },
-    {
-     "page": "26",
-     "unit": "b1",
-     "text": "den endlich, wenn auch in etwas veränderter Gestalt, die Umgebung von ⟦Hirschberg⟧, wie z. B. bei Mödlareuth, Gebersreuth, Ullersreuth an der Lehstenwan"
     }
    ],
    "brueckner_register": [
@@ -716,13 +716,143 @@
    ]
   },
   {
-   "key": "Langenberg",
-   "n": 153,
+   "key": "Ebersdorf",
+   "n": 158,
    "types": {
-    "Location": 153
+    "Location": 158
    },
    "forms": {
-    "Langenberg": 153
+    "Ebersdorf": 158
+   },
+   "pages": [
+    "6",
+    "7",
+    "21",
+    "23",
+    "34",
+    "48",
+    "81",
+    "96",
+    "97",
+    "106",
+    "137",
+    "168",
+    "170",
+    "218",
+    "225",
+    "…"
+   ],
+   "n_pages": 95,
+   "contexts": [
+    {
+     "page": "6",
+     "unit": "b3.r15c1",
+     "text": "⟦Ebersdorf⟧"
+    },
+    {
+     "page": "7",
+     "unit": "b4",
+     "text": ", Gera; Waltersdorf, Dürrenebersdorf, Zwötzen, Kaimberg; Oberlemnitz, ⟦Ebersdorf⟧, Stelzen."
+    },
+    {
+     "page": "21",
+     "unit": "b1.r3c2",
+     "text": "⟦Ebersdorf⟧ 1320—1390'."
+    },
+    {
+     "page": "23",
+     "unit": "b1.r5c2",
+     "text": "Buckel zwischen ⟦Ebersdorf⟧ und Röppisch 1458'."
+    }
+   ],
+   "brueckner_register": [
+    {
+     "name": "Ebersdorf",
+     "parents": [],
+     "pages": [
+      "731"
+     ],
+     "wuestung": false,
+     "gemeinde": true
+    }
+   ],
+   "geonames_candidates": [
+    {
+     "geonames": 2933921,
+     "name": "Ebersdorf",
+     "lat": 50.48461,
+     "lon": 11.66757,
+     "class": "P",
+     "code": "PPL",
+     "admin1": "15",
+     "population": 866,
+     "km": 19.8
+    },
+    {
+     "geonames": 2933920,
+     "name": "Ebersdorf",
+     "lat": 50.48992,
+     "lon": 11.34897,
+     "class": "P",
+     "code": "PPL",
+     "admin1": "02",
+     "population": 0,
+     "km": 38.2
+    },
+    {
+     "geonames": 2933922,
+     "name": "Ebersdorf",
+     "lat": 50.32898,
+     "lon": 11.15266,
+     "class": "P",
+     "code": "PPL",
+     "admin1": "02",
+     "population": 6378,
+     "km": 59.0
+    },
+    {
+     "geonames": 2933915,
+     "name": "Ebersdorf bei Coburg",
+     "lat": 50.21973,
+     "lon": 11.06857,
+     "class": "P",
+     "code": "PPL",
+     "admin1": "02",
+     "population": 0,
+     "km": 71.0
+    },
+    {
+     "geonames": 2933919,
+     "name": "Ebersdorf",
+     "lat": 50.88123,
+     "lon": 12.97728,
+     "class": "P",
+     "code": "PPLX",
+     "admin1": "13",
+     "population": 0,
+     "km": 84.5
+    },
+    {
+     "geonames": 2933924,
+     "name": "Ebersdorf",
+     "lat": 49.33964,
+     "lon": 12.32542,
+     "class": "P",
+     "code": "PPL",
+     "admin1": "02",
+     "population": 0,
+     "km": 146.4
+    }
+   ]
+  },
+  {
+   "key": "Langenberg",
+   "n": 155,
+   "types": {
+    "Location": 155
+   },
+   "forms": {
+    "Langenberg": 155
    },
    "pages": [
     "10",
@@ -742,7 +872,7 @@
     "137",
     "…"
    ],
-   "n_pages": 92,
+   "n_pages": 94,
    "contexts": [
     {
      "page": "10",
@@ -943,61 +1073,61 @@
    ]
   },
   {
-   "key": "Ebersdorf",
-   "n": 151,
+   "key": "Köstritz",
+   "n": 127,
    "types": {
-    "Location": 151
+    "Location": 127
    },
    "forms": {
-    "Ebersdorf": 151
+    "Köstritz": 127
    },
    "pages": [
-    "6",
     "7",
-    "21",
-    "23",
-    "34",
-    "48",
-    "81",
+    "12",
+    "37",
+    "38",
+    "39",
+    "40",
+    "45",
+    "52",
+    "53",
+    "76",
+    "77",
+    "87",
     "96",
-    "97",
-    "106",
-    "137",
-    "168",
-    "170",
-    "218",
-    "225",
+    "119",
+    "121",
     "…"
    ],
-   "n_pages": 94,
+   "n_pages": 77,
    "contexts": [
     {
-     "page": "6",
-     "unit": "b3.r15c1",
-     "text": "⟦Ebersdorf⟧"
-    },
-    {
      "page": "7",
-     "unit": "b4",
-     "text": ", Gera; Waltersdorf, Dürrenebersdorf, Zwötzen, Kaimberg; Oberlemnitz, ⟦Ebersdorf⟧, Stelzen."
+     "unit": "b1.r15c1",
+     "text": "⟦Köstritz⟧"
     },
     {
-     "page": "21",
-     "unit": "b1.r3c2",
-     "text": "⟦Ebersdorf⟧ 1320—1390'."
+     "page": "12",
+     "unit": "b3.r2c1",
+     "text": "⟦Köstritz⟧ 470—520'."
     },
     {
-     "page": "23",
-     "unit": "b1.r5c2",
-     "text": "Buckel zwischen ⟦Ebersdorf⟧ und Röppisch 1458'."
+     "page": "37",
+     "unit": "b3",
+     "text": "ie Landesgrenze. Endlich ist auch das Thal zwischen Eleonorenthal und ⟦Köstritz⟧ so tief ausgewaschen, daß dadurch bis unmittelbar vor Köstritz kulmis"
+    },
+    {
+     "page": "38",
+     "unit": "b3",
+     "text": "n stehen auch Gypsstöcke an, wie z. B. die von Thieschitz, Rubitz und ⟦Köstritz⟧ und die noch umfangreicheren zwischen Köstritz und Gleina und zwische"
     }
    ],
    "brueckner_register": [
     {
-     "name": "Ebersdorf",
+     "name": "Köstritz",
      "parents": [],
      "pages": [
-      "731"
+      "494"
      ],
      "wuestung": false,
      "gemeinde": true
@@ -1005,70 +1135,37 @@
    ],
    "geonames_candidates": [
     {
-     "geonames": 2933921,
-     "name": "Ebersdorf",
-     "lat": 50.48461,
-     "lon": 11.66757,
+     "geonames": 2953417,
+     "name": "Bad Köstritz",
+     "lat": 50.93032,
+     "lon": 12.01005,
      "class": "P",
      "code": "PPL",
      "admin1": "15",
-     "population": 866,
-     "km": 19.8
+     "population": 3924,
+     "km": 36.3
     },
     {
-     "geonames": 2933920,
-     "name": "Ebersdorf",
-     "lat": 50.48992,
-     "lon": 11.34897,
-     "class": "P",
-     "code": "PPL",
-     "admin1": "02",
+     "geonames": 6551043,
+     "name": "Bad Köstritz",
+     "lat": 50.9333,
+     "lon": 12.0167,
+     "class": "A",
+     "code": "ADM4",
+     "admin1": "15",
+     "population": 3651,
+     "km": 36.8
+    },
+    {
+     "geonames": 11977504,
+     "name": "Bad Köstritz",
+     "lat": 50.93159,
+     "lon": 12.02845,
+     "class": "S",
+     "code": "RSTN",
+     "admin1": "15",
      "population": 0,
-     "km": 38.2
-    },
-    {
-     "geonames": 2933922,
-     "name": "Ebersdorf",
-     "lat": 50.32898,
-     "lon": 11.15266,
-     "class": "P",
-     "code": "PPL",
-     "admin1": "02",
-     "population": 6378,
-     "km": 59.0
-    },
-    {
-     "geonames": 2933915,
-     "name": "Ebersdorf bei Coburg",
-     "lat": 50.21973,
-     "lon": 11.06857,
-     "class": "P",
-     "code": "PPL",
-     "admin1": "02",
-     "population": 0,
-     "km": 71.0
-    },
-    {
-     "geonames": 2933919,
-     "name": "Ebersdorf",
-     "lat": 50.88123,
-     "lon": 12.97728,
-     "class": "P",
-     "code": "PPLX",
-     "admin1": "13",
-     "population": 0,
-     "km": 84.5
-    },
-    {
-     "geonames": 2933924,
-     "name": "Ebersdorf",
-     "lat": 49.33964,
-     "lon": 12.32542,
-     "class": "P",
-     "code": "PPL",
-     "admin1": "02",
-     "population": 0,
-     "km": 146.4
+     "km": 36.8
     }
    ]
   },
@@ -1114,7 +1211,7 @@
     {
      "page": "251",
      "unit": "b2.r5c7",
-     "text": "⟦Weida⟧ . . . ."
+     "text": "⟦Weida⟧"
     },
     {
      "page": "256",
@@ -1199,103 +1296,6 @@
      "admin1": "13",
      "population": 0,
      "km": 124.3
-    }
-   ]
-  },
-  {
-   "key": "Köstritz",
-   "n": 126,
-   "types": {
-    "Location": 126
-   },
-   "forms": {
-    "Köstritz": 126
-   },
-   "pages": [
-    "7",
-    "12",
-    "37",
-    "38",
-    "39",
-    "40",
-    "45",
-    "52",
-    "53",
-    "76",
-    "77",
-    "87",
-    "96",
-    "119",
-    "121",
-    "…"
-   ],
-   "n_pages": 76,
-   "contexts": [
-    {
-     "page": "7",
-     "unit": "b1.r15c1",
-     "text": "⟦Köstritz⟧"
-    },
-    {
-     "page": "12",
-     "unit": "b3.r2c1",
-     "text": "⟦Köstritz⟧ 470—520'."
-    },
-    {
-     "page": "37",
-     "unit": "b3",
-     "text": "ie Landesgrenze. Endlich ist auch das Thal zwischen Eleonorenthal und ⟦Köstritz⟧ so tief ausgewaschen, daß dadurch bis unmittelbar vor Köstritz kulmis"
-    },
-    {
-     "page": "38",
-     "unit": "b3",
-     "text": "n stehen auch Gypsstöcke an, wie z. B. die von Thieschitz, Rubitz und ⟦Köstritz⟧ und die noch umfangreicheren zwischen Köstritz und Gleina und zwische"
-    }
-   ],
-   "brueckner_register": [
-    {
-     "name": "Köstritz",
-     "parents": [],
-     "pages": [
-      "494"
-     ],
-     "wuestung": false,
-     "gemeinde": true
-    }
-   ],
-   "geonames_candidates": [
-    {
-     "geonames": 2953417,
-     "name": "Bad Köstritz",
-     "lat": 50.93032,
-     "lon": 12.01005,
-     "class": "P",
-     "code": "PPL",
-     "admin1": "15",
-     "population": 3924,
-     "km": 36.3
-    },
-    {
-     "geonames": 6551043,
-     "name": "Bad Köstritz",
-     "lat": 50.9333,
-     "lon": 12.0167,
-     "class": "A",
-     "code": "ADM4",
-     "admin1": "15",
-     "population": 3651,
-     "km": 36.8
-    },
-    {
-     "geonames": 11977504,
-     "name": "Bad Köstritz",
-     "lat": 50.93159,
-     "lon": 12.02845,
-     "class": "S",
-     "code": "RSTN",
-     "admin1": "15",
-     "population": 0,
-     "km": 36.8
     }
    ]
   },
@@ -1398,14 +1398,15 @@
   },
   {
    "key": "Lobenstein-Ebersdorf",
-   "n": 114,
+   "n": 115,
    "types": {
-    "Location": 114
+    "Location": 115
    },
    "forms": {
-    "Lobenstein-Ebersdorf": 114
+    "Lobenstein-Ebersdorf": 115
    },
    "pages": [
+    "VIII",
     "5",
     "8",
     "92",
@@ -1420,11 +1421,15 @@
     "106",
     "107",
     "108",
-    "109",
     "…"
    ],
-   "n_pages": 66,
+   "n_pages": 67,
    "contexts": [
+    {
+     "page": "VIII",
+     "unit": "b5.r3c1",
+     "text": "III. Der Landestheil ⟦Lobenstein-Ebersdorf⟧"
+    },
     {
      "page": "5",
      "unit": "b4",
@@ -1439,11 +1444,6 @@
      "page": "92",
      "unit": "b1.r4c1",
      "text": "Landrathsbezirk ⟦Lobenstein-Ebersdorf⟧."
-    },
-    {
-     "page": "93",
-     "unit": "b5",
-     "text": "zirke Gera mit 9491,81 Seelen auf die ☐Meile, die dünnste dem Bezirke ⟦Lobenstein-Ebersdorf⟧ mit 4470,80 Seelen auf die ☐Meile. Uebrigens ist die gegenwärtige Bev"
     }
    ]
   },
@@ -1565,7 +1565,7 @@
     {
      "page": "8",
      "unit": "b2.r7c1",
-     "text": "⟦Reichenfels⟧ . . . ."
+     "text": "⟦Reichenfels⟧"
     },
     {
      "page": "20",
@@ -1857,12 +1857,12 @@
   },
   {
    "key": "Harra",
-   "n": 76,
+   "n": 78,
    "types": {
-    "Location": 76
+    "Location": 78
    },
    "forms": {
-    "Harra": 76
+    "Harra": 78
    },
    "pages": [
     "6",
@@ -1882,7 +1882,7 @@
     "240",
     "…"
    ],
-   "n_pages": 45,
+   "n_pages": 46,
    "contexts": [
     {
      "page": "6",
@@ -2787,6 +2787,92 @@
    ]
   },
   {
+   "key": "Pottiga",
+   "n": 52,
+   "types": {
+    "Location": 52
+   },
+   "forms": {
+    "Pottiga": 52
+   },
+   "pages": [
+    "26",
+    "27",
+    "28",
+    "46",
+    "132",
+    "202",
+    "205",
+    "230",
+    "243",
+    "245",
+    "247",
+    "262",
+    "266",
+    "350",
+    "415",
+    "…"
+   ],
+   "n_pages": 31,
+   "contexts": [
+    {
+     "page": "26",
+     "unit": "b3",
+     "text": "r südwestwärts über Hirschberg nach Bayern hinüber und westwärts über ⟦Pottiga⟧ hinaus, wo er schließlich sich mit den mehr unveränderten kambrischen"
+    },
+    {
+     "page": "27",
+     "unit": "b2",
+     "text": "hmte Grube „Arme Hilfe“), das Tännig bei Lobenstein, die Umgegend von ⟦Pottiga⟧ 2c. Uebrigens setzen die Erzgänge vielfach in die folgenden Formation"
+    },
+    {
+     "page": "28",
+     "unit": "b1",
+     "text": "hen Formation, z. B. südlich von Ullersreuth, an der Lehstenwand, bei ⟦Pottiga⟧ tc. In dieser Formation stehen die Dachschieferbrüche von Ullersreuth"
+    },
+    {
+     "page": "46",
+     "unit": "b11",
+     "text": "8) Der Drusenbach, auf der Grenze zwischen ⟦Pottiga⟧ und Blankenberg zur Saale rinnend."
+    }
+   ],
+   "brueckner_register": [
+    {
+     "name": "Pottiga",
+     "parents": [],
+     "pages": [
+      "800"
+     ],
+     "wuestung": false,
+     "gemeinde": true
+    }
+   ],
+   "geonames_candidates": [
+    {
+     "geonames": 6550466,
+     "name": "Pottiga",
+     "lat": 50.41459,
+     "lon": 11.73992,
+     "class": "A",
+     "code": "ADM4H",
+     "admin1": "15",
+     "population": 409,
+     "km": 24.1
+    },
+    {
+     "geonames": 2852428,
+     "name": "Pottiga",
+     "lat": 50.41459,
+     "lon": 11.74052,
+     "class": "P",
+     "code": "PPLA4",
+     "admin1": "15",
+     "population": 0,
+     "km": 24.1
+    }
+   ]
+  },
+  {
    "key": "Kraftsdorf",
    "n": 51,
    "types": {
@@ -2884,61 +2970,61 @@
    ]
   },
   {
-   "key": "Pottiga",
-   "n": 51,
+   "key": "Gahma",
+   "n": 50,
    "types": {
-    "Location": 51
+    "Location": 50
    },
    "forms": {
-    "Pottiga": 51
+    "Gahma": 50
    },
    "pages": [
-    "26",
-    "27",
-    "28",
-    "46",
-    "132",
-    "202",
+    "6",
+    "7",
+    "22",
+    "23",
+    "36",
+    "121",
+    "124",
+    "133",
+    "199",
     "205",
-    "230",
+    "243",
     "245",
-    "247",
-    "262",
-    "266",
-    "350",
-    "415",
-    "670",
+    "292",
+    "578",
+    "661",
     "…"
    ],
-   "n_pages": 30,
+   "n_pages": 39,
    "contexts": [
     {
-     "page": "26",
+     "page": "6",
+     "unit": "b3.r5c1",
+     "text": "⟦Gahma⟧"
+    },
+    {
+     "page": "7",
      "unit": "b3",
-     "text": "r südwestwärts über Hirschberg nach Bayern hinüber und westwärts über ⟦Pottiga⟧ hinaus, wo er schließlich sich mit den mehr unveränderten kambrischen"
+     "text": "; Rödersdorf, Lohma, Tanna, Dobareuth; Pörmitz, Schleiz, Seubtendorf; ⟦Gahma⟧, Wurzbach, Titschendorf;"
     },
     {
-     "page": "27",
-     "unit": "b2",
-     "text": "hmte Grube „Arme Hilfe“), das Tännig bei Lobenstein, die Umgegend von ⟦Pottiga⟧ 2c. Uebrigens setzen die Erzgänge vielfach in die folgenden Formation"
+     "page": "22",
+     "unit": "b1.r9c2",
+     "text": "⟦Gahma⟧ 1550—1590'."
     },
     {
-     "page": "28",
-     "unit": "b1",
-     "text": "hen Formation, z. B. südlich von Ullersreuth, an der Lehstenwand, bei ⟦Pottiga⟧ tc. In dieser Formation stehen die Dachschieferbrüche von Ullersreuth"
-    },
-    {
-     "page": "46",
-     "unit": "b11",
-     "text": "8) Der Drusenbach, auf der Grenze zwischen ⟦Pottiga⟧ und Blankenberg zur Saale rinnend."
+     "page": "23",
+     "unit": "b1.r21c2",
+     "text": "Großer Silberberg bei ⟦Gahma⟧ 1530'."
     }
    ],
    "brueckner_register": [
     {
-     "name": "Pottiga",
+     "name": "Gahma",
      "parents": [],
      "pages": [
-      "800"
+      "763"
      ],
      "wuestung": false,
      "gemeinde": true
@@ -2946,26 +3032,15 @@
    ],
    "geonames_candidates": [
     {
-     "geonames": 6550466,
-     "name": "Pottiga",
-     "lat": 50.41459,
-     "lon": 11.73992,
-     "class": "A",
-     "code": "ADM4H",
-     "admin1": "15",
-     "population": 409,
-     "km": 24.1
-    },
-    {
-     "geonames": 2852428,
-     "name": "Pottiga",
-     "lat": 50.41459,
-     "lon": 11.74052,
+     "geonames": 2923347,
+     "name": "Gahma",
+     "lat": 50.5231,
+     "lon": 11.53763,
      "class": "P",
-     "code": "PPLA4",
+     "code": "PPL",
      "admin1": "15",
-     "population": 0,
-     "km": 24.1
+     "population": 163,
+     "km": 24.6
     }
    ]
   },
@@ -3107,6 +3182,81 @@
      "admin1": "13",
      "population": 0,
      "km": 128.3
+    }
+   ]
+  },
+  {
+   "key": "Großaga",
+   "n": 50,
+   "types": {
+    "Location": 50
+   },
+   "forms": {
+    "Großaga": 50
+   },
+   "pages": [
+    "7",
+    "12",
+    "124",
+    "133",
+    "135",
+    "138",
+    "147",
+    "199",
+    "204",
+    "218",
+    "242",
+    "292",
+    "294",
+    "295",
+    "409",
+    "…"
+   ],
+   "n_pages": 31,
+   "contexts": [
+    {
+     "page": "7",
+     "unit": "b1.r14c1",
+     "text": "⟦Großaga⟧"
+    },
+    {
+     "page": "12",
+     "unit": "b1.r28c1",
+     "text": "⟦Großaga⟧ 660—700'."
+    },
+    {
+     "page": "124",
+     "unit": "b3",
+     "text": "Oberröppisch drei Linden, Kulm zwei, Hirschfeld und Waaswitz drei und ⟦Großaga⟧ vier Pappeln. Bäume mit Thieren finden sich in vier Ortssiegeln, näml"
+    },
+    {
+     "page": "133",
+     "unit": "b1",
+     "text": "er Kirche in Langenberg, das Hauptstück in Lusan, das Kreuzgewölbe in ⟦Großaga⟧, Dorna, Schwaara und Tinz, die Haupttheile in Hirschfeld, Söllmnitz, "
+    }
+   ],
+   "brueckner_register": [
+    {
+     "name": "Großaga",
+     "parents": [],
+     "pages": [
+      "521"
+     ],
+     "wuestung": false,
+     "gemeinde": true
+    }
+   ],
+   "geonames_candidates": [
+    {
+     "geonames": 2917065,
+     "name": "Großaga",
+     "lat": 50.96637,
+     "lon": 12.08766,
+     "class": "P",
+     "code": "PPL",
+     "admin1": "15",
+     "population": 330,
+     "km": 42.0
     }
    ]
   },
@@ -3360,81 +3510,6 @@
    ]
   },
   {
-   "key": "Gahma",
-   "n": 49,
-   "types": {
-    "Location": 49
-   },
-   "forms": {
-    "Gahma": 49
-   },
-   "pages": [
-    "6",
-    "7",
-    "22",
-    "23",
-    "36",
-    "121",
-    "124",
-    "133",
-    "199",
-    "205",
-    "245",
-    "292",
-    "578",
-    "661",
-    "707",
-    "…"
-   ],
-   "n_pages": 38,
-   "contexts": [
-    {
-     "page": "6",
-     "unit": "b3.r5c1",
-     "text": "⟦Gahma⟧"
-    },
-    {
-     "page": "7",
-     "unit": "b3",
-     "text": "; Rödersdorf, Lohma, Tanna, Dobareuth; Pörmitz, Schleiz, Seubtendorf; ⟦Gahma⟧, Wurzbach, Titschendorf;"
-    },
-    {
-     "page": "22",
-     "unit": "b1.r9c2",
-     "text": "⟦Gahma⟧ 1550—1590'."
-    },
-    {
-     "page": "23",
-     "unit": "b1.r21c2",
-     "text": "Großer Silberberg bei ⟦Gahma⟧ 1530'."
-    }
-   ],
-   "brueckner_register": [
-    {
-     "name": "Gahma",
-     "parents": [],
-     "pages": [
-      "763"
-     ],
-     "wuestung": false,
-     "gemeinde": true
-    }
-   ],
-   "geonames_candidates": [
-    {
-     "geonames": 2923347,
-     "name": "Gahma",
-     "lat": 50.5231,
-     "lon": 11.53763,
-     "class": "P",
-     "code": "PPL",
-     "admin1": "15",
-     "population": 163,
-     "km": 24.6
-    }
-   ]
-  },
-  {
    "key": "Hof",
    "n": 49,
    "types": {
@@ -3576,6 +3651,103 @@
    ]
   },
   {
+   "key": "Burgk",
+   "n": 49,
+   "types": {
+    "Location": 49
+   },
+   "forms": {
+    "Burgk": 49
+   },
+   "pages": [
+    "85",
+    "243",
+    "332",
+    "342",
+    "343",
+    "345",
+    "346",
+    "347",
+    "348",
+    "349",
+    "350",
+    "351",
+    "352",
+    "361",
+    "362",
+    "…"
+   ],
+   "n_pages": 30,
+   "contexts": [
+    {
+     "page": "85",
+     "unit": "b2",
+     "text": "uz (Strix noctua). Der Schuhu (Uhu) horstet nur noch an der Saale bei ⟦Burgk⟧. Von den hühnerartigen Vögeln haben sich die Ringeltauben etwas gemin"
+    },
+    {
+     "page": "243",
+     "unit": "b1",
+     "text": "605 elf neue Gewerkschaften in den Districten Lobenstein, Schleiz und ⟦Burgk⟧ bildeten. Indess schon damals erschien den Landesregenten die Jagd au"
+    },
+    {
+     "page": "332",
+     "unit": "b3",
+     "text": "Waldstein; Greiz, Ronneburg, Posterstein; Gera, Schleiz, Reichenfels, ⟦Burgk⟧, Saalburg, Lobenstein, Nordhalben, Hirschberg, Blankenberg, Sparnberg"
+    },
+    {
+     "page": "342",
+     "unit": "b1",
+     "text": " Otto's, des letzten Grafen von Lobdaburg-Arnshaugk, noch die Gebiete ⟦Burgk⟧ und Schleiz hinzukamen. Dazu hatte er nach dem kinderlosen Tode des V"
+    }
+   ],
+   "geonames_candidates": [
+    {
+     "geonames": 2941226,
+     "name": "Burgk",
+     "lat": 50.55603,
+     "lon": 11.71803,
+     "class": "P",
+     "code": "PPLA4",
+     "admin1": "15",
+     "population": 102,
+     "km": 11.7
+    },
+    {
+     "geonames": 6559299,
+     "name": "Burgk",
+     "lat": 50.5436,
+     "lon": 11.70792,
+     "class": "A",
+     "code": "ADM4H",
+     "admin1": "15",
+     "population": 91,
+     "km": 13.1
+    },
+    {
+     "geonames": 2941225,
+     "name": "Burgk",
+     "lat": 51.00252,
+     "lon": 13.67161,
+     "class": "P",
+     "code": "PPL",
+     "admin1": "13",
+     "population": 0,
+     "km": 134.9
+    },
+    {
+     "geonames": 10298935,
+     "name": "Burgk",
+     "lat": 51.04604,
+     "lon": 13.69759,
+     "class": "S",
+     "code": "HTL",
+     "admin1": "13",
+     "population": 0,
+     "km": 138.1
+    }
+   ]
+  },
+  {
    "key": "Bayern",
    "n": 48,
    "types": {
@@ -3647,81 +3819,6 @@
      "admin1": "02",
      "population": 0,
      "km": 171.9
-    }
-   ]
-  },
-  {
-   "key": "Großaga",
-   "n": 48,
-   "types": {
-    "Location": 48
-   },
-   "forms": {
-    "Großaga": 48
-   },
-   "pages": [
-    "7",
-    "12",
-    "124",
-    "133",
-    "135",
-    "138",
-    "147",
-    "199",
-    "204",
-    "218",
-    "242",
-    "292",
-    "294",
-    "295",
-    "409",
-    "…"
-   ],
-   "n_pages": 30,
-   "contexts": [
-    {
-     "page": "7",
-     "unit": "b1.r14c1",
-     "text": "⟦Großaga⟧"
-    },
-    {
-     "page": "12",
-     "unit": "b1.r28c1",
-     "text": "⟦Großaga⟧ 660—700'."
-    },
-    {
-     "page": "124",
-     "unit": "b3",
-     "text": "Oberröppisch drei Linden, Kulm zwei, Hirschfeld und Waaswitz drei und ⟦Großaga⟧ vier Pappeln. Bäume mit Thieren finden sich in vier Ortssiegeln, näml"
-    },
-    {
-     "page": "133",
-     "unit": "b1",
-     "text": "er Kirche in Langenberg, das Hauptstück in Lusan, das Kreuzgewölbe in ⟦Großaga⟧, Dorna, Schwaara und Tinz, die Haupttheile in Hirschfeld, Söllmnitz, "
-    }
-   ],
-   "brueckner_register": [
-    {
-     "name": "Großaga",
-     "parents": [],
-     "pages": [
-      "521"
-     ],
-     "wuestung": false,
-     "gemeinde": true
-    }
-   ],
-   "geonames_candidates": [
-    {
-     "geonames": 2917065,
-     "name": "Großaga",
-     "lat": 50.96637,
-     "lon": 12.08766,
-     "class": "P",
-     "code": "PPL",
-     "admin1": "15",
-     "population": 330,
-     "km": 42.0
     }
    ]
   },
@@ -3812,6 +3909,81 @@
    ]
   },
   {
+   "key": "Gräfenwarth",
+   "n": 48,
+   "types": {
+    "Location": 48
+   },
+   "forms": {
+    "Gräfenwarth": 48
+   },
+   "pages": [
+    "23",
+    "28",
+    "29",
+    "31",
+    "47",
+    "106",
+    "134",
+    "200",
+    "227",
+    "230",
+    "240",
+    "243",
+    "244",
+    "276",
+    "280",
+    "…"
+   ],
+   "n_pages": 32,
+   "contexts": [
+    {
+     "page": "23",
+     "unit": "b1.r17c1",
+     "text": "Schmiedekoppe bei ⟦Gräfenwarth⟧ 1317'."
+    },
+    {
+     "page": "28",
+     "unit": "b5",
+     "text": "ebaut, finden aber jetzt wegen ihrer Weichheit keine Verwendung mehr (⟦Gräfenwarth⟧, Gottliebsthal tc.). Die wichtigste Verwendung des Kieselschiefers is"
+    },
+    {
+     "page": "29",
+     "unit": "b2",
+     "text": "m, streicht dann beim Wetterahammer über das Wetterathal hinüber nach ⟦Gräfenwarth⟧, dann weiter auf der Nordseite der Landstraße entlang, sich immer wei"
+    },
+    {
+     "page": "31",
+     "unit": "b1",
+     "text": "n Graptolithen führenden Kieselschiefer über die Wettera hinüber nach ⟦Gräfenwarth⟧ zu. Dann taucht der Zug wieder bei der oschitzer Schäferei auf, geht "
+    }
+   ],
+   "brueckner_register": [
+    {
+     "name": "Gräfenwarth",
+     "parents": [],
+     "pages": [
+      "672"
+     ],
+     "wuestung": false,
+     "gemeinde": true
+    }
+   ],
+   "geonames_candidates": [
+    {
+     "geonames": 2918262,
+     "name": "Gräfenwarth",
+     "lat": 50.52975,
+     "lon": 11.75311,
+     "class": "P",
+     "code": "PPL",
+     "admin1": "15",
+     "population": 315,
+     "km": 12.1
+    }
+   ]
+  },
+  {
    "key": "Gefell",
    "n": 48,
    "types": {
@@ -3848,7 +4020,7 @@
     {
      "page": "251",
      "unit": "b2.r5c4",
-     "text": "⟦Gefell⟧ . . . ."
+     "text": "⟦Gefell⟧"
     },
     {
      "page": "275",
@@ -3894,103 +4066,6 @@
      "admin1": "15",
      "population": 0,
      "km": 56.8
-    }
-   ]
-  },
-  {
-   "key": "Burgk",
-   "n": 48,
-   "types": {
-    "Location": 48
-   },
-   "forms": {
-    "Burgk": 48
-   },
-   "pages": [
-    "85",
-    "332",
-    "342",
-    "343",
-    "345",
-    "346",
-    "347",
-    "348",
-    "349",
-    "350",
-    "351",
-    "352",
-    "361",
-    "362",
-    "367",
-    "…"
-   ],
-   "n_pages": 29,
-   "contexts": [
-    {
-     "page": "85",
-     "unit": "b2",
-     "text": "uz (Strix noctua). Der Schuhu (Uhu) horstet nur noch an der Saale bei ⟦Burgk⟧. Von den hühnerartigen Vögeln haben sich die Ringeltauben etwas gemin"
-    },
-    {
-     "page": "332",
-     "unit": "b3",
-     "text": "Waldstein; Greiz, Ronneburg, Posterstein; Gera, Schleiz, Reichenfels, ⟦Burgk⟧, Saalburg, Lobenstein, Nordhalben, Hirschberg, Blankenberg, Sparnberg"
-    },
-    {
-     "page": "342",
-     "unit": "b1",
-     "text": " Otto's, des letzten Grafen von Lobdaburg-Arnshaugk, noch die Gebiete ⟦Burgk⟧ und Schleiz hinzukamen. Dazu hatte er nach dem kinderlosen Tode des V"
-    },
-    {
-     "page": "343",
-     "unit": "b2",
-     "text": "n Linien des Grafenhauses Lobdaburg, welche Erbrechte auf Schleiz und ⟦Burgk⟧ vorgaben, in Verbindung mit der Landgräfin Elisabeth (der Wittwe des "
-    }
-   ],
-   "geonames_candidates": [
-    {
-     "geonames": 2941226,
-     "name": "Burgk",
-     "lat": 50.55603,
-     "lon": 11.71803,
-     "class": "P",
-     "code": "PPLA4",
-     "admin1": "15",
-     "population": 102,
-     "km": 11.7
-    },
-    {
-     "geonames": 6559299,
-     "name": "Burgk",
-     "lat": 50.5436,
-     "lon": 11.70792,
-     "class": "A",
-     "code": "ADM4H",
-     "admin1": "15",
-     "population": 91,
-     "km": 13.1
-    },
-    {
-     "geonames": 2941225,
-     "name": "Burgk",
-     "lat": 51.00252,
-     "lon": 13.67161,
-     "class": "P",
-     "code": "PPL",
-     "admin1": "13",
-     "population": 0,
-     "km": 134.9
-    },
-    {
-     "geonames": 10298935,
-     "name": "Burgk",
-     "lat": 51.04604,
-     "lon": 13.69759,
-     "class": "S",
-     "code": "HTL",
-     "admin1": "13",
-     "population": 0,
-     "km": 138.1
     }
    ]
   },
@@ -4167,61 +4242,61 @@
    ]
   },
   {
-   "key": "Gräfenwarth",
+   "key": "Zollgrün",
    "n": 47,
    "types": {
     "Location": 47
    },
    "forms": {
-    "Gräfenwarth": 47
+    "Zollgrün": 47
    },
    "pages": [
+    "21",
     "23",
-    "28",
     "29",
     "31",
-    "47",
-    "106",
-    "134",
-    "200",
-    "227",
+    "61",
+    "125",
+    "179",
+    "204",
+    "205",
+    "222",
     "230",
-    "240",
-    "244",
-    "276",
-    "280",
+    "232",
+    "243",
     "572",
+    "573",
     "…"
    ],
-   "n_pages": 31,
+   "n_pages": 34,
    "contexts": [
     {
-     "page": "23",
-     "unit": "b1.r17c1",
-     "text": "Schmiedekoppe bei ⟦Gräfenwarth⟧ 1317'."
+     "page": "21",
+     "unit": "b1.r11c2",
+     "text": "⟦Zollgrün⟧ 1355—1380'."
     },
     {
-     "page": "28",
-     "unit": "b5",
-     "text": "ebaut, finden aber jetzt wegen ihrer Weichheit keine Verwendung mehr (⟦Gräfenwarth⟧, Gottliebsthal tc.). Die wichtigste Verwendung des Kieselschiefers is"
+     "page": "23",
+     "unit": "b1.r35c1",
+     "text": "Chaussee bei Heinrichsruh, wo sie sich nach Saalburg und ⟦Zollgrün⟧ abzweigt 1414'."
     },
     {
      "page": "29",
      "unit": "b2",
-     "text": "m, streicht dann beim Wetterahammer über das Wetterathal hinüber nach ⟦Gräfenwarth⟧, dann weiter auf der Nordseite der Landstraße entlang, sich immer wei"
+     "text": "enen Punkten auf einem breiten Streifen von dem Berge nordöstlich bei ⟦Zollgrün⟧ an über Mielesdorf und den Moosfleck, zwischen dem Langebacher- und d"
     },
     {
      "page": "31",
      "unit": "b1",
-     "text": "n Graptolithen führenden Kieselschiefer über die Wettera hinüber nach ⟦Gräfenwarth⟧ zu. Dann taucht der Zug wieder bei der oschitzer Schäferei auf, geht "
+     "text": "erei, wo sie größere quarzitische Lager einschließt, wendet sich nach ⟦Zollgrün⟧ hinüber und zeigt sich wieder zwischen Frankendorf und Mielesdorf, in"
     }
    ],
    "brueckner_register": [
     {
-     "name": "Gräfenwarth",
+     "name": "Zollgrün",
      "parents": [],
      "pages": [
-      "672"
+      "693"
      ],
      "wuestung": false,
      "gemeinde": true
@@ -4229,15 +4304,15 @@
    ],
    "geonames_candidates": [
     {
-     "geonames": 2918262,
-     "name": "Gräfenwarth",
-     "lat": 50.52975,
-     "lon": 11.75311,
+     "geonames": 2803932,
+     "name": "Zollgrün",
+     "lat": 50.51418,
+     "lon": 11.83017,
      "class": "P",
      "code": "PPL",
      "admin1": "15",
-     "population": 315,
-     "km": 12.1
+     "population": 312,
+     "km": 11.8
     }
    ]
   },
@@ -4421,81 +4496,6 @@
      "admin1": "15",
      "population": 0,
      "km": 64.0
-    }
-   ]
-  },
-  {
-   "key": "Zollgrün",
-   "n": 46,
-   "types": {
-    "Location": 46
-   },
-   "forms": {
-    "Zollgrün": 46
-   },
-   "pages": [
-    "21",
-    "23",
-    "29",
-    "31",
-    "61",
-    "125",
-    "179",
-    "204",
-    "205",
-    "222",
-    "230",
-    "232",
-    "572",
-    "573",
-    "578",
-    "…"
-   ],
-   "n_pages": 33,
-   "contexts": [
-    {
-     "page": "21",
-     "unit": "b1.r11c2",
-     "text": "⟦Zollgrün⟧ 1355—1380'."
-    },
-    {
-     "page": "23",
-     "unit": "b1.r35c1",
-     "text": "Chaussee bei Heinrichsruh, wo sie sich nach Saalburg und ⟦Zollgrün⟧ abzweigt 1414'."
-    },
-    {
-     "page": "29",
-     "unit": "b2",
-     "text": "enen Punkten auf einem breiten Streifen von dem Berge nordöstlich bei ⟦Zollgrün⟧ an über Mielesdorf und den Moosfleck, zwischen dem Langebacher- und d"
-    },
-    {
-     "page": "31",
-     "unit": "b1",
-     "text": "erei, wo sie größere quarzitische Lager einschließt, wendet sich nach ⟦Zollgrün⟧ hinüber und zeigt sich wieder zwischen Frankendorf und Mielesdorf, in"
-    }
-   ],
-   "brueckner_register": [
-    {
-     "name": "Zollgrün",
-     "parents": [],
-     "pages": [
-      "693"
-     ],
-     "wuestung": false,
-     "gemeinde": true
-    }
-   ],
-   "geonames_candidates": [
-    {
-     "geonames": 2803932,
-     "name": "Zollgrün",
-     "lat": 50.51418,
-     "lon": 11.83017,
-     "class": "P",
-     "code": "PPL",
-     "admin1": "15",
-     "population": 312,
-     "km": 11.8
     }
    ]
   },
@@ -4738,6 +4738,81 @@
    ]
   },
   {
+   "key": "Söllmnitz",
+   "n": 43,
+   "types": {
+    "Location": 43
+   },
+   "forms": {
+    "Söllmnitz": 43
+   },
+   "pages": [
+    "12",
+    "52",
+    "124",
+    "133",
+    "134",
+    "199",
+    "205",
+    "222",
+    "410",
+    "412",
+    "413",
+    "531",
+    "532",
+    "533",
+    "534",
+    "…"
+   ],
+   "n_pages": 26,
+   "contexts": [
+    {
+     "page": "12",
+     "unit": "b1.r2c2",
+     "text": "⟦Söllmnitz⟧ 683,7—705'."
+    },
+    {
+     "page": "52",
+     "unit": "b15",
+     "text": "ohen Quellfäden in Bethenhausen und bei Caasen, empfängt bei Kulm von ⟦Söllmnitz⟧ her 618' hoch den Rothenbach mit dem Rießbächlein, unterhalb"
+    },
+    {
+     "page": "124",
+     "unit": "b3",
+     "text": "r Langenberg den Kranich, Frankenthal, Langengrobsdorf, Pöritzsch und ⟦Söllmnitz⟧ den aufgerichteten Löwen schlechthin, Köstritz den Löwen mit Schwert "
+    },
+    {
+     "page": "133",
+     "unit": "b1",
+     "text": " in Großaga, Dorna, Schwaara und Tinz, die Haupttheile in Hirschfeld, ⟦Söllmnitz⟧, Gleina, Hartmannsdorf, Leumnitz, Oberröppisch, Dürrenebersdorf, Rüde"
+    }
+   ],
+   "brueckner_register": [
+    {
+     "name": "Söllmnitz",
+     "parents": [],
+     "pages": [
+      "534"
+     ],
+     "wuestung": false,
+     "gemeinde": true
+    }
+   ],
+   "geonames_candidates": [
+    {
+     "geonames": 2831512,
+     "name": "Söllmnitz",
+     "lat": 50.93795,
+     "lon": 12.14693,
+     "class": "P",
+     "code": "PPL",
+     "admin1": "15",
+     "population": 350,
+     "km": 41.1
+    }
+   ]
+  },
+  {
    "key": "Roben",
    "n": 43,
    "types": {
@@ -4921,6 +4996,57 @@
    ]
   },
   {
+   "key": "Preußen",
+   "n": 41,
+   "types": {
+    "Location": 41
+   },
+   "forms": {
+    "Preußen": 41
+   },
+   "pages": [
+    "3",
+    "5",
+    "103",
+    "104",
+    "115",
+    "264",
+    "271",
+    "275",
+    "325",
+    "332",
+    "334",
+    "358",
+    "364",
+    "383",
+    "389",
+    "…"
+   ],
+   "n_pages": 35,
+   "contexts": [
+    {
+     "page": "3",
+     "unit": "b3",
+     "text": " dasselbe damals, seine in Böhmen, Franken, Thüringen, Sachsen und in ⟦Preußen⟧ (bei Magdeburg) durch Heirath, Erbe, Verdienst oder Kauf gewonnenen, "
+    },
+    {
+     "page": "5",
+     "unit": "b1",
+     "text": "m Westen an Meiningen und Schwarzburg und im Nordwesten und Norden an ⟦Preußen⟧ und Weimar. Den Umfang desselben in seinen Krümmungen und mit Einschl"
+    },
+    {
+     "page": "103",
+     "unit": "b5.r19c1",
+     "text": "⟦Preußen⟧ . . ."
+    },
+    {
+     "page": "104",
+     "unit": "b1",
+     "text": "itt der Geschiedenen hat. Auch in Betreff der Verwittweten, von denen ⟦Preußen⟧ die kleinste und Schwarzburg-Rudolstadt die größte Ziffer enthält, be"
+    }
+   ]
+  },
+  {
    "key": "Ronneburg",
    "n": 41,
    "types": {
@@ -5071,53 +5197,77 @@
    ]
   },
   {
-   "key": "Preußen",
-   "n": 40,
+   "key": "Kleinaga",
+   "n": 41,
    "types": {
-    "Location": 40
+    "Location": 41
    },
    "forms": {
-    "Preußen": 40
+    "Kleinaga": 41
    },
    "pages": [
-    "3",
-    "5",
-    "103",
-    "104",
-    "115",
-    "264",
-    "271",
-    "275",
-    "325",
-    "332",
-    "334",
-    "358",
-    "364",
-    "383",
-    "389",
+    "7",
+    "12",
+    "40",
+    "53",
+    "204",
+    "218",
+    "240",
+    "251",
+    "409",
+    "411",
+    "506",
+    "509",
+    "520",
+    "522",
+    "525",
     "…"
    ],
-   "n_pages": 34,
+   "n_pages": 21,
    "contexts": [
     {
-     "page": "3",
-     "unit": "b3",
-     "text": " dasselbe damals, seine in Böhmen, Franken, Thüringen, Sachsen und in ⟦Preußen⟧ (bei Magdeburg) durch Heirath, Erbe, Verdienst oder Kauf gewonnenen, "
+     "page": "7",
+     "unit": "b1.r13c1",
+     "text": "⟦Kleinaga⟧"
     },
     {
-     "page": "5",
-     "unit": "b1",
-     "text": "m Westen an Meiningen und Schwarzburg und im Nordwesten und Norden an ⟦Preußen⟧ und Weimar. Den Umfang desselben in seinen Krümmungen und mit Einschl"
+     "page": "12",
+     "unit": "b1.r32c1",
+     "text": "⟦Kleinaga⟧ 670—755'."
     },
     {
-     "page": "103",
-     "unit": "b5.r19c1",
-     "text": "⟦Preußen⟧ . . ."
+     "page": "40",
+     "unit": "b2",
+     "text": "schöne weiße Kieselhölzer umgewandelt worden sind. Das Kohlenwerk von ⟦Kleinaga⟧, in welchem die Kohle von Tag aus abgebaut wurde, ist auflässig, — da"
     },
     {
-     "page": "104",
-     "unit": "b1",
-     "text": "itt der Geschiedenen hat. Auch in Betreff der Verwittweten, von denen ⟦Preußen⟧ die kleinste und Schwarzburg-Rudolstadt die größte Ziffer enthält, be"
+     "page": "53",
+     "unit": "b6",
+     "text": "14) Die Aga, entsteht bei ⟦Kleinaga⟧ durch Zusammenfluss des 830' hoch quellenden Reichenbachs mit dem Sch"
+    }
+   ],
+   "brueckner_register": [
+    {
+     "name": "Kleinaga",
+     "parents": [],
+     "pages": [
+      "525"
+     ],
+     "wuestung": false,
+     "gemeinde": true
+    }
+   ],
+   "geonames_candidates": [
+    {
+     "geonames": 2889820,
+     "name": "Kleinaga",
+     "lat": 50.96003,
+     "lon": 12.09221,
+     "class": "P",
+     "code": "PPL",
+     "admin1": "15",
+     "population": 1000,
+     "km": 41.5
     }
    ]
   },
@@ -5274,81 +5424,6 @@
    ]
   },
   {
-   "key": "Söllmnitz",
-   "n": 40,
-   "types": {
-    "Location": 40
-   },
-   "forms": {
-    "Söllmnitz": 40
-   },
-   "pages": [
-    "12",
-    "52",
-    "124",
-    "133",
-    "134",
-    "199",
-    "205",
-    "222",
-    "410",
-    "412",
-    "413",
-    "531",
-    "532",
-    "533",
-    "534",
-    "…"
-   ],
-   "n_pages": 25,
-   "contexts": [
-    {
-     "page": "12",
-     "unit": "b1.r2c2",
-     "text": "⟦Söllmnitz⟧ 683,7—705'."
-    },
-    {
-     "page": "52",
-     "unit": "b15",
-     "text": "ohen Quellfäden in Bethenhausen und bei Caasen, empfängt bei Kulm von ⟦Söllmnitz⟧ her 618' hoch den Rothenbach mit dem Rießbächlein, unterhalb"
-    },
-    {
-     "page": "124",
-     "unit": "b3",
-     "text": "r Langenberg den Kranich, Frankenthal, Langengrobsdorf, Pöritzsch und ⟦Söllmnitz⟧ den aufgerichteten Löwen schlechthin, Köstritz den Löwen mit Schwert "
-    },
-    {
-     "page": "133",
-     "unit": "b1",
-     "text": " in Großaga, Dorna, Schwaara und Tinz, die Haupttheile in Hirschfeld, ⟦Söllmnitz⟧, Gleina, Hartmannsdorf, Leumnitz, Oberröppisch, Dürrenebersdorf, Rüde"
-    }
-   ],
-   "brueckner_register": [
-    {
-     "name": "Söllmnitz",
-     "parents": [],
-     "pages": [
-      "534"
-     ],
-     "wuestung": false,
-     "gemeinde": true
-    }
-   ],
-   "geonames_candidates": [
-    {
-     "geonames": 2831512,
-     "name": "Söllmnitz",
-     "lat": 50.93795,
-     "lon": 12.14693,
-     "class": "P",
-     "code": "PPL",
-     "admin1": "15",
-     "population": 350,
-     "km": 41.1
-    }
-   ]
-  },
-  {
    "key": "Großsaara",
    "n": 40,
    "types": {
@@ -5465,7 +5540,7 @@
     {
      "page": "708",
      "unit": "b3.r38c1",
-     "text": "⟦Saaldorf⟧ . . . . . ."
+     "text": "⟦Saaldorf⟧"
     },
     {
      "page": "712",
@@ -5586,293 +5661,13 @@
    ]
   },
   {
-   "key": "Schilbach",
+   "key": "Reichenbach",
    "n": 38,
    "types": {
     "Location": 38
    },
    "forms": {
-    "Schilbach": 38
-   },
-   "pages": [
-    "22",
-    "29",
-    "43",
-    "124",
-    "134",
-    "136",
-    "170",
-    "218",
-    "222",
-    "227",
-    "294",
-    "295",
-    "572",
-    "573",
-    "661",
-    "…"
-   ],
-   "n_pages": 30,
-   "contexts": [
-    {
-     "page": "22",
-     "unit": "b1.r13c1",
-     "text": "⟦Schilbach⟧ 1440—1505'."
-    },
-    {
-     "page": "29",
-     "unit": "b2",
-     "text": "ün hindurch, um Seubtendorf herum, dann mit einer Wendung südlich bei ⟦Schilbach⟧ und dicht an der Kapelle vorüber. Von hier macht er einen großen Boge"
-    },
-    {
-     "page": "43",
-     "unit": "b1",
-     "text": "Teiche als heilkräftig angesehen. So gilt einer der Röhmigsteiche bei ⟦Schilbach⟧, dessen Wasser nie austrocknen und zufrieren soll, als Krätzmedizin. "
-    },
-    {
-     "page": "124",
-     "unit": "b3",
-     "text": "Lössau, Milbitz, Naundorf, Pahren, Pirk, Pohlen, Reichenbach, Rubitz, ⟦Schilbach⟧, Stübnitz, Trebnitz, Weißig, Wernsdorf und Willersdorf) haben in ihre"
-    }
-   ],
-   "brueckner_register": [
-    {
-     "name": "Schilbach",
-     "parents": [],
-     "pages": [
-      "691"
-     ],
-     "wuestung": false,
-     "gemeinde": true
-    }
-   ],
-   "geonames_candidates": [
-    {
-     "geonames": 2839310,
-     "name": "Schilbach",
-     "lat": 50.48855,
-     "lon": 11.82519,
-     "class": "P",
-     "code": "PPL",
-     "admin1": "15",
-     "population": 252,
-     "km": 14.7
-    },
-    {
-     "geonames": 2839311,
-     "name": "Schilbach",
-     "lat": 50.39353,
-     "lon": 12.29815,
-     "class": "P",
-     "code": "PPL",
-     "admin1": "13",
-     "population": 0,
-     "km": 40.5
-    }
-   ]
-  },
-  {
-   "key": "Heinersdorf",
-   "n": 37,
-   "types": {
-    "Location": 37
-   },
-   "forms": {
-    "Heinersdorf": 37
-   },
-   "pages": [
-    "6",
-    "18",
-    "22",
-    "25",
-    "26",
-    "27",
-    "28",
-    "36",
-    "49",
-    "202",
-    "230",
-    "292",
-    "294",
-    "707",
-    "708",
-    "…"
-   ],
-   "n_pages": 25,
-   "contexts": [
-    {
-     "page": "6",
-     "unit": "b3.r7c1",
-     "text": "⟦Heinersdorf⟧"
-    },
-    {
-     "page": "18",
-     "unit": "b1",
-     "text": " Sormitzleite (Thierbachsleite); an der Lemnitz der Lerchenhügel (bei ⟦Heinersdorf⟧), Koselstein, Fels, das Eibichholz, der Hölperlesberg (Beerhügel), we"
-    },
-    {
-     "page": "22",
-     "unit": "b1.r22c2",
-     "text": "⟦Heinersdorf⟧ 1680—1760'."
-    },
-    {
-     "page": "25",
-     "unit": "b1",
-     "text": "t in der Richtung von Hirschberg über Blankenberg nach Lobenstein bis ⟦Heinersdorf⟧ hin verfolgen. Tausende von Rinnsalen und Bächen und Flüssen, die in "
-    }
-   ],
-   "brueckner_register": [
-    {
-     "name": "Heinersdorf",
-     "parents": [],
-     "pages": [
-      "744"
-     ],
-     "wuestung": false,
-     "gemeinde": true
-    }
-   ],
-   "geonames_candidates": [
-    {
-     "geonames": 2907304,
-     "name": "Heinersdorf",
-     "lat": 50.47274,
-     "lon": 11.57588,
-     "class": "P",
-     "code": "PPL",
-     "admin1": "15",
-     "population": 314,
-     "km": 25.4
-    },
-    {
-     "geonames": 2907305,
-     "name": "Heinersdorf",
-     "lat": 50.36131,
-     "lon": 11.27572,
-     "class": "P",
-     "code": "PPL",
-     "admin1": "15",
-     "population": 0,
-     "km": 49.8
-    },
-    {
-     "geonames": 2907298,
-     "name": "Heinersdorf",
-     "lat": 52.57173,
-     "lon": 13.43757,
-     "class": "P",
-     "code": "PPLX",
-     "admin1": "16",
-     "population": 7779,
-     "km": 243.1
-    },
-    {
-     "geonames": 2907303,
-     "name": "Heinersdorf",
-     "lat": 50.87052,
-     "lon": 12.88647,
-     "class": "P",
-     "code": "PPLX",
-     "admin1": "13",
-     "population": 0,
-     "km": 78.1
-    },
-    {
-     "geonames": 2907306,
-     "name": "Heinersdorf",
-     "lat": 49.48846,
-     "lon": 10.74366,
-     "class": "P",
-     "code": "PPL",
-     "admin1": "02",
-     "population": 0,
-     "km": 148.6
-    }
-   ]
-  },
-  {
-   "key": "Kleinaga",
-   "n": 37,
-   "types": {
-    "Location": 37
-   },
-   "forms": {
-    "Kleinaga": 37
-   },
-   "pages": [
-    "7",
-    "12",
-    "40",
-    "53",
-    "204",
-    "218",
-    "240",
-    "251",
-    "409",
-    "411",
-    "506",
-    "509",
-    "520",
-    "522",
-    "525",
-    "…"
-   ],
-   "n_pages": 20,
-   "contexts": [
-    {
-     "page": "7",
-     "unit": "b1.r13c1",
-     "text": "⟦Kleinaga⟧"
-    },
-    {
-     "page": "12",
-     "unit": "b1.r32c1",
-     "text": "⟦Kleinaga⟧ 670—755'."
-    },
-    {
-     "page": "40",
-     "unit": "b2",
-     "text": "schöne weiße Kieselhölzer umgewandelt worden sind. Das Kohlenwerk von ⟦Kleinaga⟧, in welchem die Kohle von Tag aus abgebaut wurde, ist auflässig, — da"
-    },
-    {
-     "page": "53",
-     "unit": "b6",
-     "text": "14) Die Aga, entsteht bei ⟦Kleinaga⟧ durch Zusammenfluss des 830' hoch quellenden Reichenbachs mit dem Sch"
-    }
-   ],
-   "brueckner_register": [
-    {
-     "name": "Kleinaga",
-     "parents": [],
-     "pages": [
-      "525"
-     ],
-     "wuestung": false,
-     "gemeinde": true
-    }
-   ],
-   "geonames_candidates": [
-    {
-     "geonames": 2889820,
-     "name": "Kleinaga",
-     "lat": 50.96003,
-     "lon": 12.09221,
-     "class": "P",
-     "code": "PPL",
-     "admin1": "15",
-     "population": 1000,
-     "km": 41.5
-    }
-   ]
-  },
-  {
-   "key": "Reichenbach",
-   "n": 37,
-   "types": {
-    "Location": 37
-   },
-   "forms": {
-    "Reichenbach": 37
+    "Reichenbach": 38
    },
    "pages": [
     "12",
@@ -5892,7 +5687,7 @@
     "403",
     "…"
    ],
-   "n_pages": 30,
+   "n_pages": 31,
    "contexts": [
     {
      "page": "12",
@@ -6018,13 +5813,99 @@
    ]
   },
   {
-   "key": "Löhma",
-   "n": 37,
+   "key": "Schilbach",
+   "n": 38,
    "types": {
-    "Location": 37
+    "Location": 38
    },
    "forms": {
-    "Löhma": 37
+    "Schilbach": 38
+   },
+   "pages": [
+    "22",
+    "29",
+    "43",
+    "124",
+    "134",
+    "136",
+    "170",
+    "218",
+    "222",
+    "227",
+    "294",
+    "295",
+    "572",
+    "573",
+    "661",
+    "…"
+   ],
+   "n_pages": 30,
+   "contexts": [
+    {
+     "page": "22",
+     "unit": "b1.r13c1",
+     "text": "⟦Schilbach⟧ 1440—1505'."
+    },
+    {
+     "page": "29",
+     "unit": "b2",
+     "text": "ün hindurch, um Seubtendorf herum, dann mit einer Wendung südlich bei ⟦Schilbach⟧ und dicht an der Kapelle vorüber. Von hier macht er einen großen Boge"
+    },
+    {
+     "page": "43",
+     "unit": "b1",
+     "text": "Teiche als heilkräftig angesehen. So gilt einer der Röhmigsteiche bei ⟦Schilbach⟧, dessen Wasser nie austrocknen und zufrieren soll, als Krätzmedizin. "
+    },
+    {
+     "page": "124",
+     "unit": "b3",
+     "text": "Lössau, Milbitz, Naundorf, Pahren, Pirk, Pohlen, Reichenbach, Rubitz, ⟦Schilbach⟧, Stübnitz, Trebnitz, Weißig, Wernsdorf und Willersdorf) haben in ihre"
+    }
+   ],
+   "brueckner_register": [
+    {
+     "name": "Schilbach",
+     "parents": [],
+     "pages": [
+      "691"
+     ],
+     "wuestung": false,
+     "gemeinde": true
+    }
+   ],
+   "geonames_candidates": [
+    {
+     "geonames": 2839310,
+     "name": "Schilbach",
+     "lat": 50.48855,
+     "lon": 11.82519,
+     "class": "P",
+     "code": "PPL",
+     "admin1": "15",
+     "population": 252,
+     "km": 14.7
+    },
+    {
+     "geonames": 2839311,
+     "name": "Schilbach",
+     "lat": 50.39353,
+     "lon": 12.29815,
+     "class": "P",
+     "code": "PPL",
+     "admin1": "13",
+     "population": 0,
+     "km": 40.5
+    }
+   ]
+  },
+  {
+   "key": "Löhma",
+   "n": 38,
+   "types": {
+    "Location": 38
+   },
+   "forms": {
+    "Löhma": 38
    },
    "pages": [
     "23",
@@ -6037,14 +5918,14 @@
     "202",
     "227",
     "230",
+    "243",
     "245",
     "292",
     "415",
     "572",
-    "573",
     "…"
    ],
-   "n_pages": 27,
+   "n_pages": 28,
    "contexts": [
     {
      "page": "23",
@@ -6111,6 +5992,125 @@
      "admin1": "15",
      "population": 0,
      "km": 27.4
+    }
+   ]
+  },
+  {
+   "key": "Heinersdorf",
+   "n": 37,
+   "types": {
+    "Location": 37
+   },
+   "forms": {
+    "Heinersdorf": 37
+   },
+   "pages": [
+    "6",
+    "18",
+    "22",
+    "25",
+    "26",
+    "27",
+    "28",
+    "36",
+    "49",
+    "202",
+    "230",
+    "292",
+    "294",
+    "707",
+    "708",
+    "…"
+   ],
+   "n_pages": 25,
+   "contexts": [
+    {
+     "page": "6",
+     "unit": "b3.r7c1",
+     "text": "⟦Heinersdorf⟧"
+    },
+    {
+     "page": "18",
+     "unit": "b1",
+     "text": " Sormitzleite (Thierbachsleite); an der Lemnitz der Lerchenhügel (bei ⟦Heinersdorf⟧), Koselstein, Fels, das Eibichholz, der Hölperlesberg (Beerhügel), we"
+    },
+    {
+     "page": "22",
+     "unit": "b1.r22c2",
+     "text": "⟦Heinersdorf⟧ 1680—1760'."
+    },
+    {
+     "page": "25",
+     "unit": "b1",
+     "text": "t in der Richtung von Hirschberg über Blankenberg nach Lobenstein bis ⟦Heinersdorf⟧ hin verfolgen. Tausende von Rinnsalen und Bächen und Flüssen, die in "
+    }
+   ],
+   "brueckner_register": [
+    {
+     "name": "Heinersdorf",
+     "parents": [],
+     "pages": [
+      "744"
+     ],
+     "wuestung": false,
+     "gemeinde": true
+    }
+   ],
+   "geonames_candidates": [
+    {
+     "geonames": 2907304,
+     "name": "Heinersdorf",
+     "lat": 50.47274,
+     "lon": 11.57588,
+     "class": "P",
+     "code": "PPL",
+     "admin1": "15",
+     "population": 314,
+     "km": 25.4
+    },
+    {
+     "geonames": 2907305,
+     "name": "Heinersdorf",
+     "lat": 50.36131,
+     "lon": 11.27572,
+     "class": "P",
+     "code": "PPL",
+     "admin1": "15",
+     "population": 0,
+     "km": 49.8
+    },
+    {
+     "geonames": 2907298,
+     "name": "Heinersdorf",
+     "lat": 52.57173,
+     "lon": 13.43757,
+     "class": "P",
+     "code": "PPLX",
+     "admin1": "16",
+     "population": 7779,
+     "km": 243.1
+    },
+    {
+     "geonames": 2907303,
+     "name": "Heinersdorf",
+     "lat": 50.87052,
+     "lon": 12.88647,
+     "class": "P",
+     "code": "PPLX",
+     "admin1": "13",
+     "population": 0,
+     "km": 78.1
+    },
+    {
+     "geonames": 2907306,
+     "name": "Heinersdorf",
+     "lat": 49.48846,
+     "lon": 10.74366,
+     "class": "P",
+     "code": "PPL",
+     "admin1": "02",
+     "population": 0,
+     "km": 148.6
     }
    ]
   },
@@ -6968,6 +6968,92 @@
    ]
   },
   {
+   "key": "Weißendorf",
+   "n": 34,
+   "types": {
+    "Location": 34
+   },
+   "forms": {
+    "Weißendorf": 34
+   },
+   "pages": [
+    "7",
+    "27",
+    "31",
+    "34",
+    "222",
+    "247",
+    "294",
+    "495",
+    "572",
+    "573",
+    "574",
+    "623",
+    "630",
+    "631",
+    "636",
+    "…"
+   ],
+   "n_pages": 22,
+   "contexts": [
+    {
+     "page": "7",
+     "unit": "b1.r5c1",
+     "text": "⟦Weißendorf⟧"
+    },
+    {
+     "page": "27",
+     "unit": "b4",
+     "text": "ch gebildet und nur die südlichste Ecke bei Wolfshayn, sowie die Flur ⟦Weißendorf⟧, die halbe Flur Triebes und die nördliche Hälfte der Flur Hohenleuben"
+    },
+    {
+     "page": "31",
+     "unit": "b1",
+     "text": "ormation an einzelnen Stellen zwischen Lössau und Weckersdorf und bei ⟦Weißendorf⟧. Auch bei Hohenleuben zeigen sich Spuren davon. Endlich erscheint sie"
+    },
+    {
+     "page": "34",
+     "unit": "b1",
+     "text": " hindurch, endlich noch entlang der Weida bei Klein= wolschendorf und ⟦Weißendorf⟧."
+    }
+   ],
+   "brueckner_register": [
+    {
+     "name": "Weißendorf",
+     "parents": [],
+     "pages": [
+      "654"
+     ],
+     "wuestung": false,
+     "gemeinde": true
+    }
+   ],
+   "geonames_candidates": [
+    {
+     "geonames": 6550525,
+     "name": "Weißendorf",
+     "lat": 50.6738,
+     "lon": 11.9951,
+     "class": "A",
+     "code": "ADM4",
+     "admin1": "15",
+     "population": 307,
+     "km": 11.9
+    },
+    {
+     "geonames": 2811905,
+     "name": "Weißendorf",
+     "lat": 50.68333,
+     "lon": 12.0,
+     "class": "P",
+     "code": "PPLA4",
+     "admin1": "15",
+     "population": 372,
+     "km": 12.7
+    }
+   ]
+  },
+  {
    "key": "Pohlen",
    "n": 34,
    "types": {
@@ -7422,92 +7508,6 @@
    ]
   },
   {
-   "key": "Weißendorf",
-   "n": 33,
-   "types": {
-    "Location": 33
-   },
-   "forms": {
-    "Weißendorf": 33
-   },
-   "pages": [
-    "7",
-    "27",
-    "31",
-    "34",
-    "222",
-    "247",
-    "294",
-    "495",
-    "572",
-    "573",
-    "574",
-    "623",
-    "630",
-    "631",
-    "636",
-    "…"
-   ],
-   "n_pages": 21,
-   "contexts": [
-    {
-     "page": "7",
-     "unit": "b1.r5c1",
-     "text": "⟦Weißendorf⟧"
-    },
-    {
-     "page": "27",
-     "unit": "b4",
-     "text": "ch gebildet und nur die südlichste Ecke bei Wolfshayn, sowie die Flur ⟦Weißendorf⟧, die halbe Flur Triebes und die nördliche Hälfte der Flur Hohenleuben"
-    },
-    {
-     "page": "31",
-     "unit": "b1",
-     "text": "ormation an einzelnen Stellen zwischen Lössau und Weckersdorf und bei ⟦Weißendorf⟧. Auch bei Hohenleuben zeigen sich Spuren davon. Endlich erscheint sie"
-    },
-    {
-     "page": "34",
-     "unit": "b1",
-     "text": " hindurch, endlich noch entlang der Weida bei Klein= wolschendorf und ⟦Weißendorf⟧."
-    }
-   ],
-   "brueckner_register": [
-    {
-     "name": "Weißendorf",
-     "parents": [],
-     "pages": [
-      "654"
-     ],
-     "wuestung": false,
-     "gemeinde": true
-    }
-   ],
-   "geonames_candidates": [
-    {
-     "geonames": 6550525,
-     "name": "Weißendorf",
-     "lat": 50.6738,
-     "lon": 11.9951,
-     "class": "A",
-     "code": "ADM4",
-     "admin1": "15",
-     "population": 307,
-     "km": 11.9
-    },
-    {
-     "geonames": 2811905,
-     "name": "Weißendorf",
-     "lat": 50.68333,
-     "lon": 12.0,
-     "class": "P",
-     "code": "PPLA4",
-     "admin1": "15",
-     "population": 372,
-     "km": 12.7
-    }
-   ]
-  },
-  {
    "key": "Dürrenebersdorf",
    "n": 33,
    "types": {
@@ -7715,6 +7715,103 @@
      "admin1": "15",
      "population": 211,
      "km": 18.7
+    }
+   ]
+  },
+  {
+   "key": "Jena",
+   "n": 33,
+   "types": {
+    "Location": 33
+   },
+   "forms": {
+    "Jena": 33
+   },
+   "pages": [
+    "120",
+    "274",
+    "276",
+    "281",
+    "295",
+    "323",
+    "332",
+    "348",
+    "358",
+    "366",
+    "369",
+    "378",
+    "442",
+    "447",
+    "466",
+    "…"
+   ],
+   "n_pages": 26,
+   "contexts": [
+    {
+     "page": "120",
+     "unit": "b2",
+     "text": "kenntlich gemacht. Der vor Kurzem verstorbene Professor Schleicher zu ⟦Jena⟧, einer der größten Kenner der slavischen Idiome, schrieb dem Verfasse"
+    },
+    {
+     "page": "274",
+     "unit": "b1",
+     "text": "ach einem mit der großherzoglichen Direction des Landkrankenhauses zu ⟦Jena⟧ abgeschlossenen Vertrage in geeigneten, namentlich chirurgischen Fäll"
+    },
+    {
+     "page": "276",
+     "unit": "b1",
+     "text": "aus nahm sie eine doppelte Richtung, nämlich theils über Neustadt und ⟦Jena⟧, theils über Gera und Langenberg; jene durchschnitt im Oberlande Pörm"
+    },
+    {
+     "page": "281",
+     "unit": "b3",
+     "text": "IV. Das Oberappellationsgericht zu ⟦Jena⟧, das als oberstes Justiztribunal von dem Großherzogthum S.-Weimar, vo"
+    }
+   ],
+   "geonames_candidates": [
+    {
+     "geonames": 2895044,
+     "name": "Jena",
+     "lat": 50.92878,
+     "lon": 11.5899,
+     "class": "P",
+     "code": "PPLA3",
+     "admin1": "15",
+     "population": 104712,
+     "km": 38.9
+    },
+    {
+     "geonames": 6545388,
+     "name": "Markt - Jena",
+     "lat": 50.92823,
+     "lon": 11.58801,
+     "class": "S",
+     "code": "MKT",
+     "admin1": "15",
+     "population": 0,
+     "km": 38.9
+    },
+    {
+     "geonames": 2895042,
+     "name": "Kreisfreie Stadt Jena",
+     "lat": 50.93194,
+     "lon": 11.59056,
+     "class": "A",
+     "code": "ADM3",
+     "admin1": "15",
+     "population": 109725,
+     "km": 39.2
+    },
+    {
+     "geonames": 6549748,
+     "name": "Jena",
+     "lat": 50.9326,
+     "lon": 11.58678,
+     "class": "A",
+     "code": "ADM4",
+     "admin1": "15",
+     "population": 109725,
+     "km": 39.4
     }
    ]
   },
@@ -8189,6 +8286,253 @@
    ]
   },
   {
+   "key": "Bethenhausen",
+   "n": 31,
+   "types": {
+    "Location": 31
+   },
+   "forms": {
+    "Bethenhausen": 31
+   },
+   "pages": [
+    "7",
+    "10",
+    "12",
+    "14",
+    "52",
+    "122",
+    "134",
+    "156",
+    "200",
+    "291",
+    "407",
+    "409",
+    "411",
+    "413",
+    "464",
+    "…"
+   ],
+   "n_pages": 22,
+   "contexts": [
+    {
+     "page": "7",
+     "unit": "b1.r20c1",
+     "text": "⟦Bethenhausen⟧"
+    },
+    {
+     "page": "10",
+     "unit": "b2.r3c3",
+     "text": "780' Höhe bei ⟦Bethenhausen⟧,"
+    },
+    {
+     "page": "12",
+     "unit": "b1.r6c2",
+     "text": "⟦Bethenhausen⟧ 712—755'."
+    },
+    {
+     "page": "14",
+     "unit": "b1",
+     "text": "öhe von Trebnitz 780'. Westhöhe von Lessen (Signal) 780'. Südhöhe von ⟦Bethenhausen⟧ 780'. Südhöhe von Langengrobsdorf nach Markersdorf 787'. Ronneburger "
+    }
+   ],
+   "brueckner_register": [
+    {
+     "name": "Bethenhausen",
+     "parents": [],
+     "pages": [
+      "539"
+     ],
+     "wuestung": false,
+     "gemeinde": true
+    }
+   ],
+   "geonames_candidates": [
+    {
+     "geonames": 2949762,
+     "name": "Bethenhausen",
+     "lat": 50.92922,
+     "lon": 12.19957,
+     "class": "P",
+     "code": "PPLA4",
+     "admin1": "15",
+     "population": 270,
+     "km": 42.3
+    },
+    {
+     "geonames": 6550483,
+     "name": "Bethenhausen",
+     "lat": 50.9333,
+     "lon": 12.2,
+     "class": "A",
+     "code": "ADM4",
+     "admin1": "15",
+     "population": 210,
+     "km": 42.7
+    }
+   ]
+  },
+  {
+   "key": "Ernsee",
+   "n": 31,
+   "types": {
+    "Location": 31
+   },
+   "forms": {
+    "Ernsee": 31
+   },
+   "pages": [
+    "7",
+    "14",
+    "76",
+    "124",
+    "132",
+    "200",
+    "205",
+    "218",
+    "240",
+    "409",
+    "411",
+    "413",
+    "418",
+    "419",
+    "420",
+    "…"
+   ],
+   "n_pages": 22,
+   "contexts": [
+    {
+     "page": "7",
+     "unit": "b4",
+     "text": "rf, Thieschitz, Tinz, Schwaara; Kraftsdorf, Harpersdorf, Frankenthal, ⟦Ernsee⟧, Gera; Waltersdorf, Dürrenebersdorf, Zwötzen, Kaimberg; Oberlemnitz, "
+    },
+    {
+     "page": "14",
+     "unit": "b2",
+     "text": "en 834'. Lerchenberg (Nordost) von Geissen 836'. Westnordwesthöhe von ⟦Ernsee⟧ (Signal) 836'. Südosthöhe von Ernsee 841'. Osthöhe von Rüdersdorf 847"
+    },
+    {
+     "page": "76",
+     "unit": "b2",
+     "text": "nd Vicia angustifolia in der Kerbe, Peplis Portula (Afterquendel) bei ⟦Ernsee⟧, Scrophularia vernalis im Park zu Köstritz, Teucrium Scordium bei Dür"
+    },
+    {
+     "page": "124",
+     "unit": "b3",
+     "text": "gen, daher ohne allen historischen Werth. 22 Dörfer (Dürrenebersdorf, ⟦Ernsee⟧, Grüna, Hartmannsdorf, Helmsgrün, Hermsdorf, Leitlitz, Lerchenhügel, "
+    }
+   ],
+   "brueckner_register": [
+    {
+     "name": "Ernsee",
+     "parents": [],
+     "pages": [
+      "418"
+     ],
+     "wuestung": false,
+     "gemeinde": true
+    }
+   ],
+   "geonames_candidates": [
+    {
+     "geonames": 2929355,
+     "name": "Ernsee",
+     "lat": 50.87798,
+     "lon": 12.03891,
+     "class": "P",
+     "code": "PPL",
+     "admin1": "15",
+     "population": 581,
+     "km": 31.6
+    }
+   ]
+  },
+  {
+   "key": "Laasen",
+   "n": 31,
+   "types": {
+    "Location": 31
+   },
+   "forms": {
+    "Laasen": 31
+   },
+   "pages": [
+    "12",
+    "14",
+    "37",
+    "52",
+    "121",
+    "124",
+    "137",
+    "218",
+    "302",
+    "409",
+    "411",
+    "413",
+    "415",
+    "418",
+    "421",
+    "…"
+   ],
+   "n_pages": 23,
+   "contexts": [
+    {
+     "page": "12",
+     "unit": "b1.r5c2",
+     "text": "⟦Laasen⟧ 710—726'."
+    },
+    {
+     "page": "14",
+     "unit": "b1",
+     "text": "a 775'. Weinberg, höchster Punkt im Westen 775'. Nordwestnordhöhe von ⟦Laasen⟧ 775. Eichberg bei Dorna 776'. Südwesthöhe von Hirschfeld 776'. Kienbe"
+    },
+    {
+     "page": "37",
+     "unit": "b4",
+     "text": "ner Baches aufgeschlossen und läuft mit einmaliger Unterbrechung (bei ⟦Laasen⟧) von Collis aus in Gestalt eines breiten Streifens nordwärts über die"
+    },
+    {
+     "page": "52",
+     "unit": "b14",
+     "text": "sener Bächlein, südöstlich von Trebnitz 797' hoch quellend, fließt an ⟦Laasen⟧ und Bieblach vorbei und mündet unterhalb Cuba 495' hoch."
+    }
+   ],
+   "brueckner_register": [
+    {
+     "name": "Laasen",
+     "parents": [],
+     "pages": [
+      "558"
+     ],
+     "wuestung": false,
+     "gemeinde": true
+    }
+   ],
+   "geonames_candidates": [
+    {
+     "geonames": 2882098,
+     "name": "Laasen",
+     "lat": 50.59434,
+     "lon": 11.39381,
+     "class": "P",
+     "code": "PPL",
+     "admin1": "15",
+     "population": 0,
+     "km": 32.3
+    },
+    {
+     "geonames": 2882097,
+     "name": "Laasen",
+     "lat": 50.89216,
+     "lon": 12.12078,
+     "class": "P",
+     "code": "PPL",
+     "admin1": "15",
+     "population": 144,
+     "km": 35.8
+    }
+   ]
+  },
+  {
    "key": "Leumnitz",
    "n": 31,
    "types": {
@@ -8522,6 +8866,81 @@
    ]
   },
   {
+   "key": "Oberböhmsdorf",
+   "n": 30,
+   "types": {
+    "Location": 30
+   },
+   "forms": {
+    "Oberböhmsdorf": 30
+   },
+   "pages": [
+    "6",
+    "21",
+    "23",
+    "30",
+    "125",
+    "134",
+    "218",
+    "232",
+    "240",
+    "243",
+    "244",
+    "245",
+    "572",
+    "573",
+    "584",
+    "…"
+   ],
+   "n_pages": 22,
+   "contexts": [
+    {
+     "page": "6",
+     "unit": "b3.r34c1",
+     "text": "⟦Oberböhmsdorf⟧"
+    },
+    {
+     "page": "21",
+     "unit": "b1.r8c2",
+     "text": "⟦Oberböhmsdorf⟧ 1325—1348'."
+    },
+    {
+     "page": "23",
+     "unit": "b1.r39c1",
+     "text": "Langenbacher Hügel (Osten) von ⟦Oberböhmsdorf⟧ 1450'."
+    },
+    {
+     "page": "30",
+     "unit": "b2",
+     "text": "keit. Sie bestehen selten in Grünsteintuffablagerungen, wie z. B. bei ⟦Oberböhmsdorf⟧, vielmehr in der Regel in Diabasen, zusammengesetzt aus natronhaltige"
+    }
+   ],
+   "brueckner_register": [
+    {
+     "name": "Oberböhmsdorf",
+     "parents": [],
+     "pages": [
+      "594"
+     ],
+     "wuestung": false,
+     "gemeinde": true
+    }
+   ],
+   "geonames_candidates": [
+    {
+     "geonames": 2861234,
+     "name": "Oberböhmsdorf",
+     "lat": 50.56123,
+     "lon": 11.83176,
+     "class": "P",
+     "code": "PPL",
+     "admin1": "15",
+     "population": 456,
+     "km": 6.7
+    }
+   ]
+  },
+  {
    "key": "Seeligenstädt",
    "n": 30,
    "types": {
@@ -8659,61 +9078,61 @@
    ]
   },
   {
-   "key": "Bethenhausen",
+   "key": "Caaschwitz",
    "n": 30,
    "types": {
     "Location": 30
    },
    "forms": {
-    "Bethenhausen": 30
+    "Caaschwitz": 30
    },
    "pages": [
-    "7",
-    "10",
+    "11",
     "12",
-    "14",
     "52",
-    "122",
-    "134",
-    "156",
-    "200",
-    "291",
-    "407",
+    "77",
+    "119",
+    "135",
+    "205",
+    "220",
+    "248",
+    "336",
+    "340",
+    "409",
     "411",
     "413",
-    "464",
-    "509",
+    "414",
     "…"
    ],
-   "n_pages": 21,
+   "n_pages": 24,
    "contexts": [
     {
-     "page": "7",
-     "unit": "b1.r20c1",
-     "text": "⟦Bethenhausen⟧"
-    },
-    {
-     "page": "10",
-     "unit": "b2.r3c3",
-     "text": "780' Höhe bei ⟦Bethenhausen⟧,"
+     "page": "11",
+     "unit": "b11",
+     "text": "Was die Meereshöhe der bewohnten Orte im Unterlande betrifft, so ist ⟦Caaschwitz⟧ der tiefste, die Käseschenke der höchste, mit einem Höhenunterschiede"
     },
     {
      "page": "12",
-     "unit": "b1.r6c2",
-     "text": "⟦Bethenhausen⟧ 712—755'."
+     "unit": "b3.r1c1",
+     "text": "⟦Caaschwitz⟧ 460—465'."
     },
     {
-     "page": "14",
+     "page": "52",
+     "unit": "b4",
+     "text": " dieses Ortes das Heinzethalbächlein und mündet zwischen Köstritz und ⟦Caaschwitz⟧."
+    },
+    {
+     "page": "77",
      "unit": "b1",
-     "text": "öhe von Trebnitz 780'. Westhöhe von Lessen (Signal) 780'. Südhöhe von ⟦Bethenhausen⟧ 780'. Südhöhe von Langengrobsdorf nach Markersdorf 787'. Ronneburger "
+     "text": "Frankenthal, Allogonium converfaceum zwischen Köstritz und ⟦Caaschwitz⟧, Chaetophora tuberculosa bei Debschwitz, Rivularia dura bei Milbitz, "
     }
    ],
    "brueckner_register": [
     {
-     "name": "Bethenhausen",
+     "name": "Caaschwitz",
      "parents": [],
      "pages": [
-      "539"
+      "503"
      ],
      "wuestung": false,
      "gemeinde": true
@@ -8721,101 +9140,26 @@
    ],
    "geonames_candidates": [
     {
-     "geonames": 2949762,
-     "name": "Bethenhausen",
-     "lat": 50.92922,
-     "lon": 12.19957,
-     "class": "P",
-     "code": "PPLA4",
-     "admin1": "15",
-     "population": 270,
-     "km": 42.3
-    },
-    {
-     "geonames": 6550483,
-     "name": "Bethenhausen",
-     "lat": 50.9333,
-     "lon": 12.2,
+     "geonames": 6550488,
+     "name": "Caaschwitz",
+     "lat": 50.94509,
+     "lon": 11.98397,
      "class": "A",
      "code": "ADM4",
      "admin1": "15",
-     "population": 210,
-     "km": 42.7
-    }
-   ]
-  },
-  {
-   "key": "Ernsee",
-   "n": 30,
-   "types": {
-    "Location": 30
-   },
-   "forms": {
-    "Ernsee": 30
-   },
-   "pages": [
-    "7",
-    "14",
-    "76",
-    "124",
-    "132",
-    "200",
-    "205",
-    "218",
-    "240",
-    "411",
-    "413",
-    "418",
-    "419",
-    "420",
-    "423",
-    "…"
-   ],
-   "n_pages": 21,
-   "contexts": [
-    {
-     "page": "7",
-     "unit": "b4",
-     "text": "rf, Thieschitz, Tinz, Schwaara; Kraftsdorf, Harpersdorf, Frankenthal, ⟦Ernsee⟧, Gera; Waltersdorf, Dürrenebersdorf, Zwötzen, Kaimberg; Oberlemnitz, "
+     "population": 610,
+     "km": 37.4
     },
     {
-     "page": "14",
-     "unit": "b2",
-     "text": "en 834'. Lerchenberg (Nordost) von Geissen 836'. Westnordwesthöhe von ⟦Ernsee⟧ (Signal) 836'. Südosthöhe von Ernsee 841'. Osthöhe von Rüdersdorf 847"
-    },
-    {
-     "page": "76",
-     "unit": "b2",
-     "text": "nd Vicia angustifolia in der Kerbe, Peplis Portula (Afterquendel) bei ⟦Ernsee⟧, Scrophularia vernalis im Park zu Köstritz, Teucrium Scordium bei Dür"
-    },
-    {
-     "page": "124",
-     "unit": "b3",
-     "text": "gen, daher ohne allen historischen Werth. 22 Dörfer (Dürrenebersdorf, ⟦Ernsee⟧, Grüna, Hartmannsdorf, Helmsgrün, Hermsdorf, Leitlitz, Lerchenhügel, "
-    }
-   ],
-   "brueckner_register": [
-    {
-     "name": "Ernsee",
-     "parents": [],
-     "pages": [
-      "418"
-     ],
-     "wuestung": false,
-     "gemeinde": true
-    }
-   ],
-   "geonames_candidates": [
-    {
-     "geonames": 2929355,
-     "name": "Ernsee",
-     "lat": 50.87798,
-     "lon": 12.03891,
+     "geonames": 2940436,
+     "name": "Caaschwitz",
+     "lat": 50.95,
+     "lon": 12.0,
      "class": "P",
-     "code": "PPL",
+     "code": "PPLA4",
      "admin1": "15",
-     "population": 581,
-     "km": 31.6
+     "population": 742,
+     "km": 38.2
     }
    ]
   },
@@ -8878,92 +9222,6 @@
      ],
      "wuestung": false,
      "gemeinde": true
-    }
-   ]
-  },
-  {
-   "key": "Laasen",
-   "n": 30,
-   "types": {
-    "Location": 30
-   },
-   "forms": {
-    "Laasen": 30
-   },
-   "pages": [
-    "12",
-    "14",
-    "37",
-    "52",
-    "121",
-    "124",
-    "137",
-    "218",
-    "302",
-    "411",
-    "413",
-    "415",
-    "418",
-    "421",
-    "427",
-    "…"
-   ],
-   "n_pages": 22,
-   "contexts": [
-    {
-     "page": "12",
-     "unit": "b1.r5c2",
-     "text": "⟦Laasen⟧ 710—726'."
-    },
-    {
-     "page": "14",
-     "unit": "b1",
-     "text": "a 775'. Weinberg, höchster Punkt im Westen 775'. Nordwestnordhöhe von ⟦Laasen⟧ 775. Eichberg bei Dorna 776'. Südwesthöhe von Hirschfeld 776'. Kienbe"
-    },
-    {
-     "page": "37",
-     "unit": "b4",
-     "text": "ner Baches aufgeschlossen und läuft mit einmaliger Unterbrechung (bei ⟦Laasen⟧) von Collis aus in Gestalt eines breiten Streifens nordwärts über die"
-    },
-    {
-     "page": "52",
-     "unit": "b14",
-     "text": "sener Bächlein, südöstlich von Trebnitz 797' hoch quellend, fließt an ⟦Laasen⟧ und Bieblach vorbei und mündet unterhalb Cuba 495' hoch."
-    }
-   ],
-   "brueckner_register": [
-    {
-     "name": "Laasen",
-     "parents": [],
-     "pages": [
-      "558"
-     ],
-     "wuestung": false,
-     "gemeinde": true
-    }
-   ],
-   "geonames_candidates": [
-    {
-     "geonames": 2882098,
-     "name": "Laasen",
-     "lat": 50.59434,
-     "lon": 11.39381,
-     "class": "P",
-     "code": "PPL",
-     "admin1": "15",
-     "population": 0,
-     "km": 32.3
-    },
-    {
-     "geonames": 2882097,
-     "name": "Laasen",
-     "lat": 50.89216,
-     "lon": 12.12078,
-     "class": "P",
-     "code": "PPL",
-     "admin1": "15",
-     "population": 144,
-     "km": 35.8
     }
    ]
   },
@@ -9334,178 +9592,6 @@
    ]
   },
   {
-   "key": "Jena",
-   "n": 30,
-   "types": {
-    "Location": 30
-   },
-   "forms": {
-    "Jena": 30
-   },
-   "pages": [
-    "120",
-    "274",
-    "276",
-    "281",
-    "295",
-    "323",
-    "332",
-    "348",
-    "358",
-    "366",
-    "369",
-    "378",
-    "442",
-    "447",
-    "466",
-    "…"
-   ],
-   "n_pages": 25,
-   "contexts": [
-    {
-     "page": "120",
-     "unit": "b2",
-     "text": "kenntlich gemacht. Der vor Kurzem verstorbene Professor Schleicher zu ⟦Jena⟧, einer der größten Kenner der slavischen Idiome, schrieb dem Verfasse"
-    },
-    {
-     "page": "274",
-     "unit": "b1",
-     "text": "ach einem mit der großherzoglichen Direction des Landkrankenhauses zu ⟦Jena⟧ abgeschlossenen Vertrage in geeigneten, namentlich chirurgischen Fäll"
-    },
-    {
-     "page": "276",
-     "unit": "b1",
-     "text": "aus nahm sie eine doppelte Richtung, nämlich theils über Neustadt und ⟦Jena⟧, theils über Gera und Langenberg; jene durchschnitt im Oberlande Pörm"
-    },
-    {
-     "page": "281",
-     "unit": "b3",
-     "text": "IV. Das Oberappellationsgericht zu ⟦Jena⟧, das als oberstes Justiztribunal von dem Großherzogthum S.-Weimar, vo"
-    }
-   ],
-   "geonames_candidates": [
-    {
-     "geonames": 2895044,
-     "name": "Jena",
-     "lat": 50.92878,
-     "lon": 11.5899,
-     "class": "P",
-     "code": "PPLA3",
-     "admin1": "15",
-     "population": 104712,
-     "km": 38.9
-    },
-    {
-     "geonames": 6545388,
-     "name": "Markt - Jena",
-     "lat": 50.92823,
-     "lon": 11.58801,
-     "class": "S",
-     "code": "MKT",
-     "admin1": "15",
-     "population": 0,
-     "km": 38.9
-    },
-    {
-     "geonames": 2895042,
-     "name": "Kreisfreie Stadt Jena",
-     "lat": 50.93194,
-     "lon": 11.59056,
-     "class": "A",
-     "code": "ADM3",
-     "admin1": "15",
-     "population": 109725,
-     "km": 39.2
-    },
-    {
-     "geonames": 6549748,
-     "name": "Jena",
-     "lat": 50.9326,
-     "lon": 11.58678,
-     "class": "A",
-     "code": "ADM4",
-     "admin1": "15",
-     "population": 109725,
-     "km": 39.4
-    }
-   ]
-  },
-  {
-   "key": "Oberböhmsdorf",
-   "n": 29,
-   "types": {
-    "Location": 29
-   },
-   "forms": {
-    "Oberböhmsdorf": 29
-   },
-   "pages": [
-    "6",
-    "21",
-    "23",
-    "30",
-    "125",
-    "134",
-    "218",
-    "232",
-    "240",
-    "244",
-    "245",
-    "572",
-    "573",
-    "584",
-    "594",
-    "…"
-   ],
-   "n_pages": 21,
-   "contexts": [
-    {
-     "page": "6",
-     "unit": "b3.r34c1",
-     "text": "⟦Oberböhmsdorf⟧"
-    },
-    {
-     "page": "21",
-     "unit": "b1.r8c2",
-     "text": "⟦Oberböhmsdorf⟧ 1325—1348'."
-    },
-    {
-     "page": "23",
-     "unit": "b1.r39c1",
-     "text": "Langenbacher Hügel (Osten) von ⟦Oberböhmsdorf⟧ 1450'."
-    },
-    {
-     "page": "30",
-     "unit": "b2",
-     "text": "keit. Sie bestehen selten in Grünsteintuffablagerungen, wie z. B. bei ⟦Oberböhmsdorf⟧, vielmehr in der Regel in Diabasen, zusammengesetzt aus natronhaltige"
-    }
-   ],
-   "brueckner_register": [
-    {
-     "name": "Oberböhmsdorf",
-     "parents": [],
-     "pages": [
-      "594"
-     ],
-     "wuestung": false,
-     "gemeinde": true
-    }
-   ],
-   "geonames_candidates": [
-    {
-     "geonames": 2861234,
-     "name": "Oberböhmsdorf",
-     "lat": 50.56123,
-     "lon": 11.83176,
-     "class": "P",
-     "code": "PPL",
-     "admin1": "15",
-     "population": 456,
-     "km": 6.7
-    }
-   ]
-  },
-  {
    "key": "Gleina",
    "n": 29,
    "types": {
@@ -9636,88 +9722,53 @@
    ]
   },
   {
-   "key": "Caaschwitz",
+   "key": "Kretzschwitz",
    "n": 29,
    "types": {
     "Location": 29
    },
    "forms": {
-    "Caaschwitz": 29
+    "Kretzschwitz": 29
    },
    "pages": [
-    "11",
     "12",
-    "52",
-    "77",
+    "14",
     "119",
-    "135",
     "205",
-    "220",
-    "248",
-    "336",
-    "340",
+    "251",
+    "409",
     "411",
     "413",
-    "414",
-    "498",
+    "509",
+    "530",
+    "531",
+    "532",
+    "533",
+    "534",
+    "535",
     "…"
    ],
-   "n_pages": 23,
+   "n_pages": 19,
    "contexts": [
     {
-     "page": "11",
-     "unit": "b11",
-     "text": "Was die Meereshöhe der bewohnten Orte im Unterlande betrifft, so ist ⟦Caaschwitz⟧ der tiefste, die Käseschenke der höchste, mit einem Höhenunterschiede"
-    },
-    {
      "page": "12",
-     "unit": "b3.r1c1",
-     "text": "⟦Caaschwitz⟧ 460—465'."
+     "unit": "b1.r11c2",
+     "text": "⟦Kretzschwitz⟧ 720—750'."
     },
     {
-     "page": "52",
-     "unit": "b4",
-     "text": " dieses Ortes das Heinzethalbächlein und mündet zwischen Köstritz und ⟦Caaschwitz⟧."
-    },
-    {
-     "page": "77",
+     "page": "14",
      "unit": "b1",
-     "text": "Frankenthal, Allogonium converfaceum zwischen Köstritz und ⟦Caaschwitz⟧, Chaetophora tuberculosa bei Debschwitz, Rivularia dura bei Milbitz, "
-    }
-   ],
-   "brueckner_register": [
-    {
-     "name": "Caaschwitz",
-     "parents": [],
-     "pages": [
-      "503"
-     ],
-     "wuestung": false,
-     "gemeinde": true
-    }
-   ],
-   "geonames_candidates": [
-    {
-     "geonames": 6550488,
-     "name": "Caaschwitz",
-     "lat": 50.94509,
-     "lon": 11.98397,
-     "class": "A",
-     "code": "ADM4",
-     "admin1": "15",
-     "population": 610,
-     "km": 37.4
+     "text": " Nordwesthöhe von Lichtenberg 826'. Chaussee zwischen Reichenbach und ⟦Kretzschwitz⟧ 827'. Nordostnordhöhe von Großsaara 828'."
     },
     {
-     "geonames": 2940436,
-     "name": "Caaschwitz",
-     "lat": 50.95,
-     "lon": 12.0,
-     "class": "P",
-     "code": "PPLA4",
-     "admin1": "15",
-     "population": 742,
-     "km": 38.2
+     "page": "119",
+     "unit": "b3",
+     "text": " Löhma, Desse in Dettersdorf, Kulm in Schlegel, Eger in Hermsdorf und ⟦Kretzschwitz⟧, Ciba in Göritz, Horla in Ullersreuth, Linz in Rüdersdorf, Görlitz in"
+    },
+    {
+     "page": "205",
+     "unit": "b3",
+     "text": " Stelzen; viel andere sind noch zu heben, namentlich im Egerholze bei ⟦Kretzschwitz⟧, beim Rittergutsfelde zu Scheubengrobsdorf, auf einem Gute zu Franken"
     }
    ]
   },
@@ -10531,57 +10582,6 @@
      "admin1": "15",
      "population": 316,
      "km": 31.8
-    }
-   ]
-  },
-  {
-   "key": "Kretzschwitz",
-   "n": 28,
-   "types": {
-    "Location": 28
-   },
-   "forms": {
-    "Kretzschwitz": 28
-   },
-   "pages": [
-    "12",
-    "14",
-    "119",
-    "205",
-    "251",
-    "411",
-    "413",
-    "509",
-    "530",
-    "531",
-    "532",
-    "533",
-    "534",
-    "535",
-    "537",
-    "…"
-   ],
-   "n_pages": 18,
-   "contexts": [
-    {
-     "page": "12",
-     "unit": "b1.r11c2",
-     "text": "⟦Kretzschwitz⟧ 720—750'."
-    },
-    {
-     "page": "14",
-     "unit": "b1",
-     "text": " Nordwesthöhe von Lichtenberg 826'. Chaussee zwischen Reichenbach und ⟦Kretzschwitz⟧ 827'. Nordostnordhöhe von Großsaara 828'."
-    },
-    {
-     "page": "119",
-     "unit": "b3",
-     "text": " Löhma, Desse in Dettersdorf, Kulm in Schlegel, Eger in Hermsdorf und ⟦Kretzschwitz⟧, Ciba in Göritz, Horla in Ullersreuth, Linz in Rüdersdorf, Görlitz in"
-    },
-    {
-     "page": "205",
-     "unit": "b3",
-     "text": " Stelzen; viel andere sind noch zu heben, namentlich im Egerholze bei ⟦Kretzschwitz⟧, beim Rittergutsfelde zu Scheubengrobsdorf, auf einem Gute zu Franken"
     }
    ]
   },
@@ -11726,57 +11726,6 @@
    ]
   },
   {
-   "key": "Dettersdorf",
-   "n": 26,
-   "types": {
-    "Location": 26
-   },
-   "forms": {
-    "Dettersdorf": 26
-   },
-   "pages": [
-    "23",
-    "35",
-    "119",
-    "125",
-    "218",
-    "227",
-    "230",
-    "292",
-    "294",
-    "415",
-    "574",
-    "588",
-    "604",
-    "605",
-    "606",
-    "…"
-   ],
-   "n_pages": 19,
-   "contexts": [
-    {
-     "page": "23",
-     "unit": "b1.r11c1",
-     "text": "Nordosthöhe von ⟦Dettersdorf⟧ (bei den Eisengruben 1297'."
-    },
-    {
-     "page": "35",
-     "unit": "b2",
-     "text": " beobachten, durch die die Massen empordrangen, wie z. B. südlich von ⟦Dettersdorf⟧, zwischen Schleiz und Lössau, an dem Erholungsgarten bei Schleiz 2c. "
-    },
-    {
-     "page": "119",
-     "unit": "b3",
-     "text": "cher Dörfer als Flurnamen getroffen werden. Dahin gehören Lehesten in ⟦Dettersdorf⟧ und Seubtendorf, Lemnitz in Rüdersdorf, Lesse in Rubitz, Löhma in Rot"
-    },
-    {
-     "page": "125",
-     "unit": "b1",
-     "text": "in) und Burkersdorf eine Pyramide zwischen zwei Palmen. Im Siegel von ⟦Dettersdorf⟧ ist ein tanzender Jüngling, offenbar Symbol des Erntefestes."
-    }
-   ]
-  },
-  {
    "key": "Unterkoskau",
    "n": 26,
    "types": {
@@ -12154,6 +12103,81 @@
    ]
   },
   {
+   "key": "Lusan",
+   "n": 25,
+   "types": {
+    "Location": 25
+   },
+   "forms": {
+    "Lusan": 25
+   },
+   "pages": [
+    "12",
+    "43",
+    "121",
+    "124",
+    "133",
+    "134",
+    "201",
+    "345",
+    "409",
+    "411",
+    "413",
+    "432",
+    "435",
+    "449",
+    "451",
+    "…"
+   ],
+   "n_pages": 21,
+   "contexts": [
+    {
+     "page": "12",
+     "unit": "b3.r7c2",
+     "text": "⟦Lusan⟧ 530—540'."
+    },
+    {
+     "page": "43",
+     "unit": "b2",
+     "text": " andererseits, nach dem Dafürhalten des Volkes, der Türkenborn unfern ⟦Lusan⟧ und die Eremitagenquelle bei Oschitz Krätze erzeugend und nicht minde"
+    },
+    {
+     "page": "121",
+     "unit": "b1.r21c3",
+     "text": "⟦Lusan⟧."
+    },
+    {
+     "page": "124",
+     "unit": "b3",
+     "text": "en Ortssiegeln (Bieblach, Dragensdorf, Gebersreuth, Görkwitz, Laasen, ⟦Lusan⟧ und Roschitz) finden sich landwirthschaftliche Bilder, nämlich Rechen"
+    }
+   ],
+   "brueckner_register": [
+    {
+     "name": "Lusan",
+     "parents": [],
+     "pages": [
+      "433"
+     ],
+     "wuestung": false,
+     "gemeinde": true
+    }
+   ],
+   "geonames_candidates": [
+    {
+     "geonames": 2875019,
+     "name": "Lusan",
+     "lat": 50.84372,
+     "lon": 12.06517,
+     "class": "P",
+     "code": "PPLX",
+     "admin1": "15",
+     "population": 21507,
+     "km": 29.1
+    }
+   ]
+  },
+  {
    "key": "Lehesten",
    "n": 25,
    "types": {
@@ -12271,6 +12295,81 @@
      "admin1": "15",
      "population": 648,
      "km": 44.5
+    }
+   ]
+  },
+  {
+   "key": "Raila",
+   "n": 25,
+   "types": {
+    "Location": 25
+   },
+   "forms": {
+    "Raila": 25
+   },
+   "pages": [
+    "47",
+    "61",
+    "179",
+    "232",
+    "243",
+    "572",
+    "573",
+    "578",
+    "596",
+    "661",
+    "665",
+    "670",
+    "673",
+    "675",
+    "676",
+    "…"
+   ],
+   "n_pages": 19,
+   "contexts": [
+    {
+     "page": "47",
+     "unit": "b4",
+     "text": "eitenbach und das Kommlerabächlein mit dem Petersbächlein, rechts bei ⟦Raila⟧ den Jocusbach und das Bächlein und links abwärts den von der wernsdor"
+    },
+    {
+     "page": "61",
+     "unit": "b3",
+     "text": "eicht. Noch auffälliger zeigt sich dies im Oberlande, wo unter Andern ⟦Raila⟧ seine Ernte acht Tage früher hat als Zollgrün und wiederum dieser Ort"
+    },
+    {
+     "page": "179",
+     "unit": "b1",
+     "text": "n dreht man eine Schindel oder Ziegel auf dem Dache oder man legt (in ⟦Raila⟧) einen Läusekamm oder ein Mangholz vor die innere Türschwelle. Tage u"
+    },
+    {
+     "page": "232",
+     "unit": "fn1",
+     "text": "Oberböhmsdorf, Zollgrün, Mielesdorf, Tanna, Koskau, Stelzen, Spilmes, ⟦Raila⟧ und Wernsdorf zu betreiben."
+    }
+   ],
+   "brueckner_register": [
+    {
+     "name": "Raila",
+     "parents": [],
+     "pages": [
+      "678"
+     ],
+     "wuestung": false,
+     "gemeinde": true
+    }
+   ],
+   "geonames_candidates": [
+    {
+     "geonames": 2850828,
+     "name": "Raila",
+     "lat": 50.51814,
+     "lon": 11.79251,
+     "class": "P",
+     "code": "PPL",
+     "admin1": "15",
+     "population": 133,
+     "km": 12.0
     }
    ]
   },
@@ -12716,81 +12815,6 @@
    ]
   },
   {
-   "key": "Lusan",
-   "n": 24,
-   "types": {
-    "Location": 24
-   },
-   "forms": {
-    "Lusan": 24
-   },
-   "pages": [
-    "12",
-    "43",
-    "121",
-    "124",
-    "133",
-    "134",
-    "201",
-    "345",
-    "411",
-    "413",
-    "432",
-    "435",
-    "449",
-    "451",
-    "452",
-    "…"
-   ],
-   "n_pages": 20,
-   "contexts": [
-    {
-     "page": "12",
-     "unit": "b3.r7c2",
-     "text": "⟦Lusan⟧ 530—540'."
-    },
-    {
-     "page": "43",
-     "unit": "b2",
-     "text": " andererseits, nach dem Dafürhalten des Volkes, der Türkenborn unfern ⟦Lusan⟧ und die Eremitagenquelle bei Oschitz Krätze erzeugend und nicht minde"
-    },
-    {
-     "page": "121",
-     "unit": "b1.r21c3",
-     "text": "⟦Lusan⟧."
-    },
-    {
-     "page": "124",
-     "unit": "b3",
-     "text": "en Ortssiegeln (Bieblach, Dragensdorf, Gebersreuth, Görkwitz, Laasen, ⟦Lusan⟧ und Roschitz) finden sich landwirthschaftliche Bilder, nämlich Rechen"
-    }
-   ],
-   "brueckner_register": [
-    {
-     "name": "Lusan",
-     "parents": [],
-     "pages": [
-      "433"
-     ],
-     "wuestung": false,
-     "gemeinde": true
-    }
-   ],
-   "geonames_candidates": [
-    {
-     "geonames": 2875019,
-     "name": "Lusan",
-     "lat": 50.84372,
-     "lon": 12.06517,
-     "class": "P",
-     "code": "PPLX",
-     "admin1": "15",
-     "population": 21507,
-     "km": 29.1
-    }
-   ]
-  },
-  {
    "key": "Saalfeld",
    "n": 24,
    "types": {
@@ -12928,61 +12952,61 @@
    ]
   },
   {
-   "key": "Raila",
+   "key": "Weckersdorf",
    "n": 24,
    "types": {
     "Location": 24
    },
    "forms": {
-    "Raila": 24
+    "Weckersdorf": 24
    },
    "pages": [
-    "47",
-    "61",
-    "179",
-    "232",
+    "22",
+    "29",
+    "30",
+    "31",
+    "32",
+    "50",
+    "125",
+    "218",
+    "227",
+    "240",
+    "243",
+    "245",
+    "246",
     "572",
     "573",
-    "578",
-    "596",
-    "661",
-    "665",
-    "670",
-    "673",
-    "675",
-    "676",
-    "678",
     "…"
    ],
-   "n_pages": 18,
+   "n_pages": 22,
    "contexts": [
     {
-     "page": "47",
-     "unit": "b4",
-     "text": "eitenbach und das Kommlerabächlein mit dem Petersbächlein, rechts bei ⟦Raila⟧ den Jocusbach und das Bächlein und links abwärts den von der wernsdor"
+     "page": "22",
+     "unit": "b4.r6c1",
+     "text": "Waldhöhe nördl. v. ⟦Weckersdorf⟧ 1098'."
     },
     {
-     "page": "61",
+     "page": "29",
+     "unit": "b2",
+     "text": "m, über den Königsberg weg durch die Fluren von Lössau, Kirschkau und ⟦Weckersdorf⟧. Nachdem er in derselben nordöstlichen Richtung weiter streichend die"
+    },
+    {
+     "page": "30",
      "unit": "b3",
-     "text": "eicht. Noch auffälliger zeigt sich dies im Oberlande, wo unter Andern ⟦Raila⟧ seine Ernte acht Tage früher hat als Zollgrün und wiederum dieser Ort"
+     "text": "ie z. B. am Südabhange des Buchhübels bei Schleiz und in der Nähe von ⟦Weckersdorf⟧. Die Erzgänge stehen in Beziehung zu einem in derselben Richtung stre"
     },
     {
-     "page": "179",
+     "page": "31",
      "unit": "b1",
-     "text": "n dreht man eine Schindel oder Ziegel auf dem Dache oder man legt (in ⟦Raila⟧) einen Läusekamm oder ein Mangholz vor die innere Türschwelle. Tage u"
-    },
-    {
-     "page": "232",
-     "unit": "fn1",
-     "text": "Oberböhmsdorf, Zollgrün, Mielesdorf, Tanna, Koskau, Stelzen, Spilmes, ⟦Raila⟧ und Wernsdorf zu betreiben."
+     "text": "er findet sich die Formation an einzelnen Stellen zwischen Lössau und ⟦Weckersdorf⟧ und bei Weißendorf. Auch bei Hohenleuben zeigen sich Spuren davon. En"
     }
    ],
    "brueckner_register": [
     {
-     "name": "Raila",
+     "name": "Weckersdorf",
      "parents": [],
      "pages": [
-      "678"
+      "628"
      ],
      "wuestung": false,
      "gemeinde": true
@@ -12990,15 +13014,15 @@
    ],
    "geonames_candidates": [
     {
-     "geonames": 2850828,
-     "name": "Raila",
-     "lat": 50.51814,
-     "lon": 11.79251,
+     "geonames": 2813513,
+     "name": "Weckersdorf",
+     "lat": 50.61598,
+     "lon": 11.91791,
      "class": "P",
      "code": "PPL",
      "admin1": "15",
-     "population": 133,
-     "km": 12.0
+     "population": 189,
+     "km": 4.8
     }
    ]
   },
@@ -13330,81 +13354,6 @@
    ]
   },
   {
-   "key": "Weckersdorf",
-   "n": 23,
-   "types": {
-    "Location": 23
-   },
-   "forms": {
-    "Weckersdorf": 23
-   },
-   "pages": [
-    "22",
-    "29",
-    "30",
-    "31",
-    "32",
-    "50",
-    "125",
-    "218",
-    "227",
-    "240",
-    "245",
-    "246",
-    "572",
-    "573",
-    "623",
-    "…"
-   ],
-   "n_pages": 21,
-   "contexts": [
-    {
-     "page": "22",
-     "unit": "b4.r6c1",
-     "text": "Waldhöhe nördl. v. ⟦Weckersdorf⟧ 1098'."
-    },
-    {
-     "page": "29",
-     "unit": "b2",
-     "text": "m, über den Königsberg weg durch die Fluren von Lössau, Kirschkau und ⟦Weckersdorf⟧. Nachdem er in derselben nordöstlichen Richtung weiter streichend die"
-    },
-    {
-     "page": "30",
-     "unit": "b3",
-     "text": "ie z. B. am Südabhange des Buchhübels bei Schleiz und in der Nähe von ⟦Weckersdorf⟧. Die Erzgänge stehen in Beziehung zu einem in derselben Richtung stre"
-    },
-    {
-     "page": "31",
-     "unit": "b1",
-     "text": "er findet sich die Formation an einzelnen Stellen zwischen Lössau und ⟦Weckersdorf⟧ und bei Weißendorf. Auch bei Hohenleuben zeigen sich Spuren davon. En"
-    }
-   ],
-   "brueckner_register": [
-    {
-     "name": "Weckersdorf",
-     "parents": [],
-     "pages": [
-      "628"
-     ],
-     "wuestung": false,
-     "gemeinde": true
-    }
-   ],
-   "geonames_candidates": [
-    {
-     "geonames": 2813513,
-     "name": "Weckersdorf",
-     "lat": 50.61598,
-     "lon": 11.91791,
-     "class": "P",
-     "code": "PPL",
-     "admin1": "15",
-     "population": 189,
-     "km": 4.8
-    }
-   ]
-  },
-  {
    "key": "Sparnberg",
    "n": 23,
    "types": {
@@ -13568,7 +13517,7 @@
     {
      "page": "708",
      "unit": "b3.r26c1",
-     "text": "⟦Lückenmühle⟧ . . . . ."
+     "text": "⟦Lückenmühle⟧"
     },
     {
      "page": "711",
@@ -13599,6 +13548,165 @@
      "admin1": "15",
      "population": 98,
      "km": 18.8
+    }
+   ]
+  },
+  {
+   "key": "Oettersdorf",
+   "n": 22,
+   "types": {
+    "Location": 22
+   },
+   "forms": {
+    "Oettersdorf": 22
+   },
+   "pages": [
+    "6",
+    "19",
+    "36",
+    "149",
+    "572",
+    "573",
+    "574",
+    "588",
+    "592",
+    "602",
+    "603",
+    "604",
+    "605",
+    "606",
+    "828"
+   ],
+   "n_pages": 15,
+   "contexts": [
+    {
+     "page": "6",
+     "unit": "b3.r23c1",
+     "text": "⟦Oettersdorf⟧"
+    },
+    {
+     "page": "19",
+     "unit": "b2",
+     "text": "ühl, Lerchenhübel und lössauer Mühlberg; am Südrande die Hohewart bei ⟦Oettersdorf⟧, der Wehrhübel, Sauhübel, Bühl und obere Bühl; am Westrande der Eckar"
+    },
+    {
+     "page": "36",
+     "unit": "b5",
+     "text": " sind in ihr selten, z. B. vor dem lobensteiner Schießhause, zwischen ⟦Oettersdorf⟧ und Dittersdorf 2c. zu finden."
+    },
+    {
+     "page": "149",
+     "unit": "b1",
+     "text": "⟦Oettersdorf⟧."
+    }
+   ],
+   "brueckner_register": [
+    {
+     "name": "Oettersdorf",
+     "parents": [],
+     "pages": [
+      "602"
+     ],
+     "wuestung": false,
+     "gemeinde": true
+    }
+   ],
+   "geonames_candidates": [
+    {
+     "geonames": 2857850,
+     "name": "Oettersdorf",
+     "lat": 50.6,
+     "lon": 11.81667,
+     "class": "P",
+     "code": "PPLA4",
+     "admin1": "15",
+     "population": 877,
+     "km": 3.2
+    },
+    {
+     "geonames": 6550459,
+     "name": "Oettersdorf",
+     "lat": 50.6,
+     "lon": 11.8167,
+     "class": "A",
+     "code": "ADM4",
+     "admin1": "15",
+     "population": 800,
+     "km": 3.2
+    }
+   ]
+  },
+  {
+   "key": "Caasen",
+   "n": 22,
+   "types": {
+    "Location": 22
+   },
+   "forms": {
+    "Caasen": 22
+   },
+   "pages": [
+    "12",
+    "52",
+    "220",
+    "276",
+    "409",
+    "411",
+    "413",
+    "536",
+    "541",
+    "542",
+    "544",
+    "545",
+    "546",
+    "550",
+    "826"
+   ],
+   "n_pages": 15,
+   "contexts": [
+    {
+     "page": "12",
+     "unit": "b1.r8c2",
+     "text": "⟦Caasen⟧ 720—746'."
+    },
+    {
+     "page": "52",
+     "unit": "b15",
+     "text": "Brumme“) hat seine zwei 760' hohen Quellfäden in Bethenhausen und bei ⟦Caasen⟧, empfängt bei Kulm von Söllmnitz her 618' hoch den Rothenbach mit dem"
+    },
+    {
+     "page": "220",
+     "unit": "b3.r4c1",
+     "text": "⟦Caasen⟧"
+    },
+    {
+     "page": "276",
+     "unit": "b1",
+     "text": "h Zeitzer Straße, die jetzt über Pölzig läuft, vormals über Naundorf, ⟦Caasen⟧, Wernsdorf und Hermsdorf ging. Hatte diese Hauptaxenstraße einen süd-"
+    }
+   ],
+   "brueckner_register": [
+    {
+     "name": "Caasen",
+     "parents": [],
+     "pages": [
+      "542"
+     ],
+     "wuestung": false,
+     "gemeinde": true
+    }
+   ],
+   "geonames_candidates": [
+    {
+     "geonames": 2940435,
+     "name": "Caasen",
+     "lat": 50.9303,
+     "lon": 12.18054,
+     "class": "P",
+     "code": "PPL",
+     "admin1": "15",
+     "population": 60,
+     "km": 41.6
     }
    ]
   },
@@ -13716,7 +13824,7 @@
     {
      "page": "410",
      "unit": "b1.r27c1",
-     "text": "⟦Waaswitz⟧ . . . . . ."
+     "text": "⟦Waaswitz⟧"
     },
     {
      "page": "411",
@@ -13746,6 +13854,142 @@
      "admin1": "15",
      "population": 0,
      "km": 40.2
+    }
+   ]
+  },
+  {
+   "key": "Zoppothen",
+   "n": 22,
+   "types": {
+    "Location": 22
+   },
+   "forms": {
+    "Zoppothen": 22
+   },
+   "pages": [
+    "34",
+    "121",
+    "243",
+    "276",
+    "390",
+    "391",
+    "661",
+    "730",
+    "731",
+    "732",
+    "735",
+    "740",
+    "792"
+   ],
+   "n_pages": 13,
+   "contexts": [
+    {
+     "page": "34",
+     "unit": "b3",
+     "text": "fer Muckenberg hin, nach einer jähen Einbiegung nach Osten östlich an ⟦Zoppothen⟧ vorüber, auf der Höhe neben der Saale und über den pöritzscher Berg h"
+    },
+    {
+     "page": "121",
+     "unit": "b1.r18c3",
+     "text": "⟦Zoppothen⟧."
+    },
+    {
+     "page": "243",
+     "unit": "b4.r4c5",
+     "text": "3 Alaunerzgruben; (bei Haueisen, ⟦Zoppothen⟧ an der Saale und bei d. Pempelsmühle), schon 1550 erwähnt."
+    },
+    {
+     "page": "276",
+     "unit": "b1",
+     "text": "n Esel oder grauen Affen, am Pollerhaus und Hartmannsberg vorbei nach ⟦Zoppothen⟧, Pöritzsch, Saalburg, Gräfenwarth und über Oschitz nach Schleiz, jetz"
+    }
+   ],
+   "geonames_candidates": [
+    {
+     "geonames": 2803895,
+     "name": "Zoppoten",
+     "lat": 50.4909,
+     "lon": 11.69788,
+     "class": "P",
+     "code": "PPL",
+     "admin1": "15",
+     "population": 262,
+     "km": 17.9
+    }
+   ]
+  },
+  {
+   "key": "Oberröppisch",
+   "n": 22,
+   "types": {
+    "Location": 22
+   },
+   "forms": {
+    "Oberröppisch": 22
+   },
+   "pages": [
+    "37",
+    "124",
+    "133",
+    "207",
+    "409",
+    "411",
+    "413",
+    "432",
+    "435",
+    "451",
+    "454",
+    "455",
+    "456",
+    "457",
+    "460",
+    "…"
+   ],
+   "n_pages": 16,
+   "contexts": [
+    {
+     "page": "37",
+     "unit": "b3",
+     "text": "entlichen Kieselschiefer der Graptolithenschichten. Der Heersberg bei ⟦Oberröppisch⟧ besteht aus kulmischer Grauwacke; — sonst berührt die Kulmformation n"
+    },
+    {
+     "page": "124",
+     "unit": "b3",
+     "text": "bis vier Bäume und zwar Gleina zwei Linden, dazwischen einen Brunnen, ⟦Oberröppisch⟧ drei Linden, Kulm zwei, Hirschfeld und Waaswitz drei und Großaga vier"
+    },
+    {
+     "page": "133",
+     "unit": "b1",
+     "text": "aupttheile in Hirschfeld, Söllmnitz, Gleina, Hartmannsdorf, Leumnitz, ⟦Oberröppisch⟧, Dürrenebersdorf, Rüdersdorf, Pahren, Dittersdorf, Kulm und Gahma und"
+    },
+    {
+     "page": "207",
+     "unit": "b3",
+     "text": "ich sie zu rufen: Rothkäppel (Pohlitz), Rothstrumpf (Köstritz, Grüne, ⟦Oberröppisch⟧), Tanzmännel (Grüne, Köstritz) oder Rothkopf (Jägersruh). Einem Pohli"
+    }
+   ],
+   "brueckner_register": [
+    {
+     "name": "Oberröppisch",
+     "parents": [],
+     "pages": [
+      "455"
+     ],
+     "wuestung": false,
+     "gemeinde": true
+    }
+   ],
+   "geonames_candidates": [
+    {
+     "geonames": 2859247,
+     "name": "Oberröppisch",
+     "lat": 50.83333,
+     "lon": 12.06667,
+     "class": "P",
+     "code": "PPLX",
+     "admin1": "15",
+     "population": 616,
+     "km": 28.2
     }
    ]
   },
@@ -13996,140 +14240,6 @@
      "admin1": "15",
      "population": 124,
      "km": 7.6
-    }
-   ]
-  },
-  {
-   "key": "Zoppothen",
-   "n": 21,
-   "types": {
-    "Location": 21
-   },
-   "forms": {
-    "Zoppothen": 21
-   },
-   "pages": [
-    "34",
-    "121",
-    "276",
-    "390",
-    "391",
-    "661",
-    "730",
-    "731",
-    "732",
-    "735",
-    "740",
-    "792"
-   ],
-   "n_pages": 12,
-   "contexts": [
-    {
-     "page": "34",
-     "unit": "b3",
-     "text": "fer Muckenberg hin, nach einer jähen Einbiegung nach Osten östlich an ⟦Zoppothen⟧ vorüber, auf der Höhe neben der Saale und über den pöritzscher Berg h"
-    },
-    {
-     "page": "121",
-     "unit": "b1.r18c3",
-     "text": "⟦Zoppothen⟧."
-    },
-    {
-     "page": "276",
-     "unit": "b1",
-     "text": "n Esel oder grauen Affen, am Pollerhaus und Hartmannsberg vorbei nach ⟦Zoppothen⟧, Pöritzsch, Saalburg, Gräfenwarth und über Oschitz nach Schleiz, jetz"
-    },
-    {
-     "page": "390",
-     "unit": "b5",
-     "text": "des Zweiges Burgk die Herrschaft Burgk, doch ohne die Dörfer Friesau, ⟦Zoppothen⟧ und Röppisch. Er durchlebte den 30jährigen Krieg, wirkte zum Besten d"
-    }
-   ],
-   "geonames_candidates": [
-    {
-     "geonames": 2803895,
-     "name": "Zoppoten",
-     "lat": 50.4909,
-     "lon": 11.69788,
-     "class": "P",
-     "code": "PPL",
-     "admin1": "15",
-     "population": 262,
-     "km": 17.9
-    }
-   ]
-  },
-  {
-   "key": "Oberröppisch",
-   "n": 21,
-   "types": {
-    "Location": 21
-   },
-   "forms": {
-    "Oberröppisch": 21
-   },
-   "pages": [
-    "37",
-    "124",
-    "133",
-    "207",
-    "411",
-    "413",
-    "432",
-    "435",
-    "451",
-    "454",
-    "455",
-    "456",
-    "457",
-    "460",
-    "828"
-   ],
-   "n_pages": 15,
-   "contexts": [
-    {
-     "page": "37",
-     "unit": "b3",
-     "text": "entlichen Kieselschiefer der Graptolithenschichten. Der Heersberg bei ⟦Oberröppisch⟧ besteht aus kulmischer Grauwacke; — sonst berührt die Kulmformation n"
-    },
-    {
-     "page": "124",
-     "unit": "b3",
-     "text": "bis vier Bäume und zwar Gleina zwei Linden, dazwischen einen Brunnen, ⟦Oberröppisch⟧ drei Linden, Kulm zwei, Hirschfeld und Waaswitz drei und Großaga vier"
-    },
-    {
-     "page": "133",
-     "unit": "b1",
-     "text": "aupttheile in Hirschfeld, Söllmnitz, Gleina, Hartmannsdorf, Leumnitz, ⟦Oberröppisch⟧, Dürrenebersdorf, Rüdersdorf, Pahren, Dittersdorf, Kulm und Gahma und"
-    },
-    {
-     "page": "207",
-     "unit": "b3",
-     "text": "ich sie zu rufen: Rothkäppel (Pohlitz), Rothstrumpf (Köstritz, Grüne, ⟦Oberröppisch⟧), Tanzmännel (Grüne, Köstritz) oder Rothkopf (Jägersruh). Einem Pohli"
-    }
-   ],
-   "brueckner_register": [
-    {
-     "name": "Oberröppisch",
-     "parents": [],
-     "pages": [
-      "455"
-     ],
-     "wuestung": false,
-     "gemeinde": true
-    }
-   ],
-   "geonames_candidates": [
-    {
-     "geonames": 2859247,
-     "name": "Oberröppisch",
-     "lat": 50.83333,
-     "lon": 12.06667,
-     "class": "P",
-     "code": "PPLX",
-     "admin1": "15",
-     "population": 616,
-     "km": 28.2
     }
    ]
   },
@@ -14770,74 +14880,64 @@
    ]
   },
   {
-   "key": "Caasen",
+   "key": "Roschitz",
    "n": 20,
    "types": {
     "Location": 20
    },
    "forms": {
-    "Caasen": 20
+    "Roschitz": 20
    },
    "pages": [
     "12",
-    "52",
-    "220",
-    "276",
+    "37",
+    "124",
+    "199",
+    "201",
+    "202",
+    "222",
+    "248",
+    "302",
+    "407",
+    "410",
     "411",
     "413",
-    "536",
-    "542",
-    "544",
-    "545",
-    "546",
-    "550",
-    "826"
+    "423",
+    "425",
+    "…"
    ],
-   "n_pages": 13,
+   "n_pages": 19,
    "contexts": [
     {
      "page": "12",
-     "unit": "b1.r8c2",
-     "text": "⟦Caasen⟧ 720—746'."
+     "unit": "b1.r4c1",
+     "text": "(⟦Roschitz⟧ 520—560'.)"
     },
     {
-     "page": "52",
-     "unit": "b15",
-     "text": "Brumme“) hat seine zwei 760' hohen Quellfäden in Bethenhausen und bei ⟦Caasen⟧, empfängt bei Kulm von Söllmnitz her 618' hoch den Rothenbach mit dem"
+     "page": "37",
+     "unit": "b4",
+     "text": "erg gegenüber Röbsen in das Bramthal hinab, von wo es thalabwärts bis ⟦Roschitz⟧ die unteren Gehänge zusammensetzt. Infolge einer von Ostnordost nach "
     },
     {
-     "page": "220",
-     "unit": "b3.r4c1",
-     "text": "⟦Caasen⟧"
+     "page": "124",
+     "unit": "b3",
+     "text": "geln (Bieblach, Dragensdorf, Gebersreuth, Görkwitz, Laasen, Lusan und ⟦Roschitz⟧) finden sich landwirthschaftliche Bilder, nämlich Rechen und Sense; R"
     },
     {
-     "page": "276",
+     "page": "199",
      "unit": "b1",
-     "text": "h Zeitzer Straße, die jetzt über Pölzig läuft, vormals über Naundorf, ⟦Caasen⟧, Wernsdorf und Hermsdorf ging. Hatte diese Hauptaxenstraße einen süd-"
+     "text": "vom Hausberge nach dem unteren Schlosse in Langenberg und von da nach ⟦Roschitz⟧, von Speutewitz nach Dorna, vom Stehfesthaus in Schwaara nach der Kir"
     }
    ],
    "brueckner_register": [
     {
-     "name": "Caasen",
+     "name": "Roschitz",
      "parents": [],
      "pages": [
-      "542"
+      "423"
      ],
      "wuestung": false,
      "gemeinde": true
-    }
-   ],
-   "geonames_candidates": [
-    {
-     "geonames": 2940435,
-     "name": "Caasen",
-     "lat": 50.9303,
-     "lon": 12.18054,
-     "class": "P",
-     "code": "PPL",
-     "admin1": "15",
-     "population": 60,
-     "km": 41.6
     }
    ]
   },
@@ -14963,7 +15063,7 @@
     {
      "page": "411",
      "unit": "b1.r18c1",
-     "text": "⟦Culm⟧ . . . . ."
+     "text": "⟦Culm⟧"
     }
    ],
    "brueckner_register": [
@@ -15667,68 +15767,6 @@
    ]
   },
   {
-   "key": "Roschitz",
-   "n": 19,
-   "types": {
-    "Location": 19
-   },
-   "forms": {
-    "Roschitz": 19
-   },
-   "pages": [
-    "12",
-    "37",
-    "124",
-    "199",
-    "201",
-    "202",
-    "222",
-    "248",
-    "302",
-    "407",
-    "410",
-    "411",
-    "413",
-    "425",
-    "427",
-    "…"
-   ],
-   "n_pages": 18,
-   "contexts": [
-    {
-     "page": "12",
-     "unit": "b1.r4c1",
-     "text": "(⟦Roschitz⟧ 520—560'.)"
-    },
-    {
-     "page": "37",
-     "unit": "b4",
-     "text": "erg gegenüber Röbsen in das Bramthal hinab, von wo es thalabwärts bis ⟦Roschitz⟧ die unteren Gehänge zusammensetzt. Infolge einer von Ostnordost nach "
-    },
-    {
-     "page": "124",
-     "unit": "b3",
-     "text": "geln (Bieblach, Dragensdorf, Gebersreuth, Görkwitz, Laasen, Lusan und ⟦Roschitz⟧) finden sich landwirthschaftliche Bilder, nämlich Rechen und Sense; R"
-    },
-    {
-     "page": "199",
-     "unit": "b1",
-     "text": "vom Hausberge nach dem unteren Schlosse in Langenberg und von da nach ⟦Roschitz⟧, von Speutewitz nach Dorna, vom Stehfesthaus in Schwaara nach der Kir"
-    }
-   ],
-   "brueckner_register": [
-    {
-     "name": "Roschitz",
-     "parents": [],
-     "pages": [
-      "423"
-     ],
-     "wuestung": false,
-     "gemeinde": true
-    }
-   ]
-  },
-  {
    "key": "Collis",
    "n": 19,
    "types": {
@@ -16395,6 +16433,81 @@
    ]
   },
   {
+   "key": "Debschwitz",
+   "n": 18,
+   "types": {
+    "Location": 18
+   },
+   "forms": {
+    "Debschwitz": 18
+   },
+   "pages": [
+    "12",
+    "40",
+    "76",
+    "77",
+    "189",
+    "203",
+    "204",
+    "280",
+    "302",
+    "409",
+    "411",
+    "413",
+    "432",
+    "449",
+    "454",
+    "…"
+   ],
+   "n_pages": 17,
+   "contexts": [
+    {
+     "page": "12",
+     "unit": "b3.r1c2",
+     "text": "⟦Debschwitz⟧, Mitte, 515'."
+    },
+    {
+     "page": "40",
+     "unit": "b5",
+     "text": "ochen führende Lehmlager gleichen Alters finden sich bei Pöppeln, bei ⟦Debschwitz⟧, im Clymenienkalk bei Pahren 2c. und werden noch an vielen anderen Pu"
+    },
+    {
+     "page": "76",
+     "unit": "b2",
+     "text": "tum Lycoctonum (Wolfseisenhut) an der Cosse, Teesdalia nudicaulis bei ⟦Debschwitz⟧, Trifolium spadiceum bei Dürrenebersdorf, Coronilla varia bei Langenb"
+    },
+    {
+     "page": "77",
+     "unit": "b1",
+     "text": "rfaceum zwischen Köstritz und Caaschwitz, Chaetophora tuberculosa bei ⟦Debschwitz⟧, Rivularia dura bei Milbitz, Microcoleus leptodermus bei Bieblach, Mi"
+    }
+   ],
+   "brueckner_register": [
+    {
+     "name": "Debschwitz",
+     "parents": [],
+     "pages": [
+      "449"
+     ],
+     "wuestung": false,
+     "gemeinde": true
+    }
+   ],
+   "geonames_candidates": [
+    {
+     "geonames": 2938662,
+     "name": "Debschwitz",
+     "lat": 50.85622,
+     "lon": 12.07228,
+     "class": "P",
+     "code": "PPL",
+     "admin1": "15",
+     "population": 10540,
+     "km": 30.6
+    }
+   ]
+  },
+  {
    "key": "Niederndorf",
    "n": 18,
    "types": {
@@ -16663,6 +16776,56 @@
    ]
   },
   {
+   "key": "Dettersdorf",
+   "n": 18,
+   "types": {
+    "Location": 18
+   },
+   "forms": {
+    "Dettersdorf": 18
+   },
+   "pages": [
+    "23",
+    "35",
+    "119",
+    "125",
+    "218",
+    "227",
+    "230",
+    "292",
+    "294",
+    "415",
+    "606",
+    "607",
+    "670",
+    "827",
+    "836"
+   ],
+   "n_pages": 15,
+   "contexts": [
+    {
+     "page": "23",
+     "unit": "b1.r11c1",
+     "text": "Nordosthöhe von ⟦Dettersdorf⟧ (bei den Eisengruben 1297'."
+    },
+    {
+     "page": "35",
+     "unit": "b2",
+     "text": " beobachten, durch die die Massen empordrangen, wie z. B. südlich von ⟦Dettersdorf⟧, zwischen Schleiz und Lössau, an dem Erholungsgarten bei Schleiz 2c. "
+    },
+    {
+     "page": "119",
+     "unit": "b3",
+     "text": "cher Dörfer als Flurnamen getroffen werden. Dahin gehören Lehesten in ⟦Dettersdorf⟧ und Seubtendorf, Lemnitz in Rüdersdorf, Lesse in Rubitz, Löhma in Rot"
+    },
+    {
+     "page": "125",
+     "unit": "b1",
+     "text": "in) und Burkersdorf eine Pyramide zwischen zwei Palmen. Im Siegel von ⟦Dettersdorf⟧ ist ein tanzender Jüngling, offenbar Symbol des Erntefestes."
+    }
+   ]
+  },
+  {
    "key": "Lob.-Ebersd",
    "n": 18,
    "types": {
@@ -16707,6 +16870,81 @@
      "page": "212",
      "unit": "b2.r10c1",
      "text": "Ldth. ⟦Lob.-Ebersd.⟧"
+    }
+   ]
+  },
+  {
+   "key": "Weitisberga",
+   "n": 18,
+   "types": {
+    "Location": 18
+   },
+   "forms": {
+    "Weitisberga": 18
+   },
+   "pages": [
+    "121",
+    "197",
+    "199",
+    "200",
+    "243",
+    "578",
+    "661",
+    "707",
+    "708",
+    "711",
+    "713",
+    "763",
+    "765",
+    "766",
+    "767",
+    "…"
+   ],
+   "n_pages": 17,
+   "contexts": [
+    {
+     "page": "121",
+     "unit": "b2",
+     "text": "hleiz (Slowitz), Schwarm **) bei Untermhaus, Sormitz und Sormbach bei ⟦Weitisberga⟧ selbst den Volksnamen Slaven und Sorben finden, ebenso in Böhmsdorf d"
+    },
+    {
+     "page": "197",
+     "unit": "b1",
+     "text": "en Zahnstocher gebraucht und die Tochter des Hünen auf der unfern von ⟦Weitisberga⟧ gelegenen Riesenburg die am Fuße der Burg getroffenen Ackerbauer als "
+    },
+    {
+     "page": "199",
+     "unit": "b1",
+     "text": "ht, weiß die Sage zu erzählen, denn noch steigen die Ritter in und um ⟦Weitisberga⟧ in der Mitternacht auf den Henneberg zum reichen Mahle und in den Kel"
+    },
+    {
+     "page": "200",
+     "unit": "b3",
+     "text": "sstätten auf frühere sorbische Kultstellen hin. Auf dem Henneberg bei ⟦Weitisberga⟧ wurde, wie die Sage geht, eine Bildsäule des Swantewit in eine Heilsä"
+    }
+   ],
+   "brueckner_register": [
+    {
+     "name": "Weitisberga",
+     "parents": [],
+     "pages": [
+      "765"
+     ],
+     "wuestung": false,
+     "gemeinde": true
+    }
+   ],
+   "geonames_candidates": [
+    {
+     "geonames": 2811621,
+     "name": "Weitisberga",
+     "lat": 50.50376,
+     "lon": 11.49633,
+     "class": "P",
+     "code": "PPL",
+     "admin1": "15",
+     "population": 128,
+     "km": 28.1
     }
    ]
   },
@@ -17048,81 +17286,6 @@
    ]
   },
   {
-   "key": "Debschwitz",
-   "n": 17,
-   "types": {
-    "Location": 17
-   },
-   "forms": {
-    "Debschwitz": 17
-   },
-   "pages": [
-    "12",
-    "40",
-    "76",
-    "77",
-    "189",
-    "203",
-    "204",
-    "280",
-    "302",
-    "411",
-    "413",
-    "432",
-    "449",
-    "454",
-    "826",
-    "…"
-   ],
-   "n_pages": 16,
-   "contexts": [
-    {
-     "page": "12",
-     "unit": "b3.r1c2",
-     "text": "⟦Debschwitz⟧, Mitte, 515'."
-    },
-    {
-     "page": "40",
-     "unit": "b5",
-     "text": "ochen führende Lehmlager gleichen Alters finden sich bei Pöppeln, bei ⟦Debschwitz⟧, im Clymenienkalk bei Pahren 2c. und werden noch an vielen anderen Pu"
-    },
-    {
-     "page": "76",
-     "unit": "b2",
-     "text": "tum Lycoctonum (Wolfseisenhut) an der Cosse, Teesdalia nudicaulis bei ⟦Debschwitz⟧, Trifolium spadiceum bei Dürrenebersdorf, Coronilla varia bei Langenb"
-    },
-    {
-     "page": "77",
-     "unit": "b1",
-     "text": "rfaceum zwischen Köstritz und Caaschwitz, Chaetophora tuberculosa bei ⟦Debschwitz⟧, Rivularia dura bei Milbitz, Microcoleus leptodermus bei Bieblach, Mi"
-    }
-   ],
-   "brueckner_register": [
-    {
-     "name": "Debschwitz",
-     "parents": [],
-     "pages": [
-      "449"
-     ],
-     "wuestung": false,
-     "gemeinde": true
-    }
-   ],
-   "geonames_candidates": [
-    {
-     "geonames": 2938662,
-     "name": "Debschwitz",
-     "lat": 50.85622,
-     "lon": 12.07228,
-     "class": "P",
-     "code": "PPL",
-     "admin1": "15",
-     "population": 10540,
-     "km": 30.6
-    }
-   ]
-  },
-  {
    "key": "Voigtlande",
    "n": 17,
    "types": {
@@ -17169,81 +17332,6 @@
      "page": "181",
      "unit": "b2",
      "text": "Das alte Wort: „Thüringen singt“, gilt vornämlich auch vom ⟦Voigtlande⟧. Wie die Blumenpflege, so ist auch das Musiciren wenig in den Häusern"
-    }
-   ]
-  },
-  {
-   "key": "Weitisberga",
-   "n": 17,
-   "types": {
-    "Location": 17
-   },
-   "forms": {
-    "Weitisberga": 17
-   },
-   "pages": [
-    "121",
-    "197",
-    "199",
-    "200",
-    "578",
-    "661",
-    "707",
-    "708",
-    "711",
-    "713",
-    "763",
-    "765",
-    "766",
-    "767",
-    "827",
-    "…"
-   ],
-   "n_pages": 16,
-   "contexts": [
-    {
-     "page": "121",
-     "unit": "b2",
-     "text": "hleiz (Slowitz), Schwarm **) bei Untermhaus, Sormitz und Sormbach bei ⟦Weitisberga⟧ selbst den Volksnamen Slaven und Sorben finden, ebenso in Böhmsdorf d"
-    },
-    {
-     "page": "197",
-     "unit": "b1",
-     "text": "en Zahnstocher gebraucht und die Tochter des Hünen auf der unfern von ⟦Weitisberga⟧ gelegenen Riesenburg die am Fuße der Burg getroffenen Ackerbauer als "
-    },
-    {
-     "page": "199",
-     "unit": "b1",
-     "text": "ht, weiß die Sage zu erzählen, denn noch steigen die Ritter in und um ⟦Weitisberga⟧ in der Mitternacht auf den Henneberg zum reichen Mahle und in den Kel"
-    },
-    {
-     "page": "200",
-     "unit": "b3",
-     "text": "sstätten auf frühere sorbische Kultstellen hin. Auf dem Henneberg bei ⟦Weitisberga⟧ wurde, wie die Sage geht, eine Bildsäule des Swantewit in eine Heilsä"
-    }
-   ],
-   "brueckner_register": [
-    {
-     "name": "Weitisberga",
-     "parents": [],
-     "pages": [
-      "765"
-     ],
-     "wuestung": false,
-     "gemeinde": true
-    }
-   ],
-   "geonames_candidates": [
-    {
-     "geonames": 2811621,
-     "name": "Weitisberga",
-     "lat": 50.50376,
-     "lon": 11.49633,
-     "class": "P",
-     "code": "PPL",
-     "admin1": "15",
-     "population": 128,
-     "km": 28.1
     }
    ]
   },
@@ -17721,7 +17809,7 @@
     {
      "page": "411",
      "unit": "b1.r48c1",
-     "text": "⟦Negis⟧ . . . . ."
+     "text": "⟦Negis⟧"
     }
    ],
    "brueckner_register": [
@@ -18179,6 +18267,76 @@
    ]
   },
   {
+   "key": "Kleinsaara",
+   "n": 15,
+   "types": {
+    "Location": 15
+   },
+   "forms": {
+    "Kleinsaara": 15
+   },
+   "pages": [
+    "14",
+    "218",
+    "409",
+    "411",
+    "462",
+    "463",
+    "466",
+    "467",
+    "468",
+    "469",
+    "827"
+   ],
+   "n_pages": 11,
+   "contexts": [
+    {
+     "page": "14",
+     "unit": "b2",
+     "text": " Südosthöhe von Ernsee 841'. Osthöhe von Rüdersdorf 847'. Südhöhe von ⟦Kleinsaara⟧ 850'. Hässelsberg (Norden) bei Großsaara 850'. Chaussee bei Wachholde"
+    },
+    {
+     "page": "218",
+     "unit": "b2.r8c1",
+     "text": "⟦Kleinsaara⟧"
+    },
+    {
+     "page": "409",
+     "unit": "b3.r33c1",
+     "text": "⟦Kleinsaara⟧"
+    },
+    {
+     "page": "411",
+     "unit": "b1.r36c1",
+     "text": "⟦Kleinsaara⟧ . . ."
+    }
+   ],
+   "brueckner_register": [
+    {
+     "name": "Kleinsaara",
+     "parents": [],
+     "pages": [
+      "466"
+     ],
+     "wuestung": false,
+     "gemeinde": true
+    }
+   ],
+   "geonames_candidates": [
+    {
+     "geonames": 2888292,
+     "name": "Kleinsaara",
+     "lat": 50.85396,
+     "lon": 11.95847,
+     "class": "P",
+     "code": "PPL",
+     "admin1": "15",
+     "population": 145,
+     "km": 27.1
+    }
+   ]
+  },
+  {
    "key": "Nordhalben",
    "n": 15,
    "types": {
@@ -18507,6 +18665,79 @@
    ]
   },
   {
+   "key": "Haueisen",
+   "n": 15,
+   "types": {
+    "Location": 15
+   },
+   "forms": {
+    "Haueisen": 15
+   },
+   "pages": [
+    "220",
+    "242",
+    "243",
+    "711",
+    "712",
+    "716",
+    "725",
+    "726",
+    "728",
+    "729",
+    "791",
+    "827"
+   ],
+   "n_pages": 12,
+   "contexts": [
+    {
+     "page": "220",
+     "unit": "b1.r4c1",
+     "text": "⟦Haueisen⟧"
+    },
+    {
+     "page": "242",
+     "unit": "b5",
+     "text": "aus den einzelnen Bergmannshütten und Zechenhäusern neue Ortschaften (⟦Haueisen⟧, Gottliebsthal) entstanden und manche Orte sich erweiterten, daß Köhl"
+    },
+    {
+     "page": "243",
+     "unit": "b4.r4c5",
+     "text": "3 Alaunerzgruben; (bei ⟦Haueisen⟧, Zoppothen an der Saale und bei d. Pempelsmühle), schon 1550 erwähnt."
+    },
+    {
+     "page": "711",
+     "unit": "b8",
+     "text": "bis und Weitisberga, die Rittergüter Ebersdorf, Harra unteren Theils, ⟦Haueisen⟧, Kießling und Weitisberga, verschiedene Mühlen und ein Theil des Fran"
+    }
+   ],
+   "brueckner_register": [
+    {
+     "name": "Haueisen",
+     "parents": [
+      "Saaldorf"
+     ],
+     "pages": [
+      "725"
+     ],
+     "wuestung": false,
+     "gemeinde": false
+    }
+   ],
+   "geonames_candidates": [
+    {
+     "geonames": 2909146,
+     "name": "Haueisen",
+     "lat": 50.28867,
+     "lon": 11.70455,
+     "class": "P",
+     "code": "PPL",
+     "admin1": "02",
+     "population": 0,
+     "km": 38.3
+    }
+   ]
+  },
+  {
    "key": "Pfütz",
    "n": 14,
    "types": {
@@ -18646,87 +18877,6 @@
    ]
   },
   {
-   "key": "Oettersdorf",
-   "n": 14,
-   "types": {
-    "Location": 14
-   },
-   "forms": {
-    "Oettersdorf": 14
-   },
-   "pages": [
-    "6",
-    "19",
-    "36",
-    "149",
-    "572",
-    "573",
-    "592",
-    "602",
-    "603",
-    "606",
-    "828"
-   ],
-   "n_pages": 11,
-   "contexts": [
-    {
-     "page": "6",
-     "unit": "b3.r23c1",
-     "text": "⟦Oettersdorf⟧"
-    },
-    {
-     "page": "19",
-     "unit": "b2",
-     "text": "ühl, Lerchenhübel und lössauer Mühlberg; am Südrande die Hohewart bei ⟦Oettersdorf⟧, der Wehrhübel, Sauhübel, Bühl und obere Bühl; am Westrande der Eckar"
-    },
-    {
-     "page": "36",
-     "unit": "b5",
-     "text": " sind in ihr selten, z. B. vor dem lobensteiner Schießhause, zwischen ⟦Oettersdorf⟧ und Dittersdorf 2c. zu finden."
-    },
-    {
-     "page": "149",
-     "unit": "b1",
-     "text": "⟦Oettersdorf⟧."
-    }
-   ],
-   "brueckner_register": [
-    {
-     "name": "Oettersdorf",
-     "parents": [],
-     "pages": [
-      "602"
-     ],
-     "wuestung": false,
-     "gemeinde": true
-    }
-   ],
-   "geonames_candidates": [
-    {
-     "geonames": 2857850,
-     "name": "Oettersdorf",
-     "lat": 50.6,
-     "lon": 11.81667,
-     "class": "P",
-     "code": "PPLA4",
-     "admin1": "15",
-     "population": 877,
-     "km": 3.2
-    },
-    {
-     "geonames": 6550459,
-     "name": "Oettersdorf",
-     "lat": 50.6,
-     "lon": 11.8167,
-     "class": "A",
-     "code": "ADM4",
-     "admin1": "15",
-     "population": 800,
-     "km": 3.2
-    }
-   ]
-  },
-  {
    "key": "St. Gangloff",
    "n": 14,
    "types": {
@@ -18854,6 +19004,77 @@
    ]
   },
   {
+   "key": "Lessen",
+   "n": 14,
+   "types": {
+    "Location": 14
+   },
+   "forms": {
+    "Lessen": 14
+   },
+   "pages": [
+    "12",
+    "14",
+    "53",
+    "409",
+    "411",
+    "509",
+    "516",
+    "519",
+    "520",
+    "522",
+    "530",
+    "828"
+   ],
+   "n_pages": 12,
+   "contexts": [
+    {
+     "page": "12",
+     "unit": "b1.r12c2",
+     "text": "⟦Lessen⟧ 725—740'."
+    },
+    {
+     "page": "14",
+     "unit": "b1",
+     "text": "Windmühle im Südwesten 780'. Westhöhe von Trebnitz 780'. Westhöhe von ⟦Lessen⟧ (Signal) 780'. Südhöhe von Bethenhausen 780'. Südhöhe von Langengrobs"
+    },
+    {
+     "page": "53",
+     "unit": "b6",
+     "text": "s 830' hoch quellenden Reichenbachs mit dem Schleifenbach und der von ⟦Lessen⟧ kommenden Leske (Löske, Löschke), nimmt bei Lunzig den Oertelsbach mi"
+    },
+    {
+     "page": "409",
+     "unit": "b3.r40c1",
+     "text": "⟦Lessen⟧"
+    }
+   ],
+   "brueckner_register": [
+    {
+     "name": "Lessen",
+     "parents": [],
+     "pages": [
+      "520"
+     ],
+     "wuestung": false,
+     "gemeinde": true
+    }
+   ],
+   "geonames_candidates": [
+    {
+     "geonames": 2878489,
+     "name": "Lessen",
+     "lat": 50.95815,
+     "lon": 12.06914,
+     "class": "P",
+     "code": "PPL",
+     "admin1": "15",
+     "population": 66,
+     "km": 40.6
+    }
+   ]
+  },
+  {
    "key": "Pörsdorf",
    "n": 14,
    "types": {
@@ -18921,75 +19142,6 @@
      "admin1": "15",
      "population": 0,
      "km": 32.1
-    }
-   ]
-  },
-  {
-   "key": "Kleinsaara",
-   "n": 14,
-   "types": {
-    "Location": 14
-   },
-   "forms": {
-    "Kleinsaara": 14
-   },
-   "pages": [
-    "14",
-    "218",
-    "411",
-    "462",
-    "463",
-    "466",
-    "467",
-    "468",
-    "469",
-    "827"
-   ],
-   "n_pages": 10,
-   "contexts": [
-    {
-     "page": "14",
-     "unit": "b2",
-     "text": " Südosthöhe von Ernsee 841'. Osthöhe von Rüdersdorf 847'. Südhöhe von ⟦Kleinsaara⟧ 850'. Hässelsberg (Norden) bei Großsaara 850'. Chaussee bei Wachholde"
-    },
-    {
-     "page": "218",
-     "unit": "b2.r8c1",
-     "text": "⟦Kleinsaara⟧ . . . . . ."
-    },
-    {
-     "page": "411",
-     "unit": "b1.r36c1",
-     "text": "⟦Kleinsaara⟧ . . ."
-    },
-    {
-     "page": "462",
-     "unit": "b2",
-     "text": "uern- und Grenzdörfchen, 1 3/4 Stunde SW. von Gera, inmitten zwischen ⟦Kleinsaara⟧ und Hundhaupten, in einem engen, um den Ort etwas ausgebauchten Thale"
-    }
-   ],
-   "brueckner_register": [
-    {
-     "name": "Kleinsaara",
-     "parents": [],
-     "pages": [
-      "466"
-     ],
-     "wuestung": false,
-     "gemeinde": true
-    }
-   ],
-   "geonames_candidates": [
-    {
-     "geonames": 2888292,
-     "name": "Kleinsaara",
-     "lat": 50.85396,
-     "lon": 11.95847,
-     "class": "P",
-     "code": "PPL",
-     "admin1": "15",
-     "population": 145,
-     "km": 27.1
     }
    ]
   },
@@ -19557,78 +19709,6 @@
    ]
   },
   {
-   "key": "Haueisen",
-   "n": 14,
-   "types": {
-    "Location": 14
-   },
-   "forms": {
-    "Haueisen": 14
-   },
-   "pages": [
-    "220",
-    "242",
-    "711",
-    "712",
-    "716",
-    "725",
-    "726",
-    "728",
-    "729",
-    "791",
-    "827"
-   ],
-   "n_pages": 11,
-   "contexts": [
-    {
-     "page": "220",
-     "unit": "b1.r4c1",
-     "text": "⟦Haueisen⟧"
-    },
-    {
-     "page": "242",
-     "unit": "b5",
-     "text": "aus den einzelnen Bergmannshütten und Zechenhäusern neue Ortschaften (⟦Haueisen⟧, Gottliebsthal) entstanden und manche Orte sich erweiterten, daß Köhl"
-    },
-    {
-     "page": "711",
-     "unit": "b8",
-     "text": "bis und Weitisberga, die Rittergüter Ebersdorf, Harra unteren Theils, ⟦Haueisen⟧, Kießling und Weitisberga, verschiedene Mühlen und ein Theil des Fran"
-    },
-    {
-     "page": "712",
-     "unit": "b3.r2c1",
-     "text": "Langwassermühle, Heinrichsgrün, Kleinfriesa, Galgenvorwerk, Saaldorf, ⟦Haueisen⟧, Schlößchen, Neuhammer, Muckenberger Haus, Vitriolwerk, Friesenthal, "
-    }
-   ],
-   "brueckner_register": [
-    {
-     "name": "Haueisen",
-     "parents": [
-      "Saaldorf"
-     ],
-     "pages": [
-      "725"
-     ],
-     "wuestung": false,
-     "gemeinde": false
-    }
-   ],
-   "geonames_candidates": [
-    {
-     "geonames": 2909146,
-     "name": "Haueisen",
-     "lat": 50.28867,
-     "lon": 11.70455,
-     "class": "P",
-     "code": "PPL",
-     "admin1": "02",
-     "population": 0,
-     "km": 38.3
-    }
-   ]
-  },
-  {
    "key": "Seifartsdorf",
    "n": 14,
    "types": {
@@ -19658,7 +19738,7 @@
     {
      "page": "410",
      "unit": "b1.r17c1",
-     "text": "⟦Seifartsdorf⟧ . . . . ."
+     "text": "⟦Seifartsdorf⟧"
     },
     {
      "page": "412",
@@ -19727,7 +19807,7 @@
     {
      "page": "573",
      "unit": "b4.r38c1",
-     "text": "⟦Spielmes⟧ . . . . . . . . ."
+     "text": "⟦Spielmes⟧"
     },
     {
      "page": "578",
@@ -20037,7 +20117,7 @@
     {
      "page": "410",
      "unit": "b1.r20c1",
-     "text": "⟦Stublach⟧ . . . . . ."
+     "text": "⟦Stublach⟧"
     }
    ],
    "brueckner_register": [
@@ -20062,76 +20142,6 @@
      "admin1": "15",
      "population": 635,
      "km": 35.7
-    }
-   ]
-  },
-  {
-   "key": "Lessen",
-   "n": 13,
-   "types": {
-    "Location": 13
-   },
-   "forms": {
-    "Lessen": 13
-   },
-   "pages": [
-    "12",
-    "14",
-    "53",
-    "411",
-    "509",
-    "516",
-    "519",
-    "520",
-    "522",
-    "530",
-    "828"
-   ],
-   "n_pages": 11,
-   "contexts": [
-    {
-     "page": "12",
-     "unit": "b1.r12c2",
-     "text": "⟦Lessen⟧ 725—740'."
-    },
-    {
-     "page": "14",
-     "unit": "b1",
-     "text": "Windmühle im Südwesten 780'. Westhöhe von Trebnitz 780'. Westhöhe von ⟦Lessen⟧ (Signal) 780'. Südhöhe von Bethenhausen 780'. Südhöhe von Langengrobs"
-    },
-    {
-     "page": "53",
-     "unit": "b6",
-     "text": "s 830' hoch quellenden Reichenbachs mit dem Schleifenbach und der von ⟦Lessen⟧ kommenden Leske (Löske, Löschke), nimmt bei Lunzig den Oertelsbach mi"
-    },
-    {
-     "page": "411",
-     "unit": "b1.r43c1",
-     "text": "⟦Lessen⟧ . . . . ."
-    }
-   ],
-   "brueckner_register": [
-    {
-     "name": "Lessen",
-     "parents": [],
-     "pages": [
-      "520"
-     ],
-     "wuestung": false,
-     "gemeinde": true
-    }
-   ],
-   "geonames_candidates": [
-    {
-     "geonames": 2878489,
-     "name": "Lessen",
-     "lat": 50.95815,
-     "lon": 12.06914,
-     "class": "P",
-     "code": "PPL",
-     "admin1": "15",
-     "population": 66,
-     "km": 40.6
     }
    ]
   },
@@ -20336,6 +20346,54 @@
    ]
   },
   {
+   "key": "Deutschlands",
+   "n": 13,
+   "types": {
+    "Location": 13
+   },
+   "forms": {
+    "Deutschlands": 13
+   },
+   "pages": [
+    "44",
+    "70",
+    "72",
+    "86",
+    "164",
+    "196",
+    "444",
+    "485",
+    "518",
+    "527",
+    "531",
+    "668",
+    "752"
+   ],
+   "n_pages": 13,
+   "contexts": [
+    {
+     "page": "44",
+     "unit": "b1",
+     "text": "nberge aufgefundene neue Trinkquelle, eine der stärksten Eisenquellen ⟦Deutschlands⟧, mit großem Erfolge benutzt. Nach der Analyse des jenaischen Profess."
+    },
+    {
+     "page": "70",
+     "unit": "b4",
+     "text": "die Temperatur des Winters keinen Einfluß auf die heimischen Pflanzen ⟦Deutschlands⟧ ausübt, indem ihr Leben in dem Saamen oder in den Knospen ruht. Aus e"
+    },
+    {
+     "page": "72",
+     "unit": "b4",
+     "text": "Demnach hat das Reußenland zwar nur 38,4 Procent der Species ⟦Deutschlands⟧, dagegen steht es den beiden mitteldeutschen Ländern Thüringen und Fr"
+    },
+    {
+     "page": "86",
+     "unit": "b3",
+     "text": "l lang wird. Die Kreuzotter oder Kupfernatter, die einzige Giftnatter ⟦Deutschlands⟧, kommt jetzt seltener vor als früher, weil man sie durch ausgesetzte "
+    }
+   ]
+  },
+  {
    "key": "Venzka",
    "n": 13,
    "types": {
@@ -20362,7 +20420,7 @@
     {
      "page": "708",
      "unit": "b3.r47c1",
-     "text": "⟦Venzka⟧ . . . . . . ."
+     "text": "⟦Venzka⟧"
     },
     {
      "page": "817",
@@ -20623,6 +20681,86 @@
      "admin1": "14",
      "population": 0,
      "km": 77.7
+    }
+   ]
+  },
+  {
+   "key": "Auma",
+   "n": 13,
+   "types": {
+    "Location": 13
+   },
+   "forms": {
+    "Auma": 13
+   },
+   "pages": [
+    "251",
+    "332",
+    "366",
+    "592",
+    "611",
+    "617",
+    "633",
+    "634",
+    "646",
+    "739"
+   ],
+   "n_pages": 10,
+   "contexts": [
+    {
+     "page": "251",
+     "unit": "b2.r8c4",
+     "text": "⟦Auma⟧"
+    },
+    {
+     "page": "332",
+     "unit": "b3",
+     "text": "art, Engelsburg, Schwarzenberg, Waldmünchen, Hartenstein; Ziegenrück, ⟦Auma⟧, Triptis, Wiesenburg, Oberkranichfeld, Schauenforst, Gleißberg (bei J"
+    },
+    {
+     "page": "366",
+     "unit": "b1",
+     "text": "migung des Kaisers die Aemter Ziegenrück, ⟦Auma⟧ und Triptis, das Schloß Waldeck und die Burg Pölzig überkam. Auch der"
+    },
+    {
+     "page": "592",
+     "unit": "b2",
+     "text": " großem Verluste geworfen und von den Franzosen bis in die Gegend von ⟦Auma⟧ verfolgt. Am 10. October nahm Ponte-Corvo sein Hauptquartier zu Auma,"
+    }
+   ],
+   "geonames_candidates": [
+    {
+     "geonames": 2954048,
+     "name": "Auma",
+     "lat": 50.70044,
+     "lon": 11.89958,
+     "class": "P",
+     "code": "PPL",
+     "admin1": "15",
+     "population": 3235,
+     "km": 9.6
+    },
+    {
+     "geonames": 6551042,
+     "name": "Auma",
+     "lat": 50.7,
+     "lon": 11.9,
+     "class": "A",
+     "code": "ADM4H",
+     "admin1": "15",
+     "population": 3084,
+     "km": 9.6
+    },
+    {
+     "geonames": 2954047,
+     "name": "Auma",
+     "lat": 50.77623,
+     "lon": 12.06222,
+     "class": "H",
+     "code": "STM",
+     "admin1": "15",
+     "population": 0,
+     "km": 22.9
     }
    ]
   },
@@ -20897,53 +21035,6 @@
    ]
   },
   {
-   "key": "Deutschlands",
-   "n": 12,
-   "types": {
-    "Location": 12
-   },
-   "forms": {
-    "Deutschlands": 12
-   },
-   "pages": [
-    "44",
-    "70",
-    "72",
-    "86",
-    "164",
-    "196",
-    "444",
-    "485",
-    "518",
-    "531",
-    "668",
-    "752"
-   ],
-   "n_pages": 12,
-   "contexts": [
-    {
-     "page": "44",
-     "unit": "b1",
-     "text": "nberge aufgefundene neue Trinkquelle, eine der stärksten Eisenquellen ⟦Deutschlands⟧, mit großem Erfolge benutzt. Nach der Analyse des jenaischen Profess."
-    },
-    {
-     "page": "70",
-     "unit": "b4",
-     "text": "die Temperatur des Winters keinen Einfluß auf die heimischen Pflanzen ⟦Deutschlands⟧ ausübt, indem ihr Leben in dem Saamen oder in den Knospen ruht. Aus e"
-    },
-    {
-     "page": "72",
-     "unit": "b4",
-     "text": "Demnach hat das Reußenland zwar nur 38,4 Procent der Species ⟦Deutschlands⟧, dagegen steht es den beiden mitteldeutschen Ländern Thüringen und Fr"
-    },
-    {
-     "page": "86",
-     "unit": "b3",
-     "text": "l lang wird. Die Kreuzotter oder Kupfernatter, die einzige Giftnatter ⟦Deutschlands⟧, kommt jetzt seltener vor als früher, weil man sie durch ausgesetzte "
-    }
-   ]
-  },
-  {
    "key": "Remptendorf",
    "n": 12,
    "types": {
@@ -21049,6 +21140,86 @@
      "page": "341",
      "unit": "b2",
      "text": "Heinrich, Voigt von Weida, 1236 — c. 1275. Reichslandrichter in ⟦Eger⟧ 1256. Gemahlin Sophie, Tochter des Grafen Hermann v. Orlamünde und de"
+    }
+   ]
+  },
+  {
+   "key": "Nürnberg",
+   "n": 12,
+   "types": {
+    "Location": 12
+   },
+   "forms": {
+    "Nürnberg": 12
+   },
+   "pages": [
+    "135",
+    "243",
+    "264",
+    "276",
+    "343",
+    "357",
+    "403",
+    "587",
+    "811",
+    "825"
+   ],
+   "n_pages": 10,
+   "contexts": [
+    {
+     "page": "135",
+     "unit": "b2",
+     "text": "erwerkschule, die ihren Sitz in Saalfeld hatte und wahrscheinlich von ⟦Nürnberg⟧ aus hieher verpflanzt war. Mehrere der Altarschreine geben ganz besti"
+    },
+    {
+     "page": "243",
+     "unit": "b1",
+     "text": "pfer, dem mansfeldischen gleich, den Centner zu 19 Gulden franco nach ⟦Nürnberg⟧ zu liefern, die Nürnberger dagegen pränumerando 1000 Gulden und das U"
+    },
+    {
+     "page": "264",
+     "unit": "b5",
+     "text": ", die eine Zeit lang Reichenfels besaßen, oder von den Burggrafen von ⟦Nürnberg⟧, die wie jene den Brackenkopf im Wappen führten, wegen des Regnitzlan"
+    },
+    {
+     "page": "276",
+     "unit": "b1",
+     "text": "n. Die längste von allen Landstraßen des Fürstenthums war und ist die ⟦Nürnberg⟧-Kronach-Lobenstein-Saalburg-Schleiz-Gera-Langenberg-Leipziger Straße,"
+    }
+   ],
+   "geonames_candidates": [
+    {
+     "geonames": 6556832,
+     "name": "Nürnberg",
+     "lat": 49.4541,
+     "lon": 11.0768,
+     "class": "A",
+     "code": "ADM4",
+     "admin1": "02",
+     "population": 529508,
+     "km": 140.9
+    },
+    {
+     "geonames": 3220803,
+     "name": "Kreisfreie Stadt Nürnberg",
+     "lat": 49.43083,
+     "lon": 11.08528,
+     "class": "A",
+     "code": "ADM3",
+     "admin1": "02",
+     "population": 529508,
+     "km": 143.1
+    },
+    {
+     "geonames": 2861650,
+     "name": "Nuremberg",
+     "lat": 49.45421,
+     "lon": 11.07752,
+     "class": "P",
+     "code": "PPLA3",
+     "admin1": "02",
+     "population": 515543,
+     "km": 140.9
     }
    ]
   },
@@ -21541,7 +21712,7 @@
     {
      "page": "708",
      "unit": "b3.r34c1",
-     "text": "⟦Rodacherbrunn⟧ . . . ."
+     "text": "⟦Rodacherbrunn⟧"
     },
     {
      "page": "712",
@@ -21769,85 +21940,6 @@
    ]
   },
   {
-   "key": "Nürnberg",
-   "n": 11,
-   "types": {
-    "Location": 11
-   },
-   "forms": {
-    "Nürnberg": 11
-   },
-   "pages": [
-    "135",
-    "264",
-    "276",
-    "343",
-    "357",
-    "403",
-    "587",
-    "811",
-    "825"
-   ],
-   "n_pages": 9,
-   "contexts": [
-    {
-     "page": "135",
-     "unit": "b2",
-     "text": "erwerkschule, die ihren Sitz in Saalfeld hatte und wahrscheinlich von ⟦Nürnberg⟧ aus hieher verpflanzt war. Mehrere der Altarschreine geben ganz besti"
-    },
-    {
-     "page": "264",
-     "unit": "b5",
-     "text": ", die eine Zeit lang Reichenfels besaßen, oder von den Burggrafen von ⟦Nürnberg⟧, die wie jene den Brackenkopf im Wappen führten, wegen des Regnitzlan"
-    },
-    {
-     "page": "276",
-     "unit": "b1",
-     "text": "n. Die längste von allen Landstraßen des Fürstenthums war und ist die ⟦Nürnberg⟧-Kronach-Lobenstein-Saalburg-Schleiz-Gera-Langenberg-Leipziger Straße,"
-    },
-    {
-     "page": "343",
-     "unit": "b2",
-     "text": "stand, vereinigen sich dahin, daß, wenn sie siegen würden, Schleiz an ⟦Nürnberg⟧ und Gera an Thüringen fallen sollte. Noch während dieser Fehde und zw"
-    }
-   ],
-   "geonames_candidates": [
-    {
-     "geonames": 6556832,
-     "name": "Nürnberg",
-     "lat": 49.4541,
-     "lon": 11.0768,
-     "class": "A",
-     "code": "ADM4",
-     "admin1": "02",
-     "population": 529508,
-     "km": 140.9
-    },
-    {
-     "geonames": 3220803,
-     "name": "Kreisfreie Stadt Nürnberg",
-     "lat": 49.43083,
-     "lon": 11.08528,
-     "class": "A",
-     "code": "ADM3",
-     "admin1": "02",
-     "population": 529508,
-     "km": 143.1
-    },
-    {
-     "geonames": 2861650,
-     "name": "Nuremberg",
-     "lat": 49.45421,
-     "lon": 11.07752,
-     "class": "P",
-     "code": "PPLA3",
-     "admin1": "02",
-     "population": 515543,
-     "km": 140.9
-    }
-   ]
-  },
-  {
    "key": "Weißbach",
    "n": 11,
    "types": {
@@ -21988,85 +22080,6 @@
      "admin1": "15",
      "population": 0,
      "km": 76.9
-    }
-   ]
-  },
-  {
-   "key": "Auma",
-   "n": 11,
-   "types": {
-    "Location": 11
-   },
-   "forms": {
-    "Auma": 11
-   },
-   "pages": [
-    "251",
-    "332",
-    "366",
-    "592",
-    "611",
-    "617",
-    "633",
-    "634",
-    "646"
-   ],
-   "n_pages": 9,
-   "contexts": [
-    {
-     "page": "251",
-     "unit": "b2.r8c4",
-     "text": "⟦Auma⟧ . . . ."
-    },
-    {
-     "page": "332",
-     "unit": "b3",
-     "text": "art, Engelsburg, Schwarzenberg, Waldmünchen, Hartenstein; Ziegenrück, ⟦Auma⟧, Triptis, Wiesenburg, Oberkranichfeld, Schauenforst, Gleißberg (bei J"
-    },
-    {
-     "page": "366",
-     "unit": "b1",
-     "text": "migung des Kaisers die Aemter Ziegenrück, ⟦Auma⟧ und Triptis, das Schloß Waldeck und die Burg Pölzig überkam. Auch der"
-    },
-    {
-     "page": "592",
-     "unit": "b2",
-     "text": " großem Verluste geworfen und von den Franzosen bis in die Gegend von ⟦Auma⟧ verfolgt. Am 10. October nahm Ponte-Corvo sein Hauptquartier zu Auma,"
-    }
-   ],
-   "geonames_candidates": [
-    {
-     "geonames": 2954048,
-     "name": "Auma",
-     "lat": 50.70044,
-     "lon": 11.89958,
-     "class": "P",
-     "code": "PPL",
-     "admin1": "15",
-     "population": 3235,
-     "km": 9.6
-    },
-    {
-     "geonames": 6551042,
-     "name": "Auma",
-     "lat": 50.7,
-     "lon": 11.9,
-     "class": "A",
-     "code": "ADM4H",
-     "admin1": "15",
-     "population": 3084,
-     "km": 9.6
-    },
-    {
-     "geonames": 2954047,
-     "name": "Auma",
-     "lat": 50.77623,
-     "lon": 12.06222,
-     "class": "H",
-     "code": "STM",
-     "admin1": "15",
-     "population": 0,
-     "km": 22.9
     }
    ]
   },
@@ -23494,6 +23507,85 @@
    ]
   },
   {
+   "key": "Meiningen",
+   "n": 9,
+   "types": {
+    "Location": 9
+   },
+   "forms": {
+    "Meiningen": 9
+   },
+   "pages": [
+    "I",
+    "VI",
+    "5",
+    "17",
+    "135",
+    "579",
+    "706",
+    "835",
+    "836"
+   ],
+   "n_pages": 9,
+   "contexts": [
+    {
+     "page": "I",
+     "unit": "b7",
+     "text": "Hof- und Archivrath in ⟦Meiningen⟧."
+    },
+    {
+     "page": "VI",
+     "unit": "b3",
+     "text": "⟦Meiningen⟧, den 2. Februar 1870."
+    },
+    {
+     "page": "5",
+     "unit": "b1",
+     "text": "osten stößt das Oberland an Sachsen, im Süden an Bayern, im Westen an ⟦Meiningen⟧ und Schwarzburg und im Nordwesten und Norden an Preußen und Weimar. D"
+    },
+    {
+     "page": "17",
+     "unit": "b1",
+     "text": "lde verbindet. Der diesseitige Frankenwaldzug, vom lehstener Plateau (⟦Meiningen⟧) bis zur Saale ausgedehnt, ist der höchstgelegene Randstrich des gesa"
+    }
+   ],
+   "geonames_candidates": [
+    {
+     "geonames": 6551151,
+     "name": "Meiningen",
+     "lat": 50.56633,
+     "lon": 10.40584,
+     "class": "A",
+     "code": "ADM4",
+     "admin1": "15",
+     "population": 25002,
+     "km": 102.1
+    },
+    {
+     "geonames": 2872225,
+     "name": "Meiningen",
+     "lat": 50.56787,
+     "lon": 10.41521,
+     "class": "P",
+     "code": "PPLA3",
+     "admin1": "15",
+     "population": 21580,
+     "km": 101.4
+    },
+    {
+     "geonames": 3207503,
+     "name": "Meiningen",
+     "lat": 50.56667,
+     "lon": 10.45,
+     "class": "S",
+     "code": "AIRF",
+     "admin1": "15",
+     "population": 0,
+     "km": 99.0
+    }
+   ]
+  },
+  {
    "key": "Berlin",
    "n": 9,
    "types": {
@@ -23893,7 +23985,7 @@
     {
      "page": "708",
      "unit": "b3.r20c1",
-     "text": "⟦Karolinenfield⟧ . . . ."
+     "text": "⟦Karolinenfield⟧"
     },
     {
      "page": "753",
@@ -24069,84 +24161,6 @@
    ]
   },
   {
-   "key": "Meiningen",
-   "n": 8,
-   "types": {
-    "Location": 8
-   },
-   "forms": {
-    "Meiningen": 8
-   },
-   "pages": [
-    "I",
-    "5",
-    "17",
-    "135",
-    "579",
-    "706",
-    "835",
-    "836"
-   ],
-   "n_pages": 8,
-   "contexts": [
-    {
-     "page": "I",
-     "unit": "b7",
-     "text": "Hof- und Archivrath in ⟦Meiningen⟧."
-    },
-    {
-     "page": "5",
-     "unit": "b1",
-     "text": "osten stößt das Oberland an Sachsen, im Süden an Bayern, im Westen an ⟦Meiningen⟧ und Schwarzburg und im Nordwesten und Norden an Preußen und Weimar. D"
-    },
-    {
-     "page": "17",
-     "unit": "b1",
-     "text": "lde verbindet. Der diesseitige Frankenwaldzug, vom lehstener Plateau (⟦Meiningen⟧) bis zur Saale ausgedehnt, ist der höchstgelegene Randstrich des gesa"
-    },
-    {
-     "page": "135",
-     "unit": "b1",
-     "text": "ießer, den Gußort (Gera, Zeitz, Erfurt, Apolda, Hof, Schleusingen und ⟦Meiningen⟧) und das Gußjahr, öfters auch den Ephoren der Diöcese und den Landesh"
-    }
-   ],
-   "geonames_candidates": [
-    {
-     "geonames": 6551151,
-     "name": "Meiningen",
-     "lat": 50.56633,
-     "lon": 10.40584,
-     "class": "A",
-     "code": "ADM4",
-     "admin1": "15",
-     "population": 25002,
-     "km": 102.1
-    },
-    {
-     "geonames": 2872225,
-     "name": "Meiningen",
-     "lat": 50.56787,
-     "lon": 10.41521,
-     "class": "P",
-     "code": "PPLA3",
-     "admin1": "15",
-     "population": 21580,
-     "km": 101.4
-    },
-    {
-     "geonames": 3207503,
-     "name": "Meiningen",
-     "lat": 50.56667,
-     "lon": 10.45,
-     "class": "S",
-     "code": "AIRF",
-     "admin1": "15",
-     "population": 0,
-     "km": 99.0
-    }
-   ]
-  },
-  {
    "key": "Reußenlandes",
    "n": 8,
    "types": {
@@ -24186,6 +24200,48 @@
      "page": "181",
      "unit": "b2",
      "text": " die Blumenpflege, so ist auch das Musiciren wenig in den Häusern des ⟦Reußenlandes⟧ heimisch, dagegen für Gesang und Tanz ist man überall Feuer. Der eige"
+    }
+   ]
+  },
+  {
+   "key": "Reußenland",
+   "n": 8,
+   "types": {
+    "Location": 8
+   },
+   "forms": {
+    "Reußenland": 8
+   },
+   "pages": [
+    "3",
+    "72",
+    "81",
+    "323",
+    "381",
+    "739",
+    "754"
+   ],
+   "n_pages": 7,
+   "contexts": [
+    {
+     "page": "3",
+     "unit": "b3",
+     "text": "igtland, terra advocatorum“ geblieben ist. Jünger ist der Name „Reuß, ⟦Reußenland⟧, Reußisches, terra Ruthenorum“, ein Name, der allein auf das Land übe"
+    },
+    {
+     "page": "72",
+     "unit": "b3.r2c1",
+     "text": "⟦Reußenland⟧"
+    },
+    {
+     "page": "81",
+     "unit": "b4",
+     "text": "Wie in der Flora, so zeigt das ⟦Reußenland⟧ auch in seiner Fauna keine wesentliche Verschiedenheit von der Fauna "
+    },
+    {
+     "page": "323",
+     "unit": "b1",
+     "text": "enen Lande den Namen Voigtland und ihrem heutigen Erbstaate den Namen ⟦Reußenland⟧ gegeben und sich zum Fürstenstande erhoben hat."
     }
    ]
   },
@@ -24818,7 +24874,7 @@
     {
      "page": "332",
      "unit": "b3",
-     "text": "ankenberg, Sparnberg, Reitzenstein; Asch, Selb, Frauenstein, Greßlas, ⟦Hauenstein⟧, Würschengriin, Königswart, Engelsburg, Schwarzenberg, Waldmünchen, H"
+     "text": "ankenberg, Sparnberg, Reitzenstein; Asch, Selb, Frauenstein, Greßlas, ⟦Hauenstein⟧, Würschengrün, Königswart, Engelsburg, Schwarzenberg, Waldmünchen, Ha"
     },
     {
      "page": "339",
@@ -24951,36 +25007,44 @@
    ]
   },
   {
-   "key": "Söllnitz",
-   "n": 8,
+   "key": "Fürstenthums Reuß j. L",
+   "n": 7,
    "types": {
-    "Location": 8
+    "Location": 7
    },
    "forms": {
-    "Söllnitz": 8
+    "Fürstenthums Reuß j. L.": 7
    },
    "pages": [
-    "536"
+    "I",
+    "III",
+    "IV",
+    "VII",
+    "1",
+    "405",
+    "835"
    ],
-   "n_pages": 1,
+   "n_pages": 7,
    "contexts": [
     {
-     "page": "536",
-     "unit": "b1",
-     "text": "er (beizdorfer) Felder, Weinberg, Stöckigt, Wanderstieg. Der Ort, mit ⟦Söllnitz⟧ im weimarischen Amte Blankenhain verwandt, verdankt den Sorben seinen"
-    }
-   ],
-   "geonames_candidates": [
+     "page": "I",
+     "unit": "b3",
+     "text": "⟦Fürstenthums Reuß j. L.⟧"
+    },
     {
-     "geonames": 2831507,
-     "name": "Söllnitz",
-     "lat": 50.87461,
-     "lon": 11.42939,
-     "class": "P",
-     "code": "PPL",
-     "admin1": "15",
-     "population": 0,
-     "km": 41.0
+     "page": "III",
+     "unit": "b2",
+     "text": "Die hier vorliegende Landes- und Volkskunde des ⟦Fürstenthums Reuß j. L.⟧ hat Se. Durchlaucht den regierenden Fürsten Heinrich XIV. zu ihrem Ur"
+    },
+    {
+     "page": "IV",
+     "unit": "b1",
+     "text": " die Geschichte der mittleren und kleinen Staaten und so auch die des ⟦Fürstenthums Reuß j. L.⟧ bezeugt, die Stammesherrschaften am meisten anregend, fördernd und ve"
+    },
+    {
+     "page": "VII",
+     "unit": "b2",
+     "text": "I. Theil: Allgemeine Landes- und Volkskunde des ⟦Fürstenthums Reuß j. L.⟧"
     }
    ]
   },
@@ -25022,47 +25086,6 @@
      "page": "160",
      "unit": "b5",
      "text": "e des jetzigen Jahrhunderts als Bierquellen Ruf und Absatz durch ganz ⟦Mitteldeutschland⟧ gewonnen hatten. Wenn vordem die Bierfabrikation an die Städte und wi"
-    }
-   ]
-  },
-  {
-   "key": "Reußenland",
-   "n": 7,
-   "types": {
-    "Location": 7
-   },
-   "forms": {
-    "Reußenland": 7
-   },
-   "pages": [
-    "3",
-    "72",
-    "81",
-    "323",
-    "381",
-    "754"
-   ],
-   "n_pages": 6,
-   "contexts": [
-    {
-     "page": "3",
-     "unit": "b3",
-     "text": "igtland, terra advocatorum“ geblieben ist. Jünger ist der Name „Reuß, ⟦Reußenland⟧, Reußisches, terra Ruthenorum“, ein Name, der allein auf das Land übe"
-    },
-    {
-     "page": "72",
-     "unit": "b3.r2c1",
-     "text": "⟦Reußenland⟧"
-    },
-    {
-     "page": "81",
-     "unit": "b4",
-     "text": "Wie in der Flora, so zeigt das ⟦Reußenland⟧ auch in seiner Fauna keine wesentliche Verschiedenheit von der Fauna "
-    },
-    {
-     "page": "323",
-     "unit": "b1",
-     "text": "enen Lande den Namen Voigtland und ihrem heutigen Erbstaate den Namen ⟦Reußenland⟧ gegeben und sich zum Fürstenstande erhoben hat."
     }
    ]
   },
@@ -26060,6 +26083,57 @@
    ]
   },
   {
+   "key": "Vollersdorf",
+   "n": 7,
+   "types": {
+    "Location": 7
+   },
+   "forms": {
+    "Vollersdorf": 7
+   },
+   "pages": [
+    "413",
+    "418",
+    "448",
+    "449",
+    "473"
+   ],
+   "n_pages": 5,
+   "contexts": [
+    {
+     "page": "413",
+     "unit": "b6",
+     "text": "sterstein mit ihren Küchen- und Burgmannengütern (Ernsee, Untermhaus, ⟦Vollersdorf⟧, Pöppeln); die quedlinburgische Stiftsvoigtei Gera mit einem kleinen "
+    },
+    {
+     "page": "418",
+     "unit": "b2",
+     "text": "sengraben, zusammen 1114 Acker) mit ihren Vorwerken und wüsten Orten (⟦Vollersdorf⟧, Pottendorf und Texdorf), das am Hainberg erbaute, vordem feste Pöppe"
+    },
+    {
+     "page": "448",
+     "unit": "b2",
+     "text": "örte und aus Feld, Wieswachs, einem bedeutenden Walde und dem Vorwerk ⟦Vollersdorf⟧ bestand. Im Jahre 1539 verkaufte dasselbe Wolfgang v. Uttenhoven für "
+    },
+    {
+     "page": "449",
+     "unit": "b1",
+     "text": "f Grundlage dieser Karten 1806 beim Vorüberfahren nach der Stätte von ⟦Vollersdorf⟧ fragen konnte. Der Ort war nach Gera gepfarrt und geschult. Das dasig"
+    }
+   ],
+   "brueckner_register": [
+    {
+     "name": "Vollersdorf",
+     "parents": [],
+     "pages": [
+      "448"
+     ],
+     "wuestung": true,
+     "gemeinde": false
+    }
+   ]
+  },
+  {
    "key": "Großenstein",
    "n": 7,
    "types": {
@@ -26088,7 +26162,7 @@
     {
      "page": "541",
      "unit": "b1",
-     "text": "echtsame in der Umgegend, namentlich zu Caaſen, Dorna, Groitschen und ⟦Großenstein⟧. Ein Glied dieser Familie (Ehrenfried v. Naundorf, gest. 1666) stifte"
+     "text": "echtsame in der Umgegend, namentlich zu Caasen, Dorna, Groitschen und ⟦Großenstein⟧. Ein Glied dieser Familie (Ehrenfried v. Naundorf, gest. 1666) stifte"
     }
    ],
    "geonames_candidates": [
@@ -26849,7 +26923,7 @@
     {
      "page": "332",
      "unit": "b3",
-     "text": "nstein, Nordhalben, Hirschberg, Blankenberg, Sparnberg, Reitzenstein; ⟦Asch⟧, Selb, Frauenstein, Greßlas, Hauenstein, Würschengriin, Königswart, E"
+     "text": "nstein, Nordhalben, Hirschberg, Blankenberg, Sparnberg, Reitzenstein; ⟦Asch⟧, Selb, Frauenstein, Greßlas, Hauenstein, Würschengrün, Königswart, En"
     },
     {
      "page": "354",
@@ -27033,6 +27107,71 @@
      "admin1": "15",
      "population": 60,
      "km": 34.1
+    }
+   ]
+  },
+  {
+   "key": "Gorlitzsch",
+   "n": 6,
+   "types": {
+    "Location": 6
+   },
+   "forms": {
+    "Gorlitzsch": 6
+   },
+   "pages": [
+    "121",
+    "409",
+    "411",
+    "460",
+    "562",
+    "827"
+   ],
+   "n_pages": 6,
+   "contexts": [
+    {
+     "page": "121",
+     "unit": "b1.r2c3",
+     "text": "Gera, ⟦Gorlitzsch⟧, Görkwitz, Göritz, Görlitz, Harra, Horla."
+    },
+    {
+     "page": "409",
+     "unit": "b3.r19c1",
+     "text": "⟦Gorlitzsch⟧"
+    },
+    {
+     "page": "411",
+     "unit": "b1.r11c1",
+     "text": "⟦Gorlitzsch⟧ . . ."
+    },
+    {
+     "page": "460",
+     "unit": "b2",
+     "text": "⟦Gorlitzsch⟧ (urkundlich Kurlitzsch, Gurlitzsch, 1533 Gorliz, 1707 Gorlitzsch, auc"
+    }
+   ],
+   "brueckner_register": [
+    {
+     "name": "Gorlitzsch",
+     "parents": [],
+     "pages": [
+      "460"
+     ],
+     "wuestung": false,
+     "gemeinde": true
+    }
+   ],
+   "geonames_candidates": [
+    {
+     "geonames": 2918982,
+     "name": "Gorlitzsch",
+     "lat": 50.83025,
+     "lon": 12.03906,
+     "class": "P",
+     "code": "PPL",
+     "admin1": "15",
+     "population": 35,
+     "km": 26.9
     }
    ]
   },
@@ -27386,7 +27525,7 @@
     {
      "page": "251",
      "unit": "b2.r2c7",
-     "text": "⟦Berga⟧ . . . ."
+     "text": "⟦Berga⟧"
     },
     {
      "page": "339",
@@ -27686,7 +27825,7 @@
     {
      "page": "332",
      "unit": "b3",
-     "text": "enstein; Asch, Selb, Frauenstein, Greßlas, Hauenstein, Würschengriin, ⟦Königswart⟧, Engelsburg, Schwarzenberg, Waldmünchen, Hartenstein; Ziegenrück, Aum"
+     "text": "zenstein; Asch, Selb, Frauenstein, Greßlas, Hauenstein, Würschengrün, ⟦Königswart⟧, Engelsburg, Schwarzenberg, Waldmünchen, Hartenstein; Ziegenrück, Aum"
     },
     {
      "page": "357",
@@ -28194,46 +28333,6 @@
      "admin1": "13",
      "population": 0,
      "km": 224.0
-    }
-   ]
-  },
-  {
-   "key": "Fürstenthums Reuß j. L",
-   "n": 5,
-   "types": {
-    "Location": 5
-   },
-   "forms": {
-    "Fürstenthums Reuß j. L.": 5
-   },
-   "pages": [
-    "I",
-    "III",
-    "IV",
-    "405",
-    "835"
-   ],
-   "n_pages": 5,
-   "contexts": [
-    {
-     "page": "I",
-     "unit": "b3",
-     "text": "⟦Fürstenthums Reuß j. L.⟧"
-    },
-    {
-     "page": "III",
-     "unit": "b2",
-     "text": "Die hier vorliegende Landes- und Volkskunde des ⟦Fürstenthums Reuß j. L.⟧ hat Se. Durchlaucht den regierenden Fürsten Heinrich XIV. zu ihrem Ur"
-    },
-    {
-     "page": "IV",
-     "unit": "b1",
-     "text": " die Geschichte der mittleren und kleinen Staaten und so auch die des ⟦Fürstenthums Reuß j. L.⟧ bezeugt, die Stammesherrschaften am meisten anregend, fördernd und ve"
-    },
-    {
-     "page": "405",
-     "unit": "b2",
-     "text": "Ortskunde des ⟦Fürstenthums Reuß j. L.⟧"
     }
    ]
   },
@@ -28948,70 +29047,6 @@
    ]
   },
   {
-   "key": "Gorlitzsch",
-   "n": 5,
-   "types": {
-    "Location": 5
-   },
-   "forms": {
-    "Gorlitzsch": 5
-   },
-   "pages": [
-    "121",
-    "411",
-    "460",
-    "562",
-    "827"
-   ],
-   "n_pages": 5,
-   "contexts": [
-    {
-     "page": "121",
-     "unit": "b1.r2c3",
-     "text": "Gera, ⟦Gorlitzsch⟧, Görkwitz, Göritz, Görlitz, Harra, Horla."
-    },
-    {
-     "page": "411",
-     "unit": "b1.r11c1",
-     "text": "⟦Gorlitzsch⟧ . . ."
-    },
-    {
-     "page": "460",
-     "unit": "b2",
-     "text": "⟦Gorlitzsch⟧ (urkundlich Kurlitzsch, Gurlitzsch, 1533 Gorliz, 1707 Gorlitzsch, auc"
-    },
-    {
-     "page": "562",
-     "unit": "fn1",
-     "text": "hn zu Kaimberg, Lichtenberg, Collis, Pforten, Otticha, Zschippern und ⟦Gorlitzsch⟧."
-    }
-   ],
-   "brueckner_register": [
-    {
-     "name": "Gorlitzsch",
-     "parents": [],
-     "pages": [
-      "460"
-     ],
-     "wuestung": false,
-     "gemeinde": true
-    }
-   ],
-   "geonames_candidates": [
-    {
-     "geonames": 2918982,
-     "name": "Gorlitzsch",
-     "lat": 50.83025,
-     "lon": 12.03906,
-     "class": "P",
-     "code": "PPL",
-     "admin1": "15",
-     "population": 35,
-     "km": 26.9
-    }
-   ]
-  },
-  {
    "key": "Danzig",
    "n": 5,
    "types": {
@@ -29047,81 +29082,6 @@
      "page": "614",
      "unit": "b1",
      "text": "zdorf als Marschall und Stallmeister und als Held in der Schlacht bei ⟦Danzig⟧."
-    }
-   ]
-  },
-  {
-   "key": "Weissendorf",
-   "n": 5,
-   "types": {
-    "Location": 5
-   },
-   "forms": {
-    "Weissendorf": 5
-   },
-   "pages": [
-    "200",
-    "204",
-    "262",
-    "302",
-    "838"
-   ],
-   "n_pages": 5,
-   "contexts": [
-    {
-     "page": "200",
-     "unit": "b3",
-     "text": "rten, Milbitz und im Trillloch, die Teufelsberge bei Dürrenebersdorf, ⟦Weissendorf⟧ und Pörmitz, die Teufelsgräben bei Köstritz und Eleonorenthal, das Te"
-    },
-    {
-     "page": "204",
-     "unit": "b1",
-     "text": ". Auch will man den an der oberen Wisent und den zwischen Triebes und ⟦Weissendorf⟧ hin und her wandelnden Bären diesen Unholdthieren einreihen. Daß der "
-    },
-    {
-     "page": "262",
-     "unit": "b3.i2",
-     "text": "ehmärkte und ein Wollmarkt), Hohenleuben (vier Kram- und Viehmärkte), ⟦Weissendorf⟧ (zwei Kram- und Viehmärkte), Langenwolschendorf (zwei Kram-, Vieh- un"
-    },
-    {
-     "page": "302",
-     "unit": "b5",
-     "text": "us (1864); 3) die der Gewerbsgehilfen in Triebes, Niederböhmsdorf und ⟦Weissendorf⟧, seit 1858 zunächst blos für Webergesellen, seit 1866 auch auf andere"
-    }
-   ],
-   "brueckner_register": [
-    {
-     "name": "Weißendorf",
-     "parents": [],
-     "pages": [
-      "654"
-     ],
-     "wuestung": false,
-     "gemeinde": true
-    }
-   ],
-   "geonames_candidates": [
-    {
-     "geonames": 6550525,
-     "name": "Weißendorf",
-     "lat": 50.6738,
-     "lon": 11.9951,
-     "class": "A",
-     "code": "ADM4",
-     "admin1": "15",
-     "population": 307,
-     "km": 11.9
-    },
-    {
-     "geonames": 2811905,
-     "name": "Weißendorf",
-     "lat": 50.68333,
-     "lon": 12.0,
-     "class": "P",
-     "code": "PPLA4",
-     "admin1": "15",
-     "population": 372,
-     "km": 12.7
     }
    ]
   },
@@ -29359,7 +29319,7 @@
     {
      "page": "332",
      "unit": "b3",
-     "text": ", Nordhalben, Hirschberg, Blankenberg, Sparnberg, Reitzenstein; Asch, ⟦Selb⟧, Frauenstein, Greßlas, Hauenstein, Würschengriin, Königswart, Engelsb"
+     "text": ", Nordhalben, Hirschberg, Blankenberg, Sparnberg, Reitzenstein; Asch, ⟦Selb⟧, Frauenstein, Greßlas, Hauenstein, Würschengrün, Königswart, Engelsbu"
     },
     {
      "page": "354",
@@ -29865,6 +29825,40 @@
      "admin1": "02",
      "population": 0,
      "km": 128.5
+    }
+   ]
+  },
+  {
+   "key": "Söllnitz",
+   "n": 5,
+   "types": {
+    "Location": 5
+   },
+   "forms": {
+    "Söllnitz": 5
+   },
+   "pages": [
+    "536"
+   ],
+   "n_pages": 1,
+   "contexts": [
+    {
+     "page": "536",
+     "unit": "b1",
+     "text": "er (beizdorfer) Felder, Weinberg, Stöckigt, Wanderstieg. Der Ort, mit ⟦Söllnitz⟧ im weimarischen Amte Blankenhain verwandt, verdankt den Sorben seinen"
+    }
+   ],
+   "geonames_candidates": [
+    {
+     "geonames": 2831507,
+     "name": "Söllnitz",
+     "lat": 50.87461,
+     "lon": 11.42939,
+     "class": "P",
+     "code": "PPL",
+     "admin1": "15",
+     "population": 0,
+     "km": 41.0
     }
    ]
   },
@@ -31136,7 +31130,7 @@
     {
      "page": "396",
      "unit": "b2.r2c5",
-     "text": "ſen; 2) Sophie Juliane Reuß-Obergreiz. Seine Erben ſind Lobenſtein u. ⟦Ebersd⟧."
+     "text": "sen; 2) Sophie Juliane Reuß-Obergreiz. Seine Erben sind Lobenstein u. ⟦Ebersd⟧."
     }
    ]
   },
@@ -31446,6 +31440,80 @@
    ]
   },
   {
+   "key": "Weissendorf",
+   "n": 4,
+   "types": {
+    "Location": 4
+   },
+   "forms": {
+    "Weissendorf": 4
+   },
+   "pages": [
+    "200",
+    "204",
+    "262",
+    "302"
+   ],
+   "n_pages": 4,
+   "contexts": [
+    {
+     "page": "200",
+     "unit": "b3",
+     "text": "rten, Milbitz und im Trillloch, die Teufelsberge bei Dürrenebersdorf, ⟦Weissendorf⟧ und Pörmitz, die Teufelsgräben bei Köstritz und Eleonorenthal, das Te"
+    },
+    {
+     "page": "204",
+     "unit": "b1",
+     "text": ". Auch will man den an der oberen Wisent und den zwischen Triebes und ⟦Weissendorf⟧ hin und her wandelnden Bären diesen Unholdthieren einreihen. Daß der "
+    },
+    {
+     "page": "262",
+     "unit": "b3.i2",
+     "text": "ehmärkte und ein Wollmarkt), Hohenleuben (vier Kram- und Viehmärkte), ⟦Weissendorf⟧ (zwei Kram- und Viehmärkte), Langenwolschendorf (zwei Kram-, Vieh- un"
+    },
+    {
+     "page": "302",
+     "unit": "b5",
+     "text": "us (1864); 3) die der Gewerbsgehilfen in Triebes, Niederböhmsdorf und ⟦Weissendorf⟧, seit 1858 zunächst blos für Webergesellen, seit 1866 auch auf andere"
+    }
+   ],
+   "brueckner_register": [
+    {
+     "name": "Weißendorf",
+     "parents": [],
+     "pages": [
+      "654"
+     ],
+     "wuestung": false,
+     "gemeinde": true
+    }
+   ],
+   "geonames_candidates": [
+    {
+     "geonames": 6550525,
+     "name": "Weißendorf",
+     "lat": 50.6738,
+     "lon": 11.9951,
+     "class": "A",
+     "code": "ADM4",
+     "admin1": "15",
+     "population": 307,
+     "km": 11.9
+    },
+    {
+     "geonames": 2811905,
+     "name": "Weißendorf",
+     "lat": 50.68333,
+     "lon": 12.0,
+     "class": "P",
+     "code": "PPLA4",
+     "admin1": "15",
+     "population": 372,
+     "km": 12.7
+    }
+   ]
+  },
+  {
    "key": "Schweinsberg",
    "n": 4,
    "types": {
@@ -31720,7 +31788,7 @@
     {
      "page": "332",
      "unit": "b3",
-     "text": "n, Würschengriin, Königswart, Engelsburg, Schwarzenberg, Waldmünchen, ⟦Hartenstein⟧; Ziegenrück, Auma, Triptis, Wiesenburg, Oberkranichfeld, Schauenforst"
+     "text": "in, Würschengrün, Königswart, Engelsburg, Schwarzenberg, Waldmünchen, ⟦Hartenstein⟧; Ziegenrück, Auma, Triptis, Wiesenburg, Oberkranichfeld, Schauenforst"
     },
     {
      "page": "357",
@@ -32037,73 +32105,6 @@
      "page": "589",
      "unit": "b2",
      "text": "r die Töpfe besteht ein besonderer Topfmarkt am Heinrichsmarkt in der ⟦Heinrichsstadt⟧. Ganz besonders freut sich Schleiz jedesmal auf den Heinrichsmarkt al"
-    }
-   ]
-  },
-  {
-   "key": "Lobenſtein",
-   "n": 4,
-   "types": {
-    "Location": 4
-   },
-   "forms": {
-    "Lobenſtein": 4
-   },
-   "pages": [
-    "396"
-   ],
-   "n_pages": 1,
-   "contexts": [
-    {
-     "page": "396",
-     "unit": "b1",
-     "text": "Tab. VIII. Heinrich X., Gründer der Linie ⟦Lobenſtein⟧, geb. 1621, † 1671. Gem. Marie Sibille Reuß-Obergreiz, † 1675."
-    }
-   ]
-  },
-  {
-   "key": "Bollersdorf",
-   "n": 4,
-   "types": {
-    "Location": 4
-   },
-   "forms": {
-    "Bollersdorf": 4
-   },
-   "pages": [
-    "413",
-    "418",
-    "448"
-   ],
-   "n_pages": 3,
-   "contexts": [
-    {
-     "page": "413",
-     "unit": "b6",
-     "text": "sterstein mit ihren Küchen- und Burgmannengütern (Ernsee, Untermhaus, ⟦Bollersdorf⟧, Pöppeln); die quedlinburgische Stiftsvoigtei Gera mit einem kleinen "
-    },
-    {
-     "page": "418",
-     "unit": "b2",
-     "text": "sengraben, zusammen 1114 Acker) mit ihren Vorwerken und wüsten Orten (⟦Bollersdorf⟧, Pottendorf und Texdorf), das am Hainberg erbaute, vordem feste Pöppe"
-    },
-    {
-     "page": "448",
-     "unit": "b2",
-     "text": "örte und aus Feld, Wieswachs, einem bedeutenden Walde und dem Vorwerk ⟦Bollersdorf⟧ bestand. Im Jahre 1539 verkaufte dasselbe Wolfgang v. Uttenhoven für "
-    }
-   ],
-   "geonames_candidates": [
-    {
-     "geonames": 2946632,
-     "name": "Bollersdorf",
-     "lat": 52.58112,
-     "lon": 14.04792,
-     "class": "P",
-     "code": "PPL",
-     "admin1": "11",
-     "population": 0,
-     "km": 265.7
     }
    ]
   },
@@ -33078,6 +33079,33 @@
      ],
      "wuestung": true,
      "gemeinde": false
+    }
+   ]
+  },
+  {
+   "key": "Wisentaland",
+   "n": 3,
+   "types": {
+    "Location": 3
+   },
+   "forms": {
+    "Wisentaland": 3
+   },
+   "pages": [
+    "VIII",
+    "570"
+   ],
+   "n_pages": 2,
+   "contexts": [
+    {
+     "page": "VIII",
+     "unit": "b5.r2c1",
+     "text": "II. Der Landestheil Schleiz oder das ⟦Wisentaland⟧"
+    },
+    {
+     "page": "570",
+     "unit": "b1",
+     "text": "II. Der Landestheil Schleiz oder das ⟦Wisentaland⟧."
     }
    ]
   },
@@ -34355,7 +34383,7 @@
     {
      "page": "332",
      "unit": "b3",
-     "text": "Saalburg, Lobenstein, Nordhalben, Hirschberg, Blankenberg, Sparnberg, ⟦Reitzenstein⟧; Asch, Selb, Frauenstein, Greßlas, Hauenstein, Würschengriin, Königsw"
+     "text": "Saalburg, Lobenstein, Nordhalben, Hirschberg, Blankenberg, Sparnberg, ⟦Reitzenstein⟧; Asch, Selb, Frauenstein, Greßlas, Hauenstein, Würschengrün, Königswa"
     },
     {
      "page": "344",
@@ -35305,7 +35333,7 @@
     {
      "page": "418",
      "unit": "b2",
-     "text": "er) mit ihren Vorwerken und wüsten Orten (Bollersdorf, Pottendorf und ⟦Texdorf⟧), das am Hainberg erbaute, vordem feste Pöppeln, dessen gesammter Gru"
+     "text": "er) mit ihren Vorwerken und wüsten Orten (Vollersdorf, Pottendorf und ⟦Texdorf⟧), das am Hainberg erbaute, vordem feste Pöppeln, dessen gesammter Gru"
     },
     {
      "page": "479",
@@ -35398,44 +35426,6 @@
      "page": "591",
      "unit": "b1",
      "text": " vom Kursfürsten zu dieser Conferenz nach Schleiz berufen*), kam, von ⟦Marburg⟧ her, am 9. October in Schleiz an und blieb den folgenden Tag daselbst"
-    }
-   ]
-  },
-  {
-   "key": "Vollersdorf",
-   "n": 3,
-   "types": {
-    "Location": 3
-   },
-   "forms": {
-    "Vollersdorf": 3
-   },
-   "pages": [
-    "449",
-    "473"
-   ],
-   "n_pages": 2,
-   "contexts": [
-    {
-     "page": "449",
-     "unit": "b1",
-     "text": "f Grundlage dieser Karten 1806 beim Vorüberfahren nach der Stätte von ⟦Vollersdorf⟧ fragen konnte. Der Ort war nach Gera gepfarrt und geschult. Das dasig"
-    },
-    {
-     "page": "473",
-     "unit": "b1",
-     "text": "cht. In der Flur, der ein Theil der nach Pöppeln zu gelegenen Wüstung ⟦Vollersdorf⟧ einverleibt ist, befindet sich ein Teich. Ihre Hauptstücke sind: Sche"
-    }
-   ],
-   "brueckner_register": [
-    {
-     "name": "Vollersdorf",
-     "parents": [],
-     "pages": [
-      "448"
-     ],
-     "wuestung": true,
-     "gemeinde": false
     }
    ]
   },
@@ -36788,6 +36778,33 @@
      "page": "263",
      "unit": "b3",
      "text": "Für die staatlichen Verhältnisse des ⟦Fürstenthums⟧ bestehen als Hauptgrundlagen:"
+    }
+   ]
+  },
+  {
+   "key": "Fürstenthums Reuss j. L",
+   "n": 2,
+   "types": {
+    "Location": 2
+   },
+   "forms": {
+    "Fürstenthums Reuss j. L.": 2
+   },
+   "pages": [
+    "VIII",
+    "11"
+   ],
+   "n_pages": 2,
+   "contexts": [
+    {
+     "page": "VIII",
+     "unit": "b4",
+     "text": "II. Theil: Ortskunde des ⟦Fürstenthums Reuss j. L.⟧"
+    },
+    {
+     "page": "11",
+     "unit": "fn1",
+     "text": "Sämmtliche Höhenangaben der Landeskunde des ⟦Fürstenthums Reuss j. L.⟧ haben mit den mathematischen Ortsbestimmungen gleiche, bereits S. 6 ("
     }
    ]
   },
@@ -39101,6 +39118,27 @@
    ]
   },
   {
+   "key": "Thramitz",
+   "n": 2,
+   "types": {
+    "Location": 2
+   },
+   "forms": {
+    "Thramitz": 2
+   },
+   "pages": [
+    "243"
+   ],
+   "n_pages": 1,
+   "contexts": [
+    {
+     "page": "243",
+     "unit": "b4.r3c4",
+     "text": "1 Silber- u. Kupfergr.; (zu ⟦Thramitz⟧***) zwischen Raila u. Glücksthalhammer.)"
+    }
+   ]
+  },
+  {
    "key": "Sophienthal",
    "n": 2,
    "types": {
@@ -40353,7 +40391,7 @@
     {
      "page": "332",
      "unit": "b3",
-     "text": "halben, Hirschberg, Blankenberg, Sparnberg, Reitzenstein; Asch, Selb, ⟦Frauenstein⟧, Greßlas, Hauenstein, Würschengriin, Königswart, Engelsburg, Schwarze"
+     "text": "halben, Hirschberg, Blankenberg, Sparnberg, Reitzenstein; Asch, Selb, ⟦Frauenstein⟧, Greßlas, Hauenstein, Würschengrün, Königswart, Engelsburg, Schwarzen"
     },
     {
      "page": "357",
@@ -40398,6 +40436,33 @@
    ]
   },
   {
+   "key": "Würschengrün",
+   "n": 2,
+   "types": {
+    "Location": 2
+   },
+   "forms": {
+    "Würschengrün": 2
+   },
+   "pages": [
+    "332",
+    "357"
+   ],
+   "n_pages": 2,
+   "contexts": [
+    {
+     "page": "332",
+     "unit": "b3",
+     "text": "parnberg, Reitzenstein; Asch, Selb, Frauenstein, Greßlas, Hauenstein, ⟦Würschengrün⟧, Königswart, Engelsburg, Schwarzenberg, Waldmünchen, Hartenstein; Zie"
+    },
+    {
+     "page": "357",
+     "unit": "b1",
+     "text": "schreibung auf Asch und Selb befriedigt wird, kauft er Königswart und ⟦Würschengrün⟧ um 13,000 Schock Groschen, stirbt aber nach kurzer Regierung wahrsche"
+    }
+   ]
+  },
+  {
    "key": "Schwarzenberg",
    "n": 2,
    "types": {
@@ -40415,7 +40480,7 @@
     {
      "page": "332",
      "unit": "b3",
-     "text": "uenstein, Greßlas, Hauenstein, Würschengriin, Königswart, Engelsburg, ⟦Schwarzenberg⟧, Waldmünchen, Hartenstein; Ziegenrück, Auma, Triptis, Wiesenburg, Obe"
+     "text": "auenstein, Greßlas, Hauenstein, Würschengrün, Königswart, Engelsburg, ⟦Schwarzenberg⟧, Waldmünchen, Hartenstein; Ziegenrück, Auma, Triptis, Wiesenburg, Obe"
     },
     {
      "page": "360",
@@ -40477,7 +40542,7 @@
     {
      "page": "332",
      "unit": "b3",
-     "text": "as, Hauenstein, Würschengriin, Königswart, Engelsburg, Schwarzenberg, ⟦Waldmünchen⟧, Hartenstein; Ziegenrück, Auma, Triptis, Wiesenburg, Oberkranichfeld,"
+     "text": "las, Hauenstein, Würschengrün, Königswart, Engelsburg, Schwarzenberg, ⟦Waldmünchen⟧, Hartenstein; Ziegenrück, Auma, Triptis, Wiesenburg, Oberkranichfeld,"
     },
     {
      "page": "360",
@@ -41411,6 +41476,33 @@
    ]
   },
   {
+   "key": "London",
+   "n": 2,
+   "types": {
+    "Location": 2
+   },
+   "forms": {
+    "London": 2
+   },
+   "pages": [
+    "382",
+    "739"
+   ],
+   "n_pages": 2,
+   "contexts": [
+    {
+     "page": "382",
+     "unit": "fn1",
+     "text": "einrich LV. aus dem Hause Köstritz 1846 als Bischof der Herrnhuter zu ⟦London⟧."
+    },
+    {
+     "page": "739",
+     "unit": "b1",
+     "text": "panierin Lola zum Besuche bei dem Fürsten Heinrich LXXII., der sie in ⟦London⟧ aus drückenden Verhältnissen erlöst hatte. Sie wurde jedoch hier bald"
+    }
+   ]
+  },
+  {
    "key": "Thurnau",
    "n": 2,
    "types": {
@@ -41483,13 +41575,13 @@
    ]
   },
   {
-   "key": "Heſſen-Caſſel",
+   "key": "Hessen-Cassel",
    "n": 2,
    "types": {
     "Location": 2
    },
    "forms": {
-    "Heſſen-Caſſel": 2
+    "Hessen-Cassel": 2
    },
    "pages": [
     "396"
@@ -41499,18 +41591,18 @@
     {
      "page": "396",
      "unit": "b2.r3c5",
-     "text": "Heinrich XXIII., g. 1680, † 1723. Oberſt in ⟦Heſſen-Caſſel⟧. Gem. Beate Henriette v. Solms-Laubach, † 1757."
+     "text": "Heinrich XXIII., g. 1680, † 1723. Oberst in ⟦Hessen-Cassel⟧. Gem. Beate Henriette v. Solms-Laubach, † 1757."
     }
    ]
   },
   {
-   "key": "Lobenſtein-Selbitz",
+   "key": "Lobenstein-Selbitz",
    "n": 2,
    "types": {
     "Location": 2
    },
    "forms": {
-    "Lobenſtein-Selbitz": 2
+    "Lobenstein-Selbitz": 2
    },
    "pages": [
     "396"
@@ -41520,7 +41612,7 @@
     {
      "page": "396",
      "unit": "b4.r1c2",
-     "text": ". 1738, † 1805. 1790 Reichsfürſt. Sein Land fällt an Heinrich LIV. v. ⟦Lobenſtein-Selbitz⟧."
+     "text": ". 1738, † 1805. 1790 Reichsfürst. Sein Land fällt an Heinrich LIV. v. ⟦Lobenstein-Selbitz⟧."
     }
    ]
   },
@@ -41548,33 +41640,6 @@
      "page": "568",
      "unit": "b1",
      "text": "rs Moritz Ernst Leo und von 1844—1864 Besitzer der beiden Rittergüter ⟦Wüst- und Kleinfalke⟧, hat sich in beiden Orten durch seine Wirksamkeit für dieselben ein b"
-    }
-   ]
-  },
-  {
-   "key": "Caaſen",
-   "n": 2,
-   "types": {
-    "Location": 2
-   },
-   "forms": {
-    "Caaſen": 2
-   },
-   "pages": [
-    "409",
-    "541"
-   ],
-   "n_pages": 2,
-   "contexts": [
-    {
-     "page": "409",
-     "unit": "b3.r8c1",
-     "text": "⟦Caaſen⟧"
-    },
-    {
-     "page": "541",
-     "unit": "b1",
-     "text": "besaßen sie auch Güter und Gerechtsame in der Umgegend, namentlich zu ⟦Caaſen⟧, Dorna, Groitschen und Großenstein. Ein Glied dieser Familie (Ehrenfr"
     }
    ]
   },
@@ -42289,6 +42354,44 @@
    ]
   },
   {
+   "key": "Rödel",
+   "n": 2,
+   "types": {
+    "Location": 2
+   },
+   "forms": {
+    "Rödel": 2
+   },
+   "pages": [
+    "527",
+    "828"
+   ],
+   "n_pages": 2,
+   "contexts": [
+    {
+     "page": "527",
+     "unit": "b2",
+     "text": "Die Wustung ⟦Rödel⟧ (Rödelsdorf) liegt 1/4 Stunde östlich von Kleinaga da, wo der Rödelgr"
+    },
+    {
+     "page": "828",
+     "unit": "b1.i91",
+     "text": "⟦Rödel⟧ W. 527."
+    }
+   ],
+   "brueckner_register": [
+    {
+     "name": "Rödel",
+     "parents": [],
+     "pages": [
+      "527"
+     ],
+     "wuestung": true,
+     "gemeinde": false
+    }
+   ]
+  },
+  {
    "key": "Selmiz",
    "n": 2,
    "types": {
@@ -42416,13 +42519,13 @@
    ]
   },
   {
-   "key": "Beizdorf",
+   "key": "Betzdorf",
    "n": 2,
    "types": {
     "Location": 2
    },
    "forms": {
-    "Beizdorf": 2
+    "Betzdorf": 2
    },
    "pages": [
     "536"
@@ -42432,7 +42535,18 @@
     {
      "page": "536",
      "unit": "b3",
-     "text": "Die Wüstung ⟦Beizdorf⟧ (1333 Beczelingesdorf, 1364 Beczelinsdorf), im Laufe der Zeit unter d"
+     "text": "Die Wüstung ⟦Betzdorf⟧ (1333 Beczelingesdorf, 1364 Peczelinsdorf), im Laufe der Zeit unter d"
+    }
+   ],
+   "brueckner_register": [
+    {
+     "name": "Betzdorf",
+     "parents": [],
+     "pages": [
+      "536"
+     ],
+     "wuestung": true,
+     "gemeinde": false
     }
    ]
   },
@@ -42679,27 +42793,6 @@
      "page": "565",
      "unit": "b2",
      "text": "Zwillingsdörfer Kleinfalke und Wüstfalke (urkundlich 1308 Valke, 1533 ⟦Unterfalke⟧, Wüstfalke) auf und an einer 100 Fuß ansteigenden Südwand des Plateau"
-    }
-   ]
-  },
-  {
-   "key": "Wisentaland",
-   "n": 2,
-   "types": {
-    "Location": 2
-   },
-   "forms": {
-    "Wisentaland": 2
-   },
-   "pages": [
-    "570"
-   ],
-   "n_pages": 1,
-   "contexts": [
-    {
-     "page": "570",
-     "unit": "b1",
-     "text": "II. Der Landestheil Schleiz oder das ⟦Wisentaland⟧."
     }
    ]
   },
@@ -44405,6 +44498,59 @@
    ]
   },
   {
+   "key": "Fundhäuser",
+   "n": 2,
+   "types": {
+    "Location": 2
+   },
+   "forms": {
+    "Fundhäuser": 2
+   },
+   "pages": [
+    "812",
+    "827"
+   ],
+   "n_pages": 2,
+   "contexts": [
+    {
+     "page": "812",
+     "unit": "b1",
+     "text": "n Apolda für 1400 Thlr. gegossene Glocken. Eingepfarrt sind Dornholz, ⟦Fundhäuser⟧, Juchhöh, Quire, mehrere einzelne Häuser und die Kühmühle (Kühnmühle)"
+    },
+    {
+     "page": "827",
+     "unit": "b1.i1",
+     "text": "⟦Fundhäuser⟧ (Benzka) 817."
+    }
+   ],
+   "brueckner_register": [
+    {
+     "name": "Fundhäuser",
+     "parents": [
+      "Benzka"
+     ],
+     "pages": [
+      "817"
+     ],
+     "wuestung": false,
+     "gemeinde": false
+    }
+   ],
+   "geonames_candidates": [
+    {
+     "geonames": 2923784,
+     "name": "Fundhäuser",
+     "lat": 50.4,
+     "lon": 11.86667,
+     "class": "P",
+     "code": "PPL",
+     "admin1": "02",
+     "population": 0,
+     "km": 24.5
+    }
+   ]
+  },
+  {
    "key": "Galenberg",
    "n": 2,
    "types": {
@@ -44456,6 +44602,27 @@
      "page": "V",
      "unit": "b3",
      "text": "ingere Pflicht als Freude, allen, welche ihn bei der Ausarbeitung der ⟦reussischen⟧ Landeskunde in rühmenswerther Weise gefördert haben, seinen wärmsten "
+    }
+   ]
+  },
+  {
+   "key": "Landrathsamtsbezirk Gera",
+   "n": 1,
+   "types": {
+    "Location": 1
+   },
+   "forms": {
+    "Landrathsamtsbezirk Gera": 1
+   },
+   "pages": [
+    "VIII"
+   ],
+   "n_pages": 1,
+   "contexts": [
+    {
+     "page": "VIII",
+     "unit": "b5.r1c1",
+     "text": "I. Der Landestheil oder ⟦Landrathsamtsbezirk Gera⟧"
     }
    ]
   },
@@ -44970,27 +45137,6 @@
      ],
      "wuestung": false,
      "gemeinde": false
-    }
-   ]
-  },
-  {
-   "key": "Fürstenthums Reuss j. L",
-   "n": 1,
-   "types": {
-    "Location": 1
-   },
-   "forms": {
-    "Fürstenthums Reuss j. L.": 1
-   },
-   "pages": [
-    "11"
-   ],
-   "n_pages": 1,
-   "contexts": [
-    {
-     "page": "11",
-     "unit": "fn1",
-     "text": "Sämmtliche Höhenangaben der Landeskunde des ⟦Fürstenthums Reuss j. L.⟧ haben mit den mathematischen Ortsbestimmungen gleiche, bereits S. 6 ("
     }
    ]
   },
@@ -51014,13 +51160,13 @@
    ]
   },
   {
-   "key": "Thründorf",
+   "key": "Thrändorf",
    "n": 1,
    "types": {
     "Location": 1
    },
    "forms": {
-    "Thründorf": 1
+    "Thrändorf": 1
    },
    "pages": [
     "147"
@@ -51030,7 +51176,7 @@
     {
      "page": "147",
      "unit": "b3",
-     "text": "⟦Thründorf⟧."
+     "text": "⟦Thrändorf⟧."
     }
    ]
   },
@@ -52209,7 +52355,7 @@
     {
      "page": "218",
      "unit": "b2.r16c1",
-     "text": "⟦Ernseer Forst⟧ . . . . ."
+     "text": "⟦Ernseer Forst⟧"
     }
    ]
   },
@@ -52230,7 +52376,7 @@
     {
      "page": "218",
      "unit": "b2.r17c1",
-     "text": "⟦Cossen-Forst⟧ . . . . . ."
+     "text": "⟦Cossen-Forst⟧"
     }
    ]
   },
@@ -53167,7 +53313,7 @@
     {
      "page": "251",
      "unit": "b2.r6c4",
-     "text": "⟦Ranis⟧ . . . ."
+     "text": "⟦Ranis⟧"
     }
    ],
    "geonames_candidates": [
@@ -55622,28 +55768,7 @@
     {
      "page": "332",
      "unit": "b3",
-     "text": "hberg, Blankenberg, Sparnberg, Reitzenstein; Asch, Selb, Frauenstein, ⟦Greßlas⟧, Hauenstein, Würschengriin, Königswart, Engelsburg, Schwarzenberg, Wa"
-    }
-   ]
-  },
-  {
-   "key": "Würschengriin",
-   "n": 1,
-   "types": {
-    "Location": 1
-   },
-   "forms": {
-    "Würschengriin": 1
-   },
-   "pages": [
-    "332"
-   ],
-   "n_pages": 1,
-   "contexts": [
-    {
-     "page": "332",
-     "unit": "b3",
-     "text": "parnberg, Reitzenstein; Asch, Selb, Frauenstein, Greßlas, Hauenstein, ⟦Würschengriin⟧, Königswart, Engelsburg, Schwarzenberg, Waldmünchen, Hartenstein; Zie"
+     "text": "hberg, Blankenberg, Sparnberg, Reitzenstein; Asch, Selb, Frauenstein, ⟦Greßlas⟧, Hauenstein, Würschengrün, Königswart, Engelsburg, Schwarzenberg, Wal"
     }
    ]
   },
@@ -55664,7 +55789,7 @@
     {
      "page": "332",
      "unit": "b3",
-     "text": "h, Selb, Frauenstein, Greßlas, Hauenstein, Würschengriin, Königswart, ⟦Engelsburg⟧, Schwarzenberg, Waldmünchen, Hartenstein; Ziegenrück, Auma, Triptis, "
+     "text": "ch, Selb, Frauenstein, Greßlas, Hauenstein, Würschengrün, Königswart, ⟦Engelsburg⟧, Schwarzenberg, Waldmünchen, Hartenstein; Ziegenrück, Auma, Triptis, "
     }
    ],
    "geonames_candidates": [
@@ -57205,27 +57330,6 @@
    ]
   },
   {
-   "key": "Würschengrün",
-   "n": 1,
-   "types": {
-    "Location": 1
-   },
-   "forms": {
-    "Würschengrün": 1
-   },
-   "pages": [
-    "357"
-   ],
-   "n_pages": 1,
-   "contexts": [
-    {
-     "page": "357",
-     "unit": "b1",
-     "text": "schreibung auf Asch und Selb befriedigt wird, kauft er Königswart und ⟦Würschengrün⟧ um 13,000 Schock Groschen, stirbt aber nach kurzer Regierung wahrsche"
-    }
-   ]
-  },
-  {
    "key": "Kostnitz",
    "n": 1,
    "types": {
@@ -58567,27 +58671,6 @@
    ]
   },
   {
-   "key": "London",
-   "n": 1,
-   "types": {
-    "Location": 1
-   },
-   "forms": {
-    "London": 1
-   },
-   "pages": [
-    "382"
-   ],
-   "n_pages": 1,
-   "contexts": [
-    {
-     "page": "382",
-     "unit": "fn1",
-     "text": "einrich LV. aus dem Hause Köstritz 1846 als Bischof der Herrnhuter zu ⟦London⟧."
-    }
-   ]
-  },
-  {
    "key": "Schleiz-Köstritz",
    "n": 1,
    "types": {
@@ -58871,27 +58954,6 @@
    ]
   },
   {
-   "key": "Hirſchberg",
-   "n": 1,
-   "types": {
-    "Location": 1
-   },
-   "forms": {
-    "Hirſchberg": 1
-   },
-   "pages": [
-    "396"
-   ],
-   "n_pages": 1,
-   "contexts": [
-    {
-     "page": "396",
-     "unit": "b2.r2c5",
-     "text": "Heinrich VIII., geb. 1652, † 1711. Herr von ⟦Hirſchberg⟧. Gem.: 1) Elſie Sophie v. Bobenhauſen; 2) Sophie Juliane Reuß-Obergre"
-    }
-   ]
-  },
-  {
    "key": "Droysig",
    "n": 1,
    "types": {
@@ -59121,118 +59183,13 @@
    ]
   },
   {
-   "key": "Bethenhauſen",
+   "key": "Groitzschen",
    "n": 1,
    "types": {
     "Location": 1
    },
    "forms": {
-    "Bethenhauſen": 1
-   },
-   "pages": [
-    "409"
-   ],
-   "n_pages": 1,
-   "contexts": [
-    {
-     "page": "409",
-     "unit": "b3.r5c1",
-     "text": "⟦Bethenhauſen⟧"
-    }
-   ]
-  },
-  {
-   "key": "Caaſchwitz",
-   "n": 1,
-   "types": {
-    "Location": 1
-   },
-   "forms": {
-    "Caaſchwitz": 1
-   },
-   "pages": [
-    "409"
-   ],
-   "n_pages": 1,
-   "contexts": [
-    {
-     "page": "409",
-     "unit": "b3.r7c1",
-     "text": "⟦Caaſchwitz⟧"
-    }
-   ]
-  },
-  {
-   "key": "Debſchwitz",
-   "n": 1,
-   "types": {
-    "Location": 1
-   },
-   "forms": {
-    "Debſchwitz": 1
-   },
-   "pages": [
-    "409"
-   ],
-   "n_pages": 1,
-   "contexts": [
-    {
-     "page": "409",
-     "unit": "b3.r12c1",
-     "text": "⟦Debſchwitz⟧"
-    }
-   ]
-  },
-  {
-   "key": "Ernſee",
-   "n": 1,
-   "types": {
-    "Location": 1
-   },
-   "forms": {
-    "Ernſee": 1
-   },
-   "pages": [
-    "409"
-   ],
-   "n_pages": 1,
-   "contexts": [
-    {
-     "page": "409",
-     "unit": "b3.r15c1",
-     "text": "⟦Ernſee⟧"
-    }
-   ]
-  },
-  {
-   "key": "Gorlitzſch",
-   "n": 1,
-   "types": {
-    "Location": 1
-   },
-   "forms": {
-    "Gorlitzſch": 1
-   },
-   "pages": [
-    "409"
-   ],
-   "n_pages": 1,
-   "contexts": [
-    {
-     "page": "409",
-     "unit": "b3.r19c1",
-     "text": "⟦Gorlitzſch⟧"
-    }
-   ]
-  },
-  {
-   "key": "Groitzſchen",
-   "n": 1,
-   "types": {
-    "Location": 1
-   },
-   "forms": {
-    "Groitzſchen": 1
+    "Groitzschen": 1
    },
    "pages": [
     "409"
@@ -59242,133 +59199,20 @@
     {
      "page": "409",
      "unit": "b3.r20c1",
-     "text": "⟦Groitzſchen⟧"
+     "text": "⟦Groitzschen⟧"
     }
-   ]
-  },
-  {
-   "key": "Kleinſaara",
-   "n": 1,
-   "types": {
-    "Location": 1
-   },
-   "forms": {
-    "Kleinſaara": 1
-   },
-   "pages": [
-    "409"
    ],
-   "n_pages": 1,
-   "contexts": [
+   "geonames_candidates": [
     {
-     "page": "409",
-     "unit": "b3.r33c1",
-     "text": "⟦Kleinſaara⟧"
-    }
-   ]
-  },
-  {
-   "key": "Kretzſchwitz",
-   "n": 1,
-   "types": {
-    "Location": 1
-   },
-   "forms": {
-    "Kretzſchwitz": 1
-   },
-   "pages": [
-    "409"
-   ],
-   "n_pages": 1,
-   "contexts": [
-    {
-     "page": "409",
-     "unit": "b3.r36c1",
-     "text": "⟦Kretzſchwitz⟧"
-    }
-   ]
-  },
-  {
-   "key": "Laaſen",
-   "n": 1,
-   "types": {
-    "Location": 1
-   },
-   "forms": {
-    "Laaſen": 1
-   },
-   "pages": [
-    "409"
-   ],
-   "n_pages": 1,
-   "contexts": [
-    {
-     "page": "409",
-     "unit": "b3.r37c1",
-     "text": "⟦Laaſen⟧"
-    }
-   ]
-  },
-  {
-   "key": "Leſſen",
-   "n": 1,
-   "types": {
-    "Location": 1
-   },
-   "forms": {
-    "Leſſen": 1
-   },
-   "pages": [
-    "409"
-   ],
-   "n_pages": 1,
-   "contexts": [
-    {
-     "page": "409",
-     "unit": "b3.r40c1",
-     "text": "⟦Leſſen⟧"
-    }
-   ]
-  },
-  {
-   "key": "Luſan",
-   "n": 1,
-   "types": {
-    "Location": 1
-   },
-   "forms": {
-    "Luſan": 1
-   },
-   "pages": [
-    "409"
-   ],
-   "n_pages": 1,
-   "contexts": [
-    {
-     "page": "409",
-     "unit": "b3.r43c1",
-     "text": "⟦Luſan⟧"
-    }
-   ]
-  },
-  {
-   "key": "Oberröppiſch",
-   "n": 1,
-   "types": {
-    "Location": 1
-   },
-   "forms": {
-    "Oberröppiſch": 1
-   },
-   "pages": [
-    "409"
-   ],
-   "n_pages": 1,
-   "contexts": [
-    {
-     "page": "409",
-     "unit": "b3.r49c1",
-     "text": "⟦Oberröppiſch⟧"
+     "geonames": 2917167,
+     "name": "Groitzschen",
+     "lat": 51.06447,
+     "lon": 12.08241,
+     "class": "P",
+     "code": "PPL",
+     "admin1": "14",
+     "population": 0,
+     "km": 52.0
     }
    ]
   },
@@ -59747,40 +59591,6 @@
      "page": "420",
      "unit": "b2",
      "text": "den allmählich eine Häusergruppe erwuchs, welche den Namen Gries oder ⟦Zimmerhaus⟧ (so schreiben die Theilungsacten vom Jahre 1647) führte. 1851 wurde G"
-    }
-   ]
-  },
-  {
-   "key": "Roschütz",
-   "n": 1,
-   "types": {
-    "Location": 1
-   },
-   "forms": {
-    "Roschütz": 1
-   },
-   "pages": [
-    "423"
-   ],
-   "n_pages": 1,
-   "contexts": [
-    {
-     "page": "423",
-     "unit": "b3",
-     "text": "⟦Roschütz⟧ (urkundlich 1146 Rodhacice, 1401 Radeschitz, 1488 Rodeschitz, 1533 Ra"
-    }
-   ],
-   "geonames_candidates": [
-    {
-     "geonames": 2845133,
-     "name": "Roschütz",
-     "lat": 50.90585,
-     "lon": 12.08277,
-     "class": "P",
-     "code": "PPL",
-     "admin1": "15",
-     "population": 776,
-     "km": 35.8
     }
    ]
   },
@@ -63464,6 +63274,27 @@
      "page": "526",
      "unit": "b1",
      "text": "roschweide höchst wahrscheinlich, weil sie nämlich die übergesiedelte ⟦rödelsdorfer Wüstungsgemeinde⟧ enthält, eine deutsche Colonie. Jetzt bilden beide eine Gemeinde und "
+    }
+   ]
+  },
+  {
+   "key": "Rödelsdorf",
+   "n": 1,
+   "types": {
+    "Location": 1
+   },
+   "forms": {
+    "Rödelsdorf": 1
+   },
+   "pages": [
+    "527"
+   ],
+   "n_pages": 1,
+   "contexts": [
+    {
+     "page": "527",
+     "unit": "b2",
+     "text": "Die Wustung Rödel (⟦Rödelsdorf⟧) liegt 1/4 Stunde östlich von Kleinaga da, wo der Rödelgrund, die Röd"
     }
    ]
   },
@@ -74228,53 +74059,6 @@
    ]
   },
   {
-   "key": "Fundhäuser",
-   "n": 1,
-   "types": {
-    "Location": 1
-   },
-   "forms": {
-    "Fundhäuser": 1
-   },
-   "pages": [
-    "812"
-   ],
-   "n_pages": 1,
-   "contexts": [
-    {
-     "page": "812",
-     "unit": "b1",
-     "text": "n Apolda für 1400 Thlr. gegossene Glocken. Eingepfarrt sind Dornholz, ⟦Fundhäuser⟧, Juchhöh, Quire, mehrere einzelne Häuser und die Kühmühle (Kühnmühle)"
-    }
-   ],
-   "brueckner_register": [
-    {
-     "name": "Fundhäuser",
-     "parents": [
-      "Benzka"
-     ],
-     "pages": [
-      "817"
-     ],
-     "wuestung": false,
-     "gemeinde": false
-    }
-   ],
-   "geonames_candidates": [
-    {
-     "geonames": 2923784,
-     "name": "Fundhäuser",
-     "lat": 50.4,
-     "lon": 11.86667,
-     "class": "P",
-     "code": "PPL",
-     "admin1": "02",
-     "population": 0,
-     "km": 24.5
-    }
-   ]
-  },
-  {
    "key": "Saalgasse",
    "n": 1,
    "types": {
@@ -74502,27 +74286,6 @@
      "page": "823",
      "unit": "b2",
      "text": "Pfauenbach (im Volke „⟦Pfaunbach⟧“), eine Einzelgruppe von zwei Häusern und zwei Scheunchen, 1/4 Stunde"
-    }
-   ]
-  },
-  {
-   "key": "Fundhäuſer",
-   "n": 1,
-   "types": {
-    "Location": 1
-   },
-   "forms": {
-    "Fundhäuſer": 1
-   },
-   "pages": [
-    "827"
-   ],
-   "n_pages": 1,
-   "contexts": [
-    {
-     "page": "827",
-     "unit": "b1.i1",
-     "text": "⟦Fundhäuſer⟧ (Benzka) 817."
     }
    ]
   },
@@ -74949,38 +74712,6 @@
      "admin1": "02",
      "population": 0,
      "km": 89.4
-    }
-   ]
-  },
-  {
-   "key": "Rödel",
-   "n": 1,
-   "types": {
-    "Location": 1
-   },
-   "forms": {
-    "Rödel": 1
-   },
-   "pages": [
-    "828"
-   ],
-   "n_pages": 1,
-   "contexts": [
-    {
-     "page": "828",
-     "unit": "b1.i91",
-     "text": "⟦Rödel⟧ W. 527."
-    }
-   ],
-   "brueckner_register": [
-    {
-     "name": "Rödel",
-     "parents": [],
-     "pages": [
-      "527"
-     ],
-     "wuestung": true,
-     "gemeinde": false
     }
    ]
   },

@@ -17,7 +17,7 @@
     if (w.indexOf('ge') === 0 && w.length >= 6) w = w.slice(2);
     w = w.replace(/sch/g, '$').replace(/ei/g, '%').replace(/ie/g, '&');
     w = w.replace(/(.)\1/g, '$1*');
-    while (w.length > 3) {
+    while (w.length > 4) { // never stem below four letters
       var n;
       if (w.length > 5) {
         n = w.replace(/e[mr]$/, '');
@@ -31,6 +31,7 @@
       if (n !== w) { w = n; continue; }
       break;
     }
+    if (w.length === 4 && w.charAt(3) === 'e') w = w.slice(0, 3);
     w = w.replace(/(.)\*/g, '$1$1');
     return w.replace(/\$/g, 'sch').replace(/%/g, 'ei').replace(/&/g, 'ie');
   }

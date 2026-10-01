@@ -51,15 +51,15 @@
  "findings": [
   {
    "de": "Der bäuerliche Grundbesitz (einschließlich des städtischen Grundbesitzes) umfasst 85,58 % des landwirtschaftlichen Bodens (161.349 Morgen, rund 41.196 ha); Kammer- und Rittergüter zusammen nur 14,42 %.",
-   "en": "Peasant landholding (including urban holdings) comprises 85.58 % of the agricultural land (161,349 Morgen, about 41,196 ha); chamber and manorial estates together only 14.42 %."
+   "en": "Peasant landholding (including urban holdings) comprises 85.58% of the agricultural land (161,349 Morgen, about 41,196 ha); chamber and manorial estates together only 14.42%."
   },
   {
    "de": "Bei der Hutung ist der Anteil der Kammergüter mit 14,57 % am höchsten (Bauern 74,56 %), beim Feld 84,63 % und bei den Wiesen 89,31 % in bäuerlicher Hand.",
-   "en": "For pasture the share of the chamber estates is highest at 14.57 % (peasants 74.56 %); 84.63 % of the arable land and 89.31 % of the meadows are in peasant hands."
+   "en": "For pasture the share of the chamber estates is highest at 14.57% (peasants 74.56%); 84.63% of the arable land and 89.31% of the meadows are in peasant hands."
   },
   {
    "de": "Von 2.881 geschlossenen Bauerngütern haben 69,32 % weniger als 60 Morgen; Brückner rechnet die Güter über 60 Morgen mit 30,68 % als »große«. Am kleinteiligsten ist Gera (28,8 % der Güter mit 1–20 Morgen), am größten sind die Güter im Landesteil Schleiz (41,5 % über 60 Morgen, Gera 27,2 %, Lobenstein-Ebersdorf 22,6 %).",
-   "en": "Of 2,881 closed peasant farms, 69.32 % have less than 60 Morgen; Brückner counts the farms over 60 Morgen, 30.68 %, as “large”. Gera has the smallest farms (28.8 % of its farms with 1–20 Morgen), farms are largest in the district of Schleiz (41.5 % over 60 Morgen, Gera 27.2 %, Lobenstein-Ebersdorf 22.6 %)."
+   "en": "Of 2,881 closed peasant farms, 69.32% have less than 60 Morgen; Brückner counts the farms over 60 Morgen, 30.68%, as “large”. Gera has the smallest farms (28.8% of its farms with 1–20 Morgen), farms are largest in the district of Schleiz (41.5% over 60 Morgen, Gera 27.2%, Lobenstein-Ebersdorf 22.6%)."
   },
   {
    "de": "Auf ein geschlossenes Bauerngut kommen 6,0 ledige Grundstücke (17 284 gegenüber 2.881 Gütern) – nach Brückner Folge der Teilung der ursprünglichen Höfe durch Vererbung an mehrere Kinder und der Abfindung weichender Erben mit einzelnen Grundstücken.",
@@ -67,7 +67,7 @@
   },
   {
    "de": "Die Städte besitzen nur 0,90 % der kleinen Höfe (18 Höfe), aber 36,52 % der ledigen Grundstücke und 33,16 % der Hofraithen der Kleinhäusler. Die meisten ledigen Grundstücke liegen in Tanna (1.963), die meisten Kleinhäusler-Hofraithen in Gera (1.115).",
-   "en": "The towns hold only 0.90 % of the small farms (18 farms) but 36.52 % of the free-standing plots and 33.16 % of the cottagers' house plots. Most free-standing plots lie in Tanna (1,963), most cottagers' house plots in Gera (1,115)."
+   "en": "The towns hold only 0.90% of the small farms (18 farms) but 36.52% of the free-standing plots and 33.16% of the cottagers’ house plots. Most free-standing plots lie in Tanna (1,963), most cottagers’ house plots in Gera (1,115)."
   }
  ],
  "caveats": [
@@ -625,7 +625,7 @@
      null
     ],
     [
-     "Fürstenthum",
+     "Fürstentum",
      "Principality",
      4,
      "1–20 Morgen",
@@ -635,7 +635,7 @@
      19.13
     ],
     [
-     "Fürstenthum",
+     "Fürstentum",
      "Principality",
      4,
      "20–40 Morgen",
@@ -645,7 +645,7 @@
      26.65
     ],
     [
-     "Fürstenthum",
+     "Fürstentum",
      "Principality",
      4,
      "40–60 Morgen",
@@ -655,7 +655,7 @@
      23.53
     ],
     [
-     "Fürstenthum",
+     "Fürstentum",
      "Principality",
      4,
      "60–80 Morgen",
@@ -665,7 +665,7 @@
      15.76
     ],
     [
-     "Fürstenthum",
+     "Fürstentum",
      "Principality",
      4,
      "80–100 Morgen",
@@ -675,7 +675,7 @@
      7.57
     ],
     [
-     "Fürstenthum",
+     "Fürstentum",
      "Principality",
      4,
      "über 100 Morgen",
@@ -1385,7 +1385,7 @@
     "height": 280,
     "transform": [
      {
-      "filter": "datum.landestheil_de != 'Fürstenthum'"
+      "filter": "datum.landestheil_de != 'Fürstentum'"
      }
     ],
     "mark": "bar",
@@ -1478,7 +1478,7 @@
    },
    "caption": {
     "de": "Anteil der Städte und des Flachlands an den Besitzformen (Brückners Prozentwerte). Städte haben fast keine Bauernhöfe, aber rund ein Drittel der ledigen Grundstücke und der Kleinhäusler-Hofraithen.",
-    "en": "Share of the towns and of the lowland countryside in each kind of holding (Brückner’s percentages). Towns have hardly any peasant farms but about a third of the free-standing plots and cottagers' house plots."
+    "en": "Share of the towns and of the lowland countryside in each kind of holding (Brückner’s percentages). Towns have hardly any peasant farms but about a third of the free-standing plots and cottagers’ house plots."
    },
    "vegalite": {
     "height": 240,
@@ -1589,7 +1589,7 @@
    },
    "caption": {
     "de": "Zahl der ledigen Grundstücke und der Hofraithen der Kleinhäusler in den sechs Städten. Tanna hat die meisten ledigen Grundstücke, Gera die meisten Kleinhäusler-Hofraithen.",
-    "en": "Number of free-standing plots and of cottagers' house plots in the six towns. Tanna has the most free-standing plots, Gera the most cottagers' house plots."
+    "en": "Number of free-standing plots and of cottagers’ house plots in the six towns. Tanna has the most free-standing plots, Gera the most cottagers’ house plots."
    },
    "vegalite": {
     "height": 280,
@@ -1722,7 +1722,8 @@
   "landwirtschaft-kammer-rittergueter-1854",
   "wirtschaft-berufsklassen-1864",
   "landwirtschaft-agrarreformen-1836-1868",
-  "orte-sozialstruktur-doerfer-1867"
+  "orte-sozialstruktur-doerfer-1867",
+  "orte-flur-boden-pacht"
  ],
  "generated_by": "Claude Sonnet 5.5 (subagent A09)",
  "date": "2026-10-01"

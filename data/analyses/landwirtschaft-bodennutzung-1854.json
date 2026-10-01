@@ -45,19 +45,19 @@
  "findings": [
   {
    "de": "Gera ist ausgesprochenes Ackerland: 58,0 % der Fläche sind Feld, nur 17,3 % Nadelholz. In Schleiz (32,3 % Feld) und Lobenstein-Ebersdorf (26,6 %) ist dagegen der Nadelwald die größte Nutzung (39,9 % bzw. 47,6 %).",
-   "en": "Gera is distinctly arable country: 58.0 % of its area is field and only 17.3 % coniferous wood. In Schleiz (32.3 % field) and Lobenstein-Ebersdorf (26.6 %) coniferous woodland is the largest use (39.9 % and 47.6 %)."
+   "en": "Gera is distinctly arable country: 58.0% of its area is field and only 17.3% coniferous wood. In Schleiz (32.3% field) and Lobenstein-Ebersdorf (26.6%) coniferous woodland is the largest use (39.9% and 47.6%)."
   },
   {
    "de": "Das Oberland hat im Verhältnis weit mehr Wiese als das Unterland: 20,0 % in Schleiz und 18,9 % in Lobenstein-Ebersdorf gegenüber 9,0 % in Gera.",
-   "en": "The Oberland has far more meadow in proportion than the Unterland: 20.0 % in Schleiz and 18.9 % in Lobenstein-Ebersdorf against 9.0 % in Gera."
+   "en": "The Oberland has far more meadow in proportion than the Unterland: 20.0% in Schleiz and 18.9% in Lobenstein-Ebersdorf against 9.0% in Gera."
   },
   {
    "de": "Laubwald gibt es fast nur im Landesteil Gera (6,9 % der Fläche); in Schleiz sind es 0,3 %.",
-   "en": "Deciduous woodland is found almost only in the district of Gera (6.9 % of the area); in Schleiz it is 0.3 %."
+   "en": "Deciduous woodland is found almost only in the district of Gera (6.9% of the area); in Schleiz it is 0.3%."
   },
   {
    "de": "Der Anteil des landwirtschaftlich genutzten Bodens (Garten, Feld, Wiese, Hutung) an der Gesamtfläche sinkt von 72,5 % in Gera über 56,5 % in Schleiz auf 49,5 % in Lobenstein-Ebersdorf (Fürstentum: 58,4 %).",
-   "en": "The share of agriculturally used land (garden, field, meadow, pasture) in the total area falls from 72.5 % in Gera through 56.5 % in Schleiz to 49.5 % in Lobenstein-Ebersdorf (principality: 58.4 %)."
+   "en": "The share of agriculturally used land (garden, field, meadow, pasture) in the total area falls from 72.5% in Gera through 56.5% in Schleiz to 49.5% in Lobenstein-Ebersdorf (principality: 58.4%)."
   },
   {
    "de": "Auf eine Familie kommen in Gera 7,84 Morgen (2,00 ha) landwirtschaftlicher Boden, in Schleiz 11,60 Morgen (2,96 ha) und in Lobenstein-Ebersdorf 11,37 Morgen (2,90 ha).",
@@ -243,7 +243,7 @@
      "Gehöfte, Teiche u. a.",
      "Farmsteads, ponds etc.",
      7,
-     "Fürstenthum",
+     "Fürstentum",
      "Principality",
      4,
      1774.2,
@@ -295,7 +295,7 @@
      "Gärten und Obstanlagen",
      "Gardens and orchards",
      2,
-     "Fürstenthum",
+     "Fürstentum",
      "Principality",
      4,
      4162.47,
@@ -347,7 +347,7 @@
      "Feld",
      "Arable land",
      1,
-     "Fürstenthum",
+     "Fürstentum",
      "Principality",
      4,
      120146.96,
@@ -399,7 +399,7 @@
      "Wiese",
      "Meadow",
      3,
-     "Fürstenthum",
+     "Fürstentum",
      "Principality",
      4,
      53812.33,
@@ -451,7 +451,7 @@
      "Hutung",
      "Rough pasture",
      4,
-     "Fürstenthum",
+     "Fürstentum",
      "Principality",
      4,
      10420.83,
@@ -503,7 +503,7 @@
      "Gehöfte, Teiche u. a.",
      "Farmsteads, ponds etc.",
      7,
-     "Fürstenthum",
+     "Fürstentum",
      "Principality",
      4,
      1772.75,
@@ -555,7 +555,7 @@
      "Laubholz",
      "Deciduous woodland",
      5,
-     "Fürstenthum",
+     "Fürstentum",
      "Principality",
      4,
      6578.94,
@@ -607,7 +607,7 @@
      "Nadelholz",
      "Coniferous woodland",
      6,
-     "Fürstenthum",
+     "Fürstentum",
      "Principality",
      4,
      117825.59,
@@ -659,7 +659,7 @@
      "Gehöfte, Teiche u. a.",
      "Farmsteads, ponds etc.",
      7,
-     "Fürstenthum",
+     "Fürstentum",
      "Principality",
      4,
      6251.99,
@@ -818,7 +818,7 @@
      54480.23
     ],
     [
-     "Fürstenthum",
+     "Fürstentum",
      "Principality",
      4,
      188542,
@@ -1022,7 +1022,7 @@
     "height": 200,
     "transform": [
      {
-      "filter": "datum.landestheil_de != 'Fürstenthum'"
+      "filter": "datum.landestheil_de != 'Fürstentum'"
      },
      {
       "aggregate": [
@@ -1272,7 +1272,9 @@
   "geologie-formationen-bodenguete",
   "forstwirtschaft-waldflaeche-besitz",
   "landwirtschaft-ernte-versorgung",
-  "landwirtschaft-kammer-rittergueter-1854"
+  "landwirtschaft-kammer-rittergueter-1854",
+  "orte-flur-boden-pacht",
+  "orte-viehbestand-1867"
  ],
  "generated_by": "Claude Sonnet 5.5 (subagent A09)",
  "date": "2026-10-01"

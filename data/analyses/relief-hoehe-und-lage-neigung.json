@@ -2,7 +2,7 @@
  "id": "relief-hoehe-und-lage-neigung",
  "title": {
   "de": "Höhe und Lage: Fällt das Land nach Nordosten?",
-  "en": "Altitude and position: does the land fall towards the north-east?"
+  "en": "Altitude and position: does the land fall toward the northeast?"
  },
  "category": "relief",
  "section": "t1-1-4",
@@ -56,7 +56,7 @@
  ],
  "summary": {
   "de": "Brückner beschreibt das Land als »von Südwest nach Nordost sanft geneigtes Plateau« (S. 9) und spricht von einer »Neigung von Westen nach Osten oder genauer von Südwest nach Nordost« (S. 10). Verknüpft man seine Koordinatentabelle (S. 6–7) mit den Höhenlisten der Wohnorte (S. 11–22), lässt sich das prüfen: 48 Orte haben beides. Eine Ausgleichsebene durch ihre Höhen fällt tatsächlich nach 47° (Nordost), mit rund 5,1 m je Kilometer.",
-  "en": "Brückner describes the country as a plateau “gently inclined from south-west to north-east” (p. 9) and speaks of an “inclination from west to east or, more precisely, from south-west to north-east” (p. 10). Combining his coordinate table (pp. 6–7) with the altitude lists of the inhabited places (pp. 11–22) allows a check: 48 places have both. A plane fitted through their altitudes does fall towards 47° (north-east), at about 5.1 m per kilometer."
+  "en": "Brückner describes the country as a plateau “gently inclined from south-west to north-east” (p. 9) and speaks of an “inclination from west to east or, more precisely, from south-west to north-east” (p. 10). Combining his coordinate table (pp. 6–7) with the altitude lists of the inhabited places (pp. 11–22) allows a check: 48 places have both. A plane fitted through their altitudes does fall toward 47° (northeast), at about 5.1 m per kilometer."
  },
  "method": {
   "de": "Aus der Koordinatentabelle (S. 6–7, Greenwich-Längen wie in der Analyse »Mathematische Lage«) wurden alle Orte genommen, die in den Höhenlisten (S. 11–13, 20–22) als eigener Eintrag mit Höhe stehen; gleiche Namen wurden nur im selben Landesteil verknüpft. Abweichende Schreibungen wurden gleichgesetzt: Rödersdorf = Rüdersdorf, Geissen = Geißen, Bergkirche = Schleizer Bergkirche, Oettersdorf = Dettersdorf (im Ortsregister beide auf S. 602), Grumbach = Grumbach (Mitte), Schleiz = Schleiz (Wiesenthal), Kirschkau = Kirschkau (nördliche Häuser). Ausgelassen wurden Punkte ohne Ort in der Höhenliste (Signale, Hügel), die eingeklammerten Punkte, Kleinfriesa (ohne Breite) und der zweite Punkt von Eliasbrunn. Als Höhe dient die Mitte der gedruckten Spanne des Ortes (preußische Dezimalfuß × 0,3766242 = m). Die Ausgleichsebene H = a + b·x + c·y (x: Kilometer ostwärts, y: Kilometer nordwärts von 11,85° O / 50,70° N; 1° Breite = 111,2 km, 1° Länge = 70,5 km) wurde nach der Methode der kleinsten Quadrate berechnet; die Fallrichtung ist der Azimut des steilsten Gefälles (von Nord im Uhrzeigersinn).",
@@ -65,15 +65,15 @@
  "findings": [
   {
    "de": "Die Ausgleichsebene durch 48 Orte fällt nach 47° (Nordost) mit 5,1 m je km (≈ 0,5 %); sie erklärt 86 % der Streuung der Ortshöhen (mittlerer Fehler 50 m). Das bestätigt Brückners Angabe der Neigung von Südwest nach Nordost.",
-   "en": "The plane through 48 places falls towards 47° (north-east) at 5.1 m per km (≈ 0.5 %); it explains 86 % of the variance of place altitudes (mean error 50 m). This confirms Brückner’s statement of an inclination from south-west to north-east."
+   "en": "The plane through 48 places falls toward 47° (northeast) at 5.1 m per km (≈ 0.5%); it explains 86% of the variance of place altitudes (mean error 50 m). This confirms Brückner’s statement of an inclination from southwest to northeast."
   },
   {
    "de": "Allein nach der Breite betrachtet sinkt die Ortshöhe um 56 m je 10 km nach Norden (Korrelation −0,90). Die mittlere Ortshöhe beträgt im Oberland 514 m, im Unterland 275 m (für die 48 verknüpften Orte).",
-   "en": "Considered by latitude alone, place altitude falls by 56 m per 10 km towards the north (correlation −0.90). The mean place altitude is 514 m in the Oberland and 275 m in the Unterland (for the 48 linked places)."
+   "en": "Considered by latitude alone, place altitude falls by 56 m per 10 km toward the north (correlation −0.90). The mean place altitude is 514 m in the Oberland and 275 m in the Unterland (for the 48 linked places)."
   },
   {
    "de": "Innerhalb der Landesteile ist das Bild verschieden: Im Oberland (31 Orte) beträgt das Gefälle 5,0 m/km nach 73° (R² = 0,60), im Unterland (17 Orte) nur 1,7 m/km (R² = 0,06). Im Unterland erklärt die Lage also kaum etwas; das Gefälle des Gesamtbildes entsteht vor allem durch den Sprung zwischen den beiden Landesteilen.",
-   "en": "Within the parts the picture differs: in the Oberland (31 places) the fall is 5.0 m/km towards 73° (R² = 0.60), in the Unterland (17 places) only 1.7 m/km (R² = 0.06). Within the Unterland position thus explains little; the fall of the overall picture arises mainly from the step between the two parts."
+   "en": "Within the parts the picture differs: in the Oberland (31 places) the fall is 5.0 m/km toward 73° (R² = 0.60), in the Unterland (17 places) only 1.7 m/km (R² = 0.06). Within the Unterland position thus explains little; the fall of the overall picture arises mainly from the step between the two parts."
   },
   {
    "de": "Die größten Abweichungen nach unten haben Orte in tiefen Flusstälern: Harra (−119 m), Saalburg (−105 m, beide an der Saale) und Köstritz (−99 m, an der Elster) liegen rund 100 m unter der Ebene – passend zu Brückners Schilderung der tief eingeschnittenen Täler (S. 4). Nach oben weichen Heinersdorf (+75 m), Grumbach (+68 m) und Eliasbrunn (+67 m) ab.",
@@ -1722,8 +1722,8 @@
    "position",
    "inclination",
    "slope",
-   "south-west",
-   "north-east",
+   "southwest",
+   "northeast",
    "plateau",
    "Elster",
    "Saale",

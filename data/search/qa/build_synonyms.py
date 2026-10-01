@@ -74,6 +74,18 @@ def main():
     for e in entries:
         keys = []
         for k in e["keys"]:
+            keep = k.endswith("!")
+            k = k.rstrip("!")
+            nk = norm(k) if len(tokens(k)) == 1 else ""
+            # German keys the book itself uses often do not need an expansion (it only dilutes the exact hits);
+            # '!' in the source keeps one where the expansion measurably helped
+            if e["mode"] == "DE" and nk and BOOKF.get(nk, 0) >= 10 and not keep:
+                warnings.append(f"L{e['ln']}: dropped German key used {BOOKF[nk]}x in the book: {k}")
+                continue
+            # English keys that collide with frequent German function words (die, mit, dem, hat, war ...)
+            if e["mode"] == "EN" and nk and BOOKF.get(nk, 0) >= 150 and k not in {"war", "wars", "families", "forest", "forests", "legend", "legends", "horse", "horses", "spa", "spas"}:
+                warnings.append(f"L{e['ln']}: dropped English key colliding with German word ({BOOKF[nk]}x): {k}")
+                continue
             if len(tokens(k)) != 1:
                 warnings.append(f"L{e['ln']}: multi-word key skipped: {k}")
                 continue
@@ -148,7 +160,7 @@ def main():
                     "Saints", "German", "Primogenitur", "Statuten"}
         # lower-case German function words / adjectives that the cross product turned into keys
         block_low = {"alten", "fast", "ferner", "finden", "gefunden", "geraer", "gehört", "gelegen", "licht", "mit", "nackte",
-                     "nun", "sonst", "später", "warmen", "gewesen", "wilde", "worden", "will", "sen", "ver", "bunten"}
+                     "nun", "sonst", "warmen", "gewesen", "wilde", "worden", "will", "sen", "ver", "bunten"}
         for n, targets in sorted(AUTO.items()):
             if n in used_norms or n not in VI:
                 continue

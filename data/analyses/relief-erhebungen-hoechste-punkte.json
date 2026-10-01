@@ -8038,7 +8038,8 @@
     "height": 320,
     "mark": {
      "type": "boxplot",
-     "extent": "min-max"
+     "extent": "min-max",
+     "tooltip": true
     },
     "encoding": {
      "x": {

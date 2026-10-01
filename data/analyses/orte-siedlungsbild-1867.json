@@ -3554,24 +3554,24 @@
   }
  ],
  "summary": {
-  "de": "Der Ortskundeteil beschreibt jede der 173 Gemeinden des Fürstenthums mit Häuser- und Einwohnerzahl. Zusammengeführt ergibt das ein Bild des Siedlungsnetzes 1867: Karte der Orte, Verteilung der Ortsgrößen je Landestheil und die Zahl der Personen je Haus in Dörfern und Städten.",
-  "en": "The topography part describes each of the principality's 173 municipalities with its numbers of houses and inhabitants. Put together, they give a picture of the settlement network in 1867: a map of the places, the distribution of place sizes by district, and the number of persons per house in villages and towns."
+  "de": "Der Ortskundeteil beschreibt jede der 173 Gemeinden des Fürstentums mit Häuser- und Einwohnerzahl. Zusammengeführt ergibt das ein Bild des Siedlungsnetzes 1867: Karte der Orte, Verteilung der Ortsgrößen je Landesteil und die Zahl der Personen je Haus in Dörfern und Städten.",
+  "en": "The topography part describes each of the principality’s 173 municipalities with its numbers of houses and inhabitants. Put together, they give a picture of the settlement network in 1867: a map of the places, the distribution of place sizes by district, and the number of persons per house in villages and towns."
  },
  "method": {
-  "de": "Grundlage sind die Einträge der sechs Gazetteer-Pakete G1–G6 (data/gazetteer/G1–G6.json). Aufgenommen wurden alle Einträge der Ortsarten Stadt, Marktflecken, Dorf, Weiler und Kammergut, die Häuser- und Einwohnerzahl haben und keine Bestandteile anderer Gemeinden sind (ausgeschlossen: Pöppeln, das in Geras Zahlen enthalten ist; Dürrenbach, das 1867 zu Grumbach zählte; Dürrenberg, Eleonorenthal, Köstritzer Bahnhof, Heinrichshall und die Chemische Fabrik, die in Hartmannsdorf, Köstritz und Pohlitz mitgezählt sind), das sind 173 Orte. Die Zahlen sind, soweit nicht anders gesagt, die des Zählungsjahres 1867; bei zweiherrischen Orten (Roschitz, Hundhaupten, Kraftsdorf, Rüdersdorf, Seifartsdorf, Bethenhausen, Weitisberga, Blintendorf, Mödlareuth) nur der reußische Anteil. Als Häuser zählt Brückner meist die bewohnten Privathäuser ohne Kirche, Schule und Gemeindehaus. Bei Göritz (607 Einwohner, 89 Häuser mit Lehesten) und Neundorf (716 Einwohner mit Hornsgrün, Heinrichsgrün, Langwassermühle und Jägersruh) wurde die im Artikel genannte Zahl der ganzen Gemeinde statt der des Hauptorts verwendet, damit die Summen Brückners Tabelle auf S. 98 entsprechen. Personen je Haus = Einwohner : Häuser. Größenklassen: 100er-Schritte bis 300, dann 300–499, 500–999, 1 000–1 999 und ab 2 000. Koordinaten (Länge, Breite) stammen aus GeoNames (data/gazetteer/coords.json) und sind abgeleitete Spalten; 6 Koordinatenpaare wurden nicht verwendet, weil sie auf ein gleichnamiges Dorf an anderer Stelle zeigen oder doppelt belegt sind (Culm (Gera), Dittersdorf (Schleiz), Lichtenau (Gera), Platte (Lobenstein-Ebersdorf), Reichenbach (Gera), Wernsdorf (Schleiz)). Die Karte zeigt 163 der 173 Orte. Prüfung: Die Orte wurden den Größenbändern von Brückners Tabelle (Teil I, S. 98) zugeordnet und mit den dort gedruckten Zahlen verglichen (Datensatz size_check); die Summen je Landestheil stehen im Datensatz coverage den Gesamtzahlen der Landestheil-Einleitungen gegenüber.",
-  "en": "The basis is the entries of the six gazetteer packages G1–G6 (data/gazetteer/G1–G6.json). All entries of the types town, market town, village, hamlet and Kammergut that have house and inhabitant figures and are not parts of other municipalities were included (excluded: Pöppeln, which is contained in the figures for Gera; Dürrenbach, which belonged to Grumbach in 1867; Dürrenberg, Eleonorenthal, Köstritzer Bahnhof, Heinrichshall and the Chemische Fabrik, which are counted within Hartmannsdorf, Köstritz and Pohlitz); this gives 173 places. Unless stated otherwise the figures are those of the 1867 census; for places shared with a neighbouring state (Roschitz, Hundhaupten, Kraftsdorf, Rüdersdorf, Seifartsdorf, Bethenhausen, Weitisberga, Blintendorf, Mödlareuth) only the Reuss share. By 'houses' Brückner mostly means inhabited private houses without church, school and municipal buildings. For Göritz (607 inhabitants, 89 houses including Lehesten) and Neundorf (716 inhabitants including Hornsgrün, Heinrichsgrün, Langwassermühle and Jägersruh) the figure for the whole municipality given in the article was used instead of that for the main settlement, so that the sums match Brückner's table on p. 98. Persons per house = inhabitants : houses. Size classes: steps of 100 up to 300, then 300–499, 500–999, 1,000–1,999 and 2,000 and over. Coordinates (longitude, latitude) come from GeoNames (data/gazetteer/coords.json) and are derived columns; 6 coordinate pairs were not used because they point to a homonymous village elsewhere or are assigned twice (Culm (Gera), Dittersdorf (Schleiz), Lichtenau (Gera), Platte (Lobenstein-Ebersdorf), Reichenbach (Gera), Wernsdorf (Schleiz)). The map shows 163 of the 173 places. Check: the places were assigned to the size bands of Brückner's table (Part I, p. 98) and compared with the printed figures (dataset size_check); the sums per district are set against the totals of the district introductions in the dataset coverage."
+  "de": "Grundlage sind die Einträge der sechs Gazetteer-Pakete G1–G6 (data/gazetteer/G1–G6.json). Aufgenommen wurden alle Einträge der Ortsarten Stadt, Marktflecken, Dorf, Weiler und Kammergut, die Häuser- und Einwohnerzahl haben und keine Bestandteile anderer Gemeinden sind (ausgeschlossen: Pöppeln, das in Geras Zahlen enthalten ist; Dürrenbach, das 1867 zu Grumbach zählte; Dürrenberg, Eleonorenthal, Köstritzer Bahnhof, Heinrichshall und die Chemische Fabrik, die in Hartmannsdorf, Köstritz und Pohlitz mitgezählt sind), das sind 173 Orte. Die Zahlen sind, soweit nicht anders gesagt, die des Zählungsjahres 1867; bei zweiherrischen Orten (Roschitz, Hundhaupten, Kraftsdorf, Rüdersdorf, Seifartsdorf, Bethenhausen, Weitisberga, Blintendorf, Mödlareuth) nur der reußische Anteil. Als Häuser zählt Brückner meist die bewohnten Privathäuser ohne Kirche, Schule und Gemeindehaus. Bei Göritz (607 Einwohner, 89 Häuser mit Lehesten) und Neundorf (716 Einwohner mit Hornsgrün, Heinrichsgrün, Langwassermühle und Jägersruh) wurde die im Artikel genannte Zahl der ganzen Gemeinde statt der des Hauptorts verwendet, damit die Summen Brückners Tabelle auf S. 98 entsprechen. Personen je Haus = Einwohner : Häuser. Größenklassen: 100er-Schritte bis 300, dann 300–499, 500–999, 1 000–1 999 und ab 2 000. Koordinaten (Länge, Breite) stammen aus GeoNames (data/gazetteer/coords.json) und sind abgeleitete Spalten; 6 Koordinatenpaare wurden nicht verwendet, weil sie auf ein gleichnamiges Dorf an anderer Stelle zeigen oder doppelt belegt sind (Culm (Gera), Dittersdorf (Schleiz), Lichtenau (Gera), Platte (Lobenstein-Ebersdorf), Reichenbach (Gera), Wernsdorf (Schleiz)). Die Karte zeigt 163 der 173 Orte. Prüfung: Die Orte wurden den Größenbändern von Brückners Tabelle (Teil I, S. 98) zugeordnet und mit den dort gedruckten Zahlen verglichen (Datensatz size_check); die Summen je Landesteil stehen im Datensatz coverage den Gesamtzahlen der Landesteil-Einleitungen gegenüber.",
+  "en": "The basis is the entries of the six gazetteer packages G1–G6 (data/gazetteer/G1–G6.json). All entries of the types town, market town, village, hamlet and Kammergut that have house and inhabitant figures and are not parts of other municipalities were included (excluded: Pöppeln, which is contained in the figures for Gera; Dürrenbach, which belonged to Grumbach in 1867; Dürrenberg, Eleonorenthal, Köstritzer Bahnhof, Heinrichshall and the Chemische Fabrik, which are counted within Hartmannsdorf, Köstritz and Pohlitz); this gives 173 places. Unless stated otherwise the figures are those of the 1867 census; for places shared with a neighboring state (Roschitz, Hundhaupten, Kraftsdorf, Rüdersdorf, Seifartsdorf, Bethenhausen, Weitisberga, Blintendorf, Mödlareuth) only the Reuss share. By 'houses’ Brückner mostly means inhabited private houses without church, school and municipal buildings. For Göritz (607 inhabitants, 89 houses including Lehesten) and Neundorf (716 inhabitants including Hornsgrün, Heinrichsgrün, Langwassermühle and Jägersruh) the figure for the whole municipality given in the article was used instead of that for the main settlement, so that the sums match Brückner’s table on p. 98. Persons per house = inhabitants : houses. Size classes: steps of 100 up to 300, then 300–499, 500–999, 1,000–1,999 and 2,000 and over. Coordinates (longitude, latitude) come from GeoNames (data/gazetteer/coords.json) and are derived columns; 6 coordinate pairs were not used because they point to a homonymous village elsewhere or are assigned twice (Culm (Gera), Dittersdorf (Schleiz), Lichtenau (Gera), Platte (Lobenstein-Ebersdorf), Reichenbach (Gera), Wernsdorf (Schleiz)). The map shows 163 of the 173 places. Check: the places were assigned to the size bands of Brückner’s table (Part I, p. 98) and compared with the printed figures (dataset size_check); the sums per district are set against the totals of the district introductions in the dataset coverage."
  },
  "findings": [
   {
-   "de": "Aus den Ortsartikeln lassen sich Brückners 173 Gemeinden vollständig nachbilden: 173 Orte mit zusammen 87 966 Einwohnern (6 Städte, 4 Marktflecken, 163 Dörfer). In allen 13 Größenbändern von S. 98 stimmt die Zahl der Orte, die Volksmenge stimmt in 11 von 13 Bändern genau; die Summen der Landestheile weichen von Brückners Tabelle um ±0 (Gera), +2 (Schleiz) und −10 (Lobenstein-Ebersdorf) Personen ab.",
-   "en": "Brückner's 173 municipalities can be rebuilt completely from the place articles: 173 places with 87,966 inhabitants in total (6 towns, 4 market towns, 163 villages). The number of places agrees in all 13 size bands of p. 98, the population agrees exactly in 11 of 13 bands; the district totals differ from Brückner's table by ±0 (Gera), +2 (Schleiz) and −10 (Lobenstein-Ebersdorf) persons."
+   "de": "Aus den Ortsartikeln lassen sich Brückners 173 Gemeinden vollständig nachbilden: 173 Orte mit zusammen 87 966 Einwohnern (6 Städte, 4 Marktflecken, 163 Dörfer). In allen 13 Größenbändern von S. 98 stimmt die Zahl der Orte, die Volksmenge stimmt in 11 von 13 Bändern genau; die Summen der Landesteile weichen von Brückners Tabelle um ±0 (Gera), +2 (Schleiz) und −10 (Lobenstein-Ebersdorf) Personen ab.",
+   "en": "Brückner’s 173 municipalities can be rebuilt completely from the place articles: 173 places with 87,966 inhabitants in total (6 towns, 4 market towns, 163 villages). The number of places agrees in all 13 size bands of p. 98, the population agrees exactly in 11 of 13 bands; the district totals differ from Brückner’s table by ±0 (Gera), +2 (Schleiz) and −10 (Lobenstein-Ebersdorf) persons."
   },
   {
    "de": "Das Siedlungsbild ist kleinteilig: 98 von 173 Orten (57 %) haben weniger als 300 Einwohner und beherbergen zusammen 19,5 % der Bevölkerung; die 14 Orte ab 1 000 Einwohnern (8,1 % der Orte) vereinen dagegen 48,8 %.",
    "en": "The settlement pattern is fine-grained: 98 of 173 places (57%) have fewer than 300 inhabitants and together hold 19.5% of the population; the 14 places with 1,000 or more inhabitants (8.1% of the places) account for 48.8%."
   },
   {
-   "de": "Im Landestheil Gera liegen 79 Dörfer mit im Median 176 Einwohnern, in Schleiz 42 mit 306 und in Lobenstein-Ebersdorf 42 mit 305: Das Unterland hat also mehr und kleinere Dörfer (Mittelwert 260 gegen 402 und 352).",
+   "de": "Im Landesteil Gera liegen 79 Dörfer mit im Median 176 Einwohnern, in Schleiz 42 mit 306 und in Lobenstein-Ebersdorf 42 mit 305: Das Unterland hat also mehr und kleinere Dörfer (Mittelwert 260 gegen 402 und 352).",
    "en": "The district of Gera has 79 villages with a median of 176 inhabitants, Schleiz 42 with 306 and Lobenstein-Ebersdorf 42 with 305: the lowland thus has more and smaller villages (mean 260 against 402 and 352)."
   },
   {
@@ -3585,16 +3585,16 @@
    "en": "The figures are those of the 1867 census; for villages the year is mostly not stated and is assumed (Brückner often gives comparison figures for 1861 or 1864, which were not used)."
   },
   {
-   "de": "Die Einwohnerzahlen der Landestheil-Einleitungen (Gera 38 147, Schleiz 27 368, Lobenstein-Ebersdorf 22 359) weichen von den Summen der Orte ab (Gera +105, Schleiz +2, Lobenstein-Ebersdorf −15); Brückners Tabelle auf S. 98 führt für Gera 38 252 und für Lobenstein-Ebersdorf 22 354. Die Quellen sind also nicht ganz einheitlich.",
-   "en": "The inhabitant figures in the district introductions (Gera 38,147, Schleiz 27,368, Lobenstein-Ebersdorf 22,359) differ from the sums of the places (Gera +105, Schleiz +2, Lobenstein-Ebersdorf −15); Brückner's table on p. 98 gives 38,252 for Gera and 22,354 for Lobenstein-Ebersdorf. The sources are therefore not entirely uniform."
+   "de": "Die Einwohnerzahlen der Landesteil-Einleitungen (Gera 38 147, Schleiz 27 368, Lobenstein-Ebersdorf 22 359) weichen von den Summen der Orte ab (Gera +105, Schleiz +2, Lobenstein-Ebersdorf −15); Brückners Tabelle auf S. 98 führt für Gera 38 252 und für Lobenstein-Ebersdorf 22 354. Die Quellen sind also nicht ganz einheitlich.",
+   "en": "The inhabitant figures in the district introductions (Gera 38,147, Schleiz 27,368, Lobenstein-Ebersdorf 22,359) differ from the sums of the places (Gera +105, Schleiz +2, Lobenstein-Ebersdorf −15); Brückner’s table on p. 98 gives 38,252 for Gera and 22,354 for Lobenstein-Ebersdorf. The sources are therefore not entirely uniform."
   },
   {
    "de": "Die Zahl der Häuser ist nicht überall gleich definiert (Privathäuser, bewohnte Gebäude, bei Gera 'Häuser' einschließlich Pöppeln, bei Schleiz einschließlich Mühlen); Personen je Haus ist daher nur ein grobes Maß der Haushaltsgröße. Die Stadt Gera (mit Pöppeln) und Untermhaus (Fabrikarbeiter in Mehrfamilienhäusern) heben sich auch deshalb ab.",
-   "en": "The number of houses is not defined uniformly everywhere (private houses, inhabited buildings; for Gera 'houses' include Pöppeln, for Schleiz mills); persons per house is therefore only a rough measure of household size. The town of Gera (with Pöppeln) and Untermhaus (factory workers in multi-family houses) stand out partly for this reason."
+   "en": "The number of houses is not defined uniformly everywhere (private houses, inhabited buildings; for Gera 'houses’ include Pöppeln, for Schleiz mills); persons per house is therefore only a rough measure of household size. The town of Gera (with Pöppeln) and Untermhaus (factory workers in multi-family houses) stand out partly for this reason."
   },
   {
    "de": "Koordinaten sind GeoNames-Positionen der heutigen Orte (Ortsmitte), nicht Brückners Angaben; einige Orte sind unverortet oder wegen zweifelhafter Zuordnung ausgelassen. Die Karte ist eine einfache Punktkarte ohne Grenzen und Gewässer.",
-   "en": "Coordinates are GeoNames positions of today's places (settlement centres), not Brückner's data; some places are unlocated or omitted because of doubtful matches. The map is a plain point map without borders or rivers."
+   "en": "Coordinates are GeoNames positions of today’s places (settlement centers), not Brückner’s data; some places are unlocated or omitted because of doubtful matches. The map is a plain point map without borders or rivers."
   }
  ],
  "datasets": [
@@ -3626,7 +3626,7 @@
     {
      "name": "landestheil",
      "label": {
-      "de": "Landestheil",
+      "de": "Landesteil",
       "en": "District"
      },
      "type": "string",
@@ -10176,13 +10176,13 @@
    "name": "size_check",
    "title": {
     "de": "Vergleich mit Brückners Größentabelle (S. 98)",
-    "en": "Comparison with Brückner's size table (p. 98)"
+    "en": "Comparison with Brückner’s size table (p. 98)"
    },
    "columns": [
     {
      "name": "landestheil",
      "label": {
-      "de": "Landestheil",
+      "de": "Landesteil",
       "en": "District"
      },
      "type": "string",
@@ -10399,14 +10399,14 @@
   {
    "name": "coverage",
    "title": {
-    "de": "Summe der Orte und Einwohnerzahl der Landestheile",
+    "de": "Summe der Orte und Einwohnerzahl der Landesteile",
     "en": "Sum of the places and inhabitants of the districts"
    },
    "columns": [
     {
      "name": "landestheil",
      "label": {
-      "de": "Landestheil",
+      "de": "Landesteil",
       "en": "District"
      },
      "type": "string",
@@ -10415,7 +10415,7 @@
     {
      "name": "population_intro",
      "label": {
-      "de": "Einwohner laut Einleitung des Landestheils",
+      "de": "Einwohner laut Einleitung des Landesteils",
       "en": "Inhabitants given in the district introduction"
      },
      "type": "integer",
@@ -10435,7 +10435,7 @@
      "name": "population_sum",
      "label": {
       "de": "Summe der Einwohner der Orte",
-      "en": "Sum of the places' inhabitants"
+      "en": "Sum of the places’ inhabitants"
      },
      "type": "integer",
      "unit": "Personen",
@@ -10929,12 +10929,12 @@
    "id": "c1",
    "dataset": "places",
    "title": {
-    "de": "Die Orte des Fürstenthums 1867",
+    "de": "Die Orte des Fürstentums 1867",
     "en": "The places of the principality, 1867"
    },
    "caption": {
-    "de": "Je Kreis ein Ort (163 von 173 verortet), Fläche nach Einwohnerzahl (Wurzelskala), Farbe nach Landestheil. Beschriftet sind die Orte ab 1 800 Einwohnern; Norden ist oben. Die Koordinaten stammen aus GeoNames, nicht aus dem Buch.",
-    "en": "One circle per place (163 of 173 located), area by number of inhabitants (square-root scale), colour by district. Places with 1,800 or more inhabitants are labelled; north is up. Coordinates are taken from GeoNames, not from the book."
+    "de": "Je Kreis ein Ort (163 von 173 verortet), Fläche nach Einwohnerzahl (Wurzelskala), Farbe nach Landesteil. Beschriftet sind die Orte ab 1 800 Einwohnern; Norden ist oben. Die Koordinaten stammen aus GeoNames, nicht aus dem Buch.",
+    "en": "One circle per place (163 of 173 located), area by number of inhabitants (square-root scale), color by district. Places with 1,800 or more inhabitants are labeled; north is up. Coordinates are taken from GeoNames, not from the book."
    },
    "vegalite": {
     "height": 460,
@@ -10995,7 +10995,7 @@
         "field": "landestheil",
         "type": "nominal",
         "title": {
-         "de": "Landestheil",
+         "de": "Landesteil",
          "en": "District"
         },
         "scale": {
@@ -11030,7 +11030,7 @@
         {
          "field": "landestheil",
          "title": {
-          "de": "Landestheil",
+          "de": "Landesteil",
           "en": "District"
          }
         },
@@ -11119,7 +11119,7 @@
    "id": "c2",
    "dataset": "places",
    "title": {
-    "de": "Größenklassen der Orte nach Landestheil",
+    "de": "Größenklassen der Orte nach Landesteil",
     "en": "Size classes of the places by district"
    },
    "caption": {
@@ -11168,7 +11168,7 @@
       "field": "landestheil",
       "type": "nominal",
       "title": {
-       "de": "Landestheil",
+       "de": "Landesteil",
        "en": "District"
       },
       "scale": {
@@ -11193,7 +11193,7 @@
       {
        "field": "landestheil",
        "title": {
-        "de": "Landestheil",
+        "de": "Landesteil",
         "en": "District"
        }
       },
@@ -11224,8 +11224,8 @@
     "en": "Persons per house: villages and towns"
    },
    "caption": {
-    "de": "Kasten: Dörfer und Marktflecken je Landestheil (Median, Quartile, 1,5-facher Quartilsabstand); Rauten: die sechs Städte; Kreise: auffällige Dörfer (Untermhaus, Cuba, Pforten, Tinz). Gera fällt mit dem mehrstöckigen Stadthaus aus dem Rahmen.",
-    "en": "Box: villages and market towns per district (median, quartiles, 1.5 x interquartile range); diamonds: the six towns; circles: outlying villages (Untermhaus, Cuba, Pforten, Tinz). Gera stands out with its multi-storey town houses."
+    "de": "Kasten: Dörfer und Marktflecken je Landesteil (Median, Quartile, 1,5-facher Quartilsabstand); Rauten: die sechs Städte; Kreise: auffällige Dörfer (Untermhaus, Cuba, Pforten, Tinz). Gera fällt mit dem mehrstöckigen Stadthaus aus dem Rahmen.",
+    "en": "Box: villages and market towns per district (median, quartiles, 1.5 x interquartile range); diamonds: the six towns; circles: outlying villages (Untermhaus, Cuba, Pforten, Tinz). Gera stands out with its multi-story town houses."
    },
    "vegalite": {
     "height": 300,
@@ -11271,7 +11271,7 @@
         "field": "landestheil",
         "type": "nominal",
         "title": {
-         "de": "Landestheil",
+         "de": "Landesteil",
          "en": "District"
         },
         "scale": {
@@ -11318,7 +11318,7 @@
         "field": "landestheil",
         "type": "nominal",
         "title": {
-         "de": "Landestheil",
+         "de": "Landesteil",
          "en": "District"
         },
         "scale": {
@@ -11441,7 +11441,7 @@
    "Personen je Haus",
    "Dörfer",
    "Städte",
-   "Landestheile",
+   "Landesteile",
    "Karte"
   ],
   "en": [
@@ -11458,7 +11458,11 @@
  },
  "related": [
   "bevoelkerung-gemeindegroessen-1867",
-  "wohnen-wohnhaeuser-wohndichte-1867"
+  "wohnen-wohnhaeuser-wohndichte-1867",
+  "orte-erste-erwaehnungen-namensformen",
+  "orte-schulen-gemeindehaushalt",
+  "orte-sozialstruktur-doerfer-1867",
+  "orte-wuestungen-ortskunde"
  ],
  "generated_by": "Claude Sonnet 5.5 (subagent G7)",
  "date": "2026-10-01"

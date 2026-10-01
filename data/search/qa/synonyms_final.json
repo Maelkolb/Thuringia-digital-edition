@@ -97,19 +97,6 @@
 "note": "EN nature: land, water, geology +pad"
 },
 {
-"q": "well",
-"expand": [
-"Brunnen",
-"Quelle",
-"Wasserleitungen",
-"Wasser"
-],
-"also": [
-"wellss"
-],
-"note": "EN nature: land, water, geology"
-},
-{
 "q": "mineral",
 "expand": [
 "Mineralien",
@@ -367,9 +354,7 @@
 {
 "q": "earthquake",
 "expand": [
-"Erdbeben",
-"Hochwasser",
-"Gewitter"
+"Erdbeben"
 ],
 "also": [
 "earthquakees",
@@ -415,19 +400,6 @@
 "peat"
 ],
 "note": "EN nature: land, water, geology"
-},
-{
-"q": "climate",
-"expand": [
-"Klima",
-"klimatischen",
-"Witterung",
-"Temperatur"
-],
-"also": [
-"climatees"
-],
-"note": "EN climate and weather"
 },
 {
 "q": "weather",
@@ -479,19 +451,16 @@
 {
 "q": "frost",
 "expand": [
-"Frohnen",
-"Frohndienste",
+"Reif",
 "Kälte",
-"Reif"
+"Winter",
+"qxqa"
 ],
 "also": [
 "cold",
-"Fronarbeit",
-"Frondienste",
-"frostss",
-"frondienstees"
+"frostss"
 ],
-"note": "EN climate and weather"
+"note": "EN climate and weather +pad"
 },
 {
 "q": "wind",
@@ -1109,11 +1078,9 @@
 "also": [
 "mouse",
 "mice",
-"rat",
 "rodentss",
 "mousees",
-"micees",
-"ratss"
+"micees"
 ],
 "note": "EN plants and animals"
 },
@@ -1206,7 +1173,6 @@
 "Geborene"
 ],
 "also": [
-"born",
 "birthss"
 ],
 "note": "EN people, population, health"
@@ -1337,15 +1303,12 @@
 "note": "EN people, population, health +pad"
 },
 {
-"q": "man",
+"q": "men",
 "expand": [
 "Männer",
 "Männlichen",
 "Burschen",
 "qxqa"
-],
-"also": [
-"men"
 ],
 "note": "EN people, population, health +pad"
 },
@@ -2008,20 +1971,6 @@
 "note": "EN people, population, health +pad"
 },
 {
-"q": "name",
-"expand": [
-"Namen",
-"Ortsnamen",
-"Familiennamen",
-"Benennung"
-],
-"also": [
-"namees",
-"namess"
-],
-"note": "EN people, population, health"
-},
-{
 "q": "surname",
 "expand": [
 "Familiennamen",
@@ -2140,9 +2089,7 @@
 "Tracht"
 ],
 "also": [
-"bonnet",
-"hat",
-"hatss"
+"bonnet"
 ],
 "note": "EN people, population, health"
 },
@@ -2691,7 +2638,6 @@
 "expand": [
 "Johannisfeuer",
 "Sonnenwende",
-"Johannis",
 "Sonnenwendfeuer"
 ],
 "also": [
@@ -2755,15 +2701,10 @@
 ],
 "also": [
 "saga",
-"myth",
 "folklore",
-"tale",
 "legendss",
 "sagass",
-"mythss",
-"folklorees",
-"talees",
-"taless"
+"folklorees"
 ],
 "note": "EN customs and belief +pad"
 },
@@ -3436,10 +3377,8 @@
 "Werth"
 ],
 "also": [
-"cost",
 "pricees",
-"pricess",
-"costss"
+"pricess"
 ],
 "note": "EN economy: agriculture, livestock"
 },
@@ -3822,27 +3761,22 @@
 "Lohgerber"
 ],
 "also": [
-"tanner",
 "tannery",
 "tanneries",
-"tannerss",
 "tanneriess"
 ],
 "note": "EN economy: forestry, mining, industry, trade"
 },
 {
-"q": "dye",
+"q": "dyer",
 "expand": [
 "Färberei",
 "Färber",
 "Farberden"
 ],
 "also": [
-"dyer",
 "dyeing",
 "dyeworks",
-"dyes",
-"dyees",
 "dyerss",
 "dyeworkss"
 ],
@@ -4011,19 +3945,17 @@
 "note": "EN economy: forestry, mining, industry, trade"
 },
 {
-"q": "craft",
+"q": "handicraft",
 "expand": [
 "Handwerk",
 "Gewerbe",
 "Innung"
 ],
 "also": [
-"handicraft",
 "artisan",
 "craftsmen",
 "tradesmen",
 "guild",
-"craftss",
 "handicraftss",
 "artisanss",
 "guildss"
@@ -4326,17 +4258,14 @@
 "note": "EN economy: forestry, mining, industry, trade +pad"
 },
 {
-"q": "thaler",
+"q": "penny",
 "expand": [
-"Thaler",
-"Gulden",
+"Pfennig",
 "Groschen",
-"Pfennig"
+"Heller",
+"Kreuzer"
 ],
 "also": [
-"groschen",
-"penny",
-"pfennig",
 "pennies"
 ],
 "note": "EN economy: forestry, mining, industry, trade"
@@ -4525,7 +4454,7 @@
 "note": "EN state, law, church, school, history +pad"
 },
 {
-"q": "state",
+"q": "country",
 "expand": [
 "Staat",
 "Land",
@@ -4533,9 +4462,6 @@
 "qxqa"
 ],
 "also": [
-"country",
-"statees",
-"statess",
 "countries"
 ],
 "note": "EN state, law, church, school, history +pad"
@@ -4764,9 +4690,7 @@
 "qxqb"
 ],
 "also": [
-"demesne",
-"domainss",
-"demesnees"
+"domainss"
 ],
 "note": "EN state, law, church, school, history +pad"
 },
@@ -5139,12 +5063,10 @@
 "convent",
 "abbey",
 "monk",
-"nun",
 "cloister",
 "monasteriess",
 "conventss",
-"monkss",
-"nunss"
+"monkss"
 ],
 "note": "EN state, law, church, school, history +pad"
 },
@@ -5435,16 +5357,6 @@
 "note": "EN state, law, church, school, history"
 },
 {
-"q": "reformation",
-"expand": [
-"Reformation",
-"Kirchenvisitation",
-"Lutherische",
-"Luther"
-],
-"note": "EN state, law, church, school, history"
-},
-{
 "q": "hussite",
 "expand": [
 "Hussiten",
@@ -5460,22 +5372,12 @@
 "q": "thirty",
 "expand": [
 "jährigen",
-"Krieges",
 "qxqa",
-"qxqb"
+"qxqb",
+"qxqc"
 ],
 "also": [
 "thirties"
-],
-"note": "EN state, law, church, school, history +pad"
-},
-{
-"q": "seven",
-"expand": [
-"siebenjährigen",
-"Krieg",
-"qxqa",
-"qxqb"
 ],
 "note": "EN state, law, church, school, history +pad"
 },
@@ -5485,13 +5387,12 @@
 "Napoleon",
 "Franzosen",
 "Rheinbund",
-"qxqa"
+"Befreiungskriege"
 ],
 "also": [
-"napoleon",
 "napoleonices"
 ],
-"note": "EN state, law, church, school, history +pad"
+"note": "EN state, law, church, school, history"
 },
 {
 "q": "french",
@@ -5734,16 +5635,7 @@
 {
 "q": "Dreißigjähriger",
 "expand": [
-"jährigen",
-"Krieges"
-],
-"note": "DE modern -> 1870 wording (words the book writes differently)"
-},
-{
-"q": "Siebenjähriger",
-"expand": [
-"siebenjährigen",
-"Krieges"
+"jährigen"
 ],
 "note": "DE modern -> 1870 wording (words the book writes differently)"
 },
@@ -5816,7 +5708,6 @@
 "Sterbefälle"
 ],
 "also": [
-"Sterbefälle",
 "Todesfälle"
 ],
 "note": "DE modern -> 1870 wording (words the book writes differently)"
@@ -5852,20 +5743,16 @@
 "Ehe"
 ],
 "also": [
-"Heiratsalter",
-"Heirat"
+"Heiratsalter"
 ],
 "note": "DE modern -> 1870 wording (words the book writes differently)"
 },
 {
-"q": "Geburtsort",
+"q": "Herkunft",
 "expand": [
 "Geburtsort",
 "Heimath",
 "Zuzug"
-],
-"also": [
-"Herkunft"
 ],
 "note": "DE modern -> 1870 wording (words the book writes differently)"
 },
@@ -5889,15 +5776,6 @@
 "note": "DE modern -> 1870 wording (words the book writes differently)"
 },
 {
-"q": "Krankheit",
-"expand": [
-"Krankheit",
-"Volkskrankheit",
-"Seuchen"
-],
-"note": "DE modern -> 1870 wording (words the book writes differently)"
-},
-{
 "q": "Tuberkulose",
 "expand": [
 "Schwindsucht",
@@ -5917,9 +5795,6 @@
 "Irre",
 "Blödsinnige",
 "Wahnsinn"
-],
-"also": [
-"Geisteskranke"
 ],
 "note": "DE modern -> 1870 wording (words the book writes differently)"
 },
@@ -5959,16 +5834,12 @@
 "note": "DE modern -> 1870 wording (words the book writes differently)"
 },
 {
-"q": "Armut",
+"q": "Armenpflege",
 "expand": [
 "Armuth",
 "Armenwesen",
 "Armenpflege",
 "Armenhaus"
-],
-"also": [
-"Armen",
-"Armenpflege"
 ],
 "note": "DE modern -> 1870 wording (words the book writes differently)"
 },
@@ -5984,55 +5855,21 @@
 "note": "DE modern -> 1870 wording (words the book writes differently)"
 },
 {
-"q": "Steuern",
+"q": "Gebühren",
 "expand": [
 "Steuer",
 "Abgaben",
 "Gefälle",
 "Zinsen"
 ],
-"also": [
-"Abgaben",
-"Gebühren"
-],
 "note": "DE modern -> 1870 wording (words the book writes differently)"
 },
 {
-"q": "Steuerwesen",
+"q": "Besteuerung",
 "expand": [
 "Steuer",
 "Steuerwerth",
 "Steuereinheiten"
-],
-"also": [
-"Besteuerung"
-],
-"note": "DE modern -> 1870 wording (words the book writes differently)"
-},
-{
-"q": "Einkommen",
-"expand": [
-"Einkommen",
-"Einkünfte",
-"Verdienst",
-"Gehalt"
-],
-"also": [
-"Verdienst"
-],
-"note": "DE modern -> 1870 wording (words the book writes differently)"
-},
-{
-"q": "Gehalt",
-"expand": [
-"Besoldung",
-"Gehalt",
-"Einkommen",
-"Pfarrbesoldung"
-],
-"also": [
-"Besoldung",
-"Bezüge"
 ],
 "note": "DE modern -> 1870 wording (words the book writes differently)"
 },
@@ -6046,24 +5883,11 @@
 "note": "DE modern -> 1870 wording (words the book writes differently)"
 },
 {
-"q": "Preise",
-"expand": [
-"Preis",
-"Werth",
-"Kosten",
-"qxqa"
-],
-"note": "DE modern -> 1870 wording (words the book writes differently) +pad"
-},
-{
-"q": "Schulden",
+"q": "Verschuldung",
 "expand": [
 "Schulden",
 "Hypotheken",
 "Capital"
-],
-"also": [
-"Verschuldung"
 ],
 "note": "DE modern -> 1870 wording (words the book writes differently)"
 },
@@ -6082,43 +5906,11 @@
 "note": "DE modern -> 1870 wording (words the book writes differently)"
 },
 {
-"q": "Gemeinde",
+"q": "Kommunalverwaltung",
 "expand": [
 "Gemeinde",
 "Gemeindeverfassung",
 "Gemeindeordnung"
-],
-"also": [
-"Kommune",
-"Kommunalverwaltung"
-],
-"note": "DE modern -> 1870 wording (words the book writes differently)"
-},
-{
-"q": "Bürgermeister",
-"expand": [
-"Bürgermeister",
-"Schultheiß",
-"Gemeindevorstand",
-"Stadtrath"
-],
-"note": "DE modern -> 1870 wording (words the book writes differently)"
-},
-{
-"q": "Gemeinderat",
-"expand": [
-"Gemeinderath",
-"Gemeindevorstand",
-"Gemeindeverfassung"
-],
-"note": "DE modern -> 1870 wording (words the book writes differently)"
-},
-{
-"q": "Landrat",
-"expand": [
-"Landrath",
-"Landrathsamt",
-"Landrathsbezirk"
 ],
 "note": "DE modern -> 1870 wording (words the book writes differently)"
 },
@@ -6129,9 +5921,6 @@
 "Landrathsamt",
 "Kreisgericht",
 "Bezirk"
-],
-"also": [
-"Kreis"
 ],
 "note": "DE modern -> 1870 wording (words the book writes differently)"
 },
@@ -6170,16 +5959,6 @@
 "Militärpflichtige"
 ],
 "note": "DE modern -> 1870 wording (words the book writes differently)"
-},
-{
-"q": "Gericht",
-"expand": [
-"Gericht",
-"Gerichtsbarkeit",
-"Justiz",
-"qxqa"
-],
-"note": "DE modern -> 1870 wording (words the book writes differently) +pad"
 },
 {
 "q": "Rechtswesen",
@@ -6257,7 +6036,6 @@
 ],
 "also": [
 "Großbrand",
-"Stadtbrand",
 "Brandkatastrophe"
 ],
 "note": "DE modern -> 1870 wording (words the book writes differently)"
@@ -6334,18 +6112,6 @@
 "note": "DE modern -> 1870 wording (words the book writes differently)"
 },
 {
-"q": "Weberei",
-"expand": [
-"Weberei",
-"Weber",
-"Webermeister"
-],
-"also": [
-"Weber"
-],
-"note": "DE modern -> 1870 wording (words the book writes differently)"
-},
-{
 "q": "Wollindustrie",
 "expand": [
 "Wollindustrie",
@@ -6391,15 +6157,6 @@
 "note": "DE modern -> 1870 wording (words the book writes differently)"
 },
 {
-"q": "Bergwerk",
-"expand": [
-"Bergwerk",
-"Bergbau",
-"Grube"
-],
-"note": "DE modern -> 1870 wording (words the book writes differently)"
-},
-{
 "q": "Bergarbeiter",
 "expand": [
 "Bergleute",
@@ -6407,7 +6164,6 @@
 "Hüttenleute"
 ],
 "also": [
-"Bergleute",
 "Bergmann"
 ],
 "note": "DE modern -> 1870 wording (words the book writes differently)"
@@ -6435,40 +6191,21 @@
 "note": "DE modern -> 1870 wording (words the book writes differently)"
 },
 {
-"q": "Hüttenwerk",
+"q": "Hüttenwesen",
 "expand": [
 "Hüttenwerk",
 "Hammerwerk",
 "Hüttenwesen"
 ],
-"also": [
-"Hüttenwesen"
-],
 "note": "DE modern -> 1870 wording (words the book writes differently)"
 },
 {
-"q": "Landwirtschaft",
+"q": "Agrarwirtschaft",
 "expand": [
 "Landwirthschaft",
 "Ackerbau",
 "Landbau",
 "Agricultur"
-],
-"also": [
-"Agrarwirtschaft"
-],
-"note": "DE modern -> 1870 wording (words the book writes differently)"
-},
-{
-"q": "Ackerbau",
-"expand": [
-"Ackerbau",
-"Landwirthschaft",
-"Feldbau",
-"Anbau"
-],
-"also": [
-"Anbau"
 ],
 "note": "DE modern -> 1870 wording (words the book writes differently)"
 },
@@ -6477,9 +6214,6 @@
 "expand": [
 "Kartoffelbau",
 "Kartoffeln"
-],
-"also": [
-"Kartoffelernte"
 ],
 "note": "DE modern -> 1870 wording (words the book writes differently)"
 },
@@ -6579,15 +6313,12 @@
 "note": "DE modern -> 1870 wording (words the book writes differently)"
 },
 {
-"q": "Forstwirtschaft",
+"q": "Waldbewirtschaftung",
 "expand": [
 "Forstwirthschaft",
 "Waldungen",
 "Forst",
 "Waldwirthschaft"
-],
-"also": [
-"Waldbewirtschaftung"
 ],
 "note": "DE modern -> 1870 wording (words the book writes differently)"
 },
@@ -6625,20 +6356,14 @@
 "Jäger",
 "Wild"
 ],
-"also": [
-"Jäger"
-],
 "note": "DE modern -> 1870 wording (words the book writes differently)"
 },
 {
-"q": "Handwerker",
+"q": "Gewerbetreibende",
 "expand": [
 "Handwerker",
 "Gewerbetreibende",
 "Gewerbe"
-],
-"also": [
-"Gewerbetreibende"
 ],
 "note": "DE modern -> 1870 wording (words the book writes differently)"
 },
@@ -6681,15 +6406,12 @@
 "note": "DE modern -> 1870 wording (words the book writes differently)"
 },
 {
-"q": "Straßenverkehr",
+"q": "Verkehrswege",
 "expand": [
 "Straßenverkehr",
 "Straßen",
 "Chausseen",
 "Verkehr"
-],
-"also": [
-"Verkehrswege"
 ],
 "note": "DE modern -> 1870 wording (words the book writes differently)"
 },
@@ -6719,15 +6441,13 @@
 "note": "DE modern -> 1870 wording (words the book writes differently)"
 },
 {
-"q": "Maße",
+"q": "Maßeinheiten",
 "expand": [
 "Maaß",
 "Maß",
 "Gewicht"
 ],
 "also": [
-"Gewichte",
-"Maßeinheiten",
 "Umrechnung"
 ],
 "note": "DE modern -> 1870 wording (words the book writes differently)"
@@ -6766,48 +6486,6 @@
 "Pfarrstellen",
 "Pfarrer"
 ],
-"also": [
-"Pfarramt"
-],
-"note": "DE modern -> 1870 wording (words the book writes differently)"
-},
-{
-"q": "Geistlicher",
-"expand": [
-"Pfarrer",
-"Geistlichen",
-"Pastor",
-"Superintendent"
-],
-"note": "DE modern -> 1870 wording (words the book writes differently)"
-},
-{
-"q": "Kirchenbuch",
-"expand": [
-"Kirchenbuch",
-"Taufregister",
-"Matrikel"
-],
-"note": "DE modern -> 1870 wording (words the book writes differently)"
-},
-{
-"q": "Kirchenvisitation",
-"expand": [
-"Kirchenvisitation",
-"Visitation",
-"Visitatoren",
-"Kirchenvisitationsacten"
-],
-"note": "DE modern -> 1870 wording (words the book writes differently)"
-},
-{
-"q": "Gottesdienst",
-"expand": [
-"Gottesdienst",
-"Predigt",
-"Kirche",
-"Liturgie"
-],
 "note": "DE modern -> 1870 wording (words the book writes differently)"
 },
 {
@@ -6832,23 +6510,11 @@
 "note": "DE modern -> 1870 wording (words the book writes differently)"
 },
 {
-"q": "Konfirmation",
-"expand": [
-"Confirmation",
-"Confirmanden",
-"Kirche"
-],
-"note": "DE modern -> 1870 wording (words the book writes differently)"
-},
-{
-"q": "Schulwesen",
+"q": "Bildungswesen",
 "expand": [
 "Schulwesen",
 "Schule",
 "Unterricht"
-],
-"also": [
-"Bildungswesen"
 ],
 "note": "DE modern -> 1870 wording (words the book writes differently)"
 },
@@ -6860,47 +6526,15 @@
 "Schule",
 "Schulversäumnisse"
 ],
-"also": [
-"Schulbesuch"
-],
 "note": "DE modern -> 1870 wording (words the book writes differently)"
 },
 {
-"q": "Lehrer",
-"expand": [
-"Lehrer",
-"Schulmeister",
-"Lehrerstelle",
-"Lehrerinnen"
-],
-"also": [
-"Lehrerin"
-],
-"note": "DE modern -> 1870 wording (words the book writes differently)"
-},
-{
-"q": "Gymnasium",
-"expand": [
-"Gymnasium",
-"Realschule",
-"Bürgerschule",
-"qxqa"
-],
-"also": [
-"Realschule"
-],
-"note": "DE modern -> 1870 wording (words the book writes differently) +pad"
-},
-{
-"q": "Waisenhaus",
+"q": "Waisenkinder",
 "expand": [
 "Waisenhaus",
 "Waisen",
 "Waisenkinder",
 "Rettungshaus"
-],
-"also": [
-"Waisenkinder"
 ],
 "note": "DE modern -> 1870 wording (words the book writes differently)"
 },
@@ -6913,24 +6547,6 @@
 ],
 "also": [
 "Spital"
-],
-"note": "DE modern -> 1870 wording (words the book writes differently)"
-},
-{
-"q": "Ärzte",
-"expand": [
-"Arzt",
-"Doctor",
-"Medicinalwesen"
-],
-"note": "DE modern -> 1870 wording (words the book writes differently)"
-},
-{
-"q": "Hebamme",
-"expand": [
-"Hebamme",
-"Wochenbett",
-"Geburt"
 ],
 "note": "DE modern -> 1870 wording (words the book writes differently)"
 },
@@ -6975,15 +6591,12 @@
 "note": "DE modern -> 1870 wording (words the book writes differently)"
 },
 {
-"q": "Aberglaube",
+"q": "Volksglaube",
 "expand": [
 "Aberglaube",
-"Volksglaube",
-"Glaube",
-"Hexen"
-],
-"also": [
-"Volksglaube"
+"Hexen",
+"Zauberei",
+"Geister"
 ],
 "note": "DE modern -> 1870 wording (words the book writes differently)"
 },
@@ -7011,13 +6624,10 @@
 "note": "DE modern -> 1870 wording (words the book writes differently)"
 },
 {
-"q": "Sagen",
+"q": "Sagenstoff",
 "expand": [
 "Sage",
 "Volkssage"
-],
-"also": [
-"Sagenstoff"
 ],
 "note": "DE modern -> 1870 wording (words the book writes differently)"
 },
@@ -7068,7 +6678,7 @@
 "note": "DE modern -> 1870 wording (words the book writes differently)"
 },
 {
-"q": "Beerdigung",
+"q": "Totenbrauch",
 "expand": [
 "Beerdigung",
 "Begräbniß",
@@ -7076,18 +6686,7 @@
 "Leichenzug"
 ],
 "also": [
-"Totenbrauch",
 "Bestattung"
-],
-"note": "DE modern -> 1870 wording (words the book writes differently)"
-},
-{
-"q": "Friedhof",
-"expand": [
-"Friedhof",
-"Kirchhof",
-"Gottesacker",
-"Leichenhof"
 ],
 "note": "DE modern -> 1870 wording (words the book writes differently)"
 },
@@ -7111,28 +6710,14 @@
 "note": "DE modern -> 1870 wording (words the book writes differently)"
 },
 {
-"q": "Fastnacht",
+"q": "Fasching",
 "expand": [
 "Fastnacht",
 "Fastnachtbutter",
 "Fastnachtsnarr"
 ],
 "also": [
-"Fasching",
 "Karneval"
-],
-"note": "DE modern -> 1870 wording (words the book writes differently)"
-},
-{
-"q": "Kirchweih",
-"expand": [
-"Kirchweih",
-"Kirmes",
-"Kirchweihfest",
-"Kirmeß"
-],
-"also": [
-"Kirmes"
 ],
 "note": "DE modern -> 1870 wording (words the book writes differently)"
 },
@@ -7144,20 +6729,6 @@
 ],
 "also": [
 "Erntedank"
-],
-"note": "DE modern -> 1870 wording (words the book writes differently)"
-},
-{
-"q": "Johannisfeuer",
-"expand": [
-"Johannisfeuer",
-"Sonnenwende",
-"Sonnenwendfeuer",
-"Johannis"
-],
-"also": [
-"Sonnenwendfeuer",
-"Sonnenwende"
 ],
 "note": "DE modern -> 1870 wording (words the book writes differently)"
 },
@@ -7207,28 +6778,22 @@
 "note": "DE modern -> 1870 wording (words the book writes differently)"
 },
 {
-"q": "Ernährung",
+"q": "Essgewohnheiten",
 "expand": [
-"Nahrung",
 "Kost",
-"Speise"
-],
-"also": [
+"Nahrung",
 "Speisen",
-"Essgewohnheiten"
+"Speiseordnung"
 ],
 "note": "DE modern -> 1870 wording (words the book writes differently)"
 },
 {
-"q": "Essen",
+"q": "Mahlzeit",
 "expand": [
 "Essen",
 "Mahlzeit",
 "Speisen",
 "Kost"
-],
-"also": [
-"Mahlzeit"
 ],
 "note": "DE modern -> 1870 wording (words the book writes differently)"
 },
@@ -7259,15 +6824,6 @@
 "note": "DE modern -> 1870 wording (words the book writes differently)"
 },
 {
-"q": "Mundart",
-"expand": [
-"Mundart",
-"Dialekt",
-"Sprachproben"
-],
-"note": "DE modern -> 1870 wording (words the book writes differently)"
-},
-{
 "q": "Sprachproben",
 "expand": [
 "Sprachproben",
@@ -7294,14 +6850,11 @@
 "note": "DE modern -> 1870 wording (words the book writes differently)"
 },
 {
-"q": "Ortsnamen",
+"q": "Siedlungsnamen",
 "expand": [
 "Ortsnamen",
 "Namen",
 "Namensdeutung"
-],
-"also": [
-"Siedlungsnamen"
 ],
 "note": "DE modern -> 1870 wording (words the book writes differently)"
 },
@@ -7346,86 +6899,12 @@
 "note": "DE modern -> 1870 wording (words the book writes differently)"
 },
 {
-"q": "Altertum",
-"expand": [
-"Alterthum",
-"Alterthumsverein",
-"Vorzeit"
-],
-"note": "DE modern -> 1870 wording (words the book writes differently)"
-},
-{
-"q": "Mittelalter",
-"expand": [
-"Mittelalter",
-"mittelalterlichen",
-"Vorzeit"
-],
-"note": "DE modern -> 1870 wording (words the book writes differently)"
-},
-{
-"q": "Fürstentum",
-"expand": [
-"Fürstenthum",
-"Fürstenhaus",
-"Haus"
-],
-"also": [
-"Fürstenhaus"
-],
-"note": "DE modern -> 1870 wording (words the book writes differently)"
-},
-{
-"q": "Fürst",
-"expand": [
-"Fürst",
-"Fürstin",
-"Landesherr"
-],
-"also": [
-"Fürstin"
-],
-"note": "DE modern -> 1870 wording (words the book writes differently)"
-},
-{
-"q": "Herrscher",
-"expand": [
-"Landesherr",
-"Regent",
-"Fürst",
-"Landesherrschaft"
-],
-"also": [
-"Regent",
-"Landesherr"
-],
-"note": "DE modern -> 1870 wording (words the book writes differently)"
-},
-{
-"q": "Adel",
+"q": "Adelsfamilie",
 "expand": [
 "Adel",
 "Adeligen",
 "Edlen",
 "Rittergut"
-],
-"also": [
-"Adlige",
-"Adelsfamilie"
-],
-"note": "DE modern -> 1870 wording (words the book writes differently)"
-},
-{
-"q": "Rittergutsbesitzer",
-"expand": [
-"Rittergutsbesitzer",
-"Gutsbesitzer",
-"Rittergut",
-"Besitzer"
-],
-"also": [
-"Gutsherr",
-"Gutsbesitzer"
 ],
 "note": "DE modern -> 1870 wording (words the book writes differently)"
 },
@@ -7443,45 +6922,21 @@
 "note": "DE modern -> 1870 wording (words the book writes differently)"
 },
 {
-"q": "Zehnt",
-"expand": [
-"Zehnt",
-"Decem",
-"Abgaben"
-],
-"note": "DE modern -> 1870 wording (words the book writes differently)"
-},
-{
 "q": "Lehnswesen",
 "expand": [
 "Lehen",
 "Lehnsherr",
 "Lehnsherrschaft"
 ],
-"also": [
-"Lehnsherr"
-],
 "note": "DE modern -> 1870 wording (words the book writes differently)"
 },
 {
-"q": "Ablösung",
-"expand": [
-"Ablösung",
-"Frohnablösungen",
-"Ablösungsgesetz"
-],
-"note": "DE modern -> 1870 wording (words the book writes differently)"
-},
-{
-"q": "Landesteilung",
+"q": "Erbteilung",
 "expand": [
 "Landestheilung",
 "Theilung",
 "Erbtheilung",
 "Landestheile"
-],
-"also": [
-"Erbteilung"
 ],
 "note": "DE modern -> 1870 wording (words the book writes differently)"
 },
@@ -7495,25 +6950,6 @@
 ],
 "also": [
 "Thronfolge"
-],
-"note": "DE modern -> 1870 wording (words the book writes differently)"
-},
-{
-"q": "Kloster",
-"expand": [
-"Mönche",
-"Nonnen",
-"Klostergut",
-"Klosterbesitz"
-],
-"note": "DE modern -> 1870 wording (words the book writes differently)"
-},
-{
-"q": "Ritterorden",
-"expand": [
-"Deutschen",
-"Orden",
-"Ritter"
 ],
 "note": "DE modern -> 1870 wording (words the book writes differently)"
 },
@@ -7544,14 +6980,6 @@
 "Hussiten",
 "Hussitenkrieg",
 "Aussig"
-],
-"note": "DE modern -> 1870 wording (words the book writes differently)"
-},
-{
-"q": "Befreiungskriege",
-"expand": [
-"Befreiungskriege",
-"Napoleon"
 ],
 "note": "DE modern -> 1870 wording (words the book writes differently)"
 },
@@ -7608,37 +7036,6 @@
 "Preußen",
 "Markgraf"
 ],
-"also": [
-"Brandenburger"
-],
-"note": "DE modern -> 1870 wording (words the book writes differently)"
-},
-{
-"q": "Burggraf",
-"expand": [
-"Burggraf",
-"Nürnberg",
-"Burggrafschaft"
-],
-"note": "DE modern -> 1870 wording (words the book writes differently)"
-},
-{
-"q": "Markgraf",
-"expand": [
-"Markgraf",
-"Meißen",
-"Markgrafschaft"
-],
-"note": "DE modern -> 1870 wording (words the book writes differently)"
-},
-{
-"q": "Wettiner",
-"expand": [
-"Markgrafen",
-"Meißen",
-"Sachsen",
-"Wettin"
-],
 "note": "DE modern -> 1870 wording (words the book writes differently)"
 },
 {
@@ -7655,6 +7052,614 @@
 "Kurbad"
 ],
 "note": "DE spa and place-name vocabulary"
+},
+{
+"q": "Akzise",
+"expand": [
+"Steuer",
+"Zoll",
+"Abgaben",
+"Gefälle"
+],
+"also": [
+"Accise"
+],
+"note": "DE additions (round 3)"
+},
+{
+"q": "Juden",
+"expand": [
+"Israeliten",
+"Judenkirchhof",
+"Judengemeinde",
+"Judenvertreibung"
+],
+"also": [
+"Judentum"
+],
+"note": "DE additions (round 3)"
+},
+{
+"q": "Wassermann",
+"expand": [
+"Nixen",
+"Nixensage"
+],
+"note": "DE additions (round 3)"
+},
+{
+"q": "Brot",
+"expand": [
+"Brod",
+"Brodbacken",
+"Brodtrog"
+],
+"note": "DE additions (round 3)"
+},
+{
+"q": "Maß",
+"expand": [
+"Maaß",
+"Längenmaaß",
+"Getreidemaaß"
+],
+"note": "DE additions (round 3)"
+},
+{
+"q": "Witwe",
+"expand": [
+"Wittwe",
+"Wittwenkasse",
+"Pfarrwittwenfiscus"
+],
+"also": [
+"Witwenkasse"
+],
+"note": "DE additions (round 3)"
+},
+{
+"q": "Hilfsverein",
+"expand": [
+"Hülfe",
+"Krankenhülfsvereine"
+],
+"also": [
+"Hilfskasse",
+"Unterstützungskasse"
+],
+"note": "DE additions (round 3)"
+},
+{
+"q": "Ahnenforschung",
+"expand": [
+"Stammtafel",
+"Kirchenbücher",
+"Familiennamen"
+],
+"also": [
+"Familienforschung",
+"Ahnen",
+"Stammbaum",
+"Genealogie"
+],
+"note": "DE additions (round 3)"
+},
+{
+"q": "Ortsgeschichte",
+"expand": [
+"Geschichte",
+"Chronik",
+"Ortschronik",
+"Gründung"
+],
+"also": [
+"Heimatgeschichte",
+"Ortschronik",
+"Stadtgeschichte",
+"Dorfgeschichte"
+],
+"note": "DE additions (round 3)"
+},
+{
+"q": "Sehenswürdigkeiten",
+"expand": [
+"Denkmal",
+"Alterthümer",
+"Grabdenkmal",
+"Gedenkstein"
+],
+"also": [
+"Baudenkmal",
+"Kulturdenkmal"
+],
+"note": "DE additions (round 3)"
+},
+{
+"q": "Burgruine",
+"expand": [
+"Ruine",
+"Burg",
+"Mauerrest",
+"Schloß"
+],
+"also": [
+"Ruine"
+],
+"note": "DE additions (round 3)"
+},
+{
+"q": "Naturlandschaft",
+"expand": [
+"Gegend",
+"Landschaft",
+"Thal",
+"Gebirge"
+],
+"note": "DE additions (round 3)"
+},
+{
+"q": "Pflanzenwelt",
+"expand": [
+"Flora",
+"Pflanzen",
+"Vegetation",
+"Gewächse"
+],
+"note": "DE additions (round 3)"
+},
+{
+"q": "Tierwelt",
+"expand": [
+"Thiere",
+"Thierwelt",
+"Fauna",
+"Wild"
+],
+"note": "DE additions (round 3)"
+},
+{
+"q": "Naturkatastrophen",
+"expand": [
+"Hochwasser",
+"Gewitter",
+"Sturm",
+"Hagel"
+],
+"also": [
+"Unwetter"
+],
+"note": "DE additions (round 3)"
+},
+{
+"q": "Industrialisierung",
+"expand": [
+"Industrie",
+"Fabrik",
+"Maschinen"
+],
+"note": "DE additions (round 3)"
+},
+{
+"q": "Zunft",
+"expand": [
+"Innung",
+"Handwerk",
+"Gewerbe"
+],
+"note": "DE additions (round 3)"
+},
+{
+"q": "Salzgewinnung",
+"expand": [
+"Saline",
+"Salz",
+"Soole",
+"Salzwerk"
+],
+"note": "DE additions (round 3)"
+},
+{
+"q": "Glasindustrie",
+"expand": [
+"Glashütte",
+"Porzellanfabrik",
+"Glas",
+"Porzellan"
+],
+"also": [
+"Porzellanindustrie"
+],
+"note": "DE additions (round 3)"
+},
+{
+"q": "Papierindustrie",
+"expand": [
+"Papiermühle",
+"Papier",
+"Buchdruckerei",
+"Fabrik"
+],
+"note": "DE additions (round 3)"
+},
+{
+"q": "Müllerei",
+"expand": [
+"Mühle",
+"Müller",
+"Mahlmühle"
+],
+"note": "DE additions (round 3)"
+},
+{
+"q": "Postwesen",
+"expand": [
+"Post",
+"Postamt",
+"Poststraße"
+],
+"note": "DE additions (round 3)"
+},
+{
+"q": "Telegrafie",
+"expand": [
+"Telegraph",
+"Telegraphenbureau",
+"Eisenbahn"
+],
+"note": "DE additions (round 3)"
+},
+{
+"q": "Gasbeleuchtung",
+"expand": [
+"Leuchtgas",
+"Straßenlaternen",
+"Gas"
+],
+"also": [
+"Straßenbeleuchtung"
+],
+"note": "DE additions (round 3)"
+},
+{
+"q": "Gesundheitswesen",
+"expand": [
+"Medicinalwesen",
+"Arzt",
+"Krankenhaus",
+"Gesundheit"
+],
+"also": [
+"Sanitätswesen"
+],
+"note": "DE additions (round 3)"
+},
+{
+"q": "Sozialwesen",
+"expand": [
+"Armenwesen",
+"Wohlthätigkeit",
+"Armenpflege",
+"Stiftungen"
+],
+"also": [
+"Fürsorge",
+"Wohlfahrt",
+"Sozialleistungen"
+],
+"note": "DE additions (round 3)"
+},
+{
+"q": "Altersversorgung",
+"expand": [
+"Pensionsanstalt",
+"Wittwenkasse",
+"Pension",
+"Emeritenfonds"
+],
+"also": [
+"Pension"
+],
+"note": "DE additions (round 3)"
+},
+{
+"q": "Krankenkasse",
+"expand": [
+"Krankenkassen",
+"Krankenunterstützungskasse",
+"Krankenhülfsvereine"
+],
+"note": "DE additions (round 3)"
+},
+{
+"q": "Kriminalität",
+"expand": [
+"Verbrechen",
+"Diebstahl",
+"Strafsachen"
+],
+"note": "DE additions (round 3)"
+},
+{
+"q": "Besatzung",
+"expand": [
+"Plünderung",
+"Brandschatzung",
+"Einquartierung",
+"Kriegsleiden"
+],
+"also": [
+"Einquartierung"
+],
+"note": "DE additions (round 3)"
+},
+{
+"q": "Kirchenorgel",
+"expand": [
+"Orgel",
+"Orgelbauer",
+"Kirche",
+"Kirchenbau"
+],
+"note": "DE additions (round 3)"
+},
+{
+"q": "Kirchenglocken",
+"expand": [
+"Glocke",
+"Glockengießer",
+"Glockengut"
+],
+"also": [
+"Glockenguss"
+],
+"note": "DE additions (round 3)"
+},
+{
+"q": "Schützenfest",
+"expand": [
+"Vogelschießen",
+"Schießhaus",
+"Schützen",
+"Schießen"
+],
+"also": [
+"Schützenverein"
+],
+"note": "DE additions (round 3)"
+},
+{
+"q": "Sprichwörter",
+"expand": [
+"Sprüche",
+"Sprichwort",
+"Reime",
+"Spottverse"
+],
+"also": [
+"Redensarten"
+],
+"note": "DE additions (round 3)"
+},
+{
+"q": "Gaststätte",
+"expand": [
+"Wirthshaus",
+"Gasthof",
+"Schenke",
+"Gasthaus"
+],
+"note": "DE additions (round 3)"
+},
+{
+"q": "Erwerbstätigkeit",
+"expand": [
+"Beruf",
+"Berufsklassen",
+"Erwerb",
+"Gewerbe"
+],
+"also": [
+"Berufstätigkeit",
+"Beschäftigung"
+],
+"note": "DE additions (round 3)"
+},
+{
+"q": "Dialektwörter",
+"expand": [
+"Wortliste",
+"Mundart",
+"Sprachproben",
+"Idiotismen"
+],
+"also": [
+"Mundartwörter",
+"Wörterbuch"
+],
+"note": "DE additions (round 3)"
+},
+{
+"q": "gravestone",
+"expand": [
+"Grabstein",
+"Leichensteine",
+"Grabdenkmal",
+"Gedenkstein"
+],
+"also": [
+"tombstone",
+"gravestonees",
+"gravestoness",
+"tombstonees",
+"tombstoness"
+],
+"note": "EN additions (round 3)"
+},
+{
+"q": "squire",
+"expand": [
+"Gutsherr",
+"Rittergutsbesitzer",
+"Rittergut",
+"Gutsbesitzer"
+],
+"also": [
+"squirees"
+],
+"note": "EN additions (round 3)"
+},
+{
+"q": "uprising",
+"expand": [
+"Aufruhr",
+"Bauernkrieg",
+"Revolte",
+"Aufstand"
+],
+"also": [
+"rebellion",
+"insurrection"
+],
+"note": "EN additions (round 3)"
+},
+{
+"q": "orchard",
+"expand": [
+"Obstbäume",
+"Obstgarten",
+"Obstbau",
+"Obstpflanzung"
+],
+"also": [
+"orchardss"
+],
+"note": "EN additions (round 3)"
+},
+{
+"q": "butter",
+"expand": [
+"Butter",
+"Milch",
+"Käse"
+],
+"note": "EN additions (round 3)"
+},
+{
+"q": "egg",
+"expand": [
+"Ei",
+"Eier",
+"Osterei"
+],
+"also": [
+"eggss"
+],
+"note": "EN additions (round 3)"
+},
+{
+"q": "monument",
+"expand": [
+"Denkmal",
+"Grabdenkmal",
+"Gedenkstein"
+],
+"also": [
+"memorial",
+"monumentss"
+],
+"note": "EN additions (round 3)"
+},
+{
+"q": "cross",
+"expand": [
+"Kreuz",
+"Steinkreuz",
+"qxqa",
+"qxqb"
+],
+"also": [
+"crossess"
+],
+"note": "EN additions (round 3) +pad"
+},
+{
+"q": "square",
+"expand": [
+"Marktplatz",
+"Platz",
+"Markt",
+"Gasse"
+],
+"also": [
+"marketplace",
+"squarees",
+"marketplacees"
+],
+"note": "EN additions (round 3)"
+},
+{
+"q": "gate",
+"expand": [
+"Thor",
+"Stadtthor"
+],
+"also": [
+"gatees",
+"gatess"
+],
+"note": "EN additions (round 3)"
+},
+{
+"q": "moat",
+"expand": [
+"Graben",
+"Wassergraben"
+],
+"also": [
+"ditch"
+],
+"note": "EN additions (round 3)"
+},
+{
+"q": "lightning",
+"expand": [
+"Blitz",
+"Blitzschlag",
+"Gewitter"
+],
+"note": "EN additions (round 3)"
+},
+{
+"q": "locust",
+"expand": [
+"Heuschrecken",
+"Heuschreckenschwärme",
+"Insecten",
+"qxqa"
+],
+"also": [
+"locustss"
+],
+"note": "EN additions (round 3) +pad"
+},
+{
+"q": "vermin",
+"expand": [
+"Ungeziefer",
+"Raupen",
+"Mäuse",
+"Schädlinge"
+],
+"note": "EN additions (round 3)"
+},
+{
+"q": "scarlet",
+"expand": [
+"Scharlach",
+"Masern",
+"Fieber"
+],
+"note": "EN additions (round 3)"
 },
 {
 "q": "Agnes",
@@ -7695,6 +7700,16 @@
 "qxqd"
 ],
 "note": "BLOCK auto noise: nordamerika"
+},
+{
+"q": "Armen",
+"expand": [
+"qxqa",
+"qxqb",
+"qxqc",
+"qxqd"
+],
+"note": "BLOCK auto noise: wapp,hilf,reuss"
 },
 {
 "q": "Arnshaugk",
@@ -7775,6 +7790,16 @@
 "qxqd"
 ],
 "note": "BLOCK auto noise: klo"
+},
+{
+"q": "Brandenburg",
+"expand": [
+"qxqa",
+"qxqb",
+"qxqc",
+"qxqd"
+],
+"note": "BLOCK auto noise: baireu"
 },
 {
 "q": "Braupfanne",
@@ -8107,6 +8132,16 @@
 "note": "BLOCK auto noise: bank"
 },
 {
+"q": "Gymnasium",
+"expand": [
+"qxqa",
+"qxqb",
+"qxqc",
+"qxqd"
+],
+"note": "BLOCK auto noise: gera,schleiz,gimnasialstipendie,gimnasiallehr"
+},
+{
 "q": "Gößnitz",
 "expand": [
 "qxqa",
@@ -8115,6 +8150,16 @@
 "qxqd"
 ],
 "note": "BLOCK auto noise: eisenbah"
+},
+{
+"q": "Groschen",
+"expand": [
+"qxqa",
+"qxqb",
+"qxqc",
+"qxqd"
+],
+"note": "BLOCK auto noise: 8100,schokk"
 },
 {
 "q": "Günther",
@@ -8377,6 +8422,26 @@
 "note": "BLOCK auto noise: alt,weihnachtsmann"
 },
 {
+"q": "Klima",
+"expand": [
+"qxqa",
+"qxqb",
+"qxqc",
+"qxqd"
+],
+"note": "BLOCK auto noise: klimavergleich"
+},
+{
+"q": "Kloster",
+"expand": [
+"qxqa",
+"qxqb",
+"qxqc",
+"qxqd"
+],
+"note": "BLOCK auto noise: tuchfabrik,tuchfabrikatio,kammwollstoff,tuchmanufaktur"
+},
+{
 "q": "Knecht",
 "expand": [
 "qxqa",
@@ -8427,6 +8492,16 @@
 "note": "BLOCK auto noise: bier,bad,paragium,rentam"
 },
 {
+"q": "Kraft",
+"expand": [
+"qxqa",
+"qxqb",
+"qxqc",
+"qxqd"
+],
+"note": "BLOCK auto noise: handwerk"
+},
+{
 "q": "Kresse",
 "expand": [
 "qxqa",
@@ -8455,6 +8530,16 @@
 "qxqd"
 ],
 "note": "BLOCK auto noise: flur,grundsteur,landesvermessung,1854"
+},
+{
+"q": "Landrath",
+"expand": [
+"qxqa",
+"qxqb",
+"qxqc",
+"qxqd"
+],
+"note": "BLOCK auto noise: landratsbezirk"
 },
 {
 "q": "Langenberg",
@@ -8687,6 +8772,16 @@
 "note": "BLOCK auto noise: martinsga"
 },
 {
+"q": "mit",
+"expand": [
+"qxqa",
+"qxqb",
+"qxqc",
+"qxqd"
+],
+"note": "BLOCK auto noise: volksmi"
+},
+{
 "q": "Moos",
 "expand": [
 "qxqa",
@@ -8735,6 +8830,16 @@
 "qxqd"
 ],
 "note": "BLOCK auto noise: henn"
+},
+{
+"q": "Napoleon",
+"expand": [
+"qxqa",
+"qxqb",
+"qxqc",
+"qxqd"
+],
+"note": "BLOCK auto noise: 1806"
 },
 {
 "q": "Naumburg",
@@ -8805,6 +8910,16 @@
 "qxqd"
 ],
 "note": "BLOCK auto noise: verna"
+},
+{
+"q": "nun",
+"expand": [
+"qxqa",
+"qxqb",
+"qxqc",
+"qxqd"
+],
+"note": "BLOCK auto noise: nonn,zisterzienserinn"
 },
 {
 "q": "Organisation",
@@ -8937,6 +9052,36 @@
 "note": "BLOCK auto noise: heinrich"
 },
 {
+"q": "Preise",
+"expand": [
+"qxqa",
+"qxqb",
+"qxqc",
+"qxqd"
+],
+"note": "BLOCK auto noise: raubvogel"
+},
+{
+"q": "Realschule",
+"expand": [
+"qxqa",
+"qxqb",
+"qxqc",
+"qxqd"
+],
+"note": "BLOCK auto noise: gera"
+},
+{
+"q": "Reformation",
+"expand": [
+"qxqa",
+"qxqb",
+"qxqc",
+"qxqd"
+],
+"note": "BLOCK auto noise: 1529"
+},
+{
 "q": "Reichenfels",
 "expand": [
 "qxqa",
@@ -8955,6 +9100,16 @@
 "qxqd"
 ],
 "note": "BLOCK auto noise: linie,furstentum,jung,nam"
+},
+{
+"q": "Gerichte",
+"expand": [
+"qxqa",
+"qxqb",
+"qxqc",
+"qxqd"
+],
+"note": "BLOCK auto noise: reich,kirch,heinrich,der"
 },
 {
 "q": "Roben",
@@ -9127,6 +9282,16 @@
 "note": "BLOCK auto noise: drei,soh"
 },
 {
+"q": "Stadt",
+"expand": [
+"qxqa",
+"qxqb",
+"qxqc",
+"qxqd"
+],
+"note": "BLOCK auto noise: staatenvergleich,staatshaushal,staatsvertrag,1868"
+},
+{
 "q": "Stall",
 "expand": [
 "qxqa",
@@ -9165,6 +9330,16 @@
 "qxqd"
 ],
 "note": "BLOCK auto noise: sommermittel,altweibersomm"
+},
+{
+"q": "Thaler",
+"expand": [
+"qxqa",
+"qxqb",
+"qxqc",
+"qxqd"
+],
+"note": "BLOCK auto noise: dreissigtalerfuss"
 },
 {
 "q": "Tanna",

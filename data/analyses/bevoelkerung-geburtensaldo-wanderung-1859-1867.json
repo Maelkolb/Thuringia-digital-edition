@@ -34,7 +34,7 @@
  ],
  "summary": {
   "de": "Brückner stellt für 1859–1867 die Geborenen und Gestorbenen jedes Jahres den Zählungsergebnissen gegenüber und leitet daraus für drei Dreijahreszeiträume den Wanderungssaldo ab (»mehr ausgewandert als eingewandert«). Im ganzen Fürstentum standen einem Geburtenüberschuss von 9 312 Personen nur 6 168 mehr Einwohner gegenüber; der Unterschied von 3 144 Personen (34 %) wird als Netto-Auswanderung gedeutet, am stärksten in Lobenstein-Ebersdorf.",
-  "en": "For 1859–1867 Brückner sets the births and deaths of each year against the census results and derives the migration balance for three three-year periods (“more emigrated than immigrated”). In the whole principality a birth surplus of 9,312 persons was matched by an increase of only 6,168 inhabitants; the difference of 3,144 persons (34 %) is interpreted as net emigration, strongest in Lobenstein-Ebersdorf."
+  "en": "For 1859–1867 Brückner sets the births and deaths of each year against the census results and derives the migration balance for three three-year periods (“more emigrated than immigrated”). In the whole principality a birth surplus of 9,312 persons was matched by an increase of only 6,168 inhabitants; the difference of 3,144 persons (34%) is interpreted as net emigration, strongest in Lobenstein-Ebersdorf."
  },
  "method": {
   "de": "Übernommen wurden die Geborenen und Gestorbenen je Jahr und Bezirk sowie Brückners Dreijahresspalten (»Mehr Geborene als Gestorbene«, »Zunahme der Bevölkerung«, »Mehr ausgewandert als eingewandert«; S. 98–99, über zwei Seiten verteilt). Die Dreijahreswerte stehen in der ersten Zeile jeder Periode (1859, 1862, 1865). Kontrolle: Die Summe der Geborenen minus Gestorbenen über drei Jahre ergibt in allen 12 Fällen den gedruckten Geburtenüberschuss, Überschuss minus Zunahme den gedruckten Wanderungssaldo, die Bezirke summieren sich zum Fürstentum, und die Zunahme entspricht der Differenz der Zählungen 1858–61–64–67 (S. 91–92). Abgeleitet wurden der Wanderungssaldo mit Vorzeichen (negativ = Auswanderungsüberschuss) und drei Raten je 1000 Einwohner und Jahr, bezogen auf die mittlere Bevölkerung (Mittel der beiden Zählungen, die den Zeitraum einschließen).",
@@ -55,7 +55,7 @@
   },
   {
    "de": "Über die neun Jahre summiert, verlor das Fürstentum durch Wanderung 3 144 Personen, das sind 34 % des Geburtenüberschusses von 9 312: Lobenstein-Ebersdorf 2 414, Schleiz 1 145; Gera dagegen gewann per Saldo 415 Personen.",
-   "en": "Summed over the nine years, the principality lost 3,144 persons by migration, i.e. 34 % of the birth surplus of 9,312: Lobenstein-Ebersdorf 2,414, Schleiz 1,145; Gera, by contrast, gained 415 persons on balance."
+   "en": "Summed over the nine years, the principality lost 3,144 persons by migration, i.e. 34% of the birth surplus of 9,312: Lobenstein-Ebersdorf 2,414, Schleiz 1,145; Gera, by contrast, gained 415 persons on balance."
   }
  ],
  "caveats": [
@@ -322,63 +322,63 @@
      189
     ],
     [
-     "Fürstenthum",
+     "Fürstentum",
      1859,
      3309,
      2165,
      1144
     ],
     [
-     "Fürstenthum",
+     "Fürstentum",
      1860,
      3216,
      2023,
      1193
     ],
     [
-     "Fürstenthum",
+     "Fürstentum",
      1861,
      3169,
      2312,
      857
     ],
     [
-     "Fürstenthum",
+     "Fürstentum",
      1862,
      3211,
      2170,
      1041
     ],
     [
-     "Fürstenthum",
+     "Fürstentum",
      1863,
      3411,
      2256,
      1155
     ],
     [
-     "Fürstenthum",
+     "Fürstentum",
      1864,
      3387,
      2244,
      1143
     ],
     [
-     "Fürstenthum",
+     "Fürstentum",
      1865,
      3513,
      2697,
      816
     ],
     [
-     "Fürstenthum",
+     "Fürstentum",
      1866,
      3620,
      2633,
      987
     ],
     [
-     "Fürstenthum",
+     "Fürstentum",
      1867,
      3512,
      2536,
@@ -724,7 +724,7 @@
      -2.16
     ],
     [
-     "Fürstenthum",
+     "Fürstentum",
      "1859–1861",
      1859,
      1861,
@@ -742,7 +742,7 @@
      6.27
     ],
     [
-     "Fürstenthum",
+     "Fürstentum",
      "1862–1864",
      1862,
      1864,
@@ -760,7 +760,7 @@
      12.22
     ],
     [
-     "Fürstenthum",
+     "Fürstentum",
      "1865–1867",
      1865,
      1867,
@@ -818,7 +818,7 @@
     "height": 360,
     "transform": [
      {
-      "filter": "datum.district != 'Fürstenthum'"
+      "filter": "datum.district != 'Fürstentum'"
      },
      {
       "fold": [
@@ -1055,8 +1055,8 @@
     "transform": [
      {
       "calculate": {
-       "de": "({'Gera':'Gera','Schleiz':'Schleiz','Lobenstein-Ebersdorf':'Lobenstein-Ebersdorf','Fürstenthum':'Fürstenthum'})[datum.district]",
-       "en": "({'Gera':'Gera','Schleiz':'Schleiz','Lobenstein-Ebersdorf':'Lobenstein-Ebersdorf','Fürstenthum':'Principality'})[datum.district]"
+       "de": "({'Gera':'Gera','Schleiz':'Schleiz','Lobenstein-Ebersdorf':'Lobenstein-Ebersdorf','Fürstentum':'Fürstentum'})[datum.district]",
+       "en": "({'Gera':'Gera','Schleiz':'Schleiz','Lobenstein-Ebersdorf':'Lobenstein-Ebersdorf','Fürstentum':'Principality'})[datum.district]"
       },
       "as": "district_label"
      }
@@ -1089,7 +1089,7 @@
         "Gera",
         "Schleiz",
         "Lobenstein-Ebersdorf",
-        "Fürstenthum"
+        "Fürstentum"
        ]
       }
      },
@@ -1109,14 +1109,14 @@
         "Gera",
         "Schleiz",
         "Lobenstein-Ebersdorf",
-        "Fürstenthum"
+        "Fürstentum"
        ]
       },
       "legend": {
        "title": null,
        "labelExpr": {
         "de": "datum.label",
-        "en": "datum.label == 'Fürstenthum' ? 'Principality' : datum.label"
+        "en": "datum.label == 'Fürstentum' ? 'Principality' : datum.label"
        },
        "labelLimit": 260
       }

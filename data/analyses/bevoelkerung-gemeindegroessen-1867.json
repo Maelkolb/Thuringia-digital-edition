@@ -28,24 +28,24 @@
  ],
  "summary": {
   "de": "Brückner verteilt die 173 politischen Gemeinden des Fürstentums nach ihrer Einwohnerzahl auf Größenklassen, getrennt nach Landratsbezirken. 159 Gemeinden haben weniger als 1000 Einwohner, nur 14 mehr; dennoch leben knapp 49 % der Bevölkerung in den größeren Orten, allein 18,5 % in der Stadt Gera.",
-  "en": "Brückner distributes the 173 political municipalities of the principality over size classes by population, separately for the districts. 159 municipalities have fewer than 1,000 inhabitants and only 14 have more; nevertheless almost 49 % of the population live in the larger places, 18.5 % in the town of Gera alone."
+  "en": "Brückner distributes the 173 political municipalities of the principality over size classes by population, separately for the districts. 159 municipalities have fewer than 1,000 inhabitants and only 14 have more; nevertheless almost 49% of the population live in the larger places, 18.5% in the town of Gera alone."
  },
  "method": {
   "de": "Aus der Tabelle auf S. 98 wurden je Bezirk und Größenklasse die Zahl der Gemeinden und ihre Volksmenge übernommen; die Zellen enthalten untereinander beide Zahlen. Leere Klassen (»—«) bleiben ohne Wert. Brückners Klassengrenzen überlappen in der Schreibung (»500 bis 1000«, »1000 bis 2000«); die Zuordnung der Grenzwerte ist nicht angegeben. Abgeleitet wurde der Anteil der Gemeinden je Klasse an allen 173 Gemeinden; die gedruckten Prozentzahlen der Volksmenge und die Seelenzahl je Gemeinde wurden übernommen und gegen Volksmenge : Gesamtbevölkerung geprüft (alle Werte stimmen). Die Zeilen- und Spaltensummen sowie die Summe der drei Bezirke gleich der Zeile »Fürstenthum« wurden mit Python kontrolliert und stimmen.",
-  "en": "From the table on p. 98 the number of municipalities and their population were taken for each district and size class; the cells contain both numbers one below the other. Empty classes (“—”) are left without a value. Brückner’s class limits overlap in print (“500 to 1000”, “1000 to 2000”); the assignment of boundary values is not stated. Derived is the share of municipalities per class in all 173 municipalities; the printed percentages of the population and the persons per municipality were taken over and checked against population ÷ total population (all values agree). Row and column sums and the equality of the three districts' sum with the “principality” row were checked in Python and agree."
+  "en": "From the table on p. 98 the number of municipalities and their population were taken for each district and size class; the cells contain both numbers one below the other. Empty classes (“—”) are left without a value. Brückner’s class limits overlap in print (“500 to 1000”, “1000 to 2000”); the assignment of boundary values is not stated. Derived is the share of municipalities per class in all 173 municipalities; the printed percentages of the population and the persons per municipality were taken over and checked against population ÷ total population (all values agree). Row and column sums and the equality of the three districts’ sum with the “principality” row were checked in Python and agree."
  },
  "findings": [
   {
    "de": "159 der 173 Gemeinden (91,9 %) haben weniger als 1000 Einwohner und vereinen 45 044 Personen (51,2 %); 142 Gemeinden zählen höchstens 500 Seelen (im Mittel 238,7).",
-   "en": "159 of the 173 municipalities (91.9 %) have fewer than 1,000 inhabitants and together hold 45,044 persons (51.2 %); 142 municipalities have at most 500 souls (on average 238.7)."
+   "en": "159 of the 173 municipalities (91.9%) have fewer than 1,000 inhabitants and together hold 45,044 persons (51.2%); 142 municipalities have at most 500 souls (on average 238.7)."
   },
   {
    "de": "Die 14 Gemeinden über 1000 Einwohner (8,1 % der Gemeinden) umfassen 42 930 Einwohner (48,8 %); Brückner vergleicht diese Zahl mit dem Fürstentum Reuß ä. L. (43 889 Einwohner).",
-   "en": "The 14 municipalities of over 1,000 inhabitants (8.1 % of the municipalities) comprise 42,930 inhabitants (48.8 %); Brückner compares this figure with the Principality of Reuss (elder line, 43,889 inhabitants)."
+   "en": "The 14 municipalities of over 1,000 inhabitants (8.1% of the municipalities) comprise 42,930 inhabitants (48.8%); Brückner compares this figure with the Principality of Reuss (elder line, 43,889 inhabitants)."
   },
   {
    "de": "Zwischen 5000 und 16 000 Einwohnern gibt es keine Gemeinde: Auf die Stadt Gera (16 283) folgt Schleiz mit 4 953; im Bezirk Gera sind 87,7 % der Gemeinden kleiner als 500 Einwohner, in Schleiz 78,3 %, in Lobenstein-Ebersdorf 76,1 %.",
-   "en": "There is no municipality between 5,000 and 16,000 inhabitants: the town of Gera (16,283) is followed by Schleiz with 4,953; in the Gera district 87.7 % of the municipalities have fewer than 500 inhabitants, in Schleiz 78.3 %, in Lobenstein-Ebersdorf 76.1 %."
+   "en": "There is no municipality between 5,000 and 16,000 inhabitants: the town of Gera (16,283) is followed by Schleiz with 4,953; in the Gera district 87.7% of the municipalities have fewer than 500 inhabitants, in Schleiz 78.3%, in Lobenstein-Ebersdorf 76.1%."
   }
  ],
  "caveats": [
@@ -618,7 +618,7 @@
        "title": null,
        "labelExpr": {
         "de": "datum.label",
-        "en": "datum.label == 'Fürstenthum' ? 'Principality' : datum.label"
+        "en": "datum.label == 'Fürstentum' ? 'Principality' : datum.label"
        },
        "labelLimit": 260
       }

@@ -54,12 +54,6 @@
    "geonames": 2803470,
    "source": "entity decision"
   },
-  "lusan": {
-   "lat": 50.84372,
-   "lon": 12.06517,
-   "geonames": 2875019,
-   "source": "entity decision"
-  },
   "oberroeppisch": {
    "lat": 50.83333,
    "lon": 12.06667,
@@ -240,12 +234,6 @@
    "geonames": 2953417,
    "source": "entity decision"
   },
-  "etzdorf": {
-   "lat": 50.97696,
-   "lon": 11.94294,
-   "geonames": 2928595,
-   "source": "GeoNames name match"
-  },
   "eleonorenthal": {
    "lat": 50.91667,
    "lon": 11.98333,
@@ -282,12 +270,6 @@
    "geonames": 2825503,
    "source": "entity decision"
   },
-  "langenberg": {
-   "lat": 50.92163,
-   "lon": 12.05707,
-   "geonames": 2881168,
-   "source": "entity decision"
-  },
   "roben": {
    "lat": 50.94254,
    "lon": 12.05413,
@@ -299,12 +281,6 @@
    "lon": 12.04211,
    "geonames": 2828351,
    "source": "entity decision"
-  },
-  "lichtenau": {
-   "lat": 50.75696,
-   "lon": 11.69744,
-   "geonames": 2878134,
-   "source": "GeoNames name match"
   },
   "rusitz": {
    "lat": 50.93599,
@@ -329,12 +305,6 @@
    "lon": 12.09221,
    "geonames": 2889820,
    "source": "entity decision"
-  },
-  "reichenbach": {
-   "lat": 50.86861,
-   "lon": 11.87801,
-   "geonames": 2849152,
-   "source": "GeoNames name match"
   },
   "seeligenstaedt": {
    "lat": 50.94686,
@@ -406,12 +376,6 @@
    "lat": 50.92132,
    "lon": 12.16613,
    "geonames": 2815794,
-   "source": "entity decision"
-  },
-  "culm": {
-   "lat": 50.50727,
-   "lon": 11.75415,
-   "geonames": 2882590,
    "source": "entity decision"
   },
   "zschippach": {
@@ -660,12 +624,6 @@
    "geonames": 2887971,
    "source": "entity decision"
   },
-  "saalburg": {
-   "lat": 50.50241,
-   "lon": 11.73176,
-   "geonames": 2842706,
-   "source": "entity decision"
-  },
   "wettera": {
    "lat": 50.51941,
    "lon": 11.75044,
@@ -706,12 +664,6 @@
    "lat": 50.4946,
    "lon": 11.85725,
    "geonames": 2824227,
-   "source": "entity decision"
-  },
-  "dittersdorf-tanna": {
-   "lat": 50.65,
-   "lon": 11.81667,
-   "geonames": 2936738,
    "source": "entity decision"
   },
   "frankendorf": {
@@ -785,12 +737,6 @@
    "lon": 11.71693,
    "geonames": 2852601,
    "source": "entity decision"
-  },
-  "hohendorf": {
-   "lat": 50.39119,
-   "lon": 11.89637,
-   "geonames": 3207400,
-   "source": "GeoNames name match"
   },
   "ebersdorf": {
    "lat": 50.48461,
@@ -960,12 +906,6 @@
    "geonames": 2890957,
    "source": "entity decision"
   },
-  "platte": {
-   "lat": 50.75,
-   "lon": 11.28333,
-   "geonames": 2853365,
-   "source": "GeoNames name match"
-  },
   "harra": {
    "lat": 50.41667,
    "lon": 11.68333,
@@ -1061,6 +1001,54 @@
    "lon": 11.9068,
    "geonames": 2844154,
    "source": "entity decision"
+  },
+  "lusan": {
+   "lat": 50.84372,
+   "lon": 12.06517,
+   "geonames": 2875019,
+   "source": "GeoNames name match within district"
+  },
+  "etzdorf": {
+   "lat": 50.97696,
+   "lon": 11.94294,
+   "geonames": 2928595,
+   "source": "GeoNames name match within district"
+  },
+  "langenberg": {
+   "lat": 50.92163,
+   "lon": 12.05707,
+   "geonames": 2881168,
+   "source": "GeoNames name match within district"
+  },
+  "reichenbach": {
+   "lat": 50.86861,
+   "lon": 11.87801,
+   "geonames": 2849152,
+   "source": "GeoNames name match within district"
+  },
+  "saalburg": {
+   "lat": 50.50241,
+   "lon": 11.73176,
+   "geonames": 2842706,
+   "source": "GeoNames name match within district"
+  },
+  "wernsdorf-schleiz": {
+   "lat": 50.50482,
+   "lon": 11.77566,
+   "geonames": 2810786,
+   "source": "GeoNames name match within district"
+  },
+  "dittersdorf-tanna": {
+   "lat": 50.65,
+   "lon": 11.81667,
+   "geonames": 2936738,
+   "source": "GeoNames name match within district"
+  },
+  "hohendorf": {
+   "lat": 50.39119,
+   "lon": 11.89637,
+   "geonames": 3207400,
+   "source": "GeoNames name match within district"
   }
  },
  "missing": [
@@ -1078,12 +1066,14 @@
   "Eschewinsdorf",
   "Heinrichshall",
   "Chemische Fabrik",
+  "Lichtenau",
   "Rosenhof",
   "Hermannsdorf",
   "Rödel",
   "Goldener Kranich",
   "Wolstieg",
   "Betzdorf",
+  "Culm",
   "Wüstenhain",
   "Werteln",
   "Zoche",
@@ -1102,6 +1092,7 @@
   "Hermannsdorf",
   "Alte Klause",
   "Traundorf",
-  "Wüstenheinersdorf"
+  "Wüstenheinersdorf",
+  "Platte"
  ]
 }

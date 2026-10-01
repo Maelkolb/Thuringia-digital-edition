@@ -67,15 +67,15 @@
  "findings": [
   {
    "de": "Die Zahl der Rittergüter sank von 72 (1647, alle in adligem Besitz) auf 41 (1867), also um 43 %; am stärksten in Schleiz (62 %) und Lobenstein-Ebersdorf (59 %), am schwächsten in Gera (24 %).",
-   "en": "The number of manors fell from 72 (1647, all in noble hands) to 41 (1867), i.e. by 43 %; most in Schleiz (62 %) and Lobenstein-Ebersdorf (59 %), least in Gera (24 %)."
+   "en": "The number of manors fell from 72 (1647, all in noble hands) to 41 (1867), i.e. by 43%; most in Schleiz (62%) and Lobenstein-Ebersdorf (59%), least in Gera (24%)."
   },
   {
    "de": "1867 sind 25 der 41 Rittergüter in bürgerlichem Besitz (61 %), 9 bei Adligen und 7 bei Mitgliedern des Fürstenhauses; in Lobenstein-Ebersdorf gehören 8 von 9 Gütern Bürgerlichen.",
-   "en": "In 1867, 25 of the 41 manors are in bourgeois hands (61 %), 9 belong to nobles and 7 to members of the princely house; in Lobenstein-Ebersdorf 8 of 9 estates belong to commoners."
+   "en": "In 1867, 25 of the 41 manors are in bourgeois hands (61%), 9 belong to nobles and 7 to members of the princely house; in Lobenstein-Ebersdorf 8 of 9 estates belong to commoners."
   },
   {
    "de": "Ende Juli 1867 waren jährliche Ablösungsrenten von 24317 Thlr. 9 Sgr. überwiesen; davon entfallen 53,3 % auf Lobenstein-Ebersdorf, das nur 26,0 % der Bevölkerung stellt, und 20,3 % auf Gera (42,6 % der Bevölkerung). Brückner bemerkt dazu, dass ein großer Teil der Ablösungen, namentlich in Gera, durch Kapitalabfindung ohne Landrentenbank erfolgte.",
-   "en": "At the end of July 1867 annual redemption rents of 24317 Thlr. 9 Sgr. had been assigned; 53.3 % of this fall on Lobenstein-Ebersdorf, which has only 26.0 % of the population, and 20.3 % on Gera (42.6 % of the population). Brückner remarks that a large part of the redemptions, notably in Gera, was settled by capital payment without the land annuity bank."
+   "en": "At the end of July 1867 annual redemption rents of 24317 Thlr. 9 Sgr. had been assigned; 53.3% of this fall on Lobenstein-Ebersdorf, which has only 26.0% of the population, and 20.3% on Gera (42.6% of the population). Brückner remarks that a large part of the redemptions, notably in Gera, was settled by capital payment without the land annuity bank."
   },
   {
    "de": "Von den 10 datierten Gutszerschlagungen fallen 6 in die Jahre 1829–1847; die Reformgesetze folgen von 1836 (Lobenstein-Ebersdorf) über 1838 (Gera) und 1842–45 (Schleiz) bis zum einheitlichen Gesetz von 1858 und der Novelle von 1864.",
@@ -346,7 +346,7 @@
      "Lobenstein-Ebersdorf 1867"
     ],
     [
-     "Fürstenthum",
+     "Fürstentum",
      "Principality",
      4,
      1647,
@@ -354,11 +354,11 @@
      "Nobility",
      1,
      72,
-     "Fürstenthum 1647",
+     "Fürstentum 1647",
      "Principality 1647"
     ],
     [
-     "Fürstenthum",
+     "Fürstentum",
      "Principality",
      4,
      1867,
@@ -366,11 +366,11 @@
      "Nobility",
      1,
      9,
-     "Fürstenthum 1867",
+     "Fürstentum 1867",
      "Principality 1867"
     ],
     [
-     "Fürstenthum",
+     "Fürstentum",
      "Principality",
      4,
      1867,
@@ -378,11 +378,11 @@
      "Commoners",
      2,
      25,
-     "Fürstenthum 1867",
+     "Fürstentum 1867",
      "Principality 1867"
     ],
     [
-     "Fürstenthum",
+     "Fürstentum",
      "Principality",
      4,
      1867,
@@ -390,7 +390,7 @@
      "Princely house",
      3,
      7,
-     "Fürstenthum 1867",
+     "Fürstentum 1867",
      "Principality 1867"
     ]
    ],
@@ -548,7 +548,7 @@
      0.58
     ],
     [
-     "Fürstenthum",
+     "Fürstentum",
      "Principality",
      4,
      24317,
@@ -802,7 +802,7 @@
      1849,
      1849,
      null,
-     "Fürstenthum",
+     "Fürstentum",
      "Principality",
      null
     ],
@@ -818,7 +818,7 @@
      1858,
      1858,
      "1858-01-15",
-     "Fürstenthum",
+     "Fürstentum",
      "Principality",
      20
     ],
@@ -834,7 +834,7 @@
      1860,
      1860,
      "1860-10-08",
-     "Fürstenthum",
+     "Fürstentum",
      "Principality",
      null
     ],
@@ -850,7 +850,7 @@
      1864,
      1864,
      "1864-07-16",
-     "Fürstenthum",
+     "Fürstentum",
      "Principality",
      null
     ],
@@ -866,7 +866,7 @@
      1866,
      1866,
      "1866-04-30",
-     "Fürstenthum",
+     "Fürstentum",
      "Principality",
      null
     ],
@@ -1392,7 +1392,7 @@
         },
         "title": null,
         "axis": {
-         "labelLimit": 260
+         "labelLimit": 340
         }
        },
        "x": {
@@ -1465,7 +1465,7 @@
         },
         "title": null,
         "axis": {
-         "labelLimit": 260
+         "labelLimit": 340
         }
        },
        "x": {

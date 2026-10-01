@@ -40,7 +40,7 @@
   },
   {
    "de": "Gera fällt heraus: In der Stadt wohnen im Mittel 14,99 Personen in 3,19 Familien in einem Haus, in den Städten von Schleiz (8,78) und Lobenstein-Ebersdorf (8,92) sind es knapp 9. Brückner erklärt dies mit der größeren Stockwerkzahl der Geraer Häuser.",
-   "en": "Gera stands out: in the town an average of 14.99 persons in 3.19 families share a house, in the towns of Schleiz (8.78) and Lobenstein-Ebersdorf (8.92) it is just under 9. Brückner explains this by the greater number of storeys of Gera’s houses."
+   "en": "Gera stands out: in the town an average of 14.99 persons in 3.19 families share a house, in the towns of Schleiz (8.78) and Lobenstein-Ebersdorf (8.92) it is just under 9. Brückner explains this by the greater number of stories of Gera’s houses."
   },
   {
    "de": "Je □Meile stehen im Fürstentum 727,9 Häuser, im Bezirk Gera 998,0, in Lobenstein-Ebersdorf 638,4 und in Schleiz 621,5. Mehr Häuser je □Meile als das Fürstentum haben Belgien (1 556) und Sachsen (869), weniger Coburg-Gotha (665), Baden (647), Württemberg (613), beide Schwarzburg (573) und Bayern (447); der Bezirk Gera allein übertrifft Sachsen.",
@@ -189,21 +189,21 @@
      7.0
     ],
     [
-     "Fürstenthum",
+     "Fürstentum",
      "Städte",
      2556,
      2.51,
      11.51
     ],
     [
-     "Fürstenthum",
+     "Fürstentum",
      "Landorte",
      8406,
      1.48,
      6.96
     ],
     [
-     "Fürstenthum",
+     "Fürstentum",
      "Zusammen",
      10962,
      1.72,
@@ -285,7 +285,7 @@
      11.6
     ],
     [
-     "Fürstenthum",
+     "Fürstentum",
      "Reuß j. L.",
      727.9,
      13.2
@@ -393,7 +393,7 @@
      6.73
     ],
     [
-     "Fürstenthum Reuß j. L.",
+     "Fürstentum Reuß j. L.",
      "Reuß j. L.",
      8.02
     ],
@@ -433,8 +433,8 @@
     "transform": [
      {
       "calculate": {
-       "de": "({'Gera':'Gera','Schleiz':'Schleiz','Lobenstein-Ebersdorf':'Lobenstein-Ebersdorf','Fürstenthum':'Fürstenthum'})[datum.district]",
-       "en": "({'Gera':'Gera','Schleiz':'Schleiz','Lobenstein-Ebersdorf':'Lobenstein-Ebersdorf','Fürstenthum':'Principality'})[datum.district]"
+       "de": "({'Gera':'Gera','Schleiz':'Schleiz','Lobenstein-Ebersdorf':'Lobenstein-Ebersdorf','Fürstentum':'Fürstentum'})[datum.district]",
+       "en": "({'Gera':'Gera','Schleiz':'Schleiz','Lobenstein-Ebersdorf':'Lobenstein-Ebersdorf','Fürstentum':'Principality'})[datum.district]"
       },
       "as": "district_label"
      }
@@ -450,14 +450,14 @@
         "Gera",
         "Schleiz",
         "Lobenstein-Ebersdorf",
-        "Fürstenthum"
+        "Fürstentum"
        ]
       },
       "axis": {
        "labelAngle": 0,
        "labelExpr": {
         "de": "datum.label",
-        "en": "datum.label == 'Fürstenthum' ? 'Principality' : datum.label"
+        "en": "datum.label == 'Fürstentum' ? 'Principality' : datum.label"
        }
       }
      },
@@ -557,8 +557,8 @@
     "transform": [
      {
       "calculate": {
-       "de": "({'Gera':'Gera','Schleiz':'Schleiz','Lobenstein-Ebersdorf':'Lobenstein-Ebersdorf','Fürstenthum':'Fürstenthum'})[datum.district]",
-       "en": "({'Gera':'Gera','Schleiz':'Schleiz','Lobenstein-Ebersdorf':'Lobenstein-Ebersdorf','Fürstenthum':'Principality'})[datum.district]"
+       "de": "({'Gera':'Gera','Schleiz':'Schleiz','Lobenstein-Ebersdorf':'Lobenstein-Ebersdorf','Fürstentum':'Fürstentum'})[datum.district]",
+       "en": "({'Gera':'Gera','Schleiz':'Schleiz','Lobenstein-Ebersdorf':'Lobenstein-Ebersdorf','Fürstentum':'Principality'})[datum.district]"
       },
       "as": "district_label"
      }
@@ -574,14 +574,14 @@
         "Gera",
         "Schleiz",
         "Lobenstein-Ebersdorf",
-        "Fürstenthum"
+        "Fürstentum"
        ]
       },
       "axis": {
        "labelAngle": 0,
        "labelExpr": {
         "de": "datum.label",
-        "en": "datum.label == 'Fürstenthum' ? 'Principality' : datum.label"
+        "en": "datum.label == 'Fürstentum' ? 'Principality' : datum.label"
        }
       }
      },
@@ -673,8 +673,8 @@
     "transform": [
      {
       "calculate": {
-       "de": "({'Gera':'Bezirk Gera','Schleiz':'Bezirk Schleiz','Lobenstein-Ebersdorf':'Bezirk Lobenstein-Ebersdorf','Fürstenthum':'Reuß j. L. (Fürstenthum)','Belgien':'Belgien','Baden':'Baden','Sachsen':'Sachsen','Württemberg':'Württemberg','Beide Schwarzburg':'Beide Schwarzburg','Coburg-Gotha':'Coburg-Gotha','Bayern':'Bayern'})[datum.place]",
-       "en": "({'Gera':'Gera district','Schleiz':'Schleiz district','Lobenstein-Ebersdorf':'Lobenstein-Ebersdorf district','Fürstenthum':'Reuss j. L. (principality)','Belgien':'Belgium','Baden':'Baden','Sachsen':'Saxony','Württemberg':'Württemberg','Beide Schwarzburg':'Both Schwarzburgs','Coburg-Gotha':'Coburg-Gotha','Bayern':'Bavaria'})[datum.place]"
+       "de": "({'Gera':'Bezirk Gera','Schleiz':'Bezirk Schleiz','Lobenstein-Ebersdorf':'Bezirk Lobenstein-Ebersdorf','Fürstentum':'Reuß j. L. (Fürstentum)','Belgien':'Belgien','Baden':'Baden','Sachsen':'Sachsen','Württemberg':'Württemberg','Beide Schwarzburg':'Beide Schwarzburg','Coburg-Gotha':'Coburg-Gotha','Bayern':'Bayern'})[datum.place]",
+       "en": "({'Gera':'Gera district','Schleiz':'Schleiz district','Lobenstein-Ebersdorf':'Lobenstein-Ebersdorf district','Fürstentum':'Reuss j. L. (principality)','Belgien':'Belgium','Baden':'Baden','Sachsen':'Saxony','Württemberg':'Württemberg','Beide Schwarzburg':'Both Schwarzburgs','Coburg-Gotha':'Coburg-Gotha','Bayern':'Bavaria'})[datum.place]"
       },
       "as": "place_label"
      }
@@ -759,8 +759,8 @@
     "transform": [
      {
       "calculate": {
-       "de": "({'Thüringen (Durchschnitt)':'Thüringen (Durchschnitt)','Bayern':'Bayern','Fürstenthum Reuß j. L.':'Reuß j. L.','Sachsen':'Sachsen'})[datum.region]",
-       "en": "({'Thüringen (Durchschnitt)':'Thuringia (average)','Bayern':'Bavaria','Fürstenthum Reuß j. L.':'Reuss j. L.','Sachsen':'Saxony'})[datum.region]"
+       "de": "({'Thüringen (Durchschnitt)':'Thüringen (Durchschnitt)','Bayern':'Bayern','Fürstentum Reuß j. L.':'Reuß j. L.','Sachsen':'Sachsen'})[datum.region]",
+       "en": "({'Thüringen (Durchschnitt)':'Thuringia (average)','Bayern':'Bavaria','Fürstentum Reuß j. L.':'Reuss j. L.','Sachsen':'Saxony'})[datum.region]"
       },
       "as": "region_label"
      }

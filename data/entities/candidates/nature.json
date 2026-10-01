@@ -1,15 +1,15 @@
 {
  "group": "nature",
- "n_keys": 1060,
+ "n_keys": 1061,
  "entries": [
   {
    "key": "Saale",
-   "n": 137,
+   "n": 139,
    "types": {
-    "Natural Object": 137
+    "Natural Object": 139
    },
    "forms": {
-    "Saale": 137
+    "Saale": 139
    },
    "pages": [
     "4",
@@ -29,7 +29,7 @@
     "42",
     "…"
    ],
-   "n_pages": 93,
+   "n_pages": 94,
    "contexts": [
     {
      "page": "4",
@@ -323,6 +323,70 @@
    ]
   },
   {
+   "key": "Wettera",
+   "n": 29,
+   "types": {
+    "Natural Object": 29
+   },
+   "forms": {
+    "Wettera": 29
+   },
+   "pages": [
+    "19",
+    "31",
+    "41",
+    "47",
+    "198",
+    "204",
+    "242",
+    "243",
+    "246",
+    "666",
+    "671",
+    "672",
+    "675",
+    "677",
+    "678",
+    "…"
+   ],
+   "n_pages": 22,
+   "contexts": [
+    {
+     "page": "19",
+     "unit": "b1",
+     "text": "Quellgebiet der ⟦Wettera⟧) und in dem Pörmizwalde, erfüllen meist die Hochflächen des Plateaus,"
+    },
+    {
+     "page": "31",
+     "unit": "b1",
+     "text": "bar darunter lagernden Graptolithen führenden Kieselschiefer über die ⟦Wettera⟧ hinüber nach Gräfenwarth zu. Dann taucht der Zug wieder bei der oschi"
+    },
+    {
+     "page": "41",
+     "unit": "b3",
+     "text": "en haben einzelne Bäche vordem Gold geführt. So die Wipse, Gülde, die ⟦Wettera⟧ und der Ziezelbach. In dem letzteren Bache will man noch vor wenig Ja"
+    },
+    {
+     "page": "47",
+     "unit": "b4",
+     "text": "18) Die ⟦Wettera⟧ (Wetterau, Bittera, Wetterbach) entspringt in der Moßiga der Kämmeraw"
+    }
+   ],
+   "geonames_candidates": [
+    {
+     "geonames": 2809979,
+     "name": "Wettera",
+     "lat": 50.51941,
+     "lon": 11.75044,
+     "class": "H",
+     "code": "STM",
+     "admin1": "15",
+     "population": 0,
+     "km": 13.2
+    }
+   ]
+  },
+  {
    "key": "Weida",
    "n": 27,
    "types": {
@@ -449,70 +513,6 @@
      "admin1": "13",
      "population": 0,
      "km": 124.3
-    }
-   ]
-  },
-  {
-   "key": "Wettera",
-   "n": 27,
-   "types": {
-    "Natural Object": 27
-   },
-   "forms": {
-    "Wettera": 27
-   },
-   "pages": [
-    "19",
-    "31",
-    "41",
-    "47",
-    "198",
-    "204",
-    "242",
-    "246",
-    "666",
-    "671",
-    "672",
-    "675",
-    "677",
-    "678",
-    "679",
-    "…"
-   ],
-   "n_pages": 21,
-   "contexts": [
-    {
-     "page": "19",
-     "unit": "b1",
-     "text": "Quellgebiet der ⟦Wettera⟧) und in dem Pörmizwalde, erfüllen meist die Hochflächen des Plateaus,"
-    },
-    {
-     "page": "31",
-     "unit": "b1",
-     "text": "bar darunter lagernden Graptolithen führenden Kieselschiefer über die ⟦Wettera⟧ hinüber nach Gräfenwarth zu. Dann taucht der Zug wieder bei der oschi"
-    },
-    {
-     "page": "41",
-     "unit": "b3",
-     "text": "en haben einzelne Bäche vordem Gold geführt. So die Wipse, Gülde, die ⟦Wettera⟧ und der Ziezelbach. In dem letzteren Bache will man noch vor wenig Ja"
-    },
-    {
-     "page": "47",
-     "unit": "b4",
-     "text": "18) Die ⟦Wettera⟧ (Wetterau, Bittera, Wetterbach) entspringt in der Moßiga der Kämmeraw"
-    }
-   ],
-   "geonames_candidates": [
-    {
-     "geonames": 2809979,
-     "name": "Wettera",
-     "lat": 50.51941,
-     "lon": 11.75044,
-     "class": "H",
-     "code": "STM",
-     "admin1": "15",
-     "population": 0,
-     "km": 13.2
     }
    ]
   },
@@ -12724,6 +12724,33 @@
    ]
   },
   {
+   "key": "Oertelsbach",
+   "n": 2,
+   "types": {
+    "Natural Object": 2
+   },
+   "forms": {
+    "Oertelsbach": 2
+   },
+   "pages": [
+    "53",
+    "527"
+   ],
+   "n_pages": 2,
+   "contexts": [
+    {
+     "page": "53",
+     "unit": "b6",
+     "text": "der von Lessen kommenden Leske (Löske, Löschke), nimmt bei Lunzig den ⟦Oertelsbach⟧ mit dem Rödelbach auf und mündet, über Ossig fließend, bei Rabe."
+    },
+    {
+     "page": "527",
+     "unit": "b1",
+     "text": "e, Sandberg, Heide, Rödelfelder, Rödelgrund, Hartgraben, Himmelreich, ⟦Oertelsbach⟧ und Hain. Nach der Sage soll Kleinaga zwei hier einst gegründeten Non"
+    }
+   ]
+  },
+  {
    "key": "Sprotte",
    "n": 2,
    "types": {
@@ -23747,27 +23774,6 @@
    ]
   },
   {
-   "key": "Oertelsbach",
-   "n": 1,
-   "types": {
-    "Natural Object": 1
-   },
-   "forms": {
-    "Oertelsbach": 1
-   },
-   "pages": [
-    "53"
-   ],
-   "n_pages": 1,
-   "contexts": [
-    {
-     "page": "53",
-     "unit": "b6",
-     "text": "der von Lessen kommenden Leske (Löske, Löschke), nimmt bei Lunzig den ⟦Oertelsbach⟧ mit dem Rödelbach auf und mündet, über Ossig fließend, bei Rabe."
-    }
-   ]
-  },
-  {
    "key": "Rödelbach",
    "n": 1,
    "types": {
@@ -25975,7 +25981,7 @@
     {
      "page": "418",
      "unit": "b2",
-     "text": "ttendorfer Holz, Bauernholz, Lerdorfer Holz, Weinberg, Kieferthal und ⟦Cossengraben⟧, zusammen 1114 Acker) mit ihren Vorwerken und wüsten Orten (Bollersdo"
+     "text": "ttendorfer Holz, Bauernholz, Lerdorfer Holz, Weinberg, Kieferthal und ⟦Cossengraben⟧, zusammen 1114 Acker) mit ihren Vorwerken und wüsten Orten (Vollersdo"
     }
    ]
   },
@@ -28347,6 +28353,27 @@
    ]
   },
   {
+   "key": "Reichenbächlein",
+   "n": 1,
+   "types": {
+    "Natural Object": 1
+   },
+   "forms": {
+    "Reichenbächlein": 1
+   },
+   "pages": [
+    "527"
+   ],
+   "n_pages": 1,
+   "contexts": [
+    {
+     "page": "527",
+     "unit": "b3",
+     "text": "rfchen, 3/4 Stunde S. von Großaga, in der oberen sanften Agamulde, am ⟦Reichenbächlein⟧, 740 Fuß (Dorfsmitte) hoch gelegen, hat seinen Namen, wie die übrigen"
+    }
+   ]
+  },
+  {
    "key": "söllmnitzer Grund",
    "n": 1,
    "types": {
@@ -29895,7 +29922,7 @@
     {
      "page": "604",
      "unit": "b2",
-     "text": "ke „Pärmz“), Kirch- und Grenzdorf, 1/2 Stunde NW. von Dettersdorf, am ⟦Schlangenbächlein⟧, in der engen Vertiefung einer besonders nordwärts weit ausgedehnten,"
+     "text": "ke „Pärmz“), Kirch- und Grenzdorf, 1/2 Stunde NW. von Oettersdorf, am ⟦Schlangenbächlein⟧, in der engen Vertiefung einer besonders nordwärts weit ausgedehnten,"
     }
    ]
   },

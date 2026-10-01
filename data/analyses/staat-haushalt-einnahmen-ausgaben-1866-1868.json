@@ -2,7 +2,7 @@
  "id": "staat-haushalt-einnahmen-ausgaben-1866-1868",
  "title": {
   "de": "Staatshaushalt 1866/68: Einnahmen, Steuern und benannte Ausgaben",
-  "en": "State budget 1866/68: revenue, taxes and itemised expenditure"
+  "en": "State budget, 1866/68: revenue, taxes and itemized expenditure"
  },
  "category": "finance",
  "section": "t1-4-3",
@@ -35,7 +35,7 @@
  ],
  "summary": {
   "de": "Brückner nennt für die Finanzperiode 1866/68 veranschlagte Staatseinnahmen von 296.000 und Staatsausgaben von 290.000 Talern jährlich und schlüsselt die Steuern auf: sechs indirekte Posten (zusammen 154.650 Taler) und zwei direkte Steuern (81.160 Taler). Die Auswertung stellt diese Posten dem Gesamtvoranschlag gegenüber und ergänzt die wenigen einzeln genannten Ausgaben (Militär, Chausseen, Staatsgebäude).",
-  "en": "For the 1866/68 financial period Brückner gives estimated state revenue of 296,000 and expenditure of 290,000 thalers a year and itemises the taxes: six indirect items (together 154,650 thalers) and two direct taxes (81,160 thalers). The analysis sets these items against the overall estimate and adds the few expenditure items named separately (military, highways, state buildings)."
+  "en": "For the 1866/68 financial period Brückner gives estimated state revenue of 296,000 and expenditure of 290,000 thalers a year and itemizes the taxes: six indirect items (together 154,650 thalers) and two direct taxes (81,160 thalers). The analysis sets these items against the overall estimate and adds the few expenditure items named separately (military, highways, state buildings)."
  },
  "method": {
   "de": "Zahlen aus S. 276 (Gesamtvoranschlag, Fließtext), S. 277 (Tabelle der indirekten Steuern, Zeilen h1–r7; direkte Steuern als Kurztabelle) sowie S. 272 (Militärkosten 54.750) und S. 275 (Staatsgebäude 1700 + 182 + 130 = 2.012; Chausseeunterhaltung 26.835; Wegezuschuss 1.200). Die Restposten »übrige Einnahmen« (60.190) und »übrige Ausgaben« (205.203) sind Differenzen zum Gesamtvoranschlag und daher abgeleitet. Die direkten Steuern wurden aus den beiden gedruckten Einzelposten summiert (81.160; gedruckt ist 81,100, siehe Hinweise). Währung: 1 Taler = 30 Silbergroschen = 360 Pfennige (S. 278). Alle Beträge in Talern.",
@@ -44,19 +44,19 @@
  "findings": [
   {
    "de": "Die genannten Steuern machen 79,7 % der veranschlagten Jahreseinnahmen aus: 52,2 % indirekte, 27,4 % direkte Steuern; 20,3 % (60.190 Taler) bleiben ohne Aufschlüsselung.",
-   "en": "The named taxes make up 79.7 % of the estimated annual revenue: 52.2 % indirect and 27.4 % direct taxes; 20.3 % (60,190 thalers) are not itemised."
+   "en": "The named taxes make up 79.7% of the estimated annual revenue: 52.2% indirect and 27.4% direct taxes; 20.3% (60,190 thalers) are not itemized."
   },
   {
    "de": "Die indirekten Steuern übertreffen die direkten fast um das Doppelte (154.650 gegenüber 81.160 Taler); allein der Sammelposten aus Zöllen, Malz-, Übergangs- und Rübenzuckersteuer trägt 63,4 % der indirekten Einnahmen, die Salzregie weitere 18,8 %.",
-   "en": "Indirect taxes outweigh direct taxes by almost two to one (154,650 against 81,160 thalers); the combined item of customs, malt, transit and beet-sugar duties alone supplies 63.4 % of indirect revenue, the salt monopoly another 18.8 %."
+   "en": "Indirect taxes outweigh direct taxes by almost two to one (154,650 against 81,160 thalers); the combined item of customs, malt, transit and beet-sugar duties alone supplies 63.4% of indirect revenue, the salt monopoly another 18.8%."
   },
   {
    "de": "Von den Ausgaben nennt Brückner nur wenige Posten einzeln: die Militärkosten (54.750 Taler) wären, als Jahresbetrag gelesen, 18,9 % des Ausgabenvoranschlags; zusammen mit Chausseeunterhaltung, Staatsgebäuden und Wegezuschuss sind 29,2 % benannt.",
-   "en": "Of expenditure Brückner itemises only a few heads: the military cost (54,750 thalers), read as an annual amount, would be 18.9 % of the expenditure estimate; with highway maintenance, state buildings and the road subsidy 29.2 % are named."
+   "en": "Of expenditure Brückner itemizes only a few heads: the military cost (54,750 thalers), read as an annual amount, would be 18.9% of the expenditure estimate; with highway maintenance, state buildings and the road subsidy 29.2% are named."
   },
   {
    "de": "Der Voranschlag sieht einen Überschuss von 6.000 Talern jährlich vor (2,0 % der Einnahmen). Auf den Kopf der rund 88.000 Einwohner entfallen rund 2,7 Taler an Steuern.",
-   "en": "The estimate provides for a surplus of 6,000 thalers a year (2.0 % of revenue). Per head of the roughly 88,000 inhabitants this is about 2.7 thalers in taxes."
+   "en": "The estimate provides for a surplus of 6,000 thalers a year (2.0% of revenue). Per head of the roughly 88,000 inhabitants this is about 2.7 thalers in taxes."
   }
  ],
  "caveats": [
@@ -424,7 +424,7 @@
    },
    "caption": {
     "de": "Taler jährlich, wie von Brückner genannt. Die Posten decken 79,7 % der veranschlagten Einnahmen von 296.000 Talern; der Rest ist nicht aufgeschlüsselt.",
-    "en": "Thalers per year, as given by Brückner. The items cover 79.7 % of the estimated revenue of 296,000 thalers; the rest is not itemised."
+    "en": "Thalers per year, as given by Brückner. The items cover 79.7% of the estimated revenue of 296,000 thalers; the rest is not itemized."
    },
    "vegalite": {
     "height": 300,
@@ -491,7 +491,7 @@
       },
       {
        "field": "thaler",
-       "title": "Thaler",
+       "title": "Taler",
        "format": ","
       }
      ]
@@ -534,7 +534,7 @@
      "y": {
       "field": "thaler",
       "type": "quantitative",
-      "title": "Thaler",
+      "title": "Taler",
       "axis": {
        "format": ",d"
       }
@@ -583,7 +583,7 @@
       },
       {
        "field": "thaler",
-       "title": "Thaler",
+       "title": "Taler",
        "format": ","
       }
      ]
