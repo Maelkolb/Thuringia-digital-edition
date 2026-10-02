@@ -1,5 +1,7 @@
 # Brückner 1870 – Digital Edition
 
+**Live edition:** https://maelkolb.github.io/Thuringia-digital-edition/ (GitHub Pages, branch `gh-pages`; publish a new build with `python pipeline/site/build.py && sh tools/publish_pages.sh`).
+
 Digital scholarly edition of **Georg Brückner: *Volks- und Landeskunde des Fürstenthums Reuß j. L.*, Gera: Köhler 1870** (VIII + 840 pp.), based on the copy of the Bayerische Staatsbibliothek (bsb11005578, IIIF).
 
 The repository contains the canonical edition data, the pipeline that produces it from the automatic transcription, the work of the AI subagents (analyses, place articles, registers, search metadata) and the generator of the static website.
