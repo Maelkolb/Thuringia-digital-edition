@@ -50,7 +50,8 @@
       var spec = adaptLegends(s[lang + '_' + mode()], el.clientWidth < 600);
       var view = new vega.View(vega.parse(spec), { renderer: 'svg', container: el, hover: true });
       view.tooltip(tooltip);
-      view.runAsync();
+      // the container carries the chart title as its accessible name; the data are in the tables below
+      view.runAsync().then(function () { el.querySelectorAll('svg').forEach(function (svg) { svg.setAttribute('aria-hidden', 'true'); }); });
       views.push(view);
     });
   }

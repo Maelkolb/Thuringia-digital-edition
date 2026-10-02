@@ -1,0 +1,67 @@
+====================================================================================================
+industrie-hauptzweige-staedte-plattland-1864 t1-3-6 industry
+TITLE Industriezweige 1864: Städte und Plattland, Landesteile
+SUMMARY Brückners »Zusammenstellung der Hauptindustriezweige« (S. 255) verteilt die 43.129 Personen der Industrie des Jahres 1864 auf fünf Gewerbegruppen, drei Landesteile sowie Städte und Plattland. Entgegen dem Mittelalter, so Brückner, lebt die Mehrheit der Industriellen auf dem Land: 56,3 % der Selbständigen und Gehilfen. Die Auswertung zeigt, welche Gruppen städtisch und welche ländlich sind, wie sich die Landesteile unterscheiden und wie stark Gera unter den Städten hervortritt.
+FIND Die Städte stellen 43,7 % der Selbständigen und Gehilfen und 41,9 % aller industriellen Personen; das Plattland entsprechend 56,3 % und 58,1 %. Brückner druckt 43,70 / 56,30 % und 41,88 / 49,12 %; die letzte Zahl ist ein Druckfehler für 58,12.
+FIND Am städtischsten sind die Hausausstattung (57,0 % der Selbständigen und Gehilfen wohnen in den Städten) und die sonstigen Industriellen (52,5 %); Kleidung (49,2 %) und Nahrung (45,5 %) liegen knapp unter der Hälfte, die Bauhandwerker sitzen mit 84,8 % überwiegend auf dem Land.
+FIND Die Landesteile haben ein verschiedenes Profil: In Schleiz entfallen 62,1 % der industriellen Personen auf die Kleidung (Gera 38,5 %, Lobenstein-Ebersdorf 36,0 %), in Lobenstein-Ebersdorf 34,6 % auf die Bauhandwerker (Gera 18,5 %, Schleiz 17,6 %).
+FIND Unter den sechs Städten hat Gera 2016 selbständige Industrielle, die fünf anderen zusammen 1.778; Gera stellt damit 53,1 % der städtischen Selbständigen und 65,6 % der städtischen Gehilfen (2168 von 3304).
+FIND Bei den Nahrungsgewerben sind Brauer (27 von 41), Bäcker (102 von 166), Fleischer (110 von 208) und Materialwarenhändler (76 von 117) mehrheitlich städtisch, Getreidemühlen (20 von 164) und Branntweinbrennereien (5 von 37) dagegen überwiegend ländlich.
+METHOD Aus der Tabelle S. 255 wurden die Spalten »Städte« und »Plattland« für alle drei Landesteile und fünf Gewerbegruppen übernommen (S. = Selbständige, G. = Gehilfen, D. = Dienstboten, F. = Familienglieder). Die gedruckten Summenspalten (»Summe«) und Zeilen des Fürstentums sind nicht verwendet, weil sie an mehreren Stellen von den Teilzahlen abweichen (siehe Vorbehalte); alle Summen und Anteile wurden aus den Städte- und Plattland-Zahlen neu berechnet. »Sonst. Industrie« heißt hier »Sonstige«. Der Anteil der Städte bezieht sich auf Selbständige + Gehilfen (sg) bzw. auf alle Personen (persons). Die Zahlen zu den Nahrungsgewerben stammen aus dem Text S. 257 (b2), die zu den Städten aus S. 256 (b2) und S. 257 (b1); der Landanteil ist die Differenz der Gesamtzahl und der städtischen Zahl.
+CAVEAT Die gedruckte Tabelle enthält Rechenfehler: In der Summenspalte des Landesteils Gera steht bei »Hausausstattung« S. 687 und G. 1187, die Städte- und Plattlandzahlen ergeben 685 und 1062 (die Zahl 1062 nennt auch S. 254); entsprechend stimmen die gedruckten Summen des Landesteils Gera und ihre Fortsetzung im Fürstentum nicht. Beim Fürstentum steht bei »Hausausstattung« im Plattland G. 707 (Summe der Landesteile: 582). Die Transkription stimmt mit dem Druck überein (Faksimile S. 255); die Neuberechnung aus den Teilzahlen stimmt in allen 15 Landesteil-Gruppen genau mit den gedruckten Gruppensummen der Detailtabellen S. 252–254 überein.
+CAVEAT Wer zu »Städten« zählt, sagt die Tabelle nicht; Brückner spricht von sechs Städten (Gera, Schleiz, Tanna, Lobenstein, Hirschberg, Saalburg). Die städtischen Selbständigen der Tabelle (3806) liegen um 12 über der Summe der sechs Städte im Text (3794).
+CAVEAT Die Gewerbegruppen sind Brückners Einteilung (Nahrung, Kleidung, Bauhandwerker, Ausstattung für Haus und Hof, sonstige Industrielle); Dienstboten und Familienglieder sind den Gewerben zugerechnet, nicht der Landwirtschaft.
+CONV []
+TI null
+--DS zweige Industrie nach Zweigen, Landesteilen, Städten und Plattland 1864 30 [{'page': '255', 'block': 'b1', 'rows': 'r3-r29'}]
+  cols [('district', 'string', None, ''), ('branch', 'string', None, ''), ('area', 'string', None, ''), ('s', 'integer', 'Personen', ''), ('g', 'integer', 'Personen', ''), ('d', 'integer', 'Personen', ''), ('f', 'integer', 'Personen', ''), ('persons', 'integer', 'Personen', 'D'), ('sg', 'integer', 'Personen', 'D'), ('row', 'string', None, '')]
+    ['Gera', 'Nahrung', 'Städte', 89, 118, 71, 272, 550, 207, 'r3']
+    ['Gera', 'Nahrung', 'Plattland', 122, 121, 116, 493, 852, 243, 'r3']
+    ['Gera', 'Kleidung', 'Städte', 1048, 1024, 173, 2637, 4882, 2072, 'r4']
+    ['Gera', 'Kleidung', 'Plattland', 592, 304, 10, 1169, 2075, 896, 'r4']
+    ['Gera', 'Bauhandwerker', 'Städte', 83, 186, 19, 458, 746, 269, 'r5']
+    ['Gera', 'Bauhandwerker', 'Plattland', 78, 887, 21, 1609, 2595, 965, 'r5']
+    ['Gera', 'Hausausstattung', 'Städte', 422, 751, 91, 1467, 2731, 1173, 'r6']
+    ['Gera', 'Hausausstattung', 'Plattland', 263, 311, 29, 851, 1454, 574, 'r6']
+    ['Gera', 'Sonstige', 'Städte', 386, 89, 6, 722, 1203, 475, 'r7']
+    ['Gera', 'Sonstige', 'Plattland', 352, 37, 10, 606, 1005, 389, 'r7']
+    ['Schleiz', 'Nahrung', 'Städte', 101, 60, 58, 306, 525, 161, 'r10']
+    ['Schleiz', 'Nahrung', 'Plattland', 95, 62, 82, 335, 574, 157, 'r10']
+    ['Schleiz', 'Kleidung', 'Städte', 809, 381, 24, 1858, 3072, 1190, 'r11']
+    ['Schleiz', 'Kleidung', 'Plattland', 1526, 760, 22, 3927, 6235, 2286, 'r11']
+    ['Schleiz', 'Bauhandwerker', 'Städte', 36, 91, 6, 233, 366, 127, 'r12']
+    ['Schleiz', 'Bauhandwerker', 'Plattland', 44, 704, 8, 1511, 2267, 748, 'r12']
+    ['Schleiz', 'Hausausstattung', 'Städte', 215, 124, 26, 547, 912, 339, 'r13']
+    ['Schleiz', 'Hausausstattung', 'Plattland', 204, 104, 21, 469, 798, 308, 'r13']
+    ['Schleiz', 'Sonstige', 'Städte', 27, 35, 6, 123, 191, 62, 'r14']
+    ['Schleiz', 'Sonstige', 'Plattland', 20, 3, None, 15, 38, 23, 'r14']
+    ['Lobenstein-Ebersdorf', 'Nahrung', 'Städte', 70, 38, 38, 246, 392, 108, 'r17']
+    ['Lobenstein-Ebersdorf', 'Nahrung', 'Plattland', 106, 64, 66, 387, 623, 170, 'r17']
+    ['Lobenstein-Ebersdorf', 'Kleidung', 'Städte', 351, 248, 35, 976, 1610, 599, 'r18']
+    ['Lobenstein-Ebersdorf', 'Kleidung', 'Plattland', 620, 180, 22, 1186, 2008, 800, 'r18']
+    ['Lobenstein-Ebersdorf', 'Bauhandwerker', 'Städte', 29, 83, 3, 171, 286, 112, 'r19']
+    ['Lobenstein-Ebersdorf', 'Bauhandwerker', 'Plattland', 79, 1032, 19, 2062, 3192, 1111, 'r19']
+    ['Lobenstein-Ebersdorf', 'Hausausstattung', 'Städte', 122, 74, 10, 349, 555, 196, 'r20']
+    ['Lobenstein-Ebersdorf', 'Hausausstattung', 'Plattland', 238, 167, 33, 716, 1154, 405, 'r20']
+    ['Lobenstein-Ebersdorf', 'Sonstige', 'Städte', 18, 2, 1, 24, 45, 20, 'r21']
+    ['Lobenstein-Ebersdorf', 'Sonstige', 'Plattland', 91, 1, None, 101, 193, 92, 'r21']
+--DS nahrung_staedte Nahrungsgewerbe: Betriebe insgesamt und in den Städten 6 [{'page': '257', 'block': 'b2'}]
+  cols [('trade', 'string', None, ''), ('trade_en', 'string', None, 'D'), ('total', 'integer', 'Betriebe', ''), ('in_towns', 'integer', 'Betriebe', ''), ('in_country', 'integer', 'Betriebe', 'D'), ('share_towns', 'number', '%', 'D')]
+    ['Getreidemühlen', 'Grain mills', 164, 20, 144, 12.2]
+    ['Bäcker und Conditoren', 'Bakers and confectioners', 166, 102, 64, 61.4]
+    ['Fleischer', 'Butchers', 208, 110, 98, 52.9]
+    ['Brauereien', 'Breweries', 41, 27, 14, 65.9]
+    ['Branntweinbrennereien', 'Distilleries', 37, 5, 32, 13.5]
+    ['Materialwarenhändler', 'Grocers (Materialwarenhändler)', 117, 76, 41, 65.0]
+--DS staedte Selbständige Industrielle in den sechs Städten 6 [{'page': '256', 'block': 'b2'}, {'page': '257', 'block': 'b1'}]
+  cols [('town', 'string', None, ''), ('masters', 'integer', 'Personen', ''), ('assistants', 'integer', 'Personen', ''), ('source', 'string', None, '')]
+    ['Gera', 2016, 2168, 'S. 256 b2']
+    ['Schleiz', 674, None, 'S. 256 b2']
+    ['Tanna', 329, None, 'S. 256 b2']
+    ['Lobenstein', 305, None, 'S. 257 b1']
+    ['Hirschberg', 285, None, 'S. 257 b1']
+    ['Saalburg', 185, None, 'S. 257 b1']
+--CHART c1 zweige Anteil der Städte an Selbständigen und Gehilfen je Gewerbegruppe
+--CHART c2 zweige Gewerbestruktur der Landesteile
+--CHART c3 nahrung_staedte Nahrungsgewerbe: wie städtisch sind sie?
+--CHART c4 staedte Selbständige Industrielle in den sechs Städten

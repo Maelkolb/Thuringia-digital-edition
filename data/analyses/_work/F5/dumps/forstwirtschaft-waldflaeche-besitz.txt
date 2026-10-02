@@ -1,0 +1,73 @@
+====================================================================================================
+forstwirtschaft-waldflaeche-besitz t1-3-4 forestry
+TITLE Umfang und Besitzverhältnisse der Wälder (um 1868)
+SUMMARY Brückner gibt den Wald des Fürstentums in Morgen nach Besitzern (Kammerforste, Gemeinde-, Stiftungs- und Privatwald) und nach Holzart (Laub-, Nadelholz) für die Landesteile und ihre Teilgebiete an – insgesamt 133.635 Morgen oder rund 34.120 ha. Die Diagramme zeigen die Verteilung auf Besitzer, den Laubholzanteil, den Waldanteil je Landesteil und den Vergleich des Domänenwaldes von 1647 mit dem heutigen.
+FIND Der Wald des Fürstentums umfasst 133.635 Morgen (34.120 ha), das sind rund 41,4 % der vermessenen Fläche; davon sind 94,5 % Nadelwald und nur 5,5 % Laubwald.
+FIND Fast die Hälfte des Waldes gehört dem Staat (Kammerforste 47,7 %), fast die andere Hälfte Privatbesitzern (48,6 %); Gemeinden (2,2 %) und Stiftungen (1,5 %) besitzen zusammen nur 3,7 %.
+FIND Im Unterland (Gera) ist der Wald überwiegend privat (71,3 %), im Oberland dagegen zu gut der Hälfte staatlich (Schleiz: 52,1 % Kammerforste, Lobenstein-Ebersdorf: 53,5 %).
+FIND Der Waldanteil steigt vom Unterland zum Oberland: Gera 24,6 %, Schleiz 42,9 %, Lobenstein-Ebersdorf 52,9 % der Fläche; auf einen Einwohner kommen 0,59, 1,98 bzw. 2,60 Morgen.
+FIND Laubwald ist fast auf Gera beschränkt: Der Landesteil hat 79,4 % des gesamten Laubwaldes; dort sind 27,2 % des Waldes Laubholz, in Schleiz 0,7 % und in Lobenstein-Ebersdorf 2,0 %. Der Privatwald hat mit 7,6 % den höchsten, die Kammerforste mit 3,3 % den niedrigsten Laubholzanteil.
+FIND Der Domänenwald von 1647 (61 786 Morgen Wald und 2240 Morgen Geräumde, zusammen 64 026 Morgen) ist nur 259 Morgen größer als die heutigen Kammerforste (63.767 Morgen). Brückner schließt daraus, dass in 222 Jahren mehr Domänenwaldboden anderen Zwecken zugeführt als durch den Erwerb von Rittergütern gewonnen wurde.
+METHOD Die Flächen stammen aus Tabelle a) »Ueberhaupt in preußischen Morgen« (S. 240, Block b2), die Vergleichszahlen aus Tabelle b) (Block b4); Gesamtfläche der Landesteile aus der Vermessung 1854 (S. 217). Hektar wurden mit Brückners Faktor 0,255322 berechnet (S. 832). Der Waldanteil (Spalte anteil_pct) ist die Waldfläche geteilt durch die vermessene Gesamtfläche des Landesteils; er weicht deshalb von Brückners Gesamtangabe »41 1/5 Procent« etwas ab (hier 41,4 %), weil Waldfläche (heutiger Stand) und Gesamtfläche (Vermessung 1854, Lobenstein-Ebersdorf nur croquirt) aus verschiedenen Zeiten stammen. Der Landesteil Schleiz setzt sich aus Pflege Reichenfels, Herrschaft Schleiz und Pflege Saalburg zusammen (Klammer in der Vorlage). Die Besitzeranteile sind aus den Flächen berechnet, nicht aus Brückners Prozentzahlen.
+CAVEAT Die Zahlen von Block b2 stimmen bis auf eine Stelle in sich: Für den Privatwald des Landesteils Gera ist Laub + Nadel = 4701 + 10480 = 15 181, gedruckt ist »Sa. 15 191«; die Gesamtfläche Gera (21 298) und die Summe des Fürstentums (64 959) passen zu 15 181. Die Auswertung verwendet Laub- und Nadelwert getrennt.
+CAVEAT Brückners Prozentangaben im Text zum Besitzstand (Privatwald 48,23 %, Domänenwald 48,12 %, Gemeindewald 2,15 %, Stiftungswald 1,50 %) weichen leicht von den aus den Flächen berechneten Anteilen ab; für die Landesteile nennt er die Anteile am Domänenwald (0,70 / 44,31 / 54,99 %), die sich mit der Flächentabelle (6,9 / 44,3 / 48,8 %) nicht ganz decken. Die Auswertung stützt sich auf die Flächen.
+CAVEAT Die Waldflächen sind nach Angabe der Fußnote für Gera und Schleiz amtlichen Mitteilungen aus Schleiz, für Lobenstein-Ebersdorf Mitteilungen aus Ebersdorf entnommen und nicht unbedingt gleichzeitig mit der Vermessung von 1854; für Lobenstein-Ebersdorf liegt nur eine Croquirung vor.
+CONV [{'from': 'preußischer Morgen', 'to': 'Hektar', 'factor_or_formula': 'ha = Morgen × 0,255322', 'reference': 'Brückner S. 832: 1 preuß. Morgen (180 Quadratruthen) = 0,255322 Hectaren'}]
+TI null
+--DS wald Wald nach Gebiet, Besitzer und Holzart 40 [{'page': '240', 'block': 'b2', 'rows': 'r2-r8'}]
+  cols [('landestheil_de', 'string', None, ''), ('landestheil_en', 'string', None, ''), ('lt_nr', 'integer', None, 'D'), ('gebiet_de', 'string', None, ''), ('gebiet_en', 'string', None, ''), ('gebiet_nr', 'integer', None, 'D'), ('besitzer_de', 'string', None, ''), ('besitzer_en', 'string', None, ''), ('besitzer_nr', 'integer', None, 'D'), ('holzart_de', 'string', None, ''), ('holzart_en', 'string', None, ''), ('holzart_nr', 'integer', None, 'D'), ('morgen', 'integer', 'preuß. Morgen', ''), ('ha', 'number', 'ha', 'D')]
+    ['Gera', 'Gera', 1, 'Gera', 'Gera', 1, 'Kammerforste', 'Chamber forests (domain)', 1, 'Laubwald', 'Deciduous', 1, 849, 217.0]
+    ['Gera', 'Gera', 1, 'Gera', 'Gera', 1, 'Kammerforste', 'Chamber forests (domain)', 1, 'Nadelwald', 'Coniferous', 2, 3571, 912.0]
+    ['Gera', 'Gera', 1, 'Gera', 'Gera', 1, 'Gemeindeforste', 'Municipal forests', 2, 'Laubwald', 'Deciduous', 1, 120, 31.0]
+    ['Gera', 'Gera', 1, 'Gera', 'Gera', 1, 'Gemeindeforste', 'Municipal forests', 2, 'Nadelwald', 'Coniferous', 2, 1196, 305.0]
+    ['Gera', 'Gera', 1, 'Gera', 'Gera', 1, 'Stiftungsforste', 'Foundation forests', 3, 'Laubwald', 'Deciduous', 1, 124, 32.0]
+    ['Gera', 'Gera', 1, 'Gera', 'Gera', 1, 'Stiftungsforste', 'Foundation forests', 3, 'Nadelwald', 'Coniferous', 2, 257, 66.0]
+    ['Gera', 'Gera', 1, 'Gera', 'Gera', 1, 'Privatwald', 'Private woodland', 4, 'Laubwald', 'Deciduous', 1, 4701, 1200.0]
+    ['Gera', 'Gera', 1, 'Gera', 'Gera', 1, 'Privatwald', 'Private woodland', 4, 'Nadelwald', 'Coniferous', 2, 10480, 2676.0]
+    ['Schleiz', 'Schleiz', 2, 'Pflege Reichenfels', 'Reichenfels district (Pflege)', 2, 'Kammerforste', 'Chamber forests (domain)', 1, 'Laubwald', 'Deciduous', 1, 17, 4.0]
+    ['Schleiz', 'Schleiz', 2, 'Pflege Reichenfels', 'Reichenfels district (Pflege)', 2, 'Kammerforste', 'Chamber forests (domain)', 1, 'Nadelwald', 'Coniferous', 2, 10500, 2681.0]
+    ['Schleiz', 'Schleiz', 2, 'Pflege Reichenfels', 'Reichenfels district (Pflege)', 2, 'Gemeindeforste', 'Municipal forests', 2, 'Laubwald', 'Deciduous', 1, None, 0.0]
+    ['Schleiz', 'Schleiz', 2, 'Pflege Reichenfels', 'Reichenfels district (Pflege)', 2, 'Gemeindeforste', 'Municipal forests', 2, 'Nadelwald', 'Coniferous', 2, 13, 3.0]
+    ['Schleiz', 'Schleiz', 2, 'Pflege Reichenfels', 'Reichenfels district (Pflege)', 2, 'Stiftungsforste', 'Foundation forests', 3, 'Laubwald', 'Deciduous', 1, None, 0.0]
+    ['Schleiz', 'Schleiz', 2, 'Pflege Reichenfels', 'Reichenfels district (Pflege)', 2, 'Stiftungsforste', 'Foundation forests', 3, 'Nadelwald', 'Coniferous', 2, 2, 1.0]
+    ['Schleiz', 'Schleiz', 2, 'Pflege Reichenfels', 'Reichenfels district (Pflege)', 2, 'Privatwald', 'Private woodland', 4, 'Laubwald', 'Deciduous', 1, 41, 10.0]
+    ['Schleiz', 'Schleiz', 2, 'Pflege Reichenfels', 'Reichenfels district (Pflege)', 2, 'Privatwald', 'Private woodland', 4, 'Nadelwald', 'Coniferous', 2, 3492, 892.0]
+    ['Schleiz', 'Schleiz', 2, 'Herrschaft Schleiz', 'Schleiz lordship (Herrschaft)', 3, 'Kammerforste', 'Chamber forests (domain)', 1, 'Laubwald', 'Deciduous', 1, 172, 44.0]
+    ['Schleiz', 'Schleiz', 2, 'Herrschaft Schleiz', 'Schleiz lordship (Herrschaft)', 3, 'Kammerforste', 'Chamber forests (domain)', 1, 'Nadelwald', 'Coniferous', 2, 12237, 3124.0]
+    ['Schleiz', 'Schleiz', 2, 'Herrschaft Schleiz', 'Schleiz lordship (Herrschaft)', 3, 'Gemeindeforste', 'Municipal forests', 2, 'Laubwald', 'Deciduous', 1, 14, 4.0]
+    ['Schleiz', 'Schleiz', 2, 'Herrschaft Schleiz', 'Schleiz lordship (Herrschaft)', 3, 'Gemeindeforste', 'Municipal forests', 2, 'Nadelwald', 'Coniferous', 2, 451, 115.0]
+    ['Schleiz', 'Schleiz', 2, 'Herrschaft Schleiz', 'Schleiz lordship (Herrschaft)', 3, 'Stiftungsforste', 'Foundation forests', 3, 'Laubwald', 'Deciduous', 1, None, 0.0]
+    ['Schleiz', 'Schleiz', 2, 'Herrschaft Schleiz', 'Schleiz lordship (Herrschaft)', 3, 'Stiftungsforste', 'Foundation forests', 3, 'Nadelwald', 'Coniferous', 2, 899, 230.0]
+    ['Schleiz', 'Schleiz', 2, 'Herrschaft Schleiz', 'Schleiz lordship (Herrschaft)', 3, 'Privatwald', 'Private woodland', 4, 'Laubwald', 'Deciduous', 1, 90, 23.0]
+    ['Schleiz', 'Schleiz', 2, 'Herrschaft Schleiz', 'Schleiz lordship (Herrschaft)', 3, 'Privatwald', 'Private woodland', 4, 'Nadelwald', 'Coniferous', 2, 15089, 3853.0]
+    ['Schleiz', 'Schleiz', 2, 'Pflege Saalburg', 'Saalburg district (Pflege)', 4, 'Kammerforste', 'Chamber forests (domain)', 1, 'Laubwald', 'Deciduous', 1, 10, 3.0]
+    ['Schleiz', 'Schleiz', 2, 'Pflege Saalburg', 'Saalburg district (Pflege)', 4, 'Kammerforste', 'Chamber forests (domain)', 1, 'Nadelwald', 'Coniferous', 2, 5317, 1358.0]
+    ['Schleiz', 'Schleiz', 2, 'Pflege Saalburg', 'Saalburg district (Pflege)', 4, 'Gemeindeforste', 'Municipal forests', 2, 'Laubwald', 'Deciduous', 1, None, 0.0]
+    ['Schleiz', 'Schleiz', 2, 'Pflege Saalburg', 'Saalburg district (Pflege)', 4, 'Gemeindeforste', 'Municipal forests', 2, 'Nadelwald', 'Coniferous', 2, 387, 99.0]
+    ['Schleiz', 'Schleiz', 2, 'Pflege Saalburg', 'Saalburg district (Pflege)', 4, 'Stiftungsforste', 'Foundation forests', 3, 'Laubwald', 'Deciduous', 1, None, 0.0]
+    ['Schleiz', 'Schleiz', 2, 'Pflege Saalburg', 'Saalburg district (Pflege)', 4, 'Stiftungsforste', 'Foundation forests', 3, 'Nadelwald', 'Coniferous', 2, 310, 79.0]
+    ['Schleiz', 'Schleiz', 2, 'Pflege Saalburg', 'Saalburg district (Pflege)', 4, 'Privatwald', 'Private woodland', 4, 'Laubwald', 'Deciduous', 1, 12, 3.0]
+    ['Schleiz', 'Schleiz', 2, 'Pflege Saalburg', 'Saalburg district (Pflege)', 4, 'Privatwald', 'Private woodland', 4, 'Nadelwald', 'Coniferous', 2, 5128, 1309.0]
+    ['Lobenstein-Ebersdorf', 'Lobenstein-Ebersdorf', 3, 'Lobenstein-Ebersdorf', 'Lobenstein-Ebersdorf', 5, 'Kammerforste', 'Chamber forests (domain)', 1, 'Laubwald', 'Deciduous', 1, 1037, 265.0]
+    ['Lobenstein-Ebersdorf', 'Lobenstein-Ebersdorf', 3, 'Lobenstein-Ebersdorf', 'Lobenstein-Ebersdorf', 5, 'Kammerforste', 'Chamber forests (domain)', 1, 'Nadelwald', 'Coniferous', 2, 30057, 7674.0]
+    ['Lobenstein-Ebersdorf', 'Lobenstein-Ebersdorf', 3, 'Lobenstein-Ebersdorf', 'Lobenstein-Ebersdorf', 5, 'Gemeindeforste', 'Municipal forests', 2, 'Laubwald', 'Deciduous', 1, None, 0.0]
+    ['Lobenstein-Ebersdorf', 'Lobenstein-Ebersdorf', 3, 'Lobenstein-Ebersdorf', 'Lobenstein-Ebersdorf', 5, 'Gemeindeforste', 'Municipal forests', 2, 'Nadelwald', 'Coniferous', 2, 719, 184.0]
+    ['Lobenstein-Ebersdorf', 'Lobenstein-Ebersdorf', 3, 'Lobenstein-Ebersdorf', 'Lobenstein-Ebersdorf', 5, 'Stiftungsforste', 'Foundation forests', 3, 'Laubwald', 'Deciduous', 1, None, 0.0]
+    ['Lobenstein-Ebersdorf', 'Lobenstein-Ebersdorf', 3, 'Lobenstein-Ebersdorf', 'Lobenstein-Ebersdorf', 5, 'Stiftungsforste', 'Foundation forests', 3, 'Nadelwald', 'Coniferous', 2, 417, 106.0]
+    ['Lobenstein-Ebersdorf', 'Lobenstein-Ebersdorf', 3, 'Lobenstein-Ebersdorf', 'Lobenstein-Ebersdorf', 5, 'Privatwald', 'Private woodland', 4, 'Laubwald', 'Deciduous', 1, 109, 28.0]
+    ['Lobenstein-Ebersdorf', 'Lobenstein-Ebersdorf', 3, 'Lobenstein-Ebersdorf', 'Lobenstein-Ebersdorf', 5, 'Privatwald', 'Private woodland', 4, 'Nadelwald', 'Coniferous', 2, 25817, 6592.0]
+--DS waldanteil Waldanteil und Wald je Einwohner 4 [{'page': '240', 'block': 'b4', 'rows': 'r2-r8'}, {'page': '240', 'block': 'b2', 'rows': 'r2-r8'}, {'page': '217', 'block': 'b1', 'rows': 't11'}]
+  cols [('landestheil_de', 'string', None, ''), ('landestheil_en', 'string', None, ''), ('lt_nr', 'integer', None, 'D'), ('wald_morgen', 'integer', 'preuß. Morgen', ''), ('flaeche_morgen', 'number', 'preuß. Morgen', ''), ('anteil_pct', 'number', '%', 'D'), ('wald_je_qm', 'number', '□Meilen', ''), ('morgen_je_einw', 'number', 'Morgen', ''), ('ha_je_einw', 'number', 'ha', 'D'), ('wald_ha', 'number', 'ha', 'D')]
+    ['Gera', 'Gera', 1, 21298, 86416.46, 24.6, 0.99, 0.59, 0.15, 5438.0]
+    ['Schleiz', 'Schleiz', 2, 54181, 126302, 42.9, 2.51, 1.98, 0.51, 13834.0]
+    ['Lobenstein-Ebersdorf', 'Lobenstein-Ebersdorf', 3, 58156, 110025.83, 52.9, 2.7, 2.6, 0.66, 14849.0]
+    ['Fürstentum', 'Principality', 4, 133635, 322746.29, 41.4, 6.2, 1.52, 0.39, 34120.0]
+--DS domaene Domänenwald 1647 und heute 3 [{'page': '241', 'block': 'b2'}, {'page': '240', 'block': 'b2', 'rows': 'r2-r8'}]
+  cols [('zeit_de', 'string', None, ''), ('zeit_en', 'string', None, ''), ('zeit_nr', 'integer', None, 'D'), ('art_de', 'string', None, ''), ('art_en', 'string', None, ''), ('morgen', 'integer', 'preuß. Morgen', ''), ('ha', 'number', 'ha', 'D')]
+    ['1647', '1647', 1, 'Wald', 'Woodland', 61786, 15775.0]
+    ['1647', '1647', 1, 'Geräumde (gerodete Flächen)', 'Cleared land (Geräumde)', 2240, 572.0]
+    ['heute (um 1868)', 'present (c. 1868)', 2, 'Kammerforste (Wald)', 'Chamber forests (woodland)', 63767, 16281.0]
+--CHART c1 wald Wald nach Gebieten und Besitzern (Hektar)
+--CHART c2 wald Laub- und Nadelwald nach Besitzern
+--CHART c3 waldanteil Waldanteil an der Landesfläche
+--CHART c4 domaene Domänenwald 1647 und heute

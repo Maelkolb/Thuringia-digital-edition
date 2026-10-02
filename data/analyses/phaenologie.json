@@ -1,0 +1,5005 @@
+{
+ "id": "phaenologie",
+ "title": {
+  "de": "Vogelzug und Blüte im Jahreslauf",
+  "en": "Bird migration and flowering through the year"
+ },
+ "category": "phenology",
+ "section": "t1-1-7",
+ "merges": [
+  "phaenologie-bluetezeiten-gera-hohenleuben-1851-1861",
+  "phaenologie-zugvoegel-gera-1859-1864"
+ ],
+ "sources": [
+  {
+   "page": "60",
+   "block": "b2"
+  },
+  {
+   "page": "60",
+   "block": "b3"
+  },
+  {
+   "page": "60",
+   "block": "b5",
+   "rows": "r1-r13"
+  },
+  {
+   "page": "60",
+   "block": "b7",
+   "rows": "r1-r14"
+  },
+  {
+   "page": "61",
+   "block": "b2",
+   "rows": "r1-r3"
+  },
+  {
+   "page": "61",
+   "block": "b3"
+  },
+  {
+   "page": "61",
+   "block": "b4"
+  },
+  {
+   "page": "61",
+   "block": "b5",
+   "rows": "r1-r16"
+  },
+  {
+   "page": "56",
+   "block": "b2",
+   "rows": "r2-r9"
+  },
+  {
+   "page": "12",
+   "block": "b1",
+   "rows": "r1"
+  },
+  {
+   "page": "20",
+   "block": "b3",
+   "rows": "r16"
+  }
+ ],
+ "summary": {
+  "de": "Brückner druckt Ankunft und Abzug von 14 Zugvögeln in Gera (1859 bis 1864) sowie die Tage des ersten Aufblühens von zwölf Pflanzen in Gera (1851 bis 1856) und Hohenleuben (1853 bis 1861). Die Vögel kamen zwischen dem 20. Januar und dem 1. Juni an und zogen zwischen dem 3. August und dem 16. November ab. Hohenleuben blühte 1853 bis 1856 im Mittel 3,8 Tage später als Gera.",
+  "en": "Brückner prints the arrival and departure of 14 migratory birds at Gera (1859 to 1864) and the days of first flowering of twelve plants at Gera (1851 to 1856) and Hohenleuben (1853 to 1861). The birds arrived between January 20 and June 1 and left between August 3 and November 16. Hohenleuben flowered on average 3.8 days later than Gera in 1853 to 1856."
+ },
+ "findings": [
+  {
+   "de": "Je später die Ankunft, desto früher der Abzug (r = −0,79 über 14 Arten). Die mittlere Aufenthaltsdauer reicht von 99 Tagen (Turmschwalbe) bis 265 (Lerche).",
+   "en": "The later the arrival, the earlier the departure (r = −0.79 across 14 species). The mean length of stay ranges from 99 days (common swift) to 265 (skylark)."
+  },
+  {
+   "de": "Hohenleuben blühte 1853 bis 1856 bei 9 von 12 Arten im Mittel später als Gera (48 Paare). Schüblers Regel von 8 Tagen je 1000 Fuß ergäbe bei rund 460 Fuß Höhenunterschied 3,7 Tage.",
+   "en": "In 1853 to 1856 Hohenleuben flowered later than Gera in 9 of 12 species (48 pairs). Schübler’s rule (8 days per 1,000 feet) gives 3.7 days for the 460 feet difference in height."
+  },
+  {
+   "de": "Je Grad wärmerem Frühjahr (März bis Mai) blühte es in Hohenleuben etwa 6,3 Tage früher (r = −0,84, 8 Jahre). 1859 war das wärmste Frühjahr und das früheste, 1855 das kälteste und spät.",
+   "en": "Per degree of warmer spring (March to May), flowering at Hohenleuben came about 6.3 days earlier (r = −0.84, 8 years). 1859 was warmest and earliest, 1855 coldest and late."
+  }
+ ],
+ "method": {
+  "de": "Brückner druckt die Termine als Brüche, bei denen der Monat der Nenner und der Tag der Zähler ist (S. 60). Sie sind in Tage des Jahres umgesetzt (normiertes Jahr ohne Schalttag, 1. Januar = 1; 1. März = 60, 1. Juli = 182). Die lateinischen Namen sind im Druck teils abgekürzt und vereinheitlicht; deutsche und englische Namen sind eine editorische Zuordnung. Der Frühjahrsindex eines Jahres ist das Mittel der Abweichungen der Blühtermine aller Arten (außer der Weinrebe) vom Mittel der jeweiligen Art an derselben Station; positive Werte bedeuten späte Blüte. Die Mitteltemperatur März bis Mai von Hohenleuben stammt aus den Monatsmitteln auf S. 56 (°R × 1,25); das Jahr 1853 hat keine Temperatur. Die Höhen der Ortslagen (Gera 505 bis 600, Hohenleuben 975 bis 1050 Dezimalfuß, S. 12 und 20) ergeben mit ihren Mitten 460 Fuß Unterschied.\nBei den Zugvögeln (S. 61) sind Tagesspannen der Ankunft (»21.–26./4.«) mit ihrer Mitte eingesetzt. Der Balken verbindet die mittlere Ankunft mit dem mittleren Abzug der Art aus allen vorhandenen Jahren; die Aufenthaltsdauer ist Abzug minus Ankunft desselben Jahres und nur bei vollständigem Paar berechnet. Die Entwicklungsstufen von Rosskastanie und Birnbaum (S. 61) stehen als Tabelle »trees« im Datensatz.",
+  "en": "Brückner prints the dates as fractions in which the month is the denominator and the day the numerator (p. 60). They are converted to days of the year (normalized year without leap day, 1 January = 1; 1 March = 60, 1 July = 182). The Latin names are partly abbreviated in the print and have been unified; German and English names are an editorial assignment. The spring index of a year is the mean of the deviations of the flowering dates of all species (except grapevine) from the mean of that species at the same station; positive values mean late flowering. The mean temperature March to May for Hohenleuben comes from the monthly means on p. 56 (°R × 1.25); the year 1853 has no temperature. The heights of the places (Gera 505 to 600, Hohenleuben 975 to 1050 decimal feet, pp. 12 and 20) give a difference of 460 feet between their midpoints.\nFor the migratory birds (p. 61), ranges of days for arrival (»21.–26./4.«) are entered at their midpoint. The bar joins the mean arrival with the mean departure of the species from all available years; the length of stay is departure minus arrival of the same year and is computed only for complete pairs. The development stages of horse chestnut and pear tree (p. 61) are in the dataset as the table »trees«."
+ },
+ "conversions": [
+  {
+   "from": "Datumsbruch (Tag./Monat.)",
+   "to": "Tag im Jahr",
+   "factor_or_formula": "Tag im Jahr = Tage vor Monatsbeginn (Nicht-Schaltjahr) + Tag; bei Tagesspannen Mitte der Spanne",
+   "reference": "Erläuterung Brückner S. 60: Monat als Nenner, Tag als Zähler"
+  },
+  {
+   "from": "Grad Réaumur (°R)",
+   "to": "Grad Celsius (°C)",
+   "factor_or_formula": "°C = °R × 1,25",
+   "reference": "von Brückner nicht tabelliert"
+  }
+ ],
+ "caveats": [
+  {
+   "de": "Die Termine sind »erstes Aufblühen« bzw. Ankunft und Abzug; Beobachter und Kriterien sind kaum beschrieben. Die Reihen sind kurz: Gera sechs, Hohenleuben neun Jahre, die Vögel sechs Jahre eines Beobachters. Nur 32 von 84 möglichen Art-Jahr-Kombinationen haben Ankunft und Abzug.",
+   "en": "The dates mean »first flowering« or arrival and departure; observers and criteria are barely described. The series are short: six years at Gera, nine at Hohenleuben, six years of one observer for the birds. Only 32 of 84 possible species-year combinations have both arrival and departure."
+  },
+  {
+   "de": "In 5 von 25 Zeilen weicht Brückners Spalte »Tage der Differenz« um 1 bis 3 Tage von den gedruckten Terminen ab. Der Weißdorn in Hohenleuben blühte 1858 und 1860 vor dem Apfel (3. und 2. Mai); das Faksimile bestätigt die Zahlen. Die Daten werden unverändert gezeigt.",
+   "en": "In 5 of 25 rows Brückner’s column »days of difference« deviates by 1 to 3 days from the printed dates. The hawthorn at Hohenleuben flowered before the apple in 1858 and 1860 (3 and 2 May); the facsimile confirms the figures. The data are shown unchanged."
+  },
+  {
+   "de": "Der Zusammenhang mit der Temperatur beruht auf acht Jahren einer Station und ist explorativ; die Temperaturskala (Réaumur) ist nicht ausdrücklich genannt. Brückner hält Schüblers Höhenregel für das Land für zu schwach (S. 61); der Vergleich Gera und Hohenleuben stützt sie hier nur zufällig.",
+   "en": "The link with temperature rests on eight years from one station and is exploratory; the temperature scale (Réaumur) is not stated explicitly. Brückner considers Schübler’s height rule too weak for the country (p. 61); the comparison of Gera and Hohenleuben supports it here only by chance."
+  },
+  {
+   "de": "Die Artbestimmung der alten Vogelnamen ist unsicher: »Hausschwalbe« kann Rauch- oder Mehlschwalbe meinen, »Bachstelze« neben der Weißen Bachstelze eine andere Art; die Turmschwalbe ist der Mauersegler. Überwinterer wie Lerche und Star sind in milden Wintern kaum von Zugvögeln zu trennen.",
+   "en": "The identification of the old bird names is uncertain: »Hausschwalbe« can mean barn swallow or house martin, »Bachstelze« next to the White Wagtail another species; the »Turmschwalbe« is the swift. Overwintering birds such as skylark and starling can hardly be told from migrants in mild winters."
+  }
+ ],
+ "datasets": [
+  {
+   "name": "bloom",
+   "title": {
+    "de": "Termine des ersten Aufblühens",
+    "en": "Dates of first flowering"
+   },
+   "columns": [
+    {
+     "name": "station",
+     "label": {
+      "de": "Station",
+      "en": "Station"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "species",
+     "label": {
+      "de": "Art (vereinheitlicht)",
+      "en": "Species (standardized)"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "species_printed",
+     "label": {
+      "de": "Name im Druck",
+      "en": "Name as printed"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "species_de",
+     "label": {
+      "de": "Deutscher Name",
+      "en": "German name"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "species_en",
+     "label": {
+      "de": "Englischer Name",
+      "en": "English name"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "year",
+     "label": {
+      "de": "Jahr",
+      "en": "Year"
+     },
+     "type": "integer",
+     "unit": null
+    },
+    {
+     "name": "date",
+     "label": {
+      "de": "Datum",
+      "en": "Date"
+     },
+     "type": "date",
+     "unit": null,
+     "derived": true,
+     "note": "ISO-Datum aus dem gedruckten Bruch Tag./Monat."
+    },
+    {
+     "name": "doy",
+     "label": {
+      "de": "Tag im Jahr",
+      "en": "Day of year"
+     },
+     "type": "integer",
+     "unit": "d",
+     "derived": true,
+     "note": "normiertes Jahr ohne Schalttag"
+    },
+    {
+     "name": "printed",
+     "label": {
+      "de": "Gedruckt",
+      "en": "As printed"
+     },
+     "type": "string",
+     "unit": null
+    }
+   ],
+   "rows": [
+    [
+     "Gera",
+     "Viola odorata",
+     "Viola odorata",
+     "Märzveilchen",
+     "Sweet violet",
+     1851,
+     "1851-03-20",
+     79,
+     "20./3."
+    ],
+    [
+     "Gera",
+     "Viola odorata",
+     "Viola odorata",
+     "Märzveilchen",
+     "Sweet violet",
+     1853,
+     "1853-04-21",
+     111,
+     "21./4."
+    ],
+    [
+     "Gera",
+     "Viola odorata",
+     "Viola odorata",
+     "Märzveilchen",
+     "Sweet violet",
+     1854,
+     "1854-04-02",
+     92,
+     "2./4."
+    ],
+    [
+     "Gera",
+     "Viola odorata",
+     "Viola odorata",
+     "Märzveilchen",
+     "Sweet violet",
+     1855,
+     "1855-04-19",
+     109,
+     "19./4."
+    ],
+    [
+     "Gera",
+     "Viola odorata",
+     "Viola odorata",
+     "Märzveilchen",
+     "Sweet violet",
+     1856,
+     "1856-04-03",
+     93,
+     "3./4."
+    ],
+    [
+     "Gera",
+     "Anemone nemorosa",
+     "Anemone nemorosa",
+     "Buschwindröschen",
+     "Wood anemone",
+     1851,
+     "1851-03-15",
+     74,
+     "15./3."
+    ],
+    [
+     "Gera",
+     "Anemone nemorosa",
+     "Anemone nemorosa",
+     "Buschwindröschen",
+     "Wood anemone",
+     1852,
+     "1852-04-04",
+     94,
+     "4./4."
+    ],
+    [
+     "Gera",
+     "Anemone nemorosa",
+     "Anemone nemorosa",
+     "Buschwindröschen",
+     "Wood anemone",
+     1853,
+     "1853-04-24",
+     114,
+     "24./4."
+    ],
+    [
+     "Gera",
+     "Anemone nemorosa",
+     "Anemone nemorosa",
+     "Buschwindröschen",
+     "Wood anemone",
+     1854,
+     "1854-04-08",
+     98,
+     "8./4."
+    ],
+    [
+     "Gera",
+     "Anemone nemorosa",
+     "Anemone nemorosa",
+     "Buschwindröschen",
+     "Wood anemone",
+     1855,
+     "1855-04-18",
+     108,
+     "18./4."
+    ],
+    [
+     "Gera",
+     "Anemone nemorosa",
+     "Anemone nemorosa",
+     "Buschwindröschen",
+     "Wood anemone",
+     1856,
+     "1856-03-31",
+     90,
+     "31./3."
+    ],
+    [
+     "Gera",
+     "Ranunculus ficaria",
+     "Ranunculus Ficaria",
+     "Scharbockskraut",
+     "Lesser celandine",
+     1851,
+     "1851-04-15",
+     105,
+     "15./4."
+    ],
+    [
+     "Gera",
+     "Ranunculus ficaria",
+     "Ranunculus Ficaria",
+     "Scharbockskraut",
+     "Lesser celandine",
+     1852,
+     "1852-04-06",
+     96,
+     "6./4."
+    ],
+    [
+     "Gera",
+     "Ranunculus ficaria",
+     "Ranunculus Ficaria",
+     "Scharbockskraut",
+     "Lesser celandine",
+     1853,
+     "1853-04-20",
+     110,
+     "20./4."
+    ],
+    [
+     "Gera",
+     "Ranunculus ficaria",
+     "Ranunculus Ficaria",
+     "Scharbockskraut",
+     "Lesser celandine",
+     1854,
+     "1854-04-16",
+     106,
+     "16./4."
+    ],
+    [
+     "Gera",
+     "Ranunculus ficaria",
+     "Ranunculus Ficaria",
+     "Scharbockskraut",
+     "Lesser celandine",
+     1855,
+     "1855-04-19",
+     109,
+     "19./4."
+    ],
+    [
+     "Gera",
+     "Ranunculus ficaria",
+     "Ranunculus Ficaria",
+     "Scharbockskraut",
+     "Lesser celandine",
+     1856,
+     "1856-04-03",
+     93,
+     "3./4."
+    ],
+    [
+     "Gera",
+     "Primula veris",
+     "Primula officinalis",
+     "Echte Schlüsselblume",
+     "Cowslip",
+     1851,
+     "1851-04-10",
+     100,
+     "10./4."
+    ],
+    [
+     "Gera",
+     "Primula veris",
+     "Primula officinalis",
+     "Echte Schlüsselblume",
+     "Cowslip",
+     1852,
+     "1852-04-24",
+     114,
+     "24./4."
+    ],
+    [
+     "Gera",
+     "Primula veris",
+     "Primula officinalis",
+     "Echte Schlüsselblume",
+     "Cowslip",
+     1853,
+     "1853-05-06",
+     126,
+     "6./5."
+    ],
+    [
+     "Gera",
+     "Primula veris",
+     "Primula officinalis",
+     "Echte Schlüsselblume",
+     "Cowslip",
+     1854,
+     "1854-04-12",
+     102,
+     "12./4."
+    ],
+    [
+     "Gera",
+     "Primula veris",
+     "Primula officinalis",
+     "Echte Schlüsselblume",
+     "Cowslip",
+     1855,
+     "1855-04-22",
+     112,
+     "22./4."
+    ],
+    [
+     "Gera",
+     "Primula veris",
+     "Primula officinalis",
+     "Echte Schlüsselblume",
+     "Cowslip",
+     1856,
+     "1856-04-18",
+     108,
+     "18./4."
+    ],
+    [
+     "Gera",
+     "Ribes uva-crispa",
+     "Ribes Grossularia",
+     "Stachelbeere",
+     "Gooseberry",
+     1851,
+     "1851-04-15",
+     105,
+     "15./4."
+    ],
+    [
+     "Gera",
+     "Ribes uva-crispa",
+     "Ribes Grossularia",
+     "Stachelbeere",
+     "Gooseberry",
+     1852,
+     "1852-04-05",
+     95,
+     "5./4."
+    ],
+    [
+     "Gera",
+     "Ribes uva-crispa",
+     "Ribes Grossularia",
+     "Stachelbeere",
+     "Gooseberry",
+     1853,
+     "1853-05-13",
+     133,
+     "13./5."
+    ],
+    [
+     "Gera",
+     "Ribes uva-crispa",
+     "Ribes Grossularia",
+     "Stachelbeere",
+     "Gooseberry",
+     1854,
+     "1854-04-25",
+     115,
+     "25./4."
+    ],
+    [
+     "Gera",
+     "Ribes uva-crispa",
+     "Ribes Grossularia",
+     "Stachelbeere",
+     "Gooseberry",
+     1855,
+     "1855-05-02",
+     122,
+     "2./5."
+    ],
+    [
+     "Gera",
+     "Ribes uva-crispa",
+     "Ribes Grossularia",
+     "Stachelbeere",
+     "Gooseberry",
+     1856,
+     "1856-04-22",
+     112,
+     "22./4."
+    ],
+    [
+     "Gera",
+     "Saxifraga granulata",
+     "Saxifraga granulata",
+     "Körniger Steinbrech",
+     "Meadow saxifrage",
+     1851,
+     "1851-04-30",
+     120,
+     "30./4."
+    ],
+    [
+     "Gera",
+     "Saxifraga granulata",
+     "Saxifraga granulata",
+     "Körniger Steinbrech",
+     "Meadow saxifrage",
+     1852,
+     "1852-05-08",
+     128,
+     "8./5."
+    ],
+    [
+     "Gera",
+     "Saxifraga granulata",
+     "Saxifraga granulata",
+     "Körniger Steinbrech",
+     "Meadow saxifrage",
+     1853,
+     "1853-05-19",
+     139,
+     "19./5."
+    ],
+    [
+     "Gera",
+     "Saxifraga granulata",
+     "Saxifraga granulata",
+     "Körniger Steinbrech",
+     "Meadow saxifrage",
+     1854,
+     "1854-05-09",
+     129,
+     "9./5."
+    ],
+    [
+     "Gera",
+     "Saxifraga granulata",
+     "Saxifraga granulata",
+     "Körniger Steinbrech",
+     "Meadow saxifrage",
+     1855,
+     "1855-05-22",
+     142,
+     "22./5."
+    ],
+    [
+     "Gera",
+     "Saxifraga granulata",
+     "Saxifraga granulata",
+     "Körniger Steinbrech",
+     "Meadow saxifrage",
+     1856,
+     "1856-05-10",
+     130,
+     "10./5."
+    ],
+    [
+     "Gera",
+     "Pyrus communis",
+     "Pyrus communis",
+     "Birnbaum",
+     "Pear",
+     1851,
+     "1851-04-15",
+     105,
+     "15./4."
+    ],
+    [
+     "Gera",
+     "Pyrus communis",
+     "Pyrus communis",
+     "Birnbaum",
+     "Pear",
+     1852,
+     "1852-05-08",
+     128,
+     "8./5."
+    ],
+    [
+     "Gera",
+     "Pyrus communis",
+     "Pyrus communis",
+     "Birnbaum",
+     "Pear",
+     1853,
+     "1853-05-16",
+     136,
+     "16./5."
+    ],
+    [
+     "Gera",
+     "Pyrus communis",
+     "Pyrus communis",
+     "Birnbaum",
+     "Pear",
+     1854,
+     "1854-04-23",
+     113,
+     "23./4."
+    ],
+    [
+     "Gera",
+     "Pyrus communis",
+     "Pyrus communis",
+     "Birnbaum",
+     "Pear",
+     1855,
+     "1855-05-19",
+     139,
+     "19./5."
+    ],
+    [
+     "Gera",
+     "Pyrus communis",
+     "Pyrus communis",
+     "Birnbaum",
+     "Pear",
+     1856,
+     "1856-04-26",
+     116,
+     "26./4."
+    ],
+    [
+     "Gera",
+     "Prunus domestica",
+     "Prunus domestica",
+     "Pflaume",
+     "Plum",
+     1851,
+     "1851-04-12",
+     102,
+     "12./4."
+    ],
+    [
+     "Gera",
+     "Prunus domestica",
+     "Prunus domestica",
+     "Pflaume",
+     "Plum",
+     1852,
+     "1852-05-17",
+     137,
+     "17./5."
+    ],
+    [
+     "Gera",
+     "Prunus domestica",
+     "Prunus domestica",
+     "Pflaume",
+     "Plum",
+     1853,
+     "1853-05-19",
+     139,
+     "19./5."
+    ],
+    [
+     "Gera",
+     "Prunus domestica",
+     "Prunus domestica",
+     "Pflaume",
+     "Plum",
+     1854,
+     "1854-04-30",
+     120,
+     "30./4."
+    ],
+    [
+     "Gera",
+     "Prunus domestica",
+     "Prunus domestica",
+     "Pflaume",
+     "Plum",
+     1855,
+     "1855-05-19",
+     139,
+     "19./5."
+    ],
+    [
+     "Gera",
+     "Prunus domestica",
+     "Prunus domestica",
+     "Pflaume",
+     "Plum",
+     1856,
+     "1856-05-08",
+     128,
+     "8./5."
+    ],
+    [
+     "Gera",
+     "Prunus cerasus",
+     "Prunus Cerasus",
+     "Sauerkirsche",
+     "Sour cherry",
+     1851,
+     "1851-04-12",
+     102,
+     "12./4."
+    ],
+    [
+     "Gera",
+     "Prunus cerasus",
+     "Prunus Cerasus",
+     "Sauerkirsche",
+     "Sour cherry",
+     1852,
+     "1852-05-10",
+     130,
+     "10./5."
+    ],
+    [
+     "Gera",
+     "Prunus cerasus",
+     "Prunus Cerasus",
+     "Sauerkirsche",
+     "Sour cherry",
+     1853,
+     "1853-05-22",
+     142,
+     "22./5."
+    ],
+    [
+     "Gera",
+     "Prunus cerasus",
+     "Prunus Cerasus",
+     "Sauerkirsche",
+     "Sour cherry",
+     1854,
+     "1854-04-22",
+     112,
+     "22./4."
+    ],
+    [
+     "Gera",
+     "Prunus cerasus",
+     "Prunus Cerasus",
+     "Sauerkirsche",
+     "Sour cherry",
+     1855,
+     "1855-05-27",
+     147,
+     "27./5."
+    ],
+    [
+     "Gera",
+     "Prunus cerasus",
+     "Prunus Cerasus",
+     "Sauerkirsche",
+     "Sour cherry",
+     1856,
+     "1856-04-26",
+     116,
+     "26./4."
+    ],
+    [
+     "Gera",
+     "Malus domestica",
+     "Pyrus Malus",
+     "Apfelbaum",
+     "Apple",
+     1851,
+     "1851-05-24",
+     144,
+     "24./5."
+    ],
+    [
+     "Gera",
+     "Malus domestica",
+     "Pyrus Malus",
+     "Apfelbaum",
+     "Apple",
+     1852,
+     "1852-05-20",
+     140,
+     "20./5."
+    ],
+    [
+     "Gera",
+     "Malus domestica",
+     "Pyrus Malus",
+     "Apfelbaum",
+     "Apple",
+     1853,
+     "1853-05-27",
+     147,
+     "27./5."
+    ],
+    [
+     "Gera",
+     "Malus domestica",
+     "Pyrus Malus",
+     "Apfelbaum",
+     "Apple",
+     1854,
+     "1854-05-13",
+     133,
+     "13./5."
+    ],
+    [
+     "Gera",
+     "Malus domestica",
+     "Pyrus Malus",
+     "Apfelbaum",
+     "Apple",
+     1855,
+     "1855-05-27",
+     147,
+     "27./5."
+    ],
+    [
+     "Gera",
+     "Malus domestica",
+     "Pyrus Malus",
+     "Apfelbaum",
+     "Apple",
+     1856,
+     "1856-05-11",
+     131,
+     "11./5."
+    ],
+    [
+     "Gera",
+     "Crataegus",
+     "Crataegus Oxyacantha",
+     "Weißdorn",
+     "Hawthorn",
+     1851,
+     "1851-05-24",
+     144,
+     "24./5."
+    ],
+    [
+     "Gera",
+     "Crataegus",
+     "Crataegus Oxyacantha",
+     "Weißdorn",
+     "Hawthorn",
+     1852,
+     "1852-05-24",
+     144,
+     "24./5."
+    ],
+    [
+     "Gera",
+     "Crataegus",
+     "Crataegus Oxyacantha",
+     "Weißdorn",
+     "Hawthorn",
+     1853,
+     "1853-06-01",
+     152,
+     "1./6."
+    ],
+    [
+     "Gera",
+     "Crataegus",
+     "Crataegus Oxyacantha",
+     "Weißdorn",
+     "Hawthorn",
+     1854,
+     "1854-05-20",
+     140,
+     "20./5."
+    ],
+    [
+     "Gera",
+     "Crataegus",
+     "Crataegus Oxyacantha",
+     "Weißdorn",
+     "Hawthorn",
+     1855,
+     "1855-05-27",
+     147,
+     "27./5."
+    ],
+    [
+     "Gera",
+     "Crataegus",
+     "Crataegus Oxyacantha",
+     "Weißdorn",
+     "Hawthorn",
+     1856,
+     "1856-05-25",
+     145,
+     "25./5."
+    ],
+    [
+     "Gera",
+     "Sambucus nigra",
+     "Sambucus nigra",
+     "Schwarzer Holunder",
+     "Elder",
+     1851,
+     "1851-06-28",
+     179,
+     "28./6."
+    ],
+    [
+     "Gera",
+     "Sambucus nigra",
+     "Sambucus nigra",
+     "Schwarzer Holunder",
+     "Elder",
+     1852,
+     "1852-06-12",
+     163,
+     "12./6."
+    ],
+    [
+     "Gera",
+     "Sambucus nigra",
+     "Sambucus nigra",
+     "Schwarzer Holunder",
+     "Elder",
+     1853,
+     "1853-06-23",
+     174,
+     "23./6."
+    ],
+    [
+     "Gera",
+     "Sambucus nigra",
+     "Sambucus nigra",
+     "Schwarzer Holunder",
+     "Elder",
+     1854,
+     "1854-06-17",
+     168,
+     "17./6."
+    ],
+    [
+     "Gera",
+     "Sambucus nigra",
+     "Sambucus nigra",
+     "Schwarzer Holunder",
+     "Elder",
+     1855,
+     "1855-06-18",
+     169,
+     "18./6."
+    ],
+    [
+     "Gera",
+     "Sambucus nigra",
+     "Sambucus nigra",
+     "Schwarzer Holunder",
+     "Elder",
+     1856,
+     "1856-06-07",
+     158,
+     "7./6."
+    ],
+    [
+     "Hohenleuben",
+     "Viola odorata",
+     "Viola odorata",
+     "Märzveilchen",
+     "Sweet violet",
+     1853,
+     "1853-04-21",
+     111,
+     "21./4."
+    ],
+    [
+     "Hohenleuben",
+     "Viola odorata",
+     "Viola odorata",
+     "Märzveilchen",
+     "Sweet violet",
+     1854,
+     "1854-04-05",
+     95,
+     "5./4."
+    ],
+    [
+     "Hohenleuben",
+     "Viola odorata",
+     "Viola odorata",
+     "Märzveilchen",
+     "Sweet violet",
+     1855,
+     "1855-04-14",
+     104,
+     "14./4."
+    ],
+    [
+     "Hohenleuben",
+     "Viola odorata",
+     "Viola odorata",
+     "Märzveilchen",
+     "Sweet violet",
+     1856,
+     "1856-04-04",
+     94,
+     "4./4."
+    ],
+    [
+     "Hohenleuben",
+     "Viola odorata",
+     "Viola odorata",
+     "Märzveilchen",
+     "Sweet violet",
+     1857,
+     "1857-04-03",
+     93,
+     "3./4."
+    ],
+    [
+     "Hohenleuben",
+     "Viola odorata",
+     "Viola odorata",
+     "Märzveilchen",
+     "Sweet violet",
+     1858,
+     "1858-04-15",
+     105,
+     "15./4."
+    ],
+    [
+     "Hohenleuben",
+     "Viola odorata",
+     "Viola odorata",
+     "Märzveilchen",
+     "Sweet violet",
+     1859,
+     "1859-03-28",
+     87,
+     "28./3."
+    ],
+    [
+     "Hohenleuben",
+     "Viola odorata",
+     "Viola odorata",
+     "Märzveilchen",
+     "Sweet violet",
+     1860,
+     "1860-04-11",
+     101,
+     "11./4."
+    ],
+    [
+     "Hohenleuben",
+     "Viola odorata",
+     "Viola odorata",
+     "Märzveilchen",
+     "Sweet violet",
+     1861,
+     "1861-03-28",
+     87,
+     "28./3."
+    ],
+    [
+     "Hohenleuben",
+     "Anemone nemorosa",
+     "Anemone nem.",
+     "Buschwindröschen",
+     "Wood anemone",
+     1853,
+     "1853-04-29",
+     119,
+     "29./4."
+    ],
+    [
+     "Hohenleuben",
+     "Anemone nemorosa",
+     "Anemone nem.",
+     "Buschwindröschen",
+     "Wood anemone",
+     1854,
+     "1854-04-07",
+     97,
+     "7./4."
+    ],
+    [
+     "Hohenleuben",
+     "Anemone nemorosa",
+     "Anemone nem.",
+     "Buschwindröschen",
+     "Wood anemone",
+     1855,
+     "1855-04-18",
+     108,
+     "18./4."
+    ],
+    [
+     "Hohenleuben",
+     "Anemone nemorosa",
+     "Anemone nem.",
+     "Buschwindröschen",
+     "Wood anemone",
+     1856,
+     "1856-04-06",
+     96,
+     "6./4."
+    ],
+    [
+     "Hohenleuben",
+     "Anemone nemorosa",
+     "Anemone nem.",
+     "Buschwindröschen",
+     "Wood anemone",
+     1857,
+     "1857-04-04",
+     94,
+     "4./4."
+    ],
+    [
+     "Hohenleuben",
+     "Anemone nemorosa",
+     "Anemone nem.",
+     "Buschwindröschen",
+     "Wood anemone",
+     1858,
+     "1858-04-16",
+     106,
+     "16./4."
+    ],
+    [
+     "Hohenleuben",
+     "Anemone nemorosa",
+     "Anemone nem.",
+     "Buschwindröschen",
+     "Wood anemone",
+     1859,
+     "1859-03-28",
+     87,
+     "28./3."
+    ],
+    [
+     "Hohenleuben",
+     "Anemone nemorosa",
+     "Anemone nem.",
+     "Buschwindröschen",
+     "Wood anemone",
+     1860,
+     "1860-04-12",
+     102,
+     "12./4."
+    ],
+    [
+     "Hohenleuben",
+     "Anemone nemorosa",
+     "Anemone nem.",
+     "Buschwindröschen",
+     "Wood anemone",
+     1861,
+     "1861-03-28",
+     87,
+     "28./3."
+    ],
+    [
+     "Hohenleuben",
+     "Ranunculus ficaria",
+     "Ficaria verna",
+     "Scharbockskraut",
+     "Lesser celandine",
+     1853,
+     "1853-05-02",
+     122,
+     "2./5."
+    ],
+    [
+     "Hohenleuben",
+     "Ranunculus ficaria",
+     "Ficaria verna",
+     "Scharbockskraut",
+     "Lesser celandine",
+     1854,
+     "1854-04-15",
+     105,
+     "15./4."
+    ],
+    [
+     "Hohenleuben",
+     "Ranunculus ficaria",
+     "Ficaria verna",
+     "Scharbockskraut",
+     "Lesser celandine",
+     1855,
+     "1855-04-28",
+     118,
+     "28./4."
+    ],
+    [
+     "Hohenleuben",
+     "Ranunculus ficaria",
+     "Ficaria verna",
+     "Scharbockskraut",
+     "Lesser celandine",
+     1856,
+     "1856-04-14",
+     104,
+     "14./4."
+    ],
+    [
+     "Hohenleuben",
+     "Ranunculus ficaria",
+     "Ficaria verna",
+     "Scharbockskraut",
+     "Lesser celandine",
+     1857,
+     "1857-04-15",
+     105,
+     "15./4."
+    ],
+    [
+     "Hohenleuben",
+     "Ranunculus ficaria",
+     "Ficaria verna",
+     "Scharbockskraut",
+     "Lesser celandine",
+     1858,
+     "1858-04-28",
+     118,
+     "28./4."
+    ],
+    [
+     "Hohenleuben",
+     "Ranunculus ficaria",
+     "Ficaria verna",
+     "Scharbockskraut",
+     "Lesser celandine",
+     1859,
+     "1859-04-08",
+     98,
+     "8./4."
+    ],
+    [
+     "Hohenleuben",
+     "Ranunculus ficaria",
+     "Ficaria verna",
+     "Scharbockskraut",
+     "Lesser celandine",
+     1860,
+     "1860-04-18",
+     108,
+     "18./4."
+    ],
+    [
+     "Hohenleuben",
+     "Ranunculus ficaria",
+     "Ficaria verna",
+     "Scharbockskraut",
+     "Lesser celandine",
+     1861,
+     "1861-04-11",
+     101,
+     "11./4."
+    ],
+    [
+     "Hohenleuben",
+     "Primula veris",
+     "Prim. officinal.",
+     "Echte Schlüsselblume",
+     "Cowslip",
+     1853,
+     "1853-05-08",
+     128,
+     "8./5."
+    ],
+    [
+     "Hohenleuben",
+     "Primula veris",
+     "Prim. officinal.",
+     "Echte Schlüsselblume",
+     "Cowslip",
+     1854,
+     "1854-04-22",
+     112,
+     "22./4."
+    ],
+    [
+     "Hohenleuben",
+     "Primula veris",
+     "Prim. officinal.",
+     "Echte Schlüsselblume",
+     "Cowslip",
+     1855,
+     "1855-05-06",
+     126,
+     "6./5."
+    ],
+    [
+     "Hohenleuben",
+     "Primula veris",
+     "Prim. officinal.",
+     "Echte Schlüsselblume",
+     "Cowslip",
+     1856,
+     "1856-04-25",
+     115,
+     "25./4."
+    ],
+    [
+     "Hohenleuben",
+     "Primula veris",
+     "Prim. officinal.",
+     "Echte Schlüsselblume",
+     "Cowslip",
+     1857,
+     "1857-04-19",
+     109,
+     "19./4."
+    ],
+    [
+     "Hohenleuben",
+     "Primula veris",
+     "Prim. officinal.",
+     "Echte Schlüsselblume",
+     "Cowslip",
+     1858,
+     "1858-05-04",
+     124,
+     "4./5."
+    ],
+    [
+     "Hohenleuben",
+     "Primula veris",
+     "Prim. officinal.",
+     "Echte Schlüsselblume",
+     "Cowslip",
+     1859,
+     "1859-04-05",
+     95,
+     "5./4."
+    ],
+    [
+     "Hohenleuben",
+     "Primula veris",
+     "Prim. officinal.",
+     "Echte Schlüsselblume",
+     "Cowslip",
+     1860,
+     "1860-04-30",
+     120,
+     "30./4."
+    ],
+    [
+     "Hohenleuben",
+     "Primula veris",
+     "Prim. officinal.",
+     "Echte Schlüsselblume",
+     "Cowslip",
+     1861,
+     "1861-04-13",
+     103,
+     "13./4."
+    ],
+    [
+     "Hohenleuben",
+     "Ribes uva-crispa",
+     "Ribes grossul.",
+     "Stachelbeere",
+     "Gooseberry",
+     1853,
+     "1853-05-16",
+     136,
+     "16./5."
+    ],
+    [
+     "Hohenleuben",
+     "Ribes uva-crispa",
+     "Ribes grossul.",
+     "Stachelbeere",
+     "Gooseberry",
+     1854,
+     "1854-04-21",
+     111,
+     "21./4."
+    ],
+    [
+     "Hohenleuben",
+     "Ribes uva-crispa",
+     "Ribes grossul.",
+     "Stachelbeere",
+     "Gooseberry",
+     1855,
+     "1855-05-08",
+     128,
+     "8./5."
+    ],
+    [
+     "Hohenleuben",
+     "Ribes uva-crispa",
+     "Ribes grossul.",
+     "Stachelbeere",
+     "Gooseberry",
+     1856,
+     "1856-04-17",
+     107,
+     "17./4."
+    ],
+    [
+     "Hohenleuben",
+     "Ribes uva-crispa",
+     "Ribes grossul.",
+     "Stachelbeere",
+     "Gooseberry",
+     1857,
+     "1857-04-18",
+     108,
+     "18./4."
+    ],
+    [
+     "Hohenleuben",
+     "Ribes uva-crispa",
+     "Ribes grossul.",
+     "Stachelbeere",
+     "Gooseberry",
+     1858,
+     "1858-04-29",
+     119,
+     "29./4."
+    ],
+    [
+     "Hohenleuben",
+     "Ribes uva-crispa",
+     "Ribes grossul.",
+     "Stachelbeere",
+     "Gooseberry",
+     1859,
+     "1859-04-06",
+     96,
+     "6./4."
+    ],
+    [
+     "Hohenleuben",
+     "Ribes uva-crispa",
+     "Ribes grossul.",
+     "Stachelbeere",
+     "Gooseberry",
+     1860,
+     "1860-05-01",
+     121,
+     "1./5."
+    ],
+    [
+     "Hohenleuben",
+     "Ribes uva-crispa",
+     "Ribes grossul.",
+     "Stachelbeere",
+     "Gooseberry",
+     1861,
+     "1861-04-12",
+     102,
+     "12./4."
+    ],
+    [
+     "Hohenleuben",
+     "Saxifraga granulata",
+     "Saxifraga gran.",
+     "Körniger Steinbrech",
+     "Meadow saxifrage",
+     1853,
+     "1853-05-22",
+     142,
+     "22./5."
+    ],
+    [
+     "Hohenleuben",
+     "Saxifraga granulata",
+     "Saxifraga gran.",
+     "Körniger Steinbrech",
+     "Meadow saxifrage",
+     1854,
+     "1854-05-09",
+     129,
+     "9./5."
+    ],
+    [
+     "Hohenleuben",
+     "Saxifraga granulata",
+     "Saxifraga gran.",
+     "Körniger Steinbrech",
+     "Meadow saxifrage",
+     1855,
+     "1855-05-23",
+     143,
+     "23./5."
+    ],
+    [
+     "Hohenleuben",
+     "Saxifraga granulata",
+     "Saxifraga gran.",
+     "Körniger Steinbrech",
+     "Meadow saxifrage",
+     1856,
+     "1856-05-09",
+     129,
+     "9./5."
+    ],
+    [
+     "Hohenleuben",
+     "Saxifraga granulata",
+     "Saxifraga gran.",
+     "Körniger Steinbrech",
+     "Meadow saxifrage",
+     1857,
+     "1857-05-14",
+     134,
+     "14./5."
+    ],
+    [
+     "Hohenleuben",
+     "Saxifraga granulata",
+     "Saxifraga gran.",
+     "Körniger Steinbrech",
+     "Meadow saxifrage",
+     1858,
+     "1858-05-19",
+     139,
+     "19./5."
+    ],
+    [
+     "Hohenleuben",
+     "Saxifraga granulata",
+     "Saxifraga gran.",
+     "Körniger Steinbrech",
+     "Meadow saxifrage",
+     1859,
+     "1859-05-04",
+     124,
+     "4./5."
+    ],
+    [
+     "Hohenleuben",
+     "Saxifraga granulata",
+     "Saxifraga gran.",
+     "Körniger Steinbrech",
+     "Meadow saxifrage",
+     1860,
+     "1860-05-14",
+     134,
+     "14./5."
+    ],
+    [
+     "Hohenleuben",
+     "Saxifraga granulata",
+     "Saxifraga gran.",
+     "Körniger Steinbrech",
+     "Meadow saxifrage",
+     1861,
+     "1861-05-13",
+     133,
+     "13./5."
+    ],
+    [
+     "Hohenleuben",
+     "Pyrus communis",
+     "Pyrus comm.",
+     "Birnbaum",
+     "Pear",
+     1853,
+     "1853-05-25",
+     145,
+     "25./5."
+    ],
+    [
+     "Hohenleuben",
+     "Pyrus communis",
+     "Pyrus comm.",
+     "Birnbaum",
+     "Pear",
+     1854,
+     "1854-05-04",
+     124,
+     "4./5."
+    ],
+    [
+     "Hohenleuben",
+     "Pyrus communis",
+     "Pyrus comm.",
+     "Birnbaum",
+     "Pear",
+     1855,
+     "1855-05-26",
+     146,
+     "26./5."
+    ],
+    [
+     "Hohenleuben",
+     "Pyrus communis",
+     "Pyrus comm.",
+     "Birnbaum",
+     "Pear",
+     1856,
+     "1856-05-03",
+     123,
+     "3./5."
+    ],
+    [
+     "Hohenleuben",
+     "Pyrus communis",
+     "Pyrus comm.",
+     "Birnbaum",
+     "Pear",
+     1857,
+     "1857-05-11",
+     131,
+     "11./5."
+    ],
+    [
+     "Hohenleuben",
+     "Pyrus communis",
+     "Pyrus comm.",
+     "Birnbaum",
+     "Pear",
+     1858,
+     "1858-05-12",
+     132,
+     "12./5."
+    ],
+    [
+     "Hohenleuben",
+     "Pyrus communis",
+     "Pyrus comm.",
+     "Birnbaum",
+     "Pear",
+     1859,
+     "1859-05-02",
+     122,
+     "2./5."
+    ],
+    [
+     "Hohenleuben",
+     "Pyrus communis",
+     "Pyrus comm.",
+     "Birnbaum",
+     "Pear",
+     1860,
+     "1860-05-12",
+     132,
+     "12./5."
+    ],
+    [
+     "Hohenleuben",
+     "Pyrus communis",
+     "Pyrus comm.",
+     "Birnbaum",
+     "Pear",
+     1861,
+     "1861-05-12",
+     132,
+     "12./5."
+    ],
+    [
+     "Hohenleuben",
+     "Prunus domestica",
+     "Prun. domest.",
+     "Pflaume",
+     "Plum",
+     1853,
+     "1853-05-26",
+     146,
+     "26./5."
+    ],
+    [
+     "Hohenleuben",
+     "Prunus domestica",
+     "Prun. domest.",
+     "Pflaume",
+     "Plum",
+     1854,
+     "1854-05-08",
+     128,
+     "8./5."
+    ],
+    [
+     "Hohenleuben",
+     "Prunus domestica",
+     "Prun. domest.",
+     "Pflaume",
+     "Plum",
+     1855,
+     "1855-05-27",
+     147,
+     "27./5."
+    ],
+    [
+     "Hohenleuben",
+     "Prunus domestica",
+     "Prun. domest.",
+     "Pflaume",
+     "Plum",
+     1856,
+     "1856-05-10",
+     130,
+     "10./5."
+    ],
+    [
+     "Hohenleuben",
+     "Prunus domestica",
+     "Prun. domest.",
+     "Pflaume",
+     "Plum",
+     1857,
+     "1857-05-16",
+     136,
+     "16./5."
+    ],
+    [
+     "Hohenleuben",
+     "Prunus domestica",
+     "Prun. domest.",
+     "Pflaume",
+     "Plum",
+     1858,
+     "1858-05-16",
+     136,
+     "16./5."
+    ],
+    [
+     "Hohenleuben",
+     "Prunus domestica",
+     "Prun. domest.",
+     "Pflaume",
+     "Plum",
+     1859,
+     "1859-05-08",
+     128,
+     "8./5."
+    ],
+    [
+     "Hohenleuben",
+     "Prunus domestica",
+     "Prun. domest.",
+     "Pflaume",
+     "Plum",
+     1860,
+     "1860-05-13",
+     133,
+     "13./5."
+    ],
+    [
+     "Hohenleuben",
+     "Prunus domestica",
+     "Prun. domest.",
+     "Pflaume",
+     "Plum",
+     1861,
+     "1861-05-15",
+     135,
+     "15./5."
+    ],
+    [
+     "Hohenleuben",
+     "Prunus cerasus",
+     "Cerasus acida",
+     "Sauerkirsche",
+     "Sour cherry",
+     1853,
+     "1853-05-26",
+     146,
+     "26./5."
+    ],
+    [
+     "Hohenleuben",
+     "Prunus cerasus",
+     "Cerasus acida",
+     "Sauerkirsche",
+     "Sour cherry",
+     1854,
+     "1854-05-03",
+     123,
+     "3./5."
+    ],
+    [
+     "Hohenleuben",
+     "Prunus cerasus",
+     "Cerasus acida",
+     "Sauerkirsche",
+     "Sour cherry",
+     1855,
+     "1855-05-23",
+     143,
+     "23./5."
+    ],
+    [
+     "Hohenleuben",
+     "Prunus cerasus",
+     "Cerasus acida",
+     "Sauerkirsche",
+     "Sour cherry",
+     1856,
+     "1856-04-28",
+     118,
+     "28./4."
+    ],
+    [
+     "Hohenleuben",
+     "Prunus cerasus",
+     "Cerasus acida",
+     "Sauerkirsche",
+     "Sour cherry",
+     1857,
+     "1857-05-10",
+     130,
+     "10./5."
+    ],
+    [
+     "Hohenleuben",
+     "Prunus cerasus",
+     "Cerasus acida",
+     "Sauerkirsche",
+     "Sour cherry",
+     1858,
+     "1858-05-13",
+     133,
+     "13./5."
+    ],
+    [
+     "Hohenleuben",
+     "Prunus cerasus",
+     "Cerasus acida",
+     "Sauerkirsche",
+     "Sour cherry",
+     1859,
+     "1859-04-29",
+     119,
+     "29./4."
+    ],
+    [
+     "Hohenleuben",
+     "Prunus cerasus",
+     "Cerasus acida",
+     "Sauerkirsche",
+     "Sour cherry",
+     1860,
+     "1860-05-12",
+     132,
+     "12./5."
+    ],
+    [
+     "Hohenleuben",
+     "Prunus cerasus",
+     "Cerasus acida",
+     "Sauerkirsche",
+     "Sour cherry",
+     1861,
+     "1861-05-11",
+     131,
+     "11./5."
+    ],
+    [
+     "Hohenleuben",
+     "Malus domestica",
+     "Pyrus Malus",
+     "Apfelbaum",
+     "Apple",
+     1853,
+     "1853-05-30",
+     150,
+     "30./5."
+    ],
+    [
+     "Hohenleuben",
+     "Malus domestica",
+     "Pyrus Malus",
+     "Apfelbaum",
+     "Apple",
+     1854,
+     "1854-05-14",
+     134,
+     "14./5."
+    ],
+    [
+     "Hohenleuben",
+     "Malus domestica",
+     "Pyrus Malus",
+     "Apfelbaum",
+     "Apple",
+     1855,
+     "1855-05-31",
+     151,
+     "31./5."
+    ],
+    [
+     "Hohenleuben",
+     "Malus domestica",
+     "Pyrus Malus",
+     "Apfelbaum",
+     "Apple",
+     1856,
+     "1856-05-15",
+     135,
+     "15./5."
+    ],
+    [
+     "Hohenleuben",
+     "Malus domestica",
+     "Pyrus Malus",
+     "Apfelbaum",
+     "Apple",
+     1857,
+     "1857-05-18",
+     138,
+     "18./5."
+    ],
+    [
+     "Hohenleuben",
+     "Malus domestica",
+     "Pyrus Malus",
+     "Apfelbaum",
+     "Apple",
+     1858,
+     "1858-05-18",
+     138,
+     "18./5."
+    ],
+    [
+     "Hohenleuben",
+     "Malus domestica",
+     "Pyrus Malus",
+     "Apfelbaum",
+     "Apple",
+     1859,
+     "1859-05-14",
+     134,
+     "14./5."
+    ],
+    [
+     "Hohenleuben",
+     "Malus domestica",
+     "Pyrus Malus",
+     "Apfelbaum",
+     "Apple",
+     1860,
+     "1860-05-15",
+     135,
+     "15./5."
+    ],
+    [
+     "Hohenleuben",
+     "Malus domestica",
+     "Pyrus Malus",
+     "Apfelbaum",
+     "Apple",
+     1861,
+     "1861-05-23",
+     143,
+     "23./5."
+    ],
+    [
+     "Hohenleuben",
+     "Crataegus",
+     "Crataeg. Oxyat.",
+     "Weißdorn",
+     "Hawthorn",
+     1853,
+     "1853-06-07",
+     158,
+     "7./6."
+    ],
+    [
+     "Hohenleuben",
+     "Crataegus",
+     "Crataeg. Oxyat.",
+     "Weißdorn",
+     "Hawthorn",
+     1854,
+     "1854-05-28",
+     148,
+     "28./5."
+    ],
+    [
+     "Hohenleuben",
+     "Crataegus",
+     "Crataeg. Oxyat.",
+     "Weißdorn",
+     "Hawthorn",
+     1855,
+     "1855-06-05",
+     156,
+     "5./6."
+    ],
+    [
+     "Hohenleuben",
+     "Crataegus",
+     "Crataeg. Oxyat.",
+     "Weißdorn",
+     "Hawthorn",
+     1856,
+     "1856-05-27",
+     147,
+     "27./5."
+    ],
+    [
+     "Hohenleuben",
+     "Crataegus",
+     "Crataeg. Oxyat.",
+     "Weißdorn",
+     "Hawthorn",
+     1857,
+     "1857-05-25",
+     145,
+     "25./5."
+    ],
+    [
+     "Hohenleuben",
+     "Crataegus",
+     "Crataeg. Oxyat.",
+     "Weißdorn",
+     "Hawthorn",
+     1858,
+     "1858-05-03",
+     123,
+     "3./5."
+    ],
+    [
+     "Hohenleuben",
+     "Crataegus",
+     "Crataeg. Oxyat.",
+     "Weißdorn",
+     "Hawthorn",
+     1859,
+     "1859-05-26",
+     146,
+     "26./5."
+    ],
+    [
+     "Hohenleuben",
+     "Crataegus",
+     "Crataeg. Oxyat.",
+     "Weißdorn",
+     "Hawthorn",
+     1860,
+     "1860-05-02",
+     122,
+     "2./5."
+    ],
+    [
+     "Hohenleuben",
+     "Crataegus",
+     "Crataeg. Oxyat.",
+     "Weißdorn",
+     "Hawthorn",
+     1861,
+     "1861-06-01",
+     152,
+     "1./6."
+    ],
+    [
+     "Hohenleuben",
+     "Sambucus nigra",
+     "Sambuc. nigra",
+     "Schwarzer Holunder",
+     "Elder",
+     1853,
+     "1853-06-14",
+     165,
+     "14./6."
+    ],
+    [
+     "Hohenleuben",
+     "Sambucus nigra",
+     "Sambuc. nigra",
+     "Schwarzer Holunder",
+     "Elder",
+     1854,
+     "1854-06-17",
+     168,
+     "17./6."
+    ],
+    [
+     "Hohenleuben",
+     "Sambucus nigra",
+     "Sambuc. nigra",
+     "Schwarzer Holunder",
+     "Elder",
+     1855,
+     "1855-06-18",
+     169,
+     "18./6."
+    ],
+    [
+     "Hohenleuben",
+     "Sambucus nigra",
+     "Sambuc. nigra",
+     "Schwarzer Holunder",
+     "Elder",
+     1856,
+     "1856-06-11",
+     162,
+     "11./6."
+    ],
+    [
+     "Hohenleuben",
+     "Sambucus nigra",
+     "Sambuc. nigra",
+     "Schwarzer Holunder",
+     "Elder",
+     1857,
+     "1857-06-08",
+     159,
+     "8./6."
+    ],
+    [
+     "Hohenleuben",
+     "Sambucus nigra",
+     "Sambuc. nigra",
+     "Schwarzer Holunder",
+     "Elder",
+     1858,
+     "1858-06-10",
+     161,
+     "10./6."
+    ],
+    [
+     "Hohenleuben",
+     "Sambucus nigra",
+     "Sambuc. nigra",
+     "Schwarzer Holunder",
+     "Elder",
+     1859,
+     "1859-06-07",
+     158,
+     "7./6."
+    ],
+    [
+     "Hohenleuben",
+     "Sambucus nigra",
+     "Sambuc. nigra",
+     "Schwarzer Holunder",
+     "Elder",
+     1860,
+     "1860-06-07",
+     158,
+     "7./6."
+    ],
+    [
+     "Hohenleuben",
+     "Sambucus nigra",
+     "Sambuc. nigra",
+     "Schwarzer Holunder",
+     "Elder",
+     1861,
+     "1861-06-10",
+     161,
+     "10./6."
+    ],
+    [
+     "Hohenleuben",
+     "Vitis vinifera",
+     "Vitis vinifera",
+     "Weinrebe",
+     "Grapevine",
+     1854,
+     "1854-06-12",
+     163,
+     "12./6."
+    ],
+    [
+     "Hohenleuben",
+     "Vitis vinifera",
+     "Vitis vinifera",
+     "Weinrebe",
+     "Grapevine",
+     1855,
+     "1855-07-08",
+     189,
+     "8./7."
+    ],
+    [
+     "Hohenleuben",
+     "Vitis vinifera",
+     "Vitis vinifera",
+     "Weinrebe",
+     "Grapevine",
+     1856,
+     "1856-07-12",
+     193,
+     "12./7."
+    ],
+    [
+     "Hohenleuben",
+     "Vitis vinifera",
+     "Vitis vinifera",
+     "Weinrebe",
+     "Grapevine",
+     1857,
+     "1857-06-25",
+     176,
+     "25./6."
+    ]
+   ],
+   "source_refs": [
+    {
+     "page": "60",
+     "block": "b5",
+     "rows": "r2-r13"
+    },
+    {
+     "page": "60",
+     "block": "b7",
+     "rows": "r2-r14"
+    }
+   ]
+  },
+  {
+   "name": "spring",
+   "title": {
+    "de": "Frühjahrsindex und Frühjahrstemperatur",
+    "en": "Spring index and spring temperature"
+   },
+   "columns": [
+    {
+     "name": "station",
+     "label": {
+      "de": "Station",
+      "en": "Station"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "year",
+     "label": {
+      "de": "Jahr",
+      "en": "Year"
+     },
+     "type": "integer",
+     "unit": null
+    },
+    {
+     "name": "n_species",
+     "label": {
+      "de": "Zahl der Arten",
+      "en": "Number of species"
+     },
+     "type": "integer",
+     "unit": null,
+     "derived": true
+    },
+    {
+     "name": "index_days",
+     "label": {
+      "de": "Frühjahrsindex (Tage, + = spät)",
+      "en": "Spring index (days, + = late)"
+     },
+     "type": "number",
+     "unit": "d",
+     "derived": true
+    },
+    {
+     "name": "temp_mar_may_c",
+     "label": {
+      "de": "Temperatur März–Mai (Hohenleuben)",
+      "en": "Temperature March–May (Hohenleuben)"
+     },
+     "type": "number",
+     "unit": "°C",
+     "derived": true,
+     "note": "Mittel der Monatsmittel S. 56, °R × 1,25"
+    }
+   ],
+   "rows": [
+    [
+     "Gera",
+     1851,
+     12,
+     -10.16,
+     null
+    ],
+    [
+     "Gera",
+     1852,
+     11,
+     -1.38,
+     null
+    ],
+    [
+     "Gera",
+     1853,
+     12,
+     11.84,
+     null
+    ],
+    [
+     "Gera",
+     1854,
+     12,
+     -4.41,
+     null
+    ],
+    [
+     "Gera",
+     1855,
+     12,
+     9.09,
+     null
+    ],
+    [
+     "Gera",
+     1856,
+     12,
+     -5.08,
+     null
+    ],
+    [
+     "Hohenleuben",
+     1853,
+     12,
+     12.93,
+     null
+    ],
+    [
+     "Hohenleuben",
+     1854,
+     12,
+     -3.24,
+     7.5
+    ],
+    [
+     "Hohenleuben",
+     1855,
+     12,
+     10.51,
+     6.12
+    ],
+    [
+     "Hohenleuben",
+     1856,
+     12,
+     -4.41,
+     7.03
+    ],
+    [
+     "Hohenleuben",
+     1857,
+     12,
+     -2.57,
+     7.8
+    ],
+    [
+     "Hohenleuben",
+     1858,
+     12,
+     1.76,
+     6.35
+    ],
+    [
+     "Hohenleuben",
+     1859,
+     12,
+     -9.91,
+     8.54
+    ],
+    [
+     "Hohenleuben",
+     1860,
+     12,
+     -1.24,
+     7.0
+    ],
+    [
+     "Hohenleuben",
+     1861,
+     12,
+     -3.82,
+     6.87
+    ]
+   ],
+   "source_refs": [
+    {
+     "page": "60",
+     "block": "b5",
+     "rows": "r2-r13"
+    },
+    {
+     "page": "60",
+     "block": "b7",
+     "rows": "r2-r14"
+    },
+    {
+     "page": "56",
+     "block": "b2",
+     "rows": "r2-r9"
+    }
+   ]
+  },
+  {
+   "name": "trend",
+   "title": {
+    "de": "Trendgerade Index–Temperatur",
+    "en": "Index–temperature trend line"
+   },
+   "columns": [
+    {
+     "name": "x0",
+     "label": {
+      "de": "Temperatur Anfang",
+      "en": "Temperature start"
+     },
+     "type": "number",
+     "unit": "°C",
+     "derived": true
+    },
+    {
+     "name": "y0",
+     "label": {
+      "de": "Index Anfang",
+      "en": "Index start"
+     },
+     "type": "number",
+     "unit": "d",
+     "derived": true
+    },
+    {
+     "name": "x1",
+     "label": {
+      "de": "Temperatur Ende",
+      "en": "Temperature end"
+     },
+     "type": "number",
+     "unit": "°C",
+     "derived": true
+    },
+    {
+     "name": "y1",
+     "label": {
+      "de": "Index Ende",
+      "en": "Index end"
+     },
+     "type": "number",
+     "unit": "d",
+     "derived": true
+    }
+   ],
+   "rows": [
+    [
+     5.82,
+     6.76,
+     8.84,
+     -12.24
+    ]
+   ],
+   "source_refs": [
+    {
+     "page": "56",
+     "block": "b2",
+     "rows": "r2-r9"
+    }
+   ]
+  },
+  {
+   "name": "bird_species",
+   "title": {
+    "de": "Mittlere Termine je Art",
+    "en": "Mean dates by species"
+   },
+   "columns": [
+    {
+     "name": "species_printed",
+     "label": {
+      "de": "Name im Druck",
+      "en": "Name as printed"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "species_de",
+     "label": {
+      "de": "Deutscher Name",
+      "en": "German name"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "species_en",
+     "label": {
+      "de": "Englischer Name",
+      "en": "English name"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "n_arrival",
+     "label": {
+      "de": "Zahl der Ankunftsdaten",
+      "en": "Number of arrival dates"
+     },
+     "type": "integer",
+     "unit": null,
+     "derived": true
+    },
+    {
+     "name": "n_departure",
+     "label": {
+      "de": "Zahl der Abzugsdaten",
+      "en": "Number of departure dates"
+     },
+     "type": "integer",
+     "unit": null,
+     "derived": true
+    },
+    {
+     "name": "n_pairs",
+     "label": {
+      "de": "Zahl vollständiger Paare",
+      "en": "Number of complete pairs"
+     },
+     "type": "integer",
+     "unit": null,
+     "derived": true
+    },
+    {
+     "name": "mean_arrival_doy",
+     "label": {
+      "de": "Mittlere Ankunft (Tag im Jahr)",
+      "en": "Mean arrival (day of year)"
+     },
+     "type": "number",
+     "unit": "d",
+     "derived": true
+    },
+    {
+     "name": "mean_departure_doy",
+     "label": {
+      "de": "Mittlerer Abzug (Tag im Jahr)",
+      "en": "Mean departure (day of year)"
+     },
+     "type": "number",
+     "unit": "d",
+     "derived": true
+    },
+    {
+     "name": "mean_stay_days",
+     "label": {
+      "de": "Mittlere Aufenthaltsdauer",
+      "en": "Mean length of stay"
+     },
+     "type": "number",
+     "unit": "d",
+     "derived": true
+    },
+    {
+     "name": "label_align",
+     "label": {
+      "de": "Beschriftung (Seite)",
+      "en": "Label side"
+     },
+     "type": "string",
+     "unit": null,
+     "note": "nur für das Diagramm"
+    },
+    {
+     "name": "label_dy",
+     "label": {
+      "de": "Beschriftung (Versatz)",
+      "en": "Label offset"
+     },
+     "type": "integer",
+     "unit": null,
+     "derived": true,
+     "note": "nur für das Diagramm"
+    }
+   ],
+   "rows": [
+    [
+     "Lerche",
+     "Lerche",
+     "Skylark",
+     6,
+     5,
+     5,
+     38.5,
+     307.0,
+     264.8,
+     "left",
+     0
+    ],
+    [
+     "Bachstelze",
+     "Bachstelze",
+     "Wagtail (unspecified)",
+     2,
+     1,
+     1,
+     68.5,
+     285.0,
+     211.0,
+     "left",
+     13
+    ],
+    [
+     "Hausschwalbe",
+     "Hausschwalbe",
+     "House swallow (uncertain)",
+     3,
+     2,
+     2,
+     105.3,
+     282.5,
+     176.2,
+     "right",
+     0
+    ],
+    [
+     "Schwarzk. Grasmücke",
+     "Mönchsgrasmücke",
+     "Blackcap",
+     1,
+     2,
+     1,
+     123.0,
+     250.0,
+     146.0,
+     "left",
+     0
+    ],
+    [
+     "Turmschwalbe",
+     "Turmschwalbe",
+     "Common swift",
+     5,
+     4,
+     4,
+     120.9,
+     218.8,
+     98.6,
+     "right",
+     0
+    ],
+    [
+     "Pirol",
+     "Pirol",
+     "Golden oriole",
+     6,
+     3,
+     3,
+     129.8,
+     227.7,
+     104.0,
+     "right",
+     0
+    ],
+    [
+     "Kukuk",
+     "Kuckuck",
+     "Common cuckoo",
+     6,
+     3,
+     3,
+     112.8,
+     229.3,
+     119.7,
+     "left",
+     0
+    ],
+    [
+     "Mehlschwalbe",
+     "Mehlschwalbe",
+     "House martin",
+     4,
+     2,
+     2,
+     124.8,
+     258.0,
+     132.0,
+     "right",
+     0
+    ],
+    [
+     "Ringeltaube",
+     "Ringeltaube",
+     "Wood pigeon",
+     2,
+     1,
+     0,
+     69.0,
+     261.0,
+     null,
+     "left",
+     0
+    ],
+    [
+     "Rauchschwalbe",
+     "Rauchschwalbe",
+     "Barn swallow",
+     3,
+     4,
+     3,
+     101.3,
+     260.0,
+     154.7,
+     "left",
+     0
+    ],
+    [
+     "Hausrothschwanz",
+     "Hausrotschwanz",
+     "Black redstart",
+     5,
+     3,
+     3,
+     80.0,
+     281.3,
+     201.7,
+     "right",
+     3
+    ],
+    [
+     "Staar",
+     "Star",
+     "Starling",
+     3,
+     1,
+     0,
+     37.0,
+     282.0,
+     null,
+     "left",
+     0
+    ],
+    [
+     "Waldschnepfe",
+     "Waldschnepfe",
+     "Woodcock",
+     4,
+     2,
+     1,
+     77.2,
+     291.5,
+     211.0,
+     "right",
+     -3
+    ],
+    [
+     "Weiße Bachstelze",
+     "Weiße Bachstelze",
+     "White wagtail",
+     4,
+     4,
+     4,
+     62.0,
+     287.8,
+     225.8,
+     "left",
+     -3
+    ]
+   ],
+   "source_refs": [
+    {
+     "page": "61",
+     "block": "b5",
+     "rows": "r3-r16"
+    }
+   ]
+  },
+  {
+   "name": "bird_observations",
+   "title": {
+    "de": "Ankunft und Abzug je Art und Jahr",
+    "en": "Arrival and departure by species and year"
+   },
+   "columns": [
+    {
+     "name": "species_printed",
+     "label": {
+      "de": "Name im Druck",
+      "en": "Name as printed"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "species_de",
+     "label": {
+      "de": "Deutscher Name",
+      "en": "German name"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "species_en",
+     "label": {
+      "de": "Englischer Name",
+      "en": "English name"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "year",
+     "label": {
+      "de": "Jahr",
+      "en": "Year"
+     },
+     "type": "integer",
+     "unit": null
+    },
+    {
+     "name": "arrival_start",
+     "label": {
+      "de": "Ankunft (frühester Tag)",
+      "en": "Arrival (first day)"
+     },
+     "type": "date",
+     "unit": null,
+     "derived": true
+    },
+    {
+     "name": "arrival_end",
+     "label": {
+      "de": "Ankunft (letzter Tag)",
+      "en": "Arrival (last day)"
+     },
+     "type": "date",
+     "unit": null,
+     "derived": true
+    },
+    {
+     "name": "departure_start",
+     "label": {
+      "de": "Abzug (frühester Tag)",
+      "en": "Departure (first day)"
+     },
+     "type": "date",
+     "unit": null,
+     "derived": true
+    },
+    {
+     "name": "departure_end",
+     "label": {
+      "de": "Abzug (letzter Tag)",
+      "en": "Departure (last day)"
+     },
+     "type": "date",
+     "unit": null,
+     "derived": true
+    },
+    {
+     "name": "arrival_printed",
+     "label": {
+      "de": "Ankunft gedruckt",
+      "en": "Arrival as printed"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "departure_printed",
+     "label": {
+      "de": "Abzug gedruckt",
+      "en": "Departure as printed"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "arrival_doy",
+     "label": {
+      "de": "Ankunft (Tag im Jahr)",
+      "en": "Arrival (day of year)"
+     },
+     "type": "number",
+     "unit": "d",
+     "derived": true,
+     "note": "Mitte der Spanne, normiertes Jahr ohne Schalttag"
+    },
+    {
+     "name": "departure_doy",
+     "label": {
+      "de": "Abzug (Tag im Jahr)",
+      "en": "Departure (day of year)"
+     },
+     "type": "number",
+     "unit": "d",
+     "derived": true,
+     "note": "Mitte der Spanne, normiertes Jahr ohne Schalttag"
+    },
+    {
+     "name": "stay_days",
+     "label": {
+      "de": "Aufenthaltsdauer",
+      "en": "Length of stay"
+     },
+     "type": "number",
+     "unit": "d",
+     "derived": true
+    }
+   ],
+   "rows": [
+    [
+     "Lerche",
+     "Lerche",
+     "Skylark",
+     1859,
+     "1859-02-15",
+     "1859-02-15",
+     "1859-11-10",
+     "1859-11-10",
+     "15./2.",
+     "10./11",
+     46.0,
+     314.0,
+     268.0
+    ],
+    [
+     "Lerche",
+     "Lerche",
+     "Skylark",
+     1860,
+     "1860-03-01",
+     "1860-03-01",
+     "1860-10-30",
+     "1860-10-30",
+     "1./3.",
+     "30./10.",
+     60.0,
+     303.0,
+     243.0
+    ],
+    [
+     "Lerche",
+     "Lerche",
+     "Skylark",
+     1861,
+     "1861-02-07",
+     "1861-02-07",
+     "1861-11-01",
+     "1861-11-01",
+     "7./2.",
+     "1./11.",
+     38.0,
+     305.0,
+     267.0
+    ],
+    [
+     "Lerche",
+     "Lerche",
+     "Skylark",
+     1862,
+     "1862-02-07",
+     "1862-02-07",
+     "1862-11-16",
+     "1862-11-16",
+     "7./2.",
+     "16./11.",
+     38.0,
+     320.0,
+     282.0
+    ],
+    [
+     "Lerche",
+     "Lerche",
+     "Skylark",
+     1863,
+     "1863-01-29",
+     "1863-01-29",
+     "1863-10-20",
+     "1863-10-20",
+     "29./1.",
+     "20./10.",
+     29.0,
+     293.0,
+     264.0
+    ],
+    [
+     "Lerche",
+     "Lerche",
+     "Skylark",
+     1864,
+     "1864-01-20",
+     "1864-01-20",
+     null,
+     null,
+     "20./1.",
+     null,
+     20.0,
+     null,
+     null
+    ],
+    [
+     "Bachstelze",
+     "Bachstelze",
+     "Wagtail (unspecified)",
+     1859,
+     "1859-03-15",
+     "1859-03-15",
+     "1859-10-12",
+     "1859-10-12",
+     "15./3.",
+     "12./10.",
+     74.0,
+     285.0,
+     211.0
+    ],
+    [
+     "Bachstelze",
+     "Bachstelze",
+     "Wagtail (unspecified)",
+     1861,
+     "1861-03-04",
+     "1861-03-04",
+     null,
+     null,
+     "4./3.",
+     null,
+     63.0,
+     null,
+     null
+    ],
+    [
+     "Hausschwalbe",
+     "Hausschwalbe",
+     "House swallow (uncertain)",
+     1859,
+     "1859-04-21",
+     "1859-04-26",
+     "1859-10-04",
+     "1859-10-04",
+     "21.-26./4.",
+     "4./10.",
+     113.5,
+     277.0,
+     163.5
+    ],
+    [
+     "Hausschwalbe",
+     "Hausschwalbe",
+     "House swallow (uncertain)",
+     1860,
+     "1860-04-08",
+     "1860-04-10",
+     "1860-10-15",
+     "1860-10-15",
+     "8.-10./4.",
+     "15./10.",
+     99.0,
+     288.0,
+     189.0
+    ],
+    [
+     "Hausschwalbe",
+     "Hausschwalbe",
+     "House swallow (uncertain)",
+     1861,
+     "1861-04-12",
+     "1861-04-15",
+     null,
+     null,
+     "12.-15./4.",
+     null,
+     103.5,
+     null,
+     null
+    ],
+    [
+     "Schwarzk. Grasmücke",
+     "Mönchsgrasmücke",
+     "Blackcap",
+     1859,
+     "1859-05-03",
+     "1859-05-03",
+     "1859-09-26",
+     "1859-09-26",
+     "3./5.",
+     "26./9.",
+     123.0,
+     269.0,
+     146.0
+    ],
+    [
+     "Schwarzk. Grasmücke",
+     "Mönchsgrasmücke",
+     "Blackcap",
+     1861,
+     null,
+     null,
+     "1861-08-19",
+     "1861-08-19",
+     null,
+     "19./8.",
+     null,
+     231.0,
+     null
+    ],
+    [
+     "Turmschwalbe",
+     "Turmschwalbe",
+     "Common swift",
+     1859,
+     "1859-05-04",
+     "1859-05-04",
+     null,
+     null,
+     "4./5.",
+     null,
+     124.0,
+     null,
+     null
+    ],
+    [
+     "Turmschwalbe",
+     "Turmschwalbe",
+     "Common swift",
+     1861,
+     "1861-05-02",
+     "1861-05-09",
+     "1861-08-12",
+     "1861-08-12",
+     "2.-9./5.",
+     "12./8.",
+     125.5,
+     224.0,
+     98.5
+    ],
+    [
+     "Turmschwalbe",
+     "Turmschwalbe",
+     "Common swift",
+     1862,
+     "1862-04-26",
+     "1862-04-26",
+     "1862-08-05",
+     "1862-08-05",
+     "26./4.",
+     "5./8.",
+     116.0,
+     217.0,
+     101.0
+    ],
+    [
+     "Turmschwalbe",
+     "Turmschwalbe",
+     "Common swift",
+     1863,
+     "1863-05-03",
+     "1863-05-03",
+     "1863-08-07",
+     "1863-08-07",
+     "3./5.",
+     "7./8.",
+     123.0,
+     219.0,
+     96.0
+    ],
+    [
+     "Turmschwalbe",
+     "Turmschwalbe",
+     "Common swift",
+     1864,
+     "1864-04-26",
+     "1864-04-26",
+     "1864-08-03",
+     "1864-08-03",
+     "26./4.",
+     "3./8.",
+     116.0,
+     215.0,
+     99.0
+    ],
+    [
+     "Pirol",
+     "Pirol",
+     "Golden oriole",
+     1859,
+     "1859-06-01",
+     "1859-06-01",
+     null,
+     null,
+     "1./6.",
+     null,
+     152.0,
+     null,
+     null
+    ],
+    [
+     "Pirol",
+     "Pirol",
+     "Golden oriole",
+     1860,
+     "1860-05-12",
+     "1860-05-12",
+     null,
+     null,
+     "12./5.",
+     null,
+     132.0,
+     null,
+     null
+    ],
+    [
+     "Pirol",
+     "Pirol",
+     "Golden oriole",
+     1861,
+     "1861-05-11",
+     "1861-05-11",
+     "1861-08-16",
+     "1861-08-16",
+     "11./5.",
+     "16./8.",
+     131.0,
+     228.0,
+     97.0
+    ],
+    [
+     "Pirol",
+     "Pirol",
+     "Golden oriole",
+     1862,
+     "1862-04-25",
+     "1862-04-25",
+     "1862-08-16",
+     "1862-08-16",
+     "25./4.",
+     "16./8.",
+     115.0,
+     228.0,
+     113.0
+    ],
+    [
+     "Pirol",
+     "Pirol",
+     "Golden oriole",
+     1863,
+     "1863-05-05",
+     "1863-05-05",
+     "1863-08-15",
+     "1863-08-15",
+     "5./5.",
+     "15./8.",
+     125.0,
+     227.0,
+     102.0
+    ],
+    [
+     "Pirol",
+     "Pirol",
+     "Golden oriole",
+     1864,
+     "1864-05-04",
+     "1864-05-04",
+     null,
+     null,
+     "4./5.",
+     null,
+     124.0,
+     null,
+     null
+    ],
+    [
+     "Kukuk",
+     "Kuckuck",
+     "Common cuckoo",
+     1859,
+     "1859-04-16",
+     "1859-04-16",
+     null,
+     null,
+     "16./4.",
+     null,
+     106.0,
+     null,
+     null
+    ],
+    [
+     "Kukuk",
+     "Kuckuck",
+     "Common cuckoo",
+     1860,
+     "1860-05-05",
+     "1860-05-05",
+     null,
+     null,
+     "5./5.",
+     null,
+     125.0,
+     null,
+     null
+    ],
+    [
+     "Kukuk",
+     "Kuckuck",
+     "Common cuckoo",
+     1861,
+     "1861-05-01",
+     "1861-05-01",
+     "1861-08-13",
+     "1861-08-13",
+     "1./5.",
+     "13./8.",
+     121.0,
+     225.0,
+     104.0
+    ],
+    [
+     "Kukuk",
+     "Kuckuck",
+     "Common cuckoo",
+     1862,
+     "1862-04-01",
+     "1862-04-01",
+     "1862-08-20",
+     "1862-08-20",
+     "1./4.",
+     "20./8.",
+     91.0,
+     232.0,
+     141.0
+    ],
+    [
+     "Kukuk",
+     "Kuckuck",
+     "Common cuckoo",
+     1863,
+     "1863-04-27",
+     "1863-04-27",
+     "1863-08-19",
+     "1863-08-19",
+     "27./4.",
+     "19./8.",
+     117.0,
+     231.0,
+     114.0
+    ],
+    [
+     "Kukuk",
+     "Kuckuck",
+     "Common cuckoo",
+     1864,
+     "1864-04-27",
+     "1864-04-27",
+     null,
+     null,
+     "27./4.",
+     null,
+     117.0,
+     null,
+     null
+    ],
+    [
+     "Mehlschwalbe",
+     "Mehlschwalbe",
+     "House martin",
+     1860,
+     "1860-05-04",
+     "1860-05-04",
+     null,
+     null,
+     "4./5.",
+     null,
+     124.0,
+     null,
+     null
+    ],
+    [
+     "Mehlschwalbe",
+     "Mehlschwalbe",
+     "House martin",
+     1861,
+     "1861-05-13",
+     "1861-05-13",
+     "1861-09-15",
+     "1861-09-15",
+     "13./5.",
+     "15./9.",
+     133.0,
+     258.0,
+     125.0
+    ],
+    [
+     "Mehlschwalbe",
+     "Mehlschwalbe",
+     "House martin",
+     1862,
+     "1862-04-29",
+     "1862-04-29",
+     "1862-09-15",
+     "1862-09-15",
+     "29./4.",
+     "15./9.",
+     119.0,
+     258.0,
+     139.0
+    ],
+    [
+     "Mehlschwalbe",
+     "Mehlschwalbe",
+     "House martin",
+     1863,
+     "1863-05-03",
+     "1863-05-03",
+     null,
+     null,
+     "3./5.",
+     null,
+     123.0,
+     null,
+     null
+    ],
+    [
+     "Ringeltaube",
+     "Ringeltaube",
+     "Wood pigeon",
+     1861,
+     null,
+     null,
+     "1861-09-18",
+     "1861-09-18",
+     null,
+     "18./9.",
+     null,
+     261.0,
+     null
+    ],
+    [
+     "Ringeltaube",
+     "Ringeltaube",
+     "Wood pigeon",
+     1862,
+     "1862-03-13",
+     "1862-03-13",
+     null,
+     null,
+     "13./3.",
+     null,
+     72.0,
+     null,
+     null
+    ],
+    [
+     "Ringeltaube",
+     "Ringeltaube",
+     "Wood pigeon",
+     1863,
+     "1863-03-07",
+     "1863-03-07",
+     null,
+     null,
+     "7./3.",
+     null,
+     66.0,
+     null,
+     null
+    ],
+    [
+     "Rauchschwalbe",
+     "Rauchschwalbe",
+     "Barn swallow",
+     1861,
+     null,
+     null,
+     "1861-09-29",
+     "1861-09-29",
+     null,
+     "29./9.",
+     null,
+     272.0,
+     null
+    ],
+    [
+     "Rauchschwalbe",
+     "Rauchschwalbe",
+     "Barn swallow",
+     1862,
+     "1862-04-11",
+     "1862-04-11",
+     "1862-09-20",
+     "1862-09-20",
+     "11./4.",
+     "20./9.",
+     101.0,
+     263.0,
+     162.0
+    ],
+    [
+     "Rauchschwalbe",
+     "Rauchschwalbe",
+     "Barn swallow",
+     1863,
+     "1863-04-11",
+     "1863-04-11",
+     "1863-08-19",
+     "1863-08-19",
+     "11./4.",
+     "19./8.",
+     101.0,
+     231.0,
+     130.0
+    ],
+    [
+     "Rauchschwalbe",
+     "Rauchschwalbe",
+     "Barn swallow",
+     1864,
+     "1864-04-12",
+     "1864-04-12",
+     "1864-10-01",
+     "1864-10-01",
+     "12./4.",
+     "1./10.",
+     102.0,
+     274.0,
+     172.0
+    ],
+    [
+     "Hausrothschwanz",
+     "Hausrotschwanz",
+     "Black redstart",
+     1860,
+     "1860-03-24",
+     "1860-03-24",
+     null,
+     null,
+     "24./3.",
+     null,
+     83.0,
+     null,
+     null
+    ],
+    [
+     "Hausrothschwanz",
+     "Hausrotschwanz",
+     "Black redstart",
+     1861,
+     "1861-03-25",
+     "1861-03-25",
+     "1861-10-08",
+     "1861-10-08",
+     "25./3.",
+     "8./10.",
+     84.0,
+     281.0,
+     197.0
+    ],
+    [
+     "Hausrothschwanz",
+     "Hausrotschwanz",
+     "Black redstart",
+     1862,
+     "1862-03-13",
+     "1862-03-13",
+     "1862-10-06",
+     "1862-10-06",
+     "13./3.",
+     "6./10.",
+     72.0,
+     279.0,
+     207.0
+    ],
+    [
+     "Hausrothschwanz",
+     "Hausrotschwanz",
+     "Black redstart",
+     1863,
+     "1863-03-24",
+     "1863-03-24",
+     "1863-10-11",
+     "1863-10-11",
+     "24./3.",
+     "11./10.",
+     83.0,
+     284.0,
+     201.0
+    ],
+    [
+     "Hausrothschwanz",
+     "Hausrotschwanz",
+     "Black redstart",
+     1864,
+     "1864-03-19",
+     "1864-03-19",
+     null,
+     null,
+     "19./3.",
+     null,
+     78.0,
+     null,
+     null
+    ],
+    [
+     "Staar",
+     "Star",
+     "Starling",
+     1861,
+     null,
+     null,
+     "1861-10-09",
+     "1861-10-09",
+     null,
+     "9./10.",
+     null,
+     282.0,
+     null
+    ],
+    [
+     "Staar",
+     "Star",
+     "Starling",
+     1862,
+     "1862-02-17",
+     "1862-02-17",
+     null,
+     null,
+     "17./2.",
+     null,
+     48.0,
+     null,
+     null
+    ],
+    [
+     "Staar",
+     "Star",
+     "Starling",
+     1863,
+     "1863-02-02",
+     "1863-02-02",
+     null,
+     null,
+     "2./2.",
+     null,
+     33.0,
+     null,
+     null
+    ],
+    [
+     "Staar",
+     "Star",
+     "Starling",
+     1864,
+     "1864-01-30",
+     "1864-01-30",
+     null,
+     null,
+     "30./1.",
+     null,
+     30.0,
+     null,
+     null
+    ],
+    [
+     "Waldschnepfe",
+     "Waldschnepfe",
+     "Woodcock",
+     1860,
+     "1860-04-03",
+     "1860-04-03",
+     null,
+     null,
+     "3./4.",
+     null,
+     93.0,
+     null,
+     null
+    ],
+    [
+     "Waldschnepfe",
+     "Waldschnepfe",
+     "Woodcock",
+     1861,
+     "1861-03-12",
+     "1861-03-12",
+     "1861-10-09",
+     "1861-10-09",
+     "12./3.",
+     "9./10.",
+     71.0,
+     282.0,
+     211.0
+    ],
+    [
+     "Waldschnepfe",
+     "Waldschnepfe",
+     "Woodcock",
+     1862,
+     "1862-03-16",
+     "1862-03-16",
+     null,
+     null,
+     "16./3.",
+     null,
+     75.0,
+     null,
+     null
+    ],
+    [
+     "Waldschnepfe",
+     "Waldschnepfe",
+     "Woodcock",
+     1863,
+     null,
+     null,
+     "1863-10-28",
+     "1863-10-28",
+     null,
+     "28./10.",
+     null,
+     301.0,
+     null
+    ],
+    [
+     "Waldschnepfe",
+     "Waldschnepfe",
+     "Woodcock",
+     1864,
+     "1864-03-11",
+     "1864-03-11",
+     null,
+     null,
+     "11./3.",
+     null,
+     70.0,
+     null,
+     null
+    ],
+    [
+     "Weiße Bachstelze",
+     "Weiße Bachstelze",
+     "White wagtail",
+     1861,
+     "1861-03-04",
+     "1861-03-04",
+     "1861-10-28",
+     "1861-10-28",
+     "4./3.",
+     "28./10.",
+     63.0,
+     301.0,
+     238.0
+    ],
+    [
+     "Weiße Bachstelze",
+     "Weiße Bachstelze",
+     "White wagtail",
+     1862,
+     "1862-02-26",
+     "1862-02-26",
+     "1862-10-15",
+     "1862-10-15",
+     "26./2.",
+     "15./10.",
+     57.0,
+     288.0,
+     231.0
+    ],
+    [
+     "Weiße Bachstelze",
+     "Weiße Bachstelze",
+     "White wagtail",
+     1863,
+     "1863-03-05",
+     "1863-03-05",
+     "1863-10-13",
+     "1863-10-13",
+     "5./3.",
+     "13./10.",
+     64.0,
+     286.0,
+     222.0
+    ],
+    [
+     "Weiße Bachstelze",
+     "Weiße Bachstelze",
+     "White wagtail",
+     1864,
+     "1864-03-05",
+     "1864-03-05",
+     "1864-10-03",
+     "1864-10-03",
+     "5./3.",
+     "3./10.",
+     64.0,
+     276.0,
+     212.0
+    ]
+   ],
+   "source_refs": [
+    {
+     "page": "61",
+     "block": "b5",
+     "rows": "r3-r16"
+    }
+   ]
+  },
+  {
+   "name": "trees",
+   "title": {
+    "de": "Entwicklungsstufen von Rosskastanie und Birnbaum in Gera",
+    "en": "Development stages of horse chestnut and pear at Gera"
+   },
+   "columns": [
+    {
+     "name": "tree_de",
+     "label": {
+      "de": "Baum (deutsch)",
+      "en": "Tree (German)"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "tree_en",
+     "label": {
+      "de": "Baum (englisch)",
+      "en": "Tree (English)"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "stage",
+     "label": {
+      "de": "Stufe (Kennung)",
+      "en": "Stage (key)"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "stage_de",
+     "label": {
+      "de": "Stufe (deutsch)",
+      "en": "Stage (German)"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "stage_en",
+     "label": {
+      "de": "Stufe (englisch)",
+      "en": "Stage (English)"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "stage_no",
+     "label": {
+      "de": "Reihenfolge der Stufe",
+      "en": "Stage order"
+     },
+     "type": "integer",
+     "unit": null,
+     "derived": true
+    },
+    {
+     "name": "doy",
+     "label": {
+      "de": "Tag im Jahr",
+      "en": "Day of year"
+     },
+     "type": "integer",
+     "unit": "d",
+     "derived": true,
+     "note": "normiertes Jahr ohne Schalttag"
+    },
+    {
+     "name": "printed",
+     "label": {
+      "de": "Gedruckt",
+      "en": "As printed"
+     },
+     "type": "string",
+     "unit": null
+    }
+   ],
+   "rows": [
+    [
+     "Rosskastanie",
+     "Horse chestnut",
+     "leaf_bud",
+     "Blattansatz",
+     "Leaf bud",
+     1,
+     110,
+     "20./4."
+    ],
+    [
+     "Rosskastanie",
+     "Horse chestnut",
+     "flower_bud",
+     "Blütenansatz",
+     "Flower bud",
+     2,
+     142,
+     "22./5."
+    ],
+    [
+     "Rosskastanie",
+     "Horse chestnut",
+     "full_bloom",
+     "Volle Blüte",
+     "Full bloom",
+     3,
+     156,
+     "5./6."
+    ],
+    [
+     "Rosskastanie",
+     "Horse chestnut",
+     "first_fruit",
+     "Erste Frucht",
+     "First fruit",
+     4,
+     280,
+     "7./10."
+    ],
+    [
+     "Rosskastanie",
+     "Horse chestnut",
+     "leaf_fall",
+     "Entblätterung",
+     "Leaf fall",
+     5,
+     302,
+     "29./10."
+    ],
+    [
+     "Birnbaum",
+     "Pear tree",
+     "leaf_bud",
+     "Blattansatz",
+     "Leaf bud",
+     1,
+     112,
+     "22./4."
+    ],
+    [
+     "Birnbaum",
+     "Pear tree",
+     "flower_bud",
+     "Blütenansatz",
+     "Flower bud",
+     2,
+     129,
+     "9./5."
+    ],
+    [
+     "Birnbaum",
+     "Pear tree",
+     "full_bloom",
+     "Volle Blüte",
+     "Full bloom",
+     3,
+     135,
+     "15./5."
+    ],
+    [
+     "Birnbaum",
+     "Pear tree",
+     "first_fruit",
+     "Erste Frucht",
+     "First fruit",
+     4,
+     241,
+     "29./8."
+    ],
+    [
+     "Birnbaum",
+     "Pear tree",
+     "leaf_fall",
+     "Entblätterung",
+     "Leaf fall",
+     5,
+     292,
+     "19./10."
+    ]
+   ],
+   "source_refs": [
+    {
+     "page": "61",
+     "block": "b2",
+     "rows": "r2-r3"
+    }
+   ]
+  }
+ ],
+ "charts": [
+  {
+   "id": "c1",
+   "dataset": "bird_species",
+   "extra_datasets": [
+    "bird_observations"
+   ],
+   "title": {
+    "de": "Je später die Ankunft, desto früher der Abzug: Die Lerche bleibt 265 Tage, die Turmschwalbe 99",
+    "en": "Later arrival, earlier departure: the skylark stays 265 days, the common swift 99"
+   },
+   "caption": {
+    "de": "Ludwig Müllers Beobachtungen in Gera 1859 bis 1864. Balken: vom mittleren Ankunftstermin zum mittleren Abzugstermin der Art; Punkte: einzelne Jahre; Zahl: mittlere Aufenthaltsdauer der Jahre mit Ankunft und Abzug. Sortiert nach Ankunft. Quelle: S. 61.",
+    "en": "Ludwig Müller’s observations at Gera, 1859 to 1864. Bar: from the mean arrival date to the mean departure date of the species; dots: single years; number: mean length of stay in years with both arrival and departure. Sorted by arrival. Source: p. 61."
+   },
+   "vegalite": {
+    "height": {
+     "step": 24
+    },
+    "transform": [
+     {
+      "calculate": {
+       "de": "datum.species_de",
+       "en": "datum.species_en"
+      },
+      "as": "sp_label"
+     }
+    ],
+    "encoding": {
+     "y": {
+      "field": "sp_label",
+      "type": "nominal",
+      "sort": {
+       "field": "mean_arrival_doy",
+       "op": "min"
+      },
+      "axis": {
+       "title": null,
+       "labelLimit": 250,
+       "grid": true
+      }
+     }
+    },
+    "layer": [
+     {
+      "mark": {
+       "type": "bar",
+       "height": 10,
+       "cornerRadius": 5,
+       "color": "@accent",
+       "opacity": 0.85
+      },
+      "encoding": {
+       "x": {
+        "field": "mean_arrival_doy",
+        "type": "quantitative",
+        "scale": {
+         "domain": [
+          20,
+          380
+         ],
+         "nice": false
+        },
+        "axis": {
+         "title": null,
+         "values": [
+          1,
+          32,
+          60,
+          91,
+          121,
+          152,
+          182,
+          213,
+          244,
+          274,
+          305,
+          335
+         ],
+         "labelExpr": {
+          "de": "{'1':'Jan','32':'Feb','60':'Mär','91':'Apr','121':'Mai','152':'Jun','182':'Jul','213':'Aug','244':'Sep','274':'Okt','305':'Nov','335':'Dez'}[datum.value]",
+          "en": "{'1':'Jan','32':'Feb','60':'Mar','91':'Apr','121':'May','152':'Jun','182':'Jul','213':'Aug','244':'Sep','274':'Oct','305':'Nov','335':'Dec'}[datum.value]"
+         },
+         "grid": true,
+         "labelAngle": 0,
+         "labelAlign": "left",
+         "labelOffset": 2
+        }
+       },
+       "x2": {
+        "field": "mean_departure_doy"
+       },
+       "tooltip": [
+        {
+         "field": "sp_label",
+         "title": {
+          "de": "Art",
+          "en": "Species"
+         }
+        },
+        {
+         "field": "mean_arrival_doy",
+         "title": {
+          "de": "mittlere Ankunft (Tag im Jahr)",
+          "en": "mean arrival (day of year)"
+         },
+         "format": ".0f"
+        },
+        {
+         "field": "mean_departure_doy",
+         "title": {
+          "de": "mittlerer Abzug (Tag im Jahr)",
+          "en": "mean departure (day of year)"
+         },
+         "format": ".0f"
+        },
+        {
+         "field": "mean_stay_days",
+         "title": {
+          "de": "mittlere Aufenthaltsdauer (Tage)",
+          "en": "mean length of stay (days)"
+         },
+         "format": ".0f"
+        }
+       ]
+      }
+     },
+     {
+      "data": {
+       "name": "bird_observations"
+      },
+      "transform": [
+       {
+        "calculate": {
+         "de": "datum.species_de",
+         "en": "datum.species_en"
+        },
+        "as": "sp_label"
+       }
+      ],
+      "mark": {
+       "type": "point",
+       "filled": true,
+       "size": 24,
+       "color": "@ink2",
+       "opacity": 0.8,
+       "stroke": "@paper",
+       "strokeWidth": 0.8
+      },
+      "encoding": {
+       "x": {
+        "field": "arrival_doy",
+        "type": "quantitative"
+       },
+       "y": {
+        "field": "sp_label",
+        "type": "nominal",
+        "sort": {
+         "field": "mean_arrival_doy",
+         "op": "min"
+        },
+        "axis": {
+         "title": null,
+         "labelLimit": 250,
+         "grid": true
+        }
+       },
+       "tooltip": [
+        {
+         "field": "sp_label",
+         "title": {
+          "de": "Art",
+          "en": "Species"
+         }
+        },
+        {
+         "field": "year",
+         "title": {
+          "de": "Jahr",
+          "en": "Year"
+         }
+        },
+        {
+         "field": "arrival_printed",
+         "title": {
+          "de": "Ankunft (gedruckt)",
+          "en": "Arrival (as printed)"
+         }
+        }
+       ]
+      }
+     },
+     {
+      "data": {
+       "name": "bird_observations"
+      },
+      "transform": [
+       {
+        "calculate": {
+         "de": "datum.species_de",
+         "en": "datum.species_en"
+        },
+        "as": "sp_label"
+       },
+       {
+        "filter": "isValid(datum.departure_doy)"
+       }
+      ],
+      "mark": {
+       "type": "point",
+       "filled": true,
+       "size": 24,
+       "color": "@ink2",
+       "opacity": 0.8,
+       "stroke": "@paper",
+       "strokeWidth": 0.8
+      },
+      "encoding": {
+       "x": {
+        "field": "departure_doy",
+        "type": "quantitative"
+       },
+       "y": {
+        "field": "sp_label",
+        "type": "nominal",
+        "sort": {
+         "field": "mean_arrival_doy",
+         "op": "min"
+        },
+        "axis": {
+         "title": null,
+         "labelLimit": 250,
+         "grid": true
+        }
+       },
+       "tooltip": [
+        {
+         "field": "sp_label",
+         "title": {
+          "de": "Art",
+          "en": "Species"
+         }
+        },
+        {
+         "field": "year",
+         "title": {
+          "de": "Jahr",
+          "en": "Year"
+         }
+        },
+        {
+         "field": "departure_printed",
+         "title": {
+          "de": "Abzug (gedruckt)",
+          "en": "Departure (as printed)"
+         }
+        }
+       ]
+      }
+     },
+     {
+      "transform": [
+       {
+        "filter": "isValid(datum.mean_stay_days)"
+       },
+       {
+        "calculate": {
+         "de": "format(datum.mean_stay_days, '.0f') + ' Tage'",
+         "en": "format(datum.mean_stay_days, '.0f') + ' days'"
+        },
+        "as": "stay_lab"
+       }
+      ],
+      "mark": {
+       "type": "text",
+       "style": "label",
+       "align": "right"
+      },
+      "encoding": {
+       "x": {
+        "datum": 380,
+        "type": "quantitative",
+        "scale": {
+         "domain": [
+          20,
+          380
+         ],
+         "nice": false
+        },
+        "axis": {
+         "title": null,
+         "values": [
+          1,
+          32,
+          60,
+          91,
+          121,
+          152,
+          182,
+          213,
+          244,
+          274,
+          305,
+          335
+         ],
+         "labelExpr": {
+          "de": "{'1':'Jan','32':'Feb','60':'Mär','91':'Apr','121':'Mai','152':'Jun','182':'Jul','213':'Aug','244':'Sep','274':'Okt','305':'Nov','335':'Dez'}[datum.value]",
+          "en": "{'1':'Jan','32':'Feb','60':'Mar','91':'Apr','121':'May','152':'Jun','182':'Jul','213':'Aug','244':'Sep','274':'Oct','305':'Nov','335':'Dec'}[datum.value]"
+         },
+         "grid": true,
+         "labelAngle": 0,
+         "labelAlign": "left",
+         "labelOffset": 2
+        }
+       },
+       "text": {
+        "field": "stay_lab"
+       }
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "c2",
+   "dataset": "bloom",
+   "title": {
+    "de": "Hohenleuben blühte 1853 bis 1856 im Mittel 3,8 Tage später als Gera",
+    "en": "Hohenleuben flowered on average 3.8 days later than Gera in 1853 to 1856"
+   },
+   "caption": {
+    "de": "Tag des ersten Aufblühens von zwölf Pflanzen in den vier gemeinsamen Jahren 1853 bis 1856: ein Punkt je Jahr, Strich: früheste bis späteste Blüte, Raute: Mittel. Sortiert nach mittlerem Termin. Quelle: S. 60.",
+    "en": "Day of first flowering of twelve plants in the four common years 1853 to 1856: one dot per year, line: earliest to latest, diamond: mean. Sorted by mean date. Source: p. 60."
+   },
+   "vegalite": {
+    "height": {
+     "step": 15
+    },
+    "transform": [
+     {
+      "filter": "datum.year >= 1853 && datum.year <= 1856 && datum.species != 'Vitis vinifera'"
+     },
+     {
+      "joinaggregate": [
+       {
+        "op": "min",
+        "field": "doy",
+        "as": "dmin"
+       },
+       {
+        "op": "max",
+        "field": "doy",
+        "as": "dmax"
+       },
+       {
+        "op": "mean",
+        "field": "doy",
+        "as": "dmean"
+       }
+      ],
+      "groupby": [
+       "species",
+       "station"
+      ]
+     },
+     {
+      "joinaggregate": [
+       {
+        "op": "mean",
+        "field": "doy",
+        "as": "sp_mean"
+       }
+      ],
+      "groupby": [
+       "species"
+      ]
+     },
+     {
+      "calculate": {
+       "de": "datum.species_de",
+       "en": "datum.species_en"
+      },
+      "as": "sp_label"
+     }
+    ],
+    "encoding": {
+     "y": {
+      "field": "sp_label",
+      "type": "nominal",
+      "sort": {
+       "field": "sp_mean",
+       "op": "min"
+      },
+      "axis": {
+       "title": null,
+       "labelLimit": 240,
+       "grid": true
+      }
+     },
+     "yOffset": {
+      "field": "station",
+      "type": "nominal",
+      "sort": [
+       "Gera",
+       "Hohenleuben"
+      ]
+     }
+    },
+    "layer": [
+     {
+      "mark": {
+       "type": "rule",
+       "strokeWidth": 4,
+       "opacity": 0.35
+      },
+      "encoding": {
+       "x": {
+        "field": "dmin",
+        "type": "quantitative",
+        "scale": {
+         "domain": [
+          70,
+          200
+         ],
+         "nice": false
+        },
+        "axis": {
+         "title": null,
+         "values": [
+          60,
+          91,
+          121,
+          152,
+          182
+         ],
+         "labelExpr": {
+          "de": "{'60':'1. März','91':'1. April','121':'1. Mai','152':'1. Juni','182':'1. Juli'}[datum.value]",
+          "en": "{'60':'Mar 1','91':'Apr 1','121':'May 1','152':'Jun 1','182':'Jul 1'}[datum.value]"
+         },
+         "grid": true,
+         "labelAngle": 0
+        }
+       },
+       "x2": {
+        "field": "dmax"
+       },
+       "color": {
+        "field": "station",
+        "type": "nominal",
+        "scale": {
+         "domain": [
+          "Gera",
+          "Hohenleuben"
+         ],
+         "range": [
+          "@accent",
+          "@accent2"
+         ]
+        },
+        "legend": null
+       }
+      }
+     },
+     {
+      "mark": {
+       "type": "point",
+       "filled": true,
+       "size": 34,
+       "opacity": 0.9
+      },
+      "encoding": {
+       "x": {
+        "field": "doy",
+        "type": "quantitative"
+       },
+       "color": {
+        "field": "station",
+        "type": "nominal",
+        "scale": {
+         "domain": [
+          "Gera",
+          "Hohenleuben"
+         ],
+         "range": [
+          "@accent",
+          "@accent2"
+         ]
+        },
+        "legend": null
+       },
+       "tooltip": [
+        {
+         "field": "sp_label",
+         "title": {
+          "de": "Pflanze",
+          "en": "Plant"
+         }
+        },
+        {
+         "field": "station",
+         "title": {
+          "de": "Ort",
+          "en": "Place"
+         }
+        },
+        {
+         "field": "year",
+         "title": {
+          "de": "Jahr",
+          "en": "Year"
+         }
+        },
+        {
+         "field": "printed",
+         "title": {
+          "de": "Datum (gedruckt, Tag./Monat.)",
+          "en": "Date (as printed, day/month)"
+         }
+        },
+        {
+         "field": "doy",
+         "title": {
+          "de": "Tag im Jahr",
+          "en": "Day of year"
+         },
+         "format": "d"
+        }
+       ]
+      }
+     },
+     {
+      "mark": {
+       "type": "point",
+       "shape": "diamond",
+       "filled": true,
+       "size": 110,
+       "stroke": "@paper",
+       "strokeWidth": 1.2
+      },
+      "encoding": {
+       "x": {
+        "field": "dmean",
+        "type": "quantitative"
+       },
+       "color": {
+        "field": "station",
+        "type": "nominal",
+        "scale": {
+         "domain": [
+          "Gera",
+          "Hohenleuben"
+         ],
+         "range": [
+          "@accent",
+          "@accent2"
+         ]
+        },
+        "legend": null
+       },
+       "tooltip": [
+        {
+         "field": "sp_label",
+         "title": {
+          "de": "Pflanze",
+          "en": "Plant"
+         }
+        },
+        {
+         "field": "station",
+         "title": {
+          "de": "Ort",
+          "en": "Place"
+         }
+        },
+        {
+         "field": "dmean",
+         "title": {
+          "de": "Mittel (Tag im Jahr)",
+          "en": "Mean (day of year)"
+         },
+         "format": ".1f"
+        }
+       ]
+      }
+     },
+     {
+      "transform": [
+       {
+        "filter": "datum.species == 'Viola odorata' && datum.year == 1856"
+       }
+      ],
+      "mark": {
+       "type": "text",
+       "style": "label",
+       "align": "left",
+       "dx": 9
+      },
+      "encoding": {
+       "x": {
+        "field": "dmax",
+        "type": "quantitative"
+       },
+       "text": {
+        "field": "station"
+       },
+       "color": {
+        "field": "station",
+        "type": "nominal",
+        "scale": {
+         "domain": [
+          "Gera",
+          "Hohenleuben"
+         ],
+         "range": [
+          "@accent",
+          "@accent2"
+         ]
+        },
+        "legend": null
+       }
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "c3",
+   "dataset": "spring",
+   "extra_datasets": [
+    "trend"
+   ],
+   "title": {
+    "de": "Je wärmer das Frühjahr, desto früher die Blüte: etwa 6 Tage je Grad",
+    "en": "The warmer the spring, the earlier the flowering: about 6 days per degree"
+   },
+   "caption": {
+    "de": "Frühjahrsindex von Hohenleuben (mittlere Abweichung der zwölf Blühtermine eines Jahres vom Mittel der Art, in Tagen; positiv = später) gegen die Mitteltemperatur von März bis Mai (°C). Gerade: Regression, r = −0,84, 8 Jahre. Quelle: S. 56, 60.",
+    "en": "Spring index of Hohenleuben (mean deviation of a year’s twelve flowering dates from the mean of the species, in days; positive = later) against the mean temperature of March to May (°C). Line: regression, r = −0.84, 8 years. Source: pp. 56, 60."
+   },
+   "vegalite": {
+    "height": 340,
+    "transform": [
+     {
+      "filter": "datum.station == 'Hohenleuben' && isValid(datum.temp_mar_may_c)"
+     }
+    ],
+    "layer": [
+     {
+      "mark": {
+       "type": "rule",
+       "strokeDash": [
+        3,
+        3
+       ],
+       "color": "@muted"
+      },
+      "encoding": {
+       "y": {
+        "datum": 0,
+        "type": "quantitative",
+        "scale": {
+         "domain": [
+          -12,
+          12
+         ]
+        },
+        "axis": {
+         "title": {
+          "de": "Frühjahrsindex (Tage, positiv = später)",
+          "en": "Spring index (days, positive = later)"
+         },
+         "values": [
+          -10,
+          -5,
+          0,
+          5,
+          10
+         ],
+         "format": "+d",
+         "labelExpr": "datum.value > 0 ? '+' + datum.value : (datum.value < 0 ? '\\u2212' + abs(datum.value) : '0')"
+        }
+       },
+       "x": null
+      }
+     },
+     {
+      "data": {
+       "name": "trend"
+      },
+      "mark": {
+       "type": "rule",
+       "color": "@ink2",
+       "strokeWidth": 1.5
+      },
+      "encoding": {
+       "x": {
+        "field": "x0",
+        "type": "quantitative",
+        "scale": {
+         "domain": [
+          5.6,
+          9.1
+         ]
+        },
+        "axis": {
+         "title": {
+          "de": "Mitteltemperatur März bis Mai (°C)",
+          "en": "Mean temperature March to May (°C)"
+         },
+         "values": [
+          6,
+          7,
+          8,
+          9
+         ],
+         "format": "d",
+         "grid": false
+        }
+       },
+       "x2": {
+        "field": "x1"
+       },
+       "y": {
+        "field": "y0",
+        "type": "quantitative"
+       },
+       "y2": {
+        "field": "y1"
+       }
+      }
+     },
+     {
+      "mark": {
+       "type": "circle",
+       "size": 120,
+       "color": "@accent2",
+       "opacity": 1
+      },
+      "encoding": {
+       "x": {
+        "field": "temp_mar_may_c",
+        "type": "quantitative"
+       },
+       "y": {
+        "field": "index_days",
+        "type": "quantitative"
+       },
+       "tooltip": [
+        {
+         "field": "year",
+         "title": {
+          "de": "Jahr",
+          "en": "Year"
+         }
+        },
+        {
+         "field": "temp_mar_may_c",
+         "title": {
+          "de": "Mitteltemperatur März bis Mai (°C)",
+          "en": "Mean temperature March to May (°C)"
+         },
+         "format": ".1f"
+        },
+        {
+         "field": "index_days",
+         "title": {
+          "de": "Frühjahrsindex (Tage)",
+          "en": "Spring index (days)"
+         },
+         "format": "+.1f"
+        }
+       ]
+      }
+     },
+     {
+      "transform": [
+       {
+        "filter": "indexof([1861, 1858], datum.year) >= 0"
+       }
+      ],
+      "mark": {
+       "type": "text",
+       "style": "place-halo",
+       "align": "right",
+       "dx": -10
+      },
+      "encoding": {
+       "x": {
+        "field": "temp_mar_may_c",
+        "type": "quantitative"
+       },
+       "y": {
+        "field": "index_days",
+        "type": "quantitative"
+       },
+       "text": {
+        "field": "year",
+        "type": "ordinal"
+       }
+      }
+     },
+     {
+      "transform": [
+       {
+        "filter": "indexof([1861, 1858], datum.year) >= 0"
+       }
+      ],
+      "mark": {
+       "type": "text",
+       "style": "place-label",
+       "align": "right",
+       "dx": -10
+      },
+      "encoding": {
+       "x": {
+        "field": "temp_mar_may_c",
+        "type": "quantitative"
+       },
+       "y": {
+        "field": "index_days",
+        "type": "quantitative"
+       },
+       "text": {
+        "field": "year",
+        "type": "ordinal"
+       }
+      }
+     },
+     {
+      "transform": [
+       {
+        "filter": "indexof([1861, 1858], datum.year) < 0"
+       }
+      ],
+      "mark": {
+       "type": "text",
+       "style": "place-halo",
+       "align": "left",
+       "dx": 10
+      },
+      "encoding": {
+       "x": {
+        "field": "temp_mar_may_c",
+        "type": "quantitative"
+       },
+       "y": {
+        "field": "index_days",
+        "type": "quantitative"
+       },
+       "text": {
+        "field": "year",
+        "type": "ordinal"
+       }
+      }
+     },
+     {
+      "transform": [
+       {
+        "filter": "indexof([1861, 1858], datum.year) < 0"
+       }
+      ],
+      "mark": {
+       "type": "text",
+       "style": "place-label",
+       "align": "left",
+       "dx": 10
+      },
+      "encoding": {
+       "x": {
+        "field": "temp_mar_may_c",
+        "type": "quantitative"
+       },
+       "y": {
+        "field": "index_days",
+        "type": "quantitative"
+       },
+       "text": {
+        "field": "year",
+        "type": "ordinal"
+       }
+      }
+     },
+     {
+      "transform": [
+       {
+        "filter": "datum.year == 1855"
+       }
+      ],
+      "mark": {
+       "type": "text",
+       "style": "annotation",
+       "align": "right",
+       "dy": -7,
+       "color": "@muted"
+      },
+      "encoding": {
+       "x": {
+        "datum": 9.05,
+        "type": "quantitative"
+       },
+       "y": {
+        "datum": 0,
+        "type": "quantitative"
+       },
+       "text": {
+        "value": {
+         "de": "Mittel der Art",
+         "en": "mean of the species"
+        }
+       }
+      }
+     },
+     {
+      "data": {
+       "name": "trend"
+      },
+      "transform": [
+       {
+        "calculate": "datum.y0 + (6.2 - datum.x0) * (datum.y1 - datum.y0) / (datum.x1 - datum.x0)",
+        "as": "y_at"
+       }
+      ],
+      "mark": {
+       "type": "text",
+       "style": "annotation",
+       "align": "left",
+       "dy": -15,
+       "dx": 2
+      },
+      "encoding": {
+       "x": {
+        "datum": 6.2,
+        "type": "quantitative"
+       },
+       "y": {
+        "field": "y_at",
+        "type": "quantitative"
+       },
+       "text": {
+        "value": {
+         "de": "6,3 Tage früher je Grad",
+         "en": "6.3 days earlier per degree"
+        }
+       }
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "keywords": {
+  "de": [
+   "Phänologie",
+   "Blüte",
+   "Blühtermine",
+   "Zugvögel",
+   "Vogelzug",
+   "Ankunft",
+   "Abzug",
+   "Gera",
+   "Hohenleuben",
+   "Frühling",
+   "Schübler"
+  ],
+  "en": [
+   "phenology",
+   "flowering",
+   "bloom dates",
+   "migratory birds",
+   "bird migration",
+   "arrival",
+   "departure",
+   "Gera",
+   "Hohenleuben",
+   "spring",
+   "Schübler"
+  ]
+ },
+ "related": [
+  "klima-gera",
+  "klima-stationen",
+  "pflanzenwelt",
+  "tierwelt"
+ ],
+ "generated_by": "Claude Sonnet 5.5 (Agent F2), aus 2 Einzelauswertungen zusammengeführt",
+ "date": "2026-10-02"
+}

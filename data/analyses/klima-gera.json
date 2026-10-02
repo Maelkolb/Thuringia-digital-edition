@@ -1,0 +1,4470 @@
+{
+ "id": "klima-gera",
+ "title": {
+  "de": "Wetter in Gera 1856–1867",
+  "en": "Weather in Gera, 1856–1867"
+ },
+ "category": "climate",
+ "section": "t1-1-7",
+ "merges": [
+  "klima-gera-temperatur-1856-1867",
+  "klima-gera-luftdruck-1856-1867",
+  "klima-regenmenge-gera-1860-1867",
+  "klima-witterungserscheinungen-gera-1856-1867"
+ ],
+ "sources": [
+  {
+   "page": "54",
+   "block": "b1"
+  },
+  {
+   "page": "54",
+   "block": "b4"
+  },
+  {
+   "page": "55",
+   "block": "b7"
+  },
+  {
+   "page": "55",
+   "block": "b9"
+  },
+  {
+   "page": "66",
+   "block": "b3",
+   "rows": "r2-r15"
+  },
+  {
+   "page": "68",
+   "block": "b7"
+  },
+  {
+   "page": "69",
+   "block": "b1",
+   "rows": "r2-r10"
+  },
+  {
+   "page": "830",
+   "block": "b3"
+  },
+  {
+   "page": "830",
+   "block": "b6"
+  }
+ ],
+ "summary": {
+  "de": "Für Gera druckt Brückner Wetterbeobachtungen aus zwölf Jahren (1856 bis 1867): Monatsmittel der Temperatur und des Luftdrucks, die Regenmenge seit 1860 und die Zahl von Nebel, Regen, Schnee, Reif und Gewittern. Das Jahresmittel der Temperatur beträgt 8,7 °C (aus Réaumur umgerechnet), die Regenmenge im Mittel 557 mm, Gewitter zählt er 22,5 im Jahr.",
+  "en": "For Gera, Brückner prints twelve years of weather observations (1856 to 1867): monthly mean temperature and air pressure, rainfall from 1860, and counts of fog, rain, snow, hoarfrost and thunderstorms. The mean annual temperature is 8.7 °C (converted from Réaumur), mean rainfall 557 mm, and he counts 22.5 thunderstorms a year."
+ },
+ "findings": [
+  {
+   "de": "Das Jahresmittel liegt bei 8,7 °C und reicht von 6,5 °C (1864) bis 9,9 °C (1863). Höchster Stand: 35,9 °C (1859), tiefster: −28,4 °C (1861).",
+   "en": "The annual mean is 8.7 °C and ranges from 6.5 °C (1864) to 9.9 °C (1863). Highest reading: 35.9 °C (1859), lowest: −28.4 °C (1861)."
+  },
+  {
+   "de": "64 Prozent der Gewitter von 1856 bis 1867 fielen in Juni bis August; im November gab es keines. Schnee und Reif traten im August nie auf.",
+   "en": "64 percent of the thunderstorms from 1856 to 1867 fell in June to August; there was none in November. Snow and hoarfrost never occurred in August."
+  },
+  {
+   "de": "1860 bis 1867 fielen im Mittel 557 mm Niederschlag, von 491 mm (1861) bis 642 mm (1862); das thüringische Mittel beträgt 572 mm.",
+   "en": "From 1860 to 1867 the average was 557 mm of precipitation, from 491 mm (1861) to 642 mm (1862); the Thuringian average is 572 mm."
+  }
+ ],
+ "method": {
+  "de": "Die Monatsmittel der Temperatur (S. 55) sind in Grad Réaumur gedruckt und mit 1,25 in °C umgerechnet; die Skala nennt Brückner nicht ausdrücklich, sie folgt aus S. 70 und aus der Plausibilität der Werte. Die Abweichung im ersten Diagramm ist das Monatsmittel minus das Mittel desselben Kalendermonats über die zwölf Jahre, neu aus den 144 Werten berechnet. Winter, Sommer und Jahresmittel sowie Höchst- und Tiefststand stammen aus Brückners zweiter Tabelle (S. 55).\nDas zweite Diagramm teilt die Monatssummen der Erscheinungen (S. 66, Summen über zwölf Jahre) durch die Jahressumme der jeweiligen Erscheinung. Die Regenzahlen sind nach Brückners Berichtigung (S. 830) eingesetzt: Januar 87, Juli 181, August 152, Dezember 84. Gezeigt werden sieben Erscheinungen; Sonnen- und Mondhöfe sowie Zodiakal- und Nordlicht stehen nur im Datensatz.\nDie Regenmenge steht auf S. 69 in Pariser Zoll Höhe (1 Zoll = 27,07 mm). Brückner berichtigt auf S. 830 mehrere Jahresmittel; die Auswertung verwendet die berichtigten Werte, der Datensatz nennt die gedruckten daneben. Der Luftdruck (S. 54) ist in Pariser Linien gedruckt (1 Linie = 2,2558 mm Quecksilbersäule, 1 mm = 1,3332 hPa) und nur als Jahresmittel aufgenommen.",
+  "en": "The monthly mean temperatures (p. 55) are printed in degrees Réaumur and converted at 1.25 to °C; Brückner does not state the scale explicitly, it follows from p. 70 and from the plausibility of the values. The deviation in the first chart is the monthly mean minus the mean of the same calendar month over the twelve years, recomputed from the 144 values. Winter and summer means, annual means and the highest and lowest readings come from Brückner’s second table (p. 55).\nThe second chart divides the monthly totals of the phenomena (p. 66, sums over twelve years) by the annual total of each phenomenon. The rain counts use Brückner’s correction (p. 830): January 87, July 181, August 152, December 84. Seven phenomena are shown; solar and lunar halos and zodiacal light and aurora appear only in the dataset.\nRainfall is given on p. 69 as a depth in Paris inches (1 inch = 27.07 mm). On p. 830 Brückner corrects several annual means; the analysis uses the corrected values, and the dataset lists the printed ones alongside. Air pressure (p. 54) is printed in Paris lines (1 line = 2.2558 mm of mercury, 1 mm = 1.3332 hPa) and is included only as annual means."
+ },
+ "conversions": [
+  {
+   "from": "Grad Réaumur (°R)",
+   "to": "Grad Celsius (°C)",
+   "factor_or_formula": "°C = °R × 1,25",
+   "reference": "80 Teilstriche zwischen Eis- und Siedepunkt (Réaumur) gegenüber 100 (Celsius); von Brückner nicht tabelliert"
+  },
+  {
+   "from": "Pariser Zoll (Regenhöhe)",
+   "to": "mm",
+   "factor_or_formula": "mm = Zoll × 27,07",
+   "reference": "1 Zoll = 12 Pariser Linien; 443,296 Pariser Linien = 1 m (Brückner S. 831)"
+  },
+  {
+   "from": "Pariser Linie (Barometer)",
+   "to": "hPa",
+   "factor_or_formula": "hPa = Linien × 2,2558 mm × 1,3332 hPa/mm",
+   "reference": "1 Pariser Fuß = 324,84 mm; 1 Linie = 1/144 Fuß"
+  }
+ ],
+ "caveats": [
+  {
+   "de": "Die Temperaturskala nennt Brückner im Klimakapitel nicht. Angenommen wird Grad Réaumur (S. 70 nennt »° R.«); wären es Celsiusgrade, lägen alle °C-Werte um ein Fünftel niedriger. Die Beobachter wechselten (Kratzsch, Schmidt), Instrument und Aufstellung sind nicht beschrieben.",
+   "en": "Brückner does not name the temperature scale in the climate chapter. Réaumur is assumed (p. 70 gives »° R.«); if the values were Celsius, all °C figures would be one fifth lower. The observers changed (Kratzsch, Schmidt); instrument and exposure are not described."
+  },
+  {
+   "de": "Der Luftdruck liegt ab 1865 um 8 bis 11 hPa höher als 1856 bis 1864 (989 bis 994 hPa). Das deutet eher auf einen Wechsel von Instrument oder Aufstellung als auf eine Klimaänderung; Gleichartigkeit der Temperaturreihe ist daher nicht belegt.",
+   "en": "From 1865 air pressure is 8 to 11 hPa higher than in 1856 to 1864 (989 to 994 hPa). This suggests a change of instrument or exposure rather than of climate; the homogeneity of the temperature series is therefore not established."
+  },
+  {
+   "de": "Der März 1856 (−6,8 °R) widerspricht Hohenleuben, wo für denselben Monat +0,28 °R gedruckt sind. Geras gedruckte Winter- und Jahresmittel 1856 sind mit −6,8 gerechnet, der Fehler läge also in der Vorlage. Der Wert wird unverändert gezeigt und prägt die Extreme im ersten Diagramm.",
+   "en": "March 1856 (−6.8 °R) contradicts Hohenleuben, where +0.28 °R is printed for the same month. Gera’s printed winter and annual means for 1856 are computed with −6.8, so the error would lie in the source. The value is shown unchanged and shapes the extremes in the first chart."
+  },
+  {
+   "de": "Ob Tage oder einzelne Ereignisse gezählt wurden, sagt Brückner nicht; Kratzsch notierte nur ein- bis zweimal täglich, kurze Erscheinungen können fehlen. Acht Regenjahre sind eine kurze Reihe, und Brückners Fließtext (S. 69) übernimmt die Berichtigungen von S. 830 nicht.",
+   "en": "Brückner does not say whether days or single events were counted; Kratzsch noted only once or twice a day, so short phenomena may be missing. Eight rain years are a short series, and Brückner’s running text (p. 69) does not adopt the corrections of p. 830."
+  }
+ ],
+ "datasets": [
+  {
+   "name": "temp_monthly",
+   "title": {
+    "de": "Monatsmittel der Temperatur, Gera",
+    "en": "Monthly mean temperature, Gera"
+   },
+   "columns": [
+    {
+     "name": "year",
+     "label": {
+      "de": "Jahr",
+      "en": "Year"
+     },
+     "type": "integer",
+     "unit": null
+    },
+    {
+     "name": "month",
+     "label": {
+      "de": "Monat",
+      "en": "Month"
+     },
+     "type": "integer",
+     "unit": null,
+     "derived": true,
+     "note": "Monatsnummer 1-12, editorisch"
+    },
+    {
+     "name": "month_label",
+     "label": {
+      "de": "Monat (Original)",
+      "en": "Month (original)"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "temp_r",
+     "label": {
+      "de": "Monatsmittel (gedruckt)",
+      "en": "Monthly mean (printed)"
+     },
+     "type": "number",
+     "unit": "°R"
+    },
+    {
+     "name": "temp_c",
+     "label": {
+      "de": "Monatsmittel",
+      "en": "Monthly mean"
+     },
+     "type": "number",
+     "unit": "°C",
+     "derived": true,
+     "note": "°R × 1,25"
+    },
+    {
+     "name": "anomaly_c",
+     "label": {
+      "de": "Abweichung vom Monatsmittel 1856–1867",
+      "en": "Deviation from the 1856–1867 monthly mean"
+     },
+     "type": "number",
+     "unit": "K",
+     "derived": true
+    }
+   ],
+   "rows": [
+    [
+     1856,
+     1,
+     "Jan.",
+     0.89,
+     1.11,
+     1.74
+    ],
+    [
+     1856,
+     2,
+     "Febr.",
+     2.35,
+     2.94,
+     2.07
+    ],
+    [
+     1856,
+     3,
+     "März",
+     -6.8,
+     -8.5,
+     -11.12
+    ],
+    [
+     1856,
+     4,
+     "April",
+     8.15,
+     10.19,
+     1.92
+    ],
+    [
+     1856,
+     5,
+     "Mai",
+     9.91,
+     12.39,
+     -0.37
+    ],
+    [
+     1856,
+     6,
+     "Juni",
+     13.52,
+     16.9,
+     -0.07
+    ],
+    [
+     1856,
+     7,
+     "Juli",
+     13.62,
+     17.02,
+     -0.76
+    ],
+    [
+     1856,
+     8,
+     "Aug.",
+     15.04,
+     18.8,
+     0.78
+    ],
+    [
+     1856,
+     9,
+     "Sept.",
+     11.4,
+     14.25,
+     -0.52
+    ],
+    [
+     1856,
+     10,
+     "Oct.",
+     8.7,
+     10.88,
+     1.26
+    ],
+    [
+     1856,
+     11,
+     "Nov.",
+     0.83,
+     1.04,
+     -2.08
+    ],
+    [
+     1856,
+     12,
+     "Dec.",
+     1.62,
+     2.03,
+     1.57
+    ],
+    [
+     1857,
+     1,
+     "Jan.",
+     -1.3,
+     -1.62,
+     -0.99
+    ],
+    [
+     1857,
+     2,
+     "Febr.",
+     0.7,
+     0.88,
+     0.01
+    ],
+    [
+     1857,
+     3,
+     "März",
+     3.03,
+     3.79,
+     1.17
+    ],
+    [
+     1857,
+     4,
+     "April",
+     6.5,
+     8.12,
+     -0.14
+    ],
+    [
+     1857,
+     5,
+     "Mai",
+     10.71,
+     13.39,
+     0.63
+    ],
+    [
+     1857,
+     6,
+     "Juni",
+     13.53,
+     16.91,
+     -0.06
+    ],
+    [
+     1857,
+     7,
+     "Juli",
+     15.37,
+     19.21,
+     1.43
+    ],
+    [
+     1857,
+     8,
+     "Aug.",
+     15.39,
+     19.24,
+     1.21
+    ],
+    [
+     1857,
+     9,
+     "Sept.",
+     12.69,
+     15.86,
+     1.1
+    ],
+    [
+     1857,
+     10,
+     "Oct.",
+     9.6,
+     12.0,
+     2.38
+    ],
+    [
+     1857,
+     11,
+     "Nov.",
+     2.67,
+     3.34,
+     0.22
+    ],
+    [
+     1857,
+     12,
+     "Dec.",
+     2.2,
+     2.75,
+     2.29
+    ],
+    [
+     1858,
+     1,
+     "Jan.",
+     -1.44,
+     -1.8,
+     -1.17
+    ],
+    [
+     1858,
+     2,
+     "Febr.",
+     -2.49,
+     -3.11,
+     -3.98
+    ],
+    [
+     1858,
+     3,
+     "März",
+     1.7,
+     2.12,
+     -0.5
+    ],
+    [
+     1858,
+     4,
+     "April",
+     6.32,
+     7.9,
+     -0.37
+    ],
+    [
+     1858,
+     5,
+     "Mai",
+     9.7,
+     12.12,
+     -0.63
+    ],
+    [
+     1858,
+     6,
+     "Juni",
+     15.81,
+     19.76,
+     2.79
+    ],
+    [
+     1858,
+     7,
+     "Juli",
+     14.2,
+     17.75,
+     -0.03
+    ],
+    [
+     1858,
+     8,
+     "Aug.",
+     15.95,
+     19.94,
+     1.91
+    ],
+    [
+     1858,
+     9,
+     "Sept.",
+     12.95,
+     16.19,
+     1.42
+    ],
+    [
+     1858,
+     10,
+     "Oct.",
+     7.84,
+     9.8,
+     0.18
+    ],
+    [
+     1858,
+     11,
+     "Nov.",
+     2.1,
+     2.62,
+     -0.49
+    ],
+    [
+     1858,
+     12,
+     "Dec.",
+     1.12,
+     1.4,
+     0.94
+    ],
+    [
+     1859,
+     1,
+     "Jan.",
+     1.35,
+     1.69,
+     2.32
+    ],
+    [
+     1859,
+     2,
+     "Febr.",
+     2.35,
+     2.94,
+     2.07
+    ],
+    [
+     1859,
+     3,
+     "März",
+     5.71,
+     7.14,
+     4.52
+    ],
+    [
+     1859,
+     4,
+     "April",
+     6.47,
+     8.09,
+     -0.18
+    ],
+    [
+     1859,
+     5,
+     "Mai",
+     10.42,
+     13.03,
+     0.27
+    ],
+    [
+     1859,
+     6,
+     "Juni",
+     13.6,
+     17.0,
+     0.03
+    ],
+    [
+     1859,
+     7,
+     "Juli",
+     16.91,
+     21.14,
+     3.35
+    ],
+    [
+     1859,
+     8,
+     "Aug.",
+     16.24,
+     20.3,
+     2.28
+    ],
+    [
+     1859,
+     9,
+     "Sept.",
+     11.64,
+     14.55,
+     -0.22
+    ],
+    [
+     1859,
+     10,
+     "Oct.",
+     8.68,
+     10.85,
+     1.23
+    ],
+    [
+     1859,
+     11,
+     "Nov.",
+     2.15,
+     2.69,
+     -0.43
+    ],
+    [
+     1859,
+     12,
+     "Dec.",
+     -1.3,
+     -1.62,
+     -2.08
+    ],
+    [
+     1860,
+     1,
+     "Jan.",
+     1.6,
+     2.0,
+     2.63
+    ],
+    [
+     1860,
+     2,
+     "Febr.",
+     -1.46,
+     -1.82,
+     -2.69
+    ],
+    [
+     1860,
+     3,
+     "März",
+     1.6,
+     2.0,
+     -0.62
+    ],
+    [
+     1860,
+     4,
+     "April",
+     5.68,
+     7.1,
+     -1.17
+    ],
+    [
+     1860,
+     5,
+     "Mai",
+     11.06,
+     13.83,
+     1.07
+    ],
+    [
+     1860,
+     6,
+     "Juni",
+     13.18,
+     16.48,
+     -0.49
+    ],
+    [
+     1860,
+     7,
+     "Juli",
+     12.53,
+     15.66,
+     -2.12
+    ],
+    [
+     1860,
+     8,
+     "Aug.",
+     13.62,
+     17.02,
+     -1.0
+    ],
+    [
+     1860,
+     9,
+     "Sept.",
+     11.31,
+     14.14,
+     -0.63
+    ],
+    [
+     1860,
+     10,
+     "Oct.",
+     6.77,
+     8.46,
+     -1.16
+    ],
+    [
+     1860,
+     11,
+     "Nov.",
+     0.72,
+     0.9,
+     -2.22
+    ],
+    [
+     1860,
+     12,
+     "Dec.",
+     -1.23,
+     -1.54,
+     -2.0
+    ],
+    [
+     1861,
+     1,
+     "Jan.",
+     -5.11,
+     -6.39,
+     -5.76
+    ],
+    [
+     1861,
+     2,
+     "Febr.",
+     2.94,
+     3.67,
+     2.81
+    ],
+    [
+     1861,
+     3,
+     "März",
+     4.52,
+     5.65,
+     3.03
+    ],
+    [
+     1861,
+     4,
+     "April",
+     5.02,
+     6.27,
+     -1.99
+    ],
+    [
+     1861,
+     5,
+     "Mai",
+     8.9,
+     11.12,
+     -1.63
+    ],
+    [
+     1861,
+     6,
+     "Juni",
+     14.0,
+     17.5,
+     0.53
+    ],
+    [
+     1861,
+     7,
+     "Juli",
+     14.44,
+     18.05,
+     0.27
+    ],
+    [
+     1861,
+     8,
+     "Aug.",
+     14.58,
+     18.23,
+     0.2
+    ],
+    [
+     1861,
+     9,
+     "Sept.",
+     11.47,
+     14.34,
+     -0.43
+    ],
+    [
+     1861,
+     10,
+     "Oct.",
+     8.02,
+     10.02,
+     0.41
+    ],
+    [
+     1861,
+     11,
+     "Nov.",
+     3.63,
+     4.54,
+     1.42
+    ],
+    [
+     1861,
+     12,
+     "Dec.",
+     -0.11,
+     -0.14,
+     -0.6
+    ],
+    [
+     1862,
+     1,
+     "Jan.",
+     -2.16,
+     -2.7,
+     -2.07
+    ],
+    [
+     1862,
+     2,
+     "Febr.",
+     0.11,
+     0.14,
+     -0.73
+    ],
+    [
+     1862,
+     3,
+     "März",
+     5.81,
+     7.26,
+     4.64
+    ],
+    [
+     1862,
+     4,
+     "April",
+     8.53,
+     10.66,
+     2.39
+    ],
+    [
+     1862,
+     5,
+     "Mai",
+     12.85,
+     16.06,
+     3.31
+    ],
+    [
+     1862,
+     6,
+     "Juni",
+     13.05,
+     16.31,
+     -0.66
+    ],
+    [
+     1862,
+     7,
+     "Juli",
+     14.26,
+     17.82,
+     0.04
+    ],
+    [
+     1862,
+     8,
+     "Aug.",
+     13.41,
+     16.76,
+     -1.26
+    ],
+    [
+     1862,
+     9,
+     "Sept.",
+     11.39,
+     14.24,
+     -0.53
+    ],
+    [
+     1862,
+     10,
+     "Oct.",
+     9.02,
+     11.27,
+     1.66
+    ],
+    [
+     1862,
+     11,
+     "Nov.",
+     2.31,
+     2.89,
+     -0.23
+    ],
+    [
+     1862,
+     12,
+     "Dec.",
+     1.3,
+     1.62,
+     1.17
+    ],
+    [
+     1863,
+     1,
+     "Jan.",
+     2.4,
+     3.0,
+     3.63
+    ],
+    [
+     1863,
+     2,
+     "Febr.",
+     2.2,
+     2.75,
+     1.89
+    ],
+    [
+     1863,
+     3,
+     "März",
+     4.2,
+     5.25,
+     2.63
+    ],
+    [
+     1863,
+     4,
+     "April",
+     6.8,
+     8.5,
+     0.23
+    ],
+    [
+     1863,
+     5,
+     "Mai",
+     10.2,
+     12.75,
+     -0.01
+    ],
+    [
+     1863,
+     6,
+     "Juni",
+     13.5,
+     16.88,
+     -0.09
+    ],
+    [
+     1863,
+     7,
+     "Juli",
+     13.4,
+     16.75,
+     -1.03
+    ],
+    [
+     1863,
+     8,
+     "Aug.",
+     15.6,
+     19.5,
+     1.48
+    ],
+    [
+     1863,
+     9,
+     "Sept.",
+     11.4,
+     14.25,
+     -0.52
+    ],
+    [
+     1863,
+     10,
+     "Oct.",
+     9.0,
+     11.25,
+     1.63
+    ],
+    [
+     1863,
+     11,
+     "Nov.",
+     3.9,
+     4.88,
+     1.76
+    ],
+    [
+     1863,
+     12,
+     "Dec.",
+     2.7,
+     3.38,
+     2.92
+    ],
+    [
+     1864,
+     1,
+     "Jan.",
+     -4.9,
+     -6.12,
+     -5.49
+    ],
+    [
+     1864,
+     2,
+     "Febr.",
+     -0.7,
+     -0.88,
+     -1.74
+    ],
+    [
+     1864,
+     3,
+     "März",
+     3.7,
+     4.62,
+     2.0
+    ],
+    [
+     1864,
+     4,
+     "April",
+     4.4,
+     5.5,
+     -2.77
+    ],
+    [
+     1864,
+     5,
+     "Mai",
+     8.0,
+     10.0,
+     -2.76
+    ],
+    [
+     1864,
+     6,
+     "Juni",
+     12.9,
+     16.12,
+     -0.84
+    ],
+    [
+     1864,
+     7,
+     "Juli",
+     12.8,
+     16.0,
+     -1.78
+    ],
+    [
+     1864,
+     8,
+     "Aug.",
+     12.2,
+     15.25,
+     -2.77
+    ],
+    [
+     1864,
+     9,
+     "Sept.",
+     10.9,
+     13.62,
+     -1.14
+    ],
+    [
+     1864,
+     10,
+     "Oct.",
+     5.9,
+     7.38,
+     -2.24
+    ],
+    [
+     1864,
+     11,
+     "Nov.",
+     1.1,
+     1.38,
+     -1.74
+    ],
+    [
+     1864,
+     12,
+     "Dec.",
+     -3.5,
+     -4.38,
+     -4.83
+    ],
+    [
+     1865,
+     1,
+     "Jan.",
+     0.1,
+     0.12,
+     0.76
+    ],
+    [
+     1865,
+     2,
+     "Febr.",
+     -4.3,
+     -5.38,
+     -6.24
+    ],
+    [
+     1865,
+     3,
+     "März",
+     -1.0,
+     -1.25,
+     -3.87
+    ],
+    [
+     1865,
+     4,
+     "April",
+     7.6,
+     9.5,
+     1.23
+    ],
+    [
+     1865,
+     5,
+     "Mai",
+     13.1,
+     16.38,
+     3.62
+    ],
+    [
+     1865,
+     6,
+     "Juni",
+     11.5,
+     14.38,
+     -2.59
+    ],
+    [
+     1865,
+     7,
+     "Juli",
+     16.5,
+     20.62,
+     2.84
+    ],
+    [
+     1865,
+     8,
+     "Aug.",
+     13.6,
+     17.0,
+     -1.02
+    ],
+    [
+     1865,
+     9,
+     "Sept.",
+     11.6,
+     14.5,
+     -0.27
+    ],
+    [
+     1865,
+     10,
+     "Oct.",
+     7.3,
+     9.12,
+     -0.49
+    ],
+    [
+     1865,
+     11,
+     "Nov.",
+     4.7,
+     5.88,
+     2.76
+    ],
+    [
+     1865,
+     12,
+     "Dec.",
+     0.1,
+     0.12,
+     -0.33
+    ],
+    [
+     1866,
+     1,
+     "Jan.",
+     2.8,
+     3.5,
+     4.13
+    ],
+    [
+     1866,
+     2,
+     "Febr.",
+     3.0,
+     3.75,
+     2.89
+    ],
+    [
+     1866,
+     3,
+     "März",
+     1.7,
+     2.12,
+     -0.5
+    ],
+    [
+     1866,
+     4,
+     "April",
+     7.3,
+     9.12,
+     0.86
+    ],
+    [
+     1866,
+     5,
+     "Mai",
+     8.1,
+     10.12,
+     -2.63
+    ],
+    [
+     1866,
+     6,
+     "Juni",
+     14.7,
+     18.38,
+     1.41
+    ],
+    [
+     1866,
+     7,
+     "Juli",
+     13.2,
+     16.5,
+     -1.28
+    ],
+    [
+     1866,
+     8,
+     "Aug.",
+     12.9,
+     16.12,
+     -1.9
+    ],
+    [
+     1866,
+     9,
+     "Sept.",
+     12.9,
+     16.12,
+     1.36
+    ],
+    [
+     1866,
+     10,
+     "Oct.",
+     4.9,
+     6.12,
+     -3.49
+    ],
+    [
+     1866,
+     11,
+     "Nov.",
+     3.5,
+     4.38,
+     1.26
+    ],
+    [
+     1866,
+     12,
+     "Dec.",
+     2.0,
+     2.5,
+     2.04
+    ],
+    [
+     1867,
+     1,
+     "Jan.",
+     -0.3,
+     -0.38,
+     0.26
+    ],
+    [
+     1867,
+     2,
+     "Febr.",
+     3.6,
+     4.5,
+     3.64
+    ],
+    [
+     1867,
+     3,
+     "März",
+     1.0,
+     1.25,
+     -1.37
+    ],
+    [
+     1867,
+     4,
+     "April",
+     6.6,
+     8.25,
+     -0.02
+    ],
+    [
+     1867,
+     5,
+     "Mai",
+     9.5,
+     11.88,
+     -0.88
+    ],
+    [
+     1867,
+     6,
+     "Juni",
+     13.6,
+     17.0,
+     0.03
+    ],
+    [
+     1867,
+     7,
+     "Juli",
+     13.5,
+     16.88,
+     -0.91
+    ],
+    [
+     1867,
+     8,
+     "Aug.",
+     14.5,
+     18.12,
+     0.1
+    ],
+    [
+     1867,
+     9,
+     "Sept.",
+     12.1,
+     15.12,
+     0.36
+    ],
+    [
+     1867,
+     10,
+     "Oct.",
+     6.6,
+     8.25,
+     -1.37
+    ],
+    [
+     1867,
+     11,
+     "Nov.",
+     2.3,
+     2.88,
+     -0.24
+    ],
+    [
+     1867,
+     12,
+     "Dec.",
+     -0.5,
+     -0.62,
+     -1.08
+    ]
+   ],
+   "source_refs": [
+    {
+     "page": "55",
+     "block": "b7",
+     "rows": "r2-r13"
+    }
+   ]
+  },
+  {
+   "name": "weather_events",
+   "title": {
+    "de": "Erscheinungen in Gera nach Monat (Summen über die Beobachtungsjahre)",
+    "en": "Phenomena at Gera by month (totals over the observation years)"
+   },
+   "columns": [
+    {
+     "name": "month",
+     "label": {
+      "de": "Monat",
+      "en": "Month"
+     },
+     "type": "integer",
+     "unit": null,
+     "derived": true,
+     "note": "Monatsnummer 1–12, editorisch"
+    },
+    {
+     "name": "month_label",
+     "label": {
+      "de": "Monat (Original)",
+      "en": "Month (original)"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "phenomenon",
+     "label": {
+      "de": "Erscheinung",
+      "en": "Phenomenon"
+     },
+     "type": "string",
+     "unit": null,
+     "derived": true,
+     "note": "Schlüssel; Bezeichnung nach der Spaltenüberschrift des Drucks"
+    },
+    {
+     "name": "phenomenon_order",
+     "label": {
+      "de": "Reihenfolge der Erscheinung",
+      "en": "Phenomenon order"
+     },
+     "type": "integer",
+     "unit": null,
+     "derived": true,
+     "note": "Spaltenfolge im Druck"
+    },
+    {
+     "name": "days",
+     "label": {
+      "de": "Zahl",
+      "en": "Count"
+     },
+     "type": "integer",
+     "unit": "Tage bzw. Fälle",
+     "note": "berichtigt nach S. 830 (nur Regen: Januar, Juli, August, Dezember); Gedankenstrich im Druck = leer"
+    },
+    {
+     "name": "days_printed",
+     "label": {
+      "de": "Zahl laut Tabelle",
+      "en": "Count as in the table"
+     },
+     "type": "integer",
+     "unit": "Tage bzw. Fälle",
+     "note": "gedruckter Tabellenwert (S. 66), vor der Berichtigung"
+    },
+    {
+     "name": "correction",
+     "label": {
+      "de": "Berichtigung",
+      "en": "Correction"
+     },
+     "type": "string",
+     "unit": null,
+     "note": "Hinweis auf die Berichtigung in Brückners Zusätzen (S. 830)"
+    },
+    {
+     "name": "mark",
+     "label": {
+      "de": "Druckvermerk",
+      "en": "Printed mark"
+     },
+     "type": "string",
+     "unit": null,
+     "note": "»Min.« oder »Max.«; Regen: Max. im Juli (S. 830), gedruckt im Mai"
+    },
+    {
+     "name": "years",
+     "label": {
+      "de": "Jahre im Zeitraum",
+      "en": "Years in the period"
+     },
+     "type": "integer",
+     "unit": "Jahre",
+     "derived": true,
+     "note": "12 (1856–1867), bei Zodiakal- und Nordlicht 7 (1859–1865)"
+    },
+    {
+     "name": "per_year",
+     "label": {
+      "de": "Zahl pro Jahr",
+      "en": "Count per year"
+     },
+     "type": "number",
+     "unit": "pro Jahr",
+     "derived": true,
+     "note": "Zahl ÷ Jahre"
+    },
+    {
+     "name": "share_of_year",
+     "label": {
+      "de": "Anteil an der Jahressumme",
+      "en": "Share of annual total"
+     },
+     "type": "number",
+     "unit": "%",
+     "derived": true,
+     "note": "Monatswert ÷ Summe der zwölf Monate"
+    }
+   ],
+   "rows": [
+    [
+     1,
+     "Januar",
+     "Nebel",
+     1,
+     64,
+     64,
+     "",
+     "",
+     12,
+     5.33,
+     7.9
+    ],
+    [
+     2,
+     "Februar",
+     "Nebel",
+     1,
+     53,
+     53,
+     "",
+     "",
+     12,
+     4.42,
+     6.5
+    ],
+    [
+     3,
+     "März",
+     "Nebel",
+     1,
+     59,
+     59,
+     "",
+     "",
+     12,
+     4.92,
+     7.3
+    ],
+    [
+     4,
+     "April",
+     "Nebel",
+     1,
+     45,
+     45,
+     "",
+     "",
+     12,
+     3.75,
+     5.5
+    ],
+    [
+     5,
+     "Mai",
+     "Nebel",
+     1,
+     58,
+     58,
+     "",
+     "",
+     12,
+     4.83,
+     7.2
+    ],
+    [
+     6,
+     "Juni",
+     "Nebel",
+     1,
+     43,
+     43,
+     "",
+     "",
+     12,
+     3.58,
+     5.3
+    ],
+    [
+     7,
+     "Juli",
+     "Nebel",
+     1,
+     46,
+     46,
+     "",
+     "",
+     12,
+     3.83,
+     5.7
+    ],
+    [
+     8,
+     "August",
+     "Nebel",
+     1,
+     37,
+     37,
+     "",
+     "",
+     12,
+     3.08,
+     4.6
+    ],
+    [
+     9,
+     "Septbr.",
+     "Nebel",
+     1,
+     75,
+     75,
+     "",
+     "",
+     12,
+     6.25,
+     9.2
+    ],
+    [
+     10,
+     "October",
+     "Nebel",
+     1,
+     134,
+     134,
+     "",
+     "",
+     12,
+     11.17,
+     16.5
+    ],
+    [
+     11,
+     "Novbr.",
+     "Nebel",
+     1,
+     112,
+     112,
+     "",
+     "",
+     12,
+     9.33,
+     13.8
+    ],
+    [
+     12,
+     "Decbr.",
+     "Nebel",
+     1,
+     85,
+     85,
+     "",
+     "",
+     12,
+     7.08,
+     10.5
+    ],
+    [
+     1,
+     "Januar",
+     "Regen",
+     2,
+     87,
+     79,
+     "S. 830: 87 statt 79",
+     "",
+     12,
+     7.25,
+     5.6
+    ],
+    [
+     2,
+     "Februar",
+     "Regen",
+     2,
+     82,
+     82,
+     "",
+     "Min.",
+     12,
+     6.83,
+     5.3
+    ],
+    [
+     3,
+     "März",
+     "Regen",
+     2,
+     128,
+     128,
+     "",
+     "",
+     12,
+     10.67,
+     8.3
+    ],
+    [
+     4,
+     "April",
+     "Regen",
+     2,
+     131,
+     131,
+     "",
+     "",
+     12,
+     10.92,
+     8.5
+    ],
+    [
+     5,
+     "Mai",
+     "Regen",
+     2,
+     180,
+     180,
+     "S. 830: Max.-Vermerk im Juli statt im Mai",
+     "",
+     12,
+     15.0,
+     11.7
+    ],
+    [
+     6,
+     "Juni",
+     "Regen",
+     2,
+     167,
+     167,
+     "",
+     "",
+     12,
+     13.92,
+     10.8
+    ],
+    [
+     7,
+     "Juli",
+     "Regen",
+     2,
+     181,
+     169,
+     "S. 830: 181 statt 169; Max.-Vermerk (statt Mai)",
+     "Max.",
+     12,
+     15.08,
+     11.7
+    ],
+    [
+     8,
+     "August",
+     "Regen",
+     2,
+     152,
+     142,
+     "S. 830: 152 statt 142",
+     "",
+     12,
+     12.67,
+     9.8
+    ],
+    [
+     9,
+     "Septbr.",
+     "Regen",
+     2,
+     133,
+     133,
+     "",
+     "",
+     12,
+     11.08,
+     8.6
+    ],
+    [
+     10,
+     "October",
+     "Regen",
+     2,
+     113,
+     113,
+     "",
+     "",
+     12,
+     9.42,
+     7.3
+    ],
+    [
+     11,
+     "Novbr.",
+     "Regen",
+     2,
+     106,
+     106,
+     "",
+     "",
+     12,
+     8.83,
+     6.9
+    ],
+    [
+     12,
+     "Decbr.",
+     "Regen",
+     2,
+     84,
+     92,
+     "S. 830: 84 statt 92",
+     "",
+     12,
+     7.0,
+     5.4
+    ],
+    [
+     1,
+     "Januar",
+     "Schnee",
+     3,
+     82,
+     82,
+     "",
+     "",
+     12,
+     6.83,
+     18.1
+    ],
+    [
+     2,
+     "Februar",
+     "Schnee",
+     3,
+     75,
+     75,
+     "",
+     "",
+     12,
+     6.25,
+     16.6
+    ],
+    [
+     3,
+     "März",
+     "Schnee",
+     3,
+     95,
+     95,
+     "",
+     "",
+     12,
+     7.92,
+     21.0
+    ],
+    [
+     4,
+     "April",
+     "Schnee",
+     3,
+     40,
+     40,
+     "",
+     "",
+     12,
+     3.33,
+     8.8
+    ],
+    [
+     5,
+     "Mai",
+     "Schnee",
+     3,
+     13,
+     13,
+     "",
+     "",
+     12,
+     1.08,
+     2.9
+    ],
+    [
+     6,
+     "Juni",
+     "Schnee",
+     3,
+     4,
+     4,
+     "",
+     "",
+     12,
+     0.33,
+     0.9
+    ],
+    [
+     7,
+     "Juli",
+     "Schnee",
+     3,
+     2,
+     2,
+     "",
+     "",
+     12,
+     0.17,
+     0.4
+    ],
+    [
+     8,
+     "August",
+     "Schnee",
+     3,
+     null,
+     null,
+     "",
+     "",
+     12,
+     0.0,
+     0.0
+    ],
+    [
+     9,
+     "Septbr.",
+     "Schnee",
+     3,
+     6,
+     6,
+     "",
+     "",
+     12,
+     0.5,
+     1.3
+    ],
+    [
+     10,
+     "October",
+     "Schnee",
+     3,
+     6,
+     6,
+     "",
+     "",
+     12,
+     0.5,
+     1.3
+    ],
+    [
+     11,
+     "Novbr.",
+     "Schnee",
+     3,
+     44,
+     44,
+     "",
+     "",
+     12,
+     3.67,
+     9.7
+    ],
+    [
+     12,
+     "Decbr.",
+     "Schnee",
+     3,
+     85,
+     85,
+     "",
+     "",
+     12,
+     7.08,
+     18.8
+    ],
+    [
+     1,
+     "Januar",
+     "Reif",
+     4,
+     52,
+     52,
+     "",
+     "",
+     12,
+     4.33,
+     10.0
+    ],
+    [
+     2,
+     "Februar",
+     "Reif",
+     4,
+     76,
+     76,
+     "",
+     "",
+     12,
+     6.33,
+     14.6
+    ],
+    [
+     3,
+     "März",
+     "Reif",
+     4,
+     80,
+     80,
+     "",
+     "",
+     12,
+     6.67,
+     15.4
+    ],
+    [
+     4,
+     "April",
+     "Reif",
+     4,
+     77,
+     77,
+     "",
+     "",
+     12,
+     6.42,
+     14.8
+    ],
+    [
+     5,
+     "Mai",
+     "Reif",
+     4,
+     16,
+     16,
+     "",
+     "",
+     12,
+     1.33,
+     3.1
+    ],
+    [
+     6,
+     "Juni",
+     "Reif",
+     4,
+     1,
+     1,
+     "",
+     "",
+     12,
+     0.08,
+     0.2
+    ],
+    [
+     7,
+     "Juli",
+     "Reif",
+     4,
+     1,
+     1,
+     "",
+     "",
+     12,
+     0.08,
+     0.2
+    ],
+    [
+     8,
+     "August",
+     "Reif",
+     4,
+     null,
+     null,
+     "",
+     "",
+     12,
+     0.0,
+     0.0
+    ],
+    [
+     9,
+     "Septbr.",
+     "Reif",
+     4,
+     11,
+     11,
+     "",
+     "",
+     12,
+     0.92,
+     2.1
+    ],
+    [
+     10,
+     "October",
+     "Reif",
+     4,
+     56,
+     56,
+     "",
+     "",
+     12,
+     4.67,
+     10.7
+    ],
+    [
+     11,
+     "Novbr.",
+     "Reif",
+     4,
+     71,
+     71,
+     "",
+     "",
+     12,
+     5.92,
+     13.6
+    ],
+    [
+     12,
+     "Decbr.",
+     "Reif",
+     4,
+     80,
+     80,
+     "",
+     "",
+     12,
+     6.67,
+     15.4
+    ],
+    [
+     1,
+     "Januar",
+     "Gewitter",
+     5,
+     2,
+     2,
+     "",
+     "",
+     12,
+     0.17,
+     0.7
+    ],
+    [
+     2,
+     "Februar",
+     "Gewitter",
+     5,
+     1,
+     1,
+     "",
+     "",
+     12,
+     0.08,
+     0.4
+    ],
+    [
+     3,
+     "März",
+     "Gewitter",
+     5,
+     10,
+     10,
+     "",
+     "",
+     12,
+     0.83,
+     3.7
+    ],
+    [
+     4,
+     "April",
+     "Gewitter",
+     5,
+     18,
+     18,
+     "",
+     "",
+     12,
+     1.5,
+     6.7
+    ],
+    [
+     5,
+     "Mai",
+     "Gewitter",
+     5,
+     40,
+     40,
+     "",
+     "",
+     12,
+     3.33,
+     14.8
+    ],
+    [
+     6,
+     "Juni",
+     "Gewitter",
+     5,
+     57,
+     57,
+     "",
+     "",
+     12,
+     4.75,
+     21.1
+    ],
+    [
+     7,
+     "Juli",
+     "Gewitter",
+     5,
+     59,
+     59,
+     "",
+     "",
+     12,
+     4.92,
+     21.9
+    ],
+    [
+     8,
+     "August",
+     "Gewitter",
+     5,
+     58,
+     58,
+     "",
+     "",
+     12,
+     4.83,
+     21.5
+    ],
+    [
+     9,
+     "Septbr.",
+     "Gewitter",
+     5,
+     18,
+     18,
+     "",
+     "",
+     12,
+     1.5,
+     6.7
+    ],
+    [
+     10,
+     "October",
+     "Gewitter",
+     5,
+     6,
+     6,
+     "",
+     "",
+     12,
+     0.5,
+     2.2
+    ],
+    [
+     11,
+     "Novbr.",
+     "Gewitter",
+     5,
+     null,
+     null,
+     "",
+     "",
+     12,
+     0.0,
+     0.0
+    ],
+    [
+     12,
+     "Decbr.",
+     "Gewitter",
+     5,
+     1,
+     1,
+     "",
+     "",
+     12,
+     0.08,
+     0.4
+    ],
+    [
+     1,
+     "Januar",
+     "Sturm",
+     6,
+     23,
+     23,
+     "",
+     "",
+     12,
+     1.92,
+     10.0
+    ],
+    [
+     2,
+     "Februar",
+     "Sturm",
+     6,
+     28,
+     28,
+     "",
+     "",
+     12,
+     2.33,
+     12.2
+    ],
+    [
+     3,
+     "März",
+     "Sturm",
+     6,
+     32,
+     32,
+     "",
+     "",
+     12,
+     2.67,
+     14.0
+    ],
+    [
+     4,
+     "April",
+     "Sturm",
+     6,
+     24,
+     24,
+     "",
+     "",
+     12,
+     2.0,
+     10.5
+    ],
+    [
+     5,
+     "Mai",
+     "Sturm",
+     6,
+     6,
+     6,
+     "",
+     "",
+     12,
+     0.5,
+     2.6
+    ],
+    [
+     6,
+     "Juni",
+     "Sturm",
+     6,
+     6,
+     6,
+     "",
+     "",
+     12,
+     0.5,
+     2.6
+    ],
+    [
+     7,
+     "Juli",
+     "Sturm",
+     6,
+     17,
+     17,
+     "",
+     "",
+     12,
+     1.42,
+     7.4
+    ],
+    [
+     8,
+     "August",
+     "Sturm",
+     6,
+     12,
+     12,
+     "",
+     "",
+     12,
+     1.0,
+     5.2
+    ],
+    [
+     9,
+     "Septbr.",
+     "Sturm",
+     6,
+     10,
+     10,
+     "",
+     "",
+     12,
+     0.83,
+     4.4
+    ],
+    [
+     10,
+     "October",
+     "Sturm",
+     6,
+     16,
+     16,
+     "",
+     "",
+     12,
+     1.33,
+     7.0
+    ],
+    [
+     11,
+     "Novbr.",
+     "Sturm",
+     6,
+     24,
+     24,
+     "",
+     "",
+     12,
+     2.0,
+     10.5
+    ],
+    [
+     12,
+     "Decbr.",
+     "Sturm",
+     6,
+     31,
+     31,
+     "",
+     "",
+     12,
+     2.58,
+     13.5
+    ],
+    [
+     1,
+     "Januar",
+     "Hoehenrauch",
+     7,
+     null,
+     null,
+     "",
+     "",
+     12,
+     0.0,
+     0.0
+    ],
+    [
+     2,
+     "Februar",
+     "Hoehenrauch",
+     7,
+     1,
+     1,
+     "",
+     "",
+     12,
+     0.08,
+     1.0
+    ],
+    [
+     3,
+     "März",
+     "Hoehenrauch",
+     7,
+     2,
+     2,
+     "",
+     "",
+     12,
+     0.17,
+     2.0
+    ],
+    [
+     4,
+     "April",
+     "Hoehenrauch",
+     7,
+     14,
+     14,
+     "",
+     "",
+     12,
+     1.17,
+     13.7
+    ],
+    [
+     5,
+     "Mai",
+     "Hoehenrauch",
+     7,
+     34,
+     34,
+     "",
+     "",
+     12,
+     2.83,
+     33.3
+    ],
+    [
+     6,
+     "Juni",
+     "Hoehenrauch",
+     7,
+     17,
+     17,
+     "",
+     "",
+     12,
+     1.42,
+     16.7
+    ],
+    [
+     7,
+     "Juli",
+     "Hoehenrauch",
+     7,
+     8,
+     8,
+     "",
+     "",
+     12,
+     0.67,
+     7.8
+    ],
+    [
+     8,
+     "August",
+     "Hoehenrauch",
+     7,
+     10,
+     10,
+     "",
+     "",
+     12,
+     0.83,
+     9.8
+    ],
+    [
+     9,
+     "Septbr.",
+     "Hoehenrauch",
+     7,
+     5,
+     5,
+     "",
+     "",
+     12,
+     0.42,
+     4.9
+    ],
+    [
+     10,
+     "October",
+     "Hoehenrauch",
+     7,
+     11,
+     11,
+     "",
+     "",
+     12,
+     0.92,
+     10.8
+    ],
+    [
+     11,
+     "Novbr.",
+     "Hoehenrauch",
+     7,
+     null,
+     null,
+     "",
+     "",
+     12,
+     0.0,
+     0.0
+    ],
+    [
+     12,
+     "Decbr.",
+     "Hoehenrauch",
+     7,
+     null,
+     null,
+     "",
+     "",
+     12,
+     0.0,
+     0.0
+    ],
+    [
+     1,
+     "Januar",
+     "Sonnenhoefe",
+     8,
+     6,
+     6,
+     "",
+     "",
+     12,
+     0.5,
+     4.1
+    ],
+    [
+     2,
+     "Februar",
+     "Sonnenhoefe",
+     8,
+     10,
+     10,
+     "",
+     "",
+     12,
+     0.83,
+     6.9
+    ],
+    [
+     3,
+     "März",
+     "Sonnenhoefe",
+     8,
+     16,
+     16,
+     "",
+     "",
+     12,
+     1.33,
+     11.0
+    ],
+    [
+     4,
+     "April",
+     "Sonnenhoefe",
+     8,
+     20,
+     20,
+     "",
+     "",
+     12,
+     1.67,
+     13.8
+    ],
+    [
+     5,
+     "Mai",
+     "Sonnenhoefe",
+     8,
+     31,
+     31,
+     "",
+     "",
+     12,
+     2.58,
+     21.4
+    ],
+    [
+     6,
+     "Juni",
+     "Sonnenhoefe",
+     8,
+     18,
+     18,
+     "",
+     "",
+     12,
+     1.5,
+     12.4
+    ],
+    [
+     7,
+     "Juli",
+     "Sonnenhoefe",
+     8,
+     9,
+     9,
+     "",
+     "",
+     12,
+     0.75,
+     6.2
+    ],
+    [
+     8,
+     "August",
+     "Sonnenhoefe",
+     8,
+     7,
+     7,
+     "",
+     "",
+     12,
+     0.58,
+     4.8
+    ],
+    [
+     9,
+     "Septbr.",
+     "Sonnenhoefe",
+     8,
+     13,
+     13,
+     "",
+     "",
+     12,
+     1.08,
+     9.0
+    ],
+    [
+     10,
+     "October",
+     "Sonnenhoefe",
+     8,
+     7,
+     7,
+     "",
+     "",
+     12,
+     0.58,
+     4.8
+    ],
+    [
+     11,
+     "Novbr.",
+     "Sonnenhoefe",
+     8,
+     5,
+     5,
+     "",
+     "",
+     12,
+     0.42,
+     3.4
+    ],
+    [
+     12,
+     "Decbr.",
+     "Sonnenhoefe",
+     8,
+     3,
+     3,
+     "",
+     "",
+     12,
+     0.25,
+     2.1
+    ],
+    [
+     1,
+     "Januar",
+     "Mondhoefe",
+     9,
+     16,
+     16,
+     "",
+     "",
+     12,
+     1.33,
+     20.3
+    ],
+    [
+     2,
+     "Februar",
+     "Mondhoefe",
+     9,
+     9,
+     9,
+     "",
+     "",
+     12,
+     0.75,
+     11.4
+    ],
+    [
+     3,
+     "März",
+     "Mondhoefe",
+     9,
+     10,
+     10,
+     "",
+     "",
+     12,
+     0.83,
+     12.7
+    ],
+    [
+     4,
+     "April",
+     "Mondhoefe",
+     9,
+     7,
+     7,
+     "",
+     "",
+     12,
+     0.58,
+     8.9
+    ],
+    [
+     5,
+     "Mai",
+     "Mondhoefe",
+     9,
+     6,
+     6,
+     "",
+     "",
+     12,
+     0.5,
+     7.6
+    ],
+    [
+     6,
+     "Juni",
+     "Mondhoefe",
+     9,
+     1,
+     1,
+     "",
+     "",
+     12,
+     0.08,
+     1.3
+    ],
+    [
+     7,
+     "Juli",
+     "Mondhoefe",
+     9,
+     null,
+     null,
+     "",
+     "",
+     12,
+     0.0,
+     0.0
+    ],
+    [
+     8,
+     "August",
+     "Mondhoefe",
+     9,
+     1,
+     1,
+     "",
+     "",
+     12,
+     0.08,
+     1.3
+    ],
+    [
+     9,
+     "Septbr.",
+     "Mondhoefe",
+     9,
+     4,
+     4,
+     "",
+     "",
+     12,
+     0.33,
+     5.1
+    ],
+    [
+     10,
+     "October",
+     "Mondhoefe",
+     9,
+     6,
+     6,
+     "",
+     "",
+     12,
+     0.5,
+     7.6
+    ],
+    [
+     11,
+     "Novbr.",
+     "Mondhoefe",
+     9,
+     7,
+     7,
+     "",
+     "",
+     12,
+     0.58,
+     8.9
+    ],
+    [
+     12,
+     "Decbr.",
+     "Mondhoefe",
+     9,
+     12,
+     12,
+     "",
+     "",
+     12,
+     1.0,
+     15.2
+    ],
+    [
+     1,
+     "Januar",
+     "Zodiakal",
+     10,
+     2,
+     2,
+     "",
+     "",
+     7,
+     0.29,
+     8.0
+    ],
+    [
+     2,
+     "Februar",
+     "Zodiakal",
+     10,
+     11,
+     11,
+     "",
+     "",
+     7,
+     1.57,
+     44.0
+    ],
+    [
+     3,
+     "März",
+     "Zodiakal",
+     10,
+     8,
+     8,
+     "",
+     "",
+     7,
+     1.14,
+     32.0
+    ],
+    [
+     4,
+     "April",
+     "Zodiakal",
+     10,
+     4,
+     4,
+     "",
+     "",
+     7,
+     0.57,
+     16.0
+    ],
+    [
+     5,
+     "Mai",
+     "Zodiakal",
+     10,
+     null,
+     null,
+     "",
+     "",
+     7,
+     0.0,
+     0.0
+    ],
+    [
+     6,
+     "Juni",
+     "Zodiakal",
+     10,
+     null,
+     null,
+     "",
+     "",
+     7,
+     0.0,
+     0.0
+    ],
+    [
+     7,
+     "Juli",
+     "Zodiakal",
+     10,
+     null,
+     null,
+     "",
+     "",
+     7,
+     0.0,
+     0.0
+    ],
+    [
+     8,
+     "August",
+     "Zodiakal",
+     10,
+     null,
+     null,
+     "",
+     "",
+     7,
+     0.0,
+     0.0
+    ],
+    [
+     9,
+     "Septbr.",
+     "Zodiakal",
+     10,
+     null,
+     null,
+     "",
+     "",
+     7,
+     0.0,
+     0.0
+    ],
+    [
+     10,
+     "October",
+     "Zodiakal",
+     10,
+     null,
+     null,
+     "",
+     "",
+     7,
+     0.0,
+     0.0
+    ],
+    [
+     11,
+     "Novbr.",
+     "Zodiakal",
+     10,
+     null,
+     null,
+     "",
+     "",
+     7,
+     0.0,
+     0.0
+    ],
+    [
+     12,
+     "Decbr.",
+     "Zodiakal",
+     10,
+     null,
+     null,
+     "",
+     "",
+     7,
+     0.0,
+     0.0
+    ],
+    [
+     1,
+     "Januar",
+     "Nordlicht",
+     11,
+     2,
+     2,
+     "",
+     "",
+     7,
+     0.29,
+     11.8
+    ],
+    [
+     2,
+     "Februar",
+     "Nordlicht",
+     11,
+     null,
+     null,
+     "",
+     "",
+     7,
+     0.0,
+     0.0
+    ],
+    [
+     3,
+     "März",
+     "Nordlicht",
+     11,
+     2,
+     2,
+     "",
+     "",
+     7,
+     0.29,
+     11.8
+    ],
+    [
+     4,
+     "April",
+     "Nordlicht",
+     11,
+     3,
+     3,
+     "",
+     "",
+     7,
+     0.43,
+     17.6
+    ],
+    [
+     5,
+     "Mai",
+     "Nordlicht",
+     11,
+     null,
+     null,
+     "",
+     "",
+     7,
+     0.0,
+     0.0
+    ],
+    [
+     6,
+     "Juni",
+     "Nordlicht",
+     11,
+     null,
+     null,
+     "",
+     "",
+     7,
+     0.0,
+     0.0
+    ],
+    [
+     7,
+     "Juli",
+     "Nordlicht",
+     11,
+     null,
+     null,
+     "",
+     "",
+     7,
+     0.0,
+     0.0
+    ],
+    [
+     8,
+     "August",
+     "Nordlicht",
+     11,
+     2,
+     2,
+     "",
+     "",
+     7,
+     0.29,
+     11.8
+    ],
+    [
+     9,
+     "Septbr.",
+     "Nordlicht",
+     11,
+     2,
+     2,
+     "",
+     "",
+     7,
+     0.29,
+     11.8
+    ],
+    [
+     10,
+     "October",
+     "Nordlicht",
+     11,
+     3,
+     3,
+     "",
+     "",
+     7,
+     0.43,
+     17.6
+    ],
+    [
+     11,
+     "Novbr.",
+     "Nordlicht",
+     11,
+     null,
+     null,
+     "",
+     "",
+     7,
+     0.0,
+     0.0
+    ],
+    [
+     12,
+     "Decbr.",
+     "Nordlicht",
+     11,
+     3,
+     3,
+     "",
+     "",
+     7,
+     0.43,
+     17.6
+    ]
+   ],
+   "source_refs": [
+    {
+     "page": "66",
+     "block": "b3",
+     "rows": "r2-r13"
+    },
+    {
+     "page": "830",
+     "block": "b3"
+    }
+   ]
+  },
+  {
+   "name": "rain_yearly",
+   "title": {
+    "de": "Niederschlag in Gera nach Jahr (Dezember bis Dezember), nach Brückners Berichtigungen",
+    "en": "Precipitation at Gera by year (December to December), as corrected by Brückner"
+   },
+   "columns": [
+    {
+     "name": "year",
+     "label": {
+      "de": "Jahr",
+      "en": "Year"
+     },
+     "type": "integer",
+     "unit": null,
+     "note": "Jahr von Dezember bis Dezember; 1860 mit Sternchen im Druck"
+    },
+    {
+     "name": "snow_days",
+     "label": {
+      "de": "Schneetage",
+      "en": "Snow days"
+     },
+     "type": "integer",
+     "unit": "Tage"
+    },
+    {
+     "name": "rain_days",
+     "label": {
+      "de": "Regentage",
+      "en": "Rain days"
+     },
+     "type": "integer",
+     "unit": "Tage"
+    },
+    {
+     "name": "days_total",
+     "label": {
+      "de": "Summe der Tage",
+      "en": "Total days"
+     },
+     "type": "integer",
+     "unit": "Tage"
+    },
+    {
+     "name": "winter_cuin",
+     "label": {
+      "de": "Niederschlag Winter",
+      "en": "Precipitation winter"
+     },
+     "type": "number",
+     "unit": "Pariser Kubikzoll",
+     "note": "berichtigt nach S. 830 (1863); Bezugsfläche nicht angegeben"
+    },
+    {
+     "name": "spring_cuin",
+     "label": {
+      "de": "Niederschlag Frühling",
+      "en": "Precipitation spring"
+     },
+     "type": "number",
+     "unit": "Pariser Kubikzoll",
+     "note": "berichtigt nach S. 830 (1860)"
+    },
+    {
+     "name": "summer_cuin",
+     "label": {
+      "de": "Niederschlag Sommer",
+      "en": "Precipitation summer"
+     },
+     "type": "number",
+     "unit": "Pariser Kubikzoll"
+    },
+    {
+     "name": "autumn_cuin",
+     "label": {
+      "de": "Niederschlag Herbst",
+      "en": "Precipitation autumn"
+     },
+     "type": "number",
+     "unit": "Pariser Kubikzoll"
+    },
+    {
+     "name": "annual_zoll",
+     "label": {
+      "de": "Jahresmittel (Mittel)",
+      "en": "Annual mean"
+     },
+     "type": "number",
+     "unit": "Pariser Zoll",
+     "note": "Spalte »Mittel p. Z.«; berichtigt nach S. 830 (1861–1865)"
+    },
+    {
+     "name": "annual_zoll_printed",
+     "label": {
+      "de": "Jahresmittel laut Tabelle",
+      "en": "Annual mean as in the table"
+     },
+     "type": "number",
+     "unit": "Pariser Zoll",
+     "note": "gedruckter Tabellenwert vor der Berichtigung"
+    },
+    {
+     "name": "annual_mm",
+     "label": {
+      "de": "Jahresmittel",
+      "en": "Annual mean"
+     },
+     "type": "number",
+     "unit": "mm",
+     "derived": true,
+     "note": "berichtigte Pariser Zoll × 27,07"
+    },
+    {
+     "name": "correction",
+     "label": {
+      "de": "Berichtigung",
+      "en": "Correction"
+     },
+     "type": "string",
+     "unit": null,
+     "note": "Hinweis auf Brückners Berichtigung (S. 830)"
+    }
+   ],
+   "rows": [
+    [
+     1860,
+     54,
+     123,
+     177,
+     272.5,
+     534.5,
+     903.59,
+     479.5,
+     19.35,
+     19.35,
+     524,
+     "S. 830: Frühling: 534,50 statt 554,50"
+    ],
+    [
+     1861,
+     33,
+     122,
+     155,
+     310.75,
+     370.49,
+     990.75,
+     350.37,
+     18.13,
+     18.74,
+     491,
+     "S. 830: Jahresmittel (Zoll): 18,13 statt 18,74"
+    ],
+    [
+     1862,
+     30,
+     116,
+     146,
+     499.75,
+     691.32,
+     1078.29,
+     412.5,
+     23.7,
+     20.59,
+     642,
+     "S. 830: Jahresmittel (Zoll): 23,70 statt 20,59"
+    ],
+    [
+     1863,
+     13,
+     115,
+     128,
+     319.25,
+     734.0,
+     844.11,
+     675.95,
+     22.74,
+     20.98,
+     616,
+     "S. 830: Winter: 319,25 statt 319,28; Jahresmittel (Zoll): 22,74 statt 20,98"
+    ],
+    [
+     1864,
+     36,
+     120,
+     156,
+     365.1,
+     379.5,
+     886.0,
+     437.75,
+     18.21,
+     20.45,
+     493,
+     "S. 830: Jahresmittel (Zoll): 18,21 statt 20,45"
+    ],
+    [
+     1865,
+     43,
+     93,
+     136,
+     312.04,
+     795.8,
+     829.67,
+     344.5,
+     20.44,
+     20.42,
+     553,
+     "S. 830: Jahresmittel (Zoll): 20,44 statt 20,42"
+    ],
+    [
+     1866,
+     29,
+     142,
+     171,
+     272.15,
+     434.26,
+     1029.25,
+     450.75,
+     19.32,
+     19.32,
+     523,
+     ""
+    ],
+    [
+     1867,
+     48,
+     163,
+     211,
+     665.15,
+     767.5,
+     570.0,
+     569.05,
+     22.73,
+     22.73,
+     615,
+     ""
+    ]
+   ],
+   "source_refs": [
+    {
+     "page": "69",
+     "block": "b1",
+     "rows": "r2-r9"
+    },
+    {
+     "page": "830",
+     "block": "b6"
+    }
+   ]
+  },
+  {
+   "name": "rain_reference",
+   "title": {
+    "de": "Mittelwerte zum Vergleich",
+    "en": "Means for comparison"
+   },
+   "columns": [
+    {
+     "name": "label",
+     "label": {
+      "de": "Bezeichnung",
+      "en": "Label"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "zoll",
+     "label": {
+      "de": "Jahresmenge",
+      "en": "Annual amount"
+     },
+     "type": "number",
+     "unit": "Pariser Zoll",
+     "note": "Gera: berichtigt nach S. 830 (20,57); Thüringen: Text S. 68"
+    },
+    {
+     "name": "zoll_printed",
+     "label": {
+      "de": "Jahresmenge laut Tabelle",
+      "en": "Annual amount as in the table"
+     },
+     "type": "number",
+     "unit": "Pariser Zoll",
+     "note": "Gera: gedruckt 20,36 (vor der Berichtigung)"
+    },
+    {
+     "name": "mm",
+     "label": {
+      "de": "Jahresmenge",
+      "en": "Annual amount"
+     },
+     "type": "number",
+     "unit": "mm",
+     "derived": true
+    }
+   ],
+   "rows": [
+    [
+     "Gera, Mittel 1860–1867",
+     20.57,
+     20.36,
+     557
+    ],
+    [
+     "Thüringen (allgemein)",
+     21.12,
+     null,
+     572
+    ]
+   ],
+   "source_refs": [
+    {
+     "page": "69",
+     "block": "b1",
+     "rows": "r10"
+    },
+    {
+     "page": "68",
+     "block": "b7"
+    },
+    {
+     "page": "830",
+     "block": "b6"
+    }
+   ]
+  },
+  {
+   "name": "temp_annual",
+   "title": {
+    "de": "Jahreswerte der Temperatur, Gera",
+    "en": "Annual temperature values, Gera"
+   },
+   "columns": [
+    {
+     "name": "year",
+     "label": {
+      "de": "Jahr",
+      "en": "Year"
+     },
+     "type": "integer",
+     "unit": null
+    },
+    {
+     "name": "summer_r",
+     "label": {
+      "de": "Sommermittel (Apr–Sep)",
+      "en": "Summer mean (Apr–Sep)"
+     },
+     "type": "number",
+     "unit": "°R"
+    },
+    {
+     "name": "winter_r",
+     "label": {
+      "de": "Wintermittel (Okt–Mär)",
+      "en": "Winter mean (Oct–Mar)"
+     },
+     "type": "number",
+     "unit": "°R"
+    },
+    {
+     "name": "max_r",
+     "label": {
+      "de": "Höchster Stand",
+      "en": "Highest reading"
+     },
+     "type": "number",
+     "unit": "°R"
+    },
+    {
+     "name": "min_r",
+     "label": {
+      "de": "Tiefster Stand",
+      "en": "Lowest reading"
+     },
+     "type": "number",
+     "unit": "°R"
+    },
+    {
+     "name": "annual_r",
+     "label": {
+      "de": "Jahresmittel",
+      "en": "Annual mean"
+     },
+     "type": "number",
+     "unit": "°R"
+    },
+    {
+     "name": "summer_c",
+     "label": {
+      "de": "Sommermittel (Apr–Sep)",
+      "en": "Summer mean (Apr–Sep)"
+     },
+     "type": "number",
+     "unit": "°C",
+     "derived": true
+    },
+    {
+     "name": "winter_c",
+     "label": {
+      "de": "Wintermittel (Okt–Mär)",
+      "en": "Winter mean (Oct–Mar)"
+     },
+     "type": "number",
+     "unit": "°C",
+     "derived": true
+    },
+    {
+     "name": "max_c",
+     "label": {
+      "de": "Höchster Stand",
+      "en": "Highest reading"
+     },
+     "type": "number",
+     "unit": "°C",
+     "derived": true
+    },
+    {
+     "name": "min_c",
+     "label": {
+      "de": "Tiefster Stand",
+      "en": "Lowest reading"
+     },
+     "type": "number",
+     "unit": "°C",
+     "derived": true
+    },
+    {
+     "name": "annual_c",
+     "label": {
+      "de": "Jahresmittel",
+      "en": "Annual mean"
+     },
+     "type": "number",
+     "unit": "°C",
+     "derived": true
+    },
+    {
+     "name": "span_c",
+     "label": {
+      "de": "Spanne Höchst–Tiefst",
+      "en": "Spread highest–lowest"
+     },
+     "type": "number",
+     "unit": "K",
+     "derived": true
+    }
+   ],
+   "rows": [
+    [
+     1856,
+     11.94,
+     1.26,
+     25.0,
+     -15.5,
+     6.6,
+     14.92,
+     1.57,
+     31.25,
+     -19.38,
+     8.25,
+     50.62
+    ],
+    [
+     1857,
+     12.36,
+     2.82,
+     26.8,
+     -14.4,
+     7.59,
+     15.45,
+     3.52,
+     33.5,
+     -18.0,
+     9.49,
+     51.5
+    ],
+    [
+     1858,
+     12.48,
+     1.47,
+     26.6,
+     -15.4,
+     6.97,
+     15.6,
+     1.84,
+     33.25,
+     -19.25,
+     8.71,
+     52.5
+    ],
+    [
+     1859,
+     12.54,
+     3.15,
+     28.7,
+     -11.3,
+     7.84,
+     15.67,
+     3.94,
+     35.88,
+     -14.12,
+     9.8,
+     50.0
+    ],
+    [
+     1860,
+     11.23,
+     1.33,
+     24.4,
+     -12.4,
+     6.28,
+     14.04,
+     1.66,
+     30.5,
+     -15.5,
+     7.85,
+     46.0
+    ],
+    [
+     1861,
+     11.4,
+     2.31,
+     27.3,
+     -22.7,
+     6.85,
+     14.25,
+     2.89,
+     34.12,
+     -28.38,
+     8.56,
+     62.5
+    ],
+    [
+     1862,
+     12.24,
+     2.73,
+     26.4,
+     -13.0,
+     7.48,
+     15.3,
+     3.41,
+     33.0,
+     -16.25,
+     9.35,
+     49.25
+    ],
+    [
+     1863,
+     11.81,
+     4.06,
+     27.0,
+     -7.5,
+     7.93,
+     14.76,
+     5.07,
+     33.75,
+     -9.38,
+     9.91,
+     43.12
+    ],
+    [
+     1864,
+     10.2,
+     0.23,
+     23.0,
+     -15.5,
+     5.21,
+     12.75,
+     0.29,
+     28.75,
+     -19.38,
+     6.51,
+     48.12
+    ],
+    [
+     1865,
+     12.31,
+     1.11,
+     27.2,
+     -17.5,
+     6.71,
+     15.39,
+     1.39,
+     34.0,
+     -21.88,
+     8.39,
+     55.88
+    ],
+    [
+     1866,
+     11.51,
+     2.98,
+     24.5,
+     -8.1,
+     7.24,
+     14.39,
+     3.73,
+     30.62,
+     -10.12,
+     9.05,
+     40.75
+    ],
+    [
+     1867,
+     11.63,
+     2.11,
+     24.5,
+     -14.5,
+     6.87,
+     14.54,
+     2.64,
+     30.62,
+     -18.12,
+     8.59,
+     48.75
+    ]
+   ],
+   "source_refs": [
+    {
+     "page": "55",
+     "block": "b9",
+     "rows": "r2-r13"
+    }
+   ]
+  },
+  {
+   "name": "pressure_annual",
+   "title": {
+    "de": "Jahresmittel",
+    "en": "Annual means"
+   },
+   "columns": [
+    {
+     "name": "year",
+     "label": {
+      "de": "Jahr",
+      "en": "Year"
+     },
+     "type": "integer",
+     "unit": null
+    },
+    {
+     "name": "pressure_lines",
+     "label": {
+      "de": "Jahresmittel",
+      "en": "Annual mean"
+     },
+     "type": "number",
+     "unit": "Pariser Linien"
+    },
+    {
+     "name": "pressure_hpa",
+     "label": {
+      "de": "Jahresmittel",
+      "en": "Annual mean"
+     },
+     "type": "number",
+     "unit": "hPa",
+     "derived": true
+    }
+   ],
+   "rows": [
+    [
+     1856,
+     328.94,
+     989.3
+    ],
+    [
+     1857,
+     329.71,
+     991.6
+    ],
+    [
+     1858,
+     330.29,
+     993.4
+    ],
+    [
+     1859,
+     329.77,
+     991.8
+    ],
+    [
+     1860,
+     329.09,
+     989.7
+    ],
+    [
+     1861,
+     330.29,
+     993.4
+    ],
+    [
+     1862,
+     329.9,
+     992.2
+    ],
+    [
+     1863,
+     330.4,
+     993.7
+    ],
+    [
+     1864,
+     330.26,
+     993.3
+    ],
+    [
+     1865,
+     333.43,
+     1002.8
+    ],
+    [
+     1866,
+     332.42,
+     999.8
+    ],
+    [
+     1867,
+     332.43,
+     999.8
+    ]
+   ],
+   "source_refs": [
+    {
+     "page": "54",
+     "block": "b4",
+     "rows": "r2-r13"
+    }
+   ]
+  }
+ ],
+ "charts": [
+  {
+   "id": "c1",
+   "dataset": "temp_monthly",
+   "title": {
+    "de": "Im Winter schwankten Monatsmittel stark, im Sommer kaum: Juni bis September wichen höchstens 3,4 K ab",
+    "en": "Winter months varied widely, summer months hardly: June to September never departed more than 3.4 K"
+   },
+   "caption": {
+    "de": "Abweichung jedes Monatsmittels der Temperatur in Gera vom Mittel desselben Kalendermonats der zwölf Jahre, in Kelvin; Zahlen ab 4 K Abweichung. Aus Réaumur umgerechnet. Quelle: S. 55.",
+    "en": "Deviation of each monthly mean temperature at Gera from the mean of the same calendar month over the twelve years, in kelvin; numbers where the deviation is 4 K or more. Converted from Réaumur. Source: p. 55."
+   },
+   "vegalite": {
+    "height": 300,
+    "encoding": {
+     "x": {
+      "field": "year",
+      "type": "ordinal",
+      "axis": {
+       "title": null,
+       "labelAngle": 0
+      }
+     },
+     "y": {
+      "field": "month",
+      "type": "ordinal",
+      "axis": {
+       "title": null,
+       "labelExpr": {
+        "de": "['Jan','Feb','Mär','Apr','Mai','Jun','Jul','Aug','Sep','Okt','Nov','Dez'][datum.value-1]",
+        "en": "['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'][datum.value-1]"
+       }
+      }
+     }
+    },
+    "layer": [
+     {
+      "mark": {
+       "type": "rect"
+      },
+      "encoding": {
+       "color": {
+        "field": "anomaly_c",
+        "type": "quantitative",
+        "scale": {
+         "domain": [
+          -6,
+          0,
+          6
+         ],
+         "range": [
+          "@accent",
+          "@paper",
+          "@negative"
+         ],
+         "clamp": true,
+         "interpolate": "lab"
+        },
+        "legend": {
+         "title": {
+          "de": "Abweichung vom Mittel des Kalendermonats (K)",
+          "en": "Deviation from the mean of the calendar month (K)"
+         },
+         "titleLimit": 500,
+         "values": [
+          -6,
+          -3,
+          0,
+          3,
+          6
+         ],
+         "gradientLength": 280,
+         "labelExpr": "datum.value > 0 ? '+' + datum.value : (datum.value < 0 ? '−' + abs(datum.value) : '0')"
+        }
+       },
+       "tooltip": [
+        {
+         "field": "year",
+         "title": {
+          "de": "Jahr",
+          "en": "Year"
+         }
+        },
+        {
+         "field": "month_label",
+         "title": {
+          "de": "Monat",
+          "en": "Month"
+         }
+        },
+        {
+         "field": "temp_r",
+         "title": {
+          "de": "Monatsmittel (°R, gedruckt)",
+          "en": "Monthly mean (°R, as printed)"
+         }
+        },
+        {
+         "field": "temp_c",
+         "title": {
+          "de": "Monatsmittel (°C)",
+          "en": "Monthly mean (°C)"
+         },
+         "format": ".1f"
+        },
+        {
+         "field": "anomaly_c",
+         "title": {
+          "de": "Abweichung (K)",
+          "en": "Deviation (K)"
+         },
+         "format": "+.1f"
+        }
+       ]
+      }
+     },
+     {
+      "transform": [
+       {
+        "filter": "abs(datum.anomaly_c) >= 4"
+       }
+      ],
+      "mark": {
+       "type": "text",
+       "style": "label"
+      },
+      "encoding": {
+       "text": {
+        "field": "anomaly_c",
+        "type": "quantitative",
+        "format": "+.1f"
+       },
+       "color": {
+        "condition": {
+         "test": "abs(datum.anomaly_c) >= 5",
+         "value": "@paper"
+        },
+        "value": "@ink"
+       }
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "c2",
+   "dataset": "weather_events",
+   "title": {
+    "de": "Jede Erscheinung hat ihre Jahreszeit: Gewitter im Sommer, Schnee und Reif im Winter, Nebel im Herbst",
+    "en": "Each phenomenon has its season: thunderstorms in summer, snow and hoarfrost in winter, fog in autumn"
+   },
+   "caption": {
+    "de": "Anteil jedes Monats an der Jahressumme der Erscheinung in Gera, 1856 bis 1867 (Prozent); die Zahl nennt den stärksten Monat, in Klammern der Durchschnitt pro Jahr. Quelle: S. 66, Regen nach S. 830 berichtigt.",
+    "en": "Share of each month in the annual total of the phenomenon at Gera, 1856 to 1867 (percent); the number marks the strongest month, in brackets the average per year. Source: p. 66, rain as corrected on p. 830."
+   },
+   "vegalite": {
+    "height": {
+     "step": 30
+    },
+    "transform": [
+     {
+      "filter": "indexof(['Schnee','Reif','Sturm','Hoehenrauch','Regen','Gewitter','Nebel'], datum.phenomenon) >= 0"
+     },
+     {
+      "joinaggregate": [
+       {
+        "op": "sum",
+        "field": "per_year",
+        "as": "year_total"
+       },
+       {
+        "op": "max",
+        "field": "share_of_year",
+        "as": "row_max"
+       }
+      ],
+      "groupby": [
+       "phenomenon"
+      ]
+     },
+     {
+      "calculate": "{'Schnee':1,'Reif':2,'Sturm':3,'Hoehenrauch':4,'Regen':5,'Gewitter':6,'Nebel':7}[datum.phenomenon]",
+      "as": "row_order"
+     },
+     {
+      "calculate": {
+       "de": "{'Schnee':'Schnee','Reif':'Reif','Sturm':'Sturm','Hoehenrauch':'Höhenrauch','Regen':'Regen','Gewitter':'Gewitter','Nebel':'Nebel'}[datum.phenomenon] + ' (' + format(datum.year_total, '.0f') + ')'",
+       "en": "{'Schnee':'Snow','Reif':'Hoarfrost','Sturm':'Storm','Hoehenrauch':'Haze','Regen':'Rain','Gewitter':'Thunderstorm','Nebel':'Fog'}[datum.phenomenon] + ' (' + format(datum.year_total, '.0f') + ')'"
+      },
+      "as": "row_label"
+     }
+    ],
+    "encoding": {
+     "x": {
+      "field": "month",
+      "type": "ordinal",
+      "axis": {
+       "title": null,
+       "labelAngle": 0,
+       "labelExpr": {
+        "de": "['Jan','Feb','Mär','Apr','Mai','Jun','Jul','Aug','Sep','Okt','Nov','Dez'][datum.value-1]",
+        "en": "['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'][datum.value-1]"
+       }
+      }
+     },
+     "y": {
+      "field": "row_label",
+      "type": "nominal",
+      "sort": {
+       "field": "row_order",
+       "op": "min"
+      },
+      "axis": {
+       "title": null,
+       "labelLimit": 200
+      }
+     }
+    },
+    "layer": [
+     {
+      "mark": {
+       "type": "rect"
+      },
+      "encoding": {
+       "color": {
+        "field": "share_of_year",
+        "type": "quantitative",
+        "scale": {
+         "range": "heatmap",
+         "domain": [
+          0,
+          24
+         ],
+         "clamp": true
+        },
+        "legend": {
+         "title": {
+          "de": "Anteil an der Jahressumme (%)",
+          "en": "Share of the annual total (%)"
+         },
+         "titleLimit": 500,
+         "values": [
+          0,
+          6,
+          12,
+          18,
+          24
+         ],
+         "format": "d",
+         "gradientLength": 240
+        }
+       },
+       "tooltip": [
+        {
+         "field": "row_label",
+         "title": {
+          "de": "Erscheinung (pro Jahr)",
+          "en": "Phenomenon (per year)"
+         }
+        },
+        {
+         "field": "month_label",
+         "title": {
+          "de": "Monat",
+          "en": "Month"
+         }
+        },
+        {
+         "field": "days",
+         "title": {
+          "de": "Zahl in zwölf Jahren",
+          "en": "Count in twelve years"
+         },
+         "format": "d"
+        },
+        {
+         "field": "share_of_year",
+         "title": {
+          "de": "Anteil (%)",
+          "en": "Share (%)"
+         },
+         "format": ".1f"
+        }
+       ]
+      }
+     },
+     {
+      "transform": [
+       {
+        "filter": "datum.share_of_year == datum.row_max"
+       }
+      ],
+      "mark": {
+       "type": "text",
+       "style": "label"
+      },
+      "encoding": {
+       "text": {
+        "field": "share_of_year",
+        "type": "quantitative",
+        "format": ".0f"
+       },
+       "color": {
+        "condition": {
+         "test": "datum.share_of_year > 13",
+         "value": "@paper"
+        },
+        "value": "@ink"
+       }
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "c3",
+   "dataset": "rain_yearly",
+   "extra_datasets": [
+    "rain_reference"
+   ],
+   "title": {
+    "de": "Die Regenmenge lag in Gera nur in drei von acht Jahren über dem thüringischen Mittel",
+    "en": "Rainfall at Gera exceeded the Thuringian average in only three of eight years"
+   },
+   "caption": {
+    "de": "Jahresniederschlag in Gera 1860 bis 1867 nach Brückners Regenmessung (Pariser Zoll, umgerechnet in Millimeter), Linie: allgemeines Mittel für Thüringen (21,12 Zoll). Quelle: S. 68 f., Berichtigungen S. 830.",
+    "en": "Annual precipitation at Gera, 1860 to 1867, from Brückner’s rain gauge (Paris inches, converted to millimeters); line: general average for Thuringia (21.12 inches). Source: pp. 68 f., corrections p. 830."
+   },
+   "vegalite": {
+    "height": 280,
+    "transform": [
+     {
+      "calculate": "'Thüringen (allgemein)'",
+      "as": "refkey"
+     },
+     {
+      "lookup": "refkey",
+      "from": {
+       "data": {
+        "name": "rain_reference"
+       },
+       "key": "label",
+       "fields": [
+        "mm"
+       ]
+      },
+      "as": "ref_mm"
+     }
+    ],
+    "encoding": {
+     "x": {
+      "field": "year",
+      "type": "ordinal",
+      "axis": {
+       "title": null,
+       "labelAngle": 0
+      }
+     },
+     "y": {
+      "field": "annual_mm",
+      "type": "quantitative",
+      "scale": {
+       "domain": [
+        0,
+        700
+       ]
+      },
+      "axis": {
+       "title": {
+        "de": "Niederschlag (mm)",
+        "en": "Precipitation (mm)"
+       },
+       "values": [
+        0,
+        200,
+        400,
+        600
+       ]
+      }
+     }
+    },
+    "layer": [
+     {
+      "mark": {
+       "type": "bar",
+       "width": {
+        "band": 0.7
+       }
+      },
+      "encoding": {
+       "color": {
+        "condition": {
+         "test": "datum.annual_mm > datum.ref_mm",
+         "value": "@accent"
+        },
+        "value": "@context"
+       },
+       "tooltip": [
+        {
+         "field": "year",
+         "title": {
+          "de": "Jahr",
+          "en": "Year"
+         }
+        },
+        {
+         "field": "annual_zoll",
+         "title": {
+          "de": "Niederschlag (Pariser Zoll)",
+          "en": "Precipitation (Paris inches)"
+         },
+         "format": ".2f"
+        },
+        {
+         "field": "annual_mm",
+         "title": {
+          "de": "Niederschlag (mm)",
+          "en": "Precipitation (mm)"
+         },
+         "format": ".0f"
+        },
+        {
+         "field": "days_total",
+         "title": {
+          "de": "Tage mit Regen oder Schnee",
+          "en": "Days with rain or snow"
+         },
+         "format": "d"
+        }
+       ]
+      }
+     },
+     {
+      "mark": {
+       "type": "text",
+       "style": "label",
+       "baseline": "top",
+       "dy": 3
+      },
+      "encoding": {
+       "text": {
+        "field": "annual_mm",
+        "type": "quantitative",
+        "format": ".0f"
+       },
+       "color": {
+        "condition": {
+         "test": "datum.annual_mm > datum.ref_mm",
+         "value": "@paper"
+        },
+        "value": "@ink"
+       }
+      }
+     },
+     {
+      "mark": {
+       "type": "rule",
+       "strokeDash": [
+        4,
+        3
+       ],
+       "color": "@ink2",
+       "strokeWidth": 1.5
+      },
+      "encoding": {
+       "x": null,
+       "y": {
+        "field": "ref_mm",
+        "type": "quantitative"
+       }
+      }
+     },
+     {
+      "transform": [
+       {
+        "filter": "datum.year == 1860"
+       }
+      ],
+      "mark": {
+       "type": "text",
+       "style": "annotation",
+       "align": "left",
+       "baseline": "bottom",
+       "dy": -5,
+       "dx": -22
+      },
+      "encoding": {
+       "y": {
+        "field": "ref_mm",
+        "type": "quantitative"
+       },
+       "text": {
+        "value": {
+         "de": "Thüringen, Mittel 572 mm",
+         "en": "Thuringia, average 572 mm"
+        }
+       }
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "keywords": {
+  "de": [
+   "Wetter",
+   "Klima",
+   "Gera",
+   "Temperatur",
+   "Luftdruck",
+   "Niederschlag",
+   "Regen",
+   "Gewitter",
+   "Nebel",
+   "Réaumur",
+   "Thermometer"
+  ],
+  "en": [
+   "weather",
+   "climate",
+   "Gera",
+   "temperature",
+   "air pressure",
+   "precipitation",
+   "rain",
+   "thunderstorm",
+   "fog",
+   "Réaumur",
+   "thermometer"
+  ]
+ },
+ "related": [
+  "klima-stationen",
+  "wind-gewitter",
+  "phaenologie"
+ ],
+ "generated_by": "Claude Sonnet 5.5 (Agent F2), aus 4 Einzelauswertungen zusammengeführt",
+ "date": "2026-10-02"
+}

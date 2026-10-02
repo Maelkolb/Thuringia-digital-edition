@@ -851,11 +851,11 @@
        ]
       },
       {
-       "text": "Karolinensfeld 1874,6'.",
+       "text": "Karolinenfeld 1874,6'.",
        "spans": [
         [
          0,
-         14,
+         13,
          "Location"
         ]
        ]
@@ -1008,11 +1008,11 @@
    "id": "b2",
    "type": "paragraph",
    "src": 1,
-   "text": "Demnach ist im Oberlande der tiefste bewohnte Punkt die reichenfelser Schloßmühle oder die hohenleubner „Neue Mühle“, der höchste dagegen Karolinensfeld; ihre Differenz beträgt 874'. Die Durchschnittshöhe der Wohnorte hat also ca. 1340'. In der Wirklichkeit liegen 63 Wohnpunkte (mit Inbegriff der Einzelhäuser) höher als derselbe, 74 unter ihm.",
+   "text": "Demnach ist im Oberlande der tiefste bewohnte Punkt die reichenfelser Schloßmühle oder die hohenleubner „Neue Mühle“, der höchste dagegen Karolinenfeld; ihre Differenz beträgt 874'. Die Durchschnittshöhe der Wohnorte hat also ca. 1340'. In der Wirklichkeit liegen 63 Wohnpunkte (mit Inbegriff der Einzelhäuser) höher als derselbe, 74 unter ihm.",
    "spans": [
     [
      138,
-     152,
+     151,
      "Location"
     ],
     [
@@ -1324,6 +1324,13 @@
  ],
  "footnotes": [],
  "corrections": [
+  {
+   "rule": "facsimile_correction",
+   "before": "Karolinensfeld",
+   "after": "Karolinenfeld",
+   "source": "relief-hoehen",
+   "n": 2
+  },
   {
    "rule": "table_no_header_row",
    "note": "first row is data (legacy edition rendered it as <th>)",

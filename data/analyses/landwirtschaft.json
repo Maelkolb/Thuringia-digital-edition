@@ -1,0 +1,2634 @@
+{
+ "id": "landwirtschaft",
+ "title": {
+  "de": "Boden, Besitz und Ernte",
+  "en": "Land, ownership and harvest"
+ },
+ "category": "agriculture",
+ "section": "t1-3-2",
+ "merges": [
+  "landwirtschaft-bodennutzung-1854",
+  "landwirtschaft-grundbesitz-1854",
+  "landwirtschaft-ernte-versorgung",
+  "landwirtschaft-agrarreformen-1836-1868",
+  "landwirtschaft-kammer-rittergueter-1854",
+  "wirtschaft-loehne-pacht-landwirtschaft-1860er"
+ ],
+ "sources": [
+  {
+   "page": "217",
+   "block": "b1"
+  },
+  {
+   "page": "224",
+   "block": "b2"
+  },
+  {
+   "page": "224",
+   "block": "b3"
+  },
+  {
+   "page": "226",
+   "block": "b3"
+  },
+  {
+   "page": "226",
+   "block": "b4"
+  },
+  {
+   "page": "227",
+   "block": "b1"
+  },
+  {
+   "page": "227",
+   "block": "b3"
+  },
+  {
+   "page": "230",
+   "block": "b4"
+  }
+ ],
+ "summary": {
+  "de": "Die Vermessung von 1854 verteilt 322.746 Morgen auf Nutzungsarten: Das Unterland ist Ackerland (58 Prozent Feld), das Oberland Wald und Wiese. Von 2.881 geschlossenen Bauerngütern hatten 69,3 Prozent weniger als 60 Morgen. Nach Brückners Modellrechnung überstieg die Getreideerzeugung den Verbrauch im ganzen Land um 9,0 Prozent, in Lobenstein-Ebersdorf um 2,7 Prozent.",
+  "en": "The survey of 1854 divides 322,746 Morgen among kinds of use: the Unterland is arable land (58 percent field), the Oberland woodland and meadow. Of 2,881 closed peasant farms 69.3 percent had less than 60 Morgen. By Brückner’s model calculation grain production exceeded consumption by 9.0 percent in the country as a whole, by 2.7 percent in Lobenstein-Ebersdorf."
+ },
+ "findings": [
+  {
+   "de": "Die Zahl der Rittergüter sank von 72 (1647) auf 41 (1867); 25 gehörten 1867 Bürgerlichen, 9 Adligen und 7 Mitgliedern des Fürstenhauses.",
+   "en": "The number of manorial estates (Rittergüter) fell from 72 (1647) to 41 (1867); in 1867 25 belonged to commoners, 9 to nobles and 7 to members of the princely house."
+  },
+  {
+   "de": "Ein Taglöhner verdiente im Unterland im Sommer 12 bis 20 Silbergroschen am Tag, im Oberland mit Kost 5 bis 6; nach Brückner haben sich Löhne und Pachtgelder in etwa 40 Jahren verdoppelt.",
+   "en": "A day laborer earned 12 to 20 silver groschen a day in summer in the Unterland, 5 to 6 with board in the Oberland; according to Brückner wages and rents doubled in about 40 years."
+  },
+  {
+   "de": "Auf die Quadratmeile umgerechnet betrug der Überschuss in Gera 6.816 Zentner Roggenwert, in Schleiz 3.225 und in Lobenstein-Ebersdorf 696.",
+   "en": "Per square mile the surplus was 6,816 hundredweights of rye value in Gera, 3,225 in Schleiz and 696 in Lobenstein-Ebersdorf."
+  }
+ ],
+ "method": {
+  "de": "Die Nutzungsarten stammen aus der Tabelle der Landesvermessung von 1854 (S. 217). Für das Diagramm sind Laub- und Nadelholz zu »Wald« zusammengefasst; »Übrige« sind Gärten, Hutung, Gehöfte, Teiche und steuerfreier Boden. Die Größenklassen der geschlossenen Bauerngüter (S. 224) sind zu drei Gruppen vereinigt; die Grenze von 60 Morgen ist Brückners eigene Unterscheidung von kleinen und großen Gütern. Produktion und Verbrauch (S. 227) sind Brückners Schätzungen für mittlere Erntejahre in Zentnern Roggenwert (Roggen gleich 1, Weizen und Hülsenfrüchte 1,29, Gerste 0,76, Hafer 0,47, Kartoffeln 0,25), der Verbrauch mit festen Sätzen je Kopf und Tier angesetzt. Rittergüter 1647 und 1867 stehen auf S. 230, für Gera 1867 gilt Brückners Berichtigung (S. 831: 26 statt 29). Löhne und Pachtpreise stammen aus dem Fließtext auf S. 227. Die Zahlen sind unverändert übernommen; Hektarwerte stehen in den Datensätzen, Prozente sind aus den gedruckten Zahlen berechnet.",
+  "en": "The kinds of use come from the table of the land survey of 1854 (p. 217). For the chart deciduous and coniferous woodland are combined as “Wald”; “Übrige” are gardens, pasture, farmsteads, ponds and tax-exempt land. The size classes of the closed peasant farms (p. 224) are merged into three groups; the limit of 60 Morgen is Brückner’s own distinction between small and large farms. Production and consumption (p. 227) are Brückner’s estimates for average harvest years in hundredweights of rye value (rye = 1, wheat and pulses 1.29, barley 0.76, oats 0.47, potatoes 0.25), with consumption set at fixed rates per head and animal. Manorial estates in 1647 and 1867 are on p. 230; for Gera in 1867 Brückner’s correction applies (p. 831: 26 instead of 29). Wages and rents come from the running text on p. 227. The figures are taken over unchanged; hectare values are in the datasets, percentages are computed from the printed numbers."
+ },
+ "conversions": [
+  {
+   "from": "preußischer Morgen",
+   "to": "Hektar",
+   "factor_or_formula": "ha = Morgen × 0,255322",
+   "reference": "S. 832"
+  },
+  {
+   "from": "Taler",
+   "to": "Silbergroschen",
+   "factor_or_formula": "1 Taler = 30 Silbergroschen",
+   "reference": "preußisches Münzsystem; nicht in Brückners Tabelle"
+  },
+  {
+   "from": "Zentner Roggenwert",
+   "to": "Zentner Roggen",
+   "factor_or_formula": "Roggen = 1; Weizen, Hülsenfrüchte 1,29; Gerste 0,76; Hafer 0,47; Kartoffeln 0,25",
+   "reference": "S. 226"
+  }
+ ],
+ "caveats": [
+  {
+   "de": "Die Zahlen beruhen auf der Vermessung von 1854, Lobenstein-Ebersdorf war nur skizziert. Der Waldanteil weicht von den späteren Waldzahlen auf S. 240 ab (siehe »Wald und Holz«); die Quellen stammen aus verschiedenen Zeiten.",
+   "en": "The figures rest on the survey of 1854; Lobenstein-Ebersdorf was only sketched. The forest share differs from the later forest figures on p. 240 (see “Forests and timber”); the sources date from different times."
+  },
+  {
+   "de": "Die Getreidebilanz ist eine Modellrechnung, keine Erntestatistik. Für Gera weicht die Produktion der Bilanz (275 485 Zentner) von der Summe der Fruchtarten (260 714) ab; beide Werte sind so gedruckt.",
+   "en": "The grain balance is a model calculation, not a harvest statistic. For Gera the production in the balance (275,485 hundredweights) differs from the sum of the crops (260,714); both values are printed so."
+  },
+  {
+   "de": "Die Größenklassen zählen geschlossene Bauerngüter, nicht Flächen. Die Landesteil-Zeilen für Grundstücksverbände und ledige Grundstücke ergeben nicht die gedruckten Summen; verwendet sind die Zahlen der Größenklassen.",
+   "en": "The size classes count closed peasant farms, not areas. The district rows for plot associations and detached plots do not add up to the printed totals; the size-class figures are used."
+  },
+  {
+   "de": "Löhne und Pachtpreise sind Spannen aus dem Fließtext ohne Jahresangabe (um 1868); der Wert der Kost ist nicht beziffert.",
+   "en": "Wages and rents are ranges from the running text without a year (around 1868); the value of board is not stated."
+  }
+ ],
+ "transcription_issues": [
+  {
+   "page": "230",
+   "block": "b4",
+   "cell": "r2c6",
+   "transcribed": "29",
+   "facsimile": "29",
+   "checked_facsimile": true,
+   "note": "Rittergüter im Landesteil Gera 1867: so gedruckt; Brückners Berichtigung (S. 831) verlangt 26, was zu den Besitzerzahlen (14 + 7 + 5) und zur Summe 41 passt. Die Auswertung rechnet mit 26. / Printed as 29; Brückner’s own correction (p. 831) gives 26."
+  }
+ ],
+ "datasets": [
+  {
+   "name": "nutzung",
+   "title": {
+    "de": "Bodennutzung nach Landesteilen",
+    "en": "Land use by district"
+   },
+   "columns": [
+    {
+     "name": "nutzung_de",
+     "label": {
+      "de": "Art der Benutzung",
+      "en": "Kind of use"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "nutzung_en",
+     "label": {
+      "de": "Art der Benutzung (englisch)",
+      "en": "Kind of use (English)"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "gruppe_de",
+     "label": {
+      "de": "Gruppe (für die Diagramme)",
+      "en": "Group (for the charts)"
+     },
+     "type": "string",
+     "unit": null,
+     "derived": true,
+     "note": "editorische Zusammenfassung"
+    },
+    {
+     "name": "gruppe_en",
+     "label": {
+      "de": "Gruppe (englisch)",
+      "en": "Group (English)"
+     },
+     "type": "string",
+     "unit": null,
+     "derived": true
+    },
+    {
+     "name": "gruppe_nr",
+     "label": {
+      "de": "Reihenfolge der Gruppe",
+      "en": "Group order"
+     },
+     "type": "integer",
+     "unit": null,
+     "derived": true
+    },
+    {
+     "name": "landestheil_de",
+     "label": {
+      "de": "Landesteil",
+      "en": "District"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "landestheil_en",
+     "label": {
+      "de": "Landesteil (englisch)",
+      "en": "District (English)"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "lt_nr",
+     "label": {
+      "de": "Reihenfolge des Landesteils",
+      "en": "District order"
+     },
+     "type": "integer",
+     "unit": null,
+     "derived": true
+    },
+    {
+     "name": "morgen",
+     "label": {
+      "de": "Fläche",
+      "en": "Area"
+     },
+     "type": "number",
+     "unit": "preuß. Morgen"
+    },
+    {
+     "name": "pct",
+     "label": {
+      "de": "Anteil an der Fläche",
+      "en": "Share of area"
+     },
+     "type": "number",
+     "unit": "%"
+    },
+    {
+     "name": "ha",
+     "label": {
+      "de": "Fläche in Hektar",
+      "en": "Area in hectares"
+     },
+     "type": "number",
+     "unit": "ha",
+     "derived": true,
+     "note": "Morgen × 0,255322"
+    }
+   ],
+   "rows": [
+    [
+     "Gehöfte",
+     "Farmsteads",
+     "Gehöfte, Teiche u. a.",
+     "Farmsteads, ponds etc.",
+     7,
+     "Gera",
+     "Gera",
+     1,
+     804.45,
+     0.93,
+     205.4
+    ],
+    [
+     "Gehöfte",
+     "Farmsteads",
+     "Gehöfte, Teiche u. a.",
+     "Farmsteads, ponds etc.",
+     7,
+     "Schleiz",
+     "Schleiz",
+     2,
+     556,
+     0.44,
+     142.0
+    ],
+    [
+     "Gehöfte",
+     "Farmsteads",
+     "Gehöfte, Teiche u. a.",
+     "Farmsteads, ponds etc.",
+     7,
+     "Lobenstein-Ebersdorf",
+     "Lobenstein-Ebersdorf",
+     3,
+     413.75,
+     0.38,
+     105.6
+    ],
+    [
+     "Gehöfte",
+     "Farmsteads",
+     "Gehöfte, Teiche u. a.",
+     "Farmsteads, ponds etc.",
+     7,
+     "Fürstentum",
+     "Principality",
+     4,
+     1774.2,
+     0.55,
+     453.0
+    ],
+    [
+     "Gärten und Obstanlagen",
+     "Gardens and orchards",
+     "Gärten und Obstanlagen",
+     "Gardens and orchards",
+     2,
+     "Gera",
+     "Gera",
+     1,
+     2356.32,
+     2.73,
+     601.6
+    ],
+    [
+     "Gärten und Obstanlagen",
+     "Gardens and orchards",
+     "Gärten und Obstanlagen",
+     "Gardens and orchards",
+     2,
+     "Schleiz",
+     "Schleiz",
+     2,
+     1138,
+     0.9,
+     290.6
+    ],
+    [
+     "Gärten und Obstanlagen",
+     "Gardens and orchards",
+     "Gärten und Obstanlagen",
+     "Gardens and orchards",
+     2,
+     "Lobenstein-Ebersdorf",
+     "Lobenstein-Ebersdorf",
+     3,
+     668.14,
+     0.61,
+     170.6
+    ],
+    [
+     "Gärten und Obstanlagen",
+     "Gardens and orchards",
+     "Gärten und Obstanlagen",
+     "Gardens and orchards",
+     2,
+     "Fürstentum",
+     "Principality",
+     4,
+     4162.47,
+     1.29,
+     1062.8
+    ],
+    [
+     "Feld",
+     "Arable land",
+     "Feld",
+     "Arable land",
+     1,
+     "Gera",
+     "Gera",
+     1,
+     50077.96,
+     57.95,
+     12786.0
+    ],
+    [
+     "Feld",
+     "Arable land",
+     "Feld",
+     "Arable land",
+     1,
+     "Schleiz",
+     "Schleiz",
+     2,
+     40841,
+     32.34,
+     10427.6
+    ],
+    [
+     "Feld",
+     "Arable land",
+     "Feld",
+     "Arable land",
+     1,
+     "Lobenstein-Ebersdorf",
+     "Lobenstein-Ebersdorf",
+     3,
+     29227.01,
+     26.56,
+     7462.3
+    ],
+    [
+     "Feld",
+     "Arable land",
+     "Feld",
+     "Arable land",
+     1,
+     "Fürstentum",
+     "Principality",
+     4,
+     120146.96,
+     37.22,
+     30676.2
+    ],
+    [
+     "Wiese",
+     "Meadow",
+     "Wiese",
+     "Meadow",
+     3,
+     "Gera",
+     "Gera",
+     1,
+     7816.33,
+     9.04,
+     1995.7
+    ],
+    [
+     "Wiese",
+     "Meadow",
+     "Wiese",
+     "Meadow",
+     3,
+     "Schleiz",
+     "Schleiz",
+     2,
+     25226,
+     19.98,
+     6440.8
+    ],
+    [
+     "Wiese",
+     "Meadow",
+     "Wiese",
+     "Meadow",
+     3,
+     "Lobenstein-Ebersdorf",
+     "Lobenstein-Ebersdorf",
+     3,
+     20770.0,
+     18.88,
+     5303.0
+    ],
+    [
+     "Wiese",
+     "Meadow",
+     "Wiese",
+     "Meadow",
+     3,
+     "Fürstentum",
+     "Principality",
+     4,
+     53812.33,
+     16.67,
+     13739.5
+    ],
+    [
+     "Hutung",
+     "Rough pasture",
+     "Hutung",
+     "Rough pasture",
+     4,
+     "Gera",
+     "Gera",
+     1,
+     2436.76,
+     2.82,
+     622.2
+    ],
+    [
+     "Hutung",
+     "Rough pasture",
+     "Hutung",
+     "Rough pasture",
+     4,
+     "Schleiz",
+     "Schleiz",
+     2,
+     4169,
+     3.3,
+     1064.4
+    ],
+    [
+     "Hutung",
+     "Rough pasture",
+     "Hutung",
+     "Rough pasture",
+     4,
+     "Lobenstein-Ebersdorf",
+     "Lobenstein-Ebersdorf",
+     3,
+     3815.08,
+     3.47,
+     974.1
+    ],
+    [
+     "Hutung",
+     "Rough pasture",
+     "Hutung",
+     "Rough pasture",
+     4,
+     "Fürstentum",
+     "Principality",
+     4,
+     10420.83,
+     3.23,
+     2660.7
+    ],
+    [
+     "Teiche",
+     "Ponds",
+     "Gehöfte, Teiche u. a.",
+     "Farmsteads, ponds etc.",
+     7,
+     "Gera",
+     "Gera",
+     1,
+     145.25,
+     0.17,
+     37.1
+    ],
+    [
+     "Teiche",
+     "Ponds",
+     "Gehöfte, Teiche u. a.",
+     "Farmsteads, ponds etc.",
+     7,
+     "Schleiz",
+     "Schleiz",
+     2,
+     1422,
+     1.13,
+     363.1
+    ],
+    [
+     "Teiche",
+     "Ponds",
+     "Gehöfte, Teiche u. a.",
+     "Farmsteads, ponds etc.",
+     7,
+     "Lobenstein-Ebersdorf",
+     "Lobenstein-Ebersdorf",
+     3,
+     205.71,
+     0.19,
+     52.5
+    ],
+    [
+     "Teiche",
+     "Ponds",
+     "Gehöfte, Teiche u. a.",
+     "Farmsteads, ponds etc.",
+     7,
+     "Fürstentum",
+     "Principality",
+     4,
+     1772.75,
+     0.55,
+     452.6
+    ],
+    [
+     "Laubholz",
+     "Deciduous woodland",
+     "Laubholz",
+     "Deciduous woodland",
+     5,
+     "Gera",
+     "Gera",
+     1,
+     5968.81,
+     6.91,
+     1524.0
+    ],
+    [
+     "Laubholz",
+     "Deciduous woodland",
+     "Laubholz",
+     "Deciduous woodland",
+     5,
+     "Schleiz",
+     "Schleiz",
+     2,
+     332,
+     0.26,
+     84.8
+    ],
+    [
+     "Laubholz",
+     "Deciduous woodland",
+     "Laubholz",
+     "Deciduous woodland",
+     5,
+     "Lobenstein-Ebersdorf",
+     "Lobenstein-Ebersdorf",
+     3,
+     277.13,
+     0.25,
+     70.8
+    ],
+    [
+     "Laubholz",
+     "Deciduous woodland",
+     "Laubholz",
+     "Deciduous woodland",
+     5,
+     "Fürstentum",
+     "Principality",
+     4,
+     6578.94,
+     2.04,
+     1679.7
+    ],
+    [
+     "Nadelholz",
+     "Coniferous woodland",
+     "Nadelholz",
+     "Coniferous woodland",
+     6,
+     "Gera",
+     "Gera",
+     1,
+     14975.58,
+     17.33,
+     3823.6
+    ],
+    [
+     "Nadelholz",
+     "Coniferous woodland",
+     "Nadelholz",
+     "Coniferous woodland",
+     6,
+     "Schleiz",
+     "Schleiz",
+     2,
+     50429,
+     39.92,
+     12875.6
+    ],
+    [
+     "Nadelholz",
+     "Coniferous woodland",
+     "Nadelholz",
+     "Coniferous woodland",
+     6,
+     "Lobenstein-Ebersdorf",
+     "Lobenstein-Ebersdorf",
+     3,
+     52421.01,
+     47.64,
+     13384.2
+    ],
+    [
+     "Nadelholz",
+     "Coniferous woodland",
+     "Nadelholz",
+     "Coniferous woodland",
+     6,
+     "Fürstentum",
+     "Principality",
+     4,
+     117825.59,
+     36.51,
+     30083.5
+    ],
+    [
+     "Steuerfreier Boden",
+     "Tax-exempt land",
+     "Gehöfte, Teiche u. a.",
+     "Farmsteads, ponds etc.",
+     7,
+     "Gera",
+     "Gera",
+     1,
+     1834.99,
+     2.12,
+     468.5
+    ],
+    [
+     "Steuerfreier Boden",
+     "Tax-exempt land",
+     "Gehöfte, Teiche u. a.",
+     "Farmsteads, ponds etc.",
+     7,
+     "Schleiz",
+     "Schleiz",
+     2,
+     2189,
+     1.73,
+     558.9
+    ],
+    [
+     "Steuerfreier Boden",
+     "Tax-exempt land",
+     "Gehöfte, Teiche u. a.",
+     "Farmsteads, ponds etc.",
+     7,
+     "Lobenstein-Ebersdorf",
+     "Lobenstein-Ebersdorf",
+     3,
+     2228.0,
+     2.02,
+     568.9
+    ],
+    [
+     "Steuerfreier Boden",
+     "Tax-exempt land",
+     "Gehöfte, Teiche u. a.",
+     "Farmsteads, ponds etc.",
+     7,
+     "Fürstentum",
+     "Principality",
+     4,
+     6251.99,
+     1.94,
+     1596.3
+    ]
+   ],
+   "source_refs": [
+    {
+     "page": "217",
+     "block": "b1",
+     "rows": "r2-t11"
+    }
+   ]
+  },
+  {
+   "name": "bauerngueter",
+   "title": {
+    "de": "Geschlossene Bauerngüter nach Größenklassen",
+    "en": "Closed peasant farms by size class"
+   },
+   "columns": [
+    {
+     "name": "landestheil_de",
+     "label": {
+      "de": "Landesteil",
+      "en": "District"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "landestheil_en",
+     "label": {
+      "de": "Landesteil (englisch)",
+      "en": "District (English)"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "lt_nr",
+     "label": {
+      "de": "Reihenfolge Landesteil",
+      "en": "District order"
+     },
+     "type": "integer",
+     "unit": null,
+     "derived": true
+    },
+    {
+     "name": "klasse_de",
+     "label": {
+      "de": "Größenklasse",
+      "en": "Size class"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "klasse_en",
+     "label": {
+      "de": "Größenklasse (englisch)",
+      "en": "Size class (English)"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "klasse_nr",
+     "label": {
+      "de": "Reihenfolge Klasse",
+      "en": "Class order"
+     },
+     "type": "integer",
+     "unit": null,
+     "derived": true
+    },
+    {
+     "name": "anzahl",
+     "label": {
+      "de": "Zahl der Güter",
+      "en": "Number of farms"
+     },
+     "type": "integer",
+     "unit": "Güter"
+    },
+    {
+     "name": "pct",
+     "label": {
+      "de": "Anteil (nur Fürstentum gedruckt)",
+      "en": "Share (printed for the principality only)"
+     },
+     "type": "number",
+     "unit": "%"
+    }
+   ],
+   "rows": [
+    [
+     "Gera",
+     "Gera",
+     1,
+     "1–20 Morgen",
+     "1–20 Morgen",
+     1,
+     260,
+     null
+    ],
+    [
+     "Gera",
+     "Gera",
+     1,
+     "20–40 Morgen",
+     "20–40 Morgen",
+     2,
+     235,
+     null
+    ],
+    [
+     "Gera",
+     "Gera",
+     1,
+     "40–60 Morgen",
+     "40–60 Morgen",
+     3,
+     163,
+     null
+    ],
+    [
+     "Gera",
+     "Gera",
+     1,
+     "60–80 Morgen",
+     "60–80 Morgen",
+     4,
+     97,
+     null
+    ],
+    [
+     "Gera",
+     "Gera",
+     1,
+     "80–100 Morgen",
+     "80–100 Morgen",
+     5,
+     60,
+     null
+    ],
+    [
+     "Gera",
+     "Gera",
+     1,
+     "über 100 Morgen",
+     "over 100 Morgen",
+     6,
+     89,
+     null
+    ],
+    [
+     "Schleiz",
+     "Schleiz",
+     2,
+     "1–20 Morgen",
+     "1–20 Morgen",
+     1,
+     128,
+     null
+    ],
+    [
+     "Schleiz",
+     "Schleiz",
+     2,
+     "20–40 Morgen",
+     "20–40 Morgen",
+     2,
+     217,
+     null
+    ],
+    [
+     "Schleiz",
+     "Schleiz",
+     2,
+     "40–60 Morgen",
+     "40–60 Morgen",
+     3,
+     249,
+     null
+    ],
+    [
+     "Schleiz",
+     "Schleiz",
+     2,
+     "60–80 Morgen",
+     "60–80 Morgen",
+     4,
+     234,
+     null
+    ],
+    [
+     "Schleiz",
+     "Schleiz",
+     2,
+     "80–100 Morgen",
+     "80–100 Morgen",
+     5,
+     108,
+     null
+    ],
+    [
+     "Schleiz",
+     "Schleiz",
+     2,
+     "über 100 Morgen",
+     "over 100 Morgen",
+     6,
+     79,
+     null
+    ],
+    [
+     "Lobenstein-Ebersdorf",
+     "Lobenstein-Ebersdorf",
+     3,
+     "1–20 Morgen",
+     "1–20 Morgen",
+     1,
+     163,
+     null
+    ],
+    [
+     "Lobenstein-Ebersdorf",
+     "Lobenstein-Ebersdorf",
+     3,
+     "20–40 Morgen",
+     "20–40 Morgen",
+     2,
+     316,
+     null
+    ],
+    [
+     "Lobenstein-Ebersdorf",
+     "Lobenstein-Ebersdorf",
+     3,
+     "40–60 Morgen",
+     "40–60 Morgen",
+     3,
+     266,
+     null
+    ],
+    [
+     "Lobenstein-Ebersdorf",
+     "Lobenstein-Ebersdorf",
+     3,
+     "60–80 Morgen",
+     "60–80 Morgen",
+     4,
+     123,
+     null
+    ],
+    [
+     "Lobenstein-Ebersdorf",
+     "Lobenstein-Ebersdorf",
+     3,
+     "80–100 Morgen",
+     "80–100 Morgen",
+     5,
+     50,
+     null
+    ],
+    [
+     "Lobenstein-Ebersdorf",
+     "Lobenstein-Ebersdorf",
+     3,
+     "über 100 Morgen",
+     "over 100 Morgen",
+     6,
+     44,
+     null
+    ],
+    [
+     "Fürstentum",
+     "Principality",
+     4,
+     "1–20 Morgen",
+     "1–20 Morgen",
+     1,
+     551,
+     19.13
+    ],
+    [
+     "Fürstentum",
+     "Principality",
+     4,
+     "20–40 Morgen",
+     "20–40 Morgen",
+     2,
+     768,
+     26.65
+    ],
+    [
+     "Fürstentum",
+     "Principality",
+     4,
+     "40–60 Morgen",
+     "40–60 Morgen",
+     3,
+     678,
+     23.53
+    ],
+    [
+     "Fürstentum",
+     "Principality",
+     4,
+     "60–80 Morgen",
+     "60–80 Morgen",
+     4,
+     454,
+     15.76
+    ],
+    [
+     "Fürstentum",
+     "Principality",
+     4,
+     "80–100 Morgen",
+     "80–100 Morgen",
+     5,
+     218,
+     7.57
+    ],
+    [
+     "Fürstentum",
+     "Principality",
+     4,
+     "über 100 Morgen",
+     "over 100 Morgen",
+     6,
+     212,
+     7.36
+    ]
+   ],
+   "source_refs": [
+    {
+     "page": "224",
+     "block": "b2",
+     "rows": "r2-r6"
+    }
+   ]
+  },
+  {
+   "name": "bilanz",
+   "title": {
+    "de": "Produktion und Verbrauch (Roggenwert)",
+    "en": "Production and consumption (rye value)"
+   },
+   "columns": [
+    {
+     "name": "landestheil_de",
+     "label": {
+      "de": "Landesteil",
+      "en": "District"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "landestheil_en",
+     "label": {
+      "de": "Landesteil (englisch)",
+      "en": "District (English)"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "lt_nr",
+     "label": {
+      "de": "Reihenfolge",
+      "en": "Order"
+     },
+     "type": "integer",
+     "unit": null,
+     "derived": true
+    },
+    {
+     "name": "produktion_text",
+     "label": {
+      "de": "Produktion (gedruckt)",
+      "en": "Production (as printed)"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "produktion",
+     "label": {
+      "de": "Produktion",
+      "en": "Production"
+     },
+     "type": "number",
+     "unit": "Zentner",
+     "derived": true,
+     "note": "gedruckt als gemischter Bruch (z. B. 5666 2/3), hier als Dezimalzahl"
+    },
+    {
+     "name": "verbrauch_text",
+     "label": {
+      "de": "Verbrauch (gedruckt)",
+      "en": "Consumption (as printed)"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "verbrauch",
+     "label": {
+      "de": "Verbrauch",
+      "en": "Consumption"
+     },
+     "type": "number",
+     "unit": "Zentner",
+     "derived": true,
+     "note": "gedruckt als gemischter Bruch (z. B. 5666 2/3), hier als Dezimalzahl"
+    },
+    {
+     "name": "ueberschuss_text",
+     "label": {
+      "de": "Überschuss (gedruckt)",
+      "en": "Surplus (as printed)"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "ueberschuss",
+     "label": {
+      "de": "Überschuss",
+      "en": "Surplus"
+     },
+     "type": "number",
+     "unit": "Zentner",
+     "derived": true,
+     "note": "gedruckt als gemischter Bruch (z. B. 5666 2/3), hier als Dezimalzahl"
+    },
+    {
+     "name": "ueberschuss_je_qm",
+     "label": {
+      "de": "Überschuss auf 1 Quadratmeile",
+      "en": "Surplus per square mile"
+     },
+     "type": "number",
+     "unit": "Zentner/□Meile"
+    },
+    {
+     "name": "ueberschuss_pct",
+     "label": {
+      "de": "Überschuss in % des Verbrauchs",
+      "en": "Surplus as % of consumption"
+     },
+     "type": "number",
+     "unit": "%",
+     "derived": true
+    }
+   ],
+   "rows": [
+    [
+     "Gera",
+     "Gera",
+     1,
+     "275485",
+     275485,
+     "248018",
+     248018,
+     "27467",
+     27467,
+     6815.63,
+     11.1
+    ],
+    [
+     "Schleiz",
+     "Schleiz",
+     2,
+     "188967 2/3",
+     188967.66666666666,
+     "170219",
+     170219,
+     "18748 2/3",
+     18748.666666666668,
+     3224.77,
+     11.0
+    ],
+    [
+     "Lobenstein-Ebersdorf",
+     "Lobenstein-Ebersdorf",
+     3,
+     "135079,12",
+     135079.12,
+     "131579",
+     131579,
+     "3500,12",
+     3500.12,
+     695.84,
+     2.7
+    ],
+    [
+     "Land",
+     "Country as a whole",
+     4,
+     "599531,78",
+     599531.78,
+     "549816",
+     549816,
+     "49715,78",
+     49715.78,
+     3301.18,
+     9.0
+    ]
+   ],
+   "source_refs": [
+    {
+     "page": "227",
+     "block": "b1",
+     "rows": "r2-r5"
+    }
+   ]
+  },
+  {
+   "name": "rittergueter",
+   "title": {
+    "de": "Rittergüter 1647 und 1867 nach Besitzern",
+    "en": "Manors in 1647 and 1867 by owner"
+   },
+   "columns": [
+    {
+     "name": "landestheil_de",
+     "label": {
+      "de": "Landesteil",
+      "en": "District"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "landestheil_en",
+     "label": {
+      "de": "Landesteil (englisch)",
+      "en": "District (English)"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "lt_nr",
+     "label": {
+      "de": "Reihenfolge Landesteil",
+      "en": "District order"
+     },
+     "type": "integer",
+     "unit": null,
+     "derived": true
+    },
+    {
+     "name": "jahr",
+     "label": {
+      "de": "Jahr",
+      "en": "Year"
+     },
+     "type": "integer",
+     "unit": null
+    },
+    {
+     "name": "besitzer_de",
+     "label": {
+      "de": "Besitzer",
+      "en": "Owner"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "besitzer_en",
+     "label": {
+      "de": "Besitzer (englisch)",
+      "en": "Owner (English)"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "besitzer_nr",
+     "label": {
+      "de": "Reihenfolge Besitzer",
+      "en": "Owner order"
+     },
+     "type": "integer",
+     "unit": null,
+     "derived": true
+    },
+    {
+     "name": "anzahl",
+     "label": {
+      "de": "Zahl der Rittergüter",
+      "en": "Number of manors"
+     },
+     "type": "integer",
+     "unit": "Rittergüter",
+     "note": "Gera 1867 insgesamt 26 nach Brückners Berichtigung S. 831 (gedruckt 29)"
+    },
+    {
+     "name": "balken_de",
+     "label": {
+      "de": "Balken",
+      "en": "Bar label"
+     },
+     "type": "string",
+     "unit": null,
+     "derived": true
+    },
+    {
+     "name": "balken_en",
+     "label": {
+      "de": "Balken (englisch)",
+      "en": "Bar label (English)"
+     },
+     "type": "string",
+     "unit": null,
+     "derived": true
+    }
+   ],
+   "rows": [
+    [
+     "Gera",
+     "Gera",
+     1,
+     1647,
+     "Adlige",
+     "Nobility",
+     1,
+     34,
+     "Gera 1647",
+     "Gera 1647"
+    ],
+    [
+     "Gera",
+     "Gera",
+     1,
+     1867,
+     "Adlige",
+     "Nobility",
+     1,
+     7,
+     "Gera 1867",
+     "Gera 1867"
+    ],
+    [
+     "Gera",
+     "Gera",
+     1,
+     1867,
+     "Bürgerliche",
+     "Commoners",
+     2,
+     14,
+     "Gera 1867",
+     "Gera 1867"
+    ],
+    [
+     "Gera",
+     "Gera",
+     1,
+     1867,
+     "Fürstliche",
+     "Princely house",
+     3,
+     5,
+     "Gera 1867",
+     "Gera 1867"
+    ],
+    [
+     "Schleiz",
+     "Schleiz",
+     2,
+     1647,
+     "Adlige",
+     "Nobility",
+     1,
+     16,
+     "Schleiz 1647",
+     "Schleiz 1647"
+    ],
+    [
+     "Schleiz",
+     "Schleiz",
+     2,
+     1867,
+     "Adlige",
+     "Nobility",
+     1,
+     1,
+     "Schleiz 1867",
+     "Schleiz 1867"
+    ],
+    [
+     "Schleiz",
+     "Schleiz",
+     2,
+     1867,
+     "Bürgerliche",
+     "Commoners",
+     2,
+     3,
+     "Schleiz 1867",
+     "Schleiz 1867"
+    ],
+    [
+     "Schleiz",
+     "Schleiz",
+     2,
+     1867,
+     "Fürstliche",
+     "Princely house",
+     3,
+     2,
+     "Schleiz 1867",
+     "Schleiz 1867"
+    ],
+    [
+     "Lobenstein-Ebersdorf",
+     "Lobenstein-Ebersdorf",
+     3,
+     1647,
+     "Adlige",
+     "Nobility",
+     1,
+     22,
+     "Lobenstein-Ebersdorf 1647",
+     "Lobenstein-Ebersdorf 1647"
+    ],
+    [
+     "Lobenstein-Ebersdorf",
+     "Lobenstein-Ebersdorf",
+     3,
+     1867,
+     "Adlige",
+     "Nobility",
+     1,
+     1,
+     "Lobenstein-Ebersdorf 1867",
+     "Lobenstein-Ebersdorf 1867"
+    ],
+    [
+     "Lobenstein-Ebersdorf",
+     "Lobenstein-Ebersdorf",
+     3,
+     1867,
+     "Bürgerliche",
+     "Commoners",
+     2,
+     8,
+     "Lobenstein-Ebersdorf 1867",
+     "Lobenstein-Ebersdorf 1867"
+    ],
+    [
+     "Fürstentum",
+     "Principality",
+     4,
+     1647,
+     "Adlige",
+     "Nobility",
+     1,
+     72,
+     "Fürstentum 1647",
+     "Principality 1647"
+    ],
+    [
+     "Fürstentum",
+     "Principality",
+     4,
+     1867,
+     "Adlige",
+     "Nobility",
+     1,
+     9,
+     "Fürstentum 1867",
+     "Principality 1867"
+    ],
+    [
+     "Fürstentum",
+     "Principality",
+     4,
+     1867,
+     "Bürgerliche",
+     "Commoners",
+     2,
+     25,
+     "Fürstentum 1867",
+     "Principality 1867"
+    ],
+    [
+     "Fürstentum",
+     "Principality",
+     4,
+     1867,
+     "Fürstliche",
+     "Princely house",
+     3,
+     7,
+     "Fürstentum 1867",
+     "Principality 1867"
+    ]
+   ],
+   "source_refs": [
+    {
+     "page": "230",
+     "block": "b4",
+     "rows": "r2-r5"
+    },
+    {
+     "page": "831",
+     "block": "b5"
+    }
+   ]
+  },
+  {
+   "name": "loehne",
+   "title": {
+    "de": "Löhne und Pachtpreise (Spannen)",
+    "en": "Wages and rents (ranges)"
+   },
+   "columns": [
+    {
+     "name": "nr",
+     "label": {
+      "de": "Laufende Nummer",
+      "en": "Serial number"
+     },
+     "type": "integer",
+     "unit": null,
+     "derived": true
+    },
+    {
+     "name": "kat_nr",
+     "label": {
+      "de": "Reihenfolge Kategorie",
+      "en": "Category order"
+     },
+     "type": "integer",
+     "unit": null,
+     "derived": true
+    },
+    {
+     "name": "kategorie_de",
+     "label": {
+      "de": "Kategorie",
+      "en": "Category"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "kategorie_en",
+     "label": {
+      "de": "Kategorie (englisch)",
+      "en": "Category (English)"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "einheit_de",
+     "label": {
+      "de": "Einheit",
+      "en": "Unit"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "einheit_en",
+     "label": {
+      "de": "Einheit (englisch)",
+      "en": "Unit (English)"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "merkmal_de",
+     "label": {
+      "de": "Gruppe",
+      "en": "Group"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "merkmal_en",
+     "label": {
+      "de": "Gruppe (englisch)",
+      "en": "Group (English)"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "gebiet_de",
+     "label": {
+      "de": "Gebiet",
+      "en": "Area"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "gebiet_en",
+     "label": {
+      "de": "Gebiet (englisch)",
+      "en": "Area (English)"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "min",
+     "label": {
+      "de": "Untergrenze",
+      "en": "Lower limit"
+     },
+     "type": "number",
+     "unit": null,
+     "derived": true,
+     "note": "teils im Text ausgeschrieben (z. B. »fünf bis sechs«), hier in Ziffern"
+    },
+    {
+     "name": "max",
+     "label": {
+      "de": "Obergrenze",
+      "en": "Upper limit"
+     },
+     "type": "number",
+     "unit": null,
+     "derived": true,
+     "note": "teils im Text ausgeschrieben (z. B. »fünf bis sechs«), hier in Ziffern"
+    },
+    {
+     "name": "mitte",
+     "label": {
+      "de": "Mittelwert der Spanne",
+      "en": "Mean of the range"
+     },
+     "type": "number",
+     "unit": null,
+     "derived": true
+    },
+    {
+     "name": "min_je_ha",
+     "label": {
+      "de": "Untergrenze je Hektar (nur Pacht)",
+      "en": "Lower limit per hectare (rents only)"
+     },
+     "type": "number",
+     "unit": "Taler/ha",
+     "derived": true,
+     "note": "Thaler je Morgen ÷ 0,255322"
+    },
+    {
+     "name": "max_je_ha",
+     "label": {
+      "de": "Obergrenze je Hektar (nur Pacht)",
+      "en": "Upper limit per hectare (rents only)"
+     },
+     "type": "number",
+     "unit": "Taler/ha",
+     "derived": true,
+     "note": "Thaler je Morgen ÷ 0,255322"
+    },
+    {
+     "name": "bemerkung",
+     "label": {
+      "de": "Bemerkung",
+      "en": "Note"
+     },
+     "type": "string",
+     "unit": null
+    }
+   ],
+   "rows": [
+    [
+     1,
+     1,
+     "Tagelohn",
+     "Day wage",
+     "Silbergroschen je Tag",
+     "Silbergroschen per day",
+     "Mann, Winter",
+     "Man, winter",
+     "Unterland",
+     "Lower Land",
+     10,
+     10,
+     10.0,
+     null,
+     null,
+     null
+    ],
+    [
+     2,
+     1,
+     "Tagelohn",
+     "Day wage",
+     "Silbergroschen je Tag",
+     "Silbergroschen per day",
+     "Mann, Sommer",
+     "Man, summer",
+     "Unterland",
+     "Lower Land",
+     12,
+     20,
+     16.0,
+     null,
+     null,
+     null
+    ],
+    [
+     3,
+     1,
+     "Tagelohn",
+     "Day wage",
+     "Silbergroschen je Tag",
+     "Silbergroschen per day",
+     "Frau, Winter",
+     "Woman, winter",
+     "Unterland",
+     "Lower Land",
+     5,
+     6,
+     5.5,
+     null,
+     null,
+     null
+    ],
+    [
+     4,
+     1,
+     "Tagelohn",
+     "Day wage",
+     "Silbergroschen je Tag",
+     "Silbergroschen per day",
+     "Frau, Sommer",
+     "Woman, summer",
+     "Unterland",
+     "Lower Land",
+     8,
+     10,
+     9.0,
+     null,
+     null,
+     null
+    ],
+    [
+     5,
+     1,
+     "Tagelohn",
+     "Day wage",
+     "Silbergroschen je Tag",
+     "Silbergroschen per day",
+     "Mann, mit Kost",
+     "Man, with board",
+     "Oberland",
+     "Upper Land",
+     5,
+     6,
+     5.5,
+     null,
+     null,
+     null
+    ],
+    [
+     6,
+     1,
+     "Tagelohn",
+     "Day wage",
+     "Silbergroschen je Tag",
+     "Silbergroschen per day",
+     "Frau, mit Kost",
+     "Woman, with board",
+     "Oberland",
+     "Upper Land",
+     3,
+     3,
+     3.0,
+     null,
+     null,
+     null
+    ],
+    [
+     7,
+     1,
+     "Tagelohn",
+     "Day wage",
+     "Silbergroschen je Tag",
+     "Silbergroschen per day",
+     "Mann, ohne Kost",
+     "Man, without board",
+     "Oberland",
+     "Upper Land",
+     10,
+     12,
+     11.0,
+     null,
+     null,
+     "doppelter Satz laut Text"
+    ],
+    [
+     8,
+     1,
+     "Tagelohn",
+     "Day wage",
+     "Silbergroschen je Tag",
+     "Silbergroschen per day",
+     "Frau, ohne Kost",
+     "Woman, without board",
+     "Oberland",
+     "Upper Land",
+     6,
+     6,
+     6.0,
+     null,
+     null,
+     "doppelter Satz laut Text"
+    ],
+    [
+     9,
+     2,
+     "Jahreslohn des Gesindes",
+     "Annual wage of farm servants",
+     "Thaler im Jahr",
+     "Thaler per year",
+     "Knechte",
+     "Farm hands (men)",
+     "Land",
+     "Country",
+     30,
+     50,
+     40.0,
+     null,
+     null,
+     null
+    ],
+    [
+     10,
+     2,
+     "Jahreslohn des Gesindes",
+     "Annual wage of farm servants",
+     "Thaler im Jahr",
+     "Thaler per year",
+     "Mägde",
+     "Farm maids (women)",
+     "Land",
+     "Country",
+     18,
+     30,
+     24.0,
+     null,
+     null,
+     null
+    ],
+    [
+     11,
+     3,
+     "Pachtpreis",
+     "Rent",
+     "Thaler je Morgen",
+     "Thaler per Morgen",
+     "Einzelne Grundstücke",
+     "Single plots",
+     "beide Gebiete",
+     "both areas",
+     9,
+     12,
+     10.5,
+     35.2,
+     47.0,
+     null
+    ],
+    [
+     12,
+     3,
+     "Pachtpreis",
+     "Rent",
+     "Thaler je Morgen",
+     "Thaler per Morgen",
+     "Große Güter, Unterland",
+     "Large estates, Lower Land",
+     "Unterland",
+     "Lower Land",
+     4,
+     8,
+     6.0,
+     15.7,
+     31.3,
+     null
+    ],
+    [
+     13,
+     3,
+     "Pachtpreis",
+     "Rent",
+     "Thaler je Morgen",
+     "Thaler per Morgen",
+     "Große Güter, Oberland",
+     "Large estates, Upper Land",
+     "Oberland",
+     "Upper Land",
+     3,
+     6,
+     4.5,
+     11.7,
+     23.5,
+     null
+    ]
+   ],
+   "source_refs": [
+    {
+     "page": "227",
+     "block": "b3"
+    }
+   ]
+  }
+ ],
+ "charts": [
+  {
+   "id": "c1",
+   "dataset": "nutzung",
+   "title": {
+    "de": "Gera ist vor allem Ackerland, in Lobenstein-Ebersdorf bedeckt Wald fast die Hälfte der Fläche",
+    "en": "Gera is mostly arable land, while in Lobenstein-Ebersdorf woodland covers almost half of the area"
+   },
+   "caption": {
+    "de": "Anteil der Nutzungsarten an der Fläche der Landesteile nach der Vermessung von 1854, in Prozent. Wald: Laub- und Nadelholz; Übrige: Gärten, Hutung, Gehöfte, Teiche, steuerfreier Boden. Quelle: S. 217.",
+    "en": "Share of the kinds of use in the area of the districts according to the survey of 1854, percent. Wald: deciduous and coniferous woodland; Übrige: gardens, pasture, farmsteads, ponds, tax-exempt land. Source: p. 217."
+   },
+   "vegalite": {
+    "height": {
+     "step": 46
+    },
+    "transform": [
+     {
+      "calculate": "datum.nutzung_de == 'Feld' ? 'feld' : datum.nutzung_de == 'Wiese' ? 'wiese' : (datum.nutzung_de == 'Laubholz' || datum.nutzung_de == 'Nadelholz') ? 'wald' : 'uebrig'",
+      "as": "gruppe"
+     },
+     {
+      "calculate": "datum.gruppe == 'feld' ? 1 : datum.gruppe == 'wiese' ? 2 : datum.gruppe == 'wald' ? 3 : 4",
+      "as": "gruppe_nr"
+     },
+     {
+      "aggregate": [
+       {
+        "op": "sum",
+        "field": "pct",
+        "as": "pct_sum"
+       }
+      ],
+      "groupby": [
+       "landestheil_de",
+       "landestheil_en",
+       "lt_nr",
+       "gruppe",
+       "gruppe_nr"
+      ]
+     },
+     {
+      "stack": "pct_sum",
+      "groupby": [
+       "landestheil_de"
+      ],
+      "sort": [
+       {
+        "field": "gruppe_nr",
+        "order": "ascending"
+       }
+      ],
+      "offset": "zero",
+      "as": [
+       "x0",
+       "x1"
+      ]
+     },
+     {
+      "calculate": "(datum.x0 + datum.x1) / 2",
+      "as": "xm"
+     }
+    ],
+    "encoding": {
+     "y": {
+      "field": {
+       "de": "landestheil_de",
+       "en": "landestheil_en"
+      },
+      "type": "nominal",
+      "sort": {
+       "field": "lt_nr",
+       "op": "min",
+       "order": "ascending"
+      },
+      "axis": {
+       "title": null,
+       "labelFontSize": 12,
+       "labelLimit": 260
+      }
+     }
+    },
+    "layer": [
+     {
+      "mark": {
+       "type": "bar",
+       "height": {
+        "band": 0.74
+       }
+      },
+      "encoding": {
+       "x": {
+        "field": "x0",
+        "type": "quantitative",
+        "scale": {
+         "domain": [
+          0,
+          100
+         ]
+        },
+        "axis": {
+         "title": {
+          "de": "Anteil an der Fläche, %",
+          "en": "Share of the area, %"
+         },
+         "values": [
+          0,
+          20,
+          40,
+          60,
+          80,
+          100
+         ]
+        }
+       },
+       "x2": {
+        "field": "x1"
+       },
+       "color": {
+        "field": "gruppe",
+        "type": "nominal",
+        "scale": {
+         "domain": [
+          "feld",
+          "wiese",
+          "wald",
+          "uebrig"
+         ],
+         "range": [
+          "@accent2",
+          "@accent",
+          "@accent3",
+          "@context"
+         ]
+        },
+        "legend": null
+       },
+       "tooltip": [
+        {
+         "field": "landestheil_de",
+         "title": {
+          "de": "Landesteil",
+          "en": "District"
+         }
+        },
+        {
+         "field": "gruppe",
+         "type": "nominal",
+         "title": {
+          "de": "Nutzung (feld, wiese, wald, uebrig)",
+          "en": "Use (feld, wiese, wald, uebrig)"
+         }
+        },
+        {
+         "field": "pct_sum",
+         "title": {
+          "de": "Anteil, %",
+          "en": "Share, %"
+         },
+         "format": ".1f"
+        }
+       ]
+      }
+     },
+     {
+      "transform": [
+       {
+        "filter": "datum.pct_sum >= 5"
+       }
+      ],
+      "mark": {
+       "type": "text",
+       "style": "label"
+      },
+      "encoding": {
+       "x": {
+        "field": "xm",
+        "type": "quantitative"
+       },
+       "text": {
+        "field": "pct_sum",
+        "type": "quantitative",
+        "format": ".0f"
+       },
+       "color": {
+        "condition": {
+         "test": "datum.gruppe == 'wiese'",
+         "value": "@paper"
+        },
+        "value": "@ink"
+       }
+      }
+     },
+     {
+      "transform": [
+       {
+        "filter": "datum.lt_nr == 1"
+       },
+       {
+        "calculate": {
+         "de": "datum.gruppe == 'feld' ? 'Feld' : datum.gruppe == 'wiese' ? 'Wiese' : datum.gruppe == 'wald' ? 'Wald' : 'Übrige'",
+         "en": "datum.gruppe == 'feld' ? 'Field' : datum.gruppe == 'wiese' ? 'Meadow' : datum.gruppe == 'wald' ? 'Woodland' : 'Other'"
+        },
+        "as": "gruppe_name"
+       }
+      ],
+      "mark": {
+       "type": "text",
+       "style": "label",
+       "dy": -27
+      },
+      "encoding": {
+       "x": {
+        "field": "xm",
+        "type": "quantitative"
+       },
+       "text": {
+        "field": "gruppe_name",
+        "type": "nominal"
+       }
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "c2",
+   "dataset": "bauerngueter",
+   "title": {
+    "de": "Schleiz hatte die größten Bauerngüter: 41 Prozent über 60 Morgen, in Gera 27, in Lobenstein-Ebersdorf 23",
+    "en": "Schleiz had the largest farms: 41 percent over 60 Morgen, in Gera 27, in Lobenstein-Ebersdorf 23"
+   },
+   "caption": {
+    "de": "Geschlossene Bauerngüter nach Größe, in Prozent der Güter des Landesteils. Brückner nennt Güter über 60 Morgen »große«. Zahl der Güter: Gera 904, Schleiz 1.015, Lobenstein-Ebersdorf 962. Quelle: S. 224.",
+    "en": "Closed peasant farms by size, percent of the farms of the district. Brückner calls farms over 60 Morgen “large”. Number of farms: Gera 904, Schleiz 1,015, Lobenstein-Ebersdorf 962. Source: p. 224."
+   },
+   "vegalite": {
+    "height": {
+     "step": 46
+    },
+    "transform": [
+     {
+      "filter": "datum.lt_nr < 4"
+     },
+     {
+      "calculate": "datum.klasse_nr == 1 ? 'klein' : datum.klasse_nr <= 3 ? 'mittel' : 'gross'",
+      "as": "groesse"
+     },
+     {
+      "calculate": "datum.groesse == 'klein' ? 1 : datum.groesse == 'mittel' ? 2 : 3",
+      "as": "groesse_nr"
+     },
+     {
+      "joinaggregate": [
+       {
+        "op": "sum",
+        "field": "anzahl",
+        "as": "gesamt"
+       }
+      ],
+      "groupby": [
+       "landestheil_de"
+      ]
+     },
+     {
+      "aggregate": [
+       {
+        "op": "sum",
+        "field": "anzahl",
+        "as": "n"
+       },
+       {
+        "op": "min",
+        "field": "gesamt",
+        "as": "gesamt"
+       }
+      ],
+      "groupby": [
+       "landestheil_de",
+       "landestheil_en",
+       "lt_nr",
+       "groesse",
+       "groesse_nr"
+      ]
+     },
+     {
+      "calculate": "datum.n / datum.gesamt * 100",
+      "as": "pct"
+     },
+     {
+      "stack": "pct",
+      "groupby": [
+       "landestheil_de"
+      ],
+      "sort": [
+       {
+        "field": "groesse_nr",
+        "order": "ascending"
+       }
+      ],
+      "offset": "zero",
+      "as": [
+       "x0",
+       "x1"
+      ]
+     },
+     {
+      "calculate": "(datum.x0 + datum.x1) / 2",
+      "as": "xm"
+     },
+     {
+      "calculate": {
+       "de": "datum.landestheil_de == 'Gera' ? (datum.groesse == 'klein' ? 'bis 20 Morgen ' : datum.groesse == 'mittel' ? '20 bis 60 Morgen ' : 'über 60 Morgen ') + format(datum.pct, '.1f') : format(datum.pct, '.1f')",
+       "en": "datum.landestheil_de == 'Gera' ? (datum.groesse == 'klein' ? 'up to 20 Morgen ' : datum.groesse == 'mittel' ? '20 to 60 Morgen ' : 'over 60 Morgen ') + format(datum.pct, '.1f') : format(datum.pct, '.1f')"
+      },
+      "as": "segment_label"
+     }
+    ],
+    "encoding": {
+     "y": {
+      "field": {
+       "de": "landestheil_de",
+       "en": "landestheil_en"
+      },
+      "type": "nominal",
+      "sort": {
+       "field": "lt_nr",
+       "op": "min",
+       "order": "ascending"
+      },
+      "axis": {
+       "title": null,
+       "labelFontSize": 12,
+       "labelLimit": 260
+      }
+     }
+    },
+    "layer": [
+     {
+      "mark": {
+       "type": "bar",
+       "height": {
+        "band": 0.74
+       }
+      },
+      "encoding": {
+       "x": {
+        "field": "x0",
+        "type": "quantitative",
+        "scale": {
+         "domain": [
+          0,
+          100
+         ]
+        },
+        "axis": {
+         "title": {
+          "de": "Anteil der Bauerngüter, %",
+          "en": "Share of peasant farms, %"
+         },
+         "values": [
+          0,
+          20,
+          40,
+          60,
+          80,
+          100
+         ]
+        }
+       },
+       "x2": {
+        "field": "x1"
+       },
+       "color": {
+        "field": "groesse",
+        "type": "nominal",
+        "legend": null,
+        "scale": {
+         "domain": [
+          "klein",
+          "mittel",
+          "gross"
+         ],
+         "range": [
+          "@accent2",
+          "@context",
+          "@accent"
+         ]
+        }
+       },
+       "tooltip": [
+        {
+         "field": "landestheil_de",
+         "title": {
+          "de": "Landesteil",
+          "en": "District"
+         }
+        },
+        {
+         "field": "groesse",
+         "type": "nominal",
+         "title": {
+          "de": "Größe (klein, mittel, gross)",
+          "en": "Size (klein, mittel, gross)"
+         }
+        },
+        {
+         "field": "n",
+         "title": {
+          "de": "Güter",
+          "en": "Farms"
+         },
+         "format": ",d"
+        },
+        {
+         "field": "pct",
+         "title": {
+          "de": "Anteil, %",
+          "en": "Share, %"
+         },
+         "format": ".1f"
+        }
+       ]
+      }
+     },
+     {
+      "mark": {
+       "type": "text",
+       "style": "label"
+      },
+      "encoding": {
+       "x": {
+        "field": "xm",
+        "type": "quantitative"
+       },
+       "text": {
+        "field": "segment_label",
+        "type": "nominal"
+       },
+       "color": {
+        "condition": {
+         "test": "datum.groesse == 'gross'",
+         "value": "@paper"
+        },
+        "value": "@ink"
+       }
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "c3",
+   "dataset": "bilanz",
+   "title": {
+    "de": "Die Getreideerzeugung überstieg den Verbrauch um 9 Prozent, in Lobenstein-Ebersdorf nur um 3 Prozent",
+    "en": "Grain production exceeded consumption by 9 percent, in Lobenstein-Ebersdorf by only 3 percent"
+   },
+   "caption": {
+    "de": "Brückners Schätzung von Erzeugung und Verbrauch in Zentnern Roggenwert für mittlere Erntejahre; Zahl am Ende: Überschuss in Prozent des Verbrauchs. Im ganzen Land 599.532 gegen 549.816 Zentner. Quelle: S. 226 bis 227.",
+    "en": "Brückner’s estimate of production and consumption in hundredweights of rye value for average harvest years; number at the end: surplus as percent of consumption. For the whole country 599,532 against 549,816 hundredweights. Source: pp. 226 to 227."
+   },
+   "vegalite": {
+    "height": {
+     "step": 56
+    },
+    "transform": [
+     {
+      "filter": "datum.lt_nr < 4"
+     }
+    ],
+    "encoding": {
+     "y": {
+      "field": {
+       "de": "landestheil_de",
+       "en": "landestheil_en"
+      },
+      "type": "nominal",
+      "sort": {
+       "field": "lt_nr",
+       "op": "min",
+       "order": "ascending"
+      },
+      "axis": {
+       "title": null,
+       "labelFontSize": 12,
+       "labelLimit": 260
+      }
+     }
+    },
+    "layer": [
+     {
+      "mark": {
+       "type": "rule",
+       "strokeWidth": 3,
+       "color": "@context"
+      },
+      "encoding": {
+       "x": {
+        "field": "verbrauch",
+        "type": "quantitative",
+        "scale": {
+         "domain": [
+          100000,
+          300000
+         ]
+        },
+        "axis": {
+         "title": {
+          "de": "Zentner Roggenwert",
+          "en": "Hundredweights of rye value"
+         },
+         "format": ",d",
+         "values": [
+          100000,
+          150000,
+          200000,
+          250000,
+          300000
+         ]
+        }
+       },
+       "x2": {
+        "field": "produktion"
+       }
+      }
+     },
+     {
+      "mark": {
+       "type": "point",
+       "filled": true,
+       "size": 110,
+       "color": "@muted"
+      },
+      "encoding": {
+       "x": {
+        "field": "verbrauch",
+        "type": "quantitative"
+       },
+       "tooltip": [
+        {
+         "field": "landestheil_de",
+         "title": {
+          "de": "Landesteil",
+          "en": "District"
+         }
+        },
+        {
+         "field": "verbrauch",
+         "title": {
+          "de": "Verbrauch, Zentner",
+          "en": "Consumption, cwt"
+         },
+         "format": ",d"
+        }
+       ]
+      }
+     },
+     {
+      "mark": {
+       "type": "point",
+       "filled": true,
+       "size": 110,
+       "color": "@accent3"
+      },
+      "encoding": {
+       "x": {
+        "field": "produktion",
+        "type": "quantitative"
+       },
+       "tooltip": [
+        {
+         "field": "landestheil_de",
+         "title": {
+          "de": "Landesteil",
+          "en": "District"
+         }
+        },
+        {
+         "field": "produktion",
+         "title": {
+          "de": "Erzeugung, Zentner",
+          "en": "Production, cwt"
+         },
+         "format": ",d"
+        },
+        {
+         "field": "ueberschuss_pct",
+         "title": {
+          "de": "Überschuss, %",
+          "en": "Surplus, %"
+         },
+         "format": ".1f"
+        }
+       ]
+      }
+     },
+     {
+      "mark": {
+       "type": "text",
+       "align": "left",
+       "dx": 12,
+       "style": "label"
+      },
+      "encoding": {
+       "x": {
+        "field": "produktion",
+        "type": "quantitative"
+       },
+       "text": {
+        "field": "ueberschuss_pct",
+        "type": "quantitative",
+        "format": "+.1f"
+       }
+      }
+     },
+     {
+      "transform": [
+       {
+        "filter": "datum.lt_nr == 1"
+       }
+      ],
+      "mark": {
+       "type": "text",
+       "align": "right",
+       "dx": -11,
+       "dy": -14,
+       "style": "annotation"
+      },
+      "encoding": {
+       "x": {
+        "field": "verbrauch",
+        "type": "quantitative"
+       },
+       "text": {
+        "value": {
+         "de": "Verbrauch",
+         "en": "Consumption"
+        }
+       }
+      }
+     },
+     {
+      "transform": [
+       {
+        "filter": "datum.lt_nr == 1"
+       }
+      ],
+      "mark": {
+       "type": "text",
+       "align": "left",
+       "dx": 11,
+       "dy": -14,
+       "style": "annotation"
+      },
+      "encoding": {
+       "x": {
+        "field": "produktion",
+        "type": "quantitative"
+       },
+       "text": {
+        "value": {
+         "de": "Erzeugung",
+         "en": "Production"
+        }
+       }
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "keywords": {
+  "de": [
+   "Landwirtschaft",
+   "Bodennutzung",
+   "Grundbesitz",
+   "Bauerngüter",
+   "Rittergüter",
+   "Ernte",
+   "Getreide",
+   "Taglohn",
+   "Pacht",
+   "Ablösung"
+  ],
+  "en": [
+   "agriculture",
+   "land use",
+   "landholding",
+   "peasant farms",
+   "manorial estates",
+   "harvest",
+   "grain",
+   "day wages",
+   "rent",
+   "redemption of dues"
+  ]
+ },
+ "related": [
+  "viehzucht",
+  "wald-holz",
+  "dorfleben",
+  "berufe-gewerbe"
+ ],
+ "generated_by": "Claude Sonnet 5.5 (Agent F5), aus 6 Einzelauswertungen zusammengeführt",
+ "date": "2026-10-02"
+}

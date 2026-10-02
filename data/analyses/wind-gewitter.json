@@ -1,0 +1,2943 @@
+{
+ "id": "wind-gewitter",
+ "title": {
+  "de": "Wind und Gewitter",
+  "en": "Wind and thunderstorms"
+ },
+ "category": "climate",
+ "section": "t1-1-7",
+ "merges": [
+  "klima-wind-gera-1856-1865",
+  "klima-wind-stationen-vergleich",
+  "klima-gewitter-gera-stationen"
+ ],
+ "sources": [
+  {
+   "page": "54",
+   "block": "b1"
+  },
+  {
+   "page": "62",
+   "block": "b1"
+  },
+  {
+   "page": "62",
+   "block": "b3",
+   "rows": "r2-r15"
+  },
+  {
+   "page": "63",
+   "block": "b2",
+   "rows": "r2-r15"
+  },
+  {
+   "page": "63",
+   "block": "b4",
+   "rows": "r2-r15"
+  },
+  {
+   "page": "63",
+   "block": "b6",
+   "rows": "r2-r15"
+  },
+  {
+   "page": "64",
+   "block": "b1"
+  },
+  {
+   "page": "66",
+   "block": "b3",
+   "rows": "r2-r15"
+  },
+  {
+   "page": "67",
+   "block": "b2",
+   "rows": "r2-r15"
+  },
+  {
+   "page": "67",
+   "block": "b6"
+  },
+  {
+   "page": "67",
+   "block": "b7",
+   "rows": "r2-r4"
+  },
+  {
+   "page": "68",
+   "block": "b2",
+   "rows": "r2-r4"
+  },
+  {
+   "page": "830",
+   "block": "b4"
+  }
+ ],
+ "summary": {
+  "de": "Brückner wertet Windrichtungen und Gewitter aus. In Gera (1856 bis 1865, 12.796 Beobachtungen) ist Süd die häufigste Richtung (24,9 Prozent), auf den Oberlandorten Hohenleuben, Schleiz und Rothenacker überwiegen West und Südwest. Gewitter zählt er in Gera 22,5 im Jahr, 65 Prozent davon im Juni bis August.",
+  "en": "Brückner analyzes wind directions and thunderstorms. At Gera (1856 to 1865, 12,796 observations) south is the most frequent direction (24.9 percent); at the Oberland places of Hohenleuben, Schleiz and Rothenacker west and south-west prevail. He counts 22.5 thunderstorms a year at Gera, 65 percent of them in June to August."
+ },
+ "findings": [
+  {
+   "de": "In Gera kommen 24,9 Prozent der Winde aus Süd und 16,4 aus Nord; in Hohenleuben 38,7 Prozent aus West, in Schleiz 36,9 aus Südwest.",
+   "en": "At Gera 24.9 percent of the winds come from the south and 16.4 from the north; at Hohenleuben 38.7 percent from the west, at Schleiz 36.9 from the south-west."
+  },
+  {
+   "de": "Im Winter (Dezember bis Februar) kommt in Gera mehr als jede dritte Beobachtung aus Süden (36,6 Prozent), im Sommer nur 15,2 Prozent; im Sommer führt West mit 20,1 Prozent.",
+   "en": "In winter (December to February) more than every third observation at Gera is from the south (36.6 percent), in summer only 15.2 percent; in summer west leads with 20.1 percent."
+  },
+  {
+   "de": "Gera zählt 22,5 Gewitter im Jahr, Rothenacker 17,5, Schleiz 15,5; Brückner nennt 19 als Durchschnitt dieser Breite. Sie ziehen meist aus West: in Hohenleuben 46,8, in Gera 27,6 Prozent.",
+   "en": "Gera counts 22.5 thunderstorms a year, Rothenacker 17.5, Schleiz 15.5; Brückner gives 19 as the average for this latitude. They mostly arrive from the west: 46.8 percent at Hohenleuben, 27.6 at Gera."
+  }
+ ],
+ "method": {
+  "de": "Die Windtabellen (S. 62 und 63) geben je Monat und Richtung eine Zahl von Beobachtungen der unteren Strömung, für Gera 1856 bis 1865, für Hohenleuben »in sieben Jahren«, für Schleiz 1866 und 1867, für Rothenacker 1867. Brückner hat die 16 Richtungen von Gera auf acht zurückgeführt (S. 62). Weil die Reihen verschieden lang sind, werden Prozentanteile verglichen: Anteil einer Richtung an der Summe des Ortes bzw. des Monats. In den Windrosen ist die Fläche der Keile dem Anteil proportional. Winter bedeutet Dezember bis Februar, Sommer Juni bis August (nicht Brückners Einteilung).\nDie Gewitter je Monat stehen für Gera in zwei Perioden (1853 bis 1858 und 1859 bis 1867, S. 67); das Diagramm teilt die Summe beider durch 15 Jahre. Den Oktoberwert der ersten Periode berichtigt Brückner auf 1 (S. 830). Die Jahreszahlen je Ort ergeben sich aus den Summen der Tabellen S. 66 und 67 geteilt durch die Jahre; die Zugrichtung der Gewitter (S. 68) betrifft 134 Gewitter in Gera und 47 in Hohenleuben. Brückners gedruckte Jahresmittel der Winde und seine Vergleichstabelle (S. 64) werden nicht verwendet, weil sie von den Zeilensummen abweichen.",
+  "en": "The wind tables (pp. 62 and 63) give a number of observations of the lower current for each month and direction: for Gera 1856 to 1865, for Hohenleuben »in seven years«, for Schleiz 1866 and 1867, for Rothenacker 1867. Brückner reduced the 16 directions of Gera to eight (p. 62). Because the series differ in length, percentages are compared: the share of a direction in the total of the place or month. In the wind roses the area of the wedges is proportional to the share. Winter means December to February, summer June to August (not Brückner’s division).\nThe thunderstorms per month are given for Gera in two periods (1853 to 1858 and 1859 to 1867, p. 67); the chart divides the sum of both by 15 years. Brückner corrects the October value of the first period to 1 (p. 830). The annual figures per place result from the totals of the tables on pp. 66 and 67 divided by the years; the direction of motion of the thunderstorms (p. 68) concerns 134 storms at Gera and 47 at Hohenleuben. Brückner’s printed annual means of the winds and his comparison table (p. 64) are not used because they deviate from the row sums."
+ },
+ "caveats": [
+  {
+   "de": "Die Windtabellen nennen keine Einheit. Die Summe 12.796 für Gera entspricht bei zehn Jahren rund 3,5 Beobachtungen am Tag, Brückner nennt aber höchstens drei Ablesungen (S. 54). Gezählt ist die untere Strömung an der Windfahne; Windstärke und Windstille fehlen.",
+   "en": "The wind tables name no unit. The total of 12,796 for Gera corresponds to about 3.5 observations a day over ten years, whereas Brückner gives at most three readings (p. 54). The lower current at the wind vane is counted; wind force and calms are missing."
+  },
+  {
+   "de": "Bei Hohenleuben liegen alle Monatssummen nahe 15 mal der Monatslänge (Januar 465 = 15 mal 31); das deutet auf 15 Jahre mit einer Ablesung täglich statt der genannten sieben Jahre. Schleiz (zwei Jahre) und Rothenacker (ein Jahr) sind sehr kurze Reihen. Prozentanteile sind davon unberührt.",
+   "en": "At Hohenleuben all monthly sums are close to 15 times the length of the month (January 465 = 15 times 31); this suggests 15 years with one reading a day instead of the stated seven years. Schleiz (two years) and Rothenacker (one year) are very short series. Percentages are unaffected."
+  },
+  {
+   "de": "Brückner erklärt die Südwinde in Gera mit der Ablenkung durch das Elstertal, die Westwinde im Oberland mit der freien Plateaulage (S. 64). Die Daten passen dazu, belegen es aber nicht. Die gedruckten Jahresmittel weichen teils von den Summen ab (Gera W: 204,6 gedruckt, 198,6 gerechnet); das Faksimile bestätigt den Druck.",
+   "en": "Brückner explains the south winds at Gera by deflection in the Elster valley and the west winds in the Oberland by the open plateau (p. 64). The data fit this but do not prove it. The printed annual means partly deviate from the sums (Gera W: 204.6 printed, 198.6 computed); the facsimile confirms the print."
+  },
+  {
+   "de": "Ob Gewitter oder Gewittertage gezählt wurden, sagt Brückner nicht; die Vergleichszahl 19 für 50 bis 52,5° nördlicher Breite nennt keine Quelle. Schleiz und Rothenacker beruhen auf zwei Jahren; Gera zählte 1861 45, 1864 nur 10 Gewitter. Die Zugrichtungen beruhen auf 134 und 47 Fällen.",
+   "en": "Brückner does not say whether thunderstorms or thunderstorm days were counted; the comparison figure 19 for 50 to 52.5° north gives no source. Schleiz and Rothenacker rest on two years; Gera counted 45 thunderstorms in 1861 and only 10 in 1864. The directions of motion rest on 134 and 47 cases."
+  }
+ ],
+ "datasets": [
+  {
+   "name": "wind_stations",
+   "title": {
+    "de": "Jahressummen und Richtungsanteile je Ort",
+    "en": "Annual totals and direction shares by station"
+   },
+   "columns": [
+    {
+     "name": "station",
+     "label": {
+      "de": "Beobachtungsort",
+      "en": "Station"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "station_order",
+     "label": {
+      "de": "Reihenfolge des Ortes",
+      "en": "Station order"
+     },
+     "type": "integer",
+     "unit": null,
+     "derived": true
+    },
+    {
+     "name": "direction",
+     "label": {
+      "de": "Richtung",
+      "en": "Direction"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "dir_index",
+     "label": {
+      "de": "Reihenfolge der Richtung",
+      "en": "Direction order"
+     },
+     "type": "integer",
+     "unit": null,
+     "derived": true
+    },
+    {
+     "name": "count",
+     "label": {
+      "de": "Beobachtungen im Beobachtungszeitraum",
+      "en": "Observations in the observation period"
+     },
+     "type": "integer",
+     "unit": "Zahl",
+     "note": "gedruckte Summenzeile"
+    },
+    {
+     "name": "share",
+     "label": {
+      "de": "Anteil",
+      "en": "Share"
+     },
+     "type": "number",
+     "unit": "%",
+     "derived": true
+    }
+   ],
+   "rows": [
+    [
+     "Gera",
+     1,
+     "N",
+     1,
+     2103,
+     16.4
+    ],
+    [
+     "Gera",
+     1,
+     "NO",
+     2,
+     879,
+     6.9
+    ],
+    [
+     "Gera",
+     1,
+     "O",
+     3,
+     1168,
+     9.1
+    ],
+    [
+     "Gera",
+     1,
+     "SO",
+     4,
+     420,
+     3.3
+    ],
+    [
+     "Gera",
+     1,
+     "S",
+     5,
+     3182,
+     24.9
+    ],
+    [
+     "Gera",
+     1,
+     "SW",
+     6,
+     1620,
+     12.7
+    ],
+    [
+     "Gera",
+     1,
+     "W",
+     7,
+     1986,
+     15.5
+    ],
+    [
+     "Gera",
+     1,
+     "NW",
+     8,
+     1438,
+     11.2
+    ],
+    [
+     "Hohenleuben",
+     2,
+     "N",
+     1,
+     337,
+     6.2
+    ],
+    [
+     "Hohenleuben",
+     2,
+     "NO",
+     2,
+     343,
+     6.3
+    ],
+    [
+     "Hohenleuben",
+     2,
+     "O",
+     3,
+     664,
+     12.1
+    ],
+    [
+     "Hohenleuben",
+     2,
+     "SO",
+     4,
+     110,
+     2.0
+    ],
+    [
+     "Hohenleuben",
+     2,
+     "S",
+     5,
+     504,
+     9.2
+    ],
+    [
+     "Hohenleuben",
+     2,
+     "SW",
+     6,
+     755,
+     13.8
+    ],
+    [
+     "Hohenleuben",
+     2,
+     "W",
+     7,
+     2120,
+     38.7
+    ],
+    [
+     "Hohenleuben",
+     2,
+     "NW",
+     8,
+     641,
+     11.7
+    ],
+    [
+     "Schleiz",
+     3,
+     "N",
+     1,
+     102,
+     4.7
+    ],
+    [
+     "Schleiz",
+     3,
+     "NO",
+     2,
+     173,
+     7.9
+    ],
+    [
+     "Schleiz",
+     3,
+     "O",
+     3,
+     88,
+     4.0
+    ],
+    [
+     "Schleiz",
+     3,
+     "SO",
+     4,
+     101,
+     4.6
+    ],
+    [
+     "Schleiz",
+     3,
+     "S",
+     5,
+     285,
+     13.0
+    ],
+    [
+     "Schleiz",
+     3,
+     "SW",
+     6,
+     808,
+     36.9
+    ],
+    [
+     "Schleiz",
+     3,
+     "W",
+     7,
+     443,
+     20.2
+    ],
+    [
+     "Schleiz",
+     3,
+     "NW",
+     8,
+     192,
+     8.8
+    ],
+    [
+     "Rothenacker",
+     4,
+     "N",
+     1,
+     110,
+     10.0
+    ],
+    [
+     "Rothenacker",
+     4,
+     "NO",
+     2,
+     70,
+     6.4
+    ],
+    [
+     "Rothenacker",
+     4,
+     "O",
+     3,
+     70,
+     6.4
+    ],
+    [
+     "Rothenacker",
+     4,
+     "SO",
+     4,
+     59,
+     5.4
+    ],
+    [
+     "Rothenacker",
+     4,
+     "S",
+     5,
+     208,
+     18.9
+    ],
+    [
+     "Rothenacker",
+     4,
+     "SW",
+     6,
+     238,
+     21.6
+    ],
+    [
+     "Rothenacker",
+     4,
+     "W",
+     7,
+     242,
+     22.0
+    ],
+    [
+     "Rothenacker",
+     4,
+     "NW",
+     8,
+     105,
+     9.5
+    ]
+   ],
+   "source_refs": [
+    {
+     "page": "62",
+     "block": "b3",
+     "rows": "r14"
+    },
+    {
+     "page": "63",
+     "block": "b2",
+     "rows": "r14"
+    },
+    {
+     "page": "63",
+     "block": "b4",
+     "rows": "r14"
+    },
+    {
+     "page": "63",
+     "block": "b6",
+     "rows": "r14"
+    }
+   ]
+  },
+  {
+   "name": "wind_gera_monthly",
+   "title": {
+    "de": "Windbeobachtungen in Gera nach Monat und Richtung, 1856–1865",
+    "en": "Wind observations at Gera by month and direction, 1856–1865"
+   },
+   "columns": [
+    {
+     "name": "month",
+     "label": {
+      "de": "Monat",
+      "en": "Month"
+     },
+     "type": "integer",
+     "unit": null,
+     "derived": true,
+     "note": "Monatsnummer 1–12, editorisch"
+    },
+    {
+     "name": "month_label",
+     "label": {
+      "de": "Monat (Original)",
+      "en": "Month (original)"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "direction",
+     "label": {
+      "de": "Richtung",
+      "en": "Direction"
+     },
+     "type": "string",
+     "unit": null,
+     "note": "N, NO, O, SO, S, SW, W, NW; Original »N.« usw."
+    },
+    {
+     "name": "dir_index",
+     "label": {
+      "de": "Reihenfolge der Richtung",
+      "en": "Direction order"
+     },
+     "type": "integer",
+     "unit": null,
+     "derived": true,
+     "note": "1 = N … 8 = NW im Uhrzeigersinn"
+    },
+    {
+     "name": "count",
+     "label": {
+      "de": "Beobachtungen",
+      "en": "Observations"
+     },
+     "type": "integer",
+     "unit": "Zahl"
+    },
+    {
+     "name": "month_share",
+     "label": {
+      "de": "Anteil im Monat",
+      "en": "Share within month"
+     },
+     "type": "number",
+     "unit": "%",
+     "derived": true
+    },
+    {
+     "name": "season",
+     "label": {
+      "de": "Jahreszeit",
+      "en": "Season"
+     },
+     "type": "string",
+     "unit": null,
+     "derived": true,
+     "note": "meteorologische Jahreszeit"
+    },
+    {
+     "name": "season_order",
+     "label": {
+      "de": "Reihenfolge der Jahreszeit",
+      "en": "Season order"
+     },
+     "type": "integer",
+     "unit": null,
+     "derived": true
+    }
+   ],
+   "rows": [
+    [
+     1,
+     "Januar",
+     "N",
+     1,
+     121,
+     11.0,
+     "Winter",
+     1
+    ],
+    [
+     1,
+     "Januar",
+     "NO",
+     2,
+     67,
+     6.1,
+     "Winter",
+     1
+    ],
+    [
+     1,
+     "Januar",
+     "O",
+     3,
+     47,
+     4.3,
+     "Winter",
+     1
+    ],
+    [
+     1,
+     "Januar",
+     "SO",
+     4,
+     29,
+     2.6,
+     "Winter",
+     1
+    ],
+    [
+     1,
+     "Januar",
+     "S",
+     5,
+     458,
+     41.7,
+     "Winter",
+     1
+    ],
+    [
+     1,
+     "Januar",
+     "SW",
+     6,
+     158,
+     14.4,
+     "Winter",
+     1
+    ],
+    [
+     1,
+     "Januar",
+     "W",
+     7,
+     124,
+     11.3,
+     "Winter",
+     1
+    ],
+    [
+     1,
+     "Januar",
+     "NW",
+     8,
+     95,
+     8.6,
+     "Winter",
+     1
+    ],
+    [
+     2,
+     "Februar",
+     "N",
+     1,
+     175,
+     17.6,
+     "Winter",
+     1
+    ],
+    [
+     2,
+     "Februar",
+     "NO",
+     2,
+     53,
+     5.3,
+     "Winter",
+     1
+    ],
+    [
+     2,
+     "Februar",
+     "O",
+     3,
+     80,
+     8.0,
+     "Winter",
+     1
+    ],
+    [
+     2,
+     "Februar",
+     "SO",
+     4,
+     22,
+     2.2,
+     "Winter",
+     1
+    ],
+    [
+     2,
+     "Februar",
+     "S",
+     5,
+     321,
+     32.2,
+     "Winter",
+     1
+    ],
+    [
+     2,
+     "Februar",
+     "SW",
+     6,
+     112,
+     11.2,
+     "Winter",
+     1
+    ],
+    [
+     2,
+     "Februar",
+     "W",
+     7,
+     135,
+     13.5,
+     "Winter",
+     1
+    ],
+    [
+     2,
+     "Februar",
+     "NW",
+     8,
+     99,
+     9.9,
+     "Winter",
+     1
+    ],
+    [
+     3,
+     "März",
+     "N",
+     1,
+     186,
+     17.1,
+     "Frühling",
+     2
+    ],
+    [
+     3,
+     "März",
+     "NO",
+     2,
+     66,
+     6.1,
+     "Frühling",
+     2
+    ],
+    [
+     3,
+     "März",
+     "O",
+     3,
+     91,
+     8.4,
+     "Frühling",
+     2
+    ],
+    [
+     3,
+     "März",
+     "SO",
+     4,
+     33,
+     3.0,
+     "Frühling",
+     2
+    ],
+    [
+     3,
+     "März",
+     "S",
+     5,
+     262,
+     24.1,
+     "Frühling",
+     2
+    ],
+    [
+     3,
+     "März",
+     "SW",
+     6,
+     137,
+     12.6,
+     "Frühling",
+     2
+    ],
+    [
+     3,
+     "März",
+     "W",
+     7,
+     162,
+     14.9,
+     "Frühling",
+     2
+    ],
+    [
+     3,
+     "März",
+     "NW",
+     8,
+     149,
+     13.7,
+     "Frühling",
+     2
+    ],
+    [
+     4,
+     "April",
+     "N",
+     1,
+     240,
+     22.3,
+     "Frühling",
+     2
+    ],
+    [
+     4,
+     "April",
+     "NO",
+     2,
+     112,
+     10.4,
+     "Frühling",
+     2
+    ],
+    [
+     4,
+     "April",
+     "O",
+     3,
+     103,
+     9.6,
+     "Frühling",
+     2
+    ],
+    [
+     4,
+     "April",
+     "SO",
+     4,
+     31,
+     2.9,
+     "Frühling",
+     2
+    ],
+    [
+     4,
+     "April",
+     "S",
+     5,
+     173,
+     16.1,
+     "Frühling",
+     2
+    ],
+    [
+     4,
+     "April",
+     "SW",
+     6,
+     121,
+     11.3,
+     "Frühling",
+     2
+    ],
+    [
+     4,
+     "April",
+     "W",
+     7,
+     162,
+     15.1,
+     "Frühling",
+     2
+    ],
+    [
+     4,
+     "April",
+     "NW",
+     8,
+     133,
+     12.4,
+     "Frühling",
+     2
+    ],
+    [
+     5,
+     "Mai",
+     "N",
+     1,
+     204,
+     18.5,
+     "Frühling",
+     2
+    ],
+    [
+     5,
+     "Mai",
+     "NO",
+     2,
+     113,
+     10.3,
+     "Frühling",
+     2
+    ],
+    [
+     5,
+     "Mai",
+     "O",
+     3,
+     189,
+     17.2,
+     "Frühling",
+     2
+    ],
+    [
+     5,
+     "Mai",
+     "SO",
+     4,
+     39,
+     3.5,
+     "Frühling",
+     2
+    ],
+    [
+     5,
+     "Mai",
+     "S",
+     5,
+     199,
+     18.1,
+     "Frühling",
+     2
+    ],
+    [
+     5,
+     "Mai",
+     "SW",
+     6,
+     83,
+     7.5,
+     "Frühling",
+     2
+    ],
+    [
+     5,
+     "Mai",
+     "W",
+     7,
+     168,
+     15.3,
+     "Frühling",
+     2
+    ],
+    [
+     5,
+     "Mai",
+     "NW",
+     8,
+     106,
+     9.6,
+     "Frühling",
+     2
+    ],
+    [
+     6,
+     "Juni",
+     "N",
+     1,
+     231,
+     21.8,
+     "Sommer",
+     3
+    ],
+    [
+     6,
+     "Juni",
+     "NO",
+     2,
+     71,
+     6.7,
+     "Sommer",
+     3
+    ],
+    [
+     6,
+     "Juni",
+     "O",
+     3,
+     138,
+     13.0,
+     "Sommer",
+     3
+    ],
+    [
+     6,
+     "Juni",
+     "SO",
+     4,
+     42,
+     4.0,
+     "Sommer",
+     3
+    ],
+    [
+     6,
+     "Juni",
+     "S",
+     5,
+     128,
+     12.1,
+     "Sommer",
+     3
+    ],
+    [
+     6,
+     "Juni",
+     "SW",
+     6,
+     79,
+     7.5,
+     "Sommer",
+     3
+    ],
+    [
+     6,
+     "Juni",
+     "W",
+     7,
+     192,
+     18.1,
+     "Sommer",
+     3
+    ],
+    [
+     6,
+     "Juni",
+     "NW",
+     8,
+     177,
+     16.7,
+     "Sommer",
+     3
+    ],
+    [
+     7,
+     "Juli",
+     "N",
+     1,
+     177,
+     16.1,
+     "Sommer",
+     3
+    ],
+    [
+     7,
+     "Juli",
+     "NO",
+     2,
+     62,
+     5.6,
+     "Sommer",
+     3
+    ],
+    [
+     7,
+     "Juli",
+     "O",
+     3,
+     62,
+     5.6,
+     "Sommer",
+     3
+    ],
+    [
+     7,
+     "Juli",
+     "SO",
+     4,
+     39,
+     3.5,
+     "Sommer",
+     3
+    ],
+    [
+     7,
+     "Juli",
+     "S",
+     5,
+     175,
+     15.9,
+     "Sommer",
+     3
+    ],
+    [
+     7,
+     "Juli",
+     "SW",
+     6,
+     154,
+     14.0,
+     "Sommer",
+     3
+    ],
+    [
+     7,
+     "Juli",
+     "W",
+     7,
+     249,
+     22.6,
+     "Sommer",
+     3
+    ],
+    [
+     7,
+     "Juli",
+     "NW",
+     8,
+     183,
+     16.6,
+     "Sommer",
+     3
+    ],
+    [
+     8,
+     "August",
+     "N",
+     1,
+     173,
+     16.0,
+     "Sommer",
+     3
+    ],
+    [
+     8,
+     "August",
+     "NO",
+     2,
+     65,
+     6.0,
+     "Sommer",
+     3
+    ],
+    [
+     8,
+     "August",
+     "O",
+     3,
+     119,
+     11.0,
+     "Sommer",
+     3
+    ],
+    [
+     8,
+     "August",
+     "SO",
+     4,
+     39,
+     3.6,
+     "Sommer",
+     3
+    ],
+    [
+     8,
+     "August",
+     "S",
+     5,
+     189,
+     17.5,
+     "Sommer",
+     3
+    ],
+    [
+     8,
+     "August",
+     "SW",
+     6,
+     147,
+     13.6,
+     "Sommer",
+     3
+    ],
+    [
+     8,
+     "August",
+     "W",
+     7,
+     211,
+     19.5,
+     "Sommer",
+     3
+    ],
+    [
+     8,
+     "August",
+     "NW",
+     8,
+     137,
+     12.7,
+     "Sommer",
+     3
+    ],
+    [
+     9,
+     "September",
+     "N",
+     1,
+     141,
+     14.2,
+     "Herbst",
+     4
+    ],
+    [
+     9,
+     "September",
+     "NO",
+     2,
+     92,
+     9.3,
+     "Herbst",
+     4
+    ],
+    [
+     9,
+     "September",
+     "O",
+     3,
+     91,
+     9.2,
+     "Herbst",
+     4
+    ],
+    [
+     9,
+     "September",
+     "SO",
+     4,
+     57,
+     5.7,
+     "Herbst",
+     4
+    ],
+    [
+     9,
+     "September",
+     "S",
+     5,
+     262,
+     26.4,
+     "Herbst",
+     4
+    ],
+    [
+     9,
+     "September",
+     "SW",
+     6,
+     136,
+     13.7,
+     "Herbst",
+     4
+    ],
+    [
+     9,
+     "September",
+     "W",
+     7,
+     117,
+     11.8,
+     "Herbst",
+     4
+    ],
+    [
+     9,
+     "September",
+     "NW",
+     8,
+     97,
+     9.8,
+     "Herbst",
+     4
+    ],
+    [
+     10,
+     "October",
+     "N",
+     1,
+     140,
+     12.5,
+     "Herbst",
+     4
+    ],
+    [
+     10,
+     "October",
+     "NO",
+     2,
+     67,
+     6.0,
+     "Herbst",
+     4
+    ],
+    [
+     10,
+     "October",
+     "O",
+     3,
+     120,
+     10.7,
+     "Herbst",
+     4
+    ],
+    [
+     10,
+     "October",
+     "SO",
+     4,
+     35,
+     3.1,
+     "Herbst",
+     4
+    ],
+    [
+     10,
+     "October",
+     "S",
+     5,
+     349,
+     31.1,
+     "Herbst",
+     4
+    ],
+    [
+     10,
+     "October",
+     "SW",
+     6,
+     175,
+     15.6,
+     "Herbst",
+     4
+    ],
+    [
+     10,
+     "October",
+     "W",
+     7,
+     159,
+     14.2,
+     "Herbst",
+     4
+    ],
+    [
+     10,
+     "October",
+     "NW",
+     8,
+     78,
+     6.9,
+     "Herbst",
+     4
+    ],
+    [
+     11,
+     "November",
+     "N",
+     1,
+     182,
+     16.8,
+     "Herbst",
+     4
+    ],
+    [
+     11,
+     "November",
+     "NO",
+     2,
+     74,
+     6.8,
+     "Herbst",
+     4
+    ],
+    [
+     11,
+     "November",
+     "O",
+     3,
+     88,
+     8.1,
+     "Herbst",
+     4
+    ],
+    [
+     11,
+     "November",
+     "SO",
+     4,
+     30,
+     2.8,
+     "Herbst",
+     4
+    ],
+    [
+     11,
+     "November",
+     "S",
+     5,
+     313,
+     28.9,
+     "Herbst",
+     4
+    ],
+    [
+     11,
+     "November",
+     "SW",
+     6,
+     182,
+     16.8,
+     "Herbst",
+     4
+    ],
+    [
+     11,
+     "November",
+     "W",
+     7,
+     143,
+     13.2,
+     "Herbst",
+     4
+    ],
+    [
+     11,
+     "November",
+     "NW",
+     8,
+     70,
+     6.5,
+     "Herbst",
+     4
+    ],
+    [
+     12,
+     "December",
+     "N",
+     1,
+     133,
+     13.3,
+     "Winter",
+     1
+    ],
+    [
+     12,
+     "December",
+     "NO",
+     2,
+     37,
+     3.7,
+     "Winter",
+     1
+    ],
+    [
+     12,
+     "December",
+     "O",
+     3,
+     40,
+     4.0,
+     "Winter",
+     1
+    ],
+    [
+     12,
+     "December",
+     "SO",
+     4,
+     24,
+     2.4,
+     "Winter",
+     1
+    ],
+    [
+     12,
+     "December",
+     "S",
+     5,
+     353,
+     35.3,
+     "Winter",
+     1
+    ],
+    [
+     12,
+     "December",
+     "SW",
+     6,
+     136,
+     13.6,
+     "Winter",
+     1
+    ],
+    [
+     12,
+     "December",
+     "W",
+     7,
+     164,
+     16.4,
+     "Winter",
+     1
+    ],
+    [
+     12,
+     "December",
+     "NW",
+     8,
+     114,
+     11.4,
+     "Winter",
+     1
+    ]
+   ],
+   "source_refs": [
+    {
+     "page": "62",
+     "block": "b3",
+     "rows": "r2-r13"
+    }
+   ]
+  },
+  {
+   "name": "thunder_monthly",
+   "title": {
+    "de": "Gewitter in Gera nach Monat, zwei Perioden",
+    "en": "Thunderstorms at Gera by month, two periods"
+   },
+   "columns": [
+    {
+     "name": "period",
+     "label": {
+      "de": "Zeitraum",
+      "en": "Period"
+     },
+     "type": "string",
+     "unit": null,
+     "note": "Zeilenüberschrift im Druck"
+    },
+    {
+     "name": "period_order",
+     "label": {
+      "de": "Reihenfolge des Zeitraums",
+      "en": "Period order"
+     },
+     "type": "integer",
+     "unit": null,
+     "derived": true
+    },
+    {
+     "name": "month",
+     "label": {
+      "de": "Monat",
+      "en": "Month"
+     },
+     "type": "integer",
+     "unit": null,
+     "derived": true,
+     "note": "Monatsnummer 1–12, editorisch"
+    },
+    {
+     "name": "month_label",
+     "label": {
+      "de": "Monat (Original)",
+      "en": "Month (original)"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "count",
+     "label": {
+      "de": "Gewitter",
+      "en": "Thunderstorms"
+     },
+     "type": "integer",
+     "unit": "Zahl",
+     "note": "berichtigt nach S. 830 (Oktober 1853–1858); Gedankenstrich im Druck = leer"
+    },
+    {
+     "name": "count_printed",
+     "label": {
+      "de": "Gewitter laut Tabelle",
+      "en": "Thunderstorms as in the table"
+     },
+     "type": "integer",
+     "unit": "Zahl",
+     "note": "gedruckter Tabellenwert (S. 67), vor der Berichtigung"
+    },
+    {
+     "name": "correction",
+     "label": {
+      "de": "Berichtigung",
+      "en": "Correction"
+     },
+     "type": "string",
+     "unit": null,
+     "note": "Hinweis auf die Berichtigung in Brückners Zusätzen (S. 830)"
+    },
+    {
+     "name": "years",
+     "label": {
+      "de": "Jahre im Zeitraum",
+      "en": "Years in the period"
+     },
+     "type": "integer",
+     "unit": "Jahre",
+     "derived": true,
+     "note": "aus der Jahresangabe der Zeile (1853–1858 = 6, 1859–1867 = 9)"
+    },
+    {
+     "name": "per_year",
+     "label": {
+      "de": "Gewitter pro Jahr",
+      "en": "Thunderstorms per year"
+     },
+     "type": "number",
+     "unit": "pro Jahr",
+     "derived": true,
+     "note": "Zahl ÷ Jahre; Gedankenstrich = 0"
+    }
+   ],
+   "rows": [
+    [
+     "1853–1858",
+     1,
+     1,
+     "Jan",
+     null,
+     null,
+     "",
+     6,
+     0.0
+    ],
+    [
+     "1853–1858",
+     1,
+     2,
+     "Febr",
+     3,
+     3,
+     "",
+     6,
+     0.5
+    ],
+    [
+     "1853–1858",
+     1,
+     3,
+     "März",
+     null,
+     null,
+     "",
+     6,
+     0.0
+    ],
+    [
+     "1853–1858",
+     1,
+     4,
+     "April",
+     7,
+     7,
+     "",
+     6,
+     1.17
+    ],
+    [
+     "1853–1858",
+     1,
+     5,
+     "Mai",
+     23,
+     23,
+     "",
+     6,
+     3.83
+    ],
+    [
+     "1853–1858",
+     1,
+     6,
+     "Juni",
+     32,
+     32,
+     "",
+     6,
+     5.33
+    ],
+    [
+     "1853–1858",
+     1,
+     7,
+     "Juli",
+     22,
+     22,
+     "",
+     6,
+     3.67
+    ],
+    [
+     "1853–1858",
+     1,
+     8,
+     "Aug",
+     36,
+     36,
+     "",
+     6,
+     6.0
+    ],
+    [
+     "1853–1858",
+     1,
+     9,
+     "Sept",
+     9,
+     9,
+     "",
+     6,
+     1.5
+    ],
+    [
+     "1853–1858",
+     1,
+     10,
+     "Oct",
+     1,
+     2,
+     "S. 830: 1 statt 2",
+     6,
+     0.17
+    ],
+    [
+     "1853–1858",
+     1,
+     11,
+     "Nov",
+     null,
+     null,
+     "",
+     6,
+     0.0
+    ],
+    [
+     "1853–1858",
+     1,
+     12,
+     "Dec",
+     2,
+     2,
+     "",
+     6,
+     0.33
+    ],
+    [
+     "1859–1867",
+     2,
+     1,
+     "Jan",
+     2,
+     2,
+     "",
+     9,
+     0.22
+    ],
+    [
+     "1859–1867",
+     2,
+     2,
+     "Febr",
+     1,
+     1,
+     "",
+     9,
+     0.11
+    ],
+    [
+     "1859–1867",
+     2,
+     3,
+     "März",
+     10,
+     10,
+     "",
+     9,
+     1.11
+    ],
+    [
+     "1859–1867",
+     2,
+     4,
+     "April",
+     18,
+     18,
+     "",
+     9,
+     2.0
+    ],
+    [
+     "1859–1867",
+     2,
+     5,
+     "Mai",
+     31,
+     31,
+     "",
+     9,
+     3.44
+    ],
+    [
+     "1859–1867",
+     2,
+     6,
+     "Juni",
+     49,
+     49,
+     "",
+     9,
+     5.44
+    ],
+    [
+     "1859–1867",
+     2,
+     7,
+     "Juli",
+     44,
+     44,
+     "",
+     9,
+     4.89
+    ],
+    [
+     "1859–1867",
+     2,
+     8,
+     "Aug",
+     41,
+     41,
+     "",
+     9,
+     4.56
+    ],
+    [
+     "1859–1867",
+     2,
+     9,
+     "Sept",
+     10,
+     10,
+     "",
+     9,
+     1.11
+    ],
+    [
+     "1859–1867",
+     2,
+     10,
+     "Oct",
+     4,
+     4,
+     "",
+     9,
+     0.44
+    ],
+    [
+     "1859–1867",
+     2,
+     11,
+     "Nov",
+     null,
+     null,
+     "",
+     9,
+     0.0
+    ],
+    [
+     "1859–1867",
+     2,
+     12,
+     "Dec",
+     1,
+     1,
+     "",
+     9,
+     0.11
+    ]
+   ],
+   "source_refs": [
+    {
+     "page": "67",
+     "block": "b7",
+     "rows": "r2-r4"
+    },
+    {
+     "page": "830",
+     "block": "b4",
+     "rows": "i4"
+    }
+   ]
+  },
+  {
+   "name": "thunder_annual",
+   "title": {
+    "de": "Gewitter pro Jahr nach Ort",
+    "en": "Thunderstorms per year by station"
+   },
+   "columns": [
+    {
+     "name": "station",
+     "label": {
+      "de": "Beobachtungsort",
+      "en": "Station"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "kind",
+     "label": {
+      "de": "Art der Angabe",
+      "en": "Kind of figure"
+     },
+     "type": "string",
+     "unit": null,
+     "derived": true,
+     "note": "mean = Mittel, maximum / minimum = Einzeljahr (Text S. 67)"
+    },
+    {
+     "name": "period",
+     "label": {
+      "de": "Zeitraum",
+      "en": "Period"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "total",
+     "label": {
+      "de": "Gewitter im Zeitraum",
+      "en": "Thunderstorms in the period"
+     },
+     "type": "integer",
+     "unit": "Zahl",
+     "note": "gedruckte Summe bzw. Zahl aus dem Text"
+    },
+    {
+     "name": "years",
+     "label": {
+      "de": "Jahre",
+      "en": "Years"
+     },
+     "type": "integer",
+     "unit": "Jahre",
+     "derived": true
+    },
+    {
+     "name": "per_year",
+     "label": {
+      "de": "Gewitter pro Jahr",
+      "en": "Thunderstorms per year"
+     },
+     "type": "number",
+     "unit": "pro Jahr",
+     "derived": true
+    }
+   ],
+   "rows": [
+    [
+     "Gera",
+     "mean",
+     "1856–1867",
+     270,
+     12,
+     22.5
+    ],
+    [
+     "Gera",
+     "maximum",
+     "1861",
+     45,
+     1,
+     45.0
+    ],
+    [
+     "Gera",
+     "minimum",
+     "1864",
+     10,
+     1,
+     10.0
+    ],
+    [
+     "Schleiz",
+     "mean",
+     "1866–1867",
+     31,
+     2,
+     15.5
+    ],
+    [
+     "Rothenacker",
+     "mean",
+     "Juni 1866–Mai 1868",
+     35,
+     2,
+     17.5
+    ]
+   ],
+   "source_refs": [
+    {
+     "page": "66",
+     "block": "b3",
+     "rows": "r14"
+    },
+    {
+     "page": "67",
+     "block": "b2",
+     "rows": "r14"
+    },
+    {
+     "page": "67",
+     "block": "b6"
+    }
+   ]
+  },
+  {
+   "name": "thunder_direction",
+   "title": {
+    "de": "Gewitter nach Zugrichtung",
+    "en": "Thunderstorms by direction of approach"
+   },
+   "columns": [
+    {
+     "name": "station",
+     "label": {
+      "de": "Beobachtungsort",
+      "en": "Station"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "station_order",
+     "label": {
+      "de": "Reihenfolge des Ortes",
+      "en": "Station order"
+     },
+     "type": "integer",
+     "unit": null,
+     "derived": true
+    },
+    {
+     "name": "direction",
+     "label": {
+      "de": "Richtung",
+      "en": "Direction"
+     },
+     "type": "string",
+     "unit": null,
+     "note": "Original »N.« usw."
+    },
+    {
+     "name": "dir_index",
+     "label": {
+      "de": "Reihenfolge der Richtung",
+      "en": "Direction order"
+     },
+     "type": "integer",
+     "unit": null,
+     "derived": true,
+     "note": "1 = N … 8 = NW im Uhrzeigersinn"
+    },
+    {
+     "name": "count",
+     "label": {
+      "de": "Gewitter",
+      "en": "Thunderstorms"
+     },
+     "type": "integer",
+     "unit": "Zahl"
+    },
+    {
+     "name": "share",
+     "label": {
+      "de": "Anteil",
+      "en": "Share"
+     },
+     "type": "number",
+     "unit": "%",
+     "derived": true,
+     "note": "an den Gewittern des Ortes (Gera 134, Hohenleuben 47)"
+    }
+   ],
+   "rows": [
+    [
+     "Gera",
+     1,
+     "N",
+     1,
+     23,
+     17.2
+    ],
+    [
+     "Gera",
+     1,
+     "NO",
+     2,
+     5,
+     3.7
+    ],
+    [
+     "Gera",
+     1,
+     "O",
+     3,
+     10,
+     7.5
+    ],
+    [
+     "Gera",
+     1,
+     "SO",
+     4,
+     7,
+     5.2
+    ],
+    [
+     "Gera",
+     1,
+     "S",
+     5,
+     34,
+     25.4
+    ],
+    [
+     "Gera",
+     1,
+     "SW",
+     6,
+     7,
+     5.2
+    ],
+    [
+     "Gera",
+     1,
+     "W",
+     7,
+     37,
+     27.6
+    ],
+    [
+     "Gera",
+     1,
+     "NW",
+     8,
+     11,
+     8.2
+    ],
+    [
+     "Hohenleuben",
+     2,
+     "N",
+     1,
+     3,
+     6.4
+    ],
+    [
+     "Hohenleuben",
+     2,
+     "NO",
+     2,
+     2,
+     4.3
+    ],
+    [
+     "Hohenleuben",
+     2,
+     "O",
+     3,
+     6,
+     12.8
+    ],
+    [
+     "Hohenleuben",
+     2,
+     "SO",
+     4,
+     2,
+     4.3
+    ],
+    [
+     "Hohenleuben",
+     2,
+     "S",
+     5,
+     5,
+     10.6
+    ],
+    [
+     "Hohenleuben",
+     2,
+     "SW",
+     6,
+     1,
+     2.1
+    ],
+    [
+     "Hohenleuben",
+     2,
+     "W",
+     7,
+     22,
+     46.8
+    ],
+    [
+     "Hohenleuben",
+     2,
+     "NW",
+     8,
+     6,
+     12.8
+    ]
+   ],
+   "source_refs": [
+    {
+     "page": "68",
+     "block": "b2",
+     "rows": "r2-r4"
+    }
+   ]
+  }
+ ],
+ "charts": [
+  {
+   "id": "c1",
+   "dataset": "wind_stations",
+   "title": {
+    "de": "In Gera dominiert der Südwind, an den Oberlandorten Südwest bis West",
+    "en": "At Gera the south wind dominates, at the Oberland places south-west to west"
+   },
+   "caption": {
+    "de": "Anteil der acht Richtungen an den Windbeobachtungen (Fläche der Keile proportional, Ringe bei 10, 20, 30 und 40 Prozent). Farbig: Richtungen mit mindestens 20 Prozent. Beobachtungsreihen unterschiedlich lang (10, 7, 2 und 1 Jahr). Quelle: S. 62 bis 64.",
+    "en": "Share of the eight directions among the wind observations (wedge area proportional, rings at 10, 20, 30 and 40 percent). Colored: directions with at least 20 percent. Series of different length (10, 7, 2 and 1 years). Source: pp. 62 to 64."
+   },
+   "vegalite": {
+    "autosize": {
+     "type": "pad"
+    },
+    "columns": 4,
+    "spacing": 6,
+    "facet": {
+     "field": "station_label",
+     "type": "nominal",
+     "sort": {
+      "field": "station_order",
+      "op": "min"
+     },
+     "title": null
+    },
+    "spec": {
+     "width": 200,
+     "height": 200,
+     "layer": [
+      {
+       "transform": [
+        {
+         "filter": "datum.dir_index == 1"
+        },
+        {
+         "calculate": "[10, 20, 30, 40]",
+         "as": "ring"
+        },
+        {
+         "flatten": [
+          "ring"
+         ]
+        },
+        {
+         "calculate": "pow(sqrt(datum.ring) - 0.1309, 2)",
+         "as": "ring_in"
+        }
+       ],
+       "mark": {
+        "type": "arc",
+        "opacity": 0.55,
+        "strokeWidth": 0,
+        "color": "@context"
+       },
+       "encoding": {
+        "theta": {
+         "value": 0
+        },
+        "theta2": {
+         "value": 6.2832
+        },
+        "radius": {
+         "field": "ring",
+         "type": "quantitative",
+         "scale": {
+          "type": "sqrt",
+          "domain": [
+           0,
+           40
+          ],
+          "rangeMax": 58
+         }
+        },
+        "radius2": {
+         "field": "ring_in",
+         "type": "quantitative"
+        }
+       }
+      },
+      {
+       "mark": {
+        "type": "arc"
+       },
+       "encoding": {
+        "theta": {
+         "field": "dir_lo",
+         "type": "quantitative",
+         "scale": {
+          "domain": [
+           0.5,
+           8.5
+          ],
+          "range": [
+           -0.3927,
+           5.8905
+          ]
+         },
+         "stack": false
+        },
+        "theta2": {
+         "field": "dir_hi"
+        },
+        "radius": {
+         "field": "share",
+         "type": "quantitative",
+         "scale": {
+          "type": "sqrt",
+          "domain": [
+           0,
+           40
+          ],
+          "rangeMax": 58
+         }
+        },
+        "color": {
+         "condition": {
+          "test": "datum.share >= 20",
+          "value": "@accent"
+         },
+         "value": "@context"
+        },
+        "tooltip": [
+         {
+          "field": "station_label",
+          "title": {
+           "de": "Ort",
+           "en": "Place"
+          }
+         },
+         {
+          "field": "dir_label",
+          "title": {
+           "de": "Richtung",
+           "en": "Direction"
+          }
+         },
+         {
+          "field": "share",
+          "title": {
+           "de": "Anteil (%)",
+           "en": "Share (%)"
+          },
+          "format": ".1f"
+         },
+         {
+          "field": "count",
+          "title": {
+           "de": "Beobachtungen",
+           "en": "Observations"
+          },
+          "format": ",d"
+         }
+        ]
+       }
+      },
+      {
+       "transform": [
+        {
+         "filter": "datum.share >= 20"
+        },
+        {
+         "calculate": "format(datum.share, '.0f') + ' %'",
+         "as": "vlab"
+        }
+       ],
+       "mark": {
+        "type": "text",
+        "style": "label",
+        "radiusOffset": 8
+       },
+       "encoding": {
+        "theta": {
+         "field": "dir_index",
+         "type": "quantitative",
+         "scale": {
+          "domain": [
+           0.5,
+           8.5
+          ],
+          "range": [
+           -0.3927,
+           5.8905
+          ]
+         },
+         "stack": false
+        },
+        "radius": {
+         "field": "share",
+         "type": "quantitative",
+         "scale": {
+          "type": "sqrt",
+          "domain": [
+           0,
+           40
+          ],
+          "rangeMax": 58
+         }
+        },
+        "text": {
+         "field": "vlab"
+        }
+       }
+      },
+      {
+       "mark": {
+        "type": "text",
+        "style": "label-muted",
+        "fontSize": 11
+       },
+       "encoding": {
+        "theta": {
+         "field": "dir_index",
+         "type": "quantitative",
+         "scale": {
+          "domain": [
+           0.5,
+           8.5
+          ],
+          "range": [
+           -0.3927,
+           5.8905
+          ]
+         },
+         "stack": false
+        },
+        "radius": {
+         "value": 90
+        },
+        "text": {
+         "field": "dir_label"
+        }
+       }
+      }
+     ]
+    },
+    "transform": [
+     {
+      "calculate": {
+       "de": "{'Gera':'Gera 1856–1865','Hohenleuben':'Hohenleuben (7 Jahre)','Schleiz':'Schleiz 1866–1867','Rothenacker':'Rothenacker 1867'}[datum.station]",
+       "en": "{'Gera':'Gera 1856–1865','Hohenleuben':'Hohenleuben (7 years)','Schleiz':'Schleiz 1866–1867','Rothenacker':'Rothenacker 1867'}[datum.station]"
+      },
+      "as": "station_label"
+     },
+     {
+      "calculate": {
+       "de": "datum.direction",
+       "en": "{'N':'N','NO':'NE','O':'E','SO':'SE','S':'S','SW':'SW','W':'W','NW':'NW'}[datum.direction]"
+      },
+      "as": "dir_label"
+     },
+     {
+      "calculate": "datum.dir_index - 0.5",
+      "as": "dir_lo"
+     },
+     {
+      "calculate": "datum.dir_index + 0.5",
+      "as": "dir_hi"
+     }
+    ]
+   }
+  },
+  {
+   "id": "c2",
+   "dataset": "wind_gera_monthly",
+   "title": {
+    "de": "In Gera weht im Winter vor allem Südwind, im Sommer überwiegen West und Nord",
+    "en": "At Gera the south wind prevails in winter; in summer west and north lead"
+   },
+   "caption": {
+    "de": "Anteil der Richtungen an den Windbeobachtungen jedes Monats in Gera, 1856 bis 1865 (Prozent). Farbig: Süd, West und Nord; grau: die fünf übrigen Richtungen. Quelle: S. 62.",
+    "en": "Share of the directions among the wind observations of each month at Gera, 1856 to 1865 (percent). Colored: south, west and north; gray: the five other directions. Source: p. 62."
+   },
+   "vegalite": {
+    "height": 320,
+    "encoding": {
+     "x": {
+      "field": "month",
+      "type": "quantitative",
+      "scale": {
+       "domain": [
+        0.7,
+        12.3
+       ],
+       "nice": false
+      },
+      "axis": {
+       "title": null,
+       "values": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+       ],
+       "labelExpr": {
+        "de": "['Jan','Feb','Mär','Apr','Mai','Jun','Jul','Aug','Sep','Okt','Nov','Dez'][datum.value-1]",
+        "en": "['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'][datum.value-1]"
+       },
+       "grid": false
+      }
+     },
+     "y": {
+      "field": "month_share",
+      "type": "quantitative",
+      "scale": {
+       "domain": [
+        0,
+        45
+       ]
+      },
+      "axis": {
+       "title": {
+        "de": "Anteil der Beobachtungen (%)",
+        "en": "Share of observations (%)"
+       },
+       "values": [
+        0,
+        10,
+        20,
+        30,
+        40
+       ]
+      }
+     }
+    },
+    "layer": [
+     {
+      "transform": [
+       {
+        "filter": "indexof(['S','W','N'], datum.direction) < 0"
+       }
+      ],
+      "mark": {
+       "type": "line",
+       "strokeWidth": 1.5,
+       "color": "@context"
+      },
+      "encoding": {
+       "detail": {
+        "field": "direction"
+       }
+      }
+     },
+     {
+      "transform": [
+       {
+        "filter": "indexof(['S','W','N'], datum.direction) >= 0"
+       }
+      ],
+      "mark": {
+       "type": "line",
+       "strokeWidth": 3
+      },
+      "encoding": {
+       "color": {
+        "field": "direction",
+        "type": "nominal",
+        "legend": null,
+        "scale": {
+         "domain": [
+          "S",
+          "W",
+          "N"
+         ],
+         "range": [
+          "@accent",
+          "@accent2",
+          "@accent3"
+         ]
+        }
+       }
+      }
+     },
+     {
+      "transform": [
+       {
+        "filter": "indexof(['S','W','N'], datum.direction) >= 0"
+       }
+      ],
+      "mark": {
+       "type": "point",
+       "filled": true,
+       "size": 28
+      },
+      "encoding": {
+       "color": {
+        "field": "direction",
+        "type": "nominal",
+        "legend": null,
+        "scale": {
+         "domain": [
+          "S",
+          "W",
+          "N"
+         ],
+         "range": [
+          "@accent",
+          "@accent2",
+          "@accent3"
+         ]
+        }
+       },
+       "tooltip": [
+        {
+         "field": "month_label",
+         "title": {
+          "de": "Monat",
+          "en": "Month"
+         }
+        },
+        {
+         "field": "direction",
+         "title": {
+          "de": "Richtung",
+          "en": "Direction"
+         }
+        },
+        {
+         "field": "month_share",
+         "title": {
+          "de": "Anteil (%)",
+          "en": "Share (%)"
+         },
+         "format": ".1f"
+        },
+        {
+         "field": "count",
+         "title": {
+          "de": "Beobachtungen",
+          "en": "Observations"
+         },
+         "format": "d"
+        }
+       ]
+      }
+     },
+     {
+      "transform": [
+       {
+        "filter": "(datum.direction == 'S' && datum.month == 1) || (datum.direction == 'W' && datum.month == 7) || (datum.direction == 'N' && datum.month == 4)"
+       },
+       {
+        "calculate": {
+         "de": "{'S':'Süd','W':'West','N':'Nord'}[datum.direction]",
+         "en": "{'S':'South','W':'West','N':'North'}[datum.direction]"
+        },
+        "as": "dname"
+       },
+       {
+        "calculate": "datum.dname + ' ' + format(datum.month_share, '.0f') + ' %'",
+        "as": "lab"
+       }
+      ],
+      "mark": {
+       "type": "text",
+       "style": "label",
+       "dy": -12,
+       "align": "center"
+      },
+      "encoding": {
+       "text": {
+        "field": "lab"
+       },
+       "color": {
+        "field": "direction",
+        "type": "nominal",
+        "legend": null,
+        "scale": {
+         "domain": [
+          "S",
+          "W",
+          "N"
+         ],
+         "range": [
+          "@accent",
+          "@accent2",
+          "@accent3"
+         ]
+        }
+       }
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "c3",
+   "dataset": "thunder_monthly",
+   "title": {
+    "de": "Gewitter in Gera: 65 Prozent fallen in Juni bis August, im November gab es keines",
+    "en": "Thunderstorms at Gera: 65 percent fall in June to August, none occurred in November"
+   },
+   "caption": {
+    "de": "Mittlere Zahl der Gewitter pro Jahr und Monat in Gera, 1853 bis 1867 (346 Gewitter in 15 Jahren, Perioden 1853 bis 1858 und 1859 bis 1867 zusammengefasst). Quelle: S. 67, Berichtigung S. 830.",
+    "en": "Mean number of thunderstorms per year and month at Gera, 1853 to 1867 (346 thunderstorms in 15 years, periods 1853 to 1858 and 1859 to 1867 combined). Source: p. 67, correction p. 830."
+   },
+   "vegalite": {
+    "height": 280,
+    "transform": [
+     {
+      "calculate": "isValid(datum.count) ? datum.count : 0",
+      "as": "count0"
+     },
+     {
+      "aggregate": [
+       {
+        "op": "sum",
+        "field": "count0",
+        "as": "total"
+       }
+      ],
+      "groupby": [
+       "month"
+      ]
+     },
+     {
+      "calculate": "datum.total / 15",
+      "as": "per_year"
+     }
+    ],
+    "encoding": {
+     "x": {
+      "field": "month",
+      "type": "ordinal",
+      "axis": {
+       "title": null,
+       "labelAngle": 0,
+       "labelExpr": {
+        "de": "['Jan','Feb','Mär','Apr','Mai','Jun','Jul','Aug','Sep','Okt','Nov','Dez'][datum.value-1]",
+        "en": "['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'][datum.value-1]"
+       }
+      }
+     },
+     "y": {
+      "field": "per_year",
+      "type": "quantitative",
+      "scale": {
+       "domain": [
+        0,
+        6.5
+       ]
+      },
+      "axis": {
+       "title": {
+        "de": "Gewitter pro Jahr",
+        "en": "Thunderstorms per year"
+       },
+       "values": [
+        0,
+        2,
+        4,
+        6
+       ]
+      }
+     }
+    },
+    "layer": [
+     {
+      "mark": {
+       "type": "bar",
+       "width": {
+        "band": 0.72
+       }
+      },
+      "encoding": {
+       "color": {
+        "condition": {
+         "test": "datum.month >= 6 && datum.month <= 8",
+         "value": "@accent"
+        },
+        "value": "@context"
+       },
+       "tooltip": [
+        {
+         "field": "month",
+         "title": {
+          "de": "Monat",
+          "en": "Month"
+         }
+        },
+        {
+         "field": "total",
+         "title": {
+          "de": "Gewitter in 15 Jahren",
+          "en": "Thunderstorms in 15 years"
+         },
+         "format": "d"
+        },
+        {
+         "field": "per_year",
+         "title": {
+          "de": "pro Jahr",
+          "en": "per year"
+         },
+         "format": ".1f"
+        }
+       ]
+      }
+     },
+     {
+      "transform": [
+       {
+        "filter": "datum.per_year >= 0.5"
+       }
+      ],
+      "mark": {
+       "type": "text",
+       "style": "label",
+       "dy": -7
+      },
+      "encoding": {
+       "text": {
+        "field": "per_year",
+        "type": "quantitative",
+        "format": ".1f"
+       }
+      }
+     },
+     {
+      "transform": [
+       {
+        "filter": "datum.total == 0"
+       }
+      ],
+      "mark": {
+       "type": "text",
+       "style": "annotation",
+       "dy": -9
+      },
+      "encoding": {
+       "text": {
+        "value": {
+         "de": "keines",
+         "en": "none"
+        }
+       }
+      }
+     },
+     {
+      "transform": [
+       {
+        "filter": "datum.month == 7"
+       }
+      ],
+      "mark": {
+       "type": "text",
+       "style": "label",
+       "color": "@accent"
+      },
+      "encoding": {
+       "y": {
+        "datum": 6.2,
+        "type": "quantitative"
+       },
+       "text": {
+        "value": {
+         "de": "65 Prozent der Gewitter",
+         "en": "65 percent of the thunderstorms"
+        }
+       }
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "keywords": {
+  "de": [
+   "Wind",
+   "Windrichtung",
+   "Windrose",
+   "Gewitter",
+   "Gera",
+   "Hohenleuben",
+   "Schleiz",
+   "Rothenacker",
+   "Elstertal",
+   "Klima"
+  ],
+  "en": [
+   "wind",
+   "wind direction",
+   "wind rose",
+   "thunderstorm",
+   "Gera",
+   "Hohenleuben",
+   "Schleiz",
+   "Rothenacker",
+   "Elster valley",
+   "climate"
+  ]
+ },
+ "related": [
+  "klima-gera",
+  "klima-stationen",
+  "relief-hoehen"
+ ],
+ "generated_by": "Claude Sonnet 5.5 (Agent F2), aus 3 Einzelauswertungen zusammengeführt",
+ "date": "2026-10-02"
+}

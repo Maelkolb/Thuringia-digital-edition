@@ -1,0 +1,20 @@
+import fs from 'node:fs';
+import * as vl from 'file:///C:/Users/totom/Projects/reuss-edition/tools/node_modules/vega-lite/build/index.js';
+import * as vega from 'file:///C:/Users/totom/Projects/reuss-edition/tools/node_modules/vega/build/vega.module.js';
+import { Resvg } from 'file:///C:/Users/totom/Projects/reuss-edition/tools/node_modules/@resvg/resvg-js/index.js';
+import { theme, applyTokens } from 'file:///C:/Users/totom/Projects/reuss-edition/tools/vega_theme.mjs';
+import { rowsAsObjects } from 'file:///C:/Users/totom/Projects/reuss-edition/tools/validate_analysis.mjs';
+const [file, chartId, out, mode = 'dark', lang = 'de'] = process.argv.slice(2);
+const a = JSON.parse(fs.readFileSync(file, 'utf8'));
+const ch = a.charts.find((c) => c.id === chartId);
+const res = (n) => (Array.isArray(n) ? n.map(res) : n && typeof n === 'object' ? (Object.keys(n).length === 2 && 'de' in n && 'en' in n && typeof n.de === 'string' ? n[lang] : Object.fromEntries(Object.entries(n).map(([k, v]) => [k, res(v)]))) : n);
+const spec = applyTokens(res(structuredClone(ch.vegalite)), mode);
+const full = { $schema: 'https://vega.github.io/schema/vega-lite/v6.json', data: { name: ch.dataset }, width: 640, ...spec };
+const vg = vl.compile(full, { config: theme(mode) }).spec;
+const view = new vega.View(vega.parse(vg), { renderer: 'none' });
+for (const n of [ch.dataset, ...(ch.extra_datasets || [])]) { try { view.data(n, rowsAsObjects(a.datasets.find((d) => d.name === n))); } catch {} }
+await view.runAsync();
+const svg = (await view.toSVG()).replace(/<path\b[^>]*\sd=""[^>]*?(\/>|><\/path>)/g, '');
+const png = new Resvg(svg, { fitTo: { mode: 'width', value: 1100 }, background: mode === 'dark' ? '#1d1b18' : '#fbf8f1', font: { loadSystemFonts: true, defaultFontFamily: 'Segoe UI' } }).render().asPng();
+fs.writeFileSync(out, png);
+console.log('ok', out);

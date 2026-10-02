@@ -1,0 +1,78 @@
+====================================================================================================
+handel-gewerbe-nach-landesteilen-1864 t1-3-7 trade-transport
+TITLE Handel und Transport 1864: Gewerbe nach Landesteilen, Städten und Plattland
+SUMMARY Für das Jahr 1864 zählt Brückner die Handels- und Transportgewerbe in 15 Gruppen, getrennt nach Landesteilen, Städten und Plattland und jeweils nach Selbständigen, Gehilfen, Dienstboten und Familiengliedern. Insgesamt hängen 4.215 Personen an diesen Gewerben, davon 54,5 % im Landesteil Gera. Die Auswertung zeigt die Rangfolge der Gewerbe, ihre Verteilung auf die Landesteile und den Gegensatz von Stadt und Land.
+FIND Das zahlenmäßig größte Gewerbe sind die Schenk- und Gastwirte mit 230 Selbständigen und 1.402 Personen; von den Selbständigen sitzen 72,6 % auf dem Plattland. Es folgen Viktualienhändler (186), Sonstige Händler (125) und Kolonial- und Materialhändler (117 Selbständige).
+FIND Gera dominiert den Handel: 53,0 % der Selbständigen und 54,5 % aller Personen des Handels und Transports entfallen auf den Landesteil Gera (Schleiz 25,1 %, Lobenstein-Ebersdorf 20,4 %), in Übereinstimmung mit Brückners Rangfolge Gera – Schleiz – Lobenstein-Ebersdorf. Alle 5 Bankiers des Landes sitzen in Gera.
+FIND Auf dem Plattland dominieren Gewerbe der Landwirtschaft und des Gasthauswesens: 89,3 % der Viehhändler, 81,5 % der Holzhändler und 72,6 % der Wirte sitzen dort, dagegen alle Bankiers, Agenten und Spediteure sowie die Buchhändler fast ausschließlich in den Städten. Insgesamt entfallen 55,0 % der Personen auf die Städte.
+METHOD Die drei Landesteilstabellen (S. 258 b4, S. 259 b1) wurden für Städte und Plattland je Gewerbegruppe übernommen; ein Strich ist als leerer Wert kodiert, Verweiszeichen sind entfernt. Gewerbenamen sind ausgeschrieben (»Colon.- u. Materialhändl.« zu Kolonial- und Materialhändler). Summen und Anteile wurden aus den Zahlen für Städte und Plattland neu berechnet; die gedruckten Summenspalten und die Tabelle des Fürstentums (S. 260) dienten zur Kontrolle. Die Spalte persons ist S + G + D + F, sg = S + G.
+CAVEAT Im Druck stimmen einzelne Summen nicht (Faksimile S. 258–260 geprüft, die Transkription entspricht dem Druck): Kolonial- und Materialhändler im Landesteil Gera, Dienstboten, Summe 74 statt 47 (Stadt 39 + Plattland 8); Viehhändler Gera, Familienglieder, Summe 16 statt 17; ferner kleine Abweichungen in den Summenzeilen. Die Auswertung rechnet deshalb aus den Zahlen für Städte und Plattland und weicht bei den Summen um bis zu 8 Personen von den gedruckten ab (z. B. Selbständige im Fürstentum 957 statt gedruckt 951).
+CAVEAT Brückner bemerkt selbst, dass die für Gera ermittelten Zahlen der Agenten, Spediteure usw. und der Wirte in der Stadt »offenbar zu niedrig« sind (S. 258, Fußnote **); die Gesamtgröße des Handels sei nicht ausreichend erhoben. Ein Vergleich mit der Gewerbetabelle S. 253 ist wegen unterschiedlicher Zeit und Zuordnung nur eingeschränkt möglich (S. 258, Fußnote *).
+CAVEAT Die Zahlen sind Personen, nicht Betriebe oder Umsätze; Händler mit mehreren Geschäftszweigen können nur einer Gruppe angehören.
+CONV []
+TI null
+--DS handel Handel und Transport 1864 nach Gewerbe, Landesteil und Wohnort 90 [{'page': '258', 'block': 'b4', 'rows': 'r3-r17'}, {'page': '259', 'block': 'b1', 'rows': 'r4-r18'}, {'page': '259', 'block': 'b1', 'rows': 'r21-r35'}]
+  cols [('trade', 'string', None, ''), ('trade_en', 'string', None, 'D'), ('district', 'string', None, ''), ('area', 'string', None, ''), ('s', 'integer', 'Personen', ''), ('g', 'integer', 'Personen', ''), ('d', 'integer', 'Personen', ''), ('f', 'integer', 'Personen', ''), ('persons', 'integer', 'Personen', 'D'), ('sg', 'integer', 'Personen', 'D'), ('source', 'string', None, '')]
+    ['Colonial- und Materialhändler', 'Colonial and general-goods dealers', 'Gera', 'Städte', 41, 64, 39, 104, 248, 105, 'S. 258 b4 r3']
+    ['Colonial- und Materialhändler', 'Colonial and general-goods dealers', 'Gera', 'Plattland', 22, 6, 8, 52, 88, 28, 'S. 258 b4 r3']
+    ['Victualienhändler', 'Provisions dealers', 'Gera', 'Städte', 36, None, 2, 51, 89, 36, 'S. 258 b4 r4']
+    ['Victualienhändler', 'Provisions dealers', 'Gera', 'Plattland', 76, 1, None, 86, 163, 77, 'S. 258 b4 r4']
+    ['Getreidehändler', 'Grain dealers', 'Gera', 'Städte', 2, None, None, 6, 8, 2, 'S. 258 b4 r5']
+    ['Getreidehändler', 'Grain dealers', 'Gera', 'Plattland', 5, 1, None, 15, 21, 6, 'S. 258 b4 r5']
+    ['Viehhändler', 'Cattle dealers', 'Gera', 'Städte', None, None, None, 1, 1, 0, 'S. 258 b4 r6']
+    ['Viehhändler', 'Cattle dealers', 'Gera', 'Plattland', 5, None, 1, 16, 22, 5, 'S. 258 b4 r6']
+    ['Lederhändler', 'Leather dealers', 'Gera', 'Städte', 3, 1, 1, 8, 13, 4, 'S. 258 b4 r7']
+    ['Lederhändler', 'Leather dealers', 'Gera', 'Plattland', None, None, None, None, 0, 0, 'S. 258 b4 r7']
+    ['Schnitt-, Putz- und Modewaarenhändler', 'Drapers, millinery and fashion dealers', 'Gera', 'Städte', 28, 20, 12, 70, 130, 48, 'S. 258 b4 r8']
+    ['Schnitt-, Putz- und Modewaarenhändler', 'Drapers, millinery and fashion dealers', 'Gera', 'Plattland', None, None, None, None, 0, 0, 'S. 258 b4 r8']
+    ['Strumpf- und Zwirnhändler', 'Hosiery and thread dealers', 'Gera', 'Städte', 6, None, None, 4, 10, 6, 'S. 258 b4 r9']
+    ['Strumpf- und Zwirnhändler', 'Hosiery and thread dealers', 'Gera', 'Plattland', None, None, None, None, 0, 0, 'S. 258 b4 r9']
+    ['Galanteriewaarenhändler', 'Fancy-goods dealers', 'Gera', 'Städte', 10, 7, 9, 22, 48, 17, 'S. 258 b4 r10']
+    ['Galanteriewaarenhändler', 'Fancy-goods dealers', 'Gera', 'Plattland', 1, None, None, 2, 3, 1, 'S. 258 b4 r10']
+    ['Holzhändler', 'Timber dealers', 'Gera', 'Städte', 4, None, 2, 15, 21, 4, 'S. 258 b4 r11']
+    ['Holzhändler', 'Timber dealers', 'Gera', 'Plattland', 17, None, 5, 54, 76, 17, 'S. 258 b4 r11']
+    ['Buch-, Kunst- und Musikalienhändler', 'Book, art and music dealers', 'Gera', 'Städte', 10, 12, 11, 28, 61, 22, 'S. 258 b4 r12']
+    ['Buch-, Kunst- und Musikalienhändler', 'Book, art and music dealers', 'Gera', 'Plattland', None, None, None, None, 0, 0, 'S. 258 b4 r12']
+    ['Banquiers', 'Bankers', 'Gera', 'Städte', 5, 9, 13, 47, 74, 14, 'S. 258 b4 r13']
+    ['Banquiers', 'Bankers', 'Gera', 'Plattland', None, None, None, None, 0, 0, 'S. 258 b4 r13']
+    ['Agenten, Spediteurs, Mäkler und Commissionäre', 'Agents, forwarders, brokers and commission merchants', 'Gera', 'Städte', 32, 6, 20, 73, 131, 38, 'S. 258 b4 r14']
+    ['Agenten, Spediteurs, Mäkler und Commissionäre', 'Agents, forwarders, brokers and commission merchants', 'Gera', 'Plattland', None, None, None, None, 0, 0, 'S. 258 b4 r14']
+    ['Schenk- und Gastwirthe', 'Innkeepers and publicans', 'Gera', 'Städte', 33, 49, 74, 115, 271, 82, 'S. 258 b4 r15']
+    ['Schenk- und Gastwirthe', 'Innkeepers and publicans', 'Gera', 'Plattland', 67, 7, 82, 239, 395, 74, 'S. 258 b4 r15']
+    ['Miethkutscher und Frachtfuhrleute', 'Hackney coachmen and carriers', 'Gera', 'Städte', 26, 3, 11, 70, 110, 29, 'S. 258 b4 r16']
+    ['Miethkutscher und Frachtfuhrleute', 'Hackney coachmen and carriers', 'Gera', 'Plattland', 19, None, 9, 36, 64, 19, 'S. 258 b4 r16']
+    ['Sonstige Händler', 'Other dealers', 'Gera', 'Städte', 51, 38, 12, 88, 189, 89, 'S. 258 b4 r17']
+    ['Sonstige Händler', 'Other dealers', 'Gera', 'Plattland', 8, 6, 8, 39, 61, 14, 'S. 258 b4 r17']
+    ['Colonial- und Materialhändler', 'Colonial and general-goods dealers', 'Schleiz', 'Städte', 19, 14, 16, 49, 98, 33, 'S. 259 b1 r4']
+    ['Colonial- und Materialhändler', 'Colonial and general-goods dealers', 'Schleiz', 'Plattland', 11, 7, 6, 33, 57, 18, 'S. 259 b1 r4']
+    ['Victualienhändler', 'Provisions dealers', 'Schleiz', 'Städte', 25, None, 2, 16, 43, 25, 'S. 259 b1 r5']
+    ['Victualienhändler', 'Provisions dealers', 'Schleiz', 'Plattland', 8, None, None, 7, 15, 8, 'S. 259 b1 r5']
+    ['Getreidehändler', 'Grain dealers', 'Schleiz', 'Städte', None, None, None, None, 0, 0, 'S. 259 b1 r6']
+    ['Getreidehändler', 'Grain dealers', 'Schleiz', 'Plattland', None, None, None, None, 0, 0, 'S. 259 b1 r6']
+    ['Viehhändler', 'Cattle dealers', 'Schleiz', 'Städte', 3, None, None, 5, 8, 3, 'S. 259 b1 r7']
+    ['Viehhändler', 'Cattle dealers', 'Schleiz', 'Plattland', 17, 3, 3, 41, 64, 20, 'S. 259 b1 r7']
+    ['Lederhändler', 'Leather dealers', 'Schleiz', 'Städte', None, None, None, None, 0, 0, 'S. 259 b1 r8']
+    ['Lederhändler', 'Leather dealers', 'Schleiz', 'Plattland', None, None, None, None, 0, 0, 'S. 259 b1 r8']
+    ['Schnitt-, Putz- und Modewaarenhändler', 'Drapers, millinery and fashion dealers', 'Schleiz', 'Städte', 15, 6, 7, 44, 72, 21, 'S. 259 b1 r9']
+    ['Schnitt-, Putz- und Modewaarenhändler', 'Drapers, millinery and fashion dealers', 'Schleiz', 'Plattland', 5, 1, None, 6, 12, 6, 'S. 259 b1 r9']
+    ['Strumpf- und Zwirnhändler', 'Hosiery and thread dealers', 'Schleiz', 'Städte', 3, None, None, 3, 6, 3, 'S. 259 b1 r10']
+    ['Strumpf- und Zwirnhändler', 'Hosiery and thread dealers', 'Schleiz', 'Plattland', 1, None, None, None, 1, 1, 'S. 259 b1 r10']
+    ['Galanteriewaarenhändler', 'Fancy-goods dealers', 'Schleiz', 'Städte', 5, 3, 4, 10, 22, 8, 'S. 259 b1 r11']
+    ['Galanteriewaarenhändler', 'Fancy-goods dealers', 'Schleiz', 'Plattland', 2, 1, 1, 3, 7, 3, 'S. 259 b1 r11']
+    ['Holzhändler', 'Timber dealers', 'Schleiz', 'Städte', 1, None, None, 2, 3, 1, 'S. 259 b1 r12']
+    ['Holzhändler', 'Timber dealers', 'Schleiz', 'Plattland', 4, None, 1, 13, 18, 4, 'S. 259 b1 r12']
+    ['Buch-, Kunst- und Musikalienhändler', 'Book, art and music dealers', 'Schleiz', 'Städte', 1, 2, None, 3, 6, 3, 'S. 259 b1 r13']
+    ['Buch-, Kunst- und Musikalienhändler', 'Book, art and music dealers', 'Schleiz', 'Plattland', None, None, None, None, 0, 0, 'S. 259 b1 r13']
+    ['Banquiers', 'Bankers', 'Schleiz', 'Städte', None, None, None, None, 0, 0, 'S. 259 b1 r14']
+    ['Banquiers', 'Bankers', 'Schleiz', 'Plattland', None, None, None, None, 0, 0, 'S. 259 b1 r14']
+    ['Agenten, Spediteurs, Mäkler und Commissionäre', 'Agents, forwarders, brokers and commission merchants', 'Schleiz', 'Städte', 3, 1, 1, 3, 8, 4, 'S. 259 b1 r15']
+    ['Agenten, Spediteurs, Mäkler und Commissionäre', 'Agents, forwarders, brokers and commission merchants', 'Schleiz', 'Plattland', None, None, None, None, 0, 0, 'S. 259 b1 r15']
+    ['Schenk- und Gastwirthe', 'Innkeepers and publicans', 'Schleiz', 'Städte', 19, 3, 30, 64, 116, 22, 'S. 259 b1 r16']
+    ['Schenk- und Gastwirthe', 'Innkeepers and publicans', 'Schleiz', 'Plattland', 49, 4, 40, 151, 244, 53, 'S. 259 b1 r16']
+    ['Miethkutscher und Frachtfuhrleute', 'Hackney coachmen and carriers', 'Schleiz', 'Städte', 17, 1, 14, 52, 84, 18, 'S. 259 b1 r17']
+    ['Miethkutscher und Frachtfuhrleute', 'Hackney coachmen and carriers', 'Schleiz', 'Plattland', 5, None, 1, 17, 23, 5, 'S. 259 b1 r17']
+    ['Sonstige Händler', 'Other dealers', 'Schleiz', 'Städte', 22, 18, 12, 72, 124, 40, 'S. 259 b1 r18']
+    ['Sonstige Händler', 'Other dealers', 'Schleiz', 'Plattland', 14, 1, 1, 12, 28, 15, 'S. 259 b1 r18']
+--CHART c1 handel Selbständige im Handel und Transport nach Gewerbe
+--CHART c2 handel Selbständige nach Gewerbe und Landesteil
+--CHART c3 handel Personen im Handel und Transport nach Landesteil

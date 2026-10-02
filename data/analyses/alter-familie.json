@@ -1,0 +1,3468 @@
+{
+ "id": "alter-familie",
+ "title": {
+  "de": "Alter, Geschlecht und Familienstand 1864",
+  "en": "Age, sex and marital status in 1864"
+ },
+ "category": "population",
+ "section": "t1-2-1",
+ "merges": [
+  "bevoelkerung-altersaufbau-1864",
+  "bevoelkerung-familienstand-ehen-1864",
+  "bevoelkerung-geschlecht-alter-1834-1867",
+  "bevoelkerung-wanderung-1864-1867"
+ ],
+ "sources": [
+  {
+   "page": "101",
+   "block": "b1"
+  },
+  {
+   "page": "104",
+   "block": "b3"
+  },
+  {
+   "page": "105",
+   "block": "b3"
+  },
+  {
+   "page": "102",
+   "block": "b3"
+  },
+  {
+   "page": "103",
+   "block": "b3"
+  }
+ ],
+ "summary": {
+  "de": "Die Zählung von 1864 gliedert die 86.472 Einwohner nach Lebensjahren, Familienstand und Geburtsort. 32,9 Prozent waren bis 14 Jahre alt, 7,5 Prozent über 60. Auf 100 Männer kamen 104 Frauen. Von den über 60-Jährigen waren 60 Prozent der Männer, aber nur 33 Prozent der Frauen verheiratet. 69 Prozent lebten in ihrer Geburtsgemeinde.",
+  "en": "The census of 1864 classifies the 86,472 inhabitants by year of life, marital status and place of birth. 32.9 percent were up to 14 years old, 7.5 percent over 60. There were 104 women to 100 men. Over 60, 60 percent of the men but only 33 percent of the women were married. 69 percent lived in their municipality of birth."
+ },
+ "findings": [
+  {
+   "de": "Brückner rechnet 32,9 Prozent zur Jugend, 59,6 Prozent zum schaffenden Alter und 7,5 Prozent zum Greisenalter. Das erste Lebensjahr zählt 2.436 Personen; auf 100 Männer kommen 103,9 Frauen.",
+   "en": "Brückner assigns 32.9 percent to youth, 59.6 percent to working age and 7.5 percent to old age. The first year of life counts 2,436 persons; there are 103.9 women to 100 men."
+  },
+  {
+   "de": "In jeder Altersklasse waren mehr Männer als Frauen verheiratet (über 60: 60,0 gegenüber 32,8 Prozent). 1864 gab es 3.382 Witwen und 1.486 Witwer; Brückner nennt auch die leichtere Wiederheirat der Witwer.",
+   "en": "In every age group more men than women were married (over 60: 60.0 against 32.8 percent). In 1864 there were 3,382 widows and 1,486 widowers; Brückner also cites the easier remarriage of widowers."
+  },
+  {
+   "de": "Am sesshaftesten war Lobenstein-Ebersdorf (75,89 Prozent in der Geburtsgemeinde), am beweglichsten der Bezirk Gera (63,15). Insgesamt waren 14,5 Prozent der Einwohner auswärts geboren.",
+   "en": "Lobenstein-Ebersdorf was the most settled (75.89 percent in their municipality of birth), the district of Gera the most mobile (63.15). Overall 14.5 percent of the inhabitants were born elsewhere."
+  }
+ ],
+ "method": {
+  "de": "Die Bevölkerung nach Lebensjahren und Geschlecht stammt aus der Tabelle S. 101 (Lebensjahre 1 bis 90). Die drei Altersklassen und ihre Anteile (Brückners »Procente«, die Promille der Gesamtbevölkerung sind) stehen auf S. 102. Der Familienstand (Zählung nach Geschlecht, Bezirk, Städten und Dörfern, S. 103) und die Verheirateten nach Altersklassen (S. 104) wurden unverändert übernommen, ebenso die Bevölkerung nach Geburtsort (S. 105). Im ersten Diagramm ist Brückners Lebensjahr 1 vermutlich das erste Lebensjahr, also das Alter von null bis unter einem Jahr; der Balken eines Lebensjahrs reicht deshalb von n minus 1 bis n. Die Altersklasse »bis 14 Jahre« umfasst die Lebensjahre 1 bis 14. Die Zahl der Frauen auf 100 Männer wurde aus den Einzeljahren (Lebensjahre 1 bis 90) berechnet; die Einzeljahre ergeben nicht ganz Brückners Altersklassensummen, weil er 143 Personen ohne Altersangabe und 6 über 90 Jahre getrennt führt. Die Prozentzahlen der Verheirateten sind die gedruckten; für Männer liegen den Klassen vermutlich die Lebensjahre ab 25, für Frauen ab 17 zugrunde. Nicht verwendet wurden die Altersaufbau-Abweichungen, Staatenvergleiche, die Altersunterschiede der Ehepartner, die Entwicklung des Frauenüberschusses 1834 bis 1867 und die Auswanderung 1867; sie stehen in den Einzelauswertungen.",
+  "en": "The population by year of life and sex comes from the table on p. 101 (years of life 1 to 90). The three age classes and their shares (Brückner’s “Procente”, which are per mille of the total population) are on p. 102. Marital status (census by sex, district, towns and villages, p. 103) and the married by age group (p. 104) were taken over unchanged, as was the population by place of birth (p. 105). In the first chart Brückner’s year of life 1 is presumably the first year of life, that is the age from zero to under one; the bar of a year of life therefore runs from n minus 1 to n. The age class “up to 14 years” covers the years of life 1 to 14. The number of women per 100 men was computed from the single years (years of life 1 to 90); the single years do not quite add up to Brückner’s class totals because he lists 143 persons of unknown age and 6 over 90 separately. The percentages of the married are the printed ones; for men the classes presumably rest on the years of life from 25, for women from 17. Not used are the deviations of the age profile, comparisons of states, the age differences of spouses, the development of the surplus of women 1834 to 1867 and the emigration of 1867; they are in the single analyses."
+ },
+ "caveats": [
+  {
+   "de": "Die Altersklassen auf S. 102 lassen sich aus der Einzeljahrtabelle nicht genau nachrechnen: Brückner verteilt offenbar die 143 Personen ohne Altersangabe auf die Klassen. Die Geschlechtersummen weichen je nach Tabelle um etwa 25 Personen ab.",
+   "en": "The age classes on p. 102 cannot be reproduced exactly from the single-year table: Brückner evidently distributes the 143 persons of unknown age over the classes. The totals by sex differ by about 25 persons between tables."
+  },
+  {
+   "de": "Der gezackte Altersaufbau (die Lebensjahre 31, 41 und 61 sind überbesetzt, 32, 42, 52 und 62 unterbesetzt) deutet eher auf ungenaue, gerundete Altersangaben als auf wirkliche Geburtenschwankungen. Brückner kommentiert das nicht.",
+   "en": "The jagged age profile (years of life 31, 41 and 61 are overfull, 32, 42, 52 and 62 underfull) points to inexact, rounded ages rather than real fluctuations in births. Brückner does not comment on it."
+  },
+  {
+   "de": "Bei den Verheirateten nach Alter nennt Brückner den Nenner nicht; die Klasse »unter 30« ist bei Männern und Frauen vermutlich unterschiedlich abgegrenzt. Die Zahl der verheirateten Männer (14.433) und Frauen (14.395) ist nicht gleich, die Ehepaare werden mit 13.945 angegeben.",
+   "en": "For the married by age Brückner does not state the denominator; the class “under 30” is presumably delimited differently for men and women. The numbers of married men (14,433) and women (14,395) are not equal, and the couples are given as 13,945."
+  },
+  {
+   "de": "Die Angaben zum Geburtsort sind ein Bestand (Bevölkerung 1864), keine Zuwanderung eines Jahres. Für Lobenstein-Ebersdorf, Plattland, ergeben die drei gedruckten Prozentzahlen 101; die Zahlen führen auf 10,24 statt 11,23 Prozent auswärts Geborene.",
+   "en": "The information on place of birth is a stock (population in 1864), not immigration in a given year. For Lobenstein-Ebersdorf, rural area, the three printed percentages add up to 101; the numbers give 10.24 instead of 11.23 percent born elsewhere."
+  }
+ ],
+ "datasets": [
+  {
+   "name": "single_years",
+   "title": {
+    "de": "Bevölkerung 1864 nach Lebensjahren und Geschlecht",
+    "en": "Population in 1864 by year of life and sex"
+   },
+   "columns": [
+    {
+     "name": "age",
+     "label": {
+      "de": "Lebensjahr",
+      "en": "Year of life"
+     },
+     "type": "integer",
+     "unit": null
+    },
+    {
+     "name": "sex",
+     "label": {
+      "de": "Geschlecht",
+      "en": "Sex"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "persons",
+     "label": {
+      "de": "Personen",
+      "en": "Persons"
+     },
+     "type": "integer",
+     "unit": "Personen"
+    }
+   ],
+   "rows": [
+    [
+     1,
+     "männlich",
+     1199
+    ],
+    [
+     1,
+     "weiblich",
+     1237
+    ],
+    [
+     2,
+     "männlich",
+     1132
+    ],
+    [
+     2,
+     "weiblich",
+     1100
+    ],
+    [
+     3,
+     "männlich",
+     1131
+    ],
+    [
+     3,
+     "weiblich",
+     1109
+    ],
+    [
+     4,
+     "männlich",
+     1030
+    ],
+    [
+     4,
+     "weiblich",
+     1132
+    ],
+    [
+     5,
+     "männlich",
+     1056
+    ],
+    [
+     5,
+     "weiblich",
+     1066
+    ],
+    [
+     6,
+     "männlich",
+     1100
+    ],
+    [
+     6,
+     "weiblich",
+     1047
+    ],
+    [
+     7,
+     "männlich",
+     965
+    ],
+    [
+     7,
+     "weiblich",
+     987
+    ],
+    [
+     8,
+     "männlich",
+     956
+    ],
+    [
+     8,
+     "weiblich",
+     1044
+    ],
+    [
+     9,
+     "männlich",
+     905
+    ],
+    [
+     9,
+     "weiblich",
+     999
+    ],
+    [
+     10,
+     "männlich",
+     909
+    ],
+    [
+     10,
+     "weiblich",
+     844
+    ],
+    [
+     11,
+     "männlich",
+     963
+    ],
+    [
+     11,
+     "weiblich",
+     931
+    ],
+    [
+     12,
+     "männlich",
+     973
+    ],
+    [
+     12,
+     "weiblich",
+     957
+    ],
+    [
+     13,
+     "männlich",
+     940
+    ],
+    [
+     13,
+     "weiblich",
+     860
+    ],
+    [
+     14,
+     "männlich",
+     924
+    ],
+    [
+     14,
+     "weiblich",
+     884
+    ],
+    [
+     15,
+     "männlich",
+     886
+    ],
+    [
+     15,
+     "weiblich",
+     840
+    ],
+    [
+     16,
+     "männlich",
+     925
+    ],
+    [
+     16,
+     "weiblich",
+     976
+    ],
+    [
+     17,
+     "männlich",
+     872
+    ],
+    [
+     17,
+     "weiblich",
+     871
+    ],
+    [
+     18,
+     "männlich",
+     908
+    ],
+    [
+     18,
+     "weiblich",
+     906
+    ],
+    [
+     19,
+     "männlich",
+     755
+    ],
+    [
+     19,
+     "weiblich",
+     795
+    ],
+    [
+     20,
+     "männlich",
+     709
+    ],
+    [
+     20,
+     "weiblich",
+     676
+    ],
+    [
+     21,
+     "männlich",
+     658
+    ],
+    [
+     21,
+     "weiblich",
+     787
+    ],
+    [
+     22,
+     "männlich",
+     682
+    ],
+    [
+     22,
+     "weiblich",
+     646
+    ],
+    [
+     23,
+     "männlich",
+     722
+    ],
+    [
+     23,
+     "weiblich",
+     792
+    ],
+    [
+     24,
+     "männlich",
+     661
+    ],
+    [
+     24,
+     "weiblich",
+     754
+    ],
+    [
+     25,
+     "männlich",
+     641
+    ],
+    [
+     25,
+     "weiblich",
+     749
+    ],
+    [
+     26,
+     "männlich",
+     652
+    ],
+    [
+     26,
+     "weiblich",
+     659
+    ],
+    [
+     27,
+     "männlich",
+     654
+    ],
+    [
+     27,
+     "weiblich",
+     671
+    ],
+    [
+     28,
+     "männlich",
+     625
+    ],
+    [
+     28,
+     "weiblich",
+     624
+    ],
+    [
+     29,
+     "männlich",
+     698
+    ],
+    [
+     29,
+     "weiblich",
+     720
+    ],
+    [
+     30,
+     "männlich",
+     586
+    ],
+    [
+     30,
+     "weiblich",
+     592
+    ],
+    [
+     31,
+     "männlich",
+     687
+    ],
+    [
+     31,
+     "weiblich",
+     754
+    ],
+    [
+     32,
+     "männlich",
+     482
+    ],
+    [
+     32,
+     "weiblich",
+     498
+    ],
+    [
+     33,
+     "männlich",
+     577
+    ],
+    [
+     33,
+     "weiblich",
+     611
+    ],
+    [
+     34,
+     "männlich",
+     499
+    ],
+    [
+     34,
+     "weiblich",
+     600
+    ],
+    [
+     35,
+     "männlich",
+     635
+    ],
+    [
+     35,
+     "weiblich",
+     594
+    ],
+    [
+     36,
+     "männlich",
+     475
+    ],
+    [
+     36,
+     "weiblich",
+     461
+    ],
+    [
+     37,
+     "männlich",
+     578
+    ],
+    [
+     37,
+     "weiblich",
+     583
+    ],
+    [
+     38,
+     "männlich",
+     477
+    ],
+    [
+     38,
+     "weiblich",
+     496
+    ],
+    [
+     39,
+     "männlich",
+     581
+    ],
+    [
+     39,
+     "weiblich",
+     577
+    ],
+    [
+     40,
+     "männlich",
+     493
+    ],
+    [
+     40,
+     "weiblich",
+     507
+    ],
+    [
+     41,
+     "männlich",
+     616
+    ],
+    [
+     41,
+     "weiblich",
+     605
+    ],
+    [
+     42,
+     "männlich",
+     437
+    ],
+    [
+     42,
+     "weiblich",
+     383
+    ],
+    [
+     43,
+     "männlich",
+     482
+    ],
+    [
+     43,
+     "weiblich",
+     555
+    ],
+    [
+     44,
+     "männlich",
+     477
+    ],
+    [
+     44,
+     "weiblich",
+     565
+    ],
+    [
+     45,
+     "männlich",
+     545
+    ],
+    [
+     45,
+     "weiblich",
+     581
+    ],
+    [
+     46,
+     "männlich",
+     558
+    ],
+    [
+     46,
+     "weiblich",
+     509
+    ],
+    [
+     47,
+     "männlich",
+     411
+    ],
+    [
+     47,
+     "weiblich",
+     423
+    ],
+    [
+     48,
+     "männlich",
+     403
+    ],
+    [
+     48,
+     "weiblich",
+     402
+    ],
+    [
+     49,
+     "männlich",
+     467
+    ],
+    [
+     49,
+     "weiblich",
+     462
+    ],
+    [
+     50,
+     "männlich",
+     384
+    ],
+    [
+     50,
+     "weiblich",
+     450
+    ],
+    [
+     51,
+     "männlich",
+     425
+    ],
+    [
+     51,
+     "weiblich",
+     431
+    ],
+    [
+     52,
+     "männlich",
+     290
+    ],
+    [
+     52,
+     "weiblich",
+     343
+    ],
+    [
+     53,
+     "männlich",
+     371
+    ],
+    [
+     53,
+     "weiblich",
+     415
+    ],
+    [
+     54,
+     "männlich",
+     331
+    ],
+    [
+     54,
+     "weiblich",
+     393
+    ],
+    [
+     55,
+     "männlich",
+     379
+    ],
+    [
+     55,
+     "weiblich",
+     435
+    ],
+    [
+     56,
+     "männlich",
+     285
+    ],
+    [
+     56,
+     "weiblich",
+     346
+    ],
+    [
+     57,
+     "männlich",
+     335
+    ],
+    [
+     57,
+     "weiblich",
+     398
+    ],
+    [
+     58,
+     "männlich",
+     262
+    ],
+    [
+     58,
+     "weiblich",
+     300
+    ],
+    [
+     59,
+     "männlich",
+     288
+    ],
+    [
+     59,
+     "weiblich",
+     345
+    ],
+    [
+     60,
+     "männlich",
+     272
+    ],
+    [
+     60,
+     "weiblich",
+     279
+    ],
+    [
+     61,
+     "männlich",
+     323
+    ],
+    [
+     61,
+     "weiblich",
+     365
+    ],
+    [
+     62,
+     "männlich",
+     202
+    ],
+    [
+     62,
+     "weiblich",
+     248
+    ],
+    [
+     63,
+     "männlich",
+     240
+    ],
+    [
+     63,
+     "weiblich",
+     253
+    ],
+    [
+     64,
+     "männlich",
+     248
+    ],
+    [
+     64,
+     "weiblich",
+     253
+    ],
+    [
+     65,
+     "männlich",
+     299
+    ],
+    [
+     65,
+     "weiblich",
+     414
+    ],
+    [
+     66,
+     "männlich",
+     196
+    ],
+    [
+     66,
+     "weiblich",
+     193
+    ],
+    [
+     67,
+     "männlich",
+     171
+    ],
+    [
+     67,
+     "weiblich",
+     180
+    ],
+    [
+     68,
+     "männlich",
+     141
+    ],
+    [
+     68,
+     "weiblich",
+     159
+    ],
+    [
+     69,
+     "männlich",
+     135
+    ],
+    [
+     69,
+     "weiblich",
+     182
+    ],
+    [
+     70,
+     "männlich",
+     124
+    ],
+    [
+     70,
+     "weiblich",
+     138
+    ],
+    [
+     71,
+     "männlich",
+     117
+    ],
+    [
+     71,
+     "weiblich",
+     151
+    ],
+    [
+     72,
+     "männlich",
+     88
+    ],
+    [
+     72,
+     "weiblich",
+     111
+    ],
+    [
+     73,
+     "männlich",
+     133
+    ],
+    [
+     73,
+     "weiblich",
+     137
+    ],
+    [
+     74,
+     "männlich",
+     97
+    ],
+    [
+     74,
+     "weiblich",
+     113
+    ],
+    [
+     75,
+     "männlich",
+     93
+    ],
+    [
+     75,
+     "weiblich",
+     118
+    ],
+    [
+     76,
+     "männlich",
+     82
+    ],
+    [
+     76,
+     "weiblich",
+     80
+    ],
+    [
+     77,
+     "männlich",
+     72
+    ],
+    [
+     77,
+     "weiblich",
+     69
+    ],
+    [
+     78,
+     "männlich",
+     36
+    ],
+    [
+     78,
+     "weiblich",
+     38
+    ],
+    [
+     79,
+     "männlich",
+     52
+    ],
+    [
+     79,
+     "weiblich",
+     53
+    ],
+    [
+     80,
+     "männlich",
+     43
+    ],
+    [
+     80,
+     "weiblich",
+     35
+    ],
+    [
+     81,
+     "männlich",
+     26
+    ],
+    [
+     81,
+     "weiblich",
+     29
+    ],
+    [
+     82,
+     "männlich",
+     24
+    ],
+    [
+     82,
+     "weiblich",
+     25
+    ],
+    [
+     83,
+     "männlich",
+     15
+    ],
+    [
+     83,
+     "weiblich",
+     23
+    ],
+    [
+     84,
+     "männlich",
+     12
+    ],
+    [
+     84,
+     "weiblich",
+     24
+    ],
+    [
+     85,
+     "männlich",
+     21
+    ],
+    [
+     85,
+     "weiblich",
+     14
+    ],
+    [
+     86,
+     "männlich",
+     11
+    ],
+    [
+     86,
+     "weiblich",
+     7
+    ],
+    [
+     87,
+     "männlich",
+     4
+    ],
+    [
+     87,
+     "weiblich",
+     10
+    ],
+    [
+     88,
+     "männlich",
+     6
+    ],
+    [
+     88,
+     "weiblich",
+     3
+    ],
+    [
+     89,
+     "männlich",
+     3
+    ],
+    [
+     89,
+     "weiblich",
+     3
+    ],
+    [
+     90,
+     "männlich",
+     1
+    ],
+    [
+     90,
+     "weiblich",
+     4
+    ]
+   ],
+   "source_refs": [
+    {
+     "page": "101",
+     "block": "b1",
+     "rows": "r2-r47"
+    }
+   ]
+  },
+  {
+   "name": "married_by_age",
+   "title": {
+    "de": "Verheiratete nach Altersklassen 1864",
+    "en": "Married persons by age class, 1864"
+   },
+   "columns": [
+    {
+     "name": "area",
+     "label": {
+      "de": "Gebiet",
+      "en": "Area"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "sex",
+     "label": {
+      "de": "Geschlecht",
+      "en": "Sex"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "age_class",
+     "label": {
+      "de": "Altersklasse",
+      "en": "Age class"
+     },
+     "type": "string",
+     "unit": null,
+     "note": "unter 30, 30–45, 45–60, über 60 Jahre"
+    },
+    {
+     "name": "married",
+     "label": {
+      "de": "Verheiratete (absolut)",
+      "en": "Married (absolute)"
+     },
+     "type": "integer",
+     "unit": "Personen"
+    },
+    {
+     "name": "share_pct",
+     "label": {
+      "de": "Verheiratete (Prozent, gedruckt)",
+      "en": "Married (percent, printed)"
+     },
+     "type": "number",
+     "unit": "%"
+    }
+   ],
+   "rows": [
+    [
+     "Städte",
+     "männlich",
+     "unter 30",
+     466,
+     35.6
+    ],
+    [
+     "Städte",
+     "weiblich",
+     "unter 30",
+     844,
+     25.55
+    ],
+    [
+     "Städte",
+     "männlich",
+     "30–45",
+     1927,
+     74.06
+    ],
+    [
+     "Städte",
+     "weiblich",
+     "30–45",
+     1977,
+     72.1
+    ],
+    [
+     "Städte",
+     "männlich",
+     "45–60",
+     1387,
+     79.12
+    ],
+    [
+     "Städte",
+     "weiblich",
+     "45–60",
+     1178,
+     62.89
+    ],
+    [
+     "Städte",
+     "männlich",
+     "über 60",
+     560,
+     60.48
+    ],
+    [
+     "Städte",
+     "weiblich",
+     "über 60",
+     341,
+     31.08
+    ],
+    [
+     "Dörfer",
+     "männlich",
+     "unter 30",
+     1050,
+     41.22
+    ],
+    [
+     "Dörfer",
+     "weiblich",
+     "unter 30",
+     1874,
+     27.01
+    ],
+    [
+     "Dörfer",
+     "männlich",
+     "30–45",
+     4257,
+     78.27
+    ],
+    [
+     "Dörfer",
+     "weiblich",
+     "30–45",
+     4277,
+     75.99
+    ],
+    [
+     "Dörfer",
+     "männlich",
+     "45–60",
+     3048,
+     82.2
+    ],
+    [
+     "Dörfer",
+     "weiblich",
+     "45–60",
+     2669,
+     63.31
+    ],
+    [
+     "Dörfer",
+     "männlich",
+     "über 60",
+     1250,
+     59.81
+    ],
+    [
+     "Dörfer",
+     "weiblich",
+     "über 60",
+     785,
+     33.55
+    ],
+    [
+     "Fürstentum",
+     "männlich",
+     "unter 30",
+     1516,
+     39.32
+    ],
+    [
+     "Fürstentum",
+     "weiblich",
+     "unter 30",
+     2718,
+     26.54
+    ],
+    [
+     "Fürstentum",
+     "männlich",
+     "30–45",
+     6184,
+     76.91
+    ],
+    [
+     "Fürstentum",
+     "weiblich",
+     "30–45",
+     6254,
+     74.72
+    ],
+    [
+     "Fürstentum",
+     "männlich",
+     "45–60",
+     4435,
+     81.21
+    ],
+    [
+     "Fürstentum",
+     "weiblich",
+     "45–60",
+     3847,
+     64.86
+    ],
+    [
+     "Fürstentum",
+     "männlich",
+     "über 60",
+     1810,
+     60.01
+    ],
+    [
+     "Fürstentum",
+     "weiblich",
+     "über 60",
+     1126,
+     32.76
+    ]
+   ],
+   "source_refs": [
+    {
+     "page": "104",
+     "block": "b3",
+     "rows": "r3-r9"
+    }
+   ]
+  },
+  {
+   "name": "birthplace",
+   "title": {
+    "de": "Bevölkerung 1864 nach Geburtsort",
+    "en": "Population in 1864 by place of birth"
+   },
+   "columns": [
+    {
+     "name": "district",
+     "label": {
+      "de": "Landesteil",
+      "en": "District"
+     },
+     "type": "string",
+     "unit": null,
+     "note": "„Reuß j. L.“ = Fürstenthum insgesamt"
+    },
+    {
+     "name": "area",
+     "label": {
+      "de": "Gebiet",
+      "en": "Area"
+     },
+     "type": "string",
+     "unit": null,
+     "note": "Städte / Landorte (Plattland) / Zusammen (Summe)"
+    },
+    {
+     "name": "origin",
+     "label": {
+      "de": "Geburtsort",
+      "en": "Place of birth"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "persons",
+     "label": {
+      "de": "Personen",
+      "en": "Persons"
+     },
+     "type": "integer",
+     "unit": "Personen"
+    },
+    {
+     "name": "pct",
+     "label": {
+      "de": "Prozent der Bevölkerung",
+      "en": "Percent of the population"
+     },
+     "type": "number",
+     "unit": "%"
+    }
+   ],
+   "rows": [
+    [
+     "Gera",
+     "Städte",
+     "Geburtsgemeinde",
+     10016,
+     65.2
+    ],
+    [
+     "Gera",
+     "Städte",
+     "andere Gemeinde",
+     2128,
+     13.85
+    ],
+    [
+     "Gera",
+     "Städte",
+     "auswärts",
+     3219,
+     20.95
+    ],
+    [
+     "Gera",
+     "Landorte",
+     "Geburtsgemeinde",
+     13221,
+     61.68
+    ],
+    [
+     "Gera",
+     "Landorte",
+     "andere Gemeinde",
+     4453,
+     20.77
+    ],
+    [
+     "Gera",
+     "Landorte",
+     "auswärts",
+     3761,
+     17.55
+    ],
+    [
+     "Gera",
+     "Zusammen",
+     "Geburtsgemeinde",
+     23237,
+     63.15
+    ],
+    [
+     "Gera",
+     "Zusammen",
+     "andere Gemeinde",
+     6581,
+     17.88
+    ],
+    [
+     "Gera",
+     "Zusammen",
+     "auswärts",
+     6980,
+     18.97
+    ],
+    [
+     "Schleiz",
+     "Städte",
+     "Geburtsgemeinde",
+     5719,
+     73.12
+    ],
+    [
+     "Schleiz",
+     "Städte",
+     "andere Gemeinde",
+     1188,
+     15.19
+    ],
+    [
+     "Schleiz",
+     "Städte",
+     "auswärts",
+     914,
+     11.69
+    ],
+    [
+     "Schleiz",
+     "Landorte",
+     "Geburtsgemeinde",
+     14007,
+     72.37
+    ],
+    [
+     "Schleiz",
+     "Landorte",
+     "andere Gemeinde",
+     3004,
+     15.52
+    ],
+    [
+     "Schleiz",
+     "Landorte",
+     "auswärts",
+     2343,
+     12.11
+    ],
+    [
+     "Schleiz",
+     "Zusammen",
+     "Geburtsgemeinde",
+     19726,
+     72.59
+    ],
+    [
+     "Schleiz",
+     "Zusammen",
+     "andere Gemeinde",
+     4192,
+     15.43
+    ],
+    [
+     "Schleiz",
+     "Zusammen",
+     "auswärts",
+     3257,
+     11.98
+    ],
+    [
+     "Lobenstein-Ebersdorf",
+     "Städte",
+     "Geburtsgemeinde",
+     3613,
+     78.34
+    ],
+    [
+     "Lobenstein-Ebersdorf",
+     "Städte",
+     "andere Gemeinde",
+     548,
+     11.89
+    ],
+    [
+     "Lobenstein-Ebersdorf",
+     "Städte",
+     "auswärts",
+     451,
+     9.76
+    ],
+    [
+     "Lobenstein-Ebersdorf",
+     "Landorte",
+     "Geburtsgemeinde",
+     13461,
+     75.26
+    ],
+    [
+     "Lobenstein-Ebersdorf",
+     "Landorte",
+     "andere Gemeinde",
+     2595,
+     14.51
+    ],
+    [
+     "Lobenstein-Ebersdorf",
+     "Landorte",
+     "auswärts",
+     1831,
+     11.23
+    ],
+    [
+     "Lobenstein-Ebersdorf",
+     "Zusammen",
+     "Geburtsgemeinde",
+     17074,
+     75.89
+    ],
+    [
+     "Lobenstein-Ebersdorf",
+     "Zusammen",
+     "andere Gemeinde",
+     3143,
+     13.97
+    ],
+    [
+     "Lobenstein-Ebersdorf",
+     "Zusammen",
+     "auswärts",
+     2282,
+     10.14
+    ],
+    [
+     "Reuß j. L.",
+     "Städte",
+     "Geburtsgemeinde",
+     19348,
+     69.61
+    ],
+    [
+     "Reuß j. L.",
+     "Städte",
+     "andere Gemeinde",
+     3864,
+     13.9
+    ],
+    [
+     "Reuß j. L.",
+     "Städte",
+     "auswärts",
+     4584,
+     16.49
+    ],
+    [
+     "Reuß j. L.",
+     "Landorte",
+     "Geburtsgemeinde",
+     40689,
+     69.34
+    ],
+    [
+     "Reuß j. L.",
+     "Landorte",
+     "andere Gemeinde",
+     10052,
+     17.13
+    ],
+    [
+     "Reuß j. L.",
+     "Landorte",
+     "auswärts",
+     7935,
+     13.53
+    ],
+    [
+     "Reuß j. L.",
+     "Zusammen",
+     "Geburtsgemeinde",
+     60037,
+     69.43
+    ],
+    [
+     "Reuß j. L.",
+     "Zusammen",
+     "andere Gemeinde",
+     13916,
+     16.09
+    ],
+    [
+     "Reuß j. L.",
+     "Zusammen",
+     "auswärts",
+     12519,
+     14.48
+    ]
+   ],
+   "source_refs": [
+    {
+     "page": "105",
+     "block": "b3",
+     "rows": "r2-r13"
+    }
+   ]
+  },
+  {
+   "name": "age_classes_econ",
+   "title": {
+    "de": "Altersklassen nach Brückner, mit S.-Weimar und Württemberg",
+    "en": "Brückner’s age classes, with Saxe-Weimar and Württemberg"
+   },
+   "columns": [
+    {
+     "name": "region",
+     "label": {
+      "de": "Gebiet",
+      "en": "Region"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "age_class",
+     "label": {
+      "de": "Altersklasse",
+      "en": "Age class"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "male",
+     "label": {
+      "de": "Männlich",
+      "en": "Male"
+     },
+     "type": "integer",
+     "unit": "Personen"
+    },
+    {
+     "name": "female",
+     "label": {
+      "de": "Weiblich",
+      "en": "Female"
+     },
+     "type": "integer",
+     "unit": "Personen"
+    },
+    {
+     "name": "total",
+     "label": {
+      "de": "Zusammen",
+      "en": "Total"
+     },
+     "type": "integer",
+     "unit": "Personen"
+    },
+    {
+     "name": "permille_male",
+     "label": {
+      "de": "Promille der Gesamtbevölkerung, männlich",
+      "en": "Per mille of the total population, male"
+     },
+     "type": "number",
+     "unit": "‰"
+    },
+    {
+     "name": "permille_female",
+     "label": {
+      "de": "Promille der Gesamtbevölkerung, weiblich",
+      "en": "Per mille of the total population, female"
+     },
+     "type": "number",
+     "unit": "‰"
+    },
+    {
+     "name": "permille_total",
+     "label": {
+      "de": "Promille der Gesamtbevölkerung, zusammen",
+      "en": "Per mille of the total population, total"
+     },
+     "type": "number",
+     "unit": "‰"
+    }
+   ],
+   "rows": [
+    [
+     "Reuß j. L. (1864)",
+     "Jugend (0–14 Jahre)",
+     14254,
+     14215,
+     28469,
+     164.84,
+     164.39,
+     329.23
+    ],
+    [
+     "Reuß j. L. (1864)",
+     "Schaffendes Alter (15–60 Jahre)",
+     25165,
+     26385,
+     51550,
+     291.02,
+     305.12,
+     596.14
+    ],
+    [
+     "Reuß j. L. (1864)",
+     "Greisenalter (über 60 Jahre)",
+     3016,
+     3437,
+     6453,
+     34.88,
+     39.75,
+     74.63
+    ],
+    [
+     "S.-Weimar",
+     "Jugend (0–14 Jahre)",
+     null,
+     null,
+     null,
+     164.2,
+     163.8,
+     328.0
+    ],
+    [
+     "S.-Weimar",
+     "Schaffendes Alter (15–60 Jahre)",
+     null,
+     null,
+     null,
+     281.8,
+     300.0,
+     581.8
+    ],
+    [
+     "S.-Weimar",
+     "Greisenalter (über 60 Jahre)",
+     null,
+     null,
+     null,
+     44.3,
+     44.7,
+     89.0
+    ],
+    [
+     "Württemberg",
+     "Jugend (0–14 Jahre)",
+     null,
+     null,
+     null,
+     147.9,
+     153.7,
+     301.6
+    ],
+    [
+     "Württemberg",
+     "Schaffendes Alter (15–60 Jahre)",
+     null,
+     null,
+     null,
+     292.0,
+     320.7,
+     612.7
+    ],
+    [
+     "Württemberg",
+     "Greisenalter (über 60 Jahre)",
+     null,
+     null,
+     null,
+     42.5,
+     43.2,
+     85.7
+    ]
+   ],
+   "source_refs": [
+    {
+     "page": "102",
+     "block": "b3",
+     "rows": "r4-r6"
+    }
+   ]
+  },
+  {
+   "name": "civil_counts",
+   "title": {
+    "de": "Familienstand 1864 nach Gebieten (Zählung)",
+    "en": "Marital status in 1864 by area (count)"
+   },
+   "columns": [
+    {
+     "name": "district",
+     "label": {
+      "de": "Landesteil",
+      "en": "District"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "settlement",
+     "label": {
+      "de": "Gebiet",
+      "en": "Area"
+     },
+     "type": "string",
+     "unit": null,
+     "note": "Städte, Dörfer oder Landestheil/insgesamt"
+    },
+    {
+     "name": "sex",
+     "label": {
+      "de": "Geschlecht",
+      "en": "Sex"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "status",
+     "label": {
+      "de": "Familienstand",
+      "en": "Marital status"
+     },
+     "type": "string",
+     "unit": null,
+     "note": "unverheiratet, verheiratet, verwitwet, geschieden"
+    },
+    {
+     "name": "persons",
+     "label": {
+      "de": "Personen",
+      "en": "Persons"
+     },
+     "type": "integer",
+     "unit": "Personen"
+    }
+   ],
+   "rows": [
+    [
+     "Gera",
+     "Städte",
+     "männlich",
+     "unverheiratet",
+     5220
+    ],
+    [
+     "Gera",
+     "Städte",
+     "weiblich",
+     "unverheiratet",
+     4570
+    ],
+    [
+     "Gera",
+     "Städte",
+     "männlich",
+     "verheiratet",
+     2399
+    ],
+    [
+     "Gera",
+     "Städte",
+     "weiblich",
+     "verheiratet",
+     2357
+    ],
+    [
+     "Gera",
+     "Städte",
+     "männlich",
+     "verwitwet",
+     200
+    ],
+    [
+     "Gera",
+     "Städte",
+     "weiblich",
+     "verwitwet",
+     557
+    ],
+    [
+     "Gera",
+     "Städte",
+     "männlich",
+     "geschieden",
+     25
+    ],
+    [
+     "Gera",
+     "Städte",
+     "weiblich",
+     "geschieden",
+     35
+    ],
+    [
+     "Gera",
+     "Dörfer",
+     "männlich",
+     "unverheiratet",
+     6323
+    ],
+    [
+     "Gera",
+     "Dörfer",
+     "weiblich",
+     "unverheiratet",
+     6301
+    ],
+    [
+     "Gera",
+     "Dörfer",
+     "männlich",
+     "verheiratet",
+     3820
+    ],
+    [
+     "Gera",
+     "Dörfer",
+     "weiblich",
+     "verheiratet",
+     3748
+    ],
+    [
+     "Gera",
+     "Dörfer",
+     "männlich",
+     "verwitwet",
+     358
+    ],
+    [
+     "Gera",
+     "Dörfer",
+     "weiblich",
+     "verwitwet",
+     841
+    ],
+    [
+     "Gera",
+     "Dörfer",
+     "männlich",
+     "geschieden",
+     15
+    ],
+    [
+     "Gera",
+     "Dörfer",
+     "weiblich",
+     "geschieden",
+     29
+    ],
+    [
+     "Gera",
+     "Landestheil",
+     "männlich",
+     "unverheiratet",
+     11543
+    ],
+    [
+     "Gera",
+     "Landestheil",
+     "weiblich",
+     "unverheiratet",
+     10871
+    ],
+    [
+     "Gera",
+     "Landestheil",
+     "männlich",
+     "verheiratet",
+     6219
+    ],
+    [
+     "Gera",
+     "Landestheil",
+     "weiblich",
+     "verheiratet",
+     6105
+    ],
+    [
+     "Gera",
+     "Landestheil",
+     "männlich",
+     "verwitwet",
+     558
+    ],
+    [
+     "Gera",
+     "Landestheil",
+     "weiblich",
+     "verwitwet",
+     1398
+    ],
+    [
+     "Gera",
+     "Landestheil",
+     "männlich",
+     "geschieden",
+     40
+    ],
+    [
+     "Gera",
+     "Landestheil",
+     "weiblich",
+     "geschieden",
+     64
+    ],
+    [
+     "Schleiz",
+     "Städte",
+     "männlich",
+     "unverheiratet",
+     2308
+    ],
+    [
+     "Schleiz",
+     "Städte",
+     "weiblich",
+     "unverheiratet",
+     2264
+    ],
+    [
+     "Schleiz",
+     "Städte",
+     "männlich",
+     "verheiratet",
+     1358
+    ],
+    [
+     "Schleiz",
+     "Städte",
+     "weiblich",
+     "verheiratet",
+     1350
+    ],
+    [
+     "Schleiz",
+     "Städte",
+     "männlich",
+     "verwitwet",
+     158
+    ],
+    [
+     "Schleiz",
+     "Städte",
+     "weiblich",
+     "verwitwet",
+     366
+    ],
+    [
+     "Schleiz",
+     "Städte",
+     "männlich",
+     "geschieden",
+     6
+    ],
+    [
+     "Schleiz",
+     "Städte",
+     "weiblich",
+     "geschieden",
+     11
+    ],
+    [
+     "Schleiz",
+     "Dörfer",
+     "männlich",
+     "unverheiratet",
+     5821
+    ],
+    [
+     "Schleiz",
+     "Dörfer",
+     "weiblich",
+     "unverheiratet",
+     5767
+    ],
+    [
+     "Schleiz",
+     "Dörfer",
+     "männlich",
+     "verheiratet",
+     3356
+    ],
+    [
+     "Schleiz",
+     "Dörfer",
+     "weiblich",
+     "verheiratet",
+     3388
+    ],
+    [
+     "Schleiz",
+     "Dörfer",
+     "männlich",
+     "verwitwet",
+     346
+    ],
+    [
+     "Schleiz",
+     "Dörfer",
+     "weiblich",
+     "verwitwet",
+     652
+    ],
+    [
+     "Schleiz",
+     "Dörfer",
+     "männlich",
+     "geschieden",
+     3
+    ],
+    [
+     "Schleiz",
+     "Dörfer",
+     "weiblich",
+     "geschieden",
+     21
+    ],
+    [
+     "Schleiz",
+     "Landestheil",
+     "männlich",
+     "unverheiratet",
+     8129
+    ],
+    [
+     "Schleiz",
+     "Landestheil",
+     "weiblich",
+     "unverheiratet",
+     8031
+    ],
+    [
+     "Schleiz",
+     "Landestheil",
+     "männlich",
+     "verheiratet",
+     4714
+    ],
+    [
+     "Schleiz",
+     "Landestheil",
+     "weiblich",
+     "verheiratet",
+     4738
+    ],
+    [
+     "Schleiz",
+     "Landestheil",
+     "männlich",
+     "verwitwet",
+     504
+    ],
+    [
+     "Schleiz",
+     "Landestheil",
+     "weiblich",
+     "verwitwet",
+     1018
+    ],
+    [
+     "Schleiz",
+     "Landestheil",
+     "männlich",
+     "geschieden",
+     9
+    ],
+    [
+     "Schleiz",
+     "Landestheil",
+     "weiblich",
+     "geschieden",
+     32
+    ],
+    [
+     "Lobenstein-Ebersdorf",
+     "Städte",
+     "männlich",
+     "unverheiratet",
+     1353
+    ],
+    [
+     "Lobenstein-Ebersdorf",
+     "Städte",
+     "weiblich",
+     "unverheiratet",
+     1445
+    ],
+    [
+     "Lobenstein-Ebersdorf",
+     "Städte",
+     "männlich",
+     "verheiratet",
+     732
+    ],
+    [
+     "Lobenstein-Ebersdorf",
+     "Städte",
+     "weiblich",
+     "verheiratet",
+     742
+    ],
+    [
+     "Lobenstein-Ebersdorf",
+     "Städte",
+     "männlich",
+     "verwitwet",
+     91
+    ],
+    [
+     "Lobenstein-Ebersdorf",
+     "Städte",
+     "weiblich",
+     "verwitwet",
+     239
+    ],
+    [
+     "Lobenstein-Ebersdorf",
+     "Städte",
+     "männlich",
+     "geschieden",
+     4
+    ],
+    [
+     "Lobenstein-Ebersdorf",
+     "Städte",
+     "weiblich",
+     "geschieden",
+     6
+    ],
+    [
+     "Lobenstein-Ebersdorf",
+     "Dörfer",
+     "männlich",
+     "unverheiratet",
+     5404
+    ],
+    [
+     "Lobenstein-Ebersdorf",
+     "Dörfer",
+     "weiblich",
+     "unverheiratet",
+     5821
+    ],
+    [
+     "Lobenstein-Ebersdorf",
+     "Dörfer",
+     "männlich",
+     "verheiratet",
+     2768
+    ],
+    [
+     "Lobenstein-Ebersdorf",
+     "Dörfer",
+     "weiblich",
+     "verheiratet",
+     2810
+    ],
+    [
+     "Lobenstein-Ebersdorf",
+     "Dörfer",
+     "männlich",
+     "verwitwet",
+     333
+    ],
+    [
+     "Lobenstein-Ebersdorf",
+     "Dörfer",
+     "weiblich",
+     "verwitwet",
+     727
+    ],
+    [
+     "Lobenstein-Ebersdorf",
+     "Dörfer",
+     "männlich",
+     "geschieden",
+     10
+    ],
+    [
+     "Lobenstein-Ebersdorf",
+     "Dörfer",
+     "weiblich",
+     "geschieden",
+     14
+    ],
+    [
+     "Lobenstein-Ebersdorf",
+     "Landestheil",
+     "männlich",
+     "unverheiratet",
+     6757
+    ],
+    [
+     "Lobenstein-Ebersdorf",
+     "Landestheil",
+     "weiblich",
+     "unverheiratet",
+     7266
+    ],
+    [
+     "Lobenstein-Ebersdorf",
+     "Landestheil",
+     "männlich",
+     "verheiratet",
+     3500
+    ],
+    [
+     "Lobenstein-Ebersdorf",
+     "Landestheil",
+     "weiblich",
+     "verheiratet",
+     3552
+    ],
+    [
+     "Lobenstein-Ebersdorf",
+     "Landestheil",
+     "männlich",
+     "verwitwet",
+     424
+    ],
+    [
+     "Lobenstein-Ebersdorf",
+     "Landestheil",
+     "weiblich",
+     "verwitwet",
+     966
+    ],
+    [
+     "Lobenstein-Ebersdorf",
+     "Landestheil",
+     "männlich",
+     "geschieden",
+     14
+    ],
+    [
+     "Lobenstein-Ebersdorf",
+     "Landestheil",
+     "weiblich",
+     "geschieden",
+     20
+    ],
+    [
+     "Fürstentum",
+     "Städte",
+     "männlich",
+     "unverheiratet",
+     8881
+    ],
+    [
+     "Fürstentum",
+     "Städte",
+     "weiblich",
+     "unverheiratet",
+     8279
+    ],
+    [
+     "Fürstentum",
+     "Städte",
+     "männlich",
+     "verheiratet",
+     4489
+    ],
+    [
+     "Fürstentum",
+     "Städte",
+     "weiblich",
+     "verheiratet",
+     4449
+    ],
+    [
+     "Fürstentum",
+     "Städte",
+     "männlich",
+     "verwitwet",
+     449
+    ],
+    [
+     "Fürstentum",
+     "Städte",
+     "weiblich",
+     "verwitwet",
+     1162
+    ],
+    [
+     "Fürstentum",
+     "Städte",
+     "männlich",
+     "geschieden",
+     35
+    ],
+    [
+     "Fürstentum",
+     "Städte",
+     "weiblich",
+     "geschieden",
+     52
+    ],
+    [
+     "Fürstentum",
+     "Dörfer",
+     "männlich",
+     "unverheiratet",
+     17548
+    ],
+    [
+     "Fürstentum",
+     "Dörfer",
+     "weiblich",
+     "unverheiratet",
+     17889
+    ],
+    [
+     "Fürstentum",
+     "Dörfer",
+     "männlich",
+     "verheiratet",
+     9944
+    ],
+    [
+     "Fürstentum",
+     "Dörfer",
+     "weiblich",
+     "verheiratet",
+     9946
+    ],
+    [
+     "Fürstentum",
+     "Dörfer",
+     "männlich",
+     "verwitwet",
+     1037
+    ],
+    [
+     "Fürstentum",
+     "Dörfer",
+     "weiblich",
+     "verwitwet",
+     2220
+    ],
+    [
+     "Fürstentum",
+     "Dörfer",
+     "männlich",
+     "geschieden",
+     28
+    ],
+    [
+     "Fürstentum",
+     "Dörfer",
+     "weiblich",
+     "geschieden",
+     64
+    ],
+    [
+     "Fürstentum",
+     "insgesamt",
+     "männlich",
+     "unverheiratet",
+     26429
+    ],
+    [
+     "Fürstentum",
+     "insgesamt",
+     "weiblich",
+     "unverheiratet",
+     26168
+    ],
+    [
+     "Fürstentum",
+     "insgesamt",
+     "männlich",
+     "verheiratet",
+     14433
+    ],
+    [
+     "Fürstentum",
+     "insgesamt",
+     "weiblich",
+     "verheiratet",
+     14395
+    ],
+    [
+     "Fürstentum",
+     "insgesamt",
+     "männlich",
+     "verwitwet",
+     1486
+    ],
+    [
+     "Fürstentum",
+     "insgesamt",
+     "weiblich",
+     "verwitwet",
+     3382
+    ],
+    [
+     "Fürstentum",
+     "insgesamt",
+     "männlich",
+     "geschieden",
+     63
+    ],
+    [
+     "Fürstentum",
+     "insgesamt",
+     "weiblich",
+     "geschieden",
+     116
+    ]
+   ],
+   "source_refs": [
+    {
+     "page": "103",
+     "block": "b3",
+     "rows": "r3-r14"
+    }
+   ]
+  }
+ ],
+ "charts": [
+  {
+   "id": "c1",
+   "dataset": "single_years",
+   "title": {
+    "de": "Ein Drittel der Einwohner war 1864 bis 14 Jahre alt, nur 7,5 Prozent über 60",
+    "en": "One third were up to 14 years old in 1864, only 7.5 percent over 60"
+   },
+   "caption": {
+    "de": "Einwohner des Fürstentums 1864 nach Lebensjahren und Geschlecht; Brückners Altersklassen mit ihrem Anteil an der Bevölkerung. Der gezackte Verlauf ab etwa 30 Jahren deutet auf gerundete Altersangaben. Quelle: S. 101 f.",
+    "en": "Inhabitants of the principality in 1864 by year of life and sex; Brückner’s age classes with their share of the population. The jagged profile from about age 30 suggests rounded ages. Source: pp. 101 f."
+   },
+   "vegalite": {
+    "height": 470,
+    "transform": [
+     {
+      "calculate": "datum.sex === 'männlich' ? -datum.persons : datum.persons",
+      "as": "signed"
+     },
+     {
+      "calculate": "datum.age - 1",
+      "as": "age_from"
+     }
+    ],
+    "layer": [
+     {
+      "mark": {
+       "type": "bar",
+       "stroke": null,
+       "strokeWidth": 0
+      },
+      "encoding": {
+       "y": {
+        "field": "age_from",
+        "type": "quantitative",
+        "scale": {
+         "domain": [
+          0,
+          90
+         ],
+         "nice": false
+        },
+        "axis": {
+         "values": [
+          0,
+          14,
+          30,
+          45,
+          60,
+          75,
+          90
+         ],
+         "grid": false,
+         "ticks": true,
+         "title": {
+          "de": "Lebensjahr",
+          "en": "Year of life"
+         }
+        }
+       },
+       "y2": {
+        "field": "age"
+       },
+       "x2": {
+        "datum": 0
+       },
+       "x": {
+        "field": "signed",
+        "type": "quantitative",
+        "scale": {
+         "domain": [
+          -2000,
+          2000
+         ]
+        },
+        "axis": {
+         "values": [
+          -1000,
+          -500,
+          0,
+          500,
+          1000
+         ],
+         "labelExpr": "format(abs(datum.value), ',d')",
+         "title": {
+          "de": "Personen je Lebensjahr",
+          "en": "Persons per year of life"
+         }
+        }
+       },
+       "color": {
+        "field": "sex",
+        "type": "nominal",
+        "legend": null,
+        "scale": {
+         "domain": [
+          "männlich",
+          "weiblich"
+         ],
+         "range": [
+          "@accent",
+          "@accent2"
+         ]
+        }
+       },
+       "tooltip": [
+        {
+         "field": "age",
+         "title": {
+          "de": "Lebensjahr",
+          "en": "Year of life"
+         },
+         "format": "d"
+        },
+        {
+         "field": "sex",
+         "title": {
+          "de": "Geschlecht",
+          "en": "Sex"
+         }
+        },
+        {
+         "field": "persons",
+         "title": {
+          "de": "Personen",
+          "en": "Persons"
+         },
+         "format": ",d"
+        }
+       ]
+      }
+     },
+     {
+      "transform": [
+       {
+        "filter": "datum.age == 1 && datum.sex === 'männlich'"
+       }
+      ],
+      "mark": {
+       "type": "rule",
+       "color": "@ink2",
+       "strokeDash": [
+        4,
+        3
+       ],
+       "strokeWidth": 1
+      },
+      "encoding": {
+       "y": {
+        "datum": 14,
+        "type": "quantitative"
+       }
+      }
+     },
+     {
+      "transform": [
+       {
+        "filter": "datum.age == 1 && datum.sex === 'männlich'"
+       }
+      ],
+      "mark": {
+       "type": "rule",
+       "color": "@ink2",
+       "strokeDash": [
+        4,
+        3
+       ],
+       "strokeWidth": 1
+      },
+      "encoding": {
+       "y": {
+        "datum": 60,
+        "type": "quantitative"
+       }
+      }
+     },
+     {
+      "transform": [
+       {
+        "filter": "datum.age == 1 && datum.sex === 'männlich'"
+       }
+      ],
+      "mark": {
+       "type": "text",
+       "style": "label",
+       "align": "right",
+       "dy": -8,
+       "color": "@ink"
+      },
+      "encoding": {
+       "x": {
+        "datum": 2000
+       },
+       "y": {
+        "datum": 7,
+        "type": "quantitative"
+       },
+       "text": {
+        "value": {
+         "de": "32,9 %",
+         "en": "32.9 %"
+        }
+       }
+      }
+     },
+     {
+      "transform": [
+       {
+        "filter": "datum.age == 1 && datum.sex === 'männlich'"
+       }
+      ],
+      "mark": {
+       "type": "text",
+       "style": "annotation",
+       "align": "right",
+       "dy": 8
+      },
+      "encoding": {
+       "x": {
+        "datum": 2000
+       },
+       "y": {
+        "datum": 7,
+        "type": "quantitative"
+       },
+       "text": {
+        "value": {
+         "de": "bis 14 Jahre",
+         "en": "up to 14 years"
+        }
+       }
+      }
+     },
+     {
+      "transform": [
+       {
+        "filter": "datum.age == 1 && datum.sex === 'männlich'"
+       }
+      ],
+      "mark": {
+       "type": "text",
+       "style": "label",
+       "align": "right",
+       "dy": -8,
+       "color": "@ink"
+      },
+      "encoding": {
+       "x": {
+        "datum": 2000
+       },
+       "y": {
+        "datum": 37,
+        "type": "quantitative"
+       },
+       "text": {
+        "value": {
+         "de": "59,6 %",
+         "en": "59.6 %"
+        }
+       }
+      }
+     },
+     {
+      "transform": [
+       {
+        "filter": "datum.age == 1 && datum.sex === 'männlich'"
+       }
+      ],
+      "mark": {
+       "type": "text",
+       "style": "annotation",
+       "align": "right",
+       "dy": 8
+      },
+      "encoding": {
+       "x": {
+        "datum": 2000
+       },
+       "y": {
+        "datum": 37,
+        "type": "quantitative"
+       },
+       "text": {
+        "value": {
+         "de": "15 bis 60 Jahre",
+         "en": "15 to 60 years"
+        }
+       }
+      }
+     },
+     {
+      "transform": [
+       {
+        "filter": "datum.age == 1 && datum.sex === 'männlich'"
+       }
+      ],
+      "mark": {
+       "type": "text",
+       "style": "label",
+       "align": "right",
+       "dy": -8,
+       "color": "@ink"
+      },
+      "encoding": {
+       "x": {
+        "datum": 2000
+       },
+       "y": {
+        "datum": 75,
+        "type": "quantitative"
+       },
+       "text": {
+        "value": {
+         "de": "7,5 %",
+         "en": "7.5 %"
+        }
+       }
+      }
+     },
+     {
+      "transform": [
+       {
+        "filter": "datum.age == 1 && datum.sex === 'männlich'"
+       }
+      ],
+      "mark": {
+       "type": "text",
+       "style": "annotation",
+       "align": "right",
+       "dy": 8
+      },
+      "encoding": {
+       "x": {
+        "datum": 2000
+       },
+       "y": {
+        "datum": 75,
+        "type": "quantitative"
+       },
+       "text": {
+        "value": {
+         "de": "über 60 Jahre",
+         "en": "over 60 years"
+        }
+       }
+      }
+     },
+     {
+      "transform": [
+       {
+        "filter": "datum.age == 1 && datum.sex === 'männlich'"
+       }
+      ],
+      "mark": {
+       "type": "text",
+       "style": "label",
+       "align": "right",
+       "dx": -8,
+       "color": "@accent"
+      },
+      "encoding": {
+       "x": {
+        "datum": 0
+       },
+       "y": {
+        "datum": 88,
+        "type": "quantitative"
+       },
+       "text": {
+        "value": {
+         "de": "Männer",
+         "en": "Men"
+        }
+       }
+      }
+     },
+     {
+      "transform": [
+       {
+        "filter": "datum.age == 1 && datum.sex === 'männlich'"
+       }
+      ],
+      "mark": {
+       "type": "text",
+       "style": "label",
+       "align": "left",
+       "dx": 8,
+       "color": "@accent2"
+      },
+      "encoding": {
+       "x": {
+        "datum": 0
+       },
+       "y": {
+        "datum": 88,
+        "type": "quantitative"
+       },
+       "text": {
+        "value": {
+         "de": "Frauen",
+         "en": "Women"
+        }
+       }
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "c2",
+   "dataset": "married_by_age",
+   "title": {
+    "de": "Von den über 60-Jährigen waren 60 Prozent der Männer, aber nur 33 Prozent der Frauen verheiratet",
+    "en": "Of those over 60, 60 percent of men but only 33 percent of women were married"
+   },
+   "caption": {
+    "de": "Verheiratete in Prozent der jeweiligen Altersklasse, Fürstentum 1864, nach Brückners gedruckten Prozentzahlen. Der Nenner der Prozentzahlen ist nicht angegeben. Quelle: S. 104.",
+    "en": "Married persons as a percentage of the respective age group, principality, 1864, as printed by Brückner. The denominator of the percentages is not stated. Source: p. 104."
+   },
+   "vegalite": {
+    "height": 330,
+    "transform": [
+     {
+      "filter": "datum.area === 'Fürstentum'"
+     }
+    ],
+    "encoding": {
+     "x": {
+      "field": "age_class",
+      "type": "ordinal",
+      "sort": [
+       "unter 30",
+       "30–45",
+       "45–60",
+       "über 60"
+      ],
+      "scale": {
+       "paddingOuter": 0.45
+      },
+      "axis": {
+       "labelAngle": 0,
+       "ticks": false,
+       "title": {
+        "de": "Altersklasse (Jahre)",
+        "en": "Age group (years)"
+       }
+      }
+     },
+     "color": {
+      "field": "sex",
+      "type": "nominal",
+      "legend": null,
+      "scale": {
+       "domain": [
+        "männlich",
+        "weiblich"
+       ],
+       "range": [
+        "@accent",
+        "@accent2"
+       ]
+      }
+     }
+    },
+    "layer": [
+     {
+      "mark": {
+       "type": "line",
+       "strokeWidth": 3
+      },
+      "encoding": {
+       "y": {
+        "field": "share_pct",
+        "type": "quantitative",
+        "scale": {
+         "domain": [
+          0,
+          100
+         ]
+        },
+        "axis": {
+         "values": [
+          0,
+          25,
+          50,
+          75,
+          100
+         ],
+         "title": {
+          "de": "Verheiratete in Prozent der Altersklasse",
+          "en": "Married, percent of the age group"
+         }
+        }
+       }
+      }
+     },
+     {
+      "mark": {
+       "type": "point",
+       "filled": true,
+       "size": 90
+      },
+      "encoding": {
+       "y": {
+        "field": "share_pct",
+        "type": "quantitative"
+       },
+       "tooltip": [
+        {
+         "field": "sex",
+         "title": {
+          "de": "Geschlecht",
+          "en": "Sex"
+         }
+        },
+        {
+         "field": "age_class",
+         "title": {
+          "de": "Altersklasse",
+          "en": "Age group"
+         }
+        },
+        {
+         "field": "married",
+         "title": {
+          "de": "Verheiratete",
+          "en": "Married"
+         },
+         "format": ",d"
+        },
+        {
+         "field": "share_pct",
+         "title": {
+          "de": "Prozent der Altersklasse",
+          "en": "Percent of age group"
+         },
+         "format": ".1f"
+        }
+       ]
+      }
+     },
+     {
+      "transform": [
+       {
+        "filter": "datum.sex === 'männlich'"
+       }
+      ],
+      "mark": {
+       "type": "text",
+       "style": "label",
+       "dy": -16
+      },
+      "encoding": {
+       "y": {
+        "field": "share_pct",
+        "type": "quantitative"
+       },
+       "text": {
+        "field": "share_pct",
+        "format": ".1f"
+       }
+      }
+     },
+     {
+      "transform": [
+       {
+        "filter": "datum.sex === 'weiblich'"
+       }
+      ],
+      "mark": {
+       "type": "text",
+       "style": "label",
+       "dy": 19
+      },
+      "encoding": {
+       "y": {
+        "field": "share_pct",
+        "type": "quantitative"
+       },
+       "text": {
+        "field": "share_pct",
+        "format": ".1f"
+       }
+      }
+     },
+     {
+      "transform": [
+       {
+        "filter": "datum.sex === 'männlich' && datum.age_class === 'über 60'"
+       }
+      ],
+      "mark": {
+       "type": "text",
+       "style": "label",
+       "align": "left",
+       "dx": 13
+      },
+      "encoding": {
+       "y": {
+        "field": "share_pct",
+        "type": "quantitative"
+       },
+       "text": {
+        "value": {
+         "de": "Männer",
+         "en": "Men"
+        }
+       }
+      }
+     },
+     {
+      "transform": [
+       {
+        "filter": "datum.sex === 'weiblich' && datum.age_class === 'über 60'"
+       }
+      ],
+      "mark": {
+       "type": "text",
+       "style": "label",
+       "align": "left",
+       "dx": 13
+      },
+      "encoding": {
+       "y": {
+        "field": "share_pct",
+        "type": "quantitative"
+       },
+       "text": {
+        "value": {
+         "de": "Frauen",
+         "en": "Women"
+        }
+       }
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "c3",
+   "dataset": "birthplace",
+   "title": {
+    "de": "Sieben von zehn Einwohnern lebten 1864 in der Geburtsgemeinde, im Bezirk Gera nur 63 Prozent",
+    "en": "Seven in ten lived where they were born, in Gera district only 63 percent"
+   },
+   "caption": {
+    "de": "Einwohner 1864 nach Geburtsort: in der Wohngemeinde, in einer anderen Gemeinde des Fürstentums (anderer Ort) oder auswärts geboren. Prozent der Bezirksbevölkerung. Quelle: S. 105.",
+    "en": "Inhabitants in 1864 by place of birth: in the municipality of residence, in another municipality of the principality (other place) or elsewhere. Percent of the district population. Source: p. 105."
+   },
+   "vegalite": {
+    "height": {
+     "step": 60
+    },
+    "transform": [
+     {
+      "filter": "datum.area === 'Zusammen'"
+     },
+     {
+      "calculate": "datum.origin === 'Geburtsgemeinde' ? 0 : (datum.origin === 'andere Gemeinde' ? 1 : 2)",
+      "as": "ord"
+     },
+     {
+      "window": [
+       {
+        "op": "sum",
+        "field": "pct",
+        "as": "seg_end"
+       }
+      ],
+      "groupby": [
+       "district"
+      ],
+      "sort": [
+       {
+        "field": "ord"
+       }
+      ],
+      "frame": [
+       null,
+       0
+      ]
+     },
+     {
+      "calculate": "datum.seg_end - datum.pct",
+      "as": "seg_start"
+     },
+     {
+      "calculate": "(datum.seg_start + datum.seg_end) / 2",
+      "as": "seg_mid"
+     }
+    ],
+    "encoding": {
+     "y": {
+      "field": "district",
+      "type": "nominal",
+      "sort": [
+       "Gera",
+       "Reuß j. L.",
+       "Schleiz",
+       "Lobenstein-Ebersdorf"
+      ],
+      "axis": {
+       "title": null,
+       "labelLimit": 400,
+       "ticks": false,
+       "labelExpr": {
+        "de": "datum.value == 'Reuß j. L.' ? 'Fürstentum' : (datum.value == 'Gera' ? 'Bezirk Gera' : (datum.value == 'Schleiz' ? 'Bezirk Schleiz' : 'Bezirk Lobenstein-Ebersdorf'))",
+        "en": "datum.value == 'Reuß j. L.' ? 'Principality' : (datum.value == 'Gera' ? 'Gera district' : (datum.value == 'Schleiz' ? 'Schleiz district' : 'Lobenstein-Ebersdorf district'))"
+       },
+       "labelFontWeight": {
+        "condition": {
+         "test": "datum.value == 'Reuß j. L.'",
+         "value": 700
+        },
+        "value": 400
+       }
+      }
+     }
+    },
+    "layer": [
+     {
+      "mark": {
+       "type": "bar",
+       "size": 40,
+       "cornerRadiusEnd": 0
+      },
+      "encoding": {
+       "x": {
+        "field": "seg_start",
+        "type": "quantitative",
+        "scale": {
+         "domain": [
+          0,
+          100
+         ]
+        },
+        "axis": {
+         "values": [
+          0,
+          25,
+          50,
+          75,
+          100
+         ],
+         "format": "d",
+         "title": {
+          "de": "Prozent der Einwohner 1864",
+          "en": "Percent of inhabitants, 1864"
+         }
+        }
+       },
+       "x2": {
+        "field": "seg_end"
+       },
+       "color": {
+        "field": "origin",
+        "type": "nominal",
+        "legend": null,
+        "scale": {
+         "domain": [
+          "Geburtsgemeinde",
+          "andere Gemeinde",
+          "auswärts"
+         ],
+         "range": [
+          "@accent",
+          "@context",
+          "@accent2"
+         ]
+        }
+       },
+       "tooltip": [
+        {
+         "field": "district",
+         "title": {
+          "de": "Bezirk",
+          "en": "District"
+         }
+        },
+        {
+         "field": "origin",
+         "title": {
+          "de": "Geburtsort",
+          "en": "Place of birth"
+         }
+        },
+        {
+         "field": "persons",
+         "title": {
+          "de": "Personen",
+          "en": "Persons"
+         },
+         "format": ",d"
+        },
+        {
+         "field": "pct",
+         "title": {
+          "de": "Prozent",
+          "en": "Percent"
+         },
+         "format": ".2f"
+        }
+       ]
+      }
+     },
+     {
+      "transform": [
+       {
+        "filter": "datum.origin === 'Geburtsgemeinde'"
+       }
+      ],
+      "mark": {
+       "type": "text",
+       "style": "label",
+       "color": "@paper"
+      },
+      "encoding": {
+       "x": {
+        "field": "seg_mid",
+        "type": "quantitative"
+       },
+       "text": {
+        "field": "pct",
+        "format": ".1f"
+       }
+      }
+     },
+     {
+      "transform": [
+       {
+        "filter": "datum.origin !== 'Geburtsgemeinde'"
+       }
+      ],
+      "mark": {
+       "type": "text",
+       "style": "label",
+       "color": "@ink"
+      },
+      "encoding": {
+       "x": {
+        "field": "seg_mid",
+        "type": "quantitative"
+       },
+       "text": {
+        "field": "pct",
+        "format": ".1f"
+       }
+      }
+     },
+     {
+      "transform": [
+       {
+        "filter": "datum.district === 'Gera' && datum.origin === 'Geburtsgemeinde'"
+       }
+      ],
+      "mark": {
+       "type": "text",
+       "style": "label",
+       "color": "@accent",
+       "dy": -33
+      },
+      "encoding": {
+       "x": {
+        "field": "seg_mid",
+        "type": "quantitative"
+       },
+       "text": {
+        "value": {
+         "de": "in der Geburtsgemeinde",
+         "en": "in municipality of birth"
+        }
+       }
+      }
+     },
+     {
+      "transform": [
+       {
+        "filter": "datum.district === 'Gera' && datum.origin === 'andere Gemeinde'"
+       }
+      ],
+      "mark": {
+       "type": "text",
+       "style": "label-muted",
+       "dy": -33
+      },
+      "encoding": {
+       "x": {
+        "field": "seg_mid",
+        "type": "quantitative"
+       },
+       "text": {
+        "value": {
+         "de": "anderer Ort",
+         "en": "other place"
+        }
+       }
+      }
+     },
+     {
+      "transform": [
+       {
+        "filter": "datum.district === 'Gera' && datum.origin === 'auswärts'"
+       }
+      ],
+      "mark": {
+       "type": "text",
+       "style": "label",
+       "color": "@accent2",
+       "dy": -33
+      },
+      "encoding": {
+       "x": {
+        "field": "seg_mid",
+        "type": "quantitative"
+       },
+       "text": {
+        "value": {
+         "de": "auswärts",
+         "en": "elsewhere"
+        }
+       }
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "transcription_issues": [
+  {
+   "page": "105",
+   "block": "b3",
+   "cell": "r9c7",
+   "transcribed": "11,23",
+   "facsimile": "11,23",
+   "checked_facsimile": true,
+   "note": "Lobenstein-Ebersdorf, Plattland, auswärts: 1831 of 17887 = 10,24 %; the three printed percentages add to 101. Printer's error in the original."
+  },
+  {
+   "page": "105",
+   "block": "b5",
+   "transcribed": "Summe 14,48",
+   "facsimile": "Summe 14,48",
+   "checked_facsimile": true,
+   "note": "The ten printed shares add up to 14,43, not 14,48."
+  }
+ ],
+ "keywords": {
+  "de": [
+   "Altersaufbau",
+   "Bevölkerungspyramide",
+   "Altersklassen",
+   "Familienstand",
+   "Verheiratete",
+   "Witwen",
+   "Geburtsort",
+   "Wanderung",
+   "Frauenüberschuss"
+  ],
+  "en": [
+   "age structure",
+   "population pyramid",
+   "age groups",
+   "marital status",
+   "married",
+   "widows",
+   "place of birth",
+   "migration",
+   "sex ratio"
+  ]
+ },
+ "related": [
+  "geburten-sterbefaelle",
+  "bevoelkerung-1647-1867",
+  "berufe-gewerbe",
+  "gesundheit"
+ ],
+ "generated_by": "Claude Sonnet 5.5 (Agent F4), aus 4 Einzelauswertungen zusammengeführt",
+ "date": "2026-10-02"
+}

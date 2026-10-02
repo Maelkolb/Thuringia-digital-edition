@@ -554,6 +554,17 @@ class Builder:
                      group=ana_group(a["section"])[1:], sec=sec, sec_href=self.sec_href(a["section"], "../") if sec else None,
                      related=[{"id": r, "title": titles[r]} for r in (a.get("related") or []) if r in titles])
             self.write(f"auswertungen/json/{a['id']}.json", json.dumps(a, ensure_ascii=False, indent=1))
+        # addresses of the earlier single analyses lead to the piece that absorbed them
+        for a in ok:
+            for old_id in a.get("merges") or []:
+                if old_id == a["id"]:
+                    continue
+                title = html.escape(a["title"]["de"])
+                self.write(f"auswertungen/{old_id}.html",
+                           f'<!doctype html><html lang="de"><head><meta charset="utf-8"><title>{title}</title>'
+                           f'<meta http-equiv="refresh" content="0; url={a["id"]}.html"><link rel="canonical" href="{a["id"]}.html">'
+                           f'<meta name="robots" content="noindex"></head><body><p>Diese Auswertung ist jetzt Teil von '
+                           f'<a href="{a["id"]}.html">{title}</a>.</p></body></html>')
 
     # ------------------------------------------------------------------ map
     def build_map(self) -> None:

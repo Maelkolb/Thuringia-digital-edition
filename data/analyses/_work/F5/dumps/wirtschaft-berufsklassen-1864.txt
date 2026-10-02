@@ -1,0 +1,95 @@
+====================================================================================================
+wirtschaft-berufsklassen-1864 t1-3-1 economy
+TITLE Berufsklassen im Fürstentum Reuß j. L. 1864
+SUMMARY Brückner gliedert die gesamte Bevölkerung von 1864 (86.472 Personen) in 13 Berufsklassen und unterscheidet in jeder Klasse Selbstständige, Gehilfen, Dienstboten und Familienglieder, getrennt nach Städten und Plattland der drei Landesteile. Die Diagramme zeigen die Anteile der Klassen, den Gegensatz von Stadt und Land, die Stellung im Beruf und den Anteil der produzierenden Bevölkerung.
+FIND Drei Berufsklassen bestimmen das Bild: Industrie (einschließlich Handwerk) 49,9 %, Land- und Forstwirtschaft 20,6 % und Handarbeiter und Taglöhner 12,3 % der Bevölkerung, zusammen 82,8 % – Brückner spricht von »nahe an 83 Procent«.
+FIND In den Städten lebten 65,0 % der Einwohner von der Industrie und nur 2,4 % von der Land- und Forstwirtschaft; auf dem Plattland waren es 42,7 % und 29,2 %. Selbst das Plattland ist damit zu mehr als zwei Fünfteln gewerblich geprägt.
+FIND Der Landesteil Schleiz hat den höchsten Industrieanteil (55,1 %), Lobenstein-Ebersdorf den niedrigsten (44,7 %; Gera 49,2 %). Der Bergbau ist praktisch auf Lobenstein-Ebersdorf konzentriert: 3,3 % der dortigen Bevölkerung, 78,8 % aller Personen dieser Klasse im Fürstentum.
+FIND Gehilfen sind in den Städten häufiger (14,1 % der Stadtbevölkerung) als auf dem Plattland (8,9 %). In der Industrie sind 18,6 % der Angehörigen Gehilfen, in der Land- und Forstwirtschaft dagegen 18,7 % Dienstboten und nur 0,9 % Gehilfen.
+FIND Der Anteil der produzierenden Berufsklassen liegt im Fürstentum bei 40,25 %, am höchsten in Gera (43,42 %), am niedrigsten in Lobenstein-Ebersdorf (37,23 %); in den Städten ist er überall höher als auf dem Land.
+METHOD Die Zahlen stammen aus den Tabellen auf S. 209–211 (Berufsklassen 1–14 mit je fünf Spalten) und S. 213 (Verhältnis der produzierenden zur nicht produzierenden Bevölkerung). Der Anteil einer Klasse (Spalte share_pct) ist ihre Summe geteilt durch die Summe aller Berufsklassen derselben Region; er stimmt mit den von Brückner auf S. 212 gedruckten Prozentzahlen überein (größte Abweichung unter 0,01 Prozentpunkten). Striche (—) in der Vorlage bedeuten »keine« und stehen im Datensatz als leere Werte (bei der Berechnung der Anteile als 0 behandelt). Die Einteilung »Landestheil« und »Städte/Plattland« folgt der Vorlage; »zusammen« bezeichnet die Summenzeile des Landesteils bzw. des Fürstentums. Bei den Stellungen im Beruf (Abb. 3) wurden die Zahlen der Klassen 1–13 für das gesamte Fürstentum verglichen.
+CAVEAT Die Zahlen gelten für 1864; Familienglieder und Dienstboten werden der Klasse des Haushaltsvorstands bzw. des Dienstherrn zugerechnet. Die Klasse »Industrie« umfasst auch das Handwerk, die Klasse »Handarbeiter u. Taglöhner« vor allem ungelernte Arbeiter ohne eigenen Betrieb.
+CAVEAT Die Vorlage ist in sich nicht ganz stimmig: In Klasse 10 (Wissenschaft und Kunst) ergeben die Plattland-Zahlen von Gera 10 + 9 + 5 + 32 = 56, gedruckt ist die Summe 52 (auch die Landesteil-Summe von 153 Gehilfen passt nur zu 5 statt 9); in Klasse 13 ist die Summe des Fürstentums mit 1780 gedruckt, die Summe der Landesteile ergibt 1786. Beides wurde am Faksimile geprüft (Druckfehler der Vorlage) und unverändert übernommen.
+CAVEAT Bei den Prozentzahlen der produzierenden Bevölkerung (Abb. 4) bleibt offen, welche Klassen Brückner im Einzelnen als »producirend« zählt; er nennt nur das Verhältnis ›40 : 60‹.
+CONV None
+TI null
+--DS klassen Berufsklassen 1864 nach Landesteil und Gebiet 168 [{'page': '209', 'block': 'b3', 'rows': 'r3-r14; r17-r28'}, {'page': '210', 'block': 'b1', 'rows': 'r3-r14; r16-r27; r29-r40'}, {'page': '211', 'block': 'b1', 'rows': 'r3-r14'}, {'page': '211', 'block': 'b2', 'rows': 'r3-r14'}]
+  cols [('klasse_nr', 'integer', None, ''), ('klasse_de', 'string', None, ''), ('klasse_en', 'string', None, ''), ('landestheil_de', 'string', None, ''), ('landestheil_en', 'string', None, ''), ('gebiet_de', 'string', None, ''), ('gebiet_en', 'string', None, ''), ('region_nr', 'integer', None, 'D'), ('region_de', 'string', None, 'D'), ('region_en', 'string', None, 'D'), ('selbststaendige', 'integer', 'Personen', ''), ('gehilfen', 'integer', 'Personen', ''), ('dienstboten', 'integer', 'Personen', ''), ('familienglieder', 'integer', 'Personen', ''), ('summe', 'integer', 'Personen', ''), ('share_pct', 'number', '%', 'D')]
+    [1, 'Land- u. Forstwirthschaft', 'Agriculture and forestry', 'Gera', 'Gera', 'Städte', 'Towns', 1, 'Gera, Städte', 'Gera, towns', 63, 39, 25, 187, 314, 2.04]
+    [1, 'Land- u. Forstwirthschaft', 'Agriculture and forestry', 'Gera', 'Gera', 'Plattland', 'Countryside', 2, 'Gera, Plattland', 'Gera, countryside', 1007, 69, 1371, 3588, 6035, 28.15]
+    [1, 'Land- u. Forstwirthschaft', 'Agriculture and forestry', 'Gera', 'Gera', 'zusammen', 'Total', 3, 'Gera, zusammen', 'Gera, total', 1070, 108, 1396, 3775, 6349, 17.25]
+    [1, 'Land- u. Forstwirthschaft', 'Agriculture and forestry', 'Schleiz', 'Schleiz', 'Städte', 'Towns', 4, 'Schleiz, Städte', 'Schleiz, towns', 47, 6, 49, 113, 215, 2.75]
+    [1, 'Land- u. Forstwirthschaft', 'Agriculture and forestry', 'Schleiz', 'Schleiz', 'Plattland', 'Countryside', 5, 'Schleiz, Plattland', 'Schleiz, countryside', 961, 16, 1150, 3707, 5834, 30.14]
+    [1, 'Land- u. Forstwirthschaft', 'Agriculture and forestry', 'Schleiz', 'Schleiz', 'zusammen', 'Total', 6, 'Schleiz, zusammen', 'Schleiz, total', 1008, 22, 1199, 3820, 6049, 22.26]
+    [1, 'Land- u. Forstwirthschaft', 'Agriculture and forestry', 'Lobenstein-Ebersdorf', 'Lobenstein-Ebersdorf', 'Städte', 'Towns', 7, 'Lobenstein-Ebersdorf, Städte', 'Lobenstein-Ebersdorf, towns', 25, 6, 38, 81, 150, 3.25]
+    [1, 'Land- u. Forstwirthschaft', 'Agriculture and forestry', 'Lobenstein-Ebersdorf', 'Lobenstein-Ebersdorf', 'Plattland', 'Countryside', 8, 'Lobenstein-Ebersdorf, Plattland', 'Lobenstein-Ebersdorf, countryside', 921, 16, 707, 3628, 5272, 29.47]
+    [1, 'Land- u. Forstwirthschaft', 'Agriculture and forestry', 'Lobenstein-Ebersdorf', 'Lobenstein-Ebersdorf', 'zusammen', 'Total', 9, 'Lobenstein-Ebersdorf, zusammen', 'Lobenstein-Ebersdorf, total', 946, 22, 745, 3709, 5422, 24.1]
+    [1, 'Land- u. Forstwirthschaft', 'Agriculture and forestry', 'Fürstentum', 'Principality', 'Städte', 'Towns', 10, 'Fürstentum, Städte', 'Principality, towns', 135, 51, 112, 381, 679, 2.44]
+    [1, 'Land- u. Forstwirthschaft', 'Agriculture and forestry', 'Fürstentum', 'Principality', 'Plattland', 'Countryside', 11, 'Fürstentum, Plattland', 'Principality, countryside', 2889, 101, 3228, 10923, 17141, 29.21]
+    [1, 'Land- u. Forstwirthschaft', 'Agriculture and forestry', 'Fürstentum', 'Principality', 'zusammen', 'Total', 12, 'Fürstentum, zusammen', 'Principality, total', 3024, 152, 3340, 11304, 17820, 20.61]
+    [2, 'Bergbau', 'Mining', 'Gera', 'Gera', 'Städte', 'Towns', 1, 'Gera, Städte', 'Gera, towns', None, 2, None, None, 2, 0.01]
+    [2, 'Bergbau', 'Mining', 'Gera', 'Gera', 'Plattland', 'Countryside', 2, 'Gera, Plattland', 'Gera, countryside', 2, None, None, 6, 8, 0.04]
+    [2, 'Bergbau', 'Mining', 'Gera', 'Gera', 'zusammen', 'Total', 3, 'Gera, zusammen', 'Gera, total', 2, 2, None, 6, 10, 0.03]
+    [2, 'Bergbau', 'Mining', 'Schleiz', 'Schleiz', 'Städte', 'Towns', 4, 'Schleiz, Städte', 'Schleiz, towns', 15, 18, 1, 101, 135, 1.73]
+    [2, 'Bergbau', 'Mining', 'Schleiz', 'Schleiz', 'Plattland', 'Countryside', 5, 'Schleiz, Plattland', 'Schleiz, countryside', 1, 15, None, 40, 56, 0.29]
+    [2, 'Bergbau', 'Mining', 'Schleiz', 'Schleiz', 'zusammen', 'Total', 6, 'Schleiz, zusammen', 'Schleiz, total', 16, 33, 1, 141, 191, 0.7]
+    [2, 'Bergbau', 'Mining', 'Lobenstein-Ebersdorf', 'Lobenstein-Ebersdorf', 'Städte', 'Towns', 7, 'Lobenstein-Ebersdorf, Städte', 'Lobenstein-Ebersdorf, towns', 7, 25, None, 98, 130, 2.82]
+    [2, 'Bergbau', 'Mining', 'Lobenstein-Ebersdorf', 'Lobenstein-Ebersdorf', 'Plattland', 'Countryside', 8, 'Lobenstein-Ebersdorf, Plattland', 'Lobenstein-Ebersdorf, countryside', 7, 198, 3, 410, 618, 3.46]
+    [2, 'Bergbau', 'Mining', 'Lobenstein-Ebersdorf', 'Lobenstein-Ebersdorf', 'zusammen', 'Total', 9, 'Lobenstein-Ebersdorf, zusammen', 'Lobenstein-Ebersdorf, total', 14, 223, 3, 508, 748, 3.32]
+    [2, 'Bergbau', 'Mining', 'Fürstentum', 'Principality', 'Städte', 'Towns', 10, 'Fürstentum, Städte', 'Principality, towns', 22, 45, 1, 199, 267, 0.96]
+    [2, 'Bergbau', 'Mining', 'Fürstentum', 'Principality', 'Plattland', 'Countryside', 11, 'Fürstentum, Plattland', 'Principality, countryside', 10, 213, 3, 456, 682, 1.16]
+    [2, 'Bergbau', 'Mining', 'Fürstentum', 'Principality', 'zusammen', 'Total', 12, 'Fürstentum, zusammen', 'Principality, total', 32, 258, 4, 655, 949, 1.1]
+    [3, 'Industrie', 'Industry and crafts', 'Gera', 'Gera', 'Städte', 'Towns', 1, 'Gera, Städte', 'Gera, towns', 2028, 2168, 360, 5556, 10112, 65.82]
+    [3, 'Industrie', 'Industry and crafts', 'Gera', 'Gera', 'Plattland', 'Countryside', 2, 'Gera, Plattland', 'Gera, countryside', 1407, 1660, 186, 4728, 7981, 37.23]
+    [3, 'Industrie', 'Industry and crafts', 'Gera', 'Gera', 'zusammen', 'Total', 3, 'Gera, zusammen', 'Gera, total', 3435, 3828, 546, 10284, 18093, 49.17]
+    [3, 'Industrie', 'Industry and crafts', 'Schleiz', 'Schleiz', 'Städte', 'Towns', 4, 'Schleiz, Städte', 'Schleiz, towns', 1188, 691, 120, 3067, 5066, 64.77]
+    [3, 'Industrie', 'Industry and crafts', 'Schleiz', 'Schleiz', 'Plattland', 'Countryside', 5, 'Schleiz, Plattland', 'Schleiz, countryside', 1889, 1633, 133, 6257, 9912, 51.21]
+    [3, 'Industrie', 'Industry and crafts', 'Schleiz', 'Schleiz', 'zusammen', 'Total', 6, 'Schleiz, zusammen', 'Schleiz, total', 3077, 2324, 253, 9324, 14978, 55.12]
+    [3, 'Industrie', 'Industry and crafts', 'Lobenstein-Ebersdorf', 'Lobenstein-Ebersdorf', 'Städte', 'Towns', 7, 'Lobenstein-Ebersdorf, Städte', 'Lobenstein-Ebersdorf, towns', 590, 445, 87, 1766, 2888, 62.62]
+    [3, 'Industrie', 'Industry and crafts', 'Lobenstein-Ebersdorf', 'Lobenstein-Ebersdorf', 'Plattland', 'Countryside', 8, 'Lobenstein-Ebersdorf, Plattland', 'Lobenstein-Ebersdorf, countryside', 1134, 1444, 140, 4452, 7170, 40.08]
+    [3, 'Industrie', 'Industry and crafts', 'Lobenstein-Ebersdorf', 'Lobenstein-Ebersdorf', 'zusammen', 'Total', 9, 'Lobenstein-Ebersdorf, zusammen', 'Lobenstein-Ebersdorf, total', 1724, 1889, 227, 6218, 10058, 44.7]
+    [3, 'Industrie', 'Industry and crafts', 'Fürstentum', 'Principality', 'Städte', 'Towns', 10, 'Fürstentum, Städte', 'Principality, towns', 3806, 3304, 567, 10389, 18066, 64.99]
+    [3, 'Industrie', 'Industry and crafts', 'Fürstentum', 'Principality', 'Plattland', 'Countryside', 11, 'Fürstentum, Plattland', 'Principality, countryside', 4430, 4737, 459, 15437, 25063, 42.71]
+    [3, 'Industrie', 'Industry and crafts', 'Fürstentum', 'Principality', 'zusammen', 'Total', 12, 'Fürstentum, zusammen', 'Principality, total', 8236, 8041, 1026, 25826, 43129, 49.88]
+    [4, 'Handel', 'Trade', 'Gera', 'Gera', 'Städte', 'Towns', 1, 'Gera, Städte', 'Gera, towns', 253, 196, 185, 611, 1245, 8.1]
+    [4, 'Handel', 'Trade', 'Gera', 'Gera', 'Plattland', 'Countryside', 2, 'Gera, Plattland', 'Gera, countryside', 201, 21, 104, 503, 829, 3.87]
+    [4, 'Handel', 'Trade', 'Gera', 'Gera', 'zusammen', 'Total', 3, 'Gera, zusammen', 'Gera, total', 454, 217, 289, 1114, 2074, 5.64]
+    [4, 'Handel', 'Trade', 'Schleiz', 'Schleiz', 'Städte', 'Towns', 4, 'Schleiz, Städte', 'Schleiz, towns', 116, 47, 72, 271, 506, 6.47]
+    [4, 'Handel', 'Trade', 'Schleiz', 'Schleiz', 'Plattland', 'Countryside', 5, 'Schleiz, Plattland', 'Schleiz, countryside', 111, 17, 52, 266, 446, 2.3]
+    [4, 'Handel', 'Trade', 'Schleiz', 'Schleiz', 'zusammen', 'Total', 6, 'Schleiz, zusammen', 'Schleiz, total', 227, 64, 124, 537, 952, 3.5]
+    [4, 'Handel', 'Trade', 'Lobenstein-Ebersdorf', 'Lobenstein-Ebersdorf', 'Städte', 'Towns', 7, 'Lobenstein-Ebersdorf, Städte', 'Lobenstein-Ebersdorf, towns', 70, 18, 34, 169, 291, 6.31]
+    [4, 'Handel', 'Trade', 'Lobenstein-Ebersdorf', 'Lobenstein-Ebersdorf', 'Plattland', 'Countryside', 8, 'Lobenstein-Ebersdorf, Plattland', 'Lobenstein-Ebersdorf, countryside', 121, 19, 69, 307, 516, 2.88]
+    [4, 'Handel', 'Trade', 'Lobenstein-Ebersdorf', 'Lobenstein-Ebersdorf', 'zusammen', 'Total', 9, 'Lobenstein-Ebersdorf, zusammen', 'Lobenstein-Ebersdorf, total', 191, 37, 103, 476, 807, 3.59]
+    [4, 'Handel', 'Trade', 'Fürstentum', 'Principality', 'Städte', 'Towns', 10, 'Fürstentum, Städte', 'Principality, towns', 439, 261, 291, 1051, 2042, 7.35]
+    [4, 'Handel', 'Trade', 'Fürstentum', 'Principality', 'Plattland', 'Countryside', 11, 'Fürstentum, Plattland', 'Principality, countryside', 433, 57, 225, 1076, 1791, 3.05]
+    [4, 'Handel', 'Trade', 'Fürstentum', 'Principality', 'zusammen', 'Total', 12, 'Fürstentum, zusammen', 'Principality, total', 872, 318, 516, 2127, 3833, 4.43]
+    [5, 'Transportgewerbe', 'Transport trades', 'Gera', 'Gera', 'Städte', 'Towns', 1, 'Gera, Städte', 'Gera, towns', 26, 3, 11, 70, 110, 0.72]
+    [5, 'Transportgewerbe', 'Transport trades', 'Gera', 'Gera', 'Plattland', 'Countryside', 2, 'Gera, Plattland', 'Gera, countryside', 19, None, 9, 36, 64, 0.3]
+    [5, 'Transportgewerbe', 'Transport trades', 'Gera', 'Gera', 'zusammen', 'Total', 3, 'Gera, zusammen', 'Gera, total', 45, 3, 20, 106, 174, 0.47]
+    [5, 'Transportgewerbe', 'Transport trades', 'Schleiz', 'Schleiz', 'Städte', 'Towns', 4, 'Schleiz, Städte', 'Schleiz, towns', 17, 1, 14, 52, 84, 1.07]
+    [5, 'Transportgewerbe', 'Transport trades', 'Schleiz', 'Schleiz', 'Plattland', 'Countryside', 5, 'Schleiz, Plattland', 'Schleiz, countryside', 5, None, 1, 17, 23, 0.12]
+    [5, 'Transportgewerbe', 'Transport trades', 'Schleiz', 'Schleiz', 'zusammen', 'Total', 6, 'Schleiz, zusammen', 'Schleiz, total', 22, 1, 15, 69, 107, 0.39]
+    [5, 'Transportgewerbe', 'Transport trades', 'Lobenstein-Ebersdorf', 'Lobenstein-Ebersdorf', 'Städte', 'Towns', 7, 'Lobenstein-Ebersdorf, Städte', 'Lobenstein-Ebersdorf, towns', 6, 2, 2, 25, 35, 0.76]
+    [5, 'Transportgewerbe', 'Transport trades', 'Lobenstein-Ebersdorf', 'Lobenstein-Ebersdorf', 'Plattland', 'Countryside', 8, 'Lobenstein-Ebersdorf, Plattland', 'Lobenstein-Ebersdorf, countryside', 4, 3, 1, 9, 17, 0.1]
+    [5, 'Transportgewerbe', 'Transport trades', 'Lobenstein-Ebersdorf', 'Lobenstein-Ebersdorf', 'zusammen', 'Total', 9, 'Lobenstein-Ebersdorf, zusammen', 'Lobenstein-Ebersdorf, total', 10, 5, 3, 34, 52, 0.23]
+    [5, 'Transportgewerbe', 'Transport trades', 'Fürstentum', 'Principality', 'Städte', 'Towns', 10, 'Fürstentum, Städte', 'Principality, towns', 49, 6, 27, 147, 229, 0.82]
+    [5, 'Transportgewerbe', 'Transport trades', 'Fürstentum', 'Principality', 'Plattland', 'Countryside', 11, 'Fürstentum, Plattland', 'Principality, countryside', 28, 3, 11, 62, 104, 0.18]
+    [5, 'Transportgewerbe', 'Transport trades', 'Fürstentum', 'Principality', 'zusammen', 'Total', 12, 'Fürstentum, zusammen', 'Principality, total', 77, 9, 38, 209, 333, 0.39]
+--DS produktiv Produzierende und unproducirende Bevölkerung 12 [{'page': '213', 'block': 'b3', 'rows': 'r3-t5'}]
+  cols [('landestheil_de', 'string', None, ''), ('landestheil_en', 'string', None, ''), ('gebiet_de', 'string', None, ''), ('gebiet_en', 'string', None, ''), ('produktiv_pct', 'number', '%', ''), ('unproduktiv_pct', 'number', '%', '')]
+    ['Gera', 'Gera', 'Städte', 'Towns', 45.06, 54.94]
+    ['Gera', 'Gera', 'Plattland', 'Countryside', 42.24, 57.76]
+    ['Gera', 'Gera', 'Durchschnitt', 'Average', 43.42, 56.58]
+    ['Schleiz', 'Schleiz', 'Städte', 'Towns', 39.91, 60.09]
+    ['Schleiz', 'Schleiz', 'Plattland', 'Countryside', 37.88, 62.12]
+    ['Schleiz', 'Schleiz', 'Durchschnitt', 'Average', 38.46, 61.54]
+    ['Lobenstein-Ebersdorf', 'Lobenstein-Ebersdorf', 'Städte', 'Towns', 38.16, 61.84]
+    ['Lobenstein-Ebersdorf', 'Lobenstein-Ebersdorf', 'Plattland', 'Countryside', 36.99, 63.01]
+    ['Lobenstein-Ebersdorf', 'Lobenstein-Ebersdorf', 'Durchschnitt', 'Average', 37.23, 62.77]
+    ['Fürstentum', 'Principality', 'Städte', 'Towns', 42.47, 57.53]
+    ['Fürstentum', 'Principality', 'Plattland', 'Countryside', 39.21, 60.79]
+    ['Fürstentum', 'Principality', 'Durchschnitt', 'Average', 40.25, 59.75]
+--CHART c1 klassen Anteil der Berufsklassen an der Bevölkerung
+--CHART c2 klassen Stadt und Land in den drei Landesteilen
+--CHART c3 klassen Stellung im Beruf nach Berufsklassen
+--CHART c4 produktiv Produzierende Bevölkerung

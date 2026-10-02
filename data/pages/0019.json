@@ -89,7 +89,7 @@
      "role": "body",
      "cells": [
       {
-       "text": "Rödersdorf",
+       "text": "Rüdersdorf",
        "spans": [
         [
          0,
@@ -780,7 +780,7 @@
    "id": "b3",
    "type": "paragraph",
    "src": 2,
-   "text": "in gleicher Länge: Großaga, Gera, Langenwetzendorf;\nKöstritz, Mühlsdorf, Frankenthal, Triebes;\nRödersdorf, Lohma, Tanna, Dobareuth;\nPörmitz, Schleiz, Seubtendorf;\nGahma, Wurzbach, Titschendorf;",
+   "text": "in gleicher Länge: Großaga, Gera, Langenwetzendorf;\nKöstritz, Mühlsdorf, Frankenthal, Triebes;\nRödersdorf, Löhma, Tanna, Dobareuth;\nPörmitz, Schleiz, Seubtendorf;\nGahma, Wurzbach, Titschendorf;",
    "spans": [
     [
      34,
@@ -1089,6 +1089,20 @@
  ],
  "footnotes": [],
  "corrections": [
+  {
+   "rule": "facsimile_correction",
+   "before": "Rödersdorf",
+   "after": "Rüdersdorf",
+   "source": "land-lage-grenzen",
+   "n": 1
+  },
+  {
+   "rule": "facsimile_correction",
+   "before": "Lohma",
+   "after": "Löhma",
+   "source": "land-lage-grenzen",
+   "n": 1
+  },
   {
    "rule": "table_no_header_row",
    "note": "first row is data (legacy edition rendered it as <th>)",

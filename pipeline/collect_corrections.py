@@ -52,6 +52,13 @@ MANUAL = [
     ("275", "sechstellige", "sechsellige", "b4", "A11", "checked on the scan"),
     ("332", "Würschengriin", "Würschengrün", "b3", "E2", "checked on the scan"),
     ("147", "Thründorf", "Thrändorf", "b3", "A08", "Fraktur ä/ü; checked on the scan"),
+    ("7", "Rödersdorf", "Rüdersdorf", "b1", "land-lage-grenzen", "mill near Gera in the table of surveyed points; checked on the scan (b3 prints Rödersdorf near Schleiz)"),
+    ("7", "Lohma", "Löhma", "b3", "land-lage-grenzen", "checked on the scan"),
+    ("22", "Karolinensfeld", "Karolinenfeld", None, "relief-hoehen", "checked on the scan"),
+    ("58", "Karolinensfeld", "Karolinenfeld", "b4", "relief-hoehen", "same misreading as p. 22"),
+    ("47", "Bittera", "Wittera", "b4", "gewaesser", "Fraktur W/B; checked on the scan"),
+    ("48", "Wioschwitz", "Moschwitz", "b4", "gewaesser", "checked on the scan"),
+    ("299", "1,10", "1,40", "b3", "kirche-schule", "the print has 1,40, a misprint for 1,10 (117 : 106); the transcription had corrected it silently"),
 ]
 SUBSCRIBER_FIXES = [("v. Boss", "v. Voß"), ("Weissker", "Weißker"), ("Weissendorf", "Weißendorf"), ("Meissner", "Meißner"),
                     ("Siekmann", "Sieckmann"), ("Mauke", "Maucke")]
@@ -110,7 +117,7 @@ def main() -> None:
             p = pages.get(page)
             if p and any(find in (block_text(p, b["id"]) or "") for b in p["blocks"]):
                 add(page, find, repl, None, "B01", "subscriber list; checked on the scan")
-    for f in list((DATA / "analyses").glob("*.json")) + list((DATA / "gazetteer").glob("G*.json")):
+    for f in list((DATA / "analyses").glob("*.json")) + list((DATA / "analyses" / "_archive").glob("*.json")) + list((DATA / "gazetteer").glob("G*.json")):
         try:
             d = read_json(f)
         except json.JSONDecodeError:
@@ -127,6 +134,16 @@ def main() -> None:
                 continue
             add(str(t.get("page")), tr, fa, t.get("block") if re.fullmatch(r"(b|fn)\d+", str(t.get("block") or "")) else None,
                 f.stem, t.get("note", ""))
+    # corrections applied in an earlier run no longer find their wrong form in data/pages: keep them
+    previous = DATA / "corrections" / "verified.json"
+    if previous.exists():
+        have = {(c["page"], c["find"]) for c in out}
+        for c in read_json(previous)["corrections"]:
+            p = pages.get(c["page"])
+            text = "\n".join(block_text(p, b["id"]) or "" for b in p["blocks"]) if p else ""
+            if (c["page"], c["find"]) not in have and c["replace"] in text:
+                out.append(c)
+                have.add((c["page"], c["find"]))
     write_json(DATA / "corrections" / "verified.json", {"_doc": __doc__.strip().splitlines()[0], "corrections": out,
                                                         "not_applied": [{"page": a, "text": b, "reason": c} for a, b, c in skipped]})
     print(f"corrections: {len(out)} applied, {len(skipped)} not applied")

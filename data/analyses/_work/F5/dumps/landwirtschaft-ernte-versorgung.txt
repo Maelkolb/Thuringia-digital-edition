@@ -1,0 +1,60 @@
+====================================================================================================
+landwirtschaft-ernte-versorgung t1-3-2 agriculture
+TITLE Anbau, Ertrag und Selbstversorgung: Produktion und Verbrauch des Getreidelandes
+SUMMARY Da dem Land »specielle Erndteresultate« fehlen, rechnet Brückner mit Schätzungen für mittlere Erntejahre: Verteilung der Fruchtarten auf die Ackerfläche, Ertrag je Morgen, Nährwert (in Roggenwert) und den Bedarf von Menschen und Vieh. Die Diagramme zeigen die angenommene Fruchtverteilung, die Erträge, die Bilanz von Produktion und Verbrauch in Zentnern Roggenwert und die Zahl der Taglöhner und landwirtschaftlichen Dienstboten.
+FIND Die angenommene Fruchtverteilung unterscheidet Unter- und Oberland: Weizen nimmt in Gera 11,1 % der Ackerfläche ein, in Schleiz und Lobenstein-Ebersdorf (dort mit gleichen Ansätzen) nur 5,6 %; Hafer 25,0 % gegenüber 16,7 %; Kartoffeln 11,1 % gegenüber 16,7 %. Die Anteile von Schleiz und Lobenstein-Ebersdorf sind identisch, weil Brückner die Ansätze des Landrats Fuchs für beide übernimmt.
+FIND Der angenommene Ertrag liegt im Unterland höher: Weizen und Roggen 6, Gerste 7 und Hafer 10 Sack je Morgen gegenüber durchweg 5 Sack im Oberland (nur bei den Hülsenfrüchten ist es umgekehrt: 4 gegenüber 5); Kartoffeln 40 Sack und Hackfrüchte 78 Sack je Morgen in beiden Gebieten.
+FIND Nach Brückners Bilanz übersteigt die Produktion den Verbrauch im ganzen Land um 49.716 Zentner Roggenwert (9,0 % des Verbrauchs): Gera 11,1 %, Schleiz 11,0 %, Lobenstein-Ebersdorf nur 2,7 %. Je Quadratmeile beträgt der Überschuss in Gera 6.816 Zentner, in Schleiz 3.225 und in Lobenstein-Ebersdorf 696.
+FIND 1864 kommt in Gera ein Taglöhner auf 8,34 Einwohner (119,9 je 1000), in Schleiz erst auf 14,24 (70,2 je 1000) und in Lobenstein-Ebersdorf auf 10,37 (96,4 je 1000); landwirtschaftliche Dienstboten sind im Landesteil Schleiz am häufigsten (42,3 je 1000).
+METHOD Die Zahlen stammen aus den beiden Tabellen zu Fruchtverteilung und Ertrag (S. 226, Blöcke b3 und b4), der Bilanztabelle (S. 227, Block b1) und der Tabelle zu Taglöhnern und Dienstboten 1864 (S. 227, Block b5). Brückner übernimmt für Schleiz und Lobenstein-Ebersdorf die Ansätze des Landrats Fuchs (1861) und für Gera eigene Erfahrungswerte; die Ackerfläche entspricht der »Gegenwart« (S. 226, Fußnote **). Die Mengen sind in Morgen, Säcken (1 Sack = 2 preußische Scheffel) und Zentnern Roggenwert angegeben; Brückner setzt Roggen = 1 und rechnet Weizen und Hülsenfrüchte mit 1,29, Gerste mit 0,76, Hafer mit 0,47 und Kartoffeln mit 0,25. Gemischte Brüche der Vorlage (z. B. 5666 2/3) wurden als Dezimalzahlen übernommen (Spalten *_text enthalten den gedruckten Wortlaut). Der Ertrag je Morgen (Sack/Morgen) ist Säcke geteilt durch Morgen. Morgen wurden mit Brückners Faktor 0,255322 in Hektar umgerechnet (S. 832). Eine Umrechnung von Sack und Zentner in metrische Einheiten ist nach Brückners Tabelle (S. 831–832) nicht möglich (nur ein Zollpfund = 0,5 kg ist angegeben) und unterbleibt. In den Bergbau-Auswertungen ist der Zollzentner mit 100 Zollpfund = 50 kg angesetzt; ob Brückners »Centner Roggenwerth« so zu verstehen ist, sagt er nicht, deshalb bleibt die Einheit hier unverändert.
+CAVEAT Die Bilanz ist eine Modellrechnung, keine Erntestatistik: Fruchtverteilung und Erträge sind Schätzungen für mittlere Jahre, der Verbrauch ist mit festen Sätzen angesetzt (je Kopf der Bevölkerung 4 Zentner Roggenwert, je Pferd 20, je Rind 2,5, je Schwein 4,5, je Schaf oder Ziege 0,1 Zentner).
+CAVEAT Für Gera weicht die Produktion der Bilanz (275 485 Zentner, S. 227) von der Summe der Roggenwerte der Fruchtarten (260 714, S. 226) um 14 771 Zentner ab; bei Schleiz und Lobenstein-Ebersdorf stimmen beide Seiten überein. Beide Werte sind so gedruckt (am Faksimile geprüft); die Landessumme 599 531,78 enthält die höhere Zahl.
+CAVEAT Die Zahlen zu Taglöhnern und Dienstboten (S. 227) stammen aus der Zählung 1864; sie stimmen nicht mit den Summen der Berufsklassen auf S. 209–211 überein (dort für Lobenstein-Ebersdorf z. B. 2867 Personen in der Klasse »Handarbeiter u. Taglöhner«), so dass der Zählbegriff verschieden sein muss.
+CONV [{'from': 'preußischer Morgen', 'to': 'Hektar', 'factor_or_formula': 'ha = Morgen × 0,255322', 'reference': 'Brückner S. 832: 1 preuß. Morgen (180 Quadratruthen) = 0,255322 Hectaren'}, {'from': 'Sack', 'to': 'preußischer Scheffel', 'factor_or_formula': '1 Sack = 2 preuß. Scheffel', 'reference': 'Brückner S. 226 (Text)'}, {'from': 'Centner Roggenwerth', 'to': 'Centner Roggen', 'factor_or_formula': 'Roggen = 1; Weizen, Hülsenfrüchte 1,29; Gerste 0,76; Hafer 0,47; Kartoffeln 0,25', 'reference': 'Brückner S. 226 (Text)'}]
+TI null
+--DS anbau Fruchtverteilung und Ertrag nach Landesteilen 28 [{'page': '226', 'block': 'b3', 'rows': 'r3-t10'}, {'page': '226', 'block': 'b4', 'rows': 'r2-t9'}]
+  cols [('landestheil_de', 'string', None, ''), ('landestheil_en', 'string', None, ''), ('lt_nr', 'integer', None, 'D'), ('frucht_de', 'string', None, ''), ('frucht_en', 'string', None, ''), ('frucht_nr', 'integer', None, 'D'), ('morgen_text', 'string', None, ''), ('morgen', 'number', 'preuß. Morgen', 'D'), ('ha', 'number', 'ha', 'D'), ('saecke_text', 'string', None, ''), ('saecke', 'number', 'Säcke', 'D'), ('roggenwerth', 'number', 'Zentner', 'D'), ('sack_je_morgen', 'number', 'Säcke/Morgen', 'D')]
+    ['Gera', 'Gera', 1, 'Weizen', 'Wheat', 1, '5666 2/3', 5666.666666666667, 1447.0, '34000', 34000, 43860, 6.0]
+    ['Schleiz', 'Schleiz', 2, 'Weizen', 'Wheat', 1, '2273 1/3', 2273.3333333333335, 580.0, '11366 2/3', 11366.666666666666, 14663, 5.0]
+    ['Lobenstein-Ebersdorf', 'Lobenstein-Ebersdorf', 3, 'Weizen', 'Wheat', 1, '1625', 1625, 415.0, '8125', 8125, 10481.25, 5.0]
+    ['Fürstentum', 'Principality', 4, 'Weizen', 'Wheat', 1, '9565', 9565, 2442.0, '53491 2/3', 53491.666666666664, 69004.25, 5.6]
+    ['Gera', 'Gera', 1, 'Korn', 'Rye (Korn)', 2, '11333 1/3', 11333.333333333334, 2894.0, '68000', 68000, 68000, 6.0]
+    ['Schleiz', 'Schleiz', 2, 'Korn', 'Rye (Korn)', 2, '11366 2/3', 11366.666666666666, 2902.0, '56832 1/3', 56832.333333333336, 56832.333333333336, 5.0]
+    ['Lobenstein-Ebersdorf', 'Lobenstein-Ebersdorf', 3, 'Korn', 'Rye (Korn)', 2, '8125', 8125, 2074.0, '40625', 40625, 40625, 5.0]
+    ['Fürstentum', 'Principality', 4, 'Korn', 'Rye (Korn)', 2, '30825', 30825, 7870.0, '165457 1/3', 165457.33333333334, 165457.33, 5.4]
+    ['Gera', 'Gera', 1, 'Gerste', 'Barley', 3, '4250', 4250, 1085.0, '29750', 29750, 22510, 7.0]
+    ['Schleiz', 'Schleiz', 2, 'Gerste', 'Barley', 3, '6820', 6820, 1741.0, '34100', 34100, 25916, 5.0]
+    ['Lobenstein-Ebersdorf', 'Lobenstein-Ebersdorf', 3, 'Gerste', 'Barley', 3, '4875', 4875, 1245.0, '24375', 24375, 18525, 5.0]
+    ['Fürstentum', 'Principality', 4, 'Gerste', 'Barley', 3, '15945', 15945, 4071.0, '88225', 88225, 66951, 5.5]
+    ['Gera', 'Gera', 1, 'Hafer', 'Oats', 4, '12750', 12750, 3255.0, '127500', 127500, 59925, 10.0]
+    ['Schleiz', 'Schleiz', 2, 'Hafer', 'Oats', 4, '6820', 6820, 1741.0, '34100', 34100, 16027, 5.0]
+    ['Lobenstein-Ebersdorf', 'Lobenstein-Ebersdorf', 3, 'Hafer', 'Oats', 4, '4875', 4875, 1245.0, '24375', 24375, 11457.25, 5.0]
+    ['Fürstentum', 'Principality', 4, 'Hafer', 'Oats', 4, '24445', 24445, 6241.0, '185975', 185975, 87409.25, 7.6]
+    ['Gera', 'Gera', 1, 'Kartoffeln', 'Potatoes', 5, '5666 2/3', 5666.666666666667, 1447.0, '226667', 226667, 56667, 40.0]
+    ['Schleiz', 'Schleiz', 2, 'Kartoffeln', 'Potatoes', 5, '6820', 6820, 1741.0, '272800', 272800, 68200, 40.0]
+    ['Lobenstein-Ebersdorf', 'Lobenstein-Ebersdorf', 3, 'Kartoffeln', 'Potatoes', 5, '4875', 4875, 1245.0, '195000', 195000, 48750, 40.0]
+    ['Fürstentum', 'Principality', 4, 'Kartoffeln', 'Potatoes', 5, '17361 2/3', 17361.666666666668, 4433.0, '694467', 694467, 173617, 40.0]
+    ['Gera', 'Gera', 1, 'Hülsenfrüchte', 'Pulses', 6, '1888 8/9', 1888.888888888889, 482.0, '7556', 7556, 9752, 4.0]
+    ['Schleiz', 'Schleiz', 2, 'Hülsenfrüchte', 'Pulses', 6, '1136 1/3', 1136.3333333333333, 290.0, '5681 2/3', 5681.666666666667, 7329.333333333333, 5.0]
+    ['Lobenstein-Ebersdorf', 'Lobenstein-Ebersdorf', 3, 'Hülsenfrüchte', 'Pulses', 6, '812 1/2', 812.5, 207.0, '4062 1/2', 4062.5, 5240.62, 5.0]
+    ['Fürstentum', 'Principality', 4, 'Hülsenfrüchte', 'Pulses', 6, '3837 13/18', 3837.722222222222, 980.0, '17300 1/6', 17300.166666666668, 22321.95, 4.5]
+    ['Gera', 'Gera', 1, 'Hackfrüchte', 'Root crops', 7, '9444 4/9', 9444.444444444445, 2411.0, '735667', 735667, None, 77.9]
+    ['Schleiz', 'Schleiz', 2, 'Hackfrüchte', 'Root crops', 7, '5683 2/3', 5683.666666666667, 1451.0, '443326', 443326, None, 78.0]
+    ['Lobenstein-Ebersdorf', 'Lobenstein-Ebersdorf', 3, 'Hackfrüchte', 'Root crops', 7, '4062 1/2', 4062.5, 1037.0, '316875', 316875, None, 78.0]
+    ['Fürstentum', 'Principality', 4, 'Hackfrüchte', 'Root crops', 7, '19190 11/18', 19190.61111111111, 4900.0, '1495868', 1495868, None, 77.9]
+--DS bilanz Produktion und Verbrauch (Roggenwert) 4 [{'page': '227', 'block': 'b1', 'rows': 'r2-r5'}]
+  cols [('landestheil_de', 'string', None, ''), ('landestheil_en', 'string', None, ''), ('lt_nr', 'integer', None, 'D'), ('produktion_text', 'string', None, ''), ('produktion', 'number', 'Zentner', 'D'), ('verbrauch_text', 'string', None, ''), ('verbrauch', 'number', 'Zentner', 'D'), ('ueberschuss_text', 'string', None, ''), ('ueberschuss', 'number', 'Zentner', 'D'), ('ueberschuss_je_qm', 'number', 'Zentner/□Meile', ''), ('ueberschuss_pct', 'number', '%', 'D')]
+    ['Gera', 'Gera', 1, '275485', 275485, '248018', 248018, '27467', 27467, 6815.63, 11.1]
+    ['Schleiz', 'Schleiz', 2, '188967 2/3', 188967.66666666666, '170219', 170219, '18748 2/3', 18748.666666666668, 3224.77, 11.0]
+    ['Lobenstein-Ebersdorf', 'Lobenstein-Ebersdorf', 3, '135079,12', 135079.12, '131579', 131579, '3500,12', 3500.12, 695.84, 2.7]
+    ['Land', 'Country as a whole', 4, '599531,78', 599531.78, '549816', 549816, '49715,78', 49715.78, 3301.18, 9.0]
+--DS arbeitskraefte Taglöhner und landwirtschaftliche Dienstboten 1864 4 [{'page': '227', 'block': 'b5', 'rows': 'r2-r5'}]
+  cols [('landestheil_de', 'string', None, ''), ('landestheil_en', 'string', None, ''), ('lt_nr', 'integer', None, 'D'), ('taglohner', 'integer', 'Personen', ''), ('dienstboten', 'integer', 'Personen', ''), ('einw_je_taglohner', 'number', 'Einwohner', ''), ('einw_je_dienstbote', 'number', 'Einwohner', ''), ('taglohner_je_1000', 'number', '‰', 'D'), ('dienstboten_je_1000', 'number', '‰', 'D')]
+    ['Gera', 'Gera', 1, 4404, 1368, 8.34, 26.09, 119.9, 38.3]
+    ['Schleiz', 'Schleiz', 2, 1908, 1150, 14.24, 23.63, 70.2, 42.3]
+    ['Lobenstein-Ebersdorf', 'Lobenstein-Ebersdorf', 3, 2169, 623, 10.37, 34.43, 96.4, 29.0]
+    ['Land', 'Country as a whole', 4, 8481, 3141, 10.19, 27.52, 98.1, 36.3]
+--CHART c1 anbau Angenommene Fruchtverteilung auf der Ackerfläche
+--CHART c2 anbau Angenommener Ertrag je Morgen
+--CHART c3 bilanz Produktion und Verbrauch in Roggenwert
+--CHART c4 arbeitskraefte Taglöhner und landwirtschaftliche Dienstboten

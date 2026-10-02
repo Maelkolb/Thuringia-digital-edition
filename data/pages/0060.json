@@ -318,7 +318,7 @@
    "id": "b4",
    "type": "paragraph",
    "src": 3,
-   "text": "1) Die Selbitz, aus Bayern von Wüstenselbitz kommend und im Endlaufe die Landesgrenze bildend, nimmt die thüringische Wioschwitz auf, welche am Südwestfuße des Kulm 1647' hoch quillt, bei der Buttermühle den von Schlegel über Seibis rinnenden Saubach erhält und in ihrem Ostlaufe die Grenze gegen Bayern macht.",
+   "text": "1) Die Selbitz, aus Bayern von Wüstenselbitz kommend und im Endlaufe die Landesgrenze bildend, nimmt die thüringische Moschwitz auf, welche am Südwestfuße des Kulm 1647' hoch quillt, bei der Buttermühle den von Schlegel über Seibis rinnenden Saubach erhält und in ihrem Ostlaufe die Grenze gegen Bayern macht.",
    "spans": [
     [
      7,
@@ -331,8 +331,8 @@
      "Location"
     ],
     [
-     297,
-     303,
+     296,
+     302,
      "Location"
     ],
     [
@@ -342,32 +342,32 @@
     ],
     [
      118,
-     128,
+     127,
      "Natural Object"
     ],
     [
-     160,
-     164,
+     159,
+     163,
      "Natural Object"
     ],
     [
-     192,
-     203,
+     191,
+     202,
      "Artefact"
     ],
     [
-     212,
-     220,
+     211,
+     219,
      "Location"
     ],
     [
-     226,
-     232,
+     225,
+     231,
      "Location"
     ],
     [
-     243,
-     250,
+     242,
+     249,
      "Natural Object"
     ]
    ],
@@ -684,7 +684,15 @@
    ]
   }
  ],
- "corrections": [],
+ "corrections": [
+  {
+   "rule": "facsimile_correction",
+   "before": "Wioschwitz",
+   "after": "Moschwitz",
+   "source": "gewaesser",
+   "n": 1
+  }
+ ],
  "provenance": {
   "source": "colab-2026-01",
   "model": "gemini-3-flash-preview",

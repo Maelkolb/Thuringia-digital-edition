@@ -1,0 +1,61 @@
+====================================================================================================
+landwirtschaft-bodennutzung-1854 t1-3-2 agriculture
+TITLE Bodennutzung in den drei Landesteilen (Vermessung 1854)
+SUMMARY Nach der Landesvermessung von 1854 verteilt Brückner die Fläche des Fürstentums (322.746 Morgen, rund 82.404 ha) auf neun Nutzungsarten. Die Diagramme zeigen, wie sich Feld, Wiese, Hutung, Garten und Wald auf Gera, Schleiz und Lobenstein-Ebersdorf verteilen und wie viel landwirtschaftlicher Boden auf eine Familie kommt.
+FIND Gera ist ausgesprochenes Ackerland: 58,0 % der Fläche sind Feld, nur 17,3 % Nadelholz. In Schleiz (32,3 % Feld) und Lobenstein-Ebersdorf (26,6 %) ist dagegen der Nadelwald die größte Nutzung (39,9 % bzw. 47,6 %).
+FIND Das Oberland hat im Verhältnis weit mehr Wiese als das Unterland: 20,0 % in Schleiz und 18,9 % in Lobenstein-Ebersdorf gegenüber 9,0 % in Gera.
+FIND Laubwald gibt es fast nur im Landesteil Gera (6,9 % der Fläche); in Schleiz sind es 0,3 %.
+FIND Der Anteil des landwirtschaftlich genutzten Bodens (Garten, Feld, Wiese, Hutung) an der Gesamtfläche sinkt von 72,5 % in Gera über 56,5 % in Schleiz auf 49,5 % in Lobenstein-Ebersdorf (Fürstentum: 58,4 %).
+FIND Auf eine Familie kommen in Gera 7,84 Morgen (2,00 ha) landwirtschaftlicher Boden, in Schleiz 11,60 Morgen (2,96 ha) und in Lobenstein-Ebersdorf 11,37 Morgen (2,90 ha).
+METHOD Die Morgenzahlen und Prozentwerte stammen aus der Tabelle auf S. 217 (Block b1, Zeilen »Arten der Benutzung«) und aus der Tabelle zum landwirtschaftlichen Boden (Block b3). Umrechnung in Hektar mit Brückners eigener Tabelle (S. 832): 1 preuß. Morgen (180 Quadratruthen) = 0,255322 ha. Für die Diagramme sind Gehöfte, Teiche und steuerfreier Boden zur Gruppe »Gehöfte, Teiche u. a.« zusammengefasst. Der »landwirthschaftliche Boden« ist bei Brückner die Summe aus Gärten, Feld, Wiese und Hutung; zur Kontrolle wurde sie aus Block b1 nachgerechnet (Spalte morgen_berechnet).
+CAVEAT Die Zahlen beruhen auf der Vermessung von 1854. Seither hat die Feldfläche vor allem im Landesteil Gera um etwa 1000 Morgen zugenommen (Fußnote S. 217 und S. 226); Brückner behält 1854 als Grundlage bei. Lobenstein-Ebersdorf war nur »croquirt«, seine Fläche ist wahrscheinlich größer als angegeben.
+CAVEAT Die gedruckten Summen stimmen nicht ganz: Für Schleiz steht in Block b3 71 574 Morgen landwirtschaftlicher Boden, die Teilposten aus Block b1 ergeben 71 374; die Summe des Fürstentums (188 542) passt zu 71 374. Auch einzelne Spalten des Fürstentums weichen um bis zu etwa einen Morgen von der Summe der Landesteile ab. Die gedruckten Werte wurden unverändert übernommen (am Faksimile geprüft).
+CONV [{'from': 'preußischer Morgen', 'to': 'Hektar', 'factor_or_formula': 'ha = Morgen × 0,255322', 'reference': 'Brückner S. 832: 1 preuß. Morgen (180 Quadratruthen) = 0,255322 Hectaren'}]
+TI null
+--DS nutzung Bodennutzung nach Landesteilen 36 [{'page': '217', 'block': 'b1', 'rows': 'r2-t11'}]
+  cols [('nutzung_de', 'string', None, ''), ('nutzung_en', 'string', None, ''), ('gruppe_de', 'string', None, 'D'), ('gruppe_en', 'string', None, 'D'), ('gruppe_nr', 'integer', None, 'D'), ('landestheil_de', 'string', None, ''), ('landestheil_en', 'string', None, ''), ('lt_nr', 'integer', None, 'D'), ('morgen', 'number', 'preuß. Morgen', ''), ('pct', 'number', '%', ''), ('ha', 'number', 'ha', 'D')]
+    ['Gehöfte', 'Farmsteads', 'Gehöfte, Teiche u. a.', 'Farmsteads, ponds etc.', 7, 'Gera', 'Gera', 1, 804.45, 0.93, 205.4]
+    ['Gehöfte', 'Farmsteads', 'Gehöfte, Teiche u. a.', 'Farmsteads, ponds etc.', 7, 'Schleiz', 'Schleiz', 2, 556, 0.44, 142.0]
+    ['Gehöfte', 'Farmsteads', 'Gehöfte, Teiche u. a.', 'Farmsteads, ponds etc.', 7, 'Lobenstein-Ebersdorf', 'Lobenstein-Ebersdorf', 3, 413.75, 0.38, 105.6]
+    ['Gehöfte', 'Farmsteads', 'Gehöfte, Teiche u. a.', 'Farmsteads, ponds etc.', 7, 'Fürstentum', 'Principality', 4, 1774.2, 0.55, 453.0]
+    ['Gärten und Obstanlagen', 'Gardens and orchards', 'Gärten und Obstanlagen', 'Gardens and orchards', 2, 'Gera', 'Gera', 1, 2356.32, 2.73, 601.6]
+    ['Gärten und Obstanlagen', 'Gardens and orchards', 'Gärten und Obstanlagen', 'Gardens and orchards', 2, 'Schleiz', 'Schleiz', 2, 1138, 0.9, 290.6]
+    ['Gärten und Obstanlagen', 'Gardens and orchards', 'Gärten und Obstanlagen', 'Gardens and orchards', 2, 'Lobenstein-Ebersdorf', 'Lobenstein-Ebersdorf', 3, 668.14, 0.61, 170.6]
+    ['Gärten und Obstanlagen', 'Gardens and orchards', 'Gärten und Obstanlagen', 'Gardens and orchards', 2, 'Fürstentum', 'Principality', 4, 4162.47, 1.29, 1062.8]
+    ['Feld', 'Arable land', 'Feld', 'Arable land', 1, 'Gera', 'Gera', 1, 50077.96, 57.95, 12786.0]
+    ['Feld', 'Arable land', 'Feld', 'Arable land', 1, 'Schleiz', 'Schleiz', 2, 40841, 32.34, 10427.6]
+    ['Feld', 'Arable land', 'Feld', 'Arable land', 1, 'Lobenstein-Ebersdorf', 'Lobenstein-Ebersdorf', 3, 29227.01, 26.56, 7462.3]
+    ['Feld', 'Arable land', 'Feld', 'Arable land', 1, 'Fürstentum', 'Principality', 4, 120146.96, 37.22, 30676.2]
+    ['Wiese', 'Meadow', 'Wiese', 'Meadow', 3, 'Gera', 'Gera', 1, 7816.33, 9.04, 1995.7]
+    ['Wiese', 'Meadow', 'Wiese', 'Meadow', 3, 'Schleiz', 'Schleiz', 2, 25226, 19.98, 6440.8]
+    ['Wiese', 'Meadow', 'Wiese', 'Meadow', 3, 'Lobenstein-Ebersdorf', 'Lobenstein-Ebersdorf', 3, 20770.0, 18.88, 5303.0]
+    ['Wiese', 'Meadow', 'Wiese', 'Meadow', 3, 'Fürstentum', 'Principality', 4, 53812.33, 16.67, 13739.5]
+    ['Hutung', 'Rough pasture', 'Hutung', 'Rough pasture', 4, 'Gera', 'Gera', 1, 2436.76, 2.82, 622.2]
+    ['Hutung', 'Rough pasture', 'Hutung', 'Rough pasture', 4, 'Schleiz', 'Schleiz', 2, 4169, 3.3, 1064.4]
+    ['Hutung', 'Rough pasture', 'Hutung', 'Rough pasture', 4, 'Lobenstein-Ebersdorf', 'Lobenstein-Ebersdorf', 3, 3815.08, 3.47, 974.1]
+    ['Hutung', 'Rough pasture', 'Hutung', 'Rough pasture', 4, 'Fürstentum', 'Principality', 4, 10420.83, 3.23, 2660.7]
+    ['Teiche', 'Ponds', 'Gehöfte, Teiche u. a.', 'Farmsteads, ponds etc.', 7, 'Gera', 'Gera', 1, 145.25, 0.17, 37.1]
+    ['Teiche', 'Ponds', 'Gehöfte, Teiche u. a.', 'Farmsteads, ponds etc.', 7, 'Schleiz', 'Schleiz', 2, 1422, 1.13, 363.1]
+    ['Teiche', 'Ponds', 'Gehöfte, Teiche u. a.', 'Farmsteads, ponds etc.', 7, 'Lobenstein-Ebersdorf', 'Lobenstein-Ebersdorf', 3, 205.71, 0.19, 52.5]
+    ['Teiche', 'Ponds', 'Gehöfte, Teiche u. a.', 'Farmsteads, ponds etc.', 7, 'Fürstentum', 'Principality', 4, 1772.75, 0.55, 452.6]
+    ['Laubholz', 'Deciduous woodland', 'Laubholz', 'Deciduous woodland', 5, 'Gera', 'Gera', 1, 5968.81, 6.91, 1524.0]
+    ['Laubholz', 'Deciduous woodland', 'Laubholz', 'Deciduous woodland', 5, 'Schleiz', 'Schleiz', 2, 332, 0.26, 84.8]
+    ['Laubholz', 'Deciduous woodland', 'Laubholz', 'Deciduous woodland', 5, 'Lobenstein-Ebersdorf', 'Lobenstein-Ebersdorf', 3, 277.13, 0.25, 70.8]
+    ['Laubholz', 'Deciduous woodland', 'Laubholz', 'Deciduous woodland', 5, 'Fürstentum', 'Principality', 4, 6578.94, 2.04, 1679.7]
+    ['Nadelholz', 'Coniferous woodland', 'Nadelholz', 'Coniferous woodland', 6, 'Gera', 'Gera', 1, 14975.58, 17.33, 3823.6]
+    ['Nadelholz', 'Coniferous woodland', 'Nadelholz', 'Coniferous woodland', 6, 'Schleiz', 'Schleiz', 2, 50429, 39.92, 12875.6]
+    ['Nadelholz', 'Coniferous woodland', 'Nadelholz', 'Coniferous woodland', 6, 'Lobenstein-Ebersdorf', 'Lobenstein-Ebersdorf', 3, 52421.01, 47.64, 13384.2]
+    ['Nadelholz', 'Coniferous woodland', 'Nadelholz', 'Coniferous woodland', 6, 'Fürstentum', 'Principality', 4, 117825.59, 36.51, 30083.5]
+    ['Steuerfreier Boden', 'Tax-exempt land', 'Gehöfte, Teiche u. a.', 'Farmsteads, ponds etc.', 7, 'Gera', 'Gera', 1, 1834.99, 2.12, 468.5]
+    ['Steuerfreier Boden', 'Tax-exempt land', 'Gehöfte, Teiche u. a.', 'Farmsteads, ponds etc.', 7, 'Schleiz', 'Schleiz', 2, 2189, 1.73, 558.9]
+    ['Steuerfreier Boden', 'Tax-exempt land', 'Gehöfte, Teiche u. a.', 'Farmsteads, ponds etc.', 7, 'Lobenstein-Ebersdorf', 'Lobenstein-Ebersdorf', 3, 2228.0, 2.02, 568.9]
+    ['Steuerfreier Boden', 'Tax-exempt land', 'Gehöfte, Teiche u. a.', 'Farmsteads, ponds etc.', 7, 'Fürstentum', 'Principality', 4, 6251.99, 1.94, 1596.3]
+--DS landw_boden Landwirtschaftlicher Boden nach Landesteilen 4 [{'page': '217', 'block': 'b3', 'rows': 'r2-r5'}]
+  cols [('landestheil_de', 'string', None, ''), ('landestheil_en', 'string', None, ''), ('lt_nr', 'integer', None, 'D'), ('morgen', 'integer', 'preuß. Morgen', ''), ('pct', 'number', '%', ''), ('morgen_je_qm', 'number', 'Morgen/□Meile', ''), ('morgen_je_familie', 'number', 'Morgen', ''), ('ha_je_familie', 'number', 'ha', 'D'), ('ha', 'number', 'ha', 'D'), ('morgen_berechnet', 'number', 'preuß. Morgen', 'D')]
+    ['Gera', 'Gera', 1, 62688, 33.2, 15555.3, 7.84, 2.0, 16006.0, 62687.37]
+    ['Schleiz', 'Schleiz', 2, 71574, 38.0, 11929.0, 11.6, 2.96, 18274.0, 71374]
+    ['Lobenstein-Ebersdorf', 'Lobenstein-Ebersdorf', 3, 54480, 28.8, 10896.0, 11.37, 2.9, 13910.0, 54480.23]
+    ['Fürstentum', 'Principality', 4, 188542, 100.0, 12544.3, 10.0, 2.55, 48139.0, 188542.59]
+--CHART c1 nutzung Zusammensetzung der Bodenfläche
+--CHART c2 nutzung Fläche der Landesteile nach Nutzung (Hektar)
+--CHART c3 landw_boden Landwirtschaftlicher Boden je Familie

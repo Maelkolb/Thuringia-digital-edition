@@ -1,0 +1,71 @@
+ID ortsnamen-sorbische-wurzeln | section t1-2-2
+TITLE Sorbische Wurzeln der Ortsnamen nach Bedeutung
+SUMMARY Brückner gibt »nur in historischer Hinsicht« eine Übersicht der versuchten Erklärungen sorbischer Ortsnamen (S. 121): 29 slawische Wurzeln mit ihrer Bedeutung und den davon abgeleiteten Orten. Gruppiert nach der Bedeutung der Wurzel zeigt sich, dass die Namen fast ausschließlich Bodenformen, Wald, Wasser und Boden beschreiben: 35 von 43 Namen (81 %).
+FIND Die größte Gruppe sind Namen nach der Bodenform (10: darunter sieben zur Wurzel gora/hora »Berg«, u. a. Gera, Görkwitz, Göritz, Harra), gefolgt von »Wald und Rodung« (9, vier Wurzeln für »waldig«) und »flach, glatt, eben« (6).
+FIND Landschaftsmerkmale (Bodenform, flach, Wald, Wasser, Boden) machen 35 von 43 Namen aus (81 %); Pflanzen (6), ein Tier (Kattenstein) und die Kirche (Köstritz) bleiben die Ausnahme. Das entspricht Brückners Aussage, die Namen gingen auf »Eindrücke physischer Formen und Eigenschaften« zurück.
+FIND Der Ortsname Gera erscheint unter der Wurzel gora/hora (»Berg«); Köstritz wird von kostriza (»Kirche«) abgeleitet, Hohenleuben von leube (»Busch«). Brückner nennt außerdem die Namen Schleiz (Slowitz), Schwarm, Sormitz, Sormbach und Böhmsdorf als mögliche Völkernamen.
+SOURCES [{'page': '121', 'block': 'b1', 'rows': 'r1-r30'}, {'page': '121', 'block': 'b2'}, {'page': '119', 'block': 'b3'}, {'page': '120', 'block': 'b2'}]
+METHOD Die Tabelle (S. 121, b1) wurde Zeile für Zeile übernommen und die Ortsnamen jeder Zeile einzeln erfasst (Fußnotenzeichen entfernt). Die Zuordnung der gedruckten Bedeutungen zu acht Sachgruppen ist eine Entscheidung des Bearbeiters; gezählt werden verschiedene Ortsnamen (Triebes steht unter zwei Wurzeln und zählt einmal). Brückner übernimmt diese Deutungen nicht; er hält eine sichere Etymologie ohne die ältesten urkundlichen Formen für unmöglich (S. 120).
+CAVEAT Die Deutungen sind zeitgenössische Versuche, die Brückner ausdrücklich nur referiert; vieles ist nach heutiger Kenntnis unsicher oder falsch (Volksetymologie). Auch der Jenaer Slawist Schleicher, den Brückner zitiert, warnt vor sicheren Deutungen und rechnet die Slawen des Landes zum polabischen Stamm (S. 120).
+CAVEAT Die Tabelle ist eine Auswahl: Nach S. 119 hat etwa die Hälfte der Ortsnamen sorbischen Laut (und ein Sechzigstel der Flurnamen); hier erscheinen nur die Namen, für die Brückner eine Wurzel nennt. Die Gruppenbildung vereinfacht (z. B. »Steinbach« unter Boden).
+TI []
+CONV null
+--- DATASET names Slawische Wurzeln, Bedeutung und Ortsnamen (S. 121) 44 rows
+  cols [('row', 'integer', None, 'D'), ('root', 'string', None, ''), ('meaning_de', 'string', None, ''), ('meaning_en', 'string', None, 'D'), ('group_de', 'string', None, 'D'), ('group_en', 'string', None, 'D'), ('name', 'string', None, '')]
+  refs [{"page": "121", "block": "b1", "rows": "r2-r30"}]
+   [1, "gora, hora", "Berg", "mountain", "Bodenform: Berg, Sattel, Tiefe", "Landform: mountain, saddle, depression", "Gera"]
+   [1, "gora, hora", "Berg", "mountain", "Bodenform: Berg, Sattel, Tiefe", "Landform: mountain, saddle, depression", "Gorlitzsch"]
+   [1, "gora, hora", "Berg", "mountain", "Bodenform: Berg, Sattel, Tiefe", "Landform: mountain, saddle, depression", "Görkwitz"]
+   [1, "gora, hora", "Berg", "mountain", "Bodenform: Berg, Sattel, Tiefe", "Landform: mountain, saddle, depression", "Göritz"]
+   [1, "gora, hora", "Berg", "mountain", "Bodenform: Berg, Sattel, Tiefe", "Landform: mountain, saddle, depression", "Görlitz"]
+   [1, "gora, hora", "Berg", "mountain", "Bodenform: Berg, Sattel, Tiefe", "Landform: mountain, saddle, depression", "Harra"]
+   [1, "gora, hora", "Berg", "mountain", "Bodenform: Berg, Sattel, Tiefe", "Landform: mountain, saddle, depression", "Horla"]
+   [2, "kholm", "Berg", "mountain", "Bodenform: Berg, Sattel, Tiefe", "Landform: mountain, saddle, depression", "Kulm"]
+   [3, "gama", "Sattel", "saddle", "Bodenform: Berg, Sattel, Tiefe", "Landform: mountain, saddle, depression", "Gahma"]
+   [4, "dele, djel, dole", "Tiefe", "depression", "Bodenform: Berg, Sattel, Tiefe", "Landform: mountain, saddle, depression", "Döhlen"]
+   [5, "pla, plawa", "flach, glatt, eben", "flat, smooth, level", "Flach, glatt, eben", "Flat, smooth, level", "Pöllwitz"]
+   [5, "pla, plawa", "flach, glatt, eben", "flat, smooth, level", "Flach, glatt, eben", "Flat, smooth, level", "Plauen"]
+   [6, "bjel", "flach, glatt, eben", "flat, smooth, level", "Flach, glatt, eben", "Flat, smooth, level", "Beulwitz"]
+   [7, "mjel", "flach, glatt, eben", "flat, smooth, level", "Flach, glatt, eben", "Flat, smooth, level", "Mielesdorf"]
+   [7, "mjel", "flach, glatt, eben", "flat, smooth, level", "Flach, glatt, eben", "Flat, smooth, level", "Mühlsdorf"]
+   [8, "roven", "flach, glatt, eben", "flat, smooth, level", "Flach, glatt, eben", "Flat, smooth, level", "Roben"]
+   [9, "las, les", "waldig", "wooded", "Wald und Rodung", "Forest and clearing", "Laasen"]
+   [9, "las, les", "waldig", "wooded", "Wald und Rodung", "Forest and clearing", "Lossen"]
+   [9, "las, les", "waldig", "wooded", "Wald und Rodung", "Forest and clearing", "Lössau"]
+   [9, "las, les", "waldig", "wooded", "Wald und Rodung", "Forest and clearing", "Dörflas"]
+   [10, "labe, loibe", "waldig", "wooded", "Wald und Rodung", "Forest and clearing", "Leube"]
+   [11, "bor", "waldig", "wooded", "Wald und Rodung", "Forest and clearing", "Pörmitz"]
+   [11, "bor", "waldig", "wooded", "Wald und Rodung", "Forest and clearing", "Pörsdorf"]
+   [12, "drewo", "waldig", "wooded", "Wald und Rodung", "Forest and clearing", "Trebnitz"]
+   [13, "treb", "steinig", "stony", "Boden: feucht, sumpfig, lehmig, steinig", "Soil: damp, marshy, loamy, stony", "Triebes"]
+   [14, "trebona", "Steinbach", "stone brook", "Boden: feucht, sumpfig, lehmig, steinig", "Soil: damp, marshy, loamy, stony", "Triebes"]
+   [15, "lomniča", "Wildwasser", "torrent", "Wasser: Quelle, Fluss, Wildwasser", "Water: spring, river, torrent", "Lemnitz"]
+   [16, "leum", "Quelle, Spring", "spring", "Wasser: Quelle, Fluss, Wildwasser", "Water: spring, river, torrent", "Leumnitz"]
+   [17, "pot", "Quelle", "spring", "Wasser: Quelle, Fluss, Wildwasser", "Water: spring, river, torrent", "Zoppothen"]
+   [18, "pořiči", "am Flusse", "at the river", "Wasser: Quelle, Fluss, Wildwasser", "Water: spring, river, torrent", "Pöritzsch"]
+   [19, "moz", "feuchter Boden", "damp soil", "Boden: feucht, sumpfig, lehmig, steinig", "Soil: damp, marshy, loamy, stony", "Muschlitz"]
+   [19, "moz", "feuchter Boden", "damp soil", "Boden: feucht, sumpfig, lehmig, steinig", "Soil: damp, marshy, loamy, stony", "Möschlitz"]
+   [20, "lus", "Sumpf", "swamp", "Boden: feucht, sumpfig, lehmig, steinig", "Soil: damp, marshy, loamy, stony", "Lusan"]
+   [21, "bano", "Sumpf", "swamp", "Boden: feucht, sumpfig, lehmig, steinig", "Soil: damp, marshy, loamy, stony", "Bahnstangen"]
+   [22, "gleino", "Lehm", "loam", "Boden: feucht, sumpfig, lehmig, steinig", "Soil: damp, marshy, loamy, stony", "Gleina"]
+   [23, "reja", "reuten", "to clear (Reuten)", "Wald und Rodung", "Forest and clearing", "Rayla"]
+   [24, "grob", "Weissbuche", "hornbeam", "Pflanzen", "Plants", "Grobsdorf"]
+   [25, "topolina", "Pappel", "poplar", "Pflanzen", "Plants", "Töppeln"]
+   [26, "leube", "Busch", "bush", "Pflanzen", "Plants", "Hohenleuben"]
+   [27, "ülsa, vülsa, wilscha", "Erle", "alder", "Pflanzen", "Plants", "Wolschendorf"]
+   [27, "ülsa, vülsa, wilscha", "Erle", "alder", "Pflanzen", "Plants", "Oelsch"]
+   [27, "ülsa, vülsa, wilscha", "Erle", "alder", "Pflanzen", "Plants", "Elsch"]
+   [28, "kot", "Katze", "cat", "Tiere", "Animals", "Kattenstein"]
+   [29, "kostriza", "Kirche", "church", "Kirche", "Church", "Köstritz"]
+--- DATASET groups Sachgruppen: Zahl der Namen und Wurzeln 8 rows
+  cols [('key', 'string', None, 'D'), ('group_de', 'string', None, 'D'), ('group_en', 'string', None, 'D'), ('names', 'integer', 'Namen', 'D'), ('roots', 'integer', 'Wurzeln', 'D'), ('list', 'string', None, 'D'), ('kind_de', 'string', None, 'D'), ('kind_en', 'string', None, 'D')]
+  refs [{"page": "121", "block": "b1", "rows": "r2-r30"}]
+   ["form", "Bodenform: Berg, Sattel, Tiefe", "Landform: mountain, saddle, depression", 10, 4, "Gera, Gorlitzsch, Görkwitz, Göritz, Görlitz, Harra, Horla, Kulm, Gahma, Döhlen", "Landschaftsmerkmal", "Landscape feature"]
+   ["flach", "Flach, glatt, eben", "Flat, smooth, level", 6, 4, "Pöllwitz, Plauen, Beulwitz, Mielesdorf, Mühlsdorf, Roben", "Landschaftsmerkmal", "Landscape feature"]
+   ["wald", "Wald und Rodung", "Forest and clearing", 9, 5, "Laasen, Lossen, Lössau, Dörflas, Leube, Pörmitz, Pörsdorf, Trebnitz, Rayla", "Landschaftsmerkmal", "Landscape feature"]
+   ["wasser", "Wasser: Quelle, Fluss, Wildwasser", "Water: spring, river, torrent", 4, 4, "Lemnitz, Leumnitz, Zoppothen, Pöritzsch", "Landschaftsmerkmal", "Landscape feature"]
+   ["boden", "Boden: feucht, sumpfig, lehmig, steinig", "Soil: damp, marshy, loamy, stony", 6, 6, "Triebes, Muschlitz, Möschlitz, Lusan, Bahnstangen, Gleina", "Landschaftsmerkmal", "Landscape feature"]
+   ["pflanze", "Pflanzen", "Plants", 6, 4, "Grobsdorf, Töppeln, Hohenleuben, Wolschendorf, Oelsch, Elsch", "Pflanze, Tier, Kirche", "Plant, animal, church"]
+   ["tier", "Tiere", "Animals", 1, 1, "Kattenstein", "Pflanze, Tier, Kirche", "Plant, animal, church"]
+   ["kirche", "Kirche", "Church", 1, 1, "Köstritz", "Pflanze, Tier, Kirche", "Plant, animal, church"]
+CHART c1 Was die sorbischen Ortsnamen benennen | groups

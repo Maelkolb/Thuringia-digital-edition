@@ -1,0 +1,2575 @@
+{
+ "id": "gesundheit",
+ "title": {
+  "de": "Krankheit, Ärzte und Seuchen",
+  "en": "Illness, physicians and epidemics"
+ },
+ "category": "health",
+ "section": "t1-2-6",
+ "merges": [
+  "gesundheit-krankheitsstatistik-lobenstein-gera-hohenleuben",
+  "gesundheit-medizinalwesen-und-seuchen-zeitleiste",
+  "gesundheit-taubstumme-blinde-1864-1867",
+  "gesundheit-militaer-tauglichkeit-1864-1866"
+ ],
+ "sources": [
+  {
+   "page": "173",
+   "block": "b1"
+  },
+  {
+   "page": "172",
+   "block": "b2"
+  },
+  {
+   "page": "170",
+   "block": "b2"
+  },
+  {
+   "page": "170",
+   "block": "b1"
+  },
+  {
+   "page": "170",
+   "block": "fn1"
+  },
+  {
+   "page": "171",
+   "block": "b1"
+  },
+  {
+   "page": "177",
+   "block": "b1"
+  },
+  {
+   "page": "171",
+   "block": "b2"
+  },
+  {
+   "page": "117",
+   "block": "b4"
+  },
+  {
+   "page": "118",
+   "block": "b2"
+  }
+ ],
+ "summary": {
+  "de": "Brückner stützt sein Bild der Volkskrankheiten auf wenige Quellen: eine Arztpraxis in Lobenstein, die Krankenhausstation Gera, Hohenleuben und die Musterungen. Von durchschnittlich 799 Militärpflichtigen galten 242 als brauchbar. In Gera betrafen 13,6 Prozent der Erkrankungen Krätze und ähnliche Hautleiden. Die Impfung wurde 1826 Gesetz, die Cholera trat 1866 einmalig auf. 1867 zählte er 65 Taubstumme und 102 Blinde.",
+  "en": "Brückner bases his picture of the common diseases on few sources: a physician’s practice in Lobenstein, the hospital ward in Gera, Hohenleuben and the musters. Of an average of 799 conscripts, 242 were fit for service. In Gera 13.6 percent of the cases were scabies and similar skin diseases. Vaccination became law in 1826, cholera occurred once, in 1866. In 1867 he counts 65 deaf-mutes and 102 blind people."
+ },
+ "findings": [
+  {
+   "de": "Der Anteil der Brauchbaren lag 1864 bei 27,4, 1865 bei 32,7 und 1866 bei 31,0 Prozent. Häufigster Grund der Rückstellung war eine Körpergröße unter 5′ 7″ (11,8 Prozent).",
+   "en": "The share of fit conscripts was 27.4 percent in 1864, 32.7 in 1865 and 31.0 in 1866. The most common reason for deferral was a height under 5′ 7″ (11.8 percent)."
+  },
+  {
+   "de": "In der Station Gera stieg der Anteil der Hautkranken von 6,5 Prozent (1856 bis 1860) über 9,1 auf 13,6 Prozent (1865 bis 1867); Brückner führt das auf die Fabrikarbeiter zurück.",
+   "en": "In the Gera ward the share of skin patients rose from 6.5 percent (1856 to 1860) via 9.1 to 13.6 percent (1865 to 1867); Brückner attributes this to factory workers."
+  },
+  {
+   "de": "Die Blatternimpfung wurde 1826 Gesetz, 70 Jahre nach den 208 toten Kindern in Gera. Die ersten Stadtärzte erscheinen um 1570 in Gera, um 1600 in Schleiz, um 1620 in Lobenstein.",
+   "en": "Smallpox vaccination became law in 1826, 70 years after the 208 child deaths in Gera. The first town physicians appear in Gera about 1570, in Schleiz about 1600, in Lobenstein about 1620."
+  }
+ ],
+ "method": {
+  "de": "Die Befunde der Militärpflichtigen stammen aus der Tabelle S. 173 (Jahre 1864 bis 1866, gedruckter Durchschnitt und Prozentspalte, bezogen auf 799 Pflichtige). Die Krankheitsprozente stammen aus Brückners Übersicht S. 172; Striche bedeuten »nicht angegeben«, Brüche wurden in Dezimalzahlen überführt (1/2 = 0,5). Das Diagramm zeigt die Krankheiten, die für mindestens zwei Orte genannt sind; Tanna liefert nur einen Wert (Nervenfieber 0,36 Prozent) und fehlt in der Grafik. Die Zahlen zur Krätze in Gera stehen im Text S. 171. Die Zeitleiste stellt die datierten Angaben aus S. 170, 171 und 177 zusammen; die Zuordnung zu drei Zeilen und die Kurzbeschriftungen sind redaktionell. Die Zahlen zu Taubstummen und Blinden (S. 117 f., Stände 1864 und 1867) liegen als Tabelle bei. Nicht verwendet wurden die Monatsverteilung der Erkrankungen in Hohenleuben, das Krankheitsbild in Lobenstein im Einzelnen, die Taubstummen und Blinden nach Bezirk und die Einzeljahre der Musterung; sie stehen in den Einzelauswertungen.",
+  "en": "The findings for conscripts come from the table on p. 173 (years 1864 to 1866, printed average and percentage column, based on 799 conscripts). The disease percentages come from Brückner’s overview on p. 172; dashes mean “not stated”, fractions were converted to decimals (1/2 = 0.5). The chart shows the diseases named for at least two places; Tanna supplies only one value (nervous fever 0.36 percent) and is left out. The figures on scabies in Gera are in the text on p. 171. The timeline assembles the dated statements from pp. 170, 171 and 177; the assignment to three lanes and the short labels are editorial. The figures on deaf-mutes and the blind (pp. 117 f., counts of 1864 and 1867) are attached as a table. Not used are the monthly distribution of cases in Hohenleuben, the disease profile of Lobenstein in detail, the deaf-mutes and blind by district and the single years of the musters; they are in the single analyses."
+ },
+ "conversions": [
+  {
+   "from": "Bruchwerte 1/2, 1/4, 1/8 (Prozent)",
+   "to": "Dezimalzahl",
+   "factor_or_formula": "0.5, 0.25, 0.125"
+  },
+  {
+   "from": "5′ 7″ sächsisches Maß (Mindestgröße)",
+   "to": "cm",
+   "factor_or_formula": "67 Zoll × 28.2655 cm / 12 ≈ 157.8 cm",
+   "reference": "1 Baufuß (leipziger Werkmaß) = 0,282655 m (Brückner S. 831); 12 Zoll = 1 Fuß (Annahme)"
+  }
+ ],
+ "caveats": [
+  {
+   "de": "Die drei Orte sind nicht unmittelbar vergleichbar: Lobenstein beruht auf der zehnjährigen Erfahrung eines Arztes, Gera auf der inneren Krankenhausstation, vor allem Fabrikarbeitern und Armen, Hohenleuben auf dem ganzen Ort. Zeitgenössische Krankheitsnamen sind nicht mit modernen Diagnosen gleichzusetzen.",
+   "en": "The three places are not directly comparable: Lobenstein rests on the ten years of experience of one physician, Gera on the internal hospital ward, mainly factory workers and the poor, Hohenleuben on the whole town. Contemporary disease names cannot be equated with modern diagnoses."
+  },
+  {
+   "de": "Die gedruckten Prozentwerte der Krätze in Gera lassen sich nicht aus den gedruckten Fallzahlen ableiten (413 von 1010 wären 40,9, gedruckt sind 13,60 Prozent); Brückners Bezugsgröße ist unbekannt. Die Grafik zeigt die gedruckten Werte.",
+   "en": "The printed percentages of scabies in Gera cannot be derived from the printed case numbers (413 of 1010 would be 40.9, printed is 13.60 percent); Brückner’s base is unknown. The chart shows the printed values."
+  },
+  {
+   "de": "Bei den Militärpflichtigen stimmt die gedruckte Summe für 1866 (575) nicht mit der Addition der Einzelzeilen (515) überein; die Einzelgründe ergeben deshalb nur 67,02 statt der gedruckten 69,71 Prozent. Die Prozentspalte bezieht sich auf den Durchschnitt von 799.",
+   "en": "For the conscripts the printed total for 1866 (575) does not match the sum of the single rows (515); the single reasons therefore add up to only 67.02 instead of the printed 69.71 percent. The percentage column refers to the average of 799."
+  },
+  {
+   "de": "Die Zeitleiste enthält Beispiele, die Brückner anführt, keine vollständige Chronik der Epidemien. Die Jahre um 1570, 1600, 1620 und 1760 sind ungefähre Angaben; die Impfung von 1790 fand außerhalb des Fürstentums statt.",
+   "en": "The timeline contains examples cited by Brückner, not a complete chronicle of epidemics. The years about 1570, 1600, 1620 and 1760 are approximate; the inoculation of 1790 took place outside the principality."
+  }
+ ],
+ "datasets": [
+  {
+   "name": "mean",
+   "title": {
+    "de": "Durchschnitt 1864–1866 (gedruckt)",
+    "en": "Average 1864–1866 (as printed)"
+   },
+   "columns": [
+    {
+     "name": "category_de",
+     "label": {
+      "de": "Befund (de)",
+      "en": "Finding (de)"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "category_en",
+     "label": {
+      "de": "Befund (en)",
+      "en": "Finding (en)"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "status_de",
+     "label": {
+      "de": "Gruppe (de)",
+      "en": "Group (de)"
+     },
+     "type": "string",
+     "unit": null,
+     "derived": true
+    },
+    {
+     "name": "status_en",
+     "label": {
+      "de": "Gruppe (en)",
+      "en": "Group (en)"
+     },
+     "type": "string",
+     "unit": null,
+     "derived": true
+    },
+    {
+     "name": "avg_count",
+     "label": {
+      "de": "Durchschnitt pro Jahr",
+      "en": "Average per year"
+     },
+     "type": "integer",
+     "unit": "Personen"
+    },
+    {
+     "name": "pct_mean",
+     "label": {
+      "de": "In Prozent (Brückner)",
+      "en": "In percent (Brückner)"
+     },
+     "type": "number",
+     "unit": "%"
+    }
+   ],
+   "rows": [
+    [
+     "Brauchbar",
+     "Fit for service",
+     "Tauglich",
+     "Fit for service",
+     242,
+     30.29
+    ],
+    [
+     "Unterwüchsig (unter 5′ 7″)",
+     "Undersized (under 5′ 7″)",
+     "Zurückgestellt/untauglich",
+     "Deferred/unfit",
+     94,
+     11.76
+    ],
+    [
+     "Dicker Hals u. a. Gebrechen",
+     "Goitre, other infirmities",
+     "Zurückgestellt/untauglich",
+     "Deferred/unfit",
+     80,
+     10.1
+    ],
+    [
+     "Körper-/Nervenschwäche",
+     "Bodily/nervous weakness",
+     "Zurückgestellt/untauglich",
+     "Deferred/unfit",
+     75,
+     9.38
+    ],
+    [
+     "Augen-, Ohren-, Brustleiden",
+     "Eye, ear, chest ailments",
+     "Zurückgestellt/untauglich",
+     "Deferred/unfit",
+     70,
+     8.76
+    ],
+    [
+     "Krampfadern",
+     "Varicose veins",
+     "Zurückgestellt/untauglich",
+     "Deferred/unfit",
+     66,
+     8.26
+    ],
+    [
+     "Verkrüppelung",
+     "Crippling / deformity",
+     "Zurückgestellt/untauglich",
+     "Deferred/unfit",
+     54,
+     6.76
+    ],
+    [
+     "Vorläufig zurückgestellt",
+     "Provisionally deferred",
+     "Zurückgestellt/untauglich",
+     "Deferred/unfit",
+     43,
+     5.37
+    ],
+    [
+     "Plattfüße",
+     "Flat feet",
+     "Zurückgestellt/untauglich",
+     "Deferred/unfit",
+     31,
+     3.88
+    ],
+    [
+     "Hautkrankheiten",
+     "Skin diseases",
+     "Zurückgestellt/untauglich",
+     "Deferred/unfit",
+     22,
+     2.75
+    ]
+   ],
+   "source_refs": [
+    {
+     "page": "173",
+     "block": "b1",
+     "rows": "r2-r13"
+    }
+   ]
+  },
+  {
+   "name": "diseases",
+   "title": {
+    "de": "Krankheiten in Prozent der Erkrankten nach Ort",
+    "en": "Diseases in percent of those taken ill, by place"
+   },
+   "columns": [
+    {
+     "name": "disease_de",
+     "label": {
+      "de": "Krankheit (de)",
+      "en": "Disease (de)"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "disease_en",
+     "label": {
+      "de": "Krankheit (en)",
+      "en": "Disease (en)"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "level",
+     "label": {
+      "de": "Ebene (0 = Gruppe, 1 = Untergruppe)",
+      "en": "Level (0 = group, 1 = subgroup)"
+     },
+     "type": "integer",
+     "unit": null,
+     "derived": true
+    },
+    {
+     "name": "place",
+     "label": {
+      "de": "Ort",
+      "en": "Place"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "printed",
+     "label": {
+      "de": "Druckform",
+      "en": "Printed form"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "percent",
+     "label": {
+      "de": "Prozent der Erkrankten",
+      "en": "Percent of those taken ill"
+     },
+     "type": "number",
+     "unit": "%",
+     "derived": true,
+     "note": "Brüche und Dezimalkommata in Dezimalzahlen überführt"
+    },
+    {
+     "name": "shared",
+     "label": {
+      "de": "In mindestens zwei Orten angegeben",
+      "en": "Given for at least two places"
+     },
+     "type": "integer",
+     "unit": null,
+     "derived": true
+    }
+   ],
+   "rows": [
+    [
+     "Katarrhe",
+     "Catarrhs",
+     0,
+     "Lobenstein",
+     "9",
+     9.0,
+     1
+    ],
+    [
+     "Katarrhe",
+     "Catarrhs",
+     0,
+     "Gera",
+     "5,00",
+     5.0,
+     1
+    ],
+    [
+     "Katarrhe",
+     "Catarrhs",
+     0,
+     "Hohenleuben",
+     "7",
+     7.0,
+     1
+    ],
+    [
+     "a) der Luftwege",
+     "Catarrhs of the airways",
+     1,
+     "Lobenstein",
+     "3",
+     3.0,
+     0
+    ],
+    [
+     "a) der Luftwege",
+     "Catarrhs of the airways",
+     1,
+     "Hohenleuben",
+     "5",
+     5.0,
+     0
+    ],
+    [
+     "b) des Darmcanals",
+     "Catarrhs of the intestinal tract",
+     1,
+     "Lobenstein",
+     "6",
+     6.0,
+     0
+    ],
+    [
+     "b) des Darmcanals",
+     "Catarrhs of the intestinal tract",
+     1,
+     "Hohenleuben",
+     "2",
+     2.0,
+     0
+    ],
+    [
+     "Rheumatische Fieber",
+     "Rheumatic fevers",
+     0,
+     "Lobenstein",
+     "1",
+     1.0,
+     1
+    ],
+    [
+     "Rheumatische Fieber",
+     "Rheumatic fevers",
+     0,
+     "Gera",
+     "1,17",
+     1.17,
+     1
+    ],
+    [
+     "Rheumatische Fieber",
+     "Rheumatic fevers",
+     0,
+     "Hohenleuben",
+     "4,74",
+     4.74,
+     1
+    ],
+    [
+     "Nervenfieber",
+     "Nervous fever",
+     0,
+     "Lobenstein",
+     "1/2",
+     0.5,
+     1
+    ],
+    [
+     "Nervenfieber",
+     "Nervous fever",
+     0,
+     "Tanna",
+     "0,36",
+     0.36,
+     1
+    ],
+    [
+     "Nervenfieber",
+     "Nervous fever",
+     0,
+     "Gera",
+     "0,2",
+     0.2,
+     1
+    ],
+    [
+     "Nervenfieber",
+     "Nervous fever",
+     0,
+     "Hohenleuben",
+     "0,80",
+     0.8,
+     1
+    ],
+    [
+     "Gastrische Fieber",
+     "Gastric fevers",
+     0,
+     "Lobenstein",
+     "4",
+     4.0,
+     1
+    ],
+    [
+     "Gastrische Fieber",
+     "Gastric fevers",
+     0,
+     "Gera",
+     "3,82",
+     3.82,
+     1
+    ],
+    [
+     "Gastrische Fieber",
+     "Gastric fevers",
+     0,
+     "Hohenleuben",
+     "4,26",
+     4.26,
+     1
+    ],
+    [
+     "Lungenentzündung",
+     "Pneumonia",
+     0,
+     "Lobenstein",
+     "4",
+     4.0,
+     0
+    ],
+    [
+     "Lungenschwindsucht",
+     "Pulmonary consumption",
+     0,
+     "Lobenstein",
+     "2",
+     2.0,
+     0
+    ],
+    [
+     "Unterleibsentzündung",
+     "Abdominal inflammation",
+     0,
+     "Lobenstein",
+     "1/4",
+     0.25,
+     0
+    ],
+    [
+     "Kolik",
+     "Colic",
+     0,
+     "Lobenstein",
+     "1",
+     1.0,
+     0
+    ],
+    [
+     "Magenkrampf",
+     "Stomach cramps",
+     0,
+     "Lobenstein",
+     "2",
+     2.0,
+     0
+    ],
+    [
+     "Mandelbräune",
+     "Quinsy (tonsillitis)",
+     0,
+     "Lobenstein",
+     "1",
+     1.0,
+     0
+    ],
+    [
+     "Friesel",
+     "Friesel (rash fevers)",
+     0,
+     "Lobenstein",
+     "1/8",
+     0.125,
+     0
+    ],
+    [
+     "Blattern (Varicellen)",
+     "Pox (varicella)",
+     0,
+     "Lobenstein",
+     "1/2",
+     0.5,
+     1
+    ],
+    [
+     "Blattern (Varicellen)",
+     "Pox (varicella)",
+     0,
+     "Gera",
+     "0,3",
+     0.3,
+     1
+    ],
+    [
+     "Bleichsucht",
+     "Chlorosis (anaemia)",
+     0,
+     "Lobenstein",
+     "1",
+     1.0,
+     0
+    ],
+    [
+     "Krätze u. ähnl. Hautkrankheiten",
+     "Scabies, similar skin diseases",
+     0,
+     "Lobenstein",
+     "6",
+     6.0,
+     1
+    ],
+    [
+     "Krätze u. ähnl. Hautkrankheiten",
+     "Scabies, similar skin diseases",
+     0,
+     "Gera",
+     "13,60",
+     13.6,
+     1
+    ],
+    [
+     "Krätze u. ähnl. Hautkrankheiten",
+     "Scabies, similar skin diseases",
+     0,
+     "Hohenleuben",
+     "6,01",
+     6.01,
+     1
+    ],
+    [
+     "Flechten",
+     "Lichens (skin eruptions)",
+     0,
+     "Lobenstein",
+     "2",
+     2.0,
+     1
+    ],
+    [
+     "Flechten",
+     "Lichens (skin eruptions)",
+     0,
+     "Gera",
+     "0,2",
+     0.2,
+     1
+    ],
+    [
+     "Flechten",
+     "Lichens (skin eruptions)",
+     0,
+     "Hohenleuben",
+     "1,03",
+     1.03,
+     1
+    ],
+    [
+     "Venerie",
+     "Venereal diseases",
+     0,
+     "Lobenstein",
+     "1/2",
+     0.5,
+     1
+    ],
+    [
+     "Venerie",
+     "Venereal diseases",
+     0,
+     "Gera",
+     "0,48",
+     0.48,
+     1
+    ],
+    [
+     "Venerie",
+     "Venereal diseases",
+     0,
+     "Hohenleuben",
+     "0,79",
+     0.79,
+     1
+    ],
+    [
+     "Masern",
+     "Measles",
+     0,
+     "Lobenstein",
+     "2",
+     2.0,
+     0
+    ],
+    [
+     "Scharlach",
+     "Scarlet fever",
+     0,
+     "Lobenstein",
+     "2",
+     2.0,
+     0
+    ],
+    [
+     "Kropf",
+     "Goitre",
+     0,
+     "Lobenstein",
+     "1/2",
+     0.5,
+     0
+    ],
+    [
+     "Gebärmutterkrankheiten",
+     "Diseases of the womb",
+     0,
+     "Lobenstein",
+     "3",
+     3.0,
+     0
+    ],
+    [
+     "Skrofeln",
+     "Scrofula",
+     0,
+     "Gera",
+     "0,09",
+     0.09,
+     1
+    ],
+    [
+     "Skrofeln",
+     "Scrofula",
+     0,
+     "Hohenleuben",
+     "1,30",
+     1.3,
+     1
+    ]
+   ],
+   "source_refs": [
+    {
+     "page": "172",
+     "block": "b2",
+     "rows": "r2-r23"
+    },
+    {
+     "page": "170",
+     "block": "b2"
+    }
+   ]
+  },
+  {
+   "name": "events",
+   "title": {
+    "de": "Datierte Ereignisse des Gesundheitswesens",
+    "en": "Dated events of the health service"
+   },
+   "columns": [
+    {
+     "name": "year",
+     "label": {
+      "de": "Jahr",
+      "en": "Year"
+     },
+     "type": "integer",
+     "unit": null
+    },
+    {
+     "name": "lane_de",
+     "label": {
+      "de": "Thema (de)",
+      "en": "Theme (de)"
+     },
+     "type": "string",
+     "unit": null,
+     "derived": true
+    },
+    {
+     "name": "lane_en",
+     "label": {
+      "de": "Thema (en)",
+      "en": "Theme (en)"
+     },
+     "type": "string",
+     "unit": null,
+     "derived": true
+    },
+    {
+     "name": "place",
+     "label": {
+      "de": "Ort",
+      "en": "Place"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "event_de",
+     "label": {
+      "de": "Ereignis (de)",
+      "en": "Event (de)"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "event_en",
+     "label": {
+      "de": "Ereignis (en)",
+      "en": "Event (en)"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "value",
+     "label": {
+      "de": "Zahl",
+      "en": "Number"
+     },
+     "type": "integer",
+     "unit": null
+    },
+    {
+     "name": "value_unit_de",
+     "label": {
+      "de": "Einheit (de)",
+      "en": "Unit (de)"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "value_unit_en",
+     "label": {
+      "de": "Einheit (en)",
+      "en": "Unit (en)"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "page",
+     "label": {
+      "de": "Seite",
+      "en": "Page"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "block",
+     "label": {
+      "de": "Block",
+      "en": "Block"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "pos",
+     "label": {
+      "de": "Zeilenposition in der Zeitleiste",
+      "en": "Row position in the timeline"
+     },
+     "type": "number",
+     "unit": null,
+     "derived": true,
+     "note": "redaktionell"
+    },
+    {
+     "name": "lane_first",
+     "label": {
+      "de": "Erstes Ereignis der Zeile (1 = ja)",
+      "en": "First event of the lane (1 = yes)"
+     },
+     "type": "integer",
+     "unit": null,
+     "derived": true,
+     "note": "redaktionell"
+    },
+    {
+     "name": "label_de",
+     "label": {
+      "de": "Kurzbeschriftung (deutsch)",
+      "en": "Short label (German)"
+     },
+     "type": "string",
+     "unit": null,
+     "derived": true,
+     "note": "redaktionelle Kurzfassung von event_de"
+    },
+    {
+     "name": "label_en",
+     "label": {
+      "de": "Kurzbeschriftung (englisch)",
+      "en": "Short label (English)"
+     },
+     "type": "string",
+     "unit": null,
+     "derived": true,
+     "note": "redaktionelle Kurzfassung von event_en"
+    }
+   ],
+   "rows": [
+    [
+     1570,
+     "Ärzte vor Ort",
+     "Physicians in place",
+     "Gera",
+     "Erster Stadtarzt (um 1570)",
+     "First town physician (about 1570)",
+     null,
+     null,
+     null,
+     "177",
+     "b1",
+     1.0,
+     1,
+     "Gera: erster Stadtarzt (um 1570)",
+     "Gera: first town physician (about 1570)"
+    ],
+    [
+     1600,
+     "Ärzte vor Ort",
+     "Physicians in place",
+     "Schleiz",
+     "Erster Stadtarzt (um 1600)",
+     "First town physician (about 1600)",
+     null,
+     null,
+     null,
+     "177",
+     "b1",
+     2.0,
+     0,
+     "Schleiz: erster Stadtarzt (um 1600)",
+     "Schleiz: first town physician (about 1600)"
+    ],
+    [
+     1620,
+     "Ärzte vor Ort",
+     "Physicians in place",
+     "Lobenstein",
+     "Erster Stadtarzt (um 1620)",
+     "First town physician (about 1620)",
+     null,
+     null,
+     null,
+     "177",
+     "b1",
+     3.0,
+     0,
+     "Lobenstein: erster Stadtarzt (um 1620)",
+     "Lobenstein: first town physician (about 1620)"
+    ],
+    [
+     1760,
+     "Ärzte vor Ort",
+     "Physicians in place",
+     "Hohenleuben",
+     "Der erste Arzt sucht einen dauernden Sitz (um 1760)",
+     "The first physician tries to settle permanently (about 1760)",
+     null,
+     null,
+     null,
+     "177",
+     "b1",
+     4.0,
+     0,
+     "Hohenleuben: erster Arzt sucht Sitz (um 1760)",
+     "Hohenleuben: first physician seeks a seat (about 1760)"
+    ],
+    [
+     1756,
+     "Blattern und Impfung",
+     "Smallpox and vaccination",
+     "Gera",
+     "208 Kinder sterben an den Blattern",
+     "208 children die of smallpox",
+     208,
+     "Kinder gestorben",
+     "children died",
+     "170",
+     "b1",
+     6.7,
+     1,
+     "Gera: 208 Kinder sterben an Blattern",
+     "Gera: 208 children die of smallpox"
+    ],
+    [
+     1788,
+     "Blattern und Impfung",
+     "Smallpox and vaccination",
+     "Ebersdorf",
+     "150 Kinder liegen an den Blattern erkrankt",
+     "150 children lie ill with smallpox",
+     150,
+     "Kinder erkrankt",
+     "children ill",
+     "170",
+     "b1",
+     7.7,
+     0,
+     "Ebersdorf: 150 Kinder an Blattern erkrankt",
+     "Ebersdorf: 150 children ill with smallpox"
+    ],
+    [
+     1790,
+     "Blattern und Impfung",
+     "Smallpox and vaccination",
+     "Friesau und Remptendorf (Reuß ä. L.)",
+     "Pfarrer Frotscher von Drognitz impft (Inoculation)",
+     "Pastor Frotscher of Drognitz inoculates",
+     null,
+     null,
+     null,
+     "170",
+     "fn1",
+     8.7,
+     0,
+     "Reuß ä. L.: Pfarrer Frotscher impft",
+     "Reuss (Elder Line): pastor Frotscher inoculates"
+    ],
+    [
+     1791,
+     "Blattern und Impfung",
+     "Smallpox and vaccination",
+     "Lobenstein-Ebersdorf",
+     "Über 50 % der Gestorbenen sind Blatternopfer",
+     "Over 50 % of the dead are smallpox victims",
+     50,
+     "% der Gestorbenen",
+     "% of the dead",
+     "170",
+     "b1",
+     9.7,
+     0,
+     "Lobenstein-Ebersdorf: über 50 % der Toten Blatternopfer",
+     "Lobenstein-Ebersdorf: over 50 % of the dead die of smallpox"
+    ],
+    [
+     1807,
+     "Blattern und Impfung",
+     "Smallpox and vaccination",
+     "Fürstentum",
+     "75 Kinder erliegen den Blattern",
+     "75 children succumb to smallpox",
+     75,
+     "Kinder gestorben",
+     "children died",
+     "170",
+     "b1",
+     10.7,
+     0,
+     "Fürstentum: 75 Kinder sterben an Blattern",
+     "Principality: 75 children die of smallpox"
+    ],
+    [
+     1820,
+     "Blattern und Impfung",
+     "Smallpox and vaccination",
+     "Fürstentum",
+     "Die Impfung bricht sich mehr und mehr Bahn",
+     "Vaccination increasingly gains ground",
+     null,
+     null,
+     null,
+     "170",
+     "b1",
+     11.7,
+     0,
+     "Impfung setzt sich mehr und mehr durch",
+     "vaccination gains ground"
+    ],
+    [
+     1826,
+     "Blattern und Impfung",
+     "Smallpox and vaccination",
+     "Fürstentum",
+     "Mandat vom 31. Mai erhebt die Impfung zum allgemeinen Gesetz",
+     "Decree of 31 May makes vaccination a general law",
+     null,
+     null,
+     null,
+     "170",
+     "b1",
+     12.7,
+     0,
+     "Mandat macht die Impfung zum Gesetz",
+     "decree makes vaccination law"
+    ],
+    [
+     1844,
+     "Weitere Epidemien",
+     "Other epidemics",
+     "Schilbach",
+     "Scharlachepidemie mit pestilentialischem Charakter, auch 50- bis 70-Jährige erkranken",
+     "Scarlet fever epidemic of pestilential character, even 50- to 70-year-olds fall ill",
+     null,
+     null,
+     null,
+     "170",
+     "b1",
+     15.4,
+     1,
+     "Schilbach: Scharlach, auch Ältere erkranken",
+     "Schilbach: scarlet fever, older people fall ill too"
+    ],
+    [
+     1845,
+     "Weitere Epidemien",
+     "Other epidemics",
+     "Tanna",
+     "Masern und Scharlach zugleich in und um Tanna",
+     "Measles and scarlet fever together in and around Tanna",
+     null,
+     null,
+     null,
+     "170",
+     "b1",
+     16.4,
+     0,
+     "Tanna: Masern und Scharlach zugleich",
+     "Tanna: measles and scarlet fever together"
+    ],
+    [
+     1866,
+     "Weitere Epidemien",
+     "Other epidemics",
+     "Hirschberg und Untermhaus",
+     "Cholera, einmalig durch Einschleppung",
+     "Cholera, once only, brought in from outside",
+     null,
+     null,
+     null,
+     "171",
+     "b1",
+     17.4,
+     0,
+     "Hirschberg, Untermhaus: Cholera, eingeschleppt",
+     "Hirschberg, Untermhaus: cholera, brought in"
+    ]
+   ],
+   "source_refs": [
+    {
+     "page": "170",
+     "block": "b1"
+    },
+    {
+     "page": "170",
+     "block": "fn1"
+    },
+    {
+     "page": "171",
+     "block": "b1"
+    },
+    {
+     "page": "177",
+     "block": "b1"
+    }
+   ]
+  },
+  {
+   "name": "gera_skin",
+   "title": {
+    "de": "Krätze und ähnliche Hautausschläge in der inneren Station Gera",
+    "en": "Scabies and similar skin eruptions at the internal station Gera"
+   },
+   "columns": [
+    {
+     "name": "period_no",
+     "label": {
+      "de": "Zeitraum (Nr.)",
+      "en": "Period (no.)"
+     },
+     "type": "integer",
+     "unit": null,
+     "derived": true
+    },
+    {
+     "name": "period",
+     "label": {
+      "de": "Zeitraum",
+      "en": "Period"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "patients",
+     "label": {
+      "de": "Krankheitsfälle",
+      "en": "Cases of illness"
+     },
+     "type": "integer",
+     "unit": "Fälle"
+    },
+    {
+     "name": "skin_cases",
+     "label": {
+      "de": "davon Krätze und ähnliche Hautausschläge",
+      "en": "of which scabies and similar skin eruptions"
+     },
+     "type": "integer",
+     "unit": "Fälle"
+    },
+    {
+     "name": "percent_printed",
+     "label": {
+      "de": "Prozent (gedruckt)",
+      "en": "Percent (printed)"
+     },
+     "type": "number",
+     "unit": "%"
+    },
+    {
+     "name": "percent_ratio",
+     "label": {
+      "de": "Quotient der gedruckten Fallzahlen",
+      "en": "Quotient of the printed case numbers"
+     },
+     "type": "number",
+     "unit": "%",
+     "derived": true
+    }
+   ],
+   "rows": [
+    [
+     1,
+     "1856–1860",
+     1191,
+     377,
+     6.5,
+     31.7
+    ],
+    [
+     2,
+     "1861–1864",
+     1212,
+     441,
+     9.1,
+     36.4
+    ],
+    [
+     3,
+     "1865–1867",
+     1010,
+     413,
+     13.6,
+     40.9
+    ]
+   ],
+   "source_refs": [
+    {
+     "page": "171",
+     "block": "b2"
+    }
+   ]
+  },
+  {
+   "name": "disability",
+   "title": {
+    "de": "Taubstumme und Blinde nach Landratsbezirk, Jahr, Gebiet und Geschlecht",
+    "en": "Deaf-mute and blind people by district, year, area and sex"
+   },
+   "columns": [
+    {
+     "name": "condition",
+     "label": {
+      "de": "Gebrechen",
+      "en": "Condition"
+     },
+     "type": "string",
+     "unit": null,
+     "note": "Taubstumme / Blinde"
+    },
+    {
+     "name": "district",
+     "label": {
+      "de": "Landratsbezirk",
+      "en": "District"
+     },
+     "type": "string",
+     "unit": null,
+     "note": "„Reuß j. L.“ = Fürstenthum insgesamt"
+    },
+    {
+     "name": "year",
+     "label": {
+      "de": "Jahr",
+      "en": "Year"
+     },
+     "type": "integer",
+     "unit": null
+    },
+    {
+     "name": "area",
+     "label": {
+      "de": "Gebiet",
+      "en": "Area"
+     },
+     "type": "string",
+     "unit": null,
+     "note": "Städte / Landorte / Überhaupt"
+    },
+    {
+     "name": "count_m",
+     "label": {
+      "de": "Zahl männlich",
+      "en": "Number, male"
+     },
+     "type": "integer",
+     "unit": "Personen"
+    },
+    {
+     "name": "count_w",
+     "label": {
+      "de": "Zahl weiblich",
+      "en": "Number, female"
+     },
+     "type": "integer",
+     "unit": "Personen"
+    },
+    {
+     "name": "count_total",
+     "label": {
+      "de": "Zahl zusammen",
+      "en": "Number, total"
+     },
+     "type": "integer",
+     "unit": "Personen"
+    },
+    {
+     "name": "per10k_m",
+     "label": {
+      "de": "Auf 10 000 männliche Einwohner",
+      "en": "Per 10,000 male inhabitants"
+     },
+     "type": "number",
+     "unit": "je 10 000"
+    },
+    {
+     "name": "per10k_w",
+     "label": {
+      "de": "Auf 10 000 weibliche Einwohner",
+      "en": "Per 10,000 female inhabitants"
+     },
+     "type": "number",
+     "unit": "je 10 000"
+    },
+    {
+     "name": "per10k_total",
+     "label": {
+      "de": "Auf 10 000 Einwohner",
+      "en": "Per 10,000 inhabitants"
+     },
+     "type": "number",
+     "unit": "je 10 000"
+    }
+   ],
+   "rows": [
+    [
+     "Taubstumme",
+     "Gera",
+     1864,
+     "Städte",
+     1,
+     4,
+     5,
+     1.27,
+     5.32,
+     3.25
+    ],
+    [
+     "Taubstumme",
+     "Gera",
+     1864,
+     "Landorte",
+     7,
+     6,
+     13,
+     6.66,
+     5.49,
+     6.06
+    ],
+    [
+     "Taubstumme",
+     "Gera",
+     1864,
+     "Überhaupt",
+     8,
+     10,
+     18,
+     4.36,
+     5.42,
+     4.98
+    ],
+    [
+     "Blinde",
+     "Gera",
+     1864,
+     "Städte",
+     9,
+     8,
+     17,
+     11.47,
+     10.64,
+     11.07
+    ],
+    [
+     "Blinde",
+     "Gera",
+     1864,
+     "Landorte",
+     7,
+     16,
+     23,
+     6.66,
+     14.65,
+     10.73
+    ],
+    [
+     "Blinde",
+     "Gera",
+     1864,
+     "Überhaupt",
+     16,
+     24,
+     40,
+     8.71,
+     13.02,
+     10.87
+    ],
+    [
+     "Taubstumme",
+     "Gera",
+     1867,
+     "Städte",
+     1,
+     5,
+     6,
+     1.2,
+     6.24,
+     3.68
+    ],
+    [
+     "Taubstumme",
+     "Gera",
+     1867,
+     "Landorte",
+     7,
+     7,
+     14,
+     6.51,
+     6.24,
+     6.37
+    ],
+    [
+     "Taubstumme",
+     "Gera",
+     1867,
+     "Überhaupt",
+     8,
+     12,
+     20,
+     4.2,
+     6.24,
+     5.23
+    ],
+    [
+     "Blinde",
+     "Gera",
+     1867,
+     "Städte",
+     10,
+     11,
+     21,
+     12.09,
+     13.72,
+     12.9
+    ],
+    [
+     "Blinde",
+     "Gera",
+     1867,
+     "Landorte",
+     5,
+     12,
+     17,
+     4.64,
+     10.7,
+     7.74
+    ],
+    [
+     "Blinde",
+     "Gera",
+     1867,
+     "Überhaupt",
+     15,
+     23,
+     38,
+     7.88,
+     12.48,
+     9.93
+    ],
+    [
+     "Taubstumme",
+     "Schleiz",
+     1864,
+     "Städte",
+     9,
+     6,
+     15,
+     23.5,
+     15.03,
+     19.18
+    ],
+    [
+     "Taubstumme",
+     "Schleiz",
+     1864,
+     "Landorte",
+     18,
+     9,
+     27,
+     18.9,
+     9.16,
+     13.95
+    ],
+    [
+     "Taubstumme",
+     "Schleiz",
+     1864,
+     "Überhaupt",
+     27,
+     15,
+     42,
+     20.22,
+     10.85,
+     15.46
+    ],
+    [
+     "Blinde",
+     "Schleiz",
+     1864,
+     "Städte",
+     2,
+     7,
+     9,
+     5.22,
+     17.54,
+     11.51
+    ],
+    [
+     "Blinde",
+     "Schleiz",
+     1864,
+     "Landorte",
+     11,
+     14,
+     25,
+     11.55,
+     14.25,
+     12.92
+    ],
+    [
+     "Blinde",
+     "Schleiz",
+     1864,
+     "Überhaupt",
+     13,
+     21,
+     34,
+     9.73,
+     15.2,
+     12.51
+    ],
+    [
+     "Taubstumme",
+     "Schleiz",
+     1867,
+     "Städte",
+     7,
+     5,
+     12,
+     17.98,
+     12.27,
+     15.06
+    ],
+    [
+     "Taubstumme",
+     "Schleiz",
+     1867,
+     "Landorte",
+     11,
+     8,
+     19,
+     11.56,
+     8.1,
+     9.79
+    ],
+    [
+     "Taubstumme",
+     "Schleiz",
+     1867,
+     "Überhaupt",
+     18,
+     13,
+     31,
+     13.42,
+     9.31,
+     11.33
+    ],
+    [
+     "Blinde",
+     "Schleiz",
+     1867,
+     "Städte",
+     2,
+     5,
+     7,
+     5.14,
+     12.27,
+     8.79
+    ],
+    [
+     "Blinde",
+     "Schleiz",
+     1867,
+     "Landorte",
+     15,
+     17,
+     32,
+     15.76,
+     17.2,
+     16.49
+    ],
+    [
+     "Blinde",
+     "Schleiz",
+     1867,
+     "Überhaupt",
+     17,
+     22,
+     39,
+     12.68,
+     15.76,
+     14.25
+    ],
+    [
+     "Taubstumme",
+     "Lobenstein-Ebersdorf",
+     1864,
+     "Städte",
+     1,
+     3,
+     4,
+     4.59,
+     12.34,
+     8.67
+    ],
+    [
+     "Taubstumme",
+     "Lobenstein-Ebersdorf",
+     1864,
+     "Landorte",
+     9,
+     8,
+     17,
+     10.57,
+     8.54,
+     9.5
+    ],
+    [
+     "Taubstumme",
+     "Lobenstein-Ebersdorf",
+     1864,
+     "Überhaupt",
+     10,
+     11,
+     21,
+     9.35,
+     9.32,
+     9.33
+    ],
+    [
+     "Blinde",
+     "Lobenstein-Ebersdorf",
+     1864,
+     "Städte",
+     0,
+     4,
+     4,
+     0.0,
+     16.45,
+     8.67
+    ],
+    [
+     "Blinde",
+     "Lobenstein-Ebersdorf",
+     1864,
+     "Landorte",
+     11,
+     12,
+     23,
+     12.92,
+     12.8,
+     12.86
+    ],
+    [
+     "Blinde",
+     "Lobenstein-Ebersdorf",
+     1864,
+     "Überhaupt",
+     11,
+     16,
+     27,
+     10.29,
+     13.55,
+     12.0
+    ],
+    [
+     "Taubstumme",
+     "Lobenstein-Ebersdorf",
+     1867,
+     "Städte",
+     2,
+     3,
+     5,
+     8.87,
+     12.41,
+     10.7
+    ],
+    [
+     "Taubstumme",
+     "Lobenstein-Ebersdorf",
+     1867,
+     "Landorte",
+     6,
+     3,
+     9,
+     7.1,
+     3.26,
+     5.09
+    ],
+    [
+     "Taubstumme",
+     "Lobenstein-Ebersdorf",
+     1867,
+     "Überhaupt",
+     8,
+     6,
+     14,
+     7.45,
+     5.17,
+     6.26
+    ],
+    [
+     "Blinde",
+     "Lobenstein-Ebersdorf",
+     1867,
+     "Städte",
+     2,
+     2,
+     4,
+     8.87,
+     8.27,
+     8.56
+    ],
+    [
+     "Blinde",
+     "Lobenstein-Ebersdorf",
+     1867,
+     "Landorte",
+     11,
+     10,
+     21,
+     12.96,
+     10.99,
+     11.88
+    ],
+    [
+     "Blinde",
+     "Lobenstein-Ebersdorf",
+     1867,
+     "Überhaupt",
+     13,
+     12,
+     25,
+     12.1,
+     10.34,
+     11.18
+    ],
+    [
+     "Taubstumme",
+     "Reuß j. L.",
+     1864,
+     "Städte",
+     11,
+     13,
+     24,
+     7.94,
+     9.32,
+     8.63
+    ],
+    [
+     "Taubstumme",
+     "Reuß j. L.",
+     1864,
+     "Landorte",
+     34,
+     23,
+     57,
+     11.91,
+     7.64,
+     9.71
+    ],
+    [
+     "Taubstumme",
+     "Reuß j. L.",
+     1864,
+     "Überhaupt",
+     45,
+     36,
+     81,
+     10.61,
+     8.17,
+     9.37
+    ],
+    [
+     "Blinde",
+     "Reuß j. L.",
+     1864,
+     "Städte",
+     11,
+     19,
+     30,
+     7.94,
+     13.63,
+     10.79
+    ],
+    [
+     "Blinde",
+     "Reuß j. L.",
+     1864,
+     "Landorte",
+     29,
+     42,
+     71,
+     10.16,
+     13.94,
+     12.1
+    ],
+    [
+     "Blinde",
+     "Reuß j. L.",
+     1864,
+     "Überhaupt",
+     40,
+     61,
+     101,
+     9.43,
+     13.84,
+     11.68
+    ],
+    [
+     "Taubstumme",
+     "Reuß j. L.",
+     1867,
+     "Städte",
+     10,
+     13,
+     23,
+     6.94,
+     8.96,
+     7.95
+    ],
+    [
+     "Taubstumme",
+     "Reuß j. L.",
+     1867,
+     "Landorte",
+     24,
+     18,
+     42,
+     8.34,
+     5.94,
+     7.11
+    ],
+    [
+     "Taubstumme",
+     "Reuß j. L.",
+     1867,
+     "Überhaupt",
+     34,
+     31,
+     65,
+     7.87,
+     6.92,
+     7.39
+    ],
+    [
+     "Blinde",
+     "Reuß j. L.",
+     1867,
+     "Städte",
+     14,
+     18,
+     32,
+     9.71,
+     12.41,
+     10.06
+    ],
+    [
+     "Blinde",
+     "Reuß j. L.",
+     1867,
+     "Landorte",
+     31,
+     39,
+     70,
+     10.85,
+     12.87,
+     11.85
+    ],
+    [
+     "Blinde",
+     "Reuß j. L.",
+     1867,
+     "Überhaupt",
+     45,
+     57,
+     102,
+     10.42,
+     12.95,
+     11.59
+    ]
+   ],
+   "source_refs": [
+    {
+     "page": "117",
+     "block": "b4",
+     "rows": "r4-r11"
+    },
+    {
+     "page": "118",
+     "block": "b2",
+     "rows": "r4-r11"
+    }
+   ]
+  }
+ ],
+ "charts": [
+  {
+   "id": "c1",
+   "dataset": "mean",
+   "title": {
+    "de": "Nur drei von zehn Militärpflichtigen waren brauchbar, am häufigsten fehlte es an Körpergröße",
+    "en": "Only three in ten conscripts were fit for service, most often they lacked height"
+   },
+   "caption": {
+    "de": "Befund der Militärpflichtigen 1864 bis 1866 in Prozent des gedruckten Durchschnitts von 799 Pflichtigen jährlich. Unterwüchsig: unter 5′ 7″ sächsisches Maß, etwa 158 cm. Quelle: S. 173.",
+    "en": "Findings for conscripts 1864 to 1866 as a percentage of the printed average of 799 conscripts a year. Undersized: under 5′ 7″ Saxon measure, about 158 cm. Source: p. 173."
+   },
+   "vegalite": {
+    "height": {
+     "step": 28
+    },
+    "transform": [
+     {
+      "calculate": {
+       "de": "datum.category_de",
+       "en": "datum.category_en"
+      },
+      "as": "cat"
+     },
+     {
+      "calculate": "datum.category_de === 'Brauchbar'",
+      "as": "isfit"
+     }
+    ],
+    "encoding": {
+     "y": {
+      "field": "cat",
+      "type": "nominal",
+      "sort": {
+       "field": "pct_mean",
+       "op": "max",
+       "order": "descending"
+      },
+      "axis": {
+       "title": null,
+       "labelLimit": 400,
+       "ticks": false,
+       "labelFontWeight": {
+        "condition": {
+         "test": "datum.value === 'Brauchbar' || datum.value === 'Fit for service'",
+         "value": 700
+        },
+        "value": 400
+       }
+      }
+     }
+    },
+    "layer": [
+     {
+      "mark": {
+       "type": "bar",
+       "size": 18
+      },
+      "encoding": {
+       "x": {
+        "field": "pct_mean",
+        "type": "quantitative",
+        "scale": {
+         "domain": [
+          0,
+          36
+         ]
+        },
+        "axis": {
+         "values": [
+          0,
+          10,
+          20,
+          30
+         ],
+         "title": {
+          "de": "Prozent der Militärpflichtigen",
+          "en": "Percent of conscripts"
+         }
+        }
+       },
+       "color": {
+        "condition": {
+         "test": "datum.isfit",
+         "value": "@accent"
+        },
+        "value": "@context"
+       },
+       "tooltip": [
+        {
+         "field": "cat",
+         "title": {
+          "de": "Befund",
+          "en": "Finding"
+         }
+        },
+        {
+         "field": "avg_count",
+         "title": {
+          "de": "Personen im Jahresdurchschnitt",
+          "en": "Persons, annual average"
+         },
+         "format": ",d"
+        },
+        {
+         "field": "pct_mean",
+         "title": {
+          "de": "Prozent",
+          "en": "Percent"
+         },
+         "format": ".2f"
+        }
+       ]
+      }
+     },
+     {
+      "transform": [
+       {
+        "filter": "datum.isfit"
+       }
+      ],
+      "mark": {
+       "type": "text",
+       "style": "label",
+       "align": "left",
+       "dx": 6,
+       "color": "@accent"
+      },
+      "encoding": {
+       "x": {
+        "field": "pct_mean",
+        "type": "quantitative"
+       },
+       "text": {
+        "field": "pct_mean",
+        "format": ".1f"
+       }
+      }
+     },
+     {
+      "transform": [
+       {
+        "filter": "!datum.isfit"
+       }
+      ],
+      "mark": {
+       "type": "text",
+       "style": "label-muted",
+       "align": "left",
+       "dx": 6
+      },
+      "encoding": {
+       "x": {
+        "field": "pct_mean",
+        "type": "quantitative"
+       },
+       "text": {
+        "field": "pct_mean",
+        "format": ".1f"
+       }
+      }
+     },
+     {
+      "transform": [
+       {
+        "filter": "datum.isfit"
+       },
+       {
+        "calculate": {
+         "de": "datum.avg_count + ' von 799 Pflichtigen im Jahresdurchschnitt'",
+         "en": "datum.avg_count + ' of 799 conscripts on average per year'"
+        },
+        "as": "cnt"
+       }
+      ],
+      "mark": {
+       "type": "text",
+       "style": "label",
+       "align": "left",
+       "dx": 10,
+       "color": "@paper"
+      },
+      "encoding": {
+       "x": {
+        "datum": 0
+       },
+       "text": {
+        "field": "cnt"
+       }
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "c2",
+   "dataset": "diseases",
+   "title": {
+    "de": "Krätze und Hautleiden betrafen in Gera 13,6 Prozent der Kranken, in Lobenstein und Hohenleuben 6",
+    "en": "In Gera 13.6 percent of the sick had skin diseases, in Lobenstein and Hohenleuben 6"
+   },
+   "caption": {
+    "de": "Hauptkrankheiten in Prozent der Erkrankten, nach den Aufzeichnungen eines Arztes in Lobenstein, der Krankenhausstation Gera und des Orts Hohenleuben. Die Zahlen sind nicht streng vergleichbar. Quelle: S. 169 bis 172.",
+    "en": "Main diseases as a percentage of the sick, from the records of a physician in Lobenstein, the hospital ward in Gera and the town of Hohenleuben. The figures are not strictly comparable. Source: pp. 169 to 172."
+   },
+   "vegalite": {
+    "height": {
+     "step": 34
+    },
+    "transform": [
+     {
+      "filter": "datum.level == 0 && datum.shared == 1 && datum.place !== 'Tanna'"
+     },
+     {
+      "joinaggregate": [
+       {
+        "op": "count",
+        "as": "n_places"
+       }
+      ],
+      "groupby": [
+       "disease_de"
+      ]
+     },
+     {
+      "filter": "datum.n_places == 3"
+     },
+     {
+      "calculate": {
+       "de": "datum.disease_de",
+       "en": "datum.disease_en"
+      },
+      "as": "dis"
+     }
+    ],
+    "encoding": {
+     "y": {
+      "field": "dis",
+      "type": "nominal",
+      "sort": {
+       "field": "percent",
+       "op": "max",
+       "order": "descending"
+      },
+      "axis": {
+       "title": null,
+       "labelLimit": 400,
+       "ticks": false,
+       "domain": false,
+       "labelFontWeight": {
+        "condition": {
+         "test": "indexof(['Krätze u. ähnl. Hautkrankheiten', 'Scabies, similar skin diseases'], datum.value) >= 0",
+         "value": 700
+        },
+        "value": 400
+       }
+      }
+     },
+     "x": {
+      "field": "place",
+      "type": "nominal",
+      "sort": [
+       "Lobenstein",
+       "Gera",
+       "Hohenleuben"
+      ],
+      "axis": {
+       "orient": "top",
+       "title": null,
+       "ticks": false,
+       "domain": false,
+       "labelAngle": 0,
+       "labelFontSize": 12,
+       "labelFontWeight": 600
+      }
+     }
+    },
+    "layer": [
+     {
+      "mark": {
+       "type": "rect",
+       "stroke": "@paper",
+       "strokeWidth": 3,
+       "cornerRadius": 3
+      },
+      "encoding": {
+       "color": {
+        "field": "percent",
+        "type": "quantitative",
+        "legend": null,
+        "scale": {
+         "domain": [
+          0,
+          14
+         ],
+         "range": "heatmap",
+         "clamp": true
+        }
+       },
+       "tooltip": [
+        {
+         "field": "dis",
+         "title": {
+          "de": "Krankheit",
+          "en": "Disease"
+         }
+        },
+        {
+         "field": "place",
+         "title": {
+          "de": "Ort",
+          "en": "Place"
+         }
+        },
+        {
+         "field": "percent",
+         "title": {
+          "de": "Prozent der Erkrankten",
+          "en": "Percent of the sick"
+         },
+         "format": ".2f"
+        }
+       ]
+      }
+     },
+     {
+      "mark": {
+       "type": "text",
+       "style": "label"
+      },
+      "encoding": {
+       "text": {
+        "field": "percent",
+        "format": ".1f"
+       },
+       "color": {
+        "condition": {
+         "test": "datum.percent >= 8",
+         "value": "@paper"
+        },
+        "value": "@ink"
+       }
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "c3",
+   "dataset": "events",
+   "title": {
+    "de": "1826 machte ein Mandat die Impfung zum Gesetz, 70 Jahre nach 208 toten Kindern in Gera",
+    "en": "In 1826 a decree made vaccination law, 70 years after smallpox killed 208 children in Gera"
+   },
+   "caption": {
+    "de": "Von Brückner datierte Ereignisse: erste Ärzte, Blattern und Impfung, weitere Epidemien. Die Beispiele sind keine vollständige Chronik; Zahlen und Einheiten der Blatternfälle sind nicht vergleichbar. Quelle: S. 170 f., 177.",
+    "en": "Events dated by Brückner: first physicians, smallpox and vaccination, further epidemics. The examples are not a complete chronicle; the figures and units of the smallpox cases are not comparable. Source: pp. 170 f., 177."
+   },
+   "vegalite": {
+    "height": 440,
+    "layer": [
+     {
+      "mark": {
+       "type": "circle",
+       "stroke": "@paper",
+       "strokeWidth": 1.5
+      },
+      "encoding": {
+       "x": {
+        "field": "year",
+        "type": "quantitative",
+        "scale": {
+         "domain": [
+          1560,
+          1880
+         ],
+         "nice": false
+        },
+        "axis": {
+         "values": [
+          1600,
+          1700,
+          1800
+         ],
+         "format": "d",
+         "grid": true,
+         "title": null,
+         "orient": "bottom"
+        }
+       },
+       "y": {
+        "field": "pos",
+        "type": "quantitative",
+        "scale": {
+         "domain": [
+          -0.8,
+          18.799999999999997
+         ],
+         "reverse": true
+        },
+        "axis": null
+       },
+       "color": {
+        "field": "lane_de",
+        "type": "nominal",
+        "legend": null,
+        "scale": {
+         "domain": [
+          "Ärzte vor Ort",
+          "Blattern und Impfung",
+          "Weitere Epidemien"
+         ],
+         "range": [
+          "@accent3",
+          "@accent",
+          "@accent2"
+         ]
+        }
+       },
+       "size": {
+        "condition": {
+         "test": "datum.year == 1756 || datum.year == 1826",
+         "value": 230
+        },
+        "value": 110
+       },
+       "tooltip": [
+        {
+         "field": "year",
+         "title": {
+          "de": "Jahr",
+          "en": "Year"
+         },
+         "format": "d"
+        },
+        {
+         "field": "label",
+         "title": {
+          "de": "Ereignis",
+          "en": "Event"
+         }
+        }
+       ]
+      }
+     },
+     {
+      "transform": [
+       {
+        "filter": "datum.year >= 1750"
+       }
+      ],
+      "mark": {
+       "type": "text",
+       "style": "label",
+       "align": "right",
+       "dx": -12,
+       "color": "@ink2",
+       "fontWeight": 400
+      },
+      "encoding": {
+       "x": {
+        "field": "year",
+        "type": "quantitative"
+       },
+       "y": {
+        "field": "pos",
+        "type": "quantitative",
+        "scale": {
+         "domain": [
+          -0.8,
+          18.799999999999997
+         ],
+         "reverse": true
+        },
+        "axis": null
+       },
+       "text": {
+        "field": "label"
+       }
+      }
+     },
+     {
+      "transform": [
+       {
+        "filter": "datum.year < 1750"
+       }
+      ],
+      "mark": {
+       "type": "text",
+       "style": "label",
+       "align": "left",
+       "dx": 12,
+       "color": "@ink2",
+       "fontWeight": 400
+      },
+      "encoding": {
+       "x": {
+        "field": "year",
+        "type": "quantitative"
+       },
+       "y": {
+        "field": "pos",
+        "type": "quantitative",
+        "scale": {
+         "domain": [
+          -0.8,
+          18.799999999999997
+         ],
+         "reverse": true
+        },
+        "axis": null
+       },
+       "text": {
+        "field": "label"
+       }
+      }
+     },
+     {
+      "transform": [
+       {
+        "filter": "datum.lane_first == 1"
+       }
+      ],
+      "mark": {
+       "type": "text",
+       "style": "label",
+       "align": "left",
+       "fontSize": 13
+      },
+      "encoding": {
+       "x": {
+        "datum": 1560
+       },
+       "y": {
+        "field": "head_pos",
+        "type": "quantitative"
+       },
+       "text": {
+        "field": "lane_label"
+       },
+       "color": {
+        "field": "lane_de",
+        "type": "nominal",
+        "legend": null,
+        "scale": {
+         "domain": [
+          "Ärzte vor Ort",
+          "Blattern und Impfung",
+          "Weitere Epidemien"
+         ],
+         "range": [
+          "@accent3",
+          "@accent",
+          "@accent2"
+         ]
+        }
+       }
+      }
+     }
+    ],
+    "transform": [
+     {
+      "calculate": {
+       "de": "datum.label_de",
+       "en": "datum.label_en"
+      },
+      "as": "label"
+     },
+     {
+      "calculate": {
+       "de": "datum.lane_de",
+       "en": "datum.lane_en"
+      },
+      "as": "lane_label"
+     },
+     {
+      "calculate": "datum.pos - 1",
+      "as": "head_pos"
+     }
+    ]
+   }
+  }
+ ],
+ "transcription_issues": [
+  {
+   "page": "118",
+   "block": "b2",
+   "cell": "r5c18",
+   "transcribed": "12,48",
+   "facsimile": "12,48",
+   "checked_facsimile": true,
+   "note": "Gera 1867, blind women overall: 23 women among about 19,230 gives 11,96 per 10,000 (urban 11 / 13,72 and rural 12 / 10,70 imply that population); printed so."
+  },
+  {
+   "page": "118",
+   "block": "b2",
+   "cell": "r11c7",
+   "transcribed": "10,06",
+   "facsimile": "10,06",
+   "checked_facsimile": true,
+   "note": "Fürstenthum 1867, blind in towns, total: 32 persons among about 28,930 inhabitants gives 11,06; printed 10,06."
+  }
+ ],
+ "keywords": {
+  "de": [
+   "Krankheiten",
+   "Gesundheit",
+   "Ärzte",
+   "Seuchen",
+   "Blattern",
+   "Impfung",
+   "Cholera",
+   "Krätze",
+   "Militärtauglichkeit",
+   "Musterung",
+   "Taubstumme",
+   "Blinde"
+  ],
+  "en": [
+   "diseases",
+   "health",
+   "physicians",
+   "epidemics",
+   "smallpox",
+   "vaccination",
+   "cholera",
+   "scabies",
+   "fitness for service",
+   "conscription",
+   "deaf-mutes",
+   "blind"
+  ]
+ },
+ "related": [
+  "geburten-sterbefaelle",
+  "alter-familie",
+  "sagen-brauch",
+  "verfassung-verwaltung"
+ ],
+ "generated_by": "Claude Sonnet 5.5 (Agent F4), aus 4 Einzelauswertungen zusammengeführt",
+ "date": "2026-10-02"
+}

@@ -53,7 +53,7 @@ const charts = (page) => page.evaluate(() => {
 });
 
 const only = process.env.ONLY;
-const pages = only ? only.split(',') : fs.readdirSync(path.join(SITE, 'auswertungen')).filter((f) => f.endsWith('.html') && f !== 'index.html').map((f) => 'auswertungen/' + f);
+const pages = only ? only.split(',') : fs.readdirSync(path.join(SITE, 'auswertungen')).filter((f) => f.endsWith('.html') && f !== 'index.html' && !fs.readFileSync(path.join(SITE, 'auswertungen', f), 'utf8').includes('http-equiv="refresh"')).map((f) => 'auswertungen/' + f);
 await check('karte.html', (page) => page.evaluate(() => {
   const tiles = Array.from(document.querySelectorAll('.leaflet-tile'));
   return { tiles: tiles.length, tilesLoaded: tiles.filter((t) => t.complete && t.naturalWidth > 0).length, tileSrc: tiles[0] && tiles[0].src.slice(0, 40),

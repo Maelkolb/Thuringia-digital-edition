@@ -1,0 +1,70 @@
+====================================================================================================
+landwirtschaft-agrarreformen-1836-1868 t1-3-2 agriculture
+TITLE Agrarreformen: Ablösung, Rittergüter und Vereine (1836–1868)
+SUMMARY Im Abschnitt »Geschichte der Landwirthschaft« nennt Brückner als Hebel des Aufschwungs die Ablösung der Feudallasten, die Zerschlagung von Kammer- und Rittergütern und die landwirtschaftlichen Vereine. Die Diagramme zeigen den Rückgang der Rittergüter und den Wandel ihrer Besitzer von 1647 bis 1867, die 1867 überwiesenen Ablösungsrenten, die Zeitleiste von Reformgesetzen und Gutszerschlagungen und die Mitgliederzahlen der vier Vereine.
+FIND Die Zahl der Rittergüter sank von 72 (1647, alle in adligem Besitz) auf 41 (1867), also um 43 %; am stärksten in Schleiz (62 %) und Lobenstein-Ebersdorf (59 %), am schwächsten in Gera (24 %).
+FIND 1867 sind 25 der 41 Rittergüter in bürgerlichem Besitz (61 %), 9 bei Adligen und 7 bei Mitgliedern des Fürstenhauses; in Lobenstein-Ebersdorf gehören 8 von 9 Gütern Bürgerlichen.
+FIND Ende Juli 1867 waren jährliche Ablösungsrenten von 24317 Thlr. 9 Sgr. überwiesen; davon entfallen 53,3 % auf Lobenstein-Ebersdorf, das nur 26,0 % der Bevölkerung stellt, und 20,3 % auf Gera (42,6 % der Bevölkerung). Brückner bemerkt dazu, dass ein großer Teil der Ablösungen, namentlich in Gera, durch Kapitalabfindung ohne Landrentenbank erfolgte.
+FIND Von den 10 datierten Gutszerschlagungen fallen 6 in die Jahre 1829–1847; die Reformgesetze folgen von 1836 (Lobenstein-Ebersdorf) über 1838 (Gera) und 1842–45 (Schleiz) bis zum einheitlichen Gesetz von 1858 und der Novelle von 1864.
+FIND Die vier landwirtschaftlichen Vereine hatten 1868 zusammen 814 Mitglieder; der älteste ist der geraer Verein (1844), der mitgliederstärkste der ebersdorfer (262 Mitglieder, gegründet 1853).
+METHOD Die Zahlen stammen aus der Tabelle der Rittergüter 1647 und 1867 (S. 230, Block b4), der Liste der Ablösungsrenten (S. 230, Block b2), der Vereinstabelle (S. 231) und den Datumsangaben im Fließtext (S. 225, 229–231). Die Besitzerangaben 1867 wurden aus den Zeilentexten (»14 Bürgerliche, 7 Adlige, 5 Fürstliche«) in Zahlen zerlegt; die Ditto-Zeichen (»"«) stehen für »Bürgerliche«. Für die Zahl der Rittergüter in Gera 1867 gilt Brückners Berichtigung (S. 831, zu S. 230): 26 statt der gedruckten 29; sie stimmt mit der Summe der Besitzerangaben (14 + 7 + 5) überein. Ablösungsrenten sind als Taler und Silbergroschen gedruckt; für den Vergleich wurden sie mit 1 Taler = 30 Silbergroschen in Taler umgerechnet (Währungsfaktor des preußischen Münzsystems, nicht aus Brückners Maßtabelle). Die Bevölkerung nach Landesteilen (1864) stammt aus der Berufsklassen-Tabelle (S. 211). In der Zeitleiste sind alle im Text mit Jahr genannten Reformgesetze und Gutszerschlagungen verzeichnet; undatierte Fälle (Lothra, Löhma) fehlen.
+CAVEAT Die Zahl der Rittergüter in Gera 1867 ist in der Tabelle mit 29 gedruckt; Brückners Berichtigung (S. 831) verlangt 26, was zu den Besitzerzahlen und zur Summe 41 passt. Der Text (S. 230) nennt 31 zerschlagene oder in Kammergüter verwandelte Rittergüter; die Differenz 72 − 41 = 31 stimmt damit überein.
+CAVEAT Die Ablösungsrenten sind Jahresrenten (Stand Ende Juli 1867), keine Kapitalbeträge; die Ablösung durch Kapitalzahlung (20- bis 25faches der Rente) ist darin nicht enthalten. Ein Vergleich der Landesteile ist wegen der unterschiedlichen Gesetze (1836, 1838, 1842–45) nur bedingt aussagekräftig.
+CAVEAT Die Zeitleiste enthält nur Ereignisse, die Brückner mit einer Jahreszahl nennt; bei Mödlareuth gibt er den Zeitraum 1834 bis 1843 an. Die Zuordnung der Zerschlagungen zu den Landesteilen ist im Text nicht angegeben.
+CONV [{'from': 'Silbergroschen', 'to': 'Thaler', 'factor_or_formula': '1 Thaler = 30 Silbergroschen', 'reference': 'preußisches Münzsystem; nicht in Brückners Tabelle (S. 830–832)'}]
+TI null
+--DS rittergueter Rittergüter 1647 und 1867 nach Besitzern 15 [{'page': '230', 'block': 'b4', 'rows': 'r2-r5'}, {'page': '831', 'block': 'b5'}]
+  cols [('landestheil_de', 'string', None, ''), ('landestheil_en', 'string', None, ''), ('lt_nr', 'integer', None, 'D'), ('jahr', 'integer', None, ''), ('besitzer_de', 'string', None, ''), ('besitzer_en', 'string', None, ''), ('besitzer_nr', 'integer', None, 'D'), ('anzahl', 'integer', 'Rittergüter', ''), ('balken_de', 'string', None, 'D'), ('balken_en', 'string', None, 'D')]
+    ['Gera', 'Gera', 1, 1647, 'Adlige', 'Nobility', 1, 34, 'Gera 1647', 'Gera 1647']
+    ['Gera', 'Gera', 1, 1867, 'Adlige', 'Nobility', 1, 7, 'Gera 1867', 'Gera 1867']
+    ['Gera', 'Gera', 1, 1867, 'Bürgerliche', 'Commoners', 2, 14, 'Gera 1867', 'Gera 1867']
+    ['Gera', 'Gera', 1, 1867, 'Fürstliche', 'Princely house', 3, 5, 'Gera 1867', 'Gera 1867']
+    ['Schleiz', 'Schleiz', 2, 1647, 'Adlige', 'Nobility', 1, 16, 'Schleiz 1647', 'Schleiz 1647']
+    ['Schleiz', 'Schleiz', 2, 1867, 'Adlige', 'Nobility', 1, 1, 'Schleiz 1867', 'Schleiz 1867']
+    ['Schleiz', 'Schleiz', 2, 1867, 'Bürgerliche', 'Commoners', 2, 3, 'Schleiz 1867', 'Schleiz 1867']
+    ['Schleiz', 'Schleiz', 2, 1867, 'Fürstliche', 'Princely house', 3, 2, 'Schleiz 1867', 'Schleiz 1867']
+    ['Lobenstein-Ebersdorf', 'Lobenstein-Ebersdorf', 3, 1647, 'Adlige', 'Nobility', 1, 22, 'Lobenstein-Ebersdorf 1647', 'Lobenstein-Ebersdorf 1647']
+    ['Lobenstein-Ebersdorf', 'Lobenstein-Ebersdorf', 3, 1867, 'Adlige', 'Nobility', 1, 1, 'Lobenstein-Ebersdorf 1867', 'Lobenstein-Ebersdorf 1867']
+    ['Lobenstein-Ebersdorf', 'Lobenstein-Ebersdorf', 3, 1867, 'Bürgerliche', 'Commoners', 2, 8, 'Lobenstein-Ebersdorf 1867', 'Lobenstein-Ebersdorf 1867']
+    ['Fürstentum', 'Principality', 4, 1647, 'Adlige', 'Nobility', 1, 72, 'Fürstentum 1647', 'Principality 1647']
+    ['Fürstentum', 'Principality', 4, 1867, 'Adlige', 'Nobility', 1, 9, 'Fürstentum 1867', 'Principality 1867']
+    ['Fürstentum', 'Principality', 4, 1867, 'Bürgerliche', 'Commoners', 2, 25, 'Fürstentum 1867', 'Principality 1867']
+    ['Fürstentum', 'Principality', 4, 1867, 'Fürstliche', 'Princely house', 3, 7, 'Fürstentum 1867', 'Principality 1867']
+--DS abloesung Ablösungsrenten Ende Juli 1867 4 [{'page': '230', 'block': 'b2', 'rows': 'i1-i4'}, {'page': '211', 'block': 'b2', 'rows': 'r5; r8; r11; r14'}]
+  cols [('landestheil_de', 'string', None, ''), ('landestheil_en', 'string', None, ''), ('lt_nr', 'integer', None, 'D'), ('thlr', 'integer', 'Thlr.', ''), ('sgr', 'integer', 'Sgr.', ''), ('thaler', 'number', 'Thlr.', 'D'), ('bevoelkerung', 'integer', 'Personen', ''), ('anteil_rente', 'number', '%', 'D'), ('anteil_bev', 'number', '%', 'D'), ('rente_je_kopf', 'number', 'Thlr.', 'D')]
+    ['Gera', 'Gera', 1, 4926, 8, 4926.27, 36798, 20.3, 42.6, 0.13]
+    ['Schleiz', 'Schleiz', 2, 6433, 22, 6433.73, 27175, 26.5, 31.4, 0.24]
+    ['Lobenstein-Ebersdorf', 'Lobenstein-Ebersdorf', 3, 12957, 9, 12957.3, 22499, 53.3, 26.0, 0.58]
+    ['Fürstentum', 'Principality', 4, 24317, 9, 24317.3, 86472, 100.0, 100.0, 0.28]
+--DS ereignisse Reformgesetze und Gutszerschlagungen 20 [{'page': '229', 'block': 'b1'}, {'page': '230', 'block': 'b3'}, {'page': '225', 'block': 'b1'}, {'page': '231', 'block': 'b3'}]
+  cols [('typ_de', 'string', None, ''), ('typ_en', 'string', None, ''), ('typ_nr', 'integer', None, 'D'), ('nr', 'integer', None, 'D'), ('kurz_de', 'string', None, ''), ('kurz_en', 'string', None, ''), ('ereignis_de', 'string', None, ''), ('ereignis_en', 'string', None, ''), ('jahr_von', 'integer', None, ''), ('jahr_bis', 'integer', None, ''), ('datum', 'date', None, ''), ('geltung_de', 'string', None, ''), ('geltung_en', 'string', None, ''), ('kapitalfaktor', 'integer', '×', '')]
+    ['Reformgesetz', 'Reform law', 1, 1, 'Ablösung (Lobenstein-Ebersdorf)', 'Redemption (Lobenstein-Ebersdorf)', 'Ablösung der Frohnen, Hutungsbefugnisse und Naturalabgaben (Lobenstein-Ebersdorf)', 'Redemption of corvées, grazing rights and dues in kind (Lobenstein-Ebersdorf)', 1836, 1836, '1836-03-22', 'Lobenstein-Ebersdorf', 'Lobenstein-Ebersdorf', 20]
+    ['Reformgesetz', 'Reform law', 1, 2, 'Ablösung (Gera)', 'Redemption (Gera)', 'Ablösung aller Feudallasten (Gera)', 'Redemption of all feudal burdens (Gera)', 1838, 1838, '1838-03-23', 'Gera', 'Gera', 25]
+    ['Reformgesetz', 'Reform law', 1, 3, 'Triftablösung (Schleiz)', 'Grazing servitudes (Schleiz)', 'Ablösung der Triften auf Verlangen (Schleiz)', 'Redemption of grazing servitudes on demand (Schleiz)', 1842, 1842, '1842-12-27', 'Schleiz', 'Schleiz', 25]
+    ['Reformgesetz', 'Reform law', 1, 4, 'Weitere Reallasten (Schleiz)', 'Further burdens (Schleiz)', 'Freiwillige Ablösung weiterer Reallasten (Schleiz)', 'Voluntary redemption of further real burdens (Schleiz)', 1843, 1843, '1843-02-18', 'Schleiz', 'Schleiz', None]
+    ['Reformgesetz', 'Reform law', 1, 5, 'Beete, Klauensteuer (Schleiz)', 'Beete, Klauen tax (Schleiz)', 'Beete- und Klauensteuer in Geldrente umwandelbar (Schleiz)', 'Beete and Klauen taxes convertible into money rent (Schleiz)', 1845, 1845, '1845-07-17', 'Schleiz', 'Schleiz', 20]
+    ['Reformgesetz', 'Reform law', 1, 6, 'Entwurf Gesamtgesetz', 'Draft general law', 'Entwurf eines Ablösungsgesetzes für das Gesamtfürstenthum (nicht anerkannt)', 'Draft redemption law for the whole principality (not recognized)', 1849, 1849, None, 'Fürstentum', 'Principality', None]
+    ['Reformgesetz', 'Reform law', 1, 7, 'Ablösungsgesetz, ganzes Land', 'Redemption law, whole country', 'Geraisches Gesetz von 1838 gilt für das ganze Fürstenthum; Landrentenbank', 'Gera law of 1838 made valid for the whole principality; land annuity bank', 1858, 1858, '1858-01-15', 'Fürstentum', 'Principality', 20]
+    ['Reformgesetz', 'Reform law', 1, 8, 'Zusammenlegung von Grundstücken', 'Consolidation of plots', 'Gesetz über die Zusammenlegung von Grundstücken (bisher nicht angewendet)', 'Law on consolidation of plots (not yet applied)', 1860, 1860, '1860-10-08', 'Fürstentum', 'Principality', None]
+    ['Reformgesetz', 'Reform law', 1, 9, 'Novelle zum Ablösungsgesetz', 'Amendment to the redemption law', 'Novelle: Ablösung auch auf Verlangen der Berechtigten; Rauchzehnt in Körnerabgabe', 'Amendment: redemption also on demand of the entitled; smoke tithe into grain levy', 1864, 1864, '1864-07-16', 'Fürstentum', 'Principality', None]
+    ['Reformgesetz', 'Reform law', 1, 10, 'Zerschlagung von Bauerngütern', 'Break-up of peasant farms', 'Abspaltungs- und Zerschlagungssachen an die Bezirksausschüsse', 'Cases of splitting and breaking up farms to the district committees', 1866, 1866, '1866-04-30', 'Fürstentum', 'Principality', None]
+    ['Gutszerschlagung', 'Break-up of an estate', 2, 11, 'Vorwerk Gräfenwarth', 'Outlying farm Gräfenwarth', 'Vorwerk Gräfenwarth', 'Outlying farm Gräfenwarth', 1614, 1614, None, None, None, None]
+    ['Gutszerschlagung', 'Break-up of an estate', 2, 12, 'Altengesees (Rittergut)', 'Altengesees (manor)', 'Altengesees (Rittergut)', 'Altengesees (manor)', 1763, 1763, None, None, None, None]
+    ['Gutszerschlagung', 'Break-up of an estate', 2, 13, 'Gut Rödern', 'Estate Rödern', 'Gut Rödern', 'Estate Rödern', 1783, 1783, None, None, None, None]
+    ['Gutszerschlagung', 'Break-up of an estate', 2, 14, 'Halbes Rittergut Heinersdorf', 'Half manor Heinersdorf', 'Halbes Rittergut Heinersdorf', 'Half manor Heinersdorf', 1829, 1829, None, None, None, None]
+    ['Gutszerschlagung', 'Break-up of an estate', 2, 15, 'Vorwerk Grumbach', 'Outlying farm Grumbach', 'Vorwerk Grumbach', 'Outlying farm Grumbach', 1830, 1830, None, None, None, None]
+    ['Gutszerschlagung', 'Break-up of an estate', 2, 16, 'Gut Pottiga', 'Estate Pottiga', 'Gut Pottiga', 'Estate Pottiga', 1834, 1834, None, None, None, None]
+    ['Gutszerschlagung', 'Break-up of an estate', 2, 17, 'Gut Mödlareuth', 'Estate Mödlareuth', 'Gut Mödlareuth', 'Estate Mödlareuth', 1834, 1843, None, None, None, None]
+    ['Gutszerschlagung', 'Break-up of an estate', 2, 18, 'Marstallwiesen bei Zollgrün', 'Marstall meadows near Zollgrün', 'Marstallwiesen bei Zollgrün', 'Marstall meadows near Zollgrün', 1844, 1844, None, None, None, None]
+    ['Gutszerschlagung', 'Break-up of an estate', 2, 19, 'Gut Benzka', 'Estate Benzka', 'Gut Benzka', 'Estate Benzka', 1847, 1847, None, None, None, None]
+    ['Gutszerschlagung', 'Break-up of an estate', 2, 20, 'Gut Frössen', 'Estate Frössen', 'Gut Frössen', 'Estate Frössen', 1867, 1867, None, None, None, None]
+--DS vereine Land- und forstwirtschaftliche Vereine 4 [{'page': '231', 'block': 'b1', 'rows': 'r2-r5'}]
+  cols [('sitz', 'string', None, ''), ('nr', 'integer', None, 'D'), ('gruendung', 'integer', None, ''), ('erneuert', 'integer', None, ''), ('mitglieder', 'integer', 'Personen', ''), ('baende', 'integer', 'Bände', '')]
+    ['Gera', 1, 1844, None, 176, 300]
+    ['Hohenleuben', 2, 1860, None, 196, 125]
+    ['Schleiz', 3, 1845, 1855, 180, 250]
+    ['Ebersdorf', 4, 1853, None, 262, 260]
+--CHART c1 rittergueter Rittergüter 1647 und 1867 nach Besitzern
+--CHART c2 abloesung Überwiesene Ablösungsrenten 1867
+--CHART c3 ereignisse Reformgesetze und Gutszerschlagungen
+--CHART c4 vereine Land- und forstwirtschaftliche Vereine 1868

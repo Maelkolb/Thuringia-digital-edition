@@ -1,0 +1,31 @@
+====================================================================================================
+wirtschaft-loehne-pacht-landwirtschaft-1860er t1-3-2 economy
+TITLE Tagelöhne, Gesindelöhne und Pachtpreise in der Landwirtschaft (um 1868)
+SUMMARY Brückner nennt im Fließtext die Pachtpreise für Feld (je Morgen) sowie Tagelöhne, Jahreslöhne von Knechten und Mägden und ihre Entwicklung. Die Angaben sind meist Spannen (»von … bis …«) und unterscheiden Unter- und Oberland. Die Diagramme stellen die Spannen als Bereiche dar.
+FIND Im Unterland, wo »durch Gera die Arbeitskräfte sehr gesucht sind«, verdient ein Taglöhner im Sommer 12–20 Silbergroschen, im Oberland mit Kost nur 5–6; die Obergrenze im Unterland ist damit mehr als dreimal so hoch (das 3,3-Fache). Der Winterlohn im Unterland (10 Sgr.) entspricht dem Oberland-Satz ohne Kost (10–12 Sgr.).
+FIND Frauen erhalten im Unterland im Mittel 55 % (Winter) bzw. 56 % (Sommer) des Männerlohns, im Oberland mit Kost 55 %.
+FIND Knechte erhalten 30–50, Mägde 18–30 Taler im Jahr; der Mittelwert der Mägde liegt bei 60 % des Knechtslohns. Tag- und Gesindelohn sind nach Brückner in den letzten 40 Jahren auf das Doppelte gestiegen.
+FIND Einzelne Grundstücke (mittelgutes Feld) werden mit 9–12 Talern je Morgen verpachtet (35–47 Taler je Hektar), große Güter im Unterland mit 4–8 und im Oberland mit 3–6 Talern je Morgen. Der mittlere Einzelpachtpreis ist damit rund das 1,8-Fache dessen der großen Güter des Unterlandes. Das Pachtgeld ist seit einem Menschenalter »nahe um das Doppelte« gestiegen.
+METHOD Die Werte sind dem Absatz auf S. 227 (Block b3) entnommen; sie stehen dort teils in Ziffern (»10«, »12 bis 20«, »30 bis 50«), teils ausgeschrieben (»fünf bis sechs«, »vier bis acht«) und wurden einheitlich in Ziffern übertragen. Die Sätze für den Oberland ohne Kost sind nach Brückners Angabe »das Doppelte« der Sätze mit Kost (aus dem Text abgeleitet). Pachtpreise sind in Taler je Morgen angegeben; für den Vergleich wurden sie mit Brückners Faktor (1 preuß. Morgen = 0,255322 ha, S. 832) auf Taler je Hektar umgerechnet. Der Mittelwert einer Spanne ist das arithmetische Mittel ihrer Grenzen.
+CAVEAT Es handelt sich um Spannen aus dem Fließtext, nicht um Messreihen; Jahr und Quelle der Erhebung nennt Brückner nicht (Schilderung der Verhältnisse um 1868). Die Sätze für Frauen und die Oberland-Sätze ohne Kost sind aus den Angaben des Textes zusammengestellt.
+CAVEAT Im Oberland erhält der Taglöhner mit Kost die niedrigeren Sätze und ohne Kost das Doppelte, »doch gewöhnlich mit einem Früh- und Vespertrunke«; der Wert der Kost ist nicht beziffert und lässt sich nicht umrechnen. Die Währungseinheiten (Taler, Silbergroschen) sind unverändert übernommen.
+CONV [{'from': 'Thaler je preußischer Morgen', 'to': 'Thaler je Hektar', 'factor_or_formula': 'Thaler/ha = Thaler/Morgen ÷ 0,255322', 'reference': 'Brückner S. 832: 1 preuß. Morgen = 0,255322 Hectaren'}]
+TI null
+--DS loehne Löhne und Pachtpreise (Spannen) 13 [{'page': '227', 'block': 'b3'}]
+  cols [('nr', 'integer', None, 'D'), ('kat_nr', 'integer', None, 'D'), ('kategorie_de', 'string', None, ''), ('kategorie_en', 'string', None, ''), ('einheit_de', 'string', None, ''), ('einheit_en', 'string', None, ''), ('merkmal_de', 'string', None, ''), ('merkmal_en', 'string', None, ''), ('gebiet_de', 'string', None, ''), ('gebiet_en', 'string', None, ''), ('min', 'number', None, 'D'), ('max', 'number', None, 'D'), ('mitte', 'number', None, 'D'), ('min_je_ha', 'number', 'Taler/ha', 'D'), ('max_je_ha', 'number', 'Taler/ha', 'D'), ('bemerkung', 'string', None, '')]
+    [1, 1, 'Tagelohn', 'Day wage', 'Silbergroschen je Tag', 'Silbergroschen per day', 'Mann, Winter', 'Man, winter', 'Unterland', 'Lower Land', 10, 10, 10.0, None, None, None]
+    [2, 1, 'Tagelohn', 'Day wage', 'Silbergroschen je Tag', 'Silbergroschen per day', 'Mann, Sommer', 'Man, summer', 'Unterland', 'Lower Land', 12, 20, 16.0, None, None, None]
+    [3, 1, 'Tagelohn', 'Day wage', 'Silbergroschen je Tag', 'Silbergroschen per day', 'Frau, Winter', 'Woman, winter', 'Unterland', 'Lower Land', 5, 6, 5.5, None, None, None]
+    [4, 1, 'Tagelohn', 'Day wage', 'Silbergroschen je Tag', 'Silbergroschen per day', 'Frau, Sommer', 'Woman, summer', 'Unterland', 'Lower Land', 8, 10, 9.0, None, None, None]
+    [5, 1, 'Tagelohn', 'Day wage', 'Silbergroschen je Tag', 'Silbergroschen per day', 'Mann, mit Kost', 'Man, with board', 'Oberland', 'Upper Land', 5, 6, 5.5, None, None, None]
+    [6, 1, 'Tagelohn', 'Day wage', 'Silbergroschen je Tag', 'Silbergroschen per day', 'Frau, mit Kost', 'Woman, with board', 'Oberland', 'Upper Land', 3, 3, 3.0, None, None, None]
+    [7, 1, 'Tagelohn', 'Day wage', 'Silbergroschen je Tag', 'Silbergroschen per day', 'Mann, ohne Kost', 'Man, without board', 'Oberland', 'Upper Land', 10, 12, 11.0, None, None, 'doppelter Satz laut Text']
+    [8, 1, 'Tagelohn', 'Day wage', 'Silbergroschen je Tag', 'Silbergroschen per day', 'Frau, ohne Kost', 'Woman, without board', 'Oberland', 'Upper Land', 6, 6, 6.0, None, None, 'doppelter Satz laut Text']
+    [9, 2, 'Jahreslohn des Gesindes', 'Annual wage of farm servants', 'Thaler im Jahr', 'Thaler per year', 'Knechte', 'Farm hands (men)', 'Land', 'Country', 30, 50, 40.0, None, None, None]
+    [10, 2, 'Jahreslohn des Gesindes', 'Annual wage of farm servants', 'Thaler im Jahr', 'Thaler per year', 'Mägde', 'Farm maids (women)', 'Land', 'Country', 18, 30, 24.0, None, None, None]
+    [11, 3, 'Pachtpreis', 'Rent', 'Thaler je Morgen', 'Thaler per Morgen', 'Einzelne Grundstücke', 'Single plots', 'beide Gebiete', 'both areas', 9, 12, 10.5, 35.2, 47.0, None]
+    [12, 3, 'Pachtpreis', 'Rent', 'Thaler je Morgen', 'Thaler per Morgen', 'Große Güter, Unterland', 'Large estates, Lower Land', 'Unterland', 'Lower Land', 4, 8, 6.0, 15.7, 31.3, None]
+    [13, 3, 'Pachtpreis', 'Rent', 'Thaler je Morgen', 'Thaler per Morgen', 'Große Güter, Oberland', 'Large estates, Upper Land', 'Oberland', 'Upper Land', 3, 6, 4.5, 11.7, 23.5, None]
+--CHART c1 loehne Tagelöhne im Unter- und Oberland
+--CHART c2 loehne Jahreslohn von Knechten und Mägden
+--CHART c3 loehne Pachtpreise für Feld

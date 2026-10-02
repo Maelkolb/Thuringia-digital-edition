@@ -1,0 +1,3960 @@
+{
+ "id": "gewaesser",
+ "title": {
+  "de": "Flüsse, Quellen und Heilquellen",
+  "en": "Rivers, springs and mineral springs"
+ },
+ "category": "hydrology",
+ "section": "t1-1-6",
+ "merges": [
+  "gewaesser-hauptfluesse-lauf-gefaelle",
+  "gewaesser-quellen-muendungen-hoehen",
+  "gewaesser-nebenfluesse-verzeichnis",
+  "gewaesser-heilquellen-lobenstein-analyse"
+ ],
+ "sources": [
+  {
+   "page": "46",
+   "block": "b2"
+  },
+  {
+   "page": "49",
+   "block": "b6"
+  },
+  {
+   "page": "50",
+   "block": "b1"
+  },
+  {
+   "page": "51",
+   "block": "b1"
+  },
+  {
+   "page": "45",
+   "block": "b7"
+  },
+  {
+   "page": "45",
+   "block": "b13"
+  },
+  {
+   "page": "46",
+   "block": "b4"
+  },
+  {
+   "page": "46",
+   "block": "b5"
+  },
+  {
+   "page": "46",
+   "block": "b16"
+  },
+  {
+   "page": "47",
+   "block": "b4"
+  },
+  {
+   "page": "48",
+   "block": "b1"
+  },
+  {
+   "page": "48",
+   "block": "b4"
+  },
+  {
+   "page": "48",
+   "block": "b6"
+  },
+  {
+   "page": "49",
+   "block": "b5"
+  },
+  {
+   "page": "50",
+   "block": "b15"
+  },
+  {
+   "page": "50",
+   "block": "b16"
+  },
+  {
+   "page": "51",
+   "block": "b8"
+  },
+  {
+   "page": "52",
+   "block": "b1"
+  },
+  {
+   "page": "52",
+   "block": "b2"
+  },
+  {
+   "page": "52",
+   "block": "b3"
+  },
+  {
+   "page": "52",
+   "block": "b11"
+  },
+  {
+   "page": "52",
+   "block": "b12"
+  },
+  {
+   "page": "52",
+   "block": "b13"
+  },
+  {
+   "page": "52",
+   "block": "b14"
+  },
+  {
+   "page": "52",
+   "block": "b15"
+  },
+  {
+   "page": "53",
+   "block": "b1"
+  },
+  {
+   "page": "53",
+   "block": "b6"
+  },
+  {
+   "page": "44",
+   "block": "b4",
+   "rows": "r2-r19",
+   "note": "Tabelle der Analyse (Neue Quelle, Agnesquelle)"
+  },
+  {
+   "page": "44",
+   "block": "b1",
+   "note": "Einleitungssatz: Analyse von Prof. Dr. Reichardt, Jena"
+  },
+  {
+   "page": "45",
+   "block": "b9",
+   "note": "Zuflusslisten S. 45 bis 53 (erster Eintrag)"
+  },
+  {
+   "page": "53",
+   "block": "b8",
+   "note": "Zuflusslisten S. 45 bis 53 (letzter Eintrag)"
+  }
+ ],
+ "summary": {
+  "de": "Brückner gliedert das Gewässernetz in vier Flusssysteme, zählt 83 Zuflüsse erster Ordnung auf und gibt für 28 Bäche und Flüsse Höhen an. Die Saale fällt im Land 101 m, die Weida 81 m, die Elster nur 25 m. Für die 1868 eröffnete Badeanstalt in Lobenstein druckt er die Analyse von zwei Eisenquellen.",
+  "en": "Brückner divides the drainage network into four river systems, lists 83 first-order tributaries and gives heights for 28 streams and rivers. The Saale falls 101 m within the country, the Weida 81 m, the Elster only 25 m. For the spa opened at Lobenstein in 1868 he prints the analysis of two iron springs."
+ },
+ "findings": [
+  {
+   "de": "Die Saale legt im Land das 1,83fache der Luftlinie zurück, die Weida das 1,75fache, die Elster das 1,33fache. Je Stunde Lauf fällt die Weida mit 61 Fuß am stärksten, die Elster mit 14 am schwächsten.",
+   "en": "Within the country the Saale covers 1.83 times its straight-line distance, the Weida 1.75 times, the Elster 1.33 times. Per Stunde of course the Weida falls most (61 feet), the Elster least (14)."
+  },
+  {
+   "de": "Im Oberland enden 68 Prozent der 50 Zuflussnamen auf -bach, im Unterland 29 Prozent von 28. Namen auf -graben oder -grund tragen 8 Zuflüsse im Unterland, im Oberland keiner.",
+   "en": "In the Oberland 68 percent of 50 tributary names end in -bach, in the Unterland 29 percent of 28. Names in -graben or -grund occur for 8 Unterland tributaries, for none in the Oberland."
+  },
+  {
+   "de": "Die Neue Quelle enthält 2,52 Teile feste Stoffe in 10.000 Teilen Wasser, die Agnesquelle 1,01. In der Agnesquelle ist Eisen der größte Einzelbestandteil (41 Prozent).",
+   "en": "The Neue Quelle contains 2.52 parts of solids in 10,000 parts of water, the Agnesquelle 1.01. In the Agnesquelle iron is the largest single constituent (41 percent)."
+  }
+ ],
+ "method": {
+  "de": "Die Längen und Höhen stammen aus den Gewässerbeschreibungen auf S. 45 bis 53, die Analyse der Eisenquellen aus der Tabelle auf S. 44. Alle Höhen sind preußische Dezimalfuß, auf den Pegel bei Swinemünde bezogen (S. 11 Anm.), und wurden mit 0,3766242 m je Fuß in Meter umgerechnet. Aufgenommen sind nur Höhen, die sich eindeutig einem Punkt eines Gewässers zuordnen lassen; Spannenangaben und Höhen nicht benannter Zuflüsse fehlen. Das Gefälle ist die Differenz zwischen oberer und unterer Höhe einer Strecke; bei Flüssen, die das Land durchqueren, gilt es zwischen Eintritt und Austritt. Die Gebiete folgen Brückners Gliederung (die Weida steht beim Oberland). Die Zuflüsse wurden aus den durchnummerierten Listen gezählt; die Nummerierung läuft bei jedem Fluss und Ufer lückenlos. Der Namenstyp ist nach dem Wortausgang editorisch zugeordnet. Bei der Analyse sind die 14 Bestandteile Reichardts zu vier Gruppen zusammengefasst (Natron und Kali; Kalk und Magnesia; Eisen und Mangan; übrige); ihre Summen ergeben genau die gedruckten Gesamtwerte 2,5232 und 1,0082.",
+  "en": "The lengths and heights come from the descriptions of the watercourses on pp. 45 to 53, the analysis of the iron springs from the table on p. 44. All heights are Prussian decimal feet referred to the Swinemünde gauge (p. 11 note) and were converted to meters at 0.3766242 m per foot. Only heights that can be assigned unambiguously to one point of a watercourse are included; range statements and heights of unnamed tributaries are missing. The fall is the difference between the upper and lower height of a reach; for rivers crossing the country it applies between entry and exit. The regions follow Brückner’s division (the Weida is listed under the Oberland). The tributaries were counted from the numbered lists; the numbering runs without gaps on every river and bank. The name type is assigned editorially from the ending. For the analysis Reichardt’s 14 constituents are combined into four groups (sodium and potassium; lime and magnesia; iron and manganese; other); their sums add up exactly to the printed totals 2.5232 and 1.0082."
+ },
+ "conversions": [
+  {
+   "from": "preuß. Dezimalfuß (Höhen)",
+   "to": "m",
+   "factor_or_formula": "m = Dezimalfuß × 0.3766242 (1 Dezimalfuß = 1/10 preuß. Ruthe)",
+   "reference": "Brückner S. 11 Fußnote (Dezimalfuß, Pegel Swinemünde); S. 831: 1 preuß. Ruthe = 3,766242 m"
+  }
+ ],
+ "caveats": [
+  {
+   "de": "Brückner erklärt die Längeneinheit Stunde nicht; vermutlich ist es eine Wegstunde. Windungsverhältnis und Gefälle je Stunde hängen davon nicht ab, Kilometerwerte lassen sich aus dem Text nicht belegen. Die Länge der Saale ist als »über 11 Stunden« gedruckt und hier als 11 gerechnet.",
+   "en": "Brückner does not explain the unit Stunde; presumably it is a walking hour. Sinuosity and fall per Stunde do not depend on it, but kilometer values cannot be derived from the text. The length of the Saale is printed as “over 11 Stunden” and is taken here as 11."
+  },
+  {
+   "de": "Höhen sind nur für 28 von rund 300 Gewässern angegeben und ungleich verteilt: viele Bäche im Oberland, wenige im Unterland. Die Strecken beginnen und enden nicht überall an Quelle und Mündung. Alle drei Hauptflüsse entspringen außerhalb des Landes, ihre Werte gelten nur für die Strecke im reußischen Gebiet.",
+   "en": "Heights are given for only 28 of about 300 watercourses and are unevenly distributed: many streams in the Oberland, few in the Unterland. The reaches do not everywhere start and end at spring and mouth. All three main rivers rise outside the country; their values apply only to the stretch in Reuss territory."
+  },
+  {
+   "de": "Die Listen führen nur Zuflüsse erster Ordnung als eigene Einträge, Brückners Gesamtzahl von 300 Quellrieseln, Bächen und Flüssen ist deshalb viel höher. Die Aussage über die Namen beruht auf den Hauptnamen der Einträge; die Einteilung nach dem Wortausgang ist grob.",
+   "en": "The lists give only first-order tributaries as separate entries, so Brückner’s total of 300 spring rills, brooks and rivers is far higher. The statement about the names rests on the main names of the entries; the classification by ending is rough."
+  },
+  {
+   "de": "Die Salze der Analyse sind rechnerische Verbindungen der damals nachgewiesenen Bestandteile, keine tatsächlich gelösten Stoffe; ein Vergleich mit heutigen Mineralwasseranalysen verlangt eine Umrechnung. Die freie Kohlensäure (336,93 und 235,0 C. C.) steht ohne Bezugsmenge im Druck und ist nicht gezeichnet.",
+   "en": "The salts in the analysis are computed combinations of the constituents detected at the time, not compounds actually dissolved; comparison with modern mineral-water analyses requires a conversion. The free carbonic acid (336.93 and 235.0 C. C.) is printed without a reference quantity and is not plotted."
+  }
+ ],
+ "transcription_issues": [
+  {
+   "page": "48",
+   "block": "b4",
+   "transcribed": "Wioschwitz",
+   "facsimile": "Moschwitz",
+   "checked_facsimile": true,
+   "note": "Name des Zuflusses der Selbitz (Quelle 1647′ am Südwestfuß des Kulm); die Zahl stimmt. Im Datensatz nach dem Faksimile korrigiert."
+  },
+  {
+   "page": "47",
+   "block": "b4",
+   "transcribed": "Wettera (Wetterau, Bittera, Wetterbach)",
+   "facsimile": "Wettera (Wetterau, Wittera, Wetterbach)",
+   "checked_facsimile": true,
+   "note": "Nebenname im Text; Quelle 1646′ und Mündung 945′ stimmen."
+  }
+ ],
+ "datasets": [
+  {
+   "name": "reaches",
+   "title": {
+    "de": "Strecken mit oberer und unterer Höhe",
+    "en": "Reaches with upper and lower height"
+   },
+   "columns": [
+    {
+     "name": "stream",
+     "label": {
+      "de": "Gewässer",
+      "en": "Watercourse"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "region",
+     "label": {
+      "de": "Gebiet",
+      "en": "Region"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "region_order",
+     "label": {
+      "de": "Gebiet (Ordnung)",
+      "en": "Region (order)"
+     },
+     "type": "integer",
+     "unit": null,
+     "derived": true
+    },
+    {
+     "name": "reach",
+     "label": {
+      "de": "Strecke",
+      "en": "Reach"
+     },
+     "type": "string",
+     "unit": null,
+     "note": "A = Quelle bis Mündung, B = Landeseintritt bis Landesaustritt, C = Teilstrecke (z. B. Landeseintritt bis Mündung, Quelle bis Eintritt in Gera); Codes editorisch"
+    },
+    {
+     "name": "upper_ft",
+     "label": {
+      "de": "Obere Höhe",
+      "en": "Upper height"
+     },
+     "type": "number",
+     "unit": "preuß. Dezimalfuß"
+    },
+    {
+     "name": "lower_ft",
+     "label": {
+      "de": "Untere Höhe",
+      "en": "Lower height"
+     },
+     "type": "number",
+     "unit": "preuß. Dezimalfuß"
+    },
+    {
+     "name": "upper_m",
+     "label": {
+      "de": "Obere Höhe",
+      "en": "Upper height"
+     },
+     "type": "number",
+     "unit": "m",
+     "derived": true
+    },
+    {
+     "name": "lower_m",
+     "label": {
+      "de": "Untere Höhe",
+      "en": "Lower height"
+     },
+     "type": "number",
+     "unit": "m",
+     "derived": true
+    },
+    {
+     "name": "fall_ft",
+     "label": {
+      "de": "Gefälle",
+      "en": "Fall"
+     },
+     "type": "number",
+     "unit": "preuß. Dezimalfuß",
+     "derived": true,
+     "note": "Differenz; für die Saale druckt Brückner 267' (S. 46), das stimmt mit 1190' − 923' überein."
+    },
+    {
+     "name": "fall_m",
+     "label": {
+      "de": "Gefälle",
+      "en": "Fall"
+     },
+     "type": "number",
+     "unit": "m",
+     "derived": true
+    }
+   ],
+   "rows": [
+    [
+     "Sieglitzbach",
+     "Oberland",
+     2,
+     "A",
+     1650.0,
+     1098.0,
+     621.4,
+     413.5,
+     552.0,
+     207.9
+    ],
+    [
+     "Wettera",
+     "Oberland",
+     2,
+     "A",
+     1646.0,
+     945.0,
+     619.9,
+     355.9,
+     701.0,
+     264.0
+    ],
+    [
+     "Lemnitz",
+     "Oberland",
+     2,
+     "A",
+     1537.0,
+     1061.0,
+     578.9,
+     399.6,
+     476.0,
+     179.3
+    ],
+    [
+     "Saale",
+     "Oberland",
+     2,
+     "B",
+     1190.0,
+     923.0,
+     448.2,
+     347.6,
+     267.0,
+     100.6
+    ],
+    [
+     "Weida",
+     "Oberland",
+     2,
+     "B",
+     1055.0,
+     840.0,
+     397.3,
+     316.4,
+     215.0,
+     81.0
+    ],
+    [
+     "Leuba",
+     "Oberland",
+     2,
+     "B",
+     975.0,
+     774.0,
+     367.2,
+     291.5,
+     201.0,
+     75.7
+    ],
+    [
+     "Triebes (zur Weida)",
+     "Oberland",
+     2,
+     "B",
+     960.0,
+     776.0,
+     361.6,
+     292.3,
+     184.0,
+     69.3
+    ],
+    [
+     "Erlbach",
+     "Unterland",
+     3,
+     "C",
+     824.0,
+     487.3,
+     310.3,
+     183.5,
+     336.7,
+     126.8
+    ],
+    [
+     "Leumnitzbach",
+     "Unterland",
+     3,
+     "C",
+     798.0,
+     575.0,
+     300.5,
+     216.6,
+     223.0,
+     84.0
+    ],
+    [
+     "Krautgrund",
+     "Unterland",
+     3,
+     "A",
+     797.0,
+     495.0,
+     300.2,
+     186.4,
+     302.0,
+     113.7
+    ],
+    [
+     "Brambach",
+     "Unterland",
+     3,
+     "A",
+     760.0,
+     490.0,
+     286.2,
+     184.5,
+     270.0,
+     101.7
+    ],
+    [
+     "Saarbach (zum Erlbach)",
+     "Unterland",
+     3,
+     "C",
+     745.0,
+     540.0,
+     280.6,
+     203.4,
+     205.0,
+     77.2
+    ],
+    [
+     "Schafgrund",
+     "Unterland",
+     3,
+     "C",
+     700.0,
+     480.0,
+     263.6,
+     180.8,
+     220.0,
+     82.9
+    ],
+    [
+     "Elster",
+     "Unterland",
+     3,
+     "B",
+     525.0,
+     459.0,
+     197.7,
+     172.9,
+     66.0,
+     24.9
+    ]
+   ],
+   "source_refs": [
+    {
+     "page": "45",
+     "block": "b7"
+    },
+    {
+     "page": "45",
+     "block": "b13"
+    },
+    {
+     "page": "46",
+     "block": "b2"
+    },
+    {
+     "page": "46",
+     "block": "b4"
+    },
+    {
+     "page": "46",
+     "block": "b5"
+    },
+    {
+     "page": "46",
+     "block": "b16"
+    },
+    {
+     "page": "47",
+     "block": "b4"
+    },
+    {
+     "page": "48",
+     "block": "b1"
+    },
+    {
+     "page": "48",
+     "block": "b4"
+    },
+    {
+     "page": "48",
+     "block": "b6"
+    },
+    {
+     "page": "49",
+     "block": "b5"
+    },
+    {
+     "page": "49",
+     "block": "b6"
+    },
+    {
+     "page": "50",
+     "block": "b15"
+    },
+    {
+     "page": "50",
+     "block": "b16"
+    },
+    {
+     "page": "51",
+     "block": "b1"
+    },
+    {
+     "page": "51",
+     "block": "b8"
+    },
+    {
+     "page": "52",
+     "block": "b1"
+    },
+    {
+     "page": "52",
+     "block": "b2"
+    },
+    {
+     "page": "52",
+     "block": "b3"
+    },
+    {
+     "page": "52",
+     "block": "b11"
+    },
+    {
+     "page": "52",
+     "block": "b12"
+    },
+    {
+     "page": "52",
+     "block": "b13"
+    },
+    {
+     "page": "52",
+     "block": "b14"
+    },
+    {
+     "page": "52",
+     "block": "b15"
+    },
+    {
+     "page": "53",
+     "block": "b1"
+    },
+    {
+     "page": "53",
+     "block": "b6"
+    }
+   ]
+  },
+  {
+   "name": "tributaries",
+   "title": {
+    "de": "Zuflüsse erster Ordnung nach Brückners Verzeichnis",
+    "en": "First-order tributaries in Brückner’s list"
+   },
+   "columns": [
+    {
+     "name": "river",
+     "label": {
+      "de": "Fluss",
+      "en": "River"
+     },
+     "type": "string",
+     "unit": null,
+     "note": "Rodach (Main-Gebiet), Saale und Weida (Oberland), Elster (Unterland); Brückners Kapitelgliederung S. 45"
+    },
+    {
+     "name": "region",
+     "label": {
+      "de": "Gebiet",
+      "en": "Region"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "region_order",
+     "label": {
+      "de": "Gebiet (Ordnung)",
+      "en": "Region (order)"
+     },
+     "type": "integer",
+     "unit": null,
+     "derived": true
+    },
+    {
+     "name": "bank",
+     "label": {
+      "de": "Uferseite",
+      "en": "Bank"
+     },
+     "type": "string",
+     "unit": null,
+     "note": "links/rechts in Fließrichtung, wie bei Brückner"
+    },
+    {
+     "name": "number",
+     "label": {
+      "de": "Nummer in Brückners Liste",
+      "en": "Number in Brückner’s list"
+     },
+     "type": "integer",
+     "unit": null,
+     "note": "Bei der Rodach sind die Zuflüsse nicht numeriert (leer)."
+    },
+    {
+     "name": "name",
+     "label": {
+      "de": "Name",
+      "en": "Name"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "name_type",
+     "label": {
+      "de": "Namenstyp",
+      "en": "Name type"
+     },
+     "type": "string",
+     "unit": null,
+     "derived": true,
+     "note": "bach = -bach/-bächlein, wasser = -wasser/-wässerlein, graben, grund, own = Eigenname ohne Gattungswort (z. B. Selbitz, Lemnitz), desc = beschreibend, ohne eigenen Namen; Zuordnung editorisch nach dem Wortausgang"
+    },
+    {
+     "name": "name_key",
+     "label": {
+      "de": "Namensschlüssel",
+      "en": "Name key"
+     },
+     "type": "string",
+     "unit": null,
+     "derived": true,
+     "note": "Hauptname ohne Klammerzusatz, zum Zählen von Namensdubletten"
+    },
+    {
+     "name": "page",
+     "label": {
+      "de": "Seite",
+      "en": "Page"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "block",
+     "label": {
+      "de": "Block",
+      "en": "Block"
+     },
+     "type": "string",
+     "unit": null
+    }
+   ],
+   "rows": [
+    [
+     "Rodach",
+     "Main (Rhein)",
+     1,
+     "links",
+     null,
+     "Grunsenbach",
+     "bach",
+     "Grunsenbach",
+     "45",
+     "b9"
+    ],
+    [
+     "Rodach",
+     "Main (Rhein)",
+     1,
+     "links",
+     null,
+     "Orlabach",
+     "bach",
+     "Orlabach",
+     "45",
+     "b10"
+    ],
+    [
+     "Rodach",
+     "Main (Rhein)",
+     1,
+     "links",
+     null,
+     "Moschwitz (Muschwitz)",
+     "own",
+     "Moschwitz",
+     "45",
+     "b11"
+    ],
+    [
+     "Rodach",
+     "Main (Rhein)",
+     1,
+     "rechts",
+     null,
+     "Thiersebach (Titschenbach)",
+     "bach",
+     "Thiersebach",
+     "45",
+     "b12"
+    ],
+    [
+     "Rodach",
+     "Main (Rhein)",
+     1,
+     "rechts",
+     null,
+     "Kettelbach (Kittel-, Ködelbach)",
+     "bach",
+     "Kettelbach",
+     "45",
+     "b13"
+    ],
+    [
+     "Saale",
+     "Oberland",
+     2,
+     "rechts",
+     1,
+     "Kegelbach",
+     "bach",
+     "Kegelbach",
+     "46",
+     "b4"
+    ],
+    [
+     "Saale",
+     "Oberland",
+     2,
+     "rechts",
+     2,
+     "Erlichsbach (Aubach)",
+     "bach",
+     "Erlichsbach",
+     "46",
+     "b5"
+    ],
+    [
+     "Saale",
+     "Oberland",
+     2,
+     "rechts",
+     3,
+     "Lohbach",
+     "bach",
+     "Lohbach",
+     "46",
+     "b6"
+    ],
+    [
+     "Saale",
+     "Oberland",
+     2,
+     "rechts",
+     4,
+     "Aubach",
+     "bach",
+     "Aubach",
+     "46",
+     "b7"
+    ],
+    [
+     "Saale",
+     "Oberland",
+     2,
+     "rechts",
+     5,
+     "Pechbächlein",
+     "bach",
+     "Pechbächlein",
+     "46",
+     "b8"
+    ],
+    [
+     "Saale",
+     "Oberland",
+     2,
+     "rechts",
+     6,
+     "lerchenhügler Wässerlein",
+     "wasser",
+     "lerchenhügler Wässerlein",
+     "46",
+     "b9"
+    ],
+    [
+     "Saale",
+     "Oberland",
+     2,
+     "rechts",
+     7,
+     "Aubach",
+     "bach",
+     "Aubach",
+     "46",
+     "b10"
+    ],
+    [
+     "Saale",
+     "Oberland",
+     2,
+     "rechts",
+     8,
+     "Drusenbach",
+     "bach",
+     "Drusenbach",
+     "46",
+     "b11"
+    ],
+    [
+     "Saale",
+     "Oberland",
+     2,
+     "rechts",
+     9,
+     "Arlasbach",
+     "bach",
+     "Arlasbach",
+     "46",
+     "b12"
+    ],
+    [
+     "Saale",
+     "Oberland",
+     2,
+     "rechts",
+     10,
+     "Waldbach (unbenannt, Harra gegenüber)",
+     "desc",
+     "Waldbach (unbenannt)",
+     "46",
+     "b14"
+    ],
+    [
+     "Saale",
+     "Oberland",
+     2,
+     "rechts",
+     11,
+     "Saubergsbach",
+     "bach",
+     "Saubergsbach",
+     "46",
+     "b15"
+    ],
+    [
+     "Saale",
+     "Oberland",
+     2,
+     "rechts",
+     12,
+     "Ziezelbach",
+     "bach",
+     "Ziezelbach",
+     "46",
+     "b16"
+    ],
+    [
+     "Saale",
+     "Oberland",
+     2,
+     "rechts",
+     13,
+     "Göritzbächlein",
+     "bach",
+     "Göritzbächlein",
+     "46",
+     "b17"
+    ],
+    [
+     "Saale",
+     "Oberland",
+     2,
+     "rechts",
+     14,
+     "Bierewässerlein",
+     "wasser",
+     "Bierewässerlein",
+     "46",
+     "b18"
+    ],
+    [
+     "Saale",
+     "Oberland",
+     2,
+     "rechts",
+     15,
+     "Pösnigsbach",
+     "bach",
+     "Pösnigsbach",
+     "47",
+     "b1"
+    ],
+    [
+     "Saale",
+     "Oberland",
+     2,
+     "rechts",
+     16,
+     "Triebich (Triebes)",
+     "own",
+     "Triebes",
+     "47",
+     "b2"
+    ],
+    [
+     "Saale",
+     "Oberland",
+     2,
+     "rechts",
+     17,
+     "Dornbach",
+     "bach",
+     "Dornbach",
+     "47",
+     "b3"
+    ],
+    [
+     "Saale",
+     "Oberland",
+     2,
+     "rechts",
+     18,
+     "Wettera",
+     "own",
+     "Wettera",
+     "47",
+     "b4"
+    ],
+    [
+     "Saale",
+     "Oberland",
+     2,
+     "rechts",
+     19,
+     "Gerischbach",
+     "bach",
+     "Gerischbach",
+     "47",
+     "b5"
+    ],
+    [
+     "Saale",
+     "Oberland",
+     2,
+     "rechts",
+     20,
+     "Vogeltränkbach",
+     "bach",
+     "Vogeltränkbach",
+     "47",
+     "b6"
+    ],
+    [
+     "Saale",
+     "Oberland",
+     2,
+     "rechts",
+     21,
+     "Molbizbach",
+     "bach",
+     "Molbizbach",
+     "47",
+     "b7"
+    ],
+    [
+     "Saale",
+     "Oberland",
+     2,
+     "rechts",
+     22,
+     "Wiesenthal",
+     "own",
+     "Wiesenthal",
+     "47",
+     "b8"
+    ],
+    [
+     "Saale",
+     "Oberland",
+     2,
+     "rechts",
+     23,
+     "Plothenbach",
+     "bach",
+     "Plothenbach",
+     "48",
+     "b2"
+    ],
+    [
+     "Saale",
+     "Oberland",
+     2,
+     "links",
+     1,
+     "Selbitz",
+     "own",
+     "Selbitz",
+     "48",
+     "b4"
+    ],
+    [
+     "Saale",
+     "Oberland",
+     2,
+     "links",
+     2,
+     "harraer Auwasser",
+     "wasser",
+     "harraer Auwasser",
+     "48",
+     "b5"
+    ],
+    [
+     "Saale",
+     "Oberland",
+     2,
+     "links",
+     3,
+     "Lemnitz",
+     "own",
+     "Lemnitz",
+     "48",
+     "b6"
+    ],
+    [
+     "Saale",
+     "Oberland",
+     2,
+     "links",
+     4,
+     "Rattenbach",
+     "bach",
+     "Rattenbach",
+     "48",
+     "b7"
+    ],
+    [
+     "Saale",
+     "Oberland",
+     2,
+     "links",
+     5,
+     "Zoppotha",
+     "own",
+     "Zoppotha",
+     "48",
+     "b8"
+    ],
+    [
+     "Saale",
+     "Oberland",
+     2,
+     "links",
+     6,
+     "Ossabach",
+     "bach",
+     "Ossabach",
+     "48",
+     "b9"
+    ],
+    [
+     "Saale",
+     "Oberland",
+     2,
+     "links",
+     7,
+     "Riesenbach",
+     "bach",
+     "Riesenbach",
+     "48",
+     "b10"
+    ],
+    [
+     "Saale",
+     "Oberland",
+     2,
+     "links",
+     8,
+     "Luchsbach",
+     "bach",
+     "Luchsbach",
+     "49",
+     "b1"
+    ],
+    [
+     "Saale",
+     "Oberland",
+     2,
+     "links",
+     9,
+     "Letzschbach",
+     "bach",
+     "Letzschbach",
+     "49",
+     "b2"
+    ],
+    [
+     "Saale",
+     "Oberland",
+     2,
+     "links",
+     10,
+     "Kieselbach (Sormitz im Burgwald)",
+     "bach",
+     "Kieselbach",
+     "49",
+     "b3"
+    ],
+    [
+     "Saale",
+     "Oberland",
+     2,
+     "links",
+     11,
+     "Otterbach",
+     "bach",
+     "Otterbach",
+     "49",
+     "b4"
+    ],
+    [
+     "Saale",
+     "Oberland",
+     2,
+     "links",
+     12,
+     "Sormitz",
+     "own",
+     "Sormitz",
+     "49",
+     "b5"
+    ],
+    [
+     "Weida",
+     "Oberland",
+     2,
+     "links",
+     1,
+     "Robsbach",
+     "bach",
+     "Robsbach",
+     "50",
+     "b2"
+    ],
+    [
+     "Weida",
+     "Oberland",
+     2,
+     "links",
+     2,
+     "Waldbach",
+     "bach",
+     "Waldbach",
+     "50",
+     "b3"
+    ],
+    [
+     "Weida",
+     "Oberland",
+     2,
+     "links",
+     3,
+     "Löhlabächlein",
+     "bach",
+     "Löhlabächlein",
+     "50",
+     "b4"
+    ],
+    [
+     "Weida",
+     "Oberland",
+     2,
+     "links",
+     4,
+     "Modelitzschbach",
+     "bach",
+     "Modelitzschbach",
+     "50",
+     "b5"
+    ],
+    [
+     "Weida",
+     "Oberland",
+     2,
+     "links",
+     5,
+     "Steinbach",
+     "bach",
+     "Steinbach",
+     "50",
+     "b6"
+    ],
+    [
+     "Weida",
+     "Oberland",
+     2,
+     "links",
+     6,
+     "burkersdorfer Auwasser",
+     "wasser",
+     "burkersdorfer Auwasser",
+     "50",
+     "b7"
+    ],
+    [
+     "Weida",
+     "Oberland",
+     2,
+     "links",
+     7,
+     "Schlegelsbach",
+     "bach",
+     "Schlegelsbach",
+     "50",
+     "b8"
+    ],
+    [
+     "Weida",
+     "Oberland",
+     2,
+     "rechts",
+     1,
+     "Sybach",
+     "bach",
+     "Sybach",
+     "50",
+     "b9"
+    ],
+    [
+     "Weida",
+     "Oberland",
+     2,
+     "rechts",
+     2,
+     "Lohbach",
+     "bach",
+     "Lohbach",
+     "50",
+     "b10"
+    ],
+    [
+     "Weida",
+     "Oberland",
+     2,
+     "rechts",
+     3,
+     "langenwolschendorfer Wasser",
+     "wasser",
+     "langenwolschendorfer Wasser",
+     "50",
+     "b11"
+    ],
+    [
+     "Weida",
+     "Oberland",
+     2,
+     "rechts",
+     4,
+     "Igelsbach",
+     "bach",
+     "Igelsbach",
+     "50",
+     "b12"
+    ],
+    [
+     "Weida",
+     "Oberland",
+     2,
+     "rechts",
+     5,
+     "Bingebach",
+     "bach",
+     "Bingebach",
+     "50",
+     "b13"
+    ],
+    [
+     "Weida",
+     "Oberland",
+     2,
+     "rechts",
+     6,
+     "Weidigswässerlein",
+     "wasser",
+     "Weidigswässerlein",
+     "50",
+     "b14"
+    ],
+    [
+     "Weida",
+     "Oberland",
+     2,
+     "rechts",
+     7,
+     "Triebes",
+     "own",
+     "Triebes",
+     "50",
+     "b15"
+    ],
+    [
+     "Weida",
+     "Oberland",
+     2,
+     "rechts",
+     8,
+     "Leuba",
+     "own",
+     "Leuba",
+     "50",
+     "b16"
+    ],
+    [
+     "Elster",
+     "Unterland",
+     3,
+     "links",
+     1,
+     "Holzgrabenwasser",
+     "wasser",
+     "Holzgrabenwasser",
+     "51",
+     "b2"
+    ],
+    [
+     "Elster",
+     "Unterland",
+     3,
+     "links",
+     2,
+     "Briete",
+     "own",
+     "Briete",
+     "51",
+     "b3"
+    ],
+    [
+     "Elster",
+     "Unterland",
+     3,
+     "links",
+     3,
+     "Türkengraben",
+     "graben",
+     "Türkengraben",
+     "51",
+     "b4"
+    ],
+    [
+     "Elster",
+     "Unterland",
+     3,
+     "links",
+     4,
+     "Gerbergraben",
+     "graben",
+     "Gerbergraben",
+     "51",
+     "b5"
+    ],
+    [
+     "Elster",
+     "Unterland",
+     3,
+     "links",
+     5,
+     "Martinsgrundwässerlein",
+     "wasser",
+     "Martinsgrundwässerlein",
+     "51",
+     "b6"
+    ],
+    [
+     "Elster",
+     "Unterland",
+     3,
+     "links",
+     6,
+     "Kerbwasser",
+     "wasser",
+     "Kerbwasser",
+     "51",
+     "b7"
+    ],
+    [
+     "Elster",
+     "Unterland",
+     3,
+     "links",
+     7,
+     "Erlbach",
+     "bach",
+     "Erlbach",
+     "51",
+     "b8"
+    ],
+    [
+     "Elster",
+     "Unterland",
+     3,
+     "links",
+     8,
+     "Schafgrund (hartmannsdorfer Bach)",
+     "grund",
+     "Schafgrund",
+     "52",
+     "b2"
+    ],
+    [
+     "Elster",
+     "Unterland",
+     3,
+     "links",
+     9,
+     "Goldthal- oder Eleonorenthalwasser",
+     "wasser",
+     "Goldthal- oder Eleonorenthalwasser",
+     "52",
+     "b3"
+    ],
+    [
+     "Elster",
+     "Unterland",
+     3,
+     "links",
+     10,
+     "Borngrund",
+     "grund",
+     "Borngrund",
+     "52",
+     "b4"
+    ],
+    [
+     "Elster",
+     "Unterland",
+     3,
+     "links",
+     11,
+     "Hirschgraben",
+     "graben",
+     "Hirschgraben",
+     "52",
+     "b5"
+    ],
+    [
+     "Elster",
+     "Unterland",
+     3,
+     "links",
+     12,
+     "seifarthsdorfer Bach",
+     "bach",
+     "seifarthsdorfer Bach",
+     "52",
+     "b6"
+    ],
+    [
+     "Elster",
+     "Unterland",
+     3,
+     "rechts",
+     1,
+     "Wasser von Pohlen",
+     "desc",
+     "Wasser von Pohlen",
+     "52",
+     "b7"
+    ],
+    [
+     "Elster",
+     "Unterland",
+     3,
+     "rechts",
+     2,
+     "kleinfalkischer Bach (pösnecker Bach)",
+     "bach",
+     "kleinfalkischer Bach",
+     "52",
+     "b8"
+    ],
+    [
+     "Elster",
+     "Unterland",
+     3,
+     "rechts",
+     3,
+     "Thälchen von Kaimberg",
+     "desc",
+     "Thälchen von Kaimberg",
+     "52",
+     "b9"
+    ],
+    [
+     "Elster",
+     "Unterland",
+     3,
+     "rechts",
+     4,
+     "kleiner Schmerlbach",
+     "bach",
+     "kleiner Schmerlbach",
+     "52",
+     "b10"
+    ],
+    [
+     "Elster",
+     "Unterland",
+     3,
+     "rechts",
+     5,
+     "Pfortenbach",
+     "bach",
+     "Pfortenbach",
+     "52",
+     "b11"
+    ],
+    [
+     "Elster",
+     "Unterland",
+     3,
+     "rechts",
+     6,
+     "Zaufensgraben",
+     "graben",
+     "Zaufensgraben",
+     "52",
+     "b12"
+    ],
+    [
+     "Elster",
+     "Unterland",
+     3,
+     "rechts",
+     7,
+     "Leumnitzbach",
+     "bach",
+     "Leumnitzbach",
+     "52",
+     "b13"
+    ],
+    [
+     "Elster",
+     "Unterland",
+     3,
+     "rechts",
+     8,
+     "Krautgrund",
+     "grund",
+     "Krautgrund",
+     "52",
+     "b14"
+    ],
+    [
+     "Elster",
+     "Unterland",
+     3,
+     "rechts",
+     9,
+     "Brambach",
+     "bach",
+     "Brambach",
+     "52",
+     "b15"
+    ],
+    [
+     "Elster",
+     "Unterland",
+     3,
+     "rechts",
+     10,
+     "Schießbach",
+     "bach",
+     "Schießbach",
+     "53",
+     "b2"
+    ],
+    [
+     "Elster",
+     "Unterland",
+     3,
+     "rechts",
+     11,
+     "Wässerlein zwischen Kienberg und Pönigsberg",
+     "desc",
+     "Wässerlein zwischen Kienberg und Pönigsberg",
+     "53",
+     "b3"
+    ],
+    [
+     "Elster",
+     "Unterland",
+     3,
+     "rechts",
+     12,
+     "Ortelsgraben",
+     "graben",
+     "Ortelsgraben",
+     "53",
+     "b4"
+    ],
+    [
+     "Elster",
+     "Unterland",
+     3,
+     "rechts",
+     13,
+     "lichtenauer Wässerlein",
+     "wasser",
+     "lichtenauer Wässerlein",
+     "53",
+     "b5"
+    ],
+    [
+     "Elster",
+     "Unterland",
+     3,
+     "rechts",
+     14,
+     "Aga",
+     "own",
+     "Aga",
+     "53",
+     "b6"
+    ],
+    [
+     "Elster",
+     "Unterland",
+     3,
+     "rechts",
+     15,
+     "große Schnauder",
+     "own",
+     "große Schnauder",
+     "53",
+     "b7"
+    ],
+    [
+     "Elster",
+     "Unterland",
+     3,
+     "rechts",
+     16,
+     "Pleiße",
+     "own",
+     "Pleiße",
+     "53",
+     "b8"
+    ]
+   ],
+   "source_refs": [
+    {
+     "page": "45",
+     "block": "b9"
+    },
+    {
+     "page": "45",
+     "block": "b10"
+    },
+    {
+     "page": "45",
+     "block": "b11"
+    },
+    {
+     "page": "45",
+     "block": "b12"
+    },
+    {
+     "page": "45",
+     "block": "b13"
+    },
+    {
+     "page": "46",
+     "block": "b4"
+    },
+    {
+     "page": "46",
+     "block": "b5"
+    },
+    {
+     "page": "46",
+     "block": "b6"
+    },
+    {
+     "page": "46",
+     "block": "b7"
+    },
+    {
+     "page": "46",
+     "block": "b8"
+    },
+    {
+     "page": "46",
+     "block": "b9"
+    },
+    {
+     "page": "46",
+     "block": "b10"
+    },
+    {
+     "page": "46",
+     "block": "b11"
+    },
+    {
+     "page": "46",
+     "block": "b12"
+    },
+    {
+     "page": "46",
+     "block": "b14"
+    },
+    {
+     "page": "46",
+     "block": "b15"
+    },
+    {
+     "page": "46",
+     "block": "b16"
+    },
+    {
+     "page": "46",
+     "block": "b17"
+    },
+    {
+     "page": "46",
+     "block": "b18"
+    },
+    {
+     "page": "47",
+     "block": "b1"
+    },
+    {
+     "page": "47",
+     "block": "b2"
+    },
+    {
+     "page": "47",
+     "block": "b3"
+    },
+    {
+     "page": "47",
+     "block": "b4"
+    },
+    {
+     "page": "47",
+     "block": "b5"
+    },
+    {
+     "page": "47",
+     "block": "b6"
+    },
+    {
+     "page": "47",
+     "block": "b7"
+    },
+    {
+     "page": "47",
+     "block": "b8"
+    },
+    {
+     "page": "48",
+     "block": "b2"
+    },
+    {
+     "page": "48",
+     "block": "b4"
+    },
+    {
+     "page": "48",
+     "block": "b5"
+    },
+    {
+     "page": "48",
+     "block": "b6"
+    },
+    {
+     "page": "48",
+     "block": "b7"
+    },
+    {
+     "page": "48",
+     "block": "b8"
+    },
+    {
+     "page": "48",
+     "block": "b9"
+    },
+    {
+     "page": "48",
+     "block": "b10"
+    },
+    {
+     "page": "49",
+     "block": "b1"
+    },
+    {
+     "page": "49",
+     "block": "b2"
+    },
+    {
+     "page": "49",
+     "block": "b3"
+    },
+    {
+     "page": "49",
+     "block": "b4"
+    },
+    {
+     "page": "49",
+     "block": "b5"
+    },
+    {
+     "page": "50",
+     "block": "b2"
+    },
+    {
+     "page": "50",
+     "block": "b3"
+    },
+    {
+     "page": "50",
+     "block": "b4"
+    },
+    {
+     "page": "50",
+     "block": "b5"
+    },
+    {
+     "page": "50",
+     "block": "b6"
+    },
+    {
+     "page": "50",
+     "block": "b7"
+    },
+    {
+     "page": "50",
+     "block": "b8"
+    },
+    {
+     "page": "50",
+     "block": "b9"
+    },
+    {
+     "page": "50",
+     "block": "b10"
+    },
+    {
+     "page": "50",
+     "block": "b11"
+    },
+    {
+     "page": "50",
+     "block": "b12"
+    },
+    {
+     "page": "50",
+     "block": "b13"
+    },
+    {
+     "page": "50",
+     "block": "b14"
+    },
+    {
+     "page": "50",
+     "block": "b15"
+    },
+    {
+     "page": "50",
+     "block": "b16"
+    },
+    {
+     "page": "51",
+     "block": "b2"
+    },
+    {
+     "page": "51",
+     "block": "b3"
+    },
+    {
+     "page": "51",
+     "block": "b4"
+    },
+    {
+     "page": "51",
+     "block": "b5"
+    },
+    {
+     "page": "51",
+     "block": "b6"
+    },
+    {
+     "page": "51",
+     "block": "b7"
+    },
+    {
+     "page": "51",
+     "block": "b8"
+    },
+    {
+     "page": "52",
+     "block": "b2"
+    },
+    {
+     "page": "52",
+     "block": "b3"
+    },
+    {
+     "page": "52",
+     "block": "b4"
+    },
+    {
+     "page": "52",
+     "block": "b5"
+    },
+    {
+     "page": "52",
+     "block": "b6"
+    },
+    {
+     "page": "52",
+     "block": "b7"
+    },
+    {
+     "page": "52",
+     "block": "b8"
+    },
+    {
+     "page": "52",
+     "block": "b9"
+    },
+    {
+     "page": "52",
+     "block": "b10"
+    },
+    {
+     "page": "52",
+     "block": "b11"
+    },
+    {
+     "page": "52",
+     "block": "b12"
+    },
+    {
+     "page": "52",
+     "block": "b13"
+    },
+    {
+     "page": "52",
+     "block": "b14"
+    },
+    {
+     "page": "52",
+     "block": "b15"
+    },
+    {
+     "page": "53",
+     "block": "b2"
+    },
+    {
+     "page": "53",
+     "block": "b3"
+    },
+    {
+     "page": "53",
+     "block": "b4"
+    },
+    {
+     "page": "53",
+     "block": "b5"
+    },
+    {
+     "page": "53",
+     "block": "b6"
+    },
+    {
+     "page": "53",
+     "block": "b7"
+    },
+    {
+     "page": "53",
+     "block": "b8"
+    }
+   ]
+  },
+  {
+   "name": "composition",
+   "title": {
+    "de": "Bestandteile der beiden Quellen",
+    "en": "Constituents of the two springs"
+   },
+   "columns": [
+    {
+     "name": "order",
+     "label": {
+      "de": "Zeile in Brückners Tabelle",
+      "en": "Row in Brückner’s table"
+     },
+     "type": "integer",
+     "unit": null,
+     "derived": true
+    },
+    {
+     "name": "constituent",
+     "label": {
+      "de": "Bestandteil (wie gedruckt)",
+      "en": "Constituent (as printed)"
+     },
+     "type": "string",
+     "unit": null,
+     "note": "Anführungszeichen der Tabelle (=) sind zu »Zweifach« bzw. »Unlösliche« aufgelöst; »Maganoxydul« steht so im Druck."
+    },
+    {
+     "name": "constituent_en",
+     "label": {
+      "de": "Bestandteil (englisch, modern)",
+      "en": "Constituent (English, modern)"
+     },
+     "type": "string",
+     "unit": null,
+     "derived": true
+    },
+    {
+     "name": "group",
+     "label": {
+      "de": "Stoffgruppe",
+      "en": "Group"
+     },
+     "type": "string",
+     "unit": null,
+     "derived": true,
+     "note": "alkali = Natrium-/Kaliumverbindungen, earth = Kalk- und Magnesiumverbindungen, iron = Eisen und Mangan, other = übrige; editorisch"
+    },
+    {
+     "name": "spring",
+     "label": {
+      "de": "Quelle",
+      "en": "Spring"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "parts_per_10000",
+     "label": {
+      "de": "Gehalt",
+      "en": "Content"
+     },
+     "type": "number",
+     "unit": "Teile in 10 000 Teilen Wasser"
+    },
+    {
+     "name": "share_pct",
+     "label": {
+      "de": "Anteil an den festen Bestandteilen",
+      "en": "Share of the solids"
+     },
+     "type": "number",
+     "unit": "%",
+     "derived": true,
+     "note": "Wert / gedruckte Summe der festen Bestandteile"
+    }
+   ],
+   "rows": [
+    [
+     1,
+     "Chlornatrium",
+     "sodium chloride",
+     "alkali",
+     "Neue Quelle",
+     0.1897,
+     7.5
+    ],
+    [
+     1,
+     "Chlornatrium",
+     "sodium chloride",
+     "alkali",
+     "Agnesquelle",
+     0.0311,
+     3.1
+    ],
+    [
+     2,
+     "Schwefelsaures Natron",
+     "sodium sulfate",
+     "alkali",
+     "Neue Quelle",
+     0.1618,
+     6.4
+    ],
+    [
+     2,
+     "Schwefelsaures Natron",
+     "sodium sulfate",
+     "alkali",
+     "Agnesquelle",
+     0.0619,
+     6.1
+    ],
+    [
+     3,
+     "Schwefelsaures Kali",
+     "potassium sulfate",
+     "alkali",
+     "Agnesquelle",
+     0.0521,
+     5.2
+    ],
+    [
+     4,
+     "Natron, an organische Säuren gebunden",
+     "sodium bound to organic acids",
+     "alkali",
+     "Neue Quelle",
+     0.0297,
+     1.2
+    ],
+    [
+     5,
+     "Kali, an organische Säuren gebunden",
+     "potassium bound to organic acids",
+     "alkali",
+     "Neue Quelle",
+     0.1253,
+     5.0
+    ],
+    [
+     6,
+     "Zweifach kohlensaurer Kalk",
+     "calcium bicarbonate",
+     "earth",
+     "Neue Quelle",
+     0.8061,
+     31.9
+    ],
+    [
+     6,
+     "Zweifach kohlensaurer Kalk",
+     "calcium bicarbonate",
+     "earth",
+     "Agnesquelle",
+     0.1244,
+     12.3
+    ],
+    [
+     7,
+     "Zweifach kohlensaure Magnesia",
+     "magnesium bicarbonate",
+     "earth",
+     "Neue Quelle",
+     0.2807,
+     11.1
+    ],
+    [
+     7,
+     "Zweifach kohlensaure Magnesia",
+     "magnesium bicarbonate",
+     "earth",
+     "Agnesquelle",
+     0.1307,
+     13.0
+    ],
+    [
+     8,
+     "Zweifach kohlensaures Maganoxydul",
+     "manganese(II) bicarbonate",
+     "iron",
+     "Neue Quelle",
+     0.1377,
+     5.5
+    ],
+    [
+     8,
+     "Zweifach kohlensaures Maganoxydul",
+     "manganese(II) bicarbonate",
+     "iron",
+     "Agnesquelle",
+     0.078,
+     7.7
+    ],
+    [
+     9,
+     "Zweifach kohlensaures Eisenoxydul",
+     "iron(II) bicarbonate",
+     "iron",
+     "Neue Quelle",
+     0.5698,
+     22.6
+    ],
+    [
+     9,
+     "Zweifach kohlensaures Eisenoxydul",
+     "iron(II) bicarbonate",
+     "iron",
+     "Agnesquelle",
+     0.4148,
+     41.1
+    ],
+    [
+     10,
+     "Schwefelsaurer Kalk",
+     "calcium sulfate",
+     "earth",
+     "Neue Quelle",
+     0.0039,
+     0.2
+    ],
+    [
+     10,
+     "Schwefelsaurer Kalk",
+     "calcium sulfate",
+     "earth",
+     "Agnesquelle",
+     0.0422,
+     4.2
+    ],
+    [
+     11,
+     "Thonerde",
+     "alumina",
+     "other",
+     "Neue Quelle",
+     0.0397,
+     1.6
+    ],
+    [
+     11,
+     "Thonerde",
+     "alumina",
+     "other",
+     "Agnesquelle",
+     0.0122,
+     1.2
+    ],
+    [
+     12,
+     "Lösliche Kieselsäure",
+     "soluble silica",
+     "other",
+     "Neue Quelle",
+     0.1259,
+     5.0
+    ],
+    [
+     12,
+     "Lösliche Kieselsäure",
+     "soluble silica",
+     "other",
+     "Agnesquelle",
+     0.0061,
+     0.6
+    ],
+    [
+     13,
+     "Unlösliche organische Substanz",
+     "insoluble organic matter",
+     "other",
+     "Neue Quelle",
+     0.0331,
+     1.3
+    ],
+    [
+     13,
+     "Unlösliche organische Substanz",
+     "insoluble organic matter",
+     "other",
+     "Agnesquelle",
+     0.0243,
+     2.4
+    ],
+    [
+     14,
+     "Unlösliche aufgeschwemmte Theile",
+     "insoluble suspended matter",
+     "other",
+     "Neue Quelle",
+     0.0198,
+     0.8
+    ],
+    [
+     14,
+     "Unlösliche aufgeschwemmte Theile",
+     "insoluble suspended matter",
+     "other",
+     "Agnesquelle",
+     0.0304,
+     3.0
+    ]
+   ],
+   "source_refs": [
+    {
+     "page": "44",
+     "block": "b4",
+     "rows": "r2-r19",
+     "note": "Tabelle der Analyse (Neue Quelle, Agnesquelle)"
+    },
+    {
+     "page": "44",
+     "block": "b1",
+     "note": "Einleitungssatz: Analyse von Prof. Dr. Reichardt, Jena"
+    }
+   ]
+  },
+  {
+   "name": "rivers",
+   "title": {
+    "de": "Hauptflüsse im Land",
+    "en": "Main rivers in the country"
+   },
+   "columns": [
+    {
+     "name": "river",
+     "label": {
+      "de": "Fluss",
+      "en": "River"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "air_stunden",
+     "label": {
+      "de": "Lauf im Luftmaß",
+      "en": "Course as the crow flies"
+     },
+     "type": "number",
+     "unit": "Stunden",
+     "derived": true,
+     "note": "Zahlen im Druck: 6; 2; 3 1/2 (Bruchschreibweise, hier als Dezimalzahl)."
+    },
+    {
+     "name": "path_stunden",
+     "label": {
+      "de": "Lauf in der Windung",
+      "en": "Course along the windings"
+     },
+     "type": "number",
+     "unit": "Stunden",
+     "derived": true,
+     "note": "Zahlen im Druck: über 11; 3 1/2; 4 2/3 (Bruchschreibweise, hier als Dezimalzahl); der Wert der Saale ist eine Untergrenze."
+    },
+    {
+     "name": "entry_ft",
+     "label": {
+      "de": "Höhe beim Eintritt",
+      "en": "Height at entry"
+     },
+     "type": "number",
+     "unit": "preuß. Dezimalfuß"
+    },
+    {
+     "name": "exit_ft",
+     "label": {
+      "de": "Höhe beim Austritt",
+      "en": "Height at exit"
+     },
+     "type": "number",
+     "unit": "preuß. Dezimalfuß"
+    },
+    {
+     "name": "fall_ft",
+     "label": {
+      "de": "Gefälle",
+      "en": "Fall"
+     },
+     "type": "number",
+     "unit": "preuß. Dezimalfuß",
+     "derived": true,
+     "note": "Eintrittshöhe minus Austrittshöhe; für die Saale auch im Druck: 267'."
+    },
+    {
+     "name": "sinuosity",
+     "label": {
+      "de": "Windungsverhältnis",
+      "en": "Sinuosity ratio"
+     },
+     "type": "number",
+     "unit": null,
+     "derived": true,
+     "note": "Lauf in der Windung / Lauf im Luftmaß; bei der Saale Untergrenze."
+    },
+    {
+     "name": "fall_per_stunde_ft",
+     "label": {
+      "de": "Gefälle je Stunde Lauf",
+      "en": "Fall per Stunde of course"
+     },
+     "type": "number",
+     "unit": "preuß. Dezimalfuß je Stunde",
+     "derived": true,
+     "note": "Gefälle / Lauf in der Windung; bei der Saale Obergrenze."
+    },
+    {
+     "name": "fall_m",
+     "label": {
+      "de": "Gefälle",
+      "en": "Fall"
+     },
+     "type": "number",
+     "unit": "m",
+     "derived": true
+    }
+   ],
+   "rows": [
+    [
+     "Saale",
+     6.0,
+     11.0,
+     1190.0,
+     923.0,
+     267.0,
+     1.83,
+     24.3,
+     100.6
+    ],
+    [
+     "Weida",
+     2.0,
+     3.5,
+     1055.0,
+     840.0,
+     215.0,
+     1.75,
+     61.4,
+     81.0
+    ],
+    [
+     "Elster",
+     3.5,
+     4.667,
+     525.0,
+     459.0,
+     66.0,
+     1.33,
+     14.1,
+     24.9
+    ]
+   ],
+   "source_refs": [
+    {
+     "page": "46",
+     "block": "b2"
+    },
+    {
+     "page": "49",
+     "block": "b6"
+    },
+    {
+     "page": "50",
+     "block": "b1"
+    },
+    {
+     "page": "51",
+     "block": "b1"
+    }
+   ]
+  },
+  {
+   "name": "points",
+   "title": {
+    "de": "Höhenpunkte der Gewässer",
+    "en": "Height points of the watercourses"
+   },
+   "columns": [
+    {
+     "name": "stream",
+     "label": {
+      "de": "Gewässer",
+      "en": "Watercourse"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "region",
+     "label": {
+      "de": "Gebiet",
+      "en": "Region"
+     },
+     "type": "string",
+     "unit": null,
+     "note": "Gliederung nach Brückners Überschriften (S. 45): I. Main-/Rheingebiet, II.A Oberland, II.B Unterland; Saale und Weida stehen bei ihm im Oberland."
+    },
+    {
+     "name": "region_order",
+     "label": {
+      "de": "Gebiet (Ordnung)",
+      "en": "Region (order)"
+     },
+     "type": "integer",
+     "unit": null,
+     "derived": true,
+     "note": "Sortierschlüssel 1–3, editorisch"
+    },
+    {
+     "name": "point_type",
+     "label": {
+      "de": "Messpunkt",
+      "en": "Point"
+     },
+     "type": "string",
+     "unit": null,
+     "note": "source = Quelle, mouth = Mündung, entry = Eintritt ins Land, exit = Austritt aus dem Land, inflow = Einfluss eines Nebenbachs (Codes editorisch)"
+    },
+    {
+     "name": "height_ft",
+     "label": {
+      "de": "Höhe",
+      "en": "Height"
+     },
+     "type": "number",
+     "unit": "preuß. Dezimalfuß"
+    },
+    {
+     "name": "height_m",
+     "label": {
+      "de": "Höhe",
+      "en": "Height"
+     },
+     "type": "number",
+     "unit": "m",
+     "derived": true
+    },
+    {
+     "name": "page",
+     "label": {
+      "de": "Seite",
+      "en": "Page"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "block",
+     "label": {
+      "de": "Block",
+      "en": "Block"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "note",
+     "label": {
+      "de": "Ort/Bemerkung",
+      "en": "Place/remark"
+     },
+     "type": "string",
+     "unit": null
+    }
+   ],
+   "rows": [
+    [
+     "Rodach",
+     "Main (Rhein)",
+     1,
+     "source",
+     1772.0,
+     667.4,
+     "45",
+     "b7",
+     "Rodacherbrunn auf dem Frankenwald"
+    ],
+    [
+     "Grumbach (zum Kettelbach)",
+     "Main (Rhein)",
+     1,
+     "source",
+     1850.0,
+     696.8,
+     "45",
+     "b13",
+     ""
+    ],
+    [
+     "Großer Rosenbaumbach",
+     "Main (Rhein)",
+     1,
+     "source",
+     1825.0,
+     687.3,
+     "45",
+     "b13",
+     ""
+    ],
+    [
+     "Saale",
+     "Oberland",
+     2,
+     "entry",
+     1190.0,
+     448.2,
+     "46",
+     "b2",
+     "Einmündung des Kegelbachs"
+    ],
+    [
+     "Saale",
+     "Oberland",
+     2,
+     "exit",
+     923.0,
+     347.6,
+     "46",
+     "b2",
+     "Mündung des Molbitzbachs"
+    ],
+    [
+     "Tannenbach",
+     "Oberland",
+     2,
+     "source",
+     1600.0,
+     602.6,
+     "46",
+     "b4",
+     "oberhalb Gebersreuth"
+    ],
+    [
+     "Töpenbach (Kupferbach)",
+     "Oberland",
+     2,
+     "source",
+     1625.0,
+     612.0,
+     "46",
+     "b4",
+     ""
+    ],
+    [
+     "Erlichsbach",
+     "Oberland",
+     2,
+     "source",
+     1580.0,
+     595.1,
+     "46",
+     "b5",
+     "oberhalb Gefell"
+    ],
+    [
+     "Ziezelbach",
+     "Oberland",
+     2,
+     "source",
+     1475.0,
+     555.5,
+     "46",
+     "b16",
+     ""
+    ],
+    [
+     "Wettera",
+     "Oberland",
+     2,
+     "source",
+     1646.0,
+     619.9,
+     "47",
+     "b4",
+     ""
+    ],
+    [
+     "Wettera",
+     "Oberland",
+     2,
+     "mouth",
+     945.0,
+     355.9,
+     "47",
+     "b4",
+     "in die Saale"
+    ],
+    [
+     "Moschwitz (zur Selbitz)",
+     "Oberland",
+     2,
+     "source",
+     1647.0,
+     620.3,
+     "48",
+     "b4",
+     "Südwestfuß des Kulm"
+    ],
+    [
+     "Wiesenthal",
+     "Oberland",
+     2,
+     "mouth",
+     862.0,
+     324.7,
+     "48",
+     "b1",
+     "in die Saale unterhalb Dörflas"
+    ],
+    [
+     "Lemnitz",
+     "Oberland",
+     2,
+     "source",
+     1537.0,
+     578.9,
+     "48",
+     "b6",
+     ""
+    ],
+    [
+     "Lemnitz",
+     "Oberland",
+     2,
+     "mouth",
+     1061.0,
+     399.6,
+     "48",
+     "b6",
+     "beim Lemnitzhammer"
+    ],
+    [
+     "Sieglitzbach",
+     "Oberland",
+     2,
+     "source",
+     1650.0,
+     621.4,
+     "48",
+     "b6",
+     ""
+    ],
+    [
+     "Sieglitzbach",
+     "Oberland",
+     2,
+     "mouth",
+     1098.0,
+     413.5,
+     "48",
+     "b6",
+     "in die Lemnitz"
+    ],
+    [
+     "Langwasser (Sormitz)",
+     "Oberland",
+     2,
+     "source",
+     1721.7,
+     648.4,
+     "49",
+     "b5",
+     "am Kulm im Frankenwald"
+    ],
+    [
+     "Weida",
+     "Oberland",
+     2,
+     "source",
+     1300.0,
+     489.6,
+     "49",
+     "b6",
+     "Quellflächen bei Pausa (außerhalb des Landes)"
+    ],
+    [
+     "Weida",
+     "Oberland",
+     2,
+     "entry",
+     1055.0,
+     397.3,
+     "49",
+     "b6",
+     "südlich von Leitlitz"
+    ],
+    [
+     "Weida",
+     "Oberland",
+     2,
+     "exit",
+     840.0,
+     316.4,
+     "49",
+     "b6",
+     ""
+    ],
+    [
+     "Triebes (zur Weida)",
+     "Oberland",
+     2,
+     "source",
+     1225.0,
+     461.4,
+     "50",
+     "b15",
+     "Pöllwitzwald"
+    ],
+    [
+     "Triebes (zur Weida)",
+     "Oberland",
+     2,
+     "entry",
+     960.0,
+     361.6,
+     "50",
+     "b15",
+     ""
+    ],
+    [
+     "Triebes (zur Weida)",
+     "Oberland",
+     2,
+     "exit",
+     776.0,
+     292.3,
+     "50",
+     "b15",
+     ""
+    ],
+    [
+     "Leuba",
+     "Oberland",
+     2,
+     "entry",
+     975.0,
+     367.2,
+     "50",
+     "b16",
+     ""
+    ],
+    [
+     "Leuba",
+     "Oberland",
+     2,
+     "exit",
+     774.0,
+     291.5,
+     "50",
+     "b16",
+     ""
+    ],
+    [
+     "Elster",
+     "Unterland",
+     3,
+     "entry",
+     525.0,
+     197.7,
+     "51",
+     "b1",
+     ""
+    ],
+    [
+     "Elster",
+     "Unterland",
+     3,
+     "exit",
+     459.0,
+     172.9,
+     "51",
+     "b1",
+     ""
+    ],
+    [
+     "Erlbach",
+     "Unterland",
+     3,
+     "entry",
+     824.0,
+     310.3,
+     "52",
+     "b1",
+     ""
+    ],
+    [
+     "Erlbach",
+     "Unterland",
+     3,
+     "mouth",
+     487.3,
+     183.5,
+     "51",
+     "b8",
+     "unterhalb Thieschitz"
+    ],
+    [
+     "Saarbach (zum Erlbach)",
+     "Unterland",
+     3,
+     "entry",
+     745.0,
+     280.6,
+     "52",
+     "b1",
+     ""
+    ],
+    [
+     "Saarbach (zum Erlbach)",
+     "Unterland",
+     3,
+     "mouth",
+     540.0,
+     203.4,
+     "52",
+     "b1",
+     "Einmündung in den Erlbach"
+    ],
+    [
+     "Schafgrund",
+     "Unterland",
+     3,
+     "inflow",
+     700.0,
+     263.6,
+     "52",
+     "b2",
+     "Einfluss der Treibe"
+    ],
+    [
+     "Schafgrund",
+     "Unterland",
+     3,
+     "mouth",
+     480.0,
+     180.8,
+     "52",
+     "b2",
+     ""
+    ],
+    [
+     "Goldthalwasser",
+     "Unterland",
+     3,
+     "mouth",
+     468.0,
+     176.3,
+     "52",
+     "b3",
+     "unterhalb Köstritz"
+    ],
+    [
+     "Pfortenbach",
+     "Unterland",
+     3,
+     "mouth",
+     505.0,
+     190.2,
+     "52",
+     "b11",
+     "bei Pforten"
+    ],
+    [
+     "Zaufensgraben",
+     "Unterland",
+     3,
+     "source",
+     822.0,
+     309.6,
+     "52",
+     "b12",
+     "Südosthöhe von Leumnitz"
+    ],
+    [
+     "Leumnitzbach",
+     "Unterland",
+     3,
+     "source",
+     798.0,
+     300.5,
+     "52",
+     "b13",
+     ""
+    ],
+    [
+     "Leumnitzbach",
+     "Unterland",
+     3,
+     "entry",
+     575.0,
+     216.6,
+     "52",
+     "b13",
+     "Eintritt in Gera"
+    ],
+    [
+     "Krautgrund",
+     "Unterland",
+     3,
+     "source",
+     797.0,
+     300.2,
+     "52",
+     "b14",
+     "südöstlich von Trebnitz"
+    ],
+    [
+     "Krautgrund",
+     "Unterland",
+     3,
+     "mouth",
+     495.0,
+     186.4,
+     "52",
+     "b14",
+     "unterhalb Cuba"
+    ],
+    [
+     "Brambach",
+     "Unterland",
+     3,
+     "source",
+     760.0,
+     286.2,
+     "52",
+     "b15",
+     "Quellfäden bei Bethenhausen und Caasen"
+    ],
+    [
+     "Brambach",
+     "Unterland",
+     3,
+     "mouth",
+     490.0,
+     184.5,
+     "53",
+     "b1",
+     "unterhalb Tinz"
+    ],
+    [
+     "Aga (Reichenbach)",
+     "Unterland",
+     3,
+     "source",
+     830.0,
+     312.6,
+     "53",
+     "b6",
+     "Reichenbach bei Kleinaga"
+    ]
+   ],
+   "source_refs": [
+    {
+     "page": "45",
+     "block": "b7"
+    },
+    {
+     "page": "45",
+     "block": "b13"
+    },
+    {
+     "page": "46",
+     "block": "b2"
+    },
+    {
+     "page": "46",
+     "block": "b4"
+    },
+    {
+     "page": "46",
+     "block": "b5"
+    },
+    {
+     "page": "46",
+     "block": "b16"
+    },
+    {
+     "page": "47",
+     "block": "b4"
+    },
+    {
+     "page": "48",
+     "block": "b1"
+    },
+    {
+     "page": "48",
+     "block": "b4"
+    },
+    {
+     "page": "48",
+     "block": "b6"
+    },
+    {
+     "page": "49",
+     "block": "b5"
+    },
+    {
+     "page": "49",
+     "block": "b6"
+    },
+    {
+     "page": "50",
+     "block": "b15"
+    },
+    {
+     "page": "50",
+     "block": "b16"
+    },
+    {
+     "page": "51",
+     "block": "b1"
+    },
+    {
+     "page": "51",
+     "block": "b8"
+    },
+    {
+     "page": "52",
+     "block": "b1"
+    },
+    {
+     "page": "52",
+     "block": "b2"
+    },
+    {
+     "page": "52",
+     "block": "b3"
+    },
+    {
+     "page": "52",
+     "block": "b11"
+    },
+    {
+     "page": "52",
+     "block": "b12"
+    },
+    {
+     "page": "52",
+     "block": "b13"
+    },
+    {
+     "page": "52",
+     "block": "b14"
+    },
+    {
+     "page": "52",
+     "block": "b15"
+    },
+    {
+     "page": "53",
+     "block": "b1"
+    },
+    {
+     "page": "53",
+     "block": "b6"
+    }
+   ]
+  }
+ ],
+ "charts": [
+  {
+   "id": "c1",
+   "dataset": "reaches",
+   "title": {
+    "de": "Wettera und Sieglitzbach fallen über 200 m, die Elster im ganzen Land nur 25 m",
+    "en": "The Wettera and Sieglitzbach fall over 200 m, the Elster only 25 m across the country"
+   },
+   "caption": {
+    "de": "Höhe in Metern (aus Dezimalfuß umgerechnet) am oberen und unteren Ende der Strecken, die Brückner angibt: meist Quelle bis Mündung, bei Saale, Weida, Elster, Leuba und Triebes Eintritt bis Austritt, bei vier Bächen Teilstrecken. Zahl: Gefälle. Quelle: S. 45 bis 53.",
+    "en": "Altitude in meters (converted from decimal feet) at the upper and lower end of the reaches Brückner gives: mostly spring to mouth, for the Saale, Weida, Elster, Leuba and Triebes entry to exit, for four streams partial reaches. Number: fall. Source: pp. 45 to 53."
+   },
+   "vegalite": {
+    "height": {
+     "step": 25
+    },
+    "transform": [
+     {
+      "calculate": "format(datum.fall_m, '.0f') + ' m'",
+      "as": "fall_label"
+     }
+    ],
+    "encoding": {
+     "y": {
+      "field": "stream",
+      "type": "nominal",
+      "sort": {
+       "field": "upper_m",
+       "op": "max",
+       "order": "descending"
+      },
+      "axis": {
+       "title": null,
+       "labelLimit": 300,
+       "labelFontWeight": {
+        "condition": {
+         "test": "indexof(['Saale','Weida','Elster'], datum.value) >= 0",
+         "value": 700
+        },
+        "value": 400
+       }
+      }
+     }
+    },
+    "layer": [
+     {
+      "mark": {
+       "type": "bar",
+       "cornerRadius": 3,
+       "height": {
+        "band": 0.6
+       }
+      },
+      "encoding": {
+       "x": {
+        "field": "lower_m",
+        "type": "quantitative",
+        "scale": {
+         "domain": [
+          150,
+          720
+         ]
+        },
+        "axis": {
+         "title": {
+          "de": "Höhe über dem Meer in m",
+          "en": "Altitude above sea level in m"
+         },
+         "values": [
+          200,
+          300,
+          400,
+          500,
+          600
+         ],
+         "format": "d"
+        }
+       },
+       "x2": {
+        "field": "upper_m"
+       },
+       "color": {
+        "field": "region",
+        "type": "nominal",
+        "legend": null,
+        "scale": {
+         "domain": [
+          "Oberland",
+          "Unterland"
+         ],
+         "range": [
+          "@accent2",
+          "@accent"
+         ]
+        }
+       },
+       "tooltip": [
+        {
+         "field": "stream",
+         "title": {
+          "de": "Gewässer",
+          "en": "Watercourse"
+         }
+        },
+        {
+         "field": "region",
+         "title": {
+          "de": "Gebiet (Brückners Gliederung)",
+          "en": "Region (Brückner’s division)"
+         }
+        },
+        {
+         "field": "upper_ft",
+         "title": {
+          "de": "obere Höhe (Dezimalfuß)",
+          "en": "upper height (decimal feet)"
+         },
+         "format": ",.1~f"
+        },
+        {
+         "field": "lower_ft",
+         "title": {
+          "de": "untere Höhe (Dezimalfuß)",
+          "en": "lower height (decimal feet)"
+         },
+         "format": ",.1~f"
+        },
+        {
+         "field": "upper_m",
+         "title": {
+          "de": "obere Höhe (m)",
+          "en": "upper height (m)"
+         },
+         "format": ".0f"
+        },
+        {
+         "field": "lower_m",
+         "title": {
+          "de": "untere Höhe (m)",
+          "en": "lower height (m)"
+         },
+         "format": ".0f"
+        },
+        {
+         "field": "fall_m",
+         "title": {
+          "de": "Gefälle (m)",
+          "en": "fall (m)"
+         },
+         "format": ".0f"
+        }
+       ]
+      }
+     },
+     {
+      "transform": [
+       {
+        "filter": "indexof(['Wettera','Sieglitzbach','Elster'], datum.stream) >= 0"
+       }
+      ],
+      "mark": {
+       "type": "text",
+       "style": "label",
+       "align": "left",
+       "dx": 7
+      },
+      "encoding": {
+       "x": {
+        "field": "upper_m",
+        "type": "quantitative"
+       },
+       "text": {
+        "field": "fall_label"
+       }
+      }
+     },
+     {
+      "transform": [
+       {
+        "filter": "indexof(['Wettera','Sieglitzbach','Elster'], datum.stream) < 0"
+       }
+      ],
+      "mark": {
+       "type": "text",
+       "style": "label-muted",
+       "align": "left",
+       "dx": 7
+      },
+      "encoding": {
+       "x": {
+        "field": "upper_m",
+        "type": "quantitative"
+       },
+       "text": {
+        "field": "fall_label"
+       }
+      }
+     },
+     {
+      "transform": [
+       {
+        "filter": "datum.stream == 'Weida'"
+       }
+      ],
+      "mark": {
+       "type": "text",
+       "style": "label",
+       "align": "right",
+       "color": "@accent2"
+      },
+      "encoding": {
+       "x": {
+        "datum": 300,
+        "type": "quantitative"
+       },
+       "text": {
+        "value": {
+         "de": "Oberland",
+         "en": "Oberland"
+        }
+       }
+      }
+     },
+     {
+      "transform": [
+       {
+        "filter": "datum.stream == 'Brambach'"
+       }
+      ],
+      "mark": {
+       "type": "text",
+       "style": "label",
+       "align": "left",
+       "color": "@accent"
+      },
+      "encoding": {
+       "x": {
+        "datum": 450,
+        "type": "quantitative"
+       },
+       "text": {
+        "value": {
+         "de": "Unterland",
+         "en": "Unterland"
+        }
+       }
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "c2",
+   "dataset": "tributaries",
+   "title": {
+    "de": "Bei Saale, Elster und Weida münden rechts mehr Zuflüsse als links",
+    "en": "On the Saale, Elster and Weida more tributaries join on the right than on the left"
+   },
+   "caption": {
+    "de": "Von Brückner einzeln aufgeführte Zuflüsse erster Ordnung nach Fluss und Ufer, in Flussrichtung gesehen; insgesamt 83. Nur an der Rodach überwiegt das linke Ufer. Quelle: S. 45 bis 53.",
+    "en": "First-order tributaries listed individually by Brückner, by river and bank, seen in the direction of flow; 83 in all. Only on the Rodach does the left bank prevail. Source: pp. 45 to 53."
+   },
+   "vegalite": {
+    "height": {
+     "step": 40
+    },
+    "padding": {
+     "top": 26,
+     "left": 4,
+     "right": 4,
+     "bottom": 4
+    },
+    "transform": [
+     {
+      "aggregate": [
+       {
+        "op": "count",
+        "as": "n"
+       }
+      ],
+      "groupby": [
+       "river",
+       "bank"
+      ]
+     },
+     {
+      "calculate": "datum.bank == 'links' ? -datum.n : datum.n",
+      "as": "signed"
+     }
+    ],
+    "encoding": {
+     "y": {
+      "field": "river",
+      "type": "nominal",
+      "sort": {
+       "field": "n",
+       "op": "sum",
+       "order": "descending"
+      },
+      "axis": {
+       "title": null,
+       "labelFontWeight": 600,
+       "labelFontSize": 12,
+       "labelPadding": 8
+      }
+     }
+    },
+    "layer": [
+     {
+      "mark": {
+       "type": "bar",
+       "cornerRadius": 3,
+       "height": {
+        "band": 0.62
+       }
+      },
+      "encoding": {
+       "x": {
+        "field": "signed",
+        "type": "quantitative",
+        "scale": {
+         "domain": [
+          -27,
+          27
+         ]
+        },
+        "axis": {
+         "title": {
+          "de": "Zahl der Zuflüsse erster Ordnung",
+          "en": "Number of first-order tributaries"
+         },
+         "values": [
+          -20,
+          -10,
+          0,
+          10,
+          20
+         ],
+         "labelExpr": "abs(datum.value)",
+         "grid": true
+        }
+       },
+       "color": {
+        "condition": {
+         "test": "datum.bank == 'rechts'",
+         "value": "@accent"
+        },
+        "value": "@context"
+       },
+       "tooltip": [
+        {
+         "field": "river",
+         "title": {
+          "de": "Fluss",
+          "en": "River"
+         }
+        },
+        {
+         "field": "bank",
+         "title": {
+          "de": "Ufer",
+          "en": "Bank"
+         }
+        },
+        {
+         "field": "n",
+         "title": {
+          "de": "Zuflüsse",
+          "en": "Tributaries"
+         }
+        }
+       ]
+      }
+     },
+     {
+      "mark": {
+       "type": "text",
+       "style": "label",
+       "baseline": "middle",
+       "align": {
+        "expr": "datum.signed < 0 ? 'right' : 'left'"
+       },
+       "dx": {
+        "expr": "datum.signed < 0 ? -6 : 6"
+       }
+      },
+      "encoding": {
+       "x": {
+        "field": "signed",
+        "type": "quantitative"
+       },
+       "text": {
+        "field": "n",
+        "type": "quantitative"
+       }
+      }
+     },
+     {
+      "data": {
+       "name": "tributaries"
+      },
+      "transform": [
+       {
+        "aggregate": [
+         {
+          "op": "count",
+          "as": "k"
+         }
+        ]
+       }
+      ],
+      "mark": {
+       "type": "text",
+       "style": "label-muted",
+       "align": "right",
+       "baseline": "bottom",
+       "dx": -4,
+       "dy": -8
+      },
+      "encoding": {
+       "x": {
+        "datum": 0,
+        "type": "quantitative"
+       },
+       "y": {
+        "value": 0
+       },
+       "text": {
+        "value": {
+         "de": "← linkes Ufer",
+         "en": "← left bank"
+        }
+       }
+      }
+     },
+     {
+      "data": {
+       "name": "tributaries"
+      },
+      "transform": [
+       {
+        "aggregate": [
+         {
+          "op": "count",
+          "as": "k"
+         }
+        ]
+       }
+      ],
+      "mark": {
+       "type": "text",
+       "style": "label",
+       "align": "left",
+       "baseline": "bottom",
+       "dx": 4,
+       "dy": -8,
+       "color": "@accent"
+      },
+      "encoding": {
+       "x": {
+        "datum": 0,
+        "type": "quantitative"
+       },
+       "y": {
+        "value": 0
+       },
+       "text": {
+        "value": {
+         "de": "rechtes Ufer →",
+         "en": "right bank →"
+        }
+       }
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "c3",
+   "dataset": "composition",
+   "title": {
+    "de": "Die Neue Quelle ist 2,5-mal so stark mineralisiert, hat aber nur 1,4-mal so viel Eisen",
+    "en": "The Neue Quelle is 2.5 times as mineralized but has only 1.4 times as much iron"
+   },
+   "caption": {
+    "de": "Analyse von Prof. Reichardt (Jena) für die 1868 eröffnete Badeanstalt in Lobenstein: Bestandteile in vier Gruppen, in Teilen auf 10.000 Teile Wasser. Die Salze sind die damals berechneten Verbindungen. Quelle: S. 44.",
+    "en": "Analysis by Prof. Reichardt (Jena) for the spa opened at Lobenstein in 1868: constituents in four groups, in parts per 10,000 parts of water. The salts are the compounds computed at the time. Source: p. 44."
+   },
+   "vegalite": {
+    "height": {
+     "step": 48
+    },
+    "transform": [
+     {
+      "aggregate": [
+       {
+        "op": "sum",
+        "field": "parts_per_10000",
+        "as": "v"
+       }
+      ],
+      "groupby": [
+       "group",
+       "spring"
+      ]
+     },
+     {
+      "calculate": {
+       "de": "datum.group == 'earth' ? 'Kalk und Magnesia' : datum.group == 'iron' ? 'Eisen und Mangan' : datum.group == 'alkali' ? 'Natron- und Kalisalze' : 'Übrige Stoffe'",
+       "en": "datum.group == 'earth' ? 'Lime and magnesia' : datum.group == 'iron' ? 'Iron and manganese' : datum.group == 'alkali' ? 'Sodium and potassium salts' : 'Other constituents'"
+      },
+      "as": "group_label"
+     },
+     {
+      "joinaggregate": [
+       {
+        "op": "min",
+        "field": "v",
+        "as": "lo"
+       },
+       {
+        "op": "max",
+        "field": "v",
+        "as": "hi"
+       }
+      ],
+      "groupby": [
+       "group"
+      ]
+     }
+    ],
+    "encoding": {
+     "y": {
+      "field": "group_label",
+      "type": "nominal",
+      "sort": {
+       "field": "hi",
+       "op": "max",
+       "order": "descending"
+      },
+      "axis": {
+       "title": null,
+       "labelLimit": 260,
+       "labelPadding": 8
+      }
+     }
+    },
+    "layer": [
+     {
+      "mark": {
+       "type": "rule",
+       "strokeWidth": 3,
+       "color": "@context"
+      },
+      "encoding": {
+       "x": {
+        "field": "lo",
+        "type": "quantitative",
+        "scale": {
+         "domain": [
+          -0.14,
+          1.4
+         ]
+        },
+        "axis": {
+         "title": {
+          "de": "Gelöste Stoffe, Teile in 10 000 Teilen Wasser",
+          "en": "Dissolved matter, parts in 10,000 parts of water"
+         },
+         "values": [
+          0,
+          0.2,
+          0.4,
+          0.6,
+          0.8,
+          1.0,
+          1.2,
+          1.4
+         ],
+         "format": ".1f"
+        }
+       },
+       "x2": {
+        "field": "hi"
+       }
+      }
+     },
+     {
+      "mark": {
+       "type": "point",
+       "filled": true,
+       "size": 190,
+       "opacity": 1
+      },
+      "encoding": {
+       "x": {
+        "field": "v",
+        "type": "quantitative"
+       },
+       "color": {
+        "field": "spring",
+        "type": "nominal",
+        "legend": null,
+        "scale": {
+         "domain": [
+          "Neue Quelle",
+          "Agnesquelle"
+         ],
+         "range": [
+          "@accent",
+          "@accent2"
+         ]
+        }
+       },
+       "tooltip": [
+        {
+         "field": "group_label",
+         "title": {
+          "de": "Stoffgruppe",
+          "en": "Group of constituents"
+         }
+        },
+        {
+         "field": "spring",
+         "title": {
+          "de": "Quelle",
+          "en": "Spring"
+         }
+        },
+        {
+         "field": "v",
+         "title": {
+          "de": "Teile in 10 000 Teilen Wasser",
+          "en": "Parts in 10,000 parts of water"
+         },
+         "format": ".4f"
+        }
+       ]
+      }
+     },
+     {
+      "transform": [
+       {
+        "filter": "datum.spring == 'Neue Quelle'"
+       }
+      ],
+      "mark": {
+       "type": "text",
+       "style": "label",
+       "align": "left",
+       "dx": 11
+      },
+      "encoding": {
+       "x": {
+        "field": "v",
+        "type": "quantitative"
+       },
+       "text": {
+        "field": "v",
+        "type": "quantitative",
+        "format": ".2f"
+       }
+      }
+     },
+     {
+      "transform": [
+       {
+        "filter": "datum.spring == 'Agnesquelle'"
+       }
+      ],
+      "mark": {
+       "type": "text",
+       "style": "label",
+       "align": "right",
+       "dx": -11
+      },
+      "encoding": {
+       "x": {
+        "field": "v",
+        "type": "quantitative"
+       },
+       "text": {
+        "field": "v",
+        "type": "quantitative",
+        "format": ".2f"
+       }
+      }
+     },
+     {
+      "transform": [
+       {
+        "filter": "datum.group == 'earth'"
+       }
+      ],
+      "mark": {
+       "type": "text",
+       "style": "label",
+       "align": "center",
+       "dy": -17
+      },
+      "encoding": {
+       "x": {
+        "field": "v",
+        "type": "quantitative"
+       },
+       "color": {
+        "field": "spring",
+        "type": "nominal",
+        "legend": null,
+        "scale": {
+         "domain": [
+          "Neue Quelle",
+          "Agnesquelle"
+         ],
+         "range": [
+          "@accent",
+          "@accent2"
+         ]
+        }
+       },
+       "text": {
+        "field": "spring"
+       }
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "keywords": {
+  "de": [
+   "Gewässer",
+   "Saale",
+   "Weiße Elster",
+   "Weida",
+   "Quellen",
+   "Gefälle",
+   "Zuflüsse",
+   "Heilquellen",
+   "Lobenstein",
+   "Eisenquelle",
+   "Mineralwasser"
+  ],
+  "en": [
+   "watercourses",
+   "Saale",
+   "White Elster",
+   "Weida",
+   "springs",
+   "gradient",
+   "tributaries",
+   "mineral springs",
+   "Lobenstein",
+   "iron spring",
+   "mineral water"
+  ]
+ },
+ "related": [
+  "relief-hoehen",
+  "land-lage-grenzen",
+  "geologie-boden",
+  "klima-stationen"
+ ],
+ "generated_by": "Claude Sonnet 5.5 (Agent F1), aus 4 Einzelauswertungen zusammengeführt",
+ "date": "2026-10-02"
+}

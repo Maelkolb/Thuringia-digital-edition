@@ -1,0 +1,42 @@
+====================================================================================================
+forstwirtschaft-holzpreise-zuwachs t1-3-4 forestry
+TITLE Holzpreise 1800–1868 und Zuwachs der Wälder
+SUMMARY Am Ende des Abschnitts Forstwirtschaft nennt Brückner die Entwicklung der Holzpreise seit 1800 (Bauholz, Blochholz, Feuerholz je Kubikfuß), die in den letzten Jahren erzielten Preise für Domanialholz im Oberland (je Normalklafter) und Schätzungen für Zuwachs und Ertrag je Morgen nach Besitzart. Die Diagramme zeigen den Preisanstieg, die Preisspannen der Sortimente und den Zuwachs der Domänen-, Gemeinde- und Privatwälder.
+FIND Von 1800 bis 1868 steigt der Preis je Kubikfuß für Bauholz von 1 1/6 auf 3 Sgr. (das 2,6-Fache), für Blochholz von 1 1/4 auf 3 1/2 Sgr. (2,8-Fache) und für Feuerholz von 1/3 auf 1 Sgr. (3,0-Fache). Brückner fasst dies als Verdreifachung seit 1800 zusammen.
+FIND Feuerholz verteuert sich vor allem bis 1840 (von 1/3 über 5/12 auf 1 Sgr.) und bleibt bis 1868 bei 1 Sgr.; Bau- und Blochholz steigen auch danach weiter (Bauholz von 1,83–2,67 Sgr. 1840 auf 3 Sgr. 1868).
+FIND Für das Domanialholz des Oberlandes nennt Brückner in den letzten Jahren je Normalklafter 6–15 Taler für Nutzholz, 2–6 für Brennholz und 2–5 für Stock- und Wurzelholz; umgerechnet sind das 1,43–3,57 Sgr. je Kubikfuß für Nutzholz und 0,48–1,43 Sgr. für Brennholz. Nutzholz kostet damit das 2,5- bis 3,0-Fache von Brennholz.
+FIND Den jährlichen Zuwachs veranschlagt Brückner je Morgen für die Domänenforsten auf 1/2 Klafter (rund 5,6 Raummeter je Hektar), für Gemeinde- und Stiftungswälder auf 2/5 bis 1/2 und für Privatwälder nur auf 1/10 bis 1/5 Klafter (1,1–2,2 Raummeter je Hektar); der Privatwald wächst demnach nur mit 20–40 % der Domänenleistung.
+FIND Der Nettoertrag des gesamten Frankenwaldes betrug 1647 etwa 1730 Taler, nach Brückner »um mehr als 20 Mal geringer« als der heutige Nettoabwurf; im Durchschnitt wird der Ertrag der Domänen-, Gemeinde- und Stiftungswälder mit 40, der der meisten Privatwälder mit höchstens 20 Kubikfuß je Jahr angesetzt.
+METHOD Die Preise je Kubikfuß weiches Holz stammen aus der Tabelle auf S. 241 (Block b6), die Preise je Normalklafter aus Block b4, Zuwachs und Ertrag aus dem Absatz Block b3 bzw. b8. Brückner schreibt die Preise in Silbergroschen (Sgr.) und gemischten Brüchen (z. B. »1 1/6«); sie sind als Dezimalzahlen übernommen (der gedruckte Wortlaut steht in der Spalte preis_text). Für 1840 gibt er Spannen an; Diagramm 1 zeigt dann Spanne und Mitte. Die Preise je Normalklafter (= 126 Kubikfuß Rauminhalt) wurden mit 1 Taler = 30 Silbergroschen in Silbergroschen je Kubikfuß umgerechnet (Währungsfaktor des preußischen Münzsystems, nicht aus Brückners Tabelle). Der Zuwachs je Morgen ist in Klaftern angegeben; er wurde mit Brückners Klafter von 126 Kubikfuß = 2,8454 m³ (S. 832, Landesteil Gera) und 1 Morgen = 0,255322 ha (S. 832) in Raummeter je Hektar und Jahr umgerechnet.
+CAVEAT Die Preisreihe hat nur vier Zeitpunkte (1800, 1820, 1840, 1868); Verlauf und Schwankungen zwischen diesen Jahren sind nicht belegt. Welches Holz (Maß, Herkunft) die Tabelle meint, sagt Brückner nur mit »weiches Holz« – Nadelholz – und »Cubikfuß«; ob Fest- oder Raummaß, bleibt offen.
+CAVEAT Die Ertragszahlen (40 bzw. 20 Kubikfuß, dazu »27,469« und »9157« Normalklafter für Oberholz und Stockholz) sind in der Vorlage nicht eindeutig auf die Fläche bezogen und passen nicht zu den Klafter-Zuwächsen; sie werden deshalb nur zitiert, nicht umgerechnet. Der Zuwachs in Raummetern ist eine Näherung mit der geraer Klafter von 126 Kubikfuß (2,8454 m³).
+CAVEAT Die Preise je Normalklafter gelten für Domanialholz im Oberland »in den letzten Jahren« (ohne Jahresangabe); die Umrechnung auf Silbergroschen je Kubikfuß setzt die Normalklafter von 126 Kubikfuß Rauminhalt und 1 Taler = 30 Silbergroschen voraus.
+CONV [{'from': 'Normalklafter', 'to': 'Kubikfuß', 'factor_or_formula': '1 Normalklafter = 126 Cubikfuß Rauminhalt', 'reference': 'Brückner S. 241'}, {'from': 'Thaler', 'to': 'Silbergroschen', 'factor_or_formula': '1 Thaler = 30 Silbergroschen', 'reference': 'preußisches Münzsystem; nicht in Brückners Tabelle'}, {'from': 'Klafter (126 Kubikfuß, Gera)', 'to': 'Kubikmeter', 'factor_or_formula': '1 Klafter = 2,8454 m³', 'reference': 'Brückner S. 832, V. Holzmaße a)'}, {'from': 'preußischer Morgen', 'to': 'Hektar', 'factor_or_formula': 'ha = Morgen × 0,255322', 'reference': 'Brückner S. 832'}]
+TI null
+--DS holzpreise Preis je Kubikfuß weiches Holz 12 [{'page': '241', 'block': 'b6', 'rows': 'r2-r5'}]
+  cols [('holzart_de', 'string', None, ''), ('holzart_en', 'string', None, ''), ('holzart_nr', 'integer', None, 'D'), ('jahr', 'integer', None, ''), ('preis_text', 'string', None, ''), ('preis_von', 'number', 'Sgr. je Kubikfuß', 'D'), ('preis_bis', 'number', 'Sgr. je Kubikfuß', 'D'), ('preis_mitte', 'number', 'Sgr. je Kubikfuß', 'D')]
+    ['Bauholz', 'Construction timber', 1, 1800, '1 1/6 Sgr.,', 1.167, 1.167, 1.167]
+    ['Blochholz', 'Log timber (Blochholz)', 2, 1800, '1 1/4 Sgr.,', 1.25, 1.25, 1.25]
+    ['Feuerholz', 'Firewood', 3, 1800, '1/3 Sgr.,', 0.333, 0.333, 0.333]
+    ['Bauholz', 'Construction timber', 1, 1820, '1 1/2 "', 1.5, 1.5, 1.5]
+    ['Blochholz', 'Log timber (Blochholz)', 2, 1820, '1 1/2 "', 1.5, 1.5, 1.5]
+    ['Feuerholz', 'Firewood', 3, 1820, '5/12 "', 0.417, 0.417, 0.417]
+    ['Bauholz', 'Construction timber', 1, 1840, '1 5/6-2 2/3 "', 1.833, 2.667, 2.25]
+    ['Blochholz', 'Log timber (Blochholz)', 2, 1840, '1 2/3-2 5/6 "', 1.667, 2.833, 2.25]
+    ['Feuerholz', 'Firewood', 3, 1840, '1 "', 1, 1, 1.0]
+    ['Bauholz', 'Construction timber', 1, 1868, '3 "', 3, 3, 3.0]
+    ['Blochholz', 'Log timber (Blochholz)', 2, 1868, '3 1/2 "', 3.5, 3.5, 3.5]
+    ['Feuerholz', 'Firewood', 3, 1868, '1 "', 1, 1, 1.0]
+--DS normalklafter Preis je Normalklafter Domanialholz (Oberland) 3 [{'page': '241', 'block': 'b4', 'rows': 'r3-r5'}]
+  cols [('sorte_de', 'string', None, ''), ('sorte_en', 'string', None, ''), ('sorte_nr', 'integer', None, 'D'), ('min_thlr', 'integer', 'Taler je Normalklafter', ''), ('max_thlr', 'integer', 'Taler je Normalklafter', ''), ('min_sgr_cf', 'number', 'Sgr. je Kubikfuß', 'D'), ('max_sgr_cf', 'number', 'Sgr. je Kubikfuß', 'D')]
+    ['Nutzholz', 'Timber for construction and trade', 1, 6, 15, 1.43, 3.57]
+    ['Brennholz', 'Firewood', 2, 2, 6, 0.48, 1.43]
+    ['Stock- und Wurzelholz', 'Stumps and roots', 3, 2, 5, 0.48, 1.19]
+--DS zuwachs Zuwachs je Morgen nach Besitzart 3 [{'page': '241', 'block': 'b3'}, {'page': '241', 'block': 'b8'}]
+  cols [('besitzart_de', 'string', None, ''), ('besitzart_en', 'string', None, ''), ('besitzart_nr', 'integer', None, 'D'), ('zuwachs_text', 'string', None, ''), ('zuwachs_von', 'number', 'Klafter je Morgen und Jahr', 'D'), ('zuwachs_bis', 'number', 'Klafter je Morgen und Jahr', 'D'), ('rm_ha_von', 'number', 'Raummeter je ha und Jahr', 'D'), ('rm_ha_bis', 'number', 'Raummeter je ha und Jahr', 'D'), ('ertrag_cf', 'integer', 'Kubikfuß je Jahr', '')]
+    ['Domänenforsten', 'Domain forests', 1, '1/2', 0.5, 0.5, 5.57, 5.57, 40]
+    ['Gemeinde- und Stiftungswälder', 'Municipal and foundation forests', 2, '2/5 bis 1/2', 0.4, 0.5, 4.46, 5.57, 40]
+    ['Privatwälder', 'Private woodland', 3, '1/10 bis 1/5', 0.1, 0.2, 1.11, 2.23, 20]
+--CHART c1 holzpreise Preis je Kubikfuß weiches Holz 1800–1868
+--CHART c2 normalklafter Preise für Domanialholz im Oberland (je Normalklafter)
+--CHART c3 zuwachs Jährlicher Zuwachs nach Besitzart

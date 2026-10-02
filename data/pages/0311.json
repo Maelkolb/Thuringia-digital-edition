@@ -751,7 +751,7 @@
        "spans": []
       },
       {
-       "text": "1,10",
+       "text": "1,40",
        "spans": []
       },
       {
@@ -1107,6 +1107,13 @@
   }
  ],
  "corrections": [
+  {
+   "rule": "facsimile_correction",
+   "before": "1,10",
+   "after": "1,40",
+   "source": "kirche-schule",
+   "n": 1
+  },
   {
    "rule": "join_inword_hyphen",
    "before": "Schu-len",
