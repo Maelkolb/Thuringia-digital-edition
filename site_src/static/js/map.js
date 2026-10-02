@@ -1,4 +1,4 @@
-// Map of all georeferenced places (Leaflet + OSM tiles)
+// Map of all georeferenced places (Leaflet; TopPlusOpen basemap, OpenStreetMap as fallback)
 (function () {
   'use strict';
   var ROOT = document.body.getAttribute('data-root') || '';
@@ -6,13 +6,32 @@
   var esc = function (s) { return RJ.esc(s == null ? '' : s); };
   window.addEventListener('load', function () {
     var map = L.map('map', { zoomSnap: 0.25, preferCanvas: true }).setView([50.62, 11.82], 10);
-    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-      maxZoom: 18, attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
-    }).addTo(map);
+    // TopPlusOpen (BKG, open data) needs no API key or referrer, so the map also works when the edition is opened from disk.
+    // OpenStreetMap is the fallback; markers and the place list work without any tiles.
+    var BASEMAPS = [
+      L.tileLayer.bind(null, 'https://sgx.geodatenzentrum.de/wmts_topplus_open/tile/1.0.0/web_grau/default/WEBMERCATOR/{z}/{y}/{x}.png', {
+        maxZoom: 18, attribution: '<a href="https://gdz.bkg.bund.de/index.php/default/wmts-topplusopen-wmts-topplus-open.html">TopPlusOpen</a> &copy; <a href="https://www.bkg.bund.de">BKG</a> ' + new Date().getFullYear() + ' (<a href="https://sgx.geodatenzentrum.de/web_public/Datenquellen_TopPlus_Open.pdf">Datenquellen</a>, dl-de/by-2-0)' }),
+      L.tileLayer.bind(null, 'https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        maxZoom: 19, attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>' })
+    ];
+    var basemap = 0, tiles = null, tileErrors = 0;
+    function setTiles() {
+      if (tiles) map.removeLayer(tiles);
+      tileErrors = 0;
+      tiles = BASEMAPS[basemap]().addTo(map);
+      tiles.on('tileerror', function () {
+        if (++tileErrors === 4) {
+          if (basemap < BASEMAPS.length - 1) { basemap++; setTiles(); }
+          else document.getElementById('map').classList.add('no-tiles');
+        }
+      });
+    }
+    setTiles();
+    function setHash(id) { try { history.replaceState(null, '', '#' + id); } catch (e) { /* file:// */ } }
     var css = getComputedStyle(document.documentElement);
     var cPlace = css.getPropertyValue('--e-place').trim() || '#2a78d6';
     var cNature = css.getPropertyValue('--e-nature').trim() || '#008300';
-    fetch(ROOT + 'karte/orte.json').then(function (r) { return r.json(); }).then(function (feats) {
+    RJ.load('karte/orte').then(function (feats) {
       var layer = L.layerGroup().addTo(map), markers = {};
       var list = document.getElementById('map-list'), detail = document.getElementById('map-detail');
       var filter = document.querySelector('[data-map-filter]'), sel = document.querySelector('[data-map-layer]');
@@ -43,7 +62,7 @@
           var col = f.c === 'nature' ? cNature : cPlace;
           var m = L.circleMarker([f.lat, f.lon], { radius: radius(f), color: col, weight: 1.5, fillColor: col, fillOpacity: f.g ? 0.55 : 0.12 });
           m.bindTooltip(esc(f.l) + ' (' + f.n + ')');
-          m.on('click', function () { show(f); history.replaceState(null, '', '#' + f.id); });
+          m.on('click', function () { show(f); setHash(f.id); });
           m.addTo(layer); markers[f.id] = m; shown.push(f);
         });
         shown.sort(function (a, b) { return b.n - a.n; });
@@ -54,7 +73,7 @@
       list.addEventListener('click', function (e) {
         var a = e.target.closest('[data-f]'); if (!a) return; e.preventDefault();
         var f = feats.find(function (x) { return x.id === a.getAttribute('data-f'); });
-        map.setView([f.lat, f.lon], Math.max(map.getZoom(), 12)); show(f); history.replaceState(null, '', '#' + f.id);
+        map.setView([f.lat, f.lon], Math.max(map.getZoom(), 12)); show(f); setHash(f.id);
       });
       filter.addEventListener('input', draw); sel.addEventListener('change', draw);
       draw();

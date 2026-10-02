@@ -1,0 +1,35 @@
+{
+  "page_number": 393,
+  "image_filename": "bsb11005578_seq_405_page_393_(0405).jpg",
+  "structure": {
+    "page_number_printed": "393",
+    "header": "3. Das Reußenland zuerst unter drei, darauf unter zwei Linien.",
+    "content_blocks": [
+      {
+        "block_type": "paragraph",
+        "block_index": 0,
+        "content": "und alsbald die Promulgirung einer neuen mit den alten Feudalständen vereinbarten Verfassung, welche eine Volksvertretung mit einigem Einflusse auf Gesetzgebung und Finanzverwaltung zuläßt. Nach dieser Verfassung werden zwölf Abgeordnete und zwar drei vom Landesherrn, zwei von den größeren Grundbesitzern, drei von den Städten und vier von den Landgemeinden gewählt. Jeder unbescholtene volljährige, directe Steuer zahlende und einen eigenen Hausstand besitzende Mann ist wählbar. Die Staatsdiener sind verantwortlich, die Sicherheit der Person und des Briefgeheimnisses ist garantirt und die Cabinets- und Ministerialjustiz für unstatthaft erklärt. Ein bedeutender Fortschritt in der Reform der Zustände des Landes ist die Aufhebung der Patrimonialgerichte, des privilegirten Gerichtsstandes und des Lehnsverbandes, die Einführung des Anklageprozesses mit Oeffentlichkeit und Mündlichkeit und der Anschluß (1. October 1868) an das Appellationsgericht zu Eisenach. Durch besondere Convention mit Preußen ist seit dem 1. Juli 1867 die Militärhoheit auf das Präsidium des norddeutschen Bundes übertragen, ebenso die Posthoheit und das Postrecht."
+      }
+    ],
+    "footnotes": []
+  },
+  "ocr_text": "3. Das Reußenland zuerst unter drei, darauf unter zwei Linien.\n\nund alsbald die Promulgirung einer neuen mit den alten Feudalständen vereinbarten Verfassung, welche eine Volksvertretung mit einigem Einflusse auf Gesetzgebung und Finanzverwaltung zuläßt. Nach dieser Verfassung werden zwölf Abgeordnete und zwar drei vom Landesherrn, zwei von den größeren Grundbesitzern, drei von den Städten und vier von den Landgemeinden gewählt. Jeder unbescholtene volljährige, directe Steuer zahlende und einen eigenen Hausstand besitzende Mann ist wählbar. Die Staatsdiener sind verantwortlich, die Sicherheit der Person und des Briefgeheimnisses ist garantirt und die Cabinets- und Ministerialjustiz für unstatthaft erklärt. Ein bedeutender Fortschritt in der Reform der Zustände des Landes ist die Aufhebung der Patrimonialgerichte, des privilegirten Gerichtsstandes und des Lehnsverbandes, die Einführung des Anklageprozesses mit Oeffentlichkeit und Mündlichkeit und der Anschluß (1. October 1868) an das Appellationsgericht zu Eisenach. Durch besondere Convention mit Preußen ist seit dem 1. Juli 1867 die Militärhoheit auf das Präsidium des norddeutschen Bundes übertragen, ebenso die Posthoheit und das Postrecht.",
+  "entities": [
+    {
+      "text": "Eisenach",
+      "entity_type": "Location",
+      "start_char": 792,
+      "end_char": 800,
+      "context": "...an das Appellationsgericht zu Eisenach."
+    },
+    {
+      "text": "Preußen",
+      "entity_type": "Location",
+      "start_char": 834,
+      "end_char": 841,
+      "context": "Durch besondere Convention mit Preußen ist seit dem 1."
+    }
+  ],
+  "processing_timestamp": "2026-03-04T14:29:53.650128",
+  "model_used": "gemini-3-flash-preview"
+}

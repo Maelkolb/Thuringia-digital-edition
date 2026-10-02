@@ -2,7 +2,6 @@
 (function () {
   'use strict';
   var ROOT = document.body.getAttribute('data-root') || '';
-  var BASE = ROOT + 'suche/';
   var K1 = 1.2, B = 0.75, PAGE = 25;
   var D = null, V = null, SYN = null, SECTIONS = null, QUICK = null, SECIDX = null;
   var shardCache = {}, textCache = {};
@@ -23,7 +22,6 @@
   var STOPSET = {}; STOP.forEach(function (w) { STOPSET[w] = true; });
   var PAGEKINDS = 'phtlfm';
   function kl(k) { var l = KINDS[k] || [k, k]; return en() ? l[1] : l[0]; }
-  function json(u) { return fetch(u).then(function (r) { if (!r.ok) throw new Error(u); return r.json(); }); }
   function shardName(term) {
     var t = RJNorm.fold(term), k = t.length >= 2 ? t.slice(0, 2) : t + '_';
     return k.replace(/[^a-z0-9]/g, '_');
@@ -31,7 +29,7 @@
   function loadBase() {
     if (D) return Promise.resolve();
     status.textContent = en() ? 'Loading index …' : 'Suchindex wird geladen …';
-    return Promise.all([json(BASE + 'docs.json'), json(BASE + 'vocab.json'), json(BASE + 'syn.json'), json(BASE + 'sections.json'), json(BASE + 'quick.json')])
+    return Promise.all(['docs', 'vocab', 'syn', 'sections', 'quick'].map(function (n) { return RJ.load('suche/' + n); }))
       .then(function (r) {
         D = r[0]; V = r[1]; SYN = r[2]; SECTIONS = r[3]; QUICK = r[4];
         V.index = {}; V.t.forEach(function (t, i) { V.index[t] = i; });
@@ -40,7 +38,7 @@
   }
   function postings(term) {
     var s = shardName(term);
-    var p = shardCache[s] ? Promise.resolve(shardCache[s]) : json(BASE + 'i/' + s + '.json').catch(function () { return {}; }).then(function (d) { shardCache[s] = d; return d; });
+    var p = shardCache[s] ? Promise.resolve(shardCache[s]) : RJ.load('suche/i/' + s).catch(function () { return {}; }).then(function (d) { shardCache[s] = d; return d; });
     return p.then(function (d) { return d[term] || []; });
   }
   function df(n) { return V.index[n] !== undefined ? V.df[V.index[n]] : 0; }
@@ -259,7 +257,7 @@
   });
   function pageTexts(slug) {
     if (textCache[slug]) return Promise.resolve(textCache[slug]);
-    return json(BASE + 't/' + encodeURIComponent(slug) + '.json').catch(function () { return {}; }).then(function (d) { textCache[slug] = d; return d; });
+    return RJ.load('suche/t/' + slug).catch(function () { return {}; }).then(function (d) { textCache[slug] = d; return d; });
   }
   function snippet(text, terms) {
     var want = {}; terms.forEach(function (t) { want[t] = true; });
@@ -319,7 +317,7 @@
   form.addEventListener('submit', function (e) {
     e.preventDefault();
     var q = input.value;
-    history.replaceState(null, '', '?q=' + encodeURIComponent(q));
+    try { history.replaceState(null, '', '?q=' + encodeURIComponent(q)); } catch (err) { /* not allowed for some file:// pages */ }
     state.facets = { part: null, chapter: null, kind: null };
     run(q);
   });

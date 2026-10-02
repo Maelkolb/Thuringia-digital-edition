@@ -54,7 +54,7 @@
     });
   }
   window.addEventListener('load', function () {
-    fetch(url).then(function (r) { return r.json(); }).then(function (d) { specs = d; draw(); });
+    RJ.load(url).then(function (d) { specs = d; draw(); });
   });
   document.addEventListener('rj:lang', draw);
   document.addEventListener('rj:theme', draw);

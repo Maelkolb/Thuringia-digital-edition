@@ -13,7 +13,7 @@ python pipeline/site/build.py            # builds ./site (≈ 1 min)
 cd site && python -m http.server 8642    # open http://127.0.0.1:8642
 ```
 
-The site is fully static (no server code, no CDN, self-hosted fonts) and can be deployed to any web server or GitHub Pages. Set `base_url` in `data/site.json` before publishing (canonical links, sitemap, citations).
+The site is fully static (no server code, no CDN, self-hosted fonts) and can be deployed to any web server or GitHub Pages. It also works opened straight from disk (double-click `site/index.html`): internal data (search index, chart specs, map places, index citations) is written as scripts calling `RJ.put(key, data)` and loaded with `RJ.load(key)` (edition.js), because browsers block `fetch()` on `file://`; fonts come from an embedded copy (`assets/css/fonts-offline.css`). Only the facsimiles (BSB IIIF) and map tiles (TopPlusOpen, BKG; OpenStreetMap as fallback) need the internet. Check both modes with `node tools/check_render.mjs site file|http`. Set `base_url` in `data/site.json` before publishing (canonical links, sitemap, citations).
 
 ## Data flow
 

@@ -1,0 +1,128 @@
+"""A04: search metadata for pp. 62-69 (data/search/pages/A04.json)."""
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[3].parent
+OUT = ROOT / "data/search/pages/A04.json"
+
+pages = [
+    {
+        "page": "62",
+        "summary_de": "Windströmungen allgemein (örtliche und allgemeine, untere und obere Strömung) und Beobachtungsorte für die Windrichtung (Gera: E. Kratzsch und Rob. Schmidt, Hohenleuben: Alberti). Tabelle der Windrichtungen in Gera 1856–1865 nach Monaten und acht Richtungen (Summe aller Richtungen 12 796, am häufigsten Süd).",
+        "summary_en": "General remarks on air currents (local and general, lower and upper) and the observing sites for wind direction (Gera: E. Kratzsch and Rob. Schmidt; Hohenleuben: Alberti). Table of wind directions at Gera, 1856–1865, by month and eight compass points (sum of all directions 12,796, south most frequent).",
+        "keywords_de": ["Wind", "Windrichtung", "Windrose", "Windströmung", "Gera", "Hohenleuben", "Südwind", "Kratzsch", "Robert Schmidt", "Alberti"],
+        "keywords_en": ["wind", "wind direction", "wind rose", "air current", "Gera", "Hohenleuben", "south wind", "Kratzsch", "Robert Schmidt", "Alberti"],
+        "subjects": ["Wind", "Klima"],
+    },
+    {
+        "page": "63",
+        "summary_de": "Tabellen der Windrichtungen nach Monaten und acht Richtungen für Hohenleuben (sieben Jahre, mit Maximum- und Minimumvermerken), Schleiz (1866 und 1867, Dr. Mauke) und Rothenacker (1867, Lehrer G. Oswald), jeweils mit Summen und Jahresmitteln. Im Oberland überwiegt Westwind (Hohenleuben).",
+        "summary_en": "Tables of wind directions by month and eight compass points for Hohenleuben (seven years, with maximum and minimum marks), Schleiz (1866 and 1867, Dr Mauke) and Rothenacker (1867, teacher G. Oswald), each with totals and annual means. In the Oberland westerly wind prevails (Hohenleuben).",
+        "keywords_de": ["Wind", "Windrichtung", "Hohenleuben", "Schleiz", "Rothenacker", "Mauke", "Oswald", "Westwind", "Oberland"],
+        "keywords_en": ["wind", "wind direction", "Hohenleuben", "Schleiz", "Rothenacker", "Mauke", "Oswald", "west wind", "Oberland"],
+        "subjects": ["Wind", "Klima"],
+    },
+    {
+        "page": "64",
+        "summary_de": "Schluss der Windauswertung: In Gera herrscht Süd-, im Oberland Westwind vor (freie Plateaulage, Ablenkung der Winde im Elstertal); Vergleichstabelle der vier Kardinalrichtungen für Gera, Hohenleuben, Schleiz und Rothenacker. Beginn des Abschnitts »Grade der Bewölkung«: Tabelle der bedeckten, gemischten und hellen Tage in Gera je Monat (zehn Jahre und je Jahr).",
+        "summary_en": "End of the wind evaluation: southerly wind prevails at Gera, westerly wind in the Oberland (open plateau, deflection of winds in the Elster valley); comparison table of the four cardinal directions for Gera, Hohenleuben, Schleiz and Rothenacker. Start of the section on degrees of cloudiness: table of overcast, mixed and clear days at Gera by month (ten years and per year).",
+        "keywords_de": ["Wind", "Südwind", "Westwind", "Elstertal", "Bewölkung", "Himmelsansicht", "bedeckte Tage", "heitere Tage", "Gera", "Oberland"],
+        "keywords_en": ["wind", "south wind", "west wind", "Elster valley", "cloud cover", "sky condition", "overcast days", "clear days", "Gera", "Oberland"],
+        "subjects": ["Wind", "Bewölkung", "Klima"],
+    },
+    {
+        "page": "65",
+        "summary_de": "Bewölkung in Hohenleuben (15 Jahre) und Schleiz (2 Jahre) nach Monaten, Rothenacker im Jahresmittel (160 bedeckte, 170,5 gemischte, 34,5 helle Tage) und Vergleich mit Gera, Hof und Arnstadt; die starken Abweichungen führt Brückner auf uneinheitliche Abgrenzung der Kategorien zurück. Überleitung zu Nebel, Regen, Schnee, Reif und Gewitter.",
+        "summary_en": "Cloud cover at Hohenleuben (15 years) and Schleiz (2 years) by month, Rothenacker as an annual mean (160 overcast, 170.5 mixed, 34.5 clear days) and comparison with Gera, Hof and Arnstadt; Brückner attributes the strong deviations to inconsistent delimitation of the categories. Lead-in to fog, rain, snow, hoar frost and thunderstorms.",
+        "keywords_de": ["Bewölkung", "Himmelsansicht", "bedeckte Tage", "gemischte Tage", "helle Tage", "Hohenleuben", "Schleiz", "Rothenacker", "Hof", "Arnstadt"],
+        "keywords_en": ["cloud cover", "sky condition", "overcast days", "mixed days", "clear days", "Hohenleuben", "Schleiz", "Rothenacker", "Hof", "Arnstadt"],
+        "subjects": ["Bewölkung", "Klima"],
+    },
+    {
+        "page": "66",
+        "summary_de": "Tabelle der Erscheinungen in Gera 1856–1867 je Monat: Nebel, Regen, Schnee und Graupen, Reif, Gewitter, Sturm, Höhenrauch, Sonnen- und Mondhöfe sowie Zodiakal- und Nordlicht (1859–1865). Dazu Nebel, Regen und Schnee sowie Reif für Hohenleuben als 15-jähriges Mittel (gemischte Brüche). Die Regenspalte von Gera ist in Brückners Zusätzen (S. 830) berichtigt (Summe 1544, Höchstmonat Juli).",
+        "summary_en": "Table of phenomena at Gera, 1856–1867, by month: fog, rain, snow and graupel, hoar frost, thunderstorms, storms, haze, solar and lunar halos, and zodiacal light and northern lights (1859–1865). Also fog, rain and snow, and hoar frost for Hohenleuben as a 15-year mean (mixed fractions). The Gera rain column is corrected in Brückner's additions (p. 830): total 1544, peak month July.",
+        "keywords_de": ["Nebel", "Regen", "Schnee", "Reif", "Gewitter", "Sturm", "Höhenrauch", "Nordlicht", "Zodiakallicht", "Gera", "Hohenleuben"],
+        "keywords_en": ["fog", "rain", "snow", "hoar frost", "thunderstorm", "storm", "haze", "northern lights", "zodiacal light", "Gera", "Hohenleuben"],
+        "subjects": ["Klima", "Niederschlag", "Gewitter und Unwetter"],
+    },
+    {
+        "page": "67",
+        "summary_de": "Nebel, Regen, Schnee, Reif und Gewitter in Schleiz (1866/67) und Rothenacker (Juni 1866–Mai 1868) nach Monaten sowie Vergleichstabelle der vier Orte. Maxima und Minima des Regens je Ort; Gewitter im Durchschnitt 19 pro Jahr bei 50–52½° N, in Gera Maximum 1861 (45) und Minimum 1864 (10); Gewitter in Gera je Monat 1853–1858 und 1859–1867. Teilweise in den Zusätzen (S. 830) berichtigt (Gera Regen 128,6, Gewitter 22,5, Regentage-Maximum im Juli).",
+        "summary_en": "Fog, rain, snow, hoar frost and thunderstorms at Schleiz (1866/67) and Rothenacker (June 1866–May 1868) by month, and a comparison table of the four places. Months of maximum and minimum rain per place; thunderstorms average 19 a year at 50–52½° N, at Gera maximum 1861 (45) and minimum 1864 (10); thunderstorms at Gera by month, 1853–1858 and 1859–1867. Partly corrected in the additions (p. 830): Gera rain 128.6, thunderstorms 22.5, maximum of rain days in July.",
+        "keywords_de": ["Gewitter", "Regen", "Schnee", "Reif", "Nebel", "Schleiz", "Rothenacker", "Gera", "Niederschlagstage", "Klimavergleich"],
+        "keywords_en": ["thunderstorm", "rain", "snow", "hoar frost", "fog", "Schleiz", "Rothenacker", "Gera", "precipitation days", "climate comparison"],
+        "subjects": ["Niederschlag", "Gewitter und Unwetter", "Klima"],
+    },
+    {
+        "page": "68",
+        "summary_de": "Jahreszeitliche Verteilung der Gewitter in Gera (Juni bis August am häufigsten, November frei) und Zugrichtung von 134 Gewittern in Gera (1853–1858) und 47 in Hohenleuben, meist aus Westen. Höhenrauch und Moorrauch, Wetterbäume (299 Fälle 1853–1859, Dr. Rob. Schmidt, laut S. 830 in Gera, nicht in Hohenleuben) und Einleitung zur Regenmenge in Gera (Thüringen 21,12 Pariser Zoll).",
+        "summary_en": "Seasonal distribution of thunderstorms at Gera (most frequent June to August, none in November) and direction of approach of 134 thunderstorms at Gera (1853–1858) and 47 at Hohenleuben, mostly from the west. Haze and moor smoke, “Wetterbäume” (299 cases 1853–1859, Dr Rob. Schmidt, at Gera according to p. 830, not at Hohenleuben) and introduction to rainfall at Gera (Thuringia 21.12 Paris inches).",
+        "keywords_de": ["Gewitter", "Zugrichtung", "Höhenrauch", "Moorrauch", "Wetterbäume", "Regenmenge", "Gera", "Hohenleuben", "Rob. Schmidt", "Thüringen"],
+        "keywords_en": ["thunderstorm", "direction of approach", "haze", "moor smoke", "Wetterbäume", "rainfall", "Gera", "Hohenleuben", "Rob. Schmidt", "Thuringia"],
+        "subjects": ["Gewitter und Unwetter", "Wind", "Niederschlag", "Klima"],
+    },
+    {
+        "page": "69",
+        "summary_de": "Regenmenge in Gera 1860–1867 (Dr. Rob. Schmidt; im Druck »Rud. Schmidt«): Tabelle mit Schnee- und Regentagen, Niederschlag je Jahreszeit und Jahresmittel in Pariser Zoll (Mittel gedruckt 20,36, berichtigt S. 830: 20,57; thüringischer Durchschnitt 21,12); Sommer regenreichster, Winter regenärmster Abschnitt. Anfang der Angaben zur Temperatur von Quellen und Brunnen (Seydel: Quellen in Kraftsdorf und Dessegrund; Brunnen in Hermsdorf, Hohenleuben, Döhlen).",
+        "summary_en": "Rainfall at Gera, 1860–1867 (Dr Rob. Schmidt; printed “Rud. Schmidt”): table of snow and rain days, precipitation by season and annual mean in Paris inches (mean printed 20.36, corrected on p. 830 to 20.57; Thuringian average 21.12); summer the wettest and winter the driest season. Start of the statements on the temperature of springs and wells (Seydel: springs at Kraftsdorf and Dessegrund; wells at Hermsdorf, Hohenleuben, Döhlen).",
+        "keywords_de": ["Regenmenge", "Niederschlag", "Regentage", "Schneetage", "Gera", "Pariser Zoll", "Rob. Schmidt", "Quellen", "Quelltemperatur", "Kraftsdorf", "Brunnen"],
+        "keywords_en": ["rainfall", "precipitation", "rain days", "snow days", "Gera", "Paris inch", "Rob. Schmidt", "springs", "spring temperature", "Kraftsdorf", "wells"],
+        "subjects": ["Niederschlag", "Klima", "Quellen"],
+    },
+]
+
+glossary = [
+    {"term": "Windrose", "variants": ["Windrichtungen", "NON.", "NWN.", "OSO.", "ONO.", "SOS.", "SWS.", "WSW.", "WNW."], "kind": "term",
+     "de": "Kreisteilung der Himmelsrichtungen. Brückner führt die 16 Richtungen der Gera-Beobachtung auf acht zurück: NON. (Nordnordost) und NWN. (Nordnordwest) zu N., OSO. und ONO. zu O., SOS. und SWS. zu S., WSW. und WNW. zu W. (S. 62).",
+     "en": "Division of the circle into compass points. Brückner reduces the 16 points of the Gera observations to eight: NON. (north-north-east) and NWN. (north-north-west) to N., OSO. and ONO. to E., SOS. and SWS. to S., WSW. and WNW. to W. (p. 62).",
+     "pages": ["62"]},
+    {"term": "Ansicht des Himmels", "variants": ["Grade der Bewölkung", "bedeckt", "gemischt", "hell", "Himmelscharakter"], "kind": "term",
+     "de": "Brückners dreistufige Einteilung der Bewölkung: Tage mit bedecktem (bed.), gemischtem (gem.) und hellem Himmel; die Abgrenzung war von Beobachter zu Beobachter verschieden (S. 65).",
+     "en": "Brückner's three-step classification of cloudiness: days with overcast (bed.), mixed (gem.) and clear sky; the delimitation differed from observer to observer (p. 65).",
+     "pages": ["64", "65"]},
+    {"term": "Höhenrauch", "variants": ["Höhrauch", "Moorrauch", "Haarrauch"], "kind": "term",
+     "de": "Trockener, geruchloser Dunst, der bei heiterem Himmel die Höhen mit einem bläulichen Flor umzieht und die Fernsicht verhindert (Höhenrauch, Höhrauch); sein Entstehen ist laut Brückner noch ein Rätsel. Davon unterschieden der frühjährliche Moorrauch (Haarrauch) vom Abbrennen der Moorböden in Nordwestdeutschland (S. 68).",
+     "en": "Dry, odourless haze that wraps the heights in a bluish veil in clear weather and blocks the view (Höhenrauch, Höhrauch); according to Brückner its origin is still a mystery. To be distinguished from the spring moor smoke (Haarrauch) from the burning of moorland in north-western Germany (p. 68).",
+     "pages": ["66", "68"]},
+    {"term": "Sonnenhof", "variants": ["Sonnenhöfe", "Mondhof", "Mondhöfe"], "kind": "term",
+     "de": "Heller Ring (Halo) um Sonne bzw. Mond (heute auf Eiskristalle in dünnen Wolken zurückgeführt); in der Geraer Tabelle als Zahl der Erscheinungen je Monat geführt (S. 66).",
+     "en": "Bright ring (halo) around the sun or moon (now attributed to ice crystals in thin clouds); listed in the Gera table as the number of occurrences per month (p. 66).",
+     "pages": ["66"]},
+    {"term": "Zodiakallicht", "variants": ["Nordlicht"], "kind": "term",
+     "de": "Zodiakallicht: schwacher Lichtkegel in der Ekliptik nach Sonnenuntergang bzw. vor Sonnenaufgang; Nordlicht: Polarlicht. Beide werden in Gera nur für 1859–1865 verzeichnet (S. 66).",
+     "en": "Zodiacal light: faint cone of light along the ecliptic after sunset or before sunrise; Nordlicht: northern lights (aurora). Both are recorded at Gera only for 1859–1865 (p. 66).",
+     "pages": ["66"]},
+    {"term": "Graupen", "variants": ["Schnee-Graupen"], "kind": "term",
+     "de": "Graupel: kleine, weiche Eiskörner; in der Geraer Tabelle mit Schnee in einer Spalte gezählt (S. 66).",
+     "en": "Graupel: small, soft pellets of ice; counted together with snow in one column of the Gera table (p. 66).",
+     "pages": ["66"]},
+    {"term": "Reif", "variants": ["Rauhreif"], "kind": "term",
+     "de": "Reif (Rau- bzw. Rauhreif): Eisablagerung an Gegenständen bei Frost; gezählt werden Tage bzw. Fälle mit Reif je Monat (S. 66 f.).",
+     "en": "Reif (hoar frost): deposit of ice on objects in frost; days or cases with hoar frost are counted per month (pp. 66 f.).",
+     "pages": ["66", "67"]},
+    {"term": "Wetterbaum", "variants": ["Wetterbäume"], "kind": "term",
+     "de": "Von Dr. Rob. Schmidt 1853–1859 beobachtete Wettererscheinung (im Druck in Hohenleuben, laut Berichtigung S. 830 in Gera; gedruckt 299 Fälle: 95 im Herbst, 82 im Frühjahr, 77 im Sommer, 36 im Winter, zusammen 290); Brückner erklärt den Begriff nicht. Sie kamen meist mit Westrichtung, über die Hälfte war mit Regen verbunden, eine Tageszeit bevorzugten sie nicht (S. 68).",
+     "en": "Weather phenomenon observed by Dr Rob. Schmidt in 1853–1859 (in Hohenleuben in the print, at Gera according to the correction on p. 830; 299 cases printed: 95 in autumn, 82 in spring, 77 in summer, 36 in winter, adding up to 290); Brückner does not explain the term. Most came with a westerly direction, over half were accompanied by rain, and they were not tied to any time of day (p. 68).",
+     "pages": ["68"]},
+    {"term": "Pariser Zoll", "variants": ["par. Zoll", "par. Z.", "Pariser Linie"], "kind": "unit",
+     "de": "Längenmaß: 1 Pariser Zoll = 12 Pariser Linien = 27,07 mm (Brückner, S. 831: 443,296 Pariser Linien = 1 Meter). Hier für die jährliche Regenhöhe (Thüringen 21,12 Zoll).",
+     "en": "Unit of length: 1 Paris inch = 12 Paris lines = 27.07 mm (Brückner, p. 831: 443.296 Paris lines = 1 metre). Used here for annual rainfall depth (Thuringia 21.12 inches).",
+     "pages": ["68", "69"]},
+    {"term": "Pariser Kubikzoll", "variants": ["par. C.=Z.", "Cubikzoll"], "kind": "unit",
+     "de": "Raummaß (Würfel von 1 Pariser Zoll Kantenlänge); in der Regentabelle für die Niederschlagsmenge der Jahreszeiten gedruckt, die Bezugsfläche nennt Brückner nicht (S. 69).",
+     "en": "Unit of volume (cube with an edge of 1 Paris inch); printed in the rainfall table for the precipitation of the seasons, the reference area is not stated by Brückner (p. 69).",
+     "pages": ["69"]},
+    {"term": "Grad Réaumur", "variants": ["°R", "R."], "kind": "unit",
+     "de": "Temperaturskala nach Réaumur: 0 ° Gefrierpunkt, 80 ° Siedepunkt des Wassers; 1 °R = 1,25 °C. Brückner gibt Quell- und Brunnentemperaturen in °R an (S. 69).",
+     "en": "Temperature scale after Réaumur: 0° freezing point, 80° boiling point of water; 1 °R = 1.25 °C. Brückner gives spring and well temperatures in °R (p. 69).",
+     "pages": ["69"]},
+    {"term": "Ziehbrunnen", "variants": ["Dorfziehbrunnen"], "kind": "term",
+     "de": "Brunnen, aus dem das Wasser mit Eimer, Seil oder Schwengel heraufgezogen wird; Brückner nennt die Ziehbrunnen in Röttersdorf (Beobachtungen des Direktors Bischoff, Mai 1868; S. 69 f.).",
+     "en": "Well from which water is drawn up with a bucket, rope or sweep; Brückner cites the draw-wells at Röttersdorf (observations by Director Bischoff, May 1868; pp. 69 f.).",
+     "pages": ["69"]},
+]
+
+OUT.parent.mkdir(parents=True, exist_ok=True)
+OUT.write_text(json.dumps({"package": "A04", "pages": pages, "glossary": glossary}, ensure_ascii=False, indent=1), encoding="utf-8")
+print("wrote", OUT, len(pages), "pages", len(glossary), "glossary terms")

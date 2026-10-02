@@ -1,0 +1,268 @@
+"""Writes data/search/pages/A02.json (search metadata for pp. 25-52)."""
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[3].parent
+P = []
+
+
+def page(label, sde, sen, kde, ken, subj):
+    P.append({"page": label, "summary_de": sde, "summary_en": sen, "keywords_de": kde, "keywords_en": ken, "subjects": subj})
+
+
+page("25",
+     "Fortsetzung der geognostischen Übersicht des Oberlandes: Faltung der Erdkruste in Devon- und Steinkohlenzeit, älterer silurischer Erhebungswall von Hirschberg über Blankenberg und Lobenstein bis Heinersdorf, Abtragung durch Main, Saale und Elster. Beginn der Formationsfolge mit dem Kambrium: Schiefer und Sandstein von Kießling bis Heinersdorf mit dem Seetang Phycodes.",
+     "Continuation of the geological overview of the Oberland: folding of the earth's crust in Devonian and Carboniferous times, the older Silurian ridge from Hirschberg via Blankenberg and Lobenstein to Heinersdorf, erosion by the Main, Saale and Elster. The sequence of formations begins with the Cambrian: slate and sandstone from Kießling to Heinersdorf with the seaweed Phycodes.",
+     ["Geologie", "Oberland", "Kambrium", "Silur", "Faltung", "Hirschberg", "Lobenstein", "Heinersdorf", "Schiefer", "Phycodes"],
+     ["geology", "Oberland", "Cambrian", "Silurian", "folding", "Hirschberg", "Lobenstein", "Heinersdorf", "slate", "Phycodes"],
+     ["Geologie", "Gesteine und Mineralien"])
+page("26",
+     "Kambrische Formation im Oberland: Verbreitung der Schiefer bei Kießling, Ullersreuth, Hirschberg und in der Enclave Hohenleuben-Pöllwitz, Böden aus Schiefer, Sandstein und Quarzit; die schimmernden Talkschiefer von Hirschberg mit sehr guter Ackererde; Granitstöcke bei Helmsgrün als Bausand, Gneis am Hirschberger Schloßberg und bei Göttengrün.",
+     "Cambrian formation in the Oberland: distribution of the slates near Kießling, Ullersreuth, Hirschberg and in the Hohenleuben-Pöllwitz enclave, soils from slate, sandstone and quartzite; the glossy talcose schist of Hirschberg with very good arable soil; granite stocks near Helmsgrün used as building sand, gneiss at the Hirschberg Schloßberg and near Göttengrün.",
+     ["Kambrium", "Hirschberg", "Talkschiefer", "Granit", "Gneis", "Helmsgrün", "Göttengrün", "Boden", "Ackerboden", "Ullersreuth"],
+     ["Cambrian", "Hirschberg", "talc schist", "granite", "gneiss", "Helmsgrün", "Göttengrün", "soil", "arable soil", "Ullersreuth"],
+     ["Geologie", "Gesteine und Mineralien", "+Boden"])
+page("27",
+     "Kambrium: Grünsteingänge aus Diabas und Diorit, die weit wichtigeren Spateisensteingänge (Grube »Arme Hilfe«, Tännig bei Lobenstein, Pottiga). Unteres Silur als »ältere Dachschieferformation«: grauschwarzer Schiefer, der das Kambrium gürtelförmig umgibt, Verbreitung von Dobareuth bis Stahlhütte, bei Willersdorf, Seibis und Neundorf.",
+     "Cambrian: greenstone dykes of diabase and diorite, the far more important spar iron veins (“Arme Hilfe” mine, Tännig near Lobenstein, Pottiga). Lower Silurian as the “older roofing-slate formation”: grey-black slate encircling the Cambrian, distributed from Dobareuth to Stahlhütte and around Willersdorf, Seibis and Neundorf.",
+     ["Spateisenstein", "Eisenerz", "Grünstein", "Diabas", "Silur", "Dachschiefer", "Arme Hilfe", "Pottiga", "Tännig", "Dobareuth"],
+     ["spar iron ore", "iron ore", "greenstone", "diabase", "Silurian", "roofing slate", "Arme Hilfe", "Pottiga", "Tännig", "Dobareuth"],
+     ["Geologie", "Bodenschätze", "Gesteine und Mineralien"])
+page("28",
+     "Unteres Silur: Dachschieferbrüche bei Ullersreuth, Blintendorf, Helmsgrün und Heinersdorf, Grünsteinlager als guter Boden, Eisenspatgänge, gneisartiges Gestein bei Rothenacker. Mittleres Silur: Kieselschiefer mit Graptolithen, Alaunschiefer bei Gräfenwarth und Gottliebsthal, Verwendung als Straßenschotter.",
+     "Lower Silurian: roofing-slate quarries at Ullersreuth, Blintendorf, Helmsgrün and Heinersdorf, greenstone sheets as good soil, spar iron veins, gneiss-like rock near Rothenacker. Middle Silurian: siliceous slate with graptolites, alum shale near Gräfenwarth and Gottliebsthal, use as road metal.",
+     ["Dachschiefer", "Steinbrüche", "Grünstein", "Kieselschiefer", "Graptolithen", "Alaunschiefer", "Straßenschotter", "Ullersreuth", "Gräfenwarth", "Rothenacker"],
+     ["roofing slate", "quarries", "greenstone", "siliceous slate", "graptolites", "alum shale", "road metal", "Ullersreuth", "Gräfenwarth", "Rothenacker"],
+     ["Geologie", "Bodenschätze", "Gesteine und Mineralien"])
+page("29",
+     "Der Kieselschiefer als Straßenmaterial: Chausseen des Oberlandes mit Packlage aus Grünstein. Ausführliche Beschreibung der Kieselschieferzüge von Neundorf über Tanna, Gottliebsthal, Schleiz und Zeulenroda bis Hohenleuben; Beginn des weichen Schiefers des mittleren Silurs.",
+     "Siliceous slate as road material: the roads of the Oberland with a foundation layer of greenstone. Detailed description of the bands of siliceous slate from Neundorf via Tanna, Gottliebsthal, Schleiz and Zeulenroda to Hohenleuben; beginning of the soft slate of the Middle Silurian.",
+     ["Kieselschiefer", "Chaussee", "Straßenbau", "Schleiz", "Tanna", "Saalburg", "Hohenleuben", "Silur", "Schiefer", "Verbreitung"],
+     ["siliceous slate", "road", "road building", "Schleiz", "Tanna", "Saalburg", "Hohenleuben", "Silurian", "slate", "distribution"],
+     ["Geologie", "Gesteine und Mineralien", "Straßen"])
+page("30",
+     "Boden des weichen Schiefers (günstig für Nadelholz) und der Grünsteine des mittleren Silurs, Antimonglanzgänge mit den Gruben Heinrichsfreude und Halbmondfundgrube, unbedeutende Eisenerze bei Lössau und Oberböhmsdorf. Beginn des oberen Silurs: Tentaculitenschiefer.",
+     "Soil of the soft slate (favourable for conifers) and of the greenstones of the Middle Silurian, antimony-glance veins with the Heinrichsfreude and Halbmondfundgrube mines, minor iron ores near Lössau and Oberböhmsdorf. Beginning of the Upper Silurian: tentaculite slate.",
+     ["Antimon", "Antimonerz", "Bergbau", "Heinrichsfreude", "Halbmondfundgrube", "Oberböhmsdorf", "Eisenerz", "Tentaculiten", "Nadelwald", "Silur"],
+     ["antimony", "antimony ore", "mining", "Heinrichsfreude", "Halbmondfundgrube", "Oberböhmsdorf", "iron ore", "tentaculites", "conifer forest", "Silurian"],
+     ["Geologie", "Bodenschätze", "Bergbau"])
+page("31",
+     "Tentaculitenformation: eingelagerter Kalk, Verbreitung vom Langwasserthal und Sormitzgrund über Lobenstein, Saalburg und Schleiz bis Hohenleuben, mittelmäßiger Boden; Titaneisendiabase und Grünsteintuffe über und unter den Schiefern als sehr fruchtbarer Boden.",
+     "Tentaculite formation: embedded limestone, distribution from the Langwasser valley and Sormitz valley via Lobenstein, Saalburg and Schleiz to Hohenleuben, mediocre soil; titaniferous diabases and greenstone tuffs above and below the slates as very fertile soil.",
+     ["Tentaculitenschiefer", "Kalk", "Diabas", "Grünstein", "Boden", "Fruchtbarkeit", "Lobenstein", "Saalburg", "Schleiz", "Sormitz"],
+     ["tentaculite slate", "limestone", "diabase", "greenstone", "soil", "fertility", "Lobenstein", "Saalburg", "Schleiz", "Sormitz"],
+     ["Geologie", "Gesteine und Mineralien", "+Boden"])
+page("32",
+     "Grünsteine der Tentaculitenformation: Grieß als Mörtelsand (Schleiz, Triebes, Weckersdorf), polierfähige Diabase, Rotheisenerz an den Gesteinswänden. Phyllodocitesschiefer als jüngere Dachschieferformation mit Verbreitung bei Titschendorf, Grumbach, Wurzbach, Oßla und Blankenstein; Dachschieferbrüche bei Gebersreuth.",
+     "Greenstones of the tentaculite formation: grit used as mortar sand (Schleiz, Triebes, Weckersdorf), polishable diabases, red iron ore on the rock walls. Phyllodocite slate as the younger roofing-slate formation, distributed around Titschendorf, Grumbach, Wurzbach, Oßla and Blankenstein; roofing-slate quarries near Gebersreuth.",
+     ["Diabas", "Mörtelsand", "Rotheisenerz", "Phyllodocitesschiefer", "Dachschiefer", "Steinbrüche", "Wurzbach", "Titschendorf", "Gebersreuth", "Blankenstein"],
+     ["diabase", "mortar sand", "red iron ore", "phyllodocite slate", "roofing slate", "quarries", "Wurzbach", "Titschendorf", "Gebersreuth", "Blankenstein"],
+     ["Geologie", "Gesteine und Mineralien", "Bodenschätze"])
+page("33",
+     "Phyllodocitesschiefer: Boden (gut für Wald), Versteinerungen, Kalk bei Franzensberg, Blankenstein und Wurzbach, Grünstein- und Porphyrgänge. Untere devonische Tufflager nach der Rückkehr des Meeres: sehr fruchtbarer Boden, Versteinerungen, Diabase mit Kalkspat.",
+     "Phyllodocite slate: soil (good for forest), fossils, limestone near Franzensberg, Blankenstein and Wurzbach, greenstone and porphyry dykes. Lower Devonian tuff beds after the return of the sea: very fertile soil, fossils, diabases with calcite.",
+     ["Phyllodocitesschiefer", "Tuff", "Devon", "Diabas", "Kalk", "Boden", "Versteinerungen", "Franzensberg", "Wurzbach", "Porphyr"],
+     ["phyllodocite slate", "tuff", "Devonian", "diabase", "limestone", "soil", "fossils", "Franzensberg", "Wurzbach", "porphyry"],
+     ["Geologie", "Gesteine und Mineralien", "+Boden"])
+page("34",
+     "Devonische Tuffformation: Verbreitung von Lobenstein über Saalburg, Oschitz und Schleiz bis Weißendorf; Rotheisenstein, Spateisenstein und Graunickelkies an der kleinen Friesa, längst aufgelassene Kupfer- und Fahlerzgruben bei Schleiz und Löhma mit Sagen von Gold- und Silberausbeute. Cypridinenschiefer mit Grenzlinie, beginnender Clymenienkalk.",
+     "Devonian tuff formation: distributed from Lobenstein via Saalburg, Oschitz and Schleiz to Weißendorf; red iron ore, spar iron ore and grey nickel pyrites at the Kleine Friesa, long-abandoned copper and fahlore mines near Schleiz and Löhma with legends of gold and silver yields. Cypridina slate with its boundary line, beginning of the Clymenia limestone.",
+     ["Tuff", "Devon", "Eisenerz", "Nickelerz", "Kupfererz", "Fahlerz", "Schleiz", "Löhma", "Cypridinenschiefer", "Clymenienkalk"],
+     ["tuff", "Devonian", "iron ore", "nickel ore", "copper ore", "fahlore", "Schleiz", "Löhma", "Cypridina slate", "Clymenia limestone"],
+     ["Geologie", "Bodenschätze", "Bergbau"])
+page("35",
+     "Clymenienkalk: Kalkknollen im Schiefer, Boden, gutes Brennen, Bausteine und Politur (Thomasmühle bei Schleiz, Pahren, Kirschkau), Zahl der gefundenen Versteinerungen nach Gruppen (u. a. 8 Goniatiten, 6 Clymenien). Kalkdiabase mit Gangspalten und Glimmerdiabas als sehr fruchtbarer Boden.",
+     "Clymenia limestone: limestone nodules in the slate, soil, good burning quality, building stone and polish (Thomasmühle near Schleiz, Pahren, Kirschkau), numbers of fossils found by group (among them 8 goniatites, 6 clymenias). Lime diabases with feeder fissures and mica diabase as very fertile soil.",
+     ["Clymenienkalk", "Kalk", "Kalkstein", "Versteinerungen", "Goniatiten", "Kalkdiabase", "Pahren", "Schleiz", "Bausteine", "Politur"],
+     ["Clymenia limestone", "limestone", "fossils", "goniatites", "lime diabase", "Pahren", "Schleiz", "building stone", "polish"],
+     ["Geologie", "Gesteine und Mineralien"])
+page("36",
+     "Trümmerdiabase und Tuffe, Rot- und Brauneisenerzgänge zwischen Oschitz und Göschitz, obere Cypridinenschiefer mit flachen Tälern und Teichen. Der Kulm (Steinkohlengebirge) mit unsicherer Grenze zum Devon, Brüche bei Plothen und Dittersdorf, Kohlenblende und versteinerte Schachtelhalme bei Carolinenfeld.",
+     "Breccia diabases and tuffs, red and brown iron ore veins between Oschitz and Göschitz, upper Cypridina slates with flat valleys and ponds. The Culm (Carboniferous) with an uncertain boundary to the Devonian, quarries near Plothen and Dittersdorf, anthracite nests and fossil horsetails near Carolinenfeld.",
+     ["Diabas", "Eisenerz", "Teiche", "Kulm", "Steinkohle", "Grauwacke", "Plothen", "Dittersdorf", "Oschitz", "Carolinenfeld"],
+     ["diabase", "iron ore", "ponds", "Culm", "coal", "greywacke", "Plothen", "Dittersdorf", "Oschitz", "Carolinenfeld"],
+     ["Geologie", "Bodenschätze", "Teiche und Seen"])
+page("37",
+     "Kulm: Grauwacke als Baustein, fruchtbarer Boden. Unterland: geringe Anteile älterer Formationen (Silur bei Pohlen und Loitzsch, Kulm am Heersberg und bei Köstritz), jüngere Steinkohlenformation bisher nicht nachgewiesen; Rothliegendes bei Collis, Kaimberg und im Bramthal; Beginn des Zechsteins mit seiner Gliederung.",
+     "Culm: greywacke as building stone, fertile soil. Unterland: small outcrops of older formations (Silurian near Pohlen and Loitzsch, Culm at the Heersberg and near Köstritz), younger coal measures not yet proven; Rotliegend near Collis, Kaimberg and in the Bramthal; beginning of the Zechstein and its subdivisions.",
+     ["Kulm", "Grauwacke", "Unterland", "Rothliegendes", "Zechstein", "Collis", "Kaimberg", "Köstritz", "Steinkohle", "Boden"],
+     ["Culm", "greywacke", "Unterland", "Rotliegend", "Zechstein", "Collis", "Kaimberg", "Köstritz", "coal", "soil"],
+     ["Geologie", "Gesteine und Mineralien", "+Boden"])
+page("38",
+     "Zechstein im Unterland: sieben Lagen vom Weißliegenden bis zu den roten Mergeln, Verbreitung bei Pforten, Collis, im Elsterbett und Bramthal, guter Boden besonders für Obst. Versteinerungen des Geraer Zechsteins nach Gruppen gezählt; Kupfererze bei Trebnitz, Gipsstöcke, Erdfälle, Steinsalz und Sole bei Heinrichshall.",
+     "Zechstein in the Unterland: seven layers from the Weißliegendes to the red marls, distributed near Pforten, Collis, in the Elster bed and the Bramthal, good soil especially for fruit. Fossils of the Gera Zechstein counted by group; copper ores near Trebnitz, gypsum stocks, sinkholes, rock salt and brine at Heinrichshall.",
+     ["Zechstein", "Gera", "Versteinerungen", "Kupfererz", "Gips", "Steinsalz", "Sole", "Heinrichshall", "Erdfälle", "Obstbau"],
+     ["Zechstein", "Gera", "fossils", "copper ore", "gypsum", "rock salt", "brine", "Heinrichshall", "sinkholes", "fruit growing"],
+     ["Geologie", "Bodenschätze", "Gesteine und Mineralien"])
+page("39",
+     "Gips zum Brennen und Düngen. Buntsandstein als größter Teil des Unterlandes: Brüche bei Falke, Kraftsdorf, Harpersdorf und Rüdersdorf, sehr wechselnde Böden bis zum unfruchtbaren »Gaux«; Brauneisenstein und Eisenglanz. Tertiär: Süßwassersandstein (»Wacke«) bei Köstritz und Tautenhain.",
+     "Gypsum for burning and fertilising. Bunter sandstone as the largest part of the Unterland: quarries near Falke, Kraftsdorf, Harpersdorf and Rüdersdorf, highly variable soils down to the barren “Gaux”; brown iron ore and specular iron. Tertiary: freshwater sandstone (“Wacke”) near Köstritz and Tautenhain.",
+     ["Gips", "Buntsandstein", "Steinbrüche", "Boden", "Eisenerz", "Süßwassersandstein", "Wacke", "Tertiär", "Köstritz", "Düngung"],
+     ["gypsum", "Bunter sandstone", "quarries", "soil", "iron ore", "freshwater sandstone", "Wacke", "Tertiary", "Köstritz", "fertilising"],
+     ["Geologie", "Bodenschätze", "+Boden"])
+page("40",
+     "Süßwassersandstein als Pflastermaterial; Braunkohle bei Seeligenstädt (in Betrieb) und Kleinaga (aufgelassen), Sande und Gerölle darüber. Eiszeit: Gerölle und nordische Granitblöcke im Unterland; Knochenfunde von Mammut, Nashorn, Ren, Höhlenbär und Höhlenhyäne in den Schluchten zwischen Gleina, Köstritz und Pohlitz.",
+     "Freshwater sandstone as paving material; lignite near Seeligenstädt (in operation) and Kleinaga (abandoned), sands and gravels above it. Ice age: gravels and Nordic granite boulders in the Unterland; bone finds of mammoth, rhinoceros, reindeer, cave bear and cave hyena in the ravines between Gleina, Köstritz and Pohlitz.",
+     ["Braunkohle", "Seeligenstädt", "Aga", "Eiszeit", "Knochenfunde", "Mammut", "Höhlenbär", "Pflastersteine", "Köstritz", "Pohlitz"],
+     ["lignite", "Seeligenstädt", "Aga", "ice age", "bone finds", "mammoth", "cave bear", "paving stones", "Köstritz", "Pohlitz"],
+     ["Geologie", "Bodenschätze", "Säugetiere"])
+page("41",
+     "Alluviale Thone und Gerölle im Elstertal, artesische Bohrbrunnen. Beginn des Abschnitts Bewässerung: Das Land entwässert zu 35/36 zur Elbe (Saale, Elster), der Rest über den Main zum Rhein; Wasserscheide Frankenwald; rund 300 Quellrieseln, Bäche und Flüsse, Hochwasser, goldführende Bäche nach der Sage, Fische, Flößerei.",
+     "Alluvial clays and gravels in the Elster valley, artesian wells. Beginning of the section on waters: the country drains 35/36 to the Elbe (Saale, Elster), the rest via the Main to the Rhine; the Frankenwald forms the watershed; about 300 rills, brooks and rivers, floods, brooks said to have carried gold, fish, timber rafting.",
+     ["Elstertal", "artesischer Brunnen", "Gewässer", "Elbgebiet", "Rheingebiet", "Wasserscheide", "Frankenwald", "Saale", "Hochwasser", "Fische"],
+     ["Elster valley", "artesian well", "waters", "Elbe basin", "Rhine basin", "watershed", "Frankenwald", "Saale", "flood", "fish"],
+     ["Geologie", "Gewässer", "Flüsse und Bäche"])
+page("42",
+     "Gewässernamen als Spuren der Bevölkerungsschichten (altgermanisch, sorbisch, deutsch, gemischt), häufig wiederkehrende Bachnamen (Aubach, Saubach, Lohe, Lohbach). Reichtum und Art der Quellen nach Gestein, Volksnamen für sumpfige und trockene Flächen; das Oberland ist quellen- und bachreicher als das Unterland.",
+     "Watercourse names as traces of the successive populations (Old Germanic, Sorbian, German, mixed), frequently recurring stream names (Aubach, Saubach, Lohe, Lohbach). Abundance and kind of springs by rock type, folk names for marshy and dry land; the Oberland is richer in springs and streams than the Unterland.",
+     ["Gewässernamen", "Bachnamen", "sorbisch", "Quellen", "Aubach", "Lohbach", "Flurnamen", "Oberland", "Unterland", "Sumpf"],
+     ["hydronyms", "stream names", "Sorbian", "springs", "Aubach", "Lohbach", "field names", "Oberland", "Unterland", "marsh"],
+     ["Gewässer", "Quellen", "Ortsname", "Sorben"])
+page("43",
+     "Wasserreichtum des Oberlandes: Ortsnamen auf -grün und -au, tausende Teiche zwischen Saale und Elster (bis zu 80–100 Teiche in einer Flur), Heilkraft von Teichen und Bächen im Volksglauben. Quellnamen und Glaube an heilende oder schädliche Wirkung, Kaltwasserheilanstalt von Dr. Blau in Langenberg, eisenhaltige Quellen im Unterland.",
+     "Abundance of water in the Oberland: place names in -grün and -au, thousands of ponds between Saale and Elster (up to 80–100 ponds in one parish), healing power of ponds and streams in folk belief. Spring names and belief in healing or harmful effects, cold-water cure of Dr Blau at Langenberg, ferruginous springs in the Unterland.",
+     ["Teiche", "Quellen", "Quellnamen", "Volksglaube", "Heilquellen", "Langenberg", "Kaltwasserheilanstalt", "Eisenquellen", "Oberland", "Wasserreichtum"],
+     ["ponds", "springs", "spring names", "folk belief", "healing springs", "Langenberg", "cold-water cure", "iron springs", "Oberland", "water abundance"],
+     ["Teiche und Seen", "Quellen", "Aberglaube"])
+page("44",
+     "Eisenquellen des Oberlandes und verlorene Gesundbrunnen (Kaimberg 1727, Unterlemnitz, Helmsgrün, Lobenstein); Suche nach Heilquellen, Quelle bei der Krötenmühle nahe Seibis, neue Eisenquellen von Dr. Aschenbach in Lobenstein, Badeanstalt 1868. Gedruckte Analyse von Prof. Reichardt (Jena) für Neue Quelle und Agnesquelle in 10 000 Teilen (Tabelle in der Textübertragung nicht enthalten).",
+     "Iron springs of the Oberland and lost health springs (Kaimberg 1727, Unterlemnitz, Helmsgrün, Lobenstein); search for healing springs, the spring at the Krötenmühle near Seibis, new iron springs found by Dr Aschenbach in Lobenstein, spa opened 1868. Printed analysis by Prof. Reichardt (Jena) of the Neue Quelle and Agnesquelle per 10,000 parts (table not contained in the text transcription).",
+     ["Eisenquellen", "Mineralquellen", "Heilquellen", "Lobenstein", "Aschenbach", "Reichardt", "Quellanalyse", "Badeanstalt", "Seibis", "Kaimberg"],
+     ["iron springs", "mineral springs", "healing springs", "Lobenstein", "Aschenbach", "Reichardt", "water analysis", "spa", "Seibis", "Kaimberg"],
+     ["Mineralquellen", "Quellen", "Gesundheit"])
+page("45",
+     "Anwendungen des Lobensteiner Stahlbades, Soolbad Köstritz mit 26grädiger Sole von Heinrichshall, Kalktuffquellen. Gliederung des Gewässernetzes: Maingebiet mit der Rodach (Quelle 1772') und ihren Zuflüssen, Kettelbach mit Grumbach und Rosenbaumbach; Beginn des Saal- oder Elbgebiets mit dem Oberland.",
+     "Treatments at the Lobenstein chalybeate spa, brine spa at Köstritz with 26-degree brine from Heinrichshall, calc-tufa springs. Structure of the drainage network: the Main basin with the Rodach (source 1772') and its tributaries, Kettelbach with Grumbach and Rosenbaumbach; beginning of the Saale or Elbe basin with the Oberland.",
+     ["Stahlbad", "Soolbad", "Köstritz", "Heinrichshall", "Sole", "Rodach", "Main", "Kettelbach", "Zuflüsse", "Gewässernetz"],
+     ["chalybeate spa", "brine spa", "Köstritz", "Heinrichshall", "brine", "Rodach", "Main", "Kettelbach", "tributaries", "drainage network"],
+     ["Mineralquellen", "Flüsse und Bäche", "Gewässer"])
+page("46",
+     "Die Saale im Oberland: Eintritt bei Venzka auf 1190', Austritt auf 923', 6 Stunden Luftlinie gegen über 11 Stunden Lauf bei 267' Gefälle. Zuflüsse der rechten Saaleseite Nr. 1–14 (Kegelbach, Erlichsbach, Lohbach, Aubach, Pechbächlein, Ziezelbach u. a.) mit einzelnen Quellhöhen.",
+     "The Saale in the Oberland: entry near Venzka at 1190', exit at 923', 6 Stunden as the crow flies against over 11 Stunden of course with a fall of 267'. Tributaries of the right bank nos. 1–14 (Kegelbach, Erlichsbach, Lohbach, Aubach, Pechbächlein, Ziezelbach and others) with some source heights.",
+     ["Saale", "Zuflüsse", "Kegelbach", "Ziezelbach", "Gefälle", "Flusslauf", "Höhenangaben", "Venzka", "Blankenberg", "Gefell"],
+     ["Saale", "tributaries", "Kegelbach", "Ziezelbach", "gradient", "river course", "heights", "Venzka", "Blankenberg", "Gefell"],
+     ["Flüsse und Bäche", "Gewässer", "Höhenmessung"])
+page("47",
+     "Zuflüsse der rechten Saaleseite Nr. 15–22: Pösnigsbach, Triebes, Dornbach, Wettera (Quelle 1646', Mündung 945'), Gerischbach, Vogeltränkbach, Molbitzbach; Beginn der Wiesenthal (Nr. 22) mit Quellfäden und Nebenbächen bis zur Landesgrenze.",
+     "Tributaries of the right bank of the Saale nos. 15–22: Pösnigsbach, Triebes, Dornbach, Wettera (source 1646', mouth 945'), Gerischbach, Vogeltränkbach, Molbitzbach; beginning of the Wiesenthal (no. 22) with its headstreams and side streams up to the border.",
+     ["Saale", "Zuflüsse", "Wettera", "Triebes", "Wiesenthal", "Dornbach", "Tanna", "Saalburg", "Quellhöhe", "Mündung"],
+     ["Saale", "tributaries", "Wettera", "Triebes", "Wiesenthal", "Dornbach", "Tanna", "Saalburg", "source height", "mouth"],
+     ["Flüsse und Bäche", "Gewässer", "Höhenmessung"])
+page("48",
+     "Wiesenthal bis zur Mündung in die Saale auf 862' und Plothenbach; Zuflüsse der linken Saaleseite Nr. 1–7: Selbitz, harraer Auwasser, Lemnitz (Quelle 1537', Mündung 1061'), Rattenbach (Friesa), Zoppotha, Ossabach, Riesenbach.",
+     "The Wiesenthal down to its mouth in the Saale at 862' and the Plothenbach; tributaries of the left bank of the Saale nos. 1–7: Selbitz, harraer Auwasser, Lemnitz (source 1537', mouth 1061'), Rattenbach (Friesa), Zoppotha, Ossabach, Riesenbach.",
+     ["Wiesenthal", "Saale", "Zuflüsse", "Selbitz", "Lemnitz", "Plothenbach", "Rattenbach", "Friesa", "Lobenstein", "Mündungshöhe"],
+     ["Wiesenthal", "Saale", "tributaries", "Selbitz", "Lemnitz", "Plothenbach", "Rattenbach", "Friesa", "Lobenstein", "mouth height"],
+     ["Flüsse und Bäche", "Gewässer", "Höhenmessung"])
+page("49",
+     "Zuflüsse der linken Saaleseite Nr. 8–12: Luchsbach, Letzschbach, Kieselbach, Otterbach und Sormitz mit Langwasser (Quelle 1721,7') und Oßla samt ihren Nebenbächen. Beginn der Weida: Quellflächen auf 1300', Eintritt 1055', Austritt 840'.",
+     "Tributaries of the left bank of the Saale nos. 8–12: Luchsbach, Letzschbach, Kieselbach, Otterbach and Sormitz with Langwasser (source 1721.7') and Oßla and their side streams. Beginning of the Weida: source uplands at 1300', entry 1055', exit 840'.",
+     ["Sormitz", "Langwasser", "Otterbach", "Weida", "Saale", "Zuflüsse", "Wurzbach", "Oßla", "Quellhöhe", "Gefälle"],
+     ["Sormitz", "Langwasser", "Otterbach", "Weida", "Saale", "tributaries", "Wurzbach", "Oßla", "source height", "gradient"],
+     ["Flüsse und Bäche", "Gewässer", "Höhenmessung"])
+page("50",
+     "Die Weida im Land: 2 Stunden Luftlinie, 3 1/2 Stunden Windung, Mündung in die Elster; Zuflüsse links Nr. 1–7 und rechts Nr. 1–8 (Modelitzschbach, Triebes ab 1225', Leuba). Beginn des Unterlandes: die Elster als Hauptader.",
+     "The Weida in the country: 2 Stunden as the crow flies, 3 1/2 Stunden along the windings, joining the Elster; tributaries left nos. 1–7 and right nos. 1–8 (Modelitzschbach, Triebes from 1225', Leuba). Beginning of the Unterland: the Elster as its main artery.",
+     ["Weida", "Zuflüsse", "Leuba", "Triebes", "Modelitzschbach", "Elster", "Unterland", "Hohenleuben", "Leitlitz", "Flusslauf"],
+     ["Weida", "tributaries", "Leuba", "Triebes", "Modelitzschbach", "Elster", "Unterland", "Hohenleuben", "Leitlitz", "river course"],
+     ["Flüsse und Bäche", "Gewässer", "Höhenmessung"])
+page("51",
+     "Weiße Elster im Unterland: Quelle bei Asch, 3 1/2 Stunden Luftlinie und 4 2/3 Stunden Windung im Land, Höhen des Flussbetts von 525' beim Eintritt über Zwötzen, Gera, Milbitz und Köstritz bis 459' beim Austritt; unterländische Zuflüsse links Nr. 1–7 mit Erlbach und Saarbach (Mündung 487,3').",
+     "White Elster in the Unterland: source near Asch, 3 1/2 Stunden as the crow flies and 4 2/3 Stunden along the windings within the country, heights of the riverbed from 525' at entry via Zwötzen, Gera, Milbitz and Köstritz to 459' at exit; Unterland tributaries on the left nos. 1–7 with the Erlbach and Saarbach (mouth 487.3').",
+     ["Weiße Elster", "Gera", "Zwötzen", "Köstritz", "Erlbach", "Saarbach", "Zuflüsse", "Höhe", "Flusslauf", "Unterland"],
+     ["White Elster", "Gera", "Zwötzen", "Köstritz", "Erlbach", "Saarbach", "tributaries", "height", "river course", "Unterland"],
+     ["Flüsse und Bäche", "Gewässer", "Höhenmessung"])
+page("52",
+     "Erlbach und Saarbach mit Höhenangaben; Zuflüsse der Elster links Nr. 8–12 (Schafgrund, Goldthalwasser, Borngrund u. a.) und rechts Nr. 1–9 (Pfortenbach, Zaufensgraben, Leumnitzbach, Krautgrund, Brambach) mit Quell- und Mündungshöhen; Fußnote zur Herkunft des Namens Brambach.",
+     "Erlbach and Saarbach with heights; tributaries of the Elster on the left nos. 8–12 (Schafgrund, Goldthalwasser, Borngrund and others) and on the right nos. 1–9 (Pfortenbach, Zaufensgraben, Leumnitzbach, Krautgrund, Brambach) with source and mouth heights; footnote on the origin of the name Brambach.",
+     ["Elster", "Zuflüsse", "Brambach", "Pfortenbach", "Leumnitzbach", "Zaufensgraben", "Krautgrund", "Schafgrund", "Gera", "Köstritz"],
+     ["Elster", "tributaries", "Brambach", "Pfortenbach", "Leumnitzbach", "Zaufensgraben", "Krautgrund", "Schafgrund", "Gera", "Köstritz"],
+     ["Flüsse und Bäche", "Gewässer", "Höhenmessung"])
+
+G = [
+    {"term": "Geognosie", "variants": ["Geognost", "geognostisch"], "kind": "term",
+     "de": "Ältere Bezeichnung für die Gesteins- und Erdkunde (heute Geologie); der Geognost bestimmt Alter und Zusammengehörigkeit der Gesteinsmassen. Der Abschnitt stammt von Prof. Dr. Liebe in Gera.",
+     "en": "Older term for the study of rocks and the earth (now geology); the geognost determines the age and relationship of rock masses. The section is by Prof. Dr. Liebe of Gera.", "pages": ["25"]},
+    {"term": "Grünstein", "variants": ["Grünsteine", "Grünsteinlager"], "kind": "term",
+     "de": "Sammelname des 19. Jahrhunderts für dunkelgrüne, meist umgewandelte Eruptivgesteine und ihre Tuffe, vor allem Diabas; liefert nach Liebe meist sehr fruchtbaren Boden.",
+     "en": "Nineteenth-century collective name for dark green, mostly altered igneous rocks and their tuffs, above all diabase; according to Liebe it usually yields very fertile soil.", "pages": ["26", "27", "28", "30", "31", "32", "33", "34", "35", "36"]},
+    {"term": "Kieselschiefer", "variants": ["Graptolithenschiefer"], "kind": "term",
+     "de": "Harter, schwarzer, kieselsäurereicher Schiefer des mittleren Silurs (heute Lydit); wegen seiner Härte der beste Straßenschotter des Oberlandes.",
+     "en": "Hard, black, silica-rich slate of the Middle Silurian (now lydite); because of its hardness the best road metal of the Oberland.", "pages": ["28", "29"]},
+    {"term": "Graptolithen", "variants": ["Federpolypen"], "kind": "term",
+     "de": "Ausgestorbene koloniebildende Meerestiere, in den Kieselschiefern als dünne, wie gemalte Abdrücke erhalten (bei Liebe »Federpolypen«).",
+     "en": "Extinct colonial marine animals preserved in the siliceous slates as thin, painted-looking impressions (“Federpolypen” in Liebe).", "pages": ["28"]},
+    {"term": "Tentaculiten", "variants": ["Tentaculitenschiefer", "Tantaculiten"], "kind": "term",
+     "de": "Kleine, nadelspitzenförmig gerippte Schälchen, von Liebe als Schwimmschnecken der Silurzeit gedeutet; kennzeichnend für die Tentaculitenformation des oberen Silurs.",
+     "en": "Small, needle-tip-shaped ribbed shells, interpreted by Liebe as Silurian “swimming snails”; characteristic of the tentaculite formation of the Upper Silurian.", "pages": ["30", "31", "35"]},
+    {"term": "Clymenienkalk", "variants": ["Cypridinenschiefer"], "kind": "term",
+     "de": "Devonischer Kalk mit regelmäßig im Schiefer eingebetteten Kalkknollen und Clymenien (Kopffüßern); gut zu brennen, als Baustein und poliert verwendbar.",
+     "en": "Devonian limestone with limestone nodules regularly embedded in slate and clymenias (cephalopods); burns well and is usable as building stone and polished.", "pages": ["34", "35"]},
+    {"term": "Kulm", "variants": [], "kind": "term",
+     "de": "Unterste Abteilung des Steinkohlengebirges (Unterkarbon): Grauwacken im Wechsel mit grauen Schiefern.",
+     "en": "Lowest division of the coal measures (Lower Carboniferous): greywackes alternating with grey slates.", "pages": ["36", "37"]},
+    {"term": "Rothliegendes", "variants": ["Weißliegendes"], "kind": "term",
+     "de": "Rote Sand- und Geröllschichten des unteren Perm im Unterland; das Weißliegende ist die unterste, hell gebundene Lage des darüber folgenden Zechsteins.",
+     "en": "Red sand and gravel layers of the Lower Permian in the Unterland; the Weißliegendes is the lowest, light-cemented layer of the overlying Zechstein.", "pages": ["37", "38"]},
+    {"term": "Zechstein", "variants": [], "kind": "term",
+     "de": "Kalk-, Dolomit- und Mergelfolge des oberen Perm im Unterland mit Gips und Salz; der Geraer Zechstein ist wegen seiner Versteinerungen berühmt.",
+     "en": "Sequence of limestone, dolomite and marl of the Upper Permian in the Unterland with gypsum and salt; the Gera Zechstein is famous for its fossils.", "pages": ["37", "38"]},
+    {"term": "Buntsandstein", "variants": [], "kind": "term",
+     "de": "Rotbraune und weißliche Sandsteine mit Lettenlagen (Trias), bedecken den größten Teil des Unterlandes; zu Werksteinen gebrochen.",
+     "en": "Red-brown and whitish sandstones with clay layers (Triassic) covering most of the Unterland; quarried for dimension stone.", "pages": ["39"]},
+    {"term": "Wacke", "variants": ["Limnoquarzit"], "kind": "dialect",
+     "de": "Mundartlich-volkstümlicher Name für den sehr harten tertiären Süßwassersandstein (Limnoquarzit) bei Köstritz und Tautenhain; als Pflastermaterial geschätzt.",
+     "en": "Vernacular name for the very hard Tertiary freshwater sandstone (limnoquartzite) near Köstritz and Tautenhain; valued as paving material.", "pages": ["39", "40"]},
+    {"term": "Gaux", "variants": [], "kind": "dialect",
+     "de": "Volksname für unfruchtbaren, »todten« Tonboden, der entsteht, wenn im Buntsandstein die Lettenlagen überwiegen.",
+     "en": "Popular name for barren, “dead” clay soil arising where clay layers predominate in the Bunter sandstone.", "pages": ["39"]},
+    {"term": "Erdfall", "variants": ["Schlotten"], "kind": "term",
+     "de": "Trichterförmiges Einsturzloch über unterirdischen Gipslagern, deren Hohlräume (Schlotten) einbrechen; bei Gera am Fuß des Hainbergs und im Rubitzer Tal.",
+     "en": "Funnel-shaped collapse hole above underground gypsum beds whose cavities (Schlotten) cave in; near Gera at the foot of the Hainberg and in the Rubitz valley.", "pages": ["38"]},
+    {"term": "Sole", "variants": ["Soole", "Salzsohle", "grädig"], "kind": "term",
+     "de": "Salzlösung; die erbohrte Sole von Heinrichshall wird als »26grädig« bezeichnet (Grad = Salzgehalt, meist als Gewichtsprozent verstanden), also nahezu gesättigt; sie speist Saline, chemische Fabrik und das Soolbad Köstritz.",
+     "en": "Salt solution; the brine drilled at Heinrichshall is called “26-degree” (degree = salt content, usually understood as weight per cent), i.e. nearly saturated; it supplies the saltworks, a chemical factory and the brine spa at Köstritz.", "pages": ["38", "45"]},
+    {"term": "Elle", "variants": ["Ellen"], "kind": "unit",
+     "de": "Längenmaß, regional verschieden; nach Brückners Umrechnung (S. 831) z. B. in Gera 0,5724 m, in Schleiz 0,5653 m, in Lobenstein 0,5906 m. Hier als Mächtigkeit der Tonschichten im Elstertal (bis zu 20 Ellen).",
+     "en": "Unit of length, varying regionally; according to Brückner's conversion table (p. 831) e.g. 0.5724 m at Gera, 0.5653 m at Schleiz, 0.5906 m at Lobenstein. Here the thickness of the clay layers in the Elster valley (up to 20 ells).", "pages": ["41"]},
+    {"term": "Pariser Fuß", "variants": ["Fuß", "'"], "kind": "unit",
+     "de": "Längenmaß für Höhenangaben; mit dem Apostroph (z. B. 1772') bezeichnet. Nach Brückner (S. 831) gilt 443,296 pariser Linien = 1 Meter, ein Fuß hat 144 Linien, also 1 Fuß = 0,32484 m.",
+     "en": "Unit of length for heights, written with an apostrophe (e.g. 1772'). According to Brückner (p. 831) 443.296 Paris lines = 1 metre and a foot has 144 lines, so 1 foot = 0.32484 m.", "pages": ["45", "46", "47", "48", "49", "50", "51", "52"]},
+    {"term": "Stunde", "variants": ["Stunden", "Luftmaß"], "kind": "unit",
+     "de": "Wegmaß für Flusslängen (vermutlich die Wegstunde); Brückner definiert sie in seiner Umrechnungstafel nicht. Das »Luftmaß« ist die Entfernung in gerader Linie, die »Windung« oder »Schlangenbahn« die Länge des tatsächlichen Laufs.",
+     "en": "Distance unit for river lengths (presumably the walking hour); Brückner does not define it in his conversion table. The “Luftmaß” is the straight-line distance, the “Windung” or “Schlangenbahn” the length of the actual course.", "pages": ["46", "50", "51"]},
+    {"term": "Thaler", "variants": ["Thlr."], "kind": "currency",
+     "de": "Silbermünze und Rechnungseinheit des 19. Jahrhunderts; hier eine Unterstützung von 1000 Thlr., die Fürst Heinrich LXII. für die Quellsuche bei Seibis gab.",
+     "en": "Silver coin and unit of account of the nineteenth century; here a subsidy of 1000 Thlr. given by Prince Heinrich LXII for the search for a spring near Seibis.", "pages": ["44"]},
+    {"term": "Réaumur", "variants": ["°R."], "kind": "unit",
+     "de": "Temperaturskala, bei der der Abstand zwischen Gefrier- und Siedepunkt des Wassers in 80 Grad geteilt ist; 1 °R = 1,25 °C. In der Quellanalyse S. 44 nennt Reichardt 9 1/2° R. = 11,9° C.",
+     "en": "Temperature scale dividing the interval between the freezing and boiling points of water into 80 degrees; 1 °R = 1.25 °C. In the spring analysis on p. 44 Reichardt gives 9 1/2° R. = 11.9° C.", "pages": ["44"]},
+    {"term": "Enclave", "variants": ["Enklave"], "kind": "term",
+     "de": "Vom Hauptgebiet getrennter Landesteil; hier die Enclave Hohenleuben-Pöllwitz im Oberland und die südliche Enclave bei Pohlen im Unterland.",
+     "en": "Part of the territory separated from the main area; here the Hohenleuben-Pöllwitz enclave in the Oberland and the southern enclave near Pohlen in the Unterland.", "pages": ["26", "27", "37"]},
+    {"term": "Oberland", "variants": ["Unterland"], "kind": "term",
+     "de": "Brückners Grundgliederung des Fürstentums: das gebirgige Oberland (Lobenstein, Schleiz, Hirschberg) und das Unterland um Gera an der Weißen Elster.",
+     "en": "Brückner's basic division of the principality: the hilly Oberland (Lobenstein, Schleiz, Hirschberg) and the Unterland around Gera on the White Elster.", "pages": ["25", "37", "42"]},
+    {"term": "Faulen", "variants": ["Erlich", "Loh", "Moos", "Gries", "Nässe", "Weidig", "Brand", "Hungerknock", "Mark", "Rauhe", "Steinbühl"], "kind": "dialect",
+     "de": "Volkstümliche Flurbezeichnungen: Faulen, Erlich, Loh, Moos, Gries, Nässe und Weidig für sumpfige, Brand, Hungerknock, Mark, Rauhe und Steinbühl für trockene Striche (S. 42).",
+     "en": "Popular field names: Faulen, Erlich, Loh, Moos, Gries, Nässe and Weidig for marshy, Brand, Hungerknock, Mark, Rauhe and Steinbühl for dry stretches (p. 42).", "pages": ["42"]},
+    {"term": "Born", "variants": ["Borne", "Brunn", "Borne"], "kind": "dialect",
+     "de": "Mundartliche und ältere Form für Quelle (Brunnen); in Quellnamen wie Butterborn, Goldborn, Hungerborn, Teufelsborn und Schönbrunn.",
+     "en": "Dialect and older form for spring (well); in spring names such as Butterborn, Goldborn, Hungerborn, Teufelsborn and Schönbrunn.", "pages": ["43"]},
+    {"term": "Spateisenstein", "variants": ["Eisenspath", "Eisenspat", "Brauneisenstein", "Rotheisenstein"], "kind": "term",
+     "de": "Eisencarbonat (Siderit), das durch Verwitterung in Brauneisenstein übergeht; das Erz der zahlreichen Eisengänge im Oberland. Rotheisenstein ist Eisenoxid (Hämatit).",
+     "en": "Iron carbonate (siderite), which weathers to brown iron ore; the ore of the numerous iron veins in the Oberland. Rotheisenstein is iron oxide (haematite).", "pages": ["27", "28", "34", "36", "39"]},
+]
+# remove duplicates inside variants
+for g in G:
+    seen = []
+    for v in g["variants"]:
+        if v not in seen:
+            seen.append(v)
+    g["variants"] = seen
+
+out = {"package": "A02", "pages": P, "glossary": G}
+dst = ROOT / "data" / "search" / "pages" / "A02.json"
+dst.parent.mkdir(parents=True, exist_ok=True)
+dst.write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
+print(dst, len(P), "pages", len(G), "glossary entries")

@@ -1,0 +1,33 @@
+{
+  "page_number": 405,
+  "image_filename": "bsb11005578_seq_417_page_405_(0417).jpg",
+  "structure": {
+    "page_number_printed": "27",
+    "header": null,
+    "content_blocks": [
+      {
+        "block_type": "heading",
+        "block_index": 0,
+        "content": "II. Theil."
+      },
+      {
+        "block_type": "heading",
+        "block_index": 1,
+        "content": "Ortskunde des Fürstenthums Reuß j. L."
+      }
+    ],
+    "footnotes": []
+  },
+  "ocr_text": "II. Theil.\n\nOrtskunde des Fürstenthums Reuß j. L.",
+  "entities": [
+    {
+      "text": "Fürstenthums Reuß j. L.",
+      "entity_type": "Location",
+      "start_char": 26,
+      "end_char": 49,
+      "context": "Ortskunde des Fürstenthums Reuß j. L."
+    }
+  ],
+  "processing_timestamp": "2026-03-05T12:06:34.720009",
+  "model_used": "gemini-3-flash-preview"
+}

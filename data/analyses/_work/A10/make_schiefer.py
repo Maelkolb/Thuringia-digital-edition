@@ -1,0 +1,167 @@
+"""A10: Dachschieferbrueche im lobenstein-ebersdorfer Revier 1868 (p. 247, with p. 246 b17, p. 278 b5)."""
+import sys
+sys.path.insert(0, r"C:\Users\totom\Projects\reuss-edition\data\analyses\_work\A10")
+from common import *
+
+t = grid("247", "b1")
+body = t[1]
+print([c[:40] for c in body])
+assert "1725" in body[1] and "16000" in body[3] and "5850" in body[3] and "14500" in body[3]
+assert "88" in body[5] and "15 Sgr. 4 Pf." in body[4]
+fn1 = block("247", "fn1")["text"]
+fn2 = block("247", "fn2")["text"]
+assert "19,925" in fn1 and "8932" in fn2
+
+# quarry, start_year, start_note, workers_min, workers_max, output 1868, reference value, reference label, source
+Q = [
+    ("Koselstein", 1725, "1725", 25, 30, 16000, 19925, "Durchschnitt 1858–1867", "Average 1858–1867"),
+    ("Vogelberg", 1859, "Jan. 1859", 50, 50, 5850, None, None, None),
+    ("Franzenberg", 1859, "Apr. 1859", 60, 60, 14500, 8932, "früher", "formerly"),
+]
+rows = []
+for name, sy, sn, wmin, wmax, out, ref, rde, ren in Q:
+    mid = (wmin + wmax) / 2
+    rows.append([name, sy, sn, wmin, wmax, out, ref, rde, ren, round(out / mid, 1), round(out * 50 / 1000, 1), "S. 247 b1 r2"])
+tot_out = sum(r[5] for r in rows)
+tot_workers_mid = sum((r[3] + r[4]) / 2 for r in rows)
+print(rows, tot_out, tot_workers_mid)
+
+# grades: Ausschuss I / II, blauer Dachschiefer, Fleckschiefer; price Sgr + Pf; share %
+S = [("Ausschuß I", "Reject grade I", 15, 4, 4), ("Ausschuß II", "Reject grade II", 12, 4, 88), ("blauer Dachschiefer", "Blue roofing slate", 10, 4, 4), ("Fleckschiefer", "Spotted slate", 6, 10, 4)]
+sorten = [[de_, en_, sg, pf, round(sg + pf / 12, 2), sh] for de_, en_, sg, pf, sh in S]
+assert sum(s[5] for s in sorten) == 100
+wavg = sum(s[4] * s[5] for s in sorten) / 100
+value_sgr = tot_out * wavg
+value_thlr = value_sgr / 30
+print("wavg", wavg, "value Thlr", value_thlr)
+per_worker = {r[0]: r[9] for r in rows}
+kos = rows[0]
+fr = rows[2]
+print(per_worker)
+
+ana = {
+    "id": "bergbau-schieferbrueche-lobenstein-1868",
+    "title": {"de": "Dachschieferbrüche im lobenstein-ebersdorfer Revier 1868", "en": "Roofing-slate quarries in the Lobenstein-Ebersdorf area, 1868"},
+    "category": "mining",
+    "section": "t1-3-5",
+    "sources": [
+        {"page": "246", "block": "b17"},
+        {"page": "247", "block": "b1", "rows": "h1-r2"},
+        {"page": "247", "block": "fn1"},
+        {"page": "247", "block": "fn2"},
+        {"page": "278", "block": "b5"},
+    ],
+    "summary": {
+        "de": f"Unter den Gesteinen des Oberlandes haben die Schieferbrüche im Revier Lobenstein-Ebersdorf nach Brückner die größte Bedeutung; die herrschaftlichen Brüche bei Wurzbach und am Reßenbrunner Flößteich werden am schwunghaftesten betrieben. Die Tabelle S. 247 nennt für Koselstein (seit 1725), Vogelberg und Franzenberg (beide seit 1859) Arbeiter, Förderung 1868 und die Verkaufspreise je Sorte. Zusammen förderten die drei Brüche {de(tot_out)} Ctr. Dachschiefer, abgesetzt im Fürstenthum (besonders Lobenstein und Schleiz) sowie in den angrenzenden Teilen Bayerns und Sachsens.",
+        "en": f"Of the rocks of the Oberland, the slate quarries in the Lobenstein-Ebersdorf area are, according to Brückner, the most important; the princely quarries near Wurzbach and at the Reßenbrunn log pond are worked most briskly. The table on p. 247 gives workers, output in 1868 and sales prices by grade for Koselstein (since 1725), Vogelberg and Franzenberg (both since 1859). Together the three quarries produced {en(tot_out)} Ctr. of roofing slate, sold within the principality (especially Lobenstein and Schleiz) and in the adjoining parts of Bavaria and Saxony.",
+    },
+    "method": {
+        "de": f"Aus der Tabelle S. 247 (b1) wurden Beginn des Baues, Arbeiterzahl (Koselstein »25—30«, als Spanne min/max kodiert), Abbau 1868 in Centnern, die vier Preisstufen mit Prozentanteilen und die Vergleichswerte der Fußnoten (Koselstein: 19.925 Ctr. im Durchschnitt 1858–1867; Franzenberg früher 8932 Ctr.) übernommen. Die Prozentzahlen der Tabelle stehen in einer Spalte neben den Preisen und werden hier als Anteil der Sorten an der Förderung gelesen (Summe 100). Abgeleitet sind die Förderung je Arbeiter (Förderung / Mittel der Arbeiterspanne), die Tonnen (1 Ctr. = 50 kg), der Preis in Silbergroschen (Silbergroschen + Pfennige / 12; 1 Thaler = 30 Silbergroschen = 360 Pfennige, S. 278) und der gewogene Durchschnittspreis ({de(wavg, 2)} Sgr. je Ctr.), mit dem sich für die Förderung der drei Brüche ein Wert von rund {de(round(value_thlr, -2))} Thalern errechnet.",
+        "en": f"From the table on p. 247 (b1) the start of work, number of workers (Koselstein “25—30”, coded as a min/max range), output in 1868 in hundredweights, the four price grades with percentages and the comparison values from the footnotes (Koselstein: 19,925 Ctr. on average in 1858–1867; Franzenberg formerly 8,932 Ctr.) were taken. The percentages of the table stand in a column next to the prices and are read here as the share of the grades in the output (sum 100). Derived are output per worker (output / midpoint of the worker range), tonnes (1 Ctr. = 50 kg), the price in silver groschen (silver groschen + pence / 12; 1 thaler = 30 silver groschen = 360 pence, p. 278) and the weighted average price ({en(wavg, 2)} Sgr. per Ctr.), from which a value of about {en(round(value_thlr, -2))} thalers is computed for the output of the three quarries.",
+    },
+    "findings": [
+        {"de": f"Koselstein, der seit 1725 betriebene Bruch, fördert 1868 mit 25–30 Arbeitern {de(kos[5])} Ctr.; das sind {de(kos[9], 0)} Ctr. je Arbeiter gegenüber {de(per_worker['Franzenberg'], 0)} in Franzenberg und {de(per_worker['Vogelberg'], 0)} in Vogelberg. Der Wert liegt unter dem Durchschnitt von 19.925 Ctr. in den Jahren 1858–1867.",
+         "en": f"Koselstein, the quarry worked since 1725, produced {en(kos[5])} Ctr. in 1868 with 25–30 workers; that is {en(kos[9], 0)} Ctr. per worker against {en(per_worker['Franzenberg'], 0)} at Franzenberg and {en(per_worker['Vogelberg'], 0)} at Vogelberg. The figure is below the average of 19,925 Ctr. in 1858–1867."},
+        {"de": f"Die beiden 1859 eröffneten Brüche fördern zusammen {de(rows[1][5] + rows[2][5])} Ctr. mit 110 Arbeitern; Franzenberg liegt mit {de(fr[5])} Ctr. deutlich über seinem früheren Stand von 8932 Ctr.",
+         "en": f"The two quarries opened in 1859 together produce {en(rows[1][5] + rows[2][5])} Ctr. with 110 workers; Franzenberg, at {en(fr[5])} Ctr., is well above its earlier level of 8,932 Ctr."},
+        {"de": f"88 % der Förderung entfallen auf Ausschuß II zu 12 Sgr. 4 Pf. je Ctr.; die beste Sorte (Ausschuß I, 15 Sgr. 4 Pf.) und die schlechteste (Fleckschiefer, 6 Sgr. 10 Pf.) haben je 4 %. Der gewogene Durchschnittspreis beträgt {de(wavg, 2)} Sgr. je Ctr., der rechnerische Wert der Förderung etwa {de(round(value_thlr, -2))} Thaler.",
+         "en": f"88 % of the output is reject grade II at 12 Sgr. 4 Pf. per Ctr.; the best grade (reject grade I, 15 Sgr. 4 Pf.) and the poorest (spotted slate, 6 Sgr. 10 Pf.) account for 4 % each. The weighted average price is {en(wavg, 2)} Sgr. per Ctr., the computed value of the output about {en(round(value_thlr, -2))} thalers."},
+    ],
+    "caveats": [
+        {"de": "Die Tabelle gibt eine einzige Preis- und Prozentreihe für alle drei Brüche; ob sie für jeden Bruch gleichermaßen gilt, sagt Brückner nicht. Der errechnete Wert der Förderung ist eine Modellrechnung, keine gedruckte Zahl.",
+         "en": "The table gives a single series of prices and percentages for all three quarries; Brückner does not say whether it applies equally to each quarry. The computed value of the output is a model calculation, not a printed figure."},
+        {"de": "Die Arbeiterzahl in Koselstein ist eine Spanne (25–30); die Förderung je Arbeiter nimmt deren Mitte (27,5). Die Vergleichswerte der Fußnoten (Durchschnitt 1858–1867, früher) sind nicht gleichartig.",
+         "en": "The number of workers at Koselstein is a range (25–30); output per worker uses its midpoint (27.5). The comparison values from the footnotes (average 1858–1867, formerly) are not of the same kind."},
+        {"de": "Weitere Dachschieferlager (Ullersreuth, Göritz, Blintendorf, Mödlareuth, Gebersreuth) beschreibt Brückner nur im Text (sieben verliehene Brüche, durchschnittlich 15.000 Ctr. und 14.500 □Fuß Platten jährlich); sie sind hier nicht einbezogen.",
+         "en": "Brückner describes further slate deposits (Ullersreuth, Göritz, Blintendorf, Mödlareuth, Gebersreuth) only in the text (seven licensed quarries, on average 15,000 Ctr. and 14,500 sq. ft. of slabs per year); they are not included here."},
+    ],
+    "conversions": [
+        {"from": "Centner (Ctr.)", "to": "kg", "factor_or_formula": "1 Ctr. = 100 Zollpfund = 50 kg", "reference": "1 Zollpfund = 0,5 kg (S. 832)"},
+        {"from": "Thaler", "to": "Silbergroschen / Pfennige", "factor_or_formula": "1 Thaler = 30 Silbergroschen; 1 Silbergroschen = 12 Pfennige", "reference": "Brückner S. 278"},
+    ],
+    "datasets": [
+        {"name": "brueche", "title": {"de": "Schieferbrüche des Reviers Lobenstein-Ebersdorf", "en": "Slate quarries of the Lobenstein-Ebersdorf area"},
+         "columns": [
+             {"name": "quarry", "label": {"de": "Bruch", "en": "Quarry"}, "type": "string", "unit": None},
+             {"name": "start_year", "label": {"de": "Beginn des Baues", "en": "Start of work"}, "type": "integer", "unit": "Jahr"},
+             {"name": "start_note", "label": {"de": "Beginn (Wortlaut)", "en": "Start (printed)"}, "type": "string", "unit": None},
+             {"name": "workers_min", "label": {"de": "Arbeiter (min.)", "en": "Workers (min.)"}, "type": "integer", "unit": "Personen"},
+             {"name": "workers_max", "label": {"de": "Arbeiter (max.)", "en": "Workers (max.)"}, "type": "integer", "unit": "Personen"},
+             {"name": "output_ctr", "label": {"de": "Abbau 1868", "en": "Output 1868"}, "type": "integer", "unit": "Ctr."},
+             {"name": "reference_ctr", "label": {"de": "Vergleichswert (Fußnote)", "en": "Comparison value (footnote)"}, "type": "integer", "unit": "Ctr."},
+             {"name": "reference_de", "label": {"de": "Vergleichswert: Art (de)", "en": "Comparison value: kind (de)"}, "type": "string", "unit": None},
+             {"name": "reference_en", "label": {"de": "Vergleichswert: Art (en)", "en": "Comparison value: kind (en)"}, "type": "string", "unit": None, "derived": True},
+             {"name": "output_per_worker", "label": {"de": "Förderung je Arbeiter", "en": "Output per worker"}, "type": "number", "unit": "Ctr. je Arbeiter", "derived": True},
+             {"name": "output_tonnes", "label": {"de": "Abbau 1868", "en": "Output 1868"}, "type": "number", "unit": "t", "derived": True},
+             {"name": "source", "label": {"de": "Quelle", "en": "Source"}, "type": "string", "unit": None},
+         ],
+         "rows": rows, "source_refs": [{"page": "247", "block": "b1", "rows": "r2"}, {"page": "247", "block": "fn1"}, {"page": "247", "block": "fn2"}]},
+        {"name": "sorten", "title": {"de": "Sorten, Verkaufspreise und Anteile", "en": "Grades, sales prices and shares"},
+         "columns": [
+             {"name": "grade", "label": {"de": "Sorte", "en": "Grade"}, "type": "string", "unit": None},
+             {"name": "grade_en", "label": {"de": "Sorte (englisch)", "en": "Grade (English)"}, "type": "string", "unit": None, "derived": True},
+             {"name": "price_sgr", "label": {"de": "Preis, Silbergroschen", "en": "Price, silver groschen"}, "type": "integer", "unit": "Sgr."},
+             {"name": "price_pf", "label": {"de": "Preis, Pfennige", "en": "Price, pence"}, "type": "integer", "unit": "Pf."},
+             {"name": "price_total_sgr", "label": {"de": "Preis je Ctr.", "en": "Price per Ctr."}, "type": "number", "unit": "Sgr.", "derived": True},
+             {"name": "share_pct", "label": {"de": "Anteil (Spalte »Proc.«)", "en": "Share (column “Proc.”)"}, "type": "integer", "unit": "%"},
+         ],
+         "rows": sorten, "source_refs": [{"page": "247", "block": "b1", "rows": "r2"}]},
+    ],
+    "charts": [
+        {"id": "c1", "dataset": "brueche",
+         "title": {"de": "Abbau 1868 je Bruch", "en": "Output by quarry, 1868"},
+         "caption": {"de": "Centner Dachschiefer im Jahr 1868 (Balken). Der Strich markiert den Vergleichswert der Fußnote: bei Koselstein den Durchschnitt 1858–1867, bei Franzenberg den früheren Abbau.",
+                     "en": "Hundredweights of roofing slate in 1868 (bar). The tick marks the comparison value from the footnote: the 1858–1867 average at Koselstein, the earlier output at Franzenberg."},
+         "vegalite": {
+             "height": 220,
+             "encoding": {"y": {"field": "quarry", "type": "nominal", "sort": ["Koselstein", "Franzenberg", "Vogelberg"], "title": None}},
+             "layer": [
+                 {"mark": "bar",
+                  "encoding": {"x": {"field": "output_ctr", "type": "quantitative", "title": {"de": "Centner (Ctr.)", "en": "Hundredweight (Ctr.)"}},
+                               "color": {"datum": "output", "type": "nominal", "scale": {"domain": ["output", "reference"]}, "title": None,
+                                         "legend": {"labelExpr": {"de": "{'output':'Abbau 1868','reference':'Vergleichswert (Fußnote)'}[datum.label]", "en": "{'output':'Output 1868','reference':'Comparison value (footnote)'}[datum.label]"}, "labelLimit": 300}},
+                               "tooltip": [{"field": "quarry", "title": {"de": "Bruch", "en": "Quarry"}}, {"field": "start_note", "title": {"de": "Beginn", "en": "Start"}}, {"field": "output_ctr", "title": {"de": "Abbau 1868 (Ctr.)", "en": "Output 1868 (Ctr.)"}},
+                                           {"field": "output_tonnes", "title": {"de": "Tonnen", "en": "Tonnes"}}, {"field": "reference_ctr", "title": {"de": "Vergleichswert (Ctr.)", "en": "Comparison value (Ctr.)"}}]}},
+                 {"transform": [{"filter": "datum.reference_ctr != null"}],
+                  "mark": {"type": "tick", "thickness": 3, "size": 36},
+                  "encoding": {"x": {"field": "reference_ctr", "type": "quantitative"},
+                               "color": {"datum": "reference", "type": "nominal", "scale": {"domain": ["output", "reference"]}, "title": None,
+                                         "legend": {"labelExpr": {"de": "{'output':'Abbau 1868','reference':'Vergleichswert (Fußnote)'}[datum.label]", "en": "{'output':'Output 1868','reference':'Comparison value (footnote)'}[datum.label]"}, "labelLimit": 300}},
+                               "tooltip": [{"field": "quarry", "title": {"de": "Bruch", "en": "Quarry"}}, {"field": "reference_ctr", "title": {"de": "Vergleichswert (Ctr.)", "en": "Comparison value (Ctr.)"}}, {"field": "reference_de", "title": {"de": "Art", "en": "Kind (German)"}}]}},
+             ]}},
+        {"id": "c2", "dataset": "brueche",
+         "title": {"de": "Förderung je Arbeiter", "en": "Output per worker"},
+         "caption": {"de": "Centner je Arbeiter (Abbau 1868 / Arbeiterzahl; Koselstein mit der Mitte der Spanne 25–30).",
+                     "en": "Hundredweights per worker (output 1868 / number of workers; Koselstein with the midpoint of the range 25–30)."},
+         "vegalite": {
+             "height": 200,
+             "mark": "bar",
+             "encoding": {
+                 "y": {"field": "quarry", "type": "nominal", "sort": ["Koselstein", "Franzenberg", "Vogelberg"], "title": None},
+                 "x": {"field": "output_per_worker", "type": "quantitative", "title": {"de": "Ctr. je Arbeiter", "en": "Ctr. per worker"}},
+                 "tooltip": [{"field": "quarry", "title": {"de": "Bruch", "en": "Quarry"}}, {"field": "workers_min", "title": {"de": "Arbeiter (min.)", "en": "Workers (min.)"}}, {"field": "workers_max", "title": {"de": "Arbeiter (max.)", "en": "Workers (max.)"}},
+                             {"field": "output_per_worker", "title": {"de": "Ctr. je Arbeiter", "en": "Ctr. per worker"}}]}}},
+        {"id": "c3", "dataset": "sorten",
+         "title": {"de": "Verkaufspreis je Sorte und Anteil an der Förderung", "en": "Sales price by grade and share of output"},
+         "caption": {"de": "Preis in Silbergroschen je Centner; die Zahl am Balkenende ist der Anteil der Sorte an der Förderung in Prozent.",
+                     "en": "Price in silver groschen per hundredweight; the figure at the end of the bar is the share of the grade in the output, in percent."},
+         "vegalite": {
+             "height": 220,
+             "transform": [{"calculate": {"de": "datum.grade", "en": "datum.grade_en"}, "as": "grade_label"}, {"calculate": "datum.share_pct + ' %'", "as": "share_label"}],
+             "encoding": {"y": {"field": "grade_label", "type": "nominal", "sort": None, "title": None}},
+             "layer": [
+                 {"mark": "bar",
+                  "encoding": {"x": {"field": "price_total_sgr", "type": "quantitative", "title": {"de": "Preis (Sgr. je Ctr.)", "en": "Price (Sgr. per Ctr.)"}},
+                               "tooltip": [{"field": "grade_label", "title": {"de": "Sorte", "en": "Grade"}}, {"field": "price_sgr", "title": {"de": "Sgr.", "en": "Sgr."}}, {"field": "price_pf", "title": {"de": "Pf.", "en": "Pf."}},
+                                           {"field": "price_total_sgr", "title": {"de": "Preis (Sgr.)", "en": "Price (Sgr.)"}}, {"field": "share_pct", "title": {"de": "Anteil (%)", "en": "Share (%)"}}]}},
+                 {"mark": {"type": "text", "align": "left", "dx": 5},
+                  "encoding": {"x": {"field": "price_total_sgr", "type": "quantitative"}, "text": {"field": "share_label", "type": "nominal"}}},
+             ]}},
+    ],
+    "keywords": {"de": ["Dachschiefer", "Schieferbrüche", "Koselstein", "Vogelberg", "Franzenberg", "Lobenstein", "Wurzbach", "Preise", "Bergbau", "1868"],
+                 "en": ["roofing slate", "slate quarries", "Koselstein", "Vogelberg", "Franzenberg", "Lobenstein", "Wurzbach", "prices", "mining", "1868"]},
+    "related": ["bergbau-bestand-oberland-vor-1648"],
+    "generated_by": GENERATED_BY,
+    "date": DATE,
+}
+write_analysis(ana)

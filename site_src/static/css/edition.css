@@ -361,6 +361,12 @@ details.app-block[open] summary::before { content: "▾ "; }
 /* ---------------------------------------------------------------- map */
 .map-layout { display: grid; grid-template-columns: minmax(0, 1fr) 360px; height: calc(100vh - var(--header-h)); }
 #map { height: 100%; }
+#map.leaflet-container, #map.no-tiles { background: var(--paper-2); }
+#map .leaflet-tile-pane { opacity: .78; }
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) #map .leaflet-tile-pane { opacity: 1; filter: invert(1) brightness(.78) contrast(.9); }
+}
+:root[data-theme="dark"] #map .leaflet-tile-pane { opacity: 1; filter: invert(1) brightness(.78) contrast(.9); }
 .map-side { border-left: 1px solid var(--rule); overflow: auto; padding: 18px; background: var(--paper); }
 .leaflet-container { font: 400 .9rem var(--sans); background: #e8e4da; }
 .leaflet-popup-content-wrapper, .leaflet-popup-tip { background: var(--card); color: var(--ink); }

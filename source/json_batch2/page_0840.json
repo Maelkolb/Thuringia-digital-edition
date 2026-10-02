@@ -1,0 +1,176 @@
+{
+  "page_number": 840,
+  "image_filename": "bsb11005578_seq_852_page_840_(0852).jpg",
+  "structure": {
+    "page_number_printed": "840",
+    "header": null,
+    "content_blocks": [
+      {
+        "block_type": "table",
+        "block_index": 0,
+        "content": {
+          "rows": 7,
+          "cols": 4,
+          "cells": [
+            [
+              "Expl.",
+              "",
+              "",
+              ""
+            ],
+            [
+              "1",
+              "Frau Zeigermann",
+              "Amtmännin",
+              "Untermhaus."
+            ],
+            [
+              "1",
+              "Herr Zeuner",
+              "Lehrer",
+              "Triebes."
+            ],
+            [
+              "4",
+              "\"",
+              "Ziegler",
+              "Pastor",
+              "Göschitz."
+            ],
+            [
+              "1",
+              "\"",
+              "Ziegler",
+              "Gutsbesitzer",
+              "Milbitz."
+            ],
+            [
+              "1",
+              "\"",
+              "Zimmermann",
+              "Rentier",
+              "Gera."
+            ],
+            [
+              "1",
+              "\"",
+              "Zippel",
+              "Lehrer",
+              "Gera."
+            ]
+          ],
+          "caption": null
+        }
+      },
+      {
+        "block_type": "paragraph",
+        "block_index": 1,
+        "content": "Druck von Hermann Rudolph in Gera."
+      }
+    ],
+    "footnotes": []
+  },
+  "ocr_text": "Expl.\n\n1\n\nFrau Zeigermann\n\nAmtmännin\n\nUntermhaus.\n\n1\n\nHerr Zeuner\n\nLehrer\n\nTriebes.\n\n4\n\n\"\n\nZiegler\n\nPastor\n\nGöschitz.\n\n1\n\n\"\n\nZiegler\n\nGutsbesitzer\n\nMilbitz.\n\n1\n\n\"\n\nZimmermann\n\nRentier\n\nGera.\n\n1\n\n\"\n\nZippel\n\nLehrer\n\nGera.\n\nDruck von Hermann Rudolph in Gera.",
+  "entities": [
+    {
+      "text": "Zeigermann",
+      "entity_type": "Person",
+      "start_char": 13,
+      "end_char": 23,
+      "context": "Frau Zeigermann"
+    },
+    {
+      "text": "Untermhaus",
+      "entity_type": "Location",
+      "start_char": 35,
+      "end_char": 45,
+      "context": "Amtmännin Untermhaus."
+    },
+    {
+      "text": "Zeuner",
+      "entity_type": "Person",
+      "start_char": 55,
+      "end_char": 61,
+      "context": "Herr Zeuner"
+    },
+    {
+      "text": "Triebes",
+      "entity_type": "Location",
+      "start_char": 70,
+      "end_char": 77,
+      "context": "Lehrer Triebes."
+    },
+    {
+      "text": "Ziegler",
+      "entity_type": "Person",
+      "start_char": 85,
+      "end_char": 92,
+      "context": "Ziegler"
+    },
+    {
+      "text": "Göschitz",
+      "entity_type": "Location",
+      "start_char": 101,
+      "end_char": 109,
+      "context": "Pastor Göschitz."
+    },
+    {
+      "text": "Ziegler",
+      "entity_type": "Person",
+      "start_char": 117,
+      "end_char": 124,
+      "context": "Ziegler"
+    },
+    {
+      "text": "Milbitz",
+      "entity_type": "Location",
+      "start_char": 139,
+      "end_char": 146,
+      "context": "Gutsbesitzer Milbitz."
+    },
+    {
+      "text": "Zimmermann",
+      "entity_type": "Person",
+      "start_char": 154,
+      "end_char": 164,
+      "context": "Zimmermann"
+    },
+    {
+      "text": "Gera",
+      "entity_type": "Location",
+      "start_char": 174,
+      "end_char": 178,
+      "context": "Rentier Gera."
+    },
+    {
+      "text": "Zippel",
+      "entity_type": "Person",
+      "start_char": 186,
+      "end_char": 192,
+      "context": "Zippel"
+    },
+    {
+      "text": "Gera",
+      "entity_type": "Location",
+      "start_char": 201,
+      "end_char": 205,
+      "context": "Lehrer Gera."
+    },
+    {
+      "text": "Hermann Rudolph",
+      "entity_type": "Person",
+      "start_char": 217,
+      "end_char": 232,
+      "context": "Druck von Hermann Rudolph in Gera."
+    },
+    {
+      "text": "Gera",
+      "entity_type": "Location",
+      "start_char": 236,
+      "end_char": 240,
+      "context": "Hermann Rudolph in Gera."
+    }
+  ],
+  "processing_timestamp": "2026-03-04T21:51:11.882097",
+  "model_used": "gemini-3-flash-preview"
+}

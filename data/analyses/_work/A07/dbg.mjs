@@ -1,0 +1,23 @@
+import fs from 'node:fs';
+import { createRequire } from 'node:module';
+const require = createRequire('C:/Users/totom/Projects/reuss-edition/tools/');
+const vl = await import('file:///C:/Users/totom/Projects/reuss-edition/tools/node_modules/vega-lite/build/index.js');
+const vega = await import('file:///C:/Users/totom/Projects/reuss-edition/tools/node_modules/vega/build/vega.module.js');
+import { theme } from '../../../../tools/vega_theme.mjs';
+const file = process.argv[2], cid = process.argv[3];
+const a = JSON.parse(fs.readFileSync(file, 'utf8'));
+const ch = a.charts.find(c => c.id === cid);
+function res(n, l) { if (Array.isArray(n)) return n.map(x => res(x, l)); if (n && typeof n === 'object') { const k = Object.keys(n); if (k.length === 2 && k.includes('de') && k.includes('en') && typeof n.de === 'string') return n[l]; const o = {}; for (const [kk, v] of Object.entries(n)) o[kk] = res(v, l); return o; } return n; }
+const spec = res(structuredClone(ch.vegalite), 'de');
+const full = { $schema: 'https://vega.github.io/schema/vega-lite/v6.json', ...spec, data: { name: ch.dataset } };
+if (full.width === undefined) full.width = 640;
+const logs = [];
+const logger = { level() { return this; }, warn: (...m) => logs.push(m.join(' ')), info() {}, debug() {}, error: (...m) => logs.push('ERR ' + m.join(' ')) };
+const vg = vl.compile(full, { config: theme('light'), logger }).spec;
+console.log(logs, JSON.stringify(vg.autosize), vg.width, vg.height);
+const ds = a.datasets.find(d => d.name === ch.dataset);
+const view = new vega.View(vega.parse(vg), { renderer: 'none' });
+view.data(ch.dataset, ds.rows.map(r => Object.fromEntries(ds.columns.map((c, i) => [c.name, r[i]]))));
+await view.runAsync();
+const svg = await view.toSVG();
+console.log(svg.slice(0, 300));

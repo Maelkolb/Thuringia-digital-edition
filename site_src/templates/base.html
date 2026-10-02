@@ -12,9 +12,19 @@
 <meta property="og:type" content="website">
 <meta property="og:image" content="{{ site.base_url }}assets/img/titelblatt.jpg">
 <link rel="icon" href="{{ root }}assets/img/favicon.svg" type="image/svg+xml">
-<link rel="preload" href="{{ root }}assets/fonts/newsreader-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="{{ root }}assets/fonts/source-sans-3-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="{{ root }}assets/css/edition.css?v={{ site.version }}">
+<script>
+(function () {
+  // opened from disk (file://), browsers refuse the font files; an embedded copy of the fonts is used instead
+  var offline = location.protocol === 'file:';
+  (offline ? ['fonts-offline.css'] : ['newsreader-latin-wght-normal.woff2', 'source-sans-3-latin-wght-normal.woff2']).forEach(function (f) {
+    var l = document.createElement('link');
+    if (offline) { l.rel = 'stylesheet'; l.href = '{{ root }}assets/css/' + f; }
+    else { l.rel = 'preload'; l.as = 'font'; l.type = 'font/woff2'; l.crossOrigin = ''; l.href = '{{ root }}assets/fonts/' + f; }
+    document.head.appendChild(l);
+  });
+})();
+</script>
 {% block head %}{% endblock %}
 <script>
 (function () {

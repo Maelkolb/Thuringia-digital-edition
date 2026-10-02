@@ -1,0 +1,240 @@
+{
+  "page_number": 729,
+  "image_filename": "bsb11005578_seq_741_page_729_(0741).jpg",
+  "structure": {
+    "page_number_printed": "729",
+    "header": "III. Der Landestheil Lobenstein-Ebersdorf.",
+    "content_blocks": [
+      {
+        "block_type": "heading",
+        "block_index": 0,
+        "content": "Plan des Saaldorfer Gemeinde- bez. Schulbezirkes (Saalpolynesien):"
+      },
+      {
+        "block_type": "paragraph",
+        "block_index": 1,
+        "content": "Heinrichsstein. .    . Silberknie."
+      },
+      {
+        "block_type": "paragraph",
+        "block_index": 2,
+        "content": ". Poln. Hammer.   . Oberschlösschen. \n                        . Unterschlösschen."
+      },
+      {
+        "block_type": "paragraph",
+        "block_index": 3,
+        "content": "Neuhammer. . : \nNeuhaus. .      . Haueisen.\n                . Saaldorf.\n                . Rödelsgrün.\nRussbach.       . Weidmannsheil."
+      },
+      {
+        "block_type": "paragraph",
+        "block_index": 4,
+        "content": "Gottliebsthal. .: \nRattenbach."
+      },
+      {
+        "block_type": "paragraph",
+        "block_index": 5,
+        "content": "Ziezelbach."
+      },
+      {
+        "block_type": "paragraph",
+        "block_index": 6,
+        "content": "Spaniershammer. .  : Mühlberg.\nMotschenmühle. .      Saalgrün.\n               . Henne-   Jungfernzechenbach.\n                 mannsreuth.\n               . Saalhof.     Gaubergsbach.\n               . Magwitzhaus."
+      }
+    ],
+    "footnotes": []
+  },
+  "ocr_text": "III. Der Landestheil Lobenstein-Ebersdorf.\n\nPlan des Saaldorfer Gemeinde- bez. Schulbezirkes (Saalpolynesien):\n\nHeinrichsstein. .    . Silberknie.\n\n. Poln. Hammer.   . Oberschlösschen. \n                        . Unterschlösschen.\n\nNeuhammer. . : \nNeuhaus. .      . Haueisen.\n                . Saaldorf.\n                . Rödelsgrün.\nRussbach.       . Weidmannsheil.\n\nGottliebsthal. .: \nRattenbach.\n\nZiezelbach.\n\nSpaniershammer. .  : Mühlberg.\nMotschenmühle. .      Saalgrün.\n               . Henne-   Jungfernzechenbach.\n                 mannsreuth.\n               . Saalhof.     Gaubergsbach.\n               . Magwitzhaus.",
+  "entities": [
+    {
+      "text": "Lobenstein-Ebersdorf",
+      "entity_type": "Location",
+      "start_char": 21,
+      "end_char": 41,
+      "context": "III. Der Landestheil Lobenstein-Ebersdorf."
+    },
+    {
+      "text": "Saaldorfer",
+      "entity_type": "Location",
+      "start_char": 52,
+      "end_char": 62,
+      "context": "Plan des Saaldorfer Gemeinde- bez. Schulbezirkes"
+    },
+    {
+      "text": "Saalpolynesien",
+      "entity_type": "Location",
+      "start_char": 88,
+      "end_char": 102,
+      "context": "bez. Schulbezirkes (Saalpolynesien):"
+    },
+    {
+      "text": "Heinrichsstein",
+      "entity_type": "Natural Object",
+      "start_char": 106,
+      "end_char": 120,
+      "context": "Heinrichsstein. .    . Silberknie."
+    },
+    {
+      "text": "Silberknie",
+      "entity_type": "Natural Object",
+      "start_char": 127,
+      "end_char": 137,
+      "context": "Heinrichsstein. .    . Silberknie."
+    },
+    {
+      "text": "Poln. Hammer",
+      "entity_type": "Artefact",
+      "start_char": 141,
+      "end_char": 153,
+      "context": ". Poln. Hammer.   . Oberschlösschen."
+    },
+    {
+      "text": "Oberschlösschen",
+      "entity_type": "Artefact",
+      "start_char": 159,
+      "end_char": 174,
+      "context": ". Poln. Hammer.   . Oberschlösschen."
+    },
+    {
+      "text": "Unterschlösschen",
+      "entity_type": "Artefact",
+      "start_char": 201,
+      "end_char": 217,
+      "context": ". Unterschlösschen."
+    },
+    {
+      "text": "Neuhammer",
+      "entity_type": "Location",
+      "start_char": 220,
+      "end_char": 229,
+      "context": "Neuhammer. . : \nNeuhaus."
+    },
+    {
+      "text": "Neuhaus",
+      "entity_type": "Location",
+      "start_char": 236,
+      "end_char": 243,
+      "context": "Neuhammer. . : \nNeuhaus."
+    },
+    {
+      "text": "Haueisen",
+      "entity_type": "Location",
+      "start_char": 251,
+      "end_char": 259,
+      "context": "Neuhaus. .      . Haueisen."
+    },
+    {
+      "text": "Saaldorf",
+      "entity_type": "Location",
+      "start_char": 277,
+      "end_char": 285,
+      "context": ". Saaldorf."
+    },
+    {
+      "text": "Rödelsgrün",
+      "entity_type": "Location",
+      "start_char": 303,
+      "end_char": 313,
+      "context": ". Rödelsgrün."
+    },
+    {
+      "text": "Russbach",
+      "entity_type": "Location",
+      "start_char": 315,
+      "end_char": 323,
+      "context": "Russbach.       . Weidmannsheil."
+    },
+    {
+      "text": "Weidmannsheil",
+      "entity_type": "Location",
+      "start_char": 332,
+      "end_char": 345,
+      "context": "Russbach.       . Weidmannsheil."
+    },
+    {
+      "text": "Gottliebsthal",
+      "entity_type": "Location",
+      "start_char": 348,
+      "end_char": 361,
+      "context": "Gottliebsthal. .: \nRattenbach."
+    },
+    {
+      "text": "Rattenbach",
+      "entity_type": "Natural Object",
+      "start_char": 367,
+      "end_char": 377,
+      "context": "Rattenbach."
+    },
+    {
+      "text": "Ziezelbach",
+      "entity_type": "Natural Object",
+      "start_char": 380,
+      "end_char": 390,
+      "context": "Ziezelbach."
+    },
+    {
+      "text": "Spaniershammer",
+      "entity_type": "Artefact",
+      "start_char": 393,
+      "end_char": 407,
+      "context": "Spaniershammer. .  : Mühlberg."
+    },
+    {
+      "text": "Mühlberg",
+      "entity_type": "Location",
+      "start_char": 412,
+      "end_char": 420,
+      "context": "Spaniershammer. .  : Mühlberg."
+    },
+    {
+      "text": "Motschenmühle",
+      "entity_type": "Artefact",
+      "start_char": 422,
+      "end_char": 435,
+      "context": "Motschenmühle. .      Saalgrün."
+    },
+    {
+      "text": "Saalgrün",
+      "entity_type": "Location",
+      "start_char": 444,
+      "end_char": 452,
+      "context": "Motschenmühle. .      Saalgrün."
+    },
+    {
+      "text": "Hennemannsreuth",
+      "entity_type": "Location",
+      "start_char": 469,
+      "end_char": 498,
+      "context": "Henne-   Jungfernzechenbach.\n                 mannsreuth."
+    },
+    {
+      "text": "Jungfernzechenbach",
+      "entity_type": "Natural Object",
+      "start_char": 478,
+      "end_char": 496,
+      "context": "Henne-   Jungfernzechenbach."
+    },
+    {
+      "text": "Saalhof",
+      "entity_type": "Artefact",
+      "start_char": 517,
+      "end_char": 524,
+      "context": ". Saalhof.     Gaubergsbach."
+    },
+    {
+      "text": "Gaubergsbach",
+      "entity_type": "Natural Object",
+      "start_char": 530,
+      "end_char": 542,
+      "context": ". Saalhof.     Gaubergsbach."
+    },
+    {
+      "text": "Magwitzhaus",
+      "entity_type": "Artefact",
+      "start_char": 560,
+      "end_char": 571,
+      "context": ". Magwitzhaus."
+    }
+  ],
+  "processing_timestamp": "2026-03-04T21:10:28.684955",
+  "model_used": "gemini-3-flash-preview"
+}

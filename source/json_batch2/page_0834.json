@@ -1,0 +1,108 @@
+{
+  "page_number": 834,
+  "image_filename": "bsb11005578_seq_846_page_834_(0846).jpg",
+  "structure": {
+    "page_number_printed": "834",
+    "header": null,
+    "content_blocks": [
+      {
+        "block_type": "list",
+        "block_index": 0,
+        "content": [
+          "S. 517. Z. 28 v. o. lies: noch statt nach.",
+          "S. 519. Z. 7 v. o. lies: An das vormalige Dorf statt An das Dorf.",
+          "S. 539. Z. 15 v. o. lies: 40 statt 400.",
+          "S. 552. Z. 3 v. o. lies: mehrerer statt mehrere.",
+          "S. 558. Z. 15 v. u. lies: geschlagen statt zerschlagen.",
+          "S. 591. Zu den aus Schleiz hervorgegangenen Schriftstellern gehört auch: Adam Heinr. Meisner (geb. 1711, † 1782 als Stadtprediger zu Plauen).",
+          "S. 697. Z. 23 v. o. lies: 13 Einw. statt 13.",
+          "S. 784. Die Spinnfabrik zu Blankenstein führt den Namen Rosenthal.",
+          "S. 819. Z. 3 v. o. Juchhöh wird vielfach auch der Dornbusch genannt. Von den Dornhäusern heißt eins die neue Schenke oder die Quarkschenke."
+        ]
+      }
+    ],
+    "footnotes": []
+  },
+  "ocr_text": "S. 517. Z. 28 v. o. lies: noch statt nach.\n\nS. 519. Z. 7 v. o. lies: An das vormalige Dorf statt An das Dorf.\n\nS. 539. Z. 15 v. o. lies: 40 statt 400.\n\nS. 552. Z. 3 v. o. lies: mehrerer statt mehrere.\n\nS. 558. Z. 15 v. u. lies: geschlagen statt zerschlagen.\n\nS. 591. Zu den aus Schleiz hervorgegangenen Schriftstellern gehört auch: Adam Heinr. Meisner (geb. 1711, † 1782 als Stadtprediger zu Plauen).\n\nS. 697. Z. 23 v. o. lies: 13 Einw. statt 13.\n\nS. 784. Die Spinnfabrik zu Blankenstein führt den Namen Rosenthal.\n\nS. 819. Z. 3 v. o. Juchhöh wird vielfach auch der Dornbusch genannt. Von den Dornhäusern heißt eins die neue Schenke oder die Quarkschenke.",
+  "entities": [
+    {
+      "text": "Schleiz",
+      "entity_type": "Location",
+      "start_char": 218,
+      "end_char": 225,
+      "context": "Zu den aus Schleiz hervorgegangenen Schriftstellern gehört auch"
+    },
+    {
+      "text": "Adam Heinr. Meisner",
+      "entity_type": "Person",
+      "start_char": 265,
+      "end_char": 284,
+      "context": "gehört auch: Adam Heinr. Meisner (geb. 1711, † 1782 als"
+    },
+    {
+      "text": "Plauen",
+      "entity_type": "Location",
+      "start_char": 319,
+      "end_char": 325,
+      "context": "1782 als Stadtprediger zu Plauen)."
+    },
+    {
+      "text": "Spinnfabrik",
+      "entity_type": "Organisation",
+      "start_char": 365,
+      "end_char": 376,
+      "context": "Die Spinnfabrik zu Blankenstein führt den Namen Rosenthal."
+    },
+    {
+      "text": "Blankenstein",
+      "entity_type": "Location",
+      "start_char": 380,
+      "end_char": 392,
+      "context": "Die Spinnfabrik zu Blankenstein führt den Namen Rosenthal."
+    },
+    {
+      "text": "Rosenthal",
+      "entity_type": "Organisation",
+      "start_char": 409,
+      "end_char": 418,
+      "context": "führt den Namen Rosenthal."
+    },
+    {
+      "text": "Juchhöh",
+      "entity_type": "Location",
+      "start_char": 435,
+      "end_char": 442,
+      "context": "Juchhöh wird vielfach auch der Dornbusch genannt."
+    },
+    {
+      "text": "Dornbusch",
+      "entity_type": "Location",
+      "start_char": 466,
+      "end_char": 475,
+      "context": "Juchhöh wird vielfach auch der Dornbusch genannt."
+    },
+    {
+      "text": "Dornhäusern",
+      "entity_type": "Location",
+      "start_char": 494,
+      "end_char": 505,
+      "context": "Von den Dornhäusern heißt eins die neue Schenke oder die Quarkschenke."
+    },
+    {
+      "text": "neue Schenke",
+      "entity_type": "Artefact",
+      "start_char": 521,
+      "end_char": 533,
+      "context": "heißt eins die neue Schenke oder die Quarkschenke."
+    },
+    {
+      "text": "Quarkschenke",
+      "entity_type": "Artefact",
+      "start_char": 543,
+      "end_char": 555,
+      "context": "oder die Quarkschenke."
+    }
+  ],
+  "processing_timestamp": "2026-03-04T21:48:40.739016",
+  "model_used": "gemini-3-flash-preview"
+}

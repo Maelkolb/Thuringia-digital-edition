@@ -29,7 +29,7 @@
     var id = b.getAttribute('data-kwic'), li = b.closest('.reg-item');
     var open = li.querySelector('.kwic');
     if (open) { open.remove(); return; }
-    (kwic ? Promise.resolve(kwic) : fetch('belege/' + file + '.json').then(function (r) { return r.json(); }).then(function (d) { kwic = d; return d; }))
+    (kwic ? Promise.resolve(kwic) : RJ.load('register/belege/' + file).then(function (d) { kwic = d; return d; }))
       .then(function (d) {
         var list = d[id] || [], box = document.createElement('div'); box.className = 'kwic';
         box.innerHTML = list.map(function (m) {

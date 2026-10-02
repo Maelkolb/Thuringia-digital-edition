@@ -9,6 +9,24 @@
   function ui() { return doc.getAttribute('data-ui') || 'de'; }
   window.RJ = { root: ROOT, ui: ui, store: store };
 
+  // Data files are scripts calling RJ.put(key, data): browsers block fetch() on pages opened from disk (file://).
+  var dataStore = {}, dataWait = {};
+  RJ.put = function (key, data) { dataStore[key] = data; if (dataWait[key]) dataWait[key].resolve(data); };
+  RJ.load = function (key) {
+    if (key in dataStore) return Promise.resolve(dataStore[key]);
+    if (dataWait[key]) return dataWait[key].promise;
+    var wait = dataWait[key] = {};
+    wait.promise = new Promise(function (resolve, reject) {
+      wait.resolve = resolve;
+      var s = document.createElement('script');
+      s.src = ROOT + key.split('/').map(encodeURIComponent).join('/') + '.js';
+      s.onload = function () { if (!(key in dataStore)) { delete dataWait[key]; reject(new Error('no data: ' + key)); } };
+      s.onerror = function () { delete dataWait[key]; s.remove(); reject(new Error('missing: ' + key)); };
+      document.head.appendChild(s);
+    });
+    return wait.promise;
+  };
+
   // ------------------------------------------------------------ language / theme / menu
   var lt = $('[data-lang-toggle]');
   if (lt) lt.addEventListener('click', function () {
@@ -59,7 +77,7 @@
     var input = $('input', qsForm), box = $('.qs-results', qsForm), quick = null, sel = -1, items = [];
     var load = function () {
       if (quick) return Promise.resolve(quick);
-      return fetch(ROOT + 'suche/quick.json').then(function (r) { return r.json(); }).then(function (d) {
+      return RJ.load('suche/quick').then(function (d) {
         quick = d.map(function (x) { return { label: x[0], kind: x[1], href: x[2], n: x[3], key: RJNorm.fold(x[0]) }; });
         return quick;
       });

@@ -1,0 +1,195 @@
+"""A10: Huettenwerke und Haemmer des Oberlandes - Bestand vor 1648 und Betriebszeiten (pp. 244-246)."""
+import sys
+sys.path.insert(0, r"C:\Users\totom\Projects\reuss-edition\data\analyses\_work\A10")
+from common import *
+
+PUB = 1870  # Erscheinungsjahr, used as plot end of works still operating
+
+# name, place, kind, start, end, dating, fate_group, source, note_de, note_en
+EI, KS = "Eisen", "Kupfer und Silber"
+TX, MU, GE, KA, BT = "Textilfabrik", "Mühle/Ziegelei", "Gerberei", "Aufgegeben", "In Betrieb"
+W = [
+    ("Saalbach (Saalhammer)", "Saale bei Rudolphstein", EI, 1648, 1810, "ungefähr", GE, "245 b4",
+     "1648 erneuert, bis Anfang des 19. Jh. im Gang, 1810 Lohgerberei; Brauerei, Mahl- und Schneidemühle erhalten.",
+     "Renewed 1648, in operation until the early 19th century, converted to a tannery in 1810; brewery, grist and sawmill kept."),
+    ("Kupferhütte Lemnitzhammer", "Lemnitzhammer", KS, 1666, 1741, "exakt", KA, "245 b5",
+     "1666 wieder in Gang, 1741 kalt gelegt.", "Back in operation 1666, shut down 1741."),
+    ("Kupferhütte Harra (Kupferplatte)", "Harra", KS, 1666, 1769, "exakt", KA, "245 b5",
+     "1666 wieder in Gang, 1769 kalt gelegt.", "Back in operation 1666, shut down 1769."),
+    ("Spaniershammer (Stahlhütte)", "Saale", EI, 1648, 1852, "ungefähr", MU, "245 b7",
+     "Nach 1648 wieder gangbar, 1852 kalt, 1861 Schneidemühle und Ziegelei.", "Working again after 1648, idle 1852, converted in 1861 to a sawmill and brickworks."),
+    ("Lemnitzhammer (Eisenhammer)", "Lemnitzhammer", EI, 1648, 1856, "ungefähr", TX, "245 b8",
+     "Bald nach 1648 wiederhergestellt, bis 1856 in Betrieb, dann Wollengarnspinnerei und Tuchfabrik.", "Restored soon after 1648, in operation until 1856, then a worsted-yarn spinning mill and cloth factory."),
+    ("Steuersches Werk Blankenstein", "Blankenstein", EI, 1801, 1827, "exakt", TX, "245 b9",
+     "1801 wieder aufgebaut, 1827 außer Betrieb, 1830 Tuchfabrik.", "Rebuilt 1801, out of operation 1827, cloth factory from 1830."),
+    ("Klettigshammer", "Sormitz", EI, 1648, 1827, "exakt", MU, "245 b11",
+     "Seit 1648 wieder betrieben, 1827 als Hüttenwerk eingegangen; Mahl- und Schneidemühle blieb.", "Operated again from 1648, closed as a smelter in 1827; grist and sawmill remained."),
+    ("Schmelzhütte Sormitz", "Sormitz", KS, 1699, 1732, "exakt", MU, "245 b12",
+     "1699–1732 für die Silbererze des Silberbergs bei Gahma; 1806 Drahthütte und Zainhammer, jetzt Drahtmühle.", "1699–1732 for the silver ores of the Silberberg near Gahma; wire works and rolling hammer from 1806, now the Drahtmühle."),
+    ("Schmelzofen Kleinfriesa", "Kleinfriesa", EI, 1729, 1745, "exakt", MU, "246 b2",
+     "1729 erbaut, 1732 Frisch- und Hammerwerk, 1745 Mühle (Hämmerleinsmühle).", "Built 1729, bloomery and hammer works from 1732, mill (Hämmerleinsmühle) from 1745."),
+    ("Blauofen Gottliebsthal", "Rattenbach, Gottliebsthal", EI, 1782, 1849, "exakt", TX, "246 b3",
+     "1782 Blauofen mit Frischfeuer, 1849 Wollengarnspinnerei und Tuchfabrik.", "Blue furnace with finery fire from 1782, worsted-yarn spinning mill and cloth factory from 1849."),
+    ("Polnischer Hammer (Rödelshammer)", "", EI, 1795, 1846, "exakt", KA, "246 b4",
+     "1795 erbaut, seit 1846 kalt und verfallen.", "Built 1795, idle and decayed since 1846."),
+    ("Neuwerk (Waffenhammer)", "", EI, 1803, 1823, "exakt", KA, "246 b5",
+     "1803 als Waffenhammer errichtet, 1823 eingestellt.", "Built 1803 as an arms hammer, closed 1823."),
+    ("Klosterhammer", "", EI, 1784, 1843, "exakt", TX, "246 b6",
+     "1693 als wüstes Hüttenwerk erneuert, dann kalt; 1784 wieder eingerichtet, 1843 verkauft, nun Wollengarnspinnerei.", "Renewed 1693 as a derelict works, then idle; set up again 1784, sold 1843, now a worsted-yarn spinning mill."),
+    ("Sophienthal (Zainhammer)", "Wettera", EI, 1763, 1840, "exakt", KA, "246 b7",
+     "1763 errichtet, 1840 abgebrochen.", "Built 1763, demolished 1840."),
+    ("Oberwetterhammer", "Wettera", EI, 1766, 1838, "exakt", MU, "246 b8",
+     "1766 erbaut, 1838 eingegangen; jetzt Hammermühle.", "Built 1766, closed 1838; now the Hammermühle."),
+    ("Ernestine Augusta", "Schlangenbach bei Görkwitz", EI, 1741, 1836, "ungefähr", MU, "246 b9",
+     "1741 abgebrannt, wieder erbaut (Jahr nicht genannt), bis 1836 in Betrieb; jetzt Hochofenmühle.", "Burnt down 1741, rebuilt (year not given), in operation until 1836; now the Hochofenmühle."),
+    ("Silber-/Kupferhütte Weckersdorf", "Weckersdorf", KS, 1794, 1800, "ungefähr", KA, "246 b10",
+     "1794 erbaut, kam um 1800 zum Erliegen.", "Built 1794, ceased operation around 1800."),
+    ("Benignengrüner Hammer", "Langwasser", EI, 1659, None, "ungefähr", BT, "246 b12",
+     "1659 Gruners Hammer genannt, 1703 an Regentin Erdmuthe Benigna; nur periodisch betrieben (schon 1601 als Hammer belegt, S. 244).", "Called Gruners Hammer in 1659, passed to the regent Erdmuthe Benigna in 1703; operated only periodically (documented as a hammer already in 1601, p. 244)."),
+    ("Heinrichshütte", "Sormitz", EI, 1729, None, "exakt", BT, "246 b13",
+     "1729 als Mangolds Drahthammer gegründet, 1745 Hochofen und Frischfeuer, 1836 neu errichtet; seit 1865 spärlich betrieben.", "Founded 1729 as Mangold's wire hammer, blast furnace and finery added 1745, rebuilt 1836; operated sparingly since 1865."),
+    ("Neuhammer", "Saale", EI, 1650, None, "exakt", BT, "246 b14",
+     "1650 an Stelle des alten Haueisen neu erbaut, besteht noch; 1869 an die fürstliche Kammer.", "Built 1650 in place of the old Haueisen, still extant; passed to the princely chamber in 1869."),
+    ("Wetterhammer (Brückenhammer)", "Wettera", EI, 1766, None, "exakt", BT, "246 b15",
+     "1766 erbaut (auch Heinrichsthaler Hammer).", "Built 1766 (also called Heinrichsthaler Hammer)."),
+    ("Glücksthaler Hammer", "Wettera", EI, 1766, None, "exakt", BT, "246 b16",
+     "1766 errichtet, stand nur 1816–1848 still.", "Built 1766, stood idle only in 1816–1848."),
+]
+KIND_EN = {EI: "Iron (hammers, furnaces)", KS: "Copper and silver (smelters)"}
+FATE_EN = {TX: "Textile mill", MU: "Mill/brickworks", GE: "Tannery", KA: "Abandoned", BT: "Still operating"}
+
+rows = []
+for name, place, kind, s, e, dating, fate, src, nde, nen in W:
+    status = "stillgelegt" if e is not None else "in Betrieb"
+    plot_end = e if e is not None else PUB
+    rows.append([name, place or "—", kind, s, e, plot_end, status, dating, fate, "S. " + src.replace(" b", " b"), nde, nen])
+
+closed = [r for r in rows if r[4] is not None]
+oper = [r for r in rows if r[4] is None]
+n_closed, n_oper = len(closed), len(oper)
+in_wave = [r for r in closed if 1823 <= r[4] <= 1856]
+tx = [r for r in closed if r[8] == TX]
+tx_years = sorted(r[4] for r in tx)
+pre1700 = [r for r in rows if r[3] < 1700]
+c18 = [r for r in rows if 1700 <= r[3] < 1800]
+c19 = [r for r in rows if r[3] >= 1800]
+oper_starts = sorted(r[3] for r in oper)
+print(n_closed, n_oper, len(in_wave), tx_years, len(pre1700), len(c18), len(c19), oper_starts)
+exact_life = [r[4] - r[3] for r in closed if r[7] == "exakt"]
+exact_life.sort()
+import statistics
+med_life = statistics.median(exact_life)
+print("median life exact", med_life, len(exact_life), exact_life)
+
+YEAR = {"de": "Jahr", "en": "Year"}
+KIND_CALC = {
+    "de": "datum.kind",
+    "en": "{'Eisen':'" + KIND_EN[EI] + "','Kupfer und Silber':'" + KIND_EN[KS] + "'}[datum.kind]",
+}
+FATE_CALC = {
+    "de": "datum.fate_group",
+    "en": "{" + ",".join(f"'{k}':'{v}'" for k, v in FATE_EN.items()) + "}[datum.fate_group]",
+}
+SORT_Y = {"field": "start_year", "op": "min", "order": "ascending"}
+
+ana = {
+    "id": "bergbau-huettenwerke-oberland-betriebszeiten",
+    "title": {"de": "Hütten- und Hammerwerke des Oberlandes: Betriebszeiten 1648–1869", "en": "Smelters and hammer works of the Oberland: operating periods, 1648–1869"},
+    "category": "mining",
+    "section": "t1-3-5",
+    "sources": [
+        {"page": "244", "block": "b2"},
+        {"page": "245", "block": "b3"},
+    ] + [{"page": "245", "block": f"b{i}"} for i in range(4, 13)] + [{"page": "246", "block": f"b{i}"} for i in range(1, 17)],
+    "summary": {
+        "de": f"Brückner verzeichnet für das Oberland (Landesteile Schleiz und Lobenstein-Ebersdorf) Werk für Werk die Gründungen, Wiederinbetriebnahmen und Stilllegungen der Hütten- und Hammerwerke seit dem Dreißigjährigen Krieg mit Jahreszahlen (S. 245–246). Die Zeitleiste zeigt {len(rows)} Werke mit Betriebszeiten zwischen 1648 und 1869; {n_closed} davon waren bis 1869 stillgelegt, {n_oper} noch (meist nur periodisch) in Betrieb.",
+        "en": f"For the Oberland (the districts of Schleiz and Lobenstein-Ebersdorf) Brückner lists, work by work, the foundations, resumptions and closures of the smelters and hammer works since the Thirty Years' War with dates (pp. 245–246). The timeline shows {len(rows)} works with operating periods between 1648 and 1869; {n_closed} of them had been shut down by 1869, {n_oper} were still in operation (mostly only periodically).",
+    },
+    "method": {
+        "de": f"Die Betriebszeiten wurden aus den Absätzen S. 245 b4–b12 und S. 246 b1–b16 übernommen: Beginn = Jahr der Gründung, Erneuerung oder Wiederinbetriebnahme im jeweiligen Absatz, Ende = Jahr der Stilllegung bzw. des letzten genannten Betriebs. Werke, die der Text als noch bestehend bezeichnet, sind bis zum Erscheinungsjahr {PUB} gezeichnet (Spalte plot_end, abgeleitet). Wo Anfang oder Ende nur ungefähr bestimmt sind (»nach 1648«, »um 1800«, Brand 1741), steht in der Spalte dating »ungefähr«. Nicht aufgenommen sind Werke ohne Jahresangabe (Solmsgrün: 1720 erkauft, »seit mehreren Jahren kalt«) und die Alaun-, Antimon- und Silberbergwerke, die in der Analyse zum Erzbergbau behandelt werden; der Bestand vor 1648 (S. 243–244) steht in einer eigenen Analyse. Das spätere Schicksal der Werke wurde vier Gruppen zugeordnet (Spalte fate_group).",
+        "en": f"The operating periods were taken from the paragraphs on p. 245 b4–b12 and p. 246 b1–b16: start = year of foundation, renewal or resumption in the respective paragraph, end = year of closure or of the last stated operation. Works that the text describes as still existing are drawn up to the publication year {PUB} (column plot_end, derived). Where start or end is only approximate (“after 1648”, “around 1800”, fire of 1741) the column dating says “ungefähr” (approximate). Works without a year (Solmsgrün: bought 1720, “idle for several years”) are not included, nor are the alum, antimony and silver mines, which are treated in the analysis of ore mining; the stock before 1648 (pp. 243–244) is in a separate analysis. What became of each works was assigned to four groups (column fate_group).",
+    },
+    "findings": [
+        {"de": f"Von den {len(rows)} dokumentierten Werken waren {n_closed} bis 1869 stillgelegt; {len(in_wave)} dieser Stilllegungen fallen in die Jahre 1823–1856, also vor dem von Brückner genannten Wendepunkt 1858 (Rückgang durch die neuen Verkehrsverhältnisse). Die Auswahl besteht allerdings aus den Werken, die Brückner als später eingegangen oder noch vorhanden aufzählt.",
+         "en": f"Of the {len(rows)} documented works, {n_closed} had been shut down by 1869; {len(in_wave)} of these closures fall in 1823–1856, that is before 1858, the turning point Brückner names (decline through the new traffic conditions). The selection consists, however, of works that Brückner lists as later closed or still extant."},
+        {"de": f"{len(tx)} der {n_closed} stillgelegten Werke wurden Textilbetriebe (Wollengarnspinnerei oder Tuchfabrik; Jahr der Stilllegung {', '.join(str(y) for y in tx_years)}); weitere {sum(1 for r in closed if r[8] == MU)} wurden zu Mühlen, Schneidemühlen oder Ziegeleien.",
+         "en": f"{len(tx)} of the {n_closed} closed works became textile mills (worsted-yarn spinning or cloth factory; closing years {', '.join(str(y) for y in tx_years)}); another {sum(1 for r in closed if r[8] == MU)} became mills, sawmills or brickworks."},
+        {"de": f"Die {n_oper} 1869 noch bestehenden Werke (Benignengrüner Hammer, Heinrichshütte, Neuhammer, Wetterhammer, Glücksthaler Hammer) gehen auf Gründungen der Jahre {oper_starts[0]}–{oper_starts[-1]} zurück; Brückner nennt sie »von geringem, theilweise bloß periodischem Betriebe«.",
+         "en": f"The {n_oper} works still extant in 1869 (Benignengrüner Hammer, Heinrichshütte, Neuhammer, Wetterhammer, Glücksthaler Hammer) go back to foundations of {oper_starts[0]}–{oper_starts[-1]}; Brückner calls them “of small, partly only periodic operation”."},
+    ],
+    "caveats": [
+        {"de": "Die Jahre stammen aus Brückners Aufzählung, nicht aus den Akten; Beginn und Ende bedeuten je nach Werk Gründung, Erneuerung, Wiederinbetriebnahme, Stilllegung oder Umwandlung. Blasse Balken kennzeichnen ungefähre Daten.",
+         "en": "The years come from Brückner's enumeration, not from the records; depending on the works, start and end mean foundation, renewal, resumption, shutdown or conversion. Pale bars mark approximate dates."},
+        {"de": "Zwischenzeiten ohne Betrieb sind nicht gezeichnet (Klosterhammer 1693 erneuert, dann kalt bis 1784; Glücksthaler Hammer stand 1816–1848 still).",
+         "en": "Intervals without operation are not drawn (Klosterhammer renewed 1693, then idle until 1784; Glücksthaler Hammer stood idle in 1816–1848)."},
+        {"de": "Hütten- und Hammerwerke, die schon vor 1648 bestanden und danach nicht wieder in Gang kamen, erscheinen hier nicht; sie stehen im Bestand vor dem Dreißigjährigen Krieg (S. 243–244, eigene Analyse).",
+         "en": "Smelters and hammer works that already existed before 1648 and were not restarted afterwards do not appear here; they are part of the stock before the Thirty Years' War (pp. 243–244, separate analysis)."},
+    ],
+    "conversions": [],
+    "datasets": [
+        {"name": "werke", "title": {"de": "Betriebszeiten der Hütten- und Hammerwerke", "en": "Operating periods of smelters and hammer works"},
+         "columns": [
+             {"name": "name", "label": {"de": "Werk", "en": "Works"}, "type": "string", "unit": None},
+             {"name": "place", "label": {"de": "Ort/Gewässer", "en": "Place/watercourse"}, "type": "string", "unit": None},
+             {"name": "kind", "label": {"de": "Art", "en": "Type"}, "type": "string", "unit": None},
+             {"name": "start_year", "label": {"de": "Beginn", "en": "Start"}, "type": "integer", "unit": "Jahr"},
+             {"name": "end_year", "label": {"de": "Ende", "en": "End"}, "type": "integer", "unit": "Jahr", "note": "leer = 1869 noch in Betrieb"},
+             {"name": "plot_end", "label": {"de": "Ende (Zeichnung)", "en": "End (plotted)"}, "type": "integer", "unit": "Jahr", "derived": True, "note": f"end_year, sonst Erscheinungsjahr {PUB}"},
+             {"name": "status", "label": {"de": "Zustand", "en": "Status"}, "type": "string", "unit": None, "derived": True},
+             {"name": "dating", "label": {"de": "Datierung", "en": "Dating"}, "type": "string", "unit": None, "derived": True, "note": "exakt = beide Jahre ausdrücklich genannt"},
+             {"name": "fate_group", "label": {"de": "Späteres Schicksal", "en": "Later fate"}, "type": "string", "unit": None, "derived": True},
+             {"name": "source", "label": {"de": "Quelle", "en": "Source"}, "type": "string", "unit": None},
+             {"name": "note_de", "label": {"de": "Anmerkung (de)", "en": "Note (German)"}, "type": "string", "unit": None},
+             {"name": "note_en", "label": {"de": "Anmerkung (en)", "en": "Note (English)"}, "type": "string", "unit": None},
+         ],
+         "rows": rows,
+         "source_refs": [{"page": "244", "block": "b2"}, {"page": "245", "block": "b3"}] + [{"page": "245", "block": f"b{i}"} for i in range(4, 13)] + [{"page": "246", "block": f"b{i}"} for i in range(1, 17)]},
+    ],
+    "charts": [
+        {"id": "c1", "dataset": "werke",
+         "title": {"de": "Betriebszeiten der Hütten- und Hammerwerke 1648–1869", "en": "Operating periods of smelters and hammer works, 1648–1869"},
+         "caption": {"de": "Jeder Balken ist ein Werk von Beginn bis Stilllegung; ein Dreieck am rechten Ende markiert die 1869 noch bestehenden Werke. Blassere Balken: Anfang oder Ende ungefähr datiert.",
+                     "en": "Each bar is one works from start to closure; a triangle at the right end marks works still extant in 1869. Paler bars: start or end only approximately dated."},
+         "vegalite": {
+             "height": 520,
+             "transform": [{"calculate": KIND_CALC, "as": "kind_label"}],
+             "layer": [
+                 {"mark": {"type": "bar", "height": {"band": 0.62}},
+                  "encoding": {
+                      "y": {"field": "name", "type": "nominal", "sort": SORT_Y, "title": None, "axis": {"labelLimit": 300}},
+                      "x": {"field": "start_year", "type": "quantitative", "scale": {"zero": False, "domain": [1640, 1875]}, "axis": {"format": "d", "tickCount": 10, "title": YEAR}},
+                      "x2": {"field": "plot_end"},
+                      "color": {"field": "kind_label", "type": "nominal", "title": {"de": "Art", "en": "Type"}, "legend": {"labelLimit": 300}},
+                      "opacity": {"condition": {"test": "datum.dating == 'exakt'", "value": 1}, "value": 0.5},
+                      "tooltip": [{"field": "name", "title": {"de": "Werk", "en": "Works"}}, {"field": "place", "title": {"de": "Ort/Gewässer", "en": "Place/watercourse"}},
+                                  {"field": "kind_label", "title": {"de": "Art", "en": "Type"}},
+                                  {"field": "start_year", "title": {"de": "Beginn", "en": "Start"}}, {"field": "end_year", "title": {"de": "Ende", "en": "End"}},
+                                  {"field": "note_de", "title": {"de": "Anmerkung", "en": "Note (German)"}}]}},
+                 {"transform": [{"filter": "datum.status == 'in Betrieb'"}],
+                  "mark": {"type": "point", "shape": "triangle-right", "filled": True, "size": 90},
+                  "encoding": {
+                      "y": {"field": "name", "type": "nominal", "sort": SORT_Y},
+                      "x": {"field": "plot_end", "type": "quantitative"},
+                      "color": {"field": "kind_label", "type": "nominal", }}},
+             ]}},
+        {"id": "c2", "dataset": "werke",
+         "title": {"de": "Stilllegungen je Jahrzehnt und weitere Nutzung", "en": "Closures per decade and subsequent use"},
+         "caption": {"de": f"Anzahl der Werke, die in einem Jahrzehnt eingingen oder umgewandelt wurden, nach dem, was aus ihnen wurde. {len(in_wave)} von {n_closed} Stilllegungen liegen zwischen 1823 und 1856.",
+                     "en": f"Number of works closed or converted in a decade, by what became of them. {len(in_wave)} of {n_closed} closures fall between 1823 and 1856."},
+         "vegalite": {
+             "height": 280,
+             "transform": [{"filter": "datum.end_year != null"}, {"calculate": FATE_CALC, "as": "fate_label"}],
+             "mark": "bar",
+             "encoding": {
+                 "x": {"field": "end_year", "type": "quantitative", "bin": {"step": 10}, "axis": {"format": "d", "tickMinStep": 10}, "title": {"de": "Jahrzehnt der Stilllegung", "en": "Decade of closure"}},
+                 "y": {"aggregate": "count", "type": "quantitative", "title": {"de": "Anzahl Werke", "en": "Number of works"}, "axis": {"tickMinStep": 1}},
+                 "color": {"field": "fate_label", "type": "nominal", "title": {"de": "Danach", "en": "Afterwards"}},
+                 "tooltip": [{"field": "fate_label", "title": {"de": "Danach", "en": "Afterwards"}}, {"aggregate": "count", "title": {"de": "Anzahl", "en": "Number"}}]}}},
+    ],
+    "keywords": {"de": ["Hammerwerke", "Hüttenwerke", "Eisenhammer", "Kupferhütte", "Oberland", "Lobenstein", "Schleiz", "Saale", "Wettera", "Stilllegung", "Bergbau", "Metallurgie"],
+                 "en": ["hammer works", "smelters", "ironworks", "copper smelter", "Oberland", "Lobenstein", "Schleiz", "closures", "mining", "metallurgy"]},
+    "related": ["bergbau-bestand-oberland-vor-1648", "bergbau-erzbergbau-zeitleiste-ober-unterland"],
+    "generated_by": GENERATED_BY,
+    "date": DATE,
+}
+write_analysis(ana)

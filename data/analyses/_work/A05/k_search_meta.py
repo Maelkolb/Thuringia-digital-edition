@@ -1,0 +1,169 @@
+"""Search metadata for pp. 70-90 (package A05) -> data/search/pages/A05.json"""
+import json
+from common import ROOT
+
+P = []
+
+
+def page(p, sde, sen, kde, ken, subj):
+    P.append({"page": p, "summary_de": sde, "summary_en": sen, "keywords_de": kde, "keywords_en": ken, "subjects": subj})
+
+
+page("70",
+     "Schluss der Messungen der Quellentemperatur im Klimaabschnitt (Wasser eines Dorfziehbrunnens im Mai 5½–6½° R.; Quellen des Oberlandes nach Ingenieur Elsässer 7–12° R.). Beginn von Abschnitt 8, Vegetationsverhältnisse: Die Landesflora entspricht der Mitteldeutschlands, das Unterland geht in der Flora Thüringens auf, das Oberland (Frankenwald) zeigt Übergänge nach Franken.",
+     "End of the measurements of spring temperature in the climate section (water of a village draw-well in May 5½–6½° R.; springs of the Oberland after the engineer Elsässer 7–12° R.). Start of section 8, vegetation: the regional flora corresponds to that of central Germany, the Unterland merges into the flora of Thuringia, the Oberland (Frankenwald) shows transitions to Franconia.",
+     ["Quellentemperatur", "Ziehbrunnen", "Elsässer", "Vegetation", "Flora", "Mitteldeutschland", "Frankenwald", "Thüringen", "Franken", "Unterland", "Oberland"],
+     ["spring temperature", "draw-well", "Elsässer", "vegetation", "flora", "central Germany", "Frankenwald", "Thuringia", "Franconia", "Unterland", "Oberland"],
+     ["Quellen", "Temperatur", "Vegetation"])
+page("71",
+     "Kulturlandschaft gegenüber dem Urzustand: Rodungen (Grün, Geräumde, Reuth, Au), Rückgang von Eichen-, Buchen-, Eiben- und Birkenbeständen, Ausbreitung der Fichte, eingeführte Nutz- und Zierpflanzen (Getreide, Klee, Raps, Flachs, Kartoffeln, Obst). Eine vollständige Artenaufzählung ist nicht möglich; das höhere Gebirge ist botanisch nicht erforscht, der Gera-Raum durch Robert Schmidt, Otto Müller und Chr. Seydel.",
+     "Cultural landscape compared with the original state: clearings (Grün, Geräumde, Reuth, Au), decline of oak, beech, yew and birch stands, spread of the spruce, introduced useful and ornamental plants (cereals, clover, rape, flax, potatoes, fruit). A complete list of species is not possible; the higher mountains are botanically unexplored, the Gera area was surveyed by Robert Schmidt, Otto Müller and Chr. Seydel.",
+     ["Rodung", "Kulturlandschaft", "Eiche", "Buche", "Eibe", "Fichte", "Kulturpflanzen", "Robert Schmidt", "Otto Müller", "Christian Seydel", "Flora"],
+     ["clearing", "cultural landscape", "oak", "beech", "yew", "spruce", "cultivated plants", "Robert Schmidt", "Otto Müller", "Christian Seydel", "flora"],
+     ["Vegetation", "Wald", "Flurnamen"])
+page("72",
+     "Tabelle der Blütenpflanzen (Phanerogamen): Reußenland 1093 Arten (851 Zweikeimblättrige, 242 Einkeimblättrige) im Vergleich mit Unterland, Oberland, Thüringen (1421), Franken (1332) und Deutschland (2840); 38,4 % der deutschen Arten. Beginn des Verzeichnisses der nur im Unterland vorkommenden Pflanzen (nach den Berichtigungen S. 830 ist Laserpitium pruthenicum zu streichen).",
+     "Table of flowering plants (phanerogams): Reuss territory 1,093 species (851 dicotyledons, 242 monocotyledons) compared with the Unterland, the Oberland, Thuringia (1,421), Franconia (1,332) and Germany (2,840); 38.4 % of the German species. Start of the list of plants found only in the Unterland (according to the corrections on p. 830 Laserpitium pruthenicum is to be deleted).",
+     ["Phanerogamen", "Blütenpflanzen", "Artenzahl", "Zweikeimblättrige", "Einkeimblättrige", "Thüringen", "Franken", "Deutschland", "Unterland", "Pflanzenliste"],
+     ["phanerogams", "flowering plants", "species count", "dicotyledons", "monocotyledons", "Thuringia", "Franconia", "Germany", "Unterland", "plant list"],
+     ["Pflanzen", "Vegetation"])
+page("73",
+     "Fortsetzung der Liste der nur im Unterland vorkommenden Pflanzen (Korbblütler, Lippenblütler, Orchideen, Gräser; nach S. 830 sind Neottia Nidus avis und Gentiana ciliata zu streichen, Salvia verticillata zu ergänzen) und Beginn der Liste der nur im Oberland vorkommenden Pflanzen (Hahnenfuß- und Kreuzblütler).",
+     "Continuation of the list of plants found only in the Unterland (composites, labiates, orchids, grasses; according to p. 830 Neottia Nidus avis and Gentiana ciliata are to be deleted and Salvia verticillata added) and start of the list of plants found only in the Oberland (buttercups and crucifers).",
+     ["Pflanzenliste", "Unterland", "Oberland", "Orchideen", "Korbblütler", "Kreuzblütler", "Seltenheiten", "Salvia verticillata", "Berichtigungen"],
+     ["plant list", "Unterland", "Oberland", "orchids", "composites", "crucifers", "rarities", "Salvia verticillata", "corrigenda"],
+     ["Pflanzen", "Vegetation"])
+page("74",
+     "Fortsetzung der Liste der nur im Oberland vorkommenden Pflanzen (Doldenblütler, Sauergräser, Seggen, Mauerpfeffer u. a.). Zahl der blütenlosen Pflanzen (Kryptogamen): 658 Arten ohne 78 Varietäten, davon 200 Laubmoose, 60 Lebermoose, 131 Flechten, 101 Algen und 140 Pilze.",
+     "Continuation of the list of plants found only in the Oberland (umbellifers, sedges, stonecrops and others). Number of flowerless plants (cryptogams): 658 species excluding 78 varieties, of them 200 mosses, 60 liverworts, 131 lichens, 101 algae and 140 fungi.",
+     ["Kryptogamen", "Moose", "Flechten", "Algen", "Pilze", "Pflanzenliste", "Oberland", "Artenzahl", "Doldenblütler", "Sauergräser"],
+     ["cryptogams", "mosses", "lichens", "algae", "fungi", "plant list", "Oberland", "species count", "umbellifers", "sedges"],
+     ["Pflanzen", "Vegetation"])
+page("75",
+     "Zahl der Gefäßkryptogamen (26 Farne, Schachtelhalme, Bärlappe); das Oberland hat die reichere Flora. Seltene Arten: Gentiana verna bei Schleiz, Achillea tanacetifolia und Lonicera Diervilla bei Heinrichsruh, Apocynum bei Untermhaus, Telekia speciosa 1862 an der Elster. Vegetation des Unterlandes auf Buntsandstein und Zechstein, Wasser- und Sumpfpflanzen, Wiesengräser.",
+     "Number of vascular cryptogams (26 ferns, horsetails, clubmosses); the Oberland has the richer flora. Rare species: Gentiana verna near Schleiz, Achillea tanacetifolia and Lonicera Diervilla at Heinrichsruh, Apocynum at Untermhaus, Telekia speciosa in 1862 on the Elster. Vegetation of the Unterland on Bunter sandstone and Zechstein, water and marsh plants, meadow grasses.",
+     ["Farne", "Schachtelhalme", "Bärlappe", "Gentiana verna", "Heinrichsruh", "Untermhaus", "Buntsandstein", "Zechstein", "Wasserpflanzen", "Wiesen", "Flora"],
+     ["ferns", "horsetails", "clubmosses", "Gentiana verna", "Heinrichsruh", "Untermhaus", "Bunter sandstone", "Zechstein", "aquatic plants", "meadows", "flora"],
+     ["Vegetation", "Pflanzen"])
+page("76",
+     "Pflanzen feuchter und trockener Wiesen und des Waldbodens im Unterland; seltene Blütenpflanzen und Kryptogamen mit Fundorten um Gera (Frankenthal, Köstritz, Zwötzen, Pforten, Ernsee, Hainberg, Windischenbernsdorf u. a.), darunter Moose, Flechten und Algen.",
+     "Plants of damp and dry meadows and of the forest floor in the Unterland; rare flowering plants and cryptogams with find-spots around Gera (Frankenthal, Köstritz, Zwötzen, Pforten, Ernsee, Hainberg, Windischenbernsdorf and others), among them mosses, lichens and algae.",
+     ["Fundorte", "seltene Pflanzen", "Gera", "Köstritz", "Pforten", "Ernsee", "Hainberg", "Moose", "Flechten", "Wiesenpflanzen", "Orchideen"],
+     ["find-spots", "rare plants", "Gera", "Köstritz", "Pforten", "Ernsee", "Hainberg", "mosses", "lichens", "meadow plants", "orchids"],
+     ["Pflanzen", "Vegetation"])
+page("77",
+     "Schluss der Algen-Fundorte; Feldunkräuter nach Bodenart (Sand, Kalk, Grauwacke). Wald: westlich der Elster sind noch 3/5, östlich nur 2/5 bewaldet, das Holzland an der altenburgischen und weimarischen Grenze; Hauptbaum Rothtanne, kleinere Bestände von Weißtanne, Buche, Kiefer, Birke; Eiche, Linde, Lärche. Obstbäume, Walnuss, Weinrebe und Hopfen.",
+     "End of the algae find-spots; field weeds by soil type (sand, limestone, greywacke). Forest: west of the Elster 3/5 is still wooded, east of it only 2/5, the Holzland on the Altenburg and Weimar border; main tree the spruce, smaller stands of silver fir, beech, pine, birch; oak, lime, larch. Fruit trees, walnut, vine and hops.",
+     ["Wald", "Waldanteil", "Rothtanne", "Fichte", "Eiche", "Buche", "Holzland", "Obstbäume", "Weinrebe", "Hopfen", "Unkräuter"],
+     ["forest", "forest cover", "spruce", "oak", "beech", "Holzland", "fruit trees", "vine", "hops", "weeds"],
+     ["Wald", "Forstwirtschaft", "Obst- und Gartenbau", "Vegetation"])
+page("78",
+     "Alte Bäume um Osterstein (Linden, Platane, Eichen, Buchen) und im Unterland; Flora des Oberlandes auf Thon- und Grauwackenschiefer, reich durch Teiche, Quellen und Moore. Flurnamen für feuchte Stellen und für Baumarten (Eich-, Buch-, Birk-, Tann-, Eib-); heutiger Wald überwiegend Fichte, Kiefer, Birke, Buche. Berichtigung S. 830: Die Einzelfichte wurde am 7. Dezember 1868 vom Sturm gebrochen.",
+     "Old trees around Osterstein (limes, plane tree, oaks, beeches) and in the Unterland; flora of the Oberland on clay slate and greywacke slate, rich through ponds, springs and bogs. Field names for wet places and tree species (Eich-, Buch-, Birk-, Tann-, Eib-); present forest mainly spruce, pine, birch, beech. Correction p. 830: the solitary spruce was broken by a storm on 7 December 1868.",
+     ["alte Bäume", "Osterstein", "Flurnamen", "Fichte", "Eiche", "Buche", "Birke", "Eibe", "Moore", "Oberland", "Sturm 1868"],
+     ["old trees", "Osterstein", "field names", "spruce", "oak", "beech", "birch", "yew", "bogs", "Oberland", "storm 1868"],
+     ["Wald", "Flurnamen", "Vegetation"])
+page("79",
+     "Starke Südwestwinde beugen die Bäume im Oberland nach Nordosten; Altbäume (Stelzenbaum, ein Ahorn von etwa 340 Jahren; Eiche bei Reichenfels von etwa 370 Jahren; 200-jährige Tannen am Sieglitzberg). Waldboden und kennzeichnende Pflanzen des Oberlandes, Besenstrauch, Pflanzen der Felsen.",
+     "Strong south-west winds bend the trees in the Oberland towards the north-east; veteran trees (the Stelzenbaum, a maple of about 340 years; an oak near Reichenfels of about 370 years; 200-year-old firs on the Sieglitzberg). Forest floor and characteristic plants of the Oberland, broom, rock plants.",
+     ["Altbäume", "Stelzenbaum", "Reichenfels", "Südwestwind", "Besenstrauch", "Waldboden", "Heidelbeere", "Oberland", "Frankenwald", "Heinrichsruh"],
+     ["veteran trees", "Stelzenbaum", "Reichenfels", "south-west wind", "broom", "forest floor", "bilberry", "Oberland", "Frankenwald", "Heinrichsruh"],
+     ["Wald", "Pflanzen", "Vegetation"])
+page("80",
+     "Sumpf- und Wasserpflanzen des Oberlandes; Wiesen- und Ackerbezeichnungen (Auwiesen, Beunten, Rangen, Hofgelänge, Hölle); Pflanzen feuchter und trockener Wiesen, Unkräuter der Saatfelder, Pflanzen an Wegen und Rainen; Giftpflanzen (Schierling, Tollkirsche, Bilsenkraut).",
+     "Marsh and water plants of the Oberland; names for meadows and fields (Auwiesen, Beunten, Rangen, Hofgelänge, Hölle); plants of damp and dry meadows, weeds of the cornfields, plants of wayside and field margins; poisonous plants (hemlock, deadly nightshade, henbane).",
+     ["Wasserpflanzen", "Sumpfpflanzen", "Wiesen", "Unkräuter", "Giftpflanzen", "Flurnamen", "Schierling", "Tollkirsche", "Arnika", "Oberland"],
+     ["aquatic plants", "marsh plants", "meadows", "weeds", "poisonous plants", "field names", "hemlock", "deadly nightshade", "arnica", "Oberland"],
+     ["Pflanzen", "Landwirtschaft", "Flurnamen"])
+page("81",
+     "Seltene Pflanzen der Landschaft Lobenstein nach Dr. Dürr in Lehesten (Heinrichstein, Röttersdorf, Wurzbach, Heinersdorf u. a.); Kulturpflanzen nehmen im Oberland mit der Höhe ab (Weinreben, Rosen). Beginn von Abschnitt 9, Fauna: keine wesentliche Verschiedenheit von Thüringen und Oberfranken.",
+     "Rare plants of the Lobenstein district after Dr Dürr of Lehesten (Heinrichstein, Röttersdorf, Wurzbach, Heinersdorf and others); cultivated plants decline with altitude in the Oberland (vines, roses). Start of section 9, fauna: no significant difference from Thuringia and Upper Franconia.",
+     ["Lobenstein", "Dürr", "Heinrichstein", "seltene Pflanzen", "Röttersdorf", "Wurzbach", "Kulturpflanzen", "Weinrebe", "Fauna", "Oberland"],
+     ["Lobenstein", "Dürr", "Heinrichstein", "rare plants", "Röttersdorf", "Wurzbach", "cultivated plants", "vine", "fauna", "Oberland"],
+     ["Pflanzen", "Obst- und Gartenbau", "Tierwelt"])
+page("82",
+     "Flurnamen mit Tiernamen (Bär, Wolf, Luchs, Hirsch, Reh, Fuchs u. a.) als »topographische Fauna«; 50 Säugetierarten; Bär, Luchs und Wolf ausgerottet (die letzten drei Bären um 1730 bei Langenwetzendorf); Fledermäuse, Igel, Fuchs, Marder, Dachs und Nagetiere.",
+     "Field names with animal names (bear, wolf, lynx, deer, roe deer, fox and others) as “topographical fauna”; 50 species of mammals; bear, lynx and wolf exterminated (the last three bears around 1730 near Langenwetzendorf); bats, hedgehog, fox, martens, badger and rodents.",
+     ["Tiernamen", "Flurnamen", "Säugetiere", "Bär", "Wolf", "Luchs", "Langenwetzendorf", "Fledermäuse", "Fuchs", "ausgerottet", "Fauna"],
+     ["animal names", "field names", "mammals", "bear", "wolf", "lynx", "Langenwetzendorf", "bats", "fox", "extirpated", "fauna"],
+     ["Tierwelt", "Säugetiere", "Flurnamen", "Jagd"])
+page("83",
+     "Säugetiere im Unterland und Oberland (Eichhorn, Kaninchen, Hamster); Wisent und Wildschwein verschwunden (Wildschwein 1647 noch Abgabe an die Herrschaft); Haustierrassen (Pferde, Landsäue, Schafe, voigtländisches Rind); Rot- und Damhirsch. Vögel: rund 140 Brutvogelarten, insgesamt etwa 280, Häufigkeit nach Landesteilen.",
+     "Mammals in the Unterland and Oberland (squirrel, rabbit, hamster); wisent and wild boar vanished (wild boar still a due to the lord in 1647); domestic breeds (horses, Landsäue pigs, sheep, Voigtland cattle); red and fallow deer. Birds: about 140 breeding species, about 280 in total, frequency by part of the territory.",
+     ["Säugetiere", "Wisent", "Wildschwein", "Rotwild", "Hamster", "Haustierrassen", "Vögel", "Brutvögel", "Artenzahl", "Rinderrassen", "Landsau"],
+     ["mammals", "wisent", "wild boar", "red deer", "hamster", "livestock breeds", "birds", "breeding birds", "species count", "cattle breeds", "Landsau"],
+     ["Säugetiere", "Vögel", "Viehzucht", "Jagd"])
+page("84",
+     "Häufigkeit der Singvögel und anderer Arten im Unterland und im Oberland, in fünf Gruppen; Vogelfang (reicher Meisenfang am 18. Oktober 1813); Zunahme des Stars; neue Einwanderer (Gerstenammer seit 1868 bei Schleiz, Rohrammer, Wacholderdrossel). Berichtigungen S. 831: Buntspechte statt Grünspechte, Steinschmätzer, großer Würger 1869 wieder nachgewiesen.",
+     "Frequency of songbirds and other species in the Unterland and the Oberland, in five groups; bird catching (rich catch of tits on 18 October 1813); increase of the starling; new immigrants (corn bunting at Schleiz since 1868, reed bunting, fieldfare). Corrections p. 831: spotted woodpeckers instead of green woodpeckers, wheatears, great grey shrike recorded again in 1869.",
+     ["Singvögel", "Vogelfang", "Meisenfang", "Star", "Gerstenammer", "Rohrammer", "Wacholderdrossel", "Nachtigall", "Buntspecht", "Steinschmätzer", "Würger"],
+     ["songbirds", "bird catching", "tit catch", "starling", "corn bunting", "reed bunting", "fieldfare", "nightingale", "woodpecker", "wheatear", "shrike"],
+     ["Vögel", "Tierwelt", "Jagd"])
+page("85",
+     "Rückgang von Schwarzspecht, Kolkrabe, Elster und Saatkrähe; Raubvögel und Eulen nach Häufigkeit, Hühner- und Taubenvögel (Auerwild, Birkwild, Rebhuhn, Fasan), Sumpf- und Wasservögel. Beginn der Liste seltener Zug- und Strichvögel um Schleiz und Gera nach dem Verzeichnis eines Vereins (Berichtigungen S. 831: mehrere Arten nicht selten).",
+     "Decline of black woodpecker, raven, magpie and rook; birds of prey and owls by frequency, gamebirds and pigeons (capercaillie, black grouse, partridge, pheasant), marsh and water birds. Start of the list of rare migrants and wanderers near Schleiz and Gera after a society's register (corrections p. 831: several species not rare).",
+     ["Raubvögel", "Eulen", "Auerwild", "Birkwild", "Rebhuhn", "Wasservögel", "Zugvögel", "Vogelrückgang", "Schleiz", "Gera", "Uhu"],
+     ["birds of prey", "owls", "capercaillie", "black grouse", "partridge", "water birds", "migratory birds", "bird decline", "Schleiz", "Gera", "eagle owl"],
+     ["Vögel", "Jagd", "Tierwelt"])
+page("86",
+     "Fortsetzung der Liste seltener Zug- und Strichvögel (Singvögel, Krähenartige, Spechte, Sumpf- und Wasservögel, Enten; Schellente statt Schallente nach S. 831); Ankunftszeiten der Wandervögel im Raum Gera von Februar bis Mai, Abzug Mitte August bis Mitte November; 19 Arten Reptilien und Amphibien (Eidechsen, Nattern, Kreuzotter, Frösche, Kröten, Molche).",
+     "Continuation of the list of rare migrants and wanderers (songbirds, crow family, woodpeckers, marsh and water birds, ducks; Schellente instead of Schallente according to p. 831); arrival times of migratory birds in the Gera area from February to May, departure mid-August to mid-November; 19 species of reptiles and amphibians (lizards, snakes, adder, frogs, toads, newts).",
+     ["Vogelzug", "Ankunftszeiten", "Zugvögel", "Feldlerche", "Kuckuck", "Reptilien", "Amphibien", "Kreuzotter", "Frösche", "Schellente", "Wasservögel"],
+     ["bird migration", "arrival times", "migratory birds", "skylark", "cuckoo", "reptiles", "amphibians", "adder", "frogs", "goldeneye", "water birds"],
+     ["Vögel", "Tierwelt", "Phänologie"])
+page("87",
+     "Rückgang der Fische (1647 waren noch alle Bäche Forellenbäche; Ursachen: räuberischer Fischfang, überkommene Fischzucht). Tabelle der Fischarten Nr. 1–26 mit zoologischen Namen und Volksnamen für Saale, Elster, Wiesenthal und Teiche (Berichtigung S. 831: Bandschmerle statt Brandschmerle).",
+     "Decline of the fish (in 1647 all streams were still trout streams; causes: predatory fishing, old-fashioned fish breeding). Table of fish species nos. 1–26 with zoological names and folk names for the Saale, Elster, Wiesenthal and ponds (correction p. 831: Bandschmerle instead of Brandschmerle).",
+     ["Fische", "Fischarten", "Fischerei", "Forelle", "Saale", "Elster", "Wiesenthal", "Teiche", "Volksnamen", "Schmerle", "Karpfen"],
+     ["fish", "fish species", "fishing", "trout", "Saale", "Elster", "Wiesenthal", "ponds", "folk names", "loach", "carp"],
+     ["Fische", "Fischerei", "Tierwelt"])
+page("88",
+     "Schluss der Fischtabelle (Nr. 27–34: Äsche, Lachs, Lachsforelle, Steinforelle, Hecht, Aal, Neunaugen; mit * bezeichnet die besonders bevorzugten Arten). Weichtiere: 82 Arten (9 Muscheln, 73 Schnecken) in 22 Geschlechtern, aufgezählt nach Gattungen (Helix, Zonites, Clausilia, Limnaeus u. a.).",
+     "End of the fish table (nos. 27–34: grayling, salmon, sea trout, brown trout, pike, eel, lampreys; the especially preferred species are marked *). Molluscs: 82 species (9 bivalves, 73 snails) in 22 genera, listed by genus (Helix, Zonites, Clausilia, Limnaeus and others).",
+     ["Fische", "Äsche", "Lachs", "Forelle", "Hecht", "Aal", "Weichtiere", "Schnecken", "Muscheln", "Artenzahl", "Mollusken"],
+     ["fish", "grayling", "salmon", "trout", "pike", "eel", "molluscs", "snails", "bivalves", "species count", "mollusca"],
+     ["Fische", "Tierwelt"])
+page("89",
+     "Verteilung der Weichtiere auf Ober- und Unterland (Flussperlmuschel, Weinbergschnecke); Insekten sind kaum erforscht. Käfer (Hirschkäfer, Maikäfer, Borkenkäfer und andere Schädlinge, Franken etwa 2800, Altbayern etwa 3000 Arten); Schmetterlinge bei Zeulenroda 489 Arten (Beobachtungen des Lehrers Schreck), Seidenspinner. Berichtigungen S. 831: Maikäfer vierjährige Periode, Raupenfraß 1828, Prämie 1829.",
+     "Distribution of molluscs between Oberland and Unterland (freshwater pearl mussel, Roman snail); insects are hardly explored. Beetles (stag beetle, cockchafer, bark beetles and other pests, Franconia about 2,800, Old Bavaria about 3,000 species); butterflies and moths near Zeulenroda 489 species (observations of the teacher Schreck), silk moth. Corrections p. 831: cockchafer four-year cycle, caterpillar damage 1828, bounty 1829.",
+     ["Insekten", "Käfer", "Maikäfer", "Hirschkäfer", "Borkenkäfer", "Schmetterlinge", "Zeulenroda", "Schreck", "Seidenspinner", "Flussperlmuschel", "Weinbergschnecke"],
+     ["insects", "beetles", "cockchafer", "stag beetle", "bark beetles", "butterflies and moths", "Zeulenroda", "Schreck", "silk moth", "pearl mussel", "Roman snail"],
+     ["Insekten", "Tierwelt", "Obst- und Gartenbau"])
+page("90",
+     "Schädliche Schmetterlinge (Nonne, Kieferneule, Kiefernspinner, Kohlweißling); Hautflügler (Honigbiene, Schlupfwespen, Ameisen), Zweiflügler (Mückenplage im August), Heuschrecken (seit mehr als 100 Jahren keine Wanderzüge), Küchenschabe, Flusskrebs, Spinnentiere; die niederen Tiere sind unerforscht.",
+     "Harmful moths (nun moth, pine beauty, pine-tree lappet, cabbage white); Hymenoptera (honey bee, ichneumon wasps, ants), Diptera (mosquito plague in August), locusts (no migratory swarms for more than 100 years), cockroaches, freshwater crayfish, arachnids; the lower animals are unexplored.",
+     ["Schädlinge", "Nonne", "Kieferneule", "Honigbiene", "Heuschrecken", "Küchenschabe", "Flusskrebs", "Mücken", "Insekten", "Nadelwald", "Raupen"],
+     ["pests", "nun moth", "pine beauty", "honey bee", "locusts", "cockroach", "crayfish", "mosquitoes", "insects", "coniferous forest", "caterpillars"],
+     ["Insekten", "Tierwelt", "Bienenzucht", "Forstwirtschaft"])
+
+G = [
+    {"term": "Phanerogamen", "variants": ["Phanerogamen"], "kind": "term", "de": "Blütenpflanzen im weiteren Sinn (Samenpflanzen); bei Brückner »mit eigentlichen Blüthen begabte Pflanzen«.", "en": "Flowering plants in the wider sense (seed plants); in Brückner “plants endowed with proper flowers”.", "pages": ["72"]},
+    {"term": "Kryptogamen", "variants": ["blüthenlose Pflanzen"], "kind": "term", "de": "Blütenlose Pflanzen: Moose, Flechten, Algen, Pilze sowie die Gefäßkryptogamen (Farne, Schachtelhalme, Bärlappe).", "en": "Flowerless plants: mosses, lichens, algae, fungi and the vascular cryptogams (ferns, horsetails, clubmosses).", "pages": ["74", "75"]},
+    {"term": "Dicotylen / Monocotylen", "variants": ["Dicotylen", "Monocotylen"], "kind": "term", "de": "Zweikeimblättrige und Einkeimblättrige Pflanzen; Brückner gibt das Verhältnis beider als Zahl (z. B. 3,52 : 1 im Reußenland).", "en": "Dicotyledonous and monocotyledonous plants; Brückner gives their ratio as a figure (e.g. 3.52 : 1 in the Reuss territory).", "pages": ["72"]},
+    {"term": "Grad Réaumur (° R.)", "variants": ["° R.", "R."], "kind": "unit", "de": "Temperaturskala der Zeit; 0 °R = 0 °C, 1 °R = 1,25 °C.", "en": "Temperature scale of the period; 0 °R = 0 °C, 1 °R = 1.25 °C.", "pages": ["70"]},
+    {"term": "Grün, Geräumde, Reuth, Au", "variants": ["Geräumde", "Reuth", "Au (A)"], "kind": "term", "de": "Flurnamen für Lichtungen, die in das ursprüngliche Gras- und Waldland eingetrieben und zu Fluren umgestaltet wurden (S. 71).", "en": "Field names for clearings driven into the original grass and woodland and turned into fields (p. 71).", "pages": ["71"]},
+    {"term": "Scharre", "variants": ["Scharre"], "kind": "dialect", "de": "Mundartwort für die Hacke (»für den Pflug und die Hacke (Scharre) gewonnenes Ackerfeld«).", "en": "Dialect word for the hoe (“arable land won for plough and hoe (Scharre)”).", "pages": ["71"]},
+    {"term": "Holzland", "variants": ["Holzland"], "kind": "term", "de": "Der an der altenburgischen und weimarischen Landesgrenze hinziehende Waldstrich im Osten der Elster (S. 77).", "en": "The strip of forest along the Altenburg and Weimar border east of the Elster (p. 77).", "pages": ["77"]},
+    {"term": "einschürig, zweischürig, dreischürig", "variants": ["einschürigen", "zwei- und dreischürigen"], "kind": "term", "de": "Wiesen, die einmal, zweimal oder dreimal im Jahr gemäht werden; die guten Talwiesen sind zwei- bis dreischürig, die trockenen Hochflächen einschürig.", "en": "Meadows mown once, twice or three times a year; the good valley meadows are mown two or three times, the dry uplands once.", "pages": ["75", "80"]},
+    {"term": "Rangen, Eller", "variants": ["Rangen", "Eller"], "kind": "dialect", "de": "Namen für die trockeneren, nur einmal gemähten Wiesen des Oberlandes (S. 80).", "en": "Names for the drier meadows of the Oberland mown only once (p. 80).", "pages": ["80"]},
+    {"term": "Beunten", "variants": ["Beunte"], "kind": "dialect", "de": "Nach Brückner »gebundene, vom Wege und Viehtriebe abgeschlossene Wiesen« in der Nähe der Orte (S. 80).", "en": "According to Brückner “bound meadows closed off from the path and the cattle drive” near the villages (p. 80).", "pages": ["80"]},
+    {"term": "Handflügler", "variants": ["Handflügler"], "kind": "term", "de": "Fledermäuse (Chiroptera), hier Blattnasen und verschiedene Fledermausarten, die zahlreichste Säugetierordnung im Land (S. 82).", "en": "Bats (Chiroptera), here leaf-nosed bats and various bat species, the most numerous order of mammals in the country (p. 82).", "pages": ["82"]},
+    {"term": "Wisent", "variants": ["Wisentstier", "Auerochs"], "kind": "term", "de": "Europäischer Bison; Brückner gleichsetzend »Wisentstier, Auerochs«. Nach ihm tragen der Fluss Wiesenthal (»Wisentthal«) und das Schleizer Wappen den Namen bzw. das Tier (S. 83).", "en": "European bison; Brückner equates “Wisentstier, Auerochs”. According to him the river Wiesenthal (“Wisentthal”) and the arms of Schleiz carry its name or image (p. 83).", "pages": ["82", "83"]},
+    {"term": "Landsau", "variants": ["Landsäue"], "kind": "dialect", "de": "Im Land selbst gezüchtete Schweine, im Unterschied zu eingeführten Pferden (S. 83).", "en": "Pigs bred in the country itself, as opposed to imported horses (p. 83).", "pages": ["83"]},
+    {"term": "Rothwild", "variants": ["Rothwild", "Edelhirsch"], "kind": "term", "de": "Rothirsch (Edelhirsch); im Unterland seit 1848 nicht mehr vorkommend (S. 83).", "en": "Red deer; no longer found in the Unterland since 1848 (p. 83).", "pages": ["83"]},
+    {"term": "Krammetsvogel", "variants": ["Krammetsvogel", "Ziemer"], "kind": "term", "de": "Drosselart: bei Brückner der große Krammetsvogel die Misteldrossel (Turdus viscivorus), der kleine die Wachholderdrossel (Turdus pilaris); »Ziemer« als Nebenname (S. 84–85).", "en": "A kind of thrush: in Brückner the large Krammetsvogel is the mistle thrush (Turdus viscivorus), the small one the fieldfare (Turdus pilaris); “Ziemer” as a by-name (pp. 84–85).", "pages": ["84", "85"]},
+    {"term": "Zippe", "variants": ["Zippen"], "kind": "dialect", "de": "Mundartname der Singdrossel (S. 84).", "en": "Dialect name of the song thrush (p. 84).", "pages": ["84"]},
+    {"term": "Standvogel, Zugvogel, Strichvogel", "variants": ["Standvogel", "Zugvögel", "Strichvögel"], "kind": "term", "de": "Standvögel bleiben das ganze Jahr am Ort, Zugvögel ziehen im Frühjahr und Herbst durch, Strichvögel streichen im Herbst und Winter in kleineren Räumen umher; Brückner rechnet nur die Brutvögel als »heimathberechtigt« (S. 83–85).", "en": "Resident birds stay in place all year, migrants pass through in spring and autumn, wandering birds roam in smaller areas in autumn and winter; Brückner counts only the breeding birds as “entitled to the homeland” (pp. 83–85).", "pages": ["83", "84", "85"]},
+    {"term": "Sprinzel, Garn, Vogelherd", "variants": ["Sprinzeln", "Garnen", "Vogelheerden"], "kind": "term", "de": "Fanggeräte und Fangplätze für Singvögel (Schlingen, Netze, Vogelherde), deren Verwendung verboten ist (S. 84).", "en": "Devices and places for catching songbirds (snares, nets, bird-catching grounds), the use of which is forbidden (p. 84).", "pages": ["84"]},
+    {"term": "Lurche", "variants": ["Lurchen", "Echsengeschlecht"], "kind": "term", "de": "Sammelbezeichnung für Kriechtiere und Amphibien (Reptilien und Amphibien); im Land 19 Arten (S. 86).", "en": "Collective term for reptiles and amphibians; 19 species in the country (p. 86).", "pages": ["86"]},
+    {"term": "Zoll", "variants": ["Zoll"], "kind": "unit", "de": "Längenmaß, ein Zwölftel Fuß; bei einem preußischen Fuß von 0,313853 m (S. 831) rund 2,6 cm.", "en": "Unit of length, one twelfth of a foot; with a Prussian foot of 0.313853 m (p. 831) about 2.6 cm.", "pages": ["86"]},
+    {"term": "Fuß ( ' )", "variants": ["'"], "kind": "unit", "de": "Längenmaß; nach Brückner (S. 831) 1 preuß. Fuß = 0,313853 m, 1 Baufuß (leipziger Werkmaß) = 0,282655 m. Baumumfänge sind in Fuß angegeben (S. 79).", "en": "Unit of length; according to Brückner (p. 831) 1 Prussian foot = 0.313853 m, 1 Baufuß (Leipzig builders' measure) = 0.282655 m. Tree girths are given in feet (p. 79).", "pages": ["79"]},
+    {"term": "Pfund (Pfd.)", "variants": ["Pfd."], "kind": "unit", "de": "Gewicht; 1 Pfund (Zollpfund) = 0,5 Kilogramm (S. 832). Bei Fischen: Barbe bis 9 Pfd., Karausche bis 1 Pfd.", "en": "Weight; 1 Pfund (Zollpfund) = 0.5 kilogram (p. 832). For fish: barbel up to 9 Pfd., crucian carp up to 1 Pfd.", "pages": ["87"]},
+    {"term": "Wetterfisch", "variants": ["Wetterfisch", "Schlammpitzger"], "kind": "dialect", "de": "Volksname des Schlammpeitzgers (Cobitis fossilis), besonders bei Köstritz an der Elster und in der Wiesenthal (S. 87).", "en": "Folk name of the weatherfish (Cobitis fossilis), especially at Köstritz on the Elster and in the Wiesenthal (p. 87).", "pages": ["87"]},
+    {"term": "Bricke", "variants": ["Bricke"], "kind": "dialect", "de": "Volksname des Flussneunauges (in Brückners Tabelle Petromyzon fluviatilis) in der Saale (S. 88).", "en": "Folk name of the river lamprey (in Brückner's table Petromyzon fluviatilis) in the Saale (p. 88).", "pages": ["88"]},
+]
+out = {"package": "A05", "pages": P, "glossary": G}
+f = ROOT / "data" / "search" / "pages" / "A05.json"
+f.parent.mkdir(parents=True, exist_ok=True)
+f.write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
+print("wrote", f, len(P), "pages", len(G), "glossary")

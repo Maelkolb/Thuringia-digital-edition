@@ -1,0 +1,35 @@
+{
+  "page_number": 404,
+  "image_filename": "bsb11005578_seq_416_page_404_(0416).jpg",
+  "structure": {
+    "page_number_printed": null,
+    "header": null,
+    "content_blocks": [
+      {
+        "block_type": "paragraph",
+        "block_index": 0,
+        "content": "Druck von Hermann Rudolph in Gera."
+      }
+    ],
+    "footnotes": []
+  },
+  "ocr_text": "Druck von Hermann Rudolph in Gera.",
+  "entities": [
+    {
+      "text": "Hermann Rudolph",
+      "entity_type": "Person",
+      "start_char": 10,
+      "end_char": 25,
+      "context": "Druck von Hermann Rudolph in Gera."
+    },
+    {
+      "text": "Gera",
+      "entity_type": "Location",
+      "start_char": 29,
+      "end_char": 33,
+      "context": "Druck von Hermann Rudolph in Gera."
+    }
+  ],
+  "processing_timestamp": "2026-03-05T12:06:21.156114",
+  "model_used": "gemini-3-flash-preview"
+}
