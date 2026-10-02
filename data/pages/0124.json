@@ -53,7 +53,8 @@
      487,
      "Location"
     ]
-   ]
+   ],
+   "sec": "t1-2-1"
   },
   {
    "id": "b2",
@@ -71,21 +72,25 @@
      144,
      "Location"
     ]
-   ]
+   ],
+   "sec": "t1-2-1"
   },
   {
    "id": "b3",
    "type": "heading",
    "src": 2,
    "text": "Die Ehen in jährlicher Vermehrung und im Verhältniß zur Bevölkerung.",
-   "spans": []
+   "spans": [],
+   "sec": "t1-2-1",
+   "level": 5
   },
   {
    "id": "b4",
    "type": "paragraph",
    "src": 3,
    "text": "So sorgfältig auch früher die Copulirten von den Pfarrämtern aufgezeichnet wurden, so geschah doch ihre Zusammenstellung stets mit den Geborenen und Gestorbenen, keineswegs mit der Gesammtteinwohnerzahl, weshalb ihre statistische Verwerthung nur da möglich ist, wo sich die Bevölkerungssumme finden lässt. Die das ganze Land umfassenden Trauungsziffern sind:",
-   "spans": []
+   "spans": [],
+   "sec": "t1-2-1"
   },
   {
    "id": "b5",
@@ -1915,7 +1920,8 @@
      "1,01"
     ]
    ],
-   "caption": null
+   "caption": null,
+   "sec": "t1-2-1"
   }
  ],
  "footnotes": [],
@@ -1938,5 +1944,13 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-03T15:13:59.212490",
   "early_schema": false
- }
+ },
+ "section_path": [
+  "t1",
+  "t1-2",
+  "t1-2-1"
+ ],
+ "sections": [
+  "t1-2-1"
+ ]
 }

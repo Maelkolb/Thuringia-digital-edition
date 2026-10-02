@@ -56,3 +56,11 @@ Helpers: `tools/facsimile.py` (IIIF crops), `tools/gbif_match.py`, `tools/wikida
 ## Licences
 
 Transcription, annotations, registers, place articles, analyses and edition texts: CC BY 4.0. Facsimiles: Bayerische Staatsbibliothek, NoC-NC 1.0 (embedded via IIIF, not redistributed). Coordinates GeoNames (CC BY 4.0), taxonomy GBIF (CC BY 4.0), Wikidata (CC0). Vendored libraries: OpenSeadragon, Leaflet, Vega (BSD); fonts Newsreader, Source Sans 3, IBM Plex Mono (OFL).
+
+## Printed lines and image regions
+
+`tools/lines/modal_lines.py` detects the printed lines on every BSB scan with kraken (blla) and reads each line with
+Tesseract (`frak2021`, UB Mannheim) on Modal (`uvx --from modal modal run tools/lines/modal_lines.py`, about 18 s per page,
+10 containers; output `data/lines/raw/`). `tools/lines/align_lines.py` aligns the readings with the transcription
+(`data/lines/aligned/`, summary in `data/lines/summary.json`). The site uses them for the line view and the text/facsimile
+highlighting, the TEI export for `<lb facs>` and `<zone>`. Check the page view with `node tools/check_pageview.mjs 203`.

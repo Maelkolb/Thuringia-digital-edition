@@ -22,7 +22,8 @@
    "word_division": {
     "word": "allgemein",
     "part": "gemein"
-   }
+   },
+   "sec": "t1-2-4"
   },
   {
    "id": "b2",
@@ -75,14 +76,16 @@
      92,
      "Location"
     ]
-   ]
+   ],
+   "sec": "t1-2-4"
   },
   {
    "id": "b3",
    "type": "paragraph",
    "src": 2,
    "text": "hatte das frühere voigtländische Bier im Oberlande keinen Ruhm. Will man sagen, daß dies Sprüchlein nicht das jetzige reußische Oberland treffe, so thut es doch der folgende, gleichfalls sehr alte Reimsatz:",
-   "spans": []
+   "spans": [],
+   "sec": "t1-2-4"
   },
   {
    "id": "b4",
@@ -105,7 +108,8 @@
      51,
      "Artefact"
     ]
-   ]
+   ],
+   "sec": "t1-2-4"
   },
   {
    "id": "b5",
@@ -148,7 +152,8 @@
      2301,
      "Plant"
     ]
-   ]
+   ],
+   "sec": "t1-2-4"
   }
  ],
  "footnotes": [],
@@ -158,5 +163,13 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-03T15:31:41.636223",
   "early_schema": false
- }
+ },
+ "section_path": [
+  "t1",
+  "t1-2",
+  "t1-2-4"
+ ],
+ "sections": [
+  "t1-2-4"
+ ]
 }

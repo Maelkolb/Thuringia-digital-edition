@@ -78,14 +78,17 @@
      1234,
      "Location"
     ]
-   ]
+   ],
+   "sec": "t2-3"
   },
   {
    "id": "b2",
    "type": "heading",
    "src": 1,
    "text": "Specialhaus Lobenstein.",
-   "spans": []
+   "spans": [],
+   "sec": "t2-3",
+   "level": 4
   },
   {
    "id": "b3",
@@ -98,7 +101,9 @@
      11,
      "Person"
     ]
-   ]
+   ],
+   "sec": "t2-3",
+   "level": 4
   },
   {
    "id": "b4",
@@ -121,14 +126,16 @@
      45,
      "Person"
     ]
-   ]
+   ],
+   "sec": "t2-3"
   },
   {
    "id": "b5",
    "type": "paragraph",
    "src": 4,
    "text": "Die weniger nach geographischer Abrundung und bequemer Verwaltung, als vielmehr nach Gleichheit der Revenuen gemachten Portionen waren:",
-   "spans": []
+   "spans": [],
+   "sec": "t2-3"
   },
   {
    "id": "b6",
@@ -266,7 +273,8 @@
      497,
      "Location"
     ]
-   ]
+   ],
+   "sec": "t2-3"
   },
   {
    "id": "b7",
@@ -419,7 +427,8 @@
      417,
      "Natural Object"
     ]
-   ]
+   ],
+   "sec": "t2-3"
   },
   {
    "id": "b8",
@@ -532,7 +541,8 @@
      374,
      "Natural Object"
     ]
-   ]
+   ],
+   "sec": "t2-3"
   }
  ],
  "footnotes": [
@@ -731,5 +741,12 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-05T12:21:19.253438",
   "early_schema": false
- }
+ },
+ "section_path": [
+  "t2",
+  "t2-3"
+ ],
+ "sections": [
+  "t2-3"
+ ]
 }

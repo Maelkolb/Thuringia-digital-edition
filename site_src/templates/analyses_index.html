@@ -2,34 +2,19 @@
 {% block title %}Auswertungen – {{ site.short_title }}{% endblock %}
 {% block main %}
 <div class="wrap">
-  <p class="eyebrow" style="margin-top:36px">{{ t('Daten', 'Data') }} · {{ cards|length }} {{ t('Auswertungen', 'analyses') }}</p>
-  <h1 class="doc-title">{{ t('Auswertungen', 'Analyses') }}</h1>
-  <p class="lede">{{ t('Brückners Tabellen und Zahlenreihen als interaktive Diagramme. Jede Auswertung nennt ihre Quellen (Seite und Tabelle), legt ihre Methode und Umrechnungen offen und stellt die Daten als CSV bereit. Alle Auswertungen folgen einem einheitlichen, validierten Datenformat.', 'Brückner’s tables and number series as interactive charts. Every analysis cites its sources (page and table), discloses its method and unit conversions and offers its data as CSV. All analyses follow one uniform, validated data format.') }}</p>
-  <div class="filters" role="group" aria-label="Kategorie">
-    <button type="button" aria-pressed="true" data-cat="">{{ t('Alle', 'All') }} ({{ cards|length }})</button>
-    {% for c, de, en, n in cats %}<button type="button" aria-pressed="false" data-cat="{{ c }}">{{ t(de, en) }} ({{ n }})</button>{% endfor %}
+  <div class="ana-intro">
+    <h1 class="doc-title">{{ t('Auswertungen', 'Analyses') }}</h1>
+    <p class="lede">{{ t('Brückner hat sein Buch mit Tabellen und Zahlenreihen gefüllt: Wetterbeobachtungen, Volkszählungen, Ernten, Gerichtsfälle, Stiftungen. Die ' ~ cards|length ~ ' Auswertungen machen diese Zahlen sichtbar. Jede nennt die Seiten, aus denen sie stammt, legt Methode und Umrechnungen offen und bietet die Daten zum Herunterladen.', 'Brückner filled his book with tables and series: weather observations, censuses, harvests, court cases, foundations. The ' ~ cards|length ~ ' analyses make these figures visible. Each names the pages it draws on, discloses its method and unit conversions and offers its data for download.') }}</p>
   </div>
-  <div class="ana-grid">
-    {% for a in cards %}
-    <a class="card ana-tile" href="{{ a.id }}.html" data-cat="{{ a.cat }}">
-      <div class="thumb"><img src="thumbs/{{ a.id }}.png" alt="" loading="lazy"></div>
-      <div class="body">
-        <span class="eyebrow">{{ t(a.cat_de, a.cat_en) }} · {{ t('S.', 'p.') }} {{ a.page }}</span>
-        <h3>{{ t(a.title.de|e, a.title.en|e) }}</h3>
-        <p>{{ t(a.summary.de|truncate(170)|e, a.summary.en|truncate(170)|e) }}</p>
-      </div>
-    </a>
-    {% endfor %}
-  </div>
+  {% for g in groups %}
+  <section class="ana-group" id="{{ g.id }}">
+    <h2>{{ t(g.de, g.en) }}</h2>
+    <ul class="ana-grid">
+      {% for a in g.entries %}
+      <li><a href="{{ a.id }}.html"><img src="thumbs/{{ a.id }}.png" alt="" loading="lazy" width="640" height="360"><span class="t">{{ t(a.title.de|e, a.title.en|e) }}</span><span class="s">{{ t(a.teaser.de|e, a.teaser.en|e) }}</span></a></li>
+      {% endfor %}
+    </ul>
+  </section>
+  {% endfor %}
 </div>
-{% endblock %}
-{% block scripts %}
-<script>
-document.addEventListener('click', function (e) {
-  var b = e.target.closest('[data-cat]'); if (!b || b.tagName !== 'BUTTON') return;
-  var c = b.getAttribute('data-cat');
-  document.querySelectorAll('.filters button').forEach(function (x) { x.setAttribute('aria-pressed', x === b ? 'true' : 'false'); });
-  document.querySelectorAll('.ana-tile').forEach(function (t) { t.hidden = c && t.getAttribute('data-cat') !== c; });
-});
-</script>
 {% endblock %}

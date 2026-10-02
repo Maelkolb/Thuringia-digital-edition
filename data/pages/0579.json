@@ -54,7 +54,8 @@
      "Location"
     ]
    ],
-   "continued": true
+   "continued": true,
+   "sec": "t2-1"
   },
   {
    "id": "b2",
@@ -147,7 +148,8 @@
      1781,
      "Plant"
     ]
-   ]
+   ],
+   "sec": "t2-1"
   },
   {
    "id": "b3",
@@ -211,7 +213,8 @@
      "Animal"
     ]
    ],
-   "continues": true
+   "continues": true,
+   "sec": "t2-1"
   }
  ],
  "footnotes": [
@@ -234,5 +237,12 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-04T20:13:28.291422",
   "early_schema": false
- }
+ },
+ "section_path": [
+  "t2",
+  "t2-1"
+ ],
+ "sections": [
+  "t2-1"
+ ]
 }

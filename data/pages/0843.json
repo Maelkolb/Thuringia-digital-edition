@@ -43,7 +43,8 @@
      143,
      "Animal"
     ]
-   ]
+   ],
+   "sec": "berichtigungen"
   },
   {
    "id": "b2",
@@ -106,7 +107,8 @@
      782,
      "Animal"
     ]
-   ]
+   ],
+   "sec": "berichtigungen"
   },
   {
    "id": "b3",
@@ -134,7 +136,8 @@
      111,
      "Animal"
     ]
-   ]
+   ],
+   "sec": "berichtigungen"
   },
   {
    "id": "b4",
@@ -172,7 +175,8 @@
      650,
      "Animal"
     ]
-   ]
+   ],
+   "sec": "berichtigungen"
   },
   {
    "id": "b5",
@@ -185,21 +189,25 @@
      663,
      "Resource"
     ]
-   ]
+   ],
+   "sec": "berichtigungen"
   },
   {
    "id": "b6",
    "type": "paragraph",
    "src": 5,
    "text": "S. 279. Zur Umrechnung der seitherigen Maße und Gewichte erfolgte unter Bezugnahme auf Art. 21 der Maß- und Gewichtsordnung für den norddeutschen Bund vom 17. August 1868 eine Ministerial-Bekanntmachung v. 20. März 1869 und Nachtrag v. 14. August d. J. Hiernach sind:",
-   "spans": []
+   "spans": [],
+   "sec": "berichtigungen"
   },
   {
    "id": "b7",
    "type": "heading",
    "src": 6,
    "text": "I. Längenmaße:\n(443,296 pariser Linien = 1 Meter.)",
-   "spans": []
+   "spans": [],
+   "sec": "berichtigungen",
+   "level": 4
   },
   {
    "id": "b8",
@@ -524,7 +532,8 @@
      "0,636820 \""
     ]
    ],
-   "caption": null
+   "caption": null,
+   "sec": "berichtigungen"
   }
  ],
  "footnotes": [],
@@ -547,5 +556,12 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-04T21:47:44.373368",
   "early_schema": false
- }
+ },
+ "section_path": [
+  "back",
+  "berichtigungen"
+ ],
+ "sections": [
+  "berichtigungen"
+ ]
 }

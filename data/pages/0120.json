@@ -864,14 +864,17 @@
      "2341"
     ]
    ],
-   "caption": null
+   "caption": null,
+   "sec": "t1-2-1"
   },
   {
    "id": "b2",
    "type": "heading",
    "src": 1,
    "text": "Die Geborenen des Fürstenthums nach dem Geschlecht:",
-   "spans": []
+   "spans": [],
+   "sec": "t1-2-1",
+   "level": 5
   },
   {
    "id": "b3",
@@ -1624,7 +1627,8 @@
      "107,50"
     ]
    ],
-   "caption": null
+   "caption": null,
+   "sec": "t1-2-1"
   },
   {
    "id": "b4",
@@ -1652,14 +1656,16 @@
      556,
      "Location"
     ]
-   ]
+   ],
+   "sec": "t1-2-1"
   },
   {
    "id": "b5",
    "type": "paragraph",
    "src": 4,
    "text": "Die ehelichen und unehelichen Geburten.\nDie frühere Zeit hat bei der Aufzählung der Geborenen die unehelichen niemals oder nur sporadisch verzeichnet; die genaue Trennung der ehelichen Geburten von den unehelichen gehört erst den jüngsten Jahren. Für das Fürstenthum ist sie folgende:",
-   "spans": []
+   "spans": [],
+   "sec": "t1-2-1"
   }
  ],
  "footnotes": [],
@@ -1687,5 +1693,13 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-03T15:12:18.493321",
   "early_schema": false
- }
+ },
+ "section_path": [
+  "t1",
+  "t1-2",
+  "t1-2-1"
+ ],
+ "sections": [
+  "t1-2-1"
+ ]
 }

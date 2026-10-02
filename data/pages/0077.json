@@ -1186,7 +1186,8 @@
      "73,5"
     ]
    ],
-   "caption": null
+   "caption": null,
+   "sec": "t1-1-7"
   },
   {
    "id": "b2",
@@ -1199,7 +1200,8 @@
      11,
      "Location"
     ]
-   ]
+   ],
+   "sec": "t1-1-7"
   },
   {
    "id": "b3",
@@ -1217,7 +1219,8 @@
      145,
      "Location"
     ]
-   ]
+   ],
+   "sec": "t1-1-7"
   },
   {
    "id": "b4",
@@ -1454,7 +1457,8 @@
      "96"
     ]
    ],
-   "caption": null
+   "caption": null,
+   "sec": "t1-1-7"
   },
   {
    "id": "b5",
@@ -1482,7 +1486,8 @@
      359,
      "Location"
     ]
-   ]
+   ],
+   "sec": "t1-1-7"
   },
   {
    "id": "b6",
@@ -1535,7 +1540,8 @@
      145,
      "Climate"
     ]
-   ]
+   ],
+   "sec": "t1-1-7"
   }
  ],
  "footnotes": [
@@ -1565,5 +1571,13 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-01-06T03:40:17.311684",
   "early_schema": false
- }
+ },
+ "section_path": [
+  "t1",
+  "t1-1",
+  "t1-1-7"
+ ],
+ "sections": [
+  "t1-1-7"
+ ]
 }

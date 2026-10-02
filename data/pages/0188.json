@@ -119,7 +119,8 @@
      "Person"
     ]
    ],
-   "continued": true
+   "continued": true,
+   "sec": "t1-2-6"
   },
   {
    "id": "b2",
@@ -148,7 +149,8 @@
      "Natural Object"
     ]
    ],
-   "continues": true
+   "continues": true,
+   "sec": "t1-2-6"
   }
  ],
  "footnotes": [],
@@ -158,5 +160,13 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-05T11:59:13.365850",
   "early_schema": false
- }
+ },
+ "section_path": [
+  "t1",
+  "t1-2",
+  "t1-2-6"
+ ],
+ "sections": [
+  "t1-2-6"
+ ]
 }

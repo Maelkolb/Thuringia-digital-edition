@@ -200,7 +200,8 @@
      ""
     ]
    ],
-   "caption": null
+   "caption": null,
+   "sec": "t1-4-3"
   },
   {
    "id": "b2",
@@ -288,7 +289,8 @@
      419,
      "Location"
     ]
-   ]
+   ],
+   "sec": "t1-4-3"
   },
   {
    "id": "b3",
@@ -351,7 +353,8 @@
      "in Summe,"
     ]
    ],
-   "caption": "Die directen Steuern beliefen sich seither auf"
+   "caption": "Die directen Steuern beliefen sich seither auf",
+   "sec": "t1-4-3"
   },
   {
    "id": "b4",
@@ -419,7 +422,8 @@
      488,
      "Organisation"
     ]
-   ]
+   ],
+   "sec": "t1-4-3"
   },
   {
    "id": "b5",
@@ -442,7 +446,8 @@
      335,
      "Organisation"
     ]
-   ]
+   ],
+   "sec": "t1-4-3"
   },
   {
    "id": "b6",
@@ -706,7 +711,8 @@
      "\""
     ]
    ],
-   "caption": "Die verzinsliche Staatsschuld betrug"
+   "caption": "Die verzinsliche Staatsschuld betrug",
+   "sec": "t1-4-3"
   },
   {
    "id": "b7",
@@ -724,7 +730,8 @@
      304,
      "Organisation"
     ]
-   ]
+   ],
+   "sec": "t1-4-3"
   },
   {
    "id": "b8",
@@ -757,7 +764,8 @@
      314,
      "Resource"
     ]
-   ]
+   ],
+   "sec": "t1-4-3"
   },
   {
    "id": "b9",
@@ -775,7 +783,8 @@
      170,
      "Artefact"
     ]
-   ]
+   ],
+   "sec": "t1-4-3"
   }
  ],
  "footnotes": [],
@@ -805,5 +814,13 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-04T13:38:34.781978",
   "early_schema": false
- }
+ },
+ "section_path": [
+  "t1",
+  "t1-4",
+  "t1-4-3"
+ ],
+ "sections": [
+  "t1-4-3"
+ ]
 }

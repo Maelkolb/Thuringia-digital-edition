@@ -69,14 +69,17 @@
      "Environment"
     ]
    ],
-   "continued": true
+   "continued": true,
+   "sec": "t1-3-2"
   },
   {
    "id": "b2",
    "type": "heading",
    "src": 1,
    "text": "Vergleichung des landwirthschaftlichen Bodens der drei Hauptgrundbesitzer.",
-   "spans": []
+   "spans": [],
+   "sec": "t1-3-2",
+   "level": 5
   },
   {
    "id": "b3",
@@ -460,14 +463,17 @@
      "100,00"
     ]
    ],
-   "caption": null
+   "caption": null,
+   "sec": "t1-3-2"
   },
   {
    "id": "b4",
    "type": "heading",
    "src": 3,
    "text": "Vergleichung der jährlichen Production des Artlandes mit der jährlichen Consumtion.",
-   "spans": []
+   "spans": [],
+   "sec": "t1-3-2",
+   "level": 5
   },
   {
    "id": "b5",
@@ -490,7 +496,8 @@
      235,
      "Location"
     ]
-   ]
+   ],
+   "sec": "t1-3-2"
   },
   {
    "id": "b6",
@@ -513,7 +520,8 @@
      224,
      "Location"
     ]
-   ]
+   ],
+   "sec": "t1-3-2"
   }
  ],
  "footnotes": [
@@ -536,5 +544,13 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-04T13:18:47.555849",
   "early_schema": false
- }
+ },
+ "section_path": [
+  "t1",
+  "t1-3",
+  "t1-3-2"
+ ],
+ "sections": [
+  "t1-3-2"
+ ]
 }

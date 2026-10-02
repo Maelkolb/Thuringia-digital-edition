@@ -17,7 +17,9 @@
    "type": "heading",
    "src": 0,
    "text": "b. Civilia.",
-   "spans": []
+   "spans": [],
+   "sec": "t1-4-4",
+   "level": 5
   },
   {
    "id": "b2",
@@ -1869,7 +1871,8 @@
      "1"
     ]
    ],
-   "caption": null
+   "caption": null,
+   "sec": "t1-4-4"
   }
  ],
  "footnotes": [],
@@ -1943,5 +1946,13 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-04T13:40:37.716843",
   "early_schema": false
- }
+ },
+ "section_path": [
+  "t1",
+  "t1-4",
+  "t1-4-4"
+ ],
+ "sections": [
+  "t1-4-4"
+ ]
 }

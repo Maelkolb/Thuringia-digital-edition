@@ -103,7 +103,8 @@
      307,
      "Natural Object"
     ]
-   ]
+   ],
+   "sec": "t1-1-6"
   },
   {
    "id": "b2",
@@ -141,7 +142,8 @@
      132,
      "Location"
     ]
-   ]
+   ],
+   "sec": "t1-1-6"
   },
   {
    "id": "b3",
@@ -164,7 +166,8 @@
      101,
      "Organisation"
     ]
-   ]
+   ],
+   "sec": "t1-1-6"
   },
   {
    "id": "b4",
@@ -212,7 +215,8 @@
      194,
      "Natural Object"
     ]
-   ]
+   ],
+   "sec": "t1-1-6"
   },
   {
    "id": "b5",
@@ -230,7 +234,8 @@
      43,
      "Location"
     ]
-   ]
+   ],
+   "sec": "t1-1-6"
   },
   {
    "id": "b6",
@@ -298,7 +303,8 @@
      264,
      "Location"
     ]
-   ]
+   ],
+   "sec": "t1-1-6"
   },
   {
    "id": "b7",
@@ -336,7 +342,8 @@
      180,
      "Location"
     ]
-   ]
+   ],
+   "sec": "t1-1-6"
   },
   {
    "id": "b8",
@@ -424,7 +431,8 @@
      329,
      "Location"
     ]
-   ]
+   ],
+   "sec": "t1-1-6"
   },
   {
    "id": "b9",
@@ -435,7 +443,12 @@
    "editorial_note": {
     "de": "So im Original (Druckfehler); die Inhalts-Uebersicht zählt das Kapitel als 7).",
     "en": "Thus in the original (misprint); the table of contents numbers this chapter 7)."
-   }
+   },
+   "opens": [
+    "t1-1-7"
+   ],
+   "sec": "t1-1-7",
+   "level": 4
   },
   {
    "id": "b10",
@@ -514,7 +527,8 @@
      "Location"
     ]
    ],
-   "continues": true
+   "continues": true,
+   "sec": "t1-1-7"
   }
  ],
  "footnotes": [],
@@ -530,5 +544,14 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-01-05T15:54:33.182922",
   "early_schema": true
- }
+ },
+ "section_path": [
+  "t1",
+  "t1-1",
+  "t1-1-6"
+ ],
+ "sections": [
+  "t1-1-6",
+  "t1-1-7"
+ ]
 }

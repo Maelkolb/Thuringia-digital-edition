@@ -23,7 +23,8 @@
      78,
      "Environment"
     ]
-   ]
+   ],
+   "sec": "t2-1"
   },
   {
    "id": "b2",
@@ -166,7 +167,8 @@
      3041,
      "Person"
     ]
-   ]
+   ],
+   "sec": "t2-1"
   },
   {
    "id": "b3",
@@ -184,7 +186,8 @@
    "word_division": {
     "word": "befindlichen",
     "part": "befind-"
-   }
+   },
+   "sec": "t2-1"
   }
  ],
  "footnotes": [],
@@ -206,5 +209,12 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-04T14:50:24.782051",
   "early_schema": false
- }
+ },
+ "section_path": [
+  "t2",
+  "t2-1"
+ ],
+ "sections": [
+  "t2-1"
+ ]
 }

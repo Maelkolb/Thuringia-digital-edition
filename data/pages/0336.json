@@ -23,7 +23,8 @@
      441,
      "Person"
     ]
-   ]
+   ],
+   "sec": "t1-5-2"
   },
   {
    "id": "b2",
@@ -96,14 +97,16 @@
      1368,
      "Natural Object"
     ]
-   ]
+   ],
+   "sec": "t1-5-2"
   },
   {
    "id": "b3",
    "type": "paragraph",
    "src": 2,
    "text": "Abgesehen davon, daß diese genealogische Erörterung und Beweisführung sich in der Hauptsache in dem Gebiete bloßer wahrscheinlicher Annahmen bewegt und somit den Character einer Hypothese an sich trägt, ist dieselbe im Allgemeinen***) aus folgenden Gründen zurückzuweisen.",
-   "spans": []
+   "spans": [],
+   "sec": "t1-5-2"
   },
   {
    "id": "b4",
@@ -131,7 +134,8 @@
      218,
      "Person"
     ]
-   ]
+   ],
+   "sec": "t1-5-2"
   }
  ],
  "footnotes": [
@@ -210,5 +214,13 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-04T13:54:13.424884",
   "early_schema": false
- }
+ },
+ "section_path": [
+  "t1",
+  "t1-5",
+  "t1-5-2"
+ ],
+ "sections": [
+  "t1-5-2"
+ ]
 }

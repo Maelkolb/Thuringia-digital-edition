@@ -54,14 +54,20 @@
      "Artefact"
     ]
    ],
-   "continued": true
+   "continued": true,
+   "sec": "t1-2-6"
   },
   {
    "id": "b2",
    "type": "heading",
    "src": 1,
    "text": "7. Sitte und Brauch.",
-   "spans": []
+   "spans": [],
+   "opens": [
+    "t1-2-7"
+   ],
+   "sec": "t1-2-7",
+   "level": 4
   },
   {
    "id": "b3",
@@ -74,7 +80,8 @@
      1039,
      "Organisation"
     ]
-   ]
+   ],
+   "sec": "t1-2-7"
   },
   {
    "id": "b4",
@@ -88,7 +95,8 @@
      "Artefact"
     ]
    ],
-   "continues": true
+   "continues": true,
+   "sec": "t1-2-7"
   }
  ],
  "footnotes": [],
@@ -98,5 +106,14 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-03T15:36:29.280487",
   "early_schema": false
- }
+ },
+ "section_path": [
+  "t1",
+  "t1-2",
+  "t1-2-6"
+ ],
+ "sections": [
+  "t1-2-6",
+  "t1-2-7"
+ ]
 }

@@ -17,14 +17,24 @@
    "type": "heading",
    "src": 0,
    "text": "I. Die Natur des Landes.",
-   "spans": []
+   "spans": [],
+   "opens": [
+    "t1-1"
+   ],
+   "sec": "t1-1",
+   "level": 3
   },
   {
    "id": "b2",
    "type": "heading",
    "src": 1,
    "text": "1. Überblick und Bild des Ganzen.",
-   "spans": []
+   "spans": [],
+   "opens": [
+    "t1-1-1"
+   ],
+   "sec": "t1-1-1",
+   "level": 4
   },
   {
    "id": "b3",
@@ -197,7 +207,8 @@
      1897,
      "Organisation"
     ]
-   ]
+   ],
+   "sec": "t1-1-1"
   }
  ],
  "footnotes": [
@@ -265,5 +276,12 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-01-06T01:44:55.147683",
   "early_schema": false
- }
+ },
+ "section_path": [
+  "t1"
+ ],
+ "sections": [
+  "t1-1",
+  "t1-1-1"
+ ]
 }

@@ -439,7 +439,8 @@
      "508,52"
     ]
    ],
-   "caption": "Einwohner:"
+   "caption": "Einwohner:",
+   "sec": "t1-2-1"
   },
   {
    "id": "b2",
@@ -452,14 +453,17 @@
      212,
      "Location"
     ]
-   ]
+   ],
+   "sec": "t1-2-1"
   },
   {
    "id": "b3",
    "type": "heading",
    "src": 2,
    "text": "7) Bevölkerungszunahme nach den Verzeichnissen der Geburts- und Todtenlisten:",
-   "spans": []
+   "spans": [],
+   "sec": "t1-2-1",
+   "level": 5
   },
   {
    "id": "b4",
@@ -1241,7 +1245,8 @@
      ""
     ]
    ],
-   "caption": null
+   "caption": null,
+   "sec": "t1-2-1"
   }
  ],
  "footnotes": [],
@@ -1272,5 +1277,13 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-03T15:08:36.096165",
   "early_schema": false
- }
+ },
+ "section_path": [
+  "t1",
+  "t1-2",
+  "t1-2-1"
+ ],
+ "sections": [
+  "t1-2-1"
+ ]
 }

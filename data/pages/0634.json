@@ -123,7 +123,8 @@
      1764,
      "Animal"
     ]
-   ]
+   ],
+   "sec": "t2-2"
   },
   {
    "id": "b2",
@@ -166,7 +167,8 @@
      238,
      "Location"
     ]
-   ]
+   ],
+   "sec": "t2-2"
   },
   {
    "id": "b3",
@@ -219,7 +221,8 @@
      448,
      "Resource"
     ]
-   ]
+   ],
+   "sec": "t2-2"
   },
   {
    "id": "b4",
@@ -302,7 +305,8 @@
      723,
      "Animal"
     ]
-   ]
+   ],
+   "sec": "t2-2"
   }
  ],
  "footnotes": [],
@@ -312,5 +316,12 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-04T20:32:56.990983",
   "early_schema": false
- }
+ },
+ "section_path": [
+  "t2",
+  "t2-2"
+ ],
+ "sections": [
+  "t2-2"
+ ]
 }

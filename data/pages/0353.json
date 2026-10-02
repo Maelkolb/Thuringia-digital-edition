@@ -17,7 +17,9 @@
    "type": "heading",
    "src": 0,
    "text": "Tab. II. Die weidaische Linie.",
-   "spans": []
+   "spans": [],
+   "sec": "t1-5-2",
+   "level": 5
   },
   {
    "id": "b2",
@@ -50,7 +52,8 @@
      155,
      "Person"
     ]
-   ]
+   ],
+   "sec": "t1-5-2"
   },
   {
    "id": "b3",
@@ -749,7 +752,8 @@
      ""
     ]
    ],
-   "caption": null
+   "caption": null,
+   "sec": "t1-5-2"
   },
   {
    "id": "b4",
@@ -797,7 +801,8 @@
      602,
      "Location"
     ]
-   ]
+   ],
+   "sec": "t1-5-2"
   },
   {
    "id": "b5",
@@ -811,7 +816,8 @@
      "Location"
     ]
    ],
-   "continues": true
+   "continues": true,
+   "sec": "t1-5-2"
   }
  ],
  "footnotes": [],
@@ -836,5 +842,13 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-04T14:01:45.181009",
   "early_schema": false
- }
+ },
+ "section_path": [
+  "t1",
+  "t1-5",
+  "t1-5-2"
+ ],
+ "sections": [
+  "t1-5-2"
+ ]
 }

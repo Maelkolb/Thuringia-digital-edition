@@ -4,21 +4,16 @@
 {% block main %}
 <div class="wrap">
   <div class="reg-layout">
-    <nav class="reg-nav" aria-label="Register">
-      {% for c in classes %}<a href="{{ c[1] }}.html" class="k-{{ c[0] }}" {% if c[0] == cls %}aria-current="page"{% endif %}><span class="swatch"></span>{{ t(c[2], c[3]) }}</a>{% endfor %}
-      <a href="sachregister.html">{{ t('Sachregister', 'Subject index') }}</a>
-      <a href="glossar.html">{{ t('Glossar', 'Glossary') }}</a>
-    </nav>
+    {% set current = cls %}{% include "_regnav.html" %}
     <div>
-      <p class="eyebrow">{{ t('Register', 'Index') }} · {{ n }} {{ t('Einträge', 'entries') }}</p>
-      <h1 class="doc-title" style="margin-top:8px">{{ t(label_de, label_en) }}</h1>
-      <p class="lede" style="font-size:1.05rem">{{ t(intro_de, intro_en) }}</p>
+      <h1 class="doc-title">{{ t(label_de, label_en) }}</h1>
+      <p class="lede">{{ t(intro_de, intro_en) }} {{ t(num(n, 'de') ~ ' Einträge.', num(n, 'en') ~ ' entries.') }}</p>
       <div class="reg-tools">
-        <input type="search" placeholder="Filtern … / Filter …" aria-label="Register filtern" data-reg-filter>
-        {% if kinds %}<select data-reg-kind aria-label="Art"><option value="">{{ 'Alle Arten / all kinds' }}</option>{% for k in kinds %}<option>{{ k|e }}</option>{% endfor %}</select>{% endif %}
-        <span class="muted" data-reg-count></span>
+        <input type="search" {{ i18n('placeholder', 'Einträge filtern', 'Filter entries') }} {{ i18n('aria-label', 'Einträge filtern', 'Filter entries') }} data-reg-filter>
+        {% if kinds %}<select data-reg-kind {{ i18n('aria-label', 'Art', 'Kind') }}><option value="" data-de-text="Alle Arten" data-en-text="All kinds">Alle Arten</option>{% for k in kinds %}<option>{{ k|e }}</option>{% endfor %}</select>{% endif %}
+        <span class="count" data-reg-count aria-live="polite"></span>
       </div>
-      <div class="letters">{% for l in letters %}<a href="#L-{{ l }}">{{ l }}</a>{% endfor %}</div>
+      <nav class="letters" {{ i18n('aria-label', 'Alphabet', 'Alphabet') }}>{% for l in letters %}<a href="#L-{{ l }}">{{ l }}</a>{% endfor %}</nav>
       {% for l, items in letters.items() %}
       <section data-letter>
         <h2 class="reg-letter" id="L-{{ l }}">{{ l }}</h2>

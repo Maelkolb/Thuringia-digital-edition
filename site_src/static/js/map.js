@@ -37,18 +37,18 @@
       var filter = document.querySelector('[data-map-filter]'), sel = document.querySelector('[data-map-layer]');
       function radius(f) { return Math.max(4, Math.min(22, 3 + Math.sqrt(f.n) * 1.4)); }
       function show(f) {
-        var g = f.g, h = '<div class="card app-block" style="margin-bottom:14px"><h2>' + (f.c === 'nature' ? (en() ? 'Natural feature' : 'Natur') : (en() ? 'Place' : 'Ort')) + (f.k ? ' · ' + esc(f.k) : '') + '</h2>' +
-          '<h3 style="margin:0 0 6px;font:600 1.15rem var(--serif)">' + esc(f.l) + '</h3>';
+        var g = f.g, h = '<div class="map-detail"><h2>' + (f.c === 'nature' ? (en() ? 'Natural feature' : 'Natur') : (en() ? 'Place' : 'Ort')) + (f.k ? ', ' + esc(f.k) : '') + '</h2>' +
+          '<h3>' + esc(f.l) + '</h3>';
         if (g) {
           var facts = [esc(g.type)];
           if (g.inh) facts.push(g.inh + (en() ? ' inhabitants' : ' Einwohner'));
           if (g.houses) facts.push(g.houses + (en() ? ' houses' : ' Häuser'));
           if (g.first) facts.push((en() ? 'first record ' : 'urkundl. ') + g.first);
-          h += '<p style="font-size:.9rem">' + facts.join(' · ') + '</p><p style="font:400 .95rem/1.5 var(--serif)">' + esc(en() ? g.en : g.de) + '</p>' +
-            '<p><a class="small-btn" href="' + ROOT + 'seite/' + g.page + '.html#' + g.block + '">' + (en() ? 'Place article p. ' : 'Ortsartikel S. ') + g.page + '</a> ';
-        } else h += '<p>';
-        h += '<a class="small-btn" href="' + ROOT + f.href + '">' + (en() ? 'Index entry' : 'Registereintrag') + '</a></p>';
-        h += '<p class="muted" style="font-size:.85rem">' + f.n + (en() ? ' mentions; pp. ' : ' Erwähnungen; S. ') + f.p.map(function (p) { return '<a href="' + ROOT + 'seite/' + p + '.html?hl=' + encodeURIComponent(f.l) + '">' + p + '</a>'; }).join(', ') + (f.n > f.p.length ? ' …' : '') + '</p></div>';
+          h += '<p>' + facts.join(', ') + '</p><p style="font:400 .95rem/1.5 var(--serif)">' + esc(en() ? g.en : g.de) + '</p>' +
+            '<p class="textlinks"><a href="' + ROOT + 'seite/' + g.page + '.html#' + g.block + '">' + (en() ? 'Place article, p. ' : 'Ortsartikel, S. ') + g.page + '</a> ';
+        } else h += '<p class="textlinks">';
+        h += '<a href="' + ROOT + f.href + '">' + (en() ? 'Index entry' : 'Registereintrag') + '</a></p>';
+        h += '<p class="muted" style="font-size:.88rem">' + RJ.passages(f.n) + (en() ? ', pp. ' : ', S. ') + f.p.map(function (p) { return '<a href="' + ROOT + 'seite/' + p + '.html?hl=' + encodeURIComponent(f.l) + '">' + p + '</a>'; }).join(', ') + (f.n > f.p.length ? ' …' : '') + '</p></div>';
         detail.innerHTML = h;
       }
       function draw() {
@@ -67,7 +67,7 @@
         });
         shown.sort(function (a, b) { return b.n - a.n; });
         list.innerHTML = shown.slice(0, 200).map(function (f) {
-          return '<li class="reg-item" style="padding:6px 0"><div><a href="#' + f.id + '" data-f="' + f.id + '">' + esc(f.l) + '</a> <span class="kind">' + esc(f.k) + '</span></div><div class="auth"><span class="n">' + f.n + '×</span></div></li>';
+          return '<li><span><a href="#' + f.id + '" data-f="' + f.id + '">' + esc(f.l) + '</a><span class="kind">' + esc(f.k) + '</span></span><span class="n">' + RJ.fmt(f.n) + '</span></div></li>';
         }).join('');
       }
       list.addEventListener('click', function (e) {

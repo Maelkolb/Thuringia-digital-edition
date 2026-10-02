@@ -74,7 +74,8 @@
      "Artefact"
     ]
    ],
-   "continued": true
+   "continued": true,
+   "sec": "t1-2-7"
   },
   {
    "id": "b2",
@@ -132,7 +133,8 @@
      915,
      "Artefact"
     ]
-   ]
+   ],
+   "sec": "t1-2-7"
   },
   {
    "id": "b3",
@@ -215,7 +217,8 @@
      1413,
      "Resource"
     ]
-   ]
+   ],
+   "sec": "t1-2-7"
   },
   {
    "id": "b4",
@@ -223,7 +226,8 @@
    "src": 3,
    "text": "In der ersten Mai- oder in der Walpurgisnacht werden die Hexen \"ausgeklatscht\", d. h. Burschen und Knaben durchlärmen, noch toller früher als heute,",
    "spans": [],
-   "continues": true
+   "continues": true,
+   "sec": "t1-2-7"
   }
  ],
  "footnotes": [],
@@ -233,5 +237,13 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-03T15:40:48.996355",
   "early_schema": false
- }
+ },
+ "section_path": [
+  "t1",
+  "t1-2",
+  "t1-2-7"
+ ],
+ "sections": [
+  "t1-2-7"
+ ]
 }

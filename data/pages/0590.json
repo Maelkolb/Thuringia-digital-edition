@@ -156,7 +156,8 @@
      ""
     ]
    ],
-   "caption": null
+   "caption": null,
+   "sec": "t2-2"
   },
   {
    "id": "b2",
@@ -314,7 +315,8 @@
      513,
      "Natural Object"
     ]
-   ]
+   ],
+   "sec": "t2-2"
   },
   {
    "id": "b3",
@@ -454,7 +456,8 @@
      ""
     ]
    ],
-   "caption": null
+   "caption": null,
+   "sec": "t2-2"
   },
   {
    "id": "b4",
@@ -487,7 +490,8 @@
      142,
      "Location"
     ]
-   ]
+   ],
+   "sec": "t2-2"
   },
   {
    "id": "b5",
@@ -540,7 +544,8 @@
      495,
      "Location"
     ]
-   ]
+   ],
+   "sec": "t2-2"
   },
   {
    "id": "b6",
@@ -553,7 +558,8 @@
      11,
      "Person"
     ]
-   ]
+   ],
+   "sec": "t2-2"
   },
   {
    "id": "b7",
@@ -566,7 +572,8 @@
      12,
      "Person"
     ]
-   ]
+   ],
+   "sec": "t2-2"
   },
   {
    "id": "b8",
@@ -653,7 +660,8 @@
      "Heinrich LXII. v. 1818—1848."
     ]
    ],
-   "caption": null
+   "caption": null,
+   "sec": "t2-2"
   },
   {
    "id": "b9",
@@ -686,7 +694,8 @@
      324,
      "Artefact"
     ]
-   ]
+   ],
+   "sec": "t2-2"
   },
   {
    "id": "b10",
@@ -704,7 +713,8 @@
      44,
      "Person"
     ]
-   ]
+   ],
+   "sec": "t2-2"
   },
   {
    "id": "b11",
@@ -717,7 +727,8 @@
      13,
      "Person"
     ]
-   ]
+   ],
+   "sec": "t2-2"
   }
  ],
  "footnotes": [],
@@ -733,5 +744,12 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-04T20:17:46.450208",
   "early_schema": false
- }
+ },
+ "section_path": [
+  "t2",
+  "t2-2"
+ ],
+ "sections": [
+  "t2-2"
+ ]
 }

@@ -17,7 +17,12 @@
    "type": "heading",
    "src": 0,
    "text": "Inhalts-Uebersicht.",
-   "spans": []
+   "spans": [],
+   "opens": [
+    "inhalt"
+   ],
+   "sec": "inhalt",
+   "level": 3
   },
   {
    "id": "b2",
@@ -30,14 +35,18 @@
      71,
      "Location"
     ]
-   ]
+   ],
+   "sec": "inhalt",
+   "level": 4
   },
   {
    "id": "b3",
    "type": "heading",
    "src": 2,
    "text": "I. Die Natur des Landes.",
-   "spans": []
+   "spans": [],
+   "sec": "inhalt",
+   "level": 4
   },
   {
    "id": "b4",
@@ -219,14 +228,17 @@
      "81—90."
     ]
    ],
-   "caption": null
+   "caption": null,
+   "sec": "inhalt"
   },
   {
    "id": "b5",
    "type": "heading",
    "src": 4,
    "text": "II. Das Volk.",
-   "spans": []
+   "spans": [],
+   "sec": "inhalt",
+   "level": 4
   },
   {
    "id": "b6",
@@ -374,14 +386,17 @@
      "196—207."
     ]
    ],
-   "caption": null
+   "caption": null,
+   "sec": "inhalt"
   },
   {
    "id": "b7",
    "type": "heading",
    "src": 6,
    "text": "III. Die Volksbetriebsamkeit.",
-   "spans": []
+   "spans": [],
+   "sec": "inhalt",
+   "level": 4
   },
   {
    "id": "b8",
@@ -512,7 +527,8 @@
      "258—262."
     ]
    ],
-   "caption": null
+   "caption": null,
+   "sec": "inhalt"
   }
  ],
  "footnotes": [],
@@ -536,5 +552,12 @@
   "model": "gemini-3.5-flash",
   "timestamp": "2026-10-01T20:40:39.045041",
   "early_schema": false
- }
+ },
+ "section_path": [
+  "front",
+  "vorwort"
+ ],
+ "sections": [
+  "inhalt"
+ ]
 }

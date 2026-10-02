@@ -59,7 +59,8 @@
      "Environment"
     ]
    ],
-   "continued": true
+   "continued": true,
+   "sec": "t2-3"
   },
   {
    "id": "b2",
@@ -188,7 +189,8 @@
      "Location"
     ]
    ],
-   "continues": true
+   "continues": true,
+   "sec": "t2-3"
   }
  ],
  "footnotes": [],
@@ -203,5 +205,12 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-04T21:42:24.211368",
   "early_schema": false
- }
+ },
+ "section_path": [
+  "t2",
+  "t2-3"
+ ],
+ "sections": [
+  "t2-3"
+ ]
 }

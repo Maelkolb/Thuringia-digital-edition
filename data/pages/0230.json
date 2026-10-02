@@ -17,7 +17,9 @@
    "type": "heading",
    "src": 0,
    "text": "a) Kammergüter.",
-   "spans": []
+   "spans": [],
+   "sec": "t1-3-2",
+   "level": 5
   },
   {
    "id": "b2",
@@ -1630,7 +1632,8 @@
      "90,61"
     ]
    ],
-   "caption": null
+   "caption": null,
+   "sec": "t1-3-2"
   }
  ],
  "footnotes": [],
@@ -1710,5 +1713,13 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-03T15:51:58.823787",
   "early_schema": false
- }
+ },
+ "section_path": [
+  "t1",
+  "t1-3",
+  "t1-3-2"
+ ],
+ "sections": [
+  "t1-3-2"
+ ]
 }

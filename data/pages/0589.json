@@ -23,7 +23,9 @@
      31,
      "Organisation"
     ]
-   ]
+   ],
+   "sec": "t2-2",
+   "level": 4
   },
   {
    "id": "b2",
@@ -86,7 +88,8 @@
      976,
      "Organisation"
     ]
-   ]
+   ],
+   "sec": "t2-2"
   },
   {
    "id": "b3",
@@ -99,7 +102,8 @@
      53,
      "Location"
     ]
-   ]
+   ],
+   "sec": "t2-2"
   },
   {
    "id": "b4",
@@ -134,7 +138,8 @@
      "Die drei Linien des Hauses Reuß, die ältere, mittlere und jüngere, regieren in Gemeinschaft über das Ganze."
     ]
    ],
-   "caption": null
+   "caption": null,
+   "sec": "t2-2"
   },
   {
    "id": "b5",
@@ -206,7 +211,8 @@
      "a) die mittlere Linie Schleiz als Residenz mit einem Antheile schleizer Gebietes und mit Reichenfels. \n b) die jüngere Linie unter Heinrich Posthumus die Pflege Saalburg mit Tanna und dem Reste des schleizer Gebietes."
     ]
    ],
-   "caption": null
+   "caption": null,
+   "sec": "t2-2"
   },
   {
    "id": "b6",
@@ -266,7 +272,8 @@
      "Durch das Aussterben der mittleren Linie im Jahre 1616 erlangt Heinrich Posthumus als seine Erbtheilhälfte Schloß, Stadt und Herrschaft Schleiz mit der Pflege Reichenfels, doch gegen Abtretung von 10 Orten halb aus der Pflege Reichenfels und halb aus den Pflegen Saalburg und Lobenstein. Er ist nun im Besitze des ganzen heutigen Bezirks."
     ]
    ],
-   "caption": null
+   "caption": null,
+   "sec": "t2-2"
   },
   {
    "id": "b7",
@@ -336,7 +343,8 @@
      "Gemeinschaftliche Regierung der 4 Söhne Heinrichs Posthumus, nämlich Heinrichs II., Heinrichs III., Heinrichs IX. und Heinrichs X. Nach dem Tode Heinrichs III., der von 1637 bis 1640, wo er starb, zu Schleiz seine Wohnung genommen hatte, trat dessen Sohn Heinrich I. in die Gemeinschaft ein."
     ]
    ],
-   "caption": null
+   "caption": null,
+   "sec": "t2-2"
   },
   {
    "id": "b8",
@@ -386,7 +394,8 @@
      "Die vier Erben des Heinrich Posthumus theilten 1647 auf Grundlage genau ausgearbeiteter Portionsbücher das gesammte Land. Festgestellt war als Loostheil die Revenue von 103,140 Mf. 3 Gr. 1/2 Pf. Das Mehr war zur Ausgleichung an den auszuzahlen, der weniger hatte. Heinrich IX. erhielt zu seinem Antheile die um 14 Ortschaften verringerte Herrschaft Schleiz mit Reichenfels, im Ganzen 23 Orte mit 1152 Familien und mit den Jahresrevenuen:"
     ]
    ],
-   "caption": null
+   "caption": null,
+   "sec": "t2-2"
   }
  ],
  "footnotes": [],
@@ -422,5 +431,12 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-04T20:17:16.729256",
   "early_schema": false
- }
+ },
+ "section_path": [
+  "t2",
+  "t2-2"
+ ],
+ "sections": [
+  "t2-2"
+ ]
 }

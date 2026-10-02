@@ -173,7 +173,8 @@
      1979,
      "Location"
     ]
-   ]
+   ],
+   "sec": "t1-5-2"
   },
   {
    "id": "b2",
@@ -241,7 +242,8 @@
      1262,
      "Location"
     ]
-   ]
+   ],
+   "sec": "t1-5-2"
   },
   {
    "id": "b3",
@@ -259,7 +261,8 @@
      132,
      "Person"
     ]
-   ]
+   ],
+   "sec": "t1-5-2"
   }
  ],
  "footnotes": [
@@ -276,5 +279,13 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-04T14:09:15.589348",
   "early_schema": false
- }
+ },
+ "section_path": [
+  "t1",
+  "t1-5",
+  "t1-5-2"
+ ],
+ "sections": [
+  "t1-5-2"
+ ]
 }

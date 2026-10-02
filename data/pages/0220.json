@@ -17,14 +17,24 @@
    "type": "heading",
    "src": 0,
    "text": "III. Die Volksbetriebsamkeit.",
-   "spans": []
+   "spans": [],
+   "opens": [
+    "t1-3"
+   ],
+   "sec": "t1-3",
+   "level": 3
   },
   {
    "id": "b2",
    "type": "heading",
    "src": 1,
    "text": "1. Die Berufsklassen im Allgemeinen.",
-   "spans": []
+   "spans": [],
+   "opens": [
+    "t1-3-1"
+   ],
+   "sec": "t1-3-1",
+   "level": 4
   },
   {
    "id": "b3",
@@ -72,7 +82,8 @@
      1719,
      "Artefact"
     ]
-   ]
+   ],
+   "sec": "t1-3-1"
   }
  ],
  "footnotes": [],
@@ -82,5 +93,14 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-03T15:48:29.047336",
   "early_schema": false
- }
+ },
+ "section_path": [
+  "t1",
+  "t1-2",
+  "t1-2-8"
+ ],
+ "sections": [
+  "t1-3",
+  "t1-3-1"
+ ]
 }

@@ -4,22 +4,21 @@
 {% block bodyclass %}map-view{% endblock %}
 {% block main %}
 <div class="map-layout">
-  <div id="map" aria-label="Karte der Orte / map of places"></div>
+  <div id="map" {{ i18n('aria-label', 'Karte der Orte', 'Map of places') }}></div>
   <aside class="map-side">
-    <p class="eyebrow">{{ t('Karte', 'Map') }} · {{ n }} {{ t('Orte', 'places') }}</p>
-    <h1 style="font:600 1.4rem var(--serif);margin:6px 0 8px">{{ t('Orte im Werk', 'Places in the book') }}</h1>
-    <p class="muted" style="font-size:.9rem;margin:0 0 12px">{{ t('Kreisgröße = Zahl der Erwähnungen. Gefüllte Kreise: Orte mit eigenem Ortsartikel in Brückners II. Theil (' ~ n_gaz|string ~ ').', 'Circle size = number of mentions. Filled circles: places with their own article in Part II (' ~ n_gaz|string ~ ').') }}</p>
-    <div class="reg-tools" style="margin:0 0 10px">
-      <input type="search" placeholder="Ort suchen … / find place …" data-map-filter aria-label="Ort suchen">
-      <select data-map-layer aria-label="Auswahl">
-        <option value="all">{{ 'Alle Orte / all places' }}</option>
-        <option value="gaz">{{ 'Nur Ortsartikel / place articles only' }}</option>
-        <option value="nature">{{ 'Gewässer, Berge, Wälder / natural features' }}</option>
+    <h1>{{ t('Orte im Werk', 'Places in the book') }}</h1>
+    <p class="muted" style="font-size:.92rem;margin:0 0 14px">{{ t(num(n, 'de') ~ ' Orte und Naturräume. Die Kreisfläche zeigt, wie oft ein Ort erwähnt wird; gefüllt sind die ' ~ n_gaz ~ ' Orte mit eigenem Artikel im zweiten Teil.', num(n, 'en') ~ ' places and natural features. Circle area shows how often a place is mentioned; filled circles are the ' ~ n_gaz ~ ' places with their own article in Part II.') }}</p>
+    <div class="reg-tools" style="margin:0 0 14px">
+      <input type="search" {{ i18n('placeholder', 'Ort suchen', 'Find a place') }} {{ i18n('aria-label', 'Ort suchen', 'Find a place') }} data-map-filter>
+      <select data-map-layer {{ i18n('aria-label', 'Auswahl', 'Selection') }}>
+        <option value="all" data-de-text="Alle Orte" data-en-text="All places">Alle Orte</option>
+        <option value="gaz" data-de-text="Nur Orte mit Ortsartikel" data-en-text="Only places with an article">Nur Orte mit Ortsartikel</option>
+        <option value="nature" data-de-text="Gewässer, Berge und Wälder" data-en-text="Rivers, mountains and forests">Gewässer, Berge und Wälder</option>
       </select>
     </div>
     <div id="map-detail"></div>
-    <ol id="map-list" class="reg-list" style="font-size:.92rem"></ol>
-    <p class="muted" style="font-size:.78rem;margin-top:18px">{{ t('Kartengrundlage', 'Basemap') }}: <a href="https://gdz.bkg.bund.de/index.php/default/wmts-topplusopen-wmts-topplus-open.html">TopPlusOpen</a> © {{ t('Bundesamt für Kartographie und Geodäsie', 'Federal Agency for Cartography and Geodesy') }} (dl-de/by-2-0), {{ t('ersatzweise', 'fallback') }} © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>-{{ t('Mitwirkende', 'contributors') }} (ODbL). {{ t('Koordinaten', 'Coordinates') }}: GeoNames (CC BY 4.0). {{ t('Beim Laden der Karte werden Kacheln von sgx.geodatenzentrum.de abgerufen.', 'Loading the map requests tiles from sgx.geodatenzentrum.de.') }}</p>
+    <ol id="map-list" class="reg-list map-list"></ol>
+    <p class="muted" style="font-size:.8rem;margin-top:18px">{{ t('Kartengrundlage', 'Basemap') }}: <a href="https://gdz.bkg.bund.de/index.php/default/wmts-topplusopen-wmts-topplus-open.html">TopPlusOpen</a>, © {{ t('Bundesamt für Kartographie und Geodäsie', 'Federal Agency for Cartography and Geodesy') }} (dl-de/by-2-0); {{ t('ersatzweise', 'fallback') }} © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>{{ t('-Mitwirkende', ' contributors') }} (ODbL). {{ t('Koordinaten', 'Coordinates') }}: GeoNames (CC BY 4.0).</p>
   </aside>
 </div>
 {% endblock %}

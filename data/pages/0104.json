@@ -2156,7 +2156,8 @@
      "0,57"
     ]
    ],
-   "caption": null
+   "caption": null,
+   "sec": "t1-2-1"
   },
   {
    "id": "b2",
@@ -2204,7 +2205,8 @@
      779,
      "Artefact"
     ]
-   ]
+   ],
+   "sec": "t1-2-1"
   }
  ],
  "footnotes": [],
@@ -2225,5 +2227,13 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-03T15:06:10.872931",
   "early_schema": false
- }
+ },
+ "section_path": [
+  "t1",
+  "t1-2",
+  "t1-2-1"
+ ],
+ "sections": [
+  "t1-2-1"
+ ]
 }

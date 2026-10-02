@@ -63,7 +63,8 @@
      375,
      "Environment"
     ]
-   ]
+   ],
+   "sec": "t2-3"
   },
   {
    "id": "b2",
@@ -76,7 +77,8 @@
      11,
      "Location"
     ]
-   ]
+   ],
+   "sec": "t2-3"
   },
   {
    "id": "b3",
@@ -94,7 +96,8 @@
      46,
      "Location"
     ]
-   ]
+   ],
+   "sec": "t2-3"
   },
   {
    "id": "b4",
@@ -112,7 +115,8 @@
      46,
      "Location"
     ]
-   ]
+   ],
+   "sec": "t2-3"
   },
   {
    "id": "b5",
@@ -135,7 +139,8 @@
      91,
      "Natural Object"
     ]
-   ]
+   ],
+   "sec": "t2-3"
   },
   {
    "id": "b6",
@@ -183,7 +188,8 @@
      281,
      "Organisation"
     ]
-   ]
+   ],
+   "sec": "t2-3"
   },
   {
    "id": "b7",
@@ -296,7 +302,8 @@
      1512,
      "Organisation"
     ]
-   ]
+   ],
+   "sec": "t2-3"
   },
   {
    "id": "b8",
@@ -359,7 +366,8 @@
    "word_division": {
     "word": "verkaufte",
     "part": "ver-"
-   }
+   },
+   "sec": "t2-3"
   }
  ],
  "footnotes": [],
@@ -379,5 +387,12 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-04T21:09:00.959180",
   "early_schema": false
- }
+ },
+ "section_path": [
+  "t2",
+  "t2-3"
+ ],
+ "sections": [
+  "t2-3"
+ ]
 }

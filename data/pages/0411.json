@@ -23,7 +23,9 @@
      23,
      "Person"
     ]
-   ]
+   ],
+   "sec": "t1-5-3",
+   "level": 5
   },
   {
    "id": "b2",
@@ -515,7 +517,8 @@
      "Heinrich XXVIII., g. 1859."
     ]
    ],
-   "caption": null
+   "caption": null,
+   "sec": "t1-5-3"
   },
   {
    "id": "b3",
@@ -605,7 +608,8 @@
      "Heinrich XXI., g. 1853, † 1856. Heinrich XXII., g. 1854, † 1858."
     ]
    ],
-   "caption": null
+   "caption": null,
+   "sec": "t1-5-3"
   },
   {
    "id": "b4",
@@ -678,7 +682,8 @@
      "Marie, g. 1860. Heinrich XXX., g. 1862. Heinrich XXXII., g. 1864."
     ]
    ],
-   "caption": null
+   "caption": null,
+   "sec": "t1-5-3"
   }
  ],
  "footnotes": [],
@@ -704,5 +709,13 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-04T14:34:24.945069",
   "early_schema": false
- }
+ },
+ "section_path": [
+  "t1",
+  "t1-5",
+  "t1-5-3"
+ ],
+ "sections": [
+  "t1-5-3"
+ ]
 }

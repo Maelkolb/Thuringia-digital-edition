@@ -503,14 +503,16 @@
      "30,29"
     ]
    ],
-   "caption": null
+   "caption": null,
+   "sec": "t1-2-6"
   },
   {
    "id": "b2",
    "type": "paragraph",
    "src": 1,
    "text": "Nach der Uebersicht über die Resultate des Ersatzgeschäfts (Ende 1867) sind von 1778 Militärpflichtigen 189 (also 10,63 Proc.) als dauernd unbrauchbar und zwei wegen Mindermaßes (unter 5'), 12 wegen Kleinheit (5' bis 5' 1\" 3'''*), 193 (also 11,64 Proc.) wegen zeitiger Unbrauchbarkeit zur Ersatzreserve gestellt worden.",
-   "spans": []
+   "spans": [],
+   "sec": "t1-2-6"
   },
   {
    "id": "b3",
@@ -553,7 +555,8 @@
    "word_division": {
     "word": "Darmgicht",
     "part": "Darm-"
-   }
+   },
+   "sec": "t1-2-6"
   }
  ],
  "footnotes": [
@@ -579,5 +582,13 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-03T15:35:26.320167",
   "early_schema": false
- }
+ },
+ "section_path": [
+  "t1",
+  "t1-2",
+  "t1-2-6"
+ ],
+ "sections": [
+  "t1-2-6"
+ ]
 }

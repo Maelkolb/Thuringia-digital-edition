@@ -139,7 +139,8 @@
      "Plant"
     ]
    ],
-   "continued": true
+   "continued": true,
+   "sec": "t2-3"
   },
   {
    "id": "b2",
@@ -217,7 +218,8 @@
      645,
      "Natural Object"
     ]
-   ]
+   ],
+   "sec": "t2-3"
   },
   {
    "id": "b3",
@@ -230,7 +232,8 @@
      174,
      "Animal"
     ]
-   ]
+   ],
+   "sec": "t2-3"
   }
  ],
  "footnotes": [
@@ -315,5 +318,12 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-04T21:07:03.945653",
   "early_schema": false
- }
+ },
+ "section_path": [
+  "t2",
+  "t2-3"
+ ],
+ "sections": [
+  "t2-3"
+ ]
 }

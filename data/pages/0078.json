@@ -17,7 +17,8 @@
    "type": "paragraph",
    "src": 0,
    "text": "Himmel, die zum Theil in gar keiner Beziehung zu den klimatischen Verhältnissen stehen, in den Kreis der Beobachtung gezogen. Da dieselben indeß für die enge und weitere Ortskunde ein allgemeines Interesse haben, so sind sie in der folgenden Tabelle mit verzeichnet.",
-   "spans": []
+   "spans": [],
+   "sec": "t1-1-7"
   },
   {
    "id": "b2",
@@ -30,7 +31,9 @@
      4,
      "Location"
     ]
-   ]
+   ],
+   "sec": "t1-1-7",
+   "level": 5
   },
   {
    "id": "b3",
@@ -1113,7 +1116,8 @@
      "—"
     ]
    ],
-   "caption": null
+   "caption": null,
+   "sec": "t1-1-7"
   },
   {
    "id": "b4",
@@ -1126,7 +1130,8 @@
      15,
      "Location"
     ]
-   ]
+   ],
+   "sec": "t1-1-7"
   },
   {
    "id": "b5",
@@ -1534,7 +1539,8 @@
      "17 2/5"
     ]
    ],
-   "caption": null
+   "caption": null,
+   "sec": "t1-1-7"
   }
  ],
  "footnotes": [],
@@ -1550,5 +1556,13 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-01-06T03:41:42.083270",
   "early_schema": false
- }
+ },
+ "section_path": [
+  "t1",
+  "t1-1",
+  "t1-1-7"
+ ],
+ "sections": [
+  "t1-1-7"
+ ]
 }

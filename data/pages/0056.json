@@ -218,7 +218,8 @@
      1922,
      "Person"
     ]
-   ]
+   ],
+   "sec": "t1-1-6"
   },
   {
    "id": "b4",
@@ -648,7 +649,8 @@
      "1,0002"
     ]
    ],
-   "caption": null
+   "caption": null,
+   "sec": "t1-1-6"
   },
   {
    "id": "b2",
@@ -687,7 +689,8 @@
      "Plant"
     ]
    ],
-   "continues": true
+   "continues": true,
+   "sec": "t1-1-6"
   }
  ],
  "footnotes": [],
@@ -712,5 +715,13 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-01-05T15:36:35.581635",
   "early_schema": true
- }
+ },
+ "section_path": [
+  "t1",
+  "t1-1",
+  "t1-1-6"
+ ],
+ "sections": [
+  "t1-1-6"
+ ]
 }

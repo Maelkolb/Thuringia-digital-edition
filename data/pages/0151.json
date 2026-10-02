@@ -38,7 +38,8 @@
    "word_division": {
     "word": "fränfische",
     "part": "fische"
-   }
+   },
+   "sec": "t1-2-3"
   },
   {
    "id": "b2",
@@ -407,7 +408,8 @@
      "ronger, runner, ro, ran."
     ]
    ],
-   "caption": null
+   "caption": null,
+   "sec": "t1-2-3"
   },
   {
    "id": "b3",
@@ -440,7 +442,8 @@
      320,
      "Natural Object"
     ]
-   ]
+   ],
+   "sec": "t1-2-3"
   }
  ],
  "footnotes": [],
@@ -456,5 +459,13 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-03T15:24:50.910601",
   "early_schema": false
- }
+ },
+ "section_path": [
+  "t1",
+  "t1-2",
+  "t1-2-3"
+ ],
+ "sections": [
+  "t1-2-3"
+ ]
 }

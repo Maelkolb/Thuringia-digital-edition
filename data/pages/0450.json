@@ -17,7 +17,8 @@
    "type": "paragraph",
    "src": 0,
    "text": "Ihr für das Jahr 1869 aufgestellter Haushaltsplan umfasst:",
-   "spans": []
+   "spans": [],
+   "sec": "t2-1"
   },
   {
    "id": "b2",
@@ -249,14 +250,16 @@
      "600 \" — \" — \""
     ]
    ],
-   "caption": null
+   "caption": null,
+   "sec": "t2-1"
   },
   {
    "id": "b3",
    "type": "paragraph",
    "src": 2,
    "text": "128180 Thlr. 12 Sgr. 4 Pf. 128071 Thlr. 13 Sgr. 9 Pf.",
-   "spans": []
+   "spans": [],
+   "sec": "t2-1"
   },
   {
    "id": "b4",
@@ -294,7 +297,8 @@
      381,
      "Artefact"
     ]
-   ]
+   ],
+   "sec": "t2-1"
   },
   {
    "id": "b5",
@@ -367,7 +371,8 @@
      1128,
      "Artefact"
     ]
-   ]
+   ],
+   "sec": "t2-1"
   }
  ],
  "footnotes": [
@@ -408,5 +413,12 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-04T14:58:26.617822",
   "early_schema": false
- }
+ },
+ "section_path": [
+  "t2",
+  "t2-1"
+ ],
+ "sections": [
+  "t2-1"
+ ]
 }

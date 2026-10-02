@@ -411,7 +411,8 @@
      "11"
     ]
    ],
-   "caption": null
+   "caption": null,
+   "sec": "t1-4-5"
   },
   {
    "id": "b2",
@@ -444,7 +445,8 @@
    "word_division": {
     "word": "Pensionsanstalt",
     "part": "Pensions-"
-   }
+   },
+   "sec": "t1-4-5"
   }
  ],
  "footnotes": [
@@ -467,5 +469,13 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-04T13:43:04.695692",
   "early_schema": false
- }
+ },
+ "section_path": [
+  "t1",
+  "t1-4",
+  "t1-4-5"
+ ],
+ "sections": [
+  "t1-4-5"
+ ]
 }

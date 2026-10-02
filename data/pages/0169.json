@@ -68,7 +68,8 @@
    "word_division": {
     "word": "Langröcke",
     "part": "röcke"
-   }
+   },
+   "sec": "t1-2-4"
   },
   {
    "id": "b2",
@@ -101,7 +102,8 @@
      702,
      "Plant"
     ]
-   ]
+   ],
+   "sec": "t1-2-4"
   },
   {
    "id": "b3",
@@ -130,7 +132,8 @@
      "Plant"
     ]
    ],
-   "continues": true
+   "continues": true,
+   "sec": "t1-2-4"
   }
  ],
  "footnotes": [],
@@ -140,5 +143,13 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-05T11:58:08.447481",
   "early_schema": false
- }
+ },
+ "section_path": [
+  "t1",
+  "t1-2",
+  "t1-2-4"
+ ],
+ "sections": [
+  "t1-2-4"
+ ]
 }

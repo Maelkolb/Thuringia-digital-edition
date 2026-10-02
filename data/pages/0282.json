@@ -88,7 +88,8 @@
      922,
      "Location"
     ]
-   ]
+   ],
+   "sec": "t1-4-1c"
   },
   {
    "id": "b2",
@@ -136,14 +137,16 @@
      1330,
      "Environment"
     ]
-   ]
+   ],
+   "sec": "t1-4-1c"
   },
   {
    "id": "b3",
    "type": "paragraph",
    "src": 2,
    "text": "e) Die Gewerbe- und Handelsgesetzgebung beruhte bisher auf der Gewerbeordnung vom 11. April 1863, der Ministerialverordnung zur Ausübung der Gewerbeordnung vom 8. Juni 1863 und auf dem den 23. Februar 1863 eingeführten allgemeinen deutschen Handelsgesetzbuche. An deren Stelle ist die neueste Bundesgesetzgebung getreten.",
-   "spans": []
+   "spans": [],
+   "sec": "t1-4-1c"
   },
   {
    "id": "b4",
@@ -161,7 +164,8 @@
    "word_division": {
     "word": "jährliche",
     "part": "jähr-"
-   }
+   },
+   "sec": "t1-4-1c"
   }
  ],
  "footnotes": [
@@ -184,5 +188,14 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-04T13:35:41.589743",
   "early_schema": false
- }
+ },
+ "section_path": [
+  "t1",
+  "t1-4",
+  "t1-4-1",
+  "t1-4-1c"
+ ],
+ "sections": [
+  "t1-4-1c"
+ ]
 }

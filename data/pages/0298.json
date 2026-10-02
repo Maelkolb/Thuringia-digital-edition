@@ -23,14 +23,18 @@
      20,
      "Organisation"
     ]
-   ]
+   ],
+   "sec": "t1-4-4",
+   "level": 5
   },
   {
    "id": "b2",
    "type": "heading",
    "src": 1,
    "text": "a. Generalia.",
-   "spans": []
+   "spans": [],
+   "sec": "t1-4-4",
+   "level": 5
   },
   {
    "id": "b3",
@@ -788,14 +792,17 @@
      ""
     ]
    ],
-   "caption": null
+   "caption": null,
+   "sec": "t1-4-4"
   },
   {
    "id": "b4",
    "type": "heading",
    "src": 3,
    "text": "b. Civilia.",
-   "spans": []
+   "spans": [],
+   "sec": "t1-4-4",
+   "level": 5
   },
   {
    "id": "b5",
@@ -2049,14 +2056,16 @@
      ""
     ]
    ],
-   "caption": null
+   "caption": null,
+   "sec": "t1-4-4"
   },
   {
    "id": "b6",
    "type": "paragraph",
    "src": 5,
    "text": "Von Nichtigkeitsbeschwerden gegen Erkenntnisse der Einzelgerichte kam nur eine im Jahre 1865 vor.",
-   "spans": []
+   "spans": [],
+   "sec": "t1-4-4"
   }
  ],
  "footnotes": [],
@@ -2070,5 +2079,13 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-04T13:41:09.387383",
   "early_schema": false
- }
+ },
+ "section_path": [
+  "t1",
+  "t1-4",
+  "t1-4-4"
+ ],
+ "sections": [
+  "t1-4-4"
+ ]
 }

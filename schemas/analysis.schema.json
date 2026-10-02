@@ -4,106 +4,370 @@
   "title": "Edition analysis (Auswertung)",
   "type": "object",
   "additionalProperties": false,
-  "required": ["id", "title", "category", "section", "sources", "summary", "method", "findings", "datasets", "charts", "keywords", "generated_by"],
+  "required": [
+    "id",
+    "title",
+    "category",
+    "section",
+    "sources",
+    "summary",
+    "method",
+    "datasets",
+    "charts",
+    "keywords",
+    "generated_by"
+  ],
   "definitions": {
     "bi": {
-      "type": "object", "additionalProperties": false, "required": ["de", "en"],
-      "properties": {"de": {"type": "string", "minLength": 1}, "en": {"type": "string", "minLength": 1}}
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "de",
+        "en"
+      ],
+      "properties": {
+        "de": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
     },
     "ref": {
-      "type": "object", "additionalProperties": false, "required": ["page", "block"],
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "page",
+        "block"
+      ],
       "properties": {
-        "page": {"type": "string", "description": "printed page label, e.g. '54'"},
-        "block": {"type": "string", "pattern": "^(b|fn)[0-9]+$"},
-        "rows": {"type": "string", "description": "optional table rows / list items, e.g. 'r4-r13' or 'i1-i5'"},
-        "note": {"type": "string"}
+        "page": {
+          "type": "string",
+          "description": "printed page label, e.g. '54'"
+        },
+        "block": {
+          "type": "string",
+          "pattern": "^(b|fn)[0-9]+$"
+        },
+        "rows": {
+          "type": "string",
+          "description": "optional table rows / list items, e.g. 'r4-r13' or 'i1-i5'"
+        },
+        "note": {
+          "type": "string"
+        }
       }
     }
   },
   "properties": {
-    "id": {"type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$", "maxLength": 80},
-    "title": {"$ref": "#/definitions/bi"},
-    "category": {"enum": [
-      "geography", "relief", "geology", "hydrology", "climate", "phenology", "flora", "fauna",
-      "population", "health", "housing", "culture", "dialect", "economy", "agriculture", "livestock",
-      "forestry", "mining", "industry", "trade-transport", "state", "finance", "justice", "military",
-      "church", "education", "welfare", "history", "genealogy", "places", "reception"
-    ]},
-    "section": {"type": "string", "description": "structure section id, e.g. t1-1-7"},
-    "sources": {"type": "array", "minItems": 1, "items": {"$ref": "#/definitions/ref"}},
-    "summary": {"$ref": "#/definitions/bi"},
-    "method": {"$ref": "#/definitions/bi"},
-    "findings": {"type": "array", "minItems": 1, "maxItems": 6, "items": {"$ref": "#/definitions/bi"}},
-    "caveats": {"type": "array", "maxItems": 6, "items": {"$ref": "#/definitions/bi"}},
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "maxLength": 80
+    },
+    "title": {
+      "$ref": "#/definitions/bi"
+    },
+    "category": {
+      "enum": [
+        "geography",
+        "relief",
+        "geology",
+        "hydrology",
+        "climate",
+        "phenology",
+        "flora",
+        "fauna",
+        "population",
+        "health",
+        "housing",
+        "culture",
+        "dialect",
+        "economy",
+        "agriculture",
+        "livestock",
+        "forestry",
+        "mining",
+        "industry",
+        "trade-transport",
+        "state",
+        "finance",
+        "justice",
+        "military",
+        "church",
+        "education",
+        "welfare",
+        "history",
+        "genealogy",
+        "places",
+        "reception"
+      ]
+    },
+    "section": {
+      "type": "string",
+      "description": "structure section id, e.g. t1-1-7"
+    },
+    "sources": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/definitions/ref"
+      }
+    },
+    "summary": {
+      "$ref": "#/definitions/bi"
+    },
+    "method": {
+      "$ref": "#/definitions/bi"
+    },
+    "findings": {
+      "type": "array",
+      "minItems": 0,
+      "maxItems": 3,
+      "items": {
+        "$ref": "#/definitions/bi"
+      }
+    },
+    "caveats": {
+      "type": "array",
+      "maxItems": 4,
+      "items": {
+        "$ref": "#/definitions/bi"
+      }
+    },
     "conversions": {
       "type": "array",
       "items": {
-        "type": "object", "additionalProperties": false, "required": ["from", "to", "factor_or_formula"],
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "from",
+          "to",
+          "factor_or_formula"
+        ],
         "properties": {
-          "from": {"type": "string"}, "to": {"type": "string"},
-          "factor_or_formula": {"type": "string"}, "reference": {"type": "string"}
+          "from": {
+            "type": "string"
+          },
+          "to": {
+            "type": "string"
+          },
+          "factor_or_formula": {
+            "type": "string"
+          },
+          "reference": {
+            "type": "string"
+          }
         }
       }
     },
     "datasets": {
-      "type": "array", "minItems": 1,
+      "type": "array",
+      "minItems": 1,
       "items": {
-        "type": "object", "additionalProperties": false, "required": ["name", "title", "columns", "rows", "source_refs"],
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "name",
+          "title",
+          "columns",
+          "rows",
+          "source_refs"
+        ],
         "properties": {
-          "name": {"type": "string", "pattern": "^[a-z][a-z0-9_]*$"},
-          "title": {"$ref": "#/definitions/bi"},
+          "name": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9_]*$"
+          },
+          "title": {
+            "$ref": "#/definitions/bi"
+          },
           "columns": {
-            "type": "array", "minItems": 1,
+            "type": "array",
+            "minItems": 1,
             "items": {
-              "type": "object", "additionalProperties": false, "required": ["name", "label", "type"],
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "name",
+                "label",
+                "type"
+              ],
               "properties": {
-                "name": {"type": "string", "pattern": "^[a-z][a-z0-9_]*$"},
-                "label": {"$ref": "#/definitions/bi"},
-                "type": {"enum": ["integer", "number", "string", "date"]},
-                "unit": {"type": ["string", "null"]},
-                "derived": {"type": "boolean", "description": "true = computed by the analyst (conversion, sum, mean), not printed in the source"},
-                "note": {"type": "string"}
+                "name": {
+                  "type": "string",
+                  "pattern": "^[a-z][a-z0-9_]*$"
+                },
+                "label": {
+                  "$ref": "#/definitions/bi"
+                },
+                "type": {
+                  "enum": [
+                    "integer",
+                    "number",
+                    "string",
+                    "date"
+                  ]
+                },
+                "unit": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "derived": {
+                  "type": "boolean",
+                  "description": "true = computed by the analyst (conversion, sum, mean), not printed in the source"
+                },
+                "note": {
+                  "type": "string"
+                }
               }
             }
           },
-          "rows": {"type": "array", "minItems": 1, "items": {"type": "array"}},
-          "source_refs": {"type": "array", "minItems": 1, "items": {"$ref": "#/definitions/ref"}}
+          "rows": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "array"
+            }
+          },
+          "source_refs": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "$ref": "#/definitions/ref"
+            }
+          }
         }
       }
     },
     "charts": {
-      "type": "array", "minItems": 1, "maxItems": 4,
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 3,
       "items": {
-        "type": "object", "additionalProperties": false, "required": ["id", "dataset", "title", "caption", "vegalite"],
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "dataset",
+          "title",
+          "caption",
+          "vegalite"
+        ],
         "properties": {
-          "id": {"type": "string", "pattern": "^c[0-9]+$"},
-          "dataset": {"type": "string"},
-          "extra_datasets": {"type": "array", "items": {"type": "string"}},
-          "title": {"$ref": "#/definitions/bi"},
-          "caption": {"$ref": "#/definitions/bi"},
-          "vegalite": {"type": "object"}
+          "id": {
+            "type": "string",
+            "pattern": "^c[0-9]+$"
+          },
+          "dataset": {
+            "type": "string"
+          },
+          "extra_datasets": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "title": {
+            "$ref": "#/definitions/bi"
+          },
+          "caption": {
+            "$ref": "#/definitions/bi"
+          },
+          "vegalite": {
+            "type": "object"
+          }
         }
       }
     },
     "transcription_issues": {
       "type": "array",
       "items": {
-        "type": "object", "additionalProperties": false, "required": ["page", "block", "transcribed", "facsimile", "checked_facsimile"],
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "page",
+          "block",
+          "transcribed",
+          "facsimile",
+          "checked_facsimile"
+        ],
         "properties": {
-          "page": {"type": "string"}, "block": {"type": "string"},
-          "cell": {"type": "string", "description": "e.g. r7c3 (row 7, column 3, 1-based, grid as in the text export)"},
-          "transcribed": {"type": "string"}, "facsimile": {"type": "string"},
-          "checked_facsimile": {"type": "boolean"}, "note": {"type": "string"}
+          "page": {
+            "type": "string"
+          },
+          "block": {
+            "type": "string"
+          },
+          "cell": {
+            "type": "string",
+            "description": "e.g. r7c3 (row 7, column 3, 1-based, grid as in the text export)"
+          },
+          "transcribed": {
+            "type": "string"
+          },
+          "facsimile": {
+            "type": "string"
+          },
+          "checked_facsimile": {
+            "type": "boolean"
+          },
+          "note": {
+            "type": "string"
+          }
         }
       }
     },
     "keywords": {
-      "type": "object", "additionalProperties": false, "required": ["de", "en"],
-      "properties": {"de": {"type": "array", "items": {"type": "string"}}, "en": {"type": "array", "items": {"type": "string"}}}
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "de",
+        "en"
+      ],
+      "properties": {
+        "de": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "en": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
     },
-    "related": {"type": "array", "items": {"type": "string"}, "description": "ids of related analyses"},
-    "supersedes_legacy": {"type": "string", "description": "which analysis of the 2026-03 edition this replaces, if any"},
-    "generated_by": {"type": "string"},
-    "date": {"type": "string"}
+    "related": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "ids of related analyses"
+    },
+    "supersedes_legacy": {
+      "type": "string",
+      "description": "which analysis of the 2026-03 edition this replaces, if any"
+    },
+    "generated_by": {
+      "type": "string"
+    },
+    "date": {
+      "type": "string"
+    },
+    "merges": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "ids of the earlier single analyses this piece combines (archived in data/analyses/_archive)"
+    }
   }
 }

@@ -28,7 +28,9 @@
      106,
      "Person"
     ]
-   ]
+   ],
+   "sec": "t1-5-3",
+   "level": 5
   },
   {
    "id": "b2",
@@ -929,7 +931,8 @@
      ""
     ]
    ],
-   "caption": null
+   "caption": null,
+   "sec": "t1-5-3"
   }
  ],
  "footnotes": [],
@@ -957,5 +960,13 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-04T14:33:34.710416",
   "early_schema": false
- }
+ },
+ "section_path": [
+  "t1",
+  "t1-5",
+  "t1-5-3"
+ ],
+ "sections": [
+  "t1-5-3"
+ ]
 }

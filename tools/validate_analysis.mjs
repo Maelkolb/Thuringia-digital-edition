@@ -15,7 +15,10 @@ import Ajv from 'ajv';
 import * as vl from 'vega-lite';
 import * as vega from 'vega';
 import { Resvg } from '@resvg/resvg-js';
-import { theme, isComposite } from './vega_theme.mjs';
+import { theme, isComposite, applyTokens } from './vega_theme.mjs';
+
+// resvg cannot handle empty paths (e.g. line segments that collapse when projected)
+const cleanSvg = (svg) => svg.replace(/<path\b[^>]*\sd=""[^>]*?(\/>|><\/path>)/g, '');
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const ANALYSES = path.join(ROOT, 'data', 'analyses');
@@ -87,7 +90,7 @@ export function rowsAsObjects(ds) {
 }
 
 async function renderChart(a, chart, lang, mode, errors, warnings) {
-  const spec = resolveLang(structuredClone(chart.vegalite), lang);
+  const spec = applyTokens(resolveLang(structuredClone(chart.vegalite), lang), mode);
   const ds = a.datasets.find((d) => d.name === chart.dataset);
   if (!ds) { errors.push(`chart ${chart.id}: unknown dataset ${chart.dataset}`); return null; }
   if (spec.data && !spec.data.name) errors.push(`chart ${chart.id}: spec must not carry inline data/url - use the dataset`);
@@ -137,6 +140,15 @@ export async function validate(file, { preview = true } = {}) {
   if (!validateSchema(a)) for (const e of validateSchema.errors) errors.push(`schema: ${e.instancePath || '/'} ${e.message}${e.params && e.params.additionalProperty ? ' (' + e.params.additionalProperty + ')' : ''}${e.params && e.params.allowedValues ? ' ' + JSON.stringify(e.params.allowedValues) : ''}`);
   if (errors.length) return { file, id: a.id, errors, warnings };
   if (path.basename(file, '.json') !== a.id) errors.push(`file name must equal id (${a.id}.json)`);
+  // reading length: a short lead, few findings, short captions; method and caveats may say more
+  const words = (x) => (x || '').trim().split(/\s+/).filter(Boolean).length;
+  const limit = (label, bi, max) => { for (const l of ['de', 'en']) if (bi && words(bi[l]) > max) errors.push(`${label} [${l}] has ${words(bi[l])} words, at most ${max}`); };
+  limit('title', a.title, 12);
+  limit('summary', a.summary, 75);
+  (a.findings || []).forEach((f, i) => limit(`finding ${i + 1}`, f, 35));
+  (a.caveats || []).forEach((c, i) => limit(`caveat ${i + 1}`, c, 60));
+  limit('method', a.method, 260);
+  a.charts.forEach((c) => { limit(`chart ${c.id} title`, c.title, 16); limit(`chart ${c.id} caption`, c.caption, 45); });
   if (!sections.has(a.section)) errors.push(`unknown section ${a.section}`);
   const refs = [...a.sources, ...a.datasets.flatMap((d) => d.source_refs)];
   for (const r of refs) if (blockText(r) === null) errors.push(`source not found: page ${r.page} block ${r.block}`);
@@ -183,7 +195,7 @@ export async function validate(file, { preview = true } = {}) {
     for (const lang of ['de', 'en']) {
       const svg = await renderChart(a, ch, lang, 'light', errors, warnings);
       if (svg && preview && lang === 'de') {
-        const png = new Resvg(svg, { fitTo: { mode: 'width', value: 1100 }, background: '#fbf8f1', font: { loadSystemFonts: true, defaultFontFamily: 'Segoe UI' } }).render().asPng();
+        const png = new Resvg(cleanSvg(svg), { fitTo: { mode: 'width', value: 1100 }, background: '#fbf8f1', font: { loadSystemFonts: true, defaultFontFamily: 'Segoe UI' } }).render().asPng();
         fs.writeFileSync(path.join(PREVIEW, `${a.id}__${ch.id}.png`), png);
       }
     }

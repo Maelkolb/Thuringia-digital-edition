@@ -17,7 +17,8 @@
    "type": "paragraph",
    "src": 0,
    "text": "Vegetation in der Richtung der Winde. Die Versiedung der Soole geschieht unter Beaufsichtigung fürstlicher Salineninspectoren. Unter den Fabrikaten der Saline ist Kochsalz das wichtigste, dessen Absatzquantum seither vom Handel und Gewerbe der Umgegend und von den Verträgen der Nachbarstaaten abhing. Neben dem Kochsalze wird noch Viehsalz, Gewerbe- und Dungsalz producirt. An Kochsalz wurden 1857: 27,527; 1858: 29,000 und 1863: 23,898 Centner abgegeben. Die Debitstellen erhielten in Centnern:",
-   "spans": []
+   "spans": [],
+   "sec": "t1-3-5"
   },
   {
    "id": "b2",
@@ -565,14 +566,16 @@
      ""
     ]
    ],
-   "caption": null
+   "caption": null,
+   "sec": "t1-3-5"
   },
   {
    "id": "b3",
    "type": "paragraph",
    "src": 2,
    "text": "Ferner wurden abgegeben:",
-   "spans": []
+   "spans": [],
+   "sec": "t1-3-5"
   },
   {
    "id": "b4",
@@ -701,7 +704,8 @@
      "102"
     ]
    ],
-   "caption": null
+   "caption": null,
+   "sec": "t1-3-5"
   },
   {
    "id": "b5",
@@ -714,7 +718,8 @@
      81,
      "Resource"
     ]
-   ]
+   ],
+   "sec": "t1-3-5"
   },
   {
    "id": "b6",
@@ -742,7 +747,8 @@
      677,
      "Resource"
     ]
-   ]
+   ],
+   "sec": "t1-3-5"
   },
   {
    "id": "b7",
@@ -800,7 +806,8 @@
      851,
      "Artefact"
     ]
-   ]
+   ],
+   "sec": "t1-3-5"
   }
  ],
  "footnotes": [],
@@ -819,5 +826,13 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-04T13:29:46.897516",
   "early_schema": false
- }
+ },
+ "section_path": [
+  "t1",
+  "t1-3",
+  "t1-3-5"
+ ],
+ "sections": [
+  "t1-3-5"
+ ]
 }

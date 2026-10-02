@@ -44,7 +44,8 @@
      "Natural Object"
     ]
    ],
-   "continued": true
+   "continued": true,
+   "sec": "t2-1"
   },
   {
    "id": "b2",
@@ -127,7 +128,8 @@
      1049,
      "Natural Object"
     ]
-   ]
+   ],
+   "sec": "t2-1"
   },
   {
    "id": "b3",
@@ -253,7 +255,8 @@
      "18,7 \""
     ]
    ],
-   "caption": null
+   "caption": null,
+   "sec": "t2-1"
   },
   {
    "id": "b4",
@@ -271,7 +274,8 @@
      228,
      "Natural Object"
     ]
-   ]
+   ],
+   "sec": "t2-1"
   },
   {
    "id": "b5",
@@ -613,7 +617,8 @@
      "30"
     ]
    ],
-   "caption": null
+   "caption": null,
+   "sec": "t2-1"
   },
   {
    "id": "b6",
@@ -636,7 +641,8 @@
      233,
      "Natural Object"
     ]
-   ]
+   ],
+   "sec": "t2-1"
   }
  ],
  "footnotes": [],
@@ -646,5 +652,12 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-04T14:40:07.680178",
   "early_schema": false
- }
+ },
+ "section_path": [
+  "t2",
+  "t2-1"
+ ],
+ "sections": [
+  "t2-1"
+ ]
 }

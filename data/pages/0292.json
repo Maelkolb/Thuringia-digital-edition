@@ -18,28 +18,36 @@
    "src": 0,
    "text": "ger) Morgen zu 180 Quadrat-Ruthen angenommen. In allen amtlichen Erlassen und Urkunden dürfen Flächenbestimmungen nur nach diesem Maasse getroffen werden laut Ministerialverfügung vom 19. August 1858. Als Baumaass gilt das leipziger Werkmaass, den Fuss zu 125,3 pariser Linien gerechnet, welches zufolge Verordnung vom 1. April 1859 bei allen der Approbation unterliegenden Baurissen anzuwenden ist.",
    "spans": [],
-   "continued": true
+   "continued": true,
+   "sec": "t1-4-3"
   },
   {
    "id": "b2",
    "type": "paragraph",
    "src": 1,
    "text": "Gewichte. Als allgemeines Landgewicht ist durch Gesetz vom 26. November 1857 und Ausführungsverordnung vom 10. Mai 1858 das Zollgewicht eingeführt, welches sich zu dem früher im Handelsverkehre gebräuchlichen Gewichte dergestalt verhält, dass ein Zollpfund gleich ist ein Pfund 2,09408 Loth Handelsgewicht. Das Gesetz ist mit dem 1. Juli 1858 in Kraft getreten. Ein besonderes Juwelengewicht findet nicht statt. Nach landesherrlicher Verordnung vom 17. Januar 1868 ist an die Stelle des früheren Medicinalgewichts gleichfalls das Zollgewicht (1 Pfund Zollgewicht = 1 Pfund 5 Unzen 2 Skr. 10 1/2 Gran des alten Gewichtes) getreten.",
-   "spans": []
+   "spans": [],
+   "sec": "t1-4-3"
   },
   {
    "id": "b3",
    "type": "heading",
    "src": 2,
    "text": "4. Rechtspflege.",
-   "spans": []
+   "spans": [],
+   "opens": [
+    "t1-4-4"
+   ],
+   "sec": "t1-4-4",
+   "level": 4
   },
   {
    "id": "b4",
    "type": "paragraph",
    "src": 3,
    "text": "Nach der Organisation vom 28. August 1863 bestehen für die (zufolge der Aufhebung der Patrimonialgerichte, des befreiten Gerichtsstandes *), der kirchlichen, Berg- und Forstrügegerichte) alle Staatsangehörigen umfassende Rechtspflege ausser dem Geschworenengerichte und den Militärgerichten folgende Justizbehörden:",
-   "spans": []
+   "spans": [],
+   "sec": "t1-4-4"
   },
   {
    "id": "b5",
@@ -192,7 +200,8 @@
      1679,
      "Location"
     ]
-   ]
+   ],
+   "sec": "t1-4-4"
   }
  ],
  "footnotes": [
@@ -209,5 +218,14 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-04T13:39:35.373423",
   "early_schema": false
- }
+ },
+ "section_path": [
+  "t1",
+  "t1-4",
+  "t1-4-3"
+ ],
+ "sections": [
+  "t1-4-3",
+  "t1-4-4"
+ ]
 }

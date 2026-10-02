@@ -43,6 +43,7 @@
     if (!specs || !window.vega) return;
     views.forEach(function (v) { v.finalize(); }); views = [];
     var lang = document.documentElement.getAttribute('data-ui') === 'en' ? 'en' : 'de';
+    vega.formatLocale(lang === 'de' ? { decimal: ',', thousands: '.', grouping: [3], currency: ['', ' Taler'] } : { decimal: '.', thousands: ',', grouping: [3], currency: ['', ' thalers'] });
     document.querySelectorAll('[data-chart]').forEach(function (el) {
       var s = specs[el.getAttribute('data-chart')]; if (!s) return;
       el.innerHTML = '';

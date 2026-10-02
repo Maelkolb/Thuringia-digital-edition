@@ -17,7 +17,9 @@
    "type": "heading",
    "src": 0,
    "text": "IV. Der Staat.",
-   "spans": []
+   "spans": [],
+   "sec": "inhalt",
+   "level": 4
   },
   {
    "id": "b2",
@@ -216,7 +218,8 @@
      "301—310."
     ]
    ],
-   "caption": null
+   "caption": null,
+   "sec": "inhalt"
   },
   {
    "id": "b3",
@@ -245,7 +248,8 @@
      "311—403."
     ]
    ],
-   "caption": null
+   "caption": null,
+   "sec": "inhalt"
   },
   {
    "id": "b4",
@@ -258,7 +262,9 @@
      49,
      "Location"
     ]
-   ]
+   ],
+   "sec": "inhalt",
+   "level": 4
   },
   {
    "id": "b5",
@@ -344,7 +350,8 @@
      "706—825."
     ]
    ],
-   "caption": null
+   "caption": null,
+   "sec": "inhalt"
   }
  ],
  "footnotes": [],
@@ -373,5 +380,12 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-10-01T20:41:07.794957",
   "early_schema": false
- }
+ },
+ "section_path": [
+  "front",
+  "inhalt"
+ ],
+ "sections": [
+  "inhalt"
+ ]
 }

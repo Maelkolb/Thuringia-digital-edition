@@ -17,21 +17,26 @@
    "type": "heading",
    "src": 0,
    "text": "II. Flächenmaße.",
-   "spans": []
+   "spans": [],
+   "sec": "berichtigungen",
+   "level": 4
   },
   {
    "id": "b2",
    "type": "paragraph",
    "src": 1,
    "text": "1 sächsische Quadratelle (Baumaß) = 0,319576 Quadratmeter.\n1 preuß. Quadratruthe = 14,184579 \"\n1 preuß. Morgen (180 Quadratruthen) = 0,255322 Hectaren.",
-   "spans": []
+   "spans": [],
+   "sec": "berichtigungen"
   },
   {
    "id": "b3",
    "type": "heading",
    "src": 2,
    "text": "III. Körpermaße.",
-   "spans": []
+   "spans": [],
+   "sec": "berichtigungen",
+   "level": 4
   },
   {
    "id": "b4",
@@ -64,21 +69,25 @@
      528,
      "Location"
     ]
-   ]
+   ],
+   "sec": "berichtigungen"
   },
   {
    "id": "b5",
    "type": "heading",
    "src": 4,
    "text": "IV. Gewichte.",
-   "spans": []
+   "spans": [],
+   "sec": "berichtigungen",
+   "level": 4
   },
   {
    "id": "b6",
    "type": "paragraph",
    "src": 5,
    "text": "1 Pfund (Zollpfund) = 0,5 Kilogramm.",
-   "spans": []
+   "spans": [],
+   "sec": "berichtigungen"
   },
   {
    "id": "b7",
@@ -91,7 +100,9 @@
      7,
      "Resource"
     ]
-   ]
+   ],
+   "sec": "berichtigungen",
+   "level": 4
   },
   {
    "id": "b8",
@@ -119,14 +130,17 @@
      776,
      "Location"
     ]
-   ]
+   ],
+   "sec": "berichtigungen"
   },
   {
    "id": "b9",
    "type": "heading",
    "src": 8,
    "text": "VI. Bruchsteinmaße.",
-   "spans": []
+   "spans": [],
+   "sec": "berichtigungen",
+   "level": 4
   },
   {
    "id": "b10",
@@ -149,21 +163,25 @@
      301,
      "Location"
     ]
-   ]
+   ],
+   "sec": "berichtigungen"
   },
   {
    "id": "b11",
    "type": "heading",
    "src": 10,
    "text": "VII. Entfernungsmaße.",
-   "spans": []
+   "spans": [],
+   "sec": "berichtigungen",
+   "level": 4
   },
   {
    "id": "b12",
    "type": "paragraph",
    "src": 11,
    "text": "1 preuß. Meile (2000 preuß. Ruthen) = 1,0043 künftige Meile (zu 7500 Metern).\n1 geographische Meile = 0,9894 künftige Meile.",
-   "spans": []
+   "spans": [],
+   "sec": "berichtigungen"
   }
  ],
  "footnotes": [],
@@ -181,5 +199,12 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-04T21:47:59.099756",
   "early_schema": false
- }
+ },
+ "section_path": [
+  "back",
+  "berichtigungen"
+ ],
+ "sections": [
+  "berichtigungen"
+ ]
 }

@@ -34,7 +34,8 @@
      "Artefact"
     ]
    ],
-   "continued": true
+   "continued": true,
+   "sec": "t1-1-5"
   },
   {
    "id": "b2",
@@ -312,7 +313,8 @@
      2574,
      "Natural Object"
     ]
-   ]
+   ],
+   "sec": "t1-1-5"
   },
   {
    "id": "b3",
@@ -346,7 +348,8 @@
      "Animal"
     ]
    ],
-   "continues": true
+   "continues": true,
+   "sec": "t1-1-5"
   }
  ],
  "footnotes": [],
@@ -356,5 +359,13 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-01-06T02:36:38.222784",
   "early_schema": false
- }
+ },
+ "section_path": [
+  "t1",
+  "t1-1",
+  "t1-1-5"
+ ],
+ "sections": [
+  "t1-1-5"
+ ]
 }

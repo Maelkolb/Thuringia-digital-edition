@@ -17,14 +17,16 @@
    "type": "paragraph",
    "src": 0,
    "text": "Das Bedeutsamste, das sich aus diesen Reihen ableiten lässt, ist das Größenverhältnis zwischen den unproductiven und productiven, den minderjährigen und großjährigen oder den zum Heirathen unberechtigten und berechtigten, den zum selbstständigen Gewerbsbetriebe unbefugten und befugten und den militärfreien und militärpflichtigen Altersklassen.",
-   "spans": []
+   "spans": [],
+   "sec": "t1-2-1"
   },
   {
    "id": "b2",
    "type": "paragraph",
    "src": 1,
    "text": "Die numerische Stärke der productiven oder schaffenden, ernährenden Altersklassen vom 15. bis zum 60. Jahre verhält sich zu dem Alter, das der schaffenden Hand bedarf, nämlich theils zur Jugend von 0 bis zum vollendeten 14. Jahre theils zum Greisenalter über 60 Jahre:",
-   "spans": []
+   "spans": [],
+   "sec": "t1-2-1"
   },
   {
    "id": "b3",
@@ -479,7 +481,8 @@
      "581,8\n612,7"
     ]
    ],
-   "caption": null
+   "caption": null,
+   "sec": "t1-2-1"
   },
   {
    "id": "b4",
@@ -502,14 +505,16 @@
      421,
      "Location"
     ]
-   ]
+   ],
+   "sec": "t1-2-1"
   },
   {
    "id": "b5",
    "type": "paragraph",
    "src": 4,
    "text": "Da die Großjährigkeit und die Befugniß zum Heirathen mit dem vollendeten 21. Lebensjahre eintritt, so fallen minderjährig und großjährig mit heirathsunbefugt und heirathsbefugt zusammen. Die Berechtigung zum selbstständigen Gewerbsbetriebe hebt erst mit dem vollendeten 24. Lebensjahre an. Die betreffenden Lebensalter nach ihren absoluten und procentalen Größenverhältnissen sind:",
-   "spans": []
+   "spans": [],
+   "sec": "t1-2-1"
   },
   {
    "id": "b6",
@@ -809,7 +814,8 @@
      "42182\n487,81"
     ]
    ],
-   "caption": null
+   "caption": null,
+   "sec": "t1-2-1"
   },
   {
    "id": "b7",
@@ -827,14 +833,16 @@
      262,
      "Location"
     ]
-   ]
+   ],
+   "sec": "t1-2-1"
   },
   {
    "id": "b8",
    "type": "paragraph",
    "src": 7,
    "text": "Die absolute und procentale Zahl der Militärpflichtigen ergiebt sich aus folgender Tabelle:",
-   "spans": []
+   "spans": [],
+   "sec": "t1-2-1"
   },
   {
    "id": "b9",
@@ -1062,7 +1070,8 @@
      "32974\n381,33"
     ]
    ],
-   "caption": null
+   "caption": null,
+   "sec": "t1-2-1"
   }
  ],
  "footnotes": [],
@@ -1088,5 +1097,13 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-03T15:09:56.973896",
   "early_schema": false
- }
+ },
+ "section_path": [
+  "t1",
+  "t1-2",
+  "t1-2-1"
+ ],
+ "sections": [
+  "t1-2-1"
+ ]
 }

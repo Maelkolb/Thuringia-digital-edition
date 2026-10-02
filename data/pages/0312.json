@@ -38,7 +38,8 @@
      240,
      "Location"
     ]
-   ]
+   ],
+   "sec": "t1-4-6"
   },
   {
    "id": "b2",
@@ -71,7 +72,8 @@
      481,
      "Organisation"
     ]
-   ]
+   ],
+   "sec": "t1-4-6"
   },
   {
    "id": "b3",
@@ -99,7 +101,8 @@
      238,
      "Location"
     ]
-   ]
+   ],
+   "sec": "t1-4-6"
   },
   {
    "id": "b4",
@@ -117,14 +120,16 @@
      22,
      "Location"
     ]
-   ]
+   ],
+   "sec": "t1-4-6"
   },
   {
    "id": "b5",
    "type": "paragraph",
    "src": 4,
    "text": "Von den beiden Gymnasien hat das zu",
-   "spans": []
+   "spans": [],
+   "sec": "t1-4-6"
   },
   {
    "id": "b6",
@@ -244,7 +249,8 @@
      "304 Schüler."
     ]
    ],
-   "caption": null
+   "caption": null,
+   "sec": "t1-4-6"
   },
   {
    "id": "b7",
@@ -272,7 +278,8 @@
      326,
      "Location"
     ]
-   ]
+   ],
+   "sec": "t1-4-6"
   }
  ],
  "footnotes": [
@@ -306,5 +313,13 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-04T13:45:49.827145",
   "early_schema": false
- }
+ },
+ "section_path": [
+  "t1",
+  "t1-4",
+  "t1-4-6"
+ ],
+ "sections": [
+  "t1-4-6"
+ ]
 }

@@ -29,7 +29,8 @@
      "Organisation"
     ]
    ],
-   "continued": true
+   "continued": true,
+   "sec": "t1-4-4"
   },
   {
    "id": "b2",
@@ -57,7 +58,8 @@
      620,
      "Organisation"
     ]
-   ]
+   ],
+   "sec": "t1-4-4"
   },
   {
    "id": "b3",
@@ -75,7 +77,8 @@
      183,
      "Organisation"
     ]
-   ]
+   ],
+   "sec": "t1-4-4"
   },
   {
    "id": "b4",
@@ -88,7 +91,8 @@
      90,
      "Organisation"
     ]
-   ]
+   ],
+   "sec": "t1-4-4"
   },
   {
    "id": "b5",
@@ -101,7 +105,8 @@
      231,
      "Organisation"
     ]
-   ]
+   ],
+   "sec": "t1-4-4"
   },
   {
    "id": "b6",
@@ -114,14 +119,17 @@
      872,
      "Person"
     ]
-   ]
+   ],
+   "sec": "t1-4-4"
   },
   {
    "id": "b7",
    "type": "heading",
    "src": 6,
    "text": "Statistik der Rechtspflege.",
-   "spans": []
+   "spans": [],
+   "sec": "t1-4-4",
+   "level": 5
   }
  ],
  "footnotes": [],
@@ -131,5 +139,13 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-04T13:40:09.857565",
   "early_schema": false
- }
+ },
+ "section_path": [
+  "t1",
+  "t1-4",
+  "t1-4-4"
+ ],
+ "sections": [
+  "t1-4-4"
+ ]
 }

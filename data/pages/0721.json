@@ -17,7 +17,8 @@
    "type": "paragraph",
    "src": 0,
    "text": "Die städtische Bevölkerung betrug 1647 nur 1161, die ländliche 5292; gegenwärtig umfasst jene 4661, diese 17,698 Seelen. Demnach hat die städtische Bevölkerung in 220 Jahren circa um das 4fache, die ländliche um das 3,34fache, die Gesammtbevölkerung des Districts um das 3,46fache zugenommen.",
-   "spans": []
+   "spans": [],
+   "sec": "t2-3"
   },
   {
    "id": "b2",
@@ -85,7 +86,8 @@
      489,
      "Location"
     ]
-   ]
+   ],
+   "sec": "t2-3"
   },
   {
    "id": "b3",
@@ -133,7 +135,8 @@
      162,
      "Artefact"
     ]
-   ]
+   ],
+   "sec": "t2-3"
   },
   {
    "id": "b4",
@@ -166,7 +169,8 @@
      188,
      "Location"
     ]
-   ]
+   ],
+   "sec": "t2-3"
   },
   {
    "id": "b5",
@@ -289,7 +293,8 @@
      1086,
      "Location"
     ]
-   ]
+   ],
+   "sec": "t2-3"
   }
  ],
  "footnotes": [],
@@ -304,5 +309,12 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-04T21:03:13.293209",
   "early_schema": false
- }
+ },
+ "section_path": [
+  "t2",
+  "t2-3"
+ ],
+ "sections": [
+  "t2-3"
+ ]
 }

@@ -3,20 +3,15 @@
 {% block main %}
 <div class="wrap">
   <div class="reg-layout">
-    <nav class="reg-nav" aria-label="Register">
-      {% for c in classes %}<a href="{{ c[1] }}.html" class="k-{{ c[0] }}"><span class="swatch"></span>{{ t(c[2], c[3]) }}</a>{% endfor %}
-      <a href="sachregister.html" aria-current="page">{{ t('Sachregister', 'Subject index') }}</a>
-      <a href="glossar.html">{{ t('Glossar', 'Glossary') }}</a>
-    </nav>
+    {% set current = 'subjects' %}{% include "_regnav.html" %}
     <div>
-      <p class="eyebrow">{{ t('Register', 'Index') }} · {{ items|length }} {{ t('Schlagwörter', 'subjects') }}</p>
-      <h1 class="doc-title" style="margin-top:8px">{{ t('Sachregister', 'Subject index') }}</h1>
-      <p class="lede" style="font-size:1.05rem">{{ t('Jede Seite wurde mit einem kontrollierten Vokabular von Schlagwörtern in moderner Schreibung verschlagwortet. Das Werk selbst besitzt nur ein Ortsregister.', 'Every page was indexed with a controlled vocabulary of subject terms in modern spelling. The book itself only has an index of places.') }}</p>
-      <div class="reg-tools"><input type="search" placeholder="Filtern … / Filter …" aria-label="Filtern" data-reg-filter><span class="muted" data-reg-count></span></div>
+      <h1 class="doc-title">{{ t('Sachregister', 'Subject index') }}</h1>
+      <p class="lede">{{ t('Jede Seite wurde mit einem kontrollierten Vokabular von Schlagwörtern in moderner Schreibung verschlagwortet. Das Werk selbst besitzt nur ein Ortsregister.', 'Every page was indexed with a controlled vocabulary of subject terms in modern spelling. The book itself only has an index of places.') }} {{ t(items|length ~ ' Schlagwörter.', items|length ~ ' subjects.') }}</p>
+      <div class="reg-tools"><input type="search" {{ i18n('placeholder', 'Schlagwörter filtern', 'Filter subjects') }} {{ i18n('aria-label', 'Schlagwörter filtern', 'Filter subjects') }} data-reg-filter><span class="count" data-reg-count aria-live="polite"></span></div>
       <ul class="reg-list">
       {% for it in items %}
-        <li class="reg-item" id="{{ it.id }}" data-k="{{ it.label|lower|e }}"><div><span class="name">{{ it.label|e }}</span></div><div class="auth"><span class="n">{{ it.pages|length }} {{ t('Seiten', 'pages') }}</span></div>
-          <div class="refs">{% for p in it.pages %}<a href="../seite/{{ p }}.html">{{ p }}</a> {% endfor %}</div></li>
+        <li class="reg-item" id="{{ it.id }}" data-k="{{ it.label|lower|e }}"><div><span class="name">{{ it.label|e }}</span></div><div class="auth"><span class="n">{{ t(it.pages|length ~ (' Seite' if it.pages|length == 1 else ' Seiten'), it.pages|length ~ (' page' if it.pages|length == 1 else ' pages')) }}</span></div>
+          <div class="refs">{{ t('S.', 'pp.') }} {% for p in it.pages %}<a href="../seite/{{ p }}.html">{{ p }}</a>{% if not loop.last %}, {% endif %}{% endfor %}</div></li>
       {% endfor %}
       </ul>
     </div>

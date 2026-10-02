@@ -73,7 +73,8 @@
      3014,
      "Person"
     ]
-   ]
+   ],
+   "sec": "t2-2"
   },
   {
    "id": "b2",
@@ -101,7 +102,8 @@
      536,
      "Person"
     ]
-   ]
+   ],
+   "sec": "t2-2"
   }
  ],
  "footnotes": [],
@@ -111,5 +113,12 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-05T12:13:37.330831",
   "early_schema": false
- }
+ },
+ "section_path": [
+  "t2",
+  "t2-2"
+ ],
+ "sections": [
+  "t2-2"
+ ]
 }

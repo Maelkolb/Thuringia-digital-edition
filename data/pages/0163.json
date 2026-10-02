@@ -23,7 +23,9 @@
      11,
      "Location"
     ]
-   ]
+   ],
+   "sec": "t1-2-3",
+   "level": 5
   },
   {
    "id": "b2",
@@ -81,7 +83,8 @@
      598,
      "Person"
     ]
-   ]
+   ],
+   "sec": "t1-2-3"
   },
   {
    "id": "b3",
@@ -94,7 +97,9 @@
      12,
      "Location"
     ]
-   ]
+   ],
+   "sec": "t1-2-3",
+   "level": 5
   },
   {
    "id": "b4",
@@ -127,14 +132,17 @@
      974,
      "Person"
     ]
-   ]
+   ],
+   "sec": "t1-2-3"
   },
   {
    "id": "b5",
    "type": "heading",
    "src": 4,
    "text": "Idiotismen.",
-   "spans": []
+   "spans": [],
+   "sec": "t1-2-3",
+   "level": 5
   },
   {
    "id": "b6",
@@ -316,7 +324,8 @@
      "dem Arzte schicken."
     ]
    ],
-   "caption": null
+   "caption": null,
+   "sec": "t1-2-3"
   }
  ],
  "footnotes": [
@@ -351,5 +360,13 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-03T15:29:00.315154",
   "early_schema": false
- }
+ },
+ "section_path": [
+  "t1",
+  "t1-2",
+  "t1-2-3"
+ ],
+ "sections": [
+  "t1-2-3"
+ ]
 }

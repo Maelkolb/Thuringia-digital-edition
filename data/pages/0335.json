@@ -33,7 +33,8 @@
    "word_division": {
     "word": "Lebenseinrichtung",
     "part": "einrichtung"
-   }
+   },
+   "sec": "t1-5-2"
   },
   {
    "id": "b2",
@@ -46,7 +47,8 @@
      604,
      "Person"
     ]
-   ]
+   ],
+   "sec": "t1-5-2"
   },
   {
    "id": "b3",
@@ -74,7 +76,8 @@
      600,
      "Person"
     ]
-   ]
+   ],
+   "sec": "t1-5-2"
   },
   {
    "id": "b4",
@@ -187,7 +190,8 @@
      1734,
      "Location"
     ]
-   ]
+   ],
+   "sec": "t1-5-2"
   }
  ],
  "footnotes": [],
@@ -202,5 +206,13 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-05T12:03:23.333790",
   "early_schema": false
- }
+ },
+ "section_path": [
+  "t1",
+  "t1-5",
+  "t1-5-2"
+ ],
+ "sections": [
+  "t1-5-2"
+ ]
 }

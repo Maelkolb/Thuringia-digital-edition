@@ -17,7 +17,9 @@
    "type": "heading",
    "src": 0,
    "text": "Procentverhältnisse der Bevölkerung nach Geschlechtern und Altersklassen:",
-   "spans": []
+   "spans": [],
+   "sec": "t1-2-1",
+   "level": 5
   },
   {
    "id": "b2",
@@ -539,7 +541,8 @@
      "50,88"
     ]
    ],
-   "caption": null
+   "caption": null,
+   "sec": "t1-2-1"
   },
   {
    "id": "b3",
@@ -552,14 +555,16 @@
      248,
      "Location"
     ]
-   ]
+   ],
+   "sec": "t1-2-1"
   },
   {
    "id": "b4",
    "type": "paragraph",
    "src": 3,
    "text": "9) Die Bevölkerung des Landes (1864) nach Geschlecht und Alter durch die einzelnen Lebensjahre:",
-   "spans": []
+   "spans": [],
+   "sec": "t1-2-1"
   }
  ],
  "footnotes": [],
@@ -583,5 +588,13 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-03T15:09:12.716329",
   "early_schema": false
- }
+ },
+ "section_path": [
+  "t1",
+  "t1-2",
+  "t1-2-1"
+ ],
+ "sections": [
+  "t1-2-1"
+ ]
 }

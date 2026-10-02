@@ -103,7 +103,8 @@
      1160,
      "Location"
     ]
-   ]
+   ],
+   "sec": "t2-3"
   },
   {
    "id": "b2",
@@ -201,7 +202,8 @@
      891,
      "Artefact"
     ]
-   ]
+   ],
+   "sec": "t2-3"
   },
   {
    "id": "b3",
@@ -309,7 +311,8 @@
      1253,
      "Location"
     ]
-   ]
+   ],
+   "sec": "t2-3"
   }
  ],
  "footnotes": [],
@@ -319,5 +322,12 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-04T21:26:17.065757",
   "early_schema": false
- }
+ },
+ "section_path": [
+  "t2",
+  "t2-3"
+ ],
+ "sections": [
+  "t2-3"
+ ]
 }

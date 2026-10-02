@@ -68,7 +68,8 @@
      1028,
      "Location"
     ]
-   ]
+   ],
+   "sec": "t1-5-2"
   },
   {
    "id": "b2",
@@ -86,7 +87,8 @@
      719,
      "Artefact"
     ]
-   ]
+   ],
+   "sec": "t1-5-2"
   },
   {
    "id": "b3",
@@ -329,14 +331,16 @@
      1069,
      "Location"
     ]
-   ]
+   ],
+   "sec": "t1-5-2"
   },
   {
    "id": "b4",
    "type": "paragraph",
    "src": 3,
    "text": "Geschick und Befähigung der drei Linien waren verschieden. Die älteste und jüngste Linie starben, nachdem jene neun, diese sieben Generationen in's",
-   "spans": []
+   "spans": [],
+   "sec": "t1-5-2"
   }
  ],
  "footnotes": [],
@@ -354,5 +358,13 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-05T12:03:52.348675",
   "early_schema": false
- }
+ },
+ "section_path": [
+  "t1",
+  "t1-5",
+  "t1-5-2"
+ ],
+ "sections": [
+  "t1-5-2"
+ ]
 }

@@ -83,14 +83,20 @@
      2363,
      "Plant"
     ]
-   ]
+   ],
+   "sec": "t1-2-4"
   },
   {
    "id": "b2",
    "type": "heading",
    "src": 1,
    "text": "5. Gestalt und Character.",
-   "spans": []
+   "spans": [],
+   "opens": [
+    "t1-2-5"
+   ],
+   "sec": "t1-2-5",
+   "level": 4
   },
   {
    "id": "b3",
@@ -98,7 +104,8 @@
    "src": 2,
    "text": "Der Volksstamm im Unterlande und im Oberlande zeigt sich in Gestalt, Character, Sitte, Glaube und Sage vorherrschend von deutschem Gusse. Das sorbische Volkselement ist wie in der Sprache, so nach diesen Seiten fast durchaus von dem Germanen aufgesaugt und verarbeitet. Reicher, nicht armer Kindersegen, blonde, nicht dunkle Kinderköpfe, derbstarke, aber keine scharf hervortretende Backenknochen, mittelgroße und mittelliegende, keineswegs kleine und tiefsteckende Augen, nicht üppigere Formen bei Frauen und schmächtigere bei Männern",
    "spans": [],
-   "continues": true
+   "continues": true,
+   "sec": "t1-2-5"
   }
  ],
  "footnotes": [],
@@ -113,5 +120,14 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-03T15:32:01.200678",
   "early_schema": false
- }
+ },
+ "section_path": [
+  "t1",
+  "t1-2",
+  "t1-2-4"
+ ],
+ "sections": [
+  "t1-2-4",
+  "t1-2-5"
+ ]
 }

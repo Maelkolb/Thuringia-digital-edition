@@ -108,7 +108,8 @@
      893,
      "Plant"
     ]
-   ]
+   ],
+   "sec": "t1-2-7"
   },
   {
    "id": "b2",
@@ -194,7 +195,8 @@
      "Damit ihnen kein Leid widerfahr."
     ]
    ],
-   "caption": null
+   "caption": null,
+   "sec": "t1-2-7"
   },
   {
    "id": "b3",
@@ -217,14 +219,17 @@
      689,
      "Plant"
     ]
-   ]
+   ],
+   "sec": "t1-2-7"
   },
   {
    "id": "b4",
    "type": "heading",
    "src": 3,
    "text": "Alter, Gutsübergabe und Tod.",
-   "spans": []
+   "spans": [],
+   "sec": "t1-2-7",
+   "level": 5
   },
   {
    "id": "b5",
@@ -237,7 +242,8 @@
      455,
      "Artefact"
     ]
-   ]
+   ],
+   "sec": "t1-2-7"
   }
  ],
  "footnotes": [],
@@ -257,5 +263,13 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-03T15:42:23.862473",
   "early_schema": false
- }
+ },
+ "section_path": [
+  "t1",
+  "t1-2",
+  "t1-2-7"
+ ],
+ "sections": [
+  "t1-2-7"
+ ]
 }

@@ -17,7 +17,9 @@
    "type": "heading",
    "src": 0,
    "text": "2) Der formelle Umfang der Geschäfte der Staatsanwälte.",
-   "spans": []
+   "spans": [],
+   "sec": "t1-4-4",
+   "level": 5
   },
   {
    "id": "b2",
@@ -689,14 +691,17 @@
      "22"
     ]
    ],
-   "caption": null
+   "caption": null,
+   "sec": "t1-4-4"
   },
   {
    "id": "b3",
    "type": "heading",
    "src": 2,
    "text": "3) Die formelle Geschäftserledigung bei den Staatsanwaltschaften 1867.",
-   "spans": []
+   "spans": [],
+   "sec": "t1-4-4",
+   "level": 5
   },
   {
    "id": "b4",
@@ -968,14 +973,17 @@
      "77"
     ]
    ],
-   "caption": null
+   "caption": null,
+   "sec": "t1-4-4"
   },
   {
    "id": "b5",
    "type": "heading",
    "src": 4,
    "text": "4) Zusammenstellung der durch die Kreisgerichte und das Schwurgericht verurtheilten Personen nach Altersklassen, Confession und Berufsklassen.",
-   "spans": []
+   "spans": [],
+   "sec": "t1-4-4",
+   "level": 5
   },
   {
    "id": "b6",
@@ -1884,7 +1892,8 @@
      "8"
     ]
    ],
-   "caption": null
+   "caption": null,
+   "sec": "t1-4-4"
   }
  ],
  "footnotes": [
@@ -1917,5 +1926,13 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-04T13:41:47.738389",
   "early_schema": false
- }
+ },
+ "section_path": [
+  "t1",
+  "t1-4",
+  "t1-4-4"
+ ],
+ "sections": [
+  "t1-4-4"
+ ]
 }

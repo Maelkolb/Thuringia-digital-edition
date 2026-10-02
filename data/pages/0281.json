@@ -28,7 +28,8 @@
      420,
      "Organisation"
     ]
-   ]
+   ],
+   "sec": "t1-4-1b"
   },
   {
    "id": "b2",
@@ -81,7 +82,12 @@
      2877,
      "Location"
     ]
-   ]
+   ],
+   "runin": 22,
+   "opens": [
+    "t1-4-1c"
+   ],
+   "sec": "t1-4-1c"
   }
  ],
  "footnotes": [
@@ -98,5 +104,15 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-04T13:35:23.557477",
   "early_schema": false
- }
+ },
+ "section_path": [
+  "t1",
+  "t1-4",
+  "t1-4-1",
+  "t1-4-1b"
+ ],
+ "sections": [
+  "t1-4-1b",
+  "t1-4-1c"
+ ]
 }

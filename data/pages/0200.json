@@ -59,14 +59,16 @@
      "Artefact"
     ]
    ],
-   "continued": true
+   "continued": true,
+   "sec": "t1-2-7"
   },
   {
    "id": "b2",
    "type": "paragraph",
    "src": 1,
    "text": "Ueber acht Tag hab ich mei Plag,\nWenn ich mein Bündel von der Kirwe heimtrag.",
-   "spans": []
+   "spans": [],
+   "sec": "t1-2-7"
   },
   {
    "id": "b3",
@@ -79,7 +81,8 @@
      430,
      "Artefact"
     ]
-   ]
+   ],
+   "sec": "t1-2-7"
   },
   {
    "id": "b4",
@@ -132,7 +135,8 @@
      727,
      "Climate"
     ]
-   ]
+   ],
+   "sec": "t1-2-7"
   },
   {
    "id": "b5",
@@ -176,7 +180,8 @@
      "Artefact"
     ]
    ],
-   "continues": true
+   "continues": true,
+   "sec": "t1-2-7"
   }
  ],
  "footnotes": [
@@ -199,5 +204,13 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-03T15:40:21.096541",
   "early_schema": false
- }
+ },
+ "section_path": [
+  "t1",
+  "t1-2",
+  "t1-2-7"
+ ],
+ "sections": [
+  "t1-2-7"
+ ]
 }

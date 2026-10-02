@@ -38,14 +38,20 @@
      125,
      "Location"
     ]
-   ]
+   ],
+   "opens": [
+    "t1-5-2"
+   ],
+   "sec": "t1-5-2",
+   "level": 4
   },
   {
    "id": "b2",
    "type": "paragraph",
    "src": 1,
    "text": "Lebenskräftige Elemente auf Seiten der Deutschen, Mangel an politischer und moralischer Stärke auf Seiten der Sorben, diese Umstände hatten jenen den Sieg, diesen die Unterwerfung bereitet und dadurch die neue Wandlung der Sorbenmark erzeugt. Nach ewigen Gesetzen gebietet das Höhere über das Niedere. Dazu lag im Geiste der Zeit, daß das Loos der Ueberwundenen das der Unfreien wurde. Der Boden ihres Landes ging an die siegende Herrschermacht über, mit dem Verluste des Grundeigenthumes verloren sie aber nach deutschem Rechte wie die staatliche, so die persönliche Freiheit, ein Geschick, das selbst den deutschen Bauer im ausgebildeten Lehnssysteme bewältigte. Die Sorben und die deutschen Bauern wurden, jene, weil sie durch das Schwert um Grund und Boden kamen, diese, weil sie durch den Drang der Zeit ihr Eigenthum aufgeben mußten, zur arbeitenden Klasse, zu Leibeigenen mit bloßem Sachwerthe herabgedrückt. Nur kam bei den Sorben noch die unmuthige, feindselige Gesinnung hinzu, mit der sie ihre neue Lage ertrugen; daher vermehrten sie die Strenge ihrer neuen Gebieter, die um jeden Preis Gehorsam forderten und mit allen Mitteln erzwangen. Erst mit der Zeit verlor der Sorbe, namentlich unter dem Regiment seiner späteren zwar strengen, aber gerechten und verständigen landesherrlichen Voigte seinen Unmuth, ging nun allmählig in das deutsche Wesen auf und verbesserte dadurch seine sociale Stellung.",
-   "spans": []
+   "spans": [],
+   "sec": "t1-5-2"
   },
   {
    "id": "b3",
@@ -134,7 +140,8 @@
      "Location"
     ]
    ],
-   "continues": true
+   "continues": true,
+   "sec": "t1-5-2"
   }
  ],
  "footnotes": [],
@@ -144,5 +151,13 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-04T13:52:24.474356",
   "early_schema": false
- }
+ },
+ "section_path": [
+  "t1",
+  "t1-5",
+  "t1-5-1"
+ ],
+ "sections": [
+  "t1-5-2"
+ ]
 }

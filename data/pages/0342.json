@@ -17,7 +17,8 @@
    "type": "paragraph",
    "src": 0,
    "text": "Prädikate (der Reiche, Böhme, Reuß, Erik, Lange, Kleine, Große, Graf, Rothbart, Rothe, Ritter), später durch Zahlen zu heben.",
-   "spans": []
+   "spans": [],
+   "sec": "t1-5-2"
   },
   {
    "id": "b2",
@@ -70,7 +71,8 @@
      703,
      "Location"
     ]
-   ]
+   ],
+   "sec": "t1-5-2"
   },
   {
    "id": "b3",
@@ -174,7 +176,8 @@
      "Artefact"
     ]
    ],
-   "continues": true
+   "continues": true,
+   "sec": "t1-5-2"
   }
  ],
  "footnotes": [
@@ -202,5 +205,13 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-04T13:56:51.919366",
   "early_schema": false
- }
+ },
+ "section_path": [
+  "t1",
+  "t1-5",
+  "t1-5-2"
+ ],
+ "sections": [
+  "t1-5-2"
+ ]
 }

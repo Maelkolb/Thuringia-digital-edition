@@ -168,7 +168,8 @@
      1240,
      "Location"
     ]
-   ]
+   ],
+   "sec": "t1-2-2"
   },
   {
    "id": "b2",
@@ -276,7 +277,8 @@
      2291,
      "Location"
     ]
-   ]
+   ],
+   "sec": "t1-2-2"
   }
  ],
  "footnotes": [],
@@ -286,5 +288,13 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-03T15:22:48.088909",
   "early_schema": false
- }
+ },
+ "section_path": [
+  "t1",
+  "t1-2",
+  "t1-2-2"
+ ],
+ "sections": [
+  "t1-2-2"
+ ]
 }

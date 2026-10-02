@@ -53,7 +53,8 @@
      964,
      "Artefact"
     ]
-   ]
+   ],
+   "sec": "t2-1"
   },
   {
    "id": "b2",
@@ -76,7 +77,8 @@
      881,
      "Location"
     ]
-   ]
+   ],
+   "sec": "t2-1"
   },
   {
    "id": "b3",
@@ -144,7 +146,8 @@
      394,
      "Resource"
     ]
-   ]
+   ],
+   "sec": "t2-1"
   },
   {
    "id": "b4",
@@ -773,7 +776,8 @@
      "16283"
     ]
    ],
-   "caption": null
+   "caption": null,
+   "sec": "t2-1"
   },
   {
    "id": "b5",
@@ -786,7 +790,8 @@
      280,
      "Location"
     ]
-   ]
+   ],
+   "sec": "t2-1"
   }
  ],
  "footnotes": [],
@@ -806,5 +811,12 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-04T14:54:14.770182",
   "early_schema": false
- }
+ },
+ "section_path": [
+  "t2",
+  "t2-1"
+ ],
+ "sections": [
+  "t2-1"
+ ]
 }

@@ -681,14 +681,16 @@
      "1995"
     ]
    ],
-   "caption": null
+   "caption": null,
+   "sec": "t1-2-1"
   },
   {
    "id": "b2",
    "type": "paragraph",
    "src": 1,
    "text": "4) Die Bevölkerungsdichtigkeit in Bezug auf die Wohnungen (1867) und Vergleichung der Wohnungen mit dem Raume:",
-   "spans": []
+   "spans": [],
+   "sec": "t1-2-1"
   },
   {
    "id": "b3",
@@ -1117,7 +1119,8 @@
      "8,02"
     ]
    ],
-   "caption": null
+   "caption": null,
+   "sec": "t1-2-1"
   },
   {
    "id": "b4",
@@ -1150,14 +1153,16 @@
      657,
      "Location"
     ]
-   ]
+   ],
+   "sec": "t1-2-1"
   },
   {
    "id": "b5",
    "type": "paragraph",
    "src": 4,
    "text": "Vergleicht man die Zahl der Wohnungen mit der Fläche des Landes, so kommen auf 1 ☐ Meile im",
-   "spans": []
+   "spans": [],
+   "sec": "t1-2-1"
   }
  ],
  "footnotes": [],
@@ -1173,5 +1178,13 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-03T15:07:08.867474",
   "early_schema": false
- }
+ },
+ "section_path": [
+  "t1",
+  "t1-2",
+  "t1-2-1"
+ ],
+ "sections": [
+  "t1-2-1"
+ ]
 }

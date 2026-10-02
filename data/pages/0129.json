@@ -28,7 +28,8 @@
      343,
      "Location"
     ]
-   ]
+   ],
+   "sec": "t1-2-1"
   },
   {
    "id": "b2",
@@ -1019,14 +1020,17 @@
      "0,54"
     ]
    ],
-   "caption": "Todesfälle durch Selbstmord oder Unglück"
+   "caption": "Todesfälle durch Selbstmord oder Unglück",
+   "sec": "t1-2-1"
   },
   {
    "id": "b3",
    "type": "heading",
    "src": 2,
    "text": "14) Taubstumme und Blinde.",
-   "spans": []
+   "spans": [],
+   "sec": "t1-2-1",
+   "level": 5
   },
   {
    "id": "b4",
@@ -2117,7 +2121,8 @@
      "7,39"
     ]
    ],
-   "caption": "Zahl der Taubstummen:"
+   "caption": "Zahl der Taubstummen:",
+   "sec": "t1-2-1"
   }
  ],
  "footnotes": [],
@@ -2152,5 +2157,13 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-03T15:15:54.926120",
   "early_schema": false
- }
+ },
+ "section_path": [
+  "t1",
+  "t1-2",
+  "t1-2-1"
+ ],
+ "sections": [
+  "t1-2-1"
+ ]
 }

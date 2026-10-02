@@ -53,14 +53,16 @@
      724,
      "Natural Object"
     ]
-   ]
+   ],
+   "sec": "t1-1-4"
   },
   {
    "id": "b2",
    "type": "paragraph",
    "src": 1,
    "text": "das Oberland = die Dörfer nach Tanna und Hirschberg zu,\ndas Mittelland = die Dörfer im Modelitzschgebiete,\ndas Unterland = das hohenleubner und ziegenrücker Plateau,\ndrüben = Ebersdorf-Lobenstein,\ndrunten = Gera,\ndraußen = Thüringen und Franken.",
-   "spans": []
+   "spans": [],
+   "sec": "t1-1-4"
   },
   {
    "id": "b3",
@@ -73,7 +75,8 @@
      60,
      "Natural Object"
     ]
-   ]
+   ],
+   "sec": "t1-1-4"
   },
   {
    "id": "b4",
@@ -106,14 +109,16 @@
      1291,
      "Environmental Impact"
     ]
-   ]
+   ],
+   "sec": "t1-1-4"
   },
   {
    "id": "b5",
    "type": "paragraph",
    "src": 4,
    "text": "Das linke Saalplateaustück hat zwei Bodenglieder, den Frankenwald und den eliasbrunner Hochbuckel.",
-   "spans": []
+   "spans": [],
+   "sec": "t1-1-4"
   },
   {
    "id": "b6",
@@ -126,7 +131,8 @@
      151,
      "Organisation"
     ]
-   ]
+   ],
+   "sec": "t1-1-4"
   }
  ],
  "footnotes": [],
@@ -136,5 +142,13 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-01-06T02:10:10.909318",
   "early_schema": false
- }
+ },
+ "section_path": [
+  "t1",
+  "t1-1",
+  "t1-1-4"
+ ],
+ "sections": [
+  "t1-1-4"
+ ]
 }

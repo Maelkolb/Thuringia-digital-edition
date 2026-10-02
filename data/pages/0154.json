@@ -17,35 +17,40 @@
    "type": "paragraph",
    "src": 0,
    "text": "Local: { u schwankt zwischen u und au: gut, gaut; Luder, Lauder; Schullmäster, Schaulmäster; Schtuhl, Schtaul; Kuh, Kauh;\nu ist u und o: durch, dorch; kurz, korz; Mudder, Motter,\nu wird i und eu: worim, meus (muß);\nu wird e, au, ou: ze, zau, zou, noun, troug.",
-   "spans": []
+   "spans": [],
+   "sec": "t1-2-3"
   },
   {
    "id": "b2",
    "type": "paragraph",
    "src": 1,
    "text": "Allgemein: ü bleibt ü: Früchte, tüchtig, wünschen.",
-   "spans": []
+   "spans": [],
+   "sec": "t1-2-3"
   },
   {
    "id": "b3",
    "type": "paragraph",
    "src": 2,
    "text": "Local: { ü wird neben ü auch i: Glick, missen (müssen),\nü wird u und au: Rum und Raum (Rüben), dau (du), Fauß (Fuß),\nü wird ei und ai: Gemeith, Kaih (Gemüth, Kühe),\nü wird e: derfen, ebber (dürfen, über),\nü wird ei und eu: eiß'l (übel), Scheuler (Schüler),\nü wird ö: körzer, Wörmer,\nü wird öi: behöiten (behüten), Löigen (Lügen),\nü wird ä: wärd (würd).",
-   "spans": []
+   "spans": [],
+   "sec": "t1-2-3"
   },
   {
    "id": "b4",
    "type": "paragraph",
    "src": 3,
    "text": "Die dialectische Aussprache der Consonanten bietet im Ganzen eine geringere Beweglichkeit als die der Vocale.",
-   "spans": []
+   "spans": [],
+   "sec": "t1-2-3"
   },
   {
    "id": "b5",
    "type": "paragraph",
    "src": 4,
    "text": "B und p, d und t werden nicht unterschieden.",
-   "spans": []
+   "spans": [],
+   "sec": "t1-2-3"
   },
   {
    "id": "b6",
@@ -63,7 +68,8 @@
      453,
      "Location"
     ]
-   ]
+   ],
+   "sec": "t1-2-3"
   },
   {
    "id": "b7",
@@ -81,14 +87,16 @@
      267,
      "Location"
     ]
-   ]
+   ],
+   "sec": "t1-2-3"
   },
   {
    "id": "b8",
    "type": "paragraph",
    "src": 7,
    "text": "T geht in w über in ewwos (etwas), fällt weg in is (ist) und vor g und k in: ne gaut, ne gung, ne kolt (nicht gut, jung, kalt) und verhärtet sich nach l zu k in: Falken (Falten), spalken (spalten). Mit l und t verähnelt es sich in: Aller (Alter), wull (wollt), unner (unter), gälle (gelt).",
-   "spans": []
+   "spans": [],
+   "sec": "t1-2-3"
   },
   {
    "id": "b9",
@@ -126,28 +134,32 @@
      414,
      "Location"
     ]
-   ]
+   ],
+   "sec": "t1-2-3"
   },
   {
    "id": "b10",
    "type": "paragraph",
    "src": 9,
    "text": "F geht in v über: vern (für den, für ihn).",
-   "spans": []
+   "spans": [],
+   "sec": "t1-2-3"
   },
   {
    "id": "b11",
    "type": "paragraph",
    "src": 10,
    "text": "G verschärft sich zu gg, gk, k, kk: gesoggt, gesokkt (gesagt), leknen (leugnen), Wagk (Weg), wak (weg).",
-   "spans": []
+   "spans": [],
+   "sec": "t1-2-3"
   },
   {
    "id": "b12",
    "type": "paragraph",
    "src": 11,
    "text": "H verschärft sich zu ch: soch, sicht (sah, sieht); auch tritt es aspirirend auf in: Hadgeh (Adieu).",
-   "spans": []
+   "spans": [],
+   "sec": "t1-2-3"
   },
   {
    "id": "b13",
@@ -160,7 +172,8 @@
      57,
      "Location"
     ]
-   ]
+   ],
+   "sec": "t1-2-3"
   }
  ],
  "footnotes": [],
@@ -170,5 +183,13 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-03T15:25:42.222544",
   "early_schema": false
- }
+ },
+ "section_path": [
+  "t1",
+  "t1-2",
+  "t1-2-3"
+ ],
+ "sections": [
+  "t1-2-3"
+ ]
 }

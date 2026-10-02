@@ -39,7 +39,8 @@
      "Animal"
     ]
    ],
-   "continued": true
+   "continued": true,
+   "sec": "t1-2-8"
   },
   {
    "id": "b2",
@@ -92,7 +93,8 @@
      1143,
      "Resource"
     ]
-   ]
+   ],
+   "sec": "t1-2-8"
   },
   {
    "id": "b3",
@@ -110,7 +112,8 @@
      199,
      "Natural Object"
     ]
-   ]
+   ],
+   "sec": "t1-2-8"
   },
   {
    "id": "b4",
@@ -124,7 +127,8 @@
      "Location"
     ]
    ],
-   "continues": true
+   "continues": true,
+   "sec": "t1-2-8"
   }
  ],
  "footnotes": [
@@ -147,5 +151,13 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-03T15:47:45.464968",
   "early_schema": false
- }
+ },
+ "section_path": [
+  "t1",
+  "t1-2",
+  "t1-2-8"
+ ],
+ "sections": [
+  "t1-2-8"
+ ]
 }

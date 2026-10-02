@@ -6,6 +6,9 @@ paragraphs that run over a page break are kept as ONE <p> with an inner
 <pb/>, tables as <table>/<row>/<cell> with @role="label", @cols/@rows,
 footnotes as <note place="foot">, entities as <placeName>/<persName>/
 <orgName>/<name>/<rs> with @ref into a <standOff> of authority records.
+Printed lines (data/lines/aligned): <zone> per line and per block on the page's
+<surface>, <lb n="…" facs="#…"/> at every line start (break="no" inside a
+hyphenated word), @facs on blocks pointing to their zone.
 """
 from __future__ import annotations
 
@@ -14,7 +17,22 @@ import re
 from pathlib import Path
 from xml.sax.saxutils import escape as xesc
 
+import json
+
 import render as R
+
+LINES = Path(__file__).resolve().parents[2] / "data" / "lines" / "aligned"
+
+
+def page_lines(p: dict) -> dict | None:
+    f = LINES / f"{p['seq']:04d}.json"
+    return json.loads(f.read_text(encoding="utf-8")) if f.exists() and p["kind"] == "text" else None
+
+
+def zone_box(p: dict, lines: dict, box: list) -> str:
+    sx, sy = p["iiif"]["width"] / lines["width"], p["iiif"]["height"] / lines["height"]
+    x, y, w, h = box
+    return f'ulx="{round(x * sx)}" uly="{round(y * sy)}" lrx="{round((x + w) * sx)}" lry="{round((y + h) * sy)}"'
 
 TEI_NS = "http://www.tei-c.org/ns/1.0"
 ELEM = {"place": ("placeName", None), "nature": ("name", "nature"), "person": ("persName", None),
@@ -32,9 +50,30 @@ class TEI:
         self.key_map = key_map
         self.used: set[str] = set()
         self.placed: set[str] = set()
+        self.surface = ""
 
-    def inline(self, text: str, spans: list, fn_marks: dict | None = None) -> str:
+    def lb(self, b: dict) -> str:
+        brk = ' break="no"' if b.get("hy") else ""
+        return f'<lb n="{b["n"]}"{brk} facs="#{self.surface}-l{b["n"]}"/>'
+
+    def inline(self, text: str, spans: list, fn_marks: dict | None = None, breaks: list[dict] | None = None) -> str:
         spans = sorted((s for s in spans if 0 <= s[0] < s[1] <= len(text)), key=lambda s: s[0])
+        breaks = sorted(breaks or [], key=lambda b: b["start"])
+        inner = [b for b in breaks if 0 < b["start"] < len(text)]
+
+        def piece(a: int, z: int, entity: bool, before_entity: bool = False) -> str:
+            if entity:
+                cuts = [x for x in inner if a < x["start"] < z]
+            else:
+                cuts = [x for x in inner if a <= x["start"] < z or (before_entity and x["start"] == z)]
+            parts, pos = [], a
+            for x in cuts:
+                parts.append(self._t(text[pos:x["start"]], fn_marks))
+                parts.append(self.lb(x))
+                pos = x["start"]
+            parts.append(self._t(text[pos:z], fn_marks))
+            return "".join(parts)
+
         out, pos, last_end = [], 0, -1
         for s, e, typ in spans:
             if s < last_end:
@@ -42,17 +81,17 @@ class TEI:
             form = text[s:e]
             eid = self.key_map.get(f"{R.TYPE_GROUP.get(typ, 'concepts')}\t{R.surface_key(form, typ)}")
             ent = self.entities.get(eid) if eid else None
-            out.append(self._t(text[pos:s], fn_marks))
+            out.append(piece(pos, s, entity=False, before_entity=True))
             if ent:
                 el, typ_attr = ELEM[ent["class"]]
                 self.used.add(eid)
                 t = f' type="{typ_attr}"' if typ_attr else ""
-                out.append(f'<{el}{t} ref="#{xml_id(eid)}">{self._t(form, fn_marks)}</{el}>')
+                out.append(f'<{el}{t} ref="#{xml_id(eid)}">{piece(s, e, entity=True)}</{el}>')
             else:
-                out.append(self._t(form, fn_marks))
+                out.append(piece(s, e, entity=True))
             pos = last_end = e
-        out.append(self._t(text[pos:], fn_marks))
-        return "".join(out)
+        out.append(piece(pos, len(text), entity=False))
+        return "".join(self.lb(b) for b in breaks if b["start"] == 0) + "".join(out)
 
     def _t(self, s: str, fn_marks: dict | None) -> str:
         s = xesc(s).replace("\n", "<lb/>")
@@ -91,21 +130,34 @@ class TEI:
         other headings are <ab type="heading">, which TEI allows anywhere."""
         pid = f"p{p['slug']}"
         self.placed = set()
+        self.surface = f"f{p['seq']:04d}"
+        lines = page_lines(p)
+        breaks: dict[str, list[dict]] = {}
+        regions = (lines or {}).get("regions", {})
+        for line in (lines or {}).get("lines", []):
+            if line.get("n"):
+                breaks.setdefault(line["unit"], []).append(line)
+
+        def facs(block_id: str) -> str:
+            return f' facs="#{self.surface}-{block_id}"' if block_id in regions else ""
+
         notes = {}
         for fn in p["footnotes"]:
-            notes[fn["marker"]] = f'<note place="foot" n="{xesc(fn["marker"])}" xml:id="{pid}-{fn["id"]}">{self.inline(fn["text"], fn["spans"])}</note>'
+            notes[fn["marker"]] = (f'<note place="foot" n="{xesc(fn["marker"])}" xml:id="{pid}-{fn["id"]}"{facs(fn["id"])}>'
+                                   f'{self.inline(fn["text"], fn["spans"], breaks=breaks.get(fn["id"]))}</note>')
         marks = {k: v for k, v in notes.items() if "*" in k}
         parts = []
         for b in p["blocks"]:
             if b["type"] == "heading":
                 el = "head" if (full_book and b.get("opens")) else 'ab type="heading"'
-                x = f'<{el} xml:id="{pid}-{b["id"]}">{self.inline(b["text"], b["spans"], marks)}</{el.split()[0]}>'
+                x = f'<{el} xml:id="{pid}-{b["id"]}"{facs(b["id"])}>{self.inline(b["text"], b["spans"], marks, breaks.get(b["id"]))}</{el.split()[0]}>'
             elif b["type"] == "paragraph":
-                x = self.inline(b["text"], b["spans"], marks)
+                x = self.inline(b["text"], b["spans"], marks, breaks.get(b["id"]))
             elif b["type"] == "list":
-                x = '<list xml:id="{}-{}">{}</list>'.format(pid, b["id"], "".join(f"<item>{self.inline(i['text'], i['spans'], marks)}</item>" for i in b["items"]))
+                x = '<list xml:id="{}-{}"{}>{}</list>'.format(pid, b["id"], facs(b["id"]), "".join(
+                    f"<item>{self.inline(i['text'], i['spans'], marks, breaks.get(b['id'] + '.i' + str(k)))}</item>" for k, i in enumerate(b["items"])))
             else:
-                x = self.table(b).replace("{pid}", pid)
+                x = self.table(b).replace("{pid}", pid).replace(f'xml:id="{pid}-{b["id"]}"', f'xml:id="{pid}-{b["id"]}"{facs(b["id"])}', 1)
             parts.append((b["type"], x, b))
         # footnotes whose marker was not found in the text: append at the end of the page
         rest = "".join(v for k, v in notes.items() if k not in self.placed)
@@ -121,9 +173,9 @@ def header(site: dict, scope: str, extra_source: str = "") -> str:
       <title type="main">Volks- und Landeskunde des Fürstenthums Reuß j. L.</title>
       <title type="sub">Digitale Edition{scope}</title>
       <author><persName ref="https://d-nb.info/gnd/119209217">Brückner, Georg</persName> (1800–1881)</author>
-      <editor>{xesc(site['editor'])}</editor>
+      {''.join(f'<editor><persName>{xesc(n)}</persName></editor>' for n in site['editors'])}
       <respStmt><resp>Automatische Transkription und Entitätenerkennung</resp><name>Google Gemini 3 Flash (2026)</name></respStmt>
-      <respStmt><resp>Layout-Korrektur, Register, Auswertungen, Edition</resp><name>{xesc(site['editor'])} mit Claude (Anthropic)</name></respStmt>
+      <respStmt><resp>Layout-Korrektur, Register, Auswertungen, Edition</resp>{''.join(f'<persName>{xesc(n)}</persName>' for n in site['editors'])}<name>Claude (Anthropic)</name></respStmt>
     </titleStmt>
     <editionStmt><edition n="{site['version']}">Version {site['version']}, <date when="{site['date']}">{site['date']}</date></edition></editionStmt>
     <publicationStmt>
@@ -206,9 +258,22 @@ def standoff(tei: TEI) -> str:
 
 
 def facsimile(pages: list[dict]) -> str:
-    return "<facsimile>" + "".join(
-        f'<surface xml:id="f{p["seq"]:04d}" n="{xesc(p["label"] or "")}" ulx="0" uly="0" lrx="{p["iiif"]["width"]}" lry="{p["iiif"]["height"]}">'
-        f'<graphic url="{p["iiif"]["service"]}/full/full/0/default.jpg" mimeType="image/jpeg"/></surface>' for p in pages) + "</facsimile>"
+    out = ["<facsimile>"]
+    for p in pages:
+        sid = f"f{p['seq']:04d}"
+        out.append(f'<surface xml:id="{sid}" n="{xesc(p["label"] or "")}" ulx="0" uly="0" lrx="{p["iiif"]["width"]}" lry="{p["iiif"]["height"]}">'
+                   f'<graphic url="{p["iiif"]["service"]}/full/full/0/default.jpg" mimeType="image/jpeg"/>')
+        lines = page_lines(p)
+        if lines:
+            for block, box in lines["regions"].items():
+                if block not in ("head", "sig"):
+                    out.append(f'<zone xml:id="{sid}-{block}" type="block" {zone_box(p, lines, box)}/>')
+            for line in lines["lines"]:
+                if line.get("n"):
+                    out.append(f'<zone xml:id="{sid}-l{line["n"]}" type="line" n="{line["n"]}" {zone_box(p, lines, line["box"])}/>')
+        out.append("</surface>")
+    out.append("</facsimile>")
+    return "".join(out)
 
 
 def export(pages: list[dict], struct: dict, entities: dict, key_map: dict, out_dir: Path, site: dict, only=None) -> None:

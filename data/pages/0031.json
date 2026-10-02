@@ -98,7 +98,8 @@
      1015,
      "Location"
     ]
-   ]
+   ],
+   "sec": "t1-1-4"
   },
   {
    "id": "b2",
@@ -161,7 +162,8 @@
      1380,
      "Location"
     ]
-   ]
+   ],
+   "sec": "t1-1-4"
   },
   {
    "id": "b3",
@@ -169,7 +171,8 @@
    "src": 2,
    "text": "Das ziegenrücker und das hohenleubner Plateau, zwei Weberstriche,",
    "spans": [],
-   "continues": true
+   "continues": true,
+   "sec": "t1-1-4"
   }
  ],
  "footnotes": [],
@@ -184,5 +187,13 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-01-06T02:15:35.228236",
   "early_schema": false
- }
+ },
+ "section_path": [
+  "t1",
+  "t1-1",
+  "t1-1-4"
+ ],
+ "sections": [
+  "t1-1-4"
+ ]
 }

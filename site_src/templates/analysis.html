@@ -3,54 +3,55 @@
 {% block description %}{{ a.summary.de|e }}{% endblock %}
 {% block main %}
 <div class="wrap">
-  <nav class="crumbs" style="margin-top:22px" aria-label="Breadcrumb"><a href="index.html">{{ t('Auswertungen', 'Analyses') }}</a><span class="sep">›</span><span>{{ t(cat[0], cat[1]) }}</span></nav>
-  <div class="ana-head">
-    <div>
-      <h1 class="doc-title" style="margin-top:12px">{{ t(a.title.de|e, a.title.en|e) }}</h1>
-      <p class="lede">{{ t(a.summary.de|e, a.summary.en|e) }}</p>
-      {% for ch in a.charts %}
-      <figure class="chart-block" id="{{ ch.id }}">
-        <h2>{{ t(ch.title.de|e, ch.title.en|e) }}</h2>
-        <div class="chart" data-chart="{{ ch.id }}" role="img" aria-label="{{ ch.title.de|e }}"></div>
-        <figcaption class="cap">{{ t(ch.caption.de|e, ch.caption.en|e) }}</figcaption>
-      </figure>
-      {% endfor %}
-      <section class="prose" style="max-width:none">
-        <h2>{{ t('Befunde', 'Findings') }}</h2>
-        <ul class="findings">{% for f in a.findings %}<li>{{ t(f.de|e, f.en|e) }}</li>{% endfor %}</ul>
-        <h2>{{ t('Methode', 'Method') }}</h2>
+  <article class="feature">
+    <nav class="crumbs" aria-label="Breadcrumb"><a href="index.html">{{ t('Auswertungen', 'Analyses') }}</a><span class="sep" aria-hidden="true">›</span><span>{{ t(group[0], group[1]) }}</span></nav>
+    <h1 class="doc-title">{{ t(a.title.de|e, a.title.en|e) }}</h1>
+    <p class="lede">{{ t(a.summary.de|e, a.summary.en|e) }}</p>
+    {% for ch in a.charts %}
+    <figure class="chart-block" id="{{ ch.id }}">
+      <h2>{{ t(ch.title.de|e, ch.title.en|e) }}</h2>
+      <div class="chart" data-chart="{{ ch.id }}" role="img" {{ i18n('aria-label', ch.title.de, ch.title.en) }}></div>
+      <figcaption class="cap">{{ t(ch.caption.de|e, ch.caption.en|e) }}</figcaption>
+    </figure>
+    {% endfor %}
+    {% if a.findings %}
+    <section class="findings-block">
+      <h2>{{ t('Befunde', 'Findings') }}</h2>
+      <ul>{% for f in a.findings %}<li>{{ t(f.de|e, f.en|e) }}</li>{% endfor %}</ul>
+    </section>
+    {% endif %}
+    <details class="ana-more">
+      <summary>{{ t('Quellen und Methode', 'Sources and method') }}</summary>
+      <div class="body">
+        <p>{{ t('Quellen im Werk:', 'Sources in the book:') }} {% for s in sources %}<a href="../seite/{{ s.page }}.html#{{ s.block }}">{{ t('S.', 'p.') }} {{ s.page }}</a>{% if s.what %} <span class="muted">({{ t(s.what[0], s.what[1]) }})</span>{% endif %}{% if not loop.last %}, {% endif %}{% endfor %}.{% if sec %} {{ t('Abschnitt', 'Section') }} <a href="{{ sec_href }}">{{ sec.num }} {{ sec.title|e }}</a>.{% endif %}</p>
         <p>{{ t(a.method.de|e, a.method.en|e) }}</p>
-        {% if a.conversions %}<h3>{{ t('Umrechnungen', 'Conversions') }}</h3><ul>{% for c in a.conversions %}<li>{{ c.from|e }} → {{ c.to|e }}: <span class="mono">{{ c.factor_or_formula|e }}</span>{% if c.reference %} <span class="muted">({{ c.reference|e }})</span>{% endif %}</li>{% endfor %}</ul>{% endif %}
-        {% if a.caveats %}<h2>{{ t('Einschränkungen', 'Caveats') }}</h2><ul>{% for c in a.caveats %}<li>{{ t(c.de|e, c.en|e) }}</li>{% endfor %}</ul>{% endif %}
-        {% if a.transcription_issues %}<h3>{{ t('Am Faksimile geprüfte Lesungen', 'Readings checked against the facsimile') }}</h3><ul>{% for i in a.transcription_issues %}<li>{{ t('S.', 'p.') }} <a href="../seite/{{ i.page }}.html#{{ i.block }}">{{ i.page }}</a>{% if i.cell %} ({{ i.cell }}){% endif %}: {{ t('Transkription', 'transcription') }} „{{ i.transcribed|e }}“, {{ t('Druck', 'print') }} „{{ i.facsimile|e }}“{% if i.note %} – {{ i.note|e }}{% endif %}</li>{% endfor %}</ul>{% endif %}
-        <h2>{{ t('Daten', 'Data') }}</h2>
+        {% if a.conversions %}<h3>{{ t('Umrechnungen', 'Conversions') }}</h3><ul>{% for c in a.conversions %}<li>{{ c.from|e }} {{ t('in', 'to') }} {{ c.to|e }}: <span class="mono">{{ c.factor_or_formula|e }}</span>{% if c.reference %} ({{ c.reference|e }}){% endif %}</li>{% endfor %}</ul>{% endif %}
+        {% if a.caveats %}<h3>{{ t('Einschränkungen', 'Caveats') }}</h3><ul>{% for c in a.caveats %}<li>{{ t(c.de|e, c.en|e) }}</li>{% endfor %}</ul>{% endif %}
+        {% if a.transcription_issues %}<h3>{{ t('Am Faksimile geprüfte Lesungen', 'Readings checked against the facsimile') }}</h3><ul>{% for i in a.transcription_issues %}<li><a href="../seite/{{ i.page }}.html#{{ i.block }}">{{ t('S.', 'p.') }} {{ i.page }}</a>{% if i.cell %} ({{ i.cell }}){% endif %}: {{ t('Transkription', 'transcription') }} „{{ i.transcribed|e }}“, {{ t('Druck', 'print') }} „{{ i.facsimile|e }}“{% if i.note %}. {{ i.note|e }}{% endif %}</li>{% endfor %}</ul>{% endif %}
+        <h3>{{ t('Entstehung', 'Provenance') }}</h3>
+        <p>{{ a.generated_by|e }}{% if a.date %}, {{ a.date }}{% endif %}. {{ t('Alle aus dem Druck übernommenen Zahlen wurden maschinell gegen die Transkription der zitierten Stellen geprüft; berechnete Spalten sind gekennzeichnet.', 'All numbers taken from the print were checked automatically against the transcription of the cited passages; computed columns are marked.') }}{% if a.merges %} {{ t('Fasst frühere Einzelauswertungen zusammen:', 'Combines earlier single analyses:') }} <span class="mono">{{ a.merges|join(', ') }}</span>.{% endif %}</p>
+      </div>
+    </details>
+    <details class="ana-more">
+      <summary>{{ t('Daten', 'Data') }} ({{ datasets|length }} {{ t('Tabellen' if datasets|length != 1 else 'Tabelle', 'tables' if datasets|length != 1 else 'table') }})</summary>
+      <div class="body" style="max-width:none">
         {% for ds in datasets %}
         <h3>{{ t(ds.title.de|e, ds.title.en|e) }} <span class="muted" style="font-weight:400">({{ ds.n }} {{ t('Zeilen', 'rows') }})</span></h3>
-        <div class="data-table-wrap" tabindex="0" role="region" aria-label="Datentabelle / data table: {{ ds.title.de|e }}"><table><thead><tr>{% for c in ds.columns %}<th>{{ t(c.label.de|e, c.label.en|e) }}{% if c.unit %} <span class="muted">[{{ c.unit|e }}]</span>{% endif %}{% if c.derived %} <span class="muted" title="berechnet / derived">*</span>{% endif %}</th>{% endfor %}</tr></thead>
+        <div class="data-table-wrap" tabindex="0" role="region" {{ i18n('aria-label', 'Datentabelle: ' ~ ds.title.de, 'Data table: ' ~ ds.title.en) }}><table><thead><tr>{% for c in ds.columns %}<th>{{ t(c.label.de|e, c.label.en|e) }}{% if c.unit %} <span class="muted">[{{ c.unit|e }}]</span>{% endif %}{% if c.derived %}<span class="muted" {{ i18n('title', 'berechnet', 'computed') }}>*</span>{% endif %}</th>{% endfor %}</tr></thead>
           <tbody>{% for r in ds.rows %}<tr>{% for v in r %}<td{% if v is number %} class="num"{% endif %}>{{ '' if v is none else v }}</td>{% endfor %}</tr>{% endfor %}</tbody></table></div>
-        <p style="margin-top:6px"><a class="small-btn" href="daten/{{ a.id }}__{{ ds.name }}.csv" download>CSV</a> <span class="muted" style="font-size:.85rem">* = {{ t('berechnete Spalte', 'derived column') }}</span></p>
+        <p class="data-links"><a href="daten/{{ a.id }}__{{ ds.name }}.csv" download>CSV</a>{% if ds.has_derived %}<span class="muted">, {{ t('* berechnete Spalte', '* computed column') }}</span>{% endif %}</p>
         {% endfor %}
-      </section>
-    </div>
-    <aside class="ana-side">
-      <section class="card app-block">
-        <h2>{{ t('Quellen', 'Sources') }}</h2>
-        {% for s in a.sources %}<p><a href="../seite/{{ s.page }}.html#{{ s.block }}">{{ t('S.', 'p.') }} {{ s.page }}</a> <span class="muted">{{ s.block }}{% if s.rows %}, {{ s.rows }}{% endif %}</span></p>{% endfor %}
-        {% if sec %}<p class="muted" style="font-size:.88rem">{{ t('Abschnitt', 'Section') }}: <a href="{{ sec_href }}">{{ sec.num }} {{ sec.title|e }}</a></p>{% endif %}
-      </section>
-      <section class="card app-block">
-        <h2>{{ t('Schlagwörter', 'Keywords') }}</h2>
-        <p><span data-l="de">{{ a.keywords.de|join(', ')|e }}</span><span data-l="en">{{ a.keywords.en|join(', ')|e }}</span></p>
-      </section>
-      <section class="card app-block">
-        <h2>{{ t('Herkunft', 'Provenance') }}</h2>
-        <p style="font-size:.9rem">{{ a.generated_by|e }}{% if a.date %}, {{ a.date }}{% endif %}. {{ t('Geprüft mit dem Validator der Edition (Schema, Quellenbelege, Zahlenabgleich mit der Transkription).', 'Checked with the edition’s validator (schema, source references, numbers matched against the transcription).') }}</p>
-        {% if a.supersedes_legacy %}<p class="muted" style="font-size:.85rem">{{ t('Ersetzt', 'Replaces') }}: {{ a.supersedes_legacy|e }}</p>{% endif %}
-        <p><a class="small-btn" href="json/{{ a.id }}.json" download>JSON</a></p>
-      </section>
-      {% if related %}<section class="card app-block"><h2>{{ t('Verwandt', 'Related') }}</h2>{% for r in related %}<p><a href="{{ r }}.html">{{ r }}</a></p>{% endfor %}</section>{% endif %}
-    </aside>
-  </div>
+        <p class="data-links"><a href="json/{{ a.id }}.json" download>{{ t('Die ganze Auswertung als JSON', 'The whole analysis as JSON') }}</a></p>
+      </div>
+    </details>
+    {% if related %}
+    <section class="ana-related">
+      <h2>{{ t('Verwandte Auswertungen', 'Related analyses') }}</h2>
+      <ul>{% for r in related %}<li><a href="{{ r.id }}.html">{{ t(r.title.de|e, r.title.en|e) }}</a></li>{% endfor %}</ul>
+    </section>
+    {% endif %}
+    <p class="ana-cite"><span data-l="de">Zitieren: Georg Brückner: Volks- und Landeskunde des Fürstenthums Reuß j. L. Gera: Köhler 1870. Digitale Edition, hg. von {{ site.editor }} {{ site.date[:4] }}, Auswertung „{{ a.title.de|e }}“, <span data-url data-path="auswertungen/{{ a.id }}.html">{{ site.base_url }}auswertungen/{{ a.id }}.html</span>.</span><span data-l="en">Cite as: Georg Brückner: Volks- und Landeskunde des Fürstenthums Reuß j. L. Gera: Köhler 1870. Digital edition, ed. by {{ site.editor_en }} {{ site.date[:4] }}, analysis “{{ a.title.en|e }}”, <span data-url data-path="auswertungen/{{ a.id }}.html">{{ site.base_url }}auswertungen/{{ a.id }}.html</span>.</span></p>
+  </article>
 </div>
 {% endblock %}
 {% block scripts %}

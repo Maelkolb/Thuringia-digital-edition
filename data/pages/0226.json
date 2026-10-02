@@ -124,7 +124,8 @@
      "Artefact"
     ]
    ],
-   "continued": true
+   "continued": true,
+   "sec": "t1-3-2"
   },
   {
    "id": "b2",
@@ -227,7 +228,8 @@
      1197,
      "Climate"
     ]
-   ]
+   ],
+   "sec": "t1-3-2"
   },
   {
    "id": "b3",
@@ -255,7 +257,8 @@
      153,
      "Resource"
     ]
-   ]
+   ],
+   "sec": "t1-3-2"
   }
  ],
  "footnotes": [
@@ -288,5 +291,13 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-03T15:50:24.778436",
   "early_schema": false
- }
+ },
+ "section_path": [
+  "t1",
+  "t1-3",
+  "t1-3-2"
+ ],
+ "sections": [
+  "t1-3-2"
+ ]
 }

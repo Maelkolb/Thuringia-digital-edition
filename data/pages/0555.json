@@ -58,7 +58,8 @@
    "word_division": {
     "word": "Privatwirthshaus",
     "part": "wirthshaus"
-   }
+   },
+   "sec": "t2-1"
   },
   {
    "id": "b2",
@@ -181,7 +182,8 @@
      2103,
      "Person"
     ]
-   ]
+   ],
+   "sec": "t2-1"
   }
  ],
  "footnotes": [],
@@ -191,5 +193,12 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-04T15:42:51.094517",
   "early_schema": false
- }
+ },
+ "section_path": [
+  "t2",
+  "t2-1"
+ ],
+ "sections": [
+  "t2-1"
+ ]
 }

@@ -164,7 +164,7 @@
         state.mode = mode; state.query = q;
         if (fuzzyUsed) {
           var sug = fixed.join(' ');
-          dym.innerHTML = (en() ? 'No exact match – showing results for ' : 'Kein genauer Treffer – Ergebnisse für ') +
+          dym.innerHTML = (en() ? 'No exact match. Showing results for ' : 'Kein genauer Treffer. Ergebnisse für ') +
             '<a href="?q=' + encodeURIComponent(sug) + '"><b>' + RJ.esc(sug) + '</b></a>';
         }
         entityHits(P.words.join(' '));
@@ -193,9 +193,9 @@
       var l = RJNorm.fold(x[0]);
       return l === f || l.indexOf(f + ' ') === 0 || l.indexOf(f + ',') === 0 || RJNorm.norm(x[0]) === RJNorm.norm(q);
     }).sort(function (a, b) { return (RJNorm.fold(b[0]) === f) - (RJNorm.fold(a[0]) === f) || b[3] - a[3]; }).slice(0, 8);
-    entHits.innerHTML = hits.map(function (x) {
-      return '<a class="chip k-' + x[1] + '" style="--ec:var(--e-' + x[1] + ')" href="' + ROOT + x[2] + '"><span class="swatch"></span>' + RJ.esc(x[0]) + ' <span class="n">' + RJ.kindLabel(x[1]) + (x[3] ? ' · ' + x[3] + '×' : '') + '</span></a>';
-    }).join('');
+    entHits.innerHTML = hits.length ? (en() ? 'Index entries: ' : 'Registereinträge: ') + hits.map(function (x) {
+      return '<a class="k-' + x[1] + '" href="' + ROOT + x[2] + '">' + RJ.esc(x[0]) + '</a> <span class="muted">(' + RJ.kindLabel(x[1]) + (x[3] ? ', ' + RJ.passages(x[3]) : '') + ')</span>';
+    }).join(', ') : '';
   }
   function chain(doc) {
     if (doc[3] < 0) return [];
@@ -267,7 +267,7 @@
     var o = '', pos = start;
     hits.forEach(function (h) { if (h[0] >= start && h[1] <= end) { o += RJ.esc(text.slice(pos, h[0])) + '<mark class="hit">' + RJ.esc(text.slice(h[0], h[1])) + '</mark>'; pos = h[1]; } });
     o += RJ.esc(text.slice(pos, end));
-    return (start > 0 ? '… ' : '') + o.replace(/\s*\|\s*/g, ' · ').replace(/\n/g, ' ') + (end < text.length ? ' …' : '');
+    return (start > 0 ? '… ' : '') + o.replace(/\s*\|\s*/g, ', ').replace(/\n/g, ' ') + (end < text.length ? ' …' : '');
   }
   function phraseOk(text) {
     if (!state.phrases.length) return true;
@@ -277,8 +277,8 @@
   function render(reset) {
     if (reset) { out.innerHTML = ''; state.shown = 0; state.list = grouped(filtered()); }
     var n = state.list.length, pages = state.list.filter(function (g) { return PAGEKINDS.indexOf(D.docs[g.r.d][0]) >= 0; }).length;
-    status.innerHTML = n ? (n + (en() ? ' results' : ' Treffer') + (pages ? (en() ? ' (' + pages + ' pages)' : ' (' + pages + ' Seiten)') : '') +
-      (state.mode === 'or' ? (en() ? ' – not all words found together' : ' – nicht alle Wörter gemeinsam gefunden') : '')) : (en() ? 'No hits.' : 'Keine Treffer.');
+    status.innerHTML = n ? (RJ.fmt(n) + (en() ? ' results' : ' Treffer') + (pages ? (en() ? ' on ' + RJ.fmt(pages) + ' pages' : ' auf ' + RJ.fmt(pages) + ' Seiten') : '') +
+      (state.mode === 'or' ? (en() ? '. Not all words occur together.' : '. Nicht alle Wörter kommen gemeinsam vor.') : '')) : (en() ? 'No hits.' : 'Keine Treffer.');
     var slice = state.list.slice(state.shown, state.shown + PAGE);
     state.shown += slice.length;
     var hl = encodeURIComponent(state.query.replace(/[„“"”-]/g, ' '));
@@ -301,8 +301,8 @@
       } else if (kind === 'w') {
         href = ROOT + 'register/glossar.html#' + doc[1]; title = doc[5]; where = '';
       }
-      var more = g.more.length ? '<span class="where">+' + g.more.length + (en() ? ' more on this page' : ' weitere auf dieser Seite') + '</span>' : '';
-      div.innerHTML = '<div class="rt"><a href="' + href + '">' + RJ.esc(title) + '</a><span class="pill">' + kl(kind) + '</span><span class="where">' + RJ.esc(where) + '</span>' + more + '</div><div class="snip"></div>';
+      var more = g.more.length ? (en() ? ', ' + g.more.length + ' more on this page' : ', ' + g.more.length + ' weitere auf dieser Seite') : '';
+      div.innerHTML = '<div class="rt"><a href="' + href + '">' + RJ.esc(title) + '</a><span class="kind">' + kl(kind) + (where ? ', ' + RJ.esc(where) : '') + more + '</span></div><div class="snip"></div>';
       out.appendChild(div);
       if (PAGEKINDS.indexOf(kind) >= 0) {
         pageTexts(doc[1]).then(function (tx) {

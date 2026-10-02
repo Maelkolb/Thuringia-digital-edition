@@ -103,7 +103,8 @@
    "word_division": {
     "word": "(Geisbart",
     "part": "bart"
-   }
+   },
+   "sec": "t1-1-8"
   },
   {
    "id": "b2",
@@ -231,7 +232,8 @@
      1110,
      "Location"
     ]
-   ]
+   ],
+   "sec": "t1-1-8"
   },
   {
    "id": "b3",
@@ -289,7 +291,8 @@
      1877,
      "Natural Object"
     ]
-   ]
+   ],
+   "sec": "t1-1-8"
   },
   {
    "id": "b4",
@@ -312,7 +315,8 @@
      93,
      "Location"
     ]
-   ]
+   ],
+   "sec": "t1-1-8"
   },
   {
    "id": "b5",
@@ -324,7 +328,8 @@
    "word_division": {
     "word": "Waldrödern",
     "part": "Wald-"
-   }
+   },
+   "sec": "t1-1-8"
   }
  ],
  "footnotes": [],
@@ -345,5 +350,13 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-01-06T04:03:59.889080",
   "early_schema": false
- }
+ },
+ "section_path": [
+  "t1",
+  "t1-1",
+  "t1-1-8"
+ ],
+ "sections": [
+  "t1-1-8"
+ ]
 }

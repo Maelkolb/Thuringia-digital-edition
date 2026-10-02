@@ -164,7 +164,8 @@
      "Natural Object"
     ]
    ],
-   "continued": true
+   "continued": true,
+   "sec": "t1-5-1"
   },
   {
    "id": "b2",
@@ -257,7 +258,8 @@
      1854,
      "Environment"
     ]
-   ]
+   ],
+   "sec": "t1-5-1"
   }
  ],
  "footnotes": [
@@ -292,5 +294,13 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-04T13:52:03.279443",
   "early_schema": false
- }
+ },
+ "section_path": [
+  "t1",
+  "t1-5",
+  "t1-5-1"
+ ],
+ "sections": [
+  "t1-5-1"
+ ]
 }

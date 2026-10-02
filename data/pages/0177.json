@@ -78,7 +78,8 @@
      711,
      "Location"
     ]
-   ]
+   ],
+   "sec": "t1-2-5"
   },
   {
    "id": "b2",
@@ -91,7 +92,8 @@
      84,
      "Environment"
     ]
-   ]
+   ],
+   "sec": "t1-2-5"
   },
   {
    "id": "b3",
@@ -129,7 +131,8 @@
      1646,
      "Organisation"
     ]
-   ]
+   ],
+   "sec": "t1-2-5"
   },
   {
    "id": "b4",
@@ -137,7 +140,8 @@
    "src": 3,
    "text": "Mehr noch als dem Unterländer schreibt man dem Oberländer ein starkes Rechtsgefühl zu. Es ist dies jedoch keineswegs ein ächt und fest sittlicher Sinn für Recht und Unrecht, sondern ein Gefühl, das laut wird und tobt, wenn dem Bauer nach seiner Ansicht Unrecht geschieht, aber schweigt, wenn er mit oder ohne Bewußtsein und Willen Unrecht thut. Ihm ist nicht das wirkliche, sondern das mit seinem Vortheile verbundene Recht das Höchste. So viel wie möglich auch ohne Gesetz und Recht sich aneignen und behalten, so wenig als möglich und nie ohne Zwang geben und leisten, dies in Rechtssachen der Verhaltungsgrundzug",
    "spans": [],
-   "continues": true
+   "continues": true,
+   "sec": "t1-2-5"
   }
  ],
  "footnotes": [],
@@ -147,5 +151,13 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-03T15:33:06.312727",
   "early_schema": false
- }
+ },
+ "section_path": [
+  "t1",
+  "t1-2",
+  "t1-2-5"
+ ],
+ "sections": [
+  "t1-2-5"
+ ]
 }

@@ -58,7 +58,8 @@
      743,
      "Organisation"
     ]
-   ]
+   ],
+   "sec": "t1-4-1b"
   },
   {
    "id": "b2",
@@ -81,7 +82,8 @@
      165,
      "Artefact"
     ]
-   ]
+   ],
+   "sec": "t1-4-1b"
   },
   {
    "id": "b3",
@@ -94,7 +96,8 @@
      657,
      "Artefact"
     ]
-   ]
+   ],
+   "sec": "t1-4-1b"
   },
   {
    "id": "b4",
@@ -107,7 +110,8 @@
      294,
      "Artefact"
     ]
-   ]
+   ],
+   "sec": "t1-4-1b"
   }
  ],
  "footnotes": [],
@@ -117,5 +121,14 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-05T12:01:53.676485",
   "early_schema": false
- }
+ },
+ "section_path": [
+  "t1",
+  "t1-4",
+  "t1-4-1",
+  "t1-4-1b"
+ ],
+ "sections": [
+  "t1-4-1b"
+ ]
 }

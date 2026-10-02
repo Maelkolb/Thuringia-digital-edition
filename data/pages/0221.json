@@ -23,14 +23,16 @@
      560,
      "Organisation"
     ]
-   ]
+   ],
+   "sec": "t1-3-1"
   },
   {
    "id": "b2",
    "type": "paragraph",
    "src": 1,
    "text": "Um die Bedeutung der industriellen und merkantilen Betriebsamkeit neben der agrarischen, forstwirthschaftlichen und bergmännischen wahrzunehmen und zu würdigen, ist es nöthig, sie in der Reihe der gesammten Berufsklassen des Landes festzustellen und sie mit diesen und unter sich zu vergleichen. An Berufsklassen hatte das Fürstenthum 1864:",
-   "spans": []
+   "spans": [],
+   "sec": "t1-3-1"
   },
   {
    "id": "b3",
@@ -1801,7 +1803,8 @@
      "3833"
     ]
    ],
-   "caption": null
+   "caption": null,
+   "sec": "t1-3-1"
   }
  ],
  "footnotes": [],
@@ -1821,5 +1824,13 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-03T15:48:46.805314",
   "early_schema": false
- }
+ },
+ "section_path": [
+  "t1",
+  "t1-3",
+  "t1-3-1"
+ ],
+ "sections": [
+  "t1-3-1"
+ ]
 }

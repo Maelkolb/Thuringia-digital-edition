@@ -17,14 +17,16 @@
    "type": "paragraph",
    "src": 0,
    "text": "Das natürliche Verhältnis ist im Ganzen gewahrt, indem einerseits 67/100 der geschlossenen Ehen von gleicher Altersklasse, 32/100 mit dem Unterschiede von einer und bloß 1/100 mit dem von mehr als einer Altersklasse und andererseits unter sämmtlichen Ehen 78/100 getroffen werden, wo der Mann, und nur 22/100, wo die Frau das Altersübergewicht hat.",
-   "spans": []
+   "spans": [],
+   "sec": "t1-2-1"
   },
   {
    "id": "b2",
    "type": "paragraph",
    "src": 1,
    "text": "11) Die Bevölkerung nach ihrem Geburtsorte, bezüglich nach ihrer Einwanderung. Es waren von der Bevölkerung des Jahres 1864 geboren:",
-   "spans": []
+   "spans": [],
+   "sec": "t1-2-1"
   },
   {
    "id": "b3",
@@ -636,7 +638,8 @@
      "14,48"
     ]
    ],
-   "caption": null
+   "caption": null,
+   "sec": "t1-2-1"
   },
   {
    "id": "b4",
@@ -659,7 +662,8 @@
      409,
      "Location"
     ]
-   ]
+   ],
+   "sec": "t1-2-1"
   },
   {
    "id": "b5",
@@ -912,7 +916,8 @@
      ""
     ]
    ],
-   "caption": null
+   "caption": null,
+   "sec": "t1-2-1"
   }
  ],
  "footnotes": [],
@@ -930,5 +935,13 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-03T15:11:14.512201",
   "early_schema": false
- }
+ },
+ "section_path": [
+  "t1",
+  "t1-2",
+  "t1-2-1"
+ ],
+ "sections": [
+  "t1-2-1"
+ ]
 }

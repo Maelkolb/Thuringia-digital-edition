@@ -17,14 +17,20 @@
    "type": "heading",
    "src": 0,
    "text": "2. Wohnliche Einrichtung.",
-   "spans": []
+   "spans": [],
+   "opens": [
+    "t1-2-2"
+   ],
+   "sec": "t1-2-2",
+   "level": 4
   },
   {
    "id": "b2",
    "type": "paragraph",
    "src": 1,
    "text": "a) Die Orte. In den Ortsnamen des Landes mit Einschluss der Flur-, Berg- und Flussnamen liegt ein Stück Geschichte derjenigen Völker, welche dasselbe bewohnt haben. Steinmonumenten gleich zeigen diese Namen eine Dauer durch Jahrtausende und geben Zeugnis von ferneren und näheren Zeiten. In Hinsicht ihrer Ableitung und Deutung hat man sich indess nicht immer von phantastischer Spielerei fern gehalten. Wenn das sagenwebende Volk sich viele Orts- und Flurnamen *) zu deuten sucht, so darf doch nimmermehr dessen naive Weise, die sich auf Gleichklänge stützt, in das wissenschaftliche Gebiet herübergezogen werden. Denn werden, wie dies geschehen, die Kattenberge, Kattenfelsen, Katzensteine und Käsesteine von den Katten, die Orte auf Grün von den Nariskern, Gama, Gäma, Gämisch von den Chämen, die Teuer und Tauern von den Teuriochämen abgeleitet, so verliert man sich in das Haltlose und Abenteuerliche.",
-   "spans": []
+   "spans": [],
+   "sec": "t1-2-2"
   },
   {
    "id": "b3",
@@ -323,7 +329,8 @@
      "Artefact"
     ]
    ],
-   "continues": true
+   "continues": true,
+   "sec": "t1-2-2"
   }
  ],
  "footnotes": [
@@ -362,5 +369,13 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-03T15:16:55.475694",
   "early_schema": false
- }
+ },
+ "section_path": [
+  "t1",
+  "t1-2",
+  "t1-2-1"
+ ],
+ "sections": [
+  "t1-2-2"
+ ]
 }

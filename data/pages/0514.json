@@ -43,7 +43,8 @@
      990,
      "Location"
     ]
-   ]
+   ],
+   "sec": "t2-1"
   },
   {
    "id": "b2",
@@ -176,7 +177,8 @@
      2580,
      "Environmental Impact"
     ]
-   ]
+   ],
+   "sec": "t2-1"
   }
  ],
  "footnotes": [],
@@ -186,5 +188,12 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-04T15:26:36.293180",
   "early_schema": false
- }
+ },
+ "section_path": [
+  "t2",
+  "t2-1"
+ ],
+ "sections": [
+  "t2-1"
+ ]
 }

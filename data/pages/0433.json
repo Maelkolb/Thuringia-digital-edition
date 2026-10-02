@@ -44,7 +44,8 @@
      "Organisation"
     ]
    ],
-   "continued": true
+   "continued": true,
+   "sec": "t2-1"
   },
   {
    "id": "b2",
@@ -262,7 +263,8 @@
    "word_division": {
     "word": "Parochialgemeinden",
     "part": "Parochial-"
-   }
+   },
+   "sec": "t2-1"
   }
  ],
  "footnotes": [],
@@ -282,5 +284,12 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-04T14:49:16.379720",
   "early_schema": false
- }
+ },
+ "section_path": [
+  "t2",
+  "t2-1"
+ ],
+ "sections": [
+  "t2-1"
+ ]
 }

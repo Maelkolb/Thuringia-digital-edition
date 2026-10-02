@@ -34,7 +34,8 @@
      "Artefact"
     ]
    ],
-   "continued": true
+   "continued": true,
+   "sec": "t1-1-6"
   },
   {
    "id": "b2",
@@ -82,7 +83,8 @@
      656,
      "Artefact"
     ]
-   ]
+   ],
+   "sec": "t1-1-6"
   },
   {
    "id": "b3",
@@ -120,14 +122,16 @@
      326,
      "Location"
     ]
-   ]
+   ],
+   "sec": "t1-1-6"
   },
   {
    "id": "b4",
    "type": "paragraph",
    "src": 3,
    "text": "Die Gliederung des Gefließes im Lande ist nun folgende:",
-   "spans": []
+   "spans": [],
+   "sec": "t1-1-6"
   },
   {
    "id": "b5",
@@ -140,14 +144,16 @@
      29,
      "Location"
     ]
-   ]
+   ],
+   "sec": "t1-1-6"
   },
   {
    "id": "b6",
    "type": "paragraph",
    "src": 5,
    "text": "Nämlich:",
-   "spans": []
+   "spans": [],
+   "sec": "t1-1-6"
   },
   {
    "id": "b7",
@@ -180,14 +186,16 @@
      194,
      "Location"
     ]
-   ]
+   ],
+   "sec": "t1-1-6"
   },
   {
    "id": "b8",
    "type": "paragraph",
    "src": 7,
    "text": "Ihr fließen zu:",
-   "spans": []
+   "spans": [],
+   "sec": "t1-1-6"
   },
   {
    "id": "b9",
@@ -200,7 +208,8 @@
      22,
      "Natural Object"
     ]
-   ]
+   ],
+   "sec": "t1-1-6"
   },
   {
    "id": "b10",
@@ -218,7 +227,8 @@
      24,
      "Location"
     ]
-   ]
+   ],
+   "sec": "t1-1-6"
   },
   {
    "id": "b11",
@@ -251,7 +261,8 @@
      207,
      "Environment"
     ]
-   ]
+   ],
+   "sec": "t1-1-6"
   },
   {
    "id": "b12",
@@ -274,7 +285,8 @@
      142,
      "Location"
     ]
-   ]
+   ],
+   "sec": "t1-1-6"
   },
   {
    "id": "b13",
@@ -332,7 +344,8 @@
      520,
      "Location"
     ]
-   ]
+   ],
+   "sec": "t1-1-6"
   },
   {
    "id": "b14",
@@ -345,7 +358,9 @@
      28,
      "Location"
     ]
-   ]
+   ],
+   "sec": "t1-1-6",
+   "level": 5
   },
   {
    "id": "b15",
@@ -368,7 +383,8 @@
      141,
      "Natural Object"
     ]
-   ]
+   ],
+   "sec": "t1-1-6"
   }
  ],
  "footnotes": [],
@@ -378,5 +394,13 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-01-06T03:00:55.908606",
   "early_schema": false
- }
+ },
+ "section_path": [
+  "t1",
+  "t1-1",
+  "t1-1-6"
+ ],
+ "sections": [
+  "t1-1-6"
+ ]
 }

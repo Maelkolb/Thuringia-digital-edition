@@ -23,7 +23,8 @@
      523,
      "Organisation"
     ]
-   ]
+   ],
+   "sec": "t1-3-2"
   },
   {
    "id": "b2",
@@ -64,7 +65,8 @@
      "text": "24317 Thlr. 9 Sgr. im Fürstenthume.",
      "spans": []
     }
-   ]
+   ],
+   "sec": "t1-3-2"
   },
   {
    "id": "b3",
@@ -157,7 +159,8 @@
      1034,
      "Location"
     ]
-   ]
+   ],
+   "sec": "t1-3-2"
   },
   {
    "id": "b4",
@@ -341,7 +344,8 @@
      "25 Bürgerliche, 9 Adlige, 7 Fürstliche."
     ]
    ],
-   "caption": null
+   "caption": null,
+   "sec": "t1-3-2"
   },
   {
    "id": "b5",
@@ -354,14 +358,16 @@
      165,
      "Location"
     ]
-   ]
+   ],
+   "sec": "t1-3-2"
   },
   {
    "id": "b6",
    "type": "paragraph",
    "src": 5,
    "text": "In dritter Reihe der auf die Landwirthschaft günstigen Einwirkungen stehen die land- und forstwirthschaftlichen Vereine, die nicht blos durch Verbreitung nützlicher Schriften, sondern auch durch Belehrung sich einflussreich erweisen. Es bestehen solcher Vereine vier im Fürstenthume, nämlich:",
-   "spans": []
+   "spans": [],
+   "sec": "t1-3-2"
   }
  ],
  "footnotes": [],
@@ -379,5 +385,13 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-04T13:20:35.501284",
   "early_schema": false
- }
+ },
+ "section_path": [
+  "t1",
+  "t1-3",
+  "t1-3-2"
+ ],
+ "sections": [
+  "t1-3-2"
+ ]
 }

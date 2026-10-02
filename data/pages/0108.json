@@ -28,14 +28,16 @@
      202,
      "Location"
     ]
-   ]
+   ],
+   "sec": "t1-2-1"
   },
   {
    "id": "b2",
    "type": "paragraph",
    "src": 1,
    "text": "Die sechs Städte des Landes für sich betrachtet, zeigt sich ihre Volkszunahme von 1647—1867 und ihr gegenseitiges Kopfzahlverhältniß wie folgt:",
-   "spans": []
+   "spans": [],
+   "sec": "t1-2-1"
   },
   {
    "id": "b3",
@@ -371,7 +373,8 @@
      "4,78fache."
     ]
    ],
-   "caption": null
+   "caption": null,
+   "sec": "t1-2-1"
   },
   {
    "id": "b4",
@@ -449,7 +452,8 @@
      908,
      "Location"
     ]
-   ]
+   ],
+   "sec": "t1-2-1"
   },
   {
    "id": "b5",
@@ -929,7 +933,8 @@
      "5,90fache."
     ]
    ],
-   "caption": null
+   "caption": null,
+   "sec": "t1-2-1"
   },
   {
    "id": "b6",
@@ -937,7 +942,8 @@
    "src": 5,
    "text": "Von diesen acht Landorten, welche mit den sechs genannten Städten die einzigen Orte des Landes bilden, die mehr als 1000 Einwohner zählen, sind",
    "spans": [],
-   "continues": true
+   "continues": true,
+   "sec": "t1-2-1"
   }
  ],
  "footnotes": [],
@@ -956,5 +962,13 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-03T15:07:52.529901",
   "early_schema": false
- }
+ },
+ "section_path": [
+  "t1",
+  "t1-2",
+  "t1-2-1"
+ ],
+ "sections": [
+  "t1-2-1"
+ ]
 }

@@ -68,7 +68,8 @@
      2110,
      "Person"
     ]
-   ]
+   ],
+   "sec": "t2-2"
   },
   {
    "id": "b2",
@@ -97,7 +98,8 @@
      "Artefact"
     ]
    ],
-   "continues": true
+   "continues": true,
+   "sec": "t2-2"
   }
  ],
  "footnotes": [
@@ -130,5 +132,12 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-04T20:20:35.819820",
   "early_schema": false
- }
+ },
+ "section_path": [
+  "t2",
+  "t2-2"
+ ],
+ "sections": [
+  "t2-2"
+ ]
 }

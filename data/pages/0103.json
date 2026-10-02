@@ -17,21 +17,33 @@
    "type": "heading",
    "src": 0,
    "text": "II. Das Volk.",
-   "spans": []
+   "spans": [],
+   "opens": [
+    "t1-2"
+   ],
+   "sec": "t1-2",
+   "level": 3
   },
   {
    "id": "b2",
    "type": "heading",
    "src": 1,
    "text": "1. Statistik.",
-   "spans": []
+   "spans": [],
+   "opens": [
+    "t1-2-1"
+   ],
+   "sec": "t1-2-1",
+   "level": 4
   },
   {
    "id": "b3",
    "type": "heading",
    "src": 2,
    "text": "1) Volksbewegung.",
-   "spans": []
+   "spans": [],
+   "sec": "t1-2-1",
+   "level": 5
   },
   {
    "id": "b4",
@@ -2156,7 +2168,8 @@
      "0,24"
     ]
    ],
-   "caption": null
+   "caption": null,
+   "sec": "t1-2-1"
   }
  ],
  "footnotes": [],
@@ -2177,5 +2190,14 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-03T15:05:42.771846",
   "early_schema": false
- }
+ },
+ "section_path": [
+  "t1",
+  "t1-1",
+  "t1-1-9"
+ ],
+ "sections": [
+  "t1-2",
+  "t1-2-1"
+ ]
 }

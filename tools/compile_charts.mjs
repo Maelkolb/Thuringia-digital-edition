@@ -8,7 +8,10 @@ import { fileURLToPath } from 'node:url';
 import * as vl from 'vega-lite';
 import * as vega from 'vega';
 import { Resvg } from '@resvg/resvg-js';
-import { theme, isComposite } from './vega_theme.mjs';
+import { theme, isComposite, applyTokens } from './vega_theme.mjs';
+
+// resvg cannot handle empty paths (e.g. line segments that collapse when projected)
+const cleanSvg = (svg) => svg.replace(/<path\b[^>]*\sd=""[^>]*?(\/>|><\/path>)/g, '');
 import { rowsAsObjects, validate } from './validate_analysis.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
@@ -29,7 +32,7 @@ function resolveLang(node, lang) {
 }
 
 function compile(a, ch, lang, mode, width) {
-  const spec = resolveLang(structuredClone(ch.vegalite), lang);
+  const spec = applyTokens(resolveLang(structuredClone(ch.vegalite), lang), mode);
   const full = { $schema: 'https://vega.github.io/schema/vega-lite/v6.json', ...spec };
   if (!full.data) full.data = { name: ch.dataset };
   if (isComposite(full)) {
@@ -71,7 +74,7 @@ for (const f of files) {
     const view = new vega.View(vega.parse(th), { renderer: 'none' });
     await view.runAsync();
     const svg = await view.toSVG();
-    const png = new Resvg(svg, { fitTo: { mode: 'width', value: 640 }, background: '#fffdf8', font: { loadSystemFonts: true, defaultFontFamily: 'Segoe UI' } }).render().asPng();
+    const png = new Resvg(cleanSvg(svg), { fitTo: { mode: 'width', value: 640 }, background: '#fffdf8', font: { loadSystemFonts: true, defaultFontFamily: 'Segoe UI' } }).render().asPng();
     fs.writeFileSync(path.join(OUT, 'thumbs', `${a.id}.png`), png);
     index.push(a.id);
     ok++;

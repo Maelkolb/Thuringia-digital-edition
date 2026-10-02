@@ -84,7 +84,8 @@
      "Natural Object"
     ]
    ],
-   "continued": true
+   "continued": true,
+   "sec": "t1-5-2"
   },
   {
    "id": "b2",
@@ -167,7 +168,8 @@
    "word_division": {
     "word": "Lebenseinrichtung",
     "part": "Lebens-"
-   }
+   },
+   "sec": "t1-5-2"
   }
  ],
  "footnotes": [
@@ -238,5 +240,13 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-04T13:53:40.571043",
   "early_schema": false
- }
+ },
+ "section_path": [
+  "t1",
+  "t1-5",
+  "t1-5-2"
+ ],
+ "sections": [
+  "t1-5-2"
+ ]
 }

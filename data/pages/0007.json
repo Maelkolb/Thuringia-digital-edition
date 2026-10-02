@@ -17,7 +17,12 @@
    "type": "heading",
    "src": 0,
    "text": "Vorwort.",
-   "spans": []
+   "spans": [],
+   "opens": [
+    "vorwort"
+   ],
+   "sec": "vorwort",
+   "level": 3
   },
   {
    "id": "b2",
@@ -40,7 +45,8 @@
      257,
      "Location"
     ]
-   ]
+   ],
+   "sec": "vorwort"
   },
   {
    "id": "b3",
@@ -59,7 +65,8 @@
      "Location"
     ]
    ],
-   "continues": true
+   "continues": true,
+   "sec": "vorwort"
   }
  ],
  "footnotes": [],
@@ -69,5 +76,12 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-10-01T20:18:01.119480",
   "early_schema": false
- }
+ },
+ "section_path": [
+  "front",
+  "titel"
+ ],
+ "sections": [
+  "vorwort"
+ ]
 }

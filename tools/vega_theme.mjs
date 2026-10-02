@@ -11,10 +11,32 @@ const BLUES = ['#cde2fb', '#b7d3f6', '#9ec5f4', '#86b6ef', '#6da7ec', '#5598e7',
 const DIVERGING = ['#104281', '#2a78d6', '#86b6ef', '#f0efec', '#f19a99', '#e34948', '#a8282a'];
 const DIVERGING_DARK = ['#86b6ef', '#3987e5', '#1c5cab', '#383835', '#b13b3b', '#e66767', '#f2a7a7'];
 
+// Colour tokens usable in specs ("@accent", "@context" ...): replaced per light/dark mode at compile time,
+// so highlight-and-context designs keep working in dark mode.
+export const TOKENS = {
+  light: { ink: '#1e1b17', ink2: '#4a443b', muted: '#8a8274', context: '#c9c0b0', accent: '#2a78d6', accent2: '#eb6834', accent3: '#1baf7a',
+    paper: '#fbf8f1', land: '#ddd5c4', river: '#8fb3d9', positive: '#2a78d6', negative: '#e34948' },
+  dark: { ink: '#ede6d8', ink2: '#cdc4b4', muted: '#9c9382', context: '#4f4a42', accent: '#3987e5', accent2: '#d95926', accent3: '#199e70',
+    paper: '#1d1b18', land: '#3a352e', river: '#2f5f8f', positive: '#3987e5', negative: '#e66767' },
+};
+
+export function applyTokens(node, mode = 'light') {
+  const t = TOKENS[mode === 'dark' ? 'dark' : 'light'];
+  if (Array.isArray(node)) return node.map((n) => applyTokens(n, mode));
+  if (node && typeof node === 'object') {
+    const o = {};
+    for (const [k, v] of Object.entries(node)) o[k] = applyTokens(v, mode);
+    return o;
+  }
+  if (typeof node === 'string' && /^@[a-z0-9]+$/.test(node) && t[node.slice(1)]) return t[node.slice(1)];
+  return node;
+}
+
 export function theme(mode = 'light') {
   const dark = mode === 'dark';
-  const ink2 = dark ? '#c3c2b7' : '#52514e';
-  const muted = '#898781';
+  const tk = TOKENS[dark ? 'dark' : 'light'];
+  const ink2 = tk.ink2;
+  const muted = tk.muted;
   const grid = dark ? '#2c2c2a' : '#e8e3d8';
   const axis = dark ? '#383835' : '#c9c2b2';
   const font = '"Source Sans 3", system-ui, -apple-system, "Segoe UI", sans-serif';
@@ -27,7 +49,7 @@ export function theme(mode = 'light') {
     title: { color: dark ? '#ffffff' : '#0b0b0b', font, fontSize: 14, fontWeight: 600, anchor: 'start', offset: 10 },
     axis: {
       labelColor: ink2, titleColor: ink2, labelFont: font, titleFont: font,
-      labelFontSize: 11, titleFontSize: 12, titleFontWeight: 500,
+      labelFontSize: 12, titleFontSize: 12, titleFontWeight: 500,
       gridColor: grid, gridWidth: 1, domainColor: axis, tickColor: axis, tickSize: 4,
       labelPadding: 4, titlePadding: 8,
     },
@@ -35,8 +57,8 @@ export function theme(mode = 'light') {
     axisY: { grid: true, domain: false, ticks: false },
     axisBand: { grid: false },
     legend: {
-      labelColor: ink2, titleColor: ink2, labelFont: font, titleFont: font, labelFontSize: 11, titleFontSize: 11,
-      orient: 'top', direction: 'horizontal', symbolType: 'circle', symbolSize: 80, columnPadding: 14, titlePadding: 6,
+      labelColor: ink2, titleColor: ink2, labelFont: font, titleFont: font, labelFontSize: 12, titleFontSize: 12,
+      orient: 'top', direction: 'horizontal', symbolType: 'circle', symbolSize: 80, columnPadding: 14, titlePadding: 6, labelLimit: 240,
     },
     header: { labelColor: ink2, titleColor: ink2, labelFont: font, titleFont: font, labelFontSize: 12 },
     range: {
@@ -54,7 +76,15 @@ export function theme(mode = 'light') {
     rect: { stroke: dark ? '#1d1b18' : '#fbf8f1', strokeWidth: 1 },
     arc: { stroke: dark ? '#1d1b18' : '#fbf8f1', strokeWidth: 1.5 },
     rule: { color: muted },
-    text: { color: ink2, font, fontSize: 11 },
+    text: { color: ink2, font, fontSize: 12 },
+    geoshape: { stroke: dark ? '#1d1b18' : '#fbf8f1', strokeWidth: 0.5 },
+    style: {
+      annotation: { fontSize: 12, fill: ink2, font },
+      label: { fontSize: 12, fill: ink2, font, fontWeight: 600 },
+      'label-muted': { fontSize: 12, fill: muted, font },
+      'place-halo': { fontSize: 12, fill: dark ? '#1d1b18' : '#fbf8f1', font, fontWeight: 600, stroke: dark ? '#1d1b18' : '#fbf8f1', strokeWidth: 3.5, strokeJoin: 'round', opacity: 0.9 },
+      'place-label': { fontSize: 12, fill: dark ? '#ede6d8' : '#1e1b17', font, fontWeight: 600 },
+    },
     mark: { color: dark ? PALETTE.dark[0] : PALETTE.light[0] },
   };
 }

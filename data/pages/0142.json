@@ -29,7 +29,8 @@
      "Artefact"
     ]
    ],
-   "continued": true
+   "continued": true,
+   "sec": "t1-2-2"
   },
   {
    "id": "b2",
@@ -127,7 +128,8 @@
      927,
      "Artefact"
     ]
-   ]
+   ],
+   "sec": "t1-2-2"
   },
   {
    "id": "b3",
@@ -256,7 +258,8 @@
      "Location"
     ]
    ],
-   "continues": true
+   "continues": true,
+   "sec": "t1-2-2"
   }
  ],
  "footnotes": [],
@@ -266,5 +269,13 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-05T11:57:03.285874",
   "early_schema": false
- }
+ },
+ "section_path": [
+  "t1",
+  "t1-2",
+  "t1-2-2"
+ ],
+ "sections": [
+  "t1-2-2"
+ ]
 }

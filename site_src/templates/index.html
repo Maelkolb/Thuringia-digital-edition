@@ -2,34 +2,30 @@
 {% block title %}{{ site.title }} – Digitale Edition{% endblock %}
 {% block main %}
 <div class="wrap">
-  <section class="hero">
+  <section class="home">
     <div>
-      <img class="vignette" src="assets/img/wappen-1870.png" alt="" width="92">
-      <p class="eyebrow">{{ t('Digitale Edition', 'Digital edition') }} · Gera 1870</p>
+      <p class="author">Georg Brückner</p>
       <h1>Volks- und Landeskunde des Fürstenthums Reuß j. L.</h1>
-      <p class="sub">{{ t('Im Auftrage des regierenden Landesfürsten verfaßt von G. Brückner, Hof- und Archivrath in Meiningen', 'Commissioned by the reigning prince, written by G. Brückner, court and archive councillor in Meiningen') }}</p>
-      <p class="lede">{{ t('Brückners Landeskunde beschreibt das kleine thüringische Fürstentum Reuß jüngerer Linie um 1870 in ganzer Breite: Natur und Klima, Bevölkerung, Mundart und Brauchtum, Wirtschaft, Staat und Geschichte – und in ihrem zweiten Teil jeden einzelnen Ort zwischen Gera, Schleiz und Lobenstein. Diese Edition macht das 850 Seiten starke Werk durchsuchbar, verknüpft es mit dem Faksimile der Bayerischen Staatsbibliothek und erschließt es durch Register, eine Karte und Auswertungen der statistischen Tabellen.', 'Brückner’s regional study describes the small Thuringian principality of Reuss (Younger Line) around 1870 in its full breadth: nature and climate, population, dialect and customs, economy, state and history – and, in its second part, every single place between Gera, Schleiz and Lobenstein. This edition makes the 850-page work searchable, links it to the facsimile of the Bavarian State Library and opens it up through indexes, a map and analyses of its statistical tables.') }}</p>
+      <p class="imprint">Gera: Fr. Eugen Köhler 1870</p>
+      <p class="edition-line">{{ t('Digitale Edition, herausgegeben von ' ~ site.editor, 'Digital edition, edited by ' ~ site.editor_en) }}</p>
+      <p class="lede">{{ t('Brückners Landeskunde beschreibt das thüringische Fürstentum Reuß jüngerer Linie um 1870 in ganzer Breite: Natur und Klima, Bevölkerung, Mundart und Brauchtum, Wirtschaft, Staat und Geschichte. Ihr zweiter Teil führt durch jeden einzelnen Ort zwischen Gera, Schleiz und Lobenstein. Die Edition gibt den Text mit dem Faksimile der Bayerischen Staatsbibliothek wieder und erschließt ihn durch Register, eine Karte und Auswertungen der statistischen Tabellen.', 'Brückner’s regional study describes the Thuringian principality of Reuss (Younger Line) around 1870 in its full breadth: nature and climate, population, dialect and customs, economy, state and history. Its second part walks through every single place between Gera, Schleiz and Lobenstein. The edition presents the text alongside the facsimile of the Bavarian State Library and opens it up through indexes, a map and analyses of the statistical tables.') }}</p>
       <div class="cta">
-        <a class="btn primary" href="seite/3.html">{{ t('Lesen beginnen', 'Start reading') }} →</a>
+        <a class="btn primary" href="seite/3.html">{{ t('Mit dem Lesen beginnen', 'Start reading') }}</a>
         <a class="btn" href="inhalt.html">{{ t('Inhaltsverzeichnis', 'Table of contents') }}</a>
-        <a class="btn" href="suche.html">{{ t('Suchen', 'Search') }}</a>
       </div>
     </div>
-    <a class="titlepage" href="seite/I.html" title="Titelblatt / title page"><img src="assets/img/titelblatt.jpg" alt="{{ 'Titelblatt der Ausgabe Gera 1870' }}" width="900" height="1482"></a>
+    <figure style="margin:0">
+      <a class="titlepage" href="seite/I.html"><img src="assets/img/titelblatt.jpg" {{ i18n('alt', 'Titelblatt der Ausgabe Gera 1870', 'Title page of the 1870 Gera edition') }} width="900" height="1482"></a>
+      <figcaption>{{ t('Titelblatt, Exemplar der Bayerischen Staatsbibliothek München', 'Title page, copy in the Bayerische Staatsbibliothek Munich') }}</figcaption>
+    </figure>
   </section>
-  <div class="stats">
-    <div><b>{{ '{:,}'.format(stats.pages).replace(',', '.') }}</b><span>{{ t('Seiten mit Text und Faksimile', 'pages with text and facsimile') }}</span></div>
-    <div><b>{{ '{:,}'.format(stats.entities).replace(',', '.') }}</b><span>{{ t('Registereinträge', 'index entries') }}</span></div>
-    <div><b>{{ stats.places }}</b><span>{{ t('Ortsartikel strukturiert erfasst', 'place articles in structured form') }}</span></div>
-    <div><b>{{ stats.analyses }}</b><span>{{ t('Auswertungen mit Diagrammen', 'analyses with charts') }}</span></div>
-  </div>
-  <div class="entry-grid">
-    <a class="card entry" href="inhalt.html"><span class="eyebrow">{{ t('Struktur', 'Structure') }}</span><h2>{{ t('Inhalt', 'Contents') }}</h2><p>{{ t('Alle Teile, Kapitel und Abschnitte mit Seitenübersichten.', 'All parts, chapters and sections with page summaries.') }}</p></a>
-    <a class="card entry" href="register/index.html"><span class="eyebrow">{{ t('Erschließung', 'Access') }}</span><h2>{{ t('Register', 'Indexes') }}</h2><p>{{ t('Orte, Personen, Institutionen, Natur, Tiere und Pflanzen, Sachen – mit Normdaten.', 'Places, persons, institutions, nature, animals and plants, things – linked to authority files.') }}</p></a>
-    <a class="card entry" href="karte.html"><span class="eyebrow">{{ t('Raum', 'Space') }}</span><h2>{{ t('Karte', 'Map') }}</h2><p>{{ t('Alle georeferenzierten Orte und Brückners Ortsartikel auf einer Karte.', 'All georeferenced places and Brückner’s place articles on a map.') }}</p></a>
-    <a class="card entry" href="auswertungen/index.html"><span class="eyebrow">{{ t('Daten', 'Data') }}</span><h2>{{ t('Auswertungen', 'Analyses') }}</h2><p>{{ t('Klima, Bevölkerung, Wirtschaft und Geschichte als interaktive Diagramme – mit Quellenbelegen.', 'Climate, population, economy and history as interactive charts – with source references.') }}</p></a>
-    <a class="card entry" href="suche.html"><span class="eyebrow">{{ t('Suche', 'Search') }}</span><h2>{{ t('Volltextsuche', 'Full-text search') }}</h2><p>{{ t('Findet auch historische Schreibweisen: „Tal“ findet „Thal“, „Zentner“ findet „Centner“.', 'Finds historical spellings too: “Tal” finds “Thal”, “Zentner” finds “Centner”. English queries work as well.') }}</p></a>
-    <a class="card entry" href="edition/einleitung.html"><span class="eyebrow">{{ t('Edition', 'Edition') }}</span><h2>{{ t('Über diese Edition', 'About this edition') }}</h2><p>{{ t('Werk und Autor, Editionsrichtlinien, Methode, Daten und Zitierweise.', 'Work and author, editorial principles, method, data and citation.') }}</p></a>
-  </div>
+  <ul class="access">
+    <li><a href="inhalt.html">{{ t('Inhalt', 'Contents') }}</a><p>{{ t('Die Gliederung des Werks nach Brückners Inhaltsübersicht, mit einer kurzen Übersicht zu jeder Seite.', 'The structure of the work after Brückner’s table of contents, with a short summary of every page.') }}</p></li>
+    <li><a href="register/index.html">{{ t('Register', 'Indexes') }}</a><p>{{ t(num(stats.entities, 'de') ~ ' Orte, Personen, Institutionen, Gewässer und Berge, Tiere und Pflanzen sowie Sachen, jeweils mit Belegstellen und Normdaten.', num(stats.entities, 'en') ~ ' places, persons, institutions, rivers and mountains, animals and plants, and things, each with its passages and authority data.') }}</p></li>
+    <li><a href="karte.html">{{ t('Karte', 'Map') }}</a><p>{{ t(stats.map_places ~ ' Orte und Naturräume des Werks; die ' ~ stats.map_gaz ~ ' Orte mit eigenem Artikel im zweiten Teil sind hervorgehoben.', stats.map_places ~ ' places and natural features of the work; the ' ~ stats.map_gaz ~ ' places with their own article in Part II are highlighted.') }}</p></li>
+    <li><a href="auswertungen/index.html">{{ t('Auswertungen', 'Analyses') }}</a><p>{{ t('Brückners Tabellen zu Klima, Bevölkerung, Wirtschaft und Geschichte als Diagramme, mit Quellen und Daten.', 'Brückner’s tables on climate, population, economy and history as charts, with sources and data.') }}</p></li>
+    <li><a href="suche.html">{{ t('Volltextsuche', 'Full-text search') }}</a><p>{{ t('Findet historische wie moderne Schreibungen, also „Thal“ auch unter „Tal“, und versteht englische Suchbegriffe.', 'Finds historical and modern spellings alike, so “Thal” also under “Tal”, and understands English search terms.') }}</p></li>
+    <li><a href="edition/einleitung.html">{{ t('Zur Edition', 'About the edition') }}</a><p>{{ t('Einleitung, Editionsrichtlinien, Zitierweise, Daten und Downloads.', 'Introduction, editorial principles, citation, data and downloads.') }}</p></li>
+  </ul>
 </div>
 {% endblock %}

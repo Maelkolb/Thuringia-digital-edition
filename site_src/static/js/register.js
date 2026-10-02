@@ -16,7 +16,7 @@
     Array.prototype.forEach.call(document.querySelectorAll('[data-letter]'), function (sec) {
       sec.hidden = !sec.querySelector('.reg-item:not([hidden])');
     });
-    if (count) count.textContent = shown + ' / ' + items.length;
+    if (count) count.textContent = q || k ? RJ.fmt(shown) + (RJ.ui() === 'en' ? ' of ' : ' von ') + RJ.fmt(items.length) : '';
   }
   if (input) input.addEventListener('input', apply);
   if (kindSel) kindSel.addEventListener('change', apply);
@@ -28,14 +28,15 @@
     var b = e.target.closest('[data-kwic]'); if (!b || !file) return;
     var id = b.getAttribute('data-kwic'), li = b.closest('.reg-item');
     var open = li.querySelector('.kwic');
-    if (open) { open.remove(); return; }
+    if (open) { open.remove(); b.setAttribute('aria-expanded', 'false'); return; }
+    b.setAttribute('aria-expanded', 'true');
     (kwic ? Promise.resolve(kwic) : RJ.load('register/belege/' + file).then(function (d) { kwic = d; return d; }))
       .then(function (d) {
         var list = d[id] || [], box = document.createElement('div'); box.className = 'kwic';
         box.innerHTML = list.map(function (m) {
           var txt = RJ.esc(m[2]).replace('⟦', '<b>').replace('⟧', '</b>');
           return '<a href="../seite/' + m[0] + '.html#' + m[1] + '"><span class="p">' + m[0] + '</span><span>…' + txt + '…</span></a>';
-        }).join('') || '<span class="muted">–</span>';
+        }).join('') || '<span class="muted">' + (RJ.ui() === 'en' ? 'No passages.' : 'Keine Textstellen.') + '</span>';
         li.appendChild(box);
       });
   });

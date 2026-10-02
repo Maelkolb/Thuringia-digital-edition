@@ -38,7 +38,8 @@
    "word_division": {
     "word": "Köthenwald",
     "part": "wald"
-   }
+   },
+   "sec": "t2-2"
   },
   {
    "id": "b2",
@@ -201,7 +202,8 @@
      2105,
      "Location"
     ]
-   ]
+   ],
+   "sec": "t2-2"
   },
   {
    "id": "b3",
@@ -305,7 +307,8 @@
      "Location"
     ]
    ],
-   "continues": true
+   "continues": true,
+   "sec": "t2-2"
   }
  ],
  "footnotes": [],
@@ -315,5 +318,12 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-05T12:16:18.015153",
   "early_schema": false
- }
+ },
+ "section_path": [
+  "t2",
+  "t2-2"
+ ],
+ "sections": [
+  "t2-2"
+ ]
 }

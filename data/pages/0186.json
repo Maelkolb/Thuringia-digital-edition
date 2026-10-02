@@ -22,7 +22,8 @@
    "word_division": {
     "word": "Darmgicht",
     "part": "gicht"
-   }
+   },
+   "sec": "t1-2-6"
   },
   {
    "id": "b2",
@@ -345,7 +346,8 @@
      2085,
      "Organisation"
     ]
-   ]
+   ],
+   "sec": "t1-2-6"
   },
   {
    "id": "b3",
@@ -464,7 +466,8 @@
      "Plant"
     ]
    ],
-   "continues": true
+   "continues": true,
+   "sec": "t1-2-6"
   }
  ],
  "footnotes": [],
@@ -474,5 +477,13 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-05T11:58:57.799768",
   "early_schema": false
- }
+ },
+ "section_path": [
+  "t1",
+  "t1-2",
+  "t1-2-6"
+ ],
+ "sections": [
+  "t1-2-6"
+ ]
 }

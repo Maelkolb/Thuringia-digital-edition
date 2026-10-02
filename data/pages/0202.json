@@ -99,7 +99,8 @@
      "Artefact"
     ]
    ],
-   "continued": true
+   "continued": true,
+   "sec": "t1-2-7"
   },
   {
    "id": "b2",
@@ -182,7 +183,8 @@
      1349,
      "Climate"
     ]
-   ]
+   ],
+   "sec": "t1-2-7"
   },
   {
    "id": "b3",
@@ -220,7 +222,8 @@
      322,
      "Climate"
     ]
-   ]
+   ],
+   "sec": "t1-2-7"
   },
   {
    "id": "b4",
@@ -238,7 +241,8 @@
      357,
      "Climate"
     ]
-   ]
+   ],
+   "sec": "t1-2-7"
   }
  ],
  "footnotes": [],
@@ -248,5 +252,13 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-03T15:41:14.368140",
   "early_schema": false
- }
+ },
+ "section_path": [
+  "t1",
+  "t1-2",
+  "t1-2-7"
+ ],
+ "sections": [
+  "t1-2-7"
+ ]
 }

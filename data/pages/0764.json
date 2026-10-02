@@ -113,7 +113,8 @@
      1827,
      "Location"
     ]
-   ]
+   ],
+   "sec": "t2-3"
   },
   {
    "id": "b2",
@@ -191,7 +192,8 @@
      1496,
      "Resource"
     ]
-   ]
+   ],
+   "sec": "t2-3"
   }
  ],
  "footnotes": [],
@@ -201,5 +203,12 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-05T12:22:54.030360",
   "early_schema": false
- }
+ },
+ "section_path": [
+  "t2",
+  "t2-3"
+ ],
+ "sections": [
+  "t2-3"
+ ]
 }

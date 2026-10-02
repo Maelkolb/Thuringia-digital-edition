@@ -28,7 +28,8 @@
      23,
      "Natural Object"
     ]
-   ]
+   ],
+   "sec": "t1-1-4"
   },
   {
    "id": "b2",
@@ -41,7 +42,8 @@
      21,
      "Location"
     ]
-   ]
+   ],
+   "sec": "t1-1-4"
   },
   {
    "id": "b3",
@@ -54,7 +56,8 @@
      38,
      "Natural Object"
     ]
-   ]
+   ],
+   "sec": "t1-1-4"
   },
   {
    "id": "b4",
@@ -67,35 +70,41 @@
      16,
      "Location"
     ]
-   ]
+   ],
+   "sec": "t1-1-4"
   },
   {
    "id": "b5",
    "type": "heading",
    "src": 4,
    "text": "Auf dem linken Elsterufer:",
-   "spans": []
+   "spans": [],
+   "sec": "t1-1-4",
+   "level": 5
   },
   {
    "id": "b6",
    "type": "paragraph",
    "src": 5,
    "text": "1) von der Nordgrenze bis zum Gold- oder Eleonorenthal: Grolle, Sommerseite, Winterseite, Lauseberg, kleiner Berg, Weinberg, Bieberitz, Töpfersberg.",
-   "spans": []
+   "spans": [],
+   "sec": "t1-1-4"
   },
   {
    "id": "b7",
    "type": "paragraph",
    "src": 6,
    "text": "2) zwischen dem Goldthal und dem Schafgrund: Dürrenberg, Eichberg, Sommerseite, Thalberg, rother Berg.",
-   "spans": []
+   "spans": [],
+   "sec": "t1-1-4"
   },
   {
    "id": "b8",
    "type": "paragraph",
    "src": 7,
    "text": "3) zwischen dem Schafgrund und dem Erlbach: Cosse, Galgenberg, Bornberg, Steinberg, Bornberg, Schafberg, Sommerberg, Kirchberg, Röhrenberg, Eichberg, Queckberg, Felsberg, Mergelberg, Mühlberg, Zippenbusch, Thümmelsberge (Tummelsberge), Weichhübel (Wachhübel), Friedrichsberg, Winterseite.",
-   "spans": []
+   "spans": [],
+   "sec": "t1-1-4"
   },
   {
    "id": "b9",
@@ -113,7 +122,8 @@
      74,
      "Location"
     ]
-   ]
+   ],
+   "sec": "t1-1-4"
   },
   {
    "id": "b10",
@@ -131,7 +141,8 @@
      169,
      "Artefact"
     ]
-   ]
+   ],
+   "sec": "t1-1-4"
   },
   {
    "id": "b11",
@@ -154,14 +165,17 @@
      108,
      "Location"
     ]
-   ]
+   ],
+   "sec": "t1-1-4"
   },
   {
    "id": "b12",
    "type": "heading",
    "src": 11,
    "text": "Auf dem rechten Ufer der Elster:",
-   "spans": []
+   "spans": [],
+   "sec": "t1-1-4",
+   "level": 5
   },
   {
    "id": "b13",
@@ -294,7 +308,8 @@
      ""
     ]
    ],
-   "caption": null
+   "caption": null,
+   "sec": "t1-1-4"
   }
  ],
  "footnotes": [
@@ -378,5 +393,13 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-01-06T01:59:44.683943",
   "early_schema": false
- }
+ },
+ "section_path": [
+  "t1",
+  "t1-1",
+  "t1-1-4"
+ ],
+ "sections": [
+  "t1-1-4"
+ ]
 }

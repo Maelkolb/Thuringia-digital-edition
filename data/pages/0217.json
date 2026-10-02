@@ -28,7 +28,8 @@
      151,
      "Location"
     ]
-   ]
+   ],
+   "sec": "t1-2-8"
   },
   {
    "id": "b2",
@@ -151,7 +152,8 @@
      1477,
      "Plant"
     ]
-   ]
+   ],
+   "sec": "t1-2-8"
   },
   {
    "id": "b3",
@@ -350,7 +352,8 @@
      "Location"
     ]
    ],
-   "continues": true
+   "continues": true,
+   "sec": "t1-2-8"
   }
  ],
  "footnotes": [],
@@ -360,5 +363,13 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-03T15:47:25.317576",
   "early_schema": false
- }
+ },
+ "section_path": [
+  "t1",
+  "t1-2",
+  "t1-2-8"
+ ],
+ "sections": [
+  "t1-2-8"
+ ]
 }

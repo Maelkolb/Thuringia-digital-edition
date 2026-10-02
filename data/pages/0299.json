@@ -17,21 +17,27 @@
    "type": "heading",
    "src": 0,
    "text": "B. Der Strafrechtspflege.",
-   "spans": []
+   "spans": [],
+   "sec": "t1-4-4",
+   "level": 5
   },
   {
    "id": "b2",
    "type": "heading",
    "src": 1,
    "text": "1) Vor den Einzelrichtern.",
-   "spans": []
+   "spans": [],
+   "sec": "t1-4-4",
+   "level": 5
   },
   {
    "id": "b3",
    "type": "heading",
    "src": 2,
    "text": "a. Allgemein für 1864 bis 1867.",
-   "spans": []
+   "spans": [],
+   "sec": "t1-4-4",
+   "level": 5
   },
   {
    "id": "b4",
@@ -496,14 +502,17 @@
      "4"
     ]
    ],
-   "caption": null
+   "caption": null,
+   "sec": "t1-4-4"
   },
   {
    "id": "b5",
    "type": "heading",
    "src": 4,
    "text": "b. Speciell für 1867.",
-   "spans": []
+   "spans": [],
+   "sec": "t1-4-4",
+   "level": 5
   },
   {
    "id": "b6",
@@ -1723,7 +1732,8 @@
      "348"
     ]
    ],
-   "caption": null
+   "caption": null,
+   "sec": "t1-4-4"
   }
  ],
  "footnotes": [],
@@ -1748,5 +1758,13 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-04T13:41:30.213619",
   "early_schema": false
- }
+ },
+ "section_path": [
+  "t1",
+  "t1-4",
+  "t1-4-4"
+ ],
+ "sections": [
+  "t1-4-4"
+ ]
 }

@@ -23,7 +23,8 @@
      143,
      "Location"
     ]
-   ]
+   ],
+   "sec": "t1-4-8"
   },
   {
    "id": "b2",
@@ -36,7 +37,9 @@
      48,
      "Location"
     ]
-   ]
+   ],
+   "sec": "t1-4-8",
+   "level": 5
   },
   {
    "id": "b3",
@@ -64,7 +67,8 @@
      682,
      "Location"
     ]
-   ]
+   ],
+   "sec": "t1-4-8"
   },
   {
    "id": "b4",
@@ -82,14 +86,16 @@
      220,
      "Location"
     ]
-   ]
+   ],
+   "sec": "t1-4-8"
   },
   {
    "id": "b5",
    "type": "paragraph",
    "src": 4,
    "text": "3) Das straußische Stipendium (s. oben) ist statutarisch an Studirende zu vergeben, früher aber auch an Gymnasiasten gewährt worden.",
-   "spans": []
+   "spans": [],
+   "sec": "t1-4-8"
   },
   {
    "id": "b6",
@@ -107,7 +113,8 @@
      112,
      "Person"
     ]
-   ]
+   ],
+   "sec": "t1-4-8"
   },
   {
    "id": "b7",
@@ -140,7 +147,8 @@
      644,
      "Location"
     ]
-   ]
+   ],
+   "sec": "t1-4-8"
   },
   {
    "id": "b8",
@@ -163,7 +171,8 @@
      495,
      "Location"
     ]
-   ]
+   ],
+   "sec": "t1-4-8"
   },
   {
    "id": "b9",
@@ -176,7 +185,8 @@
      66,
      "Person"
     ]
-   ]
+   ],
+   "sec": "t1-4-8"
   }
  ],
  "footnotes": [
@@ -205,5 +215,13 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-04T13:48:04.861446",
   "early_schema": false
- }
+ },
+ "section_path": [
+  "t1",
+  "t1-4",
+  "t1-4-8"
+ ],
+ "sections": [
+  "t1-4-8"
+ ]
 }

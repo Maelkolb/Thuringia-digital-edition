@@ -48,7 +48,8 @@
      468,
      "Artefact"
     ]
-   ]
+   ],
+   "sec": "t2-3"
   },
   {
    "id": "b2",
@@ -61,7 +62,9 @@
      21,
      "Location"
     ]
-   ]
+   ],
+   "sec": "t2-3",
+   "level": 4
   },
   {
    "id": "b3",
@@ -104,7 +107,8 @@
      610,
      "Person"
     ]
-   ]
+   ],
+   "sec": "t2-3"
   },
   {
    "id": "b4",
@@ -117,7 +121,8 @@
      11,
      "Location"
     ]
-   ]
+   ],
+   "sec": "t2-3"
   },
   {
    "id": "b5",
@@ -150,7 +155,8 @@
      111,
      "Location"
     ]
-   ]
+   ],
+   "sec": "t2-3"
   },
   {
    "id": "b6",
@@ -183,7 +189,8 @@
      177,
      "Location"
     ]
-   ]
+   ],
+   "sec": "t2-3"
   },
   {
    "id": "b7",
@@ -271,7 +278,8 @@
      1203,
      "Location"
     ]
-   ]
+   ],
+   "sec": "t2-3"
   }
  ],
  "footnotes": [],
@@ -297,5 +305,12 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-04T21:24:13.270145",
   "early_schema": false
- }
+ },
+ "section_path": [
+  "t2",
+  "t2-3"
+ ],
+ "sections": [
+  "t2-3"
+ ]
 }

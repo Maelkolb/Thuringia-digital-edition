@@ -33,7 +33,9 @@
      106,
      "Person"
     ]
-   ]
+   ],
+   "sec": "t1-5-3",
+   "level": 5
   },
   {
    "id": "b2",
@@ -353,7 +355,8 @@
      "Emilie Eleonore, g. 1689, † 1730."
     ]
    ],
-   "caption": null
+   "caption": null,
+   "sec": "t1-5-3"
   },
   {
    "id": "b3",
@@ -574,7 +577,8 @@
      "Henriette Eleonore, g. 1706, † 1762. Gem. Erdmann-v. Prommnitz, Wittwer Anna Mar. v. S., = Weißenfels."
     ]
    ],
-   "caption": null
+   "caption": null,
+   "sec": "t1-5-3"
   },
   {
    "id": "b4",
@@ -625,7 +629,8 @@
      "Heinrich XXXV., geb. 1738, † 1805. 1790 Reichsfürſt. Sein Land fällt an Heinrich LIV. v. Lobenſtein-Selbitz."
     ]
    ],
-   "caption": null
+   "caption": null,
+   "sec": "t1-5-3"
   },
   {
    "id": "b5",
@@ -648,7 +653,8 @@
      119,
      "Location"
     ]
-   ]
+   ],
+   "sec": "t1-5-3"
   },
   {
    "id": "b6",
@@ -703,7 +709,8 @@
      "Heinrich XXV., geb. 1724, † 1801. Gem. Marie Eliſe v. Reuß-Ebers-dorf."
     ]
    ],
-   "caption": null
+   "caption": null,
+   "sec": "t1-5-3"
   },
   {
    "id": "b7",
@@ -779,7 +786,8 @@
      "Heinrich LIV., geb. 1767, † 1824; erbt 1805 Lobenſtein, wird 1806 Reichsfürſt. Gem.: 1) Marie v. Stolberg-Wernigerode; 2) Franziska Reuß-Köſtritz, † 1843. Sein Land fällt an Heinrich LXXII. zu Ebersdorf."
     ]
    ],
-   "caption": null
+   "caption": null,
+   "sec": "t1-5-3"
   },
   {
    "id": "b8",
@@ -858,7 +866,8 @@
      ""
     ]
    ],
-   "caption": null
+   "caption": null,
+   "sec": "t1-5-3"
   }
  ],
  "footnotes": [],
@@ -912,5 +921,13 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-04T14:31:55.912284",
   "early_schema": false
- }
+ },
+ "section_path": [
+  "t1",
+  "t1-5",
+  "t1-5-3"
+ ],
+ "sections": [
+  "t1-5-3"
+ ]
 }

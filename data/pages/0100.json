@@ -363,14 +363,16 @@
      "—"
     ]
    ],
-   "caption": null
+   "caption": null,
+   "sec": "t1-1-9"
   },
   {
    "id": "b2",
    "type": "paragraph",
    "src": 1,
    "text": "Die mit * bezeichneten sind besonders bevorzugte Arten.",
-   "spans": []
+   "spans": [],
+   "sec": "t1-1-9"
   },
   {
    "id": "b3",
@@ -398,14 +400,16 @@
      486,
      "Location"
     ]
-   ]
+   ],
+   "sec": "t1-1-9"
   },
   {
    "id": "b4",
    "type": "paragraph",
    "src": 3,
    "text": "Aus der Ordnung der Malermuscheln (Conchiferen) kennt man Unio pictorum, crassus, batavus und margaritifer, Anadonta cygnea und piscinalis, Pisidium fontinale etc. etc. und Cyclas cornea und calyculata.",
-   "spans": []
+   "spans": [],
+   "sec": "t1-1-9"
   },
   {
    "id": "b5",
@@ -439,7 +443,8 @@
      "Environment"
     ]
    ],
-   "continues": true
+   "continues": true,
+   "sec": "t1-1-9"
   }
  ],
  "footnotes": [],
@@ -449,5 +454,13 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-01-06T04:21:15.442922",
   "early_schema": false
- }
+ },
+ "section_path": [
+  "t1",
+  "t1-1",
+  "t1-1-9"
+ ],
+ "sections": [
+  "t1-1-9"
+ ]
 }

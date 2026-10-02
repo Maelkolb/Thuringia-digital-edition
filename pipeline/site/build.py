@@ -50,6 +50,30 @@ CLASSES = [
     ("concept", "sachen", "Sachen und Begriffe", "Things and concepts", "Bauwerke, Geräte, Rohstoffe, Lebensräume, Wetter und Ereignisse.", "Buildings, objects, resources, habitats, weather and events."),
 ]
 CLASS_FILE = {c[0]: c[1] for c in CLASSES}
+ANA_GROUPS = [
+    ("t1-1", "natur", "Die Natur des Landes", "The nature of the land"),
+    ("t1-2", "volk", "Das Volk", "The people"),
+    ("t1-3", "wirtschaft", "Erwerbsleben", "Economic life"),
+    ("t1-4", "staat", "Der Staat", "The state"),
+    ("t1-5", "geschichte", "Geschichte des Landes und des Fürstenhauses", "History of the land and the princely house"),
+    ("t2", "orte", "Ortskunde", "The places"),
+    ("", "buch", "Das Buch und seine Leser", "The book and its readers"),
+]
+BLOCK_KIND = {"table": ("Tabelle", "table"), "list": ("Liste", "list"), "paragraph": ("Text", "text"), "heading": ("Überschrift", "heading")}
+
+
+def ana_group(section: str) -> tuple:
+    for prefix, gid, de, en in ANA_GROUPS:
+        if prefix and (section == prefix or section.startswith(prefix + "-") or section.startswith(prefix + "b")):
+            return gid, de, en
+    return ANA_GROUPS[-1][1:]
+
+
+def teaser(text: str, limit: int = 150) -> str:
+    first = re.split(r"(?<=[.!?])\s", text.strip(), maxsplit=1)[0]
+    return first if len(first) <= limit else first[:limit].rsplit(" ", 1)[0] + " …"
+
+
 CAT_LABEL = {
     "geography": ("Geographie", "Geography"), "relief": ("Relief", "Relief"), "geology": ("Geologie", "Geology"),
     "hydrology": ("Gewässer", "Hydrology"), "climate": ("Klima", "Climate"), "phenology": ("Phänologie", "Phenology"),
@@ -87,6 +111,19 @@ RULES = {
 }
 
 
+def i18n(attr: str, de: str, en: str) -> str:
+    """An attribute that follows the interface language (see applyLang in edition.js)."""
+    de, en = html.escape(de, quote=True), html.escape(en, quote=True)
+    return f'{attr}="{de}" data-de-{attr}="{de}" data-en-{attr}="{en}"'
+
+
+def num(n, lang: str = "de") -> str:
+    if not isinstance(n, int):
+        return str(n)
+    s = f"{n:,}"
+    return s.replace(",", ".") if lang == "de" else s
+
+
 def t(de: str, en: str) -> str:
     return R.t(de, en)
 
@@ -108,6 +145,8 @@ class Builder:
         self.site = read_json(DATA / "site.json")
         self.env = Environment(loader=FileSystemLoader(str(SRC / "templates")), autoescape=False, trim_blocks=True, lstrip_blocks=True)
         self.env.globals["t"] = t
+        self.env.globals["i18n"] = i18n
+        self.env.globals["num"] = num
         self.pages = [read_json(f) for f in sorted(PAGES_DIR.glob("*.json"))]
         self.by_slug = {p["slug"]: p for p in self.pages}
         self.struct = read_json(DATA / "structure" / "structure.json")
@@ -262,7 +301,8 @@ class Builder:
                 continue
             prev_slug = order[i - 1] if i > 0 else None
             next_slug = order[i + 1] if i + 1 < len(order) else None
-            body = renderer.page(p, prev_slug, next_slug) if p["kind"] == "text" else ""
+            lines = self.page_lines(p)
+            body = renderer.page(p, prev_slug, next_slug, lines) if p["kind"] == "text" else ""
             used = renderer.used if p["kind"] == "text" else {}
             groups = []
             for cls, file, lde, len_, _, _ in CLASSES:
@@ -283,15 +323,12 @@ class Builder:
                 crumbs.append({"href": self.sec_href(sid, "../"), "title": short, "short": short if len(short) < 42 else short[:40] + "…"})
             meta = self.meta.get(p["slug"], {})
             label = p["label"] or f"Scan {p['seq']}"
-            citation = (f"Georg Brückner: Volks- und Landeskunde des Fürstenthums Reuß j. L. Gera: Köhler 1870, "
-                        f"{'S. ' + label if p['label'] else label}. Digitale Edition, hg. von {self.site['editor']}, "
-                        f"{self.site['date'][:4]}, <span data-url>{self.site['base_url']}seite/{p['slug']}.html</span>.")
             corrections = []
             for c in p["corrections"]:
                 de, en = RULES.get(c["rule"], (c["rule"], c["rule"]))
                 detail = ""
                 if c.get("before"):
-                    detail = f": „{esc(c['before'])}“ → „{esc(c['after'])}“"
+                    detail = t(f": „{esc(c['after'])}“ statt „{esc(c['before'])}“", f": “{esc(c['after'])}” instead of “{esc(c['before'])}”")
                 elif c.get("value"):
                     detail = f": „{esc(c['value'])}“"
                 corrections.append(t(de, en) + detail)
@@ -308,8 +345,28 @@ class Builder:
                                 "cat_en": CAT_LABEL.get(a["category"], ("", ""))[1]} for a in ana_by_page.get(p["slug"], [])],
                      gazetteer=[{"name": g["name"], "type": g.get("type_verbatim") or g.get("type"), "inhabitants": g.get("inhabitants"),
                                  "anchor": self.gaz_anchor.get(g["id"], "")} for g in gaz_by_page.get(p["slug"], [])],
-                     author_corrections=corr_by_page.get(p["slug"], []), citation=citation, corrections=corrections,
-                     mdz_url=MDZ_VIEWER.format(seq=p["seq"]), jsonld=jsonld)
+                     author_corrections=corr_by_page.get(p["slug"], []), corrections=corrections,
+                     mdz_url=MDZ_VIEWER.format(seq=p["seq"]), jsonld=jsonld,
+                     has_lines=bool(lines and lines["lines"]), lines_json=self.lines_json(p, lines))
+
+    @staticmethod
+    def page_lines(page: dict) -> dict | None:
+        f = DATA / "lines" / "aligned" / f"{page['seq']:04d}.json"
+        return read_json(f) if f.exists() and page["kind"] == "text" else None
+
+    @staticmethod
+    def lines_json(page: dict, lines: dict | None) -> str:
+        """Line zones for the facsimile overlay, scaled to the IIIF image size the viewer uses."""
+        if not lines or not lines["lines"]:
+            return ""
+        sx, sy = page["iiif"]["width"] / lines["width"], page["iiif"]["height"] / lines["height"]
+
+        def scale(b: list[int]) -> list[int]:
+            return [round(b[0] * sx), round(b[1] * sy), round(b[2] * sx), round(b[3] * sy)]
+
+        data = {"l": [[l["id"], l["n"] or 0, l["unit"].split(".")[0]] + scale(l["box"]) for l in lines["lines"]],
+                "r": {k: scale(v) for k, v in lines["regions"].items()}}
+        return json.dumps(data, separators=(",", ":"))
 
     def author_corrections(self) -> dict[str, list]:
         """Brückner's 'Zusätze und Berichtigungen' (pp. 830-834) linked to the pages they concern."""
@@ -338,10 +395,13 @@ class Builder:
             if not s.get("children"):
                 for p in self.pages:
                     if s["start_seq"] <= p["seq"] <= s["end_seq"] and p["slug"] in self.meta:
-                        pages.append({"slug": p["slug"], "summary_de": self.meta[p["slug"]].get("summary_de", ""),
+                        pages.append({"slug": p["slug"], "label": p["label"] or f"Scan {p['seq']}", "summary_de": self.meta[p["slug"]].get("summary_de", ""),
                                       "summary_en": self.meta[p["slug"]].get("summary_en", "")})
-            lbl = lambda x: x.replace("scan-", "Scan ")  # noqa: E731
-            pp = f"{lbl(s['start_label'])}–{lbl(s['end_label'])}" if s["start_label"] != s["end_label"] else lbl(s["start_label"])
+            printed = [p["label"] for p in self.pages if s["start_seq"] <= p["seq"] <= s["end_seq"] and p["label"]]
+            first = s["start_label"] if not s["start_label"].startswith("scan-") or not printed else printed[0]
+            last = s["end_label"] if not s["end_label"].startswith("scan-") or not printed else printed[-1]
+            pp = f"{first}–{last}" if first != last else first
+            pp = pp.replace("scan-", "Scan ")
             return {"id": sid, "num": s.get("num", ""), "title": s["title"], "title_en": s.get("title_en", ""),
                     "href": self.sec_href(sid, ""), "pp": pp,
                     "depth": s["depth"], "children": [node(c) for c in s.get("children", [])], "pages": pages}
@@ -405,26 +465,27 @@ class Builder:
         for g in e.get("gazetteer", []):
             facts = [esc(g.get("type_verbatim") or g.get("type") or "")]
             if g.get("inhabitants"):
-                facts.append(f"{g['inhabitants']} {t('Einw.', 'inh.')}")
+                facts.append(t(f"{num(g['inhabitants'])} Einwohner", f"{num(g['inhabitants'], 'en')} inhabitants"))
             if g.get("houses"):
-                facts.append(f"{g['houses']} {t('Häuser', 'houses')}")
+                facts.append(t(f"{num(g['houses'])} Häuser", f"{num(g['houses'], 'en')} houses"))
             if g.get("first_mention_year"):
-                facts.append(f"{t('urk.', 'first rec.')} {g['first_mention_year']}")
+                facts.append(t(f"urkundlich {g['first_mention_year']}", f"first recorded {g['first_mention_year']}"))
             pp = g["start"]["page"] + ("–" + g["end"]["page"] if g["end"]["page"] != g["start"]["page"] else "")
             summ = t(esc(g.get("summary_de", "")), esc(g.get("summary_en", "")))
             gaz += (f'<div class="desc"><b>{t("Ortsartikel", "Place article")}</b> <a href="../seite/{g["start"]["page"]}.html#{g["start"]["block"]}">'
-                    f'{t("S.", "p.")} {pp}</a> · {" · ".join(x for x in facts if x)}<br>{summ}</div>')
+                    f'{t("S.", "p.")} {pp}</a>: {", ".join(x for x in facts if x)}<br>{summ}</div>')
         pages = e.get("pages", [])
         shown = pages[:60]
-        refs = " ".join(f'<a href="../seite/{p}.html?hl={html.escape(e["label"])}">{p}</a>' for p in shown)
-        more = f' <span class="muted">… +{len(pages) - 60}</span>' if len(pages) > 60 else ""
+        refs = ", ".join(f'<a href="../seite/{p}.html?hl={html.escape(e["label"])}">{p}</a>' for p in shown)
+        more = t(f' und {len(pages) - 60} weitere', f' and {len(pages) - 60} more') if len(pages) > 60 else ""
         kind = f'<span class="kind">{esc(e["kind"])}</span>' if e.get("kind") else ""
-        kwic_btn = f'<button class="more" type="button" data-kwic="{anchor}">{t("Belegstellen", "Citations")}</button>' if e["n"] else ""
+        kwic_btn = f'<button class="more" type="button" data-kwic="{anchor}" aria-expanded="false">{t("Textstellen zeigen", "Show passages")}</button>' if e["n"] else ""
+        count = t(f'{num(e["n"])} {"Stelle" if e["n"] == 1 else "Stellen"}', f'{num(e["n"], "en")} {"passage" if e["n"] == 1 else "passages"}')
         return (f'<li class="reg-item" id="{anchor}" data-k="{esc(fold(e["label"]))}" data-kind="{esc(e.get("kind") or "")}">'
                 f'<div><span class="name">{esc(e["label"])}</span>{kind}</div>'
-                f'<div class="auth">{" · ".join(auth)}<span class="n">{e["n"]}×</span></div>'
+                f'<div class="auth">{"".join(auth)}<span class="n">{count}</span></div>'
                 + "".join(f'<div class="desc">{d}</div>' for d in desc) + gaz +
-                f'<div class="refs"><span class="muted">{t("S.", "pp.")}</span> {refs}{more} {kwic_btn}</div></li>')
+                f'<div class="refs">{t("S.", "pp.")} {refs}{more}{kwic_btn}</div></li>')
 
     def subject_list(self) -> list[str]:
         subj = collections.Counter()
@@ -464,27 +525,34 @@ class Builder:
         compiled = self.compiled_specs()
         ok = [a for a in self.analyses if a["id"] in compiled]
         self.analyses_ok = ok
-        cats = collections.Counter(a["category"] for a in ok)
-        cards = []
+        cards, groups = [], {}
         for a in sorted(ok, key=lambda a: (self.sections.get(a["section"], {}).get("start_seq", 0), a["id"])):
-            src = a["sources"][0]
-            cards.append({"id": a["id"], "title": a["title"], "summary": a["summary"], "cat": a["category"],
-                          "cat_de": CAT_LABEL[a["category"]][0], "cat_en": CAT_LABEL[a["category"]][1], "page": src["page"]})
+            card = {"id": a["id"], "title": a["title"], "teaser": {k: teaser(a["summary"][k]) for k in ("de", "en")}}
+            cards.append(card)
+            gid, gde, gen = ana_group(a["section"])
+            groups.setdefault(gid, {"id": gid, "de": gde, "en": gen, "entries": []})["entries"].append(card)
+        order = [g[1] for g in ANA_GROUPS]
         self.tpl("analyses_index.html", "auswertungen/index.html", section="analyses", cards=cards,
-                 cats=[(c, CAT_LABEL[c][0], CAT_LABEL[c][1], n) for c, n in sorted(cats.items(), key=lambda x: -x[1])])
+                 groups=sorted(groups.values(), key=lambda g: order.index(g["id"])))
+        titles = {a["id"]: a["title"] for a in ok}
+        page_blocks = {p["label"]: {b["id"]: b["type"] for b in p["blocks"]} for p in self.pages if p["label"]}
         for a in ok:
             datasets = []
             for ds in a["datasets"]:
                 datasets.append({"name": ds["name"], "title": ds["title"], "columns": ds["columns"], "rows": ds["rows"][:500],
-                                 "n": len(ds["rows"])})
+                                 "n": len(ds["rows"]), "has_derived": any(c.get("derived") for c in ds["columns"])})
                 csv_lines = [",".join(c["name"] for c in ds["columns"])]
                 for row in ds["rows"]:
                     csv_lines.append(",".join("" if v is None else ('"' + str(v).replace('"', '""') + '"' if isinstance(v, str) else str(v)) for v in row))
                 self.write(f"auswertungen/daten/{a['id']}__{ds['name']}.csv", "﻿" + "\n".join(csv_lines) + "\n")
             sec = self.sections.get(a["section"])
-            self.tpl("analysis.html", f"auswertungen/{a['id']}.html", section="analyses", a=a, datasets=datasets,
-                     cat=CAT_LABEL[a["category"]], sec=sec, sec_href=self.sec_href(a["section"], "../") if sec else None,
-                     related=[r for r in (a.get("related") or []) if r in compiled])
+            sources = []
+            for src in a["sources"]:
+                kind = page_blocks.get(src["page"], {}).get(src["block"])
+                sources.append({"page": src["page"], "block": src["block"], "what": BLOCK_KIND.get(kind) if kind != "paragraph" else None})
+            self.tpl("analysis.html", f"auswertungen/{a['id']}.html", section="analyses", a=a, datasets=datasets, sources=sources,
+                     group=ana_group(a["section"])[1:], sec=sec, sec_href=self.sec_href(a["section"], "../") if sec else None,
+                     related=[{"id": r, "title": titles[r]} for r in (a.get("related") or []) if r in titles])
             self.write(f"auswertungen/json/{a['id']}.json", json.dumps(a, ensure_ascii=False, indent=1))
 
     # ------------------------------------------------------------------ map
@@ -501,7 +569,8 @@ class Builder:
                                 "de": g.get("summary_de", ""), "en": g.get("summary_en", ""), "lt": g.get("landestheil")} if g else None,
                           "href": f"register/{CLASS_FILE[e['class']]}.html#{e['id'].split(':', 1)[1]}", "p": e["pages"][:12]})
         self.write("karte/orte.json", json.dumps(feats, ensure_ascii=False, separators=(",", ":")))
-        self.tpl("map.html", "karte.html", section="map", n=len(feats), n_gaz=sum(1 for f in feats if f["g"]))
+        self.map_counts = (len(feats), sum(1 for f in feats if f["g"]))
+        self.tpl("map.html", "karte.html", section="map", n=len(feats), n_gaz=self.map_counts[1])
 
     # ------------------------------------------------------------------ search
     def build_search(self) -> None:
@@ -548,14 +617,16 @@ class Builder:
     def build_static_pages(self) -> None:
         n_ents = sum(1 for e in self.entities.values() if e["n"] > 0)
         stats = {"pages": sum(1 for p in self.pages if p["kind"] == "text"), "mentions": sum(e["n"] for e in self.entities.values()),
-                 "entities": n_ents, "analyses": len(self.analyses_ok), "places": len(self.gazetteer), "tables": sum(1 for p in self.pages for b in p["blocks"] if b["type"] == "table")}
+                 "entities": n_ents, "analyses": len(self.analyses_ok), "places": len(self.gazetteer), "map_places": self.map_counts[0], "map_gaz": self.map_counts[1], "tables": sum(1 for p in self.pages for b in p["blocks"] if b["type"] == "table")}
         self.stats = stats
         featured = [a for a in self.analyses_ok][:6]
         self.tpl("index.html", "index.html", section="home", stats=stats, featured=featured,
                  cats=CAT_LABEL)
         rep = read_json(DATA / "reports" / "normalize_report.json")
+        ls = DATA / "lines" / "summary.json"
+        lines_summary = read_json(ls) if ls.exists() else {"pages": 0, "detected": 0, "aligned": 0}
         for name in ("einleitung", "richtlinien", "zitieren", "daten", "impressum"):
-            self.tpl(f"doc_{name}.html", f"edition/{name}.html", section="about", stats=stats, rep=rep, rules=RULES)
+            self.tpl(f"doc_{name}.html", f"edition/{name}.html", section="about", stats=stats, rep=rep, rules=RULES, lines=lines_summary)
         self.tpl("404.html", "404.html")
         urls = ["index.html", "inhalt.html", "karte.html", "suche.html", "auswertungen/index.html", "register/index.html"]
         urls += [f"seite/{p['slug']}.html" for p in self.pages]

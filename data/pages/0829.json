@@ -104,7 +104,8 @@
      "Person"
     ]
    ],
-   "continued": true
+   "continued": true,
+   "sec": "t2-3"
   },
   {
    "id": "b2",
@@ -182,7 +183,8 @@
      690,
      "Location"
     ]
-   ]
+   ],
+   "sec": "t2-3"
   },
   {
    "id": "b3",
@@ -350,7 +352,8 @@
      1856,
      "Location"
     ]
-   ]
+   ],
+   "sec": "t2-3"
   }
  ],
  "footnotes": [],
@@ -360,5 +363,12 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-05T12:28:33.306889",
   "early_schema": false
- }
+ },
+ "section_path": [
+  "t2",
+  "t2-3"
+ ],
+ "sections": [
+  "t2-3"
+ ]
 }

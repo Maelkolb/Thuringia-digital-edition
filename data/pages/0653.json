@@ -43,7 +43,8 @@
      169,
      "Location"
     ]
-   ]
+   ],
+   "sec": "t2-2"
   },
   {
    "id": "b2",
@@ -126,7 +127,8 @@
      1576,
      "Location"
     ]
-   ]
+   ],
+   "sec": "t2-2"
   },
   {
    "id": "b3",
@@ -449,7 +451,8 @@
      "177 \""
     ]
    ],
-   "caption": "Summe 3026 Morgen 172 □-Ruthen*)."
+   "caption": "Summe 3026 Morgen 172 □-Ruthen*).",
+   "sec": "t2-2"
   },
   {
    "id": "b4",
@@ -512,7 +515,8 @@
      715,
      "Location"
     ]
-   ]
+   ],
+   "sec": "t2-2"
   }
  ],
  "footnotes": [
@@ -535,5 +539,12 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-04T20:39:31.857346",
   "early_schema": false
- }
+ },
+ "section_path": [
+  "t2",
+  "t2-2"
+ ],
+ "sections": [
+  "t2-2"
+ ]
 }

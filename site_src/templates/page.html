@@ -1,10 +1,12 @@
 {% extends "base.html" %}
-{% block title %}{% if page.label %}S. {{ page.label }}{% else %}Scan {{ page.seq }}{% endif %} – {{ site.short_title }}{% endblock %}
-{% block description %}{{ meta.summary_de or ('Brückner, Volks- und Landeskunde des Fürstenthums Reuß j. L. (1870), Seite ' ~ (page.label or page.seq)) }}{% endblock %}
+{% set plabel = ('S. ' ~ page.label) if page.label else ('Scan ' ~ page.seq) %}
+{% set plabel_en = ('p. ' ~ page.label) if page.label else ('scan ' ~ page.seq) %}
+{% block title %}{{ plabel }} – {{ site.short_title }}{% endblock %}
+{% block description %}{{ meta.summary_de or ('Brückner, Volks- und Landeskunde des Fürstenthums Reuß j. L. (1870), ' ~ plabel) }}{% endblock %}
 {% block bodyclass %}page-view{% endblock %}
 {% block head %}
-<link rel="prev" href="{{ prev_slug }}.html">
-<link rel="next" href="{{ next_slug }}.html">
+{% if prev_slug %}<link rel="prev" href="{{ prev_slug }}.html">{% endif %}
+{% if next_slug %}<link rel="next" href="{{ next_slug }}.html">{% endif %}
 <script type="application/ld+json">{{ jsonld }}</script>
 {% endblock %}
 {% block main %}
@@ -12,107 +14,108 @@
   <div class="inner">
     <nav class="crumbs" aria-label="Breadcrumb">
       <a href="{{ root }}inhalt.html">{{ t('Inhalt', 'Contents') }}</a>
-      {% for c in crumbs %}<span class="sep">›</span><a href="{{ c.href }}" title="{{ c.title }}">{{ c.short }}</a>{% endfor %}
+      {% for c in crumbs %}<span class="sep" aria-hidden="true">›</span><a href="{{ c.href }}" title="{{ c.title }}">{{ c.short }}</a>{% endfor %}
     </nav>
-    <div class="toggles">
-      <button class="toggle" type="button" aria-pressed="true" data-toggle-ents title="Annotationen ein/aus - annotations on/off">{{ t('Annotationen', 'Annotations') }}</button>
-      <button class="toggle" type="button" aria-pressed="true" data-toggle-facs title="Faksimile ein/aus - facsimile on/off">{{ t('Faksimile', 'Facsimile') }}</button>
+    <div class="page-tools">
+      <button class="toggle" type="button" aria-pressed="true" data-toggle-ents {{ i18n('title', 'Register-Annotationen im Text hervorheben', 'Highlight index annotations in the text') }}>{{ t('Annotationen', 'Annotations') }}</button>
+      {% if has_lines %}<button class="toggle" type="button" aria-pressed="false" data-toggle-lines {{ i18n('title', 'Zeilenfall und Zeilenzählung des Drucks zeigen', 'Show the line breaks and line numbers of the print') }}>{{ t('Zeilen', 'Lines') }}</button>{% endif %}
+      <button class="toggle" type="button" aria-pressed="true" data-toggle-facs {{ i18n('title', 'Faksimile ein- oder ausblenden', 'Show or hide the facsimile') }}>{{ t('Faksimile', 'Facsimile') }}</button>
+      <button class="cite-toggle" type="button" aria-expanded="false" aria-controls="cite" data-cite-toggle>{{ t('Zitieren', 'Cite') }}</button>
+      <div class="pager">
+        {% if prev_slug %}<a href="{{ prev_slug }}.html" rel="prev" {{ i18n('aria-label', 'Vorige Seite', 'Previous page') }} accesskey="," data-prev>‹</a>{% else %}<span class="disabled" aria-hidden="true">‹</span>{% endif %}
+        <form data-goto>
+          <label for="goto" class="visually-hidden">{{ t('Gehe zu Seite', 'Go to page') }}</label>
+          <span>{{ t('S.', 'p.') }}</span><input id="goto" name="p" value="{{ page.label or ('scan-' ~ page.seq) }}" inputmode="text" autocomplete="off">
+        </form>
+        {% if next_slug %}<a href="{{ next_slug }}.html" rel="next" {{ i18n('aria-label', 'Nächste Seite', 'Next page') }} accesskey="." data-next>›</a>{% else %}<span class="disabled" aria-hidden="true">›</span>{% endif %}
+      </div>
     </div>
-    <div class="pager">
-      {% if prev_slug %}<a href="{{ prev_slug }}.html" rel="prev" title="Vorige Seite / previous page (←)" accesskey="," data-prev>‹</a>{% else %}<span class="disabled">‹</span>{% endif %}
-      <form data-goto>
-        <label for="goto" class="visually-hidden">{{ t('Gehe zu Seite', 'Go to page') }}</label>
-        <span>{{ t('S.', 'p.') }}</span><input id="goto" name="p" value="{{ page.label or ('scan-' ~ page.seq) }}" inputmode="text" autocomplete="off">
-        <span>/ 840</span>
-      </form>
-      {% if next_slug %}<a href="{{ next_slug }}.html" rel="next" title="Nächste Seite / next page (→)" accesskey="." data-next>›</a>{% else %}<span class="disabled">›</span>{% endif %}
+  </div>
+  <div class="cite-panel" id="cite" hidden>
+    <div class="inner">
+      <p class="label">{{ t('Diese Seite zitieren', 'Cite this page') }}</p>
+      <p class="cite-text" data-cite-text><span data-l="de">Georg Brückner: Volks- und Landeskunde des Fürstenthums Reuß j. L. Gera: Köhler 1870, {{ plabel }}. Digitale Edition, hg. von {{ site.editor }} {{ site.date[:4] }}, <span data-url data-path="seite/{{ page.slug }}.html">{{ site.base_url }}seite/{{ page.slug }}.html</span>.</span><span data-l="en">Georg Brückner: Volks- und Landeskunde des Fürstenthums Reuß j. L. Gera: Köhler 1870, {{ plabel_en }}. Digital edition, ed. by {{ site.editor_en }} {{ site.date[:4] }}, <span data-url data-path="seite/{{ page.slug }}.html">{{ site.base_url }}seite/{{ page.slug }}.html</span>.</span></p>
+      <div class="row">
+        <button class="copy-btn" type="button" data-copy="[data-cite-text]" data-done-de="Kopiert" data-done-en="Copied">{{ t('Zitat kopieren', 'Copy citation') }}</button>
+        <span class="muted">{{ t('Diese Seite als', 'This page as') }}</span>
+        <a href="{{ root }}daten/seiten/{{ page.slug }}.xml" download>TEI-XML</a>
+        <a href="{{ root }}daten/seiten/{{ page.slug }}.json" download>JSON</a>
+        <a href="{{ root }}daten/seiten/{{ page.slug }}.txt" download>{{ t('Text', 'plain text') }}</a>
+        <a href="{{ mdz_url }}" rel="noopener">{{ t('Im Viewer der BSB', 'In the BSB viewer') }}</a>
+      </div>
     </div>
   </div>
 </div>
 <div class="reader">
   <article class="text-pane" aria-labelledby="pno">
     <header class="page-head">
-      <h1 class="page-no" id="pno">{% if page.label and page.label|first in '0123456789' %}{{ t('Seite', 'Page') }} {{ page.label }}{% elif page.label %}{{ t('Seite', 'Page') }} {{ page.label }}{% else %}Scan {{ page.seq }}{% endif %}<small>Scan {{ page.seq }}</small></h1>
+      <h1 class="page-no" id="pno">{% if page.label %}{{ t('Seite', 'Page') }} {{ page.label }}{% else %}Scan {{ page.seq }}{% endif %}</h1>
       {% if page.running_header %}<div class="running-head" lang="de">{{ page.running_header|e }}</div>{% endif %}
     </header>
     {% if page.kind == 'text' %}
       {{ body }}
     {% else %}
-      <p class="blank-page">{% if page.seq <= 4 or page.seq >= 853 %}{{ t('Einband bzw. Vorsatzblatt – ohne Text.', 'Binding or endpaper – no text.') }}{% else %}{{ t('Leerseite.', 'Blank page.') }}{% endif %}</p>
+      <p class="blank-page">{% if page.seq <= 4 or page.seq >= 853 %}{{ t('Einband oder Vorsatzblatt, ohne Text.', 'Binding or endpaper, no text.') }}{% else %}{{ t('Leerseite.', 'Blank page.') }}{% endif %}</p>
     {% endif %}
 
     <div class="apparatus">
       {% if meta.summary_de %}
-      <section class="app-block card">
+      <section>
         <h2>{{ t('Inhalt dieser Seite', 'On this page') }}</h2>
         <p><span data-l="de">{{ meta.summary_de|e }}</span><span data-l="en">{{ meta.summary_en|e }}</span></p>
-        {% if subjects %}<p>{% for s in subjects %}<a class="pill" href="{{ root }}register/sachregister.html#{{ s.id }}">{{ s.label|e }}</a> {% endfor %}</p>{% endif %}
+        {% if subjects %}<p class="subjects">{{ t('Sachregister:', 'Subject index:') }} {% for s in subjects %}<a href="{{ root }}register/sachregister.html#{{ s.id }}">{{ s.label|e }}</a>{% if not loop.last %}, {% endif %}{% endfor %}</p>{% endif %}
       </section>
       {% endif %}
       {% if ent_groups %}
-      <section class="app-block card">
-        <h2>{{ t('Namen und Sachen auf dieser Seite', 'Names and things on this page') }}</h2>
-        <div class="ent-groups">
+      <section>
+        <h2>{{ t('Namen und Sachen', 'Names and things') }}</h2>
+        <dl class="names">
           {% for g in ent_groups %}
-          <div class="ent-group k-{{ g.cls }}">
-            <h3><span class="swatch"></span>{{ t(g.label_de, g.label_en) }}</h3>
-            <div class="chips">{% for e in g.entries %}<a class="chip" href="{{ e.href }}" data-e="{{ e.id }}" style="--ec: var(--e-{{ g.cls }})">{{ e.label|e }}{% if e.n > 1 %}<span class="n">{{ e.n }}×</span>{% endif %}</a>{% endfor %}</div>
-          </div>
+          <dt class="k-{{ g.cls }}"><span class="swatch" aria-hidden="true"></span>{{ t(g.label_de, g.label_en) }}</dt>
+          <dd class="k-{{ g.cls }}">{% for e in g.entries %}<a href="{{ e.href }}" data-e="{{ e.id }}">{{ e.label|e }}</a>{% if e.n > 1 %} <span class="n">({{ e.n }})</span>{% endif %}{% if not loop.last %}, {% endif %}{% endfor %}</dd>
           {% endfor %}
-        </div>
+        </dl>
       </section>
       {% endif %}
       {% if gazetteer %}
-      <section class="app-block card">
-        <h2>{{ t('Ortsartikel auf dieser Seite', 'Place articles on this page') }}</h2>
-        {% for g in gazetteer %}<p><a href="{{ root }}register/orte.html#{{ g.anchor }}"><b>{{ g.name|e }}</b></a> <span class="muted">{{ g.type|e }}{% if g.inhabitants %} · {{ g.inhabitants }} {{ t('Einw.', 'inhabitants') }}{% endif %}</span></p>{% endfor %}
+      <section>
+        <h2>{{ t('Ortsartikel', 'Place articles') }}</h2>
+        {% for g in gazetteer %}<p><a href="{{ root }}register/orte.html#{{ g.anchor }}">{{ g.name|e }}</a><span class="muted">, {{ g.type|e }}{% if g.inhabitants %}, {{ num(g.inhabitants, 'de') }} {{ t('Einwohner', 'inhabitants') }}{% endif %}</span></p>{% endfor %}
       </section>
       {% endif %}
       {% if analyses %}
-      <section class="app-block card">
-        <h2>{{ t('Auswertungen zu dieser Seite', 'Analyses of this page') }}</h2>
-        <div style="display:grid;gap:8px">
-        {% for a in analyses %}<a class="ana-card" href="{{ root }}auswertungen/{{ a.id }}.html"><img src="{{ root }}auswertungen/thumbs/{{ a.id }}.png" alt="" loading="lazy"><div><b>{{ t(a.title.de|e, a.title.en|e) }}</b><span>{{ t(a.cat_de, a.cat_en) }}</span></div></a>{% endfor %}
-        </div>
+      <section>
+        <h2>{{ t('Auswertungen', 'Analyses') }}</h2>
+        <ul class="ana-links">{% for a in analyses %}<li><a href="{{ root }}auswertungen/{{ a.id }}.html">{{ t(a.title.de|e, a.title.en|e) }}</a></li>{% endfor %}</ul>
       </section>
       {% endif %}
       {% if author_corrections %}
-      <section class="app-block card">
+      <section>
         <h2>{{ t('Berichtigungen des Autors', 'Author’s corrections') }}</h2>
         {% for c in author_corrections %}<p lang="de">{{ c.text|e }} <a class="muted" href="{{ c.page }}.html#{{ c.block }}">({{ t('S.', 'p.') }} {{ c.page }})</a></p>{% endfor %}
       </section>
       {% endif %}
-      <section class="app-block card">
-        <h2>{{ t('Zitieren', 'Cite') }}</h2>
-        <div class="cite-box" data-cite>{{ citation }}</div>
-        <div class="cite-actions">
-          <button class="small-btn" type="button" data-copy="[data-cite]">{{ t('Zitat kopieren', 'Copy citation') }}</button>
-          <a class="small-btn" href="{{ root }}daten/seiten/{{ page.slug }}.xml" download>TEI-XML</a>
-          <a class="small-btn" href="{{ root }}daten/seiten/{{ page.slug }}.json" download>JSON</a>
-          <a class="small-btn" href="{{ root }}daten/seiten/{{ page.slug }}.txt" download>{{ t('Text', 'Text') }}</a>
-          <a class="small-btn" href="{{ mdz_url }}" rel="noopener">{{ t('BSB-Viewer', 'BSB viewer') }}</a>
-        </div>
-      </section>
       {% if corrections %}
-      <details class="app-block card">
-        <summary>{{ t('Editorische Eingriffe auf dieser Seite', 'Editorial interventions on this page') }} ({{ corrections|length }})</summary>
+      <details>
+        <summary>{{ t('Editorische Eingriffe', 'Editorial interventions') }} ({{ corrections|length }})</summary>
         <ul class="corr-list">{% for c in corrections %}<li>{{ c }}</li>{% endfor %}</ul>
-        <p class="muted" style="font-size:.85rem">{{ t('Automatisch protokollierte Layout-Korrekturen; Details in den', 'Automatically logged layout corrections; see the') }} <a href="{{ root }}edition/richtlinien.html#korrekturen">{{ t('Editionsrichtlinien', 'editorial principles') }}</a>.</p>
+        <p class="muted" style="font-size:.88rem;margin-top:8px">{{ t('Automatisch protokolliert; die Regeln erläutern die', 'Logged automatically; the rules are explained in the') }} <a href="{{ root }}edition/richtlinien.html#korrekturen">{{ t('Editionsrichtlinien', 'editorial principles') }}</a>.</p>
       </details>
       {% endif %}
     </div>
   </article>
-  <aside class="facs-pane" aria-label="Faksimile / facsimile">
+  <aside class="facs-pane" {{ i18n('aria-label', 'Faksimile', 'Facsimile') }}>
     <div class="facs-viewer" id="facs" data-iiif="{{ page.iiif.service }}/info.json" data-w="{{ page.iiif.width }}" data-h="{{ page.iiif.height }}">
-      <img class="static" src="{{ page.iiif.service }}/full/900,/0/default.jpg" alt="Faksimile Scan {{ page.seq }}" loading="lazy">
+      <img class="static" src="{{ page.iiif.service }}/full/900,/0/default.jpg" {{ i18n('alt', 'Faksimile, Scan ' ~ page.seq, 'Facsimile, scan ' ~ page.seq) }} loading="lazy">
     </div>
     <div class="facs-meta">
-      <span>BSB · bsb11005578 · Scan {{ page.seq }}</span>
+      <span>{{ t('Bayerische Staatsbibliothek München, Germ.sp. 78 ld, Scan ' ~ page.seq, 'Bayerische Staatsbibliothek Munich, Germ.sp. 78 ld, scan ' ~ page.seq) }}</span>
       <a href="{{ page.iiif.service }}/full/full/0/default.jpg" rel="noopener">{{ t('Bild in voller Auflösung', 'Full-size image') }}</a>
     </div>
   </aside>
 </div>
 <script type="application/json" id="page-entities">{{ ent_json }}</script>
+{% if has_lines %}<script type="application/json" id="page-lines">{{ lines_json }}</script>{% endif %}
 {% endblock %}
 {% block footer %}{% endblock %}
 {% block scripts %}<script src="{{ root }}assets/vendor/openseadragon/openseadragon.min.js" defer></script>{% endblock %}

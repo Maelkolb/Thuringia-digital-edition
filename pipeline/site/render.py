@@ -38,6 +38,12 @@ def surface_key(form: str, etype: str) -> str:
     return f
 
 
+def line_mark(b: dict) -> str:
+    """Start of a printed line; hidden unless the reader switches on the line view."""
+    hy = '<span class="hy" aria-hidden="true">-</span>' if b.get("hy") else ""
+    return f'{hy}<span class="lb" data-n="{b["n"]}" data-line="{b["id"]}"></span>'
+
+
 class Renderer:
     def __init__(self, root: str, key_map: dict, entities: dict, fn_markers: list[str] | None = None):
         self.root = root
@@ -46,8 +52,26 @@ class Renderer:
         self.used: dict[str, int] = {}
 
     # -- inline text with entity spans and footnote refs -------------------
-    def inline(self, text: str, spans: list, fn_ids: dict[str, str] | None = None, runin: int = 0) -> str:
+    def inline(self, text: str, spans: list, fn_ids: dict[str, str] | None = None, runin: int = 0,
+               breaks: list[dict] | None = None) -> str:
         spans = sorted((s for s in spans if 0 <= s[0] < s[1] <= len(text)), key=lambda s: s[0])
+        breaks = sorted(breaks or [], key=lambda b: b["start"])
+        at_start = [b for b in breaks if b["start"] == 0]
+        inner = [b for b in breaks if 0 < b["start"] < len(text)]
+
+        def piece(a: int, b: int, entity: bool, before_entity: bool = False) -> str:
+            if entity:
+                cuts = [x for x in inner if a < x["start"] < b]
+            else:
+                cuts = [x for x in inner if a <= x["start"] < b or (before_entity and x["start"] == b)]
+            parts, pos = [], a
+            for x in cuts:
+                parts.append(self._plain(text[pos:x["start"]], fn_ids))
+                parts.append(line_mark(x))
+                pos = x["start"]
+            parts.append(self._plain(text[pos:b], fn_ids))
+            return "".join(parts)
+
         out, pos = [], 0
         events = []
         for s, e, typ in spans:
@@ -55,7 +79,7 @@ class Renderer:
                 continue  # overlapping annotation: keep the first
             events.append((s, e, typ))
         for s, e, typ in events:
-            out.append(self._plain(text[pos:s], fn_ids))
+            out.append(piece(pos, s, entity=False, before_entity=True))
             form = text[s:e]
             eid = self.key_map.get(f"{TYPE_GROUP.get(typ, 'concepts')}\t{surface_key(form, typ)}")
             if eid and eid in self.entities:
@@ -63,18 +87,18 @@ class Renderer:
                 cls = ent["class"]
                 self.used[eid] = self.used.get(eid, 0) + 1
                 href = f"{self.root}register/{CLASS_REGISTER[cls]}.html#{eid.split(':', 1)[1]}"
-                out.append(f'<a class="ent k-{cls}" href="{href}" data-e="{esc(eid)}">{self._plain(form, fn_ids)}</a>')
+                out.append(f'<a class="ent k-{cls}" href="{href}" data-e="{esc(eid)}">{piece(s, e, entity=True)}</a>')
             else:
-                out.append(self._plain(form, fn_ids))
+                out.append(piece(s, e, entity=True))
             pos = e
-        out.append(self._plain(text[pos:], fn_ids))
+        out.append(piece(pos, len(text), entity=False))
         res = "".join(out)
         if runin:
             # bold the run-in head ("c) Gemeindeverfassung.") - done on plain prefix only
             head = esc(text[:runin])
             if res.startswith(head):
                 res = f'<span class="runin">{head}</span>' + res[len(head):]
-        return res
+        return "".join(line_mark(b) for b in at_start) + res
 
     @staticmethod
     def _plain(s: str, fn_ids: dict[str, str] | None) -> str:
@@ -128,8 +152,12 @@ class Renderer:
             attrs += ' class="num"'
         return f"<{tag}{attrs}>{self.inline(c['text'], c.get('spans', []), fn_ids)}</{tag}>"
 
-    def page(self, page: dict, prev_slug: str | None, next_slug: str | None) -> str:
+    def page(self, page: dict, prev_slug: str | None, next_slug: str | None, lines: dict | None = None) -> str:
         self.used = {}
+        breaks: dict[str, list[dict]] = {}
+        for line in (lines or {}).get("lines", []):
+            if line.get("n"):
+                breaks.setdefault(line["unit"], []).append(line)
         fn_ids = {fn["marker"]: fn["id"] for fn in page["footnotes"] if fn.get("marker") and "*" in fn["marker"]}
         out = []
         # document outline: the page title is <h1>; transcription headings start at <h2>
@@ -140,25 +168,26 @@ class Renderer:
             if b["type"] == "heading":
                 lvl = b.get("level", 5)
                 tag = f"h{min(6, 2 + lvl - top)}"
-                out.append(f'<{tag} class="h h{lvl}" id="{b["id"]}">{self.inline(b["text"], b["spans"], fn_ids)}</{tag}>')
+                out.append(f'<{tag} class="h h{lvl}" id="{b["id"]}">{self.inline(b["text"], b["spans"], fn_ids, breaks=breaks.get(b["id"]))}</{tag}>')
             elif b["type"] == "paragraph":
                 cls = []
                 pre = post = ""
                 if b.get("continued"):
                     cls.append("cont")
                     if prev_slug:
-                        pre = f'<a class="cont-mark" href="{prev_slug}.html#end" title="Fortsetzung von S. {prev_slug} / continued from p. {prev_slug}">↶ {prev_slug}</a>'
+                        pre = f'<a class="cont-mark" href="{prev_slug}.html#end">{t(f"Fortsetzung von S. {prev_slug}", f"Continued from p. {prev_slug}")}</a>'
                 if b.get("continues") and next_slug:
-                    post = f'<a class="cont-mark" href="{next_slug}.html" title="Fortsetzung auf S. {next_slug} / continues on p. {next_slug}">{next_slug} ↷</a>'
+                    post = f'<a class="cont-mark after" href="{next_slug}.html">{t(f"Fortsetzung auf S. {next_slug}", f"Continues on p. {next_slug}")}</a>'
                 if b.get("role") == "imprint":
                     cls.append("imprint")
                 c = f' class="{" ".join(cls)}"' if cls else ""
-                out.append(f'<p id="{b["id"]}"{c}>{pre}{self.inline(b["text"], b["spans"], fn_ids, b.get("runin", 0))}{post}</p>')
+                out.append(f'{pre}<p id="{b["id"]}"{c}>{self.inline(b["text"], b["spans"], fn_ids, b.get("runin", 0), breaks.get(b["id"]))}</p>{post}')
                 if b.get("editorial_note"):
                     n = b["editorial_note"]
                     out.append(f'<span class="edit-note">{t("Anm. d. Hg.: ", "Editor’s note: ")}{t(esc(n["de"]), esc(n["en"]))}</span>')
             elif b["type"] == "list":
-                items = "".join(f'<li>{self.inline(i["text"], i["spans"], fn_ids)}</li>' for i in b["items"])
+                items = "".join(f'<li>{self.inline(i["text"], i["spans"], fn_ids, breaks=breaks.get(b["id"] + ".i" + str(k)))}</li>'
+                                for k, i in enumerate(b["items"]))
                 out.append(f'<ul class="blist" id="{b["id"]}">{items}</ul>')
             elif b["type"] == "table":
                 out.append(self.table(b, page, fn_ids))
@@ -167,8 +196,8 @@ class Renderer:
         if page["footnotes"]:
             items = []
             for fn in page["footnotes"]:
-                back = f' <a href="#ref-{fn["id"]}" aria-label="zurück">↩</a>' if fn.get("marker") in fn_ids else ""
-                items.append(f'<p id="{fn["id"]}"><span class="fnmark">{esc(fn["marker"])}</span>{self.inline(fn["text"], fn["spans"])}{back}</p>')
-            fns = '<section class="footnotes" aria-label="Fußnoten">' + "".join(items) + "</section>"
-        sig = f'<div class="signature" title="Bogensignatur / printer’s signature mark">{esc(page["signature"])}</div>' if page.get("signature") else ""
+                back = f' <a href="#ref-{fn["id"]}" aria-label="zurück zum Text">↩</a>' if fn.get("marker") in fn_ids else ""
+                items.append(f'<p id="{fn["id"]}"><span class="fnmark">{esc(fn["marker"])}</span>{self.inline(fn["text"], fn["spans"], breaks=breaks.get(fn["id"]))}{back}</p>')
+            fns = '<section class="footnotes" lang="de" aria-label="Fußnoten">' + "".join(items) + "</section>"
+        sig = f'<div class="signature">{t("Bogensignatur", "Signature mark")} {esc(page["signature"])}</div>' if page.get("signature") else ""
         return f'<div class="transcription" lang="de">{body}</div>{fns}{sig}<span id="end"></span>'

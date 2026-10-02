@@ -1,17 +1,16 @@
 {% extends "base.html" %}
 {% block title %}Register – {{ site.short_title }}{% endblock %}
 {% block main %}
-<div class="wrap">
-  <p class="eyebrow" style="margin-top:36px">{{ t('Erschließung', 'Access') }}</p>
+<div class="wrap narrow">
   <h1 class="doc-title">{{ t('Register', 'Indexes') }}</h1>
-  <p class="lede">{{ t('Die Register verzeichnen alle in der Transkription annotierten Namen und Sachen mit ihren Seiten. Sie wurden maschinell vorbereitet, von KI-Agenten bereinigt (Varianten zusammengeführt, Fehlannotationen verworfen) und, wo möglich, mit Normdaten (GeoNames, Wikidata, GBIF) verknüpft.', 'The indexes list all names and things annotated in the transcription with their pages. They were prepared automatically, cleaned by AI agents (variants merged, false annotations discarded) and linked to authority files (GeoNames, Wikidata, GBIF) where possible.') }}</p>
-  <div class="grid-cards" style="margin-top:26px">
+  <p class="lede">{{ t('Die Register verzeichnen alle in der Transkription annotierten Namen und Sachen mit ihren Seiten. Sie wurden maschinell vorbereitet, von KI-Agenten bereinigt (Varianten zusammengeführt, Fehlannotationen verworfen) und, wo möglich, mit Normdaten aus GeoNames, Wikidata und GBIF verknüpft.', 'The indexes list all names and things annotated in the transcription with their pages. They were prepared automatically, cleaned by AI agents (variants merged, false annotations discarded) and linked to authority data from GeoNames, Wikidata and GBIF where possible.') }}</p>
+  <ul class="reg-index">
     {% for c in classes %}
-    <a class="card entry k-{{ c[0] }}" href="{{ c[1] }}.html"><span class="eyebrow"><span class="swatch"></span> {{ counts[c[0]] }} {{ t('Einträge', 'entries') }}</span><h3>{{ t(c[2], c[3]) }}</h3><p>{{ t(c[4], c[5]) }}</p></a>
+    <li class="k-{{ c[0] }}"><a href="{{ c[1] }}.html"><span class="swatch" aria-hidden="true"></span>{{ t(c[2], c[3]) }}</a><span class="n">{{ t(num(counts[c[0]], 'de') ~ ' Einträge', num(counts[c[0]], 'en') ~ ' entries') }}</span><p>{{ t(c[4], c[5]) }}</p></li>
     {% endfor %}
-    <a class="card entry" href="sachregister.html"><span class="eyebrow">{{ n_subjects }} {{ t('Schlagwörter', 'subjects') }}</span><h3>{{ t('Sachregister', 'Subject index') }}</h3><p>{{ t('Themen von „Ackerbau“ bis „Wüstung“ mit allen Seiten, auf denen sie behandelt werden.', 'Topics from agriculture to deserted villages with all pages that treat them.') }}</p></a>
-    <a class="card entry" href="glossar.html"><span class="eyebrow">{{ n_glossary }} {{ t('Begriffe', 'terms') }}</span><h3>{{ t('Glossar', 'Glossary') }}</h3><p>{{ t('Historische Maße, Münzen, Ämter, Mundart- und Fachwörter, erklärt.', 'Historical units, coins, offices, dialect and technical terms explained.') }}</p></a>
-    <a class="card entry" href="orte.html"><span class="eyebrow">{{ n_gazetteer }} {{ t('Artikel', 'articles') }}</span><h3>{{ t('Ortsartikel (II. Theil)', 'Place articles (Part II)') }}</h3><p>{{ t('Brückners Ortsbeschreibungen strukturiert: Einwohner, Häuser, Ersterwähnung, Gewerbe – im Ortsregister und auf der Karte.', 'Brückner’s place descriptions in structured form: inhabitants, houses, first record, trades – in the place index and on the map.') }}</p></a>
-  </div>
+    <li><a href="sachregister.html">{{ t('Sachregister', 'Subject index') }}</a><span class="n">{{ t(n_subjects ~ ' Schlagwörter', n_subjects ~ ' subjects') }}</span><p>{{ t('Themen von „Ackerbau“ bis „Wüstung“ mit allen Seiten, auf denen sie behandelt werden.', 'Topics from agriculture to deserted villages with all pages that treat them.') }}</p></li>
+    <li><a href="glossar.html">{{ t('Glossar', 'Glossary') }}</a><span class="n">{{ t(n_glossary ~ ' Begriffe', n_glossary ~ ' terms') }}</span><p>{{ t('Historische Maße, Münzen, Ämter, Mundart- und Fachwörter mit Erklärung.', 'Historical units, coins, offices, dialect and technical terms, explained.') }}</p></li>
+    <li><a href="orte.html">{{ t('Ortsartikel des zweiten Teils', 'Place articles of Part II') }}</a><span class="n">{{ t(n_gazetteer ~ ' Artikel', n_gazetteer ~ ' articles') }}</span><p>{{ t('Brückners Ortsbeschreibungen in strukturierter Form, mit Einwohnern, Häusern, Ersterwähnung und Gewerben; zu finden im Ortsregister und auf der Karte.', 'Brückner’s place descriptions in structured form, with inhabitants, houses, first record and trades; available in the place index and on the map.') }}</p></li>
+  </ul>
 </div>
 {% endblock %}

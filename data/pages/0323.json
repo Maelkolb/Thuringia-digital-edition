@@ -17,14 +17,24 @@
    "type": "heading",
    "src": 0,
    "text": "V. Geschichte des Landes und seines Fürstenhauses.*)",
-   "spans": []
+   "spans": [],
+   "opens": [
+    "t1-5"
+   ],
+   "sec": "t1-5",
+   "level": 3
   },
   {
    "id": "b2",
    "type": "heading",
    "src": 1,
    "text": "1. Aelteste Zeit bis zur Unterjochung der Sorben.",
-   "spans": []
+   "spans": [],
+   "opens": [
+    "t1-5-1"
+   ],
+   "sec": "t1-5-1",
+   "level": 4
   },
   {
    "id": "b3",
@@ -128,7 +138,8 @@
      "Resource"
     ]
    ],
-   "continues": true
+   "continues": true,
+   "sec": "t1-5-1"
   }
  ],
  "footnotes": [
@@ -145,5 +156,14 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-04T13:49:47.219413",
   "early_schema": false
- }
+ },
+ "section_path": [
+  "t1",
+  "t1-4",
+  "t1-4-8"
+ ],
+ "sections": [
+  "t1-5",
+  "t1-5-1"
+ ]
 }

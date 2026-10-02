@@ -1,0 +1,6 @@
+<nav class="reg-nav" {{ i18n('aria-label', 'Register', 'Indexes') }}>
+  {% for c in classes %}<a href="{{ c[1] }}.html" class="k-{{ c[0] }}" {% if c[0] == current %}aria-current="page"{% endif %}><span class="swatch" aria-hidden="true"></span>{{ t(c[2], c[3]) }}</a>{% endfor %}
+  <span class="sep" aria-hidden="true"></span>
+  <a href="sachregister.html" {% if current == 'subjects' %}aria-current="page"{% endif %}>{{ t('Sachregister', 'Subject index') }}</a>
+  <a href="glossar.html" {% if current == 'glossary' %}aria-current="page"{% endif %}>{{ t('Glossar', 'Glossary') }}</a>
+</nav>

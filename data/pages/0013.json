@@ -17,7 +17,12 @@
    "type": "heading",
    "src": 0,
    "text": "I. Theil.",
-   "spans": []
+   "spans": [],
+   "opens": [
+    "t1"
+   ],
+   "sec": "t1",
+   "level": 2
   },
   {
    "id": "b2",
@@ -30,7 +35,9 @@
      50,
      "Location"
     ]
-   ]
+   ],
+   "sec": "t1",
+   "level": 3
   }
  ],
  "footnotes": [],
@@ -40,5 +47,12 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-10-01T20:41:12.785016",
   "early_schema": false
- }
+ },
+ "section_path": [
+  "front",
+  "inhalt"
+ ],
+ "sections": [
+  "t1"
+ ]
 }

@@ -306,14 +306,16 @@
      "Ebersdorf auf."
     ]
    ],
-   "caption": null
+   "caption": null,
+   "sec": "t2-3"
   },
   {
    "id": "b2",
    "type": "paragraph",
    "src": 1,
    "text": "Nach der 1711 erfolgten Theilung besaß",
-   "spans": []
+   "spans": [],
+   "sec": "t2-3"
   },
   {
    "id": "b3",
@@ -753,7 +755,8 @@
      "Ebersdorf;\nHirschberg nebst Dornholz, Hammer-\nmühle und Einzelhäuser;\nAltengesees;\nArlas reuß. Antheils;\nBenignengrün nebst Hohenofen, Ham-\nmermühle, Solmsgrün und Hein-\nrichshütte;\nBlintendorf zum Theil;\nDobareuth und Pfauenbach;\nDürrenbach und Heinrichsort b. Wurz-\nbach;\nEliasbrunn;\nGahma nebst der Zschachen-, Ponzels-\nund Grubersmühle;\nGebersreuth;\nGöttengrün;\nGrumbach nebst Mühlen;\nHelmsgrün und Bärenmühle;\nLemnitzhammer, Mühlleite und Saal-\ngrün;\nLothra nebst Mühle;\nMödlareuth und Kegelmühle;\nNeundorf zum Theil;\nOßla nebst Obermühle, Knauermühle\nund altem Felde;\nPottiga, Aumühle und Alaunwerk;\nRodacherbrunn zum Theil;\nRothenacker;\nRöttersdorf;\nSaalbach;\nTitschendorf mit zwei Mühlen;\nUllersreuth;\nUnterlemnitz;"
     ]
    ],
-   "caption": null
+   "caption": null,
+   "sec": "t2-3"
   }
  ],
  "footnotes": [],
@@ -804,5 +807,12 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-04T21:04:29.381806",
   "early_schema": false
- }
+ },
+ "section_path": [
+  "t2",
+  "t2-3"
+ ],
+ "sections": [
+  "t2-3"
+ ]
 }

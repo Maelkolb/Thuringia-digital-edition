@@ -17,14 +17,17 @@
    "type": "paragraph",
    "src": 0,
    "text": "Getrauten und Gestorbenen, die ersten und letzten außer dem Geschlecht noch dort mit Angabe der todtgeborenen und unehelichen Kinder und hier mit der Zahl der durch Selbstmord oder durch Unglück umgekommenen Personen.",
-   "spans": []
+   "spans": [],
+   "sec": "t1-2-1"
   },
   {
    "id": "b2",
    "type": "heading",
    "src": 1,
    "text": "Geborene in den Landestheilen und im Fürstenthume absolut und in Procenten der Bevölkerung:",
-   "spans": []
+   "spans": [],
+   "sec": "t1-2-1",
+   "level": 5
   },
   {
    "id": "b3",
@@ -696,7 +699,8 @@
      "3,97"
     ]
    ],
-   "caption": null
+   "caption": null,
+   "sec": "t1-2-1"
   },
   {
    "id": "b4",
@@ -729,7 +733,8 @@
      540,
      "Location"
     ]
-   ]
+   ],
+   "sec": "t1-2-1"
   },
   {
    "id": "b5",
@@ -756,21 +761,25 @@
      "text": "1867 : 863 \" aufweist.",
      "spans": []
     }
-   ]
+   ],
+   "sec": "t1-2-1"
   },
   {
    "id": "b6",
    "type": "paragraph",
    "src": 5,
    "text": "Werden die Geburten auf dem Lande und in den Städten mit einander verglichen, so überwiegt, wie die folgende Tabelle darthut, die Zahl der ländlichen Geburten die der städtischen; ein Verhältniß, welches sich indeß durch die Thatsache etwas abschärft, daß durch die weiblichen Dienstboten viele uneheliche Kinder aus der Stadt auf das Land getragen werden.",
-   "spans": []
+   "spans": [],
+   "sec": "t1-2-1"
   },
   {
    "id": "b7",
    "type": "heading",
    "src": 6,
    "text": "Die Geborenen in Procenten:",
-   "spans": []
+   "spans": [],
+   "sec": "t1-2-1",
+   "level": 5
   }
  ],
  "footnotes": [],
@@ -780,5 +789,13 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-03-03T15:11:55.570928",
   "early_schema": false
- }
+ },
+ "section_path": [
+  "t1",
+  "t1-2",
+  "t1-2-1"
+ ],
+ "sections": [
+  "t1-2-1"
+ ]
 }

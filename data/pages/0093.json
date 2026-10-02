@@ -103,7 +103,8 @@
      2005,
      "Location"
     ]
-   ]
+   ],
+   "sec": "t1-1-8"
   },
   {
    "id": "b2",
@@ -171,14 +172,20 @@
      945,
      "Location"
     ]
-   ]
+   ],
+   "sec": "t1-1-8"
   },
   {
    "id": "b3",
    "type": "heading",
    "src": 2,
    "text": "9. Fauna.",
-   "spans": []
+   "spans": [],
+   "opens": [
+    "t1-1-9"
+   ],
+   "sec": "t1-1-9",
+   "level": 4
   },
   {
    "id": "b4",
@@ -196,7 +203,8 @@
    "word_division": {
     "word": "Wirbelthiere",
     "part": "Wirbel-"
-   }
+   },
+   "sec": "t1-1-9"
   }
  ],
  "footnotes": [
@@ -213,5 +221,14 @@
   "model": "gemini-3-flash-preview",
   "timestamp": "2026-01-06T04:07:51.935573",
   "early_schema": false
- }
+ },
+ "section_path": [
+  "t1",
+  "t1-1",
+  "t1-1-8"
+ ],
+ "sections": [
+  "t1-1-8",
+  "t1-1-9"
+ ]
 }
