@@ -1,0 +1,2257 @@
+{
+ "id": "wald-holz",
+ "title": {
+  "de": "Wald und Holz",
+  "en": "Forests and timber"
+ },
+ "category": "forestry",
+ "section": "t1-3-4",
+ "merges": [
+  "forstwirtschaft-waldflaeche-besitz",
+  "forstwirtschaft-holzpreise-zuwachs"
+ ],
+ "sources": [
+  {
+   "page": "240",
+   "block": "b2"
+  },
+  {
+   "page": "240",
+   "block": "b4"
+  },
+  {
+   "page": "217",
+   "block": "b1"
+  },
+  {
+   "page": "241",
+   "block": "b2"
+  },
+  {
+   "page": "241",
+   "block": "b3"
+  },
+  {
+   "page": "241",
+   "block": "b6"
+  },
+  {
+   "page": "241",
+   "block": "b7"
+  },
+  {
+   "page": "832",
+   "block": "b8"
+  }
+ ],
+ "summary": {
+  "de": "Der Wald des Fürstentums umfasste um 1868 133.635 Morgen oder 34.120 Hektar, 41,4 Prozent der Fläche, 94,5 Prozent davon Nadelholz. Er nimmt vom Unterland zum Oberland zu und gehört dort etwa zur Hälfte der Kammer, im Unterland überwiegend Privatbesitzern. Die Holzpreise stiegen von 1800 bis 1868 auf das 2,6- bis 3,0-Fache.",
+  "en": "Around 1868 the principality’s forest covered 133,635 Morgen or 34,120 hectares, 41.4 percent of the area, 94.5 percent of it conifers. It increases from the Unterland to the Oberland and there belongs about half to the Chamber (the princely domain), in the Unterland mostly to private owners. Timber prices rose to between 2.6 and 3.0 times their 1800 level by 1868."
+ },
+ "findings": [
+  {
+   "de": "Laubwald gibt es fast nur im Landesteil Gera: Er hat 79,4 Prozent des gesamten Laubwaldes; dort sind 27,2 Prozent des Waldes Laubholz, in Schleiz 0,7, in Lobenstein-Ebersdorf 2,0 Prozent.",
+   "en": "Deciduous forest is almost confined to the district of Gera: it holds 79.4 percent of all deciduous forest, and 27.2 percent of its woodland is deciduous, against 0.7 in Schleiz and 2.0 in Lobenstein-Ebersdorf."
+  },
+  {
+   "de": "Der Domänenwald von 1647 (61.786 Morgen Wald und 2.240 Morgen Geräumde, zusammen 64.026) war nur 259 Morgen größer als die Kammerforste von 63.767 Morgen um 1868.",
+   "en": "The domain forest of 1647 (61,786 Morgen of forest and 2,240 Morgen of cleared land, 64,026 in all) was only 259 Morgen larger than the Chamber forests of 63,767 Morgen around 1868."
+  },
+  {
+   "de": "Im Landesteil Gera gehören 71,3 Prozent des Waldes Privatbesitzern, im Oberland dagegen gut die Hälfte den Kammerforsten (Schleiz 52,1, Lobenstein-Ebersdorf 53,5 Prozent).",
+   "en": "In the district of Gera 71.3 percent of the forest belongs to private owners, whereas in the Oberland a good half belongs to the Chamber forests (Schleiz 52.1, Lobenstein-Ebersdorf 53.5 percent)."
+  }
+ ],
+ "method": {
+  "de": "Flächen, Besitzer und Holzart stammen aus der Tabelle auf S. 240 (Block b2), die Gesamtfläche der Landesteile aus der Vermessung von 1854 (S. 217). Anteile an der Fläche und am Wald sind aus den Flächen berechnet, nicht aus Brückners Prozentzahlen. Kammerforste sind Brückners »Domainenwald«. Der Landesteil Schleiz setzt sich aus Pflege Reichenfels, Herrschaft Schleiz und Pflege Saalburg zusammen. Die Preise je Kubikfuß weiches Holz (S. 241, Block b6) stehen im Druck in Silbergroschen und gemischten Brüchen (1 1/6) und sind als Dezimalzahlen übernommen; für 1840 gibt Brückner Spannen an, das Diagramm zeigt deren Mitte. Der Index setzt den Preis von 1800 gleich 100. Den Zuwachs gibt Brückner in Klaftern je Morgen und Jahr an; er wurde mit 1 Klafter = 126 Kubikfuß = 2,8454 m³ (S. 832, Gera) und 1 Morgen = 0,255322 ha in Kubikmeter Raummaß je Hektar umgerechnet.",
+  "en": "Areas, owners and tree species come from the table on p. 240 (block b2), the total area of the districts from the survey of 1854 (p. 217). Shares of the area and of the forest are computed from the areas, not taken from Brückner’s percentages. Chamber forests are Brückner’s “Domainenwald”. The district of Schleiz consists of the Pflege Reichenfels, the Herrschaft Schleiz and the Pflege Saalburg. The prices per cubic foot of soft wood (p. 241, block b6) are printed in silver groschen and mixed fractions (1 1/6) and are converted to decimals; for 1840 Brückner gives ranges, and the chart shows their midpoint. The index sets the price of 1800 to 100. Brückner states growth in Klafter per Morgen and year; it was converted with 1 Klafter = 126 cubic feet = 2.8454 m³ (p. 832, Gera) and 1 Morgen = 0.255322 ha into cubic meters of stacked wood per hectare."
+ },
+ "conversions": [
+  {
+   "from": "preußischer Morgen",
+   "to": "Hektar",
+   "factor_or_formula": "ha = Morgen × 0,255322",
+   "reference": "S. 832"
+  },
+  {
+   "from": "Klafter (126 Kubikfuß, Gera)",
+   "to": "Kubikmeter Raummaß",
+   "factor_or_formula": "1 Klafter = 2,8454 m³",
+   "reference": "S. 832"
+  },
+  {
+   "from": "Klafter je Morgen und Jahr",
+   "to": "Kubikmeter je Hektar und Jahr",
+   "factor_or_formula": "× 2,8454 ÷ 0,255322",
+   "reference": "S. 832"
+  }
+ ],
+ "caveats": [
+  {
+   "de": "Waldfläche (um 1868, nach amtlichen Mitteilungen) und Gesamtfläche (Vermessung 1854, für Lobenstein-Ebersdorf nur croquirt) stammen aus verschiedenen Zeiten. Die Vermessung von 1854 (S. 217) weist weniger Wald aus (siehe »Boden, Besitz und Ernte«). Brückners Besitzprozente (Privatwald 48,23, Domänenwald 48,12) weichen leicht von den berechneten ab.",
+   "en": "Forest area (around 1868, from official reports) and total area (survey of 1854, only sketched for Lobenstein-Ebersdorf) date from different times. The survey of 1854 (p. 217) itself shows less forest (see “Land, ownership and harvest”). Brückner’s ownership percentages (private 48.23, domain 48.12) differ slightly from the computed ones."
+  },
+  {
+   "de": "Die Preisreihe hat nur vier Zeitpunkte (1800, 1820, 1840, 1868); was dazwischen geschah, ist nicht belegt. Brückner nennt nur »weiches Holz« und »Cubikfuß«, ob Fest- oder Raummaß, bleibt offen.",
+   "en": "The price series has only four points in time (1800, 1820, 1840, 1868); what happened in between is not documented. Brückner says only “soft wood” and “Cubikfuß”; whether solid or stacked volume is meant remains open."
+  },
+  {
+   "de": "Der Zuwachs je Besitzart ist eine Schätzung Brückners für nachhaltige Bewirtschaftung, keine Messung. Die Umrechnung in Kubikmeter benutzt die Klafter von Gera zu 126 Kubikfuß und ist eine Näherung.",
+   "en": "The growth by type of owner is an estimate by Brückner for sustained-yield management, not a measurement. The conversion into cubic meters uses the Gera Klafter of 126 cubic feet and is an approximation."
+  }
+ ],
+ "transcription_issues": [
+  {
+   "page": "240",
+   "block": "b2",
+   "cell": "r2c14",
+   "transcribed": "15191",
+   "facsimile": "15191",
+   "checked_facsimile": true,
+   "note": "Gera, Privatwald, Spalte Sa.: so gedruckt, aber Laub + Nadel = 4701 + 10480 = 15 181; die Summen des Landesteils (21 298) und des Fürstentums (64 959) passen zu 15 181. Die Auswertung rechnet mit 15 181. / Printed so, but deciduous + coniferous = 15,181, which the totals confirm."
+  }
+ ],
+ "datasets": [
+  {
+   "name": "waldanteil",
+   "title": {
+    "de": "Wald nach Landesteil und Besitzer, in Prozent der Fläche",
+    "en": "Forest by district and owner, as percent of the area"
+   },
+   "columns": [
+    {
+     "name": "landestheil_de",
+     "label": {
+      "de": "Landesteil",
+      "en": "District"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "landestheil_en",
+     "label": {
+      "de": "Landesteil (englisch)",
+      "en": "District (English)"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "lt_nr",
+     "label": {
+      "de": "Reihenfolge",
+      "en": "Order"
+     },
+     "type": "integer",
+     "unit": null,
+     "derived": true
+    },
+    {
+     "name": "flaeche_morgen",
+     "label": {
+      "de": "Gesamtfläche (Vermessung 1854)",
+      "en": "Total area (survey of 1854)"
+     },
+     "type": "number",
+     "unit": "preuß. Morgen"
+    },
+    {
+     "name": "wald_morgen",
+     "label": {
+      "de": "Waldfläche",
+      "en": "Forest area"
+     },
+     "type": "integer",
+     "unit": "preuß. Morgen"
+    },
+    {
+     "name": "kammer_morgen",
+     "label": {
+      "de": "Kammerforste",
+      "en": "Chamber forests"
+     },
+     "type": "integer",
+     "unit": "preuß. Morgen",
+     "derived": true,
+     "note": "Summe Laub + Nadel; für das Fürstentum gedruckt 63 767"
+    },
+    {
+     "name": "gemeinde_stiftung_morgen",
+     "label": {
+      "de": "Gemeinde- und Stiftungsforste",
+      "en": "Municipal and foundation forests"
+     },
+     "type": "integer",
+     "unit": "preuß. Morgen",
+     "derived": true,
+     "note": "Gemeindeforste + Stiftungsforste"
+    },
+    {
+     "name": "privat_morgen",
+     "label": {
+      "de": "Privatwald",
+      "en": "Private woodland"
+     },
+     "type": "integer",
+     "unit": "preuß. Morgen",
+     "derived": true,
+     "note": "Laub + Nadel; für Gera ist 15 191 gedruckt (Druckfehler, Summe 15 181)"
+    },
+    {
+     "name": "laub_morgen",
+     "label": {
+      "de": "Laubwald",
+      "en": "Deciduous woodland"
+     },
+     "type": "integer",
+     "unit": "preuß. Morgen",
+     "derived": true
+    },
+    {
+     "name": "anteil_pct",
+     "label": {
+      "de": "Waldanteil an der Fläche",
+      "en": "Forest share of area"
+     },
+     "type": "number",
+     "unit": "%",
+     "derived": true
+    },
+    {
+     "name": "pct_flaeche_kammer",
+     "label": {
+      "de": "Kammerforste, Anteil an der Fläche",
+      "en": "Chamber forests, share of area"
+     },
+     "type": "number",
+     "unit": "%",
+     "derived": true
+    },
+    {
+     "name": "pct_flaeche_gemeinde_stiftung",
+     "label": {
+      "de": "Gemeinde- und Stiftungsforste, Anteil an der Fläche",
+      "en": "Municipal and foundation forests, share of area"
+     },
+     "type": "number",
+     "unit": "%",
+     "derived": true
+    },
+    {
+     "name": "pct_flaeche_privat",
+     "label": {
+      "de": "Privatwald, Anteil an der Fläche",
+      "en": "Private woodland, share of area"
+     },
+     "type": "number",
+     "unit": "%",
+     "derived": true
+    },
+    {
+     "name": "pct_wald_kammer",
+     "label": {
+      "de": "Kammerforste, Anteil am Wald",
+      "en": "Chamber forests, share of forest"
+     },
+     "type": "number",
+     "unit": "%",
+     "derived": true
+    },
+    {
+     "name": "pct_wald_privat",
+     "label": {
+      "de": "Privatwald, Anteil am Wald",
+      "en": "Private woodland, share of forest"
+     },
+     "type": "number",
+     "unit": "%",
+     "derived": true
+    },
+    {
+     "name": "laub_pct_wald",
+     "label": {
+      "de": "Laubwald, Anteil am Wald",
+      "en": "Deciduous woodland, share of forest"
+     },
+     "type": "number",
+     "unit": "%",
+     "derived": true
+    }
+   ],
+   "rows": [
+    [
+     "Gera",
+     "Gera",
+     1,
+     86416.46,
+     21298,
+     4420,
+     1697,
+     15181,
+     5794,
+     24.65,
+     5.11,
+     1.96,
+     17.57,
+     20.75,
+     71.28,
+     27.2
+    ],
+    [
+     "Schleiz",
+     "Schleiz",
+     2,
+     126302,
+     54181,
+     28253,
+     2076,
+     23852,
+     356,
+     42.9,
+     22.37,
+     1.64,
+     18.88,
+     52.15,
+     44.02,
+     0.66
+    ],
+    [
+     "Lobenstein-Ebersdorf",
+     "Lobenstein-Ebersdorf",
+     3,
+     110025.83,
+     58156,
+     31094,
+     1136,
+     25926,
+     1146,
+     52.86,
+     28.26,
+     1.03,
+     23.56,
+     53.47,
+     44.58,
+     1.97
+    ],
+    [
+     "Fürstentum",
+     "Principality",
+     4,
+     322746.29,
+     133635,
+     63767,
+     4909,
+     64959,
+     7296,
+     41.41,
+     19.76,
+     1.52,
+     20.13,
+     47.72,
+     48.61,
+     5.46
+    ]
+   ],
+   "source_refs": [
+    {
+     "page": "240",
+     "block": "b2",
+     "rows": "r2-r8"
+    },
+    {
+     "page": "217",
+     "block": "b1",
+     "rows": "t11"
+    }
+   ]
+  },
+  {
+   "name": "holzpreise",
+   "title": {
+    "de": "Preis je Kubikfuß weiches Holz",
+    "en": "Price per cubic foot of soft wood"
+   },
+   "columns": [
+    {
+     "name": "holzart_de",
+     "label": {
+      "de": "Sortiment",
+      "en": "Assortment"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "holzart_en",
+     "label": {
+      "de": "Sortiment (englisch)",
+      "en": "Assortment (English)"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "holzart_nr",
+     "label": {
+      "de": "Reihenfolge Sortiment",
+      "en": "Assortment order"
+     },
+     "type": "integer",
+     "unit": null,
+     "derived": true
+    },
+    {
+     "name": "jahr",
+     "label": {
+      "de": "Jahr",
+      "en": "Year"
+     },
+     "type": "integer",
+     "unit": null
+    },
+    {
+     "name": "preis_text",
+     "label": {
+      "de": "Preis (gedruckt)",
+      "en": "Price (as printed)"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "preis_von",
+     "label": {
+      "de": "Preis, Untergrenze",
+      "en": "Price, lower limit"
+     },
+     "type": "number",
+     "unit": "Sgr. je Kubikfuß",
+     "derived": true,
+     "note": "gedruckt als gemischter Bruch (z. B. 1 1/6), hier als Dezimalzahl"
+    },
+    {
+     "name": "preis_bis",
+     "label": {
+      "de": "Preis, Obergrenze",
+      "en": "Price, upper limit"
+     },
+     "type": "number",
+     "unit": "Sgr. je Kubikfuß",
+     "derived": true,
+     "note": "gedruckt als gemischter Bruch (z. B. 1 1/6), hier als Dezimalzahl"
+    },
+    {
+     "name": "preis_mitte",
+     "label": {
+      "de": "Preis, Mitte der Spanne",
+      "en": "Price, midpoint of the range"
+     },
+     "type": "number",
+     "unit": "Sgr. je Kubikfuß",
+     "derived": true
+    }
+   ],
+   "rows": [
+    [
+     "Bauholz",
+     "Construction timber",
+     1,
+     1800,
+     "1 1/6 Sgr.,",
+     1.167,
+     1.167,
+     1.167
+    ],
+    [
+     "Blochholz",
+     "Log timber (Blochholz)",
+     2,
+     1800,
+     "1 1/4 Sgr.,",
+     1.25,
+     1.25,
+     1.25
+    ],
+    [
+     "Feuerholz",
+     "Firewood",
+     3,
+     1800,
+     "1/3 Sgr.,",
+     0.333,
+     0.333,
+     0.333
+    ],
+    [
+     "Bauholz",
+     "Construction timber",
+     1,
+     1820,
+     "1 1/2 \"",
+     1.5,
+     1.5,
+     1.5
+    ],
+    [
+     "Blochholz",
+     "Log timber (Blochholz)",
+     2,
+     1820,
+     "1 1/2 \"",
+     1.5,
+     1.5,
+     1.5
+    ],
+    [
+     "Feuerholz",
+     "Firewood",
+     3,
+     1820,
+     "5/12 \"",
+     0.417,
+     0.417,
+     0.417
+    ],
+    [
+     "Bauholz",
+     "Construction timber",
+     1,
+     1840,
+     "1 5/6-2 2/3 \"",
+     1.833,
+     2.667,
+     2.25
+    ],
+    [
+     "Blochholz",
+     "Log timber (Blochholz)",
+     2,
+     1840,
+     "1 2/3-2 5/6 \"",
+     1.667,
+     2.833,
+     2.25
+    ],
+    [
+     "Feuerholz",
+     "Firewood",
+     3,
+     1840,
+     "1 \"",
+     1,
+     1,
+     1.0
+    ],
+    [
+     "Bauholz",
+     "Construction timber",
+     1,
+     1868,
+     "3 \"",
+     3,
+     3,
+     3.0
+    ],
+    [
+     "Blochholz",
+     "Log timber (Blochholz)",
+     2,
+     1868,
+     "3 1/2 \"",
+     3.5,
+     3.5,
+     3.5
+    ],
+    [
+     "Feuerholz",
+     "Firewood",
+     3,
+     1868,
+     "1 \"",
+     1,
+     1,
+     1.0
+    ]
+   ],
+   "source_refs": [
+    {
+     "page": "241",
+     "block": "b6",
+     "rows": "r2-r5"
+    }
+   ]
+  },
+  {
+   "name": "zuwachs",
+   "title": {
+    "de": "Zuwachs je Morgen nach Besitzart",
+    "en": "Growth per Morgen by type of owner"
+   },
+   "columns": [
+    {
+     "name": "besitzart_de",
+     "label": {
+      "de": "Besitzart",
+      "en": "Type of owner"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "besitzart_en",
+     "label": {
+      "de": "Besitzart (englisch)",
+      "en": "Type of owner (English)"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "besitzart_nr",
+     "label": {
+      "de": "Reihenfolge",
+      "en": "Order"
+     },
+     "type": "integer",
+     "unit": null,
+     "derived": true
+    },
+    {
+     "name": "zuwachs_text",
+     "label": {
+      "de": "Zuwachs (gedruckt)",
+      "en": "Growth (as printed)"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "zuwachs_von",
+     "label": {
+      "de": "Zuwachs, Untergrenze",
+      "en": "Growth, lower limit"
+     },
+     "type": "number",
+     "unit": "Klafter je Morgen und Jahr",
+     "derived": true,
+     "note": "gedruckte Brüche als Dezimalzahl"
+    },
+    {
+     "name": "zuwachs_bis",
+     "label": {
+      "de": "Zuwachs, Obergrenze",
+      "en": "Growth, upper limit"
+     },
+     "type": "number",
+     "unit": "Klafter je Morgen und Jahr",
+     "derived": true,
+     "note": "gedruckte Brüche als Dezimalzahl"
+    },
+    {
+     "name": "rm_ha_von",
+     "label": {
+      "de": "Zuwachs, Untergrenze",
+      "en": "Growth, lower limit"
+     },
+     "type": "number",
+     "unit": "Raummeter je ha und Jahr",
+     "derived": true,
+     "note": "Klafter × 2,8454 m³ / 0,255322 ha"
+    },
+    {
+     "name": "rm_ha_bis",
+     "label": {
+      "de": "Zuwachs, Obergrenze",
+      "en": "Growth, upper limit"
+     },
+     "type": "number",
+     "unit": "Raummeter je ha und Jahr",
+     "derived": true,
+     "note": "Klafter × 2,8454 m³ / 0,255322 ha"
+    },
+    {
+     "name": "ertrag_cf",
+     "label": {
+      "de": "Ertrag im Durchschnitt",
+      "en": "Average yield"
+     },
+     "type": "integer",
+     "unit": "Kubikfuß je Jahr"
+    }
+   ],
+   "rows": [
+    [
+     "Domänenforsten",
+     "Domain forests",
+     1,
+     "1/2",
+     0.5,
+     0.5,
+     5.57,
+     5.57,
+     40
+    ],
+    [
+     "Gemeinde- und Stiftungswälder",
+     "Municipal and foundation forests",
+     2,
+     "2/5 bis 1/2",
+     0.4,
+     0.5,
+     4.46,
+     5.57,
+     40
+    ],
+    [
+     "Privatwälder",
+     "Private woodland",
+     3,
+     "1/10 bis 1/5",
+     0.1,
+     0.2,
+     1.11,
+     2.23,
+     20
+    ]
+   ],
+   "source_refs": [
+    {
+     "page": "241",
+     "block": "b3"
+    },
+    {
+     "page": "241",
+     "block": "b8"
+    }
+   ]
+  },
+  {
+   "name": "wald",
+   "title": {
+    "de": "Wald nach Gebiet, Besitzer und Holzart",
+    "en": "Forest by area, owner and kind of wood"
+   },
+   "columns": [
+    {
+     "name": "landestheil_de",
+     "label": {
+      "de": "Landesteil",
+      "en": "District"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "landestheil_en",
+     "label": {
+      "de": "Landesteil (englisch)",
+      "en": "District (English)"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "lt_nr",
+     "label": {
+      "de": "Reihenfolge Landesteil",
+      "en": "District order"
+     },
+     "type": "integer",
+     "unit": null,
+     "derived": true
+    },
+    {
+     "name": "gebiet_de",
+     "label": {
+      "de": "Gebiet",
+      "en": "Area"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "gebiet_en",
+     "label": {
+      "de": "Gebiet (englisch)",
+      "en": "Area (English)"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "gebiet_nr",
+     "label": {
+      "de": "Reihenfolge Gebiet",
+      "en": "Area order"
+     },
+     "type": "integer",
+     "unit": null,
+     "derived": true
+    },
+    {
+     "name": "besitzer_de",
+     "label": {
+      "de": "Besitzer",
+      "en": "Owner"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "besitzer_en",
+     "label": {
+      "de": "Besitzer (englisch)",
+      "en": "Owner (English)"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "besitzer_nr",
+     "label": {
+      "de": "Reihenfolge Besitzer",
+      "en": "Owner order"
+     },
+     "type": "integer",
+     "unit": null,
+     "derived": true
+    },
+    {
+     "name": "holzart_de",
+     "label": {
+      "de": "Holzart",
+      "en": "Kind of wood"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "holzart_en",
+     "label": {
+      "de": "Holzart (englisch)",
+      "en": "Kind of wood (English)"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "holzart_nr",
+     "label": {
+      "de": "Reihenfolge Holzart",
+      "en": "Order of kind of wood"
+     },
+     "type": "integer",
+     "unit": null,
+     "derived": true
+    },
+    {
+     "name": "morgen",
+     "label": {
+      "de": "Waldfläche",
+      "en": "Forest area"
+     },
+     "type": "integer",
+     "unit": "preuß. Morgen"
+    },
+    {
+     "name": "ha",
+     "label": {
+      "de": "Waldfläche in Hektar",
+      "en": "Forest area in hectares"
+     },
+     "type": "number",
+     "unit": "ha",
+     "derived": true,
+     "note": "Morgen × 0,255322"
+    }
+   ],
+   "rows": [
+    [
+     "Gera",
+     "Gera",
+     1,
+     "Gera",
+     "Gera",
+     1,
+     "Kammerforste",
+     "Chamber forests (domain)",
+     1,
+     "Laubwald",
+     "Deciduous",
+     1,
+     849,
+     217.0
+    ],
+    [
+     "Gera",
+     "Gera",
+     1,
+     "Gera",
+     "Gera",
+     1,
+     "Kammerforste",
+     "Chamber forests (domain)",
+     1,
+     "Nadelwald",
+     "Coniferous",
+     2,
+     3571,
+     912.0
+    ],
+    [
+     "Gera",
+     "Gera",
+     1,
+     "Gera",
+     "Gera",
+     1,
+     "Gemeindeforste",
+     "Municipal forests",
+     2,
+     "Laubwald",
+     "Deciduous",
+     1,
+     120,
+     31.0
+    ],
+    [
+     "Gera",
+     "Gera",
+     1,
+     "Gera",
+     "Gera",
+     1,
+     "Gemeindeforste",
+     "Municipal forests",
+     2,
+     "Nadelwald",
+     "Coniferous",
+     2,
+     1196,
+     305.0
+    ],
+    [
+     "Gera",
+     "Gera",
+     1,
+     "Gera",
+     "Gera",
+     1,
+     "Stiftungsforste",
+     "Foundation forests",
+     3,
+     "Laubwald",
+     "Deciduous",
+     1,
+     124,
+     32.0
+    ],
+    [
+     "Gera",
+     "Gera",
+     1,
+     "Gera",
+     "Gera",
+     1,
+     "Stiftungsforste",
+     "Foundation forests",
+     3,
+     "Nadelwald",
+     "Coniferous",
+     2,
+     257,
+     66.0
+    ],
+    [
+     "Gera",
+     "Gera",
+     1,
+     "Gera",
+     "Gera",
+     1,
+     "Privatwald",
+     "Private woodland",
+     4,
+     "Laubwald",
+     "Deciduous",
+     1,
+     4701,
+     1200.0
+    ],
+    [
+     "Gera",
+     "Gera",
+     1,
+     "Gera",
+     "Gera",
+     1,
+     "Privatwald",
+     "Private woodland",
+     4,
+     "Nadelwald",
+     "Coniferous",
+     2,
+     10480,
+     2676.0
+    ],
+    [
+     "Schleiz",
+     "Schleiz",
+     2,
+     "Pflege Reichenfels",
+     "Reichenfels district (Pflege)",
+     2,
+     "Kammerforste",
+     "Chamber forests (domain)",
+     1,
+     "Laubwald",
+     "Deciduous",
+     1,
+     17,
+     4.0
+    ],
+    [
+     "Schleiz",
+     "Schleiz",
+     2,
+     "Pflege Reichenfels",
+     "Reichenfels district (Pflege)",
+     2,
+     "Kammerforste",
+     "Chamber forests (domain)",
+     1,
+     "Nadelwald",
+     "Coniferous",
+     2,
+     10500,
+     2681.0
+    ],
+    [
+     "Schleiz",
+     "Schleiz",
+     2,
+     "Pflege Reichenfels",
+     "Reichenfels district (Pflege)",
+     2,
+     "Gemeindeforste",
+     "Municipal forests",
+     2,
+     "Laubwald",
+     "Deciduous",
+     1,
+     null,
+     0.0
+    ],
+    [
+     "Schleiz",
+     "Schleiz",
+     2,
+     "Pflege Reichenfels",
+     "Reichenfels district (Pflege)",
+     2,
+     "Gemeindeforste",
+     "Municipal forests",
+     2,
+     "Nadelwald",
+     "Coniferous",
+     2,
+     13,
+     3.0
+    ],
+    [
+     "Schleiz",
+     "Schleiz",
+     2,
+     "Pflege Reichenfels",
+     "Reichenfels district (Pflege)",
+     2,
+     "Stiftungsforste",
+     "Foundation forests",
+     3,
+     "Laubwald",
+     "Deciduous",
+     1,
+     null,
+     0.0
+    ],
+    [
+     "Schleiz",
+     "Schleiz",
+     2,
+     "Pflege Reichenfels",
+     "Reichenfels district (Pflege)",
+     2,
+     "Stiftungsforste",
+     "Foundation forests",
+     3,
+     "Nadelwald",
+     "Coniferous",
+     2,
+     2,
+     1.0
+    ],
+    [
+     "Schleiz",
+     "Schleiz",
+     2,
+     "Pflege Reichenfels",
+     "Reichenfels district (Pflege)",
+     2,
+     "Privatwald",
+     "Private woodland",
+     4,
+     "Laubwald",
+     "Deciduous",
+     1,
+     41,
+     10.0
+    ],
+    [
+     "Schleiz",
+     "Schleiz",
+     2,
+     "Pflege Reichenfels",
+     "Reichenfels district (Pflege)",
+     2,
+     "Privatwald",
+     "Private woodland",
+     4,
+     "Nadelwald",
+     "Coniferous",
+     2,
+     3492,
+     892.0
+    ],
+    [
+     "Schleiz",
+     "Schleiz",
+     2,
+     "Herrschaft Schleiz",
+     "Schleiz lordship (Herrschaft)",
+     3,
+     "Kammerforste",
+     "Chamber forests (domain)",
+     1,
+     "Laubwald",
+     "Deciduous",
+     1,
+     172,
+     44.0
+    ],
+    [
+     "Schleiz",
+     "Schleiz",
+     2,
+     "Herrschaft Schleiz",
+     "Schleiz lordship (Herrschaft)",
+     3,
+     "Kammerforste",
+     "Chamber forests (domain)",
+     1,
+     "Nadelwald",
+     "Coniferous",
+     2,
+     12237,
+     3124.0
+    ],
+    [
+     "Schleiz",
+     "Schleiz",
+     2,
+     "Herrschaft Schleiz",
+     "Schleiz lordship (Herrschaft)",
+     3,
+     "Gemeindeforste",
+     "Municipal forests",
+     2,
+     "Laubwald",
+     "Deciduous",
+     1,
+     14,
+     4.0
+    ],
+    [
+     "Schleiz",
+     "Schleiz",
+     2,
+     "Herrschaft Schleiz",
+     "Schleiz lordship (Herrschaft)",
+     3,
+     "Gemeindeforste",
+     "Municipal forests",
+     2,
+     "Nadelwald",
+     "Coniferous",
+     2,
+     451,
+     115.0
+    ],
+    [
+     "Schleiz",
+     "Schleiz",
+     2,
+     "Herrschaft Schleiz",
+     "Schleiz lordship (Herrschaft)",
+     3,
+     "Stiftungsforste",
+     "Foundation forests",
+     3,
+     "Laubwald",
+     "Deciduous",
+     1,
+     null,
+     0.0
+    ],
+    [
+     "Schleiz",
+     "Schleiz",
+     2,
+     "Herrschaft Schleiz",
+     "Schleiz lordship (Herrschaft)",
+     3,
+     "Stiftungsforste",
+     "Foundation forests",
+     3,
+     "Nadelwald",
+     "Coniferous",
+     2,
+     899,
+     230.0
+    ],
+    [
+     "Schleiz",
+     "Schleiz",
+     2,
+     "Herrschaft Schleiz",
+     "Schleiz lordship (Herrschaft)",
+     3,
+     "Privatwald",
+     "Private woodland",
+     4,
+     "Laubwald",
+     "Deciduous",
+     1,
+     90,
+     23.0
+    ],
+    [
+     "Schleiz",
+     "Schleiz",
+     2,
+     "Herrschaft Schleiz",
+     "Schleiz lordship (Herrschaft)",
+     3,
+     "Privatwald",
+     "Private woodland",
+     4,
+     "Nadelwald",
+     "Coniferous",
+     2,
+     15089,
+     3853.0
+    ],
+    [
+     "Schleiz",
+     "Schleiz",
+     2,
+     "Pflege Saalburg",
+     "Saalburg district (Pflege)",
+     4,
+     "Kammerforste",
+     "Chamber forests (domain)",
+     1,
+     "Laubwald",
+     "Deciduous",
+     1,
+     10,
+     3.0
+    ],
+    [
+     "Schleiz",
+     "Schleiz",
+     2,
+     "Pflege Saalburg",
+     "Saalburg district (Pflege)",
+     4,
+     "Kammerforste",
+     "Chamber forests (domain)",
+     1,
+     "Nadelwald",
+     "Coniferous",
+     2,
+     5317,
+     1358.0
+    ],
+    [
+     "Schleiz",
+     "Schleiz",
+     2,
+     "Pflege Saalburg",
+     "Saalburg district (Pflege)",
+     4,
+     "Gemeindeforste",
+     "Municipal forests",
+     2,
+     "Laubwald",
+     "Deciduous",
+     1,
+     null,
+     0.0
+    ],
+    [
+     "Schleiz",
+     "Schleiz",
+     2,
+     "Pflege Saalburg",
+     "Saalburg district (Pflege)",
+     4,
+     "Gemeindeforste",
+     "Municipal forests",
+     2,
+     "Nadelwald",
+     "Coniferous",
+     2,
+     387,
+     99.0
+    ],
+    [
+     "Schleiz",
+     "Schleiz",
+     2,
+     "Pflege Saalburg",
+     "Saalburg district (Pflege)",
+     4,
+     "Stiftungsforste",
+     "Foundation forests",
+     3,
+     "Laubwald",
+     "Deciduous",
+     1,
+     null,
+     0.0
+    ],
+    [
+     "Schleiz",
+     "Schleiz",
+     2,
+     "Pflege Saalburg",
+     "Saalburg district (Pflege)",
+     4,
+     "Stiftungsforste",
+     "Foundation forests",
+     3,
+     "Nadelwald",
+     "Coniferous",
+     2,
+     310,
+     79.0
+    ],
+    [
+     "Schleiz",
+     "Schleiz",
+     2,
+     "Pflege Saalburg",
+     "Saalburg district (Pflege)",
+     4,
+     "Privatwald",
+     "Private woodland",
+     4,
+     "Laubwald",
+     "Deciduous",
+     1,
+     12,
+     3.0
+    ],
+    [
+     "Schleiz",
+     "Schleiz",
+     2,
+     "Pflege Saalburg",
+     "Saalburg district (Pflege)",
+     4,
+     "Privatwald",
+     "Private woodland",
+     4,
+     "Nadelwald",
+     "Coniferous",
+     2,
+     5128,
+     1309.0
+    ],
+    [
+     "Lobenstein-Ebersdorf",
+     "Lobenstein-Ebersdorf",
+     3,
+     "Lobenstein-Ebersdorf",
+     "Lobenstein-Ebersdorf",
+     5,
+     "Kammerforste",
+     "Chamber forests (domain)",
+     1,
+     "Laubwald",
+     "Deciduous",
+     1,
+     1037,
+     265.0
+    ],
+    [
+     "Lobenstein-Ebersdorf",
+     "Lobenstein-Ebersdorf",
+     3,
+     "Lobenstein-Ebersdorf",
+     "Lobenstein-Ebersdorf",
+     5,
+     "Kammerforste",
+     "Chamber forests (domain)",
+     1,
+     "Nadelwald",
+     "Coniferous",
+     2,
+     30057,
+     7674.0
+    ],
+    [
+     "Lobenstein-Ebersdorf",
+     "Lobenstein-Ebersdorf",
+     3,
+     "Lobenstein-Ebersdorf",
+     "Lobenstein-Ebersdorf",
+     5,
+     "Gemeindeforste",
+     "Municipal forests",
+     2,
+     "Laubwald",
+     "Deciduous",
+     1,
+     null,
+     0.0
+    ],
+    [
+     "Lobenstein-Ebersdorf",
+     "Lobenstein-Ebersdorf",
+     3,
+     "Lobenstein-Ebersdorf",
+     "Lobenstein-Ebersdorf",
+     5,
+     "Gemeindeforste",
+     "Municipal forests",
+     2,
+     "Nadelwald",
+     "Coniferous",
+     2,
+     719,
+     184.0
+    ],
+    [
+     "Lobenstein-Ebersdorf",
+     "Lobenstein-Ebersdorf",
+     3,
+     "Lobenstein-Ebersdorf",
+     "Lobenstein-Ebersdorf",
+     5,
+     "Stiftungsforste",
+     "Foundation forests",
+     3,
+     "Laubwald",
+     "Deciduous",
+     1,
+     null,
+     0.0
+    ],
+    [
+     "Lobenstein-Ebersdorf",
+     "Lobenstein-Ebersdorf",
+     3,
+     "Lobenstein-Ebersdorf",
+     "Lobenstein-Ebersdorf",
+     5,
+     "Stiftungsforste",
+     "Foundation forests",
+     3,
+     "Nadelwald",
+     "Coniferous",
+     2,
+     417,
+     106.0
+    ],
+    [
+     "Lobenstein-Ebersdorf",
+     "Lobenstein-Ebersdorf",
+     3,
+     "Lobenstein-Ebersdorf",
+     "Lobenstein-Ebersdorf",
+     5,
+     "Privatwald",
+     "Private woodland",
+     4,
+     "Laubwald",
+     "Deciduous",
+     1,
+     109,
+     28.0
+    ],
+    [
+     "Lobenstein-Ebersdorf",
+     "Lobenstein-Ebersdorf",
+     3,
+     "Lobenstein-Ebersdorf",
+     "Lobenstein-Ebersdorf",
+     5,
+     "Privatwald",
+     "Private woodland",
+     4,
+     "Nadelwald",
+     "Coniferous",
+     2,
+     25817,
+     6592.0
+    ]
+   ],
+   "source_refs": [
+    {
+     "page": "240",
+     "block": "b2",
+     "rows": "r2-r8"
+    }
+   ]
+  },
+  {
+   "name": "domaene",
+   "title": {
+    "de": "Domänenwald 1647 und heute",
+    "en": "Domain forest 1647 and today"
+   },
+   "columns": [
+    {
+     "name": "zeit_de",
+     "label": {
+      "de": "Zeitpunkt",
+      "en": "Time"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "zeit_en",
+     "label": {
+      "de": "Zeitpunkt (englisch)",
+      "en": "Time (English)"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "zeit_nr",
+     "label": {
+      "de": "Reihenfolge",
+      "en": "Order"
+     },
+     "type": "integer",
+     "unit": null,
+     "derived": true
+    },
+    {
+     "name": "art_de",
+     "label": {
+      "de": "Art der Fläche",
+      "en": "Kind of land"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "art_en",
+     "label": {
+      "de": "Art der Fläche (englisch)",
+      "en": "Kind of land (English)"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "morgen",
+     "label": {
+      "de": "Fläche",
+      "en": "Area"
+     },
+     "type": "integer",
+     "unit": "preuß. Morgen"
+    },
+    {
+     "name": "ha",
+     "label": {
+      "de": "Fläche in Hektar",
+      "en": "Area in hectares"
+     },
+     "type": "number",
+     "unit": "ha",
+     "derived": true,
+     "note": "Morgen × 0,255322"
+    }
+   ],
+   "rows": [
+    [
+     "1647",
+     "1647",
+     1,
+     "Wald",
+     "Woodland",
+     61786,
+     15775.0
+    ],
+    [
+     "1647",
+     "1647",
+     1,
+     "Geräumde (gerodete Flächen)",
+     "Cleared land (Geräumde)",
+     2240,
+     572.0
+    ],
+    [
+     "heute (um 1868)",
+     "present (c. 1868)",
+     2,
+     "Kammerforste (Wald)",
+     "Chamber forests (woodland)",
+     63767,
+     16281.0
+    ]
+   ],
+   "source_refs": [
+    {
+     "page": "241",
+     "block": "b2"
+    },
+    {
+     "page": "240",
+     "block": "b2",
+     "rows": "r2-r8"
+    }
+   ]
+  }
+ ],
+ "charts": [
+  {
+   "id": "c1",
+   "dataset": "waldanteil",
+   "title": {
+    "de": "Der Wald bedeckt in Lobenstein-Ebersdorf mehr als die Hälfte der Fläche, in Gera nur ein Viertel",
+    "en": "Forest covers more than half of Lobenstein-Ebersdorf but only a quarter of Gera"
+   },
+   "caption": {
+    "de": "Wald in Prozent der Fläche des Landesteils, die Farben zeigen den Besitzer; Zahl am Balkenende: Waldanteil insgesamt. Waldfläche um 1868, Gesamtfläche nach der Vermessung von 1854. Quelle: S. 240, 217.",
+    "en": "Forest as percent of the district’s area, colors show the owner; number at the bar end: total forest share. Forest area around 1868, total area from the survey of 1854. Source: pp. 240, 217."
+   },
+   "vegalite": {
+    "height": {
+     "step": 44
+    },
+    "encoding": {
+     "y": {
+      "field": {
+       "de": "landestheil_de",
+       "en": "landestheil_en"
+      },
+      "type": "nominal",
+      "sort": {
+       "field": "lt_nr",
+       "op": "min",
+       "order": "ascending"
+      },
+      "axis": {
+       "title": null,
+       "labelFontSize": 12,
+       "labelLimit": 200
+      }
+     }
+    },
+    "layer": [
+     {
+      "transform": [
+       {
+        "fold": [
+         "pct_flaeche_kammer",
+         "pct_flaeche_gemeinde_stiftung",
+         "pct_flaeche_privat"
+        ],
+        "as": [
+         "besitzer_roh",
+         "pct"
+        ]
+       },
+       {
+        "calculate": "datum.besitzer_roh == 'pct_flaeche_kammer' ? 'kammer' : datum.besitzer_roh == 'pct_flaeche_gemeinde_stiftung' ? 'gemeinde' : 'privat'",
+        "as": "besitzer"
+       },
+       {
+        "calculate": {
+         "de": "datum.besitzer == 'kammer' ? 'Kammerforste' : datum.besitzer == 'gemeinde' ? 'Gemeinde- und Stiftungswald' : 'Privatwald'",
+         "en": "datum.besitzer == 'kammer' ? 'Chamber forests' : datum.besitzer == 'gemeinde' ? 'Municipal and foundation forests' : 'Private woodland'"
+        },
+        "as": "besitzer_name"
+       },
+       {
+        "calculate": "datum.besitzer == 'kammer' ? 1 : datum.besitzer == 'privat' ? 2 : 3",
+        "as": "besitzer_nr"
+       }
+      ],
+      "mark": {
+       "type": "bar",
+       "height": {
+        "band": 0.72
+       }
+      },
+      "encoding": {
+       "x": {
+        "field": "pct",
+        "type": "quantitative",
+        "stack": "zero",
+        "scale": {
+         "domain": [
+          0,
+          62
+         ]
+        },
+        "axis": {
+         "title": {
+          "de": "Wald in Prozent der Fläche",
+          "en": "Forest as percent of area"
+         },
+         "values": [
+          0,
+          10,
+          20,
+          30,
+          40,
+          50,
+          60
+         ],
+         "format": "d"
+        }
+       },
+       "color": {
+        "field": "besitzer",
+        "type": "nominal",
+        "scale": {
+         "domain": [
+          "kammer",
+          "gemeinde",
+          "privat"
+         ],
+         "range": [
+          "@accent",
+          "@accent2",
+          "@accent3"
+         ]
+        },
+        "legend": {
+         "title": null,
+         "labelExpr": {
+          "de": "datum.value == 'kammer' ? 'Kammerforste' : datum.value == 'gemeinde' ? 'Gemeinde, Stiftung' : 'Privatwald'",
+          "en": "datum.value == 'kammer' ? 'Chamber forests' : datum.value == 'gemeinde' ? 'Municipal, trust' : 'Private'"
+         },
+         "columns": 3,
+         "columnPadding": 8,
+         "labelLimit": 220
+        }
+       },
+       "order": {
+        "field": "besitzer_nr",
+        "type": "quantitative"
+       },
+       "tooltip": [
+        {
+         "field": "landestheil_de",
+         "title": {
+          "de": "Landesteil",
+          "en": "District"
+         }
+        },
+        {
+         "field": "besitzer_name",
+         "type": "nominal",
+         "title": {
+          "de": "Besitzer",
+          "en": "Owner"
+         }
+        },
+        {
+         "field": "pct",
+         "title": {
+          "de": "Anteil an der Fläche, %",
+          "en": "Share of the area, %"
+         },
+         "format": ".1f"
+        }
+       ]
+      }
+     },
+     {
+      "mark": {
+       "type": "text",
+       "align": "left",
+       "dx": 6,
+       "style": "label"
+      },
+      "encoding": {
+       "x": {
+        "field": "anteil_pct",
+        "type": "quantitative"
+       },
+       "text": {
+        "field": "anteil_pct",
+        "type": "quantitative",
+        "format": ".1f"
+       }
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "c2",
+   "dataset": "holzpreise",
+   "title": {
+    "de": "Feuerholz verdreifachte sich schon bis 1840, Bau- und Blochholz stiegen bis 1868 weiter",
+    "en": "Firewood tripled in price by 1840; construction and log timber kept rising until 1868"
+   },
+   "caption": {
+    "de": "Preis je Kubikfuß weiches Holz, 1800 gleich 100. Für 1840 nennt Brückner Spannen von Bau- und Blochholz; gezeigt ist die Mitte. Zahl am Linienende: Vielfaches des Preises von 1800. Quelle: S. 241.",
+    "en": "Price per cubic foot of soft wood, 1800 = 100. For 1840 Brückner gives ranges for construction and log timber; the midpoint is shown. Number at the line end: multiple of the 1800 price. Source: p. 241."
+   },
+   "vegalite": {
+    "height": 300,
+    "transform": [
+     {
+      "window": [
+       {
+        "op": "first_value",
+        "field": "preis_mitte",
+        "as": "basis"
+       }
+      ],
+      "groupby": [
+       "holzart_de"
+      ],
+      "sort": [
+       {
+        "field": "jahr"
+       }
+      ],
+      "frame": [
+       null,
+       null
+      ]
+     },
+     {
+      "calculate": "datum.preis_mitte / datum.basis * 100",
+      "as": "index"
+     },
+     {
+      "calculate": "datum.preis_von / datum.basis * 100",
+      "as": "index_von"
+     },
+     {
+      "calculate": "datum.preis_bis / datum.basis * 100",
+      "as": "index_bis"
+     }
+    ],
+    "encoding": {
+     "x": {
+      "field": "jahr",
+      "type": "quantitative",
+      "scale": {
+       "domain": [
+        1795,
+        1900
+       ],
+       "nice": false
+      },
+      "axis": {
+       "values": [
+        1800,
+        1820,
+        1840,
+        1868
+       ],
+       "format": "d",
+       "title": null
+      }
+     },
+     "color": {
+      "field": "holzart_de",
+      "type": "nominal",
+      "legend": null,
+      "scale": {
+       "domain": [
+        "Bauholz",
+        "Blochholz",
+        "Feuerholz"
+       ],
+       "range": [
+        "@accent",
+        "@accent3",
+        "@accent2"
+       ]
+      }
+     }
+    },
+    "layer": [
+     {
+      "mark": {
+       "type": "rule",
+       "strokeDash": [
+        3,
+        3
+       ],
+       "color": "@muted"
+      },
+      "encoding": {
+       "y": {
+        "datum": 100
+       },
+       "x": null,
+       "color": null
+      }
+     },
+     {
+      "mark": {
+       "type": "line",
+       "strokeWidth": 2.5
+      },
+      "encoding": {
+       "y": {
+        "field": "index",
+        "type": "quantitative",
+        "scale": {
+         "domain": [
+          94,
+          316
+         ]
+        },
+        "axis": {
+         "title": {
+          "de": "Preis, 1800 = 100",
+          "en": "Price, 1800 = 100"
+         },
+         "values": [
+          100,
+          150,
+          200,
+          250,
+          300
+         ]
+        }
+       }
+      }
+     },
+     {
+      "mark": {
+       "type": "point",
+       "filled": true,
+       "size": 60,
+       "opacity": 1
+      },
+      "encoding": {
+       "y": {
+        "field": "index",
+        "type": "quantitative"
+       },
+       "tooltip": [
+        {
+         "field": {
+          "de": "holzart_de",
+          "en": "holzart_en"
+         },
+         "type": "nominal",
+         "title": {
+          "de": "Sortiment",
+          "en": "Assortment"
+         }
+        },
+        {
+         "field": "jahr",
+         "title": {
+          "de": "Jahr",
+          "en": "Year"
+         },
+         "format": "d"
+        },
+        {
+         "field": "preis_text",
+         "type": "nominal",
+         "title": {
+          "de": "Preis, Sgr. je Kubikfuß (gedruckt)",
+          "en": "Price, Sgr. per cubic foot (as printed)"
+         }
+        },
+        {
+         "field": "index",
+         "title": {
+          "de": "Index, 1800 = 100",
+          "en": "Index, 1800 = 100"
+         },
+         "format": ".0f"
+        }
+       ]
+      }
+     },
+     {
+      "transform": [
+       {
+        "filter": "datum.jahr == 1868"
+       },
+       {
+        "calculate": {
+         "de": "datum.holzart_de + ' ×' + format(datum.index / 100, '.1f')",
+         "en": "datum.holzart_en + ' ×' + format(datum.index / 100, '.1f')"
+        },
+        "as": "endlabel"
+       }
+      ],
+      "mark": {
+       "type": "text",
+       "align": "left",
+       "dx": 9,
+       "style": "label"
+      },
+      "encoding": {
+       "y": {
+        "field": "index",
+        "type": "quantitative"
+       },
+       "text": {
+        "field": "endlabel"
+       },
+       "color": null
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "c3",
+   "dataset": "zuwachs",
+   "title": {
+    "de": "Privatwald wächst nach Brückners Schätzung nur ein Fünftel bis zwei Fünftel so schnell wie Domänenwald",
+    "en": "Brückner estimates private woodland grows at only 20 to 40 percent of the domain forest’s rate"
+   },
+   "caption": {
+    "de": "Geschätzter jährlicher Zuwachs je Hektar in Kubikmetern Raummaß, umgerechnet aus Klaftern je Morgen. Der Strich zeigt die Spanne, die Brückner nennt. Quelle: S. 241.",
+    "en": "Estimated annual growth per hectare in cubic meters of stacked wood, converted from Klafter per Morgen. The bar shows the range Brückner gives. Source: p. 241."
+   },
+   "vegalite": {
+    "height": {
+     "step": 56
+    },
+    "transform": [
+     {
+      "calculate": "datum.besitzart_nr == 1 ? 'kammer' : datum.besitzart_nr == 2 ? 'gemeinde' : 'privat'",
+      "as": "besitzer"
+     },
+     {
+      "calculate": "datum.rm_ha_von == datum.rm_ha_bis ? format(datum.rm_ha_von, '.1f') : format(datum.rm_ha_von, '.1f') + ' bis ' + format(datum.rm_ha_bis, '.1f')",
+      "as": "label_de"
+     },
+     {
+      "calculate": "datum.rm_ha_von == datum.rm_ha_bis ? format(datum.rm_ha_von, '.1f') : format(datum.rm_ha_von, '.1f') + ' to ' + format(datum.rm_ha_bis, '.1f')",
+      "as": "label_en"
+     }
+    ],
+    "encoding": {
+     "y": {
+      "field": {
+       "de": "besitzart_de",
+       "en": "besitzart_en"
+      },
+      "type": "nominal",
+      "sort": {
+       "field": "besitzart_nr",
+       "op": "min",
+       "order": "ascending"
+      },
+      "axis": {
+       "title": null,
+       "labelLimit": 300,
+       "labelFontSize": 12
+      }
+     },
+     "color": {
+      "field": "besitzer",
+      "type": "nominal",
+      "legend": null,
+      "scale": {
+       "domain": [
+        "kammer",
+        "gemeinde",
+        "privat"
+       ],
+       "range": [
+        "@accent",
+        "@accent2",
+        "@accent3"
+       ]
+      }
+     }
+    },
+    "layer": [
+     {
+      "transform": [
+       {
+        "filter": "datum.besitzart_nr == 1"
+       }
+      ],
+      "mark": {
+       "type": "rule",
+       "strokeDash": [
+        3,
+        3
+       ],
+       "color": "@muted"
+      },
+      "encoding": {
+       "x": {
+        "field": "rm_ha_von",
+        "type": "quantitative"
+       },
+       "y": null,
+       "color": null
+      }
+     },
+     {
+      "mark": {
+       "type": "rule",
+       "strokeWidth": 9,
+       "strokeCap": "round"
+      },
+      "encoding": {
+       "x": {
+        "field": "rm_ha_von",
+        "type": "quantitative",
+        "scale": {
+         "domain": [
+          0,
+          7
+         ]
+        },
+        "axis": {
+         "title": {
+          "de": "Zuwachs, m³ je ha und Jahr",
+          "en": "Growth, m³ per ha and year"
+         },
+         "values": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+         ],
+         "format": "d"
+        }
+       },
+       "x2": {
+        "field": "rm_ha_bis"
+       },
+       "tooltip": [
+        {
+         "field": {
+          "de": "besitzart_de",
+          "en": "besitzart_en"
+         },
+         "type": "nominal",
+         "title": {
+          "de": "Besitzart",
+          "en": "Type of owner"
+         }
+        },
+        {
+         "field": "zuwachs_text",
+         "type": "nominal",
+         "title": {
+          "de": "Zuwachs, Klafter je Morgen (gedruckt)",
+          "en": "Growth, Klafter per Morgen (as printed)"
+         }
+        },
+        {
+         "field": "rm_ha_von",
+         "title": {
+          "de": "m³ je ha, untere Grenze",
+          "en": "m³ per ha, lower limit"
+         },
+         "format": ".1f"
+        },
+        {
+         "field": "rm_ha_bis",
+         "title": {
+          "de": "m³ je ha, obere Grenze",
+          "en": "m³ per ha, upper limit"
+         },
+         "format": ".1f"
+        }
+       ]
+      }
+     },
+     {
+      "mark": {
+       "type": "text",
+       "align": "left",
+       "dx": 12,
+       "style": "label"
+      },
+      "encoding": {
+       "x": {
+        "field": "rm_ha_bis",
+        "type": "quantitative"
+       },
+       "text": {
+        "field": {
+         "de": "label_de",
+         "en": "label_en"
+        },
+        "type": "nominal"
+       },
+       "color": null
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "keywords": {
+  "de": [
+   "Wald",
+   "Forstwirtschaft",
+   "Holzpreise",
+   "Kammerforste",
+   "Privatwald",
+   "Nadelwald",
+   "Laubwald",
+   "Frankenwald",
+   "Klafter"
+  ],
+  "en": [
+   "forest",
+   "forestry",
+   "timber prices",
+   "chamber forests",
+   "private woodland",
+   "conifers",
+   "deciduous woodland",
+   "Frankenwald",
+   "Klafter"
+  ]
+ },
+ "related": [
+  "landwirtschaft",
+  "pflanzenwelt",
+  "bergbau",
+  "berufe-gewerbe"
+ ],
+ "generated_by": "Claude Sonnet 5.5 (Agent F5), aus 2 Einzelauswertungen zusammengeführt",
+ "date": "2026-10-02"
+}

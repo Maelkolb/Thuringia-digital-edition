@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="de" data-ui="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Daten und Downloads – Brückner 1870 – Digitale Edition</title>
+<meta name="description" content="Digitale Edition von Georg Brückners Volks- und Landeskunde des Fürstenthums Reuß j. L. (Gera 1870): Volltext mit Faksimile, Registern, Karte, Auswertungen und Suche.">
+<meta name="author" content="Tobias Perschl, Markus Gerstmeier, Malte Rehbein">
+<link rel="canonical" href="https://maelkolb.github.io/Thuringia-digital-edition/edition/daten.html">
+<meta property="og:title" content="Daten und Downloads – Brückner 1870 – Digitale Edition">
+<meta property="og:description" content="Digitale Edition von Georg Brückners Volks- und Landeskunde des Fürstenthums Reuß j. L. (Gera 1870): Volltext mit Faksimile, Registern, Karte, Auswertungen und Suche.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://maelkolb.github.io/Thuringia-digital-edition/assets/img/titelblatt.jpg">
+<link rel="icon" href="../assets/img/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="../assets/css/edition.css?v=1.1">
+<script>
+(function () {
+  // opened from disk (file://), browsers refuse the font files; an embedded copy of the fonts is used instead
+  var offline = location.protocol === 'file:';
+  (offline ? ['fonts-offline.css'] : ['newsreader-latin-wght-normal.woff2', 'source-sans-3-latin-wght-normal.woff2']).forEach(function (f) {
+    var l = document.createElement('link');
+    if (offline) { l.rel = 'stylesheet'; l.href = '../assets/css/' + f; }
+    else { l.rel = 'preload'; l.as = 'font'; l.type = 'font/woff2'; l.crossOrigin = ''; l.href = '../assets/fonts/' + f; }
+    document.head.appendChild(l);
+  });
+  var d = document.documentElement, ui = 'de', th = null;
+  try { ui = localStorage.getItem('rj.ui') || (navigator.language || 'de').slice(0, 2); th = localStorage.getItem('rj.theme'); } catch (e) {}
+  ui = ui === 'en' ? 'en' : 'de';
+  d.setAttribute('data-ui', ui); d.lang = ui;
+  if (th === 'dark' || th === 'light') d.setAttribute('data-theme', th);
+})();
+</script>
+</head>
+<body class="" data-root="../">
+<a class="skip-link" href="#main"><span data-l="de">Zum Inhalt</span><span data-l="en">Skip to content</span></a>
+<header class="site-header">
+  <div class="bar">
+    <button class="tool-btn menu-toggle" type="button" aria-label="Menü" data-de-aria-label="Menü" data-en-aria-label="Menu" aria-expanded="false" data-menu>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+    </button>
+    <a class="brand" href="../index.html"><b>Brückner 1870</b><span><span data-l="de">Digitale Edition</span><span data-l="en">Digital edition</span></span></a>
+    <nav class="nav" aria-label="Hauptnavigation" data-de-aria-label="Hauptnavigation" data-en-aria-label="Main navigation" data-nav>
+      <a href="../seite/3.html" ><span data-l="de">Lesen</span><span data-l="en">Read</span></a>
+      <a href="../inhalt.html" ><span data-l="de">Inhalt</span><span data-l="en">Contents</span></a>
+      <a href="../register/index.html" ><span data-l="de">Register</span><span data-l="en">Indexes</span></a>
+      <a href="../karte.html" ><span data-l="de">Karte</span><span data-l="en">Map</span></a>
+      <a href="../auswertungen/index.html" ><span data-l="de">Auswertungen</span><span data-l="en">Analyses</span></a>
+      <a href="../edition/einleitung.html" aria-current="page"><span data-l="de">Zur Edition</span><span data-l="en">About</span></a>
+    </nav>
+    <div class="header-tools">
+      <form class="quicksearch" role="search" aria-label="Schnellsuche" data-de-aria-label="Schnellsuche" data-en-aria-label="Quick search" action="../suche.html" data-quicksearch>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+        <label class="visually-hidden" for="qs"><span data-l="de">Suche</span><span data-l="en">Search</span></label>
+        <input id="qs" name="q" type="search" autocomplete="off" placeholder="Suchen" data-de-placeholder="Suchen" data-en-placeholder="Search" aria-autocomplete="list" aria-controls="qs-results">
+        <div class="qs-results" id="qs-results" role="listbox"></div>
+      </form>
+      <button class="tool-btn" type="button" data-lang-toggle><span data-l="de" lang="en">English</span><span data-l="en" lang="de">Deutsch</span></button>
+      <button class="tool-btn" type="button" data-theme-toggle aria-label="Helles oder dunkles Farbschema" data-de-aria-label="Helles oder dunkles Farbschema" data-en-aria-label="Light or dark colour scheme" title="Helles oder dunkles Farbschema" data-de-title="Helles oder dunkles Farbschema" data-en-title="Light or dark colour scheme">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+<main id="main">
+<div class="wrap">
+  <div class="reg-layout">
+    <nav class="reg-nav" aria-label="Edition">
+      <a href="einleitung.html" ><span data-l="de">Einleitung</span><span data-l="en">Introduction</span></a>
+      <a href="richtlinien.html" ><span data-l="de">Editionsrichtlinien</span><span data-l="en">Editorial principles</span></a>
+      <a href="daten.html" aria-current="page"><span data-l="de">Daten und Downloads</span><span data-l="en">Data and downloads</span></a>
+      <a href="zitieren.html" ><span data-l="de">Zitierweise</span><span data-l="en">How to cite</span></a>
+      <a href="impressum.html" ><span data-l="de">Impressum und Datenschutz</span><span data-l="en">Imprint and privacy</span></a>
+    </nav>
+    <article class="prose">
+<h1><span data-l="de">Daten und Downloads</span><span data-l="en">Data and downloads</span></h1>
+<p class="lede"><span data-l="de">Alle Daten der Edition sind frei nachnutzbar (CC BY 4.0). Die Faksimiles stellt die Bayerische Staatsbibliothek über IIIF bereit.</span><span data-l="en">All data of the edition can be reused freely (CC BY 4.0). The facsimiles are provided by the Bavarian State Library via IIIF.</span></p>
+<h2><span data-l="de">Gesamtausgabe</span><span data-l="en">Complete edition</span></h2>
+<ul>
+<li><a href="../daten/brueckner1870.tei.xml" download><b>TEI P5</b></a>: <span data-l="de">das ganze Buch in einer Datei: Gliederung, Seitenumbrüche mit Faksimile-Verweis, Kolumnentitel, Bogensignaturen, Tabellen, Fußnoten, Entitäten mit Normdaten im &lt;standOff&gt;, dazu die Druckzeilen als &lt;lb/&gt; mit Bildregionen (&lt;zone&gt;) im Faksimile.</span><span data-l="en">the whole book in one file: structure, page breaks linked to the facsimile, running heads, signature marks, tables, footnotes, entities with authority records in &lt;standOff&gt;, plus the printed lines as &lt;lb/&gt; with image regions (&lt;zone&gt;) in the facsimile.</span></li>
+<li><a href="../daten/register.csv" download><b><span data-l="de">Register (CSV)</span><span data-l="en">Indexes (CSV)</span></b></a>, <a href="../daten/register.json" download>JSON</a>: <span data-l="de">alle Registereinträge mit Klasse, Art, Normdaten, Koordinaten und Seiten.</span><span data-l="en">all index entries with class, kind, authority identifiers, coordinates and pages.</span></li>
+<li><a href="../daten/ortsartikel.json" download><b><span data-l="de">Ortsartikel (JSON)</span><span data-l="en">Place articles (JSON)</span></b></a>: <span data-l="de">strukturierte Daten aus den Ortsbeschreibungen des II. Theils.</span><span data-l="en">structured data from the place descriptions of Part II.</span></li>
+</ul>
+<h2 id="abschnitte"><span data-l="de">Je Abschnitt</span><span data-l="en">Per section</span></h2>
+<p><span data-l="de">Jeder Abschnitt des Inhaltsverzeichnisses steht als eigenes TEI-Dokument bereit, genau von seiner Überschrift bis zum Beginn des nächsten Abschnitts. Dieselben Downloads bietet in der Leseansicht die Schaltfläche „Export“.</span><span data-l="en">Every section of the table of contents is available as a TEI document of its own, from its heading to the start of the next section. The “Export” button in the reading view offers the same downloads.</span></p>
+<table class="export-table sections">
+<tr class="d1"><th scope="row"><span lang="de"><span data-l="de">Titelei</span><span data-l="en">Front matter</span></span> <span class="muted"><span data-l="de">S.</span><span data-l="en">pp.</span> I–VIII</span></th><td><a href="../daten/abschnitte/front.xml" download>TEI-XML</a></td></tr>
+<tr class="d2"><th scope="row"><span lang="de"><span data-l="de">Titelblatt</span><span data-l="en">Title page</span></span> <span class="muted"><span data-l="de">S.</span><span data-l="en">pp.</span> I–II</span></th><td><a href="../daten/abschnitte/titel.xml" download>TEI-XML</a></td></tr>
+<tr class="d2"><th scope="row"><span lang="de"><span data-l="de">Vorwort</span><span data-l="en">Preface</span></span> <span class="muted"><span data-l="de">S.</span><span data-l="en">pp.</span> III–VI</span></th><td><a href="../daten/abschnitte/vorwort.xml" download>TEI-XML</a></td></tr>
+<tr class="d2"><th scope="row"><span lang="de"><span data-l="de">Inhalts-Uebersicht</span><span data-l="en">Table of contents</span></span> <span class="muted"><span data-l="de">S.</span><span data-l="en">pp.</span> VII–VIII</span></th><td><a href="../daten/abschnitte/inhalt.xml" download>TEI-XML</a></td></tr>
+<tr class="d1"><th scope="row"><span lang="de"><span data-l="de">I. Theil: Allgemeine Landes- und Volkskunde des Fürstenthums Reuß j. L.</span><span data-l="en">Part I: General geography and ethnography of the Principality of Reuss (Younger Line)</span></span> <span class="muted"><span data-l="de">S.</span><span data-l="en">pp.</span> 1–404</span></th><td><a href="../daten/abschnitte/t1.xml" download>TEI-XML</a></td></tr>
+<tr class="d2"><th scope="row"><span lang="de"><span data-l="de">I. Die Natur des Landes</span><span data-l="en">I. The nature of the land</span></span> <span class="muted"><span data-l="de">S.</span><span data-l="en">pp.</span> 3–90</span></th><td><a href="../daten/abschnitte/t1-1.xml" download>TEI-XML</a></td></tr>
+<tr class="d3"><th scope="row"><span lang="de"><span data-l="de">1) Ueberblick und Bild des Ganzen</span><span data-l="en">1) Overview and picture of the whole</span></span> <span class="muted"><span data-l="de">S.</span><span data-l="en">pp.</span> 3–5</span></th><td><a href="../daten/abschnitte/t1-1-1.xml" download>TEI-XML</a></td></tr>
+<tr class="d3"><th scope="row"><span lang="de"><span data-l="de">2) Mathematische Lage</span><span data-l="en">2) Mathematical position</span></span> <span class="muted"><span data-l="de">S.</span><span data-l="en">pp.</span> 6–7</span></th><td><a href="../daten/abschnitte/t1-1-2.xml" download>TEI-XML</a></td></tr>
+<tr class="d3"><th scope="row"><span lang="de"><span data-l="de">3) Größe oder Umfang der Bodenfläche</span><span data-l="en">3) Size or extent of the land surface</span></span> <span class="muted"><span data-l="de">S.</span><span data-l="en">pp.</span> 7–8</span></th><td><a href="../daten/abschnitte/t1-1-3.xml" download>TEI-XML</a></td></tr>
+<tr class="d3"><th scope="row"><span lang="de"><span data-l="de">4) Plastik</span><span data-l="en">4) Relief</span></span> <span class="muted"><span data-l="de">S.</span><span data-l="en">pp.</span> 9–24</span></th><td><a href="../daten/abschnitte/t1-1-4.xml" download>TEI-XML</a></td></tr>
+<tr class="d3"><th scope="row"><span lang="de"><span data-l="de">5) Geognostische Uebersicht</span><span data-l="en">5) Geological overview</span></span> <span class="muted"><span data-l="de">S.</span><span data-l="en">pp.</span> 24–41</span></th><td><a href="../daten/abschnitte/t1-1-5.xml" download>TEI-XML</a></td></tr>
+<tr class="d3"><th scope="row"><span lang="de"><span data-l="de">6) Bewässerung</span><span data-l="en">6) Waters</span></span> <span class="muted"><span data-l="de">S.</span><span data-l="en">pp.</span> 41–53</span></th><td><a href="../daten/abschnitte/t1-1-6.xml" download>TEI-XML</a></td></tr>
+<tr class="d3"><th scope="row"><span lang="de"><span data-l="de">7) Klima</span><span data-l="en">7) Climate</span></span> <span class="muted"><span data-l="de">S.</span><span data-l="en">pp.</span> 53–70</span></th><td><a href="../daten/abschnitte/t1-1-7.xml" download>TEI-XML</a></td></tr>
+<tr class="d3"><th scope="row"><span lang="de"><span data-l="de">8) Vegetationsverhältnisse</span><span data-l="en">8) Vegetation</span></span> <span class="muted"><span data-l="de">S.</span><span data-l="en">pp.</span> 70–81</span></th><td><a href="../daten/abschnitte/t1-1-8.xml" download>TEI-XML</a></td></tr>
+<tr class="d3"><th scope="row"><span lang="de">9) Fauna</span> <span class="muted"><span data-l="de">S.</span><span data-l="en">pp.</span> 81–90</span></th><td><a href="../daten/abschnitte/t1-1-9.xml" download>TEI-XML</a></td></tr>
+<tr class="d2"><th scope="row"><span lang="de"><span data-l="de">II. Das Volk</span><span data-l="en">II. The people</span></span> <span class="muted"><span data-l="de">S.</span><span data-l="en">pp.</span> 91–207</span></th><td><a href="../daten/abschnitte/t1-2.xml" download>TEI-XML</a></td></tr>
+<tr class="d3"><th scope="row"><span lang="de"><span data-l="de">1) Statistik</span><span data-l="en">1) Statistics</span></span> <span class="muted"><span data-l="de">S.</span><span data-l="en">pp.</span> 91–118</span></th><td><a href="../daten/abschnitte/t1-2-1.xml" download>TEI-XML</a></td></tr>
+<tr class="d3"><th scope="row"><span lang="de"><span data-l="de">2) Wohnliche Einrichtung</span><span data-l="en">2) Housing</span></span> <span class="muted"><span data-l="de">S.</span><span data-l="en">pp.</span> 119–138</span></th><td><a href="../daten/abschnitte/t1-2-2.xml" download>TEI-XML</a></td></tr>
+<tr class="d3"><th scope="row"><span lang="de"><span data-l="de">3) Mundart</span><span data-l="en">3) Dialect</span></span> <span class="muted"><span data-l="de">S.</span><span data-l="en">pp.</span> 138–154</span></th><td><a href="../daten/abschnitte/t1-2-3.xml" download>TEI-XML</a></td></tr>
+<tr class="d3"><th scope="row"><span lang="de"><span data-l="de">4) Kleid und Kost</span><span data-l="en">4) Dress and diet</span></span> <span class="muted"><span data-l="de">S.</span><span data-l="en">pp.</span> 154–161</span></th><td><a href="../daten/abschnitte/t1-2-4.xml" download>TEI-XML</a></td></tr>
+<tr class="d3"><th scope="row"><span lang="de"><span data-l="de">5) Gestalt und Character</span><span data-l="en">5) Physique and character</span></span> <span class="muted"><span data-l="de">S.</span><span data-l="en">pp.</span> 161–168</span></th><td><a href="../daten/abschnitte/t1-2-5.xml" download>TEI-XML</a></td></tr>
+<tr class="d3"><th scope="row"><span lang="de"><span data-l="de">6) Volkskrankheit und Volksmedicin</span><span data-l="en">6) Common diseases and folk medicine</span></span> <span class="muted"><span data-l="de">S.</span><span data-l="en">pp.</span> 168–177</span></th><td><a href="../daten/abschnitte/t1-2-6.xml" download>TEI-XML</a></td></tr>
+<tr class="d3"><th scope="row"><span lang="de"><span data-l="de">7) Sitte und Brauch</span><span data-l="en">7) Customs</span></span> <span class="muted"><span data-l="de">S.</span><span data-l="en">pp.</span> 177–195</span></th><td><a href="../daten/abschnitte/t1-2-7.xml" download>TEI-XML</a></td></tr>
+<tr class="d3"><th scope="row"><span lang="de"><span data-l="de">8) Sage und Glaube</span><span data-l="en">8) Legend and belief</span></span> <span class="muted"><span data-l="de">S.</span><span data-l="en">pp.</span> 196–207</span></th><td><a href="../daten/abschnitte/t1-2-8.xml" download>TEI-XML</a></td></tr>
+<tr class="d2"><th scope="row"><span lang="de"><span data-l="de">III. Die Volksbetriebsamkeit</span><span data-l="en">III. Economic activity</span></span> <span class="muted"><span data-l="de">S.</span><span data-l="en">pp.</span> 208–262</span></th><td><a href="../daten/abschnitte/t1-3.xml" download>TEI-XML</a></td></tr>
+<tr class="d3"><th scope="row"><span lang="de"><span data-l="de">1) Die Berufsklassen im Allgemeinen</span><span data-l="en">1) Occupational classes in general</span></span> <span class="muted"><span data-l="de">S.</span><span data-l="en">pp.</span> 208–213</span></th><td><a href="../daten/abschnitte/t1-3-1.xml" download>TEI-XML</a></td></tr>
+<tr class="d3"><th scope="row"><span lang="de"><span data-l="de">2) Landwirthschaft</span><span data-l="en">2) Agriculture</span></span> <span class="muted"><span data-l="de">S.</span><span data-l="en">pp.</span> 213–231</span></th><td><a href="../daten/abschnitte/t1-3-2.xml" download>TEI-XML</a></td></tr>
+<tr class="d3"><th scope="row"><span lang="de"><span data-l="de">3) Viehzucht</span><span data-l="en">3) Livestock</span></span> <span class="muted"><span data-l="de">S.</span><span data-l="en">pp.</span> 231–236</span></th><td><a href="../daten/abschnitte/t1-3-3.xml" download>TEI-XML</a></td></tr>
+<tr class="d3"><th scope="row"><span lang="de"><span data-l="de">4) Forstwirthschaft</span><span data-l="en">4) Forestry</span></span> <span class="muted"><span data-l="de">S.</span><span data-l="en">pp.</span> 236–241</span></th><td><a href="../daten/abschnitte/t1-3-4.xml" download>TEI-XML</a></td></tr>
+<tr class="d3"><th scope="row"><span lang="de"><span data-l="de">5) Bergbau</span><span data-l="en">5) Mining</span></span> <span class="muted"><span data-l="de">S.</span><span data-l="en">pp.</span> 242–252</span></th><td><a href="../daten/abschnitte/t1-3-5.xml" download>TEI-XML</a></td></tr>
+<tr class="d3"><th scope="row"><span lang="de"><span data-l="de">6) Industrie</span><span data-l="en">6) Industry</span></span> <span class="muted"><span data-l="de">S.</span><span data-l="en">pp.</span> 252–258</span></th><td><a href="../daten/abschnitte/t1-3-6.xml" download>TEI-XML</a></td></tr>
+<tr class="d3"><th scope="row"><span lang="de"><span data-l="de">7) Handel und Verkehr</span><span data-l="en">7) Trade and transport</span></span> <span class="muted"><span data-l="de">S.</span><span data-l="en">pp.</span> 258–262</span></th><td><a href="../daten/abschnitte/t1-3-7.xml" download>TEI-XML</a></td></tr>
+<tr class="d2"><th scope="row"><span lang="de"><span data-l="de">IV. Der Staat</span><span data-l="en">IV. The state</span></span> <span class="muted"><span data-l="de">S.</span><span data-l="en">pp.</span> 263–310</span></th><td><a href="../daten/abschnitte/t1-4.xml" download>TEI-XML</a></td></tr>
+<tr class="d3"><th scope="row"><span lang="de"><span data-l="de">1) Verfassung</span><span data-l="en">1) Constitution</span></span> <span class="muted"><span data-l="de">S.</span><span data-l="en">pp.</span> 263–271</span></th><td><a href="../daten/abschnitte/t1-4-1.xml" download>TEI-XML</a></td></tr>
+<tr class="d4"><th scope="row"><span lang="de"><span data-l="de">a) Frühere Hauptverträge und Ordnungen</span><span data-l="en">a) Earlier principal treaties and ordinances</span></span> <span class="muted"><span data-l="de">S.</span><span data-l="en">pp.</span> 263–267</span></th><td><a href="../daten/abschnitte/t1-4-1a.xml" download>TEI-XML</a></td></tr>
+<tr class="d4"><th scope="row"><span lang="de"><span data-l="de">b) Gegenwärtige Staatsverfassung</span><span data-l="en">b) Present constitution</span></span> <span class="muted"><span data-l="de">S.</span><span data-l="en">pp.</span> 267–269</span></th><td><a href="../daten/abschnitte/t1-4-1b.xml" download>TEI-XML</a></td></tr>
+<tr class="d4"><th scope="row"><span lang="de"><span data-l="de">c) Gemeindeverfassung</span><span data-l="en">c) Municipal constitution</span></span> <span class="muted"><span data-l="de">S.</span><span data-l="en">pp.</span> 269–271</span></th><td><a href="../daten/abschnitte/t1-4-1c.xml" download>TEI-XML</a></td></tr>
+<tr class="d3"><th scope="row"><span lang="de"><span data-l="de">2) Militair</span><span data-l="en">2) Military</span></span> <span class="muted"><span data-l="de">S.</span><span data-l="en">pp.</span> 271–272</span></th><td><a href="../daten/abschnitte/t1-4-2.xml" download>TEI-XML</a></td></tr>
+<tr class="d3"><th scope="row"><span lang="de"><span data-l="de">3) Staatsverwaltung</span><span data-l="en">3) State administration</span></span> <span class="muted"><span data-l="de">S.</span><span data-l="en">pp.</span> 273–280</span></th><td><a href="../daten/abschnitte/t1-4-3.xml" download>TEI-XML</a></td></tr>
+<tr class="d3"><th scope="row"><span lang="de"><span data-l="de">4) Rechtspflege</span><span data-l="en">4) Administration of justice</span></span> <span class="muted"><span data-l="de">S.</span><span data-l="en">pp.</span> 280–289</span></th><td><a href="../daten/abschnitte/t1-4-4.xml" download>TEI-XML</a></td></tr>
+<tr class="d3"><th scope="row"><span lang="de"><span data-l="de">5) Kirche</span><span data-l="en">5) Church</span></span> <span class="muted"><span data-l="de">S.</span><span data-l="en">pp.</span> 289–296</span></th><td><a href="../daten/abschnitte/t1-4-5.xml" download>TEI-XML</a></td></tr>
+<tr class="d3"><th scope="row"><span lang="de"><span data-l="de">6) Schule</span><span data-l="en">6) Schools</span></span> <span class="muted"><span data-l="de">S.</span><span data-l="en">pp.</span> 296–300</span></th><td><a href="../daten/abschnitte/t1-4-6.xml" download>TEI-XML</a></td></tr>
+<tr class="d3"><th scope="row"><span lang="de"><span data-l="de">7) Kunst- und wissenschaftliche Sammlungen</span><span data-l="en">7) Art and scientific collections</span></span> <span class="muted"><span data-l="de">S.</span><span data-l="en">pp.</span> 301</span></th><td><a href="../daten/abschnitte/t1-4-7.xml" download>TEI-XML</a></td></tr>
+<tr class="d3"><th scope="row"><span lang="de"><span data-l="de">8) Armenwesen</span><span data-l="en">8) Poor relief</span></span> <span class="muted"><span data-l="de">S.</span><span data-l="en">pp.</span> 301–310</span></th><td><a href="../daten/abschnitte/t1-4-8.xml" download>TEI-XML</a></td></tr>
+<tr class="d2"><th scope="row"><span lang="de"><span data-l="de">V. Geschichte des Landes und seines Fürstenhauses</span><span data-l="en">V. History of the land and its princely house</span></span> <span class="muted"><span data-l="de">S.</span><span data-l="en">pp.</span> 311–404</span></th><td><a href="../daten/abschnitte/t1-5.xml" download>TEI-XML</a></td></tr>
+<tr class="d3"><th scope="row"><span lang="de">1. Aelteste Zeit bis zur Unterjochung der Sorben</span> <span class="muted"><span data-l="de">S.</span><span data-l="en">pp.</span> 311–319</span></th><td><a href="../daten/abschnitte/t1-5-1.xml" download>TEI-XML</a></td></tr>
+<tr class="d3"><th scope="row"><span lang="de">2. Das Voigtland anfangs unter verschiedenen Gewalten, dann unter den drei Linien der edlen Voigte von Weida, Gera und Plauen bis zum Aussterben der zwei ersten Linien. Größter Landerwerb und größter Landverlust der Voigte</span> <span class="muted"><span data-l="de">S.</span><span data-l="en">pp.</span> 319–373</span></th><td><a href="../daten/abschnitte/t1-5-2.xml" download>TEI-XML</a></td></tr>
+<tr class="d3"><th scope="row"><span lang="de">3. Das Reußenland zuerst unter drei, darauf unter zwei Linien</span> <span class="muted"><span data-l="de">S.</span><span data-l="en">pp.</span> 373–404</span></th><td><a href="../daten/abschnitte/t1-5-3.xml" download>TEI-XML</a></td></tr>
+<tr class="d1"><th scope="row"><span lang="de"><span data-l="de">II. Theil: Ortskunde des Fürstenthums Reuß j. L.</span><span data-l="en">Part II: Topography of the Principality of Reuss (Younger Line)</span></span> <span class="muted"><span data-l="de">S.</span><span data-l="en">pp.</span> 405–825</span></th><td><a href="../daten/abschnitte/t2.xml" download>TEI-XML</a></td></tr>
+<tr class="d2"><th scope="row"><span lang="de"><span data-l="de">I. Der Landestheil oder Landrathsamtsbezirk Gera</span><span data-l="en">I. The district of Gera</span></span> <span class="muted"><span data-l="de">S.</span><span data-l="en">pp.</span> 407–569</span></th><td><a href="../daten/abschnitte/t2-1.xml" download>TEI-XML</a></td></tr>
+<tr class="d2"><th scope="row"><span lang="de"><span data-l="de">II. Der Landestheil Schleiz oder das Wisentaland</span><span data-l="en">II. The district of Schleiz or the Wisenta land</span></span> <span class="muted"><span data-l="de">S.</span><span data-l="en">pp.</span> 570–705</span></th><td><a href="../daten/abschnitte/t2-2.xml" download>TEI-XML</a></td></tr>
+<tr class="d2"><th scope="row"><span lang="de"><span data-l="de">III. Der Landestheil Lobenstein-Ebersdorf</span><span data-l="en">III. The district of Lobenstein-Ebersdorf</span></span> <span class="muted"><span data-l="de">S.</span><span data-l="en">pp.</span> 706–825</span></th><td><a href="../daten/abschnitte/t2-3.xml" download>TEI-XML</a></td></tr>
+<tr class="d1"><th scope="row"><span lang="de"><span data-l="de">Anhang</span><span data-l="en">Back matter</span></span> <span class="muted"><span data-l="de">S.</span><span data-l="en">pp.</span> 826–840</span></th><td><a href="../daten/abschnitte/back.xml" download>TEI-XML</a></td></tr>
+<tr class="d2"><th scope="row"><span lang="de"><span data-l="de">Ortsregister</span><span data-l="en">Index of places</span></span> <span class="muted"><span data-l="de">S.</span><span data-l="en">pp.</span> 826–829</span></th><td><a href="../daten/abschnitte/ortsregister.xml" download>TEI-XML</a></td></tr>
+<tr class="d2"><th scope="row"><span lang="de"><span data-l="de">Zusätze und Berichtigungen</span><span data-l="en">Addenda and corrigenda</span></span> <span class="muted"><span data-l="de">S.</span><span data-l="en">pp.</span> 830–834</span></th><td><a href="../daten/abschnitte/berichtigungen.xml" download>TEI-XML</a></td></tr>
+<tr class="d2"><th scope="row"><span lang="de"><span data-l="de">Subscriptionsliste</span><span data-l="en">List of subscribers</span></span> <span class="muted"><span data-l="de">S.</span><span data-l="en">pp.</span> 835–840</span></th><td><a href="../daten/abschnitte/subscribenten.xml" download>TEI-XML</a></td></tr>
+</table>
+<h2><span data-l="de">Je Seite</span><span data-l="en">Per page</span></h2>
+<p><span data-l="de">Zu jeder Seite gibt es TEI-XML, JSON (das kanonische Datenformat der Edition mit Blöcken, Tabellen, Annotationen und Korrekturprotokoll) und reinen Text. Die Links stehen in der Leseansicht unter „Export“, etwa</span><span data-l="en">Every page is available as TEI XML, JSON (the edition’s canonical data format with blocks, tables, annotations and correction log) and plain text. The links are in the reading view under “Export”, for example</span> <a class="mono" href="../daten/seiten/54.xml">daten/seiten/54.xml</a>, <a class="mono" href="../daten/seiten/54.json">54.json</a>, <a class="mono" href="../daten/seiten/54.txt">54.txt</a>. <span data-l="de">Jede Tabelle des Buches ist zusätzlich als CSV abrufbar (Link unter der Tabelle).</span><span data-l="en">Every table of the book is also available as CSV (link below the table).</span></p>
+<h2><span data-l="de">Auswertungen</span><span data-l="en">Analyses</span></h2>
+<p><span data-l="de">Jede Auswertung steht als JSON (Daten, Diagrammspezifikation, Texte) und ihre Datensätze als CSV zur Verfügung (Links auf der jeweiligen Seite). Das Format ist im JSON-Schema der Edition beschrieben.</span><span data-l="en">Each analysis is available as JSON (data, chart specification, texts), its datasets as CSV (links on each analysis page). The format is described by the edition’s JSON schema.</span></p>
+<h2><span data-l="de">Faksimile</span><span data-l="en">Facsimile</span></h2>
+<ul>
+<li>IIIF-Manifest: <a class="mono" href="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11005578/manifest">api.digitale-sammlungen.de/iiif/presentation/v2/bsb11005578/manifest</a></li>
+<li><span data-l="de">Digitalisat in den Digitalen Sammlungen der BSB</span><span data-l="en">Digital copy in the BSB Digital Collections</span>: <a href="https://www.digitale-sammlungen.de/de/view/bsb11005578">digitale-sammlungen.de/view/bsb11005578</a></li>
+<li>URN: <a class="mono" href="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb11005578-4">urn:nbn:de:bvb:12-bsb11005578-4</a></li>
+</ul>
+<h2><span data-l="de">Lizenzen</span><span data-l="en">Licences</span></h2>
+<ul>
+<li><span data-l="de">Transkription, Annotationen, Register, Ortsartikel, Auswertungen und Texte der Edition:</span><span data-l="en">Transcription, annotations, indexes, place articles, analyses and edition texts:</span> <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.</li>
+<li><span data-l="de">Faksimiles: Bayerische Staatsbibliothek München,</span><span data-l="en">Facsimiles: Bavarian State Library, Munich,</span> <a href="https://rightsstatements.org/vocab/NoC-NC/1.0/">NoC-NC 1.0</a>.</li>
+<li><span data-l="de">Koordinaten: GeoNames (CC BY 4.0); Taxonomie: GBIF Backbone (CC BY 4.0); Wikidata (CC0). Kartengrundlage: TopPlusOpen © BKG (dl-de/by-2-0), ersatzweise OpenStreetMap (ODbL).</span><span data-l="en">Coordinates: GeoNames (CC BY 4.0); taxonomy: GBIF Backbone (CC BY 4.0); Wikidata (CC0). Basemap: TopPlusOpen © BKG (dl-de/by-2-0), OpenStreetMap (ODbL) as fallback.</span></li>
+<li><span data-l="de">Schriften (Newsreader, Source Sans 3, IBM Plex Mono): SIL Open Font License; Programmbibliotheken (OpenSeadragon, Leaflet, Vega): BSD-Lizenzen.</span><span data-l="en">Fonts (Newsreader, Source Sans 3, IBM Plex Mono): SIL Open Font License; libraries (OpenSeadragon, Leaflet, Vega): BSD licences.</span></li>
+</ul>
+    </article>
+  </div>
+</div>
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <div>
+      <p><b>Georg Brückner: Volks- und Landeskunde des Fürstenthums Reuß j. L. Gera 1870</b><br>
+      <span data-l="de">Digitale Edition, herausgegeben von Tobias Perschl, Markus Gerstmeier und Malte Rehbein, Lehrstuhl für Computational Humanities, Universität Passau.</span><span data-l="en">Digital edition, edited by Tobias Perschl, Markus Gerstmeier and Malte Rehbein, Chair of Computational Humanities, University of Passau.</span>
+      Version 1.1, 2026-10-02.</p>
+      <p><span data-l="de">Grundlage ist das Exemplar der Bayerischen Staatsbibliothek München (Germ.sp. 78 ld).</span><span data-l="en">Based on the copy in the Bayerische Staatsbibliothek Munich (Germ.sp. 78 ld).</span>
+      <span data-l="de">Transkription, Annotationen und Daten stehen unter</span><span data-l="en">Transcription, annotations and data are licensed under</span> <a href="https://creativecommons.org/licenses/by/4.0/" rel="license">CC BY 4.0</a><span data-l="de">, die Faksimiles unter</span><span data-l="en">, the facsimiles under</span> <a href="https://rightsstatements.org/vocab/NoC-NC/1.0/">NoC-NC 1.0</a>.</p>
+    </div>
+    <div>
+      <h2><span data-l="de">Zur Edition</span><span data-l="en">About the edition</span></h2>
+      <ul>
+        <li><a href="../edition/einleitung.html"><span data-l="de">Einleitung</span><span data-l="en">Introduction</span></a></li>
+        <li><a href="../edition/richtlinien.html"><span data-l="de">Editionsrichtlinien</span><span data-l="en">Editorial principles</span></a></li>
+        <li><a href="../edition/zitieren.html"><span data-l="de">Zitierweise</span><span data-l="en">How to cite</span></a></li>
+        <li><a href="../edition/daten.html"><span data-l="de">Daten und Downloads</span><span data-l="en">Data and downloads</span></a></li>
+      </ul>
+    </div>
+    <div>
+      <h2><span data-l="de">Erschließung</span><span data-l="en">Finding aids</span></h2>
+      <ul>
+        <li><a href="../suche.html"><span data-l="de">Volltextsuche</span><span data-l="en">Full-text search</span></a></li>
+        <li><a href="../register/sachregister.html"><span data-l="de">Sachregister</span><span data-l="en">Subject index</span></a></li>
+        <li><a href="../register/glossar.html"><span data-l="de">Glossar</span><span data-l="en">Glossary</span></a></li>
+        <li><a href="../edition/impressum.html"><span data-l="de">Impressum und Datenschutz</span><span data-l="en">Imprint and privacy</span></a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+<script src="../assets/js/norm.js?v=1.1" defer></script>
+<script src="../assets/js/edition.js?v=1.1" defer></script>
+</body>
+</html>

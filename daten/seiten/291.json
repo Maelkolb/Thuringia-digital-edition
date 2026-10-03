@@ -1,0 +1,158 @@
+{
+ "seq": 303,
+ "label": "291",
+ "slug": "291",
+ "iiif": {
+  "service": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb11005578_00303",
+  "canvas": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11005578/canvas/303",
+  "width": 1668,
+  "height": 2692
+ },
+ "kind": "text",
+ "running_header": "5. Kirche.",
+ "signature": "19*",
+ "blocks": [
+  {
+   "id": "b1",
+   "type": "paragraph",
+   "src": 0,
+   "text": "Die früher zwischen dem reußischen und sächsisch-altenburgischen Consistorium hinsichtlich der jura circa sacra obgewalteten Differenzen wurden (nach erfolglosen Tagsatzungen 1614 zu Weida, 1720, 1724 und 1743 zu Ronneburg und Zeitz) 1745 zu Eisenberg gehoben und den 18. August 1746 ratificirt, wonach Altenburg die jura episcopalia und jurisdictio ecclesiastica über St. Gangloff, Bethenhausen und Hartmannsdorf an Reuß, dieses aber die Episcopalrechte über die reußischen, zu altenburgischen Pfarreien gehörigen Ortschaften an Altenburg abtrat. Die sich später in den gemischten Parochien über deren kirchliche und scholare Verhältnisse herausgestellten Differenzen hob der 1859 (7. Juni) mit S.-Altenburg abgeschlossene Receß. Die mit Reuß ä. L. geführten Streitigkeiten wegen Ebersdorf wurden 1745 beseitigt, dagegen sind die Irrungen wegen der Parochie Langenwolschendorf trotz des sog. zeulenroder Recesses, wonach dem Patron der Mutterkirche zu Zeulenroda die Vocation, Confirmation und Investitur des Pfarrers für Langenwolschendorf, aber nicht das Episcopalrecht dieser Parochie zugestanden wurde, von Zeit zu Zeit wieder aufgetaucht und streng genommen ohne festen Austrag geblieben.",
+   "spans": [
+    [
+     24,
+     34,
+     "Organisation"
+    ],
+    [
+     39,
+     77,
+     "Organisation"
+    ],
+    [
+     183,
+     188,
+     "Location"
+    ],
+    [
+     213,
+     222,
+     "Location"
+    ],
+    [
+     227,
+     232,
+     "Location"
+    ],
+    [
+     242,
+     251,
+     "Location"
+    ],
+    [
+     303,
+     312,
+     "Location"
+    ],
+    [
+     369,
+     381,
+     "Location"
+    ],
+    [
+     383,
+     395,
+     "Location"
+    ],
+    [
+     400,
+     413,
+     "Location"
+    ],
+    [
+     417,
+     421,
+     "Location"
+    ],
+    [
+     530,
+     539,
+     "Location"
+    ],
+    [
+     696,
+     708,
+     "Location"
+    ],
+    [
+     739,
+     749,
+     "Location"
+    ],
+    [
+     781,
+     790,
+     "Location"
+    ],
+    [
+     859,
+     877,
+     "Location"
+    ],
+    [
+     953,
+     963,
+     "Location"
+    ],
+    [
+     1023,
+     1041,
+     "Location"
+    ]
+   ],
+   "sec": "t1-4-5"
+  },
+  {
+   "id": "b2",
+   "type": "paragraph",
+   "src": 1,
+   "text": "Das Besetzungsrecht der geistlichen Landesstellen gehört entweder dem Landesherrn oder den Rittergutsbesitzern oder den Stadträthen; in allen diesen Fällen hatten aber nach der seitherigen Praxis die Inländer das selbstverständliche Vorrecht auf Vocirung vor den Ausländern, welche erst in Ermangelung von qualificirten Inländern Berücksichtigung finden konnten. Auf die Vocation, sobald für dieselbe durch Vermittlung der obersten Kircheninstanz die landesherrliche Genehmigung erlangt ist und die betreffende Gemeinde gegen Person, Lehre und Wandel des Vocirten nichts auszusetzen hat, folgt die Ordination (früher ausschließlich in Gera, jetzt) in der betreffenden Diöces und die Einführung am bestimmten Orte. Während im Mittelalter das Patronat der meisten Kirchen dem Adel und der geistlichen Macht (Orden und Stadtpfarrern) zustand, hat sich dies wesentlich geändert.",
+   "spans": [
+    [
+     635,
+     639,
+     "Location"
+    ]
+   ],
+   "sec": "t1-4-5"
+  },
+  {
+   "id": "b3",
+   "type": "paragraph",
+   "src": 2,
+   "text": "Es ist nämlich das Besetzungsrecht gegenwärtig:",
+   "spans": [],
+   "sec": "t1-4-5"
+  }
+ ],
+ "footnotes": [],
+ "corrections": [
+  {
+   "rule": "signature_from_paragraph",
+   "value": "19*"
+  }
+ ],
+ "provenance": {
+  "source": "colab-2026-03",
+  "model": "gemini-3-flash-preview",
+  "timestamp": "2026-03-04T13:42:35.439729",
+  "early_schema": false
+ },
+ "section_path": [
+  "t1",
+  "t1-4",
+  "t1-4-5"
+ ],
+ "sections": [
+  "t1-4-5"
+ ]
+}

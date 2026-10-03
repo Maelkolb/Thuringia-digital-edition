@@ -1,0 +1,100 @@
+{
+ "seq": 581,
+ "label": "569",
+ "slug": "569",
+ "iiif": {
+  "service": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb11005578_00581",
+  "canvas": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11005578/canvas/581",
+  "width": 1666,
+  "height": 2691
+ },
+ "kind": "text",
+ "running_header": "I. Der Landestheil oder Landrathsbezirk Gera.",
+ "signature": null,
+ "blocks": [
+  {
+   "id": "b1",
+   "type": "paragraph",
+   "src": 0,
+   "text": "Viehzucht als Hauptgeschäft, 1 daneben das Schmiedehandwerk und 1 die Ziegelei. Alle bauen ihr Jahresbrod. In dem wohlhabenden Orte 2 Kapitalisten und keine Ortsarmen. Lobenswerth auch das sittliche Verhalten der Einwohner. Bis auf 1 Taubstummen keine Gebrechlichen daselbst. Die Flur, auf drei Seiten von Sachsen, „dem sog. ziegenhierdschen Ländchen\", umschlossen, begreift 799 1/30 Morgen, größtentheils von mittlerem und gutem, kleinerentheils von geringem Boden. Der mittelgute Morgen wird zu 5 Thlr. Pacht geschätzt. In der Flur 12 Teiche. Ihre Haupttheile sind: Bornthal, Berg, Ziegenhügel, Lehmgruben, alte Heuwiesen, Tafeln, Schneefelder, Weidichtqueren, Kolmberg, Mühlbachswiesen, Rechenberg, Dolzenqueren, Krautäcker, Krunitzsch, Wipsenberg, Wipsengrund, Tännicht, Holzäcker, Krellsberg, Sommerberg. Die Localnamen Otticha, Kolm (Kulm), Krunitzsch, Dolze und Wipse, sowie die Dorfanlage beweisen den sorbischen Ursprung des Ortes. In den Jahren 1359 und 1361 begnadigt der Regent von Gera das Kloster Cronswitz mit Zinsen zu Ottichaw. Bezüglich des früheren Gerichts- und Lehnstandes sagen die Theilungsacten vom Jahre 1647: In diesem Orte hat Heinrich Nicol. v. Ende zu Kaimberg die Erb- und Obergerichte sammt Lehn und Zinsen. Später waren sie dem Rittergute zu Lichtenberg zugewiesen.",
+   "spans": [
+    [
+     306,
+     313,
+     "Location"
+    ],
+    [
+     325,
+     350,
+     "Location"
+    ],
+    [
+     537,
+     543,
+     "Environment"
+    ],
+    [
+     673,
+     688,
+     "Environment"
+    ],
+    [
+     716,
+     726,
+     "Environment"
+    ],
+    [
+     765,
+     773,
+     "Environment"
+    ],
+    [
+     994,
+     998,
+     "Location"
+    ],
+    [
+     1003,
+     1020,
+     "Organisation"
+    ],
+    [
+     1035,
+     1043,
+     "Location"
+    ],
+    [
+     1154,
+     1177,
+     "Person"
+    ],
+    [
+     1181,
+     1189,
+     "Location"
+    ],
+    [
+     1260,
+     1285,
+     "Organisation"
+    ]
+   ],
+   "sec": "t2-1"
+  }
+ ],
+ "footnotes": [],
+ "corrections": [],
+ "provenance": {
+  "source": "colab-2026-03",
+  "model": "gemini-3-flash-preview",
+  "timestamp": "2026-03-04T20:14:01.477846",
+  "early_schema": false
+ },
+ "section_path": [
+  "t2",
+  "t2-1"
+ ],
+ "sections": [
+  "t2-1"
+ ]
+}

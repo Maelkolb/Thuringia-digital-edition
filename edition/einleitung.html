@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="de" data-ui="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Einleitung – Brückner 1870 – Digitale Edition</title>
+<meta name="description" content="Digitale Edition von Georg Brückners Volks- und Landeskunde des Fürstenthums Reuß j. L. (Gera 1870): Volltext mit Faksimile, Registern, Karte, Auswertungen und Suche.">
+<meta name="author" content="Tobias Perschl, Markus Gerstmeier, Malte Rehbein">
+<link rel="canonical" href="https://maelkolb.github.io/Thuringia-digital-edition/edition/einleitung.html">
+<meta property="og:title" content="Einleitung – Brückner 1870 – Digitale Edition">
+<meta property="og:description" content="Digitale Edition von Georg Brückners Volks- und Landeskunde des Fürstenthums Reuß j. L. (Gera 1870): Volltext mit Faksimile, Registern, Karte, Auswertungen und Suche.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://maelkolb.github.io/Thuringia-digital-edition/assets/img/titelblatt.jpg">
+<link rel="icon" href="../assets/img/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="../assets/css/edition.css?v=1.1">
+<script>
+(function () {
+  // opened from disk (file://), browsers refuse the font files; an embedded copy of the fonts is used instead
+  var offline = location.protocol === 'file:';
+  (offline ? ['fonts-offline.css'] : ['newsreader-latin-wght-normal.woff2', 'source-sans-3-latin-wght-normal.woff2']).forEach(function (f) {
+    var l = document.createElement('link');
+    if (offline) { l.rel = 'stylesheet'; l.href = '../assets/css/' + f; }
+    else { l.rel = 'preload'; l.as = 'font'; l.type = 'font/woff2'; l.crossOrigin = ''; l.href = '../assets/fonts/' + f; }
+    document.head.appendChild(l);
+  });
+  var d = document.documentElement, ui = 'de', th = null;
+  try { ui = localStorage.getItem('rj.ui') || (navigator.language || 'de').slice(0, 2); th = localStorage.getItem('rj.theme'); } catch (e) {}
+  ui = ui === 'en' ? 'en' : 'de';
+  d.setAttribute('data-ui', ui); d.lang = ui;
+  if (th === 'dark' || th === 'light') d.setAttribute('data-theme', th);
+})();
+</script>
+</head>
+<body class="" data-root="../">
+<a class="skip-link" href="#main"><span data-l="de">Zum Inhalt</span><span data-l="en">Skip to content</span></a>
+<header class="site-header">
+  <div class="bar">
+    <button class="tool-btn menu-toggle" type="button" aria-label="Menü" data-de-aria-label="Menü" data-en-aria-label="Menu" aria-expanded="false" data-menu>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+    </button>
+    <a class="brand" href="../index.html"><b>Brückner 1870</b><span><span data-l="de">Digitale Edition</span><span data-l="en">Digital edition</span></span></a>
+    <nav class="nav" aria-label="Hauptnavigation" data-de-aria-label="Hauptnavigation" data-en-aria-label="Main navigation" data-nav>
+      <a href="../seite/3.html" ><span data-l="de">Lesen</span><span data-l="en">Read</span></a>
+      <a href="../inhalt.html" ><span data-l="de">Inhalt</span><span data-l="en">Contents</span></a>
+      <a href="../register/index.html" ><span data-l="de">Register</span><span data-l="en">Indexes</span></a>
+      <a href="../karte.html" ><span data-l="de">Karte</span><span data-l="en">Map</span></a>
+      <a href="../auswertungen/index.html" ><span data-l="de">Auswertungen</span><span data-l="en">Analyses</span></a>
+      <a href="../edition/einleitung.html" aria-current="page"><span data-l="de">Zur Edition</span><span data-l="en">About</span></a>
+    </nav>
+    <div class="header-tools">
+      <form class="quicksearch" role="search" aria-label="Schnellsuche" data-de-aria-label="Schnellsuche" data-en-aria-label="Quick search" action="../suche.html" data-quicksearch>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+        <label class="visually-hidden" for="qs"><span data-l="de">Suche</span><span data-l="en">Search</span></label>
+        <input id="qs" name="q" type="search" autocomplete="off" placeholder="Suchen" data-de-placeholder="Suchen" data-en-placeholder="Search" aria-autocomplete="list" aria-controls="qs-results">
+        <div class="qs-results" id="qs-results" role="listbox"></div>
+      </form>
+      <button class="tool-btn" type="button" data-lang-toggle><span data-l="de" lang="en">English</span><span data-l="en" lang="de">Deutsch</span></button>
+      <button class="tool-btn" type="button" data-theme-toggle aria-label="Helles oder dunkles Farbschema" data-de-aria-label="Helles oder dunkles Farbschema" data-en-aria-label="Light or dark colour scheme" title="Helles oder dunkles Farbschema" data-de-title="Helles oder dunkles Farbschema" data-en-title="Light or dark colour scheme">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+<main id="main">
+<div class="wrap">
+  <div class="reg-layout">
+    <nav class="reg-nav" aria-label="Edition">
+      <a href="einleitung.html" aria-current="page"><span data-l="de">Einleitung</span><span data-l="en">Introduction</span></a>
+      <a href="richtlinien.html" ><span data-l="de">Editionsrichtlinien</span><span data-l="en">Editorial principles</span></a>
+      <a href="daten.html" ><span data-l="de">Daten und Downloads</span><span data-l="en">Data and downloads</span></a>
+      <a href="zitieren.html" ><span data-l="de">Zitierweise</span><span data-l="en">How to cite</span></a>
+      <a href="impressum.html" ><span data-l="de">Impressum und Datenschutz</span><span data-l="en">Imprint and privacy</span></a>
+    </nav>
+    <article class="prose">
+<div data-l="de">
+<h1>Einleitung</h1>
+<p class="lede">Georg Brückners <i>Volks- und Landeskunde des Fürstenthums Reuß j. L.</i> erschien 1870 in Gera bei Fr. Eugen Köhler. Sie ist die umfassendste Landesbeschreibung des kleinen thüringischen Fürstentums Reuß jüngerer Linie im 19. Jahrhundert und eine Hauptquelle für die Geschichte, Wirtschaft und Volkskultur Ostthüringens.</p>
+<h2>Das Werk</h2>
+<p>Das Buch ist, wie das Vorwort (S. III–VI) festhält, eine Auftragsarbeit: Fürst Heinrich XIV. Reuß j. L. war „Urheber, Plangeber und Förderer“. Brückner sollte „das Fürstenthum nach allen seinen natürlichen, staatlichen und bürgerlichen Verhältnissen und Entwicklungen“ erforschen – „nicht allein im Interesse der Wissenschaft, sondern auch und namentlich zum Besten des Landes“.</p>
+<p>Der <b>I. Theil</b> (S. 1–404) behandelt das Land im Ganzen: Lage, Relief, Geologie (der geognostische Abschnitt stammt nach dem Vorwort von Professor Liebe), Gewässer, Klima mit langen Messreihen der Stationen Gera, Hohenleuben, Schleiz und Rothenacker, Pflanzen- und Tierwelt; dann das Volk mit umfangreicher Bevölkerungsstatistik, Hausbau, Mundart samt Sprachproben, Kleidung und Kost, Krankheiten und Volksmedizin, Sitte, Brauch, Sage und Glaube; die Wirtschaft von der Landwirtschaft bis zu Bergbau und Industrie; den Staat mit Verfassung, Verwaltung, Rechtspflege, Kirche, Schule und Armenwesen; schließlich die Geschichte des Landes und des Hauses Reuß mit genealogischen Tafeln.</p>
+<p>Der <b>II. Theil</b> (S. 405–825) ist eine Ortskunde: Für jede Gemeinde der drei Landestheile Gera, Schleiz und Lobenstein-Ebersdorf beschreibt Brückner Namensformen, Lage, Geschichte, Kirche und Schule, Häuser und Einwohner, Berufe und Handwerke, Flur und Viehstand, Gemeindevermögen und Sagen. Im Vorwort begründet er diese Ausführlichkeit: Der Leser wolle „zuerst den einzelnen Punkt, wo er leibt und lebt, d. h. den ihm lieben Heimathsort kennen lernen“. Ein Ortsregister, Nachträge und Berichtigungen, eine Umrechnungstabelle der Maße und Gewichte sowie die Liste der Subskribenten beschließen den Band.</p>
+<h2>Der Verfasser</h2>
+<p>Georg Brückner (1800–1881) war Hof- und Archivrat im benachbarten Herzogtum Sachsen-Meiningen. Das Fürstentum Reuß war, so das Vorwort, „für ihn […] kein heimathlich bekannter Boden“. Er stützte sich deshalb neben amtlichen Quellen auf Gewährsleute im Land und auf eigene, „fünf Sommer hindurch fortgesetzte“ Studien. Das Vorwort ist auf den 2. Februar 1870 in Meiningen datiert.</p>
+<h2>Diese Edition</h2>
+<p>Die Edition beruht auf dem Digitalisat der Bayerischen Staatsbibliothek München (Signatur Germ.sp. 78 ld, <a href="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb11005578-4">urn:nbn:de:bvb:12-bsb11005578-4</a>). Der Text wurde 2026 automatisch transkribiert und annotiert, anschließend regelbasiert korrigiert, strukturiert und durch Register, eine Karte, strukturierte Ortsartikel und Auswertungen erschlossen. Wie das geschah und wo die Grenzen dieser Verfahren liegen, beschreiben die <a href="richtlinien.html">Editionsrichtlinien</a>.</p>
+<p>Die Edition umfasst 846 Seiten mit Text, 6.688 Registereinträge, 224 strukturierte Ortsartikel, 272 Tabellen und 32 Auswertungen.</p>
+<h2>Benutzung</h2>
+<ul>
+<li><b>Lesen:</b> Jede Seite hat eine feste Adresse (<span class="mono">seite/20.html</span>). Links steht die Transkription, rechts das zoombare Faksimile. Mit den Pfeiltasten blättern Sie, über „Annotationen“ und „Faksimile“ lassen sich Hervorhebungen und Bild ein- und ausblenden.</li>
+<li><b>Zeilen:</b> Wer mit der Maus über eine Textzeile fährt, sieht dieselbe Zeile im Faksimile hervorgehoben, und umgekehrt. Die Schaltfläche „Zeilen“ zeigt den Zeilenfall und die Zeilenzählung des Drucks.</li>
+<li><b>Zitieren und Export:</b> „Zitieren“ über jeder Seite öffnet einen Zitiervorschlag zum Kopieren. „Export“ bietet die Seite als TEI-XML, JSON und Text, jeden Abschnitt, zu dem sie gehört, und das ganze Buch als TEI-XML.</li>
+<li><b>Namen und Sachen</b> sind im Text farbig unterstrichen: <span class="k-place"><span class="swatch"></span> Orte</span>, <span class="k-person"><span class="swatch"></span> Personen</span>, <span class="k-organisation"><span class="swatch"></span> Institutionen</span>, <span class="k-nature"><span class="swatch"></span> Gewässer, Berge, Wälder</span>, <span class="k-organism"><span class="swatch"></span> Tiere und Pflanzen</span>, <span class="k-concept"><span class="swatch"></span> Sachen und Begriffe</span> (gepunktet). Ein Klick führt zum Registereintrag.</li>
+<li><b>Suche:</b> Die Volltextsuche gleicht historische und moderne Schreibung aus, führt Wortformen zusammen und versteht auch englische Begriffe.</li>
+</ul>
+</div>
+<div data-l="en">
+<h1>Introduction</h1>
+<p class="lede">Georg Brückner’s <i>Volks- und Landeskunde des Fürstenthums Reuß j. L.</i> (“Folk and regional study of the Principality of Reuss, Younger Line”) was published in 1870 in Gera by Fr. Eugen Köhler. It is the most comprehensive nineteenth-century description of this small Thuringian principality and a major source for the history, economy and folk culture of eastern Thuringia.</p>
+<h2>The work</h2>
+<p>As the preface (pp. III–VI) states, the book was commissioned: Prince Heinrich XIV of Reuss (Younger Line) was its “originator, planner and promoter”. Brückner was to study “the principality in all its natural, political and civic conditions and developments” – “not only in the interest of science, but also and above all for the good of the country”.</p>
+<p><b>Part I</b> (pp. 1–404) treats the country as a whole: position, relief, geology (according to the preface the geological section is by Professor Liebe), waters, climate with long series of measurements from the stations Gera, Hohenleuben, Schleiz and Rothenacker, flora and fauna; then the people, with extensive population statistics, housing, dialect including dialect samples, dress and diet, diseases and folk medicine, customs, legends and beliefs; the economy from agriculture to mining and industry; the state with its constitution, administration, justice, church, schools and poor relief; and finally the history of the country and of the house of Reuss, with genealogical tables.</p>
+<p><b>Part II</b> (pp. 405–825) is a topography: for every municipality of the three districts Gera, Schleiz and Lobenstein-Ebersdorf Brückner describes the forms of its name, location, history, church and school, houses and inhabitants, occupations and crafts, fields and livestock, municipal finances and legends. In the preface he justifies this detail: readers first want to know “the single spot where they live and breathe, their beloved home town”. An index of places, addenda and corrigenda, a conversion table of weights and measures and the list of subscribers close the volume.</p>
+<h2>The author</h2>
+<p>Georg Brückner (1800–1881) was court and archive councillor in the neighbouring duchy of Saxe-Meiningen. Reuss, the preface admits, was “not familiar home ground” for him; besides official sources he relied on local experts and on his own studies “continued over five summers”. The preface is dated Meiningen, 2 February 1870.</p>
+<h2>This edition</h2>
+<p>The edition is based on the digitised copy of the Bavarian State Library, Munich (shelfmark Germ.sp. 78 ld, <a href="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb11005578-4">urn:nbn:de:bvb:12-bsb11005578-4</a>). The text was transcribed and annotated automatically in 2026, then corrected by rules, structured and opened up through indexes, a map, structured place articles and analyses. How this was done and where its limits lie is described in the <a href="richtlinien.html">editorial principles</a>.</p>
+<p>The edition comprises 846 pages of text, 6,688 index entries, 224 structured place articles, 272 tables and 32 analyses.</p>
+<h2>How to use it</h2>
+<ul>
+<li><b>Reading:</b> every page has a stable address (<span class="mono">seite/20.html</span>). The transcription is on the left, the zoomable facsimile on the right. Use the arrow keys to turn pages; “Annotations” and “Facsimile” switch highlighting and image on and off.</li>
+<li><b>Lines:</b> moving the mouse over a line of text highlights the same line in the facsimile, and vice versa. The “Lines” button shows the line breaks and line numbers of the print.</li>
+<li><b>Citing and export:</b> “Cite” above every page opens a suggested citation to copy. “Export” offers the page as TEI XML, JSON and plain text, every section it belongs to, and the whole book as TEI XML.</li>
+<li><b>Names and things</b> are underlined in colour: <span class="k-place"><span class="swatch"></span> places</span>, <span class="k-person"><span class="swatch"></span> persons</span>, <span class="k-organisation"><span class="swatch"></span> institutions</span>, <span class="k-nature"><span class="swatch"></span> natural features</span>, <span class="k-organism"><span class="swatch"></span> animals and plants</span>, <span class="k-concept"><span class="swatch"></span> things and concepts</span> (dotted). A click leads to the index entry.</li>
+<li><b>Search:</b> the full-text search reconciles historical and modern spelling, merges word forms and understands English terms.</li>
+</ul>
+</div>
+    </article>
+  </div>
+</div>
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <div>
+      <p><b>Georg Brückner: Volks- und Landeskunde des Fürstenthums Reuß j. L. Gera 1870</b><br>
+      <span data-l="de">Digitale Edition, herausgegeben von Tobias Perschl, Markus Gerstmeier und Malte Rehbein, Lehrstuhl für Computational Humanities, Universität Passau.</span><span data-l="en">Digital edition, edited by Tobias Perschl, Markus Gerstmeier and Malte Rehbein, Chair of Computational Humanities, University of Passau.</span>
+      Version 1.1, 2026-10-02.</p>
+      <p><span data-l="de">Grundlage ist das Exemplar der Bayerischen Staatsbibliothek München (Germ.sp. 78 ld).</span><span data-l="en">Based on the copy in the Bayerische Staatsbibliothek Munich (Germ.sp. 78 ld).</span>
+      <span data-l="de">Transkription, Annotationen und Daten stehen unter</span><span data-l="en">Transcription, annotations and data are licensed under</span> <a href="https://creativecommons.org/licenses/by/4.0/" rel="license">CC BY 4.0</a><span data-l="de">, die Faksimiles unter</span><span data-l="en">, the facsimiles under</span> <a href="https://rightsstatements.org/vocab/NoC-NC/1.0/">NoC-NC 1.0</a>.</p>
+    </div>
+    <div>
+      <h2><span data-l="de">Zur Edition</span><span data-l="en">About the edition</span></h2>
+      <ul>
+        <li><a href="../edition/einleitung.html"><span data-l="de">Einleitung</span><span data-l="en">Introduction</span></a></li>
+        <li><a href="../edition/richtlinien.html"><span data-l="de">Editionsrichtlinien</span><span data-l="en">Editorial principles</span></a></li>
+        <li><a href="../edition/zitieren.html"><span data-l="de">Zitierweise</span><span data-l="en">How to cite</span></a></li>
+        <li><a href="../edition/daten.html"><span data-l="de">Daten und Downloads</span><span data-l="en">Data and downloads</span></a></li>
+      </ul>
+    </div>
+    <div>
+      <h2><span data-l="de">Erschließung</span><span data-l="en">Finding aids</span></h2>
+      <ul>
+        <li><a href="../suche.html"><span data-l="de">Volltextsuche</span><span data-l="en">Full-text search</span></a></li>
+        <li><a href="../register/sachregister.html"><span data-l="de">Sachregister</span><span data-l="en">Subject index</span></a></li>
+        <li><a href="../register/glossar.html"><span data-l="de">Glossar</span><span data-l="en">Glossary</span></a></li>
+        <li><a href="../edition/impressum.html"><span data-l="de">Impressum und Datenschutz</span><span data-l="en">Imprint and privacy</span></a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+<script src="../assets/js/norm.js?v=1.1" defer></script>
+<script src="../assets/js/edition.js?v=1.1" defer></script>
+</body>
+</html>

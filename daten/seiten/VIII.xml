@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de">
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="main">Volks- und Landeskunde des Fürstenthums Reuß j. L.</title>
+      <title type="sub">Digitale Edition, S. VIII</title>
+      <author><persName ref="https://d-nb.info/gnd/119209217">Brückner, Georg</persName> (1800–1881)</author>
+      <editor><persName>Tobias Perschl</persName></editor><editor><persName>Markus Gerstmeier</persName></editor><editor><persName>Malte Rehbein</persName></editor>
+      <respStmt><resp>Automatische Transkription und Entitätenerkennung</resp><name>Google Gemini 3 Flash (2026)</name></respStmt>
+      <respStmt><resp>Layout-Korrektur, Register, Auswertungen, Edition</resp><persName>Tobias Perschl</persName><persName>Markus Gerstmeier</persName><persName>Malte Rehbein</persName><name>Claude (Anthropic)</name></respStmt>
+    </titleStmt>
+    <editionStmt><edition n="1.1">Version 1.1, <date when="2026-10-02">2026-10-02</date></edition></editionStmt>
+    <publicationStmt>
+      <publisher>Lehrstuhl für Computational Humanities, Universität Passau</publisher>
+      <date when="2026-10-02">2026</date>
+      <availability><licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0 (Transkription, Annotation, Daten). Faksimiles: Bayerische Staatsbibliothek München, NoC-NC 1.0.</licence></availability>
+    </publicationStmt>
+    <sourceDesc>
+      <bibl type="original">
+        <author>Brückner, Georg</author>
+        <title>Volks- und Landeskunde des Fürstenthums Reuß j. L. Im Auftrage des regierenden Landesfürsten verfaßt</title>
+        <pubPlace>Gera</pubPlace><publisher>Köhler</publisher><date when="1870">1870</date>
+        <extent>VIII, 840 S.</extent>
+        <idno type="URN">urn:nbn:de:bvb:12-bsb11005578-4</idno>
+        <idno type="BSB">bsb11005578</idno>
+        <idno type="shelfmark">München, Bayerische Staatsbibliothek, Germ.sp. 78 ld</idno>
+      </bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+    <projectDesc><p>Digitale Edition auf Grundlage einer automatischen Transkription des BSB-Digitalisats (Gemini 3 Flash, 2026), regelbasiert korrigiert und strukturiert; Register durch KI-Agenten bereinigt und mit Normdaten verknüpft.</p></projectDesc>
+    <editorialDecl>
+      <normalization><p>Historische Schreibung beibehalten; Umlaute modern (ä, ö, ü statt e-Superskript); langes s als s; Ligaturen aufgelöst.</p></normalization>
+      <hyphenation eol="none"><p>Silbentrennung am Zeilenende aufgelöst; am Seitenende erhaltene Trennungen sind über das Seitenende hinweg in einem Absatz zusammengeführt.</p></hyphenation>
+      <correction><p>Layoutfehler der automatischen Erkennung (Tabellenköpfe, Bogensignaturen, Trennstriche) sind regelbasiert korrigiert und je Seite protokolliert. Inhaltliche Druckfehler sind nicht korrigiert.</p></correction>
+    </editorialDecl>
+  </encodingDesc>
+  <profileDesc><langUsage><language ident="de">Deutsch (1870)</language></langUsage></profileDesc>
+  <revisionDesc><change when="2026-10-02">Version 1.1</change></revisionDesc>
+</teiHeader>
+<facsimile><surface xml:id="f0012" n="VIII" ulx="0" uly="0" lrx="1606" lry="2696"><graphic url="https://api.digitale-sammlungen.de/iiif/image/v2/bsb11005578_00012/full/full/0/default.jpg" mimeType="image/jpeg"/><zone xml:id="f0012-b1" type="block" ulx="689" uly="216" lrx="967" lry="261"/><zone xml:id="f0012-b2" type="block" ulx="152" uly="257" lrx="1501" lry="730"/><zone xml:id="f0012-b3" type="block" ulx="155" uly="765" lrx="1499" lry="810"/><zone xml:id="f0012-b4" type="block" ulx="302" uly="885" lrx="1349" lry="930"/><zone xml:id="f0012-b5" type="block" ulx="154" uly="962" lrx="1499" lry="1109"/><zone xml:id="f0012-l1" type="line" n="1" ulx="689" uly="216" lrx="967" lry="261"/><zone xml:id="f0012-l2" type="line" n="2" ulx="155" uly="257" lrx="388" lry="301"/><zone xml:id="f0012-l3" type="line" n="3" ulx="254" uly="299" lrx="1501" lry="344"/><zone xml:id="f0012-l4" type="line" n="4" ulx="254" uly="343" lrx="1501" lry="388"/><zone xml:id="f0012-l5" type="line" n="5" ulx="259" uly="386" lrx="1501" lry="429"/><zone xml:id="f0012-l6" type="line" n="6" ulx="157" uly="645" lrx="1501" lry="690"/><zone xml:id="f0012-l7" type="line" n="7" ulx="155" uly="765" lrx="1499" lry="810"/><zone xml:id="f0012-l8" type="line" n="8" ulx="302" uly="885" lrx="1349" lry="930"/><zone xml:id="f0012-l9" type="line" n="9" ulx="184" uly="962" lrx="1499" lry="1007"/><zone xml:id="f0012-l10" type="line" n="10" ulx="167" uly="1015" lrx="1499" lry="1056"/><zone xml:id="f0012-l11" type="line" n="11" ulx="154" uly="1064" lrx="1496" lry="1109"/></surface></facsimile>
+<text><body><div type="page" n="VIII"><pb n="VIII" facs="#f0012"/>
+<ab type="heading" xml:id="pVIII-b1" facs="#f0012-b1"><lb n="1" facs="#f0012-l1"/>IV. Der Staat.</ab>
+<table xml:id="pVIII-b2" facs="#f0012-b2" rows="11" cols="2"><row><cell>1) Verfassung:</cell><cell>Seite.</cell></row><row><cell>a) Frühere Hauptverträge und Ordnungen</cell><cell>262—267.</cell></row><row><cell>b) Gegenwärtige Staatsverfassung</cell><cell>267—269.</cell></row><row><cell>c) Gemeindeverfassung</cell><cell>269—271.</cell></row><row><cell>2) Militair</cell><cell>271—272.</cell></row><row><cell>3) Staatsverwaltung</cell><cell>273—280.</cell></row><row><cell>4) Rechtspflege</cell><cell>280—289.</cell></row><row><cell>5) Kirche</cell><cell>289—296.</cell></row><row><cell>6) Schule</cell><cell>296—300.</cell></row><row><cell>7) Kunst- und wissenschaftliche Sammlungen</cell><cell>301—301.</cell></row><row><cell>8) Armenwesen</cell><cell>301—310.</cell></row></table>
+<table xml:id="pVIII-b3" facs="#f0012-b3" rows="1" cols="2"><row><cell>V. Geschichte des Landes und seines Fürstenhauses</cell><cell>311—403.</cell></row></table>
+<ab type="heading" xml:id="pVIII-b4" facs="#f0012-b4"><lb n="8" facs="#f0012-l8"/>II. Theil: Ortskunde des <placeName ref="#place-fuerstenthum-reuss-juengerer-linie">Fürstenthums Reuss j. L.</placeName></ab>
+<table xml:id="pVIII-b5" facs="#f0012-b5" rows="3" cols="2"><row><cell>I. Der Landestheil oder <placeName ref="#place-landrathsamtsbezirk-gera">Landrathsamtsbezirk Gera</placeName></cell><cell>407—569.</cell></row><row><cell>II. Der Landestheil <placeName ref="#place-schleiz">Schleiz</placeName> oder das <placeName ref="#place-bezirk-schleiz">Wisentaland</placeName></cell><cell>570—705.</cell></row><row><cell>III. Der Landestheil <placeName ref="#place-bezirk-lobenstein-ebersdorf">Lobenstein-Ebersdorf</placeName></cell><cell>706—825.</cell></row></table>
+</div></body></text>
+<standOff>
+<listPlace>
+<place xml:id="place-bezirk-lobenstein-ebersdorf"><placeName>Bezirk Lobenstein-Ebersdorf</placeName><desc>Landestheil</desc></place>
+<place xml:id="place-bezirk-schleiz"><placeName>Bezirk Schleiz</placeName><desc>Landestheil</desc></place>
+<place xml:id="place-fuerstenthum-reuss-juengerer-linie"><placeName>Fürstenthum Reuß jüngerer Linie</placeName><desc>Fürstentum</desc></place>
+<place xml:id="place-landrathsamtsbezirk-gera"><placeName>Landrathsamtsbezirk Gera</placeName></place>
+<place xml:id="place-schleiz"><placeName>Schleiz</placeName><desc>Stadt</desc><location><geo>50.57866 11.81024</geo></location><idno type="GeoNames">https://www.geonames.org/2838673</idno><idno type="Wikidata">https://www.wikidata.org/entity/Q32285667</idno></place>
+</listPlace>
+</standOff>
+</TEI>

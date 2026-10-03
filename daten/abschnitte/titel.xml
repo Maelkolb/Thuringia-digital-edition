@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de">
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="main">Volks- und Landeskunde des Fürstenthums Reuß j. L.</title>
+      <title type="sub">Digitale Edition, Titelblatt</title>
+      <author><persName ref="https://d-nb.info/gnd/119209217">Brückner, Georg</persName> (1800–1881)</author>
+      <editor><persName>Tobias Perschl</persName></editor><editor><persName>Markus Gerstmeier</persName></editor><editor><persName>Malte Rehbein</persName></editor>
+      <respStmt><resp>Automatische Transkription und Entitätenerkennung</resp><name>Google Gemini 3 Flash (2026)</name></respStmt>
+      <respStmt><resp>Layout-Korrektur, Register, Auswertungen, Edition</resp><persName>Tobias Perschl</persName><persName>Markus Gerstmeier</persName><persName>Malte Rehbein</persName><name>Claude (Anthropic)</name></respStmt>
+    </titleStmt>
+    <editionStmt><edition n="1.1">Version 1.1, <date when="2026-10-02">2026-10-02</date></edition></editionStmt>
+    <publicationStmt>
+      <publisher>Lehrstuhl für Computational Humanities, Universität Passau</publisher>
+      <date when="2026-10-02">2026</date>
+      <availability><licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0 (Transkription, Annotation, Daten). Faksimiles: Bayerische Staatsbibliothek München, NoC-NC 1.0.</licence></availability>
+    </publicationStmt>
+    <sourceDesc>
+      <bibl type="original">
+        <author>Brückner, Georg</author>
+        <title>Volks- und Landeskunde des Fürstenthums Reuß j. L. Im Auftrage des regierenden Landesfürsten verfaßt</title>
+        <pubPlace>Gera</pubPlace><publisher>Köhler</publisher><date when="1870">1870</date>
+        <extent>VIII, 840 S.</extent>
+        <idno type="URN">urn:nbn:de:bvb:12-bsb11005578-4</idno>
+        <idno type="BSB">bsb11005578</idno>
+        <idno type="shelfmark">München, Bayerische Staatsbibliothek, Germ.sp. 78 ld</idno>
+      </bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+    <projectDesc><p>Digitale Edition auf Grundlage einer automatischen Transkription des BSB-Digitalisats (Gemini 3 Flash, 2026), regelbasiert korrigiert und strukturiert; Register durch KI-Agenten bereinigt und mit Normdaten verknüpft.</p></projectDesc>
+    <editorialDecl>
+      <normalization><p>Historische Schreibung beibehalten; Umlaute modern (ä, ö, ü statt e-Superskript); langes s als s; Ligaturen aufgelöst.</p></normalization>
+      <hyphenation eol="none"><p>Silbentrennung am Zeilenende aufgelöst; am Seitenende erhaltene Trennungen sind über das Seitenende hinweg in einem Absatz zusammengeführt.</p></hyphenation>
+      <correction><p>Layoutfehler der automatischen Erkennung (Tabellenköpfe, Bogensignaturen, Trennstriche) sind regelbasiert korrigiert und je Seite protokolliert. Inhaltliche Druckfehler sind nicht korrigiert.</p></correction>
+    </editorialDecl>
+  </encodingDesc>
+  <profileDesc><langUsage><language ident="de">Deutsch (1870)</language></langUsage></profileDesc>
+  <revisionDesc><change when="2026-10-02">Version 1.1</change></revisionDesc>
+</teiHeader>
+<facsimile><surface xml:id="f0005" n="I" ulx="0" uly="0" lrx="1615" lry="2693"><graphic url="https://api.digitale-sammlungen.de/iiif/image/v2/bsb11005578_00005/full/full/0/default.jpg" mimeType="image/jpeg"/><zone xml:id="f0005-b1" type="block" ulx="239" uly="320" lrx="1402" lry="372"/><zone xml:id="f0005-b3" type="block" ulx="359" uly="682" lrx="1168" lry="734"/><zone xml:id="f0005-b4" type="block" ulx="214" uly="1001" lrx="1309" lry="1053"/><zone xml:id="f0005-b5" type="block" ulx="669" uly="1162" lrx="854" lry="1202"/><zone xml:id="f0005-b6" type="block" ulx="595" uly="1307" lrx="930" lry="1359"/><zone xml:id="f0005-b7" type="block" ulx="493" uly="1370" lrx="1031" lry="1418"/><zone xml:id="f0005-b8" type="block" ulx="648" uly="2158" lrx="877" lry="2210"/><zone xml:id="f0005-b9" type="block" ulx="383" uly="2258" lrx="1151" lry="2310"/><zone xml:id="f0005-b10" type="block" ulx="531" uly="2344" lrx="989" lry="2396"/><zone xml:id="f0005-l1" type="line" n="1" ulx="239" uly="320" lrx="1402" lry="372"/><zone xml:id="f0005-l2" type="line" n="2" ulx="359" uly="682" lrx="1168" lry="734"/><zone xml:id="f0005-l3" type="line" n="3" ulx="214" uly="1001" lrx="1309" lry="1053"/><zone xml:id="f0005-l4" type="line" n="4" ulx="669" uly="1162" lrx="854" lry="1202"/><zone xml:id="f0005-l5" type="line" n="5" ulx="595" uly="1307" lrx="930" lry="1359"/><zone xml:id="f0005-l6" type="line" n="6" ulx="493" uly="1370" lrx="1031" lry="1418"/><zone xml:id="f0005-l7" type="line" n="7" ulx="648" uly="2158" lrx="877" lry="2210"/><zone xml:id="f0005-l8" type="line" n="8" ulx="383" uly="2258" lrx="1151" lry="2310"/><zone xml:id="f0005-l9" type="line" n="9" ulx="531" uly="2344" lrx="989" lry="2396"/></surface><surface xml:id="f0006" n="II" ulx="0" uly="0" lrx="1595" lry="2699"><graphic url="https://api.digitale-sammlungen.de/iiif/image/v2/bsb11005578_00006/full/full/0/default.jpg" mimeType="image/jpeg"/></surface></facsimile>
+<text><body>
+<div type="section" n="" xml:id="sec-titel">
+<pb n="I" facs="#f0005" xml:id="pI"/>
+<ab type="heading" xml:id="pI-b1" facs="#f0005-b1"><lb n="1" facs="#f0005-l1"/>Volks- und Landeskunde</ab>
+<p xml:id="pI-b2">des
+</p>
+<ab type="heading" xml:id="pI-b3" facs="#f0005-b3"><lb n="2" facs="#f0005-l2"/><placeName ref="#place-fuerstenthum-reuss-juengerer-linie">Fürstenthums Reuß j. L.</placeName></ab>
+<p xml:id="pI-b4"><lb n="3" facs="#f0005-l3"/>Im Auftrage des regierenden Landesfürsten
+</p>
+<p xml:id="pI-b5"><lb n="4" facs="#f0005-l4"/>verfasst von
+</p>
+<p xml:id="pI-b6"><lb n="5" facs="#f0005-l5"/><persName ref="#person-georg-brueckner">G. Brückner</persName>,
+</p>
+<p xml:id="pI-b7"><lb n="6" facs="#f0005-l6"/>Hof- und Archivrath in <placeName ref="#place-meiningen">Meiningen</placeName>.
+</p>
+<p xml:id="pI-b8"><lb n="7" facs="#f0005-l7"/><placeName ref="#place-gera">Gera</placeName> 1870.
+</p>
+<p xml:id="pI-b9"><lb n="8" facs="#f0005-l8"/>Verlag von <persName ref="#person-fr-eugen-koehler">Fr. Eugen Köhler</persName>.
+</p>
+<p xml:id="pI-b10"><lb n="9" facs="#f0005-l9"/>Firma: <orgName ref="#organisation-kanitz-sche-buchhandlung">Kanitz'sche Buchhandlung</orgName>.
+</p>
+<pb n="II" facs="#f0006" xml:id="pII"/>
+</div>
+</body></text>
+<standOff>
+<listPlace>
+<place xml:id="place-fuerstenthum-reuss-juengerer-linie"><placeName>Fürstenthum Reuß jüngerer Linie</placeName><desc>Fürstentum</desc></place>
+<place xml:id="place-gera"><placeName>Gera</placeName><desc>Stadt</desc><location><geo>50.88029 12.08187</geo></location><idno type="GeoNames">https://www.geonames.org/2921232</idno><idno type="Wikidata">https://www.wikidata.org/entity/Q3750</idno></place>
+<place xml:id="place-meiningen"><placeName>Meiningen</placeName><desc>Stadt</desc><location><geo>50.56787 10.41521</geo></location><idno type="GeoNames">https://www.geonames.org/2872225</idno></place>
+</listPlace>
+<listPerson>
+<person xml:id="person-fr-eugen-koehler"><persName>Fr. Eugen Köhler</persName><note>Verleger des Werkes (Gera)</note></person>
+<person xml:id="person-georg-brueckner"><persName>Georg Brückner</persName><note>Hof- und Archivrat in Meiningen; Verfasser der „Landes- und Volkskunde des Fürstenthums Reuß j. L.“</note></person>
+</listPerson>
+<listOrg>
+<org xml:id="organisation-kanitz-sche-buchhandlung"><orgName>Kanitz'sche Buchhandlung</orgName></org>
+</listOrg>
+</standOff>
+</TEI>

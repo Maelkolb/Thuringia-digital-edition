@@ -1,0 +1,364 @@
+{
+ "seq": 852,
+ "label": "840",
+ "slug": "840",
+ "iiif": {
+  "service": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb11005578_00852",
+  "canvas": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11005578/canvas/852",
+  "width": 1554,
+  "height": 2686
+ },
+ "kind": "text",
+ "running_header": null,
+ "signature": null,
+ "blocks": [
+  {
+   "id": "b1",
+   "type": "table",
+   "src": 0,
+   "n_cols": 5,
+   "header_rows": 1,
+   "rows": [
+    {
+     "role": "header",
+     "cells": [
+      {
+       "text": "Expl.",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": [],
+       "colspan": 2
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1",
+       "spans": []
+      },
+      {
+       "text": "Frau Zeigermann",
+       "spans": [
+        [
+         5,
+         15,
+         "Person"
+        ]
+       ]
+      },
+      {
+       "text": "Amtmännin",
+       "spans": []
+      },
+      {
+       "text": "Untermhaus.",
+       "spans": [
+        [
+         0,
+         10,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "",
+       "spans": [],
+       "empty": true
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1",
+       "spans": []
+      },
+      {
+       "text": "Herr Zeuner",
+       "spans": [
+        [
+         5,
+         11,
+         "Person"
+        ]
+       ]
+      },
+      {
+       "text": "Lehrer",
+       "spans": []
+      },
+      {
+       "text": "Triebes.",
+       "spans": [
+        [
+         0,
+         7,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "",
+       "spans": [],
+       "empty": true
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "4",
+       "spans": []
+      },
+      {
+       "text": "\"",
+       "spans": []
+      },
+      {
+       "text": "Ziegler",
+       "spans": [
+        [
+         0,
+         7,
+         "Person"
+        ]
+       ]
+      },
+      {
+       "text": "Pastor",
+       "spans": []
+      },
+      {
+       "text": "Göschitz.",
+       "spans": [
+        [
+         0,
+         8,
+         "Location"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1",
+       "spans": []
+      },
+      {
+       "text": "\"",
+       "spans": []
+      },
+      {
+       "text": "Ziegler",
+       "spans": [
+        [
+         0,
+         7,
+         "Person"
+        ]
+       ]
+      },
+      {
+       "text": "Gutsbesitzer",
+       "spans": []
+      },
+      {
+       "text": "Milbitz.",
+       "spans": [
+        [
+         0,
+         7,
+         "Location"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1",
+       "spans": []
+      },
+      {
+       "text": "\"",
+       "spans": []
+      },
+      {
+       "text": "Zimmermann",
+       "spans": [
+        [
+         0,
+         10,
+         "Person"
+        ]
+       ]
+      },
+      {
+       "text": "Rentier",
+       "spans": []
+      },
+      {
+       "text": "Gera.",
+       "spans": [
+        [
+         0,
+         4,
+         "Location"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1",
+       "spans": []
+      },
+      {
+       "text": "\"",
+       "spans": []
+      },
+      {
+       "text": "Zippel",
+       "spans": [
+        [
+         0,
+         6,
+         "Person"
+        ]
+       ]
+      },
+      {
+       "text": "Lehrer",
+       "spans": []
+      },
+      {
+       "text": "Gera.",
+       "spans": [
+        [
+         0,
+         4,
+         "Location"
+        ]
+       ]
+      }
+     ]
+    }
+   ],
+   "grid": [
+    [
+     "Expl.",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "1",
+     "Frau Zeigermann",
+     "Amtmännin",
+     "Untermhaus.",
+     ""
+    ],
+    [
+     "1",
+     "Herr Zeuner",
+     "Lehrer",
+     "Triebes.",
+     ""
+    ],
+    [
+     "4",
+     "\"",
+     "Ziegler",
+     "Pastor",
+     "Göschitz."
+    ],
+    [
+     "1",
+     "\"",
+     "Ziegler",
+     "Gutsbesitzer",
+     "Milbitz."
+    ],
+    [
+     "1",
+     "\"",
+     "Zimmermann",
+     "Rentier",
+     "Gera."
+    ],
+    [
+     "1",
+     "\"",
+     "Zippel",
+     "Lehrer",
+     "Gera."
+    ]
+   ],
+   "caption": null,
+   "sec": "subscribenten"
+  },
+  {
+   "id": "b2",
+   "type": "paragraph",
+   "src": 1,
+   "text": "Druck von Hermann Rudolph in Gera.",
+   "spans": [
+    [
+     10,
+     25,
+     "Person"
+    ],
+    [
+     29,
+     33,
+     "Location"
+    ]
+   ],
+   "role": "imprint",
+   "sec": "subscribenten"
+  }
+ ],
+ "footnotes": [],
+ "corrections": [
+  {
+   "rule": "table_pad_ragged_rows",
+   "block": "b1"
+  }
+ ],
+ "provenance": {
+  "source": "colab-2026-03",
+  "model": "gemini-3-flash-preview",
+  "timestamp": "2026-03-04T21:51:11.882097",
+  "early_schema": false
+ },
+ "section_path": [
+  "back",
+  "subscribenten"
+ ],
+ "sections": [
+  "subscribenten"
+ ]
+}

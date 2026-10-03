@@ -1,0 +1,3210 @@
+{
+ "id": "bergbau",
+ "title": {
+  "de": "Bergbau, Hütten und Salz",
+  "en": "Mining, ironworks and salt"
+ },
+ "category": "mining",
+ "section": "t1-3-5",
+ "merges": [
+  "bergbau-bestand-oberland-vor-1648",
+  "bergbau-erzbergbau-zeitleiste-ober-unterland",
+  "bergbau-huettenwerke-oberland-betriebszeiten",
+  "bergbau-saline-heinrichshall-absatz-1857-1863",
+  "bergbau-schieferbrueche-lobenstein-1868"
+ ],
+ "sources": [
+  {
+   "page": "242",
+   "block": "b4"
+  },
+  {
+   "page": "242",
+   "block": "b5"
+  },
+  {
+   "page": "243",
+   "block": "b1"
+  },
+  {
+   "page": "243",
+   "block": "b2"
+  },
+  {
+   "page": "243",
+   "block": "b4"
+  },
+  {
+   "page": "243",
+   "block": "fn1"
+  },
+  {
+   "page": "243",
+   "block": "fn2"
+  },
+  {
+   "page": "243",
+   "block": "fn3"
+  },
+  {
+   "page": "244",
+   "block": "b1"
+  },
+  {
+   "page": "244",
+   "block": "b2"
+  },
+  {
+   "page": "244",
+   "block": "b3"
+  },
+  {
+   "page": "244",
+   "block": "b4"
+  },
+  {
+   "page": "245",
+   "block": "b1"
+  },
+  {
+   "page": "245",
+   "block": "b2"
+  },
+  {
+   "page": "245",
+   "block": "b6"
+  },
+  {
+   "page": "248",
+   "block": "b2"
+  },
+  {
+   "page": "248",
+   "block": "b3"
+  },
+  {
+   "page": "249",
+   "block": "b1"
+  },
+  {
+   "page": "249",
+   "block": "b2"
+  },
+  {
+   "page": "250",
+   "block": "b1"
+  },
+  {
+   "page": "250",
+   "block": "b2"
+  },
+  {
+   "page": "245",
+   "block": "b3"
+  },
+  {
+   "page": "245",
+   "block": "b4"
+  },
+  {
+   "page": "245",
+   "block": "b5"
+  },
+  {
+   "page": "245",
+   "block": "b7"
+  },
+  {
+   "page": "245",
+   "block": "b8"
+  },
+  {
+   "page": "245",
+   "block": "b9"
+  },
+  {
+   "page": "245",
+   "block": "b10"
+  },
+  {
+   "page": "245",
+   "block": "b11"
+  },
+  {
+   "page": "245",
+   "block": "b12"
+  },
+  {
+   "page": "246",
+   "block": "b1"
+  },
+  {
+   "page": "246",
+   "block": "b2"
+  },
+  {
+   "page": "246",
+   "block": "b3"
+  },
+  {
+   "page": "246",
+   "block": "b4"
+  },
+  {
+   "page": "246",
+   "block": "b5"
+  },
+  {
+   "page": "246",
+   "block": "b6"
+  },
+  {
+   "page": "246",
+   "block": "b7"
+  },
+  {
+   "page": "246",
+   "block": "b8"
+  },
+  {
+   "page": "246",
+   "block": "b9"
+  },
+  {
+   "page": "246",
+   "block": "b10"
+  },
+  {
+   "page": "246",
+   "block": "b11"
+  },
+  {
+   "page": "246",
+   "block": "b12"
+  },
+  {
+   "page": "246",
+   "block": "b13"
+  },
+  {
+   "page": "246",
+   "block": "b14"
+  },
+  {
+   "page": "246",
+   "block": "b15"
+  },
+  {
+   "page": "246",
+   "block": "b16"
+  },
+  {
+   "page": "250",
+   "block": "b3"
+  },
+  {
+   "page": "251",
+   "block": "b1"
+  },
+  {
+   "page": "251",
+   "block": "b2"
+  },
+  {
+   "page": "251",
+   "block": "b4"
+  },
+  {
+   "page": "251",
+   "block": "b5"
+  },
+  {
+   "page": "251",
+   "block": "b6"
+  },
+  {
+   "page": "831",
+   "block": "b5"
+  },
+  {
+   "page": "246",
+   "block": "b17"
+  },
+  {
+   "page": "247",
+   "block": "b1"
+  },
+  {
+   "page": "247",
+   "block": "fn1"
+  },
+  {
+   "page": "247",
+   "block": "fn2"
+  },
+  {
+   "page": "278",
+   "block": "b5"
+  }
+ ],
+ "summary": {
+  "de": "Brückner verfolgt den Bergbau von den Silbergruben bei Schleiz (1318) bis zur Saline Heinrichshall. Vor dem Dreißigjährigen Krieg zählte das Oberland 349 Gruben, 319 davon auf Eisen. Von 22 später verzeichneten Hammer- und Hüttenwerken liefen 1869 noch fünf. Im Unterland endete der Metallbergbau um 1750. Die Saline gab 1863 23.898 Zentner Kochsalz ab, 13,2 Prozent weniger als 1857.",
+  "en": "Brückner traces mining from the silver mines near Schleiz (1318) to the Heinrichshall saltworks. Before the Thirty Years’ War the Oberland had 349 mines, 319 of them for iron. Of 22 ironworks and hammer mills recorded for later times, only five were still running in 1869. In the Unterland metal mining ended around 1750. In 1863 the saltworks delivered 23,898 hundredweight of table salt, 13.2 percent less than in 1857."
+ },
+ "findings": [
+  {
+   "de": "Vor dem Dreißigjährigen Krieg waren 319 von 349 Gruben des Oberlandes Eisengruben (91 Prozent). 1860 war Eisenerz 98,8 Prozent der Förderung: 71.923 von 72.804 Zollzentnern, Flussspat eingerechnet.",
+   "en": "Before the Thirty Years’ War, 319 of the 349 mines of the Oberland were iron mines (91 percent). In 1860 iron ore was 98.8 percent of the output: 71,923 of 72,804 customs hundredweight, fluorspar included."
+  },
+  {
+   "de": "Die 17 stillgelegten Werke endeten zwischen 1732 und 1856; vier wurden Textilbetriebe. Die fünf noch laufenden Werke gehen auf Jahre zwischen 1650 und 1766 zurück.",
+   "en": "The 17 closed works ended between 1732 and 1856; four became textile mills. The five works still running date back to years between 1650 and 1766."
+  },
+  {
+   "de": "Der Salzabsatz sank 1863 gegenüber 1857, weil Greiz, Möschlitz und Zeulenroda nichts mehr erhielten (im Druck ein Strich). Sie hatten 1857 zusammen 4.149 Zentner bezogen.",
+   "en": "Salt sales fell in 1863 compared with 1857 because Greiz, Möschlitz and Zeulenroda received none (a dash in the print). In 1857 they had taken 4,149 hundredweight between them."
+  }
+ ],
+ "method": {
+  "de": "Die Zahlen stammen aus Brückners Abschnitt Bergbau (S. 242–251). Die Gruben vor dem Dreißigjährigen Krieg zählt die Tabelle S. 243, die Hüttenwerke S. 244. Für die Betriebszeiten der Hütten- und Hammerwerke seit 1648 wurden die Jahreszahlen der Absätze S. 245–246 übernommen: Beginn ist das Jahr der Gründung, Erneuerung oder Wiederinbetriebnahme, Ende das der Stilllegung. Werke, die der Text als noch bestehend nennt, laufen im ersten Diagramm bis 1870. Das spätere Schicksal (Textilfabrik, Mühle, Ziegelei, Gerberei, aufgegeben) ist aus dem Wortlaut gruppiert. Das zweite Diagramm zeigt alle Gruben, Hütten und Werke des Unterlandes, für die Brückner ein Jahr oder einen Zeitraum nennt; die Orte sind nach dem frühesten Beleg sortiert. Beim dritten Diagramm wurde die Tabelle der Debitstellen (S. 251) Ort für Ort übernommen; ein Strich im Druck gilt als keine Lieferung. Die Gesamtmengen für 1857 und 1863 stehen im Text derselben Seite. Maßeinheit ist der Zentner (Zollzentner) zu 100 Zollpfund, also 50 kg.",
+  "en": "The figures come from Brückner’s section on mining (pp. 242–251). The mines before the Thirty Years’ War are counted in the table on p. 243, the smelting works on p. 244. For the operating periods of the ironworks and hammer mills since 1648 the dates in the paragraphs on pp. 245–246 were taken over: the start is the year of founding, renewal or reopening, the end that of closure. Works that the text calls still extant run to 1870 in the first chart. Their later fate (textile mill, mill, brickworks, tannery, abandoned) is grouped from the wording. The second chart shows all mines, smelters and works of the Unterland for which Brückner gives a year or a period; places are sorted by their earliest record. For the third chart the table of sales outlets (p. 251) was transcribed place by place; a dash in the print is read as no delivery. The totals for 1857 and 1863 are in the text of the same page. The unit is the hundredweight (Zollzentner) of 100 customs pounds, that is 50 kg."
+ },
+ "conversions": [
+  {
+   "from": "Zollcentner",
+   "to": "kg",
+   "factor_or_formula": "1 Zollcentner = 100 Zollpfund = 50 kg",
+   "reference": "1 Zollpfund = 0,5 kg (S. 832)"
+  }
+ ],
+ "caveats": [
+  {
+   "de": "Die Jahre der Hütten- und Hammerwerke stammen aus Brückners Aufzählung; einige Daten sind ungefähr. Aufgenommen sind nur Werke, die er als später eingegangen oder noch bestehend nennt. Brückner datiert den Niedergang des oberländischen Hüttenwesens auf 1858; alle 17 Stilllegungen der Liste liegen früher.",
+   "en": "The years for the ironworks and hammer mills come from Brückner’s list; some dates are approximate. Only works that he names as closed later or still extant are included. Brückner dates the decline of the Oberland ironworks to 1858; all 17 closures in the list are earlier."
+  },
+  {
+   "de": "Ein Punkt im zweiten Diagramm kann Mutung (Antrag auf Bergbaurecht), Verleihung, Inbetriebnahme oder bloße Erwähnung bedeuten und belegt nicht, dass die Grube in dem Jahr förderte. Der Eisenerzbergbau des Oberlandes, nach Brückner der Hauptzweig, ist ohne Jahresangaben beschrieben und daher nicht dargestellt.",
+   "en": "A dot in the second chart can mean a claim, a grant, the start of work or a mere mention, and does not show that the mine was producing in that year. Iron-ore mining in the Oberland, according to Brückner the main branch, is described without dates and is therefore not shown."
+  },
+  {
+   "de": "Die Tabelle der Debitstellen ergibt addiert 27.027 (1857) und 23.878 Zentner (1863); im Text nennt Brückner 27.527 und 23.898. Die Transkription stimmt mit dem Druck überein (Faksimile geprüft). Was der Strich für 1863 bedeutet, sagt Brückner nicht.",
+   "en": "The table of sales outlets adds up to 27,027 (1857) and 23,878 hundredweight (1863); in the text Brückner gives 27,527 and 23,898. The transcription agrees with the print (checked against the facsimile). Brückner does not say what the dash for 1863 means."
+  },
+  {
+   "de": "Die Zahl der Gruben vor dem Dreißigjährigen Krieg beruht auf Brückners Zusammenstellung aus den Akten; ein Stichjahr nennt er nicht, und ob alle Gruben gleichzeitig bestanden, bleibt offen.",
+   "en": "The number of mines before the Thirty Years’ War rests on Brückner’s compilation from the records; he gives no reference year, and whether all mines existed at the same time remains open."
+  }
+ ],
+ "datasets": [
+  {
+   "name": "werke",
+   "title": {
+    "de": "Betriebszeiten der Hütten- und Hammerwerke",
+    "en": "Operating periods of smelters and hammer works"
+   },
+   "columns": [
+    {
+     "name": "name",
+     "label": {
+      "de": "Werk",
+      "en": "Works"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "place",
+     "label": {
+      "de": "Ort/Gewässer",
+      "en": "Place/watercourse"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "kind",
+     "label": {
+      "de": "Art",
+      "en": "Type"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "start_year",
+     "label": {
+      "de": "Beginn",
+      "en": "Start"
+     },
+     "type": "integer",
+     "unit": "Jahr"
+    },
+    {
+     "name": "end_year",
+     "label": {
+      "de": "Ende",
+      "en": "End"
+     },
+     "type": "integer",
+     "unit": "Jahr",
+     "note": "leer = 1869 noch in Betrieb"
+    },
+    {
+     "name": "plot_end",
+     "label": {
+      "de": "Ende (Zeichnung)",
+      "en": "End (plotted)"
+     },
+     "type": "integer",
+     "unit": "Jahr",
+     "derived": true,
+     "note": "end_year, sonst Erscheinungsjahr 1870"
+    },
+    {
+     "name": "status",
+     "label": {
+      "de": "Zustand",
+      "en": "Status"
+     },
+     "type": "string",
+     "unit": null,
+     "derived": true
+    },
+    {
+     "name": "dating",
+     "label": {
+      "de": "Datierung",
+      "en": "Dating"
+     },
+     "type": "string",
+     "unit": null,
+     "derived": true,
+     "note": "exakt = beide Jahre ausdrücklich genannt"
+    },
+    {
+     "name": "fate_group",
+     "label": {
+      "de": "Späteres Schicksal",
+      "en": "Later fate"
+     },
+     "type": "string",
+     "unit": null,
+     "derived": true
+    },
+    {
+     "name": "source",
+     "label": {
+      "de": "Quelle",
+      "en": "Source"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "note_de",
+     "label": {
+      "de": "Anmerkung (de)",
+      "en": "Note (German)"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "note_en",
+     "label": {
+      "de": "Anmerkung (en)",
+      "en": "Note (English)"
+     },
+     "type": "string",
+     "unit": null
+    }
+   ],
+   "rows": [
+    [
+     "Saalbach (Saalhammer)",
+     "Saale bei Rudolphstein",
+     "Eisen",
+     1648,
+     1810,
+     1810,
+     "stillgelegt",
+     "ungefähr",
+     "Gerberei",
+     "S. 245 b4",
+     "1648 erneuert, bis Anfang des 19. Jh. im Gang, 1810 Lohgerberei; Brauerei, Mahl- und Schneidemühle erhalten.",
+     "Renewed 1648, in operation until the early 19th century, converted to a tannery in 1810; brewery, grist and sawmill kept."
+    ],
+    [
+     "Kupferhütte Lemnitzhammer",
+     "Lemnitzhammer",
+     "Kupfer und Silber",
+     1666,
+     1741,
+     1741,
+     "stillgelegt",
+     "exakt",
+     "Aufgegeben",
+     "S. 245 b5",
+     "1666 wieder in Gang, 1741 kalt gelegt.",
+     "Back in operation 1666, shut down 1741."
+    ],
+    [
+     "Kupferhütte Harra (Kupferplatte)",
+     "Harra",
+     "Kupfer und Silber",
+     1666,
+     1769,
+     1769,
+     "stillgelegt",
+     "exakt",
+     "Aufgegeben",
+     "S. 245 b5",
+     "1666 wieder in Gang, 1769 kalt gelegt.",
+     "Back in operation 1666, shut down 1769."
+    ],
+    [
+     "Spaniershammer (Stahlhütte)",
+     "Saale",
+     "Eisen",
+     1648,
+     1852,
+     1852,
+     "stillgelegt",
+     "ungefähr",
+     "Mühle/Ziegelei",
+     "S. 245 b7",
+     "Nach 1648 wieder gangbar, 1852 kalt, 1861 Schneidemühle und Ziegelei.",
+     "Working again after 1648, idle 1852, converted in 1861 to a sawmill and brickworks."
+    ],
+    [
+     "Lemnitzhammer (Eisenhammer)",
+     "Lemnitzhammer",
+     "Eisen",
+     1648,
+     1856,
+     1856,
+     "stillgelegt",
+     "ungefähr",
+     "Textilfabrik",
+     "S. 245 b8",
+     "Bald nach 1648 wiederhergestellt, bis 1856 in Betrieb, dann Wollengarnspinnerei und Tuchfabrik.",
+     "Restored soon after 1648, in operation until 1856, then a worsted-yarn spinning mill and cloth factory."
+    ],
+    [
+     "Steuersches Werk Blankenstein",
+     "Blankenstein",
+     "Eisen",
+     1801,
+     1827,
+     1827,
+     "stillgelegt",
+     "exakt",
+     "Textilfabrik",
+     "S. 245 b9",
+     "1801 wieder aufgebaut, 1827 außer Betrieb, 1830 Tuchfabrik.",
+     "Rebuilt 1801, out of operation 1827, cloth factory from 1830."
+    ],
+    [
+     "Klettigshammer",
+     "Sormitz",
+     "Eisen",
+     1648,
+     1827,
+     1827,
+     "stillgelegt",
+     "exakt",
+     "Mühle/Ziegelei",
+     "S. 245 b11",
+     "Seit 1648 wieder betrieben, 1827 als Hüttenwerk eingegangen; Mahl- und Schneidemühle blieb.",
+     "Operated again from 1648, closed as a smelter in 1827; grist and sawmill remained."
+    ],
+    [
+     "Schmelzhütte Sormitz",
+     "Sormitz",
+     "Kupfer und Silber",
+     1699,
+     1732,
+     1732,
+     "stillgelegt",
+     "exakt",
+     "Mühle/Ziegelei",
+     "S. 245 b12",
+     "1699–1732 für die Silbererze des Silberbergs bei Gahma; 1806 Drahthütte und Zainhammer, jetzt Drahtmühle.",
+     "1699–1732 for the silver ores of the Silberberg near Gahma; wire works and rolling hammer from 1806, now the Drahtmühle."
+    ],
+    [
+     "Schmelzofen Kleinfriesa",
+     "Kleinfriesa",
+     "Eisen",
+     1729,
+     1745,
+     1745,
+     "stillgelegt",
+     "exakt",
+     "Mühle/Ziegelei",
+     "S. 246 b2",
+     "1729 erbaut, 1732 Frisch- und Hammerwerk, 1745 Mühle (Hämmerleinsmühle).",
+     "Built 1729, bloomery and hammer works from 1732, mill (Hämmerleinsmühle) from 1745."
+    ],
+    [
+     "Blauofen Gottliebsthal",
+     "Rattenbach, Gottliebsthal",
+     "Eisen",
+     1782,
+     1849,
+     1849,
+     "stillgelegt",
+     "exakt",
+     "Textilfabrik",
+     "S. 246 b3",
+     "1782 Blauofen mit Frischfeuer, 1849 Wollengarnspinnerei und Tuchfabrik.",
+     "Blue furnace with finery fire from 1782, worsted-yarn spinning mill and cloth factory from 1849."
+    ],
+    [
+     "Polnischer Hammer (Rödelshammer)",
+     "—",
+     "Eisen",
+     1795,
+     1846,
+     1846,
+     "stillgelegt",
+     "exakt",
+     "Aufgegeben",
+     "S. 246 b4",
+     "1795 erbaut, seit 1846 kalt und verfallen.",
+     "Built 1795, idle and decayed since 1846."
+    ],
+    [
+     "Neuwerk (Waffenhammer)",
+     "—",
+     "Eisen",
+     1803,
+     1823,
+     1823,
+     "stillgelegt",
+     "exakt",
+     "Aufgegeben",
+     "S. 246 b5",
+     "1803 als Waffenhammer errichtet, 1823 eingestellt.",
+     "Built 1803 as an arms hammer, closed 1823."
+    ],
+    [
+     "Klosterhammer",
+     "—",
+     "Eisen",
+     1784,
+     1843,
+     1843,
+     "stillgelegt",
+     "exakt",
+     "Textilfabrik",
+     "S. 246 b6",
+     "1693 als wüstes Hüttenwerk erneuert, dann kalt; 1784 wieder eingerichtet, 1843 verkauft, nun Wollengarnspinnerei.",
+     "Renewed 1693 as a derelict works, then idle; set up again 1784, sold 1843, now a worsted-yarn spinning mill."
+    ],
+    [
+     "Sophienthal (Zainhammer)",
+     "Wettera",
+     "Eisen",
+     1763,
+     1840,
+     1840,
+     "stillgelegt",
+     "exakt",
+     "Aufgegeben",
+     "S. 246 b7",
+     "1763 errichtet, 1840 abgebrochen.",
+     "Built 1763, demolished 1840."
+    ],
+    [
+     "Oberwetterhammer",
+     "Wettera",
+     "Eisen",
+     1766,
+     1838,
+     1838,
+     "stillgelegt",
+     "exakt",
+     "Mühle/Ziegelei",
+     "S. 246 b8",
+     "1766 erbaut, 1838 eingegangen; jetzt Hammermühle.",
+     "Built 1766, closed 1838; now the Hammermühle."
+    ],
+    [
+     "Ernestine Augusta",
+     "Schlangenbach bei Görkwitz",
+     "Eisen",
+     1741,
+     1836,
+     1836,
+     "stillgelegt",
+     "ungefähr",
+     "Mühle/Ziegelei",
+     "S. 246 b9",
+     "1741 abgebrannt, wieder erbaut (Jahr nicht genannt), bis 1836 in Betrieb; jetzt Hochofenmühle.",
+     "Burnt down 1741, rebuilt (year not given), in operation until 1836; now the Hochofenmühle."
+    ],
+    [
+     "Silber-/Kupferhütte Weckersdorf",
+     "Weckersdorf",
+     "Kupfer und Silber",
+     1794,
+     1800,
+     1800,
+     "stillgelegt",
+     "ungefähr",
+     "Aufgegeben",
+     "S. 246 b10",
+     "1794 erbaut, kam um 1800 zum Erliegen.",
+     "Built 1794, ceased operation around 1800."
+    ],
+    [
+     "Benignengrüner Hammer",
+     "Langwasser",
+     "Eisen",
+     1659,
+     null,
+     1870,
+     "in Betrieb",
+     "ungefähr",
+     "In Betrieb",
+     "S. 246 b12",
+     "1659 Gruners Hammer genannt, 1703 an Regentin Erdmuthe Benigna; nur periodisch betrieben (schon 1601 als Hammer belegt, S. 244).",
+     "Called Gruners Hammer in 1659, passed to the regent Erdmuthe Benigna in 1703; operated only periodically (documented as a hammer already in 1601, p. 244)."
+    ],
+    [
+     "Heinrichshütte",
+     "Sormitz",
+     "Eisen",
+     1729,
+     null,
+     1870,
+     "in Betrieb",
+     "exakt",
+     "In Betrieb",
+     "S. 246 b13",
+     "1729 als Mangolds Drahthammer gegründet, 1745 Hochofen und Frischfeuer, 1836 neu errichtet; seit 1865 spärlich betrieben.",
+     "Founded 1729 as Mangold's wire hammer, blast furnace and finery added 1745, rebuilt 1836; operated sparingly since 1865."
+    ],
+    [
+     "Neuhammer",
+     "Saale",
+     "Eisen",
+     1650,
+     null,
+     1870,
+     "in Betrieb",
+     "exakt",
+     "In Betrieb",
+     "S. 246 b14",
+     "1650 an Stelle des alten Haueisen neu erbaut, besteht noch; 1869 an die fürstliche Kammer.",
+     "Built 1650 in place of the old Haueisen, still extant; passed to the princely chamber in 1869."
+    ],
+    [
+     "Wetterhammer (Brückenhammer)",
+     "Wettera",
+     "Eisen",
+     1766,
+     null,
+     1870,
+     "in Betrieb",
+     "exakt",
+     "In Betrieb",
+     "S. 246 b15",
+     "1766 erbaut (auch Heinrichsthaler Hammer).",
+     "Built 1766 (also called Heinrichsthaler Hammer)."
+    ],
+    [
+     "Glücksthaler Hammer",
+     "Wettera",
+     "Eisen",
+     1766,
+     null,
+     1870,
+     "in Betrieb",
+     "exakt",
+     "In Betrieb",
+     "S. 246 b16",
+     "1766 errichtet, stand nur 1816–1848 still.",
+     "Built 1766, stood idle only in 1816–1848."
+    ]
+   ],
+   "source_refs": [
+    {
+     "page": "244",
+     "block": "b2"
+    },
+    {
+     "page": "245",
+     "block": "b3"
+    },
+    {
+     "page": "245",
+     "block": "b4"
+    },
+    {
+     "page": "245",
+     "block": "b5"
+    },
+    {
+     "page": "245",
+     "block": "b6"
+    },
+    {
+     "page": "245",
+     "block": "b7"
+    },
+    {
+     "page": "245",
+     "block": "b8"
+    },
+    {
+     "page": "245",
+     "block": "b9"
+    },
+    {
+     "page": "245",
+     "block": "b10"
+    },
+    {
+     "page": "245",
+     "block": "b11"
+    },
+    {
+     "page": "245",
+     "block": "b12"
+    },
+    {
+     "page": "246",
+     "block": "b1"
+    },
+    {
+     "page": "246",
+     "block": "b2"
+    },
+    {
+     "page": "246",
+     "block": "b3"
+    },
+    {
+     "page": "246",
+     "block": "b4"
+    },
+    {
+     "page": "246",
+     "block": "b5"
+    },
+    {
+     "page": "246",
+     "block": "b6"
+    },
+    {
+     "page": "246",
+     "block": "b7"
+    },
+    {
+     "page": "246",
+     "block": "b8"
+    },
+    {
+     "page": "246",
+     "block": "b9"
+    },
+    {
+     "page": "246",
+     "block": "b10"
+    },
+    {
+     "page": "246",
+     "block": "b11"
+    },
+    {
+     "page": "246",
+     "block": "b12"
+    },
+    {
+     "page": "246",
+     "block": "b13"
+    },
+    {
+     "page": "246",
+     "block": "b14"
+    },
+    {
+     "page": "246",
+     "block": "b15"
+    },
+    {
+     "page": "246",
+     "block": "b16"
+    }
+   ]
+  },
+  {
+   "name": "unternehmungen",
+   "title": {
+    "de": "Datierte Nachweise zu Gruben und Werken",
+    "en": "Dated records of mines and works"
+   },
+   "columns": [
+    {
+     "name": "lane",
+     "label": {
+      "de": "Ort/Werk (Zeile im Diagramm)",
+      "en": "Place/works (chart row)"
+     },
+     "type": "string",
+     "unit": null,
+     "derived": true
+    },
+    {
+     "name": "name",
+     "label": {
+      "de": "Unternehmen",
+      "en": "Venture"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "region",
+     "label": {
+      "de": "Landesteil",
+      "en": "Region"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "metal",
+     "label": {
+      "de": "Erz/Produkt",
+      "en": "Ore/product"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "facility",
+     "label": {
+      "de": "Art",
+      "en": "Kind"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "start_year",
+     "label": {
+      "de": "Beginn bzw. Jahr",
+      "en": "Start or year"
+     },
+     "type": "integer",
+     "unit": "Jahr"
+    },
+    {
+     "name": "end_year",
+     "label": {
+      "de": "Ende",
+      "en": "End"
+     },
+     "type": "integer",
+     "unit": "Jahr"
+    },
+    {
+     "name": "start_plot",
+     "label": {
+      "de": "Beginn (Zeichnung)",
+      "en": "Start (plotted)"
+     },
+     "type": "integer",
+     "unit": "Jahr",
+     "derived": true,
+     "note": "start_year; Gahma: 1700 gesetzt"
+    },
+    {
+     "name": "end_plot",
+     "label": {
+      "de": "Ende (Zeichnung)",
+      "en": "End (plotted)"
+     },
+     "type": "integer",
+     "unit": "Jahr",
+     "derived": true,
+     "note": "end_year, bei Einzelbelegen = start_plot"
+    },
+    {
+     "name": "record_type",
+     "label": {
+      "de": "Nachweis",
+      "en": "Record"
+     },
+     "type": "string",
+     "unit": null,
+     "derived": true
+    },
+    {
+     "name": "dating",
+     "label": {
+      "de": "Datierung",
+      "en": "Dating"
+     },
+     "type": "string",
+     "unit": null,
+     "derived": true
+    },
+    {
+     "name": "source",
+     "label": {
+      "de": "Quelle",
+      "en": "Source"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "note_de",
+     "label": {
+      "de": "Anmerkung (de)",
+      "en": "Note (German)"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "note_en",
+     "label": {
+      "de": "Anmerkung (en)",
+      "en": "Note (English)"
+     },
+     "type": "string",
+     "unit": null
+    }
+   ],
+   "rows": [
+    [
+     "Trebnitz",
+     "Trebnitz: Bergwerk (Burggraf Heinrich V.)",
+     "Unterland",
+     "Kupfer",
+     "Bergbau",
+     1550,
+     null,
+     1550,
+     1550,
+     "Einzelbeleg",
+     "exakt",
+     "S. 249 b1",
+     "1550 von Burggraf Heinrich V. neu eröffnet, sogleich verkauft.",
+     "Reopened by Burgrave Heinrich V in 1550 and sold immediately."
+    ],
+    [
+     "Trebnitz",
+     "Trebnitz: Berliner Gewerkschaft",
+     "Unterland",
+     "Kupfer",
+     "Bergbau",
+     1562,
+     1569,
+     1562,
+     1569,
+     "Zeitraum",
+     "exakt",
+     "S. 249 b1",
+     "1562–1569 Mutung des Feldes; 1569 über 233 Ctr. Schwarzkupfer nach Saalfeld; Verluste von 25 000 Thalern.",
+     "1562–1569 claim to the field; in 1569 over 233 Ctr. of black copper delivered to Saalfeld; losses of 25,000 thalers."
+    ],
+    [
+     "Trebnitz",
+     "Trebnitz: Pochwerk am Stollenwasser",
+     "Unterland",
+     "Kupfer",
+     "Hüttenwerk",
+     1567,
+     1570,
+     1567,
+     1570,
+     "Zeitraum",
+     "exakt",
+     "S. 249 b1",
+     "1567 angelegt, 1570 aus Feindseligkeit der Bauern eingegangen.",
+     "Built 1567, closed 1570 owing to the hostility of the peasants."
+    ],
+    [
+     "Trebnitz",
+     "Trebnitz: Eisengrube",
+     "Unterland",
+     "Eisen",
+     "Bergbau",
+     1572,
+     null,
+     1572,
+     1572,
+     "Einzelbeleg",
+     "exakt",
+     "S. 250 b2",
+     "1572 wird einer Eisengrube bei Trebnitz gedacht.",
+     "An iron mine near Trebnitz is mentioned in 1572."
+    ],
+    [
+     "Trebnitz",
+     "Trebnitz: Versuch eines Grobsdorfers",
+     "Unterland",
+     "Kupfer",
+     "Bergbau",
+     1578,
+     null,
+     1578,
+     1578,
+     "Einzelbeleg",
+     "exakt",
+     "S. 249 b1",
+     "1578 versucht ein Grobsdorfer den Bau.",
+     "A man from Grobsdorf attempts the mining in 1578."
+    ],
+    [
+     "Trebnitz",
+     "Trebnitz: Geraische Gesellschaft",
+     "Unterland",
+     "Kupfer",
+     "Bergbau",
+     1601,
+     1603,
+     1601,
+     1603,
+     "Zeitraum",
+     "exakt",
+     "S. 249 b1",
+     "1601 übernommen, 1603 mit Verlust aufgegeben.",
+     "Taken over 1601, abandoned at a loss in 1603."
+    ],
+    [
+     "Trebnitz",
+     "Trebnitz: Wiederaufnahme 1619",
+     "Unterland",
+     "Kupfer",
+     "Bergbau",
+     1619,
+     1621,
+     1619,
+     1621,
+     "Zeitraum",
+     "exakt",
+     "S. 249 b1",
+     "1619 neuer Versuch, 1621 vom Dreißigjährigen Krieg unterbrochen.",
+     "New attempt in 1619, interrupted by the Thirty Years' War in 1621."
+    ],
+    [
+     "Trebnitz",
+     "Trebnitz: Dresdener und Leipziger Gesellschaft",
+     "Unterland",
+     "Kupfer",
+     "Bergbau",
+     1701,
+     1734,
+     1701,
+     1734,
+     "Zeitraum",
+     "exakt",
+     "S. 249 b1",
+     "1701–1734 erst Dresdener, dann Leipziger Gewerkschaft; danach für immer kalt (Prozess 1734–1743).",
+     "1701–1734 first a Dresden, then a Leipzig company; then idle for good (lawsuit 1734–1743)."
+    ],
+    [
+     "Gera",
+     "Gera: Schmelzhütte (gegenüber der Klotzmühle)",
+     "Unterland",
+     "Kupfer",
+     "Hüttenwerk",
+     1602,
+     1603,
+     1602,
+     1603,
+     "Zeitraum",
+     "ungefähr",
+     "S. 249 b1",
+     "1602 von der Geraischen Gesellschaft errichtet; die Gesellschaft ließ das Werk 1603 fallen (Ende der Hütte nicht ausdrücklich genannt).",
+     "Built 1602 by the Gera company; the company dropped the enterprise in 1603 (end of the smelter not stated explicitly)."
+    ],
+    [
+     "Gera",
+     "Gera: Hüttenwerk an der Kuhbrücke (Dresdener Gesellschaft)",
+     "Unterland",
+     "Kupfer",
+     "Hüttenwerk",
+     1706,
+     1734,
+     1706,
+     1734,
+     "Zeitraum",
+     "exakt",
+     "S. 249 b1",
+     "1706 wieder erbaut, bis 1734 in Betrieb.",
+     "Rebuilt in 1706, in operation until 1734."
+    ],
+    [
+     "Gera",
+     "Gera: Gruben am Hain und Geißengraben",
+     "Unterland",
+     "ohne Angabe",
+     "Bergbau",
+     1578,
+     null,
+     1578,
+     1578,
+     "Einzelbeleg",
+     "exakt",
+     "S. 250 b2",
+     "1578 bestanden Gruben.",
+     "Mines existed in 1578."
+    ],
+    [
+     "Gera",
+     "Gera: Schlag am Brunnenhäuschen",
+     "Unterland",
+     "ohne Angabe",
+     "Bergbau",
+     1716,
+     null,
+     1716,
+     1716,
+     "Einzelbeleg",
+     "exakt",
+     "S. 250 b2",
+     "1716 eingeschlagen; der Rat verhinderte den Weiterbau.",
+     "Opened in 1716; the town council prevented further work."
+    ],
+    [
+     "Cuba",
+     "Cuba: Kupferhammer (Errichtung)",
+     "Unterland",
+     "Kupfer",
+     "Hüttenwerk",
+     1590,
+     null,
+     1590,
+     1590,
+     "Einzelbeleg",
+     "ungefähr",
+     "S. 249 b1",
+     "Bald nach 1590 errichtet, angeblich von Heinrich Posthumus.",
+     "Established soon after 1590, allegedly by Heinrich Posthumus."
+    ],
+    [
+     "Cuba",
+     "Cuba: Kupferhammer (amtlich erwähnt)",
+     "Unterland",
+     "Kupfer",
+     "Hüttenwerk",
+     1647,
+     null,
+     1647,
+     1647,
+     "Einzelbeleg",
+     "exakt",
+     "S. 249 b1",
+     "1647 amtlich erwähnt; ob noch im Gang, bleibt offen.",
+     "Mentioned officially in 1647; whether still in operation is not stated."
+    ],
+    [
+     "Tinz",
+     "Tinz: alte Werke (Mutung 1636)",
+     "Unterland",
+     "ohne Angabe",
+     "Bergbau",
+     1636,
+     null,
+     1636,
+     1636,
+     "Einzelbeleg",
+     "exakt",
+     "S. 250 b2",
+     "Alte Werke kommen zur Mutung.",
+     "Old works are claimed again."
+    ],
+    [
+     "Tinz",
+     "Tinz: alte Werke (Mutung 1656)",
+     "Unterland",
+     "ohne Angabe",
+     "Bergbau",
+     1656,
+     null,
+     1656,
+     1656,
+     "Einzelbeleg",
+     "exakt",
+     "S. 250 b2",
+     "Alte Werke kommen zur Mutung.",
+     "Old works are claimed again."
+    ],
+    [
+     "Tinz",
+     "Tinz: Schmelzhütte",
+     "Unterland",
+     "Kupfer",
+     "Hüttenwerk",
+     1702,
+     1706,
+     1702,
+     1706,
+     "Zeitraum",
+     "exakt",
+     "S. 249 b1",
+     "1702 angelegt, 1706 aus Wassermangel eingegangen.",
+     "Built 1702, closed in 1706 for lack of water."
+    ],
+    [
+     "Tinz",
+     "Tinz: alte Werke (Mutung 1712)",
+     "Unterland",
+     "ohne Angabe",
+     "Bergbau",
+     1712,
+     null,
+     1712,
+     1712,
+     "Einzelbeleg",
+     "exakt",
+     "S. 250 b2",
+     "Alte Werke kommen zur Mutung (auch 1702).",
+     "Old works are claimed again (also 1702)."
+    ],
+    [
+     "Köstritz",
+     "Köstritz: Hilfe Gottes (Albrechtsberg)",
+     "Unterland",
+     "Kupfer",
+     "Bergbau",
+     1582,
+     1599,
+     1582,
+     1599,
+     "Zeitraum",
+     "exakt",
+     "S. 250 b1",
+     "1582–1599.",
+     "1582–1599."
+    ],
+    [
+     "Köstritz",
+     "Köstritz: Bergbau 1567",
+     "Unterland",
+     "Kupfer",
+     "Bergbau",
+     1567,
+     null,
+     1567,
+     1567,
+     "Einzelbeleg",
+     "exakt",
+     "S. 249 b2",
+     "Kupfererze und (silberhaltiger) Bleiglanz, stets lahm betrieben.",
+     "Copper ores and (slightly silver-bearing) galena, always operated feebly."
+    ],
+    [
+     "Köstritz",
+     "Köstritz: Bergbau 1583",
+     "Unterland",
+     "Kupfer",
+     "Bergbau",
+     1583,
+     null,
+     1583,
+     1583,
+     "Einzelbeleg",
+     "exakt",
+     "S. 249 b2",
+     "Wie 1567.",
+     "As in 1567."
+    ],
+    [
+     "Köstritz",
+     "Köstritz: Bergbau 1598",
+     "Unterland",
+     "Kupfer",
+     "Bergbau",
+     1598,
+     null,
+     1598,
+     1598,
+     "Einzelbeleg",
+     "exakt",
+     "S. 249 b2",
+     "Wie 1567.",
+     "As in 1567."
+    ],
+    [
+     "Köstritz",
+     "Köstritz: Bergbau 1602",
+     "Unterland",
+     "Kupfer",
+     "Bergbau",
+     1602,
+     null,
+     1602,
+     1602,
+     "Einzelbeleg",
+     "exakt",
+     "S. 249 b2",
+     "Wie 1567.",
+     "As in 1567."
+    ],
+    [
+     "Köstritz",
+     "Köstritz: Bergbau 1688–1709",
+     "Unterland",
+     "Kupfer",
+     "Bergbau",
+     1688,
+     1709,
+     1688,
+     1709,
+     "Zeitraum",
+     "exakt",
+     "S. 249 b2",
+     "Streit und Raubbau, weil nur je einem eine Fundgrube zugelassen war.",
+     "Disputes and overexploitation because only one claimant at a time was granted a mine."
+    ],
+    [
+     "Köstritz",
+     "Köstritz: Gabe Gottes (Albrechtsberg)",
+     "Unterland",
+     "Kupfer",
+     "Bergbau",
+     1688,
+     1734,
+     1688,
+     1734,
+     "Zeitraum",
+     "exakt",
+     "S. 250 b1",
+     "»schon früh und wieder 1688 bis 1734«; 1720 will man auch Eisen gefunden haben.",
+     "“early on and again 1688 to 1734”; in 1720 iron is said to have been found as well."
+    ],
+    [
+     "Köstritz",
+     "Köstritz: Hoffnung Gottes (Kupferberg)",
+     "Unterland",
+     "Kupfer",
+     "Bergbau",
+     1701,
+     1707,
+     1701,
+     1707,
+     "Zeitraum",
+     "exakt",
+     "S. 250 b1",
+     "1701–1707.",
+     "1701–1707."
+    ],
+    [
+     "Gleina",
+     "Gleina: Das unvermuthete Glück",
+     "Unterland",
+     "Kupfer",
+     "Bergbau",
+     1700,
+     1734,
+     1700,
+     1734,
+     "Zeitraum",
+     "exakt",
+     "S. 250 b1",
+     "1700–1734.",
+     "1700–1734."
+    ],
+    [
+     "Pforten",
+     "Pforten: Bergwerksgebäude (Berliner Gewerkschaft)",
+     "Unterland",
+     "ohne Angabe",
+     "Bergbau",
+     1562,
+     null,
+     1562,
+     1562,
+     "Einzelbeleg",
+     "exakt",
+     "S. 250 b2",
+     "1562 erhielt die Berliner Gewerkschaft die alten Bergwerksgebäude.",
+     "In 1562 the Berlin company received the old mine buildings."
+    ],
+    [
+     "Pforten",
+     "Pforten: Auferstehung Christi",
+     "Unterland",
+     "ohne Angabe",
+     "Bergbau",
+     1602,
+     null,
+     1602,
+     1602,
+     "Einzelbeleg",
+     "exakt",
+     "S. 250 b2",
+     "1602 betrieb die Geraer Gesellschaft die Grube.",
+     "In 1602 the Gera company worked the mine."
+    ],
+    [
+     "Pforten",
+     "Pforten: Mutung 1701",
+     "Unterland",
+     "ohne Angabe",
+     "Bergbau",
+     1701,
+     null,
+     1701,
+     1701,
+     "Einzelbeleg",
+     "exakt",
+     "S. 250 b2",
+     "1701 wieder gemuthet.",
+     "Claimed again in 1701."
+    ],
+    [
+     "Pforten",
+     "Pforten: altes Silberloch",
+     "Unterland",
+     "Silber",
+     "Bergbau",
+     1711,
+     null,
+     1711,
+     1711,
+     "Einzelbeleg",
+     "exakt",
+     "S. 250 b2",
+     "1711 das alte Silberloch.",
+     "In 1711 the old Silberloch."
+    ],
+    [
+     "Pforten",
+     "Pforten: Zeche »mit Gott gewagt«",
+     "Unterland",
+     "Kupfer und Silber",
+     "Bergbau",
+     1729,
+     1731,
+     1729,
+     1731,
+     "Zeitraum",
+     "exakt",
+     "S. 250 b2",
+     "1729 geöffnet, 1731 ging der Bau auf Kupfer und Silber für immer ein.",
+     "Opened 1729; in 1731 the working for copper and silver ceased for good."
+    ],
+    [
+     "Wipse",
+     "Wipse: Hilfe Gottes",
+     "Unterland",
+     "ohne Angabe",
+     "Bergbau",
+     1567,
+     null,
+     1567,
+     1567,
+     "Einzelbeleg",
+     "exakt",
+     "S. 250 b2",
+     "1567 gebaut.",
+     "Worked in 1567."
+    ],
+    [
+     "Wipse",
+     "Wipse: heilige Dreifaltigkeit",
+     "Unterland",
+     "ohne Angabe",
+     "Bergbau",
+     1586,
+     null,
+     1586,
+     1586,
+     "Einzelbeleg",
+     "exakt",
+     "S. 250 b2",
+     "1586 gebaut.",
+     "Worked in 1586."
+    ],
+    [
+     "Wipse",
+     "Wipse: der evangelische Gruß",
+     "Unterland",
+     "ohne Angabe",
+     "Bergbau",
+     1602,
+     null,
+     1602,
+     1602,
+     "Einzelbeleg",
+     "exakt",
+     "S. 250 b2",
+     "1602 gebaut.",
+     "Worked in 1602."
+    ],
+    [
+     "Milbitz",
+     "Milbitz: Bescheerung Gottes (1578)",
+     "Unterland",
+     "Silber",
+     "Bergbau",
+     1578,
+     null,
+     1578,
+     1578,
+     "Einzelbeleg",
+     "exakt",
+     "S. 250 b2",
+     "Auf Silber am Silberberg.",
+     "For silver at the Silberberg."
+    ],
+    [
+     "Milbitz",
+     "Milbitz: Bescheerung Gottes (1693)",
+     "Unterland",
+     "Silber",
+     "Bergbau",
+     1693,
+     null,
+     1693,
+     1693,
+     "Einzelbeleg",
+     "exakt",
+     "S. 250 b2",
+     "Auf Silber am Silberberg.",
+     "For silver at the Silberberg."
+    ],
+    [
+     "Zschippach",
+     "Zschippach: Gabe Gottes (1582)",
+     "Unterland",
+     "Kupfer",
+     "Bergbau",
+     1582,
+     null,
+     1582,
+     1582,
+     "Einzelbeleg",
+     "exakt",
+     "S. 250 b2",
+     "Alte Kupferzeche, 1582 von Hans Seyfart gemuthet.",
+     "Old copper pit, claimed by Hans Seyfart in 1582."
+    ],
+    [
+     "Zschippach",
+     "Zschippach: Gabe Gottes (1602)",
+     "Unterland",
+     "Kupfer",
+     "Bergbau",
+     1602,
+     null,
+     1602,
+     1602,
+     "Einzelbeleg",
+     "exakt",
+     "S. 250 b2",
+     "1602 von der Geraer Gewerkschaft gemuthet.",
+     "Claimed by the Gera company in 1602."
+    ],
+    [
+     "Schwaara",
+     "Schwaara: Zeche am Kirchberg (Mutung)",
+     "Unterland",
+     "ohne Angabe",
+     "Bergbau",
+     1731,
+     null,
+     1731,
+     1731,
+     "Einzelbeleg",
+     "exakt",
+     "S. 250 b2",
+     "1731 vom Bergverwalter Haubold gemuthet.",
+     "Claimed by the mine administrator Haubold in 1731."
+    ],
+    [
+     "Schwaara",
+     "Schwaara: Zeche am Kirchberg (wieder in Gang)",
+     "Unterland",
+     "ohne Angabe",
+     "Bergbau",
+     1749,
+     null,
+     1749,
+     1749,
+     "Einzelbeleg",
+     "exakt",
+     "S. 250 b2",
+     "1749 wieder in Gang.",
+     "Working again in 1749."
+    ],
+    [
+     "Steinertsberg",
+     "Steinertsberg: Erbstollen",
+     "Unterland",
+     "ohne Angabe",
+     "Bergbau",
+     1567,
+     null,
+     1567,
+     1567,
+     "Einzelbeleg",
+     "exakt",
+     "S. 250 b2",
+     "1567 verliehen.",
+     "Granted in 1567."
+    ],
+    [
+     "Langenberg",
+     "Langenberg: Gottessegen",
+     "Unterland",
+     "ohne Angabe",
+     "Bergbau",
+     1704,
+     null,
+     1704,
+     1704,
+     "Einzelbeleg",
+     "exakt",
+     "S. 250 b2",
+     "1704 von der verwitweten Gräfin Dorothea gemuthet.",
+     "Claimed by the widowed Countess Dorothea in 1704."
+    ],
+    [
+     "Rubitz",
+     "Rubitz: Segen Gottes",
+     "Unterland",
+     "ohne Angabe",
+     "Bergbau",
+     1705,
+     null,
+     1705,
+     1705,
+     "Einzelbeleg",
+     "exakt",
+     "S. 250 b2",
+     "1705.",
+     "1705."
+    ],
+    [
+     "Zausensgraben",
+     "Zausensgraben: zwei Eisengruben",
+     "Unterland",
+     "Eisen",
+     "Bergbau",
+     1602,
+     null,
+     1602,
+     1602,
+     "Einzelbeleg",
+     "exakt",
+     "S. 250 b2",
+     "Der wilde Mann und der alte Vater Simmern 1602 in Gang.",
+     "The pits “der wilde Mann” and “der alte Vater Simmern” in operation in 1602."
+    ],
+    [
+     "Otticha",
+     "Otticha: Bauernfeind (1567)",
+     "Unterland",
+     "ohne Angabe",
+     "Bergbau",
+     1567,
+     null,
+     1567,
+     1567,
+     "Einzelbeleg",
+     "exakt",
+     "S. 250 b2",
+     "1567.",
+     "1567."
+    ],
+    [
+     "Otticha",
+     "Otticha: Bauernfeind (1704)",
+     "Unterland",
+     "ohne Angabe",
+     "Bergbau",
+     1704,
+     null,
+     1704,
+     1704,
+     "Einzelbeleg",
+     "exakt",
+     "S. 250 b2",
+     "1704.",
+     "1704."
+    ],
+    [
+     "Silbergruben bei Löhma",
+     "Silbergruben bei Löhma",
+     "Oberland",
+     "Silber",
+     "Bergbau",
+     1790,
+     null,
+     1790,
+     1790,
+     "Einzelbeleg",
+     "exakt",
+     "S. 245 b2",
+     "1790 auf kurze Zeit in Betrieb gesetzt; Ausbeute in Weckersdorf verhüttet.",
+     "Put into operation for a short time in 1790; the yield was smelted at Weckersdorf."
+    ],
+    [
+     "Silbergrube Gahma",
+     "Silbergrube am Silberberg bei Gahma",
+     "Oberland",
+     "Silber",
+     "Bergbau",
+     null,
+     1810,
+     1700,
+     1810,
+     "Zeitraum",
+     "ungefähr",
+     "S. 245 b2",
+     "Ende des 17. Jh. wieder in Gang (hier als 1700 gesetzt), 1711 an Schreck verkauft, bis 1810 kümmerlich, dann erloschen.",
+     "Back in operation at the end of the 17th century (set here as 1700), sold to Schreck in 1711, struggling until 1810, then extinct."
+    ],
+    [
+     "Antimongrube Oberböhmsdorf",
+     "Antimongrube Oberböhmsdorf",
+     "Oberland",
+     "Antimon",
+     "Bergbau",
+     1819,
+     1866,
+     1819,
+     1866,
+     "Zeitraum",
+     "exakt",
+     "S. 245 b2",
+     "1819–1866 in Gang.",
+     "In operation 1819–1866."
+    ],
+    [
+     "Antimon Weckersdorf",
+     "Antimon bei Weckersdorf (neues Lager)",
+     "Oberland",
+     "Antimon",
+     "Bergbau",
+     1867,
+     null,
+     1867,
+     1867,
+     "Einzelbeleg",
+     "exakt",
+     "S. 245 b2",
+     "1867 ein neues Lager aufgefunden; sonst blieb es bei Versuchen (Wolfsgalgen, Buchhübel).",
+     "A new deposit was found in 1867; otherwise only trials (Wolfsgalgen, Buchhübel)."
+    ],
+    [
+     "Kupfer im Lobensteinischen",
+     "Kupfergewinnung im Lobensteinischen",
+     "Oberland",
+     "Kupfer",
+     "Bergbau",
+     1665,
+     1745,
+     1665,
+     1745,
+     "Zeitraum",
+     "exakt",
+     "S. 245 b2",
+     "1665 bis 1745.",
+     "1665 to 1745."
+    ],
+    [
+     "Alaunwerk Oberböhmsdorf",
+     "Alaun- und Vitriolwerk Oberböhmsdorf",
+     "Oberland",
+     "Alaun und Vitriol",
+     "Hüttenwerk",
+     1660,
+     1665,
+     1660,
+     1665,
+     "Zeitraum",
+     "exakt",
+     "S. 245 b6",
+     "1660 bis 1665.",
+     "1660 to 1665."
+    ],
+    [
+     "Alaunwerk Haueisen",
+     "Alaun- und Vitriolwerk Haueisen",
+     "Oberland",
+     "Alaun und Vitriol",
+     "Hüttenwerk",
+     1683,
+     1716,
+     1683,
+     1716,
+     "Zeitraum",
+     "ungefähr",
+     "S. 245 b6",
+     "1683 wieder erbaut; zwischen 1700 und 1716 eingegangen (übler Wirtschaft und gesunkenen Alaunpreises wegen).",
+     "Rebuilt 1683; closed between 1700 and 1716 (mismanagement and a fall in the price of alum)."
+    ],
+    [
+     "Güldener Hirsch",
+     "Alaun- und Vitriolwerk Güldener Hirsch",
+     "Oberland",
+     "Alaun und Vitriol",
+     "Hüttenwerk",
+     1683,
+     1716,
+     1683,
+     1716,
+     "Zeitraum",
+     "exakt",
+     "S. 245 b2",
+     "1683 bis 1716.",
+     "1683 to 1716."
+    ],
+    [
+     "Alaunwerk Oschitz",
+     "Alaun- und Vitriolwerk Oschitz",
+     "Oberland",
+     "Alaun und Vitriol",
+     "Hüttenwerk",
+     1695,
+     1716,
+     1695,
+     1716,
+     "Zeitraum",
+     "ungefähr",
+     "S. 245 b6",
+     "1695 neu erbaut; zwischen 1700 und 1716 eingegangen.",
+     "Newly built 1695; closed between 1700 and 1716."
+    ],
+    [
+     "Alaunwerk Pottiga",
+     "Alaun- und Vitriolwerk Pottiga",
+     "Oberland",
+     "Alaun und Vitriol",
+     "Hüttenwerk",
+     1747,
+     1797,
+     1747,
+     1797,
+     "Zeitraum",
+     "exakt",
+     "S. 245 b2",
+     "1747 bis 1797.",
+     "1747 to 1797."
+    ],
+    [
+     "Alaunwerk Buttermühle",
+     "Alaun- und Vitriolwerk Buttermühle",
+     "Oberland",
+     "Alaun und Vitriol",
+     "Hüttenwerk",
+     1747,
+     1769,
+     1747,
+     1769,
+     "Zeitraum",
+     "exakt",
+     "S. 245 b2",
+     "1747 bis 1769.",
+     "1747 to 1769."
+    ],
+    [
+     "Hoff auf Gott",
+     "Alaun- und Vitriolwerk Hoff auf Gott (Güldener Hirsch)",
+     "Oberland",
+     "Alaun und Vitriol",
+     "Hüttenwerk",
+     1779,
+     1804,
+     1779,
+     1804,
+     "Zeitraum",
+     "exakt",
+     "S. 245 b2",
+     "1779 bis 1804.",
+     "1779 to 1804."
+    ],
+    [
+     "Christiansglück",
+     "Alaun- und Vitriolwerk Christiansglück",
+     "Oberland",
+     "Alaun und Vitriol",
+     "Hüttenwerk",
+     1799,
+     1831,
+     1799,
+     1831,
+     "Zeitraum",
+     "exakt",
+     "S. 245 b2",
+     "1799 bis 1831.",
+     "1799 to 1831."
+    ]
+   ],
+   "source_refs": [
+    {
+     "page": "245",
+     "block": "b2"
+    },
+    {
+     "page": "245",
+     "block": "b6"
+    },
+    {
+     "page": "248",
+     "block": "b3"
+    },
+    {
+     "page": "249",
+     "block": "b1"
+    },
+    {
+     "page": "249",
+     "block": "b2"
+    },
+    {
+     "page": "250",
+     "block": "b1"
+    },
+    {
+     "page": "250",
+     "block": "b2"
+    }
+   ]
+  },
+  {
+   "name": "veraenderung",
+   "title": {
+    "de": "Veränderung der Abgabe 1857 → 1863",
+    "en": "Change in deliveries 1857 → 1863"
+   },
+   "columns": [
+    {
+     "name": "place",
+     "label": {
+      "de": "Ort",
+      "en": "Place"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "ctr_1857",
+     "label": {
+      "de": "1857",
+      "en": "1857"
+     },
+     "type": "integer",
+     "unit": "Ctr."
+    },
+    {
+     "name": "ctr_1863",
+     "label": {
+      "de": "1863",
+      "en": "1863"
+     },
+     "type": "integer",
+     "unit": "Ctr.",
+     "note": "Strich im Druck = leer"
+    },
+    {
+     "name": "change",
+     "label": {
+      "de": "Veränderung",
+      "en": "Change"
+     },
+     "type": "integer",
+     "unit": "Ctr.",
+     "derived": true
+    },
+    {
+     "name": "row",
+     "label": {
+      "de": "Zeile der Tabelle",
+      "en": "Table row"
+     },
+     "type": "string",
+     "unit": null
+    }
+   ],
+   "rows": [
+    [
+     "Heinrichshall",
+     1981,
+     1642,
+     -339,
+     "r2"
+    ],
+    [
+     "Greiz",
+     2932,
+     null,
+     -2932,
+     "r2"
+    ],
+    [
+     "Berga",
+     924,
+     954,
+     30,
+     "r2"
+    ],
+    [
+     "Gera",
+     2310,
+     2868,
+     558,
+     "r3"
+    ],
+    [
+     "Möschlitz",
+     671,
+     null,
+     -671,
+     "r3"
+    ],
+    [
+     "Münchenbernsdorf",
+     466,
+     563,
+     97,
+     "r3"
+    ],
+    [
+     "Schleiz",
+     1996,
+     2049,
+     53,
+     "r4"
+    ],
+    [
+     "Zeulenroda",
+     546,
+     null,
+     -546,
+     "r4"
+    ],
+    [
+     "Neustadt a. d. Orla",
+     1462,
+     1959,
+     497,
+     "r4"
+    ],
+    [
+     "Hohenleuben",
+     720,
+     677,
+     -43,
+     "r5"
+    ],
+    [
+     "Gefell",
+     398,
+     424,
+     26,
+     "r5"
+    ],
+    [
+     "Weida",
+     1189,
+     1141,
+     -48,
+     "r5"
+    ],
+    [
+     "Saalburg",
+     386,
+     394,
+     8,
+     "r6"
+    ],
+    [
+     "Ranis",
+     791,
+     773,
+     -18,
+     "r6"
+    ],
+    [
+     "Liebschwitz",
+     246,
+     172,
+     -74,
+     "r6"
+    ],
+    [
+     "Lobenstein",
+     2068,
+     2031,
+     -37,
+     "r7"
+    ],
+    [
+     "Ziegenrück",
+     455,
+     485,
+     30,
+     "r7"
+    ],
+    [
+     "Hof",
+     5269,
+     5550,
+     281,
+     "r7"
+    ],
+    [
+     "Hirschberg",
+     652,
+     659,
+     7,
+     "r8"
+    ],
+    [
+     "Auma",
+     1565,
+     1537,
+     -28,
+     "r8"
+    ]
+   ],
+   "source_refs": [
+    {
+     "page": "251",
+     "block": "b2",
+     "rows": "r1-r8"
+    }
+   ]
+  },
+  {
+   "name": "gruben",
+   "title": {
+    "de": "Gruben nach Bergwerksdistrikt und Erz (vor 1648)",
+    "en": "Mines by mining district and ore (before 1648)"
+   },
+   "columns": [
+    {
+     "name": "district",
+     "label": {
+      "de": "Bergwerksdistrikt",
+      "en": "Mining district"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "ore",
+     "label": {
+      "de": "Erz (Wortlaut)",
+      "en": "Ore (printed)"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "ore_group",
+     "label": {
+      "de": "Erzgruppe",
+      "en": "Ore group"
+     },
+     "type": "string",
+     "unit": null,
+     "derived": true
+    },
+    {
+     "name": "kind",
+     "label": {
+      "de": "Art",
+      "en": "Kind"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "count",
+     "label": {
+      "de": "Anzahl",
+      "en": "Number"
+     },
+     "type": "integer",
+     "unit": "Gruben"
+    },
+    {
+     "name": "names",
+     "label": {
+      "de": "Namen und Lage",
+      "en": "Names and location"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "source",
+     "label": {
+      "de": "Quelle",
+      "en": "Source"
+     },
+     "type": "string",
+     "unit": null
+    }
+   ],
+   "rows": [
+    [
+     "Schleiz",
+     "Silbergruben",
+     "Silber, Blei",
+     "Grube",
+     2,
+     "St. Katharina am Schloßberg bei Schleiz; Gotthilf bei Löhma",
+     "S. 243 b4 r2"
+    ],
+    [
+     "Schleiz",
+     "Antimongruben",
+     "Antimon",
+     "Grube",
+     4,
+     "bei Oberböhmsdorf; bei Weckersdorf; Trau auf Gott am Lössauer Wege; am Wolfsgalgen",
+     "S. 243 b4 r2"
+    ],
+    [
+     "Schleiz",
+     "Eisengruben",
+     "Eisen",
+     "Grube",
+     126,
+     "",
+     "S. 243 b4 r2"
+    ],
+    [
+     "Saalburg",
+     "Goldgrube",
+     "Gold, Zinn",
+     "Grube",
+     1,
+     "bei Zollgrün (nach der Volkssage weitere Goldgruben)",
+     "S. 243 b4 r3"
+    ],
+    [
+     "Saalburg",
+     "Gold- und Zinnseife",
+     "Gold, Zinn",
+     "Seife",
+     1,
+     "an der Wettera bei Gräfenwarth",
+     "S. 243 b4 r3"
+    ],
+    [
+     "Saalburg",
+     "Silber- und Kupfergrube",
+     "Silber, Blei",
+     "Grube",
+     1,
+     "zu Thramitz zwischen Raila und Glücksthalhammer",
+     "S. 243 b4 r3"
+    ],
+    [
+     "Saalburg",
+     "Kupfergruben",
+     "Kupfer",
+     "Grube",
+     10,
+     "",
+     "S. 243 b4 r3"
+    ],
+    [
+     "Saalburg",
+     "Eisengruben",
+     "Eisen",
+     "Grube",
+     60,
+     "",
+     "S. 243 b4 r3"
+    ],
+    [
+     "Lobenstein",
+     "Silbergruben",
+     "Silber, Blei",
+     "Grube",
+     3,
+     "Fortuna bei der Zschachenmühle; Heinrichs- und Luisenglück bei Gahma; Silberschlössel bei Weitisberga",
+     "S. 243 b4 r4"
+    ],
+    [
+     "Lobenstein",
+     "Kupfergruben",
+     "Kupfer",
+     "Grube",
+     3,
+     "Kaiser Siegmund im Saalwald; Kupferplatte bei Harra; Schütz bei Pottiga",
+     "S. 243 b4 r4"
+    ],
+    [
+     "Lobenstein",
+     "Blei- und Silbergruben",
+     "Silber, Blei",
+     "Grube",
+     2,
+     "Kluft bei Harra; Bleistollen am Muckenberg",
+     "S. 243 b4 r4"
+    ],
+    [
+     "Lobenstein",
+     "Alaunerzgruben",
+     "Alaun",
+     "Grube",
+     3,
+     "bei Haueisen; Zoppothen an der Saale; bei der Pempelsmühle; schon 1550 erwähnt",
+     "S. 243 b4 r4"
+    ],
+    [
+     "Lobenstein",
+     "Eisengruben",
+     "Eisen",
+     "Grube",
+     133,
+     "darunter fünf Gruben mit Wasser- und Roßkünsten",
+     "S. 243 b4 r4"
+    ]
+   ],
+   "source_refs": [
+    {
+     "page": "243",
+     "block": "b4",
+     "rows": "r2-r4"
+    }
+   ]
+  },
+  {
+   "name": "ausbeute",
+   "title": {
+    "de": "Erzförderung 1860",
+    "en": "Ore output 1860"
+   },
+   "columns": [
+    {
+     "name": "product",
+     "label": {
+      "de": "Erz/Produkt",
+      "en": "Ore/product"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "zollcentner",
+     "label": {
+      "de": "Ausbeute 1860",
+      "en": "Output 1860"
+     },
+     "type": "integer",
+     "unit": "Zollzentner"
+    },
+    {
+     "name": "tonnes",
+     "label": {
+      "de": "Ausbeute 1860",
+      "en": "Output 1860"
+     },
+     "type": "number",
+     "unit": "t",
+     "derived": true
+    },
+    {
+     "name": "source",
+     "label": {
+      "de": "Quelle",
+      "en": "Source"
+     },
+     "type": "string",
+     "unit": null
+    }
+   ],
+   "rows": [
+    [
+     "Eisenerze",
+     71923,
+     3596.2,
+     "S. 245 b1"
+    ],
+    [
+     "Flussspat",
+     590,
+     29.5,
+     "S. 245 b1"
+    ],
+    [
+     "Antimonerze",
+     260,
+     13.0,
+     "S. 245 b1"
+    ],
+    [
+     "Kupfererze",
+     31,
+     1.6,
+     "S. 245 b1"
+    ]
+   ],
+   "source_refs": [
+    {
+     "page": "244",
+     "block": "b4"
+    },
+    {
+     "page": "245",
+     "block": "b1"
+    }
+   ]
+  }
+ ],
+ "charts": [
+  {
+   "id": "c1",
+   "dataset": "werke",
+   "title": {
+    "de": "Von 22 Hüttenwerken des Oberlandes liefen 1869 noch fünf; elf wurden umgenutzt, sechs aufgegeben",
+    "en": "Of 22 Oberland ironworks, five still ran in 1869; eleven were converted, six abandoned"
+   },
+   "caption": {
+    "de": "Betriebszeit der Hütten- und Hammerwerke des Oberlandes seit 1648, nach ihrem Schicksal gruppiert (blau: noch in Betrieb, orange: umgenutzt, grau: aufgegeben). Quelle: S. 244–246.",
+    "en": "Operating period of the ironworks and hammer mills of the Oberland since 1648, grouped by their fate (blue: still running, orange: converted, grey: abandoned). Source: pp. 244–246."
+   },
+   "vegalite": {
+    "height": {
+     "step": 18
+    },
+    "transform": [
+     {
+      "calculate": "datum.fate_group == 'In Betrieb' ? 0 : (datum.fate_group == 'Aufgegeben' ? 2 : 1)",
+      "as": "fate_rank"
+     },
+     {
+      "calculate": "datum.fate_rank * 10000 + datum.start_year + datum.plot_end / 10000",
+      "as": "sortkey"
+     },
+     {
+      "calculate": "datum.fate_rank == 0 ? 'a' : (datum.fate_rank == 1 ? 'b' : 'c')",
+      "as": "fate_cls"
+     },
+     {
+      "calculate": {
+       "de": "{'In Betrieb': 'in Betrieb', 'Aufgegeben': 'aufgegeben', 'Gerberei': 'Gerberei', 'Mühle/Ziegelei': 'Mühle oder Ziegelei', 'Textilfabrik': 'Textilfabrik'}[datum.fate_group]",
+       "en": "{'In Betrieb': 'in operation', 'Aufgegeben': 'abandoned', 'Gerberei': 'tannery', 'Mühle/Ziegelei': 'mill or brickworks', 'Textilfabrik': 'textile mill'}[datum.fate_group]"
+      },
+      "as": "end_label"
+     },
+     {
+      "calculate": {
+       "de": "datum.note_de",
+       "en": "datum.note_en"
+      },
+      "as": "note"
+     }
+    ],
+    "encoding": {
+     "y": {
+      "field": "name",
+      "type": "nominal",
+      "sort": {
+       "field": "sortkey",
+       "order": "ascending"
+      },
+      "axis": {
+       "title": null,
+       "labelLimit": 320
+      }
+     }
+    },
+    "layer": [
+     {
+      "mark": {
+       "type": "bar",
+       "size": 9,
+       "cornerRadius": 2
+      },
+      "encoding": {
+       "x": {
+        "field": "start_year",
+        "type": "quantitative",
+        "scale": {
+         "domain": [
+          1640,
+          1960
+         ]
+        },
+        "axis": {
+         "format": "d",
+         "values": [
+          1650,
+          1700,
+          1750,
+          1800,
+          1850
+         ],
+         "title": null
+        }
+       },
+       "x2": {
+        "field": "plot_end"
+       },
+       "color": {
+        "field": "fate_cls",
+        "type": "nominal",
+        "legend": null,
+        "scale": {
+         "domain": [
+          "a",
+          "b",
+          "c"
+         ],
+         "range": [
+          "@accent",
+          "@accent2",
+          "@context"
+         ]
+        }
+       },
+       "tooltip": [
+        {
+         "field": "name",
+         "title": {
+          "de": "Werk",
+          "en": "Works"
+         }
+        },
+        {
+         "field": "place",
+         "title": {
+          "de": "Ort",
+          "en": "Place"
+         }
+        },
+        {
+         "field": "start_year",
+         "title": {
+          "de": "Beginn",
+          "en": "Start"
+         },
+         "format": "d"
+        },
+        {
+         "field": "end_year",
+         "title": {
+          "de": "Ende",
+          "en": "End"
+         },
+         "format": "d"
+        },
+        {
+         "field": "end_label",
+         "title": {
+          "de": "Später",
+          "en": "Afterwards"
+         }
+        },
+        {
+         "field": "note",
+         "title": {
+          "de": "Brückner",
+          "en": "Brückner"
+         }
+        }
+       ]
+      }
+     },
+     {
+      "mark": {
+       "type": "text",
+       "align": "left",
+       "dx": 6,
+       "style": "label-muted"
+      },
+      "encoding": {
+       "x": {
+        "field": "plot_end",
+        "type": "quantitative"
+       },
+       "text": {
+        "field": "end_label"
+       }
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "c2",
+   "dataset": "unternehmungen",
+   "title": {
+    "de": "Im Unterland sind Gruben und Hütten fast nur vor 1610 und nach 1687 belegt",
+    "en": "In the Unterland mines and smelters are documented almost only before 1610 and after 1687"
+   },
+   "caption": {
+    "de": "Gruben, Hütten und Werke des Unterlandes mit Jahreszahl, je Ort; Balken: Zeitraum, Punkt: einzelnes Jahr (Mutung, Verleihung, Erwähnung). 47 Belege, davon nur 4 zwischen 1610 und 1687. Quelle: S. 249–250.",
+    "en": "Mines, smelters and works of the Unterland with a date, by place; bar: period, dot: single year (claim, grant, mention). 47 records, only 4 of them between 1610 and 1687. Source: pp. 249–250."
+   },
+   "vegalite": {
+    "height": {
+     "step": 20
+    },
+    "padding": {
+     "top": 20,
+     "left": 4,
+     "right": 8,
+     "bottom": 4
+    },
+    "transform": [
+     {
+      "filter": "datum.region == 'Unterland'"
+     },
+     {
+      "joinaggregate": [
+       {
+        "op": "min",
+        "field": "start_plot",
+        "as": "lane_first"
+       }
+      ],
+      "groupby": [
+       "lane"
+      ]
+     },
+     {
+      "calculate": {
+       "de": "datum.note_de",
+       "en": "datum.note_en"
+      },
+      "as": "note"
+     }
+    ],
+    "encoding": {
+     "y": {
+      "field": "lane",
+      "type": "nominal",
+      "sort": {
+       "field": "lane_first",
+       "order": "ascending"
+      },
+      "axis": {
+       "title": null
+      }
+     },
+     "x": {
+      "field": "start_plot",
+      "type": "quantitative",
+      "scale": {
+       "domain": [
+        1540,
+        1760
+       ],
+       "nice": false
+      },
+      "axis": {
+       "format": "d",
+       "values": [
+        1550,
+        1600,
+        1650,
+        1700,
+        1750
+       ],
+       "title": null
+      }
+     }
+    },
+    "layer": [
+     {
+      "transform": [
+       {
+        "window": [
+         {
+          "op": "row_number",
+          "as": "rn"
+         }
+        ]
+       },
+       {
+        "filter": "datum.rn == 1"
+       }
+      ],
+      "mark": {
+       "type": "rect",
+       "color": "@context",
+       "opacity": 0.45
+      },
+      "encoding": {
+       "x": {
+        "datum": 1618
+       },
+       "x2": {
+        "datum": 1648
+       },
+       "y": {
+        "value": 0
+       },
+       "y2": {
+        "value": {
+         "expr": "height"
+        }
+       }
+      }
+     },
+     {
+      "transform": [
+       {
+        "window": [
+         {
+          "op": "row_number",
+          "as": "rn"
+         }
+        ]
+       },
+       {
+        "filter": "datum.rn == 1"
+       }
+      ],
+      "mark": {
+       "type": "text",
+       "style": "annotation",
+       "baseline": "bottom",
+       "dy": -6,
+       "align": "center"
+      },
+      "encoding": {
+       "x": {
+        "datum": 1633
+       },
+       "y": {
+        "value": 0
+       },
+       "text": {
+        "value": {
+         "de": "Dreißigjähriger Krieg",
+         "en": "Thirty Years’ War"
+        }
+       }
+      }
+     },
+     {
+      "transform": [
+       {
+        "filter": "datum.record_type == 'Zeitraum'"
+       }
+      ],
+      "mark": {
+       "type": "rule",
+       "strokeWidth": 8,
+       "strokeCap": "round",
+       "color": "@accent"
+      },
+      "encoding": {
+       "x2": {
+        "field": "end_plot"
+       },
+       "tooltip": [
+        {
+         "field": "name",
+         "title": {
+          "de": "Betrieb",
+          "en": "Enterprise"
+         }
+        },
+        {
+         "field": "metal",
+         "title": {
+          "de": "Erz",
+          "en": "Ore"
+         }
+        },
+        {
+         "field": "start_year",
+         "title": {
+          "de": "von",
+          "en": "from"
+         },
+         "format": "d"
+        },
+        {
+         "field": "end_year",
+         "title": {
+          "de": "bis",
+          "en": "to"
+         },
+         "format": "d"
+        },
+        {
+         "field": "note",
+         "title": {
+          "de": "Brückner",
+          "en": "Brückner"
+         }
+        }
+       ]
+      }
+     },
+     {
+      "transform": [
+       {
+        "filter": "datum.record_type == 'Einzelbeleg'"
+       }
+      ],
+      "mark": {
+       "type": "circle",
+       "size": 55,
+       "color": "@accent",
+       "opacity": 1
+      },
+      "encoding": {
+       "tooltip": [
+        {
+         "field": "name",
+         "title": {
+          "de": "Beleg",
+          "en": "Record"
+         }
+        },
+        {
+         "field": "metal",
+         "title": {
+          "de": "Erz",
+          "en": "Ore"
+         }
+        },
+        {
+         "field": "start_year",
+         "title": {
+          "de": "Jahr",
+          "en": "Year"
+         },
+         "format": "d"
+        },
+        {
+         "field": "note",
+         "title": {
+          "de": "Brückner",
+          "en": "Brückner"
+         }
+        }
+       ]
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "c3",
+   "dataset": "veraenderung",
+   "title": {
+    "de": "Der Salzabsatz sank 1863, weil Greiz, Möschlitz und Zeulenroda nichts mehr erhielten",
+    "en": "Salt sales fell in 1863 because Greiz, Möschlitz and Zeulenroda received none"
+   },
+   "caption": {
+    "de": "Kochsalz, das die Saline Heinrichshall 1857 und 1863 an ihre 20 Verkaufsstellen (Debitstellen) abgab, in Zentnern. Sortiert nach der Menge von 1857. Quelle: S. 251.",
+    "en": "Table salt that the Heinrichshall saltworks delivered to its 20 sales outlets (Debitstellen) in 1857 and 1863, in hundredweight. Sorted by the 1857 quantity. Source: p. 251."
+   },
+   "vegalite": {
+    "height": {
+     "step": 18
+    },
+    "transform": [
+     {
+      "calculate": "isValid(datum.ctr_1863) ? datum.ctr_1863 : 0",
+      "as": "v63"
+     },
+     {
+      "calculate": "isValid(datum.ctr_1863) ? 'a' : 'b'",
+      "as": "kind"
+     }
+    ],
+    "encoding": {
+     "y": {
+      "field": "place",
+      "type": "nominal",
+      "sort": {
+       "field": "ctr_1857",
+       "order": "descending"
+      },
+      "axis": {
+       "title": null,
+       "labelLimit": 220
+      }
+     },
+     "x": {
+      "type": "quantitative",
+      "scale": {
+       "domain": [
+        0,
+        6200
+       ],
+       "nice": false
+      },
+      "axis": {
+       "format": ",d",
+       "values": [
+        0,
+        1000,
+        2000,
+        3000,
+        4000,
+        5000,
+        6000
+       ],
+       "title": {
+        "de": "Kochsalz in Zentnern (Ctr.)",
+        "en": "Table salt in hundredweight (Ctr.)"
+       }
+      }
+     }
+    },
+    "layer": [
+     {
+      "mark": {
+       "type": "rule",
+       "strokeWidth": 2.5
+      },
+      "encoding": {
+       "x": {
+        "field": "ctr_1857"
+       },
+       "x2": {
+        "field": "v63"
+       },
+       "color": {
+        "field": "kind",
+        "type": "nominal",
+        "legend": null,
+        "scale": {
+         "domain": [
+          "a",
+          "b"
+         ],
+         "range": [
+          "@context",
+          "@negative"
+         ]
+        }
+       }
+      }
+     },
+     {
+      "mark": {
+       "type": "point",
+       "filled": true,
+       "size": 60,
+       "color": "@muted"
+      },
+      "encoding": {
+       "x": {
+        "field": "ctr_1857"
+       },
+       "tooltip": [
+        {
+         "field": "place",
+         "title": {
+          "de": "Debitstelle",
+          "en": "Sales outlet"
+         }
+        },
+        {
+         "field": "ctr_1857",
+         "title": "1857",
+         "format": ",d"
+        },
+        {
+         "field": "ctr_1863",
+         "title": "1863",
+         "format": ",d"
+        },
+        {
+         "field": "change",
+         "title": {
+          "de": "Veränderung",
+          "en": "Change"
+         },
+         "format": "+,d"
+        }
+       ]
+      }
+     },
+     {
+      "transform": [
+       {
+        "filter": "datum.kind == 'a'"
+       }
+      ],
+      "mark": {
+       "type": "point",
+       "filled": true,
+       "size": 70,
+       "color": "@accent"
+      },
+      "encoding": {
+       "x": {
+        "field": "ctr_1863"
+       },
+       "tooltip": [
+        {
+         "field": "place",
+         "title": {
+          "de": "Debitstelle",
+          "en": "Sales outlet"
+         }
+        },
+        {
+         "field": "ctr_1857",
+         "title": "1857",
+         "format": ",d"
+        },
+        {
+         "field": "ctr_1863",
+         "title": "1863",
+         "format": ",d"
+        },
+        {
+         "field": "change",
+         "title": {
+          "de": "Veränderung",
+          "en": "Change"
+         },
+         "format": "+,d"
+        }
+       ]
+      }
+     },
+     {
+      "transform": [
+       {
+        "filter": "datum.kind == 'b'"
+       }
+      ],
+      "mark": {
+       "type": "text",
+       "align": "left",
+       "dx": 10,
+       "color": "@negative",
+       "fontWeight": 600,
+       "fontSize": 11
+      },
+      "encoding": {
+       "x": {
+        "field": "ctr_1857"
+       },
+       "text": {
+        "value": {
+         "de": "1863 keine Abgabe",
+         "en": "no delivery in 1863"
+        }
+       }
+      }
+     },
+     {
+      "transform": [
+       {
+        "filter": "datum.place == 'Hof'"
+       }
+      ],
+      "mark": {
+       "type": "text",
+       "align": "left",
+       "dx": 9,
+       "style": "label"
+      },
+      "encoding": {
+       "x": {
+        "field": "ctr_1863"
+       },
+       "text": {
+        "field": "ctr_1863",
+        "format": ",d"
+       }
+      }
+     },
+     {
+      "transform": [
+       {
+        "filter": "datum.place == 'Gera'"
+       }
+      ],
+      "mark": {
+       "type": "text",
+       "align": "right",
+       "dx": -9,
+       "style": "annotation"
+      },
+      "encoding": {
+       "x": {
+        "field": "ctr_1857"
+       },
+       "text": {
+        "value": "1857"
+       }
+      }
+     },
+     {
+      "transform": [
+       {
+        "filter": "datum.place == 'Gera'"
+       }
+      ],
+      "mark": {
+       "type": "text",
+       "align": "left",
+       "dx": 9,
+       "style": "annotation"
+      },
+      "encoding": {
+       "x": {
+        "field": "ctr_1863"
+       },
+       "text": {
+        "value": "1863"
+       }
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "keywords": {
+  "de": [
+   "Bergbau",
+   "Eisenerz",
+   "Hammerwerke",
+   "Hüttenwerke",
+   "Saline Heinrichshall",
+   "Kochsalz",
+   "Kupfer",
+   "Trebnitz",
+   "Köstritz",
+   "Alaun",
+   "Oberland",
+   "Unterland"
+  ],
+  "en": [
+   "mining",
+   "iron ore",
+   "hammer mills",
+   "smelting works",
+   "Heinrichshall saltworks",
+   "table salt",
+   "copper",
+   "Trebnitz",
+   "Köstritz",
+   "alum",
+   "Oberland",
+   "Unterland"
+  ]
+ },
+ "related": [
+  "geologie-boden",
+  "berufe-gewerbe",
+  "wald-holz",
+  "staatsfinanzen"
+ ],
+ "generated_by": "Claude Sonnet 5.5 (Agent F6), aus 5 Einzelauswertungen zusammengeführt",
+ "date": "2026-10-02"
+}

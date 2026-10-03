@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de">
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="main">Volks- und Landeskunde des Fürstenthums Reuß j. L.</title>
+      <title type="sub">Digitale Edition, S. 284</title>
+      <author><persName ref="https://d-nb.info/gnd/119209217">Brückner, Georg</persName> (1800–1881)</author>
+      <editor><persName>Tobias Perschl</persName></editor><editor><persName>Markus Gerstmeier</persName></editor><editor><persName>Malte Rehbein</persName></editor>
+      <respStmt><resp>Automatische Transkription und Entitätenerkennung</resp><name>Google Gemini 3 Flash (2026)</name></respStmt>
+      <respStmt><resp>Layout-Korrektur, Register, Auswertungen, Edition</resp><persName>Tobias Perschl</persName><persName>Markus Gerstmeier</persName><persName>Malte Rehbein</persName><name>Claude (Anthropic)</name></respStmt>
+    </titleStmt>
+    <editionStmt><edition n="1.1">Version 1.1, <date when="2026-10-02">2026-10-02</date></edition></editionStmt>
+    <publicationStmt>
+      <publisher>Lehrstuhl für Computational Humanities, Universität Passau</publisher>
+      <date when="2026-10-02">2026</date>
+      <availability><licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0 (Transkription, Annotation, Daten). Faksimiles: Bayerische Staatsbibliothek München, NoC-NC 1.0.</licence></availability>
+    </publicationStmt>
+    <sourceDesc>
+      <bibl type="original">
+        <author>Brückner, Georg</author>
+        <title>Volks- und Landeskunde des Fürstenthums Reuß j. L. Im Auftrage des regierenden Landesfürsten verfaßt</title>
+        <pubPlace>Gera</pubPlace><publisher>Köhler</publisher><date when="1870">1870</date>
+        <extent>VIII, 840 S.</extent>
+        <idno type="URN">urn:nbn:de:bvb:12-bsb11005578-4</idno>
+        <idno type="BSB">bsb11005578</idno>
+        <idno type="shelfmark">München, Bayerische Staatsbibliothek, Germ.sp. 78 ld</idno>
+      </bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+    <projectDesc><p>Digitale Edition auf Grundlage einer automatischen Transkription des BSB-Digitalisats (Gemini 3 Flash, 2026), regelbasiert korrigiert und strukturiert; Register durch KI-Agenten bereinigt und mit Normdaten verknüpft.</p></projectDesc>
+    <editorialDecl>
+      <normalization><p>Historische Schreibung beibehalten; Umlaute modern (ä, ö, ü statt e-Superskript); langes s als s; Ligaturen aufgelöst.</p></normalization>
+      <hyphenation eol="none"><p>Silbentrennung am Zeilenende aufgelöst; am Seitenende erhaltene Trennungen sind über das Seitenende hinweg in einem Absatz zusammengeführt.</p></hyphenation>
+      <correction><p>Layoutfehler der automatischen Erkennung (Tabellenköpfe, Bogensignaturen, Trennstriche) sind regelbasiert korrigiert und je Seite protokolliert. Inhaltliche Druckfehler sind nicht korrigiert.</p></correction>
+    </editorialDecl>
+  </encodingDesc>
+  <profileDesc><langUsage><language ident="de">Deutsch (1870)</language></langUsage></profileDesc>
+  <revisionDesc><change when="2026-10-02">Version 1.1</change></revisionDesc>
+</teiHeader>
+<facsimile><surface xml:id="f0296" n="284" ulx="0" uly="0" lrx="1648" lry="2702"><graphic url="https://api.digitale-sammlungen.de/iiif/image/v2/bsb11005578_00296/full/full/0/default.jpg" mimeType="image/jpeg"/><zone xml:id="f0296-b2" type="block" ulx="348" uly="246" lrx="1382" lry="2391"/></surface></facsimile>
+<text><body><div type="page" n="284"><pb n="284" facs="#f0296"/>
+<fw type="header" place="top">IV. Der Staat.</fw>
+<ab type="heading" xml:id="p284-b1">b. Civilia.</ab>
+<table xml:id="p284-b2" facs="#f0296-b2" rows="16" cols="21"><row role="label"><cell role="label">Einzelgerichte.</cell><cell role="label">Förmliche Rechtsstreitigkeiten</cell><cell role="label"></cell><cell role="label"></cell><cell role="label"></cell><cell role="label"></cell><cell role="label"></cell><cell role="label"></cell><cell role="label">Concurse</cell><cell role="label"></cell><cell role="label"></cell><cell role="label"></cell><cell role="label">Appellationen</cell><cell role="label"></cell><cell role="label"></cell><cell role="label"></cell><cell role="label"></cell><cell role="label"></cell><cell role="label"></cell><cell role="label"></cell><cell role="label"></cell></row><row role="label"><cell role="label"></cell><cell role="label">überhaupt</cell><cell role="label"></cell><cell role="label">erledigt durch</cell><cell role="label"></cell><cell role="label"></cell><cell role="label"></cell><cell role="label">unerledigt</cell><cell role="label"></cell><cell role="label">überhaupt</cell><cell role="label"></cell><cell role="label">erledigt</cell><cell role="label"></cell><cell role="label">beim Kreisgerichte</cell><cell role="label"></cell><cell role="label"></cell><cell role="label"></cell><cell role="label">beim Appellationsgerichte</cell><cell role="label"></cell><cell role="label"></cell><cell role="label"></cell></row><row role="label"><cell role="label"></cell><cell role="label"></cell><cell role="label"></cell><cell role="label">Erkenntn.</cell><cell role="label"></cell><cell role="label">Vergleich</cell><cell role="label"></cell><cell role="label"></cell><cell role="label"></cell><cell role="label"></cell><cell role="label"></cell><cell role="label"></cell><cell role="label"></cell><cell role="label">Sa.</cell><cell role="label">bestätigt.</cell><cell role="label">geändert.</cell><cell role="label">zurückgen.</cell><cell role="label">Sa.</cell><cell role="label">bestätigt.</cell><cell role="label">geändert.</cell><cell role="label">zurückgen.</cell></row><row role="label"><cell role="label"></cell><cell role="label">alte.</cell><cell role="label">neue.</cell><cell role="label">alte.</cell><cell role="label">neue.</cell><cell role="label">alte.</cell><cell role="label">neue.</cell><cell role="label">alte.</cell><cell role="label">neue.</cell><cell role="label">alte.</cell><cell role="label">neue.</cell><cell role="label">alte.</cell><cell role="label">neue.</cell><cell role="label"></cell><cell role="label"></cell><cell role="label"></cell><cell role="label"></cell><cell role="label"></cell><cell role="label"></cell><cell role="label"></cell><cell role="label"></cell></row><row><cell>Gera I.</cell><cell>177</cell><cell>836</cell><cell>88</cell><cell>104</cell><cell>80</cell><cell>517</cell><cell>9</cell><cell>215</cell><cell>4</cell><cell>15</cell><cell>1</cell><cell>1</cell><cell>2</cell><cell>1</cell><cell>1</cell><cell>—</cell><cell>8</cell><cell>1</cell><cell>7</cell><cell>—</cell></row><row><cell>Gera II.</cell><cell>75</cell><cell>438</cell><cell>17</cell><cell>76</cell><cell>58</cell><cell>320</cell><cell>—</cell><cell>42</cell><cell>1</cell><cell>2</cell><cell>—</cell><cell>1</cell><cell>3</cell><cell>—</cell><cell>2</cell><cell>1</cell><cell>4</cell><cell>3</cell><cell>1</cell><cell>—</cell></row><row><cell><placeName ref="#place-hirschberg">Hirschberg</placeName></cell><cell>20</cell><cell>142</cell><cell>3</cell><cell>19</cell><cell>16</cell><cell>100</cell><cell>1</cell><cell>23</cell><cell>—</cell><cell>—</cell><cell>—</cell><cell>—</cell><cell>2</cell><cell>2</cell><cell>—</cell><cell>—</cell><cell>2</cell><cell>1</cell><cell>—</cell><cell>1</cell></row><row><cell><placeName ref="#place-hohenleuben">Hohenleuben</placeName></cell><cell>19</cell><cell>106</cell><cell>3</cell><cell>12</cell><cell>16</cell><cell>80</cell><cell>—</cell><cell>14</cell><cell>2</cell><cell>—</cell><cell>1</cell><cell>—</cell><cell>3</cell><cell>2</cell><cell>1</cell><cell>—</cell><cell>4</cell><cell>1</cell><cell>—</cell><cell>3</cell></row><row><cell>Lobenstein I.</cell><cell>16</cell><cell>153</cell><cell>5</cell><cell>19</cell><cell>11</cell><cell>124</cell><cell>—</cell><cell>10</cell><cell>—</cell><cell>4</cell><cell>—</cell><cell>3</cell><cell>5</cell><cell>1</cell><cell>3</cell><cell>1</cell><cell>3</cell><cell>2</cell><cell>1</cell><cell>—</cell></row><row><cell>Lobenstein II.</cell><cell>31</cell><cell>235</cell><cell>16</cell><cell>49</cell><cell>10</cell><cell>157</cell><cell>5</cell><cell>29</cell><cell>1</cell><cell>4</cell><cell>1</cell><cell>1</cell><cell>5</cell><cell>5</cell><cell>—</cell><cell>—</cell><cell>1</cell><cell>—</cell><cell>1</cell><cell>—</cell></row><row><cell>Schleiz I.</cell><cell>15</cell><cell>250</cell><cell>14</cell><cell>36</cell><cell>34</cell><cell>170</cell><cell>2</cell><cell>44</cell><cell>7</cell><cell>5</cell><cell>2</cell><cell>1</cell><cell>6</cell><cell>4</cell><cell>2</cell><cell>—</cell><cell>6</cell><cell>—</cell><cell>6</cell><cell>—</cell></row><row><cell>Schleiz II.</cell><cell>4</cell><cell>109</cell><cell>2</cell><cell>19</cell><cell>2</cell><cell>72</cell><cell>—</cell><cell>18</cell><cell>—</cell><cell>—</cell><cell>—</cell><cell>—</cell><cell>2</cell><cell>1</cell><cell>1</cell><cell>—</cell><cell>1</cell><cell>1</cell><cell>—</cell><cell>—</cell></row><row><cell>Summe 1867</cell><cell>392</cell><cell>2269</cell><cell>148</cell><cell>334</cell><cell>227</cell><cell>1540</cell><cell>17</cell><cell>395</cell><cell>15</cell><cell>30</cell><cell>5</cell><cell>7</cell><cell>28</cell><cell>16</cell><cell>10</cell><cell>2</cell><cell>29</cell><cell>11</cell><cell>16</cell><cell>2</cell></row><row><cell>1866</cell><cell>515</cell><cell>2085</cell><cell>57</cell><cell>247</cell><cell>241</cell><cell>1456</cell><cell>217</cell><cell>382</cell><cell>15</cell><cell>16</cell><cell>11</cell><cell>6</cell><cell>31</cell><cell>12</cell><cell>16</cell><cell>2</cell><cell>37</cell><cell>18</cell><cell>17</cell><cell>2</cell></row><row><cell>1865</cell><cell>540</cell><cell>2264</cell><cell>104</cell><cell>378</cell><cell>202</cell><cell>1505</cell><cell>234</cell><cell>381</cell><cell>19</cell><cell>13</cell><cell>12</cell><cell>6</cell><cell>38</cell><cell>17</cell><cell>15</cell><cell>2</cell><cell>37</cell><cell>19</cell><cell>16</cell><cell>1</cell></row><row><cell>1864</cell><cell>299</cell><cell>2021</cell><cell>100</cell><cell>372</cell><cell>185</cell><cell>1123</cell><cell>14</cell><cell>520</cell><cell>19</cell><cell>17</cell><cell>14</cell><cell>3</cell><cell>59</cell><cell>26</cell><cell>19</cell><cell>8</cell><cell>61</cell><cell>36</cell><cell>21</cell><cell>1</cell></row></table>
+</div></body></text>
+<standOff>
+<listPlace>
+<place xml:id="place-hirschberg"><placeName>Hirschberg</placeName><desc>Stadt</desc><location><geo>50.40538 11.81829</geo></location><idno type="GeoNames">https://www.geonames.org/2903720</idno><idno type="Wikidata">https://www.wikidata.org/entity/Q630383</idno></place>
+<place xml:id="place-hohenleuben"><placeName>Hohenleuben</placeName><desc>Marktflecken</desc><location><geo>50.71128 12.05427</geo></location><idno type="GeoNames">https://www.geonames.org/2901634</idno><idno type="Wikidata">https://www.wikidata.org/entity/Q526430</idno></place>
+</listPlace>
+</standOff>
+</TEI>

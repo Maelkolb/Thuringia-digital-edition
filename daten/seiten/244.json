@@ -1,0 +1,582 @@
+{
+ "seq": 256,
+ "label": "244",
+ "slug": "244",
+ "iiif": {
+  "service": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb11005578_00256",
+  "canvas": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11005578/canvas/256",
+  "width": 1646,
+  "height": 2701
+ },
+ "kind": "text",
+ "running_header": "III. Die Volksbetriebsamkeit.",
+ "signature": null,
+ "blocks": [
+  {
+   "id": "b1",
+   "type": "table",
+   "src": 0,
+   "n_cols": 5,
+   "header_rows": 1,
+   "rows": [
+    {
+     "role": "header",
+     "cells": [
+      {
+       "text": "Bergwerksdistrict:",
+       "spans": []
+      },
+      {
+       "text": "H ü t t e n w e r k e:",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Schleiz mit Saalburg:",
+       "spans": [
+        [
+         0,
+         7,
+         "Location"
+        ],
+        [
+         12,
+         20,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "2 Schmelzhütten; (eine zu Schleiz *) und eine zuerst am Triebesbach, dann 1603 neu a. Dornbach erbaut und 1620 noch im Gange.)",
+       "spans": [
+        [
+         26,
+         33,
+         "Location"
+        ],
+        [
+         56,
+         67,
+         "Natural Object"
+        ],
+        [
+         86,
+         94,
+         "Natural Object"
+        ]
+       ]
+      },
+      {
+       "text": "3 Hammerwerke; (eins zu Görkwitz, eins bei Oschitz, noch 1600 in Betrieb, und d. untere Saalhammer **), später Klosterhammer genannt.)",
+       "spans": [
+        [
+         24,
+         32,
+         "Location"
+        ],
+        [
+         43,
+         50,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "1 Alaunhütte; (zu Oberböhmsdorf.)",
+       "spans": [
+        [
+         18,
+         31,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "1 Pulvermühle; (bei Schleiz, war 1647 als ruinirt angegeben.)",
+       "spans": [
+        [
+         2,
+         13,
+         "Artefact"
+        ],
+        [
+         20,
+         27,
+         "Location"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Lobenstein:",
+       "spans": [
+        [
+         0,
+         10,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "3 Kupferschmelzhütten; (bei Arlas, b. Harra Kupferplatte u. im Lemnitzhammer.)",
+       "spans": [
+        [
+         28,
+         33,
+         "Location"
+        ],
+        [
+         38,
+         43,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "3 Alaun- u. Vitriolhütten; (darunter die bedeutendste bei Haueisen.)",
+       "spans": []
+      },
+      {
+       "text": "über 10 Hammerwerke, nämlich:",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "Stahlhütte; (Spaniershammer) a. d. Saale, alt.",
+       "spans": [
+        [
+         35,
+         40,
+         "Natural Object"
+        ]
+       ]
+      },
+      {
+       "text": "alter Haueisen; (Volkmers Hammer) 1650 als Neuhammer neu aufgebaut, an der Saale, alt.",
+       "spans": [
+        [
+         75,
+         80,
+         "Natural Object"
+        ]
+       ]
+      },
+      {
+       "text": "Lemnitzhammer; (Eisenwerk u. Kupferhütte) 1623 wüst gemacht, alt.",
+       "spans": []
+      },
+      {
+       "text": "Steuersches Hammerwerk; z. Blankenstein.",
+       "spans": [
+        [
+         27,
+         39,
+         "Location"
+        ]
+       ]
+      }
+     ]
+    }
+   ],
+   "grid": [
+    [
+     "Bergwerks- district:",
+     "H ü t t e n w e r k e:",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Schleiz mit Saalburg:",
+     "2 Schmelz- hütten; (eine zu Schleiz *) und eine zuerst am Triebesbach, dann 1603 neu a. Dorn- bach erbaut und 1620 noch im Gange.)",
+     "3 Hammer- werke; (eins zu Görkwitz, eins bei Oschitz, noch 1600 in Be- trieb, und d. untere Saalhammer **), später Klosterham- mer genannt.)",
+     "1 Alaunhütte; (zu Oberböhms- dorf.)",
+     "1 Pulvermühle; (bei Schleiz, war 1647 als ruinirt angegeben.)"
+    ],
+    [
+     "Lobenstein:",
+     "3 Kupferschmelzhütten; (bei Arlas, b. Harra Kupfer- platte u. im Lemnitzhammer.)",
+     "3 Alaun- u. Vitriol- hütten; (darunter die bedeutendste bei Haueisen.)",
+     "über 10 Hammer- werke, nämlich:",
+     ""
+    ],
+    [
+     "",
+     "Stahlhütte; (Spaniers- hammer) a. d. Saale, alt.",
+     "alter Haueisen; (Volkmers Hammer) 1650 als Neuhammer neu aufgebaut, an der Saale, alt.",
+     "Lemnitzhammer; (Eisenwerk u. Kupfer- hütte) 1623 wüst ge- macht, alt.",
+     "Steuersches Hammer- werk; z. Blankenstein."
+    ]
+   ],
+   "caption": null,
+   "sec": "t1-3-5"
+  },
+  {
+   "id": "b2",
+   "type": "table",
+   "src": 1,
+   "n_cols": 4,
+   "header_rows": 0,
+   "rows": [
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Oberer Saalhammer; Oberländers Hammer, später Saalbach, bei Rudolphstein, bestand lange vor 1472.",
+       "spans": [
+        [
+         60,
+         72,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "Oberer Wurzbacher Hammer; 1601 und 1647 Fasolds Hammer, später Benignengrün genannt, am Langwasser.",
+       "spans": [
+        [
+         88,
+         98,
+         "Natural Object"
+        ]
+       ]
+      },
+      {
+       "text": "Unterer Hammer; später Fasolds Hammer, jetzt Solmsgrün, an d. Sormitz.",
+       "spans": [
+        [
+         62,
+         69,
+         "Natural Object"
+        ]
+       ]
+      },
+      {
+       "text": "Klettigshammer; Hammer im Klettig, an der Sormitz.",
+       "spans": [
+        [
+         0,
+         7,
+         "Location"
+        ],
+        [
+         42,
+         49,
+         "Natural Object"
+        ]
+       ]
+      }
+     ]
+    }
+   ],
+   "grid": [
+    [
+     "Oberer Saal- hammer; Oberländers Hammer, spä- ter Saalbach, bei Rudolph- stein, bestand lange vor 1472.",
+     "Oberer Wurzbacher Hammer; 1601 und 1647 Fasolds Ham- mer, später Benignengrün genannt, am Langwasser.",
+     "Unterer Hammer; später Fasolds Hammer, jetzt Solmsgrün, an d. Sormitz.",
+     "Klettigs- hammer; Hammer im Klettig, an der Sormitz."
+    ]
+   ],
+   "caption": null,
+   "sec": "t1-3-5"
+  },
+  {
+   "id": "b3",
+   "type": "paragraph",
+   "src": 2,
+   "text": "die Hüttenwerke bei Hirschberg, darunter das b. d. Hammermühle am Aubach.",
+   "spans": [
+    [
+     20,
+     30,
+     "Location"
+    ],
+    [
+     66,
+     72,
+     "Natural Object"
+    ]
+   ],
+   "sec": "t1-3-5"
+  },
+  {
+   "id": "b4",
+   "type": "paragraph",
+   "src": 3,
+   "text": "Nach dem 30jährigen Kriege dauerte es über ein Jahrhundert, ehe wieder Leben in das Bergbau- und Hüttenwesen kam. Zwar wurden bald nach dem Kriege einige Eisenhütten und die ihnen nahe gelegenen oder als ergiebig bekannten Gruben wieder gangbar gemacht, auch suchten mehrere Landesregenten das Interesse für den Bergbau zu beleben und legten selbst Hand an's Werk, wie denn Graf Heinrich XXII. zu Gera 1712 seinem Bruder Heinrich XVIII. schrieb, daß er bei Gräfenwarth ein Bergwerk auf edle und unedle Metalle (der Stollen noch jetzt sichtbar) eröffnet habe; demungeachtet blieb die bergmännische Industrie lange Zeit lahm, dies nicht allein wegen ungünstiger Zeitverhältnisse und unzureichender Geldmittel, sondern auch wegen fachunkundlicher und nachlässiger Wirthschaft. Erst in den letzten Jahrzehnten des vorigen und im Anfange des jetzigen Jahrhunderts nahmen die Eisenhütten einen raschen Aufschwung und viele seither kalt gelegene Gruben wurden lebendig und productiv. Dies dauerte bis 1858, von wo an durch die Einwirkung der neuen Verkehrsverhältnisse ein solcher Rückgang eintrat, daß der oberländische Bergbau trotz seines Reichthums an trefflichen Erzen und das Hüttenwesen trotz seiner günstigen Wasserkräfte fast ganz erstorben ist. Nur noch wenige Gruben im schleizer und lobensteiner Gebiete sind in schwachem Betriebe; ihr Eisenstein geht an die Königin-Marienhütte zu Zwickau zur Stahlbereitung. Betrug 1860 die Ausbeute an Eisen-",
+   "spans": [
+    [
+     379,
+     393,
+     "Person"
+    ],
+    [
+     397,
+     401,
+     "Location"
+    ],
+    [
+     421,
+     436,
+     "Person"
+    ],
+    [
+     457,
+     468,
+     "Location"
+    ],
+    [
+     1161,
+     1166,
+     "Resource"
+    ],
+    [
+     1210,
+     1222,
+     "Resource"
+    ],
+    [
+     1274,
+     1283,
+     "Location"
+    ],
+    [
+     1288,
+     1300,
+     "Location"
+    ],
+    [
+     1341,
+     1351,
+     "Resource"
+    ],
+    [
+     1364,
+     1383,
+     "Organisation"
+    ],
+    [
+     1387,
+     1394,
+     "Location"
+    ]
+   ],
+   "continues": true,
+   "word_division": {
+    "word": "Eisenerzen",
+    "part": "Eisen-"
+   },
+   "sec": "t1-3-5"
+  }
+ ],
+ "footnotes": [
+  {
+   "id": "fn1",
+   "marker": "*)",
+   "text": "1612 war sie verfallen, sollte aber neu erbaut werden.",
+   "spans": []
+  },
+  {
+   "id": "fn2",
+   "marker": "**)",
+   "text": "Der Venetianer Verso sagt: Zu Saalburg ist ein Hammer, da findest du Rubinen. 1647 wird der Klosterhammer als verkommen angegeben.",
+   "spans": [
+    [
+     15,
+     20,
+     "Person"
+    ],
+    [
+     30,
+     38,
+     "Location"
+    ]
+   ]
+  }
+ ],
+ "corrections": [
+  {
+   "rule": "join_linebreak_hyphen",
+   "before": "Bergwerks- district",
+   "after": "Bergwerksdistrict"
+  },
+  {
+   "rule": "join_linebreak_hyphen",
+   "before": "2 Schmelz- hütten",
+   "after": "2 Schmelzhütten"
+  },
+  {
+   "rule": "join_linebreak_hyphen",
+   "before": "neu a. Dorn- bach",
+   "after": "neu a. Dornbach"
+  },
+  {
+   "rule": "join_linebreak_hyphen",
+   "before": "3 Hammer- werke",
+   "after": "3 Hammerwerke"
+  },
+  {
+   "rule": "join_linebreak_hyphen",
+   "before": "h 1600 in Be- trieb",
+   "after": "h 1600 in Betrieb"
+  },
+  {
+   "rule": "join_linebreak_hyphen",
+   "before": "r Klosterham- mer",
+   "after": "r Klosterhammer"
+  },
+  {
+   "rule": "join_linebreak_hyphen",
+   "before": "zu Oberböhms- dorf",
+   "after": "zu Oberböhmsdorf"
+  },
+  {
+   "rule": "join_linebreak_hyphen",
+   "before": "Harra Kupfer- platte",
+   "after": "Harra Kupferplatte"
+  },
+  {
+   "rule": "join_linebreak_hyphen",
+   "before": "- u. Vitriol- hütten",
+   "after": "- u. Vitriolhütten"
+  },
+  {
+   "rule": "join_linebreak_hyphen",
+   "before": "er 10 Hammer- werke",
+   "after": "er 10 Hammerwerke"
+  },
+  {
+   "rule": "join_linebreak_hyphen",
+   "before": "e; (Spaniers- hammer",
+   "after": "e; (Spaniershammer"
+  },
+  {
+   "rule": "join_linebreak_hyphen",
+   "before": "rk u. Kupfer- hütte",
+   "after": "rk u. Kupferhütte"
+  },
+  {
+   "rule": "join_linebreak_hyphen",
+   "before": "1623 wüst ge- macht",
+   "after": "1623 wüst gemacht"
+  },
+  {
+   "rule": "join_linebreak_hyphen",
+   "before": "sches Hammer- werk",
+   "after": "sches Hammerwerk"
+  },
+  {
+   "rule": "join_linebreak_hyphen",
+   "before": "Oberer Saal- hammer",
+   "after": "Oberer Saalhammer"
+  },
+  {
+   "rule": "join_linebreak_hyphen",
+   "before": "Hammer, spä- ter",
+   "after": "Hammer, später"
+  },
+  {
+   "rule": "join_linebreak_hyphen",
+   "before": "bei Rudolph- stein",
+   "after": "bei Rudolphstein"
+  },
+  {
+   "rule": "join_linebreak_hyphen",
+   "before": "Fasolds Ham- mer",
+   "after": "Fasolds Hammer"
+  },
+  {
+   "rule": "join_linebreak_hyphen",
+   "before": "Klettigs- hammer",
+   "after": "Klettigshammer"
+  },
+  {
+   "rule": "table_drop_empty_columns",
+   "dropped": [
+    0
+   ],
+   "block": "b2"
+  },
+  {
+   "rule": "table_no_header_row",
+   "note": "first row is data (legacy edition rendered it as <th>)",
+   "block": "b2"
+  },
+  {
+   "rule": "join_linebreak_hyphen",
+   "before": "die Hütten- werke",
+   "after": "die Hüttenwerke"
+  },
+  {
+   "rule": "join_linebreak_hyphen",
+   "before": "b. d. Hammer- mühle",
+   "after": "b. d. Hammermühle"
+  },
+  {
+   "rule": "join_linebreak_hyphen",
+   "before": "ergiebig be- kannten",
+   "after": "ergiebig bekannten"
+  },
+  {
+   "rule": "join_linebreak_hyphen",
+   "before": "sse und unzu- reichender",
+   "after": "sse und unzureichender"
+  },
+  {
+   "rule": "join_linebreak_hyphen",
+   "before": "ssiger Wirth- schaft",
+   "after": "ssiger Wirthschaft"
+  },
+  {
+   "rule": "join_linebreak_hyphen",
+   "before": "nigin-Marien- hütte",
+   "after": "nigin-Marienhütte"
+  }
+ ],
+ "provenance": {
+  "source": "colab-2026-03",
+  "model": "gemini-3-flash-preview",
+  "timestamp": "2026-03-04T13:26:27.910770",
+  "early_schema": false
+ },
+ "section_path": [
+  "t1",
+  "t1-3",
+  "t1-3-5"
+ ],
+ "sections": [
+  "t1-3-5"
+ ]
+}

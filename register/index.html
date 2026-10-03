@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="de" data-ui="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Register – Brückner 1870 – Digitale Edition</title>
+<meta name="description" content="Digitale Edition von Georg Brückners Volks- und Landeskunde des Fürstenthums Reuß j. L. (Gera 1870): Volltext mit Faksimile, Registern, Karte, Auswertungen und Suche.">
+<meta name="author" content="Tobias Perschl, Markus Gerstmeier, Malte Rehbein">
+<link rel="canonical" href="https://maelkolb.github.io/Thuringia-digital-edition/register/index.html">
+<meta property="og:title" content="Register – Brückner 1870 – Digitale Edition">
+<meta property="og:description" content="Digitale Edition von Georg Brückners Volks- und Landeskunde des Fürstenthums Reuß j. L. (Gera 1870): Volltext mit Faksimile, Registern, Karte, Auswertungen und Suche.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://maelkolb.github.io/Thuringia-digital-edition/assets/img/titelblatt.jpg">
+<link rel="icon" href="../assets/img/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="../assets/css/edition.css?v=1.1">
+<script>
+(function () {
+  // opened from disk (file://), browsers refuse the font files; an embedded copy of the fonts is used instead
+  var offline = location.protocol === 'file:';
+  (offline ? ['fonts-offline.css'] : ['newsreader-latin-wght-normal.woff2', 'source-sans-3-latin-wght-normal.woff2']).forEach(function (f) {
+    var l = document.createElement('link');
+    if (offline) { l.rel = 'stylesheet'; l.href = '../assets/css/' + f; }
+    else { l.rel = 'preload'; l.as = 'font'; l.type = 'font/woff2'; l.crossOrigin = ''; l.href = '../assets/fonts/' + f; }
+    document.head.appendChild(l);
+  });
+  var d = document.documentElement, ui = 'de', th = null;
+  try { ui = localStorage.getItem('rj.ui') || (navigator.language || 'de').slice(0, 2); th = localStorage.getItem('rj.theme'); } catch (e) {}
+  ui = ui === 'en' ? 'en' : 'de';
+  d.setAttribute('data-ui', ui); d.lang = ui;
+  if (th === 'dark' || th === 'light') d.setAttribute('data-theme', th);
+})();
+</script>
+</head>
+<body class="" data-root="../">
+<a class="skip-link" href="#main"><span data-l="de">Zum Inhalt</span><span data-l="en">Skip to content</span></a>
+<header class="site-header">
+  <div class="bar">
+    <button class="tool-btn menu-toggle" type="button" aria-label="Menü" data-de-aria-label="Menü" data-en-aria-label="Menu" aria-expanded="false" data-menu>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+    </button>
+    <a class="brand" href="../index.html"><b>Brückner 1870</b><span><span data-l="de">Digitale Edition</span><span data-l="en">Digital edition</span></span></a>
+    <nav class="nav" aria-label="Hauptnavigation" data-de-aria-label="Hauptnavigation" data-en-aria-label="Main navigation" data-nav>
+      <a href="../seite/3.html" ><span data-l="de">Lesen</span><span data-l="en">Read</span></a>
+      <a href="../inhalt.html" ><span data-l="de">Inhalt</span><span data-l="en">Contents</span></a>
+      <a href="../register/index.html" aria-current="page"><span data-l="de">Register</span><span data-l="en">Indexes</span></a>
+      <a href="../karte.html" ><span data-l="de">Karte</span><span data-l="en">Map</span></a>
+      <a href="../auswertungen/index.html" ><span data-l="de">Auswertungen</span><span data-l="en">Analyses</span></a>
+      <a href="../edition/einleitung.html" ><span data-l="de">Zur Edition</span><span data-l="en">About</span></a>
+    </nav>
+    <div class="header-tools">
+      <form class="quicksearch" role="search" aria-label="Schnellsuche" data-de-aria-label="Schnellsuche" data-en-aria-label="Quick search" action="../suche.html" data-quicksearch>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+        <label class="visually-hidden" for="qs"><span data-l="de">Suche</span><span data-l="en">Search</span></label>
+        <input id="qs" name="q" type="search" autocomplete="off" placeholder="Suchen" data-de-placeholder="Suchen" data-en-placeholder="Search" aria-autocomplete="list" aria-controls="qs-results">
+        <div class="qs-results" id="qs-results" role="listbox"></div>
+      </form>
+      <button class="tool-btn" type="button" data-lang-toggle><span data-l="de" lang="en">English</span><span data-l="en" lang="de">Deutsch</span></button>
+      <button class="tool-btn" type="button" data-theme-toggle aria-label="Helles oder dunkles Farbschema" data-de-aria-label="Helles oder dunkles Farbschema" data-en-aria-label="Light or dark colour scheme" title="Helles oder dunkles Farbschema" data-de-title="Helles oder dunkles Farbschema" data-en-title="Light or dark colour scheme">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+<main id="main">
+<div class="wrap narrow">
+  <h1 class="doc-title"><span data-l="de">Register</span><span data-l="en">Indexes</span></h1>
+  <p class="lede"><span data-l="de">Die Register verzeichnen alle in der Transkription annotierten Namen und Sachen mit ihren Seiten. Sie wurden maschinell vorbereitet, von KI-Agenten bereinigt (Varianten zusammengeführt, Fehlannotationen verworfen) und, wo möglich, mit Normdaten aus GeoNames, Wikidata und GBIF verknüpft.</span><span data-l="en">The indexes list all names and things annotated in the transcription with their pages. They were prepared automatically, cleaned by AI agents (variants merged, false annotations discarded) and linked to authority data from GeoNames, Wikidata and GBIF where possible.</span></p>
+  <ul class="reg-index">
+    <li class="k-place"><a href="orte.html"><span class="swatch" aria-hidden="true"></span><span data-l="de">Orte</span><span data-l="en">Places</span></a><span class="n"><span data-l="de">1.216 Einträge</span><span data-l="en">1,216 entries</span></span><p><span data-l="de">Städte, Dörfer, Wüstungen, Landesteile und Regionen. Orte des Fürstentums sind mit Brückners Ortsartikel (II. Theil) verknüpft.</span><span data-l="en">Towns, villages, deserted settlements, districts and regions. Places of the principality link to Brückner's topographical article (Part II).</span></p></li>
+    <li class="k-nature"><a href="natur.html"><span class="swatch" aria-hidden="true"></span><span data-l="de">Gewässer, Berge, Wälder</span><span data-l="en">Natural features</span></a><span class="n"><span data-l="de">808 Einträge</span><span data-l="en">808 entries</span></span><p><span data-l="de">Flüsse, Bäche, Teiche, Berge, Wälder und Täler.</span><span data-l="en">Rivers, streams, ponds, mountains, forests and valleys.</span></p></li>
+    <li class="k-person"><a href="personen.html"><span class="swatch" aria-hidden="true"></span><span data-l="de">Personen</span><span data-l="en">Persons</span></a><span class="n"><span data-l="de">2.140 Einträge</span><span data-l="en">2,140 entries</span></span><p><span data-l="de">Personen, die Brückner nennt – Landesherren, Geistliche, Beamte, Gelehrte. Mehrdeutige Namensformen (z. B. „Heinrich d. ä.“) sind als solche gekennzeichnet.</span><span data-l="en">Persons named by Brückner – rulers, clergy, officials, scholars. Ambiguous name forms (e.g. “Heinrich d. ä.”) are marked as such.</span></p></li>
+    <li class="k-organisation"><a href="institutionen.html"><span class="swatch" aria-hidden="true"></span><span data-l="de">Institutionen</span><span data-l="en">Institutions</span></a><span class="n"><span data-l="de">264 Einträge</span><span data-l="en">264 entries</span></span><p><span data-l="de">Klöster, Orden, Behörden, Schulen, Vereine und Körperschaften.</span><span data-l="en">Monasteries, orders, authorities, schools, societies and corporations.</span></p></li>
+    <li class="k-organism"><a href="organismen.html"><span class="swatch" aria-hidden="true"></span><span data-l="de">Tiere und Pflanzen</span><span data-l="en">Animals and plants</span></a><span class="n"><span data-l="de">708 Einträge</span><span data-l="en">708 entries</span></span><p><span data-l="de">Tiere und Pflanzen mit wissenschaftlichem Namen und GBIF-Verknüpfung, soweit bestimmbar.</span><span data-l="en">Animals and plants with scientific name and GBIF link where identifiable.</span></p></li>
+    <li class="k-concept"><a href="sachen.html"><span class="swatch" aria-hidden="true"></span><span data-l="de">Sachen und Begriffe</span><span data-l="en">Things and concepts</span></a><span class="n"><span data-l="de">1.565 Einträge</span><span data-l="en">1,565 entries</span></span><p><span data-l="de">Bauwerke, Geräte, Rohstoffe, Lebensräume, Wetter und Ereignisse.</span><span data-l="en">Buildings, objects, resources, habitats, weather and events.</span></p></li>
+    <li><a href="sachregister.html"><span data-l="de">Sachregister</span><span data-l="en">Subject index</span></a><span class="n"><span data-l="de">147 Schlagwörter</span><span data-l="en">147 subjects</span></span><p><span data-l="de">Themen von „Ackerbau“ bis „Wüstung“ mit allen Seiten, auf denen sie behandelt werden.</span><span data-l="en">Topics from agriculture to deserted villages with all pages that treat them.</span></p></li>
+    <li><a href="glossar.html"><span data-l="de">Glossar</span><span data-l="en">Glossary</span></a><span class="n"><span data-l="de">537 Begriffe</span><span data-l="en">537 terms</span></span><p><span data-l="de">Historische Maße, Münzen, Ämter, Mundart- und Fachwörter mit Erklärung.</span><span data-l="en">Historical units, coins, offices, dialect and technical terms, explained.</span></p></li>
+    <li><a href="orte.html"><span data-l="de">Ortsartikel des zweiten Teils</span><span data-l="en">Place articles of Part II</span></a><span class="n"><span data-l="de">224 Artikel</span><span data-l="en">224 articles</span></span><p><span data-l="de">Brückners Ortsbeschreibungen in strukturierter Form, mit Einwohnern, Häusern, Ersterwähnung und Gewerben; zu finden im Ortsregister und auf der Karte.</span><span data-l="en">Brückner’s place descriptions in structured form, with inhabitants, houses, first record and trades; available in the place index and on the map.</span></p></li>
+  </ul>
+</div>
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <div>
+      <p><b>Georg Brückner: Volks- und Landeskunde des Fürstenthums Reuß j. L. Gera 1870</b><br>
+      <span data-l="de">Digitale Edition, herausgegeben von Tobias Perschl, Markus Gerstmeier und Malte Rehbein, Lehrstuhl für Computational Humanities, Universität Passau.</span><span data-l="en">Digital edition, edited by Tobias Perschl, Markus Gerstmeier and Malte Rehbein, Chair of Computational Humanities, University of Passau.</span>
+      Version 1.1, 2026-10-02.</p>
+      <p><span data-l="de">Grundlage ist das Exemplar der Bayerischen Staatsbibliothek München (Germ.sp. 78 ld).</span><span data-l="en">Based on the copy in the Bayerische Staatsbibliothek Munich (Germ.sp. 78 ld).</span>
+      <span data-l="de">Transkription, Annotationen und Daten stehen unter</span><span data-l="en">Transcription, annotations and data are licensed under</span> <a href="https://creativecommons.org/licenses/by/4.0/" rel="license">CC BY 4.0</a><span data-l="de">, die Faksimiles unter</span><span data-l="en">, the facsimiles under</span> <a href="https://rightsstatements.org/vocab/NoC-NC/1.0/">NoC-NC 1.0</a>.</p>
+    </div>
+    <div>
+      <h2><span data-l="de">Zur Edition</span><span data-l="en">About the edition</span></h2>
+      <ul>
+        <li><a href="../edition/einleitung.html"><span data-l="de">Einleitung</span><span data-l="en">Introduction</span></a></li>
+        <li><a href="../edition/richtlinien.html"><span data-l="de">Editionsrichtlinien</span><span data-l="en">Editorial principles</span></a></li>
+        <li><a href="../edition/zitieren.html"><span data-l="de">Zitierweise</span><span data-l="en">How to cite</span></a></li>
+        <li><a href="../edition/daten.html"><span data-l="de">Daten und Downloads</span><span data-l="en">Data and downloads</span></a></li>
+      </ul>
+    </div>
+    <div>
+      <h2><span data-l="de">Erschließung</span><span data-l="en">Finding aids</span></h2>
+      <ul>
+        <li><a href="../suche.html"><span data-l="de">Volltextsuche</span><span data-l="en">Full-text search</span></a></li>
+        <li><a href="../register/sachregister.html"><span data-l="de">Sachregister</span><span data-l="en">Subject index</span></a></li>
+        <li><a href="../register/glossar.html"><span data-l="de">Glossar</span><span data-l="en">Glossary</span></a></li>
+        <li><a href="../edition/impressum.html"><span data-l="de">Impressum und Datenschutz</span><span data-l="en">Imprint and privacy</span></a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+<script src="../assets/js/norm.js?v=1.1" defer></script>
+<script src="../assets/js/edition.js?v=1.1" defer></script>
+</body>
+</html>

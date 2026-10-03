@@ -1,0 +1,852 @@
+{
+ "seq": 84,
+ "label": "72",
+ "slug": "72",
+ "iiif": {
+  "service": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb11005578_00084",
+  "canvas": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11005578/canvas/84",
+  "width": 1626,
+  "height": 2702
+ },
+ "kind": "text",
+ "running_header": "I. Die Natur des Landes.",
+ "signature": null,
+ "blocks": [
+  {
+   "id": "b1",
+   "type": "paragraph",
+   "src": 0,
+   "text": "die Hauptzüge des bis jetzt gewonnenen Beobachtungsmaterials und auch diese blos nach den hauptsächlichsten Standorten Wasser und Land*) und in letzterer Beziehung nach Wiesen, Saatflur, Waldboden, Wald, Weg und Rain können hier als ausreichend, um ein allgemeines Pflanzenbild des Landes zu gewinnen, in Betracht kommen.",
+   "spans": [
+    [
+     130,
+     134,
+     "Environment"
+    ],
+    [
+     119,
+     125,
+     "Environment"
+    ],
+    [
+     169,
+     175,
+     "Environment"
+    ],
+    [
+     177,
+     185,
+     "Environment"
+    ],
+    [
+     187,
+     196,
+     "Environment"
+    ],
+    [
+     187,
+     191,
+     "Environment"
+    ],
+    [
+     204,
+     207,
+     "Environment"
+    ],
+    [
+     212,
+     216,
+     "Environment"
+    ]
+   ],
+   "continued": true,
+   "sec": "t1-1-8"
+  },
+  {
+   "id": "b2",
+   "type": "paragraph",
+   "src": 1,
+   "text": "Die Phanerogamen, d. h. mit eigentlichen Blüthen begabte Pflanzen des Reußenlandes und ihre Vergleichung mit Thüringen, Franken und Deutschland giebt folgende Tabelle:",
+   "spans": [
+    [
+     57,
+     65,
+     "Plant"
+    ],
+    [
+     70,
+     82,
+     "Location"
+    ],
+    [
+     109,
+     118,
+     "Location"
+    ],
+    [
+     120,
+     127,
+     "Location"
+    ],
+    [
+     132,
+     143,
+     "Location"
+    ]
+   ],
+   "sec": "t1-1-8"
+  },
+  {
+   "id": "b3",
+   "type": "table",
+   "src": 2,
+   "n_cols": 5,
+   "header_rows": 1,
+   "rows": [
+    {
+     "role": "header",
+     "cells": [
+      {
+       "text": "Land.",
+       "spans": []
+      },
+      {
+       "text": "Species.",
+       "spans": []
+      },
+      {
+       "text": "Dicotylen.",
+       "spans": []
+      },
+      {
+       "text": "Monocotylen.",
+       "spans": []
+      },
+      {
+       "text": "Verhältniß.",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Reußenland",
+       "spans": [
+        [
+         0,
+         10,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "1093",
+       "spans": []
+      },
+      {
+       "text": "851",
+       "spans": []
+      },
+      {
+       "text": "242",
+       "spans": []
+      },
+      {
+       "text": "3,52 : 1",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Dem Unterlande allein gehörig .",
+       "spans": [
+        [
+         4,
+         14,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "96",
+       "spans": []
+      },
+      {
+       "text": "71",
+       "spans": []
+      },
+      {
+       "text": "25",
+       "spans": []
+      },
+      {
+       "text": "2,44 : 1",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Dem Oberlande allein gehörig .",
+       "spans": [
+        [
+         4,
+         13,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "113",
+       "spans": []
+      },
+      {
+       "text": "94",
+       "spans": []
+      },
+      {
+       "text": "19",
+       "spans": []
+      },
+      {
+       "text": "4,94 : 1",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Beiden gemeinschaftlich .",
+       "spans": []
+      },
+      {
+       "text": "884",
+       "spans": []
+      },
+      {
+       "text": "686",
+       "spans": []
+      },
+      {
+       "text": "198",
+       "spans": []
+      },
+      {
+       "text": "3,46 : 1",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Das Unterland im Ganzen .",
+       "spans": [
+        [
+         4,
+         13,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "980",
+       "spans": []
+      },
+      {
+       "text": "757",
+       "spans": []
+      },
+      {
+       "text": "223",
+       "spans": []
+      },
+      {
+       "text": "3,39 : 1",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Das Oberland im Ganzen .",
+       "spans": [
+        [
+         4,
+         12,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "997",
+       "spans": []
+      },
+      {
+       "text": "780",
+       "spans": []
+      },
+      {
+       "text": "217",
+       "spans": []
+      },
+      {
+       "text": "3,59 : 1",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Thüringen**)",
+       "spans": [
+        [
+         0,
+         9,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "1421",
+       "spans": []
+      },
+      {
+       "text": "1096",
+       "spans": []
+      },
+      {
+       "text": "325",
+       "spans": []
+      },
+      {
+       "text": "3,37 : 1",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Franken***)",
+       "spans": [
+        [
+         0,
+         7,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "1332",
+       "spans": []
+      },
+      {
+       "text": "1017",
+       "spans": []
+      },
+      {
+       "text": "315",
+       "spans": []
+      },
+      {
+       "text": "3,23 : 1",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Deutschland",
+       "spans": [
+        [
+         0,
+         11,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "2840",
+       "spans": []
+      },
+      {
+       "text": "2242",
+       "spans": []
+      },
+      {
+       "text": "598",
+       "spans": []
+      },
+      {
+       "text": "3,76 : 1",
+       "spans": []
+      }
+     ]
+    }
+   ],
+   "grid": [
+    [
+     "Land.",
+     "Species.",
+     "Dicoty- len.",
+     "Monoco- tylen.",
+     "Verhältniß."
+    ],
+    [
+     "Reußenland",
+     "1093",
+     "851",
+     "242",
+     "3,52 : 1"
+    ],
+    [
+     "Dem Unterlande allein gehörig .",
+     "96",
+     "71",
+     "25",
+     "2,44 : 1"
+    ],
+    [
+     "Dem Oberlande allein gehörig .",
+     "113",
+     "94",
+     "19",
+     "4,94 : 1"
+    ],
+    [
+     "Beiden gemeinschaftlich .",
+     "884",
+     "686",
+     "198",
+     "3,46 : 1"
+    ],
+    [
+     "Das Unterland im Ganzen .",
+     "980",
+     "757",
+     "223",
+     "3,39 : 1"
+    ],
+    [
+     "Das Oberland im Ganzen .",
+     "997",
+     "780",
+     "217",
+     "3,59 : 1"
+    ],
+    [
+     "Thüringen**) . . . . .",
+     "1421",
+     "1096",
+     "325",
+     "3,37 : 1"
+    ],
+    [
+     "Franken***) . . . . .",
+     "1332",
+     "1017",
+     "315",
+     "3,23 : 1"
+    ],
+    [
+     "Deutschland . . . . .",
+     "2840",
+     "2242",
+     "598",
+     "3,76 : 1"
+    ]
+   ],
+   "caption": null,
+   "sec": "t1-1-8"
+  },
+  {
+   "id": "b4",
+   "type": "paragraph",
+   "src": 3,
+   "text": "Demnach hat das Reußenland zwar nur 38,4 Procent der Species Deutschlands, dagegen steht es den beiden mitteldeutschen Ländern Thüringen und Franken nahe, indem es nur 328 Species weniger hat als Thüringen und sogar 239 weniger als Franken. Wichtig für die Vergleichung der beiden reußischen Landesgebiete, des Unterlandes und des Oberlandes, sind die jedem einzelnen allein zustehenden Phanerogamen, weshalb ihr Verzeichniß hier gegeben wird. Im Unterlande (und nicht im Oberlande) finden sich ausschließlich folgende Pflanzen†):",
+   "spans": [
+    [
+     16,
+     26,
+     "Location"
+    ],
+    [
+     127,
+     136,
+     "Location"
+    ],
+    [
+     196,
+     205,
+     "Location"
+    ],
+    [
+     141,
+     148,
+     "Location"
+    ],
+    [
+     232,
+     239,
+     "Location"
+    ],
+    [
+     447,
+     457,
+     "Location"
+    ],
+    [
+     472,
+     481,
+     "Location"
+    ],
+    [
+     61,
+     73,
+     "Location"
+    ],
+    [
+     311,
+     322,
+     "Location"
+    ],
+    [
+     331,
+     341,
+     "Location"
+    ]
+   ],
+   "sec": "t1-1-8"
+  },
+  {
+   "id": "b5",
+   "type": "paragraph",
+   "src": 4,
+   "text": "Acer Pseudoplatanus. Rosa cinnamomea.\nClematis Vitalba. - pumila.\nMyosurus minimus. - gallica.\nRanunculus Lingua.††) Crataegus monogyna, Jcq.\nCorydalis solida, Sm. Sempervivum soboliferum, Sims.\n- pumila,†††) Host. Silaus pratensis, B.\nConringia orientalis, L. Seseli annuum.\nDianthus superbus. Laserpitium pruthenicum.\nLepigonum rubrum, W. Galium tricorne, With.\nGeranium phaeum. Scabiosa ochroleuca.\nCoronilla varia. Inula britannica.\nPotentilla Fragariastrum, Ehrh. Palicaria dysenterica, Grtn.\nRosa pimpinellifolia. Helichrysum arenarium, DC.",
+   "spans": [
+    [
+     0,
+     19,
+     "Plant"
+    ],
+    [
+     21,
+     36,
+     "Plant"
+    ],
+    [
+     38,
+     54,
+     "Plant"
+    ],
+    [
+     66,
+     82,
+     "Plant"
+    ],
+    [
+     95,
+     112,
+     "Plant"
+    ],
+    [
+     117,
+     135,
+     "Plant"
+    ],
+    [
+     142,
+     158,
+     "Plant"
+    ],
+    [
+     164,
+     187,
+     "Plant"
+    ],
+    [
+     215,
+     231,
+     "Plant"
+    ],
+    [
+     236,
+     256,
+     "Plant"
+    ],
+    [
+     261,
+     274,
+     "Plant"
+    ],
+    [
+     276,
+     293,
+     "Plant"
+    ],
+    [
+     295,
+     318,
+     "Plant"
+    ],
+    [
+     320,
+     336,
+     "Plant"
+    ],
+    [
+     341,
+     356,
+     "Plant"
+    ],
+    [
+     364,
+     379,
+     "Plant"
+    ],
+    [
+     381,
+     400,
+     "Plant"
+    ],
+    [
+     402,
+     417,
+     "Plant"
+    ],
+    [
+     419,
+     435,
+     "Plant"
+    ],
+    [
+     437,
+     461,
+     "Plant"
+    ],
+    [
+     469,
+     490,
+     "Plant"
+    ],
+    [
+     498,
+     518,
+     "Plant"
+    ],
+    [
+     520,
+     541,
+     "Plant"
+    ]
+   ],
+   "sec": "t1-1-8"
+  }
+ ],
+ "footnotes": [
+  {
+   "id": "fn1",
+   "marker": "*)",
+   "text": "Specialsflorenwerke müssen genauer bei dem Wasser stehendes und fließendes Wasser und dessen Ufer, beim Land Hoch- und Niederwald, lichten und gedeckten Waldboden, Weideland und Trift, Felsstriche und Gebüsch, Wiesen und Aecker, Hecken, Wege, Dämme, Schutthaufen, Mauer und Dach als Standorte eigenthümlicher Floren unterscheiden.",
+   "spans": [
+    [
+     104,
+     108,
+     "Environment"
+    ],
+    [
+     43,
+     49,
+     "Environment"
+    ],
+    [
+     75,
+     81,
+     "Environment"
+    ],
+    [
+     210,
+     216,
+     "Environment"
+    ],
+    [
+     153,
+     162,
+     "Environment"
+    ],
+    [
+     93,
+     97,
+     "Environment"
+    ],
+    [
+     109,
+     129,
+     "Environment"
+    ],
+    [
+     164,
+     173,
+     "Environment"
+    ],
+    [
+     178,
+     183,
+     "Environment"
+    ],
+    [
+     185,
+     196,
+     "Natural Object"
+    ],
+    [
+     201,
+     208,
+     "Environment"
+    ],
+    [
+     221,
+     227,
+     "Environment"
+    ],
+    [
+     229,
+     235,
+     "Environment"
+    ],
+    [
+     237,
+     241,
+     "Artefact"
+    ],
+    [
+     243,
+     248,
+     "Artefact"
+    ],
+    [
+     250,
+     262,
+     "Artefact"
+    ],
+    [
+     264,
+     269,
+     "Artefact"
+    ],
+    [
+     274,
+     278,
+     "Artefact"
+    ]
+   ]
+  },
+  {
+   "id": "fn2",
+   "marker": "**)",
+   "text": "Nach Schachtendal.",
+   "spans": [
+    [
+     5,
+     17,
+     "Person"
+    ]
+   ]
+  },
+  {
+   "id": "fn3",
+   "marker": "***)",
+   "text": "Nach der Bavaria.",
+   "spans": []
+  },
+  {
+   "id": "fn4",
+   "marker": "†)",
+   "text": "Die nicht besonders bezeichneten Namen sind die Linneischen.",
+   "spans": []
+  },
+  {
+   "id": "fn5",
+   "marker": "††)",
+   "text": "Angeblich auch bei Plothen.",
+   "spans": [
+    [
+     19,
+     26,
+     "Location"
+    ]
+   ]
+  },
+  {
+   "id": "fn6",
+   "marker": "†††)",
+   "text": "Bei Köstriz, sonst nicht in Thüringen.",
+   "spans": [
+    [
+     28,
+     37,
+     "Location"
+    ],
+    [
+     4,
+     11,
+     "Location"
+    ]
+   ]
+  }
+ ],
+ "corrections": [
+  {
+   "rule": "strip_dot_leaders"
+  },
+  {
+   "rule": "facsimile_correction",
+   "before": "Pulicaria dysenterica",
+   "after": "Palicaria dysenterica",
+   "source": "A05",
+   "n": 1
+  },
+  {
+   "rule": "join_linebreak_hyphen",
+   "before": "Dicoty- len",
+   "after": "Dicotylen"
+  },
+  {
+   "rule": "join_linebreak_hyphen",
+   "before": "Monoco- tylen",
+   "after": "Monocotylen"
+  }
+ ],
+ "provenance": {
+  "source": "colab-2026-01",
+  "model": "gemini-3-flash-preview",
+  "timestamp": "2026-01-06T03:50:53.990696",
+  "early_schema": false
+ },
+ "section_path": [
+  "t1",
+  "t1-1",
+  "t1-1-8"
+ ],
+ "sections": [
+  "t1-1-8"
+ ]
+}

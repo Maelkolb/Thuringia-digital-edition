@@ -1,0 +1,551 @@
+{
+ "seq": 20,
+ "label": "8",
+ "slug": "8",
+ "iiif": {
+  "service": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb11005578_00020",
+  "canvas": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11005578/canvas/20",
+  "width": 1617,
+  "height": 2706
+ },
+ "kind": "text",
+ "running_header": "I. Die Natur des Landes.",
+ "signature": null,
+ "blocks": [
+  {
+   "id": "b1",
+   "type": "paragraph",
+   "src": 0,
+   "text": "dienten doch zugleich ihre Resultate als Grundlagen bei der Einführung der allgemeinen Grundsteuer. Die Zwecke der Grundbesteuerung erheischten auch eine Vermessung im Landestheile Lobenstein-Ebersdorf, doch kam es hier nur zu einer Ausschreitung und Croquirung. Bei der Vermessung und Croquirung legte man statt des dresdener Scheffels, mit dem man begonnen hatte, den preußischen Morgen zu Grunde. Für Gera ist der Maßstab der Kartirung 1/2000, für Schleiz 1/2500, bei den Croquis für Lobenstein-Ebersdorf 1/4000. Zugleich sind für alle Fluren in Gera und für einige in Schleiz Duplicate nach dem Maßstabe der Unicate und daneben für Gera und Schleiz Croquis im 5000theil. Maßstabe angefertigt, dagegen die Croquis von Lobenstein-Ebersdorf nur kopirt worden. Die Unicate hat das Catasterbureau zu Gera, die Duplicate je der Gemeindevorstand in Verwahrung. In den Jahren 1851 bis 1857 erfolgte eine vom preußischen Generalstabe ausgeführte topographische Aufnahme von Thüringen mit Einschlusse des reußischen Landes. Auf Grund dieser Aufnahme und der Landesvermessung ergiebt sich nun ein anderes Areal-Resultat, das in seiner Durchschnittszahl so lange als annähernd richtig angenommen werden muß, bis eine auf trigonometrische Messung beruhende Berechnung das endgültige Maß feststellt. Neben dem Resultat der leider nicht vollständigen, zudem nicht trigonometrisch behandelten Landesvermessung liegen noch zwei preußische Berechnungen des Landesareals, eine ältere (vom Geh. Reg.-Rath Engelhardt, 1853) und eine neueste (vom Inspektor Nowack) vor*), von denen die letztere die mittlere Zahl der beiden anderen Angaben bildet und als maßgebend zu betrachten ist.",
+   "spans": [
+    [
+     181,
+     201,
+     "Location"
+    ],
+    [
+     487,
+     507,
+     "Location"
+    ],
+    [
+     721,
+     741,
+     "Location"
+    ],
+    [
+     404,
+     408,
+     "Location"
+    ],
+    [
+     549,
+     553,
+     "Location"
+    ],
+    [
+     636,
+     640,
+     "Location"
+    ],
+    [
+     799,
+     803,
+     "Location"
+    ],
+    [
+     451,
+     458,
+     "Location"
+    ],
+    [
+     572,
+     579,
+     "Location"
+    ],
+    [
+     645,
+     652,
+     "Location"
+    ],
+    [
+     781,
+     795,
+     "Organisation"
+    ],
+    [
+     904,
+     928,
+     "Organisation"
+    ],
+    [
+     969,
+     978,
+     "Location"
+    ],
+    [
+     999,
+     1016,
+     "Location"
+    ],
+    [
+     1489,
+     1499,
+     "Person"
+    ],
+    [
+     1539,
+     1545,
+     "Person"
+    ]
+   ],
+   "continued": true,
+   "sec": "t1-1-3"
+  },
+  {
+   "id": "b2",
+   "type": "table",
+   "src": 1,
+   "n_cols": 5,
+   "header_rows": 4,
+   "rows": [
+    {
+     "role": "header",
+     "cells": [
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "Preußische Berechnung",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "Landes-",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "header",
+     "cells": [
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "ältere",
+       "spans": []
+      },
+      {
+       "text": "neuere",
+       "spans": []
+      },
+      {
+       "text": "Vermessung.",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "header",
+     "cells": [
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "(Engelhardt).",
+       "spans": []
+      },
+      {
+       "text": "(Nowack).",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "header",
+     "cells": [
+      {
+       "text": "Das Land.",
+       "spans": []
+      },
+      {
+       "text": "□ M.",
+       "spans": []
+      },
+      {
+       "text": "□ M.",
+       "spans": []
+      },
+      {
+       "text": "□ M.",
+       "spans": []
+      },
+      {
+       "text": "pr. Morgen.",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Gera",
+       "spans": [
+        [
+         0,
+         4,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "5,83",
+       "spans": []
+      },
+      {
+       "text": "4,03",
+       "spans": []
+      },
+      {
+       "text": "4,007",
+       "spans": []
+      },
+      {
+       "text": "85701",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Saalburg",
+       "spans": [
+        [
+         0,
+         8,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "20218",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Reichenfels",
+       "spans": [
+        [
+         0,
+         11,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "4,49",
+       "spans": []
+      },
+      {
+       "text": "11,03",
+       "spans": []
+      },
+      {
+       "text": "6,035",
+       "spans": []
+      },
+      {
+       "text": "17760",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Schleiz",
+       "spans": [
+        [
+         0,
+         7,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "81380",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Lobenstein-Ebersdorf",
+       "spans": [
+        [
+         0,
+         20,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "4,83",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "4,923",
+       "spans": []
+      },
+      {
+       "text": "111679",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "total",
+     "cells": [
+      {
+       "text": "Summa",
+       "spans": []
+      },
+      {
+       "text": "15,15",
+       "spans": []
+      },
+      {
+       "text": "15,06",
+       "spans": []
+      },
+      {
+       "text": "14,965",
+       "spans": []
+      },
+      {
+       "text": "316738",
+       "spans": []
+      }
+     ]
+    }
+   ],
+   "grid": [
+    [
+     "",
+     "Preußische Berechnung",
+     "",
+     "Landes-",
+     ""
+    ],
+    [
+     "",
+     "ältere",
+     "neuere",
+     "Vermessung.",
+     ""
+    ],
+    [
+     "",
+     "(Engelhardt).",
+     "(Nowack).",
+     "",
+     ""
+    ],
+    [
+     "Das Land.",
+     "□ M.",
+     "□ M.",
+     "□ M.",
+     "pr. Morgen."
+    ],
+    [
+     "Gera . . . . . .",
+     "5,83",
+     "4,03",
+     "4,007",
+     "85701"
+    ],
+    [
+     "Saalburg . . . . .",
+     "",
+     "",
+     "",
+     "20218"
+    ],
+    [
+     "Reichenfels . . . .",
+     "4,49",
+     "11,03",
+     "6,035",
+     "17760"
+    ],
+    [
+     "Schleiz . . . . . .",
+     "",
+     "",
+     "",
+     "81380"
+    ],
+    [
+     "Lobenstein-Ebersdorf",
+     "4,83",
+     "",
+     "4,923",
+     "111679"
+    ],
+    [
+     "Summa",
+     "15,15",
+     "15,06",
+     "14,965",
+     "316738"
+    ]
+   ],
+   "caption": null,
+   "sec": "t1-1-3"
+  },
+  {
+   "id": "b3",
+   "type": "paragraph",
+   "src": 2,
+   "text": "Den Umfang der Bodenfläche des Fürstenthums zu 15,06 □ M. angenommen, so ist derselbe\nüber 3 Mal größer als das Fürstenthum Reuß ä. L. (= 4,99 □ M.),\num 1/3 größer als das Herzogthum S.-Koburg (= 10,2 □ M.),\nfast gleich mit Schwarzburg-Sondershausen (= 15,63 □ M.),\ngegen 5/8 vom Herzogthum S.-Altenburg (= 24,00 □ M.),\n      \" 1/3 vom Herzogthum S.-Meiningen (= 44,97 □ M.),\n      \" 5/22 vom Großherzogthum S.-Weimar (= 66,03 □ M.).",
+   "spans": [
+    [
+     112,
+     134,
+     "Location"
+    ],
+    [
+     172,
+     192,
+     "Location"
+    ],
+    [
+     224,
+     249,
+     "Location"
+    ],
+    [
+     280,
+     303,
+     "Location"
+    ],
+    [
+     336,
+     359,
+     "Location"
+    ],
+    [
+     393,
+     417,
+     "Location"
+    ]
+   ],
+   "sec": "t1-1-3"
+  }
+ ],
+ "footnotes": [
+  {
+   "id": "fn1",
+   "marker": "*)",
+   "text": "S. Dr. Bruno Hildebrand, Statistik Thüringens. Bd. I, Lfg. 1, p. 25.",
+   "spans": [
+    [
+     7,
+     23,
+     "Person"
+    ],
+    [
+     35,
+     45,
+     "Location"
+    ]
+   ]
+  }
+ ],
+ "corrections": [
+  {
+   "rule": "strip_dot_leaders"
+  },
+  {
+   "rule": "table_multirow_header",
+   "rows": 4,
+   "block": "b2"
+  }
+ ],
+ "provenance": {
+  "source": "colab-2026-01",
+  "model": "gemini-3-flash-preview",
+  "timestamp": "2026-01-06T01:54:08.337174",
+  "early_schema": false
+ },
+ "section_path": [
+  "t1",
+  "t1-1",
+  "t1-1-3"
+ ],
+ "sections": [
+  "t1-1-3"
+ ]
+}

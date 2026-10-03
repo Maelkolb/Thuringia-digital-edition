@@ -1,0 +1,14 @@
+﻿nr,kat_nr,kategorie_de,kategorie_en,einheit_de,einheit_en,merkmal_de,merkmal_en,gebiet_de,gebiet_en,min,max,mitte,min_je_ha,max_je_ha,bemerkung
+1,1,"Tagelohn","Day wage","Silbergroschen je Tag","Silbergroschen per day","Mann, Winter","Man, winter","Unterland","Lower Land",10,10,10.0,,,
+2,1,"Tagelohn","Day wage","Silbergroschen je Tag","Silbergroschen per day","Mann, Sommer","Man, summer","Unterland","Lower Land",12,20,16.0,,,
+3,1,"Tagelohn","Day wage","Silbergroschen je Tag","Silbergroschen per day","Frau, Winter","Woman, winter","Unterland","Lower Land",5,6,5.5,,,
+4,1,"Tagelohn","Day wage","Silbergroschen je Tag","Silbergroschen per day","Frau, Sommer","Woman, summer","Unterland","Lower Land",8,10,9.0,,,
+5,1,"Tagelohn","Day wage","Silbergroschen je Tag","Silbergroschen per day","Mann, mit Kost","Man, with board","Oberland","Upper Land",5,6,5.5,,,
+6,1,"Tagelohn","Day wage","Silbergroschen je Tag","Silbergroschen per day","Frau, mit Kost","Woman, with board","Oberland","Upper Land",3,3,3.0,,,
+7,1,"Tagelohn","Day wage","Silbergroschen je Tag","Silbergroschen per day","Mann, ohne Kost","Man, without board","Oberland","Upper Land",10,12,11.0,,,"doppelter Satz laut Text"
+8,1,"Tagelohn","Day wage","Silbergroschen je Tag","Silbergroschen per day","Frau, ohne Kost","Woman, without board","Oberland","Upper Land",6,6,6.0,,,"doppelter Satz laut Text"
+9,2,"Jahreslohn des Gesindes","Annual wage of farm servants","Thaler im Jahr","Thaler per year","Knechte","Farm hands (men)","Land","Country",30,50,40.0,,,
+10,2,"Jahreslohn des Gesindes","Annual wage of farm servants","Thaler im Jahr","Thaler per year","Mägde","Farm maids (women)","Land","Country",18,30,24.0,,,
+11,3,"Pachtpreis","Rent","Thaler je Morgen","Thaler per Morgen","Einzelne Grundstücke","Single plots","beide Gebiete","both areas",9,12,10.5,35.2,47.0,
+12,3,"Pachtpreis","Rent","Thaler je Morgen","Thaler per Morgen","Große Güter, Unterland","Large estates, Lower Land","Unterland","Lower Land",4,8,6.0,15.7,31.3,
+13,3,"Pachtpreis","Rent","Thaler je Morgen","Thaler per Morgen","Große Güter, Oberland","Large estates, Upper Land","Oberland","Upper Land",3,6,4.5,11.7,23.5,

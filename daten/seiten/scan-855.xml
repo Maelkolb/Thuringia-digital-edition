@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de">
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="main">Volks- und Landeskunde des Fürstenthums Reuß j. L.</title>
+      <title type="sub">Digitale Edition, Scan 855</title>
+      <author><persName ref="https://d-nb.info/gnd/119209217">Brückner, Georg</persName> (1800–1881)</author>
+      <editor><persName>Tobias Perschl</persName></editor><editor><persName>Markus Gerstmeier</persName></editor><editor><persName>Malte Rehbein</persName></editor>
+      <respStmt><resp>Automatische Transkription und Entitätenerkennung</resp><name>Google Gemini 3 Flash (2026)</name></respStmt>
+      <respStmt><resp>Layout-Korrektur, Register, Auswertungen, Edition</resp><persName>Tobias Perschl</persName><persName>Markus Gerstmeier</persName><persName>Malte Rehbein</persName><name>Claude (Anthropic)</name></respStmt>
+    </titleStmt>
+    <editionStmt><edition n="1.1">Version 1.1, <date when="2026-10-02">2026-10-02</date></edition></editionStmt>
+    <publicationStmt>
+      <publisher>Lehrstuhl für Computational Humanities, Universität Passau</publisher>
+      <date when="2026-10-02">2026</date>
+      <availability><licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0 (Transkription, Annotation, Daten). Faksimiles: Bayerische Staatsbibliothek München, NoC-NC 1.0.</licence></availability>
+    </publicationStmt>
+    <sourceDesc>
+      <bibl type="original">
+        <author>Brückner, Georg</author>
+        <title>Volks- und Landeskunde des Fürstenthums Reuß j. L. Im Auftrage des regierenden Landesfürsten verfaßt</title>
+        <pubPlace>Gera</pubPlace><publisher>Köhler</publisher><date when="1870">1870</date>
+        <extent>VIII, 840 S.</extent>
+        <idno type="URN">urn:nbn:de:bvb:12-bsb11005578-4</idno>
+        <idno type="BSB">bsb11005578</idno>
+        <idno type="shelfmark">München, Bayerische Staatsbibliothek, Germ.sp. 78 ld</idno>
+      </bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+    <projectDesc><p>Digitale Edition auf Grundlage einer automatischen Transkription des BSB-Digitalisats (Gemini 3 Flash, 2026), regelbasiert korrigiert und strukturiert; Register durch KI-Agenten bereinigt und mit Normdaten verknüpft.</p></projectDesc>
+    <editorialDecl>
+      <normalization><p>Historische Schreibung beibehalten; Umlaute modern (ä, ö, ü statt e-Superskript); langes s als s; Ligaturen aufgelöst.</p></normalization>
+      <hyphenation eol="none"><p>Silbentrennung am Zeilenende aufgelöst; am Seitenende erhaltene Trennungen sind über das Seitenende hinweg in einem Absatz zusammengeführt.</p></hyphenation>
+      <correction><p>Layoutfehler der automatischen Erkennung (Tabellenköpfe, Bogensignaturen, Trennstriche) sind regelbasiert korrigiert und je Seite protokolliert. Inhaltliche Druckfehler sind nicht korrigiert.</p></correction>
+    </editorialDecl>
+  </encodingDesc>
+  <profileDesc><langUsage><language ident="de">Deutsch (1870)</language></langUsage></profileDesc>
+  <revisionDesc><change when="2026-10-02">Version 1.1</change></revisionDesc>
+</teiHeader>
+<facsimile><surface xml:id="f0855" n="" ulx="0" uly="0" lrx="1600" lry="2697"><graphic url="https://api.digitale-sammlungen.de/iiif/image/v2/bsb11005578_00855/full/full/0/default.jpg" mimeType="image/jpeg"/></surface></facsimile>
+<text><body><div type="page" n=""><pb n="" facs="#f0855"/>
+<p xml:id="pscan-855-b1">L. POSCHEGAR Buchbinderei - Stempel 8031 PUCHHEIM Augsburger Straße 33 1/2</p>
+</div></body></text>
+<standOff>
+</standOff>
+</TEI>

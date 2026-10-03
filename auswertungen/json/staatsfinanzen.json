@@ -1,0 +1,1808 @@
+{
+ "id": "staatsfinanzen",
+ "title": {
+  "de": "Staatshaushalt, Schulden und Versicherung",
+  "en": "State budget, debt and insurance"
+ },
+ "category": "finance",
+ "section": "t1-4-3",
+ "merges": [
+  "staat-haushalt-einnahmen-ausgaben-1866-1868",
+  "staat-schulden-kassenscheine-1857-1866",
+  "versicherung-feuerversicherung-1867-orte"
+ ],
+ "sources": [
+  {
+   "page": "276",
+   "block": "b3"
+  },
+  {
+   "page": "277",
+   "block": "b1"
+  },
+  {
+   "page": "277",
+   "block": "b3"
+  },
+  {
+   "page": "272",
+   "block": "b1"
+  },
+  {
+   "page": "275",
+   "block": "b2"
+  },
+  {
+   "page": "275",
+   "block": "b5"
+  },
+  {
+   "page": "277",
+   "block": "b6"
+  },
+  {
+   "page": "277",
+   "block": "b7"
+  },
+  {
+   "page": "277",
+   "block": "b8"
+  },
+  {
+   "page": "277",
+   "block": "b9"
+  },
+  {
+   "page": "278",
+   "block": "b1"
+  },
+  {
+   "page": "304",
+   "block": "b2"
+  },
+  {
+   "page": "304",
+   "block": "b3"
+  },
+  {
+   "page": "303",
+   "block": "b5"
+  },
+  {
+   "page": "304",
+   "block": "b1"
+  }
+ ],
+ "summary": {
+  "de": "Für die Finanzperiode 1866/68 veranschlagte der Staat Einnahmen von 296.000 und Ausgaben von 290.000 Talern im Jahr; 52 Prozent der Einnahmen kamen aus indirekten Steuern. Die verzinsliche Staatsschuld sank von 1857 bis 1866 um 19 Prozent auf 372.050 Taler. Ende 1867 waren 18.773 Gebäude mit 20,1 Millionen Talern gegen Feuer versichert.",
+  "en": "For the financial period 1866/68 the state budgeted revenue of 296,000 and expenditure of 290,000 thalers a year; 52 percent of the revenue came from indirect taxes. The interest-bearing public debt fell by 19 percent from 1857 to 1866, to 372,050 thalers. At the end of 1867, 18,773 buildings were insured against fire for 20.1 million thalers."
+ },
+ "findings": [
+  {
+   "de": "Von den veranschlagten Ausgaben (290.000 Taler) nennt Brückner nur 29,2 Prozent einzeln: Militär 54.750, Chausseeunterhaltung 26.835, Staatsgebäude und Wege 3.212 Taler.",
+   "en": "Of the budgeted expenditure (290,000 thalers) Brückner itemises only 29.2 percent: military 54,750, road maintenance 26,835, state buildings and paths 3,212 thalers."
+  },
+  {
+   "de": "Zur verzinslichen Schuld treten 320.000 Taler unverzinsliche Kassenscheine. Mit 3,63 Talern Kassenscheinen je Kopf steht Reuß j. L. an dritter Stelle von zehn verglichenen Staaten.",
+   "en": "In addition to the interest-bearing debt there are 320,000 thalers of non-interest-bearing treasury notes. At 3.63 thalers of notes per head, Reuss (Younger Line) ranks third among ten states compared."
+  },
+  {
+   "de": "Auf dem Land standen 74 Prozent der versicherten Gebäude, aber nur 62 Prozent der Versicherungssumme; in den sechs Städten 26 und 38 Prozent.",
+   "en": "Rural communities held 74 percent of the insured buildings but only 62 percent of the insured sum; the six towns held 26 and 38 percent."
+  }
+ ],
+ "method": {
+  "de": "Die Posten der Einnahmen stehen auf S. 276–277: der Gesamtvoranschlag im Text, die indirekten Steuern in einer Tabelle, die direkten in einer Kurztabelle. Die Summe der direkten Steuern ist aus den beiden gedruckten Einzelposten gebildet (81.160). Der Anteil eines Postens ist sein Betrag geteilt durch die veranschlagten Jahreseinnahmen von 296.000 Talern. Die Ausgaben nennt Brückner nur teilweise (Militär S. 272, Chausseen und Staatsgebäude S. 275); der Rest ist die Differenz zum Gesamtvoranschlag. Die Staatsschuld steht in Talern, Silbergroschen und Pfennigen (S. 277) und wurde mit 1 Taler = 30 Silbergroschen = 360 Pfennige in Taler umgerechnet. Die Kassenscheine je Kopf stehen im Text S. 277–278. Die Feuerversicherung stammt aus den beiden Tabellen S. 304; die Summe je Gebäude und die Durchschnitte für Städte und Landgemeinden sind berechnet.",
+  "en": "The items of revenue are on pp. 276–277: the overall budget in the text, the indirect taxes in a table, the direct taxes in a short table. The total of the direct taxes is formed from the two printed items (81,160). The share of an item is its amount divided by the budgeted annual revenue of 296,000 thalers. Brückner itemises expenditure only in part (military p. 272, highways and state buildings p. 275); the rest is the difference from the overall budget. The public debt is given in thalers, silver groschen and pfennigs (p. 277) and was converted with 1 thaler = 30 silver groschen = 360 pfennigs. The treasury notes per head are in the text on pp. 277–278. The fire insurance figures come from the two tables on p. 304; the sum per building and the averages for towns and rural communities are computed."
+ },
+ "conversions": [
+  {
+   "from": "Thaler",
+   "to": "Silbergroschen / Pfennige",
+   "factor_or_formula": "1 Thaler = 30 Silbergroschen = 360 Pfennige",
+   "reference": "Brückner S. 278 (Dreißigthalerfuß seit 1857)"
+  }
+ ],
+ "caveats": [
+  {
+   "de": "Gedruckt ist als Summe der direkten Steuern 81.100 Taler; die beiden Posten (53.600 und 27.560) ergeben 81.160. Die Differenz steht so im Original (Faksimile geprüft); hier gilt die Summe der Einzelposten. Die direkten Steuern nennt Brückner ohne Jahr (»seither«); ob sie dem Voranschlag 1866/68 entsprechen, ist offen.",
+   "en": "The printed total of the direct taxes is 81,100 thalers; the two items (53,600 and 27,560) add up to 81,160. The difference is in the original (checked against the facsimile); here the sum of the items is used. Brückner gives the direct taxes without a year (“hitherto”); whether they match the 1866/68 budget is open."
+  },
+  {
+   "de": "Die Militärkosten gibt Brückner »auf die Finanzperiode 1866/68« an; hier sind sie wie die Gesamtsummen als Jahresbetrag gelesen. Bezöge sich die Zahl auf alle drei Jahre, läge ihr Anteil bei einem Drittel.",
+   "en": "Brückner gives the military costs “for the financial period 1866/68”; like the overall totals they are read here as an annual amount. If the figure covered all three years, its share would be a third."
+  },
+  {
+   "de": "Für 1862 bis 1865 fehlen Werte der Staatsschuld. Das Jahr der 320.000 Taler Kassenscheine und des Staatenvergleichs nennt Brückner nicht. Die Versicherungssummen sind Versicherungswerte, keine Schätzungen des Gebäudewerts; Gera, Lobenstein, Tanna und Wurzbach sind von der magdeburger Landfeuersocietät ausgeschlossen.",
+   "en": "Values for the public debt are missing for 1862 to 1865. Brückner does not give the year of the 320,000 thalers of treasury notes or of the comparison of states. The insured sums are insurance values, not estimates of the value of the buildings; Gera, Lobenstein, Tanna and Wurzbach are excluded from the Magdeburg fire society."
+  }
+ ],
+ "datasets": [
+  {
+   "name": "income",
+   "title": {
+    "de": "Veranschlagte Steuereinnahmen nach Posten",
+    "en": "Estimated tax revenue by item"
+   },
+   "columns": [
+    {
+     "name": "item_key",
+     "label": {
+      "de": "Kürzel",
+      "en": "Key"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "item_de",
+     "label": {
+      "de": "Posten",
+      "en": "Item"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "item_en",
+     "label": {
+      "de": "Posten (englisch)",
+      "en": "Item (English)"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "group_key",
+     "label": {
+      "de": "Kürzel Gruppe",
+      "en": "Group key"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "group_de",
+     "label": {
+      "de": "Gruppe",
+      "en": "Group"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "group_en",
+     "label": {
+      "de": "Gruppe (englisch)",
+      "en": "Group (English)"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "thaler",
+     "label": {
+      "de": "Betrag",
+      "en": "Amount"
+     },
+     "type": "integer",
+     "unit": "Taler"
+    },
+    {
+     "name": "share_pct",
+     "label": {
+      "de": "Anteil an den veranschlagten Einnahmen",
+      "en": "Share of budgeted revenue"
+     },
+     "type": "number",
+     "unit": "%",
+     "derived": true,
+     "note": "Posten : 296000 Taler (Gesamtvoranschlag S. 276)"
+    }
+   ],
+   "rows": [
+    [
+     "zoll",
+     "Zölle u. a. (Sammelposten)",
+     "Customs duties etc. (combined item)",
+     "a_ind",
+     "indirekt",
+     "Indirect",
+     98000,
+     33.108108108108105
+    ],
+    [
+     "malz",
+     "Braumalzsteuer",
+     "Brewing-malt tax",
+     "a_ind",
+     "indirekt",
+     "Indirect",
+     25000,
+     8.445945945945946
+    ],
+    [
+     "salz",
+     "Salzregie (Salzertrag)",
+     "Salt monopoly revenue",
+     "a_ind",
+     "indirekt",
+     "Indirect",
+     29000,
+     9.797297297297296
+    ],
+    [
+     "hund",
+     "Hundesteuer",
+     "Dog tax",
+     "a_ind",
+     "indirekt",
+     "Indirect",
+     600,
+     0.20270270270270271
+    ],
+    [
+     "karten",
+     "Spielkartenstempel",
+     "Playing-card stamp duty",
+     "a_ind",
+     "indirekt",
+     "Indirect",
+     950,
+     0.32094594594594594
+    ],
+    [
+     "jagd",
+     "Jagdkarten",
+     "Hunting licences",
+     "a_ind",
+     "indirekt",
+     "Indirect",
+     1100,
+     0.37162162162162166
+    ],
+    [
+     "grund",
+     "Grundsteuer",
+     "Land tax",
+     "b_dir",
+     "direkt",
+     "Direct",
+     53600,
+     18.10810810810811
+    ],
+    [
+     "gewerbe",
+     "Gewerbe- und Personalsteuer",
+     "Trade and personal tax",
+     "b_dir",
+     "direkt",
+     "Direct",
+     27560,
+     9.310810810810812
+    ]
+   ],
+   "source_refs": [
+    {
+     "page": "277",
+     "block": "b1",
+     "rows": "h1-r7"
+    },
+    {
+     "page": "277",
+     "block": "b3"
+    },
+    {
+     "page": "276",
+     "block": "b3"
+    }
+   ]
+  },
+  {
+   "name": "debt",
+   "title": {
+    "de": "Verzinsliche Staatsschuld",
+    "en": "Interest-bearing state debt"
+   },
+   "columns": [
+    {
+     "name": "year",
+     "label": {
+      "de": "Jahr",
+      "en": "Year"
+     },
+     "type": "integer",
+     "unit": null
+    },
+    {
+     "name": "thlr",
+     "label": {
+      "de": "Taler",
+      "en": "Thalers"
+     },
+     "type": "integer",
+     "unit": "Thlr."
+    },
+    {
+     "name": "sgr",
+     "label": {
+      "de": "Silbergroschen",
+      "en": "Silbergroschen"
+     },
+     "type": "integer",
+     "unit": "Sgr."
+    },
+    {
+     "name": "pf",
+     "label": {
+      "de": "Pfennige",
+      "en": "Pfennige"
+     },
+     "type": "integer",
+     "unit": "Pf."
+    },
+    {
+     "name": "debt_thaler",
+     "label": {
+      "de": "Schuld in Dezimal-Talern",
+      "en": "Debt in decimal thalers"
+     },
+     "type": "number",
+     "unit": "Taler",
+     "derived": true
+    }
+   ],
+   "rows": [
+    [
+     1857,
+     459126,
+     22,
+     7,
+     459126.75
+    ],
+    [
+     1858,
+     457106,
+     10,
+     1,
+     457106.34
+    ],
+    [
+     1859,
+     427632,
+     10,
+     7,
+     427632.35
+    ],
+    [
+     1860,
+     403402,
+     28,
+     7,
+     403402.95
+    ],
+    [
+     1861,
+     399235,
+     21,
+     8,
+     399235.72
+    ],
+    [
+     1866,
+     372050,
+     null,
+     null,
+     372050.0
+    ]
+   ],
+   "source_refs": [
+    {
+     "page": "277",
+     "block": "b6"
+    }
+   ]
+  },
+  {
+   "name": "places",
+   "title": {
+    "de": "Versicherte Gebäude und Mobilien nach Orten, Ende 1867",
+    "en": "Insured buildings and movables by place, end of 1867"
+   },
+   "columns": [
+    {
+     "name": "key",
+     "label": {
+      "de": "Kürzel",
+      "en": "Key"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "place_de",
+     "label": {
+      "de": "Ort",
+      "en": "Place"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "place_en",
+     "label": {
+      "de": "Ort (englisch)",
+      "en": "Place (English)"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "kind_key",
+     "label": {
+      "de": "Kürzel Art",
+      "en": "Kind key"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "kind_de",
+     "label": {
+      "de": "Art",
+      "en": "Kind"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "kind_en",
+     "label": {
+      "de": "Art (englisch)",
+      "en": "Kind (English)"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "buildings",
+     "label": {
+      "de": "Versicherte Gebäude",
+      "en": "Insured buildings"
+     },
+     "type": "integer",
+     "unit": "Gebäude"
+    },
+    {
+     "name": "buildings_value",
+     "label": {
+      "de": "Versicherungssumme Gebäude",
+      "en": "Insured sum, buildings"
+     },
+     "type": "integer",
+     "unit": "Taler"
+    },
+    {
+     "name": "movables",
+     "label": {
+      "de": "Mobiliarversicherungen",
+      "en": "Movables policies"
+     },
+     "type": "integer",
+     "unit": "Anzahl"
+    },
+    {
+     "name": "movables_value",
+     "label": {
+      "de": "Versicherungssumme Mobilien",
+      "en": "Insured sum, movables"
+     },
+     "type": "integer",
+     "unit": "Taler"
+    },
+    {
+     "name": "value_per_building",
+     "label": {
+      "de": "Summe je Gebäude",
+      "en": "Sum per building"
+     },
+     "type": "number",
+     "unit": "Taler",
+     "derived": true
+    },
+    {
+     "name": "policies_per_100",
+     "label": {
+      "de": "Mobiliarversicherungen je 100 Gebäude",
+      "en": "Movables policies per 100 buildings"
+     },
+     "type": "number",
+     "unit": "je 100",
+     "derived": true
+    },
+    {
+     "name": "value_per_policy",
+     "label": {
+      "de": "Summe je Mobiliarversicherung",
+      "en": "Sum per movables policy"
+     },
+     "type": "number",
+     "unit": "Taler",
+     "derived": true
+    }
+   ],
+   "rows": [
+    [
+     "a",
+     "Gera",
+     "Gera",
+     "a",
+     "Stadt",
+     "Town",
+     2747,
+     4959799,
+     2996,
+     5446145,
+     1806.0,
+     109.1,
+     1818.0
+    ],
+    [
+     "b",
+     "Schleiz",
+     "Schleiz",
+     "a",
+     "Stadt",
+     "Town",
+     1076,
+     1669454,
+     871,
+     1330782,
+     1552.0,
+     80.9,
+     1528.0
+    ],
+    [
+     "c",
+     "Tanna",
+     "Tanna",
+     "a",
+     "Stadt",
+     "Town",
+     362,
+     371547,
+     174,
+     205642,
+     1026.0,
+     48.1,
+     1182.0
+    ],
+    [
+     "d",
+     "Saalburg",
+     "Saalburg",
+     "a",
+     "Stadt",
+     "Town",
+     233,
+     168878,
+     57,
+     74263,
+     725.0,
+     24.5,
+     1303.0
+    ],
+    [
+     "e",
+     "Lobenstein",
+     "Lobenstein",
+     "a",
+     "Stadt",
+     "Town",
+     163,
+     207642,
+     170,
+     254845,
+     1274.0,
+     104.3,
+     1499.0
+    ],
+    [
+     "f",
+     "Hirschberg",
+     "Hirschberg",
+     "a",
+     "Stadt",
+     "Town",
+     320,
+     271334,
+     88,
+     122298,
+     848.0,
+     27.5,
+     1390.0
+    ],
+    [
+     "g",
+     "Landgemeinden Gera",
+     "Rural communities, Gera",
+     "b",
+     "Land",
+     "Country",
+     5512,
+     7112328,
+     1278,
+     2887825,
+     1290.0,
+     23.2,
+     2260.0
+    ],
+    [
+     "h",
+     "Landgemeinden Schleiz",
+     "Rural communities, Schleiz",
+     "b",
+     "Land",
+     "Country",
+     5246,
+     3251584,
+     886,
+     1680344,
+     620.0,
+     16.9,
+     1897.0
+    ],
+    [
+     "i",
+     "Landgemeinden Lobenstein-Ebersdorf",
+     "Rural communities, Lobenstein-Ebersdorf",
+     "b",
+     "Land",
+     "Country",
+     3114,
+     2067046,
+     251,
+     522198,
+     664.0,
+     8.1,
+     2080.0
+    ]
+   ],
+   "source_refs": [
+    {
+     "page": "304",
+     "block": "b2",
+     "rows": "r2-r10"
+    },
+    {
+     "page": "304",
+     "block": "b3",
+     "rows": "r2-r10"
+    }
+   ]
+  },
+  {
+   "name": "haushalt",
+   "title": {
+    "de": "Struktur von Einnahmen und Ausgaben (Voranschlag)",
+    "en": "Structure of revenue and expenditure (estimate)"
+   },
+   "columns": [
+    {
+     "name": "side_key",
+     "label": {
+      "de": "Kürzel",
+      "en": "Key"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "side_de",
+     "label": {
+      "de": "Seite",
+      "en": "Side"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "side_en",
+     "label": {
+      "de": "Seite (englisch)",
+      "en": "Side (English)"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "comp_key",
+     "label": {
+      "de": "Kürzel Posten",
+      "en": "Component key"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "comp_de",
+     "label": {
+      "de": "Posten",
+      "en": "Component"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "comp_en",
+     "label": {
+      "de": "Posten (englisch)",
+      "en": "Component (English)"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "thaler",
+     "label": {
+      "de": "Betrag",
+      "en": "Amount"
+     },
+     "type": "integer",
+     "unit": "Taler",
+     "derived": true,
+     "note": "Summen bzw. Restbeträge; Einzelposten siehe Datensatz income und Quellen."
+    }
+   ],
+   "rows": [
+    [
+     "a_einnahmen",
+     "Einnahmen",
+     "Revenue",
+     "a_ind",
+     "Indirekte Steuern",
+     "Indirect taxes",
+     154650
+    ],
+    [
+     "a_einnahmen",
+     "Einnahmen",
+     "Revenue",
+     "b_dir",
+     "Direkte Steuern",
+     "Direct taxes",
+     81160
+    ],
+    [
+     "a_einnahmen",
+     "Einnahmen",
+     "Revenue",
+     "c_ue",
+     "Übrige Einnahmen",
+     "Other revenue",
+     60190
+    ],
+    [
+     "b_ausgaben",
+     "Ausgaben",
+     "Expenditure",
+     "d_mil",
+     "Militär",
+     "Military",
+     54750
+    ],
+    [
+     "b_ausgaben",
+     "Ausgaben",
+     "Expenditure",
+     "e_chs",
+     "Chausseeunterhaltung",
+     "Highway upkeep",
+     26835
+    ],
+    [
+     "b_ausgaben",
+     "Ausgaben",
+     "Expenditure",
+     "f_geb",
+     "Gebäude und Wege",
+     "Buildings and roads",
+     3212
+    ],
+    [
+     "b_ausgaben",
+     "Ausgaben",
+     "Expenditure",
+     "g_ua",
+     "Übrige Ausgaben",
+     "Other expenditure",
+     205203
+    ]
+   ],
+   "source_refs": [
+    {
+     "page": "276",
+     "block": "b3"
+    },
+    {
+     "page": "277",
+     "block": "b1",
+     "rows": "h1-r7"
+    },
+    {
+     "page": "277",
+     "block": "b3"
+    },
+    {
+     "page": "272",
+     "block": "b1"
+    },
+    {
+     "page": "275",
+     "block": "b2"
+    },
+    {
+     "page": "275",
+     "block": "b5"
+    }
+   ]
+  },
+  {
+   "name": "notes",
+   "title": {
+    "de": "Staatskassenscheine je Kopf der Bevölkerung",
+    "en": "State treasury notes per head of population"
+   },
+   "columns": [
+    {
+     "name": "state_de",
+     "label": {
+      "de": "Staat",
+      "en": "State"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "state_en",
+     "label": {
+      "de": "Staat (englisch)",
+      "en": "State (English)"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "grp_de",
+     "label": {
+      "de": "Gruppe",
+      "en": "Group"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "grp_en",
+     "label": {
+      "de": "Gruppe (englisch)",
+      "en": "Group (English)"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "thaler_per_head",
+     "label": {
+      "de": "Kassenscheine je Kopf",
+      "en": "Treasury notes per head"
+     },
+     "type": "number",
+     "unit": "Taler"
+    }
+   ],
+   "rows": [
+    [
+     "Waldeck",
+     "Waldeck",
+     "Andere Staaten",
+     "Other states",
+     6.08
+    ],
+    [
+     "Reuß ä. L.",
+     "Reuss (elder line)",
+     "Andere Staaten",
+     "Other states",
+     2.96
+    ],
+    [
+     "Anhalt",
+     "Anhalt",
+     "Andere Staaten",
+     "Other states",
+     4.43
+    ],
+    [
+     "Königreich Sachsen",
+     "Kingdom of Saxony",
+     "Andere Staaten",
+     "Other states",
+     2.88
+    ],
+    [
+     "Reuß j. L.",
+     "Reuss (younger line)",
+     "Reuß j. L.",
+     "Reuss (younger line)",
+     3.63
+    ],
+    [
+     "S.-Altenburg",
+     "Saxe-Altenburg",
+     "Andere Staaten",
+     "Other states",
+     2.88
+    ],
+    [
+     "S.-Coburg-Gotha",
+     "Saxe-Coburg-Gotha",
+     "Andere Staaten",
+     "Other states",
+     3.6
+    ],
+    [
+     "Schwarzburg-Rudolstadt",
+     "Schwarzburg-Rudolstadt",
+     "Andere Staaten",
+     "Other states",
+     2.66
+    ],
+    [
+     "S.-Meiningen",
+     "Saxe-Meiningen",
+     "Andere Staaten",
+     "Other states",
+     3.3
+    ],
+    [
+     "S.-Weimar",
+     "Saxe-Weimar",
+     "Andere Staaten",
+     "Other states",
+     2.12
+    ]
+   ],
+   "source_refs": [
+    {
+     "page": "278",
+     "block": "b1"
+    }
+   ]
+  }
+ ],
+ "charts": [
+  {
+   "id": "c1",
+   "dataset": "income",
+   "title": {
+    "de": "Mehr als die Hälfte der Staatseinnahmen kam aus indirekten Steuern, ein Drittel aus Zöllen und Abgaben",
+    "en": "More than half of state revenue came from indirect taxes, a third from customs and levies"
+   },
+   "caption": {
+    "de": "Veranschlagte Steuereinnahmen je Jahr in Talern, Anteil an den Gesamteinnahmen von 296.000 Talern. Die genannten Steuern machen 79,7 Prozent aus; der Rest (60.190 Taler) ist nicht aufgeschlüsselt. Quelle: S. 276–277.",
+    "en": "Budgeted tax revenue per year in thalers, share of the total revenue of 296,000 thalers. The taxes named make up 79.7 percent; the rest (60,190 thalers) is not itemised. Source: pp. 276–277."
+   },
+   "vegalite": {
+    "vconcat": [
+     {
+      "width": 460,
+      "height": {
+       "step": 24
+      },
+      "title": {
+       "text": {
+        "de": "Indirekte Steuern: 154.650 Taler (52 % der Einnahmen)",
+        "en": "Indirect taxes: 154,650 thalers (52% of revenue)"
+       },
+       "anchor": "start",
+       "color": "@ink",
+       "fontSize": 12.5,
+       "fontWeight": 600,
+       "offset": 8
+      },
+      "transform": [
+       {
+        "filter": "datum.group_key == 'a_ind'"
+       },
+       {
+        "calculate": {
+         "de": "datum.item_de",
+         "en": "datum.item_en"
+        },
+        "as": "item"
+       },
+       {
+        "calculate": {
+         "de": "format(datum.thaler, ',d') + ' (' + format(datum.share_pct, datum.share_pct < 1 ? '.1f' : '.0f') + ' %)'",
+         "en": "format(datum.thaler, ',d') + ' (' + format(datum.share_pct, datum.share_pct < 1 ? '.1f' : '.0f') + '%)'"
+        },
+        "as": "lab"
+       }
+      ],
+      "encoding": {
+       "y": {
+        "field": "item",
+        "type": "nominal",
+        "sort": {
+         "field": "thaler",
+         "order": "descending"
+        },
+        "axis": {
+         "title": null,
+         "labelLimit": 380,
+         "minExtent": 210
+        }
+       },
+       "x": {
+        "field": "thaler",
+        "type": "quantitative",
+        "scale": {
+         "domain": [
+          0,
+          150000
+         ],
+         "nice": false
+        },
+        "axis": null
+       }
+      },
+      "layer": [
+       {
+        "mark": {
+         "type": "bar",
+         "size": 14,
+         "color": "@accent"
+        },
+        "encoding": {
+         "tooltip": [
+          {
+           "field": "item",
+           "title": {
+            "de": "Posten",
+            "en": "Item"
+           }
+          },
+          {
+           "field": "thaler",
+           "title": {
+            "de": "Taler",
+            "en": "Thalers"
+           },
+           "format": ",d"
+          },
+          {
+           "field": "share_pct",
+           "title": {
+            "de": "Anteil an den Einnahmen (%)",
+            "en": "Share of revenue (%)"
+           },
+           "format": ".1f"
+          }
+         ]
+        }
+       },
+       {
+        "mark": {
+         "type": "text",
+         "align": "left",
+         "dx": 6,
+         "style": "label"
+        },
+        "encoding": {
+         "text": {
+          "field": "lab"
+         }
+        }
+       }
+      ]
+     },
+     {
+      "width": 460,
+      "height": {
+       "step": 24
+      },
+      "title": {
+       "text": {
+        "de": "Direkte Steuern: 81.160 Taler (27 %)",
+        "en": "Direct taxes: 81,160 thalers (27%)"
+       },
+       "anchor": "start",
+       "color": "@ink",
+       "fontSize": 12.5,
+       "fontWeight": 600,
+       "offset": 8
+      },
+      "transform": [
+       {
+        "filter": "datum.group_key == 'b_dir'"
+       },
+       {
+        "calculate": {
+         "de": "datum.item_de",
+         "en": "datum.item_en"
+        },
+        "as": "item"
+       },
+       {
+        "calculate": {
+         "de": "format(datum.thaler, ',d') + ' (' + format(datum.share_pct, datum.share_pct < 1 ? '.1f' : '.0f') + ' %)'",
+         "en": "format(datum.thaler, ',d') + ' (' + format(datum.share_pct, datum.share_pct < 1 ? '.1f' : '.0f') + '%)'"
+        },
+        "as": "lab"
+       }
+      ],
+      "encoding": {
+       "y": {
+        "field": "item",
+        "type": "nominal",
+        "sort": {
+         "field": "thaler",
+         "order": "descending"
+        },
+        "axis": {
+         "title": null,
+         "labelLimit": 380,
+         "minExtent": 210
+        }
+       },
+       "x": {
+        "field": "thaler",
+        "type": "quantitative",
+        "scale": {
+         "domain": [
+          0,
+          150000
+         ],
+         "nice": false
+        },
+        "axis": {
+         "format": ",d",
+         "values": [
+          0,
+          25000,
+          50000,
+          75000,
+          100000
+         ],
+         "title": {
+          "de": "Taler pro Jahr (veranschlagt)",
+          "en": "Thalers per year (budgeted)"
+         }
+        }
+       }
+      },
+      "layer": [
+       {
+        "mark": {
+         "type": "bar",
+         "size": 14,
+         "color": "@accent2"
+        },
+        "encoding": {
+         "tooltip": [
+          {
+           "field": "item",
+           "title": {
+            "de": "Posten",
+            "en": "Item"
+           }
+          },
+          {
+           "field": "thaler",
+           "title": {
+            "de": "Taler",
+            "en": "Thalers"
+           },
+           "format": ",d"
+          },
+          {
+           "field": "share_pct",
+           "title": {
+            "de": "Anteil an den Einnahmen (%)",
+            "en": "Share of revenue (%)"
+           },
+           "format": ".1f"
+          }
+         ]
+        }
+       },
+       {
+        "mark": {
+         "type": "text",
+         "align": "left",
+         "dx": 6,
+         "style": "label"
+        },
+        "encoding": {
+         "text": {
+          "field": "lab"
+         }
+        }
+       }
+      ]
+     }
+    ],
+    "spacing": 26
+   }
+  },
+  {
+   "id": "c2",
+   "dataset": "debt",
+   "extra_datasets": [
+    "haushalt"
+   ],
+   "title": {
+    "de": "Die verzinsliche Staatsschuld sank von 1857 bis 1866 um 19 Prozent, lag aber über den Jahreseinnahmen",
+    "en": "The interest-bearing debt fell 19 percent from 1857 to 1866 but stayed above annual revenue"
+   },
+   "caption": {
+    "de": "Verzinsliche Staatsschuld in Talern, 1857 bis 1861 und 1866; für 1862 bis 1865 nennt Brückner keine Werte. Gestrichelt: veranschlagte Jahreseinnahmen 1866/68 von 296.000 Talern. Quelle: S. 276–277.",
+    "en": "Interest-bearing public debt in thalers, 1857 to 1861 and 1866; Brückner gives no figures for 1862 to 1865. Dashed: budgeted annual revenue 1866/68 of 296,000 thalers. Source: pp. 276–277."
+   },
+   "vegalite": {
+    "height": 300,
+    "padding": {
+     "top": 8,
+     "left": 4,
+     "right": 8,
+     "bottom": 4
+    },
+    "encoding": {
+     "x": {
+      "field": "year",
+      "type": "ordinal",
+      "scale": {
+       "domain": [
+        1857,
+        1858,
+        1859,
+        1860,
+        1861,
+        1862,
+        1863,
+        1864,
+        1865,
+        1866
+       ]
+      },
+      "axis": {
+       "labelAngle": 0,
+       "title": null,
+       "format": "d"
+      }
+     },
+     "y": {
+      "field": "debt_thaler",
+      "type": "quantitative",
+      "scale": {
+       "domain": [
+        0,
+        500000
+       ]
+      },
+      "axis": {
+       "format": ",d",
+       "values": [
+        0,
+        100000,
+        200000,
+        300000,
+        400000,
+        500000
+       ],
+       "title": {
+        "de": "Taler",
+        "en": "Thalers"
+       }
+      }
+     }
+    },
+    "layer": [
+     {
+      "mark": {
+       "type": "bar",
+       "color": "@accent",
+       "cornerRadiusEnd": 3
+      },
+      "encoding": {
+       "tooltip": [
+        {
+         "field": "year",
+         "title": {
+          "de": "Jahr",
+          "en": "Year"
+         },
+         "format": "d"
+        },
+        {
+         "field": "debt_thaler",
+         "title": {
+          "de": "Verzinsliche Schuld (Taler)",
+          "en": "Interest-bearing debt (thalers)"
+         },
+         "format": ",.0f"
+        }
+       ]
+      }
+     },
+     {
+      "mark": {
+       "type": "text",
+       "align": "center",
+       "dy": -8,
+       "style": "label"
+      },
+      "encoding": {
+       "text": {
+        "field": "debt_thaler",
+        "type": "quantitative",
+        "format": ",.0f"
+       },
+       "y": {
+        "field": "debt_thaler"
+       }
+      }
+     },
+     {
+      "data": {
+       "name": "haushalt"
+      },
+      "transform": [
+       {
+        "filter": "datum.side_key == 'a_einnahmen'"
+       },
+       {
+        "aggregate": [
+         {
+          "op": "sum",
+          "field": "thaler",
+          "as": "revenue"
+         }
+        ]
+       }
+      ],
+      "mark": {
+       "type": "rule",
+       "strokeDash": [
+        4,
+        3
+       ],
+       "color": "@ink2",
+       "strokeWidth": 1.3
+      },
+      "encoding": {
+       "y": {
+        "field": "revenue",
+        "type": "quantitative"
+       },
+       "x": null,
+       "color": null
+      }
+     },
+     {
+      "data": {
+       "name": "haushalt"
+      },
+      "transform": [
+       {
+        "filter": "datum.side_key == 'a_einnahmen'"
+       },
+       {
+        "aggregate": [
+         {
+          "op": "sum",
+          "field": "thaler",
+          "as": "revenue"
+         }
+        ]
+       }
+      ],
+      "mark": {
+       "type": "text",
+       "align": "left",
+       "baseline": "bottom",
+       "dy": -6,
+       "dx": 2,
+       "style": "annotation"
+      },
+      "encoding": {
+       "y": {
+        "field": "revenue",
+        "type": "quantitative"
+       },
+       "x": {
+        "datum": 1862,
+        "type": "ordinal",
+        "bandPosition": 0
+       },
+       "text": {
+        "value": {
+         "de": "Veranschlagte Jahreseinnahmen",
+         "en": "Budgeted annual revenue"
+        }
+       },
+       "color": null
+      }
+     },
+     {
+      "transform": [
+       {
+        "window": [
+         {
+          "op": "row_number",
+          "as": "rn"
+         }
+        ]
+       },
+       {
+        "filter": "datum.rn == 1"
+       }
+      ],
+      "mark": {
+       "type": "text",
+       "align": "center",
+       "baseline": "middle",
+       "style": "label-muted"
+      },
+      "encoding": {
+       "x": {
+        "datum": 1863,
+        "bandPosition": 1
+       },
+       "y": {
+        "datum": 200000
+       },
+       "text": {
+        "value": {
+         "de": "keine Angaben",
+         "en": "no figures"
+        }
+       }
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "c3",
+   "dataset": "places",
+   "title": {
+    "de": "Städtische Gebäude waren im Schnitt mit 1.561 Talern gegen Feuer versichert, ländliche mit 896",
+    "en": "Buildings in towns were insured against fire for 1,561 thalers on average, rural ones for 896"
+   },
+   "caption": {
+    "de": "Versicherungssumme je Gebäude (Immobiliar) Ende 1867, sechs Städte und die Landgemeinden der drei Landesteile. Strichlinien: Durchschnitt aller Städte bzw. Landgemeinden. Quelle: S. 304.",
+    "en": "Insured sum per building (immovables) at the end of 1867, six towns and the rural communities of the three districts. Dashed lines: average of all towns and of all rural communities. Source: p. 304."
+   },
+   "vegalite": {
+    "height": {
+     "step": 24
+    },
+    "padding": {
+     "top": 22,
+     "left": 4,
+     "right": 8,
+     "bottom": 4
+    },
+    "transform": [
+     {
+      "calculate": {
+       "de": "datum.place_de",
+       "en": "datum.place_en"
+      },
+      "as": "place"
+     },
+     {
+      "joinaggregate": [
+       {
+        "op": "sum",
+        "field": "buildings_value",
+        "as": "bv"
+       },
+       {
+        "op": "sum",
+        "field": "buildings",
+        "as": "bn"
+       }
+      ],
+      "groupby": [
+       "kind_key"
+      ]
+     },
+     {
+      "calculate": "datum.bv / datum.bn",
+      "as": "avg"
+     },
+     {
+      "calculate": "datum.buildings_value / datum.buildings",
+      "as": "per_building"
+     }
+    ],
+    "encoding": {
+     "y": {
+      "field": "place",
+      "type": "nominal",
+      "sort": {
+       "field": "per_building",
+       "order": "descending"
+      },
+      "axis": {
+       "title": null,
+       "labelLimit": 400
+      }
+     },
+     "x": {
+      "type": "quantitative",
+      "scale": {
+       "domain": [
+        0,
+        2000
+       ],
+       "nice": false
+      },
+      "axis": {
+       "format": ",d",
+       "values": [
+        0,
+        500,
+        1000,
+        1500,
+        2000
+       ],
+       "title": {
+        "de": "Versicherungssumme je Gebäude (Taler)",
+        "en": "Insured sum per building (thalers)"
+       }
+      }
+     },
+     "color": {
+      "field": "kind_key",
+      "type": "nominal",
+      "legend": null,
+      "scale": {
+       "domain": [
+        "a",
+        "b"
+       ],
+       "range": [
+        "@accent",
+        "@accent2"
+       ]
+      }
+     }
+    },
+    "layer": [
+     {
+      "transform": [
+       {
+        "aggregate": [
+         {
+          "op": "mean",
+          "field": "avg",
+          "as": "avg"
+         }
+        ],
+        "groupby": [
+         "kind_key"
+        ]
+       }
+      ],
+      "mark": {
+       "type": "rule",
+       "strokeDash": [
+        3,
+        3
+       ],
+       "strokeWidth": 1.4
+      },
+      "encoding": {
+       "x": {
+        "field": "avg",
+        "type": "quantitative"
+       },
+       "y": null
+      }
+     },
+     {
+      "transform": [
+       {
+        "aggregate": [
+         {
+          "op": "mean",
+          "field": "avg",
+          "as": "avg"
+         }
+        ],
+        "groupby": [
+         "kind_key"
+        ]
+       },
+       {
+        "calculate": {
+         "de": "(datum.kind_key == 'a' ? 'Städte Ø ' : 'Land Ø ') + format(datum.avg, ',.0f')",
+         "en": "(datum.kind_key == 'a' ? 'Towns avg. ' : 'Country avg. ') + format(datum.avg, ',.0f')"
+        },
+        "as": "avg_label"
+       }
+      ],
+      "mark": {
+       "type": "text",
+       "style": "label",
+       "baseline": "bottom",
+       "dy": -5,
+       "align": "center"
+      },
+      "encoding": {
+       "x": {
+        "field": "avg",
+        "type": "quantitative"
+       },
+       "y": {
+        "value": 0
+       },
+       "text": {
+        "field": "avg_label"
+       }
+      }
+     },
+     {
+      "mark": {
+       "type": "rule",
+       "strokeWidth": 1.6
+      },
+      "encoding": {
+       "x": {
+        "field": "per_building"
+       },
+       "x2": {
+        "datum": 0
+       },
+       "color": {
+        "value": "@context"
+       }
+      }
+     },
+     {
+      "mark": {
+       "type": "point",
+       "filled": true,
+       "size": 80
+      },
+      "encoding": {
+       "x": {
+        "field": "per_building"
+       },
+       "tooltip": [
+        {
+         "field": "place",
+         "title": {
+          "de": "Ort",
+          "en": "Place"
+         }
+        },
+        {
+         "field": "buildings",
+         "title": {
+          "de": "Gebäude",
+          "en": "Buildings"
+         },
+         "format": ",d"
+        },
+        {
+         "field": "buildings_value",
+         "title": {
+          "de": "Versicherungssumme (Taler)",
+          "en": "Insured sum (thalers)"
+         },
+         "format": ",d"
+        },
+        {
+         "field": "per_building",
+         "title": {
+          "de": "je Gebäude (Taler)",
+          "en": "per building (thalers)"
+         },
+         "format": ",.0f"
+        }
+       ]
+      }
+     },
+     {
+      "mark": {
+       "type": "text",
+       "align": "left",
+       "dx": 9,
+       "fontSize": 11,
+       "color": "@paper",
+       "stroke": "@paper",
+       "strokeWidth": 4
+      },
+      "encoding": {
+       "x": {
+        "field": "per_building",
+        "type": "quantitative"
+       },
+       "text": {
+        "field": "per_building",
+        "type": "quantitative",
+        "format": ",.0f"
+       },
+       "color": null
+      }
+     },
+     {
+      "mark": {
+       "type": "text",
+       "align": "left",
+       "dx": 9,
+       "style": "label-muted"
+      },
+      "encoding": {
+       "x": {
+        "field": "per_building",
+        "type": "quantitative"
+       },
+       "text": {
+        "field": "per_building",
+        "type": "quantitative",
+        "format": ",.0f"
+       },
+       "color": null
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "transcription_issues": [
+  {
+   "page": "277",
+   "block": "b1",
+   "cell": "r1c3",
+   "transcribed": "Zollgefälle, Braumalzbesteuer-, Übergangsabgaben und Rübenzuckersteuer",
+   "facsimile": "Zollgefälle, Braumalzsteuer-, Uebergangsabgaben und Rübenzuckersteuer",
+   "checked_facsimile": true,
+   "note": "Wortlaut der Postenbezeichnung (Wort Braumalzsteuer), keine Zahl betroffen."
+  }
+ ],
+ "keywords": {
+  "de": [
+   "Staatshaushalt",
+   "Steuern",
+   "Staatsschuld",
+   "Kassenscheine",
+   "Feuerversicherung",
+   "Zölle",
+   "Salzregie",
+   "Reuß jüngerer Linie"
+  ],
+  "en": [
+   "state budget",
+   "taxes",
+   "public debt",
+   "treasury notes",
+   "fire insurance",
+   "customs duties",
+   "salt monopoly",
+   "Reuss Younger Line"
+  ]
+ },
+ "related": [
+  "verfassung-verwaltung",
+  "handel-verkehr",
+  "bergbau",
+  "siedlung-wohnen"
+ ],
+ "generated_by": "Claude Sonnet 5.5 (Agent F6), aus 3 Einzelauswertungen zusammengeführt",
+ "date": "2026-10-02"
+}

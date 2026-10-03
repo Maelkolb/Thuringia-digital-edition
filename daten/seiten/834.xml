@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de">
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="main">Volks- und Landeskunde des Fürstenthums Reuß j. L.</title>
+      <title type="sub">Digitale Edition, S. 834</title>
+      <author><persName ref="https://d-nb.info/gnd/119209217">Brückner, Georg</persName> (1800–1881)</author>
+      <editor><persName>Tobias Perschl</persName></editor><editor><persName>Markus Gerstmeier</persName></editor><editor><persName>Malte Rehbein</persName></editor>
+      <respStmt><resp>Automatische Transkription und Entitätenerkennung</resp><name>Google Gemini 3 Flash (2026)</name></respStmt>
+      <respStmt><resp>Layout-Korrektur, Register, Auswertungen, Edition</resp><persName>Tobias Perschl</persName><persName>Markus Gerstmeier</persName><persName>Malte Rehbein</persName><name>Claude (Anthropic)</name></respStmt>
+    </titleStmt>
+    <editionStmt><edition n="1.1">Version 1.1, <date when="2026-10-02">2026-10-02</date></edition></editionStmt>
+    <publicationStmt>
+      <publisher>Lehrstuhl für Computational Humanities, Universität Passau</publisher>
+      <date when="2026-10-02">2026</date>
+      <availability><licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0 (Transkription, Annotation, Daten). Faksimiles: Bayerische Staatsbibliothek München, NoC-NC 1.0.</licence></availability>
+    </publicationStmt>
+    <sourceDesc>
+      <bibl type="original">
+        <author>Brückner, Georg</author>
+        <title>Volks- und Landeskunde des Fürstenthums Reuß j. L. Im Auftrage des regierenden Landesfürsten verfaßt</title>
+        <pubPlace>Gera</pubPlace><publisher>Köhler</publisher><date when="1870">1870</date>
+        <extent>VIII, 840 S.</extent>
+        <idno type="URN">urn:nbn:de:bvb:12-bsb11005578-4</idno>
+        <idno type="BSB">bsb11005578</idno>
+        <idno type="shelfmark">München, Bayerische Staatsbibliothek, Germ.sp. 78 ld</idno>
+      </bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+    <projectDesc><p>Digitale Edition auf Grundlage einer automatischen Transkription des BSB-Digitalisats (Gemini 3 Flash, 2026), regelbasiert korrigiert und strukturiert; Register durch KI-Agenten bereinigt und mit Normdaten verknüpft.</p></projectDesc>
+    <editorialDecl>
+      <normalization><p>Historische Schreibung beibehalten; Umlaute modern (ä, ö, ü statt e-Superskript); langes s als s; Ligaturen aufgelöst.</p></normalization>
+      <hyphenation eol="none"><p>Silbentrennung am Zeilenende aufgelöst; am Seitenende erhaltene Trennungen sind über das Seitenende hinweg in einem Absatz zusammengeführt.</p></hyphenation>
+      <correction><p>Layoutfehler der automatischen Erkennung (Tabellenköpfe, Bogensignaturen, Trennstriche) sind regelbasiert korrigiert und je Seite protokolliert. Inhaltliche Druckfehler sind nicht korrigiert.</p></correction>
+    </editorialDecl>
+  </encodingDesc>
+  <profileDesc><langUsage><language ident="de">Deutsch (1870)</language></langUsage></profileDesc>
+  <revisionDesc><change when="2026-10-02">Version 1.1</change></revisionDesc>
+</teiHeader>
+<facsimile><surface xml:id="f0846" n="834" ulx="0" uly="0" lrx="1571" lry="2688"><graphic url="https://api.digitale-sammlungen.de/iiif/image/v2/bsb11005578_00846/full/full/0/default.jpg" mimeType="image/jpeg"/><zone xml:id="f0846-b1" type="block" ulx="146" uly="227" lrx="1493" lry="602"/><zone xml:id="f0846-l1" type="line" n="1" ulx="149" uly="227" lrx="791" lry="261"/><zone xml:id="f0846-l2" type="line" n="2" ulx="322" uly="261" lrx="1194" lry="295"/><zone xml:id="f0846-l3" type="line" n="3" ulx="297" uly="294" lrx="754" lry="328"/><zone xml:id="f0846-l4" type="line" n="4" ulx="150" uly="329" lrx="885" lry="363"/><zone xml:id="f0846-l5" type="line" n="5" ulx="291" uly="363" lrx="957" lry="397"/><zone xml:id="f0846-l6" type="line" n="6" ulx="146" uly="396" lrx="1493" lry="430"/><zone xml:id="f0846-l7" type="line" n="7" ulx="352" uly="433" lrx="1242" lry="466"/><zone xml:id="f0846-l8" type="line" n="8" ulx="147" uly="464" lrx="836" lry="498"/><zone xml:id="f0846-l9" type="line" n="9" ulx="289" uly="500" lrx="1220" lry="534"/><zone xml:id="f0846-l10" type="line" n="10" ulx="147" uly="533" lrx="1487" lry="567"/><zone xml:id="f0846-l11" type="line" n="11" ulx="346" uly="568" lrx="1229" lry="602"/></surface></facsimile>
+<text><body><div type="page" n="834"><pb n="834" facs="#f0846"/>
+<list xml:id="p834-b1" facs="#f0846-b1"><item><lb n="1" facs="#f0846-l1"/>S. 517. Z. 28 v. o. lies: noch statt nach.</item><item>S. 519. Z. <lb n="2" facs="#f0846-l2"/>7 v. o. lies: An das vormalige Dorf statt An das Dorf.</item><item>S. 539. <lb n="3" facs="#f0846-l3"/>Z. 15 v. o. lies: 40 statt 400.</item><item><lb n="4" facs="#f0846-l4"/>S. 552. Z. 3 v. o. lies: mehrerer statt mehrere.</item><item>S. 558. <lb n="5" facs="#f0846-l5"/>Z. 15 v. u. lies: geschlagen statt zerschlagen.</item><item><lb n="6" facs="#f0846-l6"/>S. 591. Zu den aus <placeName ref="#place-schleiz">Schleiz</placeName> hervorgegangenen Schriftstellern gehört auch: <persName ref="#person-adam-heinr-meisner">Adam Heinr. <lb n="7" facs="#f0846-l7"/>Meisner</persName> (geb. 1711, † 1782 als Stadtprediger zu <placeName ref="#place-plauen">Plauen</placeName>).</item><item><lb n="8" facs="#f0846-l8"/>S. 697. Z. 23 v. o. lies: 13 Einw. statt 13.</item><item>S. 784. <lb n="9" facs="#f0846-l9"/>Die <rs type="concept" ref="#concept-spinnfabrik">Spinnfabrik</rs> zu <placeName ref="#place-blankenstein">Blankenstein</placeName> führt den Namen <placeName ref="#place-rosenthal">Rosenthal</placeName>.</item><item><lb n="10" facs="#f0846-l10"/>S. 819. Z. 3 v. o. <placeName ref="#place-juchhoeh">Juchhöh</placeName> wird vielfach auch der <placeName ref="#place-dornholz">Dornbusch</placeName> genannt. Von den <placeName ref="#place-dornholz">Dorn<lb n="11" break="no" facs="#f0846-l11"/>häusern</placeName> heißt eins die <placeName ref="#place-quarkschenke">neue Schenke</placeName> oder die <placeName ref="#place-quarkschenke">Quarkschenke</placeName>.</item></list>
+</div></body></text>
+<standOff>
+<listPlace>
+<place xml:id="place-blankenstein"><placeName>Blankenstein</placeName><placeName type="modern">Blankenstein (Saale)</placeName><desc>Dorf</desc><location><geo>50.40213 11.69898</geo></location><idno type="GeoNames">https://www.geonames.org/2948033</idno><idno type="Wikidata">https://www.wikidata.org/entity/Q627672</idno></place>
+<place xml:id="place-dornholz"><placeName>Dornholz</placeName><desc>Weiler</desc><location><geo>50.4 11.85</geo></location><idno type="GeoNames">https://www.geonames.org/2935679</idno></place>
+<place xml:id="place-juchhoeh"><placeName>Juchhöh</placeName><desc>Weiler</desc><location><geo>50.41667 11.86667</geo></location><idno type="GeoNames">https://www.geonames.org/2894628</idno><idno type="Wikidata">https://www.wikidata.org/entity/Q1710806</idno></place>
+<place xml:id="place-plauen"><placeName>Plauen</placeName><desc>Stadt</desc><location><geo>50.4973 12.13782</geo></location><idno type="GeoNames">https://www.geonames.org/2853292</idno><idno type="Wikidata">https://www.wikidata.org/entity/Q3952</idno></place>
+<place xml:id="place-quarkschenke"><placeName>Quarkschenke</placeName><desc>Schenke</desc></place>
+<place xml:id="place-rosenthal"><placeName>Rosenthal</placeName><desc>Weiler</desc><location><geo>50.40441 11.70293</geo></location><idno type="GeoNames">https://www.geonames.org/2844928</idno></place>
+<place xml:id="place-schleiz"><placeName>Schleiz</placeName><desc>Stadt</desc><location><geo>50.57866 11.81024</geo></location><idno type="GeoNames">https://www.geonames.org/2838673</idno><idno type="Wikidata">https://www.wikidata.org/entity/Q32285667</idno></place>
+</listPlace>
+<listPerson>
+<person xml:id="person-adam-heinr-meisner"><persName>Adam Heinr. Meisner</persName><note>aus Schleiz; geb. 1711, † 1782 als Stadtprediger zu Plauen</note></person>
+</listPerson>
+<listObject type="concept">
+<object xml:id="concept-spinnfabrik"><objectIdentifier><objectName>Spinnfabrik</objectName><objectName xml:lang="en">spinning mill</objectName></objectIdentifier></object>
+</listObject>
+</standOff>
+</TEI>

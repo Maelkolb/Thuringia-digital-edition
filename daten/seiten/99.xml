@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de">
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="main">Volks- und Landeskunde des Fürstenthums Reuß j. L.</title>
+      <title type="sub">Digitale Edition, S. 99</title>
+      <author><persName ref="https://d-nb.info/gnd/119209217">Brückner, Georg</persName> (1800–1881)</author>
+      <editor><persName>Tobias Perschl</persName></editor><editor><persName>Markus Gerstmeier</persName></editor><editor><persName>Malte Rehbein</persName></editor>
+      <respStmt><resp>Automatische Transkription und Entitätenerkennung</resp><name>Google Gemini 3 Flash (2026)</name></respStmt>
+      <respStmt><resp>Layout-Korrektur, Register, Auswertungen, Edition</resp><persName>Tobias Perschl</persName><persName>Markus Gerstmeier</persName><persName>Malte Rehbein</persName><name>Claude (Anthropic)</name></respStmt>
+    </titleStmt>
+    <editionStmt><edition n="1.1">Version 1.1, <date when="2026-10-02">2026-10-02</date></edition></editionStmt>
+    <publicationStmt>
+      <publisher>Lehrstuhl für Computational Humanities, Universität Passau</publisher>
+      <date when="2026-10-02">2026</date>
+      <availability><licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0 (Transkription, Annotation, Daten). Faksimiles: Bayerische Staatsbibliothek München, NoC-NC 1.0.</licence></availability>
+    </publicationStmt>
+    <sourceDesc>
+      <bibl type="original">
+        <author>Brückner, Georg</author>
+        <title>Volks- und Landeskunde des Fürstenthums Reuß j. L. Im Auftrage des regierenden Landesfürsten verfaßt</title>
+        <pubPlace>Gera</pubPlace><publisher>Köhler</publisher><date when="1870">1870</date>
+        <extent>VIII, 840 S.</extent>
+        <idno type="URN">urn:nbn:de:bvb:12-bsb11005578-4</idno>
+        <idno type="BSB">bsb11005578</idno>
+        <idno type="shelfmark">München, Bayerische Staatsbibliothek, Germ.sp. 78 ld</idno>
+      </bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+    <projectDesc><p>Digitale Edition auf Grundlage einer automatischen Transkription des BSB-Digitalisats (Gemini 3 Flash, 2026), regelbasiert korrigiert und strukturiert; Register durch KI-Agenten bereinigt und mit Normdaten verknüpft.</p></projectDesc>
+    <editorialDecl>
+      <normalization><p>Historische Schreibung beibehalten; Umlaute modern (ä, ö, ü statt e-Superskript); langes s als s; Ligaturen aufgelöst.</p></normalization>
+      <hyphenation eol="none"><p>Silbentrennung am Zeilenende aufgelöst; am Seitenende erhaltene Trennungen sind über das Seitenende hinweg in einem Absatz zusammengeführt.</p></hyphenation>
+      <correction><p>Layoutfehler der automatischen Erkennung (Tabellenköpfe, Bogensignaturen, Trennstriche) sind regelbasiert korrigiert und je Seite protokolliert. Inhaltliche Druckfehler sind nicht korrigiert.</p></correction>
+    </editorialDecl>
+  </encodingDesc>
+  <profileDesc><langUsage><language ident="de">Deutsch (1870)</language></langUsage></profileDesc>
+  <revisionDesc><change when="2026-10-02">Version 1.1</change></revisionDesc>
+</teiHeader>
+<facsimile><surface xml:id="f0111" n="99" ulx="0" uly="0" lrx="1579" lry="2686"><graphic url="https://api.digitale-sammlungen.de/iiif/image/v2/bsb11005578_00111/full/full/0/default.jpg" mimeType="image/jpeg"/><zone xml:id="f0111-b1" type="block" ulx="120" uly="268" lrx="1361" lry="1428"/><zone xml:id="f0111-b2" type="block" ulx="41" uly="1505" lrx="1376" lry="1590"/><zone xml:id="f0111-b3" type="block" ulx="80" uly="1660" lrx="1371" lry="2324"/><zone xml:id="f0111-l1" type="line" n="1" ulx="1164" uly="270" lrx="1361" lry="310"/><zone xml:id="f0111-l2" type="line" n="2" ulx="1173" uly="316" lrx="1353" lry="354"/><zone xml:id="f0111-l3" type="line" n="3" ulx="1189" uly="354" lrx="1335" lry="395"/><zone xml:id="f0111-l4" type="line" n="4" ulx="344" uly="491" lrx="1125" lry="532"/><zone xml:id="f0111-l5" type="line" n="5" ulx="508" uly="986" lrx="955" lry="1027"/><zone xml:id="f0111-l6" type="line" n="6" ulx="123" uly="1505" lrx="1376" lry="1546"/><zone xml:id="f0111-l7" type="line" n="7" ulx="41" uly="1549" lrx="835" lry="1590"/><zone xml:id="f0111-l8" type="line" n="8" ulx="852" uly="1660" lrx="1319" lry="1701"/><zone xml:id="f0111-l9" type="line" n="9" ulx="243" uly="1727" lrx="1365" lry="1768"/><zone xml:id="f0111-l10" type="line" n="10" ulx="1104" uly="1789" lrx="1349" lry="1830"/></surface></facsimile>
+<text><body><div type="page" n="99"><pb n="99" facs="#f0111"/>
+<fw type="header" place="top">1. Statistik.</fw>
+<table xml:id="p99-b1" facs="#f0111-b1" rows="21" cols="6"><row role="label"><cell role="label">Jahre.</cell><cell role="label">Geborene.</cell><cell role="label">Gestorbene.</cell><cell role="label">Mehr Geborene als Gestorbene.</cell><cell role="label">Zunahme der Bevölkerung.</cell><cell role="label">Mehr ausgewandert als eingewandert.</cell></row><row role="label"><cell role="label"></cell><cell role="label">Landrathsbezirk <placeName ref="#place-bezirk-lobenstein-ebersdorf">Lobenstein-Ebersdorf</placeName>.</cell><cell role="label"></cell><cell role="label"></cell><cell role="label"></cell><cell role="label"></cell></row><row><cell>1859</cell><cell>831</cell><cell>490</cell><cell>876</cell><cell>-187</cell><cell>1063</cell></row><row><cell>1860</cell><cell>800</cell><cell>541</cell><cell></cell><cell></cell><cell></cell></row><row><cell>1861</cell><cell>814</cell><cell>538</cell><cell></cell><cell></cell><cell></cell></row><row><cell>1862</cell><cell>798</cell><cell>587</cell><cell>819</cell><cell>168</cell><cell>651</cell></row><row><cell>1863</cell><cell>868</cell><cell>537</cell><cell></cell><cell></cell><cell></cell></row><row><cell>1864</cell><cell>849</cell><cell>572</cell><cell></cell><cell></cell><cell></cell></row><row><cell>1865</cell><cell>899</cell><cell>762</cell><cell>555</cell><cell>-145</cell><cell>700</cell></row><row><cell>1866</cell><cell>922</cell><cell>693</cell><cell></cell><cell></cell><cell></cell></row><row><cell>1867</cell><cell>863</cell><cell>674</cell><cell></cell><cell></cell><cell></cell></row><row role="label"><cell cols="6">Das Fürstenthum.</cell></row><row><cell>1859</cell><cell>3309</cell><cell>2165</cell><cell>3194</cell><cell>1554</cell><cell>1640</cell></row><row><cell>1860</cell><cell>3216</cell><cell>2023</cell><cell></cell><cell></cell><cell></cell></row><row><cell>1861</cell><cell>3169</cell><cell>2312</cell><cell></cell><cell></cell><cell></cell></row><row><cell>1862</cell><cell>3211</cell><cell>2170</cell><cell>3339</cell><cell>3112</cell><cell>227</cell></row><row><cell>1863</cell><cell>3411</cell><cell>2256</cell><cell></cell><cell></cell><cell></cell></row><row><cell>1864</cell><cell>3387</cell><cell>2244</cell><cell></cell><cell></cell><cell></cell></row><row><cell>1865</cell><cell>3513</cell><cell>2697</cell><cell>2779</cell><cell>1502</cell><cell>1277</cell></row><row><cell>1866</cell><cell>3620</cell><cell>2633</cell><cell></cell><cell></cell><cell></cell></row><row><cell>1867</cell><cell>3512</cell><cell>2536</cell><cell></cell><cell></cell><cell></cell></row></table>
+<ab type="heading" xml:id="p99-b2" facs="#f0111-b2"><lb n="6" facs="#f0111-l6"/>8) Die Bevölkerung des Landes nach Geschlecht und Alter <lb n="7" facs="#f0111-l7"/>unter und über 14 Jahre (1837-1867):</ab>
+<table xml:id="p99-b3" facs="#f0111-b3" rows="14" cols="9"><row role="label"><cell role="label">Jahre.</cell><cell role="label">Städtische Bevölkerung.</cell><cell role="label"></cell><cell role="label"></cell><cell role="label"></cell><cell role="label">Ländliche Bevölkerung.</cell><cell role="label"></cell><cell role="label"></cell><cell role="label"></cell></row><row role="label"><cell role="label"></cell><cell role="label">Ueber 14jährige</cell><cell role="label"></cell><cell role="label">Unter 14jährige</cell><cell role="label"></cell><cell role="label">Ueber 14jährige</cell><cell role="label"></cell><cell role="label">Unter 14jährige</cell><cell role="label"></cell></row><row role="label"><cell role="label"></cell><cell role="label">männl.</cell><cell role="label">weibl.</cell><cell role="label">männl.</cell><cell role="label">weibl.</cell><cell role="label">männl.</cell><cell role="label">weibl.</cell><cell role="label">männl.</cell><cell role="label">weibl.</cell></row><row><cell>1837</cell><cell>8083</cell><cell>8100</cell><cell>3429</cell><cell>3405</cell><cell>15646</cell><cell>16835</cell><cell>8050</cell><cell>7943</cell></row><row><cell>1840</cell><cell>8396</cell><cell>8567</cell><cell>3522</cell><cell>3490</cell><cell>16139</cell><cell>17279</cell><cell>8206</cell><cell>8189</cell></row><row><cell>1843</cell><cell>8576</cell><cell>8775</cell><cell>3546</cell><cell>3546</cell><cell>16172</cell><cell>17506</cell><cell>8468</cell><cell>8294</cell></row><row><cell>1846</cell><cell>8748</cell><cell>9005</cell><cell>3618</cell><cell>3642</cell><cell>16980</cell><cell>18025</cell><cell>8562</cell><cell>8436</cell></row><row><cell>1849</cell><cell>8859</cell><cell>9000</cell><cell>3795</cell><cell>3865</cell><cell>16827</cell><cell>18231</cell><cell>8767</cell><cell>8619</cell></row><row><cell>1852</cell><cell>8966</cell><cell>9085</cell><cell>3972</cell><cell>4075</cell><cell>17173</cell><cell>18493</cell><cell>9075</cell><cell>8985</cell></row><row><cell>1855</cell><cell>8820</cell><cell>9094</cell><cell>4104</cell><cell>4016</cell><cell>17058</cell><cell>18732</cell><cell>9368</cell><cell>9011</cell></row><row><cell>1858</cell><cell>8819</cell><cell>9127</cell><cell>4203</cell><cell>3997</cell><cell>17640</cell><cell>19167</cell><cell>9571</cell><cell>9282</cell></row><row><cell>1861</cell><cell>8859</cell><cell>9320</cell><cell>4314</cell><cell>4190</cell><cell>17860</cell><cell>19587</cell><cell>9884</cell><cell>9346</cell></row><row><cell>1864</cell><cell>9466</cell><cell>9577</cell><cell>4420</cell><cell>4336</cell><cell>18715</cell><cell>20245</cell><cell>9834</cell><cell>9915</cell></row><row><cell>1867</cell><cell>9782</cell><cell>9950</cell><cell>4636</cell><cell>4554</cell><cell>18767</cell><cell>20226</cell><cell>9999</cell><cell>10060</cell></row></table>
+<fw type="sig" place="bottom">7*</fw>
+</div></body></text>
+<standOff>
+<listPlace>
+<place xml:id="place-bezirk-lobenstein-ebersdorf"><placeName>Bezirk Lobenstein-Ebersdorf</placeName><desc>Landestheil</desc></place>
+</listPlace>
+</standOff>
+</TEI>

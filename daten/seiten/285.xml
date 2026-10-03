@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de">
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="main">Volks- und Landeskunde des Fürstenthums Reuß j. L.</title>
+      <title type="sub">Digitale Edition, S. 285</title>
+      <author><persName ref="https://d-nb.info/gnd/119209217">Brückner, Georg</persName> (1800–1881)</author>
+      <editor><persName>Tobias Perschl</persName></editor><editor><persName>Markus Gerstmeier</persName></editor><editor><persName>Malte Rehbein</persName></editor>
+      <respStmt><resp>Automatische Transkription und Entitätenerkennung</resp><name>Google Gemini 3 Flash (2026)</name></respStmt>
+      <respStmt><resp>Layout-Korrektur, Register, Auswertungen, Edition</resp><persName>Tobias Perschl</persName><persName>Markus Gerstmeier</persName><persName>Malte Rehbein</persName><name>Claude (Anthropic)</name></respStmt>
+    </titleStmt>
+    <editionStmt><edition n="1.1">Version 1.1, <date when="2026-10-02">2026-10-02</date></edition></editionStmt>
+    <publicationStmt>
+      <publisher>Lehrstuhl für Computational Humanities, Universität Passau</publisher>
+      <date when="2026-10-02">2026</date>
+      <availability><licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0 (Transkription, Annotation, Daten). Faksimiles: Bayerische Staatsbibliothek München, NoC-NC 1.0.</licence></availability>
+    </publicationStmt>
+    <sourceDesc>
+      <bibl type="original">
+        <author>Brückner, Georg</author>
+        <title>Volks- und Landeskunde des Fürstenthums Reuß j. L. Im Auftrage des regierenden Landesfürsten verfaßt</title>
+        <pubPlace>Gera</pubPlace><publisher>Köhler</publisher><date when="1870">1870</date>
+        <extent>VIII, 840 S.</extent>
+        <idno type="URN">urn:nbn:de:bvb:12-bsb11005578-4</idno>
+        <idno type="BSB">bsb11005578</idno>
+        <idno type="shelfmark">München, Bayerische Staatsbibliothek, Germ.sp. 78 ld</idno>
+      </bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+    <projectDesc><p>Digitale Edition auf Grundlage einer automatischen Transkription des BSB-Digitalisats (Gemini 3 Flash, 2026), regelbasiert korrigiert und strukturiert; Register durch KI-Agenten bereinigt und mit Normdaten verknüpft.</p></projectDesc>
+    <editorialDecl>
+      <normalization><p>Historische Schreibung beibehalten; Umlaute modern (ä, ö, ü statt e-Superskript); langes s als s; Ligaturen aufgelöst.</p></normalization>
+      <hyphenation eol="none"><p>Silbentrennung am Zeilenende aufgelöst; am Seitenende erhaltene Trennungen sind über das Seitenende hinweg in einem Absatz zusammengeführt.</p></hyphenation>
+      <correction><p>Layoutfehler der automatischen Erkennung (Tabellenköpfe, Bogensignaturen, Trennstriche) sind regelbasiert korrigiert und je Seite protokolliert. Inhaltliche Druckfehler sind nicht korrigiert.</p></correction>
+    </editorialDecl>
+  </encodingDesc>
+  <profileDesc><langUsage><language ident="de">Deutsch (1870)</language></langUsage></profileDesc>
+  <revisionDesc><change when="2026-10-02">Version 1.1</change></revisionDesc>
+</teiHeader>
+<facsimile><surface xml:id="f0297" n="285" ulx="0" uly="0" lrx="1625" lry="2693"><graphic url="https://api.digitale-sammlungen.de/iiif/image/v2/bsb11005578_00297/full/full/0/default.jpg" mimeType="image/jpeg"/><zone xml:id="f0297-b2" type="block" ulx="251" uly="221" lrx="1297" lry="2370"/></surface></facsimile>
+<text><body><div type="page" n="285"><pb n="285" facs="#f0297"/>
+<fw type="header" place="top">4. Rechtspflege.</fw>
+<ab type="heading" xml:id="p285-b1">c) Nichtstreitige Gerichtsbarkeit.</ab>
+<table xml:id="p285-b2" facs="#f0297-b2" rows="15" cols="16"><row role="label"><cell role="label">Einzelgerichte.</cell><cell role="label">Uebereignungen</cell><cell role="label">Uebereignungen</cell><cell role="label">Uebereignungen</cell><cell role="label">Uebereignungen</cell><cell role="label">Uebereignungen</cell><cell role="label">Uebereignungen</cell><cell role="label">Pfandbestellungen</cell><cell role="label">Pfandbestellungen</cell><cell role="label">Pfandbestellungen</cell><cell role="label">Pfandbestellungen</cell><cell role="label">Pfandbestellungen</cell><cell role="label">Vormundschaft</cell><cell role="label">Vormundschaft</cell><cell role="label">Nachlassregulirung</cell><cell role="label">Nachlassregulirung</cell></row><row role="label"><cell role="label"></cell><cell role="label">überhaupt</cell><cell role="label">überhaupt</cell><cell role="label">erledigt</cell><cell role="label">erledigt</cell><cell role="label">Rest</cell><cell role="label">Rest</cell><cell role="label">überhaupt</cell><cell role="label">überhaupt</cell><cell role="label">erledigt</cell><cell role="label">erledigt</cell><cell role="label">Rest*) blos neu.</cell><cell role="label">mit Verwaltung.</cell><cell role="label">ohne Verwaltung.</cell><cell role="label">überhaupt</cell><cell role="label">erledigt</cell></row><row role="label"><cell role="label"></cell><cell role="label">alt.</cell><cell role="label">neu.</cell><cell role="label">alt.</cell><cell role="label">neu.</cell><cell role="label">alt.</cell><cell role="label">neu.</cell><cell role="label">alt.</cell><cell role="label">neu.</cell><cell role="label">alt.</cell><cell role="label">neu.</cell><cell role="label"></cell><cell role="label"></cell><cell role="label"></cell><cell role="label">alt. neu.</cell><cell role="label">alt. neu.</cell></row><row><cell><placeName ref="#place-gera">Gera</placeName> I</cell><cell>15</cell><cell>124</cell><cell>15</cell><cell>114</cell><cell>—</cell><cell>10</cell><cell>5</cell><cell>193</cell><cell>5</cell><cell>191</cell><cell>2</cell><cell>39</cell><cell>620</cell><cell>32 117</cell><cell>24 80</cell></row><row><cell><placeName ref="#place-gera">Gera</placeName> II</cell><cell>22</cell><cell>235</cell><cell>21</cell><cell>222</cell><cell>1</cell><cell>13</cell><cell>7</cell><cell>233</cell><cell>7</cell><cell>228</cell><cell>5</cell><cell>30</cell><cell>763</cell><cell>54 98</cell><cell>47 77</cell></row><row><cell><placeName ref="#place-hirschberg">Hirschberg</placeName> . .</cell><cell>69</cell><cell>141</cell><cell>68</cell><cell>102</cell><cell>1</cell><cell>39</cell><cell>10</cell><cell>111</cell><cell>10</cell><cell>107</cell><cell>4</cell><cell>7</cell><cell>380</cell><cell>13 34</cell><cell>11 25</cell></row><row><cell><placeName ref="#place-hohenleuben">Hohenleuben</placeName> .</cell><cell>—</cell><cell>120</cell><cell>—</cell><cell>120</cell><cell>—</cell><cell>—</cell><cell>—</cell><cell>151</cell><cell>—</cell><cell>151</cell><cell>—</cell><cell>53</cell><cell>322</cell><cell>6 24</cell><cell>5 19</cell></row><row><cell><placeName ref="#place-lobenstein">Lobenstein</placeName> I. .</cell><cell>57</cell><cell>224</cell><cell>57</cell><cell>170</cell><cell>—</cell><cell>54</cell><cell>—</cell><cell>202</cell><cell>—</cell><cell>202</cell><cell>—</cell><cell>9</cell><cell>497</cell><cell>31 54</cell><cell>30 37</cell></row><row><cell><placeName ref="#place-lobenstein">Lobenstein</placeName> II. .</cell><cell>27</cell><cell>127</cell><cell>22</cell><cell>106</cell><cell>5</cell><cell>21</cell><cell>—</cell><cell>178</cell><cell>—</cell><cell>176</cell><cell>2</cell><cell>3</cell><cell>316</cell><cell>9 41</cell><cell>7 29</cell></row><row><cell><placeName ref="#place-schleiz">Schleiz</placeName> I. . .</cell><cell>94</cell><cell>232</cell><cell>90</cell><cell>212</cell><cell>4</cell><cell>20</cell><cell>37</cell><cell>149</cell><cell>37</cell><cell>149</cell><cell>—</cell><cell>30</cell><cell>486</cell><cell>25 45</cell><cell>15 30</cell></row><row><cell><placeName ref="#place-schleiz">Schleiz</placeName> II. . .</cell><cell>34</cell><cell>153</cell><cell>34</cell><cell>139</cell><cell>—</cell><cell>14</cell><cell>7</cell><cell>129</cell><cell>7</cell><cell>109</cell><cell>20</cell><cell>19</cell><cell>284</cell><cell>20 36</cell><cell>19 20</cell></row><row><cell>Summe 1867</cell><cell>318</cell><cell>1356</cell><cell>307</cell><cell>1185</cell><cell>11</cell><cell>171</cell><cell>66</cell><cell>1346</cell><cell>66</cell><cell>1313</cell><cell>33</cell><cell>190</cell><cell>3668</cell><cell>190 449</cell><cell>158 317</cell></row><row><cell>" 1866</cell><cell>157</cell><cell>1451</cell><cell>152</cell><cell>1138</cell><cell>5</cell><cell>313</cell><cell>42</cell><cell>1125</cell><cell>42</cell><cell>1059</cell><cell>66</cell><cell>188</cell><cell>3466</cell><cell>142 416</cell><cell>104 264</cell></row><row><cell>" 1865</cell><cell>119</cell><cell>1111</cell><cell>118</cell><cell>955</cell><cell>1</cell><cell>156</cell><cell>47</cell><cell>951</cell><cell>47</cell><cell>911</cell><cell>40</cell><cell>180</cell><cell>3903</cell><cell>120 451</cell><cell>108 321</cell></row><row><cell>" 1864</cell><cell>178</cell><cell>1195</cell><cell>177</cell><cell>1077</cell><cell>1</cell><cell>118</cell><cell>52</cell><cell>1016</cell><cell>52</cell><cell>969</cell><cell>47</cell><cell>169</cell><cell>3522</cell><cell>106 309</cell><cell>91 204</cell></row></table>
+<p xml:id="p285-b3"><note place="foot" n="*)" xml:id="p285-fn1">Reste der vorjährigen Nummern sind in keinem der Jahre vorgekommen.</note> Reste der vorjährigen Nummern sind in keinem der Jahre vorgekommen.</p>
+</div></body></text>
+<standOff>
+<listPlace>
+<place xml:id="place-gera"><placeName>Gera</placeName><desc>Stadt</desc><location><geo>50.88029 12.08187</geo></location><idno type="GeoNames">https://www.geonames.org/2921232</idno><idno type="Wikidata">https://www.wikidata.org/entity/Q3750</idno></place>
+<place xml:id="place-hirschberg"><placeName>Hirschberg</placeName><desc>Stadt</desc><location><geo>50.40538 11.81829</geo></location><idno type="GeoNames">https://www.geonames.org/2903720</idno><idno type="Wikidata">https://www.wikidata.org/entity/Q630383</idno></place>
+<place xml:id="place-hohenleuben"><placeName>Hohenleuben</placeName><desc>Marktflecken</desc><location><geo>50.71128 12.05427</geo></location><idno type="GeoNames">https://www.geonames.org/2901634</idno><idno type="Wikidata">https://www.wikidata.org/entity/Q526430</idno></place>
+<place xml:id="place-lobenstein"><placeName>Lobenstein</placeName><placeName type="modern">Bad Lobenstein</placeName><desc>Stadt</desc><location><geo>50.45223 11.6393</geo></location><idno type="GeoNames">https://www.geonames.org/2876721</idno><idno type="Wikidata">https://www.wikidata.org/entity/Q505656</idno></place>
+<place xml:id="place-schleiz"><placeName>Schleiz</placeName><desc>Stadt</desc><location><geo>50.57866 11.81024</geo></location><idno type="GeoNames">https://www.geonames.org/2838673</idno><idno type="Wikidata">https://www.wikidata.org/entity/Q32285667</idno></place>
+</listPlace>
+</standOff>
+</TEI>

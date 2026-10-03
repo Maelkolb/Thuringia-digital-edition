@@ -1,0 +1,2239 @@
+{
+ "seq": 104,
+ "label": "92",
+ "slug": "92",
+ "iiif": {
+  "service": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb11005578_00104",
+  "canvas": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11005578/canvas/104",
+  "width": 1631,
+  "height": 2695
+ },
+ "kind": "text",
+ "running_header": "II. Das Volk.",
+ "signature": null,
+ "blocks": [
+  {
+   "id": "b1",
+   "type": "table",
+   "src": 0,
+   "n_cols": 12,
+   "header_rows": 4,
+   "rows": [
+    {
+     "role": "header",
+     "cells": [
+      {
+       "text": "Jahre.",
+       "spans": [],
+       "rowspan": 3
+      },
+      {
+       "text": "Zahl der Familien.",
+       "spans": [],
+       "rowspan": 4
+      },
+      {
+       "text": "Altersklassen",
+       "spans": [],
+       "colspan": 6
+      },
+      {
+       "text": "Zahl der Gesammtbewohner",
+       "spans": [],
+       "colspan": 3,
+       "rowspan": 2
+      },
+      {
+       "text": "Jährl. Zu= od. Abnahme in Proc.",
+       "spans": [],
+       "rowspan": 4
+      }
+     ]
+    },
+    {
+     "role": "header",
+     "cells": [
+      {
+       "text": "über 14 Jahre",
+       "spans": [],
+       "colspan": 3
+      },
+      {
+       "text": "unter 14 Jahre",
+       "spans": [],
+       "colspan": 3
+      }
+     ]
+    },
+    {
+     "role": "header",
+     "cells": [
+      {
+       "text": "männl.",
+       "spans": [],
+       "rowspan": 2
+      },
+      {
+       "text": "weibl.",
+       "spans": [],
+       "rowspan": 2
+      },
+      {
+       "text": "Summe.",
+       "spans": [],
+       "rowspan": 2
+      },
+      {
+       "text": "männl.",
+       "spans": [],
+       "rowspan": 2
+      },
+      {
+       "text": "weibl.",
+       "spans": [],
+       "rowspan": 2
+      },
+      {
+       "text": "Summe.",
+       "spans": [],
+       "rowspan": 2
+      },
+      {
+       "text": "männl.",
+       "spans": [],
+       "rowspan": 2
+      },
+      {
+       "text": "weibl.",
+       "spans": [],
+       "rowspan": 2
+      },
+      {
+       "text": "Summe.",
+       "spans": [],
+       "rowspan": 2
+      }
+     ]
+    },
+    {
+     "role": "header",
+     "cells": [
+      {
+       "text": "Landrathsbezirk Lobenstein-Ebersdorf.",
+       "spans": [
+        [
+         16,
+         36,
+         "Location"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1647",
+       "spans": []
+      },
+      {
+       "text": "1433",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "6453",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1784",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "12957",
+       "spans": []
+      },
+      {
+       "text": "0,51",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1833",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "20265",
+       "spans": []
+      },
+      {
+       "text": "1,15",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1834",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "19948",
+       "spans": []
+      },
+      {
+       "text": "-1,56",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1837",
+       "spans": []
+      },
+      {
+       "text": "4424",
+       "spans": []
+      },
+      {
+       "text": "6595",
+       "spans": []
+      },
+      {
+       "text": "7251",
+       "spans": []
+      },
+      {
+       "text": "13846",
+       "spans": []
+      },
+      {
+       "text": "3526",
+       "spans": []
+      },
+      {
+       "text": "3488",
+       "spans": []
+      },
+      {
+       "text": "7014",
+       "spans": []
+      },
+      {
+       "text": "10121",
+       "spans": []
+      },
+      {
+       "text": "10739",
+       "spans": []
+      },
+      {
+       "text": "20860",
+       "spans": []
+      },
+      {
+       "text": "1,52",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1840",
+       "spans": []
+      },
+      {
+       "text": "4230",
+       "spans": []
+      },
+      {
+       "text": "6699",
+       "spans": []
+      },
+      {
+       "text": "7440",
+       "spans": []
+      },
+      {
+       "text": "14139",
+       "spans": []
+      },
+      {
+       "text": "3572",
+       "spans": []
+      },
+      {
+       "text": "3660",
+       "spans": []
+      },
+      {
+       "text": "7232",
+       "spans": []
+      },
+      {
+       "text": "10271",
+       "spans": []
+      },
+      {
+       "text": "11100",
+       "spans": []
+      },
+      {
+       "text": "21371",
+       "spans": []
+      },
+      {
+       "text": "0,82",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1843",
+       "spans": []
+      },
+      {
+       "text": "4448",
+       "spans": []
+      },
+      {
+       "text": "6763",
+       "spans": []
+      },
+      {
+       "text": "7619",
+       "spans": []
+      },
+      {
+       "text": "14382",
+       "spans": []
+      },
+      {
+       "text": "3625",
+       "spans": []
+      },
+      {
+       "text": "3542",
+       "spans": []
+      },
+      {
+       "text": "7167",
+       "spans": []
+      },
+      {
+       "text": "10388",
+       "spans": []
+      },
+      {
+       "text": "11161",
+       "spans": []
+      },
+      {
+       "text": "21549",
+       "spans": []
+      },
+      {
+       "text": "0,28",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1846",
+       "spans": []
+      },
+      {
+       "text": "4269",
+       "spans": []
+      },
+      {
+       "text": "7004",
+       "spans": []
+      },
+      {
+       "text": "7848",
+       "spans": []
+      },
+      {
+       "text": "14852",
+       "spans": []
+      },
+      {
+       "text": "3620",
+       "spans": []
+      },
+      {
+       "text": "3554",
+       "spans": []
+      },
+      {
+       "text": "7174",
+       "spans": []
+      },
+      {
+       "text": "10624",
+       "spans": []
+      },
+      {
+       "text": "11402",
+       "spans": []
+      },
+      {
+       "text": "22026",
+       "spans": []
+      },
+      {
+       "text": "0,74",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1849",
+       "spans": []
+      },
+      {
+       "text": "4669",
+       "spans": []
+      },
+      {
+       "text": "6762",
+       "spans": []
+      },
+      {
+       "text": "7649",
+       "spans": []
+      },
+      {
+       "text": "14411",
+       "spans": []
+      },
+      {
+       "text": "3713",
+       "spans": []
+      },
+      {
+       "text": "3679",
+       "spans": []
+      },
+      {
+       "text": "7392",
+       "spans": []
+      },
+      {
+       "text": "10475",
+       "spans": []
+      },
+      {
+       "text": "11328",
+       "spans": []
+      },
+      {
+       "text": "21803",
+       "spans": []
+      },
+      {
+       "text": "-0,34",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1852",
+       "spans": []
+      },
+      {
+       "text": "4672",
+       "spans": []
+      },
+      {
+       "text": "7024",
+       "spans": []
+      },
+      {
+       "text": "7767",
+       "spans": []
+      },
+      {
+       "text": "14791",
+       "spans": []
+      },
+      {
+       "text": "3811",
+       "spans": []
+      },
+      {
+       "text": "3770",
+       "spans": []
+      },
+      {
+       "text": "7581",
+       "spans": []
+      },
+      {
+       "text": "10835",
+       "spans": []
+      },
+      {
+       "text": "11537",
+       "spans": []
+      },
+      {
+       "text": "22372",
+       "spans": []
+      },
+      {
+       "text": "0,87",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1855",
+       "spans": []
+      },
+      {
+       "text": "4701",
+       "spans": []
+      },
+      {
+       "text": "6938",
+       "spans": []
+      },
+      {
+       "text": "7844",
+       "spans": []
+      },
+      {
+       "text": "14782",
+       "spans": []
+      },
+      {
+       "text": "3999",
+       "spans": []
+      },
+      {
+       "text": "3815",
+       "spans": []
+      },
+      {
+       "text": "7814",
+       "spans": []
+      },
+      {
+       "text": "10937",
+       "spans": []
+      },
+      {
+       "text": "11659",
+       "spans": []
+      },
+      {
+       "text": "22596",
+       "spans": []
+      },
+      {
+       "text": "0,33",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1858",
+       "spans": []
+      },
+      {
+       "text": "4881",
+       "spans": []
+      },
+      {
+       "text": "6947",
+       "spans": []
+      },
+      {
+       "text": "7857",
+       "spans": []
+      },
+      {
+       "text": "14804",
+       "spans": []
+      },
+      {
+       "text": "3939",
+       "spans": []
+      },
+      {
+       "text": "3775",
+       "spans": []
+      },
+      {
+       "text": "7714",
+       "spans": []
+      },
+      {
+       "text": "10886",
+       "spans": []
+      },
+      {
+       "text": "11632",
+       "spans": []
+      },
+      {
+       "text": "22518",
+       "spans": []
+      },
+      {
+       "text": "-0,12",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1861",
+       "spans": []
+      },
+      {
+       "text": "4740",
+       "spans": []
+      },
+      {
+       "text": "6807",
+       "spans": []
+      },
+      {
+       "text": "7812",
+       "spans": []
+      },
+      {
+       "text": "14619",
+       "spans": []
+      },
+      {
+       "text": "3889",
+       "spans": []
+      },
+      {
+       "text": "3823",
+       "spans": []
+      },
+      {
+       "text": "7712",
+       "spans": []
+      },
+      {
+       "text": "10696",
+       "spans": []
+      },
+      {
+       "text": "11635",
+       "spans": []
+      },
+      {
+       "text": "22331",
+       "spans": []
+      },
+      {
+       "text": "-0,28",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1864",
+       "spans": []
+      },
+      {
+       "text": "5036",
+       "spans": []
+      },
+      {
+       "text": "6887",
+       "spans": []
+      },
+      {
+       "text": "7896",
+       "spans": []
+      },
+      {
+       "text": "14783",
+       "spans": []
+      },
+      {
+       "text": "3808",
+       "spans": []
+      },
+      {
+       "text": "3908",
+       "spans": []
+      },
+      {
+       "text": "7716",
+       "spans": []
+      },
+      {
+       "text": "10695",
+       "spans": []
+      },
+      {
+       "text": "11804",
+       "spans": []
+      },
+      {
+       "text": "22499",
+       "spans": []
+      },
+      {
+       "text": "0,25",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1867",
+       "spans": []
+      },
+      {
+       "text": "4792",
+       "spans": []
+      },
+      {
+       "text": "6984",
+       "spans": []
+      },
+      {
+       "text": "7806",
+       "spans": []
+      },
+      {
+       "text": "14790",
+       "spans": []
+      },
+      {
+       "text": "3760",
+       "spans": []
+      },
+      {
+       "text": "3804",
+       "spans": []
+      },
+      {
+       "text": "7564",
+       "spans": []
+      },
+      {
+       "text": "10744",
+       "spans": []
+      },
+      {
+       "text": "11610",
+       "spans": []
+      },
+      {
+       "text": "22354",
+       "spans": []
+      },
+      {
+       "text": "-0,21",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "group",
+     "cells": [
+      {
+       "text": "Das Fürstenthum.",
+       "spans": [],
+       "colspan": 12
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1647",
+       "spans": []
+      },
+      {
+       "text": "5318",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "23913",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1833",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "68737",
+       "spans": []
+      },
+      {
+       "text": "0,57",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1834",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "69333",
+       "spans": []
+      },
+      {
+       "text": "0,69",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1837",
+       "spans": []
+      },
+      {
+       "text": "15102",
+       "spans": []
+      },
+      {
+       "text": "23729",
+       "spans": []
+      },
+      {
+       "text": "24935",
+       "spans": []
+      },
+      {
+       "text": "48664",
+       "spans": []
+      },
+      {
+       "text": "11479",
+       "spans": []
+      },
+      {
+       "text": "11348",
+       "spans": []
+      },
+      {
+       "text": "22827",
+       "spans": []
+      },
+      {
+       "text": "35208",
+       "spans": []
+      },
+      {
+       "text": "36283",
+       "spans": []
+      },
+      {
+       "text": "71491",
+       "spans": []
+      },
+      {
+       "text": "1,04",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1840",
+       "spans": []
+      },
+      {
+       "text": "15178",
+       "spans": []
+      },
+      {
+       "text": "24535",
+       "spans": []
+      },
+      {
+       "text": "25846",
+       "spans": []
+      },
+      {
+       "text": "50381",
+       "spans": []
+      },
+      {
+       "text": "11728",
+       "spans": []
+      },
+      {
+       "text": "11679",
+       "spans": []
+      },
+      {
+       "text": "23407",
+       "spans": []
+      },
+      {
+       "text": "36263",
+       "spans": []
+      },
+      {
+       "text": "37525",
+       "spans": []
+      },
+      {
+       "text": "73788",
+       "spans": []
+      },
+      {
+       "text": "1,07",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1843",
+       "spans": []
+      },
+      {
+       "text": "15995",
+       "spans": []
+      },
+      {
+       "text": "24748",
+       "spans": []
+      },
+      {
+       "text": "26281",
+       "spans": []
+      },
+      {
+       "text": "51029",
+       "spans": []
+      },
+      {
+       "text": "12014",
+       "spans": []
+      },
+      {
+       "text": "11840",
+       "spans": []
+      },
+      {
+       "text": "23854",
+       "spans": []
+      },
+      {
+       "text": "36762",
+       "spans": []
+      },
+      {
+       "text": "38121",
+       "spans": []
+      },
+      {
+       "text": "74883",
+       "spans": []
+      },
+      {
+       "text": "0,50",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1846",
+       "spans": []
+      },
+      {
+       "text": "15651",
+       "spans": []
+      },
+      {
+       "text": "25728",
+       "spans": []
+      },
+      {
+       "text": "27030",
+       "spans": []
+      },
+      {
+       "text": "52758",
+       "spans": []
+      },
+      {
+       "text": "12180",
+       "spans": []
+      },
+      {
+       "text": "12078",
+       "spans": []
+      },
+      {
+       "text": "24258",
+       "spans": []
+      },
+      {
+       "text": "37908",
+       "spans": []
+      },
+      {
+       "text": "39108",
+       "spans": []
+      },
+      {
+       "text": "77016",
+       "spans": []
+      },
+      {
+       "text": "0,95",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1849",
+       "spans": []
+      },
+      {
+       "text": "16493",
+       "spans": []
+      },
+      {
+       "text": "25686",
+       "spans": []
+      },
+      {
+       "text": "27231",
+       "spans": []
+      },
+      {
+       "text": "52917",
+       "spans": []
+      },
+      {
+       "text": "12562",
+       "spans": []
+      },
+      {
+       "text": "12484",
+       "spans": []
+      },
+      {
+       "text": "25046",
+       "spans": []
+      },
+      {
+       "text": "38248",
+       "spans": []
+      },
+      {
+       "text": "39715",
+       "spans": []
+      },
+      {
+       "text": "77963",
+       "spans": []
+      },
+      {
+       "text": "0,41",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1852",
+       "spans": []
+      },
+      {
+       "text": "17079",
+       "spans": []
+      },
+      {
+       "text": "26139",
+       "spans": []
+      },
+      {
+       "text": "27578",
+       "spans": []
+      },
+      {
+       "text": "53717",
+       "spans": []
+      },
+      {
+       "text": "13047",
+       "spans": []
+      },
+      {
+       "text": "13060",
+       "spans": []
+      },
+      {
+       "text": "26107",
+       "spans": []
+      },
+      {
+       "text": "39186",
+       "spans": []
+      },
+      {
+       "text": "40638",
+       "spans": []
+      },
+      {
+       "text": "79824",
+       "spans": []
+      },
+      {
+       "text": "0,80",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1855",
+       "spans": []
+      },
+      {
+       "text": "17199",
+       "spans": []
+      },
+      {
+       "text": "25878",
+       "spans": []
+      },
+      {
+       "text": "27826",
+       "spans": []
+      },
+      {
+       "text": "53704",
+       "spans": []
+      },
+      {
+       "text": "13472",
+       "spans": []
+      },
+      {
+       "text": "13027",
+       "spans": []
+      },
+      {
+       "text": "26499",
+       "spans": []
+      },
+      {
+       "text": "39350",
+       "spans": []
+      },
+      {
+       "text": "40853",
+       "spans": []
+      },
+      {
+       "text": "80203",
+       "spans": []
+      },
+      {
+       "text": "0,16",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1858",
+       "spans": []
+      },
+      {
+       "text": "17715",
+       "spans": []
+      },
+      {
+       "text": "26459",
+       "spans": []
+      },
+      {
+       "text": "28294",
+       "spans": []
+      },
+      {
+       "text": "54758",
+       "spans": []
+      },
+      {
+       "text": "13774",
+       "spans": []
+      },
+      {
+       "text": "13279",
+       "spans": []
+      },
+      {
+       "text": "27053",
+       "spans": []
+      },
+      {
+       "text": "40233",
+       "spans": []
+      },
+      {
+       "text": "41573",
+       "spans": []
+      },
+      {
+       "text": "81806",
+       "spans": []
+      },
+      {
+       "text": "0,67",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1861",
+       "spans": []
+      },
+      {
+       "text": "17841",
+       "spans": []
+      },
+      {
+       "text": "26719",
+       "spans": []
+      },
+      {
+       "text": "28907",
+       "spans": []
+      },
+      {
+       "text": "55626",
+       "spans": []
+      },
+      {
+       "text": "14198",
+       "spans": []
+      },
+      {
+       "text": "13536",
+       "spans": []
+      },
+      {
+       "text": "27734",
+       "spans": []
+      },
+      {
+       "text": "40917",
+       "spans": []
+      },
+      {
+       "text": "42443",
+       "spans": []
+      },
+      {
+       "text": "83360",
+       "spans": []
+      },
+      {
+       "text": "0,63",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1864",
+       "spans": []
+      },
+      {
+       "text": "19412",
+       "spans": []
+      },
+      {
+       "text": "28227",
+       "spans": []
+      },
+      {
+       "text": "29864",
+       "spans": []
+      },
+      {
+       "text": "58091",
+       "spans": []
+      },
+      {
+       "text": "14184",
+       "spans": []
+      },
+      {
+       "text": "14197",
+       "spans": []
+      },
+      {
+       "text": "28381",
+       "spans": []
+      },
+      {
+       "text": "42411",
+       "spans": []
+      },
+      {
+       "text": "44061",
+       "spans": []
+      },
+      {
+       "text": "86472",
+       "spans": []
+      },
+      {
+       "text": "1,24",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1867",
+       "spans": []
+      },
+      {
+       "text": "18952",
+       "spans": []
+      },
+      {
+       "text": "28549",
+       "spans": []
+      },
+      {
+       "text": "30176",
+       "spans": []
+      },
+      {
+       "text": "58720",
+       "spans": []
+      },
+      {
+       "text": "14635",
+       "spans": []
+      },
+      {
+       "text": "14614",
+       "spans": []
+      },
+      {
+       "text": "29249",
+       "spans": []
+      },
+      {
+       "text": "43184",
+       "spans": []
+      },
+      {
+       "text": "44790",
+       "spans": []
+      },
+      {
+       "text": "87974",
+       "spans": []
+      },
+      {
+       "text": "0,57",
+       "spans": []
+      }
+     ]
+    }
+   ],
+   "grid": [
+    [
+     "Jahre.",
+     "Zahl der Familien.",
+     "Altersklassen",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "Zahl der Gesammtbewohner",
+     "",
+     "",
+     "Jährl. Zu= od. Abnahme in Proc."
+    ],
+    [
+     "",
+     "",
+     "über 14 Jahre",
+     "",
+     "",
+     "unter 14 Jahre",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "männl.",
+     "weibl.",
+     "Summe.",
+     "männl.",
+     "weibl.",
+     "Summe.",
+     "männl.",
+     "weibl.",
+     "Summe.",
+     ""
+    ],
+    [
+     "Landrathsbezirk Lobenstein-Ebersdorf.",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "1647",
+     "1433",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—",
+     "6453",
+     "—"
+    ],
+    [
+     "1784",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—",
+     "12957",
+     "0,51"
+    ],
+    [
+     "1833",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—",
+     "20265",
+     "1,15"
+    ],
+    [
+     "1834",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—",
+     "19948",
+     "-1,56"
+    ],
+    [
+     "1837",
+     "4424",
+     "6595",
+     "7251",
+     "13846",
+     "3526",
+     "3488",
+     "7014",
+     "10121",
+     "10739",
+     "20860",
+     "1,52"
+    ],
+    [
+     "1840",
+     "4230",
+     "6699",
+     "7440",
+     "14139",
+     "3572",
+     "3660",
+     "7232",
+     "10271",
+     "11100",
+     "21371",
+     "0,82"
+    ],
+    [
+     "1843",
+     "4448",
+     "6763",
+     "7619",
+     "14382",
+     "3625",
+     "3542",
+     "7167",
+     "10388",
+     "11161",
+     "21549",
+     "0,28"
+    ],
+    [
+     "1846",
+     "4269",
+     "7004",
+     "7848",
+     "14852",
+     "3620",
+     "3554",
+     "7174",
+     "10624",
+     "11402",
+     "22026",
+     "0,74"
+    ],
+    [
+     "1849",
+     "4669",
+     "6762",
+     "7649",
+     "14411",
+     "3713",
+     "3679",
+     "7392",
+     "10475",
+     "11328",
+     "21803",
+     "-0,34"
+    ],
+    [
+     "1852",
+     "4672",
+     "7024",
+     "7767",
+     "14791",
+     "3811",
+     "3770",
+     "7581",
+     "10835",
+     "11537",
+     "22372",
+     "0,87"
+    ],
+    [
+     "1855",
+     "4701",
+     "6938",
+     "7844",
+     "14782",
+     "3999",
+     "3815",
+     "7814",
+     "10937",
+     "11659",
+     "22596",
+     "0,33"
+    ],
+    [
+     "1858",
+     "4881",
+     "6947",
+     "7857",
+     "14804",
+     "3939",
+     "3775",
+     "7714",
+     "10886",
+     "11632",
+     "22518",
+     "-0,12"
+    ],
+    [
+     "1861",
+     "4740",
+     "6807",
+     "7812",
+     "14619",
+     "3889",
+     "3823",
+     "7712",
+     "10696",
+     "11635",
+     "22331",
+     "-0,28"
+    ],
+    [
+     "1864",
+     "5036",
+     "6887",
+     "7896",
+     "14783",
+     "3808",
+     "3908",
+     "7716",
+     "10695",
+     "11804",
+     "22499",
+     "0,25"
+    ],
+    [
+     "1867",
+     "4792",
+     "6984",
+     "7806",
+     "14790",
+     "3760",
+     "3804",
+     "7564",
+     "10744",
+     "11610",
+     "22354",
+     "-0,21"
+    ],
+    [
+     "Das Fürstenthum.",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "1647",
+     "5318",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—",
+     "23913",
+     "—"
+    ],
+    [
+     "1833",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—",
+     "68737",
+     "0,57"
+    ],
+    [
+     "1834",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—",
+     "69333",
+     "0,69"
+    ],
+    [
+     "1837",
+     "15102",
+     "23729",
+     "24935",
+     "48664",
+     "11479",
+     "11348",
+     "22827",
+     "35208",
+     "36283",
+     "71491",
+     "1,04"
+    ],
+    [
+     "1840",
+     "15178",
+     "24535",
+     "25846",
+     "50381",
+     "11728",
+     "11679",
+     "23407",
+     "36263",
+     "37525",
+     "73788",
+     "1,07"
+    ],
+    [
+     "1843",
+     "15995",
+     "24748",
+     "26281",
+     "51029",
+     "12014",
+     "11840",
+     "23854",
+     "36762",
+     "38121",
+     "74883",
+     "0,50"
+    ],
+    [
+     "1846",
+     "15651",
+     "25728",
+     "27030",
+     "52758",
+     "12180",
+     "12078",
+     "24258",
+     "37908",
+     "39108",
+     "77016",
+     "0,95"
+    ],
+    [
+     "1849",
+     "16493",
+     "25686",
+     "27231",
+     "52917",
+     "12562",
+     "12484",
+     "25046",
+     "38248",
+     "39715",
+     "77963",
+     "0,41"
+    ],
+    [
+     "1852",
+     "17079",
+     "26139",
+     "27578",
+     "53717",
+     "13047",
+     "13060",
+     "26107",
+     "39186",
+     "40638",
+     "79824",
+     "0,80"
+    ],
+    [
+     "1855",
+     "17199",
+     "25878",
+     "27826",
+     "53704",
+     "13472",
+     "13027",
+     "26499",
+     "39350",
+     "40853",
+     "80203",
+     "0,16"
+    ],
+    [
+     "1858",
+     "17715",
+     "26459",
+     "28294",
+     "54758",
+     "13774",
+     "13279",
+     "27053",
+     "40233",
+     "41573",
+     "81806",
+     "0,67"
+    ],
+    [
+     "1861",
+     "17841",
+     "26719",
+     "28907",
+     "55626",
+     "14198",
+     "13536",
+     "27734",
+     "40917",
+     "42443",
+     "83360",
+     "0,63"
+    ],
+    [
+     "1864",
+     "19412",
+     "28227",
+     "29864",
+     "58091",
+     "14184",
+     "14197",
+     "28381",
+     "42411",
+     "44061",
+     "86472",
+     "1,24"
+    ],
+    [
+     "1867",
+     "18952",
+     "28549",
+     "30176",
+     "58720",
+     "14635",
+     "14614",
+     "29249",
+     "43184",
+     "44790",
+     "87974",
+     "0,57"
+    ]
+   ],
+   "caption": null,
+   "sec": "t1-2-1"
+  },
+  {
+   "id": "b2",
+   "type": "paragraph",
+   "src": 1,
+   "text": "Demnach hat sich die Bevölkerung des Landes von 1647 bis 1867 oder in 220 Jahren um das 2,63, seit 1833 um das 1,28fache vergrössert; im Jahresdurchschnitt aber beträgt die Zunahme in der Zeit der 220 Jahre 0,59 Procent. Anders steht das Bewegungsverhältniß bei den einzelnen Landrathshbezirken. Die grösste Zunahme der Bevölkerung gehört dem Bezirke Gera, der seit 1647 um das 4,55fache gewachsen ist, während Schleiz in derselben Periode nur eine 3- und Lobenstein-Ebersdorf eine 3,46fache Vergrösserung aufweist. Und wiederum während Gera und Schleiz sich einer stetigen Zunahme erfreuen, so hat Lobenstein-Ebersdorf blos bis 1833 ein starkes, dann aber bis 1855 ein geringes Wachsen, seitdem sogar einen Rückgang, der in der Verkümmerung der früheren Eisen- und Wollindustrie und in der dadurch hervorgerufenen Auswanderung seinen Grund findet.",
+   "spans": [
+    [
+     351,
+     355,
+     "Location"
+    ],
+    [
+     411,
+     418,
+     "Location"
+    ],
+    [
+     456,
+     476,
+     "Location"
+    ],
+    [
+     537,
+     541,
+     "Location"
+    ],
+    [
+     546,
+     553,
+     "Location"
+    ],
+    [
+     599,
+     619,
+     "Location"
+    ],
+    [
+     755,
+     760,
+     "Resource"
+    ],
+    [
+     766,
+     779,
+     "Artefact"
+    ]
+   ],
+   "sec": "t1-2-1"
+  }
+ ],
+ "footnotes": [],
+ "corrections": [
+  {
+   "rule": "table_multirow_header",
+   "rows": 4,
+   "block": "b1"
+  },
+  {
+   "rule": "table_group_rows",
+   "n": 1,
+   "block": "b1"
+  }
+ ],
+ "provenance": {
+  "source": "colab-2026-03",
+  "model": "gemini-3-flash-preview",
+  "timestamp": "2026-03-03T15:06:10.872931",
+  "early_schema": false
+ },
+ "section_path": [
+  "t1",
+  "t1-2",
+  "t1-2-1"
+ ],
+ "sections": [
+  "t1-2-1"
+ ]
+}

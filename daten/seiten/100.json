@@ -1,0 +1,600 @@
+{
+ "seq": 112,
+ "label": "100",
+ "slug": "100",
+ "iiif": {
+  "service": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb11005578_00112",
+  "canvas": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11005578/canvas/112",
+  "width": 1640,
+  "height": 2698
+ },
+ "kind": "text",
+ "running_header": "II. Das Volk.",
+ "signature": null,
+ "blocks": [
+  {
+   "id": "b1",
+   "type": "heading",
+   "src": 0,
+   "text": "Procentverhältnisse der Bevölkerung nach Geschlechtern und Altersklassen:",
+   "spans": [],
+   "sec": "t1-2-1",
+   "level": 5
+  },
+  {
+   "id": "b2",
+   "type": "table",
+   "src": 1,
+   "n_cols": 9,
+   "header_rows": 3,
+   "rows": [
+    {
+     "role": "header",
+     "cells": [
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "Ueber 14jährige",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "Unter 14jährige",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "Gesammt= bevölkerung",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "header",
+     "cells": [
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "männl.",
+       "spans": []
+      },
+      {
+       "text": "weibl.",
+       "spans": []
+      },
+      {
+       "text": "zus.",
+       "spans": []
+      },
+      {
+       "text": "männl.",
+       "spans": []
+      },
+      {
+       "text": "weibl.",
+       "spans": []
+      },
+      {
+       "text": "zus.",
+       "spans": []
+      },
+      {
+       "text": "männl.",
+       "spans": []
+      },
+      {
+       "text": "weibl.",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "header",
+     "cells": [
+      {
+       "text": "Städtische Bevölkerung.",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1867",
+       "spans": []
+      },
+      {
+       "text": "33,82",
+       "spans": []
+      },
+      {
+       "text": "34,40",
+       "spans": []
+      },
+      {
+       "text": "68,22",
+       "spans": []
+      },
+      {
+       "text": "16,03",
+       "spans": []
+      },
+      {
+       "text": "15,75",
+       "spans": []
+      },
+      {
+       "text": "31,78",
+       "spans": []
+      },
+      {
+       "text": "49,85",
+       "spans": []
+      },
+      {
+       "text": "50,15",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "total",
+     "cells": [
+      {
+       "text": "Durchschnitt von 1837—1867 .",
+       "spans": []
+      },
+      {
+       "text": "34,17",
+       "spans": []
+      },
+      {
+       "text": "34,76",
+       "spans": []
+      },
+      {
+       "text": "68,93",
+       "spans": []
+      },
+      {
+       "text": "15,41",
+       "spans": []
+      },
+      {
+       "text": "15,66",
+       "spans": []
+      },
+      {
+       "text": "31,07",
+       "spans": []
+      },
+      {
+       "text": "49,58",
+       "spans": []
+      },
+      {
+       "text": "50,42",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "group",
+     "cells": [
+      {
+       "text": "Ländliche Bevölkerung.",
+       "spans": [],
+       "colspan": 9
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1867",
+       "spans": []
+      },
+      {
+       "text": "31,78",
+       "spans": []
+      },
+      {
+       "text": "34,25",
+       "spans": []
+      },
+      {
+       "text": "66,03",
+       "spans": []
+      },
+      {
+       "text": "16,93",
+       "spans": []
+      },
+      {
+       "text": "17,04",
+       "spans": []
+      },
+      {
+       "text": "33,97",
+       "spans": []
+      },
+      {
+       "text": "48,71",
+       "spans": []
+      },
+      {
+       "text": "51,29",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "total",
+     "cells": [
+      {
+       "text": "Durchschnitt von 1837—1867 .",
+       "spans": []
+      },
+      {
+       "text": "31,98",
+       "spans": []
+      },
+      {
+       "text": "34,57",
+       "spans": []
+      },
+      {
+       "text": "66,55",
+       "spans": []
+      },
+      {
+       "text": "16,87",
+       "spans": []
+      },
+      {
+       "text": "16,58",
+       "spans": []
+      },
+      {
+       "text": "33,45",
+       "spans": []
+      },
+      {
+       "text": "48,85",
+       "spans": []
+      },
+      {
+       "text": "51,15",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "group",
+     "cells": [
+      {
+       "text": "Das Fürstenthum.",
+       "spans": [],
+       "colspan": 9
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1867",
+       "spans": []
+      },
+      {
+       "text": "32,45",
+       "spans": []
+      },
+      {
+       "text": "34,30",
+       "spans": []
+      },
+      {
+       "text": "66,75",
+       "spans": []
+      },
+      {
+       "text": "16,63",
+       "spans": []
+      },
+      {
+       "text": "16,62",
+       "spans": []
+      },
+      {
+       "text": "33,25",
+       "spans": []
+      },
+      {
+       "text": "49,08",
+       "spans": []
+      },
+      {
+       "text": "50,92",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "total",
+     "cells": [
+      {
+       "text": "Durchschnitt von 1837—1867 .",
+       "spans": []
+      },
+      {
+       "text": "32,74",
+       "spans": []
+      },
+      {
+       "text": "34,74",
+       "spans": []
+      },
+      {
+       "text": "67,48",
+       "spans": []
+      },
+      {
+       "text": "16,38",
+       "spans": []
+      },
+      {
+       "text": "16,14",
+       "spans": []
+      },
+      {
+       "text": "32,52",
+       "spans": []
+      },
+      {
+       "text": "49,12",
+       "spans": []
+      },
+      {
+       "text": "50,88",
+       "spans": []
+      }
+     ]
+    }
+   ],
+   "grid": [
+    [
+     "",
+     "Ueber 14jährige",
+     "",
+     "",
+     "Unter 14jährige",
+     "",
+     "",
+     "Gesammt= bevölkerung",
+     ""
+    ],
+    [
+     "",
+     "männl.",
+     "weibl.",
+     "zus.",
+     "männl.",
+     "weibl.",
+     "zus.",
+     "männl.",
+     "weibl."
+    ],
+    [
+     "Städtische Bevölkerung.",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "1867 . . . . . .",
+     "33,82",
+     "34,40",
+     "68,22",
+     "16,03",
+     "15,75",
+     "31,78",
+     "49,85",
+     "50,15"
+    ],
+    [
+     "Durchschnitt von 1837—1867 .",
+     "34,17",
+     "34,76",
+     "68,93",
+     "15,41",
+     "15,66",
+     "31,07",
+     "49,58",
+     "50,42"
+    ],
+    [
+     "Ländliche Bevölkerung.",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "1867 . . . . . .",
+     "31,78",
+     "34,25",
+     "66,03",
+     "16,93",
+     "17,04",
+     "33,97",
+     "48,71",
+     "51,29"
+    ],
+    [
+     "Durchschnitt von 1837—1867 .",
+     "31,98",
+     "34,57",
+     "66,55",
+     "16,87",
+     "16,58",
+     "33,45",
+     "48,85",
+     "51,15"
+    ],
+    [
+     "Das Fürstenthum.",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "1867 . . . . . .",
+     "32,45",
+     "34,30",
+     "66,75",
+     "16,63",
+     "16,62",
+     "33,25",
+     "49,08",
+     "50,92"
+    ],
+    [
+     "Durchschnitt von 1837—1867 .",
+     "32,74",
+     "34,74",
+     "67,48",
+     "16,38",
+     "16,14",
+     "32,52",
+     "49,12",
+     "50,88"
+    ]
+   ],
+   "caption": null,
+   "sec": "t1-2-1"
+  },
+  {
+   "id": "b3",
+   "type": "paragraph",
+   "src": 2,
+   "text": "Sonach macht im Durchschnitt die Bevölkerung über 14 Jahre etwas mehr als 2/3, die unter 14 Jahren etwas weniger als 1/3 der Gesammtbevölkerung des Landes aus, jene aber ist im Vergleich zu der bezüglichen Bevölkerung der übrigen Staaten Thüringens um 1 Procent geringer, diese um 1 Procent höher. Dagegen steht in Einklang mit den thüringischen und mit anderen Staaten, daß die Bevölkerung des Fürstenthums über 14 Jahre größer ist in den Städten als auf dem Lande und umgekehrt die unter 14 Jahren dort eine kleinere, hier eine größere Zahl aufweist. Bekanntlich erklärt sich dies aus dem zahlreichen Uebersiedeln der ländlichen Bevölkerung von 14 bis 30 Jahren nach den Städten und aus der geringeren Kindersterblichkeit auf dem Lande. Ebenso in Uebereinstimmung mit anderen Staaten zeigt sich im Ganzen das weibliche Geschlecht in den Städten und auf dem Lande überzähliger als das männliche. Ein Unterschied tritt aber ein, wenn man die verschiedenen Altersklassen in's Auge faßt. Während nämlich in den Städten die Geschlechter über und unter 14 Jahren fast gleichzählig sind, überwiegt auf dem Lande bei der Altersklasse über 14 Jahre die weibliche Zahl bedeutend die der Männer, dagegen ist durchschnittlich die Zahl der Mädchen geringer als die der Knaben. Jenes hat vornehmlich seinen Grund in der stärkeren Auswanderung und rascheren Sterblichkeit der Männer, dieses in den zahlreicheren Geburten der Knaben.",
+   "spans": [
+    [
+     238,
+     248,
+     "Location"
+    ]
+   ],
+   "sec": "t1-2-1"
+  },
+  {
+   "id": "b4",
+   "type": "paragraph",
+   "src": 3,
+   "text": "9) Die Bevölkerung des Landes (1864) nach Geschlecht und Alter durch die einzelnen Lebensjahre:",
+   "spans": [],
+   "sec": "t1-2-1"
+  }
+ ],
+ "footnotes": [],
+ "corrections": [
+  {
+   "rule": "strip_dot_leaders"
+  },
+  {
+   "rule": "table_multirow_header",
+   "rows": 3,
+   "block": "b2"
+  },
+  {
+   "rule": "table_group_rows",
+   "n": 2,
+   "block": "b2"
+  }
+ ],
+ "provenance": {
+  "source": "colab-2026-03",
+  "model": "gemini-3-flash-preview",
+  "timestamp": "2026-03-03T15:09:12.716329",
+  "early_schema": false
+ },
+ "section_path": [
+  "t1",
+  "t1-2",
+  "t1-2-1"
+ ],
+ "sections": [
+  "t1-2-1"
+ ]
+}

@@ -1,0 +1,231 @@
+{
+ "seq": 10,
+ "label": "VI",
+ "slug": "VI",
+ "iiif": {
+  "service": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb11005578_00010",
+  "canvas": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11005578/canvas/10",
+  "width": 1596,
+  "height": 2703
+ },
+ "kind": "text",
+ "running_header": null,
+ "signature": null,
+ "blocks": [
+  {
+   "id": "b1",
+   "type": "paragraph",
+   "src": 0,
+   "text": "Engelhardt, Kreisgerichtsrath Müller und Hofbibliothekar Hahn durch ihre vielfachen Belehrungen bez. Correctur-Unterstützungen bei dem Drucke der Schrift, Professor Liebe durch die Bearbeitung des geognostischen Aufsatzes, Kammerrath Pätz, Cabinetsrath Schlick, die Landräthe Fuchs, Dr. Semmel und v. Strauch, die geistlichen Herrn Dr. Wittig, v. Criegern, Sturm, Beatus, Dr. Passolt, Mauke, Braun, Pätz, Rönsch, Garthe, Hüttig und Hölzer, Justizamtmann Jahn, die Bürgermeister zu Gera, Schleiz und Hirschberg, Schuldirector Lorey, Dr. Rob. Schmidt, Forstadjunct Walther, Rendant Mehlhorn, Stadtschreiber Teich, Lehrer Schwender und andere, welche die Landeskunde an verschiedenen Stellen namhaft macht.",
+   "spans": [
+    [
+     0,
+     10,
+     "Person"
+    ],
+    [
+     30,
+     36,
+     "Person"
+    ],
+    [
+     57,
+     61,
+     "Person"
+    ],
+    [
+     165,
+     170,
+     "Person"
+    ],
+    [
+     234,
+     238,
+     "Person"
+    ],
+    [
+     253,
+     260,
+     "Person"
+    ],
+    [
+     276,
+     281,
+     "Person"
+    ],
+    [
+     287,
+     293,
+     "Person"
+    ],
+    [
+     298,
+     308,
+     "Person"
+    ],
+    [
+     336,
+     342,
+     "Person"
+    ],
+    [
+     344,
+     355,
+     "Person"
+    ],
+    [
+     357,
+     362,
+     "Person"
+    ],
+    [
+     364,
+     370,
+     "Person"
+    ],
+    [
+     376,
+     383,
+     "Person"
+    ],
+    [
+     385,
+     390,
+     "Person"
+    ],
+    [
+     392,
+     397,
+     "Person"
+    ],
+    [
+     399,
+     403,
+     "Person"
+    ],
+    [
+     405,
+     411,
+     "Person"
+    ],
+    [
+     413,
+     419,
+     "Person"
+    ],
+    [
+     421,
+     427,
+     "Person"
+    ],
+    [
+     432,
+     438,
+     "Person"
+    ],
+    [
+     454,
+     458,
+     "Person"
+    ],
+    [
+     481,
+     485,
+     "Location"
+    ],
+    [
+     487,
+     494,
+     "Location"
+    ],
+    [
+     499,
+     509,
+     "Location"
+    ],
+    [
+     525,
+     530,
+     "Person"
+    ],
+    [
+     536,
+     548,
+     "Person"
+    ],
+    [
+     563,
+     570,
+     "Person"
+    ],
+    [
+     580,
+     588,
+     "Person"
+    ],
+    [
+     605,
+     610,
+     "Person"
+    ],
+    [
+     619,
+     628,
+     "Person"
+    ]
+   ],
+   "sec": "vorwort"
+  },
+  {
+   "id": "b2",
+   "type": "paragraph",
+   "src": 1,
+   "text": "Zugleich mit diesem Danke verbindet der Unterzeichnete den Wunsch, daß sein Werk zur Freude des huldvollen Landesfürsten und zum Nutzen des Volkes möge gearbeitet sein.",
+   "spans": [],
+   "sec": "vorwort"
+  },
+  {
+   "id": "b3",
+   "type": "paragraph",
+   "src": 2,
+   "text": "Meiningen, den 2. Februar 1870.",
+   "spans": [
+    [
+     0,
+     9,
+     "Location"
+    ]
+   ],
+   "sec": "vorwort"
+  },
+  {
+   "id": "b4",
+   "type": "paragraph",
+   "src": 3,
+   "text": "G. Brückner.",
+   "spans": [
+    [
+     0,
+     11,
+     "Person"
+    ]
+   ],
+   "sec": "vorwort"
+  }
+ ],
+ "footnotes": [],
+ "corrections": [],
+ "provenance": {
+  "source": "gapfill-2026-10",
+  "model": "gemini-3-flash-preview",
+  "timestamp": "2026-10-01T20:39:43.343226",
+  "early_schema": false
+ },
+ "section_path": [
+  "front",
+  "vorwort"
+ ],
+ "sections": [
+  "vorwort"
+ ]
+}

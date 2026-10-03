@@ -1,0 +1,941 @@
+{
+ "seq": 116,
+ "label": "104",
+ "slug": "104",
+ "iiif": {
+  "service": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb11005578_00116",
+  "canvas": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11005578/canvas/116",
+  "width": 1657,
+  "height": 2701
+ },
+ "kind": "text",
+ "running_header": "II. Das Volk.",
+ "signature": null,
+ "blocks": [
+  {
+   "id": "b1",
+   "type": "paragraph",
+   "src": 0,
+   "text": "Es geht daraus hervor, daß von den einzelnen Landestheilen Schleiz im Ganzen die größte, Gera die mittlere, mit dem ganzen Lande nahe zusammenstimmende, Lobenstein-Ebersdorf aber die kleinste Zahl der Verheiratheten besitzt; daß, wenn man die Städte mit den Landgemeinden vergleicht, jene mehr Geschiedene im Ganzen und im Einzelnen und mehr Verwittwete und weniger Verheirathete im Ganzen als diese haben, während im Einzelnen bezüglich der Verwittweten und Verheiratheten das Verhältniß verschieden ist und zwar ein starker Ueberschuß derselben im Landestheile Gera auf Seiten der Landgemeinden und im Landestheile Lobenstein-Ebersdorf auf Seiten der Städte besteht, dagegen im Landestheile Schleiz die Städte mehr Verwittwete und weniger Verheirathete als die Landgemeinden aufweisen; daß endlich unter den verglichenen Staaten S.-Weimar die größte, Würtemberg die kleinste, das Fürstenthum Reuß eine mittlere Zahl der Verheiratheten, dagegen etwas mehr als den mittleren Durchschnitt der Geschiedenen hat. Auch in Betreff der Verwittweten, von denen Preußen die kleinste und Schwarzburg-Rudolstadt die größte Ziffer enthält, behauptet Reuß das Mittelverhältniß.",
+   "spans": [
+    [
+     59,
+     66,
+     "Location"
+    ],
+    [
+     89,
+     93,
+     "Location"
+    ],
+    [
+     153,
+     173,
+     "Location"
+    ],
+    [
+     563,
+     567,
+     "Location"
+    ],
+    [
+     617,
+     637,
+     "Location"
+    ],
+    [
+     693,
+     700,
+     "Location"
+    ],
+    [
+     853,
+     863,
+     "Location"
+    ],
+    [
+     894,
+     898,
+     "Location"
+    ],
+    [
+     1054,
+     1061,
+     "Location"
+    ],
+    [
+     1079,
+     1101,
+     "Location"
+    ],
+    [
+     1139,
+     1143,
+     "Location"
+    ]
+   ],
+   "sec": "t1-2-1"
+  },
+  {
+   "id": "b2",
+   "type": "paragraph",
+   "src": 1,
+   "text": "Dem Alter nach vertheilen sich die Verheiratheten:",
+   "spans": [],
+   "sec": "t1-2-1"
+  },
+  {
+   "id": "b3",
+   "type": "table",
+   "src": 2,
+   "n_cols": 14,
+   "header_rows": 2,
+   "rows": [
+    {
+     "role": "header",
+     "cells": [
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "Ehepaare.",
+       "spans": []
+      },
+      {
+       "text": "Verheirathete Männer unter 30 J.",
+       "spans": []
+      },
+      {
+       "text": "Verheirathete Männer von 30-45",
+       "spans": []
+      },
+      {
+       "text": "Verheirathete Männer von 45-60",
+       "spans": []
+      },
+      {
+       "text": "Verheirathete Männer über 60 J.",
+       "spans": []
+      },
+      {
+       "text": "Verheirathete Frauen unter 30 J.",
+       "spans": []
+      },
+      {
+       "text": "Verheirathete Frauen von 30-45",
+       "spans": []
+      },
+      {
+       "text": "Verheirathete Frauen von 45-60",
+       "spans": []
+      },
+      {
+       "text": "Verheirathete Frauen über 60 J.",
+       "spans": []
+      },
+      {
+       "text": "Gesammtverheirathete unter 30 J.",
+       "spans": []
+      },
+      {
+       "text": "Gesammtverheirathete von 30-45",
+       "spans": []
+      },
+      {
+       "text": "Gesammtverheirathete von 45-60",
+       "spans": []
+      },
+      {
+       "text": "Gesammtverheirathete über 60 J.",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "header",
+     "cells": [
+      {
+       "text": "Absolut.",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Städte .",
+       "spans": []
+      },
+      {
+       "text": "4340",
+       "spans": []
+      },
+      {
+       "text": "466",
+       "spans": []
+      },
+      {
+       "text": "1927",
+       "spans": []
+      },
+      {
+       "text": "1387",
+       "spans": []
+      },
+      {
+       "text": "560",
+       "spans": []
+      },
+      {
+       "text": "844",
+       "spans": []
+      },
+      {
+       "text": "1977",
+       "spans": []
+      },
+      {
+       "text": "1178",
+       "spans": []
+      },
+      {
+       "text": "341",
+       "spans": []
+      },
+      {
+       "text": "1310",
+       "spans": []
+      },
+      {
+       "text": "3904",
+       "spans": []
+      },
+      {
+       "text": "2565",
+       "spans": []
+      },
+      {
+       "text": "901",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Dörfer .",
+       "spans": []
+      },
+      {
+       "text": "9605",
+       "spans": []
+      },
+      {
+       "text": "1050",
+       "spans": []
+      },
+      {
+       "text": "4257",
+       "spans": []
+      },
+      {
+       "text": "3048",
+       "spans": []
+      },
+      {
+       "text": "1250",
+       "spans": []
+      },
+      {
+       "text": "1874",
+       "spans": []
+      },
+      {
+       "text": "4277",
+       "spans": []
+      },
+      {
+       "text": "2669",
+       "spans": []
+      },
+      {
+       "text": "785",
+       "spans": []
+      },
+      {
+       "text": "2924",
+       "spans": []
+      },
+      {
+       "text": "8534",
+       "spans": []
+      },
+      {
+       "text": "5717",
+       "spans": []
+      },
+      {
+       "text": "2035",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Fürstenthum",
+       "spans": []
+      },
+      {
+       "text": "13945",
+       "spans": []
+      },
+      {
+       "text": "1516",
+       "spans": []
+      },
+      {
+       "text": "6184",
+       "spans": []
+      },
+      {
+       "text": "4435",
+       "spans": []
+      },
+      {
+       "text": "1810",
+       "spans": []
+      },
+      {
+       "text": "2718",
+       "spans": []
+      },
+      {
+       "text": "6254",
+       "spans": []
+      },
+      {
+       "text": "3847",
+       "spans": []
+      },
+      {
+       "text": "1126",
+       "spans": []
+      },
+      {
+       "text": "4234",
+       "spans": []
+      },
+      {
+       "text": "12438",
+       "spans": []
+      },
+      {
+       "text": "8282",
+       "spans": []
+      },
+      {
+       "text": "2936",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "group",
+     "cells": [
+      {
+       "text": "Procent.",
+       "spans": [],
+       "colspan": 14
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Städte .",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "35,60",
+       "spans": []
+      },
+      {
+       "text": "74,06",
+       "spans": []
+      },
+      {
+       "text": "79,12",
+       "spans": []
+      },
+      {
+       "text": "60,48",
+       "spans": []
+      },
+      {
+       "text": "25,55",
+       "spans": []
+      },
+      {
+       "text": "72,10",
+       "spans": []
+      },
+      {
+       "text": "62,89",
+       "spans": []
+      },
+      {
+       "text": "31,08",
+       "spans": []
+      },
+      {
+       "text": "28,40",
+       "spans": []
+      },
+      {
+       "text": "73,05",
+       "spans": []
+      },
+      {
+       "text": "70,74",
+       "spans": []
+      },
+      {
+       "text": "44,54",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Dörfer .",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "41,22",
+       "spans": []
+      },
+      {
+       "text": "78,27",
+       "spans": []
+      },
+      {
+       "text": "82,20",
+       "spans": []
+      },
+      {
+       "text": "59,81",
+       "spans": []
+      },
+      {
+       "text": "27,01",
+       "spans": []
+      },
+      {
+       "text": "75,99",
+       "spans": []
+      },
+      {
+       "text": "63,31",
+       "spans": []
+      },
+      {
+       "text": "33,55",
+       "spans": []
+      },
+      {
+       "text": "30,82",
+       "spans": []
+      },
+      {
+       "text": "77,11",
+       "spans": []
+      },
+      {
+       "text": "73,62",
+       "spans": []
+      },
+      {
+       "text": "45,44",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Fürstenthum",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "39,32",
+       "spans": []
+      },
+      {
+       "text": "76,91",
+       "spans": []
+      },
+      {
+       "text": "81,21",
+       "spans": []
+      },
+      {
+       "text": "60,01",
+       "spans": []
+      },
+      {
+       "text": "26,54",
+       "spans": []
+      },
+      {
+       "text": "74,72",
+       "spans": []
+      },
+      {
+       "text": "64,86",
+       "spans": []
+      },
+      {
+       "text": "32,76",
+       "spans": []
+      },
+      {
+       "text": "30,03",
+       "spans": []
+      },
+      {
+       "text": "75,79",
+       "spans": []
+      },
+      {
+       "text": "72,70",
+       "spans": []
+      },
+      {
+       "text": "45,50",
+       "spans": []
+      }
+     ]
+    }
+   ],
+   "grid": [
+    [
+     "",
+     "Ehepaare.",
+     "Verheirathete Männer unter 30 J.",
+     "Verheirathete Männer von 30-45",
+     "Verheirathete Männer von 45-60",
+     "Verheirathete Männer über 60 J.",
+     "Verheirathete Frauen unter 30 J.",
+     "Verheirathete Frauen von 30-45",
+     "Verheirathete Frauen von 45-60",
+     "Verheirathete Frauen über 60 J.",
+     "Gesammtverheirathete unter 30 J.",
+     "Gesammtverheirathete von 30-45",
+     "Gesammtverheirathete von 45-60",
+     "Gesammtverheirathete über 60 J."
+    ],
+    [
+     "Absolut.",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Städte .",
+     "4340",
+     "466",
+     "1927",
+     "1387",
+     "560",
+     "844",
+     "1977",
+     "1178",
+     "341",
+     "1310",
+     "3904",
+     "2565",
+     "901"
+    ],
+    [
+     "Dörfer .",
+     "9605",
+     "1050",
+     "4257",
+     "3048",
+     "1250",
+     "1874",
+     "4277",
+     "2669",
+     "785",
+     "2924",
+     "8534",
+     "5717",
+     "2035"
+    ],
+    [
+     "Fürstenthum",
+     "13945",
+     "1516",
+     "6184",
+     "4435",
+     "1810",
+     "2718",
+     "6254",
+     "3847",
+     "1126",
+     "4234",
+     "12438",
+     "8282",
+     "2936"
+    ],
+    [
+     "Procent.",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Städte .",
+     "—",
+     "35,60",
+     "74,06",
+     "79,12",
+     "60,48",
+     "25,55",
+     "72,10",
+     "62,89",
+     "31,08",
+     "28,40",
+     "73,05",
+     "70,74",
+     "44,54"
+    ],
+    [
+     "Dörfer .",
+     "—",
+     "41,22",
+     "78,27",
+     "82,20",
+     "59,81",
+     "27,01",
+     "75,99",
+     "63,31",
+     "33,55",
+     "30,82",
+     "77,11",
+     "73,62",
+     "45,44"
+    ],
+    [
+     "Fürstenthum",
+     "—",
+     "39,32",
+     "76,91",
+     "81,21",
+     "60,01",
+     "26,54",
+     "74,72",
+     "64,86",
+     "32,76",
+     "30,03",
+     "75,79",
+     "72,70",
+     "45,50"
+    ]
+   ],
+   "caption": null,
+   "sec": "t1-2-1"
+  },
+  {
+   "id": "b4",
+   "type": "paragraph",
+   "src": 3,
+   "text": "Abgesehen davon, daß die Zahl der Verheiratheten auf dem Lande die der Städte überwiegt, ist die Ziffer der verheiratheten Männer in allen ehelichen Altersklassen stärker als die der verheiratheten Weiber, was seinen Grund in der ungleichen Zahl der beiden heirathsfähigen Geschlechter und überdies darin hat, daß der verwittwete Mann leichter eine neue Ehe gründen kann als die Wittwe.",
+   "spans": [],
+   "sec": "t1-2-1"
+  },
+  {
+   "id": "b5",
+   "type": "paragraph",
+   "src": 4,
+   "text": "Von großem Interesse ist die Vergleichung der Ehen von gleichen mit den Ehen von ungleichen Altersklassen *):",
+   "spans": [],
+   "sec": "t1-2-1"
+  },
+  {
+   "id": "b6",
+   "type": "table",
+   "src": 5,
+   "n_cols": 11,
+   "header_rows": 1,
+   "rows": [
+    {
+     "role": "header",
+     "cells": [
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "Der Mann an Alter überwiegend. Ehen gleicher Altersklasse.",
+       "spans": []
+      },
+      {
+       "text": "Der Mann an Alter überwiegend. Ehen mit einem Unterschiede von einer Altersklasse.",
+       "spans": []
+      },
+      {
+       "text": "Der Mann an Alter überwiegend. Ehen mit einem Unterschiede von zwei Altersklassen.",
+       "spans": []
+      },
+      {
+       "text": "Der Mann an Alter überwiegend. Ehen mit einem Unterschiede von drei Altersklassen.",
+       "spans": []
+      },
+      {
+       "text": "Der Mann an Alter überwiegend. zusammen.",
+       "spans": []
+      },
+      {
+       "text": "Die Frau an Alter überwiegend. Ehen gleicher Altersklasse.",
+       "spans": []
+      },
+      {
+       "text": "Die Frau an Alter überwiegend. Ehen mit einem Unterschiede von einer Altersklasse.",
+       "spans": []
+      },
+      {
+       "text": "Die Frau an Alter überwiegend. Ehen mit einem Unterschiede von zwei Altersklassen.",
+       "spans": []
+      },
+      {
+       "text": "Die Frau an Alter überwiegend. Ehen mit einem Unterschiede von drei Altersklassen.",
+       "spans": []
+      },
+      {
+       "text": "Die Frau an Alter überwiegend. zusammen.",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Es kommen auf 1000 Ehen",
+       "spans": []
+      },
+      {
+       "text": "503,6",
+       "spans": []
+      },
+      {
+       "text": "262,6",
+       "spans": []
+      },
+      {
+       "text": "9,1",
+       "spans": []
+      },
+      {
+       "text": "0,3",
+       "spans": []
+      },
+      {
+       "text": "775,6",
+       "spans": []
+      },
+      {
+       "text": "169,9",
+       "spans": []
+      },
+      {
+       "text": "53,9",
+       "spans": []
+      },
+      {
+       "text": "0,6",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "224,4",
+       "spans": []
+      }
+     ]
+    }
+   ],
+   "grid": [
+    [
+     "",
+     "Der Mann an Alter überwiegend. Ehen gleicher Altersklasse.",
+     "Der Mann an Alter überwiegend. Ehen mit einem Unterschiede von einer Altersklasse.",
+     "Der Mann an Alter überwiegend. Ehen mit einem Unterschiede von zwei Altersklassen.",
+     "Der Mann an Alter überwiegend. Ehen mit einem Unterschiede von drei Altersklassen.",
+     "Der Mann an Alter überwiegend. zusammen.",
+     "Die Frau an Alter überwiegend. Ehen gleicher Altersklasse.",
+     "Die Frau an Alter überwiegend. Ehen mit einem Unterschiede von einer Altersklasse.",
+     "Die Frau an Alter überwiegend. Ehen mit einem Unterschiede von zwei Altersklassen.",
+     "Die Frau an Alter überwiegend. Ehen mit einem Unterschiede von drei Altersklassen.",
+     "Die Frau an Alter überwiegend. zusammen."
+    ],
+    [
+     "Es kommen auf 1000 Ehen",
+     "503,6",
+     "262,6",
+     "9,1",
+     "0,3",
+     "775,6",
+     "169,9",
+     "53,9",
+     "0,6",
+     "—",
+     "224,4"
+    ]
+   ],
+   "caption": null,
+   "sec": "t1-2-1"
+  }
+ ],
+ "footnotes": [
+  {
+   "id": "fn1",
+   "marker": "*)",
+   "text": "Hildebrand, Statistik Thüringens I, 2. u. 3. Heft, wo das Ausführliche sich vorfindet.",
+   "spans": [
+    [
+     0,
+     10,
+     "Person"
+    ],
+    [
+     22,
+     32,
+     "Location"
+    ]
+   ]
+  }
+ ],
+ "corrections": [
+  {
+   "rule": "table_multirow_header",
+   "rows": 2,
+   "block": "b3"
+  },
+  {
+   "rule": "table_group_rows",
+   "n": 1,
+   "block": "b3"
+  }
+ ],
+ "provenance": {
+  "source": "colab-2026-03",
+  "model": "gemini-3-flash-preview",
+  "timestamp": "2026-03-03T15:10:51.655835",
+  "early_schema": false
+ },
+ "section_path": [
+  "t1",
+  "t1-2",
+  "t1-2-1"
+ ],
+ "sections": [
+  "t1-2-1"
+ ]
+}

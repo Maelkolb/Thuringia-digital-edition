@@ -1,0 +1,773 @@
+{
+ "seq": 32,
+ "label": "20",
+ "slug": "20",
+ "iiif": {
+  "service": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb11005578_00032",
+  "canvas": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11005578/canvas/32",
+  "width": 1622,
+  "height": 2705
+ },
+ "kind": "text",
+ "running_header": "I. Die Natur des Landes.",
+ "signature": null,
+ "blocks": [
+  {
+   "id": "b1",
+   "type": "paragraph",
+   "src": 0,
+   "text": "beide früher reichenfelser Gebiete, jetzt dreiherrisch, kleinstentheils zu Weimar, größtentheils zu Greiz und Schleiz gehörig, bilden zwei schmale, aber hochrückige, nordwärts und parallel gestreckte Landzungen, jenes zwischen der Weida und Triebes, dieses zwischen der Triebes und Leuba aufgebaut. In ihrer Stellung zum Oberlande sind sie dessen nördlichste, niedrigste, daher das Unterland genannte Terrassen, demungeachtet hoch genug gethürmt, daß ihre Spitzen nach Thüringen und über das Voigtland zum Erzgebirge schauen. Ihre Orte liegen theils auf den meist mageren Rücken der Plateau's, theils in den ergiebigeren Thälern. Unter den diesseitigen Haupthöhen sind nennenswerth zuerst auf dem ziegenrücker Plateau in der Richtung von Leitlitz nach Triebes der Brand, das Erlich, Stäudig, die Buchleite, der Hasenbühl, Mühlberg, die schöne Höhe, der Mühlberg, Römersberg, Küchenbühl, die Ueberschaar, der Lindenberg, Taubenhügel, Leitenberg, Buchberg, Laiz, Wachholderhügel, Sonneberg, Teufelsberg, Tümmler, die Bisselkoppe, der Oelsch, Weidenberg, Steinhügel und die Höhe; auf dem hohenleubener Plateau um Hohenleuben der Schlegel, Lausehügel, Weinberg, Amselberg, Reichenfels und Kienberg (Kühnberg), bei Triebes der Sandberg und Lerchenhügel, bei Niederböhmsdorf der Brand und die obere und untere Hart und im Pöllwitzwalde der Vogelberg, Ochsenberg und Lerchenberg. Jenseits der Leuba liegen bei Langenwetzendorf die Hart, der Schieferberg und Töpferberg.",
+   "spans": [
+    [
+     75,
+     81,
+     "Location"
+    ],
+    [
+     100,
+     105,
+     "Location"
+    ],
+    [
+     110,
+     117,
+     "Location"
+    ],
+    [
+     231,
+     236,
+     "Natural Object"
+    ],
+    [
+     241,
+     248,
+     "Natural Object"
+    ],
+    [
+     282,
+     287,
+     "Natural Object"
+    ],
+    [
+     469,
+     478,
+     "Location"
+    ],
+    [
+     492,
+     501,
+     "Location"
+    ],
+    [
+     506,
+     516,
+     "Natural Object"
+    ],
+    [
+     697,
+     717,
+     "Natural Object"
+    ],
+    [
+     764,
+     769,
+     "Natural Object"
+    ],
+    [
+     908,
+     918,
+     "Natural Object"
+    ],
+    [
+     1085,
+     1106,
+     "Natural Object"
+    ],
+    [
+     1110,
+     1121,
+     "Location"
+    ],
+    [
+     1316,
+     1329,
+     "Natural Object"
+    ]
+   ],
+   "continued": true,
+   "sec": "t1-1-4"
+  },
+  {
+   "id": "b2",
+   "type": "heading",
+   "src": 1,
+   "text": "Die Höhe der bewohnten Punkte des Oberlandes:",
+   "spans": [],
+   "sec": "t1-1-4",
+   "level": 5
+  },
+  {
+   "id": "b3",
+   "type": "table",
+   "src": 2,
+   "n_cols": 2,
+   "header_rows": 0,
+   "rows": [
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Schloßmühle bei Reichenfels 800'.",
+       "spans": [
+        [
+         16,
+         27,
+         "Location"
+        ],
+        [
+         0,
+         11,
+         "Artefact"
+        ]
+       ]
+      },
+      {
+       "text": "Neue Mühle a. d. Sormitz 1040'.",
+       "spans": [
+        [
+         0,
+         10,
+         "Artefact"
+        ],
+        [
+         17,
+         24,
+         "Natural Object"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Neue Mühle bei Hohenleuben 800'.",
+       "spans": []
+      },
+      {
+       "text": "Neue Hammer a. d. Saale 1042'.",
+       "spans": [
+        [
+         0,
+         11,
+         "Artefact"
+        ],
+        [
+         18,
+         23,
+         "Natural Object"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Sichelmühle 850'.",
+       "spans": [
+        [
+         0,
+         11,
+         "Artefact"
+        ]
+       ]
+      },
+      {
+       "text": "Gottliebsthal, Saale 1048'.",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Langenwetzendorf 875—1075'.",
+       "spans": []
+      },
+      {
+       "text": "Spaniershammer 1050'.",
+       "spans": [
+        [
+         0,
+         14,
+         "Artefact"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Hungriger Wolf 1023'.",
+       "spans": [
+        [
+         0,
+         14,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "Weißendorf 1050—1100'.",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Starkmühle 890'.",
+       "spans": []
+      },
+      {
+       "text": "Drahtmühle a. d. Sormitz 1054'.",
+       "spans": [
+        [
+         0,
+         10,
+         "Artefact"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Triebes 895—980'.",
+       "spans": []
+      },
+      {
+       "text": "Hirschbach 1072—1090'.",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "obere Häuser nach Weißendorf 960'.",
+       "spans": []
+      },
+      {
+       "text": "Leitlitz 1075—1160'.",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "obere Häuser nach Hohenleuben 980'.",
+       "spans": []
+      },
+      {
+       "text": "Dorfsmitte am Bache 1112,9'.",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Kirche 938'.",
+       "spans": [
+        [
+         0,
+         6,
+         "Artefact"
+        ]
+       ]
+      },
+      {
+       "text": "Saalburg 1075—1140'.",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Mündung des Schmidtsgrundes in Langenwetzendorf 900'.",
+       "spans": []
+      },
+      {
+       "text": "Kirche 1103'.",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Sörbitzmühle a. d. Weida 920'.",
+       "spans": [
+        [
+         0,
+         29,
+         "Artefact"
+        ]
+       ]
+      },
+      {
+       "text": "Zschachenmühle bei Gahma 1080'.",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Riedelmühle 925'.",
+       "spans": []
+      },
+      {
+       "text": "Harra 1080—1290'.",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Rettungshaus bei Hohenleuben 950'.",
+       "spans": [
+        [
+         0,
+         12,
+         "Artefact"
+        ]
+       ]
+      },
+      {
+       "text": "Kirche 1147'.",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Reichenfels (Fuß der Ruine) 975'.",
+       "spans": []
+      },
+      {
+       "text": "Lemnitzhammer 1088'.",
+       "spans": [
+        [
+         0,
+         13,
+         "Artefact"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Hohenleuben 975—1050'.",
+       "spans": []
+      },
+      {
+       "text": "Niederböhmsdorf 1095—1140'.",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Kirche Thkn. 1158'.",
+       "spans": []
+      },
+      {
+       "text": "Neupöllwitz 1098'.",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Saalhäuser bei Saalburg 980'.",
+       "spans": []
+      },
+      {
+       "text": "Schmidtsgut bei Leitlitz 1098'.",
+       "spans": [
+        [
+         0,
+         11,
+         "Artefact"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Weckersdorf 990—1040'.",
+       "spans": []
+      },
+      {
+       "text": "Blankenstein 1100—1150'.",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Chausseebrücke 998'.",
+       "spans": [
+        [
+         0,
+         14,
+         "Artefact"
+        ]
+       ]
+      },
+      {
+       "text": "Neuärgerniß 1116—1125'.",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Kleinwolschendorf 1015—1060'.",
+       "spans": []
+      },
+      {
+       "text": "Burkersdorf 1120—1175'.",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Dorfteich 1025'.",
+       "spans": [
+        [
+         0,
+         9,
+         "Artefact"
+        ]
+       ]
+      },
+      {
+       "text": "Dorfsmitte 1150'.",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Leitlitzmühle 1020'.",
+       "spans": []
+      },
+      {
+       "text": "Kranich, Mitte 1125'.",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Zscherlich 1025'.",
+       "spans": []
+      },
+      {
+       "text": "Görkwitz 1125—1175'.",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Pahren 1025—1060'.",
+       "spans": []
+      },
+      {
+       "text": "Rödersdorf 1125—1160'.",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Göttendorf 1025—1080'.",
+       "spans": []
+      },
+      {
+       "text": "Löhma 1132—1175'.",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Göschitz 1025—1070'.",
+       "spans": []
+      },
+      {
+       "text": "Schleiz, Wiesenthal 1138'.",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Langenwolschendorf 1030—1170'.",
+       "spans": []
+      },
+      {
+       "text": "Wiesenthalbrücke nach Greiz 1158'.",
+       "spans": [
+        [
+         0,
+         16,
+         "Artefact"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Kirche Thkn. 1281'.",
+       "spans": []
+      },
+      {
+       "text": "Haupttheil der Stadt 1150—1175'.",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "Schloß, Boden 1169,5'.",
+       "spans": [
+        [
+         0,
+         6,
+         "Artefact"
+        ]
+       ]
+      }
+     ]
+    }
+   ],
+   "grid": [
+    [
+     "Schloßmühle bei Reichenfels 800'.",
+     "Neue Mühle a. d. Sormitz 1040'."
+    ],
+    [
+     "Neue Mühle bei Hohenleuben 800'.",
+     "Neue Hammer a. d. Saale 1042'."
+    ],
+    [
+     "Sichelmühle 850'.",
+     "Gottliebsthal, Saale 1048'."
+    ],
+    [
+     "Langenwetzendorf 875—1075'.",
+     "Spaniershammer 1050'."
+    ],
+    [
+     "Hungriger Wolf 1023'.",
+     "Weißendorf 1050—1100'."
+    ],
+    [
+     "Starkmühle 890'.",
+     "Drahtmühle a. d. Sormitz 1054'."
+    ],
+    [
+     "Triebes 895—980'.",
+     "Hirschbach 1072—1090'."
+    ],
+    [
+     "obere Häuser nach Weißendorf 960'.",
+     "Leitlitz 1075—1160'."
+    ],
+    [
+     "obere Häuser nach Hohenleuben 980'.",
+     "Dorfsmitte am Bache 1112,9'."
+    ],
+    [
+     "Kirche 938'.",
+     "Saalburg 1075—1140'."
+    ],
+    [
+     "Mündung des Schmidtsgrundes in Langenwetzendorf 900'.",
+     "Kirche 1103'."
+    ],
+    [
+     "Törbizmühle a. d. Weida 920'.",
+     "Zschachenmühle bei Gahma 1080'."
+    ],
+    [
+     "Riedelmühle 925'.",
+     "Harra 1080—1290'."
+    ],
+    [
+     "Rettungshaus bei Hohenleuben 950'.",
+     "Kirche 1147'."
+    ],
+    [
+     "Reichenfels (Fuß der Ruine) 975'.",
+     "Lemnitzhammer 1088'."
+    ],
+    [
+     "Hohenleuben 975—1050'.",
+     "Niederböhmsdorf 1095—1140'."
+    ],
+    [
+     "Kirche Thkn. 1158'.",
+     "Neupöllwitz 1098'."
+    ],
+    [
+     "Saalhäuser bei Saalburg 980'.",
+     "Schmidtsgut bei Leitlitz 1098'."
+    ],
+    [
+     "Weckersdorf 990—1040'.",
+     "Blankenstein 1100—1150'."
+    ],
+    [
+     "Chausseebrücke 998'.",
+     "Neuärgerniß 1116—1125'."
+    ],
+    [
+     "Kleinwolschendorf 1015—1060'.",
+     "Burkersdorf 1120—1175'."
+    ],
+    [
+     "Dorfteich 1025'.",
+     "Dorfsmitte 1150'."
+    ],
+    [
+     "Leitlitzmühle 1020'.",
+     "Kranich, Mitte 1125'."
+    ],
+    [
+     "Zscherlich 1025'.",
+     "Görkwitz 1125—1175'."
+    ],
+    [
+     "Pahren 1025—1060'.",
+     "Rödersdorf 1125—1160'."
+    ],
+    [
+     "Göttendorf 1025—1080'.",
+     "Löhma 1132—1175'."
+    ],
+    [
+     "Göschitz 1025—1070'.",
+     "Schleiz, Wiesenthal 1138'."
+    ],
+    [
+     "Langenwolschendorf 1030—1170'.",
+     "Wiesenthalbrücke nach Greiz 1158'."
+    ],
+    [
+     "Kirche Thkn. 1281'.",
+     "Haupttheil der Stadt 1150—1175'."
+    ],
+    [
+     "",
+     "Schloß, Boden 1169,5'."
+    ]
+   ],
+   "caption": null,
+   "sec": "t1-1-4"
+  }
+ ],
+ "footnotes": [],
+ "corrections": [
+  {
+   "rule": "facsimile_correction",
+   "before": "Törbizmühle a. d. Weida 920'",
+   "after": "Sörbitzmühle a. d. Weida 920'",
+   "source": "relief-hoehen",
+   "n": 1
+  },
+  {
+   "rule": "table_no_header_row",
+   "note": "first row is data (legacy edition rendered it as <th>)",
+   "block": "b3"
+  }
+ ],
+ "provenance": {
+  "source": "colab-2026-01",
+  "model": "gemini-3-flash-preview",
+  "timestamp": "2026-01-06T02:17:09.112580",
+  "early_schema": false
+ },
+ "section_path": [
+  "t1",
+  "t1-1",
+  "t1-1-4"
+ ],
+ "sections": [
+  "t1-1-4"
+ ]
+}

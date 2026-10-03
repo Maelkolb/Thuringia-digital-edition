@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de">
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="main">Volks- und Landeskunde des Fürstenthums Reuß j. L.</title>
+      <title type="sub">Digitale Edition, S. 400</title>
+      <author><persName ref="https://d-nb.info/gnd/119209217">Brückner, Georg</persName> (1800–1881)</author>
+      <editor><persName>Tobias Perschl</persName></editor><editor><persName>Markus Gerstmeier</persName></editor><editor><persName>Malte Rehbein</persName></editor>
+      <respStmt><resp>Automatische Transkription und Entitätenerkennung</resp><name>Google Gemini 3 Flash (2026)</name></respStmt>
+      <respStmt><resp>Layout-Korrektur, Register, Auswertungen, Edition</resp><persName>Tobias Perschl</persName><persName>Markus Gerstmeier</persName><persName>Malte Rehbein</persName><name>Claude (Anthropic)</name></respStmt>
+    </titleStmt>
+    <editionStmt><edition n="1.1">Version 1.1, <date when="2026-10-02">2026-10-02</date></edition></editionStmt>
+    <publicationStmt>
+      <publisher>Lehrstuhl für Computational Humanities, Universität Passau</publisher>
+      <date when="2026-10-02">2026</date>
+      <availability><licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0 (Transkription, Annotation, Daten). Faksimiles: Bayerische Staatsbibliothek München, NoC-NC 1.0.</licence></availability>
+    </publicationStmt>
+    <sourceDesc>
+      <bibl type="original">
+        <author>Brückner, Georg</author>
+        <title>Volks- und Landeskunde des Fürstenthums Reuß j. L. Im Auftrage des regierenden Landesfürsten verfaßt</title>
+        <pubPlace>Gera</pubPlace><publisher>Köhler</publisher><date when="1870">1870</date>
+        <extent>VIII, 840 S.</extent>
+        <idno type="URN">urn:nbn:de:bvb:12-bsb11005578-4</idno>
+        <idno type="BSB">bsb11005578</idno>
+        <idno type="shelfmark">München, Bayerische Staatsbibliothek, Germ.sp. 78 ld</idno>
+      </bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+    <projectDesc><p>Digitale Edition auf Grundlage einer automatischen Transkription des BSB-Digitalisats (Gemini 3 Flash, 2026), regelbasiert korrigiert und strukturiert; Register durch KI-Agenten bereinigt und mit Normdaten verknüpft.</p></projectDesc>
+    <editorialDecl>
+      <normalization><p>Historische Schreibung beibehalten; Umlaute modern (ä, ö, ü statt e-Superskript); langes s als s; Ligaturen aufgelöst.</p></normalization>
+      <hyphenation eol="none"><p>Silbentrennung am Zeilenende aufgelöst; am Seitenende erhaltene Trennungen sind über das Seitenende hinweg in einem Absatz zusammengeführt.</p></hyphenation>
+      <correction><p>Layoutfehler der automatischen Erkennung (Tabellenköpfe, Bogensignaturen, Trennstriche) sind regelbasiert korrigiert und je Seite protokolliert. Inhaltliche Druckfehler sind nicht korrigiert.</p></correction>
+    </editorialDecl>
+  </encodingDesc>
+  <profileDesc><langUsage><language ident="de">Deutsch (1870)</language></langUsage></profileDesc>
+  <revisionDesc><change when="2026-10-02">Version 1.1</change></revisionDesc>
+</teiHeader>
+<facsimile><surface xml:id="f0412" n="400" ulx="0" uly="0" lrx="1611" lry="2696"><graphic url="https://api.digitale-sammlungen.de/iiif/image/v2/bsb11005578_00412/full/full/0/default.jpg" mimeType="image/jpeg"/><zone xml:id="f0412-b3" type="block" ulx="310" uly="220" lrx="1375" lry="2385"/></surface></facsimile>
+<text><body><div type="page" n="400"><pb n="400" facs="#f0412"/>
+<fw type="header" place="top">V. Geschichte des Landes und seines Fürstenhauses.</fw>
+<ab type="heading" xml:id="p400-b1">Tab. XII.<lb/>Aeltere Linie.</ab>
+<p xml:id="p400-b2"><persName ref="#person-heinrich-d-ae-reuss-herr-zu-untergreiz-der-botschafter">Heinrich Reuß von Untergreiz</persName>, geb. 1506, + 1572. Gem.: 1) <persName ref="#person-agnes-v-beichlingen">Agnes von Beichlingen</persName>; 2) <persName ref="#person-barbara-v-metsch">Barbara v. Metsch</persName> zu <placeName ref="#place-schoenfeld">Schönfeld</placeName>, + 1580.</p>
+<table xml:id="p400-b3" facs="#f0412-b3" rows="4" cols="5"><row><cell><persName ref="#person-sabine">Sabine</persName>, geb. 1532, + 1597. Gem. <persName ref="#person-friedrich-von-schwarzburg-hohenlandsberg">Friedrich von Schwarzburg-Hohenlandsberg</persName>, + 1570.</cell><cell><persName ref="#person-heinrich-ii">Heinrich II.</persName>, Herr v. <placeName ref="#place-burgk">Burgk</placeName>, geb. 1542, + 1608. Gem.: 1) <persName ref="#person-judith-v-oettingen">Judith v. Oettingen</persName>, + 1573; 2) <persName ref="#person-anna-v-mansfeld-schraplau">Anna v. Mansfeld-Schraplau</persName>, + 1636. Haus Burgk.</cell><cell><persName ref="#person-heinrich-iii">Heinrich III.</persName>, g. 1546, + 1582.</cell><cell><persName ref="#person-heinrich-iv">Heinrich IV.</persName>, g. 1548, + 1572.</cell><cell><persName ref="#person-heinrich-v">Heinrich V.</persName>, Herr v. <placeName ref="#place-greiz">Greiz</placeName>, geb. 1549, + 1604. Gem. <persName ref="#person-marie-v-schoenburg-hartenstein">Marie v. Schönburg-Hartenstein</persName>, + 1628. Haus Greiz. s. Tab. XIII.</cell></row><row><cell><persName ref="#person-anna">Anna</persName>, g. 1536, + 1590.</cell><cell><persName ref="#person-heinrich-ii">Heinrich II.</persName>, Herr v. <placeName ref="#place-burgk">Burgk</placeName>, geb. 1575, + 1639. Gem. <persName ref="#person-magdalene-v-putbus">Magdalene v. Putbus</persName>. Haus Burgk.</cell><cell><persName ref="#person-heinrich-iii">Heinrich III.</persName>, geb. 1578, + (ermordet) 1616. Gem. <persName ref="#person-anna-magdalena-von-schoenburg">Anna Magdalena von Schönburg</persName> (Wittwe <persName ref="#person-schenk-von-lautenburg">Schenks von Lautenburg</persName>) + 1615.</cell><cell><persName ref="#person-heinrich-iv">Heinrich IV.</persName>, Herr v. <placeName ref="#place-doelau">Dölau</placeName>, geb. 1580, + 1636. Gem. <persName ref="#person-anna-genoveva-v-stolberg">Anna Genoveva v. Stolberg</persName>, + 1635. Haus Dölau.</cell><cell><persName ref="#person-judith-eva">Judith Eva</persName>, geb. 1614, + 1666. Gem. <persName ref="#person-wolfgang-heinrich-von-schoenburg-penig">Wolfgang Heinrich v. Schönburg-Penig</persName>, + 1657.</cell></row><row><cell><persName ref="#person-barbara">Barbara</persName>, g. 1540, + 1571.<lb/><lb/><persName ref="#person-heinrich-i">Heinrich I.</persName>, g. 1542, + 1572.</cell><cell><persName ref="#person-heinrich-i">Heinrich I.</persName>, g. 1574, + 1596.<lb/><lb/><persName ref="#person-johanne">Johanne</persName>, g. 1577, + 1656.</cell><cell><persName ref="#person-elisabeth-sibille">Elisabeth Sibille</persName>, geb. 1627, + 1703. Gem. <persName ref="#person-heinrich-ii-herr-von-burgk-haus-untergreiz-1634-1697">Heinrich Reuß II. zu Untergreiz und Burgk</persName>, + 1697.</cell><cell><persName ref="#person-heinrich-i">Heinrich I.</persName>, geb. u. + 1611.<lb/><lb/><persName ref="#person-heinrich-ii">Heinrich II.</persName>, geb. u. + 1612.<lb/><lb/>Stirbt aus.</cell><cell><persName ref="#person-anna-marie">Anna Marie</persName>, g. 1583, + 1636.<lb/><lb/><persName ref="#person-heinrich-v">Heinrich V.</persName>, geb. u. + 1584.<lb/><lb/><persName ref="#person-heinrich-vi">Heinrich VI.</persName>, g. 1587 + (?)</cell></row><row><cell><persName ref="#person-marie">Marie</persName>, g. 1526, + 1619.<lb/><lb/><persName ref="#person-agnes">Agnes</persName>, g. 1525, + 1608.</cell><cell><persName ref="#person-sophie-marie">Sophie Marie</persName>, geb. 1614, + 1690. Gem. F. <persName ref="#person-kaspar-von-schoenburg-glauchau-penig">Kaspar von Schönburg-Glauchau-Penig</persName> (Wittwer der <persName ref="#person-elisabeth-v-schoenburg-lichtenstein">Elisabeth v. Schönburg-Lichtenstein</persName>), + 1644.</cell><cell><persName ref="#person-heinrich-i">Heinrich I.</persName>, g. 1615, + 1631.<lb/><lb/><persName ref="#person-heinrich-ii">Heinrich II.</persName>, g. 1617, + 1640.<lb/><lb/><persName ref="#person-heinrich-iii">Heinrich III.</persName>, geb. 1618, + 1629.<lb/><lb/><persName ref="#person-anna-judith">Anna Judith</persName>, geb. 1619, + 1636.<lb/><lb/><persName ref="#person-heinrich-iv">Heinrich IV.</persName>, geb. 1621, + 1623.<lb/><lb/><persName ref="#person-magdalena">Magdalena</persName>, <persName ref="#person-agnes">Agnes</persName> geb. u. + 1623.<lb/><lb/><persName ref="#person-katharina-margar">Katharina Margar.</persName>, geb. u. + 1623.<lb/><lb/>Stirbt aus.</cell><cell><persName ref="#person-heinrich-i">Heinrich I.</persName>, geb. 1613, + 1635.</cell><cell></cell></row></table>
+</div></body></text>
+<standOff>
+<listPlace>
+<place xml:id="place-burgk"><placeName>Burgk</placeName><desc>Dorf</desc><location><geo>50.55603 11.71803</geo></location><idno type="GeoNames">https://www.geonames.org/2941226</idno><idno type="Wikidata">https://www.wikidata.org/entity/Q31925783</idno></place>
+<place xml:id="place-doelau"><placeName>Dölau</placeName><placeName type="modern">Greiz-Dölau</placeName><desc>Dorf</desc><location><geo>50.63079 12.18405</geo></location><idno type="GeoNames">https://www.geonames.org/2917734</idno></place>
+<place xml:id="place-greiz"><placeName>Greiz</placeName><desc>Stadt</desc><location><geo>50.65778 12.19918</geo></location><idno type="GeoNames">https://www.geonames.org/2917737</idno><idno type="Wikidata">https://www.wikidata.org/entity/Q502710</idno></place>
+<place xml:id="place-schoenfeld"><placeName>Schönfeld</placeName><desc>Dorf</desc></place>
+</listPlace>
+<listPerson>
+<person xml:id="person-agnes"><persName>Agnes</persName><note>ambiguous: several women of the Vogt/Reuß families (daughters, wives, nuns of Cronschwitz)</note></person>
+<person xml:id="person-agnes-v-beichlingen"><persName>Agnes v. Beichlingen</persName><note>1. Gemahlin Heinrichs d. ä. (1506–1572), Herrn zu Untergreiz</note></person>
+<person xml:id="person-anna"><persName>Anna</persName><note>ambiguous: many women named Anna in the genealogies of the Vogt and Reuß houses</note></person>
+<person xml:id="person-anna-genoveva-v-stolberg"><persName>Anna Genoveva v. Stolberg</persName><note>† 1635; Gemahlin Heinrichs IV., Herrn von Dölau</note></person>
+<person xml:id="person-anna-judith"><persName>Anna Judith</persName><note>geb. 1619, † 1636</note></person>
+<person xml:id="person-anna-magdalena-von-schoenburg"><persName>Anna Magdalena von Schönburg</persName><note>Wittwe Schenks von Lautenburg, † 1615; Gemahlin Heinrichs III. (ermordet 1616)</note></person>
+<person xml:id="person-anna-marie"><persName>Anna Marie</persName><note>ambiguous: several women of the house of Reuß (e.g. b. 1583, d. 1636; b. 1868)</note></person>
+<person xml:id="person-anna-v-mansfeld-schraplau"><persName>Anna v. Mansfeld-Schraplau</persName><note>† 1636; 2. Gemahlin Heinrichs von Burgk</note></person>
+<person xml:id="person-barbara"><persName>Barbara</persName><note>ambiguous: St. Barbara (S. 136), daughters of the Vogt families, nuns</note></person>
+<person xml:id="person-barbara-v-metsch"><persName>Barbara v. Metsch</persName><note>2. Gemahlin Heinrichs d. ä. von Untergreiz († 1580)</note></person>
+<person xml:id="person-elisabeth-sibille"><persName>Elisabeth Sibille</persName><note>geb. 1627, † 1703; Gem. Heinrichs II. zu Untergreiz und Burgk</note></person>
+<person xml:id="person-elisabeth-v-schoenburg-lichtenstein"><persName>Elisabeth v. Schönburg-Lichtenstein</persName><note>1. Gemahlin des F. Kaspar v. Schönburg-Glauchau-Penig</note></person>
+<person xml:id="person-friedrich-von-schwarzburg-hohenlandsberg"><persName>Friedrich von Schwarzburg-Hohenlandsberg</persName><note>† 1570; Gemahl der Sabine (1532–1597)</note></person>
+<person xml:id="person-heinrich-d-ae-reuss-herr-zu-untergreiz-der-botschafter"><persName>Heinrich d. ä. Reuß (Herr zu Untergreiz, der Botschafter)</persName><note>Heinrich d. ä. Reuß, ältester Sohn Heinrichs des Friedsamen, Herr zu Untergreiz, genannt Botschafter (Gesandtschaften für den Kurfürsten von Sachsen); geb. 1506, † 1572; Stifter der älteren Linie Reuß; verheiratet 1) mit Agnes von Beichlingen, 2) mit Barbara von Metsch; 1547 mit seinen Brüdern geächtet.</note></person>
+<person xml:id="person-heinrich-i"><persName>Heinrich I.</persName><note>ambiguous; refers to different persons. The numeral is counted afresh in every century and separately for the elder and younger line of Reuss (Brückner p. 376), so the same form denotes different princes; see the genealogical tables pp. 341-402. Includes King/Emperor Heinrich I. (the Fowler), Burggraf Heinrich I. von Plauen (1389-1429), Heinrich I. von Schleiz (1639-1692; 1695-1744), Heinrich I. von Obergreiz (1627-1681; 1693-1714) and a prince born 1803 (printed "I.", transcribed "L." on p. 399).</note></person>
+<person xml:id="person-heinrich-ii"><persName>Heinrich II.</persName><note>ambiguous; refers to different persons. The numeral is counted afresh in every century and separately for the elder and younger line of Reuss (Brückner p. 376), so the same form denotes different princes; see the genealogical tables pp. 341-402. Includes Burggraf Heinrich II. von Plauen (1429-1446), Heinrich II. von Gera (1602-1670), Heinrich II. von Burgk (two persons), Heinrich II. von Köstritz (1803-1852), Heinrich II. von Lobenstein (d. 1782) and Heinrich II. von Obergreiz (1696-1722).</note></person>
+<person xml:id="person-heinrich-ii-herr-von-burgk-haus-untergreiz-1634-1697"><persName>Heinrich II. (Herr von Burgk, Haus Untergreiz, 1634-1697)</persName><note>Heinrich II. von Burgk, Sohn Heinrichs V. von Untergreiz; geb. 1634, † 1697 ohne Erben; Sitz in Burgk; verheiratet mit Elise Sibille, Tochter Heinrichs II. von Burgk.</note><idno type="Wikidata">https://www.wikidata.org/entity/Q55909114</idno></person>
+<person xml:id="person-heinrich-iii"><persName>Heinrich III.</persName><note>ambiguous; refers to different persons. The numeral is counted afresh in every century and separately for the elder and younger line of Reuss (Brückner p. 376), so the same form denotes different princes; see the genealogical tables pp. 341-402. Includes Burggraf Heinrich III. von Plauen (1446-1482), Heinrich III. von Schleiz (1603-1640), Heinrich III. von Lobenstein (1648-1710), Heinrich III. von Untergreiz (1701-1768) and Heinrich III. von Burgk (d. 1640).</note></person>
+<person xml:id="person-heinrich-iv"><persName>Heinrich IV.</persName><note>ambiguous; refers to different persons. The numeral is counted afresh in every century and separately for the elder and younger line of Reuss (Brückner p. 376), so the same form denotes different princes; see the genealogical tables pp. 341-402. Includes Burggraf Heinrich IV. von Plauen (1482-1520), Heinrich IV. von Gera (1650-1686), Heinrich IV. von Obergreiz (1597-1629), Heinrich IV. von Untergreiz (1638-1675), Prince Heinrich IV. (b. 1821, Köstritz).</note></person>
+<person xml:id="person-heinrich-v"><persName>Heinrich V.</persName><note>ambiguous; refers to different persons. The numeral is counted afresh in every century and separately for the elder and younger line of Reuss (Brückner p. 376), so the same form denotes different princes; see the genealogical tables pp. 341-402. Mostly Burggraf Heinrich V. von Plauen (1508-1554; see the separate entry "Heinrich V. von Plauen"), but also Heinrich V. Reuß zu Greiz (1549-1604), Heinrich V. von Untergreiz (1602-1667), Heinrich V. von Rothenthal (1645-1698) and others.</note></person>
+<person xml:id="person-heinrich-vi"><persName>Heinrich VI.</persName><note>ambiguous; refers to different persons. The numeral is counted afresh in every century and separately for the elder and younger line of Reuss (Brückner p. 376), so the same form denotes different princes; see the genealogical tables pp. 341-402. Includes Emperor Heinrich VI. (Staufer), Burggraf Heinrich VI. von Plauen (1533-1568), Heinrich VI. von Köstritz (1707-1783), Heinrich VI. von Obergreiz (1649-1697) and others.</note></person>
+<person xml:id="person-johanne"><persName>Johanne</persName><note>geb. 1820; Gem. Ferdinand v. Carolath-Beuthen, verm. 1843</note></person>
+<person xml:id="person-judith-eva"><persName>Judith Eva</persName><note>geb. 1614, † 1666; Gem. Wolfgang Heinrich v. Schönburg-Penig</note></person>
+<person xml:id="person-judith-v-oettingen"><persName>Judith v. Oettingen</persName><note>† 1573; 1. Gemahlin Heinrichs II. von Burgk</note></person>
+<person xml:id="person-kaspar-von-schoenburg-glauchau-penig"><persName>Kaspar von Schönburg-Glauchau-Penig</persName><note>† 1644; Witwer der Elisabeth v. Schönburg-Lichtenstein; Gemahl der Sophie Marie</note></person>
+<person xml:id="person-katharina-margar"><persName>Katharina Margar.</persName><note>geboren und † 1623</note></person>
+<person xml:id="person-magdalena"><persName>Magdalena</persName><note>ambiguous: St. Magdalena (S. 136), daughters of the Vogt and Reuß houses (9 mentions)</note></person>
+<person xml:id="person-magdalene-v-putbus"><persName>Magdalene v. Putbus</persName><note>Gemahlin Heinrichs II. von Burgk (1575–1639)</note></person>
+<person xml:id="person-marie"><persName>Marie</persName><note>ambiguous: St. Mary (S. 186), a Marie wife of Nicol. v. Lobkowitz, others</note></person>
+<person xml:id="person-marie-v-schoenburg-hartenstein"><persName>Marie v. Schönburg-Hartenstein</persName><note>† 1628; Gemahlin Heinrichs V., Herrn v. Greiz (1549–1604)</note></person>
+<person xml:id="person-sabine"><persName>Sabine</persName><note>geb. 1532, † 1597; Gem. Friedrich von Schwarzburg-Hohenlandsberg</note></person>
+<person xml:id="person-schenk-von-lautenburg"><persName>Schenk von Lautenburg</persName><note>1. Gemahl der Anna Magdalena von Schönburg</note></person>
+<person xml:id="person-sophie-marie"><persName>Sophie Marie</persName><note>ambiguous: Sophie Marie b. 1675 d. 1748, Sophie Marie b. 1712 d. 1781 (m. Rochus Friedrich v. Lynar)</note></person>
+<person xml:id="person-wolfgang-heinrich-von-schoenburg-penig"><persName>Wolfgang Heinrich von Schönburg-Penig</persName><note>Wolfgang Heinrich von Schönburg-Penig, † 1657; verheiratet mit Judith Eva Reuß (1614-1666) (Tab. XII, S. 400).</note></person>
+</listPerson>
+</standOff>
+</TEI>

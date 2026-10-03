@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de">
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="main">Volks- und Landeskunde des Fürstenthums Reuß j. L.</title>
+      <title type="sub">Digitale Edition, S. 394</title>
+      <author><persName ref="https://d-nb.info/gnd/119209217">Brückner, Georg</persName> (1800–1881)</author>
+      <editor><persName>Tobias Perschl</persName></editor><editor><persName>Markus Gerstmeier</persName></editor><editor><persName>Malte Rehbein</persName></editor>
+      <respStmt><resp>Automatische Transkription und Entitätenerkennung</resp><name>Google Gemini 3 Flash (2026)</name></respStmt>
+      <respStmt><resp>Layout-Korrektur, Register, Auswertungen, Edition</resp><persName>Tobias Perschl</persName><persName>Markus Gerstmeier</persName><persName>Malte Rehbein</persName><name>Claude (Anthropic)</name></respStmt>
+    </titleStmt>
+    <editionStmt><edition n="1.1">Version 1.1, <date when="2026-10-02">2026-10-02</date></edition></editionStmt>
+    <publicationStmt>
+      <publisher>Lehrstuhl für Computational Humanities, Universität Passau</publisher>
+      <date when="2026-10-02">2026</date>
+      <availability><licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0 (Transkription, Annotation, Daten). Faksimiles: Bayerische Staatsbibliothek München, NoC-NC 1.0.</licence></availability>
+    </publicationStmt>
+    <sourceDesc>
+      <bibl type="original">
+        <author>Brückner, Georg</author>
+        <title>Volks- und Landeskunde des Fürstenthums Reuß j. L. Im Auftrage des regierenden Landesfürsten verfaßt</title>
+        <pubPlace>Gera</pubPlace><publisher>Köhler</publisher><date when="1870">1870</date>
+        <extent>VIII, 840 S.</extent>
+        <idno type="URN">urn:nbn:de:bvb:12-bsb11005578-4</idno>
+        <idno type="BSB">bsb11005578</idno>
+        <idno type="shelfmark">München, Bayerische Staatsbibliothek, Germ.sp. 78 ld</idno>
+      </bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+    <projectDesc><p>Digitale Edition auf Grundlage einer automatischen Transkription des BSB-Digitalisats (Gemini 3 Flash, 2026), regelbasiert korrigiert und strukturiert; Register durch KI-Agenten bereinigt und mit Normdaten verknüpft.</p></projectDesc>
+    <editorialDecl>
+      <normalization><p>Historische Schreibung beibehalten; Umlaute modern (ä, ö, ü statt e-Superskript); langes s als s; Ligaturen aufgelöst.</p></normalization>
+      <hyphenation eol="none"><p>Silbentrennung am Zeilenende aufgelöst; am Seitenende erhaltene Trennungen sind über das Seitenende hinweg in einem Absatz zusammengeführt.</p></hyphenation>
+      <correction><p>Layoutfehler der automatischen Erkennung (Tabellenköpfe, Bogensignaturen, Trennstriche) sind regelbasiert korrigiert und je Seite protokolliert. Inhaltliche Druckfehler sind nicht korrigiert.</p></correction>
+    </editorialDecl>
+  </encodingDesc>
+  <profileDesc><langUsage><language ident="de">Deutsch (1870)</language></langUsage></profileDesc>
+  <revisionDesc><change when="2026-10-02">Version 1.1</change></revisionDesc>
+</teiHeader>
+<facsimile><surface xml:id="f0406" n="394" ulx="0" uly="0" lrx="1570" lry="2692"><graphic url="https://api.digitale-sammlungen.de/iiif/image/v2/bsb11005578_00406/full/full/0/default.jpg" mimeType="image/jpeg"/><zone xml:id="f0406-b2" type="block" ulx="279" uly="224" lrx="1338" lry="2403"/></surface></facsimile>
+<text><body><div type="page" n="394"><pb n="394" facs="#f0406"/>
+<fw type="header" place="top">V. Geschichte des Landes und seines Fürstenhauses.</fw>
+<ab type="heading" xml:id="p394-b1">Tab. VI. <persName ref="#person-heinrich-von-gera">Heinrich von Gera</persName>, Gründer der jüngeren Linie Reuß, geb. 1530, † 1572.</ab>
+<table xml:id="p394-b2" facs="#f0406-b2" rows="7" cols="6"><row><cell><persName ref="#person-agnes">Agnes</persName>, geb. 1567, † 1588. Gem. <persName ref="#person-hugo-v-schoenburg">Hugo v. Schönburg</persName>, † 1606 als Gem. der Wild= u. Rheingräfin <persName ref="#person-katharina">Katharina</persName>.</cell><cell><persName ref="#person-anna">Anna</persName>, geb. 1568, † 1594.</cell><cell><persName ref="#person-dorothea">Dorothea</persName>, geb. 1570, † 1631. Gem.: 1) <persName ref="#person-georg-friedrich-v-hohenlohe-waldenburg">Georg Friedrich v. Hohenlohe=Waldenburg</persName>; 2) <persName ref="#person-wilhelm-v-limburg-speckfeld">Wilhelm v. Limburg=Speckfeld</persName>.</cell><cell><persName ref="#person-heinrich-posthumus">Heinrich Posthumus</persName>, geb. 10. Juni 1572, † 3. Decbr. 1635. Gem.: 1) <persName ref="#person-magdalena-von-hohenlohe">Magdalena von Hohenlohe</persName>, verm. 1594, † 1596. 2) <persName ref="#person-magdalena-v-schwarzburg-rudolstadt">Magdalena v. Schwarzburg=Rudolstadt</persName>, verm. 1597, † 1652.</cell><cell>null</cell><cell>null</cell></row><row><cell><persName ref="#person-dorothea-magdalena">Doro= thea Magda= lena</persName>, geb. 1595, † 1646. Gem. <persName ref="#person-georg-v-kirchberg">Georg v. Kirchberg</persName>.</cell><cell><persName ref="#person-jul-marie">Jul. Marie</persName>, geb. 1598, † 1650. Gem. <persName ref="#person-david-v-mansfeld">David v. Mansfeld</persName>.</cell><cell><persName ref="#person-agnes">Agnes</persName>, geb. 1600, † 1642. Gem. <persName ref="#person-ernst-ludwig-v-mansfeld">Ernst Ludwig v. Mansfeld</persName>.</cell><cell><persName ref="#person-elis-magdalena">Elis. Magdalena</persName>, geb. 1601, † 1641.</cell><cell><persName ref="#person-hedwig-sophia">Hedwig Sophia</persName>, geb. 1608, † 1653.</cell><cell><persName ref="#person-dorothea-sibille">Doro= thea Si= bille</persName>, geb. 1609, † 1631. Gem. <persName ref="#person-christian-schenk-v-tautenburg">Christian Schenk v. Tautenburg</persName>.</cell></row><row><cell><persName ref="#person-anna-katharina">Anna Katharina</persName>, geb. 1615, † 1681.</cell><cell><persName ref="#person-ernestine">Er= nestine</persName>, geb. 1618, † 1650. Gem. <persName ref="#person-otto-alb-v-schoenburg-hartenstein">Otto Alb. v. Schön= burg=Har= tenstein</persName>.</cell><cell><persName ref="#person-heinrich-i">Heinrich I.</persName>, g. u. † 1599.</cell><cell><persName ref="#person-heinrich-ii-reuss-zu-gera">Heinrich II. von Gera</persName>, geb. 1602, † 1670. Gem. <persName ref="#person-kath-elisie-v-schwarzburg">Kath. Elisie v. Schwarz= burg</persName>, † 1701.</cell><cell><persName ref="#person-heinrich-iii">Heinrich III.</persName>, Haupt der Linie <placeName ref="#place-schleiz">Schleiz</placeName>. Tab. VII.</cell><cell>H. IV., g. 1604, † 1628.<lb/>H. V., g. u. † 1606.<lb/>H. VI., g. u. † 1606.<lb/>H. VII., g. 1610, † 1611.<lb/>H. VIII., g. u. † 1613.</cell></row><row><cell><persName ref="#person-heinrich-ix">Heinrich IX.</persName>, geb. 1616, † 1666 als Herr v. <placeName ref="#place-schleiz">Schleiz</placeName>.</cell><cell><persName ref="#person-heinrich-x">Heinrich X.</persName>, Gründer der Linie <placeName ref="#place-lobenstein">Loben= stein</placeName>. Tab. VIII.</cell><cell><persName ref="#person-magdalena-sibille">Magdalena Sibille</persName>, geb. u. † 1645.</cell><cell>Tochter Prinz, geb. 1646.</cell><cell>Tochter Prinz, geb. 1647.</cell><cell>H. II., geb. u. † 1648.</cell></row><row><cell><persName ref="#person-juliane-dorothea">Juliane Dorothea</persName>, g. 1649, † 1686.</cell><cell><persName ref="#person-heinrich-iv">Heinrich IV.</persName> geb. 1650, † 1686. Gem. <persName ref="#person-anna-dorothea-von-schwarzburg-sondershausen">Anna Dorothea von Schwarzburg=Sondershausen</persName>.</cell><cell>H. VI., geb. 1651, † 1652.</cell><cell><persName ref="#person-christine-sibille">Christine Sibille</persName>, g. 1653, † 1686.</cell><cell>H. XIII., geb. 1673, † 1674.</cell><cell>H. XIV., geb. 1674, † 1674.</cell></row><row><cell>H. XVI., geb. 1676, † 1677.</cell><cell>H. XVIII., geb. 1677, † 1735.</cell><cell>H. XX., geb. 1678, † 1689.</cell><cell>H. XXII., geb. 1680, † 1731.</cell><cell><persName ref="#person-heinrich-xxiv">Heinrich XXIV.</persName>, geb. 1681, † 1748. Gem.: 1) <persName ref="#person-justine-eleonore-sophie-v-giech-thurnau">Justine Eleonore Sophie v. Giech=Thurnau</persName>; 2) <persName ref="#person-sophie-marie-v-birkenfeld-gelnhausen">Sophie Marie v. Birkenfeld=Gelnhausen</persName>.</cell><cell>H. XXVII., geb. 1683, † 1706.</cell></row><row><cell>Tochter Prinz, geb. 1718.</cell><cell><persName ref="#person-sophie-henriette">Sophie Henriette</persName>, geb. 1723, † 1789. Gem. <persName ref="#person-friedrich-botho-v-stolberg-rossla">Friedrich Botho v. Stolberg=Roßla</persName>.</cell><cell>Tochter, geb. u. † 1726.</cell><cell><persName ref="#person-heinrich-xxx">Heinrich XXX.</persName>, geb. 1727, † 1802 (26. April). Gem. <persName ref="#person-louise-christiane">Louise Christiane</persName>, Pfalzgräfin v. Zweibrück= Birkenfeld=Gelnhausen, † 1829.</cell><cell>null</cell><cell>null</cell></row></table>
+</div></body></text>
+<standOff>
+<listPlace>
+<place xml:id="place-lobenstein"><placeName>Lobenstein</placeName><placeName type="modern">Bad Lobenstein</placeName><desc>Stadt</desc><location><geo>50.45223 11.6393</geo></location><idno type="GeoNames">https://www.geonames.org/2876721</idno><idno type="Wikidata">https://www.wikidata.org/entity/Q505656</idno></place>
+<place xml:id="place-schleiz"><placeName>Schleiz</placeName><desc>Stadt</desc><location><geo>50.57866 11.81024</geo></location><idno type="GeoNames">https://www.geonames.org/2838673</idno><idno type="Wikidata">https://www.wikidata.org/entity/Q32285667</idno></place>
+</listPlace>
+<listPerson>
+<person xml:id="person-agnes"><persName>Agnes</persName><note>ambiguous: several women of the Vogt/Reuß families (daughters, wives, nuns of Cronschwitz)</note></person>
+<person xml:id="person-anna"><persName>Anna</persName><note>ambiguous: many women named Anna in the genealogies of the Vogt and Reuß houses</note></person>
+<person xml:id="person-anna-dorothea-von-schwarzburg-sondershausen"><persName>Anna Dorothea von Schwarzburg-Sondershausen</persName><note>Gemahlin Heinrichs IV. (1650–1686)</note></person>
+<person xml:id="person-anna-katharina"><persName>Anna Katharina</persName><note>geb. 1615, † 1681</note></person>
+<person xml:id="person-christian-schenk-v-tautenburg"><persName>Christian Schenk v. Tautenburg</persName><note>Gemahl der Dorothea Sibille (1609–1631)</note></person>
+<person xml:id="person-christine-sibille"><persName>Christine Sibille</persName><note>geb. 1653, † 1686</note></person>
+<person xml:id="person-david-v-mansfeld"><persName>David v. Mansfeld</persName><note>Gemahl der Julie Marie (1598–1650)</note></person>
+<person xml:id="person-dorothea"><persName>Dorothea</persName><note>ambiguous: St. Dorothea (S. 136), a widowed countess Dorothea (1704), many women of the Vogt and Reuß houses</note></person>
+<person xml:id="person-dorothea-magdalena"><persName>Dorothea Magdalena</persName><note>geb. 1595, † 1646; Gem. Georg v. Kirchberg</note></person>
+<person xml:id="person-dorothea-sibille"><persName>Dorothea Sibille</persName><note>geb. 1609, † 1631; Gem. Christian Schenk v. Tautenburg</note></person>
+<person xml:id="person-elis-magdalena"><persName>Elis. Magdalena</persName></person>
+<person xml:id="person-ernestine"><persName>Ernestine</persName><note>geb. und † 1706</note></person>
+<person xml:id="person-ernst-ludwig-v-mansfeld"><persName>Ernst Ludwig v. Mansfeld</persName><note>Gemahl der Agnes (1600–1642)</note></person>
+<person xml:id="person-friedrich-botho-v-stolberg-rossla"><persName>Friedrich Botho v. Stolberg-Roßla</persName><note>Gemahl der Sophie Henriette (1723–1789)</note></person>
+<person xml:id="person-georg-friedrich-v-hohenlohe-waldenburg"><persName>Georg Friedrich v. Hohenlohe-Waldenburg</persName><note>Graf; 1. Gemahl der Dorothea (1570–1631)</note></person>
+<person xml:id="person-georg-v-kirchberg"><persName>Georg v. Kirchberg</persName><note>Gemahl der Dorothea Magdalena (1595–1646)</note></person>
+<person xml:id="person-hedwig-sophia"><persName>Hedwig Sophia</persName><note>geb. 1608, † 1653</note></person>
+<person xml:id="person-heinrich-i"><persName>Heinrich I.</persName><note>ambiguous; refers to different persons. The numeral is counted afresh in every century and separately for the elder and younger line of Reuss (Brückner p. 376), so the same form denotes different princes; see the genealogical tables pp. 341-402. Includes King/Emperor Heinrich I. (the Fowler), Burggraf Heinrich I. von Plauen (1389-1429), Heinrich I. von Schleiz (1639-1692; 1695-1744), Heinrich I. von Obergreiz (1627-1681; 1693-1714) and a prince born 1803 (printed "I.", transcribed "L." on p. 399).</note></person>
+<person xml:id="person-heinrich-ii-reuss-zu-gera"><persName>Heinrich II. (Reuß zu Gera)</persName><note>Heinrich II., ältester überlebender Sohn des Heinrich Posthumus; geb. 1602, erhielt 1647 Gera (1666 Saalburg), Gründer des Specialhauses Gera, † 1670; verheiratet mit Katharina von Schwarzburg; Vater Heinrichs IV.</note><idno type="Wikidata">https://www.wikidata.org/entity/Q104681082</idno></person>
+<person xml:id="person-heinrich-iii"><persName>Heinrich III.</persName><note>ambiguous; refers to different persons. The numeral is counted afresh in every century and separately for the elder and younger line of Reuss (Brückner p. 376), so the same form denotes different princes; see the genealogical tables pp. 341-402. Includes Burggraf Heinrich III. von Plauen (1446-1482), Heinrich III. von Schleiz (1603-1640), Heinrich III. von Lobenstein (1648-1710), Heinrich III. von Untergreiz (1701-1768) and Heinrich III. von Burgk (d. 1640).</note></person>
+<person xml:id="person-heinrich-iv"><persName>Heinrich IV.</persName><note>ambiguous; refers to different persons. The numeral is counted afresh in every century and separately for the elder and younger line of Reuss (Brückner p. 376), so the same form denotes different princes; see the genealogical tables pp. 341-402. Includes Burggraf Heinrich IV. von Plauen (1482-1520), Heinrich IV. von Gera (1650-1686), Heinrich IV. von Obergreiz (1597-1629), Heinrich IV. von Untergreiz (1638-1675), Prince Heinrich IV. (b. 1821, Köstritz).</note></person>
+<person xml:id="person-heinrich-ix"><persName>Heinrich IX.</persName><note>ambiguous; refers to different persons. The numeral is counted afresh in every century and separately for the elder and younger line of Reuss (Brückner p. 376), so the same form denotes different princes; see the genealogical tables pp. 341-402. Includes Heinrich IX. von Schleiz (1616-1666), Heinrich IX. von Köstritz (1711-1780, Prussian minister of state) and Prince Heinrich IX. (b. 1827).</note></person>
+<person xml:id="person-heinrich-posthumus"><persName>Heinrich Posthumus</persName><note>Heinrich Posthumus Reuß (als Fürst Heinrich II. gezählt), Herr zu Gera, Stifter der jüngeren Linie Reuß (Reuß j. L.); geb. 10. Juni 1572, zwei Monate nach dem Tod des Vaters (daher Posthumus), † 3. Dez. 1635; eigene Regierung 1595-1635; Vater der Brüder Heinrich II., III., IX. und X.</note><idno type="Wikidata">https://www.wikidata.org/entity/Q97035</idno></person>
+<person xml:id="person-heinrich-von-gera"><persName>Heinrich von Gera</persName><note>ambiguous; refers to different persons. Voigte and Herren of Gera of different generations (13th-16th c.), e.g. Heinrich der Mehrer, der Große, der Worthalter, der Dispensirte; also the table header of Heinrich von Gera (1530-1572, founder of the younger line, p. 394), burgmen and the Cologne canon Heinrich von Gera (1451).</note></person>
+<person xml:id="person-heinrich-x"><persName>Heinrich X.</persName><note>ambiguous; refers to different persons. The numeral is counted afresh in every century and separately for the elder and younger line of Reuss (Brückner p. 376), so the same form denotes different princes; see the genealogical tables pp. 341-402. Includes Heinrich X. von Lobenstein (1621-1671; see the separate entry "Heinrich X. v. Lobenstein"), Heinrich X. von Ebersdorf (1662-1711) and Prince Heinrich X. (1827-1847, Köstritz).</note></person>
+<person xml:id="person-heinrich-xxiv"><persName>Heinrich XXIV.</persName><note>ambiguous; refers to different persons. The numeral is counted afresh in every century and separately for the elder and younger line of Reuss (Brückner p. 376), so the same form denotes different princes; see the genealogical tables pp. 341-402. Heinrich XXIV. von Köstritz (1681-1748), Heinrich XXIV. von Ebersdorf (1724-1779) and a prince born 1855 (Köstritz).</note></person>
+<person xml:id="person-heinrich-xxx"><persName>Heinrich XXX.</persName><note>ambiguous; refers to different persons. The numeral is counted afresh in every century and separately for the elder and younger line of Reuss (Brückner p. 376), so the same form denotes different princes; see the genealogical tables pp. 341-402. Twelve of the thirteen mentions denote Graf Heinrich XXX. von Gera (1727-1802; see "Graf Heinrich XXX"); one table cell (p. 399) is a prince born 1862 (Köstritz).</note></person>
+<person xml:id="person-hugo-v-schoenburg"><persName>Hugo v. Schönburg</persName><note>† 1606; Gemahl der Agnes (1567–1588) und der Katharina</note></person>
+<person xml:id="person-jul-marie"><persName>Jul. Marie</persName><note>geb. 1598, † 1650; Gem. David v. Mansfeld</note></person>
+<person xml:id="person-juliane-dorothea"><persName>Juliane Dorothea</persName><note>geb. 1649, † 1686</note></person>
+<person xml:id="person-justine-eleonore-sophie-v-giech-thurnau"><persName>Justine Eleonore Sophie v. Giech-Thurnau</persName><note>1. Gemahlin Heinrichs XXIV. (1681–1748)</note></person>
+<person xml:id="person-kath-elisie-v-schwarzburg"><persName>Kath. Elisie v. Schwarzburg</persName><note>† 1701; Gemahlin Heinrichs II. von Gera (1602–1670)</note></person>
+<person xml:id="person-katharina"><persName>Katharina</persName><note>ambiguous: St. Catherine (S. 136), daughters and wives of the Vogt and Reuß houses (15 mentions, e.g. nun at Hof, wife of Heinrich Reuß zu Greiz)</note></person>
+<person xml:id="person-louise-christiane"><persName>Louise Christiane</persName><note>Pfalzgräfin v. Zweibrücken-Birkenfeld-Gelnhausen, † 1829; Gemahlin Heinrichs XXX. (1727–1802), Fürstin-Witwe in Tinz (Legat von 1500 Speziestalern)</note></person>
+<person xml:id="person-magdalena-sibille"><persName>Magdalena Sibille</persName><note>geboren und † 1645</note></person>
+<person xml:id="person-magdalena-v-schwarzburg-rudolstadt"><persName>Magdalena v. Schwarzburg-Rudolstadt</persName><note>verm. 1597, † 1652; 2. Gemahlin des Heinrich Posthumus</note></person>
+<person xml:id="person-magdalena-von-hohenlohe"><persName>Magdalena von Hohenlohe</persName><note>verm. 1594, † 1596; 1. Gemahlin des Heinrich Posthumus</note></person>
+<person xml:id="person-otto-alb-v-schoenburg-hartenstein"><persName>Otto Alb. v. Schönburg-Hartenstein</persName><note>Gemahl der Ernestine (1618–1650)</note></person>
+<person xml:id="person-sophie-henriette"><persName>Sophie Henriette</persName><note>geb. 1723, † 1789; Gem. Friedrich Botho v. Stolberg-Roßla</note></person>
+<person xml:id="person-sophie-marie-v-birkenfeld-gelnhausen"><persName>Sophie Marie v. Birkenfeld-Gelnhausen</persName><note>2. Gemahlin Heinrichs XXIV. (1681–1748)</note></person>
+<person xml:id="person-wilhelm-v-limburg-speckfeld"><persName>Wilhelm v. Limburg-Speckfeld</persName><note>2. Gemahl der Dorothea (1570–1631)</note></person>
+</listPerson>
+</standOff>
+</TEI>

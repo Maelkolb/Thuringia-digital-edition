@@ -1,0 +1,1572 @@
+{
+ "seq": 66,
+ "label": "54",
+ "slug": "54",
+ "iiif": {
+  "service": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb11005578_00066",
+  "canvas": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11005578/canvas/66",
+  "width": 1626,
+  "height": 2698
+ },
+ "kind": "text",
+ "running_header": "I. Die Natur des Landes.",
+ "signature": null,
+ "blocks": [
+  {
+   "id": "b1",
+   "type": "paragraph",
+   "src": 0,
+   "text": "und verfolgt hat. In Hohenleuben geschahen die Beobachtungen durch Rud. Schmidt (Apotheker) von 1854 bis 1861, in Gera durch C. Kratzsch und Dr. Robert Schmidt seit 1856, in Schleiz vornämlich durch Dr. Richard Mauke und Dr. Heyland von 1863 auf 1864 bez. 1866 und 1867 und in Rothenacker in den letzten Jahren vom Lehrer G. Oswald, insgesamt des Tages dreimal, mit Ausnahme der von Kratzsch, welcher täglich nur ein bis zweimal die meteorologischen Zustände notirte. Demungeachtet sind die zu Gera ausgeführten Beobachtungen die werthvollsten, weil sie nicht allein auf einem größeren Zeitraume beruhen, sondern auch außer dem Luftdrucke und der Temperatur noch andere atmosphärische Erscheinungen in ihren Gesichtskreis gezogen haben. In den Jahresberichten der Gesellschaft von Freunden der Naturwissenschaft in Gera und Schleiz fanden die Beobachtungsresultate der vier Stationen ihre Veröffentlichung. Leider reichte das gegebene Material nicht aus, um ein die verschiedenen Striche des Landes umspannendes, meteorologisches Resultat zu gewinnen; denn einerseits sind es zu wenig Beobachtungsstationen, durch welche weder die Nebenthäler im Unterlande noch die höheren Gebiete im Oberlande ihren klimatischen Ausdruck finden, andererseits hat man noch nicht alle meteorologischen Erscheinungen, namentlich noch nicht alle Feuchtigkeitsverhältnisse (Feuchtigkeit der Luft, Dunstdruck, Verdunstung der Wasser) der Messung unterworfen.",
+   "spans": [
+    [
+     21,
+     32,
+     "Location"
+    ],
+    [
+     67,
+     79,
+     "Person"
+    ],
+    [
+     114,
+     118,
+     "Location"
+    ],
+    [
+     494,
+     498,
+     "Location"
+    ],
+    [
+     125,
+     136,
+     "Person"
+    ],
+    [
+     141,
+     159,
+     "Person"
+    ],
+    [
+     174,
+     181,
+     "Location"
+    ],
+    [
+     199,
+     216,
+     "Person"
+    ],
+    [
+     221,
+     232,
+     "Person"
+    ],
+    [
+     277,
+     288,
+     "Location"
+    ],
+    [
+     322,
+     331,
+     "Person"
+    ],
+    [
+     628,
+     638,
+     "Climate"
+    ],
+    [
+     647,
+     657,
+     "Climate"
+    ],
+    [
+     670,
+     698,
+     "Climate"
+    ],
+    [
+     764,
+     831,
+     "Organisation"
+    ],
+    [
+     1354,
+     1375,
+     "Climate"
+    ],
+    [
+     1377,
+     1387,
+     "Climate"
+    ],
+    [
+     1389,
+     1411,
+     "Climate"
+    ]
+   ],
+   "continued": true,
+   "sec": "t1-1-7"
+  },
+  {
+   "id": "b2",
+   "type": "paragraph",
+   "src": 1,
+   "text": "Den Luftdruck betreffend, ergeben die Beobachtungen folgende Resultate:",
+   "spans": [
+    [
+     4,
+     13,
+     "Climate"
+    ]
+   ],
+   "sec": "t1-1-7"
+  },
+  {
+   "id": "b3",
+   "type": "heading",
+   "src": 2,
+   "text": "1) Für Gera als mittleren Barometerstand in pariser Zollen:",
+   "spans": [
+    [
+     7,
+     11,
+     "Location"
+    ]
+   ],
+   "sec": "t1-1-7",
+   "level": 5
+  },
+  {
+   "id": "b4",
+   "type": "table",
+   "src": 3,
+   "n_cols": 14,
+   "header_rows": 1,
+   "rows": [
+    {
+     "role": "header",
+     "cells": [
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "Jan.",
+       "spans": []
+      },
+      {
+       "text": "Febr.",
+       "spans": []
+      },
+      {
+       "text": "März.",
+       "spans": []
+      },
+      {
+       "text": "April.",
+       "spans": []
+      },
+      {
+       "text": "Mai.",
+       "spans": []
+      },
+      {
+       "text": "Juni.",
+       "spans": []
+      },
+      {
+       "text": "Juli.",
+       "spans": []
+      },
+      {
+       "text": "Aug.",
+       "spans": []
+      },
+      {
+       "text": "Sept.",
+       "spans": []
+      },
+      {
+       "text": "Oct.",
+       "spans": []
+      },
+      {
+       "text": "Nov.",
+       "spans": []
+      },
+      {
+       "text": "Dec.",
+       "spans": []
+      },
+      {
+       "text": "Jahr.",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1856",
+       "spans": []
+      },
+      {
+       "text": "326,40",
+       "spans": []
+      },
+      {
+       "text": "330,17",
+       "spans": []
+      },
+      {
+       "text": "331,08",
+       "spans": []
+      },
+      {
+       "text": "327,44",
+       "spans": []
+      },
+      {
+       "text": "327,04",
+       "spans": []
+      },
+      {
+       "text": "329,75",
+       "spans": []
+      },
+      {
+       "text": "329,74",
+       "spans": []
+      },
+      {
+       "text": "328,60",
+       "spans": []
+      },
+      {
+       "text": "328,62",
+       "spans": []
+      },
+      {
+       "text": "332,33",
+       "spans": []
+      },
+      {
+       "text": "328,65",
+       "spans": []
+      },
+      {
+       "text": "327,42",
+       "spans": []
+      },
+      {
+       "text": "328,94",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1857",
+       "spans": []
+      },
+      {
+       "text": "327,51",
+       "spans": []
+      },
+      {
+       "text": "332,00",
+       "spans": []
+      },
+      {
+       "text": "328,70",
+       "spans": []
+      },
+      {
+       "text": "327,84",
+       "spans": []
+      },
+      {
+       "text": "329,10",
+       "spans": []
+      },
+      {
+       "text": "330,19",
+       "spans": []
+      },
+      {
+       "text": "329,77",
+       "spans": []
+      },
+      {
+       "text": "327,89",
+       "spans": []
+      },
+      {
+       "text": "328,20",
+       "spans": []
+      },
+      {
+       "text": "328,87",
+       "spans": []
+      },
+      {
+       "text": "332,15",
+       "spans": []
+      },
+      {
+       "text": "334,28",
+       "spans": []
+      },
+      {
+       "text": "329,71",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1858",
+       "spans": []
+      },
+      {
+       "text": "333,43",
+       "spans": []
+      },
+      {
+       "text": "331,40",
+       "spans": []
+      },
+      {
+       "text": "328,16",
+       "spans": []
+      },
+      {
+       "text": "328,96",
+       "spans": []
+      },
+      {
+       "text": "329,66",
+       "spans": []
+      },
+      {
+       "text": "330,96",
+       "spans": []
+      },
+      {
+       "text": "328,86",
+       "spans": []
+      },
+      {
+       "text": "329,66",
+       "spans": []
+      },
+      {
+       "text": "331,44",
+       "spans": []
+      },
+      {
+       "text": "330,70",
+       "spans": []
+      },
+      {
+       "text": "329,50",
+       "spans": []
+      },
+      {
+       "text": "330,72",
+       "spans": []
+      },
+      {
+       "text": "330,29",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1859",
+       "spans": []
+      },
+      {
+       "text": "332,37",
+       "spans": []
+      },
+      {
+       "text": "329,81",
+       "spans": []
+      },
+      {
+       "text": "329,46",
+       "spans": []
+      },
+      {
+       "text": "327,88",
+       "spans": []
+      },
+      {
+       "text": "329,03",
+       "spans": []
+      },
+      {
+       "text": "329,40",
+       "spans": []
+      },
+      {
+       "text": "331,32",
+       "spans": []
+      },
+      {
+       "text": "330,23",
+       "spans": []
+      },
+      {
+       "text": "329,37",
+       "spans": []
+      },
+      {
+       "text": "328,22",
+       "spans": []
+      },
+      {
+       "text": "331,04",
+       "spans": []
+      },
+      {
+       "text": "329,11",
+       "spans": []
+      },
+      {
+       "text": "329,77",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1860",
+       "spans": []
+      },
+      {
+       "text": "328,40",
+       "spans": []
+      },
+      {
+       "text": "328,50",
+       "spans": []
+      },
+      {
+       "text": "328,18",
+       "spans": []
+      },
+      {
+       "text": "329,22",
+       "spans": []
+      },
+      {
+       "text": "329,22",
+       "spans": []
+      },
+      {
+       "text": "329,20",
+       "spans": []
+      },
+      {
+       "text": "329,54",
+       "spans": []
+      },
+      {
+       "text": "328,61",
+       "spans": []
+      },
+      {
+       "text": "330,12",
+       "spans": []
+      },
+      {
+       "text": "331,16",
+       "spans": []
+      },
+      {
+       "text": "329,72",
+       "spans": []
+      },
+      {
+       "text": "327,24",
+       "spans": []
+      },
+      {
+       "text": "329,09",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1861",
+       "spans": []
+      },
+      {
+       "text": "332,31",
+       "spans": []
+      },
+      {
+       "text": "330,05",
+       "spans": []
+      },
+      {
+       "text": "327,70",
+       "spans": []
+      },
+      {
+       "text": "331,30",
+       "spans": []
+      },
+      {
+       "text": "330,00",
+       "spans": []
+      },
+      {
+       "text": "329,67",
+       "spans": []
+      },
+      {
+       "text": "329,05",
+       "spans": []
+      },
+      {
+       "text": "331,10",
+       "spans": []
+      },
+      {
+       "text": "329,66",
+       "spans": []
+      },
+      {
+       "text": "331,92",
+       "spans": []
+      },
+      {
+       "text": "328,60",
+       "spans": []
+      },
+      {
+       "text": "332,11",
+       "spans": []
+      },
+      {
+       "text": "330,29",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1862",
+       "spans": []
+      },
+      {
+       "text": "329,17",
+       "spans": []
+      },
+      {
+       "text": "331,30",
+       "spans": []
+      },
+      {
+       "text": "327,70",
+       "spans": []
+      },
+      {
+       "text": "330,70",
+       "spans": []
+      },
+      {
+       "text": "329,51",
+       "spans": []
+      },
+      {
+       "text": "329,00",
+       "spans": []
+      },
+      {
+       "text": "330,15",
+       "spans": []
+      },
+      {
+       "text": "329,81",
+       "spans": []
+      },
+      {
+       "text": "330,90",
+       "spans": []
+      },
+      {
+       "text": "330,10",
+       "spans": []
+      },
+      {
+       "text": "329,62",
+       "spans": []
+      },
+      {
+       "text": "330,93",
+       "spans": []
+      },
+      {
+       "text": "329,90",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1863",
+       "spans": []
+      },
+      {
+       "text": "329,37",
+       "spans": []
+      },
+      {
+       "text": "333,88",
+       "spans": []
+      },
+      {
+       "text": "328,90",
+       "spans": []
+      },
+      {
+       "text": "330,34",
+       "spans": []
+      },
+      {
+       "text": "330,30",
+       "spans": []
+      },
+      {
+       "text": "329,98",
+       "spans": []
+      },
+      {
+       "text": "331,37",
+       "spans": []
+      },
+      {
+       "text": "330,44",
+       "spans": []
+      },
+      {
+       "text": "330,02",
+       "spans": []
+      },
+      {
+       "text": "330,38",
+       "spans": []
+      },
+      {
+       "text": "331,89",
+       "spans": []
+      },
+      {
+       "text": "327,99",
+       "spans": []
+      },
+      {
+       "text": "330,40",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1864",
+       "spans": []
+      },
+      {
+       "text": "330,85",
+       "spans": []
+      },
+      {
+       "text": "326,36",
+       "spans": []
+      },
+      {
+       "text": "327,34",
+       "spans": []
+      },
+      {
+       "text": "330,57",
+       "spans": []
+      },
+      {
+       "text": "330,35",
+       "spans": []
+      },
+      {
+       "text": "330,82",
+       "spans": []
+      },
+      {
+       "text": "331,26",
+       "spans": []
+      },
+      {
+       "text": "331,54",
+       "spans": []
+      },
+      {
+       "text": "331,65",
+       "spans": []
+      },
+      {
+       "text": "330,12",
+       "spans": []
+      },
+      {
+       "text": "330,55",
+       "spans": []
+      },
+      {
+       "text": "331,70",
+       "spans": []
+      },
+      {
+       "text": "330,26",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1865",
+       "spans": []
+      },
+      {
+       "text": "329,48",
+       "spans": []
+      },
+      {
+       "text": "332,53",
+       "spans": []
+      },
+      {
+       "text": "331,46",
+       "spans": []
+      },
+      {
+       "text": "335,02",
+       "spans": []
+      },
+      {
+       "text": "333,82",
+       "spans": []
+      },
+      {
+       "text": "334,56",
+       "spans": []
+      },
+      {
+       "text": "333,69",
+       "spans": []
+      },
+      {
+       "text": "332,74",
+       "spans": []
+      },
+      {
+       "text": "336,45",
+       "spans": []
+      },
+      {
+       "text": "330,90",
+       "spans": []
+      },
+      {
+       "text": "333,36",
+       "spans": []
+      },
+      {
+       "text": "337,11",
+       "spans": []
+      },
+      {
+       "text": "333,43",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1866",
+       "spans": []
+      },
+      {
+       "text": "333,84",
+       "spans": []
+      },
+      {
+       "text": "331,38",
+       "spans": []
+      },
+      {
+       "text": "330,91",
+       "spans": []
+      },
+      {
+       "text": "333,07",
+       "spans": []
+      },
+      {
+       "text": "332,91",
+       "spans": []
+      },
+      {
+       "text": "329,41",
+       "spans": []
+      },
+      {
+       "text": "332,42",
+       "spans": []
+      },
+      {
+       "text": "332,24",
+       "spans": []
+      },
+      {
+       "text": "332,65",
+       "spans": []
+      },
+      {
+       "text": "335,44",
+       "spans": []
+      },
+      {
+       "text": "331,79",
+       "spans": []
+      },
+      {
+       "text": "333,00",
+       "spans": []
+      },
+      {
+       "text": "332,42",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1867",
+       "spans": []
+      },
+      {
+       "text": "330,40",
+       "spans": []
+      },
+      {
+       "text": "325,00",
+       "spans": []
+      },
+      {
+       "text": "335,20",
+       "spans": []
+      },
+      {
+       "text": "331,00",
+       "spans": []
+      },
+      {
+       "text": "332,70",
+       "spans": []
+      },
+      {
+       "text": "333,80",
+       "spans": []
+      },
+      {
+       "text": "332,70",
+       "spans": []
+      },
+      {
+       "text": "334,00",
+       "spans": []
+      },
+      {
+       "text": "334,40",
+       "spans": []
+      },
+      {
+       "text": "333,00",
+       "spans": []
+      },
+      {
+       "text": "334,80",
+       "spans": []
+      },
+      {
+       "text": "332,10",
+       "spans": []
+      },
+      {
+       "text": "332,43",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Durchschnitt",
+       "spans": []
+      },
+      {
+       "text": "330,30",
+       "spans": []
+      },
+      {
+       "text": "330,20",
+       "spans": []
+      },
+      {
+       "text": "329,56",
+       "spans": []
+      },
+      {
+       "text": "330,28",
+       "spans": []
+      },
+      {
+       "text": "330,30",
+       "spans": []
+      },
+      {
+       "text": "330,56",
+       "spans": []
+      },
+      {
+       "text": "330,82",
+       "spans": []
+      },
+      {
+       "text": "330,57",
+       "spans": []
+      },
+      {
+       "text": "331,12",
+       "spans": []
+      },
+      {
+       "text": "331,09",
+       "spans": []
+      },
+      {
+       "text": "330,97",
+       "spans": []
+      },
+      {
+       "text": "331,15",
+       "spans": []
+      },
+      {
+       "text": "330,58",
+       "spans": []
+      }
+     ]
+    }
+   ],
+   "grid": [
+    [
+     "",
+     "Jan.",
+     "Febr.",
+     "März.",
+     "April.",
+     "Mai.",
+     "Juni.",
+     "Juli.",
+     "Aug.",
+     "Sept.",
+     "Oct.",
+     "Nov.",
+     "Dec.",
+     "Jahr."
+    ],
+    [
+     "1856",
+     "326,40",
+     "330,17",
+     "331,08",
+     "327,44",
+     "327,04",
+     "329,75",
+     "329,74",
+     "328,60",
+     "328,62",
+     "332,33",
+     "328,65",
+     "327,42",
+     "328,94"
+    ],
+    [
+     "1857",
+     "327,51",
+     "332,00",
+     "328,70",
+     "327,84",
+     "329,10",
+     "330,19",
+     "329,77",
+     "327,89",
+     "328,20",
+     "328,87",
+     "332,15",
+     "334,28",
+     "329,71"
+    ],
+    [
+     "1858",
+     "333,43",
+     "331,40",
+     "328,16",
+     "328,96",
+     "329,66",
+     "330,96",
+     "328,86",
+     "329,66",
+     "331,44",
+     "330,70",
+     "329,50",
+     "330,72",
+     "330,29"
+    ],
+    [
+     "1859",
+     "332,37",
+     "329,81",
+     "329,46",
+     "327,88",
+     "329,03",
+     "329,40",
+     "331,32",
+     "330,23",
+     "329,37",
+     "328,22",
+     "331,04",
+     "329,11",
+     "329,77"
+    ],
+    [
+     "1860",
+     "328,40",
+     "328,50",
+     "328,18",
+     "329,22",
+     "329,22",
+     "329,20",
+     "329,54",
+     "328,61",
+     "330,12",
+     "331,16",
+     "329,72",
+     "327,24",
+     "329,09"
+    ],
+    [
+     "1861",
+     "332,31",
+     "330,05",
+     "327,70",
+     "331,30",
+     "330,00",
+     "329,67",
+     "329,05",
+     "331,10",
+     "329,66",
+     "331,92",
+     "328,60",
+     "332,11",
+     "330,29"
+    ],
+    [
+     "1862",
+     "329,17",
+     "331,30",
+     "327,70",
+     "330,70",
+     "329,51",
+     "329,00",
+     "330,15",
+     "329,81",
+     "330,90",
+     "330,10",
+     "329,62",
+     "330,93",
+     "329,90"
+    ],
+    [
+     "1863",
+     "329,37",
+     "333,88",
+     "328,90",
+     "330,34",
+     "330,30",
+     "329,98",
+     "331,37",
+     "330,44",
+     "330,02",
+     "330,38",
+     "331,89",
+     "327,99",
+     "330,40"
+    ],
+    [
+     "1864",
+     "330,85",
+     "326,36",
+     "327,34",
+     "330,57",
+     "330,35",
+     "330,82",
+     "331,26",
+     "331,54",
+     "331,65",
+     "330,12",
+     "330,55",
+     "331,70",
+     "330,26"
+    ],
+    [
+     "1865",
+     "329,48",
+     "332,53",
+     "331,46",
+     "335,02",
+     "333,82",
+     "334,56",
+     "333,69",
+     "332,74",
+     "336,45",
+     "330,90",
+     "333,36",
+     "337,11",
+     "333,43"
+    ],
+    [
+     "1866",
+     "333,84",
+     "331,38",
+     "330,91",
+     "333,07",
+     "332,91",
+     "329,41",
+     "332,42",
+     "332,24",
+     "332,65",
+     "335,44",
+     "331,79",
+     "333,00",
+     "332,42"
+    ],
+    [
+     "1867",
+     "330,40",
+     "325,00",
+     "335,20",
+     "331,00",
+     "332,70",
+     "333,80",
+     "332,70",
+     "334,00",
+     "334,40",
+     "333,00",
+     "334,80",
+     "332,10",
+     "332,43"
+    ],
+    [
+     "Durch-schnitt",
+     "330,30",
+     "330,20",
+     "329,56",
+     "330,28",
+     "330,30",
+     "330,56",
+     "330,82",
+     "330,57",
+     "331,12",
+     "331,09",
+     "330,97",
+     "331,15",
+     "330,58"
+    ]
+   ],
+   "caption": null,
+   "sec": "t1-1-7"
+  },
+  {
+   "id": "b5",
+   "type": "paragraph",
+   "src": 4,
+   "text": "In dieser 12jährigen Periode war für Gera 342,0 der höchste (März 1867) und 316,00 (1856) der tiefste Barometerstand, so daß die Schwankungsscala 26,00 durchschritt.",
+   "spans": [
+    [
+     37,
+     41,
+     "Location"
+    ]
+   ],
+   "sec": "t1-1-7"
+  },
+  {
+   "id": "b6",
+   "type": "paragraph",
+   "src": 5,
+   "text": "2) Für Hohenleuben giebt Dr. Jul. Schmidt in seiner (1827 herausgegebenen) Topographie der Pflege Reichenfels 27'' 7,15/16''' als Mittel 15jähriger Barometerbeobachtungen an, die Pastor Alberti zu Hohenleuben gemacht, aber nicht veröffentlicht hat.",
+   "spans": [
+    [
+     7,
+     18,
+     "Location"
+    ],
+    [
+     197,
+     208,
+     "Location"
+    ],
+    [
+     25,
+     41,
+     "Person"
+    ],
+    [
+     75,
+     109,
+     "Artefact"
+    ],
+    [
+     179,
+     193,
+     "Person"
+    ]
+   ],
+   "sec": "t1-1-7"
+  },
+  {
+   "id": "b7",
+   "type": "heading",
+   "src": 6,
+   "text": "3) Für Schleiz:",
+   "spans": [
+    [
+     7,
+     14,
+     "Location"
+    ]
+   ],
+   "sec": "t1-1-7",
+   "level": 5
+  },
+  {
+   "id": "b8",
+   "type": "table",
+   "src": 7,
+   "n_cols": 14,
+   "header_rows": 1,
+   "rows": [
+    {
+     "role": "header",
+     "cells": [
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "Jan.",
+       "spans": []
+      },
+      {
+       "text": "Febr.",
+       "spans": []
+      },
+      {
+       "text": "März.",
+       "spans": []
+      },
+      {
+       "text": "April.",
+       "spans": []
+      },
+      {
+       "text": "Mai.",
+       "spans": []
+      },
+      {
+       "text": "Juni.",
+       "spans": []
+      },
+      {
+       "text": "Juli.",
+       "spans": []
+      },
+      {
+       "text": "Aug.",
+       "spans": []
+      },
+      {
+       "text": "Sept.",
+       "spans": []
+      },
+      {
+       "text": "Oct.",
+       "spans": []
+      },
+      {
+       "text": "Nov.",
+       "spans": []
+      },
+      {
+       "text": "Dec.",
+       "spans": []
+      },
+      {
+       "text": "Jahr.",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1863",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "318,30",
+       "spans": []
+      },
+      {
+       "text": "317,20",
+       "spans": []
+      },
+      {
+       "text": "317,10",
+       "spans": []
+      },
+      {
+       "text": "317,50",
+       "spans": []
+      },
+      {
+       "text": "319,10",
+       "spans": []
+      },
+      {
+       "text": "318,50",
+       "spans": []
+      },
+      {
+       "text": "317,90*",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1864",
+       "spans": []
+      },
+      {
+       "text": "322,00",
+       "spans": []
+      },
+      {
+       "text": "317,70",
+       "spans": []
+      },
+      {
+       "text": "315,30",
+       "spans": []
+      },
+      {
+       "text": "318,40",
+       "spans": []
+      },
+      {
+       "text": "317,50",
+       "spans": []
+      },
+      {
+       "text": "317,30",
+       "spans": []
+      },
+      {
+       "text": "317,70",
+       "spans": []
+      },
+      {
+       "text": "317,90",
+       "spans": []
+      },
+      {
+       "text": "318,00",
+       "spans": []
+      },
+      {
+       "text": "316,80",
+       "spans": []
+      },
+      {
+       "text": "317,60",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "317,90*",
+       "spans": []
+      }
+     ]
+    }
+   ],
+   "grid": [
+    [
+     "",
+     "Jan.",
+     "Febr.",
+     "März.",
+     "April.",
+     "Mai.",
+     "Juni.",
+     "Juli.",
+     "Aug.",
+     "Sept.",
+     "Oct.",
+     "Nov.",
+     "Dec.",
+     "Jahr."
+    ],
+    [
+     "1863",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—",
+     "318,30",
+     "317,20",
+     "317,10",
+     "317,50",
+     "319,10",
+     "318,50",
+     "317,90*"
+    ],
+    [
+     "1864",
+     "322,00",
+     "317,70",
+     "315,30",
+     "318,40",
+     "317,50",
+     "317,30",
+     "317,70",
+     "317,90",
+     "318,00",
+     "316,80",
+     "317,60",
+     "—",
+     "317,90*"
+    ]
+   ],
+   "caption": null,
+   "sec": "t1-1-7"
+  }
+ ],
+ "footnotes": [
+  {
+   "id": "fn1",
+   "marker": "*)",
+   "text": "Dies Jahresmittel ist vom December 1863 bis November 1864 genommen.",
+   "spans": []
+  }
+ ],
+ "corrections": [
+  {
+   "rule": "join_inword_hyphen",
+   "before": "Durch-schnitt",
+   "after": "Durchschnitt"
+  }
+ ],
+ "provenance": {
+  "source": "colab-2026-01",
+  "model": "gemini-3-flash-preview",
+  "timestamp": "2026-01-06T03:16:52.452762",
+  "early_schema": false
+ },
+ "section_path": [
+  "t1",
+  "t1-1",
+  "t1-1-7"
+ ],
+ "sections": [
+  "t1-1-7"
+ ]
+}

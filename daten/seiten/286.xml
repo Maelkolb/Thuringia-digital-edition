@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de">
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="main">Volks- und Landeskunde des Fürstenthums Reuß j. L.</title>
+      <title type="sub">Digitale Edition, S. 286</title>
+      <author><persName ref="https://d-nb.info/gnd/119209217">Brückner, Georg</persName> (1800–1881)</author>
+      <editor><persName>Tobias Perschl</persName></editor><editor><persName>Markus Gerstmeier</persName></editor><editor><persName>Malte Rehbein</persName></editor>
+      <respStmt><resp>Automatische Transkription und Entitätenerkennung</resp><name>Google Gemini 3 Flash (2026)</name></respStmt>
+      <respStmt><resp>Layout-Korrektur, Register, Auswertungen, Edition</resp><persName>Tobias Perschl</persName><persName>Markus Gerstmeier</persName><persName>Malte Rehbein</persName><name>Claude (Anthropic)</name></respStmt>
+    </titleStmt>
+    <editionStmt><edition n="1.1">Version 1.1, <date when="2026-10-02">2026-10-02</date></edition></editionStmt>
+    <publicationStmt>
+      <publisher>Lehrstuhl für Computational Humanities, Universität Passau</publisher>
+      <date when="2026-10-02">2026</date>
+      <availability><licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0 (Transkription, Annotation, Daten). Faksimiles: Bayerische Staatsbibliothek München, NoC-NC 1.0.</licence></availability>
+    </publicationStmt>
+    <sourceDesc>
+      <bibl type="original">
+        <author>Brückner, Georg</author>
+        <title>Volks- und Landeskunde des Fürstenthums Reuß j. L. Im Auftrage des regierenden Landesfürsten verfaßt</title>
+        <pubPlace>Gera</pubPlace><publisher>Köhler</publisher><date when="1870">1870</date>
+        <extent>VIII, 840 S.</extent>
+        <idno type="URN">urn:nbn:de:bvb:12-bsb11005578-4</idno>
+        <idno type="BSB">bsb11005578</idno>
+        <idno type="shelfmark">München, Bayerische Staatsbibliothek, Germ.sp. 78 ld</idno>
+      </bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+    <projectDesc><p>Digitale Edition auf Grundlage einer automatischen Transkription des BSB-Digitalisats (Gemini 3 Flash, 2026), regelbasiert korrigiert und strukturiert; Register durch KI-Agenten bereinigt und mit Normdaten verknüpft.</p></projectDesc>
+    <editorialDecl>
+      <normalization><p>Historische Schreibung beibehalten; Umlaute modern (ä, ö, ü statt e-Superskript); langes s als s; Ligaturen aufgelöst.</p></normalization>
+      <hyphenation eol="none"><p>Silbentrennung am Zeilenende aufgelöst; am Seitenende erhaltene Trennungen sind über das Seitenende hinweg in einem Absatz zusammengeführt.</p></hyphenation>
+      <correction><p>Layoutfehler der automatischen Erkennung (Tabellenköpfe, Bogensignaturen, Trennstriche) sind regelbasiert korrigiert und je Seite protokolliert. Inhaltliche Druckfehler sind nicht korrigiert.</p></correction>
+    </editorialDecl>
+  </encodingDesc>
+  <profileDesc><langUsage><language ident="de">Deutsch (1870)</language></langUsage></profileDesc>
+  <revisionDesc><change when="2026-10-02">Version 1.1</change></revisionDesc>
+</teiHeader>
+<facsimile><surface xml:id="f0298" n="286" ulx="0" uly="0" lrx="1636" lry="2703"><graphic url="https://api.digitale-sammlungen.de/iiif/image/v2/bsb11005578_00298/full/full/0/default.jpg" mimeType="image/jpeg"/><zone xml:id="f0298-b3" type="block" ulx="130" uly="204" lrx="1589" lry="2358"/></surface></facsimile>
+<text><body><div type="page" n="286"><pb n="286" facs="#f0298"/>
+<fw type="header" place="top">IV. Der Staat.</fw>
+<ab type="heading" xml:id="p286-b1">2) Die <orgName ref="#organisation-kreisgericht">Kreisgerichte</orgName>.</ab>
+<ab type="heading" xml:id="p286-b2">a. Generalia.</ab>
+<table xml:id="p286-b3" facs="#f0298-b3" rows="14" cols="9"><row role="label"><cell role="label"><orgName ref="#organisation-kreisgericht">Kreisgerichte</orgName>.</cell><cell role="label">Registranden-Nummern</cell><cell role="label">Sühnetermine mit Erfolg.</cell><cell role="label">Sühnetermine ohne Erfolg.</cell><cell role="label">Depositalbestand baar.</cell><cell role="label">Depositalbestand in Urkunden.</cell><cell role="label">Gefangene. Untersuchungsgefangene</cell><cell role="label">Gefangene. Strafgefangene.</cell><cell role="label">Tage der Haft. Untersuchungsg.</cell></row><row><cell><placeName ref="#place-gera">Gera</placeName></cell><cell>9526</cell><cell>—</cell><cell>—</cell><cell>205</cell><cell>310470</cell><cell>138</cell><cell>98</cell><cell>1448</cell></row><row><cell><placeName ref="#place-schleiz">Schleiz</placeName></cell><cell>10040</cell><cell>—</cell><cell>—</cell><cell>—</cell><cell>1670</cell><cell>61</cell><cell>56</cell><cell>1996</cell></row><row><cell>Summe 1867</cell><cell>19566</cell><cell>—</cell><cell>—</cell><cell>205</cell><cell>312140</cell><cell>199</cell><cell>154</cell><cell>3444</cell></row><row><cell>1866</cell><cell>18907</cell><cell>—</cell><cell>—</cell><cell>2921</cell><cell>353445</cell><cell>171</cell><cell>113</cell><cell>4085</cell></row><row><cell>1865</cell><cell>19042</cell><cell>—</cell><cell>—</cell><cell>121</cell><cell>376716</cell><cell>159</cell><cell>129</cell><cell>3147</cell></row><row><cell>1864</cell><cell>18537</cell><cell>78</cell><cell>40</cell><cell>79</cell><cell>360077</cell><cell>162</cell><cell>109</cell><cell>3073</cell></row><row><cell>Gefangene. Tage der Haft. Strafgefangene.</cell><cell>Amtsrevisionen.</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>1777</cell><cell>—</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>1446</cell><cell>1</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>3201</cell><cell>1</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>2892</cell><cell>—</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>2395</cell><cell>5</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>1999</cell><cell>—</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row></table>
+<ab type="heading" xml:id="p286-b4">b. Civilia.</ab>
+<table xml:id="p286-b5" rows="14" cols="16"><row role="label"><cell role="label"><orgName ref="#organisation-kreisgericht">Kreisgerichte</orgName>.</cell><cell role="label">Förmliche Rechtsstreitigkeiten überhaupt alt.</cell><cell role="label">Förmliche Rechtsstreitigkeiten überhaupt neu.</cell><cell role="label">erledigt durch Erkenntn. alt.</cell><cell role="label">erledigt durch Erkenntn. neu.</cell><cell role="label">erledigt durch Vergleich alt.</cell><cell role="label">erledigt durch Vergleich neu.</cell><cell role="label">unerledigt alt.</cell><cell role="label">unerledigt neu.</cell><cell role="label">Berufungen gegen Erkenntnisse der Einzelrichter. alt.</cell><cell role="label">Berufungen gegen Erkenntnisse der Einzelrichter. neu.</cell><cell role="label">Davon erledigt durch Erkenntn. bestätigt.</cell><cell role="label">Davon erledigt durch Erkenntn. abgeänd.</cell><cell role="label">Davon erledigt durch Vergl. od. Zurücknahme.</cell><cell role="label">Förmliche Ehescheidung.</cell><cell role="label">Berufungen gegen Erkenntnisse des Kreisgerichts Summe.</cell></row><row><cell><placeName ref="#place-gera">Gera</placeName></cell><cell>107</cell><cell>352</cell><cell>28</cell><cell>80</cell><cell>51</cell><cell>190</cell><cell>28</cell><cell>82</cell><cell>—</cell><cell>7</cell><cell>3</cell><cell>4</cell><cell>—</cell><cell>5</cell><cell>38</cell></row><row><cell><placeName ref="#place-schleiz">Schleiz</placeName></cell><cell>180</cell><cell>386</cell><cell>86</cell><cell>114</cell><cell>44</cell><cell>156</cell><cell>50</cell><cell>116</cell><cell>—</cell><cell>54</cell><cell>32</cell><cell>21</cell><cell>1</cell><cell>5</cell><cell>105</cell></row><row><cell>Sme. 1867</cell><cell>287</cell><cell>738</cell><cell>114</cell><cell>194</cell><cell>95</cell><cell>346</cell><cell>78</cell><cell>198</cell><cell>—</cell><cell>61</cell><cell>35</cell><cell>25</cell><cell>1</cell><cell>10</cell><cell>143</cell></row><row><cell>1866</cell><cell>242</cell><cell>789</cell><cell>106</cell><cell>163</cell><cell>81</cell><cell>394</cell><cell>55</cell><cell>232</cell><cell>4</cell><cell>60</cell><cell>31</cell><cell>30</cell><cell>3</cell><cell>9</cell><cell>153</cell></row><row><cell>1865</cell><cell>214</cell><cell>673</cell><cell>73</cell><cell>159</cell><cell>87</cell><cell>326</cell><cell>54</cell><cell>188</cell><cell>4</cell><cell>100</cell><cell>56</cell><cell>38</cell><cell>6</cell><cell>11</cell><cell>149</cell></row><row><cell>1864</cell><cell>321</cell><cell>561</cell><cell>131</cell><cell>121</cell><cell>133</cell><cell>293</cell><cell>57</cell><cell>157</cell><cell>—</cell><cell>58</cell><cell>26</cell><cell>19</cell><cell>3</cell><cell>9</cell><cell>116</cell></row><row><cell>Berufungen gegen Erkenntnisse des Kreisgerichts erledigt durch Erkenntniß bestätigt.</cell><cell>Berufungen gegen Erkenntnisse des Kreisgerichts erledigt durch Erkenntniß abgeändert.</cell><cell>Berufungen gegen Erkenntnisse des Kreisgerichts Zurücknahme.</cell><cell>Concurse bei den <orgName ref="#organisation-kreisgericht">Kreisgerichten</orgName>.</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>15</cell><cell>11</cell><cell>7</cell><cell>14</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>43</cell><cell>17</cell><cell>12</cell><cell>18</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>58</cell><cell>28</cell><cell>19</cell><cell>32</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>69</cell><cell>41</cell><cell>23</cell><cell>8</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>71</cell><cell>37</cell><cell>14</cell><cell>5</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>51</cell><cell>30</cell><cell>10</cell><cell>10</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row></table>
+<p xml:id="p286-b6">Von Nichtigkeitsbeschwerden gegen Erkenntnisse der Einzelgerichte kam nur eine im Jahre 1865 vor.</p>
+</div></body></text>
+<standOff>
+<listPlace>
+<place xml:id="place-gera"><placeName>Gera</placeName><desc>Stadt</desc><location><geo>50.88029 12.08187</geo></location><idno type="GeoNames">https://www.geonames.org/2921232</idno><idno type="Wikidata">https://www.wikidata.org/entity/Q3750</idno></place>
+<place xml:id="place-schleiz"><placeName>Schleiz</placeName><desc>Stadt</desc><location><geo>50.57866 11.81024</geo></location><idno type="GeoNames">https://www.geonames.org/2838673</idno><idno type="Wikidata">https://www.wikidata.org/entity/Q32285667</idno></place>
+</listPlace>
+<listOrg>
+<org xml:id="organisation-kreisgericht"><orgName>Kreisgericht</orgName></org>
+</listOrg>
+</standOff>
+</TEI>

@@ -1,0 +1,424 @@
+{
+ "seq": 450,
+ "label": "438",
+ "slug": "438",
+ "iiif": {
+  "service": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb11005578_00450",
+  "canvas": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11005578/canvas/450",
+  "width": 1599,
+  "height": 2689
+ },
+ "kind": "text",
+ "running_header": "Ortskunde des Fürstenthums Reuss j. L.",
+ "signature": null,
+ "blocks": [
+  {
+   "id": "b1",
+   "type": "paragraph",
+   "src": 0,
+   "text": "Ihr für das Jahr 1869 aufgestellter Haushaltsplan umfasst:",
+   "spans": [],
+   "sec": "t2-1"
+  },
+  {
+   "id": "b2",
+   "type": "table",
+   "src": 1,
+   "n_cols": 3,
+   "header_rows": 1,
+   "rows": [
+    {
+     "role": "header",
+     "cells": [
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "Einnahme:",
+       "spans": []
+      },
+      {
+       "text": "Ausgabe:",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1) Kämmereikasse",
+       "spans": []
+      },
+      {
+       "text": "73973 Thlr. 11 Sgr. 6 Pf.",
+       "spans": []
+      },
+      {
+       "text": "73963 Thlr. 12 Sgr. 11 Pf.",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "2) Stadtschuldenkasse",
+       "spans": []
+      },
+      {
+       "text": "10542 \" 14 \" 11 \"",
+       "spans": []
+      },
+      {
+       "text": "10542 \" 14 \" 11 \"",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "3) Schulkasse a.",
+       "spans": []
+      },
+      {
+       "text": "27124 \" 29 \" 6 \"",
+       "spans": []
+      },
+      {
+       "text": "27124 \" 29 \" 6 \"",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "b.",
+       "spans": []
+      },
+      {
+       "text": "3216 \" 25 \" 6 \"",
+       "spans": []
+      },
+      {
+       "text": "3216 \" 25 \" 6 \"",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "c.",
+       "spans": []
+      },
+      {
+       "text": "610 \" — \" — \"",
+       "spans": []
+      },
+      {
+       "text": "610 \" — \" — \"",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "d.",
+       "spans": []
+      },
+      {
+       "text": "332 \" — \" — \"",
+       "spans": []
+      },
+      {
+       "text": "332 \" — \" — \"",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "4) Krankenhauskasse",
+       "spans": []
+      },
+      {
+       "text": "2729 \" — \" — \"",
+       "spans": []
+      },
+      {
+       "text": "2630 \" — \" — \"",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "5) Armenkasse:\na. Allgemeine Verwaltung\nb. Armenhaus",
+       "spans": []
+      },
+      {
+       "text": "6614 \" 18 \" 11 \"\n2437 \" 2 \" — \"",
+       "spans": []
+      },
+      {
+       "text": "6614 \" 18 \" 11 \"\n2437 \" 2 \" — \"",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "6) Ebelingische Stiftungskasse",
+       "spans": []
+      },
+      {
+       "text": "600 \" — \" — \"",
+       "spans": []
+      },
+      {
+       "text": "600 \" — \" — \"",
+       "spans": []
+      }
+     ]
+    }
+   ],
+   "grid": [
+    [
+     "",
+     "Einnahme:",
+     "Ausgabe:"
+    ],
+    [
+     "1) Kämmereikasse",
+     "73973 Thlr. 11 Sgr. 6 Pf.",
+     "73963 Thlr. 12 Sgr. 11 Pf."
+    ],
+    [
+     "2) Stadtschuldenkasse",
+     "10542 \" 14 \" 11 \"",
+     "10542 \" 14 \" 11 \""
+    ],
+    [
+     "3) Schulkasse a.",
+     "27124 \" 29 \" 6 \"",
+     "27124 \" 29 \" 6 \""
+    ],
+    [
+     "b.",
+     "3216 \" 25 \" 6 \"",
+     "3216 \" 25 \" 6 \""
+    ],
+    [
+     "c.",
+     "610 \" — \" — \"",
+     "610 \" — \" — \""
+    ],
+    [
+     "d.",
+     "332 \" — \" — \"",
+     "332 \" — \" — \""
+    ],
+    [
+     "4) Krankenhauskasse",
+     "2729 \" — \" — \"",
+     "2630 \" — \" — \""
+    ],
+    [
+     "5) Armenkasse:\na. Allgemeine Verwaltung\nb. Armenhaus",
+     "6614 \" 18 \" 11 \"\n2437 \" 2 \" — \"",
+     "6614 \" 18 \" 11 \"\n2437 \" 2 \" — \""
+    ],
+    [
+     "6) Ebelingische Stiftungskasse",
+     "600 \" — \" — \"",
+     "600 \" — \" — \""
+    ]
+   ],
+   "caption": null,
+   "sec": "t2-1"
+  },
+  {
+   "id": "b3",
+   "type": "paragraph",
+   "src": 2,
+   "text": "128180 Thlr. 12 Sgr. 4 Pf. 128071 Thlr. 13 Sgr. 9 Pf.",
+   "spans": [],
+   "sec": "t2-1"
+  },
+  {
+   "id": "b4",
+   "type": "paragraph",
+   "src": 3,
+   "text": "Ein Blick auf das, was die Stadt für Schulen und Kirchen, für Neubauten (das Stadtschulgebäude mit circa 80,000 Thlr.), für Wasserleitung, Strassen und Eisenbahn (Actienbetheiligung an der gössnitz-geraer Bahn mit 50,000 Thlr.) leistet, bezeugt ihre Opferfreudigkeit für das Wohl der Commune; desgleichen ist auch für das Armenwesen seitens der Stadt durch Armen- und Krankenhäuser und durch sonstige Einrichtungen möglichst Fürsorge getroffen. Daneben wirken hierfür als Privatinstitute 1 Verein für freiwillige Armenpflege, 1 Frauenverein, 1 Kleinkinderbewahranstalt mit eigenem Gebäude und Garten zur Aufnahme von 110 Kindern, 3 verschiedene Bürger- und Krankenhülfsvereine, 2 Hospitäler mit einem Gesammtvermögen von circa 80,000 Thlr. und verschiedene Vereine für Weihnachtsbescheerung und Confirmandenbekleidung. Dazu kommen zum Besten der Armen eine Reihe von milden Stiftungen, die unter städtischer Verwaltung mit staatlicher Oberaufsicht stehen.",
+   "spans": [
+    [
+     77,
+     94,
+     "Artefact"
+    ],
+    [
+     124,
+     137,
+     "Artefact"
+    ],
+    [
+     139,
+     147,
+     "Artefact"
+    ],
+    [
+     152,
+     161,
+     "Artefact"
+    ],
+    [
+     189,
+     209,
+     "Organisation"
+    ],
+    [
+     368,
+     381,
+     "Artefact"
+    ]
+   ],
+   "sec": "t2-1"
+  },
+  {
+   "id": "b5",
+   "type": "paragraph",
+   "src": 4,
+   "text": "Die Obergerichte über die Stadt standen seit 1237 stets der Landesherrschaft zu, nur 1603 waren sie dem Stadtrathe um 5000 Gulden verpfändet, aber bereits 1647 wieder eingelöst worden. Wenn der Stadtrath die Erbgerichte über Gera erhalten hat, war im Jahre 1647 nicht mehr bekannt.*) Die Landesherrschaft gesteht sie ihm in dem genannten Jahre bis auf weitere Nachforschung zu. Von den städtischen Erbgerichten waren indess damals ausgeschlossen nicht allein drei gräfliche Gebäude (altes Schloss, Canzlei und Collegium), sondern auch neun Canzleilehnhäuser (darunter das Haus der jungen Gräfin Maria Cath. von Schwarzburg und das des Georg v. Wolfersdorf auf dem Niclasberg) und vier Amtslehnhäuser, nämlich die Klotz- und Angermühle und zwei Gasthöfe, der eine vor dem Anger und der andere vor dem Schlossthore. Auch hatten die Vorstädte der Herrschaft zu frohnen, wovon die Innenstadt frei war. Ausserdem besassen die Rittergüter Leumnitz und Steinbrücken zu Gera einige Lehen bezüglich Gerichtsbarkeit. Zum Wappen hat die Stadt**) den Löwen ihrer Landesherrn; zu ihrem Wahrzeichen die Simson-Löwengruppe auf dem Marktbrunnen und die Elle***) am Baderthor.",
+   "spans": [
+    [
+     225,
+     229,
+     "Location"
+    ],
+    [
+     483,
+     496,
+     "Artefact"
+    ],
+    [
+     498,
+     505,
+     "Artefact"
+    ],
+    [
+     510,
+     519,
+     "Artefact"
+    ],
+    [
+     595,
+     622,
+     "Person"
+    ],
+    [
+     635,
+     655,
+     "Person"
+    ],
+    [
+     713,
+     734,
+     "Artefact"
+    ],
+    [
+     933,
+     941,
+     "Location"
+    ],
+    [
+     946,
+     958,
+     "Location"
+    ],
+    [
+     962,
+     966,
+     "Location"
+    ],
+    [
+     1039,
+     1044,
+     "Animal"
+    ],
+    [
+     1089,
+     1107,
+     "Artefact"
+    ],
+    [
+     1116,
+     1128,
+     "Artefact"
+    ]
+   ],
+   "sec": "t2-1"
+  }
+ ],
+ "footnotes": [
+  {
+   "id": "fn1",
+   "marker": "*)",
+   "text": "Die damalige Regierung bekennt selbst ihre Unkenntniss der Sache.",
+   "spans": []
+  },
+  {
+   "id": "fn2",
+   "marker": "**)",
+   "text": "Im Jahre 1404 siegelt sie mit dem Löwen im Schilde und dem Pfauenspiegel im Helme und mit einem Beizeichen von Blättern, mit der Umschrift: Sigillum borgensium in Gera.",
+   "spans": [
+    [
+     163,
+     167,
+     "Location"
+    ]
+   ]
+  },
+  {
+   "id": "fn3",
+   "marker": "***)",
+   "text": "Sie galt als Scheitmaass bei Holzverkäufen; dem Volke aber galt sie als Messer der Wasserfluthen oder des Blutstroms der 1450 durch die Zebracken erschlagenen Geraner.",
+   "spans": [
+    [
+     29,
+     33,
+     "Resource"
+    ]
+   ]
+  }
+ ],
+ "corrections": [],
+ "provenance": {
+  "source": "colab-2026-03",
+  "model": "gemini-3-flash-preview",
+  "timestamp": "2026-03-04T14:58:26.617822",
+  "early_schema": false
+ },
+ "section_path": [
+  "t2",
+  "t2-1"
+ ],
+ "sections": [
+  "t2-1"
+ ]
+}

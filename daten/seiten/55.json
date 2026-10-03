@@ -1,0 +1,1871 @@
+{
+ "seq": 67,
+ "label": "55",
+ "slug": "55",
+ "iiif": {
+  "service": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb11005578_00067",
+  "canvas": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11005578/canvas/67",
+  "width": 1568,
+  "height": 2694
+ },
+ "kind": "text",
+ "running_header": "7. Klima",
+ "signature": null,
+ "blocks": [
+  {
+   "id": "b1",
+   "type": "paragraph",
+   "src": 0,
+   "text": "Zur Beurtheilung des Luftdruckes auf dem Oberlande und namentlich zur Vergleichung mit der schleizer Beobachtung wird hier der fünfjährige Durchschnitt der Barometerstände in Ziegenrück beigefügt:",
+   "spans": [
+    [
+     21,
+     32,
+     "Climate"
+    ],
+    [
+     41,
+     50,
+     "Location"
+    ],
+    [
+     91,
+     100,
+     "Location"
+    ],
+    [
+     175,
+     185,
+     "Location"
+    ]
+   ],
+   "sec": "t1-1-7"
+  },
+  {
+   "id": "b2",
+   "type": "table",
+   "src": 1,
+   "n_cols": 14,
+   "header_rows": 1,
+   "rows": [
+    {
+     "role": "header",
+     "cells": [
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "Jan.",
+       "spans": []
+      },
+      {
+       "text": "Febr.",
+       "spans": []
+      },
+      {
+       "text": "März.",
+       "spans": []
+      },
+      {
+       "text": "April.",
+       "spans": []
+      },
+      {
+       "text": "Mai.",
+       "spans": []
+      },
+      {
+       "text": "Juni.",
+       "spans": []
+      },
+      {
+       "text": "Juli.",
+       "spans": []
+      },
+      {
+       "text": "Aug.",
+       "spans": []
+      },
+      {
+       "text": "Sept.",
+       "spans": []
+      },
+      {
+       "text": "Oct.",
+       "spans": []
+      },
+      {
+       "text": "Nov.",
+       "spans": []
+      },
+      {
+       "text": "Dec.",
+       "spans": []
+      },
+      {
+       "text": "Jahr.",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1851-56",
+       "spans": []
+      },
+      {
+       "text": "324,84",
+       "spans": []
+      },
+      {
+       "text": "324,23",
+       "spans": []
+      },
+      {
+       "text": "325,43",
+       "spans": []
+      },
+      {
+       "text": "324,86",
+       "spans": []
+      },
+      {
+       "text": "324,18",
+       "spans": []
+      },
+      {
+       "text": "324,94",
+       "spans": []
+      },
+      {
+       "text": "325,27",
+       "spans": []
+      },
+      {
+       "text": "324,93",
+       "spans": []
+      },
+      {
+       "text": "325,91",
+       "spans": []
+      },
+      {
+       "text": "323,78",
+       "spans": []
+      },
+      {
+       "text": "324,37",
+       "spans": []
+      },
+      {
+       "text": "325,39",
+       "spans": []
+      },
+      {
+       "text": "324,84",
+       "spans": []
+      }
+     ]
+    }
+   ],
+   "grid": [
+    [
+     "",
+     "Jan.",
+     "Febr.",
+     "März.",
+     "April.",
+     "Mai.",
+     "Juni.",
+     "Juli.",
+     "Aug.",
+     "Sept.",
+     "Oct.",
+     "Nov.",
+     "Dec.",
+     "Jahr."
+    ],
+    [
+     "1851-56",
+     "324,84",
+     "324,23",
+     "325,43",
+     "324,86",
+     "324,18",
+     "324,94",
+     "325,27",
+     "324,93",
+     "325,91",
+     "323,78",
+     "324,37",
+     "325,39",
+     "324,84"
+    ]
+   ],
+   "caption": null,
+   "sec": "t1-1-7"
+  },
+  {
+   "id": "b3",
+   "type": "paragraph",
+   "src": 2,
+   "text": "Der höchste Barometerstand betrug für diesen Zeitraum 333,94 (1853) und der tiefste 313,90.",
+   "spans": [],
+   "sec": "t1-1-7"
+  },
+  {
+   "id": "b4",
+   "type": "heading",
+   "src": 3,
+   "text": "Hinsichtlich der Temperatur ergaben die Beobachtungen:",
+   "spans": [
+    [
+     17,
+     27,
+     "Climate"
+    ]
+   ],
+   "sec": "t1-1-7",
+   "level": 5
+  },
+  {
+   "id": "b5",
+   "type": "heading",
+   "src": 4,
+   "text": "1) Für Gera:",
+   "spans": [
+    [
+     7,
+     11,
+     "Location"
+    ]
+   ],
+   "sec": "t1-1-7",
+   "level": 5
+  },
+  {
+   "id": "b6",
+   "type": "heading",
+   "src": 5,
+   "text": "a) Wärmebewegung durch die einzelnen Monate:",
+   "spans": [
+    [
+     3,
+     16,
+     "Climate"
+    ]
+   ],
+   "sec": "t1-1-7",
+   "level": 5
+  },
+  {
+   "id": "b7",
+   "type": "table",
+   "src": 6,
+   "n_cols": 13,
+   "header_rows": 1,
+   "rows": [
+    {
+     "role": "header",
+     "cells": [
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "Jan.",
+       "spans": []
+      },
+      {
+       "text": "Febr.",
+       "spans": []
+      },
+      {
+       "text": "März.",
+       "spans": []
+      },
+      {
+       "text": "Apr.",
+       "spans": []
+      },
+      {
+       "text": "Mai.",
+       "spans": []
+      },
+      {
+       "text": "Juni.",
+       "spans": []
+      },
+      {
+       "text": "Juli.",
+       "spans": []
+      },
+      {
+       "text": "Aug.",
+       "spans": []
+      },
+      {
+       "text": "Sept.",
+       "spans": []
+      },
+      {
+       "text": "Oct.",
+       "spans": []
+      },
+      {
+       "text": "Nov.",
+       "spans": []
+      },
+      {
+       "text": "Dec.",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1856",
+       "spans": []
+      },
+      {
+       "text": "0,89",
+       "spans": []
+      },
+      {
+       "text": "2,35",
+       "spans": []
+      },
+      {
+       "text": "— 6,8",
+       "spans": []
+      },
+      {
+       "text": "8,15",
+       "spans": []
+      },
+      {
+       "text": "9,91",
+       "spans": []
+      },
+      {
+       "text": "13,52",
+       "spans": []
+      },
+      {
+       "text": "13,62",
+       "spans": []
+      },
+      {
+       "text": "15,04",
+       "spans": []
+      },
+      {
+       "text": "11,40",
+       "spans": []
+      },
+      {
+       "text": "8,70",
+       "spans": []
+      },
+      {
+       "text": "0,83",
+       "spans": []
+      },
+      {
+       "text": "1,62",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1857",
+       "spans": []
+      },
+      {
+       "text": "— 1,30",
+       "spans": []
+      },
+      {
+       "text": "0,70",
+       "spans": []
+      },
+      {
+       "text": "3,03",
+       "spans": []
+      },
+      {
+       "text": "6,50",
+       "spans": []
+      },
+      {
+       "text": "10,71",
+       "spans": []
+      },
+      {
+       "text": "13,53",
+       "spans": []
+      },
+      {
+       "text": "15,37",
+       "spans": []
+      },
+      {
+       "text": "15,39",
+       "spans": []
+      },
+      {
+       "text": "12,69",
+       "spans": []
+      },
+      {
+       "text": "9,60",
+       "spans": []
+      },
+      {
+       "text": "2,67",
+       "spans": []
+      },
+      {
+       "text": "2,20",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1858",
+       "spans": []
+      },
+      {
+       "text": "— 1,44",
+       "spans": []
+      },
+      {
+       "text": "— 2,49",
+       "spans": []
+      },
+      {
+       "text": "1,70",
+       "spans": []
+      },
+      {
+       "text": "6,32",
+       "spans": []
+      },
+      {
+       "text": "9,70",
+       "spans": []
+      },
+      {
+       "text": "15,81",
+       "spans": []
+      },
+      {
+       "text": "14,20",
+       "spans": []
+      },
+      {
+       "text": "15,95",
+       "spans": []
+      },
+      {
+       "text": "12,95",
+       "spans": []
+      },
+      {
+       "text": "7,84",
+       "spans": []
+      },
+      {
+       "text": "2,10",
+       "spans": []
+      },
+      {
+       "text": "1,12",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1859",
+       "spans": []
+      },
+      {
+       "text": "1,35",
+       "spans": []
+      },
+      {
+       "text": "2,35",
+       "spans": []
+      },
+      {
+       "text": "5,71",
+       "spans": []
+      },
+      {
+       "text": "6,47",
+       "spans": []
+      },
+      {
+       "text": "10,42",
+       "spans": []
+      },
+      {
+       "text": "13,60",
+       "spans": []
+      },
+      {
+       "text": "16,91",
+       "spans": []
+      },
+      {
+       "text": "16,24",
+       "spans": []
+      },
+      {
+       "text": "11,64",
+       "spans": []
+      },
+      {
+       "text": "8,68",
+       "spans": []
+      },
+      {
+       "text": "2,15",
+       "spans": []
+      },
+      {
+       "text": "— 1,30",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1860",
+       "spans": []
+      },
+      {
+       "text": "1,60",
+       "spans": []
+      },
+      {
+       "text": "— 1,46",
+       "spans": []
+      },
+      {
+       "text": "1,60",
+       "spans": []
+      },
+      {
+       "text": "5,68",
+       "spans": []
+      },
+      {
+       "text": "11,06",
+       "spans": []
+      },
+      {
+       "text": "13,18",
+       "spans": []
+      },
+      {
+       "text": "12,53",
+       "spans": []
+      },
+      {
+       "text": "13,62",
+       "spans": []
+      },
+      {
+       "text": "11,31",
+       "spans": []
+      },
+      {
+       "text": "6,77",
+       "spans": []
+      },
+      {
+       "text": "0,72",
+       "spans": []
+      },
+      {
+       "text": "— 1,23",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1861",
+       "spans": []
+      },
+      {
+       "text": "— 5,11",
+       "spans": []
+      },
+      {
+       "text": "2,94",
+       "spans": []
+      },
+      {
+       "text": "4,52",
+       "spans": []
+      },
+      {
+       "text": "5,02",
+       "spans": []
+      },
+      {
+       "text": "8,90",
+       "spans": []
+      },
+      {
+       "text": "14,00",
+       "spans": []
+      },
+      {
+       "text": "14,44",
+       "spans": []
+      },
+      {
+       "text": "14,58",
+       "spans": []
+      },
+      {
+       "text": "11,47",
+       "spans": []
+      },
+      {
+       "text": "8,02",
+       "spans": []
+      },
+      {
+       "text": "3,63",
+       "spans": []
+      },
+      {
+       "text": "— 0,11",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1862",
+       "spans": []
+      },
+      {
+       "text": "— 2,16",
+       "spans": []
+      },
+      {
+       "text": "0,11",
+       "spans": []
+      },
+      {
+       "text": "5,81",
+       "spans": []
+      },
+      {
+       "text": "8,53",
+       "spans": []
+      },
+      {
+       "text": "12,85",
+       "spans": []
+      },
+      {
+       "text": "13,05",
+       "spans": []
+      },
+      {
+       "text": "14,26",
+       "spans": []
+      },
+      {
+       "text": "13,41",
+       "spans": []
+      },
+      {
+       "text": "11,39",
+       "spans": []
+      },
+      {
+       "text": "9,02",
+       "spans": []
+      },
+      {
+       "text": "2,31",
+       "spans": []
+      },
+      {
+       "text": "1,30",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1863",
+       "spans": []
+      },
+      {
+       "text": "2,40",
+       "spans": []
+      },
+      {
+       "text": "2,20",
+       "spans": []
+      },
+      {
+       "text": "4,20",
+       "spans": []
+      },
+      {
+       "text": "6,80",
+       "spans": []
+      },
+      {
+       "text": "10,20",
+       "spans": []
+      },
+      {
+       "text": "13,50",
+       "spans": []
+      },
+      {
+       "text": "13,40",
+       "spans": []
+      },
+      {
+       "text": "15,60",
+       "spans": []
+      },
+      {
+       "text": "11,40",
+       "spans": []
+      },
+      {
+       "text": "9,00",
+       "spans": []
+      },
+      {
+       "text": "3,90",
+       "spans": []
+      },
+      {
+       "text": "2,70",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1864",
+       "spans": []
+      },
+      {
+       "text": "— 4,90",
+       "spans": []
+      },
+      {
+       "text": "— 0,70",
+       "spans": []
+      },
+      {
+       "text": "3,70",
+       "spans": []
+      },
+      {
+       "text": "4,40",
+       "spans": []
+      },
+      {
+       "text": "8,00",
+       "spans": []
+      },
+      {
+       "text": "12,90",
+       "spans": []
+      },
+      {
+       "text": "12,80",
+       "spans": []
+      },
+      {
+       "text": "12,20",
+       "spans": []
+      },
+      {
+       "text": "10,90",
+       "spans": []
+      },
+      {
+       "text": "5,90",
+       "spans": []
+      },
+      {
+       "text": "1,10",
+       "spans": []
+      },
+      {
+       "text": "— 3,50",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1865",
+       "spans": []
+      },
+      {
+       "text": "0,10",
+       "spans": []
+      },
+      {
+       "text": "— 4,30",
+       "spans": []
+      },
+      {
+       "text": "— 1,00",
+       "spans": []
+      },
+      {
+       "text": "7,60",
+       "spans": []
+      },
+      {
+       "text": "13,10",
+       "spans": []
+      },
+      {
+       "text": "11,50",
+       "spans": []
+      },
+      {
+       "text": "16,50",
+       "spans": []
+      },
+      {
+       "text": "13,60",
+       "spans": []
+      },
+      {
+       "text": "11,60",
+       "spans": []
+      },
+      {
+       "text": "7,30",
+       "spans": []
+      },
+      {
+       "text": "4,70",
+       "spans": []
+      },
+      {
+       "text": "0,10",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1866",
+       "spans": []
+      },
+      {
+       "text": "2,80",
+       "spans": []
+      },
+      {
+       "text": "3,00",
+       "spans": []
+      },
+      {
+       "text": "1,70",
+       "spans": []
+      },
+      {
+       "text": "7,30",
+       "spans": []
+      },
+      {
+       "text": "8,10",
+       "spans": []
+      },
+      {
+       "text": "14,70",
+       "spans": []
+      },
+      {
+       "text": "13,20",
+       "spans": []
+      },
+      {
+       "text": "12,90",
+       "spans": []
+      },
+      {
+       "text": "12,90",
+       "spans": []
+      },
+      {
+       "text": "4,90",
+       "spans": []
+      },
+      {
+       "text": "3,50",
+       "spans": []
+      },
+      {
+       "text": "2,00",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1867",
+       "spans": []
+      },
+      {
+       "text": "— 0,30",
+       "spans": []
+      },
+      {
+       "text": "3,60",
+       "spans": []
+      },
+      {
+       "text": "1,00",
+       "spans": []
+      },
+      {
+       "text": "6,60",
+       "spans": []
+      },
+      {
+       "text": "9,50",
+       "spans": []
+      },
+      {
+       "text": "13,60",
+       "spans": []
+      },
+      {
+       "text": "13,50",
+       "spans": []
+      },
+      {
+       "text": "14,50",
+       "spans": []
+      },
+      {
+       "text": "12,10",
+       "spans": []
+      },
+      {
+       "text": "6,60",
+       "spans": []
+      },
+      {
+       "text": "2,30",
+       "spans": []
+      },
+      {
+       "text": "— 0,50",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "total",
+     "cells": [
+      {
+       "text": "Mittel",
+       "spans": []
+      },
+      {
+       "text": "— 0,51",
+       "spans": []
+      },
+      {
+       "text": "0,69",
+       "spans": []
+      },
+      {
+       "text": "2,09",
+       "spans": []
+      },
+      {
+       "text": "6,61",
+       "spans": []
+      },
+      {
+       "text": "10,20",
+       "spans": []
+      },
+      {
+       "text": "13,57",
+       "spans": []
+      },
+      {
+       "text": "14,23",
+       "spans": []
+      },
+      {
+       "text": "14,42",
+       "spans": []
+      },
+      {
+       "text": "11,81",
+       "spans": []
+      },
+      {
+       "text": "7,69",
+       "spans": []
+      },
+      {
+       "text": "2,49",
+       "spans": []
+      },
+      {
+       "text": "0,37",
+       "spans": []
+      }
+     ]
+    }
+   ],
+   "grid": [
+    [
+     "",
+     "Jan.",
+     "Febr.",
+     "März.",
+     "Apr.",
+     "Mai.",
+     "Juni.",
+     "Juli.",
+     "Aug.",
+     "Sept.",
+     "Oct.",
+     "Nov.",
+     "Dec."
+    ],
+    [
+     "1856",
+     "0,89",
+     "2,35",
+     "— 6,8",
+     "8,15",
+     "9,91",
+     "13,52",
+     "13,62",
+     "15,04",
+     "11,40",
+     "8,70",
+     "0,83",
+     "1,62"
+    ],
+    [
+     "1857",
+     "— 1,30",
+     "0,70",
+     "3,03",
+     "6,50",
+     "10,71",
+     "13,53",
+     "15,37",
+     "15,39",
+     "12,69",
+     "9,60",
+     "2,67",
+     "2,20"
+    ],
+    [
+     "1858",
+     "— 1,44",
+     "— 2,49",
+     "1,70",
+     "6,32",
+     "9,70",
+     "15,81",
+     "14,20",
+     "15,95",
+     "12,95",
+     "7,84",
+     "2,10",
+     "1,12"
+    ],
+    [
+     "1859",
+     "1,35",
+     "2,35",
+     "5,71",
+     "6,47",
+     "10,42",
+     "13,60",
+     "16,91",
+     "16,24",
+     "11,64",
+     "8,68",
+     "2,15",
+     "— 1,30"
+    ],
+    [
+     "1860",
+     "1,60",
+     "— 1,46",
+     "1,60",
+     "5,68",
+     "11,06",
+     "13,18",
+     "12,53",
+     "13,62",
+     "11,31",
+     "6,77",
+     "0,72",
+     "— 1,23"
+    ],
+    [
+     "1861",
+     "— 5,11",
+     "2,94",
+     "4,52",
+     "5,02",
+     "8,90",
+     "14,00",
+     "14,44",
+     "14,58",
+     "11,47",
+     "8,02",
+     "3,63",
+     "— 0,11"
+    ],
+    [
+     "1862",
+     "— 2,16",
+     "0,11",
+     "5,81",
+     "8,53",
+     "12,85",
+     "13,05",
+     "14,26",
+     "13,41",
+     "11,39",
+     "9,02",
+     "2,31",
+     "1,30"
+    ],
+    [
+     "1863",
+     "2,40",
+     "2,20",
+     "4,20",
+     "6,80",
+     "10,20",
+     "13,50",
+     "13,40",
+     "15,60",
+     "11,40",
+     "9,00",
+     "3,90",
+     "2,70"
+    ],
+    [
+     "1864",
+     "— 4,90",
+     "— 0,70",
+     "3,70",
+     "4,40",
+     "8,00",
+     "12,90",
+     "12,80",
+     "12,20",
+     "10,90",
+     "5,90",
+     "1,10",
+     "— 3,50"
+    ],
+    [
+     "1865",
+     "0,10",
+     "— 4,30",
+     "— 1,00",
+     "7,60",
+     "13,10",
+     "11,50",
+     "16,50",
+     "13,60",
+     "11,60",
+     "7,30",
+     "4,70",
+     "0,10"
+    ],
+    [
+     "1866",
+     "2,80",
+     "3,00",
+     "1,70",
+     "7,30",
+     "8,10",
+     "14,70",
+     "13,20",
+     "12,90",
+     "12,90",
+     "4,90",
+     "3,50",
+     "2,00"
+    ],
+    [
+     "1867",
+     "— 0,30",
+     "3,60",
+     "1,00",
+     "6,60",
+     "9,50",
+     "13,60",
+     "13,50",
+     "14,50",
+     "12,10",
+     "6,60",
+     "2,30",
+     "— 0,50"
+    ],
+    [
+     "Mittel",
+     "— 0,51",
+     "0,69",
+     "2,09",
+     "6,61",
+     "10,20",
+     "13,57",
+     "14,23",
+     "14,42",
+     "11,81",
+     "7,69",
+     "2,49",
+     "0,37"
+    ]
+   ],
+   "caption": null,
+   "sec": "t1-1-7"
+  },
+  {
+   "id": "b8",
+   "type": "heading",
+   "src": 7,
+   "text": "b) Mittlere, höchste und tiefste Thermometerstände:",
+   "spans": [],
+   "sec": "t1-1-7",
+   "level": 5
+  },
+  {
+   "id": "b9",
+   "type": "table",
+   "src": 8,
+   "n_cols": 6,
+   "header_rows": 1,
+   "rows": [
+    {
+     "role": "header",
+     "cells": [
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "Sommermittel.*)",
+       "spans": []
+      },
+      {
+       "text": "Wintermittel.**)",
+       "spans": []
+      },
+      {
+       "text": "Höchster Stand.",
+       "spans": []
+      },
+      {
+       "text": "Tiefster Stand.",
+       "spans": []
+      },
+      {
+       "text": "Jahresmittel.",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1856",
+       "spans": []
+      },
+      {
+       "text": "11,94",
+       "spans": []
+      },
+      {
+       "text": "1,26",
+       "spans": []
+      },
+      {
+       "text": "25,0",
+       "spans": []
+      },
+      {
+       "text": "—15,5",
+       "spans": []
+      },
+      {
+       "text": "6,60",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1857",
+       "spans": []
+      },
+      {
+       "text": "12,36",
+       "spans": []
+      },
+      {
+       "text": "2,82",
+       "spans": []
+      },
+      {
+       "text": "26,8",
+       "spans": []
+      },
+      {
+       "text": "—14,4",
+       "spans": []
+      },
+      {
+       "text": "7,59",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1858",
+       "spans": []
+      },
+      {
+       "text": "12,48",
+       "spans": []
+      },
+      {
+       "text": "1,47",
+       "spans": []
+      },
+      {
+       "text": "26,6",
+       "spans": []
+      },
+      {
+       "text": "—15,4",
+       "spans": []
+      },
+      {
+       "text": "6,97",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1859",
+       "spans": []
+      },
+      {
+       "text": "12,54",
+       "spans": []
+      },
+      {
+       "text": "3,15",
+       "spans": []
+      },
+      {
+       "text": "28,7",
+       "spans": []
+      },
+      {
+       "text": "—11,3",
+       "spans": []
+      },
+      {
+       "text": "7,84",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1860",
+       "spans": []
+      },
+      {
+       "text": "11,23",
+       "spans": []
+      },
+      {
+       "text": "1,33",
+       "spans": []
+      },
+      {
+       "text": "24,4",
+       "spans": []
+      },
+      {
+       "text": "—12,4",
+       "spans": []
+      },
+      {
+       "text": "6,28",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1861",
+       "spans": []
+      },
+      {
+       "text": "11,40",
+       "spans": []
+      },
+      {
+       "text": "2,31",
+       "spans": []
+      },
+      {
+       "text": "27,3",
+       "spans": []
+      },
+      {
+       "text": "—22,7",
+       "spans": []
+      },
+      {
+       "text": "6,85",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1862",
+       "spans": []
+      },
+      {
+       "text": "12,24",
+       "spans": []
+      },
+      {
+       "text": "2,73",
+       "spans": []
+      },
+      {
+       "text": "26,4",
+       "spans": []
+      },
+      {
+       "text": "—13,0",
+       "spans": []
+      },
+      {
+       "text": "7,48",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1863",
+       "spans": []
+      },
+      {
+       "text": "11,81",
+       "spans": []
+      },
+      {
+       "text": "4,06",
+       "spans": []
+      },
+      {
+       "text": "27,0",
+       "spans": []
+      },
+      {
+       "text": "—7,5",
+       "spans": []
+      },
+      {
+       "text": "7,93",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1864",
+       "spans": []
+      },
+      {
+       "text": "10,20",
+       "spans": []
+      },
+      {
+       "text": "0,23",
+       "spans": []
+      },
+      {
+       "text": "23,0",
+       "spans": []
+      },
+      {
+       "text": "—15,5",
+       "spans": []
+      },
+      {
+       "text": "5,21",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1865",
+       "spans": []
+      },
+      {
+       "text": "12,31",
+       "spans": []
+      },
+      {
+       "text": "1,11",
+       "spans": []
+      },
+      {
+       "text": "27,2",
+       "spans": []
+      },
+      {
+       "text": "—17,5",
+       "spans": []
+      },
+      {
+       "text": "6,71",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1866",
+       "spans": []
+      },
+      {
+       "text": "11,51",
+       "spans": []
+      },
+      {
+       "text": "2,98",
+       "spans": []
+      },
+      {
+       "text": "24,5",
+       "spans": []
+      },
+      {
+       "text": "—8,1",
+       "spans": []
+      },
+      {
+       "text": "7,24",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1867",
+       "spans": []
+      },
+      {
+       "text": "11,63",
+       "spans": []
+      },
+      {
+       "text": "2,11",
+       "spans": []
+      },
+      {
+       "text": "24,5",
+       "spans": []
+      },
+      {
+       "text": "—14,5",
+       "spans": []
+      },
+      {
+       "text": "6,87",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "total",
+     "cells": [
+      {
+       "text": "Durchschnitt",
+       "spans": []
+      },
+      {
+       "text": "11,80",
+       "spans": []
+      },
+      {
+       "text": "2,13",
+       "spans": []
+      },
+      {
+       "text": "25,9",
+       "spans": []
+      },
+      {
+       "text": "—13,9",
+       "spans": []
+      },
+      {
+       "text": "6,96",
+       "spans": []
+      }
+     ]
+    }
+   ],
+   "grid": [
+    [
+     "",
+     "Sommer- mittel.*)",
+     "Winter- mittel.**)",
+     "Höchster Stand.",
+     "Tiefster Stand.",
+     "Jahres- mittel."
+    ],
+    [
+     "1856",
+     "11,94",
+     "1,26",
+     "25,0",
+     "—15,5",
+     "6,60"
+    ],
+    [
+     "1857",
+     "12,36",
+     "2,82",
+     "26,8",
+     "—14,4",
+     "7,59"
+    ],
+    [
+     "1858",
+     "12,48",
+     "1,47",
+     "26,6",
+     "—15,4",
+     "6,97"
+    ],
+    [
+     "1859",
+     "12,54",
+     "3,15",
+     "28,7",
+     "—11,3",
+     "7,84"
+    ],
+    [
+     "1860",
+     "11,23",
+     "1,33",
+     "24,4",
+     "—12,4",
+     "6,28"
+    ],
+    [
+     "1861",
+     "11,40",
+     "2,31",
+     "27,3",
+     "—22,7",
+     "6,85"
+    ],
+    [
+     "1862",
+     "12,24",
+     "2,73",
+     "26,4",
+     "—13,0",
+     "7,48"
+    ],
+    [
+     "1863",
+     "11,81",
+     "4,06",
+     "27,0",
+     "—7,5",
+     "7,93"
+    ],
+    [
+     "1864",
+     "10,20",
+     "0,23",
+     "23,0",
+     "—15,5",
+     "5,21"
+    ],
+    [
+     "1865",
+     "12,31",
+     "1,11",
+     "27,2",
+     "—17,5",
+     "6,71"
+    ],
+    [
+     "1866",
+     "11,51",
+     "2,98",
+     "24,5",
+     "—8,1",
+     "7,24"
+    ],
+    [
+     "1867",
+     "11,63",
+     "2,11",
+     "24,5",
+     "—14,5",
+     "6,87"
+    ],
+    [
+     "Durchschnitt",
+     "11,80",
+     "2,13",
+     "25,9",
+     "—13,9",
+     "6,96"
+    ]
+   ],
+   "caption": null,
+   "sec": "t1-1-7"
+  }
+ ],
+ "footnotes": [
+  {
+   "id": "fn1",
+   "marker": "*)",
+   "text": "Vom April bis Ende September.",
+   "spans": []
+  },
+  {
+   "id": "fn2",
+   "marker": "**)",
+   "text": "Vom October bis Ende December und vom Januar bis Ende März.",
+   "spans": []
+  }
+ ],
+ "corrections": [
+  {
+   "rule": "join_linebreak_hyphen",
+   "before": "Sommer- mittel",
+   "after": "Sommermittel"
+  },
+  {
+   "rule": "join_linebreak_hyphen",
+   "before": "Winter- mittel",
+   "after": "Wintermittel"
+  },
+  {
+   "rule": "join_linebreak_hyphen",
+   "before": "Jahres- mittel",
+   "after": "Jahresmittel"
+  }
+ ],
+ "provenance": {
+  "source": "colab-2026-01",
+  "model": "gemini-3-flash-preview",
+  "timestamp": "2026-01-06T03:19:40.628474",
+  "early_schema": false
+ },
+ "section_path": [
+  "t1",
+  "t1-1",
+  "t1-1-7"
+ ],
+ "sections": [
+  "t1-1-7"
+ ]
+}

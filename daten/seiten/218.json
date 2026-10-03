@@ -1,0 +1,1725 @@
+{
+ "seq": 230,
+ "label": "218",
+ "slug": "218",
+ "iiif": {
+  "service": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb11005578_00230",
+  "canvas": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11005578/canvas/230",
+  "width": 1629,
+  "height": 2702
+ },
+ "kind": "text",
+ "running_header": "III. Die Volksbetriebsamkeit.",
+ "signature": null,
+ "blocks": [
+  {
+   "id": "b1",
+   "type": "heading",
+   "src": 0,
+   "text": "a) Kammergüter.",
+   "spans": [],
+   "sec": "t1-3-2",
+   "level": 5
+  },
+  {
+   "id": "b2",
+   "type": "table",
+   "src": 1,
+   "n_cols": 6,
+   "header_rows": 2,
+   "rows": [
+    {
+     "role": "header",
+     "cells": [
+      {
+       "text": "Landestheile.",
+       "spans": []
+      },
+      {
+       "text": "Hofraum. Morgen.",
+       "spans": []
+      },
+      {
+       "text": "Gärten. Morgen.",
+       "spans": [
+        [
+         0,
+         6,
+         "Environment"
+        ]
+       ]
+      },
+      {
+       "text": "Feld. Morgen.",
+       "spans": [
+        [
+         0,
+         4,
+         "Environment"
+        ]
+       ]
+      },
+      {
+       "text": "Wiese. Morgen.",
+       "spans": [
+        [
+         0,
+         5,
+         "Environment"
+        ]
+       ]
+      },
+      {
+       "text": "Nadelwald. Morgen.",
+       "spans": [
+        [
+         0,
+         9,
+         "Plant"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "role": "header",
+     "cells": [
+      {
+       "text": "Gera.",
+       "spans": [
+        [
+         0,
+         4,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Bieblach (Schäferei) . . .",
+       "spans": [
+        [
+         0,
+         8,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "1,62",
+       "spans": []
+      },
+      {
+       "text": "0,55",
+       "spans": []
+      },
+      {
+       "text": "1,93",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Ernsee",
+       "spans": [
+        [
+         0,
+         6,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "3,67",
+       "spans": []
+      },
+      {
+       "text": "4,69",
+       "spans": []
+      },
+      {
+       "text": "328,80",
+       "spans": []
+      },
+      {
+       "text": "19,00",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Großaga",
+       "spans": [
+        [
+         0,
+         7,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "3,31",
+       "spans": []
+      },
+      {
+       "text": "14,96",
+       "spans": []
+      },
+      {
+       "text": "460,49",
+       "spans": []
+      },
+      {
+       "text": "94,79",
+       "spans": []
+      },
+      {
+       "text": "160,26",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Großsaara",
+       "spans": [
+        [
+         0,
+         9,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "2,92",
+       "spans": []
+      },
+      {
+       "text": "4,78",
+       "spans": []
+      },
+      {
+       "text": "158,73",
+       "spans": []
+      },
+      {
+       "text": "87,62",
+       "spans": []
+      },
+      {
+       "text": "47,80",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Kleinaga",
+       "spans": [
+        [
+         0,
+         8,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "3,13",
+       "spans": []
+      },
+      {
+       "text": "17,79",
+       "spans": []
+      },
+      {
+       "text": "459,77",
+       "spans": []
+      },
+      {
+       "text": "92,78",
+       "spans": []
+      },
+      {
+       "text": "30,56",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Kleinsaara",
+       "spans": [
+        [
+         0,
+         10,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "0,85",
+       "spans": []
+      },
+      {
+       "text": "3,27",
+       "spans": []
+      },
+      {
+       "text": "250,84",
+       "spans": []
+      },
+      {
+       "text": "37,27",
+       "spans": []
+      },
+      {
+       "text": "35,52",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Laasen mit Steinertsberg",
+       "spans": [
+        [
+         0,
+         6,
+         "Location"
+        ],
+        [
+         11,
+         24,
+         "Natural Object"
+        ]
+       ]
+      },
+      {
+       "text": "1,72",
+       "spans": []
+      },
+      {
+       "text": "9,08",
+       "spans": []
+      },
+      {
+       "text": "484,17",
+       "spans": []
+      },
+      {
+       "text": "35,72",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Langenberg",
+       "spans": [
+        [
+         0,
+         10,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "2,57",
+       "spans": []
+      },
+      {
+       "text": "1,19",
+       "spans": []
+      },
+      {
+       "text": "200,22",
+       "spans": []
+      },
+      {
+       "text": "44,24",
+       "spans": []
+      },
+      {
+       "text": "166,02",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Niederndorf",
+       "spans": [
+        [
+         0,
+         11,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "1,82",
+       "spans": []
+      },
+      {
+       "text": "7,74",
+       "spans": []
+      },
+      {
+       "text": "291,75",
+       "spans": []
+      },
+      {
+       "text": "73,32",
+       "spans": []
+      },
+      {
+       "text": "784,32",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Rubitz",
+       "spans": [
+        [
+         0,
+         6,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "1,70",
+       "spans": []
+      },
+      {
+       "text": "5,85",
+       "spans": []
+      },
+      {
+       "text": "217,80",
+       "spans": []
+      },
+      {
+       "text": "78,24",
+       "spans": []
+      },
+      {
+       "text": "401,02",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Seeligenstädt",
+       "spans": [
+        [
+         0,
+         13,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "0,73",
+       "spans": []
+      },
+      {
+       "text": "1,68",
+       "spans": []
+      },
+      {
+       "text": "88,03",
+       "spans": []
+      },
+      {
+       "text": "13,50",
+       "spans": []
+      },
+      {
+       "text": "2,59",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Tinz",
+       "spans": [
+        [
+         0,
+         4,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "3,09",
+       "spans": []
+      },
+      {
+       "text": "16,25",
+       "spans": []
+      },
+      {
+       "text": "306,26",
+       "spans": []
+      },
+      {
+       "text": "129,82",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Untermhaus",
+       "spans": [
+        [
+         0,
+         10,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "2,50",
+       "spans": []
+      },
+      {
+       "text": "0,35",
+       "spans": []
+      },
+      {
+       "text": "54,24",
+       "spans": []
+      },
+      {
+       "text": "176,28",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Ernseer Forst",
+       "spans": [
+        [
+         0,
+         13,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "0,74",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "4,96",
+       "spans": []
+      },
+      {
+       "text": "6,89",
+       "spans": []
+      },
+      {
+       "text": "14,61",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Cossen-Forst",
+       "spans": [
+        [
+         0,
+         12,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "0,02",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "9,54",
+       "spans": []
+      },
+      {
+       "text": "320,22",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "total",
+     "cells": [
+      {
+       "text": "Summe",
+       "spans": []
+      },
+      {
+       "text": "30,40",
+       "spans": []
+      },
+      {
+       "text": "88,19",
+       "spans": []
+      },
+      {
+       "text": "3308,00",
+       "spans": []
+      },
+      {
+       "text": "899,04",
+       "spans": []
+      },
+      {
+       "text": "3409,31",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "group",
+     "cells": [
+      {
+       "text": "Schleiz.",
+       "spans": [
+        [
+         0,
+         7,
+         "Location"
+        ]
+       ],
+       "colspan": 6
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Schleiz",
+       "spans": [
+        [
+         0,
+         7,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "4,11",
+       "spans": []
+      },
+      {
+       "text": "0,80",
+       "spans": []
+      },
+      {
+       "text": "63,12",
+       "spans": []
+      },
+      {
+       "text": "120,95",
+       "spans": []
+      },
+      {
+       "text": "20,38",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Saalburg (Vorwerk) . . .",
+       "spans": [
+        [
+         0,
+         8,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "1,02",
+       "spans": []
+      },
+      {
+       "text": "2,68",
+       "spans": []
+      },
+      {
+       "text": "0,09",
+       "spans": []
+      },
+      {
+       "text": "89,53",
+       "spans": []
+      },
+      {
+       "text": "36,12",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Dittersdorf",
+       "spans": [
+        [
+         0,
+         11,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "1,18",
+       "spans": []
+      },
+      {
+       "text": "2,68",
+       "spans": []
+      },
+      {
+       "text": "131,57",
+       "spans": []
+      },
+      {
+       "text": "99,16",
+       "spans": []
+      },
+      {
+       "text": "288,86",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Langenwolschendorf . . .",
+       "spans": [
+        [
+         0,
+         18,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "1,66",
+       "spans": []
+      },
+      {
+       "text": "8,45",
+       "spans": []
+      },
+      {
+       "text": "272,85",
+       "spans": []
+      },
+      {
+       "text": "60,57",
+       "spans": []
+      },
+      {
+       "text": "58,41",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Neuärgerniß",
+       "spans": [
+        [
+         0,
+         11,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "0,87",
+       "spans": []
+      },
+      {
+       "text": "1,79",
+       "spans": []
+      },
+      {
+       "text": "51,34",
+       "spans": []
+      },
+      {
+       "text": "41,36",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Oberböhmsdorf",
+       "spans": [
+        [
+         0,
+         13,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "1,36",
+       "spans": []
+      },
+      {
+       "text": "2,16",
+       "spans": []
+      },
+      {
+       "text": "424,44",
+       "spans": []
+      },
+      {
+       "text": "207,39",
+       "spans": []
+      },
+      {
+       "text": "10,68",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Dettersdorf",
+       "spans": [
+        [
+         0,
+         11,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "4,72",
+       "spans": []
+      },
+      {
+       "text": "2,09",
+       "spans": []
+      },
+      {
+       "text": "210,36",
+       "spans": []
+      },
+      {
+       "text": "134,74",
+       "spans": []
+      },
+      {
+       "text": "7,21",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Oschitz",
+       "spans": [
+        [
+         0,
+         7,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "4,68",
+       "spans": []
+      },
+      {
+       "text": "9,77",
+       "spans": []
+      },
+      {
+       "text": "510,88",
+       "spans": []
+      },
+      {
+       "text": "276,75",
+       "spans": []
+      },
+      {
+       "text": "705,19",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Pahren",
+       "spans": [
+        [
+         0,
+         6,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "2,96",
+       "spans": []
+      },
+      {
+       "text": "3,14",
+       "spans": []
+      },
+      {
+       "text": "337,65",
+       "spans": []
+      },
+      {
+       "text": "104,73",
+       "spans": []
+      },
+      {
+       "text": "387,11",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Pöllwitz (Forstgut) . . .",
+       "spans": [
+        [
+         0,
+         8,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "0,87",
+       "spans": []
+      },
+      {
+       "text": "0,55",
+       "spans": []
+      },
+      {
+       "text": "9,52",
+       "spans": []
+      },
+      {
+       "text": "33,53",
+       "spans": []
+      },
+      {
+       "text": "0,68",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Schilbach (Schäferei) . .",
+       "spans": [
+        [
+         0,
+         9,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "1,40",
+       "spans": []
+      },
+      {
+       "text": "0,04",
+       "spans": []
+      },
+      {
+       "text": "198,52",
+       "spans": []
+      },
+      {
+       "text": "60,31",
+       "spans": []
+      },
+      {
+       "text": "90,19",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Seubtendorf",
+       "spans": [
+        [
+         0,
+         11,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "1,38",
+       "spans": []
+      },
+      {
+       "text": "3,84",
+       "spans": []
+      },
+      {
+       "text": "160,90",
+       "spans": []
+      },
+      {
+       "text": "68,04",
+       "spans": []
+      },
+      {
+       "text": "213,70",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Weckersdorf (Forsthaus) .",
+       "spans": [
+        [
+         0,
+         11,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "0,43",
+       "spans": []
+      },
+      {
+       "text": "0,67",
+       "spans": []
+      },
+      {
+       "text": "8,74",
+       "spans": []
+      },
+      {
+       "text": "28,30",
+       "spans": []
+      },
+      {
+       "text": "43,92",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "total",
+     "cells": [
+      {
+       "text": "Summe",
+       "spans": []
+      },
+      {
+       "text": "26,61",
+       "spans": []
+      },
+      {
+       "text": "38,65",
+       "spans": []
+      },
+      {
+       "text": "2400,00",
+       "spans": []
+      },
+      {
+       "text": "1325,38",
+       "spans": []
+      },
+      {
+       "text": "1862,99",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "group",
+     "cells": [
+      {
+       "text": "Lobenstein-Ebersdorf.",
+       "spans": [
+        [
+         0,
+         20,
+         "Location"
+        ]
+       ],
+       "colspan": 6
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Dobareuth",
+       "spans": [
+        [
+         0,
+         9,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "3,12",
+       "spans": []
+      },
+      {
+       "text": "3,29",
+       "spans": []
+      },
+      {
+       "text": "513,04",
+       "spans": []
+      },
+      {
+       "text": "158,26",
+       "spans": []
+      },
+      {
+       "text": "65,09",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Ebersdorf",
+       "spans": [
+        [
+         0,
+         9,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "5,43",
+       "spans": []
+      },
+      {
+       "text": "2,25",
+       "spans": []
+      },
+      {
+       "text": "375,76",
+       "spans": []
+      },
+      {
+       "text": "127,11",
+       "spans": []
+      },
+      {
+       "text": "25,52",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Grumbach (Forsthaus) .",
+       "spans": [
+        [
+         0,
+         8,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "0,26",
+       "spans": []
+      },
+      {
+       "text": "0,32",
+       "spans": []
+      },
+      {
+       "text": "6,20",
+       "spans": []
+      },
+      {
+       "text": "28,05",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Latus",
+       "spans": []
+      },
+      {
+       "text": "8,81",
+       "spans": []
+      },
+      {
+       "text": "5,86",
+       "spans": []
+      },
+      {
+       "text": "895,00",
+       "spans": []
+      },
+      {
+       "text": "313,42",
+       "spans": []
+      },
+      {
+       "text": "90,61",
+       "spans": []
+      }
+     ]
+    }
+   ],
+   "grid": [
+    [
+     "Landestheile.",
+     "Hofraum. Morgen.",
+     "Gärten. Morgen.",
+     "Feld. Morgen.",
+     "Wiese. Morgen.",
+     "Nadelwald. Morgen."
+    ],
+    [
+     "Gera.",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Bieblach (Schäferei) . . .",
+     "1,62",
+     "0,55",
+     "1,93",
+     "—",
+     "—"
+    ],
+    [
+     "Ernsee . . . . . . . .",
+     "3,67",
+     "4,69",
+     "328,80",
+     "19,00",
+     "—"
+    ],
+    [
+     "Großaga . . . . . . .",
+     "3,31",
+     "14,96",
+     "460,49",
+     "94,79",
+     "160,26"
+    ],
+    [
+     "Großsaara . . . . . .",
+     "2,92",
+     "4,78",
+     "158,13",
+     "87,62",
+     "47,80"
+    ],
+    [
+     "Kleinaga . . . . . . .",
+     "3,13",
+     "17,79",
+     "459,77",
+     "92,78",
+     "30,56"
+    ],
+    [
+     "Kleinsaara . . . . . .",
+     "0,85",
+     "3,27",
+     "250,84",
+     "37,27",
+     "35,52"
+    ],
+    [
+     "Laasen mit Steinertsberg",
+     "1,72",
+     "9,08",
+     "484,17",
+     "35,12",
+     "—"
+    ],
+    [
+     "Langenberg . . . . . .",
+     "2,57",
+     "1,19",
+     "200,22",
+     "44,24",
+     "166,02"
+    ],
+    [
+     "Niederndorf . . . . . .",
+     "1,82",
+     "7,14",
+     "291,15",
+     "73,32",
+     "784,32"
+    ],
+    [
+     "Rubitz . . . . . . . .",
+     "1,70",
+     "5,85",
+     "217,80",
+     "78,24",
+     "401,02"
+    ],
+    [
+     "Seeligenstädt . . . . .",
+     "0,73",
+     "1,68",
+     "88,03",
+     "13,50",
+     "2,59"
+    ],
+    [
+     "Tinz . . . . . . . . .",
+     "3,09",
+     "16,25",
+     "306,26",
+     "129,82",
+     "—"
+    ],
+    [
+     "Untermhaus . . . . . .",
+     "2,50",
+     "0,35",
+     "54,24",
+     "176,28",
+     "—"
+    ],
+    [
+     "Ernseer Forst . . . . .",
+     "0,74",
+     "—",
+     "4,96",
+     "6,89",
+     "14,61"
+    ],
+    [
+     "Cossen-Forst . . . . . .",
+     "0,02",
+     "—",
+     "—",
+     "9,54",
+     "320,22"
+    ],
+    [
+     "Summe",
+     "30,40",
+     "88,19",
+     "3308,00",
+     "899,04",
+     "3409,31"
+    ],
+    [
+     "Schleiz.",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Schleiz . . . . . . . .",
+     "4,11",
+     "0,80",
+     "63,12",
+     "120,95",
+     "20,38"
+    ],
+    [
+     "Saalburg (Vorwerk) . . .",
+     "1,02",
+     "2,68",
+     "0,09",
+     "89,53",
+     "36,12"
+    ],
+    [
+     "Dittersdorf . . . . . .",
+     "1,18",
+     "2,68",
+     "131,57",
+     "99,16",
+     "288,86"
+    ],
+    [
+     "Langenwolschendorf . . .",
+     "1,66",
+     "8,45",
+     "272,85",
+     "60,57",
+     "58,41"
+    ],
+    [
+     "Neuärgerniß . . . . . .",
+     "0,87",
+     "1,79",
+     "51,34",
+     "41,36",
+     "—"
+    ],
+    [
+     "Oberböhmsdorf . . . . .",
+     "1,36",
+     "2,16",
+     "424,44",
+     "207,39",
+     "10,68"
+    ],
+    [
+     "Dettersdorf . . . . . .",
+     "4,72",
+     "2,09",
+     "210,36",
+     "134,14",
+     "7,21"
+    ],
+    [
+     "Oschitz . . . . . . . .",
+     "4,68",
+     "9,17",
+     "510,88",
+     "276,75",
+     "705,19"
+    ],
+    [
+     "Pahren . . . . . . . .",
+     "2,96",
+     "3,14",
+     "337,65",
+     "104,73",
+     "387,11"
+    ],
+    [
+     "Pöllwitz (Forstgut) . . .",
+     "0,87",
+     "0,55",
+     "9,52",
+     "33,53",
+     "0,68"
+    ],
+    [
+     "Schilbach (Schäferei) . .",
+     "1,40",
+     "0,04",
+     "198,52",
+     "60,31",
+     "90,19"
+    ],
+    [
+     "Seubtendorf . . . . . .",
+     "1,38",
+     "3,84",
+     "160,90",
+     "68,04",
+     "213,10"
+    ],
+    [
+     "Weckersdorf (Forsthaus) .",
+     "0,43",
+     "0,67",
+     "8,14",
+     "28,30",
+     "43,92"
+    ],
+    [
+     "Summe",
+     "26,61",
+     "38,65",
+     "2400,00",
+     "1325,38",
+     "1862,99"
+    ],
+    [
+     "Lobenstein-Ebersdorf.",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Dobareuth . . . . . .",
+     "3,12",
+     "3,29",
+     "513,04",
+     "158,26",
+     "65,09"
+    ],
+    [
+     "Ebersdorf . . . . . . .",
+     "5,43",
+     "2,25",
+     "375,76",
+     "127,11",
+     "25,52"
+    ],
+    [
+     "Grumbach (Forsthaus) .",
+     "0,26",
+     "0,32",
+     "6,20",
+     "28,05",
+     "—"
+    ],
+    [
+     "Latus",
+     "8,81",
+     "5,86",
+     "895,00",
+     "313,42",
+     "90,61"
+    ]
+   ],
+   "caption": null,
+   "sec": "t1-3-2"
+  }
+ ],
+ "footnotes": [],
+ "corrections": [
+  {
+   "rule": "strip_dot_leaders"
+  },
+  {
+   "rule": "facsimile_correction",
+   "before": "158,13",
+   "after": "158,73",
+   "source": "landwirtschaft-kammer-rittergueter-1854",
+   "n": 1
+  },
+  {
+   "rule": "facsimile_correction",
+   "before": "35,12",
+   "after": "35,72",
+   "source": "landwirtschaft-kammer-rittergueter-1854",
+   "n": 1
+  },
+  {
+   "rule": "facsimile_correction",
+   "before": "7,14",
+   "after": "7,74",
+   "source": "landwirtschaft-kammer-rittergueter-1854",
+   "n": 1
+  },
+  {
+   "rule": "facsimile_correction",
+   "before": "291,15",
+   "after": "291,75",
+   "source": "landwirtschaft-kammer-rittergueter-1854",
+   "n": 1
+  },
+  {
+   "rule": "facsimile_correction",
+   "before": "134,14",
+   "after": "134,74",
+   "source": "landwirtschaft-kammer-rittergueter-1854",
+   "n": 1
+  },
+  {
+   "rule": "facsimile_correction",
+   "before": "9,17",
+   "after": "9,77",
+   "source": "landwirtschaft-kammer-rittergueter-1854",
+   "n": 1
+  },
+  {
+   "rule": "facsimile_correction",
+   "before": "213,10",
+   "after": "213,70",
+   "source": "landwirtschaft-kammer-rittergueter-1854",
+   "n": 1
+  },
+  {
+   "rule": "facsimile_correction",
+   "before": "8,14",
+   "after": "8,74",
+   "source": "landwirtschaft-kammer-rittergueter-1854",
+   "n": 1
+  },
+  {
+   "rule": "table_multirow_header",
+   "rows": 2,
+   "block": "b2"
+  },
+  {
+   "rule": "table_group_rows",
+   "n": 2,
+   "block": "b2"
+  }
+ ],
+ "provenance": {
+  "source": "colab-2026-03",
+  "model": "gemini-3-flash-preview",
+  "timestamp": "2026-03-03T15:51:58.823787",
+  "early_schema": false
+ },
+ "section_path": [
+  "t1",
+  "t1-3",
+  "t1-3-2"
+ ],
+ "sections": [
+  "t1-3-2"
+ ]
+}

@@ -1,0 +1,106 @@
+{
+ "seq": 220,
+ "label": "208",
+ "slug": "208",
+ "iiif": {
+  "service": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb11005578_00220",
+  "canvas": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11005578/canvas/220",
+  "width": 1611,
+  "height": 2700
+ },
+ "kind": "text",
+ "running_header": null,
+ "signature": null,
+ "blocks": [
+  {
+   "id": "b1",
+   "type": "heading",
+   "src": 0,
+   "text": "III. Die Volksbetriebsamkeit.",
+   "spans": [],
+   "opens": [
+    "t1-3"
+   ],
+   "sec": "t1-3",
+   "level": 3
+  },
+  {
+   "id": "b2",
+   "type": "heading",
+   "src": 1,
+   "text": "1. Die Berufsklassen im Allgemeinen.",
+   "spans": [],
+   "opens": [
+    "t1-3-1"
+   ],
+   "sec": "t1-3-1",
+   "level": 4
+  },
+  {
+   "id": "b3",
+   "type": "paragraph",
+   "src": 2,
+   "text": "Das frühere festgegliederte, die Berufskreise streng abgrenzende Zunftwesen, aus dem mittelaltrigen socialen Organismus mit Nothwendigkeit herausgewachsen, hat seine Zeit erfüllt; sein eigenes Kind, die von ihm erzeugte bürgerliche Freiheit, drängt die alten Innungsschranken zurück und fordert mehr und mehr vollkommen freie Entfaltung des gewerblichen und industriellen Lebens und verständige Ausgleichung zwischen Kapital und Arbeit. Schon mancher Edelhof in früheren Tagen, besonders aber die Zeit nach dem 30jährigen Kriege, durchbrach da und dort den Bann der Gewerbe, indem sich Schmiede, Wagner, Tischler, Schneider, Schuhmacher, Maurer, Zimmerer und Weber auf Dörfern ansiedelten und allda bürgerliche Gewerbe trieben. Unter diesen gelang es indeß nur den Webern, sich seit 1700 auf dem platten Lande im Oberlande unter dem Einflusse der Städte Gera, Greiz, Plauen, Schleiz, Lobenstein, Hirschberg und Hof bedeutend auszubreiten und in den Orten der reichenfelser Pflege sogar die Landwirthschaft zu überflügeln. Immerhin aber blieben die Bannrechte der Städte und die Zunftschranken im Ganzen bis zur jüngsten Zeit ungebrochen. Erst die mit dem Jahre 1848 eingetretenen politischen Vorgänge und die steigende Macht der Maschinen, des Kapitals und der Verkehrsmittel waren von nun an nicht mehr mit der alten Gilde, sondern nur mit einer dem Umschwunge der Verhältnisse entsprechenden Gewerbefreiheit vereinbar, weshalb auch für das Fürstenthum den 11. April 1863 eine Gewerbeordnung (und darauf am 8. Juni eine Ausführungsverordnung) erschien. Die Normen dieses auf Gewerbefreiheit beruhenden Gesetzes finden mit Ausschlusse von Landbau, Forstwirthschaft, Bergwesen, Flößerei, Posten, Telegraphen, Eisenbahnen, Münzwesen, Heilkunde und literarischer Thätigkeit ihre Anwendung auf alle gewerbmäßigen Betriebsamkeiten, zu deren Uebernahme jeder dispositionsfähige Inländer mit dem vollendeten 24. (bezüglich 21.) Jahre und jeder Ausländer, dessen Heimathsstaat mit dem",
+   "spans": [
+    [
+     854,
+     858,
+     "Location"
+    ],
+    [
+     860,
+     865,
+     "Location"
+    ],
+    [
+     867,
+     873,
+     "Location"
+    ],
+    [
+     875,
+     882,
+     "Location"
+    ],
+    [
+     884,
+     894,
+     "Location"
+    ],
+    [
+     896,
+     906,
+     "Location"
+    ],
+    [
+     911,
+     914,
+     "Location"
+    ],
+    [
+     1708,
+     1719,
+     "Artefact"
+    ]
+   ],
+   "sec": "t1-3-1"
+  }
+ ],
+ "footnotes": [],
+ "corrections": [],
+ "provenance": {
+  "source": "colab-2026-03",
+  "model": "gemini-3-flash-preview",
+  "timestamp": "2026-03-03T15:48:29.047336",
+  "early_schema": false
+ },
+ "section_path": [
+  "t1",
+  "t1-2",
+  "t1-2-8"
+ ],
+ "sections": [
+  "t1-3",
+  "t1-3-1"
+ ]
+}

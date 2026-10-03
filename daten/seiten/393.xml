@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de">
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="main">Volks- und Landeskunde des Fürstenthums Reuß j. L.</title>
+      <title type="sub">Digitale Edition, S. 393</title>
+      <author><persName ref="https://d-nb.info/gnd/119209217">Brückner, Georg</persName> (1800–1881)</author>
+      <editor><persName>Tobias Perschl</persName></editor><editor><persName>Markus Gerstmeier</persName></editor><editor><persName>Malte Rehbein</persName></editor>
+      <respStmt><resp>Automatische Transkription und Entitätenerkennung</resp><name>Google Gemini 3 Flash (2026)</name></respStmt>
+      <respStmt><resp>Layout-Korrektur, Register, Auswertungen, Edition</resp><persName>Tobias Perschl</persName><persName>Markus Gerstmeier</persName><persName>Malte Rehbein</persName><name>Claude (Anthropic)</name></respStmt>
+    </titleStmt>
+    <editionStmt><edition n="1.1">Version 1.1, <date when="2026-10-02">2026-10-02</date></edition></editionStmt>
+    <publicationStmt>
+      <publisher>Lehrstuhl für Computational Humanities, Universität Passau</publisher>
+      <date when="2026-10-02">2026</date>
+      <availability><licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0 (Transkription, Annotation, Daten). Faksimiles: Bayerische Staatsbibliothek München, NoC-NC 1.0.</licence></availability>
+    </publicationStmt>
+    <sourceDesc>
+      <bibl type="original">
+        <author>Brückner, Georg</author>
+        <title>Volks- und Landeskunde des Fürstenthums Reuß j. L. Im Auftrage des regierenden Landesfürsten verfaßt</title>
+        <pubPlace>Gera</pubPlace><publisher>Köhler</publisher><date when="1870">1870</date>
+        <extent>VIII, 840 S.</extent>
+        <idno type="URN">urn:nbn:de:bvb:12-bsb11005578-4</idno>
+        <idno type="BSB">bsb11005578</idno>
+        <idno type="shelfmark">München, Bayerische Staatsbibliothek, Germ.sp. 78 ld</idno>
+      </bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+    <projectDesc><p>Digitale Edition auf Grundlage einer automatischen Transkription des BSB-Digitalisats (Gemini 3 Flash, 2026), regelbasiert korrigiert und strukturiert; Register durch KI-Agenten bereinigt und mit Normdaten verknüpft.</p></projectDesc>
+    <editorialDecl>
+      <normalization><p>Historische Schreibung beibehalten; Umlaute modern (ä, ö, ü statt e-Superskript); langes s als s; Ligaturen aufgelöst.</p></normalization>
+      <hyphenation eol="none"><p>Silbentrennung am Zeilenende aufgelöst; am Seitenende erhaltene Trennungen sind über das Seitenende hinweg in einem Absatz zusammengeführt.</p></hyphenation>
+      <correction><p>Layoutfehler der automatischen Erkennung (Tabellenköpfe, Bogensignaturen, Trennstriche) sind regelbasiert korrigiert und je Seite protokolliert. Inhaltliche Druckfehler sind nicht korrigiert.</p></correction>
+    </editorialDecl>
+  </encodingDesc>
+  <profileDesc><langUsage><language ident="de">Deutsch (1870)</language></langUsage></profileDesc>
+  <revisionDesc><change when="2026-10-02">Version 1.1</change></revisionDesc>
+</teiHeader>
+<facsimile><surface xml:id="f0405" n="393" ulx="0" uly="0" lrx="1621" lry="2698"><graphic url="https://api.digitale-sammlungen.de/iiif/image/v2/bsb11005578_00405/full/full/0/default.jpg" mimeType="image/jpeg"/><zone xml:id="f0405-b1" type="block" ulx="92" uly="237" lrx="1451" lry="923"/><zone xml:id="f0405-l1" type="line" n="1" ulx="94" uly="237" lrx="1447" lry="281"/><zone xml:id="f0405-l2" type="line" n="2" ulx="92" uly="281" lrx="1444" lry="325"/><zone xml:id="f0405-l3" type="line" n="3" ulx="94" uly="323" lrx="1445" lry="367"/><zone xml:id="f0405-l4" type="line" n="4" ulx="94" uly="366" lrx="1447" lry="410"/><zone xml:id="f0405-l5" type="line" n="5" ulx="95" uly="408" lrx="1445" lry="452"/><zone xml:id="f0405-l6" type="line" n="6" ulx="97" uly="452" lrx="1448" lry="496"/><zone xml:id="f0405-l7" type="line" n="7" ulx="97" uly="500" lrx="1447" lry="537"/><zone xml:id="f0405-l8" type="line" n="8" ulx="95" uly="542" lrx="1448" lry="581"/><zone xml:id="f0405-l9" type="line" n="9" ulx="97" uly="579" lrx="1447" lry="623"/><zone xml:id="f0405-l10" type="line" n="10" ulx="97" uly="623" lrx="1448" lry="667"/><zone xml:id="f0405-l11" type="line" n="11" ulx="101" uly="668" lrx="1447" lry="709"/><zone xml:id="f0405-l12" type="line" n="12" ulx="97" uly="710" lrx="1448" lry="752"/><zone xml:id="f0405-l13" type="line" n="13" ulx="98" uly="750" lrx="1450" lry="794"/><zone xml:id="f0405-l14" type="line" n="14" ulx="98" uly="797" lrx="1451" lry="837"/><zone xml:id="f0405-l15" type="line" n="15" ulx="98" uly="834" lrx="1448" lry="878"/><zone xml:id="f0405-l16" type="line" n="16" ulx="98" uly="879" lrx="424" lry="923"/></surface></facsimile>
+<text><body><div type="page" n="393"><pb n="393" facs="#f0405"/>
+<fw type="header" place="top">3. Das Reußenland zuerst unter drei, darauf unter zwei Linien.</fw>
+<p xml:id="p393-b1"><lb n="1" facs="#f0405-l1"/>und alsbald die Promulgirung einer neuen mit den alten Feudalständen ver<lb n="2" break="no" facs="#f0405-l2"/>einbarten Verfassung, welche eine Volksvertretung mit einigem Einflusse auf <lb n="3" facs="#f0405-l3"/>Gesetzgebung und Finanzverwaltung zuläßt. Nach dieser Verfassung werden <lb n="4" facs="#f0405-l4"/>zwölf Abgeordnete und zwar drei vom Landesherrn, zwei von den größeren <lb n="5" facs="#f0405-l5"/>Grundbesitzern, drei von den Städten und vier von den Landgemeinden ge<lb n="6" break="no" facs="#f0405-l6"/>wählt. Jeder unbescholtene volljährige, directe Steuer zahlende und einen <lb n="7" facs="#f0405-l7"/>eigenen Hausstand besitzende Mann ist wählbar. Die Staatsdiener sind ver<lb n="8" break="no" facs="#f0405-l8"/>antwortlich, die Sicherheit der Person und des Briefgeheimnisses ist garantirt <lb n="9" facs="#f0405-l9"/>und die Cabinets- und Ministerialjustiz für unstatthaft erklärt. Ein bedeuten<lb n="10" break="no" facs="#f0405-l10"/>der Fortschritt in der Reform der Zustände des Landes ist die Aufhebung der <lb n="11" facs="#f0405-l11"/>Patrimonialgerichte, des privilegirten Gerichtsstandes und des Lehnsverbandes, <lb n="12" facs="#f0405-l12"/>die Einführung des Anklageprozesses mit Oeffentlichkeit und Mündlichkeit und <lb n="13" facs="#f0405-l13"/>der Anschluß (1. October 1868) an das Appellationsgericht zu <placeName ref="#place-eisenach">Eisenach</placeName>. Durch <lb n="14" facs="#f0405-l14"/>besondere Convention mit <placeName ref="#place-preussen">Preußen</placeName> ist seit dem 1. Juli 1867 die Militärhoheit <lb n="15" facs="#f0405-l15"/>auf das Präsidium des norddeutschen Bundes übertragen, ebenso die Posthoheit <lb n="16" facs="#f0405-l16"/>und das Postrecht.</p>
+</div></body></text>
+<standOff>
+<listPlace>
+<place xml:id="place-eisenach"><placeName>Eisenach</placeName><desc>Stadt</desc><location><geo>50.9807 10.31522</geo></location><idno type="GeoNames">https://www.geonames.org/2931574</idno><idno type="Wikidata">https://www.wikidata.org/entity/Q31987608</idno></place>
+<place xml:id="place-preussen"><placeName>Preußen</placeName><desc>Staat</desc><idno type="Wikidata">https://www.wikidata.org/entity/Q27306</idno></place>
+</listPlace>
+</standOff>
+</TEI>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de">
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="main">Volks- und Landeskunde des Fürstenthums Reuß j. L.</title>
+      <title type="sub">Digitale Edition, S. 371</title>
+      <author><persName ref="https://d-nb.info/gnd/119209217">Brückner, Georg</persName> (1800–1881)</author>
+      <editor><persName>Tobias Perschl</persName></editor><editor><persName>Markus Gerstmeier</persName></editor><editor><persName>Malte Rehbein</persName></editor>
+      <respStmt><resp>Automatische Transkription und Entitätenerkennung</resp><name>Google Gemini 3 Flash (2026)</name></respStmt>
+      <respStmt><resp>Layout-Korrektur, Register, Auswertungen, Edition</resp><persName>Tobias Perschl</persName><persName>Markus Gerstmeier</persName><persName>Malte Rehbein</persName><name>Claude (Anthropic)</name></respStmt>
+    </titleStmt>
+    <editionStmt><edition n="1.1">Version 1.1, <date when="2026-10-02">2026-10-02</date></edition></editionStmt>
+    <publicationStmt>
+      <publisher>Lehrstuhl für Computational Humanities, Universität Passau</publisher>
+      <date when="2026-10-02">2026</date>
+      <availability><licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0 (Transkription, Annotation, Daten). Faksimiles: Bayerische Staatsbibliothek München, NoC-NC 1.0.</licence></availability>
+    </publicationStmt>
+    <sourceDesc>
+      <bibl type="original">
+        <author>Brückner, Georg</author>
+        <title>Volks- und Landeskunde des Fürstenthums Reuß j. L. Im Auftrage des regierenden Landesfürsten verfaßt</title>
+        <pubPlace>Gera</pubPlace><publisher>Köhler</publisher><date when="1870">1870</date>
+        <extent>VIII, 840 S.</extent>
+        <idno type="URN">urn:nbn:de:bvb:12-bsb11005578-4</idno>
+        <idno type="BSB">bsb11005578</idno>
+        <idno type="shelfmark">München, Bayerische Staatsbibliothek, Germ.sp. 78 ld</idno>
+      </bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+    <projectDesc><p>Digitale Edition auf Grundlage einer automatischen Transkription des BSB-Digitalisats (Gemini 3 Flash, 2026), regelbasiert korrigiert und strukturiert; Register durch KI-Agenten bereinigt und mit Normdaten verknüpft.</p></projectDesc>
+    <editorialDecl>
+      <normalization><p>Historische Schreibung beibehalten; Umlaute modern (ä, ö, ü statt e-Superskript); langes s als s; Ligaturen aufgelöst.</p></normalization>
+      <hyphenation eol="none"><p>Silbentrennung am Zeilenende aufgelöst; am Seitenende erhaltene Trennungen sind über das Seitenende hinweg in einem Absatz zusammengeführt.</p></hyphenation>
+      <correction><p>Layoutfehler der automatischen Erkennung (Tabellenköpfe, Bogensignaturen, Trennstriche) sind regelbasiert korrigiert und je Seite protokolliert. Inhaltliche Druckfehler sind nicht korrigiert.</p></correction>
+    </editorialDecl>
+  </encodingDesc>
+  <profileDesc><langUsage><language ident="de">Deutsch (1870)</language></langUsage></profileDesc>
+  <revisionDesc><change when="2026-10-02">Version 1.1</change></revisionDesc>
+</teiHeader>
+<facsimile><surface xml:id="f0383" n="371" ulx="0" uly="0" lrx="1649" lry="2694"><graphic url="https://api.digitale-sammlungen.de/iiif/image/v2/bsb11005578_00383/full/full/0/default.jpg" mimeType="image/jpeg"/><zone xml:id="f0383-b1" type="block" ulx="86" uly="241" lrx="1442" lry="1185"/><zone xml:id="f0383-l1" type="line" n="1" ulx="86" uly="241" lrx="1440" lry="285"/><zone xml:id="f0383-l2" type="line" n="2" ulx="86" uly="286" lrx="1437" lry="330"/><zone xml:id="f0383-l3" type="line" n="3" ulx="86" uly="328" lrx="1436" lry="372"/><zone xml:id="f0383-l4" type="line" n="4" ulx="86" uly="371" lrx="1440" lry="415"/><zone xml:id="f0383-l5" type="line" n="5" ulx="86" uly="412" lrx="1437" lry="456"/><zone xml:id="f0383-l6" type="line" n="6" ulx="86" uly="457" lrx="1439" lry="498"/><zone xml:id="f0383-l7" type="line" n="7" ulx="86" uly="500" lrx="1440" lry="544"/><zone xml:id="f0383-l8" type="line" n="8" ulx="86" uly="541" lrx="1439" lry="585"/><zone xml:id="f0383-l9" type="line" n="9" ulx="86" uly="585" lrx="1440" lry="629"/><zone xml:id="f0383-l10" type="line" n="10" ulx="86" uly="627" lrx="1440" lry="671"/><zone xml:id="f0383-l11" type="line" n="11" ulx="86" uly="670" lrx="1440" lry="714"/><zone xml:id="f0383-l12" type="line" n="12" ulx="86" uly="712" lrx="1439" lry="755"/><zone xml:id="f0383-l13" type="line" n="13" ulx="86" uly="753" lrx="1439" lry="797"/><zone xml:id="f0383-l14" type="line" n="14" ulx="86" uly="798" lrx="1440" lry="842"/><zone xml:id="f0383-l15" type="line" n="15" ulx="89" uly="840" lrx="1440" lry="884"/><zone xml:id="f0383-l16" type="line" n="16" ulx="89" uly="883" lrx="1442" lry="927"/><zone xml:id="f0383-l17" type="line" n="17" ulx="89" uly="926" lrx="1440" lry="970"/><zone xml:id="f0383-l18" type="line" n="18" ulx="89" uly="968" lrx="1440" lry="1012"/><zone xml:id="f0383-l19" type="line" n="19" ulx="89" uly="1012" lrx="1440" lry="1056"/><zone xml:id="f0383-l20" type="line" n="20" ulx="89" uly="1053" lrx="1439" lry="1097"/><zone xml:id="f0383-l21" type="line" n="21" ulx="89" uly="1095" lrx="1439" lry="1139"/><zone xml:id="f0383-l22" type="line" n="22" ulx="91" uly="1141" lrx="546" lry="1185"/></surface></facsimile>
+<text><body><div type="page" n="371"><pb n="371" facs="#f0383"/>
+<fw type="header" place="top">2. Das Voigtland unter verschiedenen Gewalten.</fw>
+<p xml:id="p371-b1"><lb n="1" facs="#f0383-l1"/>der Reformation anfänglich widerstrebten und die burggräfliche Linie von <placeName ref="#place-plauen">Plauen</placeName> <lb n="2" facs="#f0383-l2"/>sogar auf die Seite ihrer offenen Gegner trat, erklärte er sich entschieden für <lb n="3" facs="#f0383-l3"/>den protestantischen Glauben und Cult, führte ihn 1529 in <placeName ref="#place-kranichfeld">Kranichfeld</placeName> und <lb n="4" facs="#f0383-l4"/>darauf in <placeName ref="#place-greiz">Greiz</placeName> ein und kam dadurch den sittlichen Bedürfnissen und Wünschen <lb n="5" facs="#f0383-l5"/>seines Volkes entgegen. Sein warm evangelischer Sinn ging auf seine Söhne, <lb n="6" facs="#f0383-l6"/>durch die er der nächste Stammvater der noch blühenden Linien Reuß geworden <lb n="7" facs="#f0383-l7"/>ist, und auf alle seine Nachkommen über. Er starb 1535. Von seiner ersten <lb n="8" facs="#f0383-l8"/>Gattin <persName ref="#person-anna-v-colditz">Anna v. Colditz</persName> (seine zweite Ehe mit <persName ref="#person-amalie-v-mansfeld-heldrungen">Amalie von Mansfeld-Heldrun=<lb n="9" facs="#f0383-l9"/>gen</persName> blieb kinderlos) hatte er neun Kinder, hinterließ aber, da zwei Töchter <lb n="10" facs="#f0383-l10"/>jung starben, außer vier Töchtern, von denen eine im <orgName ref="#organisation-kloster-gernrode">Kloster Gernrode</orgName> Stifts=<lb n="11" facs="#f0383-l11"/>fräulein, die andern verheirathet waren, noch drei Söhne, welche durch ihre <lb n="12" facs="#f0383-l12"/>Geschicke und Erbtheilungen bleibend denkwürdig geworden sind. Ihre Regierung <lb n="13" facs="#f0383-l13"/>umspannt Erniedrigung und Erhebung, doch dort wie hier die Würde bewahrend; <lb n="14" facs="#f0383-l14"/>sie erleben das Erlöschen der alten Stämme <placeName ref="#place-weida">Weida</placeName> und <placeName ref="#place-gera">Gera</placeName> und das der <lb n="15" facs="#f0383-l15"/>burggräflichen Linie <placeName ref="#place-plauen">Plauen</placeName>, so daß sie als die alleinigen Säulen des Hauses <lb n="16" facs="#f0383-l16"/>der Voigte übrig bleiben. Darum beginnt auch mit ihnen die neueste Periode <lb n="17" facs="#f0383-l17"/>der Geschichte des Reußenlandes, dies nicht allein, weil sie die Gründer der <lb n="18" facs="#f0383-l18"/>noch bestehenden Linien Reuß geworden sind und nicht allein weil sie das Land <lb n="19" facs="#f0383-l19"/>retten und behaupten, welches den Boden der heutigen Fürstenthümer bildet, <lb n="20" facs="#f0383-l20"/>sondern auch und vornämlich, weil sie den reinen evangelischen Glauben in <lb n="21" facs="#f0383-l21"/>ihrem Lande befestigt und als ein theures Kleinod behütet und ihren Nach=<lb n="22" facs="#f0383-l22"/>kommen überliefert haben.</p>
+<p xml:id="p371-b2">24 *</p>
+</div></body></text>
+<standOff>
+<listPlace>
+<place xml:id="place-gera"><placeName>Gera</placeName><desc>Stadt</desc><location><geo>50.88029 12.08187</geo></location><idno type="GeoNames">https://www.geonames.org/2921232</idno><idno type="Wikidata">https://www.wikidata.org/entity/Q3750</idno></place>
+<place xml:id="place-greiz"><placeName>Greiz</placeName><desc>Stadt</desc><location><geo>50.65778 12.19918</geo></location><idno type="GeoNames">https://www.geonames.org/2917737</idno><idno type="Wikidata">https://www.wikidata.org/entity/Q502710</idno></place>
+<place xml:id="place-kranichfeld"><placeName>Kranichfeld</placeName><desc>Stadt</desc><location><geo>50.85446 11.20057</geo></location><idno type="GeoNames">https://www.geonames.org/2884761</idno><idno type="Wikidata">https://www.wikidata.org/entity/Q539604</idno></place>
+<place xml:id="place-plauen"><placeName>Plauen</placeName><desc>Stadt</desc><location><geo>50.4973 12.13782</geo></location><idno type="GeoNames">https://www.geonames.org/2853292</idno><idno type="Wikidata">https://www.wikidata.org/entity/Q3952</idno></place>
+<place xml:id="place-weida"><placeName>Weida</placeName><desc>Stadt</desc><location><geo>50.77449 12.06028</geo></location><idno type="GeoNames">https://www.geonames.org/2813110</idno><idno type="Wikidata">https://www.wikidata.org/entity/Q519751</idno></place>
+</listPlace>
+<listPerson>
+<person xml:id="person-amalie-v-mansfeld-heldrungen"><persName>Amalie v. Mansfeld-Heldrungen</persName><note>2. Gemahlin Heinrichs, Herrn zu Greiz, † um 1544 als Gattin Joachims v. Gleichen</note></person>
+<person xml:id="person-anna-v-colditz"><persName>Anna v. Colditz</persName><note>1. Gemahlin eines Herrn zu Greiz, † 1535</note></person>
+</listPerson>
+<listOrg>
+<org xml:id="organisation-kloster-gernrode"><orgName>Kloster Gernrode</orgName><idno type="Wikidata">https://www.wikidata.org/entity/Q997346</idno></org>
+</listOrg>
+</standOff>
+</TEI>

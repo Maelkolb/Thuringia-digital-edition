@@ -1,0 +1,974 @@
+{
+ "seq": 108,
+ "label": "96",
+ "slug": "96",
+ "iiif": {
+  "service": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb11005578_00108",
+  "canvas": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11005578/canvas/108",
+  "width": 1634,
+  "height": 2693
+ },
+ "kind": "text",
+ "running_header": "II. Das Volk.",
+ "signature": null,
+ "blocks": [
+  {
+   "id": "b1",
+   "type": "paragraph",
+   "src": 0,
+   "text": "Procent zu, hier um ebensoviel abnahm. Das Umgekehrte findet in den beiden anderen Bezirken statt, in denen die ländliche Bevölkerung eine Zunahme und zwar in Schleiz um 2,69 und in Lobenstein-Ebersdorf um 3,31 Procent erfuhr, die städtische dagegen eine beziehungsweise gleiche Abnahme erlebte.",
+   "spans": [
+    [
+     159,
+     166,
+     "Location"
+    ],
+    [
+     182,
+     202,
+     "Location"
+    ]
+   ],
+   "sec": "t1-2-1"
+  },
+  {
+   "id": "b2",
+   "type": "paragraph",
+   "src": 1,
+   "text": "Die sechs Städte des Landes für sich betrachtet, zeigt sich ihre Volkszunahme von 1647—1867 und ihr gegenseitiges Kopfzahlverhältniß wie folgt:",
+   "spans": [],
+   "sec": "t1-2-1"
+  },
+  {
+   "id": "b3",
+   "type": "table",
+   "src": 2,
+   "n_cols": 5,
+   "header_rows": 1,
+   "rows": [
+    {
+     "role": "header",
+     "cells": [
+      {
+       "text": "Städte.",
+       "spans": []
+      },
+      {
+       "text": "Zahl der Einwohner.",
+       "spans": []
+      },
+      {
+       "text": "Zahl der Einwohner.",
+       "spans": []
+      },
+      {
+       "text": "Zahl der Einwohner.",
+       "spans": []
+      },
+      {
+       "text": "Absolute Vermehrung um das",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Städte.",
+       "spans": []
+      },
+      {
+       "text": "1647.",
+       "spans": []
+      },
+      {
+       "text": "1833.",
+       "spans": []
+      },
+      {
+       "text": "1867.",
+       "spans": []
+      },
+      {
+       "text": "Absolute Vermehrung um das",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Gera",
+       "spans": [
+        [
+         0,
+         4,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "2371",
+       "spans": []
+      },
+      {
+       "text": "10272",
+       "spans": []
+      },
+      {
+       "text": "16283",
+       "spans": []
+      },
+      {
+       "text": "6,87fache.",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Schleiz",
+       "spans": [
+        [
+         0,
+         7,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "1553",
+       "spans": []
+      },
+      {
+       "text": "4506",
+       "spans": []
+      },
+      {
+       "text": "4953",
+       "spans": []
+      },
+      {
+       "text": "3,18 \"",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Lobenstein",
+       "spans": [
+        [
+         0,
+         10,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "981",
+       "spans": []
+      },
+      {
+       "text": "3274",
+       "spans": []
+      },
+      {
+       "text": "2843",
+       "spans": []
+      },
+      {
+       "text": "2,89 \"",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Tanna",
+       "spans": [
+        [
+         0,
+         5,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "513",
+       "spans": []
+      },
+      {
+       "text": "1390",
+       "spans": []
+      },
+      {
+       "text": "1801",
+       "spans": []
+      },
+      {
+       "text": "3,51 \"",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Saalburg",
+       "spans": [
+        [
+         0,
+         8,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "441",
+       "spans": []
+      },
+      {
+       "text": "1070",
+       "spans": []
+      },
+      {
+       "text": "1214",
+       "spans": []
+      },
+      {
+       "text": "2,75 \"",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Hirschberg",
+       "spans": [
+        [
+         0,
+         10,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "180",
+       "spans": []
+      },
+      {
+       "text": "1620",
+       "spans": []
+      },
+      {
+       "text": "1828",
+       "spans": []
+      },
+      {
+       "text": "10,10 \"",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "total",
+     "cells": [
+      {
+       "text": "Summe",
+       "spans": []
+      },
+      {
+       "text": "6039",
+       "spans": []
+      },
+      {
+       "text": "22132",
+       "spans": []
+      },
+      {
+       "text": "28922",
+       "spans": []
+      },
+      {
+       "text": "4,78fache.",
+       "spans": []
+      }
+     ]
+    }
+   ],
+   "grid": [
+    [
+     "Städte.",
+     "Zahl der Einwohner.",
+     "Zahl der Einwohner.",
+     "Zahl der Einwohner.",
+     "Absolute Vermehrung um das"
+    ],
+    [
+     "Städte.",
+     "1647.",
+     "1833.",
+     "1867.",
+     "Absolute Vermehrung um das"
+    ],
+    [
+     "Gera . . . . . .",
+     "2371",
+     "10272",
+     "16283",
+     "6,87fache."
+    ],
+    [
+     "Schleiz . . . . .",
+     "1553",
+     "4506",
+     "4953",
+     "3,18 \""
+    ],
+    [
+     "Lobenstein . . . .",
+     "981",
+     "3274",
+     "2843",
+     "2,89 \""
+    ],
+    [
+     "Tanna . . . . . .",
+     "513",
+     "1390",
+     "1801",
+     "3,51 \""
+    ],
+    [
+     "Saalburg . . . . .",
+     "441",
+     "1070",
+     "1214",
+     "2,75 \""
+    ],
+    [
+     "Hirschberg . . . .",
+     "180",
+     "1620",
+     "1828",
+     "10,10 \""
+    ],
+    [
+     "Summe",
+     "6039",
+     "22132",
+     "28922",
+     "4,78fache."
+    ]
+   ],
+   "caption": null,
+   "sec": "t1-2-1"
+  },
+  {
+   "id": "b4",
+   "type": "paragraph",
+   "src": 3,
+   "text": "Gera, Schleiz und Lobenstein haben ihre gegenseitige Rangordnung durch 220 Jahre bewahrt, nicht aber die drei übrigen Städte, von denen Tanna und Saalburg im Laufe dieser Zeit von Hirschberg überholt worden sind. Auch hat Hirschberg bis jetzt unter allen Städten des Landes die stärkste, dagegen Lobenstein und Saalburg die geringste Zunahme gehabt. Die Umstände indeß, welche Hirschberg in seiner Volksvermehrung begünstigten, sind zum Theil, namentlich sein früherer Straßenverkehr, geschmälert, so daß es in die Leidenheit der übrigen oberländischen Städte, vor Allen in deren Abgeschlossenheit von Eisenbahnen, eingetreten ist. Im Gegensaße zu diesen Städten steht Gera, das durch Natur, Lage, Eisenbahn und Kapital mehr und mehr einer großstädtischen Entwickelung zuschreitet und dabei auf die Landorte umher höchst einflußreich wirkt. Selbst größere Landorte im Unterlande sind zum guten Theil von Gera abhängig. Im Oberlande üben die Städte wenig Einfluß auf ihre topographische Umgebung aus, vielmehr haben sich hier die Hauptlandorte selbstständig durch Gewerbe und durch Verkehr mit dem Auslande oder durch fürstliche Residenz und durch Herrnhuter stark bevölkert. Die bedeutendsten, über 1000 Einwohner zählenden Landorte des Fürstenthums sind bezüglich ihrer Volkszunahme:",
+   "spans": [
+    [
+     0,
+     4,
+     "Location"
+    ],
+    [
+     6,
+     13,
+     "Location"
+    ],
+    [
+     18,
+     28,
+     "Location"
+    ],
+    [
+     136,
+     141,
+     "Location"
+    ],
+    [
+     146,
+     154,
+     "Location"
+    ],
+    [
+     180,
+     190,
+     "Location"
+    ],
+    [
+     222,
+     232,
+     "Location"
+    ],
+    [
+     296,
+     306,
+     "Location"
+    ],
+    [
+     311,
+     319,
+     "Location"
+    ],
+    [
+     377,
+     387,
+     "Location"
+    ],
+    [
+     602,
+     613,
+     "Artefact"
+    ],
+    [
+     669,
+     673,
+     "Location"
+    ],
+    [
+     698,
+     707,
+     "Artefact"
+    ],
+    [
+     904,
+     908,
+     "Location"
+    ]
+   ],
+   "sec": "t1-2-1"
+  },
+  {
+   "id": "b5",
+   "type": "table",
+   "src": 4,
+   "n_cols": 7,
+   "header_rows": 0,
+   "rows": [
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Orte.",
+       "spans": []
+      },
+      {
+       "text": "1647.",
+       "spans": []
+      },
+      {
+       "text": "1833.",
+       "spans": []
+      },
+      {
+       "text": "1861.",
+       "spans": []
+      },
+      {
+       "text": "1864.",
+       "spans": []
+      },
+      {
+       "text": "1867.",
+       "spans": []
+      },
+      {
+       "text": "Absolute Vermehrung um das",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Hohenleuben . .",
+       "spans": [
+        [
+         0,
+         11,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "225",
+       "spans": []
+      },
+      {
+       "text": "1853",
+       "spans": []
+      },
+      {
+       "text": "2401",
+       "spans": []
+      },
+      {
+       "text": "2482",
+       "spans": []
+      },
+      {
+       "text": "2536",
+       "spans": []
+      },
+      {
+       "text": "11,28fache.",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Langenwetzendorf",
+       "spans": [
+        [
+         0,
+         16,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "436",
+       "spans": []
+      },
+      {
+       "text": "1530",
+       "spans": []
+      },
+      {
+       "text": "1995",
+       "spans": []
+      },
+      {
+       "text": "2142",
+       "spans": []
+      },
+      {
+       "text": "2135",
+       "spans": []
+      },
+      {
+       "text": "4,90 \"",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Wurzbach . . .",
+       "spans": [
+        [
+         0,
+         8,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "450",
+       "spans": []
+      },
+      {
+       "text": "1454",
+       "spans": []
+      },
+      {
+       "text": "1863",
+       "spans": []
+      },
+      {
+       "text": "1807",
+       "spans": []
+      },
+      {
+       "text": "1861",
+       "spans": []
+      },
+      {
+       "text": "4,10 \"",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Triebes",
+       "spans": [
+        [
+         0,
+         7,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "180",
+       "spans": []
+      },
+      {
+       "text": "1112",
+       "spans": []
+      },
+      {
+       "text": "1640",
+       "spans": []
+      },
+      {
+       "text": "1739",
+       "spans": []
+      },
+      {
+       "text": "1760",
+       "spans": []
+      },
+      {
+       "text": "9,78 \"",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Untermhaus . .",
+       "spans": [
+        [
+         0,
+         10,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "158",
+       "spans": []
+      },
+      {
+       "text": "696",
+       "spans": []
+      },
+      {
+       "text": "1257",
+       "spans": []
+      },
+      {
+       "text": "1472",
+       "spans": []
+      },
+      {
+       "text": "1731",
+       "spans": []
+      },
+      {
+       "text": "10,95 \"",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Köstritz",
+       "spans": [
+        [
+         0,
+         8,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "405",
+       "spans": []
+      },
+      {
+       "text": "1231",
+       "spans": []
+      },
+      {
+       "text": "1457",
+       "spans": []
+      },
+      {
+       "text": "1506",
+       "spans": []
+      },
+      {
+       "text": "1524",
+       "spans": []
+      },
+      {
+       "text": "3,76 \"",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Langenberg . . .",
+       "spans": [
+        [
+         0,
+         10,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "436",
+       "spans": []
+      },
+      {
+       "text": "959",
+       "spans": []
+      },
+      {
+       "text": "1364",
+       "spans": []
+      },
+      {
+       "text": "1395",
+       "spans": []
+      },
+      {
+       "text": "1453",
+       "spans": []
+      },
+      {
+       "text": "3,33 \"",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Ebersdorf . . .",
+       "spans": [
+        [
+         0,
+         9,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "81",
+       "spans": []
+      },
+      {
+       "text": "1110",
+       "spans": []
+      },
+      {
+       "text": "1201",
+       "spans": []
+      },
+      {
+       "text": "1050",
+       "spans": []
+      },
+      {
+       "text": "1008",
+       "spans": []
+      },
+      {
+       "text": "12,44 \"",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "total",
+     "cells": [
+      {
+       "text": "Summe",
+       "spans": []
+      },
+      {
+       "text": "2371",
+       "spans": []
+      },
+      {
+       "text": "9945",
+       "spans": []
+      },
+      {
+       "text": "13178",
+       "spans": []
+      },
+      {
+       "text": "13593",
+       "spans": []
+      },
+      {
+       "text": "14008",
+       "spans": []
+      },
+      {
+       "text": "5,90fache.",
+       "spans": []
+      }
+     ]
+    }
+   ],
+   "grid": [
+    [
+     "Orte.",
+     "1647.",
+     "1833.",
+     "1861.",
+     "1864.",
+     "1867.",
+     "Absolute Vermehrung um das"
+    ],
+    [
+     "Hohenleuben . .",
+     "225",
+     "1853",
+     "2401",
+     "2482",
+     "2536",
+     "11,28fache."
+    ],
+    [
+     "Langenwetzendorf",
+     "436",
+     "1530",
+     "1995",
+     "2142",
+     "2135",
+     "4,90 \""
+    ],
+    [
+     "Wurzbach . . .",
+     "450",
+     "1454",
+     "1863",
+     "1807",
+     "1861",
+     "4,10 \""
+    ],
+    [
+     "Triebes . . . .",
+     "180",
+     "1112",
+     "1640",
+     "1739",
+     "1760",
+     "9,78 \""
+    ],
+    [
+     "Untermhaus . .",
+     "158",
+     "696",
+     "1257",
+     "1472",
+     "1731",
+     "10,95 \""
+    ],
+    [
+     "Köstritz . . . .",
+     "405",
+     "1231",
+     "1457",
+     "1506",
+     "1524",
+     "3,76 \""
+    ],
+    [
+     "Langenberg . . .",
+     "436",
+     "959",
+     "1364",
+     "1395",
+     "1453",
+     "3,33 \""
+    ],
+    [
+     "Ebersdorf . . .",
+     "81",
+     "1110",
+     "1201",
+     "1050",
+     "1008",
+     "12,44 \""
+    ],
+    [
+     "Summe",
+     "2371",
+     "9945",
+     "13178",
+     "13593",
+     "14008",
+     "5,90fache."
+    ]
+   ],
+   "caption": null,
+   "sec": "t1-2-1"
+  },
+  {
+   "id": "b6",
+   "type": "paragraph",
+   "src": 5,
+   "text": "Von diesen acht Landorten, welche mit den sechs genannten Städten die einzigen Orte des Landes bilden, die mehr als 1000 Einwohner zählen, sind",
+   "spans": [],
+   "continues": true,
+   "sec": "t1-2-1"
+  }
+ ],
+ "footnotes": [],
+ "corrections": [
+  {
+   "rule": "strip_dot_leaders"
+  },
+  {
+   "rule": "table_no_header_row",
+   "note": "first row is data (legacy edition rendered it as <th>)",
+   "block": "b5"
+  }
+ ],
+ "provenance": {
+  "source": "colab-2026-03",
+  "model": "gemini-3-flash-preview",
+  "timestamp": "2026-03-03T15:07:52.529901",
+  "early_schema": false
+ },
+ "section_path": [
+  "t1",
+  "t1-2",
+  "t1-2-1"
+ ],
+ "sections": [
+  "t1-2-1"
+ ]
+}

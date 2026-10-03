@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="de" data-ui="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Auswertungen – Brückner 1870 – Digitale Edition</title>
+<meta name="description" content="Digitale Edition von Georg Brückners Volks- und Landeskunde des Fürstenthums Reuß j. L. (Gera 1870): Volltext mit Faksimile, Registern, Karte, Auswertungen und Suche.">
+<meta name="author" content="Tobias Perschl, Markus Gerstmeier, Malte Rehbein">
+<link rel="canonical" href="https://maelkolb.github.io/Thuringia-digital-edition/auswertungen/index.html">
+<meta property="og:title" content="Auswertungen – Brückner 1870 – Digitale Edition">
+<meta property="og:description" content="Digitale Edition von Georg Brückners Volks- und Landeskunde des Fürstenthums Reuß j. L. (Gera 1870): Volltext mit Faksimile, Registern, Karte, Auswertungen und Suche.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://maelkolb.github.io/Thuringia-digital-edition/assets/img/titelblatt.jpg">
+<link rel="icon" href="../assets/img/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="../assets/css/edition.css?v=1.1">
+<script>
+(function () {
+  // opened from disk (file://), browsers refuse the font files; an embedded copy of the fonts is used instead
+  var offline = location.protocol === 'file:';
+  (offline ? ['fonts-offline.css'] : ['newsreader-latin-wght-normal.woff2', 'source-sans-3-latin-wght-normal.woff2']).forEach(function (f) {
+    var l = document.createElement('link');
+    if (offline) { l.rel = 'stylesheet'; l.href = '../assets/css/' + f; }
+    else { l.rel = 'preload'; l.as = 'font'; l.type = 'font/woff2'; l.crossOrigin = ''; l.href = '../assets/fonts/' + f; }
+    document.head.appendChild(l);
+  });
+  var d = document.documentElement, ui = 'de', th = null;
+  try { ui = localStorage.getItem('rj.ui') || (navigator.language || 'de').slice(0, 2); th = localStorage.getItem('rj.theme'); } catch (e) {}
+  ui = ui === 'en' ? 'en' : 'de';
+  d.setAttribute('data-ui', ui); d.lang = ui;
+  if (th === 'dark' || th === 'light') d.setAttribute('data-theme', th);
+})();
+</script>
+</head>
+<body class="" data-root="../">
+<a class="skip-link" href="#main"><span data-l="de">Zum Inhalt</span><span data-l="en">Skip to content</span></a>
+<header class="site-header">
+  <div class="bar">
+    <button class="tool-btn menu-toggle" type="button" aria-label="Menü" data-de-aria-label="Menü" data-en-aria-label="Menu" aria-expanded="false" data-menu>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+    </button>
+    <a class="brand" href="../index.html"><b>Brückner 1870</b><span><span data-l="de">Digitale Edition</span><span data-l="en">Digital edition</span></span></a>
+    <nav class="nav" aria-label="Hauptnavigation" data-de-aria-label="Hauptnavigation" data-en-aria-label="Main navigation" data-nav>
+      <a href="../seite/3.html" ><span data-l="de">Lesen</span><span data-l="en">Read</span></a>
+      <a href="../inhalt.html" ><span data-l="de">Inhalt</span><span data-l="en">Contents</span></a>
+      <a href="../register/index.html" ><span data-l="de">Register</span><span data-l="en">Indexes</span></a>
+      <a href="../karte.html" ><span data-l="de">Karte</span><span data-l="en">Map</span></a>
+      <a href="../auswertungen/index.html" aria-current="page"><span data-l="de">Auswertungen</span><span data-l="en">Analyses</span></a>
+      <a href="../edition/einleitung.html" ><span data-l="de">Zur Edition</span><span data-l="en">About</span></a>
+    </nav>
+    <div class="header-tools">
+      <form class="quicksearch" role="search" aria-label="Schnellsuche" data-de-aria-label="Schnellsuche" data-en-aria-label="Quick search" action="../suche.html" data-quicksearch>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+        <label class="visually-hidden" for="qs"><span data-l="de">Suche</span><span data-l="en">Search</span></label>
+        <input id="qs" name="q" type="search" autocomplete="off" placeholder="Suchen" data-de-placeholder="Suchen" data-en-placeholder="Search" aria-autocomplete="list" aria-controls="qs-results">
+        <div class="qs-results" id="qs-results" role="listbox"></div>
+      </form>
+      <button class="tool-btn" type="button" data-lang-toggle><span data-l="de" lang="en">English</span><span data-l="en" lang="de">Deutsch</span></button>
+      <button class="tool-btn" type="button" data-theme-toggle aria-label="Helles oder dunkles Farbschema" data-de-aria-label="Helles oder dunkles Farbschema" data-en-aria-label="Light or dark colour scheme" title="Helles oder dunkles Farbschema" data-de-title="Helles oder dunkles Farbschema" data-en-title="Light or dark colour scheme">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+<main id="main">
+<div class="wrap">
+  <div class="ana-intro">
+    <h1 class="doc-title"><span data-l="de">Auswertungen</span><span data-l="en">Analyses</span></h1>
+    <p class="lede"><span data-l="de">Brückner hat sein Buch mit Tabellen und Zahlenreihen gefüllt: Wetterbeobachtungen, Volkszählungen, Ernten, Gerichtsfälle, Stiftungen. Die 32 Auswertungen machen diese Zahlen sichtbar. Jede nennt die Seiten, aus denen sie stammt, legt Methode und Umrechnungen offen und bietet die Daten zum Herunterladen.</span><span data-l="en">Brückner filled his book with tables and series: weather observations, censuses, harvests, court cases, foundations. The 32 analyses make these figures visible. Each names the pages it draws on, discloses its method and unit conversions and offers its data for download.</span></p>
+  </div>
+  <section class="ana-group" id="natur">
+    <h2><span data-l="de">Die Natur des Landes</span><span data-l="en">The nature of the land</span></h2>
+    <ul class="ana-grid">
+      <li><a href="land-lage-grenzen.html"><img src="thumbs/land-lage-grenzen.png" alt="" loading="lazy" width="640" height="360"><span class="t"><span data-l="de">Lage, Fläche und Grenzen</span><span data-l="en">Position, area and boundaries</span></span><span class="s"><span data-l="de">Brückner druckt Länge und Breite von 57 trigonometrisch bestimmten Punkten, den Umfang beider Landesteile nach Nachbarstaaten und mehrere …</span><span data-l="en">Brückner prints longitude and latitude of 57 points fixed by triangulation, the perimeter of both parts by neighboring state, and several area …</span></span></a></li>
+      <li><a href="relief-hoehen.html"><img src="thumbs/relief-hoehen.png" alt="" loading="lazy" width="640" height="360"><span class="t"><span data-l="de">Berge und Höhenlage</span><span data-l="en">Mountains and altitude</span></span><span class="s"><span data-l="de">Brückner verzeichnet die Meereshöhe von 264 bewohnten Punkten und 263 Höhenpunkten in preußischen Dezimalfuß.</span><span data-l="en">Brückner lists the altitude of 264 inhabited points and 263 height points in Prussian decimal feet.</span></span></a></li>
+      <li><a href="geologie-boden.html"><img src="thumbs/geologie-boden.png" alt="" loading="lazy" width="640" height="360"><span class="t"><span data-l="de">Gesteine, Böden und Bodenschätze</span><span data-l="en">Rocks, soils and mineral resources</span></span><span class="s"><span data-l="de">In der geognostischen Übersicht beschreibt Prof.</span><span data-l="en">In the geological overview Prof.</span></span></a></li>
+      <li><a href="gewaesser.html"><img src="thumbs/gewaesser.png" alt="" loading="lazy" width="640" height="360"><span class="t"><span data-l="de">Flüsse, Quellen und Heilquellen</span><span data-l="en">Rivers, springs and mineral springs</span></span><span class="s"><span data-l="de">Brückner gliedert das Gewässernetz in vier Flusssysteme, zählt 83 Zuflüsse erster Ordnung auf und gibt für 28 Bäche und Flüsse Höhen an.</span><span data-l="en">Brückner divides the drainage network into four river systems, lists 83 first-order tributaries and gives heights for 28 streams and rivers.</span></span></a></li>
+      <li><a href="klima-gera.html"><img src="thumbs/klima-gera.png" alt="" loading="lazy" width="640" height="360"><span class="t"><span data-l="de">Wetter in Gera 1856–1867</span><span data-l="en">Weather in Gera, 1856–1867</span></span><span class="s"><span data-l="de">Für Gera druckt Brückner Wetterbeobachtungen aus zwölf Jahren (1856 bis 1867): Monatsmittel der Temperatur und des Luftdrucks, die Regenmenge seit …</span><span data-l="en">For Gera, Brückner prints twelve years of weather observations (1856 to 1867): monthly mean temperature and air pressure, rainfall from 1860, and …</span></span></a></li>
+      <li><a href="klima-stationen.html"><img src="thumbs/klima-stationen.png" alt="" loading="lazy" width="640" height="360"><span class="t"><span data-l="de">Klima an den Beobachtungsorten</span><span data-l="en">Climate at the observation sites</span></span><span class="s"><span data-l="de">Neben Gera druckt Brückner Temperaturreihen für Hohenleuben, Schleiz und Rothenacker, Jahresmittel für vier weitere Orte sowie Nebel-, Niederschlags- …</span><span data-l="en">Besides Gera, Brückner prints temperature series for Hohenleuben, Schleiz and Rothenacker, annual means for four more places, and counts of fog, …</span></span></a></li>
+      <li><a href="phaenologie.html"><img src="thumbs/phaenologie.png" alt="" loading="lazy" width="640" height="360"><span class="t"><span data-l="de">Vogelzug und Blüte im Jahreslauf</span><span data-l="en">Bird migration and flowering through the year</span></span><span class="s"><span data-l="de">Brückner druckt Ankunft und Abzug von 14 Zugvögeln in Gera (1859 bis 1864) sowie die Tage des ersten Aufblühens von zwölf Pflanzen in Gera (1851 bis …</span><span data-l="en">Brückner prints the arrival and departure of 14 migratory birds at Gera (1859 to 1864) and the days of first flowering of twelve plants at Gera (1851 …</span></span></a></li>
+      <li><a href="wind-gewitter.html"><img src="thumbs/wind-gewitter.png" alt="" loading="lazy" width="640" height="360"><span class="t"><span data-l="de">Wind und Gewitter</span><span data-l="en">Wind and thunderstorms</span></span><span class="s"><span data-l="de">Brückner wertet Windrichtungen und Gewitter aus.</span><span data-l="en">Brückner analyzes wind directions and thunderstorms.</span></span></a></li>
+      <li><a href="pflanzenwelt.html"><img src="thumbs/pflanzenwelt.png" alt="" loading="lazy" width="640" height="360"><span class="t"><span data-l="de">Pflanzenwelt</span><span data-l="en">Flora</span></span><span class="s"><span data-l="de">Brückner zählt für das Reußenland 1.093 Blütenpflanzen und 658 blütenlose Pflanzen, zusammen 1.751 Arten.</span><span data-l="en">For the Reuss territory Brückner counts 1,093 flowering and 658 flowerless plants, 1,751 species in all.</span></span></a></li>
+      <li><a href="tierwelt.html"><img src="thumbs/tierwelt.png" alt="" loading="lazy" width="640" height="360"><span class="t"><span data-l="de">Tierwelt und ihr Wandel</span><span data-l="en">Fauna and its change</span></span><span class="s"><span data-l="de">Brückner nennt für das Fürstentum rund 380 Wirbeltierarten und 489 Schmetterlinge bei Zeulenroda.</span><span data-l="en">Brückner lists around 380 vertebrate species for the principality and 489 butterflies and moths near Zeulenroda.</span></span></a></li>
+    </ul>
+  </section>
+  <section class="ana-group" id="volk">
+    <h2><span data-l="de">Das Volk</span><span data-l="en">The people</span></h2>
+    <ul class="ana-grid">
+      <li><a href="alter-familie.html"><img src="thumbs/alter-familie.png" alt="" loading="lazy" width="640" height="360"><span class="t"><span data-l="de">Alter, Geschlecht und Familienstand 1864</span><span data-l="en">Age, sex and marital status in 1864</span></span><span class="s"><span data-l="de">Die Zählung von 1864 gliedert die 86.472 Einwohner nach Lebensjahren, Familienstand und Geburtsort.</span><span data-l="en">The census of 1864 classifies the 86,472 inhabitants by year of life, marital status and place of birth.</span></span></a></li>
+      <li><a href="bevoelkerung-1647-1867.html"><img src="thumbs/bevoelkerung-1647-1867.png" alt="" loading="lazy" width="640" height="360"><span class="t"><span data-l="de">Die Bevölkerung 1647–1867</span><span data-l="en">The population, 1647–1867</span></span><span class="s"><span data-l="de">Von 1647 bis 1867 wuchs die Bevölkerung des Fürstentums von 23.913 auf 87.974 Menschen, auf fast das Vierfache.</span><span data-l="en">Between 1647 and 1867 the principality’s population grew from 23,913 to 87,974, almost fourfold.</span></span></a></li>
+      <li><a href="geburten-sterbefaelle.html"><img src="thumbs/geburten-sterbefaelle.png" alt="" loading="lazy" width="640" height="360"><span class="t"><span data-l="de">Geburten, Ehen, Sterbefälle und Wanderung 1858–1867</span><span data-l="en">Births, marriages, deaths and migration, 1858–1867</span></span><span class="s"><span data-l="de">Brückner verzeichnet für 1858 bis 1867 im Durchschnitt 3.358 Geburten, 2.327 Sterbefälle und 855 Trauungen im Jahr.</span><span data-l="en">For 1858 to 1867 Brückner records on average 3,358 births, 2,327 deaths and 855 marriages a year.</span></span></a></li>
+      <li><a href="gesundheit.html"><img src="thumbs/gesundheit.png" alt="" loading="lazy" width="640" height="360"><span class="t"><span data-l="de">Krankheit, Ärzte und Seuchen</span><span data-l="en">Illness, physicians and epidemics</span></span><span class="s"><span data-l="de">Brückner stützt sein Bild der Volkskrankheiten auf wenige Quellen: eine Arztpraxis in Lobenstein, die Krankenhausstation Gera, Hohenleuben und die …</span><span data-l="en">Brückner bases his picture of the common diseases on few sources: a physician’s practice in Lobenstein, the hospital ward in Gera, Hohenleuben and …</span></span></a></li>
+      <li><a href="sagen-brauch.html"><img src="thumbs/sagen-brauch.png" alt="" loading="lazy" width="640" height="360"><span class="t"><span data-l="de">Sagen, Bräuche und Volksmedizin</span><span data-l="en">Legends, customs and folk medicine</span></span><span class="s"><span data-l="de">Brückner verzeichnet Sagenorte, Jahresbräuche und Hausmittel des Landvolks.</span><span data-l="en">Brückner records the legend sites, annual customs and household remedies of the country people.</span></span></a></li>
+    </ul>
+  </section>
+  <section class="ana-group" id="wirtschaft">
+    <h2><span data-l="de">Erwerbsleben</span><span data-l="en">Economic life</span></h2>
+    <ul class="ana-grid">
+      <li><a href="berufe-gewerbe.html"><img src="thumbs/berufe-gewerbe.png" alt="" loading="lazy" width="640" height="360"><span class="t"><span data-l="de">Berufe, Gewerbe und Industrie 1864</span><span data-l="en">Occupations, trades and industry in 1864</span></span><span class="s"><span data-l="de">Die Erhebung von 1864 ordnet alle 86.472 Einwohner 13 Berufsklassen zu.</span><span data-l="en">The survey of 1864 assigns all 86,472 inhabitants to 13 occupational classes.</span></span></a></li>
+      <li><a href="landwirtschaft.html"><img src="thumbs/landwirtschaft.png" alt="" loading="lazy" width="640" height="360"><span class="t"><span data-l="de">Boden, Besitz und Ernte</span><span data-l="en">Land, ownership and harvest</span></span><span class="s"><span data-l="de">Die Vermessung von 1854 verteilt 322.746 Morgen auf Nutzungsarten: Das Unterland ist Ackerland (58 Prozent Feld), das Oberland Wald und Wiese.</span><span data-l="en">The survey of 1854 divides 322,746 Morgen among kinds of use: the Unterland is arable land (58 percent field), the Oberland woodland and meadow.</span></span></a></li>
+      <li><a href="viehzucht.html"><img src="thumbs/viehzucht.png" alt="" loading="lazy" width="640" height="360"><span class="t"><span data-l="de">Viehbestand 1843 bis 1867</span><span data-l="en">Livestock, 1843 to 1867</span></span><span class="s"><span data-l="de">Die Viehzählungen von 1843 bis 1867 zeigen eine Verschiebung: Die Zahl der Ziegen stieg um 94 Prozent, die der Schweine um 49 und die der Pferde um …</span><span data-l="en">The livestock counts from 1843 to 1867 show a shift: goats increased by 94 percent, pigs by 49 and horses by 34 percent, cattle by only 4 percent, …</span></span></a></li>
+      <li><a href="wald-holz.html"><img src="thumbs/wald-holz.png" alt="" loading="lazy" width="640" height="360"><span class="t"><span data-l="de">Wald und Holz</span><span data-l="en">Forests and timber</span></span><span class="s"><span data-l="de">Der Wald des Fürstentums umfasste um 1868 133.635 Morgen oder 34.120 Hektar, 41,4 Prozent der Fläche, 94,5 Prozent davon Nadelholz.</span><span data-l="en">Around 1868 the principality’s forest covered 133,635 Morgen or 34,120 hectares, 41.4 percent of the area, 94.5 percent of it conifers.</span></span></a></li>
+      <li><a href="bergbau.html"><img src="thumbs/bergbau.png" alt="" loading="lazy" width="640" height="360"><span class="t"><span data-l="de">Bergbau, Hütten und Salz</span><span data-l="en">Mining, ironworks and salt</span></span><span class="s"><span data-l="de">Brückner verfolgt den Bergbau von den Silbergruben bei Schleiz (1318) bis zur Saline Heinrichshall.</span><span data-l="en">Brückner traces mining from the silver mines near Schleiz (1318) to the Heinrichshall saltworks.</span></span></a></li>
+      <li><a href="handel-verkehr.html"><img src="thumbs/handel-verkehr.png" alt="" loading="lazy" width="640" height="360"><span class="t"><span data-l="de">Handel, Märkte und Verkehr</span><span data-l="en">Trade, markets and transport</span></span><span class="s"><span data-l="de">Als Maß für den Handel druckt Brückner die Zahl der erledigten Begleitscheine: In Gera stieg sie von 316 (1858) auf 680 (1867), im Oberland sank sie …</span><span data-l="en">As a measure of trade Brückner prints the number of customs transit documents processed: in Gera it rose from 316 (1858) to 680 (1867), in the …</span></span></a></li>
+    </ul>
+  </section>
+  <section class="ana-group" id="staat">
+    <h2><span data-l="de">Der Staat</span><span data-l="en">The state</span></h2>
+    <ul class="ana-grid">
+      <li><a href="verfassung-verwaltung.html"><img src="thumbs/verfassung-verwaltung.png" alt="" loading="lazy" width="640" height="360"><span class="t"><span data-l="de">Landtag, Verwaltung und Militär</span><span data-l="en">Landtag, administration and military</span></span><span class="s"><span data-l="de">Nach Brückner zählte der Landtag 13 Mitglieder, davon 9 aus Wahlen der Städte und der übrigen Gemeinden.</span><span data-l="en">According to Brückner the Landtag had 13 members, 9 of them elected by the towns and the other communities.</span></span></a></li>
+      <li><a href="staatsfinanzen.html"><img src="thumbs/staatsfinanzen.png" alt="" loading="lazy" width="640" height="360"><span class="t"><span data-l="de">Staatshaushalt, Schulden und Versicherung</span><span data-l="en">State budget, debt and insurance</span></span><span class="s"><span data-l="de">Für die Finanzperiode 1866/68 veranschlagte der Staat Einnahmen von 296.000 und Ausgaben von 290.000 Talern im Jahr; 52 Prozent der Einnahmen kamen …</span><span data-l="en">For the financial period 1866/68 the state budgeted revenue of 296,000 and expenditure of 290,000 thalers a year; 52 percent of the revenue came from …</span></span></a></li>
+      <li><a href="rechtspflege.html"><img src="thumbs/rechtspflege.png" alt="" loading="lazy" width="640" height="360"><span class="t"><span data-l="de">Gerichte und Strafen 1864–1867</span><span data-l="en">Courts and punishments, 1864–1867</span></span><span class="s"><span data-l="de">Die Rechtspflege lag bei acht Justizämtern, zwei Kreisgerichten und den Staatsanwaltschaften.</span><span data-l="en">Justice was administered by eight Justizämter (single-judge courts), two Kreisgerichte (district courts) and the public prosecutors.</span></span></a></li>
+      <li><a href="kirche-schule.html"><img src="thumbs/kirche-schule.png" alt="" loading="lazy" width="640" height="360"><span class="t"><span data-l="de">Kirchen und Schulen</span><span data-l="en">Churches and schools</span></span><span class="s"><span data-l="de">Kirchlich gliederte sich das Fürstentum in 3 Ephorien mit 45 Parochien, 102 Kirchen und 68 Geistlichen; hinzu kamen 115 Volksschulen mit 206 Lehrern …</span><span data-l="en">Ecclesiastically the principality was divided into 3 ephories with 45 parishes, 102 churches and 68 clergy; in addition there were 115 elementary …</span></span></a></li>
+      <li><a href="armenwesen-stiftungen.html"><img src="thumbs/armenwesen-stiftungen.png" alt="" loading="lazy" width="640" height="360"><span class="t"><span data-l="de">Armenpflege, Kassen und Stiftungen</span><span data-l="en">Poor relief, funds and foundations</span></span><span class="s"><span data-l="de">Brückner nennt 32 Selbsthilfeeinrichtungen der arbeitenden Klassen mit Gründungsjahr, 13 Stiftungen für Arme mit 49.010 Taler Kapital und 18 …</span><span data-l="en">Brückner names 32 self-help institutions of the working classes with a founding year, 13 foundations for the poor with 49,010 thalers of capital and …</span></span></a></li>
+    </ul>
+  </section>
+  <section class="ana-group" id="geschichte">
+    <h2><span data-l="de">Geschichte des Landes und des Fürstenhauses</span><span data-l="en">History of the land and the princely house</span></h2>
+    <ul class="ana-grid">
+      <li><a href="landesgeschichte.html"><img src="thumbs/landesgeschichte.png" alt="" loading="lazy" width="640" height="360"><span class="t"><span data-l="de">Landesgeschichte: Erwerb, Verlust und Teilungen</span><span data-l="en">History of the land: gains, losses and divisions</span></span><span class="s"><span data-l="de">Brückner erzählt die Geschichte der Voigte von Weida, Gera und Plauen und des Hauses Reuß als Folge von Käufen, Pfändern, Erbfällen und Teilungen.</span><span data-l="en">Brückner tells the history of the Voigts of Weida, Gera and Plauen and of the house of Reuss as a series of purchases, pledges, successions and …</span></span></a></li>
+      <li><a href="haus-reuss.html"><img src="thumbs/haus-reuss.png" alt="" loading="lazy" width="640" height="360"><span class="t"><span data-l="de">Die Voigte und das Haus Reuß</span><span data-l="en">The Voigts and the house of Reuss</span></span><span class="s"><span data-l="de">Brückners Stammtafeln führen die Männer der Voigte von Weida, Gera und Plauen mit Jahreszahlen auf: 98 Heinriche, 70 davon als Landesherren.</span><span data-l="en">Brückner’s genealogical tables list the men of the Voigts of Weida, Gera and Plauen with years: 98 men named Heinrich, 70 of them as lords.</span></span></a></li>
+    </ul>
+  </section>
+  <section class="ana-group" id="orte">
+    <h2><span data-l="de">Ortskunde</span><span data-l="en">The places</span></h2>
+    <ul class="ana-grid">
+      <li><a href="dorfleben.html"><img src="thumbs/dorfleben.png" alt="" loading="lazy" width="640" height="360"><span class="t"><span data-l="de">Bauern, Häusler und Handwerker in den Dörfern</span><span data-l="en">Farmers, cottagers and craftsmen in the villages</span></span><span class="s"><span data-l="de">Fast jeder Ortsartikel Brückners nennt Handwerker, Gliederung der Einwohner und Pacht.</span><span data-l="en">Almost every place article of Brückner names the craftsmen, the social divisions of the inhabitants and the rent.</span></span></a></li>
+      <li><a href="ortsnamen.html"><img src="thumbs/ortsnamen.png" alt="" loading="lazy" width="640" height="360"><span class="t"><span data-l="de">Ortsnamen, erste Erwähnungen und Wüstungen</span><span data-l="en">Place names, first mentions and deserted villages</span></span><span class="s"><span data-l="de">Für 152 von 173 Gemeinden nennt Brückner die erste urkundliche Erwähnung; Orte im Landesteil Gera sind früher belegt.</span><span data-l="en">For 152 of 173 municipalities Brückner gives the first documentary mention; places in the district of Gera are attested earlier.</span></span></a></li>
+      <li><a href="siedlung-wohnen.html"><img src="thumbs/siedlung-wohnen.png" alt="" loading="lazy" width="640" height="360"><span class="t"><span data-l="de">Siedlungen und Häuser 1867</span><span data-l="en">Settlements and houses in 1867</span></span><span class="s"><span data-l="de">Brückner beschreibt 173 Gemeinden mit zusammen 87.966 Einwohnern.</span><span data-l="en">Brückner describes 173 municipalities with 87,966 inhabitants in total.</span></span></a></li>
+    </ul>
+  </section>
+  <section class="ana-group" id="buch">
+    <h2><span data-l="de">Das Buch und seine Leser</span><span data-l="en">The book and its readers</span></h2>
+    <ul class="ana-grid">
+      <li><a href="buch-leser.html"><img src="thumbs/buch-leser.png" alt="" loading="lazy" width="640" height="360"><span class="t"><span data-l="de">Das Buch, seine Leser und seine Maße</span><span data-l="en">The book, its readers and its measures</span></span><span class="s"><span data-l="de">Der Anhang des Buchs enthält die Liste der 221 Subskribenten, die zusammen 303 Exemplare bestellten, Brückners 78 Zusätze und Berichtigungen und die …</span><span data-l="en">The appendix contains the list of 221 subscribers who ordered 303 copies in all, Brückner’s 78 addenda and corrigenda and the official conversion of …</span></span></a></li>
+    </ul>
+  </section>
+</div>
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <div>
+      <p><b>Georg Brückner: Volks- und Landeskunde des Fürstenthums Reuß j. L. Gera 1870</b><br>
+      <span data-l="de">Digitale Edition, herausgegeben von Tobias Perschl, Markus Gerstmeier und Malte Rehbein, Lehrstuhl für Computational Humanities, Universität Passau.</span><span data-l="en">Digital edition, edited by Tobias Perschl, Markus Gerstmeier and Malte Rehbein, Chair of Computational Humanities, University of Passau.</span>
+      Version 1.1, 2026-10-02.</p>
+      <p><span data-l="de">Grundlage ist das Exemplar der Bayerischen Staatsbibliothek München (Germ.sp. 78 ld).</span><span data-l="en">Based on the copy in the Bayerische Staatsbibliothek Munich (Germ.sp. 78 ld).</span>
+      <span data-l="de">Transkription, Annotationen und Daten stehen unter</span><span data-l="en">Transcription, annotations and data are licensed under</span> <a href="https://creativecommons.org/licenses/by/4.0/" rel="license">CC BY 4.0</a><span data-l="de">, die Faksimiles unter</span><span data-l="en">, the facsimiles under</span> <a href="https://rightsstatements.org/vocab/NoC-NC/1.0/">NoC-NC 1.0</a>.</p>
+    </div>
+    <div>
+      <h2><span data-l="de">Zur Edition</span><span data-l="en">About the edition</span></h2>
+      <ul>
+        <li><a href="../edition/einleitung.html"><span data-l="de">Einleitung</span><span data-l="en">Introduction</span></a></li>
+        <li><a href="../edition/richtlinien.html"><span data-l="de">Editionsrichtlinien</span><span data-l="en">Editorial principles</span></a></li>
+        <li><a href="../edition/zitieren.html"><span data-l="de">Zitierweise</span><span data-l="en">How to cite</span></a></li>
+        <li><a href="../edition/daten.html"><span data-l="de">Daten und Downloads</span><span data-l="en">Data and downloads</span></a></li>
+      </ul>
+    </div>
+    <div>
+      <h2><span data-l="de">Erschließung</span><span data-l="en">Finding aids</span></h2>
+      <ul>
+        <li><a href="../suche.html"><span data-l="de">Volltextsuche</span><span data-l="en">Full-text search</span></a></li>
+        <li><a href="../register/sachregister.html"><span data-l="de">Sachregister</span><span data-l="en">Subject index</span></a></li>
+        <li><a href="../register/glossar.html"><span data-l="de">Glossar</span><span data-l="en">Glossary</span></a></li>
+        <li><a href="../edition/impressum.html"><span data-l="de">Impressum und Datenschutz</span><span data-l="en">Imprint and privacy</span></a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+<script src="../assets/js/norm.js?v=1.1" defer></script>
+<script src="../assets/js/edition.js?v=1.1" defer></script>
+</body>
+</html>

@@ -1,0 +1,1448 @@
+{
+ "seq": 252,
+ "label": "240",
+ "slug": "240",
+ "iiif": {
+  "service": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb11005578_00252",
+  "canvas": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11005578/canvas/252",
+  "width": 1665,
+  "height": 2707
+ },
+ "kind": "text",
+ "running_header": "III. Die Volksbetriebsamkeit.",
+ "signature": null,
+ "blocks": [
+  {
+   "id": "b1",
+   "type": "heading",
+   "src": 0,
+   "text": "Umfang und Vertheilung der Wälder.\na) Ueberhaupt in preußischen Morgen:",
+   "spans": [
+    [
+     27,
+     33,
+     "Environment"
+    ]
+   ],
+   "sec": "t1-3-4",
+   "level": 5
+  },
+  {
+   "id": "b2",
+   "type": "table",
+   "src": 1,
+   "n_cols": 16,
+   "header_rows": 1,
+   "rows": [
+    {
+     "role": "header",
+     "cells": [
+      {
+       "text": "Landestheile.",
+       "spans": []
+      },
+      {
+       "text": "Kammerforste. Laub.",
+       "spans": []
+      },
+      {
+       "text": "Kammerforste. Nadel.",
+       "spans": []
+      },
+      {
+       "text": "Kammerforste. Sa.",
+       "spans": []
+      },
+      {
+       "text": "Gemeindeforste. Laub.",
+       "spans": []
+      },
+      {
+       "text": "Gemeindeforste. Nadel.",
+       "spans": []
+      },
+      {
+       "text": "Gemeindeforste. Sa.",
+       "spans": []
+      },
+      {
+       "text": "Stiftungsforste. Laub.",
+       "spans": []
+      },
+      {
+       "text": "Stiftungsforste. Nadel.",
+       "spans": []
+      },
+      {
+       "text": "Stiftungsforste. Sa.",
+       "spans": []
+      },
+      {
+       "text": "Privatwald. Laub.",
+       "spans": []
+      },
+      {
+       "text": "Privatwald. Nadel.",
+       "spans": []
+      },
+      {
+       "text": "Privatwald. Sa.",
+       "spans": []
+      },
+      {
+       "text": "Gesammtareal. Laub.",
+       "spans": []
+      },
+      {
+       "text": "Gesammtareal. Nadel.",
+       "spans": []
+      },
+      {
+       "text": "Gesammtareal. Summa.",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Gera",
+       "spans": [
+        [
+         0,
+         4,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "849",
+       "spans": []
+      },
+      {
+       "text": "3571",
+       "spans": []
+      },
+      {
+       "text": "4420",
+       "spans": []
+      },
+      {
+       "text": "120",
+       "spans": []
+      },
+      {
+       "text": "1196",
+       "spans": []
+      },
+      {
+       "text": "1316",
+       "spans": []
+      },
+      {
+       "text": "124",
+       "spans": []
+      },
+      {
+       "text": "257",
+       "spans": []
+      },
+      {
+       "text": "381",
+       "spans": []
+      },
+      {
+       "text": "4701",
+       "spans": []
+      },
+      {
+       "text": "10480",
+       "spans": []
+      },
+      {
+       "text": "15191",
+       "spans": []
+      },
+      {
+       "text": "5794",
+       "spans": []
+      },
+      {
+       "text": "15504",
+       "spans": []
+      },
+      {
+       "text": "21298",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Pfl. Reichenfels",
+       "spans": [
+        [
+         5,
+         16,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "17",
+       "spans": []
+      },
+      {
+       "text": "10500",
+       "spans": []
+      },
+      {
+       "text": "10517",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "13",
+       "spans": []
+      },
+      {
+       "text": "13",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "2",
+       "spans": []
+      },
+      {
+       "text": "2",
+       "spans": []
+      },
+      {
+       "text": "41",
+       "spans": []
+      },
+      {
+       "text": "3492",
+       "spans": []
+      },
+      {
+       "text": "3533",
+       "spans": []
+      },
+      {
+       "text": "58",
+       "spans": []
+      },
+      {
+       "text": "14007",
+       "spans": []
+      },
+      {
+       "text": "14065",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Herrsch. Schleiz",
+       "spans": [
+        [
+         9,
+         16,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "172",
+       "spans": []
+      },
+      {
+       "text": "12237",
+       "spans": []
+      },
+      {
+       "text": "12409",
+       "spans": []
+      },
+      {
+       "text": "14",
+       "spans": []
+      },
+      {
+       "text": "451",
+       "spans": []
+      },
+      {
+       "text": "465",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "899",
+       "spans": []
+      },
+      {
+       "text": "899",
+       "spans": []
+      },
+      {
+       "text": "90",
+       "spans": []
+      },
+      {
+       "text": "15089",
+       "spans": []
+      },
+      {
+       "text": "15179",
+       "spans": []
+      },
+      {
+       "text": "276",
+       "spans": []
+      },
+      {
+       "text": "28676",
+       "spans": []
+      },
+      {
+       "text": "28952",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Pfl. Saalburg",
+       "spans": [
+        [
+         5,
+         13,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "10",
+       "spans": []
+      },
+      {
+       "text": "5317",
+       "spans": []
+      },
+      {
+       "text": "5327",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "387",
+       "spans": []
+      },
+      {
+       "text": "387",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "310",
+       "spans": []
+      },
+      {
+       "text": "310",
+       "spans": []
+      },
+      {
+       "text": "12",
+       "spans": []
+      },
+      {
+       "text": "5128",
+       "spans": []
+      },
+      {
+       "text": "5140",
+       "spans": []
+      },
+      {
+       "text": "22",
+       "spans": []
+      },
+      {
+       "text": "11142",
+       "spans": []
+      },
+      {
+       "text": "11164",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Schleiz",
+       "spans": [
+        [
+         0,
+         7,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "199",
+       "spans": []
+      },
+      {
+       "text": "28054",
+       "spans": []
+      },
+      {
+       "text": "28253",
+       "spans": []
+      },
+      {
+       "text": "14",
+       "spans": []
+      },
+      {
+       "text": "851",
+       "spans": []
+      },
+      {
+       "text": "865",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "1211",
+       "spans": []
+      },
+      {
+       "text": "1211",
+       "spans": []
+      },
+      {
+       "text": "143",
+       "spans": []
+      },
+      {
+       "text": "23709",
+       "spans": []
+      },
+      {
+       "text": "23852",
+       "spans": []
+      },
+      {
+       "text": "356",
+       "spans": []
+      },
+      {
+       "text": "53825",
+       "spans": []
+      },
+      {
+       "text": "54181",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Lob.-Ebersd.",
+       "spans": [
+        [
+         0,
+         12,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "1037",
+       "spans": []
+      },
+      {
+       "text": "30057",
+       "spans": []
+      },
+      {
+       "text": "31094",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "719",
+       "spans": []
+      },
+      {
+       "text": "719",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "417",
+       "spans": []
+      },
+      {
+       "text": "417",
+       "spans": []
+      },
+      {
+       "text": "109",
+       "spans": []
+      },
+      {
+       "text": "25817",
+       "spans": []
+      },
+      {
+       "text": "25926",
+       "spans": []
+      },
+      {
+       "text": "1146",
+       "spans": []
+      },
+      {
+       "text": "57010",
+       "spans": []
+      },
+      {
+       "text": "58156",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Fürstenthum*)",
+       "spans": []
+      },
+      {
+       "text": "2085",
+       "spans": []
+      },
+      {
+       "text": "61682",
+       "spans": []
+      },
+      {
+       "text": "63767",
+       "spans": []
+      },
+      {
+       "text": "134",
+       "spans": []
+      },
+      {
+       "text": "2766",
+       "spans": []
+      },
+      {
+       "text": "2900",
+       "spans": []
+      },
+      {
+       "text": "124",
+       "spans": []
+      },
+      {
+       "text": "1885",
+       "spans": []
+      },
+      {
+       "text": "2009",
+       "spans": []
+      },
+      {
+       "text": "4953",
+       "spans": []
+      },
+      {
+       "text": "60006",
+       "spans": []
+      },
+      {
+       "text": "64959",
+       "spans": []
+      },
+      {
+       "text": "7296",
+       "spans": []
+      },
+      {
+       "text": "126339",
+       "spans": []
+      },
+      {
+       "text": "133635",
+       "spans": []
+      }
+     ]
+    }
+   ],
+   "grid": [
+    [
+     "Landestheile.",
+     "Kammerforste. Laub.",
+     "Kammerforste. Nadel.",
+     "Kammerforste. Sa.",
+     "Gemeindeforste. Laub.",
+     "Gemeindeforste. Nadel.",
+     "Gemeindeforste. Sa.",
+     "Stiftungsforste. Laub.",
+     "Stiftungsforste. Nadel.",
+     "Stiftungsforste. Sa.",
+     "Privatwald. Laub.",
+     "Privatwald. Nadel.",
+     "Privatwald. Sa.",
+     "Gesammtareal. Laub.",
+     "Gesammtareal. Nadel.",
+     "Gesammtareal. Summa."
+    ],
+    [
+     "Gera . . . .",
+     "849",
+     "3571",
+     "4420",
+     "120",
+     "1196",
+     "1316",
+     "124",
+     "257",
+     "381",
+     "4701",
+     "10480",
+     "15191",
+     "5794",
+     "15504",
+     "21298"
+    ],
+    [
+     "Pfl. Reichenfels",
+     "17",
+     "10500",
+     "10517",
+     "—",
+     "13",
+     "13",
+     "—",
+     "2",
+     "2",
+     "41",
+     "3492",
+     "3533",
+     "58",
+     "14007",
+     "14065"
+    ],
+    [
+     "Herrsch. Schleiz",
+     "172",
+     "12237",
+     "12409",
+     "14",
+     "451",
+     "465",
+     "—",
+     "899",
+     "899",
+     "90",
+     "15089",
+     "15179",
+     "276",
+     "28676",
+     "28952"
+    ],
+    [
+     "Pfl. Saalburg",
+     "10",
+     "5317",
+     "5327",
+     "—",
+     "387",
+     "387",
+     "—",
+     "310",
+     "310",
+     "12",
+     "5128",
+     "5140",
+     "22",
+     "11142",
+     "11164"
+    ],
+    [
+     "Schleiz . . . .",
+     "199",
+     "28054",
+     "28253",
+     "14",
+     "851",
+     "865",
+     "—",
+     "1211",
+     "1211",
+     "143",
+     "23709",
+     "23852",
+     "356",
+     "53825",
+     "54181"
+    ],
+    [
+     "Lob.-Ebersd.",
+     "1037",
+     "30057",
+     "31094",
+     "—",
+     "719",
+     "719",
+     "—",
+     "417",
+     "417",
+     "109",
+     "25817",
+     "25926",
+     "1146",
+     "57010",
+     "58156"
+    ],
+    [
+     "Fürstenthum*)",
+     "2085",
+     "61682",
+     "63767",
+     "134",
+     "2766",
+     "2900",
+     "124",
+     "1885",
+     "2009",
+     "4953",
+     "60006",
+     "64959",
+     "7296",
+     "126339",
+     "133635"
+    ]
+   ],
+   "caption": null,
+   "sec": "t1-3-4"
+  },
+  {
+   "id": "b3",
+   "type": "heading",
+   "src": 2,
+   "text": "b) Vergleichung der Wälder nach Procenten, Raum, Bevölkerung und nach dem Besitzstande:",
+   "spans": [
+    [
+     20,
+     26,
+     "Environment"
+    ]
+   ],
+   "sec": "t1-3-4",
+   "level": 5
+  },
+  {
+   "id": "b4",
+   "type": "table",
+   "src": 3,
+   "n_cols": 8,
+   "header_rows": 1,
+   "rows": [
+    {
+     "role": "header",
+     "cells": [
+      {
+       "text": "Landestheile.",
+       "spans": []
+      },
+      {
+       "text": "In Procenten. Laub.",
+       "spans": []
+      },
+      {
+       "text": "In Procenten. Nadel.",
+       "spans": []
+      },
+      {
+       "text": "In Procenten. Summe.",
+       "spans": []
+      },
+      {
+       "text": "Auf die Landesth. kommt Wald in □ M.",
+       "spans": []
+      },
+      {
+       "text": "Auf 1 Einw. kommen Morgen.",
+       "spans": []
+      },
+      {
+       "text": "Der Gesammtwald. Der Besitzstand.",
+       "spans": []
+      },
+      {
+       "text": "Der Gesammtwald. In Proc.",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Gera",
+       "spans": [
+        [
+         0,
+         4,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "79,41",
+       "spans": []
+      },
+      {
+       "text": "12,27",
+       "spans": []
+      },
+      {
+       "text": "15,94",
+       "spans": []
+      },
+      {
+       "text": "0,99",
+       "spans": []
+      },
+      {
+       "text": "0,59",
+       "spans": []
+      },
+      {
+       "text": "Stiftungswald",
+       "spans": []
+      },
+      {
+       "text": "1,50",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Pfl. Reichenfels",
+       "spans": [
+        [
+         5,
+         16,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "0,79",
+       "spans": []
+      },
+      {
+       "text": "11,09",
+       "spans": []
+      },
+      {
+       "text": "10,52",
+       "spans": []
+      },
+      {
+       "text": "0,65",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "Gemeindewald",
+       "spans": []
+      },
+      {
+       "text": "2,15",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Herrsch. Schleiz",
+       "spans": [
+        [
+         9,
+         16,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "3,77",
+       "spans": []
+      },
+      {
+       "text": "22,70",
+       "spans": []
+      },
+      {
+       "text": "21,66",
+       "spans": []
+      },
+      {
+       "text": "1,34",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "Privatwald",
+       "spans": []
+      },
+      {
+       "text": "48,23",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Pfl. Saalburg",
+       "spans": [
+        [
+         5,
+         13,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "0,32",
+       "spans": []
+      },
+      {
+       "text": "8,81",
+       "spans": []
+      },
+      {
+       "text": "8,36",
+       "spans": []
+      },
+      {
+       "text": "0,52",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "Domainenwald",
+       "spans": []
+      },
+      {
+       "text": "48,12",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Schleiz",
+       "spans": [
+        [
+         0,
+         7,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "4,88",
+       "spans": []
+      },
+      {
+       "text": "42,60",
+       "spans": []
+      },
+      {
+       "text": "40,54",
+       "spans": []
+      },
+      {
+       "text": "2,51",
+       "spans": []
+      },
+      {
+       "text": "1,98",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Lob.-Ebersdorf .",
+       "spans": [
+        [
+         0,
+         14,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "15,71",
+       "spans": []
+      },
+      {
+       "text": "45,13",
+       "spans": []
+      },
+      {
+       "text": "43,52",
+       "spans": []
+      },
+      {
+       "text": "2,70",
+       "spans": []
+      },
+      {
+       "text": "2,60",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Fürstenthum",
+       "spans": []
+      },
+      {
+       "text": "100",
+       "spans": []
+      },
+      {
+       "text": "100",
+       "spans": []
+      },
+      {
+       "text": "100",
+       "spans": []
+      },
+      {
+       "text": "6,20",
+       "spans": []
+      },
+      {
+       "text": "1,52",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "100",
+       "spans": []
+      }
+     ]
+    }
+   ],
+   "grid": [
+    [
+     "Landestheile.",
+     "In Procenten. Laub.",
+     "In Procenten. Nadel.",
+     "In Procenten. Summe.",
+     "Auf die Landesth. kommt Wald in □ M.",
+     "Auf 1 Einw. kommen Morgen.",
+     "Der Gesammtwald. Der Besitzstand.",
+     "Der Gesammtwald. In Proc."
+    ],
+    [
+     "Gera . . . .",
+     "79,41",
+     "12,27",
+     "15,94",
+     "0,99",
+     "0,59",
+     "Stiftungswald",
+     "1,50"
+    ],
+    [
+     "Pfl. Reichenfels",
+     "0,79",
+     "11,09",
+     "10,52",
+     "0,65",
+     "—",
+     "Gemeindewald",
+     "2,15"
+    ],
+    [
+     "Herrsch. Schleiz",
+     "3,77",
+     "22,70",
+     "21,66",
+     "1,34",
+     "—",
+     "Privatwald",
+     "48,23"
+    ],
+    [
+     "Pfl. Saalburg",
+     "0,32",
+     "8,81",
+     "8,36",
+     "0,52",
+     "—",
+     "Domainenwald",
+     "48,12"
+    ],
+    [
+     "Schleiz . . . .",
+     "4,88",
+     "42,60",
+     "40,54",
+     "2,51",
+     "1,98",
+     "",
+     ""
+    ],
+    [
+     "Lob.-Ebersdorf .",
+     "15,71",
+     "45,13",
+     "43,52",
+     "2,70",
+     "2,60",
+     "",
+     ""
+    ],
+    [
+     "Fürstenthum",
+     "100",
+     "100",
+     "100",
+     "6,20",
+     "1,52",
+     "",
+     "100"
+    ]
+   ],
+   "caption": null,
+   "sec": "t1-3-4"
+  },
+  {
+   "id": "b5",
+   "type": "paragraph",
+   "src": 4,
+   "text": "Der Wald bedeckt demnach 41 1/5 Procent der Oberfläche des Landes und zwar mit 38,95 Procent Nadelwald und mit 2,25 Procent Laubwald. Am Meisten ist der Landestheil Lobenstein-Ebersdorf bewaldet, am Geringsten Gera. Das Stiftungs-Waldgut ist im Ganzen gering, am Stärksten noch im schleizer Landestheile. Nicht viel größer ist das Gemeinde-Waldgut, das größtentheils den städtischen Communen zukommt. Die Privatwaldungen und der Domainenwald stehen sich an Areal fast gleich, beide am Schwächsten im Unterlande, am Stärksten in Lobenstein-Ebersdorf. Von den Privatwaldungen gehören 5872 1/2 Morgen oder 9 Procent den Rittergütern, 91 Procent den bäuerlichen Grundbesitzern. Der Domainenwald umfaßt folgende Forsteien: 1) im Landestheile Gera Ernsee, Niederndorf, Kleinaga und Tinz mit 0,70; in Schleiz Pöllwitz, Neuärgerniß, Weckersdorf, Wüstendittersdorf, Oberböhmsdorf, Oberoschiß, Gräfenwarth, Dittersdorf, Saalburg und Tanna mit 44,31 und in Lobenstein-Ebersdorf Ebersdorf, Lobenstein, Harra, Heinrichsgrün, Titschendorf, Grumbach, Wurzbach, Siehdichfür, Streitwald, Waidmannsheil, Lerchenhügel und Hirschberg mit 54,99 Procent der Domanialsforste. Im Jahre 1647 betrug der Domainenwald in den . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+   "spans": [
+    [
+     93,
+     102,
+     "Environment"
+    ],
+    [
+     124,
+     132,
+     "Environment"
+    ],
+    [
+     165,
+     185,
+     "Location"
+    ],
+    [
+     210,
+     214,
+     "Location"
+    ],
+    [
+     528,
+     548,
+     "Location"
+    ],
+    [
+     737,
+     741,
+     "Location"
+    ],
+    [
+     742,
+     748,
+     "Location"
+    ],
+    [
+     750,
+     761,
+     "Location"
+    ],
+    [
+     763,
+     771,
+     "Location"
+    ],
+    [
+     776,
+     780,
+     "Location"
+    ],
+    [
+     794,
+     801,
+     "Location"
+    ],
+    [
+     802,
+     810,
+     "Location"
+    ],
+    [
+     812,
+     823,
+     "Location"
+    ],
+    [
+     825,
+     836,
+     "Location"
+    ],
+    [
+     838,
+     855,
+     "Location"
+    ],
+    [
+     857,
+     870,
+     "Location"
+    ],
+    [
+     872,
+     882,
+     "Location"
+    ],
+    [
+     884,
+     895,
+     "Location"
+    ],
+    [
+     897,
+     908,
+     "Location"
+    ],
+    [
+     910,
+     918,
+     "Location"
+    ],
+    [
+     923,
+     928,
+     "Location"
+    ],
+    [
+     946,
+     966,
+     "Location"
+    ],
+    [
+     957,
+     966,
+     "Location"
+    ],
+    [
+     946,
+     956,
+     "Location"
+    ],
+    [
+     990,
+     995,
+     "Location"
+    ],
+    [
+     997,
+     1010,
+     "Location"
+    ],
+    [
+     1012,
+     1024,
+     "Location"
+    ],
+    [
+     1026,
+     1034,
+     "Location"
+    ],
+    [
+     1036,
+     1044,
+     "Location"
+    ],
+    [
+     1046,
+     1057,
+     "Location"
+    ],
+    [
+     1059,
+     1069,
+     "Location"
+    ],
+    [
+     1071,
+     1084,
+     "Location"
+    ],
+    [
+     1086,
+     1098,
+     "Location"
+    ],
+    [
+     1103,
+     1113,
+     "Location"
+    ]
+   ],
+   "sec": "t1-3-4"
+  }
+ ],
+ "footnotes": [
+  {
+   "id": "fn1",
+   "marker": "*)",
+   "text": "Die Angaben beruhen bezüglich der Landestheile Gera und Schleiz auf amtlichen Mittheilungen aus Schleiz, bezüglich Lobenstein-Ebersdorf auf Mittheilungen aus Ebersdorf.",
+   "spans": [
+    [
+     47,
+     51,
+     "Location"
+    ],
+    [
+     56,
+     63,
+     "Location"
+    ],
+    [
+     96,
+     103,
+     "Location"
+    ],
+    [
+     115,
+     135,
+     "Location"
+    ],
+    [
+     126,
+     135,
+     "Location"
+    ]
+   ]
+  }
+ ],
+ "corrections": [
+  {
+   "rule": "strip_dot_leaders"
+  }
+ ],
+ "provenance": {
+  "source": "colab-2026-03",
+  "model": "gemini-3-flash-preview",
+  "timestamp": "2026-03-04T13:25:04.039035",
+  "early_schema": false
+ },
+ "section_path": [
+  "t1",
+  "t1-3",
+  "t1-3-4"
+ ],
+ "sections": [
+  "t1-3-4"
+ ]
+}

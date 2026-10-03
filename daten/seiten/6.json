@@ -1,0 +1,1572 @@
+{
+ "seq": 18,
+ "label": "6",
+ "slug": "6",
+ "iiif": {
+  "service": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb11005578_00018",
+  "canvas": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11005578/canvas/18",
+  "width": 1611,
+  "height": 2698
+ },
+ "kind": "text",
+ "running_header": "I. Die Natur des Landes.",
+ "signature": null,
+ "blocks": [
+  {
+   "id": "b1",
+   "type": "heading",
+   "src": 0,
+   "text": "2. Mathematische Lage im Ganzen und im Einzelnen.*)",
+   "spans": [],
+   "opens": [
+    "t1-1-2"
+   ],
+   "sec": "t1-1-2",
+   "level": 4
+  },
+  {
+   "id": "b2",
+   "type": "paragraph",
+   "src": 1,
+   "text": "Das Unterland 29° 33' 48\" — 29° 52' 42\" L.\n                 50° 47' 48\" — 50° 58' 38,6\" Br.\nDas Oberland 29°  7' 20\" — 29° 47' 40\" L.\n                 50° 22' 45\" — 50° 43' 50\" Br.",
+   "spans": [],
+   "sec": "t1-1-2"
+  },
+  {
+   "id": "b3",
+   "type": "table",
+   "src": 2,
+   "n_cols": 4,
+   "header_rows": 0,
+   "rows": [
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Röttersdorf",
+       "spans": [
+        [
+         0,
+         11,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "29° 7' 42\" L.",
+       "spans": []
+      },
+      {
+       "text": "50° 28' 15\" Br.",
+       "spans": []
+      },
+      {
+       "text": "Kohlhäuser.",
+       "spans": [
+        [
+         0,
+         10,
+         "Artefact"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Grumbach",
+       "spans": [
+        [
+         0,
+         8,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "29° 10' 8,5\" L.",
+       "spans": []
+      },
+      {
+       "text": "50° 25' 55\" Br.",
+       "spans": []
+      },
+      {
+       "text": "Dorfmitte (Straßenkreuzungspunkt).",
+       "spans": [
+        [
+         0,
+         9,
+         "Artefact"
+        ],
+        [
+         11,
+         32,
+         "Artefact"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Oßlaer Hügel",
+       "spans": [
+        [
+         0,
+         12,
+         "Natural Object"
+        ]
+       ]
+      },
+      {
+       "text": "29° 10' 3,78\" L.",
+       "spans": []
+      },
+      {
+       "text": "50° 28' 9,59\" Br.",
+       "spans": []
+      },
+      {
+       "text": "Signalstein.",
+       "spans": [
+        [
+         0,
+         11,
+         "Artefact"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Titschendorf",
+       "spans": [
+        [
+         0,
+         12,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "29° 11' 40\" L.",
+       "spans": []
+      },
+      {
+       "text": "50° 23' 37\" Br.",
+       "spans": []
+      },
+      {
+       "text": "Kirche.",
+       "spans": [
+        [
+         0,
+         6,
+         "Artefact"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Gahma",
+       "spans": [
+        [
+         0,
+         5,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "29° 12' 15,45\" L.",
+       "spans": []
+      },
+      {
+       "text": "50° 31' 31,07\" Br.",
+       "spans": []
+      },
+      {
+       "text": "Thurmknopf.",
+       "spans": [
+        [
+         0,
+         10,
+         "Artefact"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Ruppersdorf",
+       "spans": [
+        [
+         0,
+         11,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "29° 14' 32,61\" L.",
+       "spans": []
+      },
+      {
+       "text": "50° 30' 37,61\" Br.",
+       "spans": []
+      },
+      {
+       "text": "Thurmknopf.",
+       "spans": [
+        [
+         0,
+         10,
+         "Artefact"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Heinersdorf",
+       "spans": [
+        [
+         0,
+         11,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "29° 14' 39,85\" L.",
+       "spans": []
+      },
+      {
+       "text": "50° 28' 24,85\" Br.",
+       "spans": []
+      },
+      {
+       "text": "Thurmknopf.",
+       "spans": [
+        [
+         0,
+         10,
+         "Artefact"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Eliasbrunn",
+       "spans": [
+        [
+         0,
+         10,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "29° 15' 48,61\" L.",
+       "spans": []
+      },
+      {
+       "text": "50° 29' 43,58\" Br.",
+       "spans": []
+      },
+      {
+       "text": "Signalpunkt.",
+       "spans": [
+        [
+         0,
+         11,
+         "Artefact"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Eliasbrunn",
+       "spans": [
+        [
+         0,
+         10,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "29° 16' 3,20\" L.",
+       "spans": []
+      },
+      {
+       "text": "50° 29' 52\" Br.",
+       "spans": []
+      },
+      {
+       "text": "Thurmknopf.",
+       "spans": [
+        [
+         0,
+         10,
+         "Artefact"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Unterlemnitz",
+       "spans": [
+        [
+         0,
+         12,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "29° 17' 18\" L.",
+       "spans": []
+      },
+      {
+       "text": "50° 28' 25\" Br.",
+       "spans": []
+      },
+      {
+       "text": "Kirche.",
+       "spans": [
+        [
+         0,
+         6,
+         "Artefact"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Krähenhügel",
+       "spans": [
+        [
+         0,
+         11,
+         "Natural Object"
+        ]
+       ]
+      },
+      {
+       "text": "29° 17' 49,91\" L.",
+       "spans": []
+      },
+      {
+       "text": "50° 24' 32,98\" Br.",
+       "spans": []
+      },
+      {
+       "text": "Signalpunkt.",
+       "spans": [
+        [
+         0,
+         11,
+         "Artefact"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Lobenstein",
+       "spans": [
+        [
+         0,
+         10,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "29° 18' 27,54\" L.",
+       "spans": []
+      },
+      {
+       "text": "50° 26' 48,13\" Br.",
+       "spans": []
+      },
+      {
+       "text": "Ruinenthurm.",
+       "spans": [
+        [
+         0,
+         11,
+         "Artefact"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Bellevue",
+       "spans": [
+        [
+         0,
+         8,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "29° 19' 28,05\" L.",
+       "spans": []
+      },
+      {
+       "text": "50° 28' 42,46\" Br.",
+       "spans": []
+      },
+      {
+       "text": "Forsthaus (Nordschornstein).",
+       "spans": [
+        [
+         0,
+         9,
+         "Artefact"
+        ],
+        [
+         11,
+         26,
+         "Artefact"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Kleinfriesa",
+       "spans": [
+        [
+         0,
+         11,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "29° 20' 0\" L.",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Ebersdorf",
+       "spans": [
+        [
+         0,
+         9,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "29° 20' 1\" L.",
+       "spans": []
+      },
+      {
+       "text": "50° 29' 5\" Br.",
+       "spans": []
+      },
+      {
+       "text": "Kirche.",
+       "spans": [
+        [
+         0,
+         6,
+         "Artefact"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Harra",
+       "spans": [
+        [
+         0,
+         5,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "29° 21' 5\" L.",
+       "spans": []
+      },
+      {
+       "text": "50° 25' 11\" Br.",
+       "spans": []
+      },
+      {
+       "text": "Kirche.",
+       "spans": [
+        [
+         0,
+         6,
+         "Artefact"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Saalburg",
+       "spans": [
+        [
+         0,
+         8,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "29° 23' 50\" L.",
+       "spans": []
+      },
+      {
+       "text": "50° 30' 7\" Br.",
+       "spans": []
+      },
+      {
+       "text": "Kirche.",
+       "spans": [
+        [
+         0,
+         6,
+         "Artefact"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Lerchenhügel",
+       "spans": [
+        [
+         0,
+         12,
+         "Natural Object"
+        ]
+       ]
+      },
+      {
+       "text": "29° 24' 13,18\" L.",
+       "spans": []
+      },
+      {
+       "text": "50° 25' 48,76\" Br.",
+       "spans": []
+      },
+      {
+       "text": "Baum.",
+       "spans": [
+        [
+         0,
+         4,
+         "Plant"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Kulm",
+       "spans": [
+        [
+         0,
+         4,
+         "Natural Object"
+        ]
+       ]
+      },
+      {
+       "text": "29° 25' 8,61\" L.",
+       "spans": []
+      },
+      {
+       "text": "50° 30' 29,67\" Br.",
+       "spans": []
+      },
+      {
+       "text": "Thurmknopf.",
+       "spans": [
+        [
+         0,
+         10,
+         "Artefact"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Bergkirche",
+       "spans": [
+        [
+         0,
+         10,
+         "Artefact"
+        ]
+       ]
+      },
+      {
+       "text": "29° 28' 14,81\" L.",
+       "spans": []
+      },
+      {
+       "text": "50° 35' 6,49\" Br.",
+       "spans": []
+      },
+      {
+       "text": "Thurmknopf.",
+       "spans": [
+        [
+         0,
+         10,
+         "Artefact"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Schleiz",
+       "spans": [
+        [
+         0,
+         7,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "29° 28' 43,07\" L.",
+       "spans": []
+      },
+      {
+       "text": "50° 34' 40,03\" Br.",
+       "spans": []
+      },
+      {
+       "text": "Schloß (Westthurm).",
+       "spans": [
+        [
+         0,
+         6,
+         "Artefact"
+        ],
+        [
+         8,
+         17,
+         "Artefact"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Heinrichsruh",
+       "spans": [
+        [
+         0,
+         12,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "29° 28' 57,65\" L.",
+       "spans": []
+      },
+      {
+       "text": "50° 33' 21,7\" Br.",
+       "spans": []
+      },
+      {
+       "text": "Thurmfahne.",
+       "spans": [
+        [
+         0,
+         10,
+         "Artefact"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Oettersdorf",
+       "spans": [
+        [
+         0,
+         11,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "29° 29' 10,95\" L.",
+       "spans": []
+      },
+      {
+       "text": "50° 36' 6,67\" Br.",
+       "spans": []
+      },
+      {
+       "text": "Kirchthurmknopf.",
+       "spans": [
+        [
+         0,
+         15,
+         "Artefact"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Kapelle",
+       "spans": [
+        [
+         0,
+         7,
+         "Artefact"
+        ]
+       ]
+      },
+      {
+       "text": "29° 29' 53,79\" L.",
+       "spans": []
+      },
+      {
+       "text": "50° 29' 45,35\" Br.",
+       "spans": []
+      },
+      {
+       "text": "Signalpunkt.",
+       "spans": [
+        [
+         0,
+         11,
+         "Artefact"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Tanna",
+       "spans": [
+        [
+         0,
+         5,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "29° 30' 26,49\" L.",
+       "spans": []
+      },
+      {
+       "text": "50° 29' 42,93\" Br.",
+       "spans": []
+      },
+      {
+       "text": "Holländ. Mühle.",
+       "spans": [
+        [
+         0,
+         14,
+         "Artefact"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Tegau",
+       "spans": [
+        [
+         0,
+         5,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "29° 31' 48,52\" L.",
+       "spans": []
+      },
+      {
+       "text": "50° 39' 0,97\" Br.",
+       "spans": []
+      },
+      {
+       "text": "Thurmknopf.",
+       "spans": [
+        [
+         0,
+         10,
+         "Artefact"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Hohe Tanne",
+       "spans": [
+        [
+         0,
+         10,
+         "Natural Object"
+        ]
+       ]
+      },
+      {
+       "text": "29° 32' 47,32\" L.",
+       "spans": []
+      },
+      {
+       "text": "50° 25' 47,64\" Br.",
+       "spans": []
+      },
+      {
+       "text": "bei Gebersreuth.",
+       "spans": [
+        [
+         4,
+         15,
+         "Location"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Kirschkau",
+       "spans": [
+        [
+         0,
+         9,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "29° 33' 14,57\" L.",
+       "spans": []
+      },
+      {
+       "text": "50° 36' 20,35\" Br.",
+       "spans": []
+      },
+      {
+       "text": "Thurmknopf.",
+       "spans": [
+        [
+         0,
+         10,
+         "Artefact"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Lössau",
+       "spans": [
+        [
+         0,
+         6,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "29° 33' 17,68\" L.",
+       "spans": []
+      },
+      {
+       "text": "50° 35' 35,23\" Br.",
+       "spans": []
+      },
+      {
+       "text": "Signalpunkt.",
+       "spans": [
+        [
+         0,
+         11,
+         "Artefact"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Hirschberg",
+       "spans": [
+        [
+         0,
+         10,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "29° 29' 16\" L.",
+       "spans": []
+      },
+      {
+       "text": "50° 24' 18\" Br.",
+       "spans": []
+      },
+      {
+       "text": "Kirche.",
+       "spans": [
+        [
+         0,
+         6,
+         "Artefact"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Mödlareuth",
+       "spans": [
+        [
+         0,
+         10,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "29° 31' 48\" L.",
+       "spans": []
+      },
+      {
+       "text": "50° 25' 0\" Br.",
+       "spans": []
+      },
+      {
+       "text": "nördlichstes Haus.",
+       "spans": [
+        [
+         13,
+         17,
+         "Artefact"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Göttengrün",
+       "spans": [
+        [
+         0,
+         10,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "29° 29' 57\" L.",
+       "spans": []
+      },
+      {
+       "text": "50° 27' 41\" Br.",
+       "spans": []
+      },
+      {
+       "text": "Nordhaus am Dorfteich.",
+       "spans": [
+        [
+         0,
+         8,
+         "Artefact"
+        ],
+        [
+         12,
+         21,
+         "Environment"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Dragensdorf",
+       "spans": [
+        [
+         0,
+         11,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "29° 30' 5\" L.",
+       "spans": []
+      },
+      {
+       "text": "50° 38' 50\" Br.",
+       "spans": []
+      },
+      {
+       "text": "Kirche.",
+       "spans": [
+        [
+         0,
+         6,
+         "Artefact"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Oberböhmsdorf",
+       "spans": [
+        [
+         0,
+         13,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "29° 30' 1,12\" L.",
+       "spans": []
+      },
+      {
+       "text": "50° 33' 41\" Br.",
+       "spans": []
+      },
+      {
+       "text": "Kirche.",
+       "spans": [
+        [
+         0,
+         6,
+         "Artefact"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Pahren",
+       "spans": [
+        [
+         0,
+         6,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "29° 33' 55\" L.",
+       "spans": []
+      },
+      {
+       "text": "50° 38' 44\" Br.",
+       "spans": []
+      },
+      {
+       "text": "Kirche.",
+       "spans": [
+        [
+         0,
+         6,
+         "Artefact"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "(St. Gangloff",
+       "spans": [
+        [
+         1,
+         13,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "29° 34' 6,27\" L.",
+       "spans": []
+      },
+      {
+       "text": "50° 51' 25,87\" Br.",
+       "spans": []
+      },
+      {
+       "text": "Thurmknopf.)",
+       "spans": [
+        [
+         0,
+         10,
+         "Artefact"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Kraftsdorf",
+       "spans": [
+        [
+         0,
+         10,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "29° 34' 54\" L.",
+       "spans": []
+      },
+      {
+       "text": "50° 52' 39\" Br.",
+       "spans": []
+      },
+      {
+       "text": "Kirche.",
+       "spans": [
+        [
+         0,
+         6,
+         "Artefact"
+        ]
+       ]
+      }
+     ]
+    }
+   ],
+   "grid": [
+    [
+     "Röttersdorf",
+     "29° 7' 42\" L.",
+     "50° 28' 15\" Br.",
+     "Kohlhäuser."
+    ],
+    [
+     "Grumbach",
+     "29° 10' 8,5\" L.",
+     "50° 25' 55\" Br.",
+     "Dorfmitte (Straßenkreuzungspunkt)."
+    ],
+    [
+     "Oßlaer Hügel",
+     "29° 10' 3,78\" L.",
+     "50° 28' 9,59\" Br.",
+     "Signalstein."
+    ],
+    [
+     "Titschendorf",
+     "29° 11' 40\" L.",
+     "50° 23' 37\" Br.",
+     "Kirche."
+    ],
+    [
+     "Gahma",
+     "29° 12' 15,45\" L.",
+     "50° 31' 31,07\" Br.",
+     "Thurmknopf."
+    ],
+    [
+     "Ruppersdorf",
+     "29° 14' 32,61\" L.",
+     "50° 30' 37,61\" Br.",
+     "Thurmknopf."
+    ],
+    [
+     "Heinersdorf",
+     "29° 14' 39,85\" L.",
+     "50° 28' 24,85\" Br.",
+     "Thurmknopf."
+    ],
+    [
+     "Eliasbrunn",
+     "29° 15' 48,61\" L.",
+     "50° 29' 43,58\" Br.",
+     "Signalpunkt."
+    ],
+    [
+     "Eliasbrunn",
+     "29° 16' 3,20\" L.",
+     "50° 29' 52\" Br.",
+     "Thurmknopf."
+    ],
+    [
+     "Unterlemnitz",
+     "29° 17' 18\" L.",
+     "50° 28' 25\" Br.",
+     "Kirche."
+    ],
+    [
+     "Krähenhügel",
+     "29° 17' 49,91\" L.",
+     "50° 24' 32,98\" Br.",
+     "Signalpunkt."
+    ],
+    [
+     "Lobenstein",
+     "29° 18' 27,154\" L.",
+     "50° 26' 48,13\" Br.",
+     "Ruinenthurm."
+    ],
+    [
+     "Bellevue",
+     "29° 19' 28,105\" L.",
+     "50° 28' 42,46\" Br.",
+     "Forsthaus (Nordschornstein)."
+    ],
+    [
+     "Kleinfriesa",
+     "29° 20' 0\" L.",
+     "",
+     ""
+    ],
+    [
+     "Ebersdorf",
+     "29° 20' 1\" L.",
+     "50° 29' 5\" Br.",
+     "Kirche."
+    ],
+    [
+     "Harra",
+     "29° 21' 5\" L.",
+     "50° 25' 11\" Br.",
+     "Kirche."
+    ],
+    [
+     "Saalburg",
+     "29° 23' 50\" L.",
+     "50° 30' 7\" Br.",
+     "Kirche."
+    ],
+    [
+     "Lerchenhügel",
+     "29° 24' 13,18\" L.",
+     "50° 25' 48,76\" Br.",
+     "Baum."
+    ],
+    [
+     "Kulm",
+     "29° 25' 8,61\" L.",
+     "50° 30' 29,67\" Br.",
+     "Thurmknopf."
+    ],
+    [
+     "Bergkirche",
+     "29° 28' 14,81\" L.",
+     "50° 35' 6,49\" Br.",
+     "Thurmknopf."
+    ],
+    [
+     "Schleiz",
+     "29° 28' 43,07\" L.",
+     "50° 34' 40,03\" Br.",
+     "Schloß (Westthurm)."
+    ],
+    [
+     "Heinrichsruh",
+     "29° 28' 57,65\" L.",
+     "50° 33' 21,7\" Br.",
+     "Thurmfahne."
+    ],
+    [
+     "Oettersdorf",
+     "29° 29' 10,95\" L.",
+     "50° 36' 6,67\" Br.",
+     "Kirchthurmknopf."
+    ],
+    [
+     "Kapelle",
+     "29° 29' 53,79\" L.",
+     "50° 29' 45,35\" Br.",
+     "Signalpunkt."
+    ],
+    [
+     "Tanna",
+     "29° 30' 26,49\" L.",
+     "50° 29' 42,93\" Br.",
+     "Holländ. Mühle."
+    ],
+    [
+     "Tegau",
+     "29° 31' 48,52\" L.",
+     "50° 39' 0,97\" Br.",
+     "Thurmknopf."
+    ],
+    [
+     "Hohe Tanne",
+     "29° 32' 47,32\" L.",
+     "50° 25' 47,64\" Br.",
+     "bei Gebersreuth."
+    ],
+    [
+     "Kirschkau",
+     "29° 33' 14,57\" L.",
+     "50° 36' 20,35\" Br.",
+     "Thurmknopf."
+    ],
+    [
+     "Lössau",
+     "29° 33' 17,68\" L.",
+     "50° 35' 35,23\" Br.",
+     "Signalpunkt."
+    ],
+    [
+     "Hirschberg",
+     "29° 29' 16\" L.",
+     "50° 24' 18\" Br.",
+     "Kirche."
+    ],
+    [
+     "Mödlareuth",
+     "29° 31' 48\" L.",
+     "50° 25' 0\" Br.",
+     "nördlichstes Haus."
+    ],
+    [
+     "Göttengrün",
+     "29° 29' 57\" L.",
+     "50° 27' 41\" Br.",
+     "Nordhaus am Dorfteich."
+    ],
+    [
+     "Dragensdorf",
+     "29° 30' 5\" L.",
+     "50° 38' 50\" Br.",
+     "Kirche."
+    ],
+    [
+     "Oberböhmsdorf",
+     "29° 30' 1,12\" L.",
+     "50° 33' 41\" Br.",
+     "Kirche."
+    ],
+    [
+     "Pahren",
+     "29° 33' 55\" L.",
+     "50° 38' 44\" Br.",
+     "Kirche."
+    ],
+    [
+     "(St. Gangloff",
+     "29° 34' 6,127\" L.",
+     "50° 51' 25,87\" Br.",
+     "Thurmknopf.)"
+    ],
+    [
+     "Kraftsdorf",
+     "29° 34' 54\" L.",
+     "50° 52' 39\" Br.",
+     "Kirche."
+    ]
+   ],
+   "caption": null,
+   "sec": "t1-1-2"
+  }
+ ],
+ "footnotes": [
+  {
+   "id": "fn1",
+   "marker": "*)",
+   "text": "Unterlagen der obigen mathematischen Ortsbestimmungen sind: 1) die preußischen Generalstabskarten, 2) die Triangulation von Thüringen. Ausgeführt in den Jahren 1851 bis 1855 vom preußischen Generalstabe. Berlin, 1859.",
+   "spans": [
+    [
+     124,
+     133,
+     "Location"
+    ],
+    [
+     178,
+     202,
+     "Organisation"
+    ],
+    [
+     204,
+     210,
+     "Location"
+    ]
+   ]
+  }
+ ],
+ "corrections": [
+  {
+   "rule": "facsimile_correction",
+   "before": "27,154",
+   "after": "27,54",
+   "source": "A01",
+   "n": 1
+  },
+  {
+   "rule": "facsimile_correction",
+   "before": "28,105",
+   "after": "28,05",
+   "source": "A01",
+   "n": 1
+  },
+  {
+   "rule": "facsimile_correction",
+   "before": "6,127",
+   "after": "6,27",
+   "source": "A01",
+   "n": 1
+  },
+  {
+   "rule": "table_no_header_row",
+   "note": "first row is data (legacy edition rendered it as <th>)",
+   "block": "b3"
+  }
+ ],
+ "provenance": {
+  "source": "colab-2026-01",
+  "model": "gemini-3-flash-preview",
+  "timestamp": "2026-01-06T01:50:25.088770",
+  "early_schema": false
+ },
+ "section_path": [
+  "t1",
+  "t1-1",
+  "t1-1-1"
+ ],
+ "sections": [
+  "t1-1-2"
+ ]
+}

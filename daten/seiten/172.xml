@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de">
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="main">Volks- und Landeskunde des Fürstenthums Reuß j. L.</title>
+      <title type="sub">Digitale Edition, S. 172</title>
+      <author><persName ref="https://d-nb.info/gnd/119209217">Brückner, Georg</persName> (1800–1881)</author>
+      <editor><persName>Tobias Perschl</persName></editor><editor><persName>Markus Gerstmeier</persName></editor><editor><persName>Malte Rehbein</persName></editor>
+      <respStmt><resp>Automatische Transkription und Entitätenerkennung</resp><name>Google Gemini 3 Flash (2026)</name></respStmt>
+      <respStmt><resp>Layout-Korrektur, Register, Auswertungen, Edition</resp><persName>Tobias Perschl</persName><persName>Markus Gerstmeier</persName><persName>Malte Rehbein</persName><name>Claude (Anthropic)</name></respStmt>
+    </titleStmt>
+    <editionStmt><edition n="1.1">Version 1.1, <date when="2026-10-02">2026-10-02</date></edition></editionStmt>
+    <publicationStmt>
+      <publisher>Lehrstuhl für Computational Humanities, Universität Passau</publisher>
+      <date when="2026-10-02">2026</date>
+      <availability><licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0 (Transkription, Annotation, Daten). Faksimiles: Bayerische Staatsbibliothek München, NoC-NC 1.0.</licence></availability>
+    </publicationStmt>
+    <sourceDesc>
+      <bibl type="original">
+        <author>Brückner, Georg</author>
+        <title>Volks- und Landeskunde des Fürstenthums Reuß j. L. Im Auftrage des regierenden Landesfürsten verfaßt</title>
+        <pubPlace>Gera</pubPlace><publisher>Köhler</publisher><date when="1870">1870</date>
+        <extent>VIII, 840 S.</extent>
+        <idno type="URN">urn:nbn:de:bvb:12-bsb11005578-4</idno>
+        <idno type="BSB">bsb11005578</idno>
+        <idno type="shelfmark">München, Bayerische Staatsbibliothek, Germ.sp. 78 ld</idno>
+      </bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+    <projectDesc><p>Digitale Edition auf Grundlage einer automatischen Transkription des BSB-Digitalisats (Gemini 3 Flash, 2026), regelbasiert korrigiert und strukturiert; Register durch KI-Agenten bereinigt und mit Normdaten verknüpft.</p></projectDesc>
+    <editorialDecl>
+      <normalization><p>Historische Schreibung beibehalten; Umlaute modern (ä, ö, ü statt e-Superskript); langes s als s; Ligaturen aufgelöst.</p></normalization>
+      <hyphenation eol="none"><p>Silbentrennung am Zeilenende aufgelöst; am Seitenende erhaltene Trennungen sind über das Seitenende hinweg in einem Absatz zusammengeführt.</p></hyphenation>
+      <correction><p>Layoutfehler der automatischen Erkennung (Tabellenköpfe, Bogensignaturen, Trennstriche) sind regelbasiert korrigiert und je Seite protokolliert. Inhaltliche Druckfehler sind nicht korrigiert.</p></correction>
+    </editorialDecl>
+  </encodingDesc>
+  <profileDesc><langUsage><language ident="de">Deutsch (1870)</language></langUsage></profileDesc>
+  <revisionDesc><change when="2026-10-02">Version 1.1</change></revisionDesc>
+</teiHeader>
+<facsimile><surface xml:id="f0184" n="172" ulx="0" uly="0" lrx="1600" lry="2687"><graphic url="https://api.digitale-sammlungen.de/iiif/image/v2/bsb11005578_00184/full/full/0/default.jpg" mimeType="image/jpeg"/><zone xml:id="f0184-b1" type="block" ulx="271" uly="254" lrx="1325" lry="295"/><zone xml:id="f0184-b2" type="block" ulx="228" uly="354" lrx="1529" lry="1418"/><zone xml:id="f0184-b3" type="block" ulx="186" uly="1478" lrx="1532" lry="1561"/><zone xml:id="f0184-b4" type="block" ulx="543" uly="1565" lrx="1301" lry="1746"/><zone xml:id="f0184-b5" type="block" ulx="185" uly="1762" lrx="1532" lry="1847"/><zone xml:id="f0184-b6" type="block" ulx="185" uly="1865" lrx="1534" lry="1991"/><zone xml:id="f0184-fn1" type="block" ulx="259" uly="2064" lrx="1352" lry="2105"/><zone xml:id="f0184-l1" type="line" n="1" ulx="271" uly="254" lrx="1325" lry="295"/><zone xml:id="f0184-l2" type="line" n="2" ulx="228" uly="435" lrx="410" lry="473"/><zone xml:id="f0184-l3" type="line" n="3" ulx="273" uly="478" lrx="593" lry="519"/><zone xml:id="f0184-l4" type="line" n="4" ulx="270" uly="519" lrx="642" lry="560"/><zone xml:id="f0184-l5" type="line" n="5" ulx="231" uly="562" lrx="596" lry="603"/><zone xml:id="f0184-l6" type="line" n="6" ulx="233" uly="605" lrx="642" lry="646"/><zone xml:id="f0184-l7" type="line" n="7" ulx="231" uly="648" lrx="642" lry="689"/><zone xml:id="f0184-l8" type="line" n="8" ulx="231" uly="692" lrx="594" lry="733"/><zone xml:id="f0184-l9" type="line" n="9" ulx="231" uly="734" lrx="594" lry="775"/><zone xml:id="f0184-l10" type="line" n="10" ulx="228" uly="778" lrx="639" lry="819"/><zone xml:id="f0184-l11" type="line" n="11" ulx="230" uly="863" lrx="639" lry="904"/><zone xml:id="f0184-l12" type="line" n="12" ulx="237" uly="907" lrx="603" lry="948"/><zone xml:id="f0184-l13" type="line" n="13" ulx="231" uly="949" lrx="388" lry="990"/><zone xml:id="f0184-l14" type="line" n="14" ulx="231" uly="993" lrx="639" lry="1034"/><zone xml:id="f0184-l15" type="line" n="15" ulx="236" uly="1036" lrx="457" lry="1077"/><zone xml:id="f0184-l16" type="line" n="16" ulx="228" uly="1077" lrx="652" lry="1118"/><zone xml:id="f0184-l17" type="line" n="17" ulx="264" uly="1121" lrx="634" lry="1162"/><zone xml:id="f0184-l18" type="line" n="18" ulx="237" uly="1164" lrx="631" lry="1205"/><zone xml:id="f0184-l19" type="line" n="19" ulx="237" uly="1208" lrx="637" lry="1249"/><zone xml:id="f0184-l20" type="line" n="20" ulx="230" uly="1250" lrx="380" lry="1291"/><zone xml:id="f0184-l21" type="line" n="21" ulx="230" uly="1292" lrx="636" lry="1333"/><zone xml:id="f0184-l22" type="line" n="22" ulx="228" uly="1377" lrx="636" lry="1418"/><zone xml:id="f0184-l23" type="line" n="23" ulx="270" uly="1478" lrx="1532" lry="1519"/><zone xml:id="f0184-l24" type="line" n="24" ulx="186" uly="1520" lrx="309" lry="1561"/><zone xml:id="f0184-l25" type="line" n="25" ulx="864" uly="1565" lrx="1301" lry="1606"/><zone xml:id="f0184-l26" type="line" n="26" ulx="616" uly="1611" lrx="978" lry="1652"/><zone xml:id="f0184-l27" type="line" n="27" ulx="619" uly="1653" lrx="981" lry="1694"/><zone xml:id="f0184-l28" type="line" n="28" ulx="543" uly="1705" lrx="748" lry="1746"/><zone xml:id="f0184-l29" type="line" n="29" ulx="267" uly="1762" lrx="1532" lry="1803"/><zone xml:id="f0184-l30" type="line" n="30" ulx="185" uly="1806" lrx="419" lry="1847"/><zone xml:id="f0184-l31" type="line" n="31" ulx="267" uly="1865" lrx="1531" lry="1906"/><zone xml:id="f0184-l32" type="line" n="32" ulx="185" uly="1907" lrx="1534" lry="1948"/><zone xml:id="f0184-l33" type="line" n="33" ulx="186" uly="1950" lrx="1204" lry="1991"/><zone xml:id="f0184-l34" type="line" n="34" ulx="259" uly="2064" lrx="1352" lry="2105"/></surface></facsimile>
+<text><body><div type="page" n="172"><pb n="172" facs="#f0184"/>
+<fw type="header" place="top">II.. Das Volk.</fw>
+<ab type="heading" xml:id="p172-b1" facs="#f0184-b1"><lb n="1" facs="#f0184-l1"/>Uebersicht der Hauptkrankheiten in Procenten der Erkrankten:</ab>
+<table xml:id="p172-b2" facs="#f0184-b2" rows="23" cols="5"><row role="label"><cell role="label"></cell><cell role="label"><placeName ref="#place-lobenstein">Lobenstein</placeName>.*)</cell><cell role="label"><placeName ref="#place-tanna">Tanna</placeName>.</cell><cell role="label"><placeName ref="#place-gera">Gera</placeName>.</cell><cell role="label"><placeName ref="#place-hohenleuben">Hohenleuben</placeName>.</cell></row><row><cell>Catarrhe:</cell><cell>9</cell><cell>—</cell><cell>5,00</cell><cell>7</cell></row><row><cell>a) der Luftwege</cell><cell>3</cell><cell>—</cell><cell>—</cell><cell>5</cell></row><row><cell>b) des Darmcanals</cell><cell>6</cell><cell>—</cell><cell>—</cell><cell>2</cell></row><row><cell>Rheumatische Fieber</cell><cell>1</cell><cell>—</cell><cell>1,17</cell><cell>4,74</cell></row><row><cell>Nervenfieber</cell><cell>1/2</cell><cell>0,36</cell><cell>0,2</cell><cell>0,80</cell></row><row><cell>Gastrische Fieber</cell><cell>4</cell><cell>—</cell><cell>3,82</cell><cell>4,26</cell></row><row><cell>Lungenentzündung</cell><cell>4</cell><cell>—</cell><cell>—</cell><cell>—</cell></row><row><cell>Lungenschwindsucht</cell><cell>2</cell><cell>—</cell><cell>—</cell><cell>—</cell></row><row><cell>Unterleibsentzündung</cell><cell>1/4</cell><cell>—</cell><cell>—</cell><cell>—</cell></row><row><cell>Kolik</cell><cell>1</cell><cell>—</cell><cell>—</cell><cell>—</cell></row><row><cell>Magenkrampf</cell><cell>2</cell><cell>—</cell><cell>—</cell><cell>—</cell></row><row><cell>Mandelbräune</cell><cell>1</cell><cell>—</cell><cell>—</cell><cell>—</cell></row><row><cell>Friesel</cell><cell>1/8</cell><cell>—</cell><cell>—</cell><cell>—</cell></row><row><cell>Blattern (Varicellen)</cell><cell>1/2</cell><cell>—</cell><cell>0,3</cell><cell>—</cell></row><row><cell>Bleichsucht</cell><cell>1</cell><cell>—</cell><cell>—</cell><cell>—</cell></row><row><cell>Krätze und ähnliche Hautkrankheiten</cell><cell>6</cell><cell>—</cell><cell>13,60</cell><cell>6,01</cell></row><row><cell>Flechten</cell><cell>2</cell><cell>—</cell><cell>0,2</cell><cell>1,03</cell></row><row><cell>Venerie</cell><cell>1/2</cell><cell>—</cell><cell>0,48</cell><cell>0,79</cell></row><row><cell>Masern</cell><cell>2</cell><cell>—</cell><cell>—</cell><cell>—</cell></row><row><cell>Scharlach</cell><cell>2</cell><cell>—</cell><cell>—</cell><cell>—</cell></row><row><cell>Kropf</cell><cell>1/2</cell><cell>—</cell><cell>—</cell><cell>—</cell></row><row><cell>Gebärmutterkrankheiten</cell><cell>3</cell><cell>—</cell><cell>—</cell><cell>—</cell></row></table>
+<p xml:id="p172-b3">Auf <lb n="23" facs="#f0184-l23"/>die Geschlechter vertheilt kommen im <placeName ref="#place-bezirk-lobenstein-ebersdorf">lobensteiner Gebiete</placeName> auf 100 <lb n="24" facs="#f0184-l24"/>Kranke</p>
+<list xml:id="p172-b4" facs="#f0184-b4"><item>1) Erwachsene <lb n="25" facs="#f0184-l25"/>68,50 Procent und zwar</item><item><lb n="26" facs="#f0184-l26"/>a) männliche 32,50 "</item><item><lb n="27" facs="#f0184-l27"/>b) weibliche 36,00 "</item><item><lb n="28" facs="#f0184-l28"/>2) Kinder 31,50 "</item></list>
+<p xml:id="p172-b5"><lb n="29" facs="#f0184-l29"/>Die Mortalität beträgt durchschnittlich 3 1/2 Procent, davon 1 3/4 Respi<lb n="30" break="no" facs="#f0184-l30"/>rationskranke.</p>
+<p xml:id="p172-b6"><lb n="31" facs="#f0184-l31"/>Für die Gesundheitsverhältnisse der männlichen Jugend enthalten die jähr<lb n="32" break="no" facs="#f0184-l32"/>lichen militärischen Untersuchungen einen sicheren Maßstab. Die Resultate dieser <lb n="33" facs="#f0184-l33"/>Untersuchungen für die Jahre 1864, 1865 und 1866 sind:</p>
+<p><note place="foot" n="*)" xml:id="p172-fn1" facs="#f0184-fn1"><lb n="34" facs="#f0184-l34"/>Von Dr. <persName ref="#person-aschenbach">Aschenbach</persName> zu <placeName ref="#place-lobenstein">Lobenstein</placeName> nach einer 10jährigen Erfahrung.</note></p>
+</div></body></text>
+<standOff>
+<listPlace>
+<place xml:id="place-bezirk-lobenstein-ebersdorf"><placeName>Bezirk Lobenstein-Ebersdorf</placeName><desc>Landestheil</desc></place>
+<place xml:id="place-gera"><placeName>Gera</placeName><desc>Stadt</desc><location><geo>50.88029 12.08187</geo></location><idno type="GeoNames">https://www.geonames.org/2921232</idno><idno type="Wikidata">https://www.wikidata.org/entity/Q3750</idno></place>
+<place xml:id="place-hohenleuben"><placeName>Hohenleuben</placeName><desc>Marktflecken</desc><location><geo>50.71128 12.05427</geo></location><idno type="GeoNames">https://www.geonames.org/2901634</idno><idno type="Wikidata">https://www.wikidata.org/entity/Q526430</idno></place>
+<place xml:id="place-lobenstein"><placeName>Lobenstein</placeName><placeName type="modern">Bad Lobenstein</placeName><desc>Stadt</desc><location><geo>50.45223 11.6393</geo></location><idno type="GeoNames">https://www.geonames.org/2876721</idno><idno type="Wikidata">https://www.wikidata.org/entity/Q505656</idno></place>
+<place xml:id="place-tanna"><placeName>Tanna</placeName><desc>Stadt</desc><location><geo>50.4946 11.85725</geo></location><idno type="GeoNames">https://www.geonames.org/2824227</idno><idno type="Wikidata">https://www.wikidata.org/entity/Q706897</idno></place>
+</listPlace>
+<listPerson>
+<person xml:id="person-aschenbach"><persName>Aschenbach</persName><note>Dr. Aschenbach zu Lobenstein, Badearzt (S. 172, 721)</note></person>
+</listPerson>
+</standOff>
+</TEI>

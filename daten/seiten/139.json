@@ -1,0 +1,471 @@
+{
+ "seq": 151,
+ "label": "139",
+ "slug": "139",
+ "iiif": {
+  "service": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb11005578_00151",
+  "canvas": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11005578/canvas/151",
+  "width": 1569,
+  "height": 2694
+ },
+ "kind": "text",
+ "running_header": "3. Die Mundart.",
+ "signature": null,
+ "blocks": [
+  {
+   "id": "b1",
+   "type": "paragraph",
+   "src": 0,
+   "text": "fische, die vierte das ostbayerische (ostlechische) Idiom. Dieser Vorgang hat seinen Grund in der Kolonisation und politischen Geschichte des Landes. Während von Norden her an der mittleren Elster und Saale das Thüringische und von Osten über die obere Elster das Sächsische in's Land einschnitt, drang von Süden und Südwest das Fränkische herein und sprang von Südost das Ostbayerische herüber, wodurch es kam, daß hier auf engem Raume einerseits sich gemeinsame Sprachformen nach dem Gesetze der Naturalisation bildeten, andererseits viele Formen, in denen sich das Eigenthümliche einer jeden Mundart scharf ausprägt, ungebrochen blieben. Wenn beispielsweise allen Gebieten des Landes ein vorherrschendes Uebergehen des a in o und des o in u und der gleichzeitige Gebrauch des Imperfectums und des Perfectums gemeinsam ist, so treten dieselben Gebiete wieder durch mundartliche Besonderheiten aus einander, so daß der Wechsel der landschaftlichen Striche, oft sogar der Wechsel naher Orte auch den Wechsel mundartlicher Verschiedenheit mit sich führt, wie dies vorläufig die folgende Zusammenstellung im Allgemeinen andeutet.",
+   "spans": [
+    [
+     190,
+     196,
+     "Natural Object"
+    ],
+    [
+     201,
+     206,
+     "Natural Object"
+    ],
+    [
+     253,
+     259,
+     "Natural Object"
+    ]
+   ],
+   "continued": true,
+   "word_division": {
+    "word": "fränfische",
+    "part": "fische"
+   },
+   "sec": "t1-2-3"
+  },
+  {
+   "id": "b2",
+   "type": "table",
+   "src": 1,
+   "n_cols": 2,
+   "header_rows": 0,
+   "rows": [
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Schriftsprache.",
+       "spans": []
+      },
+      {
+       "text": "Dialectischer Wechsel im Lande.",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "lein (Diminutiv)",
+       "spans": []
+      },
+      {
+       "text": "le, la, el, 'l,",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "euch",
+       "spans": []
+      },
+      {
+       "text": "eich, ich, iech, enk,",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "ihr",
+       "spans": []
+      },
+      {
+       "text": "ihr, ehr, err, tihr, tirz,",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "er",
+       "spans": []
+      },
+      {
+       "text": "er, ar, arr, ha, a,",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "mein",
+       "spans": []
+      },
+      {
+       "text": "mei, ma, mei,",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "auf",
+       "spans": []
+      },
+      {
+       "text": "uff, off, af, affi,",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "ja",
+       "spans": []
+      },
+      {
+       "text": "ja, ju, jue, jo, ga, ka, cha,",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "nicht",
+       "spans": []
+      },
+      {
+       "text": "nich, nech, nit, niet, net,",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "nichts",
+       "spans": []
+      },
+      {
+       "text": "nischt, nix, nex,",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "wie",
+       "spans": []
+      },
+      {
+       "text": "wie, wei,",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "gleich",
+       "spans": []
+      },
+      {
+       "text": "gleich, glei,",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "gut",
+       "spans": []
+      },
+      {
+       "text": "gut, guat, gaut,",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "todt",
+       "spans": []
+      },
+      {
+       "text": "tud, taodt, taudt,",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "neu",
+       "spans": []
+      },
+      {
+       "text": "nau, ne, neu, nei,",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "schön",
+       "spans": []
+      },
+      {
+       "text": "schin, schä, schö, schiö,",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "weiß",
+       "spans": []
+      },
+      {
+       "text": "weß, wäß, weiß, waiß,",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "ging",
+       "spans": []
+      },
+      {
+       "text": "gung, gang, geng,",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "gesagt",
+       "spans": []
+      },
+      {
+       "text": "geset, gesogt, gesoggt, gesokkt,",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Beine",
+       "spans": []
+      },
+      {
+       "text": "Ben, Ba, Bä, Bein,",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "herunter",
+       "spans": []
+      },
+      {
+       "text": "ronger, runner, ro, ran.",
+       "spans": []
+      }
+     ]
+    }
+   ],
+   "grid": [
+    [
+     "Schriftsprache.",
+     "Dialectischer Wechsel im Lande."
+    ],
+    [
+     "lein (Diminutiv)",
+     "le, la, el, 'l,"
+    ],
+    [
+     "euch",
+     "eich, ich, iech, enk,"
+    ],
+    [
+     "ihr",
+     "ihr, ehr, err, tihr, tirz,"
+    ],
+    [
+     "er",
+     "er, ar, arr, ha, a,"
+    ],
+    [
+     "mein",
+     "mei, ma, mei,"
+    ],
+    [
+     "auf",
+     "uff, off, af, affi,"
+    ],
+    [
+     "ja",
+     "ja, ju, jue, jo, ga, ka, cha,"
+    ],
+    [
+     "nicht",
+     "nich, nech, nit, niet, net,"
+    ],
+    [
+     "nichts",
+     "nischt, nix, nex,"
+    ],
+    [
+     "wie",
+     "wie, wei,"
+    ],
+    [
+     "gleich",
+     "gleich, glei,"
+    ],
+    [
+     "gut",
+     "gut, guat, gaut,"
+    ],
+    [
+     "todt",
+     "tud, taodt, taudt,"
+    ],
+    [
+     "neu",
+     "nau, ne, neu, nei,"
+    ],
+    [
+     "schön",
+     "schin, schä, schö, schiö,"
+    ],
+    [
+     "weiß",
+     "weß, wäß, weiß, waiß,"
+    ],
+    [
+     "ging",
+     "gung, gang, geng,"
+    ],
+    [
+     "gesagt",
+     "geset, gesogt, gesoggt, gesokkt,"
+    ],
+    [
+     "Beine",
+     "Ben, Ba, Bä, Bein,"
+    ],
+    [
+     "herunter",
+     "ronger, runner, ro, ran."
+    ]
+   ],
+   "caption": null,
+   "sec": "t1-2-3"
+  },
+  {
+   "id": "b3",
+   "type": "paragraph",
+   "src": 2,
+   "text": "Die thüringische Mundart herrscht vor im Unterlande und im reichenfelser Gebiete, die fränkische an der oberen Saale und am Frankenwald, wo sogar Titschendorf ganz im rein fränkischen Dialect aufgeht; die sächsische Mundart greift an der oberen Elster in das Oberland herüber und die ostbayerische hat sich an der Elster in einzelnen Wortformen, namentlich mit enk (euch) und 'l und im oberen Voigtland mit starker Hinneigung zu gebrochenen Vocalen, mit Verschluckung von l, n und r und mit eigenthümlichen Satzbildungen eingebürgert. Von der Intonirung irgend eines Vocales durch Vor- und Nachklänge hat sich das Thüringische fern gehalten, weniger das Fränkische da, wo es in Berührung mit anderen Dialecten tritt. Wenn man im Lobensteinischen sagt: Schtei uff Aller, doi freischt, markscht enn niet (steh auf Alter, du frierst, merkst du denn es nicht?) oder: Gei uff'n Sei'genberg, song m'r ein' gould'ge Fleiß, so erkennt man ihre vocalische Erweichung durch andere Mundarten. Im Ganzen hat das Oberland mehr vocalische Weichheit und mehr consonantische",
+   "spans": [
+    [
+     111,
+     116,
+     "Natural Object"
+    ],
+    [
+     124,
+     135,
+     "Natural Object"
+    ],
+    [
+     146,
+     158,
+     "Location"
+    ],
+    [
+     245,
+     251,
+     "Natural Object"
+    ],
+    [
+     314,
+     320,
+     "Natural Object"
+    ]
+   ],
+   "sec": "t1-2-3"
+  }
+ ],
+ "footnotes": [],
+ "corrections": [
+  {
+   "rule": "table_no_header_row",
+   "note": "first row is data (legacy edition rendered it as <th>)",
+   "block": "b2"
+  }
+ ],
+ "provenance": {
+  "source": "colab-2026-03",
+  "model": "gemini-3-flash-preview",
+  "timestamp": "2026-03-03T15:24:50.910601",
+  "early_schema": false
+ },
+ "section_path": [
+  "t1",
+  "t1-2",
+  "t1-2-3"
+ ],
+ "sections": [
+  "t1-2-3"
+ ]
+}

@@ -1,0 +1,1821 @@
+{
+ "id": "bevoelkerung-1647-1867",
+ "title": {
+  "de": "Die Bevölkerung 1647–1867",
+  "en": "The population, 1647–1867"
+ },
+ "category": "population",
+ "section": "t1-2-1",
+ "merges": [
+  "bevoelkerung-entwicklung-1647-1867",
+  "bevoelkerung-dichte-1834-1867",
+  "bevoelkerung-stadt-land-1833-1867"
+ ],
+ "sources": [
+  {
+   "page": "91",
+   "block": "b4"
+  },
+  {
+   "page": "92",
+   "block": "b1"
+  },
+  {
+   "page": "94",
+   "block": "b1"
+  },
+  {
+   "page": "96",
+   "block": "b3"
+  },
+  {
+   "page": "96",
+   "block": "b5"
+  }
+ ],
+ "summary": {
+  "de": "Von 1647 bis 1867 wuchs die Bevölkerung des Fürstentums von 23.913 auf 87.974 Menschen, auf fast das Vierfache. Seit 1834 wurde alle drei Jahre gezählt. Am schnellsten wuchs der Bezirk Gera im Unterland, während Lobenstein-Ebersdorf im Oberland nach 1855 zurückging. Mit 106 Einwohnern je Quadratkilometer zählte das kleine Land zu den dicht besiedelten Staaten Deutschlands.",
+  "en": "Between 1647 and 1867 the principality’s population grew from 23,913 to 87,974, almost fourfold. From 1834 a census was held every three years. The district of Gera in the Unterland grew fastest, while Lobenstein-Ebersdorf in the Oberland declined after 1855. With 106 inhabitants per square kilometre the small country was among the densely settled states of Germany."
+ },
+ "findings": [
+  {
+   "de": "Von 1834 bis 1867 wuchs der Bezirk Gera um 40 Prozent, Schleiz um 24 und Lobenstein-Ebersdorf um 12 Prozent.",
+   "en": "From 1834 to 1867 the district of Gera grew by 40 percent, Schleiz by 24 and Lobenstein-Ebersdorf by 12 percent."
+  },
+  {
+   "de": "Die Stadt Gera wuchs von 2.371 Einwohnern im Jahr 1647 auf 16.283; der Residenzort Ebersdorf von 81 auf 1.008.",
+   "en": "The town of Gera grew from 2,371 inhabitants in 1647 to 16,283; the residence of Ebersdorf from 81 to 1,008."
+  },
+  {
+   "de": "In Brückners Vergleich deutscher Staaten war nur Sachsen, Reuß älterer Linie und Sachsen-Altenburg dichter besiedelt.",
+   "en": "In Brückner’s comparison of German states only Saxony, Reuss (Elder Line) and Saxe-Altenburg were more densely settled."
+  }
+ ],
+ "method": {
+  "de": "Die Einwohnerzahlen stammen aus Brückners Tabellen auf S. 91–92 (Zählungen 1647, 1784/94 und 1833–1867), die Ortszahlen von S. 96, der Staatenvergleich von S. 94. Der Index im ersten Diagramm setzt die Zählung von 1834, die erste der dreijährlichen Zollvereinszählungen, gleich 100. Die Vermehrungsfaktoren der Orte sind Brückners gedruckte Werte. Quadratmeilen wurden mit 55,06 km² je geographische Quadratmeile umgerechnet.",
+  "en": "The population figures come from Brückner’s tables on pp. 91–92 (counts of 1647, 1784/94 and 1833–1867), the figures for places from p. 96, the comparison of states from p. 94. The index in the first chart sets the census of 1834, the first of the triennial Zollverein counts, to 100. The growth factors of the places are Brückner’s printed values. Square miles were converted at 55.06 km² per geographic square mile."
+ },
+ "conversions": [
+  {
+   "from": "Einwohner je geographische Quadratmeile",
+   "to": "Einwohner je km²",
+   "factor_or_formula": "÷ 55,06",
+   "reference": "S. 831"
+  }
+ ],
+ "caveats": [
+  {
+   "de": "Die Zahlen vor 1833 beruhen auf Registern anderer Art; zwischen 1647 und 1833 gibt es höchstens eine Zwischenzählung.",
+   "en": "The figures before 1833 rest on registers of a different kind; between 1647 and 1833 there is at most one intermediate count."
+  },
+  {
+   "de": "Brückners Staatenvergleich nennt die Fläche in Quadratmeilen; Stichjahre der einzelnen Staaten gibt er nicht an.",
+   "en": "Brückner’s comparison of states gives the area in square miles; he does not state the reference years of the individual states."
+  }
+ ],
+ "datasets": [
+  {
+   "name": "census",
+   "title": {
+    "de": "Einwohner und Familien nach Zählungen",
+    "en": "Inhabitants and families by census"
+   },
+   "columns": [
+    {
+     "name": "district",
+     "label": {
+      "de": "Bezirk",
+      "en": "District"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "year",
+     "label": {
+      "de": "Jahr",
+      "en": "Year"
+     },
+     "type": "integer",
+     "unit": null
+    },
+    {
+     "name": "families",
+     "label": {
+      "de": "Zahl der Familien",
+      "en": "Number of families"
+     },
+     "type": "integer",
+     "unit": "Familien"
+    },
+    {
+     "name": "male",
+     "label": {
+      "de": "Männlich",
+      "en": "Male"
+     },
+     "type": "integer",
+     "unit": "Personen"
+    },
+    {
+     "name": "female",
+     "label": {
+      "de": "Weiblich",
+      "en": "Female"
+     },
+     "type": "integer",
+     "unit": "Personen"
+    },
+    {
+     "name": "total",
+     "label": {
+      "de": "Einwohner insgesamt",
+      "en": "Inhabitants, total"
+     },
+     "type": "integer",
+     "unit": "Personen"
+    },
+    {
+     "name": "growth_printed",
+     "label": {
+      "de": "Jährliche Zu-/Abnahme (gedruckt)",
+      "en": "Annual change (as printed)"
+     },
+     "type": "number",
+     "unit": "%"
+    },
+    {
+     "name": "growth_computed",
+     "label": {
+      "de": "Jährliche Zu-/Abnahme (berechnet, Zinseszins)",
+      "en": "Annual change (computed, compound)"
+     },
+     "type": "number",
+     "unit": "%",
+     "derived": true
+    },
+    {
+     "name": "index_1647",
+     "label": {
+      "de": "Index (1647 = 100)",
+      "en": "Index (1647 = 100)"
+     },
+     "type": "number",
+     "unit": null,
+     "derived": true
+    }
+   ],
+   "rows": [
+    [
+     "Gera",
+     1647,
+     1865,
+     null,
+     null,
+     8392,
+     null,
+     null,
+     100.0
+    ],
+    [
+     "Gera",
+     1794,
+     null,
+     null,
+     null,
+     19523,
+     0.58,
+     0.58,
+     232.6
+    ],
+    [
+     "Gera",
+     1833,
+     null,
+     null,
+     null,
+     26566,
+     0.92,
+     0.79,
+     316.6
+    ],
+    [
+     "Gera",
+     1834,
+     5962,
+     13420,
+     13939,
+     27359,
+     2.98,
+     2.99,
+     326.0
+    ],
+    [
+     "Gera",
+     1837,
+     5996,
+     13859,
+     14333,
+     28192,
+     1.01,
+     1.0,
+     335.9
+    ],
+    [
+     "Gera",
+     1840,
+     6113,
+     14264,
+     14564,
+     28828,
+     0.75,
+     0.75,
+     343.5
+    ],
+    [
+     "Gera",
+     1843,
+     6241,
+     14302,
+     14887,
+     29189,
+     0.42,
+     0.42,
+     347.8
+    ],
+    [
+     "Gera",
+     1846,
+     6262,
+     14844,
+     15278,
+     30122,
+     1.07,
+     1.05,
+     358.9
+    ],
+    [
+     "Gera",
+     1849,
+     6740,
+     15491,
+     15882,
+     31373,
+     1.38,
+     1.37,
+     373.8
+    ],
+    [
+     "Gera",
+     1852,
+     6881,
+     15989,
+     16389,
+     32378,
+     1.07,
+     1.06,
+     385.8
+    ],
+    [
+     "Gera",
+     1855,
+     7139,
+     16050,
+     16375,
+     32425,
+     0.05,
+     0.05,
+     386.4
+    ],
+    [
+     "Gera",
+     1858,
+     7179,
+     16660,
+     16926,
+     33586,
+     1.19,
+     1.18,
+     400.2
+    ],
+    [
+     "Gera",
+     1861,
+     7400,
+     17234,
+     17438,
+     34672,
+     1.08,
+     1.07,
+     413.2
+    ],
+    [
+     "Gera",
+     1864,
+     8348,
+     18360,
+     18438,
+     36798,
+     2.04,
+     2.0,
+     438.5
+    ],
+    [
+     "Gera",
+     1867,
+     8094,
+     19028,
+     19224,
+     38252,
+     1.31,
+     1.3,
+     455.8
+    ],
+    [
+     "Schleiz",
+     1647,
+     2022,
+     null,
+     null,
+     9068,
+     null,
+     null,
+     100.0
+    ],
+    [
+     "Schleiz",
+     1833,
+     null,
+     null,
+     null,
+     21906,
+     0.48,
+     0.48,
+     241.6
+    ],
+    [
+     "Schleiz",
+     1834,
+     4638,
+     10849,
+     11177,
+     22026,
+     0.55,
+     0.55,
+     242.9
+    ],
+    [
+     "Schleiz",
+     1837,
+     4682,
+     11228,
+     11211,
+     22439,
+     0.62,
+     0.62,
+     247.5
+    ],
+    [
+     "Schleiz",
+     1840,
+     4835,
+     11728,
+     11861,
+     23589,
+     1.71,
+     1.68,
+     260.1
+    ],
+    [
+     "Schleiz",
+     1843,
+     5306,
+     12072,
+     12073,
+     24145,
+     0.79,
+     0.78,
+     266.3
+    ],
+    [
+     "Schleiz",
+     1846,
+     5120,
+     12440,
+     12428,
+     24868,
+     1.0,
+     0.99,
+     274.2
+    ],
+    [
+     "Schleiz",
+     1849,
+     5084,
+     12282,
+     12505,
+     24787,
+     -0.11,
+     -0.11,
+     273.3
+    ],
+    [
+     "Schleiz",
+     1852,
+     5526,
+     12362,
+     12712,
+     25074,
+     0.39,
+     0.38,
+     276.5
+    ],
+    [
+     "Schleiz",
+     1855,
+     5359,
+     12363,
+     12819,
+     25182,
+     0.14,
+     0.14,
+     277.7
+    ],
+    [
+     "Schleiz",
+     1858,
+     5655,
+     12687,
+     13015,
+     25702,
+     0.69,
+     0.68,
+     283.4
+    ],
+    [
+     "Schleiz",
+     1861,
+     5701,
+     12987,
+     13370,
+     26357,
+     0.85,
+     0.84,
+     290.7
+    ],
+    [
+     "Schleiz",
+     1864,
+     6028,
+     13356,
+     13819,
+     27174,
+     1.03,
+     1.02,
+     299.7
+    ],
+    [
+     "Schleiz",
+     1867,
+     6066,
+     13412,
+     13956,
+     27368,
+     0.24,
+     0.24,
+     301.8
+    ],
+    [
+     "Lobenstein-Ebersdorf",
+     1647,
+     1433,
+     null,
+     null,
+     6453,
+     null,
+     null,
+     100.0
+    ],
+    [
+     "Lobenstein-Ebersdorf",
+     1784,
+     null,
+     null,
+     null,
+     12957,
+     0.51,
+     0.51,
+     200.8
+    ],
+    [
+     "Lobenstein-Ebersdorf",
+     1833,
+     null,
+     null,
+     null,
+     20265,
+     1.15,
+     0.92,
+     314.0
+    ],
+    [
+     "Lobenstein-Ebersdorf",
+     1834,
+     null,
+     null,
+     null,
+     19948,
+     -1.56,
+     -1.56,
+     309.1
+    ],
+    [
+     "Lobenstein-Ebersdorf",
+     1837,
+     4424,
+     10121,
+     10739,
+     20860,
+     1.52,
+     1.5,
+     323.3
+    ],
+    [
+     "Lobenstein-Ebersdorf",
+     1840,
+     4230,
+     10271,
+     11100,
+     21371,
+     0.82,
+     0.81,
+     331.2
+    ],
+    [
+     "Lobenstein-Ebersdorf",
+     1843,
+     4448,
+     10388,
+     11161,
+     21549,
+     0.28,
+     0.28,
+     333.9
+    ],
+    [
+     "Lobenstein-Ebersdorf",
+     1846,
+     4269,
+     10624,
+     11402,
+     22026,
+     0.74,
+     0.73,
+     341.3
+    ],
+    [
+     "Lobenstein-Ebersdorf",
+     1849,
+     4669,
+     10475,
+     11328,
+     21803,
+     -0.34,
+     -0.34,
+     337.9
+    ],
+    [
+     "Lobenstein-Ebersdorf",
+     1852,
+     4672,
+     10835,
+     11537,
+     22372,
+     0.87,
+     0.86,
+     346.7
+    ],
+    [
+     "Lobenstein-Ebersdorf",
+     1855,
+     4701,
+     10937,
+     11659,
+     22596,
+     0.33,
+     0.33,
+     350.2
+    ],
+    [
+     "Lobenstein-Ebersdorf",
+     1858,
+     4881,
+     10886,
+     11632,
+     22518,
+     -0.12,
+     -0.12,
+     349.0
+    ],
+    [
+     "Lobenstein-Ebersdorf",
+     1861,
+     4740,
+     10696,
+     11635,
+     22331,
+     -0.28,
+     -0.28,
+     346.1
+    ],
+    [
+     "Lobenstein-Ebersdorf",
+     1864,
+     5036,
+     10695,
+     11804,
+     22499,
+     0.25,
+     0.25,
+     348.7
+    ],
+    [
+     "Lobenstein-Ebersdorf",
+     1867,
+     4792,
+     10744,
+     11610,
+     22354,
+     -0.21,
+     -0.22,
+     346.4
+    ],
+    [
+     "Fürstentum",
+     1647,
+     5318,
+     null,
+     null,
+     23913,
+     null,
+     null,
+     100.0
+    ],
+    [
+     "Fürstentum",
+     1833,
+     null,
+     null,
+     null,
+     68737,
+     0.57,
+     0.57,
+     287.4
+    ],
+    [
+     "Fürstentum",
+     1834,
+     null,
+     null,
+     null,
+     69333,
+     0.69,
+     0.87,
+     289.9
+    ],
+    [
+     "Fürstentum",
+     1837,
+     15102,
+     35208,
+     36283,
+     71491,
+     1.04,
+     1.03,
+     299.0
+    ],
+    [
+     "Fürstentum",
+     1840,
+     15178,
+     36263,
+     37525,
+     73788,
+     1.07,
+     1.06,
+     308.6
+    ],
+    [
+     "Fürstentum",
+     1843,
+     15995,
+     36762,
+     38121,
+     74883,
+     0.5,
+     0.49,
+     313.1
+    ],
+    [
+     "Fürstentum",
+     1846,
+     15651,
+     37908,
+     39108,
+     77016,
+     0.95,
+     0.94,
+     322.1
+    ],
+    [
+     "Fürstentum",
+     1849,
+     16493,
+     38248,
+     39715,
+     77963,
+     0.41,
+     0.41,
+     326.0
+    ],
+    [
+     "Fürstentum",
+     1852,
+     17079,
+     39186,
+     40638,
+     79824,
+     0.8,
+     0.79,
+     333.8
+    ],
+    [
+     "Fürstentum",
+     1855,
+     17199,
+     39350,
+     40853,
+     80203,
+     0.16,
+     0.16,
+     335.4
+    ],
+    [
+     "Fürstentum",
+     1858,
+     17715,
+     40233,
+     41573,
+     81806,
+     0.67,
+     0.66,
+     342.1
+    ],
+    [
+     "Fürstentum",
+     1861,
+     17841,
+     40917,
+     42443,
+     83360,
+     0.63,
+     0.63,
+     348.6
+    ],
+    [
+     "Fürstentum",
+     1864,
+     19412,
+     42411,
+     44061,
+     86472,
+     1.24,
+     1.23,
+     361.6
+    ],
+    [
+     "Fürstentum",
+     1867,
+     18952,
+     43184,
+     44790,
+     87974,
+     0.57,
+     0.58,
+     367.9
+    ]
+   ],
+   "source_refs": [
+    {
+     "page": "91",
+     "block": "b4",
+     "rows": "r3-r32"
+    },
+    {
+     "page": "92",
+     "block": "b1",
+     "rows": "r5-r34"
+    }
+   ]
+  },
+  {
+   "name": "place_growth",
+   "title": {
+    "de": "Vermehrung der Orte seit 1647",
+    "en": "Growth of the places since 1647"
+   },
+   "columns": [
+    {
+     "name": "place",
+     "label": {
+      "de": "Ort",
+      "en": "Place"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "kind",
+     "label": {
+      "de": "Art",
+      "en": "Type"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "pop_1647",
+     "label": {
+      "de": "Einwohner 1647",
+      "en": "Inhabitants 1647"
+     },
+     "type": "integer",
+     "unit": "Personen"
+    },
+    {
+     "name": "pop_1867",
+     "label": {
+      "de": "Einwohner 1867",
+      "en": "Inhabitants 1867"
+     },
+     "type": "integer",
+     "unit": "Personen"
+    },
+    {
+     "name": "factor_computed",
+     "label": {
+      "de": "Vermehrung um das …fache (berechnet)",
+      "en": "Growth factor (computed)"
+     },
+     "type": "number",
+     "unit": "×",
+     "derived": true
+    },
+    {
+     "name": "factor_printed",
+     "label": {
+      "de": "Vermehrung um das …fache (gedruckt)",
+      "en": "Growth factor (printed)"
+     },
+     "type": "number",
+     "unit": "×"
+    }
+   ],
+   "rows": [
+    [
+     "Gera",
+     "Stadt",
+     2371,
+     16283,
+     6.87,
+     6.87
+    ],
+    [
+     "Schleiz",
+     "Stadt",
+     1553,
+     4953,
+     3.19,
+     3.18
+    ],
+    [
+     "Lobenstein",
+     "Stadt",
+     981,
+     2843,
+     2.9,
+     2.89
+    ],
+    [
+     "Tanna",
+     "Stadt",
+     513,
+     1801,
+     3.51,
+     3.51
+    ],
+    [
+     "Saalburg",
+     "Stadt",
+     441,
+     1214,
+     2.75,
+     2.75
+    ],
+    [
+     "Hirschberg",
+     "Stadt",
+     180,
+     1828,
+     10.16,
+     10.1
+    ],
+    [
+     "Hohenleuben",
+     "Landort",
+     225,
+     2536,
+     11.27,
+     11.28
+    ],
+    [
+     "Langenwetzendorf",
+     "Landort",
+     436,
+     2135,
+     4.9,
+     4.9
+    ],
+    [
+     "Wurzbach",
+     "Landort",
+     450,
+     1861,
+     4.14,
+     4.1
+    ],
+    [
+     "Triebes",
+     "Landort",
+     180,
+     1760,
+     9.78,
+     9.78
+    ],
+    [
+     "Untermhaus",
+     "Landort",
+     158,
+     1731,
+     10.96,
+     10.95
+    ],
+    [
+     "Köstritz",
+     "Landort",
+     405,
+     1524,
+     3.76,
+     3.76
+    ],
+    [
+     "Langenberg",
+     "Landort",
+     436,
+     1453,
+     3.33,
+     3.33
+    ],
+    [
+     "Ebersdorf",
+     "Landort",
+     81,
+     1008,
+     12.44,
+     12.44
+    ]
+   ],
+   "source_refs": [
+    {
+     "page": "96",
+     "block": "b3",
+     "rows": "r3-r8"
+    },
+    {
+     "page": "96",
+     "block": "b5",
+     "rows": "r2-r9"
+    }
+   ]
+  },
+  {
+   "name": "states",
+   "title": {
+    "de": "Bevölkerungsdichte deutscher Staaten",
+    "en": "Population density of German states"
+   },
+   "columns": [
+    {
+     "name": "state",
+     "label": {
+      "de": "Staat (Original)",
+      "en": "State (original)"
+     },
+     "type": "string",
+     "unit": null
+    },
+    {
+     "name": "group",
+     "label": {
+      "de": "Gruppe",
+      "en": "Group"
+     },
+     "type": "string",
+     "unit": null,
+     "derived": true,
+     "note": "Reuß j. L. gegenüber den übrigen Staaten (editorisch)"
+    },
+    {
+     "name": "area_sqm",
+     "label": {
+      "de": "Fläche",
+      "en": "Area"
+     },
+     "type": "number",
+     "unit": "□Meilen"
+    },
+    {
+     "name": "inhabitants",
+     "label": {
+      "de": "Einwohner",
+      "en": "Inhabitants"
+     },
+     "type": "integer",
+     "unit": "Personen",
+     "derived": true,
+     "note": "Brückner druckt z. B. 2,423586 für 2 423 586; als ganze Zahl übernommen"
+    },
+    {
+     "name": "density_sqm",
+     "label": {
+      "de": "Einwohner auf 1 □Meile",
+      "en": "Inhabitants per square mile"
+     },
+     "type": "number",
+     "unit": "Einw./□Meile"
+    },
+    {
+     "name": "density_km2",
+     "label": {
+      "de": "Einwohner je km²",
+      "en": "Inhabitants per km²"
+     },
+     "type": "number",
+     "unit": "Einw./km²",
+     "derived": true
+    }
+   ],
+   "rows": [
+    [
+     "Königreich Sachsen",
+     "übrige",
+     271.83,
+     2423586,
+     8916.0,
+     161.9
+    ],
+    [
+     "Fürstentum Reuß ä. L.",
+     "übrige",
+     6.8,
+     43889,
+     6454.0,
+     117.2
+    ],
+    [
+     "Herzogthum S.-Altenburg",
+     "übrige",
+     24.0,
+     141426,
+     5893.0,
+     107.0
+    ],
+    [
+     "Fürstentum Reuß j. L.",
+     "Reuß j. L.",
+     15.06,
+     87974,
+     5853.0,
+     106.3
+    ],
+    [
+     "Fürstentum Lippe-Detmold",
+     "übrige",
+     20.6,
+     111352,
+     5433.0,
+     98.7
+    ],
+    [
+     "Großherzogthum Baden",
+     "übrige",
+     278.06,
+     1434970,
+     5162.0,
+     93.7
+    ],
+    [
+     "Königreich Würtemberg",
+     "übrige",
+     354.28,
+     1778479,
+     5020.0,
+     91.2
+    ],
+    [
+     "Herzogthum Braunschweig",
+     "übrige",
+     67.02,
+     302792,
+     4518.0,
+     82.1
+    ],
+    [
+     "Fürstentum Schwarzburg-Sondershausen",
+     "übrige",
+     15.63,
+     67454,
+     4355.0,
+     79.1
+    ],
+    [
+     "Großherzogthum S.-Weimar",
+     "übrige",
+     66.03,
+     283044,
+     4287.0,
+     77.9
+    ],
+    [
+     "Fürstentum Schwarzburg-Rudolstadt",
+     "übrige",
+     17.58,
+     75074,
+     4270.0,
+     77.5
+    ],
+    [
+     "Herzogthum Anhalt",
+     "übrige",
+     48.28,
+     197041,
+     4081.0,
+     74.1
+    ],
+    [
+     "Herzogthum Meiningen",
+     "übrige",
+     44.97,
+     180335,
+     4035.0,
+     73.3
+    ],
+    [
+     "Fürstentum Schaumburg-Lippe",
+     "übrige",
+     8.05,
+     31186,
+     3952.0,
+     71.8
+    ],
+    [
+     "Königreich Preußen incl. Lauenburg",
+     "übrige",
+     6387.63,
+     24043902,
+     3764.0,
+     68.4
+    ],
+    [
+     "Königreich Bayern",
+     "übrige",
+     1381.55,
+     4774464,
+     3467.0,
+     63.0
+    ],
+    [
+     "Großherzogthum Oldenburg",
+     "übrige",
+     116.22,
+     315622,
+     2719.0,
+     49.4
+    ],
+    [
+     "Großherzogthum Mecklenburg-Schwerin",
+     "übrige",
+     244.12,
+     560618,
+     2296.0,
+     41.7
+    ],
+    [
+     "Großherzogthum Mecklenburg-Strelitz",
+     "übrige",
+     49.49,
+     98770,
+     1995.0,
+     36.2
+    ]
+   ],
+   "source_refs": [
+    {
+     "page": "94",
+     "block": "b1",
+     "rows": "r2-r20"
+    }
+   ]
+  }
+ ],
+ "charts": [
+  {
+   "id": "c1",
+   "dataset": "census",
+   "title": {
+    "de": "Gera wuchs am schnellsten, Lobenstein-Ebersdorf schrumpfte nach 1855",
+    "en": "Gera grew fastest, Lobenstein-Ebersdorf shrank after 1855"
+   },
+   "caption": {
+    "de": "Einwohner der drei Landratsbezirke bei den Zählungen 1834 bis 1867, jeweils bezogen auf 1834. Quelle: S. 91–92.",
+    "en": "Inhabitants of the three districts at the censuses of 1834 to 1867, each relative to 1834. Source: pp. 91–92."
+   },
+   "vegalite": {
+    "height": 300,
+    "transform": [
+     {
+      "filter": "datum.year >= 1834 && datum.district !== 'Fürstentum'"
+     },
+     {
+      "window": [
+       {
+        "op": "first_value",
+        "field": "total",
+        "as": "base"
+       }
+      ],
+      "groupby": [
+       "district"
+      ],
+      "sort": [
+       {
+        "field": "year"
+       }
+      ],
+      "frame": [
+       null,
+       null
+      ]
+     },
+     {
+      "calculate": "datum.total / datum.base * 100",
+      "as": "index"
+     },
+     {
+      "calculate": "datum.district + ' +' + format(datum.index - 100, '.0f') + ' %'",
+      "as": "endlabel"
+     }
+    ],
+    "encoding": {
+     "x": {
+      "field": "year",
+      "type": "quantitative",
+      "scale": {
+       "domain": [
+        1834,
+        1867
+       ],
+       "nice": false
+      },
+      "axis": {
+       "format": "d",
+       "values": [
+        1834,
+        1840,
+        1846,
+        1852,
+        1858,
+        1864,
+        1867
+       ],
+       "title": null
+      }
+     },
+     "y": {
+      "field": "index",
+      "type": "quantitative",
+      "scale": {
+       "domain": [
+        95,
+        145
+       ]
+      },
+      "axis": {
+       "title": {
+        "de": "Einwohner, 1834 = 100",
+        "en": "Inhabitants, 1834 = 100"
+       },
+       "tickCount": 6
+      }
+     },
+     "color": {
+      "field": "district",
+      "type": "nominal",
+      "legend": null,
+      "scale": {
+       "domain": [
+        "Gera",
+        "Schleiz",
+        "Lobenstein-Ebersdorf"
+       ],
+       "range": [
+        "@accent",
+        "@accent2",
+        "@accent3"
+       ]
+      }
+     }
+    },
+    "layer": [
+     {
+      "mark": {
+       "type": "rule",
+       "strokeDash": [
+        3,
+        3
+       ],
+       "color": "@muted"
+      },
+      "encoding": {
+       "y": {
+        "datum": 100
+       },
+       "x": null,
+       "color": null
+      }
+     },
+     {
+      "mark": {
+       "type": "line",
+       "strokeWidth": 2.5
+      }
+     },
+     {
+      "mark": {
+       "type": "point",
+       "filled": true,
+       "size": 36
+      },
+      "encoding": {
+       "tooltip": [
+        {
+         "field": "district",
+         "title": {
+          "de": "Bezirk",
+          "en": "District"
+         }
+        },
+        {
+         "field": "year",
+         "title": {
+          "de": "Zählung",
+          "en": "Census"
+         }
+        },
+        {
+         "field": "total",
+         "title": {
+          "de": "Einwohner",
+          "en": "Inhabitants"
+         },
+         "format": ",d"
+        },
+        {
+         "field": "index",
+         "title": "1834 = 100",
+         "format": ".1f"
+        }
+       ]
+      }
+     },
+     {
+      "transform": [
+       {
+        "filter": "datum.year == 1867"
+       }
+      ],
+      "mark": {
+       "type": "text",
+       "align": "right",
+       "dy": -12,
+       "style": "label"
+      },
+      "encoding": {
+       "text": {
+        "field": "endlabel"
+       },
+       "color": null
+      }
+     },
+     {
+      "transform": [
+       {
+        "filter": "datum.district == 'Lobenstein-Ebersdorf' && datum.year == 1855"
+       }
+      ],
+      "mark": {
+       "type": "text",
+       "align": "center",
+       "dy": 16,
+       "style": "annotation",
+       "baseline": "top"
+      },
+      "encoding": {
+       "text": {
+        "value": {
+         "de": "Höchststand 1855",
+         "en": "peak in 1855"
+        }
+       },
+       "color": null
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "c2",
+   "dataset": "place_growth",
+   "title": {
+    "de": "Ebersdorf wuchs auf das Zwölffache, Gera auf fast das Siebenfache",
+    "en": "Ebersdorf grew twelvefold, Gera almost sevenfold"
+   },
+   "caption": {
+    "de": "Einwohner 1647 (grau) und 1867 (blau) der sechs Städte (fett) und der größeren Landorte; die Zahl nennt Brückners Vermehrungsfaktor. Quelle: S. 96.",
+    "en": "Inhabitants in 1647 (grey) and 1867 (blue) of the six towns (bold) and the larger villages; the number is Brückner’s growth factor. Source: p. 96."
+   },
+   "vegalite": {
+    "height": {
+     "step": 22
+    },
+    "transform": [
+     {
+      "calculate": "indexof(['Gera', 'Schleiz', 'Lobenstein', 'Hirschberg', 'Saalburg', 'Tanna'], datum.place) >= 0",
+      "as": "town"
+     }
+    ],
+    "encoding": {
+     "y": {
+      "field": "place",
+      "type": "nominal",
+      "sort": {
+       "field": "factor_printed",
+       "order": "descending"
+      },
+      "axis": {
+       "title": null,
+       "labelFontWeight": {
+        "condition": {
+         "test": "indexof(['Gera', 'Schleiz', 'Lobenstein', 'Hirschberg', 'Saalburg', 'Tanna'], datum.value) >= 0",
+         "value": 700
+        },
+        "value": 400
+       }
+      }
+     }
+    },
+    "layer": [
+     {
+      "mark": {
+       "type": "rule",
+       "strokeWidth": 2,
+       "color": "@context"
+      },
+      "encoding": {
+       "x": {
+        "field": "pop_1647",
+        "type": "quantitative",
+        "scale": {
+         "type": "log",
+         "domain": [
+          60,
+          30000
+         ]
+        },
+        "axis": {
+         "values": [
+          100,
+          300,
+          1000,
+          3000,
+          10000,
+          30000
+         ],
+         "format": ",d",
+         "title": {
+          "de": "Einwohner (logarithmische Skala)",
+          "en": "Inhabitants (log scale)"
+         }
+        }
+       },
+       "x2": {
+        "field": "pop_1867"
+       }
+      }
+     },
+     {
+      "mark": {
+       "type": "point",
+       "filled": true,
+       "size": 60,
+       "color": "@muted"
+      },
+      "encoding": {
+       "x": {
+        "field": "pop_1647",
+        "type": "quantitative"
+       },
+       "tooltip": [
+        {
+         "field": "place",
+         "title": {
+          "de": "Ort",
+          "en": "Place"
+         }
+        },
+        {
+         "field": "pop_1647",
+         "title": "1647",
+         "format": ",d"
+        }
+       ]
+      }
+     },
+     {
+      "mark": {
+       "type": "point",
+       "filled": true,
+       "size": 80,
+       "color": "@accent"
+      },
+      "encoding": {
+       "x": {
+        "field": "pop_1867",
+        "type": "quantitative"
+       },
+       "tooltip": [
+        {
+         "field": "place",
+         "title": {
+          "de": "Ort",
+          "en": "Place"
+         }
+        },
+        {
+         "field": "pop_1867",
+         "title": "1867",
+         "format": ",d"
+        },
+        {
+         "field": "factor_printed",
+         "title": {
+          "de": "Vermehrung",
+          "en": "Growth factor"
+         },
+         "format": ".2f"
+        }
+       ]
+      }
+     },
+     {
+      "mark": {
+       "type": "text",
+       "align": "left",
+       "dx": 9,
+       "style": "label"
+      },
+      "encoding": {
+       "x": {
+        "field": "pop_1867",
+        "type": "quantitative"
+       },
+       "text": {
+        "field": "factor_printed",
+        "format": ".1f"
+       }
+      }
+     },
+     {
+      "transform": [
+       {
+        "filter": "datum.place == 'Gera'"
+       }
+      ],
+      "mark": {
+       "type": "text",
+       "align": "right",
+       "dx": -9,
+       "style": "annotation"
+      },
+      "encoding": {
+       "x": {
+        "field": "pop_1647",
+        "type": "quantitative"
+       },
+       "text": {
+        "value": "1647"
+       }
+      }
+     },
+     {
+      "transform": [
+       {
+        "filter": "datum.place == 'Gera'"
+       }
+      ],
+      "mark": {
+       "type": "text",
+       "align": "center",
+       "dy": -12,
+       "style": "annotation"
+      },
+      "encoding": {
+       "x": {
+        "field": "pop_1867",
+        "type": "quantitative"
+       },
+       "text": {
+        "value": "1867"
+       }
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "c3",
+   "dataset": "states",
+   "title": {
+    "de": "Unter den deutschen Staaten gehörte Reuß j. L. zu den dicht besiedelten",
+    "en": "Among the German states, Reuss (Younger Line) was one of the densely settled"
+   },
+   "caption": {
+    "de": "Einwohner je Quadratkilometer nach Brückners Vergleich der deutschen Staaten, umgerechnet aus Quadratmeilen. Quelle: S. 94.",
+    "en": "Inhabitants per square kilometre according to Brückner’s comparison of the German states, converted from square miles. Source: p. 94."
+   },
+   "vegalite": {
+    "height": {
+     "step": 18
+    },
+    "encoding": {
+     "y": {
+      "field": "state",
+      "type": "nominal",
+      "sort": "-x",
+      "axis": {
+       "title": null,
+       "labelLimit": 340,
+       "labelFontWeight": {
+        "condition": {
+         "test": "datum.value == 'Fürstentum Reuß j. L.'",
+         "value": 700
+        },
+        "value": 400
+       }
+      }
+     },
+     "x": {
+      "field": "density_km2",
+      "type": "quantitative",
+      "axis": {
+       "title": {
+        "de": "Einwohner je km²",
+        "en": "Inhabitants per km²"
+       }
+      }
+     }
+    },
+    "layer": [
+     {
+      "mark": {
+       "type": "rule",
+       "strokeWidth": 1.5
+      },
+      "encoding": {
+       "x": {
+        "datum": 0
+       },
+       "x2": {
+        "field": "density_km2"
+       },
+       "color": {
+        "condition": {
+         "test": "datum.group == 'Reuß j. L.'",
+         "value": "@accent"
+        },
+        "value": "@context"
+       }
+      }
+     },
+     {
+      "mark": {
+       "type": "point",
+       "filled": true,
+       "size": 70
+      },
+      "encoding": {
+       "color": {
+        "condition": {
+         "test": "datum.group == 'Reuß j. L.'",
+         "value": "@accent"
+        },
+        "value": "@muted"
+       },
+       "tooltip": [
+        {
+         "field": "state",
+         "title": {
+          "de": "Staat",
+          "en": "State"
+         }
+        },
+        {
+         "field": "density_sqm",
+         "title": {
+          "de": "Einwohner je Quadratmeile",
+          "en": "Inhabitants per square mile"
+         },
+         "format": ",d"
+        },
+        {
+         "field": "density_km2",
+         "title": {
+          "de": "Einwohner je km²",
+          "en": "Inhabitants per km²"
+         },
+         "format": ".1f"
+        }
+       ]
+      }
+     },
+     {
+      "mark": {
+       "type": "text",
+       "align": "left",
+       "dx": 8,
+       "style": "label-muted"
+      },
+      "encoding": {
+       "text": {
+        "field": "density_km2",
+        "format": ".0f"
+       }
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "keywords": {
+  "de": [
+   "Bevölkerung",
+   "Volkszählung",
+   "Einwohner",
+   "Bevölkerungsdichte",
+   "Städte",
+   "Gera",
+   "Schleiz",
+   "Lobenstein",
+   "Ebersdorf"
+  ],
+  "en": [
+   "population",
+   "census",
+   "inhabitants",
+   "population density",
+   "towns",
+   "Gera",
+   "Schleiz",
+   "Lobenstein",
+   "Ebersdorf"
+  ]
+ },
+ "related": [
+  "geburten-sterbefaelle",
+  "alter-familie",
+  "siedlung-wohnen",
+  "dorfleben"
+ ],
+ "generated_by": "Redaktion der Edition mit Claude Opus 5.5, aus drei Einzelauswertungen von Claude Sonnet 5.5 zusammengeführt",
+ "date": "2026-10-02"
+}

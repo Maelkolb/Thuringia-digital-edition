@@ -1,0 +1,984 @@
+{
+ "seq": 229,
+ "label": "217",
+ "slug": "217",
+ "iiif": {
+  "service": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb11005578_00229",
+  "canvas": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11005578/canvas/229",
+  "width": 1619,
+  "height": 2702
+ },
+ "kind": "text",
+ "running_header": "2. Landwirthschaft.",
+ "signature": null,
+ "blocks": [
+  {
+   "id": "b1",
+   "type": "table",
+   "src": 0,
+   "n_cols": 9,
+   "header_rows": 1,
+   "rows": [
+    {
+     "role": "header",
+     "cells": [
+      {
+       "text": "Arten der Benutzung.",
+       "spans": []
+      },
+      {
+       "text": "Im Allgemeinen. Gera. Morgen.",
+       "spans": [
+        [
+         16,
+         20,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "Im Allgemeinen. Schleiz. Morgen.",
+       "spans": [
+        [
+         16,
+         23,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "Im Allgemeinen. Lobenstein-Ebersdorf. Morgen.",
+       "spans": [
+        [
+         16,
+         36,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "Im Allgemeinen. Fürstenthum. Morgen.",
+       "spans": []
+      },
+      {
+       "text": "In Procenten. Gera. Morgen.",
+       "spans": [
+        [
+         14,
+         18,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "In Procenten. Schleiz. Morgen.",
+       "spans": [
+        [
+         14,
+         21,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "In Procenten. Lob.-Ebersd. Morgen.",
+       "spans": [
+        [
+         14,
+         26,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "In Procenten. Fürstenthum. Morgen.",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Gehöfte . . .",
+       "spans": [
+        [
+         0,
+         7,
+         "Artefact"
+        ]
+       ]
+      },
+      {
+       "text": "804,45",
+       "spans": []
+      },
+      {
+       "text": "556",
+       "spans": []
+      },
+      {
+       "text": "413,75",
+       "spans": []
+      },
+      {
+       "text": "1774,20",
+       "spans": []
+      },
+      {
+       "text": "0,93",
+       "spans": []
+      },
+      {
+       "text": "0,44",
+       "spans": []
+      },
+      {
+       "text": "0,38",
+       "spans": []
+      },
+      {
+       "text": "0,55",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Gärten und Obstanlagen",
+       "spans": [
+        [
+         0,
+         6,
+         "Environment"
+        ],
+        [
+         11,
+         22,
+         "Environment"
+        ]
+       ]
+      },
+      {
+       "text": "2356,32",
+       "spans": []
+      },
+      {
+       "text": "1138",
+       "spans": []
+      },
+      {
+       "text": "668,14",
+       "spans": []
+      },
+      {
+       "text": "4162,47",
+       "spans": []
+      },
+      {
+       "text": "2,73",
+       "spans": []
+      },
+      {
+       "text": "0,90",
+       "spans": []
+      },
+      {
+       "text": "0,61",
+       "spans": []
+      },
+      {
+       "text": "1,29",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Feld *) . . .",
+       "spans": [
+        [
+         0,
+         4,
+         "Environment"
+        ]
+       ]
+      },
+      {
+       "text": "50077,96",
+       "spans": []
+      },
+      {
+       "text": "40841",
+       "spans": []
+      },
+      {
+       "text": "29227,01",
+       "spans": []
+      },
+      {
+       "text": "120146,96",
+       "spans": []
+      },
+      {
+       "text": "57,95",
+       "spans": []
+      },
+      {
+       "text": "32,34",
+       "spans": []
+      },
+      {
+       "text": "26,56",
+       "spans": []
+      },
+      {
+       "text": "37,22",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Wiese",
+       "spans": [
+        [
+         0,
+         5,
+         "Environment"
+        ]
+       ]
+      },
+      {
+       "text": "7816,33",
+       "spans": []
+      },
+      {
+       "text": "25226",
+       "spans": []
+      },
+      {
+       "text": "20770,00",
+       "spans": []
+      },
+      {
+       "text": "53812,33",
+       "spans": []
+      },
+      {
+       "text": "9,04",
+       "spans": []
+      },
+      {
+       "text": "19,98",
+       "spans": []
+      },
+      {
+       "text": "18,88",
+       "spans": []
+      },
+      {
+       "text": "16,67",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Hutung . . .",
+       "spans": [
+        [
+         0,
+         6,
+         "Environment"
+        ]
+       ]
+      },
+      {
+       "text": "2436,76",
+       "spans": []
+      },
+      {
+       "text": "4169",
+       "spans": []
+      },
+      {
+       "text": "3815,08",
+       "spans": []
+      },
+      {
+       "text": "10420,83",
+       "spans": []
+      },
+      {
+       "text": "2,82",
+       "spans": []
+      },
+      {
+       "text": "3,30",
+       "spans": []
+      },
+      {
+       "text": "3,47",
+       "spans": []
+      },
+      {
+       "text": "3,23",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Teiche",
+       "spans": [
+        [
+         0,
+         6,
+         "Environment"
+        ]
+       ]
+      },
+      {
+       "text": "145,25",
+       "spans": []
+      },
+      {
+       "text": "1422",
+       "spans": []
+      },
+      {
+       "text": "205,71",
+       "spans": []
+      },
+      {
+       "text": "1772,75",
+       "spans": []
+      },
+      {
+       "text": "0,17",
+       "spans": []
+      },
+      {
+       "text": "1,13",
+       "spans": []
+      },
+      {
+       "text": "0,19",
+       "spans": []
+      },
+      {
+       "text": "0,55",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Laubholz . . .",
+       "spans": [
+        [
+         0,
+         8,
+         "Resource"
+        ]
+       ]
+      },
+      {
+       "text": "5968,81",
+       "spans": []
+      },
+      {
+       "text": "332",
+       "spans": []
+      },
+      {
+       "text": "277,13",
+       "spans": []
+      },
+      {
+       "text": "6578,94",
+       "spans": []
+      },
+      {
+       "text": "6,91",
+       "spans": []
+      },
+      {
+       "text": "0,26",
+       "spans": []
+      },
+      {
+       "text": "0,25",
+       "spans": []
+      },
+      {
+       "text": "2,04",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Nadelholz . . .",
+       "spans": [
+        [
+         0,
+         9,
+         "Resource"
+        ]
+       ]
+      },
+      {
+       "text": "14975,58",
+       "spans": []
+      },
+      {
+       "text": "50429",
+       "spans": []
+      },
+      {
+       "text": "52421,01",
+       "spans": []
+      },
+      {
+       "text": "117825,59",
+       "spans": []
+      },
+      {
+       "text": "17,33",
+       "spans": []
+      },
+      {
+       "text": "39,92",
+       "spans": []
+      },
+      {
+       "text": "47,64",
+       "spans": []
+      },
+      {
+       "text": "36,51",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Steuerfreier Boden **).",
+       "spans": []
+      },
+      {
+       "text": "1834,99",
+       "spans": []
+      },
+      {
+       "text": "2189",
+       "spans": []
+      },
+      {
+       "text": "2228,00",
+       "spans": []
+      },
+      {
+       "text": "6251,99",
+       "spans": []
+      },
+      {
+       "text": "2,12",
+       "spans": []
+      },
+      {
+       "text": "1,73",
+       "spans": []
+      },
+      {
+       "text": "2,02",
+       "spans": []
+      },
+      {
+       "text": "1,94",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "total",
+     "cells": [
+      {
+       "text": "Summe des Flächeninhalts",
+       "spans": []
+      },
+      {
+       "text": "86416,46",
+       "spans": []
+      },
+      {
+       "text": "126302",
+       "spans": []
+      },
+      {
+       "text": "110025,83 ***)",
+       "spans": []
+      },
+      {
+       "text": "322746,29",
+       "spans": []
+      },
+      {
+       "text": "100,00",
+       "spans": []
+      },
+      {
+       "text": "100,00",
+       "spans": []
+      },
+      {
+       "text": "100,00",
+       "spans": []
+      },
+      {
+       "text": "100,00",
+       "spans": []
+      }
+     ]
+    }
+   ],
+   "grid": [
+    [
+     "Arten der Benutzung.",
+     "Im Allgemeinen. Gera. Morgen.",
+     "Im Allgemeinen. Schleiz. Morgen.",
+     "Im Allgemeinen. Lobenstein-Ebersdorf. Morgen.",
+     "Im Allgemeinen. Fürstenthum. Morgen.",
+     "In Procenten. Gera. Morgen.",
+     "In Procenten. Schleiz. Morgen.",
+     "In Procenten. Lob.-Ebersd. Morgen.",
+     "In Procenten. Fürstenthum. Morgen."
+    ],
+    [
+     "Gehöfte . . .",
+     "804,45",
+     "556",
+     "413,75",
+     "1774,20",
+     "0,93",
+     "0,44",
+     "0,38",
+     "0,55"
+    ],
+    [
+     "Gärten und Obstanlagen",
+     "2356,32",
+     "1138",
+     "668,14",
+     "4162,47",
+     "2,73",
+     "0,90",
+     "0,61",
+     "1,29"
+    ],
+    [
+     "Feld *) . . .",
+     "50077,96",
+     "40841",
+     "29227,01",
+     "120146,96",
+     "57,95",
+     "32,34",
+     "26,56",
+     "37,22"
+    ],
+    [
+     "Wiese . . . .",
+     "7816,33",
+     "25226",
+     "20770,00",
+     "53812,33",
+     "9,04",
+     "19,98",
+     "18,88",
+     "16,67"
+    ],
+    [
+     "Hutung . . .",
+     "2436,76",
+     "4169",
+     "3815,08",
+     "10420,83",
+     "2,82",
+     "3,30",
+     "3,47",
+     "3,23"
+    ],
+    [
+     "Teiche . . . .",
+     "145,25",
+     "1422",
+     "205,71",
+     "1772,75",
+     "0,17",
+     "1,13",
+     "0,19",
+     "0,55"
+    ],
+    [
+     "Laubholz . . .",
+     "5968,81",
+     "332",
+     "277,13",
+     "6578,94",
+     "6,91",
+     "0,26",
+     "0,25",
+     "2,04"
+    ],
+    [
+     "Nadelholz . . .",
+     "14975,58",
+     "50429",
+     "52421,01",
+     "117825,59",
+     "17,33",
+     "39,92",
+     "47,64",
+     "36,51"
+    ],
+    [
+     "Steuerfreier Boden **).",
+     "1834,99",
+     "2189",
+     "2228,00",
+     "6251,99",
+     "2,12",
+     "1,73",
+     "2,02",
+     "1,94"
+    ],
+    [
+     "Summe des Flächeninhalts",
+     "86416,46",
+     "126302",
+     "110025,83 ***)",
+     "322746,29",
+     "100,00",
+     "100,00",
+     "100,00",
+     "100,00"
+    ]
+   ],
+   "caption": null,
+   "sec": "t1-3-2"
+  },
+  {
+   "id": "b2",
+   "type": "paragraph",
+   "src": 1,
+   "text": "Der landwirthschaftliche Boden vertheilt sich nach den Landestheilen:",
+   "spans": [],
+   "sec": "t1-3-2"
+  },
+  {
+   "id": "b3",
+   "type": "table",
+   "src": 2,
+   "n_cols": 5,
+   "header_rows": 1,
+   "rows": [
+    {
+     "role": "header",
+     "cells": [
+      {
+       "text": "Landestheile.",
+       "spans": []
+      },
+      {
+       "text": "Zahl der Morgen allgemein.",
+       "spans": []
+      },
+      {
+       "text": "Zahl der Morgen in Procent.",
+       "spans": []
+      },
+      {
+       "text": "Zahl der Morgen auf 1 □ M.",
+       "spans": []
+      },
+      {
+       "text": "Zahl der Morgen auf 1 Familie.",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Gera",
+       "spans": [
+        [
+         0,
+         4,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "62688",
+       "spans": []
+      },
+      {
+       "text": "33,2",
+       "spans": []
+      },
+      {
+       "text": "15555,3",
+       "spans": []
+      },
+      {
+       "text": "7,84",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Schleiz",
+       "spans": [
+        [
+         0,
+         7,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "71574",
+       "spans": []
+      },
+      {
+       "text": "38,0",
+       "spans": []
+      },
+      {
+       "text": "11929,0",
+       "spans": []
+      },
+      {
+       "text": "11,60",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Lobenstein-Ebersdorf",
+       "spans": [
+        [
+         0,
+         20,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "54480",
+       "spans": []
+      },
+      {
+       "text": "28,8",
+       "spans": []
+      },
+      {
+       "text": "10896,0",
+       "spans": []
+      },
+      {
+       "text": "11,37",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Das Fürstenthum",
+       "spans": []
+      },
+      {
+       "text": "188542",
+       "spans": []
+      },
+      {
+       "text": "100,0",
+       "spans": []
+      },
+      {
+       "text": "12544,3",
+       "spans": []
+      },
+      {
+       "text": "10,00",
+       "spans": []
+      }
+     ]
+    }
+   ],
+   "grid": [
+    [
+     "Landestheile.",
+     "Zahl der Morgen allgemein.",
+     "Zahl der Morgen in Procent.",
+     "Zahl der Morgen auf 1 □ M.",
+     "Zahl der Morgen auf 1 Familie."
+    ],
+    [
+     "Gera . . . . .",
+     "62688",
+     "33,2",
+     "15555,3",
+     "7,84"
+    ],
+    [
+     "Schleiz . . . .",
+     "71574",
+     "38,0",
+     "11929,0",
+     "11,60"
+    ],
+    [
+     "Lobenstein-Ebersdorf",
+     "54480",
+     "28,8",
+     "10896,0",
+     "11,37"
+    ],
+    [
+     "Das Fürstenthum",
+     "188542",
+     "100,0",
+     "12544,3",
+     "10,00"
+    ]
+   ],
+   "caption": null,
+   "sec": "t1-3-2"
+  },
+  {
+   "id": "b4",
+   "type": "paragraph",
+   "src": 3,
+   "text": "Der landwirthschaftliche Boden nach den Hauptgrundbesitzern vertheilt:",
+   "spans": [],
+   "sec": "t1-3-2"
+  }
+ ],
+ "footnotes": [
+  {
+   "id": "fn1",
+   "marker": "*)",
+   "text": "Die Feldfläche hat zwar seit 1854 einen Zuwachs, den stärksten im Landestheile Gera, einen weniger bedeutenden in den beiden anderen Gebieten erhalten, da jedoch nicht vorliegt, wie viel Feldboden je vom Areal der Hutung, der Laub- und Nadelwaldung genommen wurde, so ist das Jahr 1854 als Grundlage der Angaben über die Landwirthschaft beibehalten worden.",
+   "spans": [
+    [
+     79,
+     83,
+     "Location"
+    ],
+    [
+     187,
+     196,
+     "Resource"
+    ],
+    [
+     214,
+     220,
+     "Environment"
+    ]
+   ]
+  },
+  {
+   "id": "fn2",
+   "marker": "**)",
+   "text": "Zum steuerfreien Boden gehören die Schlösser des fürstlichen Hauses, die dem Staate eigenthümlichen Gebäude und Grundstücke, die Kirchen, öffentlichen Wege, Flüsse, Oedungen tc.",
+   "spans": [
+    [
+     35,
+     44,
+     "Artefact"
+    ],
+    [
+     100,
+     107,
+     "Artefact"
+    ],
+    [
+     129,
+     136,
+     "Artefact"
+    ],
+    [
+     151,
+     155,
+     "Artefact"
+    ],
+    [
+     157,
+     163,
+     "Natural Object"
+    ]
+   ]
+  },
+  {
+   "id": "fn3",
+   "marker": "***)",
+   "text": "Der Landestheil Lobenstein-Ebersdorf ist nur croquirt, daher sein Flächenmaß nicht ganz sicher, vermuthlich größer als die obige Angabe.",
+   "spans": [
+    [
+     16,
+     36,
+     "Location"
+    ]
+   ]
+  }
+ ],
+ "corrections": [
+  {
+   "rule": "strip_dot_leaders"
+  }
+ ],
+ "provenance": {
+  "source": "colab-2026-03",
+  "model": "gemini-3-flash-preview",
+  "timestamp": "2026-03-03T15:51:31.097615",
+  "early_schema": false
+ },
+ "section_path": [
+  "t1",
+  "t1-3",
+  "t1-3-2"
+ ],
+ "sections": [
+  "t1-3-2"
+ ]
+}

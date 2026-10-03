@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de">
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="main">Volks- und Landeskunde des Fürstenthums Reuß j. L.</title>
+      <title type="sub">Digitale Edition, S. 115</title>
+      <author><persName ref="https://d-nb.info/gnd/119209217">Brückner, Georg</persName> (1800–1881)</author>
+      <editor><persName>Tobias Perschl</persName></editor><editor><persName>Markus Gerstmeier</persName></editor><editor><persName>Malte Rehbein</persName></editor>
+      <respStmt><resp>Automatische Transkription und Entitätenerkennung</resp><name>Google Gemini 3 Flash (2026)</name></respStmt>
+      <respStmt><resp>Layout-Korrektur, Register, Auswertungen, Edition</resp><persName>Tobias Perschl</persName><persName>Markus Gerstmeier</persName><persName>Malte Rehbein</persName><name>Claude (Anthropic)</name></respStmt>
+    </titleStmt>
+    <editionStmt><edition n="1.1">Version 1.1, <date when="2026-10-02">2026-10-02</date></edition></editionStmt>
+    <publicationStmt>
+      <publisher>Lehrstuhl für Computational Humanities, Universität Passau</publisher>
+      <date when="2026-10-02">2026</date>
+      <availability><licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0 (Transkription, Annotation, Daten). Faksimiles: Bayerische Staatsbibliothek München, NoC-NC 1.0.</licence></availability>
+    </publicationStmt>
+    <sourceDesc>
+      <bibl type="original">
+        <author>Brückner, Georg</author>
+        <title>Volks- und Landeskunde des Fürstenthums Reuß j. L. Im Auftrage des regierenden Landesfürsten verfaßt</title>
+        <pubPlace>Gera</pubPlace><publisher>Köhler</publisher><date when="1870">1870</date>
+        <extent>VIII, 840 S.</extent>
+        <idno type="URN">urn:nbn:de:bvb:12-bsb11005578-4</idno>
+        <idno type="BSB">bsb11005578</idno>
+        <idno type="shelfmark">München, Bayerische Staatsbibliothek, Germ.sp. 78 ld</idno>
+      </bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+    <projectDesc><p>Digitale Edition auf Grundlage einer automatischen Transkription des BSB-Digitalisats (Gemini 3 Flash, 2026), regelbasiert korrigiert und strukturiert; Register durch KI-Agenten bereinigt und mit Normdaten verknüpft.</p></projectDesc>
+    <editorialDecl>
+      <normalization><p>Historische Schreibung beibehalten; Umlaute modern (ä, ö, ü statt e-Superskript); langes s als s; Ligaturen aufgelöst.</p></normalization>
+      <hyphenation eol="none"><p>Silbentrennung am Zeilenende aufgelöst; am Seitenende erhaltene Trennungen sind über das Seitenende hinweg in einem Absatz zusammengeführt.</p></hyphenation>
+      <correction><p>Layoutfehler der automatischen Erkennung (Tabellenköpfe, Bogensignaturen, Trennstriche) sind regelbasiert korrigiert und je Seite protokolliert. Inhaltliche Druckfehler sind nicht korrigiert.</p></correction>
+    </editorialDecl>
+  </encodingDesc>
+  <profileDesc><langUsage><language ident="de">Deutsch (1870)</language></langUsage></profileDesc>
+  <revisionDesc><change when="2026-10-02">Version 1.1</change></revisionDesc>
+</teiHeader>
+<facsimile><surface xml:id="f0127" n="115" ulx="0" uly="0" lrx="1599" lry="2689"><graphic url="https://api.digitale-sammlungen.de/iiif/image/v2/bsb11005578_00127/full/full/0/default.jpg" mimeType="image/jpeg"/><zone xml:id="f0127-b1" type="block" ulx="234" uly="260" lrx="1137" lry="849"/><zone xml:id="f0127-b2" type="block" ulx="20" uly="891" lrx="1346" lry="1059"/><zone xml:id="f0127-b3" type="block" ulx="161" uly="1062" lrx="1191" lry="1400"/><zone xml:id="f0127-b4" type="block" ulx="92" uly="1771" lrx="654" lry="1810"/><zone xml:id="f0127-b5" type="block" ulx="16" uly="1847" lrx="1346" lry="2253"/><zone xml:id="f0127-b6" type="block" ulx="17" uly="2291" lrx="1356" lry="2414"/><zone xml:id="f0127-l1" type="line" n="1" ulx="234" uly="805" lrx="464" lry="844"/><zone xml:id="f0127-l2" type="line" n="2" ulx="91" uly="891" lrx="1346" lry="930"/><zone xml:id="f0127-l3" type="line" n="3" ulx="20" uly="933" lrx="1344" lry="972"/><zone xml:id="f0127-l4" type="line" n="4" ulx="20" uly="976" lrx="1346" lry="1015"/><zone xml:id="f0127-l5" type="line" n="5" ulx="22" uly="1020" lrx="659" lry="1059"/><zone xml:id="f0127-l6" type="line" n="6" ulx="161" uly="1062" lrx="1191" lry="1101"/><zone xml:id="f0127-l7" type="line" n="7" ulx="161" uly="1278" lrx="990" lry="1317"/><zone xml:id="f0127-l8" type="line" n="8" ulx="162" uly="1321" lrx="990" lry="1360"/><zone xml:id="f0127-l9" type="line" n="9" ulx="162" uly="1361" lrx="990" lry="1400"/><zone xml:id="f0127-l10" type="line" n="10" ulx="92" uly="1771" lrx="654" lry="1810"/><zone xml:id="f0127-l11" type="line" n="11" ulx="240" uly="1847" lrx="437" lry="1886"/><zone xml:id="f0127-l12" type="line" n="12" ulx="511" uly="1847" lrx="748" lry="1886"/><zone xml:id="f0127-l13" type="line" n="13" ulx="1083" uly="1847" lrx="1324" lry="1886"/><zone xml:id="f0127-l14" type="line" n="14" ulx="213" uly="1903" lrx="1346" lry="1942"/><zone xml:id="f0127-l15" type="line" n="15" ulx="17" uly="1969" lrx="188" lry="2008"/><zone xml:id="f0127-l16" type="line" n="16" ulx="348" uly="1986" lrx="627" lry="2025"/><zone xml:id="f0127-l17" type="line" n="17" ulx="911" uly="1986" lrx="1223" lry="2025"/><zone xml:id="f0127-l18" type="line" n="18" ulx="26" uly="2055" lrx="185" lry="2094"/><zone xml:id="f0127-l19" type="line" n="19" ulx="221" uly="2139" lrx="768" lry="2178"/><zone xml:id="f0127-l20" type="line" n="20" ulx="896" uly="2141" lrx="1223" lry="2180"/><zone xml:id="f0127-l21" type="line" n="21" ulx="85" uly="2291" lrx="1355" lry="2330"/><zone xml:id="f0127-l22" type="line" n="22" ulx="17" uly="2333" lrx="1356" lry="2372"/><zone xml:id="f0127-l23" type="line" n="23" ulx="17" uly="2375" lrx="1353" lry="2414"/></surface></facsimile>
+<text><body><div type="page" n="115"><pb n="115" facs="#f0127"/>
+<fw type="header" place="top">1. Statistik.</fw>
+<table xml:id="p115-b1" facs="#f0127-b1" rows="13" cols="4"><row role="label"><cell role="label">Jahre.</cell><cell role="label">Einwohner.</cell><cell role="label">Gestorbene.</cell><cell role="label">in Procenten.</cell></row><row><cell>1794</cell><cell>14279</cell><cell>342</cell><cell>2,39</cell></row><row><cell>1795</cell><cell>14394</cell><cell>440</cell><cell>3,05</cell></row><row><cell>1796</cell><cell>14455</cell><cell>476</cell><cell>3,29</cell></row><row><cell>1797</cell><cell>14475</cell><cell>538</cell><cell>3,70</cell></row><row><cell>1798</cell><cell>14597</cell><cell>469</cell><cell>3,21</cell></row><row><cell>1799</cell><cell>14765</cell><cell>405</cell><cell>2,74</cell></row><row><cell>1800</cell><cell>14396</cell><cell>980</cell><cell>6,80</cell></row><row><cell>1801</cell><cell>14516</cell><cell>462</cell><cell>3,18</cell></row><row><cell>1802</cell><cell>14699</cell><cell>492</cell><cell>3,34</cell></row><row><cell>1803</cell><cell>14900</cell><cell>426</cell><cell>2,86</cell></row><row><cell>1804</cell><cell>15204</cell><cell>365</cell><cell>2,40</cell></row><row><cell>1794-1804</cell><cell>—</cell><cell>—</cell><cell>3,36</cell></row></table>
+<p xml:id="p115-b2"><lb n="2" facs="#f0127-l2"/>Das Verhältnis der Sterblichkeit des Fürstenthums zu den übrigen <lb n="3" facs="#f0127-l3"/>thüringischen Staaten ist kein günstiges, dagegen ein mittleres in Bezug auf <lb n="4" facs="#f0127-l4"/>andere europäische Länder, wie die folgenden Zusammenstellungen ausweisen. <lb n="5" facs="#f0127-l5"/>Es kommt nämlich ein Sterbefall in:</p>
+<list xml:id="p115-b3" facs="#f0127-b3"><item><lb n="6" facs="#f0127-l6"/><placeName ref="#place-sachsen-altenburg">S.-Altenburg</placeName> . . . . . . . . . . . . . . auf 34,72 Einwohner.</item><item><placeName ref="#place-fuerstenthum-reuss-juengerer-linie">Reuß j. L.</placeName> . . . . . . . . . . . . . " 36,36 "</item><item><placeName ref="#place-sachsen-coburg">S.-Coburg</placeName> . . . . . . . . . . . . . . " 41,08 "</item><item><placeName ref="#place-sachsen-gotha">S.-Gotha</placeName> . . . . . . . . . . . . . . . " 41,32 "</item><item><placeName ref="#place-sachsen-weimar">S.-Weimar</placeName> . . . . . . . . . . . . . . " 41,66 "</item><item><placeName ref="#place-sachsen-meiningen">S.-<lb n="7" facs="#f0127-l7"/>Meiningen</placeName> . . . . . . . . . . . . . " 43,10 "</item><item><lb n="8" facs="#f0127-l8"/><placeName ref="#place-fuerstenthum-schwarzburg-rudolstadt">Schwarzburg-Rudolstadt</placeName> . . . . . . . . " 44,44 "</item><item><lb n="9" facs="#f0127-l9"/><placeName ref="#place-fuerstenthum-schwarzburg-sondershausen">Schwarzburg-Sondershausen</placeName> . . . . . . . " 45,04 "</item><item><placeName ref="#place-oesterreich">Oesterreich</placeName> . . . . . . . . . . . . . . " 29,72 "</item><item><placeName ref="#place-wuertemberg">Würtemberg</placeName> . . . . . . . . . . . . . . " 31,99 "</item><item><placeName ref="#place-preussen">Preußen</placeName> . . . . . . . . . . . . . . . " 33,85 "</item><item><placeName ref="#place-sachsen">Sachsen</placeName> . . . . . . . . . . . . . . . " 34,12 "</item><item><placeName ref="#place-hannover">Hannover</placeName> . . . . . . . . . . . . . . . " 40,89 "</item><item><placeName ref="#place-frankreich">Frankreich</placeName> . . . . . . . . . . . . . . " 41,13 "</item><item><placeName ref="#place-daenemark">Dänemark</placeName> . . . . . . . . . . . . . . " 45,00 "</item><item><placeName ref="#place-norwegen">Norwegen</placeName> . . . . . . . . . . . . . . " 51,77 "</item></list>
+<ab type="heading" xml:id="p115-b4" facs="#f0127-b4"><lb n="10" facs="#f0127-l10"/>Gestorbene nach dem Geschlecht:</ab>
+<table xml:id="p115-b5" facs="#f0127-b5" rows="6" cols="9"><row role="label"><cell role="label"></cell><cell role="label">Gestorbene</cell><cell role="label"></cell><cell role="label">Procente der</cell><cell role="label"></cell><cell role="label">Gestorbene</cell><cell role="label"></cell><cell cols="2" role="label">Procente der</cell></row><row role="label"><cell role="label"></cell><cell role="label">männl.</cell><cell role="label">weibl.</cell><cell role="label">m. Bev.</cell><cell role="label">w. Bev.</cell><cell role="label">männl.</cell><cell role="label">weibl.</cell><cell role="label">m. Bev.</cell><cell rows="2" role="label">w. Bev.</cell></row><row role="label"><cell role="label">Durchschn. von 1858-67</cell><cell role="label"><placeName ref="#place-bezirk-gera">Bezirk Gera</placeName>.</cell><cell role="label"></cell><cell role="label"></cell><cell role="label"></cell><cell role="label"><placeName ref="#place-bezirk-schleiz">Bezirk Schleiz</placeName>.</cell><cell role="label"></cell><cell role="label"></cell></row><row><cell></cell><cell>520,1</cell><cell>468,5</cell><cell>2,87</cell><cell>2,59</cell><cell>407,3</cell><cell>375,7</cell><cell>3,08</cell><cell>2,76</cell></row><row><cell>Durchschn. von 1858-67</cell><cell><placeName ref="#place-bezirk-lobenstein-ebersdorf">Bez. Lobenstein-Ebersdorf</placeName>.</cell><cell></cell><cell></cell><cell></cell><cell>Fürstenthum.</cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell>325,0</cell><cell>309,3</cell><cell>3,03</cell><cell>2,62</cell><cell>1256,4</cell><cell>1156,8</cell><cell>2,99</cell><cell>2,75</cell></row></table>
+<p xml:id="p115-b6"><lb n="21" facs="#f0127-l21"/>Wie in allen anderen Staaten, so wird auch hier im Einzelnen und im <lb n="22" facs="#f0127-l22"/>Ganzen das Gesetz bestätigt, daß auf Seiten der männlichen Bevölkerung die <lb n="23" facs="#f0127-l23"/>Sterblichkeit größer ist als auf Seiten der weiblichen. Für das von Lebens=</p>
+<fw type="sig" place="bottom">8*</fw>
+</div></body></text>
+<standOff>
+<listPlace>
+<place xml:id="place-bezirk-gera"><placeName>Bezirk Gera</placeName><desc>Landestheil</desc></place>
+<place xml:id="place-bezirk-lobenstein-ebersdorf"><placeName>Bezirk Lobenstein-Ebersdorf</placeName><desc>Landestheil</desc></place>
+<place xml:id="place-bezirk-schleiz"><placeName>Bezirk Schleiz</placeName><desc>Landestheil</desc></place>
+<place xml:id="place-daenemark"><placeName>Dänemark</placeName><desc>Land</desc></place>
+<place xml:id="place-frankreich"><placeName>Frankreich</placeName><desc>Land</desc><location><geo>46.6 2.5</geo></location></place>
+<place xml:id="place-fuerstenthum-reuss-juengerer-linie"><placeName>Fürstenthum Reuß jüngerer Linie</placeName><desc>Fürstentum</desc></place>
+<place xml:id="place-fuerstenthum-schwarzburg-rudolstadt"><placeName>Fürstenthum Schwarzburg-Rudolstadt</placeName><desc>Fürstentum</desc></place>
+<place xml:id="place-fuerstenthum-schwarzburg-sondershausen"><placeName>Fürstenthum Schwarzburg-Sondershausen</placeName><desc>Fürstentum</desc></place>
+<place xml:id="place-hannover"><placeName>Hannover</placeName><desc>Königreich</desc></place>
+<place xml:id="place-norwegen"><placeName>Norwegen</placeName><desc>Land</desc></place>
+<place xml:id="place-oesterreich"><placeName>Oesterreich</placeName><desc>Staat</desc></place>
+<place xml:id="place-preussen"><placeName>Preußen</placeName><desc>Staat</desc><idno type="Wikidata">https://www.wikidata.org/entity/Q27306</idno></place>
+<place xml:id="place-sachsen"><placeName>Sachsen</placeName><desc>Land</desc><location><geo>51.0 13.25</geo></location><idno type="GeoNames">https://www.geonames.org/2842566</idno><idno type="Wikidata">https://www.wikidata.org/entity/Q153015</idno></place>
+<place xml:id="place-sachsen-altenburg"><placeName>Sachsen-Altenburg</placeName><desc>Land</desc></place>
+<place xml:id="place-sachsen-coburg"><placeName>Sachsen-Coburg</placeName><desc>Land</desc></place>
+<place xml:id="place-sachsen-gotha"><placeName>Sachsen-Gotha</placeName><desc>Land</desc></place>
+<place xml:id="place-sachsen-meiningen"><placeName>Sachsen-Meiningen</placeName><desc>Land</desc></place>
+<place xml:id="place-sachsen-weimar"><placeName>Sachsen-Weimar</placeName><desc>Land</desc></place>
+<place xml:id="place-wuertemberg"><placeName>Würtemberg</placeName><placeName type="modern">Württemberg</placeName><desc>Land</desc></place>
+</listPlace>
+</standOff>
+</TEI>

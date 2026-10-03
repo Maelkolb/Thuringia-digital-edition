@@ -1,0 +1,695 @@
+{
+ "seq": 247,
+ "label": "235",
+ "slug": "235",
+ "iiif": {
+  "service": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb11005578_00247",
+  "canvas": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11005578/canvas/247",
+  "width": 1621,
+  "height": 2701
+ },
+ "kind": "text",
+ "running_header": "3. Viehzucht.",
+ "signature": null,
+ "blocks": [
+  {
+   "id": "b1",
+   "type": "paragraph",
+   "src": 0,
+   "text": "Ziegen und der Schweine die stärkere; im Einzelnen fällt auf Gera bezüglich der Pferde eine Verminderung, auf Schleiz die stärkste Vermehrung; bei den Ziegen kommt die stärkste Zunahme auf Lobenstein-Ebersdorf und bei den Schweinen auf Gera. Was die Schafe und Rinder betrifft, so ist die Zahl der Schafe im Verhältniss zur Bevölkerung am Stärksten in Gera, die der Rinder aber fast gleichmäßig in allen drei Landestheilen zurückgeblieben.",
+   "spans": [
+    [
+     0,
+     6,
+     "Animal"
+    ],
+    [
+     15,
+     23,
+     "Animal"
+    ],
+    [
+     61,
+     65,
+     "Location"
+    ],
+    [
+     80,
+     86,
+     "Animal"
+    ],
+    [
+     110,
+     117,
+     "Location"
+    ],
+    [
+     151,
+     157,
+     "Animal"
+    ],
+    [
+     189,
+     209,
+     "Location"
+    ],
+    [
+     222,
+     231,
+     "Animal"
+    ],
+    [
+     236,
+     240,
+     "Location"
+    ],
+    [
+     250,
+     256,
+     "Animal"
+    ],
+    [
+     261,
+     267,
+     "Animal"
+    ],
+    [
+     298,
+     304,
+     "Animal"
+    ],
+    [
+     352,
+     356,
+     "Location"
+    ],
+    [
+     366,
+     372,
+     "Animal"
+    ]
+   ],
+   "sec": "t1-3-3"
+  },
+  {
+   "id": "b2",
+   "type": "paragraph",
+   "src": 1,
+   "text": "Bei der Viehzählung im Jahre 1867 ist zum ersten Male bei den Pferden und Rindern auf die Arbeitsthiere und außerdem bei jener auf das Geschlecht Bezug genommen worden. Danach hat der",
+   "spans": [
+    [
+     62,
+     69,
+     "Animal"
+    ],
+    [
+     74,
+     81,
+     "Animal"
+    ]
+   ],
+   "sec": "t1-3-3"
+  },
+  {
+   "id": "b3",
+   "type": "table",
+   "src": 2,
+   "n_cols": 10,
+   "header_rows": 1,
+   "rows": [
+    {
+     "role": "header",
+     "cells": [
+      {
+       "text": "Landestheil",
+       "spans": []
+      },
+      {
+       "text": "Zahl der Rinder.",
+       "spans": [
+        [
+         9,
+         15,
+         "Animal"
+        ]
+       ]
+      },
+      {
+       "text": "Arbeitsthiere.",
+       "spans": []
+      },
+      {
+       "text": "In Proc.",
+       "spans": []
+      },
+      {
+       "text": "Zahl d. Pferde.",
+       "spans": [
+        [
+         8,
+         14,
+         "Animal"
+        ]
+       ]
+      },
+      {
+       "text": "Arbeitsthiere.",
+       "spans": []
+      },
+      {
+       "text": "In Proc.",
+       "spans": []
+      },
+      {
+       "text": "Stuten.",
+       "spans": []
+      },
+      {
+       "text": "Hengste.",
+       "spans": []
+      },
+      {
+       "text": "Wallachen.",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Gera . . .",
+       "spans": [
+        [
+         0,
+         4,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "9116",
+       "spans": []
+      },
+      {
+       "text": "1576",
+       "spans": []
+      },
+      {
+       "text": "17,29",
+       "spans": []
+      },
+      {
+       "text": "1874",
+       "spans": []
+      },
+      {
+       "text": "1649",
+       "spans": []
+      },
+      {
+       "text": "88,00",
+       "spans": []
+      },
+      {
+       "text": "429",
+       "spans": []
+      },
+      {
+       "text": "72",
+       "spans": []
+      },
+      {
+       "text": "1230",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Schleiz . .",
+       "spans": [
+        [
+         0,
+         7,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "10496",
+       "spans": []
+      },
+      {
+       "text": "4172",
+       "spans": []
+      },
+      {
+       "text": "39,76",
+       "spans": []
+      },
+      {
+       "text": "551",
+       "spans": []
+      },
+      {
+       "text": "506",
+       "spans": []
+      },
+      {
+       "text": "91,83",
+       "spans": []
+      },
+      {
+       "text": "182",
+       "spans": []
+      },
+      {
+       "text": "18",
+       "spans": []
+      },
+      {
+       "text": "316",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Lob.-Ebersd.",
+       "spans": []
+      },
+      {
+       "text": "9250",
+       "spans": []
+      },
+      {
+       "text": "3660",
+       "spans": []
+      },
+      {
+       "text": "39,56",
+       "spans": []
+      },
+      {
+       "text": "264",
+       "spans": []
+      },
+      {
+       "text": "233",
+       "spans": []
+      },
+      {
+       "text": "88,26",
+       "spans": []
+      },
+      {
+       "text": "93",
+       "spans": []
+      },
+      {
+       "text": "15",
+       "spans": []
+      },
+      {
+       "text": "127",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "total",
+     "cells": [
+      {
+       "text": "Summe",
+       "spans": []
+      },
+      {
+       "text": "28862",
+       "spans": []
+      },
+      {
+       "text": "9408",
+       "spans": []
+      },
+      {
+       "text": "32,60",
+       "spans": []
+      },
+      {
+       "text": "2689",
+       "spans": []
+      },
+      {
+       "text": "2388",
+       "spans": []
+      },
+      {
+       "text": "88,80",
+       "spans": []
+      },
+      {
+       "text": "704",
+       "spans": []
+      },
+      {
+       "text": "105",
+       "spans": []
+      },
+      {
+       "text": "1673",
+       "spans": []
+      }
+     ]
+    }
+   ],
+   "grid": [
+    [
+     "Landestheil",
+     "Zahl der Rinder.",
+     "Arbeits- thiere.",
+     "In Proc.",
+     "Zahl d. Pferde.",
+     "Arbeits- thiere.",
+     "In Proc.",
+     "Stu- ten.",
+     "Hengste.",
+     "Wal- lachen."
+    ],
+    [
+     "Gera . . .",
+     "9116",
+     "1576",
+     "17,29",
+     "1874",
+     "1649",
+     "88,00",
+     "429",
+     "72",
+     "1230"
+    ],
+    [
+     "Schleiz . .",
+     "10496",
+     "4172",
+     "39,76",
+     "551",
+     "506",
+     "91,83",
+     "182",
+     "18",
+     "316"
+    ],
+    [
+     "Lob.-Ebersd.",
+     "9250",
+     "3660",
+     "39,56",
+     "264",
+     "233",
+     "88,26",
+     "93",
+     "15",
+     "127"
+    ],
+    [
+     "Summe",
+     "28862",
+     "9408",
+     "32,60",
+     "2689",
+     "2388",
+     "88,80",
+     "704",
+     "105",
+     "1673"
+    ]
+   ],
+   "caption": null,
+   "sec": "t1-3-3"
+  },
+  {
+   "id": "b4",
+   "type": "paragraph",
+   "src": 3,
+   "text": "An Pferden hat das Unterland, an Rindern das Oberland die größere Zahl. Nach Procenten indeß zieht das Oberland nicht allein eine größere Menge des Rindviehes zur Arbeit heran, sondern auch mehr Pferde.",
+   "spans": [
+    [
+     3,
+     10,
+     "Animal"
+    ],
+    [
+     33,
+     40,
+     "Animal"
+    ],
+    [
+     148,
+     158,
+     "Animal"
+    ],
+    [
+     195,
+     201,
+     "Animal"
+    ]
+   ],
+   "sec": "t1-3-3"
+  },
+  {
+   "id": "b5",
+   "type": "paragraph",
+   "src": 4,
+   "text": "Federvieh. Die Zucht der Hühner und Gänse greift weit zurück. Darauf deuten die Ostereier, die Martinsgans und die ehemals starken Abgaben von Hühnern und Gänsen an weltliche und geistliche Herrn. Enten und Tauben wurden zwar ebenfalls gehalten, doch nicht in der gleichen Zahl, weshalb sie auch nicht in die Reihe der Abgaben gesetzt waren. Auch nach der Ablösung der Naturalabgaben hat sich dies numerische Verhältniß nicht geändert, indem Hühner und Gänse fast jeder gering begüterten Familie, Enten und Tauben nur den Bauernhöfen gehören. Uebrigens findet sich eine größere Vorliebe für edle Arten der Tauben als des übrigen Federviehes vor, wie denn noch jetzt auf den Dörfern die alte deutsche Gans und Henne vorherrscht. Mit Eiern, jungen Hühnern und Gänsen versieht das Plattland seine Städte, namentlich Gera und Schleiz. Eine statistische Angabe über die Zahl des Federviehes liegt nicht vor, wohl aber hat der Landestheil Lobenstein-Ebersdorf eine Zählung der Gänse und Hühner vom Frühjahr 1866, nach der in demselben 6576 Gänse und 12,970 Hühner, somit auf eine Familie 1,37 Gans und 2,70 Hühner getroffen wurden.",
+   "spans": [
+    [
+     25,
+     31,
+     "Animal"
+    ],
+    [
+     36,
+     41,
+     "Animal"
+    ],
+    [
+     732,
+     737,
+     "Resource"
+    ],
+    [
+     155,
+     160,
+     "Animal"
+    ],
+    [
+     143,
+     150,
+     "Animal"
+    ],
+    [
+     155,
+     161,
+     "Animal"
+    ],
+    [
+     197,
+     202,
+     "Animal"
+    ],
+    [
+     207,
+     213,
+     "Animal"
+    ],
+    [
+     442,
+     448,
+     "Animal"
+    ],
+    [
+     453,
+     458,
+     "Animal"
+    ],
+    [
+     497,
+     502,
+     "Animal"
+    ],
+    [
+     507,
+     513,
+     "Animal"
+    ],
+    [
+     606,
+     612,
+     "Animal"
+    ],
+    [
+     700,
+     704,
+     "Animal"
+    ],
+    [
+     709,
+     714,
+     "Animal"
+    ],
+    [
+     746,
+     753,
+     "Animal"
+    ],
+    [
+     758,
+     764,
+     "Animal"
+    ],
+    [
+     813,
+     817,
+     "Location"
+    ],
+    [
+     822,
+     829,
+     "Location"
+    ],
+    [
+     933,
+     953,
+     "Location"
+    ],
+    [
+     981,
+     987,
+     "Animal"
+    ],
+    [
+     1034,
+     1039,
+     "Animal"
+    ],
+    [
+     1051,
+     1057,
+     "Animal"
+    ],
+    [
+     1087,
+     1091,
+     "Animal"
+    ],
+    [
+     1101,
+     1107,
+     "Animal"
+    ]
+   ],
+   "sec": "t1-3-3"
+  },
+  {
+   "id": "b6",
+   "type": "paragraph",
+   "src": 5,
+   "text": "Die Bienenzucht ist gleichfalls eine alte Pflege, zumal Kirchen, Klöster und weltliche Herrn Honig und Wachs als Abgabe und die Weihnachtspfefferkuchen Honig als Zusatz forderten. Die alten Ganzstöcke sind größtentheils noch landüblich, doch finden Magazin- und Dzierzonstöcke mehr und mehr Eingang. Bis auf 18 Orte (11 im Landestheile Gera, einer in Schleiz und sechs in Lobenstein-Ebersdorf) nimmt Stadt und Land an der Bienenzucht Theil. Uebrigens züchtet jeder Besitzer die Biene meist blos für seinen eigenen Bedarf, weshalb der Handel mit Bienenstöcken, mit Honig und Wachs noch unbedeutend ist. Es bestanden in dem Fürstenthume:",
+   "spans": [
+    [
+     65,
+     72,
+     "Organisation"
+    ],
+    [
+     93,
+     98,
+     "Resource"
+    ],
+    [
+     103,
+     108,
+     "Resource"
+    ],
+    [
+     152,
+     157,
+     "Resource"
+    ],
+    [
+     336,
+     340,
+     "Location"
+    ],
+    [
+     351,
+     358,
+     "Location"
+    ],
+    [
+     372,
+     392,
+     "Location"
+    ],
+    [
+     422,
+     427,
+     "Animal"
+    ],
+    [
+     564,
+     569,
+     "Resource"
+    ],
+    [
+     574,
+     579,
+     "Resource"
+    ]
+   ],
+   "sec": "t1-3-3"
+  }
+ ],
+ "footnotes": [],
+ "corrections": [
+  {
+   "rule": "join_linebreak_hyphen",
+   "before": "Arbeits- thiere",
+   "after": "Arbeitsthiere"
+  },
+  {
+   "rule": "join_linebreak_hyphen",
+   "before": "Arbeits- thiere",
+   "after": "Arbeitsthiere"
+  },
+  {
+   "rule": "join_linebreak_hyphen",
+   "before": "Stu- ten",
+   "after": "Stuten"
+  },
+  {
+   "rule": "join_linebreak_hyphen",
+   "before": "Wal- lachen",
+   "after": "Wallachen"
+  }
+ ],
+ "provenance": {
+  "source": "colab-2026-03",
+  "model": "gemini-3-flash-preview",
+  "timestamp": "2026-03-04T13:22:47.721995",
+  "early_schema": false
+ },
+ "section_path": [
+  "t1",
+  "t1-3",
+  "t1-3-3"
+ ],
+ "sections": [
+  "t1-3-3"
+ ]
+}
