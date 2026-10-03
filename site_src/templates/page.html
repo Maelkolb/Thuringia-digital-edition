@@ -20,7 +20,8 @@
       <button class="toggle" type="button" aria-pressed="true" data-toggle-ents {{ i18n('title', 'Register-Annotationen im Text hervorheben', 'Highlight index annotations in the text') }}>{{ t('Annotationen', 'Annotations') }}</button>
       {% if has_lines %}<button class="toggle" type="button" aria-pressed="false" data-toggle-lines {{ i18n('title', 'Zeilenfall und Zeilenzählung des Drucks zeigen', 'Show the line breaks and line numbers of the print') }}>{{ t('Zeilen', 'Lines') }}</button>{% endif %}
       <button class="toggle" type="button" aria-pressed="true" data-toggle-facs {{ i18n('title', 'Faksimile ein- oder ausblenden', 'Show or hide the facsimile') }}>{{ t('Faksimile', 'Facsimile') }}</button>
-      <button class="cite-toggle" type="button" aria-expanded="false" aria-controls="cite" data-cite-toggle>{{ t('Zitieren', 'Cite') }}</button>
+      <button class="cite-toggle" type="button" aria-expanded="false" aria-controls="cite" data-panel-toggle data-cite-toggle>{{ t('Zitieren', 'Cite') }}</button>
+      <button class="cite-toggle" type="button" aria-expanded="false" aria-controls="export" data-panel-toggle>{{ t('Export', 'Export') }}</button>
       <div class="pager">
         {% if prev_slug %}<a href="{{ prev_slug }}.html" rel="prev" {{ i18n('aria-label', 'Vorige Seite', 'Previous page') }} accesskey="," data-prev>‹</a>{% else %}<span class="disabled" aria-hidden="true">‹</span>{% endif %}
         <form data-goto>
@@ -37,12 +38,24 @@
       <p class="cite-text" data-cite-text><span data-l="de">Georg Brückner: Volks- und Landeskunde des Fürstenthums Reuß j. L. Gera: Köhler 1870, {{ plabel }}. Digitale Edition, hg. von {{ site.editor }} {{ site.date[:4] }}, <span data-url data-path="seite/{{ page.slug }}.html">{{ site.base_url }}seite/{{ page.slug }}.html</span>.</span><span data-l="en">Georg Brückner: Volks- und Landeskunde des Fürstenthums Reuß j. L. Gera: Köhler 1870, {{ plabel_en }}. Digital edition, ed. by {{ site.editor_en }} {{ site.date[:4] }}, <span data-url data-path="seite/{{ page.slug }}.html">{{ site.base_url }}seite/{{ page.slug }}.html</span>.</span></p>
       <div class="row">
         <button class="copy-btn" type="button" data-copy="[data-cite-text]" data-done-de="Kopiert" data-done-en="Copied">{{ t('Zitat kopieren', 'Copy citation') }}</button>
-        <span class="muted">{{ t('Diese Seite als', 'This page as') }}</span>
-        <a href="{{ root }}daten/seiten/{{ page.slug }}.xml" download>TEI-XML</a>
-        <a href="{{ root }}daten/seiten/{{ page.slug }}.json" download>JSON</a>
-        <a href="{{ root }}daten/seiten/{{ page.slug }}.txt" download>{{ t('Text', 'plain text') }}</a>
-        <a href="{{ mdz_url }}" rel="noopener">{{ t('Im Viewer der BSB', 'In the BSB viewer') }}</a>
+        <a href="{{ root }}edition/zitieren.html">{{ t('Zur Zitierweise', 'How to cite') }}</a>
       </div>
+    </div>
+  </div>
+  <div class="cite-panel" id="export" hidden>
+    <div class="inner">
+      <p class="label">{{ t('Exportieren', 'Export') }}</p>
+      <table class="export-table">
+        <tr><th scope="row">{{ t('Diese Seite', 'This page') }} <span class="muted">{{ plabel if page.label else ('Scan ' ~ page.seq) }}</span></th>
+          <td><a href="{{ root }}daten/seiten/{{ page.slug }}.xml" download>TEI-XML</a><a href="{{ root }}daten/seiten/{{ page.slug }}.json" download>JSON</a><a href="{{ root }}daten/seiten/{{ page.slug }}.txt" download>{{ t('Text', 'Plain text') }}</a></td></tr>
+        {% for c in crumbs|reverse %}
+        <tr><th scope="row"><span lang="de">{{ t(c.title|e, c.title_en|e) }}</span> <span class="muted">{{ t('S.', 'pp.') }} {{ c.pp }}</span></th>
+          <td><a href="{{ root }}daten/abschnitte/{{ c.id }}.xml" download>TEI-XML</a></td></tr>
+        {% endfor %}
+        <tr><th scope="row">{{ t('Das ganze Buch', 'The whole book') }}</th>
+          <td><a href="{{ root }}daten/brueckner1870.tei.xml" download>TEI-XML</a><a href="{{ root }}daten/register.csv" download>{{ t('Register (CSV)', 'Indexes (CSV)') }}</a></td></tr>
+      </table>
+      <p class="note muted">{{ t('TEI P5, geprüft gegen das vollständige TEI-Schema (tei_all): Gliederung, Seiten- und Zeilenumbrüche mit Bildregionen im Faksimile, Tabellen, Fußnoten und Registereinträge mit Normdaten. Alle Abschnitte und weitere Daten unter', 'TEI P5, checked against the full TEI schema (tei_all): structure, page and line breaks with image regions in the facsimile, tables, footnotes and index entries with authority data. All sections and further data under') }} <a href="{{ root }}edition/daten.html">{{ t('Daten und Downloads', 'Data and downloads') }}</a>.</p>
     </div>
   </div>
 </div>
@@ -110,7 +123,7 @@
     </div>
     <div class="facs-meta">
       <span>{{ t('Bayerische Staatsbibliothek München, Germ.sp. 78 ld, Scan ' ~ page.seq, 'Bayerische Staatsbibliothek Munich, Germ.sp. 78 ld, scan ' ~ page.seq) }}</span>
-      <a href="{{ page.iiif.service }}/full/full/0/default.jpg" rel="noopener">{{ t('Bild in voller Auflösung', 'Full-size image') }}</a>
+      <span class="facs-links"><a href="{{ mdz_url }}" rel="noopener">{{ t('Viewer der BSB', 'BSB viewer') }}</a><a href="{{ page.iiif.service }}/full/full/0/default.jpg" rel="noopener">{{ t('Bild in voller Auflösung', 'Full-size image') }}</a></span>
     </div>
   </aside>
 </div>

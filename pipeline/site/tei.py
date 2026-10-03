@@ -276,13 +276,24 @@ def facsimile(pages: list[dict]) -> str:
     return "".join(out)
 
 
-def export(pages: list[dict], struct: dict, entities: dict, key_map: dict, out_dir: Path, site: dict, only=None) -> None:
-    sections = {s["id"]: s for s in struct["sections"]}
-    # ---- full book --------------------------------------------------------
-    tei = TEI(entities, key_map)
+def book_body(tei: "TEI", pages: list[dict], struct: dict, start: tuple | None = None, end: tuple | None = None) -> tuple[list[str], list[dict]]:
+    """TEI <body> content for the text between two positions (scan seq, block index); None = open end.
+
+    Returns the body lines and the pages that contribute to them (for the <facsimile>).
+    Sections open a <div> where they start inside the range; a range that begins inside a
+    section (an exported chapter) simply starts with that chapter's own <div>.
+    """
+    sections = {x["id"]: x for x in struct["sections"]}
+    starts = collections.defaultdict(list)
+    for x in struct["sections"]:
+        starts[(x["start_seq"], x.get("start_block"))].append(x)
     body: list[str] = []
+    used: list[dict] = []
     stack: list[str] = []
     open_p = False
+
+    def inside(pos: tuple) -> bool:
+        return (start is None or pos >= start) and (end is None or pos < end)
 
     def close_p():
         nonlocal open_p
@@ -290,68 +301,96 @@ def export(pages: list[dict], struct: dict, entities: dict, key_map: dict, out_d
             body.append("</p>")
             open_p = False
 
-    starts = collections.defaultdict(list)
-    for s in struct["sections"]:
-        starts[(s["start_seq"], s.get("start_block"))].append(s)
+    def open_section(x: dict):
+        close_p()
+        while stack and sections[stack[-1]]["depth"] >= x["depth"]:
+            body.append("</div>")
+            stack.pop()
+        body.append(f'<div type="section" n="{xesc(x.get("num", ""))}" xml:id="{xml_id("sec-" + x["id"])}">')
+        stack.append(x["id"])
+
     for p in pages:
+        index = {blk["id"]: i for i, blk in enumerate(p["blocks"])}
+        n_blocks = max(1, len(p["blocks"]))
+        if not any(inside((p["seq"], i)) for i in range(n_blocks)):
+            continue
+        used.append(p)
+        whole_page = inside((p["seq"], 0)) and inside((p["seq"], n_blocks - 1))
         pid = f"p{p['slug']}"
-        pb = f'<pb n="{xesc(p["label"] or "")}" facs="#f{p["seq"]:04d}" xml:id="{pid}"/>'
-        page_level = sorted(starts.get((p["seq"], None), []), key=lambda s: s["depth"])
-        for s in page_level:
-            close_p()
-            while stack and sections[stack[-1]]["depth"] >= s["depth"]:
-                body.append("</div>")
-                stack.pop()
-            body.append(f'<div type="section" n="{xesc(s.get("num", ""))}" xml:id="{xml_id("sec-" + s["id"])}">')
-            stack.append(s["id"])
-        if open_p:
-            body.append(pb)
-        else:
-            body.append(pb)
+        if whole_page:
+            for x in sorted(starts.get((p["seq"], None), []), key=lambda x: x["depth"]):
+                open_section(x)
+        body.append(f'<pb n="{xesc(p["label"] or "")}" facs="#f{p["seq"]:04d}" xml:id="{pid}"/>')
         if p.get("running_header"):
             body.append(f'<fw type="header" place="top">{xesc(p["running_header"])}</fw>')
         if p["kind"] != "text":
             continue
-        for kind, x, b in tei.page_parts(p, full_book=True):
-            for s in sorted(starts.get((p["seq"], b.get("id")), []), key=lambda s: s["depth"]):
-                close_p()
-                while stack and sections[stack[-1]]["depth"] >= s["depth"]:
-                    body.append("</div>")
-                    stack.pop()
-                body.append(f'<div type="section" n="{xesc(s.get("num", ""))}" xml:id="{xml_id("sec-" + s["id"])}">')
-                stack.append(s["id"])
+        for kind, x, blk in tei.page_parts(p, full_book=True):
+            if kind == "notes":
+                if inside((p["seq"], n_blocks - 1)):
+                    body.append(x if open_p else f"<p>{x}</p>")
+                continue
+            if not inside((p["seq"], index[blk["id"]])):
+                continue
+            for sec in sorted(starts.get((p["seq"], blk.get("id")), []), key=lambda x: x["depth"]):
+                open_section(sec)
             if kind == "paragraph":
-                if b.get("continued") and open_p:
+                if blk.get("continued") and open_p:
                     body.append(x)
                 else:
                     close_p()
-                    rend = ' rend="imprint"' if b.get("role") == "imprint" else ""
-                    body.append(f'<p xml:id="{pid}-{b["id"]}"{rend}>{x}')
+                    rend = ' rend="imprint"' if blk.get("role") == "imprint" else ""
+                    body.append(f'<p xml:id="{pid}-{blk["id"]}"{rend}>{x}')
                     open_p = True
-                if not b.get("continues"):
+                if not blk.get("continues"):
                     close_p()
-            elif kind == "notes":
-                if open_p:
-                    body.append(x)
-                else:
-                    body.append(f"<p>{x}</p>")
             else:
                 close_p()
                 body.append(x)
-        if p.get("signature"):
-            if open_p:
-                body.append(f'<fw type="sig" place="bottom">{xesc(p["signature"])}</fw>')
-            else:
-                body.append(f'<fw type="sig" place="bottom">{xesc(p["signature"])}</fw>')
+        if p.get("signature") and inside((p["seq"], n_blocks - 1)):
+            body.append(f'<fw type="sig" place="bottom">{xesc(p["signature"])}</fw>')
     close_p()
     while stack:
         body.append("</div>")
         stack.pop()
-    doc = (f'<?xml version="1.0" encoding="UTF-8"?>\n<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>\n'
-           f'<TEI xmlns="{TEI_NS}" xml:lang="de">\n{header(site, "")}\n{facsimile(pages)}\n<text><body>\n' + "\n".join(body) + f"\n</body></text>\n{standoff(tei)}\n</TEI>\n")
+    return body, used
+
+
+def document(site: dict, scope: str, tei: "TEI", body: list[str], pages: list[dict]) -> str:
+    return (f'<?xml version="1.0" encoding="UTF-8"?>\n<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>\n'
+            f'<TEI xmlns="{TEI_NS}" xml:lang="de">\n{header(site, scope)}\n{facsimile(pages)}\n<text><body>\n' + "\n".join(body) + f"\n</body></text>\n{standoff(tei)}\n</TEI>\n")
+
+
+def section_ranges(pages: list[dict], struct: dict) -> dict[str, tuple]:
+    """(start, end) position of every section: it ends where the next section of the same or a higher level begins."""
+    blocks = {p["seq"]: {b["id"]: i for i, b in enumerate(p["blocks"])} for p in pages}
+    pos = {x["id"]: (x["start_seq"], blocks.get(x["start_seq"], {}).get(x.get("start_block"), 0)) for x in struct["sections"]}
+    order = sorted(struct["sections"], key=lambda x: (pos[x["id"]], x["depth"]))
+    ranges = {}
+    for i, x in enumerate(order):
+        nxt = next((y for y in order[i + 1:] if y["depth"] <= x["depth"] and pos[y["id"]] > pos[x["id"]]), None)
+        ranges[x["id"]] = (pos[x["id"]], pos[nxt["id"]] if nxt else None)
+    return ranges
+
+
+def export(pages: list[dict], struct: dict, entities: dict, key_map: dict, out_dir: Path, site: dict, only=None) -> None:
     out_dir.mkdir(parents=True, exist_ok=True)
     if not only:
-        (out_dir / "brueckner1870.tei.xml").write_text(doc, encoding="utf-8")
+        # ---- full book --------------------------------------------------------
+        tei = TEI(entities, key_map)
+        body, used = book_body(tei, pages, struct)
+        (out_dir / "brueckner1870.tei.xml").write_text(document(site, "", tei, body, used), encoding="utf-8")
+        # ---- one document per section of the table of contents -----------------
+        (out_dir / "abschnitte").mkdir(parents=True, exist_ok=True)
+        ranges = section_ranges(pages, struct)
+        for x in struct["sections"]:
+            start, end = ranges[x["id"]]
+            tei = TEI(entities, key_map)
+            body, used = book_body(tei, pages, struct, start, end)
+            if not used:
+                continue
+            title = f'{x.get("num", "")} {x["title"]}'.strip()
+            (out_dir / "abschnitte" / f'{x["id"]}.xml').write_text(document(site, f", {title}", tei, body, used), encoding="utf-8")
     # ---- per page -----------------------------------------------------------
     for p in pages:
         if only and p["slug"] not in only:

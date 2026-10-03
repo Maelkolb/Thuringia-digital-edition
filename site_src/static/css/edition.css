@@ -168,6 +168,15 @@ html[data-ui="de"] [data-l="en"], html[data-ui="en"] [data-l="de"] { display: no
 .cite-panel .row { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 18px; font: 500 .88rem var(--sans); }
 .copy-btn { height: 30px; padding: 0 12px; border-radius: 5px; border: 1px solid var(--rule-strong); background: var(--card); color: var(--ink); font: 500 .88rem var(--sans); cursor: pointer; }
 .copy-btn:hover { border-color: var(--muted); }
+.export-table { border-collapse: collapse; font: 400 .92rem var(--sans); max-width: 60rem; width: 100%; }
+.export-table th { text-align: left; font-weight: 500; padding: 6px 24px 6px 0; border-bottom: 1px solid var(--rule); vertical-align: baseline; }
+.export-table td { padding: 6px 0; border-bottom: 1px solid var(--rule); white-space: nowrap; text-align: right; }
+.export-table td a + a { margin-left: 16px; }
+.export-table.sections .d2 th { padding-left: 1.2em; }
+.export-table.sections .d3 th { padding-left: 2.4em; font-weight: 400; }
+.export-table.sections .d4 th { padding-left: 3.6em; font-weight: 400; }
+.cite-panel .note { font-size: .85rem; margin: 2px 0 0; max-width: 60rem; }
+.facs-links { display: inline-flex; gap: 14px; }
 
 .reader { max-width: 1480px; margin: 0 auto; padding: 0 24px; display: grid; grid-template-columns: minmax(0, 1fr) minmax(340px, 44%); gap: 44px; align-items: start; }
 body.no-facs .reader { grid-template-columns: minmax(0, 1fr); }

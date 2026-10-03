@@ -187,6 +187,13 @@ class Builder:
         ctx.update(kw)
         self.write(rel, self.env.get_template(name).render(**ctx))
 
+    def sec_pages(self, sid: str) -> str:
+        s = self.sections[sid]
+        printed = [p["label"] for p in self.pages if s["start_seq"] <= p["seq"] <= s["end_seq"] and p["label"]]
+        first = printed[0] if s["start_label"].startswith("scan-") and printed else s["start_label"]
+        last = printed[-1] if s["end_label"].startswith("scan-") and printed else s["end_label"]
+        return (f"{first}–{last}" if first != last else first).replace("scan-", "Scan ")
+
     def sec_href(self, sid: str, root: str) -> str:
         s = self.sections[sid]
         anchor = f"#{s['start_block']}" if s.get("start_block") else ""
@@ -320,7 +327,8 @@ class Builder:
             for sid in p.get("section_path", []):
                 s = self.sections[sid]
                 short = f"{s.get('num', '')} {s['title']}".strip()
-                crumbs.append({"href": self.sec_href(sid, "../"), "title": short, "short": short if len(short) < 42 else short[:40] + "…"})
+                crumbs.append({"href": self.sec_href(sid, "../"), "title": short, "short": short if len(short) < 42 else short[:40] + "…",
+                               "id": sid, "title_en": f"{s.get('num', '')} {s.get('title_en') or s['title']}".strip(), "pp": self.sec_pages(sid)})
             meta = self.meta.get(p["slug"], {})
             label = p["label"] or f"Scan {p['seq']}"
             corrections = []
@@ -636,8 +644,11 @@ class Builder:
         rep = read_json(DATA / "reports" / "normalize_report.json")
         ls = DATA / "lines" / "summary.json"
         lines_summary = read_json(ls) if ls.exists() else {"pages": 0, "detected": 0, "aligned": 0}
+        tei_sections = [{"id": s["id"], "depth": s["depth"], "title": f"{s.get('num', '')} {s['title']}".strip(),
+                         "title_en": f"{s.get('num', '')} {s.get('title_en') or s['title']}".strip(), "pp": self.sec_pages(s["id"])}
+                        for s in self.struct["sections"]]
         for name in ("einleitung", "richtlinien", "zitieren", "daten", "impressum"):
-            self.tpl(f"doc_{name}.html", f"edition/{name}.html", section="about", stats=stats, rep=rep, rules=RULES, lines=lines_summary)
+            self.tpl(f"doc_{name}.html", f"edition/{name}.html", section="about", stats=stats, rep=rep, rules=RULES, lines=lines_summary, tei_sections=tei_sections)
         self.tpl("404.html", "404.html")
         urls = ["index.html", "inhalt.html", "karte.html", "suche.html", "auswertungen/index.html", "register/index.html"]
         urls += [f"seite/{p['slug']}.html" for p in self.pages]

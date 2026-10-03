@@ -163,16 +163,28 @@
   body.classList.toggle('no-facs', !(facsPref ? facsPref !== 'off' : window.innerWidth > 1100));
   $('[data-toggle-facs]').setAttribute('aria-pressed', body.classList.contains('no-facs') ? 'false' : 'true');
 
-  var citeBtn = $('[data-cite-toggle]'), citePanel = $('#cite');
-  if (citeBtn && citePanel) {
-    citeBtn.addEventListener('click', function () {
-      var open = citePanel.hidden;
-      citePanel.hidden = !open; citeBtn.setAttribute('aria-expanded', open ? 'true' : 'false');
-    });
-    document.addEventListener('keydown', function (e) {
-      if (e.key === 'Escape' && !citePanel.hidden) { citePanel.hidden = true; citeBtn.setAttribute('aria-expanded', 'false'); citeBtn.focus(); }
+  // "Zitieren" and "Export" panels below the toolbar: one open at a time, Escape closes
+  var panelBtns = $$('[data-panel-toggle]');
+  function closePanels(except) {
+    panelBtns.forEach(function (b) {
+      if (b === except) return;
+      b.setAttribute('aria-expanded', 'false');
+      var p = document.getElementById(b.getAttribute('aria-controls')); if (p) p.hidden = true;
     });
   }
+  panelBtns.forEach(function (btn) {
+    var panel = document.getElementById(btn.getAttribute('aria-controls')); if (!panel) return;
+    btn.addEventListener('click', function () {
+      var open = panel.hidden;
+      closePanels(btn);
+      panel.hidden = !open; btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+    });
+  });
+  document.addEventListener('keydown', function (e) {
+    if (e.key !== 'Escape') return;
+    var open = panelBtns.filter(function (b) { return b.getAttribute('aria-expanded') === 'true'; })[0];
+    if (open) { closePanels(); open.focus(); }
+  });
 
   document.addEventListener('keydown', function (e) {
     if (e.target.closest('input, textarea, select') || e.altKey || e.ctrlKey || e.metaKey) return;
