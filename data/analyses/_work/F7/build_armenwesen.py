@@ -81,7 +81,7 @@ for r in fou:
     if r["year"] is not None:
         tl.append(("Armenstiftung", "F-" + r["key"], r["name_de"], r["name_en"], r["year"]))
 tl.sort(key=lambda t: (t[4], KIND[t[0]][0], t[1]))
-tl_rows = [[key, kind, KIND[kind][0], KIND[kind][1], KIND[kind][2], de, en, yr, yr // 10 * 10, yr // 10 * 10 + 10] for kind, key, de, en, yr in tl]
+tl_rows = [[KIND[kind][0], KIND[kind][1], KIND[kind][2], de, en, yr, yr // 10 * 10, yr // 10 * 10 + 10] for kind, key, de, en, yr in tl]
 count_kind = {k: sum(1 for t in tl if t[0] == k) for k in KIND}
 soc_1860s = sum(1 for r in soc if 1860 <= r["year"] <= 1869)
 soc_before_1850 = sum(1 for r in soc if r["year"] < 1850)
@@ -99,10 +99,8 @@ for src in (soc_src, fou_src, sti_src, cap_src):
 
 ds_tl = dataset(
     "gruendungen",
-    bi("Gründungsjahre der erfassten Einrichtungen: Stipendien, Stiftungen für Arme, Selbsthilfe", "Founding years of the recorded institutions: stipends, foundations for the poor, self-help"),
-    [col("key", "Kennung", "Key", "string", None, True),
-     col("kind", "Art", "Kind", "string", None, True),
-     col("kind_rank", "Reihenfolge der Art", "Order of the kind", "integer", None, True),
+    bi("Gründungsjahre der Stipendien, Stiftungen für Arme und Selbsthilfeeinrichtungen", "Founding years of the stipends, foundations for the poor and self-help institutions"),
+    [col("kind_rank", "Reihenfolge der Art", "Order of the kind", "integer", None, True),
      col("kind_de", "Art", "Kind", "string", None, True),
      col("kind_en", "Art (englisch)", "Kind (English)", "string", None, True),
      col("name_de", "Einrichtung", "Institution", "string"),
@@ -130,9 +128,10 @@ LABEL = {
     "l": ("Dinger, Gera (1860): Wäscherinnen, Waisen", "Dinger, Gera (1860): washerwomen, orphans"),
     "m": ("Ungenannter, Gera (1854): Kranke", "Anonymous, Gera (1854): the sick"),
 }
+DONOR_DE = {"Private": "Privatleute"}
 fou_rows = []
 for r in sorted(fou, key=lambda r: -r["capital"]):
-    fou_rows.append([r["key"], LABEL[r["key"]][0], LABEL[r["key"]][1], r["group_de"], r["group_en"], r["purpose_de"], r["purpose_en"],
+    fou_rows.append([LABEL[r["key"]][0], LABEL[r["key"]][1], DONOR_DE.get(r["group_de"], r["group_de"]), r["group_en"], r["purpose_de"], r["purpose_en"],
                      r["capital"], r["year"], r["year_de"], r["year_en"], r["income"], r["yield"]])
 cap_total = sum(r["capital"] for r in fou)
 cap_first = max(r["capital"] for r in fou)
@@ -145,8 +144,7 @@ n_fou = len(fou)
 ds_fou = dataset(
     "foundations",
     bi("Stiftungen für Arme, Waisen und Bedürftige mit genanntem Kapital", "Foundations for the poor, orphans and the needy with a stated capital"),
-    [col("key", "Kennung", "Key", "string"),
-     col("label_de", "Bezeichnung", "Label", "string", None, True),
+    [col("label_de", "Bezeichnung", "Label", "string", None, True),
      col("label_en", "Bezeichnung (englisch)", "Label (English)", "string", None, True),
      col("group_de", "Stifter", "Donor", "string"),
      col("group_en", "Stifter (englisch)", "Donor (English)", "string"),
@@ -154,8 +152,8 @@ ds_fou = dataset(
      col("purpose_en", "Zweck (englisch)", "Purpose (English)", "string"),
      col("capital", "Kapital", "Capital", "integer", "Taler", False, "Dinger-Stiftung: 200 + 500 Taler"),
      col("year", "Jahr", "Year", "integer"),
-     col("year_de", "Zeitpunkt", "Point in time", "string"),
-     col("year_en", "Zeitpunkt (englisch)", "Point in time (English)", "string"),
+     col("year_de", "Zeitpunkt", "Date", "string"),
+     col("year_en", "Zeitpunkt (englisch)", "Date (English)", "string"),
      col("income", "Jahresertrag", "Annual income", "integer", "Taler"),
      col("yield", "Verzinsung", "Yield", "number", "%", True)],
     fou_rows,
@@ -163,12 +161,11 @@ ds_fou = dataset(
 )
 
 # ---------------------------------------------------------------- self-help societies (download) and places (map)
-soc_rows = [[r["key"], r["type_de"], r["type_en"], r["place_de"], r["place_en"], "; ".join(PLACES[r["key"]]), r["year"], r["region_de"], r["region_en"]] for r in soc]
+soc_rows = [[r["type_de"], r["type_en"], r["place_de"], r["place_en"], "; ".join(PLACES[r["key"]]), r["year"], r["region_de"], r["region_en"]] for r in soc]
 ds_soc = dataset(
     "societies",
     bi("Selbsthilfeeinrichtungen mit Gründungsjahr und genannten Orten", "Self-help institutions with founding year and named places"),
-    [col("key", "Kennung", "Key", "string"),
-     col("type_de", "Art", "Type", "string"),
+    [col("type_de", "Art", "Type", "string"),
      col("type_en", "Art (englisch)", "Type (English)", "string"),
      col("place_de", "Ort und Mitglieder", "Place and members", "string"),
      col("place_en", "Ort und Mitglieder (englisch)", "Place and members (English)", "string"),
@@ -215,32 +212,27 @@ sti_total = sum(r["annual_total"] for r in sti)
 n_sti = len(sti)
 
 # ---------------------------------------------------------------- charts
-KIND_DOMAIN = ["Stipendium", "Armenstiftung", "Selbsthilfe"]
+KIND_DOMAIN = [KIND[k][1] for k in ("Stipendium", "Armenstiftung", "Selbsthilfe")]
 KIND_RANGE = ["@accent", "@accent3", "@accent2"]
 
 
-def key_of(kind, year=None, pick=0):
-    xs = [t for t in tl if t[0] == kind and (year is None or t[4] == year)]
-    return xs[pick][1]
+def anchor_filter(kind, year):
+    first = next(t for t in tl if t[0] == kind and t[4] == year)
+    return f"datum.kind_de === '{KIND[kind][1]}' && datum.year === {year} && datum.name_de === {json.dumps(first[2], ensure_ascii=False)}"
 
 
-# tallest stack per decade, to place the labels
-stack_h = {}
-for t in tl:
-    d = t[4] // 10 * 10
-    stack_h[d] = stack_h.get(d, 0) + 1
-sti_label_key = key_of("Stipendium", 1696)
-fou_label_key = key_of("Armenstiftung", 1853)
-soc_label_key = key_of("Selbsthilfe", 1865)
+TL_TOOLTIP = [{"field": {"de": "name_de", "en": "name_en"}, "title": bi("Einrichtung", "Institution")},
+              {"field": {"de": "kind_de", "en": "kind_en"}, "title": bi("Art", "Kind")},
+              {"field": "year", "title": bi("Jahr", "Year")}]
 
 c1 = {
     "id": "c1",
     "dataset": "gruendungen",
-    "title": bi(f"Die erfassten Stipendien beginnen {first_stipend}, {soc_1860s} von {n_soc} Selbsthilfekassen entstanden 1860 bis 1869",
-                f"The recorded stipends begin in {first_stipend}, {soc_1860s} of {n_soc} self-help societies arose from 1860 to 1869"),
+    "title": bi(f"{soc_1860s} der {n_soc} Selbsthilfeeinrichtungen wurden zwischen 1860 und 1869 gegründet",
+                f"{soc_1860s} of the {n_soc} self-help institutions were founded between 1860 and 1869"),
     "caption": bi(
         f"Gründungsjahr aller {len(tl)} datierten Stipendien, Stiftungen für Arme und Selbsthilfeeinrichtungen, je Jahrzehnt; ein Block ist eine Einrichtung. Nicht datiert sind {n_fou + n_sti - count_kind['Armenstiftung'] - sum(1 for r in sti if r['year'] is not None)} weitere. Quelle: S. 302 bis 310.",
-        f"Founding year of all {len(tl)} dated stipends, foundations for the poor and self-help institutions, by decade; one block is one institution. {n_fou + n_sti - count_kind['Armenstiftung'] - sum(1 for r in sti if r['year'] is not None)} further ones are undated. Source: pp. 302 to 310."),
+        f"Founding year of all {len(tl)} dated stipends, foundations for the poor and self-help institutions, by decade; each block is one institution. {n_fou + n_sti - count_kind['Armenstiftung'] - sum(1 for r in sti if r['year'] is not None)} further ones are undated. Source: pp. 302 to 310."),
     "vegalite": {
         "height": 320,
         "encoding": {
@@ -253,56 +245,59 @@ c1 = {
              "encoding": {
                  "x2": {"field": "decade_end"},
                  "y": {"aggregate": "count", "type": "quantitative", "scale": {"domain": [0, 30]}, "axis": {"title": bi("Zahl der Einrichtungen", "Number of institutions"), "tickCount": 6}},
-                 "color": {"field": "kind", "type": "nominal", "legend": None, "scale": {"domain": KIND_DOMAIN, "range": KIND_RANGE}},
+                 "color": {"field": "kind_de", "type": "nominal", "legend": None, "scale": {"domain": KIND_DOMAIN, "range": KIND_RANGE}},
                  "order": {"field": "kind_rank", "type": "quantitative"},
-                 "tooltip": [{"field": "name_de", "title": bi("Einrichtung", "Institution")},
-                             {"field": "kind_de", "title": bi("Art", "Kind")},
-                             {"field": "year", "title": bi("Jahr", "Year")}]}},
-            {"transform": [{"filter": f"datum.key === '{sti_label_key}'"}],
+                 "tooltip": TL_TOOLTIP}},
+            {"transform": [{"filter": anchor_filter("Stipendium", 1696)}],
              "mark": {"type": "text", "align": "center", "baseline": "bottom", "dy": -8, "style": "label"},
              "encoding": {"x": {"datum": 1700, "type": "quantitative"}, "y": {"datum": 3.2, "type": "quantitative"}, "color": {"value": "@accent"},
                           "text": {"value": bi("Stipendien und Schulstiftungen", "Stipends and school foundations")}}},
-            {"transform": [{"filter": f"datum.key === '{fou_label_key}'"}],
+            {"transform": [{"filter": anchor_filter("Armenstiftung", 1853)}],
              "mark": {"type": "text", "align": "right", "baseline": "middle", "dx": -4, "style": "label"},
              "encoding": {"x": {"datum": 1850, "type": "quantitative"}, "y": {"datum": 9.5, "type": "quantitative"}, "color": {"value": "@accent3"},
                           "text": {"value": bi("Stiftungen für Arme", "Foundations for the poor")}}},
-            {"transform": [{"filter": f"datum.key === '{soc_label_key}'"}],
+            {"transform": [{"filter": anchor_filter("Selbsthilfe", 1865)}],
              "mark": {"type": "text", "align": "right", "baseline": "middle", "dx": -4, "style": "label"},
              "encoding": {"x": {"datum": 1860, "type": "quantitative"}, "y": {"datum": 22, "type": "quantitative"}, "color": {"value": "@accent2"},
-                          "text": {"value": bi(f"Selbsthilfe der Arbeiter: {soc_1860s} Gründungen 1860 bis 1869", f"Self-help of the workers: {soc_1860s} foundings from 1860 to 1869")}}},
+                          "text": {"value": bi(f"Selbsthilfe der Arbeiter: {soc_1860s} Gründungen 1860 bis 1869", f"Workers’ self-help: {soc_1860s} foundings from 1860 to 1869")}}},
         ],
     },
 }
 
+BAR_SHIFT = 8
+HALO = {"color": "@paper", "stroke": "@paper", "strokeWidth": 4, "strokeJoin": "round"}
 c2 = {
     "id": "c2",
     "dataset": "foundations",
     "title": bi("Das Kapital der Fürstin Christiane Louise von 1828 übertraf die zwölf übrigen Stiftungen zusammen",
-                "Princess Christiane Louise’s capital of 1828 exceeded the twelve other foundations together"),
+                "Princess Christiane Louise’s foundation of 1828 held more capital than the twelve others combined"),
     "caption": bi(
         f"Kapital der {n_fou} Stiftungen für Arme, Waisen und Bedürftige, für die Brückner ein Kapital in Talern nennt; zusammen {n(cap_total)} Taler. Gestrichelt: Kapital aller übrigen zusammen. Quelle: S. 308 bis 310.",
-        f"Capital of the {n_fou} foundations for the poor, orphans and the needy for which Brückner states a capital in thalers; together {e(cap_total)} thalers. Dashed: capital of all the others together. Source: pp. 308 to 310."),
+        f"Capital of the {n_fou} foundations for the poor, orphans and the needy for which Brückner states a capital in thalers; {e(cap_total)} thalers in all. Dashed line: capital of all the others combined. Source: pp. 308 to 310."),
     "vegalite": {
-        "height": {"step": 26},
+        "height": {"step": 40},
         "transform": [{"calculate": {"de": "datum.label_de", "en": "datum.label_en"}, "as": "label"}],
-        "encoding": {"y": {"field": "label", "type": "nominal", "sort": [bi(r[1], r[2]) for r in fou_rows],
-                           "axis": {"title": None, "labelLimit": 520, "ticks": False, "domain": False}}},
+        "encoding": {"y": {"field": "label", "type": "nominal", "sort": [bi(r[0], r[1]) for r in fou_rows], "axis": None}},
         "layer": [
-            {"mark": {"type": "bar", "height": 15},
+            {"mark": {"type": "rule", "strokeDash": [4, 3], "color": "@ink2"},
+             "encoding": {"x": {"datum": cap_rest, "type": "quantitative"}, "y": None}},
+            {"mark": {"type": "bar", "height": 14, "yOffset": BAR_SHIFT},
              "encoding": {"x": {"field": "capital", "type": "quantitative", "scale": {"domain": [0, 36000]},
                                 "axis": {"title": bi("Kapital in Taler", "Capital in thalers"), "values": [0, 10000, 20000, 30000], "format": ",d", "labelOverlap": False}},
                           "color": {"condition": {"test": f"datum.capital === {cap_first}", "value": "@accent3"}, "value": "@context"},
                           "tooltip": [{"field": "label", "title": bi("Stiftung", "Foundation")},
-                                      {"field": "group_de", "title": bi("Stifter", "Donor")},
+                                      {"field": {"de": "group_de", "en": "group_en"}, "title": bi("Stifter", "Donor")},
                                       {"field": "capital", "title": bi("Kapital in Taler", "Capital in thalers"), "format": ",d"},
-                                      {"field": "year_de", "title": bi("Zeitpunkt", "Point in time")}]}},
-            {"mark": {"type": "rule", "strokeDash": [4, 3], "color": "@ink2"},
-             "encoding": {"x": {"datum": cap_rest, "type": "quantitative"}, "y": None}},
+                                      {"field": {"de": "year_de", "en": "year_en"}, "title": bi("Zeitpunkt", "Date")}]}},
+            {"mark": {"type": "text", "align": "left", "baseline": "bottom", "dy": -2, **HALO},
+             "encoding": {"x": {"datum": 0, "type": "quantitative"}, "text": {"field": "label"}}},
+            {"mark": {"type": "text", "align": "left", "baseline": "bottom", "dy": -2},
+             "encoding": {"x": {"datum": 0, "type": "quantitative"}, "text": {"field": "label"}}},
             {"transform": [{"filter": f"datum.capital === {cap_first}"}],
-             "mark": {"type": "text", "align": "right", "baseline": "bottom", "dx": -4, "dy": -17, "style": "annotation"},
+             "mark": {"type": "text", "align": "right", "baseline": "bottom", "dx": -4, "dy": -4, "style": "annotation"},
              "encoding": {"x": {"datum": cap_rest, "type": "quantitative"}, "y": {"value": 0},
-                          "text": {"value": bi(f"alle übrigen zusammen: {n(cap_rest)}", f"all the others together: {e(cap_rest)}")}}},
-            {"mark": {"type": "text", "align": "left", "dx": 6, "style": "label"},
+                          "text": {"value": bi(f"alle übrigen zusammen: {n(cap_rest)}", f"all the others combined: {e(cap_rest)}")}}},
+            {"mark": {"type": "text", "align": "left", "baseline": "middle", "dx": 6, "dy": BAR_SHIFT, "style": "label"},
              "encoding": {"x": {"field": "capital", "type": "quantitative"}, "text": {"field": "capital", "format": ",d"}}},
         ],
     },
@@ -319,7 +314,7 @@ def panel(title, center, scale, width, height, labels, with_legend, bar_at, bbox
     geo = f"datum.lon > {west} && datum.lon < {east} && datum.lat > {south} && datum.lat < {north}"
     lon0, lat0 = bar_at
     dlon = 5 / (111.32 * 0.634)
-    size_legend = ({"title": bi("Einrichtungen", "Institutions"), "values": [1, 3, 6, 12], "orient": "none", "legendX": width - 132, "legendY": height - 150, "direction": "vertical",
+    size_legend = ({"title": bi("Einrichtungen", "Institutions"), "values": [1, 3, 6, 12], "orient": "none", "legendX": width - 132, "legendY": height - 174, "direction": "vertical",
                     "symbolFillColor": "@muted", "symbolStrokeColor": "@paper"} if with_legend else None)
     return {
         "title": {"text": title, "anchor": "start", "fontSize": 12, "fontWeight": 600, "offset": 6},
@@ -360,16 +355,16 @@ c3 = {
     "dataset": "selbsthilfe_orte",
     "extra_datasets": ["orte_basis", "fluesse_basis"],
     "title": bi("Die Selbsthilfe der Arbeiter konzentrierte sich auf Gera und sein Umland",
-                "The self-help of the workers was concentrated on Gera and its surroundings"),
+                "Workers’ self-help was concentrated in Gera and its surroundings"),
     "caption": bi(
         f"Orte, die Brückner bei den {n_soc} Selbsthilfeeinrichtungen nennt; die Größe zeigt, wie viele Einrichtungen den Ort nennen, ein Verein für mehrere Orte zählt bei jedem. {len(no_coord)} Orte ohne Koordinaten fehlen. Quelle: S. 302 bis 303.",
-        f"Places that Brückner names for the {n_soc} self-help institutions; the size shows how many institutions name the place, a society for several places counts for each. {len(no_coord)} places without coordinates are missing. Source: pp. 302 to 303."),
+        f"Places that Brückner names for the {n_soc} self-help institutions; circle size shows how many institutions name the place, and a society covering several places counts for each. {len(no_coord)} places without coordinates are missing. Source: pp. 302 to 303."),
     "vegalite": {
         "hconcat": [
             panel(bi("Unterland (Landesteil Gera)", "Unterland (Gera district)"), [12.112, 50.89], 74000, 418, 400,
                   ["Gera", "Köstritz", "Langenberg", "Frankenthal", "Großsaara", "Trebnitz", "Kaimberg", "Weißig"], False, (11.955, 50.815), (11.86, 12.34, 50.74, 51.05), ["Naundorf"]),
             panel(bi("Oberland (Schleiz, Lobenstein-Ebersdorf)", "Oberland (Schleiz, Lobenstein-Ebersdorf)"), [11.80, 50.56], 37000, 418, 400,
-                  ["Schleiz", "Hirschberg", "Tanna", "Wurzbach", "Harra", "Hohenleuben", "Triebes"], True, (12.0, 50.43), (11.30, 12.35, 50.28, 50.80)),
+                  ["Schleiz", "Hirschberg", "Tanna", "Wurzbach", "Harra", "Hohenleuben", "Triebes"], True, (11.50, 50.378), (11.30, 12.35, 50.28, 50.80)),
         ],
         "spacing": 8,
         "resolve": {"legend": {"color": "independent", "size": "independent"}},
@@ -380,21 +375,22 @@ c3 = {
 soc_dated_before = soc_before_1850
 undated = n_fou + n_sti - count_kind["Armenstiftung"] - sum(1 for r in sti if r["year"] is not None)
 summary = bi(
-    f"Brückner nennt {n_soc} Selbsthilfeeinrichtungen der arbeitenden Klassen mit Gründungsjahr, {n_fou} Stiftungen für Arme mit {n(cap_total)} Taler Kapital und {n_sti} Stipendien mit {n(round(sti_total))} Taler Jahresbetrag, die ältesten von {first_stipend}. {soc_1860s} der {n_soc} Selbsthilfeeinrichtungen entstanden 1860 bis 1869. Die Stiftungen der Fürstin Christiane Louise von 1828 hielten {n(cap_first)} Taler.",
-    f"Brückner names {n_soc} self-help institutions of the working classes with a founding year, {n_fou} foundations for the poor with {e(cap_total)} thalers of capital and {n_sti} stipends with {e(round(sti_total))} thalers a year, the oldest of {first_stipend}. {soc_1860s} of the {n_soc} self-help institutions arose from 1860 to 1869. The foundations of Princess Christiane Louise of 1828 held {e(cap_first)} thalers.")
+    f"Brückner nennt {n_soc} Selbsthilfeeinrichtungen der arbeitenden Klassen mit Gründungsjahr, {n_fou} Stiftungen für Arme mit zusammen {n(cap_total)} Taler Kapital und {n_sti} Stipendien mit {n(round(sti_total))} Taler im Jahr; das älteste Stipendium stammt von {first_stipend}. {soc_1860s} der {n_soc} Selbsthilfeeinrichtungen wurden zwischen 1860 und 1869 gegründet. Die Stiftungen der Fürstin Christiane Louise von 1828 hatten ein Kapital von {n(cap_first)} Talern.",
+    f"Brückner lists {n_soc} self-help institutions of the working classes with their founding year, {n_fou} foundations for the poor with a combined capital of {e(cap_total)} thalers and {n_sti} stipends paying {e(round(sti_total))} thalers a year; the oldest stipend dates from {first_stipend}. {soc_1860s} of the {n_soc} self-help institutions were founded between 1860 and 1869. The foundations of Princess Christiane Louise, set up in 1828, had a capital of {e(cap_first)} thalers.")
 
+peak_year_n = max(sum(1 for r in soc if r['year'] == y) for y in (1866, 1867))
 findings = [
-    bi(f"Nur {soc_dated_before} der {n_soc} Selbsthilfeeinrichtungen entstanden vor 1850, {soc_1860s} dagegen 1860 bis 1869; die meisten Gründungen eines Jahres fielen auf 1866 und 1867 mit je {max(sum(1 for r in soc if r['year'] == y) for y in (1866, 1867))}.",
-       f"Only {soc_dated_before} of the {n_soc} self-help institutions arose before 1850, {soc_1860s} from 1860 to 1869; the most foundings in one year fell on 1866 and 1867 with {max(sum(1 for r in soc if r['year'] == y) for y in (1866, 1867))} each."),
+    bi(f"Nur {soc_dated_before} der {n_soc} Selbsthilfeeinrichtungen entstanden vor 1850, {soc_1860s} zwischen 1860 und 1869; die meisten Gründungen fielen in die Jahre 1866 und 1867 mit je {peak_year_n}.",
+       f"Only {soc_dated_before} of the {n_soc} self-help institutions were founded before 1850 and {soc_1860s} between 1860 and 1869; 1866 and 1867 saw the most, with {peak_year_n} each."),
     bi(f"Die Stiftungen der Fürstin Christiane Louise ({n(cap_first)} Taler, {n(cap_first / cap_total * 100)} Prozent des Kapitals) übertreffen alle übrigen zwölf zusammen ({n(cap_rest)}). Auf das Fürstenhaus entfielen {n(cap_prince / cap_total * 100)} Prozent des Kapitals.",
-       f"The foundations of Princess Christiane Louise ({e(cap_first)} thalers, {e(cap_first / cap_total * 100)} percent of the capital) exceed all twelve others together ({e(cap_rest)}). The princely house accounted for {e(cap_prince / cap_total * 100)} percent of the capital."),
-    bi(f"Brückner nennt die Selbsthilfe »mehr im geraer und reichenfelser Gebiete« entwickelt: {gera_n} der {n_soc} Einrichtungen lagen im Landesteil Gera, {region_count['Schleiz']} in Schleiz, {region_count['Lobenstein-Ebersdorf']} in Lobenstein-Ebersdorf; allein {place_count['Gera']} nennen die Stadt Gera.",
-       f"Brückner calls self-help more developed “in the Gera and Reichenfels area”: {gera_n} of the {n_soc} institutions lay in the Gera district, {region_count['Schleiz']} in Schleiz, {region_count['Lobenstein-Ebersdorf']} in Lobenstein-Ebersdorf; {place_count['Gera']} name the town of Gera alone."),
+       f"The foundations of Princess Christiane Louise ({e(cap_first)} thalers, {e(cap_first / cap_total * 100)} percent of the capital) exceed the other twelve combined ({e(cap_rest)}). The princely house provided {e(cap_prince / cap_total * 100)} percent of the capital."),
+    bi(f"Brückner nennt die Selbsthilfe »mehr im geraer und reichenfelser Gebiete« entwickelt: {gera_n} der {n_soc} Einrichtungen lagen im Landesteil Gera, {region_count['Schleiz']} in Schleiz, {region_count['Lobenstein-Ebersdorf']} in Lobenstein-Ebersdorf; {place_count['Gera']} nennen die Stadt Gera.",
+       f"Brückner describes self-help as more developed “in the Gera and Reichenfels area”: {gera_n} of the {n_soc} institutions were in the Gera district, {region_count['Schleiz']} in Schleiz and {region_count['Lobenstein-Ebersdorf']} in Lobenstein-Ebersdorf; {place_count['Gera']} name the town of Gera."),
 ]
 
 method = bi(
     f"Aus den Aufzählungen S. 302 bis 310 wurden alle Einrichtungen mit Gründungsjahr erfasst: {n_soc} Selbsthilfeeinrichtungen (Sterbekassen, Begräbnis- und Krankenkassen, Krankenunterstützungsvereine, zwei Vorschussvereine), {n_fou} Stiftungen für Arme mit Kapitalangabe (davon {count_kind['Armenstiftung']} mit Jahr) und Stipendien (davon {count_kind['Stipendium']} mit Jahr). Einrichtungen, die Brückner mit zwei Jahreszahlen nennt, zählen doppelt. Das Jahr bezeichnet teils die Errichtung, teils das Testament oder den Tod des Stifters. Das erste Diagramm ordnet die Einrichtungen nach Jahrzehnt. Das Kapital im zweiten Diagramm steht, wo Brückner es nennt, in Talern; bei der Dinger-Stiftung sind 200 und 500 Taler addiert. Die Orte im dritten Diagramm sind die in Brückners Aufzählung genannten Orte; ein Verein für mehrere Orte zählt bei jedem Ort, bei Wendungen wie »und Umgegend« nur der genannte Ort. Das Gebiet einer Einrichtung folgt dem Landesteil des zuerst genannten Ortes. Koordinaten stammen von GeoNames. Weitere Tabellen: die Stipendien mit Jahresbetrag und die Selbsthilfeeinrichtungen mit ihren Orten. Nicht übernommen sind die Mitglieder- und Bilanzzahlen der beiden Vorschussvereine (Ende 1867), die Verteilung der Stiftung von 1867 auf sieben Städte und Stiftungen ohne Kapital- oder Jahresangabe.",
-    f"From the lists on pp. 302 to 310 all institutions with a founding year were recorded: {n_soc} self-help institutions (burial funds, burial and sickness funds, sickness-benefit societies, two credit associations), {n_fou} foundations for the poor with a stated capital ({count_kind['Armenstiftung']} of them with a year) and stipends ({count_kind['Stipendium']} of them with a year). Institutions that Brückner gives with two years count twice. The year denotes partly the establishment, partly the will or the death of the founder. The first chart arranges the institutions by decade. The capital in the second chart is given in thalers where Brückner states it; for the Dinger foundation 200 and 500 thalers are added. The places in the third chart are those named in Brückner’s lists; a society for several places counts for each place, with phrases such as “and surroundings” only the named place. The area of an institution follows the district of the place named first. Coordinates come from GeoNames. Further tables: the stipends with annual amount and the self-help institutions with their places. Not included are the member and balance figures of the two credit associations (end of 1867), the distribution of the 1867 foundation among seven towns and foundations without a capital or a year.")
+    f"From the lists on pp. 302 to 310 all institutions with a founding year were recorded: {n_soc} self-help institutions (burial funds, burial and sickness funds, sickness-benefit societies, two credit associations), {n_fou} foundations for the poor with a stated capital ({count_kind['Armenstiftung']} of them with a year) and stipends ({count_kind['Stipendium']} of them with a year). Institutions that Brückner gives with two years count twice. The year is that of the foundation, of the founder’s will or of the founder’s death. The first chart groups the institutions by decade. The capital in the second chart is given in thalers where Brückner states it; for the Dinger foundation 200 and 500 thalers are added. The places in the third chart are those named in Brückner’s lists; a society covering several places counts for each, and with phrases such as “and surroundings” only the named place counts. The area of an institution follows the district of the place named first. Coordinates come from GeoNames. Further tables: the stipends with annual amount and the self-help institutions with their places. Not included are the member and balance figures of the two credit associations (end of 1867), the distribution of the 1867 foundation among seven towns and foundations without a capital or a year.")
 
 caveats = [
     bi("Die Aufzählungen nennen Gründungsjahre, aber weder Mitglieder noch Kassenstände der Sterbe- und Krankenkassen; die Zahl der Einrichtungen sagt nichts über ihre Größe oder ihren Bestand 1868. Die Zahl der Stiftungen und Stipendien hängt davon ab, welche Brückner mit Jahr oder Betrag nennt."
@@ -424,7 +420,6 @@ obj = {
         "en": ["poor relief", "foundations", "stipends", "self-help", "burial societies", "sickness funds", "credit association", "Christiane Louise", "capital", "orphans", "needy poor"],
     },
     "related": ["kirche-schule", "geburten-sterbefaelle", "berufe-gewerbe", "gesundheit"],
-    "generated_by": "Claude Sonnet 5.5 (Agent F7), aus 3 Einzelauswertungen zusammengeführt",
     "date": "2026-10-02",
 }
 
@@ -433,7 +428,7 @@ if __name__ == "__main__":
     print("capital", cap_total, cap_first, cap_rest, cap_first / cap_total, cap_prince, cap_prince / cap_total)
     print("stipends", n_sti, sti_total, "first", first_stipend)
     print("regions", region_count, "gera places", place_count["Gera"], "n places", n_places, "no coord", no_coord)
-    print("undated", undated, "stack", sorted(stack_h.items())[-5:])
+    print("undated", undated)
     probs = check_limits(obj)
     print("limit problems:", probs)
     print(write_feature(obj))

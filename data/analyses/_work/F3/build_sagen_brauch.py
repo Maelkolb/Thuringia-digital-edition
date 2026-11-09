@@ -261,7 +261,17 @@ X_MONTH = {
     "field": "month",
     "type": "ordinal",
     "scale": {"domain": list(range(1, 13))},
-    "axis": {"title": None, "orient": "top", "labelAngle": 0, "labelExpr": bi(f"{MONTH_DE}[datum.value-1]", f"{MONTH_EN}[datum.value-1]"), "ticks": False, "labelFontSize": 12},
+    "axis": {
+        "title": None,
+        "orient": "top",
+        "labelAngle": 0,
+        "labelExpr": bi(
+            f"width < 640 ? substring({MONTH_DE}[datum.value-1], 0, 1) : {MONTH_DE}[datum.value-1]",
+            f"width < 640 ? substring({MONTH_EN}[datum.value-1], 0, 1) : {MONTH_EN}[datum.value-1]",
+        ),
+        "ticks": False,
+        "labelFontSize": 12,
+    },
 }
 Y_KIND = {
     "field": "kind_order",
@@ -332,13 +342,13 @@ c3 = {
 # ------------------------------------------------------------------ texts
 sorted_types = type_counts.most_common()
 summary_de = (
-    f"Brückner verzeichnet Sagenorte, Jahresbräuche und Hausmittel des Landvolks. Acht Sagenlisten nennen {n_places} Orte, die meisten im Landesteil Gera. "
-    f"Der Volkskalender gliedert sich in {n_calendar} Einträge, am dichtesten im April. Gegen äußere Übel kennt die Volksmedizin {external[4]} Mittel. "
+    f"Brückners acht Sagenlisten nennen {n_places} Orte, die meisten im Landesteil Gera. "
+    f"Im Volkskalender lassen sich {n_calendar} Einträge unterscheiden, die meisten im April. Gegen äußere Übel nennt er {external[4]} Mittel. "
     f"Mundartproben liegen aus {n_sample_places} Orten vor ({n_texts} Texte, rund {n_de(round(words_total, -2))} Wörter)."
 )
 summary_en = (
-    f"Brückner records the legend sites, annual customs and household remedies of the country people. Eight lists of legends name {n_places} places, most of them in the district of Gera. "
-    f"The folk calendar is divided into {n_calendar} entries, densest in April. For external ailments folk medicine knows {external[4]} remedies. "
+    f"Brückner’s eight lists of legends name {n_places} places, most of them in the district of Gera. "
+    f"The folk calendar yields {n_calendar} entries, most of them in April. For external ailments he lists {external[4]} remedies. "
     f"Dialect samples exist from {n_sample_places} places ({n_texts} texts, around {n_en(round(words_total, -2))} words)."
 )
 print("summary", words(summary_de), words(summary_en))
@@ -411,8 +421,8 @@ print("method", words(method_de), words(method_en))
 
 caveats = [
     bi(
-        "Die Verteilung der Sagenorte spiegelt auch die Sammlung wider: Brückner stützt sich auf R. Eisel in Gera und eigene Wanderungen und nennt die Saalgegend ausdrücklich als noch nicht durchforscht. Aus der Karte lässt sich daher nicht schließen, dass es im Süden weniger Sagen gab.",
-        "The distribution of legend sites also reflects the collecting: Brückner relies on R. Eisel in Gera and his own walks, and expressly calls the Saale region not yet explored. The map therefore does not show that there were fewer legends in the south.",
+        "Die Verteilung der Sagenorte hängt auch davon ab, wie gesammelt wurde: Brückner stützt sich auf R. Eisel in Gera und eigene Wanderungen und nennt die Saalgegend ausdrücklich als noch nicht durchforscht. Aus der Karte lässt sich daher nicht schließen, dass es im Süden weniger Sagen gab.",
+        "The distribution of legend sites also depends on how the legends were collected: Brückner relies on R. Eisel in Gera and his own walks, and expressly calls the Saale region not yet explored. The map therefore does not show that there were fewer legends in the south.",
     ),
     bi(
         "Die Ortslisten sind aus Prosa gewonnen (»bei Pohlen«, »in der Wüstung Kämmera«): Gemeint sind teils Fluren, Gräben oder Wüstungen nahe dem genannten Ort. Mehrfachnennungen eines Ortes in einer Liste zählen einmal. Die Landesteile sind abgeleitet, nicht gedruckt.",
@@ -439,7 +449,15 @@ feature = {
     "findings": [bi(f1_de, f1_en), bi(f2_de, f2_en), bi(f3_de, f3_en)],
     "method": bi(method_de, method_en),
     "caveats": caveats,
-    "datasets": [places, calendar, ailments, remedies, samples, base_places, base_rivers],
+    "datasets": [
+        places,
+        calendar,
+        ailments,
+        drop_columns(remedies, {"use_key"}),
+        samples,
+        base_places,
+        base_rivers,
+    ],
     "charts": [
         {"id": "c1", "dataset": "legend_places", "extra_datasets": ["orte_basis", "fluesse_basis"], "title": title_c1, "caption": caption_c1, "vegalite": c1},
         {"id": "c2", "dataset": "calendar", "title": title_c2, "caption": caption_c2, "vegalite": c2},
@@ -450,7 +468,6 @@ feature = {
         "en": ["legends", "folk calendar", "customs", "folk medicine", "household remedies", "dialect", "witches", "Wild Hunt", "superstition", "Gera"],
     },
     "related": ["gesundheit", "ortsnamen", "dorfleben", "phaenologie"],
-    "generated_by": GENERATED_BY.format(k=len(MERGES)),
     "date": DATE,
 }
 ti = union_issues(*MERGES)

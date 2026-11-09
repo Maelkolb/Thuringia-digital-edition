@@ -4,7 +4,7 @@
 
 Digital scholarly edition of **Georg Brückner: *Volks- und Landeskunde des Fürstenthums Reuß j. L.*, Gera: Köhler 1870** (VIII + 840 pp.), based on the copy of the Bayerische Staatsbibliothek (bsb11005578, IIIF).
 
-The repository contains the canonical edition data, the pipeline that produces it from the automatic transcription, the work of the AI subagents (analyses, place articles, registers, search metadata) and the generator of the static website.
+The repository contains the canonical edition data, the pipeline that produces it from the automatic transcription, the material produced with language models (analyses, place articles, register decisions, page summaries) and the generator of the static website.
 
 ## Quick start
 
@@ -30,17 +30,18 @@ The site is fully static (no server code, no CDN, self-hosted fonts) and can be 
 | facsimile-verified corrections | `pipeline/collect_corrections.py` | `data/corrections/verified.json` (applied by normalize) |
 | entity candidates | `pipeline/entities_prepare.py` (GeoNames DE dump in `source/geonames/`, not in git) | `data/entities/candidates/`, `mentions.jsonl` |
 | entity registry | `pipeline/entities_build.py` (decisions `data/entities/decisions/E*.json`) | `data/entities/registry.json`, `key_map.json` |
+| register polish: bilingual notes, English kinds, typography | `pipeline/entities_polish.py`, run by `entities_build.py` (`data/entities/notes.json`, `kinds_en.json`, `polish_overrides.json`) | `data/entities/registry.json` (in place) |
 | Wikidata via GeoNames | `pipeline/wikidata_enrich.py` | `data/entities/wikidata_by_geonames.json` |
 | place-article coordinates | `pipeline/gazetteer_coords.py` | `data/gazetteer/coords.json` |
-| website, search index, TEI | `pipeline/site/build.py` (`--only-search`, `--only-tei`, `--skip-charts`, `--pages 20,54`) | `site/` |
+| website, search index, TEI | `pipeline/site/build.py` (`--only-search`, `--only-tei`, `--skip-charts`, `--pages 20,54`, `--only-analyses klima-gera`) | `site/` |
 
-Manual editorial decisions (blank pages, restored blocks, promoted headings) are in `data/corrections/manual.json`, each with its reason. Every automatic correction is logged in the page record (`corrections`) and shown on the page.
+Manual editorial decisions (blank pages, restored blocks, promoted headings) are in `data/corrections/manual.json`, each with its reason. Every automatic correction is logged in the page record (`corrections`) and shown on the page. After `normalize.py`, always run `structure.py`, `export_text.py` and `tools/lines/align_lines.py`, in that order. Name forms that later text fixes changed (the Fraktur double hyphen, for example) keep their register link through `data/entities/key_aliases.json`, which the site builder merges into the key map.
 
-## Subagent work
+## Work done with language models
 
-Instructions and validators for the AI subagents are in `docs/agents/` and `tools/`:
+Analyses, place articles, register decisions and page metadata were produced with Claude (Anthropic) from written briefs and checked by validators. The briefs are in `docs/agents/`, the validators in `tools/`:
 
-* analyses (`docs/agents/10_analyses.md`, `schemas/analysis.schema.json`, `tools/validate_analysis.mjs`) → `data/analyses/*.json`, scripts in `data/analyses/_work/<package>/`
+* analyses (`docs/agents/10_analyses.md` and `40_features.md`, `schemas/analysis.schema.json`, `tools/validate_analysis.mjs`) → `data/analyses/*.json`. The 32 analyses on the site are written by the builder scripts in `data/analyses/_work/F1–F8/` from the earlier single analyses in `data/analyses/_archive/`; `bevoelkerung-1647-1867.json` is edited by hand. Run a builder from the repository root, then `python pipeline/site/build.py --only-analyses <id>` to see the result. The chart colours and text styles for light and dark mode are in `tools/vega_theme.mjs`
 * place articles (`20_gazetteer.md`, `tools/validate_gazetteer.py`) → `data/gazetteer/G1–G6.json`
 * registers (`30_entities.md`, `tools/validate_entity_decisions.py`) → `data/entities/decisions/E1–E9.json`
 * search metadata (`00_common.md`, `tools/validate_search_meta.py`) → `data/search/pages/*.json`; curated query expansions `data/search/synonyms.json`

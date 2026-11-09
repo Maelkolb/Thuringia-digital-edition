@@ -353,7 +353,7 @@
    "id": "b3",
    "type": "paragraph",
    "src": 2,
-   "text": "Aus dem sehr reichhaltigen Heilverfahren des Volkes kann hier nur Einiges beispielsweise angemerkt werden. Wärme, die als halber Doctor gilt, Schweißtreiben durch Hollunderthee und schwarzen Kaffee, Abführen und Blutabziehen stehen als Radicalmittel oben an. Aderlaß und Schröpfen geschieht, wenn auch nicht mehr so fleißig und nach fester Kalenderzeit wie sonst, doch immer noch ein bis zwei Mal im Jahre zur Freude der Barbierer und der mit Schröpfbeuteln das Land durchziehenden Barbierweiber. Bei innerlichen Krankheiten gebraucht die Volksmedicin meist Kräutermittel. So zur Abführung: Aloë, Aepfelsaft, Bittersalz, Buttermilch, Kreuzbeeren, Lerchenschwamm, Mäusekoth, Rhabarber, Sennesblätter und Senneslatwerge, außerdem verschiedene Pillen und Tincturen; als Harn treibend: Attigbeeren, Bachbunge, Brennnesselsaft, Petersilienwurzel, Wachholder; als Brustmittel: Alantwurzel, Aronswurz, Bier mit Gänsefett, Brunnkresse, Fenchel, Gerstenabsud, Honig, Kleienabsud, Leberthran, Liebstöckleswurzel, Lungenmoos, Malzabsud, Meerrettig, Ofenblasen=",
+   "text": "Aus dem sehr reichhaltigen Heilverfahren des Volkes kann hier nur Einiges beispielsweise angemerkt werden. Wärme, die als halber Doctor gilt, Schweißtreiben durch Hollunderthee und schwarzen Kaffee, Abführen und Blutabziehen stehen als Radicalmittel oben an. Aderlaß und Schröpfen geschieht, wenn auch nicht mehr so fleißig und nach fester Kalenderzeit wie sonst, doch immer noch ein bis zwei Mal im Jahre zur Freude der Barbierer und der mit Schröpfbeuteln das Land durchziehenden Barbierweiber. Bei innerlichen Krankheiten gebraucht die Volksmedicin meist Kräutermittel. So zur Abführung: Aloë, Aepfelsaft, Bittersalz, Buttermilch, Kreuzbeeren, Lerchenschwamm, Mäusekoth, Rhabarber, Sennesblätter und Senneslatwerge, außerdem verschiedene Pillen und Tincturen; als Harn treibend: Attigbeeren, Bachbunge, Brennnesselsaft, Petersilienwurzel, Wachholder; als Brustmittel: Alantwurzel, Aronswurz, Bier mit Gänsefett, Brunnkresse, Fenchel, Gerstenabsud, Honig, Kleienabsud, Leberthran, Liebstöckleswurzel, Lungenmoos, Malzabsud, Meerrettig, Ofenblasen-",
    "spans": [
     [
      163,
@@ -467,11 +467,21 @@
     ]
    ],
    "continues": true,
+   "word_division": {
+    "word": "Ofenblasenwasser",
+    "part": "Ofenblasen-"
+   },
    "sec": "t1-2-6"
   }
  ],
  "footnotes": [],
- "corrections": [],
+ "corrections": [
+  {
+   "rule": "fraktur_double_hyphen",
+   "before": ", Ofenblasen=",
+   "after": ", Ofenblasen-"
+  }
+ ],
  "provenance": {
   "source": "colab-2026-03",
   "model": "gemini-3-flash-preview",

@@ -14,6 +14,14 @@ bauern = copy.deepcopy(dataset(A_BESITZ, "bauerngueter"))
 bilanz = copy.deepcopy(dataset(A_ERNTE, "bilanz"))
 ritter = copy.deepcopy(dataset(A_REFORM, "rittergueter"))
 loehne = copy.deepcopy(dataset(A_LOHN, "loehne"))
+ENGLISH_TERMS = [("Lower Land", "Unterland"), ("Upper Land", "Oberland"), ("Silbergroschen per day", "silver groschen per day"),
+                 ("Thaler per Morgen", "thalers per Morgen"), ("Thaler per year", "thalers per year")]
+for row in loehne["rows"]:
+    for k, v in enumerate(row):
+        if isinstance(v, str):
+            for old, new in ENGLISH_TERMS:
+                v = v.replace(old, new)
+            row[k] = v
 
 nu = rows_as_dicts(nutzung)
 ba = rows_as_dicts(bauern)
@@ -75,12 +83,12 @@ G, S_, L_ = gp["Gera"], gp["Schleiz"], gp["Lobenstein-Ebersdorf"]
 fub = bil["Land"]
 
 summary = bi(
-    f"Die Vermessung von 1854 verteilt {num_de(round(total_morgen))} Morgen auf Nutzungsarten: Das Unterland ist Ackerland ({d0(G['feld'])} Prozent Feld), das Oberland Wald und Wiese. "
+    f"Die Vermessung von 1854 verteilt {num_de(round(total_morgen))} Morgen auf Nutzungsarten: Das Unterland ist vor allem Ackerland ({d0(G['feld'])} Prozent Feld), das Oberland Wald und Wiese. "
     f"Von {num_de(n_farms)} geschlossenen Bauerngütern hatten {d1(small_pct)} Prozent weniger als 60 Morgen. "
     f"Nach Brückners Modellrechnung überstieg die Getreideerzeugung den Verbrauch im ganzen Land um {d1(fub['ueberschuss_pct'])} Prozent, in Lobenstein-Ebersdorf um {d1(bil['Lobenstein-Ebersdorf']['ueberschuss_pct'])} Prozent.",
-    f"The survey of 1854 divides {num_en(round(total_morgen))} Morgen among kinds of use: the Unterland is arable land ({e0(G['feld'])} percent field), the Oberland woodland and meadow. "
+    f"The survey of 1854 divides {num_en(round(total_morgen))} Morgen among kinds of use: the Unterland is mostly arable land ({e0(G['feld'])} percent), the Oberland woodland and meadow. "
     f"Of {num_en(n_farms)} closed peasant farms {e1(small_pct)} percent had less than 60 Morgen. "
-    f"By Brückner’s model calculation grain production exceeded consumption by {e1(fub['ueberschuss_pct'])} percent in the country as a whole, by {e1(bil['Lobenstein-Ebersdorf']['ueberschuss_pct'])} percent in Lobenstein-Ebersdorf.",
+    f"According to Brückner’s model calculation grain production exceeded consumption by {e1(fub['ueberschuss_pct'])} percent in the country as a whole, by {e1(bil['Lobenstein-Ebersdorf']['ueberschuss_pct'])} percent in Lobenstein-Ebersdorf.",
 )
 
 findings = [
@@ -90,7 +98,7 @@ findings = [
     ),
     bi(
         f"Ein Taglöhner verdiente im Unterland im Sommer {l_sommer['min']} bis {l_sommer['max']} Silbergroschen am Tag, im Oberland mit Kost {l_kost['min']} bis {l_kost['max']}; nach Brückner haben sich Löhne und Pachtgelder in etwa 40 Jahren verdoppelt.",
-        f"A day laborer earned {l_sommer['min']} to {l_sommer['max']} silver groschen a day in summer in the Unterland, {l_kost['min']} to {l_kost['max']} with board in the Oberland; according to Brückner wages and rents doubled in about 40 years.",
+        f"A day labourer earned {l_sommer['min']} to {l_sommer['max']} silver groschen a day in summer in the Unterland, {l_kost['min']} to {l_kost['max']} with board in the Oberland; according to Brückner wages and rents doubled in about 40 years.",
     ),
     bi(
         f"Auf die Quadratmeile umgerechnet betrug der Überschuss in Gera {num_de(round(bil['Gera']['ueberschuss_je_qm']))} Zentner Roggenwert, in Schleiz {num_de(round(bil['Schleiz']['ueberschuss_je_qm']))} und in Lobenstein-Ebersdorf {num_de(round(bil['Lobenstein-Ebersdorf']['ueberschuss_je_qm']))}.",
@@ -108,7 +116,7 @@ method = bi(
     "The size classes of the closed peasant farms (p. 224) are merged into three groups; the limit of 60 Morgen is Brückner’s own distinction between small and large farms. "
     "Production and consumption (p. 227) are Brückner’s estimates for average harvest years in hundredweights of rye value (rye = 1, wheat and pulses 1.29, barley 0.76, oats 0.47, potatoes 0.25), with consumption set at fixed rates per head and animal. "
     "Manorial estates in 1647 and 1867 are on p. 230; for Gera in 1867 Brückner’s correction applies (p. 831: 26 instead of 29). Wages and rents come from the running text on p. 227. "
-    "The figures are taken over unchanged; hectare values are in the datasets, percentages are computed from the printed numbers.",
+    "The figures are used as printed; hectare values are in the datasets, percentages are computed from the printed numbers.",
 )
 
 conversions = [
@@ -124,7 +132,7 @@ caveats = [
     ),
     bi(
         "Die Getreidebilanz ist eine Modellrechnung, keine Erntestatistik. Für Gera weicht die Produktion der Bilanz (275 485 Zentner) von der Summe der Fruchtarten (260 714) ab; beide Werte sind so gedruckt.",
-        "The grain balance is a model calculation, not a harvest statistic. For Gera the production in the balance (275,485 hundredweights) differs from the sum of the crops (260,714); both values are printed so.",
+        "The grain balance is a model calculation, not a harvest statistic. For Gera the production in the balance (275,485 hundredweights) differs from the sum of the crops (260,714); both values are printed that way.",
     ),
     bi(
         "Die Größenklassen zählen geschlossene Bauerngüter, nicht Flächen. Die Landesteil-Zeilen für Grundstücksverbände und ledige Grundstücke ergeben nicht die gedruckten Summen; verwendet sind die Zahlen der Größenklassen.",
@@ -144,6 +152,26 @@ transcription_issues = [
 ]
 
 # ---------------------------------------------------------------- charts
+FITS = "abs(scale('x', datum.x1) - scale('x', datum.x0)) >= 30 ? 1 : 0"
+NARROW = "width < 520"
+
+
+def segment_headers(name_field, first_row, upper_line, right_aligned):
+    wide = {
+        "transform": [{"filter": f"{first_row} && !({NARROW})"}],
+        "mark": {"type": "text", "style": "label", "dy": -27},
+        "encoding": {"x": {"field": "xm", "type": "quantitative"}, "text": {"field": name_field, "type": "nominal"}, "color": {"value": "@ink"}},
+    }
+    narrow = {
+        "transform": [{"filter": f"{first_row} && {NARROW}"}, {"calculate": f"({right_aligned}) ? datum.x1 : datum.x0", "as": "x_label"}],
+        "mark": {"type": "text", "style": "label",
+                 "align": {"expr": f"({right_aligned}) ? 'right' : 'left'"},
+                 "dy": {"expr": f"({upper_line}) ? -41 : -27"}},
+        "encoding": {"x": {"field": "x_label", "type": "quantitative"}, "text": {"field": name_field, "type": "nominal"}, "color": {"value": "@ink"}},
+    }
+    return [wide, narrow]
+
+
 USE_CODE = "datum.nutzung_de == 'Feld' ? 'feld' : datum.nutzung_de == 'Wiese' ? 'wiese' : (datum.nutzung_de == 'Laubholz' || datum.nutzung_de == 'Nadelholz') ? 'wald' : 'uebrig'"
 USE_NR = "datum.gruppe == 'feld' ? 1 : datum.gruppe == 'wiese' ? 2 : datum.gruppe == 'wald' ? 3 : 4"
 
@@ -156,7 +184,7 @@ c1 = {
     ),
     "caption": bi(
         "Anteil der Nutzungsarten an der Fläche der Landesteile nach der Vermessung von 1854, in Prozent. Wald: Laub- und Nadelholz; Übrige: Gärten, Hutung, Gehöfte, Teiche, steuerfreier Boden. Quelle: S. 217.",
-        "Share of the kinds of use in the area of the districts according to the survey of 1854, percent. Wald: deciduous and coniferous woodland; Übrige: gardens, pasture, farmsteads, ponds, tax-exempt land. Source: p. 217.",
+        "Share of the kinds of use in the area of the districts according to the survey of 1854, percent. Woodland: deciduous and coniferous; Other: gardens, pasture, farmsteads, ponds, tax-exempt land. Source: p. 217.",
     ),
     "vegalite": {
         "height": {"step": 46},
@@ -166,6 +194,10 @@ c1 = {
             {"aggregate": [{"op": "sum", "field": "pct", "as": "pct_sum"}], "groupby": ["landestheil_de", "landestheil_en", "lt_nr", "gruppe", "gruppe_nr"]},
             {"stack": "pct_sum", "groupby": ["landestheil_de"], "sort": [{"field": "gruppe_nr", "order": "ascending"}], "offset": "zero", "as": ["x0", "x1"]},
             {"calculate": "(datum.x0 + datum.x1) / 2", "as": "xm"},
+            {"calculate": {
+                "de": "datum.gruppe == 'feld' ? 'Feld' : datum.gruppe == 'wiese' ? 'Wiese' : datum.gruppe == 'wald' ? 'Wald' : 'Übrige'",
+                "en": "datum.gruppe == 'feld' ? 'Arable' : datum.gruppe == 'wiese' ? 'Meadow' : datum.gruppe == 'wald' ? 'Woodland' : 'Other'"},
+             "as": "gruppe_name"},
         ],
         "encoding": {
             "y": {
@@ -187,7 +219,7 @@ c1 = {
                     },
                     "tooltip": [
                         tooltip("landestheil_de", "Landesteil", "District"),
-                        {"field": "gruppe", "type": "nominal", "title": bi("Nutzung (feld, wiese, wald, uebrig)", "Use (feld, wiese, wald, uebrig)")},
+                        {"field": "gruppe_name", "type": "nominal", "title": bi("Nutzung", "Use")},
                         tooltip("pct_sum", "Anteil, %", "Share, %", ".1f"),
                     ],
                 },
@@ -201,17 +233,7 @@ c1 = {
                     "color": {"condition": {"test": "datum.gruppe == 'wiese'", "value": "@paper"}, "value": "@ink"},
                 },
             },
-            {
-                "transform": [
-                    {"filter": "datum.lt_nr == 1"},
-                    {"calculate": {
-                        "de": "datum.gruppe == 'feld' ? 'Feld' : datum.gruppe == 'wiese' ? 'Wiese' : datum.gruppe == 'wald' ? 'Wald' : 'Übrige'",
-                        "en": "datum.gruppe == 'feld' ? 'Field' : datum.gruppe == 'wiese' ? 'Meadow' : datum.gruppe == 'wald' ? 'Woodland' : 'Other'"},
-                     "as": "gruppe_name"},
-                ],
-                "mark": {"type": "text", "style": "label", "dy": -27},
-                "encoding": {"x": {"field": "xm", "type": "quantitative"}, "text": {"field": "gruppe_name", "type": "nominal"}},
-            },
+            *segment_headers("gruppe_name", "datum.lt_nr == 1", "datum.gruppe == 'wiese' || datum.gruppe == 'uebrig'", "datum.gruppe == 'uebrig'"),
         ],
     },
 }
@@ -221,8 +243,8 @@ c2 = {
     "id": "c2",
     "dataset": "bauerngueter",
     "title": bi(
-        f"Schleiz hatte die größten Bauerngüter: {d0(bz['Schleiz']['gross'])} Prozent über 60 Morgen, in Gera {d0(bz['Gera']['gross'])}, in Lobenstein-Ebersdorf {d0(bz['Lobenstein-Ebersdorf']['gross'])}",
-        f"Schleiz had the largest farms: {e0(bz['Schleiz']['gross'])} percent over 60 Morgen, in Gera {e0(bz['Gera']['gross'])}, in Lobenstein-Ebersdorf {e0(bz['Lobenstein-Ebersdorf']['gross'])}",
+        f"In Schleiz hatten {d0(bz['Schleiz']['gross'])} Prozent der Bauerngüter über 60 Morgen, in Gera {d0(bz['Gera']['gross'])}, in Lobenstein-Ebersdorf {d0(bz['Lobenstein-Ebersdorf']['gross'])}",
+        f"In Schleiz {e0(bz['Schleiz']['gross'])} percent of farms had over 60 Morgen, in Gera {e0(bz['Gera']['gross'])}, in Lobenstein-Ebersdorf {e0(bz['Lobenstein-Ebersdorf']['gross'])}",
     ),
     "caption": bi(
         f"Geschlossene Bauerngüter nach Größe, in Prozent der Güter des Landesteils. Brückner nennt Güter über 60 Morgen »große«. Zahl der Güter: Gera {num_de(bz['Gera']['total'])}, Schleiz {num_de(bz['Schleiz']['total'])}, Lobenstein-Ebersdorf {num_de(bz['Lobenstein-Ebersdorf']['total'])}. Quelle: S. 224.",
@@ -240,9 +262,9 @@ c2 = {
             {"stack": "pct", "groupby": ["landestheil_de"], "sort": [{"field": "groesse_nr", "order": "ascending"}], "offset": "zero", "as": ["x0", "x1"]},
             {"calculate": "(datum.x0 + datum.x1) / 2", "as": "xm"},
             {"calculate": {
-                "de": "datum.landestheil_de == 'Gera' ? (datum.groesse == 'klein' ? 'bis 20 Morgen ' : datum.groesse == 'mittel' ? '20 bis 60 Morgen ' : 'über 60 Morgen ') + format(datum.pct, '.1f') : format(datum.pct, '.1f')",
-                "en": "datum.landestheil_de == 'Gera' ? (datum.groesse == 'klein' ? 'up to 20 Morgen ' : datum.groesse == 'mittel' ? '20 to 60 Morgen ' : 'over 60 Morgen ') + format(datum.pct, '.1f') : format(datum.pct, '.1f')"},
-             "as": "segment_label"},
+                "de": "datum.groesse == 'klein' ? 'bis 20 Morgen' : datum.groesse == 'mittel' ? '20 bis 60 Morgen' : 'über 60 Morgen'",
+                "en": "datum.groesse == 'klein' ? 'up to 20 Morgen' : datum.groesse == 'mittel' ? '20 to 60 Morgen' : 'over 60 Morgen'"},
+             "as": "groesse_name"},
         ],
         "encoding": {
             "y": {
@@ -263,20 +285,21 @@ c2 = {
                     },
                     "tooltip": [
                         tooltip("landestheil_de", "Landesteil", "District"),
-                        {"field": "groesse", "type": "nominal", "title": bi("Größe (klein, mittel, gross)", "Size (klein, mittel, gross)")},
+                        {"field": "groesse_name", "type": "nominal", "title": bi("Größe", "Size")},
                         tooltip("n", "Güter", "Farms", ",d"),
                         tooltip("pct", "Anteil, %", "Share, %", ".1f"),
                     ],
                 },
             },
             {
-                "mark": {"type": "text", "style": "label"},
+                "mark": {"type": "text", "style": "label", "opacity": {"expr": FITS}},
                 "encoding": {
                     "x": {"field": "xm", "type": "quantitative"},
-                    "text": {"field": "segment_label", "type": "nominal"},
+                    "text": {"field": "pct", "type": "quantitative", "format": ".1f"},
                     "color": {"condition": {"test": "datum.groesse == 'gross'", "value": "@paper"}, "value": "@ink"},
                 },
             },
+            *segment_headers("groesse_name", "datum.lt_nr == 1", "datum.groesse == 'mittel'", "datum.groesse == 'gross'"),
         ],
     },
 }
@@ -306,7 +329,7 @@ c3 = {
             {
                 "mark": {"type": "rule", "strokeWidth": 3, "color": "@context"},
                 "encoding": {
-                    "x": {"field": "verbrauch", "type": "quantitative", "scale": {"domain": [100000, 300000]}, "axis": {"title": {"de": "Zentner Roggenwert", "en": "Hundredweights of rye value"}, "format": ",d", "values": [100000, 150000, 200000, 250000, 300000]}},
+                    "x": {"field": "verbrauch", "type": "quantitative", "scale": {"domainMin": 100000, "domainMax": {"expr": "max(300000, 100000 + 175485 * width / max(width - 84, 60))"}, "nice": False}, "axis": {"title": {"de": "Zentner Roggenwert", "en": "Hundredweights of rye value"}, "format": ",d", "values": [100000, 150000, 200000, 250000, 300000]}},
                     "x2": {"field": "produktion"},
                 },
             },
@@ -379,7 +402,6 @@ feature = {
         "en": ["agriculture", "land use", "landholding", "peasant farms", "manorial estates", "harvest", "grain", "day wages", "rent", "redemption of dues"],
     },
     "related": ["viehzucht", "wald-holz", "dorfleben", "berufe-gewerbe"],
-    "generated_by": "Claude Sonnet 5.5 (Agent F5), aus 6 Einzelauswertungen zusammengeführt",
     "date": "2026-10-02",
 }
 

@@ -440,7 +440,7 @@
      "role": "body",
      "cells": [
       {
-       "text": "Schnitt=, Putz= u. Modewaarenhändler",
+       "text": "Schnitt-, Putz- u. Modewaarenhändler",
        "spans": []
       },
       {
@@ -497,7 +497,7 @@
      "role": "body",
      "cells": [
       {
-       "text": "Strumpf= u. Zwirnhändl.",
+       "text": "Strumpf- u. Zwirnhändl.",
        "spans": []
       },
       {
@@ -674,7 +674,7 @@
      "role": "body",
      "cells": [
       {
-       "text": "Buch=, Kunst= u. Musikalienhändler",
+       "text": "Buch-, Kunst- u. Musikalienhändler",
        "spans": []
       },
       {
@@ -845,7 +845,7 @@
      "role": "body",
      "cells": [
       {
-       "text": "Schenk= u. Gastwirthe",
+       "text": "Schenk- u. Gastwirthe",
        "spans": []
       },
       {
@@ -1177,7 +1177,7 @@
      "13"
     ],
     [
-     "Schnitt=, Putz= u. Modewaarenhändler",
+     "Schnitt-, Putz- u. Modewaarenhändler",
      "49",
      "26",
      "22",
@@ -1192,7 +1192,7 @@
      "133"
     ],
     [
-     "Strumpf= u. Zwirnhändl.",
+     "Strumpf- u. Zwirnhändl.",
      "10",
      "—",
      "—",
@@ -1237,7 +1237,7 @@
      "85"
     ],
     [
-     "Buch=, Kunst= u. Musikalienhändler",
+     "Buch-, Kunst- u. Musikalienhändler",
      "11",
      "14",
      "11",
@@ -1282,7 +1282,7 @@
      "78"
     ],
     [
-     "Schenk= u. Gastwirthe",
+     "Schenk- u. Gastwirthe",
      "63",
      "52",
      "125",
@@ -1349,7 +1349,7 @@
    "id": "b2",
    "type": "paragraph",
    "src": 1,
-   "text": "Vollkommen genaue Werthschätzungen fehlen ebensowohl bezüglich des inländischen Verkehrs als auch bezüglich des binnenländischen und überseeischen Handels, konnten aber auch weder früher, wo der Handel in einfacheren und langsameren Bahnen sich bewegte, noch können sie heute gegeben werden, wo der Verkehr durch Besserung der Straßen und Posten, durch Gewerbefreiheit und Freizügigkeit und durch die Einflüsse des Zollvereins und der Eisenbahnen einen belebteren Gang und einen bedeutenden Aufschwung, besonders im Gebiete der Eisenbahn gewonnen, hat. Der inländische Verkehr, der zwischen den Städten und dem Flachlande fast täglich, besonders aber an den Wochen=, Jahr=, Getreide= und Viehmärkten und Vogelschießen stattfindet und die landwirthschaftlichen Producte zur Stadt und Colonialwaaren und städtische Fabrikate auf das Land überführt, hat, trotzdem daß sich Kleinhändler auf dem Flachlande etablirt haben und daß der ländliche Consument jetzt jeder Zeit seine Bedürfnisse aus den großen Handelsquellen beziehen kann, doch mehr zu= als abgenommen und dies im Verhältniß der Volkszunahme. Die stärksten Vermittelungspunkte dieses Verkehrs sind Gera und Schleiz, wo an den Hauptmarkttagen im Durchschnitt 50 bis 150 Buden aufgestellt werden. Der Gesammtwerth des Productenumtausches zwischen den Städten und dem Lande ist nicht geringer anzuschlagen als der des binnenländischen oder überseeischen Handels. Die Aus= und Einfuhr im binnenländischen Handel erstreckt sich von den kleinsten Producten der Landwirthschaft und der Industrie bis zu den größten Erzeugnissen dieser Volksthätigkeiten; der überseeische Handel dagegen arbeitet nur im Großen und führt hauptsächlich Rohwaaren ein und Fabrikate aus. An dem binnenländischen Handel nehmen alle Städte und das Flachland Theil, den überseeischen betreibt",
+   "text": "Vollkommen genaue Werthschätzungen fehlen ebensowohl bezüglich des inländischen Verkehrs als auch bezüglich des binnenländischen und überseeischen Handels, konnten aber auch weder früher, wo der Handel in einfacheren und langsameren Bahnen sich bewegte, noch können sie heute gegeben werden, wo der Verkehr durch Besserung der Straßen und Posten, durch Gewerbefreiheit und Freizügigkeit und durch die Einflüsse des Zollvereins und der Eisenbahnen einen belebteren Gang und einen bedeutenden Aufschwung, besonders im Gebiete der Eisenbahn gewonnen, hat. Der inländische Verkehr, der zwischen den Städten und dem Flachlande fast täglich, besonders aber an den Wochen-, Jahr-, Getreide- und Viehmärkten und Vogelschießen stattfindet und die landwirthschaftlichen Producte zur Stadt und Colonialwaaren und städtische Fabrikate auf das Land überführt, hat, trotzdem daß sich Kleinhändler auf dem Flachlande etablirt haben und daß der ländliche Consument jetzt jeder Zeit seine Bedürfnisse aus den großen Handelsquellen beziehen kann, doch mehr zu- als abgenommen und dies im Verhältniß der Volkszunahme. Die stärksten Vermittelungspunkte dieses Verkehrs sind Gera und Schleiz, wo an den Hauptmarkttagen im Durchschnitt 50 bis 150 Buden aufgestellt werden. Der Gesammtwerth des Productenumtausches zwischen den Städten und dem Lande ist nicht geringer anzuschlagen als der des binnenländischen oder überseeischen Handels. Die Aus- und Einfuhr im binnenländischen Handel erstreckt sich von den kleinsten Producten der Landwirthschaft und der Industrie bis zu den größten Erzeugnissen dieser Volksthätigkeiten; der überseeische Handel dagegen arbeitet nur im Großen und führt hauptsächlich Rohwaaren ein und Fabrikate aus. An dem binnenländischen Handel nehmen alle Städte und das Flachland Theil, den überseeischen betreibt",
    "spans": [
     [
      327,
@@ -1402,6 +1402,61 @@
  ],
  "footnotes": [],
  "corrections": [
+  {
+   "rule": "fraktur_double_hyphen",
+   "before": "hnitt=, Putz= u. Modewaare",
+   "after": "hnitt=, Putz- u. Modewaa"
+  },
+  {
+   "rule": "fraktur_double_hyphen",
+   "before": "Schnitt=, Putz- u. M",
+   "after": "Schnitt-, Putz- u."
+  },
+  {
+   "rule": "fraktur_double_hyphen",
+   "before": "Strumpf= u. Zwirnhänd",
+   "after": "Strumpf- u. Zwirnhä"
+  },
+  {
+   "rule": "fraktur_double_hyphen",
+   "before": "Buch=, Kunst= u. Musikalie",
+   "after": "Buch=, Kunst- u. Musikal"
+  },
+  {
+   "rule": "fraktur_double_hyphen",
+   "before": "Buch=, Kunst- u.",
+   "after": "Buch-, Kunst- u."
+  },
+  {
+   "rule": "fraktur_double_hyphen",
+   "before": "Schenk= u. Gastwirth",
+   "after": "Schenk- u. Gastwir"
+  },
+  {
+   "rule": "fraktur_double_hyphen",
+   "before": "els. Die Aus= und Einfuhr",
+   "after": "els. Die Aus- und Einfuh"
+  },
+  {
+   "rule": "fraktur_double_hyphen",
+   "before": "doch mehr zu= als abgenomm",
+   "after": "doch mehr zu- als abgeno"
+  },
+  {
+   "rule": "fraktur_double_hyphen",
+   "before": "r=, Getreide= und Viehmärk",
+   "after": "r=, Getreide- und Viehmä"
+  },
+  {
+   "rule": "fraktur_double_hyphen",
+   "before": "ochen=, Jahr=, Getreide-",
+   "after": "ochen=, Jahr-, Getreide-"
+  },
+  {
+   "rule": "fraktur_double_hyphen",
+   "before": "n den Wochen=, Jahr-, Get",
+   "after": "n den Wochen-, Jahr-, Ge"
+  },
   {
    "rule": "table_multirow_header",
    "rows": 2,

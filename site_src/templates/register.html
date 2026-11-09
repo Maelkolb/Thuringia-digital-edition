@@ -10,7 +10,7 @@
       <p class="lede">{{ t(intro_de, intro_en) }} {{ t(num(n, 'de') ~ ' Einträge.', num(n, 'en') ~ ' entries.') }}</p>
       <div class="reg-tools">
         <input type="search" {{ i18n('placeholder', 'Einträge filtern', 'Filter entries') }} {{ i18n('aria-label', 'Einträge filtern', 'Filter entries') }} data-reg-filter>
-        {% if kinds %}<select data-reg-kind {{ i18n('aria-label', 'Art', 'Kind') }}><option value="" data-de-text="Alle Arten" data-en-text="All kinds">Alle Arten</option>{% for k in kinds %}<option>{{ k|e }}</option>{% endfor %}</select>{% endif %}
+        {% if kinds %}<select data-reg-kind {{ i18n('aria-label', 'Art', 'Kind') }}><option value="" data-de-text="Alle Arten" data-en-text="All kinds">Alle Arten</option>{% for k, k_en in kinds %}<option value="{{ k|e }}" data-de-text="{{ k|e }}" data-en-text="{{ k_en|e }}">{{ k|e }}</option>{% endfor %}</select>{% endif %}
         <span class="count" data-reg-count aria-live="polite"></span>
       </div>
       <nav class="letters" {{ i18n('aria-label', 'Alphabet', 'Alphabet') }}>{% for l in letters %}<a href="#L-{{ l }}">{{ l }}</a>{% endfor %}</nav>

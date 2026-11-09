@@ -1,11 +1,14 @@
 """Chart specs for the feature `bergbau` (no data, only Vega-Lite)."""
 
+FATE_RANK = "datum.fate_group == 'In Betrieb' ? 0 : (datum.fate_group == 'Aufgegeben' ? 2 : 1)"
+GROUP_HEADERS = "['Noch in Betrieb', 'Umgenutzt', 'Aufgegeben', 'Still in operation', 'Converted', 'Abandoned']"
+NARROW = "width < 330"
+
 c1 = {
     "height": {"step": 18},
     "transform": [
-        {"calculate": "datum.fate_group == 'In Betrieb' ? 0 : (datum.fate_group == 'Aufgegeben' ? 2 : 1)", "as": "fate_rank"},
+        {"calculate": FATE_RANK, "as": "fate_rank"},
         {"calculate": "datum.fate_rank * 10000 + datum.start_year + datum.plot_end / 10000", "as": "sortkey"},
-        {"calculate": "datum.fate_rank == 0 ? 'a' : (datum.fate_rank == 1 ? 'b' : 'c')", "as": "fate_cls"},
         {"calculate": {
             "de": "{'In Betrieb': 'in Betrieb', 'Aufgegeben': 'aufgegeben', 'Gerberei': 'Gerberei', 'Mühle/Ziegelei': 'Mühle oder Ziegelei', 'Textilfabrik': 'Textilfabrik'}[datum.fate_group]",
             "en": "{'In Betrieb': 'in operation', 'Aufgegeben': 'abandoned', 'Gerberei': 'tannery', 'Mühle/Ziegelei': 'mill or brickworks', 'Textilfabrik': 'textile mill'}[datum.fate_group]"},
@@ -13,18 +16,30 @@ c1 = {
         {"calculate": {"de": "datum.note_de", "en": "datum.note_en"}, "as": "note"},
     ],
     "encoding": {
-        "y": {"field": "name", "type": "nominal", "sort": {"field": "sortkey", "order": "ascending"},
-              "axis": {"title": None, "labelLimit": 320}},
+        "y": {"field": "name", "type": "nominal", "sort": {"field": "sortkey", "op": "min", "order": "ascending"},
+              "axis": {"title": None, "labelLimit": 320,
+                       "labelFontWeight": {"condition": {"test": f"indexof({GROUP_HEADERS}, datum.value) >= 0", "value": 600}, "value": 400},
+                       "labelColor": {"condition": {"test": f"indexof({GROUP_HEADERS}, datum.value) >= 0", "value": "@ink"}, "value": "@ink2"}}},
+        "x": {"field": "start_year", "type": "quantitative",
+              "scale": {"domainMin": 1640, "domainMax": {"expr": NARROW + " ? 1872 : max(1930, 1640 + 216 * width / max(width - 126, 60))"}, "nice": False},
+              "axis": {"format": "d", "values": [1650, 1700, 1750, 1800, 1850], "title": None}},
+        "color": {"field": "fate_rank", "type": "nominal", "legend": None,
+                  "scale": {"domain": [0, 1, 2], "range": ["@accent", "@accent2", "@context"]}},
     },
     "layer": [
+        {"transform": [
+            {"aggregate": [{"op": "count", "as": "n"}], "groupby": ["fate_rank"]},
+            {"calculate": {"de": "['Noch in Betrieb', 'Umgenutzt', 'Aufgegeben'][datum.fate_rank]",
+                           "en": "['Still in operation', 'Converted', 'Abandoned'][datum.fate_rank]"}, "as": "name"},
+            {"calculate": "datum.fate_rank * 10000", "as": "sortkey"},
+            {"calculate": "1648", "as": "start_year"},
+            {"calculate": {"de": "datum.n + ' Werke'", "en": "datum.n + ' works'"}, "as": "count_label"},
+        ],
+         "mark": {"type": "text", "align": "left", "style": "label-muted"},
+         "encoding": {"text": {"field": "count_label"}, "color": {"value": "@muted"}}},
         {"mark": {"type": "bar", "size": 9, "cornerRadius": 2},
          "encoding": {
-             "x": {"field": "start_year", "type": "quantitative",
-                   "scale": {"domain": [1640, 1960]},
-                   "axis": {"format": "d", "values": [1650, 1700, 1750, 1800, 1850], "title": None}},
              "x2": {"field": "plot_end"},
-             "color": {"field": "fate_cls", "type": "nominal", "legend": None,
-                       "scale": {"domain": ["a", "b", "c"], "range": ["@accent", "@accent2", "@context"]}},
              "tooltip": [
                  {"field": "name", "title": {"de": "Werk", "en": "Works"}},
                  {"field": "place", "title": {"de": "Ort", "en": "Place"}},
@@ -33,8 +48,9 @@ c1 = {
                  {"field": "end_label", "title": {"de": "Später", "en": "Afterwards"}},
                  {"field": "note", "title": {"de": "Brückner", "en": "Brückner"}},
              ]}},
-        {"mark": {"type": "text", "align": "left", "dx": 6, "style": "label-muted"},
-         "encoding": {"x": {"field": "plot_end", "type": "quantitative"}, "text": {"field": "end_label"}}},
+        {"transform": [{"filter": "datum.fate_rank == 1"}],
+         "mark": {"type": "text", "align": "left", "dx": 6, "style": "label-muted", "opacity": {"expr": NARROW + " ? 0 : 1"}},
+         "encoding": {"x": {"field": "plot_end", "type": "quantitative"}, "text": {"field": "end_label"}, "color": None}},
     ],
 }
 
@@ -96,8 +112,8 @@ c3 = {
     "encoding": {
         "y": {"field": "place", "type": "nominal", "sort": {"field": "ctr_1857", "order": "descending"},
               "axis": {"title": None, "labelLimit": 220}},
-        "x": {"type": "quantitative", "scale": {"domain": [0, 6200], "nice": False},
-              "axis": {"format": ",d", "values": [0, 1000, 2000, 3000, 4000, 5000, 6000],
+        "x": {"type": "quantitative", "scale": {"domainMin": 0, "domainMax": {"expr": "max(6200, 5550 * width / max(width - 52, 60))"}, "nice": False},
+              "axis": {"format": ",d", "values": [0, 2000, 4000, 6000],
                        "title": {"de": "Kochsalz in Zentnern (Ctr.)", "en": "Table salt in hundredweight (Ctr.)"}}},
     },
     "layer": [
@@ -105,10 +121,10 @@ c3 = {
          "encoding": {"x": {"field": "ctr_1857"}, "x2": {"field": "v63"},
                       "color": {"field": "kind", "type": "nominal", "legend": None,
                                 "scale": {"domain": ["a", "b"], "range": ["@context", "@negative"]}}}},
-        {"mark": {"type": "point", "filled": True, "size": 60, "color": "@muted"},
+        {"mark": {"type": "point", "filled": True, "size": 60, "color": "@muted", "opacity": 1},
          "encoding": {"x": {"field": "ctr_1857"}, "tooltip": _tip_salt}},
         {"transform": [{"filter": "datum.kind == 'a'"}],
-         "mark": {"type": "point", "filled": True, "size": 70, "color": "@accent"},
+         "mark": {"type": "point", "filled": True, "size": 70, "color": "@accent", "opacity": 1},
          "encoding": {"x": {"field": "ctr_1863"}, "tooltip": _tip_salt}},
         {"transform": [{"filter": "datum.kind == 'b'"}],
          "mark": {"type": "text", "align": "left", "dx": 10, "color": "@negative", "fontWeight": 600, "fontSize": 11},

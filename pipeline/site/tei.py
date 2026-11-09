@@ -175,7 +175,8 @@ def header(site: dict, scope: str, extra_source: str = "") -> str:
       <author><persName ref="https://d-nb.info/gnd/119209217">Brückner, Georg</persName> (1800–1881)</author>
       {''.join(f'<editor><persName>{xesc(n)}</persName></editor>' for n in site['editors'])}
       <respStmt><resp>Automatische Transkription und Entitätenerkennung</resp><name>Google Gemini 3 Flash (2026)</name></respStmt>
-      <respStmt><resp>Layout-Korrektur, Register, Auswertungen, Edition</resp>{''.join(f'<persName>{xesc(n)}</persName>' for n in site['editors'])}<name>Claude (Anthropic)</name></respStmt>
+      <respStmt><resp>Layout-Korrektur, Register, Auswertungen, Edition</resp>{''.join(f'<persName>{xesc(n)}</persName>' for n in site['editors'])}</respStmt>
+      <respStmt><resp>Registerbereinigung, Ortsartikel und Auswertungen (Sprachmodell)</resp><name>Claude (Anthropic)</name></respStmt>
     </titleStmt>
     <editionStmt><edition n="{site['version']}">Version {site['version']}, <date when="{site['date']}">{site['date']}</date></edition></editionStmt>
     <publicationStmt>
@@ -196,9 +197,9 @@ def header(site: dict, scope: str, extra_source: str = "") -> str:
     </sourceDesc>
   </fileDesc>
   <encodingDesc>
-    <projectDesc><p>Digitale Edition auf Grundlage einer automatischen Transkription des BSB-Digitalisats (Gemini 3 Flash, 2026), regelbasiert korrigiert und strukturiert; Register durch KI-Agenten bereinigt und mit Normdaten verknüpft.</p></projectDesc>
+    <projectDesc><p>Digitale Edition auf Grundlage einer automatischen Transkription des BSB-Digitalisats (Gemini 3 Flash, 2026), regelbasiert korrigiert und strukturiert; Register, Ortsartikel und Auswertungen mit dem Sprachmodell Claude (Anthropic) erarbeitet, Register mit Normdaten verknüpft.</p></projectDesc>
     <editorialDecl>
-      <normalization><p>Historische Schreibung beibehalten; Umlaute modern (ä, ö, ü statt e-Superskript); langes s als s; Ligaturen aufgelöst.</p></normalization>
+      <normalization><p>Historische Schreibung beibehalten; Umlaute modern (ä, ö, ü statt e-Superskript); langes s als s; Ligaturen aufgelöst; Frakturdoppelstrich als Bindestrich.</p></normalization>
       <hyphenation eol="none"><p>Silbentrennung am Zeilenende aufgelöst; am Seitenende erhaltene Trennungen sind über das Seitenende hinweg in einem Absatz zusammengeführt.</p></hyphenation>
       <correction><p>Layoutfehler der automatischen Erkennung (Tabellenköpfe, Bogensignaturen, Trennstriche) sind regelbasiert korrigiert und je Seite protokolliert. Inhaltliche Druckfehler sind nicht korrigiert.</p></correction>
     </editorialDecl>
@@ -213,6 +214,8 @@ def standoff(tei: TEI) -> str:
     for eid in sorted(tei.used):
         e = tei.entities[eid]
         groups[e["class"]].append(e)
+    if not tei.used:
+        return ""
     out = ["<standOff>"]
 
     def idnos(e):
@@ -237,7 +240,8 @@ def standoff(tei: TEI) -> str:
     if groups["person"]:
         out.append("<listPerson>")
         for e in groups["person"]:
-            note = f'<note>{xesc(e.get("description_de") or e.get("note") or "")}</note>' if (e.get("description_de") or e.get("note")) else ""
+            text = e.get("description_de") or e.get("note_de")
+            note = f'<note>{xesc(text)}</note>' if text else ""
             out.append(f'<person xml:id="{xml_id(e["id"])}"><persName>{xesc(e["label"])}</persName>{note}{idnos(e)}</person>')
         out.append("</listPerson>")
     if groups["organisation"]:

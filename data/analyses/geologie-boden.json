@@ -178,13 +178,13 @@
   }
  ],
  "summary": {
-  "de": "In der geognostischen Übersicht beschreibt Prof. Liebe die 13 Gesteinsformationen des Landes: den Boden, den ihre Verwitterung liefert, die nutzbaren Stoffe und die Versteinerungen. Grünstein und Diabas tragen die besten Böden, Eisenerz ist der am weitesten verbreitete Rohstoff, und aus dem Zechstein von Gera zählt Liebe 95 Arten von Versteinerungen.",
-  "en": "In the geological overview Prof. Liebe describes the 13 rock formations of the country: the soil their weathering yields, the usable materials and the fossils. Greenstone and diabase carry the best soils, iron ore is the most widespread resource, and Liebe counts 95 fossil species from the Zechstein of Gera."
+  "de": "In seiner geognostischen Übersicht für das Buch beschreibt Prof. Liebe die 13 Gesteinsformationen des Landes mit ihren Böden, nutzbaren Stoffen und Versteinerungen. Grünstein und Diabas verwittern zu den besten Böden, Eisenerz ist der am weitesten verbreitete Rohstoff, und aus dem Zechstein von Gera zählt Liebe 95 Arten von Versteinerungen.",
+  "en": "In the geological survey he wrote for the book, Professor Liebe describes the country’s 13 rock formations with their soils, usable materials and fossils. Greenstone and diabase weather into the best soils, iron ore is the most widespread resource, and Liebe counts 95 fossil species in the Zechstein of Gera."
  },
  "findings": [
   {
    "de": "Alle 6 Grünstein-, Diabas- und Tuffeinheiten liefern gute bis sehr gute Böden (Mittel 4,8), die Schiefer im Mittel nur 3,0. Im Mittel der Einheiten liegt das Unterland mit 3,0 unter dem Oberland mit 3,8.",
-   "en": "All 6 greenstone, diabase and tuff units yield good to very good soils (mean 4.8), the slates only 3.0. On average over the units the Unterland, at 3.0, lies below the Oberland, at 3.8."
+   "en": "All 6 greenstone, diabase and tuff units yield good to very good soils (mean 4.8), the slates only 3.0. Averaged over the units, the Unterland (3.0) ranks below the Oberland (3.8)."
   },
   {
    "de": "Eisenerz nennt Liebe in 7 der 13 Formationen, 6 davon im Oberland. Antimonerz, Alaunschiefer und Dachschiefer kommen nur dort vor, Gips und Salz nur im Unterland.",
@@ -197,7 +197,7 @@
  ],
  "method": {
   "de": "Grundlage ist die geognostische Übersicht (S. 25 bis 41), die Prof. Liebe für Brückners Buch verfasst hat. Für jede Gesteinseinheit wurde Liebes Satz über den Verwitterungsboden wörtlich übernommen und einer Stufe zugeordnet: 5 = sehr fruchtbar, ausgezeichnet, trefflich; 4 = fruchtbar, gut geeignet; 3 = mittelmäßig, von mittlerer Güte; 2 = wenig fruchtbar, dürftig; 1 = unfruchtbar (kommt nicht vor). Wo ein Satz Unterschiede macht, wurde die Mitte gewählt und die Spanne im Bemerkungsfeld festgehalten. Die Gesteinsgruppen sind editorisch. Für die Rohstoffe wurde jede genannte Kombination aus Formation und nutzbarem Stoff einmal erfasst, mit wörtlichem Beleg und Orten; die Stoffgruppen und die Nutzungsstufen (genutzt, früher genutzt, nur vorkommend) ordnen Liebes Wortlaut ein. Die Zahlen der Versteinerungen stammen aus Liebes Aufzählungen auf S. 38 (Zechstein) und S. 35 (Clymenienkalk); Zahlwörter wurden in Ziffern gesetzt, »über 7« als 7 gezählt. Die Zuordnung zu Klassen (Muscheln, Armfüßer, Kopffüßer) ist editorisch.",
-  "en": "The basis is the geological overview (pp. 25 to 41) that Prof. Liebe wrote for Brückner’s book. For each rock unit Liebe’s sentence about the weathering soil was taken verbatim and assigned a grade: 5 = very fertile, excellent, splendid; 4 = fertile, well suited; 3 = mediocre, of medium quality; 2 = poorly fertile, meager; 1 = barren (does not occur). Where a sentence distinguishes varieties, the middle was chosen and the range recorded in the remark field. The rock groups are editorial. For the resources every named combination of formation and usable material was recorded once, with a verbatim piece of evidence and the places; the resource groups and the use grades (worked, formerly worked, merely occurring) classify Liebe’s wording. The fossil counts come from Liebe’s lists on p. 38 (Zechstein) and p. 35 (Clymenia limestone); number words were set in digits, “over 7” was counted as 7. The assignment to classes (bivalves, brachiopods, cephalopods) is editorial."
+  "en": "The basis is the geological overview (pp. 25 to 41) that Prof. Liebe wrote for Brückner’s book. For each rock unit Liebe’s sentence about the weathering soil was taken verbatim and assigned a grade: 5 = very fertile, excellent, splendid; 4 = fertile, well suited; 3 = mediocre, of medium quality; 2 = poorly fertile, meagre; 1 = barren (does not occur). Where a sentence distinguishes varieties, the middle was chosen and the range recorded in the remark field. The rock groups are editorial. For the resources every named combination of formation and usable material was recorded once, with a verbatim piece of evidence and the places; the resource groups and the use grades (worked, formerly worked, merely occurring) classify Liebe’s wording. The fossil counts come from Liebe’s lists on p. 38 (Zechstein) and p. 35 (Clymenia limestone); number words were set in digits, “over 7” was counted as 7. The assignment to classes (bivalves, brachiopods, cephalopods) is editorial."
  },
  "caveats": [
   {
@@ -271,7 +271,7 @@
      "type": "string",
      "unit": null,
      "derived": true,
-     "note": "slate = Schiefer/Grauwacke, greenstone = Grünstein/Diabas/Tuff, limestone = Kalk, crystalline = Gneis/umgewandelter Schiefer, clastic = Sand, Sandstein, Gerölle, Ton; editorisch"
+     "note": "editorische Gruppierung der Gesteinseinheiten"
     },
     {
      "name": "formation",
@@ -338,16 +338,6 @@
      },
      "type": "string",
      "unit": null
-    },
-    {
-     "name": "rang_gueteliste",
-     "label": {
-      "de": "Rang in der Güteliste (Stufe absteigend, dann nach Alter)",
-      "en": "Rank in the quality list (grade descending, then by age)"
-     },
-     "type": "integer",
-     "unit": null,
-     "derived": true
     }
    ],
    "rows": [
@@ -355,351 +345,326 @@
      1,
      "1a",
      "Oberland",
-     "slate",
+     "Schiefer, Grauwacke",
      "Kambrische Schiefer, Sandsteine",
      "Cambrian slates, sandstones",
      "wohl locker, aber nicht warm, jedoch der Vegetation nicht ungünstig",
      3,
      "uneinheitlich: dünnschieferig besser, sandsteinartig »dürftig«, als Quarzit »arm mager«",
      "26",
-     "b2",
-     13
+     "b2"
     ],
     [
      2,
      "1b",
      "Oberland",
-     "crystalline",
+     "Gneis, Talkschiefer",
      "Talkschiefer von Hirschberg (Kambrium)",
      "Talcose schist of Hirschberg (Cambrian)",
      "so liefert es eine sehr gute Ackererde",
      5,
      "Felder meist steil, daher der Auslaugung ausgesetzt",
      "26",
-     "b3",
-     1
+     "b3"
     ],
     [
      3,
      "1c",
      "Oberland",
-     "crystalline",
+     "Gneis, Talkschiefer",
      "Quarzreicher Gneis bei Göttengrün",
      "Quartz-rich gneiss near Göttengrün",
      "der Vegetation außerordentlich günstig",
      5,
      "",
      "26",
-     "b5",
-     2
+     "b5"
     ],
     [
      4,
      "2a",
      "Oberland",
-     "slate",
+     "Schiefer, Grauwacke",
      "Älterer Dachschiefer (unteres Silur)",
      "Older roofing slate (Lower Silurian)",
      "einen ziemlich kalten, thonigen Boden von mittlerer Fruchtbarkeit",
      3,
      "",
      "27",
-     "b4",
-     14
+     "b4"
     ],
     [
      5,
      "2b",
      "Oberland",
-     "greenstone",
+     "Grünstein, Diabas, Tuff",
      "Grünsteinlager im unteren Silur",
      "Greenstone sheets in the Lower Silurian",
      "einen trefflichen lichtgefärbten lockeren Boden",
      5,
      "",
      "28",
-     "b2",
-     3
+     "b2"
     ],
     [
      6,
      "2d",
      "Oberland",
-     "crystalline",
+     "Gneis, Talkschiefer",
      "Gneisartiges Gestein bei Rothenacker",
      "Gneiss-like rock near Rothenacker",
      "der Vegetation nicht sehr günstig zu sein scheint",
      2,
      "",
      "28",
-     "b4",
-     21
+     "b4"
     ],
     [
      7,
      "3a",
      "Oberland",
-     "slate",
+     "Schiefer, Grauwacke",
      "Kieselschiefer (mittleres Silur)",
      "Siliceous slate (Middle Silurian)",
      "so giebt er einen wenig fruchtbaren Boden",
      2,
      "durch beigemengten Grünstein oder gute Bewirtschaftung ertragfähig",
      "28",
-     "b5",
-     22
+     "b5"
     ],
     [
      8,
      "3b",
      "Oberland",
-     "slate",
+     "Schiefer, Grauwacke",
      "Weicher Schiefer (mittleres Silur)",
      "Soft slate (Middle Silurian)",
      "einen hellgrauen, kalten, thonigen Boden von mittler Güte für Feld- und Wiesenkultur, aber sehr günstig für Nadelholzbestände",
      3,
      "für Nadelwald sehr günstig",
      "30",
-     "b1",
-     15
+     "b1"
     ],
     [
      9,
      "3c",
      "Oberland",
-     "greenstone",
+     "Grünstein, Diabas, Tuff",
      "Grünsteine im mittleren Silur",
      "Greenstones in the Middle Silurian",
      "Er verwittert zu einem hellgelben, fruchtbaren, lehmigen Boden",
      4,
      "",
      "30",
-     "b2",
-     9
+     "b2"
     ],
     [
      10,
      "4a",
      "Oberland",
-     "slate",
+     "Schiefer, Grauwacke",
      "Tentaculitenschiefer (oberes Silur)",
      "Tentaculite slate (Upper Silurian)",
      "einen gelblichen bis bräunlichen Boden von sehr mittelmäßiger Fruchtbarkeit",
      3,
      "durch daneben anstehende Grünsteine bedeutend gehoben",
      "31",
-     "b1",
-     16
+     "b1"
     ],
     [
      11,
      "4b",
      "Oberland",
-     "greenstone",
+     "Grünstein, Diabas, Tuff",
      "Titaneisendiabas (Tentaculitenformation)",
      "Titaniferous diabase (Tentaculite formation)",
      "einen lockeren warmen, röthlich gelb-braunen Boden von großer Fruchtbarkeit",
      5,
      "",
      "31",
-     "b2",
-     4
+     "b2"
     ],
     [
      12,
      "5a",
      "Oberland",
-     "slate",
+     "Schiefer, Grauwacke",
      "Phyllodocitesschiefer",
      "Phyllodocite slate",
      "eignet sich der Boden ziemlich gut, weit besser aber",
      3,
      "etwas kalter, thoniger Boden; für Wald weit besser als für Acker",
      "32",
-     "b3",
-     17
+     "b3"
     ],
     [
      13,
      "6a",
      "Oberland",
-     "greenstone",
+     "Grünstein, Diabas, Tuff",
      "Untere devonische Tufflager",
      "“Lower Devonian” tuff beds",
      "einen rostbraunen, sehr fruchtbaren, lockeren und warmen",
      5,
      "Brückners Bezeichnung; auf Höhen zu locker und trocken",
      "33",
-     "b4",
-     5
+     "b4"
     ],
     [
      14,
      "6b",
      "Oberland",
-     "greenstone",
+     "Grünstein, Diabas, Tuff",
      "Diabase der Tuffformation",
      "Diabases of the tuff formation",
      "Alle diese Diabase liefern einen ebenso günstigen Boden wie die älteren Diabase",
      5,
      "",
      "34",
-     "b1",
-     6
+     "b1"
     ],
     [
      15,
      "7a",
      "Oberland",
-     "slate",
+     "Schiefer, Grauwacke",
      "Cypridinenschiefer",
      "Cypridina slate",
      "zu einem schweren kalten thonigen Boden von mittler Fruchtbarkeit",
      3,
      "",
      "34",
-     "b3",
-     18
+     "b3"
     ],
     [
      16,
      "7b",
      "Oberland",
-     "limestone",
+     "Kalk, Zechstein",
      "Clymenienkalk",
      "Clymenia limestone",
      "einen bräunlichen, trockenen und hitzigen Boden … Wo Schiefer und Kalk gemischt den Boden bilden, da ist letzterer sehr fruchtbar",
      4,
      "für Futterkräuter ausgezeichnet; mit Schiefer gemischt sehr fruchtbar",
      "35",
-     "b1",
-     10
+     "b1"
     ],
     [
      17,
      "7c",
      "Oberland",
-     "greenstone",
+     "Grünstein, Diabas, Tuff",
      "Kalkdiabase",
      "Lime diabases",
      "einen bräunlichen, lockeren, warmen, sehr fruchtbaren Boden",
      5,
      "",
      "36",
-     "b1",
-     7
+     "b1"
     ],
     [
      18,
      "8",
      "Oberland",
-     "slate",
+     "Schiefer, Grauwacke",
      "Kulm (Grauwacke, Schiefer)",
      "Culm (greywacke, slate)",
      "etwas schweren und kalten, aber fruchtbaren Boden",
      4,
      "bei richtiger Behandlung für alle Kulturen gute Erträge",
      "37",
-     "b1",
-     11
+     "b1"
     ],
     [
      19,
      "9",
      "Unterland",
-     "clastic",
+     "Sandstein, Geröll, Ton",
      "Rothliegendes",
      "Rotliegend",
      "nur mittelmäßigen Boden … geradezu unfruchtbar",
      2,
      "auf Höhen und Abhängen unfruchtbar",
      "37",
-     "b4",
-     23
+     "b4"
     ],
     [
      20,
      "10a",
      "Unterland",
-     "limestone",
+     "Kalk, Zechstein",
      "Zechstein (Kalk, Dolomit, Mergel)",
      "Zechstein (limestone, dolomite, marl)",
      "gut geeignet zu allen Culturen, namentlich auch zur Obstcultur",
      4,
      "",
      "38",
-     "b1",
-     12
+     "b1"
     ],
     [
      21,
      "11a",
      "Unterland",
-     "clastic",
+     "Sandstein, Geröll, Ton",
      "Buntsandstein",
      "Bunter sandstone",
      "ist sehr verschiedenartig … dann ist er von mittler Güte",
      3,
      "von »Gaux« (unfruchtbar) bis gut, je nach Letten- und Kalkgehalt",
      "39",
-     "b2",
-     19
+     "b2"
     ],
     [
      22,
      "12c",
      "Unterland",
-     "clastic",
+     "Sandstein, Geröll, Ton",
      "Tertiäre Sande und Gerölle",
      "Tertiary sands and gravels",
      "einen wenig fruchtbaren Boden",
      2,
      "",
      "40",
-     "b3",
-     24
+     "b3"
     ],
     [
      23,
      "13a",
      "Unterland",
-     "clastic",
+     "Sandstein, Geröll, Ton",
      "Eiszeitliche Gerölle",
      "Ice-age gravels",
      "einen Boden von nur mittler Fruchtbarkeit",
      3,
      "",
      "40",
-     "b4",
-     20
+     "b4"
     ],
     [
      24,
      "13c",
      "Unterland",
-     "clastic",
+     "Sandstein, Geröll, Ton",
      "Alluviale Thone im Elsterthal",
      "Alluvial clays in the Elster valley",
      "Erstere geben einen sehr fruchtbaren",
      5,
      "",
      "41",
-     "b1",
-     8
+     "b1"
     ],
     [
      25,
      "13c",
      "Unterland",
-     "clastic",
+     "Sandstein, Geröll, Ton",
      "Alluviale Gerölle im Elsterthal",
      "Alluvial gravels in the Elster valley",
      "letztere einen sehr mittelmäßigen Boden, der stellenweise geradezu schlecht genannt werden muß",
      2,
      "",
      "41",
-     "b1",
-     25
+     "b1"
     ]
    ],
    "source_refs": [
@@ -851,26 +816,6 @@
      "note": "Oberland = 1–8, Unterland = 9–13 (Liebes Teile A. und B.)"
     },
     {
-     "name": "resource",
-     "label": {
-      "de": "Rohstoff (Code)",
-      "en": "Resource (code)"
-     },
-     "type": "string",
-     "unit": null,
-     "derived": true
-    },
-    {
-     "name": "resource_order",
-     "label": {
-      "de": "Rohstoff (Ordnung)",
-      "en": "Resource (order)"
-     },
-     "type": "integer",
-     "unit": null,
-     "derived": true
-    },
-    {
      "name": "resource_de",
      "label": {
       "de": "Rohstoff",
@@ -899,7 +844,7 @@
      "type": "string",
      "unit": null,
      "derived": true,
-     "note": "worked = genutzt bzw. abgebaut (auch: berühmt, in Betrieb), formerly = früher genutzt, aufgelassen, occurs = nur vorkommend, unbedeutend oder nicht abbauwürdig; editorische Einordnung des Wortlauts"
+     "note": "editorische Einordnung des Wortlauts: genutzt = abgebaut, berühmt, in Betrieb; früher genutzt = aufgelassen; nur vorkommend = unbedeutend oder nicht abbauwürdig"
     },
     {
      "name": "evidence",
@@ -944,11 +889,9 @@
      "Kambrium",
      "Cambrian",
      "Oberland",
-     "iron",
-     1,
      "Eisenerz",
      "Iron ore",
-     "worked",
+     "genutzt",
      "Weit wichtiger sind die Gänge von Spatheisenstein",
      "Rücken zwischen Dobareuther und Ullersreuther Thal (Grube »Arme Hilfe«), Tännig bei Lobenstein, Pottiga",
      "27",
@@ -959,11 +902,9 @@
      "Kambrium",
      "Cambrian",
      "Oberland",
-     "building",
-     7,
      "Bausteine, Bausand",
      "Building stone, sand",
-     "worked",
+     "genutzt",
      "als Ersatzmittel für Sand beim Bauen benutzt",
      "Granit bei Helmsgrün, zu Grieß verwittert",
      "26",
@@ -974,11 +915,9 @@
      "Unteres Silur",
      "Lower Silurian",
      "Oberland",
-     "slate",
-     5,
      "Dachschiefer",
      "Roofing slate",
-     "worked",
+     "genutzt",
      "stehen die Dachschieferbrüche von Ullersreuth, Blintendorf, Helmsgrün, Heinersdorf",
      "Ullersreuth, Blintendorf, Helmsgrün, Heinersdorf",
      "28",
@@ -989,11 +928,9 @@
      "Unteres Silur",
      "Lower Silurian",
      "Oberland",
-     "iron",
-     1,
      "Eisenerz",
      "Iron ore",
-     "occurs",
+     "nur vorkommend",
      "Gänge von Eisenspath und von aus ihm entstandenem Brauneisenstein in guter Anzahl anstehen",
      "Eisenspatgänge, Brauneisenstein",
      "28",
@@ -1004,11 +941,9 @@
      "Mittleres Silur",
      "Middle Silurian",
      "Oberland",
-     "alum",
-     4,
      "Alaunschiefer",
      "Alum shale",
-     "formerly",
+     "früher genutzt",
      "früher als Alaunschiefer zur Bereitung von Alaun und Eisenvitriol abgebaut",
      "Gräfenwarth, Gottliebsthal",
      "28",
@@ -1019,11 +954,9 @@
      "Mittleres Silur",
      "Middle Silurian",
      "Oberland",
-     "road",
-     8,
      "Straßenmaterial",
      "Road metal",
-     "worked",
+     "genutzt",
      "Die wichtigste Verwendung des Kieselschiefers ist aber die zur Beschotterung der Straßen",
      "Kieselschiefer auf einer Packlage von Grünstein: die Chausseen des Oberlandes",
      "28",
@@ -1034,11 +967,9 @@
      "Mittleres Silur",
      "Middle Silurian",
      "Oberland",
-     "antimony",
-     2,
      "Antimonerz",
      "Antimony ore",
-     "formerly",
+     "früher genutzt",
      "Noch bis vor Kurzem wurden die Erze abgebaut",
      "Gruben »Heinrichsfreude« und »Halbmondfundgrube«, ältere Baue bei Schleiz und Weckersdorf",
      "30",
@@ -1049,11 +980,9 @@
      "Mittleres Silur",
      "Middle Silurian",
      "Oberland",
-     "iron",
-     1,
      "Eisenerz",
      "Iron ore",
-     "occurs",
+     "nur vorkommend",
      "Unbedeutend sind die Eisenerzvorkommnisse innerhalb dieser Formation",
      "Brauneisenstein bei Lössau, Rotheisenstein bei Oberböhmsdorf",
      "30",
@@ -1064,11 +993,9 @@
      "Oberes Silur (Tentaculiten)",
      "Upper Silurian (tentaculites)",
      "Oberland",
-     "limestone",
-     6,
      "Kalkstein",
      "Limestone",
-     "occurs",
+     "nur vorkommend",
      "die Verwendbarkeit des Kalkes zum Brennen wegen seiner Unreinheit sehr schlecht",
      "Kalklager in der Nähe der Nereitenschichten",
      "31",
@@ -1079,11 +1006,9 @@
      "Oberes Silur (Tentaculiten)",
      "Upper Silurian (tentaculites)",
      "Oberland",
-     "building",
-     7,
      "Bausteine, Bausand",
      "Building stone, sand",
-     "worked",
+     "genutzt",
      "unter dem Namen Sand zum Bereiten des Mörtels beim Bauen verwendet",
      "Grünsteingrieß bei Schleiz (Sandberge), Wüstendittersdorf, Triebes, Weckersdorf",
      "32",
@@ -1094,11 +1019,9 @@
      "Oberes Silur (Tentaculiten)",
      "Upper Silurian (tentaculites)",
      "Oberland",
-     "iron",
-     1,
      "Eisenerz",
      "Iron ore",
-     "occurs",
+     "nur vorkommend",
      "daß ein Abbau darauf vorgenommen werden könnte",
      "Rotheisenerz an den Grünsteinwänden, meist zu geringmächtig",
      "32",
@@ -1109,11 +1032,9 @@
      "Phyllodocitesschiefer",
      "Phyllodocite slate",
      "Oberland",
-     "slate",
-     5,
      "Dachschiefer",
      "Roofing slate",
-     "worked",
+     "genutzt",
      "stehen die Dachschieferbrüche von Gebersreuth, am Franzensberg, bei Benignengrün",
      "Gebersreuth, Franzensberg, Benignengrün (Wurzbach), Vogelberg",
      "32",
@@ -1124,11 +1045,9 @@
      "Phyllodocitesschiefer",
      "Phyllodocite slate",
      "Oberland",
-     "limestone",
-     6,
      "Kalkstein",
      "Limestone",
-     "worked",
+     "genutzt",
      "Der Kalk in den Brüchen auf der Kalch bei Wurzbach gehört wahrscheinlich hierher",
      "Franzensberg, Blankenstein, Kalch bei Wurzbach",
      "33",
@@ -1139,11 +1058,9 @@
      "Devonische Tuffe",
      "Devonian tuffs",
      "Oberland",
-     "iron",
-     1,
      "Eisenerz",
      "Iron ore",
-     "worked",
+     "genutzt",
      "Gänge mit Spatheisenstein, daraus entstandenem Brauneisenstein und Graunickelkies, welche noch abgebaut werden",
      "kleine Friesa bei Lobenstein; Rotheisenstein allenthalben häufig",
      "34",
@@ -1154,11 +1071,9 @@
      "Devonische Tuffe",
      "Devonian tuffs",
      "Oberland",
-     "nonferrous",
-     3,
      "Kupfer-/Nickelerz",
      "Copper/nickel ore",
-     "worked",
+     "genutzt",
      "Graunickelkies, welche noch abgebaut werden",
      "Graunickelkies an der kleinen Friesa; Kupferkies und Fahlerz bei Schleiz und Löhma längst auflässig",
      "34",
@@ -1169,11 +1084,9 @@
      "Cypridinenschiefer, Clymenienkalk",
      "Cypridina slate, Clymenia limestone",
      "Oberland",
-     "limestone",
-     6,
      "Kalkstein",
      "Limestone",
-     "worked",
+     "genutzt",
      "Die Kalke lassen sich im Allgemeinen gut brennen",
      "Brüche an der Thomasmühle bei Schleiz, Pahren, Kirschkau",
      "35",
@@ -1184,11 +1097,9 @@
      "Cypridinenschiefer, Clymenienkalk",
      "Cypridina slate, Clymenia limestone",
      "Oberland",
-     "building",
-     7,
      "Bausteine, Bausand",
      "Building stone, sand",
-     "worked",
+     "genutzt",
      "giebt der Clymenienkalk aber noch gute Bausteine",
      "Clymenienkalk, auch poliert für Tischplatten und Grabmäler",
      "35",
@@ -1199,11 +1110,9 @@
      "Cypridinenschiefer, Clymenienkalk",
      "Cypridina slate, Clymenia limestone",
      "Oberland",
-     "iron",
-     1,
      "Eisenerz",
      "Iron ore",
-     "worked",
+     "genutzt",
      "eine Menge theils auflässiger, theils noch gangbarer Gruben",
      "Strich von Oschitz bis Göschitz; großes Glanzeisenerz-Lager bei Ebersdorf/Schönbrunn",
      "36",
@@ -1214,11 +1123,9 @@
      "Kulm",
      "Culm",
      "Oberland",
-     "building",
-     7,
      "Bausteine, Bausand",
      "Building stone, sand",
-     "worked",
+     "genutzt",
      "Die Grauwackenbänke liefern gute Bausteine",
      "Brüche bei Plothen und Dittersdorf",
      "37",
@@ -1229,11 +1136,9 @@
      "Kulm",
      "Culm",
      "Oberland",
-     "coal",
-     10,
      "Kohle",
      "Coal",
-     "occurs",
+     "nur vorkommend",
      "finden sich in der Grauwacke Nester von Kohlenblende",
      "Carolinenfeld, Schleizer Streitwald",
      "36",
@@ -1244,11 +1149,9 @@
      "Zechstein",
      "Zechstein",
      "Unterland",
-     "limestone",
-     6,
      "Kalkstein",
      "Limestone",
-     "worked",
+     "genutzt",
      "Sie werden gebrannt und zum Pflastern verwendet",
      "Kalk- und Mergelzechstein",
      "38",
@@ -1259,11 +1162,9 @@
      "Zechstein",
      "Zechstein",
      "Unterland",
-     "building",
-     7,
      "Bausteine, Bausand",
      "Building stone, sand",
-     "worked",
+     "genutzt",
      "aus einer großen Anzahl von Steinbrüchen Bausteine und Wegebaumaterial",
      "Rauchwacke und obere Kalkplatten",
      "38",
@@ -1274,11 +1175,9 @@
      "Zechstein",
      "Zechstein",
      "Unterland",
-     "nonferrous",
-     3,
      "Kupfer-/Nickelerz",
      "Copper/nickel ore",
-     "formerly",
+     "früher genutzt",
      "Sehr stark ist die Ausbeute wohl nie gewesen",
      "Kupfererze im Weißliegenden bei Trebnitz, bei Gera verhüttet",
      "38",
@@ -1289,11 +1188,9 @@
      "Zechstein",
      "Zechstein",
      "Unterland",
-     "gypsum",
-     9,
      "Gips, Salz",
      "Gypsum, salt",
-     "worked",
+     "genutzt",
      "vollkommen gesättigte Salzsohle in hinreichender Menge",
      "Gipsstöcke bei Thieschitz, Rubitz, Köstritz; Salzsohle der Saline Heinrichshall",
      "38",
@@ -1304,11 +1201,9 @@
      "Buntsandstein",
      "Bunter sandstone",
      "Unterland",
-     "building",
-     7,
      "Bausteine, Bausand",
      "Building stone, sand",
-     "worked",
+     "genutzt",
      "liefert dann gute Werkstücke, die weithin verführt werden",
      "Brüche von Falke, Kraftsdorf, Harpersdorf, Rüdersdorf",
      "39",
@@ -1319,11 +1214,9 @@
      "Buntsandstein",
      "Bunter sandstone",
      "Unterland",
-     "iron",
-     1,
      "Eisenerz",
      "Iron ore",
-     "formerly",
+     "früher genutzt",
      "daß man sonst diese Erze bergmännisch gewonnen hat",
      "Ronneburger Höhe, Geiersberg",
      "39",
@@ -1334,11 +1227,9 @@
      "Tertiär",
      "Tertiary",
      "Unterland",
-     "coal",
-     10,
      "Kohle",
      "Coal",
-     "worked",
+     "genutzt",
      "das seeligenstädter hingegen wird unter Tag noch bergmännisch fortbetrieben",
      "Braunkohle bei Seeligenstädt (in Betrieb) und Kleinaga (auflässig)",
      "40",
@@ -1349,11 +1240,9 @@
      "Tertiär",
      "Tertiary",
      "Unterland",
-     "road",
-     8,
      "Straßenmaterial",
      "Road metal",
-     "worked",
+     "genutzt",
      "desto wichtiger aber sind sie als Pflastermaterial",
      "Süßwassersandstein (»Wacke«); die Pflastersteine für Gera kommen aus der zeitzer Gegend",
      "40",
@@ -1364,11 +1253,9 @@
      "Eiszeit, Alluvium",
      "Ice age, alluvium",
      "Unterland",
-     "road",
-     8,
      "Straßenmaterial",
      "Road metal",
-     "worked",
+     "genutzt",
      "ein sehr mittelmäßiges Straßenmaterial, aber ein gutes Material für Fußwege",
      "Eiszeitgerölle bei Ronneburg, Trebnitz, Loitzsch",
      "40",
@@ -1549,13 +1436,13 @@
     {
      "name": "klasse",
      "label": {
-      "de": "Klasse für die Hervorhebung",
-      "en": "Class used for highlighting"
+      "de": "Klasse (editorisch)",
+      "en": "Class (editorial)"
      },
      "type": "string",
      "unit": null,
      "derived": true,
-     "note": "editorisch: Muscheln, Armfüßer, Kopffüßer (nach Liebes Bezeichnung), sonst übrige"
+     "note": "Muscheln, Armfüßer und Kopffüßer nach Liebes Bezeichnung, alle anderen Gruppen: übrige"
     }
    ],
    "rows": [
@@ -1563,127 +1450,127 @@
      1,
      "Fische",
      "fishes",
-     "vertebrate",
+     "Wirbeltiere",
      "",
      7,
-     "other"
+     "übrige"
     ],
     [
      2,
      "Schwimmkrebse",
      "ostracods (“swimming crustaceans”)",
-     "arthropod",
+     "Gliederfüßer",
      "über",
      7,
-     "other"
+     "übrige"
     ],
     [
      3,
      "Röhrenwürmer",
      "tube worms",
-     "other",
+     "übrige",
      "",
      3,
-     "other"
+     "übrige"
     ],
     [
      4,
      "Kammerschnecke",
      "chambered snail (nautiloid)",
-     "mollusc",
+     "Weichtiere",
      "",
      1,
-     "cephalopod"
+     "Kopffüßer"
     ],
     [
      5,
      "Seeschnecken",
      "sea snails",
-     "mollusc",
+     "Weichtiere",
      "",
      9,
-     "other"
+     "übrige"
     ],
     [
      6,
      "ächte Muscheln",
      "true bivalves",
-     "mollusc",
+     "Weichtiere",
      "",
      25,
-     "bivalve"
+     "Muscheln"
     ],
     [
      7,
      "Armfußmuscheln",
      "brachiopods (lamp shells)",
-     "brachiopod",
+     "Armfüßer",
      "",
      20,
-     "brachiopod"
+     "Armfüßer"
     ],
     [
      8,
      "Strahlthiere",
      "echinoderms (“radiates”)",
-     "other",
+     "übrige",
      "",
      2,
-     "other"
+     "übrige"
     ],
     [
      9,
      "Corallen",
      "corals",
-     "other",
+     "übrige",
      "",
      8,
-     "other"
+     "übrige"
     ],
     [
      10,
      "Wurzelfüßer",
      "foraminifera (rhizopods)",
-     "other",
+     "übrige",
      "",
      2,
-     "other"
+     "übrige"
     ],
     [
      11,
      "Seeschwämme",
      "sponges",
-     "other",
+     "übrige",
      "",
      2,
-     "other"
+     "übrige"
     ],
     [
      12,
      "Seetange",
      "seaweeds",
-     "plant",
+     "Pflanzen",
      "",
      3,
-     "other"
+     "übrige"
     ],
     [
      13,
      "Farne",
      "ferns",
-     "plant",
+     "Pflanzen",
      "",
      2,
-     "other"
+     "übrige"
     ],
     [
      14,
      "Nadelhölzer",
      "conifers",
-     "plant",
+     "Pflanzen",
      "",
      4,
-     "other"
+     "übrige"
     ]
    ],
    "source_refs": [
@@ -1754,13 +1641,13 @@
     {
      "name": "klasse",
      "label": {
-      "de": "Klasse für die Hervorhebung",
-      "en": "Class used for highlighting"
+      "de": "Klasse (editorisch)",
+      "en": "Class (editorial)"
      },
      "type": "string",
      "unit": null,
      "derived": true,
-     "note": "editorisch: Muscheln, Armfüßer, Kopffüßer (nach Liebes Bezeichnung), sonst übrige"
+     "note": "Muscheln, Armfüßer und Kopffüßer nach Liebes Bezeichnung, alle anderen Gruppen: übrige"
     }
    ],
    "rows": [
@@ -1768,73 +1655,73 @@
      1,
      "Schwimmkrebse",
      "ostracods (“swimming crustaceans”)",
-     "arthropod",
+     "Gliederfüßer",
      4,
-     "other"
+     "übrige"
     ],
     [
      2,
      "Ruderkrebse",
      "trilobites (“oar crustaceans”)",
-     "arthropod",
+     "Gliederfüßer",
      2,
-     "other"
+     "übrige"
     ],
     [
      3,
      "Gradhorn",
      "straight-horn cephalopods (Orthoceras)",
-     "mollusc",
+     "Weichtiere",
      4,
-     "cephalopod"
+     "Kopffüßer"
     ],
     [
      4,
      "Keulenhorn",
      "club-horn cephalopods",
-     "mollusc",
+     "Weichtiere",
      3,
-     "cephalopod"
+     "Kopffüßer"
     ],
     [
      5,
      "Clymenien",
      "clymenias (coiled cephalopods)",
-     "mollusc",
+     "Weichtiere",
      6,
-     "cephalopod"
+     "Kopffüßer"
     ],
     [
      6,
      "Goniatiten",
      "goniatites (coiled cephalopods)",
-     "mollusc",
+     "Weichtiere",
      8,
-     "cephalopod"
+     "Kopffüßer"
     ],
     [
      7,
      "Schwimmschnecken",
      "swimming snails (incl. 3 tentaculites)",
-     "mollusc",
+     "Weichtiere",
      5,
-     "other"
+     "übrige"
     ],
     [
      8,
      "Seeschnecken",
      "sea snails",
-     "mollusc",
+     "Weichtiere",
      4,
-     "other"
+     "übrige"
     ],
     [
      9,
      "Muscheln",
      "bivalves",
-     "mollusc",
+     "Weichtiere",
      6,
-     "bivalve"
+     "Muscheln"
     ]
    ],
    "source_refs": [
@@ -1851,152 +1738,184 @@
    "dataset": "soils",
    "title": {
     "de": "Auf Grünstein und Diabas wachsen die besten Böden, auf Schiefer nur mittlere",
-    "en": "The best soils lie on greenstone and diabase, only medium ones on slate"
+    "en": "Greenstone and diabase give the best soils, slate only medium ones"
    },
    "caption": {
-    "de": "Bodengüte der 25 von Liebe beschriebenen Gesteinseinheiten, aus seinen Worten (»sehr fruchtbar«, »mittlerer Güte« …) in fünf Stufen eingeordnet. Blau: Grünstein, Diabas, Tuff. Quelle: S. 26 bis 41.",
-    "en": "Soil quality of the 25 rock units Liebe describes, graded in five steps from his words (“very fertile”, “of medium quality” …). Blue: greenstone, diabase, tuff. Source: pp. 26 to 41."
+    "de": "Bodengüte der 25 von Liebe beschriebenen Gesteinseinheiten, aus seinen Worten (»sehr fruchtbar«, »mittlerer Güte« …) in Stufen eingeordnet; ein Punkt je Einheit, nach Gesteinsgruppen. Quelle: S. 26 bis 41.",
+    "en": "Soil quality of the 25 rock units Liebe describes, graded from his words (“very fertile”, “of medium quality” …); one dot per unit, by rock group. Source: pp. 26 to 41."
    },
    "vegalite": {
     "height": {
-     "step": 20
+     "step": 46
     },
     "transform": [
      {
       "calculate": {
-       "de": "datum.formation",
-       "en": "datum.formation_en"
+       "de": "datum.rock_group",
+       "en": "{\"Grünstein, Diabas, Tuff\": \"Greenstone, diabase, tuff\", \"Gneis, Talkschiefer\": \"Gneiss, talc schist\", \"Kalk, Zechstein\": \"Limestone, Zechstein\", \"Schiefer, Grauwacke\": \"Slate, greywacke\", \"Sandstein, Geröll, Ton\": \"Sandstone, gravel, clay\"}[datum.rock_group]"
       },
-      "as": "label"
+      "as": "gruppe"
+     },
+     {
+      "window": [
+       {
+        "op": "row_number",
+        "as": "platz"
+       }
+      ],
+      "groupby": [
+       "rock_group",
+       "soil_grade"
+      ],
+      "sort": [
+       {
+        "field": "order"
+       }
+      ]
+     },
+     {
+      "joinaggregate": [
+       {
+        "op": "count",
+        "as": "n_zelle"
+       }
+      ],
+      "groupby": [
+       "rock_group",
+       "soil_grade"
+      ]
+     },
+     {
+      "calculate": "2 * datum.platz + 6 - datum.n_zelle",
+      "as": "slot"
      }
     ],
+    "mark": {
+     "type": "circle",
+     "size": 110,
+     "opacity": 1
+    },
     "encoding": {
      "y": {
-      "field": "label",
+      "field": "gruppe",
       "type": "nominal",
       "sort": {
-       "field": "rang_gueteliste",
-       "op": "min"
+       "field": "soil_grade",
+       "op": "mean",
+       "order": "descending"
       },
       "axis": {
        "title": null,
-       "labelLimit": 400
-      }
-     }
-    },
-    "layer": [
-     {
-      "mark": {
-       "type": "rule",
-       "strokeWidth": 1.4
-      },
-      "encoding": {
-       "x": {
-        "field": "soil_grade",
-        "type": "quantitative",
-        "scale": {
-         "domain": [
-          1.6,
-          5.4
-         ]
-        },
-        "axis": {
-         "title": {
-          "de": "Fruchtbarkeit des Bodens",
-          "en": "Soil fertility"
-         },
-         "values": [
-          2,
-          3,
-          4,
-          5
-         ],
-         "labelExpr": {
-          "de": "datum.value == 2 ? 'wenig' : datum.value == 3 ? 'mittel' : datum.value == 4 ? 'gut' : datum.value == 5 ? 'sehr gut' : ''",
-          "en": "datum.value == 2 ? 'poor' : datum.value == 3 ? 'medium' : datum.value == 4 ? 'good' : datum.value == 5 ? 'very good' : ''"
-         },
-         "labelOverlap": false,
-         "grid": true
-        }
-       },
-       "x2": {
-        "datum": 1.6
-       },
-       "color": {
-        "condition": {
-         "test": "datum.rock_group == 'greenstone'",
-         "value": "@accent"
-        },
-        "value": "@context"
-       }
+       "labelLimit": 400,
+       "labelFontSize": 13
       }
      },
-     {
-      "mark": {
-       "type": "point",
-       "filled": true,
-       "size": 95,
-       "opacity": 1
+     "x": {
+      "field": "soil_grade",
+      "type": "ordinal",
+      "scale": {
+       "domain": [
+        2,
+        3,
+        4,
+        5
+       ],
+       "paddingInner": 0.12,
+       "paddingOuter": 0.04
       },
-      "encoding": {
-       "x": {
-        "field": "soil_grade",
-        "type": "quantitative"
+      "axis": {
+       "title": {
+        "de": "Bodengüte nach Liebe",
+        "en": "Soil quality according to Liebe"
        },
-       "color": {
-        "condition": {
-         "test": "datum.rock_group == 'greenstone'",
-         "value": "@accent"
-        },
-        "value": "@muted"
+       "labelExpr": {
+        "de": "datum.value == 2 ? 'wenig' : datum.value == 3 ? 'mittel' : datum.value == 4 ? 'gut' : datum.value == 5 ? 'sehr gut' : ''",
+        "en": "datum.value == 2 ? 'poor' : datum.value == 3 ? 'medium' : datum.value == 4 ? 'good' : datum.value == 5 ? 'very good' : ''"
        },
-       "tooltip": [
-        {
-         "field": "formation",
-         "title": {
-          "de": "Einheit",
-          "en": "Unit"
-         }
-        },
-        {
-         "field": "section",
-         "title": {
-          "de": "Liebes Gliederung",
-          "en": "Liebe’s numbering"
-         }
-        },
-        {
-         "field": "region",
-         "title": {
-          "de": "Landesteil",
-          "en": "Part"
-         }
-        },
-        {
-         "field": "soil_grade",
-         "title": {
-          "de": "Stufe (1 bis 5)",
-          "en": "Grade (1 to 5)"
-         }
-        },
-        {
-         "field": "quote",
-         "title": {
-          "de": "Liebes Wortlaut",
-          "en": "Liebe’s wording"
-         }
-        },
-        {
-         "field": "remark",
-         "title": {
-          "de": "Bemerkung",
-          "en": "Remark"
-         }
-        }
+       "labelAngle": 0,
+       "labelFontSize": 13
+      }
+     },
+     "xOffset": {
+      "field": "slot",
+      "type": "ordinal",
+      "scale": {
+       "domain": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
        ]
       }
-     }
-    ]
+     },
+     "color": {
+      "condition": {
+       "test": "datum.rock_group == 'Grünstein, Diabas, Tuff'",
+       "value": "@accent"
+      },
+      "value": "@muted"
+     },
+     "tooltip": [
+      {
+       "field": "formation",
+       "title": {
+        "de": "Einheit",
+        "en": "Unit"
+       }
+      },
+      {
+       "field": "formation_en",
+       "title": {
+        "de": "Einheit, englisch",
+        "en": "Unit, English"
+       }
+      },
+      {
+       "field": "section",
+       "title": {
+        "de": "Liebes Gliederung",
+        "en": "Liebe’s numbering"
+       }
+      },
+      {
+       "field": "region",
+       "title": {
+        "de": "Landesteil",
+        "en": "Part"
+       }
+      },
+      {
+       "field": "soil_grade",
+       "title": {
+        "de": "Stufe (1 bis 5)",
+        "en": "Grade (1 to 5)"
+       }
+      },
+      {
+       "field": "quote",
+       "title": {
+        "de": "Liebes Wortlaut",
+        "en": "Liebe’s wording"
+       }
+      },
+      {
+       "field": "remark",
+       "title": {
+        "de": "Bemerkung",
+        "en": "Remark"
+       }
+      }
+     ]
+    }
    }
   },
   {
@@ -2024,8 +1943,8 @@
      },
      {
       "calculate": {
-       "de": "datum.status == 'worked' ? 'genutzt' : datum.status == 'formerly' ? 'früher genutzt' : 'nur vorkommend'",
-       "en": "datum.status == 'worked' ? 'worked' : datum.status == 'formerly' ? 'formerly worked' : 'merely occurring'"
+       "de": "datum.status",
+       "en": "{\"genutzt\": \"worked\", \"früher genutzt\": \"formerly worked\", \"nur vorkommend\": \"merely occurring\"}[datum.status]"
       },
       "as": "status_label"
      },
@@ -2060,7 +1979,7 @@
       "axis": {
        "orient": "top",
        "title": null,
-       "labelAngle": -40,
+       "labelAngle": -45,
        "labelAlign": "left",
        "labelLimit": 260,
        "grid": true,
@@ -2152,13 +2071,13 @@
      {
       "transform": [
        {
-        "filter": "datum.status == 'worked'"
+        "filter": "datum.status == 'genutzt'"
        }
       ],
       "mark": {
        "type": "point",
        "filled": true,
-       "size": 200,
+       "size": 120,
        "color": "@ink",
        "strokeWidth": 0
       },
@@ -2172,7 +2091,7 @@
          }
         },
         {
-         "field": "resource_de",
+         "field": "res_label",
          "title": {
           "de": "Rohstoff",
           "en": "Resource"
@@ -2205,15 +2124,15 @@
      {
       "transform": [
        {
-        "filter": "datum.status == 'formerly'"
+        "filter": "datum.status == 'früher genutzt'"
        }
       ],
       "mark": {
        "type": "point",
        "filled": false,
-       "size": 200,
+       "size": 120,
        "color": "@ink",
-       "strokeWidth": 2.2
+       "strokeWidth": 2
       },
       "encoding": {
        "tooltip": [
@@ -2225,7 +2144,7 @@
          }
         },
         {
-         "field": "resource_de",
+         "field": "res_label",
          "title": {
           "de": "Rohstoff",
           "en": "Resource"
@@ -2258,13 +2177,13 @@
      {
       "transform": [
        {
-        "filter": "datum.status == 'occurs'"
+        "filter": "datum.status == 'nur vorkommend'"
        }
       ],
       "mark": {
        "type": "point",
        "filled": true,
-       "size": 80,
+       "size": 50,
        "color": "@muted",
        "strokeWidth": 0
       },
@@ -2278,7 +2197,7 @@
          }
         },
         {
-         "field": "resource_de",
+         "field": "res_label",
          "title": {
           "de": "Rohstoff",
           "en": "Resource"
@@ -2334,7 +2253,7 @@
       "mark": {
        "type": "point",
        "filled": true,
-       "size": 200,
+       "size": 120,
        "color": "@ink",
        "strokeWidth": 0
       },
@@ -2343,7 +2262,7 @@
         "value": 8
        },
        "y": {
-        "value": 342
+        "value": 340
        }
       }
      },
@@ -2382,7 +2301,7 @@
         "value": 8
        },
        "y": {
-        "value": 342
+        "value": 340
        },
        "text": {
         "value": {
@@ -2418,16 +2337,16 @@
       "mark": {
        "type": "point",
        "filled": false,
-       "size": 200,
+       "size": 120,
        "color": "@ink",
-       "strokeWidth": 2.2
+       "strokeWidth": 2
       },
       "encoding": {
        "x": {
-        "value": 74
+        "value": 86
        },
        "y": {
-        "value": 342
+        "value": 340
        }
       }
      },
@@ -2463,10 +2382,10 @@
       },
       "encoding": {
        "x": {
-        "value": 74
+        "value": 86
        },
        "y": {
-        "value": 342
+        "value": 340
        },
        "text": {
         "value": {
@@ -2502,16 +2421,16 @@
       "mark": {
        "type": "point",
        "filled": true,
-       "size": 80,
+       "size": 50,
        "color": "@muted",
        "strokeWidth": 0
       },
       "encoding": {
        "x": {
-        "value": 192
+        "value": 8
        },
        "y": {
-        "value": 342
+        "value": 364
        }
       }
      },
@@ -2547,10 +2466,10 @@
       },
       "encoding": {
        "x": {
-        "value": 192
+        "value": 8
        },
        "y": {
-        "value": 342
+        "value": 364
        },
        "text": {
         "value": {
@@ -2597,7 +2516,7 @@
         "value": 8
        },
        "y": {
-        "value": 368
+        "value": 388
        }
       }
      },
@@ -2636,7 +2555,7 @@
         "value": 8
        },
        "y": {
-        "value": 368
+        "value": 388
        },
        "text": {
         "value": {
@@ -2680,10 +2599,10 @@
       },
       "encoding": {
        "x": {
-        "value": 92
+        "value": 98
        },
        "y": {
-        "value": 368
+        "value": 388
        }
       }
      },
@@ -2719,10 +2638,10 @@
       },
       "encoding": {
        "x": {
-        "value": 92
+        "value": 98
        },
        "y": {
-        "value": 368
+        "value": 388
        },
        "text": {
         "value": {
@@ -2732,13 +2651,7 @@
        }
       }
      }
-    ],
-    "padding": {
-     "top": 4,
-     "left": 4,
-     "right": 4,
-     "bottom": 66
-    }
+    ]
    }
   },
   {
@@ -2752,35 +2665,22 @@
     "en": "Bivalves and brachiopods prevail in the Zechstein, cephalopods in the Clymenia limestone"
    },
    "caption": {
-    "de": "Von Liebe gezählte Arten von Versteinerungen je Gruppe, wie er sie nennt. Blau: Muscheln, orange: Armfüßer, grün: Kopffüßer. Beide Listen sind Zwischenstände (»bis jetzt gefunden«). Quelle: S. 35 und 38.",
-    "en": "Fossil species counted by Liebe per group, as he names them. Blue: bivalves, orange: brachiopods, green: cephalopods. Both lists are interim tallies (“so far found”). Source: pp. 35 and 38."
+    "de": "Von Liebe gezählte Arten von Versteinerungen je Gruppe, wie er sie nennt; Muscheln, Armfüßer und Kopffüßer farbig. Beide Listen sind Zwischenstände (»bis jetzt gefunden«). Quelle: S. 35 und 38.",
+    "en": "Fossil species counted by Liebe per group, as he names them; bivalves, brachiopods and cephalopods in colour. Both lists are interim tallies (“so far found”). Source: pp. 35 and 38."
    },
    "vegalite": {
-    "vconcat": [
+    "height": {
+     "step": 21
+    },
+    "layer": [
      {
       "data": {
        "name": "zechstein"
       },
-      "width": 440,
-      "height": {
-       "step": 21
-      },
-      "title": {
-       "text": {
-        "de": "Zechstein von Gera: 95 Arten in 14 Gruppen",
-        "en": "Zechstein of Gera: 95 species in 14 groups"
-       },
-       "anchor": "start",
-       "fontSize": 13,
-       "offset": 6
-      },
       "transform": [
        {
-        "calculate": {
-         "de": "datum.taxon",
-         "en": "datum.taxon_en"
-        },
-        "as": "label"
+        "calculate": "'Z' + (datum.order < 10 ? '0' : '') + datum.order",
+        "as": "key"
        },
        {
         "calculate": {
@@ -2790,138 +2690,305 @@
         "as": "wert"
        }
       ],
+      "mark": {
+       "type": "bar",
+       "cornerRadiusEnd": 3
+      },
       "encoding": {
        "y": {
-        "field": "label",
+        "field": "key",
         "type": "nominal",
-        "sort": {
-         "field": "species",
-         "op": "max",
-         "order": "descending"
+        "scale": {
+         "domain": [
+          "HZ",
+          "Z06",
+          "Z07",
+          "Z05",
+          "Z09",
+          "Z01",
+          "Z02",
+          "Z14",
+          "Z03",
+          "Z12",
+          "Z08",
+          "Z10",
+          "Z11",
+          "Z13",
+          "Z04",
+          "LC",
+          "HC",
+          "C06",
+          "C05",
+          "C09",
+          "C07",
+          "C01",
+          "C03",
+          "C08",
+          "C04",
+          "C02"
+         ]
         },
+        "sort": null,
         "axis": {
          "title": null,
-         "labelLimit": 400,
-         "labelAlign": "left",
-         "labelPadding": 232,
-         "minExtent": 235
-        }
-       }
-      },
-      "layer": [
-       {
-        "mark": {
-         "type": "bar",
-         "cornerRadiusEnd": 3
-        },
-        "encoding": {
-         "x": {
-          "field": "species",
-          "type": "quantitative",
-          "scale": {
-           "domain": [
-            0,
-            30
-           ]
-          },
-          "axis": {
-           "title": null,
-           "values": [
-            0,
-            5,
-            10,
-            15,
-            20,
-            25,
-            30
-           ]
-          }
-         },
-         "color": {
-          "condition": [
-           {
-            "test": "datum.klasse == 'bivalve'",
-            "value": "@accent"
-           },
-           {
-            "test": "datum.klasse == 'brachiopod'",
-            "value": "@accent2"
-           },
-           {
-            "test": "datum.klasse == 'cephalopod'",
-            "value": "@accent3"
-           }
-          ],
-          "value": "@context"
-         },
-         "tooltip": [
-          {
-           "field": "taxon",
-           "title": {
-            "de": "Gruppe (Liebe)",
-            "en": "Group (Liebe)"
-           }
-          },
-          {
-           "field": "taxon_en",
-           "title": {
-            "de": "Gruppe, englisch",
-            "en": "Group, English"
-           }
-          },
-          {
-           "field": "species",
-           "title": {
-            "de": "Arten",
-            "en": "Species"
-           }
-          }
-         ]
-        }
-       },
-       {
-        "mark": {
-         "type": "text",
-         "align": "left",
-         "dx": 5,
-         "style": "label"
-        },
-        "encoding": {
-         "x": {
-          "field": "species",
-          "type": "quantitative"
-         },
-         "text": {
-          "field": "wert"
+         "labelLimit": 260,
+         "labelExpr": {
+          "de": "{\"Z01\": \"Fische\", \"Z02\": \"Schwimmkrebse\", \"Z03\": \"Röhrenwürmer\", \"Z04\": \"Kammerschnecke\", \"Z05\": \"Seeschnecken\", \"Z06\": \"ächte Muscheln\", \"Z07\": \"Armfußmuscheln\", \"Z08\": \"Strahlthiere\", \"Z09\": \"Corallen\", \"Z10\": \"Wurzelfüßer\", \"Z11\": \"Seeschwämme\", \"Z12\": \"Seetange\", \"Z13\": \"Farne\", \"Z14\": \"Nadelhölzer\", \"C01\": \"Schwimmkrebse\", \"C02\": \"Ruderkrebse\", \"C03\": \"Gradhorn\", \"C04\": \"Keulenhorn\", \"C05\": \"Clymenien\", \"C06\": \"Goniatiten\", \"C07\": \"Schwimmschnecken\", \"C08\": \"Seeschnecken\", \"C09\": \"Muscheln\"}[datum.value] || ''",
+          "en": "{\"Z01\": \"fishes\", \"Z02\": \"ostracods (“swimming crustaceans”)\", \"Z03\": \"tube worms\", \"Z04\": \"chambered snail (nautiloid)\", \"Z05\": \"sea snails\", \"Z06\": \"true bivalves\", \"Z07\": \"brachiopods (lamp shells)\", \"Z08\": \"echinoderms (“radiates”)\", \"Z09\": \"corals\", \"Z10\": \"foraminifera (rhizopods)\", \"Z11\": \"sponges\", \"Z12\": \"seaweeds\", \"Z13\": \"ferns\", \"Z14\": \"conifers\", \"C01\": \"ostracods (“swimming crustaceans”)\", \"C02\": \"trilobites (“oar crustaceans”)\", \"C03\": \"straight-horn cephalopods (Orthoceras)\", \"C04\": \"club-horn cephalopods\", \"C05\": \"clymenias (coiled cephalopods)\", \"C06\": \"goniatites (coiled cephalopods)\", \"C07\": \"swimming snails (incl. 3 tentaculites)\", \"C08\": \"sea snails\", \"C09\": \"bivalves\"}[datum.value] || ''"
          }
         }
+       },
+       "x": {
+        "field": "species",
+        "type": "quantitative",
+        "scale": {
+         "domain": [
+          0,
+          28
+         ]
+        },
+        "axis": {
+         "title": {
+          "de": "Zahl der Arten",
+          "en": "Number of species"
+         },
+         "values": [
+          0,
+          5,
+          10,
+          15,
+          20,
+          25
+         ],
+         "grid": true
+        }
+       },
+       "color": {
+        "field": "klasse",
+        "type": "nominal",
+        "scale": {
+         "domain": [
+          "Muscheln",
+          "Armfüßer",
+          "Kopffüßer",
+          "übrige"
+         ],
+         "range": [
+          "@accent",
+          "@accent2",
+          "@accent3",
+          "@context"
+         ]
+        },
+        "legend": {
+         "title": null,
+         "symbolType": "square",
+         "labelExpr": {
+          "de": "datum.label",
+          "en": "{\"Muscheln\": \"bivalves\", \"Armfüßer\": \"brachiopods\", \"Kopffüßer\": \"cephalopods\", \"übrige\": \"other groups\"}[datum.label]"
+         }
+        }
+       },
+       "tooltip": [
+        {
+         "field": "taxon",
+         "title": {
+          "de": "Gruppe (Liebe)",
+          "en": "Group (Liebe)"
+         }
+        },
+        {
+         "field": "taxon_en",
+         "title": {
+          "de": "Gruppe, englisch",
+          "en": "Group, English"
+         }
+        },
+        {
+         "field": "wert",
+         "title": {
+          "de": "Arten",
+          "en": "Species"
+         }
+        },
+        {
+         "field": "klasse",
+         "title": {
+          "de": "Klasse",
+          "en": "Class"
+         }
+        }
+       ]
+      }
+     },
+     {
+      "data": {
+       "name": "zechstein"
+      },
+      "transform": [
+       {
+        "calculate": "'Z' + (datum.order < 10 ? '0' : '') + datum.order",
+        "as": "key"
+       },
+       {
+        "calculate": {
+         "de": "isValid(datum.qualifier) && datum.qualifier == 'über' ? 'über ' + datum.species : '' + datum.species",
+         "en": "isValid(datum.qualifier) && datum.qualifier == 'über' ? 'over ' + datum.species : '' + datum.species"
+        },
+        "as": "wert"
+       },
+       {
+        "filter": "datum.klasse != 'übrige'"
        }
-      ]
+      ],
+      "mark": {
+       "type": "text",
+       "style": "label",
+       "align": "left",
+       "baseline": "middle",
+       "dx": 5
+      },
+      "encoding": {
+       "y": {
+        "field": "key",
+        "type": "nominal",
+        "scale": {
+         "domain": [
+          "HZ",
+          "Z06",
+          "Z07",
+          "Z05",
+          "Z09",
+          "Z01",
+          "Z02",
+          "Z14",
+          "Z03",
+          "Z12",
+          "Z08",
+          "Z10",
+          "Z11",
+          "Z13",
+          "Z04",
+          "LC",
+          "HC",
+          "C06",
+          "C05",
+          "C09",
+          "C07",
+          "C01",
+          "C03",
+          "C08",
+          "C04",
+          "C02"
+         ]
+        },
+        "sort": null,
+        "axis": {
+         "title": null,
+         "labelLimit": 260,
+         "labelExpr": {
+          "de": "{\"Z01\": \"Fische\", \"Z02\": \"Schwimmkrebse\", \"Z03\": \"Röhrenwürmer\", \"Z04\": \"Kammerschnecke\", \"Z05\": \"Seeschnecken\", \"Z06\": \"ächte Muscheln\", \"Z07\": \"Armfußmuscheln\", \"Z08\": \"Strahlthiere\", \"Z09\": \"Corallen\", \"Z10\": \"Wurzelfüßer\", \"Z11\": \"Seeschwämme\", \"Z12\": \"Seetange\", \"Z13\": \"Farne\", \"Z14\": \"Nadelhölzer\", \"C01\": \"Schwimmkrebse\", \"C02\": \"Ruderkrebse\", \"C03\": \"Gradhorn\", \"C04\": \"Keulenhorn\", \"C05\": \"Clymenien\", \"C06\": \"Goniatiten\", \"C07\": \"Schwimmschnecken\", \"C08\": \"Seeschnecken\", \"C09\": \"Muscheln\"}[datum.value] || ''",
+          "en": "{\"Z01\": \"fishes\", \"Z02\": \"ostracods (“swimming crustaceans”)\", \"Z03\": \"tube worms\", \"Z04\": \"chambered snail (nautiloid)\", \"Z05\": \"sea snails\", \"Z06\": \"true bivalves\", \"Z07\": \"brachiopods (lamp shells)\", \"Z08\": \"echinoderms (“radiates”)\", \"Z09\": \"corals\", \"Z10\": \"foraminifera (rhizopods)\", \"Z11\": \"sponges\", \"Z12\": \"seaweeds\", \"Z13\": \"ferns\", \"Z14\": \"conifers\", \"C01\": \"ostracods (“swimming crustaceans”)\", \"C02\": \"trilobites (“oar crustaceans”)\", \"C03\": \"straight-horn cephalopods (Orthoceras)\", \"C04\": \"club-horn cephalopods\", \"C05\": \"clymenias (coiled cephalopods)\", \"C06\": \"goniatites (coiled cephalopods)\", \"C07\": \"swimming snails (incl. 3 tentaculites)\", \"C08\": \"sea snails\", \"C09\": \"bivalves\"}[datum.value] || ''"
+         }
+        }
+       },
+       "x": {
+        "field": "species",
+        "type": "quantitative"
+       },
+       "text": {
+        "field": "wert"
+       }
+      }
+     },
+     {
+      "data": {
+       "name": "zechstein"
+      },
+      "transform": [
+       {
+        "aggregate": [
+         {
+          "op": "count",
+          "as": "n"
+         }
+        ]
+       },
+       {
+        "calculate": "'HZ'",
+        "as": "key"
+       }
+      ],
+      "mark": {
+       "type": "text",
+       "style": "label",
+       "align": "left",
+       "baseline": "middle",
+       "fontSize": 13
+      },
+      "encoding": {
+       "y": {
+        "field": "key",
+        "type": "nominal",
+        "scale": {
+         "domain": [
+          "HZ",
+          "Z06",
+          "Z07",
+          "Z05",
+          "Z09",
+          "Z01",
+          "Z02",
+          "Z14",
+          "Z03",
+          "Z12",
+          "Z08",
+          "Z10",
+          "Z11",
+          "Z13",
+          "Z04",
+          "LC",
+          "HC",
+          "C06",
+          "C05",
+          "C09",
+          "C07",
+          "C01",
+          "C03",
+          "C08",
+          "C04",
+          "C02"
+         ]
+        },
+        "sort": null,
+        "axis": {
+         "title": null,
+         "labelLimit": 260,
+         "labelExpr": {
+          "de": "{\"Z01\": \"Fische\", \"Z02\": \"Schwimmkrebse\", \"Z03\": \"Röhrenwürmer\", \"Z04\": \"Kammerschnecke\", \"Z05\": \"Seeschnecken\", \"Z06\": \"ächte Muscheln\", \"Z07\": \"Armfußmuscheln\", \"Z08\": \"Strahlthiere\", \"Z09\": \"Corallen\", \"Z10\": \"Wurzelfüßer\", \"Z11\": \"Seeschwämme\", \"Z12\": \"Seetange\", \"Z13\": \"Farne\", \"Z14\": \"Nadelhölzer\", \"C01\": \"Schwimmkrebse\", \"C02\": \"Ruderkrebse\", \"C03\": \"Gradhorn\", \"C04\": \"Keulenhorn\", \"C05\": \"Clymenien\", \"C06\": \"Goniatiten\", \"C07\": \"Schwimmschnecken\", \"C08\": \"Seeschnecken\", \"C09\": \"Muscheln\"}[datum.value] || ''",
+          "en": "{\"Z01\": \"fishes\", \"Z02\": \"ostracods (“swimming crustaceans”)\", \"Z03\": \"tube worms\", \"Z04\": \"chambered snail (nautiloid)\", \"Z05\": \"sea snails\", \"Z06\": \"true bivalves\", \"Z07\": \"brachiopods (lamp shells)\", \"Z08\": \"echinoderms (“radiates”)\", \"Z09\": \"corals\", \"Z10\": \"foraminifera (rhizopods)\", \"Z11\": \"sponges\", \"Z12\": \"seaweeds\", \"Z13\": \"ferns\", \"Z14\": \"conifers\", \"C01\": \"ostracods (“swimming crustaceans”)\", \"C02\": \"trilobites (“oar crustaceans”)\", \"C03\": \"straight-horn cephalopods (Orthoceras)\", \"C04\": \"club-horn cephalopods\", \"C05\": \"clymenias (coiled cephalopods)\", \"C06\": \"goniatites (coiled cephalopods)\", \"C07\": \"swimming snails (incl. 3 tentaculites)\", \"C08\": \"sea snails\", \"C09\": \"bivalves\"}[datum.value] || ''"
+         }
+        }
+       },
+       "x": {
+        "datum": 0
+       },
+       "text": {
+        "value": {
+         "de": "Zechstein von Gera: 95 Arten in 14 Gruppen",
+         "en": "Zechstein of Gera: 95 species in 14 groups"
+        }
+       }
+      }
      },
      {
       "data": {
        "name": "clymenien"
       },
-      "width": 440,
-      "height": {
-       "step": 21
-      },
-      "title": {
-       "text": {
-        "de": "Clymenienkalk: 42 Arten in 9 Gruppen",
-        "en": "Clymenia limestone: 42 species in 9 groups"
-       },
-       "anchor": "start",
-       "fontSize": 13,
-       "offset": 6
-      },
       "transform": [
        {
-        "calculate": {
-         "de": "datum.taxon",
-         "en": "datum.taxon_en"
-        },
-        "as": "label"
+        "calculate": "'C' + (datum.order < 10 ? '0' : '') + datum.order",
+        "as": "key"
        },
        {
         "calculate": {
@@ -2931,119 +2998,298 @@
         "as": "wert"
        }
       ],
+      "mark": {
+       "type": "bar",
+       "cornerRadiusEnd": 3
+      },
       "encoding": {
        "y": {
-        "field": "label",
+        "field": "key",
         "type": "nominal",
-        "sort": {
-         "field": "species",
-         "op": "max",
-         "order": "descending"
+        "scale": {
+         "domain": [
+          "HZ",
+          "Z06",
+          "Z07",
+          "Z05",
+          "Z09",
+          "Z01",
+          "Z02",
+          "Z14",
+          "Z03",
+          "Z12",
+          "Z08",
+          "Z10",
+          "Z11",
+          "Z13",
+          "Z04",
+          "LC",
+          "HC",
+          "C06",
+          "C05",
+          "C09",
+          "C07",
+          "C01",
+          "C03",
+          "C08",
+          "C04",
+          "C02"
+         ]
         },
+        "sort": null,
         "axis": {
          "title": null,
-         "labelLimit": 400,
-         "labelAlign": "left",
-         "labelPadding": 232,
-         "minExtent": 235
-        }
-       }
-      },
-      "layer": [
-       {
-        "mark": {
-         "type": "bar",
-         "cornerRadiusEnd": 3
-        },
-        "encoding": {
-         "x": {
-          "field": "species",
-          "type": "quantitative",
-          "scale": {
-           "domain": [
-            0,
-            30
-           ]
-          },
-          "axis": {
-           "title": {
-            "de": "Zahl der Arten",
-            "en": "Number of species"
-           },
-           "values": [
-            0,
-            5,
-            10,
-            15,
-            20,
-            25,
-            30
-           ]
-          }
-         },
-         "color": {
-          "condition": [
-           {
-            "test": "datum.klasse == 'bivalve'",
-            "value": "@accent"
-           },
-           {
-            "test": "datum.klasse == 'brachiopod'",
-            "value": "@accent2"
-           },
-           {
-            "test": "datum.klasse == 'cephalopod'",
-            "value": "@accent3"
-           }
-          ],
-          "value": "@context"
-         },
-         "tooltip": [
-          {
-           "field": "taxon",
-           "title": {
-            "de": "Gruppe (Liebe)",
-            "en": "Group (Liebe)"
-           }
-          },
-          {
-           "field": "taxon_en",
-           "title": {
-            "de": "Gruppe, englisch",
-            "en": "Group, English"
-           }
-          },
-          {
-           "field": "species",
-           "title": {
-            "de": "Arten",
-            "en": "Species"
-           }
-          }
-         ]
-        }
-       },
-       {
-        "mark": {
-         "type": "text",
-         "align": "left",
-         "dx": 5,
-         "style": "label"
-        },
-        "encoding": {
-         "x": {
-          "field": "species",
-          "type": "quantitative"
-         },
-         "text": {
-          "field": "wert"
+         "labelLimit": 260,
+         "labelExpr": {
+          "de": "{\"Z01\": \"Fische\", \"Z02\": \"Schwimmkrebse\", \"Z03\": \"Röhrenwürmer\", \"Z04\": \"Kammerschnecke\", \"Z05\": \"Seeschnecken\", \"Z06\": \"ächte Muscheln\", \"Z07\": \"Armfußmuscheln\", \"Z08\": \"Strahlthiere\", \"Z09\": \"Corallen\", \"Z10\": \"Wurzelfüßer\", \"Z11\": \"Seeschwämme\", \"Z12\": \"Seetange\", \"Z13\": \"Farne\", \"Z14\": \"Nadelhölzer\", \"C01\": \"Schwimmkrebse\", \"C02\": \"Ruderkrebse\", \"C03\": \"Gradhorn\", \"C04\": \"Keulenhorn\", \"C05\": \"Clymenien\", \"C06\": \"Goniatiten\", \"C07\": \"Schwimmschnecken\", \"C08\": \"Seeschnecken\", \"C09\": \"Muscheln\"}[datum.value] || ''",
+          "en": "{\"Z01\": \"fishes\", \"Z02\": \"ostracods (“swimming crustaceans”)\", \"Z03\": \"tube worms\", \"Z04\": \"chambered snail (nautiloid)\", \"Z05\": \"sea snails\", \"Z06\": \"true bivalves\", \"Z07\": \"brachiopods (lamp shells)\", \"Z08\": \"echinoderms (“radiates”)\", \"Z09\": \"corals\", \"Z10\": \"foraminifera (rhizopods)\", \"Z11\": \"sponges\", \"Z12\": \"seaweeds\", \"Z13\": \"ferns\", \"Z14\": \"conifers\", \"C01\": \"ostracods (“swimming crustaceans”)\", \"C02\": \"trilobites (“oar crustaceans”)\", \"C03\": \"straight-horn cephalopods (Orthoceras)\", \"C04\": \"club-horn cephalopods\", \"C05\": \"clymenias (coiled cephalopods)\", \"C06\": \"goniatites (coiled cephalopods)\", \"C07\": \"swimming snails (incl. 3 tentaculites)\", \"C08\": \"sea snails\", \"C09\": \"bivalves\"}[datum.value] || ''"
          }
         }
+       },
+       "x": {
+        "field": "species",
+        "type": "quantitative",
+        "scale": {
+         "domain": [
+          0,
+          28
+         ]
+        },
+        "axis": {
+         "title": {
+          "de": "Zahl der Arten",
+          "en": "Number of species"
+         },
+         "values": [
+          0,
+          5,
+          10,
+          15,
+          20,
+          25
+         ],
+         "grid": true
+        }
+       },
+       "color": {
+        "field": "klasse",
+        "type": "nominal",
+        "scale": {
+         "domain": [
+          "Muscheln",
+          "Armfüßer",
+          "Kopffüßer",
+          "übrige"
+         ],
+         "range": [
+          "@accent",
+          "@accent2",
+          "@accent3",
+          "@context"
+         ]
+        },
+        "legend": {
+         "title": null,
+         "symbolType": "square",
+         "labelExpr": {
+          "de": "datum.label",
+          "en": "{\"Muscheln\": \"bivalves\", \"Armfüßer\": \"brachiopods\", \"Kopffüßer\": \"cephalopods\", \"übrige\": \"other groups\"}[datum.label]"
+         }
+        }
+       },
+       "tooltip": [
+        {
+         "field": "taxon",
+         "title": {
+          "de": "Gruppe (Liebe)",
+          "en": "Group (Liebe)"
+         }
+        },
+        {
+         "field": "taxon_en",
+         "title": {
+          "de": "Gruppe, englisch",
+          "en": "Group, English"
+         }
+        },
+        {
+         "field": "wert",
+         "title": {
+          "de": "Arten",
+          "en": "Species"
+         }
+        },
+        {
+         "field": "klasse",
+         "title": {
+          "de": "Klasse",
+          "en": "Class"
+         }
+        }
+       ]
+      }
+     },
+     {
+      "data": {
+       "name": "clymenien"
+      },
+      "transform": [
+       {
+        "calculate": "'C' + (datum.order < 10 ? '0' : '') + datum.order",
+        "as": "key"
+       },
+       {
+        "calculate": {
+         "de": "isValid(datum.qualifier) && datum.qualifier == 'über' ? 'über ' + datum.species : '' + datum.species",
+         "en": "isValid(datum.qualifier) && datum.qualifier == 'über' ? 'over ' + datum.species : '' + datum.species"
+        },
+        "as": "wert"
+       },
+       {
+        "filter": "datum.klasse != 'übrige'"
        }
-      ]
+      ],
+      "mark": {
+       "type": "text",
+       "style": "label",
+       "align": "left",
+       "baseline": "middle",
+       "dx": 5
+      },
+      "encoding": {
+       "y": {
+        "field": "key",
+        "type": "nominal",
+        "scale": {
+         "domain": [
+          "HZ",
+          "Z06",
+          "Z07",
+          "Z05",
+          "Z09",
+          "Z01",
+          "Z02",
+          "Z14",
+          "Z03",
+          "Z12",
+          "Z08",
+          "Z10",
+          "Z11",
+          "Z13",
+          "Z04",
+          "LC",
+          "HC",
+          "C06",
+          "C05",
+          "C09",
+          "C07",
+          "C01",
+          "C03",
+          "C08",
+          "C04",
+          "C02"
+         ]
+        },
+        "sort": null,
+        "axis": {
+         "title": null,
+         "labelLimit": 260,
+         "labelExpr": {
+          "de": "{\"Z01\": \"Fische\", \"Z02\": \"Schwimmkrebse\", \"Z03\": \"Röhrenwürmer\", \"Z04\": \"Kammerschnecke\", \"Z05\": \"Seeschnecken\", \"Z06\": \"ächte Muscheln\", \"Z07\": \"Armfußmuscheln\", \"Z08\": \"Strahlthiere\", \"Z09\": \"Corallen\", \"Z10\": \"Wurzelfüßer\", \"Z11\": \"Seeschwämme\", \"Z12\": \"Seetange\", \"Z13\": \"Farne\", \"Z14\": \"Nadelhölzer\", \"C01\": \"Schwimmkrebse\", \"C02\": \"Ruderkrebse\", \"C03\": \"Gradhorn\", \"C04\": \"Keulenhorn\", \"C05\": \"Clymenien\", \"C06\": \"Goniatiten\", \"C07\": \"Schwimmschnecken\", \"C08\": \"Seeschnecken\", \"C09\": \"Muscheln\"}[datum.value] || ''",
+          "en": "{\"Z01\": \"fishes\", \"Z02\": \"ostracods (“swimming crustaceans”)\", \"Z03\": \"tube worms\", \"Z04\": \"chambered snail (nautiloid)\", \"Z05\": \"sea snails\", \"Z06\": \"true bivalves\", \"Z07\": \"brachiopods (lamp shells)\", \"Z08\": \"echinoderms (“radiates”)\", \"Z09\": \"corals\", \"Z10\": \"foraminifera (rhizopods)\", \"Z11\": \"sponges\", \"Z12\": \"seaweeds\", \"Z13\": \"ferns\", \"Z14\": \"conifers\", \"C01\": \"ostracods (“swimming crustaceans”)\", \"C02\": \"trilobites (“oar crustaceans”)\", \"C03\": \"straight-horn cephalopods (Orthoceras)\", \"C04\": \"club-horn cephalopods\", \"C05\": \"clymenias (coiled cephalopods)\", \"C06\": \"goniatites (coiled cephalopods)\", \"C07\": \"swimming snails (incl. 3 tentaculites)\", \"C08\": \"sea snails\", \"C09\": \"bivalves\"}[datum.value] || ''"
+         }
+        }
+       },
+       "x": {
+        "field": "species",
+        "type": "quantitative"
+       },
+       "text": {
+        "field": "wert"
+       }
+      }
+     },
+     {
+      "data": {
+       "name": "clymenien"
+      },
+      "transform": [
+       {
+        "aggregate": [
+         {
+          "op": "count",
+          "as": "n"
+         }
+        ]
+       },
+       {
+        "calculate": "'HC'",
+        "as": "key"
+       }
+      ],
+      "mark": {
+       "type": "text",
+       "style": "label",
+       "align": "left",
+       "baseline": "middle",
+       "fontSize": 13
+      },
+      "encoding": {
+       "y": {
+        "field": "key",
+        "type": "nominal",
+        "scale": {
+         "domain": [
+          "HZ",
+          "Z06",
+          "Z07",
+          "Z05",
+          "Z09",
+          "Z01",
+          "Z02",
+          "Z14",
+          "Z03",
+          "Z12",
+          "Z08",
+          "Z10",
+          "Z11",
+          "Z13",
+          "Z04",
+          "LC",
+          "HC",
+          "C06",
+          "C05",
+          "C09",
+          "C07",
+          "C01",
+          "C03",
+          "C08",
+          "C04",
+          "C02"
+         ]
+        },
+        "sort": null,
+        "axis": {
+         "title": null,
+         "labelLimit": 260,
+         "labelExpr": {
+          "de": "{\"Z01\": \"Fische\", \"Z02\": \"Schwimmkrebse\", \"Z03\": \"Röhrenwürmer\", \"Z04\": \"Kammerschnecke\", \"Z05\": \"Seeschnecken\", \"Z06\": \"ächte Muscheln\", \"Z07\": \"Armfußmuscheln\", \"Z08\": \"Strahlthiere\", \"Z09\": \"Corallen\", \"Z10\": \"Wurzelfüßer\", \"Z11\": \"Seeschwämme\", \"Z12\": \"Seetange\", \"Z13\": \"Farne\", \"Z14\": \"Nadelhölzer\", \"C01\": \"Schwimmkrebse\", \"C02\": \"Ruderkrebse\", \"C03\": \"Gradhorn\", \"C04\": \"Keulenhorn\", \"C05\": \"Clymenien\", \"C06\": \"Goniatiten\", \"C07\": \"Schwimmschnecken\", \"C08\": \"Seeschnecken\", \"C09\": \"Muscheln\"}[datum.value] || ''",
+          "en": "{\"Z01\": \"fishes\", \"Z02\": \"ostracods (“swimming crustaceans”)\", \"Z03\": \"tube worms\", \"Z04\": \"chambered snail (nautiloid)\", \"Z05\": \"sea snails\", \"Z06\": \"true bivalves\", \"Z07\": \"brachiopods (lamp shells)\", \"Z08\": \"echinoderms (“radiates”)\", \"Z09\": \"corals\", \"Z10\": \"foraminifera (rhizopods)\", \"Z11\": \"sponges\", \"Z12\": \"seaweeds\", \"Z13\": \"ferns\", \"Z14\": \"conifers\", \"C01\": \"ostracods (“swimming crustaceans”)\", \"C02\": \"trilobites (“oar crustaceans”)\", \"C03\": \"straight-horn cephalopods (Orthoceras)\", \"C04\": \"club-horn cephalopods\", \"C05\": \"clymenias (coiled cephalopods)\", \"C06\": \"goniatites (coiled cephalopods)\", \"C07\": \"swimming snails (incl. 3 tentaculites)\", \"C08\": \"sea snails\", \"C09\": \"bivalves\"}[datum.value] || ''"
+         }
+        }
+       },
+       "x": {
+        "datum": 0
+       },
+       "text": {
+        "value": {
+         "de": "Clymenienkalk: 42 Arten in 9 Gruppen",
+         "en": "Clymenia limestone: 42 species in 9 groups"
+        }
+       }
+      }
      }
-    ],
-    "spacing": 22
+    ]
    }
   }
  ],
@@ -3081,6 +3327,5 @@
   "bergbau",
   "landwirtschaft"
  ],
- "generated_by": "Claude Sonnet 5.5 (Agent F1), aus 3 Einzelauswertungen zusammengeführt",
  "date": "2026-10-02"
 }

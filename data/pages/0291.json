@@ -152,9 +152,13 @@
    "id": "b9",
    "type": "paragraph",
    "src": 8,
-   "text": "Als Flächenmaaß*) ist für die Landesvermessung der preußische (magdebur=",
+   "text": "Als Flächenmaaß*) ist für die Landesvermessung der preußische (magdebur-",
    "spans": [],
    "continues": true,
+   "word_division": {
+    "word": "(magdeburger",
+    "part": "(magdebur-"
+   },
    "sec": "t1-4-3"
   }
  ],
@@ -166,7 +170,13 @@
    "spans": []
   }
  ],
- "corrections": [],
+ "corrections": [
+  {
+   "rule": "fraktur_double_hyphen",
+   "before": "he (magdebur=",
+   "after": "he (magdebur-"
+  }
+ ],
  "provenance": {
   "source": "colab-2026-03",
   "model": "gemini-3-flash-preview",

@@ -7,34 +7,41 @@ A = {i: archive(i) for i in IDS}
 a_haus, a_schuld, a_vers = (A[k] for k in IDS)
 
 # ---------------------------------------------------------------- datasets
-ds_haushalt = dataset(a_haus, "structure", new_name="haushalt")
+ds_haushalt = dataset(a_haus, "structure", new_name="haushalt", drop_cols=("side_key", "comp_key"))
 haushalt = rows(ds_haushalt)
-TOTAL_REV = sum(r["thaler"] for r in haushalt if r["side_key"] == "a_einnahmen")
-TOTAL_EXP = sum(r["thaler"] for r in haushalt if r["side_key"] == "b_ausgaben")
+TOTAL_REV = sum(r["thaler"] for r in haushalt if r["side_de"] == "Einnahmen")
+TOTAL_EXP = sum(r["thaler"] for r in haushalt if r["side_de"] == "Ausgaben")
 assert (TOTAL_REV, TOTAL_EXP) == (296000, 290000)
 assert_in_page("276", "296,000")
 assert_in_page("276", "290,000")
 
-ds_income = dataset(a_haus, "income", add_cols=[(col("share_pct", "Anteil an den veranschlagten Einnahmen", "Share of budgeted revenue", "number", "%", True,
+ds_income = dataset(a_haus, "income", drop_cols=("item_key", "group_key"), add_cols=[(col("share_pct", "Anteil an den veranschlagten Einnahmen", "Share of budgeted revenue", "number", "%", True,
                                                       f"Posten : {TOTAL_REV} Taler (Gesamtvoranschlag S. 276)"),
                                                  lambda r: r["thaler"] / TOTAL_REV * 100)])
 ds_debt = dataset(a_schuld, "debt")
 ds_notes = dataset(a_schuld, "notes")
-ds_places = dataset(a_vers, "places")
+ds_places = dataset(a_vers, "places", drop_cols=("key", "kind_key"))
+GROUP_NAMES = {"indirekt": ("Indirekte Steuern", "Indirect taxes"), "direkt": ("Direkte Steuern", "Direct taxes")}
+group_cols = [c["name"] for c in ds_income["columns"]]
+for row in ds_income["rows"]:
+    de_name, en_name = GROUP_NAMES[row[group_cols.index("group_de")]]
+    row[group_cols.index("group_de")], row[group_cols.index("group_en")] = de_name, en_name
 
+ds_income["title"]["en"] = "Budgeted tax revenue by item"
+ds_haushalt["title"]["en"] = "Structure of revenue and expenditure (budget)"
 income, debt, notes, places = rows(ds_income), rows(ds_debt), rows(ds_notes), rows(ds_places)
 
 # ---------------------------------------------------------------- numbers
-ind = sum(r["thaler"] for r in income if r["group_key"] == "a_ind")
-dirc = sum(r["thaler"] for r in income if r["group_key"] == "b_dir")
+ind = sum(r["thaler"] for r in income if r["group_de"] == "Indirekte Steuern")
+dirc = sum(r["thaler"] for r in income if r["group_de"] == "Direkte Steuern")
 rest = TOTAL_REV - ind - dirc
 share_ind, share_dir, share_rest = (x / TOTAL_REV * 100 for x in (ind, dirc, rest))
 assert ind == 154650 and dirc == 81160 and rest == 60190
 assert share_ind > 50
-zoll = next(r for r in income if r["item_key"] == "zoll")
-mil = next(r for r in haushalt if r["comp_key"] == "d_mil")["thaler"]
-chs = next(r for r in haushalt if r["comp_key"] == "e_chs")["thaler"]
-geb = next(r for r in haushalt if r["comp_key"] == "f_geb")["thaler"]
+zoll = next(r for r in income if r["item_de"].startswith("Zölle"))
+mil = next(r for r in haushalt if r["comp_de"] == "Militär")["thaler"]
+chs = next(r for r in haushalt if r["comp_de"] == "Chausseeunterhaltung")["thaler"]
+geb = next(r for r in haushalt if r["comp_de"] == "Gebäude und Wege")["thaler"]
 named_exp = mil + chs + geb
 named_share = named_exp / TOTAL_EXP * 100
 mil_share = mil / TOTAL_EXP * 100
@@ -52,8 +59,8 @@ bld = sum(r["buildings"] for r in places)
 val = sum(r["buildings_value"] for r in places)
 assert (bld, val) == (18773, 20079612)
 assert_in_page("304", "18773") and assert_in_page("304", "20079612")
-town = [r for r in places if r["kind_key"] == "a"]
-land = [r for r in places if r["kind_key"] == "b"]
+town = [r for r in places if r["kind_de"] == "Stadt"]
+land = [r for r in places if r["kind_de"] == "Land"]
 t_avg = sum(r["buildings_value"] for r in town) / sum(r["buildings"] for r in town)
 l_avg = sum(r["buildings_value"] for r in land) / sum(r["buildings"] for r in land)
 land_b = sum(r["buildings"] for r in land) / bld * 100
@@ -84,11 +91,11 @@ findings = [
     {"de": (f"Von den veranschlagten Ausgaben ({de(TOTAL_EXP)} Taler) nennt Brückner nur {de(named_share, 1)} Prozent einzeln: Militär {de(mil)}, "
             f"Chausseeunterhaltung {de(chs)}, Staatsgebäude und Wege {de(geb)} Taler."),
      "en": (f"Of the budgeted expenditure ({en(TOTAL_EXP)} thalers) Brückner itemises only {en(named_share, 1)} percent: military {en(mil)}, "
-            f"road maintenance {en(chs)}, state buildings and paths {en(geb)} thalers.")},
+            f"road maintenance {en(chs)}, state buildings and roads {en(geb)} thalers.")},
     {"de": (f"Zur verzinslichen Schuld treten {de(KASSENSCHEINE)} Taler unverzinsliche Kassenscheine. Mit {de(head, 2)} Talern Kassenscheinen je Kopf steht Reuß j. L. "
             f"an dritter Stelle von zehn verglichenen Staaten."),
      "en": (f"In addition to the interest-bearing debt there are {en(KASSENSCHEINE)} thalers of non-interest-bearing treasury notes. At {en(head, 2)} thalers of notes per head, "
-            f"Reuss (Younger Line) ranks third among ten states compared.")},
+            f"Reuss (Younger Line) ranks third of the ten states compared.")},
     {"de": (f"Auf dem Land standen {de(land_b)} Prozent der versicherten Gebäude, aber nur {de(land_v)} Prozent der Versicherungssumme; "
             f"in den sechs Städten {de(town_b)} und {de(town_v)} Prozent."),
      "en": (f"Rural communities held {en(land_b)} percent of the insured buildings but only {en(land_v)} percent of the insured sum; "
@@ -102,9 +109,7 @@ charts = [
                "en": f"More than half of state revenue came from indirect taxes, a third from customs and levies"},
      "caption": {"de": f"Veranschlagte Steuereinnahmen je Jahr in Talern, Anteil an den Gesamteinnahmen von {de(TOTAL_REV)} Talern. Die genannten Steuern machen {de(share_ind + share_dir, 1)} Prozent aus; der Rest ({de(rest)} Taler) ist nicht aufgeschlüsselt. Quelle: S. 276–277.",
                  "en": f"Budgeted tax revenue per year in thalers, share of the total revenue of {en(TOTAL_REV)} thalers. The taxes named make up {en(share_ind + share_dir, 1)} percent; the rest ({en(rest)} thalers) is not itemised. Source: pp. 276–277."},
-     "vegalite": C.revenue_chart(
-         f"Indirekte Steuern: {de(ind)} Taler ({de(share_ind)} % der Einnahmen)", f"Indirect taxes: {en(ind)} thalers ({en(share_ind)}% of revenue)",
-         f"Direkte Steuern: {de(dirc)} Taler ({de(share_dir)} %)", f"Direct taxes: {en(dirc)} thalers ({en(share_dir)}%)")},
+     "vegalite": C.revenue_chart(TOTAL_REV)},
     {"id": "c2", "dataset": "debt", "extra_datasets": ["haushalt"],
      "title": {"de": f"Die verzinsliche Staatsschuld sank von 1857 bis 1866 um {de(-debt_chg)} Prozent, lag aber über den Jahreseinnahmen",
                "en": f"The interest-bearing debt fell {en(-debt_chg)} percent from 1857 to 1866 but stayed above annual revenue"},
@@ -140,7 +145,7 @@ caveats = [
     {"de": ("Die Militärkosten gibt Brückner »auf die Finanzperiode 1866/68« an; hier sind sie wie die Gesamtsummen als Jahresbetrag gelesen. Bezöge sich die Zahl auf alle drei Jahre, läge ihr Anteil bei einem Drittel."),
      "en": ("Brückner gives the military costs “for the financial period 1866/68”; like the overall totals they are read here as an annual amount. If the figure covered all three years, its share would be a third.")},
     {"de": ("Für 1862 bis 1865 fehlen Werte der Staatsschuld. Das Jahr der 320.000 Taler Kassenscheine und des Staatenvergleichs nennt Brückner nicht. Die Versicherungssummen sind Versicherungswerte, keine Schätzungen des Gebäudewerts; "
-            "Gera, Lobenstein, Tanna und Wurzbach sind von der magdeburger Landfeuersocietät ausgeschlossen."),
+            "Gera, Lobenstein, Tanna und Wurzbach sind von der Magdeburger Landfeuersocietät ausgeschlossen."),
      "en": ("Values for the public debt are missing for 1862 to 1865. Brückner does not give the year of the 320,000 thalers of treasury notes or of the comparison of states. The insured sums are insurance values, not estimates of the value of the buildings; "
             "Gera, Lobenstein, Tanna and Wurzbach are excluded from the Magdeburg fire society.")},
 ]
@@ -165,7 +170,6 @@ a = {
         "de": ["Staatshaushalt", "Steuern", "Staatsschuld", "Kassenscheine", "Feuerversicherung", "Zölle", "Salzregie", "Reuß jüngerer Linie"],
         "en": ["state budget", "taxes", "public debt", "treasury notes", "fire insurance", "customs duties", "salt monopoly", "Reuss Younger Line"]},
     "related": ["verfassung-verwaltung", "handel-verkehr", "bergbau", "siedlung-wohnen"],
-    "generated_by": GENERATED_BY.format(n=len(IDS)),
     "date": DATE,
 }
 for i in IDS:

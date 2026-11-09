@@ -145,7 +145,7 @@ c1 = {
                       "detail": {"field": "abschnitt"}, "order": {"field": "folge"}}},
         {"data": {"name": "orte_basis"}, "mark": {"type": "circle", "size": 8, "color": "@land", "opacity": 1},
          "encoding": {"longitude": {"field": "lon", "type": "quantitative"}, "latitude": {"field": "lat", "type": "quantitative"}}},
-        {"transform": [{"filter": "isValid(datum.lon) && isValid(datum.lat) && datum.in_klammern == 0"}],
+        {"transform": [{"filter": "isValid(datum.lon) && isValid(datum.lat) && datum.in_klammern == 'nein'"}],
          "mark": {"type": "circle", "size": 78, "stroke": "@paper", "strokeWidth": 0.8, "opacity": 1},
          "encoding": {"longitude": {"field": "lon", "type": "quantitative"}, "latitude": {"field": "lat", "type": "quantitative"},
                       "color": {"field": "hoehe_mitte_m", "type": "quantitative",
@@ -170,7 +170,7 @@ for style in ("place-halo", "place-label"):
 c2 = {
     "height": 300,
     "layer": [
-        {"transform": [{"filter": "datum.in_klammern == 0"}],
+        {"transform": [{"filter": "datum.in_klammern == 'nein'"}],
          "mark": {"type": "bar", "opacity": 0.78, "cornerRadiusEnd": 0},
          "encoding": {"x": {"field": "hoehe_mitte_m", "type": "quantitative", "bin": {"step": 25}, "scale": {"domain": [150, 750], "zero": False, "nice": False},
                             "axis": {"title": {"de": "Höhe über dem Meer in m (Mitte der Spanne des Ortes)", "en": "Altitude above sea level in m (midpoint of the place’s range)"},
@@ -181,16 +181,17 @@ c2 = {
                       "tooltip": [{"field": "landesteil", "title": {"de": "Landesteil", "en": "Part"}},
                                   {"field": "hoehe_mitte_m", "bin": {"step": 25}, "title": {"de": "Höhenklasse (m)", "en": "Altitude class (m)"}},
                                   {"aggregate": "count", "title": {"de": "Wohnpunkte", "en": "Inhabited points"}}]}},
-        {"transform": [{"filter": "datum.in_klammern == 0"},
+        {"transform": [{"filter": "datum.in_klammern == 'nein'"},
                        {"aggregate": [{"op": "median", "field": "hoehe_mitte_m", "as": "med"}], "groupby": ["landesteil"]},
                        {"calculate": {"de": "datum.landesteil + ': Median ' + format(datum.med, '.0f') + ' m'", "en": "datum.landesteil + ': median ' + format(datum.med, '.0f') + ' m'"}, "as": "label"}],
          "mark": {"type": "rule", "strokeWidth": 2},
          "encoding": {"x": {"field": "med", "type": "quantitative"},
                       "color": {"field": "landesteil", "type": "nominal", "scale": LAND_SCALE, "legend": None}}},
-        {"transform": [{"filter": "datum.in_klammern == 0"},
+        {"transform": [{"filter": "datum.in_klammern == 'nein'"},
                        {"aggregate": [{"op": "median", "field": "hoehe_mitte_m", "as": "med"}], "groupby": ["landesteil"]},
                        {"calculate": {"de": "datum.landesteil + ': Median ' + format(datum.med, '.0f') + ' m'", "en": "datum.landesteil + ': median ' + format(datum.med, '.0f') + ' m'"}, "as": "label"}],
-         "mark": {"type": "text", "style": "label", "baseline": "bottom", "dy": -4, "align": {"expr": "datum.landesteil == 'Unterland' ? 'right' : 'left'"}, "dx": {"expr": "datum.landesteil == 'Unterland' ? -6 : 6"}},
+         "mark": {"type": "text", "style": "label", "baseline": "bottom", "dy": {"expr": "datum.landesteil == 'Unterland' ? -20 : -4"},
+                  "align": {"expr": "datum.landesteil == 'Unterland' ? 'left' : 'right'"}, "dx": {"expr": "datum.landesteil == 'Unterland' ? 6 : -6"}},
          "encoding": {"x": {"field": "med", "type": "quantitative"}, "y": {"value": 0},
                       "text": {"field": "label"},
                       "color": {"field": "landesteil", "type": "nominal", "scale": LAND_SCALE, "legend": None}}},
@@ -262,45 +263,64 @@ c2["layer"].append({
                  "text": {"value": {"de": "Überschneidung", "en": "overlap"}}}})
 
 
-# c3: highest named mountains versus highest inhabited point, per part
-def summit_panel(part, color, title, last):
-    top6 = [{"filter": f"datum.landesteil == '{part}' && datum.in_klammern == 0 && datum.art == 'Berg, Hügel (benannt)'"},
-            {"window": [{"op": "row_number", "as": "rang"}], "sort": [{"field": "hoehe_m", "order": "descending"}]},
-            {"filter": "datum.rang <= 6"},
-            {"calculate": "replace(datum.kurzname, /\s*\([^)]*\)/g, '')", "as": "label"}]
-    xs = {"type": "quantitative", "scale": {"domain": [150, 800]}}
-    return {
-        "width": 480,
-        "height": {"step": 24},
-        "title": {"text": title, "anchor": "start", "fontSize": 13, "offset": 6},
-        "encoding": {"y": {"field": "label", "type": "nominal", "sort": {"field": "hoehe_m", "order": "descending"},
-                           "axis": {"title": None, "labelLimit": 400, "labelAlign": "left", "labelPadding": 212, "minExtent": 215}}},
-        "layer": [
-            {"transform": top6, "mark": {"type": "rule", "strokeWidth": 1.6, "color": "@context"},
-             "encoding": {"x": {"field": "hoehe_m", **xs}, "x2": {"datum": 150}}},
-            {"transform": top6, "mark": {"type": "point", "filled": True, "size": 90, "color": color, "opacity": 1},
-             "encoding": {"x": {"field": "hoehe_m", **xs,
-                                "axis": {"title": ({"de": "Höhe über dem Meer in m", "en": "Altitude above sea level in m"} if last else None),
-                                         "values": [200, 300, 400, 500, 600, 700], "format": "d"}},
-                          "tooltip": tooltip(("name", "Berg", "Mountain"), ("hoehe_fuss", "preuß. Dezimalfuß", "Prussian decimal feet", ",.1~f"),
-                                             ("hoehe_m", "Meter", "Meters", ".0f"), ("seite", "Seite", "Page"))}},
-            {"transform": top6 + [{"calculate": "format(datum.hoehe_m, '.0f') + ' m'", "as": "wert"}], "mark": {"type": "text", "style": "label", "align": "right"},
-             "encoding": {"x": {"datum": 800, "type": "quantitative"}, "text": {"field": "wert"}}},
-            {"data": {"name": "places"},
-             "transform": [{"filter": f"datum.landesteil == '{part}' && datum.in_klammern == 0"},
-                           {"aggregate": [{"op": "max", "field": "hoehe_mitte_m", "as": "hoechster_ort"}]}],
-             "mark": {"type": "rule", "strokeDash": [4, 3], "strokeWidth": 1.6, "color": "@ink2"},
-             "encoding": {"x": {"field": "hoechster_ort", "type": "quantitative"}, "y": None}},
-        ],
-    }
+# c3: the six highest named mountains of each part and its highest inhabited place, measured from that place
+def summit_label(h):
+    return re.sub(r"\s*\([^)]*\)", "", h["kurzname"])
 
 
-c3 = {"vconcat": [
-    summit_panel("Oberland", OBER, {"de": f"Oberland (gestrichelt: höchster bewohnter Punkt, {top_o['name']} {de(top_o['hoehe_mitte_m'], 0)} m)",
-                                    "en": f"Oberland (dashed: highest inhabited point, {top_o['name']} {en(top_o['hoehe_mitte_m'], 0)} m)"}, False),
-    summit_panel("Unterland", UNTER, {"de": f"Unterland (gestrichelt: höchster bewohnter Punkt, {top_u['name']} {de(top_u['hoehe_mitte_m'], 0)} m)",
-                                      "en": f"Unterland (dashed: highest inhabited point, {top_u['name']} {en(top_u['hoehe_mitte_m'], 0)} m)"}, True),
-], "spacing": 24}
+top_inhabited = {"Oberland": top_o, "Unterland": top_u}
+summit_domain, summit_names_de, summit_names_en = [], {}, {}
+for part in ("Oberland", "Unterland"):
+    named = [h for h in hs if h["landesteil"] == part and not h["in_klammern"] and h["art"] == "Berg, Hügel (benannt)"]
+    rows_part = [(h["hoehe_m"], f"{part[0]}|{summit_label(h)}", summit_label(h)) for h in sorted(named, key=lambda h: -h["hoehe_m"])[:6]]
+    ref = top_inhabited[part]
+    rows_part.append((ref["hoehe_mitte_m"], f"{part[0]}|ref", ref["name"]))
+    rows_part.sort(key=lambda t: -t[0])
+    summit_domain += ([] if part == "Oberland" else ["gap"]) + [f"H{part[0]}"] + [k for _, k, _ in rows_part]
+    summit_names_de[f"H{part[0]}"] = summit_names_en[f"H{part[0]}"] = part
+    for height, k, name in rows_part:
+        suffix_de, suffix_en = (" (bewohnt)", " (inhabited)") if k.endswith("|ref") else ("", "")
+        summit_names_de[k] = f"{name}{suffix_de}, {de(height, 0)} m"
+        summit_names_en[k] = f"{name}{suffix_en}, {en(height, 0)} m"
+ref_expr = f"datum.landesteil == 'Oberland' ? {top_o['hoehe_mitte_m']} : {top_u['hoehe_mitte_m']}"
+summit_y = {"field": "key", "type": "nominal", "scale": {"domain": summit_domain}, "sort": None,
+            "axis": {"title": None, "labelLimit": 260,
+                     "labelExpr": {"de": f"{js_map(summit_names_de)}[datum.value] || ''", "en": f"{js_map(summit_names_en)}[datum.value] || ''"},
+                     "labelFontWeight": {"condition": {"test": "datum.value[0] == 'H' || indexof(datum.value, '|ref') > 0", "value": 600}, "value": 400},
+                     "labelFontSize": {"condition": {"test": "datum.value[0] == 'H'", "value": 13}, "value": 12}}}
+summit_tf = [{"calculate": r"replace(datum.kurzname, /\s*\([^)]*\)/g, '')", "as": "label"},
+             {"calculate": "substring(datum.landesteil, 0, 1) + '|' + datum.label", "as": "key"},
+             {"filter": f"indexof({js_map(summit_domain)}, datum.key) >= 0"},
+             {"calculate": f"datum.hoehe_m - ({ref_expr})", "as": "ueber"},
+             {"calculate": "round(datum.ueber) == 0 ? '±0' : (datum.ueber > 0 ? '+' : '−') + format(abs(datum.ueber), '.0f')", "as": "ueber_label"}]
+c3 = {
+    "height": {"step": 24},
+    "transform": summit_tf,
+    "layer": [
+        {"mark": {"type": "bar", "cornerRadiusEnd": 3},
+         "encoding": {"y": summit_y,
+                      "x": {"field": "ueber", "type": "quantitative", "scale": {"domain": [-24, 30]},
+                            "axis": {"title": {"de": "Meter über dem höchsten bewohnten Punkt", "en": "Meters above the highest inhabited place"},
+                                     "titleAnchor": "end", "titleLimit": 400,
+                                     "values": [-20, -10, 0, 10, 20], "grid": True, "labelExpr": "(datum.value > 0 ? '+' : '') + datum.value"}},
+                      "x2": {"datum": 0},
+                      "color": {"condition": [{"test": "datum.ueber < 0", "value": "@context"},
+                                              {"test": "datum.landesteil == 'Oberland'", "value": OBER}], "value": UNTER},
+                      "tooltip": tooltip(("name", "Berg", "Mountain"), ("hoehe_fuss", "preuß. Dezimalfuß", "Prussian decimal feet", ",.1~f"),
+                                         ("hoehe_m", "Meter", "Meters", ".0f"), ("ueber", "über dem höchsten bewohnten Punkt (m)", "above the highest inhabited place (m)", "+.0f"),
+                                         ("seite", "Seite", "Page"))}},
+        {"mark": {"type": "text", "style": "label", "baseline": "middle",
+                  "align": {"expr": "datum.ueber < 0 ? 'right' : 'left'"}, "dx": {"expr": "datum.ueber < 0 ? -5 : 5"}},
+         "encoding": {"y": summit_y, "x": {"field": "ueber", "type": "quantitative"}, "text": {"field": "ueber_label"}}},
+        {"data": {"name": "places"},
+         "transform": [{"filter": f"(datum.landesteil == 'Oberland' && datum.name == '{top_o['name']}') || (datum.landesteil == 'Unterland' && datum.name == '{top_u['name']}')"},
+                       {"calculate": "substring(datum.landesteil, 0, 1) + '|ref'", "as": "key"}],
+         "mark": {"type": "point", "shape": "diamond", "filled": True, "size": 90, "color": "@ink"},
+         "encoding": {"y": summit_y, "x": {"datum": 0},
+                      "tooltip": tooltip(("name", "Höchster bewohnter Punkt", "Highest inhabited place"), ("hoehe_mitte_m", "Meter", "Meters", ".0f"),
+                                         ("seite", "Seite", "Page"))}},
+    ],
+}
 
 # ------------------------------------------------------------------ texts
 over_o = summit_o["hoehe_m"] - top_o["hoehe_mitte_m"]
@@ -312,38 +332,38 @@ elster_exit = lv[("Unterland", "tiefster Punkt")]
 lead_de = (f"Brückner verzeichnet die Meereshöhe von {n_all_places} bewohnten Punkten und {n_heights} Höhenpunkten in preußischen Dezimalfuß. Umgerechnet liegen die "
            f"Wohnpunkte des Unterlandes im Median bei {de(med_u, 0)} m, die des Oberlandes bei {de(med_o, 0)} m. Höchster Punkt ist der Fichteberg im Frankenwald "
            f"mit {de(summit_o['hoehe_m'], 0)} m; die Elster verlässt das Land bei {de(elster_exit, 0)} m.")
-lead_en = (f"Brückner lists the altitude of {n_all_places} inhabited points and {n_heights} height points in Prussian decimal feet. Converted, the inhabited points "
+lead_en = (f"Brückner lists the altitude of {n_all_places} inhabited places and {n_heights} hills and other points in Prussian decimal feet. Converted, the inhabited places "
            f"of the Unterland lie at a median of {en(med_u, 0)} m, those of the Oberland at {en(med_o, 0)} m. The highest point is the Fichteberg in the Frankenwald "
            f"at {en(summit_o['hoehe_m'], 0)} m; the Elster leaves the country at {en(elster_exit, 0)} m.")
 f1_de = (f"Eine Ausgleichsebene durch {fit_o['n']} Orte des Oberlandes fällt mit {de(fit_o['grad'], 1)} m je km nach Nordosten ({de(fit_o['azim'], 0)}°), wie Brückner schreibt. "
-         f"Im Unterland erklärt die Lage kaum etwas (R² {de(fit_u['r2'], 2)}).")
+         f"Im Unterland erklärt die Lage die Höhe kaum (R² {de(fit_u['r2'], 2)}).")
 f1_en = (f"A plane fitted through {fit_o['n']} places of the Oberland falls {en(fit_o['grad'], 1)} m per km toward the northeast ({en(fit_o['azim'], 0)}°), as Brückner writes. "
-         f"In the Unterland position explains little (R² {en(fit_u['r2'], 2)}).")
+         f"In the Unterland, location explains little of the altitude (R² {en(fit_u['r2'], 2)}).")
 f2_de = (f"Nur {above_o} der {n_h_o} Höhenpunkte des Oberlandes und {above_u} der {n_h_u} des Unterlandes liegen über dem höchsten bewohnten Punkt.")
-f2_en = (f"Only {above_o} of the {n_h_o} height points of the Oberland and {above_u} of the {n_h_u} of the Unterland lie above the highest inhabited point.")
+f2_en = (f"Only {above_o} of the Oberland’s {n_h_o} measured heights and {above_u} of the Unterland’s {n_h_u} lie above the highest inhabited place.")
 f3_de = (f"Im Unterland enden {de(share('Unterland', '-berg'), 0)} Prozent der {tot['Unterland']} genannten Bergnamen auf -berg, im Oberland {de(share('Oberland', '-berg'), 0)} Prozent "
          f"von {tot['Oberland']}; Namen auf -bühl gibt es nur im Oberland ({cnt[('Oberland', '-bühl')]}).")
 f3_en = (f"In the Unterland {en(share('Unterland', '-berg'), 0)} percent of the {tot['Unterland']} mountain names end in -berg, in the Oberland {en(share('Oberland', '-berg'), 0)} percent "
          f"of {tot['Oberland']}; names in -bühl occur only in the Oberland ({cnt[('Oberland', '-bühl')]}).")
 
 title1_de = f"Die Höhe der Orte sinkt von {de(hi_map['hoehe_mitte_m'], 0)} m im Südwesten auf {de(lo_map['hoehe_mitte_m'], 0)} m an der Elster"
-title1_en = f"Altitude of places falls from {en(hi_map['hoehe_mitte_m'], 0)} m in the southwest to {en(lo_map['hoehe_mitte_m'], 0)} m on the Elster"
+title1_en = f"The places drop from {en(hi_map['hoehe_mitte_m'], 0)} m in the southwest to {en(lo_map['hoehe_mitte_m'], 0)} m on the Elster"
 cap1_de = (f"{len(mapped)} von {n_orte} Orten mit Höhenangabe, an der heutigen Ortslage (GeoNames) gekartet. Farbe: Mitte der gedruckten Höhenspanne, aus preußischen Dezimalfuß in Meter "
            f"umgerechnet. Pfeil: Richtung des steilsten Gefälles im Oberland. Quelle: S. 11 bis 13, 20 bis 22.")
 cap1_en = (f"{len(mapped)} of {n_orte} places with a stated altitude, mapped at their present-day location (GeoNames). Color: midpoint of the printed altitude range, converted from Prussian "
            f"decimal feet to meters. Arrow: direction of steepest descent in the Oberland. Source: pp. 11 to 13, 20 to 22.")
 title2_de = f"Die Wohnpunkte des Unterlandes liegen im Median {de(med_u, 0)} m hoch, die des Oberlandes {de(med_o, 0)} m"
-title2_en = f"Unterland inhabited points lie at a median of {en(med_u, 0)} m, Oberland ones at {en(med_o, 0)} m"
+title2_en = f"Unterland places lie at a median of {en(med_u, 0)} m, Oberland places at {en(med_o, 0)} m"
 cap2_de = (f"Zahl der Wohnpunkte (Orte, Mühlen, Einzelhäuser) je Höhenklasse von 25 m; Linien: Median. Grau: Höhenbereich, den beide Landesteile teilen, "
            f"vom tiefsten Punkt des Oberlandes ({de(lo_ober, 0)} m) bis zum höchsten des Unterlandes ({de(hi_unter, 0)} m). Quelle: S. 4 bis 5, 11 bis 13, 20 bis 22.")
-cap2_en = (f"Inhabited points (places, mills, single houses) per altitude class of 25 m; lines: median. Grey: range shared, "
+cap2_en = (f"Inhabited places (villages, mills, single houses) per altitude class of 25 m; lines: median. Gray: range shared, "
            f"from the lowest point of the Oberland ({en(lo_ober, 0)} m) to the highest of the Unterland ({en(hi_unter, 0)} m). Source: pp. 4 to 5, 11 to 13, 20 to 22.")
 title3_de = f"Die höchsten Berge überragen die höchsten Wohnplätze nur um {de(over_o, 0)} m (Oberland) und {de(over_u, 0)} m (Unterland)"
 title3_en = f"The highest mountains rise only {en(over_o, 0)} m (Oberland) and {en(over_u, 0)} m (Unterland) above the highest villages"
-cap3_de = ("Die sechs höchsten benannten Berge je Landesteil nach Brückners Höhenlisten, in Metern (Dezimalfuß × 0,3766). "
-           "Quelle: S. 11 bis 15, 20 bis 24.")
-cap3_en = ("The six highest named mountains per part according to Brückner’s height lists, in meters (decimal feet × 0.3766). "
-           "Source: pp. 11 to 15, 20 to 24.")
+cap3_de = ("Die sechs höchsten benannten Berge je Landesteil nach Brückners Höhenlisten, gemessen vom höchsten bewohnten Punkt (Raute), in Metern "
+           "(Dezimalfuß × 0,3766). Quelle: S. 11 bis 15, 20 bis 24.")
+cap3_en = ("The six highest named mountains of each part in Brückner’s height lists, measured from the highest inhabited place (diamond), in meters "
+           "(decimal feet × 0.3766). Source: pp. 11 to 15, 20 to 24.")
 
 for k, v in (("lead", lead_de), ("f1", f1_de), ("f2", f2_de), ("f3", f3_de), ("t1", title1_de), ("cap1", cap1_de), ("t2", title2_de), ("cap2", cap2_de),
              ("t3", title3_de), ("cap3", cap3_de)):
@@ -397,6 +417,15 @@ for a_ in (a_stufen, a_wohn, a_erh, a_neig, a_berg):
 union_sources = [s_ for s_ in union_sources if not (s_["page"] in ("6", "7") )]   # coordinate tables belong to land-lage-grenzen
 print("sources", len(union_sources))
 
+YES_NO = {0: "nein", 1: "ja"}
+for ds_ in (places_ds, heights_ds):
+    recode(ds_, "in_klammern", YES_NO, None)
+    ds_["columns"][[c["name"] for c in ds_["columns"]].index("in_klammern")]["label"] = T("In Klammern gedruckt", "Printed in brackets")
+recode(places_ds, "spanne", YES_NO, None)
+places_ds["columns"][[c["name"] for c in places_ds["columns"]].index("spanne")]["label"] = T("Spanne gedruckt", "Range printed")
+levels_ds = json.loads(json.dumps(levels_ds))
+drop_column(levels_ds, "label_links")
+
 orte = shared("base_places")
 fluesse = shared("base_rivers")
 feature = {
@@ -427,7 +456,6 @@ feature = {
         "en": ["altitude", "mountains", "summits", "Fichteberg", "Kulm", "Frankenwald", "Oberland", "Unterland", "terraces", "mountain names", "elevation"],
     },
     "related": ["land-lage-grenzen", "gewaesser", "geologie-boden", "klima-stationen"],
-    "generated_by": "Claude Sonnet 5.5 (Agent F1), aus 5 Einzelauswertungen zusammengeführt",
     "date": "2026-10-02",
 }
 dump(feature)

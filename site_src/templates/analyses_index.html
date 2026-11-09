@@ -11,7 +11,7 @@
     <h2>{{ t(g.de, g.en) }}</h2>
     <ul class="ana-grid">
       {% for a in g.entries %}
-      <li><a href="{{ a.id }}.html"><img src="thumbs/{{ a.id }}.png" alt="" loading="lazy" width="640" height="360"><span class="t">{{ t(a.title.de|e, a.title.en|e) }}</span><span class="s">{{ t(a.teaser.de|e, a.teaser.en|e) }}</span></a></li>
+      <li><a href="{{ a.id }}.html"><span class="th"><img class="th-light" data-l="de" src="thumbs/{{ a.id }}.png" alt="" loading="lazy" width="640" height="360"><img class="th-light" data-l="en" src="thumbs/{{ a.id }}.en.png" alt="" loading="lazy" width="640" height="360"><img class="th-dark" data-l="de" src="thumbs/{{ a.id }}.dark.png" alt="" loading="lazy" width="640" height="360"><img class="th-dark" data-l="en" src="thumbs/{{ a.id }}.en.dark.png" alt="" loading="lazy" width="640" height="360"></span><span class="t">{{ t(a.title.de|e, a.title.en|e) }}</span><span class="s">{{ t(a.teaser.de|e, a.teaser.en|e) }}</span></a></li>
       {% endfor %}
     </ul>
   </section>

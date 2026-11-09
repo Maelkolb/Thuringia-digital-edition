@@ -40,6 +40,8 @@ for ds in (weaver, social, flur):
         if c["name"] in ("lon", "lat"):
             c["note"] = "GeoNames; fehlende Werte aus der Kartengrundlage (orte_basis) nach Name und Landesteil ergänzt"
 
+for ds in (weaver, social, flur):
+    drop_columns(ds, {"place_id"})
 W = rows(weaver)
 S = rows(social)
 F = rows(flur)
@@ -62,7 +64,7 @@ print("Gera", gera_w["weavers"], gera_w["weavers_per_100"])
 
 # social groups (derived from social_places, villages with all four groups)
 C = [r for r in S if r["complete"] == 1]
-GROUPS = [("bauern", "Bauern", "Farmers"), ("haeusler", "Häusler", "Cottagers"), ("tagloehner", "Taglöhner", "Day laborers"), ("dienstboten", "Dienstboten", "Servants")]
+GROUPS = [("bauern", "Bauern", "Farmers"), ("haeusler", "Häusler", "Cottagers"), ("tagloehner", "Taglöhner", "Day labourers"), ("dienstboten", "Dienstboten", "Servants")]
 DISTRICTS = ["Alle", "Gera", "Schleiz", "Lobenstein-Ebersdorf"]
 sg_rows = []
 sums = {}
@@ -73,14 +75,13 @@ for d in DISTRICTS:
     for gi, (k, de, en) in enumerate(GROUPS):
         cnt = sum(r[k] for r in sel)
         sums[d][k] = cnt
-        sg_rows.append([d, len(sel), k, de, en, gi + 1, cnt, round(100 * cnt / tot, 1)])
+        sg_rows.append([d, len(sel), de, en, gi + 1, cnt, round(100 * cnt / tot, 1)])
 social_groups = {
     "name": "social_groups",
-    "title": bi("Bauern, Häusler, Taglöhner und Dienstboten nach Landesteil (Dörfer mit allen vier Angaben)", "Farmers, cottagers, day laborers and servants by district (villages with all four figures)"),
+    "title": bi("Bauern, Häusler, Taglöhner und Dienstboten nach Landesteil (Dörfer mit allen vier Angaben)", "Farmers, cottagers, day labourers and servants by district (villages with all four figures)"),
     "columns": [
         {"name": "district", "label": bi("Landesteil", "District"), "type": "string", "unit": None, "derived": True, "note": "Alle = Summe der drei Landesteile"},
         {"name": "n_places", "label": bi("Zahl der Dörfer", "Number of villages"), "type": "integer", "unit": "Dörfer", "derived": True},
-        {"name": "group", "label": bi("Gruppe (Code)", "Group (code)"), "type": "string", "unit": None, "derived": True},
         {"name": "group_de", "label": bi("Gruppe", "Group"), "type": "string", "unit": None, "derived": True},
         {"name": "group_en", "label": bi("Gruppe (englisch)", "Group (English)"), "type": "string", "unit": None, "derived": True},
         {"name": "group_order", "label": bi("Reihenfolge der Gruppe", "Order of group"), "type": "integer", "unit": None, "derived": True},
@@ -142,10 +143,12 @@ print(flur_n, flur_sum, flur_sum * 0.255322)
 
 # ------------------------------------------------------------ chart 1: map of the weavers
 LABELLED = {
-    "up": ["Hohenleuben", "Langenberg"],
-    "down": ["Langenwetzendorf"],
+    "up": ["Langenberg"],
+    "far_up": ["Hohenleuben"],
     "right": ["Gera"],
-    "left": ["Triebes", "Tanna", "Schleiz"],
+    "far_right": ["Langenwetzendorf"],
+    "left": ["Tanna", "Schleiz"],
+    "far_left": ["Triebes"],
 }
 LON = {"field": "lon", "type": "quantitative"}
 LAT = {"field": "lat", "type": "quantitative"}
@@ -172,8 +175,8 @@ c1 = {
         "Weaving is concentrated around Hohenleuben, Langenwetzendorf and Triebes in the district of Schleiz",
     ),
     "caption": bi(
-        f"Webermeister je Ort (Fläche der Kreise), blau: mindestens 10 je 100 Einwohner. Gera zählt {gera_w['weavers']} Zeug- und Leinweber, aber nur {fmt_de(gera_w['weavers_per_100'], 1)} je 100 Einwohner. Quelle: Ortsartikel S. 418–825.",
-        f"Master weavers per place (area of the circles), blue: at least 10 per 100 inhabitants. Gera counts {gera_w['weavers']} cloth and linen weavers, but only {gera_w['weavers_per_100']:.1f} per 100 inhabitants. Source: place articles pp. 418–825.",
+        f"Webermeister je Ort (Fläche der Kreise); hervorgehoben sind Orte mit mindestens 10 je 100 Einwohner. Gera zählt {gera_w['weavers']} Zeug- und Leinweber, aber nur {fmt_de(gera_w['weavers_per_100'], 1)} je 100 Einwohner. Quelle: Ortsartikel S. 418–825.",
+        f"Master weavers per place (circle area); places with at least 10 per 100 inhabitants are highlighted. Gera has {gera_w['weavers']} cloth and linen weavers, but only {gera_w['weavers_per_100']:.1f} per 100 inhabitants. Source: place articles pp. 418–825.",
     ),
     "vegalite": {
         "height": 470,
@@ -215,28 +218,31 @@ c1 = {
                 },
             },
             *label_layers(LABELLED["up"], 0, -12, "center"),
-            *label_layers(LABELLED["down"], 0, 17, "center"),
+            *label_layers(LABELLED["far_up"], 0, -27, "center"),
             *label_layers(LABELLED["right"], 12, 0, "left"),
+            *label_layers(LABELLED["far_right"], 24, 6, "left"),
             *label_layers(LABELLED["left"], -10, 0, "right"),
+            *label_layers(LABELLED["far_left"], -22, 0, "right"),
         ],
     },
 }
 
 # ------------------------------------------------------------ chart 2: social structure
+GROUP_DOMAIN = [de for _, de, _ in GROUPS]
+group_en_expr = "{" + ",".join(f"'{de}':'{en}'" for _, de, en in GROUPS) + "}[datum.label]"
 c2 = {
     "id": "c2",
     "dataset": "social_groups",
     "title": bi(
-        f"Bauern sind nur rund ein Fünftel der Dorfgruppen, im Landesteil Gera sogar nur {sh('Gera', 'bauern')} Prozent",
-        f"Farmers are a fifth of the village groups, only {sh('Gera', 'bauern')} percent in Gera",
+        f"Unter den vier Gruppen waren nur rund ein Fünftel Bauern, im Landesteil Gera {sh('Gera', 'bauern')} Prozent",
+        f"Farmers were about a fifth of the four groups, only {sh('Gera', 'bauern')} percent in the Gera district",
     ),
     "caption": bi(
         f"Anteil von Bauern, Häuslern (Haushalte) sowie Taglöhnern und Dienstboten (Personen) in den {n_complete} Dörfern, deren Ortsartikel alle vier Gruppen nennt. Quelle: Ortsartikel S. 418–825.",
-        f"Share of farmers, cottagers (households) and day laborers and servants (persons) in the {n_complete} villages whose place article names all four groups. Source: place articles pp. 418–825.",
+        f"Share of farmers and cottagers (households) and of day labourers and servants (persons) in the {n_complete} villages whose place article names all four groups. Source: place articles pp. 418–825.",
     ),
     "vegalite": {
         "height": {"step": 46},
-        "padding": {"top": 26, "bottom": 4, "left": 4, "right": 8},
         "transform": [
             {"calculate": {"de": "datum.district == 'Alle' ? 'Alle Dörfer (' + datum.n_places + ')' : datum.district + ' (' + datum.n_places + ')'",
                            "en": "datum.district == 'Alle' ? 'All villages (' + datum.n_places + ')' : datum.district + ' (' + datum.n_places + ')'"}, "as": "ylab"},
@@ -255,8 +261,10 @@ c2 = {
                 "encoding": {
                     "x": {"field": "x0", "type": "quantitative", "scale": {"domain": [0, 100]}, "axis": None},
                     "x2": {"field": "x1"},
-                    "color": {"field": "group", "type": "nominal", "legend": None,
-                              "scale": {"domain": ["bauern", "haeusler", "tagloehner", "dienstboten"], "range": ["@accent", "@context", "@accent2", "@ink2"]}},
+                    "color": {"field": "group_de", "type": "nominal",
+                              "scale": {"domain": GROUP_DOMAIN, "range": ["@accent", "@context", "@accent2", "@muted"]},
+                              "legend": {"title": None, "orient": "top", "direction": "horizontal", "symbolType": "square",
+                                         "labelExpr": {"de": "datum.label", "en": group_en_expr}}},
                     "tooltip": [
                         {"field": "ylab", "title": bi("Landesteil", "District")},
                         {"field": {"de": "group_de", "en": "group_en"}, "title": bi("Gruppe", "Group")},
@@ -266,21 +274,12 @@ c2 = {
                 },
             },
             {
-                "transform": [{"calculate": "format(datum.share, '.0f') + ' %'", "as": "pct"}],
-                "mark": {"type": "text", "style": "label"},
+                "transform": [{"calculate": {"de": "format(datum.share, '.0f') + ' %'", "en": "format(datum.share, '.0f') + '%'"}, "as": "pct"}],
+                "mark": {"type": "text", "style": "label", "fontSize": 11},
                 "encoding": {
                     "x": {"field": "xm", "type": "quantitative", "scale": {"domain": [0, 100]}},
                     "text": {"field": "pct"},
-                    "color": {"condition": {"test": "datum.group != 'haeusler'", "value": "@paper"}, "value": "@ink"},
-                },
-            },
-            {
-                "transform": [{"filter": "datum.district == 'Alle'"}],
-                "mark": {"type": "text", "style": "label", "dy": -31},
-                "encoding": {
-                    "x": {"field": "xm", "type": "quantitative", "scale": {"domain": [0, 100]}},
-                    "text": {"field": {"de": "group_de", "en": "group_en"}},
-                    "color": {"condition": [{"test": "datum.group == 'bauern'", "value": "@accent"}, {"test": "datum.group == 'tagloehner'", "value": "@accent2"}], "value": "@ink2"},
+                    "color": {"condition": {"test": "datum.group_de != 'Häusler'", "value": "@paper"}, "value": "@ink"},
                 },
             },
         ],
@@ -295,11 +294,11 @@ c3 = {
     "dataset": "flur_places",
     "title": bi(
         f"Die Pacht sinkt mit der Entfernung von Gera von {fmt_de(band_stats['near'][1], 0)} auf {fmt_de(band_stats['far'][1], 2)} Taler je Morgen",
-        f"Rent falls with the distance from Gera from {band_stats['near'][1]:.0f} to {band_stats['far'][1]:.2f} thalers per Morgen",
+        f"Rent per Morgen falls with distance from Gera, from {band_stats['near'][1]:.0f} to {band_stats['far'][1]:.2f} thalers",
     ),
     "caption": bi(
         f"Pacht eines mittelguten Morgens in {len(R)} Dörfern nach Luftlinie zu Gera; Striche: Median je Entfernungsklasse (bis 10, 10 bis 30, über 30 km). Quelle: Ortsartikel S. 418–825.",
-        f"Rent of a medium-quality Morgen in {len(R)} villages by straight-line distance from Gera; bars: median per distance class (up to 10, 10 to 30, over 30 km). Source: place articles pp. 418–825.",
+        f"Rent of a medium-quality Morgen in {len(R)} villages by straight-line distance from Gera; horizontal lines: median per distance class (up to 10, 10 to 30, over 30 km). Source: place articles pp. 418–825.",
     ),
     "vegalite": {
         "height": 340,
@@ -341,16 +340,17 @@ c3 = {
                 "encoding": {"x": {"field": "bxm", "type": "quantitative"}, "y": {"field": "med", "type": "quantitative"},
                              "text": {"field": "med", "type": "quantitative", "format": ".2~f"}},
             },
-            {
-                "transform": [{"filter": "indexof(['Hohenleuben', 'Blintendorf'], datum.name) >= 0"}],
-                "mark": {"type": "text", "style": "annotation", "align": "left", "dx": 7, "dy": -4},
+            *[{
+                "transform": [{"filter": f"datum.name == '{name}'"}],
+                "mark": {"type": "text", "style": "annotation", "align": "left", "dx": 7, "dy": dy},
                 "encoding": {"x": {"field": "dist_gera_km", "type": "quantitative"}, "y": {"field": "rent_mid", "type": "quantitative"}, "text": {"field": "name"}},
-            },
+            } for name, dy in (("Hohenleuben", 13), ("Blintendorf", -4))],
             {
-                "transform": [{"filter": "datum.name == 'Naundorf'"}],
-                "mark": {"type": "text", "style": "annotation", "align": "left", "dx": 12, "dy": -3},
+                "transform": [{"filter": "datum.name == 'Naundorf'"},
+                              {"calculate": {"de": "['je 12 Taler: Tinz, Langenberg,', 'Söllmnitz und Naundorf']", "en": "['12 thalers each: Tinz, Langenberg,', 'Söllmnitz and Naundorf']"}, "as": "note"}],
+                "mark": {"type": "text", "style": "annotation", "align": "left", "baseline": "top", "dx": 10, "dy": -7, "lineHeight": 15},
                 "encoding": {"x": {"field": "dist_gera_km", "type": "quantitative"}, "y": {"field": "rent_mid", "type": "quantitative"},
-                             "text": {"value": bi("je 12 Taler: Tinz, Langenberg, Söllmnitz, Naundorf", "12 thalers each: Tinz, Langenberg, Söllmnitz, Naundorf")}},
+                             "text": {"field": "note"}},
             },
         ],
     },
@@ -369,10 +369,10 @@ sources = [{"page": p, "block": b} for p, b in sources_seen]
 print("sources", len(sources))
 
 summary = bi(
-    f"Fast jeder Ortsartikel Brückners nennt Handwerker, Gliederung der Einwohner und Pacht. Die {fmt_de(tot_w)} Webermeister in {n_w_places} Orten konzentrieren sich im Landesteil Schleiz. "
-    f"In den Dörfern stellen Bauern nur {sh('Alle', 'bauern')} Prozent der erfassten Gruppen, Häusler {sh('Alle', 'haeusler')} Prozent. Der Boden ist bei Gera am teuersten.",
-    f"Almost every place article of Brückner names the craftsmen, the social divisions of the inhabitants and the rent. The {tot_w:,} master weavers in {n_w_places} places concentrate in the district of Schleiz. "
-    f"In the villages farmers make up only {sh('Alle', 'bauern')} percent of the recorded groups, cottagers {sh('Alle', 'haeusler')} percent. Land is dearest around Gera.",
+    f"Fast alle Ortsartikel Brückners nennen die Handwerker, die Gliederung der Einwohner und die Pacht. Die {fmt_de(tot_w)} Webermeister in {n_w_places} Orten konzentrieren sich im Landesteil Schleiz. "
+    f"In den Dörfern stellen Bauern nur {sh('Alle', 'bauern')} Prozent der erfassten Gruppen, Häusler {sh('Alle', 'haeusler')} Prozent. Die Pacht ist bei Gera am höchsten.",
+    f"Nearly all of Brückner’s articles on individual places list the craftsmen, the social groups of the inhabitants and the land rent. The {tot_w:,} master weavers in {n_w_places} places are concentrated in the district of Schleiz. "
+    f"In the villages farmers make up only {sh('Alle', 'bauern')} percent of the recorded groups, cottagers {sh('Alle', 'haeusler')} percent. Rents are highest around Gera.",
 )
 print(summary["de"])
 findings = [
@@ -382,11 +382,11 @@ findings = [
     ),
     bi(
         f"Im Landesteil Gera kommen auf 100 Häusler {tl_per100_h['Gera']} Taglöhner, in Schleiz {tl_per100_h['Schleiz']} und in Lobenstein-Ebersdorf {tl_per100_h['Lobenstein-Ebersdorf']}. Das deutet auf Fabrikarbeit in und um Gera hin.",
-        f"In the district of Gera there are {tl_per100_h['Gera']} day laborers per 100 cottagers, in Schleiz {tl_per100_h['Schleiz']} and in Lobenstein-Ebersdorf {tl_per100_h['Lobenstein-Ebersdorf']}. This suggests factory work in and around Gera.",
+        f"In the district of Gera there are {tl_per100_h['Gera']} day labourers per 100 cottagers, in Schleiz {tl_per100_h['Schleiz']} and in Lobenstein-Ebersdorf {tl_per100_h['Lobenstein-Ebersdorf']}. This suggests factory work in and around Gera.",
     ),
     bi(
         f"Die Pacht sinkt mit der Entfernung von Gera (Rangkorrelation {fmt_de(rho, 2).replace('-', '−')}, {len(R)} Orte); am teuersten sind Tinz, Langenberg, Söllmnitz und Naundorf mit je 12 Talern, am billigsten Blintendorf mit 1 bis 2 Talern.",
-        f"Rent falls with the distance from Gera (rank correlation {f'{rho:.2f}'.replace('-', '−')}, {len(R)} places); dearest are Tinz, Langenberg, Söllmnitz and Naundorf at 12 thalers each, cheapest Blintendorf at 1 to 2 thalers.",
+        f"Rent falls with the distance from Gera (rank correlation {f'{rho:.2f}'.replace('-', '−')}, {len(R)} places); it is highest in Tinz, Langenberg, Söllmnitz and Naundorf at 12 thalers each, lowest in Blintendorf at 1 to 2 thalers.",
     ),
 ]
 print(findings)
@@ -398,17 +398,17 @@ method = bi(
     f"Das Diagramm 2 zählt die {n_complete} Dörfer, die alle vier Gruppen nennen. Bauern und Häusler sind bei Brückner Haushalte, Taglöhner und Dienstboten Personen. "
     "Die Pacht ist die Angabe für einen mittelguten Morgen; bei Spannen steht die Mitte. Die Entfernung ist die Luftlinie zwischen den GeoNames-Koordinaten der Orte und Geras. "
     "Fehlende Koordinaten wurden aus der Kartengrundlage nach Name und Landesteil ergänzt; wo sie fehlen, fehlt der Ort auf der Karte. Ein preußischer Morgen sind 0,2553 ha (S. 832).",
-    "The basis is the statements of the place articles for 173 places (master weavers) and 167 rural municipalities (social structure, field area and rent); the six towns are missing from the social structure. "
+    "The data come from the place articles: 173 places for the master weavers, 167 rural communities for social structure, field area and rent; the six towns are not included in the social structure. "
     "The weaver figure covers weavers, linen weavers and master weavers without journeymen; in Lobenstein 121 cloth makers are named separately. The groups of the social structure combine the varying terms of the articles into four classes: "
-    "farmers (including horse and cow farmers, half and quarter farmers, agriculturists), cottagers (including small cottagers, Hintersiedler, Hausgenossen), day laborers and workers, servants. Subgroups named within a group were not counted twice. "
-    f"Chart 2 counts the {n_complete} villages that name all four groups. Farmers and cottagers are households in Brückner, day laborers and servants persons. "
+    "farmers (including horse and cow farmers, half and quarter farmers, agriculturists), cottagers (including small cottagers, Hintersiedler, Hausgenossen), day labourers and workers, servants. Subgroups named within a group were not counted twice. "
+    f"Chart 2 counts the {n_complete} villages whose articles name all four groups. Brückner counts farmers and cottagers as households, day labourers and servants as persons. "
     "The rent is the figure for a medium-quality Morgen; for ranges the midpoint is used. The distance is the straight line between the GeoNames coordinates of the place and of Gera. "
     "Missing coordinates were completed from the base map by name and district; where they are still missing, the place is absent from the map. A Prussian Morgen is 0.2553 ha (p. 832).",
 )
 caveats = [
     bi(
         "Die Artikel nennen die Gewerbe sehr unterschiedlich vollständig. In Hohenleuben, Langenwetzendorf, Triebes und Tanna sind es »Webermeister«, in Gera »Zeug- und Leinweber«; Gesellen und Hausindustrie sind nicht einheitlich erfasst.",
-        "The articles name the trades with very different completeness. In Hohenleuben, Langenwetzendorf, Triebes and Tanna they are “Webermeister”, in Gera “Zeug- und Leinweber”; journeymen and cottage industry are not recorded uniformly.",
+        "The articles list the trades with varying completeness. In Hohenleuben, Langenwetzendorf, Triebes and Tanna they are “Webermeister”, in Gera “Zeug- und Leinweber”; journeymen and cottage industry are not recorded uniformly.",
     ),
     bi(
         f"Die Anteile des Sozialgefüges sind Mischanteile (Haushalte und Personen) und keine Anteile an der Bevölkerung; Frauen, Kinder, Handwerker und Arme fehlen. Für {n_social_all - n_complete} Dörfer nennt Brückner nicht alle vier Gruppen, sie fehlen im Diagramm.",
@@ -416,7 +416,7 @@ caveats = [
     ),
     bi(
         f"Die Pacht ist das Urteil des Verfassers für einen mittelguten Morgen, kein gemessener Marktpreis. Das Gefälle zu Gera entspricht einem Marktgefälle, lässt sich aber nicht von Höhenlage und Bodengüte trennen (Deutung).",
-        "The rent is the author’s judgment for a medium-quality Morgen, not a measured market price. The gradient toward Gera matches a market gradient but cannot be separated from altitude and soil quality (interpretation).",
+        "The rent is the author’s judgment for a medium-quality Morgen, not a measured market price. The gradient towards Gera matches a market gradient but cannot be separated from altitude and soil quality (interpretation).",
     ),
     bi(
         f"Auf der Karte fehlen {nocoord_p} Orte mit zusammen {nocoord_w} Webermeistern ({fmt_de(100 * nocoord_w / tot_w, 1)} Prozent), weil für sie keine Koordinaten vorliegen, darunter Niederböhmsdorf mit 53 und Neuärgerniß mit 21.",
@@ -440,10 +440,9 @@ a = {
     "charts": [c1, c2, c3],
     "keywords": {
         "de": ["Dörfer", "Weber", "Weberei", "Bauern", "Häusler", "Taglöhner", "Dienstboten", "Pacht", "Flur", "Handwerk", "Hohenleuben"],
-        "en": ["villages", "weavers", "weaving", "farmers", "cottagers", "day laborers", "servants", "rent", "field area", "crafts", "Hohenleuben"],
+        "en": ["villages", "weavers", "weaving", "farmers", "cottagers", "day labourers", "servants", "rent", "field area", "crafts", "Hohenleuben"],
     },
     "related": ["berufe-gewerbe", "landwirtschaft", "siedlung-wohnen"],
-    "generated_by": "Claude Sonnet 5.5 (Agent F8), aus 3 Einzelauswertungen zusammengeführt",
     "date": "2026-10-02",
 }
 

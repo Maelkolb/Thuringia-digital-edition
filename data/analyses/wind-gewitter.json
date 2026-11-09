@@ -74,8 +74,8 @@
   }
  ],
  "summary": {
-  "de": "Brückner wertet Windrichtungen und Gewitter aus. In Gera (1856 bis 1865, 12.796 Beobachtungen) ist Süd die häufigste Richtung (24,9 Prozent), auf den Oberlandorten Hohenleuben, Schleiz und Rothenacker überwiegen West und Südwest. Gewitter zählt er in Gera 22,5 im Jahr, 65 Prozent davon im Juni bis August.",
-  "en": "Brückner analyzes wind directions and thunderstorms. At Gera (1856 to 1865, 12,796 observations) south is the most frequent direction (24.9 percent); at the Oberland places of Hohenleuben, Schleiz and Rothenacker west and south-west prevail. He counts 22.5 thunderstorms a year at Gera, 65 percent of them in June to August."
+  "de": "Von 12.796 Windbeobachtungen in Gera (1856 bis 1865) kamen 24,9 Prozent aus Süd, mehr als aus jeder anderen Richtung. In Hohenleuben, Schleiz und Rothenacker im Oberland überwiegen West und Südwest. Gewitter zählt Brückner in Gera 22,5 im Jahr, 65 Prozent davon im Juni bis August.",
+  "en": "Of 12,796 wind observations at Gera (1856 to 1865), 24.9 percent came from the south, more than from any other direction. At Hohenleuben, Schleiz and Rothenacker in the Oberland, west and south-west winds prevail. Brückner counts 22.5 thunderstorms a year at Gera, 65 percent of them in June to August."
  },
  "findings": [
   {
@@ -84,7 +84,7 @@
   },
   {
    "de": "Im Winter (Dezember bis Februar) kommt in Gera mehr als jede dritte Beobachtung aus Süden (36,6 Prozent), im Sommer nur 15,2 Prozent; im Sommer führt West mit 20,1 Prozent.",
-   "en": "In winter (December to February) more than every third observation at Gera is from the south (36.6 percent), in summer only 15.2 percent; in summer west leads with 20.1 percent."
+   "en": "In winter (December to February) more than one in three observations at Gera is from the south (36.6 percent), in summer only 15.2 percent; in summer west leads with 20.1 percent."
   },
   {
    "de": "Gera zählt 22,5 Gewitter im Jahr, Rothenacker 17,5, Schleiz 15,5; Brückner nennt 19 als Durchschnitt dieser Breite. Sie ziehen meist aus West: in Hohenleuben 46,8, in Gera 27,6 Prozent.",
@@ -93,7 +93,7 @@
  ],
  "method": {
   "de": "Die Windtabellen (S. 62 und 63) geben je Monat und Richtung eine Zahl von Beobachtungen der unteren Strömung, für Gera 1856 bis 1865, für Hohenleuben »in sieben Jahren«, für Schleiz 1866 und 1867, für Rothenacker 1867. Brückner hat die 16 Richtungen von Gera auf acht zurückgeführt (S. 62). Weil die Reihen verschieden lang sind, werden Prozentanteile verglichen: Anteil einer Richtung an der Summe des Ortes bzw. des Monats. In den Windrosen ist die Fläche der Keile dem Anteil proportional. Winter bedeutet Dezember bis Februar, Sommer Juni bis August (nicht Brückners Einteilung).\nDie Gewitter je Monat stehen für Gera in zwei Perioden (1853 bis 1858 und 1859 bis 1867, S. 67); das Diagramm teilt die Summe beider durch 15 Jahre. Den Oktoberwert der ersten Periode berichtigt Brückner auf 1 (S. 830). Die Jahreszahlen je Ort ergeben sich aus den Summen der Tabellen S. 66 und 67 geteilt durch die Jahre; die Zugrichtung der Gewitter (S. 68) betrifft 134 Gewitter in Gera und 47 in Hohenleuben. Brückners gedruckte Jahresmittel der Winde und seine Vergleichstabelle (S. 64) werden nicht verwendet, weil sie von den Zeilensummen abweichen.",
-  "en": "The wind tables (pp. 62 and 63) give a number of observations of the lower current for each month and direction: for Gera 1856 to 1865, for Hohenleuben »in seven years«, for Schleiz 1866 and 1867, for Rothenacker 1867. Brückner reduced the 16 directions of Gera to eight (p. 62). Because the series differ in length, percentages are compared: the share of a direction in the total of the place or month. In the wind roses the area of the wedges is proportional to the share. Winter means December to February, summer June to August (not Brückner’s division).\nThe thunderstorms per month are given for Gera in two periods (1853 to 1858 and 1859 to 1867, p. 67); the chart divides the sum of both by 15 years. Brückner corrects the October value of the first period to 1 (p. 830). The annual figures per place result from the totals of the tables on pp. 66 and 67 divided by the years; the direction of motion of the thunderstorms (p. 68) concerns 134 storms at Gera and 47 at Hohenleuben. Brückner’s printed annual means of the winds and his comparison table (p. 64) are not used because they deviate from the row sums."
+  "en": "The wind tables (pp. 62 and 63) give a number of observations of the lower current for each month and direction: for Gera 1856 to 1865, for Hohenleuben “in seven years”, for Schleiz 1866 and 1867, for Rothenacker 1867. Brückner reduced the 16 directions of Gera to eight (p. 62). Because the series differ in length, percentages are compared: the share of a direction in the total of the place or month. In the wind roses the area of the wedges is proportional to the share. Winter means December to February, summer June to August (not Brückner’s division).\nThe thunderstorms per month are given for Gera in two periods (1853 to 1858 and 1859 to 1867, p. 67); the chart divides the sum of both by 15 years. Brückner corrects the October value of the first period to 1 (p. 830). The annual figures per place result from the totals of the tables on pp. 66 and 67 divided by the years; the direction of motion of the thunderstorms (p. 68) concerns 134 storms at Gera and 47 at Hohenleuben. Brückner’s printed annual means of the winds and his comparison table (p. 64) are not used because they deviate from the row sums."
  },
  "caveats": [
   {
@@ -1924,7 +1924,7 @@
      "type": "string",
      "unit": null,
      "derived": true,
-     "note": "mean = Mittel, maximum / minimum = Einzeljahr (Text S. 67)"
+     "note": "Einzeljahre nach dem Text S. 67"
     },
     {
      "name": "period",
@@ -1969,7 +1969,7 @@
    "rows": [
     [
      "Gera",
-     "mean",
+     "Mittel",
      "1856–1867",
      270,
      12,
@@ -1977,7 +1977,7 @@
     ],
     [
      "Gera",
-     "maximum",
+     "Höchstwert (Einzeljahr)",
      "1861",
      45,
      1,
@@ -1985,7 +1985,7 @@
     ],
     [
      "Gera",
-     "minimum",
+     "Tiefstwert (Einzeljahr)",
      "1864",
      10,
      1,
@@ -1993,7 +1993,7 @@
     ],
     [
      "Schleiz",
-     "mean",
+     "Mittel",
      "1866–1867",
      31,
      2,
@@ -2001,7 +2001,7 @@
     ],
     [
      "Rothenacker",
-     "mean",
+     "Mittel",
      "Juni 1866–Mai 1868",
      35,
      2,
@@ -2238,18 +2238,21 @@
    "dataset": "wind_stations",
    "title": {
     "de": "In Gera dominiert der Südwind, an den Oberlandorten Südwest bis West",
-    "en": "At Gera the south wind dominates, at the Oberland places south-west to west"
+    "en": "South winds dominate at Gera, south-west to west winds at the Oberland stations"
    },
    "caption": {
-    "de": "Anteil der acht Richtungen an den Windbeobachtungen (Fläche der Keile proportional, Ringe bei 10, 20, 30 und 40 Prozent). Farbig: Richtungen mit mindestens 20 Prozent. Beobachtungsreihen unterschiedlich lang (10, 7, 2 und 1 Jahr). Quelle: S. 62 bis 64.",
-    "en": "Share of the eight directions among the wind observations (wedge area proportional, rings at 10, 20, 30 and 40 percent). Colored: directions with at least 20 percent. Series of different length (10, 7, 2 and 1 years). Source: pp. 62 to 64."
+    "de": "Anteil der acht Richtungen an den Windbeobachtungen (Fläche der Keile proportional, Ringe bei 10, 20, 30 und 40 Prozent). Farbig und beziffert: Richtungen mit mindestens 20 Prozent. Beobachtungsreihen unterschiedlich lang (10, 7, 2 und 1 Jahr). Quelle: S. 62 bis 64.",
+    "en": "Share of the eight directions among the wind observations (wedge area proportional, rings at 10, 20, 30 and 40 percent). Coloured and numbered: directions with at least 20 percent. Series of different length (10, 7, 2 and 1 years). Source: pp. 62 to 64."
    },
    "vegalite": {
     "autosize": {
      "type": "pad"
     },
-    "columns": 4,
-    "spacing": 6,
+    "columns": 2,
+    "spacing": {
+     "row": 14,
+     "column": 12
+    },
     "facet": {
      "field": "station_label",
      "type": "nominal",
@@ -2260,8 +2263,8 @@
      "title": null
     },
     "spec": {
-     "width": 200,
-     "height": 200,
+     "width": 164,
+     "height": 164,
      "layer": [
       {
        "transform": [
@@ -2278,7 +2281,7 @@
          ]
         },
         {
-         "calculate": "pow(sqrt(datum.ring) - 0.1309, 2)",
+         "calculate": "pow(sqrt(datum.ring) - 0.1405, 2)",
          "as": "ring_in"
         }
        ],
@@ -2304,7 +2307,7 @@
            0,
            40
           ],
-          "rangeMax": 58
+          "rangeMax": 54
          }
         },
         "radius2": {
@@ -2345,7 +2348,7 @@
            0,
            40
           ],
-          "rangeMax": 58
+          "rangeMax": 54
          }
         },
         "color": {
@@ -2395,14 +2398,19 @@
          "filter": "datum.share >= 20"
         },
         {
-         "calculate": "format(datum.share, '.0f') + ' %'",
+         "calculate": "54 * sqrt(datum.share / 40) * 0.62",
+         "as": "r_label"
+        },
+        {
+         "calculate": "format(datum.share, '.0f')",
          "as": "vlab"
         }
        ],
        "mark": {
         "type": "text",
         "style": "label",
-        "radiusOffset": 8
+        "fill": "@paper",
+        "fontSize": 11
        },
        "encoding": {
         "theta": {
@@ -2421,16 +2429,9 @@
          "stack": false
         },
         "radius": {
-         "field": "share",
+         "field": "r_label",
          "type": "quantitative",
-         "scale": {
-          "type": "sqrt",
-          "domain": [
-           0,
-           40
-          ],
-          "rangeMax": 58
-         }
+         "scale": null
         },
         "text": {
          "field": "vlab"
@@ -2460,7 +2461,7 @@
          "stack": false
         },
         "radius": {
-         "value": 90
+         "value": 71
         },
         "text": {
          "field": "dir_label"
@@ -2500,11 +2501,11 @@
    "dataset": "wind_gera_monthly",
    "title": {
     "de": "In Gera weht im Winter vor allem Südwind, im Sommer überwiegen West und Nord",
-    "en": "At Gera the south wind prevails in winter; in summer west and north lead"
+    "en": "At Gera south winds prevail in winter, west and north winds in summer"
    },
    "caption": {
     "de": "Anteil der Richtungen an den Windbeobachtungen jedes Monats in Gera, 1856 bis 1865 (Prozent). Farbig: Süd, West und Nord; grau: die fünf übrigen Richtungen. Quelle: S. 62.",
-    "en": "Share of the directions among the wind observations of each month at Gera, 1856 to 1865 (percent). Colored: south, west and north; gray: the five other directions. Source: p. 62."
+    "en": "Share of the directions among the wind observations of each month at Gera, 1856 to 1865 (percent). Coloured: south, west and north; grey: the five other directions. Source: p. 62."
    },
    "vegalite": {
     "height": 320,
@@ -2730,8 +2731,8 @@
    "id": "c3",
    "dataset": "thunder_monthly",
    "title": {
-    "de": "Gewitter in Gera: 65 Prozent fallen in Juni bis August, im November gab es keines",
-    "en": "Thunderstorms at Gera: 65 percent fall in June to August, none occurred in November"
+    "de": "In Gera fielen 65 Prozent der Gewitter in die Monate Juni bis August, im November keines",
+    "en": "At Gera 65 percent of the thunderstorms fell in June to August, none in November"
    },
    "caption": {
     "de": "Mittlere Zahl der Gewitter pro Jahr und Monat in Gera, 1853 bis 1867 (346 Gewitter in 15 Jahren, Perioden 1853 bis 1858 und 1859 bis 1867 zusammengefasst). Quelle: S. 67, Berichtigung S. 830.",
@@ -2759,6 +2760,13 @@
      {
       "calculate": "datum.total / 15",
       "as": "per_year"
+     },
+     {
+      "calculate": {
+       "de": "['Januar','Februar','März','April','Mai','Juni','Juli','August','September','Oktober','November','Dezember'][datum.month - 1]",
+       "en": "['January','February','March','April','May','June','July','August','September','October','November','December'][datum.month - 1]"
+      },
+      "as": "month_name"
      }
     ],
     "encoding": {
@@ -2815,7 +2823,7 @@
        },
        "tooltip": [
         {
-         "field": "month",
+         "field": "month_name",
          "title": {
           "de": "Monat",
           "en": "Month"
@@ -2938,6 +2946,5 @@
   "klima-stationen",
   "relief-hoehen"
  ],
- "generated_by": "Claude Sonnet 5.5 (Agent F2), aus 3 Einzelauswertungen zusammengeführt",
  "date": "2026-10-02"
 }

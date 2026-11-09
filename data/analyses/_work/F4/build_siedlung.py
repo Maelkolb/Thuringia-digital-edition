@@ -7,7 +7,7 @@ MERGES = [
     "wohnen-kirchenneubauten-1611-1842",
 ]
 
-places = dataset("orte-siedlungsbild-1867", "places")
+places = dataset("orte-siedlungsbild-1867", "places", drop_columns=("place_id",))
 houses = dataset("wohnen-wohnhaeuser-wohndichte-1867", "houses")
 churches = dataset("wohnen-kirchenneubauten-1611-1842", "new_churches")
 size_total = dataset("bevoelkerung-gemeindegroessen-1867", "size_total")
@@ -217,8 +217,8 @@ charts = [
     {"id": "c1", "dataset": "places", "extra_datasets": ["orte_basis", "fluesse_basis"],
      "title": bi(f"Nur {n_big} der {n_places} Gemeinden hatten 1867 mindestens 1.000 Einwohner, Gera allein {n(gera['inhabitants'])[0]}",
                  f"Only {n_big} of the {n_places} municipalities had 1,000 or more inhabitants in 1867, Gera alone {n(gera['inhabitants'])[1]}"),
-     "caption": bi(f"Gemeinden nach der Einwohnerzahl 1867 (Kreisfläche); blau die {n_big} größten. Verortet sind {located} von {n_places} Orten, die Lage folgt GeoNames. Grundlage sind die Ortsartikel; Größenklassen S. 98.",
-                   f"Municipalities by population in 1867 (area of circles); blue the {n_big} largest. {located} of {n_places} places are located, positions follow GeoNames. Based on the place articles; size classes p. 98."),
+     "caption": bi(f"Gemeinden nach der Einwohnerzahl 1867 (Kreisfläche); hervorgehoben die {n_big} größten. Verortet sind {located} von {n_places} Orten, die Lage folgt GeoNames. Grundlage sind die Ortsartikel; Größenklassen S. 98.",
+                   f"Municipalities by population in 1867 (area of circles); the {n_big} largest are highlighted. {located} of {n_places} places are located, positions follow GeoNames. Based on the place articles; size classes p. 98."),
      "vegalite": c1},
     {"id": "c2", "dataset": "houses",
      "title": bi(f"Stadthäuser beherbergten mehr Menschen als Landhäuser, in Gera {n(pph_gera_town, 1)[0]} gegenüber {n(pph_gera_rural, 1)[0]}",
@@ -228,7 +228,7 @@ charts = [
      "vegalite": c2},
     {"id": "c3", "dataset": "new_churches",
      "title": bi(f"{NUM_WORD_DE[n_peak]} der {n_churches} genannten Kirchenneubauten entstanden zwischen 1710 und 1739",
-                 f"{NUM_WORD_EN[n_peak]} of the {n_churches} new churches named were built between 1710 and 1739"),
+                 f"Of the {n_churches} new churches Brückner names, {NUM_WORD_EN[n_peak].lower()} date from 1710 to 1739"),
      "caption": bi(f"Von Brückner genannte Kirchenneubauten {first_year} bis {last_year}, je ein Block pro Kirche, nach Jahrzehnt des Baubeginns. Keine vollständige Zählung. Quelle: S. 133 f.",
                    f"New churches named by Brückner, {first_year} to {last_year}, one block per church, by decade of the start of building. Not a complete count. Source: pp. 133 f."),
      "vegalite": c3},
@@ -264,12 +264,12 @@ feature = {
         "Die Größenklassen und ihre Summen stehen in Brückners Tabelle S. 98; sie stimmen mit den Ortsartikeln in allen Klassen bei der Zahl der Orte und in den meisten bei der Volksmenge überein. Die Koordinaten stammen aus GeoNames, sie sind abgeleitet und beziehen sich auf die heutigen Orte; für zehn Orte fehlt eine verlässliche Zuordnung. "
         "Die Einwohner je Wohnhaus stehen in der Tabelle S. 94 (Städte, Landorte, Landesteile); die Zahlen für Thüringen und Sachsen stammen aus dem Text derselben Seite. "
         "Die Kirchenneubauten wurden aus dem Fließtext S. 133 f. ausgelesen; bei Baujahren in Spannen (Gera 1611 bis 1613, Tanna 1640 bis 1642) zählt das erste Jahr. Jahrzehnte entsprechen dem Jahr des Baubeginns. "
-        "Nicht verwendet wurden die Häuser je Quadratmeile, die Familien je Haus und die älteren Bauteile (Sakristei Schleiz 1101, Kapelle Untermhaus 1193); sie stehen in den Einzelauswertungen.",
+        "Nicht verwendet wurden die Häuser je Quadratmeile, die Familien je Haus und die älteren Bauteile (Sakristei Schleiz 1101, Kapelle Untermhaus 1193).",
         "The municipalities with their population and number of houses come from the place articles of the second part (pp. 418 to 825). The 173 political municipalities were included; places that Brückner counts within the figures of other municipalities were left out. The count of 1867 applies, and for places under two lords only the Reuss share. "
         "The size classes and their totals are in Brückner’s table on p. 98; they agree with the place articles in all classes for the number of places and in most for the population. The coordinates come from GeoNames, they are derived and refer to today’s places; for ten places no reliable assignment exists. "
         "The inhabitants per house are in the table on p. 94 (towns, villages, districts); the figures for Thuringia and Saxony come from the text of the same page. "
         "The new churches were read from the running text on pp. 133 f.; for building years given as spans (Gera 1611 to 1613, Tanna 1640 to 1642) the first year counts. Decades correspond to the year the building began. "
-        "Not used are the houses per square mile, the families per house and the older building parts (sacristy Schleiz 1101, chapel Untermhaus 1193); they are in the single analyses."),
+        "The houses per square mile, the families per house and the older building parts (sacristy Schleiz 1101, chapel Untermhaus 1193) are not used."),
     "caveats": [
         bi("Gezählt werden politische Gemeinden, nicht Siedlungen im Sinn von Ortschaften; mehrere Dörfer können eine Gemeinde bilden. Die Einwohnerzahlen der Landesteil-Einleitungen weichen von den Summen der Orte ab (Gera +105, Schleiz +2, Lobenstein-Ebersdorf −15); Brückners Quellen sind nicht ganz einheitlich.",
            "Political municipalities are counted, not settlements in the sense of localities; several villages can form one municipality. The population figures in the district introductions differ from the sums of the places (Gera +105, Schleiz +2, Lobenstein-Ebersdorf −15); Brückner’s sources are not entirely consistent."),
@@ -278,7 +278,7 @@ feature = {
         bi("Die Zahl der Häuser ist nicht überall gleich definiert (Privathäuser, bewohnte Gebäude; bei Gera einschließlich Pöppeln). Einwohner je Haus ist daher nur ein grobes Maß der Haushaltsgröße. Die Städte-Spalte umfasst nur die sechs Städte des Landes und ist stark von Gera geprägt.",
            "The number of houses is not defined the same way everywhere (private houses, inhabited buildings; for Gera including Pöppeln). Inhabitants per house is therefore only a rough measure of household size. The towns column covers only the six towns of the country and is strongly shaped by Gera."),
         bi("Die Kirchenliste gibt, was Brückner als neue Kirchen hervorhebt; Umbauten und Erweiterungen sind nicht erfasst, das 19. Jahrhundert ist nur durch Hirschberg (1842) vertreten. Die Häufung 1710 bis 1739 zeigt Brückners Auswahl und nicht notwendig die Bautätigkeit.",
-           "The list of churches gives what Brückner highlights as new churches; conversions and extensions are not covered, and the 19th century is represented only by Hirschberg (1842). The cluster in 1710 to 1739 shows Brückner’s selection and not necessarily the building activity."),
+           "The list of churches gives what Brückner singles out as new churches; conversions and extensions are not covered, and the 19th century is represented only by Hirschberg (1842). The cluster in 1710 to 1739 shows Brückner’s selection and not necessarily the building activity."),
     ],
     "datasets": datasets,
     "charts": charts,
@@ -287,7 +287,6 @@ feature = {
         "en": ["settlements", "municipalities", "size of places", "inhabitants", "houses", "dwellings", "housing density", "church building", "churches", "Gera"],
     },
     "related": ["bevoelkerung-1647-1867", "dorfleben", "ortsnamen", "kirche-schule"],
-    "generated_by": "Claude Sonnet 5.5 (Agent F4), aus 4 Einzelauswertungen zusammengeführt",
     "date": "2026-10-02",
 }
 

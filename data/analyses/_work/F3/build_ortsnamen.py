@@ -64,9 +64,13 @@ bad = {k: v for k, v in lab.items() if v[3] > 0}
 print("labels with overlaps or off-frame:", bad)
 
 wp_rows = []
+label_layout = []
 for name, lt, n, nm, lon, lat, text, p in rows:
     al, dx, dy, _ = lab[name]
-    wp_rows.append([name, lt, n, nm, lon, lat, text, al, round(dx, 1), round(dy, 1), p])
+    assert (p == "L") == (lt == "Gera"), name
+    wp_rows.append([name, lt, n, nm, lon, lat, text])
+    label_layout.append((name, al, round(dx, 1), round(dy, 1), p))
+PANEL_FILTER = {"L": "datum.landestheil == 'Gera'", "R": "datum.landestheil != 'Gera'"}
 wuest_places = make_dataset(
     "wuest_places",
     "Wüstungen je Bezugsort mit Lage",
@@ -79,10 +83,6 @@ wuest_places = make_dataset(
         col("lon", "Länge", "Longitude", "number", "° O", True, "GeoNames, über den Namen des Bezugsorts"),
         col("lat", "Breite", "Latitude", "number", "° N", True, "GeoNames"),
         col("label", "Beschriftung", "Label", "string", None, True),
-        col("label_align", "Ausrichtung der Beschriftung", "Label alignment", "string", None, True),
-        col("label_dx", "Versatz x", "Offset x", "number", "px", True),
-        col("label_dy", "Versatz y", "Offset y", "number", "px", True),
-        col("panel", "Kartenausschnitt", "Map window", "string", None, True),
     ],
     wp_rows,
     wuest["source_refs"],
@@ -179,7 +179,7 @@ def panel_spec(panel, key, title):
             "encoding": {"longitude": LON, "latitude": LAT},
         },
         {
-            "transform": [{"filter": f"datum.panel == '{key}'"}],
+            "transform": [{"filter": PANEL_FILTER[key]}],
             "mark": {"type": "circle", "stroke": "@paper", "strokeWidth": 0.8, "opacity": 0.9},
             "encoding": {
                 "longitude": LON,
@@ -195,10 +195,9 @@ def panel_spec(panel, key, title):
         },
     ]
     combos = collections.OrderedDict()
-    for r in wp_rows:
-        if r[10] != key:
-            continue
-        combos.setdefault((r[7], r[8], r[9]), []).append(r[0])
+    for name, align, dx, dy, panel_key in label_layout:
+        if panel_key == key:
+            combos.setdefault((align, dx, dy), []).append(name)
     for (align, dx, dy), names in combos.items():
         flt = f"indexof({names!r}, datum.near) >= 0"
         for style in ("place-halo", "place-label"):
@@ -229,82 +228,96 @@ c1 = {
 }
 
 X_SCALE = {"domain": [1060, 1660], "nice": False}
+BAND = 24
+BASE_EXPR = f"datum.landestheil == 'Gera' ? {2 * BAND} : datum.landestheil == 'Schleiz' ? {BAND} : 0"
 
 
-def mention_panel(district, last):
-    n_dated = sum(1 for r in dated if r["landestheil"] == district)
-    med = median[district]
-    flt = f"datum.landestheil == '{district}' && isValid(datum.first_year)"
-    return {
-        "width": 640,
-        "height": 112,
-        "title": {
-            "text": bi(f"Landesteil {district}: {n_dated} Orte mit Jahr, Median {int(med)}", f"District of {district}: {n_dated} places with a year, median {int(med)}"),
-            "anchor": "start",
-            "fontSize": 12,
-            "fontWeight": 600,
-            "offset": 6,
+c2 = {
+    "height": 400,
+    "transform": [{"filter": "isValid(datum.first_year)"}, {"calculate": BASE_EXPR, "as": "base"}],
+    "encoding": {
+        "x": {
+            "field": "first_year",
+            "type": "quantitative",
+            "scale": X_SCALE,
+            "axis": {"title": None, "format": "d", "values": [1100, 1200, 1300, 1400, 1500, 1600], "grid": True},
         },
-        "layer": [
-            {
-                "transform": [{"filter": flt}, {"window": [{"op": "row_number", "as": "stack"}], "groupby": ["first_year"], "sort": [{"field": "name"}]}],
-                "mark": {"type": "square", "size": 16, "opacity": 0.9},
-                "encoding": {
-                    "x": {
-                        "field": "first_year",
-                        "type": "quantitative",
-                        "scale": X_SCALE,
-                        "axis": {"title": None, "format": "d", "values": [1100, 1200, 1300, 1400, 1500, 1600], "grid": True, "labels": last, "ticks": last, "domain": last},
-                    },
-                    "y": {"field": "stack", "type": "quantitative", "scale": {"domain": [0, 17]}, "axis": None},
-                    "color": {"value": "@accent"},
-                    "tooltip": [
-                        tip("name", "Ort", "Place"),
-                        tip("first_year", "Erste Erwähnung", "First mention", "d"),
-                        tip("landestheil", "Landesteil", "District"),
-                        tip("forms", "Namensformen", "Name forms"),
-                    ],
+        "y": {"field": "y", "type": "quantitative", "scale": {"domain": [0, 3 * BAND], "nice": False}, "axis": None},
+    },
+    "layer": [
+        {
+            "transform": [
+                {"window": [{"op": "row_number", "as": "stack"}], "groupby": ["landestheil", "first_year"], "sort": [{"field": "name"}]},
+                {"calculate": "datum.base + datum.stack", "as": "y"},
+            ],
+            "mark": {"type": "square", "size": 16, "opacity": 0.9, "color": "@accent"},
+            "encoding": {
+                "tooltip": [
+                    tip("name", "Ort", "Place"),
+                    tip("first_year", "Erste Erwähnung", "First mention", "d"),
+                    tip("landestheil", "Landesteil", "District"),
+                    tip("forms", "Namensformen", "Name forms"),
+                ],
+            },
+        },
+        {
+            "transform": [
+                {"aggregate": [{"op": "median", "field": "first_year", "as": "first_year"}], "groupby": ["landestheil", "base"]},
+                {"calculate": "datum.base + 0.4", "as": "y"},
+                {"calculate": "datum.base + 16.5", "as": "y_top"},
+            ],
+            "mark": {"type": "rule", "strokeDash": [4, 3], "strokeWidth": 1.5, "color": "@accent2"},
+            "encoding": {"y2": {"field": "y_top"}},
+        },
+        {
+            "transform": [
+                {"aggregate": [{"op": "median", "field": "first_year", "as": "first_year"}], "groupby": ["landestheil", "base"]},
+                {"calculate": "datum.base + 16.5", "as": "y"},
+            ],
+            "mark": {"type": "text", "style": "label", "baseline": "bottom", "dy": -2, "color": "@accent2"},
+            "encoding": {"text": {"field": "first_year", "type": "quantitative", "format": "d"}},
+        },
+        {
+            "transform": [
+                {"aggregate": [{"op": "count", "as": "n"}], "groupby": ["landestheil", "base", "first_year"]},
+                {"filter": "datum.n >= 6"},
+                {"calculate": "datum.base + datum.n", "as": "y"},
+            ],
+            "mark": {"type": "text", "style": "annotation", "align": "left", "dx": 6, "dy": 2},
+            "encoding": {"text": {"field": "n", "type": "quantitative"}},
+        },
+        {
+            "transform": [
+                {"aggregate": [{"op": "count", "as": "n"}], "groupby": ["landestheil", "base"]},
+                {"calculate": "datum.base + 21.5", "as": "y"},
+                {"calculate": "1060", "as": "first_year"},
+                {
+                    "calculate": bi(
+                        "'Landesteil ' + datum.landestheil + ' (' + datum.n + ' Orte mit Jahr)'",
+                        "'District of ' + datum.landestheil + ' (' + datum.n + ' places with a year)'",
+                    ),
+                    "as": "band_title",
                 },
-            },
-            {
-                "transform": [{"filter": flt}, {"aggregate": [{"op": "median", "field": "first_year", "as": "med"}]}],
-                "mark": {"type": "rule", "strokeDash": [4, 3], "strokeWidth": 1.5, "color": "@accent2"},
-                "encoding": {"x": {"field": "med", "type": "quantitative", "scale": X_SCALE}},
-            },
-            {
-                "transform": [{"filter": flt}, {"aggregate": [{"op": "median", "field": "first_year", "as": "med"}]}],
-                "mark": {"type": "text", "style": "label", "align": "right", "dx": -6, "baseline": "top", "dy": 2},
-                "encoding": {
-                    "x": {"field": "med", "type": "quantitative", "scale": X_SCALE},
-                    "y": {"value": 0},
-                    "text": {"field": "med", "type": "quantitative", "format": "d"},
-                    "color": {"value": "@accent2"},
-                },
-            },
-            {
-                "transform": [{"filter": flt}, {"aggregate": [{"op": "count", "as": "n"}], "groupby": ["first_year"]}, {"filter": "datum.n >= 6"}],
-                "mark": {"type": "text", "style": "annotation", "align": "left", "dx": 6, "dy": 2},
-                "encoding": {
-                    "x": {"field": "first_year", "type": "quantitative", "scale": X_SCALE},
-                    "y": {"field": "n", "type": "quantitative", "scale": {"domain": [0, 17]}, "axis": None},
-                    "text": {"field": "n", "type": "quantitative"},
-                },
-            },
-        ],
-    }
-
-
-c2 = {"spacing": 14, "vconcat": [mention_panel(d, d == districts[-1]) for d in districts]}
+            ],
+            "mark": {"type": "text", "align": "left", "baseline": "middle", "fontWeight": 600, "fontSize": 12, "color": "@ink"},
+            "encoding": {"text": {"field": "band_title"}},
+        },
+    ],
+}
 
 c3 = {
-    "height": {"step": 25},
+    "height": {"step": 40},
     "encoding": {
-        "y": {"field": {"de": "group_de", "en": "group_en"}, "type": "nominal", "sort": {"field": "names", "op": "max", "order": "descending"}, "axis": {"title": None, "labelLimit": 460, "labelFontSize": 12}},
+        "y": {"field": {"de": "group_de", "en": "group_en"}, "type": "nominal", "sort": {"field": "names", "op": "max", "order": "descending"}, "axis": None},
         "x": {"field": "names", "type": "quantitative", "scale": {"domain": [0, 27], "nice": False}, "axis": None},
     },
     "layer": [
         {
-            "mark": {"type": "bar", "height": {"band": 0.62}},
+            "mark": {"type": "text", "align": "left", "baseline": "bottom", "dy": -2, "fontSize": 12, "color": "@ink"},
+            "encoding": {"x": {"value": 0}, "text": {"field": {"de": "group_de", "en": "group_en"}}},
+        },
+        {
+            "mark": {"type": "bar", "height": 13, "yOffset": 7},
             "encoding": {
                 "color": {"condition": {"test": "datum.kind_de == 'Landschaftsmerkmal'", "value": "@accent"}, "value": "@context"},
                 "tooltip": [
@@ -316,11 +329,11 @@ c3 = {
             },
         },
         {
-            "mark": {"type": "text", "style": "label", "align": "left", "dx": 6},
+            "mark": {"type": "text", "style": "label", "align": "left", "dx": 6, "dy": 7},
             "encoding": {"text": {"field": "names"}},
         },
         {
-            "mark": {"type": "text", "style": "label-muted", "align": "left", "dx": 24},
+            "mark": {"type": "text", "style": "label-muted", "align": "left", "dx": 24, "dy": 7},
             "encoding": {"text": {"field": "examples"}},
         },
     ],
@@ -350,11 +363,11 @@ f1_en = (
     f"Most are placed near {top_near[0]} ({len(top_near[1])}); {no_year} have no year."
 )
 f2_de = (
-    f"Die älteste Erwähnung hat {oldest['name']} ({oldest['first_year']}). Fünf Jahre (1121, 1325, 1333, 1364, 1533) stehen für {spike_total} der {len(dated)} Orte; sie spiegeln eher einzelne Urkunden als Gründungszeiten. "
-    f"Allein 1364 nennt {by_year[1364]} Orte, alle im Landesteil Gera."
+    f"Die älteste Erwähnung hat {oldest['name']} ({oldest['first_year']}). Fünf Jahre (1121, 1325, 1333, 1364, 1533) stehen für {spike_total} der {len(dated)} Orte; das deutet auf einzelne Urkunden, nicht auf Gründungszeiten. "
+    f"1364 nennt {by_year[1364]} Orte, alle im Landesteil Gera."
 )
 f2_en = (
-    f"{oldest['name']} has the oldest mention ({oldest['first_year']}). Five years (1121, 1325, 1333, 1364, 1533) account for {spike_total} of the {len(dated)} places, reflecting single documents rather than founding dates. "
+    f"{oldest['name']} has the oldest mention ({oldest['first_year']}). Five years (1121, 1325, 1333, 1364, 1533) account for {spike_total} of the {len(dated)} places, pointing to single documents, not founding dates. "
     f"1364 names {by_year[1364]} places, all in Gera district."
 )
 assert set(y1364_districts) == {"Gera"}
@@ -387,20 +400,20 @@ caption_c2 = bi(
     f"Each square is a municipality, stacked by the year of first documentary mention in its article ({len(dated)} of {n_communes} municipalities). The number beside a stack gives the places of that year; dashed: median per district. Pp. 418–825.",
 )
 caption_c3 = bi(
-    f"Brückners Übersicht sorbischer Wortwurzeln und der davon abgeleiteten Ortsnamen, nach Bedeutung der Wurzel gruppiert (Gruppen redaktionell); blau: Landschaftsmerkmale. Die Zeile nennt die ersten Beispiele. S. 121.",
-    f"Brückner’s overview of Sorbian word roots and the place names derived from them, grouped by the meaning of the root (groups editorial); blue: landscape features. The line gives the first examples. P. 121.",
+    f"Brückners Übersicht sorbischer Wortwurzeln und der davon abgeleiteten Ortsnamen, nach Bedeutung der Wurzel gruppiert (Gruppen redaktionell); hervorgehoben sind die Landschaftsmerkmale. Neben der Zahl stehen die ersten drei Namen. S. 121.",
+    f"Brückner’s overview of Sorbian word roots and the place names derived from them, grouped by the meaning of the root (groups editorial); landscape features are highlighted. Beside each number are the first three names. P. 121.",
 )
 method_de = (
     "Die Wüstungen sind alle Einträge des Typs Wüstung in Brückners Ortskunde (34). Jede ist beim Dorf eingezeichnet, bei dem der Artikel sie verortet (gedruckte Lageangabe); die Koordinaten sind die des Bezugsorts aus der Kartengrundlage (GeoNames). "
     "Das Jahr der ersten Erwähnung ist das früheste Jahr der urkundlichen Nennung im Ortsartikel; fehlt eine ausdrückliche Angabe, gilt die früheste datierte Namensform bis 1700. "
     "Die Tabelle der sorbischen Wurzeln (S. 121) wurde Zeile für Zeile übernommen, jeder Ortsname einzeln erfasst und die gedruckte Bedeutung acht Sachgruppen zugeordnet; gezählt werden verschiedene Ortsnamen. "
-    "Die Siegelbilder der Dörfer (S. 124 f.) stehen als Tabelle bei, in acht Motivklassen geordnet; die sechs Stadtwappen sind nicht gezählt. Eine eigene Grafik gibt es dafür nicht."
+    "Die Siegelbilder der Dörfer (S. 124 f.) stehen als Tabelle bei, in acht Motivklassen geordnet; die sechs Stadtwappen sind nicht gezählt. Sie sind nicht als Grafik dargestellt."
 )
 method_en = (
     "The deserted villages are all entries of the type Wüstung in Brückner’s topography (34). Each is drawn at the village near which the article locates it (printed location statement); the coordinates are those of the reference place from the base map (GeoNames). "
     "The year of first mention is the earliest year of documentary mention in the place article; where none is stated, the earliest dated name form up to 1700 applies. "
-    "The table of Sorbian roots (p. 121) was taken over row by row, each place name recorded separately and the printed meaning assigned to eight subject groups; distinct place names are counted. "
-    "The seal images of the villages (pp. 124 f.) are attached as a table, ordered in eight classes of motif; the six town arms are not counted. There is no chart of their own."
+    "The table of Sorbian roots (p. 121) was transcribed row by row, each place name recorded separately and the printed meaning assigned to eight subject groups; distinct place names are counted. "
+    "The seal images of the villages (pp. 124 f.) are given as a table, ordered in eight classes of motif; the six town arms are not counted. They are not charted."
 )
 print("method", words(method_de), words(method_en))
 caveats = [
@@ -433,7 +446,15 @@ feature = {
     "findings": [bi(f1_de, f1_en), bi(f2_de, f2_en), bi(f3_de, f3_en)],
     "method": bi(method_de, method_en),
     "caveats": caveats,
-    "datasets": [wuest_places, mentions, groups, wuest, seals, base_places, base_rivers],
+    "datasets": [
+        wuest_places,
+        drop_columns(mentions, {"place_id"}),
+        drop_columns(groups, {"key"}),
+        drop_columns(wuest, {"place_id"}),
+        drop_columns(seals, {"class_key"}),
+        base_places,
+        base_rivers,
+    ],
     "charts": [
         {"id": "c1", "dataset": "wuest_places", "extra_datasets": ["orte_basis", "fluesse_basis"], "title": title_c1, "caption": caption_c1, "vegalite": c1},
         {"id": "c2", "dataset": "mentions", "title": title_c2, "caption": caption_c2, "vegalite": c2},
@@ -444,7 +465,6 @@ feature = {
         "en": ["place names", "deserted villages", "first mention", "charters", "Sorbian", "Slavic", "seals", "topography", "Gera", "Tanna", "name forms"],
     },
     "related": ["siedlung-wohnen", "sagen-brauch", "landesgeschichte", "dorfleben"],
-    "generated_by": GENERATED_BY.format(k=len(MERGES)),
     "date": DATE,
 }
 ti = union_issues(*MERGES)

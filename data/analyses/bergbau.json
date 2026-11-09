@@ -248,7 +248,7 @@
   }
  ],
  "summary": {
-  "de": "Brückner verfolgt den Bergbau von den Silbergruben bei Schleiz (1318) bis zur Saline Heinrichshall. Vor dem Dreißigjährigen Krieg zählte das Oberland 349 Gruben, 319 davon auf Eisen. Von 22 später verzeichneten Hammer- und Hüttenwerken liefen 1869 noch fünf. Im Unterland endete der Metallbergbau um 1750. Die Saline gab 1863 23.898 Zentner Kochsalz ab, 13,2 Prozent weniger als 1857.",
+  "de": "Brückner verfolgt den Bergbau von den Silbergruben bei Schleiz (1318) bis zur Saline Heinrichshall. Vor dem Dreißigjährigen Krieg zählte das Oberland 349 Gruben, 319 davon auf Eisen. Von 22 später verzeichneten Hammer- und Hüttenwerken liefen 1869 noch fünf. Im Unterland endete der Metallbergbau um 1750. 1863 gab die Saline 23.898 Zentner Kochsalz ab, 13,2 Prozent weniger als 1857.",
   "en": "Brückner traces mining from the silver mines near Schleiz (1318) to the Heinrichshall saltworks. Before the Thirty Years’ War the Oberland had 349 mines, 319 of them for iron. Of 22 ironworks and hammer mills recorded for later times, only five were still running in 1869. In the Unterland metal mining ended around 1750. In 1863 the saltworks delivered 23,898 hundredweight of table salt, 13.2 percent less than in 1857."
  },
  "findings": [
@@ -2470,8 +2470,8 @@
     "en": "Of 22 Oberland ironworks, five still ran in 1869; eleven were converted, six abandoned"
    },
    "caption": {
-    "de": "Betriebszeit der Hütten- und Hammerwerke des Oberlandes seit 1648, nach ihrem Schicksal gruppiert (blau: noch in Betrieb, orange: umgenutzt, grau: aufgegeben). Quelle: S. 244–246.",
-    "en": "Operating period of the ironworks and hammer mills of the Oberland since 1648, grouped by their fate (blue: still running, orange: converted, grey: abandoned). Source: pp. 244–246."
+    "de": "Betriebszeit der Hütten- und Hammerwerke des Oberlandes seit 1648, nach ihrem späteren Schicksal gruppiert. Quelle: S. 244–246.",
+    "en": "Operating periods of the ironworks and hammer mills of the Oberland since 1648, grouped by their later fate. Source: pp. 244–246."
    },
    "vegalite": {
     "height": {
@@ -2485,10 +2485,6 @@
      {
       "calculate": "datum.fate_rank * 10000 + datum.start_year + datum.plot_end / 10000",
       "as": "sortkey"
-     },
-     {
-      "calculate": "datum.fate_rank == 0 ? 'a' : (datum.fate_rank == 1 ? 'b' : 'c')",
-      "as": "fate_cls"
      },
      {
       "calculate": {
@@ -2511,15 +2507,119 @@
       "type": "nominal",
       "sort": {
        "field": "sortkey",
+       "op": "min",
        "order": "ascending"
       },
       "axis": {
        "title": null,
-       "labelLimit": 320
+       "labelLimit": 320,
+       "labelFontWeight": {
+        "condition": {
+         "test": "indexof(['Noch in Betrieb', 'Umgenutzt', 'Aufgegeben', 'Still in operation', 'Converted', 'Abandoned'], datum.value) >= 0",
+         "value": 600
+        },
+        "value": 400
+       },
+       "labelColor": {
+        "condition": {
+         "test": "indexof(['Noch in Betrieb', 'Umgenutzt', 'Aufgegeben', 'Still in operation', 'Converted', 'Abandoned'], datum.value) >= 0",
+         "value": "@ink"
+        },
+        "value": "@ink2"
+       }
+      }
+     },
+     "x": {
+      "field": "start_year",
+      "type": "quantitative",
+      "scale": {
+       "domainMin": 1640,
+       "domainMax": {
+        "expr": "width < 330 ? 1872 : max(1930, 1640 + 216 * width / max(width - 126, 60))"
+       },
+       "nice": false
+      },
+      "axis": {
+       "format": "d",
+       "values": [
+        1650,
+        1700,
+        1750,
+        1800,
+        1850
+       ],
+       "title": null
+      }
+     },
+     "color": {
+      "field": "fate_rank",
+      "type": "nominal",
+      "legend": null,
+      "scale": {
+       "domain": [
+        0,
+        1,
+        2
+       ],
+       "range": [
+        "@accent",
+        "@accent2",
+        "@context"
+       ]
       }
      }
     },
     "layer": [
+     {
+      "transform": [
+       {
+        "aggregate": [
+         {
+          "op": "count",
+          "as": "n"
+         }
+        ],
+        "groupby": [
+         "fate_rank"
+        ]
+       },
+       {
+        "calculate": {
+         "de": "['Noch in Betrieb', 'Umgenutzt', 'Aufgegeben'][datum.fate_rank]",
+         "en": "['Still in operation', 'Converted', 'Abandoned'][datum.fate_rank]"
+        },
+        "as": "name"
+       },
+       {
+        "calculate": "datum.fate_rank * 10000",
+        "as": "sortkey"
+       },
+       {
+        "calculate": "1648",
+        "as": "start_year"
+       },
+       {
+        "calculate": {
+         "de": "datum.n + ' Werke'",
+         "en": "datum.n + ' works'"
+        },
+        "as": "count_label"
+       }
+      ],
+      "mark": {
+       "type": "text",
+       "align": "left",
+       "style": "label-muted"
+      },
+      "encoding": {
+       "text": {
+        "field": "count_label"
+       },
+       "color": {
+        "value": "@muted"
+       }
+      }
+     },
      {
       "mark": {
        "type": "bar",
@@ -2527,46 +2627,8 @@
        "cornerRadius": 2
       },
       "encoding": {
-       "x": {
-        "field": "start_year",
-        "type": "quantitative",
-        "scale": {
-         "domain": [
-          1640,
-          1960
-         ]
-        },
-        "axis": {
-         "format": "d",
-         "values": [
-          1650,
-          1700,
-          1750,
-          1800,
-          1850
-         ],
-         "title": null
-        }
-       },
        "x2": {
         "field": "plot_end"
-       },
-       "color": {
-        "field": "fate_cls",
-        "type": "nominal",
-        "legend": null,
-        "scale": {
-         "domain": [
-          "a",
-          "b",
-          "c"
-         ],
-         "range": [
-          "@accent",
-          "@accent2",
-          "@context"
-         ]
-        }
        },
        "tooltip": [
         {
@@ -2617,11 +2679,19 @@
       }
      },
      {
+      "transform": [
+       {
+        "filter": "datum.fate_rank == 1"
+       }
+      ],
       "mark": {
        "type": "text",
        "align": "left",
        "dx": 6,
-       "style": "label-muted"
+       "style": "label-muted",
+       "opacity": {
+        "expr": "width < 330 ? 0 : 1"
+       }
       },
       "encoding": {
        "x": {
@@ -2630,7 +2700,8 @@
        },
        "text": {
         "field": "end_label"
-       }
+       },
+       "color": null
       }
      }
     ]
@@ -2936,21 +3007,18 @@
      "x": {
       "type": "quantitative",
       "scale": {
-       "domain": [
-        0,
-        6200
-       ],
+       "domainMin": 0,
+       "domainMax": {
+        "expr": "max(6200, 5550 * width / max(width - 52, 60))"
+       },
        "nice": false
       },
       "axis": {
        "format": ",d",
        "values": [
         0,
-        1000,
         2000,
-        3000,
         4000,
-        5000,
         6000
        ],
        "title": {
@@ -2995,7 +3063,8 @@
        "type": "point",
        "filled": true,
        "size": 60,
-       "color": "@muted"
+       "color": "@muted",
+       "opacity": 1
       },
       "encoding": {
        "x": {
@@ -3040,7 +3109,8 @@
        "type": "point",
        "filled": true,
        "size": 70,
-       "color": "@accent"
+       "color": "@accent",
+       "opacity": 1
       },
       "encoding": {
        "x": {
@@ -3205,6 +3275,5 @@
   "wald-holz",
   "staatsfinanzen"
  ],
- "generated_by": "Claude Sonnet 5.5 (Agent F6), aus 5 Einzelauswertungen zusammengeführt",
  "date": "2026-10-02"
 }

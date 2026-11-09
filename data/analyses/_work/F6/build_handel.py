@@ -23,7 +23,7 @@ def coord(r, i):
 ds_beg = dataset(a_beg, "begleitscheine")
 ds_mark = dataset(a_mark, "maerkte", add_cols=[(LON, lambda r: coord(r, 1)), (LAT, lambda r: coord(r, 2))])
 ds_ereig = dataset(a_bahn, "ereignisse")
-ds_kosten = dataset(a_chaus, "costs", new_name="chausseekosten")
+ds_kosten = dataset(a_chaus, "costs", new_name="chausseekosten", drop_cols=("item_key",))
 ds_zeit = dataset(a_zeit, "districts", new_name="zeitungen_landesteile")
 ds_orte = copy.deepcopy(P)
 ds_fluesse = copy.deepcopy(R)
@@ -64,8 +64,8 @@ def days(r):
 yrs1, yrs2 = days(d1) / 365.25, days(d2) / 365.25
 first_bank = min(int(r["date_start"][:4]) for r in ereig if r["kind"] == "Geldinstitut")
 
-ertrag = next(r["thaler"] for r in kosten if r["item_key"] == "a")
-aufwand = next(r["thaler"] for r in kosten if r["item_key"] == "b")
+ertrag = next(r["thaler"] for r in kosten if r["item_de"] == "Reinertrag Chausseegelder")
+aufwand = next(r["thaler"] for r in kosten if r["item_de"] == "Unterhaltungsaufwand")
 cover = ertrag / aufwand * 100
 
 z = {r["district"]: r for r in zeit}
@@ -87,11 +87,11 @@ summary = {
            f"1859 und 1865 wurden zwei Eisenbahnen nach Gera eröffnet. Brückner erklärt den Gegensatz mit der Lage zu den großen Verkehrsströmen."),
     "en": (f"As a measure of trade Brückner prints the number of customs transit documents processed: in Gera it rose from {gera58} (1858) to {gera67} (1867), "
            f"in the Oberland it fell from {ober58} to {ober67}. Of {n_markets} annual markets, {le} took place in Lobenstein-Ebersdorf. "
-           f"Two railways to Gera opened in 1859 and 1865. Brückner explains the contrast by the position relative to the great traffic flows."),
+           f"Two railways to Gera opened in 1859 and 1865. Brückner attributes the contrast to the position of the districts relative to the main traffic routes."),
 }
 
 findings = [
-    {"de": (f"Gera erledigte 1867 {de(share67, 1)} Prozent aller Begleitscheine des Landes, 1858 waren es {de(share58, 1)} Prozent. "
+    {"de": (f"1867 erledigte Gera {de(share67, 1)} Prozent aller Begleitscheine des Landes, 1858 waren es {de(share58, 1)} Prozent. "
             f"Beim Amt Schleiz sank die Zahl von {schleiz58} auf {schleiz67}."),
      "en": (f"In 1867 Gera processed {en(share67, 1)} percent of all transit documents in the principality, in 1858 it was {en(share58, 1)} percent. "
             f"At the Schleiz office the number fell from {schleiz58} to {schleiz67}.")},
@@ -109,20 +109,20 @@ charts = [
     {"id": "c1", "dataset": "begleitscheine", "extra_datasets": ["ereignisse"],
      "title": {"de": f"Die Begleitscheine stiegen in Gera um {de(gera_chg)} Prozent und sanken im Oberland um {de(-ober_chg)} Prozent",
                "en": f"Transit documents rose {en(gera_chg)} percent in Gera and fell {en(-ober_chg)} percent in the Oberland"},
-     "caption": {"de": "Bei den Erledigungsämtern erledigte Begleitscheine (Zollpapiere für Warentransporte) 1858 bis 1867, bezogen auf 1858. Unterland: Amt Gera; Oberland: Ämter Schleiz, Lobenstein und Hirschberg. Gestrichelt: Eröffnung der Bahnen. Quelle: S. 261–262.",
-                 "en": "Transit documents (customs papers for goods in transit) processed by the clearing offices, 1858 to 1867, relative to 1858. Unterland: Gera office; Oberland: Schleiz, Lobenstein and Hirschberg offices. Dashed: opening of the railways. Source: pp. 261–262."},
+     "caption": {"de": "Erledigte Begleitscheine (Zollpapiere für Warentransporte) 1858 bis 1867, 1858 = 100. Unterland: Amt Gera; Oberland: Ämter Schleiz, Lobenstein und Hirschberg. Gestrichelt: Eröffnung der Bahnen von Weißenfels (1859) und Gößnitz (1865) nach Gera. Quelle: S. 261–262.",
+                 "en": "Transit documents (customs papers for goods in transit) processed 1858 to 1867, 1858 = 100. Unterland: Gera office; Oberland: Schleiz, Lobenstein and Hirschberg offices. Dashed: opening of the railways from Weißenfels (1859) and Gößnitz (1865) to Gera. Source: pp. 261–262."},
      "vegalite": C.c1},
     {"id": "c2", "dataset": "maerkte", "extra_datasets": ["orte_basis", "fluesse_basis"],
      "title": {"de": f"Im Landesteil Lobenstein-Ebersdorf fanden {le} von {n_markets} Märkten statt, allein {top_n} in {top_place}",
                "en": f"The district of Lobenstein-Ebersdorf had {le} of {n_markets} markets, {top_n} of them in {top_place} alone"},
-     "caption": {"de": f"Märkte im Jahr (Jahr-, Kram-, Vieh-, Ross-, Woll- und Kornmärkte, ohne Wochenmärkte) an den {n_places} Marktorten. Graue Punkte: übrige Orte. Quelle: S. 262.",
-                 "en": f"Markets per year (fairs, general, cattle, horse, wool and grain markets, without weekly markets) in the {n_places} market towns. Grey dots: other places. Source: p. 262."},
+     "caption": {"de": f"Märkte im Jahr (Jahr-, Kram-, Vieh-, Ross-, Woll- und Kornmärkte, ohne Wochenmärkte) an den {n_places} Marktorten. Kleine Punkte: übrige Orte. Quelle: S. 262.",
+                 "en": f"Markets per year (fairs, general, cattle, horse, wool and grain markets, excluding weekly markets) in the {n_places} market towns. Small dots: other places. Source: p. 262."},
      "vegalite": C.c2},
     {"id": "c3", "dataset": "ereignisse",
-     "title": {"de": f"Sparkassen gab es ab {first_bank}, die erste Eisenbahn erreichte Gera 1859, die zweite 1865",
-               "en": f"Savings banks existed from {first_bank}, the first railway reached Gera in 1859, the second in 1865"},
-     "caption": {"de": "Datierte Einrichtungen von Handel und Verkehr. Dicke Balken: Vertrag bis Eröffnung der Bahn; Punkte: Gründung; dünne Linien: besteht bis 1868. Quelle: S. 258, 261–262.",
-                 "en": "Dated institutions of trade and transport. Thick bars: treaty to opening of the railway; dots: foundation; thin lines: in existence until 1868. Source: pp. 258, 261–262."},
+     "title": {"de": f"Die erste Sparkasse bestand seit {first_bank}, Eisenbahnen erreichten Gera 1859 und 1865",
+               "en": f"The first savings bank dates from {first_bank}, railways reached Gera in 1859 and 1865"},
+     "caption": {"de": "Datierte Einrichtungen von Handel und Verkehr. Bahnen: Linie vom Staatsvertrag (offener Kreis) bis zur Eröffnung; übrige Einrichtungen: Jahr der Gründung oder Einführung. Quelle: S. 258, 261–262.",
+                 "en": "Dated institutions of trade and transport. Railways: line from the state treaty (open circle) to the opening; other institutions: year of foundation or introduction. Source: pp. 258, 261–262."},
      "vegalite": C.c3},
 ]
 
@@ -131,14 +131,14 @@ method = {
            "Für den Vergleich der Landesteile bildet Gera das Unterland, Schleiz, Lobenstein und Hirschberg zusammen das Oberland; beide Reihen sind auf 1858 = 100 bezogen. "
            "Die Märkte nennt die Aufzählung S. 262 in Zahlwörtern (»sieben Kram- und Viehmärkte«); jede genannte Art wurde als eine Zeile mit der Anzahl erfasst, ein kombinierter Markt zählt als ein Markt. "
            "Die Koordinaten der Marktorte stammen aus den Ortsdaten der Edition (GeoNames), nicht aus dem Druck. "
-           "Die Zeitleiste enthält die Daten, die Brückner für Bahnen, Geldinstitute und Gesetze nennt; bei den Bahnen reicht der Balken vom Vertrag zur Eröffnung. "
+           "Die Zeitleiste enthält die Daten, die Brückner für Bahnen, Geldinstitute und Gesetze nennt; bei den Bahnen reicht die Linie vom Vertrag zur Eröffnung. "
            "Die Zeitungszahlen stammen aus der Tabelle S. 168; je 1.000 Einwohner ergibt sich aus Brückners Kennzahl »1 Exemplar auf … Einwohner«. "
            "Alle Beträge in Talern (1 Taler = 30 Silbergroschen)."),
     "en": ("The transit documents are in the table on p. 261 (four clearing offices, ten years); a dash in the print is coded as a missing value. "
            "To compare the districts, Gera stands for the Unterland and Schleiz, Lobenstein and Hirschberg together for the Oberland; both series are set to 1858 = 100. "
            "The markets are given in number words in the list on p. 262 (“seven general and cattle markets”); each kind named was recorded as one row with its number, a combined market counts as one market. "
            "The coordinates of the market towns come from the edition’s place data (GeoNames), not from the print. "
-           "The timeline contains the dates that Brückner gives for railways, financial institutions and laws; for the railways the bar runs from the treaty to the opening. "
+           "The timeline contains the dates that Brückner gives for railways, financial institutions and laws; for the railways the line runs from the treaty to the opening. "
            "The newspaper figures come from the table on p. 168; per 1,000 inhabitants follows from Brückner’s ratio “1 copy per … inhabitants”. "
            "All amounts are in thalers (1 thaler = 30 silver groschen)."),
 }
@@ -179,7 +179,6 @@ a = {
         "de": ["Handel", "Verkehr", "Märkte", "Jahrmärkte", "Begleitscheine", "Eisenbahn", "Sparkasse", "Geraer Bank", "Chaussee", "Zeitungen", "Gera", "Oberland"],
         "en": ["trade", "transport", "markets", "fairs", "transit documents", "railway", "savings bank", "Bank of Gera", "highway", "newspapers", "Gera", "Oberland"]},
     "related": ["berufe-gewerbe", "viehzucht", "bergbau", "staatsfinanzen"],
-    "generated_by": GENERATED_BY.format(n=len(IDS)),
     "date": DATE,
 }
 for i in IDS:

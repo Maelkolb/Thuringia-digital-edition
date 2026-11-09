@@ -9,8 +9,18 @@ d_bl = ds(aB, 'bloom'); d_bl['name'] = 'bloom'
 d_sp = ds(aB, 'spring'); d_sp['name'] = 'spring'
 d_tr = ds(aB, 'trend'); d_tr['name'] = 'trend'
 d_tt = ds(aB, 'trees'); d_tt['name'] = 'trees'
+
+
+def drop_columns(d, *names):
+    keep = [i for i, c in enumerate(d['columns']) if c['name'] not in names]
+    d['columns'] = [d['columns'][i] for i in keep]
+    d['rows'] = [[r[i] for i in keep] for r in d['rows']]
+
+
 d_bs = ds(aV, 'species'); d_bs['name'] = 'bird_species'
 d_bo = ds(aV, 'observations'); d_bo['name'] = 'bird_observations'
+drop_columns(d_bs, 'label_align', 'label_dy')
+drop_columns(d_tt, 'stage')
 
 bl = rows(d_bl)
 sp = rows(d_sp)
@@ -162,8 +172,8 @@ c_temp = {
     'id': 'c3',
     'dataset': 'spring',
     'extra_datasets': ['trend'],
-    'title': bi(f"Je wärmer das Frühjahr, desto früher die Blüte: etwa {dn(abs(N['slope']), 0)} Tage je Grad",
-                f"The warmer the spring, the earlier the flowering: about {en(abs(N['slope']), 0)} days per degree"),
+    'title': bi(f"In wärmeren Frühjahren blühte es in Hohenleuben früher, etwa {dn(abs(N['slope']), 0)} Tage je Grad",
+                f"Warmer springs brought earlier flowering at Hohenleuben, about {en(abs(N['slope']), 0)} days per degree"),
     'caption': bi(
         f"Frühjahrsindex von Hohenleuben (mittlere Abweichung der zwölf Blühtermine eines Jahres vom Mittel der Art, in Tagen; positiv = später) gegen die Mitteltemperatur von März bis Mai (°C). Gerade: Regression, r = {dn(N['r_temp'], 2)}, {N['n_temp']} Jahre. Quelle: S. 56, 60.",
         f"Spring index of Hohenleuben (mean deviation of a year’s twelve flowering dates from the mean of the species, in days; positive = later) against the mean temperature of March to May (°C). Line: regression, r = {en(N['r_temp'], 2)}, {N['n_temp']} years. Source: pp. 56, 60."),
@@ -229,7 +239,7 @@ c_temp = {
 month_ticks = [1, 32, 60, 91, 121, 152, 182, 213, 244, 274, 305, 335]
 mt_de = "{'1':'Jan','32':'Feb','60':'Mär','91':'Apr','121':'Mai','152':'Jun','182':'Jul','213':'Aug','244':'Sep','274':'Okt','305':'Nov','335':'Dez'}[datum.value]"
 mt_en = "{'1':'Jan','32':'Feb','60':'Mar','91':'Apr','121':'May','152':'Jun','182':'Jul','213':'Aug','244':'Sep','274':'Oct','305':'Nov','335':'Dec'}[datum.value]"
-bird_x_scale = {'domain': [20, 380], 'nice': False}
+bird_x_scale = {'domain': [4, 366], 'nice': False}
 bird_x_axis = {'title': None, 'values': month_ticks, 'labelExpr': {'de': mt_de, 'en': mt_en}, 'grid': True, 'labelAngle': 0, 'labelAlign': 'left', 'labelOffset': 2}
 bird_y = {'field': 'sp_label', 'type': 'nominal', 'sort': {'field': 'mean_arrival_doy', 'op': 'min'}, 'axis': {'title': None, 'labelLimit': 250, 'grid': True}}
 bird_calc = [{'calculate': {'de': 'datum.species_de', 'en': 'datum.species_en'}, 'as': 'sp_label'}]
@@ -237,18 +247,18 @@ c_bird = {
     'id': 'c1',
     'dataset': 'bird_species',
     'extra_datasets': ['bird_observations'],
-    'title': bi(f"Je später die Ankunft, desto früher der Abzug: Die {N['stay_max_sp']} bleibt {N['stay_max']:.0f} Tage, die {N['stay_min_sp']} {N['stay_min']:.0f}",
-                f"Later arrival, earlier departure: the {en_name[N['stay_max_sp']].lower()} stays {N['stay_max']:.0f} days, the {en_name[N['stay_min_sp']].lower()} {N['stay_min']:.0f}"),
+    'title': bi("Je später ein Zugvogel ankam, desto früher zog er wieder ab",
+                "The later a migratory bird arrived, the earlier it left again"),
     'caption': bi(
-        'Ludwig Müllers Beobachtungen in Gera 1859 bis 1864. Balken: vom mittleren Ankunftstermin zum mittleren Abzugstermin der Art; Punkte: einzelne Jahre; Zahl: mittlere Aufenthaltsdauer der Jahre mit Ankunft und Abzug. Sortiert nach Ankunft. Quelle: S. 61.',
-        'Ludwig Müller’s observations at Gera, 1859 to 1864. Bar: from the mean arrival date to the mean departure date of the species; dots: single years; number: mean length of stay in years with both arrival and departure. Sorted by arrival. Source: p. 61.'),
+        'Ludwig Müllers Beobachtungen in Gera 1859 bis 1864. Balken: vom mittleren Ankunftstermin zum mittleren Abzugstermin der Art; Punkte: einzelne Jahre. Für die längste und die kürzeste Aufenthaltsdauer ist das Mittel genannt. Sortiert nach Ankunft. Quelle: S. 61.',
+        'Ludwig Müller’s observations at Gera, 1859 to 1864. Bar: from the mean arrival date to the mean departure date of the species; dots: single years. The longest and shortest mean stays are labeled. Sorted by arrival. Source: p. 61.'),
     'vegalite': {
         'height': {'step': 24},
         'transform': bird_calc,
         'encoding': {'y': bird_y},
         'layer': [
             {
-                'mark': {'type': 'bar', 'height': 10, 'cornerRadius': 5, 'color': '@accent', 'opacity': 0.85},
+                'mark': {'type': 'bar', 'height': 13, 'cornerRadius': 6, 'color': '@accent', 'opacity': 0.9},
                 'encoding': {
                     'x': dict(X('mean_arrival_doy'), scale=bird_x_scale, axis=bird_x_axis),
                     'x2': {'field': 'mean_departure_doy'},
@@ -277,10 +287,11 @@ c_bird = {
                                          {'field': 'departure_printed', 'title': bi('Abzug (gedruckt)', 'Departure (as printed)')}]},
             },
             {
-                'transform': [{'filter': 'isValid(datum.mean_stay_days)'},
+                'transform': [{'filter': f"indexof(['{N['stay_max_sp']}', '{N['stay_min_sp']}'], datum.species_de) >= 0"},
+                              {'calculate': '(datum.mean_arrival_doy + datum.mean_departure_doy) / 2', 'as': 'mid'},
                               {'calculate': {'de': "format(datum.mean_stay_days, '.0f') + ' Tage'", 'en': "format(datum.mean_stay_days, '.0f') + ' days'"}, 'as': 'stay_lab'}],
-                'mark': {'type': 'text', 'style': 'label', 'align': 'right'},
-                'encoding': {'x': {'datum': 380, 'type': 'quantitative', 'scale': bird_x_scale, 'axis': bird_x_axis}, 'text': {'field': 'stay_lab'}},
+                'mark': {'type': 'text', 'style': 'label', 'align': 'center', 'baseline': 'middle', 'fontSize': 10.5, 'fill': '@paper'},
+                'encoding': {'x': X('mid'), 'text': {'field': 'stay_lab'}},
             },
         ],
     },
@@ -305,15 +316,15 @@ f = {
         bi(f"Je später die Ankunft, desto früher der Abzug (r = {dn(N['r_birds'], 2)} über {N['n_birds']} Arten). Die mittlere Aufenthaltsdauer reicht von {N['stay_min']:.0f} Tagen ({N['stay_min_sp']}) bis {N['stay_max']:.0f} ({N['stay_max_sp']}).",
            f"The later the arrival, the earlier the departure (r = {en(N['r_birds'], 2)} across {N['n_birds']} species). The mean length of stay ranges from {N['stay_min']:.0f} days ({en_name[N['stay_min_sp']].lower()}) to {N['stay_max']:.0f} ({en_name[N['stay_max_sp']].lower()})."),
         bi(f"Hohenleuben blühte {N['years_lo']} bis {N['years_hi']} bei {N['later_species']} von {N['n_species']} Arten im Mittel später als Gera ({N['pairs']} Paare). Schüblers Regel von 8 Tagen je 1000 Fuß ergäbe bei rund {N['dh_ft']:.0f} Fuß Höhenunterschied {dn(N['schubler'])} Tage.",
-           f"In {N['years_lo']} to {N['years_hi']} Hohenleuben flowered later than Gera in {N['later_species']} of {N['n_species']} species ({N['pairs']} pairs). Schübler’s rule (8 days per 1,000 feet) gives {en(N['schubler'])} days for the {N['dh_ft']:.0f} feet difference in height."),
-        bi(f"Je Grad wärmerem Frühjahr (März bis Mai) blühte es in Hohenleuben etwa {dn(abs(N['slope']))} Tage früher (r = {dn(N['r_temp'], 2)}, {N['n_temp']} Jahre). {N['warm_year']} war das wärmste Frühjahr und das früheste, {N['cold_year']} das kälteste und spät.",
-           f"Per degree of warmer spring (March to May), flowering at Hohenleuben came about {en(abs(N['slope']))} days earlier (r = {en(N['r_temp'], 2)}, {N['n_temp']} years). {N['warm_year']} was warmest and earliest, {N['cold_year']} coldest and late."),
+           f"In {N['years_lo']} to {N['years_hi']} Hohenleuben flowered later than Gera in {N['later_species']} of {N['n_species']} species ({N['pairs']} pairs). Schübler’s rule (8 days per 1,000 feet) predicts {en(N['schubler'])} days for the difference in height of about {N['dh_ft']:.0f} feet."),
+        bi(f"Je Grad wärmerem Frühjahr (März bis Mai) blühte es in Hohenleuben etwa {dn(abs(N['slope']))} Tage früher (r = {dn(N['r_temp'], 2)}, {N['n_temp']} Jahre). {N['warm_year']} hatte das wärmste Frühjahr und die früheste Blüte, {N['cold_year']} das kälteste und eine späte.",
+           f"Per degree of warmer spring (March to May), Hohenleuben flowered about {en(abs(N['slope']))} days earlier (r = {en(N['r_temp'], 2)}, {N['n_temp']} years). {N['warm_year']} had the warmest spring and earliest flowering, {N['cold_year']} the coldest and a late one."),
     ],
     'method': bi(
         'Brückner druckt die Termine als Brüche, bei denen der Monat der Nenner und der Tag der Zähler ist (S. 60). Sie sind in Tage des Jahres umgesetzt (normiertes Jahr ohne Schalttag, 1. Januar = 1; 1. März = 60, 1. Juli = 182). Die lateinischen Namen sind im Druck teils abgekürzt und vereinheitlicht; deutsche und englische Namen sind eine editorische Zuordnung. Der Frühjahrsindex eines Jahres ist das Mittel der Abweichungen der Blühtermine aller Arten (außer der Weinrebe) vom Mittel der jeweiligen Art an derselben Station; positive Werte bedeuten späte Blüte. Die Mitteltemperatur März bis Mai von Hohenleuben stammt aus den Monatsmitteln auf S. 56 (°R × 1,25); das Jahr 1853 hat keine Temperatur. Die Höhen der Ortslagen (Gera 505 bis 600, Hohenleuben 975 bis 1050 Dezimalfuß, S. 12 und 20) ergeben mit ihren Mitten 460 Fuß Unterschied.\n'
-        'Bei den Zugvögeln (S. 61) sind Tagesspannen der Ankunft (»21.–26./4.«) mit ihrer Mitte eingesetzt. Der Balken verbindet die mittlere Ankunft mit dem mittleren Abzug der Art aus allen vorhandenen Jahren; die Aufenthaltsdauer ist Abzug minus Ankunft desselben Jahres und nur bei vollständigem Paar berechnet. Die Entwicklungsstufen von Rosskastanie und Birnbaum (S. 61) stehen als Tabelle »trees« im Datensatz.',
+        'Bei den Zugvögeln (S. 61) sind Tagesspannen der Ankunft (»21.–26./4.«) mit ihrer Mitte eingesetzt. Der Balken verbindet die mittlere Ankunft mit dem mittleren Abzug der Art aus allen vorhandenen Jahren; die Aufenthaltsdauer ist Abzug minus Ankunft desselben Jahres und nur bei vollständigem Paar berechnet. Die Entwicklungsstufen von Rosskastanie und Birnbaum (S. 61) stehen nur in den Daten.',
         'Brückner prints the dates as fractions in which the month is the denominator and the day the numerator (p. 60). They are converted to days of the year (normalized year without leap day, 1 January = 1; 1 March = 60, 1 July = 182). The Latin names are partly abbreviated in the print and have been unified; German and English names are an editorial assignment. The spring index of a year is the mean of the deviations of the flowering dates of all species (except grapevine) from the mean of that species at the same station; positive values mean late flowering. The mean temperature March to May for Hohenleuben comes from the monthly means on p. 56 (°R × 1.25); the year 1853 has no temperature. The heights of the places (Gera 505 to 600, Hohenleuben 975 to 1050 decimal feet, pp. 12 and 20) give a difference of 460 feet between their midpoints.\n'
-        'For the migratory birds (p. 61), ranges of days for arrival (»21.–26./4.«) are entered at their midpoint. The bar joins the mean arrival with the mean departure of the species from all available years; the length of stay is departure minus arrival of the same year and is computed only for complete pairs. The development stages of horse chestnut and pear tree (p. 61) are in the dataset as the table »trees«.'),
+        'For the migratory birds (p. 61), ranges of days for arrival (»21.–26./4.«) are entered at their midpoint. The bar joins the mean arrival with the mean departure of the species from all available years; the length of stay is departure minus arrival of the same year and is computed only for complete pairs. The development stages of horse chestnut and pear tree (p. 61) appear only in the data.'),
     'conversions': [
         {'from': 'Datumsbruch (Tag./Monat.)', 'to': 'Tag im Jahr', 'factor_or_formula': 'Tag im Jahr = Tage vor Monatsbeginn (Nicht-Schaltjahr) + Tag; bei Tagesspannen Mitte der Spanne', 'reference': 'Erläuterung Brückner S. 60: Monat als Nenner, Tag als Zähler'},
         {'from': 'Grad Réaumur (°R)', 'to': 'Grad Celsius (°C)', 'factor_or_formula': '°C = °R × 1,25', 'reference': 'von Brückner nicht tabelliert'},
@@ -335,7 +346,6 @@ f = {
         'en': ['phenology', 'flowering', 'bloom dates', 'migratory birds', 'bird migration', 'arrival', 'departure', 'Gera', 'Hohenleuben', 'spring', 'Schübler'],
     },
     'related': ['klima-gera', 'klima-stationen', 'pflanzenwelt', 'tierwelt'],
-    'generated_by': 'Claude Sonnet 5.5 (Agent F2), aus 2 Einzelauswertungen zusammengeführt',
     'date': '2026-10-02',
 }
 tr_issues = [t for a in (aB, aV) for t in (a.get('transcription_issues') or [])]

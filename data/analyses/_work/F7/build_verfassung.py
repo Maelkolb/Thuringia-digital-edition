@@ -56,13 +56,14 @@ for m, c in counts.items():
 off_rows.sort(key=lambda r: (r[1], list(pop).index(r[0])))
 
 # contingent
+REICH, BUND = "Reichskontingent", "Bundeskontingent"
 cont_rows = [
-    [1, "bis 1681", "until 1681", "reich", 24, None, 24],
-    [2, "1681 bis 1702", "1681 to 1702", "reich", 71.5, None, 71.5],
-    [3, "ab 1702, mit Schwarzburg", "from 1702, with Schwarzburg", "reich", 333, None, 333],
-    [4, "Deutscher Bund, zuerst", "German Confederation, at first", "bund", 522, 261, 783],
-    [5, "Deutscher Bund ab 1842", "German Confederation from 1842", "bund", 608, 261, 869],
-    [6, "Norddeutscher Bund 1867", "North German Confederation, 1867", "bund", 885, None, 885],
+    [1, "bis 1681", "until 1681", REICH, 24, None, 24],
+    [2, "1681 bis 1702", "1681 to 1702", REICH, 71.5, None, 71.5],
+    [3, "ab 1702, mit Schwarzburg", "from 1702, with Schwarzburg", REICH, 333, None, 333],
+    [4, "Deutscher Bund, zuerst", "German Confederation, at first", BUND, 522, 261, 783],
+    [5, "Deutscher Bund ab 1842", "German Confederation from 1842", BUND, 608, 261, 869],
+    [6, "Norddeutscher Bund 1867", "North German Confederation, 1867", BUND, 885, None, 885],
 ]
 cont_first = int(cont_rows[0][6])
 cont_last = int(cont_rows[-1][6])
@@ -111,7 +112,7 @@ ds_cont = dataset(
     [col("period_order", "Reihenfolge", "Order", "integer", None, True),
      col("period_de", "Zeitabschnitt", "Period", "string"),
      col("period_en", "Zeitabschnitt (englisch)", "Period (English)", "string"),
-     col("era", "Art des Kontingents", "Kind of contingent", "string", None, True, "reich = Reichskontingent, bund = Bundeskontingent"),
+     col("era", "Art des Kontingents", "Kind of contingent", "string", None, True),
      col("main", "Hauptkontingent", "Main contingent", "number", "Mann", True, "71 1/2 im Druck"),
      col("reserve", "Reservekontingent", "Reserve contingent", "number", "Mann", True, "Nach 1842 als unverändert angenommen"),
      col("total", "Zu stellende Mannschaft", "Troops to be provided", "number", "Mann", True)],
@@ -155,46 +156,47 @@ e = en_num
 GERA, SCHL, LOBE = "Gera", "Schleiz", "Lobenstein-Ebersdorf"
 tip_district = {"field": "district", "title": bi("Landesteil", "District")}
 
+share_label = {
+    "de": "datum.measure === 'seat_share' ? [datum.group_de, datum.seats + ' (' + format(datum.pct, '.0f') + ' %)'] : [datum.group_de, format(datum.population, ',d') + ' (' + format(datum.pct, '.0f') + ' %)']",
+    "en": "datum.measure === 'seat_share' ? [datum.group_en, datum.seats + ' (' + format(datum.pct, '.0f') + '%)'] : [datum.group_en, format(datum.population, ',d') + ' (' + format(datum.pct, '.0f') + '%)']"}
+
 c1 = {
     "id": "c1",
     "dataset": "representation",
     "title": bi("Städte hatten zwei Drittel der von den Gemeinden gewählten Sitze, aber nur ein Drittel der Einwohner",
-                "Towns held two thirds of Landtag seats chosen by communities, but a third of the inhabitants"),
+                "Towns held two thirds of the community-elected seats but only a third of the population"),
     "caption": bi(
         f"Anteil der Städte und der übrigen Gemeinden an den {seats_elected} von den Gemeinden gewählten Sitzen des Landtags und an den Einwohnern 1867. Nicht gezeigt: vier Sitze des Köstritzer Paragiums und der Rittergutsbesitzer. Quellen: S. 268, 95.",
-        f"Share of the towns and the other communities in the {seats_elected} Landtag seats chosen by the communities and in the inhabitants in 1867. Not shown: four seats of the Köstritz appanage and the manor owners. Sources: pp. 268, 95."),
+        f"Share of the towns and of the other communities in the {seats_elected} Landtag seats elected by the communities and in the population of 1867. Not shown: four seats of the Köstritz appanage and the manor owners. Sources: pp. 268, 95."),
     "vegalite": {
-        "height": {"step": 78},
+        "height": {"step": 88},
         "transform": [
             {"fold": ["seat_share", "pop_share"], "as": ["measure", "pct"]},
             {"stack": "pct", "groupby": ["measure"], "sort": [{"field": "rank"}], "as": ["x0", "x1"]},
-            {"calculate": {
-                "de": "datum.measure === 'seat_share' ? datum.group_de + ': ' + datum.seats + ' (' + format(datum.pct, '.0f') + ' %)' : datum.group_de + ': ' + format(datum.population, ',d') + ' (' + format(datum.pct, '.0f') + ' %)'",
-                "en": "datum.measure === 'seat_share' ? datum.group_en + ': ' + datum.seats + ' (' + format(datum.pct, '.0f') + '%)' : datum.group_en + ': ' + format(datum.population, ',d') + ' (' + format(datum.pct, '.0f') + '%)'"},
-             "as": "label"},
+            {"calculate": share_label, "as": "label"},
             {"calculate": {
                 "de": "datum.measure === 'seat_share' ? 'Landtagssitze (" + str(seats_elected) + ")' : 'Einwohner 1867 (" + n(pop_total) + ")'",
-                "en": "datum.measure === 'seat_share' ? 'Landtag seats (" + str(seats_elected) + ")' : 'Inhabitants 1867 (" + e(pop_total) + ")'"},
+                "en": "datum.measure === 'seat_share' ? 'Landtag seats (" + str(seats_elected) + ")' : 'Population 1867 (" + e(pop_total) + ")'"},
              "as": "measure_label"},
             {"calculate": "datum.measure === 'seat_share' ? 1 : 2", "as": "measure_order"},
         ],
         "encoding": {
             "y": {"field": "measure_label", "type": "nominal", "sort": {"field": "measure_order", "op": "min"},
-                  "axis": {"title": None, "labelFontSize": 12, "labelFontWeight": 600, "labelLimit": 300, "ticks": False, "domain": False}},
+                  "axis": {"title": None, "labelFontSize": 12, "labelFontWeight": 600, "labelLimit": 300, "ticks": False, "domain": False, "labelOffset": 12}},
         },
         "layer": [
             {
-                "mark": {"type": "bar", "height": 34, "cornerRadiusEnd": 0},
+                "mark": {"type": "bar", "height": 30, "yOffset": 12, "cornerRadiusEnd": 0},
                 "encoding": {
                     "x": {"field": "x0", "type": "quantitative", "scale": {"domain": [0, 100]},
-                          "axis": {"values": [0, 25, 50, 75, 100], "labelExpr": "datum.value + ' %'", "title": None, "grid": False}},
+                          "axis": {"values": [0, 25, 50, 75, 100], "labelExpr": {"de": "datum.value + ' %'", "en": "datum.value + '%'"}, "title": None, "grid": False}},
                     "x2": {"field": "x1"},
                     "color": {"field": "group_de", "type": "nominal", "legend": None,
                               "scale": {"domain": ["Städte", "Übrige Gemeinden"], "range": ["@accent", "@accent2"]}},
                     "tooltip": [
-                        {"field": "group_de", "title": bi("Gruppe", "Group")},
-                        {"field": "seats", "title": bi("Von den Gemeinden gewählte Sitze", "Seats chosen by the communities")},
-                        {"field": "population", "title": bi("Einwohner 1867", "Inhabitants 1867"), "format": ",d"},
+                        {"field": {"de": "group_de", "en": "group_en"}, "title": bi("Gruppe", "Group")},
+                        {"field": "seats", "title": bi("Von den Gemeinden gewählte Sitze", "Seats elected by the communities")},
+                        {"field": "population", "title": bi("Einwohner 1867", "Population 1867"), "format": ",d"},
                         {"field": "pct", "title": bi("Anteil in Prozent", "Share in percent"), "format": ".1f"},
                         {"field": "per_seat", "title": bi("Einwohner je Sitz", "Inhabitants per seat"), "format": ",d"},
                     ],
@@ -202,107 +204,114 @@ c1 = {
             },
             {
                 "transform": [{"filter": "datum.rank === 1"}],
-                "mark": {"type": "text", "align": "left", "baseline": "bottom", "dx": 3, "dy": -22, "style": "label"},
+                "mark": {"type": "text", "align": "left", "baseline": "bottom", "dx": 2, "dy": -21, "lineHeight": 15, "style": "label"},
                 "encoding": {"x": {"field": "x0", "type": "quantitative"}, "text": {"field": "label"}},
             },
             {
                 "transform": [{"filter": "datum.rank === 2"}],
-                "mark": {"type": "text", "align": "right", "baseline": "bottom", "dx": -3, "dy": -22, "style": "label"},
+                "mark": {"type": "text", "align": "right", "baseline": "bottom", "dx": -2, "dy": -21, "lineHeight": 15, "style": "label"},
                 "encoding": {"x": {"field": "x1", "type": "quantitative"}, "text": {"field": "label"}},
             },
         ],
     },
 }
 
-# officials: grouped diverging bars, two panels
 dist_domain = [GERA, SCHL, LOBE]
 dist_range = ["@accent", "@accent2", "@accent3"]
-dot_color = {"field": "district", "type": "nominal", "legend": None,
-             "scale": {"domain": dist_domain, "range": dist_range}}
 idx_scale = {"domain": [40, 180], "nice": False}
-x_idx = {"field": "index", "type": "quantitative", "scale": idx_scale,
-         "axis": {"values": [50, 100, 150], "title": bi("Index, Landesdurchschnitt = 100", "Index, national average = 100"), "grid": False}}
-y_off = {"field": "district", "type": "nominal", "sort": dist_domain}
+dot_tooltip = [
+    tip_district,
+    {"field": {"de": "measure_de", "en": "measure_en"}, "title": bi("Merkmal", "Measure")},
+    {"field": "count", "title": bi("Anzahl", "Number")},
+    {"field": "per_10000", "title": bi("je 10.000 Einwohner", "per 10,000 inhabitants"), "format": ".2f"},
+    {"field": "per_sqm", "title": bi("je Quadratmeile", "per square mile"), "format": ".2f"},
+    {"field": "index", "title": bi("Index", "Index"), "format": ".0f"},
+]
+row_label = {
+    "de": "datum.measure_de + ' (' + datum.total + ') ' + (datum.basis === 'index_pop' ? 'je Einwohner' : 'je Quadratmeile')",
+    "en": "datum.measure_en + ' (' + datum.total + ') ' + (datum.basis === 'index_pop' ? 'per inhabitant' : 'per square mile')"}
 
 c2 = {
     "id": "c2",
     "dataset": "officials",
     "title": bi("Ärzte folgten den Einwohnern, Gendarmen und Justizämter eher der Fläche",
-                "Physicians followed the population, gendarmes and Justizämter rather the area"),
+                "Physicians were spread by population, gendarmes and Justizämter rather by area"),
     "caption": bi(
-        "Gendarmen, promovierte Ärzte und Justizämter in den drei Landesteilen, bezogen auf Einwohner (links) und Fläche (rechts). Index: Landesdurchschnitt = 100. Quellen: S. 273, 274, 280, 95, 407, 574, 709.",
-        "Gendarmes, qualified physicians and Justizämter in the three districts, related to inhabitants (left) and area (right). Index: national average = 100. Sources: pp. 273, 274, 280, 95, 407, 574, 709."),
+        "Gendarmen, promovierte Ärzte und Justizämter in den drei Landesteilen je Einwohner und je Quadratmeile, als Index (Landesdurchschnitt = 100); die Linie reicht vom kleinsten zum größten Wert. Quellen: S. 273, 274, 280, 95, 407, 574, 709.",
+        "Gendarmes, physicians with a doctorate and Justizämter in the three districts per inhabitant and per square mile, as an index (national average = 100); the line spans the lowest to the highest value. Sources: pp. 273, 274, 280, 95, 407, 574, 709."),
     "vegalite": {
+        "height": {"step": 34},
         "transform": [
             {"fold": ["index_pop", "index_area"], "as": ["basis", "index"]},
-            {"calculate": {"de": "datum.measure_de + ' (' + datum.total + ')'", "en": "datum.measure_en + ' (' + datum.total + ')'"}, "as": "measure_label"},
+            {"calculate": row_label, "as": "row"},
+            {"calculate": "datum.measure_order * 2 + (datum.basis === 'index_area' ? 1 : 0)", "as": "row_order"},
+            {"joinaggregate": [{"op": "min", "field": "index", "as": "lo"}, {"op": "max", "field": "index", "as": "hi"}], "groupby": ["row"]},
         ],
-        "facet": {"column": {"field": "basis", "type": "nominal", "sort": ["index_pop", "index_area"],
-                             "header": {"title": None, "labelFontSize": 12, "labelFontWeight": 600, "labelOrient": "top",
-                                        "labelExpr": {"de": "datum.value === 'index_pop' ? 'Je Einwohner' : 'Je Quadratmeile'",
-                                                      "en": "datum.value === 'index_pop' ? 'Per inhabitant' : 'Per square mile'"}}}},
-        "spec": {
-            "width": 330,
-            "height": 230,
-            "encoding": {"y": {"field": "measure_label", "type": "nominal", "sort": {"field": "measure_order", "op": "min"},
-                               "axis": {"title": None, "labelFontSize": 12, "ticks": False, "domain": False, "grid": False, "labelLimit": 300}}},
-            "layer": [
-                {"mark": {"type": "bar", "cornerRadiusEnd": 0},
-                 "encoding": {"x": x_idx, "x2": {"datum": 100}, "yOffset": y_off, "color": dot_color,
-                              "tooltip": [
-                                  tip_district,
-                                  {"field": "measure_de", "title": bi("Merkmal", "Measure")},
-                                  {"field": "count", "title": bi("Anzahl", "Number")},
-                                  {"field": "per_10000", "title": bi("je 10.000 Einwohner", "per 10,000 inhabitants"), "format": ".2f"},
-                                  {"field": "per_sqm", "title": bi("je Quadratmeile", "per square mile"), "format": ".2f"},
-                                  {"field": "index", "title": bi("Index", "Index"), "format": ".0f"},
-                              ]}},
-                {"mark": {"type": "rule", "color": "@ink2"},
-                 "encoding": {"x": {"datum": 100, "type": "quantitative", "scale": idx_scale}, "y": None}},
-                {"transform": [{"filter": "datum.basis === 'index_pop' && datum.measure_de === 'Ärzte'"}],
-                 "mark": {"type": "text", "align": "left", "baseline": "middle", "dx": 10, "style": "label"},
-                 "encoding": {"x": {"datum": 100, "type": "quantitative", "scale": idx_scale}, "yOffset": y_off,
-                              "text": {"field": "district"}, "color": dot_color}},
-            ],
+        "encoding": {
+            "y": {"field": "row", "type": "nominal", "sort": {"field": "row_order", "op": "min"},
+                  "axis": {"title": None, "ticks": False, "domain": False, "grid": False, "labelLimit": 260}},
         },
+        "layer": [
+            {"mark": {"type": "rule", "color": "@ink2", "strokeWidth": 1},
+             "encoding": {"x": {"datum": 100, "type": "quantitative", "scale": idx_scale,
+                                "axis": {"values": [50, 100, 150], "title": bi("Index, Landesdurchschnitt = 100", "Index, national average = 100"), "grid": False}},
+                          "y": None}},
+            {"transform": [{"filter": "datum.district === 'Gera'"}],
+             "mark": {"type": "rule", "color": "@context", "strokeWidth": 3, "strokeCap": "round"},
+             "encoding": {"x": {"field": "lo", "type": "quantitative", "scale": idx_scale}, "x2": {"field": "hi"}}},
+            *[{"transform": [{"filter": f"datum.district === '{district}'"}],
+               "mark": {"type": "circle", "size": 110, "opacity": 1, "stroke": "@paper", "strokeWidth": 1.5, "yOffset": shift},
+               "encoding": {
+                   "x": {"field": "index", "type": "quantitative", "scale": idx_scale},
+                   "color": {"field": "district", "type": "nominal", "scale": {"domain": dist_domain, "range": dist_range},
+                             "legend": {"title": None, "orient": "top", "direction": "vertical"}},
+                   "tooltip": dot_tooltip}}
+              for district, shift in zip(dist_domain, (-6, 0, 6))],
+        ],
     },
 }
 
+BAR_SHIFT = 8
 c3 = {
     "id": "c3",
     "dataset": "contingent",
     "title": bi(f"Das Militärkontingent wuchs von {cont_first} Mann bis 1681 auf {cont_last} Mann im Jahr 1867",
-                f"The military contingent grew from {cont_first} men until 1681 to {cont_last} men in 1867"),
+                f"The military contingent grew from {cont_first} men (until 1681) to {cont_last} men in 1867"),
     "caption": bi(
-        "Zu stellende Mannschaft in sechs Zeitabschnitten. Grau: Reichskontingent, blau: Bundeskontingent; der hellere Teil ist das Reservekontingent. Quelle: S. 271.",
-        "Troops to be provided in six periods. Grey: imperial contingent, blue: confederation contingent; the lighter part is the reserve contingent. Source: p. 271."),
+        "Zu stellende Mannschaft in sechs Zeitabschnitten. Grau: Kontingent zum Reichsheer, Blau: Bundeskontingent, beim Deutschen Bund mit der Reserve. Quelle: S. 271.",
+        "Troops to be provided in six periods. Grey: contingent to the imperial army, blue: confederation contingent, including the reserve under the German Confederation. Source: p. 271."),
     "vegalite": {
-        "height": {"step": 38},
+        "height": {"step": 44},
         "transform": [
             {"calculate": {"de": "datum.period_de", "en": "datum.period_en"}, "as": "period"},
             {"calculate": "isValid(datum.reserve) ? format(datum.total, ',.0f') + ' (' + format(datum.main, ',.0f') + ' + ' + format(datum.reserve, ',.0f') + ')' : format(datum.total, ',.1~f')", "as": "total_label"},
         ],
-        "encoding": {"y": {"field": "period", "type": "nominal", "sort": {"field": "period_order", "op": "min"},
-                           "axis": {"title": None, "labelLimit": 400, "ticks": False, "domain": False}}},
+        "encoding": {"y": {"field": "period", "type": "nominal", "sort": {"field": "period_order", "op": "min"}, "axis": None}},
         "layer": [
             {"transform": [{"fold": ["main", "reserve"], "as": ["part", "men"]},
                            {"filter": "isValid(datum.men)"},
-                           {"calculate": "datum.part === 'main' ? 1 : 2", "as": "part_order"}],
-             "mark": {"type": "bar", "height": 24, "cornerRadiusEnd": 0},
+                           {"calculate": "datum.part === 'main' ? 1 : 2", "as": "part_order"},
+                           {"calculate": {"de": "datum.part === 'main' ? 'Hauptkontingent' : 'Reserve'", "en": "datum.part === 'main' ? 'main contingent' : 'reserve'"}, "as": "part_label"}],
+             "mark": {"type": "bar", "height": 16, "yOffset": BAR_SHIFT, "cornerRadiusEnd": 0},
              "encoding": {
                  "x": {"field": "men", "type": "quantitative", "stack": "zero",
-                       "scale": {"domain": [0, 1000]},
+                       "scale": {"domain": [0, 1250]},
                        "axis": {"title": bi("Mann", "Men"), "values": [0, 250, 500, 750, 1000], "format": ",d"}},
                  "order": {"field": "part_order", "type": "quantitative"},
-                 "color": {"condition": {"test": "datum.era === 'bund'", "value": "@accent"}, "value": "@context"},
+                 "color": {"condition": {"test": f"datum.era === '{BUND}'", "value": "@accent"}, "value": "@context"},
                  "opacity": {"condition": {"test": "datum.part === 'reserve'", "value": 0.45}, "value": 1},
                  "tooltip": [
                      {"field": "period", "title": bi("Zeitabschnitt", "Period")},
-                     {"field": "part", "title": bi("Teil", "Part")},
+                     {"field": "part_label", "title": bi("Teil", "Part")},
                      {"field": "men", "title": bi("Mann", "Men"), "format": ",.1~f"},
                      {"field": "total", "title": bi("Zusammen", "Total"), "format": ",.1~f"},
                  ]}},
-            {"mark": {"type": "text", "align": "left", "dx": 6, "style": "label"},
+            {"mark": {"type": "text", "align": "left", "baseline": "bottom", "dy": -2},
+             "encoding": {"x": {"datum": 0, "type": "quantitative"}, "text": {"field": "period"}}},
+            {"transform": [{"filter": "datum.period_order === 4"}, {"calculate": "(datum.main + datum.total) / 2", "as": "mid"}],
+             "mark": {"type": "text", "align": "center", "baseline": "middle", "dy": BAR_SHIFT, "style": "annotation", "color": "@ink"},
+             "encoding": {"x": {"field": "mid", "type": "quantitative"}, "text": {"value": bi("Reserve", "reserve")}}},
+            {"mark": {"type": "text", "align": "left", "baseline": "middle", "dx": 6, "dy": BAR_SHIFT, "style": "label"},
              "encoding": {"x": {"field": "total", "type": "quantitative"}, "text": {"field": "total_label"}}},
         ],
     },
@@ -313,7 +322,7 @@ n = de_num
 e = en_num
 summary = bi(
     f"Nach Brückner zählte der Landtag {seats_all} Mitglieder, davon {seats_elected} aus Wahlen der Städte und der übrigen Gemeinden. Ein städtischer Abgeordneter vertrat {n(per_seat_towns)} Einwohner, ein ländlicher {n(per_seat_rural)}. Die drei Landesteile hatten {tot['Gendarmen']} Gendarmen, {tot['Ärzte']} promovierte Ärzte und {tot['Justizämter']} Justizämter. Das Militärkontingent stieg von {cont_first} Mann nach der alten Reichsmatrikel auf {cont_last} Mann im Norddeutschen Bund (1867).",
-    f"According to Brückner the Landtag had {seats_all} members, {seats_elected} of them elected by the towns and the other communities. One urban deputy represented {e(per_seat_towns)} inhabitants, one rural deputy {e(per_seat_rural)}. The three districts together had {tot['Gendarmen']} gendarmes, {tot['Ärzte']} qualified physicians and {tot['Justizämter']} Justizämter. The military contingent grew from {cont_first} men under the old imperial register to {cont_last} men in the North German Confederation (1867).")
+    f"According to Brückner the Landtag had {seats_all} members, {seats_elected} of them elected by the towns and the other communities. An urban deputy represented {e(per_seat_towns)} inhabitants, a rural deputy {e(per_seat_rural)}. The three districts together had {tot['Gendarmen']} gendarmes, {tot['Ärzte']} physicians with a doctorate and {tot['Justizämter']} Justizämter. The military contingent grew from {cont_first} men under the old imperial register to {cont_last} men in the North German Confederation (1867).")
 
 p10 = lambda m, d: stats[(m, d)][0]
 ps = lambda m, d: stats[(m, d)][1]
@@ -325,8 +334,8 @@ gen_a_lo = min(ps("Gendarmen", d) for d in pop)
 gen_a_hi = max(ps("Gendarmen", d) for d in pop)
 
 findings = [
-    bi(f"Die Städte stellten {seats_towns} von {seats_elected} von den Gemeinden gewählten Abgeordneten, aber nur {n(pop_share_towns)} Prozent der Einwohner. Ein ländlicher Sitz entsprach {n(per_seat_rural)} Einwohnern, ein städtischer {n(per_seat_towns)} (Faktor {n(factor_seat, 1)}).",
-       f"The towns held {seats_towns} of {seats_elected} deputies chosen by the communities but only {e(pop_share_towns)} percent of the inhabitants. One rural seat corresponded to {e(per_seat_rural)} inhabitants, one urban seat to {e(per_seat_towns)} (a factor of {e(factor_seat, 1)})."),
+    bi(f"Die Städte stellten {seats_towns} von {seats_elected} von den Gemeinden gewählten Abgeordneten, hatten aber nur {n(pop_share_towns)} Prozent der Einwohner. Ein ländlicher Sitz entsprach {n(per_seat_rural)} Einwohnern, ein städtischer {n(per_seat_towns)} (Faktor {n(factor_seat, 1)}).",
+       f"The towns held {seats_towns} of the {seats_elected} seats elected by the communities but had only {e(pop_share_towns)} percent of the inhabitants. One rural seat corresponded to {e(per_seat_rural)} inhabitants, one urban seat to {e(per_seat_towns)} (factor {e(factor_seat, 1)})."),
     bi(f"Je Einwohner schwankte die Zahl der Ärzte kaum ({n(doc_lo, 1)} bis {n(doc_hi, 1)} je 10.000), die der Gendarmen stark ({n(gen_lo, 1)} im Landesteil Gera, {n(gen_hi, 1)} in Lobenstein-Ebersdorf). Je Quadratmeile lagen die Gendarmen näher beieinander ({n(gen_a_lo, 1)} bis {n(gen_a_hi, 1)}).",
        f"Physicians per inhabitant hardly varied ({e(doc_lo, 1)} to {e(doc_hi, 1)} per 10,000), gendarmes a great deal ({e(gen_lo, 1)} in the Gera district, {e(gen_hi, 1)} in Lobenstein-Ebersdorf). Per square mile gendarmes ranged only from {e(gen_a_lo, 1)} to {e(gen_a_hi, 1)}."),
     bi(f"Das zu stellende Kontingent wuchs von {cont_first} Mann (Reichsmatrikel bis 1681) auf {cont_last} Mann (1867), fast auf das {n(factor_cont)}fache.",
@@ -335,13 +344,13 @@ findings = [
 
 method = bi(
     "Quellen sind die Abschnitte zu Verfassung, Militär und Staatsverwaltung (S. 267 bis 281) und die Bevölkerungstabellen (S. 93 bis 96). Die Sitzverteilung des Landtags steht im Fließtext S. 268; Zahlwörter wurden in Ziffern übertragen. Die Einwohner der sechs Städte und der übrigen Gemeinden 1867 sind die Summen der drei Landesteile aus der Tabelle S. 95. Der dort gedruckte Landeswert für die ländliche Bevölkerung (58052) ist ein Druckfehler und wird nicht verwendet. Anteile und Einwohner je Sitz sind berechnet. Die vier Sitze des Köstritzer Paragiums und der Rittergutsbesitzer (als eigene Gruppe gewählt) bleiben außerhalb der Rechnung, weil Brückner dafür keine Einwohner- oder Wählerzahl nennt. Gendarmen (S. 273) und promovierte Ärzte (S. 274) stehen im Fließtext. Die acht Justizämter (S. 280) sind den Landesteilen nach dem Sitz des Amtes zugeordnet: Gera I und II; Schleiz I und II sowie Hohenleuben; Lobenstein I und II sowie Hirschberg. Die Flächen der Landesteile in Quadratmeilen stammen aus den Landesteilartikeln (S. 407, 574, 709). Für jedes Merkmal wurde die Zahl je Einwohner und je Quadratmeile berechnet und auf den Landesdurchschnitt (= 100) bezogen. Die Reihe des Militärkontingents (S. 271) ordnet Brückners Angaben zu sechs Zeitabschnitten; für die Zeit ab 1842 wird die Reserve von 261 Mann als unverändert angenommen (608 + 261 = 869, wie Brückner für das Bataillon angibt). Die Größen der Gemeinderäte nach Einwohnerklasse (S. 269) stehen als weitere Tabelle zum Herunterladen.",
-    "Sources are the sections on constitution, military and administration (pp. 267 to 281) and the population tables (pp. 93 to 96). The seat allocation of the Landtag is in the running text of p. 268; numerals written as words were converted into digits. The inhabitants of the six towns and of the other communities in 1867 are the sums of the three districts from the table on p. 95. The national figure printed there for the rural population (58052) is a misprint and is not used. Shares and inhabitants per seat are calculated. The four seats of the Köstritz appanage and the manor owners (elected as a group of their own) are left out of the calculation because Brückner gives no population or voters for them. Gendarmes (p. 273) and qualified physicians (p. 274) are in the running text. The eight Justizämter (p. 280) are assigned to the districts by the seat of the office: Gera I and II; Schleiz I and II and Hohenleuben; Lobenstein I and II and Hirschberg. District areas in square miles come from the district articles (pp. 407, 574, 709). Each measure was calculated per inhabitant and per square mile and related to the national average (= 100). The contingent series (p. 271) arranges Brückner’s statements into six periods; for the time from 1842 the reserve of 261 men is assumed unchanged (608 + 261 = 869, as Brückner gives for the battalion). The sizes of the municipal councils by population class (p. 269) are a further table for download.")
+    "Sources are the sections on constitution, military and administration (pp. 267 to 281) and the population tables (pp. 93 to 96). The seat allocation of the Landtag is in the running text of p. 268; numerals written as words were converted into digits. The inhabitants of the six towns and of the other communities in 1867 are the sums of the three districts from the table on p. 95. The national figure printed there for the rural population (58052) is a misprint and is not used. Shares and inhabitants per seat are calculated. The four seats of the Köstritz appanage and the manor owners (elected as a group of their own) are left out of the calculation because Brückner gives no population or voters for them. Gendarmes (p. 273) and physicians with a doctorate (p. 274) are given in the running text. The eight Justizämter (p. 280) are assigned to the districts by the seat of the office: Gera I and II; Schleiz I and II and Hohenleuben; Lobenstein I and II and Hirschberg. District areas in square miles come from the district articles (pp. 407, 574, 709). Each measure was calculated per inhabitant and per square mile and related to the national average (= 100). The contingent series (p. 271) arranges Brückner’s statements into six periods; for the time from 1842 the reserve of 261 men is assumed unchanged (608 + 261 = 869, as Brückner gives for the battalion). The sizes of the municipal councils by population class (p. 269) are a further table for download.")
 
 caveats = [
     bi("Brückner nennt weder Wahlberechtigte noch Einwohner je Wahlkörper. Die Rechnung bezieht die Sitze auf die gesamte Bevölkerung 1867, nicht auf die Wähler. Wahlberechtigt waren nur Staatsangehörige mit Ortsbürgerrecht, Volljährigkeit, Eintrag in der Steuerrolle und christlichem Bekenntnis (S. 268); das Verhältnis der Wähler kann deshalb anders ausfallen.",
-       "Brückner gives neither the eligible voters nor the inhabitants per electoral body. The calculation relates the seats to the whole population of 1867, not to the voters. Only nationals with local citizenship, full age, an entry in the tax roll and a Christian confession were entitled to vote (p. 268); the ratio of voters may therefore look different."),
-    bi("Gendarmen und Ärzte gelten für den Stand der Beschreibung (1868/69), die Einwohner für 1867. Gezählt sind nur promovierte Ärzte. Das Amt Hohenleuben gehört zum Kreisgericht Gera, liegt aber im Landesteil Schleiz und zählt hier dort. Mit 2 bis 14 Stellen je Gruppe sind die Indexwerte grob; dass die Verteilung der Fläche folgte, ist eine Deutung.",
-       "Gendarmes and physicians apply to 1868/69, the inhabitants to 1867. Only qualified physicians are counted. The Hohenleuben office belongs to the Gera district court but lies in the Schleiz district and is counted there. With 2 to 14 posts per group the index values are rough; that the distribution followed the area is an interpretation."),
+       "Brückner gives neither the eligible voters nor the inhabitants per electoral body. The calculation relates the seats to the whole population of 1867, not to the voters. Only nationals with local citizenship, full age, an entry in the tax roll and a Christian confession were entitled to vote (p. 268); the ratio per voter may therefore differ."),
+    bi("Gendarmen und Ärzte gelten für den Stand der Beschreibung (1868/69), die Einwohner für 1867. Gezählt sind nur promovierte Ärzte. Das Amt Hohenleuben gehört zum Kreisgericht Gera, liegt aber im Landesteil Schleiz und wird hier diesem zugerechnet. Mit 2 bis 14 Stellen je Gruppe sind die Indexwerte grob; dass die Verteilung der Fläche folgte, ist eine Deutung.",
+       "Gendarmes and physicians apply to 1868/69, the inhabitants to 1867. Only physicians with a doctorate are counted. The Hohenleuben office belongs to the Gera district court but lies in the Schleiz district and is counted there. With 2 to 14 posts per group the index values are rough; that the distribution followed the area is an interpretation."),
     bi("Brückner schreibt, das Hauptkontingent sei 1842 »um 87 Mann, also auf 608« erhöht worden; 522 + 87 ergibt 609. Der Widerspruch steht im Druck (Faksimile geprüft), verwendet wird 608. Bis 1681 gilt die Zahl für ganz Reuß; die Spitzen der Kriegszeit (das Vier- bis Fünffache) fehlen in der Reihe.",
        "Brückner writes that the main contingent was raised in 1842 “by 87 men, i.e. to 608”; 522 + 87 makes 609. The contradiction is in the print (facsimile checked); 608 is used. Until 1681 the figure applies to all of Reuss; the peaks of wartime (four to five times as many) are not in the series."),
 ]
@@ -374,7 +383,6 @@ obj = {
         "en": ["Landtag", "representation", "suffrage", "deputies", "manor owners", "municipal council", "gendarmerie", "physicians", "Justizämter", "military", "contingent", "imperial register", "North German Confederation"],
     },
     "related": ["bevoelkerung-1647-1867", "rechtspflege", "staatsfinanzen", "gesundheit"],
-    "generated_by": "Claude Sonnet 5.5 (Agent F7), aus 3 Einzelauswertungen zusammengeführt",
     "date": "2026-10-02",
 }
 

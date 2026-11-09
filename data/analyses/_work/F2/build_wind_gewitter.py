@@ -11,6 +11,11 @@ d_wg = ds(aG, 'monthly'); d_wg['name'] = 'wind_gera_monthly'
 d_tm = ds(aT, 'monthly'); d_tm['name'] = 'thunder_monthly'
 d_ta = ds(aT, 'annual'); d_ta['name'] = 'thunder_annual'
 d_td = ds(aT, 'direction'); d_td['name'] = 'thunder_direction'
+KIND = {'mean': 'Mittel', 'maximum': 'Höchstwert (Einzeljahr)', 'minimum': 'Tiefstwert (Einzeljahr)'}
+k_col = [c['name'] for c in d_ta['columns']].index('kind')
+for r in d_ta['rows']:
+    r[k_col] = KIND[r[k_col]]
+d_ta['columns'][k_col]['note'] = 'Einzeljahre nach dem Text S. 67'
 
 ws = rows(d_ws)
 wg = rows(d_wg)
@@ -60,9 +65,9 @@ N['thunder_summer_pct'] = 100 * N['thunder_summer'] / N['thunder_total']
 N['thunder_nov'] = tot[11]
 N['thunder_may_sep_pct'] = 100 * sum(tot[m] for m in (5, 6, 7, 8, 9)) / N['thunder_total']
 ann = {(r['station'], r['kind']): r for r in ta}
-N['g_py'] = ann[('Gera', 'mean')]['per_year']
-N['s_py'] = ann[('Schleiz', 'mean')]['per_year']
-N['r_py'] = ann[('Rothenacker', 'mean')]['per_year']
+N['g_py'] = ann[('Gera', KIND['mean'])]['per_year']
+N['s_py'] = ann[('Schleiz', KIND['mean'])]['per_year']
+N['r_py'] = ann[('Rothenacker', KIND['mean'])]['per_year']
 dirshare = {(r['station'], r['direction']): r['share'] for r in td}
 N['thunder_W_hoh'] = dirshare[('Hohenleuben', 'W')]
 N['thunder_W_gera'] = dirshare[('Gera', 'W')]
@@ -85,7 +90,9 @@ def en(x, nd=1):
 
 
 # ---------------------------------------------------------------- c1: roses
-R_MAX = 58
+R_MAX = 54
+CELL = 164
+LABEL_R = 71
 K = R_MAX / math.sqrt(40)
 ring_delta = round(1.2 / K, 4)
 THETA = {'domain': [0.5, 8.5], 'range': [-0.3927, 5.8905]}
@@ -108,18 +115,18 @@ c1 = {
     'id': 'c1',
     'dataset': 'wind_stations',
     'title': bi('In Gera dominiert der Südwind, an den Oberlandorten Südwest bis West',
-                'At Gera the south wind dominates, at the Oberland places south-west to west'),
+                'South winds dominate at Gera, south-west to west winds at the Oberland stations'),
     'caption': bi(
-        'Anteil der acht Richtungen an den Windbeobachtungen (Fläche der Keile proportional, Ringe bei 10, 20, 30 und 40 Prozent). Farbig: Richtungen mit mindestens 20 Prozent. Beobachtungsreihen unterschiedlich lang (10, 7, 2 und 1 Jahr). Quelle: S. 62 bis 64.',
-        'Share of the eight directions among the wind observations (wedge area proportional, rings at 10, 20, 30 and 40 percent). Colored: directions with at least 20 percent. Series of different length (10, 7, 2 and 1 years). Source: pp. 62 to 64.'),
+        'Anteil der acht Richtungen an den Windbeobachtungen (Fläche der Keile proportional, Ringe bei 10, 20, 30 und 40 Prozent). Farbig und beziffert: Richtungen mit mindestens 20 Prozent. Beobachtungsreihen unterschiedlich lang (10, 7, 2 und 1 Jahr). Quelle: S. 62 bis 64.',
+        'Share of the eight directions among the wind observations (wedge area proportional, rings at 10, 20, 30 and 40 percent). Colored and numbered: directions with at least 20 percent. Series of different length (10, 7, 2 and 1 years). Source: pp. 62 to 64.'),
     'vegalite': {
         'autosize': {'type': 'pad'},
-        'columns': 4,
-        'spacing': 6,
+        'columns': 2,
+        'spacing': {'row': 14, 'column': 12},
         'facet': {'field': 'station_label', 'type': 'nominal', 'sort': {'field': 'station_order', 'op': 'min'}, 'title': None},
         'spec': {
-            'width': 200,
-            'height': 200,
+            'width': CELL,
+            'height': CELL,
             'layer': [
                 {
                     'transform': [
@@ -150,13 +157,14 @@ c1 = {
                     },
                 },
                 {
-                    'transform': [{'filter': 'datum.share >= 20'}, {'calculate': "format(datum.share, '.0f') + ' %'", 'as': 'vlab'}],
-                    'mark': {'type': 'text', 'style': 'label', 'radiusOffset': 8},
-                    'encoding': {'theta': theta_enc('dir_index'), 'radius': radius_enc(), 'text': {'field': 'vlab'}},
+                    'transform': [{'filter': 'datum.share >= 20'}, {'calculate': f"{R_MAX} * sqrt(datum.share / 40) * 0.62", 'as': 'r_label'},
+                                  {'calculate': "format(datum.share, '.0f')", 'as': 'vlab'}],
+                    'mark': {'type': 'text', 'style': 'label', 'fill': '@paper', 'fontSize': 11},
+                    'encoding': {'theta': theta_enc('dir_index'), 'radius': {'field': 'r_label', 'type': 'quantitative', 'scale': None}, 'text': {'field': 'vlab'}},
                 },
                 {
                     'mark': {'type': 'text', 'style': 'label-muted', 'fontSize': 11},
-                    'encoding': {'theta': theta_enc('dir_index'), 'radius': {'value': 90}, 'text': {'field': 'dir_label'}},
+                    'encoding': {'theta': theta_enc('dir_index'), 'radius': {'value': LABEL_R}, 'text': {'field': 'dir_label'}},
                 },
             ],
         },
@@ -175,7 +183,7 @@ c2 = {
     'id': 'c2',
     'dataset': 'wind_gera_monthly',
     'title': bi('In Gera weht im Winter vor allem Südwind, im Sommer überwiegen West und Nord',
-                'At Gera the south wind prevails in winter; in summer west and north lead'),
+                'At Gera south winds prevail in winter, west and north winds in summer'),
     'caption': bi(
         'Anteil der Richtungen an den Windbeobachtungen jedes Monats in Gera, 1856 bis 1865 (Prozent). Farbig: Süd, West und Nord; grau: die fünf übrigen Richtungen. Quelle: S. 62.',
         'Share of the directions among the wind observations of each month at Gera, 1856 to 1865 (percent). Colored: south, west and north; gray: the five other directions. Source: p. 62.'),
@@ -231,8 +239,8 @@ thunder_pct = f"{N['thunder_summer_pct']:.0f}"
 c3 = {
     'id': 'c3',
     'dataset': 'thunder_monthly',
-    'title': bi(f"Gewitter in Gera: {thunder_pct} Prozent fallen in Juni bis August, im November gab es keines",
-                f"Thunderstorms at Gera: {thunder_pct} percent fall in June to August, none occurred in November"),
+    'title': bi(f"In Gera fielen {thunder_pct} Prozent der Gewitter in die Monate Juni bis August, im November keines",
+                f"At Gera {thunder_pct} percent of the thunderstorms fell in June to August, none in November"),
     'caption': bi(
         f'Mittlere Zahl der Gewitter pro Jahr und Monat in Gera, 1853 bis 1867 ({N["thunder_total"]} Gewitter in 15 Jahren, Perioden 1853 bis 1858 und 1859 bis 1867 zusammengefasst). Quelle: S. 67, Berichtigung S. 830.',
         f'Mean number of thunderstorms per year and month at Gera, 1853 to 1867 ({N["thunder_total"]} thunderstorms in 15 years, periods 1853 to 1858 and 1859 to 1867 combined). Source: p. 67, correction p. 830.'),
@@ -242,6 +250,9 @@ c3 = {
             {'calculate': 'isValid(datum.count) ? datum.count : 0', 'as': 'count0'},
             {'aggregate': [{'op': 'sum', 'field': 'count0', 'as': 'total'}], 'groupby': ['month']},
             {'calculate': f'datum.total / {YEARS_TOTAL}', 'as': 'per_year'},
+            {'calculate': {'de': "['Januar','Februar','März','April','Mai','Juni','Juli','August','September','Oktober','November','Dezember'][datum.month - 1]",
+                           'en': "['January','February','March','April','May','June','July','August','September','October','November','December'][datum.month - 1]"},
+             'as': 'month_name'},
         ],
         'encoding': {
             'x': {'field': 'month', 'type': 'ordinal', 'axis': {'title': None, 'labelAngle': 0, 'labelExpr': month_axis_expr()}},
@@ -254,7 +265,7 @@ c3 = {
                 'encoding': {
                     'color': {'condition': {'test': 'datum.month >= 6 && datum.month <= 8', 'value': '@accent'}, 'value': '@context'},
                     'tooltip': [
-                        {'field': 'month', 'title': bi('Monat', 'Month')},
+                        {'field': 'month_name', 'title': bi('Monat', 'Month')},
                         {'field': 'total', 'title': bi('Gewitter in 15 Jahren', 'Thunderstorms in 15 years'), 'format': 'd'},
                         {'field': 'per_year', 'title': bi('pro Jahr', 'per year'), 'format': '.1f'},
                     ],
@@ -294,13 +305,13 @@ f = {
         {'page': '67', 'block': 'b6'}, {'page': '67', 'block': 'b7', 'rows': 'r2-r4'}, {'page': '68', 'block': 'b2', 'rows': 'r2-r4'}, {'page': '830', 'block': 'b4'},
     ],
     'summary': bi(
-        f"Brückner wertet Windrichtungen und Gewitter aus. In Gera (1856 bis 1865, {GT_DE} Beobachtungen) ist Süd die häufigste Richtung ({dn(N['Gera_S'])} Prozent), auf den Oberlandorten Hohenleuben, Schleiz und Rothenacker überwiegen West und Südwest. Gewitter zählt er in Gera {dn(N['g_py'])} im Jahr, {thunder_pct} Prozent davon im Juni bis August.",
-        f"Brückner analyzes wind directions and thunderstorms. At Gera (1856 to 1865, {GT_EN} observations) south is the most frequent direction ({en(N['Gera_S'])} percent); at the Oberland places of Hohenleuben, Schleiz and Rothenacker west and south-west prevail. He counts {en(N['g_py'])} thunderstorms a year at Gera, {thunder_pct} percent of them in June to August."),
+        f"Von {GT_DE} Windbeobachtungen in Gera (1856 bis 1865) kamen {dn(N['Gera_S'])} Prozent aus Süd, mehr als aus jeder anderen Richtung. In Hohenleuben, Schleiz und Rothenacker im Oberland überwiegen West und Südwest. Gewitter zählt Brückner in Gera {dn(N['g_py'])} im Jahr, {thunder_pct} Prozent davon im Juni bis August.",
+        f"Of {GT_EN} wind observations at Gera (1856 to 1865), {en(N['Gera_S'])} percent came from the south, more than from any other direction. At Hohenleuben, Schleiz and Rothenacker in the Oberland, west and south-west winds prevail. Brückner counts {en(N['g_py'])} thunderstorms a year at Gera, {thunder_pct} percent of them in June to August."),
     'findings': [
         bi(f"In Gera kommen {dn(N['Gera_S'])} Prozent der Winde aus Süd und {dn(N['Gera_N'])} aus Nord; in Hohenleuben {dn(N['Hohenleuben_W'])} Prozent aus West, in Schleiz {dn(N['Schleiz_SW'])} aus Südwest.",
            f"At Gera {en(N['Gera_S'])} percent of the winds come from the south and {en(N['Gera_N'])} from the north; at Hohenleuben {en(N['Hohenleuben_W'])} percent from the west, at Schleiz {en(N['Schleiz_SW'])} from the south-west."),
         bi(f"Im Winter (Dezember bis Februar) kommt in Gera mehr als jede dritte Beobachtung aus Süden ({dn(N['S_winter'])} Prozent), im Sommer nur {dn(N['S_summer'])} Prozent; im Sommer führt West mit {dn(N['W_summer'])} Prozent.",
-           f"In winter (December to February) more than every third observation at Gera is from the south ({en(N['S_winter'])} percent), in summer only {en(N['S_summer'])} percent; in summer west leads with {en(N['W_summer'])} percent."),
+           f"In winter (December to February) more than one in three observations at Gera is from the south ({en(N['S_winter'])} percent), in summer only {en(N['S_summer'])} percent; in summer west leads with {en(N['W_summer'])} percent."),
         bi(f"Gera zählt {dn(N['g_py'])} Gewitter im Jahr, Rothenacker {dn(N['r_py'])}, Schleiz {dn(N['s_py'])}; Brückner nennt 19 als Durchschnitt dieser Breite. Sie ziehen meist aus West: in Hohenleuben {dn(N['thunder_W_hoh'])}, in Gera {dn(N['thunder_W_gera'])} Prozent.",
            f"Gera counts {en(N['g_py'])} thunderstorms a year, Rothenacker {en(N['r_py'])}, Schleiz {en(N['s_py'])}; Brückner gives 19 as the average for this latitude. They mostly arrive from the west: {en(N['thunder_W_hoh'])} percent at Hohenleuben, {en(N['thunder_W_gera'])} at Gera."),
     ],
@@ -326,7 +337,6 @@ f = {
         'en': ['wind', 'wind direction', 'wind rose', 'thunderstorm', 'Gera', 'Hohenleuben', 'Schleiz', 'Rothenacker', 'Elster valley', 'climate'],
     },
     'related': ['klima-gera', 'klima-stationen', 'relief-hoehen'],
-    'generated_by': 'Claude Sonnet 5.5 (Agent F2), aus 3 Einzelauswertungen zusammengeführt',
     'date': '2026-10-02',
 }
 tr_issues = [t for a in (aG, aV, aT) for t in (a.get('transcription_issues') or [])]

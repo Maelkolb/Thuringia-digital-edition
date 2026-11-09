@@ -1,7 +1,7 @@
 // Compile every analysis chart to self-contained Vega specs (de/en x light/dark)
-// and render a thumbnail per analysis.
-//   node tools/compile_charts.mjs <out-dir>
-// writes <out-dir>/specs/<id>.json and <out-dir>/thumbs/<id>.png
+// and render thumbnails of the first chart per analysis (de/en x light/dark).
+//   node tools/compile_charts.mjs <out-dir> [--only id,id]
+// writes <out-dir>/specs/<id>.json and <out-dir>/thumbs/<id>[.en][.dark].png
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -16,6 +16,8 @@ import { rowsAsObjects, validate } from './validate_analysis.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const OUT = path.resolve(process.argv[2] || path.join(ROOT, 'site', 'auswertungen'));
+const onlyArg = process.argv.indexOf('--only');
+const ONLY = onlyArg > 0 ? new Set(process.argv[onlyArg + 1].split(',')) : null;
 fs.mkdirSync(path.join(OUT, 'specs'), { recursive: true });
 fs.mkdirSync(path.join(OUT, 'thumbs'), { recursive: true });
 
@@ -23,7 +25,7 @@ function resolveLang(node, lang) {
   if (Array.isArray(node)) return node.map((n) => resolveLang(n, lang));
   if (node && typeof node === 'object') {
     const k = Object.keys(node);
-    if (k.length === 2 && k.includes('de') && k.includes('en') && typeof node.de === 'string') return node[lang];
+    if (k.length === 2 && k.includes('de') && k.includes('en') && (typeof node.de === 'string' || Array.isArray(node.de))) return node[lang];
     const o = {};
     for (const [kk, v] of Object.entries(node)) o[kk] = resolveLang(v, lang);
     return o;
@@ -54,7 +56,7 @@ function compile(a, ch, lang, mode, width) {
   return vgSpec;
 }
 
-const files = fs.readdirSync(path.join(ROOT, 'data', 'analyses')).filter((f) => f.endsWith('.json'));
+const files = fs.readdirSync(path.join(ROOT, 'data', 'analyses')).filter((f) => f.endsWith('.json') && (!ONLY || ONLY.has(f.slice(0, -5))));
 let ok = 0, bad = 0;
 const index = [];
 for (const f of files) {
@@ -69,13 +71,14 @@ for (const f of files) {
       for (const lang of ['de', 'en']) for (const mode of ['light', 'dark']) out[ch.id][`${lang}_${mode}`] = compile(a, ch, lang, mode);
     }
     fs.writeFileSync(path.join(OUT, 'specs', `${a.id}.json`), JSON.stringify(out));
-    // thumbnail: first chart, German, light, fixed width
-    const th = compile(a, a.charts[0], 'de', 'light', 560);
-    const view = new vega.View(vega.parse(th), { renderer: 'none' });
-    await view.runAsync();
-    const svg = await view.toSVG();
-    const png = new Resvg(cleanSvg(svg), { fitTo: { mode: 'width', value: 640 }, background: '#fffdf8', font: { loadSystemFonts: true, defaultFontFamily: 'Segoe UI' } }).render().asPng();
-    fs.writeFileSync(path.join(OUT, 'thumbs', `${a.id}.png`), png);
+    // thumbnails of the first chart: German and English, light and dark
+    for (const lang of ['de', 'en']) for (const mode of ['light', 'dark']) {
+      const view = new vega.View(vega.parse(compile(a, a.charts[0], lang, mode, 560)), { renderer: 'none' });
+      await view.runAsync();
+      const svg = await view.toSVG();
+      const png = new Resvg(cleanSvg(svg), { fitTo: { mode: 'width', value: 640 }, background: mode === 'dark' ? '#1d1b18' : '#fbf8f1', font: { loadSystemFonts: true, defaultFontFamily: 'Segoe UI' } }).render().asPng();
+      fs.writeFileSync(path.join(OUT, 'thumbs', `${a.id}${lang === 'en' ? '.en' : ''}${mode === 'dark' ? '.dark' : ''}.png`), png);
+    }
     index.push(a.id);
     ok++;
   } catch (e) {

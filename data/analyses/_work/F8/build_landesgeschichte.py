@@ -61,7 +61,7 @@ lines_per_year = {
         {"name": "branch_en", "label": bi("Zweig (englisch)", "Branch (English)"), "type": "string", "unit": None, "derived": True},
         {"name": "branch_order", "label": bi("Reihenfolge des Zweigs", "Order of branch"), "type": "integer", "unit": None, "derived": True},
         {"name": "n_lines", "label": bi("Zahl der Linien und Häuser", "Number of lines and houses"), "type": "integer", "unit": "Linien", "derived": True,
-         "note": "gilt von diesem Jahr bis zum nächsten Eintrag; aus den Zeilen von houses berechnet"},
+         "note": "gilt von diesem Jahr bis zum nächsten Eintrag; aus der Tabelle der Linien und Häuser berechnet"},
     ],
     "rows": lpy_rows,
     "source_refs": copy.deepcopy(houses["source_refs"]),
@@ -115,136 +115,96 @@ jung_single = [y for y in years if [r for r in lpy_rows if r[0] == y and r[1] ==
 print("jung single from", jung_single[0])
 assert alt_single[0] == 1768 and jung_single[0] == 1848
 
-# ---------------------------------------------------------------- chart 1: Gantt of the lines and the count below
+# ---------------------------------------------------------------- readable values instead of codes in the tables
+drop_columns(houses, {"branch"})
+drop_columns(lines_per_year, {"branch"})
+drop_columns(transactions, {"kind", "house", "mode"})
+drop_columns(events, {"kind", "house"})
+events["title"] = bi("Datierte Ereignisse in Brückners Erzählung (Kapitel V)", "Dated events in Brückner’s narrative (chapter V)")
+ACQ, LOSS = "Landerwerb", "Landverlust"
+assert {r["kind_de"] for r in T} == {ACQ, LOSS}
+
+# ---------------------------------------------------------------- chart 1: the lines and houses as a timeline
 label_expr = lambda idx: "{" + ",".join(f"'{o}':'{SHORT[o][idx].replace(chr(39), chr(8217))}'" for o in SHORT) + "}[datum.value]"
-X_DOMAIN = [1225, 1990]
-BRANCH_SCALE = {"domain": ["jung", "alt", "voigte"], "range": ["@accent", "@accent2", "@accent3"]}
+X_DOMAIN = [1225, 1885]
+YEARS = {"type": "quantitative", "scale": {"domain": X_DOMAIN, "nice": False}}
+BRANCH_SCALE = {"domain": ["Reuß j. L.", "Reuß ä. L.", "Voigte"], "range": ["@accent", "@accent2", "@accent3"]}
+peak_from = peak_years[0]
+assert [r for r in H if r["start_year"] <= peak_from < r["end_plot"]].__len__() == peak
 
 c1 = {
     "id": "c1",
     "dataset": "houses",
-    "extra_datasets": ["lines_per_year"],
     "title": bi(
         "Aus drei Linien um 1240 wurden bis 1694 zehn gleichzeitig regierende Häuser",
-        "From three lines around 1240 the family grew to ten simultaneously ruling houses by 1694",
+        "Three lines around 1240 had become ten houses ruling at the same time by 1694",
     ),
     "caption": bi(
-        "Oben Beginn und Ende der 24 Linien und Häuser nach Brückners Tafel XV (ungefähre Jahre als Punktwerte), Pfeil: besteht 1870 fort. Unten die Zahl der gleichzeitig bestehenden. Quelle: S. 333–403.",
-        "Top: start and end of the 24 lines and houses after Brückner’s Table XV (approximate years as point values), arrow: still exists in 1870. Bottom: how many existed at once. Source: pp. 333–403.",
+        f"Beginn und Ende der 24 Linien und Häuser nach Brückners Tafel XV (ungefähre Jahre als Punktwerte); Pfeil: besteht 1870 fort. Gestrichelt: {peak_from}, als zehn Häuser zugleich bestanden. Quelle: S. 333–403.",
+        f"Start and end of the 24 lines and houses after Brückner’s Table XV (approximate years as point values); arrow: still existing in 1870. Dashed line: {peak_from}, when ten houses existed at the same time. Source: pp. 333–403.",
     ),
     "vegalite": {
-        "vconcat": [
+        "height": {"step": 17},
+        "encoding": {
+            "y": {
+                "field": "ord",
+                "type": "ordinal",
+                "sort": "ascending",
+                "axis": {"title": None, "ticks": False, "domain": False, "grid": False,
+                         "labelExpr": {"de": label_expr(0), "en": label_expr(1)}, "labelLimit": 400},
+            },
+            "color": {"field": "branch_de", "type": "nominal", "legend": None, "scale": BRANCH_SCALE},
+        },
+        "layer": [
             {
-                "width": 540,
-                "height": {"step": 17},
-                "encoding": {
-                    "y": {
-                        "field": "ord",
-                        "type": "ordinal",
-                        "sort": "ascending",
-                        "axis": {"title": None, "ticks": False, "domain": False, "grid": False,
-                                 "labelExpr": {"de": label_expr(0), "en": label_expr(1)}, "labelLimit": 400},
-                    },
-                    "color": {"field": "branch", "type": "nominal", "legend": None, "scale": BRANCH_SCALE},
-                },
-                "layer": [
-                    {
-                        "mark": {"type": "bar", "size": 11, "cornerRadius": 2, "stroke": None},
-                        "encoding": {
-                            "x": {"field": "start_year", "type": "quantitative",
-                                  "scale": {"domain": X_DOMAIN, "nice": False},
-                                  "axis": {"orient": "top", "format": "d", "values": [1300, 1400, 1500, 1600, 1700, 1800, 1870],
-                                           "title": None, "grid": True, "domain": False, "labelFlush": False}},
-                            "x2": {"field": "end_plot"},
-                            "tooltip": [
-                                {"field": {"de": "label_de", "en": "label_en"}, "title": bi("Linie", "Line")},
-                                {"field": "start_year", "title": bi("Beginn", "Start"), "format": "d"},
-                                {"field": "end_year", "title": bi("Ende", "End"), "format": "d"},
-                                {"field": {"de": "event_de", "en": "event_en"}, "title": bi("Brückner", "Brückner")},
-                            ],
-                        },
-                    },
-                    {
-                        "transform": [{"filter": "!isValid(datum.end_year)"}],
-                        "mark": {"type": "point", "shape": "triangle-right", "filled": True, "size": 70, "stroke": None},
-                        "encoding": {"x": {"field": "end_plot", "type": "quantitative", "scale": {"domain": X_DOMAIN, "nice": False}}},
-                    },
-                    {
-                        "transform": [
-                            {"filter": "indexof([3, 8, 17], datum.ord) >= 0"},
-                            {"calculate": "datum.ord == 3 ? 1325 : datum.ord == 8 ? 1650 : 1665", "as": "label_x"},
-                        ],
-                        "mark": {"type": "text", "align": "left", "style": "label", "fontSize": 12},
-                        "encoding": {
-                            "x": {"field": "label_x", "type": "quantitative", "scale": {"domain": X_DOMAIN, "nice": False}},
-                            "text": {"field": {"de": "branch_de", "en": "branch_en"}},
-                        },
-                    },
-                    {
-                        "transform": [
-                            {"filter": "indexof([13, 19], datum.ord) >= 0"},
-                            {"calculate": {"de": "datum.ord == 13 ? 'seit 1768 allein' : 'seit 1848 allein'", "en": "datum.ord == 13 ? 'alone from 1768' : 'alone from 1848'"}, "as": "note"},
-                        ],
-                        "mark": {"type": "text", "align": "left", "dx": 9, "style": "label-muted"},
-                        "encoding": {
-                            "x": {"field": "end_plot", "type": "quantitative", "scale": {"domain": X_DOMAIN, "nice": False}},
-                            "text": {"field": "note"},
-                        },
-                    },
-                ],
+                "mark": {"type": "rule", "strokeDash": [4, 3], "color": "@ink2"},
+                "encoding": {"x": {"datum": peak_from, **YEARS}, "y": None, "color": {"value": "@ink2"}},
             },
             {
-                "data": {"name": "lines_per_year"},
-                "width": 540,
-                "height": 90,
+                "mark": {"type": "bar", "size": 11, "cornerRadius": 2, "stroke": None},
                 "encoding": {
-                    "x": {"field": "year", "type": "quantitative", "scale": {"domain": X_DOMAIN, "nice": False},
-                          "axis": {"values": [1300, 1400, 1500, 1600, 1700, 1800, 1870], "format": "d", "title": None, "grid": True, "domain": True}},
+                    "x": {"field": "start_year", **YEARS,
+                          "axis": {"format": "d", "values": [1300, 1400, 1500, 1600, 1700, 1800], "title": None, "grid": True, "domain": False}},
+                    "x2": {"field": "end_plot"},
+                    "tooltip": [
+                        {"field": {"de": "label_de", "en": "label_en"}, "title": bi("Linie", "Line")},
+                        {"field": "start_year", "title": bi("Beginn", "Start"), "format": "d"},
+                        {"field": "end_year", "title": bi("Ende", "End"), "format": "d"},
+                        {"field": {"de": "event_de", "en": "event_en"}, "title": bi("Brückner", "Brückner")},
+                    ],
                 },
-                "layer": [
-                    {
-                        "mark": {"type": "area", "interpolate": "step-after", "opacity": 0.9, "line": False},
-                        "encoding": {
-                            "y": {"field": "n_lines", "type": "quantitative", "stack": "zero",
-                                  "axis": {"title": bi("Linien", "Lines"), "values": [0, 5, 10], "grid": True},
-                                  "scale": {"domain": [0, 11.5]}},
-                            "color": {"field": "branch", "type": "nominal", "legend": None, "scale": BRANCH_SCALE},
-                            "order": {"field": "branch_order", "type": "quantitative"},
-                            "tooltip": [
-                                {"field": "year", "title": bi("ab Jahr", "from year"), "format": "d"},
-                                {"field": {"de": "branch_de", "en": "branch_en"}, "title": bi("Zweig", "Branch")},
-                                {"field": "n_lines", "title": bi("Linien und Häuser", "Lines and houses")},
-                            ],
-                        },
-                    },
-                    {
-                        "transform": [
-                            {"joinaggregate": [{"op": "sum", "field": "n_lines", "as": "total"}], "groupby": ["year"]},
-                            {"filter": "datum.branch == 'jung' && datum.year == 1694"},
-                        ],
-                        "mark": {"type": "text", "align": "left", "baseline": "middle", "dx": 6, "style": "label"},
-                        "encoding": {
-                            "x": {"field": "year", "type": "quantitative"},
-                            "y": {"field": "total", "type": "quantitative", "stack": None},
-                            "text": {"value": bi("10 (1694–1698)", "10 (1694–1698)")},
-                        },
-                    },
-                    {
-                        "transform": [
-                            {"joinaggregate": [{"op": "sum", "field": "n_lines", "as": "total"}], "groupby": ["year"]},
-                            {"filter": "datum.branch == 'jung' && (datum.year == 1240 || datum.year == 1848)"},
-                        ],
-                        "mark": {"type": "text", "align": "left", "dx": 3, "dy": -8, "style": "label"},
-                        "encoding": {
-                            "x": {"field": "year", "type": "quantitative"},
-                            "y": {"field": "total", "type": "quantitative", "stack": None},
-                            "text": {"field": "total", "type": "quantitative"},
-                        },
-                    },
+            },
+            {
+                "transform": [{"filter": "!isValid(datum.end_year)"}],
+                "mark": {"type": "point", "shape": "triangle-right", "filled": True, "size": 70, "stroke": None},
+                "encoding": {"x": {"field": "end_plot", **YEARS}},
+            },
+            {
+                "transform": [
+                    {"filter": "indexof([3, 8, 17], datum.ord) >= 0"},
+                    {"calculate": "datum.ord == 3 ? 1325 : 1708", "as": "label_x"},
                 ],
+                "mark": {"type": "text", "align": "left", "style": "label", "fontSize": 12},
+                "encoding": {
+                    "x": {"field": "label_x", **YEARS},
+                    "text": {"field": {"de": "branch_de", "en": "branch_en"}},
+                },
+            },
+            {
+                "transform": [
+                    {"filter": "indexof([13, 19], datum.ord) >= 0"},
+                    {"calculate": {"de": "datum.ord == 13 ? 'ab 1768 allein' : 'ab 1848 allein'", "en": "datum.ord == 13 ? 'alone from 1768' : 'alone from 1848'"}, "as": "note"},
+                ],
+                "mark": {"type": "text", "align": "right", "dx": -6, "style": "label-muted"},
+                "encoding": {"x": {"field": "start_year", **YEARS}, "text": {"field": "note"}},
+            },
+            {
+                "transform": [{"filter": "datum.ord == 1"}],
+                "mark": {"type": "text", "align": "right", "baseline": "bottom", "dx": -4, "dy": -2, "style": "annotation"},
+                "encoding": {"x": {"datum": peak_from, **YEARS}, "y": {"value": 0}, "color": {"value": "@ink2"},
+                             "text": {"value": bi(f"{peak_from}: {peak} Häuser zugleich", f"{peak_from}: {peak} houses at once")}},
             },
         ],
-        "spacing": 14,
     },
 }
 
@@ -258,18 +218,20 @@ c2 = {
     ),
     "caption": bi(
         "Jedes Feld ist ein von Brückner erzählter Besitzwechsel (85), nach Jahr geordnet: oben Erwerb, unten Verlust (Verkauf, Pfand, Lehnsauftrag, Krieg, Tausch). Die Zahlen nennen die Summe je Halbjahrhundert. Quelle: S. 321–389.",
-        "Each square is a change of ownership told by Brückner (85), ordered by year: acquisition above, loss below (sale, pledge, feudal surrender, war, exchange). The figures give the total per half-century. Source: pp. 321–389.",
+        "Each square is one change of ownership told by Brückner (85), ordered by year: acquisitions above, losses below (sale, pledge, feudal surrender, war, exchange). The figures give the total per half-century. Source: pp. 321–389.",
     ),
     "vegalite": {
         "height": 300,
         "transform": [
-            {"window": [{"op": "row_number", "as": "rn"}], "groupby": ["half_label", "kind"], "sort": [{"field": "year"}, {"field": "ord"}]},
-            {"joinaggregate": [{"op": "max", "field": "rn", "as": "n"}], "groupby": ["half_label", "kind"]},
-            {"calculate": "datum.kind == 'acq' ? datum.rn - 1 : -(datum.rn - 1)", "as": "y0"},
-            {"calculate": "datum.kind == 'acq' ? datum.rn : -datum.rn", "as": "y1"},
+            {"window": [{"op": "row_number", "as": "rn"}], "groupby": ["half_label", "kind_de"], "sort": [{"field": "year"}, {"field": "ord"}]},
+            {"joinaggregate": [{"op": "max", "field": "rn", "as": "n"}], "groupby": ["half_label", "kind_de"]},
+            {"calculate": f"datum.kind_de == '{ACQ}' ? datum.rn - 1 : -(datum.rn - 1)", "as": "y0"},
+            {"calculate": f"datum.kind_de == '{ACQ}' ? datum.rn : -datum.rn", "as": "y1"},
         ],
         "encoding": {
-            "x": {"field": "half_label", "type": "ordinal", "axis": {"title": None, "labelAngle": 0, "ticks": False, "labelPadding": 8, "domain": False}},
+            "x": {"field": "half_label", "type": "ordinal",
+                  "axis": {"title": None, "labelAngle": 0, "ticks": False, "labelPadding": 8, "domain": False,
+                           "labelExpr": "[split(datum.value, '–')[0] + '–', split(datum.value, '–')[1]]"}},
         },
         "layer": [
             {
@@ -279,8 +241,8 @@ c2 = {
                           "axis": {"title": None, "labelExpr": "abs(datum.value)", "values": [-15, -10, -5, 0, 5, 10], "grid": True, "domain": False},
                           "scale": {"domain": [-16.5, 11.5]}},
                     "y2": {"field": "y1"},
-                    "color": {"field": "kind", "type": "nominal", "legend": None,
-                              "scale": {"domain": ["acq", "loss"], "range": ["@positive", "@negative"]}},
+                    "color": {"field": "kind_de", "type": "nominal", "legend": None,
+                              "scale": {"domain": [ACQ, LOSS], "range": ["@positive", "@negative"]}},
                     "tooltip": [
                         {"field": "year", "title": bi("Jahr", "Year"), "format": "d"},
                         {"field": {"de": "house_de", "en": "house_en"}, "title": bi("Haus", "House")},
@@ -291,22 +253,22 @@ c2 = {
                 },
             },
             {
-                "transform": [{"filter": "datum.rn == datum.n && datum.kind == 'acq'"}],
+                "transform": [{"filter": f"datum.rn == datum.n && datum.kind_de == '{ACQ}'"}],
                 "mark": {"type": "text", "dy": -9, "style": "label"},
                 "encoding": {"y": {"field": "y1", "type": "quantitative"}, "text": {"field": "n", "type": "quantitative"}},
             },
             {
-                "transform": [{"filter": "datum.rn == datum.n && datum.kind == 'loss'"}],
+                "transform": [{"filter": f"datum.rn == datum.n && datum.kind_de == '{LOSS}'"}],
                 "mark": {"type": "text", "dy": 10, "style": "label"},
                 "encoding": {"y": {"field": "y1", "type": "quantitative"}, "text": {"field": "n", "type": "quantitative"}},
             },
             {
-                "transform": [{"filter": "datum.half_label == '1650–1699' && datum.rn == 1 && datum.kind == 'acq'"}],
+                "transform": [{"filter": f"datum.half_label == '1650–1699' && datum.rn == 1 && datum.kind_de == '{ACQ}'"}],
                 "mark": {"type": "text", "style": "label", "dy": -34, "color": "@positive"},
                 "encoding": {"y": {"datum": 8, "type": "quantitative"}, "text": {"value": bi("Erwerbungen", "Acquisitions")}},
             },
             {
-                "transform": [{"filter": "datum.half_label == '1650–1699' && datum.rn == 1 && datum.kind == 'acq'"}],
+                "transform": [{"filter": f"datum.half_label == '1650–1699' && datum.rn == 1 && datum.kind_de == '{ACQ}'"}],
                 "mark": {"type": "text", "style": "label", "color": "@negative"},
                 "encoding": {"y": {"datum": -8, "type": "quantitative"}, "text": {"value": bi("Verluste", "Losses")}},
             },
@@ -320,33 +282,35 @@ kind_de = {"acq": "Landerwerb", "loss": "Landverlust", "dyn": "Teilung, Erbfolge
            "found": "Stiftung, Reform", "disaster": "Brand, Not"}
 kind_en = {"acq": "Acquisition", "loss": "Loss of land", "dyn": "Partition, succession", "war": "War, uprising", "treaty": "Treaty, alliance",
            "found": "Foundation, reform", "disaster": "Fire, hardship"}
-kind_expr = lambda d: "{" + ",".join(f"'{k}':'{d[k]}'" for k in KINDS) + "}[datum.value]"
+assert {r["kind_de"] for r in E} == set(kind_de.values())
+kind_en_expr = "{" + ",".join(f"'{kind_de[k]}':'{kind_en[k]}'" for k in KINDS) + "}[datum.value]"
+century_label = {"de": "datum.value == 'bis 1199' ? ['bis', '1199'] : (toNumber(datum.value) % 100 == 0 && datum.value != '1200' ? datum.value : '')",
+                 "en": "datum.value == 'to 1199' ? ['to', '1199'] : (toNumber(datum.value) % 100 == 0 && datum.value != '1200' ? datum.value : '')"}
 
 c3 = {
     "id": "c3",
     "dataset": "events",
     "title": bi(
         "Bis 1500 erzählt Brückner von Landgewinn und Landverlust, seit 1600 von Reformen, Teilungen und Bränden",
-        "Until 1500 the story is land gained and lost, from 1600 reforms, divisions and fires",
+        "Until 1500 Brückner tells of land gained and lost, after 1600 of reforms, divisions and fires",
     ),
     "caption": bi(
-        f"Zahl der {n_events} datierten Ereignisse in Brückners Erzählung je Halbjahrhundert (Beginn) und Art; ›bis 1199‹ fasst die Zeit ab 530 zusammen, die letzte Spalte reicht bis 1867. Quelle: S. 313–403.",
-        f"Number of the {n_events} dated events in Brückner’s narrative per half-century (start) and kind; “to 1199” gathers the time from 530, the last column runs to 1867. Source: pp. 313–403.",
+        f"Zahl der {n_events} datierten Ereignisse in Brückners Erzählung je Halbjahrhundert und Art; beschriftet sind die Jahrhundertanfänge ab 1300, ›bis 1199‹ fasst die Zeit ab 530 zusammen, die letzte Spalte reicht bis 1867. Quelle: S. 313–403.",
+        f"Number of the {n_events} dated events in Brückner’s narrative per half-century and kind; the starts of centuries from 1300 on are labelled, “to 1199” gathers the time from 530, and the last column runs to 1867. Source: pp. 313–403.",
     ),
     "vegalite": {
         "height": {"step": 30},
         "transform": [
             {"calculate": "datum.half_century < 1200 ? 1150 : datum.half_century", "as": "hc"},
             {"calculate": {"de": "datum.hc == 1150 ? 'bis 1199' : toString(datum.hc)", "en": "datum.hc == 1150 ? 'to 1199' : toString(datum.hc)"}, "as": "hc_label"},
-            {"aggregate": [{"op": "count", "as": "n"}], "groupby": ["hc", "hc_label", "kind"]},
+            {"aggregate": [{"op": "count", "as": "n"}], "groupby": ["hc", "hc_label", "kind_de", "kind_en"]},
+            {"calculate": "datum.hc == 1150 ? datum.hc_label : datum.hc + '–' + (datum.hc == 1850 ? 1867 : datum.hc + 49)", "as": "period"},
         ],
         "encoding": {
             "x": {"field": "hc_label", "type": "ordinal", "sort": {"field": "hc", "op": "min"},
-                  "axis": {"title": None, "labelAngle": 0, "ticks": False, "domain": False, "orient": "top", "labelPadding": 6,
-                           "labelExpr": {"de": "datum.value == 'bis 1199' ? ['bis', '1199'] : datum.value == '1850' ? ['1850', 'bis 67'] : datum.value",
-                                         "en": "datum.value == 'to 1199' ? ['to', '1199'] : datum.value == '1850' ? ['1850', 'to 67'] : datum.value"}}},
-            "y": {"field": "kind", "type": "ordinal", "sort": KINDS,
-                  "axis": {"title": None, "ticks": False, "domain": False, "labelExpr": {"de": kind_expr(kind_de), "en": kind_expr(kind_en)}, "labelLimit": 180}},
+                  "axis": {"title": None, "labelAngle": 0, "ticks": False, "domain": False, "orient": "top", "labelPadding": 6, "labelExpr": century_label}},
+            "y": {"field": "kind_de", "type": "ordinal", "sort": [kind_de[k] for k in KINDS],
+                  "axis": {"title": None, "ticks": False, "domain": False, "labelExpr": {"de": "datum.value", "en": kind_en_expr}, "labelLimit": 180}},
         },
         "layer": [
             {
@@ -354,8 +318,8 @@ c3 = {
                 "encoding": {
                     "color": {"field": "n", "type": "quantitative", "legend": None, "scale": {"range": "heatmap", "domain": [0, 16]}},
                     "tooltip": [
-                        {"field": {"de": "hc_label", "en": "hc_label"}, "title": bi("Halbjahrhundert", "Half-century")},
-                        {"field": "kind", "title": bi("Art", "Kind")},
+                        {"field": "period", "title": bi("Zeitraum", "Period")},
+                        {"field": {"de": "kind_de", "en": "kind_en"}, "title": bi("Art", "Kind")},
                         {"field": "n", "title": bi("Ereignisse", "Events")},
                     ],
                 },
@@ -382,10 +346,10 @@ sources = [{"page": p, "block": b} for p, b in sources_seen]
 
 summary = bi(
     f"Brückner erzählt die Geschichte der Voigte von Weida, Gera und Plauen und des Hauses Reuß als Folge von Käufen, Pfändern, Erbfällen und Teilungen. "
-    f"Aus {n_events} datierten Ereignissen ergeben sich {kc['acq']} Erwerbungen und {kc['loss']} Verluste von Land sowie {kc['dyn']} Teilungen und Erbfälle. "
+    f"Unter den {n_events} datierten Ereignissen sind {kc['acq']} Erwerbungen und {kc['loss']} Verluste von Land sowie {kc['dyn']} Teilungen und Erbfälle. "
     f"Aus drei Linien um 1240 wurden bis 1694 zehn Häuser; die ältere Linie war 1768, die jüngere 1848 wieder in einer Hand.",
     f"Brückner tells the history of the Voigts of Weida, Gera and Plauen and of the house of Reuss as a series of purchases, pledges, successions and divisions. "
-    f"His {n_events} dated events include {kc['acq']} acquisitions and {kc['loss']} losses of land and {kc['dyn']} divisions and successions. "
+    f"His {n_events} dated events include {kc['acq']} acquisitions and {kc['loss']} losses of land as well as {kc['dyn']} divisions and successions. "
     f"From three lines around 1240 the family grew to ten houses by 1694; the older line was reunited in 1768, the younger in 1848.",
 )
 assert peak == 10 and start_n == 3
@@ -409,11 +373,11 @@ method = bi(
     "Die Ereignisse (Diagramm 3) wurden beim vollständigen Lesen der Erzählung von S. 313–393 gesammelt: jedes Ereignis mit gedruckter Jahreszahl, das Gebietswechsel, Teilung oder Aussterben, Krieg, Vertrag, Stiftung, Reform oder Unglück betrifft. "
     "Die Beschreibungen sind knappe Paraphrasen; die Art und das handelnde Haus sind redaktionelle Zuordnungen. Die 85 Besitzwechsel (Diagramm 2) sind die Erwerbungen und Verluste daraus, mit Form (Kauf, Pfand, Lehnsauftrag …) und, wo genannt, Preis. "
     "Die Linien und Häuser (Diagramm 1) stammen aus Brückners Tafel XV (S. 403), der Tabelle der älteren Linie (S. 390) und dem Fließtext. Als Linie zählt, was Brückner als eigene Herrschaft bezeichnet; wo sich die Zusammensetzung ändert, ist die Linie in Abschnitte zerlegt. "
-    "Ungefähre Jahre (»um 1240«, »ca. 1305«) stehen als Punktwerte; noch bestehende Linien sind bis 1870 gezeichnet. Die Zahl der gleichzeitig bestehenden Linien ist aus den Zeilen berechnet und stimmt für 1625 bis 1768 mit der gedruckten Tabelle auf S. 390 überein.",
+    "Ungefähre Jahre (»um 1240«, »ca. 1305«) stehen als Punktwerte; noch bestehende Linien sind bis 1870 gezeichnet. Die Zahl der gleichzeitig bestehenden Linien (Tabelle zum Herunterladen) ist daraus berechnet und stimmt für 1625 bis 1768 mit der gedruckten Tabelle auf S. 390 überein.",
     "The events (chart 3) were collected by reading the narrative on pp. 313–393 in full: every event with a printed year that concerns a change of territory, a division or extinction, a war, a treaty, a foundation, a reform or a calamity. "
     "The descriptions are brief paraphrases; the kind and the house involved are editorial assignments. The 85 changes of ownership (chart 2) are the acquisitions and losses among them, with form (purchase, pledge, feudal surrender …) and, where stated, price. "
     "The lines and houses (chart 1) come from Brückner’s Table XV (p. 403), the table of the older line (p. 390) and the running text. A line counts if Brückner treats it as a lordship of its own; where its composition changes, it is split into periods. "
-    "Approximate years (“c. 1240”, “ca. 1305”) are entered as point values; lines that still exist are drawn up to 1870. The number of simultaneously existing lines is computed from the rows and agrees with the printed table on p. 390 for 1625 to 1768.",
+    "Approximate years (“c. 1240”, “ca. 1305”) are entered as point values; lines that still exist are drawn up to 1870. The number of lines existing at the same time (table for download) is computed from them and agrees with the printed table on p. 390 for 1625 to 1768.",
 )
 
 caveats = [
@@ -437,7 +401,7 @@ caveats = [
 
 a = {
     "id": "landesgeschichte",
-    "title": bi("Landesgeschichte: Erwerb, Verlust und Teilungen", "History of the land: gains, losses and divisions"),
+    "title": bi("Landerwerb, Landverlust und Teilungen", "Territorial gains, losses and divisions"),
     "category": "history",
     "section": "t1-5",
     "merges": [
@@ -450,14 +414,13 @@ a = {
     "findings": findings,
     "method": method,
     "caveats": caveats,
-    "datasets": [houses, lines_per_year, transactions, events],
+    "datasets": [houses, transactions, events, lines_per_year],
     "charts": [c1, c2, c3],
     "keywords": {
         "de": ["Landesgeschichte", "Voigte", "Weida", "Gera", "Plauen", "Reuß", "Landesteilung", "Landerwerb", "Landverlust", "Linien", "Chronik"],
         "en": ["history", "Voigts", "Weida", "Gera", "Plauen", "Reuss", "partition", "acquisition of land", "loss of land", "lines", "chronology"],
     },
     "related": ["haus-reuss", "ortsnamen", "bergbau"],
-    "generated_by": "Claude Sonnet 5.5 (Agent F8), aus 3 Einzelauswertungen zusammengeführt",
     "date": "2026-10-02",
 }
 

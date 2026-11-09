@@ -108,20 +108,25 @@ c1 = {
          "encoding": {"y": {"field": "births", "type": "quantitative"},
                       "text": {"value": {"de": "Geborene", "en": "Births"}}}},
         {"transform": [{"filter": "datum.year == 1858"}],
-         "mark": {"type": "text", "style": "label", "align": "left", "dy": 27, "color": "@accent2"},
+         "mark": {"type": "text", "style": "label", "align": "left", "dy": 34, "color": "@accent2"},
          "encoding": {"y": {"field": "deaths", "type": "quantitative"},
                       "text": {"value": {"de": "Gestorbene", "en": "Deaths"}}}},
         # surplus brackets at the largest and smallest gap
         {"transform": [{"filter": "datum.year == 1860 || datum.year == 1865"}],
          "mark": {"type": "rule", "color": "@ink2", "strokeWidth": 1.5},
          "encoding": {"y": {"field": "births", "type": "quantitative"}, "y2": {"field": "deaths"}}},
-        {"transform": [{"filter": "datum.year == 1860 || datum.year == 1865"},
+        {"transform": [{"filter": "datum.year == 1860"},
+                       {"calculate": "(datum.births + datum.deaths) / 2", "as": "mid"},
+                       {"calculate": "'+' + format(datum.balance, ',d')", "as": "lab"}],
+         "mark": {"type": "text", "style": "label", "align": "right", "dx": -7, "color": "@ink"},
+         "encoding": {"y": {"field": "mid", "type": "quantitative"}, "text": {"field": "lab"}}},
+        {"transform": [{"filter": "datum.year == 1865"},
                        {"calculate": "(datum.births + datum.deaths) / 2", "as": "mid"},
                        {"calculate": "'+' + format(datum.balance, ',d')", "as": "lab"}],
          "mark": {"type": "text", "style": "label", "align": "left", "dx": 7, "color": "@ink"},
          "encoding": {"y": {"field": "mid", "type": "quantitative"}, "text": {"field": "lab"}}},
         {"transform": [{"filter": "datum.year == 1862"},
-                       {"calculate": "(datum.births + datum.deaths) / 2", "as": "mid"}],
+                       {"calculate": "0.7 * datum.births + 0.3 * datum.deaths", "as": "mid"}],
          "mark": {"type": "text", "style": "annotation", "align": "center", "color": "@accent"},
          "encoding": {"y": {"field": "mid", "type": "quantitative"},
                       "text": {"value": {"de": "Überschuss der Geborenen", "en": "surplus of births"}}}},
@@ -188,6 +193,7 @@ TT3 = [tooltip("district", "Bezirk", "District"), tooltip("nat", "Geburtenübers
 SIGN = {"condition": {"test": "datum.mig >= 0", "value": "@positive"}, "value": "@negative"}
 c3 = {
     "height": {"step": 60},
+    "padding": {"left": 4, "top": 4, "bottom": 4, "right": 60},
     "transform": [
         {"aggregate": [{"op": "sum", "field": "natural_increase", "as": "nat"},
                        {"op": "sum", "field": "increase", "as": "inc"}], "groupby": ["district"]},
@@ -203,7 +209,7 @@ c3 = {
     },
     "layer": [
         {"mark": {"type": "rule", "strokeWidth": 4},
-         "encoding": {"x": {"field": "nat", "type": "quantitative", "scale": {"domain": [-1500, 10800]},
+         "encoding": {"x": {"field": "nat", "type": "quantitative", "scale": {"domain": [-3600, 10000]},
                             "axis": {"values": [0, 2000, 4000, 6000, 8000, 10000], "format": ",d",
                                      "title": {"de": "Personen, 1859 bis 1867 zusammen", "en": "Persons, 1859 to 1867 combined"}}},
                       "x2": {"field": "inc"}, "color": SIGN}},
@@ -226,12 +232,12 @@ c3 = {
          "encoding": {"x": {"field": "inc", "type": "quantitative"}, "text": {"field": "inc", "format": ",d"}}},
         {"mark": {"type": "text", "style": "label", "align": "center", "dy": -15},
          "encoding": {"x": {"field": "midx", "type": "quantitative"}, "text": {"field": "miglab"}, "color": SIGN}},
+        {"transform": [{"filter": "datum.district === 'Fürstentum'"},
+                       {"calculate": {"de": "['Geburten-', 'überschuss']", "en": "['surplus', 'of births']"}, "as": "key"}],
+         "mark": {"type": "text", "style": "label-muted", "align": "left", "baseline": "top", "dx": -6, "dy": 12, "lineHeight": 13},
+         "encoding": {"x": {"field": "nat", "type": "quantitative"}, "text": {"field": "key"}}},
         {"transform": [{"filter": "datum.district === 'Fürstentum'"}],
-         "mark": {"type": "text", "style": "label-muted", "align": "center", "dy": 19},
-         "encoding": {"x": {"field": "nat", "type": "quantitative"},
-                      "text": {"value": {"de": "Geburtenüberschuss", "en": "surplus of births"}}}},
-        {"transform": [{"filter": "datum.district === 'Fürstentum'"}],
-         "mark": {"type": "text", "style": "label", "align": "center", "dy": 19, "color": "@accent"},
+         "mark": {"type": "text", "style": "label", "align": "right", "baseline": "top", "dx": 6, "dy": 12, "color": "@accent"},
          "encoding": {"x": {"field": "inc", "type": "quantitative"},
                       "text": {"value": {"de": "Zunahme", "en": "increase"}}}},
     ],
@@ -285,8 +291,8 @@ charts = [
     {"id": "c3", "dataset": "periods",
      "title": bi("Gera gewann Einwohner durch Zuwanderung; Lobenstein-Ebersdorf verlor mehr, als der Geburtenüberschuss einbrachte",
                  "Gera gained inhabitants through migration; Lobenstein-Ebersdorf lost more than its surplus of births added"),
-     "caption": bi("Geburtenüberschuss (grau) und tatsächliche Zunahme der Bevölkerung (blau) 1859 bis 1867, Summe der drei Dreijahreszeiträume. Die Differenz ist Brückners Wanderungssaldo, ein Restwert. Quelle: S. 98 f.",
-                   "Surplus of births (grey) and actual population increase (blue), 1859 to 1867, sum of the three three-year periods. The difference is Brückner’s migration balance, a residual. Source: pp. 98 f."),
+     "caption": bi("Geburtenüberschuss und tatsächliche Zunahme der Bevölkerung 1859 bis 1867, Summe der drei Dreijahreszeiträume. Die Differenz ist Brückners Wanderungssaldo, ein Restwert. Quelle: S. 98 f.",
+                   "Surplus of births and actual population increase, 1859 to 1867, sum of the three three-year periods. The difference is Brückner’s migration balance, a residual. Source: pp. 98 f."),
      "vegalite": c3},
 ]
 
@@ -326,11 +332,11 @@ feature = {
         "Übernommen wurden Brückners Jahrestabellen: Geborene (S. 107), Totgeborene (S. 111) und Gestorbene (S. 114) je Landratsbezirk, die unehelichen Geburten (S. 109), die Trauungen (S. 112) sowie die Dreijahresbilanz von Geburtenüberschuss, Zunahme und Wanderung (S. 98 f.). "
         "Berechnet wurden der Überschuss (Geborene minus Gestorbene, so wie Brückner ihn auf S. 98 f. bildet) und im dritten Diagramm die Summen der drei gedruckten Dreijahreswerte. Der Wanderungssaldo ist Brückners Restwert: Geburtenüberschuss minus Zunahme der Bevölkerung zwischen zwei Zählungen. "
         "Die Zehnjahresmittel für Städte und Landorte sind die von Brückner gedruckten Mittelzeilen. Die Jahreszahlen des ersten Diagramms folgen S. 107 und S. 114; für Lobenstein-Ebersdorf 1866 nennt S. 98 abweichend 922 statt 925 Geborene, die Dreijahressummen im dritten Diagramm stützen sich auf S. 98 f. "
-        "Nicht verwendet wurden die Tabellen zu Totgeborenen, Geschlecht der Geborenen, Staatenvergleichen, Selbstmorden und Unglücksfällen sowie die Reihe für den Bezirk Lobenstein-Ebersdorf 1794 bis 1804; sie sind in den Einzelauswertungen erhalten.",
+        "Nicht verwendet wurden die Tabellen zu Totgeborenen, Geschlecht der Geborenen, Staatenvergleichen, Selbstmorden und Unglücksfällen sowie die Reihe für den Bezirk Lobenstein-Ebersdorf 1794 bis 1804.",
         "Brückner’s annual tables were used: births (p. 107), stillbirths (p. 111) and deaths (p. 114) for each district, illegitimate births (p. 109), marriages (p. 112), and the three-year balance of surplus, increase and migration (pp. 98 f.). "
-        "Computed are the surplus (births minus deaths, as Brückner forms it on pp. 98 f.) and, in the third chart, the sums of the three printed three-year values. The migration balance is Brückner’s residual: surplus of births minus the increase of the population between two censuses. "
+        "The surplus (births minus deaths, as Brückner forms it on pp. 98 f.) and, in the third chart, the sums of the three printed three-year values are computed. The migration balance is Brückner’s residual: surplus of births minus the increase of the population between two censuses. "
         "The ten-year means for towns and villages are the mean rows printed by Brückner. The annual figures of the first chart follow pp. 107 and 114; for Lobenstein-Ebersdorf in 1866 p. 98 gives 922 instead of 925 births, and the three-year sums in the third chart rest on pp. 98 f. "
-        "Not used are the tables on stillbirths, the sex of newborns, comparisons between states, suicides and accidents, and the series for the district of Lobenstein-Ebersdorf for 1794 to 1804; they are preserved in the earlier single analyses."),
+        "The tables on stillbirths, the sex of newborns, comparisons between states, suicides and accidents, and the series for the district of Lobenstein-Ebersdorf for 1794 to 1804 are not used."),
     "caveats": [
         bi("Brückners Zahlen sind nicht überall stimmig: Für Schleiz 1865 setzen die Prozentzahlen etwa 1136 statt der gedruckten 1064 Geborenen voraus; für Lobenstein-Ebersdorf 1866 nennen S. 98 und S. 107 922 und 925 Geborene. Alle Werte stehen wie gedruckt im Datensatz.",
            "Brückner’s figures are not consistent everywhere: for Schleiz in 1865 the percentages imply about 1136 births instead of the printed 1064; for Lobenstein-Ebersdorf in 1866 pp. 98 and 107 give 922 and 925 births. All values are given as printed in the dataset."),
@@ -349,7 +355,6 @@ feature = {
         "en": ["births", "deaths", "surplus of births", "illegitimate births", "marriages", "migration", "emigration", "vital statistics"],
     },
     "related": ["bevoelkerung-1647-1867", "alter-familie", "gesundheit", "haus-reuss"],
-    "generated_by": "Claude Sonnet 5.5 (Agent F4), aus 9 Einzelauswertungen zusammengeführt",
     "date": "2026-10-02",
 }
 

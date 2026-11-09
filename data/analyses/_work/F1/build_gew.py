@@ -18,6 +18,20 @@ trib_ds = ds_of(a_zufl, "tributaries")
 comp_ds = ds_of(a_heil, "composition")
 prop = rows_as_dicts(ds_of(a_heil, "properties"))
 
+REACH = {"A": "Quelle bis Mündung", "B": "Eintritt bis Austritt", "C": "Teilstrecke"}
+NAME_TYPE = {"bach": "-bach", "wasser": "-wasser", "graben": "-graben", "grund": "-grund", "own": "Eigenname", "desc": "beschreibend"}
+POINT_TYPE = {"source": "Quelle", "mouth": "Mündung", "entry": "Eintritt ins Land", "exit": "Austritt aus dem Land", "inflow": "Einfluss eines Nebenbachs"}
+GROUP = {"alkali": "Natron und Kali", "earth": "Kalk und Magnesia", "iron": "Eisen und Mangan", "other": "Übrige Stoffe"}
+GROUP_EN = {"Natron und Kali": "Sodium and potassium salts", "Kalk und Magnesia": "Lime and magnesia", "Eisen und Mangan": "Iron and manganese",
+            "Übrige Stoffe": "Other constituents"}
+recode(reaches_ds, "reach", REACH, "Teilstrecke: z. B. Landeseintritt bis Mündung, Quelle bis Eintritt in Gera")
+recode(trib_ds, "name_type", NAME_TYPE, "editorisch nach dem Wortausgang; -bach umfasst -bächlein, -wasser umfasst -wässerlein; Eigenname: ohne Gattungswort "
+                                        "(z. B. Selbitz, Lemnitz); beschreibend: ohne eigenen Namen")
+recode(points_ds, "point_type", POINT_TYPE, None)
+recode(comp_ds, "group", GROUP, "editorische Zusammenfassung")
+for ds_ in (reaches_ds, trib_ds, points_ds):
+    drop_column(ds_, "region_order")
+
 # ------------------------------------------------------------------ numbers
 reaches = rows_as_dicts(reaches_ds)
 points = rows_as_dicts(points_ds)
@@ -30,8 +44,8 @@ r_ = {r["stream"]: r for r in reaches}
 wettera, sieglitz, elster = r_["Wettera"], r_["Sieglitzbach"], r_["Elster"]
 print("streams", n_streams, "reaches", len(reaches), "Wettera", wettera["fall_m"], "Sieglitz", sieglitz["fall_m"], "Elster", elster["fall_m"])
 fall_o = {r["stream"]: r["fall_m"] for r in reaches}
-src_o = [p["height_m"] for p in points if p["point_type"] == "source" and p["region"] == "Oberland"]
-src_u = [p["height_m"] for p in points if p["point_type"] == "source" and p["region"] == "Unterland"]
+src_o = [p["height_m"] for p in points if p["point_type"] == "Quelle" and p["region"] == "Oberland"]
+src_u = [p["height_m"] for p in points if p["point_type"] == "Quelle" and p["region"] == "Unterland"]
 print("Oberland sources", len(src_o), min(src_o), max(src_o), "Unterland", len(src_u), min(src_u), max(src_u))
 
 n_trib = len(trib)
@@ -42,10 +56,10 @@ right_more = [rv for rv in ("Saale", "Elster", "Weida", "Rodach") if bank[(rv, "
 assert right_more == ["Saale", "Elster", "Weida"]
 ober = [t for t in trib if t["region"] == "Oberland"]
 unter = [t for t in trib if t["region"] == "Unterland"]
-bach_o = sum(t["name_type"] == "bach" for t in ober)
-bach_u = sum(t["name_type"] == "bach" for t in unter)
-gg_u = sum(t["name_type"] in ("graben", "grund") for t in unter)
-gg_o = sum(t["name_type"] in ("graben", "grund") for t in ober)
+bach_o = sum(t["name_type"] == "-bach" for t in ober)
+bach_u = sum(t["name_type"] == "-bach" for t in unter)
+gg_u = sum(t["name_type"] in ("-graben", "-grund") for t in unter)
+gg_o = sum(t["name_type"] in ("-graben", "-grund") for t in ober)
 print("names Oberland", len(ober), "bach", bach_o, "Unterland", len(unter), "bach", bach_u, "graben/grund", gg_u, gg_o)
 
 tot = collections.defaultdict(float)
@@ -56,7 +70,7 @@ for c in comp:
 printed = {p["spring"]: p["solids_total"] for p in prop}
 assert all(abs(tot[k] - printed[k]) < 1e-9 for k in printed), (tot, printed)
 ratio_total = tot["Neue Quelle"] / tot["Agnesquelle"]
-iron_nq, iron_aq = grp[("iron", "Neue Quelle")], grp[("iron", "Agnesquelle")]
+iron_nq, iron_aq = grp[(GROUP["iron"], "Neue Quelle")], grp[(GROUP["iron"], "Agnesquelle")]
 ratio_iron = iron_nq / iron_aq
 fe_nq = next(c["parts_per_10000"] for c in comp if c["order"] == 9 and c["spring"] == "Neue Quelle")
 fe_aq = next(c["parts_per_10000"] for c in comp if c["order"] == 9 and c["spring"] == "Agnesquelle")
@@ -65,7 +79,7 @@ largest_aq = max((c for c in comp if c["spring"] == "Agnesquelle"), key=lambda c
 assert largest_aq["order"] == 9
 print("totals", dict(tot), "ratio", ratio_total, "iron group", iron_nq, iron_aq, ratio_iron, "Fe only", fe_nq, fe_aq, fe_nq / fe_aq, "share Fe AQ", share_fe_aq)
 for k in ("Neue Quelle", "Agnesquelle"):
-    print(k, {g: round(grp[(g, k)], 4) for g in ("earth", "iron", "alkali", "other")})
+    print(k, {g: round(grp[(g, k)], 4) for g in GROUP.values()})
 
 sin = {k: v["sinuosity"] for k, v in rivers.items()}
 fps = {k: v["fall_per_stunde_ft"] for k, v in rivers.items()}
@@ -133,8 +147,7 @@ c2 = {
     ],
 }
 
-GROUP_LABEL = {"de": "datum.group == 'earth' ? 'Kalk und Magnesia' : datum.group == 'iron' ? 'Eisen und Mangan' : datum.group == 'alkali' ? 'Natron- und Kalisalze' : 'Übrige Stoffe'",
-               "en": "datum.group == 'earth' ? 'Lime and magnesia' : datum.group == 'iron' ? 'Iron and manganese' : datum.group == 'alkali' ? 'Sodium and potassium salts' : 'Other constituents'"}
+GROUP_LABEL = {"de": "datum.group", "en": f"{js_map(GROUP_EN)}[datum.group]"}
 SPRING = {"field": "spring", "type": "nominal", "legend": None, "scale": {"domain": ["Neue Quelle", "Agnesquelle"], "range": ["@accent", "@accent2"]}}
 c3 = {
     "height": {"step": 48},
@@ -159,7 +172,7 @@ c3 = {
         {"transform": [{"filter": "datum.spring == 'Agnesquelle'"}],
          "mark": {"type": "text", "style": "label", "align": "right", "dx": -11},
          "encoding": {"x": {"field": "v", "type": "quantitative"}, "text": {"field": "v", "type": "quantitative", "format": ".2f"}}},
-        {"transform": [{"filter": "datum.group == 'earth'"}],
+        {"transform": [{"filter": f"datum.group == '{GROUP['earth']}'"}],
          "mark": {"type": "text", "style": "label", "align": "center", "dy": -17},
          "encoding": {"x": {"field": "v", "type": "quantitative"}, "color": SPRING, "text": {"field": "spring"}}},
     ],
@@ -175,11 +188,11 @@ lead_en = (f"Brückner divides the drainage network into four river systems, lis
 f1_de = (f"Die Saale legt im Land das {de(sin['Saale'], 2)}fache der Luftlinie zurück, die Weida das {de(sin['Weida'], 2)}fache, die Elster das {de(sin['Elster'], 2)}fache. "
          f"Je Stunde Lauf fällt die Weida mit {de(fps['Weida'], 0)} Fuß am stärksten, die Elster mit {de(fps['Elster'], 0)} am schwächsten.")
 f1_en = (f"Within the country the Saale covers {en(sin['Saale'], 2)} times its straight-line distance, the Weida {en(sin['Weida'], 2)} times, the Elster {en(sin['Elster'], 2)} times. "
-         f"Per Stunde of course the Weida falls most ({en(fps['Weida'], 0)} feet), the Elster least ({en(fps['Elster'], 0)}).")
+         f"The Weida falls most per Stunde of its course ({en(fps['Weida'], 0)} feet), the Elster least ({en(fps['Elster'], 0)}).")
 f2_de = (f"Im Oberland enden {de(bach_o / len(ober) * 100, 0)} Prozent der {len(ober)} Zuflussnamen auf -bach, im Unterland {de(bach_u / len(unter) * 100, 0)} Prozent von {len(unter)}. "
          f"Namen auf -graben oder -grund tragen {gg_u} Zuflüsse im Unterland, im Oberland keiner.")
 f2_en = (f"In the Oberland {en(bach_o / len(ober) * 100, 0)} percent of {len(ober)} tributary names end in -bach, in the Unterland {en(bach_u / len(unter) * 100, 0)} percent of {len(unter)}. "
-         f"Names in -graben or -grund occur for {gg_u} Unterland tributaries, for none in the Oberland.")
+         f"{gg_u} Unterland tributaries have names ending in -graben or -grund, no Oberland tributary does.")
 assert gg_o == 0
 f3_de = (f"Die Neue Quelle enthält {de(tot['Neue Quelle'], 2)} Teile feste Stoffe in 10.000 Teilen Wasser, die Agnesquelle {de(tot['Agnesquelle'], 2)}. In der Agnesquelle ist Eisen "
          f"der größte Einzelbestandteil ({de(share_fe_aq, 0)} Prozent).")
@@ -190,9 +203,9 @@ title1_de = (f"Wettera und Sieglitzbach fallen über 200 m, die Elster im ganzen
 title1_en = (f"The Wettera and Sieglitzbach fall over 200 m, the Elster only {en(elster['fall_m'], 0)} m across the country")
 assert wettera["fall_m"] > 200 and sieglitz["fall_m"] > 200
 cap1_de = ("Höhe in Metern (aus Dezimalfuß umgerechnet) am oberen und unteren Ende der Strecken, die Brückner angibt: meist Quelle bis Mündung, bei Saale, Weida, Elster, "
-           "Leuba und Triebes Eintritt bis Austritt, bei vier Bächen Teilstrecken. Zahl: Gefälle. Quelle: S. 45 bis 53.")
-cap1_en = ("Altitude in meters (converted from decimal feet) at the upper and lower end of the reaches Brückner gives: mostly spring to mouth, for the Saale, Weida, Elster, "
-           "Leuba and Triebes entry to exit, for four streams partial reaches. Number: fall. Source: pp. 45 to 53.")
+           "Leuba und Triebes Eintritt bis Austritt, bei vier Bächen Teilstrecken. Zahl: Gefälle (m). Quelle: S. 45 bis 53.")
+cap1_en = ("Altitude in meters (from decimal feet) at the upper and lower end of the reaches Brückner gives: mostly spring to mouth, for the Saale, Weida, Elster, "
+           "Leuba and Triebes entry to exit, for four streams partial reaches. Number: fall (m). Source: pp. 45 to 53.")
 title2_de = "Bei Saale, Elster und Weida münden rechts mehr Zuflüsse als links"
 title2_en = "On the Saale, Elster and Weida more tributaries join on the right than on the left"
 cap2_de = (f"Von Brückner einzeln aufgeführte Zuflüsse erster Ordnung nach Fluss und Ufer, in Flussrichtung gesehen; insgesamt {n_trib}. "
@@ -200,7 +213,7 @@ cap2_de = (f"Von Brückner einzeln aufgeführte Zuflüsse erster Ordnung nach Fl
 cap2_en = (f"First-order tributaries listed individually by Brückner, by river and bank, seen in the direction of flow; {n_trib} in all. "
            f"Only on the Rodach does the left bank prevail. Source: pp. 45 to 53.")
 title3_de = f"Die Neue Quelle ist {de(ratio_total, 1)}-mal so stark mineralisiert, hat aber nur {de(ratio_iron, 1)}-mal so viel Eisen"
-title3_en = f"The Neue Quelle is {en(ratio_total, 1)} times as mineralized but has only {en(ratio_iron, 1)} times as much iron"
+title3_en = f"The Neue Quelle holds {en(ratio_total, 1)} times the dissolved solids but only {en(ratio_iron, 1)} times the iron"
 cap3_de = ("Analyse von Prof. Reichardt (Jena) für die 1868 eröffnete Badeanstalt in Lobenstein: Bestandteile in vier Gruppen, in Teilen auf 10.000 Teile Wasser. "
            "Die Salze sind die damals berechneten Verbindungen. Quelle: S. 44.")
 cap3_en = ("Analysis by Prof. Reichardt (Jena) for the spa opened at Lobenstein in 1868: constituents in four groups, in parts per 10,000 parts of water. "
@@ -279,7 +292,6 @@ feature = {
         "en": ["watercourses", "Saale", "White Elster", "Weida", "springs", "gradient", "tributaries", "mineral springs", "Lobenstein", "iron spring", "mineral water"],
     },
     "related": ["relief-hoehen", "land-lage-grenzen", "geologie-boden", "klima-stationen"],
-    "generated_by": "Claude Sonnet 5.5 (Agent F1), aus 4 Einzelauswertungen zusammengeführt",
     "date": "2026-10-02",
 }
 dump(feature)

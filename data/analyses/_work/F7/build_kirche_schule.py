@@ -36,12 +36,12 @@ links_outside = [l for l in links if not l["inside"]]
 
 ds_places = dataset(
     "schulorte",
-    bi("Schulort oder Schule im Nachbarort: 173 Gemeinden", "School place or school in a neighbouring place: 173 municipalities"),
+    bi("Eigene Schule oder Schule im Nachbarort, 173 Gemeinden", "School of their own or school in a neighbouring place, 173 communities"),
     [col("name", "Ort", "Place", "string"),
      col("landestheil", "Landesteil", "District", "string"),
      col("kind", "Art des Ortes", "Type of place", "string", None, True, "Stadt, Marktflecken oder Dorf nach der Angabe im Ortsartikel"),
      col("inhabitants", "Einwohner", "Inhabitants", "integer", "Personen"),
-     col("school", "Schule", "School", "string", None, True, "eigene Schule oder Schule im Nachbarort, nach dem Ortsartikel; Kleinfalke korrigiert"),
+     col("school", "Schule", "School", "string", None, True, "eigene Schule oder Schule im Nachbarort, nach dem Ortsartikel"),
      col("pupils", "Schulkinder", "Pupils", "integer", "Kinder", False, "Bei Schulorten einschließlich eingeschulter Kinder anderer Orte, bei Orten ohne Schule die Kinder im auswärtigen Schulort"),
      col("school_place", "Schulort (für Orte ohne eigene Schule)", "School place (for places without a school)", "string", None, True),
      col("lon", "Länge", "Longitude", "number", "°", True, "GeoNames"),
@@ -72,10 +72,10 @@ base_rivers = shared_dataset("base_rivers.json")
 
 # ---------------------------------------------------------------- pupils per teacher
 V = {  # name -> (de, en, schools, teachers, pupils 1863, pupils 1868)
-    "Gera Land": ("Volksschulen Gera, Land", "Elementary schools, Gera, country", 30, 34, 2860, 3163),
-    "Schleiz Land": ("Volksschulen Schleiz, Land", "Elementary schools, Schleiz, country", 37, 39, 3115, 3356),
+    "Gera Land": ("Volksschulen Gera, Land", "Elementary schools, Gera, rural", 30, 34, 2860, 3163),
+    "Schleiz Land": ("Volksschulen Schleiz, Land", "Elementary schools, Schleiz, rural", 37, 39, 3115, 3356),
     "Schleiz Städte": ("Volksschulen Schleiz, Städte", "Elementary schools, Schleiz, towns", 4, 17, 1333, 1373),
-    "Lobenstein-Ebersdorf Land": ("Volksschulen Lobenstein-Ebersdorf, Land", "Elementary schools, Lobenstein-Ebersdorf, country", 39, 44, 2899, 2980),
+    "Lobenstein-Ebersdorf Land": ("Volksschulen Lobenstein-Ebersdorf, Land", "Elementary schools, Lobenstein-Ebersdorf, rural", 39, 44, 2899, 2980),
     "Lobenstein-Ebersdorf Städte": ("Volksschulen Lobenstein-Ebersdorf, Städte", "Elementary schools, Lobenstein-Ebersdorf, towns", 2, 13, 847, 838),
     "Gera Stadt": ("Volksschulen Gera, Stadt", "Elementary schools, Gera, town", 3, 59, 1865, 2529),
 }
@@ -144,7 +144,7 @@ ds_pay = dataset(
      col("group_en", "Gruppe (englisch)", "Group (English)", "string"),
      col("kind", "Art", "Kind", "string", None, True),
      col("lo", "Von", "From", "integer", "Taler"),
-     col("hi", "Bis (leer: nach oben offen)", "To (empty: open at the top)", "integer", "Taler"),
+     col("hi", "Bis (leer: nach oben offen)", "To (empty: open-ended)", "integer", "Taler"),
      col("posts", "Zahl der Stellen", "Number of posts", "integer", "Stellen"),
      col("deacons", "darunter Diakonen", "of which deacons", "integer", "Stellen"),
      col("ephors", "darunter Ephoren", "of which ephors", "integer", "Stellen")],
@@ -248,11 +248,11 @@ c1 = {
     "id": "c1",
     "dataset": "schulorte",
     "extra_datasets": ["schulwege", "orte_basis", "fluesse_basis"],
-    "title": bi("Im Unterland schulten viele Orte nach auswärts, im Oberland hatten fast alle eine eigene Schule",
-                "In the Unterland many places sent children elsewhere, in the Oberland nearly all had a school"),
+    "title": bi("Im Unterland hatte weniger als die Hälfte der Orte eine Schule, im Oberland die große Mehrheit",
+                "Under half of the Unterland places had their own school, but most Oberland places did"),
     "caption": bi(
         f"Kreise: Orte mit eigener Schule, Größe nach Schulkindern (Ring: Zahl nicht genannt). Punkte: Orte ohne Schule, Linie zum Schulort, soweit dieser im Fürstentum liegt. {len(no_coord)} Orte ohne Koordinaten fehlen. Quelle: Ortskunde S. 418 bis 825.",
-        f"Circles: places with a school of their own, sized by pupils (ring: number not given). Dots: places without a school, line to the school place where it lies in the principality. {len(no_coord)} places without coordinates are missing. Source: topography pp. 418 to 825."),
+        f"Circles: places with a school of their own, sized by pupils (ring: number not given). Dots: places without a school, with a line to their school place if it lies in the principality. {len(no_coord)} places without coordinates are missing. Source: topography pp. 418 to 825."),
     "vegalite": {
         "hconcat": [
             panel(bi("Unterland (Landesteil Gera)", "Unterland (Gera district)"), [12.10, 50.885], 67000, 418, 420,
@@ -271,21 +271,31 @@ sort_list = [bi(r[0], r[1]) for r in sorted_rows]
 land_keys = ("Volksschulen Gera, Land", "Volksschulen Schleiz, Land", "Volksschulen Lobenstein-Ebersdorf, Land")
 land_lo, land_hi = min(ppt[k] for k in land_keys), max(ppt[k] for k in land_keys)
 gym_lo, gym_hi = min(ppt["Gymnasium Gera"], ppt["Gymnasium Schleiz"]), max(ppt["Gymnasium Gera"], ppt["Gymnasium Schleiz"])
+BAR_SHIFT = 8
+HALO = {"color": "@paper", "stroke": "@paper", "strokeWidth": 4, "strokeJoin": "round"}
+
+
+def row_label_layers(field, halo):
+    return [{"mark": {"type": "text", "align": "left", "baseline": "bottom", "dy": -2, **style},
+             "encoding": {"x": {"datum": 0, "type": "quantitative"}, "text": {"field": field}}} for style in ((HALO, {}) if halo else ({},))]
+
+
 c2 = {
     "id": "c2",
     "dataset": "schulen_lehrer",
     "title": bi(f"Auf dem Land kamen {n(land_lo)} bis {n(land_hi)} Schüler auf einen Lehrer, an Gymnasien {n(gym_lo)} bis {n(gym_hi)}",
-                f"In the country {e(land_lo)} to {e(land_hi)} pupils went to one teacher, at Gymnasien {e(gym_lo)} to {e(gym_hi)}"),
+                f"Village schools had {e(land_lo)} to {e(land_hi)} pupils per teacher, the Gymnasien {e(gym_lo)} to {e(gym_hi)}"),
     "caption": bi(
         "Schüler je Lehrer an den Volksschulen (Ende 1868, nach Landesteil und Stadt oder Land) und an der Realschule und den Gymnasien in Gera und Schleiz (1868/69). Gestrichelt: Brückners Normalmaß von 50. Quelle: S. 299, 300.",
-        "Pupils per teacher at the elementary schools (end of 1868, by district and town or country) and at the Realschule and the Gymnasien in Gera and Schleiz (1868/69). Dashed: Brückner’s norm of 50. Source: pp. 299, 300."),
+        "Pupils per teacher at the elementary schools (end of 1868, by district, towns and countryside) and at the Realschule and the Gymnasien in Gera and Schleiz (1868/69). Dashed line: Brückner’s norm of 50. Source: pp. 299, 300."),
     "vegalite": {
-        "height": {"step": 30},
+        "height": {"step": 40},
         "transform": [{"calculate": {"de": "datum.name_de", "en": "datum.name_en"}, "as": "label"}],
-        "encoding": {"y": {"field": "label", "type": "nominal", "sort": sort_list,
-                           "axis": {"title": None, "labelLimit": 560, "ticks": False, "domain": False}}},
+        "encoding": {"y": {"field": "label", "type": "nominal", "sort": sort_list, "axis": None}},
         "layer": [
-            {"mark": {"type": "bar", "height": 18},
+            {"mark": {"type": "rule", "strokeDash": [4, 3], "color": "@ink2"},
+             "encoding": {"x": {"datum": 50, "type": "quantitative"}, "y": None}},
+            {"mark": {"type": "bar", "height": 14, "yOffset": BAR_SHIFT},
              "encoding": {"x": {"field": "pupils_per_teacher", "type": "quantitative", "scale": {"domain": [0, 110]},
                                 "axis": {"title": bi("Schüler je Lehrer", "Pupils per teacher"), "values": [0, 25, 50, 75, 100]}},
                           "color": {"field": "kind", "type": "nominal", "legend": None, "scale": {"domain": ratio_domain, "range": ["@accent", "@muted"]}},
@@ -294,15 +304,12 @@ c2 = {
                                       {"field": "teachers", "title": bi("Lehrer", "Teachers")},
                                       {"field": "pupils", "title": bi("Schüler", "Pupils"), "format": ",d"},
                                       {"field": "pupils_per_teacher", "title": bi("Schüler je Lehrer", "Pupils per teacher"), "format": ".1f"}]}},
-            {"mark": {"type": "rule", "strokeDash": [4, 3], "color": "@ink2"},
-             "encoding": {"x": {"datum": 50, "type": "quantitative"}, "y": None}},
+            *row_label_layers("label", True),
             {"transform": [{"filter": "datum.name_de === 'Volksschulen Gera, Land'"}],
-             "mark": {"type": "text", "align": "left", "baseline": "bottom", "dx": 4, "dy": -17, "style": "annotation"},
+             "mark": {"type": "text", "align": "left", "baseline": "bottom", "dx": 4, "dy": -4, "style": "annotation"},
              "encoding": {"x": {"datum": 50, "type": "quantitative"}, "y": {"value": 0},
                           "text": {"value": bi("Normalmaß 50", "norm of 50")}}},
-            {"mark": {"type": "text", "align": "left", "dx": 6, "style": "place-halo"},
-             "encoding": {"x": {"field": "pupils_per_teacher", "type": "quantitative"}, "text": {"field": "pupils_per_teacher", "format": ".1f"}}},
-            {"mark": {"type": "text", "align": "left", "dx": 6, "style": "place-label"},
+            {"mark": {"type": "text", "align": "left", "baseline": "middle", "dx": 6, "dy": BAR_SHIFT, "style": "label"},
              "encoding": {"x": {"field": "pupils_per_teacher", "type": "quantitative"}, "text": {"field": "pupils_per_teacher", "format": ".1f"}}},
         ],
     },
@@ -312,26 +319,25 @@ c3 = {
     "id": "c3",
     "dataset": "gehaelter",
     "title": bi("Schon die niedrigste Pfarrstelle zahlte mehr als das Doppelte des Mindestgehalts eines Landlehrers",
-                "Even the lowest pastorate paid more than twice the minimum salary of a village teacher"),
+                "Even the lowest-paid pastorate earned more than twice a village teacher’s minimum salary"),
     "caption": bi(
-        f"Gehaltsklassen der {posts_total} Pfarrstellen (Zahl der Stellen) und gesetzliches Mindestgehalt der Lehrer, in Taler im Jahr. Lehrer: Spannweite je nach Ort, freie Wohnung zusätzlich. Heller Balken: nach oben offen. Quelle: S. 294, 297.",
-        f"Salary classes of the {posts_total} pastorates (number of posts) and legal minimum pay of teachers, in thalers a year. Teachers: range by place, free housing in addition. Lighter bar: open at the top. Source: pp. 294, 297."),
+        f"Gehaltsklassen der {posts_total} Pfarrstellen (Zahl der Stellen) und gesetzliches Mindestgehalt der Lehrer, in Taler im Jahr. Lehrer: Spannweite je nach Ort, freie Wohnung zusätzlich. Die oberste Gehaltsklasse ist nach oben offen. Quelle: S. 294, 297.",
+        f"Salary classes of the {posts_total} pastorates (number of posts) and legal minimum pay of teachers, in thalers a year. Teachers: range depending on the place, free housing in addition. The top salary class is open-ended. Source: pp. 294, 297."),
     "vegalite": {
-        "height": {"step": 34},
+        "height": {"step": 40},
         "transform": [
             {"calculate": "isValid(datum.hi) ? datum.hi : 1100", "as": "hi_plot"},
             {"calculate": {"de": "isValid(datum.hi) ? format(datum.lo, ',d') + ' bis ' + format(datum.hi, ',d') + ' Taler' : 'über ' + format(datum.lo, ',d') + ' Taler'",
                            "en": "isValid(datum.hi) ? format(datum.lo, ',d') + ' to ' + format(datum.hi, ',d') + ' thalers' : 'over ' + format(datum.lo, ',d') + ' thalers'"}, "as": "range_label"},
-            {"calculate": {"de": "datum.kind === 'Pfarrer' ? datum.group_de + ' ' + replace(datum.range_label, ' Taler', '') : datum.group_de",
-                           "en": "datum.kind === 'Pfarrer' ? datum.group_en + ' ' + replace(datum.range_label, ' thalers', '') : datum.group_en"}, "as": "label"},
+            {"calculate": {"de": "datum.kind === 'Pfarrer' ? datum.group_de + ', ' + datum.range_label : datum.group_de",
+                           "en": "datum.kind === 'Pfarrer' ? datum.group_en + ', ' + datum.range_label : datum.group_en"}, "as": "label"},
             {"calculate": {"de": "datum.kind === 'Pfarrer' ? datum.posts + ' Stellen' : datum.range_label",
                            "en": "datum.kind === 'Pfarrer' ? datum.posts + ' posts' : datum.range_label"}, "as": "value_label"},
         ],
-        "encoding": {"y": {"field": "label", "type": "nominal", "sort": {"field": "order", "op": "min"},
-                           "axis": {"title": None, "labelLimit": 420, "ticks": False, "domain": False}}},
+        "encoding": {"y": {"field": "label", "type": "nominal", "sort": {"field": "order", "op": "min"}, "axis": None}},
         "layer": [
-            {"mark": {"type": "bar", "height": 20, "cornerRadiusEnd": 0},
-             "encoding": {"x": {"field": "lo", "type": "quantitative", "scale": {"domain": [0, 1350]},
+            {"mark": {"type": "bar", "height": 14, "yOffset": BAR_SHIFT, "cornerRadiusEnd": 0},
+             "encoding": {"x": {"field": "lo", "type": "quantitative", "scale": {"domain": [0, 1400]},
                                 "axis": {"title": bi("Taler im Jahr", "Thalers a year"), "values": [0, 200, 400, 600, 800, 1000], "format": ",d", "labelOverlap": False}},
                           "x2": {"field": "hi_plot"},
                           "color": {"field": "kind", "type": "nominal", "legend": None, "scale": {"domain": ["Pfarrer", "Lehrer"], "range": ["@accent3", "@accent"]}},
@@ -339,7 +345,8 @@ c3 = {
                           "tooltip": [{"field": "label", "title": bi("Gruppe", "Group")},
                                       {"field": "range_label", "title": bi("Gehalt", "Pay")},
                                       {"field": "posts", "title": bi("Stellen", "Posts")}]}},
-            {"mark": {"type": "text", "align": "left", "dx": 6, "style": "label"},
+            *row_label_layers("label", False),
+            {"mark": {"type": "text", "align": "left", "baseline": "middle", "dx": 6, "dy": BAR_SHIFT, "style": "label"},
              "encoding": {"x": {"field": "hi_plot", "type": "quantitative"}, "text": {"field": "value_label"}}},
         ],
     },
@@ -349,27 +356,27 @@ c3 = {
 g, s, l = "Gera", "Schleiz", "Lobenstein-Ebersdorf"
 pct = lambda lt: f"{region_stats[lt][1]} von {region_stats[lt][0]}"
 summary = bi(
-    f"Kirchlich gliederte sich das Fürstentum in {len(ds_eph['rows'])} Ephorien mit {eph_tot['parishes']} Parochien, {eph_tot['churches']} Kirchen und {eph_tot['clergy']} Geistlichen; hinzu kamen {vol_tot['schools']} Volksschulen mit {vol_tot['teachers']} Lehrern und {n(vol_tot['pupils'])} Schülern. {n_own} von {N} Orten hatten eine eigene Schule. Auf dem Land kamen {n(land_ppt)} Schüler auf einen Lehrer; die niedrigste Pfarrstelle zahlte {min_pastor}, der Landlehrer mindestens {min_teacher} Taler.",
-    f"Ecclesiastically the principality was divided into {len(ds_eph['rows'])} ephories with {eph_tot['parishes']} parishes, {eph_tot['churches']} churches and {eph_tot['clergy']} clergy; in addition there were {vol_tot['schools']} elementary schools with {vol_tot['teachers']} teachers and {e(vol_tot['pupils'])} pupils. {n_own} of {N} places had a school of their own. In the country {e(land_ppt)} pupils went to one teacher; the lowest pastorate paid {min_pastor}, the village teacher at least {min_teacher} thalers.")
+    f"Kirchlich war das Fürstentum in {len(ds_eph['rows'])} Ephorien mit {eph_tot['parishes']} Parochien, {eph_tot['churches']} Kirchen und {eph_tot['clergy']} Geistlichen gegliedert. Es gab {vol_tot['schools']} Volksschulen mit {vol_tot['teachers']} Lehrern und {n(vol_tot['pupils'])} Schülern; {n_own} von {N} Orten hatten eine eigene Schule. Auf dem Land kamen {n(land_ppt)} Schüler auf einen Lehrer. Die niedrigste Pfarrstelle brachte {min_pastor} Taler, der Landlehrer erhielt mindestens {min_teacher}.",
+    f"The principality was divided into {len(ds_eph['rows'])} ephories with {eph_tot['parishes']} parishes, {eph_tot['churches']} churches and {eph_tot['clergy']} clergy. There were {vol_tot['schools']} elementary schools with {vol_tot['teachers']} teachers and {e(vol_tot['pupils'])} pupils; {n_own} of {N} places had a school of their own. Village schools had {e(land_ppt)} pupils per teacher. The lowest-paid pastorate brought {min_pastor} thalers a year, while a village teacher received at least {min_teacher}.")
 
 findings = [
     bi(f"Von den {region_stats[g][0]} Orten des Landesteils Gera hatten {region_stats[g][1]} eine eigene Schule ({n(share(g))} Prozent), von den {region_stats[s][0]} in Schleiz {region_stats[s][1]} ({n(share(s))} Prozent), von den {region_stats[l][0]} in Lobenstein-Ebersdorf {region_stats[l][1]} ({n(share(l))} Prozent).",
-       f"Of the {region_stats[g][0]} places in the Gera district {region_stats[g][1]} had a school of their own ({e(share(g))} percent), of the {region_stats[s][0]} in Schleiz {region_stats[s][1]} ({e(share(s))} percent), of the {region_stats[l][0]} in Lobenstein-Ebersdorf {region_stats[l][1]} ({e(share(l))} percent)."),
+       f"Of the {region_stats[g][0]} places in the Gera district, {region_stats[g][1]} had a school of their own ({e(share(g))} percent); in Schleiz {region_stats[s][1]} of {region_stats[s][0]} ({e(share(s))} percent), in Lobenstein-Ebersdorf {region_stats[l][1]} of {region_stats[l][0]} ({e(share(l))} percent)."),
     bi(f"Auf einen Lehrer kamen an den Landschulen im Durchschnitt {n(land_ppt)} Schüler, an der Stadtschule Gera {n(ppt['Volksschulen Gera, Stadt'])}, an den Gymnasien {n(ppt['Gymnasium Schleiz'])} bis {n(ppt['Gymnasium Gera'])}. Brückner nennt {n(NORM)} als Normalmaß.",
-       f"At the village schools on average {e(land_ppt)} pupils went to one teacher, at the town school of Gera {e(ppt['Volksschulen Gera, Stadt'])}, at the Gymnasien {e(ppt['Gymnasium Schleiz'])} to {e(ppt['Gymnasium Gera'])}. Brückner gives {e(NORM)} as the norm."),
-    bi(f"Das gesetzliche Mindestgehalt der Volksschullehrer lag zwischen {min_teacher} und {teacher_max} Talern, die niedrigste Pfarrstelle zahlte {min_pastor}. {posts_from_800} von {posts_total} Pfarrstellen zahlten {800} Taler und mehr.",
-       f"The legal minimum pay of elementary teachers lay between {min_teacher} and {teacher_max} thalers, the lowest pastorate paid {min_pastor}. {posts_from_800} of {posts_total} pastorates paid {800} thalers or more."),
+       f"Village schools averaged {e(land_ppt)} pupils per teacher, the town school of Gera {e(ppt['Volksschulen Gera, Stadt'])} and the Gymnasien {e(ppt['Gymnasium Schleiz'])} to {e(ppt['Gymnasium Gera'])}. Brückner gives {e(NORM)} as the norm."),
+    bi(f"Das gesetzliche Mindestgehalt der Volksschullehrer lag zwischen {min_teacher} und {teacher_max} Talern, die niedrigste Pfarrstelle brachte {min_pastor}. {posts_from_800} von {posts_total} Pfarrstellen brachten {800} Taler und mehr.",
+       f"The legal minimum pay of elementary teachers ranged from {min_teacher} to {teacher_max} thalers; the lowest-paid pastorate brought {min_pastor}. {posts_from_800} of {posts_total} pastorates brought {800} thalers or more."),
 ]
 
 method = bi(
-    f"Schulorte und Schulkinder stammen aus den {N} Ortsartikeln der Ortskunde (S. 418 bis 825). Ein Ort zählt als Schulort, wenn der Artikel eine eigene Schule nennt, sonst als Ort mit Schule im Nachbarort; der Artikel von Kleinfalke nennt eine eigene Schule seit 1810 und wurde gegenüber der früheren Einzelauswertung korrigiert. Der Schulort der {n_neighbour} Orte ohne Schule wurde aus dem Artikel gelesen; Koordinaten stammen von GeoNames. Linien zeichnen nur Schulorte im Fürstentum ({len(links_drawn)} von {len(links)} Verbindungen); {len(links_outside)} führen in Nachbarstaaten, {len(links) - len(links_drawn) - len(links_outside)} scheitern an fehlenden Koordinaten. Bieblach darf nach Tinz oder Gera zur Schule gehen und erscheint mit beiden Linien. Die Schüler und Lehrer der Volksschulen stehen in der Tabelle auf S. 299 (Ende 1868), die der höheren Schulen auf S. 299 und 300. Schüler je Lehrer ist berechnet; an den Gymnasien zählen Haupt- und Hilfslehrer, an der Realschule die 17 und 2 eigenen Lehrer. Gehaltsklassen der Pfarrstellen stehen auf S. 294, das gesetzliche Mindestgehalt der Lehrer auf S. 297. Die Zahl der Parochien, Kirchen und Geistlichen je Ephorie steht als weitere Tabelle zum Herunterladen bereit. Die Gemeindehaushalte aus den Ortsartikeln sind in dieser Auswertung nicht enthalten.",
-    f"School places and pupils come from the {N} place articles of the topography (pp. 418 to 825). A place counts as a school place if the article names a school of its own, otherwise as a place with its school in a neighbouring place; the article on Kleinfalke names a school of its own since 1810 and was corrected against the earlier single analysis. The school place of the {n_neighbour} places without a school was read from the article; coordinates come from GeoNames. Lines are drawn only for school places in the principality ({len(links_drawn)} of {len(links)} connections); {len(links_outside)} lead into neighbouring states, {len(links) - len(links_drawn) - len(links_outside)} fail for lack of coordinates. Bieblach may go to school in Tinz or Gera and appears with both lines. Pupils and teachers of the elementary schools are in the table on p. 299 (end of 1868), those of the secondary schools on pp. 299 and 300. Pupils per teacher is calculated; at the Gymnasien main and assistant teachers are counted, at the Realschule the 17 and 2 own teachers. The salary classes of the pastorates are on p. 294, the legal minimum pay of teachers on p. 297. The number of parishes, churches and clergy per ephory is a further table for download. The municipal budgets from the place articles are not part of this analysis.")
+    f"Schulorte und Schulkinder stammen aus den {N} Ortsartikeln der Ortskunde (S. 418 bis 825). Ein Ort zählt als Schulort, wenn der Artikel eine eigene Schule nennt, sonst als Ort mit Schule im Nachbarort; der Artikel über Kleinfalke nennt eine eigene Schule seit 1810. Der Schulort der {n_neighbour} Orte ohne Schule wurde aus dem Artikel gelesen; Koordinaten stammen von GeoNames. Linien zeichnen nur Schulorte im Fürstentum ({len(links_drawn)} von {len(links)} Verbindungen); {len(links_outside)} führen in Nachbarstaaten, {len(links) - len(links_drawn) - len(links_outside)} scheitern an fehlenden Koordinaten. Bieblach darf nach Tinz oder Gera zur Schule gehen und erscheint mit beiden Linien. Die Schüler und Lehrer der Volksschulen stehen in der Tabelle auf S. 299 (Ende 1868), die der höheren Schulen auf S. 299 und 300. Schüler je Lehrer ist berechnet; an den Gymnasien zählen Haupt- und Hilfslehrer, an der Realschule die 17 und 2 eigenen Lehrer. Die Gehaltsklassen der Pfarrstellen stehen auf S. 294, das gesetzliche Mindestgehalt der Lehrer auf S. 297. Die Zahl der Parochien, Kirchen und Geistlichen je Ephorie steht als weitere Tabelle zum Herunterladen bereit. Die Gemeindehaushalte aus den Ortsartikeln sind nicht ausgewertet.",
+    f"School places and pupils come from the {N} place articles of the topography (pp. 418 to 825). A place counts as a school place if its article names a school of its own, otherwise as a place whose children go to school in a neighbouring place; the article on Kleinfalke names a school of its own since 1810. The school place of the {n_neighbour} places without a school was taken from the article; coordinates come from GeoNames. Lines are drawn only to school places within the principality ({len(links_drawn)} of {len(links)} connections); {len(links_outside)} lead into neighbouring states and {len(links) - len(links_drawn) - len(links_outside)} lack coordinates. Children from Bieblach may attend school in Tinz or Gera, so Bieblach has two lines. Pupils and teachers of the elementary schools are in the table on p. 299 (end of 1868), those of the secondary schools on pp. 299 and 300. Pupils per teacher is calculated; at the Gymnasien full and assistant teachers are counted, at the Realschule its 17 plus 2 own teachers. The salary classes of the pastorates are on p. 294, the legal minimum pay of teachers on p. 297. The number of parishes, churches and clergy per ephory is available as a further table for download. The municipal budgets in the place articles are not analysed here.")
 
 caveats = [
     bi(f"Die Schulkinder gelten für verschiedene Jahre, bei Schulorten einschließlich der eingeschulten Kinder anderer Orte. Die Größe der Kreise ist deshalb nur ein Näherungswert. Für {missing_pupils_de} nennt der Artikel keine einzelne Zahl; sie sind als Ring gezeichnet. Die Einwohner sind die des Ortsartikels.",
        f"The pupils refer to different years and, for school places, include the children of other places. The size of the circles is therefore only approximate. For {missing_pupils_en} the article gives no single figure; they are drawn as a ring. Inhabitants are those of the place article."),
     bi("Die Lehrerzahl der Stadt Gera enthält die Lehrerinnen. An den Gymnasien zählen Haupt- und Hilfslehrer, die Hilfslehrer können Teilzeitkräfte sein; an der Realschule sind die vier hilfsweise herangezogenen Lehrer nicht gezählt. Volksschulen und höhere Schulen sind deshalb nur grob vergleichbar.",
-       "The number of teachers in the town of Gera includes women teachers. At the Gymnasien main and assistant teachers are counted; assistants may be part-time. At the Realschule the four teachers drawn in from elsewhere are not counted. Elementary and secondary schools are therefore only roughly comparable."),
+       "The number of teachers in the town of Gera includes women teachers. At the Gymnasien full and assistant teachers are counted; assistants may be part-time. At the Realschule the four teachers drawn in from elsewhere are not counted. Elementary and secondary schools are therefore only roughly comparable."),
     bi(f"Die Gehaltsklassen nennt Brückner ohne Jahr und ohne Angabe, ob Naturalien eingerechnet sind. Die Pfarrstellen schließen {deacons_total} Diakonate und {ephors_total} Ephorenstellen ein. Bei den Lehrern handelt es sich um das gesetzliche Mindestgehalt ohne Alterszulagen, in dem Bezüge aus Stiftungskassen eingerechnet sind.",
        f"Brückner gives the salary classes without a year and without saying whether payments in kind are included. The pastorates include {deacons_total} deaconates and {ephors_total} ephor posts. For teachers it is the legal minimum without seniority supplements, in which payments from foundation funds are counted."),
 ]
@@ -403,7 +410,6 @@ obj = {
         "en": ["school", "school place", "elementary school", "Gymnasium", "Realschule", "pupils", "teachers", "teachers’ pay", "church", "ephory", "parish", "pastor", "pastors’ pay"],
     },
     "related": ["armenwesen-stiftungen", "siedlung-wohnen", "verfassung-verwaltung", "staatsfinanzen"],
-    "generated_by": "Claude Sonnet 5.5 (Agent F7), aus 4 Einzelauswertungen zusammengeführt",
     "date": "2026-10-02",
 }
 

@@ -24,12 +24,10 @@
       <summary>{{ t('Quellen und Methode', 'Sources and method') }}</summary>
       <div class="body">
         <p>{{ t('Quellen im Werk:', 'Sources in the book:') }} {% for s in sources %}<a href="../seite/{{ s.page }}.html#{{ s.block }}">{{ t('S.', 'p.') }} {{ s.page }}</a>{% if s.what %} <span class="muted">({{ t(s.what[0], s.what[1]) }})</span>{% endif %}{% if not loop.last %}, {% endif %}{% endfor %}.{% if sec %} {{ t('Abschnitt', 'Section') }} <a href="{{ sec_href }}">{{ sec.num }} {{ sec.title|e }}</a>.{% endif %}</p>
-        <p>{{ t(a.method.de|e, a.method.en|e) }}</p>
+        <p>{{ t(a.method.de|e, a.method.en|e) }} {{ t('Alle aus dem Druck übernommenen Zahlen wurden maschinell gegen die Transkription der zitierten Stellen geprüft; berechnete Spalten sind gekennzeichnet.', 'All numbers taken from the print were checked automatically against the transcription of the cited passages; computed columns are marked.') }}</p>
         {% if a.conversions %}<h3>{{ t('Umrechnungen', 'Conversions') }}</h3><ul>{% for c in a.conversions %}<li>{{ c.from|e }} {{ t('in', 'to') }} {{ c.to|e }}: <span class="mono">{{ c.factor_or_formula|e }}</span>{% if c.reference %} ({{ c.reference|e }}){% endif %}</li>{% endfor %}</ul>{% endif %}
         {% if a.caveats %}<h3>{{ t('Einschränkungen', 'Caveats') }}</h3><ul>{% for c in a.caveats %}<li>{{ t(c.de|e, c.en|e) }}</li>{% endfor %}</ul>{% endif %}
         {% if a.transcription_issues %}<h3>{{ t('Am Faksimile geprüfte Lesungen', 'Readings checked against the facsimile') }}</h3><ul>{% for i in a.transcription_issues %}<li><a href="../seite/{{ i.page }}.html#{{ i.block }}">{{ t('S.', 'p.') }} {{ i.page }}</a>{% if i.cell %} ({{ i.cell }}){% endif %}: {{ t('Transkription', 'transcription') }} „{{ i.transcribed|e }}“, {{ t('Druck', 'print') }} „{{ i.facsimile|e }}“{% if i.note %}. {{ i.note|e }}{% endif %}</li>{% endfor %}</ul>{% endif %}
-        <h3>{{ t('Entstehung', 'Provenance') }}</h3>
-        <p>{{ a.generated_by|e }}{% if a.date %}, {{ a.date }}{% endif %}. {{ t('Alle aus dem Druck übernommenen Zahlen wurden maschinell gegen die Transkription der zitierten Stellen geprüft; berechnete Spalten sind gekennzeichnet.', 'All numbers taken from the print were checked automatically against the transcription of the cited passages; computed columns are marked.') }}{% if a.merges %} {{ t('Fasst frühere Einzelauswertungen zusammen:', 'Combines earlier single analyses:') }} <span class="mono">{{ a.merges|join(', ') }}</span>.{% endif %}</p>
       </div>
     </details>
     <details class="ana-more">

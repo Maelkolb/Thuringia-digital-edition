@@ -318,7 +318,7 @@
      "Mittel",
      "-1,23",
      "-1,15",
-     "0,56",
+     "—0,56",
      "6,04",
      "10,94",
      "11,21",
@@ -544,11 +544,11 @@
        "spans": []
       },
       {
-       "text": "Sommer=mittel.",
+       "text": "Sommermittel.",
        "spans": []
       },
       {
-       "text": "Winter=mittel.",
+       "text": "Wintermittel.",
        "spans": []
       },
       {
@@ -560,7 +560,7 @@
        "spans": []
       },
       {
-       "text": "Jahres=mittel.",
+       "text": "Jahresmittel.",
        "spans": []
       }
      ]
@@ -859,11 +859,11 @@
    "grid": [
     [
      "",
-     "Sommer=mittel.",
-     "Winter=mittel.",
+     "Sommermittel.",
+     "Wintermittel.",
      "Höchster Stand.",
      "Tiefster Stand.",
-     "Jahres=mittel."
+     "Jahresmittel."
     ],
     [
      "1848",
@@ -1054,11 +1054,41 @@
  ],
  "corrections": [
   {
+   "rule": "fraktur_double_hyphen",
+   "before": "Sommer=mittel.",
+   "after": "Sommer-mittel."
+  },
+  {
+   "rule": "fraktur_double_hyphen",
+   "before": "Winter=mittel.",
+   "after": "Winter-mittel."
+  },
+  {
+   "rule": "fraktur_double_hyphen",
+   "before": "Jahres=mittel.",
+   "after": "Jahres-mittel."
+  },
+  {
    "rule": "facsimile_correction",
    "before": "0,56",
    "after": "—0,56",
    "source": "klima-stationen",
    "n": 1
+  },
+  {
+   "rule": "join_inword_hyphen",
+   "before": "Sommer-mittel",
+   "after": "Sommermittel"
+  },
+  {
+   "rule": "join_inword_hyphen",
+   "before": "Winter-mittel",
+   "after": "Wintermittel"
+  },
+  {
+   "rule": "join_inword_hyphen",
+   "before": "Jahres-mittel",
+   "after": "Jahresmittel"
   }
  ],
  "provenance": {

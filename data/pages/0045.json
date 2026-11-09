@@ -61,7 +61,7 @@
    "id": "b2",
    "type": "paragraph",
    "src": 1,
-   "text": "5 b. In die Phyllodocitesschiefer ist ein wenig mächtiger, röthlicher Kalk am Franzensberg, eine mächtigere Lage hellgelblich=grauen Kalkes am Saalufer bei Blankenstein eingelagert. Ob der hornige Kalk bei der Bärenmühle im Sormitzgrund hierher gezogen werden muß, ist bei der völligen Umwandlung der Gesteine in dortiger Gegend schwer zu bestimmen. Der Kalk in den Brüchen auf der Kalch bei Wurzbach gehört wahrscheinlich hierher und nicht zur Tentaculitenformation.",
+   "text": "5 b. In die Phyllodocitesschiefer ist ein wenig mächtiger, röthlicher Kalk am Franzensberg, eine mächtigere Lage hellgelblich-grauen Kalkes am Saalufer bei Blankenstein eingelagert. Ob der hornige Kalk bei der Bärenmühle im Sormitzgrund hierher gezogen werden muß, ist bei der völligen Umwandlung der Gesteine in dortiger Gegend schwer zu bestimmen. Der Kalk in den Brüchen auf der Kalch bei Wurzbach gehört wahrscheinlich hierher und nicht zur Tentaculitenformation.",
    "spans": [
     [
      70,
@@ -174,7 +174,7 @@
    "id": "b4",
    "type": "paragraph",
    "src": 3,
-   "text": "6 a. Nach Ablagerung der Tentaculitenschichten verließ das Meer auf längere Zeit die Gegend des heutigen reußischen Oberlandes, denn wir finden keine Gesteine der älteren und mittleren Devonformation. Erst mit Eintritt der jüngeren Devonperiode drang das Meer wieder vor und bedeckte das Gebiet, wenn auch nicht in seinem ganzen jetzigen Umfange. Aus dem Wasser schlugen sich zuerst hauptsächlich Schlamm= und Geröllmassen nieder, welche aus der Verwitterung der schon vorhandenen und sich noch bildenden Grünsteine hervorgegangen, je nach den damaligen Vertiefungen des Meeresbodens bald mächtigere, bald weniger bedeutende Lager bildeten. Man kann dieselben für unser Gebiet mit Fug als „untere devonische Tufflager“ bezeichnen. Die Versteinerungen, kleine Krebsschälchen (Cypridinen) und kleine Muscheln (Spirifer calcaratus, Chonetes nana, Atrypa concentrica 2c.) verweisen dies Formationsglied, als Parallele der Tuffe von Planschwitz und Magwitz im sächsischen Voigtland, in die unterste Abtheilung des oberen Devonium, wie sie z. B. bei Iberg und Grund am Harz erscheint. Es besteht in dicken Bänken höchst feinkörnigen, bläulichen bis bräunlichen Tuffes mit muschligem Bruche, welcher an der Luft bald in kleine scharfeckige Brocken zerfällt — ferner in geschieferten Tuffen gröberen Kornes, in bräunlichen Grauwackenschichten mit Pflanzenresten, sowie endlich in Lagern von Trümmergrünstein — von zusammengebackenen bald scharfkantigen, bald abgerundeten Grünsteinbrocken. Alle diese Gesteine verwittern leicht und geben einen rostbraunen, sehr fruchtbaren, lockeren und warmen, jedoch auf Höhen zu lockeren und trockenen Boden, der sich bei günstiger Lage zu jeder Cultur, vorzugsweise aber zur Wiesencultur trefflich eignet.",
+   "text": "6 a. Nach Ablagerung der Tentaculitenschichten verließ das Meer auf längere Zeit die Gegend des heutigen reußischen Oberlandes, denn wir finden keine Gesteine der älteren und mittleren Devonformation. Erst mit Eintritt der jüngeren Devonperiode drang das Meer wieder vor und bedeckte das Gebiet, wenn auch nicht in seinem ganzen jetzigen Umfange. Aus dem Wasser schlugen sich zuerst hauptsächlich Schlamm- und Geröllmassen nieder, welche aus der Verwitterung der schon vorhandenen und sich noch bildenden Grünsteine hervorgegangen, je nach den damaligen Vertiefungen des Meeresbodens bald mächtigere, bald weniger bedeutende Lager bildeten. Man kann dieselben für unser Gebiet mit Fug als „untere devonische Tufflager“ bezeichnen. Die Versteinerungen, kleine Krebsschälchen (Cypridinen) und kleine Muscheln (Spirifer calcaratus, Chonetes nana, Atrypa concentrica 2c.) verweisen dies Formationsglied, als Parallele der Tuffe von Planschwitz und Magwitz im sächsischen Voigtland, in die unterste Abtheilung des oberen Devonium, wie sie z. B. bei Iberg und Grund am Harz erscheint. Es besteht in dicken Bänken höchst feinkörnigen, bläulichen bis bräunlichen Tuffes mit muschligem Bruche, welcher an der Luft bald in kleine scharfeckige Brocken zerfällt — ferner in geschieferten Tuffen gröberen Kornes, in bräunlichen Grauwackenschichten mit Pflanzenresten, sowie endlich in Lagern von Trümmergrünstein — von zusammengebackenen bald scharfkantigen, bald abgerundeten Grünsteinbrocken. Alle diese Gesteine verwittern leicht und geben einen rostbraunen, sehr fruchtbaren, lockeren und warmen, jedoch auf Höhen zu lockeren und trockenen Boden, der sich bei günstiger Lage zu jeder Cultur, vorzugsweise aber zur Wiesencultur trefflich eignet.",
    "spans": [
     [
      59,
@@ -287,6 +287,16 @@
  ],
  "footnotes": [],
  "corrections": [
+  {
+   "rule": "fraktur_double_hyphen",
+   "before": "hellgelblich=grauen Kalke",
+   "after": "hellgelblich-grauen Kalk"
+  },
+  {
+   "rule": "fraktur_double_hyphen",
+   "before": "lich Schlamm= und Geröllma",
+   "after": "lich Schlamm- und Geröll"
+  },
   {
    "rule": "join_inword_hyphen",
    "before": "Titaneisen-diabasen",

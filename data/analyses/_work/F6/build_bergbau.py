@@ -71,7 +71,7 @@ summary = {
     "de": (f"Brückner verfolgt den Bergbau von den Silbergruben bei Schleiz (1318) bis zur Saline Heinrichshall. "
            f"Vor dem Dreißigjährigen Krieg zählte das Oberland {n_gruben} Gruben, {n_eisen} davon auf Eisen. "
            f"Von {n_werke} später verzeichneten Hammer- und Hüttenwerken liefen 1869 noch {NUM_DE[n_betrieb]}. "
-           f"Im Unterland endete der Metallbergbau um 1750. Die Saline gab 1863 {de(kochsalz['1863'])} Zentner Kochsalz ab, "
+           f"Im Unterland endete der Metallbergbau um 1750. 1863 gab die Saline {de(kochsalz['1863'])} Zentner Kochsalz ab, "
            f"{de(drop_pct, 1)} Prozent weniger als 1857."),
     "en": (f"Brückner traces mining from the silver mines near Schleiz (1318) to the Heinrichshall saltworks. "
            f"Before the Thirty Years’ War the Oberland had {n_gruben} mines, {n_eisen} of them for iron. "
@@ -99,8 +99,8 @@ charts = [
     {"id": "c1", "dataset": "werke",
      "title": {"de": f"Von {n_werke} Hüttenwerken des Oberlandes liefen 1869 noch {NUM_DE[n_betrieb]}; {NUM_DE[n_umg]} wurden umgenutzt, {NUM_DE[n_aufg]} aufgegeben",
                "en": f"Of {n_werke} Oberland ironworks, {NUM_EN[n_betrieb]} still ran in 1869; {NUM_EN[n_umg]} were converted, {NUM_EN[n_aufg]} abandoned"},
-     "caption": {"de": "Betriebszeit der Hütten- und Hammerwerke des Oberlandes seit 1648, nach ihrem Schicksal gruppiert (blau: noch in Betrieb, orange: umgenutzt, grau: aufgegeben). Quelle: S. 244–246.",
-                 "en": "Operating period of the ironworks and hammer mills of the Oberland since 1648, grouped by their fate (blue: still running, orange: converted, grey: abandoned). Source: pp. 244–246."},
+     "caption": {"de": "Betriebszeit der Hütten- und Hammerwerke des Oberlandes seit 1648, nach ihrem späteren Schicksal gruppiert. Quelle: S. 244–246.",
+                 "en": "Operating periods of the ironworks and hammer mills of the Oberland since 1648, grouped by their later fate. Source: pp. 244–246."},
      "vegalite": C.c1},
     {"id": "c2", "dataset": "unternehmungen",
      "title": {"de": f"Im Unterland sind Gruben und Hütten fast nur vor 1610 und nach 1687 belegt",
@@ -169,7 +169,6 @@ a = {
         "de": ["Bergbau", "Eisenerz", "Hammerwerke", "Hüttenwerke", "Saline Heinrichshall", "Kochsalz", "Kupfer", "Trebnitz", "Köstritz", "Alaun", "Oberland", "Unterland"],
         "en": ["mining", "iron ore", "hammer mills", "smelting works", "Heinrichshall saltworks", "table salt", "copper", "Trebnitz", "Köstritz", "alum", "Oberland", "Unterland"]},
     "related": ["geologie-boden", "berufe-gewerbe", "wald-holz", "staatsfinanzen"],
-    "generated_by": GENERATED_BY.format(n=len(IDS)),
     "date": DATE,
 }
 check_limits(a)

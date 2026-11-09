@@ -201,8 +201,8 @@
    "en": "Per 10 municipalities there are 2.3 deserted villages in the district of Gera, 2.6 in Schleiz and 0.7 in Lobenstein-Ebersdorf. Most are placed near Tanna (4); 9 have no year."
   },
   {
-   "de": "Die älteste Erwähnung hat Eliasbrunn (1072). Fünf Jahre (1121, 1325, 1333, 1364, 1533) stehen für 58 der 152 Orte; sie spiegeln eher einzelne Urkunden als Gründungszeiten. Allein 1364 nennt 14 Orte, alle im Landesteil Gera.",
-   "en": "Eliasbrunn has the oldest mention (1072). Five years (1121, 1325, 1333, 1364, 1533) account for 58 of the 152 places, reflecting single documents rather than founding dates. 1364 names 14 places, all in Gera district."
+   "de": "Die älteste Erwähnung hat Eliasbrunn (1072). Fünf Jahre (1121, 1325, 1333, 1364, 1533) stehen für 58 der 152 Orte; das deutet auf einzelne Urkunden, nicht auf Gründungszeiten. 1364 nennt 14 Orte, alle im Landesteil Gera.",
+   "en": "Eliasbrunn has the oldest mention (1072). Five years (1121, 1325, 1333, 1364, 1533) account for 58 of the 152 places, pointing to single documents, not founding dates. 1364 names 14 places, all in Gera district."
   },
   {
    "de": "Brückner referiert 29 slawische Wurzeln für 43 Namen. 35 beschreiben Landschaftsmerkmale, 6 Pflanzen, je einer ein Tier (Kattenstein) und die Kirche (Köstritz). Gera leitet er von gora (Berg) ab.",
@@ -210,8 +210,8 @@
   }
  ],
  "method": {
-  "de": "Die Wüstungen sind alle Einträge des Typs Wüstung in Brückners Ortskunde (34). Jede ist beim Dorf eingezeichnet, bei dem der Artikel sie verortet (gedruckte Lageangabe); die Koordinaten sind die des Bezugsorts aus der Kartengrundlage (GeoNames). Das Jahr der ersten Erwähnung ist das früheste Jahr der urkundlichen Nennung im Ortsartikel; fehlt eine ausdrückliche Angabe, gilt die früheste datierte Namensform bis 1700. Die Tabelle der sorbischen Wurzeln (S. 121) wurde Zeile für Zeile übernommen, jeder Ortsname einzeln erfasst und die gedruckte Bedeutung acht Sachgruppen zugeordnet; gezählt werden verschiedene Ortsnamen. Die Siegelbilder der Dörfer (S. 124 f.) stehen als Tabelle bei, in acht Motivklassen geordnet; die sechs Stadtwappen sind nicht gezählt. Eine eigene Grafik gibt es dafür nicht.",
-  "en": "The deserted villages are all entries of the type Wüstung in Brückner’s topography (34). Each is drawn at the village near which the article locates it (printed location statement); the coordinates are those of the reference place from the base map (GeoNames). The year of first mention is the earliest year of documentary mention in the place article; where none is stated, the earliest dated name form up to 1700 applies. The table of Sorbian roots (p. 121) was taken over row by row, each place name recorded separately and the printed meaning assigned to eight subject groups; distinct place names are counted. The seal images of the villages (pp. 124 f.) are attached as a table, ordered in eight classes of motif; the six town arms are not counted. There is no chart of their own."
+  "de": "Die Wüstungen sind alle Einträge des Typs Wüstung in Brückners Ortskunde (34). Jede ist beim Dorf eingezeichnet, bei dem der Artikel sie verortet (gedruckte Lageangabe); die Koordinaten sind die des Bezugsorts aus der Kartengrundlage (GeoNames). Das Jahr der ersten Erwähnung ist das früheste Jahr der urkundlichen Nennung im Ortsartikel; fehlt eine ausdrückliche Angabe, gilt die früheste datierte Namensform bis 1700. Die Tabelle der sorbischen Wurzeln (S. 121) wurde Zeile für Zeile übernommen, jeder Ortsname einzeln erfasst und die gedruckte Bedeutung acht Sachgruppen zugeordnet; gezählt werden verschiedene Ortsnamen. Die Siegelbilder der Dörfer (S. 124 f.) stehen als Tabelle bei, in acht Motivklassen geordnet; die sechs Stadtwappen sind nicht gezählt. Sie sind nicht als Grafik dargestellt.",
+  "en": "The deserted villages are all entries of the type Wüstung in Brückner’s topography (34). Each is drawn at the village near which the article locates it (printed location statement); the coordinates are those of the reference place from the base map (GeoNames). The year of first mention is the earliest year of documentary mention in the place article; where none is stated, the earliest dated name form up to 1700 applies. The table of Sorbian roots (p. 121) was transcribed row by row, each place name recorded separately and the printed meaning assigned to eight subject groups; distinct place names are counted. The seal images of the villages (pp. 124 f.) are given as a table, ordered in eight classes of motif; the six town arms are not counted. They are not charted."
  },
  "caveats": [
   {
@@ -310,46 +310,6 @@
      "type": "string",
      "unit": null,
      "derived": true
-    },
-    {
-     "name": "label_align",
-     "label": {
-      "de": "Ausrichtung der Beschriftung",
-      "en": "Label alignment"
-     },
-     "type": "string",
-     "unit": null,
-     "derived": true
-    },
-    {
-     "name": "label_dx",
-     "label": {
-      "de": "Versatz x",
-      "en": "Offset x"
-     },
-     "type": "number",
-     "unit": "px",
-     "derived": true
-    },
-    {
-     "name": "label_dy",
-     "label": {
-      "de": "Versatz y",
-      "en": "Offset y"
-     },
-     "type": "number",
-     "unit": "px",
-     "derived": true
-    },
-    {
-     "name": "panel",
-     "label": {
-      "de": "Kartenausschnitt",
-      "en": "Map window"
-     },
-     "type": "string",
-     "unit": null,
-     "derived": true
     }
    ],
    "rows": [
@@ -360,11 +320,7 @@
      "Pottendorf",
      12.03891,
      50.87798,
-     "Pottendorf",
-     "right",
-     -9.5,
-     0.0,
-     "L"
+     "Pottendorf"
     ],
     [
      "Gera",
@@ -373,11 +329,7 @@
      "Vollersdorf",
      12.08187,
      50.88029,
-     "Vollersdorf",
-     "left",
-     9.5,
-     0.0,
-     "L"
+     "Vollersdorf"
     ],
     [
      "Rubitz",
@@ -386,11 +338,7 @@
      "Texdorf",
      12.03735,
      50.89995,
-     "Texdorf",
-     "left",
-     9.5,
-     0.0,
-     "L"
+     "Texdorf"
     ],
     [
      "Mühlsdorf",
@@ -399,11 +347,7 @@
      "Cosse",
      12.00989,
      50.9009,
-     "Cosse",
-     "right",
-     -7.1,
-     8.8,
-     "L"
+     "Cosse"
     ],
     [
      "Kraftsdorf",
@@ -412,11 +356,7 @@
      "Desse",
      11.92944,
      50.87574,
-     "Desse",
-     "left",
-     9.5,
-     0.0,
-     "L"
+     "Desse"
     ],
     [
      "Rüdersdorf",
@@ -425,11 +365,7 @@
      "Schliffstein",
      11.95811,
      50.89744,
-     "Schliffstein",
-     "center",
-     0,
-     -14.8,
-     "L"
+     "Schliffstein"
     ],
     [
      "Hartmannsdorf",
@@ -438,11 +374,7 @@
      "Oelsdorf",
      12.00568,
      50.90901,
-     "Oelsdorf",
-     "left",
-     9.5,
-     0.0,
-     "L"
+     "Oelsdorf"
     ],
     [
      "Köstritz",
@@ -451,11 +383,7 @@
      "Etzdorf; Eschewinsdorf",
      12.01005,
      50.93032,
-     "Etzdorf, Eschewinsdorf",
-     "center",
-     0,
-     16.2,
-     "L"
+     "Etzdorf, Eschewinsdorf"
     ],
     [
      "Steinbrücken",
@@ -464,11 +392,7 @@
      "Lichtenau; Rosenhof; Hermannsdorf",
      12.04211,
      50.94769,
-     "Lichtenau, Rosenhof,\nHermannsdorf",
-     "right",
-     -12.5,
-     -6.2,
-     "L"
+     "Lichtenau, Rosenhof,\nHermannsdorf"
     ],
     [
      "Kleinaga",
@@ -477,11 +401,7 @@
      "Rödel",
      12.09221,
      50.96003,
-     "Rödel",
-     "left",
-     9.5,
-     0.0,
-     "L"
+     "Rödel"
     ],
     [
      "Kretzschwitz",
@@ -490,11 +410,7 @@
      "Wolstieg",
      12.12944,
      50.94074,
-     "Wolstieg",
-     "right",
-     -9.5,
-     0.0,
-     "L"
+     "Wolstieg"
     ],
     [
      "Söllmnitz",
@@ -503,11 +419,7 @@
      "Betzdorf",
      12.14693,
      50.93795,
-     "Betzdorf",
-     "center",
-     0,
-     14.8,
-     "L"
+     "Betzdorf"
     ],
     [
      "Dorna",
@@ -516,11 +428,7 @@
      "Wüstenhain",
      12.12648,
      50.91726,
-     "Wüstenhain",
-     "left",
-     9.5,
-     0.0,
-     "L"
+     "Wüstenhain"
     ],
     [
      "Schwaara",
@@ -529,11 +437,7 @@
      "Werteln",
      12.14307,
      50.90347,
-     "Werteln",
-     "left",
-     9.5,
-     0.0,
-     "L"
+     "Werteln"
     ],
     [
      "Trebnitz",
@@ -542,11 +446,7 @@
      "Zoche; Speutewitz",
      12.12944,
      50.89556,
-     "Zoche, Speutewitz",
-     "right",
-     -8.2,
-     9.4,
-     "L"
+     "Zoche, Speutewitz"
     ],
     [
      "Schleiz",
@@ -555,11 +455,7 @@
      "Wüstendittersdorf",
      11.81024,
      50.57866,
-     "Wüstendittersdorf",
-     "left",
-     9.5,
-     0.0,
-     "R"
+     "Wüstendittersdorf"
     ],
     [
      "Oettersdorf",
@@ -568,11 +464,7 @@
      "Triemsdorf",
      11.81667,
      50.6,
-     "Triemsdorf",
-     "left",
-     9.5,
-     0.0,
-     "R"
+     "Triemsdorf"
     ],
     [
      "Pahren",
@@ -581,11 +473,7 @@
      "Igelsdorf",
      11.89638,
      50.6452,
-     "Igelsdorf",
-     "right",
-     -9.5,
-     0.0,
-     "R"
+     "Igelsdorf"
     ],
     [
      "Saalburg",
@@ -594,11 +482,7 @@
      "Rumalt; Wettera",
      11.73176,
      50.50241,
-     "Rumalt, Wettera",
-     "left",
-     11,
-     0.0,
-     "R"
+     "Rumalt, Wettera"
     ],
     [
      "Tanna",
@@ -607,11 +491,7 @@
      "Kämmera; Weidendorf; Dittersdorf; Traundorf",
      11.85725,
      50.4946,
-     "Kämmera, Weidendorf,\nDittersdorf, Traundorf",
-     "center",
-     0,
-     25.2,
-     "R"
+     "Kämmera, Weidendorf,\nDittersdorf, Traundorf"
     ],
     [
      "Schilbach",
@@ -620,11 +500,7 @@
      "Mangelsdorf",
      11.82519,
      50.48855,
-     "Mangelsdorf",
-     "right",
-     -9.5,
-     0.0,
-     "R"
+     "Mangelsdorf"
     ],
     [
      "Zollgrün",
@@ -633,11 +509,7 @@
      "Hermannsdorf",
      11.83017,
      50.51418,
-     "Hermannsdorf",
-     "left",
-     9.5,
-     0.0,
-     "R"
+     "Hermannsdorf"
     ],
     [
      "Mielesdorf",
@@ -646,11 +518,7 @@
      "Alte Klause",
      11.86443,
      50.52939,
-     "Alte Klause",
-     "right",
-     -9.5,
-     0.0,
-     "R"
+     "Alte Klause"
     ],
     [
      "Pöritzsch",
@@ -659,11 +527,7 @@
      "Hohendorf",
      11.71693,
      50.4962,
-     "Hohendorf",
-     "right",
-     -9.5,
-     0.0,
-     "R"
+     "Hohendorf"
     ],
     [
      "Heinersdorf",
@@ -672,11 +536,7 @@
      "Wüstenheinersdorf",
      11.57588,
      50.47274,
-     "Wüstenheinersdorf",
-     "left",
-     9.5,
-     0.0,
-     "R"
+     "Wüstenheinersdorf"
     ],
     [
      "Kießling",
@@ -685,11 +545,7 @@
      "Platte",
      11.67167,
      50.40791,
-     "Platte",
-     "left",
-     9.5,
-     0.0,
-     "R"
+     "Platte"
     ]
    ],
    "source_refs": [
@@ -855,15 +711,6 @@
    },
    "columns": [
     {
-     "name": "place_id",
-     "label": {
-      "de": "Kennung",
-      "en": "ID"
-     },
-     "type": "string",
-     "unit": null
-    },
-    {
      "name": "name",
      "label": {
       "de": "Ort",
@@ -990,7 +837,6 @@
    ],
    "rows": [
     [
-     "ernsee",
      "Ernsee",
      "Gera",
      "Dorf",
@@ -1006,7 +852,6 @@
      "b3"
     ],
     [
-     "untermhaus",
      "Untermhaus",
      "Gera",
      "Dorf",
@@ -1022,7 +867,6 @@
      "b2"
     ],
     [
-     "cuba",
      "Cuba",
      "Gera",
      "Dorf",
@@ -1038,7 +882,6 @@
      "b2"
     ],
     [
-     "roschitz",
      "Roschitz",
      "Gera",
      "Dorf",
@@ -1054,7 +897,6 @@
      "b3"
     ],
     [
-     "tinz",
      "Tinz",
      "Gera",
      "Dorf",
@@ -1070,7 +912,6 @@
      "b2"
     ],
     [
-     "bieblach",
      "Bieblach",
      "Gera",
      "Dorf",
@@ -1086,7 +927,6 @@
      "b2"
     ],
     [
-     "gera",
      "Gera",
      "Gera",
      "Stadt",
@@ -1102,7 +942,6 @@
      "b1"
     ],
     [
-     "debschwitz",
      "Debschwitz",
      "Gera",
      "Dorf",
@@ -1118,7 +957,6 @@
      "b2"
     ],
     [
-     "pforten",
      "Pforten",
      "Gera",
      "Dorf",
@@ -1134,7 +972,6 @@
      "b2"
     ],
     [
-     "zwoetzen",
      "Zwötzen",
      "Gera",
      "Dorf",
@@ -1150,7 +987,6 @@
      "b2"
     ],
     [
-     "lusan",
      "Lusan",
      "Gera",
      "Dorf",
@@ -1166,7 +1002,6 @@
      "b2"
     ],
     [
-     "oberroeppisch",
      "Oberröppisch",
      "Gera",
      "Dorf",
@@ -1182,7 +1017,6 @@
      "b2"
     ],
     [
-     "zeulsdorf",
      "Zeulsdorf",
      "Gera",
      "Dorf",
@@ -1198,7 +1032,6 @@
      "b2"
     ],
     [
-     "weissig",
      "Weißig",
      "Gera",
      "Dorf",
@@ -1214,7 +1047,6 @@
      "b2"
     ],
     [
-     "duerrenebersdorf",
      "Dürrenebersdorf",
      "Gera",
      "Dorf",
@@ -1230,7 +1062,6 @@
      "b2"
     ],
     [
-     "gorlitzsch",
      "Gorlitzsch",
      "Gera",
      "Dorf",
@@ -1246,7 +1077,6 @@
      "b2"
     ],
     [
-     "hundhaupten",
      "Hundhaupten",
      "Gera",
      "Dorf",
@@ -1262,7 +1092,6 @@
      "b2"
     ],
     [
-     "schoena",
      "Schöna",
      "Gera",
      "Dorf",
@@ -1278,7 +1107,6 @@
      "b2"
     ],
     [
-     "waltersdorf",
      "Waltersdorf",
      "Gera",
      "Dorf",
@@ -1294,7 +1122,6 @@
      "b2"
     ],
     [
-     "kleinsaara",
      "Kleinsaara",
      "Gera",
      "Dorf",
@@ -1310,7 +1137,6 @@
      "b2"
     ],
     [
-     "grosssaara",
      "Großsaara",
      "Gera",
      "Dorf",
@@ -1326,7 +1152,6 @@
      "b2"
     ],
     [
-     "geissen",
      "Geißen",
      "Gera",
      "Dorf",
@@ -1342,7 +1167,6 @@
      "b2"
     ],
     [
-     "langengrobsdorf",
      "Langengrobsdorf",
      "Gera",
      "Dorf",
@@ -1358,7 +1182,6 @@
      "b2"
     ],
     [
-     "windischenbernsdorf",
      "Windischenbernsdorf",
      "Gera",
      "Dorf",
@@ -1374,7 +1197,6 @@
      "b2"
     ],
     [
-     "scheubengrobsdorf",
      "Scheubengrobsdorf",
      "Gera",
      "Dorf",
@@ -1390,7 +1212,6 @@
      "b2"
     ],
     [
-     "frankenthal",
      "Frankenthal",
      "Gera",
      "Dorf",
@@ -1406,7 +1227,6 @@
      "b2"
     ],
     [
-     "thieschitz",
      "Thieschitz",
      "Gera",
      "Dorf",
@@ -1422,7 +1242,6 @@
      "b2"
     ],
     [
-     "milbitz",
      "Milbitz",
      "Gera",
      "Dorf",
@@ -1438,7 +1257,6 @@
      "b2"
     ],
     [
-     "rubitz",
      "Rubitz",
      "Gera",
      "Dorf",
@@ -1454,7 +1272,6 @@
      "b2"
     ],
     [
-     "toeppeln",
      "Töppeln",
      "Gera",
      "Dorf",
@@ -1470,7 +1287,6 @@
      "b3"
     ],
     [
-     "muehlsdorf",
      "Mühlsdorf",
      "Gera",
      "Dorf",
@@ -1486,7 +1302,6 @@
      "b1"
     ],
     [
-     "poersdorf",
      "Pörsdorf",
      "Gera",
      "Dorf",
@@ -1502,7 +1317,6 @@
      "b3"
     ],
     [
-     "niederndorf",
      "Niederndorf",
      "Gera",
      "Dorf",
@@ -1518,7 +1332,6 @@
      "b2"
     ],
     [
-     "kaltenborn",
      "Kaltenborn",
      "Gera",
      "Dorf",
@@ -1534,7 +1347,6 @@
      "b2"
     ],
     [
-     "harpersdorf",
      "Harpersdorf",
      "Gera",
      "Dorf",
@@ -1550,7 +1362,6 @@
      "b2"
     ],
     [
-     "kraftsdorf",
      "Kraftsdorf",
      "Gera",
      "Dorf",
@@ -1566,7 +1377,6 @@
      "b2"
     ],
     [
-     "ruedersdorf",
      "Rüdersdorf",
      "Gera",
      "Dorf",
@@ -1582,7 +1392,6 @@
      "b2"
     ],
     [
-     "stuebnitz",
      "Stübnitz",
      "Gera",
      "Dorf",
@@ -1598,7 +1407,6 @@
      "b3"
     ],
     [
-     "gruena",
      "Grüna",
      "Gera",
      "Dorf",
@@ -1614,7 +1422,6 @@
      "b2"
     ],
     [
-     "hartmannsdorf",
      "Hartmannsdorf",
      "Gera",
      "Dorf",
@@ -1630,7 +1437,6 @@
      "b2"
     ],
     [
-     "koestritz",
      "Köstritz",
      "Gera",
      "Dorf",
@@ -1646,7 +1452,6 @@
      "b2"
     ],
     [
-     "gleina",
      "Gleina",
      "Gera",
      "Dorf",
@@ -1662,7 +1467,6 @@
      "b4"
     ],
     [
-     "seifartsdorf",
      "Seifartsdorf",
      "Gera",
      "Dorf",
@@ -1678,7 +1482,6 @@
      "b2"
     ],
     [
-     "caaschwitz",
      "Caaschwitz",
      "Gera",
      "Dorf",
@@ -1694,7 +1497,6 @@
      "b2"
     ],
     [
-     "pohlitz",
      "Pohlitz",
      "Gera",
      "Dorf",
@@ -1710,7 +1512,6 @@
      "b2"
     ],
     [
-     "stublach",
      "Stublach",
      "Gera",
      "Dorf",
@@ -1726,7 +1527,6 @@
      "b5"
     ],
     [
-     "langenberg",
      "Langenberg",
      "Gera",
      "Marktflecken",
@@ -1742,7 +1542,6 @@
      "b2"
     ],
     [
-     "roben",
      "Roben",
      "Gera",
      "Dorf",
@@ -1758,7 +1557,6 @@
      "b2"
     ],
     [
-     "steinbruecken",
      "Steinbrücken",
      "Gera",
      "Dorf",
@@ -1774,7 +1572,6 @@
      "b2"
     ],
     [
-     "rusitz",
      "Rusitz",
      "Gera",
      "Dorf",
@@ -1790,7 +1587,6 @@
      "b3"
     ],
     [
-     "lessen",
      "Lessen",
      "Gera",
      "Dorf",
@@ -1806,7 +1602,6 @@
      "b2"
     ],
     [
-     "grossaga",
      "Großaga",
      "Gera",
      "Dorf",
@@ -1822,7 +1617,6 @@
      "b2"
     ],
     [
-     "kleinaga",
      "Kleinaga",
      "Gera",
      "Dorf",
@@ -1838,7 +1632,6 @@
      "b2"
     ],
     [
-     "reichenbach",
      "Reichenbach",
      "Gera",
      "Dorf",
@@ -1854,7 +1647,6 @@
      "b3"
     ],
     [
-     "seeligenstaedt",
      "Seeligenstädt",
      "Gera",
      "Dorf",
@@ -1870,7 +1662,6 @@
      "b2"
     ],
     [
-     "hermsdorf",
      "Hermsdorf",
      "Gera",
      "Dorf",
@@ -1886,7 +1677,6 @@
      "b2"
     ],
     [
-     "wernsdorf-gera",
      "Wernsdorf",
      "Gera",
      "Dorf",
@@ -1902,7 +1692,6 @@
      "b2"
     ],
     [
-     "kretzschwitz",
      "Kretzschwitz",
      "Gera",
      "Dorf",
@@ -1918,7 +1707,6 @@
      "b1"
     ],
     [
-     "soellmnitz",
      "Söllmnitz",
      "Gera",
      "Dorf",
@@ -1934,7 +1722,6 @@
      "b3"
     ],
     [
-     "hirschfeld",
      "Hirschfeld",
      "Gera",
      "Dorf",
@@ -1950,7 +1737,6 @@
      "b4"
     ],
     [
-     "bethenhausen",
      "Bethenhausen",
      "Gera",
      "Dorf",
@@ -1966,7 +1752,6 @@
      "b2"
     ],
     [
-     "naundorf",
      "Naundorf",
      "Gera",
      "Dorf",
@@ -1982,7 +1767,6 @@
      "b2"
     ],
     [
-     "caasen",
      "Caasen",
      "Gera",
      "Dorf",
@@ -1998,7 +1782,6 @@
      "b2"
     ],
     [
-     "groitschen",
      "Groitschen",
      "Gera",
      "Dorf",
@@ -2014,7 +1797,6 @@
      "b2"
     ],
     [
-     "waaswitz",
      "Waaswitz",
      "Gera",
      "Dorf",
@@ -2030,7 +1812,6 @@
      "b2"
     ],
     [
-     "culm",
      "Culm",
      "Gera",
      "Dorf",
@@ -2046,7 +1827,6 @@
      "b2"
     ],
     [
-     "zschippach",
      "Zschippach",
      "Gera",
      "Dorf",
@@ -2062,7 +1842,6 @@
      "b2"
     ],
     [
-     "dorna",
      "Dorna",
      "Gera",
      "Dorf",
@@ -2078,7 +1857,6 @@
      "b2"
     ],
     [
-     "negis",
      "Negis",
      "Gera",
      "Dorf",
@@ -2094,7 +1872,6 @@
      "b2"
     ],
     [
-     "schwaara",
      "Schwaara",
      "Gera",
      "Dorf",
@@ -2110,7 +1887,6 @@
      "b2"
     ],
     [
-     "trebnitz",
      "Trebnitz",
      "Gera",
      "Dorf",
@@ -2126,7 +1902,6 @@
      "b3"
     ],
     [
-     "laasen",
      "Laasen",
      "Gera",
      "Dorf",
@@ -2142,7 +1917,6 @@
      "b2"
     ],
     [
-     "leumnitz",
      "Leumnitz",
      "Gera",
      "Dorf",
@@ -2158,7 +1932,6 @@
      "b2"
     ],
     [
-     "zschippern",
      "Zschippern",
      "Gera",
      "Dorf",
@@ -2174,7 +1947,6 @@
      "b2"
     ],
     [
-     "collis",
      "Collis",
      "Gera",
      "Dorf",
@@ -2190,7 +1962,6 @@
      "b2"
     ],
     [
-     "kaimberg",
      "Kaimberg",
      "Gera",
      "Dorf",
@@ -2206,7 +1977,6 @@
      "b2"
     ],
     [
-     "lichtenberg",
      "Lichtenberg",
      "Gera",
      "Dorf",
@@ -2222,7 +1992,6 @@
      "b2"
     ],
     [
-     "pohlen",
      "Pohlen",
      "Gera",
      "Dorf",
@@ -2238,7 +2007,6 @@
      "b2"
     ],
     [
-     "kleinfalke",
      "Kleinfalke",
      "Gera",
      "Dorf",
@@ -2254,7 +2022,6 @@
      "b2"
     ],
     [
-     "wuestfalke",
      "Wüstfalke",
      "Gera",
      "Dorf",
@@ -2270,7 +2037,6 @@
      "b2"
     ],
     [
-     "otticha",
      "Otticha",
      "Gera",
      "Dorf",
@@ -2286,7 +2052,6 @@
      "b2"
     ],
     [
-     "schleiz",
      "Schleiz",
      "Schleiz",
      "Stadt",
@@ -2302,7 +2067,6 @@
      "b1"
     ],
     [
-     "oberboehmsdorf",
      "Oberböhmsdorf",
      "Schleiz",
      "Dorf",
@@ -2318,7 +2082,6 @@
      "b2"
     ],
     [
-     "oschitz",
      "Oschitz",
      "Schleiz",
      "Dorf",
@@ -2334,7 +2097,6 @@
      "b3"
     ],
     [
-     "goerkwitz",
      "Görkwitz",
      "Schleiz",
      "Dorf",
@@ -2350,7 +2112,6 @@
      "b6"
     ],
     [
-     "oettersdorf",
      "Oettersdorf",
      "Schleiz",
      "Dorf",
@@ -2366,7 +2127,6 @@
      "b2"
     ],
     [
-     "poermitz",
      "Pörmitz",
      "Schleiz",
      "Dorf",
@@ -2382,7 +2142,6 @@
      "b2"
     ],
     [
-     "loehma",
      "Löhma",
      "Schleiz",
      "Dorf",
@@ -2398,7 +2157,6 @@
      "b3"
     ],
     [
-     "goeschitz",
      "Göschitz",
      "Schleiz",
      "Dorf",
@@ -2414,7 +2172,6 @@
      "b2"
     ],
     [
-     "roedersdorf",
      "Rödersdorf",
      "Schleiz",
      "Dorf",
@@ -2430,7 +2187,6 @@
      "b2"
     ],
     [
-     "dittersdorf",
      "Dittersdorf",
      "Schleiz",
      "Dorf",
@@ -2446,7 +2202,6 @@
      "b2"
     ],
     [
-     "dragensdorf",
      "Dragensdorf",
      "Schleiz",
      "Dorf",
@@ -2462,7 +2217,6 @@
      "b2"
     ],
     [
-     "tegau",
      "Tegau",
      "Schleiz",
      "Dorf",
@@ -2478,7 +2232,6 @@
      "b2"
     ],
     [
-     "burkersdorf",
      "Burkersdorf",
      "Schleiz",
      "Dorf",
@@ -2494,7 +2247,6 @@
      "b2"
     ],
     [
-     "pahren",
      "Pahren",
      "Schleiz",
      "Dorf",
@@ -2510,7 +2262,6 @@
      "b2"
     ],
     [
-     "kirschkau",
      "Kirschkau",
      "Schleiz",
      "Dorf",
@@ -2526,7 +2277,6 @@
      "b4"
     ],
     [
-     "loessau",
      "Lössau",
      "Schleiz",
      "Dorf",
@@ -2542,7 +2292,6 @@
      "b2"
     ],
     [
-     "leitlitz",
      "Leitlitz",
      "Schleiz",
      "Dorf",
@@ -2558,7 +2307,6 @@
      "b2"
     ],
     [
-     "weckersdorf",
      "Weckersdorf",
      "Schleiz",
      "Dorf",
@@ -2574,7 +2322,6 @@
      "b2"
     ],
     [
-     "hohenleuben",
      "Hohenleuben",
      "Schleiz",
      "Marktflecken",
@@ -2590,7 +2337,6 @@
      "b2"
     ],
     [
-     "langenwetzendorf",
      "Langenwetzendorf",
      "Schleiz",
      "Dorf",
@@ -2606,7 +2352,6 @@
      "b3"
     ],
     [
-     "hirschbach",
      "Hirschbach",
      "Schleiz",
      "Dorf",
@@ -2622,7 +2367,6 @@
      "b2"
     ],
     [
-     "goettendorf",
      "Göttendorf",
      "Schleiz",
      "Dorf",
@@ -2638,7 +2382,6 @@
      "b2"
     ],
     [
-     "neuaergerniss",
      "Neuärgerniß",
      "Schleiz",
      "Dorf",
@@ -2654,7 +2397,6 @@
      "b2"
     ],
     [
-     "poellwitz",
      "Pöllwitz",
      "Schleiz",
      "Dorf",
@@ -2670,7 +2412,6 @@
      "b2"
     ],
     [
-     "niederboehmsdorf",
      "Niederböhmsdorf",
      "Schleiz",
      "Dorf",
@@ -2686,7 +2427,6 @@
      "b2"
     ],
     [
-     "triebes",
      "Triebes",
      "Schleiz",
      "Dorf",
@@ -2702,7 +2442,6 @@
      "b2"
     ],
     [
-     "weissendorf",
      "Weißendorf",
      "Schleiz",
      "Dorf",
@@ -2718,7 +2457,6 @@
      "b5"
     ],
     [
-     "langenwolschendorf",
      "Langenwolschendorf",
      "Schleiz",
      "Dorf",
@@ -2734,7 +2472,6 @@
      "b2"
     ],
     [
-     "kleinwolschendorf",
      "Kleinwolschendorf",
      "Schleiz",
      "Dorf",
@@ -2750,7 +2487,6 @@
      "b2"
     ],
     [
-     "saalburg",
      "Saalburg",
      "Schleiz",
      "Stadt",
@@ -2766,7 +2502,6 @@
      "b4"
     ],
     [
-     "graefenwarth",
      "Gräfenwarth",
      "Schleiz",
      "Dorf",
@@ -2782,7 +2517,6 @@
      "b4"
     ],
     [
-     "kulm",
      "Kulm",
      "Schleiz",
      "Dorf",
@@ -2798,7 +2532,6 @@
      "b3"
     ],
     [
-     "wernsdorf-schleiz",
      "Wernsdorf",
      "Schleiz",
      "Dorf",
@@ -2814,7 +2547,6 @@
      "b3"
     ],
     [
-     "raila",
      "Raila",
      "Schleiz",
      "Dorf",
@@ -2830,7 +2562,6 @@
      "b2"
     ],
     [
-     "kuensdorf",
      "Künsdorf",
      "Schleiz",
      "Dorf",
@@ -2846,7 +2577,6 @@
      "b2"
     ],
     [
-     "seubtendorf",
      "Seubtendorf",
      "Schleiz",
      "Dorf",
@@ -2862,7 +2592,6 @@
      "b2"
     ],
     [
-     "tanna",
      "Tanna",
      "Schleiz",
      "Stadt",
@@ -2878,7 +2607,6 @@
      "b1"
     ],
     [
-     "frankendorf",
      "Frankendorf",
      "Schleiz",
      "Dorf",
@@ -2894,7 +2622,6 @@
      "b2"
     ],
     [
-     "schilbach",
      "Schilbach",
      "Schleiz",
      "Dorf",
@@ -2910,7 +2637,6 @@
      "b2"
     ],
     [
-     "zollgruen",
      "Zollgrün",
      "Schleiz",
      "Dorf",
@@ -2926,7 +2652,6 @@
      "b2"
     ],
     [
-     "mielesdorf",
      "Mielesdorf",
      "Schleiz",
      "Dorf",
@@ -2942,7 +2667,6 @@
      "b3"
     ],
     [
-     "unterkoskau",
      "Unterkoskau",
      "Schleiz",
      "Dorf",
@@ -2958,7 +2682,6 @@
      "b2"
     ],
     [
-     "oberkoskau",
      "Oberkoskau",
      "Schleiz",
      "Dorf",
@@ -2974,7 +2697,6 @@
      "b2"
     ],
     [
-     "willersdorf",
      "Willersdorf",
      "Schleiz",
      "Dorf",
@@ -2990,7 +2712,6 @@
      "b2"
     ],
     [
-     "stelzen",
      "Stelzen",
      "Schleiz",
      "Dorf",
@@ -3006,7 +2727,6 @@
      "b4"
     ],
     [
-     "spielmes",
      "Spielmes",
      "Schleiz",
      "Dorf",
@@ -3022,7 +2742,6 @@
      "b2"
     ],
     [
-     "lobenstein",
      "Lobenstein",
      "Lobenstein-Ebersdorf",
      "Stadt",
@@ -3038,7 +2757,6 @@
      "b3"
     ],
     [
-     "saaldorf",
      "Saaldorf",
      "Lobenstein-Ebersdorf",
      "Dorf",
@@ -3054,7 +2772,6 @@
      "b3"
     ],
     [
-     "poeritzsch",
      "Pöritzsch",
      "Lobenstein-Ebersdorf",
      "Dorf",
@@ -3070,7 +2787,6 @@
      "b1"
     ],
     [
-     "ebersdorf",
      "Ebersdorf",
      "Lobenstein-Ebersdorf",
      "Marktflecken",
@@ -3086,7 +2802,6 @@
      "b3"
     ],
     [
-     "schoenbrunn",
      "Schönbrunn",
      "Lobenstein-Ebersdorf",
      "Dorf",
@@ -3102,7 +2817,6 @@
      "b2"
     ],
     [
-     "unterlemnitz",
      "Unterlemnitz",
      "Lobenstein-Ebersdorf",
      "Dorf",
@@ -3118,7 +2832,6 @@
      "b2"
     ],
     [
-     "helmsgruen",
      "Helmsgrün",
      "Lobenstein-Ebersdorf",
      "Dorf",
@@ -3134,7 +2847,6 @@
      "b2"
     ],
     [
-     "heinersdorf",
      "Heinersdorf",
      "Lobenstein-Ebersdorf",
      "Dorf",
@@ -3150,7 +2862,6 @@
      "b2"
     ],
     [
-     "oberlemnitz",
      "Oberlemnitz",
      "Lobenstein-Ebersdorf",
      "Dorf",
@@ -3166,7 +2877,6 @@
      "b6"
     ],
     [
-     "eliasbrunn",
      "Eliasbrunn",
      "Lobenstein-Ebersdorf",
      "Dorf",
@@ -3182,7 +2892,6 @@
      "b1"
     ],
     [
-     "ruppersdorf",
      "Ruppersdorf",
      "Lobenstein-Ebersdorf",
      "Dorf",
@@ -3198,7 +2907,6 @@
      "b2"
     ],
     [
-     "thierbach",
      "Thierbach",
      "Lobenstein-Ebersdorf",
      "Dorf",
@@ -3214,7 +2922,6 @@
      "b2"
     ],
     [
-     "lueckenmuehle",
      "Lückenmühle",
      "Lobenstein-Ebersdorf",
      "Dorf",
@@ -3230,7 +2937,6 @@
      "b2"
     ],
     [
-     "karolinenfield",
      "Karolinenfield",
      "Lobenstein-Ebersdorf",
      "Dorf",
@@ -3246,7 +2952,6 @@
      "b2"
     ],
     [
-     "thimmendorf",
      "Thimmendorf",
      "Lobenstein-Ebersdorf",
      "Dorf",
@@ -3262,7 +2967,6 @@
      "b4"
     ],
     [
-     "lothra",
      "Lothra",
      "Lobenstein-Ebersdorf",
      "Dorf",
@@ -3278,7 +2982,6 @@
      "b1"
     ],
     [
-     "altengesees",
      "Altengesees",
      "Lobenstein-Ebersdorf",
      "Dorf",
@@ -3294,7 +2997,6 @@
      "b2"
     ],
     [
-     "gahma",
      "Gahma",
      "Lobenstein-Ebersdorf",
      "Dorf",
@@ -3310,7 +3012,6 @@
      "b2"
     ],
     [
-     "weitisberga",
      "Weitisberga",
      "Lobenstein-Ebersdorf",
      "Dorf",
@@ -3326,7 +3027,6 @@
      "b2"
     ],
     [
-     "wurzbach",
      "Wurzbach",
      "Lobenstein-Ebersdorf",
      "Marktflecken",
@@ -3342,7 +3042,6 @@
      "b3"
     ],
     [
-     "ossla",
      "Oßla",
      "Lobenstein-Ebersdorf",
      "Dorf",
@@ -3358,7 +3057,6 @@
      "b7"
     ],
     [
-     "roettersdorf",
      "Röttersdorf",
      "Lobenstein-Ebersdorf",
      "Dorf",
@@ -3374,7 +3072,6 @@
      "b3"
     ],
     [
-     "grumbach",
      "Grumbach",
      "Lobenstein-Ebersdorf",
      "Dorf",
@@ -3390,7 +3087,6 @@
      "b4"
     ],
     [
-     "titschendorf",
      "Titschendorf",
      "Lobenstein-Ebersdorf",
      "Dorf",
@@ -3406,7 +3102,6 @@
      "b3"
     ],
     [
-     "neundorf-lobenstein",
      "Neundorf",
      "Lobenstein-Ebersdorf",
      "Dorf",
@@ -3422,7 +3117,6 @@
      "b2"
     ],
     [
-     "lichtenbrunn",
      "Lichtenbrunn",
      "Lobenstein-Ebersdorf",
      "Dorf",
@@ -3438,7 +3132,6 @@
      "b4"
     ],
     [
-     "schlegel",
      "Schlegel",
      "Lobenstein-Ebersdorf",
      "Dorf",
@@ -3454,7 +3147,6 @@
      "b2"
     ],
     [
-     "seibis",
      "Seibis",
      "Lobenstein-Ebersdorf",
      "Dorf",
@@ -3470,7 +3162,6 @@
      "b1"
     ],
     [
-     "blankenstein",
      "Blankenstein",
      "Lobenstein-Ebersdorf",
      "Dorf",
@@ -3486,7 +3177,6 @@
      "b2"
     ],
     [
-     "kiessling",
      "Kießling",
      "Lobenstein-Ebersdorf",
      "Dorf",
@@ -3502,7 +3192,6 @@
      "b3"
     ],
     [
-     "harra",
      "Harra",
      "Lobenstein-Ebersdorf",
      "Dorf",
@@ -3518,7 +3207,6 @@
      "b8"
     ],
     [
-     "langgruen",
      "Langgrün",
      "Lobenstein-Ebersdorf",
      "Dorf",
@@ -3534,7 +3222,6 @@
      "b6"
     ],
     [
-     "blintendorf",
      "Blintendorf",
      "Lobenstein-Ebersdorf",
      "Dorf",
@@ -3550,7 +3237,6 @@
      "b3"
     ],
     [
-     "goettengruen",
      "Göttengrün",
      "Lobenstein-Ebersdorf",
      "Dorf",
@@ -3566,7 +3252,6 @@
      "b2"
     ],
     [
-     "froessen",
      "Frössen",
      "Lobenstein-Ebersdorf",
      "Dorf",
@@ -3582,7 +3267,6 @@
      "b2"
     ],
     [
-     "lerchenhuegel",
      "Lerchenhügel",
      "Lobenstein-Ebersdorf",
      "Dorf",
@@ -3598,7 +3282,6 @@
      "b3"
     ],
     [
-     "pirk",
      "Pirk",
      "Lobenstein-Ebersdorf",
      "Dorf",
@@ -3614,7 +3297,6 @@
      "b2"
     ],
     [
-     "pottiga",
      "Pottiga",
      "Lobenstein-Ebersdorf",
      "Dorf",
@@ -3630,7 +3312,6 @@
      "b3"
     ],
     [
-     "goeritz",
      "Göritz",
      "Lobenstein-Ebersdorf",
      "Dorf",
@@ -3646,7 +3327,6 @@
      "b2"
     ],
     [
-     "ullersreuth",
      "Ullersreuth",
      "Lobenstein-Ebersdorf",
      "Dorf",
@@ -3662,7 +3342,6 @@
      "b2"
     ],
     [
-     "hirschberg",
      "Hirschberg",
      "Lobenstein-Ebersdorf",
      "Stadt",
@@ -3678,7 +3357,6 @@
      "b1"
     ],
     [
-     "venzka",
      "Venzka",
      "Lobenstein-Ebersdorf",
      "Dorf",
@@ -3694,7 +3372,6 @@
      "b3"
     ],
     [
-     "moedlareuth",
      "Mödlareuth",
      "Lobenstein-Ebersdorf",
      "Dorf",
@@ -3710,7 +3387,6 @@
      "b5"
     ],
     [
-     "gebersreuth",
      "Gebersreuth",
      "Lobenstein-Ebersdorf",
      "Dorf",
@@ -3726,7 +3402,6 @@
      "b2"
     ],
     [
-     "dobareuth",
      "Dobareuth",
      "Lobenstein-Ebersdorf",
      "Dorf",
@@ -3742,7 +3417,6 @@
      "b4"
     ],
     [
-     "rothenacker",
      "Rothenacker",
      "Lobenstein-Ebersdorf",
      "Dorf",
@@ -6877,16 +6551,6 @@
    },
    "columns": [
     {
-     "name": "key",
-     "label": {
-      "de": "Schlüssel",
-      "en": "Key"
-     },
-     "type": "string",
-     "unit": null,
-     "derived": true
-    },
-    {
      "name": "group_de",
      "label": {
       "de": "Sachgruppe (de)",
@@ -6969,7 +6633,6 @@
    ],
    "rows": [
     [
-     "form",
      "Bodenform: Berg, Sattel, Tiefe",
      "Landform: mountain, saddle, depression",
      10,
@@ -6980,7 +6643,6 @@
      "Gera, Gorlitzsch, Görkwitz"
     ],
     [
-     "flach",
      "Flach, glatt, eben",
      "Flat, smooth, level",
      6,
@@ -6991,7 +6653,6 @@
      "Pöllwitz, Plauen, Beulwitz"
     ],
     [
-     "wald",
      "Wald und Rodung",
      "Forest and clearing",
      9,
@@ -7002,7 +6663,6 @@
      "Laasen, Lossen, Lössau"
     ],
     [
-     "wasser",
      "Wasser: Quelle, Fluss, Wildwasser",
      "Water: spring, river, torrent",
      4,
@@ -7013,7 +6673,6 @@
      "Lemnitz, Leumnitz, Zoppothen"
     ],
     [
-     "boden",
      "Boden: feucht, sumpfig, lehmig, steinig",
      "Soil: damp, marshy, loamy, stony",
      6,
@@ -7024,7 +6683,6 @@
      "Triebes, Muschlitz, Möschlitz"
     ],
     [
-     "pflanze",
      "Pflanzen",
      "Plants",
      6,
@@ -7035,7 +6693,6 @@
      "Grobsdorf, Töppeln, Hohenleuben"
     ],
     [
-     "tier",
      "Tiere",
      "Animals",
      1,
@@ -7046,7 +6703,6 @@
      "Kattenstein"
     ],
     [
-     "kirche",
      "Kirche",
      "Church",
      1,
@@ -7072,15 +6728,6 @@
     "en": "The deserted places of the place articles"
    },
    "columns": [
-    {
-     "name": "place_id",
-     "label": {
-      "de": "Kennung",
-      "en": "ID"
-     },
-     "type": "string",
-     "unit": null
-    },
     {
      "name": "name",
      "label": {
@@ -7190,7 +6837,6 @@
    ],
    "rows": [
     [
-     "pottendorf",
      "Pottendorf",
      "Gera",
      "Die Wüstung Pottendorf",
@@ -7204,7 +6850,6 @@
      "b2"
     ],
     [
-     "vollersdorf",
      "Vollersdorf",
      "Gera",
      "ein ausgegangenes Dörfchen mit einem zu Pöppeln geschlagenen Vorwerke",
@@ -7218,7 +6863,6 @@
      "b3"
     ],
     [
-     "texdorf",
      "Texdorf",
      "Gera",
      "Die Wüstung Texdorf",
@@ -7232,7 +6876,6 @@
      "b2"
     ],
     [
-     "cosse",
      "Cosse",
      "Gera",
      "Die Wüstung Cosse",
@@ -7246,7 +6889,6 @@
      "b2"
     ],
     [
-     "desse",
      "Desse",
      "Gera",
      "Wüstung",
@@ -7260,7 +6902,6 @@
      "b1"
     ],
     [
-     "schliffstein",
      "Schliffstein",
      "Gera",
      "Wüstung",
@@ -7274,7 +6915,6 @@
      "b2"
     ],
     [
-     "oelsdorf",
      "Oelsdorf",
      "Gera",
      "Wüstung",
@@ -7288,7 +6928,6 @@
      "b2"
     ],
     [
-     "etzdorf",
      "Etzdorf",
      "Gera",
      "Wüstung",
@@ -7302,7 +6941,6 @@
      "b2"
     ],
     [
-     "eschewinsdorf",
      "Eschewinsdorf",
      "Gera",
      "Wüstung",
@@ -7316,7 +6954,6 @@
      "b2"
     ],
     [
-     "lichtenau",
      "Lichtenau",
      "Gera",
      "Wüstung",
@@ -7330,7 +6967,6 @@
      "b2"
     ],
     [
-     "rosenhof",
      "Rosenhof",
      "Gera",
      "Rosenhofsmarkung (Wüstung)",
@@ -7344,7 +6980,6 @@
      "b2"
     ],
     [
-     "hermannsdorf-gera",
      "Hermannsdorf",
      "Gera",
      "Wüstung (der kleine Ort, der 1364 Hermannsdorf hieß)",
@@ -7358,7 +6993,6 @@
      "b2"
     ],
     [
-     "roedel",
      "Rödel",
      "Gera",
      "Wüstung",
@@ -7372,7 +7006,6 @@
      "b2"
     ],
     [
-     "wolstieg",
      "Wolstieg",
      "Gera",
      "Wüstung",
@@ -7386,7 +7019,6 @@
      "b2"
     ],
     [
-     "betzdorf",
      "Betzdorf",
      "Gera",
      "Wüstung",
@@ -7400,7 +7032,6 @@
      "b3"
     ],
     [
-     "wuestenhain",
      "Wüstenhain",
      "Gera",
      "wüster Hain (Wüstenhain), Walddistrict",
@@ -7414,7 +7045,6 @@
      "b1"
     ],
     [
-     "werteln",
      "Werteln",
      "Gera",
      "wüste Markung",
@@ -7428,7 +7058,6 @@
      "b2"
     ],
     [
-     "zoche",
      "Zoche",
      "Gera",
      "wüster Ort",
@@ -7442,7 +7071,6 @@
      "b2"
     ],
     [
-     "speutewitz",
      "Speutewitz",
      "Gera",
      "ehemaliges Dorf mit einem Rittersitze",
@@ -7456,7 +7084,6 @@
      "b3"
     ],
     [
-     "wuestendittersdorf-schleiz",
      "Wüstendittersdorf",
      "Schleiz",
      "besteht aus 2 Bauernhöfen mit 2 großen Landgütern, 1 Mühle …, 1 Försterei, 1 Scharfrichterei und 1 Ziegelei",
@@ -7470,7 +7097,6 @@
      "b3"
     ],
     [
-     "triemsdorf",
      "Triemsdorf",
      "Schleiz",
      "einen Strich Land … Der Ort selbst, der einst hier stand und eine sorbische Pflanzung war",
@@ -7484,7 +7110,6 @@
      "b2"
     ],
     [
-     "igelsdorf",
      "Igelsdorf",
      "Schleiz",
      "ein ehemaliger Ort, jetzt wüste",
@@ -7498,7 +7123,6 @@
      "b3"
     ],
     [
-     "rumalt",
      "Rumalt",
      "Schleiz",
      "Wüstung",
@@ -7512,7 +7136,6 @@
      "b2"
     ],
     [
-     "wettera",
      "Wettera",
      "Schleiz",
      "ein jetzt wüster Ort, vordem ein Dörfchen",
@@ -7526,7 +7149,6 @@
      "b3"
     ],
     [
-     "kaemmera",
      "Kämmera",
      "Schleiz",
      "Wüstung",
@@ -7540,7 +7162,6 @@
      "b2"
     ],
     [
-     "weidendorf",
      "Weidendorf",
      "Schleiz",
      "Wüstung",
@@ -7554,7 +7175,6 @@
      "b3"
     ],
     [
-     "dittersdorf-tanna",
      "Dittersdorf",
      "Schleiz",
      "Wüstung",
@@ -7568,7 +7188,6 @@
      "b4"
     ],
     [
-     "mangelsdorf",
      "Mangelsdorf",
      "Schleiz",
      "Wüstung",
@@ -7582,7 +7201,6 @@
      "b3"
     ],
     [
-     "hermannsdorf-schleiz",
      "Hermannsdorf",
      "Schleiz",
      "Wüstung",
@@ -7596,7 +7214,6 @@
      "b2"
     ],
     [
-     "alte-klause",
      "Alte Klause",
      "Schleiz",
      "anmuthige Stelle im schleizer Walde (ursprünglich Kapelle, dann Klause, dann Einsiedlerhütte)",
@@ -7610,7 +7227,6 @@
      "b3"
     ],
     [
-     "traundorf",
      "Traundorf",
      "Schleiz",
      "ein alter wüster Ort, jetzt Wald und Hutung umfassend",
@@ -7624,7 +7240,6 @@
      "b3"
     ],
     [
-     "hohendorf",
      "Hohendorf",
      "Lobenstein-Ebersdorf",
      "Wüstung",
@@ -7638,7 +7253,6 @@
      "b2"
     ],
     [
-     "wuestenheinersdorf",
      "Wüstenheinersdorf",
      "Lobenstein-Ebersdorf",
      "Wüstung",
@@ -7652,7 +7266,6 @@
      "b5"
     ],
     [
-     "platte",
      "Platte",
      "Lobenstein-Ebersdorf",
      "Kupferplatte, ein ehemaliger Kupferhammer",
@@ -7829,16 +7442,6 @@
    },
    "columns": [
     {
-     "name": "class_key",
-     "label": {
-      "de": "Motivklasse (Schlüssel)",
-      "en": "Motif class (key)"
-     },
-     "type": "string",
-     "unit": null,
-     "derived": true
-    },
-    {
      "name": "class_de",
      "label": {
       "de": "Motivklasse (de)",
@@ -7924,7 +7527,6 @@
    ],
    "rows": [
     [
-     "baum",
      "Ein Baum",
      "One tree",
      "nach Brückner alt",
@@ -7936,7 +7538,6 @@
      "b3"
     ],
     [
-     "baum",
      "Ein Baum",
      "One tree",
      "nach Brückner alt",
@@ -7948,7 +7549,6 @@
      "b3"
     ],
     [
-     "baum",
      "Ein Baum",
      "One tree",
      "nach Brückner alt",
@@ -7960,7 +7560,6 @@
      "b3"
     ],
     [
-     "baum",
      "Ein Baum",
      "One tree",
      "nach Brückner alt",
@@ -7972,7 +7571,6 @@
      "b3"
     ],
     [
-     "baum",
      "Ein Baum",
      "One tree",
      "nach Brückner alt",
@@ -7984,7 +7582,6 @@
      "b3"
     ],
     [
-     "baum",
      "Ein Baum",
      "One tree",
      "nach Brückner alt",
@@ -7996,7 +7593,6 @@
      "b3"
     ],
     [
-     "baum",
      "Ein Baum",
      "One tree",
      "nach Brückner alt",
@@ -8008,7 +7604,6 @@
      "b3"
     ],
     [
-     "baum",
      "Ein Baum",
      "One tree",
      "nach Brückner alt",
@@ -8020,7 +7615,6 @@
      "b3"
     ],
     [
-     "baum",
      "Ein Baum",
      "One tree",
      "nach Brückner alt",
@@ -8032,7 +7626,6 @@
      "b3"
     ],
     [
-     "baum",
      "Ein Baum",
      "One tree",
      "nach Brückner alt",
@@ -8044,7 +7637,6 @@
      "b3"
     ],
     [
-     "baum",
      "Ein Baum",
      "One tree",
      "nach Brückner alt",
@@ -8056,7 +7648,6 @@
      "b3"
     ],
     [
-     "baum",
      "Ein Baum",
      "One tree",
      "nach Brückner alt",
@@ -8068,7 +7659,6 @@
      "b3"
     ],
     [
-     "baum",
      "Ein Baum",
      "One tree",
      "nach Brückner alt",
@@ -8080,7 +7670,6 @@
      "b3"
     ],
     [
-     "baum",
      "Ein Baum",
      "One tree",
      "nach Brückner alt",
@@ -8092,7 +7681,6 @@
      "b3"
     ],
     [
-     "baum",
      "Ein Baum",
      "One tree",
      "nach Brückner alt",
@@ -8104,7 +7692,6 @@
      "b3"
     ],
     [
-     "baum",
      "Ein Baum",
      "One tree",
      "nach Brückner alt",
@@ -8116,7 +7703,6 @@
      "b3"
     ],
     [
-     "baum",
      "Ein Baum",
      "One tree",
      "nach Brückner alt",
@@ -8128,7 +7714,6 @@
      "b3"
     ],
     [
-     "baum",
      "Ein Baum",
      "One tree",
      "nach Brückner alt",
@@ -8140,7 +7725,6 @@
      "b3"
     ],
     [
-     "baum",
      "Ein Baum",
      "One tree",
      "nach Brückner alt",
@@ -8152,7 +7736,6 @@
      "b3"
     ],
     [
-     "baum",
      "Ein Baum",
      "One tree",
      "nach Brückner alt",
@@ -8164,7 +7747,6 @@
      "b3"
     ],
     [
-     "baum",
      "Ein Baum",
      "One tree",
      "nach Brückner alt",
@@ -8176,7 +7758,6 @@
      "b3"
     ],
     [
-     "baum",
      "Ein Baum",
      "One tree",
      "nach Brückner alt",
@@ -8188,7 +7769,6 @@
      "b3"
     ],
     [
-     "baeume",
      "Mehrere Bäume",
      "Several trees",
      "nach Brückner alt",
@@ -8200,7 +7780,6 @@
      "b3"
     ],
     [
-     "baeume",
      "Mehrere Bäume",
      "Several trees",
      "nach Brückner alt",
@@ -8212,7 +7791,6 @@
      "b3"
     ],
     [
-     "baeume",
      "Mehrere Bäume",
      "Several trees",
      "nach Brückner alt",
@@ -8224,7 +7802,6 @@
      "b3"
     ],
     [
-     "baeume",
      "Mehrere Bäume",
      "Several trees",
      "nach Brückner alt",
@@ -8236,7 +7813,6 @@
      "b3"
     ],
     [
-     "baeume",
      "Mehrere Bäume",
      "Several trees",
      "nach Brückner alt",
@@ -8248,7 +7824,6 @@
      "b3"
     ],
     [
-     "baeume",
      "Mehrere Bäume",
      "Several trees",
      "nach Brückner alt",
@@ -8260,7 +7835,6 @@
      "b3"
     ],
     [
-     "baumtier",
      "Baum und Tier",
      "Tree and animal",
      "nach Brückner alt",
@@ -8272,7 +7846,6 @@
      "b3"
     ],
     [
-     "baumtier",
      "Baum und Tier",
      "Tree and animal",
      "nach Brückner alt",
@@ -8284,7 +7857,6 @@
      "b3"
     ],
     [
-     "baumtier",
      "Baum und Tier",
      "Tree and animal",
      "nach Brückner alt",
@@ -8296,7 +7868,6 @@
      "b3"
     ],
     [
-     "baumtier",
      "Baum und Tier",
      "Tree and animal",
      "nach Brückner alt",
@@ -8308,7 +7879,6 @@
      "b3"
     ],
     [
-     "tier",
      "Tier",
      "Animal",
      "nach Brückner alt",
@@ -8320,7 +7890,6 @@
      "b3"
     ],
     [
-     "tier",
      "Tier",
      "Animal",
      "nach Brückner alt",
@@ -8332,7 +7901,6 @@
      "b3"
     ],
     [
-     "tier",
      "Tier",
      "Animal",
      "nach Brückner alt",
@@ -8344,7 +7912,6 @@
      "b3"
     ],
     [
-     "tier",
      "Tier",
      "Animal",
      "nach Brückner alt",
@@ -8356,7 +7923,6 @@
      "b3"
     ],
     [
-     "tier",
      "Tier",
      "Animal",
      "nach Brückner alt",
@@ -8368,7 +7934,6 @@
      "b3"
     ],
     [
-     "tier",
      "Tier",
      "Animal",
      "nach Brückner alt",
@@ -8380,7 +7945,6 @@
      "b3"
     ],
     [
-     "tier",
      "Tier",
      "Animal",
      "nach Brückner alt",
@@ -8392,7 +7956,6 @@
      "b3"
     ],
     [
-     "tier",
      "Tier",
      "Animal",
      "nach Brückner alt",
@@ -8404,7 +7967,6 @@
      "b3"
     ],
     [
-     "tier",
      "Tier",
      "Animal",
      "nach Brückner alt",
@@ -8416,7 +7978,6 @@
      "b3"
     ],
     [
-     "landw",
      "Landwirtschaftliche Bilder",
      "Agricultural images",
      "nach Brückner alt",
@@ -8428,7 +7989,6 @@
      "b3"
     ],
     [
-     "landw",
      "Landwirtschaftliche Bilder",
      "Agricultural images",
      "nach Brückner alt",
@@ -8440,7 +8000,6 @@
      "b3"
     ],
     [
-     "landw",
      "Landwirtschaftliche Bilder",
      "Agricultural images",
      "nach Brückner alt",
@@ -8452,7 +8011,6 @@
      "b3"
     ],
     [
-     "landw",
      "Landwirtschaftliche Bilder",
      "Agricultural images",
      "nach Brückner alt",
@@ -8464,7 +8022,6 @@
      "b3"
     ],
     [
-     "landw",
      "Landwirtschaftliche Bilder",
      "Agricultural images",
      "nach Brückner alt",
@@ -8476,7 +8033,6 @@
      "b3"
     ],
     [
-     "landw",
      "Landwirtschaftliche Bilder",
      "Agricultural images",
      "nach Brückner alt",
@@ -8488,7 +8044,6 @@
      "b3"
     ],
     [
-     "landw",
      "Landwirtschaftliche Bilder",
      "Agricultural images",
      "nach Brückner alt",
@@ -8500,7 +8055,6 @@
      "b3"
     ],
     [
-     "kirche",
      "Kirche (auch mit Baum)",
      "Church (also with tree)",
      "nach Brückner alt",
@@ -8512,7 +8066,6 @@
      "b1"
     ],
     [
-     "kirche",
      "Kirche (auch mit Baum)",
      "Church (also with tree)",
      "nach Brückner alt",
@@ -8524,7 +8077,6 @@
      "b1"
     ],
     [
-     "kirche",
      "Kirche (auch mit Baum)",
      "Church (also with tree)",
      "nach Brückner alt",
@@ -8536,7 +8088,6 @@
      "b1"
     ],
     [
-     "kirche",
      "Kirche (auch mit Baum)",
      "Church (also with tree)",
      "nach Brückner alt",
@@ -8548,7 +8099,6 @@
      "b1"
     ],
     [
-     "kirche",
      "Kirche (auch mit Baum)",
      "Church (also with tree)",
      "nach Brückner alt",
@@ -8560,7 +8110,6 @@
      "b1"
     ],
     [
-     "kirche",
      "Kirche (auch mit Baum)",
      "Church (also with tree)",
      "nach Brückner alt",
@@ -8572,7 +8121,6 @@
      "b1"
     ],
     [
-     "kirche",
      "Kirche (auch mit Baum)",
      "Church (also with tree)",
      "nach Brückner alt",
@@ -8584,7 +8132,6 @@
      "b1"
     ],
     [
-     "bau",
      "Schloss, Brücke, Brunnen, Figur u. a.",
      "Castle, bridge, well, figure and others",
      "nach Brückner alt",
@@ -8596,7 +8143,6 @@
      "b1"
     ],
     [
-     "bau",
      "Schloss, Brücke, Brunnen, Figur u. a.",
      "Castle, bridge, well, figure and others",
      "nach Brückner alt",
@@ -8608,7 +8154,6 @@
      "b1"
     ],
     [
-     "bau",
      "Schloss, Brücke, Brunnen, Figur u. a.",
      "Castle, bridge, well, figure and others",
      "nach Brückner alt",
@@ -8620,7 +8165,6 @@
      "b1"
     ],
     [
-     "bau",
      "Schloss, Brücke, Brunnen, Figur u. a.",
      "Castle, bridge, well, figure and others",
      "nach Brückner alt",
@@ -8632,7 +8176,6 @@
      "b1"
     ],
     [
-     "bau",
      "Schloss, Brücke, Brunnen, Figur u. a.",
      "Castle, bridge, well, figure and others",
      "nach Brückner alt",
@@ -8644,7 +8187,6 @@
      "b1"
     ],
     [
-     "bau",
      "Schloss, Brücke, Brunnen, Figur u. a.",
      "Castle, bridge, well, figure and others",
      "nach Brückner alt",
@@ -8656,7 +8198,6 @@
      "b1"
     ],
     [
-     "bau",
      "Schloss, Brücke, Brunnen, Figur u. a.",
      "Castle, bridge, well, figure and others",
      "nach Brückner alt",
@@ -8668,7 +8209,6 @@
      "b1"
     ],
     [
-     "bau",
      "Schloss, Brücke, Brunnen, Figur u. a.",
      "Castle, bridge, well, figure and others",
      "nach Brückner alt",
@@ -8680,7 +8220,6 @@
      "b1"
     ],
     [
-     "neu",
      "Kranz, Anker, Sonne (neuere Erfindung)",
      "Wreath, anchor, sun (recent invention)",
      "nach Brückner neuere Erfindung",
@@ -8692,7 +8231,6 @@
      "b3"
     ],
     [
-     "neu",
      "Kranz, Anker, Sonne (neuere Erfindung)",
      "Wreath, anchor, sun (recent invention)",
      "nach Brückner neuere Erfindung",
@@ -8704,7 +8242,6 @@
      "b3"
     ],
     [
-     "neu",
      "Kranz, Anker, Sonne (neuere Erfindung)",
      "Wreath, anchor, sun (recent invention)",
      "nach Brückner neuere Erfindung",
@@ -8716,7 +8253,6 @@
      "b3"
     ],
     [
-     "neu",
      "Kranz, Anker, Sonne (neuere Erfindung)",
      "Wreath, anchor, sun (recent invention)",
      "nach Brückner neuere Erfindung",
@@ -8728,7 +8264,6 @@
      "b3"
     ],
     [
-     "neu",
      "Kranz, Anker, Sonne (neuere Erfindung)",
      "Wreath, anchor, sun (recent invention)",
      "nach Brückner neuere Erfindung",
@@ -8740,7 +8275,6 @@
      "b3"
     ],
     [
-     "neu",
      "Kranz, Anker, Sonne (neuere Erfindung)",
      "Wreath, anchor, sun (recent invention)",
      "nach Brückner neuere Erfindung",
@@ -8752,7 +8286,6 @@
      "b3"
     ],
     [
-     "neu",
      "Kranz, Anker, Sonne (neuere Erfindung)",
      "Wreath, anchor, sun (recent invention)",
      "nach Brückner neuere Erfindung",
@@ -8764,7 +8297,6 @@
      "b3"
     ],
     [
-     "neu",
      "Kranz, Anker, Sonne (neuere Erfindung)",
      "Wreath, anchor, sun (recent invention)",
      "nach Brückner neuere Erfindung",
@@ -23376,7 +22908,7 @@
        {
         "transform": [
          {
-          "filter": "datum.panel == 'L'"
+          "filter": "datum.landestheil == 'Gera'"
          }
         ],
         "mark": {
@@ -24044,7 +23576,7 @@
        {
         "transform": [
          {
-          "filter": "datum.panel == 'R'"
+          "filter": "datum.landestheil != 'Gera'"
          }
         ],
         "mark": {
@@ -24402,787 +23934,273 @@
     "en": "Each square is a municipality, stacked by the year of first documentary mention in its article (152 of 173 municipalities). The number beside a stack gives the places of that year; dashed: median per district. Pp. 418–825."
    },
    "vegalite": {
-    "spacing": 14,
-    "vconcat": [
+    "height": 400,
+    "transform": [
      {
-      "width": 640,
-      "height": 112,
-      "title": {
-       "text": {
-        "de": "Landesteil Gera: 73 Orte mit Jahr, Median 1333",
-        "en": "District of Gera: 73 places with a year, median 1333"
-       },
-       "anchor": "start",
-       "fontSize": 12,
-       "fontWeight": 600,
-       "offset": 6
-      },
-      "layer": [
-       {
-        "transform": [
-         {
-          "filter": "datum.landestheil == 'Gera' && isValid(datum.first_year)"
-         },
-         {
-          "window": [
-           {
-            "op": "row_number",
-            "as": "stack"
-           }
-          ],
-          "groupby": [
-           "first_year"
-          ],
-          "sort": [
-           {
-            "field": "name"
-           }
-          ]
-         }
-        ],
-        "mark": {
-         "type": "square",
-         "size": 16,
-         "opacity": 0.9
-        },
-        "encoding": {
-         "x": {
-          "field": "first_year",
-          "type": "quantitative",
-          "scale": {
-           "domain": [
-            1060,
-            1660
-           ],
-           "nice": false
-          },
-          "axis": {
-           "title": null,
-           "format": "d",
-           "values": [
-            1100,
-            1200,
-            1300,
-            1400,
-            1500,
-            1600
-           ],
-           "grid": true,
-           "labels": false,
-           "ticks": false,
-           "domain": false
-          }
-         },
-         "y": {
-          "field": "stack",
-          "type": "quantitative",
-          "scale": {
-           "domain": [
-            0,
-            17
-           ]
-          },
-          "axis": null
-         },
-         "color": {
-          "value": "@accent"
-         },
-         "tooltip": [
-          {
-           "field": "name",
-           "title": {
-            "de": "Ort",
-            "en": "Place"
-           }
-          },
-          {
-           "field": "first_year",
-           "title": {
-            "de": "Erste Erwähnung",
-            "en": "First mention"
-           },
-           "format": "d"
-          },
-          {
-           "field": "landestheil",
-           "title": {
-            "de": "Landesteil",
-            "en": "District"
-           }
-          },
-          {
-           "field": "forms",
-           "title": {
-            "de": "Namensformen",
-            "en": "Name forms"
-           }
-          }
-         ]
-        }
-       },
-       {
-        "transform": [
-         {
-          "filter": "datum.landestheil == 'Gera' && isValid(datum.first_year)"
-         },
-         {
-          "aggregate": [
-           {
-            "op": "median",
-            "field": "first_year",
-            "as": "med"
-           }
-          ]
-         }
-        ],
-        "mark": {
-         "type": "rule",
-         "strokeDash": [
-          4,
-          3
-         ],
-         "strokeWidth": 1.5,
-         "color": "@accent2"
-        },
-        "encoding": {
-         "x": {
-          "field": "med",
-          "type": "quantitative",
-          "scale": {
-           "domain": [
-            1060,
-            1660
-           ],
-           "nice": false
-          }
-         }
-        }
-       },
-       {
-        "transform": [
-         {
-          "filter": "datum.landestheil == 'Gera' && isValid(datum.first_year)"
-         },
-         {
-          "aggregate": [
-           {
-            "op": "median",
-            "field": "first_year",
-            "as": "med"
-           }
-          ]
-         }
-        ],
-        "mark": {
-         "type": "text",
-         "style": "label",
-         "align": "right",
-         "dx": -6,
-         "baseline": "top",
-         "dy": 2
-        },
-        "encoding": {
-         "x": {
-          "field": "med",
-          "type": "quantitative",
-          "scale": {
-           "domain": [
-            1060,
-            1660
-           ],
-           "nice": false
-          }
-         },
-         "y": {
-          "value": 0
-         },
-         "text": {
-          "field": "med",
-          "type": "quantitative",
-          "format": "d"
-         },
-         "color": {
-          "value": "@accent2"
-         }
-        }
-       },
-       {
-        "transform": [
-         {
-          "filter": "datum.landestheil == 'Gera' && isValid(datum.first_year)"
-         },
-         {
-          "aggregate": [
-           {
-            "op": "count",
-            "as": "n"
-           }
-          ],
-          "groupby": [
-           "first_year"
-          ]
-         },
-         {
-          "filter": "datum.n >= 6"
-         }
-        ],
-        "mark": {
-         "type": "text",
-         "style": "annotation",
-         "align": "left",
-         "dx": 6,
-         "dy": 2
-        },
-        "encoding": {
-         "x": {
-          "field": "first_year",
-          "type": "quantitative",
-          "scale": {
-           "domain": [
-            1060,
-            1660
-           ],
-           "nice": false
-          }
-         },
-         "y": {
-          "field": "n",
-          "type": "quantitative",
-          "scale": {
-           "domain": [
-            0,
-            17
-           ]
-          },
-          "axis": null
-         },
-         "text": {
-          "field": "n",
-          "type": "quantitative"
-         }
-        }
-       }
-      ]
+      "filter": "isValid(datum.first_year)"
      },
      {
-      "width": 640,
-      "height": 112,
-      "title": {
-       "text": {
-        "de": "Landesteil Schleiz: 40 Orte mit Jahr, Median 1356",
-        "en": "District of Schleiz: 40 places with a year, median 1356"
-       },
-       "anchor": "start",
-       "fontSize": 12,
-       "fontWeight": 600,
-       "offset": 6
+      "calculate": "datum.landestheil == 'Gera' ? 48 : datum.landestheil == 'Schleiz' ? 24 : 0",
+      "as": "base"
+     }
+    ],
+    "encoding": {
+     "x": {
+      "field": "first_year",
+      "type": "quantitative",
+      "scale": {
+       "domain": [
+        1060,
+        1660
+       ],
+       "nice": false
       },
-      "layer": [
+      "axis": {
+       "title": null,
+       "format": "d",
+       "values": [
+        1100,
+        1200,
+        1300,
+        1400,
+        1500,
+        1600
+       ],
+       "grid": true
+      }
+     },
+     "y": {
+      "field": "y",
+      "type": "quantitative",
+      "scale": {
+       "domain": [
+        0,
+        72
+       ],
+       "nice": false
+      },
+      "axis": null
+     }
+    },
+    "layer": [
+     {
+      "transform": [
        {
-        "transform": [
+        "window": [
          {
-          "filter": "datum.landestheil == 'Schleiz' && isValid(datum.first_year)"
-         },
-         {
-          "window": [
-           {
-            "op": "row_number",
-            "as": "stack"
-           }
-          ],
-          "groupby": [
-           "first_year"
-          ],
-          "sort": [
-           {
-            "field": "name"
-           }
-          ]
+          "op": "row_number",
+          "as": "stack"
          }
         ],
-        "mark": {
-         "type": "square",
-         "size": 16,
-         "opacity": 0.9
-        },
-        "encoding": {
-         "x": {
-          "field": "first_year",
-          "type": "quantitative",
-          "scale": {
-           "domain": [
-            1060,
-            1660
-           ],
-           "nice": false
-          },
-          "axis": {
-           "title": null,
-           "format": "d",
-           "values": [
-            1100,
-            1200,
-            1300,
-            1400,
-            1500,
-            1600
-           ],
-           "grid": true,
-           "labels": false,
-           "ticks": false,
-           "domain": false
-          }
-         },
-         "y": {
-          "field": "stack",
-          "type": "quantitative",
-          "scale": {
-           "domain": [
-            0,
-            17
-           ]
-          },
-          "axis": null
-         },
-         "color": {
-          "value": "@accent"
-         },
-         "tooltip": [
-          {
-           "field": "name",
-           "title": {
-            "de": "Ort",
-            "en": "Place"
-           }
-          },
-          {
-           "field": "first_year",
-           "title": {
-            "de": "Erste Erwähnung",
-            "en": "First mention"
-           },
-           "format": "d"
-          },
-          {
-           "field": "landestheil",
-           "title": {
-            "de": "Landesteil",
-            "en": "District"
-           }
-          },
-          {
-           "field": "forms",
-           "title": {
-            "de": "Namensformen",
-            "en": "Name forms"
-           }
-          }
-         ]
-        }
+        "groupby": [
+         "landestheil",
+         "first_year"
+        ],
+        "sort": [
+         {
+          "field": "name"
+         }
+        ]
        },
        {
-        "transform": [
-         {
-          "filter": "datum.landestheil == 'Schleiz' && isValid(datum.first_year)"
-         },
-         {
-          "aggregate": [
-           {
-            "op": "median",
-            "field": "first_year",
-            "as": "med"
-           }
-          ]
-         }
-        ],
-        "mark": {
-         "type": "rule",
-         "strokeDash": [
-          4,
-          3
-         ],
-         "strokeWidth": 1.5,
-         "color": "@accent2"
-        },
-        "encoding": {
-         "x": {
-          "field": "med",
-          "type": "quantitative",
-          "scale": {
-           "domain": [
-            1060,
-            1660
-           ],
-           "nice": false
-          }
-         }
-        }
-       },
-       {
-        "transform": [
-         {
-          "filter": "datum.landestheil == 'Schleiz' && isValid(datum.first_year)"
-         },
-         {
-          "aggregate": [
-           {
-            "op": "median",
-            "field": "first_year",
-            "as": "med"
-           }
-          ]
-         }
-        ],
-        "mark": {
-         "type": "text",
-         "style": "label",
-         "align": "right",
-         "dx": -6,
-         "baseline": "top",
-         "dy": 2
-        },
-        "encoding": {
-         "x": {
-          "field": "med",
-          "type": "quantitative",
-          "scale": {
-           "domain": [
-            1060,
-            1660
-           ],
-           "nice": false
-          }
-         },
-         "y": {
-          "value": 0
-         },
-         "text": {
-          "field": "med",
-          "type": "quantitative",
-          "format": "d"
-         },
-         "color": {
-          "value": "@accent2"
-         }
-        }
-       },
-       {
-        "transform": [
-         {
-          "filter": "datum.landestheil == 'Schleiz' && isValid(datum.first_year)"
-         },
-         {
-          "aggregate": [
-           {
-            "op": "count",
-            "as": "n"
-           }
-          ],
-          "groupby": [
-           "first_year"
-          ]
-         },
-         {
-          "filter": "datum.n >= 6"
-         }
-        ],
-        "mark": {
-         "type": "text",
-         "style": "annotation",
-         "align": "left",
-         "dx": 6,
-         "dy": 2
-        },
-        "encoding": {
-         "x": {
-          "field": "first_year",
-          "type": "quantitative",
-          "scale": {
-           "domain": [
-            1060,
-            1660
-           ],
-           "nice": false
-          }
-         },
-         "y": {
-          "field": "n",
-          "type": "quantitative",
-          "scale": {
-           "domain": [
-            0,
-            17
-           ]
-          },
-          "axis": null
-         },
-         "text": {
-          "field": "n",
-          "type": "quantitative"
-         }
-        }
+        "calculate": "datum.base + datum.stack",
+        "as": "y"
        }
-      ]
+      ],
+      "mark": {
+       "type": "square",
+       "size": 16,
+       "opacity": 0.9,
+       "color": "@accent"
+      },
+      "encoding": {
+       "tooltip": [
+        {
+         "field": "name",
+         "title": {
+          "de": "Ort",
+          "en": "Place"
+         }
+        },
+        {
+         "field": "first_year",
+         "title": {
+          "de": "Erste Erwähnung",
+          "en": "First mention"
+         },
+         "format": "d"
+        },
+        {
+         "field": "landestheil",
+         "title": {
+          "de": "Landesteil",
+          "en": "District"
+         }
+        },
+        {
+         "field": "forms",
+         "title": {
+          "de": "Namensformen",
+          "en": "Name forms"
+         }
+        }
+       ]
+      }
      },
      {
-      "width": 640,
-      "height": 112,
-      "title": {
-       "text": {
-        "de": "Landesteil Lobenstein-Ebersdorf: 39 Orte mit Jahr, Median 1411",
-        "en": "District of Lobenstein-Ebersdorf: 39 places with a year, median 1411"
-       },
-       "anchor": "start",
-       "fontSize": 12,
-       "fontWeight": 600,
-       "offset": 6
-      },
-      "layer": [
+      "transform": [
        {
-        "transform": [
+        "aggregate": [
          {
-          "filter": "datum.landestheil == 'Lobenstein-Ebersdorf' && isValid(datum.first_year)"
-         },
-         {
-          "window": [
-           {
-            "op": "row_number",
-            "as": "stack"
-           }
-          ],
-          "groupby": [
-           "first_year"
-          ],
-          "sort": [
-           {
-            "field": "name"
-           }
-          ]
-         }
-        ],
-        "mark": {
-         "type": "square",
-         "size": 16,
-         "opacity": 0.9
-        },
-        "encoding": {
-         "x": {
+          "op": "median",
           "field": "first_year",
-          "type": "quantitative",
-          "scale": {
-           "domain": [
-            1060,
-            1660
-           ],
-           "nice": false
-          },
-          "axis": {
-           "title": null,
-           "format": "d",
-           "values": [
-            1100,
-            1200,
-            1300,
-            1400,
-            1500,
-            1600
-           ],
-           "grid": true,
-           "labels": true,
-           "ticks": true,
-           "domain": true
-          }
-         },
-         "y": {
-          "field": "stack",
-          "type": "quantitative",
-          "scale": {
-           "domain": [
-            0,
-            17
-           ]
-          },
-          "axis": null
-         },
-         "color": {
-          "value": "@accent"
-         },
-         "tooltip": [
-          {
-           "field": "name",
-           "title": {
-            "de": "Ort",
-            "en": "Place"
-           }
-          },
-          {
-           "field": "first_year",
-           "title": {
-            "de": "Erste Erwähnung",
-            "en": "First mention"
-           },
-           "format": "d"
-          },
-          {
-           "field": "landestheil",
-           "title": {
-            "de": "Landesteil",
-            "en": "District"
-           }
-          },
-          {
-           "field": "forms",
-           "title": {
-            "de": "Namensformen",
-            "en": "Name forms"
-           }
-          }
-         ]
-        }
-       },
-       {
-        "transform": [
-         {
-          "filter": "datum.landestheil == 'Lobenstein-Ebersdorf' && isValid(datum.first_year)"
-         },
-         {
-          "aggregate": [
-           {
-            "op": "median",
-            "field": "first_year",
-            "as": "med"
-           }
-          ]
+          "as": "first_year"
          }
         ],
-        "mark": {
-         "type": "rule",
-         "strokeDash": [
-          4,
-          3
-         ],
-         "strokeWidth": 1.5,
-         "color": "@accent2"
-        },
-        "encoding": {
-         "x": {
-          "field": "med",
-          "type": "quantitative",
-          "scale": {
-           "domain": [
-            1060,
-            1660
-           ],
-           "nice": false
-          }
-         }
-        }
+        "groupby": [
+         "landestheil",
+         "base"
+        ]
        },
        {
-        "transform": [
-         {
-          "filter": "datum.landestheil == 'Lobenstein-Ebersdorf' && isValid(datum.first_year)"
-         },
-         {
-          "aggregate": [
-           {
-            "op": "median",
-            "field": "first_year",
-            "as": "med"
-           }
-          ]
-         }
-        ],
-        "mark": {
-         "type": "text",
-         "style": "label",
-         "align": "right",
-         "dx": -6,
-         "baseline": "top",
-         "dy": 2
-        },
-        "encoding": {
-         "x": {
-          "field": "med",
-          "type": "quantitative",
-          "scale": {
-           "domain": [
-            1060,
-            1660
-           ],
-           "nice": false
-          }
-         },
-         "y": {
-          "value": 0
-         },
-         "text": {
-          "field": "med",
-          "type": "quantitative",
-          "format": "d"
-         },
-         "color": {
-          "value": "@accent2"
-         }
-        }
+        "calculate": "datum.base + 0.4",
+        "as": "y"
        },
        {
-        "transform": [
-         {
-          "filter": "datum.landestheil == 'Lobenstein-Ebersdorf' && isValid(datum.first_year)"
-         },
-         {
-          "aggregate": [
-           {
-            "op": "count",
-            "as": "n"
-           }
-          ],
-          "groupby": [
-           "first_year"
-          ]
-         },
-         {
-          "filter": "datum.n >= 6"
-         }
-        ],
-        "mark": {
-         "type": "text",
-         "style": "annotation",
-         "align": "left",
-         "dx": 6,
-         "dy": 2
-        },
-        "encoding": {
-         "x": {
-          "field": "first_year",
-          "type": "quantitative",
-          "scale": {
-           "domain": [
-            1060,
-            1660
-           ],
-           "nice": false
-          }
-         },
-         "y": {
-          "field": "n",
-          "type": "quantitative",
-          "scale": {
-           "domain": [
-            0,
-            17
-           ]
-          },
-          "axis": null
-         },
-         "text": {
-          "field": "n",
-          "type": "quantitative"
-         }
-        }
+        "calculate": "datum.base + 16.5",
+        "as": "y_top"
        }
-      ]
+      ],
+      "mark": {
+       "type": "rule",
+       "strokeDash": [
+        4,
+        3
+       ],
+       "strokeWidth": 1.5,
+       "color": "@accent2"
+      },
+      "encoding": {
+       "y2": {
+        "field": "y_top"
+       }
+      }
+     },
+     {
+      "transform": [
+       {
+        "aggregate": [
+         {
+          "op": "median",
+          "field": "first_year",
+          "as": "first_year"
+         }
+        ],
+        "groupby": [
+         "landestheil",
+         "base"
+        ]
+       },
+       {
+        "calculate": "datum.base + 16.5",
+        "as": "y"
+       }
+      ],
+      "mark": {
+       "type": "text",
+       "style": "label",
+       "baseline": "bottom",
+       "dy": -2,
+       "color": "@accent2"
+      },
+      "encoding": {
+       "text": {
+        "field": "first_year",
+        "type": "quantitative",
+        "format": "d"
+       }
+      }
+     },
+     {
+      "transform": [
+       {
+        "aggregate": [
+         {
+          "op": "count",
+          "as": "n"
+         }
+        ],
+        "groupby": [
+         "landestheil",
+         "base",
+         "first_year"
+        ]
+       },
+       {
+        "filter": "datum.n >= 6"
+       },
+       {
+        "calculate": "datum.base + datum.n",
+        "as": "y"
+       }
+      ],
+      "mark": {
+       "type": "text",
+       "style": "annotation",
+       "align": "left",
+       "dx": 6,
+       "dy": 2
+      },
+      "encoding": {
+       "text": {
+        "field": "n",
+        "type": "quantitative"
+       }
+      }
+     },
+     {
+      "transform": [
+       {
+        "aggregate": [
+         {
+          "op": "count",
+          "as": "n"
+         }
+        ],
+        "groupby": [
+         "landestheil",
+         "base"
+        ]
+       },
+       {
+        "calculate": "datum.base + 21.5",
+        "as": "y"
+       },
+       {
+        "calculate": "1060",
+        "as": "first_year"
+       },
+       {
+        "calculate": {
+         "de": "'Landesteil ' + datum.landestheil + ' (' + datum.n + ' Orte mit Jahr)'",
+         "en": "'District of ' + datum.landestheil + ' (' + datum.n + ' places with a year)'"
+        },
+        "as": "band_title"
+       }
+      ],
+      "mark": {
+       "type": "text",
+       "align": "left",
+       "baseline": "middle",
+       "fontWeight": 600,
+       "fontSize": 12,
+       "color": "@ink"
+      },
+      "encoding": {
+       "text": {
+        "field": "band_title"
+       }
+      }
      }
     ]
    }
@@ -25195,12 +24213,12 @@
     "en": "35 of 43 interpreted Sorbian place names describe landscape features such as landform, forest and water"
    },
    "caption": {
-    "de": "Brückners Übersicht sorbischer Wortwurzeln und der davon abgeleiteten Ortsnamen, nach Bedeutung der Wurzel gruppiert (Gruppen redaktionell); blau: Landschaftsmerkmale. Die Zeile nennt die ersten Beispiele. S. 121.",
-    "en": "Brückner’s overview of Sorbian word roots and the place names derived from them, grouped by the meaning of the root (groups editorial); blue: landscape features. The line gives the first examples. P. 121."
+    "de": "Brückners Übersicht sorbischer Wortwurzeln und der davon abgeleiteten Ortsnamen, nach Bedeutung der Wurzel gruppiert (Gruppen redaktionell); hervorgehoben sind die Landschaftsmerkmale. Neben der Zahl stehen die ersten drei Namen. S. 121.",
+    "en": "Brückner’s overview of Sorbian word roots and the place names derived from them, grouped by the meaning of the root (groups editorial); landscape features are highlighted. Beside each number are the first three names. P. 121."
    },
    "vegalite": {
     "height": {
-     "step": 25
+     "step": 40
     },
     "encoding": {
      "y": {
@@ -25214,11 +24232,7 @@
        "op": "max",
        "order": "descending"
       },
-      "axis": {
-       "title": null,
-       "labelLimit": 460,
-       "labelFontSize": 12
-      }
+      "axis": null
      },
      "x": {
       "field": "names",
@@ -25236,10 +24250,30 @@
     "layer": [
      {
       "mark": {
-       "type": "bar",
-       "height": {
-        "band": 0.62
+       "type": "text",
+       "align": "left",
+       "baseline": "bottom",
+       "dy": -2,
+       "fontSize": 12,
+       "color": "@ink"
+      },
+      "encoding": {
+       "x": {
+        "value": 0
+       },
+       "text": {
+        "field": {
+         "de": "group_de",
+         "en": "group_en"
+        }
        }
+      }
+     },
+     {
+      "mark": {
+       "type": "bar",
+       "height": 13,
+       "yOffset": 7
       },
       "encoding": {
        "color": {
@@ -25289,7 +24323,8 @@
        "type": "text",
        "style": "label",
        "align": "left",
-       "dx": 6
+       "dx": 6,
+       "dy": 7
       },
       "encoding": {
        "text": {
@@ -25302,7 +24337,8 @@
        "type": "text",
        "style": "label-muted",
        "align": "left",
-       "dx": 24
+       "dx": 24,
+       "dy": 7
       },
       "encoding": {
        "text": {
@@ -25348,6 +24384,5 @@
   "landesgeschichte",
   "dorfleben"
  ],
- "generated_by": "Claude Sonnet 5.5 (Agent F3), aus 4 Einzelauswertungen zusammengeführt",
  "date": "2026-10-02"
 }

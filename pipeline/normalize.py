@@ -9,6 +9,8 @@ No text is re-extracted. Everything here is deterministic and logged:
 * printer's signature marks ("27*", "35*") that the model read as page
   numbers or footnotes -> ``signature``
 * running headers: dropped where they merely duplicate the opening heading
+* the Fraktur double hyphen, sometimes transcribed as "=" ("Lobenstein=Ebersdorf",
+  "Forma= tion") -> hyphen, then the hyphen rules below apply
 * line-break hyphens inside a line ("Som- merberg") -> joined
 * tables: padded, empty columns dropped, multi-row headers detected and
   rebuilt with colspan/rowspan from the model's ``None`` placeholders,
@@ -298,7 +300,7 @@ def build_table(content: dict, cell_units: dict, log: list) -> dict:
         rows_out.append({"role": role, "cells": cells})
     if any(r["role"] == "group" for r in rows_out):
         log.append({"rule": "table_group_rows", "n": sum(r["role"] == "group" for r in rows_out)})
-    plain = [["" if c is None else str(c) for c in r] for r in grid]
+    plain = [[cell_units[(i, keep[j])].text if (i, keep[j]) in cell_units else ("" if c is None else str(c)) for j, c in enumerate(r)] for i, r in enumerate(grid)]
     return {"n_cols": ncols, "header_rows": header_rows, "rows": rows_out, "grid": plain,
             "caption": content.get("caption") or None}
 
@@ -308,6 +310,19 @@ def build_table(content: dict, cell_units: dict, log: list) -> dict:
 # ---------------------------------------------------------------------------
 
 NO_JOIN_NEXT = {"und", "od", "oder", "mit", "bis", "sowie", "wie", "als", "resp", "u", "nebst", "noch", "beziehungsweise", "bezw", "theils", "zum", "zur"}
+FRAKTUR_DOUBLE_HYPHEN = re.compile(r"(?<=[A-Za-zÄÖÜäöüß])=\s*(?=[A-Za-zÄÖÜäöüß]|,|$)")
+
+
+def fraktur_hyphen_replacement(text: str, m: re.Match) -> str:
+    """Replacement for a Fraktur double hyphen and the white space after it."""
+    head = re.search(r"[\wäöüßÄÖÜ]+$", text[:m.start()]).group(0)
+    tail = re.match(r"[\wäöüßÄÖÜ]*", text[m.end():]).group(0)
+    spaced = m.end() > m.start() + 1
+    if tail[:1].isupper():
+        return "-"  # compound broken at the line end: "Zweibrück= Birkenfeld"
+    if tail and (len(tail) <= 3 and not spaced or spaced and (head + tail).lower() in VOCAB):
+        return ""  # word division: "Heldrun=gen", "größten= theils"
+    return "-" + text[m.start() + 1:m.end()]  # the hyphen rules decide the rest
 LINEBREAK_HYPHEN = re.compile(r"(?<=[A-Za-zÄÖÜäöüß])[-¬]\s+(?=([a-zäöüß][\wäöüß]*))")
 
 
@@ -451,6 +466,10 @@ def normalize_page(seq: int, rec: dict | None, canvas: dict, manual: dict, stats
             u.edit(m.start(), m.end(), "s")
             if not any(c["rule"] == "resolve_long_s" for c in log):
                 log.append({"rule": "resolve_long_s"})
+        for m in reversed(list(FRAKTUR_DOUBLE_HYPHEN.finditer(u.text))):
+            before = u.text[max(0, m.start() - 12): m.end() + 12].strip()
+            u.edit(m.start(), m.end(), fraktur_hyphen_replacement(u.text, m))
+            log.append({"rule": "fraktur_double_hyphen", "before": before, "after": u.text[max(0, m.start() - 12): m.start() + 12].strip()})
         m = DOT_LEADER.search(u.text)
         if m and kind == "cell":
             u.edit(m.start(), m.end(), "")

@@ -32,9 +32,6 @@ klassen["columns"] = klassen["columns"] + [
 for row, r in zip(klassen["rows"], kl):
     nr = r["klasse_nr"]
     row += list(KURZ.get(nr, (r["klasse_de"], r["klasse_en"])))
-    for k, v in enumerate(row):
-        if isinstance(v, str):
-            row[k] = v.replace("labourers", "laborers")
 
 pop = [r for r in kl if r["klasse_nr"] == 14 and r["landestheil_de"] == "Fürstentum" and r["gebiet_de"] == "zusammen"][0]["summe"]
 
@@ -172,7 +169,7 @@ e0 = lambda x: num_en(x, 0)
 summary = bi(
     f"Die Erhebung von 1864 ordnet alle {num_de(pop)} Einwohner 13 Berufsklassen zu. Von der Industrie einschließlich des Handwerks lebten {d1(ind_z)} Prozent, von Land- und Forstwirtschaft {d1(agr_z)} Prozent; auch auf dem Plattland überwog die Industrie. "
     f"Größtes Gewerbe war die Weberei: Sie ernährte {num_de(weber['persons'])} Personen, mehr als ein Neuntel der Bevölkerung, fast zwei Drittel davon im Landesteil Schleiz.",
-    f"The survey of 1864 assigns all {num_en(pop)} inhabitants to 13 occupational classes. {e1(ind_z)} percent lived from industry including crafts and {e1(agr_z)} percent from agriculture and forestry; even in the countryside industry predominated. "
+    f"The survey of 1864 assigns all {num_en(pop)} inhabitants to 13 occupational classes. {e1(ind_z)} percent made their living in industry including crafts and {e1(agr_z)} percent in agriculture and forestry; even in the countryside industry predominated. "
     f"The largest trade was weaving: it supported {num_en(weber['persons'])} persons, more than one ninth of the population, almost two thirds of them in the district of Schleiz.",
 )
 
@@ -248,7 +245,7 @@ c1 = {
     "dataset": "klassen",
     "title": bi(
         "Auch auf dem Land lebten mehr Menschen vom Gewerbe als von der Landwirtschaft",
-        "Even in the countryside more people lived from industry and crafts than from agriculture",
+        "Even in the countryside more people lived by industry and crafts than by agriculture",
     ),
     "caption": bi(
         f"Anteil der 13 Berufsklassen an der Bevölkerung der Städte ({num_de(klasse(14, 'Städte')['summe'])} Einwohner) und des Plattlandes ({num_de(klasse(14, 'Plattland')['summe'])}) im Fürstentum 1864, in Prozent; sortiert nach dem Anteil an der ganzen Bevölkerung. Quelle: S. 209 bis 212.",
@@ -307,12 +304,13 @@ c1 = {
             },
             {
                 "transform": [{"filter": "datum.klasse_nr == 1 || datum.klasse_nr == 3 || datum.klasse_nr == 6"}],
-                "mark": {"type": "text", "align": "center", "dy": -13, "style": "label", "color": "@accent"},
+                "mark": {"type": "text", "dy": -13, "style": "label",
+                         "align": {"expr": "datum.klasse_nr == 3 ? 'right' : 'center'"}, "dx": {"expr": "datum.klasse_nr == 3 ? 8 : 0"}},
                 "encoding": {"x": {"field": "Städte", "type": "quantitative"}, "text": {"field": "label_staedte", "type": "nominal"}},
             },
             {
                 "transform": [{"filter": "datum.klasse_nr == 1 || datum.klasse_nr == 3 || datum.klasse_nr == 6"}],
-                "mark": {"type": "text", "align": "center", "dy": -13, "style": "label", "color": "@accent2"},
+                "mark": {"type": "text", "align": "center", "dy": 14, "style": "label"},
                 "encoding": {"x": {"field": "Plattland", "type": "quantitative"}, "text": {"field": "label_plattland", "type": "nominal"}},
             },
         ],
@@ -329,10 +327,11 @@ c2 = {
     ),
     "caption": bi(
         f"Die zwölf größten Gewerbe (ohne Sammelposten) nach ernährten Personen (Selbständige, Gehilfen, Dienstboten, Familienglieder) im Fürstentum 1864, nach Landesteilen. Weber: {num_de(weber['persons'])}, davon {num_de(weber['d']['Schleiz']['persons'])} in Schleiz. Quelle: S. 252 bis 254.",
-        f"The twelve largest trades (without catch-all items) by persons supported (self-employed, assistants, servants, family members) in the principality in 1864, by district. Weavers: {num_en(weber['persons'])}, of them {num_en(weber['d']['Schleiz']['persons'])} in Schleiz. Source: pp. 252 to 254.",
+        f"The twelve largest trades (excluding catch-all items) by persons supported (self-employed, assistants, servants, family members) in the principality in 1864, by district. Weavers: {num_en(weber['persons'])}, of them {num_en(weber['d']['Schleiz']['persons'])} in Schleiz. Source: pp. 252 to 254.",
     ),
     "vegalite": {
         "height": {"step": 25},
+        "padding": {"top": 34, "left": 4, "right": 8, "bottom": 4},
         "transform": [
             {"filter": "isValid(datum.rang) && datum.rang <= 12"},
             {"calculate": "datum.district == 'Gera' ? 1 : datum.district == 'Schleiz' ? 2 : 3", "as": "dnr"},
@@ -350,7 +349,9 @@ c2 = {
             {
                 "mark": {"type": "bar", "height": {"band": 0.74}},
                 "encoding": {
-                    "x": {"field": "x0", "type": "quantitative", "axis": {"title": {"de": "ernährte Personen", "en": "persons supported"}, "format": ",d", "values": [0, 2000, 4000, 6000, 8000, 10000]}, "scale": {"domain": [0, 11800]}},
+                    "x": {"field": "x0", "type": "quantitative", "axis": {"title": {"de": "ernährte Personen", "en": "persons supported"}, "format": ",d", "values": [0, 2000, 4000, 6000, 8000, 10000],
+                                   "labelExpr": "width < 360 && datum.value % 4000 != 0 ? '' : datum.label"},
+                          "scale": {"domainMin": 0, "domainMax": {"expr": "max(11800, 10180 * width / max(width - 50, 60))"}, "nice": False}},
                     "x2": {"field": "x1"},
                     "color": {
                         "field": "district", "type": "nominal", "legend": None,
@@ -366,9 +367,11 @@ c2 = {
                 },
             },
             {
-                "transform": [{"filter": "datum.rang == 1"}],
-                "mark": {"type": "text", "style": "label", "dy": -23},
-                "encoding": {"x": {"field": "xm", "type": "quantitative"}, "text": {"field": "district", "type": "nominal"}},
+                "transform": [{"filter": "datum.rang == 1"}, {"calculate": "datum.dnr == 3 ? datum.x1 : datum.x0", "as": "x_label"}],
+                "mark": {"type": "text", "style": "label", "baseline": "bottom",
+                         "align": {"expr": "datum.dnr == 3 ? 'right' : 'left'"},
+                         "dy": {"expr": "datum.dnr == 3 && width < 520 ? -24 : -10"}},
+                "encoding": {"x": {"field": "x_label", "type": "quantitative"}, "text": {"field": "district", "type": "nominal"}, "color": {"value": "@ink"}},
             },
             {
                 "transform": [{"aggregate": [{"op": "sum", "field": "persons", "as": "total"}], "groupby": ["trade", "trade_en", "persons_total"]}],
@@ -384,7 +387,7 @@ c3 = {
     "dataset": "handel_fuerstentum",
     "title": bi(
         "Wirte, Viehhändler und Holzhändler saßen auf dem Land, Bankiers, Agenten und Buchhändler in den Städten",
-        "Innkeepers, cattle and timber dealers sat in the countryside, bankers, agents and booksellers in towns",
+        "Innkeepers, cattle and timber dealers lived mostly in the countryside, bankers, agents and booksellers in towns",
     ),
     "caption": bi(
         f"Anteil der Selbständigen in den Städten an allen Selbständigen des jeweiligen Handels- und Transportgewerbes im Fürstentum 1864, in Prozent; in Klammern die Zahl der Selbständigen. Wirte: {wirte[2]} von {wirte[10]} in den Städten. Quelle: S. 260.",
@@ -414,9 +417,10 @@ c3 = {
                 "mark": {"type": "point", "filled": True, "size": 90, "opacity": 1},
                 "encoding": {
                     "x": {
-                        "field": "share_staedte", "type": "quantitative", "scale": {"domain": [0, 114]},
+                        "field": "share_staedte", "type": "quantitative",
+                        "scale": {"domainMin": {"expr": "width < 420 ? -16 : 0"}, "domainMax": {"expr": "max(114, 100 * width / max(width - 34, 60))"}, "nice": False},
                         "axis": {
-                            "title": {"de": "Anteil der Selbständigen in den Städten, %", "en": "Share of the self-employed in the towns, %"},
+                            "title": {"de": "Anteil in den Städten, %", "en": "Share in the towns, %"},
                             "values": [0, 25, 50, 75, 100],
                         },
                     },
@@ -441,12 +445,12 @@ c3 = {
             },
             {
                 "transform": [{"filter": "datum.trade == 'Banquiers'"}],
-                "mark": {"type": "text", "align": "right", "dx": -8, "style": "label", "color": "@accent"},
+                "mark": {"type": "text", "align": "right", "dx": -8, "style": "label", "opacity": {"expr": "width < 420 ? 0 : 1"}},
                 "encoding": {"x": {"datum": 50}, "text": {"value": {"de": "Städte überwiegen", "en": "towns predominate"}}},
             },
             {
                 "transform": [{"filter": "datum.trade == 'Viehhändler'"}],
-                "mark": {"type": "text", "align": "left", "dx": 8, "style": "label", "color": "@accent2"},
+                "mark": {"type": "text", "align": "left", "dx": 8, "style": "label", "opacity": {"expr": "width < 420 ? 0 : 1"}},
                 "encoding": {"x": {"datum": 50}, "text": {"value": {"de": "Plattland überwiegt", "en": "countryside predominates"}}},
             },
         ],
@@ -478,7 +482,6 @@ feature = {
         "en": ["occupations", "occupational classes", "trades", "industry", "crafts", "weaving", "trade", "innkeepers", "towns", "countryside"],
     },
     "related": ["landwirtschaft", "handel-verkehr", "dorfleben", "bergbau"],
-    "generated_by": "Claude Sonnet 5.5 (Agent F5), aus 4 Einzelauswertungen zusammengeführt",
     "date": "2026-10-02",
 }
 

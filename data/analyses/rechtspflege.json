@@ -86,12 +86,12 @@
  },
  "findings": [
   {
-   "de": "Auf 1.000 Einwohner kamen 1867 34,2 neue förmliche Rechtsstreitigkeiten: 25,8 vor den Justizämtern, 8,4 vor den Kreisgerichten.",
+   "de": "1867 kamen auf 1.000 Einwohner 34,2 neue förmliche Rechtsstreitigkeiten: 25,8 vor den Justizämtern, 8,4 vor den Kreisgerichten.",
    "en": "Per 1,000 inhabitants there were 34.2 new formal lawsuits in 1867: 25.8 before the Justizämter, 8.4 before the Kreisgerichte."
   },
   {
-   "de": "Die Staatsanwaltschaften leiteten 1867 646 Voruntersuchungen ein, 1864 waren es 241. Vor Kreisgerichten und Schwurgericht wurden 1867 177 Personen verurteilt, 1865 waren es 139.",
-   "en": "The public prosecutors ordered 646 preliminary investigations in 1867, against 241 in 1864. 177 persons were convicted before the Kreisgerichte and the jury court in 1867, 139 in 1865."
+   "de": "1867 leiteten die Staatsanwaltschaften 646 Voruntersuchungen ein, 1864 waren es 241. 1867 wurden vor Kreisgerichten und Schwurgericht 177 Personen verurteilt, 1865 waren es 139.",
+   "en": "The public prosecutors ordered 646 preliminary investigations in 1867, compared with 241 in 1864. In 1867, 177 persons were convicted before the Kreisgerichte and the jury court, in 1865 139."
   },
   {
    "de": "Die Strafhaft dauerte bei den Justizämtern 1867 im Durchschnitt 5,7 Tage, bei den Kreisgerichten 20,8 Tage. Die Zahl der Gefangenen stieg von 1864 bis 1867 um 28 Prozent, die Hafttage um 12 Prozent.",
@@ -100,7 +100,7 @@
  ],
  "method": {
   "de": "Grundlage ist Brückners »Statistik der Rechtspflege« (S. 283–289) für die Jahre 1864 bis 1867. Für die Rechtsstreitigkeiten wurden die Spalten der neuen förmlichen Rechtsstreitigkeiten und ihres Ausgangs (Erkenntnis, Vergleich, unerledigt) aus den Tabellen der Justizämter (S. 284) und der Kreisgerichte (S. 286) zusammengestellt; Einwohner je Gericht sind nicht gedruckt, daher beziehen sich die Raten auf die Landeseinwohner 1867 (87.974, S. 92). Die Verurteilten wegen Übertretungen stammen aus der Tabelle »Speciell für 1867« (S. 287); ein Strich gilt als keine Verurteilten. »Übrige gemeine Übertretungen« ist die Differenz der Verurteilten wegen gemeiner Übertretungen und wegen Forstdiebstahls. Die Gefangenen und Hafttage stammen aus den Tabellen Generalia (S. 283, 286); die durchschnittliche Haftdauer ist Hafttage geteilt durch Gefangene. Die Zahlen der Staatsanwaltschaften (S. 288) sind für beide Ämter addiert.",
-  "en": "The basis is Brückner’s “Statistics of the administration of justice” (pp. 283–289) for 1864 to 1867. For the lawsuits, the columns for new formal lawsuits and their outcome (judgment, settlement, unresolved) were compiled from the tables of the Justizämter (p. 284) and the Kreisgerichte (p. 286); inhabitants per court are not printed, so the rates refer to the principality’s population in 1867 (87,974, p. 92). The convictions for petty offences come from the table “Specially for 1867” (p. 287); a dash counts as no convictions. “Other common offences” is the difference between convictions for common offences and for forest theft. The prisoners and days of custody come from the General tables (pp. 283, 286); the average length of custody is days divided by prisoners. The figures of the public prosecutors (p. 288) are added up for both offices."
+  "en": "The basis is Brückner’s “Statistics of the administration of justice” (pp. 283–289) for 1864 to 1867. For the lawsuits, the columns for new formal lawsuits and their outcome (judgment, settlement, unresolved) were compiled from the tables of the Justizämter (p. 284) and the Kreisgerichte (p. 286); inhabitants per court are not printed, so the rates refer to the principality’s population in 1867 (87,974, p. 92). The convictions for petty offences come from the table “Speciell für 1867” (p. 287); a dash counts as no convictions. “Other common offences” is the difference between convictions for common offences and for forest theft. The prisoners and days of custody come from the tables headed “Generalia” (pp. 283, 286); the average length of custody is days divided by prisoners. The figures of the public prosecutors (p. 288) are added up for both offices."
  },
  "caveats": [
   {
@@ -112,11 +112,11 @@
    "en": "Some sums in the print do not add up: for 1864 the parts of the new lawsuits give 571 instead of 561 at the Kreisgerichte and 2,015 instead of 2,021 at the Justizämter; the days of imprisonment at the Kreisgerichte in 1867 are printed as 3,201, the parts give 3,223. The parts and the printed sum are used respectively."
   },
   {
-   "de": "Dass Vergleiche häufig waren, fällt in die Zeit nach dem Gesetz vom 28. April 1863 über Friedensgerichte (S. 282); ein Zusammenhang ist eine Vermutung, Brückner äußert sich nicht dazu.",
-   "en": "That settlements were frequent falls in the time after the law of 28 April 1863 on courts of conciliation (p. 282); a connection is a conjecture, Brückner does not comment."
+   "de": "Die vielen Vergleiche fallen in die Zeit nach dem Gesetz vom 28. April 1863 über Friedensgerichte (S. 282); ein Zusammenhang ist nur vermutet, Brückner äußert sich nicht dazu.",
+   "en": "The frequent settlements fall in the period after the law of 28 April 1863 on courts of conciliation (p. 282); a connection is conjecture, and Brückner does not comment on it."
   },
   {
-   "de": "Brückner führt die Mehrarbeit der Staatsanwaltschaften 1867 auf die Not der Arbeiterbevölkerung im reichenfelser Gebiet zurück (S. 289). Die Zugehörigkeit der Justizämter zu den Kreisgerichtsbezirken folgt S. 281; das Justizamt Hohenleuben gehört zum Bezirk Gera.",
+   "de": "Brückner führt die Mehrarbeit der Staatsanwaltschaften 1867 auf die Not der Arbeiterbevölkerung im Reichenfelser Gebiet zurück (S. 289). Die Zugehörigkeit der Justizämter zu den Kreisgerichtsbezirken folgt S. 281; das Justizamt Hohenleuben gehört zum Bezirk Gera.",
    "en": "Brückner attributes the extra work of the public prosecutors in 1867 to the hardship of the working population in the Reichenfels area (p. 289). The assignment of the Justizämter to the Kreisgericht districts follows p. 281; the Justizamt Hohenleuben belongs to the Gera district."
   }
  ],
@@ -147,15 +147,6 @@
      "unit": null
     },
     {
-     "name": "outcome_key",
-     "label": {
-      "de": "Ausgang (Schlüssel)",
-      "en": "Outcome (key)"
-     },
-     "type": "string",
-     "unit": null
-    },
-    {
      "name": "outcome_de",
      "label": {
       "de": "Ausgang",
@@ -167,8 +158,8 @@
     {
      "name": "outcome_en",
      "label": {
-      "de": "Ausgang (en)",
-      "en": "Outcome (en)"
+      "de": "Ausgang (englisch)",
+      "en": "Outcome (English)"
      },
      "type": "string",
      "unit": null
@@ -187,7 +178,6 @@
     [
      "Justizämter",
      1864,
-     "a",
      "Erkenntnis",
      "Judgment",
      372
@@ -195,7 +185,6 @@
     [
      "Justizämter",
      1864,
-     "b",
      "Vergleich",
      "Settlement",
      1123
@@ -203,7 +192,6 @@
     [
      "Justizämter",
      1864,
-     "c",
      "Unerledigt",
      "Unresolved",
      520
@@ -211,7 +199,6 @@
     [
      "Justizämter",
      1865,
-     "a",
      "Erkenntnis",
      "Judgment",
      378
@@ -219,7 +206,6 @@
     [
      "Justizämter",
      1865,
-     "b",
      "Vergleich",
      "Settlement",
      1505
@@ -227,7 +213,6 @@
     [
      "Justizämter",
      1865,
-     "c",
      "Unerledigt",
      "Unresolved",
      381
@@ -235,7 +220,6 @@
     [
      "Justizämter",
      1866,
-     "a",
      "Erkenntnis",
      "Judgment",
      247
@@ -243,7 +227,6 @@
     [
      "Justizämter",
      1866,
-     "b",
      "Vergleich",
      "Settlement",
      1456
@@ -251,7 +234,6 @@
     [
      "Justizämter",
      1866,
-     "c",
      "Unerledigt",
      "Unresolved",
      382
@@ -259,7 +241,6 @@
     [
      "Justizämter",
      1867,
-     "a",
      "Erkenntnis",
      "Judgment",
      334
@@ -267,7 +248,6 @@
     [
      "Justizämter",
      1867,
-     "b",
      "Vergleich",
      "Settlement",
      1540
@@ -275,7 +255,6 @@
     [
      "Justizämter",
      1867,
-     "c",
      "Unerledigt",
      "Unresolved",
      395
@@ -283,7 +262,6 @@
     [
      "Kreisgerichte",
      1864,
-     "a",
      "Erkenntnis",
      "Judgment",
      121
@@ -291,7 +269,6 @@
     [
      "Kreisgerichte",
      1864,
-     "b",
      "Vergleich",
      "Settlement",
      293
@@ -299,7 +276,6 @@
     [
      "Kreisgerichte",
      1864,
-     "c",
      "Unerledigt",
      "Unresolved",
      157
@@ -307,7 +283,6 @@
     [
      "Kreisgerichte",
      1865,
-     "a",
      "Erkenntnis",
      "Judgment",
      159
@@ -315,7 +290,6 @@
     [
      "Kreisgerichte",
      1865,
-     "b",
      "Vergleich",
      "Settlement",
      326
@@ -323,7 +297,6 @@
     [
      "Kreisgerichte",
      1865,
-     "c",
      "Unerledigt",
      "Unresolved",
      188
@@ -331,7 +304,6 @@
     [
      "Kreisgerichte",
      1866,
-     "a",
      "Erkenntnis",
      "Judgment",
      163
@@ -339,7 +311,6 @@
     [
      "Kreisgerichte",
      1866,
-     "b",
      "Vergleich",
      "Settlement",
      394
@@ -347,7 +318,6 @@
     [
      "Kreisgerichte",
      1866,
-     "c",
      "Unerledigt",
      "Unresolved",
      232
@@ -355,7 +325,6 @@
     [
      "Kreisgerichte",
      1867,
-     "a",
      "Erkenntnis",
      "Judgment",
      194
@@ -363,7 +332,6 @@
     [
      "Kreisgerichte",
      1867,
-     "b",
      "Vergleich",
      "Settlement",
      346
@@ -371,7 +339,6 @@
     [
      "Kreisgerichte",
      1867,
-     "c",
      "Unerledigt",
      "Unresolved",
      198
@@ -458,7 +425,7 @@
      "name": "defraud_convicted",
      "label": {
       "de": "Verurteilt wegen Defraudationen",
-      "en": "Convicted of defraudations"
+      "en": "Convicted of tax and customs fraud"
      },
      "type": "integer",
      "unit": "Personen"
@@ -799,15 +766,6 @@
    },
    "columns": [
     {
-     "name": "measure_key",
-     "label": {
-      "de": "Kürzel",
-      "en": "Key"
-     },
-     "type": "string",
-     "unit": null
-    },
-    {
      "name": "measure_de",
      "label": {
       "de": "Messgröße",
@@ -857,7 +815,6 @@
    ],
    "rows": [
     [
-     "a",
      "Vortragsnummern",
      "Vortragsnummern (reports)",
      1864,
@@ -865,7 +822,6 @@
      100.0
     ],
     [
-     "a",
      "Vortragsnummern",
      "Vortragsnummern (reports)",
      1865,
@@ -873,7 +829,6 @@
      119.6
     ],
     [
-     "a",
      "Vortragsnummern",
      "Vortragsnummern (reports)",
      1866,
@@ -881,7 +836,6 @@
      103.8
     ],
     [
-     "a",
      "Vortragsnummern",
      "Vortragsnummern (reports)",
      1867,
@@ -889,7 +843,6 @@
      120.4
     ],
     [
-     "b",
      "Neu eingegangene Sachen",
      "New cases received",
      1864,
@@ -897,7 +850,6 @@
      100.0
     ],
     [
-     "b",
      "Neu eingegangene Sachen",
      "New cases received",
      1865,
@@ -905,7 +857,6 @@
      101.6
     ],
     [
-     "b",
      "Neu eingegangene Sachen",
      "New cases received",
      1866,
@@ -913,7 +864,6 @@
      108.7
     ],
     [
-     "b",
      "Neu eingegangene Sachen",
      "New cases received",
      1867,
@@ -921,7 +871,6 @@
      120.1
     ],
     [
-     "c",
      "Voruntersuchungen veranlasst",
      "Preliminary investigations ordered",
      1864,
@@ -929,7 +878,6 @@
      100.0
     ],
     [
-     "c",
      "Voruntersuchungen veranlasst",
      "Preliminary investigations ordered",
      1865,
@@ -937,7 +885,6 @@
      106.2
     ],
     [
-     "c",
      "Voruntersuchungen veranlasst",
      "Preliminary investigations ordered",
      1866,
@@ -945,7 +892,6 @@
      214.1
     ],
     [
-     "c",
      "Voruntersuchungen veranlasst",
      "Preliminary investigations ordered",
      1867,
@@ -953,7 +899,6 @@
      268.0
     ],
     [
-     "d",
      "Anklageschriften",
      "Indictments",
      1864,
@@ -961,7 +906,6 @@
      100.0
     ],
     [
-     "d",
      "Anklageschriften",
      "Indictments",
      1865,
@@ -969,7 +913,6 @@
      120.4
     ],
     [
-     "d",
      "Anklageschriften",
      "Indictments",
      1866,
@@ -977,7 +920,6 @@
      125.0
     ],
     [
-     "d",
      "Anklageschriften",
      "Indictments",
      1867,
@@ -985,7 +927,6 @@
      145.4
     ],
     [
-     "e",
      "Hauptverhandlungen 1. Instanz",
      "Trials, first instance",
      1864,
@@ -993,7 +934,6 @@
      100.0
     ],
     [
-     "e",
      "Hauptverhandlungen 1. Instanz",
      "Trials, first instance",
      1865,
@@ -1001,7 +941,6 @@
      134.4
     ],
     [
-     "e",
      "Hauptverhandlungen 1. Instanz",
      "Trials, first instance",
      1866,
@@ -1009,7 +948,6 @@
      138.9
     ],
     [
-     "e",
      "Hauptverhandlungen 1. Instanz",
      "Trials, first instance",
      1867,
@@ -1043,9 +981,9 @@
      "step": 40
     },
     "padding": {
-     "top": 4,
+     "top": 20,
      "left": 4,
-     "right": 44,
+     "right": 8,
      "bottom": 4
     },
     "transform": [
@@ -1118,13 +1056,9 @@
      {
       "calculate": {
        "de": "{'forest_convicted': 'Forstdiebstahl', 'police_convicted': 'Polizeiliche Übertretungen', 'common_other': 'Übrige gemeine Übertretungen', 'honour_convicted': 'Injurien (Ehrenkränkungen)', 'defraud_convicted': 'Defraudationen'}[datum.offence]",
-       "en": "{'forest_convicted': 'Forest theft', 'police_convicted': 'Police offences', 'common_other': 'Other common offences', 'honour_convicted': 'Insults to honour', 'defraud_convicted': 'Defraudations'}[datum.offence]"
+       "en": "{'forest_convicted': 'Forest theft', 'police_convicted': 'Police offences', 'common_other': 'Other common offences', 'honour_convicted': 'Insults to honour', 'defraud_convicted': 'Tax and customs fraud'}[datum.offence]"
       },
       "as": "offence_label"
-     },
-     {
-      "calculate": "(datum.offence == 'forest_convicted' ? datum.kreisgericht + ' ' : '') + datum.n",
-      "as": "seg_label"
      }
     ],
     "encoding": {
@@ -1143,7 +1077,30 @@
        "labelLimit": 300,
        "labelExpr": {
         "de": "{'forest_convicted': 'Forstdiebstahl', 'police_convicted': 'Polizeiliche Übertretungen', 'common_other': 'Übrige gemeine Übertretungen', 'honour_convicted': 'Injurien (Ehrenkränkungen)', 'defraud_convicted': 'Defraudationen'}[datum.value]",
-        "en": "{'forest_convicted': 'Forest theft', 'police_convicted': 'Police offences', 'common_other': 'Other common offences', 'honour_convicted': 'Insults to honour', 'defraud_convicted': 'Defraudations'}[datum.value]"
+        "en": "{'forest_convicted': 'Forest theft', 'police_convicted': 'Police offences', 'common_other': 'Other common offences', 'honour_convicted': 'Insults to honour', 'defraud_convicted': 'Tax and customs fraud'}[datum.value]"
+       }
+      }
+     },
+     "x": {
+      "type": "quantitative",
+      "scale": {
+       "domainMin": 0,
+       "domainMax": {
+        "expr": "max(760, 686 * width / max(width - 40, 60))"
+       },
+       "nice": false
+      },
+      "axis": {
+       "format": ",d",
+       "values": [
+        0,
+        200,
+        400,
+        600
+       ],
+       "title": {
+        "de": "Verurteilte Personen 1867",
+        "en": "Persons convicted, 1867"
        }
       }
      },
@@ -1171,27 +1128,7 @@
       },
       "encoding": {
        "x": {
-        "field": "x0",
-        "type": "quantitative",
-        "scale": {
-         "domain": [
-          0,
-          760
-         ]
-        },
-        "axis": {
-         "format": ",d",
-         "values": [
-          0,
-          200,
-          400,
-          600
-         ],
-         "title": {
-          "de": "Verurteilte Personen 1867",
-          "en": "Persons convicted, 1867"
-         }
-        }
+        "field": "x0"
        },
        "x2": {
         "field": "x1"
@@ -1223,23 +1160,22 @@
       }
      },
      {
-      "transform": [
-       {
-        "filter": "datum.n >= 40"
-       }
-      ],
       "mark": {
        "type": "text",
        "baseline": "middle",
-       "style": "label"
+       "style": "label",
+       "opacity": {
+        "expr": "abs(scale('x', datum.x1) - scale('x', datum.x0)) >= 30 ? 1 : 0"
+       }
       },
       "encoding": {
        "x": {
-        "field": "mid",
-        "type": "quantitative"
+        "field": "mid"
        },
        "text": {
-        "field": "seg_label"
+        "field": "n",
+        "type": "quantitative",
+        "format": ",d"
        },
        "color": {
         "value": "@paper"
@@ -1260,8 +1196,7 @@
       },
       "encoding": {
        "x": {
-        "field": "x1",
-        "type": "quantitative"
+        "field": "x1"
        },
        "text": {
         "field": "tot",
@@ -1269,6 +1204,31 @@
         "format": ",d"
        },
        "color": null
+      }
+     },
+     {
+      "transform": [
+       {
+        "filter": "datum.offence == 'forest_convicted'"
+       }
+      ],
+      "mark": {
+       "type": "text",
+       "align": "left",
+       "baseline": "bottom",
+       "dy": -15,
+       "style": "label"
+      },
+      "encoding": {
+       "x": {
+        "field": "x0"
+       },
+       "text": {
+        "field": "kreisgericht"
+       },
+       "color": {
+        "value": "@ink"
+       }
       }
      }
     ]
@@ -1282,25 +1242,32 @@
     "en": "New lawsuits ended in a settlement much more often than in a judgment"
    },
    "caption": {
-    "de": "Neue förmliche Rechtsstreitigkeiten je Jahr nach Ausgang. Für 1864 ergeben die Teilzahlen der Kreisgerichte 571, gedruckt sind 561. Quelle: S. 280–281, 284, 286.",
-    "en": "New formal lawsuits per year by outcome. For 1864 the parts for the Kreisgerichte add up to 571, the printed total is 561. Source: pp. 280–281, 284, 286."
+    "de": "Neue förmliche Rechtsstreitigkeiten je Jahr nach Ausgang, oben vor den Justizämtern (Prozesse bis 100 Taler), unten vor den Kreisgerichten. Für 1864 ergeben die Teilzahlen der Kreisgerichte 571, gedruckt sind 561. Quelle: S. 280–281, 284, 286.",
+    "en": "New formal lawsuits per year by outcome, above at the Justizämter (suits up to 100 thalers), below at the Kreisgerichte. For 1864 the parts for the Kreisgerichte add up to 571, the printed total is 561. Source: pp. 280–281, 284, 286."
    },
    "vegalite": {
+    "height": {
+     "step": 24
+    },
     "padding": {
-     "top": 8,
+     "top": 30,
      "left": 4,
-     "right": 96,
+     "right": 8,
      "bottom": 4
     },
     "transform": [
      {
-      "calculate": "datum.outcome_key == 'b' ? 0 : (datum.outcome_key == 'a' ? 1 : 2)",
+      "calculate": "datum.level + ' ' + datum.year",
+      "as": "row"
+     },
+     {
+      "calculate": "datum.outcome_de == 'Vergleich' ? 0 : (datum.outcome_de == 'Erkenntnis' ? 1 : 2)",
       "as": "ord"
      },
      {
       "calculate": {
-       "de": "{'a': 'Urteil', 'b': 'Vergleich', 'c': 'unerledigt'}[datum.outcome_key]",
-       "en": "{'a': 'judgment', 'b': 'settlement', 'c': 'unresolved'}[datum.outcome_key]"
+       "de": "datum.ord == 0 ? 'Vergleich' : (datum.ord == 1 ? 'Urteil' : 'unerledigt')",
+       "en": "datum.ord == 0 ? 'settlement' : (datum.ord == 1 ? 'judgment' : 'unresolved')"
       },
       "as": "outcome"
      },
@@ -1313,15 +1280,13 @@
        }
       ],
       "groupby": [
-       "level",
-       "year"
+       "row"
       ]
      },
      {
       "stack": "cases",
       "groupby": [
-       "level",
-       "year"
+       "row"
       ],
       "sort": [
        {
@@ -1330,230 +1295,212 @@
        }
       ],
       "as": [
-       "v0",
-       "v1"
+       "x0",
+       "x1"
       ]
      },
      {
-      "calculate": "(datum.v0 + datum.v1) / 2",
+      "calculate": "(datum.x0 + datum.x1) / 2",
       "as": "mid"
      }
     ],
-    "facet": {
-     "column": {
-      "field": "level",
+    "encoding": {
+     "y": {
+      "field": "row",
       "type": "nominal",
-      "sort": [
-       "Justizämter",
-       "Kreisgerichte"
-      ],
-      "header": {
-       "title": null,
-       "labelOrient": "top",
-       "labelAnchor": "start",
-       "labelFontSize": 12.5,
-       "labelFontWeight": 600,
-       "labelColor": "@ink",
-       "labelPadding": 8,
-       "labelExpr": {
-        "de": "datum.label == 'Justizämter' ? 'Justizämter (Streitwert bis 100 Taler)' : 'Kreisgerichte (größere Streitsachen)'",
-        "en": "datum.label == 'Justizämter' ? 'Justizämter (suits up to 100 thalers)' : 'Kreisgerichte (larger suits)'"
-       }
-      }
-     }
-    },
-    "spec": {
-     "width": 250,
-     "height": 290,
-     "encoding": {
-      "x": {
-       "field": "year",
-       "type": "ordinal",
-       "axis": {
-        "title": null,
-        "labelAngle": 0,
-        "format": "d"
-       }
+      "scale": {
+       "domain": [
+        "Justizämter 1864",
+        "Justizämter 1865",
+        "Justizämter 1866",
+        "Justizämter 1867",
+        " ",
+        "Kreisgerichte 1864",
+        "Kreisgerichte 1865",
+        "Kreisgerichte 1866",
+        "Kreisgerichte 1867"
+       ]
       },
-      "color": {
-       "field": "outcome_key",
-       "type": "nominal",
-       "legend": null,
-       "scale": {
-        "domain": [
-         "b",
-         "a",
-         "c"
-        ],
-        "range": [
-         "@accent",
-         "@accent2",
-         "@context"
-        ]
+      "axis": {
+       "title": null,
+       "labelLimit": 300,
+       "labelExpr": "indexof(datum.value, '1864') >= 0 ? datum.value : substring(datum.value, length(datum.value) - 4)"
+      }
+     },
+     "x": {
+      "type": "quantitative",
+      "scale": {
+       "domainMin": 0,
+       "domainMax": {
+        "expr": "max(2400, 2269 * width / max(width - 44, 60))"
+       },
+       "nice": false
+      },
+      "axis": {
+       "format": ",d",
+       "values": [
+        0,
+        500,
+        1000,
+        1500,
+        2000
+       ],
+       "labelExpr": "width < 360 && datum.value % 1000 != 0 ? '' : datum.label",
+       "title": {
+        "de": "Neue förmliche Rechtsstreitigkeiten",
+        "en": "New formal lawsuits"
        }
       }
      },
-     "layer": [
-      {
-       "mark": {
-        "type": "bar"
-       },
-       "encoding": {
-        "y": {
-         "field": "v0",
-         "type": "quantitative",
-         "scale": {
-          "domain": [
-           0,
-           2500
-          ]
-         },
-         "axis": {
-          "format": ",d",
-          "values": [
-           0,
-           500,
-           1000,
-           1500,
-           2000,
-           2500
-          ],
-          "title": {
-           "de": "Neue förmliche Rechtsstreitigkeiten",
-           "en": "New formal lawsuits"
-          }
-         }
-        },
-        "y2": {
-         "field": "v1"
-        },
-        "tooltip": [
-         {
-          "field": "level",
-          "title": {
-           "de": "Gerichtsebene",
-           "en": "Court level"
-          }
-         },
-         {
-          "field": "year",
-          "title": {
-           "de": "Jahr",
-           "en": "Year"
-          },
-          "format": "d"
-         },
-         {
-          "field": "outcome",
-          "title": {
-           "de": "Ausgang",
-           "en": "Outcome"
-          }
-         },
-         {
-          "field": "cases",
-          "title": {
-           "de": "Fälle",
-           "en": "Cases"
-          },
-          "format": ",d"
-         }
-        ]
-       }
+     "color": {
+      "field": "ord",
+      "type": "nominal",
+      "legend": null,
+      "scale": {
+       "domain": [
+        0,
+        1,
+        2
+       ],
+       "range": [
+        "@accent",
+        "@accent2",
+        "@context"
+       ]
+      }
+     }
+    },
+    "layer": [
+     {
+      "mark": {
+       "type": "bar",
+       "height": 16
       },
-      {
-       "mark": {
-        "type": "text",
-        "baseline": "middle",
-        "style": "label"
+      "encoding": {
+       "x": {
+        "field": "x0"
        },
-       "encoding": {
-        "y": {
-         "field": "mid",
-         "type": "quantitative"
+       "x2": {
+        "field": "x1"
+       },
+       "tooltip": [
+        {
+         "field": "level",
+         "title": {
+          "de": "Gerichtsebene",
+          "en": "Court level"
+         }
         },
-        "text": {
+        {
+         "field": "year",
+         "title": {
+          "de": "Jahr",
+          "en": "Year"
+         },
+         "format": "d"
+        },
+        {
+         "field": "outcome",
+         "title": {
+          "de": "Ausgang",
+          "en": "Outcome"
+         }
+        },
+        {
          "field": "cases",
-         "type": "quantitative",
-         "format": ",d"
-        },
-        "color": {
-         "condition": {
-          "test": "datum.outcome_key == 'c'",
-          "value": "@ink2"
+         "title": {
+          "de": "Fälle",
+          "en": "Cases"
          },
-         "value": "@paper"
-        }
-       }
-      },
-      {
-       "transform": [
-        {
-         "filter": "datum.ord == 2"
-        }
-       ],
-       "mark": {
-        "type": "text",
-        "baseline": "bottom",
-        "dy": -4,
-        "style": "label-muted"
-       },
-       "encoding": {
-        "y": {
-         "field": "v1",
-         "type": "quantitative"
-        },
-        "text": {
-         "field": "tot",
-         "type": "quantitative",
          "format": ",d"
-        },
-        "color": null
+        }
+       ]
+      }
+     },
+     {
+      "transform": [
+       {
+        "filter": "datum.ord < 2"
+       }
+      ],
+      "mark": {
+       "type": "text",
+       "baseline": "middle",
+       "style": "label",
+       "opacity": {
+        "expr": "abs(scale('x', datum.x1) - scale('x', datum.x0)) >= 30 ? 1 : 0"
        }
       },
-      {
-       "transform": [
-        {
-         "filter": "datum.level == 'Kreisgerichte' && datum.year == 1867"
-        }
-       ],
-       "mark": {
-        "type": "text",
-        "baseline": "middle",
-        "align": "left",
-        "dx": 6,
-        "style": "label"
+      "encoding": {
+       "x": {
+        "field": "mid"
        },
-       "encoding": {
-        "x": {
-         "datum": 1867,
-         "type": "ordinal",
-         "bandPosition": 1
-        },
-        "y": {
-         "field": "mid",
-         "type": "quantitative"
-        },
-        "text": {
-         "field": "outcome"
-        },
-        "color": {
-         "condition": [
-          {
-           "test": "datum.outcome_key == 'c'",
-           "value": "@muted"
-          },
-          {
-           "test": "datum.outcome_key == 'a'",
-           "value": "@accent2"
-          }
-         ],
-         "value": "@accent"
-        }
+       "text": {
+        "field": "cases",
+        "type": "quantitative",
+        "format": ",d"
+       },
+       "color": {
+        "value": "@paper"
        }
       }
-     ]
-    }
+     },
+     {
+      "transform": [
+       {
+        "filter": "datum.ord == 2"
+       }
+      ],
+      "mark": {
+       "type": "text",
+       "align": "left",
+       "dx": 5,
+       "style": "label-muted"
+      },
+      "encoding": {
+       "x": {
+        "field": "x1"
+       },
+       "text": {
+        "field": "tot",
+        "type": "quantitative",
+        "format": ",d"
+       },
+       "color": null
+      }
+     },
+     {
+      "transform": [
+       {
+        "filter": "datum.row == 'Justizämter 1864'"
+       }
+      ],
+      "mark": {
+       "type": "text",
+       "align": "left",
+       "baseline": "bottom",
+       "style": "label",
+       "dy": {
+        "expr": "datum.ord == 2 && width < 520 ? -24 : -10"
+       }
+      },
+      "encoding": {
+       "x": {
+        "field": "x0"
+       },
+       "text": {
+        "field": "outcome"
+       },
+       "color": {
+        "condition": {
+         "test": "datum.ord == 2",
+         "value": "@ink2"
+        },
+        "value": "@ink"
+       }
+      }
+     }
+    ]
    }
   },
   {
@@ -1568,11 +1515,13 @@
     "en": "Persons taken into pre-trial detention or imprisonment during the year at the Justizämter and Kreisgerichte together, not a count on a fixed date. Source: pp. 283, 286."
    },
    "vegalite": {
-    "height": 300,
+    "height": {
+     "step": 40
+    },
     "padding": {
-     "top": 8,
+     "top": 20,
      "left": 4,
-     "right": 130,
+     "right": 8,
      "bottom": 4
     },
     "transform": [
@@ -1595,7 +1544,7 @@
      },
      {
       "calculate": {
-       "de": "datum.haftart == 'Strafhaft' ? 'Strafhaft' : 'Untersuchungshaft'",
+       "de": "datum.haftart",
        "en": "datum.haftart == 'Strafhaft' ? 'imprisonment' : 'pre-trial detention'"
       },
       "as": "haft"
@@ -1624,23 +1573,46 @@
        }
       ],
       "as": [
-       "v0",
-       "v1"
+       "x0",
+       "x1"
       ]
      },
      {
-      "calculate": "(datum.v0 + datum.v1) / 2",
+      "calculate": "(datum.x0 + datum.x1) / 2",
       "as": "mid"
      }
     ],
     "encoding": {
-     "x": {
+     "y": {
       "field": "year",
       "type": "ordinal",
       "axis": {
        "title": null,
-       "labelAngle": 0,
        "format": "d"
+      }
+     },
+     "x": {
+      "type": "quantitative",
+      "scale": {
+       "domainMin": 0,
+       "domainMax": {
+        "expr": "max(1600, 1443 * width / max(width - 48, 60))"
+       },
+       "nice": false
+      },
+      "axis": {
+       "format": ",d",
+       "values": [
+        0,
+        400,
+        800,
+        1200,
+        1600
+       ],
+       "title": {
+        "de": "Personen in Haft",
+        "en": "Persons in custody"
+       }
       }
      },
      "color": {
@@ -1662,35 +1634,15 @@
     "layer": [
      {
       "mark": {
-       "type": "bar"
+       "type": "bar",
+       "size": 26
       },
       "encoding": {
-       "y": {
-        "field": "v0",
-        "type": "quantitative",
-        "scale": {
-         "domain": [
-          0,
-          1600
-         ]
-        },
-        "axis": {
-         "format": ",d",
-         "values": [
-          0,
-          400,
-          800,
-          1200,
-          1600
-         ],
-         "title": {
-          "de": "Personen in Haft",
-          "en": "Persons in custody"
-         }
-        }
+       "x": {
+        "field": "x0"
        },
-       "y2": {
-        "field": "v1"
+       "x2": {
+        "field": "x1"
        },
        "tooltip": [
         {
@@ -1723,12 +1675,14 @@
       "mark": {
        "type": "text",
        "baseline": "middle",
-       "style": "label"
+       "style": "label",
+       "opacity": {
+        "expr": "abs(scale('x', datum.x1) - scale('x', datum.x0)) >= 30 ? 1 : 0"
+       }
       },
       "encoding": {
-       "y": {
-        "field": "mid",
-        "type": "quantitative"
+       "x": {
+        "field": "mid"
        },
        "text": {
         "field": "n",
@@ -1748,14 +1702,13 @@
       ],
       "mark": {
        "type": "text",
-       "baseline": "bottom",
-       "dy": -5,
+       "align": "left",
+       "dx": 6,
        "style": "label"
       },
       "encoding": {
-       "y": {
-        "field": "v1",
-        "type": "quantitative"
+       "x": {
+        "field": "x1"
        },
        "text": {
         "field": "tot",
@@ -1768,43 +1721,25 @@
      {
       "transform": [
        {
-        "filter": "datum.year == 1867"
+        "filter": "datum.year == 1864"
        }
       ],
       "mark": {
        "type": "text",
-       "baseline": "middle",
        "align": "left",
-       "dx": 8,
+       "baseline": "bottom",
+       "dy": -15,
        "style": "label"
       },
       "encoding": {
        "x": {
-        "datum": 1867,
-        "type": "ordinal",
-        "bandPosition": 1
-       },
-       "y": {
-        "field": "mid",
-        "type": "quantitative"
+        "field": "x0"
        },
        "text": {
         "field": "haft"
        },
        "color": {
-        "field": "haftart",
-        "type": "nominal",
-        "legend": null,
-        "scale": {
-         "domain": [
-          "Strafhaft",
-          "Untersuchungshaft"
-         ],
-         "range": [
-          "@accent",
-          "@accent2"
-         ]
-        }
+        "value": "@ink"
        }
       }
      }
@@ -1872,6 +1807,5 @@
   "staatsfinanzen",
   "armenwesen-stiftungen"
  ],
- "generated_by": "Claude Sonnet 5.5 (Agent F6), aus 6 Einzelauswertungen zusammengeführt",
  "date": "2026-10-02"
 }

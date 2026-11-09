@@ -45,7 +45,7 @@ GROUP_NAMES = {
     "institutions": ("Behörden, Vereine", "Authorities, societies"),
     "clergy": ("Geistliche", "Clergy"),
     "forestry_mining": ("Forst, Bergbau", "Forestry, mining"),
-    "others": ("übrige", "Others"),
+    "others": ("Übrige", "Others"),
     "farmers": ("Landwirte", "Farmers"),
     "court": ("Hof", "Court"),
     "craftsmen": ("Handwerker", "Craftsmen"),
@@ -133,6 +133,60 @@ kmax = max((r for r in UN if r["unit"] == "Kanne"), key=lambda r: r["value_base"
 kmin = min((r for r in UN if r["unit"] == "Kanne"), key=lambda r: r["value_base"])
 print(kmax["district"], kmin["district"])
 
+# ------------------------------------------------------------ readable values instead of codes in the tables
+REGION = {"gera": "Landesteil Gera", "schleiz": "Landesteil Schleiz", "lobenstein": "Landesteil Lobenstein-Ebersdorf", "outside": "außerhalb des Fürstentums"}
+map_column(by_place, "region", REGION)
+map_column(subscribers, "region", REGION)
+map_column(subscribers, "group", {k: v[0] for k, v in GROUP_NAMES.items()})
+map_column(subscribers, "entity_type", {"person": "Person", "firm": "Firma", "institution": "Einrichtung"})
+map_column(subscribers, "noble_particle", {1: "ja", 0: "nein"})
+map_column(subscribers, "institution_kind", {"authority": "Behörde", "company": "Firma", "library": "Bibliothek", "society": "Verein"})
+map_column(by_group, "group", {k: v[0] for k, v in GROUP_NAMES.items()})
+drop_columns(by_group, {"group_de"})
+map_column(by_group, "service", {1: "ja", 0: "nein"})
+
+SECTION_TITLE = {}
+
+
+def collect_titles(node):
+    if isinstance(node, dict):
+        if "id" in node and "title" in node:
+            SECTION_TITLE[node["id"]] = node["title"]
+        for v in node.values():
+            collect_titles(v)
+    elif isinstance(node, list):
+        for v in node:
+            collect_titles(v)
+
+
+collect_titles(load(os.path.join(ROOT, "data", "structure", "structure.json")))
+SECTION_TITLE["t1-5-2"] = SECTION_TITLE["t1-5-2"].split(". ")[0]
+SECTION_TITLE["t2"] = SECTION_TITLE["t2"].replace("II. Theil: ", "")
+CHAPTER_TITLE = {c[0]: c[1] for c in CH} | {"t2": SECTION_TITLE["t2"]}
+NATURE = CHAPTER_TITLE["t1-1"]
+KIND_DE = {"addition": "Zusatz", "correction": "Berichtigung", "deletion": "Streichung", "update": "Nachtrag"}
+KIND_EN = {"Zusatz": "addition", "Berichtigung": "correction", "Streichung": "deletion", "Nachtrag": "later addition"}
+map_column(corrections, "kind", KIND_DE)
+map_column(corrections, "detail", {"event": "Ereignis", "name": "Name", "number": "Zahl", "omission": "Auslassung", "spelling": "Schreibung",
+                                   "statement": "Aussage", "supplement": "Ergänzung", "word": "Wort"})
+map_column(corrections, "line_from", {"top": "von oben", "bottom": "von unten"})
+map_column(corrections, "replaced_found_on_page", {"yes": "ja", "no": "nein"})
+map_column(corrections, "item", {f"i{k}": str(k) for k in range(1, 20)})
+map_column(corrections, "section", {k: SECTION_TITLE[k] for k in {r["section"] for r in COR}})
+map_column(corrections, "chapter", CHAPTER_TITLE)
+drop_columns(chapters, {"chapter", "band"})
+map_column(units, "quantity", {"length": "Längenmaß", "area": "Flächenmaß", "capacity": "Hohlmaß", "weight": "Gewicht", "firewood": "Brennholzmaß",
+                               "stone": "Steinmaß", "distance": "Wegemaß"})
+map_column(units, "check", {"ok": "stimmt", "abweichend": "abweichend"})
+drop_columns(units, {"unit_id"})
+NOTE = colnames(units).index("note")
+for r in units["rows"]:
+    if r[NOTE]:
+        r[NOTE] = r[NOTE].replace("siehe transcription_issues", "siehe »Am Faksimile geprüfte Lesungen«")
+for c in subscribers["columns"]:
+    if c.get("note"):
+        c["note"] = c["note"].replace("(transcription_issues)", "(siehe »Am Faksimile geprüfte Lesungen«)")
+
 # ------------------------------------------------------------ chart 1: map + professions
 LON = {"field": "lon", "type": "quantitative"}
 LAT = {"field": "lat", "type": "quantitative"}
@@ -149,8 +203,6 @@ def lab_layers(names, dx, dy, align):
         })
     return out
 
-
-group_expr = lambda i: "{" + ",".join(f"'{k}':'{v[i]}'" for k, v in GROUP_NAMES.items()) + "}[datum.value]"
 
 map_panel = {
     "data": {"name": "by_place"},
@@ -186,21 +238,16 @@ map_panel = {
         },
         *lab_layers(["Gera", "Schleiz", "Lobenstein"], 11, 0, "left"),
         *lab_layers(["Ebersdorf", "Hohenleuben"], -8, -9, "right"),
-        {
-            "transform": [{"filter": "datum.place == 'Gera'"}],
-            "mark": {"type": "text", "style": "annotation", "align": "left", "baseline": "top"},
-            "encoding": {"longitude": {"datum": 11.5}, "latitude": {"datum": 50.8},
-                         "text": {"value": bi(f"Nicht abgebildet: {n_out} Einträge von außerhalb", f"Not shown: {n_out} entries from outside")}},
-        },
     ],
 }
 
+GROUP_FIELD = {"de": "group", "en": "group_en"}
 bar_panel = {
     "data": {"name": "by_group"},
     "width": 240,
     "height": {"step": 25},
     "encoding": {
-        "y": {"field": {"de": "group_de", "en": "group_en"}, "type": "nominal", "sort": {"field": "order", "op": "min"},
+        "y": {"field": GROUP_FIELD, "type": "nominal", "sort": {"field": "order", "op": "min"},
               "axis": {"title": None, "ticks": False, "domain": False, "labelLimit": 400}},
         "x": {"field": "entries", "type": "quantitative", "scale": {"domain": [0, 50]}, "axis": None},
     },
@@ -208,18 +255,18 @@ bar_panel = {
         {
             "mark": {"type": "bar", "size": 14, "cornerRadiusEnd": 2},
             "encoding": {
-                "color": {"condition": {"test": "datum.service == 1", "value": "@accent"}, "value": "@context"},
+                "color": {"condition": {"test": "datum.service == 'ja'", "value": "@accent"}, "value": "@context"},
                 "tooltip": [
-                    {"field": {"de": "group_de", "en": "group_en"}, "title": bi("Gruppe", "Group")},
+                    {"field": GROUP_FIELD, "title": bi("Gruppe", "Group")},
                     {"field": "entries", "title": bi("Einträge", "Entries")},
                     {"field": "copies", "title": bi("Exemplare", "Copies")},
                 ],
             },
         },
         {
-            "transform": [{"filter": "datum.group == 'craftsmen'"},
-                          {"calculate": {"de": "['Blau: Staats-, Schul-', 'und Kirchendienst (' + " + str(state_n) + " + ')']",
-                                         "en": "['Blue: state, school', 'and church service (' + " + str(state_n) + " + ')']"}, "as": "note"},
+            "transform": [{"filter": "datum.group == 'Handwerker'"},
+                          {"calculate": {"de": "['Staats-, Schul- und', 'Kirchendienst: " + str(state_n) + "']",
+                                         "en": "['State, school and', 'church service: " + str(state_n) + "']"}, "as": "note"},
                           {"calculate": "16", "as": "nx"}],
             "mark": {"type": "text", "align": "left", "baseline": "middle", "style": "label", "color": "@accent", "lineHeight": 14},
             "encoding": {"x": {"field": "nx", "type": "quantitative"}, "text": {"field": "note"}},
@@ -238,68 +285,85 @@ c1 = {
     "dataset": "by_place",
     "extra_datasets": ["by_group", "orte_basis", "fluesse_basis"],
     "title": bi(
-        "Subskribenten: fast die Hälfte aus drei Städten, über die Hälfte im Staats-, Schul- oder Kirchendienst",
-        "Subscribers: almost half from three towns, more than half in state, school or church service",
+        "Die meisten Subskribenten standen im Staats-, Schul- oder Kirchendienst, fast die Hälfte lebte in drei Städten",
+        "Most subscribers were in state, school or church service; almost half lived in three towns",
     ),
     "caption": bi(
-        f"Links die Orte der {n_in} Subskribenten im Fürstentum (Fläche: Zahl der Einträge), rechts alle {n_entries} nach Beruf; blau: Staats-, Schul-, Kirchendienst. In Klammern die Exemplare, wo sie stark abweichen. Quelle: S. 835–840.",
-        f"Left the places of the {n_in} subscribers within the principality (area: number of entries), right all {n_entries} by occupation; blue: state, school and church service. Copies in brackets where they differ strongly. Source: pp. 835–840.",
+        f"Links die Orte der {n_in} Subskribenten im Fürstentum (Fläche: Zahl der Einträge; {n_out} Einträge von außerhalb fehlen), rechts alle {n_entries} nach Beruf, hervorgehoben der Staats-, Schul- und Kirchendienst. In Klammern die Exemplare, wo sie stark abweichen. Quelle: S. 835–840.",
+        f"Left: places of the {n_in} subscribers within the principality (area: number of entries; {n_out} entries from outside are not shown). Right: all {n_entries} by occupation, with state, school and church service highlighted. Copies in parentheses where they differ markedly. Source: pp. 835–840.",
     ),
     "vegalite": {"hconcat": [map_panel, bar_panel], "spacing": 18, "resolve": {"scale": {"size": "independent"}}},
 }
 
 # ------------------------------------------------------------ chart 2: corrections along the book
 BIN = 10
+PAGE_X = {"type": "quantitative", "scale": {"domain": [0, 830], "nice": False}}
+Y_TOP = 17.5
+STACK_Y = {"type": "quantitative", "scale": {"domain": [0, Y_TOP]}, "axis": None}
+chapter_bands = [{"window": [{"op": "row_number", "as": "chapter_no"}], "sort": [{"field": "start_page"}]},
+                 {"calculate": "(datum.start_page + datum.end_page) / 2", "as": "mid"}]
+kind_en_expr = "{" + ",".join(f"'{k}':'{v}'" for k, v in KIND_EN.items()) + "}[datum.kind]"
+
+
+def chapter_labels(test, x_field, align, dy):
+    return {
+        "data": {"name": "chapters"},
+        "transform": chapter_bands + [{"filter": test}],
+        "mark": {"type": "text", "style": "annotation", "baseline": "top", "align": align, "dy": dy},
+        "encoding": {
+            "x": {"field": x_field, **PAGE_X},
+            "y": {"datum": Y_TOP, **STACK_Y},
+            "text": {"field": {"de": "short_de", "en": "short_en"}},
+        },
+    }
+
+
 c2 = {
     "id": "c2",
     "dataset": "corrections",
     "extra_datasets": ["chapters"],
     "title": bi(
-        f"Fast die Hälfte der {n_cor} Zusätze und Berichtigungen betrifft die Natur des Landes ({nat_hi - nat_lo + 1} Seiten)",
-        f"Almost half of the {n_cor} addenda and corrigenda concern the nature of the land ({nat_hi - nat_lo + 1} pages)",
+        f"Fast die Hälfte der {n_cor} Zusätze und Berichtigungen betrifft Klima, Pflanzen- und Tierwelt",
+        f"Almost half of the {n_cor} addenda and corrigenda concern climate, plants and animals",
     ),
     "caption": bi(
-        f"Jeder Punkt ist ein Zusatz oder eine Berichtigung aus Brückners Anhang, nach der Seite im Buch geordnet (je {BIN} Seiten übereinander); Streifen: Kapitel. Blau: Natur des Landes. Quelle: S. 830–834.",
-        f"Each dot is an addendum or correction from Brückner’s appendix, ordered by page in the book ({BIN} pages per stack); bands: chapters. Blue: nature of the land. Source: pp. 830–834.",
+        f"Jeder Punkt ist ein Zusatz oder eine Berichtigung aus Brückners Anhang, nach der Seite im Buch geordnet (je {BIN} Seiten übereinander); Streifen: Kapitel, hervorgehoben die Natur des Landes. Quelle: S. 830–834.",
+        f"Each dot is one addendum or correction from Brückner’s appendix, placed by the page it refers to ({BIN} pages per stack); bands: chapters, with the nature of the land highlighted. Source: pp. 830–834.",
     ),
     "vegalite": {
         "height": 300,
         "layer": [
             {
                 "data": {"name": "chapters"},
+                "transform": chapter_bands,
                 "mark": {"type": "rect"},
                 "encoding": {
-                    "x": {"field": "start_page", "type": "quantitative", "scale": {"domain": [0, 830], "nice": False},
+                    "x": {"field": "start_page", **PAGE_X,
                           "axis": {"title": bi("Seite des Buchs", "Page of the book"), "values": [3, 91, 208, 311, 407, 570, 706, 825], "format": "d", "grid": False, "domain": True}},
                     "x2": {"field": "end_page"},
-                    "color": {"condition": [{"test": "datum.band == 2", "value": "@accent"}, {"test": "datum.band == 1", "value": "@land"}], "value": "@paper"},
-                    "opacity": {"condition": {"test": "datum.band == 2", "value": 0.16}, "value": 0.6},
+                    "color": {"condition": [{"test": "datum.chapter_no == 1", "value": "@accent"}, {"test": "datum.chapter_no % 2 == 0", "value": "@land"}], "value": "@paper"},
+                    "opacity": {"condition": {"test": "datum.chapter_no == 1", "value": 0.16}, "value": 0.6},
                 },
             },
-            {
-                "data": {"name": "chapters"},
-                "transform": [{"calculate": "(datum.start_page + datum.end_page) / 2", "as": "mid"}],
-                "mark": {"type": "text", "style": "annotation", "baseline": "top", "dy": 4},
-                "encoding": {
-                    "x": {"field": "mid", "type": "quantitative", "scale": {"domain": [0, 830], "nice": False}},
-                    "y": {"datum": 17.5, "type": "quantitative", "scale": {"domain": [0, 17.5]}, "axis": None},
-                    "text": {"field": {"de": "short_de", "en": "short_en"}},
-                },
-            },
+            chapter_labels("indexof([1, 2, 4, 6, 8], datum.chapter_no) >= 0", "mid", "center", 4),
+            chapter_labels("datum.chapter_no == 3", "end_page", "right", 19),
+            chapter_labels("datum.chapter_no == 5", "start_page", "left", 19),
+            chapter_labels("datum.chapter_no == 7", "mid", "center", 19),
             {
                 "transform": [
                     {"calculate": f"floor(datum.target_page / {BIN}) * {BIN} + {BIN // 2}", "as": "bin"},
                     {"window": [{"op": "row_number", "as": "rn"}], "groupby": ["bin"], "sort": [{"field": "target_page"}, {"field": "corr_id"}]},
+                    {"calculate": {"de": "datum.kind", "en": kind_en_expr}, "as": "kind_label"},
                 ],
                 "mark": {"type": "circle", "size": 46, "stroke": "@paper", "strokeWidth": 0.8, "opacity": 1},
                 "encoding": {
-                    "x": {"field": "bin", "type": "quantitative", "scale": {"domain": [0, 830], "nice": False}},
-                    "y": {"field": "rn", "type": "quantitative", "scale": {"domain": [0, 17.5]}, "axis": None},
-                    "color": {"condition": {"test": "datum.chapter == 't1-1'", "value": "@accent"}, "value": "@muted"},
+                    "x": {"field": "bin", **PAGE_X},
+                    "y": {"field": "rn", **STACK_Y},
+                    "color": {"condition": {"test": f"datum.chapter == '{NATURE}'", "value": "@accent"}, "value": "@muted"},
                     "tooltip": [
                         {"field": "target_page", "title": bi("Seite", "Page"), "format": "d"},
                         {"field": "line_ref", "title": bi("Zeile", "Line")},
-                        {"field": "kind", "title": bi("Art", "Kind")},
+                        {"field": "kind_label", "title": bi("Art", "Kind")},
                         {"field": "text_printed", "title": bi("Wortlaut", "Wording")},
                     ],
                 },
@@ -308,8 +372,8 @@ c2 = {
                 "transform": [{"filter": "datum.corr_id == 'K001'"}, {"calculate": "90", "as": "xa"}, {"calculate": "13.5", "as": "ya"}],
                 "mark": {"type": "text", "style": "label", "align": "left", "dx": 14, "dy": 8, "color": "@accent"},
                 "encoding": {
-                    "x": {"field": "xa", "type": "quantitative", "scale": {"domain": [0, 830], "nice": False}},
-                    "y": {"field": "ya", "type": "quantitative", "scale": {"domain": [0, 17.5]}, "axis": None},
+                    "x": {"field": "xa", **PAGE_X},
+                    "y": {"field": "ya", **STACK_Y},
                     "text": {"value": bi(f"{len(nat)} Einträge auf S. {nat_lo} bis {nat_hi}", f"{len(nat)} entries on pp. {nat_lo} to {nat_hi}")},
                 },
             },
@@ -318,13 +382,17 @@ c2 = {
 }
 
 # ------------------------------------------------------------ chart 3: the units
-UNIT_LABEL = {"Kanne": ("Kanne (Liter)", "Kanne (liters)"), "Eimer": ("Eimer (Liter)", "Eimer (liters)"), "Elle": ("Elle (Meter)", "Elle (meters)")}
+UNIT_ORDER = ["Kanne", "Eimer", "Elle"]
+UNIT_LABEL = {"Kanne": ("Kanne (Liter)", "Kanne (litres)"), "Eimer": ("Eimer (Liter)", "Eimer (litres)"), "Elle": ("Elle (Meter)", "Elle (metres)")}
 unit_expr = lambda i: "{" + ",".join(f"'{k}':'{v[i]}'" for k, v in UNIT_LABEL.items()) + "}[datum.value]"
 DISTRICT_ORDER = ["Gera", "Schleiz", "Saalburg", "Lobenstein", "Hirschberg"]
+RANGE_ROW = "Spanne"
+
+
 def cell_text(unit, fmt):
     return {
         "transform": [{"filter": f"datum.unit == '{unit}'"}],
-        "mark": {"type": "text", "style": "label", "fontSize": 12},
+        "mark": {"type": "text", "style": "label"},
         "encoding": {"text": {"field": "value_base", "type": "quantitative", "format": fmt},
                      "color": {"condition": {"test": "datum.rel >= 112", "value": "@paper"}, "value": "@ink"}},
     }
@@ -334,31 +402,32 @@ c3 = {
     "id": "c3",
     "dataset": "units",
     "title": bi(
-        "Dieselbe Einheit, andere Größe: Die Kanne ist in Hirschberg ein Drittel größer als in Schleiz",
-        "Same unit, different size: the Kanne is a third larger in Hirschberg than in Schleiz",
+        "Die Kanne war in Hirschberg ein Drittel größer als in Schleiz",
+        "A Kanne in Hirschberg held a third more than in Schleiz",
     ),
     "caption": bi(
-        "Metrischer Wert von Kanne, Eimer und Elle in den Bezirken nach Brückners Umrechnungstabelle vom 20. März 1869; je dunkler, desto größer gegenüber dem kleinsten Wert der Zeile. Rechts die Spanne. Quelle: S. 831–832.",
-        "Metric value of the Kanne, Eimer and Elle in the districts according to Brückner’s conversion table of 20 March 1869; the darker, the larger relative to the smallest value in the row. Range on the right. Source: pp. 831–832.",
+        "Metrischer Wert von Kanne, Eimer und Elle in den Bezirken nach Brückners Umrechnungstabelle vom 20. März 1869; die Farbe zeigt den Wert gegenüber dem kleinsten der Spalte, die letzte Zeile die Spanne. Quelle: S. 831–832.",
+        "Metric value of the Kanne, Eimer and Elle in each district according to Brückner’s conversion table of 20 March 1869; colour shows each value relative to the smallest in its column, the last row the range. Source: pp. 831–832.",
     ),
     "vegalite": {
-        "height": {"step": 56},
-        "padding": {"top": 4, "bottom": 4, "left": 4, "right": 64},
+        "height": {"step": 38},
         "transform": [
             {"filter": "indexof(['Kanne', 'Eimer', 'Elle'], datum.unit) >= 0 && isValid(datum.value_base)"},
             {"joinaggregate": [{"op": "min", "field": "value_base", "as": "vmin"}, {"op": "max", "field": "value_base", "as": "vmax"}], "groupby": ["unit"]},
             {"calculate": "datum.value_base / datum.vmin * 100", "as": "rel"},
             {"calculate": "datum.vmax / datum.vmin - 1", "as": "spread"},
+            {"calculate": "datum.district", "as": "row"},
         ],
         "encoding": {
-            "x": {"field": "district", "type": "ordinal", "sort": DISTRICT_ORDER,
-                  "axis": {"title": None, "orient": "top", "ticks": False, "domain": False, "labelAngle": 0, "labelPadding": 6}},
-            "y": {"field": "unit", "type": "ordinal", "sort": {"field": "spread", "op": "max", "order": "descending"},
-                  "axis": {"title": None, "ticks": False, "domain": False, "labelExpr": {"de": unit_expr(0), "en": unit_expr(1)}, "labelLimit": 300}},
+            "x": {"field": "unit", "type": "ordinal", "sort": UNIT_ORDER,
+                  "axis": {"title": None, "orient": "top", "ticks": False, "domain": False, "labelAngle": 0, "labelPadding": 6,
+                           "labelExpr": {"de": unit_expr(0), "en": unit_expr(1)}}},
+            "y": {"field": "row", "type": "ordinal", "sort": DISTRICT_ORDER + [RANGE_ROW],
+                  "axis": {"title": None, "ticks": False, "domain": False, "labelExpr": {"de": "datum.value", "en": f"datum.value == '{RANGE_ROW}' ? 'Range' : datum.value"}}},
         },
         "layer": [
             {
-                "mark": {"type": "rect", "stroke": "@paper", "strokeWidth": 3, "cornerRadius": 3},
+                "mark": {"type": "rect", "stroke": "@paper", "strokeWidth": 3, "cornerRadius": 3, "width": {"band": 0.7}},
                 "encoding": {
                     "color": {"field": "rel", "type": "quantitative", "legend": None, "scale": {"domain": [100, 140], "range": "heatmap"}},
                     "tooltip": [
@@ -374,14 +443,9 @@ c3 = {
             cell_text("Eimer", ".1f"),
             cell_text("Elle", ".3f"),
             {
-                "transform": [{"filter": "datum.district == 'Hirschberg'"}],
-                "mark": {"type": "text", "style": "label", "align": "left", "dx": 78},
+                "transform": [{"filter": "datum.district == 'Hirschberg'"}, {"calculate": f"'{RANGE_ROW}'", "as": "row"}],
+                "mark": {"type": "text", "style": "label"},
                 "encoding": {"text": {"field": "spread", "type": "quantitative", "format": "+.1%"}},
-            },
-            {
-                "transform": [{"filter": "datum.district == 'Hirschberg' && datum.unit == 'Kanne'"}],
-                "mark": {"type": "text", "style": "annotation", "align": "left", "dx": 78, "dy": -40},
-                "encoding": {"text": {"value": bi("Spanne", "Range")}},
             },
         ],
     },
@@ -398,9 +462,9 @@ sources = [{"page": p, "block": b} for p, b in sources_seen]
 
 summary = bi(
     f"Der Anhang des Buchs enthält die Liste der {n_entries} Subskribenten, die zusammen {n_copies} Exemplare bestellten, Brückners {n_cor} Zusätze und Berichtigungen und die amtliche Umrechnung der Maße von 1869. "
-    f"Fast die Hälfte der Subskribenten wohnte in Gera, Schleiz und Lobenstein. Von den Berichtigungen betreffen {len(nat)} die Natur des Landes. Die Kanne ist je nach Bezirk um bis zu {fmt_de(spread['Kanne'], 1)} Prozent größer.",
-    f"The appendix contains the list of {n_entries} subscribers who ordered {n_copies} copies in all, Brückner’s {n_cor} addenda and corrigenda and the official conversion of weights and measures of 1869. "
-    f"Almost half of the subscribers lived in Gera, Schleiz and Lobenstein. {len(nat)} of the corrections concern the nature of the land. The Kanne is up to {spread['Kanne']:.1f} percent larger depending on the district.",
+    f"Fast die Hälfte der Subskribenten wohnte in Gera, Schleiz und Lobenstein. {len(nat)} der Berichtigungen betreffen die Natur des Landes. Eine Kanne fasste in Hirschberg {fmt_de(spread['Kanne'], 1)} Prozent mehr als in Schleiz.",
+    f"The appendix contains the list of the {n_entries} subscribers, who ordered {n_copies} copies in all, Brückner’s {n_cor} addenda and corrigenda, and the official conversion of weights and measures of 1869. "
+    f"Almost half of the subscribers lived in Gera, Schleiz and Lobenstein. {len(nat)} of the corrections concern the nature of the land. A Kanne in Hirschberg held {spread['Kanne']:.1f} percent more than in Schleiz.",
 )
 findings = [
     bi(
@@ -408,12 +472,12 @@ findings = [
         f"{n_in} of the {n_entries} entries ({100 * n_in / n_entries:.1f} percent) come from the principality, {n_top3} from Gera, Schleiz and Lobenstein; {state_n} are in state, school or church service, {land_craft} are farmers or craftsmen.",
     ),
     bi(
-        f"Von {n_cor} Änderungen betreffen {len(nat)} die Natur des Landes (S. {nat_lo} bis {nat_hi}); {n_upd} sind Aktualisierungen, die Ereignisse bis 1869 melden.",
-        f"Of {n_cor} changes, {len(nat)} concern the nature of the land (pp. {nat_lo} to {nat_hi}); {n_upd} are updates reporting events up to 1869.",
+        f"Von {n_cor} Änderungen betreffen {len(nat)} die Natur des Landes (S. {nat_lo} bis {nat_hi}); {n_upd} sind Nachträge, die Ereignisse bis 1869 melden.",
+        f"Of the {n_cor} changes, {len(nat)} concern the nature of the land (pp. {nat_lo} to {nat_hi}); {n_upd} are later additions reporting events up to 1869.",
     ),
     bi(
         f"Die Kanne misst in Schleiz {fmt_de(kmin['value_base'], 4)} Liter, in Hirschberg {fmt_de(kmax['value_base'], 4)}; bei Eimer ({fmt_de(spread['Eimer'], 1)} Prozent) und Elle ({fmt_de(spread['Elle'], 1)} Prozent) ist die Spanne kleiner.",
-        f"The Kanne measures {kmin['value_base']:.4f} liters in Schleiz and {kmax['value_base']:.4f} in Hirschberg; for the Eimer ({spread['Eimer']:.1f} percent) and the Elle ({spread['Elle']:.1f} percent) the range is smaller.",
+        f"The Kanne measures {kmin['value_base']:.4f} litres in Schleiz and {kmax['value_base']:.4f} in Hirschberg; for the Eimer ({spread['Eimer']:.1f} percent) and the Elle ({spread['Elle']:.1f} percent) the range is smaller.",
     ),
 ]
 print(findings)
@@ -423,12 +487,12 @@ method = bi(
     "Die Berufsgruppen sind eine redaktionelle Zuordnung nach dem gedruckten Titel (zehn Gruppen für Personen und Firmen, dazu Behörden, Bibliotheken und Vereine). Die Koordinaten der Orte stammen aus GeoNames. "
     "Von den Zusätzen und Berichtigungen (S. 830–834) ist jede gedruckte Anweisung eine Zeile mit Bezugsseite und Zeile des Haupttextes; Art und Kapitel sind redaktionell. "
     "Die Umrechnungstabelle (S. 831–832) ist der amtliche Text vom 20. März 1869 mit 39 Einheitendefinitionen. Die Werte wurden, wo möglich, aus den übrigen Angaben nachgerechnet; 32 von 34 stimmen auf höchstens 0,014 Prozent. "
-    "Die Farbe im Diagramm 3 zeigt den Wert gegenüber dem kleinsten der Zeile. Die Kapitelgrenzen im Diagramm 2 stammen aus der Inhaltsübersicht (S. VII–VIII).",
+    "Die Farbe im Diagramm 3 zeigt den Wert gegenüber dem kleinsten der Spalte. Die Kapitelgrenzen im Diagramm 2 stammen aus der Inhaltsübersicht (S. VII–VIII).",
     "The subscription list (pp. 835–840) was taken line by line: copies, name, occupation or rank and place as printed. The place is given in the spelling of the index of places; the location (district or outside) follows from the page of the place in the index. "
     "The occupational groups are an editorial assignment based on the printed title (ten groups for persons and firms, plus authorities, libraries and societies). The coordinates of the places come from GeoNames. "
     "Of the addenda and corrigenda (pp. 830–834) each printed instruction is one row with the target page and line of the main text; kind and chapter are editorial. "
     "The conversion table (pp. 831–832) is the official text of 20 March 1869 with 39 unit definitions. Where possible the values were recomputed from the other entries; 32 of 34 agree to within 0.014 percent. "
-    "The color in chart 3 shows the value relative to the smallest in the row. The chapter boundaries in chart 2 come from the table of contents (pp. VII–VIII).",
+    "The colour in chart 3 shows each value relative to the smallest in its column. The chapter boundaries in chart 2 come from the table of contents (pp. VII–VIII).",
 )
 caveats = [
     bi(
@@ -436,8 +500,8 @@ caveats = [
         "A subscription list records advance orders, not readers. Booksellers (50 copies at Teich in Lobenstein) presumably ordered for resale, libraries and societies for several users. Buyers after publication are missing.",
     ),
     bi(
-        f"Die Berufsgruppen folgen allein dem gedruckten Titel und sind eine Setzung. Auf der Karte fehlen {missing_places} Orte mit {missing_place_entries} Einträgen ohne Koordinaten sowie die {n_out} Einträge von außerhalb, vor allem Buchhandlungen in Berlin, Dresden und Leipzig.",
-        f"The occupational groups follow the printed title alone and are a convention. The map lacks {missing_places} places with {missing_place_entries} entries without coordinates and the {n_out} entries from outside, mostly booksellers in Berlin, Dresden and Leipzig.",
+        f"Die Berufsgruppen folgen allein dem gedruckten Titel und sind eine redaktionelle Einteilung. Auf der Karte fehlen {missing_places} Orte mit {missing_place_entries} Einträgen ohne Koordinaten sowie die {n_out} Einträge von außerhalb, vor allem Buchhandlungen in Berlin, Dresden und Leipzig.",
+        f"The occupational groups follow the printed title alone and are an editorial classification. The map lacks {missing_places} places with {missing_place_entries} entries without coordinates and the {n_out} entries from outside, mostly booksellers in Berlin, Dresden and Leipzig.",
     ),
     bi(
         "Art und Kapitel der Berichtigungen sind redaktionelle Zuordnungen. Die Zeilenangaben wurden nicht nachgezählt, für die Verknüpfung gilt die Bezugsseite. Das Transkript hatte drei berichtigte Druckfehler stillschweigend geglättet oder verlesen (S. 277, 489, 496).",
@@ -473,7 +537,6 @@ a = {
         "en": ["subscribers", "readership", "corrigenda", "addenda", "weights and measures", "conversion", "Elle", "Kanne", "Eimer", "printing 1870"],
     },
     "related": ["kirche-schule", "klima-gera", "pflanzenwelt"],
-    "generated_by": "Claude Sonnet 5.5 (Agent F8), aus 3 Einzelauswertungen zusammengeführt",
     "date": "2026-10-02",
 }
 

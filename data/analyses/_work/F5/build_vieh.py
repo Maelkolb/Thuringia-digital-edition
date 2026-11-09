@@ -32,7 +32,6 @@ def j100(lt, sp, key):
 
 # ---------------------------------------------------------------- village table for the map
 village_cols = [
-    col("place_id", "Kennung", "ID", "string"),
     col("name", "Ort", "Place", "string"),
     col("landestheil", "Landesteil", "District", "string"),
     col("class_de", "Art des Ortes", "Kind of place", "string", derived=True),
@@ -42,7 +41,7 @@ village_cols = [
     col("sheep", "Schafe", "Sheep", "integer", "Stück", note="leer = nicht genannt"),
     col("goats", "Ziegen", "Goats", "integer", "Stück", note="leer = nicht genannt"),
     col("leittier", "Zahlreichere Tierart (Schafe oder Rinder)", "More numerous species (sheep or cattle)", "string", derived=True,
-        note="schafe = mehr Schafe als Rinder; rinder = gleich viele oder mehr Rinder; Städte ausgenommen"),
+        note="Schafe = mehr Schafe als Rinder; Rinder = gleich viele oder mehr Rinder; bei Städten leer"),
     col("tiere", "Schafe und Rinder zusammen", "Sheep and cattle together", "integer", "Stück", derived=True),
     col("lon", "Länge", "Longitude", "number", "°", True, "GeoNames"),
     col("lat", "Breite", "Latitude", "number", "°", True, "GeoNames"),
@@ -54,14 +53,14 @@ cnt = {lt: {"n": 0, "schafe": 0, "mapped": 0} for lt in DISTRICTS}
 for r in prow:
     town = r["class_de"] == "Stadt"
     sheep, cattle = r["sheep"] or 0, r["cattle"] or 0
-    lead = None if town else ("schafe" if sheep > cattle else "rinder")
+    lead = None if town else ("Schafe" if sheep > cattle else "Rinder")
     village_rows.append([
-        r["place_id"], r["name"], r["landestheil"], r["class_de"], r["inhabitants"], r["horses"], r["cattle"], r["sheep"], r["goats"],
+        r["name"], r["landestheil"], r["class_de"], r["inhabitants"], r["horses"], r["cattle"], r["sheep"], r["goats"],
         lead, None if town else sheep + cattle, r["lon"], r["lat"], r["page"], r["block"],
     ])
     if not town:
         cnt[r["landestheil"]]["n"] += 1
-        cnt[r["landestheil"]]["schafe"] += lead == "schafe"
+        cnt[r["landestheil"]]["schafe"] += lead == "Schafe"
         cnt[r["landestheil"]]["mapped"] += r["lon"] is not None
 print(cnt)
 vieh_orte = {
@@ -87,10 +86,10 @@ e0 = lambda x: num_en(x, 0)
 
 sheep_1843, sheep_1867 = count("Schafe", 1843), count("Schafe", 1867)
 summary = bi(
-    f"Die Viehzählungen von 1843 bis 1867 zeigen eine Verschiebung: Die Zahl der Ziegen stieg um {d0(chg['Ziegen'])} Prozent, die der Schweine um {d0(chg['Schweine'])} und die der Pferde um {d0(chg['Pferde'])} Prozent, "
+    f"Zwischen den Viehzählungen von 1843 und 1867 stieg die Zahl der Ziegen um {d0(chg['Ziegen'])} Prozent, die der Schweine um {d0(chg['Schweine'])} und die der Pferde um {d0(chg['Pferde'])} Prozent, "
     f"die der Rinder nur um {d0(chg['Rinder'])} Prozent, während die der Schafe um {d0(-chg['Schafe'])} Prozent auf {num_de(sheep_1867)} zurückging. "
     f"Das Unterland hielt Schafe und Pferde, das Oberland Rinder und Ziegen.",
-    f"The livestock counts from 1843 to 1867 show a shift: goats increased by {e0(chg['Ziegen'])} percent, pigs by {e0(chg['Schweine'])} and horses by {e0(chg['Pferde'])} percent, "
+    f"Between the livestock counts of 1843 and 1867 the number of goats rose by {e0(chg['Ziegen'])} percent, pigs by {e0(chg['Schweine'])} and horses by {e0(chg['Pferde'])} percent, "
     f"cattle by only {e0(chg['Rinder'])} percent, while sheep fell by {e0(-chg['Schafe'])} percent to {num_en(sheep_1867)}. "
     f"The Unterland kept sheep and horses, the Oberland cattle and goats.",
 )
@@ -159,8 +158,9 @@ transcription_issues = [
 ]
 
 # ---------------------------------------------------------------- charts
-SPECIES_DOMAIN = ["Schafe", "Ziegen", "Schweine", "Rinder", "Pferde"]
-SPECIES_RANGE = ["@accent2", "@ink2", "@muted", "@accent3", "@accent"]
+SPECIES_DOMAIN = ["Ziegen", "Schafe", "Schweine", "Rinder", "Pferde"]
+SPECIES_RANGE = ["@accent", "@accent2", "@accent3", "@context", "@context"]
+CONTEXT_SPECIES = "(datum.tierart_de == 'Rinder' || datum.tierart_de == 'Pferde')"
 
 c1 = {
     "id": "c1",
@@ -171,7 +171,7 @@ c1 = {
     ),
     "caption": bi(
         "Viehbestand des Fürstentums bei den Zählungen 1843 bis 1867, 1843 gleich 100; ohne die unvollständigen Zählungen 1846, 1852 und 1855. Zahl am Linienende: Veränderung gegenüber 1843. Quelle: S. 233 bis 234.",
-        "Livestock of the principality at the counts of 1843 to 1867, 1843 = 100; without the incomplete counts of 1846, 1852 and 1855. Number at the line end: change since 1843. Source: pp. 233 to 234.",
+        "Livestock of the principality at the counts of 1843 to 1867, 1843 = 100; excluding the incomplete counts of 1846, 1852 and 1855. Number at the line end: change since 1843. Source: pp. 233 to 234.",
     ),
     "vegalite": {
         "height": 320,
@@ -184,7 +184,8 @@ c1 = {
             "x": {
                 "field": "jahr", "type": "quantitative",
                 "scale": {"domain": [1843, 1878], "nice": False},
-                "axis": {"values": [1843, 1849, 1858, 1861, 1864, 1867], "format": "d", "title": None},
+                "axis": {"values": [1843, 1849, 1858, 1861, 1864, 1867], "format": "d", "title": None,
+                         "labelExpr": "width < 420 && (datum.value == 1861 || datum.value == 1864) ? '' : datum.label"},
             },
             "y": {
                 "field": "index", "type": "quantitative",
@@ -195,7 +196,8 @@ c1 = {
         },
         "layer": [
             {"mark": {"type": "rule", "strokeDash": [3, 3], "color": "@muted"}, "encoding": {"y": {"datum": 100}, "x": None, "color": None}},
-            {"mark": {"type": "line", "strokeWidth": 2.5}},
+            {"transform": [{"filter": CONTEXT_SPECIES}], "mark": {"type": "line", "strokeWidth": 2}},
+            {"transform": [{"filter": "!" + CONTEXT_SPECIES}], "mark": {"type": "line", "strokeWidth": 2.5}},
             {
                 "mark": {"type": "point", "filled": True, "size": 36},
                 "encoding": {
@@ -233,7 +235,7 @@ c2 = {
     ),
     "caption": bi(
         f"Dörfer und Marktflecken nach der zahlreicheren Tierart 1867, Größe nach Schafen und Rindern zusammen; ohne die sechs Städte, {n_mapped} von {n_villages} Orten haben Koordinaten. Gera: {cnt['Gera']['schafe']} von {cnt['Gera']['n']} mit mehr Schafen, Schleiz {cnt['Schleiz']['schafe']} von {cnt['Schleiz']['n']}, Lobenstein-Ebersdorf {cnt['Lobenstein-Ebersdorf']['schafe']} von {cnt['Lobenstein-Ebersdorf']['n']}. Quelle: Ortsartikel.",
-        f"Villages and market towns by the more numerous species in 1867, size by sheep and cattle together; without the six towns, {n_mapped} of {n_villages} places have coordinates. Gera: {cnt['Gera']['schafe']} of {cnt['Gera']['n']} with more sheep, Schleiz {cnt['Schleiz']['schafe']} of {cnt['Schleiz']['n']}, Lobenstein-Ebersdorf {cnt['Lobenstein-Ebersdorf']['schafe']} of {cnt['Lobenstein-Ebersdorf']['n']}. Source: place articles.",
+        f"Villages and market towns by the more numerous species in 1867, size by sheep and cattle together; excluding the six towns, {n_mapped} of {n_villages} places have coordinates. Gera: {cnt['Gera']['schafe']} of {cnt['Gera']['n']} with more sheep, Schleiz {cnt['Schleiz']['schafe']} of {cnt['Schleiz']['n']}, Lobenstein-Ebersdorf {cnt['Lobenstein-Ebersdorf']['schafe']} of {cnt['Lobenstein-Ebersdorf']['n']}. Source: place articles.",
     ),
     "vegalite": {
         "height": 560,
@@ -257,10 +259,10 @@ c2 = {
                     "size": {"field": "tiere", "type": "quantitative", "scale": {"type": "sqrt", "range": [6, 210]}, "legend": None},
                     "color": {
                         "field": "leittier", "type": "nominal",
-                        "scale": {"domain": ["schafe", "rinder"], "range": ["@accent2", "@accent3"]},
+                        "scale": {"domain": ["Schafe", "Rinder"], "range": ["@accent2", "@accent3"]},
                         "legend": {
                             "title": None, "orient": "top-left", "direction": "vertical",
-                            "labelExpr": {"de": "datum.value == 'schafe' ? 'mehr Schafe als Rinder' : 'mehr Rinder als Schafe'", "en": "datum.value == 'schafe' ? 'more sheep than cattle' : 'more cattle than sheep'"},
+                            "labelExpr": {"de": "datum.value == 'Schafe' ? 'mehr Schafe als Rinder' : 'mehr Rinder als Schafe'", "en": "datum.value == 'Schafe' ? 'more sheep than cattle' : 'more cattle than sheep'"},
                         },
                     },
                     "tooltip": [
@@ -295,11 +297,11 @@ c3 = {
     "dataset": "arbeitstiere",
     "title": bi(
         "Im Unterland zogen Pferde und Rinder je etwa zur Hälfte, im Oberland fast nur Rinder",
-        "In the Unterland horses and cattle worked in equal numbers, in the Oberland almost only cattle",
+        "In the Unterland horses and cattle worked in similar numbers, in the Oberland almost only cattle",
     ),
     "caption": bi(
-        "Zur Arbeit herangezogene Pferde und Rinder 1867 je Landesteil, in Prozent aller Arbeitstiere; die Zahlen in den Balken sind Stück. Quelle: S. 235.",
-        "Horses and cattle used for work in 1867 by district, as percent of all working animals; the numbers in the bars are head. Source: p. 235.",
+        "Zur Arbeit herangezogene Pferde und Rinder 1867 je Landesteil, in Prozent aller Arbeitstiere; Zahlen in den Balken: Anzahl der Tiere. Quelle: S. 235.",
+        "Horses and cattle used for work in 1867 by district, as percent of all working animals; figures in the bars: number of animals. Source: p. 235.",
     ),
     "vegalite": {
         "height": {"step": 52},
@@ -327,7 +329,7 @@ c3 = {
                 "encoding": {
                     "x": {
                         "field": "x0", "type": "quantitative", "scale": {"domain": [0, 1]},
-                        "axis": {"title": {"de": "Anteil an den Arbeitstieren", "en": "Share of working animals"}, "format": "%"},
+                        "axis": {"title": {"de": "Anteil an den Arbeitstieren", "en": "Share of working animals"}, "format": "%", "values": [0, 0.25, 0.5, 0.75, 1]},
                     },
                     "x2": {"field": "x1"},
                     "color": {
@@ -341,7 +343,8 @@ c3 = {
                 },
             },
             {
-                "mark": {"type": "text", "style": "label"},
+                "mark": {"type": "text", "style": "label",
+                         "opacity": {"expr": "abs(scale('x', datum.x1) - scale('x', datum.x0)) >= (datum.landestheil_de == 'Gera' ? 96 : 40) ? 1 : 0"}},
                 "encoding": {
                     "x": {"field": "xm", "type": "quantitative"},
                     "text": {"field": "segment_label", "type": "nominal"},
@@ -376,7 +379,6 @@ feature = {
         "en": ["livestock", "cattle census", "sheep", "goats", "cattle", "horses", "pigs", "working animals", "sheep improvement"],
     },
     "related": ["landwirtschaft", "dorfleben", "siedlung-wohnen", "tierwelt"],
-    "generated_by": "Claude Sonnet 5.5 (Agent F5), aus 2 Einzelauswertungen zusammengeführt",
     "date": "2026-10-02",
 }
 

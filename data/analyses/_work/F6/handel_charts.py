@@ -26,19 +26,17 @@ c1 = {
     },
     "layer": [
         {"mark": {"type": "rule", "strokeDash": [3, 3], "color": "@muted"}, "encoding": {"y": {"datum": 100}, "x": None, "color": None}},
-        # railway openings (from the dataset `ereignisse`)
         {"data": {"name": "ereignisse"},
          "transform": [{"filter": "datum.kind == 'Eisenbahn' && isValid(datum.date_end)"},
-                       {"calculate": "toNumber(substring(datum.date_end, 0, 4))", "as": "yr"},
-                       {"calculate": {"de": "datum.name_de + ' eröffnet'", "en": "datum.name_en + ' opened'"}, "as": "evt"}],
+                       {"calculate": "toNumber(substring(datum.date_end, 0, 4))", "as": "yr"}],
          "mark": {"type": "rule", "strokeDash": [2, 3], "color": "@muted"},
          "encoding": {"x": {"field": "yr", "type": "quantitative"},
                       "y": {"value": 0}, "y2": {"value": {"expr": "height"}}, "color": None}},
         {"data": {"name": "ereignisse"},
          "transform": [{"filter": "datum.kind == 'Eisenbahn' && isValid(datum.date_end)"},
                        {"calculate": "toNumber(substring(datum.date_end, 0, 4))", "as": "yr"},
-                       {"calculate": {"de": "datum.name_de + ' eröffnet'", "en": "datum.name_en + ' opened'"}, "as": "evt"}],
-         "mark": {"type": "text", "style": "annotation", "align": "left", "baseline": "bottom", "dx": 4, "dy": -4},
+                       {"calculate": {"de": "'Bahn ' + datum.yr", "en": "'Railway ' + datum.yr"}, "as": "evt"}],
+         "mark": {"type": "text", "style": "annotation", "align": "center", "baseline": "bottom", "dy": -4},
          "encoding": {"x": {"field": "yr", "type": "quantitative"}, "y": {"value": 0},
                       "text": {"field": "evt"}, "color": None}},
         {"mark": {"type": "line", "strokeWidth": 2.5}},
@@ -72,6 +70,7 @@ def _labels(places, align, dx, dy, style):
 
 c2 = {
     "height": 540,
+    "padding": {"top": 4, "left": 18, "right": 8, "bottom": 4},
     "projection": {"type": "mercator"},
     "layer": [
         {"data": {"name": "fluesse_basis"},
@@ -98,9 +97,9 @@ c2 = {
 }
 # place labels: (places, side, offset); the offset grows with the bubble radius
 _LABELS = [
-    (["Wurzbach"], "center", 0, 27), (["Ruppersdorf"], "right", -18, 0), (["Titschendorf", "Thimmendorf"], "right", -14, 0),
-    (["Ebersdorf", "Schleiz"], "left", 19, 0), (["Lobenstein", "Gera"], "left", 17, 0), (["Tanna"], "left", 15, 0),
-    (["Hirschberg"], "left", 14, 0), (["Hohenleuben"], "left", 12, 0), (["Saalburg"], "center", 0, -15),
+    (["Wurzbach"], "center", 0, 27), (["Ruppersdorf"], "right", -18, 0), (["Thimmendorf"], "right", -14, 0),
+    (["Titschendorf"], "left", 14, 0), (["Ebersdorf", "Schleiz"], "left", 19, 0), (["Lobenstein", "Gera"], "left", 17, 0),
+    (["Tanna"], "left", 15, 0), (["Hirschberg"], "left", 14, 0), (["Hohenleuben"], "center", 0, -17), (["Saalburg"], "center", 0, -15),
 ]
 for _style in ("place-halo", "place-label"):
     for _pl, _al, _dx, _dy in _LABELS:
@@ -109,49 +108,47 @@ for _style in ("place-halo", "place-label"):
 # ------------------------------------------------------------------ c3: railways, banks, law (timeline)
 _NUM_START = "toNumber(substring(datum.date_start, 0, 4)) + (length(datum.date_start) > 4 ? (toNumber(substring(datum.date_start, 5, 7)) - 1) / 12 + (toNumber(substring(datum.date_start, 8, 10)) - 1) / 365 : 0)"
 _NUM_END = "isValid(datum.date_end) ? toNumber(substring(datum.date_end, 0, 4)) + (toNumber(substring(datum.date_end, 5, 7)) - 1) / 12 + (toNumber(substring(datum.date_end, 8, 10)) - 1) / 365 : null"
+_TOOLTIP = [{"field": "name", "title": {"de": "Einrichtung", "en": "Institution"}},
+            {"field": "date_start", "title": {"de": "Datum bzw. Vertrag", "en": "Date or treaty"}},
+            {"field": "date_end", "title": {"de": "Eröffnung", "en": "Opened"}},
+            {"field": "note", "title": {"de": "Brückner", "en": "Brückner"}}]
+_LATE = "datum.t0 >= 1854"
 
 c3 = {
-    "height": {"step": 24},
+    "height": {"step": 26},
     "padding": {"top": 6, "left": 4, "right": 8, "bottom": 4},
     "transform": [
         {"calculate": _NUM_START, "as": "t0"},
         {"calculate": _NUM_END, "as": "t1"},
+        {"calculate": "isValid(datum.t1) ? datum.t1 : datum.t0", "as": "t_last"},
         {"calculate": {"de": "datum.name_de", "en": "datum.name_en"}, "as": "name"},
         {"calculate": {"de": "datum.note_de", "en": "datum.note_en"}, "as": "note"},
-        {"calculate": "datum.kind == 'Eisenbahn' ? 'a' : (datum.kind == 'Geldinstitut' ? 'b' : 'c')", "as": "cls"},
-        {"calculate": "isValid(datum.t1) ? datum.t1 : 1868.5", "as": "t_end"},
-        {"calculate": "isValid(datum.t1) ? round((datum.t1 - datum.t0) * 10) / 10 : null", "as": "years"},
-        {"calculate": {"de": "isValid(datum.years) ? replace(format(datum.years, '.1f'), '.', ',') + ' Jahre' : ''",
-                       "en": "isValid(datum.years) ? format(datum.years, '.1f') + ' years' : ''"}, "as": "dur"},
     ],
     "encoding": {
-        "y": {"field": "name", "type": "nominal", "sort": {"field": "t0", "order": "ascending"},
-              "axis": {"title": None, "labelLimit": 420}},
-        "x": {"field": "t0", "type": "quantitative", "scale": {"domain": [1840, 1875], "nice": False},
-              "axis": {"format": "d", "values": [1840, 1850, 1860, 1870], "labelOverlap": False, "grid": True, "title": None}},
-        "color": {"field": "cls", "type": "nominal", "legend": None,
-                  "scale": {"domain": ["a", "b", "c"], "range": ["@accent", "@accent3", "@muted"]}},
+        "y": {"field": "name", "type": "nominal", "sort": {"field": "t0", "order": "ascending"}, "axis": None},
+        "x": {"field": "t0", "type": "quantitative", "scale": {"domain": [1840, 1870], "nice": False},
+              "axis": {"format": "d", "values": [1840, 1845, 1850, 1855, 1860, 1865, 1870], "grid": True, "title": None}},
+        "color": {"field": "kind", "type": "nominal", "legend": None,
+                  "scale": {"domain": ["Eisenbahn", "Geldinstitut", "Recht und Verwaltung"], "range": ["@accent", "@accent2", "@muted"]}},
     },
     "layer": [
-        # existing since the foundation (institutions) or since the opening (railways): thin line to 1868
-        {"transform": [{"filter": "datum.kind == 'Geldinstitut'"}],
-         "mark": {"type": "rule", "strokeWidth": 2, "color": "@context"},
-         "encoding": {"x2": {"field": "t_end"}, "color": None}},
-        # contract to opening
+        {"transform": [{"filter": "isValid(datum.t1)"}],
+         "mark": {"type": "rule", "strokeWidth": 2},
+         "encoding": {"x2": {"field": "t1"}}},
         {"transform": [{"filter": "datum.kind == 'Eisenbahn'"}],
-         "mark": {"type": "rule", "strokeWidth": 9, "strokeCap": "round"},
-         "encoding": {"x2": {"field": "t_end"},
-                      "tooltip": [{"field": "name", "title": {"de": "Einrichtung", "en": "Institution"}},
-                                  {"field": "date_start", "title": {"de": "Vertrag", "en": "Treaty"}},
-                                  {"field": "date_end", "title": {"de": "Eröffnung", "en": "Opened"}},
-                                  {"field": "note", "title": {"de": "Brückner", "en": "Brückner"}}]}},
-        {"transform": [{"filter": "datum.kind != 'Eisenbahn'"}],
-         "mark": {"type": "circle", "size": 90, "opacity": 1},
-         "encoding": {"tooltip": [{"field": "name", "title": {"de": "Einrichtung", "en": "Institution"}},
-                                  {"field": "date_start", "title": {"de": "Seit", "en": "Since"}},
-                                  {"field": "note", "title": {"de": "Brückner", "en": "Brückner"}}]}},
-        {"transform": [{"filter": "isValid(datum.years)"}],
-         "mark": {"type": "text", "align": "left", "dx": 10, "style": "label-muted"},
-         "encoding": {"x": {"field": "t_end"}, "text": {"field": "dur"}, "color": None}},
+         "mark": {"type": "point", "filled": False, "fill": "@paper", "size": 70, "strokeWidth": 2, "opacity": 1},
+         "encoding": {"tooltip": _TOOLTIP}},
+        {"transform": [{"filter": "datum.kind != 'Eisenbahn' || isValid(datum.t1)"}],
+         "mark": {"type": "circle", "size": 80, "opacity": 1},
+         "encoding": {"x": {"field": "t_last"}, "tooltip": _TOOLTIP}},
+        {"transform": [{"filter": _LATE}],
+         "mark": {"type": "text", "align": "right", "dx": -10, "style": "annotation"},
+         "encoding": {"text": {"field": "name"}, "color": None}},
+        {"transform": [{"filter": "!(" + _LATE + ")"}],
+         "mark": {"type": "text", "align": "left", "dx": 10, "style": "annotation"},
+         "encoding": {"x": {"field": "t_last"}, "text": {"field": "name"}, "color": None}},
+        {"transform": [{"filter": "isValid(datum.t1)"}, {"calculate": "substring(datum.date_end, 0, 4)", "as": "opened"}],
+         "mark": {"type": "text", "align": "left", "dx": 10, "style": "label"},
+         "encoding": {"x": {"field": "t1"}, "text": {"field": "opened"}, "color": None}},
     ],
 }

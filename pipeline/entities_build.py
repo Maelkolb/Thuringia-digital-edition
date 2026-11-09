@@ -18,6 +18,7 @@ import re
 import unicodedata
 
 from common import DATA, PAGES_DIR, read_json, write_json
+from entities_polish import main as polish_registry
 
 GROUP_DEFAULT = {"places": "place", "nature": "nature", "persons": "person", "organisations": "organisation",
                  "organisms": "organism", "concepts": "concept"}
@@ -145,6 +146,7 @@ def main() -> None:
     dec = sum(1 for e in out if not e["fallback"])
     print(f"entities {len(out)} ({dict(cnt)}); decided {dec}; rejected keys {sum(v is None for v in key_map.values())}; "
           f"decisions loaded {len(decisions)}")
+    polish_registry()
 
 
 if __name__ == "__main__":

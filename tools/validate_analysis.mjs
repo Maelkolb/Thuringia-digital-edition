@@ -69,7 +69,7 @@ function resolveLang(node, lang) {
   if (Array.isArray(node)) return node.map((n) => resolveLang(n, lang));
   if (node && typeof node === 'object') {
     const keys = Object.keys(node);
-    if (keys.length === 2 && keys.includes('de') && keys.includes('en') && typeof node.de === 'string') return node[lang];
+    if (keys.length === 2 && keys.includes('de') && keys.includes('en') && (typeof node.de === 'string' || Array.isArray(node.de))) return node[lang];
     const o = {};
     for (const [k, v] of Object.entries(node)) o[k] = resolveLang(v, lang);
     return o;

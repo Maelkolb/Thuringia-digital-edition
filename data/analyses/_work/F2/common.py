@@ -1,4 +1,4 @@
-import json, sys, math, statistics, subprocess, copy
+import json, sys, math, statistics, subprocess, copy, re
 from pathlib import Path
 sys.stdout.reconfigure(encoding='utf-8')
 ROOT = Path(r'C:\Users\totom\Projects\reuss-edition')
@@ -41,7 +41,55 @@ def words(s):
     return len(s.split())
 
 
+def english_quotes(node):
+    """English texts use English quotation marks; the German guillemets stay in the German texts."""
+    if isinstance(node, dict):
+        if set(node) == {'de', 'en'} and isinstance(node['en'], str):
+            node['en'] = node['en'].replace('»', '“').replace('«', '”')
+            return
+        for k, v in node.items():
+            if k != 'rows':
+                english_quotes(v)
+    elif isinstance(node, list):
+        for v in node:
+            english_quotes(v)
+
+
+BRITISH_SPELLING = {
+    'meter': 'metre', 'meters': 'metres', 'kilometer': 'kilometre', 'kilometers': 'kilometres',
+    'millimeter': 'millimetre', 'millimeters': 'millimetres', 'centimeter': 'centimetre', 'centimeters': 'centimetres',
+    'color': 'colour', 'colors': 'colours', 'colored': 'coloured', 'gray': 'grey',
+    'neighbor': 'neighbour', 'neighbors': 'neighbours', 'neighboring': 'neighbouring',
+    'labeled': 'labelled', 'labeling': 'labelling', 'meager': 'meagre', 'center': 'centre',
+    'normalized': 'normalised', 'criticize': 'criticise', 'criticizes': 'criticises', 'criticized': 'criticised',
+    'analyze': 'analyse', 'analyzes': 'analyses', 'digitized': 'digitised',
+}
+_BRITISH_RE = re.compile(r'\b(' + '|'.join(BRITISH_SPELLING) + r')\b', re.IGNORECASE)
+
+
+def _british_word(m):
+    word = m.group(0)
+    new = BRITISH_SPELLING[word.lower()]
+    return new[0].upper() + new[1:] if word[0].isupper() else new
+
+
+def british_english(node):
+    """The edition writes British English; this fixes the spelling of every English text before writing."""
+    if isinstance(node, dict):
+        if set(node) == {'de', 'en'} and isinstance(node['en'], str):
+            node['en'] = _BRITISH_RE.sub(_british_word, node['en'])
+            return
+        for k, v in node.items():
+            if k != 'rows':
+                british_english(v)
+    elif isinstance(node, list):
+        for v in node:
+            british_english(v)
+
+
 def write_feature(f):
+    english_quotes(f)
+    british_english(f)
     p = OUT / f"{f['id']}.json"
     json.dump(f, open(p, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
     return p

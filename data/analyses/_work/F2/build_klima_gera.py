@@ -86,15 +86,15 @@ c1 = {
     'id': 'c1',
     'dataset': 'temp_monthly',
     'title': bi(
-        f"Im Winter schwankten Monatsmittel stark, im Sommer kaum: Juni bis September wichen höchstens {dn(N['summer_max'])} K ab",
-        f"Winter months varied widely, summer months hardly: June to September never departed more than {en(N['summer_max'])} K"),
+        f"Im Winter schwankten die Monatsmittel stark, von Juni bis September höchstens um {dn(N['summer_max'])} K",
+        f"Winter months varied widely; from June to September no month deviated more than {en(N['summer_max'])} K"),
     'caption': bi(
         'Abweichung jedes Monatsmittels der Temperatur in Gera vom Mittel desselben Kalendermonats der zwölf Jahre, in Kelvin; Zahlen ab 4 K Abweichung. Aus Réaumur umgerechnet. Quelle: S. 55.',
         'Deviation of each monthly mean temperature at Gera from the mean of the same calendar month over the twelve years, in kelvin; numbers where the deviation is 4 K or more. Converted from Réaumur. Source: p. 55.'),
     'vegalite': {
         'height': 300,
         'encoding': {
-            'x': {'field': 'year', 'type': 'ordinal', 'axis': {'title': None, 'labelAngle': 0}},
+            'x': {'field': 'year', 'type': 'ordinal', 'axis': {'title': None, 'labelAngle': 0, 'labelOverlap': 'parity', 'labelSeparation': 6}},
             'y': {'field': 'month', 'type': 'ordinal', 'axis': {'title': None, 'labelExpr': month_axis_expr()}},
         },
         'layer': [
@@ -128,8 +128,8 @@ name_en = "{'Schnee':'Snow','Reif':'Hoarfrost','Sturm':'Storm','Hoehenrauch':'Ha
 c2 = {
     'id': 'c2',
     'dataset': 'weather_events',
-    'title': bi('Jede Erscheinung hat ihre Jahreszeit: Gewitter im Sommer, Schnee und Reif im Winter, Nebel im Herbst',
-                'Each phenomenon has its season: thunderstorms in summer, snow and hoarfrost in winter, fog in autumn'),
+    'title': bi('Gewitter fielen in den Sommer, Schnee und Reif in den Winter, Nebel in den Herbst',
+                'Thunderstorms came in summer, snow and hoarfrost in winter, fog in autumn'),
     'caption': bi(
         'Anteil jedes Monats an der Jahressumme der Erscheinung in Gera, 1856 bis 1867 (Prozent); die Zahl nennt den stärksten Monat, in Klammern der Durchschnitt pro Jahr. Quelle: S. 66, Regen nach S. 830 berichtigt.',
         'Share of each month in the annual total of the phenomenon at Gera, 1856 to 1867 (percent); the number marks the strongest month, in brackets the average per year. Source: p. 66, rain as corrected on p. 830.'),
@@ -187,11 +187,11 @@ c3 = {
     'id': 'c3',
     'dataset': 'rain_yearly',
     'extra_datasets': ['rain_reference'],
-    'title': bi('Die Regenmenge lag in Gera nur in drei von acht Jahren über dem thüringischen Mittel',
-                'Rainfall at Gera exceeded the Thuringian average in only three of eight years'),
+    'title': bi('Nur in drei von acht Jahren fiel in Gera mehr Regen als für Thüringen angenommen',
+                'Only three of eight years brought Gera more rain than the figure assumed for Thuringia'),
     'caption': bi(
-        'Jahresniederschlag in Gera 1860 bis 1867 nach Brückners Regenmessung (Pariser Zoll, umgerechnet in Millimeter), Linie: allgemeines Mittel für Thüringen (21,12 Zoll). Quelle: S. 68 f., Berichtigungen S. 830.',
-        'Annual precipitation at Gera, 1860 to 1867, from Brückner’s rain gauge (Paris inches, converted to millimeters); line: general average for Thuringia (21.12 inches). Source: pp. 68 f., corrections p. 830.'),
+        'Jahresniederschlag in Gera 1860 bis 1867 nach Rud. Schmidts Regenmessung (Pariser Zoll, umgerechnet in Millimeter); Linie: die für Thüringen allgemein angenommene Regenmenge (21,12 Zoll). Quelle: S. 68 f., Berichtigungen S. 830.',
+        'Annual precipitation at Gera, 1860 to 1867, from Rud. Schmidt’s rain gauge (Paris inches, converted to millimeters); line: the amount generally assumed for Thuringia (21.12 inches). Source: pp. 68 f., corrections p. 830.'),
     'vegalite': {
         'height': 280,
         'transform': lookup,
@@ -220,11 +220,11 @@ c3 = {
                 'encoding': {'x': None, 'y': {'field': 'ref_mm', 'type': 'quantitative'}},
             },
             {
-                'transform': [{'filter': 'datum.year == 1860'}],
-                'mark': {'type': 'text', 'style': 'annotation', 'align': 'left', 'baseline': 'bottom', 'dy': -5, 'dx': -22},
+                'transform': [{'filter': 'datum.year == 1865'}],
+                'mark': {'type': 'text', 'style': 'annotation', 'align': 'center', 'baseline': 'bottom', 'dy': -5},
                 'encoding': {
                     'y': {'field': 'ref_mm', 'type': 'quantitative'},
-                    'text': {'value': bi(f"Thüringen, Mittel {N['th_mm']} mm", f"Thuringia, average {N['th_mm']} mm")},
+                    'text': {'value': bi(f"Thüringen: {N['th_mm']} mm", f"Thuringia: {N['th_mm']} mm")},
                 },
             },
         ],
@@ -251,8 +251,8 @@ f = {
            f"The annual mean is {en(N['annual_mean'])} °C and ranges from {en(N['cold_val'])} °C ({N['cold_year']}) to {en(N['warm_val'])} °C ({N['warm_year']}). Highest reading: {en(N['max_val'])} °C ({N['max_year']}), lowest: {en(N['min_val'])} °C ({N['min_year']})."),
         bi(f"{N['gew_summer_pct']:.0f} Prozent der Gewitter von 1856 bis 1867 fielen in Juni bis August; im November gab es keines. Schnee und Reif traten im August nie auf.",
            f"{N['gew_summer_pct']:.0f} percent of the thunderstorms from 1856 to 1867 fell in June to August; there was none in November. Snow and hoarfrost never occurred in August."),
-        bi(f"1860 bis 1867 fielen im Mittel {N['rain_mean_mm']} mm Niederschlag, von {N['dry_mm']:.0f} mm ({N['dry_year']}) bis {N['wet_mm']:.0f} mm ({N['wet_year']}); das thüringische Mittel beträgt {N['th_mm']} mm.",
-           f"From 1860 to 1867 the average was {N['rain_mean_mm']} mm of precipitation, from {N['dry_mm']:.0f} mm ({N['dry_year']}) to {N['wet_mm']:.0f} mm ({N['wet_year']}); the Thuringian average is {N['th_mm']} mm."),
+        bi(f"1860 bis 1867 fielen im Mittel {N['rain_mean_mm']} mm Niederschlag, von {N['dry_mm']:.0f} mm ({N['dry_year']}) bis {N['wet_mm']:.0f} mm ({N['wet_year']}); für Thüringen wurden allgemein {N['th_mm']} mm angenommen.",
+           f"From 1860 to 1867 precipitation averaged {N['rain_mean_mm']} mm, from {N['dry_mm']:.0f} mm ({N['dry_year']}) to {N['wet_mm']:.0f} mm ({N['wet_year']}); the amount generally assumed for Thuringia was {N['th_mm']} mm."),
     ],
     'method': bi(
         'Die Monatsmittel der Temperatur (S. 55) sind in Grad Réaumur gedruckt und mit 1,25 in °C umgerechnet; die Skala nennt Brückner nicht ausdrücklich, sie folgt aus S. 70 und aus der Plausibilität der Werte. Die Abweichung im ersten Diagramm ist das Monatsmittel minus das Mittel desselben Kalendermonats über die zwölf Jahre, neu aus den 144 Werten berechnet. Winter, Sommer und Jahresmittel sowie Höchst- und Tiefststand stammen aus Brückners zweiter Tabelle (S. 55).\n'
@@ -283,7 +283,6 @@ f = {
         'en': ['weather', 'climate', 'Gera', 'temperature', 'air pressure', 'precipitation', 'rain', 'thunderstorm', 'fog', 'Réaumur', 'thermometer'],
     },
     'related': ['klima-stationen', 'wind-gewitter', 'phaenologie'],
-    'generated_by': 'Claude Sonnet 5.5 (Agent F2), aus 4 Einzelauswertungen zusammengeführt',
     'date': '2026-10-02',
 }
 tr = [t for a in (aT, aP, aR, aW) for t in (a.get('transcription_issues') or [])]

@@ -13,6 +13,16 @@ coords = {r[0]: (r[1], r[2]) for r in base_places['rows']}
 
 # ---------------------------------------------------------------- stations (scatter + map)
 d_st = ds(aH, 'stations')
+JUDGEMENT = {'series': 'mehrjährige Reihe', 'high': 'zu hoch (S. 58)', 'uncertain': 'ohne sicheres Maß (S. 57)'}
+TOO_HIGH = JUDGEMENT['high']
+j_col = [c['name'] for c in d_st['columns']].index('judgement')
+for r in d_st['rows']:
+    r[j_col] = JUDGEMENT[r[j_col]]
+d_st['columns'][j_col]['note'] = 'Brückners Urteil über die Werte, editorisch zusammengefasst'
+side_col = [c['name'] for c in d_st['columns']].index('label_side')
+del d_st['columns'][side_col]
+for r in d_st['rows']:
+    del r[side_col]
 YEARS = {'Gera': 12, 'Hohenleuben': 7, 'Schleiz': 5, 'Saalburg': 1, 'Lobenstein': 1, 'Rothenacker': 2, 'Stelzen': None, 'Grumbach': None, 'Ziegenrück': None}
 d_st['columns'] += [
     {'name': 'years', 'label': bi('Beobachtungsjahre', 'Years of observation'), 'type': 'integer', 'unit': 'Jahre', 'derived': True,
@@ -43,10 +53,11 @@ sa = rows(d_sa)
 nb = {(r['station'], r['phenomenon']): r for r in rows(ds(aN, 'annual_printed'))}
 sky = {(r['station'], r['category']): r for r in rows(ds(aB, 'annual'))}
 four = ['Gera', 'Hohenleuben', 'Schleiz', 'Rothenacker']
-meas = [('Niederschlag', 'Niederschlagstage'), ('Nebel', 'Nebel'), ('Reif', 'Reif'), ('bedeckt', 'bedeckt'), ('gemischt', 'gemischt'), ('hell', 'hell')]
+meas = [('Niederschlag', 'Niederschlagstage'), ('Nebel', 'Nebeltage'), ('Reif', 'Reiftage'), ('bedeckt', 'Bedeckte Tage'), ('gemischt', 'Gemischte Tage'), ('hell', 'Helle Tage')]
+MEASURES = [label for _, label in meas]
 sd_rows = []
-for si, s in enumerate(four, 1):
-    for mi, (m, _) in enumerate(meas, 1):
+for s in four:
+    for m, label in meas:
         if m == 'Niederschlag':
             if s == 'Gera':
                 regen = 1544 / 12  # corrected sum (S. 830) / 12 years
@@ -62,16 +73,14 @@ for si, s in enumerate(four, 1):
         else:
             printed = sky[(s, m)]['days_per_year']
             val = printed
-        sd_rows.append([s, si, m, mi, printed, round(val, 1)])
+        sd_rows.append([s, label, printed, round(val, 1)])
 d_sd = {
     'name': 'station_days',
     'title': bi('Tage pro Jahr an vier Orten: Niederschlag, Nebel, Reif, Himmelsansicht', 'Days per year at four places: precipitation, fog, hoarfrost, sky'),
     'columns': [
         {'name': 'station', 'label': bi('Ort', 'Place'), 'type': 'string', 'unit': None},
-        {'name': 'station_order', 'label': bi('Reihenfolge des Orts', 'Order of the place'), 'type': 'integer', 'unit': None, 'derived': True},
         {'name': 'measure', 'label': bi('Größe', 'Measure'), 'type': 'string', 'unit': None, 'derived': True,
-         'note': 'Niederschlag = Regen plus Schnee (Hohenleuben: Regen und Schnee zusammen); bedeckt, gemischt, hell = Himmelsansicht'},
-        {'name': 'measure_order', 'label': bi('Reihenfolge der Größe', 'Order of the measure'), 'type': 'integer', 'unit': None, 'derived': True},
+         'note': 'Niederschlagstage = Regen plus Schnee (Hohenleuben: Regen und Schnee zusammen); bedeckte, gemischte, helle Tage = Himmelsansicht'},
         {'name': 'days_printed', 'label': bi('Tage pro Jahr (gedruckt)', 'Days per year (as printed)'), 'type': 'number', 'unit': 'Tage'},
         {'name': 'days', 'label': bi('Tage pro Jahr', 'Days per year'), 'type': 'number', 'unit': 'Tage', 'derived': True,
          'note': 'gedruckter Wert; für Niederschlag die Summe aus Regen und Schnee, Gera mit der berichtigten Regensumme 1544 (S. 830)'},
@@ -83,17 +92,29 @@ sd = rows(d_sd)
 
 d_sp = ds(aQ, 'measurements')
 d_sp['name'] = 'springs'
+SPRING_GROUP = {'kraftsdorf': 'Quellen bei Kraftsdorf', 'brunnen': 'Brunnen in Hermsdorf, Hohenleuben, Döhlen',
+                'roettersdorf': 'Ziehbrunnen in Röttersdorf', 'elsaesser': 'Quellstufen nach Elsässer'}
+SPRING_KIND = {'spring': 'Quelle', 'well': 'Brunnen', 'stage': 'Quellstufe (Spanne)'}
+sp_cols = [c['name'] for c in d_sp['columns']]
+for r in d_sp['rows']:
+    r[sp_cols.index('group')] = SPRING_GROUP[r[sp_cols.index('group')]]
+    r[sp_cols.index('kind')] = SPRING_KIND[r[sp_cols.index('kind')]]
+d_sp['columns'][sp_cols.index('kind')].pop('note', None)
+go = sp_cols.index('group_order')
+del d_sp['columns'][go]
+for r in d_sp['rows']:
+    del r[go]
 
 # ---------------------------------------------------------------- numbers
 N = {}
 slope = (tr['y0'] - tr['y1']) / (tr['x1'] - tr['x0']) * 100
 N['slope'] = slope
-high = [r for r in st if r['judgement'] == 'high']
+high = [r for r in st if r['judgement'] == TOO_HIGH]
 N['ex_lo'] = min(r['excess_k'] for r in high)
 N['ex_hi'] = max(r['excess_k'] for r in high)
 ex = {r['station']: r['excess_k'] for r in st}
 elev = {r['station']: r['elevation_m'] for r in st}
-good = [r for r in st if r['judgement'] != 'high' and r['elevation_m'] is not None]
+good = [r for r in st if r['judgement'] != TOO_HIGH and r['elevation_m'] is not None]
 N['good_lo'] = min(r['elevation_m'] for r in good)
 N['good_hi'] = max(r['elevation_m'] for r in good)
 gen = {r['year']: r['annual_c'] for r in sa if r['station'] == 'Gera'}
@@ -113,14 +134,14 @@ def sdv(station, measure):
     return [r['days'] for r in sd if r['station'] == station and r['measure'] == measure][0]
 
 
-N['fog_lo'] = min(sdv(s, 'Nebel') for s in four)
-N['fog_hi'] = max(sdv(s, 'Nebel') for s in four)
-N['mix_lo'] = min(sdv(s, 'gemischt') for s in four)
-N['mix_hi'] = max(sdv(s, 'gemischt') for s in four)
+N['fog_lo'] = min(sdv(s, 'Nebeltage') for s in four)
+N['fog_hi'] = max(sdv(s, 'Nebeltage') for s in four)
+N['mix_lo'] = min(sdv(s, 'Gemischte Tage') for s in four)
+N['mix_hi'] = max(sdv(s, 'Gemischte Tage') for s in four)
 N['fog_ratio'] = N['fog_hi'] / N['fog_lo']
 N['mix_ratio'] = N['mix_hi'] / N['mix_lo']
-N['pre_lo'] = min(sdv(s, 'Niederschlag') for s in four)
-N['pre_hi'] = max(sdv(s, 'Niederschlag') for s in four)
+N['pre_lo'] = min(sdv(s, 'Niederschlagstage') for s in four)
+N['pre_hi'] = max(sdv(s, 'Niederschlagstage') for s in four)
 print({k: (round(v, 3) if isinstance(v, float) else v) for k, v in N.items()})
 print({r['station']: (r['elevation_m'], r['annual_c'], r['excess_k']) for r in st})
 for r in sd:
@@ -169,8 +190,8 @@ c1 = {
                 'data': {'name': 'trend'},
                 'mark': {'type': 'rule', 'color': '@muted', 'strokeWidth': 1.5},
                 'encoding': {
-                    'x': {'field': 'y0', 'type': 'quantitative', 'scale': {'domain': [6, 10.4]},
-                          'axis': {'title': bi('Jahresmittel der Temperatur (°C)', 'Annual mean temperature (°C)'), 'values': [6, 7, 8, 9, 10], 'format': 'd', 'grid': False}},
+                    'x': {'field': 'y0', 'type': 'quantitative', 'scale': {'domain': [6, 11.5]},
+                          'axis': {'title': bi('Jahresmittel der Temperatur (°C)', 'Annual mean temperature (°C)'), 'values': [6, 7, 8, 9, 10, 11], 'format': 'd', 'grid': False}},
                     'x2': {'field': 'y1'},
                     'y': {'field': 'x0', 'type': 'quantitative', 'scale': {'domain': [150, 730]},
                           'axis': {'title': bi('Höhe der Ortslage (m)', 'Elevation of the place (m)'), 'values': [200, 300, 400, 500, 600, 700]}},
@@ -188,7 +209,7 @@ c1 = {
                 },
             },
             {
-                'transform': [{'filter': "datum.judgement == 'high'"}],
+                'transform': [{'filter': f"datum.judgement == '{TOO_HIGH}'"}],
                 'mark': {'type': 'rule', 'strokeDash': [3, 3], 'color': '@accent2', 'strokeWidth': 1.5},
                 'encoding': {
                     'y': {'field': 'elevation_m', 'type': 'quantitative'},
@@ -201,34 +222,34 @@ c1 = {
                 'encoding': {
                     'y': {'field': 'elevation_m', 'type': 'quantitative'},
                     'x': {'field': 'annual_c', 'type': 'quantitative'},
-                    'color': {'condition': {'test': "datum.judgement == 'high'", 'value': '@accent2'}, 'value': '@accent'},
+                    'color': {'condition': {'test': f"datum.judgement == '{TOO_HIGH}'", 'value': '@accent2'}, 'value': '@accent'},
                     'tooltip': tooltip_station(),
                 },
             },
         ] + [
             {
-                'transform': [{'calculate': "datum.judgement == 'high' ? datum.station + ' +' + format(datum.excess_k, '.1f') + ' K' : datum.station", 'as': 'lab'}],
+                'transform': [{'calculate': f"datum.judgement == '{TOO_HIGH}' ? datum.station + ' +' + format(datum.excess_k, '.1f') + ' K' : datum.station", 'as': 'lab'}],
                 'mark': {'type': 'text', 'style': 'place-halo' if halo else 'label', 'align': 'left', 'dx': 10},
                 'encoding': dict({
                     'y': {'field': 'elevation_m', 'type': 'quantitative'},
                     'x': {'field': 'annual_c', 'type': 'quantitative'},
                     'text': {'field': 'lab'}},
-                    **({} if halo else {'color': {'condition': {'test': "datum.judgement == 'high'", 'value': '@accent2'}, 'value': '@ink2'}})),
+                    **({} if halo else {'color': {'condition': {'test': f"datum.judgement == '{TOO_HIGH}'", 'value': '@accent2'}, 'value': '@ink2'}})),
             }
             for halo in (True, False)
         ] + [
-            {
-                'transform': [{'filter': "datum.station == 'Gera'"}],
-                'mark': {'type': 'text', 'style': 'annotation', 'align': 'right', 'color': '@accent2'},
-                'encoding': {'x': {'datum': 10.4, 'type': 'quantitative'}, 'y': {'datum': 715, 'type': 'quantitative'},
-                             'text': {'value': bi('Orange: von Brückner als zu warm beurteilt (S. 58)', 'Orange: judged too warm by Brückner (p. 58)')}},
-            },
-            {
-                'transform': [{'filter': "datum.station == 'Gera'"}],
-                'mark': {'type': 'text', 'style': 'annotation', 'align': 'right', 'color': '@accent'},
-                'encoding': {'x': {'datum': 10.4, 'type': 'quantitative'}, 'y': {'datum': 685, 'type': 'quantitative'},
-                             'text': {'value': bi('Blau: nicht beanstandet', 'Blue: not criticized')}},
-            },
+        ] + [
+            layer
+            for row, (colour, label) in enumerate((('@accent2', bi('von Brückner als zu warm beurteilt (S. 58)', 'judged too warm by Brückner (p. 58)')),
+                                                    ('@accent', bi('nicht beanstandet', 'not criticized'))))
+            for layer in (
+                {'transform': [{'filter': "datum.station == 'Gera'"}],
+                 'mark': {'type': 'circle', 'size': 110, 'color': colour, 'opacity': 1},
+                 'encoding': {'x': {'value': 6}, 'y': {'value': 452 + 22 * row}}},
+                {'transform': [{'filter': "datum.station == 'Gera'"}],
+                 'mark': {'type': 'text', 'style': 'annotation', 'align': 'left', 'baseline': 'middle', 'dx': 10},
+                 'encoding': {'x': {'value': 6}, 'y': {'value': 452 + 22 * row}, 'text': {'value': label}}},
+            )
         ],
     },
 }
@@ -277,8 +298,8 @@ c2 = {
     'title': bi('Gemessen wurde an acht Orten, aber nur in Gera und Hohenleuben länger als fünf Jahre',
                 'Temperatures were recorded at eight places, but only Gera and Hohenleuben for more than five years'),
     'caption': bi(
-        'Orte mit gedruckten Temperaturmitteln. Größe: Zahl der Beobachtungsjahre; Stelzen und Grumbach: nur ein Jahresmittel unbekannten Zeitraums (Pfarrämter). Zahl: Jahresmittel in °C. Ziegenrück (Preußen, 1848 bis 1856) liegt außerhalb. Quelle: S. 54 bis 58.',
-        'Places with printed temperature means. Size: years of observation; Stelzen and Grumbach: a single annual mean of unknown period (parish offices). Number: annual mean in °C. Ziegenrück (Prussia, 1848 to 1856) lies outside. Source: pp. 54 to 58.'),
+        'Orte mit gedruckten Temperaturmitteln. Größe: Zahl der Beobachtungsjahre; Stelzen und Grumbach: nur ein Jahresmittel unbekannten Zeitraums (Pfarrämter). Ziegenrück (Preußen, 1848 bis 1856) liegt außerhalb der Karte. Quelle: S. 54 bis 58.',
+        'Places with printed temperature means. Size: years of observation; Stelzen and Grumbach: a single annual mean of unknown period (parish offices). Ziegenrück (Prussia, 1848 to 1856) lies outside the map. Source: pp. 54 to 58.'),
     'vegalite': {
         'height': 560,
         'projection': {'type': 'mercator'},
@@ -316,61 +337,49 @@ c2 = {
                 'encoding': {'longitude': {'datum': 11.262, 'type': 'quantitative'}, 'latitude': {'datum': 50.838, 'type': 'quantitative'},
                              'text': {'value': bi('nur Jahresmittel, Zeitraum unbekannt', 'annual mean only, period unknown')}},
             },
-        ] + map_labels('place-halo', -2, 0) + map_labels('place-label', -2, 0) + temp_labels('label-muted'),
+        ] + map_labels('place-halo', 0, 0) + map_labels('place-label', 0, 0),
     },
 }
 
-# ---------------------------------------------------------------- c3: range dumbbells
-meas_label_de = "{'Niederschlag':'Niederschlagstage','Nebel':'Nebeltage','Reif':'Reiftage','bedeckt':'bedeckte Tage','gemischt':'gemischte Tage','hell':'helle Tage'}[datum.measure]"
-meas_label_en = "{'Niederschlag':'Precipitation days','Nebel':'Foggy days','Reif':'Hoarfrost days','bedeckt':'Overcast days','gemischt':'Mixed days','hell':'Clear days'}[datum.measure]"
+# ---------------------------------------------------------------- c3: days per year, one coloured dot per place
+MEASURE_EN = {'Niederschlagstage': 'Precipitation days', 'Nebeltage': 'Foggy days', 'Reiftage': 'Hoarfrost days',
+              'Bedeckte Tage': 'Overcast days', 'Gemischte Tage': 'Mixed days', 'Helle Tage': 'Clear days'}
 tip_days = [{'field': 'station', 'title': bi('Ort', 'Place')}, {'field': 'measure', 'title': bi('Größe', 'Measure')},
             {'field': 'days', 'title': bi('Tage pro Jahr', 'Days per year'), 'format': '.1f'}]
+measure_y = {'field': 'mlabel', 'type': 'nominal', 'sort': {'field': 'm_order', 'op': 'min'}, 'axis': {'title': None, 'labelLimit': 260}}
 c3 = {
     'id': 'c3',
     'dataset': 'station_days',
     'title': bi(f"Zwischen den vier Orten unterscheiden sich Nebeltage und gemischte Tage um das Vier- bis Fünffache",
                 f"Foggy and mixed days differ between the four places by a factor of four to five"),
     'caption': bi(
-        'Tage pro Jahr in Gera, Hohenleuben, Schleiz und Rothenacker. Punkte: die vier Orte, beschriftet sind der höchste und der niedrigste Wert. Niederschlagstage: Regen plus Schnee. Beobachtungsreihen von 2 bis 15 Jahren. Quelle: S. 65, 67.',
-        'Days per year at Gera, Hohenleuben, Schleiz and Rothenacker. Dots: the four places; the highest and lowest values are labelled. Days with precipitation: rain plus snow. Observation series of 2 to 15 years. Source: pp. 65, 67.'),
+        'Tage pro Jahr in Gera, Hohenleuben, Schleiz und Rothenacker; der Strich reicht vom niedrigsten zum höchsten Wert. Niederschlagstage: Regen plus Schnee. Beobachtungsreihen von 2 bis 15 Jahren. Quelle: S. 65, 67.',
+        'Days per year at Gera, Hohenleuben, Schleiz and Rothenacker; the line runs from the lowest to the highest value. Precipitation days: rain plus snow. Observation series of 2 to 15 years. Source: pp. 65, 67.'),
     'vegalite': {
-        'height': {'step': 44},
+        'height': {'step': 40},
         'transform': [
             {'joinaggregate': [{'op': 'max', 'field': 'days', 'as': 'dmax'}, {'op': 'min', 'field': 'days', 'as': 'dmin'}], 'groupby': ['measure']},
-            {'calculate': {'de': meas_label_de, 'en': meas_label_en}, 'as': 'mlabel'},
-            {'calculate': "format(datum.days, '.0f')", 'as': 'dlab'},
-            {'calculate': 'datum.station + " " + datum.dlab', 'as': 'slab'},
+            {'calculate': {'de': 'datum.measure', 'en': f"{json.dumps(MEASURE_EN, ensure_ascii=False)}[datum.measure]"}, 'as': 'mlabel'},
+            {'calculate': f"indexof({json.dumps(MEASURES, ensure_ascii=False)}, datum.measure)", 'as': 'm_order'},
         ],
-        'encoding': {
-            'y': {'field': 'mlabel', 'type': 'nominal', 'sort': {'field': 'measure_order', 'op': 'min'}, 'axis': {'title': None, 'labelLimit': 260}},
-        },
+        'encoding': {'y': measure_y},
         'layer': [
             {
                 'mark': {'type': 'rule', 'strokeWidth': 2, 'color': '@context'},
                 'encoding': {
-                    'x': {'field': 'dmin', 'type': 'quantitative', 'scale': {'domain': [-75, 300]},
-                          'axis': {'title': bi('Tage pro Jahr', 'Days per year'), 'values': [0, 50, 100, 150, 200, 250, 300], 'grid': False}},
+                    'x': {'field': 'dmin', 'type': 'quantitative', 'scale': {'domain': [0, 250]},
+                          'axis': {'title': bi('Tage pro Jahr', 'Days per year'), 'values': [0, 50, 100, 150, 200, 250], 'grid': True}},
                     'x2': {'field': 'dmax'},
                 },
             },
             {
-                'mark': {'type': 'point', 'filled': True, 'size': 60, 'color': '@muted'},
-                'encoding': {'x': {'field': 'days', 'type': 'quantitative'}, 'tooltip': tip_days},
-            },
-            {
-                'transform': [{'filter': 'datum.days == datum.dmax || datum.days == datum.dmin'}],
-                'mark': {'type': 'point', 'filled': True, 'size': 110, 'color': '@accent'},
-                'encoding': {'x': {'field': 'days', 'type': 'quantitative'}, 'tooltip': tip_days},
-            },
-            {
-                'transform': [{'filter': 'datum.days == datum.dmax'}],
-                'mark': {'type': 'text', 'style': 'label', 'align': 'left', 'dx': 10},
-                'encoding': {'x': {'field': 'days', 'type': 'quantitative'}, 'text': {'field': 'slab'}},
-            },
-            {
-                'transform': [{'filter': 'datum.days == datum.dmin'}],
-                'mark': {'type': 'text', 'style': 'label', 'align': 'right', 'dx': -10},
-                'encoding': {'x': {'field': 'days', 'type': 'quantitative'}, 'text': {'field': 'slab'}},
+                'mark': {'type': 'circle', 'size': 150, 'opacity': 1},
+                'encoding': {
+                    'x': {'field': 'days', 'type': 'quantitative'},
+                    'color': {'field': 'station', 'type': 'nominal', 'scale': {'domain': four},
+                              'legend': {'title': None, 'orient': 'top', 'symbolType': 'circle'}},
+                    'tooltip': tip_days,
+                },
             },
         ],
     },
@@ -390,8 +399,8 @@ f = {
         {'page': '65', 'block': 'b4', 'rows': 'r2-r7'}, {'page': '67', 'block': 'b4', 'rows': 'r2-r5'}, {'page': '69', 'block': 'b3'}, {'page': '70', 'block': 'b1'}, {'page': '70', 'block': 'b2'},
     ],
     'summary': bi(
-        f"Neben Gera druckt Brückner Temperaturreihen für Hohenleuben, Schleiz und Rothenacker, Jahresmittel für vier weitere Orte sowie Nebel-, Niederschlags- und Himmelszahlen. Das Jahresmittel sinkt um {dn(N['slope'], 2)} K je 100 m Höhe; Schleiz, Lobenstein, Saalburg und Rothenacker liegen darüber, was Brückner selbst als zu hoch beanstandet. Die Zahlen für Nebel und Himmelsansicht gehen zwischen den Orten weit auseinander.",
-        f"Besides Gera, Brückner prints temperature series for Hohenleuben, Schleiz and Rothenacker, annual means for four more places, and counts of fog, precipitation and sky conditions. The annual mean falls by {en(N['slope'], 2)} K per 100 m of height; Schleiz, Lobenstein, Saalburg and Rothenacker lie above that line, which Brückner himself criticizes as too high. The figures for fog and sky conditions differ widely between the places."),
+        f"Neben Gera druckt Brückner Temperaturreihen für Hohenleuben, Schleiz und Rothenacker, Jahresmittel für vier weitere Orte und die Zahl der Nebel-, Niederschlags- und Reiftage. Das Jahresmittel sinkt um {dn(N['slope'], 2)} K je 100 m Höhe; Schleiz, Lobenstein, Saalburg und Rothenacker liegen darüber, und Brückner selbst hält ihre Werte für zu hoch. Die Zahlen für Nebel und Himmelsansicht gehen zwischen den Orten weit auseinander.",
+        f"Besides Gera, Brückner prints temperature series for Hohenleuben, Schleiz and Rothenacker, annual means for four more places, and counts of days with fog, precipitation and hoarfrost. The annual mean falls by {en(N['slope'], 2)} K per 100 m of height; Schleiz, Lobenstein, Saalburg and Rothenacker lie above that line, and Brückner himself considers their values too high. The counts of foggy days and of clear and overcast days differ widely between the places."),
     'findings': [
         bi(f"Gera, Hohenleuben, Stelzen und Grumbach liegen nahe an einer Geraden ({dn(N['slope'], 2)} K je 100 m); Saalburg liegt {dn(ex['Saalburg'])} K, Lobenstein {dn(ex['Lobenstein'])} K, Schleiz {dn(ex['Schleiz'])} K und Rothenacker {dn(ex['Rothenacker'])} K darüber.",
            f"Gera, Hohenleuben, Stelzen and Grumbach lie close to a line ({en(N['slope'], 2)} K per 100 m); Saalburg lies {en(ex['Saalburg'])} K, Lobenstein {en(ex['Lobenstein'])} K, Schleiz {en(ex['Schleiz'])} K and Rothenacker {en(ex['Rothenacker'])} K above it."),
@@ -402,9 +411,9 @@ f = {
     ],
     'method': bi(
         'Die Jahresmittel der Temperatur stammen aus Brückners Durchschnittszeilen (S. 55 bis 58); sie sind in Grad Réaumur gedruckt und mit 1,25 in °C umgerechnet. Die Höhen der Ortslagen entnimmt die Auswertung seiner Höhenliste (S. 12, 20 bis 22) in preußischen Dezimalfuß, bei Spannen die Mitte; 1 Dezimalfuß = 0,3766242 m (S. 831). Die Gerade ist die Regression der Jahresmittel auf die Höhe für Gera, Hohenleuben, Stelzen und Grumbach, also die Orte, die Brückner nicht beanstandet; Ziegenrück hat keine Höhe. Die Beobachtungsjahre der Karte folgen dem Zeitraum der Angabe.\n'
-        'Nebel, Reif, Regen und Schnee sind die gedruckten Jahresmittel (S. 67); Niederschlagstage sind Regen plus Schnee, für Gera mit der berichtigten Regensumme 1544 (S. 830), für Hohenleuben die gedruckte Spalte »Regen und Schnee«. Die bedeckten, gemischten und hellen Tage stehen auf S. 65. Hof und Arnstadt, die Brückner dort zum Vergleich nennt, werden nicht gezeigt. Die Vergleiche gleicher Jahre im Befund stützen sich auf die Jahresmittel der Tabelle »station_annual«. Die Temperaturen von Quellen und Brunnen (S. 69 f.) sind einzelne Messungen ohne Höhe und stehen nur im Datensatz »springs«.',
+        'Nebel, Reif, Regen und Schnee sind die gedruckten Jahresmittel (S. 67); Niederschlagstage sind Regen plus Schnee, für Gera mit der berichtigten Regensumme 1544 (S. 830), für Hohenleuben die gedruckte Spalte »Regen und Schnee«. Die bedeckten, gemischten und hellen Tage stehen auf S. 65. Hof und Arnstadt, die Brückner dort zum Vergleich nennt, werden nicht gezeigt. Die Vergleiche gleicher Jahre im Befund stützen sich auf die Tabelle »Jahreswerte der Temperatur nach Station«. Die Temperaturen von Quellen und Brunnen (S. 69 f.) sind einzelne Messungen ohne Höhe und stehen nur in den Daten.',
         'The annual mean temperatures come from Brückner’s average rows (pp. 55 to 58); they are printed in degrees Réaumur and converted at 1.25 to °C. The elevations of the places are taken from his list of heights (pp. 12, 20 to 22) in Prussian decimal feet, using the middle of a range; 1 decimal foot = 0.3766242 m (p. 831). The line is the regression of the annual means on elevation for Gera, Hohenleuben, Stelzen and Grumbach, the places Brückner does not criticize; Ziegenrück has no elevation. The years of observation on the map follow the period given.\n'
-        'Fog, hoarfrost, rain and snow are the printed annual means (p. 67); days with precipitation are rain plus snow, for Gera with the corrected rain total of 1544 (p. 830), for Hohenleuben the printed column »rain and snow«. Overcast, mixed and clear days are on p. 65. Hof and Arnstadt, which Brückner names there for comparison, are not shown. The comparisons of equal years in the findings rest on the annual means in the table »station_annual«. The temperatures of springs and wells (pp. 69 f.) are single readings without elevation and appear only in the dataset »springs«.'),
+        'Fog, hoarfrost, rain and snow are the printed annual means (p. 67); days with precipitation are rain plus snow, for Gera with the corrected rain total of 1544 (p. 830), for Hohenleuben the printed column »rain and snow«. Overcast, mixed and clear days are on p. 65. Hof and Arnstadt, which Brückner names there for comparison, are not shown. The comparisons of equal years in the findings rest on the table “Annual temperature values by station”. The temperatures of springs and wells (pp. 69 f.) are single readings without elevation and appear only in the data.'),
     'conversions': [
         {'from': 'preuß. Dezimalfuß (Höhen)', 'to': 'm', 'factor_or_formula': 'm = Dezimalfuß × 0,3766242 (1 Dezimalfuß = 1/10 preuß. Ruthe)', 'reference': 'Brückner S. 11 Fußnote (Dezimalfuß, Pegel Swinemünde); S. 831: 1 preuß. Ruthe = 3,766242 m. Gegenprobe S. 12: Bahnhof Gera 607,53 rhein. Fuß = 190,7 m = 506 Dezimalfuß (gedruckt 502)'},
         {'from': 'Grad Réaumur (°R)', 'to': 'Grad Celsius (°C)', 'factor_or_formula': '°C = °R × 1,25', 'reference': '80 gegenüber 100 Teilstriche zwischen Eis- und Siedepunkt; von Brückner nicht tabelliert'},
@@ -428,7 +437,6 @@ f = {
         'en': ['climate', 'temperature', 'elevation', 'weather stations', 'Hohenleuben', 'Schleiz', 'Rothenacker', 'fog', 'cloud cover', 'precipitation', 'spring temperature'],
     },
     'related': ['klima-gera', 'wind-gewitter', 'relief-hoehen', 'phaenologie'],
-    'generated_by': 'Claude Sonnet 5.5 (Agent F2), aus 5 Einzelauswertungen zusammengeführt',
     'date': '2026-10-02',
 }
 tr_issues = [t for a in (aH, aS, aN, aB, aQ) for t in (a.get('transcription_issues') or [])]

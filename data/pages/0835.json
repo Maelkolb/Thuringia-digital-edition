@@ -201,7 +201,7 @@
    "id": "b2",
    "type": "paragraph",
    "src": 1,
-   "text": "Pfauenbach (im Volke „Pfaunbach“), eine Einzelgruppe von zwei Häusern und zwei Scheunchen, 1/4 Stunde SO. von Dobareuth, am Pfauenbach, der in den Aubach mündet. Der Ort gehört zur Gemeinde und Schule Dobareuth, pfarrt aber nach Gesell. Hier zwei Kühbauerfamilien, die neben dem Maurer=",
+   "text": "Pfauenbach (im Volke „Pfaunbach“), eine Einzelgruppe von zwei Häusern und zwei Scheunchen, 1/4 Stunde SO. von Dobareuth, am Pfauenbach, der in den Aubach mündet. Der Ort gehört zur Gemeinde und Schule Dobareuth, pfarrt aber nach Gesell. Hier zwei Kühbauerfamilien, die neben dem Maurer-",
    "spans": [
     [
      0,
@@ -250,11 +250,20 @@
     ]
    ],
    "continues": true,
+   "word_division": {
+    "word": "Maurerhandwerke",
+    "part": "Maurer-"
+   },
    "sec": "t2-3"
   }
  ],
  "footnotes": [],
  "corrections": [
+  {
+   "rule": "fraktur_double_hyphen",
+   "before": "n dem Maurer=",
+   "after": "n dem Maurer-"
+  },
   {
    "rule": "signature_from_paragraph",
    "value": "53*"

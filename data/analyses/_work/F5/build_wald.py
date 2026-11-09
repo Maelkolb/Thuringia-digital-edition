@@ -8,6 +8,7 @@ A2 = "forstwirtschaft-holzpreise-zuwachs"
 wald = copy.deepcopy(dataset(A1, "wald"))
 wa_old = rows_as_dicts(dataset(A1, "waldanteil"))
 domaene = copy.deepcopy(dataset(A1, "domaene"))
+domaene["title"] = bi("Domänenwald 1647 und um 1868", "Domain forest in 1647 and around 1868")
 holzpreise = copy.deepcopy(dataset(A2, "holzpreise"))
 zuwachs = copy.deepcopy(dataset(A2, "zuwachs"))
 wrows = rows_as_dicts(wald)
@@ -113,18 +114,18 @@ e1 = lambda x: num_en(x, 1)
 G, SC, L = S["Gera"], S["Schleiz"], S["Lobenstein-Ebersdorf"]
 
 summary = bi(
-    f"Der Wald des Fürstentums umfasste um 1868 {num_de(fu['wald'])} Morgen oder {num_de(round(fu['wald'] * 0.255322))} Hektar, {d1(fu['anteil'])} Prozent der Fläche, {d1(nadel_pct)} Prozent davon Nadelholz. "
+    f"Um 1868 umfasste der Wald des Fürstentums {num_de(fu['wald'])} Morgen oder {num_de(round(fu['wald'] * 0.255322))} Hektar, {d1(fu['anteil'])} Prozent der Fläche, {d1(nadel_pct)} Prozent davon Nadelholz. "
     f"Er nimmt vom Unterland zum Oberland zu und gehört dort etwa zur Hälfte der Kammer, im Unterland überwiegend Privatbesitzern. "
     f"Die Holzpreise stiegen von 1800 bis 1868 auf das {d1(min(fac.values()))}- bis {d1(max(fac.values()))}-Fache.",
     f"Around 1868 the principality’s forest covered {num_en(fu['wald'])} Morgen or {num_en(round(fu['wald'] * 0.255322))} hectares, {e1(fu['anteil'])} percent of the area, {e1(nadel_pct)} percent of it conifers. "
-    f"It increases from the Unterland to the Oberland and there belongs about half to the Chamber (the princely domain), in the Unterland mostly to private owners. "
+    f"Its share grows from the Unterland to the Oberland, where about half belongs to the Chamber (the princely domain); in the Unterland most of it belongs to private owners. "
     f"Timber prices rose to between {e1(min(fac.values()))} and {e1(max(fac.values()))} times their 1800 level by 1868.",
 )
 
 findings = [
     bi(
         f"Laubwald gibt es fast nur im Landesteil Gera: Er hat {d1(G['laub_share_of_all'])} Prozent des gesamten Laubwaldes; dort sind {d1(G['laub_w'])} Prozent des Waldes Laubholz, in Schleiz {d1(SC['laub_w'])}, in Lobenstein-Ebersdorf {d1(L['laub_w'])} Prozent.",
-        f"Deciduous forest is almost confined to the district of Gera: it holds {e1(G['laub_share_of_all'])} percent of all deciduous forest, and {e1(G['laub_w'])} percent of its woodland is deciduous, against {e1(SC['laub_w'])} in Schleiz and {e1(L['laub_w'])} in Lobenstein-Ebersdorf.",
+        f"Deciduous forest is almost confined to the district of Gera: it holds {e1(G['laub_share_of_all'])} percent of all deciduous forest, and {e1(G['laub_w'])} percent of its woodland is deciduous, compared with {e1(SC['laub_w'])} in Schleiz and {e1(L['laub_w'])} in Lobenstein-Ebersdorf.",
     ),
     bi(
         f"Der Domänenwald von 1647 ({num_de(dom_wald)} Morgen Wald und {num_de(dom_gereumt)} Morgen Geräumde, zusammen {num_de(dom1647_total)}) war nur {num_de(dom1647_total - dom_now)} Morgen größer als die Kammerforste von {num_de(dom_now)} Morgen um 1868.",
@@ -146,7 +147,7 @@ method = bi(
     "Shares of the area and of the forest are computed from the areas, not taken from Brückner’s percentages. Chamber forests are Brückner’s “Domainenwald”. "
     "The district of Schleiz consists of the Pflege Reichenfels, the Herrschaft Schleiz and the Pflege Saalburg. "
     "The prices per cubic foot of soft wood (p. 241, block b6) are printed in silver groschen and mixed fractions (1 1/6) and are converted to decimals; for 1840 Brückner gives ranges, and the chart shows their midpoint. "
-    "The index sets the price of 1800 to 100. Brückner states growth in Klafter per Morgen and year; it was converted with 1 Klafter = 126 cubic feet = 2.8454 m³ (p. 832, Gera) and 1 Morgen = 0.255322 ha into cubic meters of stacked wood per hectare.",
+    "The index sets the price of 1800 to 100. Brückner states growth in Klafter per Morgen and year; it was converted with 1 Klafter = 126 cubic feet = 2.8454 m³ (p. 832, Gera) and 1 Morgen = 0.255322 ha into cubic metres of stacked wood per hectare.",
 )
 
 caveats = [
@@ -160,7 +161,7 @@ caveats = [
     ),
     bi(
         "Der Zuwachs je Besitzart ist eine Schätzung Brückners für nachhaltige Bewirtschaftung, keine Messung. Die Umrechnung in Kubikmeter benutzt die Klafter von Gera zu 126 Kubikfuß und ist eine Näherung.",
-        "The growth by type of owner is an estimate by Brückner for sustained-yield management, not a measurement. The conversion into cubic meters uses the Gera Klafter of 126 cubic feet and is an approximation.",
+        "The growth by type of owner is an estimate by Brückner for sustained-yield management, not a measurement. The conversion into cubic metres uses the Gera Klafter of 126 cubic feet and is an approximation.",
     ),
 ]
 
@@ -178,11 +179,11 @@ transcription_issues = [
 ]
 
 # ---------------------------------------------------------------- charts
-OWN_DOMAIN = ["kammer", "gemeinde", "privat"]
-OWN_RANGE = ["@accent", "@accent2", "@accent3"]
+OWN_DOMAIN = ["kammer", "privat", "gemeinde"]
+OWN_RANGE = ["@accent", "@accent3", "@accent2"]
 OWN_LABEL_EXPR = {
     "de": "datum.value == 'kammer' ? 'Kammerforste' : datum.value == 'gemeinde' ? 'Gemeinde, Stiftung' : 'Privatwald'",
-    "en": "datum.value == 'kammer' ? 'Chamber forests' : datum.value == 'gemeinde' ? 'Municipal, trust' : 'Private'",
+    "en": "datum.value == 'kammer' ? 'Chamber forests' : datum.value == 'gemeinde' ? 'Municipal, foundation' : 'Private'",
 }
 OWN_NAME_CALC = {
     "de": "datum.besitzer == 'kammer' ? 'Kammerforste' : datum.besitzer == 'gemeinde' ? 'Gemeinde- und Stiftungswald' : 'Privatwald'",
@@ -198,7 +199,7 @@ c1 = {
     ),
     "caption": bi(
         "Wald in Prozent der Fläche des Landesteils, die Farben zeigen den Besitzer; Zahl am Balkenende: Waldanteil insgesamt. Waldfläche um 1868, Gesamtfläche nach der Vermessung von 1854. Quelle: S. 240, 217.",
-        "Forest as percent of the district’s area, colors show the owner; number at the bar end: total forest share. Forest area around 1868, total area from the survey of 1854. Source: pp. 240, 217.",
+        "Forest as percent of the district’s area, colours show the owner; number at the bar end: total forest share. Forest area around 1868, total area from the survey of 1854. Source: pp. 240, 217.",
     ),
     "vegalite": {
         "height": {"step": 44},
@@ -227,7 +228,7 @@ c1 = {
                     "color": {
                         "field": "besitzer", "type": "nominal",
                         "scale": {"domain": OWN_DOMAIN, "range": OWN_RANGE},
-                        "legend": {"title": None, "labelExpr": OWN_LABEL_EXPR, "columns": 3, "columnPadding": 8, "labelLimit": 220},
+                        "legend": {"title": None, "labelExpr": OWN_LABEL_EXPR, "labelLimit": 220},
                     },
                     "order": {"field": "besitzer_nr", "type": "quantitative"},
                     "tooltip": [
@@ -247,7 +248,6 @@ c1 = {
         ],
     },
 }
-print(json.dumps(c1)[:200])
 
 # prices: indexed lines
 price_calc = [
@@ -274,9 +274,11 @@ c2 = {
         "encoding": {
             "x": {
                 "field": "jahr", "type": "quantitative",
-                "scale": {"domain": [1795, 1900], "nice": False},
+                "scale": {"domainMin": 1795, "domainMax": {"expr": "max(1900, 1795 + 73 * width / max(width - 160, 60))"}, "nice": False},
                 "axis": {"values": [1800, 1820, 1840, 1868], "format": "d", "title": None},
             },
+            "y": {"field": "index", "type": "quantitative", "scale": {"domain": [90, 316], "zero": False},
+                  "axis": {"title": {"de": "Preis, 1800 = 100", "en": "Price, 1800 = 100"}, "values": [100, 150, 200, 250, 300]}},
             "color": {
                 "field": "holzart_de", "type": "nominal", "legend": None,
                 "scale": {"domain": TIMBER_DOMAIN, "range": ["@accent", "@accent3", "@accent2"]},
@@ -286,14 +288,10 @@ c2 = {
             {"mark": {"type": "rule", "strokeDash": [3, 3], "color": "@muted"}, "encoding": {"y": {"datum": 100}, "x": None, "color": None}},
             {
                 "mark": {"type": "line", "strokeWidth": 2.5},
-                "encoding": {
-                    "y": {"field": "index", "type": "quantitative", "scale": {"domain": [94, 316]}, "axis": {"title": {"de": "Preis, 1800 = 100", "en": "Price, 1800 = 100"}, "values": [100, 150, 200, 250, 300]}},
-                },
             },
             {
                 "mark": {"type": "point", "filled": True, "size": 60, "opacity": 1},
                 "encoding": {
-                    "y": {"field": "index", "type": "quantitative"},
                     "tooltip": [
                         {"field": {"de": "holzart_de", "en": "holzart_en"}, "type": "nominal", "title": bi("Sortiment", "Assortment")},
                         tooltip("jahr", "Jahr", "Year", "d"),
@@ -305,10 +303,10 @@ c2 = {
             {
                 "transform": [
                     {"filter": "datum.jahr == 1868"},
-                    {"calculate": {"de": "datum.holzart_de + ' ×' + format(datum.index / 100, '.1f')", "en": "datum.holzart_en + ' ×' + format(datum.index / 100, '.1f')"}, "as": "endlabel"},
+                    {"calculate": {"de": "datum.holzart_de + ' ×' + format(datum.index / 100, '.1f')", "en": "replace(datum.holzart_en, ' (Blochholz)', '') + ' ×' + format(datum.index / 100, '.1f')"}, "as": "endlabel"},
                 ],
                 "mark": {"type": "text", "align": "left", "dx": 9, "style": "label"},
-                "encoding": {"y": {"field": "index", "type": "quantitative"}, "text": {"field": "endlabel"}, "color": None},
+                "encoding": {"text": {"field": "endlabel"}, "color": None},
             },
         ],
     },
@@ -323,7 +321,7 @@ c3 = {
     ),
     "caption": bi(
         "Geschätzter jährlicher Zuwachs je Hektar in Kubikmetern Raummaß, umgerechnet aus Klaftern je Morgen. Der Strich zeigt die Spanne, die Brückner nennt. Quelle: S. 241.",
-        "Estimated annual growth per hectare in cubic meters of stacked wood, converted from Klafter per Morgen. The bar shows the range Brückner gives. Source: p. 241.",
+        "Estimated annual growth per hectare in cubic metres of stacked wood, converted from Klafter per Morgen. The bar shows the range Brückner gives. Source: p. 241.",
     ),
     "vegalite": {
         "height": {"step": 56},
@@ -352,7 +350,7 @@ c3 = {
             {
                 "mark": {"type": "rule", "strokeWidth": 9, "strokeCap": "round"},
                 "encoding": {
-                    "x": {"field": "rm_ha_von", "type": "quantitative", "scale": {"domain": [0, 7]}, "axis": {"title": {"de": "Zuwachs, m³ je ha und Jahr", "en": "Growth, m³ per ha and year"}, "values": [0, 1, 2, 3, 4, 5, 6, 7], "format": "d"}},
+                    "x": {"field": "rm_ha_von", "type": "quantitative", "scale": {"domainMin": 0, "domainMax": {"expr": "max(7, 5.57 * width / max(width - 84, 60))"}, "nice": False}, "axis": {"title": {"de": "Zuwachs, m³ je ha und Jahr", "en": "Growth, m³ per ha and year"}, "values": [0, 1, 2, 3, 4, 5, 6, 7], "format": "d"}},
                     "x2": {"field": "rm_ha_bis"},
                     "tooltip": [
                         {"field": {"de": "besitzart_de", "en": "besitzart_en"}, "type": "nominal", "title": bi("Besitzart", "Type of owner")},
@@ -400,7 +398,6 @@ feature = {
         "en": ["forest", "forestry", "timber prices", "chamber forests", "private woodland", "conifers", "deciduous woodland", "Frankenwald", "Klafter"],
     },
     "related": ["landwirtschaft", "pflanzenwelt", "bergbau", "berufe-gewerbe"],
-    "generated_by": "Claude Sonnet 5.5 (Agent F5), aus 2 Einzelauswertungen zusammengeführt",
     "date": "2026-10-02",
 }
 

@@ -146,7 +146,7 @@ c1 = {
                       "longitude2": {"field": "lon_max_gw"}, "latitude2": {"field": "lat_max"}}},
         {"data": {"name": "orte_basis"}, "mark": {"type": "circle", "size": 14, "color": "@land", "opacity": 1},
          "encoding": {"longitude": {"field": "lon", "type": "quantitative"}, "latitude": {"field": "lat", "type": "quantitative"}}},
-        {"transform": [{"filter": "isValid(datum.lat) && datum.in_klammern == 0"}],
+        {"transform": [{"filter": "isValid(datum.lat) && datum.in_klammern == 'nein'"}],
          "mark": {"type": "circle", "size": 70, "stroke": "@paper", "strokeWidth": 0.8, "opacity": 0.95},
          "encoding": {**LL, "color": LAND_COLOR,
                       "tooltip": tooltip(("name", "Ort", "Place"), ("objekt", "Gemessener Gegenstand", "Object measured"),
@@ -154,7 +154,7 @@ c1 = {
                                          ("lon_gw", "Länge östlich von Greenwich (°)", "Longitude east of Greenwich (°)", ".4f"),
                                          ("lat", "Breite (°)", "Latitude (°)", ".4f"),
                                          ("abstand_geonames_km", "Abstand zur heutigen Ortslage (km)", "Distance to present-day location (km)", ".2f"))}},
-        {"transform": [{"filter": "isValid(datum.lat) && datum.in_klammern == 1"}],
+        {"transform": [{"filter": "isValid(datum.lat) && datum.in_klammern == 'ja'"}],
          "mark": {"type": "circle", "size": 60, "filled": False, "strokeWidth": 1.8},
          "encoding": {**LL, "color": LAND_COLOR,
                       "tooltip": tooltip(("name", "Ort (in Klammern gedruckt)", "Place (printed in brackets)"), ("objekt", "Gemessener Gegenstand", "Object measured"),
@@ -178,66 +178,74 @@ c1 = {
     ],
 }
 
-# --- c2: boundary length by neighbouring state, one panel per part
-def border_panel(part, color, title):
-    return {
-        "width": 520,
-        "height": {"step": 24},
-        "title": {"text": title, "anchor": "start", "fontSize": 13, "offset": 6},
-        "transform": [{"filter": f"datum.landesteil == '{part}'"}],
-        "encoding": {"y": {"field": "nachbar", "type": "nominal", "sort": {"field": "laenge_stunden", "op": "max", "order": "descending"}, "axis": {"title": None, "labelLimit": 300, "labelAlign": "left", "labelPadding": 104, "minExtent": 108}}},
-        "layer": [
-            {"mark": {"type": "bar", "cornerRadiusEnd": 3},
-             "encoding": {"x": {"field": "laenge_stunden", "type": "quantitative",
-                                "scale": {"domain": [0, 24]},
-                                "axis": {"title": ({"de": "Stunden", "en": "Stunden"} if part == "Unterland" else None), "values": [0, 6, 12, 18, 24]}},
-                          "color": {"condition": {"test": "datum.laenge_stunden == " + str(max(x["laenge_stunden"] for x in g if x["landesteil"] == part)), "value": color},
-                                    "value": "@context"},
-                          "tooltip": tooltip(("nachbar", "Angrenzender Staat", "Neighboring state"),
-                                             ("landesteil", "Landesteil", "Part"),
-                                             ("laenge_text", "Länge (Stunden, wie gedruckt)", "Length (Stunden, as printed)"),
-                                             ("anteil", "Anteil am Umfang (%)", "Share of perimeter (%)", ".1f"))}},
-            {"mark": {"type": "text", "align": "left", "dx": 6, "style": "label"},
-             "encoding": {"x": {"field": "laenge_stunden", "type": "quantitative"},
-                          "text": {"field": "laenge_stunden", "type": "quantitative", "format": ".1~f"}}},
-        ],
-    }
+# --- c2: boundary length by neighbouring state; both parts in one view, each under its own header row
+def border_key(part, neighbour):
+    return f"{part[0]}|{neighbour}"
 
 
+border_domain = []
+for part in ("Oberland", "Unterland"):
+    rows_part = sorted((x for x in g if x["landesteil"] == part), key=lambda x: -x["laenge_stunden"])
+    border_domain += ([] if part == "Oberland" else ["gap"]) + [f"H{part[0]}"] + [border_key(part, x["nachbar"]) for x in rows_part]
+border_y = {"field": "key", "type": "nominal", "scale": {"domain": border_domain}, "sort": None,
+            "axis": {"title": None, "labelLimit": 200, "labelExpr": "indexof(datum.value, '|') > 0 ? split(datum.value, '|')[1] : ''"}}
+longest = {part: max(x["laenge_stunden"] for x in g if x["landesteil"] == part) for part in ("Oberland", "Unterland")}
+headers = {
+    "Oberland": {"de": f"Oberland: Umfang {ober_tot} Stunden, sechs Nachbarn", "en": f"Oberland: perimeter {ober_tot} Stunden, six neighbors"},
+    "Unterland": {"de": f"Unterland: Umfang {unter_tot} Stunden, vier Nachbarn", "en": f"Unterland: perimeter {unter_tot} Stunden, four neighbors"},
+}
 c2 = {
-    "vconcat": [
-        border_panel("Oberland", OBER, {"de": f"Oberland: Umfang {ober_tot} Stunden, sechs Nachbarn", "en": f"Oberland: perimeter {ober_tot} Stunden, six neighbors"}),
-        border_panel("Unterland", UNTER, {"de": f"Unterland: Umfang {unter_tot} Stunden, vier Nachbarn", "en": f"Unterland: perimeter {unter_tot} Stunden, four neighbors"}),
+    "height": {"step": 24},
+    "transform": [{"calculate": "substring(datum.landesteil, 0, 1) + '|' + datum.nachbar", "as": "key"}],
+    "layer": [
+        {"mark": {"type": "bar", "cornerRadiusEnd": 3},
+         "encoding": {"y": border_y,
+                      "x": {"field": "laenge_stunden", "type": "quantitative", "scale": {"domain": [0, 24]},
+                            "axis": {"title": {"de": "Grenzlänge in Stunden", "en": "Length of border in Stunden"}, "values": [0, 6, 12, 18, 24], "grid": True}},
+                      "color": {"condition": [{"test": f"datum.landesteil == 'Oberland' && datum.laenge_stunden == {longest['Oberland']}", "value": OBER},
+                                              {"test": f"datum.landesteil == 'Unterland' && datum.laenge_stunden == {longest['Unterland']}", "value": UNTER}],
+                                "value": "@context"},
+                      "tooltip": tooltip(("nachbar", "Angrenzender Staat", "Neighboring state"),
+                                         ("landesteil", "Landesteil", "Part"),
+                                         ("laenge_text", "Länge (Stunden, wie gedruckt)", "Length (Stunden, as printed)"),
+                                         ("anteil", "Anteil am Umfang (%)", "Share of perimeter (%)", ".1f"))}},
+        {"mark": {"type": "text", "align": "left", "baseline": "middle", "dx": 6, "style": "label"},
+         "encoding": {"y": border_y, "x": {"field": "laenge_stunden", "type": "quantitative"},
+                      "text": {"field": "laenge_stunden", "type": "quantitative", "format": ".1~f"}}},
+    ] + [
+        {"transform": [{"filter": f"datum.landesteil == '{part}'"}, {"aggregate": [{"op": "count", "as": "n"}]}, {"calculate": f"'H{part[0]}'", "as": "key"}],
+         "mark": {"type": "text", "style": "label", "align": "left", "baseline": "middle", "fontSize": 13},
+         "encoding": {"y": border_y, "x": {"datum": 0}, "text": {"value": headers[part]}}}
+        for part in ("Oberland", "Unterland")
     ],
-    "spacing": 22,
 }
 assert n_nb_o == 6 and n_nb_u == 4
 
-# --- c3: area estimates
+# --- c3: area estimates; the source names stand above the bars so that the bars keep the full width on a phone
 src_label = {
     "de": "datum.quelle == 'Hassel/Stein' ? 'Hassel und Stein, bis 1840' : datum.quelle == 'Engelhardt' ? 'Engelhardt, 1853' : datum.quelle == 'Nowack' ? 'Nowack, mittlere Zahl' : 'Landesvermessung ab 1840'",
     "en": "datum.quelle == 'Hassel/Stein' ? 'Hassel and Stein, until 1840' : datum.quelle == 'Engelhardt' ? 'Engelhardt, 1853' : datum.quelle == 'Nowack' ? 'Nowack, mean figure' : 'Land survey from 1840'",
 }
-val_label = {
-    "de": "format(datum.flaeche_qm, '.3~f') + ' □M. = ' + format(datum.flaeche_km2, ',.0f') + ' km²'",
-    "en": "format(datum.flaeche_qm, '.3~f') + ' sq. mi. = ' + format(datum.flaeche_km2, ',.0f') + ' km²'",
-}
+val_label = "format(datum.flaeche_qm, '.3~f') + ' (' + format(datum.flaeche_km2, ',.0f') + ' km²)'"
+area_y = {"field": "label", "type": "ordinal", "sort": {"field": "reihenfolge", "op": "min"}, "axis": None}
 c3 = {
-    "height": {"step": 44},
+    "height": {"step": 64},
     "transform": [{"calculate": src_label, "as": "label"}, {"calculate": val_label, "as": "wert"}],
-    "encoding": {"y": {"field": "label", "type": "ordinal", "sort": {"field": "reihenfolge", "op": "min"}, "axis": {"title": None, "labelLimit": 320}}},
+    "encoding": {"y": area_y},
     "layer": [
-        {"mark": {"type": "bar", "cornerRadiusEnd": 3, "height": {"band": 0.62}},
-         "encoding": {"x": {"field": "flaeche_qm", "type": "quantitative", "scale": {"domain": [0, 30]},
-                            "axis": {"title": {"de": "Fläche in geographischen Quadratmeilen", "en": "Area in geographical square miles"}, "values": [0, 5, 10, 15, 20, 25]}},
+        {"mark": {"type": "bar", "cornerRadiusEnd": 3, "height": {"band": 0.32}, "yOffset": 4},
+         "encoding": {"x": {"field": "flaeche_qm", "type": "quantitative", "scale": {"domain": [0, 32]},
+                            "axis": {"title": {"de": "Fläche in geographischen Quadratmeilen", "en": "Area in geographical square miles"}, "values": [0, 5, 10, 15, 20, 25, 30], "grid": True}},
                       "color": {"condition": {"test": "datum.quelle == 'Nowack'", "value": "@accent"}, "value": "@context"},
                       "tooltip": tooltip(("quelle", "Quelle", "Source"), ("flaeche_qm", "Quadratmeilen", "Square miles", ".3~f"),
                                          ("flaeche_km2", "km²", "km²", ",.0f"))}},
-        {"mark": {"type": "text", "align": "left", "dx": 6, "style": "label"},
+        {"mark": {"type": "text", "align": "left", "baseline": "bottom", "style": "annotation", "dy": -6},
+         "encoding": {"x": {"datum": 0}, "text": {"field": "label"}}},
+        {"mark": {"type": "text", "align": "left", "baseline": "middle", "dx": 6, "dy": 4, "style": "label"},
          "encoding": {"x": {"field": "flaeche_qm", "type": "quantitative"}, "text": {"field": "wert"}}},
         {"transform": [{"filter": "datum.quelle == 'Nowack'"}],
-         "mark": {"type": "text", "align": "left", "dx": 6, "dy": 15, "style": "annotation"},
-         "encoding": {"x": {"field": "flaeche_qm", "type": "quantitative"},
+         "mark": {"type": "text", "align": "left", "baseline": "top", "dy": 20, "style": "annotation"},
+         "encoding": {"x": {"datum": 0},
                       "text": {"value": {"de": f"von Brückner angesetzt, {de(drop_pct, 0)} Prozent weniger", "en": f"adopted by Brückner, {en(drop_pct, 0)} percent less"}}}},
     ],
 }
@@ -247,22 +255,22 @@ lead_de = (f"Brückner druckt Länge und Breite von {n_points} trigonometrisch b
            f"Nachbarstaaten und mehrere Flächenangaben. Das Fürstentum besteht aus dem Oberland ({de(ober_qm, 2)} Quadratmeilen) und dem "
            f"Unterland ({de(unter_qm, 2)}), zwischen denen Weimarer Gebiet liegt. Die Fläche wurde von {de(old['flaeche_qm'], 1)} auf "
            f"{de(now['flaeche_qm'], 2)} Quadratmeilen herabgesetzt, umgerechnet rund {de(now['flaeche_km2'], 0)} km².")
-lead_en = (f"Brückner prints longitude and latitude of {n_points} points fixed by triangulation, the perimeter of both parts by neighboring state, "
+lead_en = (f"Brückner prints the longitude and latitude of {n_points} triangulated points, the length of the border with each neighboring state "
            f"and several area figures. The principality consists of the Oberland ({en(ober_qm, 2)} square miles) and the Unterland "
-           f"({en(unter_qm, 2)}), with Weimar territory between them. The area was revised from {en(old['flaeche_qm'], 1)} to "
-           f"{en(now['flaeche_qm'], 2)} square miles, about {en(now['flaeche_km2'], 0)} km² converted.")
+           f"({en(unter_qm, 2)}), separated by Weimar territory. The area figure was revised from {en(old['flaeche_qm'], 1)} to "
+           f"{en(now['flaeche_qm'], 2)} square miles, about {en(now['flaeche_km2'], 0)} km².")
 
 f1_de = (f"Rechnet man Brückners Längen von Ferro auf Greenwich um, liegen {n_off} Punkte im Median {de(med_off, 1)} km neben der heutigen Ortslage; "
          f"nur Geissen weicht um {de(geissen_off, 0)} km ab.")
 f1_en = (f"Converting Brückner’s longitudes from Ferro to Greenwich puts {n_off} points a median of {en(med_off, 1)} km from the present-day location; "
          f"only Geissen is off, by {en(geissen_off, 0)} km.")
 f2_de = (f"Das Oberland grenzt mit {de(top_o['laenge_stunden'], 0)} von {ober_tot} Stunden Umfang an Reuß älterer Linie; "
-         f"die Hälfte des Unterlandes ({de(top_u['laenge_stunden'], 0)} von {unter_tot} Stunden) grenzt an Altenburg.")
-f2_en = (f"The Oberland borders Reuss (Elder Line) for {en(top_o['laenge_stunden'], 0)} of {ober_tot} Stunden of its perimeter; "
-         f"half of the Unterland ({en(top_u['laenge_stunden'], 0)} of {unter_tot} Stunden) borders Altenburg.")
-f3_de = (f"Auch das einzige gleich abgegrenzte Gebiet, Lobenstein-Ebersdorf, schrumpfte von {de(lob['Hassel/Stein'], 2)} auf {de(lob['Engelhardt'], 2)} Quadratmeilen "
+         f"die Hälfte der Grenze des Unterlandes ({de(top_u['laenge_stunden'], 0)} von {unter_tot} Stunden) verläuft gegen Altenburg.")
+f2_en = (f"Of the Oberland’s {ober_tot} Stunden of border, {en(top_o['laenge_stunden'], 0)} adjoin Reuss (Elder Line); "
+         f"half of the Unterland’s border ({en(top_u['laenge_stunden'], 0)} of {unter_tot} Stunden) adjoins Altenburg.")
+f3_de = (f"Auch Lobenstein-Ebersdorf, in beiden Tabellen gleich abgegrenzt, schrumpfte von {de(lob['Hassel/Stein'], 2)} auf {de(lob['Engelhardt'], 2)} Quadratmeilen "
          f"(minus {de(lob_drop_eng, 0)} Prozent); die Landesvermessung ergibt {de(morgen_total, 0)} preußische Morgen oder {de(km2_survey, 1)} km².")
-f3_en = (f"Even the one identically delimited area, Lobenstein-Ebersdorf, shrank from {en(lob['Hassel/Stein'], 2)} to {en(lob['Engelhardt'], 2)} square miles "
+f3_en = (f"Even Lobenstein-Ebersdorf, delimited alike in both tables, shrank from {en(lob['Hassel/Stein'], 2)} to {en(lob['Engelhardt'], 2)} square miles "
          f"(minus {en(lob_drop_eng, 0)} percent); the land survey gives {en(morgen_total, 0)} Prussian Morgen, or {en(km2_survey, 1)} km².")
 
 caption1_de = ("Gedruckte Koordinaten der 56 Punkte mit Länge und Breite, von Ferro auf Greenwich umgerechnet. Gestrichelt: Grenzwerte der beiden Landesteile (S. 6); "
@@ -272,7 +280,7 @@ caption1_en = ("Printed coordinates of the 56 points with longitude and latitude
 title1_de = "Brückners Messpunkte zeichnen zwei getrennte Landesteile nach"
 title1_en = "Brückner’s survey points trace two separate parts of the country"
 title2_de = f"Das Oberland grenzt am längsten an Reuß ä. L., das Unterland an Altenburg"
-title2_en = f"The Oberland borders Reuss (Elder Line) longest, the Unterland borders Altenburg"
+title2_en = f"The Oberland’s longest border is with Reuss (Elder Line), the Unterland’s with Altenburg"
 caption2_de = ("Länge der Grenze in Stunden (vermutlich Wegstunden, von Brückner nicht erklärt) je Nachbarstaat, getrennt für beide Landesteile; "
                "gemessen in den Krümmungen einschließlich Ex- und Enklaven. Quelle: S. 5.")
 caption2_en = ("Length of the boundary in Stunden (presumably walking hours, not explained by Brückner) by neighboring state, for each part separately; measured "
@@ -326,6 +334,12 @@ caveats[3] = {
 assert len(wrong) == 1 and "Koburg" in wrong[0]["staat"]
 
 # ---------------------------------------------------------------- assemble
+YES_NO = {0: "nein", 1: "ja"}
+recode(points_ds, "in_klammern", YES_NO, None)
+points_ds["columns"][[c["name"] for c in points_ds["columns"]].index("in_klammern")]["label"] = T("In Klammern gedruckt", "Printed in brackets")
+drop_column(points_ds, "beschriftet")
+gren_ds = json.loads(json.dumps(gren_ds))
+drop_column(gren_ds, "nachbar_nr")
 orte = shared("base_places")
 fluesse = shared("base_rivers")
 
@@ -370,7 +384,6 @@ feature = {
         "en": ["position", "area", "boundaries", "neighboring states", "coordinates", "triangulation", "land survey", "Oberland", "Unterland"],
     },
     "related": ["relief-hoehen", "gewaesser", "landesgeschichte", "bevoelkerung-1647-1867"],
-    "generated_by": "Claude Sonnet 5.5 (Agent F1), aus 3 Einzelauswertungen zusammengeführt",
     "date": "2026-10-02",
 }
 

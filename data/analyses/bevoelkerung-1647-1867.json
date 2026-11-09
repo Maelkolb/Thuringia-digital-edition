@@ -35,7 +35,7 @@
  ],
  "summary": {
   "de": "Von 1647 bis 1867 wuchs die Bevölkerung des Fürstentums von 23.913 auf 87.974 Menschen, auf fast das Vierfache. Seit 1834 wurde alle drei Jahre gezählt. Am schnellsten wuchs der Bezirk Gera im Unterland, während Lobenstein-Ebersdorf im Oberland nach 1855 zurückging. Mit 106 Einwohnern je Quadratkilometer zählte das kleine Land zu den dicht besiedelten Staaten Deutschlands.",
-  "en": "Between 1647 and 1867 the principality’s population grew from 23,913 to 87,974, almost fourfold. From 1834 a census was held every three years. The district of Gera in the Unterland grew fastest, while Lobenstein-Ebersdorf in the Oberland declined after 1855. With 106 inhabitants per square kilometre the small country was among the densely settled states of Germany."
+  "en": "Between 1647 and 1867 the principality’s population grew from 23,913 to 87,974, almost fourfold. From 1834 a census was held every three years. The district of Gera in the Unterland grew fastest, while Lobenstein-Ebersdorf in the Oberland declined after 1855. With 106 inhabitants per square kilometre the small country was among the more densely settled states of Germany."
  },
  "findings": [
   {
@@ -47,7 +47,7 @@
    "en": "The town of Gera grew from 2,371 inhabitants in 1647 to 16,283; the residence of Ebersdorf from 81 to 1,008."
   },
   {
-   "de": "In Brückners Vergleich deutscher Staaten war nur Sachsen, Reuß älterer Linie und Sachsen-Altenburg dichter besiedelt.",
+   "de": "In Brückners Vergleich deutscher Staaten waren nur Sachsen, Reuß älterer Linie und Sachsen-Altenburg dichter besiedelt.",
    "en": "In Brückner’s comparison of German states only Saxony, Reuss (Elder Line) and Saxe-Altenburg were more densely settled."
   }
  ],
@@ -1282,7 +1282,7 @@
       "as": "index"
      },
      {
-      "calculate": "datum.district + ' +' + format(datum.index - 100, '.0f') + ' %'",
+      "calculate": "[datum.district == 'Lobenstein-Ebersdorf' ? 'Lobenstein-' : datum.district, (datum.district == 'Lobenstein-Ebersdorf' ? 'Ebersdorf ' : '') + '+' + format(datum.index - 100, '.0f') + ' %']",
       "as": "endlabel"
      }
     ],
@@ -1302,10 +1302,8 @@
        "values": [
         1834,
         1840,
-        1846,
-        1852,
-        1858,
-        1864,
+        1850,
+        1860,
         1867
        ],
        "title": null
@@ -1416,8 +1414,11 @@
       ],
       "mark": {
        "type": "text",
-       "align": "right",
-       "dy": -12,
+       "align": "left",
+       "baseline": "middle",
+       "dx": 8,
+       "dy": -6,
+       "lineHeight": 13,
        "style": "label"
       },
       "encoding": {
@@ -1435,8 +1436,9 @@
       ],
       "mark": {
        "type": "text",
-       "align": "center",
-       "dy": 16,
+       "align": "left",
+       "dx": -3,
+       "dy": 20,
        "style": "annotation",
        "baseline": "top"
       },
@@ -1450,7 +1452,13 @@
        "color": null
       }
      }
-    ]
+    ],
+    "padding": {
+     "left": 4,
+     "top": 4,
+     "bottom": 4,
+     "right": 104
+    }
    }
   },
   {
@@ -1461,8 +1469,8 @@
     "en": "Ebersdorf grew twelvefold, Gera almost sevenfold"
    },
    "caption": {
-    "de": "Einwohner 1647 (grau) und 1867 (blau) der sechs Städte (fett) und der größeren Landorte; die Zahl nennt Brückners Vermehrungsfaktor. Quelle: S. 96.",
-    "en": "Inhabitants in 1647 (grey) and 1867 (blue) of the six towns (bold) and the larger villages; the number is Brückner’s growth factor. Source: p. 96."
+    "de": "Einwohner 1647 und 1867 der sechs Städte (fett) und der größeren Landorte; die Zahl rechts ist Brückners Vermehrungsfaktor. Quelle: S. 96.",
+    "en": "Inhabitants in 1647 and 1867 of the six towns (bold) and the larger villages; the number on the right is Brückner’s growth factor. Source: p. 96."
    },
    "vegalite": {
     "height": {
@@ -1618,13 +1626,13 @@
      {
       "transform": [
        {
-        "filter": "datum.place == 'Gera'"
+        "filter": "datum.place == 'Ebersdorf'"
        }
       ],
       "mark": {
        "type": "text",
-       "align": "right",
-       "dx": -9,
+       "align": "center",
+       "dy": -13,
        "style": "annotation"
       },
       "encoding": {
@@ -1640,13 +1648,13 @@
      {
       "transform": [
        {
-        "filter": "datum.place == 'Gera'"
+        "filter": "datum.place == 'Ebersdorf'"
        }
       ],
       "mark": {
        "type": "text",
        "align": "center",
-       "dy": -12,
+       "dy": -13,
        "style": "annotation"
       },
       "encoding": {
@@ -1666,8 +1674,8 @@
    "id": "c3",
    "dataset": "states",
    "title": {
-    "de": "Unter den deutschen Staaten gehörte Reuß j. L. zu den dicht besiedelten",
-    "en": "Among the German states, Reuss (Younger Line) was one of the densely settled"
+    "de": "Dichter besiedelt als Reuß j. L. waren nur Sachsen, Reuß ä. L. und Sachsen-Altenburg",
+    "en": "Only Saxony, Reuss (Elder Line) and Saxe-Altenburg were more densely settled than Reuss (Younger Line)"
    },
    "caption": {
     "de": "Einwohner je Quadratkilometer nach Brückners Vergleich der deutschen Staaten, umgerechnet aus Quadratmeilen. Quelle: S. 94.",
@@ -1702,6 +1710,13 @@
         "de": "Einwohner je km²",
         "en": "Inhabitants per km²"
        }
+      },
+      "scale": {
+       "domain": [
+        0,
+        180
+       ],
+       "nice": false
       }
      }
     },
@@ -1782,7 +1797,13 @@
        }
       }
      }
-    ]
+    ],
+    "padding": {
+     "left": 4,
+     "top": 4,
+     "bottom": 4,
+     "right": 26
+    }
    }
   }
  ],
@@ -1816,6 +1837,5 @@
   "siedlung-wohnen",
   "dorfleben"
  ],
- "generated_by": "Redaktion der Edition mit Claude Opus 5.5, aus drei Einzelauswertungen von Claude Sonnet 5.5 zusammengeführt",
  "date": "2026-10-02"
 }

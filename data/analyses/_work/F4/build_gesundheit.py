@@ -58,8 +58,8 @@ SHORT = {
     (1790, "Friesau und Remptendorf (Reuß ä. L.)"): ("Reuß ä. L.: Pfarrer Frotscher impft", "Reuss (Elder Line): pastor Frotscher inoculates"),
     (1791, "Lobenstein-Ebersdorf"): ("Lobenstein-Ebersdorf: über {v} % der Toten Blatternopfer", "Lobenstein-Ebersdorf: over {v} % of the dead die of smallpox"),
     (1807, "Fürstentum"): ("Fürstentum: {v} Kinder sterben an Blattern", "Principality: {v} children die of smallpox"),
-    (1820, "Fürstentum"): ("Impfung setzt sich mehr und mehr durch", "vaccination gains ground"),
-    (1826, "Fürstentum"): ("Mandat macht die Impfung zum Gesetz", "decree makes vaccination law"),
+    (1820, "Fürstentum"): ("Impfung setzt sich mehr und mehr durch", "Vaccination gains ground"),
+    (1826, "Fürstentum"): ("Mandat macht die Impfung zum Gesetz", "Decree makes vaccination law"),
     (1844, "Schilbach"): ("Schilbach: Scharlach, auch Ältere erkranken", "Schilbach: scarlet fever, older people fall ill too"),
     (1845, "Tanna"): ("Tanna: Masern und Scharlach zugleich", "Tanna: measles and scarlet fever together"),
     (1866, "Hirschberg und Untermhaus"): ("Hirschberg, Untermhaus: Cholera, eingeschleppt", "Hirschberg, Untermhaus: cholera, brought in"),
@@ -121,7 +121,7 @@ c1 = {
                        {"calculate": {"de": "datum.avg_count + ' von " + str(avg_conscripts) + " Pflichtigen im Jahresdurchschnitt'",
                                       "en": "datum.avg_count + ' of " + str(avg_conscripts) + " conscripts on average per year'"}, "as": "cnt"}],
          "mark": {"type": "text", "style": "label", "align": "left", "dx": 10, "color": "@paper"},
-         "encoding": {"x": {"datum": 0}, "text": {"field": "cnt"}}},
+         "encoding": {"x": {"datum": 0}, "text": {"condition": {"test": "width > 560", "field": "cnt"}, "value": ""}}},
     ],
 }
 
@@ -159,38 +159,34 @@ c2 = {
 LANE_COL = {"field": "lane_de", "type": "nominal", "legend": None,
             "scale": {"domain": lane_order, "range": ["@accent3", "@accent", "@accent2"]}}
 YPOS = {"field": "pos", "type": "quantitative", "scale": {"domain": [-0.8, y_max + 0.4], "reverse": True}, "axis": None}
+ROW_OFFSET = 8
 c3 = {
-    "height": 440,
+    "height": 620,
+    "transform": [
+        {"calculate": {"de": "datum.label_de", "en": "datum.label_en"}, "as": "label"},
+        {"calculate": {"de": "datum.lane_de", "en": "datum.lane_en"}, "as": "lane_label"},
+        {"calculate": "datum.pos - 1", "as": "head_pos"},
+    ],
+    "encoding": {"y": YPOS},
     "layer": [
-        {"mark": {"type": "circle", "stroke": "@paper", "strokeWidth": 1.5},
+        {"mark": {"type": "text", "align": "left", "baseline": "bottom", "dy": -1, "fontSize": 12, "color": "@ink2"},
+         "encoding": {"x": {"value": 0}, "text": {"field": "label"}}},
+        {"transform": [{"calculate": "1560", "as": "axis_start"}],
+         "mark": {"type": "rule", "color": "@context", "strokeWidth": 1, "yOffset": ROW_OFFSET},
+         "encoding": {"x": {"field": "axis_start", "type": "quantitative", "scale": {"domain": [1560, 1880], "nice": False, "zero": False}}, "x2": {"field": "year"}}},
+        {"mark": {"type": "circle", "stroke": "@paper", "strokeWidth": 1.5, "yOffset": ROW_OFFSET},
          "encoding": {
              "x": {"field": "year", "type": "quantitative", "scale": {"domain": [1560, 1880], "nice": False},
-                   "axis": {"values": [1600, 1700, 1800], "format": "d", "grid": True, "title": None, "orient": "bottom"}},
-             "y": YPOS, "color": LANE_COL,
+                   "axis": {"values": [1600, 1650, 1700, 1750, 1800, 1850], "format": "d", "grid": True, "title": None, "orient": "bottom"}},
+             "color": LANE_COL,
              "size": {"condition": {"test": "datum.year == 1756 || datum.year == 1826", "value": 230}, "value": 110},
-             "tooltip": [tooltip("year", "Jahr", "Year", "d"), tooltip("place", "Ort", "Place"),
-                         {"field": "event_de", "title": "Ereignis"}]}},
-        {"transform": [{"filter": "datum.year >= 1750"}],
-         "mark": {"type": "text", "style": "label", "align": "right", "dx": -12, "color": "@ink2", "fontWeight": 400},
-         "encoding": {"x": {"field": "year", "type": "quantitative"}, "y": YPOS,
-                      "text": {"field": {"de": "label_de", "en": "label_en"}}}},
+             "tooltip": [tooltip("year", "Jahr", "Year", "d"), tooltip("label", "Ereignis", "Event")]}},
+        {"transform": [{"filter": "datum.lane_first == 1"}],
+         "mark": {"type": "text", "align": "left", "baseline": "bottom", "dy": -1, "fontSize": 13, "fontWeight": 600},
+         "encoding": {"x": {"value": 0}, "y": {"field": "head_pos", "type": "quantitative"},
+                      "text": {"field": "lane_label"}, "color": LANE_COL}},
     ],
 }
-# field names cannot be bilingual: use calculate for the label text
-c3["transform"] = [{"calculate": {"de": "datum.label_de", "en": "datum.label_en"}, "as": "label"},
-                   {"calculate": {"de": "datum.lane_de", "en": "datum.lane_en"}, "as": "lane_label"},
-                   {"calculate": "datum.pos - 1", "as": "head_pos"}]
-c3["layer"][1]["encoding"]["text"] = {"field": "label"}
-c3["layer"][0]["encoding"]["tooltip"] = [tooltip("year", "Jahr", "Year", "d"), tooltip("label", "Ereignis", "Event")]
-c3["layer"] += [
-    {"transform": [{"filter": "datum.year < 1750"}],
-     "mark": {"type": "text", "style": "label", "align": "left", "dx": 12, "color": "@ink2", "fontWeight": 400},
-     "encoding": {"x": {"field": "year", "type": "quantitative"}, "y": YPOS, "text": {"field": "label"}}},
-    {"transform": [{"filter": "datum.lane_first == 1"}],
-     "mark": {"type": "text", "style": "label", "align": "left", "fontSize": 13},
-     "encoding": {"x": {"datum": 1560}, "y": {"field": "head_pos", "type": "quantitative"},
-                  "text": {"field": "lane_label"}, "color": LANE_COL}},
-]
 
 # ---------------------------------------------------------------- texts
 title = bi("Krankheit, Ärzte und Seuchen", "Illness, physicians and epidemics")
@@ -199,7 +195,7 @@ summary = bi(
     f"Brückner stützt sein Bild der Volkskrankheiten auf wenige Quellen: eine Arztpraxis in Lobenstein, die Krankenhausstation Gera, Hohenleuben und die Musterungen. "
     f"Von durchschnittlich {avg_conscripts} Militärpflichtigen galten {t_fit[0]} als brauchbar. In Gera betrafen {n(skin['Gera'], 1)[0]} Prozent der Erkrankungen Krätze und ähnliche Hautleiden. "
     f"Die Impfung wurde {decree['year']} Gesetz, die Cholera trat {EV[-1]['year']} einmalig auf. 1867 zählte er {n(dis67['Taubstumme'])[0]} Taubstumme und {n(dis67['Blinde'])[0]} Blinde.",
-    f"Brückner bases his picture of the common diseases on few sources: a physician’s practice in Lobenstein, the hospital ward in Gera, Hohenleuben and the musters. "
+    f"Brückner bases his picture of the common diseases on few sources: a physician’s practice in Lobenstein, the hospital ward in Gera, Hohenleuben and the examination of conscripts. "
     f"Of an average of {avg_conscripts} conscripts, {t_fit[1]} were fit for service. In Gera {n(skin['Gera'], 1)[1]} percent of the cases were scabies and similar skin diseases. "
     f"Vaccination became law in {decree['year']}, cholera occurred once, in {EV[-1]['year']}. In 1867 he counts {n(dis67['Taubstumme'])[1]} deaf-mutes and {n(dis67['Blinde'])[1]} blind people.",
 )
@@ -220,8 +216,8 @@ charts = [
                    "Findings for conscripts 1864 to 1866 as a percentage of the printed average of 799 conscripts a year. Undersized: under 5′ 7″ Saxon measure, about 158 cm. Source: p. 173."),
      "vegalite": c1},
     {"id": "c2", "dataset": "diseases",
-     "title": bi(f"Krätze und Hautleiden betrafen in Gera {n(skin['Gera'], 1)[0]} Prozent der Kranken, in Lobenstein und Hohenleuben {n(skin['Lobenstein'])[0]}",
-                 f"In Gera {n(skin['Gera'], 1)[1]} percent of the sick had skin diseases, in Lobenstein and Hohenleuben {n(skin['Lobenstein'])[1]}"),
+     "title": bi(f"Hautleiden betrafen in Gera {n(skin['Gera'], 1)[0]} Prozent der Kranken, in Lobenstein und Hohenleuben je {n(skin['Lobenstein'])[0]} Prozent",
+                 f"Skin diseases affected {n(skin['Gera'], 1)[1]} percent of the sick in Gera, {n(skin['Lobenstein'])[1]} percent in Lobenstein and Hohenleuben"),
      "caption": bi("Hauptkrankheiten in Prozent der Erkrankten, nach den Aufzeichnungen eines Arztes in Lobenstein, der Krankenhausstation Gera und des Orts Hohenleuben. Die Zahlen sind nicht streng vergleichbar. Quelle: S. 169 bis 172.",
                    "Main diseases as a percentage of the sick, from the records of a physician in Lobenstein, the hospital ward in Gera and the town of Hohenleuben. The figures are not strictly comparable. Source: pp. 169 to 172."),
      "vegalite": c2},
@@ -266,12 +262,12 @@ feature = {
         "Die Krankheitsprozente stammen aus Brückners Übersicht S. 172; Striche bedeuten »nicht angegeben«, Brüche wurden in Dezimalzahlen überführt (1/2 = 0,5). Das Diagramm zeigt die Krankheiten, die für mindestens zwei Orte genannt sind; Tanna liefert nur einen Wert (Nervenfieber 0,36 Prozent) und fehlt in der Grafik. "
         "Die Zahlen zur Krätze in Gera stehen im Text S. 171. Die Zeitleiste stellt die datierten Angaben aus S. 170, 171 und 177 zusammen; die Zuordnung zu drei Zeilen und die Kurzbeschriftungen sind redaktionell. "
         "Die Zahlen zu Taubstummen und Blinden (S. 117 f., Stände 1864 und 1867) liegen als Tabelle bei. "
-        "Nicht verwendet wurden die Monatsverteilung der Erkrankungen in Hohenleuben, das Krankheitsbild in Lobenstein im Einzelnen, die Taubstummen und Blinden nach Bezirk und die Einzeljahre der Musterung; sie stehen in den Einzelauswertungen.",
+        "Nicht verwendet wurden die Monatsverteilung der Erkrankungen in Hohenleuben, das Krankheitsbild in Lobenstein im Einzelnen, die Taubstummen und Blinden nach Bezirk und die Einzeljahre der Musterung.",
         "The findings for conscripts come from the table on p. 173 (years 1864 to 1866, printed average and percentage column, based on 799 conscripts). "
         "The disease percentages come from Brückner’s overview on p. 172; dashes mean “not stated”, fractions were converted to decimals (1/2 = 0.5). The chart shows the diseases named for at least two places; Tanna supplies only one value (nervous fever 0.36 percent) and is left out. "
         "The figures on scabies in Gera are in the text on p. 171. The timeline assembles the dated statements from pp. 170, 171 and 177; the assignment to three lanes and the short labels are editorial. "
         "The figures on deaf-mutes and the blind (pp. 117 f., counts of 1864 and 1867) are attached as a table. "
-        "Not used are the monthly distribution of cases in Hohenleuben, the disease profile of Lobenstein in detail, the deaf-mutes and blind by district and the single years of the musters; they are in the single analyses."),
+        "The monthly distribution of cases in Hohenleuben, the disease profile of Lobenstein in detail, the deaf-mutes and blind by district and the single years of the conscript examinations are not used."),
     "conversions": convs,
     "caveats": [
         bi("Die drei Orte sind nicht unmittelbar vergleichbar: Lobenstein beruht auf der zehnjährigen Erfahrung eines Arztes, Gera auf der inneren Krankenhausstation, vor allem Fabrikarbeitern und Armen, Hohenleuben auf dem ganzen Ort. Zeitgenössische Krankheitsnamen sind nicht mit modernen Diagnosen gleichzusetzen.",
@@ -291,7 +287,6 @@ feature = {
         "en": ["diseases", "health", "physicians", "epidemics", "smallpox", "vaccination", "cholera", "scabies", "fitness for service", "conscription", "deaf-mutes", "blind"],
     },
     "related": ["geburten-sterbefaelle", "alter-familie", "sagen-brauch", "verfassung-verwaltung"],
-    "generated_by": "Claude Sonnet 5.5 (Agent F4), aus 4 Einzelauswertungen zusammengeführt",
     "date": "2026-10-02",
 }
 if not convs:

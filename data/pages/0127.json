@@ -903,14 +903,23 @@
    "id": "b6",
    "type": "paragraph",
    "src": 5,
-   "text": "Wie in allen anderen Staaten, so wird auch hier im Einzelnen und im Ganzen das Gesetz bestätigt, daß auf Seiten der männlichen Bevölkerung die Sterblichkeit größer ist als auf Seiten der weiblichen. Für das von Lebens=",
+   "text": "Wie in allen anderen Staaten, so wird auch hier im Einzelnen und im Ganzen das Gesetz bestätigt, daß auf Seiten der männlichen Bevölkerung die Sterblichkeit größer ist als auf Seiten der weiblichen. Für das von Lebens-",
    "spans": [],
    "continues": true,
+   "word_division": {
+    "word": "Lebensjahr",
+    "part": "Lebens-"
+   },
    "sec": "t1-2-1"
   }
  ],
  "footnotes": [],
  "corrections": [
+  {
+   "rule": "fraktur_double_hyphen",
+   "before": "s von Lebens=",
+   "after": "s von Lebens-"
+  },
   {
    "rule": "table_pad_ragged_rows",
    "block": "b5"

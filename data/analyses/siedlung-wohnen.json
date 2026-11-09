@@ -57,8 +57,8 @@
   }
  ],
  "method": {
-  "de": "Die Gemeinden mit Einwohner- und Häuserzahl stammen aus den Ortsartikeln des zweiten Teils (S. 418 bis 825). Aufgenommen wurden die 173 politischen Gemeinden; Orte, die Brückner in die Zahlen anderer Gemeinden einrechnet, blieben unberücksichtigt. Es gilt die Zählung 1867, bei zweiherrischen Orten nur der reußische Anteil. Die Größenklassen und ihre Summen stehen in Brückners Tabelle S. 98; sie stimmen mit den Ortsartikeln in allen Klassen bei der Zahl der Orte und in den meisten bei der Volksmenge überein. Die Koordinaten stammen aus GeoNames, sie sind abgeleitet und beziehen sich auf die heutigen Orte; für zehn Orte fehlt eine verlässliche Zuordnung. Die Einwohner je Wohnhaus stehen in der Tabelle S. 94 (Städte, Landorte, Landesteile); die Zahlen für Thüringen und Sachsen stammen aus dem Text derselben Seite. Die Kirchenneubauten wurden aus dem Fließtext S. 133 f. ausgelesen; bei Baujahren in Spannen (Gera 1611 bis 1613, Tanna 1640 bis 1642) zählt das erste Jahr. Jahrzehnte entsprechen dem Jahr des Baubeginns. Nicht verwendet wurden die Häuser je Quadratmeile, die Familien je Haus und die älteren Bauteile (Sakristei Schleiz 1101, Kapelle Untermhaus 1193); sie stehen in den Einzelauswertungen.",
-  "en": "The municipalities with their population and number of houses come from the place articles of the second part (pp. 418 to 825). The 173 political municipalities were included; places that Brückner counts within the figures of other municipalities were left out. The count of 1867 applies, and for places under two lords only the Reuss share. The size classes and their totals are in Brückner’s table on p. 98; they agree with the place articles in all classes for the number of places and in most for the population. The coordinates come from GeoNames, they are derived and refer to today’s places; for ten places no reliable assignment exists. The inhabitants per house are in the table on p. 94 (towns, villages, districts); the figures for Thuringia and Saxony come from the text of the same page. The new churches were read from the running text on pp. 133 f.; for building years given as spans (Gera 1611 to 1613, Tanna 1640 to 1642) the first year counts. Decades correspond to the year the building began. Not used are the houses per square mile, the families per house and the older building parts (sacristy Schleiz 1101, chapel Untermhaus 1193); they are in the single analyses."
+  "de": "Die Gemeinden mit Einwohner- und Häuserzahl stammen aus den Ortsartikeln des zweiten Teils (S. 418 bis 825). Aufgenommen wurden die 173 politischen Gemeinden; Orte, die Brückner in die Zahlen anderer Gemeinden einrechnet, blieben unberücksichtigt. Es gilt die Zählung 1867, bei zweiherrischen Orten nur der reußische Anteil. Die Größenklassen und ihre Summen stehen in Brückners Tabelle S. 98; sie stimmen mit den Ortsartikeln in allen Klassen bei der Zahl der Orte und in den meisten bei der Volksmenge überein. Die Koordinaten stammen aus GeoNames, sie sind abgeleitet und beziehen sich auf die heutigen Orte; für zehn Orte fehlt eine verlässliche Zuordnung. Die Einwohner je Wohnhaus stehen in der Tabelle S. 94 (Städte, Landorte, Landesteile); die Zahlen für Thüringen und Sachsen stammen aus dem Text derselben Seite. Die Kirchenneubauten wurden aus dem Fließtext S. 133 f. ausgelesen; bei Baujahren in Spannen (Gera 1611 bis 1613, Tanna 1640 bis 1642) zählt das erste Jahr. Jahrzehnte entsprechen dem Jahr des Baubeginns. Nicht verwendet wurden die Häuser je Quadratmeile, die Familien je Haus und die älteren Bauteile (Sakristei Schleiz 1101, Kapelle Untermhaus 1193).",
+  "en": "The municipalities with their population and number of houses come from the place articles of the second part (pp. 418 to 825). The 173 political municipalities were included; places that Brückner counts within the figures of other municipalities were left out. The count of 1867 applies, and for places under two lords only the Reuss share. The size classes and their totals are in Brückner’s table on p. 98; they agree with the place articles in all classes for the number of places and in most for the population. The coordinates come from GeoNames, they are derived and refer to today’s places; for ten places no reliable assignment exists. The inhabitants per house are in the table on p. 94 (towns, villages, districts); the figures for Thuringia and Saxony come from the text of the same page. The new churches were read from the running text on pp. 133 f.; for building years given as spans (Gera 1611 to 1613, Tanna 1640 to 1642) the first year counts. Decades correspond to the year the building began. The houses per square mile, the families per house and the older building parts (sacristy Schleiz 1101, chapel Untermhaus 1193) are not used."
  },
  "caveats": [
   {
@@ -75,7 +75,7 @@
   },
   {
    "de": "Die Kirchenliste gibt, was Brückner als neue Kirchen hervorhebt; Umbauten und Erweiterungen sind nicht erfasst, das 19. Jahrhundert ist nur durch Hirschberg (1842) vertreten. Die Häufung 1710 bis 1739 zeigt Brückners Auswahl und nicht notwendig die Bautätigkeit.",
-   "en": "The list of churches gives what Brückner highlights as new churches; conversions and extensions are not covered, and the 19th century is represented only by Hirschberg (1842). The cluster in 1710 to 1739 shows Brückner’s selection and not necessarily the building activity."
+   "en": "The list of churches gives what Brückner singles out as new churches; conversions and extensions are not covered, and the 19th century is represented only by Hirschberg (1842). The cluster in 1710 to 1739 shows Brückner’s selection and not necessarily the building activity."
   }
  ],
  "datasets": [
@@ -86,15 +86,6 @@
     "en": "The municipalities with inhabitants, houses and position"
    },
    "columns": [
-    {
-     "name": "place_id",
-     "label": {
-      "de": "Kennung",
-      "en": "ID"
-     },
-     "type": "string",
-     "unit": null
-    },
     {
      "name": "name",
      "label": {
@@ -255,7 +246,6 @@
    ],
    "rows": [
     [
-     "ernsee",
      "Ernsee",
      "Gera",
      "Dorf",
@@ -274,7 +264,6 @@
      "b3"
     ],
     [
-     "untermhaus",
      "Untermhaus",
      "Gera",
      "Dorf",
@@ -293,7 +282,6 @@
      "b2"
     ],
     [
-     "cuba",
      "Cuba",
      "Gera",
      "Dorf",
@@ -312,7 +300,6 @@
      "b2"
     ],
     [
-     "roschitz",
      "Roschitz",
      "Gera",
      "Dorf",
@@ -331,7 +318,6 @@
      "b3"
     ],
     [
-     "tinz",
      "Tinz",
      "Gera",
      "Dorf",
@@ -350,7 +336,6 @@
      "b2"
     ],
     [
-     "bieblach",
      "Bieblach",
      "Gera",
      "Dorf",
@@ -369,7 +354,6 @@
      "b2"
     ],
     [
-     "gera",
      "Gera",
      "Gera",
      "Stadt",
@@ -388,7 +372,6 @@
      "b1"
     ],
     [
-     "debschwitz",
      "Debschwitz",
      "Gera",
      "Dorf",
@@ -407,7 +390,6 @@
      "b2"
     ],
     [
-     "pforten",
      "Pforten",
      "Gera",
      "Dorf",
@@ -426,7 +408,6 @@
      "b2"
     ],
     [
-     "zwoetzen",
      "Zwötzen",
      "Gera",
      "Dorf",
@@ -445,7 +426,6 @@
      "b2"
     ],
     [
-     "lusan",
      "Lusan",
      "Gera",
      "Dorf",
@@ -464,7 +444,6 @@
      "b2"
     ],
     [
-     "oberroeppisch",
      "Oberröppisch",
      "Gera",
      "Dorf",
@@ -483,7 +462,6 @@
      "b2"
     ],
     [
-     "zeulsdorf",
      "Zeulsdorf",
      "Gera",
      "Dorf",
@@ -502,7 +480,6 @@
      "b2"
     ],
     [
-     "weissig",
      "Weißig",
      "Gera",
      "Dorf",
@@ -521,7 +498,6 @@
      "b2"
     ],
     [
-     "duerrenebersdorf",
      "Dürrenebersdorf",
      "Gera",
      "Dorf",
@@ -540,7 +516,6 @@
      "b2"
     ],
     [
-     "gorlitzsch",
      "Gorlitzsch",
      "Gera",
      "Dorf",
@@ -559,7 +534,6 @@
      "b2"
     ],
     [
-     "hundhaupten",
      "Hundhaupten",
      "Gera",
      "Dorf",
@@ -578,7 +552,6 @@
      "b2"
     ],
     [
-     "schoena",
      "Schöna",
      "Gera",
      "Dorf",
@@ -597,7 +570,6 @@
      "b2"
     ],
     [
-     "waltersdorf",
      "Waltersdorf",
      "Gera",
      "Dorf",
@@ -616,7 +588,6 @@
      "b2"
     ],
     [
-     "kleinsaara",
      "Kleinsaara",
      "Gera",
      "Dorf",
@@ -635,7 +606,6 @@
      "b2"
     ],
     [
-     "grosssaara",
      "Großsaara",
      "Gera",
      "Dorf",
@@ -654,7 +624,6 @@
      "b2"
     ],
     [
-     "geissen",
      "Geißen",
      "Gera",
      "Dorf",
@@ -673,7 +642,6 @@
      "b2"
     ],
     [
-     "langengrobsdorf",
      "Langengrobsdorf",
      "Gera",
      "Dorf",
@@ -692,7 +660,6 @@
      "b2"
     ],
     [
-     "windischenbernsdorf",
      "Windischenbernsdorf",
      "Gera",
      "Dorf",
@@ -711,7 +678,6 @@
      "b2"
     ],
     [
-     "scheubengrobsdorf",
      "Scheubengrobsdorf",
      "Gera",
      "Dorf",
@@ -730,7 +696,6 @@
      "b2"
     ],
     [
-     "frankenthal",
      "Frankenthal",
      "Gera",
      "Dorf",
@@ -749,7 +714,6 @@
      "b2"
     ],
     [
-     "thieschitz",
      "Thieschitz",
      "Gera",
      "Dorf",
@@ -768,7 +732,6 @@
      "b2"
     ],
     [
-     "milbitz",
      "Milbitz",
      "Gera",
      "Dorf",
@@ -787,7 +750,6 @@
      "b2"
     ],
     [
-     "rubitz",
      "Rubitz",
      "Gera",
      "Dorf",
@@ -806,7 +768,6 @@
      "b2"
     ],
     [
-     "toeppeln",
      "Töppeln",
      "Gera",
      "Dorf",
@@ -825,7 +786,6 @@
      "b3"
     ],
     [
-     "muehlsdorf",
      "Mühlsdorf",
      "Gera",
      "Dorf",
@@ -844,7 +804,6 @@
      "b1"
     ],
     [
-     "poersdorf",
      "Pörsdorf",
      "Gera",
      "Dorf",
@@ -863,7 +822,6 @@
      "b3"
     ],
     [
-     "niederndorf",
      "Niederndorf",
      "Gera",
      "Dorf",
@@ -882,7 +840,6 @@
      "b2"
     ],
     [
-     "kaltenborn",
      "Kaltenborn",
      "Gera",
      "Dorf",
@@ -901,7 +858,6 @@
      "b2"
     ],
     [
-     "harpersdorf",
      "Harpersdorf",
      "Gera",
      "Dorf",
@@ -920,7 +876,6 @@
      "b2"
     ],
     [
-     "kraftsdorf",
      "Kraftsdorf",
      "Gera",
      "Dorf",
@@ -939,7 +894,6 @@
      "b2"
     ],
     [
-     "ruedersdorf",
      "Rüdersdorf",
      "Gera",
      "Dorf",
@@ -958,7 +912,6 @@
      "b2"
     ],
     [
-     "stuebnitz",
      "Stübnitz",
      "Gera",
      "Dorf",
@@ -977,7 +930,6 @@
      "b3"
     ],
     [
-     "gruena",
      "Grüna",
      "Gera",
      "Dorf",
@@ -996,7 +948,6 @@
      "b2"
     ],
     [
-     "hartmannsdorf",
      "Hartmannsdorf",
      "Gera",
      "Dorf",
@@ -1015,7 +966,6 @@
      "b2"
     ],
     [
-     "koestritz",
      "Köstritz",
      "Gera",
      "Dorf",
@@ -1034,7 +984,6 @@
      "b2"
     ],
     [
-     "gleina",
      "Gleina",
      "Gera",
      "Dorf",
@@ -1053,7 +1002,6 @@
      "b4"
     ],
     [
-     "seifartsdorf",
      "Seifartsdorf",
      "Gera",
      "Dorf",
@@ -1072,7 +1020,6 @@
      "b2"
     ],
     [
-     "caaschwitz",
      "Caaschwitz",
      "Gera",
      "Dorf",
@@ -1091,7 +1038,6 @@
      "b2"
     ],
     [
-     "pohlitz",
      "Pohlitz",
      "Gera",
      "Dorf",
@@ -1110,7 +1056,6 @@
      "b2"
     ],
     [
-     "stublach",
      "Stublach",
      "Gera",
      "Dorf",
@@ -1129,7 +1074,6 @@
      "b5"
     ],
     [
-     "langenberg",
      "Langenberg",
      "Gera",
      "Marktflecken",
@@ -1148,7 +1092,6 @@
      "b2"
     ],
     [
-     "roben",
      "Roben",
      "Gera",
      "Dorf",
@@ -1167,7 +1110,6 @@
      "b2"
     ],
     [
-     "steinbruecken",
      "Steinbrücken",
      "Gera",
      "Dorf",
@@ -1186,7 +1128,6 @@
      "b2"
     ],
     [
-     "rusitz",
      "Rusitz",
      "Gera",
      "Dorf",
@@ -1205,7 +1146,6 @@
      "b3"
     ],
     [
-     "lessen",
      "Lessen",
      "Gera",
      "Dorf",
@@ -1224,7 +1164,6 @@
      "b2"
     ],
     [
-     "grossaga",
      "Großaga",
      "Gera",
      "Dorf",
@@ -1243,7 +1182,6 @@
      "b2"
     ],
     [
-     "kleinaga",
      "Kleinaga",
      "Gera",
      "Dorf",
@@ -1262,7 +1200,6 @@
      "b2"
     ],
     [
-     "reichenbach",
      "Reichenbach",
      "Gera",
      "Dorf",
@@ -1281,7 +1218,6 @@
      "b3"
     ],
     [
-     "seeligenstaedt",
      "Seeligenstädt",
      "Gera",
      "Dorf",
@@ -1300,7 +1236,6 @@
      "b2"
     ],
     [
-     "hermsdorf",
      "Hermsdorf",
      "Gera",
      "Dorf",
@@ -1319,7 +1254,6 @@
      "b2"
     ],
     [
-     "wernsdorf-gera",
      "Wernsdorf",
      "Gera",
      "Dorf",
@@ -1338,7 +1272,6 @@
      "b2"
     ],
     [
-     "kretzschwitz",
      "Kretzschwitz",
      "Gera",
      "Dorf",
@@ -1357,7 +1290,6 @@
      "b1"
     ],
     [
-     "soellmnitz",
      "Söllmnitz",
      "Gera",
      "Dorf",
@@ -1376,7 +1308,6 @@
      "b3"
     ],
     [
-     "hirschfeld",
      "Hirschfeld",
      "Gera",
      "Dorf",
@@ -1395,7 +1326,6 @@
      "b4"
     ],
     [
-     "bethenhausen",
      "Bethenhausen",
      "Gera",
      "Dorf",
@@ -1414,7 +1344,6 @@
      "b2"
     ],
     [
-     "naundorf",
      "Naundorf",
      "Gera",
      "Dorf",
@@ -1433,7 +1362,6 @@
      "b2"
     ],
     [
-     "caasen",
      "Caasen",
      "Gera",
      "Dorf",
@@ -1452,7 +1380,6 @@
      "b2"
     ],
     [
-     "groitschen",
      "Groitschen",
      "Gera",
      "Dorf",
@@ -1471,7 +1398,6 @@
      "b2"
     ],
     [
-     "waaswitz",
      "Waaswitz",
      "Gera",
      "Dorf",
@@ -1490,7 +1416,6 @@
      "b2"
     ],
     [
-     "culm",
      "Culm",
      "Gera",
      "Dorf",
@@ -1509,7 +1434,6 @@
      "b2"
     ],
     [
-     "zschippach",
      "Zschippach",
      "Gera",
      "Dorf",
@@ -1528,7 +1452,6 @@
      "b2"
     ],
     [
-     "dorna",
      "Dorna",
      "Gera",
      "Dorf",
@@ -1547,7 +1470,6 @@
      "b2"
     ],
     [
-     "negis",
      "Negis",
      "Gera",
      "Dorf",
@@ -1566,7 +1488,6 @@
      "b2"
     ],
     [
-     "schwaara",
      "Schwaara",
      "Gera",
      "Dorf",
@@ -1585,7 +1506,6 @@
      "b2"
     ],
     [
-     "trebnitz",
      "Trebnitz",
      "Gera",
      "Dorf",
@@ -1604,7 +1524,6 @@
      "b3"
     ],
     [
-     "laasen",
      "Laasen",
      "Gera",
      "Dorf",
@@ -1623,7 +1542,6 @@
      "b2"
     ],
     [
-     "leumnitz",
      "Leumnitz",
      "Gera",
      "Dorf",
@@ -1642,7 +1560,6 @@
      "b2"
     ],
     [
-     "zschippern",
      "Zschippern",
      "Gera",
      "Dorf",
@@ -1661,7 +1578,6 @@
      "b2"
     ],
     [
-     "collis",
      "Collis",
      "Gera",
      "Dorf",
@@ -1680,7 +1596,6 @@
      "b2"
     ],
     [
-     "kaimberg",
      "Kaimberg",
      "Gera",
      "Dorf",
@@ -1699,7 +1614,6 @@
      "b2"
     ],
     [
-     "lichtenberg",
      "Lichtenberg",
      "Gera",
      "Dorf",
@@ -1718,7 +1632,6 @@
      "b2"
     ],
     [
-     "pohlen",
      "Pohlen",
      "Gera",
      "Dorf",
@@ -1737,7 +1650,6 @@
      "b2"
     ],
     [
-     "kleinfalke",
      "Kleinfalke",
      "Gera",
      "Dorf",
@@ -1756,7 +1668,6 @@
      "b2"
     ],
     [
-     "wuestfalke",
      "Wüstfalke",
      "Gera",
      "Dorf",
@@ -1775,7 +1686,6 @@
      "b2"
     ],
     [
-     "otticha",
      "Otticha",
      "Gera",
      "Dorf",
@@ -1794,7 +1704,6 @@
      "b2"
     ],
     [
-     "schleiz",
      "Schleiz",
      "Schleiz",
      "Stadt",
@@ -1813,7 +1722,6 @@
      "b1"
     ],
     [
-     "oberboehmsdorf",
      "Oberböhmsdorf",
      "Schleiz",
      "Dorf",
@@ -1832,7 +1740,6 @@
      "b2"
     ],
     [
-     "oschitz",
      "Oschitz",
      "Schleiz",
      "Dorf",
@@ -1851,7 +1758,6 @@
      "b3"
     ],
     [
-     "goerkwitz",
      "Görkwitz",
      "Schleiz",
      "Dorf",
@@ -1870,7 +1776,6 @@
      "b6"
     ],
     [
-     "oettersdorf",
      "Oettersdorf",
      "Schleiz",
      "Dorf",
@@ -1889,7 +1794,6 @@
      "b2"
     ],
     [
-     "poermitz",
      "Pörmitz",
      "Schleiz",
      "Dorf",
@@ -1908,7 +1812,6 @@
      "b2"
     ],
     [
-     "loehma",
      "Löhma",
      "Schleiz",
      "Dorf",
@@ -1927,7 +1830,6 @@
      "b3"
     ],
     [
-     "goeschitz",
      "Göschitz",
      "Schleiz",
      "Dorf",
@@ -1946,7 +1848,6 @@
      "b2"
     ],
     [
-     "roedersdorf",
      "Rödersdorf",
      "Schleiz",
      "Dorf",
@@ -1965,7 +1866,6 @@
      "b2"
     ],
     [
-     "dittersdorf",
      "Dittersdorf",
      "Schleiz",
      "Dorf",
@@ -1984,7 +1884,6 @@
      "b2"
     ],
     [
-     "dragensdorf",
      "Dragensdorf",
      "Schleiz",
      "Dorf",
@@ -2003,7 +1902,6 @@
      "b2"
     ],
     [
-     "tegau",
      "Tegau",
      "Schleiz",
      "Dorf",
@@ -2022,7 +1920,6 @@
      "b2"
     ],
     [
-     "burkersdorf",
      "Burkersdorf",
      "Schleiz",
      "Dorf",
@@ -2041,7 +1938,6 @@
      "b2"
     ],
     [
-     "pahren",
      "Pahren",
      "Schleiz",
      "Dorf",
@@ -2060,7 +1956,6 @@
      "b2"
     ],
     [
-     "kirschkau",
      "Kirschkau",
      "Schleiz",
      "Dorf",
@@ -2079,7 +1974,6 @@
      "b4"
     ],
     [
-     "loessau",
      "Lössau",
      "Schleiz",
      "Dorf",
@@ -2098,7 +1992,6 @@
      "b2"
     ],
     [
-     "leitlitz",
      "Leitlitz",
      "Schleiz",
      "Dorf",
@@ -2117,7 +2010,6 @@
      "b2"
     ],
     [
-     "weckersdorf",
      "Weckersdorf",
      "Schleiz",
      "Dorf",
@@ -2136,7 +2028,6 @@
      "b2"
     ],
     [
-     "hohenleuben",
      "Hohenleuben",
      "Schleiz",
      "Marktflecken",
@@ -2155,7 +2046,6 @@
      "b2"
     ],
     [
-     "langenwetzendorf",
      "Langenwetzendorf",
      "Schleiz",
      "Dorf",
@@ -2174,7 +2064,6 @@
      "b3"
     ],
     [
-     "hirschbach",
      "Hirschbach",
      "Schleiz",
      "Dorf",
@@ -2193,7 +2082,6 @@
      "b2"
     ],
     [
-     "goettendorf",
      "Göttendorf",
      "Schleiz",
      "Dorf",
@@ -2212,7 +2100,6 @@
      "b2"
     ],
     [
-     "neuaergerniss",
      "Neuärgerniß",
      "Schleiz",
      "Dorf",
@@ -2231,7 +2118,6 @@
      "b2"
     ],
     [
-     "poellwitz",
      "Pöllwitz",
      "Schleiz",
      "Dorf",
@@ -2250,7 +2136,6 @@
      "b2"
     ],
     [
-     "niederboehmsdorf",
      "Niederböhmsdorf",
      "Schleiz",
      "Dorf",
@@ -2269,7 +2154,6 @@
      "b2"
     ],
     [
-     "triebes",
      "Triebes",
      "Schleiz",
      "Dorf",
@@ -2288,7 +2172,6 @@
      "b2"
     ],
     [
-     "weissendorf",
      "Weißendorf",
      "Schleiz",
      "Dorf",
@@ -2307,7 +2190,6 @@
      "b5"
     ],
     [
-     "langenwolschendorf",
      "Langenwolschendorf",
      "Schleiz",
      "Dorf",
@@ -2326,7 +2208,6 @@
      "b2"
     ],
     [
-     "kleinwolschendorf",
      "Kleinwolschendorf",
      "Schleiz",
      "Dorf",
@@ -2345,7 +2226,6 @@
      "b2"
     ],
     [
-     "saalburg",
      "Saalburg",
      "Schleiz",
      "Stadt",
@@ -2364,7 +2244,6 @@
      "b4"
     ],
     [
-     "graefenwarth",
      "Gräfenwarth",
      "Schleiz",
      "Dorf",
@@ -2383,7 +2262,6 @@
      "b4"
     ],
     [
-     "kulm",
      "Kulm",
      "Schleiz",
      "Dorf",
@@ -2402,7 +2280,6 @@
      "b3"
     ],
     [
-     "wernsdorf-schleiz",
      "Wernsdorf",
      "Schleiz",
      "Dorf",
@@ -2421,7 +2298,6 @@
      "b3"
     ],
     [
-     "raila",
      "Raila",
      "Schleiz",
      "Dorf",
@@ -2440,7 +2316,6 @@
      "b2"
     ],
     [
-     "kuensdorf",
      "Künsdorf",
      "Schleiz",
      "Dorf",
@@ -2459,7 +2334,6 @@
      "b2"
     ],
     [
-     "seubtendorf",
      "Seubtendorf",
      "Schleiz",
      "Dorf",
@@ -2478,7 +2352,6 @@
      "b2"
     ],
     [
-     "tanna",
      "Tanna",
      "Schleiz",
      "Stadt",
@@ -2497,7 +2370,6 @@
      "b1"
     ],
     [
-     "frankendorf",
      "Frankendorf",
      "Schleiz",
      "Dorf",
@@ -2516,7 +2388,6 @@
      "b2"
     ],
     [
-     "schilbach",
      "Schilbach",
      "Schleiz",
      "Dorf",
@@ -2535,7 +2406,6 @@
      "b2"
     ],
     [
-     "zollgruen",
      "Zollgrün",
      "Schleiz",
      "Dorf",
@@ -2554,7 +2424,6 @@
      "b2"
     ],
     [
-     "mielesdorf",
      "Mielesdorf",
      "Schleiz",
      "Dorf",
@@ -2573,7 +2442,6 @@
      "b3"
     ],
     [
-     "unterkoskau",
      "Unterkoskau",
      "Schleiz",
      "Dorf",
@@ -2592,7 +2460,6 @@
      "b2"
     ],
     [
-     "oberkoskau",
      "Oberkoskau",
      "Schleiz",
      "Dorf",
@@ -2611,7 +2478,6 @@
      "b2"
     ],
     [
-     "willersdorf",
      "Willersdorf",
      "Schleiz",
      "Dorf",
@@ -2630,7 +2496,6 @@
      "b2"
     ],
     [
-     "stelzen",
      "Stelzen",
      "Schleiz",
      "Dorf",
@@ -2649,7 +2514,6 @@
      "b4"
     ],
     [
-     "spielmes",
      "Spielmes",
      "Schleiz",
      "Dorf",
@@ -2668,7 +2532,6 @@
      "b2"
     ],
     [
-     "lobenstein",
      "Lobenstein",
      "Lobenstein-Ebersdorf",
      "Stadt",
@@ -2687,7 +2550,6 @@
      "b3"
     ],
     [
-     "saaldorf",
      "Saaldorf",
      "Lobenstein-Ebersdorf",
      "Dorf",
@@ -2706,7 +2568,6 @@
      "b3"
     ],
     [
-     "poeritzsch",
      "Pöritzsch",
      "Lobenstein-Ebersdorf",
      "Dorf",
@@ -2725,7 +2586,6 @@
      "b1"
     ],
     [
-     "ebersdorf",
      "Ebersdorf",
      "Lobenstein-Ebersdorf",
      "Marktflecken",
@@ -2744,7 +2604,6 @@
      "b3"
     ],
     [
-     "schoenbrunn",
      "Schönbrunn",
      "Lobenstein-Ebersdorf",
      "Dorf",
@@ -2763,7 +2622,6 @@
      "b2"
     ],
     [
-     "unterlemnitz",
      "Unterlemnitz",
      "Lobenstein-Ebersdorf",
      "Dorf",
@@ -2782,7 +2640,6 @@
      "b2"
     ],
     [
-     "helmsgruen",
      "Helmsgrün",
      "Lobenstein-Ebersdorf",
      "Dorf",
@@ -2801,7 +2658,6 @@
      "b2"
     ],
     [
-     "heinersdorf",
      "Heinersdorf",
      "Lobenstein-Ebersdorf",
      "Dorf",
@@ -2820,7 +2676,6 @@
      "b2"
     ],
     [
-     "oberlemnitz",
      "Oberlemnitz",
      "Lobenstein-Ebersdorf",
      "Dorf",
@@ -2839,7 +2694,6 @@
      "b6"
     ],
     [
-     "eliasbrunn",
      "Eliasbrunn",
      "Lobenstein-Ebersdorf",
      "Dorf",
@@ -2858,7 +2712,6 @@
      "b1"
     ],
     [
-     "ruppersdorf",
      "Ruppersdorf",
      "Lobenstein-Ebersdorf",
      "Dorf",
@@ -2877,7 +2730,6 @@
      "b2"
     ],
     [
-     "thierbach",
      "Thierbach",
      "Lobenstein-Ebersdorf",
      "Dorf",
@@ -2896,7 +2748,6 @@
      "b2"
     ],
     [
-     "lueckenmuehle",
      "Lückenmühle",
      "Lobenstein-Ebersdorf",
      "Weiler",
@@ -2915,7 +2766,6 @@
      "b2"
     ],
     [
-     "karolinenfield",
      "Karolinenfield",
      "Lobenstein-Ebersdorf",
      "Kammergut",
@@ -2934,7 +2784,6 @@
      "b2"
     ],
     [
-     "thimmendorf",
      "Thimmendorf",
      "Lobenstein-Ebersdorf",
      "Dorf",
@@ -2953,7 +2802,6 @@
      "b4"
     ],
     [
-     "lothra",
      "Lothra",
      "Lobenstein-Ebersdorf",
      "Dorf",
@@ -2972,7 +2820,6 @@
      "b1"
     ],
     [
-     "altengesees",
      "Altengesees",
      "Lobenstein-Ebersdorf",
      "Dorf",
@@ -2991,7 +2838,6 @@
      "b2"
     ],
     [
-     "gahma",
      "Gahma",
      "Lobenstein-Ebersdorf",
      "Dorf",
@@ -3010,7 +2856,6 @@
      "b2"
     ],
     [
-     "weitisberga",
      "Weitisberga",
      "Lobenstein-Ebersdorf",
      "Dorf",
@@ -3029,7 +2874,6 @@
      "b2"
     ],
     [
-     "wurzbach",
      "Wurzbach",
      "Lobenstein-Ebersdorf",
      "Marktflecken",
@@ -3048,7 +2892,6 @@
      "b3"
     ],
     [
-     "ossla",
      "Oßla",
      "Lobenstein-Ebersdorf",
      "Dorf",
@@ -3067,7 +2910,6 @@
      "b7"
     ],
     [
-     "roettersdorf",
      "Röttersdorf",
      "Lobenstein-Ebersdorf",
      "Dorf",
@@ -3086,7 +2928,6 @@
      "b3"
     ],
     [
-     "grumbach",
      "Grumbach",
      "Lobenstein-Ebersdorf",
      "Dorf",
@@ -3105,7 +2946,6 @@
      "b4"
     ],
     [
-     "titschendorf",
      "Titschendorf",
      "Lobenstein-Ebersdorf",
      "Dorf",
@@ -3124,7 +2964,6 @@
      "b3"
     ],
     [
-     "neundorf-lobenstein",
      "Neundorf",
      "Lobenstein-Ebersdorf",
      "Dorf",
@@ -3143,7 +2982,6 @@
      "b2"
     ],
     [
-     "lichtenbrunn",
      "Lichtenbrunn",
      "Lobenstein-Ebersdorf",
      "Dorf",
@@ -3162,7 +3000,6 @@
      "b4"
     ],
     [
-     "schlegel",
      "Schlegel",
      "Lobenstein-Ebersdorf",
      "Dorf",
@@ -3181,7 +3018,6 @@
      "b2"
     ],
     [
-     "seibis",
      "Seibis",
      "Lobenstein-Ebersdorf",
      "Dorf",
@@ -3200,7 +3036,6 @@
      "b1"
     ],
     [
-     "blankenstein",
      "Blankenstein",
      "Lobenstein-Ebersdorf",
      "Dorf",
@@ -3219,7 +3054,6 @@
      "b2"
     ],
     [
-     "kiessling",
      "Kießling",
      "Lobenstein-Ebersdorf",
      "Dorf",
@@ -3238,7 +3072,6 @@
      "b3"
     ],
     [
-     "harra",
      "Harra",
      "Lobenstein-Ebersdorf",
      "Dorf",
@@ -3257,7 +3090,6 @@
      "b8"
     ],
     [
-     "langgruen",
      "Langgrün",
      "Lobenstein-Ebersdorf",
      "Dorf",
@@ -3276,7 +3108,6 @@
      "b6"
     ],
     [
-     "blintendorf",
      "Blintendorf",
      "Lobenstein-Ebersdorf",
      "Dorf",
@@ -3295,7 +3126,6 @@
      "b3"
     ],
     [
-     "goettengruen",
      "Göttengrün",
      "Lobenstein-Ebersdorf",
      "Dorf",
@@ -3314,7 +3144,6 @@
      "b2"
     ],
     [
-     "froessen",
      "Frössen",
      "Lobenstein-Ebersdorf",
      "Dorf",
@@ -3333,7 +3162,6 @@
      "b2"
     ],
     [
-     "lerchenhuegel",
      "Lerchenhügel",
      "Lobenstein-Ebersdorf",
      "Dorf",
@@ -3352,7 +3180,6 @@
      "b3"
     ],
     [
-     "pirk",
      "Pirk",
      "Lobenstein-Ebersdorf",
      "Dorf",
@@ -3371,7 +3198,6 @@
      "b2"
     ],
     [
-     "pottiga",
      "Pottiga",
      "Lobenstein-Ebersdorf",
      "Dorf",
@@ -3390,7 +3216,6 @@
      "b3"
     ],
     [
-     "goeritz",
      "Göritz",
      "Lobenstein-Ebersdorf",
      "Dorf",
@@ -3409,7 +3234,6 @@
      "b2"
     ],
     [
-     "ullersreuth",
      "Ullersreuth",
      "Lobenstein-Ebersdorf",
      "Dorf",
@@ -3428,7 +3252,6 @@
      "b2"
     ],
     [
-     "hirschberg",
      "Hirschberg",
      "Lobenstein-Ebersdorf",
      "Stadt",
@@ -3447,7 +3270,6 @@
      "b1"
     ],
     [
-     "venzka",
      "Venzka",
      "Lobenstein-Ebersdorf",
      "Dorf",
@@ -3466,7 +3288,6 @@
      "b3"
     ],
     [
-     "moedlareuth",
      "Mödlareuth",
      "Lobenstein-Ebersdorf",
      "Dorf",
@@ -3485,7 +3306,6 @@
      "b5"
     ],
     [
-     "gebersreuth",
      "Gebersreuth",
      "Lobenstein-Ebersdorf",
      "Dorf",
@@ -3504,7 +3324,6 @@
      "b2"
     ],
     [
-     "dobareuth",
      "Dobareuth",
      "Lobenstein-Ebersdorf",
      "Dorf",
@@ -3523,7 +3342,6 @@
      "b4"
     ],
     [
-     "rothenacker",
      "Rothenacker",
      "Lobenstein-Ebersdorf",
      "Dorf",
@@ -21867,8 +21685,8 @@
     "en": "Only 14 of the 173 municipalities had 1,000 or more inhabitants in 1867, Gera alone 16,283"
    },
    "caption": {
-    "de": "Gemeinden nach der Einwohnerzahl 1867 (Kreisfläche); blau die 14 größten. Verortet sind 163 von 173 Orten, die Lage folgt GeoNames. Grundlage sind die Ortsartikel; Größenklassen S. 98.",
-    "en": "Municipalities by population in 1867 (area of circles); blue the 14 largest. 163 of 173 places are located, positions follow GeoNames. Based on the place articles; size classes p. 98."
+    "de": "Gemeinden nach der Einwohnerzahl 1867 (Kreisfläche); hervorgehoben die 14 größten. Verortet sind 163 von 173 Orten, die Lage folgt GeoNames. Grundlage sind die Ortsartikel; Größenklassen S. 98.",
+    "en": "Municipalities by population in 1867 (area of circles); the 14 largest are highlighted. 163 of 173 places are located, positions follow GeoNames. Based on the place articles; size classes p. 98."
    },
    "vegalite": {
     "height": 600,
@@ -22515,7 +22333,7 @@
    "dataset": "new_churches",
    "title": {
     "de": "Zwölf der 30 genannten Kirchenneubauten entstanden zwischen 1710 und 1739",
-    "en": "Twelve of the 30 new churches named were built between 1710 and 1739"
+    "en": "Of the 30 new churches Brückner names, twelve date from 1710 to 1739"
    },
    "caption": {
     "de": "Von Brückner genannte Kirchenneubauten 1611 bis 1842, je ein Block pro Kirche, nach Jahrzehnt des Baubeginns. Keine vollständige Zählung. Quelle: S. 133 f.",
@@ -22736,6 +22554,5 @@
   "ortsnamen",
   "kirche-schule"
  ],
- "generated_by": "Claude Sonnet 5.5 (Agent F4), aus 4 Einzelauswertungen zusammengeführt",
  "date": "2026-10-02"
 }

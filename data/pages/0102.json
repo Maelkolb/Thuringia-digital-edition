@@ -130,7 +130,7 @@
    "id": "b2",
    "type": "paragraph",
    "src": 1,
-   "text": "Wie reich im Lande die Ordnung der Immen oder Hautflügler an Arten ist, läßt sich nicht angeben. Nur im Allgemeinen weiß man, daß unter ihren Familien die der Schlupf= und Springwespen am stärksten vertreten sind. Wenn übrigens im Haushalte der Natur diese beiden Familien Feinde der Raupen und dadurch Wohlthäter des Menschen sind, wenn unter den Bienen die Honigbiene als nützliches Hausthierchen in Dörfern und Städten des Landes Pflege findet und wenn selbst der Oberländer von den Ameisen Nutzen (Eier, Spiritus) zu ziehen weiß, so richtet dagegen die Kohlblattwespe oft große Verwüstungen an.",
+   "text": "Wie reich im Lande die Ordnung der Immen oder Hautflügler an Arten ist, läßt sich nicht angeben. Nur im Allgemeinen weiß man, daß unter ihren Familien die der Schlupf- und Springwespen am stärksten vertreten sind. Wenn übrigens im Haushalte der Natur diese beiden Familien Feinde der Raupen und dadurch Wohlthäter des Menschen sind, wenn unter den Bienen die Honigbiene als nützliches Hausthierchen in Dörfern und Städten des Landes Pflege findet und wenn selbst der Oberländer von den Ameisen Nutzen (Eier, Spiritus) zu ziehen weiß, so richtet dagegen die Kohlblattwespe oft große Verwüstungen an.",
    "spans": [
     [
      35,
@@ -189,7 +189,7 @@
    "id": "b3",
    "type": "paragraph",
    "src": 2,
-   "text": "Aus der Ordnung der Zweiflügler, deren 31 Familien sicherlich im Lande nachweisbar sind, machen sich vor Allen dem Menschen die Schnacken, Bartmücken, Stuben=, Fleisch= und Stechfliegen, die Bremsen und Flöhe bemerklich und theilweise sehr lästig. Namentlich hat im August mancher Strich in dem zudringlichen „Geschmeiß“ dieser kleinen stechenden Thierchen seine Mosquitoplage.",
+   "text": "Aus der Ordnung der Zweiflügler, deren 31 Familien sicherlich im Lande nachweisbar sind, machen sich vor Allen dem Menschen die Schnacken, Bartmücken, Stuben-, Fleisch- und Stechfliegen, die Bremsen und Flöhe bemerklich und theilweise sehr lästig. Namentlich hat im August mancher Strich in dem zudringlichen „Geschmeiß“ dieser kleinen stechenden Thierchen seine Mosquitoplage.",
    "spans": [
     [
      20,
@@ -233,7 +233,7 @@
    "id": "b4",
    "type": "paragraph",
    "src": 3,
-   "text": "Unter den Ohnflüglern sind die Läuse, unter den Geradflüglern die Heuschrecke, die Haus= und Maulwurfsgrille, die Wasserjungfern, die Ohrwürmer und die Schaben und unter den Schnabelkerfen die Wanzen und Zirpen oder Cicaden und wiederum unter diesen die Singzirpe hervorzuheben. Von diesen Thierchen war früher die Heuschrecke eine entsetzliche Landplage. Die Chronisten des Landes wissen viele Jahre anzugeben, wo sie das Hochland und das Unterland in verheerenden Zügen überschwemmt haben. Seit mehr als 100 Jahren sind derartige Züge nicht mehr vorgekommen, obschon die Wanderheuschrecke (Oedipoda migratoria) noch immer vereinzelt getroffen wird. Als eine noch bestehende Hausplage dagegen erscheint aus der Familie der Schaben (Blattida) die Küchenschabe (Schwabe, Schwarzbürger, Periplaneta orientalis) und die deutsche Schabe (Russe, Blatta germanica). An Eß=, Leder= und Wollwaaren nagend, bilden sie besonders in den Schrothäusern des Oberlandes ein schädliches Ungeziefer.",
+   "text": "Unter den Ohnflüglern sind die Läuse, unter den Geradflüglern die Heuschrecke, die Haus- und Maulwurfsgrille, die Wasserjungfern, die Ohrwürmer und die Schaben und unter den Schnabelkerfen die Wanzen und Zirpen oder Cicaden und wiederum unter diesen die Singzirpe hervorzuheben. Von diesen Thierchen war früher die Heuschrecke eine entsetzliche Landplage. Die Chronisten des Landes wissen viele Jahre anzugeben, wo sie das Hochland und das Unterland in verheerenden Zügen überschwemmt haben. Seit mehr als 100 Jahren sind derartige Züge nicht mehr vorgekommen, obschon die Wanderheuschrecke (Oedipoda migratoria) noch immer vereinzelt getroffen wird. Als eine noch bestehende Hausplage dagegen erscheint aus der Familie der Schaben (Blattida) die Küchenschabe (Schwabe, Schwarzbürger, Periplaneta orientalis) und die deutsche Schabe (Russe, Blatta germanica). An Eß-, Leder- und Wollwaaren nagend, bilden sie besonders in den Schrothäusern des Oberlandes ein schädliches Ungeziefer.",
    "spans": [
     [
      31,
@@ -379,7 +379,38 @@
   }
  ],
  "footnotes": [],
- "corrections": [],
+ "corrections": [
+  {
+   "rule": "fraktur_double_hyphen",
+   "before": "der Schlupf= und Springwe",
+   "after": "der Schlupf- und Spring"
+  },
+  {
+   "rule": "fraktur_double_hyphen",
+   "before": "en=, Fleisch= und Stechfli",
+   "after": "en=, Fleisch- und Stechf"
+  },
+  {
+   "rule": "fraktur_double_hyphen",
+   "before": "cken, Stuben=, Fleisch- u",
+   "after": "cken, Stuben-, Fleisch-"
+  },
+  {
+   "rule": "fraktur_double_hyphen",
+   "before": "n Eß=, Leder= und Wollwaar",
+   "after": "n Eß=, Leder- und Wollwa"
+  },
+  {
+   "rule": "fraktur_double_hyphen",
+   "before": "nica). An Eß=, Leder- und",
+   "after": "nica). An Eß-, Leder- un"
+  },
+  {
+   "rule": "fraktur_double_hyphen",
+   "before": "ke, die Haus= und Maulwurf",
+   "after": "ke, die Haus- und Maulwu"
+  }
+ ],
  "provenance": {
   "source": "colab-2026-01",
   "model": "gemini-3-flash-preview",

@@ -120,7 +120,7 @@
    "id": "b2",
    "type": "paragraph",
    "src": 1,
-   "text": "Wernsdorf (urkundlich 1364 Wernhersdorf, 1533 Wernsdorf, im Volke „Warnsdorf und Oberwarnsdorf, d. i. Oberwarnsdorf“), kleines, aber freundliches, hochgelegenes Kirch- und Bauerndorf, 2 1/2 Stunde NON. von Gera, 1/2 Stunde WNW. von Hirschfeld und dicht bei Lauenhain, auf der Hochebene, in einer sanften, südlich nach dem söllmnitzer Grund abdachenden Einsenkung, in 2 Häuserzeilen auf den Seiten eines hier entspringenden Quellfadens von S. nach N. gebaut und im Mittel 745 Fuß hoch, besaßt 4 Communalgebäude, nämlich 1 Kirche, Schule, Gemeinde- und Spritzenhaus und 22 Privathäuser mit 18 Scheunen und 23 Höfen, 31 Familien, 161 (1861: 172) Einw. und an Vieh 37 Pf., 162 R., 245 Schf. (7 Bauern), 121 Schw., 6 Z., 270 G., 16 Bnst. Eins der Häuser ist einstöckig und eins mit Stroh gedeckt, die übrigen sind zweistöckige Ziegeldachhäuser, in der Mehrzahl tüchtige Bauernhöfe. Bezüglich der Gerichtsbarkeit und der Lehen war der Ort bis zur neuesten Zeit theils den Rittergütern zu Söllmnitz, theils dem zu Kretzschwitz angehörend. In kirchlicher Hinsicht stand er in frühester Zeit mit Dorna in Verband, war aber schon zu Ende des Mittelalters, sicher bereits 1533, ein Filial von Hirschfeld und ist es noch. Die Kirche, am Nordende des Dorfes und auf dem ummauerten Gottesacker gelegen, hat im Jahre 1715 ihren jetzigen, wahrscheinlich gegen die frühere Kapelle erweiterten Hauptbau, aber im Jahre 1859 mit großen Un=",
+   "text": "Wernsdorf (urkundlich 1364 Wernhersdorf, 1533 Wernsdorf, im Volke „Warnsdorf und Oberwarnsdorf, d. i. Oberwarnsdorf“), kleines, aber freundliches, hochgelegenes Kirch- und Bauerndorf, 2 1/2 Stunde NON. von Gera, 1/2 Stunde WNW. von Hirschfeld und dicht bei Lauenhain, auf der Hochebene, in einer sanften, südlich nach dem söllmnitzer Grund abdachenden Einsenkung, in 2 Häuserzeilen auf den Seiten eines hier entspringenden Quellfadens von S. nach N. gebaut und im Mittel 745 Fuß hoch, besaßt 4 Communalgebäude, nämlich 1 Kirche, Schule, Gemeinde- und Spritzenhaus und 22 Privathäuser mit 18 Scheunen und 23 Höfen, 31 Familien, 161 (1861: 172) Einw. und an Vieh 37 Pf., 162 R., 245 Schf. (7 Bauern), 121 Schw., 6 Z., 270 G., 16 Bnst. Eins der Häuser ist einstöckig und eins mit Stroh gedeckt, die übrigen sind zweistöckige Ziegeldachhäuser, in der Mehrzahl tüchtige Bauernhöfe. Bezüglich der Gerichtsbarkeit und der Lehen war der Ort bis zur neuesten Zeit theils den Rittergütern zu Söllmnitz, theils dem zu Kretzschwitz angehörend. In kirchlicher Hinsicht stand er in frühester Zeit mit Dorna in Verband, war aber schon zu Ende des Mittelalters, sicher bereits 1533, ein Filial von Hirschfeld und ist es noch. Die Kirche, am Nordende des Dorfes und auf dem ummauerten Gottesacker gelegen, hat im Jahre 1715 ihren jetzigen, wahrscheinlich gegen die frühere Kapelle erweiterten Hauptbau, aber im Jahre 1859 mit großen Un-",
    "spans": [
     [
      0,
@@ -204,11 +204,21 @@
     ]
    ],
    "continues": true,
+   "word_division": {
+    "word": "Unkosten",
+    "part": "Un-"
+   },
    "sec": "t2-1"
   }
  ],
  "footnotes": [],
- "corrections": [],
+ "corrections": [
+  {
+   "rule": "fraktur_double_hyphen",
+   "before": "it großen Un=",
+   "after": "it großen Un-"
+  }
+ ],
  "provenance": {
   "source": "colab-2026-03",
   "model": "gemini-3-flash-preview",

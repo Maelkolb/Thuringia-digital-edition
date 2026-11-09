@@ -23,8 +23,7 @@ ds_proz = new_dataset(
     "neue_prozesse", "Neue förmliche Rechtsstreitigkeiten nach Gerichtsebene, Jahr und Ausgang",
     "New formal lawsuits by court level, year and outcome",
     [col("level", "Gerichtsebene", "Court level"), col("year", "Jahr", "Year", "integer"),
-     col("outcome_key", "Ausgang (Schlüssel)", "Outcome (key)"), col("outcome_de", "Ausgang", "Outcome"),
-     col("outcome_en", "Ausgang (en)", "Outcome (en)"), col("cases", "Fälle", "Cases", "integer", "Fälle")],
+     col("outcome_de", "Ausgang", "Outcome"), col("outcome_en", "Ausgang (englisch)", "Outcome (English)"), col("cases", "Fälle", "Cases", "integer", "Fälle")],
     proz,
     [{"page": "284", "block": "b2", "rows": "r13-r16"}, {"page": "286", "block": "b5", "rows": "r4-r7"}])
 
@@ -70,7 +69,7 @@ ds_ueb = new_dataset(
      col("forest_convicted", "Davon wegen Forstdiebstahls", "Of which forest theft", "integer", "Personen"),
      col("common_other", "Übrige gemeine Übertretungen", "Other common offences", "integer", "Personen", True),
      col("police_convicted", "Verurteilt wegen polizeilicher Übertretungen", "Convicted of police offences", "integer", "Personen"),
-     col("defraud_convicted", "Verurteilt wegen Defraudationen", "Convicted of defraudations", "integer", "Personen"),
+     col("defraud_convicted", "Verurteilt wegen Defraudationen", "Convicted of tax and customs fraud", "integer", "Personen"),
      col("honour_convicted", "Verurteilt wegen Ehrenkränkungen", "Convicted of insults to honour", "integer", "Personen"),
      col("total_convicted", "Summe aller Verurteilten", "All persons convicted", "integer", "Personen")],
     ueb, [{"page": "287", "block": "b6", "rows": "r3-r13"}])
@@ -89,7 +88,7 @@ ds_gef = new_dataset(
     gef, [{"page": "283", "block": "b4", "rows": "r11-r14"}, {"page": "286", "block": "b3", "rows": "r4-r7"}, {"page": "286", "block": "b3", "rows": "r11-r14"}])
 
 # ---------------------------------------------------------------- further table: public prosecutors
-ds_staat = dataset(a_staat, "index", new_name="staatsanwaltschaften")
+ds_staat = dataset(a_staat, "index", new_name="staatsanwaltschaften", drop_cols=("measure_key",))
 staat = rows(ds_staat)
 
 # ---------------------------------------------------------------- numbers
@@ -137,8 +136,8 @@ avg_ja = custody(1867, "Strafhaft", "Justizämter", "days") / custody(1867, "Str
 avg_kg = custody(1867, "Strafhaft", "Kreisgerichte", "days") / custody(1867, "Strafhaft", "Kreisgerichte")
 strafe_ja = [custody(y, "Strafhaft", "Justizämter") for y in (1866, 1867)]
 
-vor = {(r["measure_key"], r["year"]): r["value"] for r in staat}
-vor64, vor67 = vor[("c", 1864)], vor[("c", 1867)]
+vor = {r["year"]: r["value"] for r in staat if r["measure_de"] == "Voruntersuchungen veranlasst"}
+vor64, vor67 = vor[1864], vor[1867]
 vor_chg = (vor67 / vor64 - 1) * 100
 
 print(dict(suits67=suits67, per1000=round(per1000, 1), ja_per=round(ja_per, 1), kg_per=round(kg_per, 1), ratio_min=round(ratio_min, 2),
@@ -160,10 +159,10 @@ summary = {
 }
 
 findings = [
-    {"de": (f"Auf 1.000 Einwohner kamen 1867 {de(per1000, 1)} neue förmliche Rechtsstreitigkeiten: {de(ja_per, 1)} vor den Justizämtern, {de(kg_per, 1)} vor den Kreisgerichten."),
+    {"de": (f"1867 kamen auf 1.000 Einwohner {de(per1000, 1)} neue förmliche Rechtsstreitigkeiten: {de(ja_per, 1)} vor den Justizämtern, {de(kg_per, 1)} vor den Kreisgerichten."),
      "en": (f"Per 1,000 inhabitants there were {en(per1000, 1)} new formal lawsuits in 1867: {en(ja_per, 1)} before the Justizämter, {en(kg_per, 1)} before the Kreisgerichte.")},
-    {"de": (f"Die Staatsanwaltschaften leiteten 1867 {vor67} Voruntersuchungen ein, 1864 waren es {vor64}. Vor Kreisgerichten und Schwurgericht wurden 1867 {CONV['1867']} Personen verurteilt, 1865 waren es {CONV['1865']}."),
-     "en": (f"The public prosecutors ordered {vor67} preliminary investigations in 1867, against {vor64} in 1864. {CONV['1867']} persons were convicted before the Kreisgerichte and the jury court in 1867, {CONV['1865']} in 1865.")},
+    {"de": (f"1867 leiteten die Staatsanwaltschaften {vor67} Voruntersuchungen ein, 1864 waren es {vor64}. 1867 wurden vor Kreisgerichten und Schwurgericht {CONV['1867']} Personen verurteilt, 1865 waren es {CONV['1865']}."),
+     "en": (f"The public prosecutors ordered {vor67} preliminary investigations in 1867, compared with {vor64} in 1864. In 1867, {CONV['1867']} persons were convicted before the Kreisgerichte and the jury court, in 1865 {CONV['1865']}.")},
     {"de": (f"Die Strafhaft dauerte bei den Justizämtern 1867 im Durchschnitt {de(avg_ja, 1)} Tage, bei den Kreisgerichten {de(avg_kg, 1)} Tage. "
             f"Die Zahl der Gefangenen stieg von 1864 bis 1867 um {de(pris_chg)} Prozent, die Hafttage um {de(days_chg)} Prozent."),
      "en": (f"Imprisonment lasted {en(avg_ja, 1)} days on average at the Justizämter in 1867, {en(avg_kg, 1)} days at the Kreisgerichte. "
@@ -176,19 +175,19 @@ charts = [
                "en": "Forest theft led to more convictions than all police offences, four fifths in the Schleiz district"},
      "caption": {"de": "Verurteilte Personen vor den Einzelrichtern 1867 nach Art der Übertretung. Bezirk Gera: Justizämter Gera I und II, Hohenleuben; Bezirk Schleiz: Schleiz, Lobenstein, Hirschberg. Quelle: S. 281, 287.",
                  "en": "Persons convicted before the single judges in 1867 by kind of offence. Gera district: Justizämter Gera I and II, Hohenleuben; Schleiz district: Schleiz, Lobenstein, Hirschberg. Source: pp. 281, 287."},
-     "vegalite": C.c2},
+     "vegalite": C.offences},
     {"id": "c2", "dataset": "neue_prozesse",
      "title": {"de": "Neue Prozesse endeten deutlich häufiger durch Vergleich als durch Urteil",
                "en": "New lawsuits ended in a settlement much more often than in a judgment"},
-     "caption": {"de": "Neue förmliche Rechtsstreitigkeiten je Jahr nach Ausgang. Für 1864 ergeben die Teilzahlen der Kreisgerichte 571, gedruckt sind 561. Quelle: S. 280–281, 284, 286.",
-                 "en": "New formal lawsuits per year by outcome. For 1864 the parts for the Kreisgerichte add up to 571, the printed total is 561. Source: pp. 280–281, 284, 286."},
-     "vegalite": C.c1},
+     "caption": {"de": "Neue förmliche Rechtsstreitigkeiten je Jahr nach Ausgang, oben vor den Justizämtern (Prozesse bis 100 Taler), unten vor den Kreisgerichten. Für 1864 ergeben die Teilzahlen der Kreisgerichte 571, gedruckt sind 561. Quelle: S. 280–281, 284, 286.",
+                 "en": "New formal lawsuits per year by outcome, above at the Justizämter (suits up to 100 thalers), below at the Kreisgerichte. For 1864 the parts for the Kreisgerichte add up to 571, the printed total is 561. Source: pp. 280–281, 284, 286."},
+     "vegalite": C.lawsuits},
     {"id": "c3", "dataset": "gefangene",
      "title": {"de": f"1867 kamen {de(p67)} Menschen in Haft, {de(p_chg)} Prozent mehr als 1866",
                "en": f"In 1867, {en(p67)} people were taken into custody, {en(p_chg)} percent more than in 1866"},
      "caption": {"de": "Im Jahr in Untersuchungs- oder Strafhaft genommene Personen bei den Justizämtern und Kreisgerichten zusammen, kein Stichtagsbestand. Quelle: S. 283, 286.",
                  "en": "Persons taken into pre-trial detention or imprisonment during the year at the Justizämter and Kreisgerichte together, not a count on a fixed date. Source: pp. 283, 286."},
-     "vegalite": C.c3},
+     "vegalite": C.custody},
 ]
 
 method = {
@@ -198,8 +197,8 @@ method = {
            "Die Gefangenen und Hafttage stammen aus den Tabellen Generalia (S. 283, 286); die durchschnittliche Haftdauer ist Hafttage geteilt durch Gefangene. Die Zahlen der Staatsanwaltschaften (S. 288) sind für beide Ämter addiert."),
     "en": ("The basis is Brückner’s “Statistics of the administration of justice” (pp. 283–289) for 1864 to 1867. For the lawsuits, the columns for new formal lawsuits and their outcome (judgment, settlement, unresolved) "
            "were compiled from the tables of the Justizämter (p. 284) and the Kreisgerichte (p. 286); inhabitants per court are not printed, so the rates refer to the principality’s population in 1867 (87,974, p. 92). "
-           "The convictions for petty offences come from the table “Specially for 1867” (p. 287); a dash counts as no convictions. “Other common offences” is the difference between convictions for common offences and for forest theft. "
-           "The prisoners and days of custody come from the General tables (pp. 283, 286); the average length of custody is days divided by prisoners. The figures of the public prosecutors (p. 288) are added up for both offices."),
+           "The convictions for petty offences come from the table “Speciell für 1867” (p. 287); a dash counts as no convictions. “Other common offences” is the difference between convictions for common offences and for forest theft. "
+           "The prisoners and days of custody come from the tables headed “Generalia” (pp. 283, 286); the average length of custody is days divided by prisoners. The figures of the public prosecutors (p. 288) are added up for both offices."),
 }
 
 caveats = [
@@ -211,9 +210,9 @@ caveats = [
             "Die Summe der Strafhafttage der Kreisgerichte 1867 ist mit 3.201 gedruckt, die Einzelwerte ergeben 3.223. Verwendet sind die Werte der Teilspalten bzw. die gedruckte Summe."),
      "en": ("Some sums in the print do not add up: for 1864 the parts of the new lawsuits give 571 instead of 561 at the Kreisgerichte and 2,015 instead of 2,021 at the Justizämter; "
             "the days of imprisonment at the Kreisgerichte in 1867 are printed as 3,201, the parts give 3,223. The parts and the printed sum are used respectively.")},
-    {"de": ("Dass Vergleiche häufig waren, fällt in die Zeit nach dem Gesetz vom 28. April 1863 über Friedensgerichte (S. 282); ein Zusammenhang ist eine Vermutung, Brückner äußert sich nicht dazu."),
-     "en": ("That settlements were frequent falls in the time after the law of 28 April 1863 on courts of conciliation (p. 282); a connection is a conjecture, Brückner does not comment.")},
-    {"de": ("Brückner führt die Mehrarbeit der Staatsanwaltschaften 1867 auf die Not der Arbeiterbevölkerung im reichenfelser Gebiet zurück (S. 289). "
+    {"de": ("Die vielen Vergleiche fallen in die Zeit nach dem Gesetz vom 28. April 1863 über Friedensgerichte (S. 282); ein Zusammenhang ist nur vermutet, Brückner äußert sich nicht dazu."),
+     "en": ("The frequent settlements fall in the period after the law of 28 April 1863 on courts of conciliation (p. 282); a connection is conjecture, and Brückner does not comment on it.")},
+    {"de": ("Brückner führt die Mehrarbeit der Staatsanwaltschaften 1867 auf die Not der Arbeiterbevölkerung im Reichenfelser Gebiet zurück (S. 289). "
             "Die Zugehörigkeit der Justizämter zu den Kreisgerichtsbezirken folgt S. 281; das Justizamt Hohenleuben gehört zum Bezirk Gera."),
      "en": ("Brückner attributes the extra work of the public prosecutors in 1867 to the hardship of the working population in the Reichenfels area (p. 289). "
             "The assignment of the Justizämter to the Kreisgericht districts follows p. 281; the Justizamt Hohenleuben belongs to the Gera district.")},
@@ -239,7 +238,6 @@ a = {
         "de": ["Rechtspflege", "Justizämter", "Kreisgerichte", "Prozesse", "Vergleich", "Forstdiebstahl", "Übertretungen", "Gefangene", "Staatsanwaltschaft", "Strafen"],
         "en": ["administration of justice", "courts", "lawsuits", "settlement", "forest theft", "petty offences", "prisoners", "public prosecutor", "punishment"]},
     "related": ["verfassung-verwaltung", "wald-holz", "staatsfinanzen", "armenwesen-stiftungen"],
-    "generated_by": GENERATED_BY.format(n=len(IDS)),
     "date": DATE,
 }
 for i in IDS:

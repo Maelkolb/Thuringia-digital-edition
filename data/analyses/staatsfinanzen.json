@@ -80,11 +80,11 @@
  "findings": [
   {
    "de": "Von den veranschlagten Ausgaben (290.000 Taler) nennt Brückner nur 29,2 Prozent einzeln: Militär 54.750, Chausseeunterhaltung 26.835, Staatsgebäude und Wege 3.212 Taler.",
-   "en": "Of the budgeted expenditure (290,000 thalers) Brückner itemises only 29.2 percent: military 54,750, road maintenance 26,835, state buildings and paths 3,212 thalers."
+   "en": "Of the budgeted expenditure (290,000 thalers) Brückner itemises only 29.2 percent: military 54,750, road maintenance 26,835, state buildings and roads 3,212 thalers."
   },
   {
    "de": "Zur verzinslichen Schuld treten 320.000 Taler unverzinsliche Kassenscheine. Mit 3,63 Talern Kassenscheinen je Kopf steht Reuß j. L. an dritter Stelle von zehn verglichenen Staaten.",
-   "en": "In addition to the interest-bearing debt there are 320,000 thalers of non-interest-bearing treasury notes. At 3.63 thalers of notes per head, Reuss (Younger Line) ranks third among ten states compared."
+   "en": "In addition to the interest-bearing debt there are 320,000 thalers of non-interest-bearing treasury notes. At 3.63 thalers of notes per head, Reuss (Younger Line) ranks third of the ten states compared."
   },
   {
    "de": "Auf dem Land standen 74 Prozent der versicherten Gebäude, aber nur 62 Prozent der Versicherungssumme; in den sechs Städten 26 und 38 Prozent.",
@@ -113,7 +113,7 @@
    "en": "Brückner gives the military costs “for the financial period 1866/68”; like the overall totals they are read here as an annual amount. If the figure covered all three years, its share would be a third."
   },
   {
-   "de": "Für 1862 bis 1865 fehlen Werte der Staatsschuld. Das Jahr der 320.000 Taler Kassenscheine und des Staatenvergleichs nennt Brückner nicht. Die Versicherungssummen sind Versicherungswerte, keine Schätzungen des Gebäudewerts; Gera, Lobenstein, Tanna und Wurzbach sind von der magdeburger Landfeuersocietät ausgeschlossen.",
+   "de": "Für 1862 bis 1865 fehlen Werte der Staatsschuld. Das Jahr der 320.000 Taler Kassenscheine und des Staatenvergleichs nennt Brückner nicht. Die Versicherungssummen sind Versicherungswerte, keine Schätzungen des Gebäudewerts; Gera, Lobenstein, Tanna und Wurzbach sind von der Magdeburger Landfeuersocietät ausgeschlossen.",
    "en": "Values for the public debt are missing for 1862 to 1865. Brückner does not give the year of the 320,000 thalers of treasury notes or of the comparison of states. The insured sums are insurance values, not estimates of the value of the buildings; Gera, Lobenstein, Tanna and Wurzbach are excluded from the Magdeburg fire society."
   }
  ],
@@ -122,18 +122,9 @@
    "name": "income",
    "title": {
     "de": "Veranschlagte Steuereinnahmen nach Posten",
-    "en": "Estimated tax revenue by item"
+    "en": "Budgeted tax revenue by item"
    },
    "columns": [
-    {
-     "name": "item_key",
-     "label": {
-      "de": "Kürzel",
-      "en": "Key"
-     },
-     "type": "string",
-     "unit": null
-    },
     {
      "name": "item_de",
      "label": {
@@ -148,15 +139,6 @@
      "label": {
       "de": "Posten (englisch)",
       "en": "Item (English)"
-     },
-     "type": "string",
-     "unit": null
-    },
-    {
-     "name": "group_key",
-     "label": {
-      "de": "Kürzel Gruppe",
-      "en": "Group key"
      },
      "type": "string",
      "unit": null
@@ -202,82 +184,66 @@
    ],
    "rows": [
     [
-     "zoll",
      "Zölle u. a. (Sammelposten)",
      "Customs duties etc. (combined item)",
-     "a_ind",
-     "indirekt",
-     "Indirect",
+     "Indirekte Steuern",
+     "Indirect taxes",
      98000,
      33.108108108108105
     ],
     [
-     "malz",
      "Braumalzsteuer",
      "Brewing-malt tax",
-     "a_ind",
-     "indirekt",
-     "Indirect",
+     "Indirekte Steuern",
+     "Indirect taxes",
      25000,
      8.445945945945946
     ],
     [
-     "salz",
      "Salzregie (Salzertrag)",
      "Salt monopoly revenue",
-     "a_ind",
-     "indirekt",
-     "Indirect",
+     "Indirekte Steuern",
+     "Indirect taxes",
      29000,
      9.797297297297296
     ],
     [
-     "hund",
      "Hundesteuer",
      "Dog tax",
-     "a_ind",
-     "indirekt",
-     "Indirect",
+     "Indirekte Steuern",
+     "Indirect taxes",
      600,
      0.20270270270270271
     ],
     [
-     "karten",
      "Spielkartenstempel",
      "Playing-card stamp duty",
-     "a_ind",
-     "indirekt",
-     "Indirect",
+     "Indirekte Steuern",
+     "Indirect taxes",
      950,
      0.32094594594594594
     ],
     [
-     "jagd",
      "Jagdkarten",
      "Hunting licences",
-     "a_ind",
-     "indirekt",
-     "Indirect",
+     "Indirekte Steuern",
+     "Indirect taxes",
      1100,
      0.37162162162162166
     ],
     [
-     "grund",
      "Grundsteuer",
      "Land tax",
-     "b_dir",
-     "direkt",
-     "Direct",
+     "Direkte Steuern",
+     "Direct taxes",
      53600,
      18.10810810810811
     ],
     [
-     "gewerbe",
      "Gewerbe- und Personalsteuer",
      "Trade and personal tax",
-     "b_dir",
-     "direkt",
-     "Direct",
+     "Direkte Steuern",
+     "Direct taxes",
      27560,
      9.310810810810812
     ]
@@ -411,15 +377,6 @@
    },
    "columns": [
     {
-     "name": "key",
-     "label": {
-      "de": "Kürzel",
-      "en": "Key"
-     },
-     "type": "string",
-     "unit": null
-    },
-    {
      "name": "place_de",
      "label": {
       "de": "Ort",
@@ -433,15 +390,6 @@
      "label": {
       "de": "Ort (englisch)",
       "en": "Place (English)"
-     },
-     "type": "string",
-     "unit": null
-    },
-    {
-     "name": "kind_key",
-     "label": {
-      "de": "Kürzel Art",
-      "en": "Kind key"
      },
      "type": "string",
      "unit": null
@@ -533,10 +481,8 @@
    ],
    "rows": [
     [
-     "a",
      "Gera",
      "Gera",
-     "a",
      "Stadt",
      "Town",
      2747,
@@ -548,10 +494,8 @@
      1818.0
     ],
     [
-     "b",
      "Schleiz",
      "Schleiz",
-     "a",
      "Stadt",
      "Town",
      1076,
@@ -563,10 +507,8 @@
      1528.0
     ],
     [
-     "c",
      "Tanna",
      "Tanna",
-     "a",
      "Stadt",
      "Town",
      362,
@@ -578,10 +520,8 @@
      1182.0
     ],
     [
-     "d",
      "Saalburg",
      "Saalburg",
-     "a",
      "Stadt",
      "Town",
      233,
@@ -593,10 +533,8 @@
      1303.0
     ],
     [
-     "e",
      "Lobenstein",
      "Lobenstein",
-     "a",
      "Stadt",
      "Town",
      163,
@@ -608,10 +546,8 @@
      1499.0
     ],
     [
-     "f",
      "Hirschberg",
      "Hirschberg",
-     "a",
      "Stadt",
      "Town",
      320,
@@ -623,10 +559,8 @@
      1390.0
     ],
     [
-     "g",
      "Landgemeinden Gera",
      "Rural communities, Gera",
-     "b",
      "Land",
      "Country",
      5512,
@@ -638,10 +572,8 @@
      2260.0
     ],
     [
-     "h",
      "Landgemeinden Schleiz",
      "Rural communities, Schleiz",
-     "b",
      "Land",
      "Country",
      5246,
@@ -653,10 +585,8 @@
      1897.0
     ],
     [
-     "i",
      "Landgemeinden Lobenstein-Ebersdorf",
      "Rural communities, Lobenstein-Ebersdorf",
-     "b",
      "Land",
      "Country",
      3114,
@@ -685,18 +615,9 @@
    "name": "haushalt",
    "title": {
     "de": "Struktur von Einnahmen und Ausgaben (Voranschlag)",
-    "en": "Structure of revenue and expenditure (estimate)"
+    "en": "Structure of revenue and expenditure (budget)"
    },
    "columns": [
-    {
-     "name": "side_key",
-     "label": {
-      "de": "Kürzel",
-      "en": "Key"
-     },
-     "type": "string",
-     "unit": null
-    },
     {
      "name": "side_de",
      "label": {
@@ -711,15 +632,6 @@
      "label": {
       "de": "Seite (englisch)",
       "en": "Side (English)"
-     },
-     "type": "string",
-     "unit": null
-    },
-    {
-     "name": "comp_key",
-     "label": {
-      "de": "Kürzel Posten",
-      "en": "Component key"
      },
      "type": "string",
      "unit": null
@@ -756,64 +668,50 @@
    ],
    "rows": [
     [
-     "a_einnahmen",
      "Einnahmen",
      "Revenue",
-     "a_ind",
      "Indirekte Steuern",
      "Indirect taxes",
      154650
     ],
     [
-     "a_einnahmen",
      "Einnahmen",
      "Revenue",
-     "b_dir",
      "Direkte Steuern",
      "Direct taxes",
      81160
     ],
     [
-     "a_einnahmen",
      "Einnahmen",
      "Revenue",
-     "c_ue",
      "Übrige Einnahmen",
      "Other revenue",
      60190
     ],
     [
-     "b_ausgaben",
      "Ausgaben",
      "Expenditure",
-     "d_mil",
      "Militär",
      "Military",
      54750
     ],
     [
-     "b_ausgaben",
      "Ausgaben",
      "Expenditure",
-     "e_chs",
      "Chausseeunterhaltung",
      "Highway upkeep",
      26835
     ],
     [
-     "b_ausgaben",
      "Ausgaben",
      "Expenditure",
-     "f_geb",
      "Gebäude und Wege",
      "Buildings and roads",
      3212
     ],
     [
-     "b_ausgaben",
      "Ausgaben",
      "Expenditure",
-     "g_ua",
      "Übrige Ausgaben",
      "Other expenditure",
      205203
@@ -993,246 +891,196 @@
     "en": "Budgeted tax revenue per year in thalers, share of the total revenue of 296,000 thalers. The taxes named make up 79.7 percent; the rest (60,190 thalers) is not itemised. Source: pp. 276–277."
    },
    "vegalite": {
-    "vconcat": [
+    "height": {
+     "step": 24
+    },
+    "transform": [
      {
-      "width": 460,
-      "height": {
-       "step": 24
+      "calculate": {
+       "de": "datum.item_de",
+       "en": "datum.item_en"
       },
-      "title": {
-       "text": {
-        "de": "Indirekte Steuern: 154.650 Taler (52 % der Einnahmen)",
-        "en": "Indirect taxes: 154,650 thalers (52% of revenue)"
-       },
-       "anchor": "start",
-       "color": "@ink",
-       "fontSize": 12.5,
-       "fontWeight": 600,
-       "offset": 8
-      },
-      "transform": [
-       {
-        "filter": "datum.group_key == 'a_ind'"
-       },
-       {
-        "calculate": {
-         "de": "datum.item_de",
-         "en": "datum.item_en"
-        },
-        "as": "item"
-       },
-       {
-        "calculate": {
-         "de": "format(datum.thaler, ',d') + ' (' + format(datum.share_pct, datum.share_pct < 1 ? '.1f' : '.0f') + ' %)'",
-         "en": "format(datum.thaler, ',d') + ' (' + format(datum.share_pct, datum.share_pct < 1 ? '.1f' : '.0f') + '%)'"
-        },
-        "as": "lab"
-       }
-      ],
-      "encoding": {
-       "y": {
-        "field": "item",
-        "type": "nominal",
-        "sort": {
-         "field": "thaler",
-         "order": "descending"
-        },
-        "axis": {
-         "title": null,
-         "labelLimit": 380,
-         "minExtent": 210
-        }
-       },
-       "x": {
-        "field": "thaler",
-        "type": "quantitative",
-        "scale": {
-         "domain": [
-          0,
-          150000
-         ],
-         "nice": false
-        },
-        "axis": null
-       }
-      },
-      "layer": [
-       {
-        "mark": {
-         "type": "bar",
-         "size": 14,
-         "color": "@accent"
-        },
-        "encoding": {
-         "tooltip": [
-          {
-           "field": "item",
-           "title": {
-            "de": "Posten",
-            "en": "Item"
-           }
-          },
-          {
-           "field": "thaler",
-           "title": {
-            "de": "Taler",
-            "en": "Thalers"
-           },
-           "format": ",d"
-          },
-          {
-           "field": "share_pct",
-           "title": {
-            "de": "Anteil an den Einnahmen (%)",
-            "en": "Share of revenue (%)"
-           },
-           "format": ".1f"
-          }
-         ]
-        }
-       },
-       {
-        "mark": {
-         "type": "text",
-         "align": "left",
-         "dx": 6,
-         "style": "label"
-        },
-        "encoding": {
-         "text": {
-          "field": "lab"
-         }
-        }
-       }
-      ]
+      "as": "row"
      },
      {
-      "width": 460,
-      "height": {
-       "step": 24
+      "calculate": "(datum.group_de == 'Indirekte Steuern' ? 1 : 2) * 1000000 - datum.thaler",
+      "as": "ord"
+     },
+     {
+      "calculate": {
+       "de": "format(datum.thaler, ',d') + ' (' + format(datum.share_pct, datum.share_pct < 1 ? '.1f' : '.0f') + ' %)'",
+       "en": "format(datum.thaler, ',d') + ' (' + format(datum.share_pct, datum.share_pct < 1 ? '.1f' : '.0f') + '%)'"
       },
-      "title": {
-       "text": {
-        "de": "Direkte Steuern: 81.160 Taler (27 %)",
-        "en": "Direct taxes: 81,160 thalers (27%)"
+      "as": "lab"
+     }
+    ],
+    "encoding": {
+     "y": {
+      "field": "row",
+      "type": "nominal",
+      "sort": {
+       "field": "ord",
+       "op": "min",
+       "order": "ascending"
+      },
+      "axis": {
+       "title": null,
+       "labelLimit": 400,
+       "labelFontWeight": {
+        "condition": {
+         "test": "indexof(['Indirekte Steuern', 'Direkte Steuern', 'Indirect taxes', 'Direct taxes'], datum.value) >= 0",
+         "value": 600
+        },
+        "value": 400
        },
-       "anchor": "start",
-       "color": "@ink",
-       "fontSize": 12.5,
-       "fontWeight": 600,
-       "offset": 8
+       "labelColor": {
+        "condition": {
+         "test": "indexof(['Indirekte Steuern', 'Direkte Steuern', 'Indirect taxes', 'Direct taxes'], datum.value) >= 0",
+         "value": "@ink"
+        },
+        "value": "@ink2"
+       }
+      }
+     },
+     "x": {
+      "field": "thaler",
+      "type": "quantitative",
+      "scale": {
+       "domainMin": 0,
+       "domainMax": {
+        "expr": "max(150000, 98000 * width / max(width - 92, 60))"
+       },
+       "nice": false
       },
+      "axis": {
+       "format": ",d",
+       "values": [
+        0,
+        25000,
+        50000,
+        75000,
+        100000,
+        125000,
+        150000
+       ],
+       "title": {
+        "de": "Taler pro Jahr (veranschlagt)",
+        "en": "Thalers per year (budgeted)"
+       }
+      }
+     }
+    },
+    "layer": [
+     {
       "transform": [
        {
-        "filter": "datum.group_key == 'b_dir'"
+        "aggregate": [
+         {
+          "op": "sum",
+          "field": "thaler",
+          "as": "thaler"
+         }
+        ],
+        "groupby": [
+         "group_de",
+         "group_en"
+        ]
        },
        {
         "calculate": {
-         "de": "datum.item_de",
-         "en": "datum.item_en"
+         "de": "datum.group_de",
+         "en": "datum.group_en"
         },
-        "as": "item"
+        "as": "row"
+       },
+       {
+        "calculate": "(datum.group_de == 'Indirekte Steuern' ? 1 : 2) * 1000000 - 900000",
+        "as": "ord"
        },
        {
         "calculate": {
-         "de": "format(datum.thaler, ',d') + ' (' + format(datum.share_pct, datum.share_pct < 1 ? '.1f' : '.0f') + ' %)'",
-         "en": "format(datum.thaler, ',d') + ' (' + format(datum.share_pct, datum.share_pct < 1 ? '.1f' : '.0f') + '%)'"
+         "de": "format(datum.thaler, ',d') + ' Taler (' + format(datum.thaler / 296000 * 100, '.0f') + ' %)'",
+         "en": "format(datum.thaler, ',d') + ' thalers (' + format(datum.thaler / 296000 * 100, '.0f') + '%)'"
         },
         "as": "lab"
        }
       ],
+      "mark": {
+       "type": "text",
+       "align": "left",
+       "style": "label"
+      },
       "encoding": {
-       "y": {
-        "field": "item",
-        "type": "nominal",
-        "sort": {
-         "field": "thaler",
-         "order": "descending"
-        },
-        "axis": {
-         "title": null,
-         "labelLimit": 380,
-         "minExtent": 210
-        }
-       },
        "x": {
-        "field": "thaler",
-        "type": "quantitative",
+        "datum": 0
+       },
+       "text": {
+        "field": "lab"
+       }
+      }
+     },
+     {
+      "mark": {
+       "type": "bar",
+       "height": 14
+      },
+      "encoding": {
+       "color": {
+        "field": "group_de",
+        "type": "nominal",
+        "legend": null,
         "scale": {
          "domain": [
-          0,
-          150000
+          "Indirekte Steuern",
+          "Direkte Steuern"
          ],
-         "nice": false
-        },
-        "axis": {
-         "format": ",d",
-         "values": [
-          0,
-          25000,
-          50000,
-          75000,
-          100000
-         ],
-         "title": {
-          "de": "Taler pro Jahr (veranschlagt)",
-          "en": "Thalers per year (budgeted)"
-         }
-        }
-       }
-      },
-      "layer": [
-       {
-        "mark": {
-         "type": "bar",
-         "size": 14,
-         "color": "@accent2"
-        },
-        "encoding": {
-         "tooltip": [
-          {
-           "field": "item",
-           "title": {
-            "de": "Posten",
-            "en": "Item"
-           }
-          },
-          {
-           "field": "thaler",
-           "title": {
-            "de": "Taler",
-            "en": "Thalers"
-           },
-           "format": ",d"
-          },
-          {
-           "field": "share_pct",
-           "title": {
-            "de": "Anteil an den Einnahmen (%)",
-            "en": "Share of revenue (%)"
-           },
-           "format": ".1f"
-          }
+         "range": [
+          "@accent",
+          "@accent2"
          ]
         }
        },
-       {
-        "mark": {
-         "type": "text",
-         "align": "left",
-         "dx": 6,
-         "style": "label"
-        },
-        "encoding": {
-         "text": {
-          "field": "lab"
+       "tooltip": [
+        {
+         "field": "row",
+         "title": {
+          "de": "Posten",
+          "en": "Item"
          }
+        },
+        {
+         "field": "thaler",
+         "title": {
+          "de": "Taler",
+          "en": "Thalers"
+         },
+         "format": ",d"
+        },
+        {
+         "field": "share_pct",
+         "title": {
+          "de": "Anteil an den Einnahmen (%)",
+          "en": "Share of revenue (%)"
+         },
+         "format": ".1f"
         }
+       ]
+      }
+     },
+     {
+      "mark": {
+       "type": "text",
+       "align": "left",
+       "dx": 6,
+       "style": "label"
+      },
+      "encoding": {
+       "text": {
+        "field": "lab"
        }
-      ]
+      }
      }
-    ],
-    "spacing": 26
+    ]
    }
   },
   {
@@ -1312,7 +1160,10 @@
       "mark": {
        "type": "bar",
        "color": "@accent",
-       "cornerRadiusEnd": 3
+       "cornerRadiusEnd": 3,
+       "width": {
+        "band": 0.62
+       }
       },
       "encoding": {
        "tooltip": [
@@ -1336,6 +1187,11 @@
       }
      },
      {
+      "transform": [
+       {
+        "filter": "indexof([1857, 1861, 1866], datum.year) >= 0"
+       }
+      ],
       "mark": {
        "type": "text",
        "align": "center",
@@ -1359,7 +1215,7 @@
       },
       "transform": [
        {
-        "filter": "datum.side_key == 'a_einnahmen'"
+        "filter": "datum.side_de == 'Einnahmen'"
        },
        {
         "aggregate": [
@@ -1395,7 +1251,7 @@
       },
       "transform": [
        {
-        "filter": "datum.side_key == 'a_einnahmen'"
+        "filter": "datum.side_de == 'Einnahmen'"
        },
        {
         "aggregate": [
@@ -1411,8 +1267,9 @@
        "type": "text",
        "align": "left",
        "baseline": "bottom",
-       "dy": -6,
+       "dy": -21,
        "dx": 2,
+       "lineBreak": "|",
        "style": "annotation"
       },
       "encoding": {
@@ -1427,8 +1284,8 @@
        },
        "text": {
         "value": {
-         "de": "Veranschlagte Jahreseinnahmen",
-         "en": "Budgeted annual revenue"
+         "de": "Veranschlagte|Jahreseinnahmen",
+         "en": "Budgeted|annual revenue"
         }
        },
        "color": null
@@ -1489,7 +1346,7 @@
      "step": 24
     },
     "padding": {
-     "top": 22,
+     "top": 36,
      "left": 4,
      "right": 8,
      "bottom": 4
@@ -1516,7 +1373,7 @@
        }
       ],
       "groupby": [
-       "kind_key"
+       "kind_de"
       ]
      },
      {
@@ -1544,10 +1401,10 @@
      "x": {
       "type": "quantitative",
       "scale": {
-       "domain": [
-        0,
-        2000
-       ],
+       "domainMin": 0,
+       "domainMax": {
+        "expr": "max(2000, 1806 * width / max(width - 48, 60))"
+       },
        "nice": false
       },
       "axis": {
@@ -1559,20 +1416,21 @@
         1500,
         2000
        ],
+       "labelExpr": "width < 300 && datum.value % 1000 != 0 ? '' : datum.label",
        "title": {
-        "de": "Versicherungssumme je Gebäude (Taler)",
-        "en": "Insured sum per building (thalers)"
+        "de": "Taler je Gebäude",
+        "en": "Thalers per building"
        }
       }
      },
      "color": {
-      "field": "kind_key",
+      "field": "kind_de",
       "type": "nominal",
       "legend": null,
       "scale": {
        "domain": [
-        "a",
-        "b"
+        "Stadt",
+        "Land"
        ],
        "range": [
         "@accent",
@@ -1593,7 +1451,7 @@
          }
         ],
         "groupby": [
-         "kind_key"
+         "kind_de"
         ]
        }
       ],
@@ -1624,13 +1482,13 @@
          }
         ],
         "groupby": [
-         "kind_key"
+         "kind_de"
         ]
        },
        {
         "calculate": {
-         "de": "(datum.kind_key == 'a' ? 'Städte Ø ' : 'Land Ø ') + format(datum.avg, ',.0f')",
-         "en": "(datum.kind_key == 'a' ? 'Towns avg. ' : 'Country avg. ') + format(datum.avg, ',.0f')"
+         "de": "(datum.kind_de == 'Stadt' ? 'Städte Ø ' : 'Land Ø ') + format(datum.avg, ',.0f')",
+         "en": "(datum.kind_de == 'Stadt' ? 'Town average ' : 'Rural average ') + format(datum.avg, ',.0f')"
         },
         "as": "avg_label"
        }
@@ -1639,7 +1497,9 @@
        "type": "text",
        "style": "label",
        "baseline": "bottom",
-       "dy": -5,
+       "dy": {
+        "expr": "datum.kind_de == 'Stadt' ? -19 : -5"
+       },
        "align": "center"
       },
       "encoding": {
@@ -1676,7 +1536,8 @@
       "mark": {
        "type": "point",
        "filled": true,
-       "size": 80
+       "size": 80,
+       "opacity": 1
       },
       "encoding": {
        "x": {
@@ -1803,6 +1664,5 @@
   "bergbau",
   "siedlung-wohnen"
  ],
- "generated_by": "Claude Sonnet 5.5 (Agent F6), aus 3 Einzelauswertungen zusammengeführt",
  "date": "2026-10-02"
 }

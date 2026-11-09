@@ -318,8 +318,8 @@ mark.hit { background: var(--mark); color: inherit; padding: 0 1px; }
 .reg-item .kind { font: 400 .88rem var(--sans); color: var(--muted); margin-left: 8px; }
 .reg-item .desc { grid-column: 1 / -1; font-size: .93rem; color: var(--ink-2); }
 .reg-item .refs { grid-column: 1 / -1; font: 400 .9rem var(--sans); color: var(--ink-2); font-variant-numeric: tabular-nums; }
-.reg-item .refs a { text-decoration: none; }
-.reg-item .refs a:hover { text-decoration: underline; }
+.reg-item .refs a { text-decoration: underline; text-decoration-color: var(--rule-strong); text-underline-offset: 3px; }
+.reg-item .refs a:hover { text-decoration-color: currentColor; }
 .reg-item .auth { font: 400 .85rem var(--sans); display: flex; gap: 12px; align-items: baseline; color: var(--muted); justify-content: flex-end; flex-wrap: wrap; }
 .reg-item .auth a { color: var(--muted); }
 .reg-item .n { color: var(--muted); font-variant-numeric: tabular-nums; }
@@ -388,7 +388,14 @@ mark.hit { background: var(--mark); color: inherit; padding: 0 1px; }
 .ana-grid { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 8px 36px; }
 .ana-grid li { border-bottom: 1px solid var(--rule); }
 .ana-grid a { display: grid; gap: 6px; padding: 18px 0 16px; text-decoration: none; color: var(--ink); }
-.ana-grid img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; object-position: top left; display: block; background: #fffdf8; border: 1px solid var(--rule); }
+.ana-grid img { width: 100%; height: auto; aspect-ratio: 16 / 9; object-fit: cover; object-position: top left; display: block; background: var(--paper); border: 1px solid var(--rule); }
+.ana-grid .th-dark { display: none; }
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .ana-grid .th-light { display: none; }
+  :root:not([data-theme="light"]) .ana-grid .th-dark { display: block; }
+}
+:root[data-theme="dark"] .ana-grid .th-light { display: none; }
+:root[data-theme="dark"] .ana-grid .th-dark { display: block; }
 .ana-grid .t { font: 600 1.08rem/1.3 var(--serif); }
 .ana-grid .s { font-size: .92rem; color: var(--ink-2); }
 .ana-grid a:hover .t { color: var(--accent); text-decoration: underline; text-underline-offset: 3px; }
@@ -397,7 +404,7 @@ mark.hit { background: var(--mark); color: inherit; padding: 0 1px; }
 .feature .crumbs { margin-top: 28px; }
 .feature .doc-title { margin-top: 10px; }
 .chart-block { margin: 36px 0 40px; }
-.chart-block h2 { font: 600 1.2rem/1.3 var(--serif); margin: 0 0 12px; max-width: 44rem; }
+.chart-block h2 { font: 600 1.2rem/1.3 var(--serif); margin: 0 0 12px; max-width: 44rem; text-wrap: balance; }
 .chart { width: 100%; min-height: 200px; overflow-x: auto; overflow-y: hidden; }
 .chart-block .cap { font: 400 .9rem/1.5 var(--sans); color: var(--muted); margin: 10px 0 0; max-width: 44rem; }
 .findings-block { border-top: 1px solid var(--rule); padding-top: 16px; margin-top: 8px; }

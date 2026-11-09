@@ -233,7 +233,7 @@
        ]
       },
       {
-       "text": "Heinrich, 1336 Ordensritter=Comthur zu Reichenbach.",
+       "text": "Heinrich, 1336 Ordensritter-Comthur zu Reichenbach.",
        "spans": [
         [
          0,
@@ -443,7 +443,7 @@
      "role": "body",
      "cells": [
       {
-       "text": "Heinrich II., 1429—1446. Gem. Cordula v. Lobdaburg=Elsterberg.",
+       "text": "Heinrich II., 1429—1446. Gem. Cordula v. Lobdaburg-Elsterberg.",
        "spans": [
         [
          0,
@@ -681,7 +681,7 @@
      "role": "body",
      "cells": [
       {
-       "text": "Heinrich VI., geb. 1533, † 1568. Gem. Katharina v. Brandenburg=Ansbach, † 1604.",
+       "text": "Heinrich VI., geb. 1533, † 1568. Gem. Katharina v. Brandenburg-Ansbach, † 1604.",
        "spans": [
         [
          0,
@@ -696,7 +696,7 @@
        ]
       },
       {
-       "text": "Heinrich VII., geb. 1536, † 1572. Gem.: 1) Katharina v. Lüneburg=Gifhorn; 2) Anna v. Pommern, Wittwe Carls v. Anhalt, † 1592 als Gem. des Jobst von Barby.",
+       "text": "Heinrich VII., geb. 1536, † 1572. Gem.: 1) Katharina v. Lüneburg-Gifhorn; 2) Anna v. Pommern, Wittwe Carls v. Anhalt, † 1592 als Gem. des Jobst von Barby.",
        "spans": [
         [
          0,
@@ -801,7 +801,7 @@
     [
      "Heinrich d. ä., der Lange, 1306—1373. Gem. Sophie v. Weida.",
      "Heinrich, 1333 Domherr zu Magdeburg.",
-     "Heinrich, 1336 Ordensritter=Comthur zu Reichenbach.",
+     "Heinrich, 1336 Ordensritter-Comthur zu Reichenbach.",
      "Heinrich d. j., der Lange, 1306—1352. Herr zu Mühltroff. Gem. Luckard v. N.",
      "N. (Tochter), † nach 1362. Gem. Heinrich d. ä. von Weida."
     ],
@@ -820,7 +820,7 @@
      ""
     ],
     [
-     "Heinrich II., 1429—1446. Gem. Cordula v. Lobdaburg=Elsterberg.",
+     "Heinrich II., 1429—1446. Gem. Cordula v. Lobdaburg-Elsterberg.",
      "Anna, 1435 Aebtissin zu Quedlinburg. † Jan. 1458.",
      "",
      "",
@@ -848,8 +848,8 @@
      "N., (Tochter), 1520."
     ],
     [
-     "Heinrich VI., geb. 1533, † 1568. Gem. Katharina v. Brandenburg=Ansbach, † 1604.",
-     "Heinrich VII., geb. 1536, † 1572. Gem.: 1) Katharina v. Lüneburg=Gifhorn; 2) Anna v. Pommern, Wittwe Carls v. Anhalt, † 1592 als Gem. des Jobst von Barby.",
+     "Heinrich VI., geb. 1533, † 1568. Gem. Katharina v. Brandenburg-Ansbach, † 1604.",
+     "Heinrich VII., geb. 1536, † 1572. Gem.: 1) Katharina v. Lüneburg-Gifhorn; 2) Anna v. Pommern, Wittwe Carls v. Anhalt, † 1592 als Gem. des Jobst von Barby.",
      "",
      "",
      ""
@@ -868,6 +868,26 @@
  ],
  "footnotes": [],
  "corrections": [
+  {
+   "rule": "fraktur_double_hyphen",
+   "before": "Ordensritter=Comthur zu R",
+   "after": "Ordensritter-Comthur zu"
+  },
+  {
+   "rule": "fraktur_double_hyphen",
+   "before": "v. Lobdaburg=Elsterberg.",
+   "after": "v. Lobdaburg-Elsterberg."
+  },
+  {
+   "rule": "fraktur_double_hyphen",
+   "before": "Brandenburg=Ansbach, † 1",
+   "after": "Brandenburg-Ansbach, †"
+  },
+  {
+   "rule": "fraktur_double_hyphen",
+   "before": "v. Lüneburg=Gifhorn; 2)",
+   "after": "v. Lüneburg-Gifhorn; 2)"
+  },
   {
    "rule": "table_no_header_row",
    "note": "first row is data (legacy edition rendered it as <th>)",

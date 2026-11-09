@@ -65,7 +65,7 @@
    "id": "b2",
    "type": "paragraph",
    "src": 1,
-   "text": "Rödersdorf (urkundlich 1341 Rödersdorf, Redersdorf, im Volke gleichlautend), Pfarrkirchdörfchen, in einer sanften kesselförmigen Vertiefung des Eichelbachs, 1 1/2 Stunde NON. von Schleiz, 2 Stunden SW. von Auma, 1/8 Stunde von Göschitz und von der schleiz=aumaer Chaussee, inmitten zwischen Löhma (S.) und Tegau (N.) mild, gesund und angenehm gelegen. Kreisförmig umschließt der Ort die Kirche und einen Teich; von seinem Mittelpunkte gehen drei Wege (N. W. und S.) heraus und da der tegauer Weg, das Gäßchen, Göschitzgäßchen und der Asselweg. Er befaßt 5 Communalgebäude (Kirche, Pfarrei, Gemeindehaus, Hirten=Spritzenhaus und Brauhaus) und 19 Privathäuser mit 18 Scheunen, 24 Familien, 109 (1861: 112) Seelen und an Vieh 1 Pf., 118 R., 2 Schf., 50 Schw., 9 Z., 140 G., 9 Bnst. Bessere und ärmere Häuser wechseln, die meisten von Ahorn= und Obstbäumen umgeben. 21 sind zweistöckig, die anderen einstöckig; 11 mit Schiefer, ebensoviel mit Ziegeln und 2 mit Schindeln gedeckt. Auch allda ein Schrotbau. Der Stolz des Ortes ist seine, im Centrum frei stehende, auf der Nordostseite vom Friedhofe umschlossene Kirche, ein ehrwürdiges, großartiges und schönes Denkmal der Vorzeit, ursprünglich dem heiligen Jacob geweiht. Mit ihrem hohen, unten viereckigen, oben nadelförmigen Spitzthurme gleicht sie im Stile der schleizer Bergkirche, mit der sie von den Chronisten auch als gleichaltrig angegeben wird, denn es sei, sagen dieselben, die Bergkirche 1195 *), zur selben Zeit auch die Georgenkirche zu Schleiz und die zu Rödersdorf erbaut worden, drei Kirchen, die im Papstthum von weitem Rufe, durch Wallfahrten berühmt und selbst",
+   "text": "Rödersdorf (urkundlich 1341 Rödersdorf, Redersdorf, im Volke gleichlautend), Pfarrkirchdörfchen, in einer sanften kesselförmigen Vertiefung des Eichelbachs, 1 1/2 Stunde NON. von Schleiz, 2 Stunden SW. von Auma, 1/8 Stunde von Göschitz und von der schleiz-aumaer Chaussee, inmitten zwischen Löhma (S.) und Tegau (N.) mild, gesund und angenehm gelegen. Kreisförmig umschließt der Ort die Kirche und einen Teich; von seinem Mittelpunkte gehen drei Wege (N. W. und S.) heraus und da der tegauer Weg, das Gäßchen, Göschitzgäßchen und der Asselweg. Er befaßt 5 Communalgebäude (Kirche, Pfarrei, Gemeindehaus, Hirten-Spritzenhaus und Brauhaus) und 19 Privathäuser mit 18 Scheunen, 24 Familien, 109 (1861: 112) Seelen und an Vieh 1 Pf., 118 R., 2 Schf., 50 Schw., 9 Z., 140 G., 9 Bnst. Bessere und ärmere Häuser wechseln, die meisten von Ahorn- und Obstbäumen umgeben. 21 sind zweistöckig, die anderen einstöckig; 11 mit Schiefer, ebensoviel mit Ziegeln und 2 mit Schindeln gedeckt. Auch allda ein Schrotbau. Der Stolz des Ortes ist seine, im Centrum frei stehende, auf der Nordostseite vom Friedhofe umschlossene Kirche, ein ehrwürdiges, großartiges und schönes Denkmal der Vorzeit, ursprünglich dem heiligen Jacob geweiht. Mit ihrem hohen, unten viereckigen, oben nadelförmigen Spitzthurme gleicht sie im Stile der schleizer Bergkirche, mit der sie von den Chronisten auch als gleichaltrig angegeben wird, denn es sei, sagen dieselben, die Bergkirche 1195 *), zur selben Zeit auch die Georgenkirche zu Schleiz und die zu Rödersdorf erbaut worden, drei Kirchen, die im Papstthum von weitem Rufe, durch Wallfahrten berühmt und selbst",
    "spans": [
     [
      0,
@@ -211,7 +211,23 @@
    ]
   }
  ],
- "corrections": [],
+ "corrections": [
+  {
+   "rule": "fraktur_double_hyphen",
+   "before": "en von Ahorn= und Obstbäum",
+   "after": "en von Ahorn- und Obstbä"
+  },
+  {
+   "rule": "fraktur_double_hyphen",
+   "before": "haus, Hirten=Spritzenhaus",
+   "after": "haus, Hirten-Spritzenhau"
+  },
+  {
+   "rule": "fraktur_double_hyphen",
+   "before": "der schleiz=aumaer Chaus",
+   "after": "der schleiz-aumaer Chau"
+  }
+ ],
  "provenance": {
   "source": "colab-2026-03",
   "model": "gemini-3-flash-preview",

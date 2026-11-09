@@ -85,11 +85,11 @@
  ],
  "summary": {
   "de": "Als Maß für den Handel druckt Brückner die Zahl der erledigten Begleitscheine: In Gera stieg sie von 316 (1858) auf 680 (1867), im Oberland sank sie von 53 auf 12. Von 110 Jahrmärkten fanden 66 in Lobenstein-Ebersdorf statt. 1859 und 1865 wurden zwei Eisenbahnen nach Gera eröffnet. Brückner erklärt den Gegensatz mit der Lage zu den großen Verkehrsströmen.",
-  "en": "As a measure of trade Brückner prints the number of customs transit documents processed: in Gera it rose from 316 (1858) to 680 (1867), in the Oberland it fell from 53 to 12. Of 110 annual markets, 66 took place in Lobenstein-Ebersdorf. Two railways to Gera opened in 1859 and 1865. Brückner explains the contrast by the position relative to the great traffic flows."
+  "en": "As a measure of trade Brückner prints the number of customs transit documents processed: in Gera it rose from 316 (1858) to 680 (1867), in the Oberland it fell from 53 to 12. Of 110 annual markets, 66 took place in Lobenstein-Ebersdorf. Two railways to Gera opened in 1859 and 1865. Brückner attributes the contrast to the position of the districts relative to the main traffic routes."
  },
  "findings": [
   {
-   "de": "Gera erledigte 1867 98,3 Prozent aller Begleitscheine des Landes, 1858 waren es 85,6 Prozent. Beim Amt Schleiz sank die Zahl von 35 auf 3.",
+   "de": "1867 erledigte Gera 98,3 Prozent aller Begleitscheine des Landes, 1858 waren es 85,6 Prozent. Beim Amt Schleiz sank die Zahl von 35 auf 3.",
    "en": "In 1867 Gera processed 98.3 percent of all transit documents in the principality, in 1858 it was 85.6 percent. At the Schleiz office the number fell from 35 to 3."
   },
   {
@@ -102,8 +102,8 @@
   }
  ],
  "method": {
-  "de": "Die Begleitscheine stehen in der Tabelle S. 261 (vier Erledigungsämter, zehn Jahre); ein Strich im Druck ist als fehlender Wert kodiert. Für den Vergleich der Landesteile bildet Gera das Unterland, Schleiz, Lobenstein und Hirschberg zusammen das Oberland; beide Reihen sind auf 1858 = 100 bezogen. Die Märkte nennt die Aufzählung S. 262 in Zahlwörtern (»sieben Kram- und Viehmärkte«); jede genannte Art wurde als eine Zeile mit der Anzahl erfasst, ein kombinierter Markt zählt als ein Markt. Die Koordinaten der Marktorte stammen aus den Ortsdaten der Edition (GeoNames), nicht aus dem Druck. Die Zeitleiste enthält die Daten, die Brückner für Bahnen, Geldinstitute und Gesetze nennt; bei den Bahnen reicht der Balken vom Vertrag zur Eröffnung. Die Zeitungszahlen stammen aus der Tabelle S. 168; je 1.000 Einwohner ergibt sich aus Brückners Kennzahl »1 Exemplar auf … Einwohner«. Alle Beträge in Talern (1 Taler = 30 Silbergroschen).",
-  "en": "The transit documents are in the table on p. 261 (four clearing offices, ten years); a dash in the print is coded as a missing value. To compare the districts, Gera stands for the Unterland and Schleiz, Lobenstein and Hirschberg together for the Oberland; both series are set to 1858 = 100. The markets are given in number words in the list on p. 262 (“seven general and cattle markets”); each kind named was recorded as one row with its number, a combined market counts as one market. The coordinates of the market towns come from the edition’s place data (GeoNames), not from the print. The timeline contains the dates that Brückner gives for railways, financial institutions and laws; for the railways the bar runs from the treaty to the opening. The newspaper figures come from the table on p. 168; per 1,000 inhabitants follows from Brückner’s ratio “1 copy per … inhabitants”. All amounts are in thalers (1 thaler = 30 silver groschen)."
+  "de": "Die Begleitscheine stehen in der Tabelle S. 261 (vier Erledigungsämter, zehn Jahre); ein Strich im Druck ist als fehlender Wert kodiert. Für den Vergleich der Landesteile bildet Gera das Unterland, Schleiz, Lobenstein und Hirschberg zusammen das Oberland; beide Reihen sind auf 1858 = 100 bezogen. Die Märkte nennt die Aufzählung S. 262 in Zahlwörtern (»sieben Kram- und Viehmärkte«); jede genannte Art wurde als eine Zeile mit der Anzahl erfasst, ein kombinierter Markt zählt als ein Markt. Die Koordinaten der Marktorte stammen aus den Ortsdaten der Edition (GeoNames), nicht aus dem Druck. Die Zeitleiste enthält die Daten, die Brückner für Bahnen, Geldinstitute und Gesetze nennt; bei den Bahnen reicht die Linie vom Vertrag zur Eröffnung. Die Zeitungszahlen stammen aus der Tabelle S. 168; je 1.000 Einwohner ergibt sich aus Brückners Kennzahl »1 Exemplar auf … Einwohner«. Alle Beträge in Talern (1 Taler = 30 Silbergroschen).",
+  "en": "The transit documents are in the table on p. 261 (four clearing offices, ten years); a dash in the print is coded as a missing value. To compare the districts, Gera stands for the Unterland and Schleiz, Lobenstein and Hirschberg together for the Oberland; both series are set to 1858 = 100. The markets are given in number words in the list on p. 262 (“seven general and cattle markets”); each kind named was recorded as one row with its number, a combined market counts as one market. The coordinates of the market towns come from the edition’s place data (GeoNames), not from the print. The timeline contains the dates that Brückner gives for railways, financial institutions and laws; for the railways the line runs from the treaty to the opening. The newspaper figures come from the table on p. 168; per 1,000 inhabitants follows from Brückner’s ratio “1 copy per … inhabitants”. All amounts are in thalers (1 thaler = 30 silver groschen)."
  },
  "conversions": [
   {
@@ -15704,15 +15704,6 @@
      "unit": null
     },
     {
-     "name": "item_key",
-     "label": {
-      "de": "Kürzel",
-      "en": "Key"
-     },
-     "type": "string",
-     "unit": null
-    },
-    {
      "name": "kind_de",
      "label": {
       "de": "Art",
@@ -15744,7 +15735,6 @@
     [
      "Reinertrag Chausseegelder",
      "Net toll revenue",
-     "a",
      "Einnahme",
      "Revenue",
      15200
@@ -15752,7 +15742,6 @@
     [
      "Unterhaltungsaufwand",
      "Maintenance cost",
-     "b",
      "Ausgabe",
      "Expenditure",
      26835
@@ -15897,8 +15886,8 @@
     "en": "Transit documents rose 115 percent in Gera and fell 77 percent in the Oberland"
    },
    "caption": {
-    "de": "Bei den Erledigungsämtern erledigte Begleitscheine (Zollpapiere für Warentransporte) 1858 bis 1867, bezogen auf 1858. Unterland: Amt Gera; Oberland: Ämter Schleiz, Lobenstein und Hirschberg. Gestrichelt: Eröffnung der Bahnen. Quelle: S. 261–262.",
-    "en": "Transit documents (customs papers for goods in transit) processed by the clearing offices, 1858 to 1867, relative to 1858. Unterland: Gera office; Oberland: Schleiz, Lobenstein and Hirschberg offices. Dashed: opening of the railways. Source: pp. 261–262."
+    "de": "Erledigte Begleitscheine (Zollpapiere für Warentransporte) 1858 bis 1867, 1858 = 100. Unterland: Amt Gera; Oberland: Ämter Schleiz, Lobenstein und Hirschberg. Gestrichelt: Eröffnung der Bahnen von Weißenfels (1859) und Gößnitz (1865) nach Gera. Quelle: S. 261–262.",
+    "en": "Transit documents (customs papers for goods in transit) processed 1858 to 1867, 1858 = 100. Unterland: Gera office; Oberland: Schleiz, Lobenstein and Hirschberg offices. Dashed: opening of the railways from Weißenfels (1859) and Gößnitz (1865) to Gera. Source: pp. 261–262."
    },
    "vegalite": {
     "height": 320,
@@ -16053,13 +16042,6 @@
        {
         "calculate": "toNumber(substring(datum.date_end, 0, 4))",
         "as": "yr"
-       },
-       {
-        "calculate": {
-         "de": "datum.name_de + ' eröffnet'",
-         "en": "datum.name_en + ' opened'"
-        },
-        "as": "evt"
        }
       ],
       "mark": {
@@ -16100,8 +16082,8 @@
        },
        {
         "calculate": {
-         "de": "datum.name_de + ' eröffnet'",
-         "en": "datum.name_en + ' opened'"
+         "de": "'Bahn ' + datum.yr",
+         "en": "'Railway ' + datum.yr"
         },
         "as": "evt"
        }
@@ -16109,9 +16091,8 @@
       "mark": {
        "type": "text",
        "style": "annotation",
-       "align": "left",
+       "align": "center",
        "baseline": "bottom",
-       "dx": 4,
        "dy": -4
       },
       "encoding": {
@@ -16227,11 +16208,17 @@
     "en": "The district of Lobenstein-Ebersdorf had 66 of 110 markets, 14 of them in Wurzbach alone"
    },
    "caption": {
-    "de": "Märkte im Jahr (Jahr-, Kram-, Vieh-, Ross-, Woll- und Kornmärkte, ohne Wochenmärkte) an den 21 Marktorten. Graue Punkte: übrige Orte. Quelle: S. 262.",
-    "en": "Markets per year (fairs, general, cattle, horse, wool and grain markets, without weekly markets) in the 21 market towns. Grey dots: other places. Source: p. 262."
+    "de": "Märkte im Jahr (Jahr-, Kram-, Vieh-, Ross-, Woll- und Kornmärkte, ohne Wochenmärkte) an den 21 Marktorten. Kleine Punkte: übrige Orte. Quelle: S. 262.",
+    "en": "Markets per year (fairs, general, cattle, horse, wool and grain markets, excluding weekly markets) in the 21 market towns. Small dots: other places. Source: p. 262."
    },
    "vegalite": {
     "height": 540,
+    "padding": {
+     "top": 4,
+     "left": 18,
+     "right": 8,
+     "bottom": 4
+    },
     "projection": {
      "type": "mercator"
     },
@@ -16503,7 +16490,7 @@
         ]
        },
        {
-        "filter": "indexof(['Titschendorf', 'Thimmendorf'], datum.place) >= 0"
+        "filter": "indexof(['Thimmendorf'], datum.place) >= 0"
        },
        {
         "calculate": "datum.place + ' ' + datum.n",
@@ -16515,6 +16502,52 @@
        "style": "place-halo",
        "align": "right",
        "dx": -14,
+       "dy": 0
+      },
+      "encoding": {
+       "longitude": {
+        "field": "lon",
+        "type": "quantitative"
+       },
+       "latitude": {
+        "field": "lat",
+        "type": "quantitative"
+       },
+       "text": {
+        "field": "lab"
+       }
+      }
+     },
+     {
+      "transform": [
+       {
+        "aggregate": [
+         {
+          "op": "sum",
+          "field": "count",
+          "as": "n"
+         }
+        ],
+        "groupby": [
+         "place",
+         "district",
+         "lon",
+         "lat"
+        ]
+       },
+       {
+        "filter": "indexof(['Titschendorf'], datum.place) >= 0"
+       },
+       {
+        "calculate": "datum.place + ' ' + datum.n",
+        "as": "lab"
+       }
+      ],
+      "mark": {
+       "type": "text",
+       "style": "place-halo",
+       "align": "left",
+       "dx": 14,
        "dy": 0
       },
       "encoding": {
@@ -16743,9 +16776,9 @@
       "mark": {
        "type": "text",
        "style": "place-halo",
-       "align": "left",
-       "dx": 12,
-       "dy": 0
+       "align": "center",
+       "dx": 0,
+       "dy": -17
       },
       "encoding": {
        "longitude": {
@@ -16917,7 +16950,7 @@
         ]
        },
        {
-        "filter": "indexof(['Titschendorf', 'Thimmendorf'], datum.place) >= 0"
+        "filter": "indexof(['Thimmendorf'], datum.place) >= 0"
        },
        {
         "calculate": "datum.place + ' ' + datum.n",
@@ -16929,6 +16962,52 @@
        "style": "place-label",
        "align": "right",
        "dx": -14,
+       "dy": 0
+      },
+      "encoding": {
+       "longitude": {
+        "field": "lon",
+        "type": "quantitative"
+       },
+       "latitude": {
+        "field": "lat",
+        "type": "quantitative"
+       },
+       "text": {
+        "field": "lab"
+       }
+      }
+     },
+     {
+      "transform": [
+       {
+        "aggregate": [
+         {
+          "op": "sum",
+          "field": "count",
+          "as": "n"
+         }
+        ],
+        "groupby": [
+         "place",
+         "district",
+         "lon",
+         "lat"
+        ]
+       },
+       {
+        "filter": "indexof(['Titschendorf'], datum.place) >= 0"
+       },
+       {
+        "calculate": "datum.place + ' ' + datum.n",
+        "as": "lab"
+       }
+      ],
+      "mark": {
+       "type": "text",
+       "style": "place-label",
+       "align": "left",
+       "dx": 14,
        "dy": 0
       },
       "encoding": {
@@ -17157,9 +17236,9 @@
       "mark": {
        "type": "text",
        "style": "place-label",
-       "align": "left",
-       "dx": 12,
-       "dy": 0
+       "align": "center",
+       "dx": 0,
+       "dy": -17
       },
       "encoding": {
        "longitude": {
@@ -17228,16 +17307,16 @@
    "id": "c3",
    "dataset": "ereignisse",
    "title": {
-    "de": "Sparkassen gab es ab 1842, die erste Eisenbahn erreichte Gera 1859, die zweite 1865",
-    "en": "Savings banks existed from 1842, the first railway reached Gera in 1859, the second in 1865"
+    "de": "Die erste Sparkasse bestand seit 1842, Eisenbahnen erreichten Gera 1859 und 1865",
+    "en": "The first savings bank dates from 1842, railways reached Gera in 1859 and 1865"
    },
    "caption": {
-    "de": "Datierte Einrichtungen von Handel und Verkehr. Dicke Balken: Vertrag bis Eröffnung der Bahn; Punkte: Gründung; dünne Linien: besteht bis 1868. Quelle: S. 258, 261–262.",
-    "en": "Dated institutions of trade and transport. Thick bars: treaty to opening of the railway; dots: foundation; thin lines: in existence until 1868. Source: pp. 258, 261–262."
+    "de": "Datierte Einrichtungen von Handel und Verkehr. Bahnen: Linie vom Staatsvertrag (offener Kreis) bis zur Eröffnung; übrige Einrichtungen: Jahr der Gründung oder Einführung. Quelle: S. 258, 261–262.",
+    "en": "Dated institutions of trade and transport. Railways: line from the state treaty (open circle) to the opening; other institutions: year of foundation or introduction. Source: pp. 258, 261–262."
    },
    "vegalite": {
     "height": {
-     "step": 24
+     "step": 26
     },
     "padding": {
      "top": 6,
@@ -17255,6 +17334,10 @@
       "as": "t1"
      },
      {
+      "calculate": "isValid(datum.t1) ? datum.t1 : datum.t0",
+      "as": "t_last"
+     },
+     {
       "calculate": {
        "de": "datum.name_de",
        "en": "datum.name_en"
@@ -17267,25 +17350,6 @@
        "en": "datum.note_en"
       },
       "as": "note"
-     },
-     {
-      "calculate": "datum.kind == 'Eisenbahn' ? 'a' : (datum.kind == 'Geldinstitut' ? 'b' : 'c')",
-      "as": "cls"
-     },
-     {
-      "calculate": "isValid(datum.t1) ? datum.t1 : 1868.5",
-      "as": "t_end"
-     },
-     {
-      "calculate": "isValid(datum.t1) ? round((datum.t1 - datum.t0) * 10) / 10 : null",
-      "as": "years"
-     },
-     {
-      "calculate": {
-       "de": "isValid(datum.years) ? replace(format(datum.years, '.1f'), '.', ',') + ' Jahre' : ''",
-       "en": "isValid(datum.years) ? format(datum.years, '.1f') + ' years' : ''"
-      },
-      "as": "dur"
      }
     ],
     "encoding": {
@@ -17296,10 +17360,7 @@
        "field": "t0",
        "order": "ascending"
       },
-      "axis": {
-       "title": null,
-       "labelLimit": 420
-      }
+      "axis": null
      },
      "x": {
       "field": "t0",
@@ -17307,7 +17368,7 @@
       "scale": {
        "domain": [
         1840,
-        1875
+        1870
        ],
        "nice": false
       },
@@ -17315,28 +17376,30 @@
        "format": "d",
        "values": [
         1840,
+        1845,
         1850,
+        1855,
         1860,
+        1865,
         1870
        ],
-       "labelOverlap": false,
        "grid": true,
        "title": null
       }
      },
      "color": {
-      "field": "cls",
+      "field": "kind",
       "type": "nominal",
       "legend": null,
       "scale": {
        "domain": [
-        "a",
-        "b",
-        "c"
+        "Eisenbahn",
+        "Geldinstitut",
+        "Recht und Verwaltung"
        ],
        "range": [
         "@accent",
-        "@accent3",
+        "@accent2",
         "@muted"
        ]
       }
@@ -17346,19 +17409,17 @@
      {
       "transform": [
        {
-        "filter": "datum.kind == 'Geldinstitut'"
+        "filter": "isValid(datum.t1)"
        }
       ],
       "mark": {
        "type": "rule",
-       "strokeWidth": 2,
-       "color": "@context"
+       "strokeWidth": 2
       },
       "encoding": {
        "x2": {
-        "field": "t_end"
-       },
-       "color": null
+        "field": "t1"
+       }
       }
      },
      {
@@ -17368,14 +17429,14 @@
        }
       ],
       "mark": {
-       "type": "rule",
-       "strokeWidth": 9,
-       "strokeCap": "round"
+       "type": "point",
+       "filled": false,
+       "fill": "@paper",
+       "size": 70,
+       "strokeWidth": 2,
+       "opacity": 1
       },
       "encoding": {
-       "x2": {
-        "field": "t_end"
-       },
        "tooltip": [
         {
          "field": "name",
@@ -17387,8 +17448,8 @@
         {
          "field": "date_start",
          "title": {
-          "de": "Vertrag",
-          "en": "Treaty"
+          "de": "Datum bzw. Vertrag",
+          "en": "Date or treaty"
          }
         },
         {
@@ -17411,15 +17472,18 @@
      {
       "transform": [
        {
-        "filter": "datum.kind != 'Eisenbahn'"
+        "filter": "datum.kind != 'Eisenbahn' || isValid(datum.t1)"
        }
       ],
       "mark": {
        "type": "circle",
-       "size": 90,
+       "size": 80,
        "opacity": 1
       },
       "encoding": {
+       "x": {
+        "field": "t_last"
+       },
        "tooltip": [
         {
          "field": "name",
@@ -17431,8 +17495,15 @@
         {
          "field": "date_start",
          "title": {
-          "de": "Seit",
-          "en": "Since"
+          "de": "Datum bzw. Vertrag",
+          "en": "Date or treaty"
+         }
+        },
+        {
+         "field": "date_end",
+         "title": {
+          "de": "Eröffnung",
+          "en": "Opened"
          }
         },
         {
@@ -17448,21 +17519,66 @@
      {
       "transform": [
        {
-        "filter": "isValid(datum.years)"
+        "filter": "datum.t0 >= 1854"
+       }
+      ],
+      "mark": {
+       "type": "text",
+       "align": "right",
+       "dx": -10,
+       "style": "annotation"
+      },
+      "encoding": {
+       "text": {
+        "field": "name"
+       },
+       "color": null
+      }
+     },
+     {
+      "transform": [
+       {
+        "filter": "!(datum.t0 >= 1854)"
        }
       ],
       "mark": {
        "type": "text",
        "align": "left",
        "dx": 10,
-       "style": "label-muted"
+       "style": "annotation"
       },
       "encoding": {
        "x": {
-        "field": "t_end"
+        "field": "t_last"
        },
        "text": {
-        "field": "dur"
+        "field": "name"
+       },
+       "color": null
+      }
+     },
+     {
+      "transform": [
+       {
+        "filter": "isValid(datum.t1)"
+       },
+       {
+        "calculate": "substring(datum.date_end, 0, 4)",
+        "as": "opened"
+       }
+      ],
+      "mark": {
+       "type": "text",
+       "align": "left",
+       "dx": 10,
+       "style": "label"
+      },
+      "encoding": {
+       "x": {
+        "field": "t1"
+       },
+       "text": {
+        "field": "opened"
        },
        "color": null
       }
@@ -17518,6 +17634,5 @@
   "bergbau",
   "staatsfinanzen"
  ],
- "generated_by": "Claude Sonnet 5.5 (Agent F6), aus 5 Einzelauswertungen zusammengeführt",
  "date": "2026-10-02"
 }

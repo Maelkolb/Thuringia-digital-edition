@@ -60,7 +60,7 @@
        "spans": []
       },
       {
-       "text": "Gesammt= bevölkerung",
+       "text": "Gesammtbevölkerung",
        "spans": []
       },
       {
@@ -427,7 +427,7 @@
      "Unter 14jährige",
      "",
      "",
-     "Gesammt= bevölkerung",
+     "Gesammtbevölkerung",
      ""
     ],
     [
@@ -453,7 +453,7 @@
      ""
     ],
     [
-     "1867 . . . . . .",
+     "1867",
      "33,82",
      "34,40",
      "68,22",
@@ -486,7 +486,7 @@
      ""
     ],
     [
-     "1867 . . . . . .",
+     "1867",
      "31,78",
      "34,25",
      "66,03",
@@ -519,7 +519,7 @@
      ""
     ],
     [
-     "1867 . . . . . .",
+     "1867",
      "32,45",
      "34,30",
      "66,75",
@@ -569,6 +569,11 @@
  ],
  "footnotes": [],
  "corrections": [
+  {
+   "rule": "fraktur_double_hyphen",
+   "before": "Gesammt= bevölkerung",
+   "after": "Gesammtbevölkerung"
+  },
   {
    "rule": "strip_dot_leaders"
   },

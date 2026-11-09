@@ -66,8 +66,8 @@
    "en": "64 percent of the thunderstorms from 1856 to 1867 fell in June to August; there was none in November. Snow and hoarfrost never occurred in August."
   },
   {
-   "de": "1860 bis 1867 fielen im Mittel 557 mm Niederschlag, von 491 mm (1861) bis 642 mm (1862); das thüringische Mittel beträgt 572 mm.",
-   "en": "From 1860 to 1867 the average was 557 mm of precipitation, from 491 mm (1861) to 642 mm (1862); the Thuringian average is 572 mm."
+   "de": "1860 bis 1867 fielen im Mittel 557 mm Niederschlag, von 491 mm (1861) bis 642 mm (1862); für Thüringen wurden allgemein 572 mm angenommen.",
+   "en": "From 1860 to 1867 precipitation averaged 557 mm, from 491 mm (1861) to 642 mm (1862); the amount generally assumed for Thuringia was 572 mm."
   }
  ],
  "method": {
@@ -97,7 +97,7 @@
  "caveats": [
   {
    "de": "Die Temperaturskala nennt Brückner im Klimakapitel nicht. Angenommen wird Grad Réaumur (S. 70 nennt »° R.«); wären es Celsiusgrade, lägen alle °C-Werte um ein Fünftel niedriger. Die Beobachter wechselten (Kratzsch, Schmidt), Instrument und Aufstellung sind nicht beschrieben.",
-   "en": "Brückner does not name the temperature scale in the climate chapter. Réaumur is assumed (p. 70 gives »° R.«); if the values were Celsius, all °C figures would be one fifth lower. The observers changed (Kratzsch, Schmidt); instrument and exposure are not described."
+   "en": "Brückner does not name the temperature scale in the climate chapter. Réaumur is assumed (p. 70 gives “° R.”); if the values were Celsius, all °C figures would be one fifth lower. The observers changed (Kratzsch, Schmidt); instrument and exposure are not described."
   },
   {
    "de": "Der Luftdruck liegt ab 1865 um 8 bis 11 hPa höher als 1856 bis 1864 (989 bis 994 hPa). Das deutet eher auf einen Wechsel von Instrument oder Aufstellung als auf eine Klimaänderung; Gleichartigkeit der Temperaturreihe ist daher nicht belegt.",
@@ -3934,8 +3934,8 @@
    "id": "c1",
    "dataset": "temp_monthly",
    "title": {
-    "de": "Im Winter schwankten Monatsmittel stark, im Sommer kaum: Juni bis September wichen höchstens 3,4 K ab",
-    "en": "Winter months varied widely, summer months hardly: June to September never departed more than 3.4 K"
+    "de": "Im Winter schwankten die Monatsmittel stark, von Juni bis September höchstens um 3,4 K",
+    "en": "Winter months varied widely; from June to September no month deviated more than 3.4 K"
    },
    "caption": {
     "de": "Abweichung jedes Monatsmittels der Temperatur in Gera vom Mittel desselben Kalendermonats der zwölf Jahre, in Kelvin; Zahlen ab 4 K Abweichung. Aus Réaumur umgerechnet. Quelle: S. 55.",
@@ -3949,7 +3949,9 @@
       "type": "ordinal",
       "axis": {
        "title": null,
-       "labelAngle": 0
+       "labelAngle": 0,
+       "labelOverlap": "parity",
+       "labelSeparation": 6
       }
      },
      "y": {
@@ -4077,8 +4079,8 @@
    "id": "c2",
    "dataset": "weather_events",
    "title": {
-    "de": "Jede Erscheinung hat ihre Jahreszeit: Gewitter im Sommer, Schnee und Reif im Winter, Nebel im Herbst",
-    "en": "Each phenomenon has its season: thunderstorms in summer, snow and hoarfrost in winter, fog in autumn"
+    "de": "Gewitter fielen in den Sommer, Schnee und Reif in den Winter, Nebel in den Herbst",
+    "en": "Thunderstorms came in summer, snow and hoarfrost in winter, fog in autumn"
    },
    "caption": {
     "de": "Anteil jedes Monats an der Jahressumme der Erscheinung in Gera, 1856 bis 1867 (Prozent); die Zahl nennt den stärksten Monat, in Klammern der Durchschnitt pro Jahr. Quelle: S. 66, Regen nach S. 830 berichtigt.",
@@ -4250,12 +4252,12 @@
     "rain_reference"
    ],
    "title": {
-    "de": "Die Regenmenge lag in Gera nur in drei von acht Jahren über dem thüringischen Mittel",
-    "en": "Rainfall at Gera exceeded the Thuringian average in only three of eight years"
+    "de": "Nur in drei von acht Jahren fiel in Gera mehr Regen als für Thüringen angenommen",
+    "en": "Only three of eight years brought Gera more rain than the figure assumed for Thuringia"
    },
    "caption": {
-    "de": "Jahresniederschlag in Gera 1860 bis 1867 nach Brückners Regenmessung (Pariser Zoll, umgerechnet in Millimeter), Linie: allgemeines Mittel für Thüringen (21,12 Zoll). Quelle: S. 68 f., Berichtigungen S. 830.",
-    "en": "Annual precipitation at Gera, 1860 to 1867, from Brückner’s rain gauge (Paris inches, converted to millimeters); line: general average for Thuringia (21.12 inches). Source: pp. 68 f., corrections p. 830."
+    "de": "Jahresniederschlag in Gera 1860 bis 1867 nach Rud. Schmidts Regenmessung (Pariser Zoll, umgerechnet in Millimeter); Linie: die für Thüringen allgemein angenommene Regenmenge (21,12 Zoll). Quelle: S. 68 f., Berichtigungen S. 830.",
+    "en": "Annual precipitation at Gera, 1860 to 1867, from Rud. Schmidt’s rain gauge (Paris inches, converted to millimetres); line: the amount generally assumed for Thuringia (21.12 inches). Source: pp. 68 f., corrections p. 830."
    },
    "vegalite": {
     "height": 280,
@@ -4404,16 +4406,15 @@
      {
       "transform": [
        {
-        "filter": "datum.year == 1860"
+        "filter": "datum.year == 1865"
        }
       ],
       "mark": {
        "type": "text",
        "style": "annotation",
-       "align": "left",
+       "align": "center",
        "baseline": "bottom",
-       "dy": -5,
-       "dx": -22
+       "dy": -5
       },
       "encoding": {
        "y": {
@@ -4422,8 +4423,8 @@
        },
        "text": {
         "value": {
-         "de": "Thüringen, Mittel 572 mm",
-         "en": "Thuringia, average 572 mm"
+         "de": "Thüringen: 572 mm",
+         "en": "Thuringia: 572 mm"
         }
        }
       }
@@ -4465,6 +4466,5 @@
   "wind-gewitter",
   "phaenologie"
  ],
- "generated_by": "Claude Sonnet 5.5 (Agent F2), aus 4 Einzelauswertungen zusammengeführt",
  "date": "2026-10-02"
 }

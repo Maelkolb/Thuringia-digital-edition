@@ -1,4 +1,5 @@
 import json
+import re
 import subprocess
 import sys
 from pathlib import Path
@@ -38,6 +39,42 @@ def ref(page, block, rows=None, note=None):
     return r
 
 
+BRITISH = [
+    (r"\bneighbor", "neighbour"), (r"\bNeighbor", "Neighbour"),
+    (r"\bgray\b", "grey"), (r"\bGray\b", "Grey"),
+    (r"\bcolor", "colour"), (r"\bColor", "Colour"),
+    (r"\bliter(s?)\b", r"litre\1"), (r"\bmeter(s?)\b", r"metre\1"),
+    (r"\bcenter", "centre"), (r"\bCenter", "Centre"),
+    (r"\blabor", "labour"), (r"\bLabor", "Labour"),
+    (r"\blabeled\b", "labelled"), (r"\blabeling\b", "labelling"),
+    (r"\btoward\b", "towards"), (r"\bjudgment", "judgement"),
+    (r"\bfavor", "favour"), (r"\bhonor", "honour"), (r"\bbehavior", "behaviour"),
+    (r"\btraveled", "travelled"), (r"\bmodeled", "modelled"), (r"\bdefense\b", "defence"),
+    (r"\b(analy|digiti|normali|organi|recogni|reali|characteri|standardi|summari|speciali|emphasi|categori|centrali|utili)z", r"\1s"),
+    (r"\b(Analy|Digiti|Normali|Organi|Recogni|Reali|Characteri|Standardi|Summari|Speciali|Emphasi|Categori|Centrali|Utili)z", r"\1s"),
+    (r"\bUpper Land\b", "Oberland"), (r"\bLower Land\b", "Unterland"),
+]
+
+
+def british(text):
+    for pattern, replacement in BRITISH:
+        text = re.sub(pattern, replacement, text)
+    return text
+
+
+def british_english(node):
+    if isinstance(node, list):
+        return [british_english(n) for n in node]
+    if not isinstance(node, dict):
+        return node
+    if set(node) == {"de", "en"} and isinstance(node["en"], str):
+        return {"de": node["de"], "en": british(node["en"])}
+    if "columns" in node and "rows" in node:
+        english = [i for i, c in enumerate(node["columns"]) if c["name"].endswith("_en")]
+        node = dict(node, rows=[[british(v) if i in english and isinstance(v, str) else v for i, v in enumerate(r)] for r in node["rows"]])
+    return {k: british_english(v) if k != "rows" else v for k, v in node.items()}
+
+
 def load_archive(aid):
     return json.loads((ARCHIVE / f"{aid}.json").read_text(encoding="utf-8"))
 
@@ -69,7 +106,7 @@ def en_num(x, decimals=0):
 
 def write_feature(obj):
     path = ANALYSES / f"{obj['id']}.json"
-    path.write_text(json.dumps(obj, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+    path.write_text(json.dumps(british_english(obj), ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
     return path
 
 

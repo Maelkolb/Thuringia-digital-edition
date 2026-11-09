@@ -7,8 +7,6 @@ source/hde/
 source/notebooks/
 source/final_edition_allpages.html
 source/output_digital_edition_complete.json
-audit/shots/
-audit/front/
 /site/
 .env
 data/text/
@@ -21,7 +19,5 @@ data/entities/_gbif_cache.json
 data/entities/_wikidata_cache.json
 *.tmp
 data/analyses/_work/**/*.png
-audit/polish*/
-audit/pageview/
-audit/final/
 data/lines/*.log
+audit/

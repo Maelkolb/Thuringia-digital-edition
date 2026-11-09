@@ -622,7 +622,7 @@
      "role": "body",
      "cells": [
       {
-       "text": "Lobenstein, unterstes Haus im Lemnitz=",
+       "text": "Lobenstein, unterstes Haus im Lemnitz-",
        "spans": []
       },
       {
@@ -639,7 +639,7 @@
        "spans": []
       },
       {
-       "text": "Ausgang der Chaussee nach Loben=",
+       "text": "Ausgang der Chaussee nach Loben-",
        "spans": []
       }
      ]
@@ -1029,12 +1029,12 @@
      "Wurzbach 1380—1510'."
     ],
     [
-     "Lobenstein, unterstes Haus im Lemnitz=",
+     "Lobenstein, unterstes Haus im Lemnitz-",
      "Kirche 1477'."
     ],
     [
      "grunde 1250'.",
-     "Ausgang der Chaussee nach Loben="
+     "Ausgang der Chaussee nach Loben-"
     ],
     [
      "oberste Häuser im Koselgrunde 1300'.",
@@ -1107,6 +1107,16 @@
  ],
  "footnotes": [],
  "corrections": [
+  {
+   "rule": "fraktur_double_hyphen",
+   "before": "s im Lemnitz=",
+   "after": "s im Lemnitz-"
+  },
+  {
+   "rule": "fraktur_double_hyphen",
+   "before": "e nach Loben=",
+   "after": "e nach Loben-"
+  },
   {
    "rule": "table_no_header_row",
    "note": "first row is data (legacy edition rendered it as <th>)",

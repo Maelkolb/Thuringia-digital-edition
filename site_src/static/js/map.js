@@ -35,9 +35,10 @@
       var layer = L.layerGroup().addTo(map), markers = {};
       var list = document.getElementById('map-list'), detail = document.getElementById('map-detail');
       var filter = document.querySelector('[data-map-filter]'), sel = document.querySelector('[data-map-layer]');
+      function kind(f) { return (en() && f.ke) || f.k; }
       function radius(f) { return Math.max(4, Math.min(22, 3 + Math.sqrt(f.n) * 1.4)); }
       function show(f) {
-        var g = f.g, h = '<div class="map-detail"><h2>' + (f.c === 'nature' ? (en() ? 'Natural feature' : 'Natur') : (en() ? 'Place' : 'Ort')) + (f.k ? ', ' + esc(f.k) : '') + '</h2>' +
+        var g = f.g, h = '<div class="map-detail"><h2>' + (f.c === 'nature' ? (en() ? 'Natural feature' : 'Natur') : (en() ? 'Place' : 'Ort')) + (f.k ? ', ' + esc(kind(f)) : '') + '</h2>' +
           '<h3>' + esc(f.l) + '</h3>';
         if (g) {
           var facts = [esc(g.type)];
@@ -67,7 +68,7 @@
         });
         shown.sort(function (a, b) { return b.n - a.n; });
         list.innerHTML = shown.slice(0, 200).map(function (f) {
-          return '<li><span><a href="#' + f.id + '" data-f="' + f.id + '">' + esc(f.l) + '</a><span class="kind">' + esc(f.k) + '</span></span><span class="n">' + RJ.fmt(f.n) + '</span></div></li>';
+          return '<li><span><a href="#' + f.id + '" data-f="' + f.id + '">' + esc(f.l) + '</a><span class="kind">' + esc(kind(f)) + '</span></span><span class="n">' + RJ.fmt(f.n) + '</span></li>';
         }).join('');
       }
       list.addEventListener('click', function (e) {

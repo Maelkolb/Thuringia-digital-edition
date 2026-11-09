@@ -330,7 +330,7 @@
    "id": "b2",
    "type": "paragraph",
    "src": 1,
-   "text": "Südosthöhe von Schöna 830'.\nWesthöhe von Rusitz (Signal) 831'.\nNordhöhe von Geissen 834'.\nLerchenberg (Nordost) von Geissen 836'.\nWestnordwesthöhe von Ernsee (Signal)\n836'.\nSüdosthöhe von Ernsee 841'.\nOsthöhe von Rüdersdorf 847'.\nSüdhöhe von Kleinsaara 850'.\nHässelsberg (Norden) bei Großsaara\n850'.\nChaussee bei Wachholderbaum 850'.\nNordost von Harpersdorf 850'.\nWesthöhe von Schöna 855'.\nNordwesthöhe von Schöna nach Kleinsaara 860'.\nSüdwesthöhe von Dürrenebersdorf\n(Signal) 863'.\nAlte Fichte (Nordhöhe) von Dürrenebersdorf 868'.\nWestnordwesthöhe von Dürrenebersdorf\n873'.\nNordosthöhe von Wüstfalke 876'.\nSüdwesthöhe von Weissig (Chaussee)\n880'.\nWeichhügel bei Rüdersdorf 880'.\nMittelberg (Westnordwest) bei Waltersdorf 881'.\nSüdosthöhe von Dürrenebersdorf (Signal) 882'.\nWindmühle bei Dürrenebersdorf 882'.\nSüdosthöhe von Lichtenberg 883'.\nNordosthöhe von Schöna 885'.\nSüdwesthöhe bei Weissig (Chaussee) 900'.\nNordhöhe von Kraftsdorf 900'.\nSüdwesthöhe von Pohlen 912'.\nWesthöhe von Kaltenborn 913'.\nHöhe zwischen Kleinsaara und Harpersdorf 915'.\nSüdwesthöhe von Kaltenborn (Signal)\n915'.\nZippenbusch=Ziegelei 920'.\nThümmelsberg (Nordost) von Kraftsdorf 922'.\nWesthöhe von Rüdersdorf 923'.\nZippenbusch (Signal) 925'.\nSüdhöhe von Großsaara 925'.\nHart (Nordhöhe) bei Hundhaupten\n(Signal) 928'.\nThümmelsberg (Nord) von Harpersdorf 939'.",
+   "text": "Südosthöhe von Schöna 830'.\nWesthöhe von Rusitz (Signal) 831'.\nNordhöhe von Geissen 834'.\nLerchenberg (Nordost) von Geissen 836'.\nWestnordwesthöhe von Ernsee (Signal)\n836'.\nSüdosthöhe von Ernsee 841'.\nOsthöhe von Rüdersdorf 847'.\nSüdhöhe von Kleinsaara 850'.\nHässelsberg (Norden) bei Großsaara\n850'.\nChaussee bei Wachholderbaum 850'.\nNordost von Harpersdorf 850'.\nWesthöhe von Schöna 855'.\nNordwesthöhe von Schöna nach Kleinsaara 860'.\nSüdwesthöhe von Dürrenebersdorf\n(Signal) 863'.\nAlte Fichte (Nordhöhe) von Dürrenebersdorf 868'.\nWestnordwesthöhe von Dürrenebersdorf\n873'.\nNordosthöhe von Wüstfalke 876'.\nSüdwesthöhe von Weissig (Chaussee)\n880'.\nWeichhügel bei Rüdersdorf 880'.\nMittelberg (Westnordwest) bei Waltersdorf 881'.\nSüdosthöhe von Dürrenebersdorf (Signal) 882'.\nWindmühle bei Dürrenebersdorf 882'.\nSüdosthöhe von Lichtenberg 883'.\nNordosthöhe von Schöna 885'.\nSüdwesthöhe bei Weissig (Chaussee) 900'.\nNordhöhe von Kraftsdorf 900'.\nSüdwesthöhe von Pohlen 912'.\nWesthöhe von Kaltenborn 913'.\nHöhe zwischen Kleinsaara und Harpersdorf 915'.\nSüdwesthöhe von Kaltenborn (Signal)\n915'.\nZippenbusch-Ziegelei 920'.\nThümmelsberg (Nordost) von Kraftsdorf 922'.\nWesthöhe von Rüdersdorf 923'.\nZippenbusch (Signal) 925'.\nSüdhöhe von Großsaara 925'.\nHart (Nordhöhe) bei Hundhaupten\n(Signal) 928'.\nThümmelsberg (Nord) von Harpersdorf 939'.",
    "spans": [
     [
      41,
@@ -523,6 +523,11 @@
  ],
  "footnotes": [],
  "corrections": [
+  {
+   "rule": "fraktur_double_hyphen",
+   "before": "Zippenbusch=Ziegelei 920",
+   "after": "Zippenbusch-Ziegelei 92"
+  },
   {
    "rule": "join_linebreak_hyphen",
    "before": "nach Franken-\nthal",

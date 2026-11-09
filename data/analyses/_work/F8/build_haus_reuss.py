@@ -93,6 +93,17 @@ lo, hi = min(sh.values()), max(sh.values())
 lo_c = min(sh, key=sh.get)
 hi_c = max(sh, key=sh.get)
 
+# ------------------------------------------------------------ readable values instead of codes in the tables
+RULER = "Landesherr"
+drop_columns(heinriche, {"line", "role"})
+map_column(heinriche, "role_en", {"ruler": "lord", "cleric/knight of the Order": "cleric/knight of the Order", "no lordship": "no lordship"})
+map_column(heinriche, "kind", {"att": "Bezeugung oder Regierung", "life": "Lebensdaten"}, label=bi("Art der Daten", "Kind of dates"))
+map_column(heinriche, "end_qual", {"x": "genau", "c": "circa", "n": "nach", "v": "vor"}, label=bi("Zusatz zum Endjahr", "Qualifier of the last year"))
+drop_columns(persons, {"sex"})
+persons["columns"][colnames(persons).index("class_code")]["label"] = bi("Altersklasse (Nr.)", "Age class (no.)")
+map_column(persons, "branch", {"alt": "ältere Linie", "jung": "jüngere Linie"}, label=bi("Linie", "Line"))
+assert {r[colnames(heinriche).index("role_de")] for r in heinriche["rows"]} >= {RULER}
+
 # ------------------------------------------------------------ chart 1
 X_DOM = [1090, 1610]
 xs = {"type": "quantitative", "scale": {"domain": X_DOM, "nice": False}}
@@ -116,12 +127,12 @@ c1 = {
     "id": "c1",
     "dataset": "heinriche",
     "title": bi(
-        f"{n_all} Heinriche in vier Linien: {peak_year} sind bis zu {peak_n} Landesherren zugleich bezeugt",
-        f"{n_all} men named Heinrich in four lines: up to {peak_n} lords attested at once in {peak_year}",
+        f"Die Stammtafeln nennen {n_all} Heinriche; {peak_year} sind {peak_n} zugleich als Landesherren bezeugt",
+        f"The tables list {n_all} men named Heinrich; in {peak_year}, {peak_n} are attested as lords at once",
     ),
     "caption": bi(
-        "Jeder Balken ist ein Heinrich der Stammtafeln I bis V, vom ersten bis zum letzten gedruckten Jahr (später Lebensjahre), nach Linie und Beginn geordnet. Kurze Striche: nur ein Jahr genannt. Quelle: S. 331–372.",
-        "Each bar is one Heinrich of genealogical tables I to V, from the first to the last printed year (later life dates), ordered by line and start. Short ticks: only one year given. Source: pp. 331–372.",
+        "Jeder Balken ist ein Heinrich der Stammtafeln I bis V, vom ersten bis zum letzten gedruckten Jahr (später die Lebensdaten), nach Linie und Beginn geordnet. Kurze Striche: nur ein Jahr genannt. Quelle: S. 331–372.",
+        "Each bar is one Heinrich of genealogical tables I to V, from the first to the last printed year (in later centuries the life dates), ordered by line and start. Short ticks: only one year given. Source: pp. 331–372.",
     ),
     "vegalite": {
         "height": 560,
@@ -141,7 +152,7 @@ c1 = {
                           "axis": {"values": [1100, 1200, 1300, 1400, 1500, 1600], "format": "d", "title": None, "grid": True, "domain": False}},
                     "x2": {"field": "end_plot"},
                     "y2": {"field": "row_end"},
-                    "color": {"condition": {"test": "datum.role == 'ruler'", "value": "@accent"}, "value": "@context"},
+                    "color": {"condition": {"test": f"datum.role_de == '{RULER}'", "value": "@accent"}, "value": "@context"},
                     "tooltip": [
                         {"field": "label", "title": bi("Heinrich", "Heinrich")},
                         {"field": "note", "title": bi("Anmerkung", "Note")},
@@ -160,14 +171,14 @@ c1 = {
             {
                 "transform": [{"filter": f"indexof([{', '.join(k for k in end_text)}], datum.ord) >= 0"},
                               {"calculate": {"de": lookup(end_text, "de"), "en": lookup(end_text, "en")}, "as": "end_note"}],
-                "mark": {"type": "text", "align": "left", "baseline": "middle", "dx": 6, "style": "label-muted"},
-                "encoding": {"x": {"field": "end_plot", **xs}, "y": {"field": "row_pos", "type": "quantitative"}, "text": {"field": "end_note"}},
+                "mark": {"type": "text", "align": "right", "baseline": "middle", "dx": -6, "style": "label-muted"},
+                "encoding": {"x": {"field": "bar_start", **xs}, "y": {"field": "row_pos", "type": "quantitative"}, "text": {"field": "end_note"}},
             },
             {
                 "transform": [{"filter": "datum.ord == 2"}],
                 "mark": {"type": "text", "align": "left", "baseline": "middle", "dx": 6, "style": "annotation"},
                 "encoding": {"x": {"datum": peak_year, **xs}, "y": {"datum": -2.2, "type": "quantitative"},
-                             "text": {"value": bi(f"{peak_year}: {peak_n} Landesherren zugleich", f"{peak_year}: {peak_n} lords at once")}},
+                             "text": {"value": bi(f"{peak_year}: {peak_n} Landesherren zugleich", f"{peak_year}: {peak_n} lords at the same time")}},
             },
             {
                 "transform": [{"filter": "datum.ord == 2"}],
@@ -187,12 +198,14 @@ c1 = {
 
 # ------------------------------------------------------------ chart 2: age classes by birth cohort
 cohort_expr = "datum.cohort >= 1550 && datum.cohort <= 1750"
+AGE_CLASS = {"de": "datum.grp == 0 ? 'unter 15' : datum.grp == 2 ? '15–44' : datum.grp == 3 ? '45–64' : '65 und älter'",
+             "en": "datum.grp == 0 ? 'under 15' : datum.grp == 2 ? '15–44' : datum.grp == 3 ? '45–64' : '65 and older'"}
 c2 = {
     "id": "c2",
     "dataset": "persons",
     "title": bi(
-        "Jedes dritte Kind starb vor dem 15. Lebensjahr, wer es überlebte, wurde nach 1700 deutlich älter",
-        "One child in three died before 15; those who survived lived much longer after 1700",
+        "Etwa ein Drittel starb vor dem 15. Geburtstag; ab Jahrgang 1700 lebten die Übrigen deutlich länger",
+        "About a third died before 15; from the 1700 cohort on, survivors lived much longer",
     ),
     "caption": bi(
         f"Anteil der Altersklassen beim Tod, je 50-Jahres-Jahrgang der {n_u} zwischen 1550 und 1799 Geborenen mit gedrucktem Sterbejahr (n links). Nachkommen der Stammväter Heinrich von Gera und Heinrich von Untergreiz. Quelle: S. 394–402.",
@@ -212,7 +225,8 @@ c2 = {
             {"calculate": "datum.cum / datum.total", "as": "x1"},
             {"calculate": "(datum.x0 + datum.x1) / 2", "as": "xm"},
             {"calculate": "datum.cl + ' (n = ' + datum.total + ')'", "as": "ylab"},
-            {"calculate": "format(100 * datum.n / datum.total, '.0f') + ' %'", "as": "pct"},
+            {"calculate": {"de": "format(100 * datum.n / datum.total, '.0f') + ' %'", "en": "format(100 * datum.n / datum.total, '.0f') + '%'"}, "as": "pct"},
+            {"calculate": AGE_CLASS, "as": "age_class"},
         ],
         "encoding": {
             "y": {"field": "ylab", "type": "ordinal", "sort": "ascending", "axis": {"title": None, "ticks": False, "domain": False, "labelLimit": 300}},
@@ -224,10 +238,10 @@ c2 = {
                     "x": {"field": "x0", "type": "quantitative", "scale": {"domain": [0, 1]}, "axis": None},
                     "x2": {"field": "x1"},
                     "color": {"field": "grp", "type": "ordinal", "legend": None,
-                              "scale": {"domain": [0, 2, 3, 4], "range": ["@accent2", "@context", "@ink2", "@accent"]}},
+                              "scale": {"domain": [0, 2, 3, 4], "range": ["@accent2", "@context", "@muted", "@accent"]}},
                     "tooltip": [
                         {"field": "cl", "title": bi("Jahrgang", "Birth cohort")},
-                        {"field": "grp", "title": bi("Altersklasse (0 = unter 15)", "Age class (0 = under 15)")},
+                        {"field": "age_class", "title": bi("Alter beim Tod", "Age at death")},
                         {"field": "n", "title": bi("Personen", "Persons")},
                         {"field": "total", "title": bi("von", "of")},
                     ],
@@ -244,13 +258,11 @@ c2 = {
             {
                 "transform": [
                     {"filter": "datum.cl == '1750–1799'"},
-                    {"calculate": {"de": "datum.grp == 0 ? 'unter 15' : datum.grp == 2 ? '15–44' : datum.grp == 3 ? '45–64' : '65 und älter'",
-                                   "en": "datum.grp == 0 ? 'under 15' : datum.grp == 2 ? '15–44' : datum.grp == 3 ? '45–64' : '65 and older'"}, "as": "gl"},
                 ],
                 "mark": {"type": "text", "style": "annotation", "dy": 31},
                 "encoding": {
                     "x": {"field": "xm", "type": "quantitative", "scale": {"domain": [0, 1]}},
-                    "text": {"field": "gl"},
+                    "text": {"field": "age_class"},
                 },
             },
         ],
@@ -271,8 +283,8 @@ pc = lambda x: fmt_de(x, 1)
 pc_en = lambda x: f"{x:.1f}"
 summary = bi(
     f"Brückners Stammtafeln führen die Männer der Voigte von Weida, Gera und Plauen mit Jahreszahlen auf: {n_all} Heinriche, {n_rul} davon als Landesherren. "
-    f"Für {n_u} zwischen 1550 und 1799 geborene Nachkommen der Reußen ist auch das Sterbealter gedruckt. "
-    f"Davon starben {n_u15} ({pc(100 * n_u15 / n_u)} Prozent) vor dem 15. Lebensjahr, {n_u0} schon im Geburtsjahr.",
+    f"Für {n_u} zwischen 1550 und 1799 geborene Nachkommen der Reußen lässt sich auch das Sterbealter berechnen. "
+    f"Davon starben {n_u15} ({pc(100 * n_u15 / n_u)} Prozent) vor dem 15. Geburtstag, {n_u0} schon im Geburtsjahr.",
     f"Brückner’s genealogical tables list the men of the Voigts of Weida, Gera and Plauen with years: {n_all} men named Heinrich, {n_rul} of them as lords. "
     f"For {n_u} descendants of the Reuss lords born between 1550 and 1799 the age at death can be computed as well. "
     f"{n_u15} of them ({pc_en(100 * n_u15 / n_u)} percent) died before the age of 15, {n_u0} in the year of birth.",
@@ -287,8 +299,8 @@ findings = [
         f"For 1400 to 1449 the tables name {n_1400} different lords called Heinrich, {sum(1 for r in rulers if r['line']=='weida' and r['bar_start']<=1449 and r['bar_end']>=1400)} of them in Weida and {sum(1 for r in rulers if r['line']=='reuss' and r['bar_start']<=1449 and r['bar_end']>=1400)} in Reuss-Plauen.",
     ),
     bi(
-        f"Der Anteil der vor dem 15. Jahr Gestorbenen liegt je Jahrgang zwischen {round(lo)} und {round(hi)} Prozent, ohne Rückgang. Wer 15 erreichte, starb im Median mit {med[1550]:.0f} (Jahrgang 1550–1599) bis {med[1750]:.0f} Jahren (1750–1799).",
-        f"The share of children dying before 15 lies between {round(lo)} and {round(hi)} percent per cohort, with no decline. Survivors of 15 died at a median age of {med[1550]:.0f} (cohort 1550–1599) to {med[1750]:.0f} years (1750–1799).",
+        f"Der Anteil der vor dem 15. Geburtstag Gestorbenen liegt je Jahrgang zwischen {round(lo)} und {round(hi)} Prozent, ohne Rückgang. Wer 15 wurde, starb im Median mit {med[1550]:.0f} (Jahrgang 1550–1599) bis {med[1750]:.0f} Jahren (1750–1799).",
+        f"Per cohort, {round(lo)} to {round(hi)} percent died before 15, with no decline. Those who reached 15 died at a median age of {med[1550]:.0f} (cohort 1550–1599) to {med[1750]:.0f} (1750–1799).",
     ),
 ]
 print(findings)
@@ -345,7 +357,6 @@ a = {
         "en": ["Voigts", "Heinrich", "Weida", "Gera", "Plauen", "Reuss", "genealogical tables", "life span", "child mortality", "genealogy"],
     },
     "related": ["landesgeschichte", "geburten-sterbefaelle", "alter-familie"],
-    "generated_by": "Claude Sonnet 5.5 (Agent F8), aus 2 Einzelauswertungen zusammengeführt",
     "date": "2026-10-02",
 }
 

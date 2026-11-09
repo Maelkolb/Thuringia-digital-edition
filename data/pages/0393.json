@@ -111,7 +111,7 @@
    "id": "b2",
    "type": "paragraph",
    "src": 1,
-   "text": "b. Der Zweig Ebersdorf bestand, wie der Zweig Lobenstein, durch fünf Generationen und wurde zuletzt der Erbe des ganzen lobensteiner Hauses, aber zugleich auch dessen Beschließer. Sein Stifter war Heinrich X., der jüngste Sohn von Heinrich X., dem Gründer des Hauses Lobenstein. Da sein ursprünglicher Erbtheil weder eine Stadt noch ein Schloß begriff, so erkaufte er 1690 Ebersdorf und erbaute hier sein Residenzschloß. Im Jahre 1711, wo er starb, fiel seinem Hause die Hälfte der Herrschaft Hirschberg zu. Ihm folgte sein einziger Sohn Heinrich XXIX. bis 1747. Das Wesen und Wirken dieses denkwürdigen Regenten, unter dem Ebersdorf weltberühmt wurde, ruhte auf milder Gerechtigkeit und begeisterter Gläubigkeit. Jenen Zug zeigte er vornehmlich darin, daß er 1721 die Rechte der Stadt Hirschberg durch einen Vertrag mit ihr feststellte und dadurch den Hauptquell der früheren vielfachen hirschberger Streitigkeiten beseitigte. Auch später bewies er sich als Wohlthäter dieser Stadt durch bessere Gründung ihrer Schule (1732—1736) und durch Vermehrung ihrer Jahrmärkte und hielt sich selbst öfters in dem Schlosse zu Hirschberg auf. Sein religiöser Sinn wandte sich durch seine fromme Erziehung, durch Speners Schriften und durch den Einfluß Zinzendorfs, seines Jugendfreundes, dem lautern pietistisch-herrnhuterischen Geiste zu. In dieser Richtung gründete er 1733 zu Ebersdorf eine Herrnhutercolonie, die noch heute daselbst besteht, und machte Ebersdorf zum Wallfahrtsorte pietistisch gesinnter Seelen, wie unter Andern außer Zinzendorf auch der berühmte Staatsmann F. J. Moser von 1737 an mehrere Jahre daselbst lebte. Auch seine Gemahlin Sophie Theodore von Castel-Remlingen war ein gleich gestimmtes Gemüth und noch mehr seine Schwester Erdmuthe Dorothea, hoch berühmt als Gattin Zinzendorfs, als Hauptstütze der herrnhuter Gemeinden und als seelenvolle Dichterin pietistischer Lieder. In gleicher Gesinnung ließ er seine sieben Söhne, Heinrich XXIV., XXVI., XXVIII., XXXI., XXXII., XXXIII. und XXXIV., erziehen, von denen der älteste sein Nachfolger, der zweite aber durch ein 30jähriges rastloses Aufsuchen und Ansammeln von Urkunden, Nachrichten und Siegeln, die auf das Reußenland Bezug haben, und durch seine im lobensteiner Intelligenzblatte abgedruckten geschichtlichen Abhandlungen zum berühmten Historiker seines Hauses und Landes wurde. Zugleich gewann der herrnhuter Geist durch den Regenten von Ebersdorf auch in den übrigen Häusern Reuß Eingang, dem zufolge verschiedene Glieder Reuß, statt daß man sich im Mittelalter den Klöstern oder dem deutschen Ritter=",
+   "text": "b. Der Zweig Ebersdorf bestand, wie der Zweig Lobenstein, durch fünf Generationen und wurde zuletzt der Erbe des ganzen lobensteiner Hauses, aber zugleich auch dessen Beschließer. Sein Stifter war Heinrich X., der jüngste Sohn von Heinrich X., dem Gründer des Hauses Lobenstein. Da sein ursprünglicher Erbtheil weder eine Stadt noch ein Schloß begriff, so erkaufte er 1690 Ebersdorf und erbaute hier sein Residenzschloß. Im Jahre 1711, wo er starb, fiel seinem Hause die Hälfte der Herrschaft Hirschberg zu. Ihm folgte sein einziger Sohn Heinrich XXIX. bis 1747. Das Wesen und Wirken dieses denkwürdigen Regenten, unter dem Ebersdorf weltberühmt wurde, ruhte auf milder Gerechtigkeit und begeisterter Gläubigkeit. Jenen Zug zeigte er vornehmlich darin, daß er 1721 die Rechte der Stadt Hirschberg durch einen Vertrag mit ihr feststellte und dadurch den Hauptquell der früheren vielfachen hirschberger Streitigkeiten beseitigte. Auch später bewies er sich als Wohlthäter dieser Stadt durch bessere Gründung ihrer Schule (1732—1736) und durch Vermehrung ihrer Jahrmärkte und hielt sich selbst öfters in dem Schlosse zu Hirschberg auf. Sein religiöser Sinn wandte sich durch seine fromme Erziehung, durch Speners Schriften und durch den Einfluß Zinzendorfs, seines Jugendfreundes, dem lautern pietistisch-herrnhuterischen Geiste zu. In dieser Richtung gründete er 1733 zu Ebersdorf eine Herrnhutercolonie, die noch heute daselbst besteht, und machte Ebersdorf zum Wallfahrtsorte pietistisch gesinnter Seelen, wie unter Andern außer Zinzendorf auch der berühmte Staatsmann F. J. Moser von 1737 an mehrere Jahre daselbst lebte. Auch seine Gemahlin Sophie Theodore von Castel-Remlingen war ein gleich gestimmtes Gemüth und noch mehr seine Schwester Erdmuthe Dorothea, hoch berühmt als Gattin Zinzendorfs, als Hauptstütze der herrnhuter Gemeinden und als seelenvolle Dichterin pietistischer Lieder. In gleicher Gesinnung ließ er seine sieben Söhne, Heinrich XXIV., XXVI., XXVIII., XXXI., XXXII., XXXIII. und XXXIV., erziehen, von denen der älteste sein Nachfolger, der zweite aber durch ein 30jähriges rastloses Aufsuchen und Ansammeln von Urkunden, Nachrichten und Siegeln, die auf das Reußenland Bezug haben, und durch seine im lobensteiner Intelligenzblatte abgedruckten geschichtlichen Abhandlungen zum berühmten Historiker seines Hauses und Landes wurde. Zugleich gewann der herrnhuter Geist durch den Regenten von Ebersdorf auch in den übrigen Häusern Reuß Eingang, dem zufolge verschiedene Glieder Reuß, statt daß man sich im Mittelalter den Klöstern oder dem deutschen Ritter-",
    "spans": [
     [
      13,
@@ -250,11 +250,21 @@
     ]
    ],
    "continues": true,
+   "word_division": {
+    "word": "Ritterorden",
+    "part": "Ritter-"
+   },
    "sec": "t1-5-3"
   }
  ],
  "footnotes": [],
- "corrections": [],
+ "corrections": [
+  {
+   "rule": "fraktur_double_hyphen",
+   "before": "schen Ritter=",
+   "after": "schen Ritter-"
+  }
+ ],
  "provenance": {
   "source": "colab-2026-03",
   "model": "gemini-3-flash-preview",

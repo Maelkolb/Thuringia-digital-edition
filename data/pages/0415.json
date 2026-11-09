@@ -311,7 +311,7 @@
        ]
       },
       {
-       "text": "Jüngerer Zweig Reuß=Plauen. Hauptbesitz: Greiz, Ronneburg, Werdau, Reichenbach und Mylau, verliert Ronneburg und Werdau an Sachsen, Reichenbach und Mylau an Böhmen, erkauft Oberkranichfeld, muß 1547 den greizer Stammbesitz an die burggräfliche Linie abtreten, gewinnt aber gleich nachher Gera und Greiz. Theilung 1564.",
+       "text": "Jüngerer Zweig Reuß-Plauen. Hauptbesitz: Greiz, Ronneburg, Werdau, Reichenbach und Mylau, verliert Ronneburg und Werdau an Sachsen, Reichenbach und Mylau an Böhmen, erkauft Oberkranichfeld, muß 1547 den greizer Stammbesitz an die burggräfliche Linie abtreten, gewinnt aber gleich nachher Gera und Greiz. Theilung 1564.",
        "spans": [
         [
          41,
@@ -391,7 +391,7 @@
    "grid": [
     [
      "Aelterer Zweig Plauen, später burggräfliche Linie. Hauptbesitz: Plauen, Voigtsberg und Hirschberg, erwirbt die Burggrafenwürde von Meißen, verliert Plauen und Voigtsberg an Sachsen, gewinnt 1547 dieselben wieder nebst Gera und den Erbgütern der Herrn Reuß, 1550 Schleiz und Lobenstein, verliert Plauen und Voigtsberg an Sachsen und Gera und Greiz an die Reuß. Stirbt 1572 aus. Schleiz und Lobenstein fallen an die Herrn Reuß.",
-     "Jüngerer Zweig Reuß=Plauen. Hauptbesitz: Greiz, Ronneburg, Werdau, Reichenbach und Mylau, verliert Ronneburg und Werdau an Sachsen, Reichenbach und Mylau an Böhmen, erkauft Oberkranichfeld, muß 1547 den greizer Stammbesitz an die burggräfliche Linie abtreten, gewinnt aber gleich nachher Gera und Greiz. Theilung 1564."
+     "Jüngerer Zweig Reuß-Plauen. Hauptbesitz: Greiz, Ronneburg, Werdau, Reichenbach und Mylau, verliert Ronneburg und Werdau an Sachsen, Reichenbach und Mylau an Böhmen, erkauft Oberkranichfeld, muß 1547 den greizer Stammbesitz an die burggräfliche Linie abtreten, gewinnt aber gleich nachher Gera und Greiz. Theilung 1564."
     ]
    ],
    "caption": null,
@@ -861,6 +861,11 @@
  ],
  "footnotes": [],
  "corrections": [
+  {
+   "rule": "fraktur_double_hyphen",
+   "before": "r Zweig Reuß=Plauen. Haup",
+   "after": "r Zweig Reuß-Plauen. Hau"
+  },
   {
    "rule": "table_no_header_row",
    "note": "first row is data (legacy edition rendered it as <th>)",

@@ -7,7 +7,6 @@ ROOT = Path(r"C:\Users\totom\Projects\reuss-edition")
 ANALYSES = ROOT / "data" / "analyses"
 ARCHIVE = ANALYSES / "_archive"
 SHARED = ANALYSES / "_shared"
-GENERATED_BY = "Claude Sonnet 5.5 (Agent F6), aus {n} Einzelauswertungen zusammengeführt"
 DATE = "2026-10-02"
 
 

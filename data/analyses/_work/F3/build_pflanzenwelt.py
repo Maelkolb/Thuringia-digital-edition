@@ -13,6 +13,7 @@ MERGES = [
 species = dataset("flora-exklusivarten-unterland-oberland", "species")
 sp = dicts(species)
 active = [r for r in sp if r["status_key"] in ("printed", "added")]
+drop_columns(species, {"status_key"})
 fam = collections.defaultdict(collections.Counter)
 for r in active:
     fam[r["family"]][r["region_de"]] += 1
@@ -81,24 +82,26 @@ groups = dataset("flora-artenzahlen-phanerogamen-kryptogamen", "flora_groups")
 gd = {r["group_key"]: r for r in dicts(groups)}
 total_species = sum(r["species"] for r in dicts(groups))
 crypto = sum(r["species"] for r in dicts(groups) if r["class_key"] == "crypto")
+drop_columns(groups, {"class_key"})
 print("total", total_species, "crypto", crypto, "flowering share", reuss / total_species)
 assert reuss == gd["Dicotylen"]["species"] + gd["Monocotylen"]["species"]
 
 # ------------------------------------------------------------ trees
 trees = dataset("wald-baumarten-flurnamen", "field_names")
+STAND, SINGLE, NOT_NAMED, UNCLEAR = "bildet Bestände", "nur einzeln", "nicht genannt", "unklar"
 ROLE = {
-    "Buche": ("stand", 1, "größere Bestände", "larger stands", "Größere Bestände von Laubholz bilden blos die Birke (Betulus alba) und die Buche (Roth- und Weißbuche)"),
-    "Birke": ("stand", 1, "größere Bestände", "larger stands", "Größere Bestände von Laubholz bilden blos die Birke (Betulus alba) und die Buche (Roth- und Weißbuche)"),
-    "Kiefer": ("stand", 1, "ganze Schläge", "whole stands", "daneben bildet die Kiefer oft ganze Schläge"),
-    "Fichte": ("stand", 1, "Hauptbestand", "main stand", "überwiegend aus der Rothtanne oder Fichte bestehend"),
-    "Eiche": ("single", 2, "nur hie und da", "only here and there", "Eichen (häufiger Quercus pedunculata, seltener Quercus sessiliflora), Aspen, schwarze Pappeln, Zitterpappeln und Vogelbeerbäume finden sich hie und da in Wäldern, an Waldrändern und an Straßen"),
-    "Linde": ("single", 2, "Dorfbaum", "village tree", "Große und schattige, oft uralte Linden, sowie auch italienische Pappeln sind meist Dorfzierden"),
-    "Erle": ("single", 2, "an Bachufern", "along streams", "Weiden und Erlen fassen die Ufer der Bäche ein"),
-    "Weide": ("single", 2, "an Bachufern", "along streams", "Weiden und Erlen fassen die Ufer der Bäche ein"),
-    "Ahorn": ("single", 2, "bei den Orten", "near villages", "Ulmen, Ahorn, Eschen und Kastanien stehen oft in der Nähe der Orte und auf freiem Felde"),
-    "Esche": ("single", 2, "bei den Orten", "near villages", "Ulmen, Ahorn, Eschen und Kastanien stehen oft in der Nähe der Orte und auf freiem Felde"),
-    "Eibe": ("none", 3, "heute nicht genannt", "not mentioned today", None),
-    "Tanne": ("unclear", 4, "Tanne oder Fichte?", "fir or spruce?", None),
+    "Buche": (STAND, 1, "größere Bestände", "larger stands", "Größere Bestände von Laubholz bilden blos die Birke (Betulus alba) und die Buche (Roth- und Weißbuche)"),
+    "Birke": (STAND, 1, "größere Bestände", "larger stands", "Größere Bestände von Laubholz bilden blos die Birke (Betulus alba) und die Buche (Roth- und Weißbuche)"),
+    "Kiefer": (STAND, 1, "ganze Schläge", "whole stands", "daneben bildet die Kiefer oft ganze Schläge"),
+    "Fichte": (STAND, 1, "Hauptbestand", "main stand", "überwiegend aus der Rothtanne oder Fichte bestehend"),
+    "Eiche": (SINGLE, 2, "nur hie und da", "only here and there", "Eichen (häufiger Quercus pedunculata, seltener Quercus sessiliflora), Aspen, schwarze Pappeln, Zitterpappeln und Vogelbeerbäume finden sich hie und da in Wäldern, an Waldrändern und an Straßen"),
+    "Linde": (SINGLE, 2, "Dorfbaum", "village tree", "Große und schattige, oft uralte Linden, sowie auch italienische Pappeln sind meist Dorfzierden"),
+    "Erle": (SINGLE, 2, "an Bachufern", "along streams", "Weiden und Erlen fassen die Ufer der Bäche ein"),
+    "Weide": (SINGLE, 2, "an Bachufern", "along streams", "Weiden und Erlen fassen die Ufer der Bäche ein"),
+    "Ahorn": (SINGLE, 2, "bei den Orten", "near villages", "Ulmen, Ahorn, Eschen und Kastanien stehen oft in der Nähe der Orte und auf freiem Felde"),
+    "Esche": (SINGLE, 2, "bei den Orten", "near villages", "Ulmen, Ahorn, Eschen und Kastanien stehen oft in der Nähe der Orte und auf freiem Felde"),
+    "Eibe": (NOT_NAMED, 3, "heute nicht genannt", "not mentioned today", None),
+    "Tanne": (UNCLEAR, 4, "Tanne oder Fichte?", "fir or spruce?", None),
 }
 td = dicts(trees)
 for r in td:
@@ -127,9 +130,9 @@ add_columns(
 )
 tdd = dicts(trees)
 tree_names_total = sum(r["names"] for r in tdd)
-no_stand = sum(r["names"] for r in tdd if r["role_key"] in ("single", "none"))
-stand = sum(r["names"] for r in tdd if r["role_key"] == "stand")
-unclear = sum(r["names"] for r in tdd if r["role_key"] == "unclear")
+no_stand = sum(r["names"] for r in tdd if r["role_key"] in (SINGLE, NOT_NAMED))
+stand = sum(r["names"] for r in tdd if r["role_key"] == STAND)
+unclear = sum(r["names"] for r in tdd if r["role_key"] == UNCLEAR)
 print("names", tree_names_total, "stand", stand, "single/none", no_stand, "unclear", unclear, no_stand / tree_names_total)
 assert stand + no_stand + unclear == tree_names_total
 n_field_names = 43
@@ -149,51 +152,59 @@ FAM_Y = {
 X_AXIS_VALUES = [0, 5, 10, 15]
 
 
-def side_panel(region, color, reverse, title_de, title_en, anchor, highlight):
-    xs = {"domain": [0, 20], "nice": False}
-    if reverse:
-        xs["reverse"] = True
+HIGHLIGHT_FAMILIES = ["Asteraceae", "Orchidaceae", "Brassicaceae", "Apiaceae"]
+
+
+def side_value_label(region, align, dx):
     return {
-        "width": 290,
-        "height": {"step": 22},
-        "title": {"text": bi(title_de, title_en), "anchor": anchor, "fontSize": 12, "fontWeight": 600, "offset": 8},
         "transform": [{"filter": f"datum.region_de == '{region}'"}],
-        "layer": [
-            {
-                "mark": {"type": "bar", "color": color, "height": {"band": 0.72}},
-                "encoding": {
-                    "opacity": {"condition": {"test": f"indexof({highlight!r}, datum.family_de) >= 0", "value": 1}, "value": 0.5},
-                    "y": FAM_Y,
-                    "x": {"field": "species", "type": "quantitative", "scale": xs, "axis": {"title": None, "values": X_AXIS_VALUES, "grid": False, "labelFontSize": 10}},
-                    "tooltip": [
-                        tip({"de": "family_label_de", "en": "family_label_en"}, "Familie", "Family"),
-                        tip("family_de", "Wissenschaftlicher Name", "Scientific name"),
-                        tip({"de": "region_de", "en": "region_en"}, "Vorkommen", "Occurrence"),
-                        tip("species", "Arten", "Species"),
-                    ],
-                },
-            },
-            {
-                "mark": {"type": "text", "style": "label", "align": "right" if reverse else "left", "dx": -5 if reverse else 5},
-                "encoding": {"y": FAM_Y, "x": {"field": "species", "type": "quantitative", "scale": xs}, "text": {"field": "species"}},
-            },
+        "mark": {"type": "text", "style": "label", "align": align, "dx": dx},
+        "encoding": {"text": {"field": "species"}},
+    }
+
+
+def side_heading(region, x, align, lines_de, lines_en):
+    return {
+        "transform": [
+            {"filter": f"datum.region_de == '{region}' && datum.chart_order == 1"},
+            {"calculate": bi(repr(lines_de), repr(lines_en)), "as": "heading"},
         ],
+        "mark": {"type": "text", "align": align, "baseline": "bottom", "fontSize": 12, "fontWeight": 600, "color": "@ink", "lineHeight": 14},
+        "encoding": {"x": {"datum": x}, "y": {"value": -22}, "text": {"field": "heading"}},
     }
 
 
 c1 = {
-    "spacing": 6,
-    "hconcat": [
-        side_panel(U, "@accent", True, f"Nur im Unterland ({n_u} Arten)", f"Unterland only ({n_u} species)", "end", ["Asteraceae", "Orchidaceae"]),
-        {
-            "width": 120,
-            "height": {"step": 22},
-            "title": {"text": " ", "fontSize": 12, "offset": 8},
-            "transform": [{"filter": f"datum.region_de == '{U}'"}],
-            "mark": {"type": "text", "style": "label", "align": "center", "fontSize": 12, "color": "@ink"},
-            "encoding": {"y": FAM_Y, "x": {"value": 60}, "text": {"field": {"de": "family_label_de", "en": "family_label_en"}}},
+    "height": {"step": 22},
+    "transform": [{"calculate": f"datum.region_de == '{U}' ? -datum.species : datum.species", "as": "signed"}],
+    "encoding": {
+        "y": {**FAM_Y, "axis": {"title": None, "labelFontSize": 12, "labelLimit": 200, "domain": False, "ticks": False}},
+        "x": {
+            "field": "signed",
+            "type": "quantitative",
+            "scale": {"domain": [-23, 23], "nice": False},
+            "axis": {"title": None, "values": [-20, -10, 0, 10, 20], "labelExpr": "abs(datum.value)", "grid": False, "labelFontSize": 10},
         },
-        side_panel(O, "@accent2", False, f"Nur im Oberland ({n_o} Arten)", f"Oberland only ({n_o} species)", "start", ["Brassicaceae", "Apiaceae"]),
+    },
+    "layer": [
+        {
+            "mark": {"type": "bar", "height": {"band": 0.72}},
+            "encoding": {
+                "color": {"field": "region_de", "type": "nominal", "scale": {"domain": [U, O], "range": ["@accent", "@accent2"]}, "legend": None},
+                "opacity": {"condition": {"test": f"indexof({HIGHLIGHT_FAMILIES!r}, datum.family_de) >= 0", "value": 1}, "value": 0.5},
+                "tooltip": [
+                    tip({"de": "family_label_de", "en": "family_label_en"}, "Familie", "Family"),
+                    tip("family_de", "Wissenschaftlicher Name", "Scientific name"),
+                    tip({"de": "region_de", "en": "region_en"}, "Vorkommen", "Occurrence"),
+                    tip("species", "Arten", "Species"),
+                ],
+            },
+        },
+        {"mark": {"type": "rule", "color": "@muted", "strokeWidth": 1}, "encoding": {"x": {"datum": 0}, "y": None}},
+        side_value_label(U, "right", -5),
+        side_value_label(O, "left", 5),
+        side_heading(U, -1, "right", ["Nur im Unterland", f"{n_u} Arten"], ["Unterland only", f"{n_u} species"]),
+        side_heading(O, 1, "left", ["Nur im Oberland", f"{n_o} Arten"], ["Oberland only", f"{n_o} species"]),
     ],
 }
 
@@ -242,8 +253,8 @@ c3 = {
             "encoding": {
                 "color": {
                     "condition": [
-                        {"test": "datum.role_key == 'stand'", "value": "@context"},
-                        {"test": "datum.role_key == 'unclear'", "value": "@muted"},
+                        {"test": f"datum.role_key == '{STAND}'", "value": "@context"},
+                        {"test": f"datum.role_key == '{UNCLEAR}'", "value": "@muted"},
                     ],
                     "value": "@accent",
                 },
@@ -332,12 +343,12 @@ caption_c1 = bi(
     f"Plants occurring only in the Unterland (left) or only in the Oberland (right), by family; shown are families with at least four species in one part. Lists as corrected by Brückner. Pp. 72–74, 830.",
 )
 caption_c2 = bi(
-    "Blütenpflanzenarten (Phanerogamen) im Vergleich; die graue Zahl nennt den Anteil an den deutschen Arten in Prozent. Brückner selbst rundet das Reußenland auf 38,4 Prozent ab. S. 72.",
-    "Flowering plant species (phanerogams) compared; the grey number gives the share of the German species in percent. Brückner himself rounds the Reuss territory down to 38.4 percent. P. 72.",
+    "Blütenpflanzenarten (Phanerogamen) im Vergleich; die zweite Zahl nennt den Anteil an den deutschen Arten in Prozent. Brückner selbst rundet das Reußenland auf 38,4 Prozent ab. S. 72.",
+    "Flowering plant species (phanerogams) compared; the second number gives the share of the German species in percent. Brückner himself rounds the Reuss territory down to 38.4 percent. P. 72.",
 )
 caption_c3 = bi(
-    f"Zahl der Flurnamen im Oberland je Baumart nach Brückners Liste von {n_field_names} Namen; die Beschriftung nennt die Rolle des Baums im heutigen Wald nach seinen Angaben. Grau: Baum bildet heute Bestände. S. 78.",
-    f"Number of field names in the Oberland per tree species from Brückner’s list of {n_field_names} names; the label gives the tree’s role in today’s forest according to him. Grey: the tree forms stands today. P. 78.",
+    f"Zahl der Flurnamen im Oberland je Baumart nach Brückners Liste von {n_field_names} Namen; die Beschriftung nennt die Rolle des Baums im heutigen Wald nach seinen Angaben. Hervorgehoben: Bäume, die heute keine Bestände bilden. S. 78.",
+    f"Number of field names in the Oberland per tree species from Brückner’s list of {n_field_names} names; the label gives the tree’s role in today’s forest according to him. Highlighted: trees that form no stands today. P. 78.",
 )
 
 method_de = (
@@ -349,12 +360,12 @@ method_de = (
     "Nicht übernommen sind die Fundorte seltener Pflanzen bei Gera und Lobenstein (S. 76 f., 81), weil die wichtigsten Fundorte Flurstücke und Felsen sind, die im Ortsverzeichnis fehlen."
 )
 method_en = (
-    "The table on p. 72 (flowering plants in the Reuss territory, Thuringia, Franconia and Germany) is taken over completely; the numbers for flowerless plants are in the text on pp. 74 f. "
+    "The table on p. 72 (flowering plants in the Reuss territory, Thuringia, Franconia and Germany) is reproduced in full; the numbers for flowerless plants are in the text on pp. 74 f. "
     "The lists of plants occurring only in the Unterland or only in the Oberland (pp. 72–74) were recorded species by species, and Brückner’s corrections on p. 830 are included (three deletions, three additions). "
     "The assignment to plant families follows present-day systematics; shown are the families with at least four species in one of the two parts. "
     "The field names (p. 78) were counted by the tree name in the word stem; ‘Tann-’ remains a group of its own because fir and spruce cannot be told apart. "
     "The role of each tree in today’s forest of the Oberland is an editorial classification based on Brückner’s wording (main stand, larger stands, only singly). "
-    "Not taken over are the sites of rare plants near Gera and Lobenstein (pp. 76 f., 81), because the most important sites are plots and rocks that are missing from the gazetteer."
+    "The sites of rare plants near Gera and Lobenstein (pp. 76 f., 81) are not included, because the most important sites are plots and rocks that are missing from the gazetteer."
 )
 print("method words", words(method_de), words(method_en))
 
@@ -372,8 +383,8 @@ caveats = [
         "The figures for Thuringia (after Schlechtendal) and Franconia (after the “Bavaria”) come from other floras and are comparable only to a limited extent because of different species concepts. For flowerless plants Brückner gives no division by part of the country.",
     ),
     bi(
-        "Flurnamen lassen sich zeitlich nicht einordnen; ein Stamm wie Birk- oder Eich- kann auch auf einzelne Bäume zurückgehen. Die Einordnung der Rolle im heutigen Wald vereinfacht Brückners freie Beschreibungen und gilt nur innerhalb dieses Stücks.",
-        "Field names cannot be dated, and a stem such as Birk- or Eich- may also refer to single trees. The classification of the role in today’s forest simplifies Brückner’s free descriptions and holds only within this piece.",
+        "Flurnamen lassen sich zeitlich nicht einordnen; ein Stamm wie Birk- oder Eich- kann auch auf einzelne Bäume zurückgehen. Die Einordnung der Rolle im heutigen Wald vereinfacht Brückners freie Beschreibungen und dient nur der Gruppierung in der Grafik.",
+        "Field names cannot be dated, and a stem such as Birk- or Eich- may also refer to single trees. The classification of the role in today’s forest simplifies Brückner’s free descriptions and serves only to group the chart.",
     ),
 ]
 
@@ -388,7 +399,7 @@ feature = {
     "findings": [bi(f1_de, f1_en), bi(f2_de, f2_en), bi(f3_de, f3_en)],
     "method": bi(method_de, method_en),
     "caveats": caveats,
-    "datasets": [families, phan, trees, groups, species],
+    "datasets": [families, drop_columns(phan, {"kind"}), trees, groups, species],
     "charts": [
         {"id": "c1", "dataset": "family_counts", "title": title_c1, "caption": caption_c1, "vegalite": c1},
         {"id": "c2", "dataset": "phanerogams", "title": title_c2, "caption": caption_c2, "vegalite": c2},
@@ -400,7 +411,6 @@ feature = {
         "en": ["flora", "plants", "phanerogams", "cryptogams", "flowering plants", "orchids", "tree species", "field names", "spruce", "Unterland", "Oberland"],
     },
     "related": ["phaenologie", "tierwelt", "wald-holz", "geologie-boden"],
-    "generated_by": GENERATED_BY.format(k=len(MERGES)),
     "date": DATE,
 }
 print(check_lengths(feature))

@@ -55,15 +55,15 @@ print("land-lage-grenzen OK")
 # ------------------------------------------------------------------ relief-hoehen
 a, d = load("relief-hoehen")
 t = text(a)
-pl = [p for p in d["places"] if not p["in_klammern"]]
-assert len(pl) == 264 and sum(not h["in_klammern"] for h in d["heights"]) == 263
+pl = [p for p in d["places"] if p["in_klammern"] == "nein"]
+assert len(pl) == 264 and sum(h["in_klammern"] == "nein" for h in d["heights"]) == 263
 med = {lt: statistics.median(p["hoehe_mitte_m"] for p in pl if p["landesteil"] == lt) for lt in ("Oberland", "Unterland")}
 assert round(med["Oberland"]) == 509 and round(med["Unterland"]) == 248
 hi = {lt: max(p["hoehe_mitte_m"] for p in pl if p["landesteil"] == lt) for lt in ("Oberland", "Unterland")}
 top = {lt: max(h["hoehe_m"] for h in d["heights"] if h["landesteil"] == lt) for lt in ("Oberland", "Unterland")}
 assert round(top["Oberland"] - hi["Oberland"]) == 19 and round(top["Unterland"] - hi["Unterland"]) == 14
 assert round(top["Oberland"]) == 725
-above = {lt: sum(h["hoehe_m"] > hi[lt] for h in d["heights"] if h["landesteil"] == lt and not h["in_klammern"]) for lt in hi}
+above = {lt: sum(h["hoehe_m"] > hi[lt] for h in d["heights"] if h["landesteil"] == lt and h["in_klammern"] == "nein") for lt in hi}
 assert above == {"Oberland": 6, "Unterland": 6}
 mp = [p for p in pl if p["lon"] is not None]
 assert round(max(p["hoehe_mitte_m"] for p in mp)) == 677 and round(min(p["hoehe_mitte_m"] for p in mp)) == 174
@@ -85,20 +85,20 @@ a, d = load("geologie-boden")
 t = text(a)
 so = d["soils"]
 assert len(so) == 25
-gr = [s for s in so if s["rock_group"] == "greenstone"]
+gr = [s for s in so if s["rock_group"] == "Grünstein, Diabas, Tuff"]
 assert len(gr) == 6 and round(statistics.mean(s["soil_grade"] for s in gr), 1) == 4.8 and sum(s["soil_grade"] == 5 for s in gr) == 5
-assert statistics.mean(s["soil_grade"] for s in so if s["rock_group"] == "slate") == 3.0
+assert statistics.mean(s["soil_grade"] for s in so if s["rock_group"] == "Schiefer, Grauwacke") == 3.0
 assert round(statistics.mean(s["soil_grade"] for s in so if s["region"] == "Oberland"), 1) == 3.8
 assert statistics.mean(s["soil_grade"] for s in so if s["region"] == "Unterland") == 3.0
 rs = d["resources"]
-iron = {(r["formation_no"], r["region"]) for r in rs if r["resource"] == "iron"}
+iron = {(r["formation_no"], r["region"]) for r in rs if r["resource_de"] == "Eisenerz"}
 assert len(iron) == 7 and sum(r[1] == "Oberland" for r in iron) == 6
-assert {r["resource"] for r in rs if r["region"] == "Unterland"} >= {"gypsum"} and "gypsum" not in {r["resource"] for r in rs if r["region"] == "Oberland"}
-assert sum(r["status"] == "formerly" for r in rs) == 4 and len(rs) == 29
+assert {r["resource_de"] for r in rs if r["region"] == "Unterland"} >= {"Gips, Salz"} and "Gips, Salz" not in {r["resource_de"] for r in rs if r["region"] == "Oberland"}
+assert sum(r["status"] == "früher genutzt" for r in rs) == 4 and len(rs) == 29
 z, cl = d["zechstein"], d["clymenien"]
 assert sum(x["species"] for x in z) == 95 and sum(x["species"] for x in cl) == 42
-assert sum(x["species"] for x in z if x["klasse"] in ("bivalve", "brachiopod")) == 45
-assert sum(x["species"] for x in cl if x["klasse"] == "cephalopod") == 21
+assert sum(x["species"] for x in z if x["klasse"] in ("Muscheln", "Armfüßer")) == 45
+assert sum(x["species"] for x in cl if x["klasse"] == "Kopffüßer") == 21
 has(t, "13 Gesteinsformationen", "95 Arten", "Mittel 4,8", "45 der 95", "21 der 42")
 print("geologie-boden OK")
 
@@ -117,12 +117,12 @@ bank = Counter((x["river"], x["bank"]) for x in tr)
 assert [bank[(r_, "rechts")] > bank[(r_, "links")] for r_ in ("Saale", "Elster", "Weida", "Rodach")] == [True, True, True, False]
 ob = [x for x in tr if x["region"] == "Oberland"]
 un = [x for x in tr if x["region"] == "Unterland"]
-assert (len(ob), len(un)) == (50, 28) and round(sum(x["name_type"] == "bach" for x in ob) / 50 * 100) == 68 and round(sum(x["name_type"] == "bach" for x in un) / 28 * 100) == 29
-assert sum(x["name_type"] in ("graben", "grund") for x in un) == 8 and sum(x["name_type"] in ("graben", "grund") for x in ob) == 0
+assert (len(ob), len(un)) == (50, 28) and round(sum(x["name_type"] == "-bach" for x in ob) / 50 * 100) == 68 and round(sum(x["name_type"] == "-bach" for x in un) / 28 * 100) == 29
+assert sum(x["name_type"] in ("-graben", "-grund") for x in un) == 8 and sum(x["name_type"] in ("-graben", "-grund") for x in ob) == 0
 comp = d["composition"]
 tt = {k: sum(c["parts_per_10000"] for c in comp if c["spring"] == k) for k in ("Neue Quelle", "Agnesquelle")}
 assert round(tt["Neue Quelle"], 4) == 2.5232 and round(tt["Agnesquelle"], 4) == 1.0082 and round(tt["Neue Quelle"] / tt["Agnesquelle"], 1) == 2.5
-fe = {k: sum(c["parts_per_10000"] for c in comp if c["spring"] == k and c["group"] == "iron") for k in tt}
+fe = {k: sum(c["parts_per_10000"] for c in comp if c["spring"] == k and c["group"] == "Eisen und Mangan") for k in tt}
 assert round(fe["Neue Quelle"] / fe["Agnesquelle"], 1) == 1.4
 assert round(max(c["parts_per_10000"] for c in comp if c["spring"] == "Agnesquelle") / tt["Agnesquelle"] * 100) == 41
 has(t, "83 Zuflüsse", "28 Bäche", "101 m", "1,83fache", "68 Prozent", "2,52", "41 Prozent", "2,5-mal", "1,4-mal")

@@ -88,8 +88,8 @@
   }
  ],
  "summary": {
-  "de": "Neben Gera druckt Brückner Temperaturreihen für Hohenleuben, Schleiz und Rothenacker, Jahresmittel für vier weitere Orte sowie Nebel-, Niederschlags- und Himmelszahlen. Das Jahresmittel sinkt um 0,46 K je 100 m Höhe; Schleiz, Lobenstein, Saalburg und Rothenacker liegen darüber, was Brückner selbst als zu hoch beanstandet. Die Zahlen für Nebel und Himmelsansicht gehen zwischen den Orten weit auseinander.",
-  "en": "Besides Gera, Brückner prints temperature series for Hohenleuben, Schleiz and Rothenacker, annual means for four more places, and counts of fog, precipitation and sky conditions. The annual mean falls by 0.46 K per 100 m of height; Schleiz, Lobenstein, Saalburg and Rothenacker lie above that line, which Brückner himself criticizes as too high. The figures for fog and sky conditions differ widely between the places."
+  "de": "Neben Gera druckt Brückner Temperaturreihen für Hohenleuben, Schleiz und Rothenacker, Jahresmittel für vier weitere Orte und die Zahl der Nebel-, Niederschlags- und Reiftage. Das Jahresmittel sinkt um 0,46 K je 100 m Höhe; Schleiz, Lobenstein, Saalburg und Rothenacker liegen darüber, und Brückner selbst hält ihre Werte für zu hoch. Die Zahlen für Nebel und Himmelsansicht gehen zwischen den Orten weit auseinander.",
+  "en": "Besides Gera, Brückner prints temperature series for Hohenleuben, Schleiz and Rothenacker, annual means for four more places, and counts of days with fog, precipitation and hoarfrost. The annual mean falls by 0.46 K per 100 m of height; Schleiz, Lobenstein, Saalburg and Rothenacker lie above that line, and Brückner himself considers their values too high. The counts of foggy days and of clear and overcast days differ widely between the places."
  },
  "findings": [
   {
@@ -106,8 +106,8 @@
   }
  ],
  "method": {
-  "de": "Die Jahresmittel der Temperatur stammen aus Brückners Durchschnittszeilen (S. 55 bis 58); sie sind in Grad Réaumur gedruckt und mit 1,25 in °C umgerechnet. Die Höhen der Ortslagen entnimmt die Auswertung seiner Höhenliste (S. 12, 20 bis 22) in preußischen Dezimalfuß, bei Spannen die Mitte; 1 Dezimalfuß = 0,3766242 m (S. 831). Die Gerade ist die Regression der Jahresmittel auf die Höhe für Gera, Hohenleuben, Stelzen und Grumbach, also die Orte, die Brückner nicht beanstandet; Ziegenrück hat keine Höhe. Die Beobachtungsjahre der Karte folgen dem Zeitraum der Angabe.\nNebel, Reif, Regen und Schnee sind die gedruckten Jahresmittel (S. 67); Niederschlagstage sind Regen plus Schnee, für Gera mit der berichtigten Regensumme 1544 (S. 830), für Hohenleuben die gedruckte Spalte »Regen und Schnee«. Die bedeckten, gemischten und hellen Tage stehen auf S. 65. Hof und Arnstadt, die Brückner dort zum Vergleich nennt, werden nicht gezeigt. Die Vergleiche gleicher Jahre im Befund stützen sich auf die Jahresmittel der Tabelle »station_annual«. Die Temperaturen von Quellen und Brunnen (S. 69 f.) sind einzelne Messungen ohne Höhe und stehen nur im Datensatz »springs«.",
-  "en": "The annual mean temperatures come from Brückner’s average rows (pp. 55 to 58); they are printed in degrees Réaumur and converted at 1.25 to °C. The elevations of the places are taken from his list of heights (pp. 12, 20 to 22) in Prussian decimal feet, using the middle of a range; 1 decimal foot = 0.3766242 m (p. 831). The line is the regression of the annual means on elevation for Gera, Hohenleuben, Stelzen and Grumbach, the places Brückner does not criticize; Ziegenrück has no elevation. The years of observation on the map follow the period given.\nFog, hoarfrost, rain and snow are the printed annual means (p. 67); days with precipitation are rain plus snow, for Gera with the corrected rain total of 1544 (p. 830), for Hohenleuben the printed column »rain and snow«. Overcast, mixed and clear days are on p. 65. Hof and Arnstadt, which Brückner names there for comparison, are not shown. The comparisons of equal years in the findings rest on the annual means in the table »station_annual«. The temperatures of springs and wells (pp. 69 f.) are single readings without elevation and appear only in the dataset »springs«."
+  "de": "Die Jahresmittel der Temperatur stammen aus Brückners Durchschnittszeilen (S. 55 bis 58); sie sind in Grad Réaumur gedruckt und mit 1,25 in °C umgerechnet. Die Höhen der Ortslagen entnimmt die Auswertung seiner Höhenliste (S. 12, 20 bis 22) in preußischen Dezimalfuß, bei Spannen die Mitte; 1 Dezimalfuß = 0,3766242 m (S. 831). Die Gerade ist die Regression der Jahresmittel auf die Höhe für Gera, Hohenleuben, Stelzen und Grumbach, also die Orte, die Brückner nicht beanstandet; Ziegenrück hat keine Höhe. Die Beobachtungsjahre der Karte folgen dem Zeitraum der Angabe.\nNebel, Reif, Regen und Schnee sind die gedruckten Jahresmittel (S. 67); Niederschlagstage sind Regen plus Schnee, für Gera mit der berichtigten Regensumme 1544 (S. 830), für Hohenleuben die gedruckte Spalte »Regen und Schnee«. Die bedeckten, gemischten und hellen Tage stehen auf S. 65. Hof und Arnstadt, die Brückner dort zum Vergleich nennt, werden nicht gezeigt. Die Vergleiche gleicher Jahre im Befund stützen sich auf die Tabelle »Jahreswerte der Temperatur nach Station«. Die Temperaturen von Quellen und Brunnen (S. 69 f.) sind einzelne Messungen ohne Höhe und stehen nur in den Daten.",
+  "en": "The annual mean temperatures come from Brückner’s average rows (pp. 55 to 58); they are printed in degrees Réaumur and converted at 1.25 to °C. The elevations of the places are taken from his list of heights (pp. 12, 20 to 22) in Prussian decimal feet, using the middle of a range; 1 decimal foot = 0.3766242 m (p. 831). The line is the regression of the annual means on elevation for Gera, Hohenleuben, Stelzen and Grumbach, the places Brückner does not criticise; Ziegenrück has no elevation. The years of observation on the map follow the period given.\nFog, hoarfrost, rain and snow are the printed annual means (p. 67); days with precipitation are rain plus snow, for Gera with the corrected rain total of 1544 (p. 830), for Hohenleuben the printed column “rain and snow”. Overcast, mixed and clear days are on p. 65. Hof and Arnstadt, which Brückner names there for comparison, are not shown. The comparisons of equal years in the findings rest on the table “Annual temperature values by station”. The temperatures of springs and wells (pp. 69 f.) are single readings without elevation and appear only in the data."
  },
  "conversions": [
   {
@@ -138,7 +138,7 @@
   },
   {
    "de": "Die Reihen für Nebel, Niederschlag und Himmel sind 15 (Hohenleuben), 12 bzw. 10 (Gera), 2 (Schleiz) und 2 Jahre (Rothenacker) lang und stammen von verschiedenen Beobachtern. Hohenleuben trennt Regen und Schnee nicht. Die Gera-Reihe der Himmelsansicht (S. 64) nennt nur »in 10 Jahren«, keinen Zeitraum. Brückner spricht selbst von »auffällig starken Abweichungen« (S. 65).",
-   "en": "The series for fog, precipitation and sky are 15 (Hohenleuben), 12 or 10 (Gera), 2 (Schleiz) and 2 years (Rothenacker) long and come from different observers. Hohenleuben does not separate rain and snow. The Gera series of sky conditions (p. 64) states only »in 10 years«, no period. Brückner himself speaks of »striking deviations« (p. 65)."
+   "en": "The series for fog, precipitation and sky are 15 (Hohenleuben), 12 or 10 (Gera), 2 (Schleiz) and 2 years (Rothenacker) long and come from different observers. Hohenleuben does not separate rain and snow. The Gera series of sky conditions (p. 64) states only “in 10 years”, no period. Brückner himself speaks of “striking deviations” (p. 65)."
   }
  ],
  "datasets": [
@@ -175,17 +175,7 @@
      },
      "type": "string",
      "unit": null,
-     "note": "series = mehrjährige Reihe, nicht beanstandet; uncertain = Angabe ohne sicheres Maß (S. 57); high = als zu hoch liegend beurteilt (S. 58); editorische Zuordnung"
-    },
-    {
-     "name": "label_side",
-     "label": {
-      "de": "Beschriftungsseite",
-      "en": "Label side"
-     },
-     "type": "string",
-     "unit": null,
-     "note": "nur für das Diagramm"
+     "note": "Brückners Urteil über die Werte, editorisch zusammengefasst"
     },
     {
      "name": "elev_from_ft",
@@ -292,8 +282,7 @@
     [
      "Gera",
      "1856–1867",
-     "series",
-     "right",
+     "mehrjährige Reihe",
      505.0,
      600.0,
      208.1,
@@ -308,8 +297,7 @@
     [
      "Hohenleuben",
      "1854–1860",
-     "series",
-     "right",
+     "mehrjährige Reihe",
      975.0,
      1050.0,
      381.3,
@@ -324,8 +312,7 @@
     [
      "Schleiz",
      "1863–1867",
-     "high",
-     "left",
+     "zu hoch (S. 58)",
      1150.0,
      1175.0,
      437.8,
@@ -340,8 +327,7 @@
     [
      "Saalburg",
      "Dez. 1864–Nov. 1865",
-     "high",
-     "left",
+     "zu hoch (S. 58)",
      1075.0,
      1140.0,
      417.1,
@@ -356,8 +342,7 @@
     [
      "Lobenstein",
      "1863",
-     "high",
-     "right",
+     "zu hoch (S. 58)",
      1250.0,
      1300.0,
      480.2,
@@ -372,8 +357,7 @@
     [
      "Rothenacker",
      "1865, 1867",
-     "high",
-     "right",
+     "zu hoch (S. 58)",
      1447.0,
      1447.0,
      545.0,
@@ -388,8 +372,7 @@
     [
      "Stelzen",
      "unbekannt",
-     "uncertain",
-     "right",
+     "ohne sicheres Maß (S. 57)",
      1525.0,
      1560.0,
      580.9,
@@ -404,8 +387,7 @@
     [
      "Grumbach",
      "unbekannt",
-     "uncertain",
-     "right",
+     "ohne sicheres Maß (S. 57)",
      1797.0,
      1797.0,
      676.8,
@@ -420,8 +402,7 @@
     [
      "Ziegenrück",
      "1848–1856",
-     "series",
-     "right",
+     "mehrjährige Reihe",
      null,
      null,
      null,
@@ -567,16 +548,6 @@
      "unit": null
     },
     {
-     "name": "station_order",
-     "label": {
-      "de": "Reihenfolge des Orts",
-      "en": "Order of the place"
-     },
-     "type": "integer",
-     "unit": null,
-     "derived": true
-    },
-    {
      "name": "measure",
      "label": {
       "de": "Größe",
@@ -585,17 +556,7 @@
      "type": "string",
      "unit": null,
      "derived": true,
-     "note": "Niederschlag = Regen plus Schnee (Hohenleuben: Regen und Schnee zusammen); bedeckt, gemischt, hell = Himmelsansicht"
-    },
-    {
-     "name": "measure_order",
-     "label": {
-      "de": "Reihenfolge der Größe",
-      "en": "Order of the measure"
-     },
-     "type": "integer",
-     "unit": null,
-     "derived": true
+     "note": "Niederschlagstage = Regen plus Schnee (Hohenleuben: Regen und Schnee zusammen); bedeckte, gemischte, helle Tage = Himmelsansicht"
     },
     {
      "name": "days_printed",
@@ -621,193 +582,145 @@
    "rows": [
     [
      "Gera",
-     1,
-     "Niederschlag",
-     1,
+     "Niederschlagstage",
      null,
      166.4
     ],
     [
      "Gera",
-     1,
-     "Nebel",
-     2,
+     "Nebeltage",
      67.6,
      67.6
     ],
     [
      "Gera",
-     1,
-     "Reif",
-     3,
+     "Reiftage",
      43.4,
      43.4
     ],
     [
      "Gera",
-     1,
-     "bedeckt",
-     4,
+     "Bedeckte Tage",
      66.3,
      66.3
     ],
     [
      "Gera",
-     1,
-     "gemischt",
-     5,
+     "Gemischte Tage",
      243.2,
      243.2
     ],
     [
      "Gera",
-     1,
-     "hell",
-     6,
+     "Helle Tage",
      55.5,
      55.5
     ],
     [
      "Hohenleuben",
-     2,
-     "Niederschlag",
-     1,
+     "Niederschlagstage",
      null,
      141.1
     ],
     [
      "Hohenleuben",
-     2,
-     "Nebel",
-     2,
+     "Nebeltage",
      28.6,
      28.6
     ],
     [
      "Hohenleuben",
-     2,
-     "Reif",
-     3,
+     "Reiftage",
      17.4,
      17.4
     ],
     [
      "Hohenleuben",
-     2,
-     "bedeckt",
-     4,
+     "Bedeckte Tage",
      173.6,
      173.6
     ],
     [
      "Hohenleuben",
-     2,
-     "gemischt",
-     5,
+     "Gemischte Tage",
      54.9,
      54.9
     ],
     [
      "Hohenleuben",
-     2,
-     "hell",
-     6,
+     "Helle Tage",
      135.8,
      135.8
     ],
     [
      "Schleiz",
-     3,
-     "Niederschlag",
-     1,
+     "Niederschlagstage",
      null,
      118.0
     ],
     [
      "Schleiz",
-     3,
-     "Nebel",
-     2,
+     "Nebeltage",
      16.0,
      16.0
     ],
     [
      "Schleiz",
-     3,
-     "Reif",
-     3,
+     "Reiftage",
      47.0,
      47.0
     ],
     [
      "Schleiz",
-     3,
-     "bedeckt",
-     4,
+     "Bedeckte Tage",
      145.0,
      145.0
     ],
     [
      "Schleiz",
-     3,
-     "gemischt",
-     5,
+     "Gemischte Tage",
      146.5,
      146.5
     ],
     [
      "Schleiz",
-     3,
-     "hell",
-     6,
+     "Helle Tage",
      73.5,
      73.5
     ],
     [
      "Rothenacker",
-     4,
-     "Niederschlag",
-     1,
+     "Niederschlagstage",
      null,
      205.5
     ],
     [
      "Rothenacker",
-     4,
-     "Nebel",
-     2,
+     "Nebeltage",
      76.5,
      76.5
     ],
     [
      "Rothenacker",
-     4,
-     "Reif",
-     3,
+     "Reiftage",
      21.5,
      21.5
     ],
     [
      "Rothenacker",
-     4,
-     "bedeckt",
-     4,
+     "Bedeckte Tage",
      160.0,
      160.0
     ],
     [
      "Rothenacker",
-     4,
-     "gemischt",
-     5,
+     "Gemischte Tage",
      170.5,
      170.5
     ],
     [
      "Rothenacker",
-     4,
-     "hell",
-     6,
+     "Helle Tage",
      34.5,
      34.5
     ]
@@ -1467,16 +1380,6 @@
      "note": "Beobachter bzw. Fundort, editorisch"
     },
     {
-     "name": "group_order",
-     "label": {
-      "de": "Reihenfolge der Gruppe",
-      "en": "Group order"
-     },
-     "type": "integer",
-     "unit": null,
-     "derived": true
-    },
-    {
      "name": "site",
      "label": {
       "de": "Quelle / Brunnen",
@@ -1494,8 +1397,7 @@
      },
      "type": "string",
      "unit": null,
-     "derived": true,
-     "note": "spring = Quelle, well = Brunnen, stage = Spanne für eine Stufe (Elsässer)"
+     "derived": true
     },
     {
      "name": "value_printed",
@@ -1574,10 +1476,9 @@
    "rows": [
     [
      1,
-     "kraftsdorf",
-     1,
+     "Quellen bei Kraftsdorf",
      "Queckbrunnen",
-     "spring",
+     "Quelle",
      "8°",
      8,
      8,
@@ -1588,10 +1489,9 @@
     ],
     [
      2,
-     "kraftsdorf",
-     1,
+     "Quellen bei Kraftsdorf",
      "Hempelsquelle",
-     "spring",
+     "Quelle",
      "8°",
      8,
      8,
@@ -1602,10 +1502,9 @@
     ],
     [
      3,
-     "kraftsdorf",
-     1,
+     "Quellen bei Kraftsdorf",
      "Martinsquelle",
-     "spring",
+     "Quelle",
      "9°",
      9,
      9,
@@ -1616,10 +1515,9 @@
     ],
     [
      4,
-     "kraftsdorf",
-     1,
+     "Quellen bei Kraftsdorf",
      "Scheffelsbrunnen",
-     "spring",
+     "Quelle",
      "8°",
      8,
      8,
@@ -1630,10 +1528,9 @@
     ],
     [
      5,
-     "kraftsdorf",
-     1,
+     "Quellen bei Kraftsdorf",
      "Prechtsquelle",
-     "spring",
+     "Quelle",
      "6 3/4°",
      6.75,
      6.75,
@@ -1644,10 +1541,9 @@
     ],
     [
      6,
-     "brunnen",
-     2,
+     "Brunnen in Hermsdorf, Hohenleuben, Döhlen",
      "Hermsdorf",
-     "well",
+     "Brunnen",
      "8°",
      8,
      8,
@@ -1658,10 +1554,9 @@
     ],
     [
      7,
-     "brunnen",
-     2,
+     "Brunnen in Hermsdorf, Hohenleuben, Döhlen",
      "Hohenleuben, Herrengasse (40 Fuß)",
-     "well",
+     "Brunnen",
      "8°",
      8,
      8,
@@ -1672,10 +1567,9 @@
     ],
     [
      8,
-     "brunnen",
-     2,
+     "Brunnen in Hermsdorf, Hohenleuben, Döhlen",
      "Döhlen",
-     "well",
+     "Brunnen",
      "8°",
      8,
      8,
@@ -1686,10 +1580,9 @@
     ],
     [
      9,
-     "roettersdorf",
-     3,
+     "Ziehbrunnen in Röttersdorf",
      "Röttersdorf, oberer Ziehbrunnen, 12. Mai",
-     "well",
+     "Brunnen",
      "5 1/2°",
      5.5,
      5.5,
@@ -1700,10 +1593,9 @@
     ],
     [
      10,
-     "roettersdorf",
-     3,
+     "Ziehbrunnen in Röttersdorf",
      "Röttersdorf, oberer Ziehbrunnen, 27. Mai",
-     "well",
+     "Brunnen",
      "6 1/2°",
      6.5,
      6.5,
@@ -1714,10 +1606,9 @@
     ],
     [
      11,
-     "roettersdorf",
-     3,
+     "Ziehbrunnen in Röttersdorf",
      "Röttersdorf, unterer Ziehbrunnen, 27. Mai",
-     "well",
+     "Brunnen",
      "6°",
      6,
      6,
@@ -1728,10 +1619,9 @@
     ],
     [
      12,
-     "elsaesser",
-     4,
+     "Quellstufen nach Elsässer",
      "Obere Quellen",
-     "stage",
+     "Quellstufe (Spanne)",
      "11° bis 12°",
      11,
      12,
@@ -1742,10 +1632,9 @@
     ],
     [
      13,
-     "elsaesser",
-     4,
+     "Quellstufen nach Elsässer",
      "Mittlere Quellen",
-     "stage",
+     "Quellstufe (Spanne)",
      "9° bis 10°",
      9,
      10,
@@ -1756,10 +1645,9 @@
     ],
     [
      14,
-     "elsaesser",
-     4,
+     "Quellstufen nach Elsässer",
      "Untere Quellen",
-     "stage",
+     "Quellstufe (Spanne)",
      "7° bis 8°",
      7,
      8,
@@ -16276,7 +16164,7 @@
    },
    "caption": {
     "de": "Jahresmittel der Temperatur (aus Réaumur umgerechnet) und Höhe der Ortslage (Mitte der Höhenspanne, in Metern). Gerade durch Gera, Hohenleuben, Stelzen und Grumbach (0,46 K je 100 m); Zahlen: Abstand zur Geraden. Quelle: S. 12, 20 bis 22, 55 bis 58.",
-    "en": "Annual mean temperature (converted from Réaumur) and elevation of the place (middle of the height range, in meters). Line through Gera, Hohenleuben, Stelzen and Grumbach (0.46 K per 100 m); numbers: distance from the line. Source: pp. 12, 20 to 22, 55 to 58."
+    "en": "Annual mean temperature (converted from Réaumur) and elevation of the place (middle of the height range, in metres). Line through Gera, Hohenleuben, Stelzen and Grumbach (0.46 K per 100 m); numbers: distance from the line. Source: pp. 12, 20 to 22, 55 to 58."
    },
    "vegalite": {
     "height": 400,
@@ -16302,7 +16190,7 @@
         "scale": {
          "domain": [
           6,
-          10.4
+          11.5
          ]
         },
         "axis": {
@@ -16315,7 +16203,8 @@
           7,
           8,
           9,
-          10
+          10,
+          11
          ],
          "format": "d",
          "grid": false
@@ -16390,7 +16279,7 @@
      {
       "transform": [
        {
-        "filter": "datum.judgement == 'high'"
+        "filter": "datum.judgement == 'zu hoch (S. 58)'"
        }
       ],
       "mark": {
@@ -16433,7 +16322,7 @@
        },
        "color": {
         "condition": {
-         "test": "datum.judgement == 'high'",
+         "test": "datum.judgement == 'zu hoch (S. 58)'",
          "value": "@accent2"
         },
         "value": "@accent"
@@ -16491,7 +16380,7 @@
      {
       "transform": [
        {
-        "calculate": "datum.judgement == 'high' ? datum.station + ' +' + format(datum.excess_k, '.1f') + ' K' : datum.station",
+        "calculate": "datum.judgement == 'zu hoch (S. 58)' ? datum.station + ' +' + format(datum.excess_k, '.1f') + ' K' : datum.station",
         "as": "lab"
        }
       ],
@@ -16518,7 +16407,7 @@
      {
       "transform": [
        {
-        "calculate": "datum.judgement == 'high' ? datum.station + ' +' + format(datum.excess_k, '.1f') + ' K' : datum.station",
+        "calculate": "datum.judgement == 'zu hoch (S. 58)' ? datum.station + ' +' + format(datum.excess_k, '.1f') + ' K' : datum.station",
         "as": "lab"
        }
       ],
@@ -16542,7 +16431,7 @@
        },
        "color": {
         "condition": {
-         "test": "datum.judgement == 'high'",
+         "test": "datum.judgement == 'zu hoch (S. 58)'",
          "value": "@accent2"
         },
         "value": "@ink2"
@@ -16556,25 +16445,17 @@
        }
       ],
       "mark": {
-       "type": "text",
-       "style": "annotation",
-       "align": "right",
-       "color": "@accent2"
+       "type": "circle",
+       "size": 110,
+       "color": "@accent2",
+       "opacity": 1
       },
       "encoding": {
        "x": {
-        "datum": 10.4,
-        "type": "quantitative"
+        "value": 6
        },
        "y": {
-        "datum": 715,
-        "type": "quantitative"
-       },
-       "text": {
-        "value": {
-         "de": "Orange: von Brückner als zu warm beurteilt (S. 58)",
-         "en": "Orange: judged too warm by Brückner (p. 58)"
-        }
+        "value": 452
        }
       }
      },
@@ -16587,22 +16468,70 @@
       "mark": {
        "type": "text",
        "style": "annotation",
-       "align": "right",
-       "color": "@accent"
+       "align": "left",
+       "baseline": "middle",
+       "dx": 10
       },
       "encoding": {
        "x": {
-        "datum": 10.4,
-        "type": "quantitative"
+        "value": 6
        },
        "y": {
-        "datum": 685,
-        "type": "quantitative"
+        "value": 452
        },
        "text": {
         "value": {
-         "de": "Blau: nicht beanstandet",
-         "en": "Blue: not criticized"
+         "de": "von Brückner als zu warm beurteilt (S. 58)",
+         "en": "judged too warm by Brückner (p. 58)"
+        }
+       }
+      }
+     },
+     {
+      "transform": [
+       {
+        "filter": "datum.station == 'Gera'"
+       }
+      ],
+      "mark": {
+       "type": "circle",
+       "size": 110,
+       "color": "@accent",
+       "opacity": 1
+      },
+      "encoding": {
+       "x": {
+        "value": 6
+       },
+       "y": {
+        "value": 474
+       }
+      }
+     },
+     {
+      "transform": [
+       {
+        "filter": "datum.station == 'Gera'"
+       }
+      ],
+      "mark": {
+       "type": "text",
+       "style": "annotation",
+       "align": "left",
+       "baseline": "middle",
+       "dx": 10
+      },
+      "encoding": {
+       "x": {
+        "value": 6
+       },
+       "y": {
+        "value": 474
+       },
+       "text": {
+        "value": {
+         "de": "nicht beanstandet",
+         "en": "not criticised"
         }
        }
       }
@@ -16622,8 +16551,8 @@
     "en": "Temperatures were recorded at eight places, but only Gera and Hohenleuben for more than five years"
    },
    "caption": {
-    "de": "Orte mit gedruckten Temperaturmitteln. Größe: Zahl der Beobachtungsjahre; Stelzen und Grumbach: nur ein Jahresmittel unbekannten Zeitraums (Pfarrämter). Zahl: Jahresmittel in °C. Ziegenrück (Preußen, 1848 bis 1856) liegt außerhalb. Quelle: S. 54 bis 58.",
-    "en": "Places with printed temperature means. Size: years of observation; Stelzen and Grumbach: a single annual mean of unknown period (parish offices). Number: annual mean in °C. Ziegenrück (Prussia, 1848 to 1856) lies outside. Source: pp. 54 to 58."
+    "de": "Orte mit gedruckten Temperaturmitteln. Größe: Zahl der Beobachtungsjahre; Stelzen und Grumbach: nur ein Jahresmittel unbekannten Zeitraums (Pfarrämter). Ziegenrück (Preußen, 1848 bis 1856) liegt außerhalb der Karte. Quelle: S. 54 bis 58.",
+    "en": "Places with printed temperature means. Size: years of observation; Stelzen and Grumbach: a single annual mean of unknown period (parish offices). Ziegenrück (Prussia, 1848 to 1856) lies outside the map. Source: pp. 54 to 58."
    },
    "vegalite": {
     "height": 560,
@@ -16878,7 +16807,7 @@
        "style": "place-halo",
        "align": "left",
        "dx": 24,
-       "dy": -2
+       "dy": 0
       },
       "encoding": {
        "longitude": {
@@ -16905,7 +16834,7 @@
        "style": "place-halo",
        "align": "left",
        "dx": 16,
-       "dy": -2
+       "dy": 0
       },
       "encoding": {
        "longitude": {
@@ -16932,7 +16861,7 @@
        "style": "place-halo",
        "align": "left",
        "dx": 9,
-       "dy": -2
+       "dy": 0
       },
       "encoding": {
        "longitude": {
@@ -16959,7 +16888,7 @@
        "style": "place-halo",
        "align": "right",
        "dx": -14,
-       "dy": -2
+       "dy": 0
       },
       "encoding": {
        "longitude": {
@@ -16986,7 +16915,7 @@
        "style": "place-halo",
        "align": "right",
        "dx": -9,
-       "dy": -2
+       "dy": 0
       },
       "encoding": {
        "longitude": {
@@ -17013,7 +16942,7 @@
        "style": "place-label",
        "align": "left",
        "dx": 24,
-       "dy": -2
+       "dy": 0
       },
       "encoding": {
        "longitude": {
@@ -17040,7 +16969,7 @@
        "style": "place-label",
        "align": "left",
        "dx": 16,
-       "dy": -2
+       "dy": 0
       },
       "encoding": {
        "longitude": {
@@ -17067,7 +16996,7 @@
        "style": "place-label",
        "align": "left",
        "dx": 9,
-       "dy": -2
+       "dy": 0
       },
       "encoding": {
        "longitude": {
@@ -17094,7 +17023,7 @@
        "style": "place-label",
        "align": "right",
        "dx": -14,
-       "dy": -2
+       "dy": 0
       },
       "encoding": {
        "longitude": {
@@ -17121,7 +17050,7 @@
        "style": "place-label",
        "align": "right",
        "dx": -9,
-       "dy": -2
+       "dy": 0
       },
       "encoding": {
        "longitude": {
@@ -17134,161 +17063,6 @@
        },
        "text": {
         "field": "station"
-       }
-      }
-     },
-     {
-      "transform": [
-       {
-        "filter": "indexof(['Gera'], datum.station) >= 0"
-       },
-       {
-        "calculate": "format(datum.annual_c, '.1f') + ' °C'",
-        "as": "tlab"
-       }
-      ],
-      "mark": {
-       "type": "text",
-       "style": "label-muted",
-       "align": "left",
-       "dx": 24,
-       "dy": 12
-      },
-      "encoding": {
-       "longitude": {
-        "field": "lon",
-        "type": "quantitative"
-       },
-       "latitude": {
-        "field": "lat",
-        "type": "quantitative"
-       },
-       "text": {
-        "field": "tlab"
-       }
-      }
-     },
-     {
-      "transform": [
-       {
-        "filter": "indexof(['Hohenleuben', 'Schleiz'], datum.station) >= 0"
-       },
-       {
-        "calculate": "format(datum.annual_c, '.1f') + ' °C'",
-        "as": "tlab"
-       }
-      ],
-      "mark": {
-       "type": "text",
-       "style": "label-muted",
-       "align": "left",
-       "dx": 16,
-       "dy": 12
-      },
-      "encoding": {
-       "longitude": {
-        "field": "lon",
-        "type": "quantitative"
-       },
-       "latitude": {
-        "field": "lat",
-        "type": "quantitative"
-       },
-       "text": {
-        "field": "tlab"
-       }
-      }
-     },
-     {
-      "transform": [
-       {
-        "filter": "indexof(['Stelzen'], datum.station) >= 0"
-       },
-       {
-        "calculate": "format(datum.annual_c, '.1f') + ' °C'",
-        "as": "tlab"
-       }
-      ],
-      "mark": {
-       "type": "text",
-       "style": "label-muted",
-       "align": "left",
-       "dx": 9,
-       "dy": 12
-      },
-      "encoding": {
-       "longitude": {
-        "field": "lon",
-        "type": "quantitative"
-       },
-       "latitude": {
-        "field": "lat",
-        "type": "quantitative"
-       },
-       "text": {
-        "field": "tlab"
-       }
-      }
-     },
-     {
-      "transform": [
-       {
-        "filter": "indexof(['Saalburg', 'Lobenstein', 'Rothenacker'], datum.station) >= 0"
-       },
-       {
-        "calculate": "format(datum.annual_c, '.1f') + ' °C'",
-        "as": "tlab"
-       }
-      ],
-      "mark": {
-       "type": "text",
-       "style": "label-muted",
-       "align": "right",
-       "dx": -14,
-       "dy": 12
-      },
-      "encoding": {
-       "longitude": {
-        "field": "lon",
-        "type": "quantitative"
-       },
-       "latitude": {
-        "field": "lat",
-        "type": "quantitative"
-       },
-       "text": {
-        "field": "tlab"
-       }
-      }
-     },
-     {
-      "transform": [
-       {
-        "filter": "indexof(['Grumbach'], datum.station) >= 0"
-       },
-       {
-        "calculate": "format(datum.annual_c, '.1f') + ' °C'",
-        "as": "tlab"
-       }
-      ],
-      "mark": {
-       "type": "text",
-       "style": "label-muted",
-       "align": "right",
-       "dx": -9,
-       "dy": 12
-      },
-      "encoding": {
-       "longitude": {
-        "field": "lon",
-        "type": "quantitative"
-       },
-       "latitude": {
-        "field": "lat",
-        "type": "quantitative"
-       },
-       "text": {
-        "field": "tlab"
        }
       }
      }
@@ -17303,12 +17077,12 @@
     "en": "Foggy and mixed days differ between the four places by a factor of four to five"
    },
    "caption": {
-    "de": "Tage pro Jahr in Gera, Hohenleuben, Schleiz und Rothenacker. Punkte: die vier Orte, beschriftet sind der höchste und der niedrigste Wert. Niederschlagstage: Regen plus Schnee. Beobachtungsreihen von 2 bis 15 Jahren. Quelle: S. 65, 67.",
-    "en": "Days per year at Gera, Hohenleuben, Schleiz and Rothenacker. Dots: the four places; the highest and lowest values are labelled. Days with precipitation: rain plus snow. Observation series of 2 to 15 years. Source: pp. 65, 67."
+    "de": "Tage pro Jahr in Gera, Hohenleuben, Schleiz und Rothenacker; der Strich reicht vom niedrigsten zum höchsten Wert. Niederschlagstage: Regen plus Schnee. Beobachtungsreihen von 2 bis 15 Jahren. Quelle: S. 65, 67.",
+    "en": "Days per year at Gera, Hohenleuben, Schleiz and Rothenacker; the line runs from the lowest to the highest value. Precipitation days: rain plus snow. Observation series of 2 to 15 years. Source: pp. 65, 67."
    },
    "vegalite": {
     "height": {
-     "step": 44
+     "step": 40
     },
     "transform": [
      {
@@ -17330,18 +17104,14 @@
      },
      {
       "calculate": {
-       "de": "{'Niederschlag':'Niederschlagstage','Nebel':'Nebeltage','Reif':'Reiftage','bedeckt':'bedeckte Tage','gemischt':'gemischte Tage','hell':'helle Tage'}[datum.measure]",
-       "en": "{'Niederschlag':'Precipitation days','Nebel':'Foggy days','Reif':'Hoarfrost days','bedeckt':'Overcast days','gemischt':'Mixed days','hell':'Clear days'}[datum.measure]"
+       "de": "datum.measure",
+       "en": "{\"Niederschlagstage\": \"Precipitation days\", \"Nebeltage\": \"Foggy days\", \"Reiftage\": \"Hoarfrost days\", \"Bedeckte Tage\": \"Overcast days\", \"Gemischte Tage\": \"Mixed days\", \"Helle Tage\": \"Clear days\"}[datum.measure]"
       },
       "as": "mlabel"
      },
      {
-      "calculate": "format(datum.days, '.0f')",
-      "as": "dlab"
-     },
-     {
-      "calculate": "datum.station + \" \" + datum.dlab",
-      "as": "slab"
+      "calculate": "indexof([\"Niederschlagstage\", \"Nebeltage\", \"Reiftage\", \"Bedeckte Tage\", \"Gemischte Tage\", \"Helle Tage\"], datum.measure)",
+      "as": "m_order"
      }
     ],
     "encoding": {
@@ -17349,7 +17119,7 @@
       "field": "mlabel",
       "type": "nominal",
       "sort": {
-       "field": "measure_order",
+       "field": "m_order",
        "op": "min"
       },
       "axis": {
@@ -17371,8 +17141,8 @@
         "type": "quantitative",
         "scale": {
          "domain": [
-          -75,
-          300
+          0,
+          250
          ]
         },
         "axis": {
@@ -17386,10 +17156,9 @@
           100,
           150,
           200,
-          250,
-          300
+          250
          ],
-         "grid": false
+         "grid": true
         }
        },
        "x2": {
@@ -17399,15 +17168,31 @@
      },
      {
       "mark": {
-       "type": "point",
-       "filled": true,
-       "size": 60,
-       "color": "@muted"
+       "type": "circle",
+       "size": 150,
+       "opacity": 1
       },
       "encoding": {
        "x": {
         "field": "days",
         "type": "quantitative"
+       },
+       "color": {
+        "field": "station",
+        "type": "nominal",
+        "scale": {
+         "domain": [
+          "Gera",
+          "Hohenleuben",
+          "Schleiz",
+          "Rothenacker"
+         ]
+        },
+        "legend": {
+         "title": null,
+         "orient": "top",
+         "symbolType": "circle"
+        }
        },
        "tooltip": [
         {
@@ -17433,93 +17218,6 @@
          "format": ".1f"
         }
        ]
-      }
-     },
-     {
-      "transform": [
-       {
-        "filter": "datum.days == datum.dmax || datum.days == datum.dmin"
-       }
-      ],
-      "mark": {
-       "type": "point",
-       "filled": true,
-       "size": 110,
-       "color": "@accent"
-      },
-      "encoding": {
-       "x": {
-        "field": "days",
-        "type": "quantitative"
-       },
-       "tooltip": [
-        {
-         "field": "station",
-         "title": {
-          "de": "Ort",
-          "en": "Place"
-         }
-        },
-        {
-         "field": "measure",
-         "title": {
-          "de": "Größe",
-          "en": "Measure"
-         }
-        },
-        {
-         "field": "days",
-         "title": {
-          "de": "Tage pro Jahr",
-          "en": "Days per year"
-         },
-         "format": ".1f"
-        }
-       ]
-      }
-     },
-     {
-      "transform": [
-       {
-        "filter": "datum.days == datum.dmax"
-       }
-      ],
-      "mark": {
-       "type": "text",
-       "style": "label",
-       "align": "left",
-       "dx": 10
-      },
-      "encoding": {
-       "x": {
-        "field": "days",
-        "type": "quantitative"
-       },
-       "text": {
-        "field": "slab"
-       }
-      }
-     },
-     {
-      "transform": [
-       {
-        "filter": "datum.days == datum.dmin"
-       }
-      ],
-      "mark": {
-       "type": "text",
-       "style": "label",
-       "align": "right",
-       "dx": -10
-      },
-      "encoding": {
-       "x": {
-        "field": "days",
-        "type": "quantitative"
-       },
-       "text": {
-        "field": "slab"
-       }
       }
      }
     ]
@@ -17560,7 +17258,6 @@
   "relief-hoehen",
   "phaenologie"
  ],
- "generated_by": "Claude Sonnet 5.5 (Agent F2), aus 5 Einzelauswertungen zusammengeführt",
  "date": "2026-10-02",
  "transcription_issues": [
   {

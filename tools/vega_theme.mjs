@@ -1,23 +1,23 @@
 // Shared Vega config for every chart in the edition (light + dark).
-// Categorical slots: reference palette validated against the edition's paper
-// surface #fbf8f1 (light) and #1d1b18 (dark) with the dataviz validator:
-// all checks pass (adjacent CVD dE >= 9.1 light / 8.4 dark). Three light slots
-// sit below 3:1 contrast -> charts always ship a data table (relief rule).
+// Categorical slots are ink and pigment hues (Prussian blue, rust, verdigris, plum, olive, indigo, ochre, crimson),
+// validated with the dataviz validator against the paper #fbf8f1 and the dark ground #1d1b18:
+// lightness band, chroma floor, adjacent CVD separation >= 8.7, normal-vision floor >= 15 and 3:1 contrast all pass.
 export const PALETTE = {
-  light: ['#2a78d6', '#eb6834', '#1baf7a', '#eda100', '#e87ba4', '#008300', '#4a3aa7', '#e34948'],
-  dark: ['#3987e5', '#d95926', '#199e70', '#c98500', '#d55181', '#008300', '#9085e9', '#e66767'],
+  light: ['#2f6aa6', '#c0582c', '#278a6c', '#8e4f9a', '#6a7f1c', '#3a4f8f', '#b07d0c', '#b8393f'],
+  dark: ['#5288c8', '#d06a36', '#36a07f', '#a46cb2', '#86993a', '#6e7fc8', '#b88b22', '#d4566a'],
 };
-const BLUES = ['#cde2fb', '#b7d3f6', '#9ec5f4', '#86b6ef', '#6da7ec', '#5598e7', '#3987e5', '#2a78d6', '#256abf', '#1c5cab', '#184f95', '#104281', '#0d366b'];
-const DIVERGING = ['#104281', '#2a78d6', '#86b6ef', '#f0efec', '#f19a99', '#e34948', '#a8282a'];
-const DIVERGING_DARK = ['#86b6ef', '#3987e5', '#1c5cab', '#383835', '#b13b3b', '#e66767', '#f2a7a7'];
+const BLUES = ['#e6edf4', '#c7d7e8', '#a8c1db', '#8aabce', '#6d95c1', '#4f7fb4', '#2f6aa6', '#295e94', '#235282', '#1e4671', '#183b60', '#133050', '#0e2540'];
+const BLUES_DARK = ['#dbe6f2', '#bcd1e9', '#9ebce0', '#80a7d7', '#6192cd', '#4c7eb9', '#3f6a9c', '#345680', '#284466', '#1d324c'];
+const DIVERGING = ['#17365c', '#2f6aa6', '#9db8d3', '#ece6db', '#e3a99a', '#b8393f', '#6e1c22'];
+const DIVERGING_DARK = ['#a9c3df', '#5288c8', '#2a4d78', '#3a3630', '#7a2a2f', '#d4566a', '#efaab2'];
 
 // Colour tokens usable in specs ("@accent", "@context" ...): replaced per light/dark mode at compile time,
 // so highlight-and-context designs keep working in dark mode.
 export const TOKENS = {
-  light: { ink: '#1e1b17', ink2: '#4a443b', muted: '#8a8274', context: '#c9c0b0', accent: '#2a78d6', accent2: '#eb6834', accent3: '#1baf7a',
-    paper: '#fbf8f1', land: '#ddd5c4', river: '#8fb3d9', positive: '#2a78d6', negative: '#e34948' },
-  dark: { ink: '#ede6d8', ink2: '#cdc4b4', muted: '#9c9382', context: '#4f4a42', accent: '#3987e5', accent2: '#d95926', accent3: '#199e70',
-    paper: '#1d1b18', land: '#3a352e', river: '#2f5f8f', positive: '#3987e5', negative: '#e66767' },
+  light: { ink: '#1e1b17', ink2: '#4a443b', muted: '#8a8274', context: '#cbc2b1', accent: PALETTE.light[0], accent2: PALETTE.light[1], accent3: PALETTE.light[2],
+    paper: '#fbf8f1', land: '#e4dccb', river: '#8eacc8', positive: PALETTE.light[0], negative: PALETTE.light[7] },
+  dark: { ink: '#ede6d8', ink2: '#cdc4b4', muted: '#9c9382', context: '#4f4a42', accent: PALETTE.dark[0], accent2: PALETTE.dark[1], accent3: PALETTE.dark[2],
+    paper: '#1d1b18', land: '#3a352e', river: '#3d6386', positive: PALETTE.dark[0], negative: PALETTE.dark[7] },
 };
 
 export function applyTokens(node, mode = 'light') {
@@ -37,8 +37,8 @@ export function theme(mode = 'light') {
   const tk = TOKENS[dark ? 'dark' : 'light'];
   const ink2 = tk.ink2;
   const muted = tk.muted;
-  const grid = dark ? '#2c2c2a' : '#e8e3d8';
-  const axis = dark ? '#383835' : '#c9c2b2';
+  const grid = dark ? '#2e2a25' : '#ebe5d9';
+  const axis = dark ? '#4a443b' : '#c9c0ae';
   const font = '"Source Sans 3", system-ui, -apple-system, "Segoe UI", sans-serif';
   return {
     background: null,
@@ -46,7 +46,7 @@ export function theme(mode = 'light') {
     padding: 4,
     autosize: { type: 'fit-x', contains: 'padding' },
     view: { stroke: null, continuousHeight: 300 },
-    title: { color: dark ? '#ffffff' : '#0b0b0b', font, fontSize: 14, fontWeight: 600, anchor: 'start', offset: 10 },
+    title: { color: tk.ink, font, fontSize: 14, fontWeight: 600, anchor: 'start', offset: 10 },
     axis: {
       labelColor: ink2, titleColor: ink2, labelFont: font, titleFont: font,
       labelFontSize: 12, titleFontSize: 12, titleFontWeight: 500,
@@ -63,9 +63,9 @@ export function theme(mode = 'light') {
     header: { labelColor: ink2, titleColor: ink2, labelFont: font, titleFont: font, labelFontSize: 12 },
     range: {
       category: dark ? PALETTE.dark : PALETTE.light,
-      ordinal: BLUES.slice(3, 12),
-      ramp: dark ? BLUES.slice(2).reverse() : BLUES,
-      heatmap: dark ? BLUES.slice(2).reverse() : BLUES,
+      ordinal: dark ? BLUES_DARK.slice(1, 9).reverse() : BLUES.slice(3, 12),
+      ramp: dark ? BLUES_DARK.slice().reverse() : BLUES,
+      heatmap: dark ? BLUES_DARK.slice().reverse() : BLUES,
       diverging: dark ? DIVERGING_DARK : DIVERGING,
     },
     line: { strokeWidth: 2, strokeCap: 'round', strokeJoin: 'round' },

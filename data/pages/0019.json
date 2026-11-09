@@ -646,7 +646,7 @@
      "Schornstein."
     ],
     [
-     "Rödersdorf",
+     "Rüdersdorf",
      "29° 38' 7,25'' „ L.",
      "50° 53' 51,17'' „ Br.",
      "Holländ. Mühle."
@@ -1019,7 +1019,7 @@
      "role": "body",
      "cells": [
       {
-       "text": "Lobenstein=Ebersdorf",
+       "text": "Lobenstein-Ebersdorf",
        "spans": [
         [
          0,
@@ -1057,7 +1057,7 @@
      ""
     ],
     [
-     "Lobenstein=Ebersdorf",
+     "Lobenstein-Ebersdorf",
      "= 7,75",
      "„",
      ""
@@ -1089,6 +1089,11 @@
  ],
  "footnotes": [],
  "corrections": [
+  {
+   "rule": "fraktur_double_hyphen",
+   "before": "Lobenstein=Ebersdorf",
+   "after": "Lobenstein-Ebersdorf"
+  },
   {
    "rule": "facsimile_correction",
    "before": "Rödersdorf",

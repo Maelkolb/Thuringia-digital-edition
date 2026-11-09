@@ -199,39 +199,51 @@ vertebrates = cd["birds"]["species"] + cd["mammals"]["species"] + cd["fish"]["sp
 print("vertebrates", vertebrates)
 
 # ---------------------------------------------------------------- vega-lite specs
-KIND_COLOR = {"field": {"de": "kind_short_de", "en": "kind_short_en"}, "type": "nominal", "sort": {"field": "kind_order", "op": "min"}, "scale": {"range": ["@negative", "@positive"]}}
+KIND_COLOR = {"field": {"de": "kind_de", "en": "kind_en"}, "type": "nominal", "sort": {"field": "kind_order", "op": "min"}, "scale": {"range": ["@negative", "@positive"]}}
+LOSS = "Verlust oder Rückgang"
 
+ROW_OFFSET = 8
 c1 = {
-    "height": {"step": 23},
-    "transform": [{"filter": "datum.kind_key != 'event'"}],
+    "height": {"step": 34},
+    "padding": {"left": 4, "top": 4, "bottom": 4, "right": 104},
+    "transform": [{"filter": "datum.kind_de != 'Ereignis oder Zustand'"}],
     "encoding": {
         "y": {
             "field": {"de": "label_de", "en": "label_en"},
             "type": "nominal",
             "sort": {"field": "chart_order", "op": "min"},
-            "axis": {"title": None, "labelLimit": 320, "grid": True},
+            "axis": None,
         },
     },
     "layer": [
         {
+            "mark": {"type": "text", "align": "left", "baseline": "bottom", "dy": -1, "fontSize": 12, "color": "@ink"},
+            "encoding": {"x": {"value": 0}, "text": {"field": {"de": "label_de", "en": "label_en"}}},
+        },
+        {
+            "transform": [{"calculate": "1700", "as": "axis_start"}],
+            "mark": {"type": "rule", "color": "@context", "strokeWidth": 1, "yOffset": ROW_OFFSET},
+            "encoding": {"x": {"field": "axis_start", "type": "quantitative", "scale": {"domain": [1700, 1870], "nice": False, "zero": False}}, "x2": {"field": "year_from"}},
+        },
+        {
             "transform": [{"filter": "datum.year_from != datum.year_to"}],
-            "mark": {"type": "rule", "strokeWidth": 7, "strokeCap": "round", "opacity": 0.3},
+            "mark": {"type": "rule", "strokeWidth": 7, "strokeCap": "round", "opacity": 0.3, "yOffset": ROW_OFFSET},
             "encoding": {
                 "x": {
                     "field": "year_from",
                     "type": "quantitative",
-                    "scale": {"domain": [1700, 1925], "nice": False},
+                    "scale": {"domain": [1700, 1870], "nice": False},
                     "axis": {"format": "d", "values": [1700, 1750, 1800, 1850], "title": None, "grid": True},
                 },
                 "x2": {"field": "year_to"},
-                "color": {"condition": {"test": "datum.kind_key == 'loss'", "value": "@negative"}, "value": "@positive"},
+                "color": {"condition": {"test": f"datum.kind_de == '{LOSS}'", "value": "@negative"}, "value": "@positive"},
             },
         },
         {
-            "mark": {"type": "circle", "size": 110},
+            "mark": {"type": "circle", "size": 110, "yOffset": ROW_OFFSET},
             "encoding": {
                 "x": {"field": "year_ref", "type": "quantitative"},
-                "color": {**KIND_COLOR, "legend": None},
+                "color": {**KIND_COLOR, "legend": {"title": None, "orient": "top"}},
                 "tooltip": [
                     tip({"de": "label_de", "en": "label_en"}, "Angabe", "Entry"),
                     tip({"de": "year_label_de", "en": "year_label_en"}, "Zeit", "Time"),
@@ -241,29 +253,11 @@ c1 = {
             },
         },
         {
-            "mark": {"type": "text", "style": "label-muted", "align": "left", "dx": 11},
+            "mark": {"type": "text", "style": "label-muted", "align": "left", "dx": 11, "yOffset": ROW_OFFSET},
             "encoding": {
                 "x": {"field": "year_to", "type": "quantitative"},
                 "text": {"field": {"de": "year_label_de", "en": "year_label_en"}},
                 "color": {"value": "@ink2"},
-            },
-        },
-        {
-            "transform": [{"filter": "datum.label_de == 'Luchs ausgerottet'"}],
-            "mark": {"type": "text", "style": "label", "align": "left"},
-            "encoding": {
-                "x": {"datum": 1795},
-                "text": {"value": bi("Verlust oder Rückgang", "Loss or decline")},
-                "color": {"value": "@negative"},
-            },
-        },
-        {
-            "transform": [{"filter": "datum.label_de == 'Rohrammer im Oberland'"}],
-            "mark": {"type": "text", "style": "label", "align": "left"},
-            "encoding": {
-                "x": {"datum": 1715},
-                "text": {"value": bi("Zuwanderung oder Zunahme", "Arrival or increase")},
-                "color": {"value": "@positive"},
             },
         },
     ],
@@ -303,7 +297,7 @@ c2 = {
         },
         {
             "transform": [{"filter": "isValid(datum.note_de)"}],
-            "mark": {"type": "text", "style": "annotation", "align": "left"},
+            "mark": {"type": "text", "style": "annotation", "align": "left", "opacity": {"expr": "width < 600 ? 0 : 1"}},
             "encoding": {
                 "x": {"datum": 8.6},
                 "text": {"field": {"de": "note_de", "en": "note_en"}},
@@ -326,16 +320,24 @@ c3 = {
             "field": {"de": "water_label_de", "en": "water_label_en"},
             "type": "nominal",
             "sort": {"field": "water_order", "op": "min"},
-            "axis": {"title": None, "orient": "top", "labelAngle": 0, "labelFontSize": 12, "labelFontWeight": 600},
+            "axis": {
+                "title": None,
+                "orient": "top",
+                "labelAngle": 0,
+                "labelFontSize": 12,
+                "labelFontWeight": 600,
+                "labelExpr": "width < 640 ? [substring(datum.label, 0, indexof(datum.label, ' (')), substring(datum.label, indexof(datum.label, ' (') + 1)] : datum.label",
+                "labelPadding": {"expr": "width < 640 ? 18 : 4"},
+            },
         },
     },
     "layer": [
         {
-            "transform": [{"filter": "datum.mark_key == 'none'"}],
+            "transform": [{"filter": "datum.mark_de == 'nicht angegeben'"}],
             "mark": {"type": "circle", "size": 14, "color": "@context"},
         },
         {
-            "transform": [{"filter": "datum.mark_key != 'none'"}],
+            "transform": [{"filter": "datum.mark_de != 'nicht angegeben'"}],
             "mark": {"type": "circle", "size": 85},
             "encoding": {
                 "color": {
@@ -374,11 +376,11 @@ print(words(summary_de), words(summary_en))
 wolf = next(d for d in shown if d["label_de"] == "Wolf ausgerottet")
 rotwild = next(d for d in shown if d["label_de"].startswith("Rotwild"))
 finding1_de = (
-    f"Die letzten drei Bären und die Luchse fallen um 1730, die Wölfe zwischen 1750 und 1769 (abgeleitet). Das Rotwild fehlt im Unterland seit {rotwild['year_ref']}. "
+    f"Die letzten drei Bären und die Luchse wurden um 1730 erlegt, die Wölfe zwischen 1750 und 1769 (abgeleitet). Das Rotwild fehlt im Unterland seit {rotwild['year_ref']}. "
     f"Alle {len(gains)} Zunahmen betreffen Vögel."
 )
 finding1_en = (
-    f"The last three bears and the lynxes fall around 1730, the wolves between 1750 and 1769 (derived). Red deer have been absent from the Unterland since {rotwild['year_ref']}. "
+    f"The last three bears and the lynxes were killed around 1730, the wolves between 1750 and 1769 (derived). Red deer have been absent from the Unterland since {rotwild['year_ref']}. "
     f"All {len(gains)} increases concern birds."
 )
 finding2_de = (
@@ -418,8 +420,8 @@ caption_c1 = bi(
     f"Dated changes according to Brückner. Dot: year or middle of the span, bar: span. Relative statements (“for five years”) are counted back from 1869. Further events without a change in numbers ({len(events)}) are in the table only. Pp. 82–90, 831.",
 )
 caption_c2 = bi(
-    f"Jeder Punkt ist ein Flur- oder Ortsname, den Brückner einem Tier zuordnet ({total_names} Namen, {len(count)} Tiere); rot: Tiere, die nach ihm ausgerottet sind oder verschwunden. S. 82–83.",
-    f"Each dot is a field or place name that Brückner assigns to an animal ({total_names} names, {len(count)} animals); red: animals that he says are exterminated or gone. Pp. 82–83.",
+    f"Jeder Punkt ist ein Flur- oder Ortsname, den Brückner einem Tier zuordnet ({total_names} Namen, {len(count)} Tiere); hervorgehoben: Tiere, die nach ihm ausgerottet sind oder verschwunden. S. 82–83.",
+    f"Each dot is a field or place name that Brückner assigns to an animal ({total_names} names, {len(count)} animals); highlighted: animals that he says are exterminated or gone. Pp. 82–83.",
 )
 caption_c3 = bi(
     "Brückners Tabelle der Fische nach Gewässern. Jede Zeile eine Art, sortiert nach Zahl der Gewässer; heutige Namen nur, wo die Zuordnung sicher ist. »Rückgang«: Angabe wie »jetzt sehr selten« oder »früher«. S. 87–88.",
@@ -431,21 +433,21 @@ method_de = (
     "Die Tiernamen in Flur- und Ortsnamen stammen aus Brückners Liste auf S. 82 und wurden nach dem Wortstamm einem Tier zugeordnet; ob ein Tier im Land vorkommt, richtet sich nach seinen Aussagen auf S. 82–83. "
     "Die Fischtabelle (S. 87–88, 34 Arten mal 4 Gewässer) wurde vollständig übernommen. Eine Angabe gilt als Rückgang, wenn sie »jetzt«, »früher« oder »sonst« enthält. Die heutigen Namen gelten nur dort, wo die Zuordnung sicher ist. "
     "Die Artenzahlen nach Tiergruppen stehen in der ergänzenden Tabelle; sie sind teils ungefähre Angaben (Vögel »ca. 280«) und gelten bei den Schmetterlingen nur für die Umgebung von Zeulenroda. "
-    "Die Auswertungen der Vogelarten nach Unterland und Oberland, der Zugzeiten und der seltenen Gäste sind in dieses Stück nicht eingegangen."
+    "Brückners Angaben zu den Vogelarten nach Unter- und Oberland, zu den Zugzeiten und zu seltenen Gästen sind hier nicht ausgewertet."
 )
 method_en = (
     "The timeline gathers all statements to which Brückner attaches a year or a relative time reference (pp. 82–90, 831). Relative statements such as “for 60 years” were converted into an approximate year counted back from 1869; they are marked as derived. "
     "The animal names in field and place names come from Brückner’s list on p. 82 and were assigned to an animal by their word stem; whether an animal occurs in the country follows his statements on pp. 82–83. "
     "The fish table (pp. 87–88, 34 species by 4 waters) was taken over completely. An entry counts as a decline if it contains “now”, “formerly” or “otherwise”. Modern names are given only where the identification is certain. "
     "The species counts by animal group are in the supplementary table; some are approximate (birds “ca. 280”) and apply to butterflies and moths only for the area around Zeulenroda. "
-    "The analyses of bird species by Unterland and Oberland, of arrival times and of rare visitors were not carried into this piece."
+    "Brückner’s information on bird species by Unterland and Oberland, on migration times and on rare visitors is not analysed here."
 )
 print(words(method_de), words(method_en))
 
 caveats = [
     bi(
-        "Die Jahre der Zeitleiste sind Näherungen: Bei »seit fünf Jahren« beträgt die Unsicherheit ein bis zwei Jahre, bei »einige Jahrzehnte darauf« und »seit 60 Jahren« zehn Jahre und mehr. Die Häufung jüngerer Vogelbeobachtungen spiegelt vermutlich die Beobachtungszeit Brückners und seiner Gewährsleute.",
-        "The years in the timeline are approximations: for “for five years” the uncertainty is one to two years, for “some decades later” and “for 60 years” ten years or more. The cluster of recent bird observations probably reflects the period in which Brückner and his informants were observing.",
+        "Die Jahre der Zeitleiste sind Näherungen: Bei »seit fünf Jahren« beträgt die Unsicherheit ein bis zwei Jahre, bei »einige Jahrzehnte darauf« und »seit 60 Jahren« zehn Jahre und mehr. Die Häufung jüngerer Vogelbeobachtungen geht vermutlich auf die Beobachtungszeit Brückners und seiner Gewährsleute zurück.",
+        "The years in the timeline are approximations: for “for five years” the uncertainty is one to two years, for “some decades later” and “for 60 years” ten years or more. The cluster of recent bird observations is probably due to the period in which Brückner and his informants were observing.",
     ),
     bi(
         "Namen wie Ebersberg, Ebersdorf, Starenburg oder Falkenberg können auf Personen- oder Burgnamen zurückgehen; Brückner wertet alle als Zeugnisse der Fauna. Die Namen sind nicht datiert, Flur- und Ortsnamen sind nicht getrennt.",
@@ -457,7 +459,7 @@ caveats = [
     ),
     bi(
         "Die Artenzahlen sind sehr unterschiedlich belastbar: Säugetiere, Reptilien und Fische sind Landeszahlen, die Vögel eine Schätzung, die Schmetterlinge gelten nur für einen Teil des Landes. Brückner hält die Schmetterlingszahl selbst für zu klein.",
-        "The species counts differ greatly in reliability: mammals, reptiles and fish are national figures, birds an estimate, and the butterflies apply to part of the country only. Brückner himself considers the butterfly figure too small.",
+        "The species counts differ greatly in reliability: mammals, reptiles and fish are figures for the whole principality, birds an estimate, and the butterflies apply to part of the country only. Brückner himself considers the butterfly figure too small.",
     ),
 ]
 
@@ -472,7 +474,12 @@ feature = {
     "findings": [bi(finding1_de, finding1_en), bi(finding2_de, finding2_en), bi(finding3_de, finding3_en)],
     "method": bi(method_de, method_en),
     "caveats": caveats,
-    "datasets": [changes, names, fish, counts],
+    "datasets": [
+        drop_columns(changes, {"kind_key"}),
+        names,
+        drop_columns(fish, {"water_key", "status_key", "mark_key"}),
+        drop_columns(counts, {"group_key"}),
+    ],
     "charts": [
         {"id": "c1", "dataset": "timeline", "title": title_c1, "caption": caption_c1, "vegalite": c1},
         {"id": "c2", "dataset": "names", "title": title_c2, "caption": caption_c2, "vegalite": c2},
@@ -483,7 +490,6 @@ feature = {
         "en": ["fauna", "wolf", "bear", "lynx", "fish", "field names", "extinction", "birds", "Saale", "Elster"],
     },
     "related": ["phaenologie", "pflanzenwelt", "gewaesser", "ortsnamen"],
-    "generated_by": GENERATED_BY.format(k=len(MERGES)),
     "date": DATE,
 }
 ti = union_issues(*MERGES)

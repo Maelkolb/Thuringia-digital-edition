@@ -33,8 +33,8 @@
   }
  ],
  "summary": {
-  "de": "Die Viehzählungen von 1843 bis 1867 zeigen eine Verschiebung: Die Zahl der Ziegen stieg um 94 Prozent, die der Schweine um 49 und die der Pferde um 34 Prozent, die der Rinder nur um 4 Prozent, während die der Schafe um 23 Prozent auf 30.117 zurückging. Das Unterland hielt Schafe und Pferde, das Oberland Rinder und Ziegen.",
-  "en": "The livestock counts from 1843 to 1867 show a shift: goats increased by 94 percent, pigs by 49 and horses by 34 percent, cattle by only 4 percent, while sheep fell by 23 percent to 30,117. The Unterland kept sheep and horses, the Oberland cattle and goats."
+  "de": "Zwischen den Viehzählungen von 1843 und 1867 stieg die Zahl der Ziegen um 94 Prozent, die der Schweine um 49 und die der Pferde um 34 Prozent, die der Rinder nur um 4 Prozent, während die der Schafe um 23 Prozent auf 30.117 zurückging. Das Unterland hielt Schafe und Pferde, das Oberland Rinder und Ziegen.",
+  "en": "Between the livestock counts of 1843 and 1867 the number of goats rose by 94 percent, pigs by 49 and horses by 34 percent, cattle by only 4 percent, while sheep fell by 23 percent to 30,117. The Unterland kept sheep and horses, the Oberland cattle and goats."
  },
  "findings": [
   {
@@ -1396,15 +1396,6 @@
    },
    "columns": [
     {
-     "name": "place_id",
-     "label": {
-      "de": "Kennung",
-      "en": "ID"
-     },
-     "type": "string",
-     "unit": null
-    },
-    {
      "name": "name",
      "label": {
       "de": "Ort",
@@ -1490,7 +1481,7 @@
      "type": "string",
      "unit": null,
      "derived": true,
-     "note": "schafe = mehr Schafe als Rinder; rinder = gleich viele oder mehr Rinder; Städte ausgenommen"
+     "note": "Schafe = mehr Schafe als Rinder; Rinder = gleich viele oder mehr Rinder; bei Städten leer"
     },
     {
      "name": "tiere",
@@ -1545,7 +1536,6 @@
    ],
    "rows": [
     [
-     "ernsee",
      "Ernsee",
      "Gera",
      "Dorf",
@@ -1554,7 +1544,7 @@
      84,
      413,
      7,
-     "schafe",
+     "Schafe",
      497,
      12.03891,
      50.87798,
@@ -1562,7 +1552,6 @@
      "b3"
     ],
     [
-     "untermhaus",
      "Untermhaus",
      "Gera",
      "Dorf",
@@ -1571,7 +1560,7 @@
      33,
      null,
      16,
-     "rinder",
+     "Rinder",
      33,
      12.06524,
      50.88509,
@@ -1579,7 +1568,6 @@
      "b2"
     ],
     [
-     "cuba",
      "Cuba",
      "Gera",
      "Dorf",
@@ -1588,7 +1576,7 @@
      19,
      12,
      4,
-     "rinder",
+     "Rinder",
      31,
      null,
      null,
@@ -1596,7 +1584,6 @@
      "b2"
     ],
     [
-     "roschitz",
      "Roschitz",
      "Gera",
      "Dorf",
@@ -1605,7 +1592,7 @@
      39,
      74,
      4,
-     "schafe",
+     "Schafe",
      113,
      null,
      null,
@@ -1613,7 +1600,6 @@
      "b3"
     ],
     [
-     "tinz",
      "Tinz",
      "Gera",
      "Dorf",
@@ -1622,7 +1608,7 @@
      121,
      300,
      6,
-     "schafe",
+     "Schafe",
      421,
      12.07493,
      50.90055,
@@ -1630,7 +1616,6 @@
      "b2"
     ],
     [
-     "bieblach",
      "Bieblach",
      "Gera",
      "Dorf",
@@ -1639,7 +1624,7 @@
      122,
      654,
      4,
-     "schafe",
+     "Schafe",
      776,
      12.08855,
      50.89626,
@@ -1647,7 +1632,6 @@
      "b2"
     ],
     [
-     "gera",
      "Gera",
      "Gera",
      "Stadt",
@@ -1664,7 +1648,6 @@
      "b1"
     ],
     [
-     "debschwitz",
      "Debschwitz",
      "Gera",
      "Dorf",
@@ -1673,7 +1656,7 @@
      100,
      null,
      12,
-     "rinder",
+     "Rinder",
      100,
      12.07228,
      50.85622,
@@ -1681,7 +1664,6 @@
      "b2"
     ],
     [
-     "pforten",
      "Pforten",
      "Gera",
      "Dorf",
@@ -1690,7 +1672,7 @@
      69,
      null,
      16,
-     "rinder",
+     "Rinder",
      69,
      null,
      null,
@@ -1698,7 +1680,6 @@
      "b2"
     ],
     [
-     "zwoetzen",
      "Zwötzen",
      "Gera",
      "Dorf",
@@ -1707,7 +1688,7 @@
      92,
      203,
      42,
-     "schafe",
+     "Schafe",
      295,
      12.08635,
      50.84858,
@@ -1715,7 +1696,6 @@
      "b2"
     ],
     [
-     "lusan",
      "Lusan",
      "Gera",
      "Dorf",
@@ -1724,7 +1704,7 @@
      120,
      218,
      10,
-     "schafe",
+     "Schafe",
      338,
      12.06517,
      50.84372,
@@ -1732,7 +1712,6 @@
      "b2"
     ],
     [
-     "oberroeppisch",
      "Oberröppisch",
      "Gera",
      "Dorf",
@@ -1741,7 +1720,7 @@
      110,
      162,
      4,
-     "schafe",
+     "Schafe",
      272,
      12.06667,
      50.83333,
@@ -1749,7 +1728,6 @@
      "b2"
     ],
     [
-     "zeulsdorf",
      "Zeulsdorf",
      "Gera",
      "Dorf",
@@ -1758,7 +1736,7 @@
      69,
      225,
      4,
-     "schafe",
+     "Schafe",
      294,
      12.04795,
      50.84193,
@@ -1766,7 +1744,6 @@
      "b2"
     ],
     [
-     "weissig",
      "Weißig",
      "Gera",
      "Dorf",
@@ -1775,7 +1752,7 @@
      100,
      155,
      4,
-     "schafe",
+     "Schafe",
      255,
      12.02747,
      50.83816,
@@ -1783,7 +1760,6 @@
      "b2"
     ],
     [
-     "duerrenebersdorf",
      "Dürrenebersdorf",
      "Gera",
      "Dorf",
@@ -1792,7 +1768,7 @@
      118,
      null,
      20,
-     "rinder",
+     "Rinder",
      118,
      12.02836,
      50.85045,
@@ -1800,7 +1776,6 @@
      "b2"
     ],
     [
-     "gorlitzsch",
      "Gorlitzsch",
      "Gera",
      "Dorf",
@@ -1809,7 +1784,7 @@
      26,
      15,
      4,
-     "rinder",
+     "Rinder",
      41,
      12.03906,
      50.83025,
@@ -1817,7 +1792,6 @@
      "b2"
     ],
     [
-     "hundhaupten",
      "Hundhaupten",
      "Gera",
      "Dorf",
@@ -1826,7 +1800,7 @@
      141,
      234,
      19,
-     "schafe",
+     "Schafe",
      375,
      11.98333,
      50.83333,
@@ -1834,7 +1808,6 @@
      "b2"
     ],
     [
-     "schoena",
      "Schöna",
      "Gera",
      "Dorf",
@@ -1843,7 +1816,7 @@
      125,
      159,
      5,
-     "schafe",
+     "Schafe",
      284,
      11.96536,
      50.84111,
@@ -1851,7 +1824,6 @@
      "b2"
     ],
     [
-     "waltersdorf",
      "Waltersdorf",
      "Gera",
      "Dorf",
@@ -1860,7 +1832,7 @@
      178,
      242,
      39,
-     "schafe",
+     "Schafe",
      420,
      11.93342,
      50.84965,
@@ -1868,7 +1840,6 @@
      "b2"
     ],
     [
-     "kleinsaara",
      "Kleinsaara",
      "Gera",
      "Dorf",
@@ -1877,7 +1848,7 @@
      79,
      200,
      23,
-     "schafe",
+     "Schafe",
      279,
      11.95847,
      50.85396,
@@ -1885,7 +1856,6 @@
      "b2"
     ],
     [
-     "grosssaara",
      "Großsaara",
      "Gera",
      "Dorf",
@@ -1894,7 +1864,7 @@
      165,
      350,
      22,
-     "schafe",
+     "Schafe",
      515,
      11.97677,
      50.85724,
@@ -1902,7 +1872,6 @@
      "b2"
     ],
     [
-     "geissen",
      "Geißen",
      "Gera",
      "Dorf",
@@ -1911,7 +1880,7 @@
      102,
      260,
      1,
-     "schafe",
+     "Schafe",
      362,
      12.00052,
      50.8617,
@@ -1919,7 +1888,6 @@
      "b2"
     ],
     [
-     "langengrobsdorf",
      "Langengrobsdorf",
      "Gera",
      "Dorf",
@@ -1928,7 +1896,7 @@
      51,
      70,
      10,
-     "schafe",
+     "Schafe",
      121,
      12.01049,
      50.85321,
@@ -1936,7 +1904,6 @@
      "b2"
     ],
     [
-     "windischenbernsdorf",
      "Windischenbernsdorf",
      "Gera",
      "Dorf",
@@ -1945,7 +1912,7 @@
      75,
      null,
      6,
-     "rinder",
+     "Rinder",
      75,
      12.01999,
      50.86418,
@@ -1953,7 +1920,6 @@
      "b2"
     ],
     [
-     "scheubengrobsdorf",
      "Scheubengrobsdorf",
      "Gera",
      "Dorf",
@@ -1962,7 +1928,7 @@
      91,
      304,
      10,
-     "schafe",
+     "Schafe",
      395,
      12.02998,
      50.86908,
@@ -1970,7 +1936,6 @@
      "b2"
     ],
     [
-     "frankenthal",
      "Frankenthal",
      "Gera",
      "Dorf",
@@ -1979,7 +1944,7 @@
      81,
      60,
      39,
-     "rinder",
+     "Rinder",
      141,
      12.01292,
      50.8778,
@@ -1987,7 +1952,6 @@
      "b2"
     ],
     [
-     "thieschitz",
      "Thieschitz",
      "Gera",
      "Dorf",
@@ -1996,7 +1960,7 @@
      78,
      127,
      16,
-     "schafe",
+     "Schafe",
      205,
      12.04424,
      50.9046,
@@ -2004,7 +1968,6 @@
      "b2"
     ],
     [
-     "milbitz",
      "Milbitz",
      "Gera",
      "Dorf",
@@ -2013,7 +1976,7 @@
      75,
      258,
      3,
-     "schafe",
+     "Schafe",
      333,
      12.05474,
      50.90271,
@@ -2021,7 +1984,6 @@
      "b2"
     ],
     [
-     "rubitz",
      "Rubitz",
      "Gera",
      "Dorf",
@@ -2030,7 +1992,7 @@
      93,
      272,
      6,
-     "schafe",
+     "Schafe",
      365,
      12.03735,
      50.89995,
@@ -2038,7 +2000,6 @@
      "b2"
     ],
     [
-     "toeppeln",
      "Töppeln",
      "Gera",
      "Dorf",
@@ -2047,7 +2008,7 @@
      75,
      253,
      15,
-     "schafe",
+     "Schafe",
      328,
      12.00593,
      50.88993,
@@ -2055,7 +2016,6 @@
      "b3"
     ],
     [
-     "muehlsdorf",
      "Mühlsdorf",
      "Gera",
      "Dorf",
@@ -2064,7 +2024,7 @@
      101,
      82,
      12,
-     "rinder",
+     "Rinder",
      183,
      12.00989,
      50.9009,
@@ -2072,7 +2032,6 @@
      "b1"
     ],
     [
-     "poersdorf",
      "Pörsdorf",
      "Gera",
      "Dorf",
@@ -2081,7 +2040,7 @@
      114,
      130,
      8,
-     "schafe",
+     "Schafe",
      244,
      11.98894,
      50.89479,
@@ -2089,7 +2048,6 @@
      "b3"
     ],
     [
-     "niederndorf",
      "Niederndorf",
      "Gera",
      "Dorf",
@@ -2098,7 +2056,7 @@
      109,
      300,
      39,
-     "schafe",
+     "Schafe",
      409,
      11.97634,
      50.88238,
@@ -2106,7 +2064,6 @@
      "b2"
     ],
     [
-     "kaltenborn",
      "Kaltenborn",
      "Gera",
      "Dorf",
@@ -2115,7 +2072,7 @@
      101,
      60,
      3,
-     "rinder",
+     "Rinder",
      161,
      11.96111,
      50.86997,
@@ -2123,7 +2080,6 @@
      "b2"
     ],
     [
-     "harpersdorf",
      "Harpersdorf",
      "Gera",
      "Dorf",
@@ -2132,7 +2088,7 @@
      208,
      null,
      37,
-     "rinder",
+     "Rinder",
      208,
      11.94477,
      50.87775,
@@ -2140,7 +2096,6 @@
      "b2"
     ],
     [
-     "kraftsdorf",
      "Kraftsdorf",
      "Gera",
      "Dorf",
@@ -2149,7 +2104,7 @@
      239,
      null,
      41,
-     "rinder",
+     "Rinder",
      239,
      11.92944,
      50.87574,
@@ -2157,7 +2112,6 @@
      "b2"
     ],
     [
-     "ruedersdorf",
      "Rüdersdorf",
      "Gera",
      "Dorf",
@@ -2166,7 +2120,7 @@
      143,
      107,
      13,
-     "rinder",
+     "Rinder",
      250,
      11.95811,
      50.89744,
@@ -2174,7 +2128,6 @@
      "b2"
     ],
     [
-     "stuebnitz",
      "Stübnitz",
      "Gera",
      "Dorf",
@@ -2183,7 +2136,7 @@
      88,
      101,
      15,
-     "schafe",
+     "Schafe",
      189,
      11.95876,
      50.90495,
@@ -2191,7 +2144,6 @@
      "b3"
     ],
     [
-     "gruena",
      "Grüna",
      "Gera",
      "Dorf",
@@ -2200,7 +2152,7 @@
      58,
      null,
      19,
-     "rinder",
+     "Rinder",
      58,
      11.97664,
      50.90728,
@@ -2208,7 +2160,6 @@
      "b2"
     ],
     [
-     "hartmannsdorf",
      "Hartmannsdorf",
      "Gera",
      "Dorf",
@@ -2217,7 +2168,7 @@
      110,
      459,
      31,
-     "schafe",
+     "Schafe",
      569,
      12.00568,
      50.90901,
@@ -2225,7 +2176,6 @@
      "b2"
     ],
     [
-     "koestritz",
      "Köstritz",
      "Gera",
      "Dorf",
@@ -2234,7 +2184,7 @@
      285,
      823,
      82,
-     "schafe",
+     "Schafe",
      1108,
      12.01005,
      50.93032,
@@ -2242,7 +2192,6 @@
      "b2"
     ],
     [
-     "gleina",
      "Gleina",
      "Gera",
      "Dorf",
@@ -2251,7 +2200,7 @@
      108,
      7,
      18,
-     "rinder",
+     "Rinder",
      115,
      11.98587,
      50.93507,
@@ -2259,7 +2208,6 @@
      "b4"
     ],
     [
-     "seifartsdorf",
      "Seifartsdorf",
      "Gera",
      "Dorf",
@@ -2268,7 +2216,7 @@
      37,
      550,
      17,
-     "schafe",
+     "Schafe",
      587,
      11.95437,
      50.94451,
@@ -2276,7 +2224,6 @@
      "b2"
     ],
     [
-     "caaschwitz",
      "Caaschwitz",
      "Gera",
      "Dorf",
@@ -2285,7 +2232,7 @@
      192,
      5,
      37,
-     "rinder",
+     "Rinder",
      197,
      12.0,
      50.95,
@@ -2293,7 +2240,6 @@
      "b2"
     ],
     [
-     "pohlitz",
      "Pohlitz",
      "Gera",
      "Dorf",
@@ -2302,7 +2248,7 @@
      139,
      104,
      19,
-     "rinder",
+     "Rinder",
      243,
      12.02525,
      50.93905,
@@ -2310,7 +2256,6 @@
      "b2"
     ],
     [
-     "stublach",
      "Stublach",
      "Gera",
      "Dorf",
@@ -2319,7 +2264,7 @@
      103,
      230,
      3,
-     "schafe",
+     "Schafe",
      333,
      12.04433,
      50.91699,
@@ -2327,7 +2272,6 @@
      "b5"
     ],
     [
-     "langenberg",
      "Langenberg",
      "Gera",
      "Marktflecken",
@@ -2336,7 +2280,7 @@
      87,
      210,
      36,
-     "schafe",
+     "Schafe",
      297,
      12.05707,
      50.92163,
@@ -2344,7 +2288,6 @@
      "b2"
     ],
     [
-     "roben",
      "Roben",
      "Gera",
      "Dorf",
@@ -2353,7 +2296,7 @@
      145,
      3,
      16,
-     "rinder",
+     "Rinder",
      148,
      12.05413,
      50.94254,
@@ -2361,7 +2304,6 @@
      "b2"
     ],
     [
-     "steinbruecken",
      "Steinbrücken",
      "Gera",
      "Dorf",
@@ -2370,7 +2312,7 @@
      161,
      441,
      20,
-     "schafe",
+     "Schafe",
      602,
      12.04211,
      50.94769,
@@ -2378,7 +2320,6 @@
      "b2"
     ],
     [
-     "rusitz",
      "Rusitz",
      "Gera",
      "Dorf",
@@ -2387,7 +2328,7 @@
      157,
      null,
      2,
-     "rinder",
+     "Rinder",
      157,
      12.07275,
      50.93599,
@@ -2395,7 +2336,6 @@
      "b3"
     ],
     [
-     "lessen",
      "Lessen",
      "Gera",
      "Dorf",
@@ -2404,7 +2344,7 @@
      141,
      400,
      5,
-     "schafe",
+     "Schafe",
      541,
      12.06914,
      50.95815,
@@ -2412,7 +2352,6 @@
      "b2"
     ],
     [
-     "grossaga",
      "Großaga",
      "Gera",
      "Dorf",
@@ -2421,7 +2360,7 @@
      356,
      null,
      1,
-     "rinder",
+     "Rinder",
      356,
      12.08766,
      50.96637,
@@ -2429,7 +2368,6 @@
      "b2"
     ],
     [
-     "kleinaga",
      "Kleinaga",
      "Gera",
      "Dorf",
@@ -2438,7 +2376,7 @@
      189,
      564,
      5,
-     "schafe",
+     "Schafe",
      753,
      12.09221,
      50.96003,
@@ -2446,7 +2384,6 @@
      "b2"
     ],
     [
-     "reichenbach",
      "Reichenbach",
      "Gera",
      "Dorf",
@@ -2455,7 +2392,7 @@
      87,
      15,
      5,
-     "rinder",
+     "Rinder",
      102,
      null,
      null,
@@ -2463,7 +2400,6 @@
      "b3"
     ],
     [
-     "seeligenstaedt",
      "Seeligenstädt",
      "Gera",
      "Dorf",
@@ -2472,7 +2408,7 @@
      38,
      null,
      5,
-     "rinder",
+     "Rinder",
      38,
      12.09908,
      50.94686,
@@ -2480,7 +2416,6 @@
      "b2"
     ],
     [
-     "hermsdorf",
      "Hermsdorf",
      "Gera",
      "Dorf",
@@ -2489,7 +2424,7 @@
      158,
      null,
      11,
-     "rinder",
+     "Rinder",
      158,
      12.15286,
      50.96327,
@@ -2497,7 +2432,6 @@
      "b2"
     ],
     [
-     "wernsdorf-gera",
      "Wernsdorf",
      "Gera",
      "Dorf",
@@ -2506,7 +2440,7 @@
      162,
      245,
      6,
-     "schafe",
+     "Schafe",
      407,
      12.15333,
      50.94535,
@@ -2514,7 +2448,6 @@
      "b2"
     ],
     [
-     "kretzschwitz",
      "Kretzschwitz",
      "Gera",
      "Dorf",
@@ -2523,7 +2456,7 @@
      134,
      277,
      4,
-     "schafe",
+     "Schafe",
      411,
      12.12944,
      50.94074,
@@ -2531,7 +2464,6 @@
      "b1"
     ],
     [
-     "soellmnitz",
      "Söllmnitz",
      "Gera",
      "Dorf",
@@ -2540,7 +2472,7 @@
      156,
      350,
      41,
-     "schafe",
+     "Schafe",
      506,
      12.14693,
      50.93795,
@@ -2548,7 +2480,6 @@
      "b3"
     ],
     [
-     "hirschfeld",
      "Hirschfeld",
      "Gera",
      "Dorf",
@@ -2557,7 +2488,7 @@
      210,
      1,
      5,
-     "rinder",
+     "Rinder",
      211,
      12.18791,
      50.94162,
@@ -2565,7 +2496,6 @@
      "b4"
     ],
     [
-     "bethenhausen",
      "Bethenhausen",
      "Gera",
      "Dorf",
@@ -2574,7 +2504,7 @@
      80,
      null,
      5,
-     "rinder",
+     "Rinder",
      80,
      12.19957,
      50.92922,
@@ -2582,7 +2512,6 @@
      "b2"
     ],
     [
-     "naundorf",
      "Naundorf",
      "Gera",
      "Dorf",
@@ -2591,7 +2520,7 @@
      138,
      335,
      17,
-     "schafe",
+     "Schafe",
      473,
      12.2668,
      50.97763,
@@ -2599,7 +2528,6 @@
      "b2"
     ],
     [
-     "caasen",
      "Caasen",
      "Gera",
      "Dorf",
@@ -2608,7 +2536,7 @@
      49,
      126,
      4,
-     "schafe",
+     "Schafe",
      175,
      12.18054,
      50.9303,
@@ -2616,7 +2544,6 @@
      "b2"
     ],
     [
-     "groitschen",
      "Groitschen",
      "Gera",
      "Dorf",
@@ -2625,7 +2552,7 @@
      98,
      14,
      6,
-     "rinder",
+     "Rinder",
      112,
      12.16918,
      50.92254,
@@ -2633,7 +2560,6 @@
      "b2"
     ],
     [
-     "waaswitz",
      "Waaswitz",
      "Gera",
      "Dorf",
@@ -2642,7 +2568,7 @@
      86,
      null,
      7,
-     "rinder",
+     "Rinder",
      86,
      12.16613,
      50.92132,
@@ -2650,7 +2576,6 @@
      "b2"
     ],
     [
-     "culm",
      "Culm",
      "Gera",
      "Dorf",
@@ -2659,7 +2584,7 @@
      94,
      347,
      12,
-     "schafe",
+     "Schafe",
      441,
      null,
      null,
@@ -2667,7 +2592,6 @@
      "b2"
     ],
     [
-     "zschippach",
      "Zschippach",
      "Gera",
      "Dorf",
@@ -2676,7 +2600,7 @@
      133,
      337,
      11,
-     "schafe",
+     "Schafe",
      470,
      12.15008,
      50.9193,
@@ -2684,7 +2608,6 @@
      "b2"
     ],
     [
-     "dorna",
      "Dorna",
      "Gera",
      "Dorf",
@@ -2693,7 +2616,7 @@
      129,
      329,
      7,
-     "schafe",
+     "Schafe",
      458,
      12.12648,
      50.91726,
@@ -2701,7 +2624,6 @@
      "b2"
     ],
     [
-     "negis",
      "Negis",
      "Gera",
      "Dorf",
@@ -2710,7 +2632,7 @@
      114,
      227,
      5,
-     "schafe",
+     "Schafe",
      341,
      12.11439,
      50.9286,
@@ -2718,7 +2640,6 @@
      "b2"
     ],
     [
-     "schwaara",
      "Schwaara",
      "Gera",
      "Dorf",
@@ -2727,7 +2648,7 @@
      191,
      306,
      9,
-     "schafe",
+     "Schafe",
      497,
      12.14307,
      50.90347,
@@ -2735,7 +2656,6 @@
      "b2"
     ],
     [
-     "trebnitz",
      "Trebnitz",
      "Gera",
      "Dorf",
@@ -2744,7 +2664,7 @@
      237,
      391,
      15,
-     "schafe",
+     "Schafe",
      628,
      12.12944,
      50.89556,
@@ -2752,7 +2672,6 @@
      "b3"
     ],
     [
-     "laasen",
      "Laasen",
      "Gera",
      "Dorf",
@@ -2761,7 +2680,7 @@
      57,
      233,
      16,
-     "schafe",
+     "Schafe",
      290,
      12.12078,
      50.89216,
@@ -2769,7 +2688,6 @@
      "b2"
     ],
     [
-     "leumnitz",
      "Leumnitz",
      "Gera",
      "Dorf",
@@ -2778,7 +2696,7 @@
      148,
      222,
      15,
-     "schafe",
+     "Schafe",
      370,
      12.10744,
      50.88015,
@@ -2786,7 +2704,6 @@
      "b2"
     ],
     [
-     "zschippern",
      "Zschippern",
      "Gera",
      "Dorf",
@@ -2795,7 +2712,7 @@
      17,
      400,
      3,
-     "schafe",
+     "Schafe",
      417,
      12.10913,
      50.86584,
@@ -2803,7 +2720,6 @@
      "b2"
     ],
     [
-     "collis",
      "Collis",
      "Gera",
      "Dorf",
@@ -2812,7 +2728,7 @@
      69,
      276,
      3,
-     "schafe",
+     "Schafe",
      345,
      12.11874,
      50.85762,
@@ -2820,7 +2736,6 @@
      "b2"
     ],
     [
-     "kaimberg",
      "Kaimberg",
      "Gera",
      "Dorf",
@@ -2829,7 +2744,7 @@
      86,
      341,
      20,
-     "schafe",
+     "Schafe",
      427,
      12.12257,
      50.84847,
@@ -2837,7 +2752,6 @@
      "b2"
     ],
     [
-     "lichtenberg",
      "Lichtenberg",
      "Gera",
      "Dorf",
@@ -2846,7 +2760,7 @@
      82,
      390,
      10,
-     "schafe",
+     "Schafe",
      472,
      12.15,
      50.83333,
@@ -2854,7 +2768,6 @@
      "b2"
     ],
     [
-     "pohlen",
      "Pohlen",
      "Gera",
      "Dorf",
@@ -2863,7 +2776,7 @@
      142,
      10,
      6,
-     "rinder",
+     "Rinder",
      152,
      12.16456,
      50.80725,
@@ -2871,7 +2784,6 @@
      "b2"
     ],
     [
-     "kleinfalke",
      "Kleinfalke",
      "Gera",
      "Dorf",
@@ -2880,7 +2792,7 @@
      14,
      null,
      5,
-     "rinder",
+     "Rinder",
      14,
      null,
      null,
@@ -2888,7 +2800,6 @@
      "b2"
     ],
     [
-     "wuestfalke",
      "Wüstfalke",
      "Gera",
      "Dorf",
@@ -2897,7 +2808,7 @@
      52,
      294,
      13,
-     "schafe",
+     "Schafe",
      346,
      null,
      null,
@@ -2905,7 +2816,6 @@
      "b2"
     ],
     [
-     "otticha",
      "Otticha",
      "Gera",
      "Dorf",
@@ -2914,7 +2824,7 @@
      93,
      184,
      2,
-     "schafe",
+     "Schafe",
      277,
      12.11957,
      50.82454,
@@ -2922,7 +2832,6 @@
      "b2"
     ],
     [
-     "schleiz",
      "Schleiz",
      "Schleiz",
      "Stadt",
@@ -2939,7 +2848,6 @@
      "b1"
     ],
     [
-     "oberboehmsdorf",
      "Oberböhmsdorf",
      "Schleiz",
      "Dorf",
@@ -2948,7 +2856,7 @@
      378,
      401,
      73,
-     "schafe",
+     "Schafe",
      779,
      11.83176,
      50.56123,
@@ -2956,7 +2864,6 @@
      "b2"
     ],
     [
-     "oschitz",
      "Oschitz",
      "Schleiz",
      "Dorf",
@@ -2965,7 +2872,7 @@
      388,
      467,
      56,
-     "schafe",
+     "Schafe",
      855,
      11.78783,
      50.56536,
@@ -2973,7 +2880,6 @@
      "b3"
     ],
     [
-     "goerkwitz",
      "Görkwitz",
      "Schleiz",
      "Dorf",
@@ -2982,7 +2888,7 @@
      216,
      48,
      38,
-     "rinder",
+     "Rinder",
      264,
      11.78333,
      50.58333,
@@ -2990,7 +2896,6 @@
      "b6"
     ],
     [
-     "oettersdorf",
      "Oettersdorf",
      "Schleiz",
      "Dorf",
@@ -2999,7 +2904,7 @@
      468,
      389,
      56,
-     "rinder",
+     "Rinder",
      857,
      11.81667,
      50.6,
@@ -3007,7 +2912,6 @@
      "b2"
     ],
     [
-     "poermitz",
      "Pörmitz",
      "Schleiz",
      "Dorf",
@@ -3016,7 +2920,7 @@
      203,
      22,
      33,
-     "rinder",
+     "Rinder",
      225,
      11.81667,
      50.61667,
@@ -3024,7 +2928,6 @@
      "b2"
     ],
     [
-     "loehma",
      "Löhma",
      "Schleiz",
      "Dorf",
@@ -3033,7 +2936,7 @@
      292,
      192,
      38,
-     "rinder",
+     "Rinder",
      484,
      11.85202,
      50.61167,
@@ -3041,7 +2944,6 @@
      "b3"
     ],
     [
-     "goeschitz",
      "Göschitz",
      "Schleiz",
      "Dorf",
@@ -3050,7 +2952,7 @@
      201,
      219,
      31,
-     "schafe",
+     "Schafe",
      420,
      11.86667,
      50.63333,
@@ -3058,7 +2960,6 @@
      "b2"
     ],
     [
-     "roedersdorf",
      "Rödersdorf",
      "Schleiz",
      "Dorf",
@@ -3067,7 +2968,7 @@
      118,
      2,
      9,
-     "rinder",
+     "Rinder",
      120,
      11.85167,
      50.63056,
@@ -3075,7 +2976,6 @@
      "b2"
     ],
     [
-     "dittersdorf",
      "Dittersdorf",
      "Schleiz",
      "Dorf",
@@ -3084,7 +2984,7 @@
      228,
      38,
      42,
-     "rinder",
+     "Rinder",
      266,
      11.81667,
      50.65,
@@ -3092,7 +2992,6 @@
      "b2"
     ],
     [
-     "dragensdorf",
      "Dragensdorf",
      "Schleiz",
      "Dorf",
@@ -3101,7 +3000,7 @@
      91,
      53,
      7,
-     "rinder",
+     "Rinder",
      144,
      11.83354,
      50.64592,
@@ -3109,7 +3008,6 @@
      "b2"
     ],
     [
-     "tegau",
      "Tegau",
      "Schleiz",
      "Dorf",
@@ -3118,7 +3016,7 @@
      266,
      200,
      42,
-     "rinder",
+     "Rinder",
      466,
      11.86667,
      50.65,
@@ -3126,7 +3024,6 @@
      "b2"
     ],
     [
-     "burkersdorf",
      "Burkersdorf",
      "Schleiz",
      "Dorf",
@@ -3135,7 +3032,7 @@
      102,
      12,
      27,
-     "rinder",
+     "Rinder",
      114,
      11.88084,
      50.65239,
@@ -3143,7 +3040,6 @@
      "b2"
     ],
     [
-     "pahren",
      "Pahren",
      "Schleiz",
      "Dorf",
@@ -3152,7 +3048,7 @@
      173,
      530,
      48,
-     "schafe",
+     "Schafe",
      703,
      11.89638,
      50.6452,
@@ -3160,7 +3056,6 @@
      "b2"
     ],
     [
-     "kirschkau",
      "Kirschkau",
      "Schleiz",
      "Dorf",
@@ -3169,7 +3064,7 @@
      179,
      358,
      51,
-     "schafe",
+     "Schafe",
      537,
      11.88708,
      50.60487,
@@ -3177,7 +3072,6 @@
      "b4"
     ],
     [
-     "loessau",
      "Lössau",
      "Schleiz",
      "Dorf",
@@ -3186,7 +3080,7 @@
      252,
      91,
      66,
-     "rinder",
+     "Rinder",
      343,
      11.88422,
      50.58783,
@@ -3194,7 +3088,6 @@
      "b2"
     ],
     [
-     "leitlitz",
      "Leitlitz",
      "Schleiz",
      "Dorf",
@@ -3203,7 +3096,7 @@
      242,
      73,
      27,
-     "rinder",
+     "Rinder",
      315,
      11.96139,
      50.61553,
@@ -3211,7 +3104,6 @@
      "b2"
     ],
     [
-     "weckersdorf",
      "Weckersdorf",
      "Schleiz",
      "Dorf",
@@ -3220,7 +3112,7 @@
      227,
      93,
      46,
-     "rinder",
+     "Rinder",
      320,
      11.91791,
      50.61598,
@@ -3228,7 +3120,6 @@
      "b2"
     ],
     [
-     "hohenleuben",
      "Hohenleuben",
      "Schleiz",
      "Marktflecken",
@@ -3237,7 +3128,7 @@
      267,
      39,
      83,
-     "rinder",
+     "Rinder",
      306,
      12.05427,
      50.71128,
@@ -3245,7 +3136,6 @@
      "b2"
     ],
     [
-     "langenwetzendorf",
      "Langenwetzendorf",
      "Schleiz",
      "Dorf",
@@ -3254,7 +3144,7 @@
      384,
      37,
      156,
-     "rinder",
+     "Rinder",
      421,
      12.09407,
      50.67884,
@@ -3262,7 +3152,6 @@
      "b3"
     ],
     [
-     "hirschbach",
      "Hirschbach",
      "Schleiz",
      "Dorf",
@@ -3271,7 +3160,7 @@
      18,
      null,
      12,
-     "rinder",
+     "Rinder",
      18,
      12.07535,
      50.67122,
@@ -3279,7 +3168,6 @@
      "b2"
     ],
     [
-     "goettendorf",
      "Göttendorf",
      "Schleiz",
      "Dorf",
@@ -3288,7 +3176,7 @@
      114,
      17,
      36,
-     "rinder",
+     "Rinder",
      131,
      12.06667,
      50.66667,
@@ -3296,7 +3184,6 @@
      "b2"
     ],
     [
-     "neuaergerniss",
      "Neuärgerniß",
      "Schleiz",
      "Dorf",
@@ -3305,7 +3192,7 @@
      20,
      null,
      10,
-     "rinder",
+     "Rinder",
      20,
      null,
      null,
@@ -3313,7 +3200,6 @@
      "b2"
     ],
     [
-     "poellwitz",
      "Pöllwitz",
      "Schleiz",
      "Dorf",
@@ -3322,7 +3208,7 @@
      30,
      null,
      8,
-     "rinder",
+     "Rinder",
      30,
      12.03802,
      50.62381,
@@ -3330,7 +3216,6 @@
      "b2"
     ],
     [
-     "niederboehmsdorf",
      "Niederböhmsdorf",
      "Schleiz",
      "Dorf",
@@ -3339,7 +3224,7 @@
      175,
      null,
      40,
-     "rinder",
+     "Rinder",
      175,
      null,
      null,
@@ -3347,7 +3232,6 @@
      "b2"
     ],
     [
-     "triebes",
      "Triebes",
      "Schleiz",
      "Dorf",
@@ -3356,7 +3240,7 @@
      243,
      4,
      135,
-     "rinder",
+     "Rinder",
      247,
      12.02042,
      50.68489,
@@ -3364,7 +3248,6 @@
      "b2"
     ],
     [
-     "weissendorf",
      "Weißendorf",
      "Schleiz",
      "Dorf",
@@ -3373,7 +3256,7 @@
      138,
      15,
      61,
-     "rinder",
+     "Rinder",
      153,
      12.0,
      50.68333,
@@ -3381,7 +3264,6 @@
      "b5"
     ],
     [
-     "langenwolschendorf",
      "Langenwolschendorf",
      "Schleiz",
      "Dorf",
@@ -3390,7 +3272,7 @@
      281,
      305,
      68,
-     "schafe",
+     "Schafe",
      586,
      11.95416,
      50.63546,
@@ -3398,7 +3280,6 @@
      "b2"
     ],
     [
-     "kleinwolschendorf",
      "Kleinwolschendorf",
      "Schleiz",
      "Dorf",
@@ -3407,7 +3288,7 @@
      197,
      68,
      19,
-     "rinder",
+     "Rinder",
      265,
      11.94807,
      50.64906,
@@ -3415,7 +3296,6 @@
      "b2"
     ],
     [
-     "saalburg",
      "Saalburg",
      "Schleiz",
      "Stadt",
@@ -3432,7 +3312,6 @@
      "b4"
     ],
     [
-     "graefenwarth",
      "Gräfenwarth",
      "Schleiz",
      "Dorf",
@@ -3441,7 +3320,7 @@
      298,
      152,
      63,
-     "rinder",
+     "Rinder",
      450,
      11.75311,
      50.52975,
@@ -3449,7 +3328,6 @@
      "b4"
     ],
     [
-     "kulm",
      "Kulm",
      "Schleiz",
      "Dorf",
@@ -3458,7 +3336,7 @@
      190,
      18,
      39,
-     "rinder",
+     "Rinder",
      208,
      11.75415,
      50.50727,
@@ -3466,7 +3344,6 @@
      "b3"
     ],
     [
-     "wernsdorf-schleiz",
      "Wernsdorf",
      "Schleiz",
      "Dorf",
@@ -3475,7 +3352,7 @@
      193,
      2,
      16,
-     "rinder",
+     "Rinder",
      195,
      null,
      null,
@@ -3483,7 +3360,6 @@
      "b3"
     ],
     [
-     "raila",
      "Raila",
      "Schleiz",
      "Dorf",
@@ -3492,7 +3368,7 @@
      132,
      5,
      25,
-     "rinder",
+     "Rinder",
      137,
      11.79251,
      50.51814,
@@ -3500,7 +3376,6 @@
      "b2"
     ],
     [
-     "kuensdorf",
      "Künsdorf",
      "Schleiz",
      "Dorf",
@@ -3509,7 +3384,7 @@
      311,
      218,
      54,
-     "rinder",
+     "Rinder",
      529,
      11.77404,
      50.4777,
@@ -3517,7 +3392,6 @@
      "b2"
     ],
     [
-     "seubtendorf",
      "Seubtendorf",
      "Schleiz",
      "Dorf",
@@ -3526,7 +3400,7 @@
      293,
      103,
      67,
-     "rinder",
+     "Rinder",
      396,
      11.80889,
      50.47318,
@@ -3534,7 +3408,6 @@
      "b2"
     ],
     [
-     "tanna",
      "Tanna",
      "Schleiz",
      "Stadt",
@@ -3551,7 +3424,6 @@
      "b1"
     ],
     [
-     "frankendorf",
      "Frankendorf",
      "Schleiz",
      "Dorf",
@@ -3560,7 +3432,7 @@
      122,
      290,
      34,
-     "schafe",
+     "Schafe",
      412,
      11.86047,
      50.50366,
@@ -3568,7 +3440,6 @@
      "b2"
     ],
     [
-     "schilbach",
      "Schilbach",
      "Schleiz",
      "Dorf",
@@ -3577,7 +3448,7 @@
      306,
      563,
      39,
-     "schafe",
+     "Schafe",
      869,
      11.82519,
      50.48855,
@@ -3585,7 +3456,6 @@
      "b2"
     ],
     [
-     "zollgruen",
      "Zollgrün",
      "Schleiz",
      "Dorf",
@@ -3594,7 +3464,7 @@
      295,
      96,
      63,
-     "rinder",
+     "Rinder",
      391,
      11.83017,
      50.51418,
@@ -3602,7 +3472,6 @@
      "b2"
     ],
     [
-     "mielesdorf",
      "Mielesdorf",
      "Schleiz",
      "Dorf",
@@ -3611,7 +3480,7 @@
      272,
      121,
      52,
-     "rinder",
+     "Rinder",
      393,
      11.86443,
      50.52939,
@@ -3619,7 +3488,6 @@
      "b3"
     ],
     [
-     "unterkoskau",
      "Unterkoskau",
      "Schleiz",
      "Dorf",
@@ -3628,7 +3496,7 @@
      392,
      61,
      51,
-     "rinder",
+     "Rinder",
      453,
      11.91173,
      50.50202,
@@ -3636,7 +3504,6 @@
      "b2"
     ],
     [
-     "oberkoskau",
      "Oberkoskau",
      "Schleiz",
      "Dorf",
@@ -3645,7 +3512,7 @@
      142,
      109,
      21,
-     "rinder",
+     "Rinder",
      251,
      11.91863,
      50.49075,
@@ -3653,7 +3520,6 @@
      "b2"
     ],
     [
-     "willersdorf",
      "Willersdorf",
      "Schleiz",
      "Dorf",
@@ -3662,7 +3528,7 @@
      243,
      29,
      22,
-     "rinder",
+     "Rinder",
      272,
      11.89817,
      50.47813,
@@ -3670,7 +3536,6 @@
      "b2"
     ],
     [
-     "stelzen",
      "Stelzen",
      "Schleiz",
      "Dorf",
@@ -3679,7 +3544,7 @@
      265,
      4,
      35,
-     "rinder",
+     "Rinder",
      269,
      11.94502,
      50.4867,
@@ -3687,7 +3552,6 @@
      "b4"
     ],
     [
-     "spielmes",
      "Spielmes",
      "Schleiz",
      "Dorf",
@@ -3696,7 +3560,7 @@
      199,
      38,
      14,
-     "rinder",
+     "Rinder",
      237,
      11.92935,
      50.46781,
@@ -3704,7 +3568,6 @@
      "b2"
     ],
     [
-     "lobenstein",
      "Lobenstein",
      "Lobenstein-Ebersdorf",
      "Stadt",
@@ -3721,7 +3584,6 @@
      "b3"
     ],
     [
-     "saaldorf",
      "Saaldorf",
      "Lobenstein-Ebersdorf",
      "Dorf",
@@ -3730,7 +3592,7 @@
      106,
      234,
      113,
-     "schafe",
+     "Schafe",
      340,
      11.69994,
      50.45485,
@@ -3738,7 +3600,6 @@
      "b3"
     ],
     [
-     "poeritzsch",
      "Pöritzsch",
      "Lobenstein-Ebersdorf",
      "Dorf",
@@ -3747,7 +3608,7 @@
      106,
      270,
      32,
-     "schafe",
+     "Schafe",
      376,
      11.71693,
      50.4962,
@@ -3755,7 +3616,6 @@
      "b1"
     ],
     [
-     "ebersdorf",
      "Ebersdorf",
      "Lobenstein-Ebersdorf",
      "Marktflecken",
@@ -3764,7 +3624,7 @@
      138,
      469,
      38,
-     "schafe",
+     "Schafe",
      607,
      11.66757,
      50.48461,
@@ -3772,7 +3632,6 @@
      "b3"
     ],
     [
-     "schoenbrunn",
      "Schönbrunn",
      "Lobenstein-Ebersdorf",
      "Dorf",
@@ -3781,7 +3640,7 @@
      287,
      264,
      46,
-     "rinder",
+     "Rinder",
      551,
      11.65292,
      50.47462,
@@ -3789,7 +3648,6 @@
      "b2"
     ],
     [
-     "unterlemnitz",
      "Unterlemnitz",
      "Lobenstein-Ebersdorf",
      "Dorf",
@@ -3798,7 +3656,7 @@
      285,
      318,
      32,
-     "schafe",
+     "Schafe",
      603,
      11.62128,
      50.47193,
@@ -3806,7 +3664,6 @@
      "b2"
     ],
     [
-     "helmsgruen",
      "Helmsgrün",
      "Lobenstein-Ebersdorf",
      "Dorf",
@@ -3815,7 +3672,7 @@
      286,
      6,
      64,
-     "rinder",
+     "Rinder",
      292,
      11.5892,
      50.45972,
@@ -3823,7 +3680,6 @@
      "b2"
     ],
     [
-     "heinersdorf",
      "Heinersdorf",
      "Lobenstein-Ebersdorf",
      "Dorf",
@@ -3832,7 +3688,7 @@
      280,
      261,
      68,
-     "rinder",
+     "Rinder",
      541,
      11.57588,
      50.47274,
@@ -3840,7 +3696,6 @@
      "b2"
     ],
     [
-     "oberlemnitz",
      "Oberlemnitz",
      "Lobenstein-Ebersdorf",
      "Dorf",
@@ -3849,7 +3704,7 @@
      211,
      17,
      30,
-     "rinder",
+     "Rinder",
      228,
      11.60617,
      50.48605,
@@ -3857,7 +3712,6 @@
      "b6"
     ],
     [
-     "eliasbrunn",
      "Eliasbrunn",
      "Lobenstein-Ebersdorf",
      "Dorf",
@@ -3866,7 +3720,7 @@
      231,
      192,
      41,
-     "rinder",
+     "Rinder",
      423,
      11.60109,
      50.49648,
@@ -3874,7 +3728,6 @@
      "b1"
     ],
     [
-     "ruppersdorf",
      "Ruppersdorf",
      "Lobenstein-Ebersdorf",
      "Dorf",
@@ -3883,7 +3736,7 @@
      191,
      190,
      79,
-     "rinder",
+     "Rinder",
      381,
      11.57618,
      50.5107,
@@ -3891,7 +3744,6 @@
      "b2"
     ],
     [
-     "thierbach",
      "Thierbach",
      "Lobenstein-Ebersdorf",
      "Dorf",
@@ -3900,7 +3752,7 @@
      158,
      183,
      32,
-     "schafe",
+     "Schafe",
      341,
      11.55238,
      50.49668,
@@ -3908,7 +3760,6 @@
      "b2"
     ],
     [
-     "lueckenmuehle",
      "Lückenmühle",
      "Lobenstein-Ebersdorf",
      "Dorf",
@@ -3917,7 +3768,7 @@
      119,
      186,
      11,
-     "schafe",
+     "Schafe",
      305,
      11.61907,
      50.53577,
@@ -3925,7 +3776,6 @@
      "b2"
     ],
     [
-     "karolinenfield",
      "Karolinenfield",
      "Lobenstein-Ebersdorf",
      "Dorf",
@@ -3934,7 +3784,7 @@
      46,
      null,
      12,
-     "rinder",
+     "Rinder",
      46,
      11.67592,
      50.54828,
@@ -3942,7 +3792,6 @@
      "b2"
     ],
     [
-     "thimmendorf",
      "Thimmendorf",
      "Lobenstein-Ebersdorf",
      "Dorf",
@@ -3951,7 +3800,7 @@
      316,
      432,
      41,
-     "schafe",
+     "Schafe",
      748,
      11.57045,
      50.53838,
@@ -3959,7 +3808,6 @@
      "b4"
     ],
     [
-     "lothra",
      "Lothra",
      "Lobenstein-Ebersdorf",
      "Dorf",
@@ -3968,7 +3816,7 @@
      163,
      332,
      43,
-     "schafe",
+     "Schafe",
      495,
      11.55844,
      50.56832,
@@ -3976,7 +3824,6 @@
      "b1"
     ],
     [
-     "altengesees",
      "Altengesees",
      "Lobenstein-Ebersdorf",
      "Dorf",
@@ -3985,7 +3832,7 @@
      147,
      307,
      59,
-     "schafe",
+     "Schafe",
      454,
      11.54025,
      50.54845,
@@ -3993,7 +3840,6 @@
      "b2"
     ],
     [
-     "gahma",
      "Gahma",
      "Lobenstein-Ebersdorf",
      "Dorf",
@@ -4002,7 +3848,7 @@
      273,
      330,
      40,
-     "schafe",
+     "Schafe",
      603,
      11.53763,
      50.5231,
@@ -4010,7 +3856,6 @@
      "b2"
     ],
     [
-     "weitisberga",
      "Weitisberga",
      "Lobenstein-Ebersdorf",
      "Dorf",
@@ -4019,7 +3864,7 @@
      72,
      43,
      63,
-     "rinder",
+     "Rinder",
      115,
      11.49633,
      50.50376,
@@ -4027,7 +3872,6 @@
      "b2"
     ],
     [
-     "wurzbach",
      "Wurzbach",
      "Lobenstein-Ebersdorf",
      "Marktflecken",
@@ -4036,7 +3880,7 @@
      449,
      119,
      214,
-     "rinder",
+     "Rinder",
      568,
      11.53779,
      50.46357,
@@ -4044,7 +3888,6 @@
      "b3"
     ],
     [
-     "ossla",
      "Oßla",
      "Lobenstein-Ebersdorf",
      "Dorf",
@@ -4053,7 +3896,7 @@
      168,
      58,
      30,
-     "rinder",
+     "Rinder",
      226,
      11.50703,
      50.46393,
@@ -4061,7 +3904,6 @@
      "b7"
     ],
     [
-     "roettersdorf",
      "Röttersdorf",
      "Lobenstein-Ebersdorf",
      "Dorf",
@@ -4070,7 +3912,7 @@
      120,
      21,
      54,
-     "rinder",
+     "Rinder",
      141,
      11.47843,
      50.46702,
@@ -4078,7 +3920,6 @@
      "b3"
     ],
     [
-     "grumbach",
      "Grumbach",
      "Lobenstein-Ebersdorf",
      "Dorf",
@@ -4087,7 +3928,7 @@
      212,
      13,
      16,
-     "rinder",
+     "Rinder",
      225,
      11.49899,
      50.42997,
@@ -4095,7 +3936,6 @@
      "b4"
     ],
     [
-     "titschendorf",
      "Titschendorf",
      "Lobenstein-Ebersdorf",
      "Dorf",
@@ -4104,7 +3944,7 @@
      264,
      21,
      23,
-     "rinder",
+     "Rinder",
      285,
      11.52678,
      50.38652,
@@ -4112,7 +3952,6 @@
      "b3"
     ],
     [
-     "neundorf-lobenstein",
      "Neundorf",
      "Lobenstein-Ebersdorf",
      "Dorf",
@@ -4121,7 +3960,7 @@
      588,
      242,
      68,
-     "rinder",
+     "Rinder",
      830,
      11.60165,
      50.43785,
@@ -4129,7 +3968,6 @@
      "b2"
     ],
     [
-     "lichtenbrunn",
      "Lichtenbrunn",
      "Lobenstein-Ebersdorf",
      "Dorf",
@@ -4138,7 +3976,7 @@
      267,
      11,
      96,
-     "rinder",
+     "Rinder",
      278,
      11.64105,
      50.42184,
@@ -4146,7 +3984,6 @@
      "b4"
     ],
     [
-     "schlegel",
      "Schlegel",
      "Lobenstein-Ebersdorf",
      "Dorf",
@@ -4155,7 +3992,7 @@
      231,
      82,
      82,
-     "rinder",
+     "Rinder",
      313,
      11.61667,
      50.4,
@@ -4163,7 +4000,6 @@
      "b2"
     ],
     [
-     "seibis",
      "Seibis",
      "Lobenstein-Ebersdorf",
      "Dorf",
@@ -4172,7 +4008,7 @@
      175,
      14,
      43,
-     "rinder",
+     "Rinder",
      189,
      11.639,
      50.39872,
@@ -4180,7 +4016,6 @@
      "b1"
     ],
     [
-     "blankenstein",
      "Blankenstein",
      "Lobenstein-Ebersdorf",
      "Dorf",
@@ -4189,7 +4024,7 @@
      25,
      8,
      18,
-     "rinder",
+     "Rinder",
      33,
      11.69898,
      50.40213,
@@ -4197,7 +4032,6 @@
      "b2"
     ],
     [
-     "kiessling",
      "Kießling",
      "Lobenstein-Ebersdorf",
      "Dorf",
@@ -4206,7 +4040,7 @@
      140,
      463,
      24,
-     "schafe",
+     "Schafe",
      603,
      11.67167,
      50.40791,
@@ -4214,7 +4048,6 @@
      "b3"
     ],
     [
-     "harra",
      "Harra",
      "Lobenstein-Ebersdorf",
      "Dorf",
@@ -4223,7 +4056,7 @@
      264,
      389,
      94,
-     "schafe",
+     "Schafe",
      653,
      11.68333,
      50.41667,
@@ -4231,7 +4064,6 @@
      "b8"
     ],
     [
-     "langgruen",
      "Langgrün",
      "Lobenstein-Ebersdorf",
      "Dorf",
@@ -4240,7 +4072,7 @@
      282,
      82,
      57,
-     "rinder",
+     "Rinder",
      364,
      11.7707,
      50.45916,
@@ -4248,7 +4080,6 @@
      "b6"
     ],
     [
-     "blintendorf",
      "Blintendorf",
      "Lobenstein-Ebersdorf",
      "Dorf",
@@ -4257,7 +4088,7 @@
      74,
      29,
      52,
-     "rinder",
+     "Rinder",
      103,
      11.80597,
      50.44775,
@@ -4265,7 +4096,6 @@
      "b3"
     ],
     [
-     "goettengruen",
      "Göttengrün",
      "Lobenstein-Ebersdorf",
      "Dorf",
@@ -4274,7 +4104,7 @@
      104,
      47,
      16,
-     "rinder",
+     "Rinder",
      151,
      11.83122,
      50.45951,
@@ -4282,7 +4112,6 @@
      "b2"
     ],
     [
-     "froessen",
      "Frössen",
      "Lobenstein-Ebersdorf",
      "Dorf",
@@ -4291,7 +4120,7 @@
      204,
      48,
      38,
-     "rinder",
+     "Rinder",
      252,
      11.76774,
      50.44045,
@@ -4299,7 +4128,6 @@
      "b2"
     ],
     [
-     "lerchenhuegel",
      "Lerchenhügel",
      "Lobenstein-Ebersdorf",
      "Dorf",
@@ -4308,7 +4136,7 @@
      30,
      null,
      24,
-     "rinder",
+     "Rinder",
      30,
      11.73333,
      50.43333,
@@ -4316,7 +4144,6 @@
      "b3"
     ],
     [
-     "pirk",
      "Pirk",
      "Lobenstein-Ebersdorf",
      "Dorf",
@@ -4325,7 +4152,7 @@
      64,
      195,
      18,
-     "schafe",
+     "Schafe",
      259,
      11.75153,
      50.43038,
@@ -4333,7 +4160,6 @@
      "b2"
     ],
     [
-     "pottiga",
      "Pottiga",
      "Lobenstein-Ebersdorf",
      "Dorf",
@@ -4342,7 +4168,7 @@
      172,
      218,
      55,
-     "schafe",
+     "Schafe",
      390,
      11.74052,
      50.41459,
@@ -4350,7 +4176,6 @@
      "b3"
     ],
     [
-     "goeritz",
      "Göritz",
      "Lobenstein-Ebersdorf",
      "Dorf",
@@ -4359,7 +4184,7 @@
      155,
      202,
      44,
-     "schafe",
+     "Schafe",
      357,
      11.79425,
      50.43111,
@@ -4367,7 +4192,6 @@
      "b2"
     ],
     [
-     "ullersreuth",
      "Ullersreuth",
      "Lobenstein-Ebersdorf",
      "Dorf",
@@ -4376,7 +4200,7 @@
      319,
      181,
      19,
-     "rinder",
+     "Rinder",
      500,
      11.81528,
      50.42607,
@@ -4384,7 +4208,6 @@
      "b2"
     ],
     [
-     "hirschberg",
      "Hirschberg",
      "Lobenstein-Ebersdorf",
      "Stadt",
@@ -4401,7 +4224,6 @@
      "b1"
     ],
     [
-     "venzka",
      "Venzka",
      "Lobenstein-Ebersdorf",
      "Dorf",
@@ -4410,7 +4232,7 @@
      217,
      34,
      33,
-     "rinder",
+     "Rinder",
      251,
      11.83543,
      50.40164,
@@ -4418,7 +4240,6 @@
      "b3"
     ],
     [
-     "moedlareuth",
      "Mödlareuth",
      "Lobenstein-Ebersdorf",
      "Dorf",
@@ -4427,7 +4248,7 @@
      76,
      2,
      8,
-     "rinder",
+     "Rinder",
      78,
      11.88359,
      50.41504,
@@ -4435,7 +4256,6 @@
      "b5"
     ],
     [
-     "gebersreuth",
      "Gebersreuth",
      "Lobenstein-Ebersdorf",
      "Dorf",
@@ -4444,7 +4264,7 @@
      245,
      33,
      50,
-     "rinder",
+     "Rinder",
      278,
      11.89368,
      50.42897,
@@ -4452,7 +4272,6 @@
      "b2"
     ],
     [
-     "dobareuth",
      "Dobareuth",
      "Lobenstein-Ebersdorf",
      "Dorf",
@@ -4461,7 +4280,7 @@
      134,
      407,
      46,
-     "schafe",
+     "Schafe",
      541,
      11.85653,
      50.42646,
@@ -4469,7 +4288,6 @@
      "b4"
     ],
     [
-     "rothenacker",
      "Rothenacker",
      "Lobenstein-Ebersdorf",
      "Dorf",
@@ -4478,7 +4296,7 @@
      297,
      70,
      44,
-     "rinder",
+     "Rinder",
      367,
      11.9068,
      50.45942,
@@ -23438,7 +23256,7 @@
    },
    "caption": {
     "de": "Viehbestand des Fürstentums bei den Zählungen 1843 bis 1867, 1843 gleich 100; ohne die unvollständigen Zählungen 1846, 1852 und 1855. Zahl am Linienende: Veränderung gegenüber 1843. Quelle: S. 233 bis 234.",
-    "en": "Livestock of the principality at the counts of 1843 to 1867, 1843 = 100; without the incomplete counts of 1846, 1852 and 1855. Number at the line end: change since 1843. Source: pp. 233 to 234."
+    "en": "Livestock of the principality at the counts of 1843 to 1867, 1843 = 100; excluding the incomplete counts of 1846, 1852 and 1855. Number at the line end: change since 1843. Source: pp. 233 to 234."
    },
    "vegalite": {
     "height": 320,
@@ -23493,7 +23311,8 @@
         1867
        ],
        "format": "d",
-       "title": null
+       "title": null,
+       "labelExpr": "width < 420 && (datum.value == 1861 || datum.value == 1864) ? '' : datum.label"
       }
      },
      "y": {
@@ -23526,18 +23345,18 @@
       "legend": null,
       "scale": {
        "domain": [
-        "Schafe",
         "Ziegen",
+        "Schafe",
         "Schweine",
         "Rinder",
         "Pferde"
        ],
        "range": [
+        "@accent",
         "@accent2",
-        "@ink2",
-        "@muted",
         "@accent3",
-        "@accent"
+        "@context",
+        "@context"
        ]
       }
      }
@@ -23561,6 +23380,22 @@
       }
      },
      {
+      "transform": [
+       {
+        "filter": "(datum.tierart_de == 'Rinder' || datum.tierart_de == 'Pferde')"
+       }
+      ],
+      "mark": {
+       "type": "line",
+       "strokeWidth": 2
+      }
+     },
+     {
+      "transform": [
+       {
+        "filter": "!(datum.tierart_de == 'Rinder' || datum.tierart_de == 'Pferde')"
+       }
+      ],
       "mark": {
        "type": "line",
        "strokeWidth": 2.5
@@ -23654,7 +23489,7 @@
    },
    "caption": {
     "de": "Dörfer und Marktflecken nach der zahlreicheren Tierart 1867, Größe nach Schafen und Rindern zusammen; ohne die sechs Städte, 157 von 167 Orten haben Koordinaten. Gera: 51 von 80 mit mehr Schafen, Schleiz 8 von 43, Lobenstein-Ebersdorf 16 von 44. Quelle: Ortsartikel.",
-    "en": "Villages and market towns by the more numerous species in 1867, size by sheep and cattle together; without the six towns, 157 of 167 places have coordinates. Gera: 51 of 80 with more sheep, Schleiz 8 of 43, Lobenstein-Ebersdorf 16 of 44. Source: place articles."
+    "en": "Villages and market towns by the more numerous species in 1867, size by sheep and cattle together; excluding the six towns, 157 of 167 places have coordinates. Gera: 51 of 80 with more sheep, Schleiz 8 of 43, Lobenstein-Ebersdorf 16 of 44. Source: place articles."
    },
    "vegalite": {
     "height": 560,
@@ -23746,8 +23581,8 @@
         "type": "nominal",
         "scale": {
          "domain": [
-          "schafe",
-          "rinder"
+          "Schafe",
+          "Rinder"
          ],
          "range": [
           "@accent2",
@@ -23759,8 +23594,8 @@
          "orient": "top-left",
          "direction": "vertical",
          "labelExpr": {
-          "de": "datum.value == 'schafe' ? 'mehr Schafe als Rinder' : 'mehr Rinder als Schafe'",
-          "en": "datum.value == 'schafe' ? 'more sheep than cattle' : 'more cattle than sheep'"
+          "de": "datum.value == 'Schafe' ? 'mehr Schafe als Rinder' : 'mehr Rinder als Schafe'",
+          "en": "datum.value == 'Schafe' ? 'more sheep than cattle' : 'more cattle than sheep'"
          }
         }
        },
@@ -23886,11 +23721,11 @@
    "dataset": "arbeitstiere",
    "title": {
     "de": "Im Unterland zogen Pferde und Rinder je etwa zur Hälfte, im Oberland fast nur Rinder",
-    "en": "In the Unterland horses and cattle worked in equal numbers, in the Oberland almost only cattle"
+    "en": "In the Unterland horses and cattle worked in similar numbers, in the Oberland almost only cattle"
    },
    "caption": {
-    "de": "Zur Arbeit herangezogene Pferde und Rinder 1867 je Landesteil, in Prozent aller Arbeitstiere; die Zahlen in den Balken sind Stück. Quelle: S. 235.",
-    "en": "Horses and cattle used for work in 1867 by district, as percent of all working animals; the numbers in the bars are head. Source: p. 235."
+    "de": "Zur Arbeit herangezogene Pferde und Rinder 1867 je Landesteil, in Prozent aller Arbeitstiere; Zahlen in den Balken: Anzahl der Tiere. Quelle: S. 235.",
+    "en": "Horses and cattle used for work in 1867 by district, as percent of all working animals; figures in the bars: number of animals. Source: p. 235."
    },
    "vegalite": {
     "height": {
@@ -23986,7 +23821,14 @@
           "de": "Anteil an den Arbeitstieren",
           "en": "Share of working animals"
          },
-         "format": "%"
+         "format": "%",
+         "values": [
+          0,
+          0.25,
+          0.5,
+          0.75,
+          1
+         ]
         }
        },
        "x2": {
@@ -24029,7 +23871,10 @@
      {
       "mark": {
        "type": "text",
-       "style": "label"
+       "style": "label",
+       "opacity": {
+        "expr": "abs(scale('x', datum.x1) - scale('x', datum.x0)) >= (datum.landestheil_de == 'Gera' ? 96 : 40) ? 1 : 0"
+       }
       },
       "encoding": {
        "x": {
@@ -24083,6 +23928,5 @@
   "siedlung-wohnen",
   "tierwelt"
  ],
- "generated_by": "Claude Sonnet 5.5 (Agent F5), aus 2 Einzelauswertungen zusammengeführt",
  "date": "2026-10-02"
 }

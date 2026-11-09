@@ -1,6 +1,7 @@
 """Shared helpers for agent F1 (features land-lage-grenzen, relief-hoehen, geologie-boden, gewaesser)."""
 import json
 import math
+import re
 import subprocess
 import sys
 from pathlib import Path
@@ -56,7 +57,40 @@ def words(s):
     return len(s.split())
 
 
+BRITISH_SPELLING = {
+    "meter": "metre", "meters": "metres", "kilometer": "kilometre", "kilometers": "kilometres",
+    "millimeter": "millimetre", "millimeters": "millimetres", "centimeter": "centimetre", "centimeters": "centimetres",
+    "color": "colour", "colors": "colours", "colored": "coloured", "gray": "grey",
+    "neighbor": "neighbour", "neighbors": "neighbours", "neighboring": "neighbouring",
+    "labeled": "labelled", "labeling": "labelling", "meager": "meagre", "center": "centre",
+    "normalized": "normalised", "criticize": "criticise", "criticizes": "criticises", "criticized": "criticised",
+    "analyze": "analyse", "analyzes": "analyses", "digitized": "digitised",
+}
+_BRITISH_RE = re.compile(r"\b(" + "|".join(BRITISH_SPELLING) + r")\b", re.IGNORECASE)
+
+
+def _british_word(m):
+    word = m.group(0)
+    new = BRITISH_SPELLING[word.lower()]
+    return new[0].upper() + new[1:] if word[0].isupper() else new
+
+
+def british_english(node):
+    """The edition writes British English; this fixes the spelling of every English text before writing."""
+    if isinstance(node, dict):
+        if set(node) == {"de", "en"} and isinstance(node["en"], str):
+            node["en"] = _BRITISH_RE.sub(_british_word, node["en"])
+            return
+        for k, v in node.items():
+            if k != "rows":
+                british_english(v)
+    elif isinstance(node, list):
+        for v in node:
+            british_english(v)
+
+
 def dump(feature):
+    british_english(feature)
     path = OUT / f"{feature['id']}.json"
     path.write_text(json.dumps(feature, ensure_ascii=False, indent=1), encoding="utf-8")
     print("wrote", path)
@@ -88,3 +122,28 @@ def tooltip(*fields):
             t["format"] = f[3]
         out.append(t)
     return out
+
+
+def recode(ds_, column, mapping, note=None):
+    """Replace coded values of a column by readable ones (and set or drop the column note)."""
+    j = next(i for i, c in enumerate(ds_["columns"]) if c["name"] == column)
+    for r in ds_["rows"]:
+        r[j] = mapping[r[j]]
+    if all(isinstance(r[j], str) for r in ds_["rows"]):
+        ds_["columns"][j]["type"] = "string"
+    if note is None:
+        ds_["columns"][j].pop("note", None)
+    else:
+        ds_["columns"][j]["note"] = note
+
+
+def drop_column(ds_, column):
+    j = next(i for i, c in enumerate(ds_["columns"]) if c["name"] == column)
+    del ds_["columns"][j]
+    for r in ds_["rows"]:
+        del r[j]
+
+
+def js_map(mapping):
+    """A dict as a Vega expression object literal, for lookups such as js_map(EN)[datum.x]."""
+    return json.dumps(mapping, ensure_ascii=False)

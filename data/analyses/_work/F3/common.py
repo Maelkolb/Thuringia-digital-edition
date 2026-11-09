@@ -11,7 +11,6 @@ ARCHIVE = os.path.join(ANALYSES, "_archive")
 SHARED = os.path.join(ANALYSES, "_shared")
 
 DATE = "2026-10-02"
-GENERATED_BY = "Claude Sonnet 5.5 (Agent F3), aus {k} Einzelauswertungen zusammengeführt"
 
 
 def load_json(path):
@@ -151,3 +150,10 @@ def union_issues(*aids):
         for t in archived(aid).get("transcription_issues") or []:
             out.append(t)
     return out
+
+
+def drop_columns(ds, names):
+    keep = [i for i, c in enumerate(ds["columns"]) if c["name"] not in names]
+    ds["columns"] = [ds["columns"][i] for i in keep]
+    ds["rows"] = [[r[i] for i in keep] for r in ds["rows"]]
+    return ds

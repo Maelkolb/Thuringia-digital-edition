@@ -85,7 +85,7 @@ slope = (tr['y0'] - tr['y1']) / (tr['x1'] - tr['x0']) * 100
 if not expect('slope', f, slope, 2):
     bad += 1
 for r in st:
-    if r['judgement'] == 'high':
+    if r['judgement'] == 'zu hoch (S. 58)':
         if not expect('excess ' + r['station'], f, r['excess_k'], 1):
             bad += 1
 g = {r['year']: r['annual_c'] for r in sa if r['station'] == 'Gera'}
@@ -96,10 +96,10 @@ if not expect('Gera-Hohenleuben', f, statistics.mean(g[y] - h[y] for y in range(
 if not expect('Schleiz-Gera', f, statistics.mean(s[y] - g[y] for y in range(1863, 1868)), 2):
     bad += 1
 days = {(r['station'], r['measure']): r['days'] for r in sd}
-assert round(days[('Gera', 'gemischt')]) == 243 and round(days[('Hohenleuben', 'gemischt')]) == 55
-assert days[('Rothenacker', 'Nebel')] == 76.5 and days[('Schleiz', 'Nebel')] == 16
-fog_ratio = days[('Rothenacker', 'Nebel')] / days[('Schleiz', 'Nebel')]
-mix_ratio = days[('Gera', 'gemischt')] / days[('Hohenleuben', 'gemischt')]
+assert round(days[('Gera', 'Gemischte Tage')]) == 243 and round(days[('Hohenleuben', 'Gemischte Tage')]) == 55
+assert days[('Rothenacker', 'Nebeltage')] == 76.5 and days[('Schleiz', 'Nebeltage')] == 16
+fog_ratio = days[('Rothenacker', 'Nebeltage')] / days[('Schleiz', 'Nebeltage')]
+mix_ratio = days[('Gera', 'Gemischte Tage')] / days[('Hohenleuben', 'Gemischte Tage')]
 assert 4 <= mix_ratio < 4.5 and 4.5 < fog_ratio < 5, (fog_ratio, mix_ratio)
 print('klima-stationen checked')
 
@@ -122,7 +122,7 @@ for r in tm_:
 assert sum(tot.values()) == 346 and tot[11] == 0
 assert f'{100 * (tot[6] + tot[7] + tot[8]) / 346:.0f}' == '65'
 ta_ = {(r['station'], r['kind']): r['per_year'] for r in table(f, 'thunder_annual')}
-for key in [('Gera', 'mean'), ('Rothenacker', 'mean'), ('Schleiz', 'mean')]:
+for key in [('Gera', 'Mittel'), ('Rothenacker', 'Mittel'), ('Schleiz', 'Mittel')]:
     if not expect(str(key), f, ta_[key], 1):
         bad += 1
 print('wind-gewitter checked')

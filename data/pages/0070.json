@@ -514,7 +514,7 @@
    "id": "b4",
    "type": "paragraph",
    "src": 3,
-   "text": "Nimmt man Pohlitz 0,02° wärmer als Gera und Karolinenfeld bei Grumbach mindestens um 0,34° kälter an als die 632' tiefer liegende Stadt Hof, die eine mittlere Jahrestemperatur von 5,34° hat, so kann als sicher gelten, daß das Land sich von 7° bis 5° Erwärmung erhebt. Zwischen diesen beiden Wärmegraden liegen nun im Fürstenthume die verschiedenen Stufen der Flora und Fauna und des menschlichen Wohnens und Wirthschaftens. Demnach beginnt das Land nahe an der Nordgrenze der Weinzone und steigt längs der Buchen= und Fichten=, der Korn= und Haferzone hinan. Zwar ist im Mittelalter und noch bis zum 30jährigen Kriege im Unterlande und selbst im Oberlande Wein gebaut worden, weshalb die Alterthumsforschung nicht jeden hier vorkommenden Weinberg in Hainberg oder Weihberg umwandeln darf; indeß der im Lande gepflanzte Weinstock war bei aller Pflege höchstens alle 7 Jahre einmal tragbar und lieferte in diesem Falle mehr Weinessig als durchgesonnten Wein. Eben darum wurde auch im Jahre 1647 der Acker Weinberg im Elsterthal nur zu 8 gl. Nutzung angeschlagen und die herrschaftlichen Weinberge des Ostersteins (der Schloßweinberg mit 5 5/8, der tinzer Weinberg mit 3 7/8 und der Langenberger mit 4 1/4 Acker) gaben bloß ca. 5 Gulden Ertrag. Wie fast überall in Thüringen, so wich auch hier nach dem 30jährigen Kriege der Weinbau dem mehr lohnenden Körnerbau. Die Eiche und die edlen Obstarten, die zarten Gemüse= und Gartenblumen, der Weizen und die Gerste gedeihen, weil sie 6° bis 12° mittlere Sommerwärme nöthig haben, gewinnreich nur im Unterlande und auf den unteren Stufen des Oberlandes. Selbst schon im Unterlande dulden die höheren Gegenden, namentlich diejenigen, auf denen die Stürme durch die jüngsten Entholzungen freien Zugang haben und den Boden rasch austrocknen und erkälten, höchstens das Gedeihen des Kernobstes, selten das der Kirschen und Pflaumen, während umgekehrt dem welschen Nußbaum das Klima der mittleren Berggehänge besser zusagt als das der Thäler,",
+   "text": "Nimmt man Pohlitz 0,02° wärmer als Gera und Karolinenfeld bei Grumbach mindestens um 0,34° kälter an als die 632' tiefer liegende Stadt Hof, die eine mittlere Jahrestemperatur von 5,34° hat, so kann als sicher gelten, daß das Land sich von 7° bis 5° Erwärmung erhebt. Zwischen diesen beiden Wärmegraden liegen nun im Fürstenthume die verschiedenen Stufen der Flora und Fauna und des menschlichen Wohnens und Wirthschaftens. Demnach beginnt das Land nahe an der Nordgrenze der Weinzone und steigt längs der Buchen- und Fichten-, der Korn- und Haferzone hinan. Zwar ist im Mittelalter und noch bis zum 30jährigen Kriege im Unterlande und selbst im Oberlande Wein gebaut worden, weshalb die Alterthumsforschung nicht jeden hier vorkommenden Weinberg in Hainberg oder Weihberg umwandeln darf; indeß der im Lande gepflanzte Weinstock war bei aller Pflege höchstens alle 7 Jahre einmal tragbar und lieferte in diesem Falle mehr Weinessig als durchgesonnten Wein. Eben darum wurde auch im Jahre 1647 der Acker Weinberg im Elsterthal nur zu 8 gl. Nutzung angeschlagen und die herrschaftlichen Weinberge des Ostersteins (der Schloßweinberg mit 5 5/8, der tinzer Weinberg mit 3 7/8 und der Langenberger mit 4 1/4 Acker) gaben bloß ca. 5 Gulden Ertrag. Wie fast überall in Thüringen, so wich auch hier nach dem 30jährigen Kriege der Weinbau dem mehr lohnenden Körnerbau. Die Eiche und die edlen Obstarten, die zarten Gemüse- und Gartenblumen, der Weizen und die Gerste gedeihen, weil sie 6° bis 12° mittlere Sommerwärme nöthig haben, gewinnreich nur im Unterlande und auf den unteren Stufen des Oberlandes. Selbst schon im Unterlande dulden die höheren Gegenden, namentlich diejenigen, auf denen die Stürme durch die jüngsten Entholzungen freien Zugang haben und den Boden rasch austrocknen und erkälten, höchstens das Gedeihen des Kernobstes, selten das der Kirschen und Pflaumen, während umgekehrt dem welschen Nußbaum das Klima der mittleren Berggehänge besser zusagt als das der Thäler,",
    "spans": [
     [
      62,
@@ -568,7 +568,7 @@
     ],
     [
      506,
-     513,
+     514,
      "Plant"
     ],
     [
@@ -578,7 +578,7 @@
     ],
     [
      532,
-     537,
+     538,
      "Plant"
     ],
     [
@@ -638,7 +638,7 @@
     ],
     [
      1406,
-     1413,
+     1414,
      "Plant"
     ],
     [
@@ -693,6 +693,26 @@
  ],
  "footnotes": [],
  "corrections": [
+  {
+   "rule": "fraktur_double_hyphen",
+   "before": "arten Gemüse= und Gartenbl",
+   "after": "arten Gemüse- und Garten"
+  },
+  {
+   "rule": "fraktur_double_hyphen",
+   "before": "n=, der Korn= und Haferzon",
+   "after": "n=, der Korn- und Haferz"
+  },
+  {
+   "rule": "fraktur_double_hyphen",
+   "before": "und Fichten=, der Korn-",
+   "after": "und Fichten-, der Korn-"
+  },
+  {
+   "rule": "fraktur_double_hyphen",
+   "before": "s der Buchen= und Fichten-",
+   "after": "s der Buchen- und Fichte"
+  },
   {
    "rule": "facsimile_correction",
    "before": "Karolinensfeld",

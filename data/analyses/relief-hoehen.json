@@ -201,16 +201,16 @@
  ],
  "summary": {
   "de": "Brückner verzeichnet die Meereshöhe von 264 bewohnten Punkten und 263 Höhenpunkten in preußischen Dezimalfuß. Umgerechnet liegen die Wohnpunkte des Unterlandes im Median bei 248 m, die des Oberlandes bei 509 m. Höchster Punkt ist der Fichteberg im Frankenwald mit 725 m; die Elster verlässt das Land bei 173 m.",
-  "en": "Brückner lists the altitude of 264 inhabited points and 263 height points in Prussian decimal feet. Converted, the inhabited points of the Unterland lie at a median of 248 m, those of the Oberland at 509 m. The highest point is the Fichteberg in the Frankenwald at 725 m; the Elster leaves the country at 173 m."
+  "en": "Brückner lists the altitude of 264 inhabited places and 263 hills and other points in Prussian decimal feet. Converted, the inhabited places of the Unterland lie at a median of 248 m, those of the Oberland at 509 m. The highest point is the Fichteberg in the Frankenwald at 725 m; the Elster leaves the country at 173 m."
  },
  "findings": [
   {
-   "de": "Eine Ausgleichsebene durch 97 Orte des Oberlandes fällt mit 4,5 m je km nach Nordosten (40°), wie Brückner schreibt. Im Unterland erklärt die Lage kaum etwas (R² 0,05).",
-   "en": "A plane fitted through 97 places of the Oberland falls 4.5 m per km toward the northeast (40°), as Brückner writes. In the Unterland position explains little (R² 0.05)."
+   "de": "Eine Ausgleichsebene durch 97 Orte des Oberlandes fällt mit 4,5 m je km nach Nordosten (40°), wie Brückner schreibt. Im Unterland erklärt die Lage die Höhe kaum (R² 0,05).",
+   "en": "A plane fitted through 97 places of the Oberland falls 4.5 m per km toward the northeast (40°), as Brückner writes. In the Unterland, location explains little of the altitude (R² 0.05)."
   },
   {
    "de": "Nur 6 der 140 Höhenpunkte des Oberlandes und 6 der 123 des Unterlandes liegen über dem höchsten bewohnten Punkt.",
-   "en": "Only 6 of the 140 height points of the Oberland and 6 of the 123 of the Unterland lie above the highest inhabited point."
+   "en": "Only 6 of the Oberland’s 140 measured heights and 6 of the Unterland’s 123 lie above the highest inhabited place."
   },
   {
    "de": "Im Unterland enden 82 Prozent der 175 genannten Bergnamen auf -berg, im Oberland 31 Prozent von 301; Namen auf -bühl gibt es nur im Oberland (37).",
@@ -219,7 +219,7 @@
  ],
  "method": {
   "de": "Quellen sind die Höhenlisten der bewohnten Punkte (S. 11 bis 13 für das Unterland, S. 20 bis 22 für das Oberland), die Listen der Höhenpunkte und Berghöhen (S. 13 bis 15, 22 bis 24), die Terrassenmittel im Text (S. 4 bis 5) und Brückners Aufzählung der Bergnamen (S. 10 bis 11, 15, 17 bis 20). Alle Höhen sind preußische Dezimalfuß, auf den Pegel bei Swinemünde bezogen (S. 11 Anm.), und wurden mit 0,3766242 m je Fuß in Meter umgerechnet. Bei Orten steht meist eine Spanne vom untersten bis zum obersten Haus; die Karte und die Mediane verwenden die Mitte. Für die Karte wurden die Orte über den Namen und den Landesteil mit der Kartengrundlage (GeoNames) verbunden; gleichnamige Orte mit verschiedenen Höhen blieben weg. Die Ausgleichsebene H = a + b × x + c × y wurde nach der Methode der kleinsten Quadrate durch die gekarteten Orte jedes Landesteils gelegt; die Fallrichtung ist der Azimut des steilsten Gefälles (von Nord im Uhrzeigersinn). Die Bergnamen wurden aus Brückners Aufzählungen nach dem Grundwort sortiert (editorisch). Die Einteilung der Höhenpunkte in benannte Berge, Himmelsrichtungshöhen und Bauwerke ist ebenfalls editorisch.",
-  "en": "Sources are the altitude lists of the inhabited points (pp. 11 to 13 for the Unterland, pp. 20 to 22 for the Oberland), the lists of height points and mountain heights (pp. 13 to 15, 22 to 24), the terrace means in the text (pp. 4 to 5) and Brückner’s enumeration of mountain names (pp. 10 to 11, 15, 17 to 20). All altitudes are Prussian decimal feet, referred to the Swinemünde gauge (p. 11 note), and were converted to meters at 0.3766242 m per foot. For places there is mostly a range from the lowest to the highest house; the map and the medians use the midpoint. For the map the places were joined to the base layer (GeoNames) by name and part of the country; homonyms with different altitudes were left out. The plane H = a + b × x + c × y was fitted by least squares through the mapped places of each part; the direction of fall is the azimuth of steepest descent (clockwise from north). The mountain names were sorted by generic element from Brückner’s enumerations (editorial). The division of the height points into named mountains, compass-direction heights and structures is also editorial."
+  "en": "Sources are the altitude lists of the inhabited points (pp. 11 to 13 for the Unterland, pp. 20 to 22 for the Oberland), the lists of height points and mountain heights (pp. 13 to 15, 22 to 24), the terrace means in the text (pp. 4 to 5) and Brückner’s enumeration of mountain names (pp. 10 to 11, 15, 17 to 20). All altitudes are Prussian decimal feet, referred to the Swinemünde gauge (p. 11 note), and were converted to metres at 0.3766242 m per foot. For places there is mostly a range from the lowest to the highest house; the map and the medians use the midpoint. For the map the places were joined to the base layer (GeoNames) by name and part of the country; homonyms with different altitudes were left out. The plane H = a + b × x + c × y was fitted by least squares through the mapped places of each part; the direction of fall is the azimuth of steepest descent (clockwise from north). The mountain names were sorted by generic element from Brückner’s enumerations (editorial). The division of the height points into named mountains, compass-direction heights and structures is also editorial."
  },
  "conversions": [
   {
@@ -436,20 +436,20 @@
     {
      "name": "spanne",
      "label": {
-      "de": "Spanne gedruckt (1 = ja)",
-      "en": "Range printed (1 = yes)"
+      "de": "Spanne gedruckt",
+      "en": "Range printed"
      },
-     "type": "integer",
+     "type": "string",
      "unit": null,
      "derived": true
     },
     {
      "name": "in_klammern",
      "label": {
-      "de": "In Klammern gedruckt (1 = ja)",
-      "en": "Printed in brackets (1 = yes)"
+      "de": "In Klammern gedruckt",
+      "en": "Printed in brackets"
      },
-     "type": "integer",
+     "type": "string",
      "unit": null,
      "derived": true
     },
@@ -509,8 +509,8 @@
      178.5,
      2,
      1.6,
-     0,
-     0,
+     "nein",
+     "nein",
      "11",
      "r1c1",
      null,
@@ -530,8 +530,8 @@
      192.1,
      11,
      10.9,
-     1,
-     0,
+     "ja",
+     "nein",
      "11",
      "r2c1",
      12.02525,
@@ -551,8 +551,8 @@
      187.0,
      5,
      4.7,
-     1,
-     0,
+     "ja",
+     "nein",
      "11",
      "r3c1",
      12.04433,
@@ -572,8 +572,8 @@
      186.4,
      4,
      3.6,
-     0,
-     0,
+     "nein",
+     "nein",
      "11",
      "r4c1",
      null,
@@ -593,8 +593,8 @@
      187.7,
      7,
      6.8,
-     1,
-     0,
+     "ja",
+     "nein",
      "11",
      "r5c1",
      null,
@@ -614,8 +614,8 @@
      187.6,
      6,
      5.7,
-     0,
-     0,
+     "nein",
+     "nein",
      "11",
      "r1c2",
      null,
@@ -635,8 +635,8 @@
      188.3,
      8,
      7.8,
-     0,
-     0,
+     "nein",
+     "nein",
      "11",
      "r2c2",
      null,
@@ -656,8 +656,8 @@
      189.1,
      10,
      9.9,
-     0,
-     0,
+     "nein",
+     "nein",
      "11",
      "r4c2",
      null,
@@ -677,8 +677,8 @@
      208.1,
      24,
      24.5,
-     1,
-     0,
+     "ja",
+     "nein",
      "12",
      "r1c1",
      12.08187,
@@ -698,8 +698,8 @@
      203.4,
      20,
      20.3,
-     1,
-     0,
+     "ja",
+     "nein",
      "12",
      "r3c1",
      null,
@@ -719,8 +719,8 @@
      203.4,
      null,
      null,
-     1,
-     1,
+     "ja",
+     "ja",
      "12",
      "r4c1",
      null,
@@ -740,8 +740,8 @@
      216.6,
      29,
      29.7,
-     1,
-     0,
+     "ja",
+     "nein",
      "12",
      "r5c1",
      null,
@@ -761,8 +761,8 @@
      197.7,
      16,
      16.1,
-     0,
-     0,
+     "nein",
+     "nein",
      "12",
      "r7c1",
      null,
@@ -782,8 +782,8 @@
      197.7,
      17,
      17.2,
-     0,
-     0,
+     "nein",
+     "nein",
      "12",
      "r8c1",
      12.08635,
@@ -803,8 +803,8 @@
      212.8,
      28,
      28.6,
-     1,
-     0,
+     "ja",
+     "nein",
      "12",
      "r10c1",
      12.11874,
@@ -824,8 +824,8 @@
      226.0,
      32,
      32.8,
-     1,
-     0,
+     "ja",
+     "nein",
      "12",
      "r11c1",
      12.12648,
@@ -845,8 +845,8 @@
      226.0,
      33,
      33.9,
-     1,
-     0,
+     "ja",
+     "nein",
      "12",
      "r13c1",
      12.08855,
@@ -866,8 +866,8 @@
      226.7,
      34,
      34.9,
-     0,
-     0,
+     "nein",
+     "nein",
      "12",
      "r14c1",
      null,
@@ -887,8 +887,8 @@
      237.3,
      40,
      41.1,
-     1,
-     0,
+     "ja",
+     "nein",
      "12",
      "r15c1",
      12.15008,
@@ -908,8 +908,8 @@
      238.2,
      41,
      42.2,
-     1,
-     0,
+     "ja",
+     "nein",
      "12",
      "r16c1",
      null,
@@ -929,8 +929,8 @@
      241.0,
      44,
      45.3,
-     1,
-     0,
+     "ja",
+     "nein",
      "12",
      "r17c1",
      12.16613,
@@ -950,8 +950,8 @@
      249.3,
      50,
      51.6,
-     1,
-     0,
+     "ja",
+     "nein",
      "12",
      "r18c1",
      12.16918,
@@ -971,8 +971,8 @@
      235.4,
      39,
      40.1,
-     0,
-     0,
+     "nein",
+     "nein",
      "12",
      "r20c1",
      null,
@@ -992,8 +992,8 @@
      259.9,
      55,
      56.8,
-     1,
-     0,
+     "ja",
+     "nein",
      "12",
      "r21c1",
      12.10913,
@@ -1013,8 +1013,8 @@
      244.8,
      46,
      47.4,
-     0,
-     0,
+     "nein",
+     "nein",
      "12",
      "r24c1",
      null,
@@ -1034,8 +1034,8 @@
      258.0,
      54,
      55.7,
-     1,
-     0,
+     "ja",
+     "nein",
      "12",
      "r25c1",
      12.10744,
@@ -1055,8 +1055,8 @@
      255.2,
      52,
      53.6,
-     1,
-     0,
+     "ja",
+     "nein",
      "12",
      "r26c1",
      12.11439,
@@ -1076,8 +1076,8 @@
      256.1,
      53,
      54.7,
-     1,
-     0,
+     "ja",
+     "nein",
      "12",
      "r28c1",
      12.08766,
@@ -1097,8 +1097,8 @@
      268.3,
      59,
      60.9,
-     1,
-     0,
+     "ja",
+     "nein",
      "12",
      "r30c1",
      12.12257,
@@ -1118,8 +1118,8 @@
      268.3,
      60,
      62.0,
-     1,
-     0,
+     "ja",
+     "nein",
      "12",
      "r32c1",
      12.09221,
@@ -1139,8 +1139,8 @@
      261.5,
      56,
      57.8,
-     1,
-     0,
+     "ja",
+     "nein",
      "12",
      "r2c2",
      12.14693,
@@ -1160,8 +1160,8 @@
      263.6,
      null,
      null,
-     0,
-     1,
+     "nein",
+     "ja",
      "12",
      "r3c2",
      null,
@@ -1181,8 +1181,8 @@
      270.2,
      62,
      64.1,
-     1,
-     0,
+     "ja",
+     "nein",
      "12",
      "r4c2",
      12.1491,
@@ -1202,8 +1202,8 @@
      270.4,
      63,
      65.1,
-     1,
-     0,
+     "ja",
+     "nein",
      "12",
      "r5c2",
      12.12078,
@@ -1223,8 +1223,8 @@
      276.3,
      68,
      70.3,
-     1,
-     0,
+     "ja",
+     "nein",
      "12",
      "r6c2",
      12.19957,
@@ -1244,8 +1244,8 @@
      276.1,
      67,
      69.3,
-     1,
-     0,
+     "ja",
+     "nein",
      "12",
      "r8c2",
      12.18054,
@@ -1265,8 +1265,8 @@
      273.1,
      65,
      67.2,
-     0,
-     0,
+     "nein",
+     "nein",
      "12",
      "r9c2",
      12.14307,
@@ -1286,8 +1286,8 @@
      276.8,
      69,
      71.4,
-     1,
-     0,
+     "ja",
+     "nein",
      "12",
      "r11c2",
      12.12944,
@@ -1307,8 +1307,8 @@
      275.9,
      66,
      68.2,
-     1,
-     0,
+     "ja",
+     "nein",
      "12",
      "r12c2",
      12.06914,
@@ -1328,8 +1328,8 @@
      280.6,
      73,
      75.5,
-     1,
-     0,
+     "ja",
+     "nein",
      "12",
      "r13c2",
      12.15333,
@@ -1349,8 +1349,8 @@
      278.3,
      70,
      72.4,
-     1,
-     0,
+     "ja",
+     "nein",
      "12",
      "r14c2",
      12.18791,
@@ -1370,8 +1370,8 @@
      290.9,
      81,
      83.9,
-     1,
-     0,
+     "ja",
+     "nein",
      "12",
      "r16c2",
      12.05413,
@@ -1391,8 +1391,8 @@
      278.7,
      72,
      74.5,
-     1,
-     0,
+     "ja",
+     "nein",
      "12",
      "r17c2",
      11.87801,
@@ -1412,8 +1412,8 @@
      280.6,
      74,
      76.6,
-     1,
-     0,
+     "ja",
+     "nein",
      "12",
      "r19c2",
      12.2668,
@@ -1433,8 +1433,8 @@
      282.5,
      76,
      78.6,
-     1,
-     0,
+     "ja",
+     "nein",
      "12",
      "r21c2",
      12.12944,
@@ -1454,8 +1454,8 @@
      288.1,
      79,
      81.8,
-     1,
-     0,
+     "ja",
+     "nein",
      "12",
      "r23c2",
      12.15286,
@@ -1475,8 +1475,8 @@
      293.8,
      84,
      87.0,
-     1,
-     0,
+     "ja",
+     "nein",
      "12",
      "r24c2",
      12.04211,
@@ -1496,8 +1496,8 @@
      289.1,
      80,
      82.8,
-     1,
-     0,
+     "ja",
+     "nein",
      "12",
      "r26c2",
      12.09908,
@@ -1517,8 +1517,8 @@
      305.1,
      88,
      91.1,
-     1,
-     0,
+     "ja",
+     "nein",
      "12",
      "r27c2",
      null,
@@ -1538,8 +1538,8 @@
      306.9,
      90,
      93.2,
-     1,
-     0,
+     "ja",
+     "nein",
      "12",
      "r29c2",
      null,
@@ -1559,8 +1559,8 @@
      300.4,
      87,
      90.1,
-     1,
-     0,
+     "ja",
+     "nein",
      "12",
      "r30c2",
      12.15,
@@ -1580,8 +1580,8 @@
      298.5,
      86,
      89.1,
-     1,
-     0,
+     "ja",
+     "nein",
      "12",
      "r31c2",
      12.11957,
@@ -1601,8 +1601,8 @@
      297.5,
      85,
      88.0,
-     1,
-     0,
+     "ja",
+     "nein",
      "12",
      "r32c2",
      12.07275,
@@ -1622,8 +1622,8 @@
      319.4,
      92,
      95.3,
-     0,
-     0,
+     "nein",
+     "nein",
      "12",
      "r33c2",
      null,
@@ -1643,8 +1643,8 @@
      327.7,
      95,
      98.4,
-     1,
-     0,
+     "ja",
+     "nein",
      "12",
      "r34c2",
      12.16456,
@@ -1664,8 +1664,8 @@
      174.2,
      1,
      0.5,
-     1,
-     0,
+     "ja",
+     "nein",
      "12",
      "r1c1",
      12.0,
@@ -1685,8 +1685,8 @@
      186.4,
      3,
      2.6,
-     1,
-     0,
+     "ja",
+     "nein",
      "12",
      "r2c1",
      12.01005,
@@ -1706,8 +1706,8 @@
      188.9,
      9,
      8.9,
-     1,
-     0,
+     "ja",
+     "nein",
      "12",
      "r3c1",
      12.05474,
@@ -1727,8 +1727,8 @@
      192.1,
      12,
      12.0,
-     0,
-     0,
+     "nein",
+     "nein",
      "12",
      "r5c1",
      12.04424,
@@ -1748,8 +1748,8 @@
      197.7,
      15,
      15.1,
-     1,
-     0,
+     "ja",
+     "nein",
      "12",
      "r7c1",
      12.06524,
@@ -1769,8 +1769,8 @@
      194.0,
      13,
      13.0,
-     0,
-     0,
+     "nein",
+     "nein",
      "12",
      "r1c2",
      12.07228,
@@ -1790,8 +1790,8 @@
      196.8,
      14,
      14.1,
-     1,
-     0,
+     "ja",
+     "nein",
      "12",
      "r3c2",
      12.05,
@@ -1811,8 +1811,8 @@
      199.2,
      18,
      18.2,
-     0,
-     0,
+     "nein",
+     "nein",
      "12",
      "r4c2",
      12.03735,
@@ -1832,8 +1832,8 @@
      210.9,
      27,
      27.6,
-     1,
-     0,
+     "ja",
+     "nein",
      "12",
      "r5c2",
      11.95437,
@@ -1853,8 +1853,8 @@
      204.3,
      21,
      21.4,
-     1,
-     0,
+     "ja",
+     "nein",
      "12",
      "r6c2",
      11.98587,
@@ -1874,8 +1874,8 @@
      201.5,
      19,
      19.3,
-     1,
-     0,
+     "ja",
+     "nein",
      "12",
      "r7c2",
      12.06517,
@@ -1895,8 +1895,8 @@
      209.8,
      26,
      26.6,
-     1,
-     0,
+     "ja",
+     "nein",
      "13",
      "r1c1",
      12.00593,
@@ -1916,8 +1916,8 @@
      207.1,
      23,
      23.4,
-     0,
-     0,
+     "nein",
+     "nein",
      "13",
      "r2c1",
      null,
@@ -1937,8 +1937,8 @@
      220.3,
      31,
      31.8,
-     1,
-     0,
+     "ja",
+     "nein",
      "13",
      "r3c1",
      12.01292,
@@ -1958,8 +1958,8 @@
      207.1,
      22,
      22.4,
-     0,
-     0,
+     "nein",
+     "nein",
      "13",
      "r6c1",
      12.00568,
@@ -1979,8 +1979,8 @@
      227.5,
      35,
      35.9,
-     0,
-     0,
+     "nein",
+     "nein",
      "13",
      "r8c1",
      12.02998,
@@ -2000,8 +2000,8 @@
      208.6,
      25,
      25.5,
-     0,
-     0,
+     "nein",
+     "nein",
      "13",
      "r9c1",
      12.06667,
@@ -2021,8 +2021,8 @@
      216.6,
      30,
      30.7,
-     0,
-     0,
+     "nein",
+     "nein",
      "13",
      "r11c1",
      11.98333,
@@ -2042,8 +2042,8 @@
      228.8,
      36,
      37.0,
-     1,
-     0,
+     "ja",
+     "nein",
      "13",
      "r12c1",
      11.97634,
@@ -2063,8 +2063,8 @@
      231.6,
      37,
      38.0,
-     1,
-     0,
+     "ja",
+     "nein",
      "13",
      "r13c1",
      12.01999,
@@ -2084,8 +2084,8 @@
      233.5,
      38,
      39.1,
-     1,
-     0,
+     "ja",
+     "nein",
      "13",
      "r14c1",
      11.97664,
@@ -2105,8 +2105,8 @@
      238.8,
      42,
      43.2,
-     1,
-     0,
+     "ja",
+     "nein",
      "13",
      "r15c1",
      12.00052,
@@ -2126,8 +2126,8 @@
      241.6,
      45,
      46.4,
-     1,
-     0,
+     "ja",
+     "nein",
      "13",
      "r16c1",
      11.94477,
@@ -2147,8 +2147,8 @@
      245.7,
      47,
      48.4,
-     1,
-     0,
+     "ja",
+     "nein",
      "13",
      "r18c1",
      12.04795,
@@ -2168,8 +2168,8 @@
      240.7,
      43,
      44.3,
-     0,
-     0,
+     "nein",
+     "nein",
      "13",
      "r20c1",
      null,
@@ -2189,8 +2189,8 @@
      247.6,
      48,
      49.5,
-     1,
-     0,
+     "ja",
+     "nein",
      "13",
      "r21c1",
      12.06667,
@@ -2210,8 +2210,8 @@
      252.3,
      51,
      52.6,
-     1,
-     0,
+     "ja",
+     "nein",
      "13",
      "r23c1",
      12.01049,
@@ -2231,8 +2231,8 @@
      248.6,
      49,
      50.5,
-     0,
-     0,
+     "nein",
+     "nein",
      "13",
      "r24c1",
      11.97677,
@@ -2252,8 +2252,8 @@
      268.3,
      61,
      63.0,
-     1,
-     0,
+     "ja",
+     "nein",
      "13",
      "r2c2",
      11.95876,
@@ -2273,8 +2273,8 @@
      261.8,
      57,
      58.9,
-     1,
-     0,
+     "ja",
+     "nein",
      "13",
      "r3c2",
      11.95847,
@@ -2294,8 +2294,8 @@
      266.5,
      58,
      59.9,
-     1,
-     0,
+     "ja",
+     "nein",
      "13",
      "r4c2",
      11.96536,
@@ -2315,8 +2315,8 @@
      278.7,
      71,
      73.4,
-     1,
-     0,
+     "ja",
+     "nein",
      "13",
      "r6c2",
      11.98894,
@@ -2336,8 +2336,8 @@
      284.4,
      77,
      79.7,
-     1,
-     0,
+     "ja",
+     "nein",
      "13",
      "r7c2",
      11.95811,
@@ -2357,8 +2357,8 @@
      287.2,
      78,
      80.7,
-     1,
-     0,
+     "ja",
+     "nein",
      "13",
      "r8c2",
      11.92944,
@@ -2378,8 +2378,8 @@
      270.8,
      64,
      66.1,
-     1,
-     0,
+     "ja",
+     "nein",
      "13",
      "r10c2",
      null,
@@ -2399,8 +2399,8 @@
      281.5,
      75,
      77.6,
-     1,
-     0,
+     "ja",
+     "nein",
      "13",
      "r11c2",
      11.93342,
@@ -2420,8 +2420,8 @@
      291.9,
      82,
      84.9,
-     1,
-     0,
+     "ja",
+     "nein",
      "13",
      "r13c2",
      11.96111,
@@ -2441,8 +2441,8 @@
      291.9,
      83,
      85.9,
-     0,
-     0,
+     "nein",
+     "nein",
      "13",
      "r15c2",
      12.00989,
@@ -2462,8 +2462,8 @@
      306.0,
      89,
      92.2,
-     1,
-     0,
+     "ja",
+     "nein",
      "13",
      "r16c2",
      12.03891,
@@ -2483,8 +2483,8 @@
      317.3,
      91,
      94.3,
-     1,
-     0,
+     "ja",
+     "nein",
      "13",
      "r18c2",
      12.02836,
@@ -2504,8 +2504,8 @@
      323.9,
      93,
      96.4,
-     1,
-     0,
+     "ja",
+     "nein",
      "13",
      "r20c2",
      11.98333,
@@ -2525,8 +2525,8 @@
      320.1,
      null,
      null,
-     0,
-     1,
+     "nein",
+     "ja",
      "13",
      "r22c2",
      null,
@@ -2546,8 +2546,8 @@
      324.8,
      94,
      97.4,
-     1,
-     0,
+     "ja",
+     "nein",
      "13",
      "r23c2",
      12.02747,
@@ -2567,8 +2567,8 @@
      335.2,
      null,
      null,
-     0,
-     1,
+     "nein",
+     "ja",
      "13",
      "r24c2",
      null,
@@ -2588,8 +2588,8 @@
      358.9,
      96,
      99.5,
-     0,
-     0,
+     "nein",
+     "nein",
      "13",
      "r25c2",
      null,
@@ -2609,8 +2609,8 @@
      301.3,
      2,
      0.9,
-     0,
-     0,
+     "nein",
+     "nein",
      "20",
      "r1c1",
      null,
@@ -2630,8 +2630,8 @@
      301.3,
      1,
      0.3,
-     0,
-     0,
+     "nein",
+     "nein",
      "20",
      "r2c1",
      null,
@@ -2651,8 +2651,8 @@
      320.1,
      3,
      1.5,
-     0,
-     0,
+     "nein",
+     "nein",
      "20",
      "r3c1",
      null,
@@ -2672,8 +2672,8 @@
      367.2,
      10,
      5.7,
-     1,
-     0,
+     "ja",
+     "nein",
      "20",
      "r4c1",
      12.09407,
@@ -2693,8 +2693,8 @@
      335.2,
      4,
      2.1,
-     0,
-     0,
+     "nein",
+     "nein",
      "20",
      "r6c1",
      null,
@@ -2714,8 +2714,8 @@
      353.1,
      8,
      4.5,
-     1,
-     0,
+     "ja",
+     "nein",
      "20",
      "r7c1",
      12.02042,
@@ -2735,8 +2735,8 @@
      339.0,
      5,
      2.7,
-     0,
-     0,
+     "nein",
+     "nein",
      "20",
      "r11c1",
      null,
@@ -2756,8 +2756,8 @@
      346.5,
      6,
      3.3,
-     0,
-     0,
+     "nein",
+     "nein",
      "20",
      "r12c1",
      null,
@@ -2777,8 +2777,8 @@
      348.4,
      7,
      3.9,
-     0,
-     0,
+     "nein",
+     "nein",
      "20",
      "r13c1",
      null,
@@ -2798,8 +2798,8 @@
      357.8,
      9,
      5.1,
-     0,
-     0,
+     "nein",
+     "nein",
      "20",
      "r14c1",
      null,
@@ -2819,8 +2819,8 @@
      367.2,
      11,
      6.2,
-     0,
-     0,
+     "nein",
+     "nein",
      "20",
      "r15c1",
      null,
@@ -2840,8 +2840,8 @@
      381.3,
      13,
      7.4,
-     1,
-     0,
+     "ja",
+     "nein",
      "20",
      "r16c1",
      12.05427,
@@ -2861,8 +2861,8 @@
      369.1,
      12,
      6.8,
-     0,
-     0,
+     "nein",
+     "nein",
      "20",
      "r18c1",
      null,
@@ -2882,8 +2882,8 @@
      382.3,
      14,
      8.0,
-     1,
-     0,
+     "ja",
+     "nein",
      "20",
      "r19c1",
      11.91791,
@@ -2903,8 +2903,8 @@
      390.7,
      17,
      9.8,
-     1,
-     0,
+     "ja",
+     "nein",
      "20",
      "r21c1",
      11.94807,
@@ -2924,8 +2924,8 @@
      384.2,
      15,
      8.6,
-     0,
-     0,
+     "nein",
+     "nein",
      "20",
      "r23c1",
      null,
@@ -2945,8 +2945,8 @@
      386.0,
      16,
      9.2,
-     0,
-     0,
+     "nein",
+     "nein",
      "20",
      "r24c1",
      null,
@@ -2966,8 +2966,8 @@
      392.6,
      20,
      11.6,
-     1,
-     0,
+     "ja",
+     "nein",
      "20",
      "r25c1",
      11.89638,
@@ -2987,8 +2987,8 @@
      396.4,
      24,
      14.0,
-     1,
-     0,
+     "ja",
+     "nein",
      "20",
      "r26c1",
      12.06667,
@@ -3008,8 +3008,8 @@
      394.5,
      21,
      12.2,
-     1,
-     0,
+     "ja",
+     "nein",
      "20",
      "r27c1",
      11.86667,
@@ -3029,8 +3029,8 @@
      414.3,
      32,
      18.8,
-     1,
-     0,
+     "ja",
+     "nein",
      "20",
      "r28c1",
      11.95416,
@@ -3050,8 +3050,8 @@
      391.7,
      18,
      10.4,
-     0,
-     0,
+     "nein",
+     "nein",
      "20",
      "r1c2",
      null,
@@ -3071,8 +3071,8 @@
      392.4,
      19,
      11.0,
-     0,
-     0,
+     "nein",
+     "nein",
      "20",
      "r2c2",
      null,
@@ -3092,8 +3092,8 @@
      394.7,
      22,
      12.8,
-     0,
-     0,
+     "nein",
+     "nein",
      "20",
      "r3c2",
      null,
@@ -3113,8 +3113,8 @@
      395.5,
      23,
      13.4,
-     0,
-     0,
+     "nein",
+     "nein",
      "20",
      "r4c2",
      null,
@@ -3134,8 +3134,8 @@
      404.9,
      26,
      15.2,
-     1,
-     0,
+     "ja",
+     "nein",
      "20",
      "r5c2",
      12.0,
@@ -3155,8 +3155,8 @@
      397.0,
      25,
      14.6,
-     0,
-     0,
+     "nein",
+     "nein",
      "20",
      "r6c2",
      null,
@@ -3176,8 +3176,8 @@
      407.1,
      28,
      16.4,
-     1,
-     0,
+     "ja",
+     "nein",
      "20",
      "r7c2",
      12.07535,
@@ -3197,8 +3197,8 @@
      420.9,
      34,
      19.9,
-     1,
-     0,
+     "ja",
+     "nein",
      "20",
      "r8c2",
      11.96139,
@@ -3218,8 +3218,8 @@
      417.1,
      33,
      19.3,
-     1,
-     0,
+     "ja",
+     "nein",
      "20",
      "r10c2",
      11.73176,
@@ -3239,8 +3239,8 @@
      406.8,
      27,
      15.8,
-     0,
-     0,
+     "nein",
+     "nein",
      "20",
      "r12c2",
      null,
@@ -3260,8 +3260,8 @@
      446.3,
      50,
      29.5,
-     1,
-     0,
+     "ja",
+     "nein",
      "20",
      "r13c2",
      11.68333,
@@ -3281,8 +3281,8 @@
      409.8,
      29,
      17.0,
-     0,
-     0,
+     "nein",
+     "nein",
      "20",
      "r15c2",
      null,
@@ -3302,8 +3302,8 @@
      420.9,
      35,
      20.5,
-     1,
-     0,
+     "ja",
+     "nein",
      "20",
      "r16c2",
      null,
@@ -3323,8 +3323,8 @@
      413.5,
      30,
      17.6,
-     0,
-     0,
+     "nein",
+     "nein",
      "20",
      "r17c2",
      null,
@@ -3344,8 +3344,8 @@
      413.5,
      31,
      18.2,
-     0,
-     0,
+     "nein",
+     "nein",
      "20",
      "r18c2",
      null,
@@ -3365,8 +3365,8 @@
      423.7,
      37,
      21.7,
-     1,
-     0,
+     "ja",
+     "nein",
      "20",
      "r19c2",
      11.69898,
@@ -3386,8 +3386,8 @@
      422.0,
      36,
      21.1,
-     1,
-     0,
+     "ja",
+     "nein",
      "20",
      "r20c2",
      null,
@@ -3407,8 +3407,8 @@
      432.2,
      41,
      24.1,
-     1,
-     0,
+     "ja",
+     "nein",
      "20",
      "r21c2",
      11.88084,
@@ -3428,8 +3428,8 @@
      423.7,
      38,
      22.3,
-     0,
-     0,
+     "nein",
+     "nein",
      "20",
      "r23c2",
      12.00464,
@@ -3449,8 +3449,8 @@
      433.1,
      42,
      24.7,
-     1,
-     0,
+     "ja",
+     "nein",
      "20",
      "r24c2",
      11.78333,
@@ -3470,8 +3470,8 @@
      430.3,
      40,
      23.5,
-     1,
-     0,
+     "ja",
+     "nein",
      "20",
      "r25c2",
      11.85167,
@@ -3491,8 +3491,8 @@
      434.4,
      44,
      25.9,
-     1,
-     0,
+     "ja",
+     "nein",
      "20",
      "r26c2",
      11.85202,
@@ -3512,8 +3512,8 @@
      428.6,
      39,
      22.9,
-     0,
-     0,
+     "nein",
+     "nein",
      "20",
      "r27c2",
      11.81024,
@@ -3533,8 +3533,8 @@
      433.1,
      43,
      25.3,
-     0,
-     0,
+     "nein",
+     "nein",
      "21",
      "r2c1",
      11.88084,
@@ -3554,8 +3554,8 @@
      442.5,
      47,
      27.7,
-     1,
-     0,
+     "ja",
+     "nein",
      "21",
      "r4c1",
      11.78783,
@@ -3575,8 +3575,8 @@
      451.9,
      54,
      31.8,
-     1,
-     0,
+     "ja",
+     "nein",
      "21",
      "r5c1",
      11.71693,
@@ -3596,8 +3596,8 @@
      436.9,
      45,
      26.5,
-     0,
-     0,
+     "nein",
+     "nein",
      "21",
      "r6c1",
      null,
@@ -3617,8 +3617,8 @@
      451.0,
      53,
      31.2,
-     1,
-     0,
+     "ja",
+     "nein",
      "21",
      "r7c1",
      11.81829,
@@ -3638,8 +3638,8 @@
      448.2,
      51,
      30.1,
-     1,
-     0,
+     "ja",
+     "nein",
      "21",
      "r9c1",
      11.86667,
@@ -3659,8 +3659,8 @@
      441.4,
      46,
      27.1,
-     0,
-     0,
+     "nein",
+     "nein",
      "21",
      "r11c1",
      11.75,
@@ -3680,8 +3680,8 @@
      442.5,
      48,
      28.3,
-     0,
-     0,
+     "nein",
+     "nein",
      "21",
      "r12c1",
      null,
@@ -3701,8 +3701,8 @@
      442.5,
      49,
      28.9,
-     0,
-     0,
+     "nein",
+     "nein",
      "21",
      "r13c1",
      null,
@@ -3722,8 +3722,8 @@
      459.5,
      61,
      36.0,
-     1,
-     0,
+     "ja",
+     "nein",
      "21",
      "r14c1",
      11.79251,
@@ -3743,8 +3743,8 @@
      453.8,
      57,
      33.6,
-     1,
-     0,
+     "ja",
+     "nein",
      "21",
      "r15c1",
      11.81667,
@@ -3764,8 +3764,8 @@
      478.3,
      68,
      40.2,
-     1,
-     0,
+     "ja",
+     "nein",
      "21",
      "r17c1",
      null,
@@ -3785,8 +3785,8 @@
      450.1,
      52,
      30.7,
-     0,
-     0,
+     "nein",
+     "nein",
      "21",
      "r18c1",
      null,
@@ -3806,8 +3806,8 @@
      451.9,
      55,
      32.4,
-     0,
-     0,
+     "nein",
+     "nein",
      "21",
      "r19c1",
      null,
@@ -3827,8 +3827,8 @@
      455.7,
      59,
      34.8,
-     1,
-     0,
+     "ja",
+     "nein",
      "21",
      "r20c1",
      11.83354,
@@ -3848,8 +3848,8 @@
      451.9,
      56,
      33.0,
-     0,
-     0,
+     "nein",
+     "nein",
      "21",
      "r22c1",
      null,
@@ -3869,8 +3869,8 @@
      453.8,
      58,
      34.2,
-     0,
-     0,
+     "nein",
+     "nein",
      "21",
      "r23c1",
      null,
@@ -3890,8 +3890,8 @@
      455.7,
      60,
      35.4,
-     0,
-     0,
+     "nein",
+     "nein",
      "21",
      "r24c1",
      null,
@@ -3911,8 +3911,8 @@
      468.1,
      63,
      37.2,
-     1,
-     0,
+     "ja",
+     "nein",
      "21",
      "r25c1",
      11.75311,
@@ -3932,8 +3932,8 @@
      461.4,
      62,
      36.6,
-     0,
-     0,
+     "nein",
+     "nein",
      "21",
      "r26c1",
      null,
@@ -3953,8 +3953,8 @@
      475.5,
      67,
      39.6,
-     1,
-     0,
+     "ja",
+     "nein",
      "21",
      "r27c1",
      null,
@@ -3974,8 +3974,8 @@
      470.8,
      66,
      39.0,
-     0,
-     0,
+     "nein",
+     "nein",
      "21",
      "r29c1",
      null,
@@ -3995,8 +3995,8 @@
      470.8,
      65,
      38.4,
-     0,
-     0,
+     "nein",
+     "nein",
      "21",
      "r30c1",
      null,
@@ -4016,8 +4016,8 @@
      470.8,
      64,
      37.8,
-     0,
-     0,
+     "nein",
+     "nein",
      "21",
      "r31c1",
      11.81667,
@@ -4037,8 +4037,8 @@
      480.2,
      69,
      40.8,
-     1,
-     0,
+     "ja",
+     "nein",
      "21",
      "r34c1",
      11.6393,
@@ -4058,8 +4058,8 @@
      490.6,
      77,
      45.5,
-     1,
-     0,
+     "ja",
+     "nein",
      "21",
      "r41c1",
      11.81667,
@@ -4079,8 +4079,8 @@
      488.1,
      73,
      43.2,
-     1,
-     0,
+     "ja",
+     "nein",
      "21",
      "r43c1",
      11.79425,
@@ -4100,8 +4100,8 @@
      480.2,
      71,
      42.0,
-     0,
-     0,
+     "nein",
+     "nein",
      "21",
      "r44c1",
      null,
@@ -4121,8 +4121,8 @@
      480.2,
      70,
      41.4,
-     0,
-     0,
+     "nein",
+     "nein",
      "21",
      "r45c1",
      11.88708,
@@ -4142,8 +4142,8 @@
      496.2,
      80,
      47.3,
-     1,
-     0,
+     "ja",
+     "nein",
      "21",
      "r47c1",
      11.74052,
@@ -4163,8 +4163,8 @@
      486.6,
      72,
      42.6,
-     0,
-     0,
+     "nein",
+     "nein",
      "21",
      "r48c1",
      null,
@@ -4184,8 +4184,8 @@
      495.3,
      79,
      46.7,
-     1,
-     0,
+     "ja",
+     "nein",
      "21",
      "r49c1",
      11.88422,
@@ -4205,8 +4205,8 @@
      489.6,
      76,
      44.9,
-     0,
-     0,
+     "nein",
+     "nein",
      "21",
      "r51c1",
      null,
@@ -4226,8 +4226,8 @@
      489.6,
      75,
      44.3,
-     0,
-     0,
+     "nein",
+     "nein",
      "21",
      "r1c2",
      null,
@@ -4247,8 +4247,8 @@
      489.6,
      74,
      43.8,
-     0,
-     0,
+     "nein",
+     "nein",
      "21",
      "r2c2",
      11.67592,
@@ -4268,8 +4268,8 @@
      510.3,
      85,
      50.3,
-     1,
-     0,
+     "ja",
+     "nein",
      "21",
      "r3c2",
      11.66757,
@@ -4289,8 +4289,8 @@
      498.7,
      82,
      48.5,
-     0,
-     0,
+     "nein",
+     "nein",
      "21",
      "r6c2",
      null,
@@ -4310,8 +4310,8 @@
      498.1,
      81,
      47.9,
-     0,
-     0,
+     "nein",
+     "nein",
      "21",
      "r7c2",
      null,
@@ -4331,8 +4331,8 @@
      503.4,
      83,
      49.1,
-     1,
-     0,
+     "ja",
+     "nein",
      "21",
      "r8c2",
      11.83176,
@@ -4352,8 +4352,8 @@
      514.1,
      88,
      52.1,
-     0,
-     0,
+     "nein",
+     "nein",
      "21",
      "r9c2",
      null,
@@ -4373,8 +4373,8 @@
      494.1,
      78,
      46.1,
-     0,
-     0,
+     "nein",
+     "nein",
      "21",
      "r10c2",
      null,
@@ -4394,8 +4394,8 @@
      515.0,
      90,
      53.3,
-     1,
-     0,
+     "ja",
+     "nein",
      "21",
      "r11c2",
      11.83017,
@@ -4415,8 +4415,8 @@
      508.4,
      84,
      49.7,
-     1,
-     0,
+     "ja",
+     "nein",
      "21",
      "r13c2",
      11.77566,
@@ -4436,8 +4436,8 @@
      522.2,
      97,
      57.4,
-     1,
-     0,
+     "ja",
+     "nein",
      "21",
      "r14c2",
      11.91173,
@@ -4457,8 +4457,8 @@
      512.2,
      86,
      50.9,
-     1,
-     0,
+     "ja",
+     "nein",
      "21",
      "r15c2",
      11.80597,
@@ -4478,8 +4478,8 @@
      514.1,
      87,
      51.5,
-     1,
-     0,
+     "ja",
+     "nein",
      "21",
      "r16c2",
      11.62407,
@@ -4499,8 +4499,8 @@
      527.3,
      102,
      60.4,
-     1,
-     0,
+     "ja",
+     "nein",
      "21",
      "r17c2",
      11.65292,
@@ -4520,8 +4520,8 @@
      514.8,
      89,
      52.7,
-     0,
-     0,
+     "nein",
+     "nein",
      "21",
      "r18c2",
      11.61147,
@@ -4541,8 +4541,8 @@
      526.3,
      101,
      59.8,
-     1,
-     0,
+     "ja",
+     "nein",
      "21",
      "r19c2",
      11.7707,
@@ -4562,8 +4562,8 @@
      520.7,
      96,
      56.8,
-     1,
-     0,
+     "ja",
+     "nein",
      "21",
      "r21c2",
      11.91863,
@@ -4583,8 +4583,8 @@
      516.9,
      94,
      55.7,
-     0,
-     0,
+     "nein",
+     "nein",
      "21",
      "r22c2",
      null,
@@ -4604,8 +4604,8 @@
      516.9,
      95,
      56.2,
-     0,
-     0,
+     "nein",
+     "nein",
      "21",
      "r23c2",
      null,
@@ -4625,8 +4625,8 @@
      516.9,
      91,
      53.9,
-     0,
-     0,
+     "nein",
+     "nein",
      "21",
      "r24c2",
      11.85653,
@@ -4646,8 +4646,8 @@
      516.9,
      93,
      55.1,
-     0,
-     0,
+     "nein",
+     "nein",
      "21",
      "r25c2",
      null,
@@ -4667,8 +4667,8 @@
      516.9,
      92,
      54.5,
-     0,
-     0,
+     "nein",
+     "nein",
      "21",
      "r26c2",
      null,
@@ -4688,8 +4688,8 @@
      527.3,
      103,
      61.0,
-     1,
-     0,
+     "ja",
+     "nein",
      "21",
      "r27c2",
      11.77404,
@@ -4709,8 +4709,8 @@
      526.1,
      99,
      58.6,
-     0,
-     0,
+     "nein",
+     "nein",
      "21",
      "r29c2",
      null,
@@ -4730,8 +4730,8 @@
      532.0,
      108,
      64.0,
-     1,
-     0,
+     "ja",
+     "nein",
      "21",
      "r30c2",
      11.76774,
@@ -4751,8 +4751,8 @@
      543.3,
      116,
      68.8,
-     1,
-     0,
+     "ja",
+     "nein",
      "21",
      "r32c2",
      11.64105,
@@ -4772,8 +4772,8 @@
      544.2,
      118,
      69.9,
-     1,
-     0,
+     "ja",
+     "nein",
      "21",
      "r33c2",
      11.53779,
@@ -4793,8 +4793,8 @@
      531.0,
      107,
      63.4,
-     1,
-     0,
+     "ja",
+     "nein",
      "21",
      "r37c2",
      11.80889,
@@ -4814,8 +4814,8 @@
      525.0,
      98,
      58.0,
-     0,
-     0,
+     "nein",
+     "nein",
      "21",
      "r39c2",
      11.86047,
@@ -4835,8 +4835,8 @@
      526.1,
      100,
      59.2,
-     0,
-     0,
+     "nein",
+     "nein",
      "21",
      "r40c2",
      11.86443,
@@ -4856,8 +4856,8 @@
      527.3,
      104,
      61.6,
-     0,
-     0,
+     "nein",
+     "nein",
      "21",
      "r41c2",
      11.83543,
@@ -4877,8 +4877,8 @@
      528.4,
      105,
      62.2,
-     0,
-     0,
+     "nein",
+     "nein",
      "21",
      "r42c2",
      null,
@@ -4898,8 +4898,8 @@
      532.9,
      109,
      64.6,
-     1,
-     0,
+     "ja",
+     "nein",
      "21",
      "r43c2",
      null,
@@ -4919,8 +4919,8 @@
      530.3,
      106,
      62.8,
-     0,
-     0,
+     "nein",
+     "nein",
      "21",
      "r46c2",
      11.81528,
@@ -4940,8 +4940,8 @@
      538.6,
      111,
      65.8,
-     1,
-     0,
+     "ja",
+     "nein",
      "21",
      "r47c2",
      11.75415,
@@ -4961,8 +4961,8 @@
      535.6,
      110,
      65.2,
-     1,
-     0,
+     "ja",
+     "nein",
      "21",
      "r49c2",
      11.92935,
@@ -4982,8 +4982,8 @@
      545.2,
      124,
      73.5,
-     1,
-     0,
+     "ja",
+     "nein",
      "21",
      "r51c2",
      11.88359,
@@ -5003,8 +5003,8 @@
      544.2,
      119,
      70.5,
-     1,
-     0,
+     "ja",
+     "nein",
      "22",
      "r1c1",
      null,
@@ -5024,8 +5024,8 @@
      541.4,
      114,
      67.6,
-     1,
-     0,
+     "ja",
+     "nein",
      "22",
      "r2c1",
      11.7726,
@@ -5045,8 +5045,8 @@
      543.3,
      117,
      69.3,
-     1,
-     0,
+     "ja",
+     "nein",
      "22",
      "r3c1",
      11.73333,
@@ -5066,8 +5066,8 @@
      546.1,
      125,
      74.1,
-     1,
-     0,
+     "ja",
+     "nein",
      "22",
      "r4c1",
      11.62128,
@@ -5087,8 +5087,8 @@
      548.0,
      128,
      75.9,
-     1,
-     0,
+     "ja",
+     "nein",
      "22",
      "r5c1",
      11.85725,
@@ -5108,8 +5108,8 @@
      544.2,
      120,
      71.1,
-     1,
-     0,
+     "ja",
+     "nein",
      "22",
      "r7c1",
      11.54025,
@@ -5129,8 +5129,8 @@
      544.2,
      121,
      71.7,
-     1,
-     0,
+     "ja",
+     "nein",
      "22",
      "r9c1",
      11.55844,
@@ -5150,8 +5150,8 @@
      557.0,
      134,
      79.5,
-     1,
-     0,
+     "ja",
+     "nein",
      "22",
      "r10c1",
      11.55238,
@@ -5171,8 +5171,8 @@
      539.3,
      112,
      66.4,
-     0,
-     0,
+     "nein",
+     "nein",
      "22",
      "r11c1",
      11.53265,
@@ -5192,8 +5192,8 @@
      541.2,
      113,
      67.0,
-     0,
-     0,
+     "nein",
+     "nein",
      "22",
      "r12c1",
      11.64105,
@@ -5213,8 +5213,8 @@
      554.6,
      131,
      77.7,
-     1,
-     0,
+     "ja",
+     "nein",
      "22",
      "r13c1",
      11.82519,
@@ -5234,8 +5234,8 @@
      553.6,
      130,
      77.1,
-     1,
-     0,
+     "ja",
+     "nein",
      "22",
      "r15c1",
      11.57618,
@@ -5255,8 +5255,8 @@
      543.1,
      115,
      68.2,
-     0,
-     0,
+     "nein",
+     "nein",
      "22",
      "r17c1",
      11.639,
@@ -5276,8 +5276,8 @@
      545.0,
      122,
      72.3,
-     0,
-     0,
+     "nein",
+     "nein",
      "22",
      "r18c1",
      null,
@@ -5297,8 +5297,8 @@
      545.0,
      123,
      72.9,
-     0,
-     0,
+     "nein",
+     "nein",
      "22",
      "r19c1",
      null,
@@ -5318,8 +5318,8 @@
      549.1,
      129,
      76.5,
-     0,
-     0,
+     "nein",
+     "nein",
      "22",
      "r20c1",
      null,
@@ -5339,8 +5339,8 @@
      546.9,
      126,
      74.7,
-     0,
-     0,
+     "nein",
+     "nein",
      "22",
      "r21c1",
      null,
@@ -5360,8 +5360,8 @@
      547.6,
      127,
      75.3,
-     0,
-     0,
+     "nein",
+     "nein",
      "22",
      "r22c1",
      null,
@@ -5381,8 +5381,8 @@
      556.3,
      133,
      78.9,
-     0,
-     0,
+     "nein",
+     "nein",
      "22",
      "r23c1",
      null,
@@ -5402,8 +5402,8 @@
      554.8,
      132,
      78.3,
-     0,
-     0,
+     "nein",
+     "nein",
      "22",
      "r24c1",
      null,
@@ -5423,8 +5423,8 @@
      564.9,
      135,
      80.1,
-     1,
-     0,
+     "ja",
+     "nein",
      "22",
      "r25c1",
      11.67167,
@@ -5444,8 +5444,8 @@
      574.4,
      139,
      82.4,
-     1,
-     0,
+     "ja",
+     "nein",
      "22",
      "r27c1",
      11.83122,
@@ -5465,8 +5465,8 @@
      564.9,
      136,
      80.7,
-     1,
-     0,
+     "ja",
+     "nein",
      "22",
      "r28c1",
      11.89817,
@@ -5486,8 +5486,8 @@
      576.2,
      140,
      83.0,
-     1,
-     0,
+     "ja",
+     "nein",
      "22",
      "r30c1",
      11.57045,
@@ -5507,8 +5507,8 @@
      566.8,
      138,
      81.8,
-     1,
-     0,
+     "ja",
+     "nein",
      "22",
      "r32c1",
      null,
@@ -5528,8 +5528,8 @@
      566.1,
      137,
      81.2,
-     0,
-     0,
+     "nein",
+     "nein",
      "22",
      "r33c1",
      null,
@@ -5549,8 +5549,8 @@
      586.4,
      145,
      86.0,
-     1,
-     0,
+     "ja",
+     "nein",
      "22",
      "r34c1",
      11.52678,
@@ -5570,8 +5570,8 @@
      584.7,
      144,
      85.4,
-     1,
-     0,
+     "ja",
+     "nein",
      "22",
      "r1c2",
      11.50703,
@@ -5591,8 +5591,8 @@
      586.6,
      146,
      86.6,
-     1,
-     0,
+     "ja",
+     "nein",
      "22",
      "r2c2",
      11.51259,
@@ -5612,8 +5612,8 @@
      580.9,
      141,
      83.6,
-     1,
-     0,
+     "ja",
+     "nein",
      "22",
      "r3c2",
      11.94502,
@@ -5633,8 +5633,8 @@
      581.9,
      142,
      84.2,
-     1,
-     0,
+     "ja",
+     "nein",
      "22",
      "r4c2",
      11.5892,
@@ -5654,8 +5654,8 @@
      586.6,
      147,
      87.2,
-     1,
-     0,
+     "ja",
+     "nein",
      "22",
      "r5c2",
      11.89368,
@@ -5675,8 +5675,8 @@
      589.8,
      148,
      87.8,
-     1,
-     0,
+     "ja",
+     "nein",
      "22",
      "r6c2",
      11.60617,
@@ -5696,8 +5696,8 @@
      582.3,
      143,
      84.8,
-     0,
-     0,
+     "nein",
+     "nein",
      "22",
      "r8c2",
      null,
@@ -5717,8 +5717,8 @@
      591.3,
      149,
      88.4,
-     1,
-     0,
+     "ja",
+     "nein",
      "22",
      "r9c2",
      11.53763,
@@ -5738,8 +5738,8 @@
      592.2,
      152,
      90.2,
-     1,
-     0,
+     "ja",
+     "nein",
      "22",
      "r12c2",
      null,
@@ -5759,8 +5759,8 @@
      592.1,
      150,
      89.0,
-     0,
-     0,
+     "nein",
+     "nein",
      "22",
      "r13c2",
      null,
@@ -5780,8 +5780,8 @@
      592.2,
      151,
      89.6,
-     0,
-     0,
+     "nein",
+     "nein",
      "22",
      "r14c2",
      null,
@@ -5801,8 +5801,8 @@
      612.0,
      153,
      90.8,
-     0,
-     0,
+     "nein",
+     "nein",
      "22",
      "r15c2",
      11.90053,
@@ -5822,8 +5822,8 @@
      616.7,
      154,
      91.4,
-     1,
-     0,
+     "ja",
+     "nein",
      "22",
      "r16c2",
      11.53006,
@@ -5843,8 +5843,8 @@
      619.9,
      155,
      92.0,
-     0,
-     0,
+     "nein",
+     "nein",
      "22",
      "r17c2",
      11.57893,
@@ -5864,8 +5864,8 @@
      619.9,
      156,
      92.6,
-     0,
-     0,
+     "nein",
+     "nein",
      "22",
      "r18c2",
      11.61667,
@@ -5885,8 +5885,8 @@
      627.1,
      157,
      93.2,
-     1,
-     0,
+     "ja",
+     "nein",
      "22",
      "r19c2",
      11.60109,
@@ -5906,8 +5906,8 @@
      629.0,
      158,
      93.8,
-     1,
-     0,
+     "ja",
+     "nein",
      "22",
      "r21c2",
      null,
@@ -5927,8 +5927,8 @@
      647.8,
      162,
      96.1,
-     1,
-     0,
+     "ja",
+     "nein",
      "22",
      "r22c2",
      11.57588,
@@ -5948,8 +5948,8 @@
      649.7,
      163,
      96.7,
-     1,
-     0,
+     "ja",
+     "nein",
      "22",
      "r24c2",
      11.47843,
@@ -5969,8 +5969,8 @@
      643.5,
      160,
      94.9,
-     1,
-     0,
+     "ja",
+     "nein",
      "22",
      "r26c2",
      null,
@@ -5990,8 +5990,8 @@
      641.8,
      159,
      94.3,
-     0,
-     0,
+     "nein",
+     "nein",
      "22",
      "r27c2",
      null,
@@ -6011,8 +6011,8 @@
      646.7,
      161,
      95.5,
-     0,
-     0,
+     "nein",
+     "nein",
      "22",
      "r28c2",
      null,
@@ -6032,8 +6032,8 @@
      659.1,
      164,
      97.3,
-     1,
-     0,
+     "ja",
+     "nein",
      "22",
      "r29c2",
      11.60165,
@@ -6053,8 +6053,8 @@
      676.0,
      165,
      97.9,
-     1,
-     0,
+     "ja",
+     "nein",
      "22",
      "r31c2",
      11.53076,
@@ -6074,8 +6074,8 @@
      676.8,
      166,
      98.5,
-     0,
-     0,
+     "nein",
+     "nein",
      "22",
      "r32c2",
      11.49899,
@@ -6095,8 +6095,8 @@
      682.6,
      167,
      99.1,
-     1,
-     0,
+     "ja",
+     "nein",
      "22",
      "r33c2",
      null,
@@ -6116,8 +6116,8 @@
      706.0,
      168,
      99.7,
-     0,
-     0,
+     "nein",
+     "nein",
      "22",
      "r34c2",
      null,
@@ -6236,10 +6236,10 @@
     {
      "name": "in_klammern",
      "label": {
-      "de": "In Klammern gedruckt (1 = ja)",
-      "en": "Printed in brackets (1 = yes)"
+      "de": "In Klammern gedruckt",
+      "en": "Printed in brackets"
      },
-     "type": "integer",
+     "type": "string",
      "unit": null,
      "derived": true
     },
@@ -6271,7 +6271,7 @@
      "Bauwerk, Straße, Quelle u. Ä.",
      500.0,
      188.312,
-     0,
+     "nein",
      "13",
      "r1c1"
     ],
@@ -6283,7 +6283,7 @@
      "Berg, Hügel (benannt)",
      533.0,
      200.741,
-     0,
+     "nein",
      "13",
      "r2c1"
     ],
@@ -6295,7 +6295,7 @@
      "Berg, Hügel (benannt)",
      591.0,
      222.585,
-     0,
+     "nein",
      "13",
      "r3c1"
     ],
@@ -6307,7 +6307,7 @@
      "Bauwerk, Straße, Quelle u. Ä.",
      610.0,
      229.741,
-     0,
+     "nein",
      "13",
      "r4c1"
     ],
@@ -6319,7 +6319,7 @@
      "Höhenpunkt (nach Himmelsrichtung)",
      613.0,
      230.871,
-     0,
+     "nein",
      "13",
      "r5c1"
     ],
@@ -6331,7 +6331,7 @@
      "Berg, Hügel (benannt)",
      625.0,
      235.39,
-     0,
+     "nein",
      "13",
      "r6c1"
     ],
@@ -6343,7 +6343,7 @@
      "Berg, Hügel (benannt)",
      630.0,
      237.273,
-     0,
+     "nein",
      "13",
      "r7c1"
     ],
@@ -6355,7 +6355,7 @@
      "Höhenpunkt (nach Himmelsrichtung)",
      630.0,
      237.273,
-     0,
+     "nein",
      "13",
      "r8c1"
     ],
@@ -6367,7 +6367,7 @@
      "Höhenpunkt (nach Himmelsrichtung)",
      640.0,
      241.039,
-     0,
+     "nein",
      "13",
      "r9c1"
     ],
@@ -6379,7 +6379,7 @@
      "Berg, Hügel (benannt)",
      675.0,
      254.221,
-     0,
+     "nein",
      "13",
      "r10c1"
     ],
@@ -6391,7 +6391,7 @@
      "Berg, Hügel (benannt)",
      680.0,
      256.104,
-     0,
+     "nein",
      "13",
      "r11c1"
     ],
@@ -6403,7 +6403,7 @@
      "Höhenpunkt (nach Himmelsrichtung)",
      681.0,
      256.481,
-     0,
+     "nein",
      "13",
      "r12c1"
     ],
@@ -6415,7 +6415,7 @@
      "Berg, Hügel (benannt)",
      684.0,
      257.611,
-     0,
+     "nein",
      "13",
      "r13c1"
     ],
@@ -6427,7 +6427,7 @@
      "Höhenpunkt (nach Himmelsrichtung)",
      690.0,
      259.871,
-     0,
+     "nein",
      "13",
      "r14c1"
     ],
@@ -6439,7 +6439,7 @@
      "Berg, Hügel (benannt)",
      700.0,
      263.637,
-     0,
+     "nein",
      "13",
      "r15c1"
     ],
@@ -6451,7 +6451,7 @@
      "Höhenpunkt (nach Himmelsrichtung)",
      703.0,
      264.767,
-     0,
+     "nein",
      "13",
      "r16c1"
     ],
@@ -6463,7 +6463,7 @@
      "Höhenpunkt (nach Himmelsrichtung)",
      712.0,
      268.156,
-     0,
+     "nein",
      "13",
      "r17c1"
     ],
@@ -6475,7 +6475,7 @@
      "Bauwerk, Straße, Quelle u. Ä.",
      720.0,
      271.169,
-     0,
+     "nein",
      "13",
      "r18c1"
     ],
@@ -6487,7 +6487,7 @@
      "Berg, Hügel (benannt)",
      730.0,
      274.936,
-     0,
+     "nein",
      "13",
      "r19c1"
     ],
@@ -6499,7 +6499,7 @@
      "Berg, Hügel (benannt)",
      732.0,
      275.689,
-     0,
+     "nein",
      "13",
      "r20c1"
     ],
@@ -6511,7 +6511,7 @@
      "Höhenpunkt (nach Himmelsrichtung)",
      738.0,
      277.949,
-     0,
+     "nein",
      "13",
      "r21c1"
     ],
@@ -6523,7 +6523,7 @@
      "Höhenpunkt (nach Himmelsrichtung)",
      738.0,
      277.949,
-     0,
+     "nein",
      "13",
      "r1c2"
     ],
@@ -6535,7 +6535,7 @@
      "Höhenpunkt (nach Himmelsrichtung)",
      744.0,
      280.208,
-     0,
+     "nein",
      "13",
      "r2c2"
     ],
@@ -6547,7 +6547,7 @@
      "Berg, Hügel (benannt)",
      750.0,
      282.468,
-     0,
+     "nein",
      "13",
      "r3c2"
     ],
@@ -6559,7 +6559,7 @@
      "Höhenpunkt (nach Himmelsrichtung)",
      750.0,
      282.468,
-     0,
+     "nein",
      "13",
      "r4c2"
     ],
@@ -6571,7 +6571,7 @@
      "Höhenpunkt (nach Himmelsrichtung)",
      751.0,
      282.845,
-     0,
+     "nein",
      "13",
      "r5c2"
     ],
@@ -6583,7 +6583,7 @@
      "Höhenpunkt (nach Himmelsrichtung)",
      756.0,
      284.728,
-     0,
+     "nein",
      "13",
      "r6c2"
     ],
@@ -6595,7 +6595,7 @@
      "Höhenpunkt (nach Himmelsrichtung)",
      756.0,
      284.728,
-     0,
+     "nein",
      "13",
      "r7c2"
     ],
@@ -6607,7 +6607,7 @@
      "Berg, Hügel (benannt)",
      756.0,
      284.728,
-     0,
+     "nein",
      "13",
      "r8c2"
     ],
@@ -6619,7 +6619,7 @@
      "Berg, Hügel (benannt)",
      758.0,
      285.481,
-     0,
+     "nein",
      "13",
      "r9c2"
     ],
@@ -6631,7 +6631,7 @@
      "Höhenpunkt (nach Himmelsrichtung)",
      758.0,
      285.481,
-     0,
+     "nein",
      "13",
      "r10c2"
     ],
@@ -6643,7 +6643,7 @@
      "Höhenpunkt (nach Himmelsrichtung)",
      758.0,
      285.481,
-     0,
+     "nein",
      "13",
      "r11c2"
     ],
@@ -6655,7 +6655,7 @@
      "Höhenpunkt (nach Himmelsrichtung)",
      759.0,
      285.858,
-     0,
+     "nein",
      "13",
      "r12c2"
     ],
@@ -6667,7 +6667,7 @@
      "Höhenpunkt (nach Himmelsrichtung)",
      760.0,
      286.234,
-     0,
+     "nein",
      "13",
      "r13c2"
     ],
@@ -6679,7 +6679,7 @@
      "Höhenpunkt (nach Himmelsrichtung)",
      760.0,
      286.234,
-     0,
+     "nein",
      "13",
      "r14c2"
     ],
@@ -6691,7 +6691,7 @@
      "Höhenpunkt (nach Himmelsrichtung)",
      760.0,
      286.234,
-     0,
+     "nein",
      "13",
      "r15c2"
     ],
@@ -6703,7 +6703,7 @@
      "Bauwerk, Straße, Quelle u. Ä.",
      760.0,
      286.234,
-     0,
+     "nein",
      "13",
      "r16c2"
     ],
@@ -6715,7 +6715,7 @@
      "Höhenpunkt (nach Himmelsrichtung)",
      762.0,
      286.988,
-     0,
+     "nein",
      "13",
      "r17c2"
     ],
@@ -6727,7 +6727,7 @@
      "Berg, Hügel (benannt)",
      763.0,
      287.364,
-     0,
+     "nein",
      "13",
      "r18c2"
     ],
@@ -6739,7 +6739,7 @@
      "Berg, Hügel (benannt)",
      763.0,
      287.364,
-     0,
+     "nein",
      "13",
      "r19c2"
     ],
@@ -6751,7 +6751,7 @@
      "Höhenpunkt (nach Himmelsrichtung)",
      763.0,
      287.364,
-     0,
+     "nein",
      "13",
      "r20c2"
     ],
@@ -6763,7 +6763,7 @@
      "Höhenpunkt (nach Himmelsrichtung)",
      768.0,
      289.247,
-     0,
+     "nein",
      "14",
      "l1"
     ],
@@ -6775,7 +6775,7 @@
      "Höhenpunkt (nach Himmelsrichtung)",
      768.0,
      289.247,
-     0,
+     "nein",
      "14",
      "l2"
     ],
@@ -6787,7 +6787,7 @@
      "Höhenpunkt (nach Himmelsrichtung)",
      770.0,
      290.001,
-     0,
+     "nein",
      "14",
      "l3"
     ],
@@ -6799,7 +6799,7 @@
      "Berg, Hügel (benannt)",
      773.0,
      291.131,
-     0,
+     "nein",
      "14",
      "l4"
     ],
@@ -6811,7 +6811,7 @@
      "Bauwerk, Straße, Quelle u. Ä.",
      774.0,
      291.507,
-     0,
+     "nein",
      "14",
      "l5"
     ],
@@ -6823,7 +6823,7 @@
      "Höhenpunkt (nach Himmelsrichtung)",
      775.0,
      291.884,
-     0,
+     "nein",
      "14",
      "l6"
     ],
@@ -6835,7 +6835,7 @@
      "Berg, Hügel (benannt)",
      775.0,
      291.884,
-     0,
+     "nein",
      "14",
      "l7"
     ],
@@ -6847,7 +6847,7 @@
      "Höhenpunkt (nach Himmelsrichtung)",
      775.0,
      291.884,
-     0,
+     "nein",
      "14",
      "l9"
     ],
@@ -6859,7 +6859,7 @@
      "Berg, Hügel (benannt)",
      776.0,
      292.26,
-     0,
+     "nein",
      "14",
      "l10"
     ],
@@ -6871,7 +6871,7 @@
      "Höhenpunkt (nach Himmelsrichtung)",
      776.0,
      292.26,
-     0,
+     "nein",
      "14",
      "l11"
     ],
@@ -6883,7 +6883,7 @@
      "Berg, Hügel (benannt)",
      780.0,
      293.767,
-     0,
+     "nein",
      "14",
      "l12"
     ],
@@ -6895,7 +6895,7 @@
      "Bauwerk, Straße, Quelle u. Ä.",
      780.0,
      293.767,
-     0,
+     "nein",
      "14",
      "l13"
     ],
@@ -6907,7 +6907,7 @@
      "Höhenpunkt (nach Himmelsrichtung)",
      780.0,
      293.767,
-     0,
+     "nein",
      "14",
      "l15"
     ],
@@ -6919,7 +6919,7 @@
      "Höhenpunkt (nach Himmelsrichtung)",
      780.0,
      293.767,
-     0,
+     "nein",
      "14",
      "l16"
     ],
@@ -6931,7 +6931,7 @@
      "Höhenpunkt (nach Himmelsrichtung)",
      780.0,
      293.767,
-     0,
+     "nein",
      "14",
      "l17"
     ],
@@ -6943,7 +6943,7 @@
      "Höhenpunkt (nach Himmelsrichtung)",
      787.0,
      296.403,
-     0,
+     "nein",
      "14",
      "l18"
     ],
@@ -6955,7 +6955,7 @@
      "Berg, Hügel (benannt)",
      789.0,
      297.156,
-     0,
+     "nein",
      "14",
      "l20"
     ],
@@ -6967,7 +6967,7 @@
      "Höhenpunkt (nach Himmelsrichtung)",
      794.0,
      299.04,
-     0,
+     "nein",
      "14",
      "l21"
     ],
@@ -6979,7 +6979,7 @@
      "Höhenpunkt (nach Himmelsrichtung)",
      800.0,
      301.299,
-     0,
+     "nein",
      "14",
      "l22"
     ],
@@ -6991,7 +6991,7 @@
      "Höhenpunkt (nach Himmelsrichtung)",
      800.0,
      301.299,
-     0,
+     "nein",
      "14",
      "l23"
     ],
@@ -7003,7 +7003,7 @@
      "Bauwerk, Straße, Quelle u. Ä.",
      800.0,
      301.299,
-     0,
+     "nein",
      "14",
      "l24"
     ],
@@ -7015,7 +7015,7 @@
      "Berg, Hügel (benannt)",
      801.0,
      301.676,
-     0,
+     "nein",
      "14",
      "l25"
     ],
@@ -7027,7 +7027,7 @@
      "Höhenpunkt (nach Himmelsrichtung)",
      805.0,
      303.182,
-     0,
+     "nein",
      "14",
      "l26"
     ],
@@ -7039,7 +7039,7 @@
      "Berg, Hügel (benannt)",
      809.0,
      304.689,
-     0,
+     "nein",
      "14",
      "l27"
     ],
@@ -7051,7 +7051,7 @@
      "Höhenpunkt (nach Himmelsrichtung)",
      811.0,
      305.442,
-     0,
+     "nein",
      "14",
      "l29"
     ],
@@ -7063,7 +7063,7 @@
      "Höhenpunkt (nach Himmelsrichtung)",
      813.0,
      306.195,
-     0,
+     "nein",
      "14",
      "l31"
     ],
@@ -7075,7 +7075,7 @@
      "Höhenpunkt (nach Himmelsrichtung)",
      815.0,
      306.949,
-     0,
+     "nein",
      "14",
      "l32"
     ],
@@ -7087,7 +7087,7 @@
      "Berg, Hügel (benannt)",
      815.0,
      306.949,
-     0,
+     "nein",
      "14",
      "l33"
     ],
@@ -7099,7 +7099,7 @@
      "Höhenpunkt (nach Himmelsrichtung)",
      816.0,
      307.325,
-     0,
+     "nein",
      "14",
      "l34"
     ],
@@ -7111,7 +7111,7 @@
      "Höhenpunkt (nach Himmelsrichtung)",
      819.0,
      308.455,
-     0,
+     "nein",
      "14",
      "l36"
     ],
@@ -7123,7 +7123,7 @@
      "Bauwerk, Straße, Quelle u. Ä.",
      822.0,
      309.585,
-     0,
+     "nein",
      "14",
      "l38"
     ],
@@ -7135,7 +7135,7 @@
      "Höhenpunkt (nach Himmelsrichtung)",
      824.0,
      310.338,
-     0,
+     "nein",
      "14",
      "l40"
     ],
@@ -7147,7 +7147,7 @@
      "Höhenpunkt (nach Himmelsrichtung)",
      825.0,
      310.715,
-     0,
+     "nein",
      "14",
      "l41"
     ],
@@ -7159,7 +7159,7 @@
      "Höhenpunkt (nach Himmelsrichtung)",
      825.0,
      310.715,
-     0,
+     "nein",
      "14",
      "l42"
     ],
@@ -7171,7 +7171,7 @@
      "Höhenpunkt (nach Himmelsrichtung)",
      825.0,
      310.715,
-     0,
+     "nein",
      "14",
      "l43"
     ],
@@ -7183,7 +7183,7 @@
      "Höhenpunkt (nach Himmelsrichtung)",
      825.0,
      310.715,
-     0,
+     "nein",
      "14",
      "l44"
     ],
@@ -7195,7 +7195,7 @@
      "Höhenpunkt (nach Himmelsrichtung)",
      826.0,
      311.092,
-     0,
+     "nein",
      "14",
      "l46"
     ],
@@ -7207,7 +7207,7 @@
      "Bauwerk, Straße, Quelle u. Ä.",
      827.0,
      311.468,
-     0,
+     "nein",
      "14",
      "l47"
     ],
@@ -7219,7 +7219,7 @@
      "Höhenpunkt (nach Himmelsrichtung)",
      828.0,
      311.845,
-     0,
+     "nein",
      "14",
      "l49"
     ],
@@ -7231,7 +7231,7 @@
      "Höhenpunkt (nach Himmelsrichtung)",
      830.0,
      312.598,
-     0,
+     "nein",
      "14",
      "l1"
     ],
@@ -7243,7 +7243,7 @@
      "Höhenpunkt (nach Himmelsrichtung)",
      831.0,
      312.975,
-     0,
+     "nein",
      "14",
      "l2"
     ],
@@ -7255,7 +7255,7 @@
      "Höhenpunkt (nach Himmelsrichtung)",
      834.0,
      314.105,
-     0,
+     "nein",
      "14",
      "l3"
     ],
@@ -7267,7 +7267,7 @@
      "Berg, Hügel (benannt)",
      836.0,
      314.858,
-     0,
+     "nein",
      "14",
      "l4"
     ],
@@ -7279,7 +7279,7 @@
      "Höhenpunkt (nach Himmelsrichtung)",
      836.0,
      314.858,
-     0,
+     "nein",
      "14",
      "l5"
     ],
@@ -7291,7 +7291,7 @@
      "Höhenpunkt (nach Himmelsrichtung)",
      841.0,
      316.741,
-     0,
+     "nein",
      "14",
      "l7"
     ],
@@ -7303,7 +7303,7 @@
      "Höhenpunkt (nach Himmelsrichtung)",
      847.0,
      319.001,
-     0,
+     "nein",
      "14",
      "l8"
     ],
@@ -7315,7 +7315,7 @@
      "Höhenpunkt (nach Himmelsrichtung)",
      850.0,
      320.131,
-     0,
+     "nein",
      "14",
      "l9"
     ],
@@ -7327,7 +7327,7 @@
      "Berg, Hügel (benannt)",
      850.0,
      320.131,
-     0,
+     "nein",
      "14",
      "l10"
     ],
@@ -7339,7 +7339,7 @@
      "Bauwerk, Straße, Quelle u. Ä.",
      850.0,
      320.131,
-     0,
+     "nein",
      "14",
      "l12"
     ],
@@ -7351,7 +7351,7 @@
      "Höhenpunkt (nach Himmelsrichtung)",
      850.0,
      320.131,
-     0,
+     "nein",
      "14",
      "l13"
     ],
@@ -7363,7 +7363,7 @@
      "Höhenpunkt (nach Himmelsrichtung)",
      855.0,
      322.014,
-     0,
+     "nein",
      "14",
      "l14"
     ],
@@ -7375,7 +7375,7 @@
      "Höhenpunkt (nach Himmelsrichtung)",
      860.0,
      323.897,
-     0,
+     "nein",
      "14",
      "l15"
     ],
@@ -7387,7 +7387,7 @@
      "Höhenpunkt (nach Himmelsrichtung)",
      863.0,
      325.027,
-     0,
+     "nein",
      "14",
      "l16"
     ],
@@ -7399,7 +7399,7 @@
      "Berg, Hügel (benannt)",
      868.0,
      326.91,
-     0,
+     "nein",
      "14",
      "l18"
     ],
@@ -7411,7 +7411,7 @@
      "Höhenpunkt (nach Himmelsrichtung)",
      873.0,
      328.793,
-     0,
+     "nein",
      "14",
      "l19"
     ],
@@ -7423,7 +7423,7 @@
      "Höhenpunkt (nach Himmelsrichtung)",
      876.0,
      329.923,
-     0,
+     "nein",
      "14",
      "l21"
     ],
@@ -7435,7 +7435,7 @@
      "Höhenpunkt (nach Himmelsrichtung)",
      880.0,
      331.429,
-     0,
+     "nein",
      "14",
      "l22"
     ],
@@ -7447,7 +7447,7 @@
      "Berg, Hügel (benannt)",
      880.0,
      331.429,
-     0,
+     "nein",
      "14",
      "l24"
     ],
@@ -7459,7 +7459,7 @@
      "Berg, Hügel (benannt)",
      881.0,
      331.806,
-     0,
+     "nein",
      "14",
      "l25"
     ],
@@ -7471,7 +7471,7 @@
      "Höhenpunkt (nach Himmelsrichtung)",
      882.0,
      332.183,
-     0,
+     "nein",
      "14",
      "l26"
     ],
@@ -7483,7 +7483,7 @@
      "Bauwerk, Straße, Quelle u. Ä.",
      882.0,
      332.183,
-     0,
+     "nein",
      "14",
      "l27"
     ],
@@ -7495,7 +7495,7 @@
      "Höhenpunkt (nach Himmelsrichtung)",
      883.0,
      332.559,
-     0,
+     "nein",
      "14",
      "l28"
     ],
@@ -7507,7 +7507,7 @@
      "Höhenpunkt (nach Himmelsrichtung)",
      885.0,
      333.312,
-     0,
+     "nein",
      "14",
      "l29"
     ],
@@ -7519,7 +7519,7 @@
      "Höhenpunkt (nach Himmelsrichtung)",
      900.0,
      338.962,
-     0,
+     "nein",
      "14",
      "l30"
     ],
@@ -7531,7 +7531,7 @@
      "Höhenpunkt (nach Himmelsrichtung)",
      900.0,
      338.962,
-     0,
+     "nein",
      "14",
      "l31"
     ],
@@ -7543,7 +7543,7 @@
      "Höhenpunkt (nach Himmelsrichtung)",
      912.0,
      343.481,
-     0,
+     "nein",
      "14",
      "l32"
     ],
@@ -7555,7 +7555,7 @@
      "Höhenpunkt (nach Himmelsrichtung)",
      913.0,
      343.858,
-     0,
+     "nein",
      "14",
      "l33"
     ],
@@ -7567,7 +7567,7 @@
      "Höhenpunkt (nach Himmelsrichtung)",
      915.0,
      344.611,
-     0,
+     "nein",
      "14",
      "l34"
     ],
@@ -7579,7 +7579,7 @@
      "Höhenpunkt (nach Himmelsrichtung)",
      915.0,
      344.611,
-     0,
+     "nein",
      "14",
      "l35"
     ],
@@ -7591,7 +7591,7 @@
      "Bauwerk, Straße, Quelle u. Ä.",
      920.0,
      346.494,
-     0,
+     "nein",
      "14",
      "l37"
     ],
@@ -7603,7 +7603,7 @@
      "Berg, Hügel (benannt)",
      922.0,
      347.248,
-     0,
+     "nein",
      "14",
      "l38"
     ],
@@ -7615,7 +7615,7 @@
      "Höhenpunkt (nach Himmelsrichtung)",
      923.0,
      347.624,
-     0,
+     "nein",
      "14",
      "l39"
     ],
@@ -7627,7 +7627,7 @@
      "Berg, Hügel (benannt)",
      925.0,
      348.377,
-     0,
+     "nein",
      "14",
      "l40"
     ],
@@ -7639,7 +7639,7 @@
      "Höhenpunkt (nach Himmelsrichtung)",
      925.0,
      348.377,
-     0,
+     "nein",
      "14",
      "l41"
     ],
@@ -7651,7 +7651,7 @@
      "Berg, Hügel (benannt)",
      928.0,
      349.507,
-     0,
+     "nein",
      "14",
      "l42"
     ],
@@ -7663,7 +7663,7 @@
      "Berg, Hügel (benannt)",
      939.0,
      353.65,
-     0,
+     "nein",
      "14",
      "l44"
     ],
@@ -7675,7 +7675,7 @@
      "Berg, Hügel (benannt)",
      992.0,
      373.611,
-     0,
+     "nein",
      "22",
      "r1c1"
     ],
@@ -7687,7 +7687,7 @@
      "Höhenpunkt (nach Himmelsrichtung)",
      1022.0,
      384.91,
-     0,
+     "nein",
      "22",
      "r2c1"
     ],
@@ -7699,7 +7699,7 @@
      "Berg, Hügel (benannt)",
      1091.0,
      410.897,
-     0,
+     "nein",
      "22",
      "r3c1"
     ],
@@ -7711,7 +7711,7 @@
      "Höhenpunkt (nach Himmelsrichtung)",
      1088.0,
      409.767,
-     0,
+     "nein",
      "22",
      "r5c1"
     ],
@@ -7723,7 +7723,7 @@
      "Höhenpunkt (nach Himmelsrichtung)",
      1098.0,
      413.533,
-     0,
+     "nein",
      "22",
      "r6c1"
     ],
@@ -7735,7 +7735,7 @@
      "Höhenpunkt (nach Himmelsrichtung)",
      1122.0,
      422.572,
-     0,
+     "nein",
      "22",
      "r7c1"
     ],
@@ -7747,7 +7747,7 @@
      "Höhenpunkt (nach Himmelsrichtung)",
      1125.0,
      423.702,
-     0,
+     "nein",
      "22",
      "r8c1"
     ],
@@ -7759,7 +7759,7 @@
      "Berg, Hügel (benannt)",
      1118.0,
      421.066,
-     0,
+     "nein",
      "22",
      "r1c2"
     ],
@@ -7771,7 +7771,7 @@
      "Höhenpunkt (nach Himmelsrichtung)",
      1150.0,
      433.118,
-     0,
+     "nein",
      "22",
      "r2c2"
     ],
@@ -7783,7 +7783,7 @@
      "Berg, Hügel (benannt)",
      1158.0,
      436.131,
-     0,
+     "nein",
      "22",
      "r3c2"
     ],
@@ -7795,7 +7795,7 @@
      "Höhenpunkt (nach Himmelsrichtung)",
      1170.0,
      440.65,
-     0,
+     "nein",
      "22",
      "r4c2"
     ],
@@ -7807,7 +7807,7 @@
      "Höhenpunkt (nach Himmelsrichtung)",
      1173.0,
      441.78,
-     0,
+     "nein",
      "22",
      "r5c2"
     ],
@@ -7819,7 +7819,7 @@
      "Berg, Hügel (benannt)",
      1183.0,
      445.546,
-     0,
+     "nein",
      "22",
      "r6c2"
     ],
@@ -7831,7 +7831,7 @@
      "Berg, Hügel (benannt)",
      1183.2,
      445.622,
-     0,
+     "nein",
      "22",
      "r7c2"
     ],
@@ -7843,7 +7843,7 @@
      "Höhenpunkt (nach Himmelsrichtung)",
      1183.2,
      445.622,
-     0,
+     "nein",
      "23",
      "r1c1"
     ],
@@ -7855,7 +7855,7 @@
      "Höhenpunkt (nach Himmelsrichtung)",
      1200.3,
      452.062,
-     0,
+     "nein",
      "23",
      "r2c1"
     ],
@@ -7867,7 +7867,7 @@
      "Berg, Hügel (benannt)",
      1205.0,
      453.832,
-     0,
+     "nein",
      "23",
      "r3c1"
     ],
@@ -7879,7 +7879,7 @@
      "Berg, Hügel (benannt)",
      1206.0,
      454.209,
-     0,
+     "nein",
      "23",
      "r4c1"
     ],
@@ -7891,7 +7891,7 @@
      "Höhenpunkt (nach Himmelsrichtung)",
      1233.0,
      464.378,
-     0,
+     "nein",
      "23",
      "r5c1"
     ],
@@ -7903,7 +7903,7 @@
      "Höhenpunkt (nach Himmelsrichtung)",
      1237.0,
      465.884,
-     0,
+     "nein",
      "23",
      "r6c1"
     ],
@@ -7915,7 +7915,7 @@
      "Berg, Hügel (benannt)",
      1254.0,
      472.287,
-     0,
+     "nein",
      "23",
      "r7c1"
     ],
@@ -7927,7 +7927,7 @@
      "Höhenpunkt (nach Himmelsrichtung)",
      1257.0,
      473.417,
-     0,
+     "nein",
      "23",
      "r8c1"
     ],
@@ -7939,7 +7939,7 @@
      "Höhenpunkt (nach Himmelsrichtung)",
      1288.0,
      485.092,
-     0,
+     "nein",
      "23",
      "r9c1"
     ],
@@ -7951,7 +7951,7 @@
      "Höhenpunkt (nach Himmelsrichtung)",
      1291.0,
      486.222,
-     0,
+     "nein",
      "23",
      "r10c1"
     ],
@@ -7963,7 +7963,7 @@
      "Höhenpunkt (nach Himmelsrichtung)",
      1297.0,
      488.482,
-     0,
+     "nein",
      "23",
      "r11c1"
     ],
@@ -7975,7 +7975,7 @@
      "Berg, Hügel (benannt)",
      1297.7,
      488.745,
-     0,
+     "nein",
      "23",
      "r12c1"
     ],
@@ -7987,7 +7987,7 @@
      "Berg, Hügel (benannt)",
      1303.0,
      490.741,
-     0,
+     "nein",
      "23",
      "r13c1"
     ],
@@ -7999,7 +7999,7 @@
      "Höhenpunkt (nach Himmelsrichtung)",
      1304.0,
      491.118,
-     0,
+     "nein",
      "23",
      "r14c1"
     ],
@@ -8011,7 +8011,7 @@
      "Höhenpunkt (nach Himmelsrichtung)",
      1308.0,
      492.624,
-     0,
+     "nein",
      "23",
      "r15c1"
     ],
@@ -8023,7 +8023,7 @@
      "Höhenpunkt (nach Himmelsrichtung)",
      1310.0,
      493.378,
-     0,
+     "nein",
      "23",
      "r16c1"
     ],
@@ -8035,7 +8035,7 @@
      "Berg, Hügel (benannt)",
      1317.0,
      496.014,
-     0,
+     "nein",
      "23",
      "r17c1"
     ],
@@ -8047,7 +8047,7 @@
      "Höhenpunkt (nach Himmelsrichtung)",
      1328.0,
      500.157,
-     0,
+     "nein",
      "23",
      "r18c1"
     ],
@@ -8059,7 +8059,7 @@
      "Berg, Hügel (benannt)",
      1330.0,
      500.91,
-     0,
+     "nein",
      "23",
      "r19c1"
     ],
@@ -8071,7 +8071,7 @@
      "Berg, Hügel (benannt)",
      1333.0,
      502.04,
-     0,
+     "nein",
      "23",
      "r20c1"
     ],
@@ -8083,7 +8083,7 @@
      "Höhenpunkt (nach Himmelsrichtung)",
      1340.0,
      504.676,
-     0,
+     "nein",
      "23",
      "r21c1"
     ],
@@ -8095,7 +8095,7 @@
      "Höhenpunkt (nach Himmelsrichtung)",
      1346.0,
      506.936,
-     0,
+     "nein",
      "23",
      "r22c1"
     ],
@@ -8107,7 +8107,7 @@
      "Berg, Hügel (benannt)",
      1350.0,
      508.443,
-     0,
+     "nein",
      "23",
      "r23c1"
     ],
@@ -8119,7 +8119,7 @@
      "Berg, Hügel (benannt)",
      1358.0,
      511.456,
-     0,
+     "nein",
      "23",
      "r24c1"
     ],
@@ -8131,7 +8131,7 @@
      "Höhenpunkt (nach Himmelsrichtung)",
      1359.0,
      511.832,
-     0,
+     "nein",
      "23",
      "r25c1"
     ],
@@ -8143,7 +8143,7 @@
      "Berg, Hügel (benannt)",
      1369.0,
      515.599,
-     0,
+     "nein",
      "23",
      "r26c1"
     ],
@@ -8155,7 +8155,7 @@
      "Höhenpunkt (nach Himmelsrichtung)",
      1373.3,
      517.218,
-     0,
+     "nein",
      "23",
      "r27c1"
     ],
@@ -8167,7 +8167,7 @@
      "Berg, Hügel (benannt)",
      1375.0,
      517.858,
-     0,
+     "nein",
      "23",
      "r28c1"
     ],
@@ -8179,7 +8179,7 @@
      "Berg, Hügel (benannt)",
      1392.0,
      524.261,
-     0,
+     "nein",
      "23",
      "r29c1"
     ],
@@ -8191,7 +8191,7 @@
      "Berg, Hügel (benannt)",
      1400.0,
      527.274,
-     0,
+     "nein",
      "23",
      "r30c1"
     ],
@@ -8203,7 +8203,7 @@
      "Höhenpunkt (nach Himmelsrichtung)",
      1400.0,
      527.274,
-     0,
+     "nein",
      "23",
      "r31c1"
     ],
@@ -8215,7 +8215,7 @@
      "Berg, Hügel (benannt)",
      1400.0,
      527.274,
-     0,
+     "nein",
      "23",
      "r32c1"
     ],
@@ -8227,7 +8227,7 @@
      "Berg, Hügel (benannt)",
      1400.0,
      527.274,
-     0,
+     "nein",
      "23",
      "r33c1"
     ],
@@ -8239,7 +8239,7 @@
      "Berg, Hügel (benannt)",
      1400.0,
      527.274,
-     0,
+     "nein",
      "23",
      "r34c1"
     ],
@@ -8251,7 +8251,7 @@
      "Bauwerk, Straße, Quelle u. Ä.",
      1414.0,
      532.547,
-     0,
+     "nein",
      "23",
      "r35c1"
     ],
@@ -8263,7 +8263,7 @@
      "Höhenpunkt (nach Himmelsrichtung)",
      1432.9,
      539.665,
-     0,
+     "nein",
      "23",
      "r36c1"
     ],
@@ -8275,7 +8275,7 @@
      "Berg, Hügel (benannt)",
      1438.0,
      541.586,
-     0,
+     "nein",
      "23",
      "r37c1"
     ],
@@ -8287,7 +8287,7 @@
      "Berg, Hügel (benannt)",
      1450.0,
      546.105,
-     0,
+     "nein",
      "23",
      "r38c1"
     ],
@@ -8299,7 +8299,7 @@
      "Berg, Hügel (benannt)",
      1450.0,
      546.105,
-     0,
+     "nein",
      "23",
      "r39c1"
     ],
@@ -8311,7 +8311,7 @@
      "Höhenpunkt (nach Himmelsrichtung)",
      1450.0,
      546.105,
-     0,
+     "nein",
      "23",
      "r1c2"
     ],
@@ -8323,7 +8323,7 @@
      "Berg, Hügel (benannt)",
      1450.0,
      546.105,
-     0,
+     "nein",
      "23",
      "r2c2"
     ],
@@ -8335,7 +8335,7 @@
      "Berg, Hügel (benannt)",
      1450.0,
      546.105,
-     0,
+     "nein",
      "23",
      "r3c2"
     ],
@@ -8347,7 +8347,7 @@
      "Berg, Hügel (benannt)",
      1450.0,
      546.105,
-     0,
+     "nein",
      "23",
      "r4c2"
     ],
@@ -8359,7 +8359,7 @@
      "Höhenpunkt (nach Himmelsrichtung)",
      1458.0,
      549.118,
-     0,
+     "nein",
      "23",
      "r5c2"
     ],
@@ -8371,7 +8371,7 @@
      "Berg, Hügel (benannt)",
      1460.0,
      549.871,
-     0,
+     "nein",
      "23",
      "r6c2"
     ],
@@ -8383,7 +8383,7 @@
      "Berg, Hügel (benannt)",
      1461.0,
      550.248,
-     0,
+     "nein",
      "23",
      "r7c2"
     ],
@@ -8395,7 +8395,7 @@
      "Höhenpunkt (nach Himmelsrichtung)",
      1466.0,
      552.131,
-     0,
+     "nein",
      "23",
      "r8c2"
     ],
@@ -8407,7 +8407,7 @@
      "Berg, Hügel (benannt)",
      1484.0,
      558.91,
-     0,
+     "nein",
      "23",
      "r9c2"
     ],
@@ -8419,7 +8419,7 @@
      "Bauwerk, Straße, Quelle u. Ä.",
      1496.0,
      563.43,
-     0,
+     "nein",
      "23",
      "r10c2"
     ],
@@ -8431,7 +8431,7 @@
      "Höhenpunkt (nach Himmelsrichtung)",
      1500.0,
      564.936,
-     0,
+     "nein",
      "23",
      "r11c2"
     ],
@@ -8443,7 +8443,7 @@
      "Berg, Hügel (benannt)",
      1500.0,
      564.936,
-     0,
+     "nein",
      "23",
      "r12c2"
     ],
@@ -8455,7 +8455,7 @@
      "Höhenpunkt (nach Himmelsrichtung)",
      1508.0,
      567.949,
-     0,
+     "nein",
      "23",
      "r13c2"
     ],
@@ -8467,7 +8467,7 @@
      "Berg, Hügel (benannt)",
      1509.0,
      568.326,
-     0,
+     "nein",
      "23",
      "r14c2"
     ],
@@ -8479,7 +8479,7 @@
      "Berg, Hügel (benannt)",
      1510.0,
      568.703,
-     0,
+     "nein",
      "23",
      "r15c2"
     ],
@@ -8491,7 +8491,7 @@
      "Berg, Hügel (benannt)",
      1522.0,
      573.222,
-     0,
+     "nein",
      "23",
      "r16c2"
     ],
@@ -8503,7 +8503,7 @@
      "Höhenpunkt (nach Himmelsrichtung)",
      1522.0,
      573.222,
-     0,
+     "nein",
      "23",
      "r17c2"
     ],
@@ -8515,7 +8515,7 @@
      "Berg, Hügel (benannt)",
      1522.0,
      573.222,
-     0,
+     "nein",
      "23",
      "r18c2"
     ],
@@ -8527,7 +8527,7 @@
      "Höhenpunkt (nach Himmelsrichtung)",
      1525.0,
      574.352,
-     0,
+     "nein",
      "23",
      "r19c2"
     ],
@@ -8539,7 +8539,7 @@
      "Bauwerk, Straße, Quelle u. Ä.",
      1525.0,
      574.352,
-     1,
+     "ja",
      "23",
      "r20c2"
     ],
@@ -8551,7 +8551,7 @@
      "Berg, Hügel (benannt)",
      1530.0,
      576.235,
-     0,
+     "nein",
      "23",
      "r21c2"
     ],
@@ -8563,7 +8563,7 @@
      "Berg, Hügel (benannt)",
      1530.0,
      576.235,
-     0,
+     "nein",
      "23",
      "r22c2"
     ],
@@ -8575,7 +8575,7 @@
      "Höhenpunkt (nach Himmelsrichtung)",
      1533.0,
      577.365,
-     0,
+     "nein",
      "23",
      "r23c2"
     ],
@@ -8587,7 +8587,7 @@
      "Höhenpunkt (nach Himmelsrichtung)",
      1540.0,
      580.001,
-     0,
+     "nein",
      "23",
      "r24c2"
     ],
@@ -8599,7 +8599,7 @@
      "Höhenpunkt (nach Himmelsrichtung)",
      1540.0,
      580.001,
-     0,
+     "nein",
      "23",
      "r25c2"
     ],
@@ -8611,7 +8611,7 @@
      "Berg, Hügel (benannt)",
      1542.0,
      580.755,
-     0,
+     "nein",
      "23",
      "r26c2"
     ],
@@ -8623,7 +8623,7 @@
      "Berg, Hügel (benannt)",
      1550.0,
      583.768,
-     0,
+     "nein",
      "23",
      "r27c2"
     ],
@@ -8635,7 +8635,7 @@
      "Höhenpunkt (nach Himmelsrichtung)",
      1550.0,
      583.768,
-     0,
+     "nein",
      "23",
      "r28c2"
     ],
@@ -8647,7 +8647,7 @@
      "Höhenpunkt (nach Himmelsrichtung)",
      1550.0,
      583.768,
-     0,
+     "nein",
      "23",
      "r29c2"
     ],
@@ -8659,7 +8659,7 @@
      "Berg, Hügel (benannt)",
      1552.0,
      584.521,
-     0,
+     "nein",
      "23",
      "r30c2"
     ],
@@ -8671,7 +8671,7 @@
      "Höhenpunkt (nach Himmelsrichtung)",
      1557.7,
      586.668,
-     0,
+     "nein",
      "23",
      "r31c2"
     ],
@@ -8683,7 +8683,7 @@
      "Höhenpunkt (nach Himmelsrichtung)",
      1557.7,
      586.668,
-     0,
+     "nein",
      "23",
      "r32c2"
     ],
@@ -8695,7 +8695,7 @@
      "Höhenpunkt (nach Himmelsrichtung)",
      1575.0,
      593.183,
-     0,
+     "nein",
      "23",
      "r33c2"
     ],
@@ -8707,7 +8707,7 @@
      "Berg, Hügel (benannt)",
      1575.0,
      593.183,
-     0,
+     "nein",
      "23",
      "r34c2"
     ],
@@ -8719,7 +8719,7 @@
      "Berg, Hügel (benannt)",
      1580.0,
      595.066,
-     0,
+     "nein",
      "23",
      "r35c2"
     ],
@@ -8731,7 +8731,7 @@
      "Höhenpunkt (nach Himmelsrichtung)",
      1580.0,
      595.066,
-     0,
+     "nein",
      "23",
      "r36c2"
     ],
@@ -8743,7 +8743,7 @@
      "Berg, Hügel (benannt)",
      1582.0,
      595.819,
-     0,
+     "nein",
      "23",
      "r37c2"
     ],
@@ -8755,7 +8755,7 @@
      "Berg, Hügel (benannt)",
      1585.0,
      596.949,
-     0,
+     "nein",
      "23",
      "r38c2"
     ],
@@ -8767,7 +8767,7 @@
      "Berg, Hügel (benannt)",
      1585.0,
      596.949,
-     0,
+     "nein",
      "23",
      "r39c2"
     ],
@@ -8779,7 +8779,7 @@
      "Höhenpunkt (nach Himmelsrichtung)",
      1598.0,
      601.845,
-     0,
+     "nein",
      "23",
      "r40c2"
     ],
@@ -8791,7 +8791,7 @@
      "Berg, Hügel (benannt)",
      1600.0,
      602.599,
-     0,
+     "nein",
      "24",
      "r1c1"
     ],
@@ -8803,7 +8803,7 @@
      "Höhenpunkt (nach Himmelsrichtung)",
      1600.0,
      602.599,
-     0,
+     "nein",
      "24",
      "r2c1"
     ],
@@ -8815,7 +8815,7 @@
      "Höhenpunkt (nach Himmelsrichtung)",
      1600.0,
      602.599,
-     0,
+     "nein",
      "24",
      "r3c1"
     ],
@@ -8827,7 +8827,7 @@
      "Höhenpunkt (nach Himmelsrichtung)",
      1600.0,
      602.599,
-     0,
+     "nein",
      "24",
      "r4c1"
     ],
@@ -8839,7 +8839,7 @@
      "Bauwerk, Straße, Quelle u. Ä.",
      1600.0,
      602.599,
-     0,
+     "nein",
      "24",
      "r5c1"
     ],
@@ -8851,7 +8851,7 @@
      "Höhenpunkt (nach Himmelsrichtung)",
      1610.0,
      606.365,
-     0,
+     "nein",
      "24",
      "r6c1"
     ],
@@ -8863,7 +8863,7 @@
      "Berg, Hügel (benannt)",
      1610.0,
      606.365,
-     0,
+     "nein",
      "24",
      "r7c1"
     ],
@@ -8875,7 +8875,7 @@
      "Berg, Hügel (benannt)",
      1615.0,
      608.248,
-     0,
+     "nein",
      "24",
      "r8c1"
     ],
@@ -8887,7 +8887,7 @@
      "Berg, Hügel (benannt)",
      1615.4,
      608.399,
-     0,
+     "nein",
      "24",
      "r9c1"
     ],
@@ -8899,7 +8899,7 @@
      "Berg, Hügel (benannt)",
      1619.0,
      609.755,
-     0,
+     "nein",
      "24",
      "r10c1"
     ],
@@ -8911,7 +8911,7 @@
      "Höhenpunkt (nach Himmelsrichtung)",
      1630.0,
      613.897,
-     0,
+     "nein",
      "24",
      "r11c1"
     ],
@@ -8923,7 +8923,7 @@
      "Höhenpunkt (nach Himmelsrichtung)",
      1630.0,
      613.897,
-     0,
+     "nein",
      "24",
      "r12c1"
     ],
@@ -8935,7 +8935,7 @@
      "Berg, Hügel (benannt)",
      1634.0,
      615.404,
-     0,
+     "nein",
      "24",
      "r13c1"
     ],
@@ -8947,7 +8947,7 @@
      "Berg, Hügel (benannt)",
      1647.0,
      620.3,
-     0,
+     "nein",
      "24",
      "r14c1"
     ],
@@ -8959,7 +8959,7 @@
      "Höhenpunkt (nach Himmelsrichtung)",
      1650.0,
      621.43,
-     0,
+     "nein",
      "24",
      "r15c1"
     ],
@@ -8971,7 +8971,7 @@
      "Berg, Hügel (benannt)",
      1660.0,
      625.196,
-     0,
+     "nein",
      "24",
      "r16c1"
     ],
@@ -8983,7 +8983,7 @@
      "Höhenpunkt (nach Himmelsrichtung)",
      1660.0,
      625.196,
-     0,
+     "nein",
      "24",
      "r17c1"
     ],
@@ -8995,7 +8995,7 @@
      "Höhenpunkt (nach Himmelsrichtung)",
      1660.0,
      625.196,
-     0,
+     "nein",
      "24",
      "r18c1"
     ],
@@ -9007,7 +9007,7 @@
      "Berg, Hügel (benannt)",
      1675.0,
      630.846,
-     0,
+     "nein",
      "24",
      "r19c1"
     ],
@@ -9019,7 +9019,7 @@
      "Berg, Hügel (benannt)",
      1677.0,
      631.599,
-     0,
+     "nein",
      "24",
      "r20c1"
     ],
@@ -9031,7 +9031,7 @@
      "Berg, Hügel (benannt)",
      1677.0,
      631.599,
-     0,
+     "nein",
      "24",
      "r21c1"
     ],
@@ -9043,7 +9043,7 @@
      "Höhenpunkt (nach Himmelsrichtung)",
      1680.0,
      632.729,
-     0,
+     "nein",
      "24",
      "r22c1"
     ],
@@ -9055,7 +9055,7 @@
      "Berg, Hügel (benannt)",
      1680.0,
      632.729,
-     0,
+     "nein",
      "24",
      "r23c1"
     ],
@@ -9067,7 +9067,7 @@
      "Berg, Hügel (benannt)",
      1683.0,
      633.859,
-     0,
+     "nein",
      "24",
      "r24c1"
     ],
@@ -9079,7 +9079,7 @@
      "Berg, Hügel (benannt)",
      1685.0,
      634.612,
-     0,
+     "nein",
      "24",
      "r1c2"
     ],
@@ -9091,7 +9091,7 @@
      "Höhenpunkt (nach Himmelsrichtung)",
      1685.0,
      634.612,
-     0,
+     "nein",
      "24",
      "r2c2"
     ],
@@ -9103,7 +9103,7 @@
      "Berg, Hügel (benannt)",
      1690.0,
      636.495,
-     0,
+     "nein",
      "24",
      "r3c2"
     ],
@@ -9115,7 +9115,7 @@
      "Höhenpunkt (nach Himmelsrichtung)",
      1700.0,
      640.261,
-     0,
+     "nein",
      "24",
      "r4c2"
     ],
@@ -9127,7 +9127,7 @@
      "Berg, Hügel (benannt)",
      1711.0,
      644.404,
-     0,
+     "nein",
      "24",
      "r5c2"
     ],
@@ -9139,7 +9139,7 @@
      "Höhenpunkt (nach Himmelsrichtung)",
      1712.0,
      644.781,
-     0,
+     "nein",
      "24",
      "r6c2"
     ],
@@ -9151,7 +9151,7 @@
      "Berg, Hügel (benannt)",
      1714.0,
      645.534,
-     0,
+     "nein",
      "24",
      "r7c2"
     ],
@@ -9163,7 +9163,7 @@
      "Höhenpunkt (nach Himmelsrichtung)",
      1732.0,
      652.313,
-     0,
+     "nein",
      "24",
      "r8c2"
     ],
@@ -9175,7 +9175,7 @@
      "Berg, Hügel (benannt)",
      1743.0,
      656.456,
-     0,
+     "nein",
      "24",
      "r9c2"
     ],
@@ -9187,7 +9187,7 @@
      "Höhenpunkt (nach Himmelsrichtung)",
      1767.0,
      665.495,
-     0,
+     "nein",
      "24",
      "r10c2"
     ],
@@ -9199,7 +9199,7 @@
      "Bauwerk, Straße, Quelle u. Ä.",
      1772.0,
      667.378,
-     0,
+     "nein",
      "24",
      "r11c2"
     ],
@@ -9211,7 +9211,7 @@
      "Berg, Hügel (benannt)",
      1777.0,
      669.261,
-     0,
+     "nein",
      "24",
      "r12c2"
     ],
@@ -9223,7 +9223,7 @@
      "Berg, Hügel (benannt)",
      1782.0,
      671.144,
-     0,
+     "nein",
      "24",
      "r13c2"
     ],
@@ -9235,7 +9235,7 @@
      "Berg, Hügel (benannt)",
      1802.0,
      678.677,
-     0,
+     "nein",
      "24",
      "r14c2"
     ],
@@ -9247,7 +9247,7 @@
      "Höhenpunkt (nach Himmelsrichtung)",
      1808.0,
      680.937,
-     0,
+     "nein",
      "24",
      "r15c2"
     ],
@@ -9259,7 +9259,7 @@
      "Berg, Hügel (benannt)",
      1809.0,
      681.313,
-     0,
+     "nein",
      "24",
      "r16c2"
     ],
@@ -9271,7 +9271,7 @@
      "Berg, Hügel (benannt)",
      1817.0,
      684.326,
-     0,
+     "nein",
      "24",
      "r17c2"
     ],
@@ -9283,7 +9283,7 @@
      "Berg, Hügel (benannt)",
      1819.0,
      685.079,
-     0,
+     "nein",
      "24",
      "r18c2"
     ],
@@ -9295,7 +9295,7 @@
      "Berg, Hügel (benannt)",
      1875.0,
      706.17,
-     0,
+     "nein",
      "24",
      "r19c2"
     ],
@@ -9307,7 +9307,7 @@
      "Berg, Hügel (benannt)",
      1878.0,
      707.3,
-     0,
+     "nein",
      "24",
      "r20c2"
     ],
@@ -9319,7 +9319,7 @@
      "Berg, Hügel (benannt)",
      1885.0,
      709.937,
-     0,
+     "nein",
      "24",
      "r21c2"
     ],
@@ -9331,7 +9331,7 @@
      "Berg, Hügel (benannt)",
      1897.0,
      714.456,
-     0,
+     "nein",
      "24",
      "r22c2"
     ],
@@ -9343,7 +9343,7 @@
      "Berg, Hügel (benannt)",
      1913.0,
      720.482,
-     0,
+     "nein",
      "24",
      "r23c2"
     ],
@@ -9355,7 +9355,7 @@
      "Berg, Hügel (benannt)",
      1925.0,
      725.002,
-     0,
+     "nein",
      "24",
      "r24c2"
     ],
@@ -9367,7 +9367,7 @@
      "Höhenpunkt (nach Himmelsrichtung)",
      955.0,
      359.676,
-     0,
+     "nein",
      "15",
      "r1c1"
     ],
@@ -9379,7 +9379,7 @@
      "Berg, Hügel (benannt)",
      958.0,
      360.806,
-     0,
+     "nein",
      "15",
      "r3c1"
     ],
@@ -9391,7 +9391,7 @@
      "Höhenpunkt (nach Himmelsrichtung)",
      975.0,
      367.209,
-     0,
+     "nein",
      "15",
      "r4c1"
     ],
@@ -9403,7 +9403,7 @@
      "Berg, Hügel (benannt)",
      975.0,
      367.209,
-     0,
+     "nein",
      "15",
      "r1c2"
     ],
@@ -9415,7 +9415,7 @@
      "Höhenpunkt (nach Himmelsrichtung)",
      975.0,
      367.209,
-     0,
+     "nein",
      "15",
      "r2c2"
     ],
@@ -9427,7 +9427,7 @@
      "Berg, Hügel (benannt)",
      989.0,
      372.481,
-     0,
+     "nein",
      "15",
      "r3c2"
     ]
@@ -9527,16 +9527,6 @@
      "derived": true
     },
     {
-     "name": "label_links",
-     "label": {
-      "de": "Beschriftung links (1 = ja)",
-      "en": "Label on the left (1 = yes)"
-     },
-     "type": "integer",
-     "unit": null,
-     "derived": true
-    },
-    {
      "name": "seite",
      "label": {
       "de": "Seite",
@@ -9554,7 +9544,6 @@
      1925.0,
      725.0,
      "Fichteberg 1925′",
-     0,
      "4"
     ],
     [
@@ -9564,7 +9553,6 @@
      1360.0,
      512.2,
      "Terrasse im Mittel 1360′",
-     0,
      "4"
     ],
     [
@@ -9574,7 +9562,6 @@
      800.0,
      301.3,
      "Leube 800′",
-     0,
      "4"
     ],
     [
@@ -9584,7 +9571,6 @@
      989.0,
      372.5,
      "Scheidberg 989′",
-     0,
      "5"
     ],
     [
@@ -9594,7 +9580,6 @@
      730.0,
      274.9,
      "Terrasse im Mittel 730′",
-     0,
      "4"
     ],
     [
@@ -9604,7 +9589,6 @@
      500.0,
      188.3,
      "Elsterbett im Mittel 500′",
-     0,
      "10"
     ],
     [
@@ -9614,7 +9598,6 @@
      459.0,
      172.9,
      "Elsteraustritt 459′",
-     1,
      "5"
     ]
    ],
@@ -29629,11 +29612,11 @@
    ],
    "title": {
     "de": "Die Höhe der Orte sinkt von 677 m im Südwesten auf 174 m an der Elster",
-    "en": "Altitude of places falls from 677 m in the southwest to 174 m on the Elster"
+    "en": "The places drop from 677 m in the southwest to 174 m on the Elster"
    },
    "caption": {
     "de": "173 von 206 Orten mit Höhenangabe, an der heutigen Ortslage (GeoNames) gekartet. Farbe: Mitte der gedruckten Höhenspanne, aus preußischen Dezimalfuß in Meter umgerechnet. Pfeil: Richtung des steilsten Gefälles im Oberland. Quelle: S. 11 bis 13, 20 bis 22.",
-    "en": "173 of 206 places with a stated altitude, mapped at their present-day location (GeoNames). Color: midpoint of the printed altitude range, converted from Prussian decimal feet to meters. Arrow: direction of steepest descent in the Oberland. Source: pp. 11 to 13, 20 to 22."
+    "en": "173 of 206 places with a stated altitude, mapped at their present-day location (GeoNames). Colour: midpoint of the printed altitude range, converted from Prussian decimal feet to metres. Arrow: direction of steepest descent in the Oberland. Source: pp. 11 to 13, 20 to 22."
    },
    "vegalite": {
     "height": 540,
@@ -29696,7 +29679,7 @@
      {
       "transform": [
        {
-        "filter": "isValid(datum.lon) && isValid(datum.lat) && datum.in_klammern == 0"
+        "filter": "isValid(datum.lon) && isValid(datum.lat) && datum.in_klammern == 'nein'"
        }
       ],
       "mark": {
@@ -29954,11 +29937,11 @@
    ],
    "title": {
     "de": "Die Wohnpunkte des Unterlandes liegen im Median 248 m hoch, die des Oberlandes 509 m",
-    "en": "Unterland inhabited points lie at a median of 248 m, Oberland ones at 509 m"
+    "en": "Unterland places lie at a median of 248 m, Oberland places at 509 m"
    },
    "caption": {
     "de": "Zahl der Wohnpunkte (Orte, Mühlen, Einzelhäuser) je Höhenklasse von 25 m; Linien: Median. Grau: Höhenbereich, den beide Landesteile teilen, vom tiefsten Punkt des Oberlandes (301 m) bis zum höchsten des Unterlandes (372 m). Quelle: S. 4 bis 5, 11 bis 13, 20 bis 22.",
-    "en": "Inhabited points (places, mills, single houses) per altitude class of 25 m; lines: median. Grey: range shared, from the lowest point of the Oberland (301 m) to the highest of the Unterland (372 m). Source: pp. 4 to 5, 11 to 13, 20 to 22."
+    "en": "Inhabited places (villages, mills, single houses) per altitude class of 25 m; lines: median. Grey: range shared, from the lowest point of the Oberland (301 m) to the highest of the Unterland (372 m). Source: pp. 4 to 5, 11 to 13, 20 to 22."
    },
    "vegalite": {
     "height": 300,
@@ -30010,7 +29993,7 @@
      {
       "transform": [
        {
-        "filter": "datum.in_klammern == 0"
+        "filter": "datum.in_klammern == 'nein'"
        }
       ],
       "mark": {
@@ -30107,7 +30090,7 @@
      {
       "transform": [
        {
-        "filter": "datum.in_klammern == 0"
+        "filter": "datum.in_klammern == 'nein'"
        },
        {
         "aggregate": [
@@ -30158,7 +30141,7 @@
      {
       "transform": [
        {
-        "filter": "datum.in_klammern == 0"
+        "filter": "datum.in_klammern == 'nein'"
        },
        {
         "aggregate": [
@@ -30184,12 +30167,14 @@
        "type": "text",
        "style": "label",
        "baseline": "bottom",
-       "dy": -4,
+       "dy": {
+        "expr": "datum.landesteil == 'Unterland' ? -20 : -4"
+       },
        "align": {
-        "expr": "datum.landesteil == 'Unterland' ? 'right' : 'left'"
+        "expr": "datum.landesteil == 'Unterland' ? 'left' : 'right'"
        },
        "dx": {
-        "expr": "datum.landesteil == 'Unterland' ? -6 : 6"
+        "expr": "datum.landesteil == 'Unterland' ? 6 : -6"
        }
       },
       "encoding": {
@@ -30270,524 +30255,343 @@
     "en": "The highest mountains rise only 19 m (Oberland) and 14 m (Unterland) above the highest villages"
    },
    "caption": {
-    "de": "Die sechs höchsten benannten Berge je Landesteil nach Brückners Höhenlisten, in Metern (Dezimalfuß × 0,3766). Quelle: S. 11 bis 15, 20 bis 24.",
-    "en": "The six highest named mountains per part according to Brückner’s height lists, in meters (decimal feet × 0.3766). Source: pp. 11 to 15, 20 to 24."
+    "de": "Die sechs höchsten benannten Berge je Landesteil nach Brückners Höhenlisten, gemessen vom höchsten bewohnten Punkt (Raute), in Metern (Dezimalfuß × 0,3766). Quelle: S. 11 bis 15, 20 bis 24.",
+    "en": "The six highest named mountains of each part in Brückner’s height lists, measured from the highest inhabited place (diamond), in metres (decimal feet × 0.3766). Source: pp. 11 to 15, 20 to 24."
    },
    "vegalite": {
-    "vconcat": [
+    "height": {
+     "step": 24
+    },
+    "transform": [
      {
-      "width": 480,
-      "height": {
-       "step": 24
-      },
-      "title": {
-       "text": {
-        "de": "Oberland (gestrichelt: höchster bewohnter Punkt, Karolinenfeld 706 m)",
-        "en": "Oberland (dashed: highest inhabited point, Karolinenfeld 706 m)"
-       },
-       "anchor": "start",
-       "fontSize": 13,
-       "offset": 6
-      },
-      "encoding": {
-       "y": {
-        "field": "label",
-        "type": "nominal",
-        "sort": {
-         "field": "hoehe_m",
-         "order": "descending"
-        },
-        "axis": {
-         "title": null,
-         "labelLimit": 400,
-         "labelAlign": "left",
-         "labelPadding": 212,
-         "minExtent": 215
-        }
-       }
-      },
-      "layer": [
-       {
-        "transform": [
-         {
-          "filter": "datum.landesteil == 'Oberland' && datum.in_klammern == 0 && datum.art == 'Berg, Hügel (benannt)'"
-         },
-         {
-          "window": [
-           {
-            "op": "row_number",
-            "as": "rang"
-           }
-          ],
-          "sort": [
-           {
-            "field": "hoehe_m",
-            "order": "descending"
-           }
-          ]
-         },
-         {
-          "filter": "datum.rang <= 6"
-         },
-         {
-          "calculate": "replace(datum.kurzname, /\\s*\\([^)]*\\)/g, '')",
-          "as": "label"
-         }
-        ],
-        "mark": {
-         "type": "rule",
-         "strokeWidth": 1.6,
-         "color": "@context"
-        },
-        "encoding": {
-         "x": {
-          "field": "hoehe_m",
-          "type": "quantitative",
-          "scale": {
-           "domain": [
-            150,
-            800
-           ]
-          }
-         },
-         "x2": {
-          "datum": 150
-         }
-        }
-       },
-       {
-        "transform": [
-         {
-          "filter": "datum.landesteil == 'Oberland' && datum.in_klammern == 0 && datum.art == 'Berg, Hügel (benannt)'"
-         },
-         {
-          "window": [
-           {
-            "op": "row_number",
-            "as": "rang"
-           }
-          ],
-          "sort": [
-           {
-            "field": "hoehe_m",
-            "order": "descending"
-           }
-          ]
-         },
-         {
-          "filter": "datum.rang <= 6"
-         },
-         {
-          "calculate": "replace(datum.kurzname, /\\s*\\([^)]*\\)/g, '')",
-          "as": "label"
-         }
-        ],
-        "mark": {
-         "type": "point",
-         "filled": true,
-         "size": 90,
-         "color": "@accent2",
-         "opacity": 1
-        },
-        "encoding": {
-         "x": {
-          "field": "hoehe_m",
-          "type": "quantitative",
-          "scale": {
-           "domain": [
-            150,
-            800
-           ]
-          },
-          "axis": {
-           "title": null,
-           "values": [
-            200,
-            300,
-            400,
-            500,
-            600,
-            700
-           ],
-           "format": "d"
-          }
-         },
-         "tooltip": [
-          {
-           "field": "name",
-           "title": {
-            "de": "Berg",
-            "en": "Mountain"
-           }
-          },
-          {
-           "field": "hoehe_fuss",
-           "title": {
-            "de": "preuß. Dezimalfuß",
-            "en": "Prussian decimal feet"
-           },
-           "format": ",.1~f"
-          },
-          {
-           "field": "hoehe_m",
-           "title": {
-            "de": "Meter",
-            "en": "Meters"
-           },
-           "format": ".0f"
-          },
-          {
-           "field": "seite",
-           "title": {
-            "de": "Seite",
-            "en": "Page"
-           }
-          }
-         ]
-        }
-       },
-       {
-        "transform": [
-         {
-          "filter": "datum.landesteil == 'Oberland' && datum.in_klammern == 0 && datum.art == 'Berg, Hügel (benannt)'"
-         },
-         {
-          "window": [
-           {
-            "op": "row_number",
-            "as": "rang"
-           }
-          ],
-          "sort": [
-           {
-            "field": "hoehe_m",
-            "order": "descending"
-           }
-          ]
-         },
-         {
-          "filter": "datum.rang <= 6"
-         },
-         {
-          "calculate": "replace(datum.kurzname, /\\s*\\([^)]*\\)/g, '')",
-          "as": "label"
-         },
-         {
-          "calculate": "format(datum.hoehe_m, '.0f') + ' m'",
-          "as": "wert"
-         }
-        ],
-        "mark": {
-         "type": "text",
-         "style": "label",
-         "align": "right"
-        },
-        "encoding": {
-         "x": {
-          "datum": 800,
-          "type": "quantitative"
-         },
-         "text": {
-          "field": "wert"
-         }
-        }
-       },
-       {
-        "data": {
-         "name": "places"
-        },
-        "transform": [
-         {
-          "filter": "datum.landesteil == 'Oberland' && datum.in_klammern == 0"
-         },
-         {
-          "aggregate": [
-           {
-            "op": "max",
-            "field": "hoehe_mitte_m",
-            "as": "hoechster_ort"
-           }
-          ]
-         }
-        ],
-        "mark": {
-         "type": "rule",
-         "strokeDash": [
-          4,
-          3
-         ],
-         "strokeWidth": 1.6,
-         "color": "@ink2"
-        },
-        "encoding": {
-         "x": {
-          "field": "hoechster_ort",
-          "type": "quantitative"
-         },
-         "y": null
-        }
-       }
-      ]
+      "calculate": "replace(datum.kurzname, /\\s*\\([^)]*\\)/g, '')",
+      "as": "label"
      },
      {
-      "width": 480,
-      "height": {
-       "step": 24
-      },
-      "title": {
-       "text": {
-        "de": "Unterland (gestrichelt: höchster bewohnter Punkt, Käseschenke 359 m)",
-        "en": "Unterland (dashed: highest inhabited point, Käseschenke 359 m)"
-       },
-       "anchor": "start",
-       "fontSize": 13,
-       "offset": 6
+      "calculate": "substring(datum.landesteil, 0, 1) + '|' + datum.label",
+      "as": "key"
+     },
+     {
+      "filter": "indexof([\"HO\", \"O|Fichteberg\", \"O|Kulm\", \"O|Fels bei Helmsgrün\", \"O|Hohe Tanne\", \"O|Sieglitzberg\", \"O|Finkenberg\", \"O|ref\", \"gap\", \"HU\", \"U|Scheidberg bei Hundhaupten\", \"U|Steinbusch b. Kraftsdorf\", \"U|Käseberg\", \"U|ref\", \"U|Thümmelsberg von Harpersdorf\", \"U|Hart bei Hundhaupten\", \"U|Zippenbusch\"], datum.key) >= 0"
+     },
+     {
+      "calculate": "datum.hoehe_m - (datum.landesteil == 'Oberland' ? 706.0 : 358.9)",
+      "as": "ueber"
+     },
+     {
+      "calculate": "round(datum.ueber) == 0 ? '±0' : (datum.ueber > 0 ? '+' : '−') + format(abs(datum.ueber), '.0f')",
+      "as": "ueber_label"
+     }
+    ],
+    "layer": [
+     {
+      "mark": {
+       "type": "bar",
+       "cornerRadiusEnd": 3
       },
       "encoding": {
        "y": {
-        "field": "label",
+        "field": "key",
         "type": "nominal",
-        "sort": {
-         "field": "hoehe_m",
-         "order": "descending"
+        "scale": {
+         "domain": [
+          "HO",
+          "O|Fichteberg",
+          "O|Kulm",
+          "O|Fels bei Helmsgrün",
+          "O|Hohe Tanne",
+          "O|Sieglitzberg",
+          "O|Finkenberg",
+          "O|ref",
+          "gap",
+          "HU",
+          "U|Scheidberg bei Hundhaupten",
+          "U|Steinbusch b. Kraftsdorf",
+          "U|Käseberg",
+          "U|ref",
+          "U|Thümmelsberg von Harpersdorf",
+          "U|Hart bei Hundhaupten",
+          "U|Zippenbusch"
+         ]
         },
+        "sort": null,
         "axis": {
          "title": null,
-         "labelLimit": 400,
-         "labelAlign": "left",
-         "labelPadding": 212,
-         "minExtent": 215
+         "labelLimit": 260,
+         "labelExpr": {
+          "de": "{\"HO\": \"Oberland\", \"O|Fichteberg\": \"Fichteberg, 725 m\", \"O|Kulm\": \"Kulm, 720 m\", \"O|Fels bei Helmsgrün\": \"Fels bei Helmsgrün, 714 m\", \"O|Hohe Tanne\": \"Hohe Tanne, 710 m\", \"O|Sieglitzberg\": \"Sieglitzberg, 707 m\", \"O|Finkenberg\": \"Finkenberg, 706 m\", \"O|ref\": \"Karolinenfeld (bewohnt), 706 m\", \"HU\": \"Unterland\", \"U|Scheidberg bei Hundhaupten\": \"Scheidberg bei Hundhaupten, 372 m\", \"U|Steinbusch b. Kraftsdorf\": \"Steinbusch b. Kraftsdorf, 367 m\", \"U|Käseberg\": \"Käseberg, 361 m\", \"U|ref\": \"Käseschenke (bewohnt), 359 m\", \"U|Thümmelsberg von Harpersdorf\": \"Thümmelsberg von Harpersdorf, 354 m\", \"U|Hart bei Hundhaupten\": \"Hart bei Hundhaupten, 350 m\", \"U|Zippenbusch\": \"Zippenbusch, 348 m\"}[datum.value] || ''",
+          "en": "{\"HO\": \"Oberland\", \"O|Fichteberg\": \"Fichteberg, 725 m\", \"O|Kulm\": \"Kulm, 720 m\", \"O|Fels bei Helmsgrün\": \"Fels bei Helmsgrün, 714 m\", \"O|Hohe Tanne\": \"Hohe Tanne, 710 m\", \"O|Sieglitzberg\": \"Sieglitzberg, 707 m\", \"O|Finkenberg\": \"Finkenberg, 706 m\", \"O|ref\": \"Karolinenfeld (inhabited), 706 m\", \"HU\": \"Unterland\", \"U|Scheidberg bei Hundhaupten\": \"Scheidberg bei Hundhaupten, 372 m\", \"U|Steinbusch b. Kraftsdorf\": \"Steinbusch b. Kraftsdorf, 367 m\", \"U|Käseberg\": \"Käseberg, 361 m\", \"U|ref\": \"Käseschenke (inhabited), 359 m\", \"U|Thümmelsberg von Harpersdorf\": \"Thümmelsberg von Harpersdorf, 354 m\", \"U|Hart bei Hundhaupten\": \"Hart bei Hundhaupten, 350 m\", \"U|Zippenbusch\": \"Zippenbusch, 348 m\"}[datum.value] || ''"
+         },
+         "labelFontWeight": {
+          "condition": {
+           "test": "datum.value[0] == 'H' || indexof(datum.value, '|ref') > 0",
+           "value": 600
+          },
+          "value": 400
+         },
+         "labelFontSize": {
+          "condition": {
+           "test": "datum.value[0] == 'H'",
+           "value": 13
+          },
+          "value": 12
+         }
         }
+       },
+       "x": {
+        "field": "ueber",
+        "type": "quantitative",
+        "scale": {
+         "domain": [
+          -24,
+          30
+         ]
+        },
+        "axis": {
+         "title": {
+          "de": "Meter über dem höchsten bewohnten Punkt",
+          "en": "Metres above the highest inhabited place"
+         },
+         "titleAnchor": "end",
+         "titleLimit": 400,
+         "values": [
+          -20,
+          -10,
+          0,
+          10,
+          20
+         ],
+         "grid": true,
+         "labelExpr": "(datum.value > 0 ? '+' : '') + datum.value"
+        }
+       },
+       "x2": {
+        "datum": 0
+       },
+       "color": {
+        "condition": [
+         {
+          "test": "datum.ueber < 0",
+          "value": "@context"
+         },
+         {
+          "test": "datum.landesteil == 'Oberland'",
+          "value": "@accent2"
+         }
+        ],
+        "value": "@accent"
+       },
+       "tooltip": [
+        {
+         "field": "name",
+         "title": {
+          "de": "Berg",
+          "en": "Mountain"
+         }
+        },
+        {
+         "field": "hoehe_fuss",
+         "title": {
+          "de": "preuß. Dezimalfuß",
+          "en": "Prussian decimal feet"
+         },
+         "format": ",.1~f"
+        },
+        {
+         "field": "hoehe_m",
+         "title": {
+          "de": "Meter",
+          "en": "Metres"
+         },
+         "format": ".0f"
+        },
+        {
+         "field": "ueber",
+         "title": {
+          "de": "über dem höchsten bewohnten Punkt (m)",
+          "en": "above the highest inhabited place (m)"
+         },
+         "format": "+.0f"
+        },
+        {
+         "field": "seite",
+         "title": {
+          "de": "Seite",
+          "en": "Page"
+         }
+        }
+       ]
+      }
+     },
+     {
+      "mark": {
+       "type": "text",
+       "style": "label",
+       "baseline": "middle",
+       "align": {
+        "expr": "datum.ueber < 0 ? 'right' : 'left'"
+       },
+       "dx": {
+        "expr": "datum.ueber < 0 ? -5 : 5"
        }
       },
-      "layer": [
-       {
-        "transform": [
-         {
-          "filter": "datum.landesteil == 'Unterland' && datum.in_klammern == 0 && datum.art == 'Berg, Hügel (benannt)'"
-         },
-         {
-          "window": [
-           {
-            "op": "row_number",
-            "as": "rang"
-           }
-          ],
-          "sort": [
-           {
-            "field": "hoehe_m",
-            "order": "descending"
-           }
-          ]
-         },
-         {
-          "filter": "datum.rang <= 6"
-         },
-         {
-          "calculate": "replace(datum.kurzname, /\\s*\\([^)]*\\)/g, '')",
-          "as": "label"
-         }
-        ],
-        "mark": {
-         "type": "rule",
-         "strokeWidth": 1.6,
-         "color": "@context"
-        },
-        "encoding": {
-         "x": {
-          "field": "hoehe_m",
-          "type": "quantitative",
-          "scale": {
-           "domain": [
-            150,
-            800
-           ]
-          }
-         },
-         "x2": {
-          "datum": 150
-         }
-        }
-       },
-       {
-        "transform": [
-         {
-          "filter": "datum.landesteil == 'Unterland' && datum.in_klammern == 0 && datum.art == 'Berg, Hügel (benannt)'"
-         },
-         {
-          "window": [
-           {
-            "op": "row_number",
-            "as": "rang"
-           }
-          ],
-          "sort": [
-           {
-            "field": "hoehe_m",
-            "order": "descending"
-           }
-          ]
-         },
-         {
-          "filter": "datum.rang <= 6"
-         },
-         {
-          "calculate": "replace(datum.kurzname, /\\s*\\([^)]*\\)/g, '')",
-          "as": "label"
-         }
-        ],
-        "mark": {
-         "type": "point",
-         "filled": true,
-         "size": 90,
-         "color": "@accent",
-         "opacity": 1
-        },
-        "encoding": {
-         "x": {
-          "field": "hoehe_m",
-          "type": "quantitative",
-          "scale": {
-           "domain": [
-            150,
-            800
-           ]
-          },
-          "axis": {
-           "title": {
-            "de": "Höhe über dem Meer in m",
-            "en": "Altitude above sea level in m"
-           },
-           "values": [
-            200,
-            300,
-            400,
-            500,
-            600,
-            700
-           ],
-           "format": "d"
-          }
-         },
-         "tooltip": [
-          {
-           "field": "name",
-           "title": {
-            "de": "Berg",
-            "en": "Mountain"
-           }
-          },
-          {
-           "field": "hoehe_fuss",
-           "title": {
-            "de": "preuß. Dezimalfuß",
-            "en": "Prussian decimal feet"
-           },
-           "format": ",.1~f"
-          },
-          {
-           "field": "hoehe_m",
-           "title": {
-            "de": "Meter",
-            "en": "Meters"
-           },
-           "format": ".0f"
-          },
-          {
-           "field": "seite",
-           "title": {
-            "de": "Seite",
-            "en": "Page"
-           }
-          }
+      "encoding": {
+       "y": {
+        "field": "key",
+        "type": "nominal",
+        "scale": {
+         "domain": [
+          "HO",
+          "O|Fichteberg",
+          "O|Kulm",
+          "O|Fels bei Helmsgrün",
+          "O|Hohe Tanne",
+          "O|Sieglitzberg",
+          "O|Finkenberg",
+          "O|ref",
+          "gap",
+          "HU",
+          "U|Scheidberg bei Hundhaupten",
+          "U|Steinbusch b. Kraftsdorf",
+          "U|Käseberg",
+          "U|ref",
+          "U|Thümmelsberg von Harpersdorf",
+          "U|Hart bei Hundhaupten",
+          "U|Zippenbusch"
          ]
-        }
-       },
-       {
-        "transform": [
-         {
-          "filter": "datum.landesteil == 'Unterland' && datum.in_klammern == 0 && datum.art == 'Berg, Hügel (benannt)'"
-         },
-         {
-          "window": [
-           {
-            "op": "row_number",
-            "as": "rang"
-           }
-          ],
-          "sort": [
-           {
-            "field": "hoehe_m",
-            "order": "descending"
-           }
-          ]
-         },
-         {
-          "filter": "datum.rang <= 6"
-         },
-         {
-          "calculate": "replace(datum.kurzname, /\\s*\\([^)]*\\)/g, '')",
-          "as": "label"
-         },
-         {
-          "calculate": "format(datum.hoehe_m, '.0f') + ' m'",
-          "as": "wert"
-         }
-        ],
-        "mark": {
-         "type": "text",
-         "style": "label",
-         "align": "right"
         },
-        "encoding": {
-         "x": {
-          "datum": 800,
-          "type": "quantitative"
+        "sort": null,
+        "axis": {
+         "title": null,
+         "labelLimit": 260,
+         "labelExpr": {
+          "de": "{\"HO\": \"Oberland\", \"O|Fichteberg\": \"Fichteberg, 725 m\", \"O|Kulm\": \"Kulm, 720 m\", \"O|Fels bei Helmsgrün\": \"Fels bei Helmsgrün, 714 m\", \"O|Hohe Tanne\": \"Hohe Tanne, 710 m\", \"O|Sieglitzberg\": \"Sieglitzberg, 707 m\", \"O|Finkenberg\": \"Finkenberg, 706 m\", \"O|ref\": \"Karolinenfeld (bewohnt), 706 m\", \"HU\": \"Unterland\", \"U|Scheidberg bei Hundhaupten\": \"Scheidberg bei Hundhaupten, 372 m\", \"U|Steinbusch b. Kraftsdorf\": \"Steinbusch b. Kraftsdorf, 367 m\", \"U|Käseberg\": \"Käseberg, 361 m\", \"U|ref\": \"Käseschenke (bewohnt), 359 m\", \"U|Thümmelsberg von Harpersdorf\": \"Thümmelsberg von Harpersdorf, 354 m\", \"U|Hart bei Hundhaupten\": \"Hart bei Hundhaupten, 350 m\", \"U|Zippenbusch\": \"Zippenbusch, 348 m\"}[datum.value] || ''",
+          "en": "{\"HO\": \"Oberland\", \"O|Fichteberg\": \"Fichteberg, 725 m\", \"O|Kulm\": \"Kulm, 720 m\", \"O|Fels bei Helmsgrün\": \"Fels bei Helmsgrün, 714 m\", \"O|Hohe Tanne\": \"Hohe Tanne, 710 m\", \"O|Sieglitzberg\": \"Sieglitzberg, 707 m\", \"O|Finkenberg\": \"Finkenberg, 706 m\", \"O|ref\": \"Karolinenfeld (inhabited), 706 m\", \"HU\": \"Unterland\", \"U|Scheidberg bei Hundhaupten\": \"Scheidberg bei Hundhaupten, 372 m\", \"U|Steinbusch b. Kraftsdorf\": \"Steinbusch b. Kraftsdorf, 367 m\", \"U|Käseberg\": \"Käseberg, 361 m\", \"U|ref\": \"Käseschenke (inhabited), 359 m\", \"U|Thümmelsberg von Harpersdorf\": \"Thümmelsberg von Harpersdorf, 354 m\", \"U|Hart bei Hundhaupten\": \"Hart bei Hundhaupten, 350 m\", \"U|Zippenbusch\": \"Zippenbusch, 348 m\"}[datum.value] || ''"
          },
-         "text": {
-          "field": "wert"
+         "labelFontWeight": {
+          "condition": {
+           "test": "datum.value[0] == 'H' || indexof(datum.value, '|ref') > 0",
+           "value": 600
+          },
+          "value": 400
+         },
+         "labelFontSize": {
+          "condition": {
+           "test": "datum.value[0] == 'H'",
+           "value": 13
+          },
+          "value": 12
          }
         }
        },
-       {
-        "data": {
-         "name": "places"
-        },
-        "transform": [
-         {
-          "filter": "datum.landesteil == 'Unterland' && datum.in_klammern == 0"
-         },
-         {
-          "aggregate": [
-           {
-            "op": "max",
-            "field": "hoehe_mitte_m",
-            "as": "hoechster_ort"
-           }
-          ]
-         }
-        ],
-        "mark": {
-         "type": "rule",
-         "strokeDash": [
-          4,
-          3
-         ],
-         "strokeWidth": 1.6,
-         "color": "@ink2"
-        },
-        "encoding": {
-         "x": {
-          "field": "hoechster_ort",
-          "type": "quantitative"
-         },
-         "y": null
-        }
+       "x": {
+        "field": "ueber",
+        "type": "quantitative"
+       },
+       "text": {
+        "field": "ueber_label"
        }
-      ]
+      }
+     },
+     {
+      "data": {
+       "name": "places"
+      },
+      "transform": [
+       {
+        "filter": "(datum.landesteil == 'Oberland' && datum.name == 'Karolinenfeld') || (datum.landesteil == 'Unterland' && datum.name == 'Käseschenke')"
+       },
+       {
+        "calculate": "substring(datum.landesteil, 0, 1) + '|ref'",
+        "as": "key"
+       }
+      ],
+      "mark": {
+       "type": "point",
+       "shape": "diamond",
+       "filled": true,
+       "size": 90,
+       "color": "@ink"
+      },
+      "encoding": {
+       "y": {
+        "field": "key",
+        "type": "nominal",
+        "scale": {
+         "domain": [
+          "HO",
+          "O|Fichteberg",
+          "O|Kulm",
+          "O|Fels bei Helmsgrün",
+          "O|Hohe Tanne",
+          "O|Sieglitzberg",
+          "O|Finkenberg",
+          "O|ref",
+          "gap",
+          "HU",
+          "U|Scheidberg bei Hundhaupten",
+          "U|Steinbusch b. Kraftsdorf",
+          "U|Käseberg",
+          "U|ref",
+          "U|Thümmelsberg von Harpersdorf",
+          "U|Hart bei Hundhaupten",
+          "U|Zippenbusch"
+         ]
+        },
+        "sort": null,
+        "axis": {
+         "title": null,
+         "labelLimit": 260,
+         "labelExpr": {
+          "de": "{\"HO\": \"Oberland\", \"O|Fichteberg\": \"Fichteberg, 725 m\", \"O|Kulm\": \"Kulm, 720 m\", \"O|Fels bei Helmsgrün\": \"Fels bei Helmsgrün, 714 m\", \"O|Hohe Tanne\": \"Hohe Tanne, 710 m\", \"O|Sieglitzberg\": \"Sieglitzberg, 707 m\", \"O|Finkenberg\": \"Finkenberg, 706 m\", \"O|ref\": \"Karolinenfeld (bewohnt), 706 m\", \"HU\": \"Unterland\", \"U|Scheidberg bei Hundhaupten\": \"Scheidberg bei Hundhaupten, 372 m\", \"U|Steinbusch b. Kraftsdorf\": \"Steinbusch b. Kraftsdorf, 367 m\", \"U|Käseberg\": \"Käseberg, 361 m\", \"U|ref\": \"Käseschenke (bewohnt), 359 m\", \"U|Thümmelsberg von Harpersdorf\": \"Thümmelsberg von Harpersdorf, 354 m\", \"U|Hart bei Hundhaupten\": \"Hart bei Hundhaupten, 350 m\", \"U|Zippenbusch\": \"Zippenbusch, 348 m\"}[datum.value] || ''",
+          "en": "{\"HO\": \"Oberland\", \"O|Fichteberg\": \"Fichteberg, 725 m\", \"O|Kulm\": \"Kulm, 720 m\", \"O|Fels bei Helmsgrün\": \"Fels bei Helmsgrün, 714 m\", \"O|Hohe Tanne\": \"Hohe Tanne, 710 m\", \"O|Sieglitzberg\": \"Sieglitzberg, 707 m\", \"O|Finkenberg\": \"Finkenberg, 706 m\", \"O|ref\": \"Karolinenfeld (inhabited), 706 m\", \"HU\": \"Unterland\", \"U|Scheidberg bei Hundhaupten\": \"Scheidberg bei Hundhaupten, 372 m\", \"U|Steinbusch b. Kraftsdorf\": \"Steinbusch b. Kraftsdorf, 367 m\", \"U|Käseberg\": \"Käseberg, 361 m\", \"U|ref\": \"Käseschenke (inhabited), 359 m\", \"U|Thümmelsberg von Harpersdorf\": \"Thümmelsberg von Harpersdorf, 354 m\", \"U|Hart bei Hundhaupten\": \"Hart bei Hundhaupten, 350 m\", \"U|Zippenbusch\": \"Zippenbusch, 348 m\"}[datum.value] || ''"
+         },
+         "labelFontWeight": {
+          "condition": {
+           "test": "datum.value[0] == 'H' || indexof(datum.value, '|ref') > 0",
+           "value": 600
+          },
+          "value": 400
+         },
+         "labelFontSize": {
+          "condition": {
+           "test": "datum.value[0] == 'H'",
+           "value": 13
+          },
+          "value": 12
+         }
+        }
+       },
+       "x": {
+        "datum": 0
+       },
+       "tooltip": [
+        {
+         "field": "name",
+         "title": {
+          "de": "Höchster bewohnter Punkt",
+          "en": "Highest inhabited place"
+         }
+        },
+        {
+         "field": "hoehe_mitte_m",
+         "title": {
+          "de": "Meter",
+          "en": "Metres"
+         },
+         "format": ".0f"
+        },
+        {
+         "field": "seite",
+         "title": {
+          "de": "Seite",
+          "en": "Page"
+         }
+        }
+       ]
+      }
      }
-    ],
-    "spacing": 24
+    ]
    }
   }
  ],
@@ -30825,6 +30629,5 @@
   "geologie-boden",
   "klima-stationen"
  ],
- "generated_by": "Claude Sonnet 5.5 (Agent F1), aus 5 Einzelauswertungen zusammengeführt",
  "date": "2026-10-02"
 }

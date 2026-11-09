@@ -41,7 +41,7 @@
    "id": "b2",
    "type": "paragraph",
    "src": 1,
-   "text": "Seeligenstädt (urkundlich 1364 Selgenstad, später Seligstett, 1647 Seelstädt, im Volke „Saalschz“ oder auch „Säältscht“), Dörfchen, 2 1/2 Stunde fast N. von Gera und 1 1/4 Stunde NWN. von Dorna, auf der Hochebene, nahe der gera=zeitzer Strasse, am Anfange einer sanften Einsenkung zum Agathal, ohne Bach, Umhöhen und Wald, daher frei und trocken gelegen und längs einer Strasse von W. nach O. ansteigend, befasst 1 Gemeindehaus, 16 Privathäuser mit 7 Scheunen und 9 Höfen, in 19 Familien 95 (1861: 78) Einw. und an Vieh 10 Pf., 38 R., 29 Schw., 5 Z., 30 G. Mit Ziegeln sind 15 Häuser, mit Stroh und Schindeln je 1 gedeckt; 12 sind zwei= und 5 einstöckig. Der Ort pfarrt, begräbt und schult nach Dorna, nur besuchen auf Grund eines Abkommens die Kinder von 6—10 Jahren die näher gelegene Schule zu Grossaga. Wenn auch die Erwachsenen ausser an hohen Festtagen und ausser der Abendmahlsfeier nach Grossaga statt nach Dorna zur Kirche gehen, so beruht dies auf keinem Vertrage. Zu Seeligenstädt besteht ein zu Kleinaga geschlagenes Kammergutsvorwerk. Dasselbe war ursprünglich ein Rittergut, als dessen Besitzer die v. Schauroth 1584 und die v. Ende 1602 erwähnt werden. Von 1602—1826 ist stets mit dem Rittergute zu Dorna verbunden gewesen. In dem letzteren Jahre verkaufte Fr. Erdm. Hermann, der Besitzer beider Güter, das Gut zu Dorna, behielt Seeligenstädt für sich, überliess jedoch dasselbe noch im Jahre 1826 käuflich an die fürstliche Kammer, welche es nun mit dem Kammergute zu Kleinaga vereinigte. Dadurch gingen die Erbgerichte und Lehn an die Landesherrschaft über. Die Vorwerksgebäude sind alt und in keinem guten Zustande. Im Orte 1 Privatwirthshaus und östlich davon, an der Hochstrasse, eine im Jahre 1824 angelegte, zum Vorwerke bis 1846 gehörige, darauf verkaufte Ziegelei. Die Gemeinde besitzt ausser 1 Gemeindehause mit 1 Garten im Werthe von 250 Thlr. kein Vermögen, dagegen 400 Thlr. Schulden. Ihre Jahresbedürfnisse betragen circa 40 Thlr. Mit Kleinaga und Reichenbach hat sie 1 Feuerspritze, die zu Kleinaga steht, gemeinschaftlich. 1 Dorfstrasse und 4 Communications= und Vicinalwege sind zu erhalten. Neben dem Vorwerks=",
+   "text": "Seeligenstädt (urkundlich 1364 Selgenstad, später Seligstett, 1647 Seelstädt, im Volke „Saalschz“ oder auch „Säältscht“), Dörfchen, 2 1/2 Stunde fast N. von Gera und 1 1/4 Stunde NWN. von Dorna, auf der Hochebene, nahe der gera-zeitzer Strasse, am Anfange einer sanften Einsenkung zum Agathal, ohne Bach, Umhöhen und Wald, daher frei und trocken gelegen und längs einer Strasse von W. nach O. ansteigend, befasst 1 Gemeindehaus, 16 Privathäuser mit 7 Scheunen und 9 Höfen, in 19 Familien 95 (1861: 78) Einw. und an Vieh 10 Pf., 38 R., 29 Schw., 5 Z., 30 G. Mit Ziegeln sind 15 Häuser, mit Stroh und Schindeln je 1 gedeckt; 12 sind zwei- und 5 einstöckig. Der Ort pfarrt, begräbt und schult nach Dorna, nur besuchen auf Grund eines Abkommens die Kinder von 6—10 Jahren die näher gelegene Schule zu Grossaga. Wenn auch die Erwachsenen ausser an hohen Festtagen und ausser der Abendmahlsfeier nach Grossaga statt nach Dorna zur Kirche gehen, so beruht dies auf keinem Vertrage. Zu Seeligenstädt besteht ein zu Kleinaga geschlagenes Kammergutsvorwerk. Dasselbe war ursprünglich ein Rittergut, als dessen Besitzer die v. Schauroth 1584 und die v. Ende 1602 erwähnt werden. Von 1602—1826 ist stets mit dem Rittergute zu Dorna verbunden gewesen. In dem letzteren Jahre verkaufte Fr. Erdm. Hermann, der Besitzer beider Güter, das Gut zu Dorna, behielt Seeligenstädt für sich, überliess jedoch dasselbe noch im Jahre 1826 käuflich an die fürstliche Kammer, welche es nun mit dem Kammergute zu Kleinaga vereinigte. Dadurch gingen die Erbgerichte und Lehn an die Landesherrschaft über. Die Vorwerksgebäude sind alt und in keinem guten Zustande. Im Orte 1 Privatwirthshaus und östlich davon, an der Hochstrasse, eine im Jahre 1824 angelegte, zum Vorwerke bis 1846 gehörige, darauf verkaufte Ziegelei. Die Gemeinde besitzt ausser 1 Gemeindehause mit 1 Garten im Werthe von 250 Thlr. kein Vermögen, dagegen 400 Thlr. Schulden. Ihre Jahresbedürfnisse betragen circa 40 Thlr. Mit Kleinaga und Reichenbach hat sie 1 Feuerspritze, die zu Kleinaga steht, gemeinschaftlich. 1 Dorfstrasse und 4 Communications- und Vicinalwege sind zu erhalten. Neben dem Vorwerks-",
    "spans": [
     [
      0,
@@ -190,11 +190,36 @@
     ]
    ],
    "continues": true,
+   "word_division": {
+    "word": "Vorwerksareal",
+    "part": "Vorwerks-"
+   },
    "sec": "t2-1"
   }
  ],
  "footnotes": [],
- "corrections": [],
+ "corrections": [
+  {
+   "rule": "fraktur_double_hyphen",
+   "before": "dem Vorwerks=",
+   "after": "dem Vorwerks-"
+  },
+  {
+   "rule": "fraktur_double_hyphen",
+   "before": "mmunications= und Vicinalw",
+   "after": "mmunications- und Vicina"
+  },
+  {
+   "rule": "fraktur_double_hyphen",
+   "before": "12 sind zwei= und 5 einstö",
+   "after": "12 sind zwei- und 5 eins"
+  },
+  {
+   "rule": "fraktur_double_hyphen",
+   "before": "ahe der gera=zeitzer Stra",
+   "after": "ahe der gera-zeitzer Str"
+  }
+ ],
  "provenance": {
   "source": "colab-2026-03",
   "model": "gemini-3-flash-preview",

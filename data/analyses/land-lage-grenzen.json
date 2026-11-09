@@ -71,7 +71,7 @@
  ],
  "summary": {
   "de": "Brückner druckt Länge und Breite von 57 trigonometrisch bestimmten Punkten, den Umfang beider Landesteile nach Nachbarstaaten und mehrere Flächenangaben. Das Fürstentum besteht aus dem Oberland (11,03 Quadratmeilen) und dem Unterland (4,03), zwischen denen Weimarer Gebiet liegt. Die Fläche wurde von 21,1 auf 15,06 Quadratmeilen herabgesetzt, umgerechnet rund 829 km².",
-  "en": "Brückner prints longitude and latitude of 57 points fixed by triangulation, the perimeter of both parts by neighboring state, and several area figures. The principality consists of the Oberland (11.03 square miles) and the Unterland (4.03), with Weimar territory between them. The area was revised from 21.1 to 15.06 square miles, about 829 km² converted."
+  "en": "Brückner prints the longitude and latitude of 57 triangulated points, the length of the border with each neighbouring state and several area figures. The principality consists of the Oberland (11.03 square miles) and the Unterland (4.03), separated by Weimar territory. The area figure was revised from 21.1 to 15.06 square miles, about 829 km²."
  },
  "findings": [
   {
@@ -79,17 +79,17 @@
    "en": "Converting Brückner’s longitudes from Ferro to Greenwich puts 44 points a median of 0.2 km from the present-day location; only Geissen is off, by 11 km."
   },
   {
-   "de": "Das Oberland grenzt mit 22 von 48 Stunden Umfang an Reuß älterer Linie; die Hälfte des Unterlandes (9 von 18 Stunden) grenzt an Altenburg.",
-   "en": "The Oberland borders Reuss (Elder Line) for 22 of 48 Stunden of its perimeter; half of the Unterland (9 of 18 Stunden) borders Altenburg."
+   "de": "Das Oberland grenzt mit 22 von 48 Stunden Umfang an Reuß älterer Linie; die Hälfte der Grenze des Unterlandes (9 von 18 Stunden) verläuft gegen Altenburg.",
+   "en": "Of the Oberland’s 48 Stunden of border, 22 adjoin Reuss (Elder Line); half of the Unterland’s border (9 of 18 Stunden) adjoins Altenburg."
   },
   {
-   "de": "Auch das einzige gleich abgegrenzte Gebiet, Lobenstein-Ebersdorf, schrumpfte von 7,75 auf 4,83 Quadratmeilen (minus 38 Prozent); die Landesvermessung ergibt 316.738 preußische Morgen oder 808,7 km².",
-   "en": "Even the one identically delimited area, Lobenstein-Ebersdorf, shrank from 7.75 to 4.83 square miles (minus 38 percent); the land survey gives 316,738 Prussian Morgen, or 808.7 km²."
+   "de": "Auch Lobenstein-Ebersdorf, in beiden Tabellen gleich abgegrenzt, schrumpfte von 7,75 auf 4,83 Quadratmeilen (minus 38 Prozent); die Landesvermessung ergibt 316.738 preußische Morgen oder 808,7 km².",
+   "en": "Even Lobenstein-Ebersdorf, delimited alike in both tables, shrank from 7.75 to 4.83 square miles (minus 38 percent); the land survey gives 316,738 Prussian Morgen, or 808.7 km²."
   }
  ],
  "method": {
   "de": "Die Koordinaten der Punkte stehen in den Tabellen auf S. 6 und 7, die Grenzwerte der Landesteile über der Tabelle auf S. 6. Länge ist bei Brückner östlich von Ferro gezählt; für die Karte wurden 17° 40′ abgezogen (Ferro liegt genauer 17° 39′ 46″ westlich von Greenwich). Der Abstand zur Ortslage in GeoNames dient als Gegenprobe der Umrechnung. Die Zuordnung zum Oberland oder Unterland folgt der gedruckten Südgrenze des Unterlandes. Die Grenzlängen (S. 5) stehen im Fließtext; gemischte Brüche wurden in Dezimalzahlen umgesetzt, die Teilwerte ergeben genau 48 und 18 Stunden. Die Flächenangaben stammen von S. 7 und 8; Morgen wurden mit Brückners Faktor (S. 832) in Hektar, Quadratmeilen mit der geographischen Quadratmeile in km² umgerechnet. Dass Brückner diese Meile meint, ist eine Annahme, die die Gesamtzahlen stützen. Kilometerangaben zu den Grenzwerten sind Näherungen (1° Breite = 111,2 km).",
-  "en": "The coordinates of the points are in the tables on pp. 6 and 7, the limits of the two parts above the table on p. 6. Brückner counts longitude east of Ferro; for the map 17° 40′ were subtracted (more precisely Ferro lies 17° 39′ 46″ west of Greenwich). The distance to the location in GeoNames serves as a check of the conversion. Assignment to the Oberland or Unterland follows the printed southern limit of the Unterland. The boundary lengths (p. 5) are in the running text; mixed fractions were converted to decimals, and the partial values add up exactly to 48 and 18 Stunden. The area figures come from pp. 7 and 8; Morgen were converted to hectares with Brückner’s factor (p. 832), square miles to km² with the geographical square mile. That Brückner means this mile is an assumption supported by the totals. Kilometer figures for the limits are approximations (1° latitude = 111.2 km)."
+  "en": "The coordinates of the points are in the tables on pp. 6 and 7, the limits of the two parts above the table on p. 6. Brückner counts longitude east of Ferro; for the map 17° 40′ were subtracted (more precisely Ferro lies 17° 39′ 46″ west of Greenwich). The distance to the location in GeoNames serves as a check of the conversion. Assignment to the Oberland or Unterland follows the printed southern limit of the Unterland. The boundary lengths (p. 5) are in the running text; mixed fractions were converted to decimals, and the partial values add up exactly to 48 and 18 Stunden. The area figures come from pp. 7 and 8; Morgen were converted to hectares with Brückner’s factor (p. 832), square miles to km² with the geographical square mile. That Brückner means this mile is an assumption supported by the totals. Kilometre figures for the limits are approximations (1° latitude = 111.2 km)."
  },
  "conversions": [
   {
@@ -128,11 +128,11 @@
   },
   {
    "de": "Die Stunde ist vermutlich ein Wegmaß, das Brückner nicht erklärt; seine Maßtabelle (S. 831 bis 832) enthält keine Wegstunde. Die Grenzlängen sind daher nur untereinander vergleichbar und lassen sich nicht in Kilometer umrechnen.",
-   "en": "The Stunde is presumably a measure of walking distance that Brückner does not explain; his table of units (pp. 831 to 832) contains no walking hour. The boundary lengths are therefore comparable only with each other and cannot be converted to kilometers."
+   "en": "The Stunde is presumably a measure of walking distance that Brückner does not explain; his table of units (pp. 831 to 832) contains no walking hour. The boundary lengths are therefore comparable only with each other and cannot be converted to kilometres."
   },
   {
    "de": "Die Teilsummen der Quellen sind nicht gleich gruppiert, und die Morgen der Landesvermessung verhalten sich nicht proportional zu ihren Quadratmeilen. Von Brückners Größenvergleichen mit sechs Nachbarstaaten stimmt nur einer nicht: Das Fürstentum ist nach seinen Zahlen um 48 Prozent größer als Sachsen-Koburg, nicht um ein Drittel.",
-   "en": "The partial sums of the sources are not grouped identically, and the Morgen of the land survey are not proportional to their square miles. Of Brückner’s size comparisons with six neighboring states only one does not hold: by his figures the principality is 48 percent larger than Saxe-Coburg, not a third."
+   "en": "The partial sums of the sources are not grouped identically, and the Morgen of the land survey are not proportional to their square miles. Of Brückner’s size comparisons with six neighbouring states only one does not hold: by his figures the principality is 48 percent larger than Saxe-Coburg, not a third."
   }
  ],
  "transcription_issues": [
@@ -327,24 +327,12 @@
     {
      "name": "in_klammern",
      "label": {
-      "de": "In Klammern gedruckt (1 = ja)",
-      "en": "Printed in brackets (1 = yes)"
+      "de": "In Klammern gedruckt",
+      "en": "Printed in brackets"
      },
-     "type": "integer",
+     "type": "string",
      "unit": null,
-     "derived": true,
-     "note": "Codierung 0/1 editorisch"
-    },
-    {
-     "name": "beschriftet",
-     "label": {
-      "de": "Auf der Karte beschriftet (1 = ja)",
-      "en": "Labelled on the map (1 = yes)"
-     },
-     "type": "integer",
-     "unit": null,
-     "derived": true,
-     "note": "Codierung 0/1 editorisch"
+     "derived": true
     },
     {
      "name": "seite",
@@ -394,8 +382,7 @@
      29.12833,
      11.46167,
      50.47083,
-     0,
-     0,
+     "nein",
      "6",
      "W",
      1.26
@@ -415,8 +402,7 @@
      29.16903,
      11.50236,
      50.43194,
-     0,
-     0,
+     "nein",
      "6",
      null,
      0.32
@@ -436,8 +422,7 @@
      29.16772,
      11.50105,
      50.46933,
-     0,
-     0,
+     "nein",
      "6",
      null,
      null
@@ -457,8 +442,7 @@
      29.19444,
      11.52778,
      50.39361,
-     0,
-     0,
+     "nein",
      "6",
      "S",
      0.79
@@ -478,8 +462,7 @@
      29.20429,
      11.53762,
      50.5253,
-     0,
-     0,
+     "nein",
      "6",
      null,
      0.24
@@ -499,8 +482,7 @@
      29.24239,
      11.57572,
      50.51045,
-     0,
-     0,
+     "nein",
      "6",
      null,
      0.04
@@ -520,8 +502,7 @@
      29.2444,
      11.57774,
      50.47357,
-     0,
-     0,
+     "nein",
      "6",
      null,
      0.16
@@ -541,8 +522,7 @@
      29.2635,
      11.59684,
      50.49544,
-     0,
-     0,
+     "nein",
      "6",
      null,
      0.32
@@ -562,8 +542,7 @@
      29.26756,
      11.60089,
      50.49778,
-     0,
-     0,
+     "nein",
      "6",
      null,
      0.15
@@ -583,8 +562,7 @@
      29.28833,
      11.62167,
      50.47361,
-     0,
-     0,
+     "nein",
      "6",
      null,
      0.19
@@ -604,8 +582,7 @@
      29.2972,
      11.63053,
      50.40916,
-     0,
-     0,
+     "nein",
      "6",
      null,
      null
@@ -625,8 +602,7 @@
      29.30765,
      11.64098,
      50.4467,
-     0,
-     1,
+     "nein",
      "6",
      null,
      0.63
@@ -646,8 +622,7 @@
      29.32446,
      11.65779,
      50.47846,
-     0,
-     0,
+     "nein",
      "6",
      null,
      0.14
@@ -667,8 +642,7 @@
      29.33333,
      11.66667,
      null,
-     0,
-     0,
+     "nein",
      "6",
      null,
      null
@@ -688,8 +662,7 @@
      29.33361,
      11.66694,
      50.48472,
-     0,
-     0,
+     "nein",
      "6",
      null,
      0.05
@@ -709,8 +682,7 @@
      29.35139,
      11.68472,
      50.41972,
-     0,
-     0,
+     "nein",
      "6",
      null,
      0.35
@@ -730,8 +702,7 @@
      29.39722,
      11.73056,
      50.50194,
-     0,
-     0,
+     "nein",
      "6",
      null,
      0.1
@@ -751,8 +722,7 @@
      29.40366,
      11.73699,
      50.43021,
-     0,
-     0,
+     "nein",
      "6",
      null,
      0.43
@@ -772,8 +742,7 @@
      29.41906,
      11.75239,
      50.50824,
-     0,
-     0,
+     "nein",
      "6",
      null,
      0.16
@@ -793,8 +762,7 @@
      29.47078,
      11.80411,
      50.58514,
-     0,
-     0,
+     "nein",
      "6",
      null,
      null
@@ -814,8 +782,7 @@
      29.47863,
      11.81196,
      50.57779,
-     0,
-     1,
+     "nein",
      "6",
      null,
      0.16
@@ -835,8 +802,7 @@
      29.48268,
      11.81601,
      50.55603,
-     0,
-     0,
+     "nein",
      "6",
      null,
      null
@@ -856,8 +822,7 @@
      29.48638,
      11.81971,
      50.60185,
-     0,
-     0,
+     "nein",
      "6",
      null,
      0.3
@@ -877,8 +842,7 @@
      29.49827,
      11.83161,
      50.49593,
-     0,
-     0,
+     "nein",
      "6",
      null,
      null
@@ -898,8 +862,7 @@
      29.50736,
      11.84069,
      50.49526,
-     0,
-     1,
+     "nein",
      "6",
      null,
      1.18
@@ -919,8 +882,7 @@
      29.53014,
      11.86348,
      50.65027,
-     0,
-     0,
+     "nein",
      "6",
      null,
      0.23
@@ -940,8 +902,7 @@
      29.54648,
      11.87981,
      50.4299,
-     0,
-     0,
+     "nein",
      "6",
      null,
      null
@@ -961,8 +922,7 @@
      29.55405,
      11.88738,
      50.60565,
-     0,
-     0,
+     "nein",
      "6",
      null,
      0.09
@@ -982,8 +942,7 @@
      29.55491,
      11.88824,
      50.59312,
-     0,
-     0,
+     "nein",
      "6",
      null,
      0.65
@@ -1003,8 +962,7 @@
      29.48778,
      11.82111,
      50.405,
-     0,
-     1,
+     "nein",
      "6",
      null,
      0.2
@@ -1024,8 +982,7 @@
      29.53,
      11.86333,
      50.41667,
-     0,
-     0,
+     "nein",
      "6",
      null,
      1.45
@@ -1045,8 +1002,7 @@
      29.49917,
      11.8325,
      50.46139,
-     0,
-     0,
+     "nein",
      "6",
      null,
      0.23
@@ -1066,8 +1022,7 @@
      29.50139,
      11.83472,
      50.64722,
-     0,
-     0,
+     "nein",
      "6",
      null,
      0.17
@@ -1087,8 +1042,7 @@
      29.50031,
      11.83364,
      50.56139,
-     0,
-     0,
+     "nein",
      "6",
      null,
      0.13
@@ -1108,8 +1062,7 @@
      29.56528,
      11.89861,
      50.64556,
-     0,
-     0,
+     "nein",
      "6",
      null,
      0.16
@@ -1129,8 +1082,7 @@
      29.56841,
      11.90174,
      50.85719,
-     1,
-     0,
+     "ja",
      "6",
      null,
      null
@@ -1150,8 +1102,7 @@
      29.58167,
      11.915,
      50.8775,
-     0,
-     0,
+     "nein",
      "6",
      null,
      1.03
@@ -1171,8 +1122,7 @@
      29.61719,
      11.95052,
      50.48933,
-     0,
-     0,
+     "nein",
      "7",
      null,
      null
@@ -1192,8 +1142,7 @@
      29.63097,
      11.96431,
      50.86678,
-     0,
-     0,
+     "nein",
      "7",
      null,
      null
@@ -1213,8 +1162,7 @@
      29.63535,
      11.96868,
      50.89755,
-     0,
-     0,
+     "nein",
      "7",
      null,
      0.74
@@ -1234,8 +1182,7 @@
      29.66458,
      11.99792,
      50.76222,
-     0,
-     1,
+     "nein",
      "7",
      null,
      11.06
@@ -1255,8 +1202,7 @@
      29.66667,
      12.0,
      50.67111,
-     0,
-     0,
+     "nein",
      "7",
      null,
      1.36
@@ -1276,8 +1222,7 @@
      29.69566,
      12.02899,
      50.85094,
-     0,
-     0,
+     "nein",
      "7",
      null,
      0.07
@@ -1297,8 +1242,7 @@
      29.72112,
      12.05445,
      50.71263,
-     0,
-     1,
+     "nein",
      "7",
      null,
      0.15
@@ -1318,8 +1262,7 @@
      29.75972,
      12.09306,
      50.87639,
-     0,
-     1,
+     "nein",
      "7",
      null,
      0.9
@@ -1339,8 +1282,7 @@
      29.78129,
      12.11463,
      50.94878,
-     0,
-     0,
+     "nein",
      "7",
      null,
      1.11
@@ -1360,8 +1302,7 @@
      29.79044,
      12.12377,
      50.87021,
-     0,
-     0,
+     "nein",
      "7",
      null,
      1.14
@@ -1381,8 +1322,7 @@
      29.79631,
      12.12964,
      50.89707,
-     0,
-     0,
+     "nein",
      "7",
      null,
      0.17
@@ -1402,8 +1342,7 @@
      29.79833,
      12.13166,
      50.81401,
-     0,
-     0,
+     "nein",
      "7",
      null,
      null
@@ -1423,8 +1362,7 @@
      29.75875,
      12.09208,
      50.96042,
-     0,
-     0,
+     "nein",
      "7",
      null,
      0.04
@@ -1444,8 +1382,7 @@
      29.75417,
      12.0875,
      50.96611,
-     0,
-     0,
+     "nein",
      "7",
      "N",
      0.03
@@ -1465,8 +1402,7 @@
      29.67639,
      12.00972,
      50.92861,
-     0,
-     1,
+     "nein",
      "7",
      null,
      0.19
@@ -1486,8 +1422,7 @@
      29.8204,
      12.15374,
      50.96662,
-     1,
-     0,
+     "ja",
      "7",
      null,
      null
@@ -1507,8 +1442,7 @@
      29.83167,
      12.165,
      50.80775,
-     0,
-     0,
+     "nein",
      "7",
      null,
      0.06
@@ -1528,8 +1462,7 @@
      29.83518,
      12.16852,
      50.92512,
-     0,
-     0,
+     "nein",
      "7",
      null,
      0.29
@@ -1549,8 +1482,7 @@
      29.85593,
      12.18926,
      50.9425,
-     0,
-     0,
+     "nein",
      "7",
      null,
      0.14
@@ -1570,8 +1502,7 @@
      29.86425,
      12.19759,
      50.93014,
-     0,
-     0,
+     "nein",
      "7",
      "O",
      0.17
@@ -1744,7 +1675,7 @@
    "name": "grenzen",
    "title": {
     "de": "Grenzlängen nach Nachbarstaaten",
-    "en": "Boundary lengths by neighboring state"
+    "en": "Boundary lengths by neighbouring state"
    },
    "columns": [
     {
@@ -1760,21 +1691,10 @@
      "name": "nachbar",
      "label": {
       "de": "Angrenzender Staat",
-      "en": "Neighboring state"
+      "en": "Neighbouring state"
      },
      "type": "string",
      "unit": null
-    },
-    {
-     "name": "nachbar_nr",
-     "label": {
-      "de": "Reihenfolge der Nachbarn",
-      "en": "Order of neighbors"
-     },
-     "type": "integer",
-     "unit": null,
-     "derived": true,
-     "note": "redaktionell, für Farben und Stapelung"
     },
     {
      "name": "laenge_text",
@@ -1811,7 +1731,6 @@
     [
      "Oberland",
      "Reuß ä. L.",
-     1,
      "22",
      22.0,
      45.8
@@ -1819,7 +1738,6 @@
     [
      "Oberland",
      "Sachsen",
-     2,
      "8",
      8.0,
      16.7
@@ -1827,7 +1745,6 @@
     [
      "Oberland",
      "Bayern",
-     3,
      "7 1/5",
      7.2,
      15.0
@@ -1835,7 +1752,6 @@
     [
      "Oberland",
      "Preußen",
-     4,
      "6",
      6.0,
      12.5
@@ -1843,7 +1759,6 @@
     [
      "Oberland",
      "Schwarzburg",
-     5,
      "3 3/5",
      3.6,
      7.5
@@ -1851,7 +1766,6 @@
     [
      "Oberland",
      "Meiningen",
-     6,
      "1 1/5",
      1.2,
      2.5
@@ -1859,7 +1773,6 @@
     [
      "Unterland",
      "Altenburg",
-     7,
      "9",
      9.0,
      50.0
@@ -1867,7 +1780,6 @@
     [
      "Unterland",
      "Weimar",
-     8,
      "5",
      5.0,
      27.8
@@ -1875,7 +1787,6 @@
     [
      "Unterland",
      "Preußen",
-     4,
      "3",
      3.0,
      16.7
@@ -1883,7 +1794,6 @@
     [
      "Unterland",
      "Sachsen",
-     2,
      "1",
      1.0,
      5.6
@@ -2091,7 +2001,7 @@
    "name": "neighbours",
    "title": {
     "de": "Größe im Vergleich mit Nachbarstaaten",
-    "en": "Size compared with neighboring states"
+    "en": "Size compared with neighbouring states"
    },
    "columns": [
     {
@@ -16822,7 +16732,7 @@
      {
       "transform": [
        {
-        "filter": "isValid(datum.lat) && datum.in_klammern == 0"
+        "filter": "isValid(datum.lat) && datum.in_klammern == 'nein'"
        }
       ],
       "mark": {
@@ -16908,7 +16818,7 @@
      {
       "transform": [
        {
-        "filter": "isValid(datum.lat) && datum.in_klammern == 1"
+        "filter": "isValid(datum.lat) && datum.in_klammern == 'ja'"
        }
       ],
       "mark": {
@@ -17243,269 +17153,302 @@
    "dataset": "grenzen",
    "title": {
     "de": "Das Oberland grenzt am längsten an Reuß ä. L., das Unterland an Altenburg",
-    "en": "The Oberland borders Reuss (Elder Line) longest, the Unterland borders Altenburg"
+    "en": "The Oberland’s longest border is with Reuss (Elder Line), the Unterland’s with Altenburg"
    },
    "caption": {
     "de": "Länge der Grenze in Stunden (vermutlich Wegstunden, von Brückner nicht erklärt) je Nachbarstaat, getrennt für beide Landesteile; gemessen in den Krümmungen einschließlich Ex- und Enklaven. Quelle: S. 5.",
-    "en": "Length of the boundary in Stunden (presumably walking hours, not explained by Brückner) by neighboring state, for each part separately; measured along its windings, including exclaves and enclaves. Source: p. 5."
+    "en": "Length of the boundary in Stunden (presumably walking hours, not explained by Brückner) by neighbouring state, for each part separately; measured along its windings, including exclaves and enclaves. Source: p. 5."
    },
    "vegalite": {
-    "vconcat": [
+    "height": {
+     "step": 24
+    },
+    "transform": [
      {
-      "width": 520,
-      "height": {
-       "step": 24
+      "calculate": "substring(datum.landesteil, 0, 1) + '|' + datum.nachbar",
+      "as": "key"
+     }
+    ],
+    "layer": [
+     {
+      "mark": {
+       "type": "bar",
+       "cornerRadiusEnd": 3
       },
-      "title": {
-       "text": {
-        "de": "Oberland: Umfang 48 Stunden, sechs Nachbarn",
-        "en": "Oberland: perimeter 48 Stunden, six neighbors"
+      "encoding": {
+       "y": {
+        "field": "key",
+        "type": "nominal",
+        "scale": {
+         "domain": [
+          "HO",
+          "O|Reuß ä. L.",
+          "O|Sachsen",
+          "O|Bayern",
+          "O|Preußen",
+          "O|Schwarzburg",
+          "O|Meiningen",
+          "gap",
+          "HU",
+          "U|Altenburg",
+          "U|Weimar",
+          "U|Preußen",
+          "U|Sachsen"
+         ]
+        },
+        "sort": null,
+        "axis": {
+         "title": null,
+         "labelLimit": 200,
+         "labelExpr": "indexof(datum.value, '|') > 0 ? split(datum.value, '|')[1] : ''"
+        }
        },
-       "anchor": "start",
-       "fontSize": 13,
-       "offset": 6
+       "x": {
+        "field": "laenge_stunden",
+        "type": "quantitative",
+        "scale": {
+         "domain": [
+          0,
+          24
+         ]
+        },
+        "axis": {
+         "title": {
+          "de": "Grenzlänge in Stunden",
+          "en": "Length of border in Stunden"
+         },
+         "values": [
+          0,
+          6,
+          12,
+          18,
+          24
+         ],
+         "grid": true
+        }
+       },
+       "color": {
+        "condition": [
+         {
+          "test": "datum.landesteil == 'Oberland' && datum.laenge_stunden == 22.0",
+          "value": "@accent2"
+         },
+         {
+          "test": "datum.landesteil == 'Unterland' && datum.laenge_stunden == 9.0",
+          "value": "@accent"
+         }
+        ],
+        "value": "@context"
+       },
+       "tooltip": [
+        {
+         "field": "nachbar",
+         "title": {
+          "de": "Angrenzender Staat",
+          "en": "Neighbouring state"
+         }
+        },
+        {
+         "field": "landesteil",
+         "title": {
+          "de": "Landesteil",
+          "en": "Part"
+         }
+        },
+        {
+         "field": "laenge_text",
+         "title": {
+          "de": "Länge (Stunden, wie gedruckt)",
+          "en": "Length (Stunden, as printed)"
+         }
+        },
+        {
+         "field": "anteil",
+         "title": {
+          "de": "Anteil am Umfang (%)",
+          "en": "Share of perimeter (%)"
+         },
+         "format": ".1f"
+        }
+       ]
+      }
+     },
+     {
+      "mark": {
+       "type": "text",
+       "align": "left",
+       "baseline": "middle",
+       "dx": 6,
+       "style": "label"
       },
+      "encoding": {
+       "y": {
+        "field": "key",
+        "type": "nominal",
+        "scale": {
+         "domain": [
+          "HO",
+          "O|Reuß ä. L.",
+          "O|Sachsen",
+          "O|Bayern",
+          "O|Preußen",
+          "O|Schwarzburg",
+          "O|Meiningen",
+          "gap",
+          "HU",
+          "U|Altenburg",
+          "U|Weimar",
+          "U|Preußen",
+          "U|Sachsen"
+         ]
+        },
+        "sort": null,
+        "axis": {
+         "title": null,
+         "labelLimit": 200,
+         "labelExpr": "indexof(datum.value, '|') > 0 ? split(datum.value, '|')[1] : ''"
+        }
+       },
+       "x": {
+        "field": "laenge_stunden",
+        "type": "quantitative"
+       },
+       "text": {
+        "field": "laenge_stunden",
+        "type": "quantitative",
+        "format": ".1~f"
+       }
+      }
+     },
+     {
       "transform": [
        {
         "filter": "datum.landesteil == 'Oberland'"
+       },
+       {
+        "aggregate": [
+         {
+          "op": "count",
+          "as": "n"
+         }
+        ]
+       },
+       {
+        "calculate": "'HO'",
+        "as": "key"
        }
       ],
+      "mark": {
+       "type": "text",
+       "style": "label",
+       "align": "left",
+       "baseline": "middle",
+       "fontSize": 13
+      },
       "encoding": {
        "y": {
-        "field": "nachbar",
+        "field": "key",
         "type": "nominal",
-        "sort": {
-         "field": "laenge_stunden",
-         "op": "max",
-         "order": "descending"
+        "scale": {
+         "domain": [
+          "HO",
+          "O|Reuß ä. L.",
+          "O|Sachsen",
+          "O|Bayern",
+          "O|Preußen",
+          "O|Schwarzburg",
+          "O|Meiningen",
+          "gap",
+          "HU",
+          "U|Altenburg",
+          "U|Weimar",
+          "U|Preußen",
+          "U|Sachsen"
+         ]
         },
+        "sort": null,
         "axis": {
          "title": null,
-         "labelLimit": 300,
-         "labelAlign": "left",
-         "labelPadding": 104,
-         "minExtent": 108
-        }
-       }
-      },
-      "layer": [
-       {
-        "mark": {
-         "type": "bar",
-         "cornerRadiusEnd": 3
-        },
-        "encoding": {
-         "x": {
-          "field": "laenge_stunden",
-          "type": "quantitative",
-          "scale": {
-           "domain": [
-            0,
-            24
-           ]
-          },
-          "axis": {
-           "title": null,
-           "values": [
-            0,
-            6,
-            12,
-            18,
-            24
-           ]
-          }
-         },
-         "color": {
-          "condition": {
-           "test": "datum.laenge_stunden == 22.0",
-           "value": "@accent2"
-          },
-          "value": "@context"
-         },
-         "tooltip": [
-          {
-           "field": "nachbar",
-           "title": {
-            "de": "Angrenzender Staat",
-            "en": "Neighboring state"
-           }
-          },
-          {
-           "field": "landesteil",
-           "title": {
-            "de": "Landesteil",
-            "en": "Part"
-           }
-          },
-          {
-           "field": "laenge_text",
-           "title": {
-            "de": "Länge (Stunden, wie gedruckt)",
-            "en": "Length (Stunden, as printed)"
-           }
-          },
-          {
-           "field": "anteil",
-           "title": {
-            "de": "Anteil am Umfang (%)",
-            "en": "Share of perimeter (%)"
-           },
-           "format": ".1f"
-          }
-         ]
+         "labelLimit": 200,
+         "labelExpr": "indexof(datum.value, '|') > 0 ? split(datum.value, '|')[1] : ''"
         }
        },
-       {
-        "mark": {
-         "type": "text",
-         "align": "left",
-         "dx": 6,
-         "style": "label"
-        },
-        "encoding": {
-         "x": {
-          "field": "laenge_stunden",
-          "type": "quantitative"
-         },
-         "text": {
-          "field": "laenge_stunden",
-          "type": "quantitative",
-          "format": ".1~f"
-         }
+       "x": {
+        "datum": 0
+       },
+       "text": {
+        "value": {
+         "de": "Oberland: Umfang 48 Stunden, sechs Nachbarn",
+         "en": "Oberland: perimeter 48 Stunden, six neighbours"
         }
        }
-      ]
+      }
      },
      {
-      "width": 520,
-      "height": {
-       "step": 24
-      },
-      "title": {
-       "text": {
-        "de": "Unterland: Umfang 18 Stunden, vier Nachbarn",
-        "en": "Unterland: perimeter 18 Stunden, four neighbors"
-       },
-       "anchor": "start",
-       "fontSize": 13,
-       "offset": 6
-      },
       "transform": [
        {
         "filter": "datum.landesteil == 'Unterland'"
-       }
-      ],
-      "encoding": {
-       "y": {
-        "field": "nachbar",
-        "type": "nominal",
-        "sort": {
-         "field": "laenge_stunden",
-         "op": "max",
-         "order": "descending"
-        },
-        "axis": {
-         "title": null,
-         "labelLimit": 300,
-         "labelAlign": "left",
-         "labelPadding": 104,
-         "minExtent": 108
-        }
-       }
-      },
-      "layer": [
-       {
-        "mark": {
-         "type": "bar",
-         "cornerRadiusEnd": 3
-        },
-        "encoding": {
-         "x": {
-          "field": "laenge_stunden",
-          "type": "quantitative",
-          "scale": {
-           "domain": [
-            0,
-            24
-           ]
-          },
-          "axis": {
-           "title": {
-            "de": "Stunden",
-            "en": "Stunden"
-           },
-           "values": [
-            0,
-            6,
-            12,
-            18,
-            24
-           ]
-          }
-         },
-         "color": {
-          "condition": {
-           "test": "datum.laenge_stunden == 9.0",
-           "value": "@accent"
-          },
-          "value": "@context"
-         },
-         "tooltip": [
-          {
-           "field": "nachbar",
-           "title": {
-            "de": "Angrenzender Staat",
-            "en": "Neighboring state"
-           }
-          },
-          {
-           "field": "landesteil",
-           "title": {
-            "de": "Landesteil",
-            "en": "Part"
-           }
-          },
-          {
-           "field": "laenge_text",
-           "title": {
-            "de": "Länge (Stunden, wie gedruckt)",
-            "en": "Length (Stunden, as printed)"
-           }
-          },
-          {
-           "field": "anteil",
-           "title": {
-            "de": "Anteil am Umfang (%)",
-            "en": "Share of perimeter (%)"
-           },
-           "format": ".1f"
-          }
-         ]
-        }
        },
        {
-        "mark": {
-         "type": "text",
-         "align": "left",
-         "dx": 6,
-         "style": "label"
-        },
-        "encoding": {
-         "x": {
-          "field": "laenge_stunden",
-          "type": "quantitative"
-         },
-         "text": {
-          "field": "laenge_stunden",
-          "type": "quantitative",
-          "format": ".1~f"
+        "aggregate": [
+         {
+          "op": "count",
+          "as": "n"
          }
+        ]
+       },
+       {
+        "calculate": "'HU'",
+        "as": "key"
+       }
+      ],
+      "mark": {
+       "type": "text",
+       "style": "label",
+       "align": "left",
+       "baseline": "middle",
+       "fontSize": 13
+      },
+      "encoding": {
+       "y": {
+        "field": "key",
+        "type": "nominal",
+        "scale": {
+         "domain": [
+          "HO",
+          "O|Reuß ä. L.",
+          "O|Sachsen",
+          "O|Bayern",
+          "O|Preußen",
+          "O|Schwarzburg",
+          "O|Meiningen",
+          "gap",
+          "HU",
+          "U|Altenburg",
+          "U|Weimar",
+          "U|Preußen",
+          "U|Sachsen"
+         ]
+        },
+        "sort": null,
+        "axis": {
+         "title": null,
+         "labelLimit": 200,
+         "labelExpr": "indexof(datum.value, '|') > 0 ? split(datum.value, '|')[1] : ''"
+        }
+       },
+       "x": {
+        "datum": 0
+       },
+       "text": {
+        "value": {
+         "de": "Unterland: Umfang 18 Stunden, vier Nachbarn",
+         "en": "Unterland: perimeter 18 Stunden, four neighbours"
         }
        }
-      ]
+      }
      }
-    ],
-    "spacing": 22
+    ]
    }
   },
   {
@@ -17521,7 +17464,7 @@
    },
    "vegalite": {
     "height": {
-     "step": 44
+     "step": 64
     },
     "transform": [
      {
@@ -17532,10 +17475,7 @@
       "as": "label"
      },
      {
-      "calculate": {
-       "de": "format(datum.flaeche_qm, '.3~f') + ' □M. = ' + format(datum.flaeche_km2, ',.0f') + ' km²'",
-       "en": "format(datum.flaeche_qm, '.3~f') + ' sq. mi. = ' + format(datum.flaeche_km2, ',.0f') + ' km²'"
-      },
+      "calculate": "format(datum.flaeche_qm, '.3~f') + ' (' + format(datum.flaeche_km2, ',.0f') + ' km²)'",
       "as": "wert"
      }
     ],
@@ -17547,10 +17487,7 @@
        "field": "reihenfolge",
        "op": "min"
       },
-      "axis": {
-       "title": null,
-       "labelLimit": 320
-      }
+      "axis": null
      }
     },
     "layer": [
@@ -17559,8 +17496,9 @@
        "type": "bar",
        "cornerRadiusEnd": 3,
        "height": {
-        "band": 0.62
-       }
+        "band": 0.32
+       },
+       "yOffset": 4
       },
       "encoding": {
        "x": {
@@ -17569,7 +17507,7 @@
         "scale": {
          "domain": [
           0,
-          30
+          32
          ]
         },
         "axis": {
@@ -17583,8 +17521,10 @@
           10,
           15,
           20,
-          25
-         ]
+          25,
+          30
+         ],
+         "grid": true
         }
        },
        "color": {
@@ -17625,7 +17565,26 @@
       "mark": {
        "type": "text",
        "align": "left",
+       "baseline": "bottom",
+       "style": "annotation",
+       "dy": -6
+      },
+      "encoding": {
+       "x": {
+        "datum": 0
+       },
+       "text": {
+        "field": "label"
+       }
+      }
+     },
+     {
+      "mark": {
+       "type": "text",
+       "align": "left",
+       "baseline": "middle",
        "dx": 6,
+       "dy": 4,
        "style": "label"
       },
       "encoding": {
@@ -17647,14 +17606,13 @@
       "mark": {
        "type": "text",
        "align": "left",
-       "dx": 6,
-       "dy": 15,
+       "baseline": "top",
+       "dy": 20,
        "style": "annotation"
       },
       "encoding": {
        "x": {
-        "field": "flaeche_qm",
-        "type": "quantitative"
+        "datum": 0
        },
        "text": {
         "value": {
@@ -17699,6 +17657,5 @@
   "landesgeschichte",
   "bevoelkerung-1647-1867"
  ],
- "generated_by": "Claude Sonnet 5.5 (Agent F1), aus 3 Einzelauswertungen zusammengeführt",
  "date": "2026-10-02"
 }

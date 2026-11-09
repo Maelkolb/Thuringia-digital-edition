@@ -44,7 +44,7 @@
        "rowspan": 2
       },
       {
-       "text": "Jährl. Zu= od. Abnahme in Proc.",
+       "text": "Jährl. Zu- od. Abnahme in Proc.",
        "spans": [],
        "rowspan": 4
       }
@@ -1691,7 +1691,7 @@
      "Zahl der Gesammtbewohner",
      "",
      "",
-     "Jährl. Zu= od. Abnahme in Proc."
+     "Jährl. Zu- od. Abnahme in Proc."
     ],
     [
      "",
@@ -2211,6 +2211,11 @@
  ],
  "footnotes": [],
  "corrections": [
+  {
+   "rule": "fraktur_double_hyphen",
+   "before": "Jährl. Zu= od. Abnahme",
+   "after": "Jährl. Zu- od. Abnahm"
+  },
   {
    "rule": "table_multirow_header",
    "rows": 4,

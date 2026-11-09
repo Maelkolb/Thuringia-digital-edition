@@ -11,7 +11,7 @@
       <ul class="reg-list">
       {% for g in items %}
         <li class="reg-item" id="{{ g.id }}" data-k="{{ g.term|lower|e }}">
-          <div><span class="name">{{ g.term|e }}</span><span class="kind">{{ g.kind|e }}</span>{% if g.variants %} <span class="muted">({{ g.variants|join(', ')|e }})</span>{% endif %}</div>
+          <div><span class="name">{{ g.term|e }}</span><span class="kind">{{ t(GLOSSARY_KIND_DE.get(g.kind, g.kind), g.kind|capitalize) }}</span>{% if g.variants %} <span class="muted">({{ g.variants|join(', ')|e }})</span>{% endif %}</div>
           <div class="desc">{{ t(g.de|e, g.en|e) }}</div>
           <div class="refs">{{ t('S.', 'pp.') }} {% for p in g.pages[:40] %}<a href="../seite/{{ p }}.html?hl={{ g.term|urlencode }}">{{ p }}</a>{% if not loop.last %}, {% endif %}{% endfor %}</div>
         </li>

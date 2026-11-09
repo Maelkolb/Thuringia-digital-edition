@@ -69,9 +69,24 @@ def ana_group(section: str) -> tuple:
     return ANA_GROUPS[-1][1:]
 
 
-def teaser(text: str, limit: int = 150) -> str:
-    first = re.split(r"(?<=[.!?])\s", text.strip(), maxsplit=1)[0]
-    return first if len(first) <= limit else first[:limit].rsplit(" ", 1)[0] + " …"
+MAP_BASE_LAYERS = {"orte_basis", "fluesse_basis"}
+ABBREVIATIONS = {"prof", "dr", "st", "s", "pp", "p", "ca", "vgl", "bzw", "z", "b", "u", "a", "d", "j", "l", "sog", "geb", "gest", "nr", "no", "fl", "thlr", "sgr", "e.g", "i.e"}
+
+
+def teaser(text: str, limit: int = 190) -> str:
+    text = text.strip()
+    first = text
+    for m in re.finditer(r"[.!?](?=\s+[A-ZÄÖÜ„“\"»0-9])", text):
+        word = re.search(r"([\w.]+)$", text[:m.start()])
+        if word and (word.group(1).lower() in ABBREVIATIONS or len(word.group(1)) == 1 or word.group(1)[-1].isdigit() and text[m.end():].lstrip()[:1].islower()):
+            continue
+        first = text[:m.end()]
+        break
+    if len(first) <= limit:
+        return first
+    cut = first[:limit]
+    clause = max(cut.rfind(", "), cut.rfind("; "), cut.rfind(": "))
+    return (cut[:clause] if clause > limit * 0.6 else cut.rsplit(" ", 1)[0]) + " …"
 
 
 CAT_LABEL = {
@@ -88,6 +103,7 @@ CAT_LABEL = {
     "places": ("Ortskunde", "Topography"), "reception": ("Rezeption", "Reception"),
 }
 RULES = {
+    "fraktur_double_hyphen": ("Frakturdoppelstrich „=“ als Bindestrich gesetzt", "Fraktur double hyphen “=” set as hyphen"),
     "join_linebreak_hyphen": ("Silbentrennung aufgelöst", "Line-break hyphen joined"),
     "join_inword_hyphen": ("Trennstrich im Wort getilgt", "In-word hyphen removed"),
     "table_no_header_row": ("Tabelle: erste Zeile als Datenzeile statt als Kopf", "Table: first row shown as data, not header"),
@@ -147,6 +163,7 @@ class Builder:
         self.env.globals["t"] = t
         self.env.globals["i18n"] = i18n
         self.env.globals["num"] = num
+        self.env.globals["GLOSSARY_KIND_DE"] = {"term": "Begriff", "unit": "Maß", "institution": "Einrichtung", "office": "Amt", "dialect": "Mundart", "currency": "Währung"}
         self.pages = [read_json(f) for f in sorted(PAGES_DIR.glob("*.json"))]
         self.by_slug = {p["slug"]: p for p in self.pages}
         self.struct = read_json(DATA / "structure" / "structure.json")
@@ -154,6 +171,11 @@ class Builder:
         reg = read_json(DATA / "entities" / "registry.json")["entities"]
         self.entities = {e["id"]: e for e in reg}
         self.key_map = read_json(DATA / "entities" / "key_map.json")
+        kinds_en = DATA / "entities" / "kinds_en.json"
+        self.kinds_en = read_json(kinds_en) if kinds_en.exists() else {}
+        aliases = DATA / "entities" / "key_aliases.json"
+        if aliases.exists():
+            self.key_map.update(read_json(aliases))
         self.meta = {}
         self.glossary_raw = []
         for f in sorted((DATA / "search" / "pages").glob("*.json")) if (DATA / "search" / "pages").exists() else []:
@@ -278,7 +300,7 @@ class Builder:
             if pick is None:
                 eid = f"place:{R.surface_key(g['id'], 'Location')}"
                 eid = "place:" + re.sub(r"[^a-z0-9-]", "-", g["id"])
-                pick = {"id": eid, "class": "place", "label": g["name"], "kind": g.get("type"), "keys": [], "forms": {}, "n": 0,
+                pick = {"id": eid, "class": "place", "label": g["name"], "kind": g.get("type"), "kind_en": self.kinds_en.get(g.get("type") or ""), "keys": [], "forms": {}, "n": 0,
                         "pages": [], "fallback": False, "in_principality": True}
                 self.entities[eid] = pick
             pick.setdefault("gazetteer", []).append(g)
@@ -335,8 +357,9 @@ class Builder:
             for c in p["corrections"]:
                 de, en = RULES.get(c["rule"], (c["rule"], c["rule"]))
                 detail = ""
-                if c.get("before"):
-                    detail = t(f": „{esc(c['after'])}“ statt „{esc(c['before'])}“", f": “{esc(c['after'])}” instead of “{esc(c['before'])}”")
+                if c.get("before") and c.get("after"):
+                    before, after = (esc(re.sub(r"\s+", " ", c[k])) for k in ("before", "after"))
+                    detail = t(f": „{after}“ statt „{before}“", f": “{after}” instead of “{before}”")
                 elif c.get("value"):
                     detail = f": „{esc(c['value'])}“"
                 corrections.append(t(de, en) + detail)
@@ -424,7 +447,9 @@ class Builder:
                 m = json.loads(line)
                 eid = self.key_map.get(f"{R.TYPE_GROUP[m['type']]}\t{m['key']}")
                 if eid and len(mentions[eid]) < 40:
-                    mentions[eid].append([m["page"], m["unit"].split(".")[0], m["ctx"]])
+                    ctx = re.sub(r"(?<=[a-zäöüß])=\s+(?=[a-zäöüß])", "", m["ctx"])
+                    ctx = re.sub(r"(?<=[A-Za-zÄÖÜäöüß])=", "-", ctx)
+                    mentions[eid].append([m["page"], m["unit"].split(".")[0], ctx])
         (SITE / "register" / "belege").mkdir(parents=True, exist_ok=True)
         counts = {}
         for cls, file, lde, len_, ide, ien in CLASSES:
@@ -440,8 +465,9 @@ class Builder:
             kw = {eid.split(":", 1)[1]: mentions.get(eid, []) for eid in (e["id"] for e in ents)}
             (SITE / "register" / "belege" / f"{file}.json").write_text(json.dumps(kw, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
             kinds = collections.Counter(e.get("kind") for e in ents if e.get("kind"))
+            kind_en = {e["kind"]: e.get("kind_en") or e["kind"] for e in ents if e.get("kind")}
             self.tpl("register.html", f"register/{file}.html", section="register", cls=cls, file=file, label_de=lde, label_en=len_,
-                     intro_de=ide, intro_en=ien, letters=letters, n=len(ents), classes=CLASSES, kinds=[k for k, _ in kinds.most_common(14)])
+                     intro_de=ide, intro_en=ien, letters=letters, n=len(ents), classes=CLASSES, kinds=[(k, kind_en[k]) for k, _ in kinds.most_common(14)])
         self.reg_counts = counts
 
     def register_item(self, e: dict) -> str:
@@ -462,13 +488,19 @@ class Builder:
             desc.append(f"<i>{esc(e['scientific'])}</i>")
         if e.get("description_de"):
             desc.append(t(esc(e["description_de"]), esc(e.get("description_en") or e["description_de"])))
-        elif e.get("gloss_en"):
+        elif e.get("gloss_en") and fold(re.sub(r"\s*\(.*\)$", "", e["gloss_en"])) not in {fold(e["label"]), fold(e.get("modern") or "")}:
             desc.append(f'<span data-l="en">{esc(e["gloss_en"])}</span>')
-        if e.get("note"):
+        if e.get("note_de"):
+            desc.append(f'<span class="muted">{t(esc(e["note_de"]), esc(e.get("note_en") or e["note_de"]))}</span>')
+        elif e.get("note"):
             desc.append(f'<span class="muted">{esc(e["note"])}</span>')
-        forms = [f for f in e.get("forms", {}) if f != e["label"]][:6]
+        forms = []
+        for f in e.get("forms", {}):
+            shown = re.sub(r"\s+", " ", re.sub(r"[=¬-]\s*\n\s*", "", f)).strip()
+            if shown != e["label"] and shown not in forms:
+                forms.append(shown)
         if forms:
-            desc.append(f'<span class="muted">{t("Formen", "Forms")}: ' + ", ".join(esc(f) for f in forms) + "</span>")
+            desc.append(f'<span class="muted">{t("Formen", "Forms")}: ' + ", ".join(esc(f) for f in forms[:6]) + "</span>")
         gaz = ""
         for g in e.get("gazetteer", []):
             facts = [esc(g.get("type_verbatim") or g.get("type") or "")]
@@ -486,7 +518,7 @@ class Builder:
         shown = pages[:60]
         refs = ", ".join(f'<a href="../seite/{p}.html?hl={html.escape(e["label"])}">{p}</a>' for p in shown)
         more = t(f' und {len(pages) - 60} weitere', f' and {len(pages) - 60} more') if len(pages) > 60 else ""
-        kind = f'<span class="kind">{esc(e["kind"])}</span>' if e.get("kind") else ""
+        kind = f'<span class="kind">{t(esc(e["kind"]), esc(e.get("kind_en") or e["kind"]))}</span>' if e.get("kind") else ""
         kwic_btn = f'<button class="more" type="button" data-kwic="{anchor}" aria-expanded="false">{t("Textstellen zeigen", "Show passages")}</button>' if e["n"] else ""
         count = t(f'{num(e["n"])} {"Stelle" if e["n"] == 1 else "Stellen"}', f'{num(e["n"], "en")} {"passage" if e["n"] == 1 else "passages"}')
         return (f'<li class="reg-item" id="{anchor}" data-k="{esc(fold(e["label"]))}" data-kind="{esc(e.get("kind") or "")}">'
@@ -526,10 +558,11 @@ class Builder:
                  n_subjects=len(items), n_glossary=len(gl), n_gazetteer=len(self.gazetteer))
 
     # ------------------------------------------------------------------ analyses
-    def build_analyses(self) -> None:
+    def build_analyses(self, only: set[str] | None = None) -> None:
         if not self.skip_charts:
-            r = subprocess.run(["node", str(ROOT / "tools" / "compile_charts.mjs"), str(SITE / "auswertungen")], capture_output=True, text=True, encoding="utf-8")
-            print(r.stdout.strip().splitlines()[-1] if r.stdout.strip() else r.stderr[-500:])
+            cmd = ["node", str(ROOT / "tools" / "compile_charts.mjs"), str(SITE / "auswertungen")] + (["--only", ",".join(sorted(only))] if only else [])
+            r = subprocess.run(cmd, capture_output=True, text=True, encoding="utf-8")
+            print(r.stdout.strip() if r.stdout.strip() else r.stderr[-500:])
         compiled = self.compiled_specs()
         ok = [a for a in self.analyses if a["id"] in compiled]
         self.analyses_ok = ok
@@ -545,8 +578,12 @@ class Builder:
         titles = {a["id"]: a["title"] for a in ok}
         page_blocks = {p["label"]: {b["id"]: b["type"] for b in p["blocks"]} for p in self.pages if p["label"]}
         for a in ok:
+            if only and a["id"] not in only:
+                continue
             datasets = []
             for ds in a["datasets"]:
+                if ds["name"] in MAP_BASE_LAYERS:
+                    continue
                 datasets.append({"name": ds["name"], "title": ds["title"], "columns": ds["columns"], "rows": ds["rows"][:500],
                                  "n": len(ds["rows"]), "has_derived": any(c.get("derived") for c in ds["columns"])})
                 csv_lines = [",".join(c["name"] for c in ds["columns"])]
@@ -561,7 +598,8 @@ class Builder:
             self.tpl("analysis.html", f"auswertungen/{a['id']}.html", section="analyses", a=a, datasets=datasets, sources=sources,
                      group=ana_group(a["section"])[1:], sec=sec, sec_href=self.sec_href(a["section"], "../") if sec else None,
                      related=[{"id": r, "title": titles[r]} for r in (a.get("related") or []) if r in titles])
-            self.write(f"auswertungen/json/{a['id']}.json", json.dumps(a, ensure_ascii=False, indent=1))
+            public = {k: v for k, v in a.items() if k not in ("merges", "generated_by")}
+            self.write(f"auswertungen/json/{a['id']}.json", json.dumps(public, ensure_ascii=False, indent=1))
         # addresses of the earlier single analyses lead to the piece that absorbed them
         for a in ok:
             for old_id in a.get("merges") or []:
@@ -581,7 +619,7 @@ class Builder:
             if e["class"] not in ("place", "nature") or not e.get("coords"):
                 continue
             g = (e.get("gazetteer") or [None])[0]
-            feats.append({"id": e["id"].split(":", 1)[1], "c": e["class"], "l": e["label"], "k": e.get("kind") or "",
+            feats.append({"id": e["id"].split(":", 1)[1], "c": e["class"], "l": e["label"], "k": e.get("kind") or "", "ke": e.get("kind_en") or "",
                           "n": e["n"], "lat": e["coords"][0], "lon": e["coords"][1], "in": bool(e.get("in_principality")),
                           "g": {"type": g.get("type_verbatim") or g.get("type"), "inh": g.get("inhabitants"), "houses": g.get("houses"),
                                 "first": g.get("first_mention_year"), "page": g["start"]["page"], "block": g["start"]["block"],
@@ -621,15 +659,15 @@ class Builder:
         tei.export(self.pages, self.struct, self.entities, self.key_map, SITE / "daten", self.site, only=self.only_pages)
         # registers as CSV + JSON
         reg = [e for e in self.entities.values() if e["n"] > 0 or e.get("gazetteer")]
-        cols = ["id", "class", "label", "kind", "modern", "gloss_en", "scientific", "geonames", "wikidata", "gbif", "lat", "lon", "n", "pages"]
+        cols = ["id", "class", "label", "kind", "kind_en", "modern", "gloss_en", "scientific", "geonames", "wikidata", "gbif", "lat", "lon", "n", "pages"]
         out = [",".join(cols)]
         for e in sorted(reg, key=lambda e: (e["class"], sort_key(e["label"]))):
-            row = [e["id"], e["class"], e["label"], e.get("kind") or "", e.get("modern") or "", e.get("gloss_en") or "", e.get("scientific") or "",
+            row = [e["id"], e["class"], e["label"], e.get("kind") or "", e.get("kind_en") or "", e.get("modern") or "", e.get("gloss_en") or "", e.get("scientific") or "",
                    str(e.get("geonames") or ""), e.get("wikidata") or "", str(e.get("gbif") or ""),
                    str(e["coords"][0]) if e.get("coords") else "", str(e["coords"][1]) if e.get("coords") else "", str(e["n"]), " ".join(e["pages"])]
             out.append(",".join('"' + v.replace('"', '""') + '"' for v in row))
         self.write("daten/register.csv", "﻿" + "\n".join(out) + "\n")
-        self.write("daten/register.json", json.dumps([{k: v for k, v in e.items() if k not in ("keys",)} for e in reg], ensure_ascii=False))
+        self.write("daten/register.json", json.dumps([{k: v for k, v in e.items() if k not in ("keys", "fallback")} for e in reg], ensure_ascii=False))
         self.write("daten/ortsartikel.json", json.dumps(self.gazetteer, ensure_ascii=False, indent=1))
 
     # ------------------------------------------------------------------ static pages
@@ -648,7 +686,7 @@ class Builder:
                          "title_en": f"{s.get('num', '')} {s.get('title_en') or s['title']}".strip(), "pp": self.sec_pages(s["id"])}
                         for s in self.struct["sections"]]
         for name in ("einleitung", "richtlinien", "zitieren", "daten", "impressum"):
-            self.tpl(f"doc_{name}.html", f"edition/{name}.html", section="about", stats=stats, rep=rep, rules=RULES, lines=lines_summary, tei_sections=tei_sections)
+            self.tpl(f"doc_{name}.html", f"edition/{name}.html", section="about", stats=stats, rep=rep, rules=RULES, lines=lines_summary, tei_sections=tei_sections, n_analyses=len(self.analyses_ok))
         self.tpl("404.html", "404.html")
         urls = ["index.html", "inhalt.html", "karte.html", "suche.html", "auswertungen/index.html", "register/index.html"]
         urls += [f"seite/{p['slug']}.html" for p in self.pages]
@@ -676,6 +714,15 @@ class Builder:
                 f.unlink()
                 n += 1
         return n
+
+    def run_analyses_only(self, only: set[str]) -> None:
+        """Re-render the given analyses (charts, page, data) and the analyses index; the rest of site/ stays."""
+        shutil.copytree(SRC / "static", SITE / "assets", dirs_exist_ok=True)
+        self.build_analyses(only)
+        for f in sorted((SITE / "auswertungen" / "specs").glob("*.json")):
+            key = f.relative_to(SITE).with_suffix("").as_posix()
+            write_text_atomic(f.with_suffix(".js"), f"RJ.put({json.dumps(key)},{f.read_text(encoding='utf-8')});\n")
+            f.unlink()
 
     def run_search_only(self) -> None:
         """Rebuild only the search index (fast; used by the search-quality work)."""
@@ -718,9 +765,12 @@ if __name__ == "__main__":
     ap.add_argument("--pages", help="comma-separated page slugs (quick preview builds)")
     ap.add_argument("--only-search", action="store_true", help="rebuild only the search index in site/suche")
     ap.add_argument("--only-tei", action="store_true", help="rebuild only the TEI files in site/daten")
+    ap.add_argument("--only-analyses", help="comma-separated analysis ids: re-render only these analyses and the analyses index")
     a = ap.parse_args()
     b = Builder(a.skip_charts, set(a.pages.split(",")) if a.pages else None)
-    if a.only_search:
+    if a.only_analyses:
+        b.run_analyses_only(set(a.only_analyses.split(",")))
+    elif a.only_search:
         b.run_search_only()
     elif a.only_tei:
         import tei  # noqa: WPS433
