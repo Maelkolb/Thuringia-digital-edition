@@ -1,0 +1,385 @@
+{
+ "seq": 122,
+ "label": "110",
+ "slug": "110",
+ "iiif": {
+  "service": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb11005578_00122",
+  "canvas": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11005578/canvas/122",
+  "width": 1640,
+  "height": 2695
+ },
+ "kind": "text",
+ "running_header": "II. Das Volk.",
+ "signature": null,
+ "blocks": [
+  {
+   "id": "b1",
+   "type": "paragraph",
+   "src": 0,
+   "text": "Für sich betrachtet, zeigt das Land während der Periode von 1858 bis 1867 in den einzelnen Landestheilen und im Ganzen eine Besserung im Verhältnisse der unehelichen Geburten zu den ehelichen. Die Durchschnittszahl der unehelichen Geburten in den fünf letzten Jahren ist überall beträchtlich geringer als in den fünf ersten, was schon das Gesammtreresultat beweist, indem von 1858 bis 1862 auf 100 Geborene 19,96 und von 1863 bis 1867 nur 17,61 uneheliche Geburten kommen.",
+   "spans": [],
+   "sec": "t1-2-1"
+  },
+  {
+   "id": "b2",
+   "type": "paragraph",
+   "src": 1,
+   "text": "Mit anderen Ländern verglichen, bietet das Fürstenthum in dem Procentsatze seiner unehelichen Kinder keine erfreuliche Erscheinung, indem es in dieser Hinsicht unter ihnen einen hohen Rang einnimmt. Schon die kleinste Zusammenstellung mit einigen benachbarten und nahen Staaten macht dies offenbar. An unehelichen Geburten hat nämlich",
+   "spans": [],
+   "sec": "t1-2-1"
+  },
+  {
+   "id": "b3",
+   "type": "table",
+   "src": 2,
+   "n_cols": 4,
+   "header_rows": 1,
+   "rows": [
+    {
+     "role": "header",
+     "cells": [
+      {
+       "text": "Preussen",
+       "spans": [
+        [
+         0,
+         8,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "7,33 Proc.",
+       "spans": []
+      },
+      {
+       "text": "Sachsen-Meiningen",
+       "spans": [
+        [
+         0,
+         17,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "17,44 Proc.",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Sachsen-Gotha",
+       "spans": [
+        [
+         0,
+         13,
+         "Location"
+        ],
+        [
+         0,
+         7,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "10,36 \"",
+       "spans": []
+      },
+      {
+       "text": "Reuß j. L.",
+       "spans": [
+        [
+         0,
+         10,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "{ 1858—64 { 19,71 \"",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Sachsen",
+       "spans": []
+      },
+      {
+       "text": "14,65 \"",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "{ 1858—67 { 18,79 \"",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Sachsen-Weimar",
+       "spans": [
+        [
+         0,
+         14,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "14,68 \"",
+       "spans": []
+      },
+      {
+       "text": "Sachsen-Coburg",
+       "spans": [
+        [
+         0,
+         14,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "20,37 \"",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Sachsen-Altenburg",
+       "spans": [
+        [
+         0,
+         17,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "15,56 \"",
+       "spans": []
+      },
+      {
+       "text": "Bayern",
+       "spans": [
+        [
+         0,
+         6,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "20,62 \"",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Schwarzburg-Rudolstadt",
+       "spans": [
+        [
+         0,
+         22,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "15,99 \"",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      }
+     ]
+    }
+   ],
+   "grid": [
+    [
+     "Preussen",
+     "7,33 Proc.",
+     "Sachsen-Meiningen",
+     "17,44 Proc."
+    ],
+    [
+     "Sachsen-Gotha",
+     "10,36 \"",
+     "Reuß j. L.",
+     "{ 1858—64 { 19,71 \""
+    ],
+    [
+     "Sachsen",
+     "14,65 \"",
+     "",
+     "{ 1858—67 { 18,79 \""
+    ],
+    [
+     "Sachsen-Weimar",
+     "14,68 \"",
+     "Sachsen-Coburg",
+     "20,37 \""
+    ],
+    [
+     "Sachsen-Altenburg",
+     "15,56 \"",
+     "Bayern",
+     "20,62 \""
+    ],
+    [
+     "Schwarzburg-Rudolstadt",
+     "15,99 \"",
+     "",
+     ""
+    ]
+   ],
+   "caption": null,
+   "sec": "t1-2-1"
+  },
+  {
+   "id": "b4",
+   "type": "paragraph",
+   "src": 3,
+   "text": "Indess eine genauere Beachtung der besonderen Verhältnisse des Landes mildert die Thatsache, wenn auch nicht nach ihrer Zahl, doch nach ihrem Ursprunge. Schon daß die drei Landrathsbezirke einen sehr verschiedenen Procentsatz der unehelichen Geburten haben und zwar",
+   "spans": [],
+   "sec": "t1-2-1"
+  },
+  {
+   "id": "b5",
+   "type": "paragraph",
+   "src": 4,
+   "text": "Gera 15,91, Schleiz 18,29, Lobenstein-Ebersdorf 24,94,",
+   "spans": [
+    [
+     0,
+     4,
+     "Location"
+    ],
+    [
+     12,
+     19,
+     "Location"
+    ],
+    [
+     27,
+     47,
+     "Location"
+    ]
+   ],
+   "sec": "t1-2-1"
+  },
+  {
+   "id": "b6",
+   "type": "paragraph",
+   "src": 5,
+   "text": "deutet darauf hin, daß in Schleiz, aber noch mehr in Lobenstein-Ebersdorf, besondere Umstände vorhanden sein müssen, welche hier das Uebel fördern. Ueberall, wo in ein und demselben Lande solche starke Differenzen zu Tage treten, sind die ursächlichen Factoren im Allgemeinen nachweisbar.*) Wenn im reußischen Unterlande die weibliche Jugend nicht über die Schwelle des Bezirkes nach Diensten zu gehen braucht, weil der Bezirk ihre Kräfte theils bei der Feldwirthschaft, theils bei der Industrie in Anspruch nimmt, so steht es anders auf dem Oberlande, wo weder der Ackerbau noch die Industrie dem jungweiblichen Proletariat hinreichend Arbeit und Brod gewähren kann. Mehr noch als im Bezirke Schleiz ist dies in Lobenstein-Ebersdorf der Fall, weshalb besonders hier die weibliche Jugend in starker Zahl in's Ausland geht, um in zeitweiligen Diensten Subsistenzmittel zu finden. Nicht mehr die vormaligen Heirathsplackereien, sondern Nahrungsnöthen peitschen das Mädchen in die Fremde, von wo sie oft befruchtet heimkehrt, hier die alte ehrbare Sitte abschwächt und die Zahl der unehelichen Geburten durch ausländische Einflüsse steigert. Aus eben demselben Grunde erklärt sich auch die Erscheinung, daß im Bezirke Gera die Zahl der ländlichen Unehelichen die der städtischen um ein Geringes, dagegen in den beiden anderen Landestheilen um ein Bedeutendes übersteigt. Würde die Bevölkerung des Oberlandes in sich Genüge finden, die Verhältnisse ständen besser, denn ein eheliches Proletariat ist nimmer so schlimm als ein uneheliches.",
+   "spans": [
+    [
+     26,
+     33,
+     "Location"
+    ],
+    [
+     53,
+     73,
+     "Location"
+    ],
+    [
+     693,
+     700,
+     "Location"
+    ],
+    [
+     713,
+     733,
+     "Location"
+    ],
+    [
+     1215,
+     1219,
+     "Location"
+    ]
+   ],
+   "sec": "t1-2-1"
+  },
+  {
+   "id": "b7",
+   "type": "heading",
+   "src": 6,
+   "text": "Zahl und Verhältniß der Todtgeborenen:",
+   "spans": [],
+   "sec": "t1-2-1",
+   "level": 5
+  }
+ ],
+ "footnotes": [
+  {
+   "id": "fn1",
+   "marker": "*)",
+   "text": "Man vergleiche Frankreich. Werden in diesem Lande, das im Ganzen 7,42 Proc. uneheliche Geburten hat, im Departement Ardèche 2,5 und im Seinedepartement weit über 50 Proc. getroffen, so erklärt sich dies daraus, daß dort eine Agriculturbevölkerung in und für sich, von Außen unbehelligt lebt, hier bei einem althergebrachten unehelichen Proletariat und bei fortwährendem Zuströmen jugendlicher Massen aus Frankreich und aus anderen Ländern die Versuchung blüht, das Gefühl der Schande erstirbt und die Ehe der Geringschätzung anheimfällt.",
+   "spans": [
+    [
+     15,
+     25,
+     "Location"
+    ],
+    [
+     104,
+     123,
+     "Location"
+    ],
+    [
+     135,
+     151,
+     "Location"
+    ],
+    [
+     404,
+     414,
+     "Location"
+    ]
+   ]
+  }
+ ],
+ "corrections": [],
+ "provenance": {
+  "source": "colab-2026-03",
+  "model": "gemini-3-flash-preview",
+  "timestamp": "2026-03-03T15:13:08.539877",
+  "early_schema": false
+ },
+ "section_path": [
+  "t1",
+  "t1-2",
+  "t1-2-1"
+ ],
+ "sections": [
+  "t1-2-1"
+ ]
+}

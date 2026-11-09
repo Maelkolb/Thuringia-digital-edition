@@ -1,0 +1,1 @@
+RJ.put("suche/t/1",{"b1": "I. Theil.", "b2": "Allgemeine Landeskunde des Fürstenthums Reuß j. L.", "_summary_de": "Zwischentitel: I. Theil. Allgemeine Landeskunde des Fürstenthums Reuß j. L.", "_summary_en": "Part title: Part I. General regional study of the Principality of Reuss (Younger Line)."});

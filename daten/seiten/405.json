@@ -1,0 +1,64 @@
+{
+ "seq": 417,
+ "label": "405",
+ "slug": "405",
+ "iiif": {
+  "service": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb11005578_00417",
+  "canvas": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11005578/canvas/417",
+  "width": 1673,
+  "height": 2703
+ },
+ "kind": "text",
+ "running_header": null,
+ "signature": "27",
+ "blocks": [
+  {
+   "id": "b1",
+   "type": "heading",
+   "src": 0,
+   "text": "II. Theil.",
+   "spans": [],
+   "opens": [
+    "t2"
+   ],
+   "sec": "t2",
+   "level": 2
+  },
+  {
+   "id": "b2",
+   "type": "heading",
+   "src": 1,
+   "text": "Ortskunde des Fürstenthums Reuß j. L.",
+   "spans": [
+    [
+     14,
+     37,
+     "Location"
+    ]
+   ],
+   "sec": "t2",
+   "level": 3
+  }
+ ],
+ "footnotes": [],
+ "corrections": [
+  {
+   "rule": "signature_from_page_number",
+   "value": "27"
+  }
+ ],
+ "provenance": {
+  "source": "colab-2026-03",
+  "model": "gemini-3-flash-preview",
+  "timestamp": "2026-03-05T12:06:34.720009",
+  "early_schema": false
+ },
+ "section_path": [
+  "t1",
+  "t1-5",
+  "t1-5-3"
+ ],
+ "sections": [
+  "t2"
+ ]
+}

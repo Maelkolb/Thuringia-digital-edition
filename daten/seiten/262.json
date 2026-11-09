@@ -1,0 +1,495 @@
+{
+ "seq": 274,
+ "label": "262",
+ "slug": "262",
+ "iiif": {
+  "service": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb11005578_00274",
+  "canvas": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11005578/canvas/274",
+  "width": 1626,
+  "height": 2703
+ },
+ "kind": "text",
+ "running_header": "III. Die Volksbetriebsamkeit.",
+ "signature": null,
+ "blocks": [
+  {
+   "id": "b1",
+   "type": "paragraph",
+   "src": 0,
+   "text": "geraer Bank mit einem Grundkapitale von 4 Millionen Thaler und (1868) mit einem Gesammtumsatze von 75,367,300 Thaler; die Gewerbebank in Gera und der Vorschussverein in Schleiz, beide auf den Grundsätzen der volkswirthschaftlichen Genossenschaften beruhend, mit juristischer Persönlichkeit und von bedeutendem Umsatze.",
+   "spans": [
+    [
+     0,
+     11,
+     "Organisation"
+    ],
+    [
+     122,
+     141,
+     "Organisation"
+    ],
+    [
+     137,
+     141,
+     "Location"
+    ],
+    [
+     150,
+     176,
+     "Organisation"
+    ],
+    [
+     169,
+     176,
+     "Location"
+    ]
+   ],
+   "continued": true,
+   "sec": "t1-3-7"
+  },
+  {
+   "id": "b2",
+   "type": "paragraph",
+   "src": 1,
+   "text": "Ausser den Wochenmärkten hat das Unterland die wenigsten, im Oberlande das Gebiet Lobenstein-Ebersdorf die meisten Jahrmärkte. Im Landestheile Gera bestehen drei, in Schleiz sieben und in Lobenstein-Ebersdorf elf Marktorte. Es sind dieselben:",
+   "spans": [
+    [
+     82,
+     102,
+     "Location"
+    ],
+    [
+     143,
+     147,
+     "Location"
+    ],
+    [
+     188,
+     208,
+     "Location"
+    ]
+   ],
+   "sec": "t1-3-7"
+  },
+  {
+   "id": "b3",
+   "type": "list",
+   "src": 2,
+   "items": [
+    {
+     "text": "Gera (vier Jahr-, zwei Ross-, zwei Viehmärkte und ein Wollmarkt), Langenberg (zwei Krammärkte und ein Ross-, Vieh- und Kornmarkt) und Grossaga (ein Krammarkt).",
+     "spans": [
+      [
+       0,
+       4,
+       "Location"
+      ],
+      [
+       23,
+       27,
+       "Animal"
+      ],
+      [
+       35,
+       45,
+       "Animal"
+      ],
+      [
+       54,
+       63,
+       "Resource"
+      ],
+      [
+       66,
+       76,
+       "Location"
+      ],
+      [
+       102,
+       106,
+       "Animal"
+      ],
+      [
+       109,
+       113,
+       "Animal"
+      ],
+      [
+       119,
+       128,
+       "Resource"
+      ],
+      [
+       134,
+       142,
+       "Location"
+      ]
+     ]
+    },
+    {
+     "text": "Schleiz (sieben Kram- und Viehmärkte, drei Viehmärkte und ein Wollmarkt), Hohenleuben (vier Kram- und Viehmärkte), Weissendorf (zwei Kram- und Viehmärkte), Langenwolschendorf (zwei Kram-, Vieh- und Leinwandmärkte), Rödersdorf (ein Krammarkt), Saalburg (vier Kram- und Viehmärkte) und Tanna (sieben Kram- und Viehmärkte).",
+     "spans": [
+      [
+       0,
+       7,
+       "Location"
+      ],
+      [
+       26,
+       36,
+       "Animal"
+      ],
+      [
+       43,
+       53,
+       "Animal"
+      ],
+      [
+       62,
+       71,
+       "Resource"
+      ],
+      [
+       74,
+       85,
+       "Location"
+      ],
+      [
+       102,
+       112,
+       "Animal"
+      ],
+      [
+       115,
+       126,
+       "Location"
+      ],
+      [
+       143,
+       153,
+       "Animal"
+      ],
+      [
+       156,
+       174,
+       "Location"
+      ],
+      [
+       143,
+       147,
+       "Animal"
+      ],
+      [
+       198,
+       212,
+       "Artefact"
+      ],
+      [
+       215,
+       225,
+       "Location"
+      ],
+      [
+       243,
+       251,
+       "Location"
+      ],
+      [
+       268,
+       278,
+       "Animal"
+      ],
+      [
+       284,
+       289,
+       "Location"
+      ],
+      [
+       308,
+       318,
+       "Animal"
+      ]
+     ]
+    },
+    {
+     "text": "Lobenstein (sechs Kram-, drei Viehmärkte und ein Wollmarkt), Ebersdorf (fünf Kram- und Viehmärkte, sieben Viehmärkte), Hirschberg (fünf Kram- und Viehmärkte, ein Krammarkt), Langgrün (ein Kram- und Viehmarkt), Lothra (drei Kram- und Viehmärkte), Thimmendorf (fünf Kram- und Viehmärkte), Ruppersdorf (vier Kram- und fünf Viehmärkte), Wurzbach (sieben Kram- und Vieh- und sieben Viehmärkte), Titschendorf (vier Kram- und Viehmärkte*), Ossla (ein Kram- und Schweinemarkt) und Pottiga (ein Krammarkt).",
+     "spans": [
+      [
+       0,
+       10,
+       "Location"
+      ],
+      [
+       30,
+       40,
+       "Animal"
+      ],
+      [
+       49,
+       58,
+       "Resource"
+      ],
+      [
+       61,
+       70,
+       "Location"
+      ],
+      [
+       87,
+       97,
+       "Animal"
+      ],
+      [
+       106,
+       116,
+       "Animal"
+      ],
+      [
+       119,
+       129,
+       "Location"
+      ],
+      [
+       146,
+       156,
+       "Animal"
+      ],
+      [
+       174,
+       182,
+       "Location"
+      ],
+      [
+       198,
+       207,
+       "Animal"
+      ],
+      [
+       210,
+       216,
+       "Location"
+      ],
+      [
+       233,
+       243,
+       "Animal"
+      ],
+      [
+       246,
+       257,
+       "Location"
+      ],
+      [
+       274,
+       284,
+       "Animal"
+      ],
+      [
+       287,
+       298,
+       "Location"
+      ],
+      [
+       320,
+       330,
+       "Animal"
+      ],
+      [
+       333,
+       341,
+       "Location"
+      ],
+      [
+       274,
+       278,
+       "Animal"
+      ],
+      [
+       377,
+       387,
+       "Animal"
+      ],
+      [
+       390,
+       402,
+       "Location"
+      ],
+      [
+       419,
+       429,
+       "Animal"
+      ],
+      [
+       433,
+       438,
+       "Location"
+      ],
+      [
+       454,
+       467,
+       "Animal"
+      ],
+      [
+       473,
+       480,
+       "Location"
+      ]
+     ]
+    }
+   ],
+   "sec": "t1-3-7"
+  },
+  {
+   "id": "b4",
+   "type": "paragraph",
+   "src": 3,
+   "text": "Den inneren Verkehr, sowie den mit dem Auslande unterstützen als Verkehrsmittel ausser den durch alle Landestheile geführten Kunststrassen und Communalwegen zur Zeit zwei Eisenbahnen, die weissenfels-geraer Eisenbahn (thüringer Zweigbahn, Vertrag vom 2. April 1855 und den 19. März 1859 eröffnet), die von Gera über Ronneburg an die sächsisch-bayerische Staatseisenbahn führende und in diese mündende sog. gössnitz-geraer Bahn (Vertrag vom 30. Juli 1863 und den 27. December 1865 eröffnet), die Bahntelegraphen und endlich die das Land durchschneidenden, unter preussischer Verwaltung stehenden Postzüge und Telegraphenlinien mit den Hauptbureaus in Gera und Schleiz. Der jetzt durch Zinsgarantie von Seiten der fünf betheiligten Staaten und der thüringer Eisenbahngesellschaft gesicherte und bereits begonnene Bau der Eisenbahn von Gera nach Eichicht (Vertrag vom 4. December 1867) macht Gera zu einen Knotenpunkt und kommt auch den Interessen des Oberlandes zu gut. Ausserdem stehen noch andere Bahnen (directe Verbindung Gera's mit Leipzig, Weimar und Plauen; von Erfurt nach Hof) in Aussicht.",
+   "spans": [
+    [
+     125,
+     138,
+     "Artefact"
+    ],
+    [
+     143,
+     156,
+     "Artefact"
+    ],
+    [
+     171,
+     182,
+     "Artefact"
+    ],
+    [
+     188,
+     216,
+     "Artefact"
+    ],
+    [
+     306,
+     310,
+     "Location"
+    ],
+    [
+     316,
+     325,
+     "Location"
+    ],
+    [
+     333,
+     369,
+     "Organisation"
+    ],
+    [
+     406,
+     426,
+     "Artefact"
+    ],
+    [
+     495,
+     510,
+     "Artefact"
+    ],
+    [
+     595,
+     603,
+     "Artefact"
+    ],
+    [
+     608,
+     625,
+     "Artefact"
+    ],
+    [
+     650,
+     654,
+     "Location"
+    ],
+    [
+     659,
+     666,
+     "Location"
+    ],
+    [
+     746,
+     777,
+     "Organisation"
+    ],
+    [
+     819,
+     851,
+     "Artefact"
+    ],
+    [
+     833,
+     837,
+     "Location"
+    ],
+    [
+     843,
+     851,
+     "Location"
+    ],
+    [
+     889,
+     893,
+     "Location"
+    ],
+    [
+     1024,
+     1028,
+     "Location"
+    ],
+    [
+     1035,
+     1042,
+     "Location"
+    ],
+    [
+     1044,
+     1050,
+     "Location"
+    ],
+    [
+     1055,
+     1061,
+     "Location"
+    ],
+    [
+     1067,
+     1073,
+     "Location"
+    ],
+    [
+     1079,
+     1082,
+     "Location"
+    ]
+   ],
+   "sec": "t1-3-7"
+  }
+ ],
+ "footnotes": [
+  {
+   "id": "fn1",
+   "marker": "*)",
+   "text": "Sie sind angeblich zur Zeit eingestellt.",
+   "spans": []
+  }
+ ],
+ "corrections": [],
+ "provenance": {
+  "source": "colab-2026-03",
+  "model": "gemini-3-flash-preview",
+  "timestamp": "2026-03-04T13:33:52.139265",
+  "early_schema": false
+ },
+ "section_path": [
+  "t1",
+  "t1-3",
+  "t1-3-7"
+ ],
+ "sections": [
+  "t1-3-7"
+ ]
+}

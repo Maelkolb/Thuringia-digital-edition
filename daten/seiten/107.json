@@ -1,0 +1,801 @@
+{
+ "seq": 119,
+ "label": "107",
+ "slug": "107",
+ "iiif": {
+  "service": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb11005578_00119",
+  "canvas": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11005578/canvas/119",
+  "width": 1606,
+  "height": 2698
+ },
+ "kind": "text",
+ "running_header": "1. Statistik.",
+ "signature": null,
+ "blocks": [
+  {
+   "id": "b1",
+   "type": "paragraph",
+   "src": 0,
+   "text": "Getrauten und Gestorbenen, die ersten und letzten außer dem Geschlecht noch dort mit Angabe der todtgeborenen und unehelichen Kinder und hier mit der Zahl der durch Selbstmord oder durch Unglück umgekommenen Personen.",
+   "spans": [],
+   "sec": "t1-2-1"
+  },
+  {
+   "id": "b2",
+   "type": "heading",
+   "src": 1,
+   "text": "Geborene in den Landestheilen und im Fürstenthume absolut und in Procenten der Bevölkerung:",
+   "spans": [],
+   "sec": "t1-2-1",
+   "level": 5
+  },
+  {
+   "id": "b3",
+   "type": "table",
+   "src": 2,
+   "n_cols": 9,
+   "header_rows": 1,
+   "rows": [
+    {
+     "role": "header",
+     "cells": [
+      {
+       "text": "Jahre.",
+       "spans": []
+      },
+      {
+       "text": "Gera absolut.",
+       "spans": [
+        [
+         0,
+         4,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "Gera Proc.",
+       "spans": [
+        [
+         0,
+         4,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "Schleiz absolut.",
+       "spans": [
+        [
+         0,
+         7,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "Schleiz Proc.",
+       "spans": [
+        [
+         0,
+         7,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "Lob.-Ebersdorf absolut.",
+       "spans": [
+        [
+         0,
+         14,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "Lob.-Ebersdorf Proc.",
+       "spans": [
+        [
+         0,
+         14,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "Fürstenthum absolut.",
+       "spans": []
+      },
+      {
+       "text": "Fürstenthum Proc.",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1858",
+       "spans": []
+      },
+      {
+       "text": "1356",
+       "spans": []
+      },
+      {
+       "text": "4,03",
+       "spans": []
+      },
+      {
+       "text": "1022",
+       "spans": []
+      },
+      {
+       "text": "3,98",
+       "spans": []
+      },
+      {
+       "text": "848",
+       "spans": []
+      },
+      {
+       "text": "3,76",
+       "spans": []
+      },
+      {
+       "text": "3226",
+       "spans": []
+      },
+      {
+       "text": "3,94",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1859",
+       "spans": []
+      },
+      {
+       "text": "1392",
+       "spans": []
+      },
+      {
+       "text": "4,14",
+       "spans": []
+      },
+      {
+       "text": "1086",
+       "spans": []
+      },
+      {
+       "text": "4,22",
+       "spans": []
+      },
+      {
+       "text": "831",
+       "spans": []
+      },
+      {
+       "text": "3,69",
+       "spans": []
+      },
+      {
+       "text": "3309",
+       "spans": []
+      },
+      {
+       "text": "4,05",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1860",
+       "spans": []
+      },
+      {
+       "text": "1351",
+       "spans": []
+      },
+      {
+       "text": "4,02",
+       "spans": []
+      },
+      {
+       "text": "1065",
+       "spans": []
+      },
+      {
+       "text": "4,14",
+       "spans": []
+      },
+      {
+       "text": "800",
+       "spans": []
+      },
+      {
+       "text": "3,55",
+       "spans": []
+      },
+      {
+       "text": "3216",
+       "spans": []
+      },
+      {
+       "text": "3,93",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1861",
+       "spans": []
+      },
+      {
+       "text": "1340",
+       "spans": []
+      },
+      {
+       "text": "3,87",
+       "spans": []
+      },
+      {
+       "text": "1015",
+       "spans": []
+      },
+      {
+       "text": "3,85",
+       "spans": []
+      },
+      {
+       "text": "814",
+       "spans": []
+      },
+      {
+       "text": "3,64",
+       "spans": []
+      },
+      {
+       "text": "3169",
+       "spans": []
+      },
+      {
+       "text": "3,80",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1862",
+       "spans": []
+      },
+      {
+       "text": "1354",
+       "spans": []
+      },
+      {
+       "text": "3,95",
+       "spans": []
+      },
+      {
+       "text": "1059",
+       "spans": []
+      },
+      {
+       "text": "4,02",
+       "spans": []
+      },
+      {
+       "text": "798",
+       "spans": []
+      },
+      {
+       "text": "3,57",
+       "spans": []
+      },
+      {
+       "text": "3211",
+       "spans": []
+      },
+      {
+       "text": "3,85",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1863",
+       "spans": []
+      },
+      {
+       "text": "1468",
+       "spans": []
+      },
+      {
+       "text": "4,23",
+       "spans": []
+      },
+      {
+       "text": "1075",
+       "spans": []
+      },
+      {
+       "text": "4,08",
+       "spans": []
+      },
+      {
+       "text": "868",
+       "spans": []
+      },
+      {
+       "text": "3,89",
+       "spans": []
+      },
+      {
+       "text": "3411",
+       "spans": []
+      },
+      {
+       "text": "4,09",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1864",
+       "spans": []
+      },
+      {
+       "text": "1465",
+       "spans": []
+      },
+      {
+       "text": "3,98",
+       "spans": []
+      },
+      {
+       "text": "1073",
+       "spans": []
+      },
+      {
+       "text": "3,95",
+       "spans": []
+      },
+      {
+       "text": "849",
+       "spans": []
+      },
+      {
+       "text": "3,77",
+       "spans": []
+      },
+      {
+       "text": "3387",
+       "spans": []
+      },
+      {
+       "text": "3,92",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1865",
+       "spans": []
+      },
+      {
+       "text": "1550",
+       "spans": []
+      },
+      {
+       "text": "4,13",
+       "spans": []
+      },
+      {
+       "text": "1064",
+       "spans": []
+      },
+      {
+       "text": "3,88",
+       "spans": []
+      },
+      {
+       "text": "899",
+       "spans": []
+      },
+      {
+       "text": "3,97",
+       "spans": []
+      },
+      {
+       "text": "3513",
+       "spans": []
+      },
+      {
+       "text": "4,02",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1866",
+       "spans": []
+      },
+      {
+       "text": "1595",
+       "spans": []
+      },
+      {
+       "text": "4,22",
+       "spans": []
+      },
+      {
+       "text": "1103",
+       "spans": []
+      },
+      {
+       "text": "3,99",
+       "spans": []
+      },
+      {
+       "text": "925",
+       "spans": []
+      },
+      {
+       "text": "4,04",
+       "spans": []
+      },
+      {
+       "text": "3623",
+       "spans": []
+      },
+      {
+       "text": "4,10",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1867",
+       "spans": []
+      },
+      {
+       "text": "1538",
+       "spans": []
+      },
+      {
+       "text": "4,02",
+       "spans": []
+      },
+      {
+       "text": "1111",
+       "spans": []
+      },
+      {
+       "text": "4,06",
+       "spans": []
+      },
+      {
+       "text": "863",
+       "spans": []
+      },
+      {
+       "text": "3,86",
+       "spans": []
+      },
+      {
+       "text": "3512",
+       "spans": []
+      },
+      {
+       "text": "3,99",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1858—1867",
+       "spans": []
+      },
+      {
+       "text": "1441",
+       "spans": []
+      },
+      {
+       "text": "4,05",
+       "spans": []
+      },
+      {
+       "text": "1061",
+       "spans": []
+      },
+      {
+       "text": "4,01",
+       "spans": []
+      },
+      {
+       "text": "849",
+       "spans": []
+      },
+      {
+       "text": "3,77",
+       "spans": []
+      },
+      {
+       "text": "3358",
+       "spans": []
+      },
+      {
+       "text": "3,97",
+       "spans": []
+      }
+     ]
+    }
+   ],
+   "grid": [
+    [
+     "Jahre.",
+     "Gera absolut.",
+     "Gera Proc.",
+     "Schleiz absolut.",
+     "Schleiz Proc.",
+     "Lob.-Ebersdorf absolut.",
+     "Lob.-Ebersdorf Proc.",
+     "Fürstenthum absolut.",
+     "Fürstenthum Proc."
+    ],
+    [
+     "1858",
+     "1356",
+     "4,03",
+     "1022",
+     "3,98",
+     "848",
+     "3,76",
+     "3226",
+     "3,94"
+    ],
+    [
+     "1859",
+     "1392",
+     "4,14",
+     "1086",
+     "4,22",
+     "831",
+     "3,69",
+     "3309",
+     "4,05"
+    ],
+    [
+     "1860",
+     "1351",
+     "4,02",
+     "1065",
+     "4,14",
+     "800",
+     "3,55",
+     "3216",
+     "3,93"
+    ],
+    [
+     "1861",
+     "1340",
+     "3,87",
+     "1015",
+     "3,85",
+     "814",
+     "3,64",
+     "3169",
+     "3,80"
+    ],
+    [
+     "1862",
+     "1354",
+     "3,95",
+     "1059",
+     "4,02",
+     "798",
+     "3,57",
+     "3211",
+     "3,85"
+    ],
+    [
+     "1863",
+     "1468",
+     "4,23",
+     "1075",
+     "4,08",
+     "868",
+     "3,89",
+     "3411",
+     "4,09"
+    ],
+    [
+     "1864",
+     "1465",
+     "3,98",
+     "1073",
+     "3,95",
+     "849",
+     "3,77",
+     "3387",
+     "3,92"
+    ],
+    [
+     "1865",
+     "1550",
+     "4,13",
+     "1064",
+     "3,88",
+     "899",
+     "3,97",
+     "3513",
+     "4,02"
+    ],
+    [
+     "1866",
+     "1595",
+     "4,22",
+     "1103",
+     "3,99",
+     "925",
+     "4,04",
+     "3623",
+     "4,10"
+    ],
+    [
+     "1867",
+     "1538",
+     "4,02",
+     "1111",
+     "4,06",
+     "863",
+     "3,86",
+     "3512",
+     "3,99"
+    ],
+    [
+     "1858—1867",
+     "1441",
+     "4,05",
+     "1061",
+     "4,01",
+     "849",
+     "3,77",
+     "3358",
+     "3,97"
+    ]
+   ],
+   "caption": null,
+   "sec": "t1-2-1"
+  },
+  {
+   "id": "b4",
+   "type": "paragraph",
+   "src": 3,
+   "text": "Der durchschnittliche Procentsatz der Geborenen des Landes steht höher als der von irgend einem der anderen thüringischen Staaten, unter denen Altenburg mit 3,89 am nächsten kommt. Nach dem vorliegenden zehnjährigen Durchschnitte hat Lobenstein-Ebersdorf im Verhältniß zu Gera und Schleiz einen geringeren, dagegen das ganze Fürstenthum keinen Fortschritt der Geburten; es würde sich indeß ein solcher in seiner vollen Bedeutung zeigen, wenn längere Perioden umspannt werden könnten, wie sich dies im Einzelnen bei dem alten Amte Lobenstein zeigt, das",
+   "spans": [
+    [
+     143,
+     152,
+     "Location"
+    ],
+    [
+     234,
+     254,
+     "Location"
+    ],
+    [
+     272,
+     276,
+     "Location"
+    ],
+    [
+     281,
+     288,
+     "Location"
+    ],
+    [
+     530,
+     540,
+     "Location"
+    ]
+   ],
+   "sec": "t1-2-1"
+  },
+  {
+   "id": "b5",
+   "type": "list",
+   "src": 4,
+   "items": [
+    {
+     "text": "1604 : 46 Geburten,",
+     "spans": []
+    },
+    {
+     "text": "1704 : 71 \"",
+     "spans": []
+    },
+    {
+     "text": "1784 : 236 \"",
+     "spans": []
+    },
+    {
+     "text": "1804 : 334 \"",
+     "spans": []
+    },
+    {
+     "text": "1867 : 863 \" aufweist.",
+     "spans": []
+    }
+   ],
+   "sec": "t1-2-1"
+  },
+  {
+   "id": "b6",
+   "type": "paragraph",
+   "src": 5,
+   "text": "Werden die Geburten auf dem Lande und in den Städten mit einander verglichen, so überwiegt, wie die folgende Tabelle darthut, die Zahl der ländlichen Geburten die der städtischen; ein Verhältniß, welches sich indeß durch die Thatsache etwas abschärft, daß durch die weiblichen Dienstboten viele uneheliche Kinder aus der Stadt auf das Land getragen werden.",
+   "spans": [],
+   "sec": "t1-2-1"
+  },
+  {
+   "id": "b7",
+   "type": "heading",
+   "src": 6,
+   "text": "Die Geborenen in Procenten:",
+   "spans": [],
+   "sec": "t1-2-1",
+   "level": 5
+  }
+ ],
+ "footnotes": [],
+ "corrections": [],
+ "provenance": {
+  "source": "colab-2026-03",
+  "model": "gemini-3-flash-preview",
+  "timestamp": "2026-03-03T15:11:55.570928",
+  "early_schema": false
+ },
+ "section_path": [
+  "t1",
+  "t1-2",
+  "t1-2-1"
+ ],
+ "sections": [
+  "t1-2-1"
+ ]
+}

@@ -1,0 +1,1045 @@
+{
+ "seq": 99,
+ "label": "87",
+ "slug": "87",
+ "iiif": {
+  "service": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb11005578_00099",
+  "canvas": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11005578/canvas/99",
+  "width": 1594,
+  "height": 2696
+ },
+ "kind": "text",
+ "running_header": "9. Fauna.",
+ "signature": null,
+ "blocks": [
+  {
+   "id": "b1",
+   "type": "paragraph",
+   "src": 0,
+   "text": "Der frühere Reichthum an Fischen in allen Flüssen, Bächen und Teichen des Landes ist sehr vermindert worden. Waren noch 1647 sämmtliche Bäche im Ober- und Unterlande Forellenbäche und als solche ergiebige Einnahmequellen, so sind die meisten gegenwärtig nicht allein an der Forelle, diesem köstlichen Süßwasserfisch, sondern auch an allen anderen Fischen arm geworden. Dies hat vor Allem seinen Grund bezüglich der Wildfische in einem rücksichtslosen, räuberischen Fischfange. Aber auch die künstliche Fischzucht wird im Allgemeinen nach altem Schlendrian betrieben und lässt daher viel zu wünschen übrig. Die im Lande vorkommenden Arten sind:",
+   "spans": [
+    [
+     25,
+     32,
+     "Animal"
+    ],
+    [
+     347,
+     354,
+     "Animal"
+    ],
+    [
+     42,
+     49,
+     "Environment"
+    ],
+    [
+     51,
+     57,
+     "Environment"
+    ],
+    [
+     136,
+     141,
+     "Environment"
+    ],
+    [
+     62,
+     69,
+     "Environment"
+    ],
+    [
+     166,
+     179,
+     "Environment"
+    ],
+    [
+     274,
+     281,
+     "Animal"
+    ],
+    [
+     301,
+     315,
+     "Animal"
+    ],
+    [
+     415,
+     425,
+     "Animal"
+    ]
+   ],
+   "sec": "t1-1-9"
+  },
+  {
+   "id": "b2",
+   "type": "table",
+   "src": 1,
+   "n_cols": 5,
+   "header_rows": 1,
+   "rows": [
+    {
+     "role": "header",
+     "cells": [
+      {
+       "text": "Zoologische Namen.",
+       "spans": []
+      },
+      {
+       "text": "Saale. Volksname.",
+       "spans": [
+        [
+         0,
+         5,
+         "Natural Object"
+        ]
+       ]
+      },
+      {
+       "text": "Elster. Volksname.",
+       "spans": [
+        [
+         0,
+         6,
+         "Natural Object"
+        ]
+       ]
+      },
+      {
+       "text": "Wiesenthal. Volksname.",
+       "spans": [
+        [
+         0,
+         10,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "Teiche.",
+       "spans": [
+        [
+         0,
+         6,
+         "Environment"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1. Cobitis fossilis",
+       "spans": [
+        [
+         3,
+         19,
+         "Animal"
+        ]
+       ]
+      },
+      {
+       "text": "Schlammbeißer",
+       "spans": [
+        [
+         0,
+         13,
+         "Animal"
+        ]
+       ]
+      },
+      {
+       "text": "Schlammpitzger, Wetterfisch (bes. bei Köstritz)",
+       "spans": [
+        [
+         38,
+         46,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "Wetterfisch",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "2. Cobitis barbatula*",
+       "spans": []
+      },
+      {
+       "text": "Schmerle",
+       "spans": []
+      },
+      {
+       "text": "Schmerle",
+       "spans": []
+      },
+      {
+       "text": "Schmerle",
+       "spans": []
+      },
+      {
+       "text": "häufig ohne Züchtung.",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "3. Cobitis taenia*",
+       "spans": []
+      },
+      {
+       "text": "Brandschmerle, selten",
+       "spans": []
+      },
+      {
+       "text": "Steinpitzger, Schmerle",
+       "spans": []
+      },
+      {
+       "text": "Schmerle",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "4. Cyprinus carpio*",
+       "spans": [
+        [
+         3,
+         19,
+         "Animal"
+        ]
+       ]
+      },
+      {
+       "text": "Karpfen, aber aus den Teichen eingetreten; selten",
+       "spans": [
+        [
+         0,
+         7,
+         "Animal"
+        ]
+       ]
+      },
+      {
+       "text": "desgl.",
+       "spans": []
+      },
+      {
+       "text": "desgl.",
+       "spans": []
+      },
+      {
+       "text": "Karpfen.",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "5. Cyprinus dobula",
+       "spans": []
+      },
+      {
+       "text": "Elling, Aelmt",
+       "spans": []
+      },
+      {
+       "text": "Schnottfisch, Hasel",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "6. Carassius vulgaris*",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "Karausche bis 1 Pfd. schwer.",
+       "spans": [
+        [
+         0,
+         9,
+         "Animal"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "7. Tinca vulgaris*",
+       "spans": []
+      },
+      {
+       "text": "bisweilen aus den Teichen eingetreten",
+       "spans": []
+      },
+      {
+       "text": "desgl.",
+       "spans": []
+      },
+      {
+       "text": "desgl.",
+       "spans": []
+      },
+      {
+       "text": "Schleihe.",
+       "spans": [
+        [
+         0,
+         8,
+         "Animal"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "8. Barbus fluviatilis*",
+       "spans": []
+      },
+      {
+       "text": "Barbe",
+       "spans": []
+      },
+      {
+       "text": "Barbe (bis 9 Pfd.)",
+       "spans": []
+      },
+      {
+       "text": "erst eingesetzt",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "9. Gobio fluviatilis*",
+       "spans": []
+      },
+      {
+       "text": "Kresse",
+       "spans": []
+      },
+      {
+       "text": "Kressling, Kresse",
+       "spans": []
+      },
+      {
+       "text": "Kresse",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "10. Rhodeus amarus",
+       "spans": []
+      },
+      {
+       "text": "Bitterling",
+       "spans": []
+      },
+      {
+       "text": "Pritsch",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "11. Phoxinus laevis*",
+       "spans": []
+      },
+      {
+       "text": "Ellritze, Erlkress",
+       "spans": []
+      },
+      {
+       "text": "Ellritze, Ellerling",
+       "spans": []
+      },
+      {
+       "text": "Ellritze",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "12. Leuciscus rutilus*",
+       "spans": []
+      },
+      {
+       "text": "Weissfisch",
+       "spans": []
+      },
+      {
+       "text": "Rothauge, Rothflosse",
+       "spans": []
+      },
+      {
+       "text": "Rothauge",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "13. Leuciscus (Scardinius) erythrophthalmus*",
+       "spans": []
+      },
+      {
+       "text": "Rothauge, Plötze",
+       "spans": []
+      },
+      {
+       "text": "Rothauge, Rothflosse",
+       "spans": []
+      },
+      {
+       "text": "Rothauge",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "14. Squalius cephalus",
+       "spans": []
+      },
+      {
+       "text": "Elte, Eltfisch",
+       "spans": []
+      },
+      {
+       "text": "Altfisch, Dickkopf (Weissfisch)",
+       "spans": []
+      },
+      {
+       "text": "Altfisch",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "15. Squalius leuciscus",
+       "spans": []
+      },
+      {
+       "text": "Haase",
+       "spans": []
+      },
+      {
+       "text": "Häßling",
+       "spans": []
+      },
+      {
+       "text": "Altfisch",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "16. Idus melanotus",
+       "spans": []
+      },
+      {
+       "text": "Weissfisch",
+       "spans": []
+      },
+      {
+       "text": "Weissfisch",
+       "spans": []
+      },
+      {
+       "text": "Altfisch",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "17. Aspius rapax*",
+       "spans": []
+      },
+      {
+       "text": "Rappe",
+       "spans": []
+      },
+      {
+       "text": "Rappe",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "18. Alburnus lucidus",
+       "spans": []
+      },
+      {
+       "text": "Schneider, Stromblickke, Weissfisch",
+       "spans": []
+      },
+      {
+       "text": "Schneider, Weissfisch",
+       "spans": []
+      },
+      {
+       "text": "?",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "19. Alb. bipunctatus",
+       "spans": []
+      },
+      {
+       "text": "Weissfisch",
+       "spans": []
+      },
+      {
+       "text": "Weissfisch",
+       "spans": []
+      },
+      {
+       "text": "Weissfisch",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "20. Abramis brama",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "Blei, eingesetzt?",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "21. Abramis melanops",
+       "spans": []
+      },
+      {
+       "text": "Zährde",
+       "spans": []
+      },
+      {
+       "text": "Zehrde",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "22. Blicca Björkna",
+       "spans": []
+      },
+      {
+       "text": "Schlammblikke, Eisfisch, Weissfisch",
+       "spans": []
+      },
+      {
+       "text": "Grundblikke, Eisfisch, Weissfisch",
+       "spans": []
+      },
+      {
+       "text": "?",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "23. Lota vulgaris*",
+       "spans": []
+      },
+      {
+       "text": "Aalrauppe, Quappe",
+       "spans": [
+        [
+         0,
+         9,
+         "Animal"
+        ],
+        [
+         11,
+         17,
+         "Animal"
+        ]
+       ]
+      },
+      {
+       "text": "sonst häufig, jetzt selten",
+       "spans": []
+      },
+      {
+       "text": "Aalruppe",
+       "spans": []
+      },
+      {
+       "text": "sonst hie und da.",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "24. Cottus Gobio*",
+       "spans": []
+      },
+      {
+       "text": "Kaulbarsch, Rotzkolbe, Rotzkober",
+       "spans": []
+      },
+      {
+       "text": "Kaulbutz, Rotzkolbe, Kaulquappe, seltener",
+       "spans": []
+      },
+      {
+       "text": "Kaulbatze",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "25. Acerina cernua*",
+       "spans": []
+      },
+      {
+       "text": "Krebsfisch?",
+       "spans": []
+      },
+      {
+       "text": "Stachelbarsch",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "26. Perca fluviatilis*",
+       "spans": []
+      },
+      {
+       "text": "Barsch, Börsch",
+       "spans": []
+      },
+      {
+       "text": "Bunt- oder Stockbarsch",
+       "spans": []
+      },
+      {
+       "text": "Bertsche",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      }
+     ]
+    }
+   ],
+   "grid": [
+    [
+     "Zoologische Namen.",
+     "Saale. Volksname.",
+     "Elster. Volksname.",
+     "Wiesenthal. Volksname.",
+     "Teiche."
+    ],
+    [
+     "1. Cobitis fossilis",
+     "Schlammbeißer",
+     "Schlammpitzger, Wetterfisch (bes. bei Köstritz)",
+     "Wetterfisch",
+     "—"
+    ],
+    [
+     "2. Cobitis barbatula*",
+     "Schmerle",
+     "Schmerle",
+     "Schmerle",
+     "häufig ohne Züchtung."
+    ],
+    [
+     "3. Cobitis taenia*",
+     "Brandschmerle, selten",
+     "Steinpitzger, Schmerle",
+     "Schmerle",
+     "—"
+    ],
+    [
+     "4. Cyprinus carpio*",
+     "Karpfen, aber aus den Teichen eingetreten; selten",
+     "desgl.",
+     "desgl.",
+     "Karpfen."
+    ],
+    [
+     "5. Cyprinus dobula",
+     "Elling, Aelmt",
+     "Schnottfisch, Hasel",
+     "—",
+     "—"
+    ],
+    [
+     "6. Carassius vulgaris*",
+     "—",
+     "—",
+     "—",
+     "Karausche bis 1 Pfd. schwer."
+    ],
+    [
+     "7. Tinca vulgaris*",
+     "bisweilen aus den Teichen eingetreten",
+     "desgl.",
+     "desgl.",
+     "Schleihe."
+    ],
+    [
+     "8. Barbus fluviatilis*",
+     "Barbe",
+     "Barbe (bis 9 Pfd.)",
+     "erst eingesetzt",
+     "—"
+    ],
+    [
+     "9. Gobio fluviatilis*",
+     "Kresse",
+     "Kressling, Kresse",
+     "Kresse",
+     "—"
+    ],
+    [
+     "10. Rhodeus amarus",
+     "Bitterling",
+     "Pritsch",
+     "—",
+     "—"
+    ],
+    [
+     "11. Phoxinus laevis*",
+     "Ellritze, Erlkress",
+     "Ellritze, Ellerling",
+     "Ellritze",
+     "—"
+    ],
+    [
+     "12. Leuciscus rutilus*",
+     "Weissfisch",
+     "Rothauge, Rothflosse",
+     "Rothauge",
+     "—"
+    ],
+    [
+     "13. Leuciscus (Scardinius) erythrophthalmus*",
+     "Rothauge, Plötze",
+     "Rothauge, Rothflosse",
+     "Rothauge",
+     "—"
+    ],
+    [
+     "14. Squalius cephalus",
+     "Elte, Eltfisch",
+     "Altfisch, Dickkopf (Weissfisch)",
+     "Altfisch",
+     "—"
+    ],
+    [
+     "15. Squalius leuciscus",
+     "Haase",
+     "Häßling",
+     "Altfisch",
+     "—"
+    ],
+    [
+     "16. Idus melanotus",
+     "Weissfisch",
+     "Weissfisch",
+     "Altfisch",
+     "—"
+    ],
+    [
+     "17. Aspius rapax*",
+     "Rappe",
+     "Rappe",
+     "—",
+     "—"
+    ],
+    [
+     "18. Alburnus lucidus",
+     "Schneider, Stromblickke, Weissfisch",
+     "Schneider, Weissfisch",
+     "?",
+     "—"
+    ],
+    [
+     "19. Alb. bipunctatus",
+     "Weissfisch",
+     "Weissfisch",
+     "Weissfisch",
+     "—"
+    ],
+    [
+     "20. Abramis brama",
+     "—",
+     "—",
+     "Blei, eingesetzt?",
+     "—"
+    ],
+    [
+     "21. Abramis melanops",
+     "Zährde",
+     "Zehrde",
+     "—",
+     "—"
+    ],
+    [
+     "22. Blicca Björkna",
+     "Schlammblikke, Eisfisch, Weissfisch",
+     "Grundblikke, Eisfisch, Weissfisch",
+     "?",
+     "—"
+    ],
+    [
+     "23. Lota vulgaris*",
+     "Aalrauppe, Quappe",
+     "sonst häufig, jetzt selten",
+     "Aalruppe",
+     "sonst hie und da."
+    ],
+    [
+     "24. Cottus Gobio*",
+     "Kaulbarsch, Rotzkolbe, Rotzkober",
+     "Kaulbutz, Rotzkolbe, Kaulquappe, seltener",
+     "Kaulbatze",
+     "—"
+    ],
+    [
+     "25. Acerina cernua*",
+     "Krebsfisch?",
+     "Stachelbarsch",
+     "—",
+     "—"
+    ],
+    [
+     "26. Perca fluviatilis*",
+     "Barsch, Börsch",
+     "Bunt- oder Stockbarsch",
+     "Bertsche",
+     "—"
+    ]
+   ],
+   "caption": null,
+   "sec": "t1-1-9"
+  }
+ ],
+ "footnotes": [],
+ "corrections": [],
+ "provenance": {
+  "source": "colab-2026-01",
+  "model": "gemini-3-flash-preview",
+  "timestamp": "2026-01-06T04:19:42.730201",
+  "early_schema": false
+ },
+ "section_path": [
+  "t1",
+  "t1-1",
+  "t1-1-9"
+ ],
+ "sections": [
+  "t1-1-9"
+ ]
+}

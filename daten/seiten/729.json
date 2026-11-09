@@ -1,0 +1,226 @@
+{
+ "seq": 741,
+ "label": "729",
+ "slug": "729",
+ "iiif": {
+  "service": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb11005578_00741",
+  "canvas": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11005578/canvas/741",
+  "width": 1627,
+  "height": 2701
+ },
+ "kind": "text",
+ "running_header": "III. Der Landestheil Lobenstein-Ebersdorf.",
+ "signature": null,
+ "blocks": [
+  {
+   "id": "b1",
+   "type": "heading",
+   "src": 0,
+   "text": "Plan des Saaldorfer Gemeindebez. Schulbezirkes (Saalpolynesien):",
+   "spans": [
+    [
+     9,
+     19,
+     "Location"
+    ],
+    [
+     48,
+     62,
+     "Location"
+    ]
+   ],
+   "sec": "t2-3",
+   "level": 4
+  },
+  {
+   "id": "b2",
+   "type": "paragraph",
+   "src": 1,
+   "text": "Heinrichsstein. .    . Silberknie.",
+   "spans": [
+    [
+     0,
+     14,
+     "Natural Object"
+    ],
+    [
+     23,
+     33,
+     "Natural Object"
+    ]
+   ],
+   "sec": "t2-3"
+  },
+  {
+   "id": "b3",
+   "type": "paragraph",
+   "src": 2,
+   "text": ". Poln. Hammer.   . Oberschlösschen. \n                        . Unterschlösschen.",
+   "spans": [
+    [
+     2,
+     14,
+     "Artefact"
+    ],
+    [
+     20,
+     35,
+     "Artefact"
+    ],
+    [
+     64,
+     80,
+     "Artefact"
+    ]
+   ],
+   "sec": "t2-3"
+  },
+  {
+   "id": "b4",
+   "type": "paragraph",
+   "src": 3,
+   "text": "Neuhammer. . : \nNeuhaus. .      . Haueisen.\n                . Saaldorf.\n                . Rödelsgrün.\nRussbach.       . Weidmannsheil.",
+   "spans": [
+    [
+     0,
+     9,
+     "Location"
+    ],
+    [
+     16,
+     23,
+     "Location"
+    ],
+    [
+     34,
+     42,
+     "Location"
+    ],
+    [
+     62,
+     70,
+     "Location"
+    ],
+    [
+     90,
+     100,
+     "Location"
+    ],
+    [
+     102,
+     110,
+     "Location"
+    ],
+    [
+     120,
+     133,
+     "Location"
+    ]
+   ],
+   "sec": "t2-3"
+  },
+  {
+   "id": "b5",
+   "type": "paragraph",
+   "src": 4,
+   "text": "Gottliebsthal. .: \nRattenbach.",
+   "spans": [
+    [
+     0,
+     13,
+     "Location"
+    ],
+    [
+     19,
+     29,
+     "Natural Object"
+    ]
+   ],
+   "sec": "t2-3"
+  },
+  {
+   "id": "b6",
+   "type": "paragraph",
+   "src": 5,
+   "text": "Ziezelbach.",
+   "spans": [
+    [
+     0,
+     10,
+     "Natural Object"
+    ]
+   ],
+   "sec": "t2-3"
+  },
+  {
+   "id": "b7",
+   "type": "paragraph",
+   "src": 6,
+   "text": "Spaniershammer. .  : Mühlberg.\nMotschenmühle. .      Saalgrün.\n               . Henne-   Jungfernzechenbach.\n                 mannsreuth.\n               . Saalhof.     Gaubergsbach.\n               . Magwitzhaus.",
+   "spans": [
+    [
+     0,
+     14,
+     "Artefact"
+    ],
+    [
+     21,
+     29,
+     "Location"
+    ],
+    [
+     31,
+     44,
+     "Artefact"
+    ],
+    [
+     53,
+     61,
+     "Location"
+    ],
+    [
+     89,
+     107,
+     "Natural Object"
+    ],
+    [
+     155,
+     162,
+     "Artefact"
+    ],
+    [
+     168,
+     180,
+     "Natural Object"
+    ],
+    [
+     199,
+     210,
+     "Artefact"
+    ]
+   ],
+   "sec": "t2-3"
+  }
+ ],
+ "footnotes": [],
+ "corrections": [
+  {
+   "rule": "join_linebreak_hyphen",
+   "before": "fer Gemeinde- bez",
+   "after": "fer Gemeindebez"
+  }
+ ],
+ "provenance": {
+  "source": "colab-2026-03",
+  "model": "gemini-3-flash-preview",
+  "timestamp": "2026-03-04T21:10:28.684955",
+  "early_schema": false
+ },
+ "section_path": [
+  "t2",
+  "t2-3"
+ ],
+ "sections": [
+  "t2-3"
+ ]
+}

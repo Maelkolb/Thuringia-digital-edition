@@ -1,0 +1,822 @@
+{
+ "seq": 442,
+ "label": "430",
+ "slug": "430",
+ "iiif": {
+  "service": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb11005578_00442",
+  "canvas": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11005578/canvas/442",
+  "width": 1612,
+  "height": 2697
+ },
+ "kind": "text",
+ "running_header": "Ortskunde des Fürstenthums Reuß j. L.",
+ "signature": null,
+ "blocks": [
+  {
+   "id": "b1",
+   "type": "paragraph",
+   "src": 0,
+   "text": "Wann übrigens das einst offen gelegene Zschochern sich unter den Schutz des ummauerten Gera begeben, ist nicht bekannt, doch muß dies frühzeitig geschehen sein. Der Sage nach gab es zu Zschochern ehedem einen Rittersitz mit Lehn und Erbgericht über den Ort. Ob aber die im 16. Jahrhunderte vorkommende Familie von Schochern von hier abstammt, läßt sich nicht als sicher erweisen. Der Außenring, den die alten Vorstädte Gera's bildeten, war ursprünglich gleichfalls, wenn auch nur leicht befestigt und mit sieben Hauptausgängen, Gatter genannt, und mit sechs Pförtchen versehen, deren Schließung zur bestimmten Abendzeit dort von Gatterwärtern, denen zugleich die Chaussee-, Brücken- und Pflastergeldeinnahme anvertraut war, hier von Pförtnern besorgt wurde. In den Vorstädten sind die Gebäude, meist drei-, aber auch zwei- und vierstöckig, ohne Braugerechtigkeit, darum auch ohne tiefe Felsenkeller, mit Ausnahme von vier Häusern, die vor dem ehemaligen Schloßthor liegen.",
+   "spans": [
+    [
+     39,
+     49,
+     "Location"
+    ],
+    [
+     87,
+     91,
+     "Location"
+    ],
+    [
+     185,
+     195,
+     "Location"
+    ],
+    [
+     419,
+     425,
+     "Location"
+    ],
+    [
+     674,
+     682,
+     "Artefact"
+    ],
+    [
+     886,
+     898,
+     "Artefact"
+    ],
+    [
+     954,
+     964,
+     "Artefact"
+    ]
+   ],
+   "sec": "t2-1"
+  },
+  {
+   "id": "b2",
+   "type": "paragraph",
+   "src": 1,
+   "text": "Diese alte Doppelform der Stadt, welche sich im Wesentlichen bis in die Mitte der 1840r Jahre erhalten hat, durchbrach der industrielle Trieb der jüngsten Zeit, indem er einen äußeren Neubau, der sich namentlich nach N. hin ausdehnt, hervorrief, die alten Gatter und Pförtchen der Vorstädte zugleich mit vier Thoren der Altstadt entfernte, die Stadt dadurch nach allen Seiten öffnete, ihr durch vier Hauptausgänge (Bader-, Schloß-, bieblacher und leumnitzer Gatter genannt) einen unmittelbaren Zusammenhang mit dem Neubau gab und über sie eine heitere Physiognomie ausbreitete. Bereits enthält der einem festen Straßennetze unterworfene Neubau 22 breite und grade Straßen und Gassen und über 200 stattliche, zum Theil in ausgedehnten Fabriketablissements bestehende Gebäude. Zur Stadtgemeinde gehört übrigens als ein besonderer District der jenseits der Elster gelegene Ort Pöppeln.",
+   "spans": [
+    [
+     734,
+     754,
+     "Artefact"
+    ],
+    [
+     854,
+     860,
+     "Natural Object"
+    ],
+    [
+     874,
+     881,
+     "Location"
+    ]
+   ],
+   "sec": "t2-1"
+  },
+  {
+   "id": "b3",
+   "type": "paragraph",
+   "src": 2,
+   "text": "Gera sammt Pöppeln begreift (nach der Zählung von 1867) 1087 Häuser mit 43 öffentlichen Gebäuden, 117 Scheunen, 3470 Familien, 16283 (1861: 14208) Einw. und an Vieh 237 Pf., 50 R., 193 Schf., 369 Schw., 55 Z., 1 E., 8 Bnst. Von seinen Gebäuden sind 71 ein-, 480 zwei-, 535 drei-, 30 vier-, 1 fünf- und 1 sechsstöckig, 995 mit Ziegeln, 74 mit Schiefer, 25 mit Dachpappe, 19 hartweich, 3 mit Zink und 2 mit Schindeln gedeckt. Die Zunahme der Häuser- und der Einwohnerzahl ergiebt sich aus folgenden Tabellen:",
+   "spans": [
+    [
+     0,
+     4,
+     "Location"
+    ],
+    [
+     11,
+     18,
+     "Location"
+    ],
+    [
+     169,
+     172,
+     "Animal"
+    ],
+    [
+     177,
+     179,
+     "Animal"
+    ],
+    [
+     185,
+     190,
+     "Animal"
+    ],
+    [
+     196,
+     201,
+     "Animal"
+    ],
+    [
+     206,
+     208,
+     "Animal"
+    ],
+    [
+     212,
+     214,
+     "Animal"
+    ],
+    [
+     218,
+     223,
+     "Animal"
+    ],
+    [
+     326,
+     333,
+     "Resource"
+    ],
+    [
+     342,
+     350,
+     "Resource"
+    ],
+    [
+     390,
+     394,
+     "Resource"
+    ]
+   ],
+   "sec": "t2-1"
+  },
+  {
+   "id": "b4",
+   "type": "table",
+   "src": 3,
+   "n_cols": 11,
+   "header_rows": 2,
+   "rows": [
+    {
+     "role": "header",
+     "cells": [
+      {
+       "text": "Jahr.",
+       "spans": []
+      },
+      {
+       "text": "Gebäude.",
+       "spans": []
+      },
+      {
+       "text": "Gebäude.",
+       "spans": []
+      },
+      {
+       "text": "Gebäude.",
+       "spans": []
+      },
+      {
+       "text": "Gebäude.",
+       "spans": []
+      },
+      {
+       "text": "Gebäude.",
+       "spans": []
+      },
+      {
+       "text": "Gebäude.",
+       "spans": []
+      },
+      {
+       "text": "Einwohner.",
+       "spans": []
+      },
+      {
+       "text": "Einwohner.",
+       "spans": []
+      },
+      {
+       "text": "Einwohner.",
+       "spans": [],
+       "colspan": 2
+      }
+     ]
+    },
+    {
+     "role": "header",
+     "cells": [
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "Privat.",
+       "spans": []
+      },
+      {
+       "text": "Oeffentliche.",
+       "spans": []
+      },
+      {
+       "text": "Summe.",
+       "spans": []
+      },
+      {
+       "text": "Innenstadt.",
+       "spans": []
+      },
+      {
+       "text": "Vorstädte.",
+       "spans": []
+      },
+      {
+       "text": "Neubau.",
+       "spans": []
+      },
+      {
+       "text": "Scheunen.",
+       "spans": []
+      },
+      {
+       "text": "Jahr.",
+       "spans": []
+      },
+      {
+       "text": "Familien.",
+       "spans": []
+      },
+      {
+       "text": "Seelen.",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1779",
+       "spans": []
+      },
+      {
+       "text": "757",
+       "spans": []
+      },
+      {
+       "text": "39",
+       "spans": []
+      },
+      {
+       "text": "796",
+       "spans": []
+      },
+      {
+       "text": "292",
+       "spans": []
+      },
+      {
+       "text": "504",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "101",
+       "spans": []
+      },
+      {
+       "text": "1647",
+       "spans": []
+      },
+      {
+       "text": "527",
+       "spans": []
+      },
+      {
+       "text": "2372",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1833",
+       "spans": []
+      },
+      {
+       "text": "794",
+       "spans": []
+      },
+      {
+       "text": "40",
+       "spans": []
+      },
+      {
+       "text": "834",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "1794",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "6567",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1855",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "948",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "1808",
+       "spans": []
+      },
+      {
+       "text": "1638",
+       "spans": []
+      },
+      {
+       "text": "7373",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1867 (Febr.)",
+       "spans": []
+      },
+      {
+       "text": "1087",
+       "spans": []
+      },
+      {
+       "text": "43 (7 fürstliche, 8 Staats-, 28 Communalgebäude.)",
+       "spans": []
+      },
+      {
+       "text": "1130",
+       "spans": []
+      },
+      {
+       "text": "261 und 11 eingebaut.",
+       "spans": []
+      },
+      {
+       "text": "611 und 17 eingebaut.",
+       "spans": []
+      },
+      {
+       "text": "215 und 15 eingebaut.",
+       "spans": []
+      },
+      {
+       "text": "117",
+       "spans": []
+      },
+      {
+       "text": "1834",
+       "spans": []
+      },
+      {
+       "text": "1933",
+       "spans": []
+      },
+      {
+       "text": "10272",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "1843",
+       "spans": []
+      },
+      {
+       "text": "2472",
+       "spans": []
+      },
+      {
+       "text": "11274",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "1852",
+       "spans": []
+      },
+      {
+       "text": "2718",
+       "spans": []
+      },
+      {
+       "text": "13062",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "1864",
+       "spans": []
+      },
+      {
+       "text": "3836",
+       "spans": []
+      },
+      {
+       "text": "15363",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "1867",
+       "spans": []
+      },
+      {
+       "text": "3470",
+       "spans": []
+      },
+      {
+       "text": "16283",
+       "spans": []
+      }
+     ]
+    }
+   ],
+   "grid": [
+    [
+     "Jahr.",
+     "Gebäude.",
+     "Gebäude.",
+     "Gebäude.",
+     "Gebäude.",
+     "Gebäude.",
+     "Gebäude.",
+     "Einwohner.",
+     "Einwohner.",
+     "Einwohner.",
+     ""
+    ],
+    [
+     "",
+     "Privat.",
+     "Oeffentliche.",
+     "Summe.",
+     "Innenstadt.",
+     "Vorstädte.",
+     "Neubau.",
+     "Scheunen.",
+     "Jahr.",
+     "Familien.",
+     "Seelen."
+    ],
+    [
+     "1779",
+     "757",
+     "39",
+     "796",
+     "292",
+     "504",
+     "—",
+     "101",
+     "1647",
+     "527",
+     "2372"
+    ],
+    [
+     "1833",
+     "794",
+     "40",
+     "834",
+     "—",
+     "—",
+     "—",
+     "—",
+     "1794",
+     "—",
+     "6567"
+    ],
+    [
+     "1855",
+     "—",
+     "—",
+     "948",
+     "—",
+     "—",
+     "—",
+     "—",
+     "1808",
+     "1638",
+     "7373"
+    ],
+    [
+     "1867 (Febr.)",
+     "1087",
+     "43 (7 fürstliche, 8 Staats-, 28 Communalgebäude.)",
+     "1130",
+     "261 und 11 eingebaut.",
+     "611 und 17 eingebaut.",
+     "215 und 15 eingebaut.",
+     "117",
+     "1834",
+     "1933",
+     "10272"
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "1843",
+     "2472",
+     "11274"
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "1852",
+     "2718",
+     "13062"
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "1864",
+     "3836",
+     "15363"
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "1867",
+     "3470",
+     "16283"
+    ]
+   ],
+   "caption": null,
+   "sec": "t2-1"
+  },
+  {
+   "id": "b5",
+   "type": "paragraph",
+   "src": 4,
+   "text": "Die Zahl der Häuser ist demnach in 88 Jahren um 41,9 Procent, die der Einwohner in 220 Jahren um das 8fache und seit 1808 weit über das Doppelte gewachsen. Auf ein Haus kommen gegenwärtig 14,4 Seelen oder 3,7 Familien, somit keine Ueberfüllung der meist dreistöckigen Häuser. Gera besaßt 1/5 der Einwohner des ganzen Fürstenthums und 3644 Seelen mehr als die sämmtlichen fünf übrigen Städte des Landes.",
+   "spans": [
+    [
+     276,
+     280,
+     "Location"
+    ]
+   ],
+   "sec": "t2-1"
+  }
+ ],
+ "footnotes": [],
+ "corrections": [
+  {
+   "rule": "table_pad_ragged_rows",
+   "block": "b4"
+  },
+  {
+   "rule": "table_multirow_header",
+   "rows": 2,
+   "block": "b4"
+  }
+ ],
+ "provenance": {
+  "source": "colab-2026-03",
+  "model": "gemini-3-flash-preview",
+  "timestamp": "2026-03-04T14:54:14.770182",
+  "early_schema": false
+ },
+ "section_path": [
+  "t2",
+  "t2-1"
+ ],
+ "sections": [
+  "t2-1"
+ ]
+}

@@ -1,0 +1,943 @@
+{
+ "seq": 74,
+ "label": "62",
+ "slug": "62",
+ "iiif": {
+  "service": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb11005578_00074",
+  "canvas": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11005578/canvas/74",
+  "width": 1632,
+  "height": 2696
+ },
+ "kind": "text",
+ "running_header": "I. Die Natur des Landes.",
+ "signature": null,
+ "blocks": [
+  {
+   "id": "b1",
+   "type": "paragraph",
+   "src": 0,
+   "text": "Die Windströmungen zerfallen ihrem näheren oder weiteren Ursprunge nach in örtliche und allgemeine und letztere wieder in eine obere und untere Strömung. Die Windfahne zeigt nur die untere, nie die obere Strömung an. Wasser und Wald, Höhe und Tiefe einer Gegend rufen in ihr für die einzelnen Thäler und Höhen Wärmeunterschiede und dadurch locale, an kleine Räumlichkeiten gebundene Luftströmungen hervor, die fast täglich gelinder oder stärker coursiren, je nachdem die allgemeine Strömung schwächer oder stärker auftritt und die Temperatur sich dem Jahresmittel oder den extremen Graden nähert. Die allgemeinen Luftströmungen, welche durch die ungleiche Erwärmung der Erde entstehen, schreiten mit größerer Kraft und längerer Ausdauer über weite Landräume einher und üben auf die Witterung den größten Einfluß aus, wenn auch ihre Richtung, Stärke und Temperatur durch die Lage eines Ortes und seiner Umgegend fühlbare Abänderungen erleiden. Nur über die Richtung der unteren allgemeinen Windströmung, nicht aber über ihre Stärke und nicht über die obere Strömung hat man an zwei Stellen des Landes, zu Gera und zu Hohenleuben, dort von E. Kratzsch und Rob. Schmidt, hier von Alberti, Beobachtungen gemacht. Die für Gera, auf 16 Richtungen der Windrose angestellt, sind hier dadurch auf die acht Hauptrichtungen derselben zurückgeführt, daß NON. und NWN. mit N., OSO. und ONO. mit O., SOS. und SWS. mit S., WSW. und WNW. mit W. verbunden wurden.",
+   "spans": [
+    [
+     4,
+     18,
+     "Climate"
+    ],
+    [
+     989,
+     1001,
+     "Climate"
+    ],
+    [
+     158,
+     167,
+     "Artefact"
+    ],
+    [
+     217,
+     223,
+     "Natural Object"
+    ],
+    [
+     228,
+     232,
+     "Environment"
+    ],
+    [
+     310,
+     327,
+     "Climate"
+    ],
+    [
+     383,
+     397,
+     "Climate"
+    ],
+    [
+     613,
+     627,
+     "Climate"
+    ],
+    [
+     531,
+     541,
+     "Climate"
+    ],
+    [
+     853,
+     863,
+     "Climate"
+    ],
+    [
+     670,
+     674,
+     "Natural Object"
+    ],
+    [
+     782,
+     791,
+     "Climate"
+    ],
+    [
+     1104,
+     1108,
+     "Location"
+    ],
+    [
+     1217,
+     1221,
+     "Location"
+    ],
+    [
+     1116,
+     1127,
+     "Location"
+    ],
+    [
+     1138,
+     1149,
+     "Person"
+    ],
+    [
+     1154,
+     1166,
+     "Person"
+    ],
+    [
+     1177,
+     1184,
+     "Person"
+    ],
+    [
+     1245,
+     1253,
+     "Artefact"
+    ]
+   ],
+   "sec": "t1-1-7"
+  },
+  {
+   "id": "b2",
+   "type": "paragraph",
+   "src": 1,
+   "text": "Für Gera ergaben die Beobachtungen von 1856—1865:",
+   "spans": [
+    [
+     4,
+     8,
+     "Location"
+    ]
+   ],
+   "sec": "t1-1-7"
+  },
+  {
+   "id": "b3",
+   "type": "table",
+   "src": 2,
+   "n_cols": 9,
+   "header_rows": 1,
+   "rows": [
+    {
+     "role": "header",
+     "cells": [
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "N.",
+       "spans": []
+      },
+      {
+       "text": "NO.",
+       "spans": []
+      },
+      {
+       "text": "O.",
+       "spans": []
+      },
+      {
+       "text": "SO.",
+       "spans": []
+      },
+      {
+       "text": "S.",
+       "spans": []
+      },
+      {
+       "text": "SW.",
+       "spans": []
+      },
+      {
+       "text": "W.",
+       "spans": []
+      },
+      {
+       "text": "NW.",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Januar",
+       "spans": []
+      },
+      {
+       "text": "121",
+       "spans": []
+      },
+      {
+       "text": "67",
+       "spans": []
+      },
+      {
+       "text": "47",
+       "spans": []
+      },
+      {
+       "text": "29",
+       "spans": []
+      },
+      {
+       "text": "458",
+       "spans": []
+      },
+      {
+       "text": "158",
+       "spans": []
+      },
+      {
+       "text": "124",
+       "spans": []
+      },
+      {
+       "text": "95",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Februar",
+       "spans": []
+      },
+      {
+       "text": "175",
+       "spans": []
+      },
+      {
+       "text": "53",
+       "spans": []
+      },
+      {
+       "text": "80",
+       "spans": []
+      },
+      {
+       "text": "22",
+       "spans": []
+      },
+      {
+       "text": "321",
+       "spans": []
+      },
+      {
+       "text": "112",
+       "spans": []
+      },
+      {
+       "text": "135",
+       "spans": []
+      },
+      {
+       "text": "99",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "März",
+       "spans": []
+      },
+      {
+       "text": "186",
+       "spans": []
+      },
+      {
+       "text": "66",
+       "spans": []
+      },
+      {
+       "text": "91",
+       "spans": []
+      },
+      {
+       "text": "33",
+       "spans": []
+      },
+      {
+       "text": "262",
+       "spans": []
+      },
+      {
+       "text": "137",
+       "spans": []
+      },
+      {
+       "text": "162",
+       "spans": []
+      },
+      {
+       "text": "149",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "April",
+       "spans": []
+      },
+      {
+       "text": "240",
+       "spans": []
+      },
+      {
+       "text": "112",
+       "spans": []
+      },
+      {
+       "text": "103",
+       "spans": []
+      },
+      {
+       "text": "31",
+       "spans": []
+      },
+      {
+       "text": "173",
+       "spans": []
+      },
+      {
+       "text": "121",
+       "spans": []
+      },
+      {
+       "text": "162",
+       "spans": []
+      },
+      {
+       "text": "133",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Mai",
+       "spans": []
+      },
+      {
+       "text": "204",
+       "spans": []
+      },
+      {
+       "text": "113",
+       "spans": []
+      },
+      {
+       "text": "189",
+       "spans": []
+      },
+      {
+       "text": "39",
+       "spans": []
+      },
+      {
+       "text": "199",
+       "spans": []
+      },
+      {
+       "text": "83",
+       "spans": []
+      },
+      {
+       "text": "168",
+       "spans": []
+      },
+      {
+       "text": "106",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Juni",
+       "spans": []
+      },
+      {
+       "text": "231",
+       "spans": []
+      },
+      {
+       "text": "71",
+       "spans": []
+      },
+      {
+       "text": "138",
+       "spans": []
+      },
+      {
+       "text": "42",
+       "spans": []
+      },
+      {
+       "text": "128",
+       "spans": []
+      },
+      {
+       "text": "79",
+       "spans": []
+      },
+      {
+       "text": "192",
+       "spans": []
+      },
+      {
+       "text": "177",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Juli",
+       "spans": []
+      },
+      {
+       "text": "177",
+       "spans": []
+      },
+      {
+       "text": "62",
+       "spans": []
+      },
+      {
+       "text": "62",
+       "spans": []
+      },
+      {
+       "text": "39",
+       "spans": []
+      },
+      {
+       "text": "175",
+       "spans": []
+      },
+      {
+       "text": "154",
+       "spans": []
+      },
+      {
+       "text": "249",
+       "spans": []
+      },
+      {
+       "text": "183",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "August",
+       "spans": []
+      },
+      {
+       "text": "173",
+       "spans": []
+      },
+      {
+       "text": "65",
+       "spans": []
+      },
+      {
+       "text": "119",
+       "spans": []
+      },
+      {
+       "text": "39",
+       "spans": []
+      },
+      {
+       "text": "189",
+       "spans": []
+      },
+      {
+       "text": "147",
+       "spans": []
+      },
+      {
+       "text": "211",
+       "spans": []
+      },
+      {
+       "text": "137",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "September",
+       "spans": []
+      },
+      {
+       "text": "141",
+       "spans": []
+      },
+      {
+       "text": "92",
+       "spans": []
+      },
+      {
+       "text": "91",
+       "spans": []
+      },
+      {
+       "text": "57",
+       "spans": []
+      },
+      {
+       "text": "262",
+       "spans": []
+      },
+      {
+       "text": "136",
+       "spans": []
+      },
+      {
+       "text": "117",
+       "spans": []
+      },
+      {
+       "text": "97",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "October",
+       "spans": []
+      },
+      {
+       "text": "140",
+       "spans": []
+      },
+      {
+       "text": "67",
+       "spans": []
+      },
+      {
+       "text": "120",
+       "spans": []
+      },
+      {
+       "text": "35",
+       "spans": []
+      },
+      {
+       "text": "349",
+       "spans": []
+      },
+      {
+       "text": "175",
+       "spans": []
+      },
+      {
+       "text": "159",
+       "spans": []
+      },
+      {
+       "text": "78",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "November",
+       "spans": []
+      },
+      {
+       "text": "182",
+       "spans": []
+      },
+      {
+       "text": "74",
+       "spans": []
+      },
+      {
+       "text": "88",
+       "spans": []
+      },
+      {
+       "text": "30",
+       "spans": []
+      },
+      {
+       "text": "313",
+       "spans": []
+      },
+      {
+       "text": "182",
+       "spans": []
+      },
+      {
+       "text": "143",
+       "spans": []
+      },
+      {
+       "text": "70",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "December",
+       "spans": []
+      },
+      {
+       "text": "133",
+       "spans": []
+      },
+      {
+       "text": "37",
+       "spans": []
+      },
+      {
+       "text": "40",
+       "spans": []
+      },
+      {
+       "text": "24",
+       "spans": []
+      },
+      {
+       "text": "353",
+       "spans": []
+      },
+      {
+       "text": "136",
+       "spans": []
+      },
+      {
+       "text": "164",
+       "spans": []
+      },
+      {
+       "text": "114",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "total",
+     "cells": [
+      {
+       "text": "Summa",
+       "spans": []
+      },
+      {
+       "text": "2103",
+       "spans": []
+      },
+      {
+       "text": "879",
+       "spans": []
+      },
+      {
+       "text": "1168",
+       "spans": []
+      },
+      {
+       "text": "420",
+       "spans": []
+      },
+      {
+       "text": "3182",
+       "spans": []
+      },
+      {
+       "text": "1620",
+       "spans": []
+      },
+      {
+       "text": "1986",
+       "spans": []
+      },
+      {
+       "text": "1438",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Jahresmittel",
+       "spans": []
+      },
+      {
+       "text": "210,3",
+       "spans": []
+      },
+      {
+       "text": "87,9",
+       "spans": []
+      },
+      {
+       "text": "116,8",
+       "spans": []
+      },
+      {
+       "text": "42,0",
+       "spans": []
+      },
+      {
+       "text": "318,2",
+       "spans": []
+      },
+      {
+       "text": "162,0",
+       "spans": []
+      },
+      {
+       "text": "198,6",
+       "spans": []
+      },
+      {
+       "text": "143,8",
+       "spans": []
+      }
+     ]
+    }
+   ],
+   "grid": [
+    [
+     "",
+     "N.",
+     "NO.",
+     "O.",
+     "SO.",
+     "S.",
+     "SW.",
+     "W.",
+     "NW."
+    ],
+    [
+     "Januar",
+     "121",
+     "67",
+     "47",
+     "29",
+     "458",
+     "158",
+     "124",
+     "95"
+    ],
+    [
+     "Februar",
+     "175",
+     "53",
+     "80",
+     "22",
+     "321",
+     "112",
+     "135",
+     "99"
+    ],
+    [
+     "März",
+     "186",
+     "66",
+     "91",
+     "33",
+     "262",
+     "137",
+     "162",
+     "149"
+    ],
+    [
+     "April",
+     "240",
+     "112",
+     "103",
+     "31",
+     "173",
+     "121",
+     "162",
+     "133"
+    ],
+    [
+     "Mai",
+     "204",
+     "113",
+     "189",
+     "39",
+     "199",
+     "83",
+     "168",
+     "106"
+    ],
+    [
+     "Juni",
+     "231",
+     "71",
+     "138",
+     "42",
+     "128",
+     "79",
+     "192",
+     "177"
+    ],
+    [
+     "Juli",
+     "177",
+     "62",
+     "62",
+     "39",
+     "175",
+     "154",
+     "249",
+     "183"
+    ],
+    [
+     "August",
+     "173",
+     "65",
+     "119",
+     "39",
+     "189",
+     "147",
+     "211",
+     "137"
+    ],
+    [
+     "September",
+     "141",
+     "92",
+     "91",
+     "57",
+     "262",
+     "136",
+     "117",
+     "97"
+    ],
+    [
+     "October",
+     "140",
+     "67",
+     "120",
+     "35",
+     "349",
+     "175",
+     "159",
+     "78"
+    ],
+    [
+     "November",
+     "182",
+     "74",
+     "88",
+     "30",
+     "313",
+     "182",
+     "143",
+     "70"
+    ],
+    [
+     "December",
+     "133",
+     "37",
+     "40",
+     "24",
+     "353",
+     "136",
+     "164",
+     "114"
+    ],
+    [
+     "Summa",
+     "2103",
+     "879",
+     "1168",
+     "420",
+     "3182",
+     "1620",
+     "1986",
+     "1438"
+    ],
+    [
+     "Jahresmittel",
+     "210,3",
+     "87,9",
+     "116,8",
+     "42,0",
+     "318,2",
+     "162,0",
+     "198,6",
+     "143,8"
+    ]
+   ],
+   "caption": null,
+   "sec": "t1-1-7"
+  }
+ ],
+ "footnotes": [],
+ "corrections": [],
+ "provenance": {
+  "source": "colab-2026-01",
+  "model": "gemini-3-flash-preview",
+  "timestamp": "2026-01-06T03:34:06.318722",
+  "early_schema": false
+ },
+ "section_path": [
+  "t1",
+  "t1-1",
+  "t1-1-7"
+ ],
+ "sections": [
+  "t1-1-7"
+ ]
+}

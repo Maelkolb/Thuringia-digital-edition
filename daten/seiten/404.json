@@ -1,0 +1,52 @@
+{
+ "seq": 416,
+ "label": "404",
+ "slug": "404",
+ "iiif": {
+  "service": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb11005578_00416",
+  "canvas": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11005578/canvas/416",
+  "width": 1603,
+  "height": 2693
+ },
+ "kind": "text",
+ "running_header": null,
+ "signature": null,
+ "blocks": [
+  {
+   "id": "b1",
+   "type": "paragraph",
+   "src": 0,
+   "text": "Druck von Hermann Rudolph in Gera.",
+   "spans": [
+    [
+     10,
+     25,
+     "Person"
+    ],
+    [
+     29,
+     33,
+     "Location"
+    ]
+   ],
+   "role": "imprint",
+   "sec": "t1-5-3"
+  }
+ ],
+ "footnotes": [],
+ "corrections": [],
+ "provenance": {
+  "source": "colab-2026-03",
+  "model": "gemini-3-flash-preview",
+  "timestamp": "2026-03-05T12:06:21.156114",
+  "early_schema": false
+ },
+ "section_path": [
+  "t1",
+  "t1-5",
+  "t1-5-3"
+ ],
+ "sections": [
+  "t1-5-3"
+ ]
+}

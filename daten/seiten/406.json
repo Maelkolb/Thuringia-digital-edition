@@ -1,0 +1,31 @@
+{
+ "seq": 418,
+ "label": "406",
+ "slug": "406",
+ "iiif": {
+  "service": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb11005578_00418",
+  "canvas": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11005578/canvas/418",
+  "width": 1643,
+  "height": 2686
+ },
+ "kind": "blank",
+ "running_header": null,
+ "signature": null,
+ "blocks": [],
+ "footnotes": [],
+ "corrections": [
+  {
+   "rule": "manual_blank",
+   "reason": "p. 406 is a blank verso; the model transcribed the show-through of the part title on p. 405 ('II. Theil.') and invented a second line."
+  }
+ ],
+ "provenance": {
+  "source": "colab-2026-03",
+  "model": "gemini-3-flash-preview",
+  "timestamp": "2026-03-04T14:39:04.563839"
+ },
+ "section_path": [
+  "t2"
+ ],
+ "sections": []
+}

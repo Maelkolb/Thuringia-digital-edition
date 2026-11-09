@@ -1,0 +1,1000 @@
+{
+ "seq": 76,
+ "label": "64",
+ "slug": "64",
+ "iiif": {
+  "service": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb11005578_00076",
+  "canvas": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11005578/canvas/76",
+  "width": 1606,
+  "height": 2698
+ },
+ "kind": "text",
+ "running_header": "I. Die Natur des Landes.",
+ "signature": null,
+ "blocks": [
+  {
+   "id": "b1",
+   "type": "paragraph",
+   "src": 0,
+   "text": "Diesen Resultaten zufolge herrscht in Gera der Südwind, auf den oberländischen Punkten der Westwind vor. Da die letzteren Punkte eine mehr freie Plateaulage haben, so erleiden bei ihnen die Winde theilweise gar keine, theilweise nur eine geringe Ablenkung, in Gera dagegen werden sowohl vielfach die Strömungen von SO. und SW., als auch die von NO. und NW. bei ihrem Eintritte ins Elsterthal, jene in die Richtung von S., diese in die von N. gebeugt. Eben daher erklärt sich, daß, wenn man die vier Kardinalrichtungen der Windrose bezüglich dieser Orte mit einander vergleicht,",
+   "spans": [
+    [
+     38,
+     42,
+     "Location"
+    ],
+    [
+     260,
+     264,
+     "Location"
+    ],
+    [
+     47,
+     54,
+     "Climate"
+    ],
+    [
+     91,
+     99,
+     "Climate"
+    ],
+    [
+     190,
+     195,
+     "Climate"
+    ],
+    [
+     381,
+     391,
+     "Natural Object"
+    ]
+   ],
+   "sec": "t1-1-7"
+  },
+  {
+   "id": "b2",
+   "type": "table",
+   "src": 1,
+   "n_cols": 5,
+   "header_rows": 1,
+   "rows": [
+    {
+     "role": "header",
+     "cells": [
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "N.",
+       "spans": []
+      },
+      {
+       "text": "O.",
+       "spans": []
+      },
+      {
+       "text": "S.",
+       "spans": []
+      },
+      {
+       "text": "W.",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Gera",
+       "spans": [
+        [
+         0,
+         4,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "210,3",
+       "spans": []
+      },
+      {
+       "text": "116,8",
+       "spans": []
+      },
+      {
+       "text": "318,2",
+       "spans": []
+      },
+      {
+       "text": "204,6",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Hohenleuben",
+       "spans": [
+        [
+         0,
+         11,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "48,1",
+       "spans": []
+      },
+      {
+       "text": "94,8",
+       "spans": []
+      },
+      {
+       "text": "72,0",
+       "spans": []
+      },
+      {
+       "text": "302,8",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Schleiz",
+       "spans": [
+        [
+         0,
+         7,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "51",
+       "spans": []
+      },
+      {
+       "text": "44",
+       "spans": []
+      },
+      {
+       "text": "142",
+       "spans": []
+      },
+      {
+       "text": "221",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Rothenacker",
+       "spans": [
+        [
+         0,
+         11,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "110",
+       "spans": []
+      },
+      {
+       "text": "70",
+       "spans": []
+      },
+      {
+       "text": "208",
+       "spans": []
+      },
+      {
+       "text": "242",
+       "spans": []
+      }
+     ]
+    }
+   ],
+   "grid": [
+    [
+     "",
+     "N.",
+     "O.",
+     "S.",
+     "W."
+    ],
+    [
+     "Gera",
+     "210,3",
+     "116,8",
+     "318,2",
+     "204,6"
+    ],
+    [
+     "Hohenleuben",
+     "48,1",
+     "94,8",
+     "72,0",
+     "302,8"
+    ],
+    [
+     "Schleiz",
+     "51",
+     "44",
+     "142",
+     "221"
+    ],
+    [
+     "Rothenacker",
+     "110",
+     "70",
+     "208",
+     "242"
+    ]
+   ],
+   "caption": null,
+   "sec": "t1-1-7"
+  },
+  {
+   "id": "b3",
+   "type": "paragraph",
+   "src": 2,
+   "text": "in Gera der Süd- und Nordwind, im Oberlande der Westwind und daneben in Schleiz und Rothenacker der Süd-, in Hohenleuben der Ostwind vorherrscht.",
+   "spans": [
+    [
+     3,
+     7,
+     "Location"
+    ],
+    [
+     48,
+     56,
+     "Climate"
+    ],
+    [
+     109,
+     120,
+     "Location"
+    ],
+    [
+     72,
+     79,
+     "Location"
+    ],
+    [
+     84,
+     95,
+     "Location"
+    ],
+    [
+     12,
+     29,
+     "Climate"
+    ],
+    [
+     100,
+     104,
+     "Climate"
+    ],
+    [
+     34,
+     43,
+     "Location"
+    ],
+    [
+     125,
+     132,
+     "Climate"
+    ]
+   ],
+   "sec": "t1-1-7"
+  },
+  {
+   "id": "b4",
+   "type": "heading",
+   "src": 3,
+   "text": "Grade der Bewölkung oder die Ansicht des Himmels.",
+   "spans": [
+    [
+     10,
+     19,
+     "Climate"
+    ]
+   ],
+   "sec": "t1-1-7",
+   "level": 5
+  },
+  {
+   "id": "b5",
+   "type": "paragraph",
+   "src": 4,
+   "text": "Für Gera ergab sich",
+   "spans": [
+    [
+     4,
+     8,
+     "Location"
+    ]
+   ],
+   "sec": "t1-1-7"
+  },
+  {
+   "id": "b6",
+   "type": "table",
+   "src": 5,
+   "n_cols": 7,
+   "header_rows": 2,
+   "rows": [
+    {
+     "role": "header",
+     "cells": [
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "in 10 Jahren",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "in 1 Jahr",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "header",
+     "cells": [
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "bedeckt",
+       "spans": []
+      },
+      {
+       "text": "gemischt",
+       "spans": []
+      },
+      {
+       "text": "hell",
+       "spans": []
+      },
+      {
+       "text": "bedeckt",
+       "spans": []
+      },
+      {
+       "text": "gemischt",
+       "spans": []
+      },
+      {
+       "text": "hell",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Januar",
+       "spans": []
+      },
+      {
+       "text": "88",
+       "spans": []
+      },
+      {
+       "text": "184",
+       "spans": []
+      },
+      {
+       "text": "38",
+       "spans": []
+      },
+      {
+       "text": "8,8",
+       "spans": []
+      },
+      {
+       "text": "18,4",
+       "spans": []
+      },
+      {
+       "text": "3,8",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Februar",
+       "spans": []
+      },
+      {
+       "text": "74",
+       "spans": []
+      },
+      {
+       "text": "146",
+       "spans": []
+      },
+      {
+       "text": "60",
+       "spans": []
+      },
+      {
+       "text": "7,4",
+       "spans": []
+      },
+      {
+       "text": "14,6",
+       "spans": []
+      },
+      {
+       "text": "6,0",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "März",
+       "spans": []
+      },
+      {
+       "text": "65",
+       "spans": []
+      },
+      {
+       "text": "204",
+       "spans": []
+      },
+      {
+       "text": "41",
+       "spans": []
+      },
+      {
+       "text": "6,5",
+       "spans": []
+      },
+      {
+       "text": "20,4",
+       "spans": []
+      },
+      {
+       "text": "4,1",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "April",
+       "spans": []
+      },
+      {
+       "text": "42",
+       "spans": []
+      },
+      {
+       "text": "211",
+       "spans": []
+      },
+      {
+       "text": "47",
+       "spans": []
+      },
+      {
+       "text": "4,2",
+       "spans": []
+      },
+      {
+       "text": "20,1",
+       "spans": []
+      },
+      {
+       "text": "4,7",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Mai",
+       "spans": []
+      },
+      {
+       "text": "44",
+       "spans": []
+      },
+      {
+       "text": "222",
+       "spans": []
+      },
+      {
+       "text": "44",
+       "spans": []
+      },
+      {
+       "text": "4,4",
+       "spans": []
+      },
+      {
+       "text": "22,2",
+       "spans": []
+      },
+      {
+       "text": "4,4",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Juni",
+       "spans": []
+      },
+      {
+       "text": "27",
+       "spans": []
+      },
+      {
+       "text": "237",
+       "spans": []
+      },
+      {
+       "text": "36",
+       "spans": []
+      },
+      {
+       "text": "2,7",
+       "spans": []
+      },
+      {
+       "text": "23,7",
+       "spans": []
+      },
+      {
+       "text": "3,6",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Juli",
+       "spans": []
+      },
+      {
+       "text": "29",
+       "spans": []
+      },
+      {
+       "text": "250",
+       "spans": []
+      },
+      {
+       "text": "31",
+       "spans": []
+      },
+      {
+       "text": "2,9",
+       "spans": []
+      },
+      {
+       "text": "25,0",
+       "spans": []
+      },
+      {
+       "text": "3,1",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "August",
+       "spans": []
+      },
+      {
+       "text": "20",
+       "spans": []
+      },
+      {
+       "text": "227",
+       "spans": []
+      },
+      {
+       "text": "63",
+       "spans": []
+      },
+      {
+       "text": "2,0",
+       "spans": []
+      },
+      {
+       "text": "22,7",
+       "spans": []
+      },
+      {
+       "text": "6,3",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "September",
+       "spans": []
+      },
+      {
+       "text": "33",
+       "spans": []
+      },
+      {
+       "text": "213",
+       "spans": []
+      },
+      {
+       "text": "54",
+       "spans": []
+      },
+      {
+       "text": "3,3",
+       "spans": []
+      },
+      {
+       "text": "21,3",
+       "spans": []
+      },
+      {
+       "text": "5,4",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "October",
+       "spans": []
+      },
+      {
+       "text": "48",
+       "spans": []
+      },
+      {
+       "text": "185",
+       "spans": []
+      },
+      {
+       "text": "77",
+       "spans": []
+      },
+      {
+       "text": "4,8",
+       "spans": []
+      },
+      {
+       "text": "18,5",
+       "spans": []
+      },
+      {
+       "text": "7,7",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "November",
+       "spans": []
+      },
+      {
+       "text": "97",
+       "spans": []
+      },
+      {
+       "text": "167",
+       "spans": []
+      },
+      {
+       "text": "36",
+       "spans": []
+      },
+      {
+       "text": "9,7",
+       "spans": []
+      },
+      {
+       "text": "16,7",
+       "spans": []
+      },
+      {
+       "text": "3,6",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "December",
+       "spans": []
+      },
+      {
+       "text": "96",
+       "spans": []
+      },
+      {
+       "text": "186",
+       "spans": []
+      },
+      {
+       "text": "28",
+       "spans": []
+      },
+      {
+       "text": "9,6",
+       "spans": []
+      },
+      {
+       "text": "18,6",
+       "spans": []
+      },
+      {
+       "text": "2,8",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "total",
+     "cells": [
+      {
+       "text": "Summe",
+       "spans": []
+      },
+      {
+       "text": "663",
+       "spans": []
+      },
+      {
+       "text": "2432",
+       "spans": []
+      },
+      {
+       "text": "555",
+       "spans": []
+      },
+      {
+       "text": "66,3",
+       "spans": []
+      },
+      {
+       "text": "243,2",
+       "spans": []
+      },
+      {
+       "text": "55,5",
+       "spans": []
+      }
+     ]
+    }
+   ],
+   "grid": [
+    [
+     "",
+     "in 10 Jahren",
+     "",
+     "",
+     "in 1 Jahr",
+     "",
+     ""
+    ],
+    [
+     "",
+     "bedeckt",
+     "gemischt",
+     "hell",
+     "bedeckt",
+     "gemischt",
+     "hell"
+    ],
+    [
+     "Januar",
+     "88",
+     "184",
+     "38",
+     "8,8",
+     "18,4",
+     "3,8"
+    ],
+    [
+     "Februar",
+     "74",
+     "146",
+     "60",
+     "7,4",
+     "14,6",
+     "6,0"
+    ],
+    [
+     "März",
+     "65",
+     "204",
+     "41",
+     "6,5",
+     "20,4",
+     "4,1"
+    ],
+    [
+     "April",
+     "42",
+     "211",
+     "47",
+     "4,2",
+     "20,1",
+     "4,7"
+    ],
+    [
+     "Mai",
+     "44",
+     "222",
+     "44",
+     "4,4",
+     "22,2",
+     "4,4"
+    ],
+    [
+     "Juni",
+     "27",
+     "237",
+     "36",
+     "2,7",
+     "23,7",
+     "3,6"
+    ],
+    [
+     "Juli",
+     "29",
+     "250",
+     "31",
+     "2,9",
+     "25,0",
+     "3,1"
+    ],
+    [
+     "August",
+     "20",
+     "227",
+     "63",
+     "2,0",
+     "22,7",
+     "6,3"
+    ],
+    [
+     "September",
+     "33",
+     "213",
+     "54",
+     "3,3",
+     "21,3",
+     "5,4"
+    ],
+    [
+     "October",
+     "48",
+     "185",
+     "77",
+     "4,8",
+     "18,5",
+     "7,7"
+    ],
+    [
+     "November",
+     "97",
+     "167",
+     "36",
+     "9,7",
+     "16,7",
+     "3,6"
+    ],
+    [
+     "December",
+     "96",
+     "186",
+     "28",
+     "9,6",
+     "18,6",
+     "2,8"
+    ],
+    [
+     "Summe",
+     "663",
+     "2432",
+     "555",
+     "66,3",
+     "243,2",
+     "55,5"
+    ]
+   ],
+   "caption": null,
+   "sec": "t1-1-7"
+  }
+ ],
+ "footnotes": [],
+ "corrections": [
+  {
+   "rule": "table_multirow_header",
+   "rows": 2,
+   "block": "b6"
+  }
+ ],
+ "provenance": {
+  "source": "colab-2026-01",
+  "model": "gemini-3-flash-preview",
+  "timestamp": "2026-01-06T03:38:36.902467",
+  "early_schema": false
+ },
+ "section_path": [
+  "t1",
+  "t1-1",
+  "t1-1-7"
+ ],
+ "sections": [
+  "t1-1-7"
+ ]
+}

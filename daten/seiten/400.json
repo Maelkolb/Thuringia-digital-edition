@@ -1,0 +1,476 @@
+{
+ "seq": 412,
+ "label": "400",
+ "slug": "400",
+ "iiif": {
+  "service": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb11005578_00412",
+  "canvas": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11005578/canvas/412",
+  "width": 1611,
+  "height": 2696
+ },
+ "kind": "text",
+ "running_header": "V. Geschichte des Landes und seines Fürstenhauses.",
+ "signature": null,
+ "blocks": [
+  {
+   "id": "b1",
+   "type": "heading",
+   "src": 0,
+   "text": "Tab. XII.\nAeltere Linie.",
+   "spans": [],
+   "sec": "t1-5-3",
+   "level": 5
+  },
+  {
+   "id": "b2",
+   "type": "paragraph",
+   "src": 1,
+   "text": "Heinrich Reuß von Untergreiz, geb. 1506, + 1572. Gem.: 1) Agnes von Beichlingen; 2) Barbara v. Metsch zu Schönfeld, + 1580.",
+   "spans": [
+    [
+     0,
+     28,
+     "Person"
+    ],
+    [
+     58,
+     79,
+     "Person"
+    ],
+    [
+     84,
+     101,
+     "Person"
+    ],
+    [
+     105,
+     114,
+     "Location"
+    ]
+   ],
+   "sec": "t1-5-3"
+  },
+  {
+   "id": "b3",
+   "type": "table",
+   "src": 2,
+   "n_cols": 5,
+   "header_rows": 0,
+   "rows": [
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Sabine, geb. 1532, + 1597. Gem. Friedrich von Schwarzburg-Hohenlandsberg, + 1570.",
+       "spans": [
+        [
+         0,
+         6,
+         "Person"
+        ],
+        [
+         32,
+         72,
+         "Person"
+        ]
+       ]
+      },
+      {
+       "text": "Heinrich II., Herr v. Burgk, geb. 1542, + 1608. Gem.: 1) Judith v. Oettingen, + 1573; 2) Anna v. Mansfeld-Schraplau, + 1636. Haus Burgk.",
+       "spans": [
+        [
+         0,
+         12,
+         "Person"
+        ],
+        [
+         22,
+         27,
+         "Location"
+        ],
+        [
+         57,
+         76,
+         "Person"
+        ],
+        [
+         89,
+         115,
+         "Person"
+        ]
+       ]
+      },
+      {
+       "text": "Heinrich III., g. 1546, + 1582.",
+       "spans": [
+        [
+         0,
+         13,
+         "Person"
+        ]
+       ]
+      },
+      {
+       "text": "Heinrich IV., g. 1548, + 1572.",
+       "spans": [
+        [
+         0,
+         12,
+         "Person"
+        ]
+       ]
+      },
+      {
+       "text": "Heinrich V., Herr v. Greiz, geb. 1549, + 1604. Gem. Marie v. Schönburg-Hartenstein, + 1628. Haus Greiz. s. Tab. XIII.",
+       "spans": [
+        [
+         0,
+         11,
+         "Person"
+        ],
+        [
+         21,
+         26,
+         "Location"
+        ],
+        [
+         52,
+         82,
+         "Person"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Anna, g. 1536, + 1590.",
+       "spans": [
+        [
+         0,
+         4,
+         "Person"
+        ]
+       ]
+      },
+      {
+       "text": "Heinrich II., Herr v. Burgk, geb. 1575, + 1639. Gem. Magdalene v. Putbus. Haus Burgk.",
+       "spans": [
+        [
+         0,
+         12,
+         "Person"
+        ],
+        [
+         22,
+         27,
+         "Location"
+        ],
+        [
+         53,
+         72,
+         "Person"
+        ]
+       ]
+      },
+      {
+       "text": "Heinrich III., geb. 1578, + (ermordet) 1616. Gem. Anna Magdalena von Schönburg (Wittwe Schenks von Lautenburg) + 1615.",
+       "spans": [
+        [
+         0,
+         13,
+         "Person"
+        ],
+        [
+         50,
+         78,
+         "Person"
+        ],
+        [
+         87,
+         109,
+         "Person"
+        ]
+       ]
+      },
+      {
+       "text": "Heinrich IV., Herr v. Dölau, geb. 1580, + 1636. Gem. Anna Genoveva v. Stolberg, + 1635. Haus Dölau.",
+       "spans": [
+        [
+         0,
+         12,
+         "Person"
+        ],
+        [
+         22,
+         27,
+         "Location"
+        ],
+        [
+         53,
+         78,
+         "Person"
+        ]
+       ]
+      },
+      {
+       "text": "Judith Eva, geb. 1614, + 1666. Gem. Wolfgang Heinrich v. Schönburg-Penig, + 1657.",
+       "spans": [
+        [
+         0,
+         10,
+         "Person"
+        ],
+        [
+         36,
+         72,
+         "Person"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Barbara, g. 1540, + 1571.\n\nHeinrich I., g. 1542, + 1572.",
+       "spans": [
+        [
+         0,
+         7,
+         "Person"
+        ],
+        [
+         27,
+         38,
+         "Person"
+        ]
+       ]
+      },
+      {
+       "text": "Heinrich I., g. 1574, + 1596.\n\nJohanne, g. 1577, + 1656.",
+       "spans": [
+        [
+         0,
+         11,
+         "Person"
+        ],
+        [
+         31,
+         38,
+         "Person"
+        ]
+       ]
+      },
+      {
+       "text": "Elisabeth Sibille, geb. 1627, + 1703. Gem. Heinrich Reuß II. zu Untergreiz und Burgk, + 1697.",
+       "spans": [
+        [
+         0,
+         17,
+         "Person"
+        ],
+        [
+         43,
+         84,
+         "Person"
+        ]
+       ]
+      },
+      {
+       "text": "Heinrich I., geb. u. + 1611.\n\nHeinrich II., geb. u. + 1612.\n\nStirbt aus.",
+       "spans": [
+        [
+         0,
+         11,
+         "Person"
+        ],
+        [
+         30,
+         42,
+         "Person"
+        ]
+       ]
+      },
+      {
+       "text": "Anna Marie, g. 1583, + 1636.\n\nHeinrich V., geb. u. + 1584.\n\nHeinrich VI., g. 1587 + (?)",
+       "spans": [
+        [
+         0,
+         10,
+         "Person"
+        ],
+        [
+         30,
+         41,
+         "Person"
+        ],
+        [
+         60,
+         72,
+         "Person"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Marie, g. 1526, + 1619.\n\nAgnes, g. 1525, + 1608.",
+       "spans": [
+        [
+         0,
+         5,
+         "Person"
+        ],
+        [
+         25,
+         30,
+         "Person"
+        ]
+       ]
+      },
+      {
+       "text": "Sophie Marie, geb. 1614, + 1690. Gem. F. Kaspar von Schönburg-Glauchau-Penig (Wittwer der Elisabeth v. Schönburg-Lichtenstein), + 1644.",
+       "spans": [
+        [
+         0,
+         12,
+         "Person"
+        ],
+        [
+         41,
+         76,
+         "Person"
+        ],
+        [
+         90,
+         125,
+         "Person"
+        ]
+       ]
+      },
+      {
+       "text": "Heinrich I., g. 1615, + 1631.\n\nHeinrich II., g. 1617, + 1640.\n\nHeinrich III., geb. 1618, + 1629.\n\nAnna Judith, geb. 1619, + 1636.\n\nHeinrich IV., geb. 1621, + 1623.\n\nMagdalena, Agnes geb. u. + 1623.\n\nKatharina Margar., geb. u. + 1623.\n\nStirbt aus.",
+       "spans": [
+        [
+         0,
+         11,
+         "Person"
+        ],
+        [
+         31,
+         43,
+         "Person"
+        ],
+        [
+         63,
+         76,
+         "Person"
+        ],
+        [
+         98,
+         109,
+         "Person"
+        ],
+        [
+         131,
+         143,
+         "Person"
+        ],
+        [
+         165,
+         174,
+         "Person"
+        ],
+        [
+         176,
+         181,
+         "Person"
+        ],
+        [
+         199,
+         216,
+         "Person"
+        ]
+       ]
+      },
+      {
+       "text": "Heinrich I., geb. 1613, + 1635.",
+       "spans": [
+        [
+         0,
+         11,
+         "Person"
+        ]
+       ]
+      },
+      {
+       "text": "",
+       "spans": []
+      }
+     ]
+    }
+   ],
+   "grid": [
+    [
+     "Sabine, geb. 1532, + 1597. Gem. Friedrich von Schwarzburg-Hohenlandsberg, + 1570.",
+     "Heinrich II., Herr v. Burgk, geb. 1542, + 1608. Gem.: 1) Judith v. Oettingen, + 1573; 2) Anna v. Mansfeld-Schraplau, + 1636. Haus Burgk.",
+     "Heinrich III., g. 1546, + 1582.",
+     "Heinrich IV., g. 1548, + 1572.",
+     "Heinrich V., Herr v. Greiz, geb. 1549, + 1604. Gem. Marie v. Schönburg-Hartenstein, + 1628. Haus Greiz. s. Tab. XIII."
+    ],
+    [
+     "Anna, g. 1536, + 1590.",
+     "Heinrich II., Herr v. Burgk, geb. 1575, + 1639. Gem. Magdalene v. Putbus. Haus Burgk.",
+     "Heinrich III., geb. 1578, + (ermordet) 1616. Gem. Anna Magdalena von Schönburg (Wittwe Schenks von Lautenburg) + 1615.",
+     "Heinrich IV., Herr v. Dölau, geb. 1580, + 1636. Gem. Anna Genoveva v. Stolberg, + 1635. Haus Dölau.",
+     "Judith Eva, geb. 1614, + 1666. Gem. Wolfgang Heinrich v. Schönburg-Penig, + 1657."
+    ],
+    [
+     "Barbara, g. 1540, + 1571.\n\nHeinrich I., g. 1542, + 1572.",
+     "Heinrich I., g. 1574, + 1596.\n\nJohanne, g. 1577, + 1656.",
+     "Elisabeth Sibille, geb. 1627, + 1703. Gem. Heinrich Reuß II. zu Untergreiz und Burgk, + 1697.",
+     "Heinrich I., geb. u. + 1611.\n\nHeinrich II., geb. u. + 1612.\n\nStirbt aus.",
+     "Anna Marie, g. 1583, + 1636.\n\nHeinrich V., geb. u. + 1584.\n\nHeinrich VI., g. 1587 + (?)"
+    ],
+    [
+     "Marie, g. 1526, + 1619.\n\nAgnes, g. 1525, + 1608.",
+     "Sophie Marie, geb. 1614, + 1690. Gem. F. Kaspar von Schönburg-Glauchau-Penig (Wittwer der Elisabeth v. Schönburg-Lichtenstein), + 1644.",
+     "Heinrich I., g. 1615, + 1631.\n\nHeinrich II., g. 1617, + 1640.\n\nHeinrich III., geb. 1618, + 1629.\n\nAnna Judith, geb. 1619, + 1636.\n\nHeinrich IV., geb. 1621, + 1623.\n\nMagdalena, Agnes geb. u. + 1623.\n\nKatharina Margar., geb. u. + 1623.\n\nStirbt aus.",
+     "Heinrich I., geb. 1613, + 1635.",
+     ""
+    ]
+   ],
+   "caption": null,
+   "sec": "t1-5-3"
+  }
+ ],
+ "footnotes": [],
+ "corrections": [
+  {
+   "rule": "table_no_header_row",
+   "note": "first row is data (legacy edition rendered it as <th>)",
+   "block": "b3"
+  }
+ ],
+ "provenance": {
+  "source": "colab-2026-03",
+  "model": "gemini-3-flash-preview",
+  "timestamp": "2026-03-04T14:35:07.473039",
+  "early_schema": false
+ },
+ "section_path": [
+  "t1",
+  "t1-5",
+  "t1-5-3"
+ ],
+ "sections": [
+  "t1-5-3"
+ ]
+}

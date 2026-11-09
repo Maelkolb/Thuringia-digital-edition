@@ -1,0 +1,566 @@
+{
+ "seq": 80,
+ "label": "68",
+ "slug": "68",
+ "iiif": {
+  "service": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb11005578_00080",
+  "canvas": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11005578/canvas/80",
+  "width": 1587,
+  "height": 2700
+ },
+ "kind": "text",
+ "running_header": "I. Die Natur des Landes.",
+ "signature": null,
+ "blocks": [
+  {
+   "id": "b1",
+   "type": "paragraph",
+   "src": 0,
+   "text": "Demnach erscheint der November frei von Gewittern, der Juni, Juli und August als Hochfluthzeit, der Januar, Februar und December als Ebbe, März, April und Mai als Anwachsen und September und October als Rückgang der Gewitter. Nach den Windrichtungen traten von 134 Gewittern (1853 bis 1858) ein",
+   "spans": [
+    [
+     40,
+     49,
+     "Climate"
+    ],
+    [
+     216,
+     224,
+     "Climate"
+    ],
+    [
+     265,
+     274,
+     "Climate"
+    ]
+   ],
+   "sec": "t1-1-7"
+  },
+  {
+   "id": "b2",
+   "type": "table",
+   "src": 1,
+   "n_cols": 9,
+   "header_rows": 1,
+   "rows": [
+    {
+     "role": "header",
+     "cells": [
+      {
+       "text": "bei:",
+       "spans": []
+      },
+      {
+       "text": "N.",
+       "spans": []
+      },
+      {
+       "text": "NO.",
+       "spans": []
+      },
+      {
+       "text": "O.",
+       "spans": []
+      },
+      {
+       "text": "SO.",
+       "spans": []
+      },
+      {
+       "text": "S.",
+       "spans": []
+      },
+      {
+       "text": "SW.",
+       "spans": []
+      },
+      {
+       "text": "W.",
+       "spans": []
+      },
+      {
+       "text": "NW.",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "in Gera",
+       "spans": [
+        [
+         3,
+         7,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "23",
+       "spans": []
+      },
+      {
+       "text": "5",
+       "spans": []
+      },
+      {
+       "text": "10",
+       "spans": []
+      },
+      {
+       "text": "7",
+       "spans": []
+      },
+      {
+       "text": "34",
+       "spans": []
+      },
+      {
+       "text": "7",
+       "spans": []
+      },
+      {
+       "text": "37",
+       "spans": []
+      },
+      {
+       "text": "11",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "group",
+     "cells": [
+      {
+       "text": "von 47 Gewittern",
+       "spans": [
+        [
+         7,
+         16,
+         "Climate"
+        ]
+       ],
+       "colspan": 9
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "in Hohenleuben . .",
+       "spans": [
+        [
+         3,
+         14,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "3",
+       "spans": []
+      },
+      {
+       "text": "2",
+       "spans": []
+      },
+      {
+       "text": "6",
+       "spans": []
+      },
+      {
+       "text": "2",
+       "spans": []
+      },
+      {
+       "text": "5",
+       "spans": []
+      },
+      {
+       "text": "1",
+       "spans": []
+      },
+      {
+       "text": "22",
+       "spans": []
+      },
+      {
+       "text": "6",
+       "spans": []
+      }
+     ]
+    }
+   ],
+   "grid": [
+    [
+     "bei:",
+     "N.",
+     "NO.",
+     "O.",
+     "SO.",
+     "S.",
+     "SW.",
+     "W.",
+     "NW."
+    ],
+    [
+     "in Gera",
+     "23",
+     "5",
+     "10",
+     "7",
+     "34",
+     "7",
+     "37",
+     "11"
+    ],
+    [
+     "von 47 Gewittern",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "in Hohenleuben . .",
+     "3",
+     "2",
+     "6",
+     "2",
+     "5",
+     "1",
+     "22",
+     "6"
+    ]
+   ],
+   "caption": null,
+   "sec": "t1-1-7"
+  },
+  {
+   "id": "b3",
+   "type": "paragraph",
+   "src": 2,
+   "text": "Somit ziehen im Unterlande und im Oberlande die meisten Gewitter aus dem Westen heran. Vergleicht man mit dem Norden und Süden die gesammten West- und Ostrichtungen, so erhält man",
+   "spans": [
+    [
+     56,
+     64,
+     "Climate"
+    ]
+   ],
+   "sec": "t1-1-7"
+  },
+  {
+   "id": "b4",
+   "type": "table",
+   "src": 3,
+   "n_cols": 3,
+   "header_rows": 1,
+   "rows": [
+    {
+     "role": "header",
+     "cells": [
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "für Gera:",
+       "spans": [
+        [
+         4,
+         8,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "für Hohenleuben:",
+       "spans": [
+        [
+         4,
+         15,
+         "Location"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "W.",
+       "spans": []
+      },
+      {
+       "text": "55",
+       "spans": []
+      },
+      {
+       "text": "29",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "O.",
+       "spans": []
+      },
+      {
+       "text": "22",
+       "spans": []
+      },
+      {
+       "text": "10",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "N.",
+       "spans": []
+      },
+      {
+       "text": "23",
+       "spans": []
+      },
+      {
+       "text": "3",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "S.",
+       "spans": []
+      },
+      {
+       "text": "34",
+       "spans": []
+      },
+      {
+       "text": "5",
+       "spans": []
+      }
+     ]
+    }
+   ],
+   "grid": [
+    [
+     "",
+     "für Gera:",
+     "für Hohenleuben:"
+    ],
+    [
+     "W.",
+     "55",
+     "29"
+    ],
+    [
+     "O.",
+     "22",
+     "10"
+    ],
+    [
+     "N.",
+     "23",
+     "3"
+    ],
+    [
+     "S.",
+     "34",
+     "5"
+    ]
+   ],
+   "caption": null,
+   "sec": "t1-1-7"
+  },
+  {
+   "id": "b5",
+   "type": "paragraph",
+   "src": 4,
+   "text": "Aus der Tabelle des Höhenrauches wird ersichtbar, daß die größte Zahl der beobachteten Erscheinungen in die Zeit fällt, wo in der Niederung von Nordwestdeutschland der Moorboden „abgeschwellt“, d. h. verbrannt und dadurch in Dungasche verwandelt wird. Der dabei entstehende Moorrauch (Haarrauch) von brenzlichem, braunkohlenartigem Geruche wird in der Regel mit Nordwestwind über Thüringen und über das Voigtland zwar als eine lästige Frühlingsplage, doch ohne Einwirkung auf das Wetter und ohne Nachtheil für Pflanzen, Thiere und Menschen getrieben, wie denn keineswegs dieser Rauch, sondern das in den Frühling fallende Eisschmelzen im nordwestlichen und nördlichen Europa Ursache der Temperaturerniedrigung zur Zeit der Tage Mamertus, Pancratius und Servatius ist. Von dem Moorrauch muß aber der gewöhnlich im Hochsommer eintretende, geruchlose Dunst (Duft) unterschieden werden, welcher die Höhen bei heiterem Himmel mit einem dünnen bläulichen Flor umzieht, die Fernsichten verhindert und den Namen Höhenrauch (Höhrauch) führt. Zur Zeit ist sein Entstehen noch ein Räthsel. Die in der Tabelle vorkommenden Fälle, welche dem Frühjahre nicht angehören, sind der letzteren Klasse des Höhenrauches zuzuweisen.",
+   "spans": [
+    [
+     20,
+     32,
+     "Climate"
+    ],
+    [
+     1004,
+     1014,
+     "Climate"
+    ],
+    [
+     1186,
+     1198,
+     "Climate"
+    ],
+    [
+     144,
+     163,
+     "Location"
+    ],
+    [
+     168,
+     177,
+     "Environment"
+    ],
+    [
+     274,
+     283,
+     "Climate"
+    ],
+    [
+     776,
+     785,
+     "Climate"
+    ],
+    [
+     285,
+     294,
+     "Climate"
+    ],
+    [
+     380,
+     389,
+     "Location"
+    ],
+    [
+     403,
+     412,
+     "Location"
+    ],
+    [
+     510,
+     518,
+     "Plant"
+    ],
+    [
+     520,
+     526,
+     "Animal"
+    ],
+    [
+     622,
+     634,
+     "Environmental Impact"
+    ],
+    [
+     668,
+     674,
+     "Location"
+    ],
+    [
+     728,
+     736,
+     "Person"
+    ],
+    [
+     738,
+     748,
+     "Person"
+    ],
+    [
+     753,
+     762,
+     "Person"
+    ],
+    [
+     1016,
+     1024,
+     "Climate"
+    ]
+   ],
+   "sec": "t1-1-7"
+  },
+  {
+   "id": "b6",
+   "type": "paragraph",
+   "src": 5,
+   "text": "Die sogenannten Wetterbäume hat Rob. Schmidt in Hohenleuben von 1853—1859 einer Beobachtung unterzogen. Von den in dieser Zeit beobachteten 299 Wetterbäumen fielen 95 in den Herbst, 82 in das Frühjahr, 77 in den Sommer und 36 in den Winter. Die Mehrzahl kam mit Westrichtung und über die Hälfte war mit Regen begleitet. Ihr Auftreten band sich an keine Tageszeit.",
+   "spans": [
+    [
+     48,
+     59,
+     "Location"
+    ],
+    [
+     32,
+     44,
+     "Person"
+    ],
+    [
+     303,
+     308,
+     "Climate"
+    ]
+   ],
+   "sec": "t1-1-7"
+  },
+  {
+   "id": "b7",
+   "type": "paragraph",
+   "src": 6,
+   "text": "Die Regenmenge, die für Thüringen im Allgemeinen 21,12 par. Zoll angenommen wird, ist für Gera durch acht Jahre von Rud. Schmidt gemessen worden. Die folgende Tabelle giebt die gefundenen Hauptresultate.",
+   "spans": [
+    [
+     90,
+     94,
+     "Location"
+    ],
+    [
+     24,
+     33,
+     "Location"
+    ],
+    [
+     116,
+     128,
+     "Person"
+    ]
+   ],
+   "sec": "t1-1-7"
+  }
+ ],
+ "footnotes": [],
+ "corrections": [
+  {
+   "rule": "table_group_rows",
+   "n": 1,
+   "block": "b2"
+  }
+ ],
+ "provenance": {
+  "source": "colab-2026-01",
+  "model": "gemini-3-flash-preview",
+  "timestamp": "2026-01-06T03:44:52.252803",
+  "early_schema": false
+ },
+ "section_path": [
+  "t1",
+  "t1-1",
+  "t1-1-7"
+ ],
+ "sections": [
+  "t1-1-7"
+ ]
+}

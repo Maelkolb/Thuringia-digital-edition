@@ -1,0 +1,58 @@
+{
+ "seq": 13,
+ "label": "1",
+ "slug": "1",
+ "iiif": {
+  "service": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb11005578_00013",
+  "canvas": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11005578/canvas/13",
+  "width": 1585,
+  "height": 2694
+ },
+ "kind": "text",
+ "running_header": null,
+ "signature": null,
+ "blocks": [
+  {
+   "id": "b1",
+   "type": "heading",
+   "src": 0,
+   "text": "I. Theil.",
+   "spans": [],
+   "opens": [
+    "t1"
+   ],
+   "sec": "t1",
+   "level": 2
+  },
+  {
+   "id": "b2",
+   "type": "heading",
+   "src": 1,
+   "text": "Allgemeine Landeskunde des Fürstenthums Reuß j. L.",
+   "spans": [
+    [
+     27,
+     50,
+     "Location"
+    ]
+   ],
+   "sec": "t1",
+   "level": 3
+  }
+ ],
+ "footnotes": [],
+ "corrections": [],
+ "provenance": {
+  "source": "gapfill-2026-10",
+  "model": "gemini-3-flash-preview",
+  "timestamp": "2026-10-01T20:41:12.785016",
+  "early_schema": false
+ },
+ "section_path": [
+  "front",
+  "inhalt"
+ ],
+ "sections": [
+  "t1"
+ ]
+}

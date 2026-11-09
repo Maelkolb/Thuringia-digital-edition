@@ -1,0 +1,466 @@
+{
+ "seq": 100,
+ "label": "88",
+ "slug": "88",
+ "iiif": {
+  "service": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb11005578_00100",
+  "canvas": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11005578/canvas/100",
+  "width": 1625,
+  "height": 2698
+ },
+ "kind": "text",
+ "running_header": "I. Die Natur des Landes.",
+ "signature": null,
+ "blocks": [
+  {
+   "id": "b1",
+   "type": "table",
+   "src": 0,
+   "n_cols": 5,
+   "header_rows": 1,
+   "rows": [
+    {
+     "role": "header",
+     "cells": [
+      {
+       "text": "Zoologische Namen.",
+       "spans": []
+      },
+      {
+       "text": "Saale. Volksname.",
+       "spans": [
+        [
+         0,
+         5,
+         "Natural Object"
+        ]
+       ]
+      },
+      {
+       "text": "Elster. Volksname.",
+       "spans": [
+        [
+         0,
+         6,
+         "Natural Object"
+        ]
+       ]
+      },
+      {
+       "text": "Wiesenthal. Volksname.",
+       "spans": [
+        [
+         0,
+         10,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "Teiche.",
+       "spans": [
+        [
+         0,
+         6,
+         "Environment"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "27. Thymallus vulgaris*",
+       "spans": [
+        [
+         4,
+         23,
+         "Animal"
+        ]
+       ]
+      },
+      {
+       "text": "gemeine Forelle, (Asche)",
+       "spans": []
+      },
+      {
+       "text": "Asche",
+       "spans": []
+      },
+      {
+       "text": "früher",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "28. Salmo Salar*",
+       "spans": [
+        [
+         4,
+         16,
+         "Animal"
+        ]
+       ]
+      },
+      {
+       "text": "Lachs, jetzt sehr selten",
+       "spans": []
+      },
+      {
+       "text": "jetzt sehr selten",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "29. Salmo trutta*",
+       "spans": []
+      },
+      {
+       "text": "Lachsforelle",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "30. Salmo Fario*",
+       "spans": []
+      },
+      {
+       "text": "Steinforelle",
+       "spans": []
+      },
+      {
+       "text": "früher in Bächen, jetzt gezüchtet (Niederndorf)",
+       "spans": [
+        [
+         10,
+         16,
+         "Environment"
+        ],
+        [
+         35,
+         46,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "in allen größeren Bächen des Oberlandes",
+       "spans": [
+        [
+         29,
+         39,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "—",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "31. Esox lucius*",
+       "spans": []
+      },
+      {
+       "text": "Hecht",
+       "spans": []
+      },
+      {
+       "text": "Hecht",
+       "spans": []
+      },
+      {
+       "text": "Hecht",
+       "spans": []
+      },
+      {
+       "text": "häufig, meist ohne besondere Züchtung.",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "32. Anguilla fluviat.*",
+       "spans": []
+      },
+      {
+       "text": "Aal",
+       "spans": []
+      },
+      {
+       "text": "Aal häufig, zumal im August bei trübem Wasser",
+       "spans": []
+      },
+      {
+       "text": "Aal",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "33. Petromyzon fluv.",
+       "spans": []
+      },
+      {
+       "text": "Bricke, selten",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "34. Petrom. Planeri",
+       "spans": []
+      },
+      {
+       "text": "Steinbeißer",
+       "spans": []
+      },
+      {
+       "text": "kleines Steinauge, Neunauge",
+       "spans": []
+      },
+      {
+       "text": "Steinbeißer",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      }
+     ]
+    }
+   ],
+   "grid": [
+    [
+     "Zoologische Namen.",
+     "Saale. Volksname.",
+     "Elster. Volksname.",
+     "Wiesenthal. Volksname.",
+     "Teiche."
+    ],
+    [
+     "27. Thymallus vulgaris*",
+     "gemeine Forelle, (Asche)",
+     "Asche",
+     "früher",
+     "—"
+    ],
+    [
+     "28. Salmo Salar*",
+     "Lachs, jetzt sehr selten",
+     "jetzt sehr selten",
+     "—",
+     "—"
+    ],
+    [
+     "29. Salmo trutta*",
+     "Lachsforelle",
+     "—",
+     "—",
+     "—"
+    ],
+    [
+     "30. Salmo Fario*",
+     "Steinforelle",
+     "früher in Bächen, jetzt gezüchtet (Niederndorf)",
+     "in allen größeren Bächen des Oberlandes",
+     "—"
+    ],
+    [
+     "31. Esox lucius*",
+     "Hecht",
+     "Hecht",
+     "Hecht",
+     "häufig, meist ohne besondere Züchtung."
+    ],
+    [
+     "32. Anguilla fluviat.*",
+     "Aal",
+     "Aal häufig, zumal im August bei trübem Wasser",
+     "Aal",
+     "—"
+    ],
+    [
+     "33. Petromyzon fluv.",
+     "Bricke, selten",
+     "—",
+     "—",
+     "—"
+    ],
+    [
+     "34. Petrom. Planeri",
+     "Steinbeißer",
+     "kleines Steinauge, Neunauge",
+     "Steinbeißer",
+     "—"
+    ]
+   ],
+   "caption": null,
+   "sec": "t1-1-9"
+  },
+  {
+   "id": "b2",
+   "type": "paragraph",
+   "src": 1,
+   "text": "Die mit * bezeichneten sind besonders bevorzugte Arten.",
+   "spans": [],
+   "sec": "t1-1-9"
+  },
+  {
+   "id": "b3",
+   "type": "paragraph",
+   "src": 2,
+   "text": "Für die Fauna der wirbellosen Thiere hat sich bis jetzt das Auge der Forschung nur auf die lebenden Schaalthiere und auf die Schmetterlinge gerichtet; alle übrigen Ordnungen liegen noch brach. Bezüglich der Molluskenfauna sind bis jetzt durch Prof. Liebe und Dr. Zimmer im Fürstenthum neun Arten Muschelthiere in vier Geschlechtern und 73 Arten Schnecken in 18 Geschlechtern, im Ganzen also 82 Arten in 22 Geschlechtern aufgefunden worden. Von den Nacktschnecken fand man die in Franken fehlende Daudebardia rufa, Arion mit vier Arten (ater, rufus, albus und hortensis) und Limax mit zwei Arten (cinereus und agrestis), von der Glasschnecke oder Vitrina zwei Arten (pellucida und diaphana), von der Knoblauchschnecke oder Zonites acht (cellarius, glaber, hyalinus, crystallinus, nitidulus, nitidosus, lucidus und fulvus), von der Schnirkelschnecke oder Helix zwanzig (darunter als seltene pygmaea, aculeata, strigella, bidentata, umbrosa, als gemeine rotundata, obvoluta, personata, lapicida, arbustorum, pulchella, costata, sericea, hispida, incarnata, fruticum, ericetorum, nemoralis, hortensis und pomatia), Sira acicula, von Bulimus drei (lubricus, montanus und obscurus), von der Windelschnecke oder Pupa drei (muscorum, Venetzii und pygmaea), von der Balea die interessante Gebirgsform fragilis, von der Clausilia acht (ventricosa, similis, plicata, rugosa, obtusa, filograna, parvula, bidens), Bernsteinschnecke oder Succinea drei (putris, Pfeifferi und oblonga), die Ohrschnecke (Carychium minimum), von der Schlammschnecke sieben (Limnaeus stagnalis, auricularius, ovatus, pereger, palustris, minutus und fuscus), von der Blasenschnecke nur Physa fontinalis, von der Napfschnecke oder Planorbis fünf (contortus, nitidus, marginatus, leucostoma und albus), von den Kammkiemenschnecken nur Bythinia impura.",
+   "spans": [
+    [
+     243,
+     254,
+     "Person"
+    ],
+    [
+     259,
+     269,
+     "Person"
+    ],
+    [
+     273,
+     284,
+     "Location"
+    ],
+    [
+     479,
+     486,
+     "Location"
+    ]
+   ],
+   "sec": "t1-1-9"
+  },
+  {
+   "id": "b4",
+   "type": "paragraph",
+   "src": 3,
+   "text": "Aus der Ordnung der Malermuscheln (Conchiferen) kennt man Unio pictorum, crassus, batavus und margaritifer, Anadonta cygnea und piscinalis, Pisidium fontinale etc. etc. und Cyclas cornea und calyculata.",
+   "spans": [],
+   "sec": "t1-1-9"
+  },
+  {
+   "id": "b5",
+   "type": "paragraph",
+   "src": 4,
+   "text": "Fünf Arten der Schaalthiere sind allein dem Oberlande eigenthümlich, darunter die Gebirgsform Balea fragilis und 17 Arten dem Unterlande, wo Laubholzschluchten und wärmere Thalstriche günstig wirken. Auffällig ist es,",
+   "spans": [
+    [
+     44,
+     53,
+     "Location"
+    ],
+    [
+     94,
+     108,
+     "Animal"
+    ],
+    [
+     126,
+     136,
+     "Location"
+    ],
+    [
+     141,
+     159,
+     "Environment"
+    ],
+    [
+     172,
+     183,
+     "Environment"
+    ]
+   ],
+   "continues": true,
+   "sec": "t1-1-9"
+  }
+ ],
+ "footnotes": [],
+ "corrections": [],
+ "provenance": {
+  "source": "colab-2026-01",
+  "model": "gemini-3-flash-preview",
+  "timestamp": "2026-01-06T04:21:15.442922",
+  "early_schema": false
+ },
+ "section_path": [
+  "t1",
+  "t1-1",
+  "t1-1-9"
+ ],
+ "sections": [
+  "t1-1-9"
+ ]
+}

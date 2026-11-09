@@ -1,0 +1,1194 @@
+{
+ "seq": 107,
+ "label": "95",
+ "slug": "95",
+ "iiif": {
+  "service": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb11005578_00107",
+  "canvas": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11005578/canvas/107",
+  "width": 1597,
+  "height": 2696
+ },
+ "kind": "text",
+ "running_header": "1. Statistik.",
+ "signature": null,
+ "blocks": [
+  {
+   "id": "b1",
+   "type": "paragraph",
+   "src": 0,
+   "text": "Landestheil Gera 998,0 Häuser. | Landestheil Lob.-Ebersdorf 638,4 Häuser.\n\" Schleiz 621,5 \" | Fürstenthum . . . . . 727,9 \"",
+   "spans": [
+    [
+     12,
+     16,
+     "Location"
+    ],
+    [
+     45,
+     59,
+     "Location"
+    ]
+   ],
+   "sec": "t1-2-1"
+  },
+  {
+   "id": "b2",
+   "type": "paragraph",
+   "src": 1,
+   "text": "Die Besetzung des Landes mit Häusern ist demnach am stärksten im Landestheile Gera, am schwächsten in Schleiz, im Ganzen aber anderen Ländern gegenüber keine geringe, denn es besitzt unter Andern auf 1 ☐ Meile:\nBelgien . . . . . 1556 Häuser, Baden . . . . . . 647 Häuser,\nSachsen . . . . . 869 \" Württemberg . . . 613 \"\nReuß j. L. . . . . 727,9 \" Beide Schwarzburg . 573 \"\nCoburg-Gotha . . . 665 \" Bayern . . . . . . 447 \"",
+   "spans": [
+    [
+     78,
+     82,
+     "Location"
+    ],
+    [
+     102,
+     109,
+     "Location"
+    ],
+    [
+     211,
+     218,
+     "Location"
+    ],
+    [
+     242,
+     247,
+     "Location"
+    ],
+    [
+     272,
+     279,
+     "Location"
+    ],
+    [
+     296,
+     307,
+     "Location"
+    ],
+    [
+     320,
+     330,
+     "Location"
+    ],
+    [
+     353,
+     364,
+     "Location"
+    ],
+    [
+     373,
+     385,
+     "Location"
+    ],
+    [
+     398,
+     404,
+     "Location"
+    ]
+   ],
+   "sec": "t1-2-1"
+  },
+  {
+   "id": "b3",
+   "type": "heading",
+   "src": 2,
+   "text": "5) Vergleichung der städtischen und ländlichen Bevölkerung: Die Bevölkerung des Fürstenthums vertheilt sich auf Stadt und Land:",
+   "spans": [],
+   "sec": "t1-2-1",
+   "level": 5
+  },
+  {
+   "id": "b4",
+   "type": "table",
+   "src": 3,
+   "n_cols": 7,
+   "header_rows": 2,
+   "rows": [
+    {
+     "role": "header",
+     "cells": [
+      {
+       "text": "Jahre.",
+       "spans": []
+      },
+      {
+       "text": "Städte.",
+       "spans": []
+      },
+      {
+       "text": "Landorte.",
+       "spans": []
+      },
+      {
+       "text": "Summe der Bevölkerung",
+       "spans": []
+      },
+      {
+       "text": "Procente der Gesammtbevölkerung städtische.",
+       "spans": []
+      },
+      {
+       "text": "Procente der Gesammtbevölkerung ländliche.",
+       "spans": []
+      },
+      {
+       "text": "Namen der Städte.",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "header",
+     "cells": [
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "Landrathsbezirk Gera.",
+       "spans": [
+        [
+         16,
+         20,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1833",
+       "spans": []
+      },
+      {
+       "text": "10272",
+       "spans": []
+      },
+      {
+       "text": "16294",
+       "spans": []
+      },
+      {
+       "text": "26566",
+       "spans": []
+      },
+      {
+       "text": "38,66",
+       "spans": []
+      },
+      {
+       "text": "61,34",
+       "spans": []
+      },
+      {
+       "text": "Gera.",
+       "spans": [
+        [
+         0,
+         4,
+         "Location"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1843",
+       "spans": []
+      },
+      {
+       "text": "11510",
+       "spans": []
+      },
+      {
+       "text": "17679",
+       "spans": []
+      },
+      {
+       "text": "29189",
+       "spans": []
+      },
+      {
+       "text": "39,43",
+       "spans": []
+      },
+      {
+       "text": "60,57",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1852",
+       "spans": []
+      },
+      {
+       "text": "13060",
+       "spans": []
+      },
+      {
+       "text": "19318",
+       "spans": []
+      },
+      {
+       "text": "32378",
+       "spans": []
+      },
+      {
+       "text": "40,34",
+       "spans": []
+      },
+      {
+       "text": "59,66",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1864",
+       "spans": []
+      },
+      {
+       "text": "15363",
+       "spans": []
+      },
+      {
+       "text": "21435",
+       "spans": []
+      },
+      {
+       "text": "36798",
+       "spans": []
+      },
+      {
+       "text": "41,75",
+       "spans": []
+      },
+      {
+       "text": "58,25",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1867",
+       "spans": []
+      },
+      {
+       "text": "16283",
+       "spans": []
+      },
+      {
+       "text": "21969",
+       "spans": []
+      },
+      {
+       "text": "38252",
+       "spans": []
+      },
+      {
+       "text": "42,57",
+       "spans": []
+      },
+      {
+       "text": "57,43",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "group",
+     "cells": [
+      {
+       "text": "Landrathsbezirk Schleiz.",
+       "spans": [
+        [
+         16,
+         23,
+         "Location"
+        ]
+       ],
+       "colspan": 7
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1833",
+       "spans": []
+      },
+      {
+       "text": "6966",
+       "spans": []
+      },
+      {
+       "text": "14940",
+       "spans": []
+      },
+      {
+       "text": "21906",
+       "spans": []
+      },
+      {
+       "text": "31,80",
+       "spans": []
+      },
+      {
+       "text": "68,20",
+       "spans": []
+      },
+      {
+       "text": "Schleiz, Saalburg u. Tanna.",
+       "spans": [
+        [
+         21,
+         26,
+         "Location"
+        ],
+        [
+         0,
+         7,
+         "Location"
+        ],
+        [
+         9,
+         17,
+         "Location"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1843",
+       "spans": []
+      },
+      {
+       "text": "7769",
+       "spans": []
+      },
+      {
+       "text": "16376",
+       "spans": []
+      },
+      {
+       "text": "24145",
+       "spans": []
+      },
+      {
+       "text": "32,18",
+       "spans": []
+      },
+      {
+       "text": "67,82",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1852",
+       "spans": []
+      },
+      {
+       "text": "7726",
+       "spans": []
+      },
+      {
+       "text": "17348",
+       "spans": []
+      },
+      {
+       "text": "25074",
+       "spans": []
+      },
+      {
+       "text": "30,81",
+       "spans": []
+      },
+      {
+       "text": "69,19",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1864",
+       "spans": []
+      },
+      {
+       "text": "7821",
+       "spans": []
+      },
+      {
+       "text": "19354",
+       "spans": []
+      },
+      {
+       "text": "27175",
+       "spans": []
+      },
+      {
+       "text": "28,78",
+       "spans": []
+      },
+      {
+       "text": "71,22",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1867",
+       "spans": []
+      },
+      {
+       "text": "7968",
+       "spans": []
+      },
+      {
+       "text": "19400",
+       "spans": []
+      },
+      {
+       "text": "27368",
+       "spans": []
+      },
+      {
+       "text": "29,11",
+       "spans": []
+      },
+      {
+       "text": "70,89",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "group",
+     "cells": [
+      {
+       "text": "Landrathsbezirk Lobenstein-Ebersdorf.",
+       "spans": [
+        [
+         16,
+         36,
+         "Location"
+        ],
+        [
+         16,
+         26,
+         "Location"
+        ]
+       ],
+       "colspan": 7
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1833",
+       "spans": []
+      },
+      {
+       "text": "4894",
+       "spans": []
+      },
+      {
+       "text": "15371",
+       "spans": []
+      },
+      {
+       "text": "20265",
+       "spans": []
+      },
+      {
+       "text": "24,15",
+       "spans": []
+      },
+      {
+       "text": "75,85",
+       "spans": []
+      },
+      {
+       "text": "Lobenstein und Hirschberg.",
+       "spans": [
+        [
+         15,
+         25,
+         "Location"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1843",
+       "spans": []
+      },
+      {
+       "text": "5164",
+       "spans": []
+      },
+      {
+       "text": "16385",
+       "spans": []
+      },
+      {
+       "text": "21549",
+       "spans": []
+      },
+      {
+       "text": "23,96",
+       "spans": []
+      },
+      {
+       "text": "76,04",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1852",
+       "spans": []
+      },
+      {
+       "text": "5312",
+       "spans": []
+      },
+      {
+       "text": "17060",
+       "spans": []
+      },
+      {
+       "text": "22372",
+       "spans": []
+      },
+      {
+       "text": "23,74",
+       "spans": []
+      },
+      {
+       "text": "76,26",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1864",
+       "spans": []
+      },
+      {
+       "text": "4612",
+       "spans": []
+      },
+      {
+       "text": "17887",
+       "spans": []
+      },
+      {
+       "text": "22499",
+       "spans": []
+      },
+      {
+       "text": "20,50",
+       "spans": []
+      },
+      {
+       "text": "79,50",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1867",
+       "spans": []
+      },
+      {
+       "text": "4671",
+       "spans": []
+      },
+      {
+       "text": "17683",
+       "spans": []
+      },
+      {
+       "text": "22354",
+       "spans": []
+      },
+      {
+       "text": "20,89",
+       "spans": []
+      },
+      {
+       "text": "79,11",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "group",
+     "cells": [
+      {
+       "text": "Das Fürstenthum.",
+       "spans": [],
+       "colspan": 7
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1833",
+       "spans": []
+      },
+      {
+       "text": "22132",
+       "spans": []
+      },
+      {
+       "text": "46605",
+       "spans": []
+      },
+      {
+       "text": "68737",
+       "spans": []
+      },
+      {
+       "text": "32,20",
+       "spans": []
+      },
+      {
+       "text": "67,80",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1843",
+       "spans": []
+      },
+      {
+       "text": "24443",
+       "spans": []
+      },
+      {
+       "text": "50440",
+       "spans": []
+      },
+      {
+       "text": "74883",
+       "spans": []
+      },
+      {
+       "text": "32,64",
+       "spans": []
+      },
+      {
+       "text": "67,36",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1852",
+       "spans": []
+      },
+      {
+       "text": "26098",
+       "spans": []
+      },
+      {
+       "text": "53726",
+       "spans": []
+      },
+      {
+       "text": "79824",
+       "spans": []
+      },
+      {
+       "text": "32,69",
+       "spans": []
+      },
+      {
+       "text": "67,31",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1864",
+       "spans": []
+      },
+      {
+       "text": "27796",
+       "spans": []
+      },
+      {
+       "text": "58676",
+       "spans": []
+      },
+      {
+       "text": "86472",
+       "spans": []
+      },
+      {
+       "text": "32,14",
+       "spans": []
+      },
+      {
+       "text": "67,86",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "1867",
+       "spans": []
+      },
+      {
+       "text": "28922",
+       "spans": []
+      },
+      {
+       "text": "58052",
+       "spans": []
+      },
+      {
+       "text": "87974",
+       "spans": []
+      },
+      {
+       "text": "32,87",
+       "spans": []
+      },
+      {
+       "text": "67,13",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      }
+     ]
+    }
+   ],
+   "grid": [
+    [
+     "Jahre.",
+     "Städte.",
+     "Landorte.",
+     "Summe der Bevölkerung",
+     "Procente der Gesammtbevölkerung städtische.",
+     "Procente der Gesammtbevölkerung ländliche.",
+     "Namen der Städte."
+    ],
+    [
+     "",
+     "",
+     "Landrathsbezirk Gera.",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "1833",
+     "10272",
+     "16294",
+     "26566",
+     "38,66",
+     "61,34",
+     "Gera."
+    ],
+    [
+     "1843",
+     "11510",
+     "17679",
+     "29189",
+     "39,43",
+     "60,57",
+     ""
+    ],
+    [
+     "1852",
+     "13060",
+     "19318",
+     "32378",
+     "40,34",
+     "59,66",
+     ""
+    ],
+    [
+     "1864",
+     "15363",
+     "21435",
+     "36798",
+     "41,75",
+     "58,25",
+     ""
+    ],
+    [
+     "1867",
+     "16283",
+     "21969",
+     "38252",
+     "42,57",
+     "57,43",
+     ""
+    ],
+    [
+     "",
+     "",
+     "Landrathsbezirk Schleiz.",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "1833",
+     "6966",
+     "14940",
+     "21906",
+     "31,80",
+     "68,20",
+     "Schleiz, Saalburg u. Tanna."
+    ],
+    [
+     "1843",
+     "7769",
+     "16376",
+     "24145",
+     "32,18",
+     "67,82",
+     ""
+    ],
+    [
+     "1852",
+     "7726",
+     "17348",
+     "25074",
+     "30,81",
+     "69,19",
+     ""
+    ],
+    [
+     "1864",
+     "7821",
+     "19354",
+     "27175",
+     "28,78",
+     "71,22",
+     ""
+    ],
+    [
+     "1867",
+     "7968",
+     "19400",
+     "27368",
+     "29,11",
+     "70,89",
+     ""
+    ],
+    [
+     "",
+     "",
+     "Landrathsbezirk Lobenstein-Ebersdorf.",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "1833",
+     "4894",
+     "15371",
+     "20265",
+     "24,15",
+     "75,85",
+     "Lobenstein und Hirschberg."
+    ],
+    [
+     "1843",
+     "5164",
+     "16385",
+     "21549",
+     "23,96",
+     "76,04",
+     ""
+    ],
+    [
+     "1852",
+     "5312",
+     "17060",
+     "22372",
+     "23,74",
+     "76,26",
+     ""
+    ],
+    [
+     "1864",
+     "4612",
+     "17887",
+     "22499",
+     "20,50",
+     "79,50",
+     ""
+    ],
+    [
+     "1867",
+     "4671",
+     "17683",
+     "22354",
+     "20,89",
+     "79,11",
+     ""
+    ],
+    [
+     "",
+     "",
+     "Das Fürstenthum.",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "1833",
+     "22132",
+     "46605",
+     "68737",
+     "32,20",
+     "67,80",
+     ""
+    ],
+    [
+     "1843",
+     "24443",
+     "50440",
+     "74883",
+     "32,64",
+     "67,36",
+     ""
+    ],
+    [
+     "1852",
+     "26098",
+     "53726",
+     "79824",
+     "32,69",
+     "67,31",
+     ""
+    ],
+    [
+     "1864",
+     "27796",
+     "58676",
+     "86472",
+     "32,14",
+     "67,86",
+     ""
+    ],
+    [
+     "1867",
+     "28922",
+     "58052",
+     "87974",
+     "32,87",
+     "67,13",
+     ""
+    ]
+   ],
+   "caption": null,
+   "sec": "t1-2-1"
+  },
+  {
+   "id": "b5",
+   "type": "paragraph",
+   "src": 4,
+   "text": "Demnach beträgt die städtische Bevölkerung 1/3, die ländliche 2/3 der Gesammtbevölkerung des Landes; auch ist dies Verhältniß in den letzten 34 Jahren ein fast unveränderliches geblieben, obschon die einzelnen Bezirke eine sehr ungleiche Zu- oder Abnahme der Bevölkerung in Stadt und Land aufweisen. Im Bezirk Gera überwucherte die Stadt Gera den ländlichen Volkskörper in der Art, daß in der Zeit von 1833—1867 dort die Bevölkerung um 4,02",
+   "spans": [
+    [
+     310,
+     314,
+     "Location"
+    ],
+    [
+     338,
+     342,
+     "Location"
+    ]
+   ],
+   "sec": "t1-2-1"
+  }
+ ],
+ "footnotes": [],
+ "corrections": [
+  {
+   "rule": "table_multirow_header",
+   "rows": 2,
+   "block": "b4"
+  },
+  {
+   "rule": "table_group_rows",
+   "n": 3,
+   "block": "b4"
+  }
+ ],
+ "provenance": {
+  "source": "colab-2026-03",
+  "model": "gemini-3-flash-preview",
+  "timestamp": "2026-03-05T11:55:42.043993",
+  "early_schema": false
+ },
+ "section_path": [
+  "t1",
+  "t1-2",
+  "t1-2-1"
+ ],
+ "sections": [
+  "t1-2-1"
+ ]
+}

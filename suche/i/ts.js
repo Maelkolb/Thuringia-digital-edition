@@ -1,0 +1,1 @@
+RJ.put("suche/i/ts",{"tschachenmuhl":[207,1,10732,1],"tsch":[534,1],"tschunkel":[1011,1],"tschernitz":[2212,1,10616,3],"tschernembel":[2352,1,7884,2,9522,1],"tschirch":[2549,1],"tschirm":[2810,1,3310,1,5456,3,7415,2],"tschech":[3115,1,8732,2],"tschir":[3741,1,3755,2,10617,3],"tsar":[7468,1]});

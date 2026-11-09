@@ -1,0 +1,548 @@
+{
+ "seq": 155,
+ "label": "143",
+ "slug": "143",
+ "iiif": {
+  "service": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb11005578_00155",
+  "canvas": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11005578/canvas/155",
+  "width": 1591,
+  "height": 2700
+ },
+ "kind": "text",
+ "running_header": "3. Die Mundart.",
+ "signature": null,
+ "blocks": [
+  {
+   "id": "b1",
+   "type": "paragraph",
+   "src": 0,
+   "text": "L, ll fällt aus vor ch, s, st und t: sichen, wist, os, sest, wett (solchen, willst, als, sollst, wollt), ebenso lch in: a sue Schticke (auch solch ein Stück).",
+   "spans": [],
+   "sec": "t1-2-3"
+  },
+  {
+   "id": "b2",
+   "type": "paragraph",
+   "src": 1,
+   "text": "M tritt an die Stelle von w in: mer (wir).",
+   "spans": [],
+   "sec": "t1-2-3"
+  },
+  {
+   "id": "b3",
+   "type": "paragraph",
+   "src": 2,
+   "text": "N fällt weg als Doppellaut in Mo (Mann), vor k in Schrak (Schrank), vor s in Gos (Gans) und am Ende in bi, hi, mei, nu, ma, ka (bin, hin, mein, nun, man, kann) und assimilirt sich mit r in Birre, Lotarr (Birne, Laterne); en und ein werden a in sea, inna, dinna, alla (säen, innen, drinnen, allein); nd und nt gehen, wenn d und t sich nicht mit n verähnlichen, in ng über: song, onger (sand, unter).",
+   "spans": [
+    [
+     34,
+     38,
+     "Person"
+    ],
+    [
+     82,
+     86,
+     "Animal"
+    ],
+    [
+     204,
+     209,
+     "Plant"
+    ],
+    [
+     211,
+     218,
+     "Artefact"
+    ]
+   ],
+   "sec": "t1-2-3"
+  },
+  {
+   "id": "b4",
+   "type": "paragraph",
+   "src": 3,
+   "text": "S wird st in: Kestel, Schinnost (Kessel, Schindaas). St hat wie in Süddeutschland den vollen Klang scht, es sei denn, daß t in st ausgestoßen wird, was unter Andern bei ist und bist der Fall ist. 's wird sch in ersch, mersch (er es, mir es).",
+   "spans": [
+    [
+     33,
+     39,
+     "Artefact"
+    ]
+   ],
+   "sec": "t1-2-3"
+  },
+  {
+   "id": "b5",
+   "type": "paragraph",
+   "src": 4,
+   "text": "R fällt aus in: gesten (gestern), onsen (unsern), verschärft sich zu er in: arr, nerr, gorr (er, nur, jener) und wird eingeschaltet zwischen Vocalen und n: schreiern, schweinerns Flasch, ber uns (schreien, schweinenes Fleisch, bei uns). Selten fällt es in der Endsilbe er weg, wie in A (Eier).",
+   "spans": [
+    [
+     218,
+     225,
+     "Resource"
+    ],
+    [
+     287,
+     291,
+     "Resource"
+    ]
+   ],
+   "sec": "t1-2-3"
+  },
+  {
+   "id": "b6",
+   "type": "paragraph",
+   "src": 5,
+   "text": "In der Wortbiegung zeigt sich der Artikel und das Fürwort vollständiger und flüssiger als das Haupt- und Eigenschaftswort. Des Raumes wegen kann das Fürwort nur in einigen Gliedern angedeutet werden.",
+   "spans": [],
+   "sec": "t1-2-3"
+  },
+  {
+   "id": "b7",
+   "type": "table",
+   "src": 6,
+   "n_cols": 6,
+   "header_rows": 0,
+   "rows": [
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "Artikel",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "Fürwörter",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "bestimmter.",
+       "spans": []
+      },
+      {
+       "text": "unbestimmter.",
+       "spans": []
+      },
+      {
+       "text": "d. 1. Person.",
+       "spans": []
+      },
+      {
+       "text": "der 3. Person.",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Einzahl.",
+       "spans": []
+      },
+      {
+       "text": "der de dos dar 's d'r",
+       "spans": []
+      },
+      {
+       "text": "a a a ä ä ä e enne e anner anne",
+       "spans": []
+      },
+      {
+       "text": "ich ech eich, aich",
+       "spans": []
+      },
+      {
+       "text": "ha er ar arr",
+       "spans": []
+      },
+      {
+       "text": "se 's su",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "group",
+     "cells": [
+      {
+       "text": "Nom.",
+       "spans": [],
+       "colspan": 6
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Gen.",
+       "spans": []
+      },
+      {
+       "text": "deß darr daß",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "meiner menner ment",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Dat.",
+       "spans": []
+      },
+      {
+       "text": "dan der dan dar där",
+       "spans": []
+      },
+      {
+       "text": "an enner an",
+       "spans": []
+      },
+      {
+       "text": "mer",
+       "spans": []
+      },
+      {
+       "text": "ihn ehr, err, eir ehn ähn",
+       "spans": []
+      },
+      {
+       "text": "ihr, ir'r",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Acc.",
+       "spans": []
+      },
+      {
+       "text": "den de dos dan 's 'n",
+       "spans": []
+      },
+      {
+       "text": "en enne a an anne ä 'n e",
+       "spans": []
+      },
+      {
+       "text": "mich",
+       "spans": []
+      },
+      {
+       "text": "en 'n",
+       "spans": []
+      },
+      {
+       "text": "se 's su",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "group",
+     "cells": [
+      {
+       "text": "Mehrzahl.",
+       "spans": [],
+       "colspan": 6
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Nom.",
+       "spans": []
+      },
+      {
+       "text": "de, dei, dai",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "mer m'r",
+       "spans": []
+      },
+      {
+       "text": "se, su",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Gen.",
+       "spans": []
+      },
+      {
+       "text": "daren",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "unserer unsert",
+       "spans": []
+      },
+      {
+       "text": "irrer, erren",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Dat.",
+       "spans": []
+      },
+      {
+       "text": "den, en, 'n dan",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "uns, ons",
+       "spans": []
+      },
+      {
+       "text": "irn, ern",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Acc.",
+       "spans": []
+      },
+      {
+       "text": "de, dei, dai",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      },
+      {
+       "text": "uns, ons",
+       "spans": []
+      },
+      {
+       "text": "se, su",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": []
+      }
+     ]
+    }
+   ],
+   "grid": [
+    [
+     "",
+     "Artikel",
+     "",
+     "Fürwörter",
+     "",
+     ""
+    ],
+    [
+     "",
+     "bestimmter.",
+     "unbestimmter.",
+     "d. 1. Person.",
+     "der 3. Person.",
+     ""
+    ],
+    [
+     "Einzahl.",
+     "der de dos dar 's d'r",
+     "a a a ä ä ä e enne e anner anne",
+     "ich ech eich, aich",
+     "ha er ar arr",
+     "se 's su"
+    ],
+    [
+     "Nom.",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Gen.",
+     "deß darr daß",
+     "",
+     "meiner menner ment",
+     "",
+     ""
+    ],
+    [
+     "Dat.",
+     "dan der dan dar där",
+     "an enner an",
+     "mer",
+     "ihn ehr, err, eir ehn ähn",
+     "ihr, ir'r"
+    ],
+    [
+     "Acc.",
+     "den de dos dan 's 'n",
+     "en enne a an anne ä 'n e",
+     "mich",
+     "en 'n",
+     "se 's su"
+    ],
+    [
+     "Mehrzahl.",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Nom.",
+     "de, dei, dai",
+     "",
+     "mer m'r",
+     "se, su",
+     ""
+    ],
+    [
+     "Gen.",
+     "daren",
+     "",
+     "unserer unsert",
+     "irrer, erren",
+     ""
+    ],
+    [
+     "Dat.",
+     "den, en, 'n dan",
+     "",
+     "uns, ons",
+     "irn, ern",
+     ""
+    ],
+    [
+     "Acc.",
+     "de, dei, dai",
+     "",
+     "uns, ons",
+     "se, su",
+     ""
+    ]
+   ],
+   "caption": null,
+   "sec": "t1-2-3"
+  }
+ ],
+ "footnotes": [],
+ "corrections": [
+  {
+   "rule": "table_no_header_row",
+   "note": "first row is data (legacy edition rendered it as <th>)",
+   "block": "b7"
+  },
+  {
+   "rule": "table_group_rows",
+   "n": 2,
+   "block": "b7"
+  }
+ ],
+ "provenance": {
+  "source": "colab-2026-03",
+  "model": "gemini-3-flash-preview",
+  "timestamp": "2026-03-03T15:26:02.326280",
+  "early_schema": false
+ },
+ "section_path": [
+  "t1",
+  "t1-2",
+  "t1-2-3"
+ ],
+ "sections": [
+  "t1-2-3"
+ ]
+}

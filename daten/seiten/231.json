@@ -1,0 +1,366 @@
+{
+ "seq": 243,
+ "label": "231",
+ "slug": "231",
+ "iiif": {
+  "service": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb11005578_00243",
+  "canvas": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11005578/canvas/243",
+  "width": 1640,
+  "height": 2703
+ },
+ "kind": "text",
+ "running_header": "2. Landwirthschaft.",
+ "signature": null,
+ "blocks": [
+  {
+   "id": "b1",
+   "type": "table",
+   "src": 0,
+   "n_cols": 4,
+   "header_rows": 1,
+   "rows": [
+    {
+     "role": "header",
+     "cells": [
+      {
+       "text": "Sitz derselben.",
+       "spans": []
+      },
+      {
+       "text": "Gründungsjahr.",
+       "spans": []
+      },
+      {
+       "text": "Mitgliederzahl. (1868).",
+       "spans": []
+      },
+      {
+       "text": "Bibliotheken. (Zahl der Bände.)",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Gera . . .",
+       "spans": [
+        [
+         0,
+         4,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "1844",
+       "spans": []
+      },
+      {
+       "text": "176",
+       "spans": []
+      },
+      {
+       "text": "c. 300",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Hohenleuben",
+       "spans": [
+        [
+         0,
+         11,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "1860",
+       "spans": []
+      },
+      {
+       "text": "196",
+       "spans": []
+      },
+      {
+       "text": "125",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Schleiz . .",
+       "spans": [
+        [
+         0,
+         7,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "1845 u. 1855 erneut.",
+       "spans": []
+      },
+      {
+       "text": "180",
+       "spans": []
+      },
+      {
+       "text": "250 (excl. d. Zeitschr.)",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Ebersdorf .",
+       "spans": [
+        [
+         0,
+         9,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "1853",
+       "spans": []
+      },
+      {
+       "text": "262",
+       "spans": []
+      },
+      {
+       "text": "260",
+       "spans": []
+      }
+     ]
+    }
+   ],
+   "grid": [
+    [
+     "Sitz derselben.",
+     "Gründungsjahr.",
+     "Mitgliederzahl. (1868).",
+     "Bibliotheken. (Zahl der Bände.)"
+    ],
+    [
+     "Gera . . .",
+     "1844",
+     "176",
+     "c. 300"
+    ],
+    [
+     "Hohenleuben",
+     "1860",
+     "196",
+     "125"
+    ],
+    [
+     "Schleiz . .",
+     "1845 u. 1855 erneut.",
+     "180",
+     "250 (excl. d. Zeitschr.)"
+    ],
+    [
+     "Ebersdorf .",
+     "1853",
+     "262",
+     "260"
+    ]
+   ],
+   "caption": null,
+   "sec": "t1-3-2"
+  },
+  {
+   "id": "b2",
+   "type": "paragraph",
+   "src": 1,
+   "text": "Für den Fortschritt sind auch, wie bereits angedeutet, die größeren Güter von bedeutendem Einflusse, weil sie, meist im Besitz rationell gebildeter Oeconomen, in Verbesserung der Wirthschaft für die bäuerlichen Landwirthe anregend vorgehen. Dies haben sie nicht allein in der Verbesserung von Stall und Dünger, Feld und Wiese und in der Einführung besserer Geräthschaften, sondern auch im Anbau nutzbarer Früchte bewiesen, wie denn durch sie die Kartoffeln um 1730*), die Runkeln um 1770, der Klee um 1780 und vor Kurzem der Anbau von Esparsette und Luzerne eingeführt wurde.",
+   "spans": [
+    [
+     303,
+     309,
+     "Resource"
+    ],
+    [
+     311,
+     315,
+     "Environment"
+    ],
+    [
+     320,
+     325,
+     "Environment"
+    ],
+    [
+     357,
+     371,
+     "Artefact"
+    ],
+    [
+     446,
+     456,
+     "Plant"
+    ],
+    [
+     472,
+     479,
+     "Plant"
+    ],
+    [
+     493,
+     497,
+     "Plant"
+    ],
+    [
+     535,
+     545,
+     "Plant"
+    ],
+    [
+     550,
+     557,
+     "Plant"
+    ]
+   ],
+   "sec": "t1-3-2"
+  },
+  {
+   "id": "b3",
+   "type": "paragraph",
+   "src": 2,
+   "text": "Ueber Zusammenlegung von Grundstücken ist unterm 8. October 1860 ein Gesetz ergangen, doch hat es bis jetzt keine Anwendung gefunden.",
+   "spans": [],
+   "sec": "t1-3-2"
+  },
+  {
+   "id": "b4",
+   "type": "heading",
+   "src": 3,
+   "text": "3. Viehzucht.",
+   "spans": [],
+   "opens": [
+    "t1-3-3"
+   ],
+   "sec": "t1-3-3",
+   "level": 4
+  },
+  {
+   "id": "b5",
+   "type": "paragraph",
+   "src": 4,
+   "text": "In der Viehzucht hat das Land eine seiner Hauptnährquellen. Seine Stellung, Lage und Bodenbeschaffenheit ließen schon frühzeitig erkennen, daß es in dieser öconomischen Thätigkeit seine vornehmste Aufgabe und Stärke besitze, um Soll und Haben des heimischen Haushaltes in's Gleichgewicht zu bringen. Deshalb hat man auch den Viehstand, so oft er in früheren Kriegen erschüttert, sogar durch den 30jährigen Krieg fast vernichtet worden war, immer wieder (nur später mit Ausnahme der Pferde und Esel) hergestellt und in jüngster Zeit am Stärksten diejenigen Viehklassen gepflegt, welche den von den Feudallasten befreiten und verbesserten Bodenverhältnissen und dem eingeführten Kleebau am meisten entsprechen. Zugleich hat bei den Landwirthen die Erkenntniß mehr und mehr Platz gewonnen, daß großes und stark ausgebildetes Vieh nur durch eine gute und reichliche Nahrung und Pflege, namentlich wenn diese den Mutterthieren, dem Jungvieh und der trächtigen Mutter zugewendet werden, gezüchtet wird und daß somit in der Viehzucht die Fütterung denselben Werth und Erfolg hat als die Düngung bei dem Feldbau.",
+   "spans": [
+    [
+     482,
+     488,
+     "Animal"
+    ],
+    [
+     493,
+     497,
+     "Animal"
+    ],
+    [
+     677,
+     684,
+     "Plant"
+    ],
+    [
+     1080,
+     1087,
+     "Resource"
+    ]
+   ],
+   "sec": "t1-3-3"
+  },
+  {
+   "id": "b6",
+   "type": "paragraph",
+   "src": 5,
+   "text": "Pferdezucht. Hatte in früherer Zeit der zahlreiche Ritterstand zufolge seiner Würde und Vasallenpflicht und der adlige Grundbesitzer wegen seiner Rittergutswirthschaft die Zucht nicht allein zahlreicher, sondern auch edler und kräftiger Rosse nöthig, fanden viele Dynasten Gefallen an Marställen mit Rossen feinerer Art und setzte der Großbauer seinen Stolz darein, ein Pferdebauer und kein Ochsen- oder gar ein Kuhbauer zu sein, so hat sich dies durch die Umwandlung der Lehnsverhältnisse und durch richtige Würdigung der Brauchbarkeit des Rindviehes für die Oeconomie wesentlich geändert. Gegenwärtig",
+   "spans": [
+    [
+     237,
+     242,
+     "Animal"
+    ],
+    [
+     300,
+     305,
+     "Animal"
+    ],
+    [
+     391,
+     398,
+     "Animal"
+    ],
+    [
+     541,
+     551,
+     "Animal"
+    ]
+   ],
+   "continues": true,
+   "sec": "t1-3-3"
+  }
+ ],
+ "footnotes": [
+  {
+   "id": "fn1",
+   "marker": "*)",
+   "text": "Das lobensteiner Intelligenzblatt vom Jahre 1785 sagt, daß damals der Anbau der Kartoffeln im Voigtlande allgemein gewesen sei und räth zu dem Versuche, Kartoffeln aus dem Samen zu ziehen.",
+   "spans": [
+    [
+     4,
+     33,
+     "Organisation"
+    ],
+    [
+     80,
+     90,
+     "Plant"
+    ],
+    [
+     94,
+     104,
+     "Location"
+    ],
+    [
+     153,
+     163,
+     "Plant"
+    ]
+   ]
+  }
+ ],
+ "corrections": [],
+ "provenance": {
+  "source": "colab-2026-03",
+  "model": "gemini-3-flash-preview",
+  "timestamp": "2026-03-04T13:20:53.923561",
+  "early_schema": false
+ },
+ "section_path": [
+  "t1",
+  "t1-3",
+  "t1-3-2"
+ ],
+ "sections": [
+  "t1-3-2",
+  "t1-3-3"
+ ]
+}

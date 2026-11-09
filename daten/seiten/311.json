@@ -1,0 +1,169 @@
+{
+ "seq": 323,
+ "label": "311",
+ "slug": "311",
+ "iiif": {
+  "service": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb11005578_00323",
+  "canvas": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11005578/canvas/323",
+  "width": 1615,
+  "height": 2693
+ },
+ "kind": "text",
+ "running_header": null,
+ "signature": null,
+ "blocks": [
+  {
+   "id": "b1",
+   "type": "heading",
+   "src": 0,
+   "text": "V. Geschichte des Landes und seines Fürstenhauses.*)",
+   "spans": [],
+   "opens": [
+    "t1-5"
+   ],
+   "sec": "t1-5",
+   "level": 3
+  },
+  {
+   "id": "b2",
+   "type": "heading",
+   "src": 1,
+   "text": "1. Aelteste Zeit bis zur Unterjochung der Sorben.",
+   "spans": [],
+   "opens": [
+    "t1-5-1"
+   ],
+   "sec": "t1-5-1",
+   "level": 4
+  },
+  {
+   "id": "b3",
+   "type": "paragraph",
+   "src": 2,
+   "text": "Deutschland war nach den neuesten in Seen, Mooren und im trockenen Erdreiche zahlreich gemachten Funden lange Zeit, vielleicht viele Jahrtausende vor der christlichen Zeitrechnung bevölkert. Auch das Voigtland hat in seinen Funden roher Steinwaffen unwiderlegbare Beweise, daß hier in sehr fernen, weit zurückliegenden Zeiten Menschen lebten, ja daß selbst in einer noch weit früheren Periode, wie die Funde der köstritzer Gipsbrüche darthun, im Elsterthal Nashörner, Elephanten, Tiger und Hyänen ihre Wirthschaft hatten. Wie viel Zeiten verflossen sind von der Periode dieser Unthiere und von der des Menschen, der zuerst nach ihnen hier heimisch war, bis zur Gegenwart, wo neben dem Culturmenschen nur Hirsche, Rehe und Hasen in den Wäldern und Feldern hausen und wo das Klima der Existenz jener antediluvianischen Thierwelt nicht entspricht, wird niemals ergründet werden. Könnten wir übrigens die Denkmale, welche von den alten Völkern noch heute in den tiefen Schichten des Bodens, auf dem wir wandeln und der die plastische Tafel der ältesten Weltgeschichte bildet, verdeckt liegen oder welche bereits in früheren Zeiten ausgegraben, aber leider leichtsinnig in alle Welt zerstreut wurden, vor Augen haben, wir würden manchen weiteren Lichtblick in die langen früheren Perioden gewinnen. Aber das Eine steht fest, daß die anfänglichen Bewohner des Voigtlandes Elementarmenschen waren und daß, wie überall auf Erden, so auch hier naturgemäß allmälige langsame Uebergänge aus dem Unvollkommenen und Rohen zum Vollkommeneren und mehr Veredelten statt fanden und auf einander folgten. Nach dem Bewohner mit armseligen Stein-, Knochen- und Holzinstrumenten kam das des leicht schmelzbaren Bronzemetalls kundige Volk und wiederum nach diesem der Mensch, der mit dem Gebrauche des Eisens vertraut war und dadurch sich kräftiger, gewandter und überlegener als die früheren Geschlechter erwies, darum auch berechtigt, dieselben sich zu unterwerfen. Eben diese Eisenmänner auf",
+   "spans": [
+    [
+     37,
+     41,
+     "Environment"
+    ],
+    [
+     43,
+     49,
+     "Environment"
+    ],
+    [
+     200,
+     209,
+     "Location"
+    ],
+    [
+     237,
+     248,
+     "Artefact"
+    ],
+    [
+     412,
+     433,
+     "Artefact"
+    ],
+    [
+     446,
+     456,
+     "Location"
+    ],
+    [
+     457,
+     466,
+     "Animal"
+    ],
+    [
+     468,
+     478,
+     "Animal"
+    ],
+    [
+     480,
+     485,
+     "Animal"
+    ],
+    [
+     490,
+     496,
+     "Animal"
+    ],
+    [
+     704,
+     711,
+     "Animal"
+    ],
+    [
+     713,
+     717,
+     "Animal"
+    ],
+    [
+     722,
+     727,
+     "Animal"
+    ],
+    [
+     735,
+     742,
+     "Environment"
+    ],
+    [
+     773,
+     778,
+     "Climate"
+    ],
+    [
+     1354,
+     1365,
+     "Location"
+    ],
+    [
+     1641,
+     1657,
+     "Artefact"
+    ],
+    [
+     1690,
+     1703,
+     "Resource"
+    ],
+    [
+     1780,
+     1786,
+     "Resource"
+    ]
+   ],
+   "continues": true,
+   "sec": "t1-5-1"
+  }
+ ],
+ "footnotes": [
+  {
+   "id": "fn1",
+   "marker": "*)",
+   "text": "Dieser historische Abschnitt kann nach dem Zwecke und Maße des vorliegenden Werkes keine ausführliche Geschichte, sondern nur eine Skizze der Entwickelung geben, welche das Land und dessen Regentenhaus erfahren hat.",
+   "spans": []
+  }
+ ],
+ "corrections": [],
+ "provenance": {
+  "source": "colab-2026-03",
+  "model": "gemini-3-flash-preview",
+  "timestamp": "2026-03-04T13:49:47.219413",
+  "early_schema": false
+ },
+ "section_path": [
+  "t1",
+  "t1-4",
+  "t1-4-8"
+ ],
+ "sections": [
+  "t1-5",
+  "t1-5-1"
+ ]
+}

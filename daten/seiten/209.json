@@ -1,0 +1,1836 @@
+{
+ "seq": 221,
+ "label": "209",
+ "slug": "209",
+ "iiif": {
+  "service": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb11005578_00221",
+  "canvas": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11005578/canvas/221",
+  "width": 1612,
+  "height": 2701
+ },
+ "kind": "text",
+ "running_header": "1. Die Berufsklassen im Allgemeinen.",
+ "signature": "14",
+ "blocks": [
+  {
+   "id": "b1",
+   "type": "paragraph",
+   "src": 0,
+   "text": "Fürstenthume in Gegenseitigkeit steht, berechtigt ist, doch mit der Anzeige bei dem Landrathsamte in Orten über und bei dem Gemeindevorstande in Orten unter 1000 Einwohnern. Für den Betrieb von Gast-, Speise- und Schankwirthschaften, für Pfandgeschäfte, für Versicherungs-, Theater- und Schauspielgesellschaften mußte seither eine Concession, die im Allgemeinen persönlich war, und für jeden Gewerbsbetrieb im Umherziehen eine Erlaubniß eingeholt werden. Modificationen, selbst theilweise Aufhebung hiervon brachte die Gewerbeordnung für den norddeutschen Bund vom 1. October 1869. Uebrigens hat der Eintritt der Gewerbefreiheit im Allgemeinen keine so beträchtlichen Veränderungen zur Folge gehabt, als vielfach gehofft oder gefürchtet war. Die früheren Innungen indeß haben sich größtentheils aufgelöst oder neue Statuten angenommen.",
+   "spans": [
+    [
+     542,
+     560,
+     "Organisation"
+    ]
+   ],
+   "sec": "t1-3-1"
+  },
+  {
+   "id": "b2",
+   "type": "paragraph",
+   "src": 1,
+   "text": "Um die Bedeutung der industriellen und merkantilen Betriebsamkeit neben der agrarischen, forstwirthschaftlichen und bergmännischen wahrzunehmen und zu würdigen, ist es nöthig, sie in der Reihe der gesammten Berufsklassen des Landes festzustellen und sie mit diesen und unter sich zu vergleichen. An Berufsklassen hatte das Fürstenthum 1864:",
+   "spans": [],
+   "sec": "t1-3-1"
+  },
+  {
+   "id": "b3",
+   "type": "table",
+   "src": 2,
+   "n_cols": 11,
+   "header_rows": 2,
+   "rows": [
+    {
+     "role": "header",
+     "cells": [
+      {
+       "text": "Landestheile.",
+       "spans": [],
+       "rowspan": 2
+      },
+      {
+       "text": "1) Land- u. Forstwirthschaft.",
+       "spans": [],
+       "colspan": 5
+      },
+      {
+       "text": "2) Bergbau.",
+       "spans": [],
+       "colspan": 5
+      }
+     ]
+    },
+    {
+     "role": "header",
+     "cells": [
+      {
+       "text": "Selbstständig",
+       "spans": []
+      },
+      {
+       "text": "Gehilfen.",
+       "spans": []
+      },
+      {
+       "text": "Dienstboten.",
+       "spans": []
+      },
+      {
+       "text": "Famil.-glieder.",
+       "spans": []
+      },
+      {
+       "text": "Summe.",
+       "spans": []
+      },
+      {
+       "text": "Selbstständig",
+       "spans": []
+      },
+      {
+       "text": "Gehilfen.",
+       "spans": []
+      },
+      {
+       "text": "Dienstboten.",
+       "spans": []
+      },
+      {
+       "text": "Famil.-glieder.",
+       "spans": []
+      },
+      {
+       "text": "Summe.",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Städte",
+       "spans": []
+      },
+      {
+       "text": "63",
+       "spans": []
+      },
+      {
+       "text": "39",
+       "spans": []
+      },
+      {
+       "text": "25",
+       "spans": []
+      },
+      {
+       "text": "187",
+       "spans": []
+      },
+      {
+       "text": "314",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "2",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "2",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Plattland",
+       "spans": []
+      },
+      {
+       "text": "1007",
+       "spans": []
+      },
+      {
+       "text": "69",
+       "spans": []
+      },
+      {
+       "text": "1371",
+       "spans": []
+      },
+      {
+       "text": "3588",
+       "spans": []
+      },
+      {
+       "text": "6035",
+       "spans": []
+      },
+      {
+       "text": "2",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "6",
+       "spans": []
+      },
+      {
+       "text": "8",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Landesth. Gera",
+       "spans": [
+        [
+         0,
+         14,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "1070",
+       "spans": []
+      },
+      {
+       "text": "108",
+       "spans": []
+      },
+      {
+       "text": "1396",
+       "spans": []
+      },
+      {
+       "text": "3775",
+       "spans": []
+      },
+      {
+       "text": "6349",
+       "spans": []
+      },
+      {
+       "text": "2",
+       "spans": []
+      },
+      {
+       "text": "2",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "6",
+       "spans": []
+      },
+      {
+       "text": "10",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Städte",
+       "spans": []
+      },
+      {
+       "text": "47",
+       "spans": []
+      },
+      {
+       "text": "6",
+       "spans": []
+      },
+      {
+       "text": "49",
+       "spans": []
+      },
+      {
+       "text": "113",
+       "spans": []
+      },
+      {
+       "text": "215",
+       "spans": []
+      },
+      {
+       "text": "15",
+       "spans": []
+      },
+      {
+       "text": "18",
+       "spans": []
+      },
+      {
+       "text": "1",
+       "spans": []
+      },
+      {
+       "text": "101",
+       "spans": []
+      },
+      {
+       "text": "135",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Plattland",
+       "spans": []
+      },
+      {
+       "text": "961",
+       "spans": []
+      },
+      {
+       "text": "16",
+       "spans": []
+      },
+      {
+       "text": "1150",
+       "spans": []
+      },
+      {
+       "text": "3707",
+       "spans": []
+      },
+      {
+       "text": "5834",
+       "spans": []
+      },
+      {
+       "text": "1",
+       "spans": []
+      },
+      {
+       "text": "15",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "40",
+       "spans": []
+      },
+      {
+       "text": "56",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Landesth. Schleiz",
+       "spans": [
+        [
+         0,
+         17,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "1008",
+       "spans": []
+      },
+      {
+       "text": "22",
+       "spans": []
+      },
+      {
+       "text": "1199",
+       "spans": []
+      },
+      {
+       "text": "3820",
+       "spans": []
+      },
+      {
+       "text": "6049",
+       "spans": []
+      },
+      {
+       "text": "16",
+       "spans": []
+      },
+      {
+       "text": "33",
+       "spans": []
+      },
+      {
+       "text": "1",
+       "spans": []
+      },
+      {
+       "text": "141",
+       "spans": []
+      },
+      {
+       "text": "191",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Städte",
+       "spans": []
+      },
+      {
+       "text": "25",
+       "spans": []
+      },
+      {
+       "text": "6",
+       "spans": []
+      },
+      {
+       "text": "38",
+       "spans": []
+      },
+      {
+       "text": "81",
+       "spans": []
+      },
+      {
+       "text": "150",
+       "spans": []
+      },
+      {
+       "text": "7",
+       "spans": []
+      },
+      {
+       "text": "25",
+       "spans": []
+      },
+      {
+       "text": "—",
+       "spans": []
+      },
+      {
+       "text": "98",
+       "spans": []
+      },
+      {
+       "text": "130",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Plattland",
+       "spans": []
+      },
+      {
+       "text": "921",
+       "spans": []
+      },
+      {
+       "text": "16",
+       "spans": []
+      },
+      {
+       "text": "707",
+       "spans": []
+      },
+      {
+       "text": "3628",
+       "spans": []
+      },
+      {
+       "text": "5272",
+       "spans": []
+      },
+      {
+       "text": "7",
+       "spans": []
+      },
+      {
+       "text": "198",
+       "spans": []
+      },
+      {
+       "text": "3",
+       "spans": []
+      },
+      {
+       "text": "410",
+       "spans": []
+      },
+      {
+       "text": "618",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Ldth. Lob.-Ebersd.",
+       "spans": [
+        [
+         0,
+         18,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "946",
+       "spans": []
+      },
+      {
+       "text": "22",
+       "spans": []
+      },
+      {
+       "text": "745",
+       "spans": []
+      },
+      {
+       "text": "3709",
+       "spans": []
+      },
+      {
+       "text": "5422",
+       "spans": []
+      },
+      {
+       "text": "14",
+       "spans": []
+      },
+      {
+       "text": "223",
+       "spans": []
+      },
+      {
+       "text": "3",
+       "spans": []
+      },
+      {
+       "text": "508",
+       "spans": []
+      },
+      {
+       "text": "748",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Städte",
+       "spans": []
+      },
+      {
+       "text": "135",
+       "spans": []
+      },
+      {
+       "text": "51",
+       "spans": []
+      },
+      {
+       "text": "112",
+       "spans": []
+      },
+      {
+       "text": "381",
+       "spans": []
+      },
+      {
+       "text": "679",
+       "spans": []
+      },
+      {
+       "text": "22",
+       "spans": []
+      },
+      {
+       "text": "45",
+       "spans": []
+      },
+      {
+       "text": "1",
+       "spans": []
+      },
+      {
+       "text": "199",
+       "spans": []
+      },
+      {
+       "text": "267",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Plattland",
+       "spans": []
+      },
+      {
+       "text": "2889",
+       "spans": []
+      },
+      {
+       "text": "101",
+       "spans": []
+      },
+      {
+       "text": "3228",
+       "spans": []
+      },
+      {
+       "text": "10923",
+       "spans": []
+      },
+      {
+       "text": "17141",
+       "spans": []
+      },
+      {
+       "text": "10",
+       "spans": []
+      },
+      {
+       "text": "213",
+       "spans": []
+      },
+      {
+       "text": "3",
+       "spans": []
+      },
+      {
+       "text": "456",
+       "spans": []
+      },
+      {
+       "text": "682",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Fürstenthum",
+       "spans": []
+      },
+      {
+       "text": "3024",
+       "spans": []
+      },
+      {
+       "text": "152",
+       "spans": []
+      },
+      {
+       "text": "3340",
+       "spans": []
+      },
+      {
+       "text": "11304",
+       "spans": []
+      },
+      {
+       "text": "17820",
+       "spans": []
+      },
+      {
+       "text": "32",
+       "spans": []
+      },
+      {
+       "text": "258",
+       "spans": []
+      },
+      {
+       "text": "4",
+       "spans": []
+      },
+      {
+       "text": "655",
+       "spans": []
+      },
+      {
+       "text": "949",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "",
+       "spans": [],
+       "empty": true
+      },
+      {
+       "text": "",
+       "spans": [],
+       "empty": true
+      },
+      {
+       "text": "",
+       "spans": [],
+       "empty": true
+      },
+      {
+       "text": "",
+       "spans": [],
+       "empty": true
+      },
+      {
+       "text": "",
+       "spans": [],
+       "empty": true
+      },
+      {
+       "text": "",
+       "spans": [],
+       "empty": true
+      },
+      {
+       "text": "",
+       "spans": [],
+       "empty": true
+      },
+      {
+       "text": "",
+       "spans": [],
+       "empty": true
+      },
+      {
+       "text": "",
+       "spans": [],
+       "empty": true
+      },
+      {
+       "text": "",
+       "spans": [],
+       "empty": true
+      },
+      {
+       "text": "",
+       "spans": [],
+       "empty": true
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "",
+       "spans": [],
+       "empty": true
+      },
+      {
+       "text": "3) Industrie.",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": [],
+       "empty": true
+      },
+      {
+       "text": "",
+       "spans": [],
+       "empty": true
+      },
+      {
+       "text": "",
+       "spans": [],
+       "empty": true
+      },
+      {
+       "text": "",
+       "spans": [],
+       "empty": true
+      },
+      {
+       "text": "4) Handel.",
+       "spans": []
+      },
+      {
+       "text": "",
+       "spans": [],
+       "empty": true
+      },
+      {
+       "text": "",
+       "spans": [],
+       "empty": true
+      },
+      {
+       "text": "",
+       "spans": [],
+       "empty": true
+      },
+      {
+       "text": "",
+       "spans": [],
+       "empty": true
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Städte",
+       "spans": []
+      },
+      {
+       "text": "2028",
+       "spans": []
+      },
+      {
+       "text": "2168",
+       "spans": []
+      },
+      {
+       "text": "360",
+       "spans": []
+      },
+      {
+       "text": "5556",
+       "spans": []
+      },
+      {
+       "text": "10112",
+       "spans": []
+      },
+      {
+       "text": "253",
+       "spans": []
+      },
+      {
+       "text": "196",
+       "spans": []
+      },
+      {
+       "text": "185",
+       "spans": []
+      },
+      {
+       "text": "611",
+       "spans": []
+      },
+      {
+       "text": "1245",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Plattland",
+       "spans": []
+      },
+      {
+       "text": "1407",
+       "spans": []
+      },
+      {
+       "text": "1660",
+       "spans": []
+      },
+      {
+       "text": "186",
+       "spans": []
+      },
+      {
+       "text": "4728",
+       "spans": []
+      },
+      {
+       "text": "7981",
+       "spans": []
+      },
+      {
+       "text": "201",
+       "spans": []
+      },
+      {
+       "text": "21",
+       "spans": []
+      },
+      {
+       "text": "104",
+       "spans": []
+      },
+      {
+       "text": "503",
+       "spans": []
+      },
+      {
+       "text": "829",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Landesth. Gera",
+       "spans": [
+        [
+         0,
+         14,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "3435",
+       "spans": []
+      },
+      {
+       "text": "3828",
+       "spans": []
+      },
+      {
+       "text": "546",
+       "spans": []
+      },
+      {
+       "text": "10284",
+       "spans": []
+      },
+      {
+       "text": "18093",
+       "spans": []
+      },
+      {
+       "text": "454",
+       "spans": []
+      },
+      {
+       "text": "217",
+       "spans": []
+      },
+      {
+       "text": "289",
+       "spans": []
+      },
+      {
+       "text": "1114",
+       "spans": []
+      },
+      {
+       "text": "2074",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Städte",
+       "spans": []
+      },
+      {
+       "text": "1188",
+       "spans": []
+      },
+      {
+       "text": "691",
+       "spans": []
+      },
+      {
+       "text": "120",
+       "spans": []
+      },
+      {
+       "text": "3067",
+       "spans": []
+      },
+      {
+       "text": "5066",
+       "spans": []
+      },
+      {
+       "text": "116",
+       "spans": []
+      },
+      {
+       "text": "47",
+       "spans": []
+      },
+      {
+       "text": "72",
+       "spans": []
+      },
+      {
+       "text": "271",
+       "spans": []
+      },
+      {
+       "text": "506",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Plattland",
+       "spans": []
+      },
+      {
+       "text": "1889",
+       "spans": []
+      },
+      {
+       "text": "1633",
+       "spans": []
+      },
+      {
+       "text": "133",
+       "spans": []
+      },
+      {
+       "text": "6257",
+       "spans": []
+      },
+      {
+       "text": "9912",
+       "spans": []
+      },
+      {
+       "text": "111",
+       "spans": []
+      },
+      {
+       "text": "17",
+       "spans": []
+      },
+      {
+       "text": "52",
+       "spans": []
+      },
+      {
+       "text": "266",
+       "spans": []
+      },
+      {
+       "text": "446",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Landesth. Schleiz",
+       "spans": [
+        [
+         0,
+         17,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "3077",
+       "spans": []
+      },
+      {
+       "text": "2324",
+       "spans": []
+      },
+      {
+       "text": "253",
+       "spans": []
+      },
+      {
+       "text": "9324",
+       "spans": []
+      },
+      {
+       "text": "14978",
+       "spans": []
+      },
+      {
+       "text": "227",
+       "spans": []
+      },
+      {
+       "text": "64",
+       "spans": []
+      },
+      {
+       "text": "124",
+       "spans": []
+      },
+      {
+       "text": "537",
+       "spans": []
+      },
+      {
+       "text": "952",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Städte",
+       "spans": []
+      },
+      {
+       "text": "590",
+       "spans": []
+      },
+      {
+       "text": "445",
+       "spans": []
+      },
+      {
+       "text": "87",
+       "spans": []
+      },
+      {
+       "text": "1766",
+       "spans": []
+      },
+      {
+       "text": "2888",
+       "spans": []
+      },
+      {
+       "text": "70",
+       "spans": []
+      },
+      {
+       "text": "18",
+       "spans": []
+      },
+      {
+       "text": "34",
+       "spans": []
+      },
+      {
+       "text": "169",
+       "spans": []
+      },
+      {
+       "text": "291",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Plattland",
+       "spans": []
+      },
+      {
+       "text": "1134",
+       "spans": []
+      },
+      {
+       "text": "1444",
+       "spans": []
+      },
+      {
+       "text": "140",
+       "spans": []
+      },
+      {
+       "text": "4452",
+       "spans": []
+      },
+      {
+       "text": "7170",
+       "spans": []
+      },
+      {
+       "text": "121",
+       "spans": []
+      },
+      {
+       "text": "19",
+       "spans": []
+      },
+      {
+       "text": "69",
+       "spans": []
+      },
+      {
+       "text": "307",
+       "spans": []
+      },
+      {
+       "text": "516",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Ldth. Lob.-Ebersd.",
+       "spans": [
+        [
+         0,
+         18,
+         "Location"
+        ]
+       ]
+      },
+      {
+       "text": "1724",
+       "spans": []
+      },
+      {
+       "text": "1889",
+       "spans": []
+      },
+      {
+       "text": "227",
+       "spans": []
+      },
+      {
+       "text": "6218",
+       "spans": []
+      },
+      {
+       "text": "10058",
+       "spans": []
+      },
+      {
+       "text": "191",
+       "spans": []
+      },
+      {
+       "text": "37",
+       "spans": []
+      },
+      {
+       "text": "103",
+       "spans": []
+      },
+      {
+       "text": "476",
+       "spans": []
+      },
+      {
+       "text": "807",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Städte",
+       "spans": []
+      },
+      {
+       "text": "3806",
+       "spans": []
+      },
+      {
+       "text": "3304",
+       "spans": []
+      },
+      {
+       "text": "567",
+       "spans": []
+      },
+      {
+       "text": "10389",
+       "spans": []
+      },
+      {
+       "text": "18066",
+       "spans": []
+      },
+      {
+       "text": "439",
+       "spans": []
+      },
+      {
+       "text": "261",
+       "spans": []
+      },
+      {
+       "text": "291",
+       "spans": []
+      },
+      {
+       "text": "1051",
+       "spans": []
+      },
+      {
+       "text": "2042",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Plattland",
+       "spans": []
+      },
+      {
+       "text": "4430",
+       "spans": []
+      },
+      {
+       "text": "4737",
+       "spans": []
+      },
+      {
+       "text": "459",
+       "spans": []
+      },
+      {
+       "text": "15437",
+       "spans": []
+      },
+      {
+       "text": "25063",
+       "spans": []
+      },
+      {
+       "text": "433",
+       "spans": []
+      },
+      {
+       "text": "57",
+       "spans": []
+      },
+      {
+       "text": "225",
+       "spans": []
+      },
+      {
+       "text": "1076",
+       "spans": []
+      },
+      {
+       "text": "1791",
+       "spans": []
+      }
+     ]
+    },
+    {
+     "role": "body",
+     "cells": [
+      {
+       "text": "Fürstenthum",
+       "spans": []
+      },
+      {
+       "text": "8236",
+       "spans": []
+      },
+      {
+       "text": "8041",
+       "spans": []
+      },
+      {
+       "text": "1026",
+       "spans": []
+      },
+      {
+       "text": "25826",
+       "spans": []
+      },
+      {
+       "text": "43129",
+       "spans": []
+      },
+      {
+       "text": "872",
+       "spans": []
+      },
+      {
+       "text": "318",
+       "spans": []
+      },
+      {
+       "text": "516",
+       "spans": []
+      },
+      {
+       "text": "2127",
+       "spans": []
+      },
+      {
+       "text": "3833",
+       "spans": []
+      }
+     ]
+    }
+   ],
+   "grid": [
+    [
+     "Landestheile.",
+     "1) Land- u. Forstwirthschaft.",
+     "",
+     "",
+     "",
+     "",
+     "2) Bergbau.",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "Selbstständig",
+     "Gehilfen.",
+     "Dienstboten.",
+     "Famil.-glieder.",
+     "Summe.",
+     "Selbstständig",
+     "Gehilfen.",
+     "Dienstboten.",
+     "Famil.-glieder.",
+     "Summe."
+    ],
+    [
+     "Städte",
+     "63",
+     "39",
+     "25",
+     "187",
+     "314",
+     "—",
+     "2",
+     "—",
+     "—",
+     "2"
+    ],
+    [
+     "Plattland",
+     "1007",
+     "69",
+     "1371",
+     "3588",
+     "6035",
+     "2",
+     "—",
+     "—",
+     "6",
+     "8"
+    ],
+    [
+     "Landesth. Gera",
+     "1070",
+     "108",
+     "1396",
+     "3775",
+     "6349",
+     "2",
+     "2",
+     "—",
+     "6",
+     "10"
+    ],
+    [
+     "Städte",
+     "47",
+     "6",
+     "49",
+     "113",
+     "215",
+     "15",
+     "18",
+     "1",
+     "101",
+     "135"
+    ],
+    [
+     "Plattland",
+     "961",
+     "16",
+     "1150",
+     "3707",
+     "5834",
+     "1",
+     "15",
+     "—",
+     "40",
+     "56"
+    ],
+    [
+     "Landesth. Schleiz",
+     "1008",
+     "22",
+     "1199",
+     "3820",
+     "6049",
+     "16",
+     "33",
+     "1",
+     "141",
+     "191"
+    ],
+    [
+     "Städte",
+     "25",
+     "6",
+     "38",
+     "81",
+     "150",
+     "7",
+     "25",
+     "—",
+     "98",
+     "130"
+    ],
+    [
+     "Plattland",
+     "921",
+     "16",
+     "707",
+     "3628",
+     "5272",
+     "7",
+     "198",
+     "3",
+     "410",
+     "618"
+    ],
+    [
+     "Ldth. Lob.-Ebersd.",
+     "946",
+     "22",
+     "745",
+     "3709",
+     "5422",
+     "14",
+     "223",
+     "3",
+     "508",
+     "748"
+    ],
+    [
+     "Städte",
+     "135",
+     "51",
+     "112",
+     "381",
+     "679",
+     "22",
+     "45",
+     "1",
+     "199",
+     "267"
+    ],
+    [
+     "Plattland",
+     "2889",
+     "101",
+     "3228",
+     "10923",
+     "17141",
+     "10",
+     "213",
+     "3",
+     "456",
+     "682"
+    ],
+    [
+     "Fürstenthum",
+     "3024",
+     "152",
+     "3340",
+     "11304",
+     "17820",
+     "32",
+     "258",
+     "4",
+     "655",
+     "949"
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "3) Industrie.",
+     "",
+     "",
+     "",
+     "",
+     "4) Handel.",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Städte",
+     "2028",
+     "2168",
+     "360",
+     "5556",
+     "10112",
+     "253",
+     "196",
+     "185",
+     "611",
+     "1245"
+    ],
+    [
+     "Plattland",
+     "1407",
+     "1660",
+     "186",
+     "4728",
+     "7981",
+     "201",
+     "21",
+     "104",
+     "503",
+     "829"
+    ],
+    [
+     "Landesth. Gera",
+     "3435",
+     "3828",
+     "546",
+     "10284",
+     "18093",
+     "454",
+     "217",
+     "289",
+     "1114",
+     "2074"
+    ],
+    [
+     "Städte",
+     "1188",
+     "691",
+     "120",
+     "3067",
+     "5066",
+     "116",
+     "47",
+     "72",
+     "271",
+     "506"
+    ],
+    [
+     "Plattland",
+     "1889",
+     "1633",
+     "133",
+     "6257",
+     "9912",
+     "111",
+     "17",
+     "52",
+     "266",
+     "446"
+    ],
+    [
+     "Landesth. Schleiz",
+     "3077",
+     "2324",
+     "253",
+     "9324",
+     "14978",
+     "227",
+     "64",
+     "124",
+     "537",
+     "952"
+    ],
+    [
+     "Städte",
+     "590",
+     "445",
+     "87",
+     "1766",
+     "2888",
+     "70",
+     "18",
+     "34",
+     "169",
+     "291"
+    ],
+    [
+     "Plattland",
+     "1134",
+     "1444",
+     "140",
+     "4452",
+     "7170",
+     "121",
+     "19",
+     "69",
+     "307",
+     "516"
+    ],
+    [
+     "Ldth. Lob.-Ebersd.",
+     "1724",
+     "1889",
+     "227",
+     "6218",
+     "10058",
+     "191",
+     "37",
+     "103",
+     "476",
+     "807"
+    ],
+    [
+     "Städte",
+     "3806",
+     "3304",
+     "567",
+     "10389",
+     "18066",
+     "439",
+     "261",
+     "291",
+     "1051",
+     "2042"
+    ],
+    [
+     "Plattland",
+     "4430",
+     "4737",
+     "459",
+     "15437",
+     "25063",
+     "433",
+     "57",
+     "225",
+     "1076",
+     "1791"
+    ],
+    [
+     "Fürstenthum",
+     "8236",
+     "8041",
+     "1026",
+     "25826",
+     "43129",
+     "872",
+     "318",
+     "516",
+     "2127",
+     "3833"
+    ]
+   ],
+   "caption": null,
+   "sec": "t1-3-1"
+  }
+ ],
+ "footnotes": [],
+ "corrections": [
+  {
+   "rule": "table_multirow_header",
+   "rows": 2,
+   "block": "b3"
+  },
+  {
+   "rule": "signature_from_paragraph",
+   "value": "14"
+  }
+ ],
+ "provenance": {
+  "source": "colab-2026-03",
+  "model": "gemini-3-flash-preview",
+  "timestamp": "2026-03-03T15:48:46.805314",
+  "early_schema": false
+ },
+ "section_path": [
+  "t1",
+  "t1-3",
+  "t1-3-1"
+ ],
+ "sections": [
+  "t1-3-1"
+ ]
+}
